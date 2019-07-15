@@ -5,7 +5,7 @@ seo-title: 貢獻分析概述
 title: 貢獻分析概述
 uuid: 2bd295b0-c5 ce-4443-86af-024efd20 c021
 translation-type: tm+mt
-source-git-commit: 1b8cfad731646523844aa420b38137a929383462
+source-git-commit: ca632da6b6181298af4b313fbd232926fbbfa125
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: 1b8cfad731646523844aa420b38137a929383462
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我該如何限制對「貢獻分析」的存取權?</b> </p> </td> 
-   <td colname="col2"> <p>根據預設，只有管理員能夠執行貢獻分析，但管理員可以在[Admin Console](https://helpx.adobe.com/enterprise/using/user-groups.html)中建立權限群組，將存取權授與其他使用者。您只應將使用「貢獻分析」的權限授予有正當理由的使用者，並確認他們不會濫用存取權。 </p> <p>此權限稱為「貢獻分析」，其位於<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span></span>當中。 </p> </td> 
+   <td colname="col2"> <p>By default, only admins have access to run Contribution Analyses, but admins can grant access to other users by creating a permission group in the <a href="https://https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> Admin Console </a>. 您應僅授予使用「貢獻分析」的使用者使用「貢獻分析」的權限，且受信任且不會濫用其存取權的使用者。 </p> <p>此權限稱為「貢獻分析」，其位於<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span></span>當中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我該如何得知敝公司每個月有權使用多少代號，以及在當月中已使用的數量?</b> </p> </td> 
