@@ -4,7 +4,7 @@ seo-title: Adobe Analytics的Labs
 description: 預覽Adobe Analytics的原型專案
 seo-description: 預覽Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: a4965f985a40521757e58c6be5988f831461a50a
+source-git-commit: 38e2011175d70189197af1cabe48ad767c312f37
 
 ---
 
@@ -69,4 +69,4 @@ Labs會自動啓用所有管理員。其他團隊成員應聯絡其產品管理�
 
 * Labs中有些原型會成為Analytics功能，有些則否。您的意見回應會推動這項決策，因此請仔細審閱原型，讓Adobe知道您有多寶貴。
 
-* 技術預覽適用於所有SKU權益。
+* Labs適用於所有SKU權益。
