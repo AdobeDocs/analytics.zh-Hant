@@ -4,7 +4,7 @@ seo-title: Adobe Analytics的Labs
 description: 預覽Adobe Analytics的原型專案
 seo-description: 預覽Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: 38e2011175d70189197af1cabe48ad767c312f37
+source-git-commit: 0fd156b145eca1a370b7d1f36479adcca43f73e1
 
 ---
 
@@ -66,6 +66,8 @@ Labs會自動啓用所有管理員。其他團隊成員應聯絡其產品管理�
 1. Click **Submit** to return to the main Previews portal.
 
 ## 其他資訊
+
+* Labs目前僅提供給一些測試版客戶，但稍後將會廣泛發行。
 
 * Labs中有些原型會成為Analytics功能，有些則否。您的意見回應會推動這項決策，因此請仔細審閱原型，讓Adobe知道您有多寶貴。
 
