@@ -4,13 +4,15 @@ seo-title: Adobe Analytics的Labs
 description: 預覽Adobe Analytics的原型專案
 seo-description: 預覽Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: 0337fa82484d760f90758a72df8b08a0915112d7
+source-git-commit: a5f1527d899b65d9c2e0c05a72bd4b4e6614ad75
 
 ---
 
 
 
 # Labs使用指南
+
+注意：Labs目前已發行，可提早存取有限的客戶，但日後將會廣泛發行。
 
 Labs可讓您快速建立初步構想的原型。它是一種結合工具和程序的組合，可讓客戶更順暢地加速開發。它可讓使用者與新興技術互動，發掘寶貴的見解，並影響未來的功能發展與優先順序。您可以使用Labs提早存取Analytics創新，並在您自己的商業使用案例和資料中評估即將推出的功能。
 
@@ -66,8 +68,6 @@ Labs會自動啓用所有管理員。其他團隊成員應聯絡其產品管理�
 1. Click **Submit** to return to the main Previews portal.
 
 ## 其他資訊
-
-* Labs目前已發行，可提早存取有限的客戶，但日後將會廣泛發行。
 
 * Labs中有些原型會成為Analytics功能，有些則否。您的意見回應會推動這項決策，因此請仔細審閱原型，讓Adobe知道您有多寶貴。
 
