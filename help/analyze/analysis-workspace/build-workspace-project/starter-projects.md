@@ -5,7 +5,7 @@ seo-title: 範本
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9 a9503 Fe00
 translation-type: tm+mt
-source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
+source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 ---
 
@@ -92,14 +92,6 @@ source-git-commit: 3dd864f51331d54cebc249498bedff79958cb156
 [YouTube分析工作區中的標準範本](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2：46)
 
 以下為可用範本和每個範本的問題解答：
-
-### 廣告
-
-* **Seach引擎**：此範本打破廣告趨勢、廣告平台總計、關鍵字等。**注意：** 您所選擇的報表套裝必須啓用Advertising Cloud，才能顯示此範本專案。
-
-## 商務
-
-* **Magento：行銷與商務**：此範本可依據行銷管道歸因劃分您的電子商務轉換，並透過搜尋關鍵字、著陸頁面、地理位置等提供深入見解。
 
 ### 媒體
 
