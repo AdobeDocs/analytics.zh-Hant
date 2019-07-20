@@ -53,7 +53,7 @@ Google Analytics中的電子商務報表和Adobe Analytics中的產品報表都�
 
 輔助轉換會顯示每個渠道有多少次協助轉換。In Analysis Workspace, the **Order Assists** metric can be used.
 
-1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Marketing Channel** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the **Order Assists** metric on top of the automatically created **Occurrences** metric header to replace it. 如有需要，可拖曳其他量度至工作區。
 
 ### 多頻道-熱門轉換路徑
@@ -61,7 +61,7 @@ Google Analytics中的電子商務報表和Adobe Analytics中的產品報表都�
 頂端轉換路徑報告會顯示使用者在轉換前所採取的最大頻道路徑。分析工作區使用流量報告來視覺化排名最前的轉換路徑。
 
 1. 按一下左側的「面板」圖示，並將「屬性」面板拖曳至自由表格上方。
-2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled &#39;Add Dimension&#39;.
+2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled 'Add Dimension'.
 3. 在「度量」下找出所要的轉換事件(例如訂購)，並將其拖曳至標示為「新增量度」的方塊。請注意，「歸因」面板不支援計算量度。
 4. 按一下「建立」。
 5. 在產生的報表中，找出「頻道流量」視覺化。此流量顯示訪客在購買之前所接觸的頂端路徑。
@@ -74,14 +74,14 @@ Google Analytics中的電子商務報表和Adobe Analytics中的產品報表都�
 
 時間延遲報告顯示訪客在您的網站上轉換的時間長度。In Analysis Workspace, this data is available using the **Days Before First Purchase** dimension. 它僅適用於正確實作購買事件的上下文。
 
-1. In the Components menu, locate the **Days Before First Purchase** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Days Before First Purchase** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Orders**, **Units**, or **Revenue** metrics with this dimension.
 
 For other types of conversions, including custom events, the **Time Prior to Event** dimension is available. 它會在幾分鐘內顯示訪客在瀏覽中觸發事件的時間長度。
 
-1. In the Components menu, locate the **Time Prior to Event** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Time Prior to Event** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe建議您搭配自訂事件或購買事件使用此維度。
@@ -91,7 +91,7 @@ Adobe建議您搭配自訂事件或購買事件使用此維度。
 路徑長度報表會顯示轉換事件之前所接觸的頻道數。在分析工作區中，「歸因」面板包含其中一個視覺化資料。
 
 1. 按一下左側的「面板」圖示，並將「屬性」面板拖曳至自由表格上方
-2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled &#39;Add Dimension&#39;.
+2. Click the Components icon on the left, locate the **Marketing Channel** dimension, and drag it to the box labeled 'Add Dimension'.
 3. 在「度量」下找出所要的轉換事件(例如訂購)，並將其拖曳至標示為「新增量度」的方塊。請注意，「歸因」面板不支援計算量度。
 4. 按一下「建立」。
 5. 在產生的報表中，找出「每個歷程的接觸點」視覺化。此色階分布圖顯示訪客在購買之前所接觸的頻道數。
