@@ -28,12 +28,12 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 頁面報表顯示網站上個別頁面的績效。
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 另外，Adobe提供一些預先建立的工作區，稱為範本。內容消費(Web)範本提供類似於所有頁面報表的值。
 
-1. Click *[!UICONTROL Project] &gt; [!UICONTROL New]*, which opens a modal window with project options.
+1. Click *[!UICONTROL Project]&gt;[!UICONTROL New]*, which opens a modal window with project options.
 2. 按一下內容消費(網頁)範本，然後按一下「建立」。
 
 ## 網站內容-內容Drill Drill
@@ -44,7 +44,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 著陸頁面報告會顯示網站上的排名最前的著陸頁面。Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Visits** metric for this dimension.
@@ -53,7 +53,7 @@ Adobe recommends using the **Visits** metric for this dimension.
 
 退出頁面報告會顯示成為個人瀏覽最後一頁的排名最前的頁面。它可在相同名稱的分析工作區中使用。
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled &#39;Drop a Dimension here&#39;.
+1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
 2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
 
 Adobe recommends using the **Visits** metric for this dimension.
