@@ -33,7 +33,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 ## 「僅限序列之前」與「僅限序列之後」 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
-**[!UICONTROL 「僅限序列之前」]** 與 **「僅限序列之後」[!UICONTROL 選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
+**[!UICONTROL 「僅限序列之前」]**&#x200B;與&#x200B;**「僅限序列之後」[!UICONTROL 選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
 
 * **「僅限序列之前」**: 包括序列之前的所有點擊，以及該序列本身的首次點擊 (請參閱範例 1、3)。如果序列在路徑中出現多次，則「僅限序列之前」包括最後一個出現序列的首次點擊，以及先前的所有點擊 (請參閱範例 2)。
 * **「僅限序列之後」**: 包括序列之後的所有點擊，以及該序列本身的最後點擊 (請參閱範例 1、3)。如果序列在路徑中出現多次，則「僅限序列之後」包括第一個出現序列的最後點擊，以及之後的所有點擊 (請參閱範例 2)。
@@ -73,7 +73,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 | 如果結果… | 序列 |
 |--- |--- |
 | 符合 | A 然後 B |
-| 不符合 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, &quot;A then B&quot; and &quot;A then C then B&quot; would both match. |
+| 不符合 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
 
 ## 簡單頁面檢視序列
 
@@ -109,7 +109,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 **建立此區段**
 
-此範例會在頂層的「**[!UICONTROL ** 訪客]」容器內巢狀內嵌兩個「**[!UICONTROL 瀏覽]」容器，並使用[!UICONTROL THEN]運算子排序區段。**
+此範例會在頂層的「**[!UICONTROL **&#x200B;訪客]」容器內巢狀內嵌兩個「**[!UICONTROL 瀏覽]」容器，並使用[!UICONTROL THEN]運算子排序區段。**
 
 ![](assets/visitor_seq_across_visits.png)
 
@@ -179,7 +179,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 例如:
 
-* **排除頁面**。使用區段規則從報表中剔除特定頁面 (如*`Home Page`*) 從報表建立頁面等於「首頁」的點擊規則，然後排除它。此規則會自動包含「首頁」以外的所有值。
+* **排除頁面**。使用區段規則從報表中剔除特定頁面 (如&#x200B;*`Home Page`*) 從報表建立頁面等於「首頁」的點擊規則，然後排除它。此規則會自動包含「首頁」以外的所有值。
 * **排除反向連結網域**。使用僅包含來自 Google.com 之反向連結網域的規則，然後排除所有其他值。
 * **找出未購買者**。找出訂單大於零的情形，然後排除該[!UICONTROL 訪客]。
 
@@ -364,7 +364,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **符合**
 
-設定 &quot;After 2 weeks&quot; 時，如果點擊頁面 A 發生在 2019 年 6 月 1 日 00:01，則後續點擊頁面 B 只要發生在 2019 年 6 月 15 日 00:01 之前 (14 天後) 便符合。
+設定 "After 2 weeks" 時，如果點擊頁面 A 發生在 2019 年 6 月 1 日 00:01，則後續點擊頁面 B 只要發生在 2019 年 6 月 15 日 00:01 之前 (14 天後) 便符合。
 
 | 點擊 A | 點擊 B | 比對 |
 |--- |--- |--- |
@@ -400,13 +400,13 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 ![](assets/time_between_using_both_operators.png)
 
-**建立區段**：在訪客容器內排序兩個 [!UICONTROL 點擊] 容器，以建立 [!UICONTROL ] 區段。然後設定 [!UICONTROL After] 和 [!UICONTROL Within] 運算子。
+**建立區段**：在訪客容器內排序兩個 [!UICONTROL 點擊] 容器，以建立  區段。然後設定 [!UICONTROL After] 和 [!UICONTROL Within] 運算子。
 
 ![](assets/within_after_together.png)
 
 **符合**
 
-在 2019 年 6 月 1 日點擊頁面 A，然後在 2019 年 6 月 15 日 00:01 之後及 2019 年 7 月 1 日*之前*返回的任何訪客，都會納入區段。與[時間介於排除](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)比較。
+在 2019 年 6 月 1 日點擊頁面 A，然後在 2019 年 6 月 15 日 00:01 之後及 2019 年 7 月 1 日&#x200B;*之前*&#x200B;返回的任何訪客，都會納入區段。與[時間介於排除](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)比較。
 
 [!UICONTROL After] 和 [!UICONTROL Within] 運算子可一起使用來定義循序區段。
 
