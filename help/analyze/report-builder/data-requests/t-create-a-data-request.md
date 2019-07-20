@@ -1,0 +1,39 @@
+---
+description: 建立基本Report Builder資料請求的步驟。
+seo-description: 建立基本Report Builder資料請求的步驟。
+seo-title: 建立報告建立工具資料請求
+solution: Analytics
+title: 建立資料請求
+topic: Report Builder
+uuid: 5d0151f1-e23 d-43eb-84a4-96ae06 c3 a564
+translation-type: tm+mt
+source-git-commit: 65b3c25288060b1b6d0b9590a8fdca4087f416a0
+
+---
+
+
+# 建立報告建立工具資料請求
+
+建立基本資料請求的步驟。
+
+1. In Excel, click **[!UICONTROL Create]**.
+1. In the [!UICONTROL Request Wizard: Step 1] window, select a [report suite](../../../analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md#task_59444416F6F042D1998217AE91580913).
+1. (選用項目) 選取套用至請求的區段。選取一個或多個區段後，它們就會移動到清單頂部。
+
+   Report Builder 使用區段的方式，與 Adobe Analytics 使用區段的方式相同。請參閱 [Analytics 分段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。1. (Optional) Select a [publishing list](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C) to use for distribution.
+1. Select a [report type](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC).
+1. Specify a [date range](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md) and report [granularity](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
+1. Click **[!UICONTROL Next]**.
+1. In the [Layout - Request Wizard Step 2](../../../analyze/report-builder/layout/layout.md#concept_D66E1C2217E24E1F837AC064C61919DB) window, specify a layout:
+
+   | 元素 | 說明 |
+   |---|---|
+   | 樞紐配置 | 提供與標準 Excel 表格相似的列、欄及度量格線配置。 使用此配置時，您可以在原始請求中新增分支請求。 |
+   | 自訂配置 | 提供「[!UICONTROL 樞紐配置]」的大部分功能，且可讓您選取將格線中的各個項目放置於試算表中的位置。 這項配置提供舊版富有的彈性。 |
+
+1. 在[!UICONTROL 「度量」]索引標籤中，按兩下 (或拖曳) 樹狀檢視中的度量以將其新增至[!UICONTROL 「度量」]格線。
+1. 在[!UICONTROL 「維度」]索引標籤中，按兩下 (或拖曳) 維度以將其加入[!UICONTROL 「列標籤」]格線。
+
+   「步驟 2」提供的[維度](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=dimensions)取決於在「步驟 1」選擇的基礎報表，以及報表套裝的組態。維度是能關聯、子關聯於您在「[!UICONTROL 請求精靈: 步驟 1]」視窗中選擇的原始報表類型度量或屬於其分類的項目。在步驟 2 新增多個維度是在資料請求中建立分支的方式。
+
+   請參閱[新增度量和維度](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4)以取得詳細資訊。
