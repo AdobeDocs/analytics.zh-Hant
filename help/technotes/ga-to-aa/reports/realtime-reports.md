@@ -19,7 +19,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
 2. In the left menu, Click *[!UICONTROL Site Metrics]* &gt; *[!UICONTROL Real-Time]*.
-3. 如果報表套裝尚未啓用即時功能，則會顯示訊息以設定報表套裝的連結。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+3. 如果報表套裝尚未啓用即時功能，則會顯示訊息以設定報表套裝的連結。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report's title.
 
 Adobe最多允許三個即時報告同時收集資料。每項都必須先設定，才能開始收集資料。
 
@@ -29,7 +29,7 @@ Adobe最多允許三個即時報告同時收集資料。每項都必須先設定
 
 即時位置可告訴您訪客在目前的時間瀏覽您的網站。若要設定三個即時報表之一，以顯示位置資料：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. 在其中一個即時報表槽下方：
    * 為您的即時報告命名；例如「位置」。
    * 例項通常用作度量。目前報告中無法使用使用者/獨特訪客。
@@ -53,7 +53,7 @@ Adobe最多允許三個即時報告同時收集資料。每項都必須先設定
 
 即時內容會告訴您訪客目前正在檢視哪些頁面。若要設定三個即時報表之一，以顯示內容資料：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. 在其中一個即時報表槽下方：
    * 為您的即時報告命名；例如「內容」。
    * 例項通常用作度量。目前報告中無法使用使用者/獨特訪客。
@@ -71,7 +71,7 @@ Adobe最多允許三個即時報告同時收集資料。每項都必須先設定
 
 即時轉換可在不同平台之間以不同的方式呈現資料。Google Analytics中的目標是Adobe Analytics中的度量和成功事件。您可以在「即時報表」中使用Adobe Analytics中的大部分度量(例如成功事件和收入等標準量度)。與Google Analytics類似，您也可以在即時報告中套用產品名稱、追蹤代碼和促銷活動績效等維度。
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. Click [!UICONTROL Configure] near the real-time report's title.
 2. 在其中一個即時報表槽下方：
    * 為您的即時報告命名；例如「轉換」。
    * 例項通常用作度量。目前報告中無法使用使用者/獨特訪客。
