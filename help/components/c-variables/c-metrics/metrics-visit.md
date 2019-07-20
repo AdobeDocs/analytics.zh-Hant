@@ -1,0 +1,52 @@
+---
+description: 某一段時間的頁面檢視順序。瀏覽量度常用在會顯示所選時段內之使用者工作階段數的報告中。
+keywords: 瀏覽
+seo-description: 某一段時間的頁面檢視順序。瀏覽度量常用在會顯示所選時段內之使用者工作階段數的報表中。
+seo-title: 瀏覽
+solution: Analytics
+title: 造訪
+topic: 量度
+uuid: 91317487-f116-4546-8cd2-421418c49 a7 a
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# 瀏覽
+
+某一段時間的頁面檢視順序。瀏覽量度常用在會顯示所選時段內之使用者工作階段數的報告中。
+
+>[!NOTE]
+>
+>For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+
+瀏覽量度一律與時段關聯，所以當相同訪客返回您的網站時，可以知道是否要計算為新的瀏覽。作業會在使用者第一次進入您的網站時開始，並在下列其中一個情況發生時結束:
+
+* **未活動達 30 分鐘**: 幾乎所有的工作階段都會以此方式結束。若兩個影像要求之間相隔超過 30 分鐘，則會起始新瀏覽。
+* **連續活動達 12 小時**: 若使用者以低於 30 分鐘的間隔持續引發影像要求達 12 小時，則會自動起始新瀏覽。
+* **2500 次點擊:** 如果使用者產生大量點擊而未起始新作業階段，則在 2500 個影像請求後會計為新瀏覽。
+* **100 秒內 100 次點擊**: 如果一次瀏覽包含在 100 秒內發生 100 次點擊，該次瀏覽會自動結束。這種行為通常代表機器人活動，因此強制實施此限制來預防這些需要大量處理的瀏覽，以免增加延遲以及提高產生報告所需時間。
+
+>[!NOTE]
+>
+>如果特別要求，報表套裝的瀏覽定義可以縮短，但無法加長。請讓您組織的受支援使用者之一聯絡客戶服務，請求這項變更。
+
+在下列情況下不會起始新瀏覽:
+
+* 使用者在 30 分鐘內關閉標籤又重新開啟，接著再次導覽回您的網站。使用者就算關閉瀏覽器或將電腦重新開機，仍計為同一次瀏覽 (只要他們在 30 分鐘內導覽回您的網站)。
+* 使用者在多個標籤中瀏覽您的網站。雖然多標籤瀏覽並不會增加瀏覽數或訪客數，但使用個別的瀏覽器則會增加。這是因為不同的標籤會參照相同的 Cookie，但個別瀏覽器則否。
+
+一次瀏覽不一定與瀏覽器作業階段相符。例如，如果訪客關閉瀏覽器，五分鐘後重新開啟瀏覽器並來到您的網站，則會認為是同一次瀏覽的持續。這也意味著，如果訪客停在某一網頁 35 分鐘，系統便會關閉此次瀏覽並加以處理，而當他們點進另一網頁時，則開始一次新瀏覽。
+
+瀏覽結束時，含瀏覽過期的所有變數都會過期且不再保存。瀏覽數量度將在該訪客下一次造訪時遞增。
+
+>[!NOTE]
+>
+>If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+
+如需詳細資訊，請參閱「Adobe Analytics 實施指南」中的[識別不重複訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)。
+
+**時段**
+
+每個時段發生活動時便會回報瀏覽。例如，假設某個瀏覽始於 12 月 1 日晚上 11:45，持續到 12 月 2 日凌晨 12:30。此瀏覽會計入 12 月 1 日和 12 月 2 日。此報告適用於其他時間段，包括每週、每月、每季以及每年。
