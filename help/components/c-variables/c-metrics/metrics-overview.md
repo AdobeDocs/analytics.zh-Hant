@@ -1,0 +1,193 @@
+---
+description: 列出 Adobe Analytics 中的標準量度。
+seo-description: 列出 Adobe Analytics 中的標準量度。
+seo-title: 量度快速參考
+solution: Analytics
+title: 量度快速參考
+topic: 量度
+uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# 量度快速參考
+
+列出 Adobe Analytics 中的標準量度。
+
+>[!NOTE]
+>
+>Any metric (event) not listed below is a [custom metric](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (event).
+
+<table id="table_CF4480B640BD4C81B4B32121FED5C96A"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> 量度名稱 </th> 
+   <th colname="col2" class="entry"> 說明 </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> 平均頁面深度 </td> 
+   <td colname="col2"> 顯示瀏覽內每個值引發所在處的平均深度。在判斷您的訪客經過多深入的瀏覽後才進入指定頁面或 prop 值時，這會是很有價值的量度。平均頁面深度可用於任何已啟用路徑的變數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 平均頁面逗留時間 </td> 
+   <td colname="col2"> 表示一次瀏覽中停留在一個頁面的平均時間。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 網站平均逗留時間 </td> 
+   <td colname="col2"> 表示一次瀏覽中停留在一個網站的平均時間。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 反彈率 </td> 
+   <td colname="col2"> 顯示包含單一點擊之瀏覽的百分比。反彈率使用「彈回數」量度，算法是:「彈回數」除以「登入點」。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 彈回數 </td> 
+   <td colname="col2"> 包含單一伺服器呼叫的瀏覽。例如，如果訪客沒有用將資料傳送至 Adobe 的方式與頁面互動，例如按一下連結或啟動影片，則單次頁面瀏覽即為彈回數。如果一次瀏覽收到不只一個點擊，則不計算彈回數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 促銷活動點進次數 </td> 
+   <td colname="col2"> 點進次數代表指定促銷活動的追蹤程式碼傳入報告中的次數。當訪客點按已使用其中一個追蹤程式碼標示的附屬連結時，訪客即會被帶入您的登陸頁面，而追蹤程式碼則會擷取至 s.campaign。該項資料會傳入報告中，並記錄一次點進。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 購物車新增 </td> 
+   <td colname="col2"> 項目新增至購物車的次數。此值來自於 scAdd 事件。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 購物車開啟 </td> 
+   <td colname="col2"> 客戶因新增第一個項目而開啟購物車的次數。發生於首次將項目新增至購物車時。此值來自於 scOpen 事件。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 購物車移除 </td> 
+   <td colname="col2"> 從購物車移除項目的次數。此值來自於 scRemove 事件。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 購物車 </td> 
+   <td colname="col2"> 開啟或初始化新購物車的次數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 購物車檢視 </td> 
+   <td colname="col2"> 客戶檢視購物車內容的次數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 結帳 </td> 
+   <td colname="col2"> 客戶到達購買過程結帳步驟的事件。結帳階段通常發生在購買完成之前，且在此期間客戶通常需輸入個人資訊 (如貨運和帳單資訊)。您可以完全掌控哪些事件在您的網站上構成結帳事件。此值來自於 scCheckout 事件。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 點進次數 </td> 
+   <td colname="col2">點進次數代表指定促銷活動的追蹤程式碼傳入報告中的次數。When a visitor clicks on an affiliate link that has been tagged with one of these tracking codes, the visitor is taken to your landing page and the tracking code is captured in <span class="varname"> s.campaign</span>. 該項資料會傳入報告中，並記錄一次點進。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 客戶 (新、回頭、忠誠) </td> 
+   <td colname="col2">「客戶忠誠度」報表的分類。 <p>新客戶: 購買 0 次的客戶。 </p> <p>回頭客戶: 購買 1 次的客戶。 </p> <p>忠誠客戶: 購買 1 次以上的客戶。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 每日回訪 </td> 
+   <td colname="col2"> 顯示在指定某天曾多次瀏覽網站的訪客數量。一天指過去的 24 個小時。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 登入點 </td> 
+   <td colname="col2"> 登入點代表指定的值在瀏覽中是被擷取的第一個值之次數。登入點在每次瀏覽時只能計入一次。但是，如果未定義變數，則不一定要是第一次點擊。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 退出點 </td> 
+   <td colname="col2"> 指定的值在瀏覽中是被擷取的最後一個值之次數。退出點在每次瀏覽中只能發生一次。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 例項 </td> 
+   <td colname="col2"> 設定變數之值的次數。會針對所有點擊類型計算例項，但由於持續性而在隨後的點擊上記錄變數的值時，則不計算例項。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 期限 </td> 
+   <td colname="col2"> 單一使用者的指定成功量度總量，例如一個使用者在期限內的瀏覽總數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 行動裝置檢視 </td> 
+   <td colname="col2"> 透過行動裝置存取時，檢視頁面或設定維度的次數。僅限 Ad Hoc Analysis。如不能使用行動裝置檢視量度，我們建議改為套用「來自行動裝置的瀏覽」區段。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 新增參與 </td> 
+   <td colname="col2"> 「新增參與」是一種行銷管道報告量度，計算來自於管道的新訪客。此量度也會計算最近 30 天未前來您網站的訪客。新增參與是在每次瀏覽 (原始分配) 開始時設定的 eVar。依訪客參與有效期的設定而定，首次接觸管道也可以是「新增參與」。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 發生次數 </td> 
+   <td colname="col2"> 擷取特定值的次數，加上有指定值存留的頁面檢視數目。換句話說，發生次數是頁面檢視與頁面事件的總和。發生次數僅適用於 Ad Hoc Analysis。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 訂購 </td> 
+   <td colname="col2"> 您的網站在所選時段內的訂購數。您可以依其他量度劃分特定的時段，以便在特定時間範圍內顯示促成最多訂購的項目 (如產品或促銷活動)。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 頁面深度 </td> 
+   <td colname="col2"> 使用者到達網站中的特定頁面時所使用的點按平均數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 頁面事件 </td> 
+   <td colname="col2"> 頁面事件包含來自非標準影像請求的影像請求資料。非標準影像請求的來源為下載連結、退出連結與自訂連結追蹤。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 頁面檢視 </td> 
+   <td colname="col2"> 每次傳送伺服器呼叫時，就會計算一次「頁面檢視」。這個量度代表「頁面檢視」的例項總數。TrackLink 呼叫不會計算為頁面檢視，也不會增加「頁面檢視」量度的數值。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 路徑檢視 </td> 
+   <td colname="col2"> <p>「路徑檢視」量度以路徑資料為基礎，系統會為所有接受永久性 Cookie 的使用者追蹤該項資料。 </p> <p>路徑檢視一詞用來表示依照顯示的路徑範圍內檢視某個頁面的次數。此量度會報告指定的頁面在選取的路徑內被檢視的次數。此量度適用於路徑報告。路徑檢視會顯示特定頁面依序被檢視的次數。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 產品檢視 </td> 
+   <td colname="col2"> 設定「產品檢視」的例項。在檢視產品詳細資料頁面時發生。此值來自於 prodView 事件。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 重新載入 </td> 
+   <td colname="col2"> 相同頁面名稱被連續載入兩次時就會列入計數。這通常表示頁面被重新整理。請注意，在同一次瀏覽中瀏覽相同頁面兩次不會計算為重新載入，除非這兩次瀏覽連續發生。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 回訪 </td> 
+   <td colname="col2"> 顯示瀏覽次數大於 1 的瀏覽數。回訪包含非 Cookie 訪客。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 收入 </td> 
+   <td colname="col2"> 收入會在購買事件發生時擷取，並定義為每項產品之總訂購量的總金額。此值來自於購買事件。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 搜尋 </td> 
+   <td colname="col2"> <p>搜尋不是預設量度，一定是自訂量度。 </p> <p>這是建議對搜尋引擎與關鍵字使用的預設量度。該量度表示點進例項，顯示與特定引擎或關鍵字相關的頁面。搜尋量度資料可報告至之前的資料集起點。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 單次存取 </td> 
+   <td colname="col2"> 「單次存取」的定義為對您網站的存取包含單一獨特「頁面名稱」值的瀏覽次數。若使用者來到您的網站並點按了追蹤連結、觸發事件 (例如影片檢視) 或重新載入頁面，該次瀏覽仍會計為單次存取瀏覽。只要 pageName 變數的值未變更，不管傳送多少請求，該次存取仍計為「單次存取」。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 逗留時間 </td> 
+   <td colname="col2"> 用以報告訪客在某頁面、網站或每次瀏覽所花費時間的量度。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 總計 </td> 
+   <td colname="col2"> 「總計」量度報告時段中所有報告明細項目的值。如果目前有選取篩選器，總計顯示的可能是篩選過的總計，而非報表套裝總計。如果未選取篩選器，則總計顯示的是報表套裝總計。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 獨特客戶 </td> 
+   <td colname="col2"> <p>(小時、天、週、月、季、年) </p> <p>「獨特客戶」在該時間範圍內只會計入一次，而不會再次計入，無論該訪客回訪並購買了多少次。「獨特訪客」只會在指定時段內的第一次瀏覽時計入，且在該時段到期前將不會再次計入。在該時段到期後，即會再次對獨特訪客計數。「獨特客戶」一律計為「獨特訪客」，因為他們必須瀏覽網站才能購物。 </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 獨特訪客 </td> 
+   <td colname="col2"> 顯示報告時段 (可設為小時、天、週、月、季、年) 的獨特訪客總人數。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 件數 </td> 
+   <td colname="col2"> 所選時段內的訂購總件數。由於您可在一次訂購中購買多件商品，因此商品件數是揭示總存貨流動的重要量度。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 訪客 </td> 
+   <td colname="col2"> 您的網站在選取的小時、日、週、月、季或年內的獨特訪客數量。 </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 瀏覽 </td> 
+   <td colname="col2"> <p>某一段時間的頁面檢視順序。瀏覽量度常用在會顯示所選時段內之使用者工作階段數的報告中。 </p> <p>瀏覽量度一律與時段關聯，所以當相同訪客返回您的網站時，可以知道是否要計算為新的瀏覽。 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
