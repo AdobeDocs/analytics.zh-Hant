@@ -30,11 +30,11 @@ File downloads and exit links can be automatically tracked based on parameters s
 
 **this**
 
-第一個引數應一律設為 this (預設值) 或 true。此引數會參照所點按的物件；在設為 &quot;this&quot; 時，將會參照連結的 HREF 屬性。
+第一個引數應一律設為 this (預設值) 或 true。此引數會參照所點按的物件；在設為 "this" 時，將會參照連結的 HREF 屬性。
 
 如果您在沒有HREF屬性的物件上實施連結追蹤，則應一律將此引數設為「this」。
 
-由於點按連結通常會將訪客帶離目前頁面，因此使用 500 毫秒的延遲，以確保影像要求會在使用者離開頁面之前傳送至 Adobe。只有在離開頁面時才需要此延遲，但在呼叫 s.tl() 函數時通常會出現此延遲。若您想要停用此延遲，請在呼叫 s.tl() 函數時將關鍵字 &#39;true&#39; 傳入為第一個參數。
+由於點按連結通常會將訪客帶離目前頁面，因此使用 500 毫秒的延遲，以確保影像要求會在使用者離開頁面之前傳送至 Adobe。只有在離開頁面時才需要此延遲，但在呼叫 s.tl() 函數時通常會出現此延遲。若您想要停用此延遲，請在呼叫 s.tl() 函數時將關鍵字 'true' 傳入為第一個參數。
 
 **linkType**
 
@@ -44,9 +44,9 @@ linkType 有三個可能的值，視您所要擷取的連結類型而定。若�
 
 | 類型 | linkType 值 |
 |--- |--- |
-| 檔案下載 | &#39;d&#39; |
-| 退出連結 | &#39;e&#39; |
-| 自訂連結 | &#39;o&#39; |
+| 檔案下載 | 'd' |
+| 退出連結 | 'e' |
+| 自訂連結 | 'o' |
 
 **linkName**
 
@@ -165,7 +165,7 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-參數*`trackDownloadLinks`**`trackExternalLinks`* 並決定是否啓用自動檔案下載和退出連結追蹤。When enabled, any link with a file type matching one of the values in *`linkDownloadFileTypes`* is automatically tracked as a file download. Any link with a URL that does not contain one of the values in *`linkInternalFilters`* is automatically tracked as an exit link.
+參數&#x200B;*`trackDownloadLinks`**`trackExternalLinks`* 並決定是否啓用自動檔案下載和退出連結追蹤。When enabled, any link with a file type matching one of the values in *`linkDownloadFileTypes`* is automatically tracked as a file download. Any link with a URL that does not contain one of the values in *`linkInternalFilters`* is automatically tracked as an exit link.
 
 In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
 
@@ -173,7 +173,7 @@ In JavaScript H.25.4 (released February 2013), automatic exit link tracking was 
 
 The file types [!DNL jpg] and [!DNL aspx] are not included in *`linkDownloadFileTypes`* above, therefore no clicks on them are automatically tracked and reported as file downloads.
 
-The parameter *`linkLeaveQueryString`* modifies the logic used to determine exit links. *`linkLeaveQueryString`*= false時，只會使用連結URL的網域、路徑和檔案部分來決定退出連結。*`linkLeaveQueryString`*在= true時，也會使用連結URL的查詢字串部分來決定退出連結。
+The parameter *`linkLeaveQueryString`* modifies the logic used to determine exit links. *`linkLeaveQueryString`*= false時，只會使用連結URL的網域、路徑和檔案部分來決定退出連結。*`linkLeaveQueryString`*&#x200B;在= true時，也會使用連結URL的查詢字串部分來決定退出連結。
 
 ## Example 2 {#section_25660B64E28248A0BC982B2AF5603C0E}
 
@@ -250,7 +250,7 @@ JavaScript H.25.4 (於 2013 年 2 月發行) 針對在 `useForcedLinkTracking` �
 
 * `<A>` 和 `<AREA>` 標籤。
 * 標記必須具有 `HREF` 屬性.
-* The `HREF` can&#39;t start with `#`, `about:`, or `javascript:`.
+* The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * `TARGET` 無法設定屬性，或 `TARGET` 參考目前視窗( `_self`、 `_top`或值 `window.name`)。
 
 ## 使用影像要求進行連結追蹤 {#concept_FF31C8D1B3DF483D853BF0A9D637F02F}
@@ -263,7 +263,7 @@ link_img.xml
 
  -->
 
-影像要求可藉由將 &quot;pe&quot; 參數新增至影像要求 src 參數來進行硬式編碼，如下所示: 
+影像要求可藉由將 "pe" 參數新增至影像要求 src 參數來進行硬式編碼，如下所示: 
 
 ```
 pe=[type]
@@ -313,7 +313,7 @@ s.linkTrackVars="None"
 s.linkTrackEvents="None"
 ```
 
-此*`linkTrackVars`* 參數應包含您要隨每個檔案下載、退出連結及自訂連結而追蹤的每個變數。*`linkTrackEvents`* 參數應包含您要隨每個檔案下載、退出連結和自訂連結而追蹤的每個事件。當其中一種連結類型發生時，即會追蹤每個指定變數的現行值。
+此&#x200B;*`linkTrackVars`* 參數應包含您要隨每個檔案下載、退出連結及自訂連結而追蹤的每個變數。*`linkTrackEvents`* 參數應包含您要隨每個檔案下載、退出連結和自訂連結而追蹤的每個事件。當其中一種連結類型發生時，即會追蹤每個指定變數的現行值。
 
 例如，若要隨每個檔案下載、退出連結及自訂連結追蹤 prop1、eVar1 及 event1，請在全域 JS 檔案內使用下列設定: 
 
