@@ -54,7 +54,7 @@ source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
 
 ## 轉換度量
 
-**目標轉換率**、 **目標完成** 和 **目標值** 需要在這兩個平台上進行額外的實施。如果您的實施已容納產品維度和購買事件，請考慮下列步驟：
+**目標轉換率**、 **目標完成**&#x200B;和 **目標值** 需要在這兩個平台上進行額外的實施。如果您的實施已容納產品維度和購買事件，請考慮下列步驟：
 
 1. Drag the **Orders** metric, **Revenue** metric, and **Visits** metric onto the workspace.
 1. Create a calculated metric of **Orders per Visit**. 在兩個量度標題上使用ctrl+ click(Windows)或cmd+ click(Mac)來反白標示它們。Right-click one of the headers, select **Create Metric From Selection**, then click **Divide**. 此新量度類似於「目標轉換率」。
