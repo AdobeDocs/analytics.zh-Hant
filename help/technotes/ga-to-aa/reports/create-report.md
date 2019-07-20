@@ -56,7 +56,7 @@ Analysis工作區(Adobe Analytics中的主要功能之一)提供了一個強大�
 
 由於Analysis Workspace是報告工具，因此不會影響資料收集。不需重新計算，將元件拖曳至專案中，即可查看哪些項目有效。將維度和度量的不同組合拖曳至工作區專案，以瞭解您可以使用甚麼。
 
-如果您意外拖曳無效的元件至工作區專案，或想要返回步驟，請按Ctrl+ Z(Windows)或cmd+ Z(Mac)來還原最後的動作。You can also start with a clean slate by clicking *[!UICONTROL Project] &gt; [!UICONTROL New]* in the upper left menu.
+如果您意外拖曳無效的元件至工作區專案，或想要返回步驟，請按Ctrl+ Z(Windows)或cmd+ Z(Mac)來還原最後的動作。You can also start with a clean slate by clicking *[!UICONTROL Project]&gt;[!UICONTROL New]* in the upper left menu.
 
 Adobe在「分析工作區」中，在右鍵內容選單中放入許多功能。您可以直接按下大部分視覺化和元件，以進行更詳細的分析與互動。考慮在工作區中按一下滑鼠右鍵，以查看可用的選項。
 
