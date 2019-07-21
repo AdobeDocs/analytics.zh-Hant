@@ -25,7 +25,7 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 >[!NOTE]
 >
->See [What&#39;s New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+>See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +53,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project&#39;s table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」等新的滑鼠右鍵選項。若要將內部連結新增至您的專案:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」等新的滑鼠右鍵選項。若要將內部連結新增至您的專案:
 
 1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
 1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
@@ -97,7 +97,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection.png)
 
-趨勢選取範圍現在 **連結** 至以下表格，因此如果您在表格中選取不同的列，趨勢圖表會顯示該列。
+趨勢選取範圍現在&#x200B;**連結**&#x200B;至以下表格，因此如果您在表格中選取不同的列，趨勢圖表會顯示該列。
 
 ![](assets/trend-selection2.png)
 
@@ -185,7 +185,7 @@ See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/b
 
 **所有造訪**
 
-Analysis Workspace 獨特的預設區段。*`All Visits`*會顯示您新增至表格的元件總數。
+Analysis Workspace 獨特的預設區段。*`All Visits`*&#x200B;會顯示您新增至表格的元件總數。
 
 **計算量度**
 
