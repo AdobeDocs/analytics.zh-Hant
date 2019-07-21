@@ -26,7 +26,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 |--- |--- |--- |--- |--- |--- |--- |
 | 1 | 一名訪客點按了行銷電子郵件中的連結，從家用電腦瀏覽您的網站。這名訪客在此之前曾瀏覽您的網站 7 次。 | 1 | - | 1 | 1 | 8 |
 | 2-8 | 瀏覽您網站上的另 7 個頁面。 | 1 | - | 1 | 2-8 | 8 |
-| 9 | 對家用電腦進行驗證。 | 1 | CID1 | CID1 | 9 <br>This is CID1&#39;s first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
+| 9 | 對家用電腦進行驗證。 | 1 | CID1 | CID1 | 9 <br>This is CID1's first hit ever, so it takes over and continues on the visitor profile from Visitor ID 1.</br> | 8 |
 | 10 | 瀏覽另 1 個頁面。 | 1 | CID1 | CID1 | 10 | 8 |
 | 11 | 在辦公室以筆記型電腦開啟網站。這位訪客以前未曾使用此裝置瀏覽您的網站。 | 2 | - | 2 | 1 | 1 |
 | 12 | 對筆記型電腦進行驗證。 | 2 | CID1 | CID1 | 1 | 9 |
