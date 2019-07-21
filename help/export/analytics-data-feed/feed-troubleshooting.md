@@ -1,0 +1,74 @@
+---
+description: 本節含有常見問題的相關資訊。
+keywords: 資料饋送；疑難排解
+seo-description: 本節含有常見問題的相關資訊。
+seo-title: 疑難排解資料饋送
+solution: Analytics
+title: 疑難排解資料饋送
+uuid: 4be981ab-3a61-4099-1b0d-785d2ac2492a
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# 疑難排解資料饋送
+
+本節含有常見問題的相關資訊。
+
+## 儲存摘要時發生錯誤 {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+
+資料摘要檔案名稱由報表套裝 ID 和日期所組成。任兩個針對相同 RSID 和日期所設定的摘要會擁有相同的檔案名稱。如果將這些摘要提交到相同的位置，其中一個檔案會覆寫另一個檔案。若要避免檔案覆寫，建立的摘要不能有覆寫同一位置中現有摘要的可能。
+
+當具有相同檔案名稱的摘要存在時，嘗試建立摘要會導致以下訊息:
+
+該錯誤發生時，請考慮以下因應措施:
+
+* 變更提交路徑
+* 變更日期 (可能的話)
+* 變更報表套裝 (可能的話)
+
+## Amazon S3 資料饋送的 BucketOwnerFullControl 設定 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+
+Amazon S3 的常見使用案例是 Amazon Web Services (AWS) 帳戶擁有者建立儲存貯體、接著建立具有在該儲存貯體中建立物件之權限的使用者，然後提供該使用者的憑證。在此案例中，使用者的物件屬於相同帳戶，而該帳戶擁有者隱含地具備物件的完整控制權 (讀取、刪除等)。其運作方式類似於 FTP 傳送的運作方式。
+
+AWS 也能讓使用者在完全屬於不同使用者帳戶的儲存貯體中建立物件。例如，假設有兩位 AWS 使用者 userA 和 userB，他們不屬於相同的 AWS 帳戶，但想在其他儲存貯體中建立物件。如果 userA 建立了一個 bucketA 儲存貯體，他/她可建立一個儲存貯體原則，即使 userB 並不擁有 bucketA，仍可明確地允許 userB 在 bucketA 中建立物件。這種做法有利的地方在於不要求 userA 和 userB 交換憑證，而是由 userB 提供其帳戶號碼給 userA，讓 userA 建立儲存貯體原則，特別指明「讓 userB 在 bucketA 中建立物件」。
+
+**BucketOwnerFullControl** 提供在其他儲存貯體中建立物件的跨帳戶權限。如果 userB 上傳物件至 userA 的儲存貯體，userB 仍「擁有」該物件，而依預設 userA 並未獲得該物件的任何權限 (即使 userA 擁有儲存貯體)，也就是說，物件並不繼承父儲存貯體的權限。UserB 必須明確授與 userA 權限，因為 userB 仍然是物件的擁有者。對於這種跨帳戶上傳，AWS 提供 BucketOwnerFullControl ACL，儲存貯體擁有者 (userA) 可指定使用此 ACL 並獲得物件的完整權限 (讀取、寫入、刪除等)，即使物件仍由 userB「擁有」。
+
+## 傳輸失敗 {#section_4BD44E9167F0494FB2B379D2BA132AD8}
+
+如果發生 FTP 傳輸失敗 (登入拒絕、遺失連線、配額不足等)，Adobe 會嘗試三次自動連線並傳送資料。如果持續失敗，饋送會標記為失敗並寄出電子郵件通知。
+
+如果傳輸失敗，您可以[重新執行工作](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501)，直到成功為止。
+
+## 重新傳送選項 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
+
+Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+
+## 日光節約時間對每小時資料饋送的影響 {#section_70E867D942054DD09048E027A9474FFD}
+
+對於某些時區，由於採用日光節約時間 (DST)，因此其時間每年會變動兩次。資料饋送會遵循報表套裝所設定的時區。如果報表套裝的時區不採用 DST，檔案傳送的運作與任何一天都相同。如果報表套裝的時區採用 DST，則檔案傳送會在發生時間變更的該小時進行更改 (通常是 2:00 am)。
+
+STD -&gt; DST 時間轉換期間 (「前進」)，客戶只會收到 23 個檔案。DST 轉換中跳過的該小時將直接忽略。例如，如果轉換發生在 2 AM，客戶將取得 1:00 的檔案以及 3:00 的檔案。不會有 2:00 檔案，因為 2:00 STD 變成了 3:00 DST。
+
+DST -&gt; STD 轉換期間 (「後退」)，客戶會收到 24 個檔案。不過，轉換該小時實際包含 2 小時的資料量。例如，如果轉換發生在 2:00 am，1:00 的檔案將延遲一個小時，但包含兩個小時的資料，其中包含從 1:00 DST 到 2:00 STD (原本是 3:00 DST) 的資料。下一個檔案將從 2:00 STD 開始。
+
+## 某個時間期間無資料 {#section_72510794694D42A9A75C966B812AEB0F}
+
+您可選擇設定資料饋送，當特定期間未收集到任何資料時傳送資訊清單檔案。如果啟用此選項，您會收到類似下列的資訊清單檔案:
+
+```
+Datafeed-Manifest-Version: 1.0
+ Lookup-Files: 0
+ Data-Files: 0
+ Total-Records: 0
+```
+
+## 網域報告沒有網域資訊 {#section_B7508D65370442C7A314EAED711A2C75}
+
+某些行動電信業者 (如 T-Mobile 和 O1) 不再提供反向 DNS 查閱所需的網域資訊。因此，網域報告將無法取得這些資料。
+
+## 資料處理概述 {#section_6346328F8D8848A7B81474229481D404}
+
+在處理每小時或每日資料前，資料饋送會先等候在該時間範圍內 (日或小時) 進入資料收集的所有點擊寫入至 Data Warehouse。上述動作完成後，資料饋送會收集時間戳記符合該時間範圍的資料、壓縮這些資料，然後透過 FTP 傳送。若是每小時饋送，檔案通常在該小時後的 15-30 分鐘內寫入至 Data Warehouse ，但沒有固定的時間期間。如果沒有時間戳記符合該時間範圍的資料，則處理程序會在下一個時間範圍再度嘗試。目前的資料饋送程序使用 `date_time` 欄位來判斷哪些點擊屬於該小時。此欄位是以表套裝的時區為基礎。
