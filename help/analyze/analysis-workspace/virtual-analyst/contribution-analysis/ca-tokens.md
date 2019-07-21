@@ -18,7 +18,7 @@ source-git-commit: 10050f2021e1e78e4e258255d356d119aba960c1
 >
 >貢獻分析已從報告與分析功能集中移除，現在僅供分析工作區使用。
 
-具有「貢獻分析」使用權限的所有客戶可以在 Analysis Workspace 中，每月以有限次數執行完整的「貢獻分析」。惟單點產品 (SiteCatalyst 15) 客戶、Analytics Foundation 客戶及 Analytics Select 客戶 **除外**，因為他們沒有取得「貢獻分析」功能。
+具有「貢獻分析」使用權限的所有客戶可以在 Analysis Workspace 中，每月以有限次數執行完整的「貢獻分析」。惟單點產品 (SiteCatalyst 15) 客戶、Analytics Foundation 客戶及 Analytics Select 客戶&#x200B;**除外**，因為他們沒有取得「貢獻分析」功能。
 
 每間公司的執行次數，會根據貴公司購買的 Adobe Analytics 產品所授予的權限，受到每月代號數的限制。此外還包括是否能限制「貢獻分析」的存取權，避免他人誤用代號。
 
