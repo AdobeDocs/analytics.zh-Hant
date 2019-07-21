@@ -1,0 +1,129 @@
+---
+description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等資訊。
+seo-description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等資訊。
+seo-title: 訪客報告
+solution: Analytics
+title: 訪客報告
+topic: Ad Hoc Analysis
+uuid: 3e9b41d1-d6 ff-47a8-aa6 b-829df1040 c34
+translation-type: tm+mt
+source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+
+---
+
+
+# 訪客報告
+
+顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等資訊。
+
+## 回訪頻率 {#concept_447A99B71E484D27A7A02888CC51FD3D}
+
+顯示回訪客戶再次造訪與初次造訪之間相隔的時間長度，以及歸入各時間長度類別的造訪次數。使用報告可以查看回頭訪客未瀏覽您網站的平均時間，以及回頭客戶的趨勢。
+
+<!-- 
+
+c_reports_return_freq.xml
+
+ -->
+
+例如，在此報告中顯示「訂購」度量，可協助零售網站瞭解瀏覽間產生轉換的最有效時間。使用此資訊可對已有一段時間未存取您網站的訪客，進行有效行銷。
+
+您可以︰
+
+* 識別回訪訪客數量和回訪頻率。
+* 評估網站隨著時間對訪客的吸引力和實用性。
+* 瞭解您網站對訪客的吸引力以及他們迫切希望回訪網站以進一步互動或檢視更新內容的頻率。
+* 識別您網站的內容和促銷活動對訪客的影響。
+
+預設情況下，該報告包含下列時間長度︰
+
+* 少於 1 天
+* 1 至 3 天
+* 3 至 7 天
+* 7 至 14 天
+* 14 天至 1 個月
+* 長於 1 個月
+
+## 造訪次數 {#concept_BBB614072FD74379B1A8520ACB75AE9A}
+
+顯示哪種客戶訪問次數對您網站的成功度量影響最大。首次瀏覽您網站的訪客計入「訪問次數 1」行項目；返回網站進行第二次瀏覽的訪客計入「訪問次數 2」行項目，依此類推。
+
+<!-- 
+
+c_reports_visit_number.xml
+
+ -->
+
+您可將此報表用做流失報表，查看訪客是否返回。還可新增收入度量，檢視初次存取或後續存取是否產生更多收入。
+
+例如，此報表可以回答下列問題: 在第四次瀏覽才購買的客戶所產生的收入，是否多於在第一次瀏覽即購買的客戶?
+
+您可以依其他報表或變數劃分此報表，用以判斷:
+
+* 通常一位使用者按下促銷活動 XYZ 後需瀏覽幾次，才會進行購買。
+* 在產生銷售機會前，東京 (舉例來說) 的使用者是否比倫敦的使用者需進行更多次瀏覽.
+
+>[!NOTE]
+>
+>如果相同訪客在相同時段內瀏覽您的網站多次，則每次瀏覽的指定瀏覽次數都會增加。
+
+此報表是根據透過訪客每一次點擊，傳遞給 Adobe 的訪客 ID 資料而建立。收到這些資料時，Adobe 會與歷史訪客 ID 資料進行比較，判斷這次點擊是否為:
+
+* 新訪客 (訪問次數等於 1)。
+* 延續上次瀏覽的舊訪客 (訪問次數未增量)。
+* 進行新瀏覽的舊訪客 (訪問次數增加 1)。
+
+>[!NOTE]
+>
+>每個Analytics訪客ID都與Adobe伺服器上的訪客描述檔相關聯。無論訪客 ID Cookie 過期與否，訪客閒置最少 13 個月就會刪除其訪客資料。
+
+## 客戶忠誠度 {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
+
+使用此報表可查看新客戶和常客，誰對您的收入影響比較大。
+
+<!-- 
+
+c_reports_customerloyalty.xml
+
+ -->
+
+「[!UICONTROL 客戶忠誠度]」報表根據 3 個忠誠度類別，來顯示客戶的購買模式:
+
+* **不是客戶**: 從未購買過的訪客
+* **新客戶**: 購買過 1 次的訪客
+* **回頭客戶**: 購買過 2 次的訪客
+* **忠實客戶**: 購買次數 3 次以上的訪客
+
+>[!NOTE]
+>
+>使用這些量度時，所有使用者存取(或所有訪客)都會呈現在此報表中，無論瀏覽(或訪客)是否包含購買。
+
+進行購買事件的瀏覽結束後，會變更忠誠度狀態。例如，新客戶 (購買 1 次) 進行購買，然後在完成購買後、同一次瀏覽裡，進行註冊電子報，則該電子報註冊事件仍視為「新客戶」互動，因為訪客的客戶忠誠度狀態將於下次造訪時變更。
+
+## 訪客資料 {#concept_4D829198CD144DCDA667E0651F93AFC7}
+
+顯示您網站訪客的類型。您可以看到訪客的位置、瀏覽器類型、所用的電腦硬體，以及訪客的 Internet 服務提供商等資料。
+
+<!-- 
+
+c_reports_visitor_profile.xml
+
+ -->
+
+** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+
+** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. 此報告與「[!UICONTROL 完整網域]」報告不同的是，「完整網域」報告記錄完整的 ISP 網域，而此報告僅列示二級網域。
+
+** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. 以 .com (商務)、.net (網路)、.edu (教育)、.gov (政府) 和 .org (機構) 結尾的網域通常位於美國，並與其他網域分開列出。
+
+** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+
+## 地域劃分 {#concept_7C1B930F90F945B49205D3855CAE1813}
+
+<!-- 
+
+c_reports_geosegmentation.xml
+
+ -->
+
+即時顯示您的訪客的地理動態，包括其瀏覽位置的國家、州和城市。您也可以獲得網站讀者所用技術及喜好的重要深入資訊。
