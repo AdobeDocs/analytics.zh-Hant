@@ -29,12 +29,12 @@ source-git-commit: c36bc5a74e89fda3e23113851f850fd6c98b8c40
 | 不等於 | 傳回所有不含輸入值的項目。注意: 如果有使用萬用字元，請改為使用「不符合」運算子。 |
 | 等於任何 | 傳回完全符合輸入欄位中任何值的項目(最多500個項目)。例如，使用此運算子輸入「Search Results，homepage」會比對「Search Results」和「Homepage」，並計算為個項目。此運算子的輸入欄位採用逗號分隔。 |
 | 不等於任何 | 識別完全符合輸入欄位中任何值的項目(最多500個項目)，然後只傳回沒有這些值的項目。例如，使用此運算子輸入「Search Results，Homepage」會識別「Search Results」和「Homepage」，然後排除這些項目。此範例會計算為個項目。此運算子的輸入欄位採用逗號分隔。 |
-| 包含 | 傳回含有輸入值字串的項目。例如，如果「頁面」的規則為包含 &quot;Search&quot;，該規則便會比對到任何含有 &quot;Search&quot; 字串的頁面，包括 &quot;Search Results&quot;、&quot;Search&quot; 和 &quot;Searching&quot;。 |
-| 不包含 | 傳回和「包含」規則相反的結果。具體而言，所有符合輸入值的項目都將從輸入值中排除。例如，如果「頁面」的規則為不包含 &quot;Search&quot;，該規則便不會比對到任何含 &quot;Search&quot; 字串的頁面，包括 &quot;Search Results&quot;、&quot;Search&quot; 和 &quot;Searching&quot;。這些值都將從結果中排除。 |
-| 包含全部 | 傳回包含子字串的項目，包括多個連結在一起的值。例如，使用此運算子輸入 &quot;Search Results&quot; 將會比對到 &quot;Search Results&quot; 和 &quot;Results of Search&quot;，但不會單獨比對到 &quot;Search&quot; 或 &quot;Results&quot;。它會用 AND 比對到一起出現的 Search 和 Results。此運算子的輸入欄位使用空格分隔(100字)。 |
-| 不包含任何 | 與子字串 (包括多個值連結在一起) 比較以識別項目，然後只傳回不含這些值的項目。例如，使用此運算子輸入 &quot;Search Results&quot; 將會識別 &quot;Search Results&quot; 和 &quot;Results of Search&quot; (但不會單獨識別 &quot;Search&quot; 或 &quot;Results&quot;)，接著排除這些項目。此運算子的輸入欄位使用空格分隔(100字)。 |
-| 包含任何 | 傳回包含子字串的項目，包括多個相互連結或獨立存在的值。例如，使用此運算子輸入 &quot;Search Results&quot; 將會比對到 &quot;Search Results&quot;、&quot;Results of Search&quot;、&quot;Search&quot; 和 &quot;Results&quot;。它會用 OR 比對到一起出現或單獨出現的 &quot;Search&quot; 或 &quot;Results&quot;。此運算子的輸入欄位使用空格分隔(100字)。 |
-| 不包含任何 | 依據子字串識別項目，接著傳回不包含這些子字串的值。可以有多個連接值或例如，輸入 &quot;Search Results&quot; 將會比對到 &quot;Search Results&quot;、&quot;Results of Search&quot;、&quot;Search&quot; 和 &quot;Results&quot;，無論 &quot;Search&quot; 和 &quot;Results&quot; 是同時存在或單獨存在。接著會排除包含這些子字串的項目。此運算子的輸入欄位使用空格分隔(100字)。 |
+| 包含 | 傳回含有輸入值字串的項目。例如，如果「頁面」的規則為包含 "Search"，該規則便會比對到任何含有 "Search" 字串的頁面，包括 "Search Results"、"Search" 和 "Searching"。 |
+| 不包含 | 傳回和「包含」規則相反的結果。具體而言，所有符合輸入值的項目都將從輸入值中排除。例如，如果「頁面」的規則為不包含 "Search"，該規則便不會比對到任何含 "Search" 字串的頁面，包括 "Search Results"、"Search" 和 "Searching"。這些值都將從結果中排除。 |
+| 包含全部 | 傳回包含子字串的項目，包括多個連結在一起的值。例如，使用此運算子輸入 "Search Results" 將會比對到 "Search Results" 和 "Results of Search"，但不會單獨比對到 "Search" 或 "Results"。它會用 AND 比對到一起出現的 Search 和 Results。此運算子的輸入欄位使用空格分隔(100字)。 |
+| 不包含任何 | 與子字串 (包括多個值連結在一起) 比較以識別項目，然後只傳回不含這些值的項目。例如，使用此運算子輸入 "Search Results" 將會識別 "Search Results" 和 "Results of Search" (但不會單獨識別 "Search" 或 "Results")，接著排除這些項目。此運算子的輸入欄位使用空格分隔(100字)。 |
+| 包含任何 | 傳回包含子字串的項目，包括多個相互連結或獨立存在的值。例如，使用此運算子輸入 "Search Results" 將會比對到 "Search Results"、"Results of Search"、"Search" 和 "Results"。它會用 OR 比對到一起出現或單獨出現的 "Search" 或 "Results"。此運算子的輸入欄位使用空格分隔(100字)。 |
+| 不包含任何 | 依據子字串識別項目，接著傳回不包含這些子字串的值。可以有多個連接值或例如，輸入 "Search Results" 將會比對到 "Search Results"、"Results of Search"、"Search" 和 "Results"，無論 "Search" 和 "Results" 是同時存在或單獨存在。接著會排除包含這些子字串的項目。此運算子的輸入欄位使用空格分隔(100字)。 |
 | 開始於 | 傳回以輸入值的字元或字串開頭的項目。 |
 | 不開始於 | 傳回未以輸入值的字元或字串開頭的項目。這是「開始於」運算子的反面。 |
 | 終止於 | 傳回以輸入值的字元或字串結尾的項目。 |
