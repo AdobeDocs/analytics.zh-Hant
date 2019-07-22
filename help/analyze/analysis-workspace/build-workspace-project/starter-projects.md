@@ -5,7 +5,7 @@ seo-title: 範本
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9 a9503 Fe00
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ---
 
@@ -93,9 +93,21 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
 
 以下為可用範本和每個範本的問題解答：
 
+### 廣告
+
+>[!IMPORTANT]
+>
+>只有在您的報表套裝已啓用Advertising Cloud時，才能使用廣告範本。
+
+* **搜尋引擎**：此範本劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等。
+
+### 商務
+
+* **Magento：行銷與商務**：此範本可依據行銷管道歸因劃分您的電子商務轉換，並透過搜尋關鍵字、著陸頁面、地理位置等提供深入見解。For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+
 ### 媒體
 
-* **內容消費**：哪些內容消費最多，而且正在吸引使用者？
+* **音訊使用量**：哪些內容消費最多，而且正在吸引使用者？
 * **最近一次-頻率-忠誠度**：誰是我忠實的讀者？
 
 ### 行動
