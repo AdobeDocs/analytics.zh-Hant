@@ -216,7 +216,7 @@ t_dashboard_branding.xml
 1. **[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 公司設定]**」。
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
-1.  瀏覽以上傳影像，然後按一下&#x200B;**[!UICONTROL 儲存]。**
+1. 瀏覽以上傳影像，然後按一下&#x200B;**[!UICONTROL 儲存]。**
 
    為了在瀏覽器中檢視影像時達到最佳效果，請上載 100 像素高及 30 像素寬的影像。為達到最佳的 PDF 輸出效果，請上載 417 像素高及 125 像素寬 (300dpi) 的影像。過大的影像會縮減尺寸，同時保留高寬比。
 

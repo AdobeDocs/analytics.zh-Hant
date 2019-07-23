@@ -26,12 +26,10 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->
-```>
+>```>
 >and 
 >
->
-```>
+>```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 

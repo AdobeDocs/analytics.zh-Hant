@@ -50,8 +50,7 @@ The easiest and recommended way to send data to [!DNL Analytics] is by using [Dy
     <draft-comment> 
      <p>在 <code>VisitorAPI.js</code> 中，將下列訪客 ID 初始化程式碼加入至檔案開頭處: </p> 
      <code class="syntax javascript">var visitor= Visitor. getInstance(「INSERT-MCORG-ID-HERE」)；visitor. trackingServer=「INSERT-TRACKING-SERVER-HERE」；//與s. trackingServer visitor. trackingServerSecure=「INSERT-SECURE-TRACKING-SERVER-HERE」相同；//sameas s. trackingServerSecure/*== DO NOT ALTER ANYTHING THIS BELOW ThIS== </code>
-  
-     <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
+      <ul id="ul_769BA118CC244308A805079C2CBECC12"> 
       <li id="li_D366EBDE24CB433EA523DB228CB2FAF1"> <code> 「INSERT-MCORG-ID-HERE」 </code> -(必要)此Adobe Experience Cloud組織ID會在您的公司布建為Adobe Experience Cloud時傳送給您的管理員。 </li> 
       <li id="li_4F9704A6A6EA4334A3758F99B8D67C9D"> <code>"INSERT-TRACKING-SERVER-HERE"</code> - (必要) 您的 Analytics 追蹤伺服器。 </li> 
       <li id="li_C578420458D649228E54D9809AF62627"> <code>"INSERT-SECURE-TRACKING-SERVER-HERE"</code> - (如果啟用 ssl，則為必要) 您的 Analytics 安全追蹤伺服器。 </li> 

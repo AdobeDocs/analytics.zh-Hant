@@ -11,7 +11,6 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 
 # ID 擴增
-#
 
 您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入 GDPR 請求。您可以為您提交的每個 GDPR 請求，要求此包含選用參數的選項，並新增至 JSON 請求:
 
@@ -47,7 +46,6 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 當 Adobe 執行 ID 擴增時，可能會需要進行額外完整資料掃描，這會增加 Adobe 完成請求所需的時間，通常會增加一週的處理時間。
 
 ## 其他GDPR要求標幟
-##
 
 除了「expandIDs」標記，Analytics 支援其他兩種標記，可以包含在 GDPR 請求中一併傳入。這些標記和其預設值如下:
 
