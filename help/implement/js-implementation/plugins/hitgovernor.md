@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091ee-005a-43c2-b419-980b795 bc2 a9
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 5abac13c231659108a26b8513a3bb32e4e530b94
 
 ---
 
@@ -55,66 +55,65 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
    ```
     s.registerPostTrackCallback(function(){ 
-       
-<b> s.governor();</b> 
-   });
+    s.governor();
+   }); 
    ```
 
-   Below the doPlugins section of your AppMeasurement file, include the plugin code contained in [Plugin Source Code](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0), below.
+   AppMeasurement 檔案的 doPlugins 區段下，包含了[外掛程式原始程式碼](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)中的外掛程式程式碼 (如下所示)。
 
-   The hit limit threshold, hit timing threshold, and traffic exclusion time frames can all be overridden by setting these variables, outside of the plugin itself and preferably with your other configuration variables:
+   您可以在外掛程式外設定這些變數 (最好使用其他設定變數)，以覆寫點擊次數限制臨界值、點擊時間臨界值，及流量排除時間範圍:
 
 <table id="table_9959A40F5F0B40B39DB86E21D03E25FD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Variable </th> 
-   <th colname="col2" class="entry"> Syntax </th> 
-   <th colname="col3" class="entry"> Description </th> 
+   <th colname="col1" class="entry"> 變數 </th> 
+   <th colname="col2" class="entry"> 語法 </th> 
+   <th colname="col3" class="entry"> 說明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Hit Limit Threshold </p> </td> 
+   <td colname="col1"> <p>點擊次數限制臨界值 </p> </td> 
    <td colname="col2"> <p> <code> s.hl = 60; </code> </p> </td> 
-   <td colname="col3"> <p>The total number of hits that should not be exceeded during a given timeframe. </p> </td> 
+   <td colname="col3"> <p>特定時間範圍期間，不應超過的點擊總數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Hit Time Threshold </p> </td> 
+   <td colname="col1"> <p>點擊時間臨界值 </p> </td> 
    <td colname="col2"> <p> <code> s.ht = 10; </code> </p> </td> 
-   <td colname="col3"> <p>The window, in seconds, for when hits are recorded. This number is divided by six to determine the rolling timing windows. </p> </td> 
+   <td colname="col3"> <p>記錄點擊次數時的視窗，以秒為單位。將此數字除以 6，即可確定滾動時間視窗。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Exclusion Threshold </p> </td> 
+   <td colname="col1"> <p>排除臨界值 </p> </td> 
    <td colname="col2"> <p> <code> s.he = 60; </code> </p> </td> 
-   <td colname="col3"> <p>Number of days that the exclusion cookie is set for that visitor. </p> </td> 
+   <td colname="col3"> <p>為該訪客設定之排除 Cookie 的天數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-   >[!NOTE]
-   >
-   >Your implementation might use a different object name than the default analytics "s" object. If so, please update the object name accordingly.
+>[!NOTE]
+>
+>您的實作可能會使用與預設分析「s」物件不同的物件名稱。若是如此，請據以更新物件名稱。
 
-1. Configure processing rules.
+1. 設定處理規則。
 
-   This plugin records flagged exceptions as context data in a link tracking image request. As such, processing rules must be configured to assign track those flagged exceptions into appropriate variables like those below.
+   此外掛程式會在連結追蹤影像請求中，將已標記的例外項目記錄為上下文資料。因此，必須設定處理規則，才能將已標記的例外指派至適當的變數 (如下所示)。
 
    ![](assets/hitgov-config.png)
 
-1. (Optional) Include the traffic-blocking code in doPlugins.
+1. (可選) 將流量封鎖程式碼包含在 doPlugins 中。
 
-   After traffic has been identified as an exception, any subsequent hits from that visitor can be blocked entirely by including this code within the `doPlugins` function:
+   系統將流量識別為例外後，若將此程式碼包含在 `doPlugins` 函數中，可以完全封鎖該訪客的任何後續點擊:
 
    ```
    //Check for hit governor flag 
          if(s.Util.cookieRead('s_hg')==9)s.abort=true;
    ```
 
-   If this code is not included, traffic from that visitor will be flagged but not blocked. 
+   若未包含此程式碼，系統會標記該訪客的流量，但不會將其封鎖。
 
-## Plugin Source Code {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## 外掛程式原始程式碼 {#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
-This code should be added below the doPlugins section of your AppMeasurement library.
+您應將此程式碼新增至 AppMeasurement 程式庫的 doPlugins 區段下方。
 
 ```
 //Hit Governor (Version 0.1 BETA, 11-13-17) 
@@ -133,6 +132,5 @@ s.governor=new Function("",""
 +"',contextData.exceptionFlag';s.contextData['exceptionFlag']='true';" 
 +"s.tl(this,'o','exceptionFlag');}ha[0]++;s.Util.cookieWrite('s_hc',h" 
 +"a.join('|'));"); 
-
 ```
 
