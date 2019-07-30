@@ -9,22 +9,17 @@ title: 變數概觀
 topic: 開發人員和實施
 uuid: 067d0135-572a-4a44-af9 e-445d3 c4 e9271
 translation-type: tm+mt
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
 
 
 # 變數概觀
 
-Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurment 支援的變數。
+Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出AppMeasurement支援的變數。
 
-如需每個變數如何顯示在 Analytics 報表中的列表，請參閱[變數 - 在報告中如何使用](https://marketing.adobe.com/resources/help/en_US/reference/?f=variable_definitions)。
-
-<!-- 
-
-<p>The following is for a client issue reported by Gundy on 1/22/16 in an email "Documentation and JavaScript Update Request". This may be a KB issue. Awaiting word from Russ. - Blake </p>
-
- -->
+For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
+For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
 
 ## 如何設定變數 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
