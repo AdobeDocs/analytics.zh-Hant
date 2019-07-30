@@ -4,14 +4,14 @@ seo-title: Adobe Analytics技術文件的完整清單以及自助使用者指南
 description: Analytics使用者指南和資源
 seo-description: Adobe Analytics技術文件的完整清單、發行說明和自助說明使用者指南。
 translation-type: tm+mt
-source-git-commit: e922c16fe84d27dbe8d59df0af1c1b4e3ef1d25b
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
 # Adobe Analytics文件
 
-[![分析](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics工具指南](/help/analyze/home.md) -功能所有可用於Adobe Analytics的分析工具。首先，它提供完整的分析工作區說明文件，它是Analytics的主要分析和視覺化工具。
+[![工具](assets/analyze_50px.png)](/help/analyze/home.md) [分析工具指南](/help/analyze/home.md) -功能所有可用於Adobe Analytics的分析工具。首先，它提供完整的分析工作區說明文件，它是Analytics的主要分析和視覺化工具。
 
 [![管理員](assets/admin_50px.png)](/help/admin/home.md) [管理指南](/help/admin/home.md) -管理報表套裝、資料治理、伺服器呼叫使用量等的管理工作。
 
