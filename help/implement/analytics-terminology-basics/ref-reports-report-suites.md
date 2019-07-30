@@ -8,7 +8,7 @@ title: 報表與報表套裝
 topic: 開發人員和實施
 uuid: 288203f6-cd13-4e01-9950-2c7 e5 clib8 a17
 translation-type: tm+mt
-source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
+source-git-commit: 4a7757cb6e55500f32f1d88facbdc3e201310c29
 
 ---
 
@@ -43,8 +43,8 @@ source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
 
 <p class="head"> <b>另請參閱</b> </p>
 
-* [Analysis Workspace 說明](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/)
-* [報表與 Analytics](https://marketing.adobe.com/resources/help/en_US/sc/user/) 說明
+* [Analysis Workspace 說明](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [報告與分析](/help/analyze/reports-analytics/overview/report-overview.md)
 * [即時報告](https://marketing.adobe.com/resources/help/en_US/reference/realtime.html)
 * [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 說明
 * [資料擷取](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
@@ -53,8 +53,8 @@ source-git-commit: 797eda5d8f9e9d4cba25f643e318a7be9c22a252
 * [Analytics 產品比較和需求](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [報告說明](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [控制面板和報表](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
-* [書籤](https://marketing.adobe.com/resources/help/en_US/insight/client/c_bookmark_about.html)
-* [虛擬報表套裝](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
-* [異常偵測](https://marketing.adobe.com/resources/help/en_US/arb/anomaly_detection.html)
-* [貢獻分析](https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html)
+* [書籤](/help/analyze/reports-analytics/bookmarks.md)
+* [虛擬報表套裝](/help/components/vrs/vrs-about.md)
+* [異常偵測](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
+* [貢獻分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
 
