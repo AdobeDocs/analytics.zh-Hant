@@ -7,21 +7,27 @@ title: 將區段發佈至Experience Cloud
 topic: 區段
 uuid: e5ce20c-ce43-423b-a29 f-ba66 e9 e24 d27
 translation-type: tm+mt
-source-git-commit: d362813f497734f3d09def59ad842406ef4bf5aa
+source-git-commit: 6298c00cf4c74a493b6ba6266763d693897d5299
 
 ---
 
 
 # 將區段發佈至Experience Cloud
 
-Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. 最近更新大幅最佳化發佈工作流程。以前，發佈可使用的區段大約需要48小時。現在處理程序可能需要小時，但視其他流量和區段大小而定，處理速度可能會更快。(不過，我們目前沒有方法可在區段推出時通知您，因此您必須手動檢查。)我們也將可填寫區段的最大數量提升到75(從20個)。您可以在「元件&gt;區段」中檢視已發佈區段。
+>[!IMPORTANT]
+>
+>此頁面上說明的區段發佈和使用者介面的延遲改進，尚未向所有客戶推出。The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
+
+Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. 最近更新大幅最佳化發佈工作流程。以前，發佈可使用的區段大約需要48小時。
+
+現在處理程序可能需要小時，但視其他流量和區段大小而定，處理速度可能會更快。(不過，我們目前沒有方法可在區段推出時通知您，因此您必須手動檢查。)我們也將可填寫區段的最大數量提升到75(從20個)。您可以在「元件&gt;區段」中檢視已發佈區段。
 
 
 ## 必備條件
 
 * Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). 否則您無法將它發佈至Experience Cloud。
 * Make sure you are working in a report suite that is [mapped to your Experience Cloud organization](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html).
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Creation] and the [!UICONTROL Segment Publishing] permissions to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
 ## 考量事項
@@ -30,7 +36,6 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 * **會員資格限制**：共用給Analytics [!DNL Experience Cloud] 的觀眾不能超過千萬個唯一成員。
 * **資料隱私**：不會根據訪客的驗證狀態篩選觀眾。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
 * For a discussion about the differences between segments in [!DNL Adobe Analytics] and [!DNL Audience Manager], go [here](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html).
-* 您可以在 Analytics 中編輯或刪除發佈的區隔。如果該區隔正在使用中，系統會在您編輯該區隔時發出警告訊息。您無法刪除 Adobe [!DNL Target] 正在使用的已發佈區段。
 
 ## 區段發佈時間軸
 
@@ -51,15 +56,19 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 | 元素 | 說明 |
 |---|---|
-| Publish this segment to the Experience Cloud (for *report suite*) | 啓用此選項時，會與Experience Cloud instantaneously共用區段標題和定義(例如，通常用於廣告平台的殼層觀眾)，而區段成員資格則會每小時評估並共用。<br> 例如，當觀眾與Target中的活動相關聯時，Analytics會開始傳送ID給符合Experience Cloud和Target對象資格的訪客。At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| 將此區段發佈至 Experience Cloud (適用於 `<report suite>`) | 啓用此選項時，會與Experience Cloud instantaneously共用區段標題和定義(例如，通常用於廣告平台的殼層觀眾)，而區段成員資格則會每小時評估並共用。<br> 例如，觀眾與活動關聯時 [!DNL Target][!DNL Analytics] ，會開始傳送ID給符合Experience Cloud和 [!DNL Target] 觀眾資格的訪客。At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
 | 建立對象視窗 | 您選取的時間範圍可用來建立滾動日曆的對象。例如，「最近30天」(預設)包含在今天日期前30天內符合對象資格的訪客(而非建立區段時的原始日期)。 |
 | 在對象庫中建立 | 您建立和發佈的區段可以提供，而不會延遲Experience Cloud觀眾程式庫中的延遲。它們不會依賴Analytics更新。這些區段不會計入超過75個已發佈區段的限制。 |
 | x75已發佈 | 顯示您已發佈至Experience Cloud的區段數。按一下連結，查看已發佈區段及其相關報表套裝和擁有者的清單。 |
 | 儲存 | 儲存此區段。 |
 
-## 解除發佈區段
+## 解除發佈或刪除區段
 
-To unpublish a segment, just **unclick** the checkbox that you used to publish it.
+若要刪除已發佈至Experience Cloud的區段，必須先解除發佈。To unpublish a segment, just **unclick** the checkbox that you used to publish it.
+
+>[!NOTE]
+>
+>You **cannot** unpublish a segment that is currently in use by any of the following Adobe solutions: [!DNL Analytics] (in [!DNL Audience Analytics]), [!DNL Campaign], [!DNL Advertising Cloud] (for [!DNL Core Service] &amp; [!DNL Audience Manager] customers) and all other external partners (for [!DNL Audience Manager] customers). You **can** unpublish a segment that is in use by [!DNL Target].
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 
@@ -68,7 +77,7 @@ To unpublish a segment, just **unclick** the checkbox that you used to publish i
 
 ![](assets/publish-status.png)
 
-## Retrieve the [!DNL Audience Manager] UUID and use Visitor Profile Viewer
+## Retrieve the [!DNL Audience Manager] UUID
 
 擷取目前與瀏覽器關聯的AAM UUID有個方法：
 
@@ -77,7 +86,7 @@ To unpublish a segment, just **unclick** the checkbox that you used to publish i
 
 下列螢幕抓圖會顯示如何擷取瀏覽器上的AAM UUID，並在Audience Manager訪客資料檢視器中使用它來驗證特徵和區段成員資格。
 
-### 方法1：使用Adobe Experience Cloud Debugger
+**方法1：使用Adobe Experience Cloud Debugger**
 
 1. Download and install [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html) in the Chrome Web Store.
 1. 載入頁面時啓動除錯程式。
@@ -86,12 +95,20 @@ To unpublish a segment, just **unclick** the checkbox that you used to publish i
 
 ![](assets/debugger.jpg)
 
-### 方法2：使用Chrome Developer Tools(或其他瀏覽器開發人員工具)
+**方法2：使用Chrome Developer Tools(或其他瀏覽器開發人員工具)**
 
 1. 載入頁面之前啓動Chrome Developer Tools
 1. 載入頁面並檢查「應用程式&gt; Cookie」。The AAM UUID should be set in the 3rd-party
 Demdex cookie ([adobe.demdex.net](https://marketing.adobe.com/resources/help/en_US/aam/demdex-calls.html) in the example below). The field demdex is the AAM UUID set
-on the browser (`50814298273775797762943354787774730612` in the example below)
+on the browser (`50814298273775797762943354787774730612` in the example below).
+
+![Chrome Developer Tool](assets/ggogle-uuid.png)
+
+## Use Audience Manager [!UICONTROL Visitor Profile Viewer]
+
+The AAM UUID on the browser will be used by default when [!UICONTROL Visitor Profile Viewer] is loaded. If verifying trait realizations for other users, input a UUID in the UUID field and click [!UICONTROL Refresh]. Refer to [Visitor Profile Viewer](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) for more information.
+
+![](assets/aam-vpv.png)
 
 ## View the segment traits in [!DNL Audience Manager]
 
