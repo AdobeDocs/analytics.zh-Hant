@@ -4,7 +4,7 @@ seo-title: Analytics分析說明
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 本指南提供所有可用於Adobe Analytics的分析工具。首先，它提供完整的分析工作區說明文件，它是Analytics的主要分析和視覺化工具。
 
-## 重要分析文章
+## 重要Analytics工具文章
 
 * [分析工作區快速入門](analysis-workspace/home.md)
 * [報告建立工具快速入門](report-builder/home.md)
