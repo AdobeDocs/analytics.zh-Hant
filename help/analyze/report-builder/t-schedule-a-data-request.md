@@ -7,18 +7,26 @@ title: 排程資料請求
 topic: Report Builder
 uuid: f6d8c90f-e185-4d60-8035-f20 f74 bfcd89
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
 
-# 排程資料請求
+# 排程活頁簿
 
-您可以排程報表以按照定義的時間和檔案格式傳送。
+您可以排程活頁簿、指定進階傳送選項、指定收件者，以及檢視排程歷史記錄。進階傳送選項可讓您設定要在特定時間或間隔傳送的活頁簿。您也可以指定要傳送活頁簿的檔案格式。
 
-**排程資料請求**
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. 報表上傳的檔案大小限制為 5 MB。
 
-1. 產生及儲存報表。
+Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (請參閱「Reports &amp; Analytics」說明中的[「報表排程與分發」](/help/analyze/reports-analytics/scheduling.md))。
+
+>[!NOTE]
+>
+>您必須安裝Excel2007或相容性套件才能排程活頁簿。每個報告建立工具授權最多可有10個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. 將刪除已排程(或上傳至活頁簿庫)且尚未在28個月內遭到接觸點(更新、取代)的活頁簿。
+
+**排程活頁簿**
+
+1. 產生並儲存活頁簿。
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
 
    [!UICONTROL 「排程報表」]索引標籤會總結您建立的所有任務和剩餘的任務數量。
@@ -29,7 +37,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 1. 在[!UICONTROL 「基本排程精靈」]中，設定下列選項:
 
-* **選擇報表**：報表的名稱。對於新的排程報表，系統會將作用中活頁簿的名稱填入此欄位。
+* **選擇報表**：活頁簿的名稱。對於新排程的活頁簿，此欄位會填入作用中活頁簿名稱。
 
 <table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
  <thead> 
@@ -57,7 +65,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>傳送至: 電子郵件 </p> </td> 
-   <td colname="col2"> <p>報表的電子郵件收件者。 </p> </td> 
+   <td colname="col2"> <p>活頁簿的電子郵件收件者。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>傳送至: 發佈清單 </p> </td> 
@@ -73,7 +81,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>排程 </p> </td> 
-   <td colname="col2"> <p> 可讓您指定傳送報表的時間。(立即、每小時、每日、每週、每月及每年。) </p> </td> 
+   <td colname="col2"> <p> 可讓您指定傳送活頁簿的時機。(立即、每小時、每日、每週、每月及每年。) </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,15 +102,15 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>傳送時間 </p> </td> 
-   <td colname="col2"> <p>可讓您立即排程報表或排程稍後的傳送時間。傳送時間與在電腦中指定的時區相關。 </p> </td> 
+   <td colname="col2"> <p>可讓您立即排程活頁簿或稍後排程活頁簿。傳送時間與在電腦中指定的時區相關。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>週期模式 </p> </td> 
-   <td colname="col2"> <p>根據您的選擇傳送報表。 </p> </td> 
+   <td colname="col2"> <p>根據您的選擇傳送活頁簿。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>週期範圍 </p> </td> 
-   <td colname="col2"> <p>可讓您指定接收報表的開始時間和停止時間。 </p> <p> <p>附註: 將報表排程定於任何目前期間 (週、月、季或年) 的第一天只會傳回第一天的資料。 </p> </p> </td> 
+   <td colname="col2"> <p>可讓您指定何時開始和停止接收活頁簿。 </p> <p> <p>注意：在任何目前時段(周、月、季或年)的第一天排程活頁簿，只會傳回第一天的資料。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>「檔案選項」</b>索引標籤 </p> </td> 
@@ -118,7 +126,7 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
   </tr> 
   <tr> 
    <td colname="col1"> <p>發佈清單 </p> </td> 
-   <td colname="col2"> <p> 如果將排程報表傳送給多份發佈清單，報表會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。 </p> </td> 
+   <td colname="col2"> <p> 如果您將排程活頁簿傳送到多份發佈清單，活頁簿會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>檔案內容語言 </p> </td> 
@@ -146,4 +154,5 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
-   Report Builder 會在[「排程任務管理員」](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31)中顯示排程報表。
+   Report Builder displays the scheduled workbook in the [Scheduled Task Manager](../../analyze/report-builder/r-arb-scheduled-reports.md#section_69306B8D833F4DF7BBFA53753B0E6C31).
+
