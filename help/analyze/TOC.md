@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 使用者
+audience: 終端使用者
 user-guide-title: Analytics分析指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
+source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
    + 面板 {#panels}
       + [面板概觀](analysis-workspace/c-panels/panels.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [歸因](analysis-workspace/attribution-iq/attribution.md)
+      + [出處](analysis-workspace/attribution-iq/attribution.md)
       + [自由格式面板](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison (IQ) {#segment-comparison}
          + [細分IQ總覽](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -213,7 +213,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [建立和編輯請求的離線模式](report-builder/manage-requests/offline-mode.md)
    + [報告建立工具選項](report-builder/options.md)
    + [排程報表請求](report-builder/schedule-report-requests.md)
-   + [排程資料請求](report-builder/t-schedule-a-data-request.md)
+   + [排程活頁簿](report-builder/t-schedule-a-data-request.md)
    + [排程任務管理員](report-builder/r-arb-scheduled-reports.md)
    + 活頁簿庫 {#workbook-library}
       + [上傳活頁簿](report-builder/workbook-library/t-upload-a-workbook.md)
@@ -225,7 +225,7 @@ source-git-commit: 814c6b8b1bf4d0b37d59ce37674b97de849b97ab
       + [限制與規格](report-builder/c-publish-power-bi/specifications-limits.md)
       + [手動將資料匯入Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [將已發佈資產提取至Power BI桌面](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [最佳實務](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [最佳作法](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [Power BI整合疑難排解](report-builder/c-publish-power-bi/troubleshooting.md)
       + [適用於Power BI的Adobe Analytics內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [報告建立工具的疑難排解和最佳做法](report-builder/troubleshoot.md)
