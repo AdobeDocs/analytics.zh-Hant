@@ -8,12 +8,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: d55b23a5baf5be1d7afb708cc6ef94851eac3e77
 
 ---
 
 
-# Datran Data Connector for Adobe Analytics{#datran-data-connector-for-adobe-analytics}
+# Datran Data Connector for Adobe Analytics {#datran-data-connector-for-adobe-analytics}
 
 此Adobe® Data Connectors電子郵件整合結合了Adobe Analytics®中的行為資訊與Datran電子郵件行銷，以建立強大的工具，以重新定義成功度量和目標受眾，並使用更相關的訊息來重新定義目標受眾。
 
