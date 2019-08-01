@@ -5,7 +5,7 @@ seo-title: Adobe Analytics-關鍵概念
 title: Adobe Analytics-關鍵概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
+source-git-commit: d3819975bb65ccf345d60474e268ed9d1b1606a7
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 | 產品 | 說明 | 文件連結 |
 |--- |--- |--- |
 | Analysis Workspace | 建立強穩、自訂分析專案的瀏覽器解決方案，讓您獲得更多見解。提供比報告與分析更多的報告彈性 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
-| Report &amp; Analytics (前稱為 SiteCatalyst) | 報告與分析的瀏覽器解決方案。Analytics 套裝中的入門工具。 | [https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
-| Report Builder | 可讓您從Adobe Analytics資料建立自訂請求，並使用Microsoft Excel視覺化它們的Excel增益集。 | [https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
-| Ad Hoc Analysis (前稱為 Discover) | 進階數位分析的Java工具。在2014年第三季結束生命週期。 | [https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench (前稱為 Insight) | 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動情形。 | [https://marketing.adobe.com/resources/help/en_US/insight/client/](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
-| Data Warehouse | 用於儲存和自訂報表的原始、未處理資料複本，可供您透過篩選資料的方式來執行。非點擊層級。 | [https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
-| Adobe Mobile Services | 將整個 Adobe Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與應用程式的互動。存取位置: https://mobilemarketing.adobe.com/ | [https://docs.adobe.com/content/help/en/mobile-services/using/home.html](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
-| Adobe Exchange Data Connectors(之前稱為Genesis) | 從第三方應用程式匯入追蹤資料至Analytics，在一個中央位置提供端對端的效能可見度。 | [https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
-| 動態標籤管理 (DTM) | 可讓您管理所有網站上的分析、目標及其他標籤，不受網域數目影響。 | [https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
-| Adobe Launch | Adobe的新一代網站標籤和行動SDK管理功能。 | [https://docs.adobe.com/content/help/en/launch/using/overview.html](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
+| Report &amp; Analytics (前稱為 SiteCatalyst) | 報告與分析的瀏覽器解決方案。Analytics 套裝中的入門工具。 | [報告與分析首頁](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/getting-started.html) |
+| Report Builder | 可讓您從Adobe Analytics資料建立自訂請求，並使用Microsoft Excel視覺化它們的Excel增益集。 | [報告建立工具首頁](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/home.html) |
+| Ad Hoc Analysis (前稱為 Discover) | 進階數位分析的Java工具。在2014年第三季結束生命週期。 | [臨機分析首頁](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
+| Data Workbench (前稱為 Insight) | 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動情形。 | [資料工作台用戶端](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Warehouse | 用於儲存和自訂報表的原始、未處理資料複本，可供您透過篩選資料的方式來執行。非點擊層級。 | [資料倉庫首頁](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html) |
+| Adobe Mobile Services | 將整個 Adobe Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與應用程式的互動。 | [Mobile Services首頁](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| Adobe Exchange Data Connectors(之前稱為Genesis) | 從第三方應用程式匯入追蹤資料至Analytics，在一個中央位置提供端對端的效能可見度。 | [資料連接器首頁](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
+| 動態標籤管理 (DTM) | 可讓您管理所有網站上的分析、目標及其他標籤，不受網域數目影響。 | [DTM首頁](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/dtm-implementation-overview.html) |
+| Adobe Launch | Adobe的新一代網站標籤和行動SDK管理功能。 | [Adobe Launch首頁](https://docs.adobe.com/content/help/en/launch/using/overview.html) |
 
 ## Key terminology {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -35,19 +35,17 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 | 詞語 | 說明 | 文件連結 |
 |--- |--- |--- |
-| Prop(自訂流量) | 用來追蹤逐頁網站流量活動的維度。Prop 無法在頁面間持續存在。流量變數的主要應用範圍: <ul><li>輕鬆計算出「最受歡迎」的特定值</li><li>瞭解使用者如何瀏覽您的網站 </li></ul><br>流量變數範例：頁面名稱、網站區域、瀏覽器</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
-| eVar(自訂轉換) | 持續存在於您自訂期間的維度。有效期選項包括事件有效期、瀏覽有效期或 X 天有效期，且應由該變數上執行的分析類型來驅動。<br>eVar和prop之間的主要差異：</br><ul><li>Prop通常用於路徑分析，因為持續性被移除。</li><li>eVar通常用於轉換分析。</li></ul><br>轉換變數範例：內部搜尋詞、內部促銷、外部促銷活動(s. campaign)</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
-| 事件/度量(s. events) | 測量我們希望訪客在網站上採取的關鍵動作的度量。有 3 種事件類型: 計數器、數值和貨幣。事件新增至轉換變數 (eVar) 報表時最為有用。eVar 可提供關於所發生情形的質化資訊，事件則可提供關於所發生情形的量化資訊。<br>eVar與事件之間的主要差異：</br><ul><li>eVar會告訴我們哪些人、哪些人，或是哪些影響了轉換</li><li>事件測量發生了多少轉換</li></ul><br>轉換事件範例: 訂購、應用程式啟動、銷售機會、收入。</br> | [https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
-| 元件 | 您可以拖放至專案的維度、量度、區段和時間粒度(日期範圍)。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
-| 維度 | eVar、prop、分類和標準Adobe收集到的值集合。 | [https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
-| 量度 | 實作事件和計算量度的集合。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
-| 計算量度 | 能夠從實施中擷取的現有量度衍生自訂度量。 | [https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
-| 區段 | 能夠建立、管理、共用並套用功能強大且目標專一的對象區段至 Analytics 報表。區段會在 Analytics 產品間共用，也能在 Experience Cloud 間共用。 | [https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
-| 時間(日期範圍) | 篩選日期至任何時段，並建立可在分析中重復使用的自訂日期範圍。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
-| 視覺效果 | 豐富的視覺效果，可協助您將資料帶入專案中。 | [https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| Prop(自訂流量) | 用來追蹤逐頁網站流量活動的維度。Prop 無法在頁面間持續存在。流量變數的主要應用範圍: <ul><li>輕鬆計算出「最受歡迎」的特定值</li><li>瞭解使用者如何瀏覽您的網站 </li></ul><br>流量變數範例：頁面名稱、網站區域、瀏覽器</br> | [Prop](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-var.html) |
+| eVar(自訂轉換) | 持續存在於您自訂期間的維度。有效期選項包括事件有效期、瀏覽有效期或 X 天有效期，且應由該變數上執行的分析類型來驅動。<br>eVar和prop之間的主要差異：</br><ul><li>Prop通常用於路徑分析，因為持續性被移除。</li><li>eVar通常用於轉換分析。</li></ul><br>轉換變數範例：內部搜尋詞、內部促銷、外部促銷活動(s. campaign)</br> | [eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html) |
+| 事件/度量(s. events) | 測量我們希望訪客在網站上採取的關鍵動作的度量。有 3 種事件類型: 計數器、數值和貨幣。事件新增至轉換變數 (eVar) 報表時最為有用。eVar 可提供關於所發生情形的質化資訊，事件則可提供關於所發生情形的量化資訊。<br>eVar與事件之間的主要差異：</br><ul><li>eVar會告訴我們哪些人、哪些人，或是哪些影響了轉換</li><li>事件測量發生了多少轉換</li></ul><br>轉換事件範例: 訂購、應用程式啟動、銷售機會、收入。</br> | [事件](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) |
+| 元件 | 您可以拖放至專案的維度、量度、區段和時間粒度(日期範圍)。 | [元件](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) |
+| 維度 | eVar、prop、分類和標準Adobe收集到的值集合。 | [維度](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-descriptions.html) |
+| 量度 | 實作事件和計算量度的集合。 | [量度](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/apply-create-metrics.html) |
+| 計算量度 | 能夠從實施中擷取的現有量度衍生自訂度量。 | [計算量度](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
+| 區段 | 能夠建立、管理、共用並套用功能強大且目標專一的對象區段至 Analytics 報表。區段會在 Analytics 產品間共用，也能在 Experience Cloud 間共用。 | [區段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
+| 時間(日期範圍) | 篩選日期至任何時段，並建立可在分析中重復使用的自訂日期範圍。 | [日期範圍](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
+| 視覺效果 | 豐富的視覺效果，可協助您將資料帶入專案中。 | [視覺化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 組織 | 可限制專案或虛擬報表套裝中可存取的元件。 | [VRS教學專案](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
-
-
 
 ## Key features {#concept_216E78AD39DD453D940AE857F4C7D4DF}
 
@@ -148,12 +146,6 @@ source-git-commit: 9140868f7ccf1f7d8ead45fd0c3db6c9b4133538
 
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
-<!-- 
-
-key_metrics.xml
-
- -->
-
 | 量度名稱 | 定義 | 文件連結 |
 |---|---|---|
 | 完整量度清單 | Adobe Analytics 中所有量度的定義。 | [https://marketing.adobe.com/resources/help/en_US/reference/metrics.html](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html) |
@@ -165,12 +157,6 @@ key_metrics.xml
 
 ## 匯入選項 {#concept_7C6DF03B5F9149E2A77F36C739432059}
 
-<!-- 
-
-import_options.xml
-
- -->
-
 | 選項 | 說明 | 文件連結 |
 |---|---|---|
 | 分類匯入工具 | 透過瀏覽器或 FTP 上傳，根據擷取的維度匯入中繼資料。相較於規則產生器，此為手動方式。 | [https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html) |
@@ -180,11 +166,6 @@ import_options.xml
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-<!-- 
-
-export_options.xml
-
- -->
 
 <table id="table_99867D82082D4756872FC3ABD83A33A1"> 
  <thead> 
@@ -229,12 +210,6 @@ export_options.xml
 </table>
 
 ## Data collection and validation {#concept_E07350D4CA5047DAA7D81F762F29606A}
-
-<!-- 
-
-data_collection_and_validation.xml
-
- -->
 
 <table id="table_53039DCCAC1D47F7A1E3485609D13E4D"> 
  <thead> 
