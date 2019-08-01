@@ -8,12 +8,12 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5e22d080398d74df29b1f849258e6500168cd5aa
+source-git-commit: 191c2add5b6762181ff669fddea3e4aa559a5044
 
 ---
 
 
-# Adobe Analytics Plug-In Code{#adobe-analytics-plug-in-code}
+# Adobe Analytics Plug-In Code {#adobe-analytics-plug-in-code}
 
 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行並將它們新增至頁面上的Adobe Analytics代碼。
 
