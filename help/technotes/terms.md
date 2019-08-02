@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的詞彙
 description: Adobe Analytics詞彙表，定義常用詞語。
 translation-type: tm+mt
-source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
+source-git-commit: a11a31d49dcfc3202f963ce25fbccd82ce8988f9
 
 ---
 
@@ -34,6 +34,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **點按流資料饋送：** 請參閱資料饋送。
 * **世代：** 在指定期間分享共同特性的一組人。See [What is Cohort Analysis?](../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 在分析使用指南中。
 * **Collection伺服器：** 請參閱資料收集伺服器。
+* **上下文資料變數：** 僅用於處理規則的暫存變數。如果處理規則未複製到轉換或流量變數，上下文資料變數值會永久遺失。請參閱 [實施使用者指南中的上下文資料變數](../implement/js-implementation/c-variables/context-data-variables.md) 。
 * **轉換變數：** 稱為eVar。儲存自訂值，並保留變數值，直到其過期為止。See [Conversion variables](../components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **關聯：** 不再用作詞語；取代為維度劃分。在舊版Adobe Analytics中，關聯授予了劃分流量變數的能力。請參閱 [分析使用指南中的劃分維度](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 。
 * **目前的資料：** 某些報告中的選項，允許納入最近尚未完全處理的資料。請參閱 [分析使用指南中的目前資料](../analyze/reports-analytics/current-data.md) 。
@@ -97,6 +98,7 @@ source-git-commit: aeb2fc9f53aec6b4e53378b87e64c01f0b437d87
 * **伺服器呼叫：** 影像要求或點擊的替代名稱，主要用於帳單內容。
 * **單次存取：** 一種瀏覽，維度只有單一唯一值。只要沒有多個唯一值，瀏覽就可以多次點擊。請參閱 [元件使用指南中的單次存取](../components/c-variables/c-metrics/metrics-single-access.md) 。另請參閱「彈回數」。
 * **SiteCatalyst：** 不再用作詞語。Adobe Analytics的舊產品名稱。
+* **解決方案設計文件：** 也稱為解決方案設計參考或SDR。由組織維護的內部文件，概述如何使用自訂變數，以及用來填入這些變數的邏輯。請參閱 [實施使用者指南中的建立解決方案設計文件](../implement/prepare/solution-design.md) 。
 * **子關聯：** 不再用作詞語；取代為維度劃分。在舊版Adobe Analytics中，子關聯授予了劃分轉換變數的能力。請參閱 [分析使用指南中的劃分維度](../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 。
 * **成功事件：** 使用者採取的追蹤動作。您的組織會決定追蹤要追蹤的事件，以及您用來追蹤的成功事件變數。請參閱 [元件使用指南中的自訂事件](../components/c-variables/c-metrics/metrics-custom.md) 。
 * **支援的使用者：** 請參閱客戶支援委派。
