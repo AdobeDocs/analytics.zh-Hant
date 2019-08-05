@@ -1,16 +1,16 @@
 ---
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 seo-description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
-seo-title: Adobe Analytics-關鍵概念
-title: Adobe Analytics-關鍵概念
+seo-title: Adobe Analytics - 重要概念
+title: Adobe Analytics - 重要概念
 uuid: ef5701c5-2d3e-4847-851f-9312d55db1a8
 translation-type: tm+mt
-source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
+source-git-commit: 998699eb14d40b955cb6ae73ecf1940c8aed15ab
 
 ---
 
 
-# Adobe Analytics-關鍵概念
+# Adobe Analytics - 重要概念
 
 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 
@@ -44,10 +44,10 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 計算量度 | 能夠從實施中擷取的現有量度衍生自訂度量。 | [計算量度](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/cm-overview.html) |
 | 區段 | 能夠建立、管理、共用並套用功能強大且目標專一的對象區段至 Analytics 報表。區段會在 Analytics 產品間共用，也能在 Experience Cloud 間共用。 | [區段](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html) |
 | 時間(日期範圍) | 篩選日期至任何時段，並建立可在分析中重復使用的自訂日期範圍。 | [日期範圍](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) |
-| 視覺效果 | 豐富的視覺效果，可協助您將資料帶入專案中。 | [視覺化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
+| 視覺效果 | 豐富的視覺效果，可協助您將資料帶入專案中。 | [視覺效果](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) |
 | 組織 | 可限制專案或虛擬報表套裝中可存取的元件。 | [VRS教學專案](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-components.html)<br>[比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate.html)</br><br>[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html) |
 
-## Key reports {#concept_216E78AD39DD453D940AE857F4C7D4DF}
+## 關鍵報表
 
 | 報告 | 說明 | 文件連結 |
 |--- |--- |--- |
@@ -61,7 +61,7 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 客戶歷程報告 | 顯示使用者透過您的網站或應用程式進行路徑的相關資訊。Prop、eVar和事件可用於分析工作區中的分析。 | [Analysis Workspace流失分析](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)[工作區流程報告](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/flow/flow.html)[與分析路徑分析](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html) |
 | 行銷管道 | 這些報表可協助您理解哪些外部管道將使用者引入您的網站，以及在促進轉換方面哪些管道最有效。並提供首次接觸和上次接觸歸因檢視。這是 Adobe Analytics 慣用的外部流量來源報表 (優先於促銷活動或流量來源)，因為這可同時提供付費和自然管道的最全面資訊。 | [行銷管道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-getting-started-mchannel.html) |
 | 行動 | 顯示從行動裝置或平板電腦存取的網站相關資訊。 | [行動報告] | (https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-mobile.html) |
-| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實施並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。Access the interface [here](https://mobilemarketing.adobe.com). | [Adobe Mobile 服務](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 產品 | 識別個別產品和產品群組 (類別) 對各種轉換量度 (如收入或結帳) 的貢獻度。 | [產品報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
+| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實施並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。存取介面 [](https://mobilemarketing.adobe.com)。 | [Adobe Mobile 服務](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | 產品 | 識別個別產品和產品群組 (類別) 對各種轉換量度 (如收入或結帳) 的貢獻度。 | [產品報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-products.html) |
 | 區段比較 | 透過自動化分析每個度量和維度，找出區段之間最明顯的統計差異。 | [區段比較](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) |
 | 網站內容報告 | 顯示您網站中最活躍的網頁與區域，以及最常用的伺服器。 | [網站內容報告](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-content.html) |
 | 網站度量報表 | 顯示您網站的相關量化資訊，例如獨特訪客、訂購、收入等。每個量度都能放在其他項目型報表中。 | [網站度量報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-site-metrics.html) |
@@ -69,13 +69,12 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 訪客保留率 | 顯示客戶忠誠度的相關資訊，例如有多少訪客回訪您的網站以及回訪頻率。 | [訪客保留率](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-visitor-retention.html) |
 | 專案連結、共用與排程 | 在 Analytics 介面中儲存和/或與他人共用您的工作的方法。 | [傳送和排程檔案](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/send-schedule-files.html) |
 
-
 ## Key metrics {#concept_392819DC275C48688E2CE4ABD4C5EE43}
 
 | 量度名稱 | 定義 | 文件連結 |
 |---|---|---|
-| 完整量度清單 | Adobe Analytics 中所有量度的定義。 | [量度概述](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
-| 獨特訪客 | 在指定時段內，前往網站的不重複訪客數量。 | [獨特訪客](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
+| 完整量度清單 | Adobe Analytics 中所有量度的定義。 | [量度概觀](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-overview.html) |
+| 不重複訪客 | 在指定時段內，前往網站的不重複訪客數量。 | [不重複訪客](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-unique-visitors-v15-dsc.html) |
 | 瀏覽 | 某一段時間的頁面檢視順序。瀏覽開始於一個人開始檢視網站的某個頁面，結束於閒置 30 分鐘後。 | [瀏覽](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) |
 | 頁面檢視 | 當訪客檢視您的網站頁面時就會發生頁面檢視。 | [頁面檢視](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-page-view.html) |
 | 例項 | 變數被定義的次數。每一次 Adobe Analytics 查看變數中的值時，該對應報表中的例項就會遞增一。 | [例項](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-instance.html) |
@@ -89,17 +88,17 @@ source-git-commit: d7553fb973d4daddc46533f76769b383966c5c7d
 | 規則產生器 | 根據使用者定義規則，自動建立維度的中繼資料分類。 | [分類規則產生器](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) |
 | 客戶屬性 | 上傳至Experience Cloud的CRM資料，以便用於Adobe Analytics和Adobe Target。 | [客戶屬性](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) |
 | 資料來源 | 在Analytics中依維度或單純的日期提供離線量度。 | [資料來源](https://docs.adobe.com/content/help/en/analytics/import/data-sources/datasrc-home.html) |
-| Adobe Exchange Data Connectors | See [Adobe Analytics Tools](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B). |  |
+| Adobe Exchange Data Connectors | 請參閱 [Adobe Analytics工具](../../analyze/reports-analytics/key-concepts.md#concept_833EDD4EB056491DA1BC5A3A45FE285B)。 |  |
 | 原生整合 | 觀眾分析與廣告分析。 | 請參閱「關鍵報告」一節。 |
 
 ## Export options {#concept_C62B688E259141CF92C048E8110464BE}
 
-| 選項 | 說明 |  |
-|--- |--- |--- |
-| UI下載與排程 | 將分析工作區的資料匯出為CSV或PDF | [下載 PDF 或 CSV 檔案](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html) |
-| Report Builder | 請參閱Analytics工具。 | - |
+| 選項 | 說明 | 文件連結 |
+|---|---|---|
+| UI下載與排程 | 將分析工作區的資料匯出為CSV或PDF | [下載 PDF 或 CSV 檔案](/help/analyze/analysis-workspace/curate-share/download-send.md) |
+| Report Builder | 請參閱Analytics工具。 |
 | Analytics API | 建立對 Analytics 資料的自訂查詢。 | <ul><li>[API2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| Data Warehouse | 請參閱Analytics工具。 | - |
+| Data Warehouse | 請參閱Analytics工具。 |  |
 | Analytics 資料摘要 | 從 Analytics 取得資料的最詳細方式。設定 Analytics 的點擊層級回饋。 | [Analytics 資料摘要](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/get-started/data-feed-overview.html) |
 
 
