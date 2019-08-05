@@ -1,19 +1,19 @@
 ---
 product: analytics
 audience: 終端使用者
-user-guide-title: Analytics 實作指南
-user-guide-url: /content/help/en/analytics/implementation/home.html
-translation-type: tm+mt
+user-guide-title: Analytics 實施指南
+user-guide-url: /content/help/zh-Hant/analytics/implementation/home.html
+translation-type: ht
 source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
 
 ---
 
 
-# Analytics 實作指南 {#implementation}
+# Analytics 實施指南 {#implementation}
 
-+ [Analytics實作說明](home.md)
-+ AppMeasurement Release Notes {#appmeasurement-release-notes}
-   + [AppMeasurement發行說明](appmeasurement-release-notes/appmeasurement-release-notes.md)
++ [Analytics 實施說明](home.md)
++ AppMeasurement 發行說明 {#appmeasurement-release-notes}
+   + [AppMeasurement 發行說明](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [JavaScript 適用的 AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H 代碼 (舊版)](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
@@ -31,13 +31,13 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [PHP](appmeasurement-release-notes/c-release-notes-php.md)
 + Analytics 實施 {#analytics-implementation}
    + [實施藍圖](c-implementation/implementation.md)
-   + [常用的實施連結](c-implementation/popular-implementation-links.md)
+   + [熱門實施連結](c-implementation/popular-implementation-links.md)
    + [發行說明](c-implementation/rn.md)
 + Analytics 基本概念 {#analytics-basics}
    + [警報](analytics-terminology-basics/ref-alerts.md)
-   + [Analytics程式碼](analytics-terminology-basics/ref-analytics-code.md)
+   + [Analytics 程式碼](analytics-terminology-basics/ref-analytics-code.md)
    + [分類](analytics-terminology-basics/ref-classifications.md)
-   + [轉換變數(eVar)](analytics-terminology-basics/ref-conversion-variables-evar.md)
+   + [轉換變數 (eVar)](analytics-terminology-basics/ref-conversion-variables-evar.md)
    + [資料彙集](analytics-terminology-basics/data-collection-overview.md)
    + [代碼管理器](analytics-terminology-basics/code-manager.md)
    + [資料層](analytics-terminology-basics/ref-data-layer.md)
@@ -47,46 +47,46 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [處理規則](analytics-terminology-basics/ref-processing-rules.md)
    + [報表與報表套裝](analytics-terminology-basics/ref-reports-report-suites.md)
    + [區段](analytics-terminology-basics/ref-segments.md)
-   + Traffic props and conversion eVars {#traffic-props-evars}
-      + [prop和eVar的概述](analytics-terminology-basics/c-props-evars/props-evars.md)
+   + 流量 Prop 和轉換 eVar {#traffic-props-evars}
+      + [Prop 和 eVar 概觀](analytics-terminology-basics/c-props-evars/props-evars.md)
       + [比較 Prop 和 eVar](analytics-terminology-basics/c-props-evars/props-vs-evars.md)
-      + [將prop當做計數器](analytics-terminology-basics/c-props-evars/props-counter.md)
-      + [計算內容階層](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
-      + [甚麼是預先定義的事件？](analytics-terminology-basics/c-props-evars/event-predefined.md)
-      + [詳細的產品檢視頁面](analytics-terminology-basics/c-props-evars/prodview-page.md)
-      + [甚麼是自訂事件？](analytics-terminology-basics/c-props-evars/event-custom.md)
+      + [將 Prop 作為計數器](analytics-terminology-basics/c-props-evars/props-counter.md)
+      + [計算內容階層數](analytics-terminology-basics/c-props-evars/content-hierarchies.md)
+      + [什麼是預先定義的事件?](analytics-terminology-basics/c-props-evars/event-predefined.md)
+      + [詳細產品檢視頁面](analytics-terminology-basics/c-props-evars/prodview-page.md)
+      + [什麼是自訂事件?](analytics-terminology-basics/c-props-evars/event-custom.md)
       + [雜湊碰撞](analytics-terminology-basics/c-props-evars/hash-collisions.md)
-+ [關於Analytics實作的常見問題](faq.md)
-+ Prepare to implement {#prepare}
++ [Analytics 實施常見問題集](faq.md)
++ 準備實施 {#prepare}
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [建立資料層](prepare/data-layer.md)
    + [選擇實施方法](c-implementation-methods/choose-implementation-method.md)
-+ [Analytics實作快速入門](c-get-started-implementation/t-analytics-implementation-get-started.md)
-+ Implement Analytics with Adobe Experience Platform Launch {#implement-with-launch}
-   + [在Experience Platform Launch中建立Analytics屬性](implement-with-launch/create-analytics-property.md)
-   + [部署實作至開發環境](implement-with-launch/deploy-dev.md)
-   + [驗證開發實作並發佈至生產環境](implement-with-launch/validate-publish-prod.md)
-+ Implement Analytics with DTM {#implement-analytics-with-dtm}
-   + [動態標籤管理實施概述](c-implement-with-dtm/dtm-implementation-overview.md)
-   + [建立Web屬性](c-implement-with-dtm/t-create-web-property.md)
-   + [設定托管選項](c-implement-with-dtm/t-configure-hosting.md)
-   + Headers and footers {#headers-footers}
++ [開始使用 Analytics 實施](c-get-started-implementation/t-analytics-implementation-get-started.md)
++ 使用 Adobe Experience Platform Launch 實施 Analytics {#implement-with-launch}
+   + [在 Experience Platform Launch 中建立 Analytics 屬性](implement-with-launch/create-analytics-property.md)
+   + [將實施部署至開發環境](implement-with-launch/deploy-dev.md)
+   + [驗證開發實施並發佈至生產環境](implement-with-launch/validate-publish-prod.md)
++ 使用 DTM 實施 Analytics {#implement-analytics-with-dtm}
+   + [Dynamic Tag Management 實施概觀](c-implement-with-dtm/dtm-implementation-overview.md)
+   + [建立 Web 屬性](c-implement-with-dtm/t-create-web-property.md)
+   + [設定託管選項](c-implement-with-dtm/t-configure-hosting.md)
+   + 頁首與頁尾 {#headers-footers}
       + [新增頁首與頁尾代碼](c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)
       + [驗證頁首與頁尾代碼](c-implement-with-dtm/c-headers-footers/t-verify-header-footer.md)
-   + Adobe Analytics tool {#analytics-tool}
-      + [新增Adobe Analytics工具](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
+   + Adobe Analytics 工具 {#analytics-tool}
+      + [新增 Adobe Analytics 工具](c-implement-with-dtm/c-aa-tool/analytics-dtm.md)
       + [一般](c-implement-with-dtm/c-aa-tool/general-settings-analytics.md)
       + [程式庫管理](c-implement-with-dtm/c-aa-tool/library-management.md)
       + [插入核心 AppMeasurement 代碼](c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md)
       + [全域變數](c-implement-with-dtm/c-aa-tool/global-variables.md)
       + [頁面檢視與內容](c-implement-with-dtm/c-aa-tool/pageviews-content.md)
       + [連結追蹤](c-implement-with-dtm/c-aa-tool/link-tracking.md)
-      + [反向連結和促銷活動](c-implement-with-dtm/c-aa-tool/referrers-campaigns.md)
+      + [反向連結與促銷活動](c-implement-with-dtm/c-aa-tool/referrers-campaigns.md)
       + [Cookie](c-implement-with-dtm/c-aa-tool/cookies-analytics.md)
       + [自訂頁面代碼](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
-      + [關於Adobe Analytics工具的常見問答集](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
+      + [Adobe Analytics 工具常見問題集](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
    + [建立資料元素](c-implement-with-dtm/t-data-element.md)
-   + [手動實作 Adobe Analytics (舊版)](c-implement-with-dtm/t-analytics-deploy.md)
+   + [手動實施 Adobe Analytics (舊版)](c-implement-with-dtm/t-analytics-deploy.md)
    + 規則 {#rules}
       + [建立新規則](c-implement-with-dtm/c-rules/t-rules-create.md)
       + [建立事件型規則的條件](c-implement-with-dtm/c-rules/t-rules-event-conditions.md)
@@ -94,35 +94,35 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [建立直接呼叫規則的條件](c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)
       + [設定條件要觸發的動作](c-implement-with-dtm/c-rules/t-rules-actions.md)
       + [為 Akamai 主機測試未發佈的規則](c-implement-with-dtm/c-rules/t-test-rules-akamai.md)
-      + [測試程式庫下載或FTP的規則](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
+      + [程式庫下載或 FTP 的測試規則](c-implement-with-dtm/c-rules/t-test-rules-ftp.md)
 + 使用 JavaScript 實施 Analytics {#javascript-implementation}
-   + [JavaScript實作概述](js-implementation/javascript-implementation-overview.md)
-   + [頁面程式碼和全域組態範例](js-implementation/appmeasure-mjs-pagecode.md)
+   + [JavaScript 實施概觀](js-implementation/javascript-implementation-overview.md)
+   + [範例頁面程式碼和全域設定](js-implementation/appmeasure-mjs-pagecode.md)
    + JavaScript 適用的 AppMeasurement {#appmeasurement-js}
       + [關於 JavaScript 適用的 AppMeasurement](js-implementation/c-appmeasurement-js/appmeasure-mjs.md)
       + [移轉至 JavaScript 適用的 AppMeasurement](js-implementation/c-appmeasurement-js/appmeasure-mjs-migrate.md)
-      + [AppMeasurement外掛程式支援](js-implementation/c-appmeasurement-js/plugins-support.md)
+      + [AppMeasurement 外掛程式支援](js-implementation/c-appmeasurement-js/plugins-support.md)
    + [Accelerated Mobile Pages](js-implementation/accelerated-mobile-pages.md)
    + [Facebook 即時文章](js-implementation/analytics-facebook-instant-articles.md)
-   + Additional web and mobile measurement libraries {#additional-libraries}
-      + [其他資料庫簡介](js-implementation/c-additional-libraries/libraries.md)
-      + [使用HTML影像標記實施Analytics](js-implementation/c-additional-libraries/implscwojs.md)
-      + [不使用JavaScript准則實施](js-implementation/c-additional-libraries/otherreq.md)
+   + 其他網站和行動測量程式庫 {#additional-libraries}
+      + [其他程式庫概觀](js-implementation/c-additional-libraries/libraries.md)
+      + [使用 HTML 影像標記實施 Analytics](js-implementation/c-additional-libraries/implscwojs.md)
+      + [不使用 JavaScript 指南實施](js-implementation/c-additional-libraries/otherreq.md)
       + [程式碼範例](js-implementation/c-additional-libraries/samplecode.md)
       + [行動網路通訊協定](js-implementation/c-additional-libraries/network-protocols.md)
       + [行動通訊協定網路閘道](js-implementation/c-additional-libraries/how-beacon-reaches-adobe.md)
       + [標記行動通訊協定的頁面](js-implementation/c-additional-libraries/tagging-mobile-pages.md)
-      + [使用行動通訊協定的裝置報表](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
+      + [使用行動通訊協定之裝置的報表](js-implementation/c-additional-libraries/reports-for-mobile-dev.md)
       + [行動通訊協定上的自訂連結測量](js-implementation/c-additional-libraries/mobile-link-tracking.md)
-   + Variables for Analytics implementation and reporting {#variables-analytics-reporting}
+   + Analytics 實施及報表之變數 {#variables-analytics-reporting}
       + [變數概觀](js-implementation/c-variables/sc-variables.md)
-      + [組態變數](js-implementation/c-variables/configuration-variables.md)
+      + [設定變數](js-implementation/c-variables/configuration-variables.md)
       + [上下文資料變數](js-implementation/c-variables/context-data-variables.md)
       + [動態變數](js-implementation/c-variables/dynvars-overview.md)
       + [頁面變數](js-implementation/c-variables/page-variables.md)
-      + [其他eVar和事件](js-implementation/c-variables/evars-events.md)
+      + [其他 eVar 和事件](js-implementation/c-variables/evars-events.md)
       + [變數和限制](js-implementation/c-variables/vars-limitiations.md)
-      + [非法JavaScript字元](js-implementation/c-variables/vars-restrictions.md)
+      + [非法 JavaScript 字元](js-implementation/c-variables/vars-restrictions.md)
    + [s.t() 函數 - 頁面追蹤](js-implementation/function-t.md)
    + [s.tl() 函數 - 連結追蹤](js-implementation/function-tl.md)
    + [s.sa() 函數](js-implementation/function-sa.md)
@@ -132,24 +132,24 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [Util.cookieWrite](js-implementation/util-cookiewrite.md)
    + [Util.getQueryParam](js-implementation/util-getqueryparam.md)
    + [離線追蹤](js-implementation/offline-tracking.md)
-   + Data collection {#data-collection}
-      + [資料收集查詢參數](js-implementation/data-collection/query-parameters.md)
-      + [資料收集HTTP標題](js-implementation/data-collection/http-headers.md)
+   + 資料彙集 {#data-collection}
+      + [資料彙集查詢參數](js-implementation/data-collection/query-parameters.md)
+      + [資料彙集 HTTP 標題](js-implementation/data-collection/http-headers.md)
       + [變數覆寫](js-implementation/data-collection/var-overrides.md)
-      + [報表套裝ID-動態帳戶](js-implementation/data-collection/dynamic-accounts.md)
+      + [報表套裝 ID - 動態帳戶](js-implementation/data-collection/dynamic-accounts.md)
       + [常見錯誤](js-implementation/data-collection/common-errors.md)
-      + [從表單元素收集資料](js-implementation/data-collection/data-elements.md)
+      + [從表單元素彙集資料](js-implementation/data-collection/data-elements.md)
       + [追蹤不同的實施類型](js-implementation/data-collection/impl-tupes.md)
-      + [實施指引](js-implementation/data-collection/impl-guideliens.md)
+      + [實施指南](js-implementation/data-collection/impl-guideliens.md)
       + [實施範例](js-implementation/data-collection/impl-examples.md)
-      + [AJAX-Track豐富型媒體應用程式](js-implementation/data-collection/impl-media-ajax.md)
+      + [AJAX- 追蹤多媒體應用程式](js-implementation/data-collection/impl-media-ajax.md)
       + [使用 AJAX 進行實施](js-implementation/data-collection/impl-ajax.md)
       + [外部電子郵件追蹤](js-implementation/data-collection/email-external.md)
-      + [實作Adobe退出](js-implementation/data-collection/opt-out.md)
-      + [新增退出連結](js-implementation/data-collection/opt-out-link.md)
-   + Implementation plug-ins {#plugins}
+      + [實施 Adobe 的選擇退出](js-implementation/data-collection/opt-out.md)
+      + [新增選擇退出連結](js-implementation/data-collection/opt-out-link.md)
+   + 實施外掛程式 {#plugins}
       + [使用實施外掛程式](js-implementation/plugins/impl-plugins.md)
-      + [使用doPlugins函數呼叫外掛程式](js-implementation/plugins/plugins-calling.md)
+      + [使用 doPlugins 函數呼叫外掛程式](js-implementation/plugins/plugins-calling.md)
       + [s.abort 標幟](js-implementation/plugins/abort.md)
       + [appendList](js-implementation/plugins/appendlist.md)
       + [doPlugins 函數](js-implementation/plugins/function-doplugins.md)
@@ -171,72 +171,72 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [效能計時](js-implementation/plugins/performancetiming.md)
       + [trackTNT](js-implementation/plugins/tracktnt.md)
    + 路徑分析 {#pathing}
-      + [路徑概述](js-implementation/c-pathing/pathing.md)
-      + [對prop啓用路徑分析](js-implementation/c-pathing/pathing-prop.md)
-      + [促銷活動或追蹤代碼的路徑分析](js-implementation/c-pathing/pathing-campaign.md)
-      + [無法記錄路徑分析的原因](js-implementation/c-pathing/pathing-troubleshooting.md)
-      + [從區段移至區段](js-implementation/c-pathing/pathing-section.md)
-      + [從頁面範本移至頁面範本](js-implementation/c-pathing/pathing-pagetempalte.md)
-      + [依使用者類型區分路徑](js-implementation/c-pathing/pathing-segments.md)
+      + [路徑概觀](js-implementation/c-pathing/pathing.md)
+      + [對 Prop 啟用路徑分析](js-implementation/c-pathing/pathing-prop.md)
+      + [依促銷活動或追蹤代碼的路徑分析](js-implementation/c-pathing/pathing-campaign.md)
+      + [未記錄路徑分析的原因](js-implementation/c-pathing/pathing-troubleshooting.md)
+      + [在不同區域間移動](js-implementation/c-pathing/pathing-section.md)
+      + [在不同頁面範本間移動](js-implementation/c-pathing/pathing-pagetempalte.md)
+      + [依使用者類型劃分路徑](js-implementation/c-pathing/pathing-segments.md)
    + [購買事件](js-implementation/event-purchase.md)
-   + [事件序列化概述](js-implementation/event-serialization.md)
-   + Unique visitors {#unique-visitors}
-      + [識別獨特訪客](js-implementation/c-unique-visitors/visid-overview.md)
+   + [事件序列化概觀](js-implementation/event-serialization.md)
+   + 不重複訪客 {#unique-visitors}
+      + [識別不重複訪客](js-implementation/c-unique-visitors/visid-overview.md)
       + [自訂訪客 ID](js-implementation/c-unique-visitors/visid-custom.md)
-      + [身分服務](js-implementation/c-unique-visitors/visid-service.md)
+      + [識別服務](js-implementation/c-unique-visitors/visid-service.md)
       + [Analytics 訪客 ID](js-implementation/c-unique-visitors/visid-analytics.md)
-      + [備援ID方法](js-implementation/c-unique-visitors/visid-fallback.md)
+      + [備援 ID 方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [識別行動裝置](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Marketing Cloud 核心服務](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
-   + Cross-device visitor identification {#cross-device-visitor-id}
-      + [跨裝置連結使用者](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [跨裝置訪客識別的資料影響](js-implementation/xdevice-visid/xdevice-data.md)
+   + [Marketing Cloud 核心服務](https://marketing.adobe.com/resources/help/zh_TW/mcloud/?f=core_services)
+   + 跨裝置訪客身份識別 {#cross-device-visitor-id}
+      + [連結跨裝置的使用者](js-implementation/xdevice-visid/xdevice-connecting.md)
+      + [跨裝置訪客身分識別對資料的影響](js-implementation/xdevice-visid/xdevice-data.md)
       + [範例瀏覽](js-implementation/xdevice-visid/visit-example.md)
       + [訪客](js-implementation/xdevice-visid/visitors.md)
       + [瀏覽](js-implementation/xdevice-visid/visits.md)
       + [建立區段](js-implementation/xdevice-visid/segments.md)
       + [地域劃分資料](js-implementation/xdevice-visid/geo-data.md)
-      + [歸因與持續性](js-implementation/xdevice-visid/variable-persistence.md)
+      + [歸屬分配和持續性](js-implementation/xdevice-visid/variable-persistence.md)
    + [訪客移轉](js-implementation/visitor-migration.md)
    + [使用可選時間戳記](js-implementation/timestamps-overview.md)
-   + [重新導向和別名](js-implementation/redirects-overview.md)
-+ Testing and validation {#testing-and-validation}
-   + Testing and validation process {#testing-and-validation-process}
-      + [測試與驗證總覽](impl-testing/impl-validation/impl-validation.md)
-      + [識別除錯程式中的s_ account變數](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript JS檔案](impl-testing/impl-validation/impl-js-file.md)
+   + [重新導向與別名](js-implementation/redirects-overview.md)
++ 測試和驗證 {#testing-and-validation}
+   + 測試和驗證程序 {#testing-and-validation-process}
+      + [測試和驗證概觀](impl-testing/impl-validation/impl-validation.md)
+      + [在除錯程式中識別 s_account 變數](impl-testing/impl-validation/impl-testing-account.md)
+      + [JavaScript JS 檔案](impl-testing/impl-validation/impl-js-file.md)
       + [程式碼修改](impl-testing/impl-validation/impl-code-updates.md)
       + [變數和值](impl-testing/impl-validation/impl-var-values.md)
       + [自訂變數](impl-testing/impl-validation/impl-custom-vars.md)
-      + [實施接受](impl-testing/impl-validation/impl-acceptance.md)
+      + [實施同意](impl-testing/impl-validation/impl-acceptance.md)
       + [資料正確性驗證](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud Debugger](impl-testing/debugger.md)
    + [封包分析器](impl-testing/packet-monitor.md)
-   + Implementation troubleshooting {#implementation-troubleshooting}
-      + [常見實作錯誤](impl-testing/impl-troubleshooting/impl-troubleshooting.md)
-      + [將Analytics程式碼放入head標籤中](impl-testing/impl-troubleshooting/impl-head-tag.md)
+   + 實施疑難排解 {#implementation-troubleshooting}
+      + [常見實施錯誤](impl-testing/impl-troubleshooting/impl-troubleshooting.md)
+      + [將 Analytics 程式碼放入 head 標記中](impl-testing/impl-troubleshooting/impl-head-tag.md)
       + [使用 s.linkTrackVars 和 s.linkTrackEvents](impl-testing/impl-troubleshooting/link-track-vars-events.md)
-      + [產品變數中常見錯誤](impl-testing/impl-troubleshooting/products-troubleshooting.md)
-      + [正確設定pageType變數](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
+      + [產品變數中的常見錯誤](impl-testing/impl-troubleshooting/products-troubleshooting.md)
+      + [正確設定 PageType 變數](impl-testing/impl-troubleshooting/pagetype-troubleshooting.md)
       + [在變數值中使用空白字元](impl-testing/impl-troubleshooting/impl-whitespace.md)
       + [使用引號](impl-testing/impl-troubleshooting/impl-quotes.md)
-      + [取代您的Analytics程式碼](impl-testing/impl-troubleshooting/impl-update-code.md)
+      + [取代 Analytics 程式碼](impl-testing/impl-troubleshooting/impl-update-code.md)
       + [常見語法錯誤](impl-testing/impl-troubleshooting/impl-syntax-troubleshooting.md)
    + [弱點掃描器](impl-testing/vulnerability-scanner.md)
-   + Optimize your implementation {#optimize-implementation}
-      + [最佳化總覽](impl-testing/c-optimize/impl-optimization.md)
+   + 對實施進行最佳化 {#optimize-implementation}
+      + [最佳化概觀](impl-testing/c-optimize/impl-optimization.md)
       + [頁面命名](impl-testing/c-optimize/page-naming.md)
       + [頁面命名策略](impl-testing/c-optimize/page-naming-strategies.md)
       + [變數長度](impl-testing/c-optimize/var-length.md)
-      + [HTML程式碼片段](impl-testing/c-optimize/impl-html-snippet.md)
-      + [Javascript程式庫檔案](impl-testing/c-optimize/impl-js-library.md)
+      + [HTML 程式碼片段](impl-testing/c-optimize/impl-html-snippet.md)
+      + [Javascript 程式庫檔案](impl-testing/c-optimize/impl-js-library.md)
       + [快取指示](impl-testing/c-optimize/caching-directives.md)
       + [表格](impl-testing/c-optimize/tables.md)
       + [檔案壓縮](impl-testing/c-optimize/impl-compression.md)
       + [安全頁面](impl-testing/c-optimize/secure-pages.md)
       + [內容遞送服務/網路](impl-testing/c-optimize/cdn.md)
-      + [JavaScript檔案位置與並行作業](impl-testing/c-optimize/impl-js-hosting.md)
+      + [JavaScript 檔案的位置和並行性](impl-testing/c-optimize/impl-js-hosting.md)
       + [互連](impl-testing/c-optimize/peering.md)
-   + [報告至變數映射](impl-testing/report-variable-mapping.md)
-   + [變數至報表映射](impl-testing/var-report-mapping.md)
-+ [實作Digital Sasants的Analytics](c-analytics-digital-assistants/digital-assistants-white-paper.md)
+   + [報表與變數的對應](impl-testing/report-variable-mapping.md)
+   + [用以報表對應的變數](impl-testing/var-report-mapping.md)
++ [對數位助理實施 Analytics](c-analytics-digital-assistants/digital-assistants-white-paper.md)
