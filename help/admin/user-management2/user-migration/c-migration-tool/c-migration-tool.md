@@ -8,7 +8,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 77a46f010773397933d34f643d3d232e2761325b
 
 ---
 
@@ -118,7 +118,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
      <li id="li_418476105FE341229CE146E730AAB33D">Analytics 的現有權限群組會自動複製到 Admin Console，成為「產品設定檔」，其中包括報表套裝、量度、維度、Analytics 及「報表套裝工具」的說明與詳細區分的權限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您目前有任何 Analytics 使用者是在 Admin Console 中建立的 (表示他們擁有相連結的 Adobe/Enterprise ID)，系統會將這些使用者新增到 Admin Console 中相應的產品設定檔。 </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics「管理」標籤下的「使用者管理」區段會設為 <span class="term"> 唯讀</span>. 您將無法在此處建立新的使用者或權限群組，而必須在 Admin Console 中執行這兩項功能。如需詳細資訊，請參閱 <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console 中不支援的 Analytics 功能</a>。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">管理員將可獲得<a href="../c-migration-tool/t-migrate-users.md" format="xml" scope="peer">使用者 ID 移轉</a>工具的存取權。此外，畫面上會出現產品內通知，除了說明內容和常見問題的連結外，也會告知您移轉的結束日期 (通常是 60 天後)。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">身為管理員，您將獲得[使用者ID移轉工具]的存取權(https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html)。此外，畫面上會出現產品內通知，除了說明內容和常見問題的連結外，也會告知您移轉的結束日期 (通常是 60 天後)。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您將獲得 Admin Console「權限」標籤的存取權，以便使用熟悉的所有 Analytics 精細選項來建立「產品設定檔」。 </li> 
     </ul> </td> 
   </tr> 
