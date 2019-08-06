@@ -7,7 +7,7 @@ title: 可選時間戳記
 topic: 管理工具
 uuid: 0fa63658-1cc2-4c51-a51-a0662 d0 aa941
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 從行動應用程式傳送時間戳記資料至全域報表套裝。
 * 升級應用程式，即可在無需建立新報表套裝的狀況下使用離線追蹤。
 
-如需在報表套裝中使用時間戳記的最佳實務，請參閱[使用可選時間戳記](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=timestamps-overview)。
+如需在報表套裝中使用時間戳記的最佳實務，請參閱[使用可選時間戳記](/help/implement/js-implementation/timestamps-overview.md)。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->啟動時間戳記的作業資料最多可保留 92 日。
+>啟動時間戳記的作業資料最多可保留 92 日。這表示瀏覽/作業將會「開啓」92天，而任何點擊點擊(在上次點擊(點擊時間在點擊時間後30分鐘))仍可包含在同一次瀏覽/作業中。因為有許多因素(分段、配置、有效期等)，因此收到無順序的「舊」點擊會產生「未知」結果。影響是否將這些點擊納入報告中。
 
 ## 新的報表套裝 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
