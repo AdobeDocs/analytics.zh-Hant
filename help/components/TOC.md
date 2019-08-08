@@ -3,8 +3,8 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/zh-Hant/analytics/components/home.html
-translation-type: ht
-source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
+translation-type: tm+mt
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -63,6 +63,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [參考資料: 進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度相容性](c-calcmetrics/cm-compatibility.md)
       + [計算量度: 角色型權限](c-calcmetrics/cm-role-based-rights.md)
+      + [計算度量總計](c-calcmetrics/cm-totals.md)
 + 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報表套裝概觀](vrs/vrs-about.md)
    + [虛擬報表套裝元件管理](vrs/vrs-components.md)
