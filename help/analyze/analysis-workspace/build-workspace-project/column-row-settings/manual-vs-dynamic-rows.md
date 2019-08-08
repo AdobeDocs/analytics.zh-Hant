@@ -5,7 +5,7 @@ seo-title: 靜態與動態列
 title: 靜態與動態列
 uuid: caf033ef-d252-4f8 a-802e-7edbbac5 c8 c0
 translation-type: tm+mt
-source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
+source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
 ---
 
@@ -33,6 +33,6 @@ source-git-commit: fc29562a342c9d1721e250f5e3abc4d3fced926f
 
 | 選項 | 說明 |
 |---|---|
-| 加總目前在每個欄中的值來計算總計。 | 這個選項只會計算目前在表格中的列。(用戶端計算) |
+| (預設)透過總和每欄中目前的值計算總計。 | 這個選項只會計算目前在表格中的列。(用戶端計算) |
 | 根據每個量度的所有列來計算總計。 | 這個選項包含此維度的所有維度項目，即使是未列於表格中的項目。(伺服器端計算) |
 
