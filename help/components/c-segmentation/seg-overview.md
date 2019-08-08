@@ -1,22 +1,22 @@
 ---
 description: 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 seo-description: 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
-seo-title: 關於區段和容器
+seo-title: 關於區段與容器
 solution: Analytics
-title: 關於區段和容器
+title: 關於區段與容器
 topic: 區段
 uuid: e8b1edd1-5d6c-4213-994b-ed789 ad30 a4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 774975605de502b66279888d8dd8ef58989a40de
 
 ---
 
 
-# 關於區段和容器
+# 關於區段與容器
 
 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 
-## About segments and containers {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
+## 關於區段與容器 {#concept_82653C7E29FE49F5A4B5E5E93B0A6399}
 
 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 
@@ -112,7 +112,7 @@ seg_container_overview.xml
 
 * 訪問次數
 * 登入頁面
-* 回訪頻率
+* 回訪頻度
 * 參與率量度
 * 線性配置的量度
 
