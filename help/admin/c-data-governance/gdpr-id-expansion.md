@@ -5,7 +5,7 @@ seo-title: ID 擴增
 title: ID 擴增
 uuid: 2672d17d-c957-4e08-8d98-16d54 d54 bb
 translation-type: tm+mt
-source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
 "expandIds": true
 ```
 
-如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)。如需更多詳細資料，請參閱 [GDPR API 文件](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)。
+如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)。如需更多詳細資料，請參閱 [GDPR API 文件](https://www.adobe.io/apis/experienceplatform/gdpr.html)。
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -59,7 +59,7 @@ source-git-commit: aa098cbd84d773a5cc44e2771fef50d04b01a3d3
 除了其預設值外，優先順序欄位亦支援「low」值。若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，除了資料主體提出的請求以外，Adobe 不鼓勵基於其他原因使用 GDPR API。GDPR API 並非適合用於資料清理或修復的工具，可能會致生非預期的後果。
 
 >[!NOTE]
->GDPR API已提供協助您履行敏感的GDPR要求。Adobe不支援使用此API for&gt;其他目的，並且可能會影響Adobe為其他Adobe客戶適時啓用高優先順序的GDPR請求。我們要求您不要使用GDPR API，例如清除意外提交給大量訪客的資料。
+>[GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) 已提供協助您履行敏感的GDPR要求。Adobe不支援使用此API for&gt;其他目的，並且可能會影響Adobe為其他Adobe客戶適時啓用高優先順序的GDPR請求。我們要求您不要使用GDPR API，例如清除意外提交給大量訪客的資料。
 >
 >您也應注意，因為GDPR&gt;刪除要求而刪除了點擊的任何訪客(更新或匿名)都會重設狀態資訊。訪客下次返回您的網站時，就會變成新訪客。所有eVar歸因都會再次開始，如造訪次數、反向連結、第一頁瀏覽等資訊都會再次啓動。在您想要清除&gt;資料欄位的情況下，此副作用是不需要的，並且反白顯示GDPR API不適合此使用情況的原因一。
 >
