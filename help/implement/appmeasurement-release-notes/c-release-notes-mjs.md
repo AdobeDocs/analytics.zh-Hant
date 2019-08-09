@@ -8,7 +8,7 @@ title: JavaScript 適用的 AppMeasurement
 topic: 開發人員和實施
 uuid: 1440013d-d266-4dce-9807-1b9 adac73315
 translation-type: tm+mt
-source-git-commit: 12f8d0017acfad36f3445cd31a629725dd737686
+source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
 
 ---
 
@@ -24,6 +24,18 @@ Cumulative release notes for [!DNL AppMeasurement] for JavaScript.
  -->
 
 The latest version of each library can be downloaded in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]**.
+
+## 2.16.0 版
+
+發行日期: **2019 年 8 月 8 日**
+
+| 功能 | 說明 |
+| -----------| ---------- |
+| 適用於退出連結的 `sendBeacon` 支援 | 為退出連結實作 `sendBeacon` 支援 (在 [!UICONTROL AppMeasurement] 中)。這會改善退出連結追蹤，並可能導致流量增加。`SendBeacon` 不會在頁面內容中執行，而是在瀏覽器內容中執行。這就是頁面未載入 `sendBeacon`時，請求仍將完成。這對於退出連結非常有用，因為這樣會更有可能完成退出連結請求。 |
+| ECID/fid 值 | 現在，第一次點擊時會快取 ECID/fid 值，即使 OptIn 設定有所變更。 |
+| DIL 9.3 | Audience Manager 模組已更新至 DIL 9.3 |
+| 捲動範圍追蹤 | 在 s.ActivityMap.trackScrollReach 顯示開關，開啓或關閉捲動範圍追蹤。 |
+| 訪客 ID 服務 4.4.0 | 升級 AppMeasurement 以使用訪客 ID 服務 4.4.0。 |
 
 ## 2.15.0 版
 
@@ -346,7 +358,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
 **已知問題**
 
-In the Visitor API / [!DNL AppMeasurement] [!DNL Audience Manager] Module integrations, there will be two destination publishing iFrame requests made in IE6-9: `//fast.<subdomain>.demdex.net/dest5.html` and  `//fast.<subdomain>.demdex.net/dest4.html`. 如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`.
+在訪客API/ [!DNL AppMeasurement][!DNL Audience Manager] 模組整合中，將會有兩個目的地發佈IE中的iFrame請求： `//fast.<subdomain>.demdex.net/dest5.html``//fast.<subdomain>.demdex.net/dest4.html`以及如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`.
 
 ## 版本 1.4.4 {#section_C069FA04496C4F7DAC165B04E836CF1F}
 
