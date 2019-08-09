@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Analytics GDPR工作流程
-title: Adobe Analytics GDPR工作流程
+seo-title: Adobe Analytics GDPR 工作流程
+title: Adobe Analytics GDPR 工作流程
 uuid: f24e8be3-8b5c-409b-ad6 b-770198ae2549
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 ---
 
 
-# Adobe Analytics GDPR工作流程
+# Adobe Analytics GDPR 工作流程
 
 歡迎使用 Adobe Analytics 和 GDPR 整備! 此工作流程概述讓您的 Adobe Analytics 實作可支援資料主體之 GDPR 存取和刪除權限的所需步驟。
 
@@ -41,7 +41,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col2"> <p><img  src="assets/step4_icon.png" id="image_FE2039B8345248BCA303B44C10B68EA1" placement="break" />將身分、敏感程度以及資料控管標籤，指派至報表套裝中的每個變數。 </p> <p>注意: 請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須檢閱標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。 </p> </td> 
-   <td colname="col3"> <p> Follow the instructions in <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> Label Report Suite Data</a>. </p> </td> 
+   <td colname="col3"> <p> 請遵循 <a href="../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731" format="dita" scope="local"> 「標籤報表套裝資料</a>」中的指示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step5_icon.png" id="image_E9BEF83BF30F4528A030F23F71E5E5D8" />連線至 Adobe GDPR API 並提交存取與刪除請求。 </p> </td> 
@@ -49,7 +49,16 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col2"> <p><img placement="break"  src="assets/step6_icon.png" id="image_5CF03706FECD4F8BBAE0D0C19F98B8BB" />檢視及管理您的報表套裝 GDPR 設定。 </p> </td> 
-   <td colname="col3"> <p>Follow the instructions in <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> View Report Suite's Data Governance Settings</a>. </p> </td> 
+   <td colname="col3"> <p>請遵循 <a href="../../admin/c-data-governance/gdpr-view-settings.md#concept_7759BAD6F3174901A94116D189AEF80E" format="dita" scope="local"> 檢視報表套裝的資料治理設定中的指示</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+| 工作說明 | 指示與更多資訊的連結 |
+|--- |--- |
+| **步驟1**：確定任何可能包含GDPR相關資料的報表套裝都會對應至您的Experience Cloud(或IMS)組織。GDPR 請求已使用 Experience Cloud 組織提交，並套用至該組織申請的所有報表套裝。即使未對應至該組織的報表套裝是登入公司的一部分，請求也不會套用到這些報表套裝。 | 請參閱[將報表套裝對應至組織](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。 |
+| **步驟2**&#x200B;設定您的資料保留政策。 | 需要制定資料保留政策，以便 Adobe 為 GDPR 資料存取/刪除請求提供服務。如需更多詳細資訊，請參閱這篇 [Analytics 資料保留常見問題解答](/help/technotes/data-retention.md)。 |
+| **步驟3**：熟悉DULE/GDPR標籤、Adobe Analytics ID、命名空間和ID擴增。 | 請閱讀此文件集中的這些主題:<ul><li>[Analytics 變數的 GDRP 標籤](/help/admin/c-data-governance/gdpr-labels.md)</li><li>[標籤最佳實務](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)</li></ul> |
+| **步驟4**：將身分、敏感性和資料治理標籤指派給報表套裝中的每個變數。注意: 請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須檢閱標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。 | 請遵循 [「標籤報表套裝資料](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-setup-reportsuite.html#concept_FAA948AD8CEA4BC38CB482EAF3648731)」中的指示。 |
+| **步驟5**：連線至Adobe GDPR API並送出存取和刪除請求。 | 身為 Adobe Analytics 客戶，您可以藉由呼叫 [Adobe Experience Cloud GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) 來提交個別 GDPR 請求，以存取和刪除客戶資料。您可以提交任何 Analytics 識別碼 (如[標籤最佳實務](https://docs.adobe.com/content/help/en/analytics/admin/data-governance/gdpr-analytics-ids.html#concept_1BC4CA94B559481F8B08776DA100B23E)一節中所述)，及其各自的命名空間 ID (資料來源 ID)。 |
+| **步驟6**：檢視並管理您的報表套裝的GDPR設定。 | 請遵循 [檢視報表套裝的資料治理設定中的指示](/help/admin/c-data-governance/gdpr-view-settings.md)。 |
