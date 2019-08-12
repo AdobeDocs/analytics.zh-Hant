@@ -2,7 +2,7 @@
 title: 資料倉庫中的元件支援
 description: 瞭解資料倉庫中可用的其他維度和度量，以及不支援的項目。
 translation-type: tm+mt
-source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
+source-git-commit: d2854c4103c6882353b6454ea8c4027d7591a540
 
 ---
 
@@ -17,10 +17,9 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ### 僅支援維度
 
-* Experience Cloud 訪客 ID:
-* IP:
-* 頁面 URL:
-* 購買 ID:
+* Experience Cloud訪客ID：對於使用Experience Cloud ID Service(ECID)的實施，128位元數字由兩個串連的64位元數字新增至19位元。
+* 頁面URL：點擊發生的頁面URL。
+* 購買ID：購買的唯一識別碼，使用purchaseID變數設定。
 * 訪客ID：提供訪客的唯一識別碼。此值與資料饋送中的串連值 `visid_high` 和 `visid_low` 欄相同。如需詳細資訊，請參閱 [資料饋送](../analytics-data-feed/c-df-contents/datafeeds-reference.md) 下的資料欄參考。
 
 ### 僅支援量度
@@ -59,7 +58,7 @@ source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 * 所有搜尋頁面排名
 * 階層變數
 * 點擊類型
-* 找不到頁面(僅限區段)
+* 找不到頁面(可用維度；不支援分段)
 * 付費搜尋
 * 單頁存取次數
 * 追蹤選擇退出原因
