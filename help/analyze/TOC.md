@@ -3,7 +3,7 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 分析指南
 user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
 
 ---
@@ -325,7 +325,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
    + [表格產生器](ad-hoc-analysis/c-tablebuilder.md)
    + [時間](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
-   + [Labs概觀](tech-previews/overview.md)
+   + [Labs 概觀](tech-previews/overview.md)
 + Analytics 報表 API {#analytics-reporting-api}
    + [Analytics 報表 API 概觀](c-reporting-api/c-reporting-api.md)
    + [Analytics 報表 API 比較](c-reporting-api/api-comparison.md)
