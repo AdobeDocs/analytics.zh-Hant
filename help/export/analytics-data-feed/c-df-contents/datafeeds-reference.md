@@ -9,7 +9,7 @@ title: 資料欄參考
 topic: Reports & Analytics
 uuid: 9042a274-7124-4323-3cd6-5c84ab3ef6d
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 6bae6861586fc2aba33888cadfec3b1399898b90
 
 ---
 
@@ -67,7 +67,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | ef_id | ef_id 用於 Adobe Advertising Cloud 整合。 | varchar(255) |
 | evar1 - evar250 | 自訂變數 1-250。每個組織使用不同的 eVar。如需關於貴組織如何填入各 eVar 的更多資訊，請參閱貴組織專用的解決方案設計文件。 | varchar(255) |
 | event_list | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用 event.tsv 查閱。 | text |
-| exclude_hit | 此旗標用於表示點擊已從報告排除。visit_ num欄不會因為排除的點擊而增加。<br>1: 未使用. 精選功能的一部分。<br>2: 未使用. 精選功能的一部分。<br>3：不再使用。User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as page_url, pagename, page_event, or event_list<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. 替代帳戶專屬排除。<br>9: 未使用. 精選功能的一部分。<br>10：無效的貨幣代碼<br>11：點擊遺失時間戳記報表套裝上的時間戳記，或點擊在非時間戳記報表套裝<br>12上包含時間戳記：未使用。精選功能的一部分。<br>13: 未使用. 精選功能的一部分。<br>14：不符合Analytics點擊<br>15的Target點擊：目前未使用。<br>16：無法符合Analytics點擊的Advertising Cloud點擊 | 不帶正負號的 tinyint |
+| exclude_hit | 此旗標用於表示點擊已從報告排除。visit_ num欄不會因為排除的點擊而增加。<br>1: 未使用. 精選功能的一部分。<br>2: 未使用. 精選功能的一部分。<br>3：不再使用。使用者代理排除<br>4：根據IP位址<br>排除：遺漏重要點擊資訊，例如page_ url、pagename、page_ event或event_ list<br>6：JavaScript未正確處理點擊<br>7：帳戶專屬排除，例如VISTA規則<br>8：未使用。替代帳戶專屬排除。<br>9: 未使用. 精選功能的一部分。<br>10：無效的貨幣代碼<br>11：點擊遺失時間戳記報表套裝上的時間戳記，或點擊在非時間戳記報表套裝<br>12上包含時間戳記：未使用。精選功能的一部分。<br>13: 未使用. 精選功能的一部分。<br>14：不符合Analytics點擊<br>15的Target點擊：目前未使用。<br>16：無法符合Analytics點擊的Advertising Cloud點擊 | 不帶正負號的 tinyint |
 | first_hit_page_url | 訪客的第一個 URL。 | varchar(255) |
 | first_hit_pagename | 用於「登入頁面原始」維度的變數。訪客的原始登入頁面名稱。 | varchar(100) |
 | first_hit_ref_domain | 此用於「原始反向連結網域」維度的變數。以 first_hit_referrer 為基礎。訪客的第一個反向連結網域。 | varchar(100) |
@@ -119,14 +119,14 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobiledayssincefirstuse | 自應用程式初次執行以來的天數。 | varchar(255) |
 | mobiledayssincelastupgrade | 從上下文資料變數a. DaysSinceLastUpgrade收集。自上一個作業開始後所經過的天數。 | varchar(255) |
 | mobiledayssincelastuse | 自應用程式上次執行以來的天數。 | varchar(255) |
-| mobiledeplinkid | Collected from the context data variable a.<span>deeplink</span>.id. 用於贏取報表作為行動贏取連結的識別碼。 | varchar(255) |
+| mobiledeplinkid | 從上下文資料變數a.<span>deeplink</span>. id收集。用於贏取報表作為行動贏取連結的識別碼。 | varchar(255) |
 | mobiledevice | 行動裝置名稱。在 iOS 上，此名稱以逗號分隔的 2 位數字串形式儲存。第一個數字代表裝置代別，第二個數字代表裝置系列。 | varchar(255) |
 | mobilehourofday | 定義啟動應用程式的一天中的時段。請依照 24 小時數字格式。 | varchar(255) |
 | mobileinstalldate | 行動安裝日期。提供使用者初次開啟行動應用程式的日期。 | varchar(255) |
 | mobilelaunchessincelastupgrade | 從上下文資料變數a. launchEsseUpgrade收集。報告自從上次升級後啓動的次數。 | varchar(255) |
 | mobilelaunchnumber | 每次啟動行動應用程式時增加 1。 | varchar(255) |
 | mobileltv | 已不再使用。由 trackLifetimeValue 方法填入。 | varchar(255) |
-| mobilemessageutonname | Collected from the context data variable a.<span>message</span>.button.id. 用於應用程式內訊息，以識別關閉訊息的按鈕。 | varchar(100) |
+| mobilemessageutonname | 從上下文資料變數.<span>message</span>. button. id收集。用於應用程式內訊息，以識別關閉訊息的按鈕。 | varchar(100) |
 | mobilemessageid | 應用程式內訊息ID | varchar(255) |
 | mobilemessageonline | 應用程式內訊息線上訊息 | varchar(255) |
 | mobilemessagepushtin | 從上下文資料變數. push. optin收集。使用者選擇加入推送訊息時，設為「true」；否則值為「false」。 | varchar(255) |
@@ -135,7 +135,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | mobileosversion | Mobile Services作業系統版本 | varchar(255) |
 | mobileplaceaccuracy | 從上下文資料變數a. loc. acc收集。指出GPS在收集時的準確度。 | varchar(255) |
 | mobileplacecategory | 從上下文資料變數. loc. category收集。說明特定位置的類別。 | varchar(255) |
-| mobileplaceid | Collected from the context data variable a.<span>loc</span>.id. 指定興趣點的識別碼。 | varchar(255) |
+| mobileplaceid | 從上下文資料變數a.<span>loc</span>. id收集。指定興趣點的識別碼。 | varchar(255) |
 | mobilersocialunchcampaign content | Mobile Services啓動內容 | varchar(255) |
 | mobilersocialunchcampaignmedium | Mobile Services啓動媒體 | varchar(255) |
 | mobilersocialunchcampaign source | Mobile Services啓動來源 | varchar(255) |
@@ -277,3 +277,109 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 | weekly_visitor | 此旗標用於確定點擊是否為新每週訪客。 | 不帶正負號的 tinyint |
 | yearly_visitor | 此旗標用於確定點擊是否為新每年訪客。 | 不帶正負號的 tinyint |
 | zip | 用於填入「郵遞區號」維度。 | varchar(50) |
+
+## 空白欄
+
+下列欄清單未使用，且不包含資料：
+
+* mobileacquisiclictions
+* mobileactioninapptime
+* mobileactiontotaltime
+* mobileappsocialeafecteedusers
+* mobileappsocialeappid<span>.</span>app-perf-app-name
+* mobileappsocialeappid<span>.</span>app-perf-platform
+* mobileappsocialecrash
+* mobileappsupportececradid<span>.</span>app-perf-frash-name
+* mobilepappsocialelocals
+* mobileappstorch光柵
+* mobileappstoredownloads
+* mobileappStoreinappeue
+* mobileappstoreisproperality
+* mobileappstoretid<span>.</span>app-store-user
+* mobileappstoretid<span>.</span>application-name
+* mobileappstoretid<span>.</span>application-version
+* mobileappstoretid<span>.</span>appstore-name
+* mobileappstoretid<span>.</span>category-name
+* mobileappstoretid<span>.</span>country-name
+* mobileappstoretid<span>.</span>裝置製造商
+* mobileappstoretid<span>.</span>device-name
+* mobileappstoretid<span>.</span>in-app-name
+* mobileappstoretid<span>.</span>platform-name-version
+* mobileappstoretid<span>.</span>rands-category-type
+* mobileappstoretid<span>.</span>region-name
+* mobileappstoretid<span>.</span>review-comment
+* mobileappstoretid<span>.</span>review-title
+* mobileappstoreoffalue
+* mobileappstoreoffolality
+* mobileappstorepurchards
+* mobileappstorercank
+* mobileappstorerpublisher
+* mobileappstreeration
+* mobileappstoreratingdivesor
+* mobilelaugpsessionlength
+* mobilecrashes
+* mobilecraprate
+* mobiledailymagedusers
+* mobileddeplinkid<span>.</span>名稱
+* mobileinstalls
+* mobilelaunches
+* mobileltvtotal
+* mobilemessageclicks
+* mobilemessageid<span>.</span>dest
+* mobilemessageid<span>.</span>名稱
+* mobilemessageid<span>.</span>type
+* mobilemessageimpressions
+* mobilemessagagpushpayloadit<span><span>.</span></span>名稱
+* mobilemessageviews
+* mobilemonthrollengtedusers
+* mobileppleneltime
+* mobileplaceentry
+* mobileppleexit
+* mobileprevsessionlength
+* mobilerselectunchcampaigntrackingcode<span><span>.</span></span>名稱
+* mobileupgrades
+* socialaveragesentiment
+* socialaveragesentiment(deprecated)
+* socialfbstories
+* socialfbstorytellers
+* socialinteractioncount
+* sociallikeadds
+* sociallink
+* sociallink(已停用)
+* socialmentions
+* socialpageviews
+* socialpostviews
+* socialproperty
+* social屬性(已停用)
+* socialpubcomments
+* socialpubposts
+* socialpubrecommends
+* socialpubsubscribers
+* socialterm
+* socialtermslist
+* socialtermslist(deprecated)
+* socialtotalsentiment
+* sourceid
+* videoauthorized
+* videoaverageminuteaudience
+* videochaptercomplete
+* videochapterstart
+* videochaptertime
+* videopause
+* videopausecount
+* videopausetime
+* videoplay
+* videoprogress10
+* videoprogress25
+* videoprogress50
+* videoprogress75
+* videoprogress96
+* videoqoebitrateaverage
+* videoqoebitratechange
+* videoqoebuffer
+* videoqoedropbeforestart
+* videoqoedroppedframes
+* videoqoeerror
+* videoresume
+* videototaltime
+* videuniquetimeplayed
