@@ -4,8 +4,8 @@ description: Adobe Analytics 技術文件更新
 seo-title: Adobe Analytics 文件更新
 seo-description: Adobe Analytics 文件更新
 short-title: Analytics 文件更新
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: 379b8d703b41a6f48b2cf97db190d07b85b4ac30
 
 ---
 
@@ -14,14 +14,20 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
-* 如需新功能、管理注意事項和錯誤修正的完整清單，請參閱最新 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)。
+* 如需新功能、管理員注意事項和錯誤修正的完整清單，請參閱最新 [的Experience Cloud發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
 * 如需有關 Analysis Workspace 新功能的詳細資訊，請參閱[此主題](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
-* 如需有關 Media Analytics 更新的資訊，請參閱
+* 如需Adobe Analytics音訊和視訊的詳細資訊，請參閱 [「在Analytics中測量音訊和視訊](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)」。
 
 ## 更新詳細資訊
 
-| 日期 | 更新 |
-|----------|----------------------------------|
+| 日期 | 說明 |
+|---|---|
+| 2019年月日 | [計算量度總計上的新文章](/help/components/c-calcmetrics/cm-totals.md) |
+| 2019年月日 | 清除 [已啓用時間戳記的工作階段資料](/help/admin/admin/timestamp-optional.md) |
+| 2019年月日 | [重要概念的更新](/help/analyze/reports-analytics/key-concepts.md) |
+| 2019年月日 | [Analytics詞彙表的主要更新](/help/technotes/terms.md) |
+| 2019年月22日 | 已新增Magento：行銷與商務範本至 [分析工作區範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) 文件。 |
+| 2019 年 7 月 18 日 | 更新 [世代表格設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
 | 2019 年 6 月 4 日 | 全新指南已撰寫完畢，標題為[從協力廠商的分析平台改用 Adobe Analytics](../technotes/ga-to-aa/home.md)。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
 | 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](../analyze/analysis-workspace/optimizing-performance.md)。 |
