@@ -8,7 +8,7 @@ title: JavaScript 適用的 AppMeasurement
 topic: 開發人員和實施
 uuid: 1440013d-d266-4dce-9807-1b9 adac73315
 translation-type: tm+mt
-source-git-commit: d374a4597f4b4a8adec697ba5befa5014d711074
+source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## 2.16.0 版
 
-發行日期: **2019 年 8 月 8 日**
+發行日期: **2019 年 8 月 15 日**
 
 | 功能 | 說明 |
 | -----------| ---------- |
