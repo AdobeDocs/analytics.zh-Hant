@@ -8,7 +8,7 @@ title: 處理順序
 topic: 管理工具
 uuid: cava01d13-dfd5-40f7-1b2 f-b6 e2 fe8354 df
 translation-type: tm+mt
-source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9942536df7c7ee4fc8da9ae4189063ca4e543b7d
 | 動態變數查閱 | 從 HTTP 標題或其他變數提取資訊，進而動態填入變數。For example, `s.eVar5="D=c1"` will put the value of prop1 into eVar5. |
 | AppMeasurement | AppMeasurement 中使用的函數和外掛程式會在瀏覽器或用戶端應用程式中執行。 |
 | Dynamic Tag Management | 「Dynamic Tag Management」中定義的規則會依定義執行。 |
-| 機器人規則 | [機器人規則](../../../../admin/admin/bot-rules/bot-rules.md)可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。 |
+| 機器人規則 | [機器人規則](../../../../admin/admin/bot-removal/bot-rules.md)可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。 |
 
 ## 處理規則之後
 
