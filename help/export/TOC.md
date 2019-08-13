@@ -3,8 +3,8 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 匯出指南
 user-guide-url: /content/help/zh-Hant/analytics/export/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
 
 ---
 
@@ -61,6 +61,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
    + [依量度排序](data-warehouse/sorting-by-metric.md)
    + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
+   + [資料倉庫中支援的元件](data-warehouse/component-support.md)
    + [與 Data Warehouse 區段不相容的維度](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
