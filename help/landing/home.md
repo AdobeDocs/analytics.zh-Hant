@@ -3,8 +3,8 @@ title: Adobe Analytics 技術文件指南
 seo-title: Adobe Analytics 技術文件和自助使用者指南的完整清單
 description: Analytics 使用者指南和資源
 seo-description: Adobe Analytics 技術文件、發行說明和自助使用者指南的完整清單。
-translation-type: ht
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+translation-type: tm+mt
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -25,15 +25,15 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 [![整合](assets/integrate_50px.png)](/help/integrate/home.md) [整合指南](/help/integrate/home.md) – 完成與 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 或 Target) 的整合設定。
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.translate.html) [Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.translate.html) – 對音訊或視訊來源實作 Analytics。包含 Media SDK 和 Media Collection API。
+[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) [Media Analytics Guide](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) -實施Analytics on音訊或視訊來源。包含 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/zh_TW/insight/) [Data Workbench 指南](https://marketing.adobe.com/resources/help/zh_TW/insight/) – 說明 Data Workbench 用戶端、安裝、資料集設定等內容。
+[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/) [資料工作台指南](https://marketing.adobe.com/resources/help/en_US/insight/) -資料工作台用戶端、安裝、資料集組態等等
 
 [![技術說明](assets/technotes_50px.png)](../technotes/home.md) [Analytics 技術說明](../technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
 | 全新和精選項目 | 重要 Analytics 資源 |
 | --- | --- |
-| <ul><li>[地區資料收集](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱: [2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/)</li><li> [Adobe Analytics Youtube 頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics 教學課程和影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[聯絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
+| <ul><li>[地區資料收集](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱: [2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics YouTube頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics教學課程與影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[聯絡客戶服務](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -53,7 +53,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 
 *   [Activity Map](/help/analyze/activity-map/activity-map.md)
 *   [Anomaly Detection](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)
-*   [Bot filtering](/help/admin/admin/bot-rules/bot-rules.md)
+*   [Bot filtering](/help/admin/admin/bot-removal/bot-rules.md)
 *   [Calculated Metrics](/help/components/c-calcmetrics/cm-overview.md)
 *   [Classifications](/help/components/c-classifications2/c-classifications.md)
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
