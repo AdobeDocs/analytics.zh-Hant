@@ -7,7 +7,7 @@ title: 一般帳戶設定
 topic: 管理工具
 uuid: c1ab5c34-2c41-4d12-a706-0e760 dff a95
 translation-type: tm+mt
-source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 0cecb6f66046b7db8471ce125237d74fdfc9323b
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 模糊化</span> </td> 
-   <td colname="col2"> <p>將 IP 位址轉變為無法辨識的字串，實際上是將其從 Adobe 資料儲存區中移除。啟用「IP 模糊化」後，原始的 IP 位址將會永久遺失。 </p> <p>注意: Analytics 中每一處的 IP 位址都會模糊化，包括 Data Warehouse。不過，Target 中的 IP 設定則另外控制，因此此設定不會影響 Target。 </p> <p>若啟用 IP 模糊化，會在 IP 位址被模糊化前即排除 IP，因此當客戶啟用 IP 模糊化時不必變更任何東西。 </p> <p>勾選「<span class="uicontrol">停用</span>」會在資料中保留 IP 位址。 </p> <p>勾選「<span class="uicontrol">模糊化 IP </span>」會將 IP 變更為雜湊值 (例如 234abc6493872038)。 </p> <p>勾選「<span class="uicontrol">移除 IP 位址</span>」會在地理查閱後，將資料中的 IP 位址更換為 x.x.x.x。 </p> <p>Note: This setting might require changes to custom <a href="../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> bot rules</a> or<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP exclusions</a>. </p> </td> 
+   <td colname="col2"> <p>將 IP 位址轉變為無法辨識的字串，實際上是將其從 Adobe 資料儲存區中移除。啟用「IP 模糊化」後，原始的 IP 位址將會永久遺失。 </p> <p>注意: Analytics 中每一處的 IP 位址都會模糊化，包括 Data Warehouse。不過，Target 中的 IP 設定則另外控制，因此此設定不會影響 Target。 </p> <p>若啟用 IP 模糊化，會在 IP 位址被模糊化前即排除 IP，因此當客戶啟用 IP 模糊化時不必變更任何東西。 </p> <p>勾選「<span class="uicontrol">停用</span>」會在資料中保留 IP 位址。 </p> <p>勾選「<span class="uicontrol">模糊化 IP </span>」會將 IP 變更為雜湊值 (例如 234abc6493872038)。 </p> <p>勾選「<span class="uicontrol">移除 IP 位址</span>」會在地理查閱後，將資料中的 IP 位址更換為 x.x.x.x。 </p> <p>注意：此設定可能需要變更自訂 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 機器人規則</a> 或<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP排除</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 交易 ID 儲存</span> </td> 
