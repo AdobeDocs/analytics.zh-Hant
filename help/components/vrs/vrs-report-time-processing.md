@@ -1,16 +1,16 @@
 ---
 description: 報告時間處理是虛擬報表套裝設定，可讓資料以非破壞性、可回溯性的方式處理。
 seo-description: 報告時間處理是虛擬報表套裝設定，可讓資料以非破壞性、可回溯性的方式處理。
-seo-title: 報告時間處理
-title: 報告時間處理
+seo-title: 報表時間處理功能
+title: 報表時間處理功能
 uuid: a1d82ea-8c93-43cc-8689-cdf59 c309 b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1e8d5af54ab22311e1c3967979c8bdc982a66d5b
 
 ---
 
 
-# 報告時間處理
+# 報表時間處理功能
 
 報告時間處理是虛擬報表套裝設定，可讓資料以非破壞性、可回溯性的方式處理。
 
@@ -84,7 +84,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p> 目前尚未支援。已規劃於未來支援。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> AMO 保留的量度/維度 </p> </td> 
+   <td colname="col1"> <p> Advertising Cloud保留量度/維度的Analytics </p> </td> 
    <td colname="col2"> <p> 目前尚未支援。已規劃於未來支援。 </p> </td> 
   </tr> 
   <tr> 
@@ -132,7 +132,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p> 目前尚未支援。已規劃於未來支援。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 造訪次數 </p> </td> 
+   <td colname="col1"> <p> 訪問次數 </p> </td> 
    <td colname="col2"> <p> 由於「報表時間處理」日期範圍性質的緣故，不支援此量度。 </p> <p> 若要報告行動應用程式中的新訪客與重複訪客，您可以搭配使用計算量度 (包括訪客數/造訪次數) 與應用程式安裝量度，以識別新訪客或新造訪。 </p> </td> 
   </tr> 
   <tr> 
@@ -157,7 +157,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則不重複訪客項目不會將報告日期範圍中僅執行背景點擊的訪客納入。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 造訪 </p> </td> 
+   <td colname="col1"> <p> 瀏覽 </p> </td> 
    <td colname="col2"> <p> 造訪項目會反映虛擬報表套裝的任何設定，而這些設定可能會與基本報表套裝有所差異。 </p> </td> 
   </tr> 
   <tr> 
@@ -170,19 +170,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p> 彈回數/彈回率 </p> </td> 
-   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統不會將未跟隨著前景點擊數之背景點擊數視為彈回，也不會將其列入彈回率貢獻。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統不會將未跟隨著前景點擊數之背景點擊數視為彈回，也不會將其列入彈回率貢獻。如需詳細資訊，請參閱 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 內容感應整合功能。</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 每次造訪逗留時間秒數 </p> </td> 
-   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統僅會將包括前景點擊數的造訪列入此量度貢獻。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統僅會將包括前景點擊數的造訪列入此量度貢獻。如需詳細資訊，請參閱 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 內容感應整合功能。</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 每次造訪逗留時間 </p> </td> 
-   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統僅會將包括前景點擊數的造訪列入此量度貢獻。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統僅會將包括前景點擊數的造訪列入此量度貢獻。如需詳細資訊，請參閱 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 內容感應整合功能。</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 登入點 </p> </td> 
-   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統僅會將包含前景點擊之造訪的登入點列入考量。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則系統僅會將包含前景點擊之造訪的登入點列入考量。如需詳細資訊，請參閱 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 內容感應整合功能。</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 非銷售 eVar/保留 eVar </p> </td> 
@@ -194,7 +194,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p> 登入與退出維度 </p> </td> 
-   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則此維度中僅會出現含有前景點擊數之造訪的登入與退出。See <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> Context-Aware Sessionization</a> for more details. </p> </td> 
+   <td colname="col2"> <p> 如果啟用「避免背景點擊數開始一次新造訪」，則此維度中僅會出現含有前景點擊數之造訪的登入與退出。如需詳細資訊，請參閱 <a href="../../components/vrs/vrs-mobile-visit-processing.md#concept_EC51308E4FD14E149F1B5D63C0AB34BD" format="dita" scope="local"> 內容感應整合功能。</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 點擊類型 </p> </td> 
