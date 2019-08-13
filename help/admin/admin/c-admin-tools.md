@@ -5,7 +5,7 @@ seo-title: 管理工具
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0 bcc456 aae
 translation-type: tm+mt
-source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 >請勿在相同瀏覽器中開啓多個管理員標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
 
 + [帳單](billing-admin.md)
-+ [機器人規則概述](bot-rules/bot-rules.md)
++ [機器人規則概觀](bot-removal/bot-rules.md)
 + [代碼管理器](code-manager-admin.md)
 + [轉換變數 (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [貨幣代碼](currency.md)
@@ -37,19 +37,19 @@ source-git-commit: 3776a0a3556f38f23a2b76c4fdba19d1d25ac905
 + [功能表自訂](customize-menus.md)
 + [量度可見性](metric-visibility.md)
 + [行動管理](mobile-management.md)
-+ [付費搜尋偵測概述](paid-search-detection/paid-search-detection.md)
++ [付費搜尋偵測概觀](paid-search-detection/paid-search-detection.md)
 + [發佈清單](publishing-list.md)
 + [發佈介面工具集](publishing-widgets-admin.md)
 + [使用偏好管理器](preferences-manager.md)
 + [隱私權設定](privacy-settings.md)
-+ [處理規則概述](c-processing-rules/processing-rules.md)
-+ [即時報告概述](realtime/realtime.md)
++ [處理規則概觀](c-processing-rules/processing-rules.md)
++ [即時報表概觀](realtime/realtime.md)
 + [排程報表佇列](scheduled-reports-admin.md)
-+ [伺服器端轉送總覽](c-server-side-forwarding/ssf.md)
-+ [簡化的報告功能表](t-simplified-menu.md)
++ [伺服器端轉送概觀](c-server-side-forwarding/ssf.md)
++ [簡化的報表功能表](t-simplified-menu.md)
 + [社會化管理](social-management.md)
-+ [成功事件概述](c-success-events/success-event.md)
++ [成功事件概觀](c-success-events/success-event.md)
 + [可選時間戳記](timestamp-optional.md)
-+ [流量變數(prop)概觀](c-traffic-variables/traffic-var.md)
-+ [指定獨特訪客變數](unique-visitor-variable-admin/t-unique-visitor-variable.md)
-+ [視訊管理](video-management.md)
++ [流量變數 (Prop) 概觀](c-traffic-variables/traffic-var.md)
++ [指定不重複訪客變數](unique-visitor-variable-admin/t-unique-visitor-variable.md)
++ [影片管理](video-management.md)
