@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hant/analytics/admin/home.html
-translation-type: ht
-source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
+translation-type: tm+mt
+source-git-commit: 92ac6c03013bd68326e4136a5d512171fc831689
 
 ---
 
@@ -20,11 +20,11 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
    + 機器人規則 {#bot-rules}
-      + [機器人規則概觀](admin/bot-rules/bot-rules.md)
+      + [機器人規則概述](admin/bot-rules/bot-rules.md)
       + [上傳機器人規則](admin/bot-rules/t-upload-bot-rules.md)
       + [建立自訂機器人規則](admin/bot-rules/t-create-bot-rules.md)
    + [代碼管理器](admin/code-manager-admin.md)
-   + 轉換變數 {#conversion-variables}
+   + Conversion variables {#conversion-variables}
       + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [編輯轉換變數](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [轉換分類](admin/conversion-var-admin/conversion-classifications.md)
@@ -32,8 +32,8 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [自訂報表說明](admin/custom-desc-admin.md)
    + [自訂日曆](admin/custom-calendar.md)
    + [資料來源](admin/data-sources.md)
-   + [預設量度](admin/default-metrics.md)
-   + [依 IP 位址排除](admin/exclude-ip.md)
+   + [預設度量](admin/default-metrics.md)
+   + [依IP位址排除](admin/exclude-ip.md)
    + [尋找方法](admin/finding-methods.md)
    + [一般帳戶設定](admin/general-acct-settings-admin.md)
    + [群組管理](admin/group.md)
@@ -41,14 +41,14 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
    + [記錄檔](admin/logs.md)
    + [行銷管道](admin/marketing-channels-admin.md)
    + [功能表自訂](admin/customize-menus.md)
-   + [量度可見性](admin/metric-visibility.md)
+   + [量度可攜性](admin/metric-visibility.md)
    + [行動管理](admin/mobile-management.md)
-   + 付費搜尋偵測 {#paid-search-detection}
+   + Paid search detection {#paid-search-detection}
       + [付費搜尋偵測概觀](admin/paid-search-detection/paid-search-detection.md)
       + [設定付費搜尋偵測](admin/paid-search-detection/t-paid-search-detection.md)
    + [發佈清單](admin/publishing-list.md)
    + [發佈介面工具集](admin/publishing-widgets-admin.md)
-   + [使用偏好管理器](admin/preferences-manager.md)
+   + [偏好設定管理員](admin/preferences-manager.md)
    + [隱私權設定](admin/privacy-settings.md)
    + 處理規則 {#processing-rules}
       + [處理規則概觀](admin/c-processing-rules/processing-rules.md)
@@ -85,7 +85,7 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [如何確認您的伺服器端轉送實施情形](admin/c-server-side-forwarding/ssf-verify.md)
       + [伺服器端轉送常見問題集](admin/c-server-side-forwarding/ssf-faq.md)
    + [簡化的報表功能表](admin/t-simplified-menu.md)
-   + [社會化管理](admin/social-management.md)
+   + [Social 管理](admin/social-management.md)
    + 成功事件 {#success-events}
       + [成功事件概觀](admin/c-success-events/success-event.md)
       + [設定成功事件](admin/c-success-events/t-success-events.md)
@@ -97,10 +97,10 @@ source-git-commit: fc8a1b8af84f7b0528942b01fcc978b8cc354030
       + [流量分類](admin/c-traffic-variables/traffic-classifications.md)
    + 不重複訪客變數 {#unique-visitor-variable}
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+      + [使用案例-擷取訪客ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
 + Experience Cloud Admin Console {#admin-console}
-   + [Experience Cloud Admin Console 說明](admin-console/home.md)
+   + [Experience Cloud Admin Console說明](admin-console/home.md)
    + 權限 {#permissions}
       + [產品描述檔說明](admin-console/permissions/product-profile.md)
       + [報表套裝工具權限項目](admin-console/permissions/report-suite-tools.md)
