@@ -9,7 +9,7 @@ title: 自訂報表套裝工具權限
 topic: 管理工具
 uuid: 3c95d296-ffd0-4971-9c5 f-110ddobe042 ce
 translation-type: tm+mt
-source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
+source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
 
 ---
 
@@ -68,8 +68,8 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 | [異常偵測](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html) | 授予對異常偵測的權限，其提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 |
 | [頻道報表](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html) | 授予對可以在「報表 &gt; 行銷管道報告」中找到的行銷管道報告的權限。 |
 | [即時報表](../../../admin/admin/realtime/t-realtime-admin.md) | 授予對即時報告的存取。 |
-| [機器人頁面](../../../admin/admin/bot-rules/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
-| [機器人](../../../admin/admin/bot-rules/bot-rules.md) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
+| [機器人頁面](../../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
+| [機器人](../../../admin/admin/bot-removal/bot-rules.md) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
 | [自訂 Data Warehouse 報表](../../..//export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用於儲存和自訂報告的原始、未處理資料複本，可供您透過篩選資料的方式來執行。您可以要求報告依據您的特定問題，從原始資料顯示進階資料關係。 |
 | [每日回訪](../../../components/c-variables/dimensionslist/reports-daily-return-visits.md) | (舊版) 該報告顯示在指定某天曾多次瀏覽網站的訪客數量。一天指過去的 24 個小時。 |
 | [資料來源管理員](../../../admin/admin/data-sources.md) | 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。 |
@@ -79,9 +79,9 @@ source-git-commit: 2d01f9edb976a57c18641fea03e01ad029893eea
 | [回訪](../../../components/c-variables/dimensionslist/reports-return-visits.md) | 此報告會顯示瀏覽次數大於 1 的瀏覽數。「回訪報告」會包含非 Cookie 訪客。 |
 | [分類匯入程式](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)/匯出程式和[規則產生器](https://marketing.adobe.com/resources/help/en_US/reference/classification_rule_builder.html) | 合併在「分類」中 (請參閱以下內容)。 |
 | 資料摘要管理員 | 授予權限至 Analytics 資料摘要. |
-| 分類    | 結合下列權限：「流量分類」、「視訊分類」、「轉換分類」、「分類階層」、「分類管理員」和「分類匯入程式/匯出程式」。注意: 透過此權限，使用者可編輯所有報表套裝的分類，而不僅僅只有選取的套裝。 |
+| 分類 | 結合下列權限：「流量分類」、「視訊分類」、「轉換分類」、「分類階層」、「分類管理員」和「分類匯入程式/匯出程式」。注意: 透過此權限，使用者可編輯所有報表套裝的分類，而不僅僅只有選取的套裝。 |
 | [貢獻分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/contribution-analysis.html) | 在 Analysis Workspace 中授予使用「貢獻分析」的權限。 |
 | **控制面板項目** |  |
-| The settings in Dashboard Items enables access to [reportlets](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) in Reports &amp; Analytics:, My Recommended Reports, Company Summary Reportlet, Image, KPI/Gauge Reportlet, Report Suite Totals, Text, Reportlet, Usage Summary Reportlet, and Web Resources |  |
+| 「控制面板項目」中的設定可讓您存取報告與分析中的 [小報告](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html) ：我的建議報表、公司摘要小報告、影像、KPI/量規小報告、報表套裝總計、文字、小報告、使用摘要小報告和Web資源 |  |
 | **其他** |  |
 | 社交 | 控制對報表套裝管理器中 Social 管理功能表的存取。 |
