@@ -8,7 +8,7 @@ title: 上傳機器人規則
 topic: 管理工具
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 translation-type: tm+mt
-source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
+source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
 
 ---
 
@@ -17,20 +17,11 @@ source-git-commit: 4a627e268994d0152a19fb44e9bc06ea7ebc64c6
 
 若要大量上傳機器人規則，您可上傳用於定義規則的 CSV 檔。
 
-建立 CSV 檔案，依下列順序加入以下各欄:
+以下列順序建立CSV檔案：
 
-<table id="table_770891EF9E4A49F695977BB6446736B5"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <code> 機器人名稱</code> </p> </td> 
-   <td colname="col2"> <p> <code>IP 開頭</code> </p> </td> 
-   <td colname="col3"> <p> <code>IP 結尾</code> </p> </td> 
-   <td colname="col4"> <p> <code> 代理符合規則 (包含或開頭為)</code> </p> </td> 
-   <td colname="col5"> <p> <code> 代理包含 (100 字元上限)</code> </p> </td> 
-   <td colname="col6"> <p> <code> 代理排除 (255 字元上限)</code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 欄目 1 | 欄目 2 | 欄目 3 | 欄目 4 | 欄目 5 |
+|---|---|---|---|---|
+| 機器人名稱 | IP 開頭 | IP 結尾 | 代理符合規則<br>(`contains` 或 `starts with`) | Agent Exclude<br>(255 char limit) |
 
 您可以定義 3 種機器人規則:
 
