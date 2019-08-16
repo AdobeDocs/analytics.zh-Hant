@@ -4,7 +4,7 @@ seo-title: Adobe Analytics的Labs
 description: 預覽Adobe Analytics的原型專案
 seo-description: 預覽Adobe Analytics的原型
 translation-type: tm+mt
-source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 5296f0972d8d7a9c08e066aa0957f877c46f8197
 
 # Labs使用指南
 
-注意：Labs目前已發行，可提早存取有限的客戶，但日後將會廣泛發行。
+>[!NOTE] Labs目前已發行，可提早存取有限的客戶，但日後將會廣泛發行。
 
 Labs可讓您快速建立初步構想的原型。它是一種結合工具和程序的組合，可讓客戶更順暢地加速開發。它可讓使用者與新興技術互動，發掘寶貴的見解，並影響未來的功能發展與優先順序。您可以使用Labs提早存取Analytics創新，並在您自己的商業使用案例和資料中評估即將推出的功能。
 
@@ -30,20 +30,19 @@ Labs會自動啓用所有管理員。其他團隊成員應聯絡其產品管理�
 
 1. Click the **Labs** tab.
 
-
 ## 評估原型
 
 若要啓動並評估原型：
 
-1. On the Labs screen, click the **Launch** button of the prototype you want to see. 啓動原型時，您會在原型環境的左上方看到其名稱。
+1. 在Labs畫面上，按一下您想要查看之原型的 **「啓動」** 按鈕。啓動原型時，您會在原型環境的左上方看到其名稱。
 
    ![原型名稱](https://user-images.githubusercontent.com/29133525/58670566-c03b6c00-82fc-11e9-8b29-ee34260c4024.png)
 
-1. Watch a video that highlights the prototype by clicking on **Watch Video** in the upper right of the screen. Click the **Close** button when the video is completed.
+1. 觀看畫面右上方 **觀看影片** 的影片，以強調原型。當影片完成時，按一下 **「關閉** 」按鈕。
 
    ![預覽選項](https://user-images.githubusercontent.com/29133525/58670261-a2213c00-82fb-11e9-88db-cc839c98fdab.png)
 
-1. 使用原型。在protype環境中工作時：
+1. 使用原型。在原型環境中工作時：
 
 * 建立在原型環境內的專案無法儲存或共用。
 
@@ -55,20 +54,19 @@ Labs會自動啓用所有管理員。其他團隊成員應聯絡其產品管理�
 
 ## 保留意見回饋
 
-1. Click the **Give Feedback** button to provide feedback in the message box at any point when working with the prototype.
+1. 使用「 **提供回饋」** 按鈕，在使用原型時，隨時在訊息方塊中提供意見回應。
 
    ![semination_ box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
 
-1. Click **Submit** to send your feedback.
+1. 按一下 **「送出** 」以傳送您的意見回饋。
 
-1. To try a different prototype, or to exit the prototype environment, click the **Leave Prototype** button in the upper right of the screen and complete the short survey for the prototype. 在退出原型環境時，對原型專案所做的任何變更都會遺失。
+1. 若要試用不同的原型，或退出原型環境，請按一下畫面右上方的「 **離開原型」** 按鈕，並完成原型的簡短調查。在退出原型環境時，對原型專案所做的任何變更都會遺失。
 
    ![新的意見方塊](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
 
-1. Click **Submit** to return to the main Previews portal.
+1. 按一下 **「送出** 」返回主預覽入口網站。
 
 ## 其他資訊
 
 * Labs中有些原型會成為Analytics功能，有些則否。您的意見回應會推動這項決策，因此請仔細審閱原型，讓Adobe知道您有多寶貴。
 * Labs適用於所有SKU權益。
-
