@@ -4,16 +4,22 @@ seo-title: Analytics整合說明
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics整合指南
+# Analytics 整合指南
 
 ![橫幅](../../assets/doc_banner_integrate.png)
 
-本指南協助您設定與其他Adobe Experience Cloud解決方案(例如Audience Manager、Advertising Cloud或Target)的整合。
+設定與其他Adobe Experience Cloud解決方案的整合，例如Audience Manager、Advertising Cloud或Target。其功能包括:
+
+* **受眾分析：** 整合Adobe Audience Manager與Adobe Analytics。
+* **廣告分析：** 與Adobe Analytics資料並排檢視付費搜尋資料。
+* **Target的Analytics：** A4T整合Adobe Analytics和Adobe Target。
+* **Adobe Campaign報表：** 將Adobe Analytics與Adobe Campaign整合。
+* **AEM Assets報告：** 可讓您收集來自Adobe Experience Manager所提供資產的印象和點按。
 
 ## 重要Analytics整合文章
 
@@ -26,11 +32,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 關鍵分析資源
 
-* [快速入門](https://helpx.adobe.com/analytics/get-started.html)
-* [影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [連絡支援](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
