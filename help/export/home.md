@@ -1,19 +1,22 @@
 ---
-title: Analytics匯出說明
-seo-title: Analytics匯出說明
+title: Analytics 匯出說明
+seo-title: Analytics 匯出說明
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics匯出指南
+# Analytics 匯出指南
 
 ![橫幅](../../assets/doc_banner_export.png)
 
-本指南討論各種資料匯出方法，例如資料饋送和資料倉庫。
+本指南概述從Adobe Analytics取得資料的方式。其功能包括:
+
+* **資料饋送：** 接收原始資料的每小時或每日匯出。每一列都是個別點擊，每一欄都是變數。資料饋送通常會傳送至FTP網站。
+* **資料倉庫：** 使用請求精靈擷取資料的試算表輸出。資料倉庫使用不同的處理架構，允許任意數量的列和任意數目的唯一值。
 
 ## 關鍵分析匯出文章
 
@@ -27,11 +30,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 關鍵分析資源
 
-* [快速入門](https://helpx.adobe.com/analytics/get-started.html)
-* [影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [連絡支援](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
