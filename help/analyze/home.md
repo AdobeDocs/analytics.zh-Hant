@@ -4,16 +4,23 @@ seo-title: Analytics分析說明
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics工具指南
+# Analytics 工具指南
 
 ![橫幅](../../assets/doc_banner_analyze.png)
 
-本指南提供所有可用於Adobe Analytics的分析工具。首先，它提供完整的分析工作區說明文件，它是Analytics的主要分析和視覺化工具。
+本指南提供所有可用於Adobe Analytics的分析工具。
+
+* **分析工作區：** Adobe Analytics中的重要功能。工作區提供畫布，可讓您拖曳元件以符合報告需求。
+* **Activity Map：** 在您的網站上顯示覆蓋的瀏覽器外掛程式，顯示哪些元素被點按最頻繁。
+* **臨機分析：** 具備強大報告功能的獨立Java應用程式。此工具不再更新，最終將會變成太陽版。
+* **報告API：** 直接向Adobe的伺服器提出報告查詢，並取得回應，以便在您自己的客戶報告工具中使用。
+* **報告建立工具：** Excel增益集，可讓您擷取Analytics資料，並將其直接放入活頁簿中。
+* **報告與分析：** 包含數十種預先建立報表的工具。Adobe建議您針對大多數報告需求使用分析工作區。
 
 ## 重要Analytics工具文章
 
@@ -27,11 +34,7 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 ## 關鍵分析資源
 
-* [快速入門](https://helpx.adobe.com/analytics/get-started.html)
-* [影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [連絡支援](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
