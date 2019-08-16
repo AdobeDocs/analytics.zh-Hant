@@ -1,19 +1,23 @@
 ---
-title: Analytics匯入說明
-seo-title: Analytics匯入說明
+title: Analytics 匯入說明
+seo-title: Analytics 匯入說明
 description: 'null'
 seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
+source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# Analytics匯入指南
+# Analytics 匯入指南
 
 ![橫幅](../../assets/doc_banner_import.png)
 
-本指南說明如何透過資料來源、插入API或透過資料連接器將資料取得Analytics。
+本指南說明如何將資料取得Analytics。其功能包括:
+
+* **資料來源：** 將檔案上傳至指定的Adobe FTP站台。Adobe會擷取檔案並包含報表套裝中的資料。
+* **資料插入API：** 透過API直接將資料傳送至Adobe的資料收集。
+* **資料連接器：** 與支援的第三方合作，將其資料匯入Adobe Analytics，豐富您的報表套裝。
 
 ## 關鍵分析匯入文章
 
@@ -25,11 +29,7 @@ source-git-commit: ddb6e6f14c6224e9a341282a197f420ba031ac71
 
 ## 關鍵分析資源
 
-* [快速入門](https://helpx.adobe.com/analytics/get-started.html)
-* [影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)
-* [Developer](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)
-* [Experience Cloud 學習與支援](https://helpx.adobe.com/support/experience-cloud.html)
-* [Experience League](https://landing.adobe.com/experience-league/)
-* [連絡支援](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe 培訓和教學課程](https://helpx.adobe.com/learning.html?promoid=KAUDK)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [Experience League](https://landing.adobe.com/experience-league/)
