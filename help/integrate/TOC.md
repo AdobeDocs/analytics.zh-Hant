@@ -19,7 +19,7 @@ source-git-commit: 9ca42e6ec290ff0b0966d2da24223f359ce0b6ee
       + [伺服器端轉送概觀 - 管理指南](/help/admin/admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送 - 管理指南](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)
       + [伺服器端轉送需求 - 管理指南](/help/admin/admin/c-server-side-forwarding/ssf-requirements.md)
-      + [驗證伺服器端轉送實施 - 管理指南](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
+      + [驗證伺服器端轉送實作 - 管理指南](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)
       + [伺服器端轉送常見問題集 - 管理指南](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)
       + [建立分析目的地](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/destinations/create-analytics-destination.html)
       + [在 Analytics 中使用對象資料](c-audience-analytics/c-workflow/use-audience-data-analytics.md)
