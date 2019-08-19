@@ -16,7 +16,7 @@ source-git-commit: 614ff957a7f4bacf0d61122650fdd76382075d1e
 * [管理指南](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/home.translate.html)
 * [元件指南](https://docs.adobe.com/content/help/zh-Hant/analytics/components/home.html)
 * [匯出指南](https://docs.adobe.com/content/help/zh-Hant/analytics/export/home.html)
-* [實施指南](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html)
+* [實作指南](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html)
 * [匯入指南](https://docs.adobe.com/content/help/zh-Hant/analytics/import/home.html)
 * [整合指南](https://docs.adobe.com/content/help/zh-Hant/analytics/integration/home.html)
 + [文件更新](doc-updates.md)
