@@ -122,7 +122,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [報表類別](c-variables/dimensionslist/reports-types.md)
       + [書擋樣式](c-variables/dimensionslist/bookend-pattern.md)
       + [書籤 URL 長度](c-variables/dimensionslist/reports-bookmark-url.md)
-      + [機器人](c-variables/dimensionslist/reports-bots.md)
+      + [Bot](c-variables/dimensionslist/reports-bots.md)
       + [劃分](c-variables/dimensionslist/breakdown.md)
       + [瀏覽器](c-variables/dimensionslist/reports-browsers.md)
       + [瀏覽器高度](c-variables/dimensionslist/reports-browser-height.md)
@@ -316,7 +316,7 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [訪客參與率 - Ad Hoc Analysis](c-variables/c-metrics/metrics-visitor-participation.md)
    + 銷售變數 {#merchandising-variables}
       + [銷售變數概觀](c-variables/c-merch-variables/var-merchandising.md)
-      + [實施銷售變數](c-variables/c-merch-variables/var-merchandising-impl.md)
+      + [實作銷售變數](c-variables/c-merch-variables/var-merchandising-impl.md)
       + [銷售變數的例項](c-variables/c-merch-variables/var-merchandising-instances.md)
 + 即時報表 {#real-time-reporting}
    + [即時報表概觀](c-real-time-reporting/realtime.md)
