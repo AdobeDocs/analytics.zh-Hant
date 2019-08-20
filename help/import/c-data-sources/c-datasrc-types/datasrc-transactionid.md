@@ -5,10 +5,10 @@ seo-title: 交易 ID
 solution: Analytics
 subtopic: 資料來源
 title: 交易 ID
-topic: 開發人員和實施
+topic: 開發人員和實作
 uuid: f3370bb7-3f28-460b-a20 d-c9 e58 d7301 d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e9cb3575780db9eb5c9a766ef20d596e504a20d0
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 選取「通用 (交易 ID)」類別，可整合交易 ID。
 
-See [Integrating Offline Data](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6).
+請參閱 [整合離線資料](../../../import/c-data-sources/datasrc-integrating-offline-data.md#concept_B5C576220F1548B5A3A57112AA3960C6)。
 
 Data uploaded with *`transactionID`* automatically associates with the same marketing channel that processed the original server call that contained the *`transactionID`*.
 
@@ -30,10 +30,10 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | 追蹤代碼 | 追蹤代碼名稱。 |
 | 類別 | 類別名稱。若您指定類別，則必須選取產品。 |
 | 管道 | 管道名稱。 |
-| eVarN | eVarN名稱。n 的有效值是整數 1 - 250。 |
+| eVarN | eVarN名稱。N的有效值為整數-250。 |
 | 產品 | 產品名稱。 |
 | 狀態 | 州/省名。 |
-| 郵遞區號 | 郵遞區號名稱。 |
+| Zip | 郵遞區號名稱。 |
 
 <p class="head"> <b>交易 ID 維度</b> </p>
 
@@ -47,8 +47,8 @@ Data uploaded with *`transactionID`* automatically associates with the same mark
 | 購物車刪除次數 | 購物車移除次數。 |
 | 購物車檢視 | 購物車檢視次數。 |
 | 結帳 | 結帳次數。 |
-| 事件 n | 事件 n 的發生次數。n 的有效值是整數 1 - 1000。若您指定「檢視」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 的值。 |
-| eVarN檢視 | 檢視 eVar n 的次數。n 的有效值是整數 1 - 250。 |
+| eventN | eventN發生的次數。N的有效值為整數-1000。若您指定「檢視」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 的值。 |
+| eVarN檢視 | 檢視eVarN的次數。N的有效值為整數-250。 |
 | 價格 | 產品價格。 |
 | 訂購 | 訂購次數。 |
 | 產品檢視 | 產品檢視次數。 |
