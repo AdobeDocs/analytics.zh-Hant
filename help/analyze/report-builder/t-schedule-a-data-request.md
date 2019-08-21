@@ -7,7 +7,7 @@ title: 排程資料請求
 topic: Report Builder
 uuid: f6d8c90f-e185-4d60-8035-f20 f74 bfcd89
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
 
 ---
 
@@ -16,13 +16,24 @@ source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
 
 您可以排程活頁簿、指定進階傳送選項、指定收件者，以及檢視排程歷史記錄。進階傳送選項可讓您設定要在特定時間或間隔傳送的活頁簿。您也可以指定要傳送活頁簿的檔案格式。
 
-For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. 報表上傳的檔案大小限制為 5 MB。
+For example, you can schedule workbooks to be delivered immediately or on a recurring schedule, and specify the file format in [!DNL Advanced Delivery Options]. 活頁簿上傳的檔案大小限制為MB。
 
 Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]**. (請參閱「Reports &amp; Analytics」說明中的[「報表排程與分發」](/help/analyze/reports-analytics/scheduling.md))。
 
 >[!NOTE]
 >
 >您必須安裝Excel2007或相容性套件才能排程活頁簿。每個報告建立工具授權最多可有10個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。To do so, go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Report Builder Reports]**. 將刪除已排程(或上傳至活頁簿庫)且尚未在28個月內遭到接觸點(更新、取代)的活頁簿。
+
+>[!NOTE]
+>
+>使用者輸入的「傳送時間」/「每日時間」指定活頁簿應該開始處理的時間，而不是實際傳遞的時間。將活頁簿傳送的實際時間主要取決於處理時間(複雜和大型活頁簿需要花費較長時間處理較簡單的活頁簿)。例如，如果活頁簿需要15分鐘處理，則實際傳送時間將至少超過原本指定的「傳送時間」/「每日時間」的15分鐘。
+>此外，還有一些其他因素可進一步提高在實際遞送活頁簿之前的延遲：
+>
+> * **同時執行相同類型的許多不同排程會** 使系統超載。「排程」系統只允許任何一種類型的活頁簿並行執行，因此，當有超過5-10的活頁簿全部排定時，有些人需要在線上等候其他活頁簿完成，才能開始處理。這個問題可以借由在一天或多小時的交錯時間內排程公司活頁簿來減輕，而不是同時進行。
+> * 除了特定活頁簿類型外，如果公司一 **次擁有超過15-20種活頁簿類型(所有不同活頁簿類型)，活頁簿**&#x200B;也會同時等候。這可以透過排程時間來減輕，而不是同時執行許多工作。
+> * **排程器依賴於下游服務** 的問題也會影響傳送活頁簿。例如，如果您獨立使用API來執行活頁簿並填寫API請求佇列，則您的排程活頁簿可能會在您競爭該資源時緩慢地傳遞。
+> * **報表套裝延遲** (資料收集延遲)也可以延遲某些排程活頁簿。
+
 
 **排程活頁簿**
 
@@ -53,7 +64,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
   </tr> 
   <tr> 
    <td colname="col1"> <p>選擇 </p> </td> 
-   <td colname="col2"> <p>顯示「<span class="wintitle">選擇報表</span>」頁面。您可以從伺服器 (儲存舊排程活頁簿的位置) 選擇報表，或從本機電腦選擇。如果您從本機磁碟選擇 <span class="filepath">.xls</span> 格式的活頁簿，系統會將檔案轉換為 <span class="filepath">.xlsx</span>。在轉換過程中，系統會在 Excel 開啟檔案並使其成為作用中狀態。如果排程報表的選擇活頁簿檔案名稱與目前在 Excel 中開啟的活頁簿檔案名稱相同，系統會選擇本機檔案而非先前上傳的檔案。如果您從排程庫選擇報表，系統會在伺服器中建立活頁簿的副本並更新檔案名稱 (加上 1)，而新建立的排程報表則會使用複製的活頁簿。 </p> </td> 
+   <td colname="col2"> <p>顯示「<span class="wintitle">選擇報表</span>」頁面。您可以從伺服器 (儲存舊排程活頁簿的位置) 選擇報表，或從本機電腦選擇。如果您從本機磁碟選擇 <span class="filepath">.xls</span> 格式的活頁簿，系統會將檔案轉換為 <span class="filepath">.xlsx</span>。在轉換過程中，系統會在 Excel 開啟檔案並使其成為作用中狀態。如果排程報表的選擇活頁簿檔案名稱與目前在 Excel 中開啟的活頁簿檔案名稱相同，系統會選擇本機檔案而非先前上傳的檔案。如果您從排程存放庫選取報表，則會在伺服器上建立活頁簿副本，檔案名稱會以1更新。新建立的排程報表會使用複製的活頁簿。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂 </p> </td> 
