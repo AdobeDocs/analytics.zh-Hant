@@ -3,8 +3,8 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 分析指南
 user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
+translation-type: tm+mt
+source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
 
@@ -113,7 +113,7 @@ source-git-commit: f7de5f15c2f083663cde3f8d6acf3896cbfe6c47
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [常見問題集](analysis-workspace/faq.md)
    + [管理需求](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Workspace 效能最佳化](analysis-workspace/optimizing-performance.md)
+   + [最佳化分析工作區效能](analysis-workspace/optimizing-performance.md)
    + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
 + Report Builder {#report-builder}
