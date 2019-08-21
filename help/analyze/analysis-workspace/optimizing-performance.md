@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 最佳化工作區效能
-title: 最佳化工作區效能
+seo-title: 最佳化分析工作區效能
+title: 最佳化分析工作區效能
 uuid: de51d03d-d555-4f0 e-b19 c-4a8 f140770 fc
 translation-type: tm+mt
-source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
+source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 ---
 
 
-# 最佳化工作區效能
+# 最佳化分析工作區效能
 
 特定因子可以影響 Analysis Workspace 中專案的效能在開始建立專案之前先了解有哪些效能因素，讓您能夠以最有效的方式規劃及建立專案。以下列出影響效能的因素，以及將專案最佳化的最佳實踐。Analysis Workspace 的效能是 Adobe 的最高優先之一，也是我們每天致力改善的目標。
 
@@ -23,9 +23,9 @@ source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
 * 區段使用的維度內不重複維度項目數量 (例如: 具有 10 個不重複項目的頁面 =「A」，其速度會比具有 100000 個不重複項目的頁面 =「A」更快)
 * 使用的不同維度數量 (例如: 頁面 =「首頁」和頁面 =「搜尋結果」，其速度會比 eVar 1 =「紅色」和 eVar 2 =「藍色」更快)
 * 多個「或」運算子 (而非「和」)
-* 範圍各異的巢狀容器 (例如:「訪客」內「造訪」的「點擊」)
+* 範圍不同的巢狀容器(例如「訪客」內的「點擊」內)
 
-### 最佳做法
+**邏輯複雜度的最佳實務**
 
 雖然有些複雜度因子無法避免，但您可以思考有哪些機會可降低您區段的複雜度。一般而言，區段條件越明確越好。例如:
 
@@ -39,7 +39,7 @@ source-git-commit: 4c400faacdc0cc405f719cb849ed02d03b0cf972
 
 要求的專案資料範圍將影響 Analysis Workspace 的效能。
 
-### 最佳做法
+**資料範圍的最佳實務**
 
 盡可能不要提取超出所需的資料。
 
@@ -51,7 +51,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 一個專案中包含的圖表視覺效果數目，會影響 Analysis Workspace 的整體回應。
 
-### 最佳做法
+**視覺化數目的最佳做法**
 
 減少專案中的視覺效果數目。Analysis Workspace 會在幕後為您新增的每個視覺效果做大量處理，因此請對報表的消費者來說最重要的視覺效果定出優先順序，並且若有需要的話，將支援的視覺效果分到其他更詳細的專案。
 
@@ -66,7 +66,7 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 * 自由表格列所套用的篩選器
 * 包含的量度數目，尤其是使用了區段的計算量度
 
-### 最佳做法
+**視覺化複雜的最佳實務**
 
 如果您注意到您的專案載入速度不如預期，可以的話，試著將一些區段取代為 eVar 和篩選器。
 
@@ -76,11 +76,11 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 一個面板可以有許多視覺效果，因此，面板數目也會影響 Analysis Workspace 的整體回應.
 
-### 最佳做法
+**面板數最佳實務**
 
 不要在一個專案中加入全部的東西，而是建立個別專案供特定用途或股東群組所用。使用標記將專案依主題組織整理，並與股東群組共用相關專案。
 
-如果需要更多專案組織方式，記住[直接連結](https://www.youtube.com/watch?v=6IOEewflG2U)到專案也是一個做法。建立內部的專案索引，讓股東更容易找到他們要找的。於此同時，Adobe 也正積極尋求更多組織選項來加入 Analysis Workspace。
+如果需要更多專案組織方式，記住[直接連結](https://www.youtube.com/watch?v=6IOEewflG2U)到專案也是一個做法。建立內部的專案索引，讓股東更容易找到他們要找的。
 
 如果一個 Workspace 需要許多面板，請先摺疊面板再儲存和共用。載入專案時，Analysis Workspace 只會載入展開面板的內容。直到使用者展開，否則不會載入摺疊的面板。這種做法有兩個優點:
 
@@ -91,6 +91,14 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 報表套裝的大小可能看來是個重大因素，但實際上由於 Adobe 的資料處理方式，它在專案效能上只扮演一個小角色
 
-## 同時存取 Analysis Workspace 的人數
+## 同時存取分析工作區的使用者人數
 
-同時存取分析工作區或特定專案的人數對分析工作區效能沒有很大的影響。
+如果使用者存取不同的報告套裝，存取分析工作區或特定專案的使用者人數對Analysis Workspace效能並沒有很大的影響。如果並行使用者存取相同的報表套裝，則會影響效能。
+
+## 解決常見錯誤
+
+| 錯誤訊息 | 為甚麼會發生這種情況？ |
+|---|---|
+| `The report suite is experiencing unusually heavy reporting. Please try again later.` | 您的組織嘗試對特定報表套裝執行太多並行請求。此錯誤的參與者為API請求、排程專案、排程報表、排程警報，以及建立報告請求的並行使用者。建議您將報表套裝的請求和時間表平均分配給一天。 |
+| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe遇到需要解決的問題。建議您透過客戶服務要求提交錯誤碼。 |
+| `The request is too complex.` | 您的報表請求太大，無法執行。此錯誤的貢獻者是由於請求大小、區段或搜尋篩選器中太多相符項目、包含太多量度、不相容維度和量度組合等逾時。建議您簡化請求。 |
