@@ -7,7 +7,7 @@ title: 排程資料請求
 topic: Report Builder
 uuid: f6d8c90f-e185-4d60-8035-f20 f74 bfcd89
 translation-type: tm+mt
-source-git-commit: 62937df0a763f6b9b34389d968c5641056b47aa8
+source-git-commit: ed8cfa41a2495c884f1096ea54624820bf3a9e07
 
 ---
 
@@ -35,7 +35,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 > * **報表套裝延遲** (資料收集延遲)也可以延遲某些排程活頁簿。
 
 
-**排程活頁簿**
+## 排程活頁簿
 
 1. 產生並儲存活頁簿。
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
@@ -48,120 +48,36 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 1. 在[!UICONTROL 「基本排程精靈」]中，設定下列選項:
 
-* **選擇報表**：活頁簿的名稱。對於新排程的活頁簿，此欄位會填入作用中活頁簿名稱。
+| 欄位 | 說明 |
+|--- |--- |
+| 選擇報表 | 活頁簿的名稱。對於新的排程報表，系統會將作用中活頁簿的名稱填入此欄位。 |
+| 選擇 | 顯示「選擇報表」頁面。您可以從伺服器 (儲存舊排程活頁簿的位置) 選擇報表，或從本機電腦選擇。如果您從本機磁碟選擇 .xls 格式的活頁簿，系統會將檔案轉換為 .xlsx。在轉換過程中，系統會在 Excel 開啟檔案並使其成為作用中狀態。如果排程報表的選擇活頁簿檔案名稱與目前在 Excel 中開啟的活頁簿檔案名稱相同，系統會選擇本機檔案而非先前上傳的檔案。如果您從排程存放庫選取報表，則會在伺服器上建立活頁簿副本，檔案名稱會以1更新。新建立的排程報表會使用複製的活頁簿。 |
+| 自訂 | 可讓您自訂日期格式。 |
+| 收件者 | 顯示 Outlook 通訊錄 (若有的話)。 |
+| 傳送至: 電子郵件 | 活頁簿的電子郵件收件者。 |
+| 傳送至: 發佈清單 | 顯示此公司的可用分送清單。 |
+| Power BI | 如需詳細資訊，請參閱[將活頁簿發佈至 Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)。 |
+| 主旨 | 使用者定義的說明。 |
+| 排程 | 可讓您指定傳送活頁簿的時機。(立即、每小時、每日、每週、每月及每年。) |
 
-<table id="table_6D5B1B832EB0451293F1902E2A1D1068"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 欄位 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>選擇報表 </p> </td> 
-   <td colname="col2"> <p>報表的名稱。對於新的排程報表，系統會將作用中活頁簿的名稱填入此欄位。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>選擇 </p> </td> 
-   <td colname="col2"> <p>顯示「<span class="wintitle">選擇報表</span>」頁面。您可以從伺服器 (儲存舊排程活頁簿的位置) 選擇報表，或從本機電腦選擇。如果您從本機磁碟選擇 <span class="filepath">.xls</span> 格式的活頁簿，系統會將檔案轉換為 <span class="filepath">.xlsx</span>。在轉換過程中，系統會在 Excel 開啟檔案並使其成為作用中狀態。如果排程報表的選擇活頁簿檔案名稱與目前在 Excel 中開啟的活頁簿檔案名稱相同，系統會選擇本機檔案而非先前上傳的檔案。如果您從排程存放庫選取報表，則會在伺服器上建立活頁簿副本，檔案名稱會以1更新。新建立的排程報表會使用複製的活頁簿。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>自訂 </p> </td> 
-   <td colname="col2"> <p>可讓您自訂日期格式。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>收件者 </p> </td> 
-   <td colname="col2"> <p>顯示 Outlook 通訊錄 (若有的話)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>傳送至: 電子郵件 </p> </td> 
-   <td colname="col2"> <p>活頁簿的電子郵件收件者。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>傳送至: 發佈清單 </p> </td> 
-   <td colname="col2"> <p>顯示此公司的可用分送清單。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Power BI </p> </td> 
-   <td colname="col2"> <p>如需詳細資訊，請參閱<a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local">將活頁簿發佈至 Microsoft Power BI</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>主旨 </p> </td> 
-   <td colname="col2"> <p>使用者定義的說明。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>排程 </p> </td> 
-   <td colname="col2"> <p> 可讓您指定傳送活頁簿的時機。(立即、每小時、每日、每週、每月及每年。) </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## 進階傳送選項
 
 1. Click **[!UICONTROL Advanced Delivery Options]** to configure file and publishing options:
 
-<table id="table_1BA8A5600DE94A33B83B096E69CE15F3"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 欄位 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>「排程」</b>索引標籤 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>傳送時間 </p> </td> 
-   <td colname="col2"> <p>可讓您立即排程活頁簿或稍後排程活頁簿。傳送時間與在電腦中指定的時區相關。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>週期模式 </p> </td> 
-   <td colname="col2"> <p>根據您的選擇傳送活頁簿。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>週期範圍 </p> </td> 
-   <td colname="col2"> <p>可讓您指定何時開始和停止接收活頁簿。 </p> <p> <p>注意：在任何目前時段(周、月、季或年)的第一天排程活頁簿，只會傳回第一天的資料。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>「檔案選項」</b>索引標籤 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>檔案格式 </p> </td> 
-   <td colname="col2"> <p>可讓您選擇傳送格式，包括 Excel 2007 (<span class="filepath">.xlsx</span>) 或 2003 (<span class="filepath">.xls</span>)、<span class="filepath">.pdf</span>、<span class="filepath">.csv、</span><span class="filepath">.mht</span>、<span class="filepath"> .txt</span> 及<span class="filepath"> .xml</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> 檔案目標 </p> </td> 
-   <td colname="col2"> <p> 指定電子郵件或 FTP。頁面中的選項會隨著您的選擇而改變。對於 FTP，您必須確認可從外部連接主機。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>發佈清單 </p> </td> 
-   <td colname="col2"> <p> 如果您將排程活頁簿傳送到多份發佈清單，活頁簿會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>檔案內容語言 </p> </td> 
-   <td colname="col2"> <p>指定首頁所要使用的語言。您可以選擇中文 (簡體或繁體)、德文、法文、日文、韓文、葡萄牙文 (巴西) 或西班牙文。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>「發佈選項」</b>索引標籤 </p> </td> 
-   <td colname="col2"> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>發佈至 Power BI </p> </td> 
-   <td colname="col2"> 
-    <ul id="ul_40697E4FB2CE4F34B857FBF153D6D6D5"> 
-     <li id="li_023E4750814D415EBC899269C9EA5D46"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_BA137EA92A46483F83BB5C1C40FBA002" format="dita" scope="local"> 將活頁簿發佈至 Power BI</a> </li> 
-     <li id="li_9B684BE22AF94ABC903405EE83951A80"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_E48148793E794169B766C73995897B9F" format="dita" scope="local"> 以 Power BI 資料集發佈所有 Report Builder 請求</a> </li> 
-     <li id="li_7B0BD285BC1749D1B2C65759CA97877B"><a href="../../analyze/report-builder/c-publish-power-bi/integration-power-bi.md#section_6F8422B90D3F4F7EB5D4C97BFFA807AD" format="dita" scope="local"> 以 Power BI 資料集發佈所有格式化表格</a> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>將此 Power BI 報表標記為 </p> </td> 
-   <td colname="col2"> <p>標記詳細資料 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 欄位 | 說明 |
+|--- |--- |
+| **「排程」索引標籤** |  |
+| 傳送時間 | 可讓您立即排程活頁簿或稍後排程活頁簿。傳送時間與在電腦中指定的時區相關。 |
+| 週期模式 | 根據您的選擇傳送活頁簿。 |
+| 週期範圍 | 可讓您指定何時開始和停止接收活頁簿。注意：在任何目前時段(周、月、季或年)的第一天排程活頁簿，只會傳回第一天的資料。 |
+| **「檔案選項」索引標籤** |  |
+| 檔案格式 | 可讓您選擇傳送格式，包括 Excel 2007 (.xlsx) 或 2003 (.xls)、.pdf、.csv、.mht、 .txt 及 .xml。 |
+| 檔案目標 | 指定電子郵件或 FTP。頁面中的選項會隨著您的選擇而改變。對於 FTP，您必須確認可從外部連接主機。 |
+| 發佈清單 | 如果您將排程活頁簿傳送到多份發佈清單，活頁簿會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。 |
+| 檔案內容語言 | 指定首頁所要使用的語言。您可以選擇中文 (簡體或繁體)、德文、法文、日文、韓文、葡萄牙文 (巴西) 或西班牙文。 |
+| **「發佈選項」索引標籤** |  |
+| 發佈至 Power BI | <ul><li>將活頁簿發佈至 Power BI</li><li>以 Power BI 資料集發佈所有 Report Builder 請求</li><li>以 Power BI 資料集發佈所有格式化表格</li></ul> |
+| 將此 Power BI 報表標記為 | 標記詳細資料 |
 
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
 
