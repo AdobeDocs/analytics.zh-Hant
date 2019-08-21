@@ -1,23 +1,19 @@
 ---
 description: 排程、下載和發佈報表的相關資訊。
 seo-description: 排程、下載和發佈報表的相關資訊。
-seo-title: 報表排程與分發
+seo-title: 報表排程和分發
 solution: Analytics
 subtopic: 排程
-title: 報表排程與分發
-topic: Reports & Analytics
+title: 報表排程和分發
+topic: Reports and Analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6 f75 a3836
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: cca2896eaaf3786e79e7bd389bcb5a409e3d357e
 
 ---
 
 
-# 報表排程與分發
-
-排程、下載和發佈報表的相關資訊。
-
-## Report schedule and distribution {#concept_4EA333DFC7FD4E9CA086385A3DA10BE9}
+# 報表排程和分發
 
 排程、下載和發佈報表的相關資訊。
 
@@ -29,17 +25,23 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 * 資料擷取: 50,000 列
 * Data Warehouse: 無限制
 
-請注意，以上是個別排程和下載報表的限制，控制面板則限制為小報表中可用空間的總量。
+這些限制適用於個別計劃和下載的報表；控制面板僅限於小報告中可用的空間量。
+
+>[!NOTE]
+>
+>使用者輸入的「傳送時間」/「每日時間」指定報表應該開始處理的時間，而不是實際傳送的時間。The actual time that the report will be based based on how time to processing(複雜and大型report takes time to processing than processing than simpler reports).例如，如果報表需要15分鐘進行處理，則實際傳送時間將至少超過原本指定的「傳送時間」/「每日時間」的15分鐘。
+>此外，還有一些其他因素可進一步提高報表實際傳送之前的延遲：
+>
+> * **同時執行相同類型的許多不同排程** (例如許多控制面板等)可能會使系統超載。「排程」系統只允許任何一種類型的報表同時執行，因此，當有超過5-10的計劃一次全部排定時，有些人必須在線上等候其他報表完成，才能開始處理。這個問題可以借由在一天或多小時的交錯時間內排程公司的報表來減輕，而不是同時進行。
+> * 除了特定報表類型(控制面板等)之外，如果公司一次排程的報表類型 **超過15-20種(所有不同報表類型)，報表**&#x200B;也會保持一致。這可以透過排程時間來減輕，而不是同時執行許多工作。
+> * **排程器依賴於下游服務** 的問題也會影響報表傳送。例如，如果您獨立使用API來執行報表並填寫API請求佇列，則在競爭該資源時，您的排程報表可能會變慢。
+> * **報表套裝延遲** (資料收集延遲)也可以延遲某些計劃報表。
+
+
 
 ## 傳送報告 {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
 說明如何下載和透過電子郵件傳送各種格式之報告及計劃報告傳送的步驟。
-
-<!-- 
-
-t_send_report.xml
-
- -->
 
 1. Run a report, then click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 1. 指定傳送選項:
@@ -53,81 +55,27 @@ t_send_report.xml
 
 1. Click **[!UICONTROL Advanced Delivery Options]** to specify a delivery schedule.
 
-   <table id="choicetable_2934E54FEE6E4D33B07EAC21F6DF628E"> 
-   <thead class="chhead sthead"> 
-   <th class="choptionhd"> 選項 </th> 
-   <th class="chdeschd"> 說明 </th> 
-   </thead> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>報告檔案名稱</strong></td> 
-   <td class="chdesc stentry"> <p>指定報告的名稱。預設格式為 <code>&lt;套裝&gt; 的 &lt;報告名 &gt; - &lt;報告日期範圍&gt;</code>。 </p> <p>若要指定自訂名稱，請選取<span class="uicontrol">自訂</span>。 </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>報告格式</strong></td> 
-   <td class="chdesc stentry"> <p>可讓您指定 PDF、CSV、Excel、HTML、Word 或行動格式以進行傳送。如果選取 CSV，則也可以指定 CSV 的編碼: </p> <p> 
-      <ul id="ul_4A2EB8D9512246589994052CF482BFD7"> 
-      <li id="li_A4FC4D795A9D4F92AAB187ACDFBA180D"> <p> <span class="uicontrol">Shift-JIS</span>: 日文字元編碼。 </p> </li> 
-      <li id="li_405C7EC97F994D649A50F84466FADA3D"> <p> <span class="uicontrol">EUC-JP</span>: 擴展 Unix 編碼，主要用於日文、韓文和簡體中文。 </p> </li> 
-      </ul> </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>報告內容</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol">表格的行數</span>: 指定要在傳送報告的表格中顯示的行數。 </p> <p> <span class="uicontrol">頁首和頁尾的語言</span>: 指定頁首和頁尾的語言。 </p> <p> <span class="uicontrol">備註</span>: 指定出現在報告起始處的文字。 </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>傳送數位簽名檔案</strong></td> 
-   <td class="chdesc stentry"> <p>當您請求報告時 (例如書籤化報告或 Data Warehouse 請求)，可以請求一個資料簽名。Adobe 的數位簽名不限制存取資料的權限，但是數位簽名檔案 (.sig) 是用於驗證已傳送報告檔案的有效性。使用數位簽名，報告的接收方可以驗證檔案是否來自 Adobe 且沒有發生更改。 </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>報告目標</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol">電子郵件</span>: 可讓您設定電子郵件地址設定、主旨行以及附註。 </p> <p> <span class="uicontrol">FTP</span>: 可讓您設定 FTP 設定，包括主機、連接埠、目錄、使用者名稱以及密碼。 </p> </td> 
-   </tr> 
-   </table>
+| 選項 | 說明 |
+|--- |--- |
+| 報告檔案名稱 | 指定報告的名稱。預設格式 `<report name> for <suite> - <report date range>`為。若要指定自訂名稱，請選取[!UICONTROL 自訂]。 |
+| 報告格式 | 可讓您指定 PDF、CSV、Excel、HTML、Word 或行動格式以進行傳送。如果選取 CSV，則也可以指定 CSV 的編碼:<ul><li>Shift-JIS: 日文字元編碼。</li><li>EUC-JP：延伸Unix程式碼(主要用於日文、韓文和簡體中文)。</li></ul> |
+| 報告內容 | <ul><li>表格的行數: 指定要在傳送報告的表格中顯示的行數。</li><li>頁首和頁尾的語言: 指定頁首和頁尾的語言。</li><li>備註: 指定出現在報告起始處的文字。</li></ul> |
+| 傳送數位簽名檔案 | 請求報表時，例如書簽化報表或資料倉庫請求，您可以請求資料簽名。Adobe 的數位簽名不限制存取資料的權限，但是數位簽名檔案 (.sig) 是用於驗證已傳送報告檔案的有效性。使用數位簽名，報告的接收方可以驗證檔案是否來自 Adobe 且沒有發生更改。 |
+| 報告目標 | <ul><li>電子郵件: 可讓您設定電子郵件地址設定、主旨行以及附註。</li><li>FTP: 可讓您設定 FTP 設定，包括主機、連接埠、目錄、使用者名稱以及密碼。</li></ul> |
 
 1. Click **[!UICONTROL Scheduling Options]**.
 
-   <table id="choicetable_589A39087F4C497D8913364FFF0125B7"> 
-   <thead class="chhead sthead"> 
-   <th class="choptionhd"> 選項 </th> 
-   <th class="chdeschd"> 說明 </th> 
-   </thead> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>立即傳送報告</strong></td> 
-   <td class="chdesc stentry"> <p>立即傳送報告。 </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>稍後計劃</strong></td> 
-   <td class="chdesc stentry"> <p>顯示選項，供您指定時間範圍和傳送選項。 </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>報告時間範圍</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol">固定</span>: 防止日期隨時間流逝而前移。 </p> <p> <span class="uicontrol">滾動</span>: 允許日期隨時間流逝而前移。需要考慮的事項︰ </p> <p> 
-      <ul id="ul_5CDCCBEFEB364800A428614183A0E6A1"> 
-      <li id="li_37B8F32A9E3B4979B5239A58F0C5A71C"> <p>如果您選擇滾動起始日期和結束日期，並且選擇前一日的每日報告，每日您將收到前一日的電子郵件報告。 </p> </li> 
-      <li id="li_83FFD2400C6A453783CDD9BB3B9BA3F9"> <p>如果您選擇固定起始日期，並滾動結束日期，您將於第一日收到前一日的報告。第二日您將收到前兩日的報告，而第三天將收到前三天的報告，以此類推。 </p> </li> 
-      <li id="li_28F8552D699841BC942058247D39DBB9"> <p>如果您選擇固定起始和結束日期，每日您將收到指定日期相應的報告。 </p> </li> 
-      <li id="li_A594A6E2A4044ED6AC0A80F88EB203B3"> <p>不能同時選擇滾動的開始日期和固定的結束日期。 </p> </li> 
-      </ul> </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>傳送頻度</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol">每小時</span>: 以每小時、每兩小時或任何其他小時間隔傳送電子郵件。 </p> <p> <span class="uicontrol">每日</span>: 以每天、每兩天、每三天或任何其他天數間隔傳送電子郵件。另外也可以每週中傳送。 </p> <p> <span class="uicontrol">每週</span>: 以每週、每兩週、每三週或任何其他週數間隔傳送電子郵件。另可指定傳送的週日期。 </p> <p> <span class="uicontrol">每月</span>: 指定間隔的月份數，也可選擇在一個月內的哪一天傳送電子郵件，或在一個月內指定週的哪一天傳送電子郵件。 </p> <p> <span class="uicontrol">每年</span>: 指定在一年內的某一天傳送電子郵件，或者可以在一年中任意週內指定的某一天傳送。 </p> <p> <span class="uicontrol">每日時間</span>: 適用於選定報告套裝上所附的時區。 </p> </td> 
-   </tr> 
-   <tr class="chrow strow"> 
-   <td class="choption"><strong>結束傳送選項</strong></td> 
-   <td class="chdesc stentry"> <p> <span class="uicontrol">從不結束</span>: 指定永不結束。 </p> <p> <span class="uicontrol">&lt;值&gt; 次之後結束</span>: 指定發生幾次之後結束傳送。 </p> <p> <span class="uicontrol">結束於</span>: 可讓您指定特定的日期。 </p> <p>如果您希望在處理報告資料的同一個日期處理資料，報告則僅包含發送報告時資料庫裡所記錄的資料。處理完畢最長時需要 24 小時，因此，可能無法在傳送報告時使用完整的資料。要獲得完整資料，請始終將處理時間設為報表結束後的 24 小時。 </p> </td> 
-   </tr> 
-   </table>
+| 選項 | 說明 |
+|--- |--- |
+| 立即傳送報告 | 立即傳送報告。 |
+| 稍後計劃 | 顯示選項，供您指定時間範圍和傳送選項。 |
+| 報告時間範圍 | **固定**: 防止日期隨時間流逝而前移。**滾動**: 允許日期隨時間流逝而前移。需要考慮的事項︰<ul><li>如果您選擇「滾動」起始日期和結束日期，並且選擇前一日的每日報表，每日您將收到前一日的電子郵件報表。</li><li>如果您選擇「固定起始日期」，並滾動結束日期，則您會在第一天收到前一天的報表。第二日您將收到前兩日的報告，而第三天將收到前三天的報告，以此類推。</li><li>如果您選擇「固定」起始和結束日期，每日您將收到指定日期的相同報告。</li><li>您無法選取滾動開始日期和固定結束日期。</li></ul> |
+| 傳送頻度 | <ul><li>**每小時**: 以每小時、每兩小時或任何其他小時間隔傳送電子郵件。</li><li>**每日**: 以每天、每兩天、每三天或任何其他天數間隔傳送電子郵件。另外也可以每週中傳送。</li><li>**每週**: 以每週、每兩週、每三週或任何其他週數間隔傳送電子郵件。另可指定傳送的週日期。</li><li>**每月**: 指定間隔的月份數，也可選擇在一個月內的哪一天傳送電子郵件，或在一個月內指定週的哪一天傳送電子郵件。</li><li>**每年**: 指定在一年內的某一天傳送電子郵件，或者可以在一年中任意週內指定的某一天傳送。</li><li>**每日時間**: 適用於選定報告套裝上所附的時區。</li></ul> |
+| 結束傳送選項 | <ul><li>**從不結束**: 指定永不結束。</li><li>**發生`value`後結束**：指定結束傳送前的發生次數。</li><li>**結束於**: 可讓您指定特定的日期。如果您希望在處理報告資料的同一個日期處理資料，報告則僅包含發送報告時資料庫裡所記錄的資料。處理完畢最長時需要 24 小時，因此，可能無法在傳送報告時使用完整的資料。要獲得完整資料，請始終將處理時間設為報表結束後的 24 小時。</li></ul> |
 
 ## 列印報告 {#task_0F7CF6D6ED54462CAE4A793E271AF7E5}
 
 說明如何列印報告的步驟。
-
-<!-- 
-
-t_reports_print.xml
-
- -->
 
 1. 執行報告.
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Print]**.  ![](assets/print.png)
@@ -135,12 +83,6 @@ t_reports_print.xml
 ## 使用基本選項下載報表 {#task_43660107A1C9485D92981CD75B562577}
 
 以 PDF、CSV、Excel 或「原始資料集匯出」格式下載特定報表的詳細資訊。
-
-<!-- 
-
-t_download-report.xml
-
- -->
 
 1. 在 **Analytics** &gt; **[!UICONTROL 報表]**&#x200B;中，選取報表以檢視。
 1. Click **[!UICONTROL Download]**.
@@ -161,12 +103,6 @@ t_download-report.xml
 
 與管理計劃報告相關的資訊。
 
-<!-- 
-
-t_schedule_manage.xml
-
- -->
-
 在[!UICONTROL 計劃報告管理器]中，您可以編輯和刪除周期性報告的傳送。您可以建立傳送計劃，透過電子郵件或 FTP 將報告傳送至指定位址。您可以設定這些計劃以特定時間間隔或無限制自動傳送報告，或停止傳送週期性報告。
 
 [!UICONTROL 計劃報告管理器]會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
@@ -176,12 +112,6 @@ t_schedule_manage.xml
 ## 共用報告連結 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
 描述如何透過產生報告連結 (URL) 以傳送給另一個使用者來共用報告的步驟。
-
-<!-- 
-
-t_reports_share_link.xml
-
- -->
 
 當收件者按一下連結時，系統即要求登入憑證 (公司名稱、使用者名稱和密碼)。登入後，收件者顯示報告由最初使用者產生。套用標準權限限制。
 
@@ -193,12 +123,6 @@ t_reports_share_link.xml
 ## 取消訂閱排程報表 {#concept_6B48360F935740B6851BA85D32DEF637}
 
 您可以取消訂閱排程報表。您不會再收到報表，即使將您的使用者名稱重新新增回排程報表亦同。
-
-<!-- 
-
-t_schedule_unsubscribe.xml
-
- -->
 
 >[!IMPORTANT]
 >
