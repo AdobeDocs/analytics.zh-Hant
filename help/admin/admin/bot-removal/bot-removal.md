@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中移除機器人
 description: 在Adobe Analytics中移除機器人程式的個方法
 seo-description: 在Adobe Analytics中移除機器人程式的個方法
 translation-type: tm+mt
-source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
+source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 ---
 
@@ -47,12 +47,13 @@ source-git-commit: 97c24ca865e11aa418febc40842d8fe9372d9cc3
 
 ## 步驟4：將此清單送回Adobe作為客戶屬性
 
-在資料倉庫報表送達後，您將擁有需要從歷史資料篩選的ECID清單。將這些ECID複製並貼入空白CSV檔案，只含兩欄、ECID和機器人標記：
+在資料倉庫報表送達後，您將擁有需要從歷史資料篩選的ECID清單。將這些ECID複製並貼至空白的. CSV檔案，只含兩欄、ECID和機器人標記：
 
-
+![](assets/bot-csv-4.png)
 
 確定第一欄標題符合您提供給上述新宣告ID的名稱。使用此. CSV檔案作為您的客戶屬性匯入檔案，然後將您的報表套裝訂閱至客戶屬性，如 [此部落格貼文](https://theblog.adobe.com/link-digital-behavior-customers)所述。
 
 ## 步驟5：建立運用新客戶屬性的區段
 
 在處理資料集並整合至分析工作區後，請建立另一個區段，運用新的「機器人標幟」客戶屬性維度：
+
