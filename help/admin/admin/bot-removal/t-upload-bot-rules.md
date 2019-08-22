@@ -1,27 +1,27 @@
 ---
 description: 若要大量上傳機器人規則，您可上傳用於定義規則的 CSV 檔。
 seo-description: 若要大量上傳機器人規則，您可上傳用於定義規則的 CSV 檔。
-seo-title: 上傳機器人規則
+seo-title: 上傳 Bot 規則
 solution: Analytics
 subtopic: 機器人規則
-title: 上傳機器人規則
+title: 上傳 Bot 規則
 topic: 管理工具
 uuid: bd70c199-5817-437e-980d-6d8f95d82f2c
 translation-type: tm+mt
-source-git-commit: 319eba8896e629214000c56ad6ef6b5774e89e1e
+source-git-commit: d0bd48684764a60b488d1e39c968ad70c743f1db
 
 ---
 
 
-# 上傳機器人規則
+# 上傳 Bot 規則
 
 若要大量上傳機器人規則，您可上傳用於定義規則的 CSV 檔。
 
 以下列順序建立CSV檔案：
 
 | 欄目 1 | 欄目 2 | 欄目 3 | 欄目 4 | 欄目 5 |
-|---|---|---|---|---|
-| 機器人名稱 | IP 開頭 | IP 結尾 | 代理符合規則<br>(`contains` 或 `starts with`) | Agent Exclude<br>(255 char limit) |
+|--- |--- |---|---|---|
+| 機器人名稱 | IP 開頭 | IP 結尾 | Agent Match Rule<br>(contains or starts with)</br> | 代理排除(<br>255個字元限制)</br> |
 
 您可以定義 3 種機器人規則:
 
