@@ -4,7 +4,7 @@ seo-title: 計算量度總計
 description: 瞭解Analytics工具中計算量度總計的差異
 seo-description: 計算度量總計的計算方式
 translation-type: tm+mt
-source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
+source-git-commit: ec3187f1548aa107f03d9abf7ceacb7a4a85abb3
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: 540e03f2e541cc5ea0a78e4402cd367241b44200
 
 在Analysis工作區中，在特定情況下，計算量度會相加以顯示總計：
 
-* [當有靜態列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) 和 **[!UICONTROL 計算總計時，會選取目前每欄]** 選項(預設)中的值。
+* 當「自由格式」表格中 [有靜態列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md) ，以及「 *[!UICONTROL 計算總計」時，會選取每個欄]* 選項(預設)中目前的值。
 * 在 [環圈圖視覺化](/help/analyze/analysis-workspace/visualizations/donut.md)中。
 * 在 [「摘要變更」視覺化](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)中。
