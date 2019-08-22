@@ -5,7 +5,7 @@ seo-title: 最佳化分析工作區效能
 title: 最佳化分析工作區效能
 uuid: de51d03d-d555-4f0 e-b19 c-4a8 f140770 fc
 translation-type: tm+mt
-source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
+source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 特定因子可以影響 Analysis Workspace 中專案的效能在開始建立專案之前先了解有哪些效能因素，讓您能夠以最有效的方式規劃及建立專案。以下列出影響效能的因素，以及將專案最佳化的最佳實踐。Analysis Workspace 的效能是 Adobe 的最高優先之一，也是我們每天致力改善的目標。
 
-## 區段邏輯複雜度
+## 區段邏輯的複雜性
 
 複雜的區段可能對專案效能造成重大影響。增加區段複雜性(以遞減順序遞減順序)的因素包括：
 
@@ -25,7 +25,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 * 多個「或」運算子 (而非「和」)
 * 範圍不同的巢狀容器(例如「訪客」內的「點擊」內)
 
-**邏輯複雜度的最佳實務**
+**邏輯複雜性的最佳做法**
 
 雖然有些複雜度因子無法避免，但您可以思考有哪些機會可降低您區段的複雜度。一般而言，區段條件越明確越好。例如:
 
@@ -39,7 +39,7 @@ source-git-commit: 79dd07d4c1033071da2b4e220cac09ad0cdef954
 
 要求的專案資料範圍將影響 Analysis Workspace 的效能。
 
-**資料範圍的最佳實務**
+**資料範圍的最佳做法**
 
 盡可能不要提取超出所需的資料。
 
@@ -95,7 +95,9 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 
 如果使用者存取不同的報告套裝，存取分析工作區或特定專案的使用者人數對Analysis Workspace效能並沒有很大的影響。如果並行使用者存取相同的報表套裝，則會影響效能。
 
-## 解決常見錯誤
+## 分析工作區中的常見錯誤訊息
+
+與分析工作區互動時可能會遇到錯誤。可能發生的錯誤有幾個，以下列出最常見的錯誤。
 
 | 錯誤訊息 | 為甚麼會發生這種情況？ |
 |---|---|
