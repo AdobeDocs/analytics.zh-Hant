@@ -29,7 +29,7 @@ source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
   </tr> 
   <tr> 
    <td colname="col2"> <p>eVar 過期 - 為何 eVars 在報表中的屬性是「無」? </p> </td> 
-   <td colname="col3"> <p> <span class="uicontrol">過期時間</span>能指定時段或事件，在發生此時段或事件後，eVar 值就會過期 (不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。如果您選取事件作為過期值，則變數在事件發生時才會過期。如果事件未發生，變數永遠不會過期。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p> <span class="uicontrol">過期時間</span>能指定時段或事件，在發生此時段或事件後，eVar 值就會過期 (不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。如果您選取事件作為過期值，則變數在事件發生時才會過期。如果事件未發生，變數永遠不會過期。<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/conversion_var_admin.html" format="https" scope="external"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>自訂事件可見性 - 為何自訂事件不會出現在報表功能表中? </p> </td> 
@@ -85,7 +85,7 @@ source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
   </tr> 
   <tr> 
    <td colname="col2"> 我可以根據自己的定義條件，變更收集的資料嗎? </td> 
-   <td colname="col3"> 使用處理規則可簡化資料收集作業，並在資料傳送至報表後管理內容。<a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> [更多...] </a> </td> 
+   <td colname="col3"> 使用處理規則可簡化資料收集作業，並在資料傳送至報表後管理內容。<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/processing_rules.html" format="https" scope="external"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> s_code 檔案的最新版本是什麼? </td> 
@@ -120,7 +120,7 @@ source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
    <td> 確定您的網站是否使用 https:// 通訊協定。如果是，則必須請求 CSR 並購買 SSL 憑證。注意: 如果您沒有任何安全的頁面或內容，則不需要 SSL 憑證。如果您的網站僅使用 https:// 通訊協定，可跳過這整個步驟。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_cert" format="http" scope="external"> [更多...] </a> </td> 
   </tr> 
   <tr> 
-   <td> 哪裡可以找到認證過期通知的相關資訊? </td> 
+   <td> 哪裡可以找到憑證過期通知的相關資訊? </td> 
    <td> SSL 憑證每年會到期一次，這表示每當到期時，Adobe 就會要求要有更新的憑證請求。FPC 專員會在到期時發出警告，但建議您主動監控到期時間，並向 Adobe 提供此更新的憑證。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/?f=fpcookies_renewals" format="http" scope="external"> [更多...] </a> </td> 
   </tr> 
   <tr> 
@@ -164,7 +164,7 @@ source-git-commit: 0143edbcbab3450f6932367f51e9e4c79bc1ae63
 | 如何實作視訊追蹤? | 您可建立相關功能，並將功能附加到視訊播放器事件的處理常式，藉此追蹤媒體撥放器。如此一來，您就可以在適當時機呼叫 Media.open、Media.play、Media.stop 和 Media.close。[更多...](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) |
 | 如何設定第一方 Cookie? | Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的 Cookie 源自 Adobe 所經營的網域，稱為第三方 Cookie。[更多...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html) |
 | 如何取得 SSL 憑證? | 確定您的網站是否使用 `https://` 通訊協定。如果是，則必須請求 CSR 並購買 SSL 憑證。注意: 如果您沒有任何安全的頁面或內容，則不需要 SSL 憑證。如果您的網站僅使用 `https://` 通訊協定，則可以跳過這整個步驟。[更多...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html) |
-| 哪裡可以找到認證過期通知的相關資訊? | SSL 憑證每年會到期一次，這表示每當到期時，Adobe 就會要求要有更新的憑證請求。FPC 專員會在到期時發出警告，但建議您主動監控到期時間，並向 Adobe 提供此更新的憑證。[更多...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) |
+| 哪裡可以找到憑證過期通知的相關資訊? | SSL 憑證每年會到期一次，這表示每當到期時，Adobe 就會要求要有更新的憑證請求。FPC 專員會在到期時發出警告，但建議您主動監控到期時間，並向 Adobe 提供此更新的憑證。[更多...](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) |
 | 什麼是外掛程式? | 「JavaScript 適用的 AppMeasurement」外掛程式是可執行數種進階功能的程式或函數。這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實作中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。若您想要使用 JavaScript 擷取資料，但不確定如何進行，請與客戶經理連絡。[更多...](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md) |
 | 如何取得資料插入 API 的相關資訊? | Adobe 提供多種將資料傳入 Analytics 的方式。[更多...](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
 | 500 錯誤是什麼? | 若需深入了解「500 查詢錯誤」狀態的內部伺服器錯誤原因，請參閱 [pageType 變數](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/page-variables.html#concept_F67870238EF74491B5D3909A33CDB985)。 |
