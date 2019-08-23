@@ -1,26 +1,26 @@
 ---
-title: 技術註解首頁
-translation-type: tm+mt
+title: 技術說明首頁
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
 
 
-# 技術註解首頁
+# 技術說明首頁
 
-本指南提供不屬於特定分析工具或元件的主題相關資訊。
+本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 
-## 重要技術註解文章
+## 重要技術說明文章
 
-* [從第三方分析平台過渡至Adobe Analytics](ga-to-aa/home.md)
+* [從第三方分析平台轉換成 Adobe Analytics](ga-to-aa/home.md)
 
-## 更多Analytics使用者指南
+## 更多 Analytics 使用手冊
 
-[Analytics使用者指引](../landing/home.md)
+[Analytics 使用手冊](../landing/home.md)
 
-## 關鍵分析資源
+## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [Analytics 論壇](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
