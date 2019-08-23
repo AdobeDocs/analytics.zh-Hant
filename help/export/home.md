@@ -3,7 +3,7 @@ title: Analytics 匯出說明
 seo-title: Analytics 匯出說明
 description: 'null'
 seo-description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ---
@@ -13,24 +13,24 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ![橫幅](../../assets/doc_banner_export.png)
 
-本指南概述從Adobe Analytics取得資料的方式。其功能包括:
+本指南概述從 Adobe Analytics 匯出資料的方式。其功能包括:
 
-* **資料饋送：** 接收原始資料的每小時或每日匯出。每一列都是個別點擊，每一欄都是變數。資料饋送通常會傳送至FTP網站。
-* **資料倉庫：** 使用請求精靈擷取資料的試算表輸出。資料倉庫使用不同的處理架構，允許任意數量的列和任意數目的唯一值。
+* **資料摘要:** 接收每小時或每日匯出的原始資料。每一列都是個別點擊，每一欄都是一個變數。資料摘要通常會傳送至 FTP 站台。
+* **Data Warehouse:** 使用請求精靈來擷取資料的試算表輸出。Data Warehouse 使用不同的處理架構，可允許任意數量的列和任意數量的唯一值。
 
-## 關鍵分析匯出文章
+## 重要 Analytics 匯出文章
 
-* [資料饋送欄參考](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
+* [資料摘要欄位參考資料](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)
 * [Data Warehouse](data-warehouse/data-warehouse.md)
-* [匯出至FTP](ftp-and-sftp/ftp-overview.md)
+* [匯出至 FTP](ftp-and-sftp/ftp-overview.md)
 
-## 更多Analytics使用者指南
+## 更多 Analytics 使用手冊
 
-[Analytics使用者指引](/help/landing/home.md)
+[Analytics 使用手冊](/help/landing/home.md)
 
-## 關鍵分析資源
+## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [Analytics 論壇](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
