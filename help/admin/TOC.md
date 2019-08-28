@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hant/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
+translation-type: tm+mt
+source-git-commit: 6a86f549e314132fc088f6c300bb61d6547498f5
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 01ac0011f2e47e6798a520df8ffe5d8393ac0c3c
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
    + 移除 Bot {#bot-removal}
+      + [移除 Bot](admin/bot-removal/bot-removal.md)
       + [Bot 規則概觀](admin/bot-removal/bot-rules.md)
       + [上傳 Bot 規則](admin/bot-removal/t-upload-bot-rules.md)
       + [建立自訂 Bot 規則](admin/bot-removal/t-create-bot-rules.md)
