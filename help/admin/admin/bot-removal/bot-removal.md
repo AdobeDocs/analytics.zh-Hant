@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中移除機器人
 description: 在Adobe Analytics中移除機器人程式的個方法
 seo-description: 在Adobe Analytics中移除機器人程式的個方法
 translation-type: tm+mt
-source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
+source-git-commit: 0e882f4908dababaf96cf225c62f7ab3bb35860e
 
 ---
 
@@ -56,4 +56,18 @@ source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 ## 步驟5：建立運用新客戶屬性的區段
 
 在處理資料集並整合至分析工作區後，請建立另一個區段，運用新的「機器人標幟」客戶屬性維度：
+
+![](assets/bot-filter-seg2.png)
+
+## 步驟6：將此區段用作虛擬報表套裝篩選器
+
+最後，您應建立一個虛擬報表套裝，利用此區段來篩選已識別的機器人程式：
+
+![](assets/bot-vrs.png)
+
+這個新分段的虛擬報表套裝現在會產生更簡潔的資料集合，並完全移除識別的機器人程式。
+
+## 步驟7：定期重復步驟2、和4
+
+設定至少每月提醒，以便在定期排程分析之前識別並篩選新機器人。
 
