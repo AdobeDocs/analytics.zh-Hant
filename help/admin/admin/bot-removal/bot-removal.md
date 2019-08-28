@@ -4,14 +4,14 @@ seo-title: 在Adobe Analytics中移除機器人
 description: 在Adobe Analytics中移除機器人程式的個方法
 seo-description: 在Adobe Analytics中移除機器人程式的個方法
 translation-type: tm+mt
-source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
+source-git-commit: e4e709c9649526b51f441f92b4602c2d0bcecf64
 
 ---
 
 
 # 在Adobe Analytics中移除機器人
 
-在Adobe Analytics中，您有個主要選項可從報表中移除機器人流量：
+在Adobe Analytics中，您有多個選項可從報表中移除機器人流量：
 
 1. Adobe Analytics中的預設機器人篩選方法是 [建立以IAB機器人清單為基礎的機器人規則](/help/admin/admin/bot-removal/bot-rules.md) 。此清單會每月更新，並從許多來源編譯其清單，包括CDN和主要網際網路屬性。它包含數以千計的已知機器人，包括所有我的最愛：Google、Bing、Mozilla等此清單涵蓋機器人篩選的絕大多數使用案例和需求。
 
@@ -25,7 +25,7 @@ source-git-commit: 3b363c6d457dbeaef443aa059d2f7de3cdccbbb2
 
 畫面抓圖
 
-以下是如何透過資料元素擷取此ID的畫面畫面。請確實將您的Adobe MCorG ID填入「資料元素」中。
+以下是如何透過資料元素擷取此ID的方法。請確實將您的Adobe eCorg ID填入「資料元素」中。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
