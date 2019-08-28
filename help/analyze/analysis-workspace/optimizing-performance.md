@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 最佳化分析工作區效能
-title: 最佳化分析工作區效能
+seo-title: Analysis Workspace 效能最佳化
+title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0 e-b19 c-4a8 f140770 fc
 translation-type: tm+mt
-source-git-commit: ffb855a53d19449c4132dda59d728d3855955d9e
+source-git-commit: 9cd6a17db45c139765bea70fa27f37526334bcd0
 
 ---
 
 
-# 最佳化分析工作區效能
+# Analysis Workspace 效能最佳化
 
 特定因子可以影響 Analysis Workspace 中專案的效能在開始建立專案之前先了解有哪些效能因素，讓您能夠以最有效的方式規劃及建立專案。以下列出影響效能的因素，以及將專案最佳化的最佳實踐。Analysis Workspace 的效能是 Adobe 的最高優先之一，也是我們每天致力改善的目標。
 
@@ -104,3 +104,6 @@ Use [date comparison options](../../analyze/analysis-workspace/components/calend
 | `The report suite is experiencing unusually heavy reporting. Please try again later.` | 您的組織嘗試對特定報表套裝執行太多並行請求。此錯誤的參與者為API請求、排程專案、排程報表、排程警報，以及建立報告請求的並行使用者。建議您將報表套裝的請求和時間表平均分配給一天。 |
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe遇到需要解決的問題。建議您透過客戶服務要求提交錯誤碼。 |
 | `The request is too complex.` | 您的報表請求太大，無法執行。此錯誤的貢獻者是由於請求大小、區段或搜尋篩選器中太多相符項目、包含太多量度、不相容維度和量度組合等逾時。建議您簡化請求。 |
+| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 建議您縮小搜尋文字准則並再次嘗試請求。 |
+| `This dimension does not currently support non-default attribution models.` | 建議您使用 [與屬性IQ相容的表格取代表格中的維度](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html)。 |
+| `Your request failed as a result of too many columns or pre-configured rows.` | 建議您移除部分欄或列，或考慮將它們分割為個別視覺化。 |
