@@ -5,7 +5,7 @@ seo-title: 命名空間
 title: 命名空間
 uuid: cab61844-3209-4980-b14 c-6859de777606
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 9362a59afb6a51bd91d8a94ae5750c4d138fc2f7
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 指定值時必須採用兩組十六進位並以破折號 (-) 區隔的數字。所有十六進位數字的字母字元，指定時必須採用大寫。十六進位數值不應以零開頭 (請注意，這與已廢止的形式不同，過去要求開頭為零)。
 
-It is also acceptable to use `“namespaceId”: 10` instead of or in addition to `“namespace”: “AAID”` and you may see some other Adobe products use that form.
+您也可以使用它， `“namespaceId”: 10` 而不是除了其他之外，您 `“namespace”: “AAID”` 可能會看見某些其他Adobe產品使用該表單。
 
 ## 舊版 Analytics 追蹤 Cookie: 已廢止的形式
 
@@ -66,7 +66,7 @@ It is also acceptable to use `“namespaceId”: 10` instead of or in addition t
 
 指定值時必須採用 38 位數十進位數字。如果您從資料饋送或資料倉庫報表的兩個mcvisid\_ high/low或post/_ minsquid\__ high/low欄提取此數字，您必須將這兩個數字的每個數字零設為19位元，然後先串連這些數字。
 
-It is also acceptable to use: `“namespaceId”: 4` instead of or in addition to `“namespace”: “ECID”` and you may see some other Adobe products use that form.
+您也可以使用： `“namespaceId”: 4` 您可能會看到 `“namespace”: “ECID”` 某些其他Adobe產品使用該表單。
 
 >[!NOTE]
 >
@@ -106,15 +106,12 @@ It is also acceptable to use: `“namespaceId”: 4` instead of or in addition t
 }
 ```
 
-對於在自訂流量或轉換變數 (prop 或 eVar) 中的 ID，您應使用 ID-DEVICE 或 ID-PERSON 標籤標記變數，然後將您自己的命名空間名稱指派至該類型 ID。請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)。
+對於自訂流量或轉換變數(prop或eVar)中的ID，請使用ID-DEVICE或ID-PERSON標籤來標示變數，然後將您自己的namespace名稱指派給該類型的ID。請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](gdpr-labels.md)。
 
 您也會看到並可重複使用先前為其他變數或報表套裝定義的命名空間，如此即可輕鬆讓儲存該類型 ID 的所有報表套裝都使用相同的命名空間。此外，您也可以指派相同的命名空間給報表套裝中的多個變數。例如，部分客戶會在流量變數和轉換變數中儲存 CRM ID (視頁面而定，有時會儲存在其中一個變數或兩者皆有)，並將「CRM ID」命名空間指派給這兩個變數。
 
->[!NOTE]
->
->在指定GDPR API的命名空間時，您無法使用變數的好記名稱(報表UI中顯示的名稱)或變數的數字(例如eVar12)，除非這也是您在套用ID-DEVICE或ID-PERSON標籤至此變數時所指定的名稱空間。在下列情況下，使用命名空間而非易記名稱，能讓同一個使用者身分識別區塊為多個報表套裝指定正確的變數:
+> [!TIP] 請避免在指定GDPR API的命名空間時(例如套用ID-DEVICE或ID-PERSON標籤時指定的namespace)，使用變數的友好名稱(報告UI中顯示的名稱)或變數的數字(例如eVar12)。使用名稱空間而非友好名稱，可讓相同的使用者識別區塊指定多個報表套裝的正確變數。例如，如果ID位於某些報表套裝中的不同eVar中，或好記名稱不符合(例如，在特定報表套裝的友好名稱已本地化時)。
 
-* 某些報表套裝中的 ID 位於不同的 eVar 中，或
-* 易記名稱不符 (例如，某特定報表套裝的方易記名稱已經過本地化)
+> [!CAUTION] 命名空間「visitorID」和「customVisitorID」會保留下來識別Analytics舊有追蹤Cookie和Analytics客戶訪客ID。請勿針對自訂流量或轉換變數使用這些名稱空間。
 
 如需詳細資訊，請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](../../admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)。
