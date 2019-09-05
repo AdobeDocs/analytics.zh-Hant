@@ -4,7 +4,7 @@ description: 內部流量外掛程式可動態識別源自內部網路的訪客�
 seo-description: 內部流量外掛程式
 seo-title: 內部流量外掛程式
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 8c2b28ee1ca2e9448b9dec99a0505d0fae525e94
 
 ---
 
@@ -30,23 +30,24 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 1. 加入您的內部網路像素：您可以在內部網路上新增任何類型的檔案，外掛程式會嘗試存取。建議使用1x透明像素。它應放在您內部網路的位置中，可從內部網路存取。
 1. 設定eVar：您必須在目的地報表套裝中新增eVar。「瀏覽」應到期並分配「原始值(第一個)」。
 1. 定義內部URL：在AppMeasurement組態變數中以及在doPlugins初始化之前，定義像素或其他檔案的內部URL變數(s. inturl)，以用於流量檢查。例如︰`s.intURL = "https://www.yourdomainhere.com/trafficCheck.gif"`
-1. Modify doPlugins and set the eVar: The plugin can then be initialized by including this line of code within the doPlugins section of your AppMeasurement library code, using the eVar defined in step one: `s.eVarXX = s.intCheck();`
-The variable value will be set to “internal” or “external”.
+1. 修改doPlugins並設定eVar：然後，您可以在AppMeasurement程式庫程式碼的doPlugins區段中，使用步驟一定義的eVar來初始化此程式碼行，初始化外掛程式： `s.eVarXX = s.intCheck();`
+變數值會設為「內部」或「外部」。
 1. 新增外掛程式原始程式碼：在AppMeasurement檔案的doPlugins區段下方，加入外掛程式代碼。
 
 ## 外掛程式原始碼
 
 將此程式碼新增至AppMeasurement程式庫的doPlugins區段下方。
 
-```s.intCheck=new Function("",""
+```JavaScript
+s.intCheck=new Function("",""
 +"var s=this;if(document.cookie.indexOf('intChk=')==-1){try{document."
 +"cookie='intChk=1';var x=new XMLHttpRequest(),y;x.open('GET',s.intUr"
 +"l,false);x.send();if(x.status===200&&x.statusText==='OK'){y='intern"
-+"al';}}catch(e){y='external'}finally{return y}}");```
++"al';}}catch(e){y='external'}finally{return y}}");
+```
 
-## Other Notes
+## 其他附註
 
-* Always test plug-in installations to ensure that data collection happens as expected before deploying them in a production environment.
-* Your implementation might be using a different object name than the default Adobe Analytics "s" object. If so, please update the object name accordingly.
-* If you employ a Tag Management System, please follow its steps to update doPlugins and the other custom plugins.
-
+* 請務必測試外掛程式安裝，以確保資料收集能如預期般發生，然後再在生產環境中部署。
+* 您的實施可能使用與預設Adobe Analytics「s」物件不同的物件名稱。若是如此，請據以更新物件名稱。
+* 如果您採用標籤管理系統，請依照其步驟更新doPlugins和其他自訂增效模組。
