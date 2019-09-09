@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中移除機器人
 description: 在Adobe Analytics中移除機器人程式的個方法
 seo-description: 在Adobe Analytics中移除機器人程式的個方法
 translation-type: tm+mt
-source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
+source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ---
 
@@ -15,7 +15,14 @@ source-git-commit: 07b18333144f992031dca5a5d8838206fa735cb5
 
 ## 使用機器人規則
 
-Adobe Analytics中的預設機器人篩選方法是 [建立以IAB機器人清單為基礎的機器人規則](/help/admin/admin/bot-removal/bot-rules.md) 。此清單會每月更新，並從許多來源編譯其清單，包括CDN和主要網際網路屬性。它包含數以千計的已知機器人，包括所有我的最愛：Google、Bing、Mozilla等此清單涵蓋機器人篩選的絕大多數使用案例和需求。
+標準和自訂機器人篩選方法均受 !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]支援：
+
+| 規則類型 | 說明 |
+|--- |--- |
+| 標準IAB機器人規則 | 選取「啓用IAB機器人篩選規則」會使用 [IAB(](https://www.iab.com/) 國際廣告局的)國際編目程式與機器人清單來移除機器人流量。大多數客戶至少選擇此選項。 |
+| 自訂機器人規則 | 您可以根據使用者代理、IP位址或IP範圍，定義並新增自訂機器人規則。 |
+
+如需詳細資訊，請參閱 [機器人規則概述](/help/admin/admin/bot-removal/bot-rules.md)。
 
 ## 使用 `hitGovernor` 實施外掛程式
 
@@ -27,11 +34,11 @@ Adobe Analytics中的預設機器人篩選方法是 [建立以IAB機器人清單
 
 ### 步驟1：將訪客的Experience Cloud ID傳遞至新宣告的ID
 
-首先，您將想要在 [「對象」核心服務中建立新的宣告ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。您需要將訪客的Experience Cloud ID傳遞至此新的宣告ID，以便使用 [Adobe Experience Platform Launch快速輕鬆地完成](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。讓我們對宣告的ID使用「ECID」名稱。
+首先，您將想要在 [People核心服務中建立新宣告的ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。您需要將訪客的Experience Cloud ID傳遞至此新的宣告ID，以便使用 [Adobe Experience Platform Launch快速輕鬆地完成](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。讓我們對宣告的ID使用「ECID」名稱。
 
-畫面抓圖
+![](assets/bot-cust-attr-setup.png)
 
-以下是如何透過資料元素擷取此ID的方法。請確實將您的Adobe eCorg ID填入「資料元素」中。
+以下是如何透過資料元素擷取此ID的方法。請確實將Experience Cloud OrgID填入「資料元素」中。
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
@@ -53,15 +60,18 @@ Adobe Analytics中的預設機器人篩選方法是 [建立以IAB機器人清單
 
 ### 步驟4：將此清單送回Adobe作為客戶屬性
 
-在資料倉庫報表送達後，您將擁有需要從歷史資料篩選的ECID清單。將這些ECID複製並貼至空白的. CSV檔案，只含兩欄、ECID和機器人標記：
+在資料倉庫報表送達後，您將擁有需要從歷史資料篩選的ECID清單。將這些ECID複製並貼至空白的. CSV檔案，只含兩欄、ECID和機器人標記。
+
+* **ECID**：請確定此欄標題符合您提供給上述新宣告ID的名稱。
+* **機器人標幟**：將此新增為「客戶屬性」結構維度。
+
+使用此. CSV檔案作為您的客戶屬性匯入檔案，然後將您的報表套裝訂閱至客戶屬性，如 [此部落格貼文](https://theblog.adobe.com/link-digital-behavior-customers)所述。
 
 ![](assets/bot-csv-4.png)
 
-確定第一欄標題符合您提供給上述新宣告ID的名稱。使用此. CSV檔案作為您的客戶屬性匯入檔案，然後將您的報表套裝訂閱至客戶屬性，如 [此部落格貼文](https://theblog.adobe.com/link-digital-behavior-customers)所述。
-
 ### 步驟5：建立運用新客戶屬性的區段
 
-在處理資料集並整合至分析工作區後，請建立另一個區段，運用新的「機器人標幟」客戶屬性維度：
+在處理資料集並整合至分析工作區後，請建立另一個區段，運用新的「機器人標幟」客戶屬性維度和 !![UICONTROL Exclude] 容器：
 
 ![](assets/bot-filter-seg2.png)
 
@@ -76,4 +86,3 @@ Adobe Analytics中的預設機器人篩選方法是 [建立以IAB機器人清單
 ### 步驟7：定期重復步驟2、和4
 
 設定至少每月提醒，以便在定期排程分析之前識別並篩選新機器人。
-
