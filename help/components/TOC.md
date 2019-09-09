@@ -3,8 +3,8 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/zh-Hant/analytics/components/home.html
-translation-type: ht
-source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
+translation-type: tm+mt
+source-git-commit: d843fc462a820f9e04bca5a2962adbf2adcf2159
 
 ---
 
@@ -77,6 +77,10 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
       + [建立虛擬報表套裝](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虛擬報表套裝](vrs/c-workflow-vrs/vrs-manage.md)
       + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
++ Cross-Device Analytics {#cda}
+   + [跨裝置分析概述](cda/cda-home.md)
+   + [設定跨裝置分析](cda/cda-setup.md)
+   + [跨裝置分析常見問答集](cda/cda-faq.md)
 + 警報 {#alerts}
    + [智慧型警報](c-alerts/intellligent-alerts.md)
    + [警報產生器](c-alerts/alert-builder.md)
