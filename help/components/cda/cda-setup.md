@@ -2,16 +2,18 @@
 title: 設定跨裝置分析
 description: 瞭解如何在您符合先決條件後設定跨裝置分析。
 translation-type: tm+mt
-source-git-commit: 1ab4c27d6635167be475b6669ff6ed1913adc455
+source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
 
 ---
 
 
 # 設定跨裝置分析
 
-> [!IMPORTANT] 必須先符合所有必要條件，才能執行這些步驟。如果所有必要條件都未符合，則無法使用此功能或無法運作。請參閱 [跨裝置分析](cda-home.md) 以瞭解先決條件和限制。
+> [!NOTE] 跨裝置Analytics文件可能會隨著進一步開發功能而變更。定期回來查看更新。
 
 完成所有必要條件後，請使用下列步驟啓用跨裝置分析。您必須屬於產品設定檔管理員群組或Adobe Analytics中的管理員權限才能遵循這些步驟。
+
+> [!IMPORTANT] 必須先符合所有必要條件，才能執行這些步驟。如果所有必要條件都未符合，則無法使用此功能或無法運作。請參閱 [跨裝置分析](cda-home.md) 以瞭解先決條件和限制。
 
 ## 選擇將針對CDA啓用的跨裝置報告套裝
 
