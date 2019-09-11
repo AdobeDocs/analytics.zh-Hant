@@ -4,7 +4,7 @@ seo-title: 在Adobe Analytics中移除機器人
 description: 在Adobe Analytics中移除機器人程式的個方法
 seo-description: 在Adobe Analytics中移除機器人程式的個方法
 translation-type: tm+mt
-source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
+source-git-commit: 711d58d139abcff344e43e1484f0ba2f2d3407cf
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 53b1559c7596fae7bc36bb7337967a71d9fc22e2
 
 ## 使用機器人規則
 
-標準和自訂機器人篩選方法均受 !![UICONTROL Analytics > Admin > Report Suites > Edit Settings > General > Bot Rules]支援：
+標準和自訂機器人篩選方法在 **[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 機器人規則]**」中支援：
 
 | 規則類型 | 說明 |
 |--- |--- |
