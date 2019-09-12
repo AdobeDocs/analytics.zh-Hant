@@ -7,7 +7,7 @@ title: 建立循序區段
 topic: 區段
 uuid: 7fb9f1c7-a738-416a-alta2-d77 e40 fa7 e61
 translation-type: tm+mt
-source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
+source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 | 如果結果… | 序列 |
 |--- |--- |
-| 符合 | A then B<br>A then (in a different visit) B<br>A then D then B |
+| 符合 | A接著BA<br>(在另一次瀏覽中) BA<br>接著B接著B |
 | 不符合 | B 然後 A |
 
 ## 「僅限序列之前」與「僅限序列之後」 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
@@ -73,7 +73,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 | 如果結果… | 序列 |
 |--- |--- |
 | 符合 | A 然後 B |
-| 不符合 | A then C then B (because B was not within 1 page of A)<br>**Note:**  If the dimension restriction is taken out, "A then B" and "A then C then B" would both match. |
+| 不符合 | A接著C(因為B不在A的頁面內)<br>**注意：** 如果維度限制已取出，則「A然後B」和「A然後B」都符合。 |
 
 ## 簡單頁面檢視序列
 
@@ -185,7 +185,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點]也能包含在 [邏輯群組中](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
 
-## 查核點之間排除
+### 查核點之間排除
 
 當另兩個查核點之間未明確發生查核點時，強制對區段訪客執行邏輯。
 
@@ -204,7 +204,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 ![](assets/exclude_between_checkpoints.png)
 
-## 在序列開頭處排除
+### 在序列開頭處排除
 
 如果排除查核點位於循序區段的開頭，則可確保排除的頁面檢視不會發生在第一個非排除的點擊之前。
 
@@ -223,7 +223,7 @@ source-git-commit: b21f741216af8edc631cc271618f638d46a16a96
 
 ![](assets/exclude_beginning_sequence.png)
 
-## 在序列結尾處排除
+### 在序列結尾處排除
 
 如果排除查核點位於序列結尾，則可確保最後一個非排除查核點與訪客序列結尾之間不會出現此查核點。
 
@@ -244,7 +244,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 邏輯群組容器
 
-在循序劃分中，嚴格要求容器需依照[容器階層](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551)排序。[!UICONTROL 邏輯群組]容器的適用時機為循序區段中需要較高層級容器，用以進一步篩選訪客、提供複雜的巢狀訪客層級限制以精簡區段時。
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL 邏輯群組] 容器的設計是將 *數個查核點視為群組*， *而不在分組的查核點* 之間進行任何順序。換言之，我們不在乎該群組內的查核點順序。例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 | 標準容器階層 |
 |---|
@@ -255,16 +255,14 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 >
 >[!UICONTROL 邏輯群組] 只能在循序區段中定義，表示 [!UICONTROL 在運算式中使用THEN] 運算子。
 
-[!UICONTROL 邏輯群組]容器會將數個查核點視為無順序的群組。例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。反之，您可以在具有特定[!UICONTROL 瀏覽]和[!UICONTROL 點擊]層級查核點的[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 邏輯群組]容器。
-
 | 邏輯容器非標準階層 |
 |---|
 | ![](assets/logic_group_hierarchy.png) |
 | [!UICONTROL 邏輯群組]容器外部也要求標準容器階層。但在[!UICONTROL 邏輯群組]容器中，查核點不要求既定的順序或階層 — 這些查核點只要求符合一定順序的訪客。 |
 
-## Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
+### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
-Like other containers, the [!UICONTROL Logic Group] containers can be built in multiple ways within the [!UICONTROL Segment Builder]. 以下是巢狀內嵌[!UICONTROL 邏輯群組]容器的建議方式:
+與其他容器一樣， [!UICONTROL 邏輯群組] 容器可透過 [!UICONTROL 「區段產生器]」以多種方式建立。以下是巢狀內嵌[!UICONTROL 邏輯群組]容器的建議方式:
 
 1. 從左側窗格拖曳維度、事件或區段。
 1. 變更頂層容器為[!UICONTROL 訪客]容器。
@@ -273,7 +271,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 1. Click the container icon and select **[!UICONTROL Logic Group]**.  ![](assets/logic_group_checkpoints.png)
 1. 您現在可以在[!UICONTROL 邏輯群組]容器中設定點擊，而不考慮[!UICONTROL 階層]。
 
-## 邏輯群組查核點
+### 邏輯群組查核點
 
 使用[!UICONTROL 邏輯群組]可讓您在不依照順序的群組中符合條件。This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
 
@@ -285,7 +283,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_group_any_order2.png)
 
-## 邏輯群組第一個相符
+### 邏輯群組第一個相符
 
 使用[!UICONTROL 邏輯群組]可讓您在不依照順序的群組中符合條件。在這個無順序的第一個相符區段中，[!UICONTROL 邏輯群組]規則識別先檢視頁面 B 或頁面 C，接著必須檢視頁面 A。
 
@@ -297,7 +295,7 @@ Like other containers, the [!UICONTROL Logic Group] containers can be built in m
 
 ![](assets/logic_group_1st_match.png)
 
-## 邏輯群組排除AND
+### 邏輯群組排除AND
 
 Build segments using the [!UICONTROL Logic Group] where multiple page views are aggregated to define what pages were necessary to be hit while other pages were specifically missed. ****
 
@@ -311,7 +309,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 ![](assets/logic_exclude_and.png)
 
-## 邏輯群組排除OR
+### 邏輯群組排除OR
 
 使用[!UICONTROL 邏輯群組]建立區段，其中總和多個頁面檢視來定義哪些頁面必須點擊，並明確遺漏其他頁面。
 
@@ -335,7 +333,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器並指定精細度和計數，將符合限制至指定的持續時間。[!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。[!UICONTROL After] 運算子用來指定兩個查核點之間時間量的下限。
 
-## After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持續時間的指定方式是使用代表精細度的單一大寫字母，後接代表精細度重複計數的數字。
 
@@ -349,7 +347,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 | WITHIN | Within 運算子用來指定兩個查核點之間時間量的上限。例如，如果在容器上設定Within運算子來識別瀏覽頁面A接著在一天內返回瀏覽頁面B的訪客，則該日期將在訪客離開頁面A時開始。若要加入區段，訪客將擁有一天的最大時間，在開啓頁面B之前。對於要包含在區段中的訪客，瀏覽頁面B必須在離開頁面A至檢視頁面B後至少發生1440分鐘(一天)。 |
 | AFTER/WITHIN | 同時使用 After 和 Within 運算子時，請務必了解兩個運算子是並行開始和結束，而非連續操作。For example, if you build a segment with the container set to:<br>`After = 1 Week(s) and Within = 2 Week(s)`<br>Then the conditions to identify visitors in the segment are met only between 1 and 2 weeks. 兩個條件都從第一個頁面點擊開始執行。 |
 
-## 使用After運算子
+### 使用After運算子
 
 * 「之後時間」可讓您根據年、月、日、小時和分鐘來比對瀏覽，進行追蹤。
 * 「之後時間」只能套用至[!UICONTROL 「點擊」]容器，因為這是可定義此種精細度的唯一層級。
@@ -371,7 +369,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 | **A** 點擊: 2019 年 6 月 1 日 00:01 | **B** 點擊: 2019 年 6 月 15 日 00:01 | **符合：** 此時間限制符合，因為是在2019年月日之後(兩周)。 |
 | **A** 點擊: 2019 年 6 月 1 日 00:01 | **B** 點擊：20：00：01B點擊：20：0100：01 | **不符合：** 第一次點擊頁面B不符合，因為它與需要兩周後的限制衝突。 |
 
-## 使用Within運算子
+### 使用Within運算子
 
 * [!UICONTROL Within] 可讓您根據年、月、日、小時和分鐘來比對瀏覽，進行追蹤。
 * [!UICONTROL Within] 只能套用至[!UICONTROL 「點擊」]容器，因為這是可定義此種精細度的唯一層級。
@@ -392,7 +390,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 必須發生在時間限制內才符合。對於運算式 ，如果訪客點擊頁面 A 發生在 00:01，則後續點擊頁面 B 只要發生在 00:06 時或之前 (5 分鐘後，包括 00:06) 便符合。在該分鐘時點擊也符合。
 
-## Within和After運算子
+### Within和After運算子
 
 使用 [!UICONTROL Within] 和 [!UICONTROL After] 可提供區段兩端的最大和最小端點。
 
