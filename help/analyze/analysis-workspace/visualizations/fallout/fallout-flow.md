@@ -5,7 +5,7 @@ seo-title: 流失概觀
 title: 流失概觀
 uuid: 2d98899e-e401-4d7 a-8af0-de0002 f84178
 translation-type: tm+mt
-source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
+source-git-commit: 6abfb9ae80b827695e717b810b58d7531de0bfec
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: e3886b4fda34771c18481eace8facb9bbbc4df70
 
 如果您接著在 Workspace 面板層級套用區段，區段會像這樣與流失結合: 
 
-![](assets/fallout_segments2.png)
+![](assets/fallout_seg.png)
 
 相較之下，在 Reports &amp; Analytics 和 Ad Hoc Analysis 計算區段時，會以此方式結合區段:
 
