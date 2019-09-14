@@ -7,7 +7,7 @@ title: 建立循序區段
 topic: 區段
 uuid: 7fb9f1c7-a738-416a-alta2-d77 e40 fa7 e61
 translation-type: tm+mt
-source-git-commit: 22aec2a6e8e0c0aa3e0a404a7cb0bc44a392a1a9
+source-git-commit: fe1ded2ff3226ca5f5243225d351b51315b92dae
 
 ---
 
@@ -244,7 +244,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 邏輯群組容器
 
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). [!UICONTROL 邏輯群組] 容器的設計是將 *數個查核點視為群組*， *而不在分組的查核點* 之間進行任何順序。換言之，我們不在乎該群組內的查核點順序。例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). 相反地 [!UICONTROL ，邏輯群組] 容器的設計是將 *數個查核點視為群組*， *而不在分組的查核點* 之間進行任何順序。換言之，我們不在乎該群組內的查核點順序。例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 | 標準容器階層 |
 |---|
@@ -253,7 +253,7 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 >[!NOTE]
 >
->[!UICONTROL 邏輯群組] 只能在循序區段中定義，表示 [!UICONTROL 在運算式中使用THEN] 運算子。
+>A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
 
 | 邏輯容器非標準階層 |
 |---|
@@ -273,7 +273,7 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 ### 邏輯群組查核點
 
-使用[!UICONTROL 邏輯群組]可讓您在不依照順序的群組中符合條件。This allows you to build segments where a [!UICONTROL Visit] or [!UICONTROL Hit] container happens irrespective of the normal hierarchy.****
+使用[!UICONTROL 邏輯群組]可讓您在不依照順序的群組中符合條件。這可讓您建立區段，其中[!UICONTROL 瀏覽]或[!UICONTROL 點擊]容器的發生不考慮正常階層。
 
 **範例**：瀏覽頁面A的訪客，接著以任何順序瀏覽頁面B和頁面C。
 
