@@ -7,7 +7,7 @@ title: 建立循序區段
 topic: 區段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 65cec8161c09af296169c46ecc987aa6ef55272a
+source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
 
 ---
 
@@ -244,9 +244,8 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 
 ## 邏輯群組容器
 
-邏輯群組容器必須將條件群組至單一循序區段查核點。 非循序容器（點擊、瀏覽、訪客）不需要在整個序列中符合其條件，如果在THEN運算子旁使用，會產生不直覺的結果。 特殊邏輯群組容器僅適用於循序分段，以確保其條件在任何先前的循序查核點之後，以及任何後續的循序查核點之前皆符合。 邏輯群組查核點本身內的條件可依任何順序符合。
-
-Within sequential segmentation, it is required that containers are ordered strictly within the [container hierarchy](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551). 相反，邏輯群 [!UICONTROL 組容器的設計是將數個查核點] 視為群組 *，而不會*&#x200B;在群組查核點間排序 ** 。 換句話說，我們不在乎該群組內的查核點順序。 例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
+邏輯群組容器必須將條件群組至單一循序區段查核點。 特殊邏輯群組容器僅適用於循序分段，以確保其條件在任何先前的循序查核點之後，以及任何後續的循序查核點之前皆符合。 邏輯群組查核點本身內的條件可依任何順序符合。 相反地，非循序容器（點擊、瀏覽、訪客）不需要在整個序列中符合其條件，如果與THEN運算子搭配使用，會產生不直覺的結果。
+邏輯 [!UICONTROL 群組容器] (Logic Group *container)可將數個查核點*&#x200B;視為群組 *,* 而不需在群組查核點間排序。 換句話說，我們不在乎該群組內的查核點順序。 例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
 >[!NOTE]
 >
@@ -256,6 +255,19 @@ Within sequential segmentation, it is required that containers are ordered stric
 |---|---|---|
 | 標準容器階層 | ![](assets/nesting_container.png) | 在[!UICONTROL 訪客]容器中，[!UICONTROL 造訪]和[!UICONTROL 點擊]容器會依序巢狀，以根據點擊、造訪次數和訪客來擷取區段。 |
 | 邏輯容器階層 | ![](assets/logic_group_hierarchy.png) | [!UICONTROL 邏輯群組]容器外部也要求標準容器階層。但在[!UICONTROL 邏輯群組]容器中，查核點不要求既定的順序或階層 — 這些查核點只要求符合一定順序的訪客。 |
+
+邏輯組似乎令人望而卻步——以下是一些使用邏輯組的最佳實踐：
+
+**邏輯群組或點擊／瀏覽容器？**
+如果您要將循序查核點分組，則您的「容器」是邏輯群組。 不過，如果這些循序查核點必須發生在單一點擊或瀏覽範圍內，則需要「點擊」或「瀏覽」容器。 （當然，「點擊」對於一組循序查核點來說並沒有意義，因為一次點擊可能只佔一個查核點）。
+
+**邏輯群組是否簡化建立循序區段？**
+是的，他們可以。 假設您正在嘗試回答這個問題：訪客在頁面A後看到頁面B、C或D嗎？ 您可以建立此區段，而不需使用邏輯群組容器，但是它既複雜又費力：訪客容 [器頁面A接著頁面B接著頁面C接著頁面D] 或訪客容器頁 [面A接著頁面B接著頁面D接著頁面C] 或訪客容器 [頁面A接著頁面C接著頁面B接著頁面Bd] 或訪客容 [][][器頁面A接著頁面C接著訪客頁面B或頁面D接著訪客容器A THEN AD Page D B THEN PAGE C Then Visitor Container d接著頁面D Visitor Page B B B，接著頁面D頁面B]
+
+邏輯群組容器可大幅簡化區段，如下所示：
+
+![](assets/logic-grp-example.png)
+
 
 ### Build a Logic Group segment {#section_A5DDC96E72194668AA91BBD89E575D2E}
 
@@ -276,9 +288,15 @@ Within sequential segmentation, it is required that containers are ordered stric
 
 **建立此區段**
 
-頁面 B 和 C 會巢狀內嵌於外層「[!UICONTROL 訪客]」容器內的「[!UICONTROL 邏輯群組]」容器中。A 的「[!UICONTROL 點擊]」容器後面接著含 B 和 C (以 [!UICONTROL AND] 運算子相連) 的「[!UICONTROL 邏輯群組]」容器。因為是在[!UICONTROL 邏輯群組]中，因此未定義序列，點擊頁面 B 或 C 都讓引數為 True。
+頁面 B 和 C 會巢狀內嵌於外層「[!UICONTROL 訪客]」容器內的「[!UICONTROL 邏輯群組]」容器中。A 的「[!UICONTROL 點擊]」容器後面接著含 B 和 C (以 [!UICONTROL AND] 運算子相連) 的「[!UICONTROL 邏輯群組]」容器。Because it is in the [!UICONTROL Logic Group], the sequence is not defined and hitting both page B and C in any order makes the argument true.
 
 ![](assets/logic_group_any_order2.png)
+
+**另一個例子**:瀏覽頁面B或頁面C接著瀏覽頁面A的訪客：
+
+![](assets/logic_group_any_order3.png)
+
+區段至少必須符合邏輯群組的查核點（B或C）。 此外，邏輯群組條件可在相同點擊或跨多個點擊中符合&#x200B;。
 
 ### 邏輯群組首次符合
 
