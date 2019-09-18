@@ -1,18 +1,18 @@
 ---
 description: 顯示存取您的網站的獨特訪客人數。每位訪客會被記錄一次，不論此人瀏覽網站多少次。
 seo-description: 顯示存取您的網站的獨特訪客人數。每位訪客會被記錄一次，不論此人瀏覽網站多少次。
-seo-title: 獨特訪客
+seo-title: 不重複訪客
 solution: Analytics
-title: 獨特訪客
+title: 不重複訪客
 topic: 報表
-uuid: e70e1a14-b3 b9-4d1 a-a8 a5 a5-a247 a452
+uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# 獨特訪客
+# 不重複訪客
 
 顯示存取您的網站的獨特訪客人數。每位訪客會被記錄一次，不論此人瀏覽網站多少次。
 
@@ -59,13 +59,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 獨特訪客報告 - 趨勢量度 {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL 獨特訪客] 報告在臨機分析中的行為類似。對於產生瀏覽的每次點擊，都會計入該次點擊的訪客。每個頁面都會因為有該訪客在頁面上而獲得評分。
+[!UICONTROL 「獨特訪客] 」報表在臨機分析中的行為類似。 對於產生瀏覽的每次點擊，都會計入該次點擊的訪客。每個頁面都會因為有該訪客在頁面上而獲得評分。
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 頁面 </th> 
-   <th colname="col2" class="entry"> 獨特訪客 </th> 
+   <th colname="col2" class="entry"> 不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -102,7 +102,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 獨特訪客 </th> 
+   <th colname="col2" class="entry"> 不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -129,7 +129,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-** [!UICONTROL 獨特訪客報表]劃分依據 *`Page`*.**
+**[!UICONTROL 獨特訪客報表]劃分依據&#x200B;*`Page`*.**
 
 您可以為[!UICONTROL 獨特訪客報告]選取頁面。在下列報告中，訪客於下列日期瀏覽頁面 A:
 
@@ -137,7 +137,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 獨特訪客 </th> 
+   <th colname="col2" class="entry"> 不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -174,7 +174,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 每週獨特訪客 </th> 
+   <th colname="col2" class="entry"> 每週不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -207,7 +207,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 每日獨特訪客 </th> 
+   <th colname="col2" class="entry"> 每日不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -240,7 +240,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 每週獨特訪客 </th> 
+   <th colname="col2" class="entry"> 每週不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -263,7 +263,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以透過區段來變更日期範圍，以納入較晚的日期，而非較早的日期。例如，假設日期範圍仍是 1 月 2 日到 1 月 3 日 (如上表所示)。若您套用「頁面 = C」的區段，則 1 月 2 日將不在此區段中，「每週獨特訪客」的第一次點擊會發生在 1 月 3 日。若您改為套用「頁面 = D」的區段，則 1 月 2 日與 1 月 3 日都將被排除。「每週獨特訪客」不會有任何顯示結果，且將排除在總計外。
 
-**以時段為基礎的獨特訪客報告**
+**以時段為基礎的獨特訪客報表**
 
 這些報告會使用特定頁面、prop 與屬性 (範例: 頁面 = A)。
 
@@ -275,7 +275,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 每週獨特訪客 </th> 
+   <th colname="col2" class="entry"> 每週不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -420,7 +420,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </tbody> 
 </table>
 
-若要依某個屬性來劃分另一個屬性 (例如&#x200B;*`page`* ) *`eVar`*。
+若要依某個屬性來劃分另一個屬性 (例如 *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
 
 若您依 eVar T、U 來劃分「頁面 A」，則會排除 1 月 2 日，因為「頁面 A」是在 1 月 1 日檢視的。針對「每週獨特訪客」會顯示下列結果:
 
@@ -428,7 +428,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> eVar </th> 
-   <th colname="col2" class="entry"> 每週獨特訪客 </th> 
+   <th colname="col2" class="entry"> 每週不重複訪客 </th> 
   </tr> 
  </thead>
  <tbody> 
