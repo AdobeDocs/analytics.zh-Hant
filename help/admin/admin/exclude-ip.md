@@ -5,9 +5,9 @@ seo-title: 依 IP 位址排除
 solution: Analytics
 title: 依 IP 位址排除
 topic: 管理工具
-uuid: 1ed6105f-e7 c5-4c4 f-b8 f4-e5 f66 d0824 bb
+uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a26902b3f513f896fc8ba08a8464d7abce9418ca
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 依IP排除」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;依IP **[!UICONTROL 排除]**
 
 >[!NOTE]
 >
->Hits marked as *bots* are billed as [server calls](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html).
+>IP位址排除的點擊會計為伺服 [器呼叫](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)。
 
 ## 依 Cookie 排除 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -34,7 +34,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 >[!NOTE]
 >
->只有在下列情況下，電腦才會排除：
+>除非符合下列條件，否則電腦排除才有效：
 >
 >* 從同一工作站進入網站。
 >* 使用的瀏覽器啟用了 cookie。
