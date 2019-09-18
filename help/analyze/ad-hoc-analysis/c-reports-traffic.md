@@ -1,22 +1,22 @@
 ---
 description: 流量來源報表能讓您深入瞭解訪客與您網站的互動。
 seo-description: 流量來源報表能讓您深入瞭解訪客與您網站的互動。
-seo-title: 流量來源報告
+seo-title: 流量來源報表
 solution: Analytics
-title: 流量來源報告
+title: 流量來源報表
 topic: Ad Hoc Analysis
-uuid: 246afbdc-9f7b-4956-a44 a-b7 aad948 f392
+uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# 流量來源報告
+# 流量來源報表
 
 流量來源報表能讓您深入瞭解訪客與您網站的互動。
 
-## Traffic Sources reports {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
+## 流量來源報表 {#concept_0F1772141E1345C5BCF63BE7C544C0CB}
 
 流量來源報表能讓您深入瞭解訪客與您網站的互動。
 
@@ -41,11 +41,11 @@ c_reports_search_keyword.xml
 
  -->
 
-** [!UICONTROL Search Keywords - All] **: Displays a breakdown of each search keyword that has been used to find your site. 您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
+**[!UICONTROL 搜尋關鍵字 - 全部]**: 顯示用於尋找您網站的每個搜尋關鍵字的劃分資訊。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
 
-** [!UICONTROL Search Keywords - Paid] **: Displays a breakdown of each paid search keyword that is used to find your site. 您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
+**[!UICONTROL 搜尋關鍵字 - 付費]**: 顯示用於尋找您網站的每個付費搜尋關鍵字的劃分資訊。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
 
-** [!UICONTROL Search Keywords - Natural] **: Displays a breakdown of each natural search keyword that is used to find your site. 您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
+**[!UICONTROL 搜尋關鍵字 - 免費]**: 顯示用於尋找您網站的每個免費搜尋關鍵字的劃分資訊。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
 
 ## 搜尋引擎 {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -57,11 +57,11 @@ c_reports_search_engines.xml
 
  -->
 
-** [!UICONTROL Search Engines - All] **: Displays which search engines that people are using to find your web page. 圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
+**[!UICONTROL 搜尋引擎 - 所有]**: 顯示訪客使用哪些搜尋引擎找到您的網頁。圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
 
-** [!UICONTROL Search Engines - Paid] **: Displays which paid-keyword search engines that people are using to find your web page. 圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
+**[!UICONTROL 搜尋引擎 - 付費]**: 顯示訪客使用哪些付費關鍵字搜尋引擎找到您的網頁。圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
 
-** [!UICONTROL Search Engines - Natural] **: Displays which natural-keyword search engines people are using to find your web page. 圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
+**[!UICONTROL 搜尋引擎 - 免費]**: 顯示訪客使用哪些免費關鍵字搜尋引擎找到您的網頁。圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
 
 ## 反向連結網域 {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -130,9 +130,9 @@ c_reports_ref_types.xml
 
 **網站內**: 這些項目是指被內部 URL 篩選器加上標記的 URL。這些項目不會計為反向連結例項，但可在報告其他量度時顯示。
 
-**無Java Script**：沒有JavaScript，因此無法識別類型(未知)。這表示瀏覽器上的用戶端未提供反向連結資訊，因而未回報可支援 Javascript。這些項目不會計為「反向連結例項」，但可在報告其他度量時顯示。
+**無Java Script**:沒有JavaScript，因此類型無法識別（未知）。 這表示瀏覽器上的用戶端未提供反向連結資訊，因而未回報可支援 Javascript。這些項目不會計為「反向連結例項」，但可在報告其他度量時顯示。
 
-**USENET (新聞群組)**: 這表示反向連結的 URL 是以 [!DNL news://] :// 開頭的。因此，反向連結被發佈在 Usenet 新聞群組上，而不是網頁上。
+**USENET (新聞群組)**: 這表示反向連結的 URL 是以 `news://` :// 開頭的。因此，反向連結被發佈在 Usenet 新聞群組上，而不是網頁上。
 
 >[!NOTE]
 >
