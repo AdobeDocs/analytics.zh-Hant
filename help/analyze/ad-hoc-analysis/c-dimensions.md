@@ -5,9 +5,9 @@ seo-title: 維度
 solution: Analytics
 title: 維度
 topic: Ad Hoc Analysis
-uuid: a843d3ae-093b-438e-89a9-73312a ea6f2
+uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 監視器解析度
 * 自訂 eVar 和 s.prop 值
 
-** [!UICONTROL 維度窗格**]
+**[!UICONTROL 維度窗格]**
 
 [!UICONTROL 「維度」]窗格會列出並分組您 Marketing Reports &amp; Analytics 中的所有產品維度。可將任何維度項目做為報表的基礎。您可以用任何維度劃分其他度量，分析和比較幾乎任何項目。
 
@@ -36,7 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以根據下列類別來排序維度:
 
-| 維度類別 | 說明 |
+| 維類別 | 說明 |
 |--- |--- |
 | 流量 | 包括瀏覽器項目、目標促銷活動、地理、自訂連結、自訂流量屬性、網域、下載、反向連結、反向連結網域等。 |
 | 轉換 | 包括促銷活動、類別、自訂 eVar、產品、追蹤代碼等。 |
