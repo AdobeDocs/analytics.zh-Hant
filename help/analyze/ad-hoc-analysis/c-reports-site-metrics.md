@@ -5,9 +5,9 @@ seo-title: 網站度量報表
 solution: Analytics
 title: 網站度量報表
 topic: Ad Hoc Analysis
-uuid: 0730747a-216f-4a58-b62 b-a9812968 cde5
+uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 顯示您網站的相關數量資訊，如特定網頁的訪客瀏覽次數、特定網頁中的購買總次數、訪客的來歷，以及類似量化資料。每一個這纇報表都是一個度量，您可放置於其他項目型報表中。
 
-## Site Metrics reports {#concept_0639CA16551749A693F49ADED4842CCE}
+## 網站度量報表 {#concept_0639CA16551749A693F49ADED4842CCE}
 
 顯示您網站的相關數量資訊，如特定網頁的訪客瀏覽次數、特定網頁中的購買總次數、訪客的來歷，以及類似量化資料。每一個這纇報表都是一個度量，您可放置於其他項目型報表中。
 
@@ -92,7 +92,7 @@ c_reports_time_spent_per_visit.xml
 
 ## 購買報告 {#concept_E3B9AF43CCD24F25A85D05DFB51C4740}
 
-顯示「收入」、「訂購」和「件數」的摘要資料。You can also view the [!DNL Purchase Conversion Funnel] report.
+顯示「收入」、「訂購」和「件數」的摘要資料。您也可以檢視報 [!DNL Purchase Conversion Funnel] 表。
 
 <!-- 
 
@@ -103,7 +103,7 @@ c_reports_purchases.xml
 * **收入**: 可讓您檢視選定時段的毛利。例如，三月份的收入、上週購買次數，或今日收入。
 * **訂購**: 顯示特定時段內的網站訂購次數。訂購中可存在多個產品。
 * **件數**: 顯示特定時段內訂購的總件數。
-* **購買轉換漏斗**：最適合顯示網站上的轉換事件(如在零售設定中發生)。漏斗報表可以顯示轉換程序每個步驟以及訂購、收入和件數的轉換度量。
+* **購買轉換漏斗**:最適合在網站上顯示特定訂單（例如零售設定）的轉換事件。 漏斗報表可以顯示轉換程序每個步驟以及訂購、收入和件數的轉換度量。
 
 ## 購物車報告 {#concept_6AEC5A6C707B46B790C1A79E72F9A339}
 
@@ -162,8 +162,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-** [!UICONTROL First or Last Touch Channel Report] **: Displays metrics showing data about a specific first-touch or last-touch channel. 在這些報表中，您可以劃分渠道並顯示每個渠道的詳情。如果您已啟用 AdLens，則會在 Marketing Reports &amp; Analytics 渠道報表中看到分類。
+**[!UICONTROL 首次和上次接觸管道報表]**: 顯示度量，用以展示特定的首次接觸或上次接觸管道之相關資料。在這些報表中，您可以劃分渠道並顯示每個渠道的詳情。如果您已啟用 AdLens，則會在 Marketing Reports &amp; Analytics 渠道報表中看到分類。
 
-** [!UICONTROL First or Last Touch Channel Detail Reports] **: Displays details such as page names and referrers, which is taken from the channel values you set up in the [!UICONTROL Set the channel's value to] option when configuring rules. 渠道詳情報表使您能夠從概述報表中更詳細地瞭解渠道詳細值。
+**[!UICONTROL 首次和上次接觸管道報表]**: 顯示諸如頁面名稱和反向連結之類的詳情，這些資訊來自於您在「設定規則時將管道值設定為選項」中設定的管道值。渠道詳情報表使您能夠從概述報表中更詳細地瞭解渠道詳細值。
 
 如需在行銷報告與分析中設定行銷渠道的更深入資訊，請參閱[行銷渠道說明](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)系統。
