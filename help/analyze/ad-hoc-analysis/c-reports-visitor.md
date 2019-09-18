@@ -1,22 +1,22 @@
 ---
-description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等資訊。
-seo-description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等資訊。
-seo-title: 訪客報告
+description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特徵等。
+seo-description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特徵等。
+seo-title: 訪客報表
 solution: Analytics
-title: 訪客報告
+title: 訪客報表
 topic: Ad Hoc Analysis
-uuid: 3e9b41d1-d6 ff-47a8-aa6 b-829df1040 c34
+uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
 
 ---
 
 
-# 訪客報告
+# 訪客報表
 
-顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等資訊。
+顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特徵等。
 
-## 回訪頻率 {#concept_447A99B71E484D27A7A02888CC51FD3D}
+## 回訪頻度 {#concept_447A99B71E484D27A7A02888CC51FD3D}
 
 顯示回訪客戶再次造訪與初次造訪之間相隔的時間長度，以及歸入各時間長度類別的造訪次數。使用報告可以查看回頭訪客未瀏覽您網站的平均時間，以及回頭客戶的趨勢。
 
@@ -44,7 +44,7 @@ c_reports_return_freq.xml
 * 14 天至 1 個月
 * 長於 1 個月
 
-## 造訪次數 {#concept_BBB614072FD74379B1A8520ACB75AE9A}
+## 訪問次數 {#concept_BBB614072FD74379B1A8520ACB75AE9A}
 
 顯示哪種客戶訪問次數對您網站的成功度量影響最大。首次瀏覽您網站的訪客計入「訪問次數 1」行項目；返回網站進行第二次瀏覽的訪客計入「訪問次數 2」行項目，依此類推。
 
@@ -65,7 +65,7 @@ c_reports_visit_number.xml
 
 >[!NOTE]
 >
->如果相同訪客在相同時段內瀏覽您的網站多次，則每次瀏覽的指定瀏覽次數都會增加。
+>如果同一位訪客在同一時段內瀏覽您的網站多次，則每次瀏覽的每個指定瀏覽次數都會增加。
 
 此報表是根據透過訪客每一次點擊，傳遞給 Adobe 的訪客 ID 資料而建立。收到這些資料時，Adobe 會與歷史訪客 ID 資料進行比較，判斷這次點擊是否為:
 
@@ -75,7 +75,7 @@ c_reports_visit_number.xml
 
 >[!NOTE]
 >
->每個Analytics訪客ID都與Adobe伺服器上的訪客描述檔相關聯。無論訪客 ID Cookie 過期與否，訪客閒置最少 13 個月就會刪除其訪客資料。
+>每個 Analytics 訪客 ID 都與 Adobe 伺服器上的訪客資料相關聯。無論訪客 ID Cookie 過期與否，訪客閒置最少 13 個月就會刪除其訪客資料。
 
 ## 客戶忠誠度 {#concept_991F758BAA304B7B9D48BD73BBB62FE5}
 
@@ -96,7 +96,7 @@ c_reports_customerloyalty.xml
 
 >[!NOTE]
 >
->使用這些量度時，所有使用者存取(或所有訪客)都會呈現在此報表中，無論瀏覽(或訪客)是否包含購買。
+>使用這些度量時，無論「瀏覽」（或「訪客」）是否包含購買，都會在此報表中呈現所有使用者瀏覽（或所有訪客）。
 
 進行購買事件的瀏覽結束後，會變更忠誠度狀態。例如，新客戶 (購買 1 次) 進行購買，然後在完成購買後、同一次瀏覽裡，進行註冊電子報，則該電子報註冊事件仍視為「新客戶」互動，因為訪客的客戶忠誠度狀態將於下次造訪時變更。
 
@@ -110,13 +110,13 @@ c_reports_visitor_profile.xml
 
  -->
 
-** [!UICONTROL Languages] **: Displays your visitors’ preferred languages, captures the default browser language, and displays the languages that visitors use most often on your site.
+**[!UICONTROL 語言]**: 顯示訪客的慣用語言，擷取預設瀏覽器語言，顯示網站訪客使用最頻繁的語言。
 
-** [!UICONTROL Domains] **: Lists the organizations and ISPs your visitors use to access your site. 此報告與「[!UICONTROL 完整網域]」報告不同的是，「完整網域」報告記錄完整的 ISP 網域，而此報告僅列示二級網域。
+**[!UICONTROL 網域]**: 列出訪客用來存取您的網站的的組織和 ISP。此報告與「[!UICONTROL 完整網域]」報告不同的是，「完整網域」報告記錄完整的 ISP 網域，而此報告僅列示二級網域。
 
-** [!UICONTROL Top Level Domains] **: Identifies world regions that visitors come from based on their originating domain extension, and shows how many visitors come from these countries. 以 .com (商務)、.net (網路)、.edu (教育)、.gov (政府) 和 .org (機構) 結尾的網域通常位於美國，並與其他網域分開列出。
+**[!UICONTROL 頂級網域]**: 依據原始網域的副檔名識別訪客所屬的世界各地區，並顯示來自那些國家/地區的訪客數量。以 .com (商務)、.net (網路)、.edu (教育)、.gov (政府) 和 .org (機構) 結尾的網域通常位於美國，並與其他網域分開列出。
 
-** [!UICONTROL Visitor ZIP/Postal Code] **: Displays the zip and postal codes that produced the customers that had the greatest effect on purchase success metrics.
+**[!UICONTROL 訪客郵遞區號]**: 顯示對購買成功度量影響最大的客戶所在區域的郵遞區號。
 
 ## 地域劃分 {#concept_7C1B930F90F945B49205D3855CAE1813}
 
