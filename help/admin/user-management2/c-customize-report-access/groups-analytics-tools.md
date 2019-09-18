@@ -1,15 +1,15 @@
 ---
 description: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。
-keywords: 群組；權限
+keywords: 組；權限
 seo-description: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。
 seo-title: 自訂 Analytics 工具權限
 solution: Analytics
 subtopic: 使用者和群組
 title: 自訂 Analytics 工具權限
 topic: 管理工具
-uuid: 8e86bc17-46d3-4c5e-ac25-9f3 bfc29 b8 fa
+uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 5a6016fa1c79bd7ae858537b0073dbd27ce3c862
+source-git-commit: 31222a67cae860e5e914eea1c0c2fd82296d3704
 
 ---
 
@@ -18,23 +18,21 @@ source-git-commit: 5a6016fa1c79bd7ae858537b0073dbd27ce3c862
 
 >[!IMPORTANT]
 >
->使用者和產品管理已移至 [管理控制台](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理已移至「管 [理控制台」](https://helpx.adobe.com/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** will be retired.
 
 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。
 
-**[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL 所有報表存取]** &gt; **[!UICONTROL Analytics工具]** &gt; **[!UICONTROL 自訂]**
+**[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt;完 **[!UICONTROL 整報表存取]** &gt; **[!UICONTROL Analytics工具]****[!UICONTROL &gt;自訂]**
 
 >[!NOTE]
 >
->2016年秋季發行版本(10月20日)將變更帶入群組管理。See [Administrative Changes - Fall 2016](../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF) for a summary of changes.
+>2016年秋季版（10月20日）為群組管理帶來變更。 See [Administrative Changes - Fall 2016](../../../admin/user-management2/c-user-management/permissions-changes.md#concept_86581595B86B47D5B8F90282FC3E31EF) for a summary of changes.
 
 ## 報表存取 - 分析工具
 
 ![](assets/report-access-analytics-tools.png)
 
 按一下&#x200B;**[!UICONTROL 自訂]來選取此群組將可以存取的項目。**
-
-![](assets/customize-analytics-tools.png)
 
 ## 欄位說明
 
