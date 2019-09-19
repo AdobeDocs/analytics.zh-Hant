@@ -9,7 +9,7 @@ title: 設定變數
 topic: 開發人員和實作
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 5b55b865629628da0ec42773355a1cf66ad7d9b7
+source-git-commit: edc1ecb471aadb9399664c0985a3aa3ecde328bf
 
 ---
 
@@ -381,6 +381,8 @@ Adobe [!DNL Customer Care] 可變更報表套裝的預設貨幣設定。當您�
 * The *`currencyCode`* variable is not persistent, meaning that the variable must be passed in the same image request as any revenue or other currency-related metrics.
 * 貨幣事件不應用在非貨幣用途上。若您需要計算非貨幣的任意值或動態值，請使用[!UICONTROL 數值]事件類型。
 * 當 *`currencyCode`* 變數空白，則不會套用轉換。
+
+如需詳細資訊，請參 [閱貨幣代碼](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/currency.html)。
 
 ## s.cookieDomain {#concept_6164C39CF8BE4737A7EF1DE5A8376C1B}
 
