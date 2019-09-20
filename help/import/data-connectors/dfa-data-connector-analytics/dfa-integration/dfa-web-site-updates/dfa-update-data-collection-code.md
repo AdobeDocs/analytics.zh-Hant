@@ -6,12 +6,12 @@ seo-title: 更新網站的資料收集代碼
 solution: Analytics
 title: 更新網站的資料收集代碼
 topic: Data connectors
-uuid: a97d1b62-f883-48b1-9516-4f889 e701901
+uuid: a97d1b62-f883-48b1-9516-4f889e701901
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,7 +22,7 @@ DFA 的 Genesis 整合採用 DFA Floodlight 設定 ID (dfa_SPOTID)，這可以�
 
 >[!NOTE]
 >
->Google DFA最近版本中，「精選」詞語已變更為Floodlight。JavaScript 參數 `dfa_SPOTID` 是根據 Spotlight 術語而命名的，但用於兩個版本中。
+>在Google DFA的最新版本中，「精選」一詞已變更為Floodlight。 JavaScript 參數 `dfa_SPOTID` 是根據 Spotlight 術語而命名的，但用於兩個版本中。
 
 若要在您的網站上啟用 DFA 整合，您必須新增下列項目，以更新您的 JavaScript 資料收集代碼:
 
@@ -31,7 +31,7 @@ DFA 的 Genesis 整合採用 DFA Floodlight 設定 ID (dfa_SPOTID)，這可以�
 
 ## DFA 的整合模組 {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-DFA 整合採用 Adobe Marketing Cloud 整合模組，可在您的核心 JavaScript 資料收集代碼 (`s_code.js`) 中新增功能。當您從程式碼管理員下載Javascript適用的AppMeasurement程式碼時， [Integrate模組會隨附於.zip檔案](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)中。請洽詢您的Adobe顧問，前提是您需要其他協助尋找。
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). 當您從「程式碼管理員」下載AppMeasurement for Javascript程式碼時，「整合模組」會做為。zip檔案的一 [部分](https://marketing.adobe.com/resources/help/en_US/reference/code_manager_admin.html)。 只有在您需要其他協助才能找到Adobe顧問時，才與您聯絡。
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
@@ -101,5 +101,5 @@ DFA 整合設定區塊會設定 DFA 整合所需的變數。其中每個變數�
 
 >[!CAUTION]
 >
->外掛程式用來消除不必要DFA查詢的機制之一是以網域為基礎的造訪Cookie。如果訪客在 DFA 有所影響的閱覽或點進執行之後跨越了多個網域，跨越多個網域的整合報表套裝將會誇大點進和閱覽資料。
+>外掛程式用來消除不必要DFA查詢的其中一個機制是網域型瀏覽Cookie。 如果訪客在 DFA 有所影響的閱覽或點進執行之後跨越了多個網域，跨越多個網域的整合報表套裝將會誇大點進和閱覽資料。
 
