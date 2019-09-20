@@ -3,8 +3,8 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/zh-Hant/analytics/implementation/home.html
-translation-type: ht
-source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
+translation-type: tm+mt
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -187,7 +187,7 @@ source-git-commit: 85dbc654643f63e30cb20df7e6e9e4cff8660c05
       + [Analytics 訪客 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [備援 ID 方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [識別行動裝置](js-implementation/c-unique-visitors/visid-mobile.md)
-   + [Marketing Cloud 核心服務](https://marketing.adobe.com/resources/help/zh_TW/mcloud/?f=core_services)
+   + [Experience Cloud 核心服務](https://marketing.adobe.com/resources/help/en_US/mcloud/?f=core_services)
    + 跨裝置訪客身份識別 {#cross-device-visitor-id}
       + [連結跨裝置的使用者](js-implementation/xdevice-visid/xdevice-connecting.md)
       + [跨裝置訪客身分識別對資料的影響](js-implementation/xdevice-visid/xdevice-data.md)
