@@ -1,13 +1,13 @@
 ---
 description: 設定您要條件觸發的動作。
-keywords: 動態標籤管理；規則；建立規則；新規則；javascript/第三方標籤；設定條件的動作；新增指令碼；非循序javascript；循序javascript；non-seature html
+keywords: 動態標籤管理；rule;create rule;new rule;javascript/第三方標籤；設定條件動作；新增指令碼；非循序javascript；循序javascript；非循序html
 seo-description: 設定您要條件觸發的動作。
 seo-title: 設定條件要觸發的動作
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
+solution: Experience Cloud,Analytics,Target，動態標籤管理
 title: 設定條件要觸發的動作
-uuid: 2e892f0b-7261-41ee-b849-6e3054 a38 de0
+uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
