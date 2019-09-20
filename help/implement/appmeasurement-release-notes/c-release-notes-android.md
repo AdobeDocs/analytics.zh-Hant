@@ -2,13 +2,13 @@
 description: Android 行動程式庫的累積發行說明。
 seo-description: Android 行動程式庫的累積發行說明。
 seo-title: Android
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 發行說明
 title: Android
-topic: 開發人員和實施
-uuid: 3232d28-3459-4f78-be00-ca3163 c63461
+topic: 開發人員和實作
+uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -19,13 +19,13 @@ Android 行動程式庫的累積發行說明。
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啓偵錯記錄。
+>若要尋找目前的程式庫版本，請開啟除錯記錄。
 
 您可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-android-1) 中下載行動程式庫。
 
 ## 版本 4.13.4 {#section_E4743079D8E64B9C890180A025C94B44}
 
-[!DNL Android] SDK4.13.4版(2017年月16日)包含下列變更：
+[!DNL Android] SDK 4.13.4版（2017年2月16日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_C0197701CB9B45E596818AF0BE5AC4F2"> 
  <thead> 
@@ -52,7 +52,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.13.3 {#section_1C235192E9FB46E2A651017C1CF24A7F}
 
-[!DNL Android] SDK4.13.3版(2017年月19日)包含下列變更：
+[!DNL Android] SDK 4.13.3版（2017年1月19日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_5E744C8C9D064E999EB5055A8E3A99C5"> 
  <thead> 
@@ -79,7 +79,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.13.2 {#section_CEA2FF01EA414A32A8D164D981FBE71F}
 
-[!DNL Android] SDK4.13.2版(2016年11月10日)包含下列變更：
+[!DNL Android] SDK 4.13.2版（2016年11月10日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_812CAB7DDC364DAABB7CDEDE55532E39"> 
  <thead> 
@@ -91,7 +91,7 @@ Android 行動程式庫的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 訪客 ID 服務 </p> </td> 
-   <td colname="2"> <p>在 <code>adobe_mc</code> 參數中新增時間戳記和 Marketing Cloud 組織 ID。 </p> </td> 
+   <td colname="2"> <p>Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 深層連結 </p> </td> 
@@ -102,7 +102,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.13.1 {#section_647C43BA95A3485381AC2E8DEAA6D2E4}
 
-[!DNL Android] SDK4.13.1版(2016年10月20日)包含下列變更：
+[!DNL Android] SDK 4.13.1版（2016年10月20日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_1D1AFD90F8BB4F59869FD417ED9C45AB"> 
  <thead> 
@@ -121,7 +121,7 @@ Android 行動程式庫的累積發行說明。
    <td colname="2"> SDK 現在能儲存 Google Play 反向連結變數和自訂變數，並在 <code>AdobeDataCallback</code> 叫用中將它們適當地傳回。 </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Target </p> </td> 
+   <td colname="1"> <p>目標 </p> </td> 
    <td colname="2"> 訪客 ID 服務參數現在可以透過 <span class="keyword">mboxParams</span> 的<code>目標</code>請求傳送。 </td> 
   </tr> 
  </tbody> 
@@ -133,7 +133,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.13.0 {#section_03370D8F93AE4B7A81C4B03910086556}
 
-[!DNL Android] SDK4.13.0版(2016年月15日)包含下列變更：
+[!DNL Android] SDK 4.13.0版（2016年9月15日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_AACF8B9BE89A4057B0396F487F82CF99"> 
  <thead> 
@@ -159,7 +159,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.12.0 {#section_3FBC1C24267141C08A60E288662160D8}
 
-[!DNL Android] SDK4.12.0版(2016年月18日)包含下列變更：
+[!DNL Android] SDK 4.12.0版（2016年8月18日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_3BDD15254859475CBE5E27870619FF3A"> 
  <thead> 
@@ -178,7 +178,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.11.0 {#section_34B295F3697F4AD6B6A6B8DD70AD1ECA}
 
-[!DNL Android] SDK4.11.0版(2016年月22日)包含下列變更：
+[!DNL Android] SDK 4.11.0版（2016年6月22日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_C3DC3890E81744828DE8946AE8067E1A"> 
  <thead> 
@@ -200,7 +200,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.10.0 {#section_262928ABA971490EA6B8E277E17BDD89}
 
-[!DNL Android] SDK4.10.0版(2016年月20日)包含下列變更：
+[!DNL Android] SDK 4.10.0版（2016年5月20日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_E6B19BD9903A41D9AAF0035CD66756B5"> 
  <thead> 
@@ -223,7 +223,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.9.0 {#section_7393D3A5EA61431D9E7C07ECE176D17C}
 
-[!DNL Android] SDK4.9.0版(2016年月日)包含下列變更：
+[!DNL Android] SDK 4.9.0版（2016年5月5日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_7D893A6E12554E9CA9AF2B03DA4C1A4B"> 
  <thead> 
@@ -242,7 +242,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.8.3 {#section_9BB3DFBECC434AC6B3D7C18AA9BC895C}
 
-[!DNL Android] SDK4.8.3版(2016年月18日)包含下列變更：
+[!DNL Android] SDK 4.8.3版（2016年2月18日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_6DE145BC30154B9FADCE584A9737018D"> 
  <thead> 
@@ -261,7 +261,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.8.0 {#section_18FA091344644B43AA0E226241FF90DC}
 
-[!DNL Android] SDK4.8.0版(2015年11月日)包含下列變更：
+[!DNL Android] SDK 4.8.0版（2015年11月2日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_C47B9AEB2BB649CFA1D5CF04093B497B"> 
  <thead> 
@@ -272,7 +272,7 @@ Android 行動程式庫的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 新的 Marketing Cloud Visitor ID 服務方法 </td> 
+   <td colname="1"> 新的Experience cloud訪客ID服務方法 </td> 
    <td colname="2"> <p>已新增下列方法:  </p> 
     <ul id="ul_6B85F8A4826642BEB373225CA760D799"> 
      <li id="li_72B94B8CECB94229827BFCB06671DFC9"><code> syncIdentifer</code> </li> 
@@ -320,7 +320,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.6.1 {#section_98CC97CF0F0C48F7855130044386845A}
 
-[!DNL Android] SDK4.6.1版(2015年月24日)包含下列變更：
+[!DNL Android] SDK 4.6.1版（2015年9月24日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_80693083398F472F8A4E7861606E602D"> 
  <thead> 
@@ -339,7 +339,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.6 {#section_ADF6F871CF3C4E2381464D62DA6E1EB1}
 
-[!DNL Android] SDK4.6版(2015年月17日)包含下列變更：
+[!DNL Android] SDK 4.6版（2015年9月17日）包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_35D0692698EF49AE8204F2AEB57CABD7"> 
  <thead> 
@@ -374,7 +374,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.5 {#section_6E7614D4AEA24B7E81C4FC094882F062}
 
-[!DNL Android] SDK4.5版包含下列變更：
+[!DNL Android] SDK 4.5版包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_BF98A1E904EB4314828AC58A2A6E7016"> 
  <thead> 
@@ -393,7 +393,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.4 {#section_8D7FC183081E4BCFA8ADC33FB55E057C}
 
-[!DNL Android] SDK4.4版包含下列變更：
+[!DNL Android] SDK 4.4版包含下列變更：
 
 <table frame="all" colsep="1" rowsep="1" id="table_E8628F3806E24A0FB7157847D97C7B7A"> 
  <thead> 
@@ -408,7 +408,7 @@ Android 行動程式庫的累積發行說明。
    <td colname="2"> <p>您現在可使用生命週期量度來納入自訂內容資料的變數。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p><span class="keyword"> PhoneGap中的信標追蹤支援</span> </p> </td> 
+   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
    <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
   </tr> 
  </tbody> 
@@ -418,7 +418,7 @@ Android 行動程式庫的累積發行說明。
 
 發行日期: **2014 年 11 月 24 日**
 
-* 新增 - Adobe Marketing Cloud ID 整合
+* 新功能- Adobe Experience Cloud ID整合
 * 已清楚描述除錯記錄
 * 已解決在查看應用程式內訊息時可能會當機的問題
 
@@ -458,13 +458,13 @@ Android 行動程式庫的累積發行說明。
 
 發行日期: **2014 年 4 月 17 日**
 
-* 新功能-藍牙信標追蹤。
-* 新功能-啓用時間戳記的應用程式，當機點擊會追溯至正確的作業。
-* 新功能-啓用時間戳記的應用程式，會在點擊中傳送先前日期，並追溯至正確的作業。(而不再是先前的作業)。
-* 新增-點擊批次處理。
-* 修正具有可設定逾時的Google Play反向連結追蹤，允許延遲的Google反向連結資料。
-* 已解決特定藍本中可能發生的StrictMode警告。
-* 已解決特定順序呼叫某些方法時，極少導致程式庫鎖定的問題。
+* 新功能——藍芽信標追蹤。
+* 新增——啟用時間戳記的應用程式，當機點擊會回溯至正確的作業。
+* 新增——啟用時間戳記的應用程式，先前的作業會在點擊中傳送，並回溯至正確的作業。 (而不再是先前的作業)。
+* 新增——點擊批次處理。
+* 修正Google Play反向連結追蹤的可設定逾時，以允許延遲的Google反向連結資料。
+* 已解決在特定情況下可能發生的StrictMode警告。
+* 已解決當以特定順序呼叫某些方法時，很少會導致程式庫鎖定的問題。
 
 ## 版本 4.0.4 {#section_DCFAC758872D42F0BF0CCFCDDEA05E41}
 
@@ -503,7 +503,7 @@ Android 行動程式庫的累積發行說明。
 
 發行日期: **2013 年 9 月 27 日**
 
-[!DNL Android]Marketing Cloud 解決方案適用的 SDK 4.x 現已提供下列新功能:
+[!DNL Android] 適用於Experience cloud解決方案的SDK 4.x現已推出，提供下列新功能：
 
 * 大幅增強效能。所有處理作業均在背景執行緒中執行，SDK 執行緒完全安全。
 * 地域位置與興趣點
