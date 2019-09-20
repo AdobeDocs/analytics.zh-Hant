@@ -1,13 +1,13 @@
 ---
 description: 如果您使用 Akamai 託管，請自主控台測試取消發佈規則。
-keywords: 動態標籤管理；規則；切換器外掛程式；Akamai；測試akamai；未發佈的規則；測試未發佈的規則；除錯規則
+keywords: 動態標籤管理；rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
 seo-description: 如果您使用 Akamai 託管，請自主控台測試取消發佈規則。
 seo-title: 為 Akamai 主機測試未發佈的規則
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
+solution: Experience Cloud,Analytics,Target，動態標籤管理
 title: 為 Akamai 主機測試未發佈的規則
-uuid: 979e3d74-47d96-47d0-b581-cf5371248434
+uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -22,10 +22,10 @@ Switcher 外掛程式往往是進行測試的最簡單方式。如需詳細資�
 
 1. 存取網站上的 Web 主控台，並鍵入 `localStorage.setItem('sdsat_stagingLibrary', true)`.
 1. Press **[!UICONTROL Enter]**.
-1. Type `_satellite.setDebug(true)`, then press **[!UICONTROL Enter]**.
+1. 鍵 `_satellite.setDebug(true)`入，然後按 **[!UICONTROL Enter]**。
 1. 重新整理頁面。
 
    此動作會載入您的測試程式庫並設定除錯程式，方便您查看頁面上所有可用之規則 (已發佈/未發佈) 觸發的詳細資料。
-1. When finished, run `localStorage.setItem('sdsat_stagingLibrary', false)`, then press **[!UICONTROL Enter]**.
+1. 完成後，運行 `localStorage.setItem('sdsat_stagingLibrary', false)`，然後按 **[!UICONTROL Enter]**。
 
    步驟結果
