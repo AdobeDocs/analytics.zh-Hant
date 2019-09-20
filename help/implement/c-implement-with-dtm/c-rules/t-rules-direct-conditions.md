@@ -1,13 +1,13 @@
 ---
-description: 建立直接呼叫規則的條件。
-keywords: 動態標籤管理；規則；建立規則；新規則；直接呼叫規則
-seo-description: 建立直接呼叫規則的條件。
+description: 建立直接呼叫規則的條件.
+keywords: 動態標籤管理；規則；建立規則；新規則；直接調用規則
+seo-description: 建立直接呼叫規則的條件.
 seo-title: 建立直接呼叫規則的條件
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
+solution: Experience Cloud,Analytics,Target，動態標籤管理
 title: 建立直接呼叫規則的條件
-uuid: bab0e058-a5 b8-4039-8333-5e8 f3 d06 ade4
+uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
