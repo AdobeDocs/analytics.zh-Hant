@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Mac OS X
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 發行說明
 title: Mac OS X
-topic: 開發人員和實施
-uuid: d5e46c86-2d00-4a18-8eee-dcf082761 af
+topic: 開發人員和實作
+uuid: d5e46c86-2d00-4a18-8ee-dcaf082761af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->這些SDK已日落，不再受到Adobe支援或散髮。
+>這些SDK已失效，Adobe不再支援或散發。
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啓偵錯記錄。
+>若要尋找目前的程式庫版本，請開啟除錯記錄。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
@@ -61,7 +61,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 發行日期: **2013 年 3 月 21 日**
 
-* `ADMS_Measurement.visitorID` 現在已預先填入預設值。
+* `ADMS_Measurement.visitorID` 現在會預先填入預設值。
 
 ## 版本 3.1.4 {#section_23E5968C1EC748F7A266D6A5682A1B5F}
 
