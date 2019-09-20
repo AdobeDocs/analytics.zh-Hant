@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: Windows Phone 8
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 發行說明
 title: Windows Phone 8
-topic: 開發人員和實施
-uuid: 7378969a-d219-42fb-9750-141acc9 e4 b7 d
+topic: 開發人員和實作
+uuid: 7378969a-d219-42bf-9750-141acc9e4b7d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啓偵錯記錄。
+>若要尋找目前的程式庫版本，請開啟除錯記錄。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
->[!DNL Windows] Phone SDK已由 [Windows8.1通用應用程式商店](../appmeasurement-release-notes/c-release-notes-winu.md) SDK取代。我們將不再對此 SDK 進行任何進一步的開發。
+>The [!DNL Windows] Phone 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md) SDK. 我們將不再對此 SDK 進行任何進一步的開發。
 
 ## 版本 3.0.4 {#section_51A8A53CDFB24F6F9D882E9C30ECDB49}
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 發行日期: **2013 年 2 月 26 日**
 
-* `ADMS_Measurement.visitorID` 現在已預先填入預設值。
+* `ADMS_Measurement.visitorID` 現在會預先填入預設值。
 * 已修正有時會導致快取自動回應的問題。
 
 ## 版本 3.0.1 {#section_5865E881249441ADBB03A9637548650F}
