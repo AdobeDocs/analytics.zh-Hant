@@ -1,18 +1,18 @@
 ---
 description: 關於自動配置 Adobe Analytics 部署的常見問題。自動配置方法可為您管理 AppMeasurement 代碼。
-keywords: 動態標籤管理；外掛程式；測試；對目前設定的影響；修訂歷史記錄；潛在缺陷；報表套裝ID；貨幣代碼；追蹤伺服器；ssl追蹤伺服器；自訂程式碼；程式庫管理
+keywords: 動態標籤管理；plugins;staging；對當前設定的影響；修訂歷史記錄；潛在缺陷；報表套裝ID；貨幣代碼；跟蹤伺服器；ssl跟蹤伺服器；自定義代碼；庫管理
 seo-description: 關於自動配置 Adobe Analytics 部署的常見問題。自動配置方法可為您管理 AppMeasurement 代碼。
-seo-title: 關於Adobe Analytics工具的常見問答集
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
-title: 關於Adobe Analytics工具的常見問答集
-uuid: 8fcf893-e305-4a95-a033-9066a56 b09 cd
+seo-title: Adobe Analytics 工具常見問題集
+solution: Experience Cloud,Analytics,Target，動態標籤管理
+title: Adobe Analytics 工具常見問題集
+uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 關於Adobe Analytics工具的常見問答集
+# Adobe Analytics 工具常見問題集
 
 關於自動配置 Adobe Analytics 部署的常見問題。The automatic configuration method manages the [!DNL AppMeasurement] code for you.
 
@@ -26,7 +26,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 透過 DTM 實作 Adobe Analytics 時，應該將外掛程式放在何處? </p> </td> 
-   <td colname="col2"> <p> 如果使用 DTM 來手動託管 <code>s_code</code>，則可在與託管 <code>s_code</code> 相同的編輯器中新增外掛程式，正如同在一般的 Adobe Analytics 實作中一樣。 </p> <p>However, it is also an option to place the plugins in the editor within the <span class="term"> Customize Page Code</span> section of the tool settings. 這兩個實作方法的作用應該是相同的。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 來手動託管 <code>s_code</code>，則可在與託管 <code>s_code</code> 相同的編輯器中新增外掛程式，正如同在一般的 Adobe Analytics 實作中一樣。 </p> <p>不過，您也可以選擇將外掛程式置於工具設定的「自訂頁面程式碼」區 <span class="term"> 段內的編輯器中</span> 。 這兩個實作方法的作用應該是相同的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果在新版本工具中進行配置變更，可以先在測試環境中進行測試再發佈到生產環境嗎? </p> </td> 
@@ -58,5 +58,5 @@ See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool
 * 已在工具中正確輸入報表套裝 ID。
 * 工具中的報表套裝 ID 符合 [!DNL AppMeasurement] 代碼中的 ID。
 * 貨幣代碼、字元集、追蹤伺服器和 SSL 追蹤伺服器配置欄位均以支援的值正確設定。
-* Custom code is defined in [!DNL Library Management].
+* 自訂代碼定義於 [!DNL Library Management]。
 
