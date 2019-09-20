@@ -2,13 +2,13 @@
 description: 'null'
 seo-description: 'null'
 seo-title: WinRT for Windows 8
-solution: Analytics、Marketing Cloud
+solution: Analytics,Experience Cloud
 subtopic: 發行說明
 title: WinRT for Windows 8
-topic: 開發人員和實施
-uuid: cec19d63-114c-4ef6-a55 e-db6 aad4 e948 b
+topic: 開發人員和實作
+uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啓偵錯記錄。
+>若要尋找目前的程式庫版本，請開啟除錯記錄。
 
 Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
 
 >[!NOTE]
 >
->[!DNL WinRT][!DNL Windows] SDK的適用對象為 [Windows8.1通用應用程式商店](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK。我們將不再對此 SDK 進行任何進一步的開發。
+>The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. 我們將不再對此 SDK 進行任何進一步的開發。
 
 ## 版本 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
@@ -53,7 +53,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 發行日期: **2013 年 3 月 21 日**
 
-* `ADMS_Measurement.visitorID` 現在已預先填入預設值。
+* `ADMS_Measurement.visitorID` 現在會預先填入預設值。
 * 已修正擷取裝置資訊的問題。
 
 ## 版本 3.0.3 {#section_5865E881249441ADBB03A9637548650F}
@@ -69,7 +69,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 發行日期: **2012 年 11 月**
 
 * 現在可在 C#、C++ 及 HTML5/WinJS 平台上準確收集螢幕解析度。
-* `ADMS_Churn` 類別現在為內部。若要使用應用程式生命週期追蹤的最佳實務，請使用下列呼叫:
+* `ADMS_Churn` 類別現在為內部。 若要使用應用程式生命週期追蹤的最佳實務，請使用下列呼叫:
 
    ```
    public void ADMS_Measurement.StartSession(); 
