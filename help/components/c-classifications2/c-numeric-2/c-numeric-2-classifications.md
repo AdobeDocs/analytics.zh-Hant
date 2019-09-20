@@ -1,21 +1,21 @@
 ---
-description: 數值 2 分類可提供自訂、靈活的量度，您可以透過 匯入工具將這些量度匯入 Adobe Marketing Cloud 中。
-seo-description: 數值 2 分類可提供自訂、靈活的量度，您可以透過 匯入工具將這些量度匯入 Adobe Marketing Cloud 中。
-seo-title: 數值分類概述
+description: 數值 2 分類可提供自訂、靈活的量度，您可以透過匯入工具將這些量度匯入 Adobe Experience Cloud 中。
+seo-description: 數值 2 分類可提供自訂、靈活的量度，您可以透過匯入工具將這些量度匯入 Adobe Experience Cloud 中。
+seo-title: 數值 2 分類概觀
 solution: Analytics
-subtopic: '分類   '
-title: 數值分類概述
+subtopic: 分類
+title: 數值 2 分類概觀
 topic: 管理工具
-uuid: cbea7cd1-3a92-4e9d-b671-646e9 add1 ee6
+uuid: cbea7cd1-3a92-4e9d-b671-646e9add1ee6
 translation-type: tm+mt
-source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 數值分類概述
+# 數值 2 分類概觀
 
-數值 2 分類可提供自訂、靈活的量度，您可以透過 匯入工具將這些量度匯入 Adobe Marketing Cloud 中。
+數值 2 分類可提供自訂、靈活的量度，您可以透過匯入工具將這些量度匯入 Adobe Experience Cloud 中。
 
 >[!IMPORTANT]
 >
@@ -23,13 +23,13 @@ source-git-commit: 49e149fe57d5d66b8eda22b1bdf60e7c6200761c
 
 >[!NOTE]
 >
->在2018年月10日的Analytics維護發行中，Adobe開始限制啓用日期和數值分類的功能。這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
+>在2018年5月10日的Analytics維護髮行中，Adobe開始限制啟用日期和數值分類的功能。 這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
 
 數值 2 分類常見的用法是用於因應不同項目而隨著時間改變的數值變數，如售出貨物的成本。在管理員中，您可於「[!UICONTROL 轉換分類]」頁面建立分類，然後使用匯入工具來匯出檔案、進行編輯，接著再將檔案匯回 Adobe。匯入資料後，您便可以在建立計算量度時使用數值分類。
 
 >[!IMPORTANT]
 >
->分析工作區和臨機分析不支援數值分類。
+>分析工作區和臨機分析不支援數值2分類。
 
 下表說明不同類型的分類之間的差異:
 
