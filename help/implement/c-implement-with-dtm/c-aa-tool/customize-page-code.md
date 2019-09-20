@@ -1,13 +1,13 @@
 ---
 description: 部署 Analytics 時，請在動態標籤管理中使用欄位說明來自訂頁面代碼。
-keywords: 動態標籤管理；自訂頁面程式碼；開啓編輯器；execute
+keywords: 動態標籤管理；自定義頁面代碼；開放編輯器；執行
 seo-description: 部署 Analytics 時，請在動態標籤管理中使用欄位說明來自訂頁面代碼。
 seo-title: 自訂頁面代碼
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
+solution: Experience Cloud,Analytics,Target，動態標籤管理
 title: 自訂頁面代碼
-uuid: b7da069-3eb8-4388-b0 b0-34f54001 e05 f
+uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 新增外掛程式以確保代碼與 Analytics 工具同時執行。如需 Analytics 外掛程式的詳細資訊，請參閱 [實施外掛程式](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt;**[！UICONTRL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONCONTROL ![](assets/settings_gear.png)
 
 Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
 
