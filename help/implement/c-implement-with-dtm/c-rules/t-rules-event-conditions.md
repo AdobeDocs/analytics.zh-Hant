@@ -1,13 +1,13 @@
 ---
 description: 條件決定觸發事件型規則的時機。
-keywords: 動態標籤管理；規則；建立規則；新規則；事件型規則；延遲連結啓動；直接將事件處理常式套用至元素；反升；事件反升
+keywords: 動態標籤管理；rule;create rule;new rule;event-based rule;delay link activation；直接將事件處理程式應用於元素；bulbigging;event bulling
 seo-description: 條件決定觸發事件型規則的時機。
 seo-title: 建立事件型規則的條件
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
+solution: Experience Cloud,Analytics,Target，動態標籤管理
 title: 建立事件型規則的條件
-uuid: a847391c-5aec-4d64-3885877735898
+uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
