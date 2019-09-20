@@ -1,25 +1,25 @@
 ---
-description: 列出前項優點和功能。
-seo-description: 列出前項優點和功能。
-seo-title: 主要優點與功能
-title: 主要優點與功能
-uuid: 95405eb-8ab-43Fe-afe31-d1 b37 e97 cf06
+description: 列出前5項優點和功能。
+seo-description: 列出前5項優點和功能。
+seo-title: 主要優點和功能
+title: 主要優點和功能
+uuid: 95405ebb-8aeb-43fe-af31-d1b37e97bf06
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 主要優點與功能{#key-benefits-and-features}
+# 主要優點和功能{#key-benefits-and-features}
 
-列出前項優點和功能。
+列出前5項優點和功能。
 
-* 提供標準Demandbase組織維度(例如公司名稱、產業和收入範圍)的流量和轉換報告。
-* 可讓您額外加入個選用的Demandbase維度。這些維度可以包含「帳戶監控」維度。
-* 包括使用Demandbase維度建立並套用Adobe Marketing Cloud中的區段。
-* 選件報表套裝變數最佳化。所有16個可能的Demandbase維度都只能使用個自訂轉換變數(eVar)來擷取。
-* 可讓您將整合的Demandbase維度傳送至Adobe Target，以便用於定位至特定對象。
+* 針對8個標準Demandbase組織維度（例如公司名稱、產業和收入範圍）提供流量和轉換報告。
+* 可讓您加入另外8個自選Demandbase維度。 這些維度可以包含「帳戶監看」維度。
+* 包括使用Demandbase維度建立和套用Adobe Experience cloud中的區段。
+* 選件報表套裝變數最佳化。 所有16個可能的Demandbase維度都只能使用2個自訂轉換變數(eVar)來擷取。
+* 可讓您傳送整合的Demandbase維度至Adobe Target，以用於鎖定特定對象。
 
