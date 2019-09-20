@@ -7,7 +7,7 @@ title: 建立循序區段
 topic: 區段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a8d34022b07dbb18a83559045853fa11acc9c3dd
+source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ---
 
@@ -262,9 +262,17 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 如果您要將循序查核點分組，則您的「容器」是邏輯群組。 不過，如果這些循序查核點必須發生在單一點擊或瀏覽範圍內，則需要「點擊」或「瀏覽」容器。 （當然，「點擊」對於一組循序查核點來說並沒有意義，因為一次點擊可能只佔一個查核點）。
 
 **邏輯群組是否簡化建立循序區段？**
-是的，他們可以。 假設您正在嘗試回答這個問題：訪客在頁面A後看到頁面B、C或D嗎？ 您可以建立此區段，而不需使用邏輯群組容器，但是它既複雜又費力：訪客容 [器頁面A接著頁面B接著頁面C接著頁面D] 或訪客容器頁 [面A接著頁面B接著頁面D接著頁面C] 或訪客容器 [頁面A接著頁面C接著頁面B接著頁面Bd] 或訪客容 [][][器頁面A接著頁面C接著訪客頁面B或頁面D接著訪客容器A THEN AD Page D B THEN PAGE C Then Visitor Container d接著頁面D Visitor Page B B B，接著頁面D頁面B]
+是的，他們可以。 假設您正在嘗試回答這個問題：訪 **客在頁面A後看到頁面B、頁面C或頁面D嗎？**
 
-邏輯群組容器可大幅簡化區段，如下所示：
+您可以建立此區段，而不需使用邏輯群組容器，但是它既複雜又費力：
+* `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
+* `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
+* `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
+* `Visitor Container [Page A THEN Page C THEN Page D THEN Page B] or`
+* `Visitor Container [Page A THEN Page D THEN Page B THEN Page C] or`
+* `Visitor Container [Page A THEN Page D THEN Page C THEN Page B]`
+
+邏輯群組容器可大幅簡化建立此區段的程式，如下所示：
 
 ![](assets/logic-grp-example.png)
 
