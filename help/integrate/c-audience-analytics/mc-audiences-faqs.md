@@ -1,17 +1,17 @@
 ---
 description: 回答實作 Audience Analytics 時可能遇到的問題。
 seo-description: 回答實作 Audience Analytics 時可能遇到的問題。
-seo-title: 常見問答集
-solution: 'Marketing Cloud '
-title: 常見問答集
-uuid: 9dfc8f19-f9 b2-4c2 e-bff9-3d91 cfe01 bca
+seo-title: 常見問題集
+solution: Experience Cloud
+title: 常見問題集
+uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 常見問答集
+# 常見問題集
 
 回答實作 Audience Analytics 時可能遇到的問題。
 
@@ -47,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問: 如何在 Audience Manager 中建立 Analytics 目標?</b> </p> </td> 
-   <td colname="col2"> See <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> Configure an Analytics Destination in AAM </a>. </td> 
+   <td colname="col2"> 請參 <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> 閱在AAM中設定Analytics目標 </a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 建立並儲存 Analytics 目標後，需要多久才會在我選取的表套裝中顯示資料?</b> </p> </td> 
@@ -58,7 +58,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>當您在<span class="uicontrol">「區段對應」</span>中選取<span class="uicontrol">「自動對應所有目前和未來的區段」</span>選項時，Analytics 目標會從區段的「目標對應」區段消失。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>要防止此情況，請選取<span class="uicontrol">「手動對應區段」</span>來取代自動選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>問：這會提供Analytics中AAM的所有資訊嗎？</b> </p> </td> 
+   <td colname="col1"> <p> <b>問：這是否能提供Analytics中AAM的所有資訊？</b> </p> </td> 
    <td colname="col2"> <p>否，只限在啟用 Audience Manager 對象期間或之後以及在符合區段資格期間或之後造訪您網站之使用者的相關資料。 </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>問: 這跟連到 Analytics 的舊版 Cookie 目的地有何不同?</b> </p> </td> 
-   <td colname="col2"> <p>區段符合資格並即時傳回-在相同點擊上。 </p> <p>系統會自動顯示易記名稱。 </p> </td> 
+   <td colname="col2"> <p>區段符合資格並即時傳回——在相同點擊上。 </p> <p>系統會自動顯示易記名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 如果我的某些報表套裝載有個人資料，而其他沒有，該怎麼辦?</b> </p> </td> 
@@ -101,7 +101,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問：我為何在Analytics報表中看到「對象限制」？(Note: this will also be represented as Audience ID = -1 and "::max_audiences_exceeded::" in Data Warehouse)</b> </p> </td> 
+   <td colname="col1"> <p><b>問：我為何在Analytics報表中看到「已達對象限制」? (注意：這也會在資料倉庫中顯示為「對象ID = -1」和「:::max_audiences_exceeded::」)</b> </p> </td> 
    <td colname="col2"> <p>依預設，AAM 的 Audience Analytics 整合會將訪客符合條件的所有區段，按每次點擊傳送到 Analytics。如果某位訪客在一次點擊中所屬的 AAM 區段超過 150 個，則最新的 <b>150 個合格區段</b>會傳送到 Analytics，而其餘的清單會被截斷。 </p> <p>系統會傳送額外標幟給 Analytics 表示區段清單已截斷，並在「對象名稱」維度中顯示為「已達對象上限」以及在「對象 ID」維度中顯示「-1」。 </p> <p>雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果您的報表中出現「已達對象上限」，則有兩個選項: </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選項　１</b>: 繼續讓整合工作以立即可用狀態作業，針對特定訪客傳送最新的 150 個合格區段。 </li> 
@@ -125,12 +125,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 為何我無法在 Analytics「管理控制台」中開啟某些報表套裝的 SSF?</b> </p> </td> 
-   <td colname="col2"> <p>只能啓用對應至Experience Cloud Org的套裝。 </p> </td> 
+   <td colname="col2"> <p>只能啟用對應至您Experience cloud組織的套裝。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/c-server-side-forwarding/ssf-faq.md).
+如需有關此主題的更多常見問答集，請 [參閱伺服器端轉送常見問答集](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)。
 
 ## 一般常見問題 {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
@@ -142,7 +142,7 @@ For more FAQs on this topic, see [Server-Side Forwarding FAQ](/help/admin/admin/
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: AAM 中的「對象」與 Analytics 中的「區段」有何不同?</b> </p> </td> 
-   <td colname="col2"> <p>請參閱<a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> 瞭解Analytics和Audience Manager中的區段 </a>。 </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
+   <td colname="col2"> <p>請參閱 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 從 AAM 整合的「客戶屬性」和客戶資料有何不同?</b> </p> </td> 
