@@ -5,10 +5,10 @@ seo-title: JavaScript H 代碼 (舊版)
 solution: Analytics
 subtopic: 發行說明
 title: JavaScript H 代碼 (舊版)
-topic: 開發人員和實施
+topic: 開發人員和實作
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -126,7 +126,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2014 年 5 月 22 日**
 
-* 支援 [Marketing Cloud 訪客 ID 服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* 支援 [Experience Cloud訪客ID服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 * 支援 [Analytics for Target 整合](https://marketing.adobe.com/resources/help/en_US/target/a4t/)。
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -171,12 +171,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 * 優化受 `useForcedLinkTracking` 影響的點按事件範圍。自動強制連結追蹤僅套用於:
 
-   * `<A>` 和 `<AREA>` 標籤
+   * `<A>` 和標 `<AREA>` 記
 
    * 標記必須具有 `HREF` 屬性
    * The `HREF` can't start with `#`, `about:`, or `javascript:`
 
-   * `TARGET` 不能設定屬性， `TARGET` 或參考目前視窗( `_self`、 `_top`或值 `window.name`)
+   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
@@ -273,25 +273,22 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
   <tr> 
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>此旗標用來停用 WebKit 瀏覽器的強制連結追蹤。WebKit 瀏覽器預設會啟用強制連結追蹤，但其他瀏覽器會忽略這項功能。 </p> <p> <b>預設值</b> </p> <p> <code> true </code> </p> <p> <b>範例</b> </p> 
-    <code class="syntax javascript">s. useForcedLinkTracking&amp; amp；nbsp；=&amp; amp；nbsp；false </code>
-  </td> 
+    <code class="syntax javascript">
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>在執行已傳入 <code>s.tl</code> 的 <code>doneAction</code> 之前，等待追蹤完成的毫秒數上限。此值表示等待時間上限。如果追蹤連結呼叫在此逾時前完成，就會立即執行 <code>doneAction</code>。如果您注意到追蹤連結呼叫未完成，您可能需要提高此逾時。 </p> <p> <b>預設值</b> </p> <p>250 </p> <p> <b>範例</b> </p> 
-    <code class="syntax javascript">s. forcedLinkTrackingTimeout&amp; amp；nbsp；=&amp; amp；nbsp；500 </code>
-  </td> 
+    <code class="syntax javascript">
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>追蹤退出、下載及自訂連結。提供選用參數，指定在 WebKit 瀏覽器上完成追蹤連結呼叫後執行導覽動作。 </p> <p> <b>語法</b> </p> 
-    <code class="syntax javascript">s. tl(linkObject，linkType，linkName，variableOverrides，doneAction) </code>
-  <p> <b>doneAction</b>: (選用) 指定在傳送連結追蹤呼叫或逾時 (根據 <code>s.forcedLinkTrackingTimeout</code> 所指定的值) 之後所要採取的動作。<code>doneAction</code> 可以是字串 'navigate'，該字串會導致方法將 <code>document.location</code> 設定為 <code>linkObject</code> 的 <code>href</code> 屬性。<code>doneAction</code> 也可以是一個允許進階自訂的函數。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>範例</b> </p> 
-    <code class="syntax javascript">&lt; a&amp; amp；nbsp；href=…&amp; amp；nbsp；onclick=「s. tl(this，'o'，'myLink'，null，'navigate')；報酬率；nbsp；false」&gt;「Click&amp; amp」；nbsp；這裡&lt;/a&gt; </code><code class="syntax javascript">
-
-
-&lt; a&amp; amp；nbsp；href=「#」&amp; amp；nbsp；onclick=「s. tl(this，'o'，'myLink'，null，function(){if('繼續？'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-    </code> </td> 
+    <code class="syntax javascript">
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (選用) 指定在傳送連結追蹤呼叫或逾時 (根據 <code>s.forcedLinkTrackingTimeout</code> 所指定的值) 之後所要採取的動作。<code>doneAction</code> 可以是字串 'navigate'，該字串會導致方法將 <code>document.location</code> 設定為 <code>linkObject</code> 的 <code>href</code> 屬性。<code>doneAction</code> 也可以是一個允許進階自訂的函數。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>範例</b> </p> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="。.."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;nbsp;false"&gt;按一下&amp;nbsp；此處&lt;/a&gt; </code><code class="syntax javascript">&lt;a&amp;nbsp;nbsp;nhre hre hre hre hre hre href=" href="。tl(this,'o','MyLink',null,function(){if(confirm('Contred?'))document.location=...});return&amp;nbsp;false"&gt;按一下&amp;nbsp；此處&lt;/a&gt; </code> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -302,7 +299,7 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
 
 建議所有客戶都套用此更新。
 
-* 增強對於使用 Google Chrome Prerender 預先轉譯之頁面的偵測能力 ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender))。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. [!DNL JavaScript] 現在，程式庫會等候使用者瀏覽您的網站，再傳送這些預先轉譯頁面的伺服器呼叫。
+* 增強對於使用 Google Chrome Prerender 預先轉譯之頁面的偵測能力 ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender))。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
 * 針對要將類似其他 程式庫的時間戳記資料加以自訂的客戶，將 `timestamp`[!DNL JavaScript] 變數新增到 程式庫。[!DNL AppMeasurement]
 
 ```js
@@ -337,13 +334,13 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
 
 發行日期: **2011 年 11 月**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* 內部更新以支援 [!DNL Adobe Tag Manager]。
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 發行日期: **2011 年 11 月**
 
-* Internal updates to support [!DNL Adobe Tag Manager].
+* 內部更新以支援 [!DNL Adobe Tag Manager]。
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
