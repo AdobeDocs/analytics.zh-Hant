@@ -1,13 +1,13 @@
 ---
 description: 在動態標籤管理中建立資料元素。
-keywords: 動態標籤管理；資料元素；建立新的資料元素；名稱；type；預設值；強制小寫值；記住此值
+keywords: 動態標籤管理；資料元素；建立新資料元素；name;type;default值；強制小寫值；記住
 seo-description: 在動態標籤管理中建立資料元素。
 seo-title: 建立資料元素
-solution: Marketing Cloud、Analytics、Target、動態標籤管理
+solution: Experience Cloud,Analytics,Target，動態標籤管理
 title: 建立資料元素
-uuid: eacd5c60-6197-4129-a9 e1-a39 e9 a58 b38 a
+uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
