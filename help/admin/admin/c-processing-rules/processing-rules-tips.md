@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 處理規則
 title: 處理規則提示與秘訣
 topic: 管理工具
-uuid: e3a9ff8a-b81 a-41c9-9f61-e40 cb4 d99
+uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 ---
 
@@ -39,7 +39,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-也請務必考慮處理順序。在下列範例中，如果不存在頁面名稱 (Page Name) 的話，Previous Pagename 自訂 evar 會被設為 URL。但 URL 是在套用處理規則後才放入頁面名稱的，因此在此例中，如果頁面未設定頁面名稱，頁面名稱就會空白。
+也請務必考慮處理順序。在下列範例中，如果「頁面名稱」不存在，則「上一個頁面名稱」自訂eVar會設定為URL。 但 URL 是在套用處理規則後才放入頁面名稱的，因此在此例中，如果頁面未設定頁面名稱，頁面名稱就會空白。
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
