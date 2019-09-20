@@ -2,11 +2,11 @@
 description: 有關客戶屬性的 Analytics 常見問題，以及如何執行「客戶屬性」報表。
 seo-description: 有關客戶屬性的 Analytics 常見問題，以及如何執行「客戶屬性」報表。
 seo-title: 客戶屬性
-solution: Marketing Cloud、Analytics
+solution: Experience Cloud、Analytics
 title: 客戶屬性
-uuid: 94721265-ba23-45d5-8807-76f81 b0 b8 a30
+uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 有關客戶屬性的 Analytics 常見問題，以及如何執行「客戶屬性」報表。
 
-**[!UICONTROL 報表]****[!UICONTROL &gt;訪客資料]** &gt; **[!UICONTROL 客戶屬性]**
+**[!UICONTROL 報表]** &gt;訪客資料 **[!UICONTROL &gt;客]****[!UICONTROL 戶屬性]**
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。資料上傳後，您可以執行 Reports &amp; Analytics 中的「客戶屬性」報表。
 
@@ -26,23 +26,23 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ## Analytics 中的客戶屬性和報表量度 {#section_EF343662146B460A882D3DF772ADD86D}
 
-After you upload customer attributes and validate the schema (in the Experience Cloud), the system creates metrics based on the friendly names (like *`age`* or *`gender`*) that you map to the attribute strings and integers. These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
+在您上傳客戶屬性並驗證結構（在Experience Cloud中）後，系統會根據您對應至屬性字串和整數的好記名稱(如 *`age`* 或 *`gender`*)建立量度。 These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
 
 例如:
 
-**[!UICONTROL 訪客資料]** &gt; **[!UICONTROL 客戶屬性]** &gt; **[!UICONTROL 年齡]**
+**[!UICONTROL 訪客資料]** &gt;客 **[!UICONTROL 戶屬性]** &gt;年 **[!UICONTROL 齡]**
 
 ![](assets/report_age.png)
 
 **範例 - 年齡量度**
 
-若您指定字串為&#x200B;*`age`*&#x200B;系統會建立下列度量和維度：
+若您指定字串為 *`age`*, the system creates the following metrics and dimensions:
 
 * 年齡維度: 可讓您根據年齡屬性執行報表。
 * 年齡量度: 可新增至報表的量度，如「唯一訪客」報表。
 * 年齡量度計數: 可讓您瞭解，舉例來說，訪客是否在表單上指定&#x200B;*`age`*&#x200B;值。
 
-因為量度是報表表格中的總和，所以您應:  [建立計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)用於提供平均年齡。The formula for this metric is `Age / Count of Age`.
+因為量度是報表表格中的總和，所以您應:  [建立計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)用於提供平均年齡。此度量的公式為 `Age / Count of Age`。
 
 ## 常見問題集 - Analytics 中的客戶屬性 {#section_E29641D1F3D649C1AC9EA5231921F038}
 
@@ -55,12 +55,12 @@ After you upload customer attributes and validate the schema (in the Experience 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>為甚麼使用Identity Service設定客戶ID而非在prop或eVar中填入客戶ID比較好？ </p> </td> 
-   <td colname="col2"> <p>使用Identity Service可提供許多優點： </p> 
+   <td colname="col1"> <p>為什麼最好使用Identity service來設定客戶ID，而不是將客戶ID填入prop或eVar? </p> </td> 
+   <td colname="col2"> <p>使用Identity service可提供許多優點： </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">如果您未使用Identity Service設定客戶ID，則客戶記錄僅適用於Adobe Analytics。如果您要使用客戶記錄進行即時定位，則必須使用Identity Service。 </li> 
-     <li id="li_228358684E474A298E39578D427BF932">使用Identity Service設定客戶ID可縮短同步ID與Experience Cloud的時間。如果將客戶 ID 放在 prop 或 eVar 中，會透過後端伺服器同步將客戶 ID 傳送至 Experience Cloud，這種同步為批次執行。身分服務會立即同步客戶ID與Experience Cloud。 </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> 使用Identity Service而非prop或eVar會釋放該prop或eVar的其他用途。 </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">如果您未使用Identity service設定客戶ID，則客戶記錄僅能用於Adobe Analytics。 如果您想要使用客戶記錄進行即時定位，則必須使用Identity Service。 </li> 
+     <li id="li_228358684E474A298E39578D427BF932">使用Identity service設定客戶ID可縮短同步ID與Experience cloud的時間。 如果將客戶 ID 放在 prop 或 eVar 中，會透過後端伺服器同步將客戶 ID 傳送至 Experience Cloud，這種同步為批次執行。Identity service會立即將客戶ID與Experience cloud同步。 </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> 使用Identity service而非prop或eVar可釋放該prop或eVar供其他用途。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
