@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/zh-Hant/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 755909e0d3c3be60f911fe80acad7baaff248c13
 
 ---
 
@@ -116,7 +116,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
       + [行動通訊協定上的自訂連結測量](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Analytics 實作及報表之變數 {#variables-analytics-reporting}
       + [變數概觀](js-implementation/c-variables/sc-variables.md)
-      + [設定變數](js-implementation/c-variables/configuration-variables.md)
+      + [組態變數清單](js-implementation/c-variables/configuration-variables.md)
+      + 設定變數 {#config-var}
+         + [s.account](js-implementation/c-variables/config-vars/s-account.md)
       + [上下文資料變數](js-implementation/c-variables/context-data-variables.md)
       + [動態變數](js-implementation/c-variables/dynvars-overview.md)
       + [頁面變數](js-implementation/c-variables/page-variables.md)
