@@ -7,7 +7,7 @@ title: 發佈區段至 Experience Cloud
 topic: 區段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: bac0b1ae330753cfc537817e8da1ea70fbaaf0d5
 
 >[!IMPORTANT]
 >
->The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. The current production environment is described [here](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html).
+>The latency improvements regarding segment publishing and the user interface that are described on this page are not rolled out to all customers yet. 這裡說明目前的生產 [環境](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)。
 
 Publishing a segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], and [!DNL Advertising Cloud]. Recent updates have significantly optimized the publishing workflow. Previously, publishing a usable segment took approximately 48 hours.
 
@@ -27,15 +27,15 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 
 * Ensure that the report suite that you are saving this segment to is [enabled for the Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html). Otherwise you cannot publish it to the Experience Cloud.
 * Make sure you are working in a report suite that is mapped to your Experience Cloud organization.[](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)
-* 請確定您的組織正在使用Experience Cloud ID。
+* Ensure that your organization is using Experience Cloud IDs.
 * Before you can publish segments, your Admin needs to assign the Segment Publishing permission to a product profile in the Admin Console, and add you to the product profile.[](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)
 
 
 ## 考量事項
 
-* **Report Suite limits: You can publish up to 75 segments per report suite.** This limit is enforced. If you already have 75 segments published, you cannot publish any additional segments until you un-publish enough segments to get below the 75-segment threshold.
+* **Report Suite limits: You can publish up to 75 segments per report suite.** This limit is enforced. 如果您已發佈75個區段，則必須解除發佈足夠的區段，才能發佈至低於75個區段臨界值的區段。
 * **Membership limits**: Audiences shared to the [!DNL Experience Cloud] from Analytics cannot exceed 20 million unique members.
-* **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. 如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。檢視 [Adobe Experience cloud隱私權](https://www.adobe.com/privacy/experience-cloud.html) ，以瞭解受眾分享的完整隱私權影響。
+* **Data Privacy**: Audiences are not filtered based on the authentication state of a visitor. 如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。Review [Adobe Experience Cloud privacy](https://www.adobe.com/privacy/experience-cloud.html) to understand the full privacy implications of audience sharing.
 * 有關和中的區 **段之間差異的[!DNL Adobe Analytics]討[!DNL Audience Manager]**&#x200B;論，請 [到此處](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
 ## 區段發佈時間軸
@@ -52,13 +52,16 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 1. 在區段產生器中建 [!UICONTROL 立區段]。
 1. 提供區段的標題和說明——否則您無法儲存。
 1. Check **[!UICONTROL Publish this segment to the Experience Cloud (for *report suite*)]**.
-1. 在Analytics中檢視區段預覽時，請務必使用「具有Experience Cloud ID的訪客」，而非比較Adobe Analytics數字與Audience manager數字時的「獨特訪客」區段預覽總計。
 
 ![](assets/publish-ec.png)
 
+>[!IMPORTANT]
+>
+>在Analytics中檢視區段預覽時，請務必使用「具有Experience Cloud ID的訪客」，而非比較Adobe Analytics數字與Audience manager數字時的「獨特訪客」區段預覽總計。
+
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*<report suite>*)]** | 啟用此選項時，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience cloud共用，而區段會籍會每4小時評估一次並共用一次。 <br> 例如，當該對象與中的活 [!DNL Target]動相關聯時， [!DNL Analytics] 就會開始傳送符合該Experience cloud及對象資格的訪客的ID [!DNL Target] 。 At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
+| **[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*<report suite>*)]** | 啟用此選項時，區段標題和定義（即廣告平台中常用的殼層對象）會立即與Experience cloud共用，而區段會籍會每4小時評估一次並共用一次。 <br> When that audience is associated with an activity in [!DNL Target], for example, [!DNL Analytics] begins sending IDs for visitors that qualify for that Experience Cloud and [!DNL Target] audience. At that point, the audience name and corresponding data begins displaying on the Experience Cloud Audiences page. </br> |
 | **[!UICONTROL 建立對象視窗]** | 您選取的時間範圍會用來建立以滾動日曆為基礎的觀眾。 例如，「最近30天」（預設值）包含自今天日期（非建立區段的原始日期）起最近30天內符合觀眾資格的訪客。 |
 | **[!UICONTROL 在對象庫中建立]** | 您建立和發佈的區段可在Experience cloud觀眾程式庫中提供，而無延遲。 它們不依賴Analytics更新。 這些區段不會計入您75個發佈區段的限制。 |
 | **[!UICONTROL 第x頁（共75頁）已發佈]** | 顯示您已發佈至Experience cloud的區段數。 按一下連結，以檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
@@ -72,7 +75,7 @@ Now, processing can take up to 8 hours, but depending on other traffic and on th
 >
 >您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
 
-## View segment publishing status in the Segment Manager
+## 在「區段管理員」中檢視區段發 [!UICONTROL 布狀態]
 
 1. 導覽至「 [!UICONTROL 分析&gt;元件&gt;區段」]。
 1. Notice the new Published column. Yes/No refers to whether the segment has been published to the Experience Cloud or not.
@@ -106,7 +109,7 @@ The following screenshots show you how to retrieve the AAM UUID on your browser 
 
 ## 使用Audience Manager訪客 [!UICONTROL 資料檢視器]
 
-在載入訪客描述檔檢視器時，預設會使用瀏 [!UICONTROL 覽器上的AAM] UUID。 如果驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下「重新 [!UICONTROL 整理]」。 如需詳細 [資訊，請參閱訪客資料檢視器](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) 。
+The AAM UUID on the browser will be used by default when Visitor Profile Viewer is loaded. 如果驗證其他使用者的特徵實現，請在UUID欄位中輸入UUID，然後按一下「重新 [!UICONTROL 整理]」。 如需詳細 [資訊，請參閱訪客資料檢視器](https://marketing.adobe.com/resources/help/en_US/aam/t_visitor_profile_viewer.html) 。
 
 ![](assets/aam-vpv.png)
 
