@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/zh-Hant/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 61f82f3957037df7c609987edbc9ecd7d3a2325f
+source-git-commit: 1414949000a2f5de92006aada1658e23776bff6b
 
 ---
 
@@ -116,9 +116,31 @@ source-git-commit: 61f82f3957037df7c609987edbc9ecd7d3a2325f
       + [行動通訊協定上的自訂連結測量](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Analytics 實作及報表之變數 {#variables-analytics-reporting}
       + [變數概觀](js-implementation/c-variables/sc-variables.md)
-      + [Configuration variables list](js-implementation/c-variables/configuration-variables.md)
+      + [組態變數清單](js-implementation/c-variables/configuration-variables.md)
       + 設定變數 {#config-var}
          + [s.account](js-implementation/c-variables/config-vars/s-account.md)
+         + [s.dynamicAccountSelection](js-implementation/c-variables/config-vars/s-dynaccsel.md)
+         + [s.dynamicAccountList](js-implementation/c-variables/config-vars/s-dynacclist.md)
+         + [s.dynamicAccountMatch](js-implementation/c-variables/config-vars/s-dynaccmatch.md)
+         + [s.dynamicVariablePrefix](js-implementation/c-variables/config-vars/s-dynvarprefix.md)
+         + [s.charset](js-implementation/c-variables/config-vars/s-charset.md)
+         + [s.currencyCode](js-implementation/c-variables/config-vars/s-currcode.md)
+         + [s.cookieDomain](js-implementation/c-variables/config-vars/s-cookdom.md)
+         + [s.cookieDomainPeriods](js-implementation/c-variables/config-vars/s-cookdomperiods.md)
+         + [s.fpcookieDomainPeriods](js-implementation/c-variables/config-vars/s-fpcookdomperiods.md)
+         + [s.cookieLifetime](js-implementation/c-variables/config-vars/s-cooklifetime.md)
+         + [s.doPlugins](js-implementation/c-variables/config-vars/s-doplugins.md)
+         + [s.registerPreTrackCallback](js-implementation/c-variables/config-vars/s-regpretrackcback.md)
+         + [s.registerPostTrackCallback](js-implementation/c-variables/config-vars/s-regpretrackcback.md)
+         + [s.trackDownloadLinks](js-implementation/c-variables/config-vars/s-trackdnloadlinks.md)
+         + [s.trackExternalLinks](js-implementation/c-variables/config-vars/s-trackextlinks.md)
+         + [s.trackInlineStats](js-implementation/c-variables/config-vars/s-trackinlinestats.md)
+         + [s.linkDownloadFileTypes](js-implementation/c-variables/config-vars/s-linkdownldftype.md)
+         + [s.linkInternalFilters](js-implementation/c-variables/config-vars/s-trackintfilters.md)
+         + [s.linkLeaveQueryString](js-implementation/c-variables/config-vars/s-linklvqrystring.md)
+         + [s.linkTrackVars](js-implementation/c-variables/config-vars/s-linktrackvars.md)
+         + [s.linkExternalFilters](js-implementation/c-variables/config-vars/s-linkextfilters.md)
+         + [s.usePlugins](js-implementation/c-variables/config-vars/s-useplugins.md)
       + [上下文資料變數](js-implementation/c-variables/context-data-variables.md)
       + [動態變數](js-implementation/c-variables/dynvars-overview.md)
       + [頁面變數](js-implementation/c-variables/page-variables.md)
