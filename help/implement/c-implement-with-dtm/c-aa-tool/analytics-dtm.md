@@ -1,25 +1,25 @@
 ---
-description: 使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。建議大多數使用者採用自動方法。
-keywords: Analytics實作；實施方法；動態標籤管理；dtm；分析工具；property；工具類型；工具名稱；設定方法；分析Premium；evar；events
-seo-description: 使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。建議大多數使用者採用自動方法。
-seo-title: 新增Adobe Analytics工具
+description: 使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。 建議大多數使用者採用自動方法。
+keywords: Analytics Implementation;implementation方法；動態標籤管理；dtm;analytics tool;property;tool type;tool name;configuration方法；analytics premium;evars;events
+seo-description: 使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。 建議大多數使用者採用自動方法。
+seo-title: 新增 Adobe Analytics 工具
 solution: Analytics
-title: 新增Adobe Analytics工具
-topic: 開發人員和實施
-uuid: 1c54331e-de03-4f44-8002-a19723 c585 b0
+title: 新增 Adobe Analytics 工具
+topic: 開發人員和實作
+uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 831ae375a90f021feddc6817a2602464be0d8414
 
 ---
 
 
-# 新增Adobe Analytics工具
+# 新增 Adobe Analytics 工具
 
-使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。建議大多數使用者採用自動方法。
+使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。 建議大多數使用者採用自動方法。
 
 >[!NOTE]
 >
->For improved visitor tracking, we strongly recommend that you enable [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+>為改善訪客追蹤，強烈建議您啟用 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 新增 Adobe Analytics 工具 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
@@ -50,11 +50,11 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
    <td colname="col2"> <p> <b>自動</b> (建議): 使用動態標籤管理來管理配置。This method enables automatic synchronization of <span class="keyword"> Adobe Analytics</span> report suites via a <span class="keyword"> Experience Cloud</span> login or Web Services ID, and manages the [!DNL AppMeasurement] code. </p> <p>帳戶連線之後，動態標籤管理會將 <span class="keyword">Adobe Analytics</span> 報表套裝 ID 和名稱提取至工具設定介面，讓工具部署的速度增加，並降低使用者錯誤的可能性。 </p> <p> <p>注意: 如果您是 <span class="wintitle">Adobe Analytics Premium</span> 客戶，則必須選擇<span class="keyword">自動</span>選項。請參閱以下的 <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#section_AEAA44566B5A46D2922E17A11D7EA217" format="dita" scope="local">Adobe Analytics Premium</a>。 </p> </p> <p>填寫自動配置的特定欄位: </p> 
     <ul id="ul_8D9797B01E444B9C85B862A9F96B447C"> 
      <li id="li_0AC84C1F37B24C658F2178E50ECCC4B0"> <p> <b>Experience Cloud</b>: (預設) 使用 <span class="keyword">Experience Cloud</span> 單一登入。指定 Experience Cloud ID 和密碼。 </p> </li> 
-     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>網站服務</b>: 指定您的網站服務使用者名稱和共用機密。 </p> <p>共用機密憑證位於<span class="uicontrol">「管理工具</span> &gt; <span class="uicontrol">公司設定</span> &gt; <a href="https://microsite.omniture.com/t2/help/en_US/reference/web_services_admin.html" format="html" scope="external">網站服務</a>」中。 </p> <p>開發人員請參閱<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">取得企業 API 的網站服務存取權限</a>，以獲得取得網站服務憑證的說明。 </p> </li> 
+     <li id="li_6C80468835D04CC09F4AEC46D1300310"> <p><b>網站服務</b>: 指定您的網站服務使用者名稱和共用機密。 </p> <p>Shared secret credentials are located in <span class="uicontrol"> Admin </span> &gt; <span class="uicontrol"> Company Settings</span> &gt; <a href="https://docs.adobe.com/content/help/en/analytics/admin/company-settings/web-services-admin.html" format="html" scope="external"> Web Services</a>. </p> <p>開發人員請參閱<a href="https://marketing.adobe.com/developer/en_US/get-started/enterprise-api/c-get-web-service-access-to-the-enterprise-api" format="https" scope="external">取得企業 API 的網站服務存取權限</a>，以獲得取得網站服務憑證的說明。 </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手冊</b>：手動管理[！DNL AppMeasurement]代碼。您可以從「<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代碼管理員<span class="ignoretag"><span class="uicontrol">」下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代碼。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>填寫手動配置的特定欄位: </p> 
+   <td colname="col2"> <p> <b>手動</b>:手動管理[!DNL appMeasurement]代碼。 您可以從「<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代碼管理員<span class="ignoretag"><span class="uicontrol">」下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代碼。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>填寫手動配置的特定欄位: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生產帳戶 ID: </b>(必要) 您用於資料收集的生產帳戶。若為 Analytics，這是您的報表套裝 ID。動態標籤管理會自動在生產與測試環境中安裝正確帳戶。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>測試帳戶 ID: </b>(必要) 用於您的開發或測試環境。若為 Analytics，這是您的報表套裝 ID。測試帳戶可讓您的測試資料與生產資料彼此分離。 </p> </li> 
@@ -92,7 +92,7 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>啟用自動配置 </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>此選項允許動態標籤管理自動擷取您 <span class="keyword">Adobe Analytics</span> 帳戶的設定。 </p> <p>最新可用[！會使用DNL AppMeasurement]程式碼，並在新版本推出時顯示升級通知。您也可以還原回之前[！DNL AppMeasurement]版本(如基於相容性原因)。最多會顯示五個先前的版本。 </p> </td> 
+   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>此選項允許動態標籤管理自動擷取您 <span class="keyword">Adobe Analytics</span> 帳戶的設定。 </p> <p>會使用最新可用的[!DNL appMeasurement]程式碼，並在新版本可用時顯示升級通知以供選擇。 您也可以視需要回滾至先前的[!DNL appMeasurement]版本，例如出於相容性原因。 最多會顯示五個先前的版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新憑證 </p> </td> 
