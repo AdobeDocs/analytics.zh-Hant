@@ -1,5 +1,5 @@
 ---
-description: Configuration variables set in AppMeasurement.js.
+description: AppMeasurement.js中設定的組態變數。
 keywords: Analytics 實作
 seo-description: AppMeasurement.js for Adobe Analytics中的設定變數集
 seo-title: 設定變數
@@ -9,7 +9,7 @@ title: 設定變數
 topic: 開發人員和實作
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: 9212d70ab8fd7bc0ccfb7e781a92b1731f0a40bd
 
 ---
 
@@ -30,11 +30,11 @@ Not all of these variables appear in the code by default when you generate code 
 
 >[!NOTE]
 >
->[!DNL AppMeasurement] 要求在對track函式的初始呼叫之前設定所有組態變數 `t()`。 如果在呼叫後設定組態變數，則可能 `t()`會發生非預期的結果。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
+>[!DNL AppMeasurement] requires that all configuration variables are set before the initial call to the track function, `t()`. 如果在呼叫後設定組態變數，則可能 `t()`會發生非預期的結果。 To ensure proper data collection, all configuration variables must be above the `doPlugins` function.
 
-如需特定組態變數的說明，請參閱下列連結：
+如需特定組態變數的說明，請按一下下列任一連結：
 
-* [s_account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):指定資料儲存和報告的報表套裝。
+* [s.account](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):指定資料儲存和報告的報表套裝。
 
 * [s.dynamicAccountSelection](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):根據每個頁面的URL動態選取報表套裝。
 
@@ -66,7 +66,7 @@ Not all of these variables appear in the code by default when you generate code 
 
 * [s.trackExternalLinks](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):判斷所點按的任何連結是否為退出連結。
 
-* [strackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):判斷是否收集ClickMap資料。
+* [s.trackInlineStats](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):判斷是否收集ClickMap資料。
 
 * [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html):包含以逗號分隔的副檔名清單。
 
