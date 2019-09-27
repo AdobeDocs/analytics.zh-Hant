@@ -5,9 +5,9 @@ seo-title: 可選時間戳記
 solution: Analytics
 title: 可選時間戳記
 topic: 管理工具
-uuid: 0fa63658-1cc2-4c51-a51-a0662 d0 aa941
+uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 2b7644a7af34fff95d7557382abf3d370bd2637c
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) on data that is already timestamped. 這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
+>If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. 這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
 >[!NOTE]
 >
->啟動時間戳記的作業資料最多可保留 92 日。這表示瀏覽/作業將會「開啓」92天，而任何點擊點擊(在上次點擊(點擊時間在點擊時間後30分鐘))仍可包含在同一次瀏覽/作業中。因為有許多因素(分段、配置、有效期等)，因此收到無順序的「舊」點擊會產生「未知」結果。影響是否將這些點擊納入報告中。
+>啟動時間戳記的作業資料最多可保留 92 日。這表示瀏覽／工作階段將「持續開啟」92天，而任何額外點擊(在上次點擊後30分鐘（在點擊時間）內)仍可包含在同一次瀏覽／工作階段中。 任何未依序收到的「舊」點擊都會產生「未知」的結果，因為有許多因素（分段、分配、過期等）影響這些點擊是否會納入報告中。
 
 ## 新的報表套裝 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
