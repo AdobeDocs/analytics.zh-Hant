@@ -2,28 +2,28 @@
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
 seo-description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
-seo-title: 建立工作區專案
+seo-title: 建立 Workspace 專案
 solution: Analytics
-title: 建立工作區專案
-topic: Reports & Analytics
-uuid: c1def77a-a76 e-4699-9b-1ede5 b70 b7 ba
+title: 建立 Workspace 專案
+topic: Reports and Analytics
+uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 建立工作區專案
+# 建立 Workspace 專案
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
-本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。For specific use cases, see [Use Cases for Analysis Workspace](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B).
+本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。如需特定使用案例，請參 [閱分析工作區的使用案例](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B)。
 
 ## 建立專案
 
 1. 指定建立和組織專案的使用者權限。
 
-   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**在 Analysis Workspace 中建立 / 組織專案**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]」使用者群組。**( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/?f=groups)).
+   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**在 Analysis Workspace 中建立 / 組織專案**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]」使用者群組。**( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
 
 1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
 
@@ -53,7 +53,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >有時候，載入專案(或切換至報表套裝)時會顯示「不相容報表套裝」訊息，其中專案中包含的所有元件(量度/維度)不會包含在報表套裝中。您可以看到不相容的元件清單，得知收到這類訊息的原因。
+   >有時，在載入專案（或切換至報表套裝）時會顯示「不相容的報表套裝」訊息，其中專案中包含的所有元件（量度／維度）並非都包含在報表套裝中。 您可以看到不相容的元件清單，得知收到這類訊息的原因。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -68,7 +68,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
    <td colname="col2"> <p>您可以拖曳至專案的維度、量度、區段和日期範圍。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> 視覺化</a> </td> 
+   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> 視覺效果</a> </td> 
    <td colname="col2"> <p>您可拖曳至介面的面板或專案區域的項目。 </p> </td> 
   </tr> 
   <tr> 
@@ -88,11 +88,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
    >[!NOTE]
    >
-   >複製/另存新檔後，內部連結現在與他們所在的專案相關，而非原始專案所複製的專案。
+   >複製／另存新檔後，內部連結現在會相對於其所在的專案，而非原始的專案。
 
 ## 新增元件與視覺效果 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. Build your project by dragging *`components`* and *`visualizations`* to the project.
+1. 拖曳並拖曳至專案， *`components`* 以建 *`visualizations`* 立您的專案。
 
    **元件**
 
@@ -112,11 +112,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> 量度 (綠色) </td> 
-   <td colname="col2"> <p>在專案層級套用。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 發生次數</span> 是資料表格的預設度量。 </p> </td> 
+   <td colname="col2"> <p>在專案層級套用。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 發生次數</span> ，是資料表格的預設度量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 區段 (藍色) </td> 
-   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>See <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> Use Cases for Analysis Workspace</a> for more information. </p> </td> 
+   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳 <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> 細資訊，請參閱分析工作區的使用案例</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期範圍和粒度 (紫色) </td> 
