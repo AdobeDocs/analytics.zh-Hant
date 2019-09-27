@@ -1,14 +1,14 @@
 ---
 description: 在 Adobe Analytics 實施 Accelerated Mobile Pages (AMP) 專案。
-keywords: Analytics實作；amp；amp-analytics；adobeanalytics範本；adobeanalytics_ nativeConfig範本；點按追蹤；訪客膨脹；id服務
+keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
 seo-description: 在 Adobe Analytics 實施 Accelerated Mobile Pages (AMP) 專案。
 seo-title: Accelerated Mobile Pages
 solution: Analytics
 title: Accelerated Mobile Pages
-topic: 開發人員和實施
-uuid: c86e4a80-7191-4ee7-ab20-787730026c4 b
+topic: 開發人員和實作
+uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -23,7 +23,7 @@ AMP 是一項[開放原始碼專案](https://www.ampproject.org/)，可讓您建
 * [使用有「adobeanalytics」範本的 amp-analytics 標記](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
 * [使用有「adobeanalytics_nativeConfig」範本的 amp-analytics 標記](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
 * [摘要](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [常問的問題](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [常見問題集](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **其他文件及範本**
 
@@ -38,7 +38,7 @@ AMP 有特別標記的 HTML 頁面，儲存於網路各處包含參與的技術�
 
 為解決這些問題，Adobe 和 AMP 合作夥伴及發佈者在兩個選項上同心協力，兩個選項都使用 `amp-analytics` 標記，讓發佈者能從中選擇出最合乎其商業需求者。The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. 以下表格提供參考，讓您能初步瞭解兩種方法各自的得失利弊。
 
-|  | **「adobeanalytics」範本** | **「adobeanalytics_ nativeConfig」範本** |
+|  | **「adobeanalytics」範本** | ** "adobeanalytics_nativeConfig"範本** |
 |---|---|---|
 | (在現有的報表套裝) 訪客或訪客計數 | 高度膨脹 | 最小膨脹 |
 | 使用個別報告套裝 | 建議 | 非必要 |
@@ -50,9 +50,9 @@ AMP 有特別標記的 HTML 頁面，儲存於網路各處包含參與的技術�
 
 ## 使用有「adobeanalytics」範本的 amp-analytics 標記 {#section_2E4EBF4EF623440D95DE98E78C47244E}
 
-`"adobeanalytics"`追蹤範本使用 `amp-analytics` 標籤來直接建構追蹤請求。Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). 點擊事件可以量身打造，明確指定選取器，以適用於特定元素 ID 或等級。Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
+The `"adobeanalytics"`tracking template utilizes the `amp-analytics` tag to construct a tracking request directly. Using the `"adobeanalytics"` template in the `amp-analytics` tag, you can specify hit requests that fire on specific page events, like the page becoming visible or on a click (and in the future, video views and more). 點擊事件可以量身打造，明確指定選取器，以適用於特定元素 ID 或等級。Adobe has made this easy to set up using the `"adobeanalytics"` template specifically designed for [!DNL Adobe Analytics]. You can load the template by adding `type="adobeanalytics"` to the amp-analytics tag.
 
-In the following code example, there are two triggers defined: `pageLoad` and `click`. `pageLoad` 當文件顯示時觸發觸發器，並將包含變數中定義的 `pageName` 變數 `vars section`。The second trigger `click` will fire when a button is clicked. `eVar 1` will be set for this event with the value `button clicked`.
+In the following code example, there are two triggers defined: `pageLoad` and `click`. The `pageLoad` trigger will fire when the document becomes visible and will include the `pageName` variable as defined in the `vars section`. The second trigger `click` will fire when a button is clicked. `eVar 1` 將為此事件設定值 `button clicked`。
 
 ```
   <amp-analytics type="adobeanalytics"> 
@@ -85,11 +85,11 @@ In the following code example, there are two triggers defined: `pageLoad` and `c
   </amp-analytics> 
 ```
 
-`click` 在觸發器中，您可以指定選擇器以確保每當按下特定DOM元素時(在此例中為任何按鈕)， `buttonClick` 請求會引發並自動設定為非舞台事件(即 `trackLink` 呼叫)。
+In the `click` trigger, you can specify a selector to ensure that whenever the specific DOM element is clicked (in this case, any button), the `buttonClick` request is fired and will be automatically set to denote this hit as a non-stage event (i.e. `trackLink` call).
 
 此外，`amp-analytics` 也支援一些變數替代，讓 AMP 能提供已知的資料數值。您可以造訪 [amp-analytics 變數文件](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)以獲得更多資訊。
 
-請注意，若您想併入任何技術或 DOM 變數 (例如瀏覽器、螢幕大小、裝置、反向連結等等)，您必須將要併入的項目明確新增致任何請求，否則請求不會自動產生。我們每個查詢串參數上用於追蹤的文件，都能在[此處](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=query_parameters)找到。
+請注意，若您想併入任何技術或 DOM 變數 (例如瀏覽器、螢幕大小、裝置、反向連結等等)，您必須將要併入的項目明確新增致任何請求，否則請求不會自動產生。我們每個查詢串參數上用於追蹤的文件，都能在[此處](https://marketing.adobe.com/resources/help/en_US/sc/implement/query_parameters.html)找到。
 
 若您檢查 amp-analytics 所創建的點擊，您會注意到每個請求中都有 Adobe 納入的 `vid` 查詢參數。我們根據內建的 AMP 功能設定 `vid`，以設定自訂的 Analytics 小型文字檔案 ID，命名為 `adobe_amp_id`。該 ID 獨立於其他 [!DNL Adobe Analytics] 於他處設定的任何 ID (如 `s_vi cookie`，並能於點擊所送至的任何報表套裝中創建新的訪客。
 
@@ -99,7 +99,7 @@ Finally, and perhaps most importantly, this `amp-analytics` solution requires th
 
 ## 使用有「adobeanalytics_nativeConfig」範本的 amp-analytics 標記。 {#section_3556B68304A4492991F439885727E9FF}
 
-`"adobeanalytics_nativeConfig"` 標籤易於實施，因為它會使用一般網頁上使用的相同標記方法。要完成這點，請將以下項目新增至您的 `amp-analytics` 標記:
+The `"adobeanalytics_nativeConfig"` tag is easier to implement, as it will use the same tagging methodology you use on your normal web pages. 要完成這點，請將以下項目新增至您的 `amp-analytics` 標記:
 
 ```
 <amp-analytics type="adobeanalytics_nativeConfig"> 
@@ -123,7 +123,7 @@ Finally, and perhaps most importantly, this `amp-analytics` solution requires th
 
 此方式透過新增到 `iframeMessage` 的特別查詢串參數，將資料傳送到通用網頁。在此情形，請注意我們已新增 `ampdocUrl AMP` 變數，以及導向 `documentReferrer` 的 `pageURL`，並分別導向上述請求的 `iframeMessage`。您可以隨意命名這些額外的查詢串參數，只要您的 [!DNL stats.html] 頁面 (如以下所示) 已設定，能從這些參數收集適當資料即可。
 
-`"adobeanalytics_nativeConfig"` 範本也會根據amp-analytics標記 `extraUrlParams` 區段中列出的變數，新增查詢字串參數。在此情況下，您可以看見我們已指定 `pageName` 及 `v1` 參數，這兩者將用於 [!DNL stats.html] 頁面。
+The `"adobeanalytics_nativeConfig"` template also adds query string parameters based on the variables listed in the `extraUrlParams` section of the amp-analytics tag. 在此情況下，您可以看見我們已指定 `pageName` 及 `v1` 參數，這兩者將用於 [!DNL stats.html] 頁面。
 
 Be aware that you can only use a single `amp-analytics` template at a time and can not use the `"adobeanalytics"` template as well as the `"adobeanalytics_nativeConfig"` template on the same AMP. 若您試圖這麼做，您會在瀏覽器控制台上看到錯誤，且您會錯誤膨脹您的訪客計數。
 
@@ -187,7 +187,7 @@ AMP 專案正快速演進且時常產生變更，所以請您經常於[此處](h
 
 若您有問題或疑問，請聯繫您的 Adobe 顧問或客戶服務。
 
-## 常問的問題 {#section_5F57AA2DE0C5452FB65241058A924C73}
+## 常見問題集 {#section_5F57AA2DE0C5452FB65241058A924C73}
 
 <table id="table_9A2ED5E482E8423CB54F99613C04BEA0"> 
  <thead> 
@@ -211,7 +211,7 @@ AMP 專案正快速演進且時常產生變更，所以請您經常於[此處](h
   </tr> 
   <tr> 
    <td colname="col1"> <p>什麼是 <span class="keyword">Experience Cloud</span> ID 服務? 我需要這項服務嗎? </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service </a> (先前 <span class="term"> 稱為訪客ID服務 </span>)可啓用 <span class="keyword"> Experience Cloud </span> 核心服務，並允許不同Adobe <span class="keyword"> Experience Cloud </span> 解決方案之間的整合。若您的整合項目中有 <span class="keyword">Adobe Audience Manager</span> 或 <span class="keyword">Adobe Target</span>，您就很可能使用此服務。此服務為許多即將上市的 <span class="keyword">Adobe Analytics</span> 功能之基礎。若您現在或將來需要 ID 服務支援，建議您使用 <code>iframeMessage</code> 解決方案。 </p> </td> 
+   <td colname="col2"> <p>Identity <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Service </a> (舊稱訪客 <span class="term"> ID服務)可啟用 </span>Experience cloud核心服務，並允許不同Adobe <span class="keyword"></span><span class="keyword"></span> Experience cloud解決方案之間的整合。 若您的整合項目中有 <span class="keyword">Adobe Audience Manager</span> 或 <span class="keyword">Adobe Target</span>，您就很可能使用此服務。此服務為許多即將上市的 <span class="keyword">Adobe Analytics</span> 功能之基礎。若您現在或將來需要 ID 服務支援，建議您使用 <code>iframeMessage</code> 解決方案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>若用<code>「adobeanalytics_nativeConfig」</code>範本，我應該將我的公用程式網頁托管於何處? </p> </td> 
