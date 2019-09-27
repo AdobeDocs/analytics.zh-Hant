@@ -5,10 +5,10 @@ seo-title: 授予有限的管理權利
 solution: Analytics
 subtopic: 行銷渠道
 title: 授予有限的管理權利
-topic: Reports & Analytics
+topic: Reports and Analytics
 uuid: 439fe486-78d5-4d58-8b4f-8b6a4b98b00d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,13 +21,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. Click **[!UICONTROL Groups.]**
 1. 按一下自訂群組名稱，或按一下&#x200B;**「新增使用者群組」**&#x200B;以建立使用者群組。
 
-   請參閱&#x200B;*「管理說明」*&#x200B;中的[「使用者管理」](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=user_management)。
+   請參閱&#x200B;*「管理說明」*&#x200B;中的[「使用者管理」](https://marketing.adobe.com/resources/help/en_US/reference/user_management.html)。
 
 1. Under Report Access, locate Admin, then click **[!UICONTROL Customize.]**
 1.  啟用&#x200B;**「渠道」**&#x200B;和&#x200B;**[!UICONTROL 「成本」。]**
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Save.]**
 
-「管理工具」中定義使用者群組的欄位定義：
+「管理工具」中「定義使用者群組」的欄位定義：
 
 | 欄位 | 定義 |
 |--- |--- |
