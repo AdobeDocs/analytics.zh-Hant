@@ -8,7 +8,7 @@ title: JavaScript H 代碼 (舊版)
 topic: 開發人員和實作
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=debugger_about).
+>To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
 
 <!-- 
 
@@ -126,7 +126,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2014 年 5 月 22 日**
 
-* 支援 [Experience Cloud訪客ID服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 * 支援 [Analytics for Target 整合](https://marketing.adobe.com/resources/help/en_US/target/a4t/)。
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
@@ -151,7 +151,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2013 年 4 月 29 日**
 
-* `useForcedLinkTracking`使用自訂連結程式碼進行手動連結追蹤[中說明的 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_manuallinktrackcustomlink) 選項現已適用於 Firefox 20+ (之前此功能僅適用於 WebKit 瀏覽器)。
+* `useForcedLinkTracking`使用自訂連結程式碼進行手動連結追蹤[中說明的 ](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_manuallinktrackcustomlink.html) 選項現已適用於 Firefox 20+ (之前此功能僅適用於 WebKit 瀏覽器)。
 
 * 例項之間的影像物件 ID 產生現在是獨特的。如此可預防在同一頁面上有多個例項時會發生衝突。
 
@@ -171,7 +171,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 * 優化受 `useForcedLinkTracking` 影響的點按事件範圍。自動強制連結追蹤僅套用於:
 
-   * `<A>` 和標 `<AREA>` 記
+   * `<A>` and  tags`<AREA>`
 
    * 標記必須具有 `HREF` 屬性
    * The `HREF` can't start with `#`, `about:`, or `javascript:`
@@ -187,7 +187,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 * 針對混合使用 `escape` 和 `encodeURIComponent` 來編碼的字串，已經修正處理 URL 編碼的問題。
 
 * 修正在頁面上的首次伺服器呼叫逾時，而導致網路套件瀏覽器中的連結追蹤失敗的問題。
-* 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)。
+* 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
 * Added a new `abort` flag that can be set inside `doPlugins`. 若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
 
 ```js
@@ -280,15 +280,21 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
    <td colname="col2"> <p>在執行已傳入 <code>s.tl</code> 的 <code>doneAction</code> 之前，等待追蹤完成的毫秒數上限。此值表示等待時間上限。如果追蹤連結呼叫在此逾時前完成，就會立即執行 <code>doneAction</code>。如果您注意到追蹤連結呼叫未完成，您可能需要提高此逾時。 </p> <p> <b>預設值</b> </p> <p>250 </p> <p> <b>範例</b> </p> 
     <code class="syntax javascript">
-      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 </code> </td> 
+      s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
    <td colname="col2"> <p>追蹤退出、下載及自訂連結。提供選用參數，指定在 WebKit 瀏覽器上完成追蹤連結呼叫後執行導覽動作。 </p> <p> <b>語法</b> </p> 
     <code class="syntax javascript">
-      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) </code> <p> <b>doneAction</b>: (選用) 指定在傳送連結追蹤呼叫或逾時 (根據 <code>s.forcedLinkTrackingTimeout</code> 所指定的值) 之後所要採取的動作。<code>doneAction</code> 可以是字串 'navigate'，該字串會導致方法將 <code>document.location</code> 設定為 <code>linkObject</code> 的 <code>href</code> 屬性。<code>doneAction</code> 也可以是一個允許進階自訂的函數。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>範例</b> </p> 
+      s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
+    </code> <p> <b>doneAction</b>: (選用) 指定在傳送連結追蹤呼叫或逾時 (根據 <code>s.forcedLinkTrackingTimeout</code> 所指定的值) 之後所要採取的動作。<code>doneAction</code> 可以是字串 'navigate'，該字串會導致方法將 <code>document.location</code> 設定為 <code>linkObject</code> 的 <code>href</code> 屬性。<code>doneAction</code> 也可以是一個允許進階自訂的函數。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>範例</b> </p> 
     <code class="syntax javascript">
-      &lt;a&amp;nbsp;href="。.."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;nbsp;false"&gt;按一下&amp;nbsp；此處&lt;/a&gt; </code><code class="syntax javascript">&lt;a&amp;nbsp;nbsp;nhre hre hre hre hre hre href=" href="。tl(this,'o','MyLink',null,function(){if(confirm('Contred?'))document.location=...});return&amp;nbsp;false"&gt;按一下&amp;nbsp；此處&lt;/a&gt; </code> </td> 
+      &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+     
+    
+      &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))</code><code class="syntax javascript">document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> </td> 
   </tr> 
  </tbody> 
 </table>
