@@ -5,9 +5,9 @@ seo-title: 即時報表
 solution: Analytics
 title: 即時報表
 topic: Report Builder
-uuid: eb39b4a5-fb6 f-476d-9383-e5323 afcc51 d
+uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 使用任何自訂事件、購物車事件或是例項。
 * 檢視達 20 小時的歷史、即時資料。
 
-使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](https://marketing.adobe.com/resources/help/en_US/reference/?f=RealTime_Reports_Configuration)啟用即時權限。
+使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](https://marketing.adobe.com/resources/help/en_US/reference/RealTime_Reports_Configuration.html)啟用即時權限。
 
 >[!NOTE]
 >
->[!UICONTROL 即時報告] 與之前發行的 [「包含目前的資料](https://marketing.adobe.com/resources/help/en_US/arb/?f=options) (資料時近)」功能不同，可在完成前顯示資料，減少標準報告的延遲。
+>[!UICONTROL 即時報表與先前發佈的「包含目前的資料][](https://marketing.adobe.com/resources/help/en_US/arb/options.html) （資料時近）」功能不同，這可在完成報表之前顯示資料，以減少標準報表的延遲。
 
