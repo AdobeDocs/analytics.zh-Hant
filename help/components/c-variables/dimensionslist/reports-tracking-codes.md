@@ -7,7 +7,7 @@ title: 追蹤程式碼
 topic: 報表
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
 
-* 此報表還可由所有[清單變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=list_var)劃分。
+* 此報表還可由所有[清單變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)劃分。
 * 頁面檢視、瀏覽與獨特訪客皆可作為量度。
 * 此報告可使用區段。
 
