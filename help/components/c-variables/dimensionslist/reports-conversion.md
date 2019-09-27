@@ -5,9 +5,9 @@ seo-title: 轉換
 solution: Analytics
 title: 轉換
 topic: 報表
-uuid: 457d3033-6562-4fba-8c2e-0e7a9bd
+uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * [!UICONTROL 自訂轉換]報告會以 eVar (轉換變數) 為基礎。
 * 轉換變數可跨頁面檢視而存留，並可在其指定的有效期內與量度產生關聯。
-* 此報告的預設量度為收入。若要變更預設量度，請參閱[選取預設報告量度](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_metrics_set_default)。
+* 此報告的預設量度為收入。若要變更預設量度，請參閱[選取預設報告量度](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)。
 * 這些報告可用趨勢與排名格式來檢視。
 * 您可以在這些報告中使用分類，對明細項目進行重新命名與合併。
 * 若已啟用基本子關聯，則可依下列項目劃分這些報告:
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    * 頁面與網站區域，連同所有的相關分類
    * 登入頁面
    * 幾乎所有的流量來源報告
-   * 造訪次數
+   * 訪問次數
    * 多種訪客資料與技術報告
    * 所有其他 eVar
    * 首次接觸與最後一次接觸行銷管道
