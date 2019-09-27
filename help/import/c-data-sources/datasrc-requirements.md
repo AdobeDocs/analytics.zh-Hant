@@ -3,12 +3,12 @@ description: 有關使用資料來源前的報表套件需求資訊。
 seo-description: 有關使用資料來源前的報表套件需求資訊。
 seo-title: 需求和上傳限制
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 需求和上傳限制
-topic: 開發人員和實施
-uuid: d79fca77-fa0 e-4171-b978-cdee5 c67 d9 df
+topic: 開發人員和實作
+uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -35,9 +35,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 系統僅可匯入包含目前或過去日期的資料。請勿在資料來源資料中使用未來的日期。
 * 必須對所有列指定要啟用報表製圖功能的日期。如果列不包含日期，資料來源會產生錯誤並拒絕檔案。日期/時間格式依資料來源類型而異:
 
-   * **完全處理資料來源**：使用ISO8601日期格式( `YYYY-MM-DDThh:mm:ss±UTC_offset` 例如， `2013-09-01T12:00:00-07:00`)或Unix時間格式(自1970年月日起的秒數)。
+   * **Full Processing Data Sources: Use the ISO 8601 date format of  (for example, ), or Unix Time Format (the number of seconds elapsed since January 1, 1970).**`YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`
 
-   * **標準與整合資料來源**：使用下列日期格式： `MM/DD/YYYY/HH/mm/SS` (例如，)`01/01/2013/06/00/00`
+   * **標準與整合資料來源**:使用下列日期格式： `MM/DD/YYYY/HH/mm/SS` (例如 `01/01/2013/06/00/00`)
 
 ## 一般 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -60,7 +60,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=new_report_suite" format="https" scope="external">新增報表套裝</a>」。 </p> </td> 
+   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">新增報表套裝</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
