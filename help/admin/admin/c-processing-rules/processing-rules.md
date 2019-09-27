@@ -1,19 +1,19 @@
 ---
 description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
 seo-description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
-seo-title: 處理規則概述
+seo-title: 處理規則概觀
 solution: Analytics
 subtopic: 處理規則
-title: 處理規則概述
+title: 處理規則概觀
 topic: 管理工具
-uuid: 6b4ee7c9-2b86-47a6-b64 c-c8 d644 fff67 d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 處理規則概述
+# 處理規則概觀
 
 處理規則可簡化資料收集，以及管理傳送至報告的內容。處理規則可以簡化與 IT 團隊以及網頁開發人員之間的互動，提供介面給您進行下列工作:
 
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->由於處理規則會永久影響Analytics資料，因此我們強烈建議處理規則管理員接收Adobe Analytics中的認證訓練，並熟悉報表套裝的所有資料來源(標準網站、行動網站、行動應用程式、資料插入API等)。瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
+>由於處理規則會永久影響Analytics資料，因此強烈建議處理規則管理員接受Adobe Analytics的認證訓練，並熟悉您報表套裝的所有資料來源（標準網站、行動網站、行動應用程式、資料插入API等）。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
 
 ## 使用上下文資料簡化資料收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -51,7 +51,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/evar-context-map.png)
 
-請參閱實施說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)。
+請參閱實施說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)。
 
 ## 使用處理規則來轉換點擊資料和觸發事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -61,4 +61,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在實施中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)這裡。
+如需詳細資訊，請參閱 here and here.[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)
