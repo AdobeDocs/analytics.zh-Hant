@@ -8,7 +8,7 @@ title: JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * Audience Manager 模組已更新至 DIL 9.1。(AN-175255)
 * GTM 安全性政策不允許 Activity Map 模組。(AN-174679)
-* 已改善AppMeasurement，以在身分服務未在選擇加入中核準時接受選擇退出。 (AN-175259)
+* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
 
 ## 2.11.0 版
 
@@ -177,7 +177,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 * 納入最新版 [!DNL dil.js] (AN-140396)
 * Added support for `adobe_mc_ref` parameter which overrides the page referrer. (AN-131920)
 * 重新納入 Visitor API 2.1.0。(AN-140873)
-* Added `mcorgid` parameter. (AN-139586)
+* 已新增 `mcorgid` 參數。 (AN-139586)
 * 新增 cp (customerPerspective) 參數。(AN-140897)
 
 ## 版本 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
@@ -353,11 +353,11 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 延伸功能</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/?f=ios_ext" format="https" scope="external">iOS 延伸功能實施</a>。 </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> iOS </span> SDK version 4.5, a new <span class="keyword"> iOS </span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS </span> extension apps. </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 延伸功能實施</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android 穿戴式延伸功能</span> </p> </td> 
-   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/?f=android_wearable" format="https" scope="external">Android 穿戴式延伸功能</a>。 </p> </td> 
+   <td colname="col2"> <p> Starting in <span class="keyword"> Android </span> SDK version 4.5, a new <span class="keyword"> Android </span> extension lets you collect data from your <span class="keyword"> Android </span> Wearable app. </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android 穿戴式延伸功能</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -432,7 +432,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 
    >[!IMPORTANT]
    >
-   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/?f=mcvid_implement) implementation for Experience Cloud.
+   >For an [!DNL Analytics] call to use the POST method instead of the GET method in [!DNL AppMeasurement] (a method of solving [truncated URLs in IE](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html)), you must be using the latest [Visitor ID Service](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_implement.html) implementation for Experience Cloud.
 
 ## 版本 1.4 {#section_56ADFF9416B14ABCB3862B00F72B30A1}
 
@@ -441,7 +441,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 *  15 版中不再針對移除追蹤瀏覽器外掛程式 (`p` 查詢參數) 做為外掛程式進行報告。
 * Addition of the **[!UICONTROL AudienceManagement]** Module in the download zip.
 
-已新增對[其他 eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=evars_events) (76 - 250) 和事件 (101-1000) 的支援。
+已新增對[其他 eVars](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html) (76 - 250) 和事件 (101-1000) 的支援。
 
 >[!NOTE]
 >
@@ -497,7 +497,7 @@ Fixed an issue where [!DNL AppMeasurement] library does not always set the corre
 發行日期: **2013 年 11 月 14 日**
 
 * 新增支援[心率視訊測量](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)。
-* [!DNL VisitorAPI.js]已新增 以支援[訪客 ID 服務](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)。
+* [!DNL VisitorAPI.js]已新增 以支援[訪客 ID 服務](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)。
 
 ## 版本 1.1.1 {#section_31F06384039648BB99F4BD630B685794}
 
@@ -541,8 +541,8 @@ A new [!DNL JavaScript] [!DNL AppMeasurement] library is now available in Code M
 * 原生支援，以便取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
 * 輕便快速且功能強大，無論在行動版網頁或桌面完整版網頁皆可輕鬆使用，可讓您在所有的網站環境中使用單一程式庫。
 
-請參閱 實施指南中的 [Javascript 適用的 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=appmeasure_mjs)。[!DNL Analytics]
+請參閱 實施指南中的 [Javascript 適用的 AppMeasurement](https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html)。[!DNL Analytics]
 
 >[!NOTE]
 >
->此新版本不支援某些外掛程式。 如需詳細資料，請參閱[外掛程式支援](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=plugins_support)。
+>此新版本不支援某些外掛程式。 如需詳細資料，請參閱[外掛程式支援](https://marketing.adobe.com/resources/help/en_US/sc/implement/plugins_support.html)。
