@@ -1,20 +1,20 @@
 ---
-description: 執行不同報告類型的步驟。
-seo-description: 執行不同報告類型的步驟。
+description: 執行不同報表類型的步驟。
+seo-description: Steps on running the different report types.
 seo-title: 執行不同的報表類型
 solution: Analytics
 title: 執行不同的報表類型
 topic: 報告,Reports & Analytics
-uuid: f59ab2a1-e916-46e8-bb5 b-e6361 ba00 dda
+uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ad6ba22acf6996aa038c5a3252cae8bddbf0b36a
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
 # 執行不同的報表類型
 
-執行不同報告類型的步驟。
+執行不同報表類型的步驟。
 
 
 ## 執行排名報告 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
 
-如需相關說明，請參閱[轉換報告](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion)。
+如需相關說明，請參閱[轉換報告](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)。
 
 ## 執行流失報告 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ t_reports_fallout.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [流失報告說明](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_fallout)
+>* [流失報告說明](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
 
 
 ## 執行頁面流程報告 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -103,7 +103,7 @@ t_reports_page_flow.xml
 
 查看 Analysis Workspace 新的[流量視覺化](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)!
 
-執行[路徑](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_paths)報告。
+執行[路徑](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html)報告。
 
 For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
 
@@ -129,7 +129,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_conversion_funnel).
+1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
 
 ## 執行行銷管道報告 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -155,11 +155,11 @@ t_anomaly_view.xml
 
 查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)功能!
 
-**[!UICONTROL 報表]** &gt; **[!UICONTROL 網站度量]** &gt; **[!UICONTROL 異常偵測]** 。
+**[!UICONTROL 報表]** &gt;網 **[!UICONTROL 站量度]** &gt; **[!UICONTROL 異常偵測]** 。
 
 >[!NOTE]
 >
->您也可以從分析工作區專案執行異常偵測。[更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+>您也可以從分析工作區專案中執行異常偵測。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 如需設定異常偵測的資訊，請參閱[參考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)。
 
@@ -184,9 +184,9 @@ t_anomaly_view.xml
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差百分比值 (圖表左邊) 的計算方式如下： 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限和預期值相同，則偏差百分比為 100% </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">否則偏差百分比為((實際值-上限值)/(上限值-預期值))*100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和預期值相同，偏差百分比為-100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否則偏差百分比為((下限值-實際值)/(預期值-下限值))*-100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">否則偏差百分比為(（實際值——上界值）/（上界值——預期值）)* 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下界和預期值相同，則偏差百分比為-100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否則偏差百分比為(（下限值——實際值）/（預期值——下限值）)* -100 </li> 
        </ul> </li> 
       <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下「<span class="uicontrol">顯示區段</span>」會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">深入了解</a>區段。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下「<span class="uicontrol">編輯量度</span>」可讓您選取和取消選取您要偵測異常的量度。 </li> 
@@ -270,7 +270,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>選擇報告套裝</strong></td> 
-   <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=t_realtime_admin" format="http" scope="external">即時報告組態</a>。 </td> 
+   <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">即時報告組態</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切換報告</strong></td> 
