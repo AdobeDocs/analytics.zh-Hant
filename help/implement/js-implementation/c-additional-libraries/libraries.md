@@ -1,23 +1,23 @@
 ---
 description: 列出可用的測量程式庫。
-keywords: Analytics實作；收集；資料；collection
+keywords: Analytics實施；collect;data;collection
 seo-description: 列出可用的測量程式庫。
-seo-title: 其他資料庫簡介
+seo-title: 其他程式庫概觀
 solution: Analytics
-title: 其他資料庫簡介
-topic: 開發人員和實施
-uuid: 1ec291f6-073f-49d1-b6 ab-044b1069 db4 e
+title: 其他程式庫概觀
+topic: 開發人員和實作
+uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 其他資料庫簡介
+# 其他程式庫概觀
 
 列出可用的測量程式庫。
 
-下表概述可用於在所有可用平台上收集 Analytics 資料的測量程式庫。如需詳細資訊，請參閱 [Analytics 中的資料收集](https://marketing.adobe.com/resources/help/en_US/reference/?f=usecase_sending_data_to_sc)。
+下表概述可用於在所有可用平台上收集 Analytics 資料的測量程式庫。如需詳細資訊，請參閱 [Analytics 中的資料收集](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html)。
 
 <table id="table_B01E5B7E5DEB42A28AB851E640A6F08E"> 
  <thead> 
