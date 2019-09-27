@@ -6,9 +6,9 @@ seo-title: 實作 Adobe 的選擇退出
 solution: Analytics
 title: 實作 Adobe 的選擇退出
 topic: 開發人員和實作
-uuid: fc3a411c-8476-409d-99de-05b34ab
+uuid: fc3a411c-8476-409d-99de-05b34ace5019
 translation-type: tm+mt
-source-git-commit: b59e232b98c7e180478103ac2939a2c8c64a1407
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -34,7 +34,7 @@ Adobe 建議您提供關於選擇退出不讓 Adobe 產品或服務收集其瀏�
 
 Adobe offers three types of opt-outs for Adobe Analytics (including [!UICONTROL Reports &amp; Analytics], [!UICONTROL Data Warehouse], [!UICONTROL Ad Hoc Analysis]):
 
-* 如果您使用自己的第一方Cookie實施Adobe Analytics產品，則需要 [為您的網站訪客開發自己的自訂退出連結](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) 。
-* 您的客戶可以選擇使用瀏覽器的 Cookie 設定啟用退出。請參閱[啟用瀏覽器 Cookie 的隱私權設定](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/?f=browser_cookie_settings)。
+* 如果您使用您自己的第一方Cookie實作Adobe Analytics產品，則需為 [網站訪客開發自訂的退出連結](../../../implement/js-implementation/data-collection/opt-out-link.md#concept_C2C4F19811A445EF9E9BEAC709B568A9) 。
+* 您的客戶可以選擇使用瀏覽器的 Cookie 設定啟用退出。請參閱[啟用瀏覽器 Cookie 的隱私權設定](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html)。
 
 無論選擇哪種退出機制，Adobe 都建議您在隱私權原則中 (或在法律要求或根據目前最佳實務建議的位置) 清楚說明可使用的退出機制。
