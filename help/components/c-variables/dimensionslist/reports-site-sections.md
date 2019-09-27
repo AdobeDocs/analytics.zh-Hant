@@ -5,9 +5,9 @@ seo-title: 網站區域
 solution: Analytics
 title: 網站區域
 topic: 報表
-uuid: 6839c566-f88 f-4979-1cf5-52a77 c0 b0416
+uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 顯示訪客最常存取的網站區域。「網站區域」可包含您定義的產品群組 (類似於類別)。例如，您可能有頁面的「相機」群組、「電腦」群組等。「轉換網站區域」報表的資料是從「流量」群組中的「網站區域」報表匯入，「網站區域」報表則是從追蹤程式碼中的頻道變數接收資訊。您可以使用此報告識別不同網站區域的項目對網站統計資料的最大影響。
 
-* 此報告會直接參照來自於網站上實施之 [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_channel) 變數的資料。
+* 此報告會直接參照來自於網站上實施之 [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) 變數的資料。
 * 此報告可使用趨勢與排名格式來檢視。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
 * 您可以在此報告中使用「 分類」，以便對明細項目重新命名和合併。
 * 關聯可透過「管理工具」以任何其他流量變數來建立。
 * 此報告可使用下列量度:
 
-   * **頁面檢視**: [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_pagename) 變數或 URL 已定義 (設為預設量度) 的次數
+   * **頁面檢視**: [pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 變數或 URL 已定義 (設為預設量度) 的次數
 
    * **所有路徑量度**: 瀏覽、平均頁面深度、平均頁面逗留時間、登入點、退出點、重新載入與單次存取
    * 根據您的組織與報表套裝的設定: 可在此報告上啟用每日、每週、每月、每季獨特訪客。
@@ -59,7 +59,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
        <li id="li_C6D3AD5A534243A8A6E17C663FEBA6BA">網站區域 </li> 
        <li id="li_E1F46EED5CE2425D83200A2FCB686EE5">登入頁面 </li> 
        <li id="li_1201EE0EBF13476C9A9525E0700F30F3">多數流量來源報告 </li> 
-       <li id="li_563E07858FB1473BB22C2B191E8BE620">造訪次數 </li> 
+       <li id="li_563E07858FB1473BB22C2B191E8BE620">訪問次數 </li> 
        <li id="li_1CAD77ABA6A2454282A4DA7E88C047E8">多種訪客資料報告 </li> 
        <li id="li_D3A04E4CD8EC4646AAB90BF19F0AFA8A">所有轉換變數與清單變數 </li> 
        <li id="li_01C194CE0F3E4C0694A34B4C6697F385">可使用瀏覽以及每日、每週、每月、每季、任意獨特訪客。 </li> 
