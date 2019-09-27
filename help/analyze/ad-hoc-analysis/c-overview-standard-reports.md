@@ -1,22 +1,22 @@
 ---
 description: 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
 seo-description: 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
-seo-title: 報表概述
+seo-title: 報表概觀
 solution: Analytics
-title: 報表概述
+title: 報表概觀
 topic: Ad Hoc Analysis
-uuid: 36722dcd-5dc9-404-1a17-16de876193fb
+uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 報表概述
+# 報表概觀
 
 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
 
-## Reports overview {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
+## 報表概觀 {#concept_41459A705F2048EEA4EFA80F6BD9FFAB}
 
 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
 
@@ -51,7 +51,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 確定流行的網站內容。
 * 以任何可量度的標準劃分訪客。
 
-## 行銷活動 {#concept_A407CDF1D4AA49BAB396A1666E67FC87}
+## 促銷活動 {#concept_A407CDF1D4AA49BAB396A1666E67FC87}
 
 顯示您廣告行銷的成效。您可以看到帶給您最大流量的廣告行銷類型，以及負責推廣這些行銷的員工。
 
@@ -61,7 +61,7 @@ c_reports_campaigns.xml
 
  -->
 
-這些報表通常會加以自訂，因此對每個分析人員來說都不一樣。See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=campaign_manager_admin) in the [!DNL Admin Console] help for more information.
+這些報表通常會加以自訂，因此對每個分析人員來說都不一樣。See [Campaign Manager](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html) in the [!DNL Admin Console] help for more information.
 
 ## 統計計算 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -82,7 +82,7 @@ c_Statistical_Calculation_ad_hoc.xml
 1. Select **[!UICONTROL Settings]**.
 1. Select **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL 忽略統計計算中的零]**。選取此選項可忽略零，確保新增其他量度並不會變更已計算的平均值。所有統計資料都受此設定影響 (但對「總計」沒有影響)。
+**[!UICONTROL 忽略統計計算中的零]**。 選取此選項可忽略零，確保新增其他量度並不會變更已計算的平均值。所有統計資料都受此設定影響 (但對「總計」沒有影響)。
 
 | 計算 | 說明 |
 |--- |--- |
