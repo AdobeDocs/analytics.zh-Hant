@@ -1,19 +1,19 @@
 ---
 description: 處理規則用於將上下文資料變數的值移至 prop 和 eVar。
 seo-description: 處理規則用於將上下文資料變數的值移至 prop 和 eVar。
-seo-title: 複製上下文資料變數至eVar
+seo-title: 複製上下文資料變數至 eVar
 solution: Analytics
 subtopic: 處理規則
-title: 複製上下文資料變數至eVar
+title: 複製上下文資料變數至 eVar
 topic: 管理工具
-uuid: Beaec4c-71e9-49ce-b154-78408cc532 a3
+uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 複製上下文資料變數至eVar
+# 複製上下文資料變數至 eVar
 
 處理規則用於將上下文資料變數的值移至 prop 和 eVar。
 
@@ -38,4 +38,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/set-context-data.png)
 
-請參閱實施說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables)。
+請參閱實施說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html)。
