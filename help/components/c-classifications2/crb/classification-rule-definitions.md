@@ -1,19 +1,19 @@
 ---
 description: 「分類規則產生器」裡頁面上之介面元素的定義。
 seo-description: 「分類規則產生器」裡頁面上之介面元素的定義。
-seo-title: 分類規則-定義
+seo-title: 分類規則 - 定義
 solution: Analytics
-subtopic: '分類   '
-title: 分類規則-定義
+subtopic: 分類
+title: 分類規則 - 定義
 topic: 管理工具
-uuid: 77af8669-6e11-435c-9cc3-b03 eb627 c855
+uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 分類規則-定義
+# 分類規則 - 定義
 
 「分類規則產生器」裡頁面上之介面元素的定義。
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>選取報表套裝和變數 </p> </td> 
-   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意: 您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p>For example, to make <span class="term"> Pages</span> available as a variable to the rule set, ensure that the report suite has <a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"> traffic classifications</a> implemented for <span class="term"> Page</span>. </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=traffic_classification_admin" format="https" scope="external">流量分類</a>」和「<a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=conversion_classifications" format="https" scope="external">轉換分類</a>」。 </p> </td> 
+   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意: 您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p>For example, to make  Pages available as a variable to the rule set, ensure that the report suite has  traffic classifications implemented for  Page.<span class="term"></span><a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classifications.html" format="http" scope="external"></a><span class="term"></span> </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/traffic_classification_admin.html" format="https" scope="external">流量分類</a>」和「<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html" format="https" scope="external">轉換分類</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 啟動</span> </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>設定報表套裝和變數 </p> </td> 
-   <td colname="col2"> <p>顯示<span class="wintitle">「可用報表套裝」</span>頁面，您可在其中選取要用於所有規則集的一或多個可用報表套裝。(當您首次執行<span class="wintitle">「分類規則產生器」</span>時，也會顯示此頁面)。 </p> <p>此功能的用意是在您有數百個可用報表套裝時，降低報表套裝的載入時間。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>Note: A report suite becomes available <span class="term"> only</span> when the report suites have at least one classification defined for the variable in <span class="wintitle"> Admin Tools</span>. <p>(See <span class="term"> Variable</span> in <a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"> Classification Rule Sets</a> for an explanation about this prerequisite.) </p> </p> </td> 
+   <td colname="col2"> <p>顯示<span class="wintitle">「可用報表套裝」</span>頁面，您可在其中選取要用於所有規則集的一或多個可用報表套裝。(當您首次執行<span class="wintitle">「分類規則產生器」</span>時，也會顯示此頁面)。 </p> <p>此功能的用意是在您有數百個可用報表套裝時，降低報表套裝的載入時間。 </p> <p>The report suites you select here are made available at the rule level, when you click <span class="uicontrol"> Add Suites</span> when creating a rule. </p> <p>注意： A report suite becomes available  only when the report suites have at least one classification defined for the variable in  Admin Tools.<span class="term"></span><span class="wintitle"></span> <p>(See  Variable in  Classification Rule Sets for an explanation about this prerequisite.)<span class="term"></span><a href="../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524" format="dita" scope="local"></a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>規則會覆寫任何現有的值 </p> </td> 
