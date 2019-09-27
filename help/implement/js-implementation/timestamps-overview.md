@@ -1,14 +1,14 @@
 ---
 description: 瞭解使用「可選時間戳記」設定的好處與限制。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 瞭解使用「可選時間戳記」設定的好處與限制。
 seo-title: 使用可選時間戳記
 solution: Analytics
 title: 使用可選時間戳記
-topic: 開發人員和實施
-uuid: 956a16-6ffa-4b63-b022-a659 f5143 e00
+topic: 開發人員和實作
+uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |--- |--- |
 | 時間戳記資料無法傳送至非時間戳記全域報表套裝。因此，從離線裝置傳送的點擊資料新增至非時間戳記報表套裝時，會被捨棄。<br/><br/>因此，從離線資料傳送的點擊資料新增至非時間戳記報表套裝時，會被捨棄。 | 將應用程式更新為收集和使用時間戳記，必須要採用新的報表套裝。<br/>將應用程式更新為使用時間戳記時，您無法儲存至現有的報表套裝或整合現有資料。 |
 
-**使用「可選時間戳記」**，您可以整合即時網站的非時間戳記資料與來自行動裝置的離線資料，或將非時間戳記應用程式更新為時間戳記應用程式。 ![](assets/timestamp_v_non6.png)
+**使用可選時間戳記**，您可以整合來自即時網站的非時間戳記資料與來自行動裝置的離線資料，或將您的非時間戳記應用程式更新為時間戳記應用程式。 ![](assets/timestamp_v_non6.png)
 
 ## 將資料合併至全域報表套裝 {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
 
@@ -62,7 +62,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->仔細規劃每個元件資料集的設計，讓全域報表套裝中的組合有意義。
+>仔細規劃每個元件資料集的設計，讓組合在全域報表套裝中有意義。
 
 ## 採用時間戳記的最佳實務 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
@@ -74,7 +74,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/timestamp_v_non8.png)
 
-* 不建議在設定 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_custom) 時使用時間戳記。這可能會造成資料順序錯誤。
+* 不建議在設定 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) 時使用時間戳記。這可能會造成資料順序錯誤。
 
 * 由應用程式 (有時間戳記的離線資料) 開啟網路瀏覽器 (非時間戳記的即時資料) 組成的混合應用程式不應使用時間戳記。這會導致錯誤報告作業階段。
 
