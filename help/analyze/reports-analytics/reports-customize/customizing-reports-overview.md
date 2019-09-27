@@ -1,18 +1,18 @@
 ---
 description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報告資料、變更以圖形呈現資料的方式、變更日期精細度等等。
 seo-description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報告資料、變更以圖形呈現資料的方式、變更日期精細度等等。
-seo-title: 自訂報告概述
+seo-title: 自訂報表概觀
 solution: Analytics
-title: 自訂報告概述
-topic: Reports & Analytics
-uuid: 37d221b7-50fd-4425-b2 ba-f40911 b72 a2 f
+title: 自訂報表概觀
+topic: Reports and Analytics
+uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 自訂報告概述
+# 自訂報表概觀
 
 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報告資料、變更以圖形呈現資料的方式、變更日期精細度等等。
 
@@ -38,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORE_LIKE_THIS]
 >
->* [功能表自訂](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)
+>* [功能表自訂](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)
 
 
 ## 選擇日期或日期範圍 {#task_9BEF7D4D839A4748B76E8500D1406C34}
