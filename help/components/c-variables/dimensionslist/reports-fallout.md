@@ -5,9 +5,9 @@ seo-title: 流失
 solution: Analytics
 title: 流失
 topic: 報表
-uuid: 2385834e-a1 b1-4ac5-9530-3afde6 d02 d3 d
+uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -26,12 +26,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 請參閱[客戶歷程 – 流失](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)。
 
-** Reports &amp; Analytics **
+** Reports and Analytics **
 
-如需設定資訊，請參閱「說明」中的「[執行流失報告](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=t_reports_fallout)」。
+如需設定資訊，請參閱「說明」中的「[執行流失報告](https://marketing.adobe.com/resources/help/en_US/sc/user/t_reports_fallout.html)」。
 
 ** Ad Hoc Analysis **
 
 您可以在瀏覽或訪客層級分析流失資料。您亦可看到一個趨勢化路徑，顯示特定時段內的流失圖。您可以設定單一頁面或頁面群組作為報告查核點，也可以加入任何維度或量度的組合或順序。您亦可使用在行銷報告中設定的類別作為此報告的查核點。
 
-如需設定資訊，請參閱「說明」中的「[流失報告](https://marketing.adobe.com/resources/help/en_US/dsc/index.html?f=c_reports_fallout)」。
+如需設定資訊，請參閱「說明」中的「[流失報告](https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_fallout.html)」。
