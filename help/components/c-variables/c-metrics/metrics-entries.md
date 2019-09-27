@@ -5,9 +5,9 @@ seo-title: 登入點
 solution: Analytics
 title: 登入點
 topic: 量度
-uuid: c4608b66-b70 c-4e98-b7 c6-9be4 fe4 ec9 c
+uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -16,4 +16,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 登入點代表指定的值在瀏覽中是被擷取的第一個值之次數。登入點在每次瀏覽時只能計入一次。但是，如果未定義變數，則不一定要是第一次點擊。
 
-登入頁面有瀏覽劃分範圍，代表它們持續存在於一次瀏覽的所有點擊間。有關詳細資訊，請參閱[劃分和分段容器](https://marketing.adobe.com/resources/help/en_US/sc/user/?f=c_Breakdown_and_segmentation_containers)。
+登入頁面有瀏覽劃分範圍，代表它們持續存在於一次瀏覽的所有點擊間。有關詳細資訊，請參閱[劃分和分段容器](https://marketing.adobe.com/resources/help/en_US/sc/user/c_Breakdown_and_segmentation_containers.html)。
