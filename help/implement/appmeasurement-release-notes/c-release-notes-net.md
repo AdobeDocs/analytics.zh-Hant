@@ -5,10 +5,10 @@ seo-title: Windows Silverlight、NET、IIS、XBOX
 solution: Analytics
 subtopic: 發行說明
 title: Windows Silverlight、NET、IIS、XBOX
-topic: 開發人員和實施
-uuid: 15c20bca-4886-4d57-9957-fe99743851 ea
+topic: 開發人員和實作
+uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,17 +17,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->這些SDK已日落，不再受到Adobe支援或散髮。
+>These SDKs have been sunset and are no longer supported or distributed by Adobe.
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啓偵錯記錄。
+>To find the current library version, turn on debug logging.
 
 ## 版本 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 發行日期: **2014 年 8 月**
 
-* Removed support for the [!DNL Microsoft Silverlight Analytics Framework]. Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* Removed support for the . [!DNL Microsoft Silverlight Analytics Framework]Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
 
 * 進行內部變更，以支援未來功能。
 
@@ -43,7 +43,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 新增傳送長度超過 255 個位元組之 URL 的支援，進而在 Adobe Data Collection 伺服器中支援「頁面 URL」欄位的擴充。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 這麼一來，在瀏覽器切截字串的情況下，可以避免長 URL 佔據其他資料，但仍可擷取長 URL。
 
-* 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)。
+* 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
 * Added a new `abort` flag that can be set inside `doPlugins`. 若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
 
    ```js
@@ -90,7 +90,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 版本 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* [!DNL iOS] 針對手機平台的新支援和建立，包括離線追蹤。
+* New support and build for [!DNL iOS] Phone platform including offline tracking.
 * 支援 doRequest 委派，以覆蓋送出要求進行資料追蹤的方式。
 * 支援可提升伺服器端處理規則的 contextData (僅限 v15)。
 * 支援輕伺服器呼叫 (目前測試中)。
