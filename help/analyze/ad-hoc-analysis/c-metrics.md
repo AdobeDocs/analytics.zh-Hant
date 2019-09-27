@@ -1,16 +1,16 @@
 ---
 description: 度量是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、日期、件數、訂購、收入等。度量和相關資料顯示在報表欄中。
 seo-description: 度量是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、日期、件數、訂購、收入等。度量和相關資料顯示在報表欄中。
-seo-title: 度量
-title: 度量
-uuid: ab9d8a45-0297-4757-b0 f0 f0 e0 db0 d67 d67
+seo-title: 量度
+title: 量度
+uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 度量
+# 量度
 
 度量是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、日期、件數、訂購、收入等。度量和相關資料顯示在報表欄中。
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * **轉換**: 顯示有關網站成功事件的資料。成功事件包括購買、下載，或任何您想要使用者在您網站上執行的操作。
 * **計算**: 由組合其他度量而建立的可自訂度量。例如，您可以建立一個度量，它透過從收入中減去關鍵字成本和貨品成本來得到純收入。隨後，您可以用此量除以訂購數來得到每訂購的平均純收入。
 
-請參閱 [Analytics 參考](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics)中的&#x200B;*度量定義*，瞭解 [!DNL Experience Cloud] 中如何使用度量的詳細資訊。
+請參閱 [Analytics 參考](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)中的&#x200B;*度量定義*，瞭解 [!DNL Experience Cloud] 中如何使用度量的詳細資訊。
 
 您可以使用[!UICONTROL 組織度量]工具，為度量建立新資料夾。您可以接著按照所需的方式將度量分組。組織工具可讓您使用拖曳的方式，將現有度量複製到自訂資料夾。
 
@@ -50,7 +50,7 @@ t_organize_metrics.xml
 
    >[!NOTE]
    >
-   >刪除資料夾時，資料夾中所有的度量都會從目前選取的專案中刪除。
+   >刪除資料夾時，資料夾中的所有度量都會從您目前選取的專案中刪除。
 
 ## 新增量度到報表 {#task_747DD1718B3F4776B83A115D0BE8754C}
 
