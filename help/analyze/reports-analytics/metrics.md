@@ -4,15 +4,15 @@ seo-description: 度量是報告的基礎，有助於您檢視和理解資料關
 seo-title: 量度
 solution: Analytics
 title: 量度
-topic: Reports & Analytics
-uuid: ae2021eb-8b26-4a98-b7 a0-ce36 bca46753
+topic: Reports and Analytics
+uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 度量
+# 量度
 
 度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。度量是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 
@@ -24,7 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [計算度量是由組合度量所建立。](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=metrics).
+For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
 
 ## 選擇預設報告度量 {#task_9537A607288A4450AE07EC7C070B47C6}
 
