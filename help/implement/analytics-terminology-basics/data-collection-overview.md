@@ -1,14 +1,14 @@
 ---
 description: 瞭解至您網站的造訪如何在 Adobe Analytics 中成為一份報告。
-keywords: Analytics實作；資料收集
+keywords: Analytics實施；資料收集
 seo-description: 瞭解至您網站的造訪如何在 Adobe Analytics 中成為一份報告。
 seo-title: 資料彙集
 solution: Analytics
 title: 資料彙集
-topic: 開發人員和實施
-uuid: d0d6098d-113e-4cf5-be89-e435 f7 b6 b1
+topic: 開發人員和實作
+uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -21,10 +21,10 @@ Analytics 資料收集是透過向 Adobe 資料收集伺服器發出特殊影像
 
 由於瀏覽器處理的典型瓶頸是從網站伺服器下載頁面元素 (影像等) 的花費時間，因此瀏覽器執行 JavaScript 代碼的所需時間幾可忽略。不過，訪客瀏覽器向 Adobe 資料收集伺服器發出影像請求的最後一個步驟，確實會增加頁面下載總時間。對頁面下載時間的整體影響，取決於網站訪客距離 Adobe 資料收集伺服器的鄰近程度 (通常是指網際網路躍點，而非地理距離)。
 
-Adobe 建立了多種可將資料傳入 Analytics 中的方式。這些方式包括即時追蹤下列項目的資訊:
+Adobe 提供多種將資料傳入 Analytics 的方式。這些方式包括即時追蹤下列項目的資訊:
 
 * 可存取網際網路的應用程式
-* 行銷活動
+* 促銷活動
 * 主從式應用程式
 * 電子郵件
 * 行動裝置
@@ -61,7 +61,7 @@ Adobe 建立了多種可將資料傳入 Analytics 中的方式。這些方式包
 
    >[!NOTE]
    >
-   >每個影像要求包含隨機數字字串，以防止瀏覽器快取並確保瀏覽器發出後續影像要求。
+   >每個影像要求都包含隨機數字字串，以防止瀏覽器快取，並確保瀏覽器發出後續的影像要求。
 
 1. Adobe 回報空白像素影像。
 
@@ -69,11 +69,11 @@ Adobe 建立了多種可將資料傳入 Analytics 中的方式。這些方式包
 
    程式碼會自動收集額外細節 (如作業系統、瀏覽器類型、瀏覽器高度及寬度、IP 位址，以及瀏覽器使用語言)。
 
-1. Adobe servers store web analysis data in *`report suites`* (your data repository).
+1. Adobe伺服器會將網頁分析資料儲存 *`report suites`* 在（您的資料儲存庫）中。
 
    ![](assets/how-data-is-collected-5.png)
 
-   [報表套裝](https://marketing.adobe.com/resources/help/en_US/reference/?f=report_suites_admin)主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。
+   [報表套裝](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。
 
 1. 報告套裝資料會填充在您可於網路瀏覽器取得的報表。
 
