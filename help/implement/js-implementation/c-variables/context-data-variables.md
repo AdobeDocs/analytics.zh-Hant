@@ -1,15 +1,15 @@
 ---
 description: 「上下文資料」變數可讓您定義每個頁面上可由「處理規則」讀取的自訂變數。
-keywords: Analytics實作；contextData；s. contextData
+keywords: Analytics實施；contextdata;s.contextdata
 seo-description: 「上下文資料」變數可讓您定義每個頁面上可由「處理規則」讀取的自訂變數。
 seo-title: 上下文資料變數
 solution: Analytics
 subtopic: 變數
 title: 上下文資料變數
-topic: 開發人員和實施
-uuid: 4b215803-99d4-46f2-b3 c1-e7855898764
+topic: 開發人員和實作
+uuid: 4b215803-99d4-46f2-b3c1-e7855898764
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -22,14 +22,16 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 >[!NOTE]
 >
->上下文資料變數不區分大小寫。例如，下列 2 個變數效力相同: &gt;
+>上下文資料變數不區分大小寫。 例如，下列 2 個變數效力相同: &gt;
 >```>
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >
->```>
+>
+```>
 >and 
 >
->```>
+>
+```>
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```>
 
@@ -37,7 +39,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 使用上下文資料不需要更新程式碼，就能支援不同的報表套裝設定。
 
-例如，您可以定義下列 *`s.contextData`* 變數：
+例如，您可以定義下列  *`s.contextData`* variable:
 
 ```
 s.contextData['myco.rsid'] = 'value'
@@ -68,7 +70,7 @@ s.contextData['myco.rsid'] = 'value'
    <td colname="col2"> <p>建議做法是在變數前面加上公司名稱、網站名稱或類似的值，以確保該名稱在整個報表套裝中都是唯一的。 </p> <p>上下文資料變數的命名方式可與其他 JavaScript 變數相同。請注意，命名空間 <code>a.*</code> 保留給 Adobe 產品用於上下文變數名稱。iOS 適用的 AppMeasurement 程式庫會使用 <code>a.InstallEvent</code> 來評估應用程式安裝。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Internet Explorer的URL限制 </p> </td> 
+   <td colname="col1"> <p>Internet explorer的URL限制 </p> </td> 
    <td colname="col2"> <p>您可能會遇到 Internet Explorer 6 和 7 的舊版 URL 限制，也就是 URL 會在 2000 位元組處被截斷。您可以使用 <span class="keyword">DigitalPulse</span> 除錯程式來判斷 URL 字串的大小。 </p> <p>對 AppMeasurement 進行的最新更新 (2014 年 9 月) 中，Internet Explorer 8 以上採用 HTTP POST，排除了截斷的問題。 </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +92,7 @@ s.tl(true,"o","Link Name");
 
 ## 範例 {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-Possible ways to replace implementation of the *`s.pageName`* variable, assuming that processing rules are set up correctly for each:
+可能的替代變數實作方 *`s.pageName`* 式，假設每個變數的處理規則設定正確：
 
 ```
 s.contextData['page'] = "Home Page" 
@@ -106,4 +108,4 @@ s.contextData['campaign'] = "Campaign A"
 s.contextData['author'] = "Sheridan Andrius"
 ```
 
-如需範例，請參閱「Analytics 參考」中的[複製上下文資料變數至 eVar](https://marketing.adobe.com/resources/help/en_US/reference/?f=processing_rules_copy_context_data)。
+如需範例，請參閱「Analytics 參考」中的[複製上下文資料變數至 eVar](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules_copy_context_data.html)。
