@@ -2,22 +2,22 @@
 description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定。
 keywords: Analysis Workspace
 seo-description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定。
-seo-title: 視覺化概述
+seo-title: 視覺效果概觀
 solution: Analytics
-title: 視覺化概述
-topic: Reports & Analytics
-uuid: 318dea64-6277-4ec3-ad48-4dfcp7 a54555
+title: 視覺效果概觀
+topic: Reports and Analytics
+uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 視覺化概述
+# 視覺效果概觀
 
 了解 Analysis Workspace 中的視覺效果和視覺效果設定。
 
-[YouTube分析工作區中的視覺效果類型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2：57)
+[YouTube分析工作區中的視覺化類型](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
 ## Visualizations panel {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -33,7 +33,7 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 >[!IMPORTANT]
 >
->視覺化設定會視視覺化而定。並非所有設定均可套用至所有視覺效果。此外，部分進階設定&#x200B;**僅**&#x200B;針對特定視覺效果顯示，例如[「色階分布圖」設定](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
+>哪些視覺化設定可視，視視覺化而定。 並非所有設定均可套用至所有視覺效果。此外，部分進階設定&#x200B;**僅**&#x200B;針對特定視覺效果顯示，例如[「色階分布圖」設定](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
 
 ![](assets/visualization_settings.png)
 
@@ -67,11 +67,11 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
   </tr> 
   <tr> 
    <td colname="col1"> <p>標準化 </p> </td> 
-   <td colname="col2"> <p>強制量度為相同比例。See <a href="https://marketing.adobe.com/resources/help/en_US/reference/?f=normalization" format="https" scope="external"> Normalization</a>. </p> </td> 
+   <td colname="col2"> <p>強制量度為相同比例。請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 標準化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顯示雙軸 </p> </td> 
-   <td colname="col2"> <p>只有當您有兩個度量時才適用-您可以在左側(僅限一個量度)和右側(用於另一個度量)上使用y軸。 </p> </td> 
+   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顯示異常 </p> </td> 
