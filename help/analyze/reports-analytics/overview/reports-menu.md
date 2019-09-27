@@ -3,9 +3,9 @@ description: 「Report & Analytics」中的報表功能表概述。
 seo-description: 「Report & Analytics」中的報表功能表概述。
 seo-title: 報表功能表
 title: 報表功能表
-uuid: 562cb6bf-9396-42a3-adf4-9651af8641 cb
+uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -27,9 +27,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 報表導覽使用階層式檢視進行。Click **[!UICONTROL View All Reports]**, or press the Forward Slash key (/), and then press the Down Arrow key (?) to quickly display and navigate the menu using the Arrow keys. 按 Esc 鍵可關閉功能表而不變更目前報表，按 Enter 鍵則可載入選取的報表。
 
-![](assets/reports-landing.png){width=「672px」}
+![](assets/reports-landing.png){width="672px"}
 
-如需個別報表的詳細資訊，請參閱[報表說明](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=reports_descriptions)。
+如需個別報表的詳細資訊，請參閱[報表說明](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)。
 
 ## 搜尋報表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -41,7 +41,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->您也可以依prop、eVar和事件編號來搜尋報表清單。在搜尋列中輸入 prop、eVar 或事件編號。
+>您也可以依據prop、eVar和事件編號來搜尋報表清單。 在搜尋列中輸入 prop、eVar 或事件編號。
 
 ## 導覽概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -55,14 +55,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1">Experience Cloud 解決方案功能表<img placement="inline"  src="assets/mc-icon.png" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
-   <td colname="col2"> 按一下此圖示可展開Experience Cloud功能表，讓您存取其他Marketing Cloud解決方案。 </td> 
+   <td colname="col2"> 按一下此圖示會展開Experience cloud功能表，讓您存取其他Marketing cloud解決方案。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">切換報表功能表 <img placement="inline"  src="assets/toggle_icon.png" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
    <td colname="col2"> 按一下此按鈕可以展開或收合「報表」功能表，因此您可以使用瀏覽器視窗的完整寬度來檢視報表。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">區段<img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">區段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取「<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external">區段產生器</a>」和「<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external">區段管理員</a>」介面。 </td> 
   </tr> 
   <tr> 
@@ -99,7 +99,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 書籤...</span> </td> 
-   <td colname="col2">Lets you <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> bookmark</a> the report. </td> 
+   <td colname="col2">可讓您 <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> 為報表</a> 建立書籤。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 控制面板</span>... </td> 
@@ -122,4 +122,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 自訂全部報表功能表 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理員可以變更「報表」功能表中所含的報表。請參閱「管理說明」中的[功能表自訂](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=customize_menus)。
+管理員可以變更「報表」功能表中所含的報表。請參閱「管理說明」中的[功能表自訂](https://marketing.adobe.com/resources/help/en_US/reference/customize_menus.html)。
