@@ -3,12 +3,12 @@ description: 規則集是一組特定變數的分類規則。您將變數套用�
 seo-description: 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
 seo-title: 分類規則集
 solution: Analytics
-subtopic: '分類   '
+subtopic: 分類
 title: 分類規則集
 topic: 管理工具
-uuid: c4d7b77c-fa98-44be-955f-9aee7 f73380 b
+uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
 
-## Classification rule sets {#concept_CD3D510F5070486584F3BB535AE41524}
+## 分類規則集 {#concept_CD3D510F5070486584F3BB535AE41524}
 
 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
 
 ## 分類規則產生器頁面 {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 分類規則產生器」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;分類規 **[!UICONTROL 則產生器]**
 
 「[!UICONTROL 分類規則產生器]」上有下列的欄位和選項。
 
@@ -70,7 +70,7 @@ t_classification_rule_set.xml
 
 1. (Prerequisite) Define the classification structure in **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 
-   (請參閱「管理工具」說明中的[「分類」](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=classifications)，了解如何新增分類。)
+   (請參閱「管理工具」說明中的[「分類」](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)，了解如何新增分類。)
 
    必須先為變數定義至少一個分類，變數才會顯示在[!UICONTROL 「新的規則集」]面板中。
 
