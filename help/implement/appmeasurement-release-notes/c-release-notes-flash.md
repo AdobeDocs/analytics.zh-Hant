@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 開發人員和實作
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -19,7 +19,7 @@ Flash 的累積發行說明。可在桌面和網路上測量使用 ActionScript 
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啟除錯記錄。
+>To find the current library version, turn on debug logging.
 
 <!-- 
 
@@ -35,11 +35,11 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## August 18, 2016 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 —— 更新**
+** 4.0.2 - Update**
 
 已納入 Visitor API 1.6.0。
 
-## 2016 年 5 月 19 日 {#section_061305CFC1E040E69E3CDF4078C17AE4}
+## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
 ** 4.0.1 —— 更新**
 
@@ -60,7 +60,7 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-受影響的版本為所有平台上 適 [!DNL AppMeasurement] 用於所有平台的Flash 4.0及更早版本。
+受影響的版本為所有平台上  for Flash version 4.0 and earlier on all platforms.[!DNL AppMeasurement]
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ s.debugTracking = false; // set to false or remove line
 
 ## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
-4.0版——更新：
+Version 4.0 - Update:
 
 * 納入 Visitor API 1.5.2.
 
@@ -86,7 +86,7 @@ s.debugTracking = false; // set to false or remove line
 
 * 納入 Visitor API 1.5.1.
 
-## 2015 年 6 月 18 日 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
+## June 18, 2015 {#section_2ACB18A1693244D6A49B53F4E17F0C30}
 
 4.0版——更新
 
@@ -95,7 +95,7 @@ s.debugTracking = false; // set to false or remove line
 
 ## May 21, 2015 {#section_F5EFCC451F13499F9AA53326AE5926F1}
 
-3.9.2版——更新：
+Version 3.9.2 - Update:
 
 * 納入 Visitor API 1.4
 
@@ -132,7 +132,7 @@ s.debugTracking = false; // set to false or remove line
 
 發行日期: **2014 年 4 月 17 日**
 
-* 支援 [Experience Cloud訪客ID服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
 
 ## 版本 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
@@ -157,7 +157,7 @@ s.debugTracking = false; // set to false or remove line
 發行日期: **2013 年 10 月 17 日**
 
 * 支援[心率視訊追蹤](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)。
-* 已納入 VisitorAPI.swc 以支援[訪客 ID 服務](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=visid_service#)。
+* 已納入 VisitorAPI.swc 以支援[訪客 ID 服務](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_service#.html)。
 * ActionScript 3 已不支援 Flash player 9。ActionScript 3 適用的 Flash Player 最低版本為 10。
 
 ## 第 3.6.2 版 {#section_57FB21568BDD48F7882F00AD630E6CE8}
@@ -184,7 +184,7 @@ s.debugTracking = false; // set to false or remove line
 
 * 新增傳送長度超過 255 個位元組之 URL 的支援，進而在 Adobe Data Collection 伺服器中支援「頁面 URL」欄位的擴充。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 這麼一來，在瀏覽器切截字串的情況下，可以避免長 URL 佔據其他資料，但仍可擷取長 URL。
 
-* 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_identifying_unique_visitors)。
+* 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
 * Added a new `abort` flag that can be set inside `doPlugins`. 若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
 
    ```js
