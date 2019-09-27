@@ -7,7 +7,7 @@ title: 流量來源報表
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 646d6e01d0f0201c78117ee9bf9ff64fda9a026a
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -97,7 +97,7 @@ c_reports_referrers.xml
 
 任何非這些已定義網域和 URL 之一部分的網域或 URL，就會被視為反向連結。例如，將網頁 A 和網頁 B 新增至內部 URL 篩選器，但網頁 C 沒有加入。在這種情形下，網頁 C 就會被視為反向連結。
 
-See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=internal_URL_filter_admin) in the [!DNL Admin Console] help for more information.
+See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
 
 >[!NOTE]
 >
