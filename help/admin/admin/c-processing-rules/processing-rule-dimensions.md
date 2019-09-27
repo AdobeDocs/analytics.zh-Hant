@@ -1,19 +1,19 @@
 ---
 description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
 seo-description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
-seo-title: 用於處理規則的維度
+seo-title: 適用於處理規則的維度
 solution: Analytics
 subtopic: 處理規則
-title: 用於處理規則的維度
+title: 適用於處理規則的維度
 topic: 管理工具
-uuid: ba73ab59-a8 cf-491c-8757-5fb03 d6 b0745
+uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 ---
 
 
-# 用於處理規則的維度
+# 適用於處理規則的維度
 
 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
 
@@ -41,7 +41,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> 複製上下文資料變數至eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=context_data_variables" format="http" scope="external"> 上下文資料變數</a> </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> 複製上下文資料變數至eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 上下文資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,11 +111,11 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面根網域 </p> </td> 
-   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面查詢字串 </p> </td> 
-   <td colname="col2"> <p>URL 的完整查詢字串。https://en.main.example.co.uk/index.jsp？<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>URL 的完整查詢字串。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結* (唯讀) </p> </td> 
@@ -135,7 +135,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結查詢字串 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp？<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP 位址 (唯讀) </p> </td> 
