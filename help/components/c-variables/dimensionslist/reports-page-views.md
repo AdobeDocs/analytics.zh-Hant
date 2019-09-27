@@ -7,7 +7,7 @@ title: 頁面檢視
 topic: 報表
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -20,8 +20,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **報告屬性**
 
-* 此報告會參照在您的網站上呼叫 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_the_s.t()function) 函數的次數。
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/index.html?f=c_linktracking) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* 此報告會參照在您的網站上呼叫 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 函數的次數。
+* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
 
 * 由於只要使用者重新整理頁面或點按上一頁按鈕就會傳送影像要求，因此這個報告也會包含這些動作。
 * 以小時為單位的劃分會以報表套裝的時區為準。
