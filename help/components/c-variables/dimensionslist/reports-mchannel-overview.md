@@ -5,9 +5,9 @@ seo-title: 行銷管道概觀
 solution: Analytics
 title: 行銷管道概觀
 topic: 報表
-uuid: e4542014-2098-4f4a-ac0 d-97587182d6 cc
+uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -18,23 +18,23 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 一般屬性 {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* 這個報告只依賴「行銷管道」[處理規則](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_channels_rules)。若變更這些規則，此報告的資料計算方式也會隨之變更。
+* 這個報告只依賴「行銷管道」[處理規則](https://marketing.adobe.com/resources/help/en_US/mchannel/c_channels_rules.html)。若變更這些規則，此報告的資料計算方式也會隨之變更。
 * 處理規則的順序對於「行銷管道」的運作方式有很大的影響。每個點擊都會先檢查位於處理規則最上方的條件，然後再依序往下篩選。
 * 此報告由兩個劃分組成: 管道本身和管道詳細資料。按一下每個管道旁的 '+' 按鈕，即可顯示其詳細資料。
 * 每一欄只能新增四個量度。但您可使用的欄數並無限制。
 * 最後一欄末端會顯示小型趨勢線。此趨勢線可在不同的作用中量度間循環切換。
 * 除了標準方法所收集的各種管道外，您也可以使用離線資料來源。
-* 您可以使用[分類](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_classifications)，以便重新命名和合併明細項目。
+* 您可以使用[分類](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html)，以便重新命名和合併明細項目。
 * 以下是可在此報告中使用的量度 (視組織與報表套裝設定而定):
 
-   * **點進**&#x200B;次數： *`s.campaign`* 變數的定義次數。
+   * **點進次數**:變數的定 *`s.campaign`* 義次數。
 
-   * [新增參與](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=t_visitor_engagement): 已接收新的「首次接觸管道」的訪客人數。
+   * [新增參與](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html): 已接收新的「首次接觸管道」的訪客人數。
    * 所有標準電子商務量度: 收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等。
    * 所有自訂事件: 事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100。
    * **瀏覽**&#x200B;與&#x200B;**訪客**: 必須是商務瀏覽與訪客，依組織和報表套裝而定。請洽詢您的客戶經理，以取得詳細資訊。
 
-   * **預算**&#x200B;與&#x200B;**成本**:「行銷管道」的專用量度。請參閱[成本與預算](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html?f=c_overview_budget)。
+   * **預算**&#x200B;與&#x200B;**成本**:「行銷管道」的專用量度。請參閱[成本與預算](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_budget.html)。
 
 ## 產品特定屬性 {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
