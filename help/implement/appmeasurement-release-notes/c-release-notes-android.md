@@ -8,7 +8,7 @@ title: Android
 topic: 開發人員和實作
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -339,7 +339,7 @@ Android 行動程式庫的累積發行說明。
 
 ## 版本 4.6 {#section_ADF6F871CF3C4E2381464D62DA6E1EB1}
 
-[!DNL Android] SDK 4.6版（2015年9月17日）包含下列變更：
+The [!DNL Android] SDK version 4.6 (September 17, 2015) includes the following changes:
 
 <table frame="all" colsep="1" rowsep="1" id="table_35D0692698EF49AE8204F2AEB57CABD7"> 
  <thead> 
@@ -459,7 +459,7 @@ Android 行動程式庫的累積發行說明。
 發行日期: **2014 年 4 月 17 日**
 
 * 新功能——藍芽信標追蹤。
-* 新增——啟用時間戳記的應用程式，當機點擊會回溯至正確的作業。
+* New - Apps that are timestamp enabled, crash hits are backdated to the correct session.
 * 新增——啟用時間戳記的應用程式，先前的作業會在點擊中傳送，並回溯至正確的作業。 (而不再是先前的作業)。
 * 新增——點擊批次處理。
 * 修正Google Play反向連結追蹤的可設定逾時，以允許延遲的Google反向連結資料。
@@ -597,7 +597,7 @@ Android 行動程式庫的累積發行說明。
 
 發行日期: **2012 年 10 月**
 
-* 新增對 [Google Play 促銷活動追蹤](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/index.html?f=referrer)的支援。
+* 新增對 [Google Play 促銷活動追蹤](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html)的支援。
 
 ## 版本 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
