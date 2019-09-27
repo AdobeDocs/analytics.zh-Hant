@@ -5,9 +5,9 @@ seo-title: 自訂
 solution: Analytics
 title: 自訂
 topic: 報表
-uuid: 04a2cf81-6f2a-49f3-a449-cb701 a899 aad
+uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
@@ -24,4 +24,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 另外，您可以儲存自己覺得重要的報告。這些報告稱為書籤。您亦可將許多報告放在一個畫布上，以迅速檢視對自己最重要的報告。這些稱為控制面板，也是依使用者而異。介面中圖表上方有一橫列，列出您書籤和控制面板。
 
-有關詳細資訊，請參閱「[書籤](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=c_bookmarks)」和「[控制面板與報告](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html?f=c_dashboard)」。
+有關詳細資訊，請參閱「[書籤](https://marketing.adobe.com/resources/help/en_US/sc/user/c_bookmarks.html)」和「[控制面板與報告](https://marketing.adobe.com/resources/help/en_US/sc/user/c_dashboard.html)」。
