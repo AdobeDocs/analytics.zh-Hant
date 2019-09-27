@@ -1,23 +1,23 @@
 ---
 description: 閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
 seo-description: 閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
-seo-title: 常見問答與範例
+seo-title: 常見問題集和範例
 solution: Analytics
 subtopic: 行銷渠道
-title: 常見問答與範例
-topic: Reports & Analytics
-uuid: 1c63a1b5-a191-4855-aa65-fac19 ab1037 a
+title: 常見問題集和範例
+topic: Reports and Analytics
+uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ---
 
 
-# 常見問答與範例
+# 常見問題集和範例
 
 閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
 
-* [常問的問題](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
+* [常見問題集](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
 * [未識別渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)
 * [付費搜尋](../../components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1)
 * [免費搜尋](../../components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386)
@@ -28,16 +28,16 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [電子郵件](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
 * [直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 
-請參閱[建立行銷渠道處理規則，](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) 以瞭解「 [!UICONTROL 行銷渠道處理規則] 」頁面上顯示的欄位定義。
+請參閱 [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
-## 常見問題 {#section_E490CEAF0E76422C91D34D8A80A0C573}
+## 常見問題集 {#section_E490CEAF0E76422C91D34D8A80A0C573}
 
 各行銷渠道規則的實施，因您的追蹤代碼而異。若要設定可提供所需結果的規則，需要一些創新的問題解決方法。
 
 **問題**: 我的追蹤代碼不遵從模式，而我必須為我的「附屬機構」渠道指定上千個模式。
 
 * 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用 *`affiliates.`*
-* 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. If it does not contain *`eml`*, then it is an affiliate.
+* 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. 如果不含，則 *`eml`*&#x200B;為分支機構。
 
 **問題**: 反向連結網域包含的資料多於我的預期。
 
@@ -57,7 +57,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 規則依順序處理。如果不符合特定標準，點按便會屬於下列三個類別之一: 
 
-1. 沒有反向連結(直接瀏覽)。
+1. 無反向連結（直接瀏覽）。
 
 2. 內部反向連結，位於瀏覽的第一頁。
 
@@ -65,11 +65,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 請確保擁有針對這三種可能性的渠道。例如，建立如下規則︰
 
-1. **[!UICONTROL 反向連結]** 和 **[!UICONTROL 不存在]** 和 **[!UICONTROL 是第一個瀏覽頁面]**。(請參閱[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)。)
+1. **[!UICONTROL 反向連結]** 和 **[!UICONTROL 不存在]** , **[!UICONTROL 且是第一個瀏覽頁面]**。 (請參閱[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)。)
 
-2. **[!UICONTROL 反向連結匹配內部URL篩選器]** 和 **[!UICONTROL 是第一個瀏覽頁面]**。(請參閱[內部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)。)
+2. **[!UICONTROL Referrer Matches Internal URL Filters and Is First page of Visit.]******(請參閱[內部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)。)
 
-3. **[!UICONTROL 反向連結]** 和 **[!UICONTROL 存在]** 和 **[!UICONTROL 反向連結不符合內部URL篩選器]**。
+3. **[!UICONTROL Referrer]** and **[!UICONTROL Exists]** and **[!UICONTROL Referrer Does Not Match Internal URL Filters]**.
 
 最後，建立一個擷取剩餘點按的&#x200B;*「其他」*&#x200B;渠道，如[未識別渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)中所述。
 
@@ -83,7 +83,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 >[!NOTE]
 >
->可能仍有部分頻道流量可能屬於「未識別渠道」類別。舉例來說: 一位訪客造訪網站並將網頁加到書籤中，在同一次造訪中會透過書籤返回該頁面。由於這不是該次造訪的第一頁，並沒有反向連結網域，因此不會分類到「直接渠道」或「其他渠道」。
+>There might be still some channel traffic that can fall into the No Channel Identified category. 舉例來說: 一位訪客造訪網站並將網頁加到書籤中，在同一次造訪中會透過書籤返回該頁面。由於這不是該次造訪的第一頁，並沒有反向連結網域，因此不會分類到「直接渠道」或「其他渠道」。
 
 ## 付費搜尋 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
 
@@ -93,7 +93,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ![](assets/example_paid_search.png)
 
-如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)。
+如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)。
 
 ## 免費搜尋 {#section_A4C6B8F0360449BE94F0128FF7C71386}
 
@@ -105,7 +105,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ![](assets/example_natural_search.png)
 
-如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://marketing.adobe.com/resources/help/en_US/reference/index.html?f=paid_search_detection)。
+如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)。
 
 ## 附加產品 {#section_8D142C7074CD4DEC87DF55B691107622}
 
