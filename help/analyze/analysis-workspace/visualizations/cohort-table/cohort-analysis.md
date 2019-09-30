@@ -1,23 +1,23 @@
 ---
 keywords: Analysis Workspace
-seo-title: 甚麼是世代分析？
+seo-title: 同類群組分析分析是什麼?
 solution: Analytics
-title: 甚麼是世代分析？
-topic: Reports & Analytics
-uuid: 39 a83 f3 a-15d1-41d7-bcd-50c22 aed8 f1 c
+title: 同類群組分析分析是什麼?
+topic: Reports and Analytics
+uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
 
 ---
 
 
 # 同類群組分析是什麼?
 
-A *`cohort`* is a group of people sharing common characteristics over a specified period. 例如，當您想瞭解同類群組如何與品牌互動時，世代分析就很有用。您可輕易看出趨勢中的變化，然後據以做出回應。(Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
+A *`cohort`* is a group of people sharing common characteristics over a specified period. 例如，當您想要瞭解同類群組如何與品牌互動時，同類群組分析就很有用。 您可輕易看出趨勢中的變化，然後據以做出回應。(Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。See [Curate and Share](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6).
+建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參 [閱組織與分享](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)。
 
-您可以使用Cohort Analysis做些甚麼的範例：
+Examples of what you can do with Cohort Analysis:
 
 * 推行專為刺激所需動作的促銷活動。
 * 在客戶生命週期的正確時間點轉移行銷預算。
@@ -29,21 +29,25 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 所有具有 Analysis Workspace 存取權限的 Analytics 客戶皆可使用同類群組分析。
 
-[YouTube上的世代分析](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4：36)
+[YouTube上的世代分析](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:36)
 
-## 世代分析功能
+>[!IMPORTANT]
+>
+>世代分析不支援計算量度。
 
-Adobe於19月發行了全新且大幅增強的世代分析版本。這個版本能讓您對正在建立的同類群組進行更精細的控制。下列為主要的增強功能:
+## Cohort Analysis capabilities
+
+2019年1月，Adobe推出全新且大幅增強的世代分析版本。 這個版本能讓您對正在建立的同類群組進行更精細的控制。下列為主要的增強功能:
 
 ### 保留率表格
 
-保留世代報表會傳回訪客：每個資料儲存格顯示在該時段內執行動作的群組中的原始訪客數量和百分比。您可以包含最多 3 個量度和最多 10 個區段。
+A retention cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. 您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/retention-report.png)
 
 ### 流失率表格
 
-Churn cohort是保留表格的反面，顯示在一段時間內不符合您世代傳回標準的訪客。您可以包含最多 3 個量度和最多 10 個區段。
+A Churn cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/churn-report.png)
 
