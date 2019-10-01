@@ -1,24 +1,21 @@
 ---
-description: 請在Adobe Analytics的「管理工具」中保留必要的eVar，然後再使用下列程式碼。
-seo-description: 請在Adobe Analytics的「管理工具」中保留必要的eVar，然後再使用下列程式碼。
-seo-title: 查詢字串Param外掛程式程式碼
+description: 在您使用下列程式碼之前，請先在Adobe Analytics的「管理工具」中保留必要的eVar。
+seo-description: 在您使用下列程式碼之前，請先在Adobe Analytics的「管理工具」中保留必要的eVar。
+seo-title: 查詢字串參數外掛程式代碼
 solution: Analytics
-title: 查詢字串Param外掛程式程式碼
-uuid: a71e7774-bc7 a-414e-a116-73970b900 bb
-index: y
-internal: n
-snippet: y
+title: 查詢字串參數外掛程式代碼
+uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# 查詢字串Param外掛程式程式碼{#query-string-param-plug-in-code}
+# 查詢字串參數外掛程式代碼{#query-string-param-plug-in-code}
 
-請在Adobe Analytics的「管理工具」中保留必要的eVar，然後再使用下列程式碼。
+在您使用下列程式碼之前，請先在Adobe Analytics的「管理工具」中保留必要的eVar。
 
-一旦瞭解已保留 [](../selligent-overview/selligent-activation/selligent-configure-variables.md#concept-907c2bdbed274c11a46d4cc323ef0238)的eVars，請將eVarN替換為相關eVar，例如eVar10。
+一旦您知道已保留的eVar，請以相關eVar取代eVarN，例如eVar10。
 
 ```
 /* 
