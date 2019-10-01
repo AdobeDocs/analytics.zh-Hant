@@ -6,12 +6,9 @@ seo-title: 整合功能
 solution: Analytics
 title: 整合功能
 topic: Data connectors
-uuid: ad8e6e8e8-3449-498a-8596-37c0ac1657cd
-index: y
-internal: n
-snippet: y
+uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -28,7 +25,7 @@ Data connectors DFA 整合在啟動之後，將可為您的 Adobe Analytics 報�
 
 >[!NOTE]
 >
->此整合不支援點按追蹤器(先前點按命令)。點按追蹤可用來記錄對網站上的文字連結、電子郵件訊息中的連結或其他硬式編碼元素的點按次數。
+>此整合不支援點按追蹤器（先前稱為點按命令）。 點按追蹤可用來記錄對網站上的文字連結、電子郵件訊息中的連結或其他硬式編碼元素的點按次數。
 
 Data connectors DFA 整合會自動從 DFA 所傳回的資料建構 DFA 追蹤代碼。所建構的這些追蹤代碼，會用來唯一識別廣告及其相關聯的版面和創作。以下將根據整合的版本概述追蹤代碼的結構。1.5 版顯示如下:
 
@@ -65,5 +62,5 @@ If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is sele
 
 >[!NOTE]
 >
->如果已啓用SearchCenter&gt; DFA去重復化，且已設定SearchCenter查詢字串參數，則不會考慮該次瀏覽的DFA處理。這表示，SearchCenter 查詢字串參數應不同於 DFA 點進參數，且不應有「顯示」廣告設定 SearchCenter 查詢字串參數。
+>如果啟用SearchCenter &gt; DFA重複資料消除，並設定SearchCenter查詢字串參數，則不會將瀏覽視為DFA處理。 這表示，SearchCenter 查詢字串參數應不同於 DFA 點進參數，且不應有「顯示」廣告設定 SearchCenter 查詢字串參數。
 
