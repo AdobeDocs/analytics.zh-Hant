@@ -22,20 +22,14 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!NOTE]
 >
->上下文資料變數不區分大小寫。 例如，下列 2 個變數效力相同: &gt;
->```>
->s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
->
-```>
->and 
->
->
-```>
+>上下文資料變數不區分大小寫。 例如，下列 2 個變數效力相同:
+>```
+>s.contextData['article_title'] = 'Weekend Concert Controversy';
+>```
+>and
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```>
-
-
+>```
 
 使用上下文資料不需要更新程式碼，就能支援不同的報表套裝設定。
 
