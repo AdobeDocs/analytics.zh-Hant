@@ -4,11 +4,8 @@ seo-description: 資料連接器整合精靈會逐步引導您完成資料連接
 seo-title: 執行資料連接器整合精靈
 title: 執行資料連接器整合精靈
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -29,4 +26,4 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 1. 在「 **[!UICONTROL emarsys快速資料連接器整合]** 」頁上，複查文本，然後選擇複選框以接受與整合相關的費用，然後按一下「下 **[!UICONTROL 一步」]**。
 
    此頁面會提供整合的概述，以及實用的相關資訊連結。Adobe和emarsys皆與此整合相關。 請連絡這兩個組織的適當銷售代表，並確定您瞭解費用結構。
-1. 完成「資 [料連接器整合精靈]」(https://microsite.omniture.com/t2/help/en_US/Data Connectors/index.html)。
+1. 完成資料連接器整合精靈。
