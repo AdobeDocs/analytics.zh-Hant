@@ -1,21 +1,18 @@
 ---
-description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行並將它們新增至頁面上的Adobe Analytics代碼。
-seo-description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行並將它們新增至頁面上的Adobe Analytics代碼。
+description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
+seo-description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
 seo-title: Adobe Analytics外掛程式程式碼
 title: Adobe Analytics外掛程式程式碼
-uuid: e99999e-1800-4d63-a4 cb-df68 a1 b53 d0 d
-index: y
-internal: n
-snippet: y
+uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Adobe Analytics外掛程式程式碼{#adobe-analytics-plug-in-code}
 
-如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行並將它們新增至頁面上的Adobe Analytics代碼。
+如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
 
 ```
 /* 
@@ -57,5 +54,5 @@ s.eVar12="Post Click Type of Action"; // e.g. "purchase";
 
 >[!NOTE]
 >
->以上外掛程式假設某些自訂商務變數(eVar)已推出。如果上述增效模組中指定的變數無法在您的Adobe Analytics部署中使用，只需將其取代為可用的變數即可。
+>上述外掛程式會假設有特定的自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Adobe Analytics部署中不可用，只需將其取代為可用的變數即可。
 
