@@ -6,12 +6,9 @@ seo-title: 常見問題集
 solution: Analytics
 title: 常見問題集
 topic: Data connectors
-uuid: 59d187e9-1ec1-4cf3-8831-b981 f87 c9372
-index: y
-internal: n
-snippet: y
+uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ---
 
@@ -32,7 +29,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 >[!NOTE]
 >
->整合2.0版不會使用CSID，因此CSID協商程序不適用。
+>CSID未用於整合2.0版，因此CSID協商程式不適用。
 
 ## 我使用 2.0 版的整合，但並未出現我的 DFA 廣告的成本量度。為什麼會這樣? {#section-805748111bbe4bbf918d6dbbb2641fff}
 
@@ -48,6 +45,8 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 首先，請確認有問題的廣告具有下列型態的著陸頁面: (a) 已為您要檢視差異的相同報表套裝加上 Adobe 代碼的標記，且 (b) 包含&#x200B;*`clickThroughParam`*&#x200B;查詢字串參數。
 
-其次，透過確認成功DFA整合中 [的步驟，確認您具有工作整合](../dfa-data-connector-analytics/dfa-integration/dfa-confirm-integration.md#concept-c1c869d2a6fa46b09fe41fc286e407c6)。如果您在著陸頁面上看見具有 Adobe 點擊的 DFA 追蹤代碼，則應該會在 DFA 促銷活動報表中看見點進。若未看見此項目，請確認著陸頁面的&#x200B;*`s.account`*&#x200B;變數中的報表套裝與要在「報告與分析」中檢視的報表套裝是相同的。如果相符，請在閱覽 eVar 報表中檢查顯示如下的追蹤代碼: DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX。
+其次，請遵循確認成功DFA整合中的步驟，確認您 [有有效的整合](../dfa-data-connector-analytics/dfa-integration.md)。 如果您在著陸頁面上看見具有 Adobe 點擊的 DFA 追蹤代碼，則應該會在 DFA 促銷活動報表中看見點進。若未看見此項目，請確認著陸頁面的&#x200B;*`s.account`*&#x200B;變數中的報表套裝與要在「報告與分析」中檢視的報表套裝是相同的。如果相符，請在閱覽 eVar 報表中檢查顯示如下的追蹤代碼: DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX。
 
-這些代碼表示 DFA VISTA 規則無法從 DFA 摘錄原始資料。此問題是可以修正的；請透過 Adobe 帳戶代表開立支援票證。如果上述解決方案未說明此問題，請參閱 [協調量度差異](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies/dfa-reconciling-metric-discrepancies.md#concept-8c31ebe761ca4b3fab1e3a18ef5d098f) 以探索其他可能性
+這些代碼表示 DFA VISTA 規則無法從 DFA 摘錄原始資料。此問題是可以修正的；請透過 Adobe 帳戶代表開立支援票證。
+
+如果前述解決方案都未涵蓋您的問題，請參閱 [協調量度差異](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以探索其他可能性.
