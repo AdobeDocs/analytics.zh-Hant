@@ -3,8 +3,8 @@ product: analytics
 audience: 終端使用者
 user-guide-title: Analytics 分析指南
 user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
-translation-type: ht
-source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
+translation-type: tm+mt
+source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
 
 ---
 
@@ -30,6 +30,7 @@ source-git-commit: de91e255a33b27cf7dd21621f3225417318fc02e
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
+      + [工作區總計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 元件 {#components}
       + [元件概觀](analysis-workspace/components/analysis-workspace-components.md)
       + 維度 {#dimensions}
