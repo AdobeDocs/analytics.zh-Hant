@@ -1,22 +1,19 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 主要優點與功能
+seo-title: 主要優點和功能
 solution: Analytics
-title: 主要優點與功能
-uuid: 3e865f89-a786-44d1-877d-36cb58 cb8 f74
-index: y
-internal: n
-snippet: y
+title: 主要優點和功能
+uuid: 3e865f89-a786-44d1-877d-36cb58cb3f74
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
-# 主要優點與功能{#key-benefits-and-features}
+# 主要優點和功能{#key-benefits-and-features}
 
-* 自動同步Kampyle和Adobe Analytics之間的意見維度和度量。
-* 關於回饋計數、評分和其他註解的新流量和轉換報告。
-* 新的回饋維度可用來建立區段，以便用於任何Adobe Analytics報表中。
+* Kampyle與Adobe Analytics之間每日自動同步意見維度與量度。
+* 新的流量和轉換報告，包括意見計數、評分和其他意見。
+* 可用來建立細分的新意見回應維度，以便深入任何Adobe Analytics報表。
 
