@@ -7,11 +7,8 @@ solution: Analytics
 title: 使用 DFA 資料的分析報表
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafed6
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -56,4 +53,3 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 * 選取特定 DFA 廣告名稱可開啟選項功能表，以取得更多關於特定 DFA 廣告的資訊。
 * 每個量度欄都包含一個顏色索引鍵，分別與量度在圖形中的指定顏色相對應。
 * 報表會以「收入」量度排序，收入最高的廣告位於最上方。您可以按一下不同的欄 (量度) 標籤，以變更報表排序。
-
