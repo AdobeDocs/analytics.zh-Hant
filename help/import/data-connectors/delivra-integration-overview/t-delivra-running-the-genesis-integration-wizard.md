@@ -4,11 +4,8 @@ seo-description: 資料連接器整合精靈會逐步引導您完成資料連接
 seo-title: 執行資料連接器整合精靈
 title: 執行資料連接器整合精靈
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -130,4 +127,3 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
   </tr> 
  </tbody> 
 </table>
-
