@@ -1,23 +1,20 @@
 ---
-description: earsys的Data Connectors整合使用Analytics變數來追蹤各種emarsys量度。
-seo-description: earsys的Data Connectors整合使用Analytics變數來追蹤各種emarsys量度。
+description: emarsys的「資料連接器」整合使用Analytics變數來追蹤各種emarsys量度。
+seo-description: emarsys的「資料連接器」整合使用Analytics變數來追蹤各種emarsys量度。
 seo-title: Analytics 變數
 title: Analytics 變數
-uuid: 4d5e087c-f495-4aab-9ad1-9b901 d34 a254
-index: y
-internal: n
-snippet: y
+uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Analytics 變數{#analytics-variables}
 
-earsys的Data Connectors整合使用Analytics變數來追蹤各種emarsys量度。
+emarsys的「資料連接器」整合使用Analytics變數來追蹤各種emarsys量度。
 
-識別要與emarsys整合搭配使用的Event和eVar後，請在 [「管理控制台](https://microsite.omniture.com/t2/help/en_US/reference/index.html?f=conversion_var_admin)」中啓用它們。
+在識別要與emarsys整合一起使用的事件和eVar後，在「管理控制台」中啟 [用它們](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/c-admin-tools.html)。
 
 **必要變數**
 
@@ -32,45 +29,45 @@ earsys的Data Connectors整合使用Analytics變數來追蹤各種emarsys量度�
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> event(數值) </td> 
-   <td colname="col2"> 彈回數總計 </td> 
-   <td colname="col3"> <p>自動從emarsys匯入 </p> </td> 
-   <td colname="col4"> <p>「彈回數總計」事件可讓您查看由於傳送問題而未傳送給收件者的電子郵件訊息數量。 </p> </td> 
+   <td colname="col1"> 事件（數值） </td> 
+   <td colname="col2"> 總彈回數 </td> 
+   <td colname="col3"> <p>自動從emarsys導入 </p> </td> 
+   <td colname="col4"> <p>「總彈回數」事件可讓您查看因傳送問題而未傳送給收件者的電子郵件訊息數目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> event(數值) </td> 
-   <td colname="col2"> 點按 </td> 
-   <td colname="col3"> <p>自動從emarsys匯入 </p> </td> 
-   <td colname="col4"> <p>點擊的事件可讓您查看點擊電子郵件訊息的訪客人數。 </p> </td> 
+   <td colname="col1"> 事件（數值） </td> 
+   <td colname="col2"> 已點按 </td> 
+   <td colname="col3"> <p>自動從emarsys導入 </p> </td> 
+   <td colname="col4"> <p>「點按」事件可讓您查看點按電子郵件訊息的訪客數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> event(數值) </td> 
-   <td colname="col2"> 已開啓 </td> 
-   <td colname="col3"> <p>自動從emarsys匯入 </p> </td> 
-   <td colname="col4"> <p>「開啓的事件」可讓您查看開啓電子郵件訊息的訪客人數。 </p> </td> 
+   <td colname="col1"> 事件（數值） </td> 
+   <td colname="col2"> 已開啟 </td> 
+   <td colname="col3"> <p>自動從emarsys導入 </p> </td> 
+   <td colname="col4"> <p>「已開啟」事件可讓您查看開啟電子郵件訊息的訪客人數。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> event(數值) </td> 
+   <td colname="col1"> 事件（數值） </td> 
    <td colname="col2"> 已傳送 </td> 
-   <td colname="col3"> <p>自動從emarsys匯入 </p> </td> 
-   <td colname="col4"> <p>「傳送」事件可讓您查看傳送的電子郵件訊息數目。 </p> </td> 
+   <td colname="col3"> <p>自動從emarsys導入 </p> </td> 
+   <td colname="col4"> <p>「傳送」事件可讓您查看已傳送的電子郵件數目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> event(數值) </td> 
+   <td colname="col1"> 事件（數值） </td> 
    <td colname="col2"> 取消訂閱 </td> 
-   <td colname="col3"> <p>自動從emarsys匯入 </p> </td> 
-   <td colname="col4"> <p>「取消訂閱」事件可讓您查看開啓電子郵件但按一下「取消訂閱」連結，以取消組織未來電子郵件訊息的訪客數量。 </p> </td> 
+   <td colname="col3"> <p>自動從emarsys導入 </p> </td> 
+   <td colname="col4"> <p>「取消訂閱」事件可讓您查看開啟電子郵件但接著按一下「取消訂閱」連結以選擇退出您組織未來的電子郵件訊息的訪客數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> eVar </td> 
    <td colname="col2"> Recipient ID </td> 
-   <td colname="col3"> <p>透過自動化收集方法或JavaScript外掛程式，從電子郵件連結中的查詢參數收集。 </p> </td> 
+   <td colname="col3"> <p>透過自動收集方法或JavaScript外掛程式，從電子郵件連結中的查詢參數收集。 </p> </td> 
    <td colname="col4"> Recipient ID </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> eVar或s. campaign </td> 
+   <td colname="col1"> eVar 或s.campaign </td> 
    <td colname="col2"> 訊息ID </td> 
-   <td colname="col3"> <p>透過自動化收集方法或JavaScript外掛程式，從電子郵件連結中的查詢參數收集。 </p> </td> 
+   <td colname="col3"> <p>透過自動收集方法或JavaScript外掛程式，從電子郵件連結中的查詢參數收集。 </p> </td> 
    <td colname="col4"> 此值通常儲存在促銷活動變數中。 </td> 
   </tr> 
  </tbody> 
