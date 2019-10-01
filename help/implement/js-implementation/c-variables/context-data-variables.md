@@ -1,15 +1,15 @@
 ---
 description: 「上下文資料」變數可讓您定義每個頁面上可由「處理規則」讀取的自訂變數。
-keywords: Analytics實施；contextdata;s.contextdata
+keywords: Analytics Implementation;contextdata;s.contextdata
 seo-description: 「上下文資料」變數可讓您定義每個頁面上可由「處理規則」讀取的自訂變數。
 seo-title: 上下文資料變數
 solution: Analytics
 subtopic: 變數
 title: 上下文資料變數
 topic: 開發人員和實作
-uuid: 4b215803-99d4-46f2-b3c1-e7855898764
+uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 959e4963eafe6e32a55b2ce9659fe43ea8086527
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!NOTE]
 >
->上下文資料變數不區分大小寫。 例如，下列 2 個變數效力相同:
+>Context data variables are not case sensitive. 例如，下列 2 個變數效力相同:
 >```
->s.contextData['article_title'] = 'Weekend Concert Controversy';
+>s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
->and
+>和
 >```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
@@ -86,7 +86,7 @@ s.tl(true,"o","Link Name");
 
 ## 範例 {#section_A16AD9E6E0E84F6A85CA4F08512480B3}
 
-可能的替代變數實作方 *`s.pageName`* 式，假設每個變數的處理規則設定正確：
+Possible ways to replace implementation of the  variable, assuming that processing rules are set up correctly for each:*`s.pageName`*
 
 ```
 s.contextData['page'] = "Home Page" 
