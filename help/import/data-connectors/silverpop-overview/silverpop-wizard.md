@@ -4,11 +4,8 @@ seo-description: 資料連接器整合精靈會逐步引導您完成資料連接
 seo-title: Silverpop整合
 title: Silverpop整合
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
-index: y
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
