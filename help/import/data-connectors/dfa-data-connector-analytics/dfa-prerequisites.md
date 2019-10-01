@@ -6,12 +6,9 @@ seo-title: 必備條件
 solution: Analytics
 title: 必備條件
 topic: Data connectors
-uuid: b5f5e30c-e269-41a4-9236-5ddc404 bd94
-index: y
-internal: n
-snippet: y
+uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
@@ -20,7 +17,7 @@ source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
 
 開始執行 DFA 的 Adobe Data connectors 整合之前，請執行下列作業:
 
-* 決定要根據 1.5 的整合進行整合，還是等到 2.0 版再整合。這項決定取決於您的 DFA 帳戶中使用哪些功能，以及您要執行整合的時間範圍。如需詳細資訊，請參閱[關於 2.0 版](../dfa-data-connector-analytics/dfa-version-differences.md#concept-2c7d6a6ab8524dccad96ea0c17228664)。
+* 決定要根據 1.5 的整合進行整合，還是等到 2.0 版再整合。這項決定取決於您的 DFA 帳戶中使用哪些功能，以及您要執行整合的時間範圍。
 * 決定 DFA 廣告主將如何對應至 Adobe Analytics 報表套裝。例如，如果您有多個 DFA 廣告主和多個報表套裝，則必須決定哪些廣告主要與哪些報表套裝搭配。
 * 使用 H.22 版或更新版本的資料收集代碼，在您要追蹤的所有頁面上實施 Adobe 資料收集代碼。
 * 在您要整合的 Floodlight 設定中，瞭解 DFA 帳戶的廣告主 ID。整合會自動匯入所有存在於 Floodlight 設定內的廣告主。
