@@ -1,22 +1,70 @@
 ---
-description: 此Adobe® Data Connectors™電子郵件整合結合了Adobe Analytics®中的行為資訊與電子郵件行銷，以建立強大的工具，以重新定義成功度量和目標受眾，並使用更相關的訊息來重新定義目標受眾。
-seo-description: 此Adobe® Data Connectors™電子郵件整合結合了Adobe Analytics®中的行為資訊與電子郵件行銷，以建立強大的工具，以重新定義成功度量和目標受眾，並使用更相關的訊息來重新定義目標受眾。
-seo-title: Adobe Analytics的Aprimo Data Connector
-title: Adobe Analytics的Aprimo Data Connector
-uuid: 590ed4b-b250-43b4-9cec-68508b853 e00
-index: y
-internal: n
-snippet: y
+description: This Adobe® Data Connectors™ email integration combines behavioral information from Adobe Analytics® with email marketing to create a powerful tool to redefine success measurement and target audiences with more relevant messaging.
+seo-description: 此Adobe® Data Connectors™電子郵件整合功能結合了Adobe Analytics®的行為資訊與電子郵件行銷，以建立功能強大的工具來重新定義成功評估並透過更相關的訊息鎖定受眾。
+seo-title: Adobe Analytics的Aprimo資料連接器
+title: Adobe Analytics的Aprimo資料連接器
+uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: e96de98b3176a05654fdf697210f992b0fd4adb1
+source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 ---
 
 
 # Aprimo Data Connector for Adobe Analytics{#aprimo-data-connector-for-adobe-analytics}
 
-此Adobe® Data Connectors™電子郵件整合結合了Adobe Analytics®中的行為資訊與電子郵件行銷，以建立強大的工具，以重新定義成功度量和目標受眾，並使用更相關的訊息來重新定義目標受眾。
+此Adobe® Data Connectors™電子郵件整合功能結合了Adobe Analytics®的行為資訊與電子郵件行銷，以建立功能強大的工具來重新定義成功評估並透過更相關的訊息鎖定受眾。
 
-將相關的電子郵件訊息傳送至這些市場區隔，可能會帶來全新的營收商機，進而提高新的電子郵件宣傳的轉化率和收入。例如，根據瀏覽期間檢視的產品來傳送相關的電子郵件訊息，或在離開購物車中的產品中提供相關的電子郵件訊息，可大幅影響收入，但這只是因為它只是運用您網站的訪客而已。
+向這些市場細分傳遞相關電子郵件訊息可帶來全新的營收商機，進而推動新電子郵件和現有電子郵件宣傳的轉化率和營收。 例如，根據瀏覽期間檢視的產品或放棄購物車中的產品，傳送相關的電子郵件訊息已證明對收入有顯著影響，而且對成本的影響最小，因為這只是利用您網站已獲取的訪客。
 
-提高行銷效率是與Aprimo整合 [!DNL Adobe Analytics] 的主要優點之一。此外，此整合將會自動同步電子郵件量度與 [!DNL Adobe Analytics] 每小時的資料，例如封閉迴路報表。
+這種行銷效率的提升是與Aprimo整合的主要 [!DNL Adobe Analytics] 優點。 此外，此整合將自動同步電子郵件量度與資 [!DNL Adobe Analytics] 料的頻率，與閉環報告的每小時頻率相同。
+
+## 主要優點和功能{#key-benefits-and-features}
+
+此整合包含下列主要優點：
+
+* 將電子郵件行銷與分析資料整合至單一報告介面。
+* 透過轉化和對收入和網站成功的貢獻，最佳化電子郵件宣傳。
+* 根據動態行銷區隔，重新行銷至關鍵訪客和市場區隔。
+
+## 動態行銷區段{#dynamic-marketing-segments}
+
+此整合包含下列動態行銷區段：
+
+* **** 購買設定檔：透過訪客購買模式所定位的促銷活動，增加重複訂單和平均訂單值。
+* **** 產品／內容檢視行為設定檔：根據產品檢視和內容存取分析，透過行銷細分觸及潛在客戶。
+* **** Cart Abandonment Profile: Help visitors convert to customers through fine-tuned campaigns specifically designed for those who are hesitant to complete carts.
+* Customers can also create and schedule custom remarketing segments specific to the needs of their users.
+
+## 啟動前{#before-you-activate}
+
+在開始的「資料連接器」整合之前，請完成下列需求：
+
+### Adobe Analytics Requirements {#section-960e70fd2eae4a1cb88a2e4b53a97313}
+
+* **** 報表套裝特定：請注意，此整合是報表套裝專用的。 在啟動整合之前，請確定您已選取所需的報表套裝。
+* **** 可用和設定的Adobe Analytics變數：此整合需要自訂事件和自訂eVar，以及選擇性的其他事件和其他eVar。
+* **** 授權代表：請注意，啟用此項整合可能會使貴公司根據您與Adobe, Inc.的服務合約或您與Adobe信任的合作夥伴之一（視情況而定）的服務合約產生費用。 啟動此整合後，您即表示您是您公司的授權代表；因此，貴公司同意支付上述服務協定所載之費用（如有）。
+* **** Data Warehouse™: This integration requires Data Warehouse to be enabled in order to generate remarketing segments. 如果您尚未啟用「資料倉庫」，請聯絡Adobe以取得詳細資訊。
+* **合作夥伴~**:整合需要我們在Adobe Analytics變數(eVar)中擷 [!DNL ~取並儲存~]「合作夥伴」。 此ID是來自合作夥伴系統的電子郵件地址的編碼或數 [!DNL ~字表~] 示。 此「合 [!DNL ~作夥伴~]」與網站上的下游訪客行為（購物車放棄、購買等）相關聯被拉入「合作伙 [!DNL ~伴~] 」系統，並可用於再行銷目的。 在設定程式中，當精靈提示時，您必須識別eVar以用於此目的。
+* **** 外部追蹤：如果您目前未遵循針對您傳送的每個電子郵件促銷活動啟用外部追蹤的最佳實務，您必須這麼做，以確保成功整合。 如需詳細資 [!DNL ~訊，請參閱~] 以下的「合作夥伴」一節。
+* **** 隱私權規範：您應瞭解，透過啟用「收件者」或「訪客ID」追蹤，此功能可追蹤您網站訪客的個人識別資訊。 這涉及隱私權問題，需要貴組織實施適當的程式，例如向網站訪客提供通知並給予同意。
+
+## 定價{#pricing}
+
+請注意，啟用此項整合可能會使貴公司根據您與Adobe, Inc.的服務合約或您與Adobe信任的合作夥伴之一（視情況而定）的服務合約產生費用。
+
+啟動此整合後，您即表示您是您公司的授權代表；因此，貴公司同意支付上述服務協定所載之費用（如有）。
+
+### Adobe定價考量事項 {#section-1f4f46c0d969435db57d38c1c310a05a}
+
+此整合可能會產生重複性和實施費用，包括透過此整合產生的伺服器呼叫數增加的成本。 Please contact your Adobe Account Representative for pricing details.
+
+### ~合作夥伴定價考量~{#section-f8ca71df32224412a5101efb6e356529}
+
+此整合可能會產生經常性和實施費用。 請聯絡合 [!DNL ~作夥伴~] ，以取得價格詳細資訊。
+
+## Adobe Analytics變數{#adobe-analytics-variables}
+
+此整合需要Adobe Analytics變數來追蹤量度。
+
+在識別要與此整合搭配使用的事件和eVar後，必須在Adobe Analytics管理控制台中啟用它們(如需指示，請參 [閱報表套裝](https://docs.adobe.com/content/help/en/analytics/admin/manage-report-suites/report-suites-admin.html) )。
