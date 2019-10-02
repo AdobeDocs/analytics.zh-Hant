@@ -17,15 +17,15 @@ Adobe 針對各組織的數位策略與行銷方案提供可執行的即時資�
 
 **系統要求**
 
-Data Connectors 應該可以與最熱門的各種瀏覽器適當地整合。然而，唯有在滿足以下建議的系統上，報表的外觀和功能才能充分發揮:
+Data Connectors 應該可以與最熱門的各種瀏覽器適當地整合。然而，唯有在滿足以下建議的系統上，報表的外觀和功能才能充分發揮：
 
-* 瀏覽器: Microsoft Internet Explorer 6 及更高版本
-* Cookie: 必要
-* JavaScript: 啟用
-* 作業系統: Windows
-* Macromedia Flash Player: 第 6 版或更高版本
-* 螢幕解析度: 1024x768 (800x600 亦可)
-* 色彩深度: 16 位元或更高
+* 瀏覽器：Microsoft Internet Explorer 6 及更高版本
+* Cookie：必要
+* JavaScript：啟用
+* 作業系統：Windows
+* Macromedia Flash Player：第 6 版或更高版本
+* 螢幕解析度：1024x768 (800x600 亦可)
+* 色彩深度：16 位元或更高
 
 此外，若使用者的網路瀏覽器啟用 JavaScript，資料收集的效能將更為提高。
 
@@ -45,7 +45,7 @@ Data Connectors 應該可以與最熱門的各種瀏覽器適當地整合。然�
 1. 登入Adobe Experience Cloud。
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Connectors]**.
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. 逐步執行「 **[!UICONTROL 新增整合]** 」介面。
+1. 逐步執行 **[!UICONTROL 「新增整合」]** 介面。
 
    由於各項產品整合不盡相同，因此在整合過程中您可能需要提供特定的設定資訊。
 
@@ -53,7 +53,7 @@ Data Connectors 應該可以與最熱門的各種瀏覽器適當地整合。然�
 
 ## Data connectors 主控台
 
-啟動整合後，它會顯示在「資料連接器 [!UICONTROL 」頁面] 。 您可以在主控台上檢視詳細資訊並變更組態。 您可以檢視使用中的整合和公司中所有報表套裝的整合。您也可以檢視活動記錄、將整合設定為控制面板、設定整合及尋找說明。
+啟動整合後，它會顯示在資料連接器 [!UICONTROL 「頁面」] 。 您可以在主控台上檢視詳細資訊並變更組態。 您可以檢視使用中的整合和公司中所有報表套裝的整合。您也可以檢視活動記錄、將整合設定為控制面板、設定整合及尋找說明。
 
 ![資料連接器主控台](assets/data-connectors-console.png)
 
@@ -65,37 +65,37 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 
 **區段**
 
-* [!UICONTROL  放棄購買]: 訪客新增項目至購物車但未購買的百分比。一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
-* [!UICONTROL 購買]: 根據特定產品中的訊息 ID 而進行購買的接收者 ID (或是訪客 ID)。
-* [!UICONTROL 產品檢視]:類似於「 [!UICONTROL 購物車放棄]」，這也是計算量度。 It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
+* [!UICONTROL 放棄購買]：訪客新增項目至購物車但未購買的百分比。 一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
+* [!UICONTROL 購買]： 根據特定產品中的訊息 ID 而進行購買的接收者 ID (或是訪客 ID)。
+* [!UICONTROL 產品檢視]：類似於「 [!UICONTROL 購物車放棄]」，這也是計算量度。 此量度會回報「[!UICONTROL 產品檢視數]」除以「訂單」的結果，因為客戶檢視產品表示他們有些許興趣。
 
 **實施範例**
 
-為了成功實施再行銷區段，下列條件必須符合:
+為了成功實施再行銷區段，下列條件必須符合：
 
 * Data connectors 合約已建立，且您的組織已透過 Adobe 顧問完成實施階段。
-* 產品變數會同時啟動對應的事件:
-   * 購物車放棄： `scAdd` 事件
-   * 購買： `purchase` 事件
-   * Product Views: `prodView` event
+* 產品變數會同時啟動對應的事件：
+   * 購物車放棄：`scAdd` 事件
+   * 購買：`purchase` 事件
+   * Product Views：`prodView` event
 
 **** 注意：如果定義產品時沒有關聯事件，則會自動觸發prodView事件。
 如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
-[!UICONTROL 放棄購買]: 當使用者新增產品至購物車時會啟動:
+[!UICONTROL 放棄購買]：當使用者新增產品至購物車時會啟動：
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL 購買]: 在購買確認頁面上啟動:
+[!UICONTROL 購買]：在購買確認頁面上啟動：
 
 ```
 s.products=";
 cat;1;50";
 s.events="purchase";
-//Note: Though optional, adding the purchaseID variable increases accuracy by preventing duplicate purchases
+//Note: Though optional, adding the purchaseID variable increases accuracy by preventing duplicate purchases.
 ```
 
 **常見問題**
