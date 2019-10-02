@@ -5,68 +5,53 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ---
 
 
 # s.dynamicAccountList
 
-[!DNL AppMeasurement]JavaScript 適用的 可動態選取其資料所要傳送到的報表套裝。 變數包含用來決定目標報表套裝的規則。
+> [!NOTE] 目前 `s.dynamicAccountList` 的AppMeasurement程式庫不 [支援變數](../../c-appmeasurement-js/appmeasure-mjs.md)。 它僅用於舊版AppMeasurement，例如H代碼。
 
-| 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
-|---|---|---|---|
-| 不適用 | 不適用 | 不適用 | "" |
-
-此變數在使用時會搭配  和 *`dynamicAccountSelection`* 變 *`dynamicAccountMatch`* 數。 若將中 *`dynamicAccountList`* 的規則設 *`dynamicAccountSelection`* 為'true'，則會套用至中指定之URL的區段 *`dynamicAccountMatch`*。
-
-如果中的任何規則都 *`dynamicAccountList`* 不符合頁面的URL，則會使用中識別的報 `s_account` 表套裝。 此變數中所列的規則會以由左至右的順序套用。若頁面 URL 符合多個規則，則會使用最左側的規則來決定報表套裝。因此，您應將較通用的規則移至清單的右側。
-
-在下列範例中，頁面URL是 `www.mycompany.com/path1/?prod_id=12345` 且 `dynamicAccountSelection` 設為 *true* , `s_account` 且設為 `mysuitecom.`
-
-| DynamicAccountList 值 | DynamicAccountMatch 值 | 要接收資料的報表套裝 |
-|---|---|---|
-| `mysuite2=www2.mycompany.com;mysuite1=mycompany.com` | window.location.host | mysuite1 |
-| "mysuite1=path4,path1;mysuite2=path2" | window.location.pathname | mysuite1、mysuite2 |
-| "mysuite1=path5" | window.location.pathname | mysuitecom、mysuite1 |
-| "myprodsuite=prod_id" | window.location.search?window.location.search:"?") | myprodsuite |
+變數 `s.dynamicAccountList` 可用來協助動態決定要傳送資料至的報表套裝。 它可與和變數一 `dynamicAccountSelection` 起使 `dynamicAccountMatch` 用。 如果將中 `dynamicAccountList` 的規則設 `dynamicAccountSelection` 為，則會套 `true`用這些規則，並套用至中指定之URL區段 `dynamicAccountMatch`。
 
 ## 語法和可能的值
 
- 此`dynamicAccountList` 變數是以分號分隔的「名稱=值」配對 (規則) 清單。清單中的每一項均應包含下項目: 
-
-* 一或多個報表套裝 ID (以逗號分隔)
-* 一個等號
-* 一或多個 URL 篩選器 (以逗號分隔)
-
-```js
-s.dynamicAccountList=rs1[,rs2]=domain1.com[,domain2.com/path][;...]
+```JavaScript
+s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
+
+Valid input is a semicolon-separated list of name=value pairs (rules). 每個清單都包含下列項目：
+
+* 一或多個報表套裝ID（以逗號分隔）
+* 等號
+* 一或多個URL篩選器（以逗號分隔）
 
 字串中只應使用標準 ASCII 字元 (無空格)。
 
 ## 範例
 
-```js
-s.dynamicAccountList="mysuite2=www2.mycompany.com;mysuite1=mycompany.com"
-```
+對於下列所有範例，頁面URL `https://example.com/path2/?prod_id=12345`為， `dynamicAccountSelection` 變數設 `true`定為，變 `s_account` 數設定為 `examplersid`。
 
 ```js
-s.dynamicAccountList="ms1,ms2=site1.com;ms1,ms3=site3.com"
+// In this example, the report suite that receives data is examplersid1.
+s.dynamicAccountMatch = "window.location.hostname";
+s.dynamicAccountList = "examplersid2=www2.example.com;examplersid1=example.com";
+
+// In this example, the report suite that receives data is examplersid2.
+s.dynamicAccountMatch = "window.location.pathname";
+s.dynamicAccountList = "examplersid2=path2;examplersid3=path3";
+
+// In this example, no rules match so it resorts to the default rsid in s_account, examplersid.
+s.dynamicAccountMatch = "window.location.pathname";
+s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 ```
-
-## 組態設定
-
-無
 
 ## 缺陷、問題和提示
 
-* 動態帳戶選擇不受下列項目支援: [JavaScript 適用的 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
-
-* 若頁面 URL 符合多項規則，將會使用最左側的規則。
-* 若沒有相符的規則，則會使用預設報表套裝。
-* 若您的頁面儲存至某人的硬碟，或透過網頁型翻譯引擎進行翻譯 (例如 Google 的翻譯頁面)，可能將無法使用動態帳戶選項。如需更精確的追蹤，請在伺服器端填入 `s_account` 變數。
+* 此 此變數中列出的規則會以從左至右的順序套用。 If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. 因此，請在清單的右側放置更多的一般規則。
+* If no rules match, the default report suite in `s_account` is used.
+* 如果您的頁面已儲存至某人的硬碟，或是透過網路翻譯引擎（例如Google的翻譯頁面）進行翻譯，動態帳戶選擇可能無法運作。
 * The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
-
-* 使用動態帳戶選擇時，請務必在每次 *`dynamicAccountList`* 取得新網域時更新。
-* Use the [!DNL DigitalPulse Debugger] when trying to identify the destination report suite. The `dynamicAccountSelection` variable always overrides the value of `s_account`.
+* Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
