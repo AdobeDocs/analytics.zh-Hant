@@ -1,71 +1,71 @@
 ---
-title: 設定跨裝置分析
-description: 瞭解如何在您符合先決條件後設定跨裝置分析。
+title: 設定 Cross-Device Analytics
+description: 瞭解在您符合必要條件後如何設定跨裝置分析。
 translation-type: tm+mt
-source-git-commit: 40d8ecae1ac7e0a1df4a2df17f5104bee6ecf336
+source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 ---
 
 
-# 設定跨裝置分析
+# 設定 Cross-Device Analytics
 
-> [!NOTE] 跨裝置Analytics文件可能會隨著進一步開發功能而變更。定期回來查看更新。
+> [!NOTE] 跨裝置分析檔案可能會隨著功能的進一步開發而變更。 請定期回訪以取得更新。
 
-完成所有必要條件後，請使用下列步驟啓用跨裝置分析。您必須屬於產品設定檔管理員群組或Adobe Analytics中的管理員權限才能遵循這些步驟。
+滿足所有必要條件後，請使用下列步驟來啟用跨裝置分析。 您必須屬於「產品設定檔管理員」群組，或在Adobe Analytics中擁有管理員權限，才能遵循這些步驟。
 
-> [!IMPORTANT] 必須先符合所有必要條件，才能執行這些步驟。如果所有必要條件都未符合，則無法使用此功能或無法運作。請參閱 [跨裝置分析](cda-home.md) 以瞭解先決條件和限制。
+> [!IMPORTANT] 在執行這些步驟之前，必須滿足所有先決條件。 如果未滿足所有先決條件，則功能不可用或無法運作。 如需 [必要條件和限制](cda-home.md) ，請參閱跨裝置分析。
 
-## 選擇將針對CDA啓用的跨裝置報告套裝
+## 選擇將啟用CDA的跨裝置報表套裝
 
-當您的組織布建以使用CDA時，請選擇要使用的報表套裝。您可以透過Adobe客戶經理來進行此項選擇。接著Adobe會啓用您選擇的報表套裝進行CDA處理。
+當您的組織被布建為使用CDA時，您可以選擇要使用哪個報表套裝。 您可透過Adobe客戶經理來傳達此選擇。 然後Adobe會啟用您選擇的報表套裝以進行CDA處理。
 
-## 建立跨裝置虛擬報表套裝，以檢視跨裝置檢視
+## Create a cross-device virtual report suite to see the cross-device view
 
-具有建立虛擬報表套裝的管理員可建立CDA虛擬報表套裝，如下所示：
+Administrators with access to create virtual report suites can create CDA virtual report suites as follows:
 
-1. 導覽至 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 並使用您的AdobeID認證登入。
-2. 按一下上方的格格線圖示，然後按一下「Analytics」。
-3. 將滑鼠指標暫留在上方的元件上方，然後按一下虛擬報表套裝。
+1. 導覽至 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) ，並使用您的AdobeID認證登入。
+2. Click the 9-grid icon at the top, then click Analytics.
+3. Hover over Components at the top, then click Virtual Report Suites.
 4. 按一下「新增」。
-5. 輸入虛擬報表套裝的名稱，並確定已選取CDA報表套裝。
-6. 按一下核取方塊「Enable Report Time Processing」(啓用報表時間處理)，它可啓用多個選項，包括跨裝置分析。
-7. 按一下核取方塊「跨裝置的使用者瀏覽次數」。
+5. 輸入虛擬報表套裝的名稱，並確定已選取啟用CDA的報表套裝。
+6. Click the checkbox 'Enable Report Time Processing', which enables several more options including Cross-Device Analytics.
+7. Click the checkbox 'Stitch User Visits Across Devices'.
 8. 按一下「繼續」，完成虛擬報表套裝的設定，然後按一下「儲存」。
 
 ![CDA核取方塊](assets/cda-checkbox.png)
 
-## 跨裝置虛擬報表套裝的新增和變更
+## Additions and changes to cross-device virtual report suites
 
-在虛擬報表套裝上啓用跨裝置分析時，請注意下列變更：
+在虛擬報表套裝上啟用「跨裝置分析」時，請注意下列變更：
 
-* 虛擬報表套裝名稱旁會顯示新的跨裝置圖示。此圖示是跨裝置虛擬報表套裝的專屬圖示。
-* 已提供標記「人物」和「獨特裝置」的新量度。
-* 量度「獨特訪客」無法使用，因為它會取代為「人員」和「獨特裝置」。
+* A new cross-device icon appears next to the virtual report suite name. 此圖示是跨裝置虛擬報表套裝的專屬圖示。
+* 標示為「人員」和「獨特裝置」的新量度已推出。
+* 「獨特訪客」量度不可用，因為它已取代為「人員」和「獨特裝置」。
 * 建立區段時，「訪客」區段容器會以「人員」容器取代。
 
-## 壓縮計算量度
+## The Compression calculated metric
 
-跨裝置Analytics將裝置整合在一起的能力取決於各種因素。The feffeaffect of the feature to sticoding data can be measurement with a culting metric called compression.促成壓縮的因素包括：
+跨裝置分析將裝置接合在一起的能力取決於各種因素。 使用稱為壓縮的計算量度來測量功能接合資料的效能。 造成壓縮的因素包括：
 
-* 使用Co-op圖形或私密圖形：一般而言，使用裝置合作社的組織通常會看到比使用私人圖形的組織更好的壓縮率。
-* 登入率：使用者登入您的網站時就越多，Adobe就越能識別並跨裝置發掘訪客。低登入率的網站也具備低壓縮率。
-* Experience Cloud ID涵蓋範圍：只能銜接具有ECID的訪客。使用ECID瀏覽您網站的訪客百分比較低，其關聯較低。
-* 多種裝置使用情況：如果您網站的訪客未使用多個裝置，則可以看到較低的壓縮率。
-* 報告詳細程度：依日的壓縮通常小於依月份或年的壓縮。個人使用多部裝置的機會在一天內就會降低。劃分、篩選或使用劃分維度也可以顯示較低的壓縮率。
+* 使用合作圖或私人圖：一般而言，使用裝置合作社的組織看到的壓縮率，會比使用私人圖表的組織好。
+* 登入率：登入您網站的使用者越多，Adobe越能識別並將訪客連結到各種裝置上。 Sites with a low log in rate also have low compression rates.
+* Experience Cloud ID coverage: Only visitors with an ECID can be stitched. A lower percentage of visitors to your site using an ECID correlates to lower compression rates.
+* Multiple device usage: If visitors to your site don't use multiple devices, you can see lower compression rates.
+* Reporting granularity: Compression by day is typically smaller than compression by month or year. 個人在一天內使用多種裝置的機率，會比整個月的機率小。 劃分、篩選或使用劃分維度也可以顯示較低的壓縮率。
 
-若要查看您的組織在指定時段內的壓縮：
+To see your organization's compression for a given time period:
 
 1. 按一下頂端的「工作區」，然後按一下「建立新專案」。
 2. 從空白專案開始，然後按一下「建立」。
-3. 將「獨特裝置」度量拖曳至標示「拖曳量度至此」的畫布區域。
-4. 將「人物」度量拖曳至「唯一裝置」量度標題右側的畫布上，因此這兩個量度並排。
-5. 按一下左側可用量度旁的'+'符號，開啓計算量度產生器。
-6. 將此計算量度提供給下列設定：
+3. 將「獨特裝置」量度拖曳至標示為「拖曳量度到此處」的畫布區域。
+4. 將「人員」量度直接拖曳至「獨特裝置」量度標題右側的畫布上，如此兩個量度便會並排。
+5. 按一下左`+`側可用量度旁的''符號，以開啟計算量度產生器。
+6. 為此計算量度提供下列設定：
    * 名稱：跨裝置壓縮
    * 格式：百分比
    * 小數位數：2
    * 定義: `[Static Number: 1] minus [People] divided by [Unique Devices]`
-      > [!NOTE] 按一下定義區域右上角的「新增」，以新增靜態數字。從左側可用量度清單中拖曳「人物和獨特裝置」。
+      > [!TIP] 按一下定義區域右上角的「新增」，新增靜態數字。 從左側可用度量清單中拖曳「人員」和「獨特裝置」。
 7. 按一下「儲存」。
-8. 將新計算量度拖曳至「人員」量度標題右側的畫布上，這三個量度都並排在一起。
-9. 可選：依預設，工作區會載入「日」維度。如果需要不同的時間粒度，請將替代日期維度(例如周或月)拖曳至「日」維度。
+8. 將新的計算量度直接拖曳至「人物」量度標題右側的畫布上，因此這三個量度都是並排的。
+9. 可選：工作區會依預設載入「日」維度。 如果需要不同的時間詳細程度，請將替代日期維度（例如周或月）拖曳至「日」維度之上。
