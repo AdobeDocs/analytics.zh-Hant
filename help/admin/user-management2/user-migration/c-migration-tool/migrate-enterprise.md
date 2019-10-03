@@ -3,12 +3,9 @@ description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶
 seo-description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
 seo-title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
-uuid: f90fb78a-5603-4bef-b714-13215301187c
-index: y
-internal: n
-snippet: y
+uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -47,13 +44,13 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 **移轉使用者帳戶**
 
 1. 使用下列其中一種方法 (視您是否已移轉使用者而定)，從 Analytics「使用者管理」下載 Analytics 使用者登入檔案 ([!DNL User Logins List.tab])。
-   1. *在移轉之前，* 導覽至 **[!UICONTROL 「管理員]** &gt; **[!UICONTROL 使用者管理(舊版)]** &gt; **[!UICONTROL 編輯使用者]**」，然後按一下 **[!UICONTROL 「下載報表]**」。
+   1. *在移轉之前，導覽至* 「管理員 **** &gt;使用者管 **[!UICONTROL 理（編輯舊版）]** &gt;編輯舊版使用者 ********」，然後按一下「下載報表」。
 
       ![](assets/download-report.png)
 
       唯有尚未移轉使用者的客戶，才能在畫面上看見「下載報表」連結。
 
-   1. *如果已移轉使用者，* 請導覽至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Analytics使用者和資產]**。
+   1. *如果您已移轉使用者，請導覽* 至「 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Analytics使用者和資產」]**。
 
       ![步驟資訊](assets/admin-analytics-users-assets.png)
 
@@ -63,7 +60,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
    1. Open the downloaded [!DNL User List.csv] file in Excel.
 
-      Be prepared to copy the *`Email`*, *`First Name`*, and *`Last Name`* values to a [!DNL sample.csv] file (described in the next step).
+      請準備好將、 *`Email`*&#x200B;和值複製 *`First Name`**`Last Name`*[!DNL sample.csv] 到檔案（在下一步中介紹）。
 
       >[!IMPORTANT]
       >
@@ -94,7 +91,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
       ![](assets/download-csv-template.png)
 
-1. Copy the *`Email`*, *`First Name`*, and *`Last Name`* column values from [!DNL User Logins List.tab] to the corresponding columns in the [!DNL sample.csv] template.
+1. 將、 *`Email`*&#x200B;和 *`First Name`*&#x200B;列值從復 *`Last Name`* 制到模板中的對應 [!DNL User Logins List.tab][!DNL sample.csv] 列。
 
    **範本檔案範例**
 
@@ -128,7 +125,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
   </tr> 
   <tr> 
    <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確認<span class="term"> 網域</span> 和 <span class="term"> 電子郵件</span> 欄會比對 <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"> 在必要</a>條件下建立的網域。 </p> </td> 
+   <td colname="col2"> <p>確認 網 <span class="term"> 域和</span> 「電子郵件 <span class="term"> 」欄會符合必要條件中建立的網</span> 域 <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>國家/地區代碼 </p> </td> 
@@ -141,10 +138,10 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 
 >[!NOTE]
 >
->Other columns, such as *`Product Configurations`* and *`Admin Roles`* can be blank.
+>其他欄，例如 *`Product Configurations`* 和 *`Admin Roles`* 可以是空白。
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. In Analytics, run the migration tool (as described in [Migrate Analytics user accounts](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9)).
+1. 在Analytics中，執行移轉工具(如移轉 [Analytics使用者帳戶所述](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![步驟資訊](assets/migrate-as-enterprise.png)
