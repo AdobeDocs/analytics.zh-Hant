@@ -1,15 +1,15 @@
 ---
 description: getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。當 Analysis Workspace 之外的其他 Analytics 解決方案需要使用時間分段維度時，應使用此外掛程式。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。當 Analysis Workspace 之外的其他 Analytics 解決方案需要使用時間分段維度時，應使用此外掛程式。
 seo-title: getTimeParting
 solution: Analytics
 subtopic: 外掛程式
 title: getTimeParting
-topic: 開發人員和實施
+topic: 開發人員和實作
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
 
 ---
 
@@ -22,7 +22,7 @@ getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週�
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示要求您變更網站上的資料收集代碼。 此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式程式碼 {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +30,7 @@ getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週�
 
 將下列程式碼放入 [!DNL s_code.js] 檔案中標示為 [!UICONTROL CONFIG SECTION] 的區域中，並依照下列說明進行必要的更新。
 
-`s._tpDST` - 一組DST值。The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - DST值的陣列。 The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -43,7 +43,9 @@ s._tpDST = {
 2016:'4/3,10/2', 
 2017:'4/2,10/1', 
 2018:'4/1,10/7', 
-2019:'4/7,10/6'} 
+2019:'4/7,10/6',
+2020:'4/5,10/4',
+2021:'4/4,10/3'} 
   
 //US 
 s._tpDST = { 
@@ -54,7 +56,9 @@ s._tpDST = {
 2016:'3/13,11/6', 
 2017:'3/12,11/5', 
 2018:'3/11,11/4', 
-2019:'3/10,11/3'} 
+2019:'3/10,11/3',
+2020:'3/8,11/1',
+2021:'3/14,11/7'} 
   
 //Europe 
 s._tpDST = { 
@@ -65,7 +69,9 @@ s._tpDST = {
 2016:'3/27,10/30', 
 2017:'3/26,10/29', 
 2018:'3/25,10/28', 
-2019:'3/31,10/27'}
+2019:'3/31,10/27',
+2020:'3/29,10/25',
+2021:'3/28,10/31'}
 ```
 
 南半球用戶端注意: 在陣列中，DST 值為 DST start, DST end。
