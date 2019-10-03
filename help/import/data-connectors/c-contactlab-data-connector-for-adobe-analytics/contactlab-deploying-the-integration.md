@@ -6,7 +6,7 @@ solution: Analytics
 title: 部署整合
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -56,14 +56,12 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 在Adobe Experience cloud中檢視您的ContactLab整合設定
 
 1. 檢視整合活動記錄。
-
    1. 在Adobe Experience cloud中，導覽至「支援 **[!UICONTROL &gt;整]** 合活動記錄」 ****。
 
       ![](assets/integration_activity_log.png)
 
    1. 尋找成功匯入 **[!UICONTROL 分類資料、成功匯入]**&#x200B;量度資料 **[!UICONTROL 、成功匯]**&#x200B;出量度資料等項目 ****。 這些項目應會在成功部署的1天內顯示。
 1. 在Adobe Analytics中檢視您的報告資料。
-
    1. 導覽至「 **[!UICONTROL 自訂轉換]** &gt;自 **[!UICONTROL 訂轉換1-10]** &gt;訊息 **[!UICONTROL ID報表」]**。
 
       ![](assets/reporting.png)
