@@ -1,64 +1,82 @@
 ---
-description: 安裝 Adobe Experience Cloud Debugger。除錯程式會檢查Analytics Cloud、Adobe Target、Advertising Cloud、Identity Service、動態標籤管理和Experience Platform Launch的標記。
-seo-description: 安裝 Adobe Experience Cloud Debugger。除錯程式會檢查Analytics Cloud、Adobe Target、Advertising Cloud、Identity Service、動態標籤管理和Experience Platform Launch的標記。
-seo-title: Experience Cloud Debugger
-title: Experience Cloud Debugger
-uuid: e4b35a89-a41 f-44a8-9e3 f-6e872 c4487 c
+description: 安裝舊版Adobe Experience cloud除錯程式。 This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
+seo-description: 安裝舊版Adobe Experience cloud除錯程式。 This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
+seo-title: Legacy Adobe Experience Cloud Debugger
+title: Legacy Adobe Experience Cloud Debugger
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ---
 
 
-# Experience Cloud Debugger
+# 舊版Adobe Experience cloud除錯程式
 
-Install the Adobe # [!DNL Experience Cloud] [!UICONTROL Debugger]. [!UICONTROL 除錯程式] 會檢查Adobe、 [!DNL Analytics Cloud]Adobe [!DNL Target]、 [!DNL Advertising Cloud][!DNL Experience Cloud] ID服務、 [!UICONTROL 動態標籤管理]和 [!UICONTROL Adobe Experience Platform Launch的標記]。
+> [!IMPORTANT] 此除錯工具不再受維護。 Adobe recommends instead using the Adobe Experience Cloud Debugger Chrome Extension.[](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 
-## Experience Cloud Debugger {#topic_E05CEAF0682E483A9AB147D774CF2188}
+The Legacy Debugger inspects tags for most Adobe Experience Cloud services. 使用除錯程式可讓您查看網站上任何指定頁面上的Adobe資料。 您可使用此資訊來疑難排解或驗證組織的實施。
 
-Install the Adobe Experience Cloud [!UICONTROL Debugger]. [!UICONTROL 除錯程式] 會檢查Analytics Cloud、Adobe Target、Advertising Cloud、Identity Service、動態標籤管理和Experience Platform Launch的標記。
+## 安裝舊式除錯程式
 
->[!IMPORTANT]
->
->Adobe 建議使用 Chrome 的 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 擴充功能。
+建立JavaScript書籤小程式以安裝除錯程式。
 
-在瀏覽器上執行時，它會顯示從該頁面將資料傳送至 Experience Cloud 解決方案中的影像請求，其中包含所有擷取到的變數值或參數。這讓您和您的開發人員可以在您網站上的任何頁面檢查實施的有效性。
+### 步驟1:複製書籤小程式碼
 
-[!UICONTROL DigitalPulse Debugger] 受到多種瀏覽器的官方支援，可用於 Mozilla Firefox、Google Chrome、Microsoft Internet Explorer、Safari 的所有最新版本和建置版本。
+將下列程式碼複製到剪貼簿：
 
->[!NOTE]
->
->Because the [!UICONTROL Debugger] functions by creating a pop-up window when you access a special bookmark in your web browser, certain ad-blocking plug-ins and pop-up blockers might interfere with the loading of the [!UICONTROL Debugger].
+```JavaScript
+javascript:void(window.open("","stats_debugger","width=800,height=800,location=0,menubar=0,status=1,toolbar=0,resizable=1,scrollbars=1").document.write("<script language=\"JavaScript\" id=dbg src=\"https://www.adobetag.com/d1/digitalpulsedebugger/live/DPD.js\"></"+"script>"+"<script language=\"JavaScript\">window.focus();</script>"));
+```
 
-## 在 Chrome 中安裝除錯工具 {#task_0CEF858083B64F7DB9790567282F7248}
+### 步驟2:將書籤小程式碼貼入書籤
 
-在 Google Chrome 瀏覽器中安裝 Experience Cloud Debugger 擴充功能。
+每個瀏覽器處理書籤的方式不同，但概念相同。 以所要的名稱和書籤小程式碼建立書籤作為URL。
 
-1. 導覽至 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)。
-1. 按照指示將擴充功能新增至 Chrome。
+#### Chrome
 
-## Install the Debugger in Firefox (not supported) {#task_D3DD0A300B4B4F5EBF2D139E8FF5A724}
+如果您堅持不使用 [chrome擴充功能](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)，則可改用舊版除錯程式書籤小工具。
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Mozilla Firefox.
+1. 按一下右上方的三個點，然後前往「書籤&gt;書籤管理員」。 您也可以按 `Ctrl` + `Shift` + `O` (Windows)或 `Cmd` + `Shift` + `O` (Mac)。
+2. 在書籤管理員的右上方，按一下三個點，然後按一下「新增書籤」。
+3. 在「名稱」欄位中，將其標示為「Adobe Experience Cloud除錯程式」，然後將程式碼片段貼入URL欄位。
+4. 使用書籤管理員，將新的書籤小程式置於所需位置。
 
-1. Right-click the bookmarks sidebar, then click **[!UICONTROL New Bookmark]**.
-1. In the **[!UICONTROL Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name for the new bookmark.
-1. In the **[!UICONTROL Location]** field, paste the code that you copied to your clipboard.
-1. Select **[!UICONTROL Load the Bookmark in the Sidebar]**, if desired.
-1. Click **[!UICONTROL Add]**.
+#### Firefox
 
-## Install the Debugger in Internet Explorer (not supported) {#task_D60F6BBFE7314A6882D13F8A0DFF0F6C}
+1. 按一下右上方的三行，然後前往「資料庫&gt;書籤&gt;顯示所有書籤」。 您也可以按 `Ctrl` + `Shift` + `B` (Windows)或 `Cmd` + `Shift` + `B` (Mac)。
+2. 按一下「組織&gt;新書籤」。
+3. 在「名稱」欄位中，將其標示為「Adobe Experience Cloud除錯程式」，然後將程式碼片段貼至「位置」欄位。 「標籤」和「關鍵字」欄位不是必要欄位。
+4. 使用資料庫視窗，將新的書籤小工具置於所需位置。
 
-How to create a bookmark for the Adobe [!UICONTROL Debugger] from within Internet explorer.
+#### Edge
 
-1. In the [!UICONTROL Favorites Bar], click the **[!UICONTROL Add to Favorites Bar]** icon ![Image](assets/icon_add_to_favorites_bar.png).
+Edge無法手動建立書籤小工具，但可編輯書籤URL。
 
-   若沒看到[!UICONTROL 我的最愛]列，可在瀏覽器標題上按右鍵，然後按一下[!UICONTROL 我的最愛列]。
+1. 按一下URL欄位右側的星形圖示，將目前頁面加入書籤。
+2. 將書籤命名為「Adobe Experience Cloud Debugger」，並將其儲存在所需位置。
+3. 按一下含有線條的星形圖示，以開啟「我的最愛」列。
+4. 以滑鼠右鍵按一下新建立的書籤，然後選取「編輯URL」。
+5. 將程式碼片段貼入文字欄位，然後按Enter。
 
-   即會建立新書籤。
+#### Safari
 
-1. Right-click the bookmark, then click **[!UICONTROL Rename]**.
-1. In the **[!UICONTROL New Name]** field, specify **Adobe[!UICONTROL Debugger]** as the name, then click **[!UICONTROL OK]**.
-1. Right-click the newly created bookmark again, then click **[!UICONTROL Properties]**.
-1. In the **[!UICONTROL URL]** field, paste the code that you copied to your clipboard.
-1. Click **[!UICONTROL OK]**.
+Safari無法手動建立書籤小程式，但可編輯書籤URL。
+
+1. 按一下右上方的「共用」圖示，開啟書籤模式視窗。
+2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
+3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
+4. Right click &gt; Edit Address, then paste the code snippet into text field.
+
+## Using the legacy debugger
+
+To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+
+> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+
+The debugger has several options available, all of which customize how data is displayed. None of these options affect data collection.
+
+* **** Displayed Experience Cloud products: Shows or hides image requests for each respective Experience Cloud product.
+* **** URL Decode: URL decodes the image request to match what is displayed in reporting. Adobe recommends leaving this box checked.
+* **** 自動重新整理：每隔幾秒自動重新整理快顯視窗，以檢查頁面上是否有更多影像要求。 If you need to copy/paste content in the debugger, disable auto-refresh so your selection stays.
+* **** Friendly Format: Toggles the display format between helpful labels and raw query strings in an image request. 如需詳 [細資訊，請參閱資料收集查詢參數](../js-implementation/data-collection/query-parameters.md) 。
+
+若要儲存除錯程式的預設顯示選項，請在右上角的「Adobe除錯程式」連結上按一下滑鼠右鍵，然後複製連結位址。 編輯您目前的除錯程式書籤小程式，並將更新的程式碼片段貼入URL欄位。
