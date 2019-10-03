@@ -3,12 +3,9 @@ description: 瞭解如何為 Analytics 使用者停用舊版登入。
 seo-description: 瞭解如何為 Analytics 使用者停用舊版登入。
 seo-title: 停用舊版登入
 title: 停用舊版登入
-uuid: 085874b2-10bb-4a56-a337-f3104428 d71 e
-index: y
-internal: n
-snippet: y
+uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -25,7 +22,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
    ![](assets/user-info.png)
 
-   The users that are eligible will have a status of *`Migrated`* under the Migration Status column. 您必須先移轉使用者，才能停用其舊版登入。
+   符合資格的使用者在「移轉狀態」欄 *`Migrated`* 下的狀態為。 您必須先移轉使用者，才能停用其舊版登入。
 1. Click **[!UICONTROL Disable Legacy Login]**, then click **[!UICONTROL Done]**.
 
    「停用舊版登入」表示使用者可以繼續使用其舊版 [!DNL my.omniture.com] 使用者名稱和密碼。
