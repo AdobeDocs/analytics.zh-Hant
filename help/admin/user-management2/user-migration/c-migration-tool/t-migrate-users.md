@@ -3,12 +3,9 @@ description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admi
 seo-description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admin Console。
 seo-title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 title: 移轉 Adobe ID 的 Analytics 使用者帳戶
-uuid: 734e9f14-ef8 d-44de-8ff3-3ee6 dfe0 a214
-index: y
-internal: n
-snippet: y
+uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
+source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 ---
 
@@ -23,7 +20,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
 >[!NOTE]
 >
->如果未透過Experience Cloud登入的管理員嘗試存取使用者ID移轉工具，則會重新導向至Experience Cloud登入頁面。
+>如果未透過Experience cloud登入的管理員嘗試存取「使用者ID移轉」工具，則會將其重新導向至Experience cloud登入頁面。
 
 **移轉 Analytics 使用者:**
 
@@ -49,7 +46,7 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
   </tr> 
   <tr> 
    <td colname="col1"> <p>停用舊版登入 </p> </td> 
-   <td colname="col2"> <p>使用公司 ID 的舊版登入已停用。使用者現可使用 Adobe ID 或 Enterprise ID 存取 Experience Cloud。所有使用者均已達到這個階段後，移轉程序便告完成。 </p> <p>在移轉期間，舊版登入會停用。Users are redirected to <span class="filepath"> experiencecloud.adobe.com</span> and must log in using the Adobe ID or Enterprise ID. </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>使用公司 ID 的舊版登入已停用。使用者現可使用 Adobe ID 或 Enterprise ID 存取 Experience Cloud。所有使用者均已達到這個階段後，移轉程序便告完成。 </p> <p>在移轉中，舊版登入會停用。 使用者會重新 <span class="filepath"> 導向至experiencecloud.adobe.com</span> ，且必須使用Adobe ID或Enterprise ID登入。 </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,4 +85,4 @@ source-git-commit: 2fcd72e6c61f8004268e583b934e9cf474e5e44f
 
    After migrating users, the status under the column Migration Status changes from *`Not Initiated`* to *`Migrated`*.
 
-   *`Failed`* 如果顯示，請將滑鼠指標暫留在圖示上，以瞭解移轉失敗的原因。
+   If *`Failed`* displays, hover over the icon for a description about why the migration failed.
