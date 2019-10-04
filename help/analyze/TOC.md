@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 分析指南
 user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
+source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
 
 ---
 
@@ -261,7 +261,6 @@ source-git-commit: 1150a153014ba2cfe824707216c558bf962e9013
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
-   + [AEM 網站與 Activity Map 整合](activity-map/aem-sites-integration.md)
    + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
    + [知識資源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
