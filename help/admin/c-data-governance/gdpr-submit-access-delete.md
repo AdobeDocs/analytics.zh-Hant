@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 提交存取與刪除請求
 title: 提交存取與刪除請求
-uuid: d006cd5c-e3 cd-4385-8683-accf73 cb681 b
+uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
+source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ---
 
@@ -27,21 +27,21 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 
 您做為資料控管單位應負責驗證資料主體的真實身分，以及確認其有權存取所請求的資料。另外，您也應負責確保將正確的資料傳回資料主體，以及避免他們不慎收到其他資料主體的資料。
 
-這包括在將資料傳回資料主體之前，先行檢閱 Adobe Analytics 在 GDPR 存取請求中傳回的資料。若您使用人員 ID，且傳回的資料會顯示 ID 以及共用裝置上其他點擊的資料，其中該 ID 有時可見 ([ID 擴增](../../admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)) 則應特別謹慎處理。
+這包括在將Adobe Analytics傳回的資料傳送至資料主體之前，先檢閱Adobe Analytics在資料隱私權存取要求中傳回的資料。 若您使用人員 ID，且傳回的資料會顯示 ID 以及共用裝置上其他點擊的資料，其中該 ID 有時可見 ([ID 擴增](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)) 則應特別謹慎處理。
 
 每個檔案會結合您所有報表套裝的資料，自動移除重複點擊的其他拷貝。您可以決定要傳回資料主體的檔案。或者您也可以在將資料傳回資料主體之前先提取部分資料，並與其他系統的資料結合。
 
 ## 提交請求 {#section_F70F4D91B7FF4242876338A66D2125C3}
 
-您可以透過我們的 [GDPR UI 入口網站](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)或我們的 [GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) 提交 GDPR 存取和刪除請求。
+您可以透過我們的資料隱私權UI入口網站或我們的 [資料隱私權API](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ，提交資料 [隱私權存取和刪除要求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 >[!NOTE]
 >
->GDPR API支援單一請求中多個使用者的批次提交。目前的支援上限是單一請求 JSON 檔案可提交 1000 名個別使用者 (每位使用者可能有多個 ID)。
+>資料隱私權API支援在單一要求中為多位使用者批次提交。 目前的支援上限是單一請求 JSON 檔案可提交 1000 名個別使用者 (每位使用者可能有多個 ID)。
 
 ## 範例 JSON 請求 {#section_DB9DE6492FE740918F91D413E7BAB88F}
 
-以下是可透過 GDPR API 或 UI 提交的 JSON，用於為三位使用者請求 GDPR 處理。
+以下是可透過資料隱私權API或UI提交的JSON，請求三位使用者的資料隱私權處理。
 
 ```
 { 
@@ -53,7 +53,7 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
     ], 
     "users": [ 
         { 
-            "key": "GDPR-1234", 
+            "key": "Data Privacy-1234", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -66,7 +66,7 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
             ] 
         }, 
         { 
-            "key": "GDPR-1235", 
+            "key": "Data Privacy-1235", 
             "action": ["access"], 
             "userIDs": [ 
                 { 
@@ -79,7 +79,7 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
             ] 
         }, 
         { 
-            "key": "GDPR-1236", 
+            "key": "Data Privacy-1236", 
             "action": ["access","delete"], 
             "userIDs": [ 
                 { 
@@ -110,9 +110,9 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 請記住:
 
 * 您必須以自己 Experience Cloud 組織的值，更新「companyContexts」區段中的「5D7236525AA6D9580A495C6C@AdobeOrg」值。
-* 如需「type」和「namespace」欄位的詳細說明，請參閱[命名空間](../../admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D)一節。
+* 如需「type」和「namespace」欄位的詳細說明，請參閱[命名空間](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D)一節。
 * 「description」欄位可忽略。
-* 「key」欄位可包含您想要的任何值。如果您有用來追蹤 GDPR 請求的內部 ID，可以將該值放置於此，以便在 Adobe 系統與您自己的系統中比對請求。
+* 「key」欄位可包含您想要的任何值。如果您有用於追蹤資料隱私權要求的內部ID，可以將該值放在此處，讓Adobe系統中的要求與您自己系統中的要求相符更輕鬆。
 
 ## 回應詳細資料 {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -122,12 +122,12 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 
 存取請求傳回的資料可提供您 (即資料控管單位) 可用來下載 ZIP 檔案的 URL，該檔案包含每個所擁有 Adobe 產品的目錄。Analytics 資料夾中可能包含:
 
-* 人員檔案-衍生自包含相符ID-PERSON標籤的點擊
+* 人員檔案——衍生自包含相符ID-PERSON標籤的點擊
 
    * .CSV 檔案包含每個符合點擊的行，以及每個具 ACC-ALL 或 ACC-PERSON 標籤欄位的欄，按照時間戳記排序。
    * HTML 摘要檔案，包含每個 ACC-ALL 或 ACC-PERSON 標籤的一個項目。每個項目將列出該欄位的所有唯一值，以及每個值發生的次數。包含時間戳記的欄位會四捨五入，以指定唯一的日期。
 
-* 裝置檔案-衍生自其中一個欄位符合指定ID-DEVICE但無相符ID-PERSON的點擊
+* 裝置檔案——衍生自點擊，其中一個欄位符合指定的ID-DEVICE，但沒有符合指定的ID-PERSON
 
    * .CSV 檔案包含每個符合點擊的行，以及每個具 ACC-ALL 標籤欄位的欄，按照時間戳記排序。
    * HTML 摘要檔案，包含每個 ACC-ALL 標籤的一個項目。每個項目將列出該欄位的所有唯一值，以及每個值發生的次數。包含時間戳記的欄位會四捨五入，以指定唯一的日期。
@@ -138,17 +138,17 @@ source-git-commit: 5d678322934033ad4d04750f59cf305cab512647
 
 **刪除回應詳細資料**
 
-刪除請求未傳回任何資料 - 僅有請求已成功完成的 GDPR API 狀態。
+刪除請求不會傳回任何資料——只有請求已成功完成之資料隱私權API的狀態。
 
-## 測試您資料的 GDPR 處理 {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
+## 測試資料的隱私權處理 {#section_FBA843DBFAE64D979D8DB8A3C56784D7}
 
 通常，Analytics 客戶會在公告大眾之前，先行設定某些測試報表套裝來驗證功能。預先製作的網站或應用程式會傳送資料至這些測試/開發/QA 報表套裝以評估程式碼發行之後的表現，然後才會讓真正的流量傳送至生產報表套裝。
 
-然而，若是使用標準設定，則您在將請求套用到生產報表套裝前，不能先在這些測試版報表套裝上測試 GPDR 請求處理。原因在於 GDPR 請求會自動套用至 Experience Cloud 組織中的所有報表套裝，通常就是貴公司的所有報表套裝。
+然而，若是使用標準設定，則您在將請求套用到生產報表套裝前，不能先在這些測試版報表套裝上測試 GPDR 請求處理。原因是「資料隱私權」要求會自動套用至Experience cloud組織中的所有報表套裝，這通常是您公司的所有報表套裝。
 
-在將您的 GDPR 處理套用至所有報表套裝之前，您仍然可以透過以下幾種方法進行測試:
+在套用資料隱私權處理至所有報表套裝之前，您仍有幾種方法可供您測試：
 
-* 一個選項是另行設定 Experience Cloud 組織，其中只包含測試報表套裝。然後使用此 Experience Cloud 組織進行 GDPR 測試，並將您的正常 Experience Cloud 組織用來進行實際的 GDPR 處理。
+* 一個選項是另行設定 Experience Cloud 組織，其中只包含測試報表套裝。然後，請使用此Experience cloud組織進行資料隱私權測試，並使用一般的Experience cloud組織進行實際資料隱私權處理。
 * 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。
 
-   例如，您可以在測試報表套裝中為每個命名空間的字首加上「qa-」。當您提交僅含有 qa 字首的命名空間的 GDPR 請求時，這些請求只會針對您的測試報表套裝來執行測試。稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**我們建議您這麼做，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空間，因為這些是硬式編碼，您不能在測試報表套裝中為它們指定替代名稱**。
+   例如，您可以在測試報表套裝中為每個命名空間的字首加上「qa-」。當您送出資料隱私權要求時，只會以qa首碼命名空間，這些要求只會針對您的測試報表套裝執行。 稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**我們建議您這麼做，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空間，因為這些是硬式編碼，您不能在測試報表套裝中為它們指定替代名稱**。
