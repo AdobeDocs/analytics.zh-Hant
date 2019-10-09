@@ -3,9 +3,9 @@ description: 「管理工具」中的資料控管對話方塊提供概述，讓�
 seo-description: 「管理工具」中的資料控管對話方塊提供概述，讓您瞭解已針對資料控管設定哪些報表套裝、是否已對應至 Experience Cloud 組織，以及此報表套裝是否已制定資料保留政策。
 seo-title: 檢視/管理報表套裝資料控管設定
 title: 檢視/管理報表套裝資料控管設定
-uuid: f3b83e8e-00af-4a60-a5 de-29b5 c43 f6788
+uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: d2134271c4586d629c8b25f60c746902ba13683b
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    您將看到屬於您登入公司的所有報表套裝:
 
-   ![](assets/gdpr_setup_an.png)
+   ![](assets/privacy_setup_an.png)
 
 <table id="table_448292730FF0475E9DCB731882F9A29B"> 
  <thead> 
@@ -38,17 +38,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>已對應</b>: 此報表套裝與您目前登入的 Analytics 登入公司已對應至同一個 Experience Cloud 組織。只有套用此設定的報表套裝才能加上標籤。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>: 按一下此連結可讓您<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">將報表套裝對應至</a> Experience Cloud 組織。 <p>這表示您將會重新導向至Experience Cloud組織-報表套裝對應管理頁面，您必須尋找報表套裝，並將其指派給適當的組織。完成之後，導覽返回此資料控管 UI。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>: 按一下此連結可讓您<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">將報表套裝對應至</a> Experience Cloud 組織。 <p>這表示您將被重新導向至「Experience cloud組織——報表套裝對應管理」頁面，您必須在此頁面尋找報表套裝，並將其指派給適當的組織。 完成之後，導覽返回此資料控管 UI。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>已對應至其他組織</b>: 其他 Experience Cloud 組織已將此報表套裝套用至其組織。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料保留政策 </p> </td> 
-   <td colname="col2"> <p>Analytics GDPR 實作需要您制定資料保留政策。 </p> <p>此設定會顯示 </p> 
+   <td colname="col2"> <p>Analytics資料隱私權實作需要您有適當的資料保留政策。 </p> <p>此設定會顯示 </p> 
     <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
      <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">是否已針對此報表套裝制定資料保留政策。以及 </li> 
      <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">刪除資料之前 Adobe 要保留資料的時間。預設的資料保留時間為 25 個月。 </li> 
-    </ul> <p>附註: 若未制定資料保留時間，Adobe Analytics 就無法協助您對 GDPR API 的處理請求，例如處理您從使用者收到的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。 </p> </td> 
+    </ul> <p>注意： Adobe Analytics無法協助您處理資料隱私權API的要求，例如處理您從使用者收到的存取或刪除要求（若未設定資料保留期）。 請聯絡客戶成功案例經理，以設定資料保留時間。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>群組 </p> </td> 
