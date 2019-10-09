@@ -7,7 +7,7 @@ title: 安裝 Activity Map 瀏覽器外掛程式
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
+source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
 
 ---
 
@@ -22,7 +22,7 @@ Activity Map 瀏覽器外掛程式:
 * 可由瀏覽器工具列中的按鈕或功能表項目啟動。
 * 僅與下列桌面瀏覽器的最新版本相容: Internet Explorer、Firefox、Chrome 和 Safari。
 * 支援「**[!UICONTROL 記住我的登入資訊]」功能。**
-* **可以**&#x200B;在不包含 Analytics 頁面代碼的網頁上插入 Activity Map 工具列。如果頁面不含 Analytics 頁面代碼，會顯示錯誤訊息。
+* ****&#x200B;可以在不包含 Analytics 頁面代碼的網頁上插入 Activity Map 工具列。如果頁面不含 Analytics 頁面代碼，會顯示錯誤訊息。
 * 需要您進行瀏覽器外掛程式安裝程序。
 
 ## Install Activity Map plug-in on Chrome {#section_6907253D5D5E4422967E6439207A013F}
