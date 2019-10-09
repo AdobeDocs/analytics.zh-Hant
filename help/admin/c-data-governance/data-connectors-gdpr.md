@@ -1,26 +1,26 @@
 ---
 description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
 seo-description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
-seo-title: GDPR 與 Data Connectors (Genesis)
-title: GDPR 與 Data Connectors (Genesis)
-uuid: d3a32c09-d3 c5-452c-8302-8da28 e62 ead3
+seo-title: 資料隱私權與資料連接器(Genesis)
+title: 資料隱私權與資料連接器(Genesis)
+uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 ---
 
 
-# GDPR 與 Data Connectors (Genesis)
+# 資料隱私權與資料連接器(Genesis)
 
 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
 
-Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connector 匯入的直接或間接個人識別資料。
+這項資訊可讓您識別任何透過我們的連接器匯入的直接可識別資料或間接可識別資料，當連接器收到資料隱私權要求時。
 
 如果您使用以下任何 Connector 整合，只要檢查整合中可能含有直接或間接個人識別資料的合作夥伴變數/分類即可。
 
 >[!NOTE]
 >
->This information is provided to help you identify variables that must be [labeled](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [GDPR readiness](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) (updating classifications, etc.).
+>本資訊可協助您識別必須標示的變數 [](../../admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731)[](../../admin/c-data-governance/an-gdpr-overview.md#concept_767057B9F0624A06B3598E02856861D8) ，但您身為資料掌控者的責任是套用適當的標籤，或執行其他資料隱私準備動作（更新分類等）。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
@@ -33,7 +33,7 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Alset</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>CheetahMail</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -87,7 +87,7 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>eDialog Precision Central</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -97,7 +97,7 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> <p><b>Emailvision Campaign Commander</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Exact Target</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -150,12 +150,12 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Responsys 2.0</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> <p>Customer ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Silverpop Engage</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
@@ -184,17 +184,17 @@ Connector 收到 GDPR 請求時，這些資訊能讓您識別所有透過 Connec
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>ThinData EMS</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>WhatCounts Email</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Yesmail Enterprise</b> </p> </td> 
-   <td colname="col2"> <p>Visitor ID </p> </td> 
+   <td colname="col2"> <p>訪客 ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
