@@ -7,7 +7,7 @@ title: 安裝 Activity Map 瀏覽器外掛程式
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: eabc2e89336b2417d727aa59ba4c9c882c9599d1
+source-git-commit: 26e39ea2015829568147239169c97255fcc7a507
 
 ---
 
@@ -50,7 +50,7 @@ Activity Map 瀏覽器外掛程式:
 1. Click the **[!UICONTROL Open Menu]** icon at the top right and select **[!UICONTROL Add-Ons]**. ![](assets/firefox_install3.png){width="250px"}
 
 1. Activity Map 應該會列在 Firefox 附加元件清單中。
-1. 如果看到工具列中新增加一個 Adobe Analytics 圖示 ![，表示下載成功。](assets/an_icon.png)您現在可 [以從您的頁面啟動Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)。
+1. 如果看到工具列中新增加一個 Adobe Analytics 圖示 ![，表示下載成功。](assets/an_icon.png)您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
 
 ## Install Activity Map plug-in on Internet Explorer {#section_1A33705D7F784C4A88C9026ADC860FB8}
 
@@ -61,7 +61,7 @@ Activity Map 瀏覽器外掛程式:
 1. 按一下「**[!UICONTROL 執行]」，開始安裝 Activity Map。**
 1. 按一下彈出式功能表中的「**[!UICONTROL 是]」，允許程式對電腦進行變更。**
 1. 依照安裝精靈中的指示進行。
-1. 如果 Activity Map 安裝成功，您會在 Internet Explorer 中看到一則通知，指出 Activity Map 已可供使用。將其啟用，開始使用應用程式。您現在可 [以從您的頁面啟動Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)。
+1. 如果 Activity Map 安裝成功，您會在 Internet Explorer 中看到一則通知，指出 Activity Map 已可供使用。將其啟用，開始使用應用程式。您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
 
 ## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
 
@@ -69,4 +69,4 @@ Activity Map 瀏覽器外掛程式:
 
 1. 導覽至 <https://safari-extensions.apple.com/>。
 1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. 您現在可 [以從您的頁面啟動Activity Map](launch-Activity Map.md#concept_2392036DB1AF4B05BEA3E9F4EE9B46B8)。
+1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. 您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
