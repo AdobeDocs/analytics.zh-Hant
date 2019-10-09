@@ -5,7 +5,7 @@ seo-title: 標籤報表套裝資料
 title: 標籤報表套裝資料
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->請記住，每次建立新報表套裝或在現有報表套裝內啓用新變數時，必須檢閱標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
+>請記住，每次建立新報表套裝或在現有報表套裝中啟用新變數時，都需要檢閱標籤。 啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
 ## 指派或編輯報表套裝標籤 {#section_39F829F35A274EACA532E2F6FF392996}
 
-**範例**: 您做為資料控管單位，計畫從資料主體收集電子郵件地址和 Cookie ID 以處理其 GDPR 請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。若要建立電子郵件地址和 Cookie ID 的標籤，您必須在 Analytics 中使用 Adobe Cloud Platform 的資料使用標籤與實行 (DULE) 架構。
+**範例**:身為資料掌控者，您計畫從資料主體收集電子郵件地址和Cookie ID，以處理其資料隱私權要求。 這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。若要建立電子郵件地址和 Cookie ID 的標籤，您必須在 Analytics 中使用 Adobe Cloud Platform 的資料使用標籤與實行 (DULE) 架構。
 
-1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL[select report suite].]** ![](assets/gdpr_rs_settings.png)
+1. In Analytics, navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance]** &gt; **[!UICONTROL (select report suite)]** ![](assets/privacy_rs_settings.png)
 
 1. 選取您想要加上標籤的變數群組。
 
@@ -45,27 +45,27 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/edit.png)
 
-1. **「身分資料」**&#x200B;標籤對話框便隨即自動開啟。這些標籤可分類本身就能使用的資料，或能與其他資料合併，以識別或直接與個人聯絡的資料。如需這些選項的詳細資訊，請參閱[身分資料標籤 (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)。
+1. **「身分資料」**&#x200B;標籤對話框便隨即自動開啟。這些標籤可分類本身就能使用的資料，或能與其他資料合併，以識別或直接與個人聯絡的資料。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
 
    >[!NOTE]
    >
-   >Data Usage Labeling&amp; Enforcement(DULE)架構旨在提供跨解決方案/服務/平台的統一方式，以便擷取、溝通和使用Adobe Experience Cloud中資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。
+   >資料使用標籤與實施(DULE)架構旨在提供跨解決方案／服務／平台的統一方式，以擷取、通訊及使用Adobe Experience cloud中資料的中繼資料。 中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。
 
    ![](assets/identity_labels.png)
 
-1. 開啟&#x200B;**「敏感資料」**&#x200B;區段以設定依地理位置資料分類的敏感資料標籤。如需這些選項的詳細資訊，請參閱[敏感資料標籤 (DULE)](../../admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)。
+1. 開啟&#x200B;**「敏感資料」**&#x200B;區段以設定依地理位置資料分類的敏感資料標籤。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
 
    ![](assets/sensitive_data.png)
 
-1. 開啟「GDPR 資料」區段以設定&#x200B;**資料控管**&#x200B;標籤。使用此區段指示 Adobe 該如何處理 GDPR 存取和刪除請求的每個變數，以及定義應掃描哪些變數來尋找這些請求的資料主體 ID。如需這些選項的詳細資訊，請參閱[資料控管標籤 (GDPR)](../../admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)。
+1. Open the Data Privacy Data section to set **Data Governance** Labels. 使用本節指示Adobe如何處理資料隱私權存取和刪除請求的每個變數，以及定義應掃描哪些變數以尋找這些請求的資料主體ID。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
 
-   ![](assets/gdpr_labels.png)
+   ![](assets/privacy_labels.png)
 
 1. 完成所有標籤設定後，按一下&#x200B;**[!UICONTROL 「套用」]。**
 
 ## 將標籤複製到報表套裝{#section_7C6FDAFF049F4126B84F6261F72668EE}
 
-若您想將相同的 DULE/GDPR 設定套用至多個報表套裝，您可以遵循這些步驟:
+如果您想要將相同的DULE/資料隱私權設定套用至多個報表套裝，您可以遵循下列步驟：
 
 1. 選取變數群組 (標準維度、轉換維度等)包含想要複製的變數。請注意，您一次只能複製一個變數群組的標籤。
 1. 選取群組中的某些變數或所有變數。
@@ -77,7 +77,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!IMPORTANT]
    >
-   >請記住，您選取的所有報表套裝都必須映射至您的Experience Cloud組織。
+   >請記住，您選取的所有報表套裝都必須對應至您的Experience cloud組織。
 
    將某個變數或一組變數的標籤複製到不同的報表套裝時，複製的標籤會出現在目標報表套裝中對應位置的變數。若是標準維度、標準量度、解決方案維度和事件及資料處理維度，系統會將標籤複製到目標報表套裝中&#x200B;**名稱相同**&#x200B;的變數。
 
@@ -89,7 +89,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!IMPORTANT]
    >
-   >您應隨時檢查目標報表套裝，以確定標籤已正確複製。這點對於含有 ID 或 DEL 標籤的變數來說尤其重要。
+   >您應一律檢查目標報表套裝，以確認標籤已正確複製。 這點對於含有 ID 或 DEL 標籤的變數來說尤其重要。
 
 1. Click **[!UICONTROL Apply]**.
 
