@@ -1,24 +1,24 @@
 ---
-description: '您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入 GDPR 請求。您可以為您提交的每個 GDPR 請求，要求此包含選用參數的選項，並新增至 JSON 請求 '
-seo-description: '您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入 GDPR 請求。您可以為您提交的每個 GDPR 請求，要求此包含選用參數的選項，並新增至 JSON 請求 '
+description: '您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics可以建立擴充的ID集，將此關聯資料納入「資料隱私權」請求。 您可以針對您送出、新增至JSON請求的每個「資料隱私權」請求，以可選參數來請求此選項 '
+seo-description: '您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics可以建立擴充的ID集，將此關聯資料納入「資料隱私權」請求。 您可以針對您送出、新增至JSON請求的每個「資料隱私權」請求，以可選參數來請求此選項 '
 seo-title: ID 擴增
 title: ID 擴增
-uuid: 2672d17d-c957-4e08-8d98-16d54 d54 bb
+uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
+source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 ---
 
 
 # ID 擴增
 
-您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入 GDPR 請求。您可以為您提交的每個 GDPR 請求，要求此包含選用參數的選項，並新增至 JSON 請求:
+您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics可以建立擴充的ID集，將此關聯資料納入「資料隱私權」請求。 您可以針對您送出、新增至JSON請求的每個「資料隱私權」請求，以選用參數來請求此選項：
 
 ```
 "expandIds": true
 ```
 
-如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](../../admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)。如需更多詳細資料，請參閱 [GDPR API 文件](https://www.adobe.io/apis/experienceplatform/gdpr.html)。
+如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -34,20 +34,20 @@ source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂 ID 至 Cookie ID 擴增 </p> </td> 
-   <td colname="col2"> <p>在電子商務網站上，訪客經常會先瀏覽網站的各個頁面，將商品加入購物車，在進入結帳程序後才會登入網站。若用來識別 GDPR 請求使用者的 ID，只會在使用者登入時儲存在自訂變數中，則此預先登入活動不會與此 ID 建立關聯。使用 Analytics Cookie ID 時，由於 Cookie ID 在整個登入過程都會存在，因此客戶可選擇將登入前所進行的瀏覽動作與登入後的購買動作相關聯。 </p> <p>假設您的實作會將登入 ID (CRM ID、使用者名稱、忠誠度編號、電子郵件地址等等，或這些值的任意雜湊) 儲存在自訂變數 (prop 或 eVar) 或自訂訪客 ID 中，然後將此 ID 用於 GDPR 存取請求。資料主體對於系統並未將他們的所有瀏覽資料都隨存取請求傳回，可能會覺得很意外，特別是在您向他們促銷已瀏覽過但尚未購買的商品時。 </p> <p>因此，Analytics GDPR 處理程序將僅支援 ID 擴增，Analytics 可在其中找到點擊產生的所有 Cookie ID (這和能產生自訂 ID 的點擊相同)，然後擴增請求以一併納入這些 ID。 </p> <p>在指定 expandIDs 以及 Cookie 命名空間以外的任何命名空間時，系統會擴增請求以納入在包含任何指定 ID 的點擊中找到的任何 Cookie ID (ECID 或 Analytics Cookie)。接著，就會在任何新發現的 Cookie ID 上執行 Cookie ID 擴增 (如上所述)。 </p> <p>在將 expandIDs 選項用於存取請求，而指定的 ID 具有 ID-PERSON 標籤時，將會傳回兩組檔案。第一組 (人員組) 只會納入找到指定 ID 的點擊中的資料。第二組 (裝置組) 則只會納入來自 expanded ID，但沒有指定 ID 的點擊資料。 </p> </td> 
+   <td colname="col2"> <p>在電子商務網站上，訪客經常會先瀏覽網站的各個頁面，將商品加入購物車，在進入結帳程序後才會登入網站。如果用於識別「資料隱私權」要求之使用者的ID僅在使用者登入時儲存在自訂變數中，則此登入前活動將不會與ID相關聯。 使用 Analytics Cookie ID 時，由於 Cookie ID 在整個登入過程都會存在，因此客戶可選擇將登入前所進行的瀏覽動作與登入後的購買動作相關聯。 </p> <p>假設您的實作將登入ID（CRM ID、使用者名稱、忠誠度號碼、電子郵件地址等等，或這些值的雜湊）儲存在自訂變數（prop或eVar）或自訂訪客ID中，然後將此ID用於「資料隱私權」存取請求。 資料主體對於系統並未將他們的所有瀏覽資料都隨存取請求傳回，可能會覺得很意外，特別是在您向他們促銷已瀏覽過但尚未購買的商品時。 </p> <p>因此，Analytics資料隱私權處理支援ID擴增，Analytics會在此處尋找與任何自訂ID相同點擊中發生的所有Cookie ID，然後展開請求以包含這些ID。 </p> <p>在指定 expandIDs 以及 Cookie 命名空間以外的任何命名空間時，系統會擴增請求以納入在包含任何指定 ID 的點擊中找到的任何 Cookie ID (ECID 或 Analytics Cookie)。接著，就會在任何新發現的 Cookie ID 上執行 Cookie ID 擴增 (如上所述)。 </p> <p>在將 expandIDs 選項用於存取請求，而指定的 ID 具有 ID-PERSON 標籤時，將會傳回兩組檔案。第一組 (人員組) 只會納入找到指定 ID 的點擊中的資料。第二組 (裝置組) 則只會納入來自 expanded ID，但沒有指定 ID 的點擊資料。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-在 GDPR 施行的最初幾個月期間，絕大部分的 Analytics GDPR 請求不會請求 ID 擴增，但是否要為組織決定適當的值由您做主。您應向法務團隊諮詢具您所使用之 ID 的資料，以及在 Adobe Analytics 內收集的資料，是否需要 ID 擴增。主要考量應為在共用裝置上，已有多位使用者造訪網站，使用 ID 擴增會在存取請求傳回的資料中，納入該裝置其他使用者的點擊資料 (位於裝置檔案中)。即使您已遵照標籤的最佳作法，例如裝置檔案中不會納入私人資料 (如造訪的頁面)，裝置檔案仍會包含造訪頁面數和每次造訪的時間。可以與可能還不是訪客的人士共用此資訊嗎?
+在「資料隱私權」上線後的頭幾個月，絕大多數的「Analytics資料隱私權」要求都未要求ID擴增，但是您必須決定組織的適當值。 您應向法務團隊諮詢具您所使用之 ID 的資料，以及在 Adobe Analytics 內收集的資料，是否需要 ID 擴增。主要考量應為在共用裝置上，已有多位使用者造訪網站，使用 ID 擴增會在存取請求傳回的資料中，納入該裝置其他使用者的點擊資料 (位於裝置檔案中)。即使您已遵照標籤的最佳作法，例如裝置檔案中不會納入私人資料 (如造訪的頁面)，裝置檔案仍會包含造訪頁面數和每次造訪的時間。可以與可能還不是訪客的人士共用此資訊嗎?
 
 若為刪除請求，由於這種請求並未使用 ID 擴增，若您使用非 Cookie ID (非 ECID 或 Analytics Cookie 的 ID) 來找出應刪除的點擊，且該 ID 具有 ID-DEVICE 標籤，則報表中的不重複訪客計數會有所改變，這是因為 Cookie ID 只有部分例項會匿名，其餘例項皆不會變更。若您未指定 ID 擴增，則建議您將 Cookie ID 用於請求，或使用具有 ID-PERSON 標籤的 ID。
 
 當 Adobe 執行 ID 擴增時，可能會需要進行額外完整資料掃描，這會增加 Adobe 完成請求所需的時間，通常會增加一週的處理時間。
 
-## 其他GDPR要求標幟
+## 其他資料隱私權要求標幟
 
-除了「expandIDs」標記，Analytics 支援其他兩種標記，可以包含在 GDPR 請求中一併傳入。這些標記和其預設值如下:
+除了「expandIDs」標幟外，Analytics還支援可作為「資料隱私權」要求一部分傳遞的兩個其他標幟。 這些標記和其預設值如下:
 
 ```
 "analyticsDeleteMethod": “anonymize”
@@ -56,12 +56,12 @@ source-git-commit: fc9dbf8e2590ca3d89b295be03ec8ef7dc511c72
 
 「analyticsDeleteMethod」除了預設值「anonymize」外，未來可能也會支援「purge」值。一旦支援此值，會造成整個點擊遭到刪除，而非僅更新帶有 DEL 標籤之點擊欄位的值。
 
-除了其預設值外，優先順序欄位亦支援「low」值。若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，除了資料主體提出的請求以外，Adobe 不鼓勵基於其他原因使用 GDPR API。GDPR API 並非適合用於資料清理或修復的工具，可能會致生非預期的後果。
+除了其預設值外，優先順序欄位亦支援「low」值。若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，Adobe不會基於資料主體所提出要求以外的理由而放棄使用隱私權服務API。 隱私權服務API不是資料清理或修復的適當工具，會產生意想不到的後果。
 
->[!NOTE]
->[GDPR API](https://www.adobe.io/apis/experienceplatform/gdpr.html) 已提供協助您履行敏感的GDPR要求。Adobe不支援使用此API for&gt;其他目的，並且可能會影響Adobe為其他Adobe客戶適時啓用高優先順序的GDPR請求。我們要求您不要使用GDPR API，例如清除意外提交給大量訪客的資料。
->
->您也應注意，因為GDPR&gt;刪除要求而刪除了點擊的任何訪客(更新或匿名)都會重設狀態資訊。訪客下次返回您的網站時，就會變成新訪客。所有eVar歸因都會再次開始，如造訪次數、反向連結、第一頁瀏覽等資訊都會再次啓動。在您想要清除&gt;資料欄位的情況下，此副作用是不需要的，並且反白顯示GDPR API不適合此使用情況的原因一。
->
->請聯絡您的客戶經理(CSM)，與我們的工程架構設計人員諮詢團隊合作，進一步審查並提供更多的努力以移除任何PII或資料問題。
+[!NOTE]
+提 [供隱私權服務API](https://www.adobe.io/apis/experienceplatform/gdpr.html) ，以協助您履行對時間敏感的資料隱私權要求。 Adobe不支援將此API用於其他用途，並可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將隱私權服務API用於其他用途，例如清除在大型訪客群組間意外提交的資料。
+
+您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您想要清除資料欄位，則不需要此副作用，並強調隱私權服務API不適用於此用途的一個原因。
+
+請連絡您的客戶經理(CSM)，與我們的工程架構顧問團隊協作，以進一步審查並提供移除任何PII或資料問題的工作層級。
 
