@@ -3,8 +3,8 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hant/analytics/admin/home.html
-translation-type: ht
-source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
+translation-type: tm+mt
+source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
 
 ---
 
@@ -49,6 +49,7 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [發佈介面工具集](admin/publishing-widgets-admin.md)
    + [偏好設定管理器](admin/preferences-manager.md)
    + [隱私權設定](admin/privacy-settings.md)
+   + [隱私權設定](admin/privacy-reporting.md)
    + 處理規則 {#processing-rules}
       + [處理規則概觀](admin/c-processing-rules/processing-rules.md)
       + 處理規則設定 {#processing-rules-configuration}
@@ -160,18 +161,20 @@ source-git-commit: 8185272aefa5e57b5a5b4baf9fb3a711439cea42
    + [電子郵件使用者](user-management2/t-email-users.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
+   + [Adobe Analytics與CCPA](c-data-governance/an-ccpa-overview.md)
    + [常見問題集](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics GDPR 工作流程](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
    + [檢視/管理報表套裝資料控管設定](c-data-governance/gdpr-view-settings.md)
    + [標籤報表套裝資料](c-data-governance/gdpr-setup-reportsuite.md)
    + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 變數的 GDRP 標籤](c-data-governance/gdpr-labels.md)
+   + [Analytics變數的資料隱私權標籤](c-data-governance/gdpr-labels.md)
    + [命名空間](c-data-governance/gdpr-namespaces.md)
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [標籤最佳作法](c-data-governance/gdpr-analytics-ids.md)
    + [標籤範例](c-data-governance/gdpr-labeling-example.md)
-   + [GDPR 與 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [GDPR 術語](c-data-governance/gdpr-terminology.md)
+   + [資料隱私權與資料連接器(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [資料隱私權術語](c-data-governance/gdpr-terminology.md)
+   + [同意管理變數](c-data-governance/consent-variables.md)
 + 伺服器呼叫使用量 {#server-call-usage}
    + [伺服器呼叫使用量概觀](c-server-call-usage/overage-overview.md)
    + [檢視目前伺服器呼叫使用量](c-server-call-usage/server-call-usage-dashboard.md)
