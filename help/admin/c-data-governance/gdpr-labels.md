@@ -5,7 +5,7 @@ seo-title: Analytics變數的資料隱私權標籤
 title: Analytics變數的資料隱私權標籤
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: f1113b9a0d4da11eb6bd53c5a8c8fa3191dedd37
 
 Adobe Analytics 會根據資料敏感程度和合約規定提供適用的資料標籤工具。標籤是相當重要且實用的功能，有助於: (1) 識別資料主題、(2) 判斷要傳回做為存取要求一部分的資料，以及 (3) 識別刪除要求中須刪除的資料欄位。
 
-Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md#concept_1BC4CA94B559481F8B08776DA100B23E) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
+Before you can figure out which labels should be applied to which variables/fields, you need to [understand the IDs](/help/admin/c-data-governance/gdpr-analytics-ids.md) that you are capturing in your Analytics data, and to decide which you will use for Data Privacy requests.
 
 Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏感資料和資料管理。
 
@@ -85,7 +85,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
  </tbody> 
 </table>
 
-## 資料治理標籤（資料隱私） {#section_0C7F9EC4BB414A6D915C69F1D3259F1B}
+## 資料治理標籤（資料隱私） {#data-governance-labels}
 
 資料控管標籤讓使用者可分類反映隱私權相關考量事項，以及遵循法規和公司政策的合約條件資料。
 
@@ -434,7 +434,7 @@ Adobe Analytics對資料隱私權刪除要求的支援旨在將對報告的影�
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪客 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 這些具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。如果您指定<a href="../../admin/c-data-governance/gdpr-id-expansion.md#concept_917A5666010A4E6BA599FE372DADD1BD" format="dita" scope="local">透過每個請求進行 ID 擴增</a>，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。 </p> <p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報表中的唯一訪客計數都會變更。 </p> </td> 
+   <td colname="col2"> <p> 這些具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。如果您指定<a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">透過每個請求進行 ID 擴增</a>，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。 </p> <p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報表中的唯一訪客計數都會變更。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
