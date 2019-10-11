@@ -6,7 +6,7 @@ solution: Analytics
 title: 同意管理變數
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
+source-git-commit: a272be92292f3a12be19a5d6fd061b32a565448c
 
 ---
 
@@ -35,15 +35,15 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 
 ## 報告
 
-「同意管理變數」可透過Analytics管理控制台中提供的新隱私權設定啟用。
+您可以透過Analytics管理控制台中提供的新隱私權設定，啟用「同意管理變數」。
 
-每個報表套裝皆可設定為：
-1. 在「報告與分析」中，按一下「管理&gt;報告套裝」。
-1. Select the report suite(s) where you are collecting media data and click [!UICONTROL Edit Settings &gt; Privacy Management]
+每個報表套裝皆可設定如下：
+1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
+1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
 
    ![](assets/rsm-privacy-select.png)
 
-1. 按一下「啟 [!UICONTROL 用資料隱私權報表] 」按鈕。  請注意：在啟用這些變數後，將無法關閉。
+1. 按一下「啟 **[!UICONTROL 用資料隱私權報表]** 」按鈕。 **** 注意：啟用後，這些變數就無法關閉。
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -63,21 +63,21 @@ source-git-commit: 492e9405c82183f6beb6588cd0dc039fe15350f7
 
 ### SSF
 
-* 上下文資料: `contextData.['cm.ssf']`
+* 上下文資料：contextData.['cm.ssf']
 * 接受的值：
-   * `1` -傳送值時， `1`這表示「伺服器端轉送」處於退出狀態。 與此變 `1` 數配對的值會封鎖與Adobe Audience manager共用此點擊的情形。 請參 [閱AAM ePrivacy Compliance。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
-   * 此參數不接受其他值
+   * 1 —— 傳送值"1"時，這表示伺服器端轉送處於選擇退出狀態。 值"1"與此變數搭配使用，將會封鎖此點擊與Adobe Audience manager的共用。 請參 [閱AAM ePrivacy Compliance。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+   * 此參數不接受其他值。
 
 ### DMP
 
-* 上下文資料: `contextData.['opt.dmp']`
+* 上下文資料：contextData.['opt.dmp']
 * 接受的值：
-   * `N` -傳送值時， `N`這表示消費者選擇不共用至資料管理平台。 請注意，目前AAM不會共用區塊。  使用SSF進行此功能。
-   * `Y` -傳送值時， `Y`這表示消費者選擇分享至資料管理平台。
+   * N —— 傳送值"N"時，這表示消費者選擇不共用至資料管理平台。 **** 注意：將此變數設為"N"目前並不會封鎖AAM的共用，但是，AAM功能的封鎖呼叫將會在2020年初新增。 目前，Adobe建議同時設 `c.cm.ssf=1` 定 `c.opt.dmp=N` 和以封鎖點擊傳送至AAM。
+   * Y —— 傳送值"Y"時，這表示消費者選擇分享至資料管理平台。
 
 ### 銷售
 
-* 上下文資料: `contextData.['opt.sell']`
+* 上下文資料：contextData.['opt.sell']
 * 接受的值：
-   * `N` -傳送值時， `N`這表示消費者選擇不分享或銷售資料給第三方。
-   * `Y` -傳送值時 `Y`，這表示消費者選擇分享或銷售資料給第三方。
+   * N —— 傳送值"N"時，這表示消費者選擇不分享或銷售資料給第三方。
+   * Y —— 傳送值"Y"時，這表示消費者選擇分享或銷售資料給第三方。
