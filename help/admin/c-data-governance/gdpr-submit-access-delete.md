@@ -5,7 +5,7 @@ seo-title: 提交存取與刪除請求
 title: 提交存取與刪除請求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 
 每個檔案會結合您所有報表套裝的資料，自動移除重複點擊的其他拷貝。您可以決定要傳回資料主體的檔案。或者您也可以在將資料傳回資料主體之前先提取部分資料，並與其他系統的資料結合。
 
-## 提交請求 {#section_F70F4D91B7FF4242876338A66D2125C3}
+## 提交請求 {#submit-requests}
 
 您可以透過我們的資料隱私權UI入口網站或我們的 [資料隱私權API](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ，提交資料 [隱私權存取和刪除要求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
