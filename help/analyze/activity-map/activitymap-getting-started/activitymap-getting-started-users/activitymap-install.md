@@ -7,7 +7,7 @@ title: 安裝 Activity Map 瀏覽器外掛程式
 topic: Activity Map
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 translation-type: tm+mt
-source-git-commit: 0def09fea5f435fa0dd2235aeade25cafbdf97ee
+source-git-commit: 696076af9407d47e3ce3e78c262e266101e90648
 
 ---
 
@@ -20,7 +20,7 @@ Activity Map 瀏覽器外掛程式:
 
 * 可手動插入以做為 Analytics 頁面標記。
 * 可由瀏覽器工具列中的按鈕或功能表項目啟動。
-* 僅與下列桌面瀏覽器的最新版本相容: Internet Explorer、Firefox、Chrome 和 Safari。
+* 僅與下列案頭瀏覽器的最新版本相容：Internet Explorer、Firefox和Chrome。
 * 支援「**[!UICONTROL 記住我的登入資訊]」功能。**
 * ****&#x200B;可以在不包含 Analytics 頁面代碼的網頁上插入 Activity Map 工具列。如果頁面不含 Analytics 頁面代碼，會顯示錯誤訊息。
 * 需要您進行瀏覽器外掛程式安裝程序。
@@ -62,11 +62,3 @@ Activity Map 瀏覽器外掛程式:
 1. 按一下彈出式功能表中的「**[!UICONTROL 是]」，允許程式對電腦進行變更。**
 1. 依照安裝精靈中的指示進行。
 1. 如果 Activity Map 安裝成功，您會在 Internet Explorer 中看到一則通知，指出 Activity Map 已可供使用。將其啟用，開始使用應用程式。您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
-
-## Install Activity Map plug-in on Safari {#section_4F306BDDFBC04D4CA48B7C37B0AACC48}
-
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Activity Map]**.
-
-1. 導覽至 <https://safari-extensions.apple.com/>。
-1. Search for "activity" or "activitymap" and click through the Adobe Activity Map installation.  ![](assets/am-extension.png)
-1. If you see an Adobe Analytics icon  ![](assets/an_icon.png){width="70px"} added to your tool bar, your download was successful. 您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
