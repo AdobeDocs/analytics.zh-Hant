@@ -1,12 +1,12 @@
 ---
 description: 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。
-keywords: 計算量度；衍生度量；進階計算量度
+keywords: 計算量度；衍生量度；進階計算量度
 seo-description: 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。
 seo-title: 計算與進階計算 (衍生) 量度
 title: 計算與進階計算 (衍生) 量度
-uuid: 2553c115-b15 a-4109-1de2-733dbc1 eb9 e
+uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 >
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型:
 >
->* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型分別移轉至新的「上次接觸」和「首次接觸」歸因模型(注意：「行銷管道」尚未過時-只有出現在計算量度中的兩個配置模型才有支援)。
->* 此外，我們也修正了線性配置的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 「行銷渠道上次接觸」和「行銷渠道首次接觸」配置模型已分別移轉至新的「上次接觸」和「首次接觸」歸因模型(注意：「行銷渠道」尚未過時——只有出現在計算量度中的兩個配置模型已過時)。
+>* 此外，我們還修正了線性分配的計算方式。 如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 
 
 我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
 
 * Adobe [!DNL Analytics] Foundation: Calculated
-* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)：計算+進階計算
+* [Adobe Analytics Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html):計算+進階計算
 * [Adobe Analytics Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html): 計算 + 進階計算
 * [Adobe Analytics Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html): 計算 + 進階計算
 
@@ -55,7 +55,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
    >[!NOTE]
    >
-   >您可以繼續在臨機分析中建立量度。其計算量度產生器使用者介面現在類似於新的量度產生器。
+   >您可以繼續在臨機分析中建立量度。 其計算量度產生器使用者介面現在類似於新的量度產生器。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -110,11 +110,11 @@ Here is a short overview of the [!UICONTROL Calculated Metrics] tools:
   </tr> 
   <tr> 
    <td colname="col1"> 量度選擇器邊欄 </td> 
-   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in [!UICONTROL Reports &amp; Analytics]. </p> <p>此邊欄可讓您搜尋並新增/套用量度至報表。您也可以變更<a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">排序</a>順序 (選項為: 字母順序、建議、經常使用、最近使用。)此外，您也可以篩選報表套裝，只顯示在特定報表套裝中建立的量度。 </p> <p>若要存取此量度選擇器，請按一下報表左側的「量度」圖示 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度選擇器的外觀如下: </p> <p><img placement="break" align="center"  src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>Replaces the <span class="uicontrol"> Show Metrics</span> popup in <span class="uicontrol"> Reports &amp; Analytics</span>. </p> <p>此邊欄可讓您搜尋並新增/套用量度至報表。您也可以變更<a href="../../components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md#concept_A09845053A934CB7B755391D76E76C08" format="dita" scope="local">排序</a>順序 (選項為: 字母順序、建議、經常使用、最近使用。)此外，您也可以篩選報表套裝，只顯示在特定報表套裝中建立的量度。 </p> <p>若要存取此量度選擇器，請按一下報表左側的「量度」圖示 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度選擇器的外觀如下: </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md" format="https" scope="external"> 計算量度的 API</a> </td> 
-   <td colname="col2"> <p>Adobe Analytics2.0API集的一部分。 </p> </td> 
+   <td colname="col2"> <p>Adobe Analytics 2.0 API集的一部分。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
