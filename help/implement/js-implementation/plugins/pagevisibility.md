@@ -1,14 +1,14 @@
 ---
 description: 記錄您的頁面在瀏覽器中是作用中標籤的秒數，並傳遞該值給下一個頁面檢視的量度。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 記錄您的頁面在瀏覽器中是作用中標籤的秒數，並傳遞該值給下一個頁面檢視的量度。
 seo-title: getPageVisibility
 solution: Analytics
 title: getPageVisibility
-topic: 開發人員和實施
-uuid: 3891e2aa-d5 c1-4a2 b-8522-eb2 bae39 ea2 e
+topic: 開發人員和實作
+uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->此為外掛程式測試版，可能會推出其他更新。
+>此為外掛程式的測試版，可能即將進行其他更新。
 
-This plug-in requires [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8).
+此外掛程式需要 [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)。
 
 此外掛程式也會記錄頁面在瀏覽器中的秒數總計 (包括作用中和被動檢視時間)。必須使用 getPreviousValue 外掛程式，才能追蹤與頁面可見度事件關聯的上一頁名稱。追蹤這些值可讓您更清楚瞭解訪客參與，以及更精確追蹤您網站上的訪客行為。
 
@@ -29,7 +29,7 @@ This plug-in requires [getVisitStart](../../../implement/js-implementation/plugi
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 Analytics 的開發人員執行。This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
+>下列指示要求您變更網站上的資料收集代碼。 此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 Analytics 的開發人員執行。This plug-in is compatible only with [!DNL AppMeasurement] tracking libraries.
 
 ## 必要的支援外掛程式 {#section_0CA7624F4A7B4B5F851A4300937887AD}
 
@@ -108,27 +108,27 @@ document.addEventListener('visibilitychange',function(event){if(document.hidden)
 
 * 很小一部分的使用者由於瀏覽器限制而不會傳送所檢視頁面資料的百分比，因此在外掛程式中包含邏輯以確保做為結果的資料不會產生偏差。不過，此外掛程式在 IE、Firefox、Chrome、與 Safari 中均已順利通過測試。
 * 由於外掛程式用於測量秒數總計以及將該值與上一頁名稱建立關聯的方式不同，預設頁面逗留時間量度和秒數總計量度之間會存在差異。
-* [!UICONTROL 可建立計算量度] 以協助匯總及瞭解與這些度量關聯的訪客行為：
+* [!UICONTROL 可建立計算量度] ，以協助匯總和瞭解與下列量度相關的訪客行為：
 
    * **頁面可見度比率**(頁面可見度秒數總計/頁面秒數總計)
-   * **隱藏秒數總計**(頁面秒數總計-頁面可見度秒數總計)
-   * **頁面可見度秒數**(頁面可見度秒數總計/頁面可見度例項總計)
+   * **隱藏秒數總計** （頁面秒數總計——頁面可見度秒數總計）
+   * **頁面可見度平均秒數**(頁面可見度秒數總計/頁面可見度例項總計)
    * **頁面隱藏平均秒數** ((頁面秒數總計 - 頁面可見度秒數總計)/頁面可見度例項總計)
 
 * 由於外掛程式進位秒數的方式，頁面可見度秒數總計和秒數總計之間有 1-2 秒的差異，秒數總計會比較高。(未來更新將會解決此問題)
 * 使用 getVisitStart 外掛程式應注意閒置 30 分鐘以上的訪客會起始新的瀏覽階段。目前的設計無法計入此項目，但我們會在外掛程式的未來版本加入「作用中秒數總計」做為解決辦法。
 
-## 常問的問題 {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
+## 常見問題集 {#section_1ED9391D3BAA4208817F0DF69ABBB25E}
 
-**此外掛程式會進行額外的伺服器呼叫嗎? **
+**此外掛程式會進行額外的伺服器呼叫嗎?**
 
 外掛程式只會記錄後續頁面檢視伺服器呼叫的頁面可見度值。所以不會結合使用額外的伺服器呼叫。
 
-**如果我不想擷取頁面秒數總計或頁面可見度例項總計，可以不把它們列入事件清單嗎? **
+**如果我不想擷取頁面秒數總計或頁面可見度例項總計，可以不把它們列入事件清單嗎?**
 
 可以，頁面秒數總計和可見度例項總計是可選事件，可以視需要不列入清單。
 
-**如果我在「上一頁名稱」以外的報表中使用這些擷取的事件，這些事件仍有意義嗎? **
+**如果我在「上一頁名稱」以外的報表中使用這些擷取的事件，這些事件仍有意義嗎?**
 
 由於外掛程式記錄的是後續影像請求上的值，因此只有在「上一頁」上下文中擷取的其他 eVar 才適用，例如「上一頁 URL」。
 
