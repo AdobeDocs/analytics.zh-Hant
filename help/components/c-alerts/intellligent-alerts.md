@@ -1,16 +1,16 @@
 ---
 description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
 seo-description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
-seo-title: 智慧提醒
-title: 智慧提醒
-uuid: ac8c9710-d245-46e9-b906-32d3 bb0013 c0
+seo-title: 智慧型警報
+title: 智慧型警報
+uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 智慧提醒
+# 智慧型警報
 
 新的智慧型警報系統可提供更細緻的警報控制能力，並整合警報系統的異常偵測功能。
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >
 >Intelligent Alerts are available to Adobe [!DNL Analytics] Prime and Adobe [!DNL Analytics] Ultimate customers only.
 
-The new Alert Builder and Alert Manager replace the existing alert functionality in Adobe [!DNL Analytics]. 智慧型警報可讓您
+新的警報產生器和警報管理器取代Adobe中現有的警報功能 [!DNL Analytics]。 智慧型警報可讓您
 
 * 根據異常 (90％、95％、99%、99.75% 或 99.9% 臨界值；％ 變化；以上/以下) 建立警報。
 * 預覽警報觸發的頻率。
@@ -57,7 +57,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問: 警報的異常偵測能多早判斷出資料異常?</b> </p> </td> 
-   <td colname="col2"> <p>培訓期間會依選擇的粒度而有所不同。請參閱[異常偵測中使用的統計技巧](/help/analysis/analysis-workspace/cutual-creaty-detection/digital-mercury-detection. md)，以瞭解詳細資訊。摘要如下: </p> 
+   <td colname="col2"> <p>培訓期間會依選擇的粒度而有所不同。See Statistical Techniques used in <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md">Anomaly Detection</a> for more detail. 摘要如下: </p> 
     <ul id="ul_4F8C2A41F06C498DBF5E7AE5DE803773"> 
      <li id="li_E246091A3F1E484C8444AF4052FCA784">每月 = 15 個月 + 去年的相同範圍 </li> 
      <li id="li_CC014FB38AE1492B9647E990C29BFB3C">每週 = 15 週 + 去年的相同範圍 </li> 
@@ -75,7 +75,7 @@ The new Alert Builder and Alert Manager replace the existing alert functionality
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 我能否取得包含虛線的「預期值」表格 (或某種顯示相關數值的輸出資料)?</b> </p> </td> 
-   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片: <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。It uses a fixed 30-day training period, fixed 95% interval, and is similar to <a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"> [!UICONTROL Reports &amp; Analytics] anomaly detection </a>. </p> </td> 
+   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片: <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。其偵測方式採用固定的 30 天培訓期間、固定 95% 區間，並與<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics 異常偵測</a>的偵測方式相似。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
