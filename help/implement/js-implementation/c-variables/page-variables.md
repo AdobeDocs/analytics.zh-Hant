@@ -9,7 +9,7 @@ title: 頁面變數
 topic: 開發人員和實作
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -248,7 +248,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此變數應僅能讀取，且永遠不能設定。
 
 You may read these values and copy them into `props/eVars`, but you should never alter them. 此變數是隨 JavaScript 檔案的 H.11 版導入的。
 
@@ -270,7 +270,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此變數應僅能讀取，且永遠不能設定。
 
 You may read these values and copy them into `props/eVars`, but you should never alter them. 此變數是隨 JavaScript 檔案的 H.11 版導入的。
 
@@ -323,7 +323,7 @@ eVarN.xml
 * 您可以將 eVar 設定成在指定的時段或事件之後過期。
 * 您可以強制使 eVar 過期，這在重設變數用途時很適用。
 
-If an eVar is used in May to reflect internal promotions and expires after 21 days, and in June it is used to capture internal search keywords, then on June 1, you should force the expiration of, or reset, the variable. 這麼做有助於將內部促銷值排除在六月的報表以外。
+如果eVar在5月用於反映內部促銷活動並在21天後過期，而在6月用於擷取內部搜尋關鍵字，則在6月1日，您應強制變數過期或重設。 這麼做有助於將內部促銷值排除在六月的報表以外。
 
 **區分大小寫** {#section_6E9145B7FCC2438E95BB35AAE3857412}
 
@@ -955,7 +955,7 @@ s.maxDelay="750";
 
 >[!NOTE]
 >
->Adobe does not have control over DFA's response time. 若在最大延遲時段已提高至合理的時間長度後仍持續出現問題，請洽詢組織的 DFA 帳戶管理員。
+>Adobe無法控制DFA的回應時間。 若在最大延遲時段已提高至合理的時間長度後仍持續出現問題，請洽詢組織的 DFA 帳戶管理員。
 
 ## mediaLength {#concept_F52B1670122C4461824223E525307060}
 
@@ -988,7 +988,7 @@ mediaLength.xml
 
 **語法和可能的值** {#section_FEC1B01FDD234ACEB63C0558BEEB5CBC}
 
-** autoTrack方法：**
+**autoTrack 方法:**
 
 若使用 [!UICONTROL s.Media.autoTrack]，則無須明確實施 [!UICONTROL mediaLength] 變數。這會由「JavaScript 適用的 AppMeasurement」程式碼自動決定。
 
@@ -1548,7 +1548,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此變數應僅能讀取，且永遠不能設定。
 
 您可以讀取這些值，並將其複製到 prop/eVar 中，但絕不可加以變更。此變數是隨 JavaScript 檔案的 H.11 版導入的。
 
@@ -1558,7 +1558,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 ## products {#concept_A4007F6307E4419DAA65E1668A8FEBA2}
 
-The  variable is used for tracking products and product categories as well as purchase quantity and purchase price. 產品通常會與購物車事件或 事件一起設定。
+此變數可用來追蹤產品和產品類別，以及購買數量和購買價格。 產品通常會與購物車事件或 事件一起設定。
 
 <!-- 
 
@@ -1639,7 +1639,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 **整張訂單貨幣事件** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
 
-如果貨幣事件接收到事件清單中的值而非變數， *`products`* 則會套用至變數中的所有 *`products`* 產品。 這在追蹤整張訂單的折扣、運費及類似的價格時很有用，不必修改產品價格或在產品清單中個別追蹤。
+如果貨幣事件接收到事件清單中的值而非變數， *`products`* 則會套用至變數中的所有產 *`products`* 品。 這在追蹤整張訂單的折扣、運費及類似的價格時很有用，不必修改產品價格或在產品清單中個別追蹤。
 
 例如，如果您已將 event10 設定為包含整張訂單的折扣，則享有 10% 折扣的購買可能會如下所示: 
 
@@ -1837,7 +1837,7 @@ The *`referrer`* must look like a standard URL and include a protocol.
 
 ## 解析度 {#concept_8CBDDBE710744A3AA09E6B1E1519BF30}
 
-The  variable indicates the monitor resolution of the visitor viewing the web page.
+變數會指出檢視網頁之訪客的螢幕解析度。
 
 <!-- 
 
@@ -1849,7 +1849,7 @@ This variable is populated after the page code and before *`doPlugins`* is run.
 
 >[!NOTE]
 >
->This variable should only be read and never set.
+>此變數應僅能讀取，且永遠不能設定。
 
 您可以讀取這些值，並將其複製到 prop/eVar 中，但絕不可加以變更。此變數是隨 JavaScript 檔案的 H.11 版導入的。
 
@@ -1875,7 +1875,7 @@ By creating a unique object ID for a link or link location on a page, you can ei
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
-| 100 位元組 | OID | [!UICONTROL Activity Map], [!UICONTROL ClickMap] | 被點按連結的絕對 URL |
+| 100 位元組 | OID | [!UICONTROL Activity Map]、 [!UICONTROL ClickMap] | 被點按連結的絕對 URL |
 
 使用 s_objectID 有三個普遍原因。 *`s_objectID`*:
 
@@ -2184,9 +2184,9 @@ s.transactionID=s.purchaseID
 
 **缺陷、問題和提示** {#section_4299BAD5D0154DBC88A9EF0E2C252BB4}
 
-* If  recording is not enabled,  values will be discarded and unavailable for use with Integration Data Sources. *`transactionID`**`transactionID`*Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
+* 如果 *`transactionID`* 未啟用記錄，則 *`transactionID`* 會捨棄值，且無法與 [!UICONTROL Integration Data Sources搭配使用]。 Make sure to set a conversion variable or event (an eVar or the events variable) on the page where *`transactionID`* is set. Otherwise, no data is recorded for the *`transactionID`*.
 
-* If you are recording transactionIDs for multiple systems, such as purchases and leads, make sure the value in  is always unique. *`transactionID`*&#x200B;要確保這一點，您可以為 ID 加上前置詞，如 lead_1234 與 purchase_1234。[!UICONTROL 整合資料來源] (如果有兩次看見獨特資料， [!UICONTROL 資料來源資料將會系結至錯誤資料)]*`transactionID`* 的運作不如預期。
+* 如果您要記錄 [!UICONTROL 多個系統的transactionID] ，例如購買和銷售機會，請確定中的值 *`transactionID`* 永遠是唯一的。 要確保這一點，您可以為 ID 加上前置詞，如 lead_1234 與 purchase_1234。[!UICONTROL 整合資料來源] (如果有兩次看見獨特資料， [!UICONTROL 資料來源資料將會系結至錯誤資料)]*`transactionID`* 的運作不如預期。
 
 * 依預設， *`transactionID`* 值會記住90天。 如果您的離線互動程序超過 90 天，請聯絡客戶服務以要求延長期限。
 
@@ -2282,7 +2282,7 @@ s.visitorNamespace="Adobe"
 
 ## zip {#concept_C1DF93083553410DA36EAB61FBFDF69A}
 
-The  and  variables are conversion variables.
+和變數是轉換變數。
 
 <!-- 
 
@@ -2322,6 +2322,4 @@ s.zip="92806-4115"
 
 **缺陷、問題和提示** {#section_E86774D5CE8B40EFA36353CDEE3A84D0}
 
-* 請將[!UICONTROL 郵遞區號]填入至有相關事件引發的每個頁面上 (如結帳程序的每個頁面)。
-* The *`zip`* and *`state`* variables act like eVars that expire on the Page View.
-
+* 請將[!UICONTROL 郵遞區號]填入至有相關事件引發的每個
