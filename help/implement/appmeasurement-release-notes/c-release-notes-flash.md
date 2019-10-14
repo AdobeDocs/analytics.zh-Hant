@@ -8,7 +8,7 @@ title: Flash-Flex
 topic: 開發人員和實作
 uuid: 2ee7fb92-9b62-44d4-bd93-6dff26764b7f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -19,7 +19,7 @@ Flash 的累積發行說明。可在桌面和網路上測量使用 ActionScript 
 
 >[!NOTE]
 >
->To find the current library version, turn on debug logging.
+>若要尋找目前的程式庫版本，請開啟除錯記錄。
 
 <!-- 
 
@@ -29,19 +29,19 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 ## April 20, 2017 {#section_8521EC2B68E24203A0F1B14A9D2652D2}
 
-**4.0.3 版 **
+**4.0.3 版**
 
 * 已納入 Visitor API 1.6.1。
 
 ## August 18, 2016 {#section_D72EF20672174249B864997905D7552A}
 
-** 4.0.2 - Update**
+**4.0.2 —— 更新**
 
 已納入 Visitor API 1.6.0。
 
 ## May 19, 2016 {#section_061305CFC1E040E69E3CDF4078C17AE4}
 
-** 4.0.1 —— 更新**
+**4.0.1 —— 更新**
 
 納入 Visitor API 1.5.6
 
@@ -60,7 +60,7 @@ s.debugTracking = false; // set to false or remove line
                          // for default "disabled” behavior 
 ```
 
-受影響的版本為所有平台上  for Flash version 4.0 and earlier on all platforms.[!DNL AppMeasurement]
+受影響的版本為所有平台上 適 [!DNL AppMeasurement] 用於所有平台的Flash 4.0及更早版本。
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ s.debugTracking = false; // set to false or remove line
 
 ## September 17, 2015 {#section_319911C0F080452981F8C8BEA2880463}
 
-Version 4.0 - Update:
+4.0版——更新：
 
 * 納入 Visitor API 1.5.2.
 
@@ -95,7 +95,7 @@ Version 4.0 - Update:
 
 ## May 21, 2015 {#section_F5EFCC451F13499F9AA53326AE5926F1}
 
-Version 3.9.2 - Update:
+3.9.2版——更新：
 
 * 納入 Visitor API 1.4
 
@@ -132,7 +132,7 @@ Version 3.9.2 - Update:
 
 發行日期: **2014 年 4 月 17 日**
 
-* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* 支援 [Experience Cloud訪客ID服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 版本 3.7.3 {#section_1159B2AB56F54903A6FBFB7047AEC1C5}
 
