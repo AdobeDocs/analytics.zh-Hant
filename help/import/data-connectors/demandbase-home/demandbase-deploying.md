@@ -5,7 +5,7 @@ seo-title: 部署整合
 title: 部署整合
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -192,9 +192,7 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ![](assets/debugger1.png)
 
-**Target Mbox包含Demandbase描述檔參數：**
-
-只有在頁面上實施Target，且您已針對Adobe Target設定此整合時，您才會看到這個項目——請參閱Adobe整合精靈中的步驟4。
+**** Target Mbox包含Demandbase描述檔參數：只有在頁面上實施Target，且您已針對Adobe Target設定此整合時，您才會看到這個項目——請參閱Adobe整合精靈中的步驟4。
 
 ![](assets/debugger2.png)
 
