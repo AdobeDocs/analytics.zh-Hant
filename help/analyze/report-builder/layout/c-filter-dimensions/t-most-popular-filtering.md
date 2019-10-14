@@ -7,7 +7,7 @@ title: 最受歡迎篩選
 topic: Report Builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -35,7 +35,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    >[!NOTE]
    >
-   >套用篩選器至現有請求會造成呈現的資料變更。假設您已將前十名的[!UICONTROL 頁面]映射至儲存格 $A$1 到 $A$10，並將「[!UICONTROL 起始排名]」指定為 1，將「[!UICONTROL 項目數]」指定為 10。如果您變更這些值，使「[!UICONTROL 起始排名]」顯示 1，使「[!UICONTROL 項目數]」只顯示 3，先前填入儲存格 $A$4 到 $A$10 的資料將會消失。
+   >將篩選套用至現有請求會造成顯示資料的變更。 假設您已將前十名的[!UICONTROL 頁面]映射至儲存格 $A$1 到 $A$10，並將「[!UICONTROL 起始排名]」指定為 1，將「[!UICONTROL 項目數]」指定為 10。如果您變更這些值，使「[!UICONTROL 起始排名]」顯示 1，使「[!UICONTROL 項目數]」只顯示 3，先前填入儲存格 $A$4 到 $A$10 的資料將會消失。
 
 1. To create a search expression, click **[!UICONTROL Add]**.
 
@@ -45,7 +45,7 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    ![select_cell_icon.png](assets/select_cell_icon.png): 讓您找出在儲存格值中定義的條件。
 
-   **新增條件：**新增條件至運算式。可新增的條件數量沒有限制。
+   **新增條件:** 將條件新增至運算式。可新增的條件數量沒有限制。
 
 1. Click **[!UICONTROL OK]**.
 
