@@ -1,6 +1,6 @@
 ---
 description: 在 Adobe Analytics 實施 Accelerated Mobile Pages (AMP) 專案。
-keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
+keywords: Analytics實施；amp;amp-analytics;adobeanalytics範本；adobeanalytics_nativeConfig範本；按一下tracking；訪客通脹；id服務
 seo-description: 在 Adobe Analytics 實施 Accelerated Mobile Pages (AMP) 專案。
 seo-title: Accelerated Mobile Pages
 solution: Analytics
@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages
 topic: 開發人員和實作
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -38,7 +38,7 @@ AMP 有特別標記的 HTML 頁面，儲存於網路各處包含參與的技術�
 
 為解決這些問題，Adobe 和 AMP 合作夥伴及發佈者在兩個選項上同心協力，兩個選項都使用 `amp-analytics` 標記，讓發佈者能從中選擇出最合乎其商業需求者。The first approach uses the `"adobeanalytics"` tracking template to construct the Analytics request directly from within the AMP. The second approach uses the `"analytics_nativeConfig"` tracking template, which uses an iframe containing the AppMeasurement code you deploy on your normal site. 以下表格提供參考，讓您能初步瞭解兩種方法各自的得失利弊。
 
-|  | **「adobeanalytics」範本** | ** "adobeanalytics_nativeConfig"範本** |
+|  | **「adobeanalytics」範本** | **「adobeanalytics_nativeConfig」範本** |
 |---|---|---|
 | (在現有的報表套裝) 訪客或訪客計數 | 高度膨脹 | 最小膨脹 |
 | 使用個別報告套裝 | 建議 | 非必要 |
@@ -198,12 +198,12 @@ AMP 專案正快速演進且時常產生變更，所以請您經常於[此處](h
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code>「adobeanalytics」</code>或<code>「adobeanalytics_nativeConfig」</code>範本是否有視訊追蹤功能? </p> </td> 
-   <td colname="col2"> <p> 非常抱歉，目前尚未提供。AMP 標準支援僅觸發「可見」、「按一下」及「計時器」功能，且尚不對可用 amp-analytics 標記聆聽的視訊追蹤支援直接觸發器。另外，由於<code>「adobeanalytics_nativeConfig」</code>標記只能載入一次，因此並不與 AMP 載入後啟動的視訊檢視功能相容。 </p> </td> 
+   <td colname="col1"> <p> Is video tracking available for either the <code> "adobeanalytics" </code> or <code> "adobeanalytics_nativeConfig" </code> template? </p> </td> 
+   <td colname="col2"> <p> 非常抱歉，目前尚未提供。AMP 標準支援僅觸發「可見」、「按一下」及「計時器」功能，且尚不對可用 amp-analytics 標記聆聽的視訊追蹤支援直接觸發器。Also, because the <code> "adobeanalytics_nativeConfig" </code> tag can only be loaded once, it is not compatible with video viewing which occurs after the AMP has loaded. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>你們在比較中提到<code>「adobeanalytics_nativeConfig」</code>範本的訪客數量膨脹較低。那是什麼意思? 什麼會造成<code>「adobeanalytics」</code>或<code>「adobeanalytics_nativeConfig」</code>解決方案發生訪客數量膨脹? </p> </td> 
-   <td colname="col2"> <p><code>「Adobeanalytics」</code>範本不允許 Adobe Analytics 設定訪客身分識別 Cookie，這表示在報表套裝中，您 AMP 頁面的所有造訪與訪客都會視為全新的獨立造訪與訪客。 </p> <p><code>「adobeanalytics_nativeConfig」</code>範本則允許在幾乎所有的情況 (使用 Safari 瀏覽器的新訪客除外) 下，設定 Adobe Analytics 訪客身分識別 Cookie。這表示任何來自 Safari 的訪客若先前未造訪過發佈者的網站， Adobe Analytics 報表會膨脹其流量。 </p> </td> 
+   <td colname="col1"> <p>你們在比較中提到<code> adobeanalytics_nativeConfig </code>「」範本的訪客數量膨脹較低。那是什麼意思? What would cause visitor inflation in either the <code> "adobeanalytics" </code> or the <code> “adobeanalytics_nativeConfig” </code> solution? </p> </td> 
+   <td colname="col2"> <p>The <code> “adobeanalytics” </code> template does not allow Adobe Analytics to set a visitor identification cookie; this means all visits and visitors to your AMP page will be treated as a new and independent visit and visitor in your report suite. </p> <p>The <code> “adobeanalytics_nativeConfig” </code> template, however, allows the Adobe Analytics visitor identification cookie to be set in nearly all cases, except for new visitors using the Safari browser. 這表示任何來自 Safari 的訪客若先前未造訪過發佈者的網站， Adobe Analytics 報表會膨脹其流量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我是否該為 AMP 使用個別報表套裝? </p> </td> 
@@ -211,10 +211,10 @@ AMP 專案正快速演進且時常產生變更，所以請您經常於[此處](h
   </tr> 
   <tr> 
    <td colname="col1"> <p>什麼是 <span class="keyword">Experience Cloud</span> ID 服務? 我需要這項服務嗎? </p> </td> 
-   <td colname="col2"> <p>Identity <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Service </a> (舊稱訪客 <span class="term"> ID服務)可啟用 </span>Experience cloud核心服務，並允許不同Adobe <span class="keyword"></span><span class="keyword"></span> Experience cloud解決方案之間的整合。 若您的整合項目中有 <span class="keyword">Adobe Audience Manager</span> 或 <span class="keyword">Adobe Target</span>，您就很可能使用此服務。此服務為許多即將上市的 <span class="keyword">Adobe Analytics</span> 功能之基礎。若您現在或將來需要 ID 服務支援，建議您使用 <code>iframeMessage</code> 解決方案。 </p> </td> 
+   <td colname="col2"> <p>Identity <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Service </a> (舊稱訪客 <span class="term"> ID服務)可啟用 </span>Experience cloud核心服務，並允許不同Adobe <span class="keyword"></span><span class="keyword"></span> Experience cloud解決方案之間的整合。 若您的整合項目中有 <span class="keyword">Adobe Audience Manager</span> 或 <span class="keyword">Adobe Target</span>，您就很可能使用此服務。此服務為許多即將上市的 <span class="keyword">Adobe Analytics</span> 功能之基礎。若您現在或將來需要 ID 服務支援，建議您使用 <code> iframeMessage </code> 解決方案。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>若用<code>「adobeanalytics_nativeConfig」</code>範本，我應該將我的公用程式網頁托管於何處? </p> </td> 
+   <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
    <td colname="col2"> <p>AMP 標準並不允許 iframe 自 AMP 本身的網域與子網域載入。若是如此，建議您將公用程式網頁托管於您的主網站以外的個別子網域，特別是貴公司有自己計畫快取 AMP 的 CDN 時，更應如此。要設定最大相容性，請選擇一個子網域，如 <span class="filepath">ampmetrics.publisher.com</span>，此子網域須與 AMP 內容實際放置之處不同。 </p> </td> 
   </tr> 
   <tr> 
