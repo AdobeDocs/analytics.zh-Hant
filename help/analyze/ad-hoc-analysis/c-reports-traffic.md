@@ -7,7 +7,7 @@ title: 流量來源報表
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -130,7 +130,7 @@ c_reports_ref_types.xml
 
 **網站內**: 這些項目是指被內部 URL 篩選器加上標記的 URL。這些項目不會計為反向連結例項，但可在報告其他量度時顯示。
 
-**無Java Script**:沒有JavaScript，因此類型無法識別（未知）。 這表示瀏覽器上的用戶端未提供反向連結資訊，因而未回報可支援 Javascript。這些項目不會計為「反向連結例項」，但可在報告其他度量時顯示。
+**無 JavaScript**: 沒有 JavaScript，因此無法識別類型 (未知)。這表示瀏覽器上的用戶端未提供反向連結資訊，因而未回報可支援 Javascript。這些項目不會計為「反向連結例項」，但可在報告其他度量時顯示。
 
 **USENET (新聞群組)**: 這表示反向連結的 URL 是以 `news://` :// 開頭的。因此，反向連結被發佈在 Usenet 新聞群組上，而不是網頁上。
 
