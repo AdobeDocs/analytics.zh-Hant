@@ -1,24 +1,24 @@
 ---
 description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
 seo-description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
-seo-title: 伺服器呼叫使用警報
-title: 伺服器呼叫使用警報
-uuid: 01fd5422-5b24-42df-97a0-08e10929fu48
+seo-title: 伺服器呼叫使用狀況警報
+title: 伺服器呼叫使用狀況警報
+uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 伺服器呼叫使用警報
+# 伺服器呼叫使用狀況警報
 
 當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
 
 ## 概述
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
+A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) user interface.
 
-It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 如果符合下列其中一個標準，此警報會觸發對所有登入公司管理員的通知：
+It is pre-populated with **1 default alert** that appears within any login company that has access to the Server Call Usage feature. 如果符合下列條件之一，此警報會觸發通知給所有登入公司的管理員：
 
 * 對於您有權使用的任何伺服器呼叫類型，「任何」伺服器呼叫使用量「高於或等於」100%，或者
 * 對於您有權使用的任何伺服器呼叫類型，「任何」伺服器呼叫使用量「高於或等於」90%，或者
@@ -43,18 +43,18 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    ![](assets/sc_alert.png)
 
-   * **標題**：指定描述性名稱。您無法儲存沒有名稱的警報。
-   * **時間粒度**：表示將會檢查警報的頻率。*目前僅支援每週粒度。*&#x200B;這表示將每週檢查警報，並回顧目前使用期間的資料。
-   * **收件者**：指定組織中的任何人員，當警報觸發指定臨界值時，應該會收到電子郵件。
-   * **到期日**：依預設，到期日是警報建立日期的一年。
+   * **標題**:指定描述性名稱。 您無法儲存沒有名稱的警報。
+   * **時間詳細程度**:指警報被檢查的頻率。 *目前僅支援每週粒度。*&#x200B;這表示將每週檢查警報，並回顧目前使用期間的資料。
+   * **收件者**:指定組織中在警報觸發指定臨界值時，應收到電子郵件的任何人。
+   * **到期日**:根據預設，到期日為警報建立日期起一年。
    * **傳送警報的時機**:
 
-      * 任何這些量度觸發將伺服器呼叫類型新增為量度，並透過選取輔助符號和臨界值來指定警報臨界值：
+      * 任何這些度量觸發器新增伺服器呼叫類型為度量，並透過選取修飾元和臨界值來指定警報臨界值：
          * 高於或等於
          * 低於或等於
-      * 使用指定「逗留期間」的臨界值和條件(大於或等於或等於或等於)。
+      * 使用指定「使用期間逗留」的臨界值和條件（高於或等於或低於或等於）。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 管理伺服器呼叫使用量警報 {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
