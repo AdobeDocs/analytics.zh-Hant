@@ -6,8 +6,8 @@ solution: Analytics
 title: 日曆事件
 topic: Reports and Analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. (選用) 除非共用，否則日曆事件僅供使用者本人查看。若要共用此事件，請選取&#x200B;**[!UICONTROL 「共用」]**。
 1. (選用) 推送日曆事件給使用者。標示為「共用」的日曆事件現在多了「推送」給其他使用者的選項。推送日曆事件會讓日曆事件顯示在接收使用者的趨勢和特定時段圖表上。
    1. 按一下&#x200B;**[!UICONTROL 「推送至使用者」]**。
-   1. **[!UICONTROL 「勾選全部」]**或勾選使用者名稱旁的方塊。
+   1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
    如此可讓日曆事件有更多用處。分析師現在可以強制覆蓋其使用者的報表，以提供更多上下文內容。
 1. 依序按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 日曆事件」]**。
