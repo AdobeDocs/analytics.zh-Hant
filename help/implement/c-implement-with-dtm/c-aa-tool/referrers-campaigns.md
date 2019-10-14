@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics，動態標籤管理
 title: 反向連結與促銷活動
 uuid: 56580206-a382-4993-9ba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -28,11 +28,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody> 
   <tr> 
    <td colname="col1"> 反向連結覆寫 </td> 
-   <td colname="col2"> <p>覆寫 <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>請參閱[頁面變數](/help/implement/js-implementation/c-variables/page-variables.md)。 </p> </td> 
+   <td colname="col2"> <p>覆寫 <span class="varname"> s.referrer</span> variable, which is typically populated by the referrer set in the browser. </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 促銷活動 </td> 
-   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>請參閱[頁面變數](/help/implement/js-implementation/c-variables/page-variables.md)。 </p> </td> 
+   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>請參閱[<a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
