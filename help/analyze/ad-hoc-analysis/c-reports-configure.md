@@ -3,9 +3,9 @@ description: 瞭解您可在報表上執行的各種動作，例如設定圖表�
 seo-description: 瞭解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
 seo-title: 設定現有報表
 title: 設定現有報表
-uuid: 5c7bb66a-a9 a2-49Fe-ba 98-a99 a922 f6 b1
+uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>傳送選項 </p> </td> 
-   <td colname="col2"> <p> See <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> Delivery Options</a>. </p> </td> 
+   <td colname="col2"> <p> 請參閱 <a href="../../analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C" type="reference" format="dita" scope="local"> 傳送選項</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 列印 </p> </td> 
@@ -64,7 +64,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料來源 </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> 一般設定標籤 - 定義</a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="../../analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB" type="reference" format="dita" scope="local"> General Settings Tab - Definitions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>檢視 </p> </td> 
@@ -162,7 +162,7 @@ t_reports_breakdown_table.xml
 
    >[!NOTE]
    >
-   >For more flexibility, use the [Table Builder](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) to configure a report with breakdowns. 開啟含有劃分的儲存或計劃的報表後，您可能需要按一下&#x200B;**[!UICONTROL 取代表格]重新整理動態報表資料的劃分。**&#x200B;例如，如果計劃報表包含會隨日期範圍或訪客活動變更的行項目，您可能需要重新整理該計劃報表。
+   >為獲得更大的彈性，請使 [用表格產生器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) ，以設定包含劃分的報表。 開啟含有劃分的儲存或計劃的報表後，您可能需要按一下&#x200B;**[!UICONTROL 取代表格]重新整理動態報表資料的劃分。**&#x200B;例如，如果計劃報表包含會隨日期範圍或訪客活動變更的行項目，您可能需要重新整理該計劃報表。
 
 >[!MORE_LIKE_THIS]
 >
@@ -192,7 +192,7 @@ t_reports_clipboard.xml
 
  -->
 
-1. 開啓Microsoft Excel。
+1. 開啟Microsoft Excel。
 
    建議您先開啟 Excel 再複製資料，因為 Excel 在啟動前會清除記憶體緩衝區。
 
@@ -207,7 +207,7 @@ t_reports_extract_ID.xml
 
  -->
 
-在「報告與分析」中，您可以設定欄位以包含使用者ID資料。如果有設定此選項，便能使用[!UICONTROL 「提取訪客 ID」]選項。如果先前未啟用此選項，但稍後決定啟用，則您無法回溯提取歷史訪客 ID。
+在「報告與分析」中，您可以設定欄位以包含使用者ID資料。 如果有設定此選項，便能使用[!UICONTROL 「提取訪客 ID」]選項。如果先前未啟用此選項，但稍後決定啟用，則您無法回溯提取歷史訪客 ID。
 
 **若要提取訪客 ID**
 
@@ -228,7 +228,7 @@ t_reports_trending_row.xml
 
 檢視排名報表時，例如產品報表，您可以看到某個值的趨勢資料。例如，您可以看到產品在選定時段產生了 $10,000 的總收入。若想要瞭解該產品每天所產生的收入，則可顯示產品的趨勢圖，或開啟單獨的趨勢報表。
 
-**對列進行趨勢分析**
+**若要分析行的趨勢**
 
 1. 執行排名報告.
 1. 按一下「趨勢」圖示。![](assets/TrendInspector_Buttcon.png)
