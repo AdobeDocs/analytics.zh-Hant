@@ -8,7 +8,7 @@ title: Analytics 實作常見問題集
 topic: 開發人員和實作
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -73,7 +73,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col2"> <p>效能 - 載入外部 Adobe JavaScript 會導致效能降低嗎? </p> </td> 
-   <td colname="col3"> <p> JavaScript 檔案初始載入後會置於訪客瀏覽器的快取中，通常一個工作階段不會下載超過一次。此檔案即使用於網站上的每個頁面，也不會下載至每個頁面上。大部分網站上，使用者在每個工作階段中會檢視多個頁面，所以將多次使用的 JavaScript 傳輸至此檔案可以減少整體資料下載量。 </p> <p> 以 JavaScript 壓縮 [!DNL AppMeasurement]: 若您對 Adobe JavaScript 用戶端的頁面寬度 (大小) 有所顧慮，Adobe 建議您考慮使用 GZIP 來壓縮檔案。所有主要瀏覽器都可支援 GZIP，且在壓縮及解壓縮核心 <span class="filepath">s_code.js</span> JavaScript 檔案的效能上，GZIP 都優於 JavaScript 壓縮。 </p> </td> 
+   <td colname="col3"> <p> JavaScript 檔案初始載入後會置於訪客瀏覽器的快取中，通常一個工作階段不會下載超過一次。此檔案即使用於網站上的每個頁面，也不會下載至每個頁面上。大部分網站上，使用者在每個工作階段中會檢視多個頁面，所以將多次使用的 JavaScript 傳輸至此檔案可以減少整體資料下載量。 </p> <p> 以 JavaScript 壓縮 AppMeasurement: 若您對 Adobe JavaScript 用戶端的頁面寬度 (大小) 有所顧慮，Adobe 建議您考慮使用 GZIP 來壓縮檔案。所有主要瀏覽器都可支援 GZIP，且在壓縮及解壓縮核心 <span class="filepath">s_code.js</span> JavaScript 檔案的效能上，GZIP 都優於 JavaScript 壓縮。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>效能 - 從瀏覽器傳送資料給 Adobe 服務會降低效能嗎? </p> </td> 
