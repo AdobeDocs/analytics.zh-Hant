@@ -1,21 +1,21 @@
 ---
 description: 'null'
-keywords: 區段；區段
+keywords: 分段；分段
 seo-description: 'null'
-seo-title: 常見問答集
+seo-title: 常見問題集
 solution: Analytics
-title: 常見問答集
+title: 常見問題集
 topic: 區段
-uuid: f49dc829-1d53-4183-9add-1aua5519d89
+uuid: f49dc829-1d53-4183-9add-1aea5219d89
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 常見問答集
+# 常見問題集
 
-解答區段功能、存取權、權限、最佳實務以及管理舊式區段的常見問題。
+回答關於區段功能、存取權、權限、最佳實務以及管理舊有區段的常見問題。
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -27,7 +27,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 * 您可以[將多個區段套用至報表或專案](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)。
 * 區段在所有報表套裝中都通用。
-* [「區段產生器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) 」可簡化區段建立。
+* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
 * [區段管理員](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)。
 
 * 您可以[標記區段](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
@@ -37,7 +37,7 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 如需詳細資訊，請參閱 Digital Marketing 部落格上的[改進 Adobe Analytics 中的劃分](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)文章。
 
-## Access the Segmentation Tools {#section_088AD0E4E21943DFA8CF7206AEC485DD}
+## 存取區段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
 **如何開啟區段產生器?**
 
@@ -63,9 +63,9 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 
 **舊式區段下拉式清單移至何處?**
 
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。To view a list of existing segments, click the Segments icon  ![](assets/segment_icon.png)
+「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下「區段」圖示 ![](assets/segment_icon.png)
 
-左側導覽和區段邊欄。
+在左邊導覽中，區段邊欄隨即顯示。
 
 **舊式報表套裝下拉式清單移至何處?**
 
@@ -144,7 +144,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 **Data Warehouse 區段有何變化?**
 
-所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分的資料倉庫區段也會在分析工作區、臨機分析和報告與分析等其他元件中運作。
+所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分的資料倉庫區段也適用於其他元件，例如分析工作區、臨機分析和報告與分析。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
 
@@ -166,7 +166,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 已套用這些區段的現有報表將可繼續正常運作。
 
-**Experience Cloud (套裝) 區段有何變化: **
+**Experience Cloud (套裝) 區段有何變化:**
 
 * 非購買者
 * 購買者
@@ -200,13 +200,13 @@ seg_definition.xml
 
 請參考下列提示來移轉常見維度:
 
-* 地域城市/地區/國家-搜尋並選取特定城市、地區或國家，而非部分符合。
-* 瀏覽器-使用「瀏覽器類型」維度取得類型的所有瀏覽器，例如Google Chrome
-* 作業系統-使用「作業系統類型」維度來取得類型的所有作業系統，例如Microsoft Windows。
+* 地域城市／地區／國家——搜尋並選取特定城市、地區或國家，而非使用部分比對。
+* 瀏覽器——使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如Google Chrome
+* 作業系統——使用「作業系統類型」維度來取得某個類型的所有作業系統，例如Microsoft Windows。
 
 * [新維度和經過重新命名的維度](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
 * [包含的變更](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [變更小於和大於](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [變更為小於和大於](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新維度和經過重新命名的維度 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
@@ -253,7 +253,7 @@ seg_definition.xml
   </tr> 
   <tr> 
    <td colname="col1"> 色彩深度 </td> 
-   <td colname="col2"> 螢幕色彩深度 </td> 
+   <td colname="col2"> 監視器色彩深度 </td> 
    <td colname="col3"> - </td> 
   </tr> 
   <tr> 
