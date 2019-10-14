@@ -7,7 +7,7 @@ title: 將度量和維度映射至儲存格
 topic: Report Builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -22,23 +22,21 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 以下章節包含更多資訊: 
 
-* [選取儲存格範圍](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
+* [選擇儲存格範圍](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_1E37FB46DA194FB7A1050B8833A48AC6)
 * [選擇儲存格的技巧](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_760421C3D7F84D67A639174710C93B22)
 * [映射時發生的問題](../../../analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md#section_CC1BCF841291447EB3A994EB08F3A099)
 
-## Select a Range of Cells {#section_1E37FB46DA194FB7A1050B8833A48AC6}
+## 選擇儲存格範圍 {#section_1E37FB46DA194FB7A1050B8833A48AC6}
 
 在「[!UICONTROL 請求精靈: 步驟 2]」中，當您啟用趨勢化請求的「[!UICONTROL 自訂配置]」時，可以將請求映射至某個範圍內的儲存格。
 
-Click the **[!UICONTROL Range Selector]** ![select_cell_icon.png](assets/select_cell_icon.png)
+按一下「 **[!UICONTROL 範圍選]** 取 ![器」select_cell_icon.png](assets/select_cell_icon.png)
 
-您要對應的項目旁邊。
+在您要對應的項目旁。
 
-* ** All Cells in Range:** Requires you to select a group of cells for a [!UICONTROL Custom Layout] style request.
-
-* ** First Cell of Range:** Lets you select the top-left cell of the range, and displays the [!UICONTROL Range] orientation to specify the horizontal or vertical orientation of input and output cells (column or row). 此選項可讓 Report Builder 為您選擇儲存格。
-
-* **範圍方向：**可讓您將儲存格範圍定向為欄或列。
+* **範圍內的所有儲存格:** 要求您為[!UICONTROL 「自訂配置」]樣式的請求選擇一組儲存格。
+* **範圍的第一個儲存格:**&#x200B;可讓您選擇範圍內左上角的儲存格，並顯示[!UICONTROL 「範圍」]方向以便指定水平或垂直方向的輸入和輸出儲存格 (欄或列)。此選項可讓 Report Builder 為您選擇儲存格。
+* **範圍方向:**&#x200B;可讓您指定欄或列方向的儲存格範圍。
 * **選擇範圍的上方儲存格位置:** 顯示儲存格參考。
 
 ## Techniques for selecting cells {#section_760421C3D7F84D67A639174710C93B22}
@@ -74,6 +72,4 @@ You select the data by clicking the **[!UICONTROL Range Selection]** icon  ![sel
 
 * 啟動[!UICONTROL 「請求管理員」]並分別按一下表格中列示的個別請求。按一下請求會反白顯示已映射請求的試算表儲存格。
 * 在試算表中選擇要用於新映射的儲存格，然後按一下[!UICONTROL 「從工作表」]。「[!UICONTROL 請求管理員]」會在清單中選擇含有與選定儲存格相交之輸出項目的請求。如果它未選擇任何請求，表示可使用該儲存格。
-
 * 在試算表中選擇儲存格，接著在內容功能表中按一下滑鼠右鍵並確認是否可使用[!UICONTROL 「編輯請求」]。如果可使用，表示請求與這些儲存格相關。
-
