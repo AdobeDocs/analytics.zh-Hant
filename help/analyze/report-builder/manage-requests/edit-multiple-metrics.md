@@ -1,16 +1,16 @@
 ---
 description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
 seo-description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
-seo-title: 編輯多個請求的度量
-title: 編輯多個請求的度量
-uuid: 50fba4e7-ca7 d-4a5 c-98a9-c9725 b436 e4 a
+seo-title: 編輯多個請求的量度
+title: 編輯多個請求的量度
+uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 編輯多個請求的度量
+# 編輯多個請求的量度
 
 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
 
@@ -25,8 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 若要新增一或多個量度:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
-
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; `<choose metric>` &gt; **[!UICONTROL Edit Group]** to select the group of requests to modify.)
 1. Select **[!UICONTROL Add Metric(s)]**and select the metrics to add.
 
    ![](assets/add_metric.png)
@@ -48,7 +47,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 若要更換量度
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Replace Metric]**.
 
@@ -68,7 +67,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 若要移除量度:
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL[choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
+1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (Or, click **[!UICONTROL Manage]** &gt; **[!UICONTROL Edit Multiple]** &gt; **[!UICONTROL [choose metric]]** &gt; **[!UICONTROL Edit Group]** **** to select the group of requests to modify.)
 
 1. Select **[!UICONTROL Remove Metric(s)]**.
 
