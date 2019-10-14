@@ -3,9 +3,9 @@ description: 在日曆中，您可以指定日期和日期範圍，也可以選�
 seo-description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。您可以在專案、工作環境和報表層級選取日曆。專案的日期範圍是預設日期。不過，工作環境日期範圍會覆寫專案的日期範圍。同樣的，報表的日期範圍會覆寫工作環境和專案的日期設定。您不能選取資料可用範圍以外的日期範圍。
 seo-title: 日期和日期範圍
 title: 日期和日期範圍
-uuid: 8f099db7-e74 b-4384-ac46-61a545 f1 dd62
+uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。您可以在專案、工作環境和報表層級選取日曆。專案的日期範圍是預設日期。不過，工作環境日期範圍會覆寫專案的日期範圍。同樣的，報表的日期範圍會覆寫工作環境和專案的日期設定。您不能選取資料可用範圍以外的日期範圍。
 
-## Dates and date ranges {#concept_AB32765013F449908B5964AB622C75FF}
+## 日期和日期範圍 {#concept_AB32765013F449908B5964AB622C75FF}
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。您可以在專案、工作環境和報表層級選取日曆。專案的日期範圍是預設日期。不過，工作環境日期範圍會覆寫專案的日期範圍。同樣的，報表的日期範圍會覆寫工作環境和專案的日期設定。您不能選取資料可用範圍以外的日期範圍。
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->如果您需要執行舊報表的協助，請連絡您的帳戶管理員。
+>如果您需要執行舊報表的協助，請連絡您的客戶經理。
 
 ## 舊日期片段 {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -43,9 +43,9 @@ c_legacy_data.xml
 **若要存取歷史日期片段**
 
 1. [建立或開啟專案。](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. Open the [calendar](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47), then select **[!UICONTROL Quarter]** or **[!UICONTROL Year]**.
+1. 開啟日 [歷](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)，然後選 **[!UICONTROL 擇季]** 或 **[!UICONTROL 年]**。
 
 >[!NOTE]
 >
->歷史日期片段位於季度和年限制內。您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
+>歷史日期片段位於季度和年限限制內。 您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
 
