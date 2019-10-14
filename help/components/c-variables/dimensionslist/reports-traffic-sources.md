@@ -7,7 +7,7 @@ title: 流量來源
 topic: 報表
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a15d51f41462ce2689849c6b998097ae56497e33
 
 ---
 
@@ -72,7 +72,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> 反向連結 </td> 
-   <td colname="col2"> <p> 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。 </p> <p>例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在 實施中，您的實施顧問會幫助您定義屬於您網站一部份的網域和 URL (這亦可在實施之後完成)。任何非該等已定義網域之一部分的網域或 URL 被視為反向連結。 </p> <p>例如，如果將網頁 A 和網頁 B 新增至內部 URL 過濾器，而網頁 C 並未被新增至內部 URL 過濾器，那麼網頁 C 被視為反向連結。 </p> <p>請參閱 <a href="/help/admin/admin/internal-URL-filter-admin.md">內部 URL 篩選器</a></p> <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. 來自 Outlook 的電子郵件會報告到「<span class="wintitle">分類/建立書籤</span>」行，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「<span class="wintitle">搜尋引擎</span>」行。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。 </p> <p>例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在 實施中，您的實施顧問會幫助您定義屬於您網站一部份的網域和 URL (這亦可在實施之後完成)。任何非該等已定義網域之一部分的網域或 URL 被視為反向連結。 </p> <p>例如，如果將網頁 A 和網頁 B 新增至內部 URL 過濾器，而網頁 C 並未被新增至內部 URL 過濾器，那麼網頁 C 被視為反向連結。 </p> <p>請參閱 <a href="/help/admin/admin/internal-URL-filter-admin.md"> 內部 URL 篩選器</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. 來自 Outlook 的電子郵件會報告到「<span class="wintitle">分類/建立書籤</span>」行，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「<span class="wintitle">搜尋引擎</span>」行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向連結類型 </td> 
@@ -86,4 +86,3 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
  </tbody> 
 </table>
-
