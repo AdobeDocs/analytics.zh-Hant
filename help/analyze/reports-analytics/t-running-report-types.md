@@ -1,13 +1,13 @@
 ---
 description: 執行不同報表類型的步驟。
-seo-description: Steps on running the different report types.
+seo-description: 執行不同報表類型的步驟。
 seo-title: 執行不同的報表類型
 solution: Analytics
 title: 執行不同的報表類型
 topic: 報告,Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -224,9 +224,9 @@ t_anomaly_config.xml
 
 1. 導覽至「**[!UICONTROL Analytics &gt; 報表 &gt; 網站量度 &gt; 異常偵測]**。
 1. 選擇您要每日追蹤異常偵測的報告套組。若要顯示報表套裝，請按一下報表套裝選取器下拉式功能表。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
 
-   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the **[!UICONTROL View Period]** for anomaly detection. (可以將訓練時段視為演算法的「學習時段」。) 
+   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (可以將訓練時段視為演算法的「學習時段」。) 
 
    ![](assets/view_training_periods.png)
 
