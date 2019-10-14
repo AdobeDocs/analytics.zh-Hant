@@ -1,23 +1,23 @@
 ---
 description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
 seo-description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
-seo-title: 控制面板和小報告
+seo-title: 控制面板和報表
 solution: Analytics
 subtopic: 控制面板
-title: 控制面板和小報告
-topic: Reports & Analytics
-uuid: 7b3b3bc9-0a3c-49b0-9168-e2878 ae67 b97
+title: 控制面板和報表
+topic: Reports and Analytics
+uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 控制面板和小報告
+# 控制面板和報表
 
 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
 
-## Dashboards and reportlets {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
+## 控制面板和報表 {#concept_8CD3ACA2830A4994A68A31D8773B57E0}
 
 控制面板是稱為小報告的報告縮圖 *`reportlets`*. 控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
 
@@ -36,7 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->The **[!UICONTROL Site Overview]**dashboard is no longer listed in Reports &amp; Analytics. 不過，在某些情況下您仍會看到其部分或全部的小報表。
+>The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. 不過，在某些情況下您仍會看到其部分或全部的小報表。
 
 * 舉例來說，假設您只有三個經常檢視報表，則「Report &amp; Analytics」會取用「網站綜覽」控制面板的兩個報表，來填滿「**[!UICONTROL 我的建議報表]」控制面板。**
 * 全新的報表套裝一開始也會配備「網站綜覽」的小報表，直到您經常檢視的報表取代它們為止。Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.
@@ -86,10 +86,10 @@ t_dashboard_add.xml
 
 1. 拖曳項目至小報告畫布，即可新增可用內容至控制面板。
 
-   See [Creating a Reportlet](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3) and [Editing Dashboard Settings](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459).
+   請參 [閱建立小報表](../../analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3)[和編輯控制面板設定](../../analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
 1. Click **[!UICONTROL Save.]**
 
-   儲存控制面板會讓它顯示在&#x200B;**[!UICONTROL 控制面板]功能表中。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (See [Managing Dashboards](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).)
+   儲存控制面板會讓它顯示在&#x200B;**[!UICONTROL 控制面板]功能表中。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (請參閱 [管理控制面板](../../analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)。)
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
@@ -136,7 +136,7 @@ t_dashboard_content.xml
 
    >[!NOTE]
    >
-   >控制面板中頁面數的目前限制為30。
+   >控制面板中頁數的目前限制為30。
 
    **自訂小報表**
 
@@ -213,10 +213,10 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 公司設定]**」。
+1. **[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;公 **[!UICONTROL 司設定]**。
 1. On the [!UICONTROL Company Settings] page, click **[!UICONTROL Co-Brand the Adobe Experience Cloud]**.
 1. Click **[!UICONTROL Enable Co-Branding]**.
-1. 瀏覽以上傳影像，然後按一下&#x200B;**[!UICONTROL 儲存]。**
+1.  瀏覽以上傳影像，然後按一下&#x200B;**[!UICONTROL 儲存]。**
 
    為了在瀏覽器中檢視影像時達到最佳效果，請上載 100 像素高及 30 像素寬的影像。為達到最佳的 PDF 輸出效果，請上載 417 像素高及 125 像素寬 (300dpi) 的影像。過大的影像會縮減尺寸，同時保留高寬比。
 
@@ -232,5 +232,5 @@ segments_dashboards.xml
 
 區段可以套用至兩個層級: 套用至整個控制面板或特定報告。
 
-* **小報告層級**：按一下 **[!UICONTROL 「配置」]**，然後按一下您要分段之報表的報表套裝。然後會出現一個強制回應視窗，讓您新增或變更報告要使用的區段。
+* **小報告層級**:按一 **[!UICONTROL 下「配置]**」，然後是您要分段之小報表的報表套裝。 然後會出現一個強制回應視窗，讓您新增或變更報告要使用的區段。
 * **控制面板層級**: 按一下左側導覽的「區段」圖示，勾選您要使用的區段，然後按一下「套用」。選取的區段會覆寫和取代任何小報表層級的區段。
