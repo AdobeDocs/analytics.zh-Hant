@@ -5,7 +5,7 @@ seo-title: Analytics 使用者移轉至 Admin Console
 title: Analytics 使用者移轉至 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -338,11 +338,11 @@ To email all users, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Ad
 
 **主旨:** 即將推出 – 登入 Adobe Analytics 和 Adobe Experience Cloud 的新方式。
 
-**內文：** Adobe Analytics使用者好！
+**內文:** Adobe Analytics 使用者，您好!
 
 Our company will begin migrating all Adobe Analytics accounts away from [!DNL https://my.omniture.com/login/] to Adobe Experience Cloud ([experiencecloud.adobe.com](http://experiencecloud.adobe.com/)). 藉由本次移轉，您的 Adobe Analytics 帳戶將可升級，以啟用透過 Adobe Experience Cloud 的 Analytics 存取權。儘管存取 Analytics 的方式將會改變，您對報表套裝和工具的全部現有權限仍會保留。
 
-**後續步驟：**我們將開始移轉使用者，從 <INSERT DATE>。請使用新的登入資訊 (列於 Analytics 帳戶底下的電子郵件 ID) 尋找歡迎郵件。如果您尚未設定連結至電子郵件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系統會要求您設定帳戶。
+**** 後續步驟：我們將開始移轉使用者，從 <INSERT DATE>。請使用新的登入資訊 (列於 Analytics 帳戶底下的電子郵件 ID) 尋找歡迎郵件。如果您尚未設定連結至電子郵件地址的 [Adobe ID](https://helpx.adobe.com/x-productkb/global/adobe-id-account-change.html)，系統會要求您設定帳戶。
 
 **實用資源:**
 
