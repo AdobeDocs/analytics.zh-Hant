@@ -3,16 +3,16 @@ description: 開始使用臨機分析。
 seo-description: 開始使用臨機分析。
 seo-title: 快速入門
 title: 快速入門
-uuid: 6a698e18-4e62-405e-b020-b973 c9 c4008 b
+uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# Get Started with Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
+# 臨機分析快速入門{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!Important]
+>[!I重要]
 >Adobe 於 2018 年 8 月 6 日宣佈有意終止 Ad Hoc Analysis 服務，我們將會在確定後公佈服務終止日期。如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。
 
 您可對網站活動執行即時的進階分析。您可以同時檢視多份報表，將區段套用至多個維度。您可以從巨觀和微觀角度同時分析資料，檢視這些資料對您的重要業務度量有何影響。
@@ -49,7 +49,7 @@ source-git-commit: 7bfa5c92c043450050ccaf6308beba873e5eb27c
     <ul id="ul_0D2E8C614F2A4899A376BCEECEA374C6"> 
      <li id="li_FA925D52A8FD4DFAB0C88B797B24E72B"> 建立區段，以深入瞭解資料 </li> 
      <li id="li_5E91632551D2473BA8BD0637CDC1A9F6"> 新增度量、維度和區段至 <a href="../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E" type="concept" format="dita" scope="local"> 表格產生器</a> </li> 
-     <li id="li_019316C9A94B4A8C8A77D07C04E50278">Configuring <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> date ranges</a> </li> 
+     <li id="li_019316C9A94B4A8C8A77D07C04E50278">設定 <a href="../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47" type="concept" format="dita" scope="local"> 日期範圍</a> </li> 
      <li id="li_2B33B325D5EE420AB412B73AD1D231C5"> <a href="../../analyze/ad-hoc-analysis/c-schedule.md#concept_12D2DDD66086453BAB6D48D9D22932F2" type="concept" format="dita" scope="local"> 計劃</a>報表傳送 </li> 
     </ul> <p>搜尋此說明系統，可找到您需要的說明。 </p> </td> 
   </tr> 
@@ -68,7 +68,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在2018年月維護發行後在Java上執行臨機分析，Adobe將不再支援您的臨機分析實施。
+>自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在2018年7月維護髮行後在Java 7上執行臨機分析，Adobe將不再支援您的臨機分析實作。
 
 * 支援 OpenGL 2.0 的影片卡
 * Cookie: 必要
@@ -83,7 +83,7 @@ c_sys_reqs.xml
 
 ## Java 升級指示 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在2018年月維護發行後在Java上執行臨機分析，Adobe將不再支援您的臨機分析實施。
+自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在2018年7月維護髮行後在Java 7上執行臨機分析，Adobe將不再支援您的臨機分析實作。
 
 我們的 .jar 檔案已透過 256 位元安全加密技術簽署，而 Java 1.7.0_76 以前的版本不支援此加密技術。此 256 位元憑證可讓我們提供您增強型安全防護。
 
@@ -91,7 +91,7 @@ c_sys_reqs.xml
 
 * 如果您有權在機器上安裝程式:
 
-   1. 前往https://www.java.com。
+   1. 請至https://www.java.com。
    1. Click **[!UICONTROL Free Java Download]**.
    1. Click **[!UICONTROL Agree and Start Free Download]**.
    1. 安裝您的作業系統專屬的最新 Java 版本。
@@ -126,7 +126,7 @@ t_login_suite.xml
 
    如果您在此頁面上看不到「**啟動 Ad Hoc Analysis**」按鈕，請向管理員確認是否已將您加入「管理工具」的「*Ad Hoc Analysis 授權使用者*」群組中。
 1. Click **[!UICONTROL Launch Ad Hoc Analysis]**.
-1. Save the [!DNL discover.jnlp] file locally.
+1. 將檔案儲 [!DNL discover.jnlp] 存在本機。
 
    任何時候想啟動 Ad Hoc Analysis，請執行此儲存的檔案。
 
@@ -187,7 +187,7 @@ t_share_projects.xml
  -->
 
 1. Go to **[!UICONTROL File]** &gt; **[!UICONTROL Save As]**.
-1. Select **[!UICONTROL Shared Projects]** from the **[!UICONTROL Save in:]**drop-down.
+1. **[!UICONTROL 從「]**&#x200B;儲存於&#x200B;**[!UICONTROL 」中選]**&#x200B;取「共用專案」:下拉式清單。
 
    ![](assets/shared_projects.png)
 
@@ -197,7 +197,7 @@ t_share_projects.xml
 
    >[!NOTE]
    >
-   >您可以選取一或多個專案，在相同的對話方塊中刪除自己的共用專案，以便共用專案。
+   >您可以在共用專案的相同對話方塊中，選取一或多個專案，以刪除您自己的共用專案。
 
 ## Rename a Workspace {#task_0DB177DD6DB54B7F9FE60A0B3FC7CFC3}
 
@@ -246,7 +246,7 @@ You can access templates when creating a project ( **[!UICONTROL File]** &gt; **
 | 流失 | 可讓您建構漏斗，用來顯示查核點之間的轉換率和流失率。例如，您可以追蹤訪客在購買過程中的流失點。 |
 | 流量 | 顯示使用者在頁面、網站區域及伺服器間採取的最常見路徑。 |
 | 轉換漏斗 | 顯示特定度量事件之間的轉換百分比。您可使用此報表來瞭解產生銷售額的點進次數，以及售出件數。 |
-| 站點分析 | 三維的網站路徑分析工具，顯示訪客如在指定的頁面和事件之間移動。 |
+| 網站分析 | 三維的網站路徑分析工具，顯示訪客如在指定的頁面和事件之間移動。 |
 | 虛擬重點群組 | 隨機對您的瀏覽進行存取，並顯示該次瀏覽的大量相關資料。您可使用該報告建立訪客人口的重點群組。 |
 
 ## 開啟報表 {#task_0AC455CDA198497AA546622FB05F300D}
