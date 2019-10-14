@@ -5,7 +5,7 @@ seo-title: 常見問題集
 title: 常見問題集
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe客戶（資料掌控者）將如何找出哪些資料隱私權要求對應至Adobe Analytics中用於資料隱私權處理的ID?</b> </p> </td> 
-   <td colname="col2"> <p>資料控管單位會判斷如何解析來自資料主體請求的身分識別。考慮部 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> 署Adobe的資料隱私權ID擷取標籤 </a>。 您的開發團隊會使用我們的資料隱私權ID擷取標籤來擷取使用者ID(Cookie ID)，然後使用我們的資料隱私權API將這些使用者ID傳送至Adobe Experience cloud中相關的解決方案，以利資料隱私權要求處理，為您節省時間。 </p> <p>資料隱私權API可支援多個Adobe解決方案中廣泛的客戶ID。 如果資料主體提交與識別碼（自訂變數- prop或eVar）一起提交請求，Adobe Analytics會掃描為指定識別碼收集之資料的完整保留歷史記錄。 如需如何設定儲存在Analytics Prop或eVar中的自訂ID的詳細資訊，請參閱[名稱空間]上的Analytics檔案。](/help/admin/c-data-governance/gdpr-namespaces.md)
+   <td colname="col2"> <p>資料控管單位會判斷如何解析來自資料主體請求的身分識別。考慮部 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> 署Adobe的資料隱私權ID擷取標籤 </a>。 您的開發團隊會使用我們的資料隱私權ID擷取標籤來擷取使用者ID(Cookie ID)，然後使用我們的資料隱私權API將這些使用者ID傳送至Adobe Experience cloud中相關的解決方案，以利資料隱私權要求處理，為您節省時間。 </p> <p>資料隱私權API可支援多個Adobe解決方案中廣泛的客戶ID。 如果資料主體提交與識別碼（自訂變數- prop或eVar）一起提交請求，Adobe Analytics會掃描為指定識別碼收集之資料的完整保留歷史記錄。 如需如何設定儲存在Analytics Prop或eVar中的自訂ID的詳細資訊，請參閱「名稱空間」上的Analytics文 <a href="/help/admin/c-data-governance/gdpr-namespaces.md"> 件</a>。
     </p> </td> 
   </tr> 
   <tr> 
