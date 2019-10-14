@@ -5,9 +5,9 @@ seo-title: 路徑報表
 solution: Analytics
 title: 路徑報表
 topic: Ad Hoc Analysis
-uuid: 5881cb1c-6d66-49Fe-ac84-70b82662 acd2
+uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,43 +16,43 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 顯示訪客存取您網站網頁之順序的相關資訊。您可以收集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
 
-## Paths reports {#concept_CB32E270FB9E4D929C91FDFE428CB224}
+## 路徑報表 {#concept_CB32E270FB9E4D929C91FDFE428CB224}
 
 顯示訪客存取您網站網頁之順序的相關資訊。您可以收集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
 
 「路徑」報告包括標準的深入和可選的進階分析報告，它們可揭示已檢視頁面的點按資料流。您可以查明完整路徑、最長路徑和最受歡迎的路徑；透過圖表對頁面流量、流失和中途退出情況進行說明；隨時間顯示新模式和變更模式；以及分析登入與退出路徑。
 
-** [!UICONTROL Next Page Flow] ** or ** [!UICONTROL Next Site Flow]**: Displays a two-level-deep branching graphic of a selected page (or section, department, and so on), that your visitors view after moving away from the selected page. 使用此報告可以分析和識別訪客在檢視選定頁面後，最常採取的步驟。您可以︰
+**[!UICONTROL 下一頁流量]**&#x200B;或&#x200B;**[!UICONTROL 下一網站流量]**: 顯示選定頁面 (或區域、部門等) 的兩層深分支圖形，也就是您的訪客離開選定頁面後的檢視項目。使用此報告可以分析和識別訪客在檢視選定頁面後，最常採取的步驟。您可以︰
 
 * 瞭解檢視選取頁面後採用最為頻繁的步驟。
 * 最佳化網站路徑設計，以便將訪客流量引至預期的目標頁面。
 * 確認訪客進入了哪些除預期目標頁面之外的頁面。
 
-** [!UICONTROL Next Page] ** (or next categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed after seeing a selected page. 例如，在選取並報告您整個網站時，此報告會顯示排名前 10 的登陸頁面，每個登陸頁面下方各列出 5 個最受歡迎的下一頁。這項資料可協助您瞭解哪些內容、功能和其他資料最能促使訪客瀏覽您的網站。
+**[!UICONTROL 下一頁]** (或下一類別): 顯示訪客在檢視您的網站上某個選定頁面之後所檢視的頁面，從而提供詳細的網站路徑分析。例如，在選取並報告您整個網站時，此報告會顯示排名前 10 的登陸頁面，每個登陸頁面下方各列出 5 個最受歡迎的下一頁。這項資料可協助您瞭解哪些內容、功能和其他資料最能促使訪客瀏覽您的網站。
 
-** [!UICONTROL Previous Page Flow] ** (or other previous categories flow): Displays two levels of the most popular pages that your visitors view before the selected page. 該報告還反白標示訪客登入網站的時間。
+**[!UICONTROL 上一頁流量]** (或其他上一類別流量): 顯示訪客在選定頁面之前，所檢視的兩層人氣最高的頁面。該報告還反白標示訪客登入網站的時間。
 
-** [!UICONTROL Previous Page] ** (or other previous categories): Provides detailed site path analysis by showing you the pages on your site that visitors viewed before seeing a selected page on your site.
+**[!UICONTROL 上一頁]** (或其他上一類別): 可顯示您的網站訪客在檢視某個選定頁面之前所檢視的頁面，從而提供詳細的網站路徑分析。
 
-** [!UICONTROL Fallout] **: Displays the visit attrition and conversion rates between each checkpoint you define. 步驟依自上向下的順序排列，其中左邊是原始數字與百分數，右邊是轉換與流失百分比。
+**[!UICONTROL 流失]**: 顯示您定義的每個查核點之間的存取量減少情況以及轉換率。步驟依自上向下的順序排列，其中左邊是原始數字與百分數，右邊是轉換與流失百分比。
 
 請參閱[流失報告](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)，瞭解更多資訊。
 
-** [!UICONTROL Path Length] **: Shows how deep visitors browse into your site (both by percentage and by total count). 也就是說，該報告將顯示訪客離開您網站前平均檢視的頁面數量。
+**[!UICONTROL 路徑長度]**: 以百分比及總數向您展示網站每位訪客的瀏覽深度。也就是說，該報告將顯示訪客離開您網站前平均檢視的頁面數量。
 
-** [!UICONTROL Page Analysis] **: Contains a subset of reports that let you analyze the following:
+**[!UICONTROL 頁面分析]**: 包含一個報告子集，可讓您分析以下內容:
 
-* ** [!UICONTROL Page Summary / Site Category Summary] **: Tells you everything you need to know about the page report. 此報告收集並整理單一頁面的特定資訊並在單一報告中展示此資訊。
-* ** [!UICONTROL Reloads] **: Shows the number of times individual pages were reloaded by visitors.
-* ** [!UICONTROL Time Spent on Page / Site Category] **: Displays the length of time that visitors browse individual pages in your site. 逗留時間分為 10 個類別: 少於 15 秒、15-30 秒、30-60 秒、1-3 分鐘、3-5 分鐘、5-10 分鐘、10-15 分鐘、15-20 分鐘、20-30 分鐘和超過 30 分鐘。
-* ** [!UICONTROL Clicks to Page] **: Identifies the number of clicks visitors used to access each page in your site. 要測量頁面深度，需計算在該頁面之前檢視的頁面數量。
+* **[!UICONTROL 頁面摘要 / 網站類別摘要]**: 告知您需要瞭解有關頁面報告的所有內容。此報告收集並整理單一頁面的特定資訊並在單一報告中展示此資訊。
+* **[!UICONTROL 重新載入]**: 顯示訪客重新載入各頁面的次數。
+* **[!UICONTROL 頁面逗留時間 / 網站類別]**: 顯示訪客在瀏覽您網站的各個頁面時逗留的時間長度。逗留時間分為 10 個類別: 少於 15 秒、15-30 秒、30-60 秒、1-3 分鐘、3-5 分鐘、5-10 分鐘、10-15 分鐘、15-20 分鐘、20-30 分鐘和超過 30 分鐘。
+* **[!UICONTROL 頁面點按次數]**: 識別訪客用於存取您網站每個頁面的點按次數。要測量頁面深度，需計算在該頁面之前檢視的頁面數量。
 
-** [!UICONTROL Entries &amp; Exits] **: The [!UICONTROL Entry Page] report shows you, by percentage and by total visits, which pages on your site are the first ones seen by new visitors. 您可檢視︰
+**[!UICONTROL 登入與退出]**:「登入頁面」報告以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。您可檢視︰
 
-* ** [!UICONTROL Entry Pages] ** (or sections): Displays, by percentage and by total visits, which pages on your site are the first pages seen by a new visitor. 您可以使用該報告來識別您的網站中哪些網頁是最為繁忙的登入點；最佳化您網站上的主要登入點；以及將登入流量引至關鍵訊息。
-* ** [!UICONTROL Original Entry Pages] **: Shows the first page viewed for first-time visitors to your site. 除非刪除他們的 Cookie 或沒有使用 Cookie 追蹤，否則每個使用者均只計算一次。
-* ** [!UICONTROL Single Page Visits] **: Shows pages that are most often both the entry and exit pages for visitor browsing sessions.
-* ** [!UICONTROL Exit Pages] **: Displays, by percentage and by total visits, the pages on your site that were the last pages visitors viewed before leaving your site.
+* **[!UICONTROL 登入頁面]** (或區域): 以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。您可以使用該報告來識別您的網站中哪些網頁是最為繁忙的登入點；最佳化您網站上的主要登入點；以及將登入流量引至關鍵訊息。
+* **[!UICONTROL 原始登入頁面]**: 顯示初次來到您網站的訪客所檢視的第一個頁面。除非刪除他們的 Cookie 或沒有使用 Cookie 追蹤，否則每個使用者均只計算一次。
+* **[!UICONTROL 單頁瀏覽次數]**: 顯示在訪客瀏覽作業階段中，同時作為登入與退出頁面的最常見頁面。
+* **[!UICONTROL 退出頁面]**: 以百分比和瀏覽總數的形式，顯示訪客離開網站前最後檢視的頁面。
 
 ## 流失報告 {#concept_0ED452F3B1D04A19A59DD04D76D20347}
 
