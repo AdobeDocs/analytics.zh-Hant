@@ -1,18 +1,18 @@
 ---
 description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報告依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報告會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 seo-description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報告依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報告會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
-seo-title: 資料倉庫概觀
+seo-title: Data Warehouse 概觀
 solution: Analytics
-title: 資料倉庫概觀
+title: Data Warehouse 概觀
 topic: Data Warehouse
-uuid: 768557dd-164-4ce6-bc2-8c46 dd6 e1 cd1
+uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 資料倉庫概觀
+# Data Warehouse 概觀
 
 Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報告依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報告會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 
@@ -24,11 +24,11 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
 
 >[!NOTE]
 >
->資料倉庫會報告報告期間遇到的第一個值。
+>資料倉庫會報告報告時段內遇到的第一個值。
 
 >[!IMPORTANT]
 >
->劃分分類值時，「分析工作區」和「資料倉儲」會以不同的方式處理「未指定」值。Workspace 中的「未指定」是指未分類的值，而 Data Warehouse 中的「未指定」是指您分類為「未指定」的值。
+>對分類值進行分段時，「分析工作區」和「資料倉庫」會以不同方式處理「未指定」值。 Workspace 中的「未指定」是指未分類的值，而 Data Warehouse 中的「未指定」是指您分類為「未指定」的值。
 
 ## Data Warehouse 請求說明 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -57,7 +57,7 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用區段</span> </td> 
-   <td colname="col2"> <p>可讓您選擇要檢查的部分訪客人口並產生複雜區段。您可以載入預先設定的區段、建立新區段以及將區段元件儲存至建立其他區段時要使用的庫中。 </p> <p>您現在可以堆疊區段。選取多個區段時，預覽區域、「請求管理員」和「請求詳細資訊」彈出式功能表會顯示逗號分隔的名稱清單 (例如 Segment1, Segment2)。 </p> <p>如需詳細資訊，請參閱[劃分指南](/help/components/c-segmentation/seg-home. md)。 </p> <p>注意: 您不能在同一個 Data Warehouse 的同一個區段上，同時包括區段篩選和劃分。這麼做會導致錯誤。 </p> </td> 
+   <td colname="col2"> <p>可讓您選擇要檢查的部分訪客人口並產生複雜區段。您可以載入預先設定的區段、建立新區段以及將區段元件儲存至建立其他區段時要使用的庫中。 </p> <p>您現在可以堆疊區段。選取多個區段時，預覽區域、「請求管理員」和「請求詳細資訊」彈出式功能表會顯示逗號分隔的名稱清單 (例如 Segment1, Segment2)。 </p> <p>請參閱 <a href="/help/components/c-segmentation/seg-home.md"> 分段指南</a>，瞭解更多資訊。 </p> <p>注意: 您不能在同一個 Data Warehouse 的同一個區段上，同時包括區段篩選和劃分。這麼做會導致錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 劃分</span> </td> 
