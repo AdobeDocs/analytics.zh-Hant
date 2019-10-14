@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 發佈至Power BI-概述
-title: 發佈至Power BI-概述
+seo-title: 發佈至 Power BI - 概觀
+title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
 
-# 發佈至Power BI-概述
+# 發佈至 Power BI - 概觀
 
 Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用分析結果。Adobe Analytics 與 Power BI 整合可讓您將 Microsoft Power BI 內的 Report Builder 分析資料視覺化，並在整個組織中輕鬆共用該資料。
 
@@ -28,7 +28,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 ## 系統要求 {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* Adobe Report Builder 5.5 [installed](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* 已安裝Adobe Report Builder 5.5 [](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
 * 可讓您登入 Power BI 的有效 Microsoft 帳戶
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -51,7 +51,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    在 Report Builder 排程程序使用更新的 Analytics 資料重新整理活頁簿後，透過每個已排程的例項，系統就會將活頁簿發佈至 Microsoft Power BI。
 
-**在Power BI中檢視Report Builder活頁簿資料**
+**在Power BI中檢視報告建立工具活頁簿資料**
 
 1. 在 Power BI 中，連按兩下[!UICONTROL 「活頁簿」]功能表下的活頁簿。
 
@@ -65,13 +65,13 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 >[!NOTE]
 >
->如果活頁簿包含巨集，將停用「活頁簿中的所有格式化表格將其發佈為Power BI資料集表格」。
+>如果活頁簿包含巨集，「將活頁簿中所有格式化的表格發佈為Power BI資料集表格」將會停用。
 
 您可以只匯入活頁簿中所有格式化表格的內容，而不匯入整個活頁簿。
 
 **使用案例**: 您有 Excel 活頁簿，可從多個 Report Builder 請求帶入資料，也可建立含有大量公式的摘要表格。您可以只將摘要表格匯入 Power BI 中，並為其建立視覺效果。
 
-**在Report Builder中發佈格式化表格**
+**在報告建立工具中發佈格式化表格**
 
 1. 在 Report Builder 中，產生含有標題列且其後接著一列資料的資料表格。
 1. 選取該表格，然後從&#x200B;**[!UICONTROL 「首頁」]功能表選取**[!UICONTROL 「格式化為表格」]。表格依預設會有名稱 (表格 1、表格 2 等等)，但您可以在[!UICONTROL 「設計」]功能中變更表格名稱。
@@ -79,13 +79,13 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
 
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]**tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
+1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]** tab, check the box next to **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**.
 
    ![](assets/advanced-schedule-wizard2.png)
 
 1. (選用) 在 Power BI 中，您可以自訂已發佈資產的名稱。如果您使用版本編號作為活頁簿名稱的一部分 (例如 myworkbook_v1.1.xlsx)，但不希望版本號碼出現在已發佈之 Power BI 資產的名稱中，就可以使用這個方式。這樣做的好處是，當版本號碼改變時，已發佈的資產不會變更。(在這裡檢視[規格](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD)。)
 
-**在Power BI中檢視表格資料**
+**在Power BI中查看表資料**
 
 1. In Power BI, go to the **[!UICONTROL Workspaces]** &gt; **[!UICONTROL Datasets]** menu.
 
@@ -111,13 +111,13 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 >[!IMPORTANT]
 >
->如果活頁簿包含100個以上的請求，則只會將前100個請求發佈至Power BI。另外，對於每個發佈至 Power BI 的請求，系統將只會發佈前 10,000 列資料。因此，雖然這些請求會順利透過排程傳遞，但可發佈至 Power BI 的範圍是有限的。
+>如果活頁簿包含超過100個請求，則僅會將前100個請求發佈至Power BI。 另外，對於每個發佈至 Power BI 的請求，系統將只會發佈前 10,000 列資料。因此，雖然這些請求會順利透過排程傳遞，但可發佈至 Power BI 的範圍是有限的。
 
 1. 在 Report Builder 中，使用 Report Builder 請求開啟或建立活頁簿。
 1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** &gt; **[!UICONTROL New]**.
 
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
-1. In the [!UICONTROL Scheduling Wizard - Advanced], on the **[!UICONTROL Publishing Options]**tab, check the box next to **[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** ![](assets/advanced-schedule-wizard2.png)
+1. 在[!UICONTROL 「精靈 – 進階」]中的&#x200B;**[!UICONTROL 「發佈選項」]**&#x200B;索引標籤中，勾選&#x200B;**[!UICONTROL 「以 Power BI 資料集表格發佈所有 Report Builder 請求」]旁邊的核取方塊。**![](assets/advanced-schedule-wizard2.png)
 
 1. Click **[!UICONTROL OK]**.
 
@@ -135,7 +135,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    >[!NOTE]
    >
-   >不論您如何設定報告建立工具請求在工作表中配置(樞紐配置、自訂配置、某些欄不可見)，Report Builder一律會以相同的二維度、單一標題列格式來發佈請求：日期、維度、度量、報表套裝、區段。
+   >無論您如何設定Report builder請求以排版至工作表（樞紐配置、自訂配置、某些欄不可見）,Report builder都會以相同的二維、單一標題列格式發佈您的請求：日期、維度、量度、報表套裝、區段。
 
 1. Also notice that there is an additional table called **[!UICONTROL Legend]**. 如果您從 Report Builder 上下文擷取請求，可能很難記住每個請求各代表什麼。而「圖例」表格的作用就是可讓您看到「表格 ID」中每個請求的名稱。您也可以新增其他「圖例」欄，以便完整檢視請求。
 
