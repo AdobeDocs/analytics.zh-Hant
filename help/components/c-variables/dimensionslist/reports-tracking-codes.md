@@ -7,7 +7,7 @@ title: 追蹤程式碼
 topic: 報表
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * 頁面檢視、瀏覽與獨特訪客皆可作為量度。
 * 此報告可使用區段。
 
-** Ad Hoc Analysis 內容**
+**Ad Hoc Analysis 內容**
 
 * 除了大部分預設的轉換變數外，也可依照報告介面中其他所有的報表來劃分「追蹤程式碼」報表。
 * 除了電子商務與自訂事件外，也可使用所有的轉換與流量量度，並可對各種轉換量度使用不同的分配。
