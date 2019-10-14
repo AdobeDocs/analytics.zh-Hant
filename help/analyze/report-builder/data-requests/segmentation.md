@@ -5,9 +5,9 @@ seo-title: 管理區段
 solution: Analytics
 title: 管理區段
 topic: Report Builder
-uuid: 4e4edc39-ed93-498f-913d-7b231 b10 e7 a0
+uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
 
 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
 
-Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓您建立和管理區段。
+Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓您 建立和管理區段。
 
 ![](assets/seg_dialog.png)
 
@@ -24,7 +24,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!NOTE]
 >
->若要新增或編輯區段，Report Builder區段介面會在Microsoft Internet Explorer視窗中啓動Analytics區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
+>若要新增或編輯區段，「報告建立工具」區段介面會在Microsoft Internet explorer視窗中啟動Analytics區段產生器。 您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需有關如何建立區段的資訊，請參閱 [https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。
@@ -33,7 +33,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!IMPORTANT]
 >
->快取此清單，除非您重新整理，否則新建立的區段將不會顯示。
+>系統會快取此清單，除非您重新整理，否則您新建立的區段將不會顯示。
 
 ## 建立內文中區段 {#section_6DD2C663B2854469AA1075438F907678}
 
@@ -57,7 +57,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 您可以套用一或多個區段至任何指定的請求。這包含依序排列的區段。
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]**box to display all the segments.
+1. 前往「**[!UICONTROL 區段]**」下拉式清單，按一下「**選擇區段]」方塊中的小型向下箭頭，以顯示所有區段。[!UICONTROL **
 
    ![](assets/seg_list.png)
 
@@ -65,7 +65,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!NOTE]
 >
->無論您是管理員或非管理員，在Report Builder中，您只看得到您擁有和已共用給您的區段。(在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段。)
+>不論您是管理員或非管理員，在報告建立工具中，您只能看到您擁有的區段和已共用給您的區段。 (在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段。)
 
 ## 篩選區段 {#section_376E986D3E684999A7CDB08E53854159}
 
