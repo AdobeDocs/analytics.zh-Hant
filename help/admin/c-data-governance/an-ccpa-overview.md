@@ -5,7 +5,7 @@ seo-title: Adobe Analytics與CCPA
 title: Adobe Analytics與CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -32,13 +32,13 @@ Familiarize yourself with [how Adobe Analytics handles GDPR](https://www.adobe.c
 
 ## CCPA就緒性與您的Adobe Analytics資料
 
-Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/c-data-governance/gdpr-labels.md#concept_F4061E29353446B5B0A7CF248D54E6F2)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
+Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。To that end, Adobe Analytics provides a Data Governance user interface that lets you, as the data controller, set [privacy labels](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) on your Analytics report suites and all the dimensions and metrics in those report suites. 您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
 
-請參閱[標籤報表套裝資料](/help//admin/c-data-governance/gdpr-setup-reportsuite.md#concept_FAA948AD8CEA4BC38CB482EAF3648731)，以瞭解如何設定標籤的詳細資訊。
+請參閱[標籤報表套裝資料](/help//admin/c-data-governance/gdpr-setup-reportsuite.md)，以瞭解如何設定標籤的詳細資訊。
 
 ## 必備條件
 
-* Familiarize yourself with [Privacy terminology.](/help/admin/c-data-governance/gdpr-terminology.md#concept_83C744A9D077476BAD8F8492DF68EBD7)
+* Familiarize yourself with [GDPR terminology.](/help/admin/c-data-governance/gdpr-terminology.md)
 * 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。Contact Adobe Customer Care and refer to [Organizations and account linking.](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)
 * Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * 為每個報表套裝設定資料保留原則，以便接受CCPA刪除和存取要求。
