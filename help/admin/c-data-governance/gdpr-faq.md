@@ -5,7 +5,7 @@ seo-title: 常見問題集
 title: 常見問題集
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 90b2ff68e04a2d0027205a906de9091061430d98
 
 ---
 
@@ -35,24 +35,24 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics資料管理如何協助處理資料隱私權要求？</b> </p> </td> 
-   <td colname="col2"> <p>資料控管是 Adobe Analytics 中的新工具，能讓資料控管單位在 Analytics 資料之間套用資料控管和分類。此新工具可讓Adobe客戶自訂資料隱私資料存取和資料刪除要求的處理。 在資料控管主控台中，管理員可為存放在 Adobe Analytics 中不同的資料欄，定義應套用其中的所需設定。定義這些標籤後，Adobe 將根據客戶所需的標籤設定，接受及處理每個下游存取或刪除請求。資料控管單位應負責偕同其法律代表檢閱及商討這些標籤設定。Adobe Analytics鼓勵客戶在GDPR生效日（即2018年5月25日）之前正確設定資料標籤，以便使用資料隱私API自訂完成要求。 </p> <p>資料控管工具含有以下資料標籤: </p> 
+   <td colname="col2"> <p>資料控管是 Adobe Analytics 中的新工具，能讓資料控管單位在 Analytics 資料之間套用資料控管和分類。此新工具可讓Adobe客戶自訂資料隱私資料存取和資料刪除要求的處理。 在資料控管主控台中，管理員可為存放在 Adobe Analytics 中不同的資料欄，定義應套用其中的所需設定。在定義這些標籤後，Adobe會根據客戶想要的標籤設定，接受並處理任何下游存取或刪除要求。 資料控管單位應負責偕同其法律代表檢閱及商討這些標籤設定。Adobe Analytics鼓勵客戶在GDPR生效日（即2018年5月25日）之前正確設定資料標籤，以便使用資料隱私API自訂完成要求。 </p> <p>資料控管工具含有以下資料標籤: </p> 
     <ul id="ul_F25B00EB020B4A639628FB884D0CB4F9"> 
-     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="../../admin/c-data-governance/gdpr-labels.md#section_D7F4E4B60D6D40BEBC86B7004EF42AFF" format="dita" scope="local">身分資料標籤</a>: 用來分類可直接或與其他資料合併使用時，識別個人身分的資料。(無、I1、I2) </li> 
-     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="../../admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC" format="dita" scope="local">敏感資料標籤</a>: 用來分類由適當法律定義為敏感的資料。(無、S1、S2) 請注意，除了依照適當法律合法取得的精確地理位置資料 (在某些管轄區屬於敏感資料) 之外，目前 Adobe Analytics 禁止使用敏感資料。 </li> 
-     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="../../admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B" format="dita" scope="local"> 資料隱私資料標 </a>簽：用於定義可能包含個人識別碼的欄位，以用於「資料隱私權」要求，或應移除作為「資料隱私權」刪除要求一部分的欄位。 在某些情況下，這些標籤可能會與身分資料和敏感資料標籤重疊。 </li> 
-    </ul> <p>For more information on Data Governance labels, see <a href="../../admin/c-data-governance/gdpr-labels.md#concept_F4061E29353446B5B0A7CF248D54E6F2" format="dita" scope="local"> Data Privacy Labels for Analytics Variables </a>. </p> </td> 
+     <li id="li_C295A396685340369D730D696FE6FC13"> <a href="/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels" format="dita" scope="local">身分資料標籤</a>: 用來分類可直接或與其他資料合併使用時，識別個人身分的資料。(無、I1、I2) </li> 
+     <li id="li_6D9A25139D3342CA82AAA64BC01AD368"> <a href="/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels" format="dita" scope="local">敏感資料標籤</a>: 用來分類由適當法律定義為敏感的資料。(無、S1、S2) 請注意，除了依照適當法律合法取得的精確地理位置資料 (在某些管轄區屬於敏感資料) 之外，目前 Adobe Analytics 禁止使用敏感資料。 </li> 
+     <li id="li_C69935AAC36741D8A902D14F75E896D6"> <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels" format="dita" scope="local"> 資料隱私資料標 </a>簽：用於定義可能包含個人識別碼的欄位，以用於「資料隱私權」要求，或應移除作為「資料隱私權」刪除要求一部分的欄位。 在某些情況下，這些標籤可能會與身分資料和敏感資料標籤重疊。 </li> 
+    </ul> <p>For more information on Data Governance labels, see <a href="/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels" format="dita" scope="local"> Data Privacy Labels for Analytics Variables </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>從何處開始，開始使用Adobe Analytics來準備資料隱私權？</b> </p> </td> 
-   <td colname="col2"> <p>如需準備適用「資料隱私權」規則的逐步逐步逐步說明，請參閱 <a href="../../admin/c-data-governance/an-gdpr-workflow.md#concept_1D1C0C1EAC3B4772AEDF5CC9F0EA604B" format="dita" scope="local"> Adobe Analytics資料隱私權工作流程 </a>。 </p> </td> 
+   <td colname="col2"> <p>如需準備適用「資料隱私權」規則的逐步逐步逐步說明，請參閱 <a href="/help/admin/c-data-governance/an-gdpr-workflow.md" format="dita" scope="local"> Adobe Analytics資料隱私權工作流程 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>資料控管單位應對獲取使用者互動同意抱持什麼看法?</b> </p> </td> 
-   <td colname="col2"> <p>GDPR和CCPA是重新考慮您的許可管理策略和做法的好機會，包括確定何時需要許可以及考慮用戶的價值主張。 請思考對消費者隱私的價值主張，此舉有助於促成轉換率和忠誠度。 </p> <p>急速演變同意管理領域 (如工具、標準、最佳實務) 十分值得關注。為了降低對使用者參與的影響，控管單位應與該領域的廠商合作，並參考他們的建議，同時遵循有關同意和 Cookie 的最新歐盟法規和指引。「體驗式隱私」(Experiential Privacy) 是個不錯的策略，您可以使用符合品牌形象的情境式相關體驗，說明資料收集活動的價值主張。 </p> </td> 
+   <td colname="col2"> <p>GDPR和CCPA是重新考慮您的許可管理策略和做法的好機會，包括確定何時需要許可以及考慮用戶的價值主張。 請思考對消費者隱私的價值主張，此舉有助於促成轉換率和忠誠度。 </p> <p>急速演變同意管理領域 (如工具、標準、最佳實務) 十分值得關注。為了降低對使用者參與的影響，控管單位應與該領域的廠商合作，並參考他們的建議，同時遵循有關同意和 Cookie 的最新歐盟法規和指引。運用品牌上、情境上相關的體驗來思考「體驗式隱私權」，以指出您資料收集活動的價值主張，是一項好策略。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>資料掌控者在資料隱私權方面應該如何看待資料保留？</b> </p> </td> 
-   <td colname="col2"> <p>資料隱私權一般規定個人資料通常不應保留超過收集目的所需的時間。 </p> <p>如同 Adobe 在 2 月發佈的客戶通信內容所述，除非另有安排 (會事先通知客戶並獲得授權)，否則我們會對大多數的客戶採用 25 個月的資料保留計劃。客戶必須先設定其資料保留政策，Adobe才能處理資料隱私權要求。 </p> <p>Adobe Analytics要求客戶設定其資料保留率，以處理其資料隱私權要求。 各報表套裝的現有資料保留政策會顯示在全新的「資料控管」管理員 UI 中。客戶如需調整其資料保留政策，應聯絡 Adobe 代表。請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html" format="html" scope="external">Adobe Analytics 資料保留常見問題解答</a>。 </p> </td> 
+   <td colname="col2"> <p>資料隱私權一般規定個人資料通常不應保留超過收集目的所需的時間。 </p> <p>如同 Adobe 在 2 月發佈的客戶通信內容所述，除非另有安排 (會事先通知客戶並獲得授權)，否則我們會對大多數的客戶採用 25 個月的資料保留計劃。客戶必須先設定其資料保留政策，Adobe才能處理資料隱私權要求。 </p> <p>Adobe Analytics要求客戶設定其資料保留率，以處理其資料隱私權要求。 每個報表套裝的目前資料保留原則會顯示在新的「資料管理管理員」使用者介面中。 客戶如需調整其資料保留政策，應聯絡 Adobe 代表。請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/reference/data-retention-client-table-faq.html" format="html" scope="external">Adobe Analytics 資料保留常見問題解答</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>客戶能縮短或延長預設資料保留期間嗎?</b> </p> </td> 
@@ -62,10 +62,10 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p><b> 從 Adobe Analytics 匯出個人資料時，資料控管單位應考慮哪些隱私事項?</b> </p> </td> 
-   <td colname="col2"> <p>如果客戶透過 Adobe Analytics 資料摘要從 Analytics 匯出資料到其企業資料倉儲或 Adobe 以外的其他系統，客戶 (資料控管單位) 便有責任確保刪除請求已套用到資料上。這種情況也適用於內部部署的 Adobe Data Workbench (Insight) 實作，因為 Adobe Analytics 資料摘要會不斷填入 Data Workbench 資料。Adobe 可提供工具來協助尋找及刪除特定資料摘要類型中的記錄 (包括用於 Data Workbench 的記錄)，不過客戶 (資料控管單位) 仍然有責任確保依照其內部資料保留和刪除政策來刪除資料。 </p> <p>員工下載含有個人資料的 Adobe Analytics 報表也是值得思考的案例。如果收到與資料隱私權相關的刪除要求，且該要求涉及報表中可能顯示的ID，則這些報表可能需要更新或刪除。 客戶應與公司的法律顧問合作，一起決定保留期間，以及應套用在這類文件上的隱私和安全要求。 </p> </td> 
+   <td colname="col2"> <p>如果客戶透過 Adobe Analytics 資料摘要從 Analytics 匯出資料到其企業資料倉儲或 Adobe 以外的其他系統，客戶 (資料控管單位) 便有責任確保刪除請求已套用到資料上。這種情況也適用於內部部署的 Adobe Data Workbench (Insight) 實作，因為 Adobe Analytics 資料摘要會不斷填入 Data Workbench 資料。Adobe可能會提供工具協助從特定類型的資料饋送尋找和刪除記錄，包括用於資料工作台的記錄，但客戶（資料掌控者）仍有責任確保資料的刪除符合其本身的內部資料保留和刪除政策。 </p> <p>員工下載含有個人資料的 Adobe Analytics 報表也是值得思考的案例。如果收到與資料隱私權相關的刪除要求，且該要求涉及報表中可能顯示的ID，則這些報表可能需要更新或刪除。 客戶應與貴公司的法律顧問合作，以決定保留期限，以及應套用至這些類型檔案的隱私權和安全性要求。 </p> </td> 
   </tr> <tr> 
-   <td colname="col1"> <p><b>我們不小心將部分不應收集的資料傳入 Adobe Analytics。我們是否可以使用資料隱私權API來清除此資料？</b> </p> </td><td colname="col2"> <p>提供資料隱私API可協助您履行資料隱私權要求，此要求會有時間限制。 Adobe不支援將此API用於其他用途，並可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將資料隱私API用於其他用途，例如清除在大型訪客群組間意外提交的資料。</p> <p>您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。當您想要清除資料欄位時，此副作用是不可取的，並強調資料隱私API不適用於此用途的一個原因。 </p> <p>請連絡您的客戶經理(CSM)，與我們的工程架構顧問團隊協作，以進一步審查並提供移除任何PII或資料問題的工作層級。</p></td></tr> <tr> 
-   <td colname="col1"> <p><b>我們的法務團隊已判定，我們多年以來自某變數收集的值不符合新版隱私權政策。Can we use the Data Privacy API to clear out all values from this variable?</b> </p> </td><td colname="col2"> <p>提供資料隱私API可協助您履行資料隱私權要求，此要求會有時間限制。 Adobe不支援將此API用於其他用途，並可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將資料隱私API用於其他用途，例如清除在大型訪客群組間意外提交的資料。</p> <p>您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。當您想要清除資料欄位時，此副作用是不可取的，並強調資料隱私API不適用於此用途的一個原因。 </p> <p>請連絡您的客戶經理(CSM)，與我們的工程架構顧問團隊協作，以進一步審查並提供移除任何PII或資料問題的工作層級。</p></td>
+   <td colname="col1"> <p><b>我們不小心將部分不應收集的資料傳入 Adobe Analytics。我們是否可以使用資料隱私權API來清除此資料？</b> </p> </td><td colname="col2"> <p>提供資料隱私API可協助您履行資料隱私權要求，此要求會有時間限制。 Adobe不支援將此API用於其他用途，且可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將資料隱私API用於其他用途，例如清除在大型訪客群組間意外提交的資料。</p> <p>您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。當您想要清除資料欄位時，此副作用是不可取的，並強調資料隱私API不適用於此用途的一個原因。 </p> <p>請連絡您的客戶經理(CSM)，與我們的工程架構顧問團隊協作，以進一步審查並提供移除任何PII或資料問題的工作層級。</p></td></tr> <tr> 
+   <td colname="col1"> <p><b>我們的法務團隊已判定，我們多年以來自某變數收集的值不符合新版隱私權政策。Can we use the Data Privacy API to clear out all values from this variable?</b> </p> </td><td colname="col2"> <p>提供資料隱私API可協助您履行資料隱私權要求，此要求會有時間限制。 Adobe不支援將此API用於其他用途，且可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將資料隱私API用於其他用途，例如清除在大型訪客群組間意外提交的資料。</p> <p>您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。當您想要清除資料欄位時，此副作用是不可取的，並強調資料隱私API不適用於此用途的一個原因。 </p> <p>請連絡您的客戶經理(CSM)，與我們的工程架構顧問團隊協作，以進一步審查並提供移除任何PII或資料問題的工作層級。</p></td>
  </tbody> 
 </table>
 
