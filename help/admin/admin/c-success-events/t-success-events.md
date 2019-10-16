@@ -5,9 +5,9 @@ seo-title: 設定成功事件
 solution: Analytics
 title: 設定成功事件
 topic: 管理工具
-uuid: ca3d3f46-5fad-4481-aef6-04dobe6 bc6 e2 d
+uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 說明如何設定成功事件的步驟。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 選擇一個報表套裝。
+1. 選擇報表套裝.
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**.
 
    ![步驟結果](assets/success_event_page.png)
@@ -27,20 +27,21 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >Before you change an event type, see [Change event type](../../../admin/admin/c-success-events/event-type.md#concept_2A6FCC19E7FC429DBDFA65BC640BD448).
+   >在更改事件類型之前，請參閱 [更改事件類型](/help/admin/admin/c-success-events/event-type.md)。
 
-   如需這些元素的相關資訊，請參閱[成功事件頁面 - 說明](../../../admin/admin/c-success-events/success-event.md#section_681ECEC981694CABBDBF00E18165B447)。
+   如需這些元素的相關資訊，請參閱[成功事件頁面 - 說明](/help/admin/admin/c-success-events/success-event.md)。
 
 1. In the **[!UICONTROL Polarity]** column, specify whether an upward trend for this metric is good or bad.
 1. In the **[!UICONTROL Visibility]** column, you can hide standard (built-in) metrics, custom events, and built-in events in the Menu, Metric Selectors, Calculated Metrics Builder, and the Segment Builder.
 
-   此設定不會影響該量度或事件的資料收集作業，只會影響其使用者介面的可見性。[更多...](../../../admin/admin/metric-visibility.md#concept_A85EB68D27534C4581AF1DCF5702DDE5) 1. 提供說明。
+   此設定不會影響該量度或事件的資料收集作業，只會影響其使用者介面的可見性。[更多...](/help/admin/admin/metric-visibility.md)
+1. 提供說明。
 1. 檢查是否一律記錄事件。
-1. Enable or disable [participation metrics](/help/components/c-variables/c-metrics/metrics-participation.md).
+1. 啟用或停用參 [與率度量](/help/components/c-variables/c-metrics/metrics-participation.md)。
 
    >[!NOTE]
    >
-   >最多可讓您參與100個自訂事件。除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
+   >您最多可為100個自訂事件啟用參與率。 除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
