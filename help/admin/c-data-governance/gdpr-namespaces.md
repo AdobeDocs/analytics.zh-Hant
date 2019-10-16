@@ -5,7 +5,7 @@ seo-title: 命名空間
 title: 命名空間
 uuid: cab61844-3209-4980-b14c-6859de77606
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -38,7 +38,7 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 指定值時必須採用兩組十六進位並以破折號 (-) 區隔的數字。所有十六進位數字的字母字元，指定時必須採用大寫。十六進位數值不應以零開頭 (請注意，這與已廢止的形式不同，過去要求開頭為零)。
 
-此外，您也可以使用 `“namespaceId”: 10` 此表格，而非 `“namespace”: “AAID”` 使用或使用此表格。
+此外，您也可以使用 `"namespaceId": 10` 此表格，而非 `"namespace": "AAID"` 使用或使用此表格。
 
 ## 舊版 Analytics 追蹤 Cookie: 已廢止的形式
 
@@ -52,7 +52,7 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 已廢止的形式:
 
-指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
+指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。如果其中一個數字沒有足夠的位數，則應添加前導零。
 
 ## Identity Service Cookie
 
@@ -66,7 +66,7 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 指定值時必須採用 38 位數十進位數字。如果您從資料饋送或資料倉庫報表的兩個mcvisid\_high/low或post\_msvisid\_high/low欄中提取此數字，您必須將兩個數字的每個零位置設為19位，然後先將它們串連至高值。
 
-也可以使用：您可 `“namespaceId”: 4` 能會看到其他 `“namespace”: “ECID”` Adobe產品使用該表格。
+也可以使用：您可 `"namespaceId": 4` 能會看到其他 `"namespace": "ECID"` Adobe產品使用該表格。
 
 >[!NOTE]
 >
@@ -110,8 +110,8 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 您也會看到並可重複使用先前為其他變數或報表套裝定義的命名空間，如此即可輕鬆讓儲存該類型 ID 的所有報表套裝都使用相同的命名空間。此外，您也可以指派相同的命名空間給報表套裝中的多個變數。例如，部分客戶會在流量變數和轉換變數中儲存 CRM ID (視頁面而定，有時會儲存在其中一個變數或兩者皆有)，並將「CRM ID」命名空間指派給這兩個變數。
 
-> [!TIP] 在為資料隱私API指定命名空間時，請避免使用變數的好記名稱（顯示在報告UI中的名稱）或變數的編號（例如eVar12），除非是套用ID-DEVICE或ID-PERSON標籤時指定的命名空間。 使用名稱空間而非好記名稱可讓相同的使用者識別區塊指定多個報表套裝的正確變數。 例如，若ID位於某些報表套裝中的不同eVar，或友好名稱不符（例如，友好名稱已本地化為特定報表套裝時）。
+> [!TIP] 在為資料隱私API指定命名空間時，請避免使用變數的好記名稱（顯示在報告UI中的名稱）或變數的編號（例如eVar12），除非這是套用ID-DEVICE或ID-PERSON標籤時指定的命名空間。 使用名稱空間而非好記名稱可讓相同的使用者識別區塊指定多個報表套裝的正確變數。 例如，若ID位於某些報表套裝中的不同eVar，或友好名稱不符（例如友好名稱已本地化為特定報表套裝時）。
 
 > [!CAUTION] 保留名稱空間"visitorId"和"customVisitorId"，以識別Analytics舊有追蹤Cookie和Analytics客戶訪客ID。 請勿將這些名稱空間用於自訂流量或轉換變數。
 
-For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md#section_F0A47AF8DA384A26BD56032D0ABFD2D7)
+For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
