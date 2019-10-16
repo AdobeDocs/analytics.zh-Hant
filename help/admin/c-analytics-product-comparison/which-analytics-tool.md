@@ -5,7 +5,7 @@ seo-title: 我該使用哪種 Adobe Analytics 工具呢?
 title: 我該使用哪種 Adobe Analytics 工具呢?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 
 如需 Adobe Analytics 產品比較的相關資訊，請前往[此處](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)取得。
+
 ## Adobe Analytics 報告使用者介面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果分析工作區中有無法執行的任務，請考慮以下其他介面。**
