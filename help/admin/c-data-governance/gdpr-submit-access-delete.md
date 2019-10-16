@@ -5,7 +5,7 @@ seo-title: 提交存取與刪除請求
 title: 提交存取與刪除請求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -25,9 +25,9 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ## 驗證使用者和其資料 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
-您做為資料控管單位應負責驗證資料主體的真實身分，以及確認其有權存取所請求的資料。另外，您也應負責確保將正確的資料傳回資料主體，以及避免他們不慎收到其他資料主體的資料。
+您做為資料控管單位應負責驗證資料主體的真實身分，以及確認其有權存取所請求的資料。此外，您有責任確保正確的資料會傳回至資料主體，而且他們不會不慎收到其他資料主體的資料。
 
-這包括在將Adobe Analytics傳回的資料傳送至資料主體之前，先檢閱Adobe Analytics在資料隱私權存取要求中傳回的資料。 若您使用人員 ID，且傳回的資料會顯示 ID 以及共用裝置上其他點擊的資料，其中該 ID 有時可見 ([ID 擴增](/help/admin/c-data-governance/gdpr-analytics-ids.md#section_D55C0722BC834118BE6F958C30AD5913)) 則應特別謹慎處理。
+這包括在將Adobe Analytics傳回的資料傳送至資料主體之前，先檢閱Adobe Analytics在資料隱私權存取要求中傳回的資料。 如果您使用人員ID，並不僅傳回該ID存在的資料，還傳回該ID有時存在之共用裝置上其他點擊的資料，請務必格外小心。 請參閱 [ID擴充。](/help/admin/c-data-governance/gdpr-id-expansion.md)
 
 每個檔案會結合您所有報表套裝的資料，自動移除重複點擊的其他拷貝。您可以決定要傳回資料主體的檔案。或者您也可以在將資料傳回資料主體之前先提取部分資料，並與其他系統的資料結合。
 
@@ -39,7 +39,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 >
 >資料隱私權API支援在單一要求中為多位使用者批次提交。 目前的支援上限是單一請求 JSON 檔案可提交 1000 名個別使用者 (每位使用者可能有多個 ID)。
 
-## 範例 JSON 請求 {#section_DB9DE6492FE740918F91D413E7BAB88F}
+## 範例 JSON 請求 {#sample-json-request}
 
 以下是可透過資料隱私權API或UI提交的JSON，請求三位使用者的資料隱私權處理。
 
@@ -101,7 +101,7 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 } 
 ```
 
-請注意，使用者區段中的三個區塊代表三個不同的請求，推測屬於三個不同的資料主體。
+請注意，使用者區段中有三個區塊，代表三個不同的請求，大概是三個不同的資料主題。
 
 * 第一個請求是使用傳統 Adobe Analytics Cookie ID (AAID) 的存取請求。
 * 第二個請求也是存取請求，但使用 MCID/ECID Cookie。
@@ -109,10 +109,10 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 請記住:
 
-* 您必須以自己 Experience Cloud 組織的值，更新「companyContexts」區段中的「5D7236525AA6D9580A495C6C@AdobeOrg」值。
-* 如需「type」和「namespace」欄位的詳細說明，請參閱[命名空間](/help/admin/c-data-governance/gdpr-namespaces.md#concept_26C6392D92194BC1BA3986A144AF285D)一節。
-* 「description」欄位可忽略。
-* 「key」欄位可包含您想要的任何值。如果您有用於追蹤資料隱私權要求的內部ID，可以將該值放在此處，讓Adobe系統中的要求與您自己系統中的要求相符更輕鬆。
+* 「companyContexts」區段中的值「5D7236525AA6D9580A495C6C@AdobeOrg」必須以您自己的Experience cloud組織的值更新。
+* The "type" and "namespace" fields are described in more detail in the [Namespaces](/help/admin/c-data-governance/gdpr-namespaces.md) section.
+* 將忽略「說明」欄位。
+* 「key」欄位可包含您想要的任何值。 如果您有用於追蹤資料隱私權要求的內部ID，可以將該值放在此處，讓Adobe系統中的要求與您自己系統中的要求相符更輕鬆。
 
 ## 回應詳細資料 {#section_93F554F65DBB48A18B75EB5784056C96}
 
@@ -151,4 +151,4 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 * 一個選項是另行設定 Experience Cloud 組織，其中只包含測試報表套裝。然後，請使用此Experience cloud組織進行資料隱私權測試，並使用一般的Experience cloud組織進行實際資料隱私權處理。
 * 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。
 
-   例如，您可以在測試報表套裝中為每個命名空間的字首加上「qa-」。當您送出資料隱私權要求時，只會以qa首碼命名空間，這些要求只會針對您的測試報表套裝執行。 稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**我們建議您這麼做，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空間，因為這些是硬式編碼，您不能在測試報表套裝中為它們指定替代名稱**。
+   例如，您可以在測試報表套裝中，將每個命名空間前置詞為"qa-"。 當您送出資料隱私權要求時，只會以qa首碼命名空間，這些要求只會針對您的測試報表套裝執行。 稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**我們建議您這麼做，除非您使用 visitorId、AAID、ECID 或 customVisitorId 命名空間，因為這些是硬式編碼，您不能在測試報表套裝中為它們指定替代名稱**。
