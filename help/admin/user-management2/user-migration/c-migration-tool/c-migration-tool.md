@@ -5,7 +5,7 @@ seo-title: Analytics 使用者移轉至 Admin Console
 title: Analytics 使用者移轉至 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -123,7 +123,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我要如何移轉使用者 ID? </p> </td> 
-   <td colname="col2"> <p> 在「使用者管理」底下的「管理」頁面中，按一下<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">移轉使用者 ID</a>。使用工具將使用者新增到 Admin Console 中的產品設定檔 (從 Analytics 的權限群組複製)。您可依照自己的步調來移轉使用者 ID。 </p> <p>需要管理員權限。移轉完成後便無法回復。 </p> <p>移轉結束日期當天，使用者在登入公司內對 <span class="filepath">my.omniture.com</span> 的存取權限將會停用。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>附註: Adobe 建議您藉此機會在移轉前對使用者與群組執行審核。刪除未使用的舊帳戶，或不應該再存取產品的帳戶 (例如組織的離職員工)。 </p> <p>Related topic: <a href="../c-migration-tool/migrate-enterprise.md#topic-6fd22bc6fbc14fd69ce6a8518a5b9c00" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
+   <td colname="col2"> <p> 在「使用者管理」底下的「管理」頁面中，按一下<a href="../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9" format="dita" scope="local">移轉使用者 ID</a>。使用工具將使用者新增到 Admin Console 中的產品設定檔 (從 Analytics 的權限群組複製)。您可依照自己的步調來移轉使用者 ID。 </p> <p>需要管理員權限。移轉完成後便無法回復。 </p> <p>移轉結束日期當天，使用者在登入公司內對 <span class="filepath">my.omniture.com</span> 的存取權限將會停用。Users (including those that are yet to be migrated) will be redirected to login via the new Experience Cloud URL (<span class="filepath"> experiencecloud.adobe.com</span>) </p> <p>附註: Adobe 建議您藉此機會在移轉前對使用者與群組執行審核。刪除未使用的舊帳戶，或不應該再存取產品的帳戶 (例如組織的離職員工)。 </p> <p>Related topic: <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md" format="dita" scope="local"> Migrate Analytics user accounts for Enterprise and Federated IDs</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移轉是否會影響我的 Analytics 實施項目或收集資料的方式? </p> </td> 
@@ -237,7 +237,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
      <li id="li_BD943B3245FF47E7A0DDA6107EA1EF89">資產傳送 </li> 
      <li id="li_2DF7004D67ED4C6CB40461EEFB038A5A">使用者有效期 </li> 
      <li id="li_980E3F5B98F344A492B0EBAD7F1DA60C">使用者記錄檔 </li> 
-    </ul> <p>您仍然可以在 Analytics 使用者管理中使用這些功能。 </p> <p>如需詳細資訊，請參閱 <a href="../c-migration-tool/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56" format="dita" scope="local">Admin Console 中不支援的 Analytics 功能</a>。 </p> </td> 
+    </ul> <p>您仍然可以在 Analytics 使用者管理中使用這些功能。 </p> <p>如需詳細資訊，請參閱 <a href="/help/admin/user-management2/user-migration/c-migration-tool/c-migration-tool.md" format="dita" scope="local">Admin Console 中不支援的 Analytics 功能</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我們在 Admin Console 中建立了數個設定，並將它們對應至 Analytics 權限群組。移轉開始後，這些設定會發生什麼事? </p> </td> 
