@@ -5,7 +5,7 @@ seo-title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 ---
 
@@ -141,7 +141,7 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >其他欄，例如 *`Product Configurations`* 和 *`Admin Roles`* 可以是空白。
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
-1. 在Analytics中，執行移轉工具(如移轉 [Analytics使用者帳戶所述](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
+1. 在Analytics中，執行移轉工具(如移轉 [Analytics使用者帳戶所述](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md))。
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![步驟資訊](assets/migrate-as-enterprise.png)
