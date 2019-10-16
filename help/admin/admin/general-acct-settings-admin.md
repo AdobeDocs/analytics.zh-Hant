@@ -7,7 +7,7 @@ title: 一般帳戶設定
 topic: 管理工具
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 「管理」報表套裝裡「一般帳戶設定」的欄位說明。
 
-**[!UICONTROL Analytics &gt; Admin &gt; Report Suites &gt; Edit Settings &gt; General &gt; General Account Settings]**********************
+**[!UICONTROL Analytics]** &gt;管理 **[!UICONTROL 員報]** 表報表套裝 **[!UICONTROL &gt;編輯設]** 定 **[!UICONTROL &gt;一般帳戶]********[!UICONTROL &gt;一般帳戶設定]**
 
 這些設定包含基本報表套裝功能的編輯選項，例如名稱與時區。
 
@@ -34,7 +34,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基礎 URL</span> </td> 
-   <td colname="col2"> <p>指定報表套裝的主要網站。基本 URL 不會影響反向連結篩選。請改用<a href="../../admin/admin/internal-url-filter-admin.md#concept_D6BB8358DB7643F0B13E5DC9B7607998" format="dita" scope="local">內部 URL 篩選器</a>。 </p> </td> 
+   <td colname="col2"> <p>指定報表套裝的主要網站。基本 URL 不會影響反向連結篩選。請改用<a href="/help/admin/admin/internal-url-filter-admin.md" format="dita" scope="local">內部 URL 篩選器</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 時區</span> </td> 
@@ -54,7 +54,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> IP 模糊化</span> </td> 
-   <td colname="col2"> <p>將 IP 位址轉變為無法辨識的字串，實際上是將其從 Adobe 資料儲存區中移除。啟用「IP 模糊化」後，原始的 IP 位址將會永久遺失。 </p> <p>注意: Analytics 中每一處的 IP 位址都會模糊化，包括 Data Warehouse。不過，Target 中的 IP 設定則另外控制，因此此設定不會影響 Target。 </p> <p>若啟用 IP 模糊化，會在 IP 位址被模糊化前即排除 IP，因此當客戶啟用 IP 模糊化時不必變更任何東西。 </p> <p>勾選「<span class="uicontrol">停用</span>」會在資料中保留 IP 位址。 </p> <p>勾選「<span class="uicontrol">模糊化 IP </span>」會將 IP 變更為雜湊值 (例如 234abc6493872038)。 </p> <p>勾選「<span class="uicontrol">移除 IP 位址</span>」會在地理查閱後，將資料中的 IP 位址更換為 x.x.x.x。 </p> <p>注意：此設定可能需要變更自訂機器人 <a href="../../admin/admin/bot-removal/bot-rules.md#concept_A306689C65EB4D0F9AE65E3FD48ED5F7" format="dita" scope="local"> 規則</a> 或<a href="../../admin/admin/exclude-ip.md#concept_265A95A803F740629CAAAA7EB8BE81A4" format="dita" scope="local"> IP排除</a>。 </p> </td> 
+   <td colname="col2"> <p>將 IP 位址轉變為無法辨識的字串，實際上是將其從 Adobe 資料儲存區中移除。啟用「IP 模糊化」後，原始的 IP 位址將會永久遺失。 </p> <p>注意: Analytics 中每一處的 IP 位址都會模糊化，包括 Data Warehouse。不過，Target 中的 IP 設定則另外控制，因此此設定不會影響 Target。 </p> <p>若啟用 IP 模糊化，會在 IP 位址被模糊化前即排除 IP，因此當客戶啟用 IP 模糊化時不必變更任何東西。 </p> <p>勾選「<span class="uicontrol">停用</span>」會在資料中保留 IP 位址。 </p> <p>勾選「<span class="uicontrol">模糊化 IP </span>」會將 IP 變更為雜湊值 (例如 234abc6493872038)。 </p> <p>勾選「<span class="uicontrol">移除 IP 位址</span>」會在地理查閱後，將資料中的 IP 位址更換為 x.x.x.x。 </p> <p>注意：此設定可能需要變更自訂機器人 <a href="/help/admin/admin/bot-removal/bot-rules.md" format="dita" scope="local"> 規則</a> 或<a href="/help/admin/admin/exclude-ip.md" format="dita" scope="local"> IP排除</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 交易 ID 儲存</span> </td> 
