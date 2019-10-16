@@ -5,7 +5,7 @@ seo-title: Analytics變數的資料隱私權標籤
 title: Analytics變數的資料隱私權標籤
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
 >
 >資料使用標籤與實施(DULE)架構旨在提供跨所有Adobe解決方案／服務／平台的統一方式，以擷取、通訊及使用Adobe Experience cloud中資料的中繼資料。 中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此初始版本中，Analytics只會揭露與「資料隱私權」相關的DULE標籤。 隨著其他 Adobe 產品陸續實施 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
 
-## 身分資料標籤 (DULE) {#section_D7F4E4B60D6D40BEBC86B7004EF42AFF}
+## 身分資料標籤 (DULE) {#identity-data-labels}
 
 身分資料「I」標籤可用來分類可識別身分或聯絡特定人員的資料。
 
@@ -62,7 +62,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
  </tbody> 
 </table>
 
-## 敏感資料標籤 (DULE) {#section_533E1406F3F24A01B51D94139B94CAEC}
+## 敏感資料標籤 (DULE) {#sensitive-data-labels}
 
 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。
 
@@ -434,7 +434,7 @@ Adobe Analytics對資料隱私權刪除要求的支援旨在將對報告的影�
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪客 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 這些具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。如果您指定<a href="../../admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">透過每個請求進行 ID 擴增</a>，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。 </p> <p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報表中的唯一訪客計數都會變更。 </p> </td> 
+   <td colname="col2"> <p> 這些具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。如果您指定<a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">透過每個請求進行 ID 擴增</a>，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。 </p> <p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報表中的唯一訪客計數都會變更。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
