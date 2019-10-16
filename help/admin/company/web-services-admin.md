@@ -5,9 +5,9 @@ seo-title: 網站服務
 solution: Analytics
 title: 網站服務
 topic: 管理工具
-uuid: caca04cf-f58 c-490e-baaa-ee04 c534 b28 d
+uuid: ccae04cf-f58c-490e-baa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -16,15 +16,15 @@ source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
 
 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 公司設定]** &gt; **[!UICONTROL 網站服務」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;公 **[!UICONTROL 司設定]** &gt; **[!UICONTROL 網站服務]**
 
 ## 管理網站服務
 
-在「使用者管理 &gt;[群組」](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)中，可以將「網站服務存取」群組更新為納入需要存取網站服務 API 的使用者。
+在「使用者管理 &gt;[群組」](/help/admin/user-management2/c-user-groups/groups.md)中，可以將「網站服務存取」群組更新為納入需要存取網站服務 API 的使用者。
 
 ## WSDL: 下載網站服務開發商的網站服務 API WSDL。
 
-Visit [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html), which provides documentation, sample code, and forums related to the Web Services APIs. 如需詳細資訊，請按一下「網站服務 API 概覽」。
+請造 [訪Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html)，此處提供與網站服務API相關的檔案、范常式式碼和論壇。 如需詳細資訊，請按一下「網站服務 API 概覽」。
 
 ## 篩選選項
 
