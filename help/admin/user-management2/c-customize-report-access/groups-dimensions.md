@@ -1,15 +1,15 @@
 ---
 description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
-keywords: 群組；權限
+keywords: 組；權限
 seo-description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
 seo-title: 自訂維度權限
 solution: Analytics
 subtopic: 使用者和群組
 title: 自訂維度權限
 topic: 管理工具
-uuid: ab164ad-3863-4129-864e-39ec71c6a8eb
+uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
 
-**[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL 報表存取]** &gt; **[!UICONTROL 維度]** &gt; **[!UICONTROL 自訂]**
+**[!UICONTROL 使用者管理&gt;]** 群組&gt; **[!UICONTROL 報表存取]** &gt;維度 **[!UICONTROL &gt;自]** 訂 ******[!UICONTROL &gt;]**
 
 >[!IMPORTANT]
 >
->某些維度目前不提供權限。這些維度包括: 行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
+>目前無法存取某些維度。 這些維度包括: 行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
 >
 >不論使用者具備哪些其他權限，所有使用者都可使用這些維度。
 
@@ -38,7 +38,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 * eVars 1-250 為個別取得權限。
 * 所有流量報表皆屬於維度。
-* 「視訊與行動」報表是維度以及其他Analytics解決方案報表(Experience Manager、Advertising Cloud、Social和on.)。
+* 視訊和行動報表是維度，以及其他Analytics解決方案報表（Experience Manager、Advertising Cloud、Social等）。
 * 如果用戶有權存取父維度，則可以使用路徑報表。
 * 自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。
 * Classifications Importer (即原 SAINT) 權限: 存取類別是由存取類別基準的[變數](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)所決定。 
@@ -58,7 +58,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../../admin/admin/conversion-var-admin/conversion-var-admin.md#concept_C02F7AA01DE242F1AA1A4E74022BE9DE" format="dita" scope="local"> eVar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md" format="dita" scope="local"> eVar </a> </p> </td> 
    <td colname="col2"> <p>eVars 1-250 為個別取得權限。eVar 是自訂轉換變數，您可以用來將自訂報表中的轉換成功量度分段。 </p> </td> 
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p>標準 </p> </td> 
-   <td colname="col2"> <p>請參閱 Analytics 中的標準(在Analytics中可用)維度。 </p> </td> 
+   <td colname="col2"> <p>請參閱 Analytics 中的標準 （現成可用的）維度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/" format="https" scope="external"> AEM </a> </p> </td> 
