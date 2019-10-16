@@ -4,9 +4,9 @@ seo-description: 您可以隱藏功能表、量度選擇器、計算量度產生
 seo-title: 量度可見性
 solution: Analytics
 title: 量度可見性
-uuid: fa2d6cba-8e03-422d-9f7d-7f35021fa9b4
+uuid: fa2d6cba-8e03-422d-9f7d-4f35021fa9b4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以隱藏功能表、量度選擇器、計算量度產生器及區段產生器中的標準 (內建) 量度、自訂事件及內建事件。
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [更多...](../../admin/admin/c-success-events/t-success-events.md#task_AC29770C973A43C5BE67DABA3BF1795C)
+1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]**. [更多...](/help/admin/admin/c-success-events/t-success-events.md)
 1. Set the Visibility column to either **[!UICONTROL Visible Everywhere]**, **[!UICONTROL Builders]**, or **[!UICONTROL Hidden Everywhere]**.
 
 此設定不會影響該量度的資料收集作業，只會影響其使用者介面的可見度。以下是此設定如何影響使用者介面中的量度可見性:
