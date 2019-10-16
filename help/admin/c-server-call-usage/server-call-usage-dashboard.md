@@ -1,22 +1,22 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 檢視目前伺服器呼叫使用情況
-title: 檢視目前伺服器呼叫使用情況
-uuid: 1a42a45f-4back-4b5a-9706-c8937265 de2 b
+seo-title: 檢視目前伺服器呼叫使用量
+title: 檢視目前伺服器呼叫使用量
+uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 檢視目前伺服器呼叫使用情況
+# 檢視目前伺服器呼叫使用量
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 伺服器呼叫使用量]** &gt; **[!UICONTROL 目前使用情形」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理員]** &gt;伺服 **[!UICONTROL 器呼叫使用]** &gt;目 **[!UICONTROL 前使用]**
 
 >[!IMPORTANT]
 >
->您在所有登入公司和報告套裝中看到的任何使用量和承諾數量都是累積的。
+>所有登入公司和報表套裝中，您所看到的使用情形和承諾編號都會累計。
 
 「目前使用量」控制面板
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >If you want to view usage for a previous time period, you have to go to the [Report Suite Usage](../../admin/c-server-call-usage/report-suite-usage.md#concept_E50FA5BD93404EB8B2FE954F658FDAFD) tab and download the usage data for a previous period.
+   >如果您想要檢視上一時段的使用情形，您必須前往「報表套裝使用情形 [](/help/admin/c-server-call-usage/report-suite-usage.md) 」標籤，並下載上一時段的使用情形資料。
 
 * 列出使用的呼叫百分比 (百分比和原始資料)，以及實際使用期間的百分比 (百分比和原始資料)。
 * 預設情況下會每天更新，有 5 天的處理延遲。
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 使用者介面術語 | 定義 |
 |---|---|
-| 目前期間使用量 (綠色) | 目前期間是以[使用期間](../../admin/c-server-call-usage/overage-overview.md#section_CBA348A039F34563B097CD8890AB358D)為基礎。 |
+| 目前期間使用量 (綠色) | 目前期間是以[使用期間](/help/admin/c-server-call-usage/overage-overview.md)為基礎。 |
 | 先前期間使用情形 (藍色) | 先前期間定義為目前使用期間減去 1 年。 |
 | 使用量限制 (紅色) | 此使用期間的合約使用量限制。 |
 
