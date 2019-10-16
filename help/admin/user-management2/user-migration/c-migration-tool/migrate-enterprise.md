@@ -5,7 +5,7 @@ seo-title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
 
-## 必備條件 {#concept-e60d8deb3fc54a1a81f1f47a26658de3}
+## 必備條件 {#prereqs}
 
 透過 Admin Console 管理使用者的必備條件。
 
@@ -125,7 +125,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
   </tr> 
   <tr> 
    <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確認 網 <span class="term"> 域和</span> 「電子郵件 <span class="term"> 」欄會符合必要條件中建立的網</span> 域 <a href="../c-migration-tool/migrate-enterprise.md#concept-e60d8deb3fc54a1a81f1f47a26658de3" format="dita" scope="local"></a>。 </p> </td> 
+   <td colname="col2"> <p>確認 網 <span class="term"> 域和</span> 「電子郵件 <span class="term"> 」欄會符合必要條件中建立的網</span> 域 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>國家/地區代碼 </p> </td> 
@@ -140,8 +140,8 @@ For more information about the fields in the [!DNL .csv] file, see [CSV file for
 >
 >其他欄，例如 *`Product Configurations`* 和 *`Admin Roles`* 可以是空白。
 
-1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in [Step 3](../c-migration-tool/migrate-enterprise.md#step-190321c6025947e38b195daed122c063).).
-1. 在Analytics中，執行移轉工具(如移轉 [Analytics使用者帳戶所述](../c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
+1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
+1. 在Analytics中，執行移轉工具(如移轉 [Analytics使用者帳戶所述](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9))。
 1. Click **[!UICONTROL Migrate]** &gt; **[!UICONTROL Migrate as Enterprise IDs]**.
 
    ![步驟資訊](assets/migrate-as-enterprise.png)
