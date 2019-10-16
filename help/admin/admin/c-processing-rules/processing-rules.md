@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 處理規則
 title: 處理規則概觀
 topic: 管理工具
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+uuid: 6b4ee7c9-2b86-47a6-b64c-c8d64fff67d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -34,9 +34,9 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 現在起，管理員&#x200B;**依預設**&#x200B;已有權使用處理規則。不再需要進行檢驗。管理員也可透過「管理工具」介面將這些權限授予非管理員。方法如下:
 
-1. 若您還未這麼做，[請建立有權使用處理規則且僅包含非管理員的群組](../../../admin/user-management2/c-user-groups/groups.md)。
-1. [將非管理員新增至該群組](../../../admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL[group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
+1. 若您還未這麼做，[請建立有權使用處理規則且僅包含非管理員的群組](/help/admin/user-management2/c-user-groups/groups.md)。
+1. [將非管理員新增至該群組](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
+1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
 1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
 
 ![](assets/processing-rules.png)
@@ -61,4 +61,4 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 在實施中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱 here and here.[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7)[](../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682)
+如需詳細資訊，請參閱 這 [里](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) , [這裡](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
