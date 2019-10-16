@@ -1,24 +1,23 @@
 ---
 description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 seo-description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
-seo-title: 我應該使用哪一種Adobe Analytics工具？
-title: 我應該使用哪一種Adobe Analytics工具？
-uuid: 1179e49d-3cfc-4abd-a8 EB-35c5 ae380 c16
+seo-title: 我該使用哪種 Adobe Analytics 工具呢?
+title: 我該使用哪種 Adobe Analytics 工具呢?
+uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 我應該使用哪一種Adobe Analytics工具？
+# 我該使用哪種 Adobe Analytics 工具呢?
 
 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 
-如需 Adobe Analytics 產品比較的相關資訊，請前往[此處](../../admin/c-analytics-product-comparison/analytics-product-comparison.md#concept_D9DB9FA42CA04F4C97765B6B31A0005D)取得。
-
+如需 Adobe Analytics 產品比較的相關資訊，請前往[此處](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)取得。
 ## Adobe Analytics 報告使用者介面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
-**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果您無法在Analysis工作區中執行工作，請考慮下列介面。**
+**[Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果分析工作區中有無法執行的任務，請考慮以下其他介面。**
 
 該使用「**[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)」**&#x200B;的情況:
 
@@ -113,7 +112,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
 * 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到第三方資料視覺化工具中時
 * 若您在 Adobe Analytics 中遇上「低流量」，要存取所有獨特維度值時
 
-**[應使用Analytics資料饋送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** ：
+**[應使用Analytics資料饋送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** :
 
 * 要利用我們所能提供最精細的資料摘要 (訪客 ID、點擊數) 時。
 * 若客戶希望 Adobe 資料能以我們所能傳送最精細的層級，存放在客戶端的資料庫中時.
