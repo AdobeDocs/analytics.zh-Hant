@@ -5,7 +5,7 @@ seo-title: ID 擴增
 title: ID 擴增
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 "expandIds": true
 ```
 
-如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#section_DB9DE6492FE740918F91D413E7BAB88F)。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。For more details, refer to the [Privacy Service API documentation.](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -50,16 +50,16 @@ source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
 除了「expandIDs」標幟外，Analytics還支援可作為「資料隱私權」要求一部分傳遞的兩個其他標幟。 這些標記和其預設值如下:
 
 ```
-"analyticsDeleteMethod": “anonymize”
-“priority”: “normal”
+"analyticsDeleteMethod": "anonymize"
+"priority": "normal"
 ```
 
-「analyticsDeleteMethod」除了預設值「anonymize」外，未來可能也會支援「purge」值。一旦支援此值，會造成整個點擊遭到刪除，而非僅更新帶有 DEL 標籤之點擊欄位的值。
+未來，"analyticsDeleteMethod"除了預設值「匿名化」外，可能還支援「purge」值。 一旦支援此值，會造成整個點擊遭到刪除，而非僅更新帶有 DEL 標籤之點擊欄位的值。
 
-除了其預設值外，優先順序欄位亦支援「low」值。若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，Adobe不會基於資料主體所提出要求以外的理由而放棄使用隱私權服務API。 隱私權服務API不是資料清理或修復的適當工具，會產生意想不到的後果。
+除了其預設值外，優先順序欄位也支援「低」值。 若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，Adobe不會基於資料主體所提出要求以外的理由而放棄使用隱私權服務API。 隱私權服務API不是資料清理或修復的適當工具，會產生意想不到的後果。
 
 [!NOTE]
-提 [供隱私權服務API](https://www.adobe.io/apis/experienceplatform/gdpr.html) ，以協助您履行對時間敏感的資料隱私權要求。 Adobe不支援將此API用於其他用途，並可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將隱私權服務API用於其他用途，例如清除在大型訪客群組間意外提交的資料。
+提 [供隱私權服務API](https://www.adobe.io/apis/experienceplatform/gdpr.html) ，以協助您履行對時間敏感的資料隱私權要求。 Adobe不支援將此API用於其他用途，且可能會影響Adobe為其他Adobe客戶提供高優先順序、使用者啟動的資料隱私權要求的能力。 我們要求您不要將隱私權服務API用於其他用途，例如清除在大型訪客群組間意外提交的資料。
 
 您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您想要清除資料欄位，則不需要此副作用，並強調隱私權服務API不適用於此用途的一個原因。
 
