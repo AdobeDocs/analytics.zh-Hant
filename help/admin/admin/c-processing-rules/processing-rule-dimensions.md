@@ -8,7 +8,7 @@ title: 適用於處理規則的維度
 topic: 管理工具
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md#concept_43AA4980A2D847D6A3BEC50BCC0780E7" format="dita" scope="local"> 複製上下文資料變數至eVar </a> </p> <p> <a href="../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md#concept_359B4E165ED442938A8EB6A55A725682" format="dita" scope="local"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 上下文資料變數</a> </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 複製上下文資料變數至eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 上下文資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,11 +66,11 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站區域 </p> </td> 
-   <td colname="col2"> <p> <code>s.channel</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>伺服器 </p> </td> 
-   <td colname="col2"> <p> <code>s.server</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.server </code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面 URL </p> </td> 
-   <td colname="col2"> <code>s.pageURL</code> 或目前頁面 URL (若未指定 <code>s.pageURL</code>)。 </td> 
+   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查詢字串參數 </p> </td> 
@@ -111,7 +111,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面根網域 </p> </td> 
-   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面查詢字串 </p> </td> 
@@ -164,7 +164,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>eVar 1-N </p> </td> 
-   <td colname="col2"> <p> <code> evar1</code> - <code>evarN</code> </p> </td> 
+   <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>促銷活動追蹤程式碼 </p> </td> 
@@ -176,7 +176,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>清單變數 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code>s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>購買 ID </p> </td> 
@@ -211,7 +211,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
  <tbody> 
   <tr> 
    <td colname="col1"> <p>事件 1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code>event1000</code> </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd 和其他購物車事件 </p> </td> 
