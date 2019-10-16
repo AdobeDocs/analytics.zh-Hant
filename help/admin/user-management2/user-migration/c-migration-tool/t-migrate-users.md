@@ -5,7 +5,7 @@ seo-title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
   </tr> 
   <tr> 
    <td colname="col1"> <p>停用舊版登入 </p> </td> 
-   <td colname="col2"> <p>使用公司 ID 的舊版登入已停用。使用者現可使用 Adobe ID 或 Enterprise ID 存取 Experience Cloud。所有使用者均已達到這個階段後，移轉程序便告完成。 </p> <p>在移轉中，舊版登入會停用。 使用者會重新 <span class="filepath"> 導向至experiencecloud.adobe.com</span> ，且必須使用Adobe ID或Enterprise ID登入。 </p> <p>See <a href="../c-migration-tool/t-disable-legacy-login.md#task-c9262e469814473c8a3ff3971c95570b" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
+   <td colname="col2"> <p>使用公司 ID 的舊版登入已停用。使用者現可使用 Adobe ID 或 Enterprise ID 存取 Experience Cloud。所有使用者均已達到這個階段後，移轉程序便告完成。 </p> <p>在移轉中，舊版登入會停用。 使用者會重新 <span class="filepath"> 導向至experiencecloud.adobe.com</span> ，且必須使用Adobe ID或Enterprise ID登入。 </p> <p>See <a href="/help/admin/user-management2/user-migration/c-migration-tool/t-disable-legacy-login.md" format="dita" scope="local"> Disable Legacy Logins</a> for more information. </p> </td> 
   </tr> 
  </tbody> 
 </table>
