@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 使用者和群組
 title: 指派使用者群組至報表套裝
 topic: 管理工具
-uuid: 67173113-2fca-483e-9038-8423e6d6e6e6e6e
+uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,11 +21,11 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 說明如何指派使用者群組至報表套裝的步驟。
 
-[!UICONTROL 「報表套裝」]頁面可讓您檢視及設定公司的報表套裝。Analytics 會透過群組成員資格來管理報表套裝存取權。第一次設定時，請建立所需群組 (指派報表套裝至每個群組)，然後將使用者帳戶指派至適當[群組](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)。
+[!UICONTROL 「報表套裝」]頁面可讓您檢視及設定公司的報表套裝。Analytics 會透過群組成員資格來管理報表套裝存取權。第一次設定時，請建立所需群組 (指派報表套裝至每個群組)，然後將使用者帳戶指派至適當[群組](/help/admin/user-management2/c-user-groups/groups.md)。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Report Suites]**.
-1. 選擇一個報表套裝。
+1. 選擇報表套裝.
 1. Under **[!UICONTROL Report Suite Permissions Management]** page, select the groups to assign to the report suite:
 
    **[!UICONTROL 可用群組:]**&#x200B;顯示所有目前定義的群組。Select the desired groups, then click **[!UICONTROL Add]**. 指定的群組會出現在「包含...的群組」欄位中 (位於右側)。
