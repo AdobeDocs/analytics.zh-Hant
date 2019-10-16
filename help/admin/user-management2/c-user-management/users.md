@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 使用者和群組
 title: 使用者管理概觀
 topic: 管理工具
-uuid: 6f1d67cd-e169-461b-9f08-eec2 c6 b4 e6 df
+uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
 「使用者管理」頁面上的「管理報告使用者和群組」可讓您管理使用者和群組，以及控制對報告、工具和報表套裝的存取。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 編輯使用者」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;使 **[!UICONTROL 用者管理]** &gt;編 **[!UICONTROL 輯使用者]**
 
 ## 使用者帳戶說明 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -82,7 +82,7 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 使用者</span> </td> 
-   <td colname="col2"> <p> 僅授予使用者對選定群組的權限。在<span class="uicontrol">「可用群組」</span>欄位 (位於左側) 中選取所要的群組，然後按一下<span class="uicontrol">「新增」</span>。指定的群組會出現在<span class="uicontrol">「已指派的群組」</span>欄位中 (位於右側)。For information about creating and managing groups, see <a href="../../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 僅授予使用者對選定群組的權限。在<span class="uicontrol">「可用群組」</span>欄位 (位於左側) 中選取所要的群組，然後按一下<span class="uicontrol">「新增」</span>。指定的群組會出現在<span class="uicontrol">「已指派的群組」</span>欄位中 (位於右側)。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
