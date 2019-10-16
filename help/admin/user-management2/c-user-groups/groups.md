@@ -6,14 +6,14 @@ solution: Analytics
 subtopic: 使用者和群組
 title: 使用者群組設定
 topic: 管理工具
-uuid: b411032a-7d56-44fd-b676-abee4 af756 f9
+uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 使用者群組設定(舊版)
+# 使用者群組設定（舊版）
 
 >[!IMPORTANT]
 >
@@ -21,7 +21,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
 
 說明「定義使用者群組」頁面上的元素。
 
-**[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL 新增使用者群組]**
+**[!UICONTROL 管理員]** &gt;使 **[!UICONTROL 用者管理]** &gt;群 **[!UICONTROL 組]** &gt;新 **[!UICONTROL 增使用者群組]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -63,7 +63,7 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量報表</b>：根據流量授與所有報表的存取權，例如頁面檢視、瀏覽和獨特訪客。 </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量報表</b>:根據流量授與對所有報表的存取權，例如頁面檢視、瀏覽和獨特訪客。 </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>工具</b> (授與「報告與分析」中所用工具的存取權，例如依 IP 排除、分類和舊式 ClickMap)。 </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>視訊和行動報表</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>路徑報表</b> (授與路徑報表的存取權，例如下一頁、流失和頁面逗留時間)。 </li> 
@@ -95,10 +95,10 @@ source-git-commit: 826a86d9fcae7922be13fb8cc632af39ed4f5b9b
      </ul> </p> </td> 
    <td colname="col2"> <p>群組成員可存取報告群組中的報告子集。按一下「<span class="uicontrol">自訂</span>」會開啟一個頁面，讓您在其中選取群組成員可以存取的報告群組中的特定報告。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="../../../admin/user-management2/c-customize-report-access/groups-analytics-tools.md#concept_C4383A6C0F5E4130875FDD3756F2E2FC" format="dita" scope="local">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="../../../admin/user-management2/c-customize-report-access/groups-report-suite-tools.md#concept_C94E9864349B428AB9CCE0CA4B0A40FF" format="dita" scope="local">報表套裝工具</a>: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="../../../admin/user-management2/c-customize-report-access/groups-metrics.md#concept_05D54436430E4320A48C7C685D337FBE" format="dita" scope="local">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="../../../admin/user-management2/c-customize-report-access/groups-dimensions.md#concept_68B36161345341369B6D01DC7DD42A22" format="dita" scope="local">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">報表套裝工具</a>: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
