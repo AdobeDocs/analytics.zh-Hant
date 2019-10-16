@@ -5,7 +5,7 @@ seo-title: 標籤報表套裝資料
 title: 標籤報表套裝資料
 uuid: a694851c-8933-496e-9118-113cc38cba8a
 translation-type: tm+mt
-source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/edit.png)
 
-1. **「身分資料」**&#x200B;標籤對話框便隨即自動開啟。這些標籤可分類本身就能使用的資料，或能與其他資料合併，以識別或直接與個人聯絡的資料。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_B2E78130957647338495EF37DE21D6BC)
+1. **「身分資料」**&#x200B;標籤對話框便隨即自動開啟。這些標籤可分類本身就能使用的資料，或能與其他資料合併，以識別或直接與個人聯絡的資料。For more information on these options, refer to [Identity Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)
 
    >[!NOTE]
    >
@@ -53,11 +53,11 @@ source-git-commit: 5bf8f8922abd81bd2edde338e19c6dd6c8369bbf
 
    ![](assets/identity_labels.png)
 
-1. 開啟&#x200B;**「敏感資料」**&#x200B;區段以設定依地理位置資料分類的敏感資料標籤。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#section_533E1406F3F24A01B51D94139B94CAEC)
+1. 開啟&#x200B;**「敏感資料」**&#x200B;區段以設定依地理位置資料分類的敏感資料標籤。For more information on these options, refer to [Sensitive Data Labels (DULE).](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)
 
    ![](assets/sensitive_data.png)
 
-1. Open the Data Privacy Data section to set **Data Governance** Labels. 使用本節指示Adobe如何處理資料隱私權存取和刪除請求的每個變數，以及定義應掃描哪些變數以尋找這些請求的資料主體ID。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#section_0C7F9EC4BB414A6D915C69F1D3259F1B)
+1. Open the Data Privacy Data section to set **Data Governance** Labels. 使用本節指示Adobe如何處理資料隱私權存取和刪除請求的每個變數，以及定義應掃描哪些變數以尋找這些請求的資料主體ID。 For more information on these options, refer to [Data Governance Labels (Data Privacy).](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)
 
    ![](assets/privacy_labels.png)
 
