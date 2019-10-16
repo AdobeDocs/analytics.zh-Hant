@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 使用者和群組
 title: 使用者和產品管理
 topic: 管理工具
-uuid: 891a8cb3-b77 d-46f6-ab23-cbed49 f215 b5
+uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新增使用者</span> </td> 
-   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 使用者</a>. </p> </td> 
+   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 使用者</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下載報告</span> </td> 
@@ -76,7 +76,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登入</span> </td> 
-   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 使用者</a>. </p> </td> 
+   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 使用者</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -112,7 +112,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 編輯</span> </td> 
-   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱 <a href="../../admin/user-management2/c-user-management/users.md#concept_3B50D355B0AA48A58CFAB671CE3F82F4" format="dita" scope="local"> 使用者</a>. </p> </td> 
+   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md" format="dita" scope="local"> 使用者</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 刪除</span> </td> 
@@ -120,7 +120,7 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 轉移</span> </td> 
-   <td colname="col2">將一個使用者帳戶的特權 (權限和資源存取) 指派給另一個帳戶。 <p>請參閱 <a href="../../admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md#task_A17A57DB5B114E869ABB1768F7910092" format="dita" scope="local"> 轉移使用者帳戶特殊權限</a>. </p> </td> 
+   <td colname="col2">將一個使用者帳戶的特權 (權限和資源存取) 指派給另一個帳戶。 <p>請參閱 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md" format="dita" scope="local"> 轉移使用者帳戶特殊權限</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 以此使用者身份登入</span> </td> 
