@@ -1,18 +1,18 @@
 ---
 description: 管理指派給 Report Builder 使用者的授權。
 seo-description: 管理指派給 Report Builder 使用者的授權。
-seo-title: 報告建立工具報表
+seo-title: Report Builder 報表
 solution: Analytics
-title: 報告建立工具報表
+title: Report Builder 報表
 topic: 管理工具
-uuid: 41f98b99-9a78-430a-8a42-101eddd3d ef
+uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 報告建立工具報表
+# Report Builder 報表
 
 管理指派給 Report Builder 使用者的授權。
 
@@ -22,4 +22,4 @@ You can grant report builder access to any [!DNL Analytics] user by adding them 
 
 「[!UICONTROL 排程工作使用情形]」資訊表格會顯示所有具有 Report Builder 存取權限的使用者。
 
-請參閱[群組](../../admin/user-management2/c-user-groups/groups.md#concept_6C565553DCE3417C909234B2F044A02F)。
+請參閱[群組](/help/admin/user-management2/c-user-groups/groups.md)。
