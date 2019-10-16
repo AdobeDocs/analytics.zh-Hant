@@ -1,26 +1,26 @@
 ---
 description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
 seo-description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
-seo-title: 新的報表套裝-設定
+seo-title: 新的報表套裝 - 設定
 solution: Analytics
-title: 新的報表套裝-設定
+title: 新的報表套裝 - 設定
 topic: 管理工具
-uuid: 3508f684-11a3-4c8f-a233-bea6 bafd57 c0
+uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
 
-# 新的報表套裝-設定
+# 新的報表套裝 - 設定
 
 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
 
-建立報表套裝時[所使用元素的說明](../../../admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md#task_67033B9710CB49F9B71A4DE374A538A0)。
+建立報表套裝時[所使用元素的說明](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 
 >[!NOTE]
 >
->[「虛擬報表套裝」文件](/help/components/vrs/c-workflow-vrs/vrs-create.md) 顯示如何建立虛擬報表套裝。
+>The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -52,7 +52,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>上線日期 </p> </td> 
-   <td colname="col2">通知 Adobe 您要讓此報表套裝開始生效的日期。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="../../../admin/c-traffic-management/traffic-management.md#concept_8BD651EE8B84434CB4D6308BC6C01B79" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">通知 Adobe 您要讓此報表套裝開始生效的日期。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 預計的每日頁面檢視次數</span> </td> 
@@ -60,11 +60,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基本貨幣</span> </td> 
-   <td colname="col2"> <p>指定用來儲存所有貨幣資料的預設貨幣。Analytics 報告會使用它收到資料時的轉換率，將其他貨幣的交易換算為基本貨幣。 </p> <p> Analytics 報告會使用<span class="varname"> currencyCode</span> JavaScript變數以識別指定交易的貨幣。 </p> </td> 
+   <td colname="col2"> <p>指定用來儲存所有貨幣資料的預設貨幣。Analytics 報告會使用它收到資料時的轉換率，將其他貨幣的交易換算為基本貨幣。 </p> <p> Analytics 報告會使用 <span class="varname"> currencyCode</span> JavaScript variable to identify the currency of a given transaction. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">停用多位元組字元支援</span> </td> 
-   <td colname="col2"> <p>停用報表套裝的多位元組字元支援。若您停用多位元組字元支援，系統會假設資料採用 ISO-8859-1 格式。網頁必須在<span class="varname"> charSet</span> JavaScript變數。 </p> <p>多位元組字元支援可使用 UTF-8 儲存報表套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。 </p> <p>聯絡您的帳戶管理員或客戶服務，以變更現有報表套裝的多位元組字元支援。 </p> </td> 
+   <td colname="col2"> <p>停用報表套裝的多位元組字元支援。若您停用多位元組字元支援，系統會假設資料採用 ISO-8859-1 格式。網頁必須在 <span class="varname"> charSet</span> javaScript變數。 </p> <p>多位元組字元支援可使用 UTF-8 儲存報表套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。 </p> <p>聯絡您的帳戶管理員或客戶服務，以變更現有報表套裝的多位元組字元支援。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 針對此套裝啟動 Ad Hoc Analysis</span> </td> 
