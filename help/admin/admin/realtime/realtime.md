@@ -5,9 +5,9 @@ seo-title: 即時報表
 solution: Analytics
 title: 即時報表
 topic: 報表
-uuid: c09cc605-1b3b-41ab-9b46-8c2a26f579a
+uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 >[!NOTE]
 >
->即時報告不需要額外實施或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+>即時報表不需要額外實施或標籤。 它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md).
 
-**[!UICONTROL 網站度量]** &gt; **[!UICONTROL 即時]**
+**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 即時]**
 
 請即時回答下列問題: 我的網站有何趨勢、原因為何? 它可讓身為行銷人員的您，迅速回應、積極管理行銷內容和促銷活動的效能。所報告的即時資料延遲不超過兩分鐘，並且每分鐘自動更新一次。
 
@@ -44,7 +44,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 * 舉例來說，可以比較上週的值和去年的值 (以及今日總計)。
 
-請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱[設定即時報表](../../../admin/admin/realtime/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)。
+請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱 設 [定即時報表](/help/admin/admin/realtime/t-realtime-admin.md)。
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 
@@ -57,4 +57,4 @@ Adobe Target 中的 A4T 整合啟用後，您就會在 Adobe Analytics 中遇到
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完整實作此整合，延遲增加也會在您實作身分服務之後開始。
+請注意，延遲增加會在您實作Identity service後開始，即使您尚未完全實作此整合亦然。
