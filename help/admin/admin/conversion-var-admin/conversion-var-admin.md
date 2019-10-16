@@ -8,7 +8,7 @@ title: 轉換變數 (eVar)
 topic: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -29,11 +29,11 @@ eVar 最適合用來測量原因和結果，如:
 
 >[!NOTE]
 >
->Only a single value can be stored in an eVar in an image request. 如果 eVar 值中需要多個數值，建議您實施[清單變數 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
+>影像要求中的eVar只能儲存單一值。 如果 eVar 值中需要多個數值，建議您實施[清單變數 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
 
 ## 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-說明編輯轉換變數 [時使用的欄位](../../../admin/admin/conversion-var-admin/t-conversion-variables-admin.md#task_051920D9B3E24A00A28F32EEBBB0EF97)。
+說明編輯轉換變數 [時使用的欄位](/help/admin/admin/conversion-var-admin/t-conversion-variables-admin.md)。
 
 <table id="table_E48D50926E6B492183300CA58A886927"> 
  <thead> 
@@ -53,7 +53,7 @@ eVar 最適合用來測量原因和結果，如:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 配置 </span> </p> </td> 
-   <td colname="col2"> <p>如果變數在事件之前接收到多個值，可決定 Analytics 如何為成功事件指派評價。支援的值包括: </p> <p> <b>最近</b>:最後一個eVar值一律會收到成功事件的評分，直到該eVar過期為止。 </p> <p> <b>Original Value</b>: The first eVar always receives credit for success events until that eVar expires. </p> <p> <b> 線性</b>：在所有eVar值間分配成功事件的機率相同。 實際僅在一次瀏覽中分發值，因此請搭配瀏覽的 eVar 過期時間使用線性配置。 </p> <p>附註: 切換分配至「線性」從「線性」切換分配時，不會顯示歷史資料。在報告介面混合配置類型可能造成報告中資料誤報。例如，「線性」配置將收入分配給數個不同的 eVar 值。變更回「最近」配置後，該收入的 100% 都關聯至最近的單一值。這種關聯會讓使用者產生不正確的結論。 </p> <p>為了避免報告產生混淆，Analytics 在介面中隱藏歷史資料。如果您決定將特定 eVar 變更回初始配置設定，仍可檢視這些歷史資料，但您不應僅為了存取歷史資料而變更 eVar 配置設定。如果想對已記錄的資料採用新的配置設定，Adobe 建議使用新的 eVar，而不是變更已建立了大量歷史資料的 eVar 之配置設定。 </p> </td> 
+   <td colname="col2"> <p>如果變數在事件之前接收到多個值，可決定 Analytics 如何為成功事件指派評價。支援的值包括: </p> <p> <b>最近</b>:最後一個eVar值一律會收到成功事件的評分，直到該eVar過期為止。 </p> <p> <b>原始值</b>:第一個eVar一律會收到成功事件的評分，直到該eVar過期為止。 </p> <p> <b> 線性</b>：在所有eVar值間分配成功事件的機率相同。 實際僅在一次瀏覽中分發值，因此請搭配瀏覽的 eVar 過期時間使用線性配置。 </p> <p>附註: 切換分配至「線性」從「線性」切換分配時，不會顯示歷史資料。在報告介面混合配置類型可能造成報告中資料誤報。例如，「線性」配置將收入分配給數個不同的 eVar 值。變更回「最近」配置後，該收入的 100% 都關聯至最近的單一值。這種關聯會讓使用者產生不正確的結論。 </p> <p>為了避免報告產生混淆，Analytics 在介面中隱藏歷史資料。如果您決定將特定 eVar 變更回初始配置設定，仍可檢視這些歷史資料，但您不應僅為了存取歷史資料而變更 eVar 配置設定。如果想對已記錄的資料採用新的配置設定，Adobe 建議使用新的 eVar，而不是變更已建立了大量歷史資料的 eVar 之配置設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 過期時間</span> </p> </td> 
