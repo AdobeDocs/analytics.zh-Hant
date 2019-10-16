@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: GDPR 術語
 title: GDPR 術語
-uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9
+uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **企業集團** - 控管企業和受其控管的企業
 
-**身分管理服務 (IMS)** - Adobe 實作 Federated ID 和 OAuth 2.0 以驗證 Adobe ID 使用者及授權 Adobe 資源。您必須整合 IMS 和您的 Adobe 應用程式或服務以讓使用者登入及存取 Adobe 服務。使用者可透過 Renga (Adobe 的身分服務提供者) 直接登入，或透過信任的協力廠商驗證網域 (例如 Google、Facebook 或公司/組織 LDAP)。
+**身分管理服務(IMS)** - adobe實作Federated ID和OAuth 2.0，以驗證Adobe ID使用者並授權Adobe資源。 您必須整合 IMS 和您的 Adobe 應用程式或服務以讓使用者登入及存取 Adobe 服務。使用者可直接使用Renga（Adobe的身分服務提供者）登入，或透過受信任的第三方驗證網域（例如Google、Facebook或公司／組織LDAP）登入。
 
-**Experience Cloud 組織 ID** - 代表服務對服務驗證的 Adobe 驗證代號，不會要求使用者登入。其核發給 IMS 用戶端，且不具相關使用者。IMS 用戶端需要服務代號才可授權服務之間的反向通道請求。(「系統代號」一詞通常用於指稱服務代號。)
+**Experience Cloud 組織 ID** - 代表服務對服務驗證的 Adobe 驗證代號，不會要求使用者登入。其核發給 IMS 用戶端，且不具相關使用者。IMS 用戶端需要服務代號才可授權服務之間的反向通道請求。（「系統Token」一詞有時會用來表示服務Token。）
 
 **主要場所** - 在歐盟內針對資料處理進行主要決策的地點；就處理者而言
 
-**個人資料** - 與自然人或「資料主體」相關的任何資訊，可用於直接或間接識別人員
+**個人資料** -任何與自然人或「資料主體」相關的資訊，可用來直接或間接識別該人
 
 **個人資料缺口** - 導致個人資料遭意外或非法存取、銷毀、濫用等事件的安全性缺口
 
