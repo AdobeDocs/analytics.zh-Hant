@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 處理規則
 title: 建立處理規則
 topic: 管理工具
-uuid: fd92e6c9-8ef0-4604-8fd4-4255527b4fa9
+uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 ---
 
@@ -30,4 +30,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    如果有多個規則，請在頁面上拖放這些規則，以變更處理順序。
 
-   請參閱[處理規則的範例](../../../../admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md#concept_92527719A66849058108300DAE8A506B)，以瞭解您可以建立的規則種類。
+   請參閱[處理規則的範例](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)，以瞭解您可以建立的規則種類。
