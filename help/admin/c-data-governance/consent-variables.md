@@ -1,20 +1,20 @@
 ---
-description: 資料隱私權中用於許可管理的變數。
-seo-description: 資料隱私權中用於許可管理的變數。
-seo-title: 同意管理變數
+description: 資料隱私權中隱私權報告的變數。
+seo-description: 資料隱私權中隱私權報告的變數。
+seo-title: 隱私權報告變數
 solution: Analytics
-title: 同意管理變數
+title: 隱私權報告變數
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
+source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ---
 
 
-# 同意管理變數
+# 隱私權報告變數
 
 為了在管理隱私權資料方面提供額外協助，我們提供一組保留變數，可搭配特定上下文資料變數使用。
-這些同意管理變數提供易於使用的框架，用於擷取每個分析點擊的同意狀態。
+這些隱私權報告變數提供簡單易用的架構，可用來擷取每個分析點擊的隱私權狀態。
 
 ## 變數
 
@@ -35,7 +35,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ## 報告
 
-您可以透過Analytics管理控制台中提供的新隱私權設定，啟用「同意管理變數」。
+您可以透過Analytics管理控制台中提供的新隱私權設定，啟用隱私權報告變數。
 
 每個報表套裝皆可設定如下：
 1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
@@ -57,7 +57,7 @@ source-git-commit: 69f7ab75d95373754c0f4285c9d688d1c7d12322
 
 ## 實施
 
-已預先定義三個上下文資料變數，以搭配同意管理保留變數運作。  每位實施工程師都必須決定如何管理並保留這些變數的設定。
+已預先定義三個上下文資料變數，以搭配隱私權報告管理保留變數使用。  每位實施工程師都必須決定如何管理並保留這些變數的設定。
 
 如需實 [作上下文資料變數的一般指引](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) ，請參閱上下文資料變數。
 
