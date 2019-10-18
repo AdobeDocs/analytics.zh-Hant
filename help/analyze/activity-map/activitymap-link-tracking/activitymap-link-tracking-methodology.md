@@ -5,9 +5,9 @@ seo-title: 連結追蹤方法
 solution: Analytics
 title: 連結追蹤方法
 topic: Activity Map
-uuid: 67864fb9-33cd-46fa-89a8-4d83d83d
+uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 4f313ae50c4d5a0f3bfec493c2d554bc8614aeef
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). 如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6)。
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). For more information on how [!DNL Activity Map] may be collecting PII data, go [here](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6).
 
-Activity Map 的連結追蹤是根據下列兩個 ID:
+[!DNL Activity Map] 其連結追蹤以下兩個ID為基礎：
 
 * 主要 ID: 這是連結的可識別參數。
 * 連結地區: 這是次要參數，可讓使用者指定該頁面或地區中整體連結區域的代表字串。如果使用者未提供此參數，此參數可以自動產生。
@@ -48,7 +48,7 @@ Activity Map 的連結追蹤是根據下列兩個 ID:
 * 可以良好表示連結身份。可以大幅降低主要 ID 重複項目，因為不常發生多個連結具有相同文字。
 * 可確保主要 ID 在所有裝置和瀏覽器類型間保持一致性。
 * 不受頁面上連結重新定位的影響。
-* 改善可讀性，讓使用者可以在 Activity Map 外部分析連結追蹤報表。
+* It improves readability, so users can start analyzing Link tracking reports outside [!DNL Activity Map].
 
 ## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
@@ -112,9 +112,9 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## Configuration variables {#section_634197EACD404AC086DF9A03B813C8C3}
+## 設定變數 {#section_634197EACD404AC086DF9A03B813C8C3}
 
-請注意，以下所列變數僅供參考。Activity Map 在出廠時即已正確設定，但您可使用這些變數來自訂實作。
+請注意，以下所列變數僅供參考。[!DNL Activity Map] 在出廠時即已正確設定，但您可使用這些變數來自訂實作。
 
 <table id="table_7BC8DC3F35CF49288D94BA707F06B283"> 
  <thead> 
@@ -126,37 +126,41 @@ s.ActivityMap.regionIDAttribute="lpos";
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> s. ActivityMap. regionIDAttribute </td> 
+   <td colname="col1"> s.ActivityMap.regionIDAttribute </td> 
    <td colname="col2"> 預設為 "id" 參數。您可將此變數設定為其他參數。 </td> 
    <td colname="col3"> 字串，用來識別 s.linkObject 的某些上階 (parent、parent.parent 等) 元素 (亦即<b>被點按的元素</b>) 中，做為地區 ID 的標記屬性。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. ActivityMap. link </td> 
+   <td colname="col1"> s.ActivityMap.link </td> 
    <td colname="col2"> 
-    <code>//只能使用A標籤函數(cliceDelement){var linkID中的「title」屬性；if(cliceDelement&amp;&amp; CliceDelement. tagName. toupPercase()=='A'){linkID= clickelDelement. getAttribute. getAttribute('title')；} return linkId；} </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;"title"&nbsp;attributes&nbsp;from&nbsp;A&nbsp;tags function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;linkId; &nbsp;&nbsp;&nbsp;if(clickedElement&nbsp;&amp;&amp;&nbsp;clickedElement.tagName.toUpperCase()&nbsp;===&nbsp;'A'){ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;linkId&nbsp;=&nbsp;clickedElement.getAttribute('title'); &nbsp;&nbsp;&nbsp;} &nbsp;&nbsp;&nbsp;return&nbsp;linkId; } 
+    </code> </td> 
    <td colname="col3"> 函數，接受被點按的 HTMLElement，且應傳回代表<b>被點按的連結</b>的字串值。 <p>如果傳回值為 false (null、未定義、空字串、0)，將不會追蹤任何連結。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> s. ActivityMap. region </td> 
+   <td colname="col1"> s.ActivityMap.region </td> 
    <td colname="col2"> 
-    <code>//只能使用與第一個ClassName相同的小寫版本，做為地區函數(cliceDelement){var regionId、ClassName；while(clickedDelement&amp;&amp;(cliceDelement= cliceDelement. parentNode)){regionId= clickedDelement. tagName；if(regionId){return regionId. toLowerCase()；}}} </code>
-  </td> 
+    <code>
+      //&nbsp;only&nbsp;ever&nbsp;use&nbsp;lowercase&nbsp;version&nbsp;of&nbsp;tag&nbsp;name&nbsp;concatenated&nbsp;with&nbsp;first&nbsp;className&nbsp;as&nbsp;the&nbsp;region function(clickedElement){ &nbsp;&nbsp;&nbsp;var&nbsp;regionId,className; &nbsp;&nbsp;&nbsp;while(clickedElement&nbsp;&amp;&amp;&nbsp;(clickedElement=&nbsp;clickedElement.parentNode)){ &nbsp;regionId&nbsp;=&nbsp;clickedElement.tagName; &nbsp;if(regionId){ &nbsp;return&nbsp;regionId.toLowerCase(); &nbsp;} &nbsp;} } 
+    </code> </td> 
    <td colname="col3"> 函數，接受被點按的 HTMLElement，且應傳回代表<b>在點按時連結所在地區</b>的字串值。 <p>如果傳回值為 false (null、未定義、空字串、0)，將不會追蹤任何連結。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
    <td colname="col2"> 
-    <code>//排除具有特殊linkExcludated CSS類別&lt;樣式&gt;. linkExcluded{display的連結：區塊；高度：px；左側：-9999px；溢位：隱藏；位置：絕對；width：px；}&lt;/style&gt;&lt; a href=「loc」&gt;連結會受到追蹤，因為連結沒有比對篩選器的隱藏文字。&lt;/a&gt;&lt; a href=「next-page.html」&gt;「連結」未追蹤，因為s. ActivityMap. linkExclusions已設定，且此連結具有比對篩選的隱藏文字。&lt; span class=「linkExcluded」&gt; exclude-link1&lt;/san&gt;&lt;/a&gt;&lt;/a&gt;&lt; a href=「next-page.html」&gt;「連結」未追蹤，因為s. ActivityMap. linkExclusions已設定，且此連結具有隱藏文字比對篩選。 &lt;span class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.linkExclusions = 'exclude-link1,exclude-link2'; &lt;/script&gt; 
+    <code>
+      //&nbsp;Exclude&nbsp;links&nbsp;tagged&nbsp;with&nbsp;a&nbsp;special&nbsp;linkExcluded&nbsp;CSS&nbsp;class &nbsp;&lt;style&gt; .linkExcluded{ &nbsp;&nbsp;display:&nbsp;block; &nbsp;&nbsp;height:&nbsp;1px; &nbsp;&nbsp;left:&nbsp;-9999px; &nbsp;&nbsp;overflow:&nbsp;hidden; &nbsp;&nbsp;position:&nbsp;absolute; &nbsp;&nbsp;width:&nbsp;1px; } &lt;/style&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;link&nbsp;does&nbsp;not&nbsp;have&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter.&nbsp;&lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link1&lt;/span&gt; &lt;/a&gt; &lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.linkExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;has&nbsp;hidden&nbsp;text&nbsp;matching&nbsp;the&nbsp;filter. &nbsp;&lt;span&nbsp;class="linkExcluded"&gt;exclude-link2&lt;/span&gt; &lt;/a&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.linkExclusions&nbsp;=&nbsp;'exclude-link1,exclude-link2'; &lt;/script&gt; 
     </code> </td> 
-   <td colname="col3"> <p>接受以逗號分隔的字串清單以在連結文字中進行尋找的字串若找到，則該連結排除由 Activity Map 追蹤。若未設定，則 Activity Map 並未試圖停止追蹤該連結。 </p> </td> 
+   <td colname="col3"> <p>接受以逗號分隔的字串清單以在連結文字中進行尋找的字串如果找到，則[!DNL Activity Map]將排除該連結進行跟蹤。 如果未設定，則沒有嘗試停止[!DNL Activity Map]追蹤連結。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> s.ActivityMap.regionExclusions </td> 
    <td colname="col2"> 
-    <code>//由ActivityMap&lt; div id=「links-includated」&gt;&lt; a href=「next-page.html」&gt;&gt;&gt;&gt;&gt;「連結」追蹤的頁面上的「排除」區域會受到追蹤，但不符合篩選器。&lt;/a&gt;&lt;/div&gt;&lt; div id=「links-excluded」&gt;&lt; a href=「next-page.html」&gt;&gt;&gt;&gt;「連結」，因為s. ActivityMap. regionExclusions已設定，且符合篩選條件。&lt;/a&gt; &lt;/div&gt; &lt;script&gt;   var s = s_gi('samplersid');   s.ActivityMap.regionExclusions = 'links-excluded'; &lt;/script&gt;
+    <code>
+      //&nbsp;Exclude&nbsp;regions&nbsp;on&nbsp;the&nbsp;page&nbsp;from&nbsp;its&nbsp;links&nbsp;being&nbsp;trackable&nbsp;by&nbsp;ActivityMap &lt;div&nbsp;id="links-included"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;is&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;but&nbsp;does&nbsp;not&nbsp;match&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;div&nbsp;id="links-excluded"&gt;&nbsp; &nbsp;&nbsp;&lt;a&nbsp;href="next-page.html"&gt;Link&nbsp;not&nbsp;tracked&nbsp;because&nbsp;s.ActivityMap.regionExclusions&nbsp;is&nbsp;set&nbsp;and&nbsp;this&nbsp;link&nbsp;matches&nbsp;the&nbsp;filter.&lt;/a&gt; &lt;/div&gt; &lt;script&gt; &nbsp;&nbsp;var&nbsp;s&nbsp;=&nbsp;s_gi('samplersid'); &nbsp;&nbsp;s.ActivityMap.regionExclusions&nbsp;=&nbsp;'links-excluded'; &lt;/script&gt;
     </code> </td> 
-   <td colname="col3"> <p>接受以逗號分隔的字串清單以在地區文字中進行尋找的字串。若找到，則該連結排除由 Activity Map 追蹤。若未設定，則 Activity Map 並未試圖停止追蹤該連結。 </p> </td> 
+   <td colname="col3"> <p>接受以逗號分隔的字串清單以在地區文字中進行尋找的字串。如果找到，則[!DNL Activity Map]將排除該連結進行跟蹤。 如果未設定，則沒有嘗試停止[!DNL Activity Map]追蹤連結。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
