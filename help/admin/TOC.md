@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/zh-Hant/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -174,7 +174,7 @@ source-git-commit: 49e555bb4cd9b28eeffee3e4e98ddf3fb72a1038
    + [標籤範例](c-data-governance/gdpr-labeling-example.md)
    + [資料隱私權與資料連接器(Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [資料隱私權術語](c-data-governance/gdpr-terminology.md)
-   + [同意管理變數](c-data-governance/consent-variables.md)
+   + [隱私權報告變數](c-data-governance/consent-variables.md)
 + 伺服器呼叫使用量 {#server-call-usage}
    + [伺服器呼叫使用量概觀](c-server-call-usage/overage-overview.md)
    + [檢視目前伺服器呼叫使用量](c-server-call-usage/server-call-usage-dashboard.md)
