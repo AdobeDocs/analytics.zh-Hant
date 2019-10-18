@@ -6,7 +6,7 @@ solution: Analytics
 title: 隱私權報告變數
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
+source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
 
 ---
 
@@ -63,21 +63,21 @@ source-git-commit: 4d3577cc87b95da41275552efe7fc70bcc23e023
 
 ### SSF
 
-* 上下文資料：contextData.['cm.ssf']
+* 上下文資料: `contextData.['cm.ssf']`
 * 接受的值：
    * 1 —— 傳送值"1"時，這表示伺服器端轉送處於選擇退出狀態。 值"1"與此變數搭配使用，將會封鎖此點擊與Adobe Audience manager的共用。 請參 [閱AAM ePrivacy Compliance。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
    * 此參數不接受其他值。
 
 ### DMP
 
-* 上下文資料：contextData.['opt.dmp']
+* 上下文資料: `contextData.['opt.dmp']`
 * 接受的值：
    * N —— 傳送值"N"時，這表示消費者選擇不共用至資料管理平台。 **** 注意：將此變數設為"N"目前並不會封鎖AAM的共用，但是，AAM功能的封鎖呼叫將會在2020年初新增。 目前，Adobe建議同時設 `c.cm.ssf=1` 定 `c.opt.dmp=N` 和以封鎖點擊傳送至AAM。
    * Y —— 傳送值"Y"時，這表示消費者選擇分享至資料管理平台。
 
 ### 銷售
 
-* 上下文資料：contextData.['opt.sell']
+* 上下文資料: `contextData.['opt.sell']`
 * 接受的值：
    * N —— 傳送值"N"時，這表示消費者選擇不分享或銷售資料給第三方。
    * Y —— 傳送值"Y"時，這表示消費者選擇分享或銷售資料給第三方。
