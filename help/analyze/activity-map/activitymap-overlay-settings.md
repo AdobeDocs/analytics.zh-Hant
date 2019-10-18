@@ -1,28 +1,28 @@
 ---
-description: 「Activity Map 設定面板」可讓您修改所有覆蓋圖視覺效果類型的設定和屬性。
-seo-description: 「Activity Map 設定面板」可讓您修改所有覆蓋圖視覺效果類型的設定和屬性。
-seo-title: 設定Activity Map設定
+description: '[!DNL Activity Map]設定面板可讓您修改所有覆蓋視覺化類型的設定和屬性。'
+seo-description: '[!DNL Activity Map]設定面板可讓您修改所有覆蓋視覺化類型的設定和屬性。'
+seo-title: 配置[!DNL Activity Map]設定
 solution: Analytics
-title: 設定Activity Map設定
+title: 配置[!DNL Activity Map]設定
 topic: Activity Map
-uuid: 42a0309e-3efc-4506-989b-09b6Fe419423
+uuid: 42a0309e-3efc-4506-989b-09b6fe419423
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# 設定Activity Map設定
+# Configure [!DNL Activity Map] settings
 
-「Activity Map 設定面板」可讓您修改所有覆蓋圖視覺效果類型的設定和屬性。
+The [!DNL Activity Map] Setting Panel lets you modify the settings and properties for all types of overlay visualizations.
 
-按一下 Activity Map 工具列上的齒輪圖示，即可存取「Activity Map 設定」面板。
+Access the [!DNL Activity Map] Settings panel accessed by clicking the gear icon on the [!DNL Activity Map] toolbar.
 
 「設定」面板會根據所選取的應用程式模式，而顯示不同的內容。「其他」索引標籤包含一般設定。
 
 | 標準 | **[!UICONTROL 漸層]**&#x200B;或&#x200B;**[!UICONTROL 氣泡]覆蓋圖** |
 |---|---|
-| Live | **[!UICONTROL 獲益者與損失者]**、 **[!UICONTROL 漸層]**、 **[!UICONTROL 氣泡]** 覆蓋圖 |
+| Live | **[!UICONTROL 獲益者和損失者]**、漸 **[!UICONTROL 層]**、泡泡 **[!UICONTROL 覆蓋圖]** |
 | 其他 | 報表套裝選擇和語言選擇 |
 
 ## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
@@ -97,7 +97,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> 報表套裝 </td> 
-   <td colname="col2"> <p>您能存取的報表套裝清單不再僅限於網頁標籤所定義的報表套裝。您現在可以使用其他報表套裝替代所選取的報表套裝 (對應至該頁面任一標籤)。此新的報表套裝不需要連結至該頁面上的標籤。如果變更您在「Activity Map 設定」中選定的報表套裝，<span class="uicontrol">儲存</span>程序會重新整理所有受影響的分析報表。 </p> <p> <p>重要: 虛擬報表套裝與即時模式不相容，只與標準模式相容。如果您處於標準報表套裝的即時模式，但在此對話方塊中選取了虛擬報表套裝，則一旦按下此處的「<span class="uicontrol">確定</span>」，就會顯示標準模式。 </p> </p> <p>此外，日曆控制項也會重新初始化以符合報表套裝的日曆類型 (西曆、零售、自訂...)。 </p> </td> 
+   <td colname="col2"> <p>您能存取的報表套裝清單不再僅限於網頁標籤所定義的報表套裝。您現在可以使用其他報表套裝替代所選取的報表套裝 (對應至該頁面任一標籤)。此新的報表套裝不需要連結至該頁面上的標籤。If you change the selected report suite in the [!DNL Activity Map] Settings, the <span class="uicontrol"> Save</span> process will cause all affected Analytics reports to be refreshed. </p> <p> <p>重要: 虛擬報表套裝與即時模式不相容，只與標準模式相容。如果您處於標準報表套裝的即時模式，但在此對話方塊中選取了虛擬報表套裝，則一旦按下此處的「<span class="uicontrol">確定</span>」，就會顯示標準模式。 </p> </p> <p>此外，日曆控制項也會重新初始化以符合報表套裝的日曆類型 (西曆、零售、自訂...)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 語言 </td> 
