@@ -5,9 +5,9 @@ seo-title: 連結報表
 solution: Analytics
 title: 連結報表
 topic: Activity Map
-uuid: 1e7ca5d8-d144-4a21-a2 f9-e05 bd3232 c59
+uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 連結報表會報告在目前頁面上找到的連結。並不會報告為該頁面收集的所有連結。
 
-「頁面上的連結」報表提供連結的表格檢視。有時候您會想查看在單一檢視中排名的連結點擊次數 (或其他量度)。如此可在連結之間提供更好的比較結果。建立「頁面上的連結」報表，包含頁面上所有連結的排名清單 (依據連結 ID)、點按資訊 (# 和 %) 以及頁面中的地區。按一下 Activity Map 工具列中的「頁面上的連結報表」按鈕。
+「頁面上的連結」報表提供連結的表格檢視。有時候您會想查看在單一檢視中排名的連結點擊次數 (或其他量度)。如此可在連結之間提供更好的比較結果。建立「頁面上的連結」報表，包含頁面上所有連結的排名清單 (依據連結 ID)、點按資訊 (# 和 %) 以及頁面中的地區。Click the Links in Page report button in the [!DNL Activity Map] toolbar.
 
-「**[!UICONTROL 頁面上的連結]」報表隨即在 Activity Map 控制面板的瀏覽器框架下方開啟。**
+「**[!UICONTROL 頁面上的連結]」報表隨即在 控制面板的瀏覽器框架下方開啟。**[!DNL Activity Map]
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -40,7 +40,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 連結 ID </td> 
-   <td colname="col2">連結的主要ID(如需新連結追蹤方法的定義，請參閱「新連結追蹤方法」)(/home/analysis/activity-map/activitymap-linking/activitmap-link-tracking-method-link-tracking-method. md) </td> 
+   <td colname="col2">連結的主要ID（如需[新連結追蹤方法]如何定義主要ID的詳細資訊）(/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 點按 </td> 
@@ -63,7 +63,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **篩選資料**
 
-如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]」欄位中搜尋相關詞語。**&#x200B;只有符合搜尋的連結會顯示覆蓋圖。若不使用篩選，則會顯示「[Activity Map 設定](/help/analyze/activity-map/activitymap-overlay-settings.md)」中指定的覆蓋圖。
+如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]」欄位中搜尋相關詞語。**&#x200B;只有符合搜尋的連結會顯示覆蓋圖。Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
@@ -85,7 +85,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 連結 ID </td> 
-   <td colname="col2">連結的主要 ID。關於主要ID如何由新[連結追蹤方法]定義的詳細資訊(/help/analysis/activity-map/activitymap-track/activitymap-)油墨-tracking-method. md)。 </td> 
+   <td colname="col2">連結的主要 ID。如需新[連結追蹤方法]如何定義主要ID的詳細資訊(/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodoly.md)。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 連結點擊次數 </td> 
