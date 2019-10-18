@@ -1,20 +1,20 @@
 ---
-description: 'Activity Map UI 由兩部分組成 '
-seo-description: 'Activity Map UI 由兩部分組成 '
-seo-title: Activity Map使用者介面
+description: '[!DNL Activity Map] UI由兩個部分組成 '
+seo-description: '[!DNL Activity Map] UI由兩個部分組成 '
+seo-title: '[!DNL Activity Map]用戶介面'
 solution: Analytics
-title: Activity Map使用者介面
+title: '[!DNL Activity Map]用戶介面'
 topic: Activity Map
-uuid: f6734b60-0b77-4f50-a45 a6-6a6936 d1524 e
+uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
-# Activity Map使用者介面
+# [!DNL Activity Map] 使用者介面
 
-Activity Map UI 由兩部分組成:
+The [!DNL Activity Map] UI is comprised of two parts:
 
 * 上方視窗包含網頁、插入的覆蓋圖以及工具列。
 * 下方面板提供報表。
