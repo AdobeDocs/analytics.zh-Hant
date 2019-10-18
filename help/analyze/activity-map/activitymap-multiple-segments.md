@@ -1,20 +1,20 @@
 ---
-description: 可讓您在 Activity Map 中套用多區段篩選。
-seo-description: 可讓您在 Activity Map 中套用多區段篩選。
+description: 可讓您在[!DNL Activity Map]中套用多區段篩選。
+seo-description: 可讓您在[!DNL Activity Map]中套用多區段篩選。
 seo-title: 客戶分段
 solution: Analytics
 title: 客戶分段
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ---
 
 
 # 客戶分段
 
-可讓您在 Activity Map 中套用多區段篩選。
+Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 >[!NOTE]
 >
@@ -30,4 +30,4 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ![](assets/two_segments.png)
 
-選取的區段會套用至 Activity Map 中呈現的所有 Analytics 報表，也就是覆蓋圖以及「**[!UICONTROL 頁面上的連結]**」和「**頁面細節]」報表。[!UICONTROL **
+The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
