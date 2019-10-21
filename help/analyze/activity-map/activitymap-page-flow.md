@@ -5,7 +5,7 @@ seo-title: 頁面細節
 solution: Analytics
 title: 頁面細節
 topic: Activity Map
-uuid: f527b454-7920-4907-869b-4e1d9b2c606
+uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
