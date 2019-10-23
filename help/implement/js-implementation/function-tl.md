@@ -9,14 +9,14 @@ title: s.tl() 函數 - 連結追蹤
 topic: 開發人員和實作
 uuid: f28f071a-8820-4f74-89cd-fd2333a21f22
 translation-type: tm+mt
-source-git-commit: 1ed1c6cd3fd6d29fa156cd4b2c4bdfe9120b3c61
+source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 ---
 
 
 # s.tl() 函數 - 連結追蹤
 
-如果您的組織想要對要追蹤的連結及其行為擁有更多控制權，建議使用手動連結追蹤。 使用s.tl()函式，以手動方式傳送具有所需確切內容的連結追蹤影像要求。 如果基本連結追蹤是所需的，請參閱「設定變 `s.trackDownloadLinks` 數」 `s.trackExitLinks` 下 [方的資訊](c-variables/configuration-variables.md)。 自訂連結無法自動追蹤。
+如果您的組織想要對要追蹤的連結及其行為擁有更多控制權，建議使用手動連結追蹤。 使用s.tl()函式，以手動方式傳送具有所需確切內容的連結追蹤影像要求。 如果基本連結追蹤是所需的，請參閱「設定變 `s.trackDownloadLinks` 數」 `s.trackExternalLinks` 下 [方的資訊](c-variables/configuration-variables.md)。 自訂連結無法自動追蹤。
 
 > [!NOTE] 連結追蹤程式碼通常會非常符合您的網站和報告需求。 Adobe建議您先前有實作經驗，或是建議實作顧問瞭解如何根據您的業務需求使用此功能。
 
