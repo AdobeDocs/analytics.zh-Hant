@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 分析指南
 user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
+source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
 
 ---
 
@@ -77,11 +77,14 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
    + 面板 {#panels}
       + [面板概觀](analysis-workspace/c-panels/panels.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [出處](analysis-workspace/attribution-iq/attribution.md)
+      + 歸因{attribution}
+         + [歸因概觀](analysis-workspace/c-panels/attribution/attribution.md)
+         + [使用歸因面板](analysis-workspace/c-panels/attribution/use-attribution.md)
+         + [歸因常見問答集](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + 區段比較 (IQ) {#segment-comparison}
+      + Segment comparison {#segment-comparison}
          + [區段 IQ 概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [比較區段](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
+         + [臨時頁面](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [區段 IQ 使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 組織或共用專案 {#curate-share}
@@ -92,10 +95,10 @@ source-git-commit: 286247dc29e62ab528b01626bb4d93dca08157f9
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 歸因 IQ {#attribution-iq}
-      + [歸因 IQ 概觀](analysis-workspace/attribution-iq/attribution.md)
-      + [在 Analysis Workspace 中使用歸因 IQ](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [在計算量度中使用歸因](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [歸因 IQ 常見問題集](analysis-workspace/attribution-iq/attribution-faq.md)
+      + [臨時頁面](analysis-workspace/attribution-iq/attribution.md)
+      + [臨時頁面](analysis-workspace/attribution-iq/use-attribution-iq.md)
+      + [臨時頁面](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
+      + [臨時頁面](analysis-workspace/attribution-iq/attribution-faq.md)
    + 虛擬分析人員 {#virtual-analyst}
       + [虛擬分析人員](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 異常偵測 {#anomaly-detection}
