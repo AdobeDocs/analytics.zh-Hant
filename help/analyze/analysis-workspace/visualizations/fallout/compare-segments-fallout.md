@@ -1,12 +1,12 @@
 ---
 description: 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
-keywords: 流失和分段；流失分析中的區段；比較流失中的區段
+keywords: 流失和分段；流失分析中的區段；流失分析中的區段；比較流失中的區段
 seo-description: 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
 seo-title: 在流失分析中套用區段
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: 769d076549484c6939157ef217225493ddbe130e
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
@@ -15,17 +15,15 @@ source-git-commit: 769d076549484c6939157ef217225493ddbe130e
 
 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
 
->[!IMPORTANT]
->作為流失中查核點的區段必須使用低於「流失」視覺化整體上下文的容器。有了訪客內容流失，作為查核點的區段必須是瀏覽或點擊型區段。透過瀏覽內容流失，作為查核點的區段必須是點擊型區段。如果您使用無效組合，流失將是100%。我們已對流失視覺效果新增警告，當您新增不相容區段做為接觸點時會顯示此警告。某些無效的區段容器組合會導致無效的流失圖表，例如
+> [!IMPORTANT] 用作流失中查核點的區段必須使用低於流失視覺化整體內容的容器。 使用訪客上下文流失時，用作查核點的區段必須是瀏覽或點擊型區段。 使用瀏覽內容流失時，用作查核點的區段必須是點擊型區段。 如果您使用無效的組合，流失將是100%。 我們已新增警告至「流失」視覺化，當您新增不相容的區段作為觸點時，將會顯示此警告。 某些無效的區段容器組合會導致無效的流失圖，例如：
 
->* 使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點
->* 使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點
->* 使用以造訪為基礎的區段，作為造訪內容流失視覺效果內的接觸點
-
+* 使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點
+* 使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點
+* 使用以造訪為基礎的區段，作為造訪內容流失視覺效果內的接觸點
 
 ## Create a segment from a touchpoint {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 首先，從您特別感興趣的某個接觸點建立區段，然後就可以將此區段用於其他報表。You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create segment from touchpoint]**.
+1. 從您特別感興趣的特定觸點建立區段，並套用至其他報表時可能會很有用。 You do this by right-clicking the touchpoint and selecting **[!UICONTROL Create segment from touchpoint]**.
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -59,4 +57,3 @@ source-git-commit: 769d076549484c6939157ef217225493ddbe130e
    ![](assets/seg-compare.png)
 
 1. 您現在可以比較這兩個區段的流失，例如某個區段在哪裡表現較另一個區段優秀，或是使用其他分析角度。
-
