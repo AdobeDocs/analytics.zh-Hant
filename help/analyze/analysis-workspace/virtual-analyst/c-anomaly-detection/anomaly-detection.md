@@ -1,26 +1,24 @@
 ---
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 seo-description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
-seo-title: 異常偵測概述
-title: 異常偵測概述
-uuid: 991fde08-198c-4410-9606-d5 a4 f3 d8339
+seo-title: 異常偵測概觀
+title: 異常偵測概觀
+uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# 異常偵測概述
+# 異常偵測概觀
 
-您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
+您可以在分析工作區中以情境方式檢視和分析資料異常。
 
-[YouTube上的異常偵測](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4：53)
+[YouTube上的異常偵測](https://www.youtube.com/watch?v=krXyQCjXoeU&index=63&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (4:53)
 
-[YouTube的貢獻分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3：20)
+[YouTube的貢獻分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
->[!IMPORTANT]
->
->異常偵測已從報告與分析功能集中移除，現在僅透過分析工作區提供。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在 Workspace 中只能存取「每日精細度」的異常偵測功能。如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
+> [!IMPORTANT] 「異常偵測」僅適用於分析工作區。 Adobe Analytics Select和Foundation客戶只能存取工作區中的「每日詳細程度」異常偵測。 如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](../contribution-analysis/ca-tokens.md)。
 
 異常偵測提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 
