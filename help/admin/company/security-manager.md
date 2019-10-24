@@ -7,7 +7,7 @@ title: 安全管理員
 topic: 管理工具
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 強制 IP 登入限制</span> </td> 
-   <td colname="col2"> <p>（請注意，此功能將於2020年1月不再提供。）限制存取特定 IP 位址或 IP 位址範圍的報告。 </p> <p>「IP 位址篩選」清單可以新增高達 100 個項目，每個項目可以是特定的位址或一個位址範圍。 </p> <p> 「IP 位址篩選」清單中至少必須要有一個項目，<span class="wintitle">「強制 IP 登入限制」</span>才會開始執行。 </p> <p> <span class="uicontrol"> 接受的IP位址</span>:若要指定IP位址範圍，請以方括弧括住範圍(例如 <code>
+   <td colname="col2"> <p>(此功能無法與Experience cloud登入搭配使用。 請注意，此功能自2020年1月起將不再提供。)限制存取特定 IP 位址或 IP 位址範圍的報告。 </p> <p>「IP 位址篩選」清單可以新增高達 100 個項目，每個項目可以是特定的位址或一個位址範圍。 </p> <p> 「IP 位址篩選」清單中至少必須要有一個項目，<span class="wintitle">「強制 IP 登入限制」</span>才會開始執行。 </p> <p> <span class="uicontrol"> 接受的IP位址</span>:若要指定IP位址範圍，請以方括弧括住範圍(例如 <code>
        192.168.10.[20-240]
      </code>)。 You can also use wildcards (*) to specify any number from 0 to 255 (for example, 
      <code>
