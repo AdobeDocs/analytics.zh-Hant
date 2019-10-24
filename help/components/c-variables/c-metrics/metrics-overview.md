@@ -7,7 +7,7 @@ title: 量度快速參考
 topic: 量度
 uuid: 34160c96-7cb3-4e2f-9956-9ffa9d9a359e
 translation-type: tm+mt
-source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
+source-git-commit: 92884ec44b5851799596fa1961710cd56b9c7349
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: bdac23691a7de1cd308e9f1c68c74739a51244d6
 
 >[!NOTE]
 >
->Any metric (event) not listed below is a [custom metric](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) (custom event).
+>下方未列出的任何量度（事件）都是 [自訂量度](../../../components/c-variables/c-metrics/metrics-custom.md#concept_F44638FC95A44B06AEBA3A6F9D008D27) （自訂事件）。
 
 >[!IMPORTANT]
 >
->分析工作區不再區分流量和轉換度量。 Hence, the metric type is only relevant to tolls such as Reports &amp; Analytics, Web Services 1.4, and Report Builder.)
+>分析工作區不再區分流量和轉換度量。 因此，量度類型僅與報表與分析、網站服務1.4和報表建立工具等工具相關。)
 
 | 量度名稱 | 說明 | 類型 |
 |--- |--- |---|
