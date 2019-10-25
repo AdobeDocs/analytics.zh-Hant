@@ -8,7 +8,7 @@ title: JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -27,7 +27,7 @@ The latest version of each library can be downloaded in **[!UICONTROL Analytics]
 
 ## 2.17.0版
 
-發行日期: **201 年 8 月 23 日**
+發行日期: **2019 年 8 月 23 日**
 
 | 功能/修正 | 說明 |
 | -----------| ---------- |
@@ -72,7 +72,7 @@ Release Date: **02/22/2019**
 
 * Audience Manager 模組已更新至 DIL 9.1。(AN-175255)
 * GTM 安全性政策不允許 Activity Map 模組。(AN-174679)
-* Improved AppMeasurement to honor opt-out when the Identity Service is not approved in opt-in. (AN-175259)
+* 已改善AppMeasurement，以在身分服務未在選擇加入中核準時接受選擇退出。 (AN-175259)
 
 ## 2.11.0 版
 
