@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/zh-Hant/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
+source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
 
 ---
 
@@ -13,7 +13,6 @@ source-git-commit: 434ef9ddecd6317ce3f757625f065854475becd3
 
 + [Analytics 實作說明](home.md)
 + AppMeasurement 發行說明 {#appmeasurement-release-notes}
-   + [AppMeasurement 發行說明](appmeasurement-release-notes/appmeasurement-release-notes.md)
    + [JavaScript 適用的 AppMeasurement](appmeasurement-release-notes/c-release-notes-mjs.md)
    + [JavaScript H 代碼 (舊版)](appmeasurement-release-notes/c-release-notes-javascript.md)
    + [Flash-Flex](appmeasurement-release-notes/c-release-notes-flash.md)
