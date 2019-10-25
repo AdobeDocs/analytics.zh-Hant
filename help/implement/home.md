@@ -3,8 +3,8 @@ title: Analytics 實作說明
 seo-title: Analytics 實作說明
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 120392f57295577e94c93b4a10805ea24792a150
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 * [Adobe Debugger](impl-testing/debugger.md)
 * [在 Experience Platform Launch 中建立屬性](implement-with-launch/create-analytics-property.md)
 * [選擇實作方法](c-implementation-methods/choose-implementation-method.md)
-* [AppMeasurement 程式庫發行說明](appmeasurement-release-notes/appmeasurement-release-notes.md)
+* [AppMeasurement 程式庫發行說明](appmeasurement-release-notes/c-release-notes-mjs.md)
 
 ## 更多 Analytics 使用手冊
 
@@ -32,7 +32,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
-* [Analytics 論壇](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
+* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
