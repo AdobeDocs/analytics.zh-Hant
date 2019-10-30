@@ -1,14 +1,14 @@
 ---
 description: 有許多網頁瀏覽器必須在完成整個表格的編譯後，才會開始顯示表格內容。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 有許多網頁瀏覽器必須在完成整個表格的編譯後，才會開始顯示表格內容。
 seo-title: 表格
 solution: Analytics
 subtopic: 疑難排解
 title: 表格
-topic: 開發人員和實施
-uuid: f72d7894-38bd-4926-bce4-0c6 af7278 c63
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
@@ -24,5 +24,5 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 >[!NOTE]
 >
->檔案應放置在影像的合法位置，且必須在 <body> tag and the close </body> tag.
+>檔案應放置在合法的影像位置，且必須顯示在開頭 <body> 標籤與結尾 </body> 標籤之間。
 
