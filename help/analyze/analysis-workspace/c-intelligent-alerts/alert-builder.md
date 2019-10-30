@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 警報產生器
 title: 警報產生器
-uuid: ebc2d457-4abd-4b1a-9357-489b5ab3f64
+uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,9 +43,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 指定您希望檢查量度的時間: 每小時、每日、每週或每月。
 
->[!NOTE]
->
->對於具有自訂日曆的報表套裝，我們不支援警報產生器中的每月粒度。
+> [!NOTE] 對於具有自訂日曆的報表套裝，我們不支援警報產生器中的每月詳細程度。
 
 **收件者**
 
@@ -55,7 +53,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 >
 >The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
 
-使用者在警報觸發後會收到的電子郵件類似於：
+在觸發警報後，使用者會收到的電子郵件看起來類似：
 
 ![](assets/alerts-email.PNG)
 
@@ -69,7 +67,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 * 拖放量度到畫布以新增觸發。
 
-   An **"incompatible components”** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
 * 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件:
 
    * 存在異常
@@ -90,7 +88,7 @@ source-git-commit: 4b47e33d964c040cf94dc1c4ad97e43958d9d94a
 
 您可按一下齒輪圖示，新增 AND 或 OR 規則。
 
-## Preview Alerts {#section_10D75BA7B77E4C5FAF58A719C082E070}
+## 預覽警報 {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
 互動式警報預覽會根據過去經驗，顯示觸發警報的大約頻率。
 
