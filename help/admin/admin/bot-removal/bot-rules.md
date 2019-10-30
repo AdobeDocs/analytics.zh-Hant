@@ -8,7 +8,7 @@ title: 機器人規則概觀
 topic: 管理工具
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -40,8 +40,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 ## 自訂機器人規則
 
->[!Note]
->可在使用者介面手動定義 500 個規則。達到上限之後，需透過以下內容來大量管理規則「匯入檔案」與「匯出機器人規則」選項。
+>[!N注意] ：使用者介面允許手動定義500個規則。 達到上限之後，必須透過「匯入檔案」和「匯出機器人規則」選項來大量管理規則。
 
 自訂機器人規則可讓您根據自行定義的條件，來篩選流量。
 
@@ -125,9 +124,7 @@ VISTA rules are applied after Bot Rules (see [Processing Order).](/help/admin/ad
 
 **高點擊瀏覽處理:** 如果一次瀏覽中超過 100 次點擊，報告會判斷瀏覽的秒數是否小於或等於瀏覽的點擊數。在這種情況下，由於處理長時間密集瀏覽的成本，報告會以新瀏覽重新開始。高點擊瀏覽次數通常是因為機器人攻擊造成的，不會視為正常的訪客瀏覽。
 
->[!NOTE]
->
->標示為的點 *`bots`* 擊會計為伺 [服器呼叫。](/help/admin/c-server-call-usage/overage-overview.md)
+> [!NOTE] 標示為的點 *`bots`* 擊會計為伺 [服器呼叫。](/help/admin/c-server-call-usage/overage-overview.md)
 
 ## Impact of IP Obfuscation on bot filtering {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
