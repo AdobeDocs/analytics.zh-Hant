@@ -1,18 +1,18 @@
 ---
 description: 統計報表套裝從多個子報表套裝中收集資料，然後將它們顯示在簡化的資料集合中。
 seo-description: 統計報表套裝從多個子報表套裝中收集資料，然後將它們顯示在簡化的資料集合中。
-seo-title: 統計和全域報告套裝
+seo-title: 統計和全域報表套裝
 solution: Analytics
-title: 統計和全域報告套裝
+title: 統計和全域報表套裝
 topic: 管理工具
-uuid: c90b8e38-2c95-4318-8165-a362106 b6142
+uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 統計和全域報告套裝
+# 統計和全域報表套裝
 
 統計報表套裝從多個子報表套裝中收集資料，然後將它們顯示在簡化的資料集合中。
 
