@@ -5,7 +5,7 @@ seo-title: 發佈至 Power BI - 概觀
 title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,9 +63,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 ## Publish all formatted tables in the workbook as Power BI dataset tables {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
->[!NOTE]
->
->如果活頁簿包含巨集，「將活頁簿中所有格式化的表格發佈為Power BI資料集表格」將會停用。
+> [!NOTE] 如果活頁簿包含巨集，「將活頁簿中所有格式化的表格發佈為Power BI資料集表格」將會停用。
 
 您可以只匯入活頁簿中所有格式化表格的內容，而不匯入整個活頁簿。
 
@@ -119,7 +117,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 1. In the Basic Scheduling Wizard, click **[!UICONTROL Advanced Scheduling Options]**.
 1. 在[!UICONTROL 「精靈 – 進階」]中的&#x200B;**[!UICONTROL 「發佈選項」]**&#x200B;索引標籤中，勾選&#x200B;**[!UICONTROL 「以 Power BI 資料集表格發佈所有 Report Builder 請求」]旁邊的核取方塊。**![](assets/advanced-schedule-wizard2.png)
 
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
 **在Power BI中檢視請求資料**
 
