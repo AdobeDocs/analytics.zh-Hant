@@ -1,18 +1,18 @@
 ---
 description: 在第 14 版中，唯一訪客是指在指定的時段內第一次瀏覽某網站的訪客。例如，假設獨特訪客一星期內可能瀏覽某網站十次，但若時段單位為星期，則一個獨特訪客只會在該星期被計算一次。該星期結束後，該獨特訪客就可以在新的時段內再被計算一次。
 seo-description: 在第 14 版中，唯一訪客是指在指定的時段內第一次瀏覽某網站的訪客。例如，假設獨特訪客一星期內可能瀏覽某網站十次，但若時段單位為星期，則一個獨特訪客只會在該星期被計算一次。該星期結束後，該獨特訪客就可以在新的時段內再被計算一次。
-seo-title: 獨特訪客
+seo-title: 不重複訪客
 solution: Analytics
-title: 獨特訪客
+title: 不重複訪客
 topic: 量度
-uuid: ae210698-99f9-485e-a640-c7520807 ADC7
+uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 獨特訪客
+# 不重複訪客
 
 在第 14 版中，唯一訪客是指在指定的時段內第一次瀏覽某網站的訪客。例如，假設獨特訪客一星期內可能瀏覽某網站十次，但若時段單位為星期，則一個獨特訪客只會在該星期被計算一次。該星期結束後，該獨特訪客就可以在新的時段內再被計算一次。
 
@@ -28,9 +28,9 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | 轉換 | 訪客是指進入您的網站的人。當發生有關轉換的事件或動作時就會被計算為一次。 |
 | Ad Hoc Analysis | 訪客是指進入您的網站的人。不要求使用永久性 cookie。 |
 
-See [Unique Visitors Report - Version 15 and Ad Hoc Analysis](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7).
+請參 [閱獨特訪客報表——第15版和臨機分析](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)。
 
 >[!MORE_LIKE_THIS]
 >
->* [每日獨特訪客](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)
+>* [每日不重複訪客](/help/components/c-variables/c-metrics/metrics-daily-unique-visitors.md)
 
