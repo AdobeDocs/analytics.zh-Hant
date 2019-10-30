@@ -1,13 +1,13 @@
 ---
 description: 中止標幟可在 doPlugins 內部設定，以導致目前追蹤呼叫不傳送。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 中止標幟可在 doPlugins 內部設定，以導致目前追蹤呼叫不傳送。
 seo-title: s.abort 標幟
 solution: Analytics
 title: s.abort 標幟
-topic: 開發人員和實施
-uuid: 0c6ec8c7-d136-4851-8cb6-6cb1 b7 f6 f0 dc
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 0c6ec8c7-d136-4851-8cb6-6cb1b7f6f0dc
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
