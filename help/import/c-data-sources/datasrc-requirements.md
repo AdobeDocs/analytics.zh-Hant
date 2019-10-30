@@ -3,12 +3,12 @@ description: 有關使用資料來源前的報表套件需求資訊。
 seo-description: 有關使用資料來源前的報表套件需求資訊。
 seo-title: 需求和上傳限制
 solution: Analytics
-subtopic: Data sources
+subtopic: 資料來源
 title: 需求和上傳限制
 topic: 開發人員和實作
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 * 系統僅可匯入包含目前或過去日期的資料。請勿在資料來源資料中使用未來的日期。
 * 必須對所有列指定要啟用報表製圖功能的日期。如果列不包含日期，資料來源會產生錯誤並拒絕檔案。日期/時間格式依資料來源類型而異:
 
-   * **Full Processing Data Sources: Use the ISO 8601 date format of  (for example, ), or Unix Time Format (the number of seconds elapsed since January 1, 1970).**`YYYY-MM-DDThh:mm:ss±UTC_offset``2013-09-01T12:00:00-07:00`
+   * **完全處理資料來源**:使用ISO 8601日期格 `YYYY-MM-DDThh:mm:ss±UTC_offset` 式(例如 `2013-09-01T12:00:00-07:00`)或Unix時間格式（自1970年1月1日以來經過的秒數）。
 
    * **標準與整合資料來源**:使用下列日期格式： `MM/DD/YYYY/HH/mm/SS` (例如 `01/01/2013/06/00/00`)
 
