@@ -1,27 +1,27 @@
 ---
 description: 說明如何透過 FTP 上傳 資料檔案的步驟。
 seo-description: 說明如何透過 FTP 上傳 資料檔案的步驟。
-seo-title: FTP匯入
+seo-title: FTP 匯入
 solution: Analytics
-subtopic: '分類   '
-title: FTP匯入
+subtopic: 分類
+title: FTP 匯入
 topic: 管理工具
-uuid: a914970d-ba02-4111-9dcf-06448f71 b9 f
+uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTP匯入
+# FTP 匯入
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
-## FTP import {#concept_2F965BE873254546A61FB755F25299FD}
+## FTP 匯入 {#concept_2F965BE873254546A61FB755F25299FD}
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
-**[!UICONTROL 管理員]** &gt; **[!UICONTROL 分類匯入工具]**。
+**[!UICONTROL 管理員]** &gt;分 **[!UICONTROL 類匯入工具]**。
 
 以下是重要的限制建議:
 
@@ -36,9 +36,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 當超過該月份的唯一客戶數上限時，您將無法在報告中看到超過唯一客戶數值的對應分類資料。您可以在 Data Warehouse 或 Ad Hoc Analysis 中查看這些分類。
 
->[!NOTE]
->
->處理分類資料檔案所需的時間視檔案大小和目前Adobe伺服器已處理的檔案數量而定。資料檔案的處理時間通常不會超過 72 小時。
+> [!NOTE] 處理分類資料檔案所需的時間視檔案大小和Adobe伺服器已處理的目前檔案數目而定。 資料檔案的處理時間通常不會超過 72 小時。
 
 在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。有關詳細資訊，請參閱[建立 FTP 帳戶](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
@@ -92,6 +90,6 @@ t_create_an_ftp_account.xml
    | 通知收件者 | 指定要接收關於這個 FTP 帳戶之通知的電子郵件地址。 |
    | 授權 | (必要) 授權 Adobe 以自動匯入傳送到新 FTP 帳戶的所有資料檔案。 |
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 建立 FTP 帳戶後，按一下所需的 FTP 帳戶旁的適當連結可編輯或刪除該帳戶。
