@@ -5,9 +5,9 @@ seo-title: 收入
 solution: Analytics
 title: 收入
 topic: 報表
-uuid: e5b72798-f5 c7-440d-a62 d-376bd115 ac8
+uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 要讓此報告成功收集資料，必須符合若干需求。下列項目必須產生於相同的影像要求中:
 
-   * [!UICONTROL 購買]事件必須在`s.events`變數。
+   * [!UICONTROL 購買]事件必須在`s.events` 變數中。
 
    * 必須以價格欄位中的數字定義 `products` 變數。
    * 在下列範例中，收入報告中會傳入 $35.99:
@@ -39,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >如果單一產品中的數量增加，收入不會乘乘。For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >如果單一產品的數量增加，收入不會乘以數量。 For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
 
 * [!UICONTROL 「收入」]會將某個時段的總金額四捨五入到最接近的貨幣值。它不會四捨五入個別的產品或點擊。
 * 由於 Analytics 會將每天的金額四捨五入到最接近的整數貨幣值，因此在比較每天加總起來的金額與每月總額時，可能會略有差異。這是因為每月總額並非每天四捨五入後加總的金額，而是四捨五入到最接近之整數貨幣值的絕對總額。
