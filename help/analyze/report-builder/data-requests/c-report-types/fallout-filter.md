@@ -1,18 +1,18 @@
 ---
 description: 說明將篩選條件套用至流失報表的步驟。
 seo-description: 說明將篩選條件套用至流失報表的步驟。
-seo-title: 使用請求精靈篩選流失報表
+seo-title: 使用請求精靈篩選路徑流失報表
 solution: Analytics
-title: 使用請求精靈篩選流失報表
+title: 使用請求精靈篩選路徑流失報表
 topic: Report Builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 使用請求精靈篩選流失報表
+# 使用請求精靈篩選路徑流失報表
 
 說明將篩選條件套用至流失報表的步驟。
 
@@ -24,8 +24,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/page_fallout.png)
 
-1. Configure the appropriate [date ranges](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).
-1. Click **[!UICONTROL Next]**.
+1. 設定適當的 [日期範圍](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (在流失報表中，您永遠必須定義路徑元素，這點與路徑報表已預先套用模式不同。)
 
    ![](assets/define_checkpoints.png)
