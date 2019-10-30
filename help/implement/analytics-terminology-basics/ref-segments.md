@@ -7,8 +7,8 @@ solution: Analytics
 title: 區段
 topic: 開發人員和實作
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,4 +25,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如需使用區段進行跨裝置訪客身分識別的相關資訊，請參閱[建立區段](../../implement/js-implementation/xdevice-visid/segments.md#concept_77F0A880A6BA4A919A233DAF9D0D6FB5).
 
-如需 Adobe Analytics 劃分的相關深入資訊，請參閱[劃分指南](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/)。
+如需 Adobe 分析區段的詳細資訊，請參閱[區段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。
