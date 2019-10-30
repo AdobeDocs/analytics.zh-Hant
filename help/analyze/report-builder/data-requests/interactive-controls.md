@@ -5,9 +5,9 @@ seo-title: 互動式控制項
 solution: Analytics
 title: 互動式控制項
 topic: Report Builder
-uuid: 5f324b61-e032-455e-9947-5037f013 e0 fa
+uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,16 +23,16 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->您必須安裝Report Builder v5.0，才能讓互動式控制項運作。&gt;
->* 如果您在 Windows 上執行 Microsoft Excel，但執行較低版本的 Report Builder，或如果您未安裝 Report Builder: 您可以變更互動式控制項中的值，但它不會重新整理相關請求，也不會更新請求的相關參數。
->* 如果您在 Mac 上執行 Excel，變更控制項中的值會顯示以下訊息:「找不到巨集 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。」
+>您必須已安裝Report Builder v5.0，互動式控制項才能運作。 &gt;
+>* 如果您在Windows上執行Microsoft Excel，但執行的是較低版本的報告建立工具，或者您未安裝報告建立工具：您可以變更互動式控制項中的值，但不會重新整理相關的請求，也不會更新請求的相關參數。
+>* 如果您在Mac上執行Excel，變更控制項中的值會顯示下列訊息："找不到巨集'Adobe.ReportBuilder.Bridge.FormControlClick.Event'。"
 >
 
 
 
 >[!IMPORTANT]
 >
->請勿竄改控制項名稱。(若要查看名稱，請將焦點設定在控制項上，控制項名稱便會出現在 Excel 格線的左上角上方。)
+>請勿竄改控制項的名稱。 (若要查看名稱，請將焦點設定在控制項上，控制項名稱便會出現在 Excel 格線的左上角上方。)
 
 ## Implement interactive date range control {#section_39B228F2D2C44985863D31424C953280}
 
@@ -45,25 +45,25 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/control_settings.png)
 
-1. 請注意「項目選取時自動重新整理連結的請求」選項。
+1. 請注意「在選擇項目時自動重新整理連結的請求」選項。
 
    * 如果勾選此選項，所有使用該控制項的請求都會重新整理。
    * 如果未勾選此選項，則會更新相關的請求參數，但不會重新整理請求。
 
-1. Click **[!UICONTROL OK]**. 控制項會出現在您指定的儲存格位置:
+1. 按一下&#x200B;**[!UICONTROL 確定]**。控制項會出現在您指定的儲存格位置:
 
    ![](assets/date_range_control_interactive.png)
 
 1. 您現在可以變更日期範圍，請求會依據該日期範圍重新整理。
 1. 您也可以複製請求，然後按一下滑鼠右鍵，使用下列其中一個「貼上請求」選項:
 
-   * **[!UICONTROL 「貼上請求]** &gt; **[!UICONTROL 使用絕對輸入儲存格]**」。這表示複製的請求會指向與原始請求相同的互動式日期範圍控制項。
+   * **[!UICONTROL 「貼上請求]** &gt;使 **[!UICONTROL 用絕對輸入儲存格]**」。 這表示複製的請求會指向與原始請求相同的互動式日期範圍控制項。
 
-   * **[!UICONTROL 「貼上請求]**&gt; **[!UICONTROL 使用相對輸入儲存格]**」。這表示複製的請求會指向自身的控制項。
+   * **[!UICONTROL 貼上請求]**&gt;使 **[!UICONTROL 用相對輸入儲存格]**。 這表示複製的請求會指向自身的控制項。
 
       >[!NOTE]
       >
-      >您可以使用原生的Microsoft Excel剪下/複製/貼上控制功能。Report Builder 會自動辨識新增的控制項。
+      >您可以使用原生的Microsoft excel剪下／複製／貼上控制功能。 Report Builder 會自動辨識新增的控制項。
 
 ## Implement interactive segment control {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
