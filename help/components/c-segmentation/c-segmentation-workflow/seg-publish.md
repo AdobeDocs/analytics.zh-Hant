@@ -7,7 +7,7 @@ title: 發佈區段至 Experience Cloud
 topic: 區段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: cd2d9f90c548d3bb32a57faa47b185dc25db1d5a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 現在，處理最多需要8小時，但視其他流量和區段大小而定，處理速度可能更快。 （不過，我們目前無法通知您區段何時可用，因此您必須手動檢查。）我們也將可發佈區段的最大數量從20個增加到75個。 您可以在「元件&gt;區段」中檢視已發佈的區段。
 
->[!NOTE]
->
->Adobe Campaign（Classic和Standard）的運作方式不同，因為它會在8小時延遲的同時，產生額外的24小時延遲。
+> [!NOTE] Adobe Campaign（Classic和Standard）的運作方式不同，因為它會在8小時延遲的同時，產生額外的24小時延遲。
 
 
 ## 必備條件
@@ -77,9 +75,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 若要刪除已發佈至 Experience Cloud 的區段，必須先將其取消發佈。若要取消發佈區段，只需&#x200B;**取消勾選**&#x200B;您用來發佈該區段的核取方塊即可。
 
->[!NOTE]
->
->您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
+> [!NOTE]您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
 
 ## 在「區段管理員」中檢視區段發 [!UICONTROL 布狀態]
 
