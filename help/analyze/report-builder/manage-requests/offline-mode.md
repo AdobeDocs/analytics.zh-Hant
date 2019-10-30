@@ -1,18 +1,18 @@
 ---
 description: 離線模式會傳回預留位置資料，以加速建立及編輯請求的處理程序。
 seo-description: 離線模式會傳回預留位置資料，以加速建立及編輯請求的處理程序。
-seo-title: 建立和編輯請求的離線模式
+seo-title: 以離線模式建立及編輯請求
 solution: Analytics
-title: 建立和編輯請求的離線模式
+title: 以離線模式建立及編輯請求
 topic: Report Builder
-uuid: 4eb1f754-b6 da-4896-a64 f-b737563925 b8
+uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 建立和編輯請求的離線模式
+# 以離線模式建立及編輯請求
 
 離線模式會傳回預留位置資料，以加速建立及編輯請求的處理程序。
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 1. Check the checkbox next to **[!UICONTROL Turn on offline mode for creating and editing requests]**.
 1. 在「**[!UICONTROL 將度量資料顯示為]」欄位中，輸入您想要在請求中傳回的預留位置資料。**&#x200B;例如，您可以輸入「1」。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 1. 接著，在「請求精靈」中以離線模式建立並執行請求。
 1. 帶有預留位置資料「1」的請求如下所示:
 
@@ -34,5 +34,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!IMPORTANT]
    >
-   >使用真實資料執行請求前，請務必停用離線模式。若要停用「離線模式」，只要返回「**[!UICONTROL 選項]」並移除勾選記號即可。**
+   >請務必先停用「離線模式」，再使用實際資料執行請求。 若要停用「離線模式」，只要返回「**[!UICONTROL 選項]」並移除勾選記號即可。**
 
