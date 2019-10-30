@@ -9,20 +9,18 @@ title: getTimeParting
 topic: 開發人員和實作
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 44b3d5036e2b55567830f188c709a42023d5eb84
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # getTimeParting
 
-getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。The plug-in should be used if time parting dimensions are needed in other Analytics solutions, outside of [!UICONTROL Analysis Workspace].
+getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。當 [!UICONTROL Analysis Workspace] 之外的其他 Analytics 解決方案需要使用時間分段維度時，應使用此外掛程式。
 
 此外掛程式會擷取使用者網頁瀏覽器中可用的日期與時間資訊。它會從這項資訊中取得一天中的某小時與一週中的某天。接著，它會將這項資料轉換成您所選擇的時區。它也會反映日光節約時間。
 
->[!NOTE]
->
->下列指示要求您變更網站上的資料收集代碼。 此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式程式碼 {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
 
@@ -30,7 +28,7 @@ getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週�
 
 將下列程式碼放入 [!DNL s_code.js] 檔案中標示為 [!UICONTROL CONFIG SECTION] 的區域中，並依照下列說明進行必要的更新。
 
-`s._tpDST` - DST值的陣列。 The array is structured in the following format: `YYYY:'MM/DD,MM/DD'`
+`s._tpDST` - DST 值的陣列。陣列結構的格式如下: `YYYY:'MM/DD,MM/DD'`
 
 ```js
 //time parting configuration 
@@ -105,6 +103,7 @@ s.prop1 = tp;
 ```
 
 **外掛程式區段**
+
 
 將下列程式碼新增至 [!UICONTROL  檔案中的 ]PLUGINS SECTION[!DNL s_code.js]。
 
