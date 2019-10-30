@@ -1,18 +1,18 @@
 ---
 description: 在「自訂配置」中，您可以將度量欄變成含有對應百分比值的長條圖，或是含有對應長條圖的百分比值。百分比值是某期間內整體未篩選請求的度量值或總計。
 seo-description: 在「自訂配置」中，您可以將度量欄變成含有對應百分比值的長條圖，或是含有對應長條圖的百分比值。百分比值是某期間內整體未篩選請求的度量值或總計。
-seo-title: 建立微量圖表
+seo-title: 建立 Microchart
 solution: Analytics
-title: 建立微量圖表
+title: 建立 Microchart
 topic: Report Builder
-uuid: 778ef184-9946-4958-b08 f-6ee86 a0 f69
+uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 建立微量圖表
+# 建立 Microchart
 
 在「自訂配置」中，您可以將度量欄變成含有對應百分比值的長條圖，或是含有對應長條圖的百分比值。百分比值是某期間內整體未篩選請求的度量值或總計。
 
