@@ -6,7 +6,7 @@ title: 同類群組分析分析是什麼?
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: d2014912533b5dda5bd97401a6f3386a2d08a27e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ A *`cohort`* is a group of people sharing common characteristics over a specifie
 
 建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參 [閱組織與分享](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)。
 
-Examples of what you can do with Cohort Analysis:
+世代分析的範例：
 
 * 推行專為刺激所需動作的促銷活動。
 * 在客戶生命週期的正確時間點轉移行銷預算。
@@ -35,19 +35,19 @@ Examples of what you can do with Cohort Analysis:
 >
 >世代分析不支援計算量度。
 
-## Cohort Analysis capabilities
+## 世代分析功能
 
 2019年1月，Adobe推出全新且大幅增強的世代分析版本。 這個版本能讓您對正在建立的同類群組進行更精細的控制。下列為主要的增強功能:
 
 ### 保留率表格
 
-A retention cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. 您可以包含最多 3 個量度和最多 10 個區段。
+保留群組報表會傳回訪客：每個資料儲存格會顯示該世代中在該時段內執行動作的訪客的原始數量和百分比。 您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/retention-report.png)
 
 ### 流失率表格
 
-A Churn cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 您可以包含最多 3 個量度和最多 10 個區段。
+「流失」同類群組是保留率表格的反面，可顯示一段時間內流失或未符合同類群組退貨標準的訪客。 您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/churn-report.png)
 
