@@ -1,18 +1,18 @@
 ---
 description: 定義彙總內容之網站 (如新聞入口網站) 的一般設定。
 seo-description: 定義彙總內容之網站 (如新聞入口網站) 的一般設定。
-seo-title: 匯整入口網站
+seo-title: 整合入口網站
 solution: Analytics
-title: 匯整入口網站
+title: 整合入口網站
 topic: 管理工具
-uuid: d27c209-4d88-4eff-b126-994b2 a179 c51
+uuid: d227c209-4d88-4eff-b126-994b2a179c51
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 匯整入口網站
+# 整合入口網站
 
 定義彙總內容之網站 (如新聞入口網站) 的一般設定。
 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 標準商務事件 | 類型 | `s_code` 變數 |
 |---|---|---|
 | 收入 | 計數器 | `purchase` |
-| 訂單 | 計數器 | `purchase` |
+| 訂購 | 計數器 | `purchase` |
 | 件數 | 計數器 | `purchase` |
 | 購物車 | 計數器 | `scOpen` |
 | 購物車檢視 | 計數器 | `scView` |
@@ -45,8 +45,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 結帳 | 計數器 | `scCheckout` |
 | 購物車新增 | 計數器 | `scAdd` |
 | 購物車移除 | 計數器 | `scRemove` |
-| 造訪 | 計數器 (無子關聯) | 不適用 |
+| 瀏覽 | 計數器 (無子關聯) | 不適用 |
 | 頁面檢視 | 計數器 (無子關聯) | 不適用 |
-| 每日獨特訪客 | 計數器 (無子關聯) | 不適用 |
-| 獨特訪客 | 計數器 (無子關聯) | 不適用 |
+| 每日不重複訪客 | 計數器 (無子關聯) | 不適用 |
+| 不重複訪客 | 計數器 (無子關聯) | 不適用 |
 
