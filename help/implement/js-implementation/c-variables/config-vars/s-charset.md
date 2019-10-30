@@ -5,16 +5,16 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.charSet
 
-charSet屬性通常在JavaScript檔案中設定，Analytics會使用它將傳入資料轉換為UTF-8，以便Analytics儲存和報告。
+charSet 屬性通常設定在 JavaScript 檔案中，由 Analytics 用來將接收的資料轉換為 UTF-8 加以儲存並由 Analytics 製成報表。
 
->[!N] 注意：將資料傳送至多位元組報表套裝時，需要charSet屬性，且不應與標準報表套裝搭配使用。 使用標準 ISO 報表套裝設定 charSet 屬性可導致變數截斷或意外的字元轉換。
+>[!N注意:] 將資料傳送到多位元組報表套裝時需要使用 charSet 屬性，標準報表套裝則嚴禁使用。使用標準 ISO 報表套裝設定 charSet 屬性可導致變數截斷或意外的字元轉換。
 
 charSet 屬性的值應與 META 標記或 http 標題中的頁面編碼相符，即使語法稍有不同。儘管 META 標記使用別名進行編碼，charSet 的值也應使用慣用 (或官方) 名稱。
 
@@ -28,15 +28,15 @@ charSet 屬性的值應與 META 標記或 http 標題中的頁面編碼相符，
 | Big5 | Big-5 |
 | Shift_JIS | SJIS |
 
-Because numerous encodings and aliases exist, contact your Implementation Consultant or Adobe Customer Care to confirm the proper value for charSet if it does not appear in the table above.
+由於存在大量的編碼和別名，如果 charSet 的正確值沒有出現在上面的表格中，請聯絡您的實施顧問或 Adobe 客戶服務進行確認。
 
-If a site has different web encodings on different pages, or a single JavaScript file is used for multiple sites, the charSet property can be set to a default value in the JavaScript file and then reset on specific pages as needed to override the default; for example, `s.charSet="UTF-8"` or `s.charSet="SJIS"`.
+如果網站中不同頁面上的網頁編碼不同，或單個 JavaScript 檔案用於多個網站，請將 JavaScript 檔案中的 charSet 屬性設定為預設值，然後依據需要重新設定每個頁面，以覆蓋預設值。例如 `s.charSet="UTF-8"` 或 `s.charSet="SJIS"`。
 
 任何 charSet 參數的非空白值均可導致資料轉換為 UTF-8 儲存。所有 128-255 範圍的字元均將轉換為合適的 UTF-8 雙位元組序列並儲存。這些字元將無法在標準報表套裝中正確顯示。因此，嚴禁在標準報表套裝中使用 charSet 屬性。
 
 同樣，charSet 參數的空白值可跳過資料轉換過程，所有 128-255 範圍中的字元均會以單位元組的形式儲存。由於這些字元的單位元組代碼均是無效的 UTF-8，這些字元將無法在多位元組報表套裝中正確顯示。因此，應始終在多位元組報表套裝中使用 charSet 參數。此外，正確值應與網頁編碼相關。
 
-If the *`charSet`* variable contains an incorrect value, the data in all other variables are translated incorrectly. If JavaScript variables on your pages (e.g. *`pageName`*, [!UICONTROL prop1], or *`channel`*) contain only ASCII characters, *`charSet`* does not need to be defined. 但是，如果頁面上的變數包含非ASCII字元，則必 *`charSet`* 須填入變數。
+如果 *`charSet`* 變數包含不正確的值，則所有其他變數中的資料將會不正確地轉譯。如果您頁面上的 JavaScript 變數 (如 *`pageName`*、[!UICONTROL prop1] 或 *`channel`*) 僅包含 ASCII 字元，則無須定義 *`charSet`*。不過，如果您頁面上的變數包含非 ASCII 字元，則必須填入 *`charSet`* 變數。
 
 ## 參數
 
