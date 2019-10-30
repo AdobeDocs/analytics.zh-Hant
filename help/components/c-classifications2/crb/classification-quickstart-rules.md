@@ -8,7 +8,7 @@ title: 分類規則
 topic: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -58,9 +58,7 @@ about_classification_rules.xml
 * [規則什麼時候不會將索引鍵分類?](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [關於規則優先順序](../../../components/c-classifications2/crb/classification-quickstart-rules.md#concept_93527FEB3C9B48FB96FB7DF857E5F980)
 
->[!NOTE]
->
->The [!UICONTROL Rule Builder] does not support Numeric 2 classifications.
+> [!NOTE] 規 [!UICONTROL 則產生器] 不支援數值2分類。
 
 ## 關於規則的重要資訊 {#section_0BD46702FBEC4D98A4DD2EA0BD428046}
 
@@ -114,15 +112,11 @@ regex_classification_rules.xml
 * [規則運算式 - "Does Not Contain" 範例](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [規則運算式 - 參考表格](../../../components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE]
->
->最佳實務是，規則運算式最適合使用分隔字元的追蹤代碼。
+> [!NOTE] 最佳實務是，規則運算式最適合使用分隔字元的追蹤代碼。
 
 ## 規則運算式 - 追蹤程式碼範例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE]
->
->If the tracking code is URL encoded, it will **not** be classified by the Rules Builder.
+> [!NOTE] 如果追蹤代碼是URL編碼，則不 **會** 由規則產生器分類。
 
 在這個範例中，假設您要將以下的促銷活動 ID 分類:
 
@@ -315,9 +309,7 @@ t_classification_rule.xml
 
 匹配條件與分類，並指定動作以新增規則。
 
->[!NOTE]
->
->在此程式中，您必須將規則套用至一或多個報表套裝。 每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)簡化您的規則集。
+> [!NOTE] 在此程式中，您必須將規則套用至一或多個報表套裝。 每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE)簡化您的規則集。
 
 1. [建立分類規則集](../../../components/c-classifications2/crb/classification-rule-set.md#task_86F216DFD2534FA181E64ABDF306782B) 。
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -329,7 +321,7 @@ t_classification_rule.xml
    接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]頁面。**
 
    >[!NOTE]
-   當符合下列條件時，報 *`only`* 表套裝會顯示在此頁面：       &gt;
+   當符合下列條件時，報 *`only`* 表套裝會顯示在此頁面： &gt;
 
    * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
    (請參閱 *`Variable`* in [Classification Rule Sets](../../../components/c-classifications2/crb/classification-rule-set.md#concept_CD3D510F5070486584F3BB535AE41524) for an explanation about this prerequisite.)
