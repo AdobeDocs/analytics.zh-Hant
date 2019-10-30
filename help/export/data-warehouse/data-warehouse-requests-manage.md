@@ -7,7 +7,7 @@ title: 管理 Data Warehouse 請求
 topic: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >此動作只會複製請求，而不複製排程或傳送詳細資料。
+   >此動作僅會複製請求，而不會複製排程或傳送詳細資料。
 
 * 依報表名稱或要求者的登入名稱搜尋報表。
 * 將報表拖放至佇列中的新位置，重新排列報表的優先順序。
 * 若要查看開始處理要求的時間，請按一下計劃的要求 ID，並檢查開啟的快顯視窗。
 
->[!NOTE]
->
->To cancel a Data Warehouse request, [follow these steps](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html).
+> [!NOTE] 若要取消資料倉庫請求，請 [依照下列步驟](https://helpx.adobe.com/analytics/kb/cancel-data-warehouse-requests.html)。
 
