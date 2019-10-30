@@ -1,26 +1,26 @@
 ---
-description: 部署 Analytics 時，請在動態標籤管理中使用欄位說明來自訂頁面代碼。
-keywords: 動態標籤管理；自定義頁面代碼；開放編輯器；執行
-seo-description: 部署 Analytics 時，請在動態標籤管理中使用欄位說明來自訂頁面代碼。
-seo-title: 自訂頁面代碼
-solution: Experience Cloud,Analytics,Target，動態標籤管理
-title: 自訂頁面代碼
+description: 部署 Analytics 時，請在 Dynamic Tag Management 中使用欄位說明來自訂頁面程式碼。
+keywords: Dynamic Tag Management;自訂頁面程式碼;開啟編輯器;執行
+seo-description: 部署 Analytics 時，請在 Dynamic Tag Management 中使用欄位說明來自訂頁面程式碼。
+seo-title: 自訂頁面程式碼
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+title: 自訂頁面程式碼
 uuid: b7cad069-3eb8-4388-b0b0-34f54001e05f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
 
 
-# 自訂頁面代碼
+# 自訂頁面程式碼
 
-部署 Analytics 時，請在動態標籤管理中使用欄位說明來自訂頁面代碼。
+部署 Analytics 時，請在 Dynamic Tag Management 中使用欄位說明來自訂頁面程式碼。
 
-新增外掛程式以確保代碼與 Analytics 工具同時執行。如需 Analytics 外掛程式的詳細資訊，請參閱 [實施外掛程式](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+新增外掛程式以確保代碼與 Analytics 工具同時執行。如需 Analytics 外掛程式的詳細資訊，請參閱[實施外掛程式](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONCONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Customize Page Code]**
+編輯工具]** &gt; **[!UICONTROL 自訂頁面程式碼]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
