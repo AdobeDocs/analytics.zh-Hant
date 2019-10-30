@@ -5,7 +5,7 @@ seo-title: 追蹤手動模式和自動模式
 title: 追蹤手動模式和自動模式
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: ab2d18a7aa75f29315b841e80a52419fb1bb404c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid
 
 **第三方(DoubleClick)`{lpurl}`**
 
-如果 URL 需要經過重新導向，而且未使用 “unescapedlpurl” 值，則您為字串編碼的次數必須足夠使其存留至完成重新導向，順利抵達最終的登陸頁面 URL。
+如果URL經過重新導向而未使用「unescapedlpurl」值，您必須對字串編碼足夠次數，如此才能在重新導向至最終登陸頁面URL時持續存在。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!3!{creative}!{matchtype}!{placement}!{network}!{product_partition_id}!{keyword}
@@ -116,7 +116,7 @@ s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 
 **第三方(DoubleClick)`{lpurl}`**
 
-如果 URL 需要經過重新導向，而且未使用 “unescapedlpurl” 值，則您為字串編碼的次數必須足夠使其存留至完成重新導向，順利抵達最終的登陸頁面 URL。
+如果URL經過重新導向而未使用「unescapedlpurl」值，您必須對字串編碼足夠次數，如此才能在重新導向至最終登陸頁面URL時持續存在。
 
 ```
 https://clickserve.dartsearch.net/link/click?{_dssagcrid}&{_dssftfiid}&ds_e_adid={creative}&ds_e_matchtype={ifsearch:search}{ifcontent:content}&ds_e_device={device}&ds_e_network={network}&{ifpla:ds_e_product_group_id={product_partition_id}&ds_e_product_id={product_id}&ds_e_product_merchant_id={merchant_id}&ds_e_product_country={product_country}&ds_e_product_language={product_language}&ds_e_product_channel={product_channel}&ds_e_product_store_id={product_store_id}}&ds_url_v=2&ds_dest_url={lpurl}?s_kwcid%3DAL!9999!10!{AdId}!{OrderItemId}
