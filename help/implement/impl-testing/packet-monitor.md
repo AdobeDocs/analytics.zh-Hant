@@ -1,14 +1,14 @@
 ---
 description: 封包分析器可讓您檢視由實施傳送給 Adobe 資料收集伺服器的資料。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 封包分析器可讓您檢視由實施傳送給 Adobe 資料收集伺服器的資料。
 seo-title: 封包分析器
 solution: Analytics
 subtopic: 除錯程式
 title: 封包分析器
-topic: 開發人員和實施
-uuid: 3597c23a-1c72-46e6-909d-f861 cbat490
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 3597c23a-1c72-46e6-909d-f861cbeef490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -31,19 +31,19 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->這些清單不是完整的，而是常用監視器的資訊。若您有使用成功且覺得很實用的資訊包監視器，請不吝賜教使用本視窗右方的[!UICONTROL 「回饋意見」]按鈕告訴我們。
+>這些並不是完整清單，而是常用監視器的清單。若您有使用成功且覺得很實用的資訊包監視器，請不吝賜教使用本視窗右方的[!UICONTROL 「回饋意見」]按鈕告訴我們。
 
 | Firefox | Internet Explorer | Chrome | 獨立程式 |
 |---|---|---|---|
 | [Observe Point](https://www.observepoint.com/product#plugin) (標籤檢視器) | [HttpWatch](https://www.httpwatch.com/) | [Observe Point](https://www.observepoint.com/product#plugin) (標籤檢視器) | [Charles](https://www.charlesproxy.com/) |
-| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome Developer Tool](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
+| [HttpFox](https://addons.mozilla.org/en-US/firefox/addon/httpfox/) |  | [Chrome 開發人員工具](https://code.google.com/chrome/devtools/docs/overview.html) | [Fiddler](https://www.fiddler2.com/fiddler2/) |
 | [Tamper Data](https://addons.mozilla.org/en-us/firefox/addon/tamper-data/) |  | [Firebug Lite](https://chrome.google.com/webstore/detail/bmagokdooijbeehmkpknfglimnifench) | [Wireshark](https://www.wireshark.org/) |
 | [HttpWatch](https://www.httpwatch.com/) |  |  |  |
 | [Firebug](https://getfirebug.com/) |  |  |  |
 
 >[!NOTE]
 >
->Adobe不支援或疑難排解這些資訊包監視器可能遇到的問題。請向資訊包監視器的來源網站尋求協助。
+>若您有關於這些資訊包監視器的問題，Adobe「不」提供支援或疑難排解。請向資訊包監視器的來源網站尋求協助。
 
 <!-- 
 
