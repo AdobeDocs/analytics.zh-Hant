@@ -1,13 +1,13 @@
 ---
 description: 決定是否開始新瀏覽。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 決定是否開始新瀏覽。
 seo-title: getVisitStart
 solution: Analytics
 title: getVisitStart
-topic: 開發人員和實施
-uuid: 7dd3e51f-2f73-4452-a9 fb-cac513 cd28 eb
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 7dd3e51f-2f73-4452-a9fb-cac513cd28eb
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
