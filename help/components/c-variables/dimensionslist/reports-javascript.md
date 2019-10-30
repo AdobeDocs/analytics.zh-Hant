@@ -5,9 +5,9 @@ seo-title: JavaScript 支援
 solution: Analytics
 title: JavaScript 支援
 topic: 報表
-uuid: 7b95001a-cd35-478a-8b24-54d3066110 d
+uuid: 7b95001a-cd35-478a-8b24-54d3066110d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 根據裝置是否啟用或停用 JavaScript，或是計算為「無法辨識」而顯示量度。
 
->[!NOTE]
->
->In early November 2016, we plan to remove the restriction where JavaScript is always listed as *`disabled / unidentified`* for Mobile devices.
+> [!NOTE] 在2016年11月初，我們計畫移除JavaScript一律列為行動裝置 *`disabled / unidentified`* 的限制。
 
 JavaScript 報表對應至原始資料中的欄 javascript。
 
