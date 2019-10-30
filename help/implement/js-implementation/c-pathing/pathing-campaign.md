@@ -1,19 +1,19 @@
 ---
 description: '可協助您回答下列問題: 「使用者透過促銷活動進入我的網站後瀏覽了哪些項目？」'
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: '可協助您回答下列問題: 「使用者透過促銷活動進入我的網站後瀏覽了哪些項目？」'
-seo-title: 促銷活動或追蹤代碼的路徑分析
+seo-title: 依促銷活動或追蹤代碼的路徑分析
 solution: Analytics
-title: 促銷活動或追蹤代碼的路徑分析
-topic: 開發人員和實施
-uuid: eb6e 3484-b40-4ec6-8017-ac1003 cdf636
-translation-type: tm+mt
+title: 依促銷活動或追蹤代碼的路徑分析
+topic: 開發人員和實作
+uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 促銷活動或追蹤代碼的路徑分析
+# 依促銷活動或追蹤代碼的路徑分析
 
 可協助您回答下列問題: 「使用者透過促銷活動進入我的網站後瀏覽了哪些項目？」
 
