@@ -1,18 +1,18 @@
 ---
 description: 您可以複製與多個請求相互映射的儲存格，然後再將內容貼到試算表內空白的選定區域中。
 seo-description: 您可以複製與多個請求相互映射的儲存格，然後再將內容貼到試算表內空白的選定區域中。
-seo-title: 複製請求總覽
+seo-title: 複製請求概觀
 solution: Analytics
-title: 複製請求總覽
+title: 複製請求概觀
 topic: Report Builder
-uuid: 1e0274a3-2038-45c7-87c8-bd949538 d4 e1
+uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 複製請求總覽
+# 複製請求概觀
 
 您可以複製與多個請求相互映射的儲存格，然後再將內容貼到試算表內空白的選定區域中。
 
