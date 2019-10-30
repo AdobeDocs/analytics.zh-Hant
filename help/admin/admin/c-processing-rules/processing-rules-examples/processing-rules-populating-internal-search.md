@@ -8,7 +8,7 @@ title: 使用查詢字串參數填入內部搜尋詞
 topic: 管理工具
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
