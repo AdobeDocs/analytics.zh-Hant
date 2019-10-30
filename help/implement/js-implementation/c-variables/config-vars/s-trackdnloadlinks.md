@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
 若您要在網站上追蹤可下載檔案的連結，請將 設為 'true'。
 
-If  is 'true,'  is used to determine which links are downloadable files.*`trackDownloadLinks`**`linkDownloadFileTypes`*
+若 *`trackDownloadLinks`* 為「true」，*`linkDownloadFileTypes`* 可用來判斷哪些連結是可下載的檔案。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
 | 不適用 | 不適用 | 不適用 | True |
 
-若您網站上的可下載檔案沒有連結，或是您不想要追蹤可下載檔案的點按次數，則只能將 *`trackDownloadLinks`* 變數設為 'false'。If *`trackDownloadLinks`* is 'true,' when a file download link is clicked, data is immediately sent to [!DNL Analytics]. 隨下載連結傳送的資料包括連結下載 URL，以及該連結的訪客點按對映資料。若 *`trackDownloadLinks`* is 'false,' then visitor click map data for links to downloadable files on your site is likely to be under reported.
+若您網站上的可下載檔案沒有連結，或是您不想要追蹤可下載檔案的點按次數，則只能將 *`trackDownloadLinks`* 變數設為 'false'。若 *`trackDownloadLinks`* 為「true」，當有人點按檔案下載連結時，資料將會立即傳送至 [!DNL Analytics]。隨下載連結傳送的資料包括連結下載 URL，以及該連結的訪客點按對映資料。若&#x200B;*`trackDownloadLinks`* 為「false」，則網站上可下載檔案的連結可能會出現訪客點按對映資料報告不充分的情形。
 
 ## 語法和可能的值
 
@@ -44,6 +44,6 @@ s.trackDownloadLinks=false
 
 ## 缺陷、問題和提示
 
-* When *`trackDownloadLinks`* is 'false,' links that people use to download files on your site are likely to be under reported in visitor click map.
+* 當 *`trackDownloadLinks`* 為「false」時，訪客在您的網站上用來下載檔案的連結可能會出現訪客點按對映報告不充分的情形。
 
-* When *`trackDownloadLinks`* is 'true,' data is sent each time a visitor clicks a file download link.
+* 當 *`trackDownloadLinks`* 為「true」時，將會在訪客每次點按檔案下載連結時傳送資料。
