@@ -7,8 +7,8 @@ solution: Analytics
 title: 警報
 topic: 開發人員和實作
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以在 Report &amp; Analytics 中任何報表內的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
 
-請參閱 [!UICONTROL Analysis Workspace] 說明中的[智慧型警報](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/intellligent_alerts.html)。
+請參 [閱分析工作](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html) 區說 [!UICONTROL 明中的智慧提醒] 。
