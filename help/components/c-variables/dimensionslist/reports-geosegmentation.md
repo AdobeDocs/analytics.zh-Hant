@@ -5,9 +5,9 @@ seo-title: 地域劃分
 solution: Analytics
 title: 地域劃分
 topic: 報表
-uuid: 66aa22c4-dcbc-491a-b23 c-3c3 d8744 d23
+uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 報告精確性 </td> 
-   <td colname="col2"> <p>Digital Envoy 是一家提供 IP 情資與驗證解決方案的頂級公司，Adobe 與他們合作，推出了「地域劃分」這項可根據使用者的 IP 位址測量地理位置的功能。雖然以個別資料集為準的精確性可能會浮動，但一般而言，Digital Envoy 在國家層級能夠提供 99% 以上的精確性、地區層級可達 97% 以上的精確性，城市層級則可達 90% 以上。 </p> <p>注意：這些數字假設[設定](/help/admin/admin/gall-acct-settings-admin. md)移除IP位址的最後八位數字未啓用。 </p> <p>IP 位址會對應至郵遞區號，每個城市都依「當地政府」為該城市制定的郵遞區號來定義。例如，柏林郊區不包含在柏林的定義中，而如果 IP 位址可精確對應至每個城鎮的郵遞區號，就會分別列出這些城鎮。 </p> <p>有些因素可能會對 的地域劃分資料造成影響，包括: </p> 
+   <td colname="col2"> <p>Digital Envoy 是一家提供 IP 情資與驗證解決方案的頂級公司，Adobe 與他們合作，推出了「地域劃分」這項可根據使用者的 IP 位址測量地理位置的功能。雖然以個別資料集為準的精確性可能會浮動，但一般而言，Digital Envoy 在國家層級能夠提供 99% 以上的精確性、地區層級可達 97% 以上的精確性，城市層級則可達 90% 以上。 </p> <p>注意：這些數字假設[設定](/help/admin/admin/general-acct-settings-admin.md)未啟用移除IP位址的最後八位元。 </p> <p>IP位址會對應至郵遞區號，而每個城市都由「地方當局」所定義的郵遞區號來定義。 例如，柏林的郊區並不包括在柏林的定義中，但每個城市／城市都單獨列出，前提是IP位址可以精確地對應到其中一個城鎮的郵遞區號。 </p> <p>有些因素可能會對 的地域劃分資料造成影響，包括: </p> 
     <ul id="ul_1B05024AD5174232A8DB8145753FB09B"> 
      <li id="li_C3A21E7C1186490EB9A236634DB45E7F">代表公司 Proxy 的 IP 位址。這些 Proxy 可能看似是通過使用者公司網路的流量，然而實際上是不同位置 (若使用者在遠端工作)。 </li> 
      <li id="li_56FC36B3598C420F9246D4E8772822A7">行動 IP 位址。行動 IP 定位會根據位置與網路而在不同層級運作。許多電信業者會透過集中化或地區性 POP 取回 IP 流量。 </li> 
