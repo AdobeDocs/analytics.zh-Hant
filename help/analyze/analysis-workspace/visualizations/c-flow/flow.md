@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 流程概觀
-title: 流程概觀
-uuid: fc22b573-2d18-4c29-866c-f317 c920 d27 a
+seo-title: 流量概觀
+title: 流量概觀
+uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 流程概觀
+# 流量概觀
 
-流程功能會顯示您的網站和應用程式的客戶路徑。
+流程功能顯示客戶透過您網站和應用程式的路徑。
 
 它可讓您：
 
@@ -20,11 +20,9 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 * 分析客戶在所指定檢查點 (例如登入、特定維度或退出) 之前和之後的前往位置
 * 指定選定路徑中的特定點，建立區段
 
->[!NOTE]
->
->For information on how the results of applying segments to Flow might differ between Analysis Workspace and Reports &amp; Analytics/Ad Hoc Analysis, see [Segmentation as a Foundation for Flow &amp; Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md).
+> [!NOTE] 如需分析工作區與報告與分析／臨機分析之間套用區段至流量的結果可能有何不同的詳細資訊，請參 [閱區段作為流量與流失的基礎](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-[YouTube上的流量視覺化](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4：56)
+[YouTube上的流量視覺化](https://www.youtube.com/watch?v=3R1HTM7y_RM&index=55&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:56)
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
