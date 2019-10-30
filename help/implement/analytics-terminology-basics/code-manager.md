@@ -1,13 +1,13 @@
 ---
 description: 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
-keywords: Analytics實作；資料收集；程式碼管理員
+keywords: Analytics 實施;資料收集;代碼管理器
 seo-description: 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
 seo-title: 代碼管理器
 solution: Analytics
 title: 代碼管理器
-topic: 開發人員和實施
-uuid: 4dc79214-a38 b-4e1 a-90f9-d09 c8142 dd0 a
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,9 +17,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
 
-**[!UICONTROL 「分析&gt;管理&gt;代碼管理器]**」。
+**[!UICONTROL Analytics &gt; 管理員 &gt; 代碼管理器]**。
 
-下載程式庫後，必須設定代碼以便傳送資料至正確的追蹤伺服器和報告套裝。如需其他實施資源，請參閱[開發人員和實施](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)。
+下載程式庫後，必須設定代碼以便傳送資料至正確的追蹤伺服器和報表套裝。如需其他實施資源，請參閱[開發人員與實施](https://marketing.adobe.com/resources/help/zh_TW/reference/developer.html)。
 
 ## 代碼管理器頁面說明 {#section_0C23784E20BD4631841FF24E5075DA12}
 
