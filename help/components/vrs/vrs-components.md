@@ -3,9 +3,9 @@ description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以�
 seo-description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 seo-title: 虛擬報表套裝元件管理
 title: 虛擬報表套裝元件管理
-uuid: 6c6a4071-22ad-4e8c-b1 ed-140b2 aa04 f76
+uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 
->[!NOTE]
->
->管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [更新的組織體驗](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
+> [!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [更新的組織體驗](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理:
 
@@ -33,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
-   * [!UICONTROL 資料倉庫]
+   * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics 報表 API
    勾選後，只要從「已排除元件」欄將相關的元件拖曳到「已包含元件」欄，即可新增要包含在虛擬報表套裝的元件。可包含和排除的元件有:
