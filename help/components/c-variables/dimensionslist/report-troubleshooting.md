@@ -1,6 +1,6 @@
 ---
 description: Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。大部分報告都能迅速產生，但您仍可能遇到報告逾時或無法成功產生的問題。為了協助避免報告無法產生，本區段說明會影響報告產生速度的眾多因素。了解這些資訊有助於建構能夠成功產生的報告。
-keywords: best practices;failure;timeout;troubleshooting;slow
+keywords: 最佳實務；失敗；逾時；疑難排解；慢速
 seo-description: Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。大部分報告都能迅速產生，但您仍可能遇到報告逾時或無法成功產生的問題。為了協助避免報告無法產生，本區段說明會影響報告產生速度的眾多因素。了解這些資訊有助於建構能夠成功產生的報告。
 seo-title: 報告最佳實務與疑難排解
 solution: Analytics
@@ -8,7 +8,7 @@ title: 報告最佳實務與疑難排解
 topic: 報表
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。大部分報告都能迅速產生，但您仍可能遇到報告逾時或無法成功產生的問題。為了協助避免報告無法產生，本區段說明會影響報告產生速度的眾多因素。了解這些資訊有助於建構能夠成功產生的報告。
 
 >[!Note]
->These recommendations apply to Reports &amp; Analytics, Ad Hoc Analysis, and Report Builder.
->They do not apply to Analysis Workspace, which has its own set of [best practices](/help/analyze/analysis-workspace/optimizing-performance.md). They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). An additional set of
->[best practices is available for the Adobe Analytics Reporting API.](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)
+>這些建議適用於「報告與分析」、「臨機分析」和「報告建立工具」。
+>它們不適用於分析工作區，因為分析工作區有其自己的一 [組最佳實務](/help/analyze/analysis-workspace/optimizing-performance.md)。 They also do not &gt;apply to Data Warehouse [best practices](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html). 另一組
+>[Adobe Analytics](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices) Reporting API提供最佳實務。
 
 ## 報告逾時和請求佇列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
