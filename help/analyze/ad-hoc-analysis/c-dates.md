@@ -5,7 +5,7 @@ seo-title: 日期和日期範圍
 title: 日期和日期範圍
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,13 +22,11 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 您也可以將日期 (和時間維度) 拖曳至報表或[!UICONTROL 表格產生器]。您可以選取特定的日、週、月、年或滾動日期。如果您使用 Marketing Reports &amp; Analytics 中的自訂日曆，則報表套裝會繼承這些設定並據以更新報表。
 
-當建立專案要選取日期範圍時，使用左側的「預先設定」會設定滾動日期，而使用右側的日曆則不會。如果想知道您的日期範圍是否為滾動，有一個簡單方法是查看「**[!UICONTROL 確定]」按鈕旁是否有「此日期範圍將會滾動」的聲明。**
+當建立專案要選取日期範圍時，使用左側的「預先設定」會設定滾動日期，而使用右側的日曆則不會。An easy way to tell whether your date range is rolling is the statement "This date range will roll" next to the **[!UICONTROL OK]** button.
 
 ![](assets/daterange.jpeg)
 
->[!NOTE]
->
->如果您需要執行舊報表的協助，請連絡您的客戶經理。
+> [!NOTE] 如果您需要執行舊報表的協助，請連絡您的客戶經理。
 
 ## 舊日期片段 {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -45,7 +43,5 @@ c_legacy_data.xml
 1. [建立或開啟專案。](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
 1. 開啟日 [歷](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)，然後選 **[!UICONTROL 擇季]** 或 **[!UICONTROL 年]**。
 
->[!NOTE]
->
->歷史日期片段位於季度和年限限制內。 您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
+> [!NOTE] 歷史日期片段位於季度和年限限制內。 您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
 
