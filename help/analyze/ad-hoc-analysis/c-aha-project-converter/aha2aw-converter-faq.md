@@ -3,7 +3,7 @@ description: 'null'
 seo-description: 'null'
 seo-title: 專案轉換工具常見問題集
 title: 專案轉換工具常見問題集
-uuid: 8e1f0e9-ce0 f-443a-bcfe-45d3 e2 c82 b1 c
+uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -15,17 +15,17 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 ## 專案轉換工具常見問題集 {#topic_8231595303AD403E9322645A63632D57}
 
 * [已知轉換問題](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_39C922A58B2E49C9877B363042801361)
-* [轉換常見問題](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
+* [轉換常見問答集](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#section_1E53FE373AF045978F939916124E194E)
 
-## Known Conversion Issues {#section_39C922A58B2E49C9877B363042801361}
+## 已知轉換問題 {#section_39C922A58B2E49C9877B363042801361}
 
 | 問題 | 說明 |
 |--- |--- |
-| 包含劃分或欄的分鐘粒度 | 當分鐘粒度套用至它，或分鐘粒度顯示為欄時，專案無法轉換為分析工作區。因應措施是移除分鐘詳細程度的劃分，並將其從欄移除，然後轉換專案。然後您可以在分析工作區中套用劃分的精細度。 |
-| 與欄區段一起使用的內部計算量度 | 如果您使用內部計算量度搭配欄區段，專案無法轉換為分析工作區。若要解決此問題，請先從專案移除內部計算量度，然後再在Analysis工作區中重新新增這些量度。 |
+| 分鐘精細度與劃分或欄 | 當分鐘精細度已套用劃分，或如果分鐘精細度存在於欄中，則無法將專案轉換為分析工作區。  因應措施是移除分鐘精細度的劃分，並從欄中移除劃分，然後轉換專案。 然後，您可以在「分析工作區」中套用分鐘精細度的劃分。 |
+| 與欄區段一起使用的內部計算量度 | 如果您使用內部計算量度與欄區段，則無法將專案轉換為分析工作區。 若要解決此問題，請在轉換前先從專案移除內部計算量度，然後在分析工作區中重新新增這些量度。 |
 
 
-## Conversion FAQ {#section_1E53FE373AF045978F939916124E194E}
+## 轉換常見問答集 {#section_1E53FE373AF045978F939916124E194E}
 
 <table id="table_48CC119236C94835A6A512E989BE4200"> 
  <thead> 
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問: Analysis Workspace 中是否有任何不支援的 Ad Hoc Analysis 功能?</b> </p> </td> 
-   <td colname="col2"> <p>答: Analysis Workspace 不支援「站點分析」報表。臨機分析和工作區中的其他視覺效果之間也略有差異。請參閱下列問題以瞭解詳細資訊。 </p> </td> 
+   <td colname="col2"> <p>答: Analysis Workspace 不支援「站點分析」報表。臨機分析和工作區中的其他視覺化也略有不同。 請參閱下列問題以瞭解詳細資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 如何轉換表格設定?</b> </p> </td> 
@@ -95,7 +95,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>「全域資料設定」可能會導致相同的專案匯出兩次，並且表現出不同的行為: </p> 
     <ul id="ul_E3827883DD8045FAAB359D7E85E3EEFA"> 
      <li id="li_1056CA4813C44638BEB070228AE6914C"><b>計算重複例項。</b>無論在匯出時套用何種設定，都會套用至 Analysis Workspace 中的匯出專案。 </li> 
-     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>資料來源。</b>在 Analysis Workspace 中，會顯示所有 Analytics 資料，包括資料來源。 </li> 
+     <li id="li_D5405E2862CF434CA82AA9DE000F4BBC"><b>資料來源.</b>在 Analysis Workspace 中，會顯示所有 Analytics 資料，包括資料來源。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
