@@ -5,7 +5,7 @@ seo-title: 資料隱私權與資料連接器(Genesis)
 title: 資料隱私權與資料連接器(Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 如果您使用以下任何 Connector 整合，只要檢查整合中可能含有直接或間接個人識別資料的合作夥伴變數/分類即可。
 
->[!NOTE]
->
->本資訊可協助您識別必須標示的變數 [](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)[](/help/admin/c-data-governance/an-gdpr-overview.md) ，但您身為資料掌控者的責任是套用適當的標籤，或執行其他資料隱私準備動作（更新分類等）。
+> [!NOTE] 本資訊可協助您識別必須標示的變數 [](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)[](/help/admin/c-data-governance/an-gdpr-overview.md) ，但您身為資料掌控者的責任是套用適當的標籤，或執行其他資料隱私準備動作（更新分類等）。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
