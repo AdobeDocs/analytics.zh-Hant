@@ -3,7 +3,7 @@ description: 本節適用對象為 Adobe Analytics 系統管理員。本節重�
 seo-description: 本節適用對象為 Adobe Analytics 系統管理員。本節重點放在新的連結追蹤參數，以及這些新參數如何在瀏覽器和裝置之間確保連結獨特性和一致性，並改善頁面上的連結重新定位處理。
 seo-title: 連結追蹤方法
 solution: Analytics
-title: 連結追蹤方法
+title: 連結追蹤 方法
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
