@@ -1,6 +1,6 @@
 ---
 description: 列出可用的測量程式庫。
-keywords: Analytics實施；collect;data;collection
+keywords: Analytics 實施;收集;資料;收集
 seo-description: 列出可用的測量程式庫。
 seo-title: 其他程式庫概觀
 solution: Analytics
@@ -8,7 +8,7 @@ title: 其他程式庫概觀
 topic: 開發人員和實作
 uuid: 1ec291f6-073f-49d1-b6ab-044b1069db4e
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
