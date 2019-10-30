@@ -7,7 +7,7 @@ title: 啟用[!DNL Activity Map]
 topic: Activity Map
 uuid: 3043319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -58,6 +58,4 @@ First, you need to enable [!DNL Activity Map] reports at a report-suite level.
 
 1. This allow your Admin users to download [!DNL Activity Map] from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
-<note>
-  如果您想讓非管理員使用者下載[!DNL Activity Map]，您必須建立新的使用者群組，以提供「工具 <span class="uicontrol"></span> &gt;舊版 <span class="uicontrol"> ClickMap安裝」的權限 </span>。 然後，您可以新增非管理員使用者至此群組。 結合[!DNL Activity Map]存取的此權限層級將提供完整的下載和使用工具權限。 
-</note>
+> [!NOTE] 如果您想要讓非管理員使用者下載 [!DNL Activity Map]，請建立新的使用者群組，以提供「工具」和「舊版ClickMap安裝」的權限。 此權限層級與「存取」結 [!DNL Activity Map] 合，提供下載和使用工具的權限。
