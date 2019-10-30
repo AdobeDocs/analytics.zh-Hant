@@ -1,20 +1,20 @@
 ---
 description: Analytics 部署可統整為三個主要步驟。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: Analytics 部署可統整為三個主要步驟。
-seo-title: 最佳化總覽
+seo-title: 最佳化概觀
 solution: Analytics
 subtopic: 疑難排解
-title: 最佳化總覽
-topic: 開發人員和實施
-uuid: 8e8ic5b-d4 b1-4d13-8525-39e4924 df247
-translation-type: tm+mt
+title: 最佳化概觀
+topic: 開發人員和實作
+uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
+translation-type: ht
 source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 ---
 
 
-# 最佳化總覽
+# 最佳化概觀
 
 Analytics 部署可統整為三個主要步驟。
 
@@ -25,5 +25,5 @@ Analytics 部署可統整為三個主要步驟。
 
 >[!NOTE]
 >
->客戶可以採取其他步驟，將Analytics負荷降至最低。
+>客戶可執行其他步驟，以盡量降低 Analytics 的負載。
 
