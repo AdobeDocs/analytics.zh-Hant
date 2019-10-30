@@ -5,10 +5,10 @@ seo-title: 資料擷取
 solution: Analytics
 subtopic: 排程
 title: 資料擷取
-topic: Reports & Analytics
-uuid: 430f03bb-09e2-3e43-8cbd-1754b49acefe
+topic: Reports and Analytics
+uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 透過資料擷取，您可以選擇要在報告的 X 和 Y 軸上檢視的參數，以及篩選報告所依據的項目。
 
-## Data extract {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
+## 資料擷取 {#concept_52E6446E927A4CAC8E0EA15A3AE2C0EC}
 
 透過資料擷取，您可以選擇要在報告的 X 和 Y 軸上檢視的參數，以及篩選報告所依據的項目。
 
