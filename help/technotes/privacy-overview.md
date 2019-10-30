@@ -7,7 +7,7 @@ solution: Analytics
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 第一方分析不屬於「線上行為廣告自我監控計畫」(Self-Regulatory Program for Online Behavioral Advertising，AdChoices) 的規範範疇。 </td> 
+   <td colname="col2"> 第一方分析不屬於線上行為廣告自律計畫（Self-Regulatory Program for Online Behavioral Advertising，簡稱「AdChoices」）的範圍。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -94,15 +94,15 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 客戶可以在 JavaScript 測量代碼中，將 Cookie 期限變數為 "none"、session" 或其他可在數秒內測量的指定值。 </td> 
+   <td colname="col2"> 客戶可將JavaScript測量程式碼中的Cookie期限變數設定為「無」、「工作階段」或其他指定值（以秒為單位）。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> Adobe 已開發新的「設計隱私權」設定，現在可在 Adobe ClientCare for Adobe Analytics (舊稱 SiteCatalyst) 發行版本 14.9 和 15.4 中啟用。啟用此新設定時，當 Adobe 收集到 IP 位址時，IP 位址的最後八位元 (最後一部分) 就會立即更換為 0 的值。在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 </td> 
+   <td colname="col2"> Adobe已開發新的「依設計而設的隱私權」設定，現在可由Adobe clientCare for Adobe Analytics（先前稱為SiteCatalyst）14.9和15.4版啟用。啟用此新設定後，Adobe收集IP位址後，會立即將IP位址的最後八位元（最後一部分）取代為值0。 在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 德國 </td> 
-   <td colname="col2"> <p>如果客戶尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡其 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 </p> <p>Adobe已為Analytics備妥一份資料處理合約(Vertrag fuer Auftragsdatenverarbeitung- ADV)，該合約已通過Bavarian Data Protection Authority(Bayerisches Landesamt fuer Datenschutzaaufsicht- BayLDA)審核及核准。ADV 提供德文版和英文版。 </p> </td> 
+   <td colname="col2"> <p>如果客戶尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡其 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 </p> <p>Adobe已針對Analytics準備一份資料處理合約(Vertrag fuer Auftragsdatenverarbeitung - ADV)，並經巴伐利亞資料保護局(Bayerisches Landesamt fuer Datenschutzaufsicht - bayLDA)審查並核准。 ADV 提供德文版和英文版。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
