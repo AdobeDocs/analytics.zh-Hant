@@ -1,20 +1,20 @@
 ---
 description: 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
 seo-description: 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
-seo-title: 檢視報表套裝使用情形
-title: 檢視報表套裝使用情形
+seo-title: 檢視報表套裝使用量
+title: 檢視報表套裝使用量
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 檢視報表套裝使用情形
+# 檢視報表套裝使用量
 
 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 伺服器呼叫使用情形]** &gt; **[!UICONTROL 報表套裝使用情形」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理員]** &gt;伺服器 **[!UICONTROL 呼叫使用量]** &gt;報 **[!UICONTROL 表套裝使用量]**
 
 >[!IMPORTANT]
 >
@@ -51,13 +51,13 @@ source-git-commit: a6aac17d93877ed2a6525484ba5aa4e741ca116a
 
 | 報表元素 | 說明 |
 |--- |--- |
-| 檔案名稱 | Hardcoded name: Usage Report `day and time of report creation.csv` |
+| 檔案名稱 | 硬式編碼名稱：使用狀況報告 `day and time of report creation.csv` |
 | 隨附報表套裝 | 您在「報表伺服器使用量」頁面上選取的任何報表套裝都包含在此清單中。 |
 | 包含的呼叫類型 | 指定以下任意組合: 所有呼叫 (預設)、主要、次要、行動主要、行動次要。 |
-| 時間範圍 | 您可以選擇目前使用期間或指定自訂範圍。對於自訂範圍，請指定「範圍開始」和「範圍結束」。<br>**注意：** 您無法下載2015年月之前的使用資料 </br>。 |
+| 時間範圍 | 您可以選擇目前使用期間或指定自訂範圍。對於自訂範圍，請指定「範圍開始」和「範圍結束」。<br>**** 注意：您無法在2015年1月之前下載使用資料 </br>。 |
 
 1. Click **[!UICONTROL Download]**.
 
-以下是下載. csv檔案的外觀畫面。它包含報表套裝ID的欄。報表套裝ID指定只能包含英數字元的唯一ID。建立報表套裝後，無法變更此ID。
+下載的。csv檔案外觀的螢幕擷取。 它包含報表套裝ID的欄。 報表套裝ID會指定唯一ID，其中僅能包含英數字元。 建立報表套裝後，無法變更此ID。
 
 ![](assets/download-usage.png)
