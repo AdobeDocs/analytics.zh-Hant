@@ -1,16 +1,16 @@
 ---
 description: 維度間流量可讓您檢查多個維度間的使用者路徑。
 seo-description: 維度間流量可讓您檢查多個維度間的使用者路徑。
-seo-title: 維度間流程
-title: 維度間流程
-uuid: 51d08531-1c56-46c7-b505-bd8 d5 e6 aa6 c1
+seo-title: 維度間流量
+title: 維度間流量
+uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 維度間流程
+# 維度間流量
 
 維度間流量可讓您檢查多個維度間的使用者路徑。
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 我們將審視 2 個使用案例: 一個應用程式使用案例和一個網頁使用案例。
 
-## Use case one: app {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 使用案例一：app {#section_3D31D37B9C9F4134AE46C96291E41294}
 
 將「[!UICONTROL 動作名稱]」維度新增至流量，而排名最前的傳回項目是 [!UICONTROL ItemAdded]:
 
@@ -50,7 +50,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如此可對應用程式進行一些深入的分析，甚至可能對您正在分析的應用程式進行一些變更。
 
-## Use case two: web {#section_8D55983FA0C84926995270052AE01CD8}
+## 使用案例二：web {#section_8D55983FA0C84926995270052AE01CD8}
 
 此使用案例顯示如何分析哪個促銷活動對網站帶動最多的登入活動。
 
