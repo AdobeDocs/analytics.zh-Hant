@@ -8,7 +8,7 @@ title: 處理規則提示與秘訣
 topic: 管理工具
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: f087c9255281023baa791cc181126046cfb94dc1
 
 **測試讀取搜尋詞的規則**
 
-針對根據搜尋的標準，例如如果 prop1 包含 "news"，前往 prop 1 報告並搜尋 "news"，查看是否有任何不想要的相符項目。
+若是任何以搜尋為基礎的准則，例如如果prop1包含「news」，請前往prop 1報表並搜尋「news」，並查看是否有任何您不期望的相符項目。
 
 **測試讀取變數的規則**
 
@@ -31,7 +31,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 **使用開發報表套裝**
 
-我們建議在開發報表套裝上設定處理規則，以便確保它們可以正常運作。如果可行，建議在廣泛部署前，先將規則複製至小型生產報表套裝。
+我們建議在開發報表套裝上設定處理規則，以確保它們正常運作。 如果可行，建議在廣泛部署前，先將規則複製至小型生產報表套裝。
 
 ## 檢查空白值 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -62,4 +62,3 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 選取正確的比對條件，找到可以正確符合的最限縮條件。您可以在建立規則前，先搜尋報告中的值，確保沒有意外的相符項目。例如，您應在啟用規則前，先行搜尋 Prop2 報告，找出所有此條件符合的位置。
 
 ![](assets/tips-startswith.png)
-
