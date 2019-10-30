@@ -1,13 +1,13 @@
 ---
 description: 資料正確性驗證是將報表資料與已知且可驗證的資料點相比較的程序。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 資料正確性驗證是將報表資料與已知且可驗證的資料點相比較的程序。
 seo-title: 資料正確性驗證
 solution: Analytics
 title: 資料正確性驗證
-topic: 開發人員和實施
+topic: 開發人員和實作
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Default pages, such as [!DNL index.html], often receive automated or monitoring traffic. 相較於其他瀏覽頁面，這些頁面對於以瀏覽器為基礎的資料收集會顯現出較大的差異。
+>預設頁面 (例如 [!DNL index.html]) 通常會接收到自動或監控流量。相較於其他瀏覽頁面，這些頁面對於以瀏覽器為基礎的資料收集會顯現出較大的差異。
 
 這三種類型的驗證都須用到相關時段的除錯記錄或資料饋送。此時段通常是一天或更短的時間。
 
@@ -43,5 +43,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 確定查詢與報表套裝之間的時區差異相符。
 * 會測量訂購程序並可能反映在標記中，但會從訂購系統中移除的自訂 Keynote 或類似流量 (Keynote 交易等)。
 * 說明用戶端的刪除重複資料程序。
-* 訂單頁面重新載入 (會根據  *`purchaseID`*).
+* 訂單頁面重新載入 (會根據  *`purchaseID`* 對訂單進行重複資料刪除)。
 
