@@ -1,14 +1,14 @@
 ---
 description: 將值將入至 Cookie。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 將值將入至 Cookie。
 seo-title: Util.cookieWrite
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: Util.cookieWrite
-topic: 開發人員和實施
-uuid: 8d526e4c-6d7a-4119-9434-d7 ce fb7577
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 8d526e4c-6d7a-4119-9434-d7ce4fbb7577
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
