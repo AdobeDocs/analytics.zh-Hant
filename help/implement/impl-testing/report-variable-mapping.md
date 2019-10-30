@@ -1,23 +1,23 @@
 ---
 description: 下列表格顯示報表與變數的對映，或是報表和其中使用的變數。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 下列表格顯示報表與變數的對映，或是報表和其中使用的變數。
-seo-title: 報告至變數映射
+seo-title: 報表與變數的對應
 solution: Analytics
-title: 報告至變數映射
-topic: 開發人員和實施
-uuid: 4707660c-4為5-425c-a690-7bc6 df4 cc0 fa
-translation-type: tm+mt
+title: 報表與變數的對應
+topic: 開發人員和實作
+uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 報告至變數映射
+# 報表與變數的對應
 
 下列表格顯示報表與變數的對映，或是報表和其中使用的變數。
 
-**轉換報表** 下表列出用來填入每個報表的轉換變數：
+**轉換報表** 下表列出用來填入各個報表的轉換變數:
 
 | 購買 |
 |---|
@@ -52,8 +52,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 轉換和平均值 | s.products、s.events、s.campaign |  |
 | 追蹤程式碼 | s.campaign |  |
-| 創作元素 | 不適用 | Defined in [!DNL Analytics] |
-| 促銷活動 | 不適用 | Defined in [!DNL Analytics] |
+| 創作元素 | 不適用 | 在 [!DNL Analytics] 中定義 |
+| 促銷活動 | 不適用 | 在 [!DNL Analytics] 中定義 |
 
 | 客戶忠誠度 |
 |---|
@@ -63,7 +63,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 首次購買間隔天數 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
 | 上次購買間隔天數 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
-| 瀏覽次數 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
+| 訪問次數 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
 | 每日獨特客戶 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
 | 每月獨特客戶 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
 | 每年獨特客戶 | s.products、s.events、s.purchaseID | 訂購確認 (感謝您)頁面上設定的變數 |
@@ -77,7 +77,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 | 訪客資料 |
 |---|
-| 上層網域 | 不適用 | 由 .JS 檔案自動設定 |
+| 頂級網域 | 不適用 | 由 .JS 檔案自動設定 |
 | 語言 | 不適用 | 由 .JS 檔案自動設定 |
 | 時區 | 不適用 | 由 .JS 檔案自動設定 |
 | 州 | s.state | 訂購確認 (感謝您)頁面上設定的變數 |
@@ -107,11 +107,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ... |  |  |
 | 自訂 eVar 75 | [!UICONTROL s.eVar] 75 |  |
 
-## 流量報表 {#section_76A74C3D7B60461D9ADE0E5E183DD777}
+## 流量報表{#section_76A74C3D7B60461D9ADE0E5E183DD777}
 
 下表列出用來填入各個報表的[!UICONTROL 流量]變數: 
 
-| 計算度量 |
+| 計算量度 |
 |---|
 | 不適用 | 不適用 | 不適用 |
 
@@ -119,9 +119,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 |---|
 | 頁面檢視 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
 | 每小時獨特訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
-| 每日獨特訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
-| 每月獨特訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
-| 每年獨特訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
+| 每日不重複訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
+| 每月不重複訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
+| 每年不重複訪客 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
 | 瀏覽 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
 | 檔案下載 | 不適用 | 由 .JS 檔案自動追蹤 (根據 .JS 變數設定) |
 
@@ -131,7 +131,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 反向連結 | 不適用 | 由 .JS 檔案自動設定 |
 | 搜尋引擎 | 不適用 | 由 .JS 檔案自動設定 |
 | 搜尋關鍵字 | 不適用 | 由 .JS 檔案自動設定 |
-| 回訪頻率 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
+| 回訪頻度 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
 | 每日回訪 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
 | 回訪 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
 | 存取編號 | 不適用 | 依 [!DNL Analytics] 中的商業規則計算 |
@@ -139,7 +139,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 訪客資料 |
 |---|
 | 網域 | 不適用 | 由 .JS 檔案自動設定 |
-| 上層網域 | 不適用 | 由 .JS 檔案自動設定 |
+| 頂級網域 | 不適用 | 由 .JS 檔案自動設定 |
 | 語言 | 不適用 | 由 .JS 檔案自動設定 |
 | 時區 | 不適用 | 由 .JS 檔案自動設定 |
 | 訪客詳細資料 | 不適用 | 由 .JS 檔案自動設定 |
@@ -164,7 +164,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 瀏覽器寬度 | 不適用 | 由 .JS 檔案自動設定 |
 | 瀏覽器高度 | 不適用 | 由 .JS 檔案自動設定 |
 | 作業系統 | 不適用 | 由 .JS 檔案自動設定 |
-| 螢幕色彩深度 | 不適用 | 由 .JS 檔案自動設定 |
+| 監視器色彩深度 | 不適用 | 由 .JS 檔案自動設定 |
 | 螢幕解析度 | 不適用 | 由 .JS 檔案自動設定 |
 | Netscape 外掛程式 | 不適用 | 由 .JS 檔案自動設定 |
 | Java | 不適用 | 由 .JS 檔案自動設定 |
@@ -193,7 +193,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ... | ... |  |
 | 階層 5 | s.hier5 |  |
 
-## 路徑分析報表 {#section_85E0A2396B894659A6BE572819263E95}
+## 路徑分析報表{#section_85E0A2396B894659A6BE572819263E95}
 
 下表列出用來填入 [!DNL Analytics] 內各個報表的路徑分析變數: 
 
