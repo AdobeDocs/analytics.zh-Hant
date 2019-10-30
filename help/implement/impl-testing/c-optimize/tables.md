@@ -8,8 +8,8 @@ subtopic: 疑難排解
 title: 表格
 topic: 開發人員和實作
 uuid: f72d7894-38bd-4926-bce4-0c6af7278c63
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 對位於表格標記以外的 JavaScript 程式庫檔案發出呼叫，可確保對 Analytics 伺服器的呼叫不會影響到頁面內容的顯示。
 
->[!NOTE]
->
->檔案應放置在合法的影像位置，且必須顯示在開頭 <body> 標籤與結尾 </body> 標籤之間。
+> [!NOTE] 檔案應放置在合法的影像位置，且必須顯示在開頭 <body> 標籤與結尾 </body> 標籤之間。
 
