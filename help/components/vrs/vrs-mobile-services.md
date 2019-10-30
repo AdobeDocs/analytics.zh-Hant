@@ -1,20 +1,20 @@
 ---
 description: Adobe Mobile Services UI 結合來自 Adobe Analytics 報表套裝的行動應用程式資料與傳送推送通知和產生應用程式內訊息的功能。
 seo-description: Adobe Mobile Services UI 結合來自 Adobe Analytics 報表套裝的行動應用程式資料與傳送推送通知和產生應用程式內訊息的功能。
-seo-title: Mobile Services中的VRS支援
-title: Mobile Services中的VRS支援
-uuid: 1b11279e-d0 d8-48c5-a5 b5-8020d5 ed39 da
+seo-title: 行動服務中的 VRS 支援
+title: 行動服務中的 VRS 支援
+uuid: 1b11279e-d0d8-48c5-a5b5-8020d5ed39da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Mobile Services中的VRS支援
+# 行動服務中的 VRS 支援
 
 Adobe Mobile Services UI 結合來自 Adobe Analytics 報表套裝的行動應用程式資料與傳送推送通知和產生應用程式內訊息的功能。
 
-## VRS support in Mobile Services {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
+## 行動服務中的 VRS 支援 {#topic_1D0BABFA64EF42DE9C09B7AA37CACEC5}
 
 Adobe Mobile Services UI 結合來自 Adobe Analytics 報表套裝的行動應用程式資料與傳送推送通知和產生應用程式內訊息的功能。
 
