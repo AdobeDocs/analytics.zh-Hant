@@ -7,7 +7,7 @@ title: 日曆事件
 topic: Reports and Analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 新增日曆事件和管理共用事件的步驟。
 
->[!NOTE]
->
->為確保最佳報告效能，趨勢和特定時段的圖表會顯示 20 個最近的日曆事件。
+> [!NOTE]為確保最佳報告效能，趨勢和特定時段的圖表會顯示 20 個最近的日曆事件。
 
 對於特定時段的趨勢報告，您可以圖形形式顯示事件，並查看促銷活動或其他事件是否已對您的網站流量、收入或任何其他度量產生影響。設定日曆事件的過程包括命名事件、設定日期、新增附註和設定圖示。例如，如果使用 Social，您可以建立日曆事件來顯示網站流量增加與某位名人使用 Twitter 提及產品有關聯。
 
