@@ -1,13 +1,13 @@
 ---
 description: 大部分行動裝置接受瀏覽器 Cookie。然而，萬一裝置不接受 Cookie，則會使用另一種方法來專門識別無線裝置。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 大部分行動裝置接受瀏覽器 Cookie。然而，萬一裝置不接受 Cookie，則會使用另一種方法來專門識別無線裝置。
 seo-title: 識別行動裝置
 solution: Analytics
 title: 識別行動裝置
-topic: 開發人員和實施
-uuid: 22587dd1-cad-485b-a4 d8-94dfb7 cd9662
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP [訂閱者 OD 標題](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)。這些標題常包含裝置電話號碼 (或號碼的雜湊版本) 或其他識別碼。目前大部分裝置具有一或多個可唯一識別裝置的標題，所有 Adobe 資料收集伺服器都會自動以這些標題代替訪客 ID。
 
-In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). 然而，如果根據 HTTP 標題將裝置辨識為行動裝置，則會傳遞 '5'，取代 '1'，以指出應該傳回 wbmp 格式影像，而且我們已辨識的無線標題 (不是 Cookie) 清單應該用來識別裝置。
+在一般影像要求中，路徑 (`/b/ss/rsid/1`) 中的「1」會導致 Adobe 伺服器傳回 gif 影像，並嘗試設定持續的[!UICONTROL 訪客 ID] Cookie (`AMCV_` 或 `s_vi`)。然而，如果根據 HTTP 標題將裝置辨識為行動裝置，則會傳遞 '5'，取代 '1'，以指出應該傳回 wbmp 格式影像，而且我們已辨識的無線標題 (不是 Cookie) 清單應該用來識別裝置。
 
 下表列出根據路徑中的傳回影像類型值 ('1' or '5') 所使用之 ID 方法的順序:
 
@@ -56,7 +56,7 @@ In a typical image request, a '1' in the path ( `/b/ss/rsid/1`) causes Adobe ser
 
 您也可以在手動影像請求中傳遞 '1'或 '5'，但請注意，這些程式碼是互斥的，因此一律傳遞 '5' 並不會在支援 Cookie 時使用它。您可以合併本身的機制，判斷裝置是否支援 Cookie，若支援，則在影像中傳入 '1'，而不要傳入 '5'。在此情況下，正確性的提升會因為支援 Cookie 的行動裝置數而受到限制。
 
-## 訂閱者 ID 標題 {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+## 訂閱者 ID 標題{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 訂閱者 ID 方法用於使用者識別，通常比 Cookie 更可靠，因為 Cookie 有刪除、接受和閘道 Cookie 管理的問題。
 
