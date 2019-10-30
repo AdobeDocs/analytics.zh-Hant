@@ -3,7 +3,7 @@ title: 區段比較使用案例
 description: 瞭解如何使用區段比較面板來深入瞭解行銷策略的實際使用案例。
 keywords: 區段 IQ
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ## 使用案例5:比較Fitbit購買者與其他人
 
-> *「我們發現購買 Fitbit 的人收到「無庫存」訊息是其他人的 6 倍，因此我們馬上訂購更多 Fitbit 以防庫存又沒了!」*
+> *「我們發現，購買Fitbit的人比其他人收到「無存貨」訊息的可能性高6倍，因此我們很快訂購了更多Fitbit，避免了無存貨！」*
 
 一家大型線上零售商對最熱門的假日產品Fitbit的銷售方式，以及Fitbit購買者在其他客戶中的獨特之處，產生了興趣。 使用區段比較，他們發現購買Fitbit的使用者收到「無存貨」訊息的可能性是其他客戶的6倍。 在進一步分析後，行銷團隊會引導這些訪客前往實體店，同時等待採購部門訂購更多Fitbit以運送。 結果，零售商避免了更多「無存貨」訊息，並滿足了他們對假日的更多需求。
 
