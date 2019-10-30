@@ -1,13 +1,13 @@
 ---
 description: 瞭解 s.linkTrackVars 和 s.linkTrackEvents 變數，是成功實施連結追蹤的關鍵。這可讓您傳送使用者動作的自訂變數值。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 瞭解 s.linkTrackVars 和 s.linkTrackEvents 變數，是成功實施連結追蹤的關鍵。這可讓您傳送使用者動作的自訂變數值。
 seo-title: 使用 s.linkTrackVars 和 s.linkTrackEvents
 solution: Analytics
 title: 使用 s.linkTrackVars 和 s.linkTrackEvents
-topic: 開發人員和實施
-uuid: f6b7019b-987b-4b7d-a446-80205f7 cc36 c
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 瞭解 s.linkTrackVars 和 s.linkTrackEvents 變數，是成功實施連結追蹤的關鍵。這可讓您傳送使用者動作的自訂變數值。
 
-若您實施自訂連結追蹤，並設定了[!UICONTROL 自訂]變數和&#x200B;*`events`*&#x200B;請確定您 [!UICONTROL 的s. linkTrackVars] 變數包含您所傳送之所有變數的逗號分隔清單，包括 *`events`* 變數。請確定 [!UICONTROL s.linkTrackEvents] 包含您所傳送之所有事件的逗號分隔清單。
+若您實施自訂連結追蹤，並設定了[!UICONTROL 自訂]變數和&#x200B;*`events`*，請確定您的 [!UICONTROL s.linkTrackVars] 變數中包含您傳送之所有變數的逗號分隔清單，包括 *`events`* 變數。請確定 [!UICONTROL s.linkTrackEvents] 包含您所傳送之所有事件的逗號分隔清單。
 
 設定 [!UICONTROL s.linkTrackVars] 和 [!UICONTROL s.linkTrackEvents] 時，並不會實際設定這些變數/事件，而只是讓 [!DNL Analytics] 程式碼準備執行此設定。您還須手動設定這些變數，如下列範例所示: 
 
