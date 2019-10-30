@@ -1,13 +1,13 @@
 ---
 description: 取得十分之一秒的頁面載入時間，並允許您將值儲存至 prop、eVar 及/或數值事件。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 取得十分之一秒的頁面載入時間，並允許您將值儲存至 prop、eVar 及/或數值事件。
 seo-title: getLoadTime
 solution: Analytics
 title: getLoadTime
-topic: 開發人員和實施
-uuid: 5d26a69b-cbde-4be1-bac1-5ee8 a4 e55 ca3
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式的程式碼與實施 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
@@ -35,11 +35,11 @@ function s_getLoadTime(){if(!window.s_loadT){var b=new Date().getTime(),o=window
 
 **進行初始函數呼叫**
 
-Add a call to `s_getLoadTime()` near the beginning of [!DNL s_code.js], outside of any function.
+在 [!DNL s_code.js] 開頭附近、任何函數之外新增對 `s_getLoadTime()` 的呼叫。
 
 **進行最終函數呼叫**
 
-Add another call to `s_getLoadTime()` in the `s_doPlugins()` function, saving the returned value in a prop, eVar, and/or a numeric event.
+在 `s_doPlugins()` 函數中新增另一個 `s_getLoadTime()` 呼叫，將傳回值儲存至 Prop、eVar 及/或數值事件。
 
 用法範例 1 - 將頁面載入時間儲存至 prop10 和 eVar20:
 
