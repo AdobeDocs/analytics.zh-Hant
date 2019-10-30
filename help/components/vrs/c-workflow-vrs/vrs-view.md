@@ -5,10 +5,10 @@ seo-description: 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相
 seo-title: 檢視虛擬報表套裝資訊
 solution: Analytics
 title: 檢視虛擬報表套裝資訊
-topic: Reports & Analytics
-uuid: 7aa9a777-604e-473d-a914-6c0 bc558548 a
+topic: Reports and Analytics
+uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
