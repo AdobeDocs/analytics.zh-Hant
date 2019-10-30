@@ -7,7 +7,7 @@ subtopic: 發行說明
 title: WinRT for Windows 8
 topic: 開發人員和實作
 uuid: cec19d63-114c-4ef6-a55e-db6aad4e948b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啟除錯記錄。
+>若要尋找目前的程式庫版本，請開啟偵錯記錄功能。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+您可在 [!DNL Developer Connection] 上使用行動程式庫[下載內容](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)。
 
 >[!NOTE]
 >
->The [!DNL WinRT] for [!DNL Windows] 8 SDK is replaced by the [Windows 8.1 Universal App Store](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK. 我們將不再對此 SDK 進行任何進一步的開發。
+>[!DNL Windows] 8 適用的 [!DNL WinRT] SDK 已替換為 [Windows 8.1 通用應用程式市集](../appmeasurement-release-notes/c-release-notes-winu.md#concept_79EEB87B0FEC4F6DB11BE8ED417A970E) SDK。我們將不再對此 SDK 進行任何進一步的開發。
 
 ## 版本 4.0 {#section_248BF5A38F1843A5BCF6DBD62A5D3D59}
 
@@ -41,7 +41,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 發行日期: **2013 年 10 月 17 日**
 
-* [!DNL Windows] 8.1相容性
+* [!DNL Windows] 8.1 相容性
 
 ## 版本 3.0.5 {#section_8F163FF1E88142F180091A88C9FD9D12}
 
@@ -69,14 +69,14 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 發行日期: **2012 年 11 月**
 
 * 現在可在 C#、C++ 及 HTML5/WinJS 平台上準確收集螢幕解析度。
-* `ADMS_Churn` 類別現在為內部。 若要使用應用程式生命週期追蹤的最佳實務，請使用下列呼叫:
+* `ADMS_Churn` 類別現已為內部。若要使用應用程式生命週期追蹤的最佳實務，請使用下列呼叫:
 
    ```
    public void ADMS_Measurement.StartSession(); 
    public void ADMS_Measurement.StopSession();
    ```
 
-* Added `public double maxSessionLength` variable to `ADMS_Measurement` to allow you to set a maximum session length for the previous user session. 若註冊的作業長度已超過上限，則會傳送您設定的作業長度上限。Default `maxSessionLength` is 3600 (seconds).
+* 已新增 `public double maxSessionLength` 變數至 `ADMS_Measurement`，以便您為先前的使用者作業設定作業長度上限。若註冊的作業長度已超過上限，則會傳送您設定的作業長度上限。`maxSessionLength` 的預設值為 3600 (秒)。
 * 新增 `lifecycleSessionTimeout` 組態變數，該變數可讓您指定在兩次應用程式啟動之間需經過的時間長度 (單位為秒)，超過該秒數後，該次啟動即視同新的作業階段。
 * 將新的「前一個作業長度」量度新增至生命週期量度。
 * 已更新 TrackingHelper 以詳細說明。
