@@ -6,9 +6,9 @@ solution: Analytics
 subtopic: 處理規則
 title: 清除報表中的值
 topic: 管理工具
-uuid: fcd72afc-3a3c-47a9-a5 e4-53389dBA7 d83
+uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
