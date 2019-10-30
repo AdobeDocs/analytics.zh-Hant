@@ -1,19 +1,19 @@
 ---
 description: 您可複製 eVar 的值至 prop，以啟用路徑。
 seo-description: 您可複製 eVar 的值至 prop，以啟用路徑。
-seo-title: 將eVar值複製至prop以判斷路徑
+seo-title: 將 eVar 值複製至 Prop 以判斷路徑
 solution: Analytics
 subtopic: 處理規則
-title: 將eVar值複製至prop以判斷路徑
+title: 將 eVar 值複製至 Prop 以判斷路徑
 topic: 管理工具
-uuid: 8d7647c-aa91-466b-8d31-fb4 dce83 f04 a
+uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 將eVar值複製至prop以判斷路徑
+# 將 eVar 值複製至 Prop 以判斷路徑
 
 您可複製 eVar 的值至 prop，以啟用路徑。
 
