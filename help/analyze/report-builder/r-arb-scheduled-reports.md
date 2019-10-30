@@ -5,9 +5,9 @@ seo-title: 排程任務管理員
 solution: Analytics
 title: 排程任務管理員
 topic: Report Builder
-uuid: dc259f0-2a04-4c94-abbc-5008cf2 f1 cb8
+uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
