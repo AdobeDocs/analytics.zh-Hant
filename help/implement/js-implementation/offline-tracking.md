@@ -7,8 +7,8 @@ solution: Analytics
 title: 離線追蹤
 topic: 開發人員和實作
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 下列變數和函數可讓您在應用程式離線時儲存測量呼叫。
 
->[!NOTE]
->
->若要啟用離線追蹤，您的報表套裝必須已啟用時間戳記。如果報表套裝已啟用時間戳記，您的 `trackOffline` 組態屬性&#x200B;*必須*&#x200B;為 true。如果報表套裝未啟用時間戳記，您的 `trackOffline` 設定屬性&#x200B;*必須*&#x200B;為 false。如果此項目未正確設定，將會遺失資料。如果您不確定報表套裝是否啟用時間戳記，[聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html#analytics)
+> [!NOTE]若要啟用離線追蹤，您的報表套裝必須已啟用時間戳記。如果報表套裝已啟用時間戳記，您的 `trackOffline` 組態屬性&#x200B;*必須*&#x200B;為 true。如果報表套裝未啟用時間戳記，您的 `trackOffline` 設定屬性&#x200B;*必須*&#x200B;為 false。如果此項目未正確設定，將會遺失資料。如果您不確定報表套裝是否啟用時間戳記， [contact Customer Care](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
 
 啟用後，離線 AppMeasurement 會以下列方式運作:
 
@@ -60,13 +58,12 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
-   <td colname="col2"> <p> 手動設定測量物件的上線或離線狀態。程式庫會自動偵測裝置為離線或上線，因此只有在您要將測量強制離線時，才需要這些方法。<code>forceOnline</code> 只用於在手動離線後，恢復為上線狀態。 </p> <p>當測量為離線時: </p> 
+   <td colname="col2"> <p> 手動設定測量物件的上線或離線狀態。程式庫會自動偵測裝置為離線或上線，因此只有在您要將測量強制離線時，才需要這些方法。<code> forceOnline </code> 只用於在手動離線後，恢復為上線狀態。 </p> <p>當測量為離線時: </p> 
     <ul id="ul_5A9CFD2968F64F938652C1D779EB7589"> 
-     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> 如果 <code>trackOffline</code> 為 true: 會儲存點擊資料，直到測量上線為止。 </li> 
-     <li id="li_6A623377462548DB97C31654EADCFAF3"> 如果 <code>trackOffline</code> 為 false: 會捨棄點擊資料。 </li> 
+     <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> 如果 <code> trackOffline </code> 為 true: 會儲存點擊資料，直到測量上線為止。 </li> 
+     <li id="li_6A623377462548DB97C31654EADCFAF3"> 如果 <code> trackOffline </code> 為 false: 會捨棄點擊資料。 </li> 
     </ul> <p> <b>範例:</b> </p> 
-    <code class="syntax c">
-      s.forceOffline();
+    
 
 s.forceOnline();
 </code> </td>
