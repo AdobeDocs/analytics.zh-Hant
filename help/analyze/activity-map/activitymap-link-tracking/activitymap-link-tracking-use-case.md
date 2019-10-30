@@ -7,7 +7,7 @@ title: 區別參照相同連結 ID 和地區的連結
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -90,9 +90,7 @@ As an example, let's say you have multiple "Buy" links that are identified by [!
 
 您可透過確定每個「購買」連結都定義自己的地區，來自訂地區。若要這麼做，請在每個 "Buy" 錨記的其中一個父項新增 "id" 參數。
 
->[!NOTE]
->
->您不嚴格限制使用"id"參數做為地區識別碼。 您也可以使用JavaScript變數「s.ActivityMap.regionIDAttribute」來設定自己的識別碼。
+> [!NOTE] 您不嚴格限制使用"id"參數做為地區識別碼。 您也可以使用JavaScript變數「s.ActivityMap.regionIDAttribute」來設定自己的識別碼。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
