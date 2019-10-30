@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 範本
 title: 範本
-uuid: d6d1b745-a684-41c1-879b-9f9 a9503 Fe00
+uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 您可以選擇從以下來源建立專案:
 
-* 空白專案 (預設)。For instructions, see [Create an Analysis Workspace Project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2).
+* 空白專案 (預設)。如需指示，請參 [閱建立分析工作區專案](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)。
 * 標準範本。這些範本皆由 Adobe 建立且出廠即提供。
 * 自訂範本。具有管理權限的使用者，或非管理員但已獲得「另存為範本」權限的使用者，皆可建立這些範本。(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
@@ -25,7 +25,7 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 * [建立自訂範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
 * [標準範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
 
-## Create a custom template {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## 建立自訂範本 {#task_279637F56CFD4B6094D7CBDB82FA4835}
 
 擁有管理員權限的使用者可以將其建立的任何專案轉換為自訂範本。方法如下:
 
@@ -38,7 +38,7 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
    >[!NOTE]
    >
-   >根據預設，組織中的每個人都看得到專案範本。您可以透過套用標記的方式組織範本。(Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >依預設，專案範本會顯示給組織中的每個人。 您可以透過套用標記的方式組織範本。(Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
 
 ### 您可以在自訂範本執行的動作
 
@@ -85,63 +85,61 @@ source-git-commit: c13dfba5669aea55cf79406033a30d99971ce0c2
 
 ## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-當您首次開啓工作區時，左側導軌會提供範本。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+當您第一次開啟工作區時，範本會位於左側導軌中。 Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
-[YouTube分析工作區中的標準範本](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2：46)
+[YouTube分析工作區中的標準範本](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
 
-以下為可用範本和每個範本的問題解答：
+以下是可用的範本，以及每個範本可協助回答的問題：
 
 ### 廣告
 
 >[!IMPORTANT]
 >
->只有在您的報表套裝已啓用Advertising Cloud時，才能使用廣告範本。
+>廣告範本僅在您的報表套裝已啟用Advertising cloud時才可用。
 
-* **搜尋引擎**：此範本劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等。
+* **搜尋引擎**:此範本可劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等。
 
 ### 商務
 
-* **Magento：行銷與商務**：此範本可依據行銷管道歸因劃分您的電子商務轉換，並透過搜尋關鍵字、著陸頁面、地理位置等提供深入見解。For a video overview, see &gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **馬根托：行銷與商務**:此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等提供分析。 如需影片總覽，請參閱&gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### 媒體
 
-* **音訊使用量**：哪些內容消費最多，而且正在吸引使用者？
-* **最近一次-頻率-忠誠度**：誰是我忠實的讀者？
+* **音訊耗用**:哪些內容的使用量最高，而且吸引使用者？
+* **最近一次——頻率——忠誠度**:我忠實的讀者是誰？
 
 ### 行動
 
 >[!IMPORTANT]
 >
->只有當您的報表套裝已啓用Mobile時，才可使用行動範本。
+>行動範本只有在您的報表套裝已啟用行動裝置時才可用。
 
-* **傳訊：** 著重在應用程式內和推送訊息效能。
-* **地點：** 包含顯示位置資料的地圖。
-* **關鍵度量：** 把握應用程式的關鍵指標。
-* **應用程式使用情況：** 應用程式的使用者人數、啓動次數和首次啓動次數，以及平均作業長度是多少？
-* **贏取：** 瞭解行動收購連結如何運作。
-* **效能：** 應用程式的效能如何，使用者在哪裡有問題？
-* **保留：** 誰是我忠實的使用者，他們是甚麼？
-* **旅程：** 我的應用程式有哪些明顯的使用模式？
+* **** 訊息：著重於應用程式內和推播訊息效能。
+* **** 位置：包含展示位置資料的地圖。
+* **** 關鍵量度：掌握應用程式的關鍵量度。
+* **** 應用程式使用：應用程式有多少個應用程式使用者、啟動和首次啟動，平均作業長度為何？
+* **** 收購：瞭解行動裝置贏取連結的效能。
+* **** 效能：應用程式的效能如何，使用者在哪裡有問題？
+* **** 保留：我的忠誠使用者有哪些？
+* **** 歷程：我的應用程式有哪些顯著的使用模式？
 
 ### 零售
 
-* **促銷活動績效：** 哪些促銷活動帶來最高收入？
-* **產品：** 哪些產品表現最佳？
+* **** 促銷活動績效：哪些促銷活動帶來最多收入？
+* **** 產品：哪些產品表現最佳？
 
 ### Web
 
-* **贏取：** 我的網站有哪些熱門流量驅動程式？
-* **內容消費：** 人們進入我網站的最熱門位置為何？
-* **保留：** 哪些類型的使用者可能是我網站的忠實使用者？
-* **技術：** 人們使用哪些技術來存取我的網站？
+* **** 收購：我網站的主要流量驅動因素為何？
+* **** 內容消費：我的網站上有哪些熱門位置？
+* **** 保留：哪些類型的使用者可能是我網站的忠實使用者？
+* **** 技術：人們使用哪些技術來存取我的網站？
 
-### People
+### 人物
 
->[!NOTE]
->
->The People template and its associated People metric is available for use only as part of the [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html).
+> [!NOTE] 「人員」範本及其相關的「人員」量度僅能用於 [Adobe Experience Cloud Device Co-op的一部分](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)。
 
 此範本是根據「人物」量度建立，該量度是「獨特訪客」量度去除重複後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
