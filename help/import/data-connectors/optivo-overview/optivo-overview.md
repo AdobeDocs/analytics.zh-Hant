@@ -5,7 +5,7 @@ seo-title: Adobe Analytics的Optivo® broadmail Data Connector
 title: Adobe Analytics的Optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -40,9 +40,9 @@ source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
 
 ## 動態行銷區段{#dynamic-marketing-segments}
 
-This integration features the following dynamic marketing segments:
+此整合包含下列動態行銷區段：
 
-* **Purchase Profiles:** Increase repeat orders and average order value through campaigns targeted by visitor purchase patterns.
+* **** 購買設定檔：透過訪客購買模式所定位的促銷活動，增加重複訂單和平均訂單值。
 * **** 產品／內容檢視行為設定檔：根據產品檢視和內容存取分析，透過行銷細分觸及潛在客戶。
 * **** 購物車放棄設定檔：透過專為猶豫是否要完成購物車的訪客量身打造的微調促銷活動，協助訪客轉化為客戶。
 * **** 有效的再行銷：客戶也可以根據其使用者的需求建立並排程自訂的再行銷區段。
