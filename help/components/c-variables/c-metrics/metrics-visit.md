@@ -4,11 +4,11 @@ keywords: 瀏覽
 seo-description: 某一段時間的頁面檢視順序。瀏覽度量常用在會顯示所選時段內之使用者工作階段數的報表中。
 seo-title: 瀏覽
 solution: Analytics
-title: 造訪
+title: 瀏覽
 topic: 量度
-uuid: 91317487-f116-4546-8cd2-421418c49 a7 a
+uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 某一段時間的頁面檢視順序。瀏覽量度常用在會顯示所選時段內之使用者工作階段數的報告中。
 
->[!NOTE]
->
->For information about how visits and mobile app launches are calculated, see [Compare Visits and Mobile App Launches](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) in the Knowledge Base.
+> [!NOTE] 如需如何計算瀏覽和行動應用程式啟動的詳細資訊，請參閱知 [識庫中的「比較瀏覽和行動應用程式啟動](https://helpx.adobe.com/analytics/kb/compare-visits-and-mobile-app-launches.html) 」。
 
 瀏覽量度一律與時段關聯，所以當相同訪客返回您的網站時，可以知道是否要計算為新的瀏覽。作業會在使用者第一次進入您的網站時開始，並在下列其中一個情況發生時結束:
 
@@ -28,9 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * **2500 次點擊:** 如果使用者產生大量點擊而未起始新作業階段，則在 2500 個影像請求後會計為新瀏覽。
 * **100 秒內 100 次點擊**: 如果一次瀏覽包含在 100 秒內發生 100 次點擊，該次瀏覽會自動結束。這種行為通常代表機器人活動，因此強制實施此限制來預防這些需要大量處理的瀏覽，以免增加延遲以及提高產生報告所需時間。
 
->[!NOTE]
->
->如果特別要求，報表套裝的瀏覽定義可以縮短，但無法加長。請讓您組織的受支援使用者之一聯絡客戶服務，請求這項變更。
+> [!NOTE] 如果特別要求，可縮短報表套裝的瀏覽定義，但無法加長。 請讓您組織的受支援使用者之一聯絡客戶服務，請求這項變更。
 
 在下列情況下不會起始新瀏覽:
 
@@ -41,9 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 瀏覽結束時，含瀏覽過期的所有變數都會過期且不再保存。瀏覽數量度將在該訪客下一次造訪時遞增。
 
->[!NOTE]
->
->If you are using Analytics as the reporting source for Adobe Target, refer to [Minimizing Inflated Visit and Visitor Counts in A4T](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) in the [!DNL Target] documentation.
+> [!NOTE] 如果您使用Analytics做為Adobe target的報表來源，請參閱檔案中的 [A4T中的「最小化誇大的造訪次數](https://marketing.adobe.com/resources/help/en_US/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html) 」和「訪客 [!DNL Target] 數」。
 
 如需詳細資訊，請參閱「Adobe Analytics 實施指南」中的[識別不重複訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)。
 
