@@ -7,7 +7,7 @@ title: Data Warehouse 概觀
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件�
 
 Data Warehouse 針對個別已排程和已下載報表，可處理單一請求中的無限制列數。
 
->[!NOTE]
->
->資料倉庫會報告報告時段內遇到的第一個值。
+> [!NOTE] 資料倉庫會報告報告時段內遇到的第一個值。
 
 >[!IMPORTANT]
 >
