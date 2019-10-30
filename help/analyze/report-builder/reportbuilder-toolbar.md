@@ -1,18 +1,18 @@
 ---
 description: 協助您瞭解 Report Builder 工具列之按鈕功能的資訊。
 seo-description: 協助您瞭解 Report Builder 工具列之按鈕功能的資訊。
-seo-title: 報告建立工具工具列
+seo-title: Report Builder 工具列
 solution: Analytics
-title: 報告建立工具工具列
+title: Report Builder 工具列
 topic: Report Builder
-uuid: 9f340fb0-f99 a-4dd4-bca-19c54 e5499 e6
+uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 報告建立工具工具列
+# Report Builder 工具列
 
 協助您瞭解 Report Builder 工具列之按鈕功能的資訊。
 
@@ -34,7 +34,7 @@ After you install Report Builder and launch Excel, click **[!UICONTROL Add-Ins]*
 
 **共用：**&#x200B;啟動「[!UICONTROL 活頁簿庫]」，可讓您上傳要共用的 Report Builder Excel 活頁簿。 您也可以下載及編輯共用的活頁簿。See [Use the Workbook Library](../../analyze/report-builder/workbook-library/t-upload-a-workbook.md).
 
-**選項：** 可讓您指定在重新整理請求時是否要提示 **** 「截止(現在)」日期，並讓您啓用記錄以進行疑難排解。請參閱[選項](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF)。
+**** 選項：可讓您指定在重新整理請求時是否要提示您輸入 **[!UICONTROL As Of]** (Now)日期，並讓您啟用記錄以進行疑難排解。 請參閱[選項](../../analyze/report-builder/options.md#task_99D94C0888294D87AC57A91B4B9CEDBF)。
 
 **鎖定/解除鎖定:** 您可以鎖定活頁簿，保護活頁簿中的所有請求，不讓他人新增及編輯。這樣可暫停所有報表請求，啟用活頁簿的離線編輯功能，進行更有效率的編輯。請參閱 [鎖定/解除鎖定活頁簿](../../analyze/report-builder/workbook-library/protect-wb.md#concept_8FAD0CFBAFDF417ABDDEA4CC26F93F83).
 
