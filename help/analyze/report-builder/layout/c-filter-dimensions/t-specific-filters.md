@@ -1,18 +1,18 @@
 ---
 description: 套用特定維度字詞的篩選。
 seo-description: 套用特定維度字詞的篩選。
-seo-title: 特定篩選器
+seo-title: 特定篩選
 solution: Analytics
-title: 特定篩選器
+title: 特定篩選
 topic: Report Builder
-uuid: b3a8187a-3d59-4da0-abca-e93366432 e3
+uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: dcddb02157ac3e62781b602c5e6c7de3ef79b4fc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 特定篩選器
+# 特定篩選
 
 套用特定維度字詞的篩選。
 
