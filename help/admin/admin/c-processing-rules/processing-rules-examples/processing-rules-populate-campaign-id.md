@@ -1,19 +1,19 @@
 ---
 description: 您可以使用查詢字串參數填入變數。
 seo-description: 您可以使用查詢字串參數填入變數。
-seo-title: 從查詢字串參數填入促銷活動ID
+seo-title: 從查詢字串參數填入促銷活動 ID
 solution: Analytics
 subtopic: 處理規則
-title: 從查詢字串參數填入促銷活動ID
+title: 從查詢字串參數填入促銷活動 ID
 topic: 管理工具
-uuid: 2bc61f9f-d8 d2-41b7-bd39-4a9 df30 ff013
+uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 從查詢字串參數填入促銷活動ID
+# 從查詢字串參數填入促銷活動 ID
 
 您可以使用查詢字串參數填入變數。
 
