@@ -7,8 +7,8 @@ solution: Analytics
 title: 比較 Prop 和 eVar
 topic: 開發人員和實作
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -133,7 +133,7 @@ Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和
 
 * **劃分**: Prop 可使用關聯，針對在相同影像要求中引發的其他流量變數顯示頁面檢視。eVar 可使用子關聯，提供有關其他與成功事件相關的轉換變數劃分資訊。
 
-## Prop 或 eVar 的獨特優點{#section_B384031AB8674065BA5187B0A3A3DAB9}
+## Prop 或 eVar 的獨特優點 {#section_B384031AB8674065BA5187B0A3A3DAB9}
 
 隨著版本 15 的發行，Prop 和 eVar 的功能差異越來越小。eVar 最近進行了更新，包含將處理負載降至最低的瀏覽/獨特訪客，以及路徑量度。
 
@@ -151,7 +151,7 @@ Prop 擁有幾項優於 eVar 的優點，其中幾項可透過其他方法彌補
 
 路徑量度 (例如總逗留時間、登入點和退出點) 原本無法用於 eVar。不過最近的更新已讓這些量度可供用於 eVar，提高了 eVar 的價值。
 
-## 適用項目{#section_022D016A4EEB45179A15BFF044A261A4}
+## 適用項目 {#section_022D016A4EEB45179A15BFF044A261A4}
 
 **Prop:** 若您最擔心的是延遲，而且只想使用此維度測量流量 (而非成功事件)。
 
