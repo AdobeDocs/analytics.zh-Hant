@@ -8,7 +8,7 @@ title: 控制面板和報表
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,9 +34,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 * 即時報表
 * 其他控制面板
 
->[!NOTE]
->
->The **[!UICONTROL Site Overview]** dashboard is no longer listed in Reports &amp; Analytics. 不過，在某些情況下您仍會看到其部分或全部的小報表。
+> [!NOTE] 「報 **[!UICONTROL 告與分析]** 」中不再列出「網站綜覽」控制面板。 不過，在某些情況下您仍會看到其部分或全部的小報表。
 
 * 舉例來說，假設您只有三個經常檢視報表，則「Report &amp; Analytics」會取用「網站綜覽」控制面板的兩個報表，來填滿「**[!UICONTROL 我的建議報表]」控制面板。**
 * 全新的報表套裝一開始也會配備「網站綜覽」的小報表，直到您經常檢視的報表取代它們為止。Even so, the dashboard will now be called **[!UICONTROL My Recommended Reports]**.
@@ -115,7 +113,7 @@ t_dashboard_add_report.xml
 
    **[!UICONTROL 發佈清單覆蓋:]** 如果啟用此選項，當分送至發佈清單時，一律會使用這個小報告中引用的報告套裝。如果停用該選項，則用發佈清單中確認的報告套裝取代該小報告中的報告套裝。
 
-1. Click **[!UICONTROL Create New]**.
+1. 按一下&#x200B;**[!UICONTROL 新建]**。
 
    小報告會被新增到控制面板編輯器中的&#x200B;**[!UICONTROL 控制面板內容]功能表中。**
 
