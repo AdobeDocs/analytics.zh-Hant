@@ -1,14 +1,14 @@
 ---
 description: 前置欄包含傳送給資料收集的資料。後置欄包含處理後的值。
-keywords: 資料饋送；工作；前置欄；後置欄；大小寫區分
+keywords: Data Feed;job;pre column;post column；區分大小寫
 seo-description: 前置欄包含傳送給資料收集的資料。後置欄包含處理後的值。
 seo-title: 前置欄和後置欄
 solution: Analytics
 title: 前置欄和後置欄
-topic: Reports & Analytics
-uuid: a415327b-6151-4d08-b8 b9-5ab2348 eb0 c
+topic: Reports and Analytics
+uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,8 +29,8 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如果您在前置和後置欄中看到同一值的不同大小寫變化形 (例如，前置欄中是 "snow"，後置欄中是 "Snow")，表示您在網站中同時使用了同一值的大寫和小寫版本。前置欄中的大小寫變化形是在之前傳入並儲存在虛擬 cookie 中，或是與該報表套裝在大約相同的時間處理。例如:
 
-Hit 1: s.list1="Tabby,Persian,Siamese”;
+Hit 1: s.list1="Tabby,Persian,Siamese";
 
-Hit 2: s.list1=“tabby,persian,siamese”;
+點擊2:s.list1="tabby,persian,siamese";
 
 資料饋送報告 Hit 2 時，前置欄將包含與傳入值大小寫完全相同的值 (tabby,persian,siamese)，但來自 Hit 1 的值可能在該次瀏覽時存續，並在後置欄中報告 (即 Tabby,Persian,Siamese)，因為當執行大小寫無區分的比較時，Hit 1 和 Hit 2 包含完全相同的值。
