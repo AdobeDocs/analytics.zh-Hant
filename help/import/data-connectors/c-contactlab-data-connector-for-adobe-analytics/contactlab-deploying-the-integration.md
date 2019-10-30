@@ -6,7 +6,7 @@ solution: Analytics
 title: 部署整合
 uuid: df3f24c9-d2e3-489e-b97e-e1af0d5dd1fa
 translation-type: tm+mt
-source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,9 +33,9 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
 
    | 項目 | 說明 |
    |---|---|
-   | 連結 ID | 選取eVar以即時收集連結ID。 |
-   | 訊息ID | 選取eVar以即時收集訊息ID。 |
-   | Recipient ID | 選取eVar，即時收集收件者ID。 |
+   | 連結 ID | 選取要即時收集連結ID的eVar。 |
+   | 訊息ID | 選取要即時收集訊息ID的eVar。 |
+   | Recipient ID | 選取要即時收集收件者ID的eVar。 |
    | 彈回數 | 選擇數值事件，從ContactLab接收每日彈回數。 |
    | 已傳送 | 選擇要接收ContactLab每日發送的數值事件。 |
    | 已點按 | 選擇數值事件，以接收ContactLab的每日點按總數。 |
@@ -48,7 +48,7 @@ source-git-commit: 56d27762320a752dff6ab4d9d763bbbf6e0deff5
    1. 在「 **[!UICONTROL 您的區段]**」下方，選取您要納入此整合的任何自訂區段。 您可以在管理面板下建立其他自訂區段。
    1. 在「 **[!UICONTROL 存取請求]**」下方，核取此方塊，允許將產品資訊匯出至每日再行銷區段中的ContactLab。
    1. 視需要重新命名計算量度。
-   1. 設定您要透過手動更新Analytics收集代碼或使用自動化解決方案來收集ID。 如果您選取「 **[!UICONTROL 自動化解決方案]**」，則必須包含用於電子郵件連結中的參數，才能傳遞ID。
+   1. 設定您要透過手動更新Analytics收集代碼或使用自動化解決方案來收集ID。 如果您選 **[!UICONTROL 取「自動化解決方案]**」，則必須包含用於電子郵件連結的參數，才能傳遞ID。
 1. 檢閱所有設定項目，然後按一 **[!UICONTROL 下立即啟動]**。
 
 ## 驗證整合{#verifying-the-integration}
