@@ -1,28 +1,28 @@
 ---
-description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有相符的資料，並顯示「包括所有使用者」篩選條件。可使用「僅限序列之前」和「僅限序列之後」選項，將循序區段進一步篩選成相符點擊的子集。
-seo-description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有相符的資料，並顯示「包括所有使用者」篩選條件。可使用「僅限序列之前」和「僅限序列之後」選項，將循序區段進一步篩選成相符點擊的子集。
+description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有符合的資料，並顯示篩選「包含每個人」。 循序區段可使用「序列前僅限」和「序列後僅限」選項，進一步篩選為相符點擊的子集。
+seo-description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有符合的資料，並顯示篩選「包含每個人」。 循序區段可使用「序列前僅限」和「序列後僅限」選項，進一步篩選為相符點擊的子集。
 seo-title: 建立循序區段
 solution: Analytics
 title: 建立循序區段
 topic: 區段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 建立循序區段
 
-循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有相符的資料，並顯示「包括所有使用者」篩選條件。可使用「僅限序列之前」和「僅限序列之後」選項，將循序區段進一步篩選成相符點擊的子集。
+循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有符合的資料，並顯示篩選「包含每個人」。 循序區段可使用「序列前僅限」和「序列後僅限」選項，進一步篩選為相符點擊的子集。
 
 ![](assets/before-after-sequence.png)
 
-此外，您可以在查核點之間使用 After 和 Within 運算子，[將循序區段限制至特定的持續時間、精細度及計數](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA)。
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
 
 ## 包括所有使用者 {#section_75ADDD5D41F04800A09E592BB2940B35}
 
-當建立一個區段並設定「包括所有使用者」，區段會識別整體符合指定模式的路徑。這是基本序列區段尋找同一位造訪者的一個點擊 (頁面 A )然後又一個點擊 (頁面 B) 的例子。這個區段設定為「包括所有使用者」。
+建立設定「包含每個人」的區段時，區段會識別整體符合指定模式的路徑。 這是基本序列區段尋找同一位造訪者的一個點擊 (頁面 A )然後又一個點擊 (頁面 B) 的例子。這個區段設定為「包括所有使用者」。
 
 ![](assets/sequence-filter.png)
 
@@ -35,8 +35,8 @@ source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 **[!UICONTROL 「僅限序列之前」]**&#x200B;與&#x200B;**「僅限序列之後」[!UICONTROL 選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
 
-* **「僅限序列之前」**: 包括序列之前的所有點擊，以及該序列本身的首次點擊 (請參閱範例 1、3)。如果序列在路徑中出現多次，則「僅限序列之前」包括最後一個出現序列的首次點擊，以及先前的所有點擊 (請參閱範例 2)。
-* **「僅限序列之後」**: 包括序列之後的所有點擊，以及該序列本身的最後點擊 (請參閱範例 1、3)。如果序列在路徑中出現多次，則「僅限序列之後」包括第一個出現序列的最後點擊，以及之後的所有點擊 (請參閱範例 2)。
+* **「僅限序列之前」**: 包括序列之前的所有點擊，以及該序列本身的首次點擊 (請參閱範例 1、3)。如果序列在路徑中出現多次，「僅在序列之前」會包含序列最後一次出現的第一個點擊和所有先前的點擊（請參閱範例2）。
+* **「僅限序列之後」**: 包括序列之後的所有點擊，以及該序列本身的最後點擊 (請參閱範例 1、3)。如果序列在路徑中出現多次，「僅在之後」會包含序列首次出現的上次點擊和所有後續點擊（請參閱範例2）。
 
 例如，假設有一個 B -&gt; D 的序列。這三種篩選條件會依照下列方式識別點擊:
 
@@ -56,7 +56,7 @@ source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 | 只限之前序列 | A | B | C | D | B |  |  |  |
 | 只限之後序列 |  |  |  | D | B | C | D | E |
 
-讓我們用「點擊深度」維度來建構此概念。
+我們也以「點擊深度」維度來構建這個概念。
 
 **範例 3: 點擊深度 3 然後 5**
 
@@ -64,9 +64,9 @@ source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
 
 ## 維度限制 {#section_EAFD755F8E674F32BCE9B642F7F909DB}
 
-在「within」子句裡，您可以在「THEN」陳述式之間加入「within 1 search keyword instance」、「within 1 eVar 47 instance」之類的文字。這樣會將區段限制在某個維度的一個例項內。
+在"within"子句中，在THEN語句之間，可以添加"within 1 search keyword instance"、"within 1 eVar 47 instance"。 這樣會將區段限制在某個維度的一個例項內。
 
-在規則之間設定「維度內」子句讓區段可以限制資料為只符合該子句的序列。請看下面的例子，其限制設定為「1 頁面以內」:
+在規則之間設定「維內」子句可讓段將資料限制為滿足該子句的序列。 請看下面的例子，其限制設定為「1 頁面以內」:
 
 ![](assets/sequence-filter4.png)
 
@@ -247,9 +247,7 @@ Build a simple sequence segment by dragging two [!UICONTROL Hit] containers to t
 邏輯群組容器必須將條件群組至單一循序區段查核點。 特殊邏輯群組容器僅適用於循序分段，以確保其條件在任何先前的循序查核點之後，以及任何後續的循序查核點之前皆符合。 邏輯群組查核點本身內的條件可依任何順序符合。 相反地，非循序容器（點擊、瀏覽、訪客）不需要在整個序列中符合其條件，如果與THEN運算子搭配使用，會產生不直覺的結果。
 邏輯 [!UICONTROL 群組容器] (Logic Group *container)可將數個查核點*&#x200B;視為群組 *,* 而不需在群組查核點間排序。 換句話說，我們不在乎該群組內的查核點順序。 例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。But instead, you can nest a [!UICONTROL Logic Group] container within a [!UICONTROL Visitor] container with specific [!UICONTROL Visit]-level and [!UICONTROL Hit]-level checkpoints.
 
->[!NOTE]
->
->A [!UICONTROL Logic Group] can only be defined in a sequential segment, meaning that the [!UICONTROL THEN] operator is used within the expression.
+> [!NOTE] 邏 [!UICONTROL 輯群組] ，只能在循序區段中定義，這表示運算式中使 [!UICONTROL 用THEN] 運算子。
 
 | 容器階層 | 插圖 | 定義 |
 |---|---|---|
@@ -399,7 +397,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 >[!IMPORTANT]
 >
->在「within」子句裡，您可以在「THEN」陳述式之間加入「within 1 search keyword instance」、「within 1 eVar 47 instance」之類的文字。這樣會將區段限制在某個維度的一個例項內。
+>在"within"子句中，在THEN語句之間，可以添加"within 1 search keyword instance"、"within 1 eVar 47 instance"。 這樣會將區段限制在某個維度的一個例項內。
 
 **範例**:瀏覽頁面A的訪客接著在5分鐘內瀏覽頁面B。
 
