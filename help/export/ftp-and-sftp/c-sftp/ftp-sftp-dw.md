@@ -1,28 +1,28 @@
 ---
-description: Adobe支援將Data Warehouse請求匯出至SFTP伺服器。
-keywords: ftp；sftp
-seo-description: Adobe支援將Data Warehouse請求匯出至SFTP伺服器。
-seo-title: 傳送資料倉庫請求至SFTP伺服器
+description: Adobe支援將資料倉庫請求匯出至SFTP伺服器。
+keywords: ftp;sftp
+seo-description: Adobe支援將資料倉庫請求匯出至SFTP伺服器。
+seo-title: 傳送 Data Warehouse 請求至 SFTP 伺服器
 solution: Analytics
-title: 傳送資料倉庫請求至SFTP伺服器
-uuid: 393634a1-0643-4d63-bb6 e-fb80 f1 ba76 c1
+title: 傳送 Data Warehouse 請求至 SFTP 伺服器
+uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 傳送資料倉庫請求至SFTP伺服器
+# 傳送 Data Warehouse 請求至 SFTP 伺服器
 
-Adobe支援將Data Warehouse請求匯出至SFTP伺服器。
+Adobe支援將資料倉庫請求匯出至SFTP伺服器。
 
 請確認下列工作已完成:
 
-如果符合下列條件，Adobe支援將Data Warehouse請求匯出至SFTP伺服器：
+Adobe支援將資料倉庫請求匯出至SFTP伺服器，但必須符合下列條件：
 
-* [!DNL sftp://] 通訊協定是在主機欄位中指定(例如， [!DNL sftp://ftp.example.com])，而只有連接埠22才會在請求「資料倉儲」報表時使用。
+* [!DNL sftp://] 通訊協定在主機欄位中指定(例如 [!DNL sftp://ftp.example.com])，且在請求「資料倉儲」報表時僅使用ONLY port 22。
 
-   You can also use the [!DNL sftp+norename://] option, as described below.
+   您也可以使用 [!DNL sftp+norename://] 選項，如下所述。
 
 * Adobe's [!DNL authorized_keys] file is in the [!DNL .ssh] directory within the root directory of the user you log in with
 
@@ -48,4 +48,4 @@ To successfully send a [!DNL Data Warehouse] request via SFTP:
 
 sftp PUT 命令會在指定的目錄中放置一個副檔名為 .part 的暫存檔。上傳完成後，該檔案的副檔名會重新命名為最終副檔名，此時即代表該檔案已可供您使用。
 
-Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. 當SFTP伺服器在自動上傳期間處理檔案重新命名時，此方法即適用，而且在上傳完成之前，也不可能處理檔案。
+Alternatively, [!DNL sftp+norename://] can be specified instead of [!DNL sftp://] to upload the file directly with the final name, without a temporary [!DNL .part] file name during upload. 當SFTP伺服器在自動上傳期間處理檔案重新命名，而且上傳完成之前，檔案不可能處理時，此方法就適用。
