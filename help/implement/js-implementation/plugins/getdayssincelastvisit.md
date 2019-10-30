@@ -8,8 +8,8 @@ subtopic: 外掛程式
 title: getDaysSinceLastVisit
 topic: 開發人員和實作
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[Analysis Workspace](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/) 現在包含立即可用的&#x200B;**[!UICONTROL 上次瀏覽間隔天數]**&#x200B;維度，因而不需要使用此外掛程式。
+>[分析工作區](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 現在包含自上 **[!UICONTROL 次瀏覽開始的天數維度]** ，因此無法使用此外掛程式。
 
 這項回訪頻率資料可用來解答下列問題:
 
@@ -30,9 +30,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 此外掛程式也可產生用於劃分的值。例如，您可以僅針對之前的 30 天或更長時間沒有使用者瀏覽的頁面建立一個分段，來檢視其所有的資料。
 
->[!NOTE]
->
->下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式的程式碼與實施 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -48,8 +46,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
-**外掛程式區段**
-將下列程式碼新增至 [!DNL s_code.js]*檔案中標示為* PLUGINS SECTION 的區域中。請勿對此部分的外掛程式程式碼進行任何變更。
+**外掛程式區段**&#x200B;將下列程式碼新增至 [!DNL s_code.js]*檔案中標示為* PLUGINS SECTION 的區域中。請勿對此部分的外掛程式程式碼進行任何變更。
 
 ```js
 /* 
