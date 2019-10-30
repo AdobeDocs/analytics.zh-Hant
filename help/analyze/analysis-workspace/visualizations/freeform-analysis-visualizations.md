@@ -8,7 +8,7 @@ title: 視覺效果概觀
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
   </tr> 
   <tr> 
    <td colname="col1"> <p>顯示雙軸 </p> </td> 
-   <td colname="col2"> <p>Only applies if you have two metrics - you can have a y-axis on the left (for one metric) and on the right (for the other metric). </p> </td> 
+   <td colname="col2"> <p>只有在您有兩個量度時才適用——左側（一個量度）和右側（另一個量度）可以有y軸。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顯示異常 </p> </td> 
