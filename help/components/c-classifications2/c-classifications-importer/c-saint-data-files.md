@@ -3,12 +3,12 @@ description: 匯入工具可讓您大量上傳分類資料至檔案中的分析�
 seo-description: 匯入工具可讓您大量上傳分類資料至檔案中的分析報告。匯入功能須有特定的檔案格式才能成功上傳資料。
 seo-title: 分類資料檔案
 solution: Analytics
-subtopic: '分類   '
+subtopic: 分類
 title: 分類資料檔案
 topic: 管理工具
-uuid: f27bb812-56e0-472a-9993-d869 f0 fa700
+uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: c0c4a3f42a7236c6f9e5001f5ca0ef9173dbaa66
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,9 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 * 分類不可包含脫字符號 (^)，因為此字元用於標示子分類。
 * 請謹慎使用連字號。例如，您若是在 Social 詞語中使用連字號 (-)，Social 會將連字號辨識為 [!DNL Not] 運算元 (減號)。For example, if you specify *`fragrance-free`* as a term using the import, Social recognizes the term as fragrance *`minus`* free and collects posts that mention *`fragrance`*, but not *`free`*.
-* 系統會強制使用字元限制來分類報告資料。For example, if you upload a classifications text file for products ( *`s.products`*) with product names longer than 100 characters (bytes), the products will not display in reporting. 追蹤程式碼和所有的自訂轉換變數 (eVar) 可以使用 255 個位元組。
+* 系統會強制使用字元限制來分類報告資料。例如，如果您上傳產品名稱超過100個字元（位元組）的產品( *`s.products`*)分類文字檔案，產品將不會顯示在報表中。 追蹤程式碼和所有的自訂轉換變數 (eVar) 可以使用 255 個位元組。
 * 以定位點分隔的資料檔案 (使用任何試算表應用程式或文字編輯器建立範本檔案)。
-* [!DNL .tab] 副檔名 [!DNL .txt] 。
+* Either a [!DNL .tab] or [!DNL .txt] file extension.
 * 井字號 (#) 能將文字行識別為使用者註解。Adobe 會略過任何開頭為 # 的文字行。
 * 兩個井字號再加上 SC (## SC) 能將文字行識別為報告使用的前處理標題註解。請勿刪除這些文字行。
 * 如果索引鍵中有新行字元，分類匯出可以有重複的索引鍵。在 FTP 或瀏覽器匯出中，這可透過開啟 FTP 帳戶的引號來解決。此功能會在含有新行字元的每個索引鍵周圍加上引號。
@@ -102,23 +102,19 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 ## 欄標題格式
 
->[!NOTE]
->
->Adobe 建議您將匯入和匯出上限設為 30 欄。
+> [!NOTE]Adobe 建議您將匯入和匯出上限設為 30 欄。
 
 分類檔案支援下列欄標題:
 
 ### 金鑰
 
-每個值在整個系統內必須是唯一的。The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site’s [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
+每個值在整個系統內必須是唯一的。The value in this field corresponds to a value assigned to the [!DNL Analytics] variable in your Web site's [!DNL JavaScript] beacon. Data in this column might include ~autogen~ or any other unique tracking code.
 
 ### 分類欄標題
 
 例如，Reports &amp; Analytics 會自動包含「[!UICONTROL 促銷活動]」變數的兩個分類:「[!UICONTROL 促銷活動]」和「[!UICONTROL 創作元素]」。若要將資料新增至「[!UICONTROL 促銷活動]」分類，則分類資料檔案中的欄標題應是「[!UICONTROL 促銷活動]」。
 
->[!NOTE]
->
->[!UICONTROL 分類] 欄標題中的值必須完全符合分類的命名慣例，否則匯入失敗。例如，若管理員在「[!UICONTROL 促銷活動設定管理員]」中將「[!UICONTROL 促銷活動]」變更為[!UICONTROL 內部促銷活動名稱]，則檔案欄標題也必須一併變更。
+> [!NOTE] 分類欄標題中 [!UICONTROL 的值] ，必須完全符合分類的命名慣例，否則匯入會失敗。 例如，若管理員在「[!UICONTROL 促銷活動設定管理員]」中將「[!UICONTROL 促銷活動]」變更為[!UICONTROL 內部促銷活動名稱]，則檔案欄標題也必須一併變更。
 
 此外，資料檔案支援以下額外的標題慣例，以便識別子分類和其他專業的資料欄:
 
@@ -132,7 +128,7 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 ### PER修飾詞標題
 
-*`Per Modifier`* 標題的表示方法是新增 *`~per`* 至分類量度標題。For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe supports the following *`PER Modifier`* keywords:
+*`Per Modifier`* 標題的表示方式是新 *`~per`* 增至分類度量標題。 For example, if the *`Metric`* heading is *`Campaigns^~Cost`*, the PER modifier heading is *`Campaigns^~Cost~per`*. Adobe支援下列關 *`PER Modifier`* 鍵字：
 
 這些字元在資料檔案中有具有特殊意義。因此請盡可能避免在屬性名稱和資料中使用這些文字。
 
@@ -158,9 +154,9 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 **EVENT:** 用報告內每行項目指定的自訂事件發生次數乘以該數值。
 
-**範例：** 如果促銷活動A的成本$10,000， [!UICONTROL Campaigns^~ Cost] 欄的值為10000， [!UICONTROL 而Campaigns^~Costper~] 欄則包含 [!UICONTROL FIXED]。在報告中顯示「促銷活動 A」的「成本」時，會在日期範圍內將 $10,000 顯示為「促銷活動 A」的固定成本。
+**** 範例：如果促銷活動A的成本為$10,000, [!UICONTROL Campaigns^~Cost] 欄會包含10000值，而 [!UICONTROL Campaigns^~~Costper] 欄會包含 [!UICONTROL FIXED]。 在報告中顯示「促銷活動 A」的「成本」時，會在日期範圍內將 $10,000 顯示為「促銷活動 A」的固定成本。
 
-**範例：** 如果促銷活動B的每次點按成本約為$， [!UICONTROL Campaigns^~ Cost] 欄會包含2， **[!UICONTROL 而Campaigns^~Costper~]** 欄則包含 [!UICONTROL CLICK]。When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. 這將為您提供基於促銷活動 B 所執行點按次數的總成本計算。
+**** 範例：如果促銷活動B的每次點按成本約為$2, [!UICONTROL Campaigns^~Cost] 欄會包含2，而 **[!UICONTROL Campaigns^~~Costper]** 欄會包含 [!UICONTROL CLICK]。 When displaying the Cost for Campaign B in the reports, Adobe calculates (2 * [number of clicks]) on the fly for the date range of the report. 這將為您提供基於促銷活動 B 所執行點按次數的總成本計算。
 
 ### 日期
 
@@ -168,27 +164,24 @@ See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric
 
 有關詳細資訊，請參閱「[轉換分類](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)」。
 
->[!NOTE]
->
->In the May 10, 2018, [!DNL Analytics] Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. 這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
+> [!NOTE] 在2018年5月10日的 [!DNL Analytics] 「維護」發行中，Adobe開始限制啟用日期和數值分類的功能。 這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
 
 ## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-[!UICONTROL 分類] 可用來指派日期範圍至促銷活動或其他轉換 [!UICONTROL 分類]，以便更精確地測量促銷活動。指定值的日期範圍後，發生在日期範圍以外的任何相符值都不會予以分類。如果想採用促銷活動的確實上線日期 (而非符合促銷活動的所有點擊) 來進行促銷活動測量，這個方法會很有用。為了成功分類某個日期範圍的值，必須符合下列條件:
+[!UICONTROL 分類] ，可用來指派日期範圍至促銷活動或其他轉換分 [!UICONTROL 類]，以便更精確地測量促銷活動。 指定值的日期範圍後，發生在日期範圍以外的任何相符值都不會予以分類。如果想採用促銷活動的確實上線日期 (而非符合促銷活動的所有點擊) 來進行促銷活動測量，這個方法會很有用。為了成功分類某個日期範圍的值，必須符合下列條件:
 
-* [!UICONTROL 分類] 必須根據轉換變數。
+* The [!UICONTROL classification] must be based on a conversion variable.
 * The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * 相關的日期範圍必須包含開始日期和 (可選) 結束日期。
 
 若要根據日期範圍來分類促銷活動:
 
-1. Log in to [!DNL Analytics] and go to Admin &gt; Classifications.
+1. 登入並 [!DNL Analytics] 前往「管理&gt;分類」。
 1. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]標籤，確定啟用日期的分類設定正確，然後按一下「匯出檔案」。**
 1. 在 Microsoft Excel 或您熟悉的其他試算表編輯器中開啟檔案。
-1. 其中一欄將終止於
+1. 其中一欄會以
 
-   ^~period~
-which is the column to enter the date range in.
+   ^~期間~，此欄是要輸入日期範圍的欄。
 1. 在該欄下方，以下列格式輸入每個值的日期範圍:
 
    `YYYY/MM/DD - YYYY/MM/DD`。並確保:
@@ -198,11 +191,9 @@ which is the column to enter the date range in.
    * 如果月或天是一位數，需加上前置零。
    * 必須有開始日期範圍，但結束日期範圍為選用。
 
-1. Save the file, and upload it to [!DNL Analytics] by going to Admin | Classifications | Import File.
+1. 儲存檔案，並前往「管理 [!DNL Analytics] 員」將其上傳|分類|匯入檔案。
 
->[!NOTE]
->
->特定的關鍵值不能超過一個日期範圍。
+> [!NOTE] 特定索引鍵值不能有超過一個日期範圍。
 
 ## 分類疑難排解
 
