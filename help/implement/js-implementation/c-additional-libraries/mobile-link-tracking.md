@@ -1,13 +1,13 @@
 ---
 description: 'null'
-keywords: Analytics實作；連結參考；redir
+keywords: Analytics 實施;連結參考;重新導向
 seo-description: 'null'
 seo-title: 行動通訊協定上的自訂連結測量
 solution: Analytics
 title: 行動通訊協定上的自訂連結測量
-topic: 開發人員和實施
-uuid: eb82de26-da2 e-41c2-8924-59b6 b5 ccf28
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: eb82de26-da2e-41c2-8924-59b6b5ccef28
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
