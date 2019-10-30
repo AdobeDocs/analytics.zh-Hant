@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 伺服器呼叫使用量概述
 title: 伺服器呼叫使用量概述
-uuid: 6e014364-efc1-4769-a0 b5-cf105 c0 ed9 b1
+uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服器呼叫使用量資料透明化的請求。其可讓您存取:
 
 * 「伺服器呼叫使用量」控制面板，用於追蹤伺服器呼叫耗用量資料，並將其與合約限制進行比較。(**[!UICONTROL 「分析 &gt; 管理員 &gt; 伺服器呼叫使用量」]**)
-* A Server Call Usage alert type in the Alert Builder that lets you set up alerts to prevent overages (**[!UICONTROL Analytics &gt; Components &gt;Alerts]**)
+* 警報產生器中的「伺服器呼叫使用狀況」警報類型，可讓您設定警報以防止超量(**[!UICONTROL Analytics &gt;元件&gt;警報]**)
 
 伺服器呼叫使用量的主要幾項好處如下:
 
@@ -29,7 +29,7 @@ Previously, while you could access monthly server call consumption data under  *
 ## 必備條件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **權限**: 若要存取「伺服器呼叫使用量」控制面板和「警報產生器/管理器」，您必須是 Adobe Analytics 管理員。
-* **權限**：管理員可以授與非管理員的存取權：權限稱為 **[!UICONTROL 「伺服器呼叫使用情形]**」。請參閱[伺服器呼叫使用量權限](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **權限**:管理員可授予非管理員的存取權：此權限稱為「伺 **[!UICONTROL 服器呼叫使用」]**。 請參閱[伺服器呼叫使用量權限](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## 重要術語 {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -45,7 +45,7 @@ Previously, while you could access monthly server call consumption data under  *
  <tbody> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫 </p> </td> 
-   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。伺服器呼叫最常見的類型是頁面檢視。當訪客在您的網站上檢視頁面並呼叫伺服器呼叫時，會發生頁面檢視，並將資訊收集、處理和包含在您的報表量度中。 </p> <p>另外還有其他類型的伺服器呼叫，包括退出連結與檔案下載；在此處資料會傳送至 Adobe 進行處理，但這些呼叫不會記錄為新的頁面檢視。即使是「已排除的」頁面檢視 (例如，被您所設定的 IP 位址範圍排除在報告外) 也是伺服器呼叫，因為這些檢視都會由 Adobe 接收並處理，但一律不會在您的報告中顯示。 </p> <p><b>主要伺服器呼叫</b>: 從網站訪客瀏覽器或「資料插入 API」直接收到的請求。包含主要點擊 (頁面檢視)、主要自訂事件、主要下載事件，以及主要退出事件。 </p> <p><b>次要伺服器呼叫</b>: 多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個Mobile SDK收到請求。包括trackAction、trackState、trackApp Crues、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrement。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意: 如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
+   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。伺服器呼叫最常見的類型是頁面檢視。當訪客檢視您網站上的頁面，並產生伺服器呼叫至Adobe時，會發生頁面檢視，在此處會收集、處理資訊，然後加入您的報表量度。 </p> <p>另外還有其他類型的伺服器呼叫，包括退出連結與檔案下載；在此處資料會傳送至 Adobe 進行處理，但這些呼叫不會記錄為新的頁面檢視。即使是「已排除的」頁面檢視 (例如，被您所設定的 IP 位址範圍排除在報告外) 也是伺服器呼叫，因為這些檢視都會由 Adobe 接收並處理，但一律不會在您的報告中顯示。 </p> <p><b>主要伺服器呼叫</b>: 從網站訪客瀏覽器或「資料插入 API」直接收到的請求。包含主要點擊 (頁面檢視)、主要自訂事件、主要下載事件，以及主要退出事件。 </p> <p><b>次要伺服器呼叫</b>: 多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動SDK收到請求。 包含trackAction、trackState、trackApp當機、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意: 如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳單公司 (計費 ID) </p> </td> 
@@ -63,7 +63,7 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 組織 </p> </td> 
-   <td colname="col2"> <p>組織是可讓管理員設定群組及使用者，以及控制 Experience Cloud 中單一登入的實體。組織的運作方式就像登入公司，涵蓋所有Experience Cloud產品和解決方案。 </p> <p>最常見的組織就是您的公司名稱。不過，公司可以有許多組織。 </p> </td> 
+   <td colname="col2"> <p>組織是可讓管理員設定群組及使用者，以及控制 Experience Cloud 中單一登入的實體。該組織的運作方式類似登入公司，涵蓋所有Experience cloud產品和解決方案。 </p> <p>最常見的組織就是您的公司名稱。不過，公司可以有許多組織。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫承諾使用量 </p> </td> 
@@ -75,7 +75,7 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>合約期間 </p> </td> 
-   <td colname="col2"> <p>合約期間可以持續多年。假設您的公司有 600 萬次呼叫的伺服器呼叫承諾使用量，合約時間為期 3 年。針對伺服器呼叫使用監控的目的，此三年期間可細分為較小的使用期間，以促進年度比較。 </p> </td> 
+   <td colname="col2"> <p>合約期間可以持續多年。假設您的公司有 600 萬次呼叫的伺服器呼叫承諾使用量，合約時間為期 3 年。為了監控伺服器呼叫的使用情況，可將此3年期間細分為較小的使用期間，以利年與年的比較。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -84,9 +84,7 @@ Previously, while you could access monthly server call consumption data under  *
 
 伺服器呼叫使用量權限會自動授予 Analytics 管理員。該權限可讓使用者檢視控制面板，並建立伺服器呼叫警報。管理員可以選擇將這些權限授予非管理員使用者。
 
->[!NOTE]
->
->您的公司可以選擇哪些登入公司可以存取伺服器呼叫使用權。
+> [!NOTE] 您的公司可以選擇哪些登入公司可以存取伺服器呼叫使用。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
@@ -106,7 +104,7 @@ Previously, while you could access monthly server call consumption data under  *
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
-     <li id="li_56FF685A3B454ECEA5F16BB591A60034">登入login. experiencecloud. adobe. com。</li> 
+     <li id="li_56FF685A3B454ECEA5F16BB591A60034">登入login.experiencecloud.adobe.com。</li> 
      <li id="li_FA1AE0F19DEF4AB2AA77B22CCA2995F9">按一下<span class="uicontrol">「Analytics」</span>。 </li> 
      <li id="li_22A4CBB84B5A451780873BBE67E6E6EF">導覽至<span class="ignoretag"><span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">伺服器呼叫使用量」</span></span> </li> 
     </ol> </td> 
