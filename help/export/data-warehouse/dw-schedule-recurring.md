@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 排程循環請求
 title: 排程循環請求
-uuid: 8eBeb78c-23a0-4b39-a63 e-51835e0677 a
+uuid: 8ebeb78c-23a0-4b39-a63e-51835e0677a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,5 +25,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/dw_schedule.png)
 
-1. Click **[!UICONTROL Schedule]**.
+1. 按一下&#x200B;**[!UICONTROL 排程]**。
 
