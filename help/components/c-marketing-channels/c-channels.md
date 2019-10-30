@@ -1,23 +1,23 @@
 ---
-description: 在行銷渠道管理員中新增或啓用行銷渠道。對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
-seo-description: 在行銷渠道管理員中新增或啓用行銷渠道。對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
+description: 在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
+seo-description: 在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
 seo-title: 管理行銷渠道
 solution: Analytics
 subtopic: 行銷渠道
 title: 管理行銷渠道
-topic: Reports & Analytics
-uuid: 9d367bb6-a17 b-49b8-9cd5-24fac35 ae982
+topic: Reports and Analytics
+uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 管理行銷渠道
 
-在行銷渠道管理員中新增或啓用行銷渠道。對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
+在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
 
-## Manage marketing channels {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
+## 管理行銷渠道 {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
 
 Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
 
@@ -32,16 +32,14 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 
 在行銷管道管理員中新增行銷管道。
 
->[!NOTE]
->
->您無法刪除渠道。如果不想使用渠道，則可停用或重新命名它，並保留以備將來之用。
+> [!NOTE] 您無法刪除渠道。 如果不想使用渠道，則可停用或重新命名它，並保留以備將來之用。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. 在[!UICONTROL 「報告套裝管理員」]頁面上，選擇一個報告套裝。
 
    如果選擇多個報表套裝，請選擇一個範本，將範本設定複製到所選的報表套裝。
 
-   請參閱[套用範本報表套裝設定至多個報表套裝](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)。
+   請參閱 [套用範本報表套裝設定至多個報表套裝](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
