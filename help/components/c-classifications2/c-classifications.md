@@ -8,14 +8,14 @@ title: 關於分類
 topic: 管理工具
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 關於分類
 
-A classification is a way of categorizing Analytics variable data, then displaying the data in different ways when you generate reports.
+分類是將Analytics變數資料分類，然後在您產生報表時以不同方式顯示資料的方式。
 
 「[Analytics 分類](https://video.tv.adobe.com/v/16853/?captions=chi_hant)」的影片概述。
 
@@ -23,7 +23,7 @@ A classification is a way of categorizing Analytics variable data, then displayi
 
 您在分類時，建立變數和與該變數相關之中繼資料間的關係。分類最常在促銷活動中使用。可以將中繼資料套用到變數中收集的值，以彙總使用變數 (eVar、prop 和事件) 資訊收集的資料。
 
-![Step Info](assets/sub_class_create.png)
+![步驟資訊](assets/sub_class_create.png)
 
 分類後，透過代碼資料產生的任何報告，亦可透過相關聯的屬性產生。例如，您可以使用其他的產品屬性將「[!UICONTROL 產品 ID]」分類，例如產品名稱、顏色、大小、說明和 SKU。利用其他屬性加強 Reports &amp; Analytics 資料可提供更深和更複雜的報告機會。
 
@@ -31,9 +31,7 @@ A classification is a way of categorizing Analytics variable data, then displayi
 >
 >匯入數值 2 與日期啟用分類的功能已自基底程式碼移除。此變更預計於 2019 年 6 月維護版本中生效。若您的匯入檔案中含有數值或日期啟用欄，系統會自動忽略這些儲存格，至於該檔案中的其他所有資料都將正常匯入。您仍可透過標準分類工作流程匯出現有分類，並繼續在報表中使用。
 
->[!NOTE]
->
->In the May 10, 2018, Analytics Maintenance release, Adobe started to limit the functionality of date-enabled and numeric classifications. 這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
+> [!NOTE] 在2018年5月10日的Analytics維護髮行中，Adobe開始限制啟用日期和數值分類的功能。 這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
 
 建立分類後，您可以在整個Adobe Analytics中運用新的資料屬性。
 
@@ -45,7 +43,7 @@ Reports &amp; Analytics 包含追蹤程式碼變數預先定義分類，提供�
 
 請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)」。
 
-下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱「 General File Structure before uploading data files.[](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE)
+下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱「 上傳 [資料檔案之前](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) ，先使用一般檔案結構。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
