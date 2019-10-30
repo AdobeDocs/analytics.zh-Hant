@@ -7,8 +7,8 @@ solution: Analytics
 title: Facebook 即時文章
 topic: 開發人員和實作
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 如何在 Facebook 即時文章中實施。
 
-Facebook 即時文章提供發佈者於 Facebook 上快速建立互動式文章的新方法。即時文章載入內容的速度快達行動網路的十倍。
+Facebook 即時文章 是出版業者在Facebook上建立快速互動文章的新方法。 即時文章載入內容的速度快達行動網路的十倍。
 
 Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動時追蹤其行為。由於發佈者的內容發佈於 Facebook 應用程式內，而非發佈者的網站，則標記方法與標準 Analytics 實施略有不同。
 
@@ -82,7 +82,7 @@ Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動
    1. 貴公司的追蹤伺服器網域。
    1. 您的訪客命名空間變數。**請注意:** 您的標準 Analytics 實施中可找到許多此類數值。若有需要，客戶服務或 Adobe 諮詢可以協助提供適當的數值。
 
-1. [設定自訂變數及事件追蹤](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)。
+1. [設定自訂變數及事件追蹤](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. 納入頁面檢視影像要求語法 `( s.t())`。
 
 ## 步驟 3.設定自訂變數及事件追蹤 {#section_932C41BD21154C25B99389299BDF3E0B}
