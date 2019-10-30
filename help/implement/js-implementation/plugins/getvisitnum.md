@@ -1,14 +1,14 @@
 ---
 description: getVisitNum 外掛程式可判斷某個使用者對您的網站的瀏覽次數，並將此數目擷取到 Analytics 變數中。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: getVisitNum 外掛程式可判斷某個使用者對您的網站的瀏覽次數，並將此數目擷取到 Analytics 變數中。
 seo-title: getVisitNum
 solution: Analytics
 subtopic: 外掛程式
 title: getVisitNum
-topic: 開發人員和實施
-uuid: 27d57f92-fffb-44d0-b9 ca-9da93323 f64 c
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 27d57f92-fffb-44d0-b9ca-9da93323f64c
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -24,13 +24,13 @@ getVisitNum 外掛程式可判斷某個使用者對您的網站的瀏覽次數�
 
 **外掛程式設定**
 
-將下列程式碼放入&#x200B;*`s_doPlugins()`* 函數 *`s_code.js`***。選擇一個自訂流量 (s.prop) 變數或一個自訂轉換 (s.eVar) 變數，用於瀏覽次數資料的擷取。此變數應為已使用管理控制台加以啟用，但目前未做其他用途的變數。您可以使用下列範例，並根據您的需求加以更新。
+將下列程式碼放入&#x200B;*`s_doPlugins()`* 函數中，此函數位於 *`s_code.js`* 檔案中標示為 *Plugin Config* 的區域中。選擇一個自訂流量 (s.prop) 變數或一個自訂轉換 (s.eVar) 變數，用於瀏覽次數資料的擷取。此變數應為已使用管理控制台加以啟用，但目前未做其他用途的變數。您可以使用下列範例，並根據您的需求加以更新。
 
 `s.prop1=s.getVisitNum();`
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 **外掛程式區段**: 將下列程式碼新增至 [!DNL s_code.js] 檔案中標示為 PLUGINS SECTION 的區域中。請勿對此部分的外掛程式程式碼進行任何變更。
 
