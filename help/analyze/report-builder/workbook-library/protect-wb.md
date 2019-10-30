@@ -5,9 +5,9 @@ seo-title: 鎖定/解除鎖定活頁簿
 solution: Analytics
 title: 鎖定/解除鎖定活頁簿
 topic: Report Builder
-uuid: ef5c276c-5f74-4741-b6 fa-4c79 eda29 f62
+uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ To unprotect a workbook, click **[!UICONTROL Unlocked]** ( ![](assets/unlocked_i
 * 您是管理員，或者
 * 您是一開始鎖定活頁簿的人。在這種情況下，您就不需要是管理員。
 
->[!NOTE]
->
->除非您擁有解除鎖定活頁簿的權限，否則無法將請求新增至受保護的活頁簿。
+> [!NOTE] 除非您擁有解除鎖定活頁簿的權限，否則無法將請求新增至受保護的活頁簿。
 
 當活頁簿已鎖定而無法編輯請求時，
 
@@ -56,15 +54,15 @@ If you try to edit a protected workbook (through the context menu, or **[!UICONT
 
 假設活頁簿 A 有一個處於鎖定狀態的請求，而該請求是由使用者 A 建立。
 
-**範例1：管理員使用者(或使用者A)**
+**範例1:管理員使用者（或使用者A）**
 
 1. 使用者登入 Report Builder，並開啟活頁簿 
-1. 活頁簿 A 目前已鎖定，因此工具列中的「建立請求」按鈕為停用狀態，其他按鈕的功能也因為鎖定而停用。
+1. 活頁簿A目前已鎖定，因此工具列中的「建立請求」按鈕會停用，而其他所有按鈕的功能則會因鎖定而停用。
 1. 如果使用者嘗試使用其中一個已停用的按鈕，則會出現訊息說明此活頁簿目前已遭鎖定。
 1. 使用者可解除鎖定活頁簿，如此便可啟用所有編輯功能。
 1. 解除鎖定之後，活頁簿會保持在已解鎖狀態，直到重新鎖定為止。
 
-**範例2：非管理員使用者(使用者B)**
+**範例2:非管理員使用者（使用者B）**
 
 1. 使用者登入 Report Builder，並開啟活頁簿 
 1. 使用者無法新增/編輯請求。
