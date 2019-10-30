@@ -5,9 +5,9 @@ seo-title: 重新整理請求
 solution: Analytics
 title: 重新整理請求
 topic: Report Builder
-uuid: bb94cfc6-027b-4134-adc8-56a1 ea7 cc56 b
+uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,6 +26,6 @@ source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
    **現在日期:**&#x200B;重新整理的基礎日期。亦稱為[!UICONTROL 截止]日期。
 
    **將後續的重新整理動作設為目前的日期:** 啟用此選項以要求 Report Builder 一律使用目前日期作為「[!UICONTROL 現在]」或 (「[!UICONTROL 截止]」) 日期。您可以按一下工具列中的「[!UICONTROL 選項]」來回復這項設定。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
    當重新整理作業順利完成時，系統會在[!UICONTROL 「請求管理員]」中顯示綠色圖示來報告這項資訊。
