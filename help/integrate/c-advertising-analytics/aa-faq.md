@@ -5,7 +5,7 @@ seo-title: 常見問題集
 title: 常見問題集
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 我可以將<b>虛擬報表套裝</b> (VRS) 指派給 Advertising Analytics 帳戶嗎? </p> </td> 
-   <td colname="col2"> <p>答: 虛擬報表套裝不會收集資料，所以您無法將 Advertising Analytics 帳戶直接對應至 VRS。 </p> <p>不過，您可以針對要查看資料的 VRS，將 Advertising Analytics 帳戶對應到 VRS 的上層報表套裝。 </p> <p>搜尋引擎量度 (點擊次數/成本/曝光數) 可能不會在 VRS 中顯示，除非您在以 AMO ID (或其分類) 為基礎的區段邏輯中，包含了「or」條件。例如: 新增「有 AMO ID 的所有點擊」會包含區段中的搜尋引擎量度。 </p> </td> 
+   <td colname="col2"> <p>答: 虛擬報表套裝不會收集資料，所以您無法將 Advertising Analytics 帳戶直接對應至 VRS。 </p> <p>不過，您可以針對要查看資料的 VRS，將 Advertising Analytics 帳戶對應到 VRS 的上層報表套裝。 </p> <p>搜尋引擎量度（點按／成本／印象）可能不會顯示在VRS中，除非您根據AMO ID（或其分類）在區段邏輯中加入「或」條件。 範例：新增「AMO ID存在的所有點擊」會將搜尋引擎度量包含在區段中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: <b>行銷管道</b>報表可以報告 Advertising Analytics 度量嗎? </p> </td> 
@@ -115,7 +115,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 我們是否僅擷取 google.com，還是也會擷取其他<b>國家版本</b> (例如 google.co.uk、google.it、google.fr 或 google.de)? </p> </td> 
-   <td colname="col2"> <p>答：「廣告平台」分類會擷取下列值：「Google Adwords」和「Bing Ads」。 </p> <p>常用的最佳作法就是將國碼納入行銷活動命名的一部分。然後您可以往下篩選或區隔 (例如，如果所有的行銷活動以國碼為開頭，那就建立一個區段，其中的行銷活動 (AMO ID) 是以「UK_」為開頭，僅提供您英國的資料)。 </p> </td> 
+   <td colname="col2"> <p>答：「廣告平台」分類會擷取下列值：「Google Adwords」和「Bing Ads」。 </p> <p>常用的最佳作法就是將國碼納入行銷活動命名的一部分。然後您可以篩選或區段(例如，如果所有促銷活動都以countrycode_開頭，然後建立區段，其中促銷活動(AMO ID)以"UK_"開頭，將僅提供英國的資料)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 「AMO 成本」量度是按照搜尋引擎的報告為每個關鍵字/廣告支付的成本。這是淨成本或總成本? </p> </td> 
