@@ -1,13 +1,13 @@
 ---
 description: 請確定從伺服器指令碼或程式碼填入的變數無法輸出任何會對值造成干擾的引號。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 請確定從伺服器指令碼或程式碼填入的變數無法輸出任何會對值造成干擾的引號。
 seo-title: 變數和值
 solution: Analytics
 title: 變數和值
-topic: 開發人員和實施
-uuid: 2ff4857a-9451-4794-9146-f417 abd1 d1 ba
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -28,7 +28,7 @@ s.pageName='Company's Information'
 
 產品變數中請勿使用 $、™、®、© 或逗號 (,)。一般而言，這些字元在任何 [!DNL Analytics] 變數中皆無效用，並且可能干擾到解譯或匯出欄位的能力。最理想的作法是將字元限定為前 127 個 ASCII 字元。
 
-Ensure that the events variable is populated with an appropriate value ( [!UICONTROL prodView], [!UICONTROL purchase], [!UICONTROL scAdd], [!UICONTROL scRemove], [!UICONTROL scOpen], or event1-event5) whenever *`products`* is populated. 請確定所有 [!DNL Analytics] 變數和函數的大小寫都保持不變，如下所示。
+確保每當填入 *`products`* 時，事件變數皆已填入適當的值 ([!UICONTROL prodView]、[!UICONTROL purchase]、[!UICONTROL scAdd]、[!UICONTROL scRemove]、[!UICONTROL scOpen] 或 event1-event5)。請確定所有 [!DNL Analytics] 變數和函數的大小寫都保持不變，如下所示。
 
 ```js
 s.pageName 
@@ -50,6 +50,6 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 >[!NOTE]
 >
->無法在報表內結合多個頁面記錄。
+>報表中無法結合多筆頁面記錄。
 
-請驗證[!UICONTROL 「自訂連結」]報表中有連結的報告資料。請確定傳入 [!UICONTROL tl] 函數中的參數正確無誤。如需[!UICONTROL 自訂連結]的詳細資訊，請參閱 [連結追蹤](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
+請驗證[!UICONTROL 「自訂連結」]報表中有連結的報告資料。請確定傳入 [!UICONTROL tl] 函數中的參數正確無誤。如需[!UICONTROL 自訂連結]的詳細資訊，請參閱[連結追蹤](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
