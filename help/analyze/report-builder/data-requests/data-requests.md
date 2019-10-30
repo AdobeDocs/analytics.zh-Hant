@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 資料請求-請求精靈步驟1
-title: 資料請求-請求精靈步驟1
-uuid: 717542c-e4 aa-4e00-b0 ca-caddd219 d13
+seo-title: 資料請求 - 請求精靈步驟 1
+title: 資料請求 - 請求精靈步驟 1
+uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 1e7dc9c769a9980e7b60bd395e7c68d5e446dae3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料請求-請求精靈步驟1
+# 資料請求 - 請求精靈步驟 1
 
 在「請求精靈: 步驟 1」表單中，您可以選擇報表套裝、報表類型、區段及設定日期。
 
@@ -26,9 +26,9 @@ source-git-commit: 1e7dc9c769a9980e7b60bd395e7c68d5e446dae3
 
 1. **允許發佈清單覆蓋**：在排程報表時，您可選取要用於散佈的發佈清單。Publishing lists are set up in **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin tools]**. 指派給發佈清單中每位收件者的報表套裝 ID 會取代此請求的報表套裝。請參閱 [允許發佈清單覆蓋](../../../analyze/report-builder/data-requests/allow-publishing-list-overrides.md#concept_BCB19A20DC4B4B8D984F9670EE018D8C).
 
-1. **報表類型**：指定要在資料請求中執行基礎報表。您可以針對每個請求執行一份報表，且報表能具有一對多維度和一對多度量。報表類型的度量和維度會顯示在「[!UICONTROL 請求精靈: 步驟 2]」介面中。請參閱[選取報表類型](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)。
+1. **報表類型**：指定要在資料請求中執行基礎報表。您可以針對每個請求執行一份報表，且報表能具有一對多維度和一對多度量。報表類型的度量和維度會顯示在「[!UICONTROL 請求精靈: 步驟 2]」介面中。請參閱 選 [擇報表類型](../../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC)。
 
-1. **日期範圍**：定義請求涵蓋的時間間隔。有幾種請求期間類型可使用，如預置、固定及遞延。期間的最大值為 366。您也可以選擇由儲存格指定的日期範圍，然後再將日期範圍儲存為範本以供日後使用。See [Configuring Report Dates](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
+1. **日期範圍**：定義請求涵蓋的時間間隔。有幾種請求期間類型可使用，如預置、固定及遞延。期間的最大值為 366。您也可以選擇由儲存格指定的日期範圍，然後再將日期範圍儲存為範本以供日後使用。請參閱 [設定報表日期](../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)
 
 1. **套用詳細程度**：指定報表所包含之時間詳細資料的等級。請參閱 [粒度](../../../analyze/report-builder/data-requests/configuring-report-dates/granularity.md#concept_A13CBA2962E24FF882456135431B7ADB).
 
