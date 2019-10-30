@@ -1,32 +1,32 @@
 ---
 description: 本節包含核心 JavaScript 檔案與網站頁面的範例程式碼。
-keywords: Analytics實作；appmeasurement. js代碼；範例頁面程式碼
+keywords: Analytics 實施;AppMeasurement.js 程式碼;範例頁面程式碼
 seo-description: 本節包含核心 JavaScript 檔案與網站頁面的範例程式碼。
-seo-title: 頁面程式碼和全域組態範例
+seo-title: 範例頁面程式碼和全域設定
 solution: Analytics
 subtopic: JavaScript AppMeasurement
-title: 頁面程式碼和全域組態範例
-topic: 開發人員和實施
-uuid: e8880d77-172b-42e5-8187-ce371 aa9 f9
-translation-type: tm+mt
+title: 範例頁面程式碼和全域設定
+topic: 開發人員和實作
+uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 頁面程式碼和全域組態範例
+# 範例頁面程式碼和全域設定
 
 本節包含核心 JavaScript 檔案與網站頁面的範例程式碼。
 
 >[!IMPORTANT]
 >
->This example uses the visitor ID service, which is deployed as part of your [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md). 將訪客 API JavaScript 檔案加入所有網站頁面前就先在 AppMeasurement 中啟用訪客 ID 服務，會造成重複訪客計數。為了避免重複訪客計數，請務必了解並遵循 [訪客 ID 服務](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07).
+>此範例使用訪客 ID 服務，這已部署為 [JavaScript 實施](../../implement/js-implementation/javascript-implementation-overview.md)的一部分。將訪客 API JavaScript 檔案加入所有網站頁面前就先在 AppMeasurement 中啟用訪客 ID 服務，會造成重複訪客計數。為了避免重複訪客計數，請務必了解並遵循[訪客 ID 服務](../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)。
 
 ## AppMeasurement.js 範例程式碼 {#section_4351543F2D6049218E18B48769D471E2}
 
 >[!IMPORTANT]
 >
->Configuration variables should be set above the *`doPlugins`* function.
+>設定變數應在 *`doPlugins`* 函數之上設定。
 
 若是新的實施，您可將下列全域組態程式碼貼到 AppMeasurement.js 檔案的開頭，以開始使用:
 
@@ -85,7 +85,7 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 
 ## 頁面程式碼範例 {#section_042412C29CC249E298F19B2BC2F43CE7}
 
-對於新實施，您可以在開啓後貼上下列頁面程式碼 <body> 標籤上的標記：
+若是新的實施，您可將下列頁面程式碼貼到您要追蹤之頁面上的開頭 <body> 標籤的後面:
 
 ```js
 <script language="JavaScript" type="text/javascript"><!-- 
@@ -115,4 +115,4 @@ s.eVar5=""
 var s_code=s.t();if(s_code)document.write(s_code)//--></script>
 ```
 
-也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。See [JavaScript Implementation](../../implement/js-implementation/javascript-implementation-overview.md) for instructions.
+也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。如需指示，請參閱 [JavaScript 實施](../../implement/js-implementation/javascript-implementation-overview.md)。
