@@ -1,13 +1,13 @@
 ---
 description: Analytics 中使用的自訂變數清單。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: Analytics 中使用的自訂變數清單。
 seo-title: 自訂變數
 solution: Analytics
 title: 自訂變數
-topic: 開發人員和實施
-uuid: 54adf622-7f05-49c0-b7 e6-702bb2 f17 b1 c
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 54adf622-7f05-49c0-b7e6-702bb2f17b1c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
