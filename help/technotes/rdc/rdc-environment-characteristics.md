@@ -4,20 +4,20 @@ seo-title: Adobe Analytics RDC環境特性
 description: null
 seo-description: null
 translation-type: tm+mt
-source-git-commit: 1fdd14497171dbf5850ec1b1d873a06931d58435
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # RDC環境特性
 
-地區資料收集(RDC)環境包括如下所述的特性。
+區域資料收集(RDC)環境包含下述特性。
 
 ## 改善效能
 
-For current response times when using RDC, see [Adobe Analytics Request Performance](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/).
+如需使用RDC時的目前回應時間，請參 [閱Adobe Analytics請求效能](https://marketing.adobe.com/resources/help/en_US/whitepapers/performance/)。
 
-一般來說，使用者對RDC的回應時間會有所改善，如下所示：
+一般而言，使用者在RDC上的回應時間已改善，如下所示：
 
 | 地區 | RDC 降低的回應時間 |
 | --- | --- |
@@ -43,7 +43,7 @@ For current response times when using RDC, see [Adobe Analytics Request Performa
 
 ## 安全頁面
 
-如果您的網站包含使用https通訊協定的頁面，則您有安全頁面。大部分由Adobe Analytics追蹤的頁面檢視都會使用https通訊協定受到保護。安全頁面需要 SSL 憑證才能追蹤。如果您的Web屬性使用第三方Cookie，則您的安全頁面會使用Adobe擁有的SSL憑證，這可讓資料安全地傳送至我們的資料收集伺服器，而不需要FPSSL實施。
+如果您的網站包含使用https通訊協定的頁面，您就擁有安全的頁面。 Adobe Analytics追蹤的大部分頁面檢視都是使用https通訊協定來保護的。 安全頁面需要 SSL 憑證才能追蹤。如果您的Web屬性使用第三方Cookie，則您的安全頁面會使用Adobe擁有的SSL憑證，這可讓資料安全地傳送至我們的資料收集伺服器，而不需進行FPSSL實作。
 
 ## DNS 變更 (CNAME 更新)
 
