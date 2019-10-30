@@ -7,7 +7,7 @@ title: 新的報表套裝 - 設定
 topic: 管理工具
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 建立報表套裝時[所使用元素的說明](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 
->[!NOTE]
->
->The [Virtual Report Suite documentation](/help/components/vrs/c-workflow-vrs/vrs-create.md) shows you how to create virtual report suites.
+> [!NOTE] 「虛 [擬報表套裝」檔案](/help/components/vrs/c-workflow-vrs/vrs-create.md) ，會顯示如何建立虛擬報表套裝。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
