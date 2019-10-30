@@ -7,7 +7,7 @@ title: 流量來源報表
 topic: Ad Hoc Analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -71,7 +71,7 @@ c_reports_ref_domains.xml
 
  -->
 
-顯示對網站「成功量度」影響最大的客戶的引薦網域。反向連結分為 2 種主要類別: 網域與 URL。「網域」指的是網域名稱，以不含查詢字串或子目錄的基本網域形式出現。URL 包括基本網域名稱，亦包括任意查詢字串或子目錄。
+顯示對網站的「成功量度」影響最大之客戶的反向連結網域。反向連結分為 2 種主要類別: 網域與 URL。「網域」指的是網域名稱，以不含查詢字串或子目錄的基本網域形式出現。URL 包括基本網域名稱，亦包括任意查詢字串或子目錄。
 
 ## 原始反向連結網域 {#concept_EB18251DF70343169B46BB59543A579A}
 
@@ -99,13 +99,11 @@ c_reports_referrers.xml
 
 See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/reference/internal_URL_filter_admin.html) in the [!DNL Admin Console] help for more information.
 
->[!NOTE]
->
->Marketing reports and analytics records a referring domain as an email when visitors click an emailed message link containing the protocol [!DNL imap://] or [!DNL mail://] and arrive at your site. 例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
+> [!NOTE] 當訪客點按包含通訊協定的電子郵件連結或進入您的網站時，行銷報告與分析會將反向連結網 [!DNL imap://] 域 [!DNL mail://] 記錄為電子郵件。 例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
 
 ## 反向連結類型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
-透過追蹤並記錄每次瀏覽的訪客反向連結位置，您可以瞭解每次瀏覽中訪客找到您網站的方式。
+透過追蹤並記錄每次瀏覽的訪客反向連結網站，您可以決定每次瀏覽的訪客如何找到您的網站。
 
 <!-- 
 
@@ -120,7 +118,7 @@ c_reports_ref_types.xml
 * 以下情形會記錄&#x200B;*分類/建立書籤*&#x200B;反向連結:
 
    * 如果訪客透過非瀏覽器連結進入您的網站 (例如透過電子郵件)。
-   * 如果訪客在瀏覽器中直接輸入您網站的 URL。
+   * 如果訪客將您網站的URL直接輸入其瀏覽器。
    * 如果訪客按一下其個人硬碟上的 HTML 連結。
    * 如果訪客經由選取瀏覽器書籤而存取您的網站。
 
@@ -134,7 +132,5 @@ c_reports_ref_types.xml
 
 **USENET (新聞群組)**: 這表示反向連結的 URL 是以 `news://` :// 開頭的。因此，反向連結被發佈在 Usenet 新聞群組上，而不是網頁上。
 
->[!NOTE]
->
->Referrer Type logic matches other traffic sources reports (such as [!UICONTROL Referrers] and [!UICONTROL Referring Domains]). 這應該會使[!UICONTROL 「反向連結類型」]報表中較少或完全不會出現「網站內」和「無 JavaScript」 明細項目。
+> [!NOTE] 「反向連結類型」邏輯與其他流量來源報表(例如 [!UICONTROL 「反向連結] 」 [!UICONTROL 和「反向連結網域]」)相符。 這應該會使[!UICONTROL 「反向連結類型」]報表中較少或完全不會出現「網站內」和「無 JavaScript」 明細項目。
 
