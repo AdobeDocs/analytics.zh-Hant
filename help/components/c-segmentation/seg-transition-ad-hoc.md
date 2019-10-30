@@ -1,14 +1,14 @@
 ---
 description: 如果您習慣使用「Ad Hoc Analysis」中的「區段產生器」，本 FAQ 將說明現有區段和資料夾的變更，以及您需要採取的行動。
-keywords: 區段；區段
+keywords: 分段；分段
 seo-description: 如果您習慣使用「Ad Hoc Analysis」中的「區段產生器」，本 FAQ 將說明現有區段和資料夾的變更，以及您需要採取的行動。
 seo-title: Ad Hoc Analysis 的轉換指南
 solution: Analytics
 title: Ad Hoc Analysis 的轉換指南
 topic: 區段
-uuid: d409d71a-f8 d9-42a2-add2-37d426 cd40 d1
+uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
