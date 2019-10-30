@@ -5,10 +5,10 @@ seo-title: 建立行銷管道處理規則
 solution: Analytics
 subtopic: 行銷渠道
 title: 建立行銷管道處理規則
-topic: Reports & Analytics
+topic: Reports and Analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 此程序使用電子郵件規則做為範例。此範例假設您已新增電子郵件渠道至「行銷渠道管理員」頁面上的渠道清單中。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 選擇一個報表套裝。
+1. 選擇報表套裝.
 
    如果報表套裝尚未定義渠道，則會顯示[!UICONTROL 「自動設定」頁面]。
 
