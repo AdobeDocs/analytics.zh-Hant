@@ -1,17 +1,17 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 適用於 Experience Cloud 解決方案的
+seo-title: Windows 8.1 通用應用程式商店
 solution: Analytics
-title: 適用於 Experience Cloud 解決方案的
-uuid: 7acbeed-2d9d-4a99-a249-d898958 d080 e
-translation-type: tm+mt
+title: Windows 8.1 通用應用程式商店
+uuid: 7acbeaed-2d9d-4a99-a249-d898958d080e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 適用於 Experience Cloud 解決方案的{#windows-universal-app-store}
+# Windows 8.1 通用應用程式商店{#windows-universal-app-store}
 
 ## 版本 4.0 {#section_57B75C70EE854678873657118E70E532}
 
