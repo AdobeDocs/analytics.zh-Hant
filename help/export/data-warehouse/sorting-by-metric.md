@@ -4,9 +4,9 @@ seo-description: 在 Data Warehouse 中提供排名劃分報表，可依遞減�
 seo-title: 依量度排序
 solution: Analytics
 title: 依量度排序
-uuid: 07da2607-b3 fd-463b-90d4-6884a93 c7 e25
+uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
