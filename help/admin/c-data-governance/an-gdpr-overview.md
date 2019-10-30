@@ -5,7 +5,7 @@ seo-title: Adobe Analytics 和 GDPR
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -16,15 +16,13 @@ source-git-commit: 2e78524a1ec88ace687ef293332bbee532388c7a
 
 ## Adobe 概述 {#section_E582A1D77583410EBB790BB646854A2C}
 
->[!IMPORTANT]
->
->本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
+> [!IMPORTANT]本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
 
-2018年5月25日，歐盟通用資料保護規則(GDPR)生效。 For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
+歐盟通用資料保護規範 (GDPR) 已於 2018 年 5 月 25 日生效。For more information about Adobe's response and what this means for you as an Adobe customer, see [GDPR and Your Business.](https://www.adobe.com/privacy/general-data-protection-regulation.html)
 
-當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。身為資料處理者，Adobe 會根據貴公司的權限和指示 (例如，依照您與 Adobe 的合約規定) 處理個人資料。
+當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。身為資料處理者，Adobe會根據您公司的許可和指示（例如，如您與Adobe的合約所載）處理個人資料。
 
-身為資料掌控者，您可以決定Adobe代表您處理和儲存的個人資料。 如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
+身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。For a list of examples, see [Adobe Experience Cloud privacy.](https://www.adobe.com/privacy/marketing-cloud.html#collect)
 
 ![](assets/privacy_ready.png)
 
@@ -49,9 +47,6 @@ To that end, Adobe Analytics provides a Data Governance user interface that lets
 * Map any Adobe Analytics report suite that you want to set up for data governance to [your Experience Cloud organization.](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)
 * 為每個報表套裝設定資料保留政策，以便接受 GDPR 刪除與存取請求。
 
-   >[!NOTE]
-   >
-   >Adobe Analytics無法協助您處理對GDPR API的要求，例如，如果Adobe Analytics中未設定資料保留期，則無法處理您從使用者收到的存取或刪除要求。 請聯絡客戶成功案例經理，以設定資料保留時間。
+   > [!NOTE]如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
 
 * 檢查您的權限: 若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
-
