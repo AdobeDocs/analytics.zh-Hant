@@ -1,13 +1,13 @@
 ---
 description: 依預設，系統會報告所有報表套裝過去 30 天內的工作記錄。
-keywords: 資料饋送；摘要；工作；history
+keywords: 資料饋送；feed;job;history
 seo-description: 依預設，系統會報告所有報表套裝過去 30 天內的工作記錄。
 seo-title: 檢視摘要的工作記錄
 solution: Analytics
 title: 檢視摘要的工作記錄
-uuid: db47c9c5-4700-4269-9846-e8 b38911 a654
+uuid: db47c9c5-4700-4269-9846-e8b38911a654
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
