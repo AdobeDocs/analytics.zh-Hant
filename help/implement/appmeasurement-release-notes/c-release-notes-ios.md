@@ -7,7 +7,7 @@ subtopic: 發行說明
 title: iOS 應用程式
 topic: 開發人員和實作
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -19,17 +19,17 @@ iOS 的累積發行說明。
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啟除錯記錄。
+>若要尋找目前的程式庫版本，請開啟偵錯記錄功能。
 
-您可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) 中下載行動程式庫。
+您可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) 上取得行動程式庫下載。
 
-[4.x 文件](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[4.x 文件](https://marketing.adobe.com/resources/help/zh_TW/mobile/ios/)
 
-[3.x 文件](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[3.x 文件](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/ios/)
 
 ## 版本 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
-[!DNL iOS] SDK 4.13.4版（2017年2月16日）包含下列變更：
+[!DNL iOS] SDK 4.13.4 版 (2017 年 2 月 16 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_657D643E874D47C099F2F43519C9C1C7"> 
  <thead> 
@@ -52,7 +52,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.13.3 {#section_39618D2B29F942FCBF37E4F5507AA131}
 
-[!DNL iOS] SDK 4.13.3版（2017年1月19日）包含下列變更：
+[!DNL iOS] SDK 4.13.3 版 (2017 年 1 月 19 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_341D35BF18714139A95CA5491899185D"> 
  <thead> 
@@ -79,7 +79,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.13.2 {#section_CB0DFFDB38FE4D14A84423DF40BF8FD3}
 
-[!DNL iOS] SDK 4.13.2版（2016年11月10日）包含下列變更：
+[!DNL iOS] SDK 4.13.2 版 (2016 年 11 月 10 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AA26B14D271948FFBA44D4D06E3B71AA"> 
  <thead> 
@@ -91,7 +91,7 @@ iOS 的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 訪客 ID 服務 </p> </td> 
-   <td colname="2"> <p> Added timestamp and Experience Cloud Organization ID to <code> adobe_mc</code> parameter. </p> </td> 
+   <td colname="2"> <p> 在 <code> adobe_mc</code> 參數中新增時間戳記和 Experience Cloud 組織 ID。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 設定 </p> </td> 
@@ -110,7 +110,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.13.1 {#section_18C8A7166EFD4E67AC0F7C06DFBBFE6A}
 
-[!DNL iOS] SDK 4.13.1版（2016年10月20日）包含下列變更：
+[!DNL iOS] SDK 4.13.1 版 (2016 年 10 月 20 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_5B67A6B8B79D4783BA8DCDA7C2ACA765"> 
  <thead> 
@@ -134,11 +134,11 @@ iOS 的累積發行說明。
 **錯誤修正**
 
 * 修正在將新 ID 同步到 VisitorID 服務，同時將追蹤點擊傳送到 [!DNL Adobe Analytics] 時，可能會導致當機的問題。
-* Fixed an issue that was causing build warnings when targeting [!DNL iOS] versions older than 8.
+* 修正當目標 [!DNL iOS] 版本比 8 還舊時會引發組建警告的問題。
 
 ## 版本 4.13.0 {#section_F72A3357994E4887A9F3967F0FBFFCDD}
 
-[!DNL iOS] SDK 4.13.0版（2016年9月15日）包含下列變更：
+[!DNL iOS] SDK 4.13.0 版 (2016 年 9 月 15 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_FD6156E58FF54BA2BEED7398BC780C46"> 
  <thead> 
@@ -157,7 +157,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.12.0 {#section_2AD26AABBB434833AE961C8D71C9AFE8}
 
-[!DNL iOS] SDK 4.12.0版（2016年8月18日）包含下列變更：
+[!DNL iOS] SDK 4.12.0 版 (2016 年 8 月 18 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_CC3CD01203ED4BDA9BC26427E925C70D"> 
  <thead> 
@@ -169,7 +169,7 @@ iOS 的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>訪客 ID 服務 </p> </td> 
-   <td colname="2"> <p> 新增可將訪客身分新增至指定 URL 的方法，以將身分傳送給以網路為基礎的實作。 </p> </td> 
+   <td colname="2"> <p> 新增可將訪客身分新增至指定 URL 的新方法，以將身分傳送給以網路為基礎的實作。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p>應用程式內傳訊 </p> </td> 
@@ -180,7 +180,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.11.0 {#section_3ABABE0F0B964EB48BD482CCE260A13D}
 
-[!DNL iOS] SDK 4.11.0版（2016年6月22日）包含下列變更：
+[!DNL iOS] SDK 4.11.0 版 (2016 年 6 月 22 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_14B23402BA3B41238F419CA57341B8F5"> 
  <thead> 
@@ -202,7 +202,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.10.0 {#section_F0D6D7FD89DE4DF5A121B05FA093CC5B}
 
-[!DNL iOS] SDK 4.10.0版（2016年5月20日）包含下列變更：
+[!DNL iOS] SDK 4.10.0 版 (2016 年 5 月 20 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AC447B6E4D55489F803923BF5D1D6653"> 
  <thead> 
@@ -248,7 +248,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.9.0 {#section_DA97D7294B214067A4904B9738450759}
 
-[!DNL iOS] SDK 4.9.0版（2016年5月5日）包含下列變更：
+[!DNL iOS] SDK 4.9.0 版 (2016 年 5 月 5 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_0B3A0F44549C4DA48C7639048C030065"> 
  <thead> 
@@ -267,7 +267,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.8.6 {#section_0150641B44CF4F6CBE2B21002F8EAB30}
 
-[!DNL iOS] SDK 4.8.6版（2016年3月9日）包含下列變更：
+[!DNL iOS] SDK 4.8.6 版 (2016 年 3 月 9 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_5175CFFCA30B4DDBACFB23532111CB8A"> 
  <thead> 
@@ -279,14 +279,14 @@ iOS 的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>追蹤應用程式當機 </p> </td> 
-   <td colname="2"> <p>The <span class="keyword"> iOS</span> SDK version 4.8.6 contains critical changes that prevent false crashes from being reported. 我們強烈建議您更新至 4.8.6 版。 </p> </td> 
+   <td colname="2"> <p><span class="keyword">iOS</span> SDK 4.8.6 版包含無法回報錯誤當機的重要變更。我們強烈建議您更新至 4.8.6 版。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 版本 4.8.5 {#section_F42EB64F91024748893E89575F2E4487}
 
-[!DNL iOS] SDK 4.8.5版（2016年2月18日）包含下列變更：
+[!DNL iOS] SDK 4.8.5 版 (2016 年 2 月 18 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_AB225AF04A374421BDD8A972506ACD06"> 
  <thead> 
@@ -298,14 +298,14 @@ iOS 的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p>退出與隱私權設定 </p> </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> SDK 4.8.5, privacy settings set via the <code> setPrivacyStatus</code> method affect activity from <span class="keyword"> Analytics</span>, <span class="keyword"> Target</span>, and <span class="keyword"> Audience Manager</span>. </p> </td> 
+   <td colname="2"> <p>從 <span class="keyword">iOS</span> SDK 4.8.5 開始，透過 <code>setPrivacyStatus</code> 方法設定隱私權設定，將影響 <span class="keyword">Analytics</span>、<span class="keyword">Target</span> 和 <span class="keyword">Audience Manager</span> 中的活動。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 版本 4.8.0 {#section_2CF142C8C2D24B529559DAF76F851BBF}
 
-[!DNL iOS] SDK 4.8.0版（2015年11月2日）包含下列變更：
+[!DNL iOS] SDK 4.8.0 版 (2015 年 11 月 2 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_9DB41F070D66498FACF1A9C135603C7A"> 
  <thead> 
@@ -316,7 +316,7 @@ iOS 的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> 新的Experience cloud訪客ID服務方法 </td> 
+   <td colname="1"> 新的 Experience Cloud 訪客 ID 服務方法 </td> 
    <td colname="2"> <p>已新增下列新方法: </p> 
     <ul id="ul_55D8F29ADE3746C484FEC7893FA9EF23"> 
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
@@ -345,7 +345,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.7.0 {#section_B37B1CAF065346E9A2073A06AB7AFEC2}
 
-[!DNL iOS] SDK 4.7.0版（2015年10月15日）包含下列變更：
+[!DNL iOS] SDK 4.7.0 版 (2015 年 10 月 15 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_3CCA327B859B498D828B2E056A075BEC"> 
  <thead> 
@@ -361,7 +361,7 @@ iOS 的累積發行說明。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> App Transport Security 支援 </td> 
-   <td colname="2"> <p>Starting with <span class="keyword"> iOS</span> 9, Apple introduced App Transport Security, a set of requirements that conforms to best practices for secure connections. </p> </td> 
+   <td colname="2"> <p>Apple 自 <span class="keyword">iOS</span> 9 開始導入 App Transport Security，這是一套符合安全連線最佳實務的規範。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> PhoneGap 外掛程式方法</span> </p> </td> 
@@ -404,7 +404,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.6 {#section_D091872501DA49C1A18CDC33C84B8256}
 
-[!DNL iOS] SDK 4.6版（2015年9月17日）包含下列變更：
+[!DNL iOS] SDK 4.6 版 (2015 年 9 月 17 日) 包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_084C27B1A75A4A2EB84822242E37ED35"> 
  <thead> 
@@ -415,7 +415,7 @@ iOS 的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Push Messaging to <span class="keyword"> Analytics</span> Segments </p> </td> 
+   <td colname="1"> <p>推送訊息至 <span class="keyword">Analytics</span> 區段 </p> </td> 
    <td colname="2"> <p> <span class="keyword">Adobe Mobile Services</span> 與 <span class="keyword">Adobe Mobile</span> SDK 允許您傳送推送訊息至 <span class="keyword">Analytics</span> 區段。SDK 也允許您輕鬆報告已開啟您應用程式的使用者，作為開啟推送訊息的結果。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -444,7 +444,7 @@ iOS 的累積發行說明。
 
 ## 版本 4.5 {#section_53DFAF8CFD614F69B3168014EF84DE9F}
 
-[!DNL iOS] SDK 4.5版包含下列變更：
+[!DNL iOS] SDK 4.5 版包含下列變更:
 
 <table frame="all" colsep="1" rowsep="1" id="table_A69D0B8DA45348B8A5D6A014126F97C2"> 
  <thead> 
@@ -456,7 +456,7 @@ iOS 的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS 延伸功能</span> </p> </td> 
-   <td colname="2"> <p>Starting in <span class="keyword"> iOS</span> SDK version 4.5, a new <span class="keyword"> iOS</span> extension lets you collect usage data from your Apple Watch Apps, Today Widgets, Photo Editing widgets, and all the other <span class="keyword"> iOS</span> extension apps. </p> <p>We strongly recommend that you use the <span class="keyword"> iOS</span> SDK rather than using your own wrapper. </p> <p>Apple 提供一組讓 Watch 應用程式與容納應用程式通訊的 API (將請求傳送給容納應用程式，然後再接收回應)。 </p> <p>雖然您可以將追蹤資料當做字典，從 Watch 應用程式傳送到容納應用程式，然後再呼叫容納應用程式上的任何追蹤方法來傳送資料，不過這個解決方案有其限制。 </p> <p>在大部分的情況下，當使用者使用 Watch 應用程式時，容納應用程式會在背景執行，此時唯有呼叫 <code>TrackActionInBackground</code>、<code>TrackLocation</code> 及 <code>TrackBeacon</code> 是安全的。呼叫其他追蹤方法會干擾生命週期資料，所以若要從 Watch 應用程式傳送資料，您應該只使用這三個方法。 </p> <p>Even if these three tracking methods meet your requirements, we recommend using the <span class="keyword"> iOS</span> SDK because the SDK for watch app includes all <span class="keyword"> Mobile</span> features except in-app messaging. </p> </td> 
+   <td colname="2"> <p>在 <span class="keyword">iOS</span> SDK 4.5 版中啟動新的 <span class="keyword">iOS</span> 擴充功能，可讓您從 Apple Watch 應用程式、Today Widget、Photo Editing Widget 和所有其他 <span class="keyword">iOS</span> 擴充應用程式上收集使用資料。 </p> <p>我們強烈建議您使用 <span class="keyword"> iOS</span> SDK，避免使用您自己的包裝函式。 </p> <p>Apple 提供一組讓 Watch 應用程式與容納應用程式通訊的 API (將請求傳送給容納應用程式，然後再接收回應)。 </p> <p>雖然您可以將追蹤資料當做字典，從 Watch 應用程式傳送到容納應用程式，然後再呼叫容納應用程式上的任何追蹤方法來傳送資料，不過這個解決方案有其限制。 </p> <p>在大部分的情況下，當使用者使用 Watch 應用程式時，容納應用程式會在背景執行，此時唯有呼叫 <code>TrackActionInBackground</code>、<code>TrackLocation</code> 及 <code>TrackBeacon</code> 是安全的。呼叫其他追蹤方法會干擾生命週期資料，所以若要從 Watch 應用程式傳送資料，您應該只使用這三個方法。 </p> <p>即使這三個追蹤方法已能滿足您的需求，我們仍建議您使用 <span class="keyword">iOS</span> SDK，因為適用於 Watch 應用程式的 SDK 包含應用程式內傳訊之外的所有 <span class="keyword">Mobile</span> 功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -476,8 +476,8 @@ iOS 的累積發行說明。
    <td colname="2"> <p>您現在可使用生命週期量度來納入自訂內容資料的變數。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>Beacon tracking support in <span class="keyword"> PhoneGap</span> </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="1"> <p><span class="keyword"> PhoneGap</span> 支援信標追蹤功能 </p> </td> 
+   <td colname="2"> <p>您現在可在 <span class="keyword">PhoneGap</span> 中使用 <code>trackBeacon</code> 和 <code>clearCurrentBeacon</code> 呼叫。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -486,7 +486,7 @@ iOS 的累積發行說明。
 
 發行日期: **2014 年 11 月 24 日**
 
-* 新功能- Adobe Experience Cloud ID整合
+* 新增 - Adobe Experience Cloud ID 整合
 * 已清楚描述除錯記錄
 
 ## 版本 4.2 {#section_806710F7720C410DAB46376C0A7A283E}
@@ -496,7 +496,7 @@ iOS 的累積發行說明。
 * 新增 - 應用程式內訊息功能。
 * 新增 - 現在啟動應用程式時可指定設定檔的位置。
 * 新增 - 現在不必使用新的設定檔，興趣點就能自動更新。
-* New - [!DNL Analytics] calls are now sent as HTTP POST requests.
+* 新增 - 現在會以 HTTP POST 要求的形式傳送 [!DNL Analytics] 呼叫。
 * 已清除 debugLogging 啟用後的記錄訊息，且已新增更多的詳細記錄功能。
 * 多項效能與穩定性增強功能。
 
@@ -504,7 +504,7 @@ iOS 的累積發行說明。
 
 發行日期: **2014 年 9 月 18 日**
 
-* Resolved potential crash that could occur if Audience Manager Submit Signal call or [!DNL Target] Load Request call failed due to an unknown network error.
+* 解決 Audience Manager 提交信號呼叫或 [!DNL Target] 載入要求呼叫，若因未知的網路錯誤而失敗所可能發生當機的問題。
 
 ## 版本 4.1.2 {#section_6128902E5AE142C4A95D2FB3053188F8}
 
@@ -522,7 +522,7 @@ iOS 的累積發行說明。
 * 應用程式收購分析.
 * 對於啟用時間戳記的應用程式，其當機點擊可追溯至正確的作業。
 * 對於啟用時間戳記的應用程式，其在點擊內所傳送的先前作業可追溯至正確的作業(而不再是先前的作業)。
-* 點擊批次處理程序.
+* 點擊批次處理程序。
 
 ## 版本 4.0.2 {#section_B78AE82CDFAD44DCAC6D61E0B80BF4C8}
 
@@ -547,7 +547,7 @@ iOS 的累積發行說明。
 
 發行日期: **2013 年 9 月 27 日**
 
-[!DNL iOS] 適用於Experience cloud解決方案的SDK 4.x現已推出，提供下列新功能：
+Experience Cloud 解決方案適用的 [!DNL iOS] SDK 4.x 現已提供下列新功能:
 
 * 大幅增強效能。所有處理作業均在背景執行緒中執行，SDK 執行緒完全安全。
 * 地域位置與興趣點
@@ -555,7 +555,7 @@ iOS 的累積發行說明。
 * 計時事件
 * 加入/退出管理
 * Audience Manager 支援
-* Lifecycle metrics passed to [!DNL Target] as mbox parameters
+* 生命週期量度傳遞給 [!DNL Target] 做為 mbox 參數
 * 標準化內容資料與處理規則
 
 ## 版本 3.3.0 {#section_28FB7CD64D6C49BF93E321587F1E8950}
@@ -576,13 +576,13 @@ iOS 的累積發行說明。
 發行日期: **2013 年 8 月 6 日**
 
 * 已新增對 Adobe Audience Manager 的支援。
-* Lifecycle data is now sent with [!DNL Target] Mbox requests when lifecycle tracking is enabled.
+* 現在當生命週期追蹤啟用時，生命週期資料會與 [!DNL Target] Mbox 要求一同傳送。
 
 ## 版本 3.1.8 {#section_849BCD1D4379433D874B8A0E0099E2B1}
 
 發行日期: **2013 年 6 月 20 日**
 
-* Fixed a bug introduced in 3.1.7 that was causing issues with lifecycle on devices below [!DNL iOS] 5.0.
+* 修正在 [!DNL iOS] 5.0 以下的裝置中使用 3.1.7 版會導致生命週期問題的錯誤。
 
 ## 版本 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -622,7 +622,7 @@ iOS 的累積發行說明。
 
 * 新增 `lifecycleSessionTimeout` 組態變數，該變數可讓您指定在兩次應用程式啟動之間需經過的時間長度 (單位為秒)，超過該秒數後，該次啟動即視同新的作業階段。
 * 修正媒體模組問題，該問題會導致在測量物件上設定的事件覆寫媒體模組所設定的事件。
-* Fixed an issue that caused an exception when allocating an mbox through the [!DNL Target] integration.
+* 修正會導致透過 [!DNL Target] 整合配置 mbox 時發生例外狀況的問題。
 
 ## 3.1.0 版 {#section_0F3E939885DE4DF1B7430DF5F5749AD2}
 
@@ -630,7 +630,7 @@ iOS 的累積發行說明。
 
 * 新增 armv7s 架構的支援。
 * 移除 armv6 架構的支援。
-* Minimum supported [!DNL iOS] SDK is now 4.3
+* 目前支援的最低 [!DNL iOS] SDK 為 4.3
 
 ## 版本 3.0.2 {#section_1224693620524D6C8CCAB7707483536E}
 
@@ -703,9 +703,9 @@ iOS 的累積發行說明。
 * deleteLightProfiles
 * retrieveLightProfiles
 
-## 舊版 iOS (2.x) {#section_5F76C3DA854D4BAEA636A68B3811142B}
+## 舊版 iOS (2.x){#section_5F76C3DA854D4BAEA636A68B3811142B}
 
-The following release notes apply to the 2.x version of [!DNL AppMeasurement] for [!DNL iOS]. 建議客戶盡可能升級至 3.x 版。
+下列發行說明適用於 [!DNL iOS] 適用的 [!DNL AppMeasurement] 的 2.x 版。建議客戶盡可能升級至 3.x 版。
 
 ## 版本 2.1.12 {#section_85C073B86B684D52A14E8038379F56DD}
 
@@ -740,16 +740,16 @@ The following release notes apply to the 2.x version of [!DNL AppMeasurement] fo
 
 發行日期: **2011 年 11 月**
 
-* Added support for [!DNL iOS] 5.
-* [!DNL AppMeasurement] 的 現已更新，不再使用已過時的 UDID 值作為訪客 ID 的預設值。[!DNL iOS]如果您在應用程式中設定了自訂訪客 ID，(例如：`s.visitorID = @12345`)，那麼您將不會受此變更影響。如果您沒有設定自訂訪客 ID，而是使用 UDID 作為訪客 ID 的值，那麼初次啟動時即會產生隨機的訪客 ID，並將其儲存於使用者預設金鑰中。This key is used by [!DNL AppMeasurement] from that point forward. 標準應用程式進行備用程序時，也會儲存及還原該金鑰。
+* 新增對 [!DNL iOS] 5 的支援。
+* [!DNL iOS] 的 [!DNL AppMeasurement] 現已更新，不再使用已遭取代的 UDID 值作為訪客 ID 的預設值。如果您在應用程式中設定了自訂訪客 ID，(例如：`s.visitorID = @12345`)，那麼您將不會受此變更影響。如果您沒有設定自訂訪客 ID，而是使用 UDID 作為訪客 ID 的值，那麼初次啟動時即會產生隨機的訪客 ID，並將其儲存於使用者預設金鑰中。此後 [!DNL AppMeasurement] 就會沿用此金鑰。標準應用程式進行備用程序時，也會儲存及還原該金鑰。
 
-* Updated calls from the [!DNL iOS] Best Practices plug-in that are not associated with a page view to send hits using trackLink. 如此可防止這些點擊以「應用程式名稱/版本」名稱的預設值來記錄頁面檢視。
+* 更新未關聯至頁面檢視的 [!DNL iOS] Best Practices 外掛程式呼叫，以使用 trackLink 傳送點擊。如此可防止這些點擊以「應用程式名稱/版本」名稱的預設值來記錄頁面檢視。
 
 ## 版本 2.1.3 {#section_E39666D780554B7398900C39C285CDB8}
 
 發行日期: **2011 年 10 月**
 
-* 改進委派處理。This fixes an issue that caused the [!DNL iOS] Best Practices Plug-in to crash when bringing the application out of the background.
+* 改進委派處理。這可修正 [!DNL iOS] Best Practices 外掛程式將應用程式帶出背景時當機的問題。
 
 ## 版本 2.1.2 {#section_21014073AF804EFC8231047D8847485C}
 
