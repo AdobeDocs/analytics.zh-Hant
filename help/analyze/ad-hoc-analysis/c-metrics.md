@@ -46,7 +46,7 @@ t_organize_metrics.xml
 1. Click **[!UICONTROL Organize Metrics]**.
 1. Click **[!UICONTROL New]** to create a folder.
 1. 選取其他資料夾中的度量，然後將選取的度量拖曳到新的資料夾。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
    >[!NOTE]
    >
