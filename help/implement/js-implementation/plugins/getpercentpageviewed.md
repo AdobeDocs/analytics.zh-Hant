@@ -1,14 +1,14 @@
 ---
 description: 測量訪客的捲動活動，以查看訪客在前往其他頁面前所檢視的頁面比例。此外掛程式可讓您判斷使用者平均對您的內容會做多少檢視，以便您根據使用者行為對頁面長度與版面配置進行最佳化。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 測量訪客的捲動活動，以查看訪客在前往其他頁面前所檢視的頁面比例。此外掛程式可讓您判斷使用者平均對您的內容會做多少檢視，以便您根據使用者行為對頁面長度與版面配置進行最佳化。
 seo-title: getPercentPageViewed
 solution: Analytics
 subtopic: 外掛程式
 title: getPercentPageViewed
-topic: 開發人員和實施
-uuid: 1751dcdb-699f-4bd1-8bcc-5e62fa24896a
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
+translation-type: ht
 source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 ---
@@ -16,47 +16,47 @@ source-git-commit: f9912a0da5930be965e4d249f3d2c1891cfd6ed6
 
 # getPercentPageViewed
 
-getPercentPageViewed外掛程式會測量訪客的捲動活動，以查看訪客在移至另一個頁面之前所檢視的頁面大小。
+getPercentPageViewed 外掛程式會測量訪客的捲動活動，以查看訪客在前往其他頁面前已檢視的頁面比例。
 
 >[!NOTE]
->如果您的網頁高度較小，且不需要測量訪客向下捲動的程度，則不需要使用getPercentPageViewed外掛程式。此外，如果您只想測量退出頁面上的捲動活動，則無法使用此外掛程式。
+>如果您的網頁高度很短，則不需要使用 getPercentPageViewed 外掛程式，而且也不需要測量訪客向下捲動到多遠的位置。此外，若只要測量退出頁面上的捲動活動，則無法使用此外掛程式。
 
 ## 必備條件
 
-您必須有AppMeasurement和handlyppEvents helper外掛程式，才能執行getPercentPageViewed外掛程式。
+您必須有 AppMeasurement 和 handlePPVevents 輔助外掛程式，才能執行 getPercentPageViewed 外掛程式。
 
 ## 實施
 
-To implement this plugin, copy and paste the code to anywhere within the **[!UICONTROL Plugins]** section of the [!DNL AppMeasurement] file.
+若要實作此外掛程式，請將程式碼複製並貼到 [!DNL AppMeasurement] 檔案的&#x200B;**[!UICONTROL 外掛程式]**&#x200B;區段內的任何位置。
 
 >[!NOTE]
->將程式碼的粗體留言/版本號碼新增至AppMeasurement檔案可協助Adobe Consulting疑難排解任何可能的實施問題。
+>您可以將程式碼的粗體格式備註/版本號碼新增至 AppMeasurement 檔案，這有助於 Adobe 諮詢針對任何可能的實施問題進行疑難排解。
 
-You can run the `getPercentPageViewed` function as needed within the doPlugins function (see example calls below.)
+您可以視需要在 doPlugins 函數內執行 `getPercentPageViewed` 函數 (請參閱下列呼叫範例)。
 
 ## 要傳入的引數
 
 | 引數 | 定義 |
 |---|---|
-| pid(選用、字串) | 與外掛程式測量所提供百分比關聯的頁面識別碼。若未設定pageName變數，則會預設為Analytics pageName變數或URL |
-| ch(選用，布林) | 「True」是此引數的建議/預設值。如果您不希望此增效模組在初始載入後(因為SPA程式碼、動態HTML等)對頁面大小進行任何變更，請將此設為「false」。 |
+| pid (選用，字串) | 與外掛程式測量所提供的比例關聯的頁面識別碼。在 pageName 變數尚未設定的情況下，此預設為 Analytics pageName 變數或 URL |
+| ch (選用，布林值) | 此引數的建議/預設值為「True」。如果您不希望此外掛程式在頁面初始載入 (由於 SPA 程式碼、動態 HTML 等) 後，將頁面大小的任一變更納入計算，則請將此變數設為「false」。 |
 
 ## 傳回
 
-getPercentPageViewed外掛程式不會傳回任何項目。相反地，此外掛程式會設定下列 AppMeasurement 物件中的變數:
+getPercentPageViewed 外掛程式不會傳回任何項目。相反地，此外掛程式會設定下列 AppMeasurement 物件中的變數:
 
-* `s._ppvPreviousPage`：檢視上一頁的名稱(因為在新的頁面載入之前無法使用最終度量)。
-* `s._ppvHighestPercentViewed`：訪客檢視的上一頁(高度)的最高百分比。換言之，訪客在上一頁向下捲動的最粗點。
-* `s._ppvInitialPercentViewed`：上一頁初次載入時顯示的上一頁百分比。
-* `s._ppvHighestPixelSeen`：訪客捲動上一頁時所見(高度)的最高像素總數。
+* `s._ppvPreviousPage`: 上一個已檢視頁面的名稱 (因為最終測量要等到新頁面載入後才能取得)。
+* `s._ppvHighestPercentViewed`: 訪客已檢視的上一個頁面的最高比例 (以高度計)。換句話說，就是訪客在上一個頁面向下捲動最遠的點。
+* `s._ppvInitialPercentViewed`: 前一個頁面首次載入時的頁面可見比例。
+* `s._ppvHighestPixelSeen`: 當訪客向下捲動前一個頁面時已查看之總畫素的最高數量 (以高度計)。
 
 ## Cookie
 
-The getPercentPageViewed plugin creates a cookie, called `s_ppv`, that is passed from page to page. Cookie的內容包含上述四個變數中插入的值，並在作業結束時過期。
+getPercentPageViewed 外掛程式會建立在不同頁面間傳遞的 Cookie (稱為 `s_ppv`)。Cookie 內容包含在上述四個變數中插入的值，並且會在工作階段結束時過期。
 
 ## 呼叫範例
 
-**範例呼叫1**
+**呼叫範例 1**
 
 ```
 if(s.pageName) s.getPercentPageViewed();
@@ -67,22 +67,22 @@ s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + "initialPercent
 }  
 ```
 
-上述程式碼範例：
-* 判斷s. pageName是否已設定，此時，程式碼會執行getPercentPageViewed函數。
-* `getPercentPageViewed` 函數執行時，會建立上述「返回」一節中所述的變數。
-* 如果已成功設定「傳回」變數：
+以上程式碼範例:
+* 判斷是否已設定 s.pageName；若已設定，程式碼將執行 getPercentPageViewed 函數。
+* 當 `getPercentPageViewed` 函數執行時，會建立以上「傳回」一節中所述的變數。
+* 若已成功設定「傳回」變數:
 
-   * The code sets s.prop1 equal to the value of `s._ppvPreviousPag`e (i.e. the previous value of `s.pageName`, or the previous page.)
-   * 此程式碼也會設定s. prop等於上一頁的「最高百分比檢視百分比」和上一頁的「初始百分比檢視次數」。
+   * 程式碼會將 s.prop1 設為等於 `s._ppvPreviousPag`e 的值 (亦即 `s.pageName` 的上一個值或上一頁)。
+   * 程式碼也會將 s.prop2 設為等於上一頁的最高檢視比例，以及上一頁的初始檢視比例。
 
 >[!NOTE]
->如果整個頁面第一次載入時顯示，則「已檢視最高百分比」和「檢視的初始百分比」維度將等於100。不過，如果整個頁面在第一次載入時不顯示，但訪客在移至下一頁之前從未向下捲動頁面，則「已檢視最高百分比」和「初始百分比檢視的百分比」將等於相同值。
+>如果能初次載入時顯示整個頁面，則最高檢視比例和初始檢視比例維度都會等於 100。不過，如果初次載入時無法顯示整個頁面，但訪客在移動到下一個頁面前未曾向下捲動頁面，則最高檢視比例和初始檢視比例維度都會等於同一個值。
 
-**範例呼叫2**
+**呼叫範例 2**
 
-假設s. prop已設為擷取已遞延的「頁面類型」，而非整個頁面名稱。
+假設已將 s.prop5 設定為擷取統計「頁面類型」，而不是整個頁面名稱。
 
-下列程式碼會決定s. prop是否已設定，如果是，將其值儲存為「上一頁」以關聯至「已檢視的最高百分比」和「初始百分比檢視的初始百分比」維度。The value is still stored in the `s._ppvPreviousPage` variable but can be treated as if it were the previous page type instead of the previous page name.
+下列程式碼會判斷是否已設定 s.prop5；若已設定，則會將其值儲存為「上一頁」，以與高檢視比例和初始檢視比例維度相關。此值仍會儲存在 `s._ppvPreviousPage` 變數中，但可將其視為上一個頁面類型，而不是上一個頁面名稱。
 
 ```
 if(s._ppvPreviousPage)
@@ -92,17 +92,17 @@ s.prop2 = "highestPercentViewed = " + s._ppvHighestPercentViewed + " | initialPe
 }  
 ```
 
-## 物件取代
+## S 物件取代
 
-將主要AppMeasurement程式庫物件與「s」以外的名稱實例化時，請變更以下外掛程式程式碼的下列部分：
+具現化含有「s」以外的名稱的主要 AppMeasurement 程式庫物件時，請將以下部分外掛程式的程式碼從這個:
 
 `s.getPercentPageViewed=function(pid,ch)`
 
-至此：
+變更為這個:
 
 `[objectname].getPercentPageViewed=function(pid,ch)`
 
-## 部署程式碼
+## 要部署的程式碼
 
 外掛程式區段: 將下列程式碼新增至 `s_code.js` 檔案中標示為 PLUGINS SECTION 的區域中。請勿對此部分的外掛程式程式碼進行任何變更。
 
