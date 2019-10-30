@@ -8,7 +8,7 @@ title: 識別訪客
 topic: Reports and Analytics
 uuid: 2490b67e-a333-422d-82fa-cb0670ef2e0c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ Analytics 提供數種識別訪客的機制 (列在[識別訪客](../../../expor
 
 1. Exclude all rows where `exclude_hit > 0`.
 1. Exclude all rows with `hit_source = 5,7,8,9`. 5、8 和 9 是使用資料來源上傳的摘要行。7 代表不應納入瀏覽次數和訪客計數的交易 ID 資料來源上傳。請參閱 [點擊來源查閱](../../../export/analytics-data-feed/c-df-contents/datafeeds-hit-source.md#concept_FE4C114F6A524F7593D5CAC944C36C42)
-1. Combine  with . `post_visid_high``post_visid_low`All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
+1. 結 `post_visid_high` 合 `post_visid_low`。 All hits across all dates that contain this combination of `post_visid_high` and `post_visid_low` can be considered as coming from same visitor.
 
 如果想知道是使用哪一個機制決定訪客 ID 值 (例如，計算 cookie 接受度)，`post_visid_type` 包含查閱索引鍵，可指出使用哪個 ID 方法。[下表](../../../export/analytics-data-feed/c-df-contents/datafeeds-visid.md#table_D267D36451F643D1BB68AF6FEAA6AD1A)中並列查閱索引鍵和訪客 ID 機制。
 
@@ -43,7 +43,7 @@ Analytics 有數種識別訪客的方式 (依偏好設定順序列在下表之�
 |---|---|---|---|
 | ![](assets/step1_icon.png) | [vid (s.visitorID)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) | 0 | 已設定 s.visitorID。 |
 | ![](assets/step2_icon.png) | [aid (s_vi cookie)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_analytics.html) | 3 | 在您部署訪客 ID 服務之前訪客已有 s_vi cookie，或是您有設定訪客 ID 的[寬限期](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html)。 |
-| ![](assets/step3_icon.png) | [mid (AMCV_ cookie set by Identity Service)](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | Visitor's browser accepts cookies (first-party), and the Identity Service is deployed. |
+| ![](assets/step3_icon.png) | [mid（由Identity service設定的AMCV_ Cookie）](https://marketing.adobe.com/resources/help/en_US/mcvid/) | 5 | 訪客的瀏覽器接受Cookie（第一方），且已部署Identity Service。 |
 | ![](assets/step4_icon.png) | [fid (H.25.3 或更新版本或是 AppMeasurement for JavaScript 上的後援 cookie)](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 4 | 訪客的瀏覽器接受 cookie (第一方)。 |
 | ![](assets/step5_icon.png) | [HTTP 行動訂閱者標題](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_mobile.html) | 2 | 將裝置識別為行動裝置。 |
 | ![](assets/step6_icon.png) | [IP 位址、使用者代理、閘道 IP 位址](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html) | 1 | 訪客的瀏覽器不接受 cookie。 |
