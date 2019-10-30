@@ -8,8 +8,8 @@ subtopic: 訪客
 title: 連結跨裝置的使用者
 topic: 開發人員和實作
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不建議您繼續使用這種跨裝置識別訪客的方法。詳情請參閱[Adobe Experience Cloud Device Co-op 文件](https://marketing.adobe.com/resources/help/zh_TW/mcdc/)。
+>不建議您繼續使用這種跨裝置識別訪客的方法。請參閱 [Adobe Experience cloud裝置合作檔案](https://marketing.adobe.com/resources/help/en_US/mcdc/)。
 
 跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客識別會使用訪客 ID 變數 s.visitorID，為使用者建立裝置間的關聯。
 
@@ -28,7 +28,7 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 在[先前的範例](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)中，客戶從某個裝置登入後，都會與相同的使用者個人資料產生關聯。若訪客於其後登出該裝置，關聯仍將持續運作，因為在每個裝置上的 Cookie 中所儲存的[!UICONTROL 訪客 ID] 已與相同的訪客資料產生關聯。建議您只要情況允許即應填入 [!UICONTROL s.visitorID] 變數，以備[!UICONTROL 訪客 ID] Cookie 遭刪除時使用。
 
-## 唯一訪客和訪客數{#section_70330AB6724C4E419A4BD0BDD54641AC}
+## 唯一訪客和訪客數 {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
 考量兩個裝置的下列連線順序:
 
