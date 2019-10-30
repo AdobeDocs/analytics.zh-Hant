@@ -5,7 +5,7 @@ seo-title: 我該使用哪種 Adobe Analytics 工具呢?
 title: 我該使用哪種 Adobe Analytics 工具呢?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 * 若希望有真正的表格產生器功能。例如，a) Analysis Workspace 不支援您所需要建立的表格、b) 您希望能夠控制表格何時重建、c) 您希望表格可以記住要套用到所有資料列的各種劃分等級、d) 您希望能夠手動排序量度列
 * 用於匯出 50,000 列的資料
-* 若希望以標籤來組織專案工作。
+* 若希望以標籤來組織專案工作實施流量分類。
 * 使用「網站分析」報表 (3D 路徑報表) 時
 
 該使用&#x200B;**[「Data Workbench」](https://marketing.adobe.com/resources/help/en_US/insight/)**&#x200B;的情況:
@@ -66,7 +66,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 * 選項:
 
    * 規則產生器: 您已針對變數，收集可預測的格式化值 (例如，具有分隔符號的值) 時使用。此方法讓您只要設立規則一次，便可大致上「設定完成、高枕無憂」。
-   * 瀏覽器匯入器: 您沒有可預測的值，或是值清單有限且只需要更新一次時使用。此方法需要您不斷監控新值的分類。
+   * 瀏覽器匯入工具：當您沒有可預測的值，或者您有有限的值清單需要一次更新時使用。 此方法需要您不斷監控新值的分類。
 
 該使用「**[資料來源](/help/import/c-data-sources/datasrc-home.md)」**&#x200B;的情況:
 
@@ -100,7 +100,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 該使用「**[Report Builder](/help/analyze/report-builder/home.md)」**&#x200B;的情況:
 
 * 若自訂的 Workspace 佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
-* 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
+* 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)實施流量分類。
 * 用於合併來自不同維度報表的資料 (例如，將促銷印象報表與促銷一鍵轉換報表合併).
 * 用於跨報表套裝的檢視.
 * 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT).
@@ -111,7 +111,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 * 若要存取比 UI 更加精細的資料 (非正常的表格檢視)
 * 用若要以樞紐分析表輸入所適用的格式下載資料
 * 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到第三方資料視覺化工具中時
-* 若您在 Adobe Analytics 中遇上「低流量」，要存取所有獨特維度值時
+* 若您在Adobe Analytics中遇到「低流量」，請存取所有唯一的維度值
 
 **[應使用Analytics資料饋送](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)** :
 
@@ -129,7 +129,7 @@ source-git-commit: 0b4a0874013b4b62639a845c53cc030b7b8e9160
 
 該使用工程技術服務的情況: :
 
-* 其他的 Adobe 工具都不符合您的需求時。
+* 其他Adobe工具不符合您的需求。
 * 想要自訂體驗時。
 * 想要完整的自動化解決方案時。
 * 想要觸及許多裝置時。
