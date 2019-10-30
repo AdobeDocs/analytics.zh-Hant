@@ -1,13 +1,13 @@
 ---
 description: 如何在 Facebook 即時文章中實施。
-keywords: Analytics實作；內嵌；自訂變數；自訂事件；訪客追蹤；追蹤；限制
+keywords: Analytics 實施;內嵌;自訂變數;自訂事件;訪客追蹤;追蹤;限制
 seo-description: 如何在 Facebook 即時文章中實施。
 seo-title: Facebook 即時文章
 solution: Analytics
 title: Facebook 即時文章
-topic: 開發人員和實施
-uuid: 04b6366b-7c52-4dai-b2 dd-bb6 b78 fd409 c
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
@@ -21,7 +21,7 @@ Facebook 即時文章提供發佈者於 Facebook 上快速建立互動式文章�
 
 Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動時追蹤其行為。由於發佈者的內容發佈於 Facebook 應用程式內，而非發佈者的網站，則標記方法與標準 Analytics 實施略有不同。
 
-## 步驟 1. 內嵌 Analytics HTML 頁面 {#section_0DF847F8BA624CF8A239C10003A39E59}
+## 步驟 1.內嵌 Analytics HTML 頁面 {#section_0DF847F8BA624CF8A239C10003A39E59}
 
 您在創建 Facebook 即時文章內容時，可以將 HTML 內容內嵌於  iFrame 中。例如:
 
@@ -31,7 +31,7 @@ Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動
 
 ## 步驟 2.修改您的 Analytics HTML {#section_76707B51D63A47FF833C2D3FFF8412B4}
 
-以下的 HTML 樣本可以用於擷取即時文章的數據。此檔案會托管於貴公司其中一部網路伺服器。每次載入即時文章時，也會以步驟一之方法在 iframe 中載入該檔案，而此會觸發傳送分析資料至 Adobe。
+以下的 HTML 樣本可以用於擷取即時文章的數據。此檔案會託管於貴公司其中一部網路伺服器。每次載入即時文章時，也會以步驟一之方法在 iframe 中載入該檔案，而此會觸發傳送分析資料至 Adobe。
 
 ```
 <html> 
@@ -71,7 +71,7 @@ Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動
 
 **若要修改此樣本 HTML 以供您特定實施**
 
-1. 建議您將未修改過的 VisitorAPI.js 及 AppMeasurement.js 版本最新複本托管於貴公司網路伺服器上的一般資料夾。
+1. 建議您將未修改過的 VisitorAPI.js 及 AppMeasurement.js 版本最新複本託管於貴公司網路伺服器上的一般資料夾。
 
    若有需要，這些檔案也可以從 Analytics UI 的程式碼管理員中下載。
 
@@ -83,9 +83,9 @@ Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動
    1. 您的訪客命名空間變數。**請注意:** 您的標準 Analytics 實施中可找到許多此類數值。若有需要，客戶服務或 Adobe 諮詢可以協助提供適當的數值。
 
 1. [設定自訂變數及事件追蹤](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B)。
-1. Include the page view image request syntax `( s.t())`.
+1. 納入頁面檢視影像要求語法 `( s.t())`。
 
-## 步驟 3. 設定自訂變數及事件追蹤 {#section_932C41BD21154C25B99389299BDF3E0B}
+## 步驟 3.設定自訂變數及事件追蹤 {#section_932C41BD21154C25B99389299BDF3E0B}
 
 自訂變數及事件可經由不同方法，於您的分析 HTML 追蹤。第一種方法是在您自訂的設定中納入 JavaScript 邏輯，此與您在標準 Analytics 實施中所為相似。例如，要設定 prop 的數值，只要簡單使用您於一般實施中使用的語法即可。
 
@@ -93,13 +93,13 @@ Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動
 s.prop10 = "Facebook Instant Article";
 ```
 
-您也可以充分利用 iframe `src` 歸因中的查詢串參數，以用動態方式將變數傳送至 iframe。例如:
+您也可以充分利用 iframe `src` 歸因中的查詢字串參數，以用動態方式將變數傳送至 iframe。例如:
 
 ```
 <iframe class="no-margin" src="https://[your-domain-here]/analytics.html?prop1=dynamic%20article%20title&eVar1=facebook%20page%20name&pageName=your%20page%20name%20here&cmpId=your%20campaignID%20here" height="0"></iframe>
 ```
 
-若接著要於您的分析 HTML JavaScript 中的自訂變數區域設定這些查詢串參數，請使用預設的 程式庫中的 `Util.getQueryParam`[!DNL AppMeasurement] 函數，如下所示:
+若接著要於您的分析 HTML JavaScript 中的自訂變數區域設定這些查詢字串參數，請使用預設的 程式庫中的 `Util.getQueryParam`[!DNL AppMeasurement] 函數，如下所示:
 
 ```
 s.pageName = s.Util.getQueryParam("pageName"); 
@@ -110,7 +110,7 @@ s.prop1 = s.Util.getQueryParam("prop1");
 
 ## 訪客追蹤 {#section_60F0C77659534949831E85B5FD9AE81E}
 
-只要 Analytics HTML 頁面托管於您的網路伺服器，Adobe 都能透過 Facebook 即時文章支援您現有的隱私政策。此表示，若使用者選擇拒絕您在原始網站中的追蹤，使用者也可以選擇拒絕所有您在 Facebook 即時文章中的追蹤，且不需要額外步驟。使用此公用程式頁面也表示支援Identity Service(訪客ID)，以便您能夠將Facebook Instant Articles上擷取的量度和變數與Experience Cloud其餘部分整合。(An example is for targeted advertising using [!DNL Adobe Audience Manager]).
+只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 都能透過 Facebook 即時文章支援您現有的隱私政策。此表示，若使用者選擇拒絕您在原始網站中的追蹤，使用者也可以選擇拒絕所有您在 Facebook 即時文章中的追蹤，且不需要額外步驟。使用此公用程式網頁也表示支援 Identity 服務 (訪客 ID)，讓您能整合自 Facebook 即時文章擷取的量度及變數與其餘的 Experience Cloud 功能。(針對目標廣告則以 [!DNL Adobe Audience Manager] 為例)。
 
 ## 追蹤限制 {#section_1EE1BB069A3148DB9446371AFE196567}
 
