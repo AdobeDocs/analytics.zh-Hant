@@ -5,9 +5,9 @@ seo-title: 自訂報表說明
 solution: Analytics
 title: 自訂報表說明
 topic: 管理工具
-uuid: df7b57ab-4bd9-4465-bcd1-d47647 eg3 ff
+uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,16 +16,14 @@ source-git-commit: 26ea8e41b9a45c87c339d4d4d56c914fbc44bae8
 
 您可以提供 eVar、prop、分類和事件的自訂報表說明。說明會顯示給所有使用者。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL *變數」*]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;報表套裝 **[!UICONTROL &gt;]** Settings **[!UICONTROL &gt;編輯變]****[!UICONTROL *數*]**
 
->[!NOTE]
->
->新增說明適用於大多數傳統分類，但目前不適用於行動分類。
+> [!NOTE] 新增說明適用於大部分的傳統分類，但目前行動分類則不適用。
 
 ![](assets/report_descriptions.png)
 
 1. 提供報告的說明。字元數上限為 255。
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 說明會顯示在兩個位置:
 
