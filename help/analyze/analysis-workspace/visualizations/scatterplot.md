@@ -3,9 +3,9 @@ description: 顯示呈現的印象以及有多少獨特使用者看到那些印�
 seo-description: 顯示呈現的印象以及有多少獨特使用者看到那些印象。
 seo-title: 散點圖
 title: 散點圖
-uuid: 470b3142-3a0a-4cd8-8919-7b64044188c
+uuid: 470b3142-3a0a-4cd8-8919-7b64044188c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/scatter.png)
 
->[!NOTE]
->
->與散點圖關聯的表格至少需要兩欄。第一欄定義 X 軸，第二欄定義 Y 軸。如果還有第三欄，散點圖會用來決定點的半徑。換句話說，欄 *1*、*2* 和 *3* 對應至 *X*、*Y* 和&#x200B;*點半徑*。
+> [!NOTE] 與散點圖關聯的表格至少需要兩欄。 第一欄定義 X 軸，第二欄定義 Y 軸。如果還有第三欄，散點圖會用來決定點的半徑。換句話說，欄 *1*、*2* 和 *3* 對應至 *X*、*Y* 和&#x200B;*點半徑*。
 
