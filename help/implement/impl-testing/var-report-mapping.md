@@ -1,19 +1,19 @@
 ---
 description: 下表顯示用來填入 Analytics 報表的變數進行對映報告時所使用的變數。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 下表顯示用來填入 Analytics 報表的變數進行對映報告時所使用的變數。
-seo-title: 變數至報表映射
+seo-title: 用以報表對應的變數
 solution: Analytics
-title: 變數至報表映射
-topic: 開發人員和實施
-uuid: fd81f97d-dd1 a-47d5-9157-b7932 fe13490
-translation-type: tm+mt
+title: 用以報表對應的變數
+topic: 開發人員和實作
+uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 變數至報表映射
+# 用以報表對應的變數
 
 下表顯示用來填入 Analytics 報表的變數進行對映報告時所使用的變數。
 
