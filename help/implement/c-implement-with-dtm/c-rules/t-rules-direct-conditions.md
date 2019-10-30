@@ -1,12 +1,12 @@
 ---
 description: 建立直接呼叫規則的條件.
-keywords: 動態標籤管理；規則；建立規則；新規則；直接調用規則
+keywords: Dynamic Tag Management;規則;建立規則;新規則;直接呼叫規則
 seo-description: 建立直接呼叫規則的條件.
 seo-title: 建立直接呼叫規則的條件
-solution: Experience Cloud,Analytics,Target，動態標籤管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立直接呼叫規則的條件
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 建立直接呼叫規則的條件.
 
-1. In the **[!UICONTROL Conditions]** dialog, specify the string that will be passed to `_satellite.track()` in your direct call, without quotes.
+1. 在&#x200B;**[!UICONTROL 條件]**&#x200B;對話方塊中，指定要在直接呼叫中傳遞至 `_satellite.track()` 的字串，不含引號。
 
    ![](assets/conditions-direct-call.png)
 
    >[!NOTE]
    >
-   >If you specify the string that will be passed to `_satellite.track()` in your direct call using the UI, as described above, do not use quotation marks. If you insert [customized page code](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B) using the editor, you must use quotation marks.
+   >如果您使用 UI 在直接呼叫中指定要傳遞至 `_satellite.track()` 的字串 (如上所述)，則請勿使用引號。如果您使用編輯器插入[自訂頁面程式碼](../../../implement/c-implement-with-dtm/c-aa-tool/customize-page-code.md#concept_7D6390823DFE4D29AF9505CCE1A79C3B)，則必須使用引號。
 
