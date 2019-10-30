@@ -5,7 +5,7 @@ seo-title: 記錄檔
 solution: Analytics
 title: 記錄檔
 topic: Ad Hoc Analysis
-uuid: 1e5c0e70-928b-45de-9f5b-5c562909baed
+uuid: 基於1e5c0e70-928b-45de-9f5b-0c562909的
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -25,5 +25,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->使用此程序儲存的記錄會用於目前的作業。
+>使用此過程保存的日誌是當前會話的日誌。
 
