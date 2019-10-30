@@ -5,7 +5,7 @@ seo-title: 計劃管理員
 solution: Analytics
 title: 計劃管理員
 topic: Ad Hoc Analysis
-uuid: 82a054ef-109d-414d-a6 e1-e09 ee57 c163 f
+uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -22,13 +22,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->停用使用者帳戶時，會暫停該使用者建立的任何計劃報表傳送。
+>當使用者帳戶停用時，該使用者建立的任何計畫報表傳送都會暫停。
 
-To ensure that line items in a breakdown are persistent in saved and scheduled reports, use the **[!UICONTROL Edit Items]** feature in the [Table Builder](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) to create fixed dimension lists in breakdowns.
+若要確保劃分中的明細項目在儲存和排程報表中持續存在，請使用「表格產生器」中的「編輯項目 ****[](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) 」功能，在劃分中建立固定維度清單。
 
 >[!IMPORTANT]
 >
->「臨機分析」可讓您根據特定即時、特別的報告需求，快速定義和排程報告。其設計目的並不是要完整匯出大量的列、欄、量度評估的資料，也不是使用資料擷取來進行廣泛的劃分。
+>「臨機分析」可讓您快速定義並排程報表，以符合特定、及時的臨機報告需求。 其設計目的並不是要完整匯出大量的列、欄、量度評估的資料，也不是使用資料擷取來進行廣泛的劃分。
 >
 >「Ad Hoc Analysis」中計劃報表的實際限制是根據下列原則: 如果您的報表未在 10 分鐘內建立 (Ad Hoc Analysis 的逾時值)，則代表您的報表可能太複雜了。
 >
