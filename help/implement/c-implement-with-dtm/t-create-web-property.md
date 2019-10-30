@@ -7,8 +7,8 @@ solution: Analytics
 title: 建立 Web 屬性
 topic: 開發人員和實作
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,13 +17,11 @@ source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
 
 Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之網域和子網域的任意分組。
 
->[!NOTE]
->
->只有具備管理員權利的使用者才能建立屬性。如需角色的相關詳細資訊，請參閱 Dynamic Tag Management 產品文件中的[在 DTM 中建立及管理群組](https://marketing.adobe.com/resources/help/zh_TW/dtm/groups.html)。
+> [!NOTE]只有具備管理員權利的使用者才能建立屬性。如需角色的詳細資訊，請參 [閱動態標籤管理產品檔案中的](https://marketing.adobe.com/resources/help/en_US/dtm/groups.html) 「在DTM中建立和管理群組」。
 
 您可以透過 DTM 管理及追蹤這些資產。例如，假設您有多個網站是根據同一個範本，且想要追蹤這所有網站上的相同資產。您可以將一個 Web 屬性套用到多個網域。
 
-如需有關 Web 屬性和最佳實務的一般資訊，請參閱Dynamic Tag Management 產品文件中的 [Web 屬性](https://marketing.adobe.com/resources/help/zh_TW/dtm/web_property.html)。
+如需有關 Web 屬性和最佳實務的一般資訊，請參閱 動 [態標籤管理](https://marketing.adobe.com/resources/help/en_US/dtm/web_property.html) 產品檔案中的Web屬性。
 
 1. 導覽至您的公司頁面，然後按一下&#x200B;**[!UICONTROL 新增屬性]**。
 
