@@ -5,7 +5,7 @@ seo-title: Demandbase Data Connector for Adobe Analytics
 title: Demandbase Data Connector for Adobe Analytics
 uuid: 28fddb8f-06f6-4447-8257-4a59131bedbe
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 此Adobe® Data Connectors整合功能結合Demandbase的即時ID服務與Adobe Analytics的行為資訊，為B2B組織建立強大的分析、最佳化和內容個人化機會。
 
-根據預先確定的特性，向潛在客戶提供相關內容、推動更多合格客源並提高轉化率。 提供與特定產業、公司規模或甚至特定公司本身相關的內容，可讓您直接將正確的訊息傳達給訪客，而不需依賴訪客在您的網站上找到。 這將減少彈回數，並提供更健康、更符合資格的轉換漏斗。
+根據預先確定的特性，將相關內容發佈給潛在客戶、推動更多合格客源並提高轉化率。 提供與特定產業、公司規模或甚至特定公司本身相關的內容，可讓您直接將正確的訊息傳達給訪客，而不需依賴訪客在您的網站上找到。 這將減少彈回數，並提供更健康、更符合資格的轉換漏斗。
 
 ## 主要優點和功能{#key-benefits-and-features}
 
