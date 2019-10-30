@@ -7,7 +7,7 @@ title: 最受歡迎篩選
 topic: Report Builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,9 +47,9 @@ Most Popular filters are expression filters that you configure using Boolean log
 
    **新增條件:** 將條件新增至運算式。可新增的條件數量沒有限制。
 
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
    ![步驟資訊](assets/choose_page_02.png)
 
 1. 在[!UICONTROL 「選擇頁面」]**表單中按一下[!UICONTROL 「儲存」]**&#x200B;以儲存運算式。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
