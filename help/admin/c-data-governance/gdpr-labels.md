@@ -5,7 +5,7 @@ seo-title: Analytics變數的資料隱私權標籤
 title: Analytics變數的資料隱私權標籤
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
 
 ## DULE 標籤 {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE]
->
->資料使用標籤與實施(DULE)架構旨在提供跨所有Adobe解決方案／服務／平台的統一方式，以擷取、通訊及使用Adobe Experience cloud中資料的中繼資料。 中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此初始版本中，Analytics只會揭露與「資料隱私權」相關的DULE標籤。 隨著其他 Adobe 產品陸續實施 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
+> [!NOTE]資料使用標籤和實行 (DULE) 架構的設計目的，是為了在所有 Adobe 解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此初始版本中，Analytics只會揭露與「資料隱私權」相關的DULE標籤。 隨著其他 Adobe 產品陸續實施 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
 
 ## 身分資料標籤 (DULE) {#identity-data-labels}
 
@@ -212,8 +210,8 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
 
 如果您先前曾將 ID 標籤指派給登入公司中任何報表套裝的其他變數，您可以選取任何一個現有的命名空間。如果此變數包含的 ID 類型與先前以此命名空間為標籤的其他變數相同，而且您想要在提交請求時搜尋所有的變數，您應重複使用該命名空間。
 
-1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]，然後選取任何一個現有的命名空間。**
-1. Click **[!UICONTROL Apply]**.
+1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]**，然後選取任何一個現有的命名空間。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 ![](assets/namespace.png)
 
@@ -221,12 +219,12 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
 
 您也可以定義新的命名空間。我們建議將命名空間字串限制為英數字元，再加上底線、破折號及空格字元。所有字元都會轉換為小寫。
 
-1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]，然後輸入命名空間標題。**
+1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]**，然後輸入命名空間標題。
 
    ![](assets/namespace2.png)
 
-1. 按下 **[!UICONTROL Enter]即可新增此命名空間。**「套用」按鈕必須等到現在才會啟用。
-1. Click **[!UICONTROL Apply]**.
+1. 按下 **[!UICONTROL Enter]** 即可新增此命名空間。「套用」按鈕必須等到現在才會啟用。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 您指定為namespace的字串，與您透過資料隱私權API提交請求時應使用的字串相同，為"namespace"參數的值。 接著，請求會讓 Adobe Analytics 搜尋所有報表套裝中共用此命名空間的變數，找出請求中指定的 ID。
 
@@ -244,7 +242,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
 
 又例如，您的 CRM ID 可能有時候會透過 eVar1 傳送，有時候透過 prop7。於是，您會建立一條處理規則，將值從 eVar1 (若有的話) 複製到 eVar3，否則系統會將值從 prop7 複製到 eVar3。在這種情況下，eVar3 將一律包含 CRM ID (若為已知 ID)，所以只有 eVar3 需要 ID-PERSON 標籤。
 
-> [!CAUTION] 保留名稱空間"visitorId"和"customVisitorId"，以識別Analytics舊有追蹤Cookie和Analytics客戶訪客ID。 請勿將這些名稱空間用於自訂流量或轉換變數。
+> [!CAUTION] 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
 ## Variable Types and the Data Privacy/DULE Labels they support {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -335,7 +333,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
    <td colname="col1"> <p>資料處理維度 </p> </td> 
    <td colname="col2"> <p>自訂訪客 ID </p> </td> 
    <td colname="col3"> <p>ID-DEVICE/ID-PERSON </p> <p>DEL-DEVICE / DEL-PERSON </p> </td> 
-   <td colname="col4"> <p>您無法移除ID或DEL標籤（設為「無」），但視您的自訂ID實作而定，您可以將它們變更為DEVICE或PERSON變體。 </p> <p>如果您不使用自訂訪客ID，則設定並不重要。 </p> </td> 
+   <td colname="col4"> <p>您不能移除 ID 或 DEL 標籤 (設定為「無」)，不過您可以根據自訂 ID 實作，將其變更為 DEVICE 或 PERSON 變體。 </p> <p>如果您不使用自訂訪客ID，則設定並不重要。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" morerows="1"> 
@@ -348,7 +346,7 @@ Adobe Analytics資料隱私權實作支援下列標籤，以識別資料、敏�
    <td colname="col4"> <p>您不能移除 DEL 標籤，不過可以變更為 DEL-DEVICE、DEL-PERSON 或兩者。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap 動作 (舊版)、 </p> <p>ClickMap 內容 (舊版)、 </p> <p>頁面、 </p> <p>頁面 URL、 </p> <p>原始登入頁面 URL、 </p> <p>反向連結、 </p> <p>造訪開始頁面 URL </p> </td> 
+   <td colname="col2"> <p>ClickMap 動作 (舊版)、 </p> <p>ClickMap 內容 (舊版)、 </p> <p>頁面、 </p> <p>頁面 URL, </p> <p>原始登入頁面 URL、 </p> <p>反向連結、 </p> <p>造訪開始頁面 URL </p> </td> 
    <td colname="col3"> <p>無 / I1 / I2 </p> <p>無 / DEL-DEVICE / DEL-PERSON </p> </td> 
    <td colname="col4"> <p>變數可包含 URL 參數，這些參數可能包含可直接識別或可間接識別的資料。如果您的實作未在這些變數中直接或間接收集可識別身分的資料，則不需要識別或刪除標籤。 </p> <p>請注意，刪除會清除 URL 參數，但會保留基礎 URL。 </p> </td> 
   </tr> 
@@ -438,7 +436,7 @@ Adobe Analytics對資料隱私權刪除要求的支援旨在將對報告的影�
   </tr> 
   <tr> 
    <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID是解決方案變數，具有不可修改的DEL-DEVICE標籤。 會像訪客 ID 和 MCID 一樣透過 cookie 自動填入資料。只要刪除了這些 ID，就應該會從點擊中刪除資料。如需更多詳細資料，請參閱這些變數的說明。 </p> </td> 
+   <td colname="col2"> <p> Adobe Advertising Cloud ID 為解決方案變數，具有不可修改的 DEL-DEVICE 標籤。會像訪客 ID 和 MCID 一樣透過 cookie 自動填入資料。只要刪除了這些 ID，就應該會從點擊中刪除資料。如需更多詳細資料，請參閱這些變數的說明。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
