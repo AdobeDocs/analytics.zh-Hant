@@ -1,19 +1,19 @@
 ---
 description: 實施程序步驟。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 實施程序步驟。
-seo-title: 實施接受
+seo-title: 實作同意
 solution: Analytics
-title: 實施接受
-topic: 開發人員和實施
-uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580 b5 b47
-translation-type: tm+mt
+title: 實作同意
+topic: 開發人員和實作
+uuid: 6f7ec56e-9e4f-4dc8-b534-92b1580b5b47
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 實施接受
+# 實作同意
 
 實施程序步驟。
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. Adobe 顧問在實施期間解決技術性問題，並視需要協助提供解決方案。
 1. 客戶端的技術資源對實施進行單元測試。
 
-   Testers log in to [!DNL Analytics] and verifying all variables ( *`page name`*, *`channel`*, *`server`*, *`events`*, *`campaign`*, econversion variables, custom traffic variables, *`products`*, and all other variables).
+   測試者登入 [!DNL Analytics] 並驗證所有變數 (*`page name`*、*`channel`*、*`server`*、*`events`*、*`campaign`*、econversion 變數、自訂流量變數、*`products`* 和所有其他變數)。
 1. 客戶通知 Adobe 實施已完成。
 
    客戶提供驗證範例 (資料範例)，讓 Adobe 顧問驗證資料的正確性。(VISTA 產生的報表套裝須藉由適當度量的比較來驗證。客戶與 Adobe 之間應在 VISTA 規則建立時，事先針對要為此類報表套裝驗證的度量達成協議。)
