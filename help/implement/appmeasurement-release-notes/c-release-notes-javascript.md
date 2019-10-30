@@ -8,7 +8,7 @@ title: JavaScript H 代碼 (舊版)
 topic: 開發人員和實作
 uuid: 4586b250-0f1b-45b8-829c-18dc1201956f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 舊版 JavaScript H 代碼的累積發行說明。
 
->[!NOTE]
->
->To find the current library version, use [DigitalPulse Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html).
+> [!NOTE] 若要尋找目前的程式庫版本，請使 [用DigitalPulse除錯程式](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_about.html)。
 
 <!-- 
 
@@ -27,62 +25,62 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
  -->
 
-## H.27.5 - Update {#section_DB9535C7EC4A4DDE9BA56B6C02BE8327}
+## H.27.5 - 更新 {#section_DB9535C7EC4A4DDE9BA56B6C02BE8327}
 
 發行日期: **2016 年 6 月 16 日**
 
-已納入 Visitor API 1.5.7。
+納入 Visitor API 1.5.7。
 
-## H.25.5 - Update {#section_B10151D7718F4568AE523BE1553FCCB7}
+## H.25.5 - 更新 {#section_B10151D7718F4568AE523BE1553FCCB7}
 
 發行日期: **2016 年 5 月 19 日**
 
-納入 Visitor API 1.5.5.
+納入 Visitor API 1.5.5。
 
-## H.27.5 - Update {#section_AD73ECD5CDAB4E158B509BA7B4B8CC1F}
+## H.27.5 - 更新 {#section_AD73ECD5CDAB4E158B509BA7B4B8CC1F}
 
 發行日期: **2015 年 11 月 5 日**
 
-* 納入 Visitor API 1.5.3.
+* 納入 Visitor API 1.5.3。
 
-## H.27.5 - Update {#section_8A94D8A74A39486AAE248A22D661A261}
+## H.27.5 - 更新 {#section_8A94D8A74A39486AAE248A22D661A261}
 
 發行日期: **2015 年 9 月 17 日**
 
-* 納入 Visitor API 1.5.2.
+* 納入 Visitor API 1.5.2。
 
-## H.27.5 - Update {#section_62D1787F90FB4730B5F0C79EC1EF84B1}
+## H.27.5 - 更新 {#section_62D1787F90FB4730B5F0C79EC1EF84B1}
 
 發行日期: **2015 年 8 月 20 日**
 
-* 納入 Visitor API 1.5.1.
+* 納入 Visitor API 1.5.1。
 
-## H.27.5 - Update {#section_F58AF8B7FAE9470ABCBF2AAD9E7AF881}
+## H.27.5 - 更新 {#section_F58AF8B7FAE9470ABCBF2AAD9E7AF881}
 
 發行日期: **2015 年 6 月 18 日**
 
-* 納入 Visitor API 1.5.
+* 納入 Visitor API 1.5。
 
-## H.27.5 - Update {#section_B3E310AFF909480BAD59A7F87D298348}
+## H.27.5 - 更新 {#section_B3E310AFF909480BAD59A7F87D298348}
 
 發行日期: **2015 年 5 月 21 日**
 
 * 納入 Visitor API 1.4
 
-## H.27.5 - Update {#section_E7006FC903064376A85D3EC2AC1D2544}
+## H.27.5 - 更新 {#section_E7006FC903064376A85D3EC2AC1D2544}
 
 發行日期: **2015 年 4 月 16 日**
 
-* Added Integrate module to s_code.js in legacy [!DNL AppMeasurement] for [!DNL JavaScript] H.X ZIP file. (AN-101001)
+* 在舊版 [!DNL JavaScript] 適用的 [!DNL AppMeasurement] 的 H.X ZIP 檔案中，新增 Integrate 模組至 s_code.js。(AN-101001)
 
 ## H.27.5 {#section_22DCF43169614B28BC17F46426C5D5B6}
 
 發行日期: **2015 年 2 月 19 日**
 
-* 納入 Visitor API 1.3.5.
-* 已變更為第一個追蹤呼叫後不再執行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定 *`s.referrer`*&#x200B;時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。(AN-92647)
+* 納入 Visitor API 1.3.5。
+* 已變更為第一個追蹤呼叫後不再執行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定  *`s.referrer`*&#x200B;時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。(AN-92647)
 
-## H.27.4 - Update {#section_ED38D59E83B4417180877F7C10BE4582}
+## H.27.4 - 更新 {#section_ED38D59E83B4417180877F7C10BE4582}
 
 發行日期: **2015 年 1 月 15 日**
 
@@ -113,33 +111,33 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2014 年 6 月 19 日**
 
-* Fixed handling of done and waiting flags for Visitor API fields such as the legacy [!DNL Analytics] Visitor ID, that was causing errors.
+* 修正處理訪客 API 欄位 (如舊版 [!DNL Analytics] 訪客 ID) 的完成和等待標幟時會發生錯誤的問題。
 * 支援訪客 ID 服務 1.3 的新功能。
 
 ## H.27.1 {#section_CC2556C734EE4BAAB71D6A93095DB38F}
 
 發行日期: **2014 年 6 月 11 日**
 
-* Fixed an issue in the [!DNL Analytics] for [!DNL Target] integration that caused some hits to incorrectly be merged.
+* 修正在 [!DNL Target] 適用的 [!DNL Analytics] 整合中，導致部分點擊會不正確合併的問題。
 
 ## H.27 {#section_023B6267C0DB424F99A23EBB732B8C69}
 
 發行日期: **2014 年 5 月 22 日**
 
-* Support for the Experience Cloud Visitor ID service.[](https://marketing.adobe.com/resources/help/en_US/mcvid/)
+* 支援 [Experience Cloud訪客ID服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 * 支援 [Analytics for Target 整合](https://marketing.adobe.com/resources/help/en_US/target/a4t/)。
 
 ## H.26.2 {#section_DE82C8BC7645400785E5B136565616F1}
 
 發行日期: **2013 年 10 月 17 日**
 
-* Added `alt=""` to all Image objects to comply with Accessible Video and Communications Act.
+* 新增 `alt=""` 至所有影像物件，以遵循「視訊與通訊無障礙法」(Accessible Video and Communications Act)。
 
 ## H.26.1 {#section_C3BDD9A19EF84467A8FDC283AEAE2DB5}
 
 發行日期: **2013 年 7 月 18 日**
 
-* 自動連結追蹤現在會忽略雜湊/片段。Previously the following URL was automatically tracked since the entire `href` ended in `.pdf`:
+* 自動連結追蹤現在會忽略雜湊/片段。以前由於下列 URL 的整個 `.pdf` 結尾為 `href`，所以會自動加以追蹤:
 
 ```js
   <a href="index.htm#anchor.pdf">Test Link</a>
@@ -159,7 +157,7 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2013 年 4 月 19 日**
 
-* Fixed an issue in forced link tr [!DNL Windows]acking that caused a [!DNL JavaScript] error on some [!DNL Android] 2.2 Devices.
+* 修正強制連結 [!DNL Windows] 追蹤導致某些 [!DNL Android] 2.2 版裝置發生 [!DNL JavaScript] 錯誤的問題。
 
 * 在 Media Player 的視訊自動追蹤中，修正因終止而導致無法正確追蹤時間的問題。
 
@@ -167,28 +165,28 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2013 年 2 月**
 
-* Changed automatic exit link tracking to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+* 變更自動退出連結追蹤，一律忽略具有以 `#`、`about:` 或 `javascript:` 開頭之 `HREF` 屬性的連結。
 
 * 優化受 `useForcedLinkTracking` 影響的點按事件範圍。自動強制連結追蹤僅套用於:
 
-   * `<A>` and  tags`<AREA>`
+   * `<A>` 和 `<AREA>` 標籤
 
    * 標記必須具有 `HREF` 屬性
-   * The `HREF` can't start with `#`, `about:`, or `javascript:`
+   * `HREF` 開頭不能為 `#`、`about:` 或 `javascript:`
 
-   * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`)
+   * 不可設定 `TARGET` 屬性，或 `TARGET` 必須參考現行視窗 (`_self`、`_top` 或 `window.name` 的值)
 
 ## H.25.3 {#section_FA6A6F9F5D64455DA5A54C007081341A}
 
 發行日期: **2013 年 1 月**
 
-* 新增傳送長度超過 255 個位元組之 URL 的支援，進而在 Adobe Data Collection 伺服器中支援「頁面 URL」欄位的擴充。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 這麼一來，在瀏覽器切截字串的情況下，可以避免長 URL 佔據其他資料，但仍可擷取長 URL。
+* 新增傳送長度超過 255 個位元組之 URL 的支援，進而在 Adobe Data Collection 伺服器中支援「頁面 URL」欄位的擴充。長度超過 255 個位元組的頁面 URL 會被切割，前 255 個位元組出現在 `g=` 參數，其餘位元組出現在 `-g=` 查詢參數的查詢字串中。這麼一來，在瀏覽器切截字串的情況下，可以避免長 URL 佔據其他資料，但仍可擷取長 URL。
 
 * 針對混合使用 `escape` 和 `encodeURIComponent` 來編碼的字串，已經修正處理 URL 編碼的問題。
 
 * 修正在頁面上的首次伺服器呼叫逾時，而導致網路套件瀏覽器中的連結追蹤失敗的問題。
 * 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
-* Added a new `abort` flag that can be set inside `doPlugins`. 若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
+* 新增可以在 `doPlugins` 內設定的新 `abort` 標幟。若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
 
 ```js
   s.doPlugins = function(s) { 
@@ -205,8 +203,8 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
 
 發行日期: **2012 年 10 月**
 
-* Added support for reporting an additional version number in the [!DNL JavaScript] version report. 以前此版本只顯示 2 個字元 (如 1.8)，現在支援 3 個字元版本號碼 (如 1.8.5)。
-* Fixed an issue with [!DNL Tag Manager] that prevented repeated values in Dependant Code blocks from being sent.
+* 新增在 [!DNL JavaScript] 版本報表中多報告一個版本號碼的支援。以前此版本只顯示 2 個字元 (如 1.8)，現在支援 3 個字元版本號碼 (如 1.8.5)。
+* 修正[!DNL Tag Manager] 中的相依程式碼區塊無法傳送重複值的問題。
 
 ## H.25.1 {#section_680CE31CFA9945978F42612B684DB831}
 
@@ -223,12 +221,12 @@ https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=omtrcache&title=AppMe
   '
 ```
 
-This resolves issues with un-escaped characters being stored in the [!DNL ClickMap] `s_sq` cookie.
+如此可解決 [!DNL ClickMap] `s_sq` Cookie 中儲存未逸出字元的問題。
 
 * 修正當使用自訂 `media.monitor` 方法來追蹤媒體關閉事件時，可能無法傳送視訊結束事件的問題。
 
 ```
-  If(media.event==”CLOSE”) { 
+  If(media.event=="CLOSE") { 
   … 
   } 
   
@@ -238,7 +236,7 @@ This resolves issues with un-escaped characters being stored in the [!DNL ClickM
 
 發行日期: **2012 年 7 月**
 
-進行了更新，確保 WebKit 瀏覽器 (Safari 和 Chrome) 上的連結追蹤成功完成。此項更新後，設為自動追蹤的下載和退出連結 (由 `s.trackDownloadLinks` 和 `s.trackExternalLinks` 決定) 將可成功予以追蹤。If you are tracking custom links using manual [!DNL JavaScript] calls, you need to modify how these calls are made.
+進行了更新，確保 WebKit 瀏覽器 (Safari 和 Chrome) 上的連結追蹤成功完成。此項更新後，設為自動追蹤的下載和退出連結 (由 `s.trackDownloadLinks` 和 `s.trackExternalLinks` 決定) 將可成功予以追蹤。如果您使用手動 [!DNL JavaScript] 呼叫來追蹤自訂連結，則需要修改這些呼叫的進行方式。
 
 例如，退出和下載連結通常使用類似下列的程式碼來進行追蹤:
 
@@ -274,26 +272,27 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
    <td colname="col1"> <p>useForcedLinkTracking </p> </td> 
    <td colname="col2"> <p>此旗標用來停用 WebKit 瀏覽器的強制連結追蹤。WebKit 瀏覽器預設會啟用強制連結追蹤，但其他瀏覽器會忽略這項功能。 </p> <p> <b>預設值</b> </p> <p> <code> true </code> </p> <p> <b>範例</b> </p> 
     <code class="syntax javascript">
-      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false </code> </td> 
+      s.useForcedLinkTracking&amp;nbsp;=&amp;nbsp;false 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forcedLinkTrackingTimeout </p> </td> 
-   <td colname="col2"> <p>在執行已傳入 <code>s.tl</code> 的 <code>doneAction</code> 之前，等待追蹤完成的毫秒數上限。此值表示等待時間上限。如果追蹤連結呼叫在此逾時前完成，就會立即執行 <code>doneAction</code>。如果您注意到追蹤連結呼叫未完成，您可能需要提高此逾時。 </p> <p> <b>預設值</b> </p> <p>250 </p> <p> <b>範例</b> </p> 
+   <td colname="col2"> <p>在執行已傳入 <code> doneAction </code> 的 <code> s.tl </code> 之前，等待追蹤完成的毫秒數上限。此值表示等待時間上限。如果追蹤連結呼叫在此逾時前完成，就會立即執行 <code> doneAction </code>。如果您注意到追蹤連結呼叫未完成，您可能需要提高此逾時。 </p> <p> <b>預設值</b> </p> <p>250 </p> <p> <b>範例</b> </p> 
     <code class="syntax javascript">
       s.forcedLinkTrackingTimeout&amp;nbsp;=&amp;nbsp;500 
     </code> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> trackLink (<code>s.tl </code>) </td> 
+   <td colname="col1"> trackLink ( <code> s.tl </code>) </td> 
    <td colname="col2"> <p>追蹤退出、下載及自訂連結。提供選用參數，指定在 WebKit 瀏覽器上完成追蹤連結呼叫後執行導覽動作。 </p> <p> <b>語法</b> </p> 
     <code class="syntax javascript">
       s.tl(linkObject,linkType,linkName,variableOverrides,doneAction) 
-    </code> <p> <b>doneAction</b>: (選用) 指定在傳送連結追蹤呼叫或逾時 (根據 <code>s.forcedLinkTrackingTimeout</code> 所指定的值) 之後所要採取的動作。<code>doneAction</code> 可以是字串 'navigate'，該字串會導致方法將 <code>document.location</code> 設定為 <code>linkObject</code> 的 <code>href</code> 屬性。<code>doneAction</code> 也可以是一個允許進階自訂的函數。 </p> <p>If providing a value for <code> onclick </code> in an anchor <code> false </code> event, you must return <code> s.tl </code> after the <code> href </code> call to prevent the default browser navigation. </p> <p> To mirror the default behavior and follow the URL specified by the <code> doneAction </code> attribute, provide a string of 'navigate' as the <code> doneAction </code>. </p> <p>Optionally, you can provide your own function to handle the navigation event by passing this function as the <code>$1</code>. </p> <p> <b>範例</b> </p> 
+    </code> <p> <b>doneAction</b>: (選用) 指定在傳送連結追蹤呼叫或逾時 (根據 <code> s.forcedLinkTrackingTimeout </code> 所指定的值) 之後所要採取的動作。The <code> doneAction </code> can be the string 'navigate', which causes the method to set <code> document.location </code> to the <code> href </code> attribute of <code> linkObject </code>. <code> doneAction</code> 也可以是一個允許進階自訂的函數。 </p> <p>若在錨點 <code> onclick </code> 事件中提供 <code> false </code> 的值，您必須在 <code> s.tl </code> 呼叫之後傳回 <code> href </code>，以防止進行預設瀏覽器導覽。 </p> <p> 若要反映預設行為並遵循 <code> doneAction </code> 屬性所指定的 URL，請提供字串「navigate」做為 <code> doneAction </code>。 </p> <p>您可以視需要選擇傳入自己的函數作為 <code>$1</code>，將此函數用於處理導覽事件。 </p> <p> <b>範例</b> </p> 
     <code class="syntax javascript">
       &lt;a&amp;nbsp;href="..."&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,'navigate');return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
-     
-    
-      &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))</code><code class="syntax javascript">document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
+    </code> 
+    <code class="syntax javascript">
+      &lt;a&amp;nbsp;href="#"&amp;nbsp;onclick="s.tl(this,'o','MyLink',null,function(){if(confirm('Proceed?'))document.location=...});return&amp;nbsp;false"&gt;Click&amp;nbsp;Here&lt;/a&gt; 
     </code> </td> 
   </tr> 
  </tbody> 
@@ -305,7 +304,7 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
 
 建議所有客戶都套用此更新。
 
-* 增強對於使用 Google Chrome Prerender 預先轉譯之頁面的偵測能力 ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender))。Since Prerender loads and executes [!DNL JavaScript] and other code, this could result in page views being sent before a user clicks to visit your site. The [!DNL JavaScript] library now waits until the user visits your site before sending server calls for these prerendered pages.
+* 增強對於使用 Google Chrome Prerender 預先轉譯之頁面的偵測能力 ([https://developers.google.com/chrome/whitepapers/prerender](https://developers.google.com/chrome/whitepapers/prerender))。Prerender 載入並執行 [!DNL JavaScript] 和其他程式碼後，可能導致在使用者點按以存取您的網站前，就先行傳送頁面檢視。[!DNL JavaScript] 程式庫現在會等到使用者存取您的網站，才傳送這些已預先轉譯之頁面的伺服器呼叫。
 * 針對要將類似其他 程式庫的時間戳記資料加以自訂的客戶，將 `timestamp`[!DNL JavaScript] 變數新增到 程式庫。[!DNL AppMeasurement]
 
 ```js
@@ -327,7 +326,7 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
 發行日期: **2012 年 1 月**
 
 * 以新方式更新視訊追蹤，現可追蹤完整的視訊檢視次數。
-* Fixed an issue that caused an "Attribute only valid on v:image" [!DNL JavaScript] error for `OnClick` events on VML elements in IE.
+* 針對 IE 中 VML 元素的 `OnClick` 事件，修正導致「屬性僅對 v:image 有效」[!DNL JavaScript] 錯誤的問題。
 * 修正儘管在 `linkTrackVars` 中參考上下文資料變數，但變數仍未納入連結伺服器呼叫的錯誤。上下文資料變數適用於處理規則。
 
 ## H.24.1 {#section_967356D219FE4E9CAA110D03EDF4C8B1}
@@ -340,19 +339,19 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
 
 發行日期: **2011 年 11 月**
 
-* 內部更新以支援 [!DNL Adobe Tag Manager]。
+* 進行內部更新，以支援 [!DNL Adobe Tag Manager]。
 
 ## H.23.9 {#section_3834625A639A47428683E08A472359C7}
 
 發行日期: **2011 年 11 月**
 
-* 內部更新以支援 [!DNL Adobe Tag Manager]。
+* 進行內部更新，以支援 [!DNL Adobe Tag Manager]。
 
 ## H.23.8 {#section_FF3CEEAB6C6744D6B5EE314A0B5841CA}
 
 發行日期: **2011 年 10 月**
 
-* Fixed an issue that caused the `linkTrackVars=none` and `linkTrackEvents=none` settings to not apply when using automatic exit link tracking. 這些設定現在可套用至自動退出連結，因此退出連結影像請求不會傳送 prop、eVar 和事件。
+* 修正當使用自動退出連結追蹤時，不會套用 `linkTrackVars=none` 和 `linkTrackEvents=none` 設定的問題。這些設定現在可套用至自動退出連結，因此退出連結影像請求不會傳送 prop、eVar 和事件。
 
 ## H.23.7 {#section_D9D0CF343EBF49D9844C6BDA0C3C7A2E}
 
@@ -370,13 +369,13 @@ Firefox 和 Internet Explorer 會執行追蹤連結調用，並開啟新頁面�
 
 發行日期: **2011 年 7 月**
 
-* 新增依區段劃分 [!DNL Adobe Tag Manager].
+* 新增依區段劃分 [!DNL Adobe Tag Manager]。
 
 ## H.23.4 {#section_E9152B4437C24107A68D264F70361930}
 
 發行日期: **2011 年 6 月**
 
-* Fixed an issue that caused [!DNL JavaScript] errors when accessing certain properties of Vector Markup Language (VML) shape elements.
+* 修正會在存取 Vector Markup Language (VML) 形狀元素的特定屬性時導致 [!DNL JavaScript] 錯誤的問題。
 * 現在已透過縮短路徑而非查詢字串，截斷超過 255 個字元的轉接連結字串。這修正查詢字串參數遭截斷且未收集的問題。
 
 ## H.23.3 {#section_EAB0602E07EE4A5CA6521351F461D22D}
