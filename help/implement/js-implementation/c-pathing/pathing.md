@@ -1,19 +1,19 @@
 ---
 description: 路徑分析的定義為使用者在您的網站上的瀏覽路徑。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 路徑分析的定義為使用者在您的網站上的瀏覽路徑。
-seo-title: 路徑概述
+seo-title: 路徑概觀
 solution: Analytics
-title: 路徑概述
-topic: 開發人員和實施
-uuid: 18acdp9f-4e5f-4c2d-8be-743e7d6d6
-translation-type: tm+mt
+title: 路徑概觀
+topic: 開發人員和實作
+uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
+translation-type: ht
 source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 ---
 
 
-# 路徑概述
+# 路徑概觀
 
 路徑分析的定義為使用者在您的網站上的瀏覽路徑。
 
@@ -23,6 +23,6 @@ source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 >[!NOTE]
 >
->To enable pathing, go to **[!UICONTROL Admin &gt; Report Suites &gt; Edit Settings &gt; Traffic &gt; Traffic Variables]**. 若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
+>若要啟用路徑功能，請前往&#x200B;**[!UICONTROL 管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 流量 &gt; 流量變數]**。若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
 
-Explore more powerful pathing (flow) options in [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md).
+探索 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更多強大的路徑功能 (流程) 選項。
