@@ -5,9 +5,9 @@ seo-title: 建立多個請求副本
 solution: Analytics
 title: 建立多個請求副本
 topic: Report Builder
-uuid: aa8442f3-28c7-4665-b0 ff-e81 fcdb79 f6 c
+uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
