@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,17 +14,13 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  變數可讓您根據各頁面的 URL 動態選取報表套裝。
 
->[!NOTE]
->
->`dynamicAccountSelection` 無法與自訂連結追蹤搭配使用。
+> [!NOTE]`dynamicAccountSelection` 無法與自訂連結追蹤搭配使用。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
 | 不適用 | 不適用 | 不適用 | False |
 
->[!NOTE]
->
->Both `dynamicAccountList` and `dynamicAccountMatch` are ignored if the `dynamicAccountSelection` variable is not declared or set to 'false.'
+> [!NOTE]如果 `dynamicAccountList` 變數未宣告或設為「false」，則會同時忽略 `dynamicAccountMatch` 和 `dynamicAccountSelection`。
 
 ## 語法和可能的值
 
@@ -32,7 +28,7 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 s.dynamicAccountSelection=[true|false]
 ```
 
-只有 'true' 和 'false' 可作為 *另存`dynamicAccountSelection`。*
+只有「true」和「false」可做為 *`dynamicAccountSelection`* 的值。
 
 ## 範例
 
@@ -50,6 +46,6 @@ s.dynamicAccountSelection=false
 
 ## 缺陷、問題和提示
 
-* 動態帳戶選擇不受下列項目支援: [JavaScript 適用的 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* [適用於 JavaScript 的 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)不支援動態帳戶選項。
 
-* Always use the [!DNL DigitalPulse Debugger] to determine which report suite is receiving data from each page.
+* 請一律使用 [!DNL DigitalPulse Debugger]，確認是哪個報表套裝在接收來自各頁面的資料。
