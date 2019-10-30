@@ -1,25 +1,25 @@
 ---
 description: 遵循這些指引，即會使用相同的 Cookie 網域，而使瀏覽在不同類型的實施之間受到追蹤。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 遵循這些指引，即會使用相同的 Cookie 網域，而使瀏覽在不同類型的實施之間受到追蹤。
-seo-title: 實施指引
+seo-title: 實作指南
 solution: Analytics
-title: 實施指引
-topic: 開發人員和實施
-uuid: 2917f4af-19bd-4666-ae4 b-056e7 e33 f642
-translation-type: tm+mt
+title: 實作指南
+topic: 開發人員和實作
+uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# 實施指引
+# 實作指南
 
 遵循這些指引，即會使用相同的 Cookie 網域，而使瀏覽在不同類型的實施之間受到追蹤。
 
 * **RSID:**[!UICONTROL 報表套裝 ID]
 * **VNS:**&#x200B;訪客命名空間，用以儲存[!DNL 2o7.net]訪客 ID Cookie 之 [!DNL omtrdc.net] 或  的子網域。
-* **COOKIEDOMAIN:** 您的 VNS + trackingServer。這些項目可能會隨您的資料中心與 RDC 組態而大不相同。[如果您不確定資料收集網域，請連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) 。
+* **COOKIEDOMAIN:** 您的 VNS + trackingServer。這些項目可能會隨您的資料中心與 RDC 組態而大不相同。如果您不確定自己的資料收集網域，請[聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html#analytics)。
 
 ## Javascript
 
