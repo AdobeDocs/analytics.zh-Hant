@@ -6,8 +6,8 @@ seo-title: 建立事件型規則的條件
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立事件型規則的條件
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    ![](assets/condition-event-based.png)
 
-   如需詳細資訊，請參閱 Adobe Tag Management 產品文件中的[事件類型](https://marketing.adobe.com/resources/help/zh_TW/dtm/event_types.html)。
+   如需詳細資訊，請參閱 Adobe 標籤管理產品文件中的[事件類型](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)。
 
 1. 視需要啟用下列選項:
 
@@ -37,7 +37,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    ![](assets/condition-event-based2.png)
 
-   如需尋找正確元素標籤的相關資訊，請參閱 Dynamic Tag Management 產品文件中的[使用 CSS 選取器](https://marketing.adobe.com/resources/help/zh_TW/dtm/css-selector.html)。
+   如需尋找正確元素標籤的相關資訊，請參閱動態標籤管理產品文件中的[使用 CSS 選取器](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)。
 
 1. 選取並設定您想要綁定到規則的任何其他準則或條件類型。
 
@@ -49,6 +49,6 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    | 若您 ... | 勾選此選項 |
    |--- |--- |
-   | 希望所識別之規則選擇器之子項元素上的相關互動要觸發規則。 | 允許子項元素上的事件反昇。 |
+   | 希望所識別之規則選擇器之子項元素上的相關互動要觸發規則。 | 允許子項元素上的事件反昇實施流量分類。 |
    | 希望在子項元素已自行觸發事件時防止事件反昇。 | 若子項元素已觸發事件，則不允許。 |
    | 不希望所識別之規則選取器的事件超越事件階層中的元素本身。 | 不允許事件向上反昇至父級。 |
