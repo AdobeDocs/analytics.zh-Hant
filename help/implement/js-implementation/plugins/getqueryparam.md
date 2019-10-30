@@ -1,14 +1,14 @@
 ---
-description: 若在現行頁面 URL 中找到指定的查詢字串參數值，則加以傳回。由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此  getQueryParam 有助於將資料擷取至 Analytics 變數中。
-keywords: Analytics 實施
+description: 若在現行頁面 URL 中找到指定的查詢字串參數值，則加以傳回。由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此   getQueryParam 有助於將資料擷取至 Analytics 變數中。
+keywords: Analytics 實作
 seo-description: 若在現行頁面 URL 中找到指定的查詢字串參數值，則加以傳回。由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此   getQueryParam 有助於將資料擷取至 Analytics 變數中。
 seo-title: getQueryParam
 solution: Analytics
 subtopic: 外掛程式
 title: getQueryParam
-topic: 開發人員和實施
-uuid: ba202756-c728-4ebc-8fd9-5bc29 a9 f673 b
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -16,27 +16,27 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 # getQueryParam
 
-若在現行頁面 URL 中找到指定的查詢字串參數值，則加以傳回。由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此  getQueryParam 有助於將資料擷取至 Analytics 變數中。
+若在現行頁面 URL 中找到指定的查詢字串參數值，則加以傳回。由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此   getQueryParam 有助於將資料擷取至 Analytics 變數中。
 
 >[!IMPORTANT]
 >
->此增效模組僅供H程式碼使用。[JavaScript](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 適用的AppMeasurement可使用 [Util. getQueryParam原生提供此功能](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)。
+>此外掛程式僅限 H-Code 使用。[JavaScript 適用的 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 透過 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) 以原生方式提供此功能。
 
-Once installed in your [!DNL AppMeasurement] for JavaScript code, the plug-in is configured by selecting a [!DNL Analytics] variable to populate using data found in the query string, and specifying which query string values to capture. 外掛程式會偵測指定的查詢字串，若偵測到，即會以其值填入選擇的變數中。若沒有找到該值的查詢字串參數，則會返回空字串。If a query string parameter exists but does not have a value (such as param1 in `?param1&param2=value`), the word *`true`* is returned.
+在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼中安裝此外掛程式後，您即可選取要使用在查詢字串中找到的資料填入的 [!DNL Analytics] 變數，並指定所要擷取的查詢字串值，來設定外掛程式。外掛程式會偵測指定的查詢字串，若偵測到，即會以其值填入選擇的變數中。若沒有找到該值的查詢字串參數，則會返回空字串。若有查詢字串參數存在，但沒有值 (例如 `?param1&param2=value` 中的 param1)，則會傳回 *`true`* 這個字。
 
 >[!NOTE]
 >
->The base code for the plug-in must be installed in your [!DNL AppMeasurement] for JavaScript code before the examples below will work.
+>您必須在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼中安裝此外掛程式的基礎程式碼，下列範例才能運作。
 
-If you wanted to use *`s.campaign`* to capture campaign tracking codes available as values of the *`cid`* query parameter, you would enter the following in the *`doPlugins()`* function in your [!DNL AppMeasurement] for JavaScript code:
+如果您想要使用 *`s.campaign`* 擷取可用的促銷活動追蹤程式碼，做為 *`cid`* 查詢參數的值，請在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼的 *`doPlugins()`* 函數中輸入下列內容:
 
 `s.campaign=s.getQueryParam('cid')`
 
-In this example, if the user arrived at a landing page on your site where the URL was [!DNL https://www.yoursite.com/index.html?cid=123456], then *`s.campaign`* would receive a value of *123456*. 這可以用 [!DNL DigitalPulse] 偵錯器來檢視，其中應會將 *v0=123456* 顯示為影像要求的一部分。
+在此範例中，若使用者進入您的網站時的登陸頁面 URL 為 [!DNL https://www.yoursite.com/index.html?cid=123456]，則 *`s.campaign`* 會收到 *123456* 的值。這可以用 [!DNL DigitalPulse] 偵錯器來檢視，其中應會將 *v0=123456* 顯示為影像要求的一部分。
 
 >[!NOTE]
 >
->The parameter *`cid`* and others are used here as examples. 您可以將其替換為您的網站上任何現有的查詢字串參數。
+>參數 *`cid`* 與其他項目僅供範例說明之用。您可以將其替換為您的網站上任何現有的查詢字串參數。
 
 此&#x200B;*`getQueryParam`*&#x200B;外掛程式還有兩個引數 (選項) 可用來將資料擷取到 Analytics 變數中: 
 
@@ -76,7 +76,7 @@ s.campaign=s.getQueryParam('cid');
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 **外掛程式程式碼**
 
