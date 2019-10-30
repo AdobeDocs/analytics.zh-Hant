@@ -5,7 +5,7 @@ seo-title: 智慧型警報
 title: 智慧型警報
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 ## 常見問題集: 系統如何計算及觸發警報 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。依您選擇的時間粒度而定，[不同模式](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。99.75% 與 99.99% 是特別引進用於每小時粒度的臨界值，因此不會觸發那麼多的異常警報。
+% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。依您選擇的時間粒度而定，[不同模式](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。針對每小時粒度特別引入了99.75%和99.99%的臨界值，因此不會觸發太多異常。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
@@ -74,7 +74,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
    <td colname="col2"> <p>目前沒辦法。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問: 我能否取得包含虛線的「預期值」表格 (或某種顯示相關數值的輸出資料)?</b> </p> </td> 
+   <td colname="col1"> <p><b>問：我是否可以得到包含虛線的「預期值」表，或是輸出這些值的某種形式？ </b> </p> </td> 
    <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片: <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。其偵測方式採用固定的 30 天培訓期間、固定 95% 區間，並與<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics 異常偵測</a>的偵測方式相似。 </p> </td> 
   </tr> 
  </tbody> 
