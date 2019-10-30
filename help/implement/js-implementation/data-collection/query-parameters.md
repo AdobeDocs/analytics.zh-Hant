@@ -1,23 +1,23 @@
 ---
 description: 下表列出查詢參數，這些參數包含每個傳送給資料收集之分析變數的值。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 下表列出查詢參數，這些參數包含每個傳送給資料收集之分析變數的值。
-seo-title: 資料收集查詢參數
+seo-title: 資料彙集查詢參數
 solution: Analytics
-title: 資料收集查詢參數
-topic: 開發人員和實施
-uuid: 4d5af486-df27-42Fe-bb9 c-28938ddf2 b2
-translation-type: tm+mt
+title: 資料彙集查詢參數
+topic: 開發人員和實作
+uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
+translation-type: ht
 source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
 
 ---
 
 
-# 資料收集查詢參數
+# 資料彙集查詢參數
 
 下表列出查詢參數，這些參數包含每個傳送給資料收集之分析變數的值。
 
-這項資訊可用於使用[封包分析器](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)、手動建立影像請求時或使用 [動態變數](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)時。
+這項資訊可用於使用[封包分析器](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)進行偵錯時、手動建立影像要求時，以及使用[動態變數](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)時。
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
@@ -78,10 +78,10 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> 色彩品質 (位元） </td> 
   </tr> 
   <tr> 
-   <td> <code> c. <span class="varname"> [key] </code></span> </td> 
+   <td> <code> c. <span class="varname"> [key] </code> </span> </td> 
    <td> <p>s.contextData </p> </td> 
    <td> <p>無 </p> </td> 
-   <td> <p>以下列其中一種格式指定索引鍵-值對: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>或: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>這些範例會產生 <code>my.a = red</code> 的上下文資料值。可以指定多個索引鍵-值對。 </p> <p>In the query string, this context data variable would appear as <code> c.&amp;my.a=red </code> </p> </td> 
+   <td> <p>以下列其中一種格式指定索引鍵-值對: </p> <p> <code> &lt;my.a&gt;red&lt;/my.a&gt; </code> </p> <p>或: </p> <p> <code> &lt;my&gt;&lt;a&gt;red&lt;/a&gt;&lt;/my&gt; </code> </p> <p>這些範例會產生 <code>my.a = red</code> 的上下文資料值。可以指定多個索引鍵-值對。 </p> <p>此內容資料變數在查詢字串中會顯示為 <code>c.&amp;my.a=red</code> </p> </td> 
   </tr> 
   <tr> 
    <td> c1 - c75 </td> 
@@ -135,7 +135,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> <code> D </code> </td> 
    <td> dynamicVariablePrefix </td> 
    <td> 無 </td> 
-   <td> <p>請參閱 <a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> 動態變數 </a>. </p> </td> 
+   <td> <p>請參閱<a href="../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262" format="dita" scope="local"> 動態變數 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td> events 或 ev </td> 
@@ -153,7 +153,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> -g </td> 
    <td> 無 </td> 
    <td> 無 </td> 
-   <td> 長度超過 225 個位元組的 URL 會被切割，前 255 個位元組出現在 g 參數中，其餘位元組出現在 -g= 查詢參數的查詢字串中。 </td> 
+   <td> 長度超過 255 個位元組的 URL 會被切割，前 255 個位元組出現在 g 參數中，其餘位元組出現在 -g= 查詢參數的查詢字串中。 </td> 
   </tr> 
   <tr> 
    <td> h1 - h5 </td> 
@@ -261,7 +261,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> pev3 </td> 
    <td> 無 </td> 
    <td> 所有視訊報表 </td> 
-   <td> 用於追蹤舊版視訊報表中的里程碑；於 v15 廢除 </td> 
+   <td> 用於追蹤舊版視訊報表中的里程碑；由 v15 取代 </td> 
   </tr> 
   <tr> 
    <td> pf </td> 
@@ -322,12 +322,15 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> (自動，每次點擊時傳送，沒有自訂的時間戳記) </td> 
    <td> 無 </td> 
    <td> <p><code>t</code> 參數為以下格式: </p> 
-    <code>dd/mm/yyyy&amp; amp；nbsp；hh：mm：ss&amp; amp；nbsp；D&amp; amp；nbsp；偏移量 </code>
-  <p>其中 D 是 <code>0-6</code> 範圍中的數字，指定一星期的天數，而 <code>OFFSET</code> 代表: </p> 
-    <code>偏移與安培；nbsp；從與amp；nbsp；GMT&amp; amp；nbsp；進出；nbsp；小時與月；nbsp；*&amp; amp；nbsp；60&amp; amp；nbsp；*&amp; amp；nbsp；&amp; amp；nbsp；1 </code>
-  <p> 例如: </p> 
-    <code>23/09/2016&amp; amp；nbsp；14：00：00&amp; amp；nbsp；&amp; amp；nbsp；420 </code>
-  </td> 
+    <code>
+      dd/mm/yyyy&amp;nbsp;hh:mm:ss&amp;nbsp;D&amp;nbsp;OFFSET 
+    </code> <p>其中 D 是 <code>0-6</code> 範圍中的數字，指定一星期的天數，而 <code>OFFSET</code> 代表: </p> 
+    <code>
+      offset&amp;nbsp;from&amp;nbsp;GMT&amp;nbsp;in&amp;nbsp;hours&amp;nbsp;*&amp;nbsp;60&amp;nbsp;*&amp;nbsp;-&amp;nbsp;1 
+    </code> <p> 例如: </p> 
+    <code>
+      23/09/2016&amp;nbsp;14:00:00&amp;nbsp;1&amp;nbsp;420 
+    </code> </td> 
   </tr> 
   <tr> 
    <td> <code> ts </code> </td> 
@@ -357,13 +360,13 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
    <td> vid </td> 
    <td> <p>s.visitorID </p> </td> 
    <td> 無 </td> 
-   <td> 訪客的獨特識別碼設定在 訪客 ID 變數. </td> 
+   <td> 訪客的獨特識別碼設定在訪客 ID 變數。 </td> 
   </tr> 
   <tr> 
    <td> vmk </td> 
    <td> s.vmk </td> 
    <td> 無 </td> 
-   <td> 訪客移轉金鑰；用於從第三方 Cookie 移轉到第一方 Cookie。不再提倡。 </td> 
+   <td> 訪客移轉金鑰；用於從第三方 Cookie 移轉到第一方 Cookie。已遭取代。 </td> 
   </tr> 
   <tr> 
    <td> vvp </td> 
