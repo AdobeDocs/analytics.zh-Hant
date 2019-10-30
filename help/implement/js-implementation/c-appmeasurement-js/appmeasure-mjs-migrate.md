@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: 移轉至 JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 下表包含您在移轉實施時所需執行的工作清單。
 
->[!NOTE]
->
->當您移轉至 JavaScript 適用的 [!DNL AppMeasurement] 時，建議您移轉至 [Identity 服務](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)。
+> [!NOTE]當您移轉至 JavaScript 適用的 [ 時，建議您移轉至 ](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)Identity 服務[!DNL AppMeasurement]。
 
 ![](assets/step1_icon.png) 檢查外掛程式相容性
 
