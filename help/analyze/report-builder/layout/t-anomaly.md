@@ -5,9 +5,9 @@ seo-title: 設定異常偵測請求
 solution: Analytics
 title: 設定異常偵測請求
 topic: Report Builder
-uuid: 1e504ff9-df88-4fa7-95ea-1ca05 a6 f9 c0 d
+uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,13 +21,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >[!UICONTROL 「異常偵測] 」功能表只有在您選取「日」精細度時才可用。前 30 天的資料用於統計資料培訓期間，無論您選取的日期範圍為何。
+   >The [!UICONTROL Anomaly Detection] menu is available only when you select Day granularity. 前 30 天的資料用於統計資料培訓期間，無論您選取的日期範圍為何。
 
 1. After configuring date ranges, click **[!UICONTROL Next]**.
 
-   步驟結果1.On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
+   步驟結果 1。On the Request Wizard: Step 2 of 2, add a metric, such as **[!UICONTROL Visits]**.
 
-   步驟結果1.For the added metric, click the **[!UICONTROL None]** link.
+   步驟結果 1。For the added metric, click the **[!UICONTROL None]** link.
 
    ![步驟結果](assets/anomaly_select.png)
 
