@@ -1,29 +1,27 @@
 ---
-description: 使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。 建議大多數使用者採用自動方法。
-keywords: Analytics Implementation;implementation方法；動態標籤管理；dtm;analytics tool;property;tool type;tool name;configuration方法；analytics premium;evars;events
-seo-description: 使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。 建議大多數使用者採用自動方法。
+description: 您可以藉由建立 Adobe Analytics 工具並自動或手動設定頁面程式碼，使用 Dynamic Tag Management 來部署 Adobe Analytics。建議大多數使用者採用自動方法。
+keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;分析工具;屬性;工具類型;工具名稱;設定方法;Analytics Premium;eVar;事件
+seo-description: 您可以藉由建立 Adobe Analytics 工具並自動或手動設定頁面程式碼，使用 Dynamic Tag Management 來部署 Adobe Analytics。建議大多數使用者採用自動方法。
 seo-title: 新增 Adobe Analytics 工具
 solution: Analytics
 title: 新增 Adobe Analytics 工具
 topic: 開發人員和實作
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 新增 Adobe Analytics 工具
 
-使用動態標籤管理來部署Adobe Analytics，方法是建立Adobe Analytics工具並自動或手動設定頁面代碼。 建議大多數使用者採用自動方法。
+您可以藉由建立 Adobe Analytics 工具並自動或手動設定頁面程式碼，使用 Dynamic Tag Management 來部署 Adobe Analytics。建議大多數使用者採用自動方法。
 
->[!NOTE]
->
->為改善訪客追蹤，強烈建議您啟用 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
+> [!NOTE] 為改善訪客追蹤，強烈建議您啟用 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 ## 新增 Adobe Analytics 工具 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. Click  **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL Overview]** &gt; **[!UICONTROL Add a Tool]** &gt; **[!UICONTROL Adobe Analytics]** .
+1. 按一下 **[!UICONTROL *`Web Property Name`*]** &gt; **[!UICONTROL 概覽]** &gt; **[!UICONTROL 新增工具]** &gt; **[!UICONTROL Adobe Analytics]**。
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -54,11 +52,11 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手動</b>: 手動管理 AppMeasurement 代碼。您可以從「<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代碼管理員<span class="ignoretag"><span class="uicontrol">」下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代碼。 </p> <p>Click <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external"> JavaScript (new)</a> for information about downloading the code locally to copy and paste in the <span class="wintitle"> Edit Code</span> field in <a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local"> Library Management</a>. </p> <p>填寫手動配置的特定欄位: </p> 
+   <td colname="col2"> <p> <b>手動</b>: 手動管理 AppMeasurement 代碼。您可以從「<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代碼管理員<span class="ignoretag"><span class="uicontrol">」下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代碼。 </p> <p>如需如何在本機下載程式碼以複製並貼到<a href="../../../implement/c-implement-with-dtm/c-aa-tool/library-management.md#concept_24654766343B4E82A9416A112D2125FE" format="dita" scope="local">程式碼管理</a>的<span class="wintitle">編輯程式碼</span>欄位的相關資訊，請按一下 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html" format="https" scope="external">JavaScript (新增)</a>。 </p> <p>填寫手動配置的特定欄位: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生產帳戶 ID: </b>(必要) 您用於資料收集的生產帳戶。若為 Analytics，這是您的報表套裝 ID。動態標籤管理會自動在生產與測試環境中安裝正確帳戶。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>測試帳戶 ID: </b>(必要) 用於您的開發或測試環境。若為 Analytics，這是您的報表套裝 ID。測試帳戶可讓您的測試資料與生產資料彼此分離。 </p> </li> 
-     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b>追蹤伺服器: </b>指定追蹤伺服器的資訊。 </p> <p><span class="wintitle">追蹤伺服器</span>和 <span class="wintitle">SSL 追蹤伺服器</span>變數用於第一方 Cookie 實施，以指定影像要求和 Cookie 寫入所在的網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">正確填入 trackingServer 和 trackingServerSecure 變數</a>一文。 </p> </li> 
+     <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> 追蹤伺服器: </b>指定 追蹤伺服器的資訊。 </p> <p><span class="wintitle">追蹤伺服器</span>和 <span class="wintitle">SSL 追蹤伺服器</span>變數用於第一方 Cookie 實施，以指定影像要求和 Cookie 寫入所在的網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external">正確填入 trackingServer 和 trackingServerSecure 變數</a>一文。 </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL 追蹤伺服器: </b>指定 SSL 追蹤伺服器的資訊。 </p> </li> 
     </ul> </td> 
   </tr> 
@@ -69,9 +67,9 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
    工具會顯示在[!UICONTROL 「綜覽」]索引標籤的[!UICONTROL 「已安裝工具」]下。
 
-1. (有條件) 視需要進一步配置工具，方法是遵循以下連結中的指示: [!UICONTROL 「一般] &gt; [!UICONTROL 程式庫管理] &gt; [!UICONTROL 全域變數] &gt; [!UICONTROL 頁面檢視與內容] &gt; [!UICONTROL 連結追蹤] &gt; [!UICONTROL 反向連結與促銷活動] &gt; [!UICONTROL Cookie] &gt; [!UICONTROL 自訂頁面代碼」]。
+1. (有條件) 視需要進一步配置工具，方法是遵循以下連結中的指示: [!UICONTROL 「一般] &gt; [!UICONTROL 程式庫管理] &gt; [!UICONTROL 全域變數] &gt; [!UICONTROL 頁面檢視與內容] &gt; [!UICONTROL 連結追蹤] &gt; [!UICONTROL 反向連結與促銷活動] &gt; [!UICONTROL Cookie] &gt; [!UICONTROL 自訂頁面程式碼」]。
 
-See [Frequently Asked Questions About the Adobe Analytics Tool](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B) for additional information about this tool.
+如需此工具的其他相關資訊，請參閱[Adobe Analytics 工具常見問答集](../../../implement/faq.md#concept_00DF9AF14D30469BB986BF56A448806B)。
 
 ## 編輯現有的 Adobe Analytics 工具 {#section_148B16AF429B4949B06238D90635B726}
 
@@ -92,7 +90,7 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  <tbody> 
   <tr> 
    <td colname="col1"> <p>啟用自動配置 </p> </td> 
-   <td colname="col2"> <p>Note: Enabling this setting changes a manually configured implementation to the automatic configuration method described in <span class="term"> Configuration Method</span>. </p> <p>此選項允許動態標籤管理自動擷取您 <span class="keyword">Adobe Analytics</span> 帳戶的設定。 </p> <p>會使用最新可用的·AppMeasurement 代碼，並在新版本可用時顯示升級通知以供選擇。如有需要 (例如基於相容性原因)，您也可以復原到先前的 AppMeasurement 版本。最多會顯示五個先前的版本。 </p> </td> 
+   <td colname="col2"> <p>啟用此設定會將手動配置實施變更為自動設定方法，如<span class="term">設定方法</span>所述。 </p> <p>此選項允許動態標籤管理自動擷取您 <span class="keyword">Adobe Analytics</span> 帳戶的設定。 </p> <p>會使用最新可用的·AppMeasurement 代碼，並在新版本可用時顯示升級通知以供選擇。如有需要 (例如基於相容性原因)，您也可以復原到先前的 AppMeasurement 版本。最多會顯示五個先前的版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新憑證 </p> </td> 
@@ -101,5 +99,5 @@ See [Frequently Asked Questions About the Adobe Analytics Tool](../../../impleme
  </tbody> 
 </table>
 
-1. (有條件) 視需要進一步配置工具，方法是遵循以下連結中的指示: [!UICONTROL 「一般] &gt; [!UICONTROL 程式庫管理] &gt; [!UICONTROL 全域變數] &gt; [!UICONTROL 頁面檢視與內容] &gt; [!UICONTROL 連結追蹤] &gt; [!UICONTROL 反向連結與促銷活動] &gt; [!UICONTROL Cookie] &gt; [!UICONTROL 自訂頁面代碼」]。
-1. Click **[!UICONTROL Save Changes]**.
+1. (有條件) 視需要進一步配置工具，方法是遵循以下連結中的指示: [!UICONTROL 「一般] &gt; [!UICONTROL 程式庫管理] &gt; [!UICONTROL 全域變數] &gt; [!UICONTROL 頁面檢視與內容] &gt; [!UICONTROL 連結追蹤] &gt; [!UICONTROL 反向連結與促銷活動] &gt; [!UICONTROL Cookie] &gt; [!UICONTROL 自訂頁面程式碼」]。
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
