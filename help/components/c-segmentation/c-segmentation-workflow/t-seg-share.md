@@ -5,9 +5,9 @@ seo-title: 共用區段
 solution: Analytics
 title: 共用區段
 topic: 區段
-uuid: 48736078-85a7-49bd-b8 b8-562818798c5 e
+uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
