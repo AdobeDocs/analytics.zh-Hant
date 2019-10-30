@@ -7,7 +7,7 @@ title: 連結追蹤常見問題集
 topic: Activity Map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 Frequently asked questions about link tracking in [!DNL Activity Map].
 
->[!CAUTION]
->
->By turning on [!DNL Activity Map] tracking, **you may be** **collecting personally identifiable information (PII) data.**&#x200B;此資料可以單獨使用，或搭配其他資訊使用，藉以識別、聯絡或尋找個別人員，或者識別環境中的個人。
+> [!CAUTION] 開啟追蹤 [!DNL Activity Map] 後， **您可能會收****集個人識別資訊(PII)資料。**&#x200B;此資料可以單獨使用，或搭配其他資訊使用，藉以識別、聯絡或尋找個別人員，或者識別環境中的個人。
 
 Here are some known cases where PII data might be collected using [!DNL Activity Map] Tracking:
 
@@ -108,4 +106,3 @@ Here are some known cases where PII data might be collected using [!DNL Activity
   </tr> 
  </tbody> 
 </table>
-
