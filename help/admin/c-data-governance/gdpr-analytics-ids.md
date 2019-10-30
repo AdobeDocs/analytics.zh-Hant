@@ -3,18 +3,16 @@ description: 'null'
 seo-description: 'null'
 seo-title: 標籤最佳作法
 title: 標籤最佳作法
-uuid: d1e9bff-9b04-4e3e-9b4e-a6e527b1b2e3
+uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 標籤最佳作法
 
->[!NOTE]
->
->請記住，每次建立新報表套裝或在現有報表套裝中啟用新變數時，都需要檢閱標籤。 啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
+> [!NOTE]請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
 ## 可直接與間接識別身分的 ID {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -48,7 +46,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> (舊版) Analytics Cookie </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 身分服務 </a> Cookie(ECID)，先前稱為Marketing Cloud ID(MCID) </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> 身分識別服務 Cookie</a> (ECID) 原稱為 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>這些 Cookie 可用來識別裝置，更具體的說法是裝置使用者所用的瀏覽器；而共用裝置一般會採用通用登入帳號，因此 ID 可能適用於裝置的任何/所有使用者。Adobe has created some <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm" format="html" scope="external"> unified JavaScript </a> that you can place on your website to collect these cookies if you want to allow them to be used for Data Privacy requests. </p> <p>Adobe Analytics Mobile SDK 也有 Experience Cloud ID (ECID)，SDK內有讀取此ID的API呼叫，因此您可以增強應用程式，以收集資料隱私權要求。 </p> <p>許多公司會將瀏覽器 Cookie ID 視為共用裝置 ID，因此，在與其法律團隊協商後，他們可選擇不支援將這些ID用作資料隱私權要求的可接受ID，或當使用這些ID時，他們可以選擇僅傳回非常有限的資料量，或者只接受這些ID以請求刪除。 </p> <p>這些 Cookie 具有無法變更的 ID-DEVICE 標籤 (以及 I2 和 DEL-DEVICE 標籤)。預設的 Adobe Analytics 設定將僅傳回裝置的類型、作業系統、瀏覽器等一般資料，以及裝置使用這些 ID 造訪網站的時間/日期。不過，如果您選擇支援下列資料隱私權要求的ID（如下文所述），則可新增或移除ACC-ALL標籤，以設定您要傳回的資料隱私權存取要求欄位集合。 </p> <p>特別是在報表套裝已對應到行動應用程式，且您的行動應用程式要求登入的情況下，您可決定讓裝置的 Experience Cloud ID 對應到特定使用者，然後您可能會想透過 ACC-ALL 標籤標記更多欄位，包括使用者造訪的頁面名稱、瀏覽過的產品等等。 </p> <p>注意： 如果您在資料隱私權要求中指定「expandIds」選項，則除了您指定的任何其他ID外，您的要求一律會包含Cookie ID。 如需更多詳細資料，請參閱 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md" format="dita" scope="local">ID 擴增</a>。在這些例項中，只有一個 Cookie ID (沒有其他 ID) 的點擊只會在存取請求中傳回標籤為 ACC-ALL 的資料。 </p> </td> 
   </tr> 
@@ -70,9 +68,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 ## 設定刪除標籤的最佳實務 {#section_08166C99B48E49218392FAC18922C10E}
 
->[!NOTE]
->
->Prop一律不區分大小寫。 而 eVar 雖然預設為不區分，但您可聯絡 Adobe 客戶服務中心將其設為區分大小寫。如果您的eVar包含ID區分大小寫，則您有責任在提交「資料隱私權」要求時使用正確的大小寫，以便要求中使用的大小寫與包含這些ID的點擊中使用的大小寫相符。
+> [!NOTE]屬性一律不區分大小寫，而 eVar 雖然預設為不區分，但您可聯絡 Adobe 客戶服務中心將其設為區分大小寫。如果您的eVar包含ID區分大小寫，則您有責任在提交「資料隱私權」要求時使用正確的大小寫，以便要求中使用的大小寫與包含這些ID的點擊中使用的大小寫相符。
 
 請謹慎使用刪除標籤 DEL-DEVICE 和 DEL-PERSON。套用至不含ID的變數（此ID為資料隱私權要求的一部分）時，歷史Analytics報表中的計數（量度）幾乎一律會變更。
 
