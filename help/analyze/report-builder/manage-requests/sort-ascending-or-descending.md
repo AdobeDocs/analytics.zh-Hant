@@ -1,18 +1,18 @@
 ---
 description: 您可以依照遞增或遞減順序來排序「請求管理員」中列出的請求。
 seo-description: 您可以依照遞增或遞減順序來排序「請求管理員」中列出的請求。
-seo-title: 遞增或遞減排序
+seo-title: 遞增排序或遞減排序
 solution: Analytics
-title: 遞增或遞減排序
+title: 遞增排序或遞減排序
 topic: Report Builder
-uuid: 81199890-c183-4e42-a343-dc33 a9 e9 ed46
+uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 遞增或遞減排序
+# 遞增排序或遞減排序
 
 您可以依照遞增或遞減順序來排序「請求管理員」中列出的請求。
 
