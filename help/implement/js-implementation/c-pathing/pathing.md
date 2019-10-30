@@ -7,8 +7,8 @@ solution: Analytics
 title: 路徑概觀
 topic: 開發人員和實作
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,8 +21,6 @@ source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
 
 套裝的 Analytics 提供頁面層級的路徑分析功能。路徑分析的基本概念，是為您顯示使用者在其瀏覽期間檢視頁面的順序。這項資料會呈現在數個以不同方式進行資料格式化的不同報表中，視您所要檢視的資料類型而定。
 
->[!NOTE]
->
->若要啟用路徑功能，請前往&#x200B;**[!UICONTROL 管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 流量 &gt; 流量變數]**。若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
+> [!NOTE]若要啟用路徑功能，請前往&#x200B;**[!UICONTROL 管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 流量 &gt; 流量變數]**。若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
 
 探索 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更多強大的路徑功能 (流程) 選項。
