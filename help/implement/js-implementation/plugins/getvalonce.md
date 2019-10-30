@@ -8,8 +8,8 @@ subtopic: 外掛程式
 title: getValOnce
 topic: 開發人員和實作
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -45,15 +45,11 @@ s.eVar1=s.getValOnce(variable,cookie,expiration,minute);
    * 若使用者在關閉您的頁面後，於 30 分鐘內開啟另一個標籤並重新導覽至您的網站，外掛程式將會建立新的工作階段，同時保留 [!DNL Analytics] 瀏覽。
    * 若使用者讓瀏覽器視窗保持開啟而未點按任何連結超過 30 分鐘，[!DNL Analytics] 瀏覽即會過期，但瀏覽器工作階段仍會持續。
 
->[!NOTE]
->
->下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 實施 {#section_177FF7F425B64FFB83CDE15A6ACC8D21}
 
->[!NOTE]
->
->如果貴組織使用行銷管道，且係根據 `s.campaign` 設定規則，建議您不要在設定 `s.campaign` 值的時候使用 getValOnce 外掛程式。這樣可能會導致將錯誤管道指派給次要促銷活動點進次數。
+> [!NOTE]如果貴組織使用行銷管道，且係根據 `s.campaign` 設定規則，建議您不要在設定 `s.campaign` 值的時候使用 getValOnce 外掛程式。這樣可能會導致將錯誤管道指派給次要促銷活動點進次數。
 
 若要實施此外掛程式，請將下列程式碼放入您的 [!DNL s_code.js] 檔案中
 
