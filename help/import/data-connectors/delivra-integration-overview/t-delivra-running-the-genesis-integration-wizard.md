@@ -5,7 +5,7 @@ seo-title: 執行資料連接器整合精靈
 title: 執行資料連接器整合精靈
 uuid: 387ac9d0-3719-49ff-81cb-1f05accf9b6c
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,7 +48,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
   <tr valign="top"> 
    <td colname="col1"> <p>1 </p> </td> 
    <td colname="col2"> <p>整合電子郵件地址 </p> </td> 
-   <td colname="col3"> <p>指定接收與此整合相關之所有通知的電子郵件地址，然後按一下「下 <b>一步</b> 」以繼續精靈的步驟2。 </p> </td> 
+   <td colname="col3"> <p>指定接收與此整合相關之所有通知的電子郵件地址，然後按一下「下 <b>一步</b> 」繼續精靈的步驟2。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col1"> <p>2 </p> </td> 
