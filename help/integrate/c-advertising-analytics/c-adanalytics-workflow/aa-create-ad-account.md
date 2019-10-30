@@ -1,14 +1,14 @@
 ---
-seo-title: 設定廣告帳戶
-title: 設定廣告帳戶
-uuid: 4e37caa3-e4 a5-43ad-97c0-12db62 ad5283
+seo-title: 設定 Advertising 帳戶
+title: 設定 Advertising 帳戶
+uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 463e28e9d710cc41e4ab4ace5e3861b8ae8fbdcc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 設定廣告帳戶
+# 設定 Advertising 帳戶
 
 Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。
 
@@ -35,7 +35,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>類型 </p> </td> 
-      <td colname="col2"> <p>您有個選項：Google AdWords和Microsoft Bing廣告。 </p> <p>注意: Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。  </p> </td> 
+      <td colname="col2"> <p>您有2種選擇：Google AdWords和Microsoft Bing廣告。 </p> <p>注意: Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。  </p> </td> 
       </tr> 
       <tr> 
       <td colname="col1"> <p>帳戶名稱 </p> </td> 
@@ -47,7 +47,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: 提供 Google 帳戶 ID。 </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: 提供 Bing 帳戶 ID 和 Bing 客戶 ID。 </li> 
-        </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">尋找您的帳戶 ID</a> 以取得這些 ID 的相關資訊。 </p> <p>成功登入後，OAuth Token欄位將會顯示 
+        </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">尋找您的帳戶 ID</a> 以取得這些 ID 的相關資訊。 </p> <p>成功登入後，將會顯示「OAuth Token」欄位 
         <systemoutput>
           已擷取
         </systemoutput>實施流量分類。 </p> </td> 
@@ -69,12 +69,12 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
       <td colname="col1"> <p>類型 </p> </td> 
       <td colname="col2"> 
         <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol">自動</span>: 讓 Advertising Cloud 引擎決定如何將追蹤參數附加到搜尋引擎的追蹤範本/目的地 URL。這是最簡單的方法，但可能不會產生最佳的整合資料集。 <p>重要: 若要在「自動模式」中設定搜尋引擎帳戶，您必須執行以下動作: 
+        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol"> 自動</span>:可讓Advertising cloud引擎決定追蹤參數如何附加至搜尋引擎的追蹤範本／目標URL。 這是最簡單的方法，但可能不會產生最佳的整合資料集。 <p>重要：為了在「自動模式」中設定搜尋引擎帳戶，您負責執行下列動作： 
           <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">「S_kwcid」參數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。 </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">此外，關鍵字可以作為「S_kwcid」值的一部份，插入至登陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。 </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol">手動</span>: 讓您管理如何將追蹤參數新增到搜尋引擎的追蹤範本/目的地 URL。<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例</a>。 </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手動</span>:可讓您管理追蹤參數新增至搜尋引擎的追蹤範本／目標URL的方式。 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例</a>。 </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -103,12 +103,10 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     </tbody> 
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 儲存後，免責聲明會顯示一系列警語。系統會要求確認您已閱讀合約並瞭解其中的條款。Click the checkbox, then click **[!UICONTROL OK]**.
 
    此時，系統會將您導向 Advertising 帳戶[管理使用者介面](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB)，而新建立的帳戶應該會列示在其中。
 
->[!NOTE]
->
->您應至少等候24小時，然後搜尋引擎資料才會開始填入您的Analytics報表。
+> [!NOTE] 您應該會等到至少24小時後，搜尋引擎資料才會開始填入Analytics報表。
 
