@@ -8,8 +8,8 @@ subtopic: 變數
 title: 動態變數
 topic: 開發人員和實作
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,15 +18,13 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
 
-同時在多個變數中擷取相同的資料 (例如促銷活動追蹤程式碼) 時，動態變數可派上用場。當不同的報告提供了獨特而重要的度量時，這會是常用的作法。例如，在[!UICONTROL 自訂轉換]變數與[!UICONTROL 自訂流量]變數中擷取內部搜尋關鍵字，可讓您分別檢視與這些關鍵字相關聯的[!UICONTROL 收入]與[!UICONTROL 每週獨特訪客]度量。.
+同時在多個變數中擷取相同的資料 (例如促銷活動追蹤程式碼) 時，動態變數可派上用場。當不同的報告提供了獨特而重要的度量時，這會是常用的作法。例如，在[!UICONTROL 自訂轉換]變數與[!UICONTROL 自訂流量]變數中擷取內部搜尋關鍵字，可讓您分別檢視與這些關鍵字相關聯的[!UICONTROL 收入]與[!UICONTROL 每週獨特訪客]度量。實施流量分類。
 
 在不同的報告條件下檢視資料時，也可利用動態變數。您可以在多個具有不同配置與 Cookie 有效期設定的 eVar 中，擷取某個促銷活動追蹤程式碼。這可讓使用者自行選擇適當方式來歸納這些促銷活動的轉換度量。
 
->[!NOTE]
->
->無法同時支援動態變數與 Cookie (s_cc、s_sq、s_fid、s_vi 以及任何由外掛程式設定的 Cookie)。您可以使用 `D=<cookie value>`.
+> [!NOTE]無法同時支援動態變數與 Cookie (s_cc、s_sq、s_fid、s_vi 以及任何由外掛程式設定的 Cookie)。您可以使用 `D=<cookie value>`.
 
-動態變數能夠直接擷取多個變數中的長資料字串，而無需真正重複傳入冗長的字串，是其一大優點。有些瀏覽器設有 HTTP GET 要求 (包括 Adobe 影像要求) 的長度上限。若數個變數間有重複的資料，使用動態變數將可減少 Adobe 伺服器要求的長度，而確保能夠擷取到所有資料。.
+動態變數能夠直接擷取多個變數中的長資料字串，而無需真正重複傳入冗長的字串，是其一大優點。有些瀏覽器設有 HTTP GET 要求 (包括 Adobe 影像要求) 的長度上限。若數個變數間有重複的資料，使用動態變數將可減少 Adobe 伺服器要求的長度，而確保能夠擷取到所有資料。實施流量分類。
 
 在產生於頁面檢視的 Adobe 影像要求中，若您使用動態變數將[!UICONTROL 自訂流量 ] 的值複製到[!UICONTROL 自訂轉換 ]，您將會看 `v1=D=c1`1=1。若 eVar1 接收到先前位於要求中的值，Adobe 的伺服器將會在資料處理期間動態地將[!UICONTROL 自訂流量 1] 的值複製到[!UICONTROL 自訂轉換 1]。因此，原先使用[!UICONTROL 自訂流量 1] 傳遞的值，也會出現在[!UICONTROL 自訂轉換 1] 報告中。
 
@@ -67,13 +65,9 @@ dynvars_examples.xml
 
 請注意，`D=[variable]` 值應以引號括住。Analytics 程式碼會將其視為字串。字串在傳入至 Analytics 時會進行 URL 編碼 (如同您在 DigitalPulse 除錯程式或類似的公用程式中檢視要求時所見)。這是正常行為。Adobe 的伺服器可辨識 `D=[variable]` 建構，且在發現此字串時將會複製適當的值。
 
->[!NOTE]
->
->在使用影像要求追蹤連結時，必須要定義連結類型 (下載連結=lnk_d、退出連結=lnk_e、自訂連結=lnk_o)，如同「連結 URL/名稱」(pev2)。您必須在 `<a href>` 標籤中插入程式碼，以手動方式實作連結。
+> [!NOTE]在使用影像要求追蹤連結時，必須要定義連結類型 (下載連結=lnk_d、退出連結=lnk_e、自訂連結=lnk_o)，如同「連結 URL/名稱」(pev2)。您必須在 `<a href>` 標籤中插入程式碼，以手動方式實作連結。
 
->[!NOTE]
->
->無法同時支援動態變數與 Cookie (s_cc、s_sq、s_fid、s_vi 以及任何由外掛程式設定的 Cookie)。您可以使用 `D=<cookie value>`.
+> [!NOTE]無法同時支援動態變數與 Cookie (s_cc、s_sq、s_fid、s_vi 以及任何由外掛程式設定的 Cookie)。您可以使用 `D=<cookie value>`.
 
 <table id="table_A25D5EA2A8C446F5A55AB32955B9848C"> 
  <thead> 
@@ -139,7 +133,7 @@ dynvars_examples.xml
   <tr> 
    <td colname="col1"> 
     <code class="syntax javascript">
-      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
+      /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~v0 /b/ss/rsid/?gn=Home&amp;D=~~&amp;c1=~~campaign /b/ss/rsid/?gn=Home&amp;c1=D%3dv0%3d&nbsp;is /b/ss/rsid/?gn=Home&amp;c1=%5b%5bv0%5d%5d%5b
     </code> </td> 
    <td colname="col2"> <p>將 prop1 設為促銷活動的 4 種方法 </p> </td> 
   </tr> 
