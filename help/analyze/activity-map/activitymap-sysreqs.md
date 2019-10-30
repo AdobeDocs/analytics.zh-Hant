@@ -7,7 +7,7 @@ title: 支援的系統和需求
 topic: Activity Map
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 | Firefox | 最新版本 |
 | Chrome | 最新版本。Note:  The [!DNL Activity Map] Chrome plugin is a "developer mode" plugin only at this time. 當您啟動此外掛程式時，會出現一則訊息，鼓勵您停用開發人員模式外掛程式。每次啟動外掛程式時都會顯示這個訊息。 |
 
->[!NOTE]
->
->From a link collection perspective, [!DNL Activity Map] supports a much larger list of browsers.
+> [!NOTE] 從連結系列的角度來看， [!DNL Activity Map] 支援更大的瀏覽器清單。
 
 其他需求:
 
