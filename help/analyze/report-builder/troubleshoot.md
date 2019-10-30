@@ -1,18 +1,18 @@
 ---
 description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
 seo-description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
-seo-title: 報告建立工具的疑難排解和最佳做法
+seo-title: Report Builder 的疑難排解和最佳作法
 solution: Analytics
-title: 報告建立工具的疑難排解和最佳做法
+title: Report Builder 的疑難排解和最佳作法
 topic: Report Builder
-uuid: 36a08143-dc78-40f5-9ce9-7d16980 aa27 b
+uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 報告建立工具的疑難排解和最佳做法
+# Report Builder 的疑難排解和最佳作法
 
 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
 
@@ -24,7 +24,7 @@ Adobe 將維度和分類間的分隔符號從底線字元 (_) 變更為 ||。此
 
 在開啟具有分類請求的 ARB v5.1 活頁簿時，您會遇到以下副作用:
 
-* 開啟活頁簿時，出現下列警告: 「此活頁簿上次使用 Report Builder v5.1 儲存。此版本推出的一些功能與本電腦安裝的 Report Builder 版本不相容。強烈建議您升級為最新版 Report Builder，然後再更新此活頁簿。」
+* 開啟活頁簿時，您會收到下列警告：「此活頁簿上次使用Report Builder v5.1儲存。此版本已引進一些與安裝在此電腦上的Report Builder版本不相容的功能。 強烈建議您在更新此活頁簿之前，先升級至最新的報告建立工具版本。」
 * 如果您以滑鼠右鍵按一下具分類的 ARB 請求，不會顯示 Report Builder 快顯功能表 (編輯請求、新增相依請求...)。
 * 如果透過按一下第三個按鈕或重新整理「請求管理員」表單中的一組請求，來執行「重新整理所有」，分類請求可以順利執行，不會發生錯誤。但是，無法寫出分類值。
 * 您仍然可以編輯請求，方法是開啟「請求管理員」，接著一列一列往下，直到到達正確的請求。
@@ -71,7 +71,7 @@ Report Builder 使用連接埠 80 和 443。請確定已允許這些連接埠通
 
 Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法傳回值。(此為 Microsoft Excel 的限制)。
 
-**個別請求效能**
+**個別要求效能**
 
 處理速度可能受到下列設定影響：
 
@@ -81,7 +81,7 @@ Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法�
 |  | 範例: 若您由 A 到 Z 細分，則 A 的項目數一律少於 Z 的項目數。如果是相反情況，則請求時間可能會大幅增加。 |
 | 日期範圍 | 小範圍 | 大範圍 |
 | 篩選 | 特定篩選 | 最受歡迎篩選 |
-| 詳細程度 | 彙總 | 每小時<ul><li>每日</li><li>每週</li><li>每月</li><li>每季</li><li>每年</li></ul> |
+| 粒度 | 彙總 | 每小時<ul><li>每日</li><li>每週</li><li>每月</li><li>每季</li><li>每年</li></ul> |
 | 項目數 | 小量資料集 | 大量資料集 |
 
 
@@ -99,7 +99,7 @@ Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法�
 
 四小時後，所有排程報表都會逾時。系統會再嘗試排程三次，而且可能導致失敗。(一般而言，當資料集越大，所需執行時間就會越久。)在 [!DNL Analytics] 報表與 Report Builder 中可看到下列項目:
 
-* [!DNL Analytics]： **[!UICONTROL 我的最愛]** &gt; **[!UICONTROL 排程報表]**
+* [!DNL Analytics]:我的 **[!UICONTROL 最愛]** &gt;排 **[!UICONTROL 程報表]**
 
 * Report Builder: 在 Excel 的&#x200B;**[!UICONTROL 「增益集」]**&#x200B;索引標籤中，按一下[!UICONTROL 「管理」]。
 
@@ -107,9 +107,7 @@ Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法�
 
 以下是在使用 Report Builder 時偶爾會發生的錯誤訊息清單。
 
->[!NOTE]
->
->這只是錯誤訊息的選擇，並非完整清單。如需解決錯誤的詳細資訊，請聯絡管理員。
+> [!NOTE] 這只是一系列錯誤訊息，而非完整清單。 如需解決錯誤的詳細資訊，請聯絡管理員。
 
 **此功能只適用於已開啟的活頁簿。**
 
