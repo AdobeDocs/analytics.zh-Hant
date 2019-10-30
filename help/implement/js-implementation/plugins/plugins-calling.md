@@ -1,28 +1,28 @@
 ---
 description: JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
-seo-title: 使用doPlugins函數呼叫外掛程式
+seo-title: 使用 doPlugins 函數呼叫外掛程式
 solution: Analytics
 subtopic: 外掛程式
-title: 使用doPlugins函數呼叫外掛程式
-topic: 開發人員和實施
-uuid: 95dd01de-8136-4ec9-aac9-4a3 d5371 b839
-translation-type: tm+mt
+title: 使用 doPlugins 函數呼叫外掛程式
+topic: 開發人員和實作
+uuid: 95dd01de-8136-4ec9-aac9-4a3d5371b839
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
 
 
-# 使用doPlugins函數呼叫外掛程式
+# 使用 doPlugins 函數呼叫外掛程式
 
 JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
 
-Consequently, if you set a variable in the *`doPlugins`* function, you can overwrite a variable you set on the HTML page. *`doPlugins`* 只有 [!UICONTROL 當usePlugins] 變數設為'false'時，才會呼叫函數。
+因此，若您在 *`doPlugins`* 函數中設定了變數，即可覆寫您在 HTML 頁面上設定的變數。唯一不會呼叫 *`doPlugins`* 函數就是將 [!UICONTROL usePlugins] 變數設為「false」的時候。
 
 ## 程式碼範例 {#section_6940FD16F2E94753A1C39694D0CF5FBA}
 
-The code example below is what the *`doPlugins`* function looks like in your JavaScript file:
+下列程式碼範例顯示 *`doPlugins`* 函數在 JavaScript 檔案中會如何呈現:
 
 JavaScript 適用的 AppMeasurement:
 
@@ -47,11 +47,11 @@ s.doPlugins=s_doPlugins
 
 >[!NOTE]
 >
->H程式碼及舊版使用不同語法來支援一些非常老舊的瀏覽器(例如IE和5)。
+>H-Code 及較舊版本使用不同語法來支援某些極舊的瀏覽器 (例如 IE 4 和 5)。
 
-## Renaming the doPlugins Function {#section_70B7D58E057B48058E25907AB3726725}
+## 重新命名 doPlugins 函數 {#section_70B7D58E057B48058E25907AB3726725}
 
-The *`doPlugins`* function is typically called *`s_doPlugins`*. In certain circumstances, (usually when more than one version of code may appear on a single page) the *`doPlugins`* function name may be changed. If the standard *`doPlugins`* function needs to be renamed to avoid conflicts, ensure that *`doPlugins`* is assigned the correct function name, as shown in the example below.
+*`doPlugins`* 函數通常稱為 *`s_doPlugins`*。在特定情況下 (通常是單一頁面上可能出現多個版本的程式碼時)，*`doPlugins`* 函數名稱可能會改變。如需重新命名標準 *`doPlugins`* 函數以避免產生衝突，請確保為 *`doPlugins`* 指派正確的函數名稱，如下列範例所示。
 
 ```js
 /* Plugin Config */ 
@@ -64,9 +64,9 @@ s_mc.doPlugins=s_mc_doPlugins
 
 ## 使用 doPlugins {#section_FA5D901CC5214D54BCD08AB77BED7925}
 
-*`doPlugins`* 此函數可讓您輕鬆地為變數指定預設值，或從網站任何頁面上 [!UICONTROL 的查詢字串參數] 取用值。Using *`doPlugins`* is often easier than populating the values in the HTML page because only one file must be updated. 請留意，JavaScript 檔案的變更不一定都是立即生效的。網站的回訪訪客常會使用快取版本的 JavaScript 檔案。也就是說，檔案的更新最遲在變更完成後的一個月，都還不會套用至所有訪客。
+*`doPlugins`* 函數可讓您輕鬆地為變數指定預設值，或是從網站上任何頁面上的[!UICONTROL 查詢字串參數]取用值。使用 *`doPlugins`* 通常會比在 HTML 頁面上填入值來得容易，因為只需更新一個檔案即可。請留意，JavaScript 檔案的變更不一定都是立即生效的。網站的回訪訪客常會使用快取版本的 JavaScript 檔案。也就是說，檔案的更新最遲在變更完成後的一個月，都還不會套用至所有訪客。
 
-下列範例說明應如何使用 *`doPlugins`* 函數來設定變數的預設值，以及從查詢字串獲取值。
+下列範例說明應如何使用  *`doPlugins`* 函數來設定變數的預設值，以及從查詢字串獲取值。
 
 ```js
 /* Plugin Config */ 
