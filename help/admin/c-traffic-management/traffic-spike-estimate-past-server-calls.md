@@ -4,9 +4,9 @@ seo-description: 您可取得 (舉例來說) 去年特定時間範圍內伺服�
 seo-title: 預估以往伺服器呼叫數並計劃流量尖峰
 solution: Analytics
 title: 預估以往伺服器呼叫數並計劃流量尖峰
-uuid: 38deb1df-afb0-437d-b541-69295f0 dc8 dc
+uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
