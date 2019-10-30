@@ -3,8 +3,8 @@ description: s.hitGovernor 外掛程式可在預先定義的滾動時間範圍�
 seo-description: s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤傳送的 Analytics 影像請求總數，若總數超過特定的臨界值，則可執行其他邏輯。
 seo-title: hitGovernor
 title: hitGovernor
-uuid: d9091ee-005a-43c2-b419-980b795 bc2 a9
-translation-type: tm+mt
+uuid: d9091eae-005a-43c2-b419-980b795bc2a9
+translation-type: ht
 source-git-commit: 4d3fdf9d90afab9d899a93561105a589742d838e
 
 ---
@@ -18,13 +18,13 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
 使用此外掛程式可讓系統自動封鎖該訪客剩餘期間的流量，並在報表中動態識別該流量。
 
-## Hit Governor 外掛程式的運作方式 {#section_541BC639E31442D09B1C85A2FFCDC02C}
+## Hit Governor 外掛程式的運作方式{#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-每次影像請求傳送至追蹤伺服器時，外掛程式都會增加 Cookie 值，並在滾動時間範圍期間追蹤該請求。預設的時間範圍為 1 分鐘，但您可以覆寫時間範圍。(請參閱[下方的實施](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)。)If the total number of hits during that time frame exceeds the default hit threshold (60), a final custom link image request is sent to set the *`exceptionFlag`* context data variable. 您也可以覆寫預設的點擊次數臨界值。
+每次影像請求傳送至追蹤伺服器時，外掛程式都會增加 Cookie 值，並在滾動時間範圍期間追蹤該請求。預設的時間範圍為 1 分鐘，但您可以覆寫時間範圍。(請參閱[下方的實施](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)。)若時間範圍期間的點擊總數超過預設點擊次數臨界值 (60)，則系統會傳送最終自訂連結影像要求，以設定 *`exceptionFlag`* 內容資料變數。您也可以覆寫預設的點擊次數臨界值。
 
-可視需要自該值起，停止收集特定訪客的流量，預設時間為 60 天。封鎖流量需要在 doPlugins 函數中，新增一行程式碼 (如下所示)。您也能調整時間範圍。The logic allows time to either include that visitor's IP address, User Agent, or [!DNL Experience Cloud] Visitor ID in the proper permanent exception logic, or to reset the timeout period after the sixty days have elapsed. 若 60 天後，外掛程式將該流量識別為假性流量，系統會再次將該流量標記為例外，並在另一個 60 天期間停止收集該流量。
+可視需要自該值起，停止收集特定訪客的流量，預設時間為 60 天。封鎖流量需要在 doPlugins 函數中，新增一行程式碼 (如下所示)。您也能調整時間範圍。此邏輯可讓時間將該訪客的 IP 位址、使用者代理，或 [!DNL Experience Cloud] 訪客 ID，包含至適當的永久例外邏輯，或在 60 天後重設逾時期間。若 60 天後，外掛程式將該流量識別為假性流量，系統會再次將該流量標記為例外，並在另一個 60 天期間停止收集該流量。
 
-## 報告 {#section_E742F19B528041808454744DB2C7007C}
+## 報告{#section_E742F19B528041808454744DB2C7007C}
 
 不需要設定預設變數或事件。但是，我們強烈建議您設定處理規則邏輯，據以設定變數和事件。那些自訂變數和事件可能包括:
 
@@ -47,7 +47,7 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
    >[!NOTE]
    >
-   >`registerPostTrackCallback` 雖然AppMeasurement程式庫1.8.0+中包含此功能，但預設不會包含在任何自訂代碼設定中。此函數會包含在 doPlugins 函數之後和&#x200B;*之外*。
+   >雖然 AppMeasurement 程式庫 1.8.0+ 中包含了 `registerPostTrackCallback` 函數，但根據預設，其他自訂程式碼設定並不包含此函數。此函數會包含在 doPlugins 函數之後和&#x200B;*之外*。
 
    ```
     s.registerPostTrackCallback(function(){ 
@@ -88,7 +88,7 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
 >[!NOTE]
 >
->您的實作可能會使用與預設分析「s」物件不同的物件名稱。若是如此，請據以更新物件名稱。
+>您的實施可能會使用與預設 Analytics「s」物件不同的物件名稱。若是如此，請據以更新物件名稱。
 
 1. 設定處理規則。
 
@@ -107,7 +107,7 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
    若未包含此程式碼，系統會標記該訪客的流量，但不會將其封鎖。
 
-## 外掛程式原始程式碼 {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## 外掛程式原始程式碼{#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
 您應將此程式碼新增至 AppMeasurement 程式庫的 doPlugins 區段下方。
 
