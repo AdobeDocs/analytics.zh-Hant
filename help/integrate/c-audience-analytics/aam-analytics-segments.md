@@ -1,16 +1,16 @@
 ---
 description: Analytics 和 Audience Manager 均會使用區段。但是，Analytics 區段與 Audience Manager 區段並非完全相同。這些不同促成了您在 Analytics 和 Audience Manager 報表中看到的差異。因此，當您開始使用這兩個解決方案中的區段時，請務必試用並瞭解這些差異之處，這是十分有用的。
 seo-description: Analytics 和 Audience Manager 均會使用區段。但是，Analytics 區段與 Audience Manager 區段並非完全相同。這些不同促成了您在 Analytics 和 Audience Manager 報表中看到的差異。因此，當您開始使用這兩個解決方案中的區段時，請務必試用並瞭解這些差異之處，這是十分有用的。
-seo-title: 瞭解Analytics和Audience Manager中的區段
-title: 瞭解Analytics和Audience Manager中的區段
-uuid: 13f7d1d7-1a3f-42f1-822e-8d3523999efa
+seo-title: 瞭解 Analytics 和 Audience Manager 中的區段
+title: 瞭解 Analytics 和 Audience Manager 中的區段
+uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 瞭解Analytics和Audience Manager中的區段
+# 瞭解 Analytics 和 Audience Manager 中的區段
 
 Analytics 和 Audience Manager 均會使用區段。但是，Analytics 區段與 Audience Manager 區段並非完全相同。這些不同促成了您在 Analytics 和 Audience Manager 報表中看到的差異。因此，當您開始使用這兩個解決方案中的區段時，請務必試用並瞭解這些差異之處，這是十分有用的。
 
@@ -31,17 +31,17 @@ Audience Manager 區段在 Analytics 被表示為對象。
 
 ## Analytics 區段 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
-Analytics 區段是報表中的資料篩選機制。篩選可能會發生在訪客、瀏覽或點擊層級，而不是在訪客管理員中，而不限於訪客層級。將 Analytics 區段與 Audience Manager 區段進行比較時，需考量到幾個重要因素:
+Analytics 區段是報表中的資料篩選機制。篩選可在訪客、瀏覽或點擊層級進行——而不是像在Audience manager中一樣嚴格地在訪客層級進行。 將 Analytics 區段與 Audience Manager 區段進行比較時，需考量到幾個重要因素:
 
 * Analytics 區段與 Audience Manager 區段的作業資料組並不相同。在資料收集過程中，Analytics 會將多種不同的後處理步驟套用至 Audience Manager 無法使用的資料中。後處理可包括 eVar 持續性、處理規則、查找 (地理位置、行動裝置)、VISTA 等等。Audience Manager 則是透過伺服器端轉送 (或 DIL) 接收預先處理資料。
 
    依據 Analytics 中永不過期的維度，與 Audience Manager 中的相同維度進行區段比較時，常會出現資料差異情形。例如永遠不會過期的 listVar 或銷售 eVar。
 
-   例如，如果 eVar = blue，並且在 Analytics 中設為永不過期，則 Analytics 中標準為「eVar = blue」的所有區段將一律包含此訪客。而在 Audience Manager 中，該訪客可能會在設定的一段時間後，脫離類似定義的區段。
+   例如，若eVar = blue且設為Analytics中永不過期，則Analytics中任何具有「eVar = blue」標準的區段一律會包含此訪客。 而在 Audience Manager 中，該訪客可能會在設定的一段時間後，脫離類似定義的區段。
 
 * Analytics 區段的功能比 AAM 區段更多。Audience Manager 區段一律在訪客層級進行評估。Analytics 區段則可以在訪客、造訪或點撃層級 (或這些層級的組合) 進行定義。此外，Analytics 也支援 Audience Manager 沒有的進階分段功能，例如依序分段。
 * 如前所述，Audience Manager 訪客可以根據當前時間點是否符合區段標準，進入或退出區段。
 
-   相反地，Analytics 會根據報表日期範圍，將訪客納入區段中或排除在外。例如，某位訪客在上個月購買過一次。在 AAM 中，無論日期範圍如何，該訪客都會包含在「購買者」區段中。而在 Analytics 中，此月份報表的區段中不會包含該訪客。但是，根據本月和上月的報表會將該訪客包含在區段中。
+   相反地，Analytics 會根據報表日期範圍，將訪客納入區段中或排除在外。例如，某位訪客在上個月購買過一次。在AAM中，該訪客將會納入「購買者」區段，而不論日期範圍。 而在 Analytics 中，此月份報表的區段中不會包含該訪客。但是，根據本月和上月的報表會將該訪客包含在區段中。
 
 請參閱 [Analytics 分段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)，瞭解更多資訊。
