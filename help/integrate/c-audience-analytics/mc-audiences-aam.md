@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,11 +33,11 @@ Audience Analytics 整合具有以下主要優點:
 
 1. 每次訪客瀏覽您的數位內容時，系統都會收集點擊數並傳送到 Analytics。
 1. 有了[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，Analytics 收到的每次點擊都會即時自動傳送到 AAM。
-1. 透過 Audience Analytics 整合，對於每個點擊，系統會在 AAM 中查找訪客的對象成員資格，並將區段 ID 清單傳回 Analytics 即時處理。
+1. 透過Audience Analytics整合，針對每次點擊，會在AAM中查找訪客的對象會籍，並將區段ID清單傳回Analytics以即時處理。
 
 因為 AAM 區段是按相同的點擊方式插入，故此可以確定 AAM 中關於訪客的任何資料都不會遺漏，且是該點擊的最新狀態。這一點優於 AppMeasurement 外掛程式，因為外掛程式必須等到下次點擊時 (而非目前點擊) 才能提供這些區段。
 
-此外，我們會為您將 AAM 區段 ID 自動分類成易記名稱，因此您不必在 Analytics 報表中辛苦查看英數字元 ID。
+此外，我們會自動將AAM區段ID分類為好記名稱，讓您不必在Analytics報表中查看英數字元ID。
 
 ## 必備條件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
