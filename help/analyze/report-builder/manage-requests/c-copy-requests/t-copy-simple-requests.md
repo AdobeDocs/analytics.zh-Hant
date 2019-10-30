@@ -5,9 +5,9 @@ seo-title: 複製簡單請求
 solution: Analytics
 title: 複製簡單請求
 topic: Report Builder
-uuid: ff20560a-01ee-47e7-8bd1-b73 edb010456
+uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
 
-[參考請求會](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) 將儲存格的值當做參數的輸入，例如資料篩選或關聯篩選。這些篩選使用比對或趨勢，並且是以先前請求的結果或使用者輸入的儲存格內容 (稱為輸入儲存格) 為基礎。
+A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. 這些篩選使用比對或趨勢，並且是以先前請求的結果或使用者輸入的儲存格內容 (稱為輸入儲存格) 為基礎。
 1. 建立有效的請求。
 1. 以滑鼠右鍵按一下任一個已映射請求的儲存格，或選擇含請求的儲存格區域。
 
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >只會複製請求，而不是儲存格的內容。如果您有其他跟請求無關，但與瞭解儲存格中顯示資料相關的資訊 (如表格欄標題或列識別碼)，請使用 Excel 的標準「複製」和「貼上」命令。
+   >僅複製請求，不複製儲存格的內容。 如果您有其他跟請求無關，但與瞭解儲存格中顯示資料相關的資訊 (如表格欄標題或列識別碼)，請使用 Excel 的標準「複製」和「貼上」命令。
 
    由於 Excel 使用不同的剪貼簿來複製儲存格內容和請求，因此您可以依序執行「複製」/「貼上」和「複製請求」/「貼上請求」來複製非請求的儲存格內容。然而，如果您將格式套用至試算表中的請求，然後再進行複製及貼上，Report Builder 會重製原始格式 (如邊框、字型等)。
 
