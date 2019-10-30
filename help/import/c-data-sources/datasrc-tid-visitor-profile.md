@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 交易ID和訪客描述檔
+seo-title: 交易 ID 和訪客資料
 solution: Analytics
-title: 交易ID和訪客描述檔
-topic: 開發人員和實施
-uuid: 7a72779c-7f67-4872-ad5 e-edf298 cac
+title: 交易 ID 和訪客資料
+topic: 開發人員和實作
+uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 交易ID和訪客描述檔
+# 交易 ID 和訪客資料
 
 本節包含有關訪客個人資料的重要資訊，在使用交易 ID 上傳資料時會用到這些資料。
 
