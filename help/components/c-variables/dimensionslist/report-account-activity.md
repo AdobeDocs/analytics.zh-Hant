@@ -3,9 +3,9 @@ description: 針對報表套裝流量提供摘要資料。
 seo-description: 針對報表套裝流量提供摘要資料。
 seo-title: 帳戶活動
 title: 帳戶活動
-uuid: 21d2b1f6-838b-41ae-89b2-d4 a299 bfb1 bd
+uuid: 21d2b1f6-838b-41ae-89b2-d4a299bfb1bd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
