@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 
  會判斷 ClickMap 資料是否已收集。
 
-If *`trackInlineStats`* is 'true,' data about the page and link clicked are stored in a cookie called s_sq. If 'false,' s_sq will have a value of "[[B]]," which is considered null.
+若 *`trackInlineStats`* 為「true」，則會將點按之頁面與連結的相關資料儲存在名為 s_sq 的 Cookie 中。若為「false」，則 s_sq 的值將為「[[B]]」，將此值視為 Null。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
