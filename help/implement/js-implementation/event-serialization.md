@@ -7,8 +7,8 @@ solution: Analytics
 title: 事件序列化概觀
 topic: 開發人員和實作
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 頁面可以重新載入或重新整理，並重複傳送事件。[!UICONTROL 事件序列化]可藉由為每個事件使用一個序號，來防止重複計算事件數。
 * 使用者可將頁面儲存至其機器，以供後續檢視。這在購買確認頁面上是很常見的情況，用以檢視購買收據。[!UICONTROL 事件序列化]可防止後續頁面的重新載入重複計算事件數。
 
->[!NOTE]
->
->資料來源不支援事件序列化或去重複化。
+> [!NOTE]資料來源不支援事件序列化或去重複化。
 
 本文會說明用來實施[!UICONTROL 轉換]和[!UICONTROL 自訂]事件的[!UICONTROL 事件序列化]程序。若要使用[!UICONTROL 事件序列化]，首先必須在&#x200B;**[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL [選取報表套裝]]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 成功事件]**&#x200B;中啟用此功能。然後選取您要記錄在[!UICONTROL 「獨特事件記錄」]欄中的事件。
 
@@ -53,7 +51,7 @@ event_serialization_impl.xml
 
 若要實施[!UICONTROL 事件序列化]，請為事件提供唯一 ID，例如 event1:1234ABCD。
 
-## 事件序列化 - 每個唯一 ID 一次{#section_8806E48B497546F5A335383FB8627694}
+## 事件序列化 - 每個唯一 ID 一次 {#section_8806E48B497546F5A335383FB8627694}
 
 實施[!UICONTROL 事件序列化]後，[!DNL Analytics] 在接收到重複號碼時將會忽略事件。每個唯一值只會對一個事件計數一次。若號碼是唯一的，則會計為另一個事件例項，如下列範例所說明: 
 
@@ -77,7 +75,7 @@ event_serialization_impl.xml
 * 刪除 Cookie 無法阻止事件 ID 序列化，因為序列化 ID 儲存在 Adobe 伺服器上，不是基於 Cookie。
 * 唯一無法使用事件 ID 序列化的成功事件是購買事件，購買事件使用特殊的 s.purchaseID 變數進行序列化。
 
-## 事件序列化 - 每次瀏覽一次{#section_C919D44F321A47FBBF043D0C57A2A050}
+## 事件序列化 - 每次瀏覽一次 {#section_C919D44F321A47FBBF043D0C57A2A050}
 
 [!DNL Analytics] 所提供的功能可讓一個事件在每次瀏覽時只引發一次。
 
