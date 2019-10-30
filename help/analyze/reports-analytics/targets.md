@@ -4,10 +4,10 @@ seo-description: 目標可讓您測量網站績效並追蹤預設目標的進度
 seo-title: 目標
 solution: Analytics
 title: 目標
-topic: Reports & Analytics
-uuid: bfe29dc8-8da 8-4107-bb1-4a7494 f12 bc9
+topic: Reports and Analytics
+uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 目標欄位說明 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 目標]**。
+**[!UICONTROL Analytics]** &gt;元 **[!UICONTROL 件]** &gt;目 **[!UICONTROL 標]**。
 
 [!UICONTROL 新增/編輯目標]頁面上欄位和選項的說明。
 
@@ -78,11 +78,11 @@ t_add_a_target.xml
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1. On the [!UICONTROL Target Manager] page, click **[!UICONTROL Add New]**.
 1. 設定[目標欄位說明](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的選項。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
 ## 編輯目標 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Targets]**.
 1.  在&#x200B;**管理**&#x200B;欄中按一下&#x200B;**[!UICONTROL 編輯]圖示。**
 1. 設定[目標欄位說明](../../analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的選項。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
