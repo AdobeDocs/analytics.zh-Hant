@@ -1,20 +1,20 @@
 ---
 description: 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報告套裝。
 seo-description: 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報表套裝。
-seo-title: 行動報表
-title: 行動報表
-uuid: feb1fc34-3541-4b2d-b9 cb-84d2 e91 d9539
+seo-title: 行動裝置報表
+title: 行動裝置報表
+uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 行動報表
+# 行動裝置報表
 
 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報表套裝。
 
-## Mobile reports {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
+## 行動裝置報表 {#concept_08B95A72D0BA45EDAE9F56D0161EDC8C}
 
 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報告套裝。
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->To view reports on a mobile a device, login to the [Experience Cloud](https://login.experiencecloud.adobe.com).
+>若要在行動裝置上檢視報表，請登入 [Experience Cloud](https://login.experiencecloud.adobe.com)。
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
