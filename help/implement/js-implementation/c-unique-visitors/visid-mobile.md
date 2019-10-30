@@ -7,8 +7,8 @@ solution: Analytics
 title: 識別行動裝置
 topic: 開發人員和實作
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
-translation-type: ht
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,7 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP [訂閱者 OD 
   </tr> 
   <tr> 
    <td colname="col1"> <code> /5/ /5.1/ /5.5/</code> </td> 
-   <td colname="col2"> <p>已將裝置識別為無線裝置，或已在影像請求中手動傳送 <code>/5/</code>: </p> 
+   <td colname="col2"> <p>Device was identified as a wireless device, or <code> /5/</code> was manually sent in the image request: </p> 
     <ul id="ul_624BEDFA3E1243CF9B42081D8B8EFFFB"> 
      <li id="li_D65761D23B684DB59BC23E92C9098122">自訂訪客 ID </li> 
      <li id="li_ADBA806B74CA43EFA8612301E06106C6">訂閱者 ID 標題 </li> 
@@ -56,7 +56,7 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP [訂閱者 OD 
 
 您也可以在手動影像請求中傳遞 '1'或 '5'，但請注意，這些程式碼是互斥的，因此一律傳遞 '5' 並不會在支援 Cookie 時使用它。您可以合併本身的機制，判斷裝置是否支援 Cookie，若支援，則在影像中傳入 '1'，而不要傳入 '5'。在此情況下，正確性的提升會因為支援 Cookie 的行動裝置數而受到限制。
 
-## 訂閱者 ID 標題{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+## 訂閱者 ID 標題 {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 訂閱者 ID 方法用於使用者識別，通常比 Cookie 更可靠，因為 Cookie 有刪除、接受和閘道 Cookie 管理的問題。
 
