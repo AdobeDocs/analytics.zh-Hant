@@ -1,19 +1,19 @@
 ---
 description: 預先定義的事件清單。
-keywords: Analytics實作；event
+keywords: Analytics 實施;事件
 seo-description: 預先定義的事件清單。
-seo-title: 甚麼是預先定義的事件？
+seo-title: 什麼是預先定義的事件?
 solution: Analytics
-title: 甚麼是預先定義的事件？
-topic: 開發人員和實施
-uuid: 4d0799ba-0f97-42c3-a620-36c03 f9995 da
-translation-type: tm+mt
+title: 什麼是預先定義的事件?
+topic: 開發人員和實作
+uuid: 4d0799ba-0f97-42c3-a620-36c03f9995da
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 甚麼是預先定義的事件？
+# 什麼是預先定義的事件?
 
 預先定義的事件清單。
 
