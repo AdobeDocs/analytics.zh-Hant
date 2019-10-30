@@ -1,12 +1,12 @@
 ---
 description: 設定您要條件觸發的動作。
-keywords: 動態標籤管理；rule;create rule;new rule;javascript/第三方標籤；設定條件動作；新增指令碼；非循序javascript；循序javascript；非循序html
+keywords: Dynamic Tag Management;規則;建立規則;新規則;JavaScript/第三方標籤;設定條件的動作;新增指令檔;非循序 JavaScript;循序 JavaScript;非循序 HTML
 seo-description: 設定您要條件觸發的動作。
 seo-title: 設定條件要觸發的動作
-solution: Experience Cloud,Analytics,Target，動態標籤管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 設定條件要觸發的動作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -24,20 +24,20 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!NOTE]
 >
->Because DTM allows you to inject custom code into your page, please take care not to create cross-site scripting (XSS) vulnerabilities (see [OWASP’s guide](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) for more info). 在指令檔內使用資料元素需要特別注意。一律假設資料元素值可能來自未受信任的來源。
+>因為 DTM 可讓您將自訂程式碼插入至您的頁面，請注意不要產生跨網站指令檔 (XSS) 弱點 (如需詳細資訊，請參閱 [OWASP 的指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)))。在指令檔內使用資料元素需要特別注意。一律假設資料元素值可能來自未受信任的來源。
 
 **設定條件要觸發的動作**
 
-1. Click **[!UICONTROL JavaScript / Third Party Tags]** to add a new script to your rule.
+1. 按一下 **[!UICONTROL JavaScript / 第三方標籤]**，以將指令檔新增至規則。
 
    ![](assets/scripts-actions.png)
 
-1. Click **[!UICONTROL Add New Script]**.
+1. 按一下&#x200B;**[!UICONTROL 新增指令檔]**。
 
    ![](assets/scripts-actions2.png)
 
 1. 為指令檔命名。
-1. Specify how you want the script to trigger, and paste the desired content into the text area. ![](assets/scripts-actions3.png)
+1. 指定您要如何觸發指令檔，並將所需內容貼到文字區域中。![](assets/scripts-actions3.png)
 
-1. Click **[!UICONTROL Save Code]**, and the script will be added to the queue for the rule. ![](assets/scripts-actions4.png)
+1. 按一下&#x200B;**[!UICONTROL 儲存程式碼]**，如此便會將指令檔新增至規則的佇列中。![](assets/scripts-actions4.png)
 
