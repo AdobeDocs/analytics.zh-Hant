@@ -1,19 +1,19 @@
 ---
 description: 事件序列化為實作措施以防止重複事件進入 Analytics 報告的程序。當使用者重新整理頁面多次、導覽至特定頁面多次，或將網頁儲存至電腦 (例如，如果客戶將採購確認頁面儲存至其電腦，則每次他們檢視它時，如果事件序列化不在適當的位置，則會重新計算訂單及收入)，通常就會發生此情況。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 事件序列化為實作措施以防止重複事件進入 Analytics 報告的程序。當使用者重新整理頁面多次、導覽至特定頁面多次，或將網頁儲存至電腦 (例如，如果客戶將採購確認頁面儲存至其電腦，則每次他們檢視它時，如果事件序列化不在適當的位置，則會重新計算訂單及收入)，通常就會發生此情況。
-seo-title: 事件序列化概述
+seo-title: 事件序列化概觀
 solution: Analytics
-title: 事件序列化概述
-topic: 開發人員和實施
-uuid: 8c7883bb-5ba4-4440-aff80-c0 d1586770 c
-translation-type: tm+mt
+title: 事件序列化概觀
+topic: 開發人員和實作
+uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 事件序列化概述
+# 事件序列化概觀
 
 事件序列化為實作措施以防止重複事件進入 Analytics 報告的程序。當使用者重新整理頁面多次、導覽至特定頁面多次，或將網頁儲存至電腦 (例如，如果客戶將採購確認頁面儲存至其電腦，則每次他們檢視它時，如果事件序列化不在適當的位置，則會重新計算訂單及收入)，通常就會發生此情況。
 
@@ -24,9 +24,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->Data Sources不支援事件序列化或去重復化。
+>資料來源不支援事件序列化或去重複化。
 
-本文會說明用來實施[!UICONTROL 轉換]和[!UICONTROL 自訂]事件的[!UICONTROL 事件序列化]程序。To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . 然後選取您要記錄在[!UICONTROL 「獨特事件記錄」]欄中的事件。
+本文會說明用來實施[!UICONTROL 轉換]和[!UICONTROL 自訂]事件的[!UICONTROL 事件序列化]程序。若要使用[!UICONTROL 事件序列化]，首先必須在&#x200B;**[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL [選取報表套裝]]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 成功事件]**&#x200B;中啟用此功能。然後選取您要記錄在[!UICONTROL 「獨特事件記錄」]欄中的事件。
 
 ## 預設行為 {#section_892BB2BEFC434B69869D4504A8B54308}
 
@@ -38,7 +38,7 @@ event_serialization_impl.xml
 
  -->
 
-To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL[select report suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Success Events]** . 然後選取您要記錄在[!UICONTROL 「獨特事件記錄」]欄中的事件。有三個不同設定，可將事件設定為這些設定。
+若要使用[!UICONTROL 事件序列化]，首先必須在&#x200B;**[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL [選取報表套裝]]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 成功事件]**&#x200B;中啟用此功能。然後選取您要記錄在[!UICONTROL 「獨特事件記錄」]欄中的事件。有三個不同設定，可將事件設定為這些設定。
 
 **一律記錄事件**: 這是所有事件在最初啟用時的預設行為。影像要求中所包含的所有事件都將直接傳送至 Analytics，包括頁面重新載入在內。
 
@@ -53,7 +53,7 @@ To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONT
 
 若要實施[!UICONTROL 事件序列化]，請為事件提供唯一 ID，例如 event1:1234ABCD。
 
-## 事件序列化 - 每個唯一 ID 一次 {#section_8806E48B497546F5A335383FB8627694}
+## 事件序列化 - 每個唯一 ID 一次{#section_8806E48B497546F5A335383FB8627694}
 
 實施[!UICONTROL 事件序列化]後，[!DNL Analytics] 在接收到重複號碼時將會忽略事件。每個唯一值只會對一個事件計數一次。若號碼是唯一的，則會計為另一個事件例項，如下列範例所說明: 
 
@@ -77,8 +77,8 @@ To use [!UICONTROL Event serialization], you must first enable it in  **[!UICONT
 * 刪除 Cookie 無法阻止事件 ID 序列化，因為序列化 ID 儲存在 Adobe 伺服器上，不是基於 Cookie。
 * 唯一無法使用事件 ID 序列化的成功事件是購買事件，購買事件使用特殊的 s.purchaseID 變數進行序列化。
 
-## 事件序列化 - 每次瀏覽一次 {#section_C919D44F321A47FBBF043D0C57A2A050}
+## 事件序列化 - 每次瀏覽一次{#section_C919D44F321A47FBBF043D0C57A2A050}
 
 [!DNL Analytics] 所提供的功能可讓一個事件在每次瀏覽時只引發一次。
 
-This can be enabled from the UI:  **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suite]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Success Events]** .
+這可從 UI 啟用: **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 成功事件]**。
