@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ Cookie、要求標題和影像查詢字串參數皆可動態填入。
 ## 語法和可能的值
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 或對動態變數使用自訂標幟
@@ -35,7 +35,7 @@ s.dynamicVariablePrefix=".."
 ## 範例
 
 ```js
-s.prop1="D=User-Agent”
+s.prop1="D=User-Agent"
 ```
 
 或對動態變數使用自訂標幟
