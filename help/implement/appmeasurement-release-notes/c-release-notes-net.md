@@ -8,7 +8,7 @@ title: Windows Silverlight、NET、IIS、XBOX
 topic: 開發人員和實作
 uuid: 15c20bca-4886-4d57-9957-fe99743851ea
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->These SDKs have been sunset and are no longer supported or distributed by Adobe.
+>這些 SDK 已廢止，將不再由 Adobe 提供支援或分發。
 
->[!NOTE]
->
->To find the current library version, turn on debug logging.
+> [!NOTE]若要尋找目前的程式庫版本，請開啟偵錯記錄功能。
 
 ## 版本 1.4.2 {#section_2B70F52C4D214A43844CCEC6B45037F0}
 
 發行日期: **2014 年 8 月**
 
-* Removed support for the . [!DNL Microsoft Silverlight Analytics Framework]Adobe is no longer supporting or distributing the [!DNL Microsoft Silverlight Analytics Framework] integration for [!DNL AppMeasurement].
+* 移除 [!DNL Microsoft Silverlight Analytics Framework] 的支援。Adobe 不再支援獲分發對 [!DNL AppMeasurement] 的 [!DNL Microsoft Silverlight Analytics Framework] 整合。
 
 * 進行內部變更，以支援未來功能。
 
@@ -35,16 +33,16 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 發行日期: **2013 年 3 月**
 
-* Fixed exception with getting default referrer in [!DNL Silverlight] outside of a browser context and properly exposed SSL property in the [!DNL Microsoft Silverlight Analytics Framework] component.
+* 修正在外部瀏覽器內容外和在 [!DNL Microsoft Silverlight Analytics Framework] 元件適度公開的 SSL 屬性中，於 [!DNL Silverlight] 內取得預設反向連結的例外狀況。
 
 ## 版本 1.4 {#section_2F4ADA4628EC43B480177C3DDB3D1CFA}
 
 發行日期: **2013 年 2 月**
 
-* 新增傳送長度超過 255 個位元組之 URL 的支援，進而在 Adobe Data Collection 伺服器中支援「頁面 URL」欄位的擴充。Page URLs longer than 255 bytes are split, with the first 255 bytes appearing in the `g=` parameter, with the remaining bytes appearing later in the query sting in the `-g=` query parameter. 這麼一來，在瀏覽器切截字串的情況下，可以避免長 URL 佔據其他資料，但仍可擷取長 URL。
+* 新增傳送長度超過 255 個位元組之 URL 的支援，進而在 Adobe Data Collection 伺服器中支援「頁面 URL」欄位的擴充。長度超過 255 個位元組的頁面 URL 會被切割，前 255 個位元組出現在 `g=` 參數，其餘位元組出現在 `-g=` 查詢參數的查詢字串中。這麼一來，在瀏覽器切截字串的情況下，可以避免長 URL 佔據其他資料，但仍可擷取長 URL。
 
 * 新增後援訪客識別方法。請參閱[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_identifying_unique_visitors.html)。
-* Added a new `abort` flag that can be set inside `doPlugins`. 若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
+* 新增可以在 `doPlugins` 內設定的新 `abort` 標幟。若將此標幟設為 true，會使得 [!DNL AppMeasurement] 庫不再繼續使用該追蹤呼叫。中止標幟皆會隨每個追蹤呼叫重設，因此若後續的追蹤呼叫也需要被中止，就必須在 `doPlugins` 中再次設定此標幟。
 
    ```js
    s.doPlugins = function(s) { 
@@ -64,7 +62,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * 修正當使用自訂 `media.monitor` 方法來追蹤媒體關閉事件時，可能無法傳送視訊結束事件的問題。
 
    ```
-   If(media.event==”CLOSE”) { 
+   If(media.event=="CLOSE") { 
    … 
    } 
    ```
@@ -73,7 +71,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 發行日期: **2012 年 4 月**
 
-* 新增依區段劃分 [!DNL XBOX].
+* 新增依區段劃分 [!DNL XBOX]。
 
 ## 版本 1.3.6 {#section_9F2738FA31CD48C4877AB92281EC67A9}
 
@@ -90,7 +88,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 ## 版本 1.3.4 {#section_43788EE6B57E4B2DBEED68BE6954D9CA}
 
-* New support and build for [!DNL iOS] Phone platform including offline tracking.
+* [!DNL iOS] Phone 平台的新支援與組建包含離線追蹤。
 * 支援 doRequest 委派，以覆蓋送出要求進行資料追蹤的方式。
 * 支援可提升伺服器端處理規則的 contextData (僅限 v15)。
 * 支援輕伺服器呼叫 (目前測試中)。
