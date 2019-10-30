@@ -8,7 +8,7 @@ title: 子分類與規則產生器 - 使用案例
 topic: 管理工具
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -47,15 +47,13 @@ t_rule_builder_subclass.xml
 
 說明如何使用「規則產生器」上傳子分類的範例步驟。
 
->[!NOTE]
->
->這些步驟說明如何完成子分類和規則產 [生器中所述的使用案例](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
+> [!NOTE] 這些步驟說明如何完成子分類和規則產 [生器中所述的使用案例](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. 在「[分類管理員](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)」中建立分類和子分類。
 
    範例:
 
-   ![Step Info](assets/sub_class_create.png)
+   ![步驟資訊](assets/sub_class_create.png)
 
 1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
 
@@ -72,11 +70,11 @@ t_rule_builder_subclass.xml
 
 1. 上傳僅含指定子分類的分類檔案。
 
-   See Multiple-Level Classifications.[](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)
+   請參 [閱多級分類](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)。
 
    範例:
 
-   | 代碼 | 管道 | 廣泛促銷活動代碼 | Broad Campaign code&amp;Hat;Campaign type | 廣泛促銷活動代碼&amp;Hat；促銷活動主管 | ... |
+   | 代碼 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&amp;Hat；促銷活動類型 | 廣泛促銷活動代碼&amp;Hat；促銷活動主管 | ... |
    |---|---|---|---|---|---|
    | * |  | 111 | 品牌 | Suzanne |  |
    | * |  | 222 | 品牌 | Frank |  |
