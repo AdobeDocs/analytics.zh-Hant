@@ -38,7 +38,7 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the .[!DNL Experience Cloud]
+1. Log in to the [!DNL Experience Cloud].
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
 1. Click **[!UICONTROL Edit Groups]**.
 
@@ -60,7 +60,7 @@ t_managing_users.xml
 
  -->
 
-1. Click Adobe Analytics &gt; Admin &gt; User Management, then click Manage Users.****************
+1. 按一 **[!UICONTROL 下「Analytics]** &gt;管理員 **** &gt;使 **[!UICONTROL 用者管理」]**，然後按一 ****&#x200B;下「管理使用者」。
 1.   找到使用者，然後按一下&#x200B;**[!UICONTROL 「終止」。]**
 
    在[!UICONTROL 「作用中的 Ad Hoc Analysis 作業」]頁面中，閒置最久的使用者會顯示在清單頂端。
@@ -119,7 +119,7 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis 使用 HTTP 來與伺服器通訊。與其他 HTTP 流量相同，它也必須遵守相同的 Proxy 政策。
 
-1. In the , launch the Java Control Panel.[!DNL Windows Control Panel]
+1. 在中， [!DNL Windows Control Panel]啟動 [!UICONTROL Java控制面板]。
 1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
 1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
 1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
