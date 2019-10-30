@@ -5,9 +5,9 @@ seo-title: 平均頁面深度
 solution: Analytics
 title: 平均頁面深度
 topic: 量度
-uuid: 4d8a3a3c-c698-410-8dd8-a02 a1638483 c
+uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
