@@ -6,8 +6,8 @@ solution: Analytics,Experience Cloud
 subtopic: 發行說明
 title: Mac OS X
 topic: 開發人員和實作
-uuid: d5e46c86-2d00-4a18-8ee-dcaf082761af
-translation-type: tm+mt
+uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 >[!IMPORTANT]
 >
->這些SDK已失效，Adobe不再支援或散發。
+>這些 SDK 已廢止，將不再由 Adobe 提供支援或分發。
 
 >[!NOTE]
 >
->若要尋找目前的程式庫版本，請開啟除錯記錄。
+>若要尋找目前的程式庫版本，請開啟偵錯記錄功能。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+您可在 [!DNL Developer Connection] 上使用行動程式庫[下載內容](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)。
 
 ## 版本 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
@@ -43,7 +43,7 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 發行日期: **2013 年 8 月 5 日**
 
 * 已新增對 Adobe Audience Manager 的支援。
-* Lifecycle data will now be sent with [!DNL Target] Mbox requests.
+* 生命週期資料現在將與 [!DNL Target] Mbox 要求一同傳送。
 
 ## 版本 3.1.7 {#section_EC59B76EE3A343D5921E906EB0A8DB49}
 
@@ -67,4 +67,4 @@ Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mob
 
 發行日期: **2013 年 2 月**
 
-首次發行。This version is based on the [!DNL iOS] 3.1.4 codebase, so the initial version number was set to match [!DNL iOS].
+首次發行。此版本是以 [!DNL iOS] 3.1.4 程式碼庫為基礎，所以初始版本號碼設定成與 [!DNL iOS] 相符。
