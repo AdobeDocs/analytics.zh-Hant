@@ -7,8 +7,8 @@ solution: Analytics
 title: 使用行動通訊協定之裝置的報表
 topic: 開發人員和實作
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 只有從行動頁面傳送的影像要求中已填入反向連結時，這些報表才會有資料。反向連結會透過 "r" 查詢字串參數填入，如「不使用 JavaScript 進行實施」白皮書所說明。您也必須手動將反向連結資訊傳入影像要求中。
 
-'r' 查詢字串參數必須包含反向連結的通訊協定。如果不含通訊協定，將不會填入反向連結報表。例如，使用 `r=https://msn.com`，而不是 `r=msn.com`。
+'r'查詢字串參數必須包含反向連結的通訊協定。 如果不含通訊協定，將不會填入反向連結報表。例如，使用 `r=https://msn.com`，而不是 `r=msn.com`。
 
 ## 地域劃分和網域 {#section_2B4E9443AAFE4ECA961F9E993592E628}
 
@@ -31,10 +31,10 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 網域也會以閘道的 IP 位址為基礎，這表示網域報表常會包含擁有該閘道之電信業者的名稱。這項資料也可能因為行動虛擬網路營運商 (MVNO) 而失準。
 
-## 連線類型{#section_0E7FA18178B848AEBB839B1694B4D691}
+## 連線類型 {#section_0E7FA18178B848AEBB839B1694B4D691}
 
 Adobe 會維護屬於行動電信業者之 IP 位址的已知範圍。從屬於已知的行動電信業者的 IP 位址收到點擊時，點擊會以「行動電信業者」出現在「連線類型報表」上。否則，"Lan/Wifi" 下會列出行動流量。
 
-## 時區、Cookie、連接類型、Java、JavaScript、螢幕色彩和解析度、瀏覽器寬度和高度、Netscape 外掛程式{#section_158C848273AE4691B4413767E849E846}
+## 時區、Cookie、連接類型、Java、JavaScript、螢幕色彩和解析度、瀏覽器寬度和高度、Netscape 外掛程式 {#section_158C848273AE4691B4413767E849E846}
 
 這些報表都是藉由使用 JavaScript 偵測瀏覽器特定設定而收集的。由於 JavaScript 無法用來在行動裝置上建立影像信標，因此從行動使用者收集而來的資料不會納入這些報表中。
