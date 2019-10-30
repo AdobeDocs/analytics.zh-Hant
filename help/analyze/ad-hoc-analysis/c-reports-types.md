@@ -5,7 +5,7 @@ seo-title: 報表類型
 solution: Analytics
 title: 報表類型
 topic: Ad Hoc Analysis
-uuid: 357102eb-a172-40ec-a302-01c87 abaacb5
+uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
@@ -217,7 +217,7 @@ c_reports_site_analysis.xml
 | 適合螢幕大小 | 還原圖表的原始檢視。 |
 | 俯視 | 提供由頂部往下看的圖表檢視。 |
 | 切換格線顯示 | 切換開/關格線。 |
-| 維度 | 您要據以產生報告的項目。從維度拖曳項目。 |
+| 維度 | 您要據以產生報告的項目。從維度拖曳項目實施流量分類。 |
 
 | 選項 | 說明 |
 |--- |--- |
