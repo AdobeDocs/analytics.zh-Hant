@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 限制與規格
 title: 限制與規格
-uuid: 6717b6ea-7e01-49b8-8f6e-fb733 a03 b687
+uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Power BI publishing restrictions {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE]
->
->這些限制僅適用於「將Report Builder請求發佈為Power BI資料集表格」選項。
+> [!NOTE] 這些限制僅適用於「將報告建立工具請求發佈為Power BI資料集表格」選項。
 
 * 每個活頁簿最多可將 100 個 Report Builder 請求匯出至 Power BI。
 * 達到第 101 個請求時，排程程序將會停止匯出請求。
@@ -24,9 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Edit a Report Builder request after publishing to Power BI {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE]
->
->此規格適用於「將所有報告建立工具請求發佈為Power BI資料集表格」和「活頁簿中的所有格式化表格」作為Power BI資料集表格的選項。
+> [!NOTE] 此規格適用於「將所有報告建立工具請求發佈為Power BI資料集表格」和「將活頁簿中所有格式化的表格發佈為Power BI資料集表格」選項。
 
 在發佈至 Power BI 後編輯 Report Builder 請求可能會造成問題。
 
