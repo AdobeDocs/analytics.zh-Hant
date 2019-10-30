@@ -5,7 +5,7 @@ seo-title: Analytics 使用者移轉至 Admin Console
 title: Analytics 使用者移轉至 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -135,7 +135,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以加快移轉程序嗎? </p> </td> 
-   <td colname="col2"> <p>可以。然而，Adobe 建議您利用移轉開始前的時間: </p> 
+   <td colname="col2"> <p>是。然而，Adobe 建議您利用移轉開始前的時間: </p> 
     <ul id="ul_52C7EC44A5534975BFD7A6F37A829C25"> 
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">確認自己是 Admin Console 的 Analytics 產品管理員。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">聯絡您的使用者群，告知他們在移轉開始後，其登入體驗將有所變動。 </li> 
@@ -148,7 +148,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以延後移轉開始日期嗎? </p> </td> 
-   <td colname="col2"> <p>可以。請聯絡 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客戶服務</a>。 </p> 
+   <td colname="col2"> <p>是。請聯絡 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="html" scope="external">Adobe 客戶服務</a>。 </p> 
     <draft-comment> 
      <p>請參閱下方，以取得您目前Analytics使用者與權限管理在開始日期的變更說明。 </p> 
     </draft-comment> </td> 
@@ -189,7 +189,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以更新未移轉使用者的權限群組成員資格嗎? </p> </td> 
-   <td colname="col2"> <p>可以。您可以在 Analytics「使用者管理」區段中，變更未移轉使用者的群組成員資格。 </p> 
+   <td colname="col2"> <p>是。您可以在 Analytics「使用者管理」區段中，變更未移轉使用者的群組成員資格。 </p> 
     <draft-comment> 
      <p>等待Ashok的澄清，說明這是在哪裡。 </p> 
     </draft-comment> </td> 
@@ -200,7 +200,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我使用移轉工具移轉的使用者，會獲派在 Analytics 中擁有的相同權限嗎? </p> </td> 
-   <td colname="col2"> <p>會。透過工具移轉的使用者將獲得他們目前在 Analytics 中擁有的權限。此外，當他們透過 Experience Cloud 存取 Analytics 時，仍可保留對 Analytics 資產 (例如區段、專案、計算量度等) 的存取權。 </p> </td> 
+   <td colname="col2"> <p>是。透過工具移轉的使用者將獲得他們目前在 Analytics 中擁有的權限。此外，當他們透過 Experience Cloud 存取 Analytics 時，仍可保留對 Analytics 資產 (例如區段、專案、計算量度等) 的存取權。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我移轉至 Admin Console 的使用者是否仍可繼續透過 <span class="filepath">my.omniture.com</span> 存取 Analytics? </p> </td> 
