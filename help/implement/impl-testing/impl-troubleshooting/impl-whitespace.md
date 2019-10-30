@@ -1,14 +1,14 @@
 ---
 description: HTML 中有數個字元會產生空白字元。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: HTML 中有數個字元會產生空白字元。
 seo-title: 在變數值中使用空白字元
 solution: Analytics
 subtopic: 疑難排解
 title: 在變數值中使用空白字元
-topic: 開發人員和實施
-uuid: edd7934-9b3e-43e2-9f24-65f42cb306e2
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 1edd7934-9b3e-43e2-9f24-65f42cb306e2
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
