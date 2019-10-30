@@ -1,14 +1,14 @@
 ---
 description: JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
 seo-title: doPlugins 函數
 solution: Analytics
 subtopic: 外掛程式
 title: doPlugins 函數
-topic: 開發人員和實施
-uuid: 367d5550-f8 e2-477d-8681-18ae9665 d699
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 367d5550-f8e2-477d-8681-18ae9665d699
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
 
-因此，若您在 `doPlugins` 函數中設定了變數，即可能會覆寫您在 HTML 頁面上設定的變數。`doPlugins` 只有當 *`usePlugins`* 變數設定為時，才會呼叫函數 `false`。
+因此，若您在 `doPlugins` 函數中設定了變數，即可能會覆寫您在 HTML 頁面上設定的變數。唯一不會呼叫 `doPlugins` 函數就是將 *`usePlugins`* 變數設為 `false` 的時候。
 
 **程式碼範例**
 
-The `doPlugins` function is typically called `s_doPlugins`. 但在特定情況下 (通常是單一頁面上可能出現多個版本的 [!DNL Analytics] 程式碼時)，您可以變更 `doPlugins` 函數名稱。如需重新命名標準 `doPlugins` 函數以避免產生衝突，請為 `doPlugins` 指派正確的函數名稱，如下列範例所示。
+`doPlugins` 函數一般被稱為 `s_doPlugins`。但在特定情況下 (通常是單一頁面上可能出現多個版本的 [!DNL Analytics] 程式碼時)，您可以變更 `doPlugins` 函數名稱。如需重新命名標準 `doPlugins` 函數以避免產生衝突，請為 `doPlugins` 指派正確的函數名稱，如下列範例所示。
 
 ```js
 /* Plugin Config */ 
