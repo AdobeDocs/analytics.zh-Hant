@@ -1,20 +1,20 @@
 ---
 description: 以下為 Report Builder 與 Power BI 搭配使用時的一些常見問題。
 seo-description: 以下為 Report Builder 與 Power BI 搭配使用時的一些常見問題。
-seo-title: Power BI整合疑難排解
-title: Power BI整合疑難排解
+seo-title: 疑難排解 Power BI 的整合問題
+title: 疑難排解 Power BI 的整合問題
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Power BI整合疑難排解
+# 疑難排解 Power BI 的整合問題
 
 以下為 Report Builder 與 Power BI 搭配使用時的一些常見問題。
 
-## 步驟 1. Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
+## 步驟 1.Failure to publish to Power BI {#section_5B87DC1C302C4FD8AB9E4DD6B162DC9B}
 
 需要發佈至 Power BI 的排程活頁簿仰賴 Power BI 服務來執行作業。無法發佈的兩大主因為:
 
