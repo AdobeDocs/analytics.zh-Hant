@@ -1,19 +1,19 @@
 ---
 description: 未在報表中記錄及顯示路徑分析資訊的可能原因清單。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 未在報表中記錄及顯示路徑分析資訊的可能原因清單。
-seo-title: 無法記錄路徑分析的原因
+seo-title: 未記錄路徑分析的原因
 solution: Analytics
-title: 無法記錄路徑分析的原因
-topic: 開發人員和實施
+title: 未記錄路徑分析的原因
+topic: 開發人員和實作
 uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 ---
 
 
-# 無法記錄路徑分析的原因
+# 未記錄路徑分析的原因
 
 未在報表中記錄及顯示路徑分析資訊的可能原因清單。
 
