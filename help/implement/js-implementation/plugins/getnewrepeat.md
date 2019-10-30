@@ -1,14 +1,14 @@
 ---
 description: 判斷訪客是新訪客還是回訪訪客，並將這項資訊擷取到 Analytics 變數中。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 判斷訪客是新訪客還是回訪訪客，並將這項資訊擷取到 Analytics 變數中。
 seo-title: getNewRepeat
 solution: Analytics
 subtopic: 外掛程式
 title: getNewRepeat
-topic: 開發人員和實施
-uuid: e3e9f362-e0 b1-4a2 b-bb5 b-98eddava0 a7 f4
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式的程式碼與實施 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +34,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **外掛程式設定**
 
-將下列程式碼放入&#x200B;*`s_doPlugins()`* 函數 *`s_code.js`***。選擇一個自訂流量 (s.prop) 變數或一個自訂轉換 (s.eVar) 變數，用於持續值資料的擷取。此變數應為已使用管理控制台加以啟用，但目前未做任何其他用途的變數。您可以使用下列範例，並根據您的需求加以更新。
+將下列程式碼放入&#x200B;*`s_doPlugins()`* 函數中，此函數位於 *`s_code.js`* 檔案中標示為 *Plugin Config* 的區域中。選擇一個自訂流量 (s.prop) 變數或一個自訂轉換 (s.eVar) 變數，用於持續值資料的擷取。此變數應為已使用管理控制台加以啟用，但目前未做任何其他用途的變數。您可以使用下列範例，並根據您的需求加以更新。
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
