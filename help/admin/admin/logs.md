@@ -5,9 +5,9 @@ seo-title: 記錄檔
 solution: Analytics
 title: 記錄檔
 topic: 管理工具
-uuid: d5d4723d-f4 cf-403e-ae9 c-76d7 faste
+uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 記錄檔」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;記 **[!UICONTROL 錄]**
 
 ## 管理記錄檔 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
