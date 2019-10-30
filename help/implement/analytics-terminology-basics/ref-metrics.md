@@ -7,8 +7,8 @@ solution: Analytics
 title: 量度
 topic: 開發人員和實作
 uuid: d2addb55-cae6-470d-b482-303ef365809c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>流量量度 </p> </td> 
-   <td colname="col2"> <p> <b>頁面檢視:</b> 只有一個網頁會載入使用者的瀏覽器 (一次執行一個「報表與分析」代碼)。 </p> <p> <b>瀏覽次數:</b> 訪客在您網站上的頁面檢視次數。閒置 30 分鐘後，瀏覽階段就會結束。 </p> <p> <b>獨特訪客:</b> 首次在特定時間範圍 (例如「小時」、「日」、「週」、「月」、「季」或「年」) 內瀏覽您網站的訪客。(這也包括任何時間範圍的「獨特訪客」。) </p> </td> 
+   <td colname="col2"> <p> <b></b> 頁面檢視：在使用者的瀏覽器中載入一個網頁（執行一個「報告與分析」程式碼）。 </p> <p> <b>瀏覽次數:</b> 訪客在您網站上的頁面檢視次數。閒置 30 分鐘後，瀏覽階段就會結束。 </p> <p> <b>獨特訪客:</b> 首次在特定時間範圍 (例如「小時」、「日」、「週」、「月」、「季」或「年」) 內瀏覽您網站的訪客。(這也包括任何時間範圍的「獨特訪客」。) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>轉換量度 </p> </td> 
@@ -45,9 +45,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>計算量度 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/zh_TW/reference/calculated_metric.html" format="html" scope="external">您可以透過計算量度合併量度，以建立用作新量度的數學運算。</a>您可以為您新增量度的報告建立這些量度。管理員可為報表套裝的所有使用者建立計算量度。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/calculated_metric.html" format="html" scope="external">您可以透過計算量度合併量度，以建立用作新量度的數學運算。</a>您可以為您新增量度的報告建立這些量度。管理員可為報表套裝的所有使用者建立計算量度。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-如需量度定義，請參閱 Analytics 說明和參考中的[量度](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics.html)。
+若要瞭解量度的定義，請參閱 Analytics 說明與參考中的[量度](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html)。
