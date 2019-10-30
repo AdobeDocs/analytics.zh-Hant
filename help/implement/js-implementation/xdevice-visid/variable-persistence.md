@@ -1,23 +1,23 @@
 ---
 description: 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
-seo-title: 歸因與持續性
+seo-title: 歸屬分配和持續性
 solution: Analytics
-title: 歸因與持續性
-topic: 開發人員和實施
-uuid: 5d706be-83f6-498a-a856-e3 c5 af995348
-translation-type: tm+mt
+title: 歸屬分配和持續性
+topic: 開發人員和實作
+uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# 歸因與持續性
+# 歸屬分配和持續性
 
 >[!IMPORTANT]
 >
->不再建議這種識別跨裝置訪客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不建議您繼續使用這種跨裝置識別訪客的方法。詳情請參閱[Adobe Experience Cloud Device Co-op 文件](https://marketing.adobe.com/resources/help/zh_TW/mcdc/)。
 
 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
 
@@ -31,12 +31,12 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 底下範例說明當使用者第一次在第一個裝置上進行驗證時，如何將資料傳送至 Adobe Analytics:
 
-* `eVar16` 有效期為天，且瀏覽時 `evar17` 過期。
+* `eVar16` 1 天後過期，而 `evar17` 只要瀏覽即過期。
 
-* `post_visitor_id` 欄代表由Adobe Analytics維護的描述檔。
-* The `post_evar16` and `post_evar17` columns show shows the persistence of eVars.
+* `post_visitor_id` 欄代表 Adobe Analytics 所維護的訪客資料。
+* `post_evar16` 和 `post_evar17` 欄顯示 eVars 的持續性。
 
-* `cust_visid` 代表設定的值 `s.visitorID`。
+* `cust_visid` 代表 `s.visitorID` 中設定的值。
 
 * 每一列為一個「點擊」，此為傳送至 Adobe Analytics 資料收集伺服器的單一要求。
 
