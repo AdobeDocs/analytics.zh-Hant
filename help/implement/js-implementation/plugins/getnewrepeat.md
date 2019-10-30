@@ -8,8 +8,8 @@ subtopic: 外掛程式
 title: getNewRepeat
 topic: 開發人員和實作
 uuid: e3e9f362-e0b1-4a2b-bb5b-98eddaa0a7f4
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 * 回訪訪客所創造的單位人口轉換是否高於新訪客？其比例為何？
 * 我的促銷活動是否帶來持續性的瀏覽？例如，點進促銷活動的使用者其後是否還會回訪？
 
->[!NOTE]
->
->下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式的程式碼與實施 {#section_92E94A96A4764113B5588F1B83E3DE2C}
 
@@ -34,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **外掛程式設定**
 
-將下列程式碼放入&#x200B;*`s_doPlugins()`* 函數中，此函數位於 *`s_code.js`* 檔案中標示為 *Plugin Config* 的區域中。選擇一個自訂流量 (s.prop) 變數或一個自訂轉換 (s.eVar) 變數，用於持續值資料的擷取。此變數應為已使用管理控制台加以啟用，但目前未做任何其他用途的變數。您可以使用下列範例，並根據您的需求加以更新。
+將下列程式碼放入 *`s_doPlugins()`* 函數中；此函數位於 *`s_code.js`檔案中標示為* Plugin Config *的區域中。*&#x200B;選擇一個自訂流量 (s.prop) 變數或一個自訂轉換 (s.eVar) 變數，用於持續值資料的擷取。此變數應為已使用管理控制台加以啟用，但目前未做任何其他用途的變數。您可以使用下列範例，並根據您的需求加以更新。
 
 `s.prop1=s.getNewRepeat(30,'s_getNewRepeat');`
 
