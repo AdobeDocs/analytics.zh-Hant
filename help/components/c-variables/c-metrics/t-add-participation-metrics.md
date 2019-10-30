@@ -1,18 +1,18 @@
 ---
 description: 說明如何新增參與率量度的步驟。
 seo-description: 說明如何新增參與率量度的步驟。
-seo-title: 新增參與率度量
+seo-title: 新增參與率量度
 solution: Analytics
-title: 新增參與率度量
+title: 新增參與率量度
 topic: 量度
-uuid: cadc5f7-64d0-442a-48ff-b3 bf13 f04434
+uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 新增參與率度量
+# 新增參與率量度
 
 說明如何新增參與率量度的步驟。
 
