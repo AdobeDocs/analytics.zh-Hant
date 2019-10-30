@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 臨機分析專案轉換器總覽
-title: 臨機分析專案轉換器總覽
-uuid: 7d78753d-d56 c-4eea-b1 dd-7c9 ec225 cce3
+seo-title: Ad Hoc Analysis 專案轉換器概觀
+title: Ad Hoc Analysis 專案轉換器概觀
+uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 臨機分析專案轉換器總覽
+# Ad Hoc Analysis 專案轉換器概觀
 
 Ad Hoc Analysis 專案轉換工具可順暢地將您所有的 Ad Hoc 專案轉換至 Analysis Workspace。
 
