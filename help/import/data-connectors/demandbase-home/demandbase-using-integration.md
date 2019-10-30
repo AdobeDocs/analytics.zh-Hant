@@ -5,7 +5,7 @@ seo-title: 使用整合
 title: 使用整合
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 部署整合後，您就可以開始使用它提供的其他功能。
 
->[!NOTE]
->
->在Adobe Analytics報告中，可能需要24-48小時才能開始查看部分Demandbase資料。
+> [!NOTE] 在Adobe Analytics報告中，可能需要24-48小時才能開始查看部分Demandbase資料。
 
 以下是您從Adobe Analytics中取得此項整合價值的一些動作：
 
