@@ -1,14 +1,14 @@
 ---
 description: 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
-keywords: 分析工作區；與資料來源同步視覺化
+keywords: 分析工作區；將視覺化與資料來源同步化
 seo-description: 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
 seo-title: 管理資料來源
 solution: Analytics
 title: 管理資料來源
-topic: Reports & Analytics
-uuid: 7bacf497-a933-463a-bf9 d-f6 d0 c5 d0 cba
+topic: Reports and Analytics
+uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
 
 管理資料來源可讓您顯示資料來源或鎖定選取項目。這些設定會決定當新資料進入時視覺效果的變更方式 (或不變更)。
 
-1. [使用資料](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 表格和 [視覺化建立專案](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)。
+1. [使用資料表格](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 和視覺化建立專 [案](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)。
 1. 在資料表中，選取您想關聯至視覺效果的儲存格 (資料來源)。
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
@@ -35,7 +35,7 @@ source-git-commit: 0bd28ea64b4e225b33c1fec7f185c7006bdb7f7c
 | 顯示資料來源 | 可讓您顯示 (勾選核取方塊) 或隱藏 (取消勾選) 對應至視覺效果的資料表。 |
 | 鎖定選取項目 | 啟用此設定，將視覺效果鎖定至相對應資料表中目前選取的資料。啟用後，請選擇以下兩者其中之一：  <ul><li>**選取的位置**: 如果您要將視覺效果持續鎖定在從相對應資料表中選取的位置上，即可選擇此選項。縱使這些位置中的特定項目已變更，這些位置仍將持續視覺化。例如，如果您想一直以此視覺效果顯示前五名的促銷活動名稱 (無論顯示在前五名的促銷活動名稱為何)，即可選擇此選項。</li> <li>**選取的項目**: 如果您要將視覺效果持續鎖定在相對應資料表中目前選取的特定項目上，即可選擇此選項。縱使這些項目在表格中項目間的排名已改變，它們仍將持續視覺化。例如，如果您想一直以此視覺效果顯示相同的五個特定促銷活動名稱 (無論這些促銷活動名稱的排名為何)，即可選擇此選項。</li></ul> |
 
-此架構與舊版不同，因為「分析工作區」不再建立重復隱藏表格，儲存鎖定的選取範圍。資料來源現在會指出您建立視覺效果所用的表格。
+此架構與先前的架構不同，因為「分析工作區」不再建立複製的隱藏表格，以儲存您鎖定的選取範圍。 資料來源現在會指出您建立視覺效果所用的表格。
 
 **範例使用案例:**
 
