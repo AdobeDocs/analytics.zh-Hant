@@ -1,13 +1,13 @@
 ---
 description: 相關範例，說明如何在 HTML 範例頁面中使用伺服器產生的影像標記。
-keywords: Analytics實作；變數
+keywords: Analytics 實施;變數
 seo-description: 相關範例，說明如何在 HTML 範例頁面中使用伺服器產生的影像標記。
 seo-title: 程式碼範例
 solution: Analytics
 title: 程式碼範例
-topic: 開發人員和實施
-uuid: 47e5e82c-clib2-4912-919b-720b2 ee852 ba
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | zip | 90210 |
 | 隨機數字 | 123456 |
 
-## 範例 1 {#section_91D91CE318AE43F0ADDF6005607E83C7}
+## 範例 1{#section_91D91CE318AE43F0ADDF6005607E83C7}
 
 下列範例顯示伺服器端的影像標記。強調顯示的隨機數字會防止影像快取。
 
@@ -51,7 +51,7 @@ Thanks for your order #0123456.
 </codeph outputclass="syntax">
 ```
 
-## 範例 2 {#section_726D12029583428BA853043F988ED1B8}
+## 範例 2{#section_726D12029583428BA853043F988ED1B8}
 
 下列範例顯示基本 JavaScript 影像標記。
 
