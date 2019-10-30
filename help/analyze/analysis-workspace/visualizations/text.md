@@ -3,9 +3,9 @@ description: 可讓您將使用者定義文字新增至「工作區」。
 seo-description: 可讓您將使用者定義文字新增至「工作區」。
 seo-title: 文字
 title: 文字
-uuid: 904b7170-073f-44ea-9fcc-4019Befcaf8a
+uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
