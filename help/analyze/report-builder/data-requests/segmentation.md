@@ -7,7 +7,7 @@ title: 管理區段
 topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 ## 新增或編輯區段 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE]
->
->若要新增或編輯區段，「報告建立工具」區段介面會在Microsoft Internet explorer視窗中啟動Analytics區段產生器。 您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
+> [!NOTE] 若要新增或編輯區段，「報告建立工具」區段介面會在Microsoft Internet explorer視窗中啟動Analytics區段產生器。 您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
 1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需有關如何建立區段的資訊，請參閱 [https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。
@@ -63,9 +61,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 1. 勾選您要套用的區段。
 
->[!NOTE]
->
->不論您是管理員或非管理員，在報告建立工具中，您只能看到您擁有的區段和已共用給您的區段。 (在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段。)
+> [!NOTE] 不論您是管理員或非管理員，在報告建立工具中，您只能看到您擁有的區段和已共用給您的區段。 (在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段。)
 
 ## 篩選區段 {#section_376E986D3E684999A7CDB08E53854159}
 
