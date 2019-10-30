@@ -1,16 +1,16 @@
 ---
 description: 如果您要透過 Power BI 手動匯入 Analytics 資料，請依照下列指示操作。
 seo-description: 如果您要透過 Power BI 手動匯入 Analytics 資料，請依照下列指示操作。
-seo-title: 手動將資料匯入Power BI
-title: 手動將資料匯入Power BI
-uuid: c84f7a90-7b40-4065-9Fe-7eb19e5e2473
+seo-title: 手動將資料匯入 Power BI
+title: 手動將資料匯入 Power BI
+uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 手動將資料匯入Power BI
+# 手動將資料匯入 Power BI
 
 如果您要透過 Power BI 手動匯入 Analytics 資料，請依照下列指示操作。
 
