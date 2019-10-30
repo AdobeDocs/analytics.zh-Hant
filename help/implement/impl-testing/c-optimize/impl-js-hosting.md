@@ -8,8 +8,8 @@ subtopic: 疑難排解
 title: JavaScript 檔案的位置和並行性
 topic: 開發人員和實作
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 由於大部分的網頁瀏覽器都會以並行方式下載元素，因此有許多常用瀏覽器 (包括 Internet Explorer) 的狀態列都不會正確反映瀏覽器正嘗試載入的元素。例如，您的狀態列可能指出瀏覽器正在等待影像 1 進行下載。網路封包測試顯示您的瀏覽器已接收到影像 1，而正在等待影像 2。
 
->[!NOTE]
->
->由於第三方網際網路效能稽核提供者 (例如 Keynote Systems) 會以循序方式下載頁面影像元素，而非並行方式，因此會不同於一般的使用者經驗。
+> [!NOTE]由於第三方網際網路效能稽核提供者 (例如 Keynote Systems) 會以循序方式下載頁面影像元素，而非並行方式，因此會不同於一般的使用者經驗。
 
