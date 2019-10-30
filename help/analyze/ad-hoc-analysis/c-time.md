@@ -3,7 +3,7 @@ description: 時間做為報表維度，可以用於分析經過數小時、數�
 seo-description: 時間做為報表維度，可以用於分析經過數小時、數天、數週以及某個日期範圍的趨勢。例如，「產品報表」可顯示在選定的日期範圍內，一項產品產生了多少收入。您可以新增「日」維度，查看報告期間每一天的趨勢。「時間」提供「小時」、「日」、「週」、「月」、「季」和「年」的精細度設定。日期範圍預設集包括「今天」、「昨天」和「最近 7 天」。
 seo-title: 時間
 title: 時間
-uuid: a6efff80-342c-4ab-80f3-91a3dbdbd33c
+uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
