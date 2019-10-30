@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 設定流量視覺化
-title: 設定流量視覺化
-uuid: ff36dc09-6175-43ed-a82 a-630d28 bca806
+seo-title: 設定流量視覺效果
+title: 設定流量視覺效果
+uuid: ff36dc09-6175-43ed-a82a-630d28bca806
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 設定流量視覺化
+# 設定流量視覺效果
 
 流量可讓您追蹤穿越頁面或維度 (例如 eVar) 的路徑:
 
