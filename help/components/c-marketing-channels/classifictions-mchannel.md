@@ -3,12 +3,12 @@ description: 使用分類可以將值分入相關群組，然後依群組級別�
 seo-description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 seo-title: 行銷渠道中的分類
 solution: Analytics
-subtopic: Marketing channels
+subtopic: 行銷渠道
 title: 行銷渠道中的分類
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,13 +23,11 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. 渠道值是渠道詳情中未分類的值。
 
->[!NOTE]
->
->Ensure that you are familiar with creating classifications in [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) in Analytics Reference help.
+> [!NOTE] 請確定您熟悉在「Analytics參考」說明的「 [分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) 」中建立分類。
 
 >[!IMPORTANT]
 >
->The Marketing Channels classification reports behave a little differently than standard classifications: when you create classifications for either first touch or last touch reports, they are automatically applied to both. You cannot classify one without classifying the other.
+>「行銷管道」分類報表的行為與標準分類略有不同：當您為首次接觸或上次接觸報表建立分類時，它們會自動套用至兩者。 不對其他分類，就無法對其分類。
 
 ## 行銷渠道分類 - 定義 {#section_38D2F8BBA47D444780B65BD84156532D}
 
