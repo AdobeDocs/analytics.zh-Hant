@@ -4,10 +4,10 @@ seo-description: iPad 應用程式簡介。
 seo-title: iOS 適用的 Adobe Analytics
 solution: Analytics
 title: iOS 適用的 Adobe Analytics
-topic: Reports & Analytics
+topic: Reports and Analytics
 uuid: 45f91f5a-8ff1-44f0-8880-4c52f03a7b42
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
