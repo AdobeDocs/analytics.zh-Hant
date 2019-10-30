@@ -1,24 +1,24 @@
 ---
 description: 概述在啟用跨裝置訪客身分識別後，您在報告中檢視的資料會受到哪些影響。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 概述在啟用跨裝置訪客身分識別後，您在報告中檢視的資料會受到哪些影響。
-seo-title: 跨裝置訪客識別的資料影響
+seo-title: 跨裝置訪客身分識別對資料的影響
 solution: Analytics
 subtopic: 訪客
-title: 跨裝置訪客識別的資料影響
-topic: 開發人員和實施
-uuid: 1db4d149-cd50-4b41-a850-98991f25051
-translation-type: tm+mt
+title: 跨裝置訪客身分識別對資料的影響
+topic: 開發人員和實作
+uuid: 1db4d149-cd50-4b41-a850-988901f25051
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
 
 
-# 跨裝置訪客識別的資料影響
+# 跨裝置訪客身分識別對資料的影響
 
 >[!IMPORTANT]
 >
->不再建議這種識別跨裝置訪客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不建議您繼續使用這種跨裝置識別訪客的方法。詳情請參閱[Adobe Experience Cloud Device Co-op 文件](https://marketing.adobe.com/resources/help/zh_TW/mcdc/)。
 
 概述在啟用跨裝置訪客身分識別後，您在報告中檢視的資料會受到哪些影響。
 
