@@ -1,6 +1,6 @@
 ---
 description: 臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 臨機分析為其「區段產生器」和「區段管理員」提供以Java為基礎的使用者介面，與其他Analytics工具使用的網路工具相同，可比對伺服器呼叫，並從Java主控台提供相同的功能。
-seo-description: 臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 Ad Hoc Analysis provides a Java-based user interface for its Segment Builder and Segment Manager identical to the web-based tools used by other Analytics tools, matching server calls and providing the same features and functionality from a Java-based console.
+seo-description: 臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 臨機分析為其「區段產生器」和「區段管理員」提供以Java為基礎的使用者介面，與其他Analytics工具使用的網路工具相同，可比對伺服器呼叫，並從Java主控台提供相同的功能。
 seo-title: 建立區段
 solution: Analytics
 title: 建立區段
@@ -14,7 +14,7 @@ source-git-commit: 3c5cc9275c9978caf57e4e29704e23405ac24b65
 
 # 建立區段
 
-臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 Ad Hoc Analysis provides a Java-based user interface for its Segment Builder and Segment Manager identical to the web-based tools used by other Analytics tools, matching server calls and providing the same features and functionality from a Java-based console.
+臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 臨機分析為其「區段產生器」和「區段管理員」提供以Java為基礎的使用者介面，與其他Analytics工具使用的網路工具相同，可比對伺服器呼叫，並從Java主控台提供相同的功能。
 
 「Ad Hoc Analysis」包含用來建立區段的熟悉功能，再加上新功能升級，例如用來設定區段管理[工作流程](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_workflow.html)的[區段管理員](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html)。跟以往一樣，您可以在[區段產生器](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html)中建立並儲存區段，或在 Ad Hoc Analysis 控制台中[從流失報表產生區段](https://marketing.adobe.com/resources/help/en_US/analytics/segment/t_seg_fallout.html)，然後將新區段或擴充區段儲存至觀眾庫，以供一般存取和應用。 ![](assets/seg__overview_ad_hoc.png)
 
