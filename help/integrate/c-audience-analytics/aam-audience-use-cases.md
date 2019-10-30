@@ -1,20 +1,20 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 觀眾分析使用案例
-title: 觀眾分析使用案例
-uuid: 51c0576c-ce8 a-4a87-9c8 f-be193 e50279 d
+seo-title: Audience Analytics 使用案例
+title: Audience Analytics 使用案例
+uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 觀眾分析使用案例
+# Audience Analytics 使用案例
 
 ## 廣告銷售與內容決策 {#section_A7A001BCC6874961A8B0A70503D6B00D}
 
-身為媒體發佈商，您不僅可以提供大小量度，還能提供對象效益量度給廣告銷售團隊。您還可以判斷哪些內容與特定人口統計區段最有共鳴，例如「30 歲以上第一次當媽媽的女性」。
+身為媒體發佈商，您不僅可以提供大小量度，還能提供對象效益量度給廣告銷售團隊。您也可以決定哪些內容最能與特定人口統計區隔產生共鳴，例如「30多歲的女性，第一次當媽媽。」
 
 ## 將機會重新定位 {#section_29C46BA00B3D43CE8A433EA64072D952}
 
