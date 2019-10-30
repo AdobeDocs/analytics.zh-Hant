@@ -1,19 +1,19 @@
 ---
 description: 內容階層的常見用法之一，是顯示訪客從特定頁面、層級等位置所採用的不同路徑。
-keywords: Analytics實作；內容階層；hier
+keywords: Analytics 實施;內容階層;heir
 seo-description: 內容階層的常見用法之一，是顯示訪客從特定頁面、層級等位置所採用的不同路徑。
-seo-title: 計算內容階層
+seo-title: 計算內容階層數
 solution: Analytics
-title: 計算內容階層
-topic: 開發人員和實施
-uuid: d41df92d-65fb-44de-pdf46-8fac24303
-translation-type: tm+mt
+title: 計算內容階層數
+topic: 開發人員和實作
+uuid: d41df92d-65fb-44de-bf46-8fac24303dad
+translation-type: ht
 source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
 
 ---
 
 
-# 計算內容階層
+# 計算內容階層數
 
 內容階層的常見用法之一，是顯示訪客從特定頁面、層級等位置所採用的不同路徑。
 
@@ -56,12 +56,12 @@ source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
    <td> <p><img  src="assets/check-mark.png" id="image_18F34EE8957946AF9D6C2C9B492CEDB7" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> 獨特訪客 </td> 
+   <td> 不重複訪客 </td> 
    <td> <p><img  src="assets/check-mark.png" id="image_A475267547B94DB4A1EEFD903B2CA1EB" /> </p> </td> 
    <td> <p><img  src="assets/check-mark.png" id="image_1E9E302D999146128CDBCE13E52BC38C" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> 分類  </td> 
+   <td> 分類 </td> 
    <td> <p><img  src="assets/check-mark.png" id="image_FC5FEFE7BA8C4475BA4F31D57302BE6B" /> </p> </td> 
    <td> </td> 
   </tr> 
