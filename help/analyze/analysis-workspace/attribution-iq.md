@@ -2,7 +2,7 @@
 title: 歸因 IQ
 description: Attribution IQ是Adobe Analytics中的一組功能，可進一步瞭解行銷工作如何促成轉化。
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 Attribution IQ是Adobe Analytics中的一組功能，可進一步瞭解行銷工作如何促成轉化。
 
-特定客戶歷程並非線性且通常無法預測。 每位客戶都以自己的步調進行；他們通常會重複返回、停止、重新啟動或參與其他非線性行為。 這些有機動作讓您難以瞭解整個客戶歷程中行銷工作的影響。 它也阻礙了將多個資料通道連結在一起的努力。
+特定客戶歷程並非線性，而且通常無法預測。 每位客戶都以自己的步調進行；他們通常會重複返回、停止、重新啟動或參與其他非線性行為。 這些有機動作讓您難以瞭解整個客戶歷程中行銷工作的影響。 它也阻礙了將多個資料通道連結在一起的努力。
 
 Adobe Analytics Attribution IQ可讓現代智慧團隊瞭解客戶歷程中如何進行有意義的互動，並找出引導客戶達成目標的轉折點。 瞭解客戶歷程的這一方面，有效地優化了行銷舉措。
 
