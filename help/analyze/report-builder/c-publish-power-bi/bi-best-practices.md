@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 最佳實務
-title: 最佳實務
-uuid: 6d55a9aa-030e-4e4d-963c-ec9 cc9 cf
+seo-title: 最佳作法
+title: 最佳作法
+uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 最佳實務
+# 最佳作法
 
 ## 在 Power BI 視覺效果中保留參考 {#section_7ED14FE64D974681A57EB91EF1B47CB6}
 
