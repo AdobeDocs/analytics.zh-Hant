@@ -1,13 +1,13 @@
 ---
 description: Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和 eVar，可讓您的組織將標準預設報告所未提供的自訂維度資料報告至您的網站。
-keywords: Analytics實作；prop；evar；prop與evar；命名慣例；流量變數；持續性；成功事件；路徑分析
+keywords: Analytics 實施;Prop;eVar;Prop 與 eVar 的比較;命名規則;流量變數;持續性;成功是件;路徑
 seo-description: Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和 eVar，可讓您的組織將標準預設報告所未提供的自訂維度資料報告至您的網站。
 seo-title: 比較 Prop 和 eVar
 solution: Analytics
 title: 比較 Prop 和 eVar
-topic: 開發人員和實施
-uuid: 0f02760f-ff69-481c-a817-799f02 dafe8 e
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -119,12 +119,12 @@ Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_841DF09FD32A44B1B1B876F4E0CE29AC" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>獨特訪客 </p> </td> 
+   <td colname="col1"> <p>不重複訪客 </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_38556E6A43B04E2E8A01855452D30A83" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_F5D4BDE1AA9C4C58A6402418390EEC52" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>造訪 </p> </td> 
+   <td colname="col1"> <p>瀏覽 </p> </td> 
    <td colname="col2"> <p><img  src="assets/check-mark.png" id="image_017BB279C5824028870360A5D4D27556" /> </p> </td> 
    <td colname="col3"> <p><img  src="assets/check-mark.png" id="image_2832E346D220429DA643B908EC10260D" /> </p> </td> 
   </tr> 
@@ -133,14 +133,14 @@ Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和
 
 * **劃分**: Prop 可使用關聯，針對在相同影像要求中引發的其他流量變數顯示頁面檢視。eVar 可使用子關聯，提供有關其他與成功事件相關的轉換變數劃分資訊。
 
-## Prop 或 eVar 的獨特優點 {#section_B384031AB8674065BA5187B0A3A3DAB9}
+## Prop 或 eVar 的獨特優點{#section_B384031AB8674065BA5187B0A3A3DAB9}
 
 隨著版本 15 的發行，Prop 和 eVar 的功能差異越來越小。eVar 最近進行了更新，包含將處理負載降至最低的瀏覽/獨特訪客，以及路徑量度。
 
 Prop 擁有幾項優於 eVar 的優點，其中幾項可透過其他方法彌補:
 
 * Prop 資料幾乎可以立即收集並用於報告。eVar 可能需要 30 分鐘以上才會出現在報表套裝資料中。
-* 所有 Prop 都能啟用類似流程圖的報表，讓您查看訪客前來您網站所採取的路徑。These pathing flow reports are available for both Props and eVars in [!UICONTROL Ad Hoc Analysis].
+* 所有 Prop 都能啟用類似流程圖的報表，讓您查看訪客前來您網站所採取的路徑。這些路徑流報表可以同時用於 [!UICONTROL Ad Hoc Analysis] 中的 Prop 和 eVar。
 * Prop 可以關聯數個層級，但 eVar 只能 進行一次子關聯。在使用相同資料進行關聯的條件下，透過分段可以減輕這種限制。
 * 參與率量度可讓您查看在成功事件之前有哪些 Prop 值參與。
 
@@ -151,7 +151,7 @@ Prop 擁有幾項優於 eVar 的優點，其中幾項可透過其他方法彌補
 
 路徑量度 (例如總逗留時間、登入點和退出點) 原本無法用於 eVar。不過最近的更新已讓這些量度可供用於 eVar，提高了 eVar 的價值。
 
-## 適用項目 {#section_022D016A4EEB45179A15BFF044A261A4}
+## 適用項目{#section_022D016A4EEB45179A15BFF044A261A4}
 
 **Prop:** 若您最擔心的是延遲，而且只想使用此維度測量流量 (而非成功事件)。
 
@@ -159,5 +159,5 @@ Prop 擁有幾項優於 eVar 的優點，其中幾項可透過其他方法彌補
 
 >[!TIP]
 >
->如果您不希望eVar持續存在，則可以將其有效期變更為「點擊」，如此就不會保留任何資料超過點擊。
+>若不希望 eVar 永久存在，您可將其有效期變更為「點擊」，如此就不會保留資料超過點擊期限。
 
