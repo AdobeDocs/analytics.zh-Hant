@@ -9,7 +9,7 @@ title: 自訂 Analytics 工具權限
 topic: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt;完 **[!UICONTROL 整報表存取]** &gt; **[!UICONTROL Analytics工具]****[!UICONTROL &gt;自訂]**
 
->[!NOTE]
->
->2016年秋季版（10月20日）為群組管理帶來變更。 See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
+> [!NOTE] 2016年秋季版（10月20日）為群組管理帶來變更。 See [Administrative Changes - Fall 2016](/help/admin/user-management2/c-user-management/permissions-changes.md) for a summary of changes.
 
 ## 報表存取 - 分析工具
 
