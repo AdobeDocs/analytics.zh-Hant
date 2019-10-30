@@ -1,20 +1,20 @@
 ---
 description: 在資料收集所使用的變數中，s.products 變數可能是語意最複雜的一個。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 在資料收集所使用的變數中，s.products 變數可能是語意最複雜的一個。
-seo-title: 產品變數中常見錯誤
+seo-title: 產品變數中的常見錯誤
 solution: Analytics
 subtopic: 疑難排解
-title: 產品變數中常見錯誤
-topic: 開發人員和實施
-uuid: 94075c56-37c3-44de-bdf37-1dd228 c6665
-translation-type: tm+mt
+title: 產品變數中的常見錯誤
+topic: 開發人員和實作
+uuid: 94075c56-37c3-44de-bf37-1dfd228c6665
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 產品變數中常見錯誤
+# 產品變數中的常見錯誤
 
 在資料收集所使用的變數中，s.products 變數可能是語意最複雜的一個。
 
