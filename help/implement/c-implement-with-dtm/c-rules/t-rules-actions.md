@@ -6,8 +6,8 @@ seo-title: 設定條件要觸發的動作
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 設定條件要觸發的動作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,9 +22,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 每個規則可依需要觸發任意數目的指令檔或 HTML 插入。
 
->[!NOTE]
->
->因為 DTM 可讓您將自訂程式碼插入至您的頁面，請注意不要產生跨網站指令檔 (XSS) 弱點 (如需詳細資訊，請參閱 [OWASP 的指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)))。在指令檔內使用資料元素需要特別注意。一律假設資料元素值可能來自未受信任的來源。
+> [!NOTE] 由於DTM可讓您將自訂程式碼插入頁面，請務必避免建立跨網站指令碼(XSS)弱點(如需詳細資訊，請參閱 [OWASP指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)) )。 在指令檔內使用資料元素需要特別注意。一律假設資料元素值可能來自未受信任的來源。
 
 **設定條件要觸發的動作**
 
