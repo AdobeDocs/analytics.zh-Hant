@@ -5,9 +5,9 @@ seo-title: 頁面逗留時間
 solution: Analytics
 title: 頁面逗留時間
 topic: 報表
-uuid: 0a875fa4-da31-4370-a44 b-955f22273 cf4
+uuid: 0a875fa4-da31-4370-a44b-955f22273cf4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
