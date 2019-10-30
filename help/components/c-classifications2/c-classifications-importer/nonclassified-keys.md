@@ -3,12 +3,12 @@ description: 未分類索引鍵在分類報告中會群組為單一行項目，�
 seo-description: 未分類索引鍵在分類報告中會群組為單一行項目，標籤為「無」。將「無」重新命名為其他較清楚描述的名稱會很實用。
 seo-title: 未分類索引鍵
 solution: Analytics
-subtopic: '分類   '
+subtopic: 分類
 title: 未分類索引鍵
 topic: 管理工具
-uuid: b73a916-1c6f-4c8d-900b-54ab2c36147c
+uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 未分類索引鍵在分類報告中會群組為單一行項目，標籤為「無」。將「無」重新命名為其他較清楚描述的名稱會很實用。
 
-## Non-classified keys {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
+## 未分類索引鍵 {#concept_233E51DDF3084FF7B7EA89381C73C5FF}
 
 未分類索引鍵在分類報告中會群組為單一行項目，標籤為 *`None`*. It can be useful to rename *`None`* to something more descriptive.
 
@@ -39,5 +39,5 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
 
    若要依照本文件中的範例，您可以在名為「[!UICONTROL 行動促銷活動名稱]」的欄裡輸入 "non-mobile campaign"。
 
-   這個項目會將&#x200B;*`None`* 至 *`non-mobile campaign`*[!UICONTROL 「行動促銷活動類型] 」報表中。
+   這個項目會將 *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
 1. [將資料匯回](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D)系統。
