@@ -1,14 +1,14 @@
 ---
 description: 「私人網路互連」可讓資料更有效率地從 ISP 的網路傳送至 Analytics 網路。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 「私人網路互連」可讓資料更有效率地從 ISP 的網路傳送至 Analytics 網路。
 seo-title: 互連
 solution: Analytics
 subtopic: 疑難排解
 title: 互連
-topic: 開發人員和實施
+topic: 開發人員和實作
 uuid: b3d34369-8cb8-4f12-8b58-847132c43881
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
