@@ -8,7 +8,7 @@ title: Analytics 變數和事件
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ DFA 的 Data connectors 整合會使用 Analytics 變數來追蹤 DFA 促銷活�
 | 變數 | 友好名稱 | 填入方法 | 說明 |
 |---|---|---|---|
 | s.campaign 或 eVar | 廣告追蹤代碼 | 由 DFA 促銷活動的 Data Connectors 自動填入。 | 追蹤所有促銷活動的點進轉換。 |
-| eVar* | 閱覽 | 透過 DFA 促銷活動的 VISTA 和 DFA 自動填入。 | 追蹤 DFA ID 的閱覽資料。此 eVar 應具有與 *`s.campaign`* variable. 必須與變數提供者ID中所識別的轉換變數相同。 請確定 eVar 已啟用完整的子關連。啟用此功能的成本是 Data connectors 整合費用的一部分 |
+| eVar* | 閱覽 | 透過 DFA 促銷活動的 VISTA 和 DFA 自動填入。 | 追蹤 DFA ID 的閱覽資料。此 eVar 應具有與&#x200B;*`s.campaign`* 變數中。必須與變數提供者ID中所識別的轉換變數相同。 請確定 eVar 已啟用完整的子關連。啟用此功能的成本是 Data connectors 整合費用的一部分 |
 | eVar* | DFA 查詢錯誤 | (可選) 透過 JavaScript 收集代碼填入。 | 包含從DFA傳回的數個錯誤碼之一。 |
 | 事件* | 閱覽計數 | 由 DFA 促銷活動的 Data Connectors 自動填入。 | 擷取使用者檢視廣告、未點進但進入您的網站的次數。 |
 | 事件* | 曝光數 | 透過 DFA 的資料回饋自動填入。 | 追蹤特定 DFA 廣告的提供次數。 |
