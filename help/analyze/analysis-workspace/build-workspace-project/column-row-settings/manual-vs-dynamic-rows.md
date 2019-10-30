@@ -3,9 +3,9 @@ description: 如何與表格中的靜態列互動。
 seo-description: 如何與表格中的靜態列互動。
 seo-title: 靜態與動態列
 title: 靜態與動態列
-uuid: caf033ef-d252-4f8 a-802e-7edbbac5 c8 c0
+uuid: caf033ef-d252-4f8a-802e-7edbbac5c8c0
 translation-type: tm+mt
-source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,12 +27,12 @@ source-git-commit: a121851d3f96aee243aaffd2fde24c98d4fc55e1
 
    ![](assets/static_rows.png)
 
-此外，(僅限)當您處於靜態列模式時，現在您可以變更欄總數的計算方式。只需按一下齒輪圖示並在這 2 個選項之間切換:
+此外，（僅）您處於靜態列模式時，現在可以變更欄總計的計算方式。 只需按一下齒輪圖示並在這 2 個選項之間切換:
 
 ![](assets/column-totals.png)
 
 | 選項 | 說明 |
 |---|---|
-| (預設)透過總和每欄中目前的值計算總計。 | 這個選項只會計算目前在表格中的列。(用戶端計算) |
+| （預設）計算總計的方法是求和每個欄中目前的值。 | 這個選項只會計算目前在表格中的列。(用戶端計算) |
 | 根據每個量度的所有列來計算總計。 | 這個選項包含此維度的所有維度項目，即使是未列於表格中的項目。(伺服器端計算) |
 
