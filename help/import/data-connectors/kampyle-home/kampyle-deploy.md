@@ -6,7 +6,7 @@ solution: Analytics
 title: 部署整合
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -54,9 +54,7 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
    ```
 
 1. 使用下列其中一種方法部署程式碼：
-|您 **使用Adobe tagManager或動態標籤管理。** |使用標籤管理介面來新增程式碼。 |
-|---|---|
-| **In all other cases** | Deliver the code to the organizational resource that is responsible for updating your Adobe Analytics deployment code.  |
+|您 **使用Adobe tagManager或動態標籤管理。** |使用標籤管理介面來新增程式碼。 ||—|—||在 **所有其他情況下** |將程式碼傳送至負責更新Adobe Analytics部署程式碼的組織資源。  |
 
 ## 驗證整合{#verify-the-integration}
 
