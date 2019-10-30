@@ -1,19 +1,19 @@
 ---
 description: 使用 HTML 影像標記實施 Analytics (硬式編碼影像請求)
-keywords: Analytics實作；html影像標記；硬式編碼影像要求
+keywords: Analytics 實施;html 影像標籤;硬式編碼影像要求
 seo-description: 使用 HTML 影像標記實施 Analytics (硬式編碼影像請求)
-seo-title: 使用HTML影像標記實施Analytics
+seo-title: 使用 HTML 影像標記實作 Analytics
 solution: Analytics
-title: 使用HTML影像標記實施Analytics
-topic: 開發人員和實施
-uuid: 0c098a57-7c71-4362-812c-36e37848a ae
-translation-type: tm+mt
+title: 使用 HTML 影像標記實作 Analytics
+topic: 開發人員和實作
+uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 使用HTML影像標記實施Analytics
+# 使用 HTML 影像標記實作 Analytics
 
 使用 HTML 影像標記實施 Analytics (硬式編碼影像請求)
 
@@ -44,9 +44,9 @@ JavaScript 可偵測伺服器無法取得的瀏覽器設定，例如瀏覽器視
 
 * JavaScript 的正確性非常高 (98-100%)。在某些情況下，我們會需要最高度的正確性，即使是使用者在 JavaScript 執行前即快速點按至其他頁面時，也是如此。在伺服器端建立影像標記，可讓正確度提高數個百分點。
 * 對於追蹤轉換事件 (例如購買)，準確度相當重要。
-* 此策略也可用來完整填入 <noscript> tag for tracking users without JavaScript，or with JavaScript disabled.
+* 此策略也可用來完全填入 <noscript> 標籤內的影像要求，在沒有 JavaScript 或已停用 JavaScript 的情況下追蹤使用者。
 
 >[!NOTE]
 >
->使用伺服器產生的影像標記需要額外的時間實施，而且較難除錯、部署和維護。Adobe 強烈建議客戶盡可能對每個頁面都使用 JavaScript 型資料收集。使用此實施方法，將無法收集或支援不同的報表和功能，包括訪客點按對映、下載連結、退出連結和瀏覽器相關變數 (瀏覽器寬度/高度等)。
+>要使用伺服器產生的影像標籤，必須以額外的時間實施，且在除錯、部署及維護上都較為困難。Adobe 強烈建議客戶盡可能對每個頁面都使用 JavaScript 型資料收集。使用此實施方法，將無法收集或支援不同的報表和功能，包括訪客點按對映、下載連結、退出連結和瀏覽器相關變數 (瀏覽器寬度/高度等)。
 
