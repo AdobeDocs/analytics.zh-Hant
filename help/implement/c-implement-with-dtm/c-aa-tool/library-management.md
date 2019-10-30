@@ -6,8 +6,8 @@ seo-title: 程式庫管理
 solution: Experience Cloud,Dynamic Tag Management
 title: 程式庫管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 **[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL 編輯工具]** &gt; **[!UICONTROL 程式庫管理]**
 
->[!NOTE]
->
->如果在單一 Web 屬性中使用了超過一個 Adobe Analytics 工具，每個工具必須具有獨特的追蹤器變數名稱。單一 Web 屬性內 Adobe Analytics 工具之間重複的物件變數名稱將造成衝突。
+> [!NOTE]如果在單一 Web 屬性中使用了超過一個 Adobe Analytics 工具，每個工具必須具有獨特的追蹤器變數名稱。單一 Web 屬性內 Adobe Analytics 工具之間重複的物件變數名稱將造成衝突。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
