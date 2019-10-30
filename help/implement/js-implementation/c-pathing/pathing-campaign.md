@@ -7,8 +7,8 @@ solution: Analytics
 title: 依促銷活動或追蹤代碼的路徑分析
 topic: 開發人員和實作
 uuid: eb6e3484-1b40-4ec6-8017-ac1003cdf636
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ s.prop1=s.pageName;
 除非訪客是從促銷活動點進的，否則您應在所有頁面上執行此動作。若他們是從促銷活動點進的，且位於促銷活動的登陸頁面上，則您會在 prop 中填入促銷活動與[!UICONTROL 頁面名稱]的串連。請檢視下列項目: 
 
 ```js
- s.prop1=s.campaign + ‘ : ’ + s.pageName;
+ s.prop1=s.campaign + ' : ' + s.pageName;
 ```
 
 若他們所點按的促銷活動名為 "banner1234"，而其登陸頁面名為「首頁」，則該 prop 中的值會是「banner1234: 首頁」。在後續的每個頁面上，您都在 prop 中放入[!UICONTROL 頁面名稱]，如前所述。
@@ -36,7 +36,7 @@ s.prop1=s.pageName;
 當使用者點按此促銷活動，且在該次瀏覽中共檢視了四個頁面，則您的 sprop 中會依下列順序出現下列值: 
 
 ```js
-“banner1234 : Home Page” > “Page 2” > “Page 3” > “Page 4”
+"banner1234 : Home Page" > "Page 2" > "Page 3" > "Page 4"
 ```
 
 依此方式在 [!UICONTROL prop1] 中擷取我們的資料，並對此 prop 啟用路徑分析後，此時您即可檢視眾多路徑分析報表之一，以瞭解訪客從促銷活動點進網站後的瀏覽路徑。
