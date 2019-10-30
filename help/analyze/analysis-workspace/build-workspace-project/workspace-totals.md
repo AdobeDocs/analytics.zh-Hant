@@ -1,26 +1,26 @@
 ---
-description: How Workspace totals are calculated.
-seo-description: Learn how Workspace totals are calculated.
-seo-title: How Workspace totals are calculated.
-title: Workspace totals
+description: 工作區總計的計算方式。
+seo-description: 瞭解如何計算工作區總計。
+seo-title: 工作區總計的計算方式。
+title: 工作區總計
 translation-type: tm+mt
-source-git-commit: b2e76715a2bab0931b1ddf8c612c29eea530ce6c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 工作區總計
 
-In Freeform tables, a total row appears at each breakdown level and can show two totals:
+在自由表格中，每個劃分層級會顯示總列，並可顯示兩個總計：
 
-* **[!UICONTROL Grand Total (gray 'out of' number) - this total represents all hits that have been collected, sometimes referred to as 'report suite total'.]** When a segment is applied either at the panel level or within the freeform table, this total adjusts to reflect all hits that match the segment criteria.
-* **[!UICONTROL Table Total (black number) - this total is typically equal to or a subset of the Grand Total.]**It reflects any table filters applied within the freeform table, including the Include None option.
+* **[!UICONTROL 總計]** （灰色的「of」數字）-此總計代表所有已收集的點擊，有時稱為「報表套裝總計」。 在面板層級或自由表格內套用區段時，總計會調整以反映符合區段標準的所有點擊。
+* **[!UICONTROL 表總計]** （黑色數字）-此總計通常等於或是總計的 [!UICONTROL 子集]。 它反映自由表格內套用的任何表格篩選，包括「包 [!UICONTROL 含無] 」選項。
 
 ![](assets/total-row.png)
 
-## Display Total Setting
+## 顯示總設定
 
-在「 **[!UICONTROL 欄設定]**」下方，有「顯 **[!UICONTROL 示總計]** 」和「 **[!UICONTROL 顯示總計」選項]**。 If these settings are unchecked, totals will be removed from the table. 當總計不合理時（例如，在某些計算量度藍本中），可能會 [想要此點](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)。
+在「 **[!UICONTROL 欄設定]**」下方，有「顯 **[!UICONTROL 示總計]** 」和「 **[!UICONTROL 顯示總計」選項]**。 如果取消選中這些設定，則總計將從表中刪除。 當總計不合理時（例如，在某些計算量度藍本中），可能會 [想要此點](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html)。
 
 ![](assets/column-settings-total.png)
 
