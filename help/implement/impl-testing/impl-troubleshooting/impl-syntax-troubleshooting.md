@@ -1,14 +1,14 @@
 ---
 description: 下表列出正確與錯誤程式碼之間的差異。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 下表列出正確與錯誤程式碼之間的差異。
 seo-title: 常見語法錯誤
 solution: Analytics
 subtopic: 疑難排解
 title: 常見語法錯誤
-topic: 開發人員和實施
-uuid: 9845dcb9-9f10-4f65-a43 d-2ef41 ediaA122
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -33,6 +33,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | s.events="event1, event2" | s.events="event1,event2" (在執行多事件標記時事件 ID 之間不空格) |
 | s.products="product name" | s.products=";product name" (未列出產品類別時使用分號) |
 
-## 其他附註 {#section_E2B6A9C966AD40A09578DD0F784DCAB9}
+## 其他附註{#section_E2B6A9C966AD40A09578DD0F784DCAB9}
 
 一律將結束 HTML 備註放在 Adobe 程式碼的結尾處 (即使您使用指令碼的 NOSCRIPT 部分亦然)。
