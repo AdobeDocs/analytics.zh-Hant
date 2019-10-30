@@ -5,7 +5,7 @@ seo-title: 執行貢獻分析
 title: 執行貢獻分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,9 +51,7 @@ source-git-commit: 8b2feced9fd503395d06dc12c8e5d7985ca89161
    * [建立警報。](/help/components/c-alerts/intellligent-alerts.md)
    * [建立或比較區段。](../../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)
 
->[!NOTE]
->
->我們會在貢獻分析和連結到它的智慧提醒專案中，強調分析異常的異常。如此即可以更清楚的方式指明分析所得的異常項目。
+> [!NOTE] 我們會在貢獻分析和連結的智慧提醒專案中，以藍點反白標示正在分析的異常。 如此即可以更清楚的方式指明分析所得的異常項目。
 
 ## Exclude dimensions from Contribution Analysis {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
