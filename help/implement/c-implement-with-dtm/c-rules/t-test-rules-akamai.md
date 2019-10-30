@@ -6,8 +6,8 @@ seo-title: 為 Akamai 主機測試未發佈的規則
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 為 Akamai 主機測試未發佈的規則
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 如果您使用 Akamai 託管，請自主控台測試取消發佈規則。
 
-Switcher 外掛程式往往是進行測試的最簡單方式。如需詳細資訊，請參閱 Dynamic Tag Management 產品文件中的[搜尋探索外掛程式](https://marketing.adobe.com/resources/help/zh_TW/dtm/search_discovery_plugins.html)。
+Switcher 外掛程式往往是進行測試的最簡單方式。如需詳細資訊，請參閱動態標籤管理產品文件中的 [Search Discovery 外掛程式](https://marketing.adobe.com/resources/help/en_US/dtm/search_discovery_plugins.html)。
 
 下列步驟會說明，如何在不使用 Switcher 外掛程式的情況下進行測試:
 
