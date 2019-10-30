@@ -8,8 +8,8 @@ subtopic: JavaScript AppMeasurement
 title: 關於 JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -82,7 +82,7 @@ JavaScript [!DNL AppMeasurement] 提供下列內建公用程式:
 s.clearVars()
 ```
 
-## 福利{#section_091E5A28E89E438E8A54A95F55165743}
+## 福利 {#section_091E5A28E89E438E8A54A95F55165743}
 
 * 較 H.25 代碼快 3-7 倍。
 * 未壓縮大小僅為 21k，而採用 gzipped 壓縮的大小為 8k (H.25 代碼的未壓縮大小為 33k，而採用 gzipped 的大小為 13 k)。
