@@ -1,13 +1,13 @@
 ---
 description: 公司可使用 Analytics 來判斷電子郵件促銷活動是否成功。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 公司可使用 Analytics 來判斷電子郵件促銷活動是否成功。
 seo-title: 外部電子郵件追蹤
 solution: Analytics
 title: 外部電子郵件追蹤
-topic: 開發人員和實施
-uuid: fa450f45-14cf-4d0d-a87 c-14a946512 a9 b
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 必須對 HTML 電子郵件內文和 JavaScript 程式庫進行修改，才能擷取前述的關鍵度量。
 
-## 實施 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## 實施{#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 要順利顯示電子郵件促銷活動分析資料，必須執行數個步驟。這些步驟說明如下: 
 
@@ -60,9 +60,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    更改 JavaScript 檔案 [!DNL s_code.js] 中的程式碼，可讓您擷取關於有多少使用者 (以及哪些使用者) 從電子郵件點進並參與後續成功事件的資訊。更新 JavaScript 程式庫時須執行兩個步驟。
 
-   1. Customize [!DNL s_code.js] by calling [!UICONTROL getQueryParam].
+   1. 呼叫 [!DNL s_code.js]getQueryParam[!UICONTROL  以自訂 ]。
 
-      [!DNL s_code.js] 檔案應放置在 Web 伺服器上可供每個網頁存取之處。The *`doPlugins`* function within this file should be altered so it captures the query string parameters on the email links. 例如:
+      [!DNL s_code.js] 檔案應放置在 Web 伺服器上可供每個網頁存取之處。*`doPlugins`* 函數應進行更改，以便擷取電子郵件連結上的查詢字串參數。例如:
 
       ```js
       /* Plugin Config */ 
@@ -75,7 +75,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
       s.doPlugins=s_doPlugins 
       ```
 
-      每個必須複製到變數中的查詢字串參數，都應有一個 [!UICONTROL getQueryParam] 呼叫。在上述範例中，查詢字串參數 [!UICONTROL sc_cid] 被複製到 *另存`campaign`。*
+      每個必須複製到變數中的查詢字串參數，都應有一個 [!UICONTROL getQueryParam] 呼叫。在上述範例中，查詢字串參數 [!UICONTROL sc_cid] 被複製到  *另存`campaign`。*
 
       在擷取點進次數時，只需要第一次的 [!UICONTROL getQueryParam] 呼叫。請連絡 Adobe [!DNL Customer Care] 以實施此函數，並確認您的 JavaScript 檔案版本包含 [!UICONTROL getQueryParam] 外掛程式。
 
@@ -84,7 +84,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
       以下提供在更新 JavaScript 程式庫時務必留意的幾項要點。這些要點列出如下。
 
       * 查詢字串參數 [!UICONTROL sc_cid] 在最終登陸頁面上的 URL 中必須是可見的，否則將不會記錄任何點進次數轉換。
-      * [!UICONTROL sc_cid] 參數是查詢字串參數的範例之一。任何查詢字串參數皆可由 [!UICONTROL getQueryParam] 外掛程式使用及擷取。請確定查詢字串參數僅用於促銷活動追蹤。只要這些參數出現在查詢字串中，其值就會複製到 *另存`campaign`。*
+      * [!UICONTROL sc_cid] 參數是查詢字串參數的範例之一。任何查詢字串參數皆可由 [!UICONTROL getQueryParam] 外掛程式使用及擷取。請確定查詢字串參數僅用於促銷活動追蹤。只要這些參數出現在查詢字串中，其值就會複製到  *另存`campaign`。*
 
 1. 使用 [!UICONTROL SAINT] 為促銷活動追蹤代碼進行分類。
 
