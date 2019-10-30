@@ -5,9 +5,9 @@ seo-title: 檔案下載
 solution: Analytics
 title: 檔案下載
 topic: 報表
-uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
+uuid: 897fc221-aa30-4eac-aca6-bcb76adaf71
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 **導覽**
 
-**[!UICONTROL Reports &gt; Site Content &gt; Links &gt; File Downloads]**************
+**[!UICONTROL 報表]** &gt;網 **[!UICONTROL 站內容]** &gt; **[!UICONTROL 連結]** &gt;檔 **[!UICONTROL 案下載]**
 
 若此報告未在預設位置中，請洽詢您的管理員，因為他們可能變更了預設功能表結構以因應您的組織獨特的需求。
 
@@ -34,7 +34,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 行銷報告會從您的網站上任何包含 JavaScript 代碼的頁面中，擷取檔案下載的相關資訊。但必須要有特定變數存在並正確設定，才可報告檔案下載資訊。若此報告未顯示資料，或是未顯示預期值，請依照下列步驟驗證您的實作。
 
-1. 在您的網站上，找出全域JavaScript 檔案。此檔案常命名為 [!DNL s_code.js]，但也可能已重新命名。If it has been renamed, you can search the JavaScript files on your site for the value , which is a part of the JavaScript code.*`s.account`*
+1. 在您的網站上，找出全域JavaScript 檔案。此檔案常命名為 [!DNL s_code.js]，但也可能已重新命名。如果已重新命名，您可以在網站上搜尋JavaScript檔案中 *`s.account`*&#x200B;的值，該值是JavaScript程式碼的一部分。
 
 1. 在此檔案中，找出 [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 變數。確定此變數設為 *true*。
 
