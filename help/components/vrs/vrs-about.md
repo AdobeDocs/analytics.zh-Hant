@@ -1,16 +1,16 @@
 ---
 description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。
 seo-description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。
-seo-title: 虛擬報表套裝概述
-title: 虛擬報表套裝概述
-uuid: 51c63c56-dd58-4c23-a997-ea6942480 d22
+seo-title: 虛擬報表套裝概觀
+title: 虛擬報表套裝概觀
+uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 虛擬報表套裝概述
+# 虛擬報表套裝概觀
 
 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。
 
@@ -55,13 +55,13 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 功能 | 虛擬報表套裝 | 多套裝標記 |
 |--- |--- |--- |
 | 提供即時或「目前的資料」報告 | 否 | 是 |
-| 在所有 Analytics 工具 (Analysis Workspace、Report Builder、Ad Hoc Analysis 等) 中皆可用 | 是.   注意: 您只能在「Reports &amp; Analytics」中進行編輯並將它們識別為虛擬報表套裝。不過，您可在其他工具中的報表套裝下拉式清單中選取它們。 | 是 |
+| 在所有 Analytics 工具 (Analysis Workspace、Report Builder、Ad Hoc Analysis 等) 中皆可用 | 是。注意: 您只能在「Reports &amp; Analytics」中進行編輯並將它們識別為虛擬報表套裝。不過，您可在其他工具中的報表套裝下拉式清單中選取它們。 | 是 |
 | 可以上傳資料上去 (透過分類、資料摘要等) | 否 | 是 |
 | 支援建立 DL 報表、書籤、控制面板、目標、警報、區段、計算量度... | 是 | 是 |
 | 可個別新增至權限群組 | 是 | 是 |
 | 可使用管理員功能來修改此報表套裝上的個別設定 (「管理員 &gt; 報表套裝」) | 否 (設定繼承自父項) | 是 |
 
-## Combine Virtual Report Suites and Multisuite Tagging {#section_026FA3FCD7314DD18220E73EC5702AFF}
+## 結合虛擬報表套裝和多套裝標籤 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 
 在某些情況下，同時使用虛擬報表套裝與多套裝標記也可享有一些優點。
 
