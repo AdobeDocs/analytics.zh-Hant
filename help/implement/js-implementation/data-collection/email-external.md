@@ -7,8 +7,8 @@ solution: Analytics
 title: 外部電子郵件追蹤
 topic: 開發人員和實作
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 必須對 HTML 電子郵件內文和 JavaScript 程式庫進行修改，才能擷取前述的關鍵度量。
 
-## 實施{#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## 實施 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 要順利顯示電子郵件促銷活動分析資料，必須執行數個步驟。這些步驟說明如下: 
 
