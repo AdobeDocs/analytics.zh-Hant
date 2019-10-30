@@ -5,9 +5,9 @@ seo-title: 排程報表佇列
 solution: Analytics
 title: 排程報表佇列
 topic: 報表
-uuid: fcf92d3-a472-465f-ad7 a-c48 cd9 a8238 b
+uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 讓管理員層級使用者查看與管理組織中的排程報告。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 排程報表」]**
+**[!UICONTROL Analytics]** &gt;元 **[!UICONTROL 件]** &gt;計畫 **[!UICONTROL 報表]**
 
 「排程報告管理員」中的管理層級功能包含:
 
@@ -29,9 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在「**[!UICONTROL 報表清單]**」標籤上，除了您私人排程的報表，您還可以&#x200B;**顯示組織中所有已排程報表[!UICONTROL 。]**
 
->[!NOTE]
->
->**[!UICONTROL 「報表名稱]** 」欄會顯示正在排程的報表名稱，「 **[!UICONTROL 檔案名稱]** 」欄會顯示您在「進階傳送選項」中設定的任何自訂檔案名稱。結果就是，若您排定相同報表類型的多份報表並且逐一指定自訂名稱，則「排程報告管理員」就會顯示具有相同報表名稱但是檔案名稱不同的多個項目。這是由於正在排程的後端報表是相同的所致，因此「報表名稱」欄會出現除了自訂檔案名稱 (依設定) 之外的所有報表名稱皆相同的情況。
+> [!NOTE] 「報 **[!UICONTROL 表名稱]****** 」欄會顯示正在排程的報表名稱，而「檔案名稱」欄會顯示您在「進階傳送選項」中設定的任何自訂檔案名稱。 結果就是，若您排定相同報表類型的多份報表並且逐一指定自訂名稱，則「排程報告管理員」就會顯示具有相同報表名稱但是檔案名稱不同的多個項目。這是由於正在排程的後端報表是相同的所致，因此「報表名稱」欄會出現除了自訂檔案名稱 (依設定) 之外的所有報表名稱皆相同的情況。
 
 ![](assets/show_all_scheduled_reports.png)
 
