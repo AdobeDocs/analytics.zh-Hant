@@ -1,14 +1,14 @@
 ---
 description: Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透過區分大小寫或不區分大小寫檢查的選項確認該數值不在清單中。Apl 外掛程式被多個標準外掛程式所參照，但也能直接應用於多種情況。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透過區分大小寫或不區分大小寫檢查的選項確認該數值不在清單中。Apl 外掛程式被多個標準外掛程式所參照，但也能直接應用於多種情況。
 seo-title: appendList
 solution: Analytics
 subtopic: 外掛程式
 title: appendList
-topic: 開發人員和實施
-uuid: e923c86c-ea6-4e17-a3 a4-0e08 af886674
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -23,7 +23,7 @@ Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透�
 * 新增一個事件至當前事件變數
 * 無需複製清單內數值新增一個數值至清單變數
 * 基於一些頁面邏輯新增產品至當前產品變數
-* 新增數值至參數&#x200B;*`linkTrackVars`* and *`linkTrackEvents`*
+* 新增數值至參數&#x200B;*`linkTrackVars`* 和 *`linkTrackEvents`*
 
 **使用案例 1**
 
@@ -31,7 +31,7 @@ Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>藍本 </p> </td> 
-   <td colname="col2"> <p>新增<span class="term"> event1 </span> 到目前的事件變數，同時確保該事件不被複製。 </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>新增<span class="term">event1</span> 至目前的事件變數，同時確保該事件不會重複。 </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>程式碼 </p> </td> 
@@ -50,7 +50,7 @@ Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>藍本 </p> </td> 
-   <td colname="col2"> <p>新增數值 <span class="term"> 記錄 </span> 至清單變數 <span class="varname"> prop1 </span>， <span class="term"> 歷史 </span> 記錄和 <span class="term"> 歷史記錄 </span> 會被視為相同值。 </p> <p>s.prop1="Science,History" </p> </td> 
+   <td colname="col2"> <p>新增數值  <span class="term">history</span> 至清單變數 <span class="varname">prop1</span>，並將 <span class="term">history</span> 和 <span class="term">History</span> 視為同一個值。 </p> <p>s.prop1="Science,History" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>程式碼 </p> </td> 
@@ -58,21 +58,21 @@ Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透�
   </tr> 
   <tr> 
    <td colname="col1"> <p>結果 </p> </td> 
-   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> <span class="term"> 歷史記錄 </span> 不會新增，因為 <span class="term"> 歷史 </span> 已在清單中。 </p> </td> 
+   <td colname="col2"> <p>s.prop1="Science,History" </p> <p> 不會新增 <span class="term">history</span>，因為 <span class="term">History</span> 已在清單中。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 實施 {#section_F4C91CA2037F478C9F7B53F357E6A5F0}
 
 請遵循下列步驟，實施 APL 外掛程式。
 
 1. 向客戶服務或您目前指派的 Adobe 顧問索取外掛程式的程式碼。
-1. Add call(s) to the API function as needed within the *`s_doPlugins`* function
+1. 視需要在 *`s_doPlugins`* 函數內將呼叫新增至 API 函數
 
 以下是程式碼在您的網站上可能呈現的樣貌:
 
