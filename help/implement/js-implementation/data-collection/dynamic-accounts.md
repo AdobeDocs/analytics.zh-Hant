@@ -7,8 +7,8 @@ solution: Analytics
 title: 報表套裝 ID - 動態帳戶
 topic: 開發人員和實作
 uuid: 763a9741-309d-4795-8819-6543866047d5
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -63,7 +63,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 程式碼會先檢查 `qa.client.com` 是否存在於主機/網域名稱內。若存在，則會選取報表套裝 `devreportsuite1`，而比對隨即停止。請以分號隔開多項規則。
 
-## 預設報表套裝{#section_0360D724929348B0B211708B5BA15647}
+## 預設報表套裝 {#section_0360D724929348B0B211708B5BA15647}
 
 `s_account` 變數可先行設定，並做為預設值，以備找不到指定的字串時使用。其範例如下: 
 
