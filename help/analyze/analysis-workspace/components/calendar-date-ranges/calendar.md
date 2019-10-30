@@ -1,16 +1,16 @@
 ---
 description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 seo-description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
-seo-title: 日曆和日期範圍概述
-title: 日曆和日期範圍概述
-uuid: 3d7727ba-9070-4f7c-815f-c98 baa4 e3 a2 d
+seo-title: 日曆和日期範圍概觀
+title: 日曆和日期範圍概觀
+uuid: 3d7727ba-9070-4f7c-815f-c98ba4e3a2d
 translation-type: tm+mt
-source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 日曆和日期範圍概述
+# 日曆和日期範圍概觀
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 
@@ -22,13 +22,13 @@ source-git-commit: f5f5b294f503911108e1693b7c6cd128bee659c6
 
 ![](assets/aw_calendar.png)
 
-[在YouTube分析工作區中使用日期範圍和日曆](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4：07)
+[在YouTube上的分析工作區中使用日期範圍和日曆](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28) (4:07)
 
 
 | 設定 | 說明 |
 |--- |--- |
-| 選擇的天數 | 選取的日/周/月/年。 |
-| 使用滾動日期 | 滾動日期可讓您根據執行報表的時間，產生向前或向後一段時間的動態報表。例如，如果您想報告「上個月」進行的所有「訂購」(根據「已建立日期」欄 位) 並在 12 月執行該報表，您就會看到在 11 月進行的訂購。如果在 1 月執行該報表，則會看到在 12 月進行的訂購。日期預覽: 指出滾動日曆包含的時間期間。開始: 您可在當日、當週、當月、當季、今年之間做選擇。結束: 您可在當日、當週、當月、當季、今年之間做選擇。For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
+| 選擇的天數 | 選定天／周/月／年。 |
+| 使用滾動日期 | 滾動日期可讓您根據執行報表的時間，產生向前或向後一段時間的動態報表。例如，如果您想要報告下單的所有訂單「上個月」（根據「建立日期」欄位），並在12月執行該報表，您會看到下單的日期是11月。 如果您在1月執行相同的報表，您會看到12月下單的訂單。  日期預覽: 指出滾動日曆包含的時間期間。開始: 您可在當日、當週、當月、當季、今年之間做選擇。結束: 您可在當日、當週、當月、當季、今年之間做選擇。For an example, go [here](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). |
 | 日期範圍 | 可讓您挑選預設日期範圍。「最近 30 天」是預設值。 |
 | 套用到所有面板 | 可讓您不僅變更目前面板的選定日期範圍，也同時變更專案中的所有其他面板。 |
 | 套用 | 僅將日期範圍套用至此面板。 |
