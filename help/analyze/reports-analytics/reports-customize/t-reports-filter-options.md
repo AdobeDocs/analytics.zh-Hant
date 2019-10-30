@@ -1,18 +1,18 @@
 ---
 description: 篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
 seo-description: 篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
-seo-title: 篩選報告資料
+seo-title: 篩選報表資料
 solution: Analytics
-title: 篩選報告資料
-topic: Reports & Analytics
-uuid: b6dcaava7-61f0-4773-870d-e1 d156575 d5 a
+title: 篩選報表資料
+topic: Reports and Analytics
+uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: bf67baa33bc21e71c911d5108ee6044adf634fce
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Filter Report Data {#concept_09DC5B986A644738B12204DAC76A90E1}
+# 篩選報表資料 {#concept_09DC5B986A644738B12204DAC76A90E1}
 
 篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
 
@@ -48,9 +48,7 @@ help:Internal Search Term
 
 如果詞語出現在行項目的任何地方即相符。這個的運作方式和簡單篩選一樣。
 
->[!NOTE]
->
->空格無法用於篩選，因為空格是搜尋中的分隔字元
+> [!NOTE] 空格無法用於篩選器，因為空格是搜尋中的分隔字元
 
 **不包含**
 
@@ -131,7 +129,7 @@ Ocean Blue Jean
 | 進階 (特殊字元) | 說明 |
 |--- |--- |
 | `" "` | 比對完整的字句。 |
-| `*` | 萬用字元是無所不包的比對方式。<br>例如 `r*p` ，符合「註冊註冊」。 |
+| `*` | 萬用字元是無所不包的比對方式。<br>例如，符 `r*p` 合「註冊註冊」。 |
 | `^` | 開始於. <br>請勿在特殊字元與搜尋字句之間加上空格。 |
 | `$` | 終止於. <br>請勿在特殊字元與搜尋字句之間加上空格。 |
 | `-` | 否. <br>請勿在特殊字元與搜尋字句之間加上空格。 |
@@ -157,7 +155,7 @@ t_reports_filter_specific.xml
 1.  在報表標題中，按一下&#x200B;**篩選**&#x200B;連結。
 1. 在[!UICONTROL 篩選選擇器]**頁面上，按一下[!UICONTROL 套用篩選]**，然後選取篩選類型。
 1.  若要搜尋項目，請在&#x200B;**搜尋**&#x200B;欄位中輸入字元字串。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 
 ## 新增關聯篩選器 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
