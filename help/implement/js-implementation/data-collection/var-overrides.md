@@ -1,14 +1,14 @@
 ---
 description: 「變數覆寫」可讓您變更單一追蹤或追蹤連結呼叫的變數值。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 「變數覆寫」可讓您變更單一追蹤或追蹤連結呼叫的變數值。
 seo-title: 變數覆寫
 solution: Analytics
 subtopic: 變數
 title: 變數覆寫
-topic: 開發人員和實施
-uuid: ec09ae8-b9-b9 df-426f-8065-42b4518 e6 f5 f
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 「變數覆寫」可讓您變更單一追蹤或追蹤連結呼叫的變數值。
 
-To override variables, create a new object, assign variable values, and pass this object as the first parameter to `s.t()`, or as the fourth parameter to `s.tl()`:
+若要覆寫變數，請建立新物件、指派變數值，然後將此物件傳入做為 `s.t()` 的第一個參數，或做為 `s.tl()` 的第四個參數:
 
 ```js
 s.eVar1="one"; 
