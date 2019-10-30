@@ -1,19 +1,19 @@
 ---
 description: 您可以將表單元素 (例如選項按鈕與核取方塊項目) 的值擷取到報表中。這有助於您分析線上表單中最熱門的選項。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 您可以將表單元素 (例如選項按鈕與核取方塊項目) 的值擷取到報表中。這有助於您分析線上表單中最熱門的選項。
-seo-title: 從表單元素收集資料
+seo-title: 從表單元素彙集資料
 solution: Analytics
-title: 從表單元素收集資料
-topic: 開發人員和實施
-uuid: e0c13b96-e1 ca-4744-a912-60ca2 b8 f25 c3
-translation-type: tm+mt
+title: 從表單元素彙集資料
+topic: 開發人員和實作
+uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 從表單元素收集資料
+# 從表單元素彙集資料
 
 您可以將表單元素 (例如選項按鈕與核取方塊項目) 的值擷取到報表中。這有助於您分析線上表單中最熱門的選項。
 
@@ -23,11 +23,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 這項資訊適用於報告與實施皆熟稔的進階使用者。若未通盤瞭解，請勿嘗試編輯您的實施。如需進行實施變更，請與組織的客戶經理連絡。
 
-## GET 方法 {#section_7A2B35822BFF4F6EB57940B31AE6303A}
+## GET 方法{#section_7A2B35822BFF4F6EB57940B31AE6303A}
 
 若您的表單使用 [!UICONTROL GET] 方法提交資料，您就可以在表單提交後所進入頁面上的 URL 的查詢字串中存取所需的資料。您可以使用[!UICONTROL getQueryParam] 外掛程式自動從查詢字串中擷取這項資料，並將其放入您所選擇的   變數中。
 
-## POST 方法 {#section_56715C30EF374BA7AA12B946B50E4A9A}
+## POST 方法{#section_56715C30EF374BA7AA12B946B50E4A9A}
 
 若您的表單使用 [!UICONTROL POST] 方法提交資料 (此方式較為常見)，您將可在 [!UICONTROL $_POST superglobal] 中使用每個特定表單元素的結果。若要在變數中擷取這項資料，請確認相關的表單元素名稱。沿用前述的音樂類型範例，相關的表單元素部分如下所示: 
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 <input type="radio" name="music_genre" value="rock">
 ```
 
-此選項按鈕屬於 "music_genre" 表單元素。You then have access to the user's selected value by using $_POST['music_genre']. 在表單提交後所進入的頁面上，可能會將下列項目寫入至變數: 
+此選項按鈕屬於 "music_genre" 表單元素。接著，您可透過使用 $_POST['music_genre'] 存取使用者的選取值。在表單提交後所進入的頁面上，可能會將下列項目寫入至變數: 
 
 ```js
 s.eVar1="<?=$_POST['music_genre'];?>"
