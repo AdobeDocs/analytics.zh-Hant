@@ -5,9 +5,9 @@ seo-title: 地域劃分地區和郵遞區號使用狀況 (依國家區分)
 solution: Analytics
 title: 地域劃分地區和郵遞區號使用狀況 (依國家區分)
 topic: 報表
-uuid: 9dab88f8-cd3 f-481f-955f-2fc48 c006 d
+uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
