@@ -8,7 +8,7 @@ title: 使用可選時間戳記
 topic: 開發人員和實作
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 * 從行動應用程式傳送時間戳記資料至全域報表套裝。
 * 升級應用程式即可使用時間戳記，無需建立新的報表套裝。
 
->[!NOTE]
->
->針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
+> [!NOTE]針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
 
 如需其他的設定資訊，請參閱[可選時間戳記](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html)。
 
@@ -33,7 +31,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 使用可選時間戳記功能，您可以結合非時間戳記資料與時間戳記資料，而不會導致資料遺失。收集自行動裝置的附時間戳記離線資料可與來自網頁的即時非時間戳記資料相結合，或與使用用戶端時間戳記呼叫的平台資料相整合。
 
-* **時間戳記資料**。Client-side timestamp data is captured and sent directly with the device data using client-side timestamp variables: Javascript on a web page, or using a Mobile SDK call ( [!DNL offlineEnabled=true]) in a mobile app.
+* **時間戳記資料**。用戶端時間戳記資料是使用用戶端時間戳記變數 (網頁上的 Javascript) 或使用行動應用程式中的行動 SDK 呼叫 ([!DNL offlineEnabled=true]) 加以擷取，並與裝置資料一起直接傳送。
 * **非時間戳記資料**。當資料點擊收集伺服器時，Adobe 會在報表套裝中的非時間戳記資料上設定時間戳記。
 
 ![](assets/timestamp_v_non2.png)
@@ -52,7 +50,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 |--- |--- |
 | 時間戳記資料無法傳送至非時間戳記全域報表套裝。因此，從離線裝置傳送的點擊資料新增至非時間戳記報表套裝時，會被捨棄。<br/><br/>因此，從離線資料傳送的點擊資料新增至非時間戳記報表套裝時，會被捨棄。 | 將應用程式更新為收集和使用時間戳記，必須要採用新的報表套裝。<br/>將應用程式更新為使用時間戳記時，您無法儲存至現有的報表套裝或整合現有資料。 |
 
-**使用可選時間戳記**，您可以整合來自即時網站的非時間戳記資料與來自行動裝置的離線資料，或將您的非時間戳記應用程式更新為時間戳記應用程式。 ![](assets/timestamp_v_non6.png)
+**透過可選時間戳記**，您可以整合來自即時網站的非時間戳記資料與來自行動裝置的離線資料，或將非時間戳記應用程式更新為時間戳記應用程式。![](assets/timestamp_v_non6.png)
 
 ## 將資料合併至全域報表套裝 {#section_5BE3BDF56007402BB1F5C3144D5FE1E0}
 
@@ -62,7 +60,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 >[!IMPORTANT]
 >
->仔細規劃每個元件資料集的設計，讓組合在全域報表套裝中有意義。
+>請務必謹慎規劃每個元件資料集的設計，以讓全域報表套裝中的組合有意義。
 
 ## 採用時間戳記的最佳實務 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
