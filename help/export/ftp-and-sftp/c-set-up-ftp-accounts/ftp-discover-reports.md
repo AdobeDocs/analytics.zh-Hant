@@ -1,18 +1,18 @@
 ---
 description: 您可設定傳遞排程以自訂傳送報表至電子郵件地址或 FTP 伺服器。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 您可設定傳遞排程以自訂傳送報表至電子郵件地址或 FTP 伺服器。
-seo-title: 臨機分析傳遞的報表
+seo-title: Ad Hoc Analysis 傳遞的報表
 solution: Analytics
-title: 臨機分析傳遞的報表
-uuid: 9a26fb77-9cec-40a3-b994-22692626902
+title: Ad Hoc Analysis 傳遞的報表
+uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 臨機分析傳遞的報表
+# Ad Hoc Analysis 傳遞的報表
 
 您可設定傳遞排程以自訂傳送報表至電子郵件地址或 FTP 伺服器。
 
