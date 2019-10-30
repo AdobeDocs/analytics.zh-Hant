@@ -1,19 +1,19 @@
 ---
 description: 本主題提供常見問題的解答。
 seo-description: 本主題提供常見問題的解答。
-seo-title: Data Sources 常見問題解答
+seo-title: 資料來源常見問題集
 solution: Analytics
 subtopic: 資料來源
-title: 資料來源常見問題解答
-topic: 開發人員和實施
-uuid: 394a627f-093c-400a-bfb3-c2 aa24568 deb
+title: 資料來源常見問題集
+topic: 開發人員和實作
+uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料來源常見問題解答
+# 資料來源常見問題集
 
 本主題提供常見問題的解答。
 
@@ -33,7 +33,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 是。因為許多行銷報表是在日期欄中輸入，資料來源需有日期欄。
 
-## 可以在已經使用的現存 變數中儲存資料嗎? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 當您使用資料來源匯入資料時，Adobe 建議您選擇全新且未使用過的變數。若您不確定資料檔案的設定，或想要深入瞭解重複使用變數的風險，請連絡「客戶服務」。
 
@@ -53,7 +53,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 上傳資料來源資料時，會上傳在報表介面中可使用的量度。
 
-例如，若您上傳您在網站上販賣之產品的「話務中心收入」，將能夠在與「線上收入」相同的報表中取得該「話務中心收入」。但是，您不能將其與「造訪」合併使用，因為您沒有同時上傳「造訪」次數。Adobe 只會報告您透過資料來源上傳的量度和元素 (以及普通行銷報表量度)。
+例如，若您上傳您在網站上販賣之產品的「話務中心收入」，將能夠在與「線上收入」相同的報表中取得該「話務中心收入」。但是，您無法搭配「瀏覽」使用它，因為您沒有上傳「瀏覽」次數。 Adobe 只會報告您透過資料來源上傳的量度和元素 (以及普通行銷報表量度)。
 
 ## 若我透過資料來源將負值傳入報表，會發生什麼事？ {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
@@ -68,7 +68,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 <table id="table_D5408E0BDB984229B4C60A66BB53CEBB"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <code> 日期 </code> </p> </td> 
+   <td colname="col1"> <p> <code> Date </code> </p> </td> 
    <td colname="col2"> <p> <code> Event15 </code> </p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ## 「資料來源」上傳或分類檔案的副檔名區分大小寫嗎？ {#section_710787BA4D8C403D8326D666807832B8}
 
-如果「資料來源」上傳檔案或分類檔案的副檔案為大寫，就不會處理檔案。「資料來源」上傳檔案的副檔案必須為大寫。For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. [!DNL .TAB] 同樣地，也不會加以 [!DNL .FIN] 處理。However, [!DNL .txt] and [!DNL .fin] are processed.
+如果「資料來源」上傳檔案或分類檔案的副檔案為大寫，就不會處理檔案。「資料來源」上傳檔案的副檔案必須為大寫。For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. 但是， [!DNL .txt] 並且 [!DNL .fin] 會處理。
 
 ## 我可以新增其他事件到產生的範本中嗎？或僅限 3 個事件？{#section_F184913926DD43B1872956CED308ADB5}
 
@@ -130,7 +130,7 @@ The number of Unique Visitors in a web-server log is calculated as the different
 
 ## 目前永續存在於「訪客個人資料」中的 eVar 是否會配置到使用資料來源上傳的量度？ {#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-否表示完全處理，是表示交易 ID。「完全處理」資料來源是使用不同的訪客個人資料進行處理，因此，即使訪客 ID 相符，也不會從 eVar 配置的角度將其連接。「交易 ID」資料來源會連接至主要的訪客個人資料，因此永續 eVar 會被配置到使用交易 ID 上傳的事件。
+否表示完全處理，是表示交易 ID。完全處理的資料來源是使用個別的訪客描述檔來處理，因此即使訪客ID符合，也不會從eVar配置角度將它們系結在一起。 「交易 ID」資料來源會連接至主要的訪客個人資料，因此永續 eVar 會被配置到使用交易 ID 上傳的事件。
 
 ## 使用資料來源上傳的 eVar 會持續到之後的線上行為嗎？ {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
