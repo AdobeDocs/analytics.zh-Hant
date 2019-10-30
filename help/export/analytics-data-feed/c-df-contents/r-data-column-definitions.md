@@ -1,13 +1,13 @@
 ---
 description: 本區段可用來選取摘要中應包含哪些資料欄，以及在提交之前該如何處理和包裝摘要資料。
-keywords: 資料饋送；資料；欄；定義；選取欄範本；點按流；可用欄；包含的欄；壓縮格式；包裝類型；包含資料資訊清單；移除逸出的字元；下載csv
+keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
 seo-description: 本區段可用來選取摘要中應包含哪些資料欄，以及在提交之前該如何處理和包裝摘要資料。
 seo-title: 資料欄定義
 solution: Analytics
 title: 資料欄定義
-uuid: 4337093-3dd9-48f0-a1 be-3d10 d38 a0 edb
+uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,7 +43,5 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
 
 「下載 CSV」選項可讓您下載目前的資料欄定義。
 
->[!NOTE]
->
->只有在至少一欄新增至「包含的欄」清單後，才可使用此選項。
+> [!NOTE] 此選項僅在至少將一列添加到「包含的列」清單後才可用。
 
