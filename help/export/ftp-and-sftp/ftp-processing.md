@@ -1,18 +1,18 @@
 ---
 description: 任何 FTP 檔案 (包括分類或資料來源) 的處理時間取決於處理佇列中的檔案數，以及檔案大小。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 任何 FTP 檔案 (包括分類或資料來源) 的處理時間取決於處理佇列中的檔案數，以及檔案大小。
-seo-title: FTP處理時間
+seo-title: FTP 處理時間
 solution: Analytics
-title: FTP處理時間
+title: FTP 處理時間
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# FTP處理時間
+# FTP 處理時間
 
 任何 FTP 檔案 (包括分類或資料來源) 的處理時間取決於處理佇列中的檔案數，以及檔案大小。
 
