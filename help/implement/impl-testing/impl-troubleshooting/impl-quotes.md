@@ -1,14 +1,14 @@
 ---
 description: 將值輸入變數中時，有幾個最佳實務準則可供依循。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 將值輸入變數中時，有幾個最佳實務準則可供依循。
 seo-title: 使用引號
 solution: Analytics
 subtopic: 疑難排解
 title: 使用引號
-topic: 開發人員和實施
-uuid: 9f09c48b-7ae5-441e-8635-fd6 bdc2 e94 c
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 9f09c48b-7ae5-441e-8635-fd6bdc2e94c7
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
