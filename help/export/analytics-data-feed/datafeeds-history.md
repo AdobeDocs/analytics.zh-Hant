@@ -2,25 +2,25 @@
 description: Analytics資料饋送的累積發行說明。
 keywords: 資料饋送
 seo-description: Analytics資料饋送的累積發行說明。
-seo-title: 資料饋送發行說明
+seo-title: 資料摘要發行說明
 solution: Analytics
 subtopic: 資料饋送
-title: 資料饋送發行說明
-topic: Reports & Analytics
-uuid: 4b2b2165-d8 b3-4dc0-98a8-0121de7 e26 a3
+title: 資料摘要發行說明
+topic: Reports and Analytics
+uuid: 4b2b2165-d8b3-4dc0-98a8-0121de7e26a3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料饋送發行說明
+# 資料摘要發行說明
 
 Analytics資料饋送的累積發行說明。
 
 ## July, 2018 {#section_7C60C222EAF740B9B3D842E7832629CB}
 
-完整更新及重新編寫資料欄參考。
+完成資料欄參考的更新和重寫。
 
 ## 2017 年 1 月 19 日 - 新使用者介面和服務名稱 {#section_1CD29EF425AE40A4896DFA097E9E3A62}
 
