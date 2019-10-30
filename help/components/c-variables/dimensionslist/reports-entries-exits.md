@@ -5,9 +5,9 @@ seo-title: 登入與退出
 solution: Analytics
 title: 登入與退出
 topic: 報表
-uuid: 756de55b-136b-427b-a80 c-f822260131 b
+uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 # 登入與退出
 
 >[!NOTE]
->對於產品變數中具有多個值的點擊，「登入點與退出點」會套用至點擊中的所有產品值，而非僅限第一個值。
+>對於產品變數中具有多個值的點擊，「登入與退出」會套用至點擊中的所有產品值，而非僅套用至第一個值。
 
 「登入頁面」報表以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。
 
