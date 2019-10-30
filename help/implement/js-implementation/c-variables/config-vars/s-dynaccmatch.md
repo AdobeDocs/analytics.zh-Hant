@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: b38ba4222951d957c607cd764224028527835c7e
 
  變數會使用 DOM 物件來擷取套用了 中所有規則的 URL 區段。
 
-This variable is only valid when *`dynamicAccountSelection`* is set to 'True.' 由於預設值為 [!DNL window.location.host]，因此這個變數並非[!UICONTROL 動態帳戶選項]運作所需的必要項目。For additional information, see [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+此變數只有在 *`dynamicAccountSelection`* 設為「True」時有效。由於預設值為 [!DNL window.location.host]，因此這個變數並非[!UICONTROL 動態帳戶選項]運作所需的必要項目。如需其他資訊，請參閱 [dynamicAccountList](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
 
-The rules found in  are applied to the value of . `dynamicAccountList``dynamicAccountMatch`If  only contains  (default), the rules in  apply only to the domain of the page.`dynamicAccountMatch`[!DNL window.location.host]`dynamicAccountList`
+`dynamicAccountList` 中找到的規則會套用到 `dynamicAccountMatch` 的值。如果 `dynamicAccountMatch` 僅包含 [!DNL window.location.host] (預設)，則 `dynamicAccountList` 中的規則僅能套用到頁面的網域。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
@@ -24,7 +24,7 @@ The rules found in  are applied to the value of . `dynamicAccountList``dynamicAc
 
 ## 語法和可能的值
 
- 此`dynamicAccountMatch` 變數通常會由負責提供「JavaScript 適用的 AppMeasurement」檔案的 Adobe 顧問填入。但下方所列的值隨時都可套用。
+`dynamicAccountMatch` 變數通常會由負責提供 JavaScript 適用的 AppMeasurement 檔案的 Adobe 顧問填入。但下方所列的值隨時都可套用。
 
 ```js
 s.dynamicAccountMatch=[DOM object]
@@ -55,8 +55,8 @@ s.dynamicAccountMatch=window.location.host+window.location.pathname
 
 ## 缺陷、問題和提示
 
-* 動態帳戶選擇不受下列項目支援: [JavaScript 適用的 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html).
+* [適用於 JavaScript 的 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)不支援動態帳戶選項。
 
-* When pages are saved to a hard drive, [!DNL window.location.host] is empty, causing those page views to be sent to the default report suite (in `s_account`).
+* 當頁面儲存至硬碟時，[!DNL window.location.host] 會是空的，而使這些頁面檢視傳送至預設報表套裝 (在 `s_account` 中)。
 
 * 在透過網頁型翻譯引擎 (例如 Google) 翻譯頁面時，[!UICONTROL 「動態帳戶選項」]無法如預期運作。如需更精確的追蹤，請在伺服器端填入 [!UICONTROL s_account] 變數。
