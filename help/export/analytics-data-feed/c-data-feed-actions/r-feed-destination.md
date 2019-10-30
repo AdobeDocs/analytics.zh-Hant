@@ -1,13 +1,13 @@
 ---
 description: 「摘要目的地」區段定義摘要的散布方式。
-keywords: 資料饋送；摘要；目的地；sftp；s3；ftp；設定
+keywords: 資料饋送；feed;destination;sftp;s3;ftp;settings
 seo-description: 「摘要目的地」區段定義摘要的散布方式。
 seo-title: 摘要目的地
 solution: Analytics
 title: 摘要目的地
-uuid: 4a59e8de-e7 a6-4f7 a-bc42-db7 d59 e61 b4 c
+uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 主機 </p> </td> 
-   <td colname="col2"> <p>指定 FTP 或 SFTP 主機位置。 </p> <p>值必須符合適當的 ftp/sftp 格式:·<code>ftp.domain.com/subdomain</code> 或 <code>sftp.domain.com/subdomain</code>。 </p> <p> 須使用 FTP 和 sFTP 的標準連接埠 21 和 22。 </p> </td> 
+   <td colname="col2"> <p>指定 FTP 或 SFTP 主機位置。 </p> <p>This value must comply to the proper ftp/sftp format, <code> ftp.domain.com/subdomain</code> or <code> sftp.domain.com/subdomain</code>. </p> <p> 須使用 FTP 和 sFTP 的標準連接埠 21 和 22。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>密碼 </p> <p>確認密碼 </p> </td> 
