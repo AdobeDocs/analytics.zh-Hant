@@ -8,7 +8,7 @@ title: 組織/共用概觀
 topic: Reports and Analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]**).
 
-1. [Create and save a project, then click Share &gt; Curate Project Data.](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)********
+1. [建立並儲存專案](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) ，然後按一下「 **[!UICONTROL 共用]** &gt;組 **[!UICONTROL 織專案資料」]**。
 1. 從左側的可拖曳元件堆疊中，將要共用的元件拖曳至&#x200B;**[!UICONTROL 「已組織元件」]欄位。**
 
    ![](assets/curated-components.png)
@@ -51,7 +51,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    ![](assets/share_component.png)
 
 1. 新增收件者。
-1. (選用) 您可以與所有收件者共用內嵌的專案元件 (區段、計算量度、日期範圍)。共用後，這些元件會出現在收件者「工作區」的元件下拉式清單中。
+1. (選用) 您可以與所有收件者共用內嵌的專案元件 (區段、計算量度、日期範圍)。共用後，這些元件會顯示在收件者工作區的元件下拉式清單中。
 
    >[!IMPORTANT]
    >
