@@ -1,14 +1,14 @@
 ---
 description: Analytics 會將每個唯一的有效訪客 ID 計為獨特訪客。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: Analytics 會將每個唯一的有效訪客 ID 計為獨特訪客。
 seo-title: 訪客
 solution: Analytics
 subtopic: 訪客
 title: 訪客
-topic: 開發人員和實施
-uuid: 16cfdb64-a3 c6-4056-97da-327cddf1 cd
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
+translation-type: ht
 source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: 67cc404c4502b1b7be3f089538d8a28d5cf7f659
 
 >[!IMPORTANT]
 >
->不再建議這種識別跨裝置訪客的方法。Please refer to the [Adobe Experience Cloud Device Co-op Documentation](https://marketing.adobe.com/resources/help/en_US/mcdc/).
+>不建議您繼續使用這種跨裝置識別訪客的方法。詳情請參閱[Adobe Experience Cloud Device Co-op 文件](https://marketing.adobe.com/resources/help/zh_TW/mcdc/)。
 
 Analytics 會將每個唯一的有效訪客 ID 計為獨特訪客。
 
-If you look at the [previous table](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA), this occurred 3 times: at hits 1, 9, and 10. 之所以會如此，是因為這兩個伺服器呼叫的有效[!UICONTROL 訪客 ID] 是相同的，即使訪客相隔了數小時，且使用的是不同的裝置，仍是如此。
+如果您查看[上表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)，則會發現這已發生 3 次: 在點擊 1、9 和 10。之所以會如此，是因為這兩個伺服器呼叫的有效[!UICONTROL 訪客 ID] 是相同的，即使訪客相隔了數小時，且使用的是不同的裝置，仍是如此。
 
 這在跨裝置訪客身分識別啟用時，可能會增加獨特訪客的數目。訪客的同一次瀏覽可能會計數兩次: 一次是初次瀏覽時，另一次是使用者完成驗證時。
 
