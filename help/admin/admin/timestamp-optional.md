@@ -7,7 +7,7 @@ title: 可選時間戳記
 topic: 管理工具
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 >
 >If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. 這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
->[!NOTE]
->
->啟動時間戳記的作業資料最多可保留 92 日。這表示瀏覽／工作階段將「持續開啟」92天，而任何額外點擊(在上次點擊後30分鐘（在點擊時間）內)仍可包含在同一次瀏覽／工作階段中。 任何未依序收到的「舊」點擊都會產生「未知」的結果，因為有許多因素（分段、分配、過期等）影響這些點擊是否會納入報告中。
+> [!NOTE]啟動時間戳記的作業資料最多可保留 92 日。這表示瀏覽／工作階段將「持續開啟」92天，而任何額外點擊(在上次點擊後30分鐘（在點擊時間）內)仍可包含在同一次瀏覽／工作階段中。 任何未依序收到的「舊」點擊都會產生「未知」的結果，因為有許多因素（分段、分配、過期等）影響這些點擊是否會包含在報表中。
 
 ## 新的報表套裝 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -50,7 +48,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
    這會將您的報表套裝變更為「可選時間戳記」。
 
->[!NOTE]
->
->If a report suite was set to **Timestamps Optional**, to change this to any other setting, please contact Adobe Client Care.
+> [!NOTE] 如果報表套裝設為「可選 **時間戳記」**，若要將此變更為任何其他設定，請連絡Adobe客戶服務。
 
