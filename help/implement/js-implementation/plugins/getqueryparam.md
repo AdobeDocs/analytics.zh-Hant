@@ -8,8 +8,8 @@ subtopic: 外掛程式
 title: getQueryParam
 topic: 開發人員和實作
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼中安裝此外掛程式後，您即可選取要使用在查詢字串中找到的資料填入的 [!DNL Analytics] 變數，並指定所要擷取的查詢字串值，來設定外掛程式。外掛程式會偵測指定的查詢字串，若偵測到，即會以其值填入選擇的變數中。若沒有找到該值的查詢字串參數，則會返回空字串。若有查詢字串參數存在，但沒有值 (例如 `?param1&param2=value` 中的 param1)，則會傳回 *`true`* 這個字。
 
->[!NOTE]
->
->您必須在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼中安裝此外掛程式的基礎程式碼，下列範例才能運作。
+> [!NOTE]您必須在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼中安裝此外掛程式的基礎程式碼，下列範例才能運作。
 
 如果您想要使用 *`s.campaign`* 擷取可用的促銷活動追蹤程式碼，做為 *`cid`* 查詢參數的值，請在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼的 *`doPlugins()`* 函數中輸入下列內容:
 
@@ -34,9 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 在此範例中，若使用者進入您的網站時的登陸頁面 URL 為 [!DNL https://www.yoursite.com/index.html?cid=123456]，則 *`s.campaign`* 會收到 *123456* 的值。這可以用 [!DNL DigitalPulse] 偵錯器來檢視，其中應會將 *v0=123456* 顯示為影像要求的一部分。
 
->[!NOTE]
->
->參數 *`cid`* 與其他項目僅供範例說明之用。您可以將其替換為您的網站上任何現有的查詢字串參數。
+> [!NOTE]參數 *`cid`* 與其他項目僅供範例說明之用。您可以將其替換為您的網站上任何現有的查詢字串參數。
 
 此&#x200B;*`getQueryParam`*&#x200B;外掛程式還有兩個引數 (選項) 可用來將資料擷取到 Analytics 變數中: 
 
@@ -74,9 +70,7 @@ s.campaign=s.getQueryParam('cid');
 
 使用頁框與 *f* 參數時，建議您使用 getValOnce 外掛程式，以防止在每次進行頁面檢視時都傳送促銷活動追蹤程式碼。*`getValOnce`*&#x200B;外掛程式，以防止在每次進行頁面檢視時都傳送促銷活動追蹤程式碼。
 
->[!NOTE]
->
->下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 **外掛程式程式碼**
 
