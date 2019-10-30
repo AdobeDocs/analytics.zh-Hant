@@ -8,7 +8,7 @@ title: PhoneGap
 topic: 開發人員和實作
 uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 PhoneGap 的累積發行說明。
 
-If you are building apps with [!DNL PhoneGap], you can use [!DNL AppMeasurement] libraries for [!DNL iOS] or [!DNL Android] to measure the app. 請參閱[適用於 Adobe Analytics 的 PhoneGap iOS 和 Android 外掛程式](https://marketing.adobe.com/developer/gallery/beta-phonegap-ios-and-android-plug-ins-for-sitecatalyst)。
+如果您使用 [!DNL PhoneGap] 建置應用程式，即可使用 [!DNL iOS] 或 [!DNL Android] 適用的 [!DNL AppMeasurement] 程式庫來測量應用程式。請參閱[適用於 Adobe Analytics 的 PhoneGap iOS 和 Android 外掛程式](https://marketing.adobe.com/developer/gallery/beta-phonegap-ios-and-android-plug-ins-for-sitecatalyst)。
 
 [iOS 文件](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/phonegap.html)。
 
