@@ -1,12 +1,12 @@
 ---
 description: 關於自動配置 Adobe Analytics 部署的常見問題。自動配置方法可為您管理 AppMeasurement 代碼。
-keywords: 動態標籤管理；plugins;staging；對當前設定的影響；修訂歷史記錄；潛在缺陷；報表套裝ID；貨幣代碼；跟蹤伺服器；ssl跟蹤伺服器；自定義代碼；庫管理
+keywords: Dynamic Tag Management;增效模組;測試;目前設定生效;修訂歷史記錄;可能的易犯錯誤;報表套裝 ID;貨幣代碼;追蹤伺服器;SSL 追蹤伺服器;自訂程式碼;程式庫管理
 seo-description: 關於自動配置 Adobe Analytics 部署的常見問題。自動配置方法可為您管理 AppMeasurement 代碼。
 seo-title: Adobe Analytics 工具常見問題集
-solution: Experience Cloud,Analytics,Target，動態標籤管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 工具常見問題集
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Adobe Analytics 工具常見問題集
 
-關於自動配置 Adobe Analytics 部署的常見問題。The automatic configuration method manages the [!DNL AppMeasurement] code for you.
+關於自動配置 Adobe Analytics 部署的常見問題。自動配置方法可為您管理 [!DNL AppMeasurement] 程式碼。
 
 <table id="table_A50D00E2C47A473B92DA800FB08FE640"> 
  <thead> 
@@ -26,7 +26,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 透過 DTM 實作 Adobe Analytics 時，應該將外掛程式放在何處? </p> </td> 
-   <td colname="col2"> <p> 如果使用 DTM 來手動託管 <code>s_code</code>，則可在與託管 <code>s_code</code> 相同的編輯器中新增外掛程式，正如同在一般的 Adobe Analytics 實作中一樣。 </p> <p>不過，您也可以選擇將外掛程式置於工具設定的「自訂頁面程式碼」區 <span class="term"> 段內的編輯器中</span> 。 這兩個實作方法的作用應該是相同的。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 來手動託管 <code>s_code</code>，則可在與託管 <code>s_code</code> 相同的編輯器中新增外掛程式，正如同在一般的 Adobe Analytics 實作中一樣。 </p> <p>不過，您也可以選擇將外掛程式放入工具設定之<span class="term">自訂頁面程式碼</span>區段的編輯器中。這兩個實作方法的作用應該是相同的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果在新版本工具中進行配置變更，可以先在測試環境中進行測試再發佈到生產環境嗎? </p> </td> 
@@ -38,7 +38,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我從手動程式庫管理切換為由 Adobe 管理，目前的設定或代碼會不會受到影響? </p> </td> 
-   <td colname="col2"> <p>您指定的任何使用者代碼會由基礎 <span class="keyword">AppMeasurement</span> 程式庫加以覆寫。您必須將此代碼移至工具配置結尾的新<span class="wintitle">自訂頁面代碼</span>區段，讓代碼可繼續執行。此方法可讓 <span class="keyword">AppMeasurement</span> 程式庫與使用者的自訂代碼分開進行管理 (和升級)。 </p> </td> 
+   <td colname="col2"> <p>您指定的任何使用者代碼會由基礎 <span class="keyword">AppMeasurement</span> 程式庫加以覆寫。您必須將此代碼移至工具配置結尾的新<span class="wintitle">自訂頁面程式碼</span>區段，讓代碼可繼續執行。此方法可讓 <span class="keyword">AppMeasurement</span> 程式庫與使用者的自訂代碼分開進行管理 (和升級)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>發行新整合時，是否會保留 <span class="keyword">Adobe Analytics</span> 工具的修訂歷史記錄? </p> </td> 
@@ -47,7 +47,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  </tbody> 
 </table>
 
-See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8) for configuration information.
+如需設定資訊，請參閱[新增 Adobe Analytics 工具](../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8)。
 
 ## 潛在的陷阱 {#section_201BF9E0EB7D4BC2B72A617543C2030B}
 
@@ -58,5 +58,5 @@ See [Add Adobe Analytics Tool](../../../implement/c-implement-with-dtm/c-aa-tool
 * 已在工具中正確輸入報表套裝 ID。
 * 工具中的報表套裝 ID 符合 [!DNL AppMeasurement] 代碼中的 ID。
 * 貨幣代碼、字元集、追蹤伺服器和 SSL 追蹤伺服器配置欄位均以支援的值正確設定。
-* 自訂代碼定義於 [!DNL Library Management]。
+* 自訂程式碼是在 [!DNL Library Management] 中定義。
 
