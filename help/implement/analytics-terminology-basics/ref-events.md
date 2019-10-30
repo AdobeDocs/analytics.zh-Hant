@@ -7,8 +7,8 @@ solution: Analytics
 title: 事件
 topic: 開發人員和實作
 uuid: d2edd432-60bc-4426-9967-153b713147a1
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如需詳細資訊，請參閱[設定成功事件](/help/admin/admin/c-success-events/t-success-events.md)。
 
-如需成功事件的詳細說明，請參閱 [Analytics 說明和參考](https://marketing.adobe.com/resources/help/zh_TW/reference/success_event.html)。
+如需成功事件的詳細說明，請參閱 [Analytics 說明與參考](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
