@@ -1,23 +1,23 @@
 ---
 description: 資料來源類別可識別具有類似功能的不同資料來源類型。
 seo-description: 資料來源類別可識別具有類似功能的不同資料來源類型。
-seo-title: 資料類型和類別簡介
+seo-title: 資料類型和類別的概觀
 solution: Analytics
 subtopic: 資料來源
-title: 資料類型和類別簡介
-topic: 開發人員和實施
-uuid: b5004cdc-b68 a-4a82-a152-a157-a7 bfe21
+title: 資料類型和類別的概觀
+topic: 開發人員和實作
+uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料類型和類別簡介
+# 資料類型和類別的概觀
 
 資料來源類別可識別具有類似功能的不同資料來源類型。
 
-類別是以使用者的觀點將資料來源分門別類。透過資料來源使用者介面建立資料來源時，必須先選取資料來源類別和特定資料來源類型。每個類別包含的資料來源類型，皆支援相似類型的資料。資料來源有下列資料來源類別:
+類別提供從使用者角度對資料來源分組的方式。 透過資料來源使用者介面建立資料來源時，必須先選取資料來源類別和特定資料來源類型。每個類別包含的資料來源類型，皆支援相似類型的資料。資料來源有下列資料來源類別:
 
 ## 網站使用 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -36,9 +36,9 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
    <td colname="col3"> <p>多數網站伺服器都會產生可記錄所提供每一個頁面的記錄檔。使用此資料來源，您可以處理來自多數網站伺服器資料的記錄檔，並將此資料加入到您的報表中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising Cloud大量上傳 </p> </td> 
+   <td colname="col1"> <p>Advertising cloud大量上傳 </p> </td> 
    <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0" type="concept" format="dita" scope="local"> 轉換 </a> </p> </td> 
-   <td colname="col3"> <p>在Advertising Cloud中提供手動和Excel自動批量上傳。 </p> </td> 
+   <td colname="col3"> <p>在Advertising cloud中提供手動和Excel自動的大量上傳。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站等級流量資料來源 </p> </td> 
@@ -167,7 +167,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> <p>通用資料來源 (交易 ID) </p> </td> 
-   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> 交易 ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> Visitor ID </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776" type="concept" format="dita" scope="local"> 交易 ID </a> </p> <p> <a href="../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5" type="concept" format="dita" scope="local"> 訪客 ID </a> </p> </td> 
    <td colname="col3"> <p>可讓您連接任何離線事件至線上事件。交易 ID 就是離線與線上事件之間的關鍵。 </p> </td> 
   </tr> 
  </tbody> 
