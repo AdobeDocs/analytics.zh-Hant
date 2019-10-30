@@ -5,9 +5,9 @@ seo-title: 參與率
 solution: Analytics
 title: 參與率
 topic: 量度
-uuid: a7fa791d-0a77-429e-808e-4f97bb9ag fc
+uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-
 * **已停用**: 每個轉換事件的預設狀態。對此事件將不會收集參與率資料。
 * **已啟用**: 對此事件會收集參與率資料。
 
->[!NOTE]
->
->最多可讓您參與100個自訂事件。除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
+> [!NOTE] 您最多可為100個自訂事件啟用參與率。 除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
 
 參與率量度一經啟用後，即自動可供所有轉換報告使用。但參與率量度也可在您的要求下，在特定流量報告中受到檢視。您可以選擇要求讓參與率量度可用於特定的自訂流量報告中。
 
