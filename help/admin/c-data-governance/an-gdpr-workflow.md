@@ -5,7 +5,7 @@ seo-title: Adobe Analytics資料隱私權工作流程
 title: Adobe Analytics資料隱私權工作流程
 uuid: f24e8be3-8b5c-409b-ad6b-770198ae2549
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
