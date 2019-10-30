@@ -2,20 +2,20 @@
 description: 'null'
 keywords: Analysis Workspace
 seo-description: 'null'
-seo-title: 建立專案-總覽
+seo-title: 建立專案 - 概觀
 solution: Analytics
-title: 建立專案-總覽
-topic: Reports & Analytics
-uuid: a68be05d-f31 e-4e6 d-ad04-c784 beedu0 eb00
+title: 建立專案 - 概觀
+topic: Reports and Analytics
+uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 建立專案-總覽
+# 建立專案 - 概觀
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 工作區」]**
+**[!UICONTROL Analytics]** &gt;工作 **[!UICONTROL 區]**
 
 您可以根據任何視覺效果、報表元件以及資料表格的組合，建立強大的 Analytics 專案。它將「Ad Hoc Analysis」的許多表格產生器功能引進 Analytics。
 
@@ -33,7 +33,7 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 | 元素 | 說明 |
 |---|---|
-| 專案[範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
+| 專案 [範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
 | [建立新專案](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | 按一下此連結即可從頭開始建立新的專案。 |
 | 管理專案 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | 觀看教學課程 | 將您導向 [Analysis Workspace YouTube 影片](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
@@ -44,7 +44,7 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 ## 專案資訊和設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL 工作區]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 專案資訊與設定]**
+**[!UICONTROL 工作區]** &gt;專 **[!UICONTROL 案]** &gt;專 **[!UICONTROL 案資訊與設定]**
 
 ![](assets/projectinfo.png)
 
@@ -69,9 +69,7 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 次功能表包含下列選項。
 
->[!NOTE]
->
->Options marked by an asterisk (*) display only with **saved** projects.
+> [!NOTE] 以星號(*)標示的選項只會與儲存的專案一 **起顯** 示。
 
 | 專案 | 編輯 | 插入 | 元件 | 共用 | 說明 |
 |---|---|---|---|---|---|
