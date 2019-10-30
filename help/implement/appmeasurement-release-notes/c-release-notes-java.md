@@ -5,9 +5,9 @@ seo-title: Java
 solution: Analytics
 subtopic: 發行說明
 title: Java
-topic: 開發人員和實施
-uuid: 14d13bc6-984e-4ef4-a1 d5-51326e652868
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 14d13bc6-984e-4ef4-a1d5-51326e652868
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 發行日期: **2017 年 3 月 9 日**
 
-* Added missing variables that are available in [!DNL JavaScript]. (AN-136736)
+* 新增可以在 [!DNL JavaScript] 中取得的遺漏變數。(AN-136736)
 
 ## 版本 1.3 {#section_76EB819BAF0B465C8CA295B9188B87A9}
 
