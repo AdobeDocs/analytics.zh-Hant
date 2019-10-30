@@ -5,10 +5,10 @@ seo-title: 訪客參與有效期
 solution: Analytics
 subtopic: 行銷渠道
 title: 訪客參與有效期
-topic: Reports & Analytics
-uuid: 47f1ccf-3ce7-494d-b456-956a3 a3 c6 c9 a
+topic: Reports and Analytics
+uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 瞭解如何在行銷管道中指定訪客參與有效期。
 
-## Visitor engagement expiration {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
+## 訪客參與有效期 {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 瞭解如何在行銷管道中指定訪客參與有效期。
 
