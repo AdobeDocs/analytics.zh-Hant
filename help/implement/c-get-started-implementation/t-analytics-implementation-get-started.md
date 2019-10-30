@@ -8,8 +8,8 @@ subtopic: Analysis Workspace
 title: 簡化實施模組
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,18 +30,16 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 在此過程中，您可以:
 
-* 快速建立第一個[報表套裝](https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/report-suites.html)。
-* 部署 [!DNL Analytics] 和 [Identity 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)。
+* 快速建立第一個[報表套裝](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。
+* 部署 [!DNL Analytics] 和 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。
 
 * 執行基本頁面層級資料的相關報告。
 
->[!NOTE]
->
->開始之前，請確認[已在 Adobe Experience Cloud 中啟用](https://marketing.adobe.com/resources/help/zh_TW/mcloud/core_services.html) Analytics (解決方案佈建程序)。如果您收到電子郵件，邀請您登入企業控制面板 (Enterprise Dashboard) 中的 Analytics，表示您已完成事前準備。
+> [!NOTE] 開始之前，請先確認Analytics已 [在Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) （解決方案布建程式）中啟用。 如果您收到電子郵件，邀請您登入企業控制面板 (Enterprise Dashboard) 中的 Analytics，表示您已完成事前準備。
 
 **執行簡化的實作模組**
 
-1. 登入 [!DNL Adobe Experience Cloud] ([experiencecloud.adobe.com](https://experiencecloud.adobe.com))。
+1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
 
    存取 [!DNL Analytics] 時，系統會判斷您是否擁有報表套裝。如果沒有，系統會顯示 [!UICONTROL Adobe Analytics 快速入門]頁面。
 
@@ -73,7 +71,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
       </tr> 
       <tr> 
        <td colname="col1"> <p>資料存放庫 (報表套裝) </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/report-suites.html" format="html" scope="external">報表套裝</a>為個別資料組，通常會對應至單一屬性 (網站或應用程式) 或品牌。每個報表套裝均有其專屬報表與量度組。 </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">報表套裝</a>為個別資料組，通常會對應至單一屬性 (網站或應用程式) 或品牌。每個報表套裝均有其專屬報表與量度組。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>時區 </p> </td> 
@@ -110,20 +108,20 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
       </tr> 
       <tr> 
        <td colname="col1"> <p>下載 </p> </td> 
-       <td colname="col2"> <p> 下載名為 <span class="filepath">INSTALL-ME &lt;報表套裝名稱&gt;.js</span> 的安裝檔案。此選項適用於熟悉 <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 實作</a>、經驗豐富的使用者。 </p> <p> <p>重要: 下載程式碼不會部署 <span class="keyword">Analytics</span>。這需要手動部署，您必須在網站頁面上執行，或請利用 Adobe 諮詢服務。 </p> </p> </td> 
+       <td colname="col2"> <p> 下載名為 <span class="filepath">INSTALL-ME &lt;報表套裝名稱&gt;.js</span> 的安裝檔案。此選項適用於熟悉 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 實作</a>、經驗豐富的使用者。 </p> <p> <p>重要: 下載程式碼不會部署 <span class="keyword">Analytics</span>。這需要手動部署，您必須在網站頁面上執行，或請利用 Adobe 諮詢服務。 </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. 執行報告.
 
-   部署 Analytics 工具後，您可以在 Reports &amp; Analytics 中執行報表，確認資訊順利進入您的網站(請參閱[登入並導覽](https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/analytics-navigation.html)以熟悉 Analytics 介面)。
+   部署 Analytics 工具後，您可以在 Reports &amp; Analytics 中執行報表，確認資訊順利進入您的網站(See [Sign in and Navigate](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html) to get familiar with the Analytics interface.)
 
    例如，**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 即時]**&#x200B;可讓您檢視即時資料。
 
    >[!NOTE]
    >
-   >執行[!UICONTROL 即時]報表前必須先完成幾項設定。請參閱[設定即時報表](https://marketing.adobe.com/resources/help/zh_TW/reference/t_realtime_admin.html)。
+   >執行[!UICONTROL 即時]報表前必須先完成幾項設定。請參閱[設定即時報表](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html)。
 
 **即時報表範例**
 
