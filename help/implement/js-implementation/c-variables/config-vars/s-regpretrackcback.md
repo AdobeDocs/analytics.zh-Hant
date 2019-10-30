@@ -5,12 +5,12 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# s.registerPreTrackCallback和s.registerPostTrackCallback
+# s.registerPreTrackCallback 和 s.registerPostTrackCallback
 
 這些函數採用參數的形式: callback (函數) 和該函數的參數。例如:
 
