@@ -5,9 +5,9 @@ seo-title: 新增 Data Warehouse 使用者群組
 solution: Analytics
 title: 新增 Data Warehouse 使用者群組
 topic: Data Warehouse
-uuid: d89294db-ca3-4044-b70 d-65b512 b0 dc1 c
+uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >如果發生衝突(例如指派給兩個群組的使用者)，其中一個拒絕存取某個功能，另一個授予相同存取權，則系統會限制權限。屬於拒絕 Data Warehouse 存取之群組的使用者，可能需從該群組中移除。
+   >如果權限發生衝突（例如指派給兩個群組的使用者，其中一個拒絕存取某個功能，另一個授予相同存取權），系統會限制權限。 屬於拒絕 Data Warehouse 存取之群組的使用者，可能需從該群組中移除。
 
 >[!MORE_LIKE_THIS]
 >
