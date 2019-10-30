@@ -6,8 +6,8 @@ seo-title: Adobe Analytics 工具常見問題集
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 工具常見問題集
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 透過 DTM 實作 Adobe Analytics 時，應該將外掛程式放在何處? </p> </td> 
-   <td colname="col2"> <p> 如果使用 DTM 來手動託管 <code>s_code</code>，則可在與託管 <code>s_code</code> 相同的編輯器中新增外掛程式，正如同在一般的 Adobe Analytics 實作中一樣。 </p> <p>不過，您也可以選擇將外掛程式放入工具設定之<span class="term">自訂頁面程式碼</span>區段的編輯器中。這兩個實作方法的作用應該是相同的。 </p> </td> 
+   <td colname="col2"> <p> 如果使用 DTM 來手動託管 <code> s_code</code>，則可在與託管 <code> s_code</code> 相同的編輯器中新增外掛程式，正如同在一般的 Adobe Analytics 實作中一樣。 </p> <p>不過，您也可以選擇將外掛程式放入工具設定之<span class="term">自訂頁面程式碼</span>區段的編輯器中。這兩個實作方法的作用應該是相同的。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果在新版本工具中進行配置變更，可以先在測試環境中進行測試再發佈到生產環境嗎? </p> </td> 
-   <td colname="col2"> <p>可以。 </p> <p>所有變更均可在測試環境中加以測試，如同您一般會在部署至生產環境之前所進行一般。如果因為您注意到測試中的問題而選擇不要發佈，生產代碼將會如發行新整合之前般繼續運作。 </p> </td> 
+   <td colname="col2"> <p>是。 </p> <p>所有變更均可在測試環境中加以測試，如同您一般會在部署至生產環境之前所進行一般。如果因為您注意到測試中的問題而選擇不要發佈，生產代碼將會如發行新整合之前般繼續運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我從手動配置 (現有工具的預設設定) 切換為自動配置，目前的設定會不會受到影響? </p> </td> 
