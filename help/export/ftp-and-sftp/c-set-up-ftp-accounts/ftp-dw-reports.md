@@ -1,18 +1,18 @@
 ---
 description: 「資料倉儲」讓您可以請求報表依據您的特定問題，從原始資料顯示進階資料關係。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 「資料倉儲」讓您可以請求報表依據您的特定問題，從原始資料顯示進階資料關係。
-seo-title: 資料倉庫傳送的報表
+seo-title: Data Warehouse 傳遞的報表
 solution: Analytics
-title: 資料倉庫傳送的報表
-uuid: 7a26e6f7-51a1-45fb-b53 e-9c49 c49 aa6
+title: Data Warehouse 傳遞的報表
+uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料倉庫傳送的報表
+# Data Warehouse 傳遞的報表
 
 「資料倉儲」讓您可以請求報表依據您的特定問題，從原始資料顯示進階資料關係。
 
