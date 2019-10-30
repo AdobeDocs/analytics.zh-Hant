@@ -6,7 +6,7 @@ solution: Analytics
 title: 隱私權報告變數
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
