@@ -5,7 +5,7 @@ seo-title: 建立量度
 title: 建立量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -112,7 +112,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
   </tr> 
   <tr> 
    <td colname="col2"> <p>維度清單 </p> </td> 
-   <td colname="col3"> <p>您可以拖入「頁面」並直接從計算量度產生器選取「首頁」，無須為了在區段產生器中建立簡易區段 (例如「頁面 = 首頁」) 而離開計算量度產生器。 </p> <p>如此將可讓工作流程更為流暢，方便建立區段計算量度。 </p> </td> 
+   <td colname="col3"> <p>而不是離開計算量度產生器以建立簡單區段（在區段產生器中），例如「頁面=首頁」，您可以拖曳至「頁面」，並直接從計算量度產生器選取「首頁」。 </p> <p>如此將可讓工作流程更為流暢，方便建立區段計算量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>量度清單 </p> </td> 
