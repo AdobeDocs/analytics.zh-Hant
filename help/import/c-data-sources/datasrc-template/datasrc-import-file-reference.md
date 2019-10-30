@@ -5,10 +5,10 @@ seo-title: 匯入檔案參考
 solution: Analytics
 subtopic: 資料來源
 title: 匯入檔案參考
-topic: 開發人員和實施
-uuid: cc58f8d8-cb6 e-4908-846f-0a41 c6 da805 d
+topic: 開發人員和實作
+uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,9 +28,9 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **日期**: (必要) 檔案中每一列資料的時間戳記。
 
-**變數**: 映射到資料來源之資料維度的報表變數名稱。
+**變數**:映射到資料來源資料維度的報表變數名稱。
 
-**事件**: 映射到資料來源之量度的 事件名稱。
+**事件**:映射至資料來源量度的事件名稱。
 
 使用資料來源範本建立資料來源檔案，用以包含您要上傳的資料。建立資料來源檔案時，記住下列原則:
 
@@ -63,6 +63,6 @@ source-git-commit: cce2c1c54f21244f856385aeaad811d89f2fda7f
 
 **.FIN 檔案**
 
-完成「資料來源」檔案的填寫後，您可以將其FTP至Analytics中。但是，還需要其他檔案，系統才能處理您的資料。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+當您填寫完「資料來源」檔案後，可將它FTP傳入Analytics。 但是，還需要其他檔案，系統才能處理您的資料。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
 
 For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
