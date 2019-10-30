@@ -1,53 +1,52 @@
 ---
 description: 有多種方式可實施 Adobe Analytics。
-keywords: Analytics實作；實施方法；動態標籤管理；dtm；javascript
+keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;JavaScript
 seo-description: 有多種方式可實施 Adobe Analytics。
-seo-title: 選擇實施方法
+seo-title: 選擇實作方法
 solution: Analytics
-title: 選擇實施方法
-topic: 開發人員和實施
-uuid: 20d3317f-7c63-4421-93e0-fff60 dbd9 f87
-translation-type: tm+mt
+title: 選擇實作方法
+topic: 開發人員和實作
+uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
+translation-type: ht
 source-git-commit: b1e69abd65f171b804e7f56031e594890bbd27bb
 
 ---
 
 
-# 選擇實施方法
+# 選擇實作方法
 
 有多種方式可實施 Adobe Analytics。
 
-* [!UICONTROL Adobe Experience Platform Launch] (建議)
+* [!UICONTROL Adobe Experience Platform Launch] (建議使用)
 * [!UICONTROL Dynamic Tag Management]
 * JavaScript
 
-## [!UICONTROL Adobe Experience Platform Launch]{#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
+## [!UICONTROL Adobe Experience Platform Launch] {#section_AEEA6AFE2C8D4182BC778F08EA171DC8}
 
-[!UICONTROL Experience Platform Launch] 是Adobe新一代的網站標籤和行動SDK管理功能。[!UICONTROL Experience Platform Launch] 提供您簡單的方式，來部署和管理所有必要的分析、行銷和廣告整合，以提供強大的客戶體驗。
+[!UICONTROL Experience Platform Launch] 是 Adobe 推出的下一代網頁標籤與行動 SDK 管理功能。[!UICONTROL Experience Platform Launch] 可讓您透過簡單的方式部署及管理所有必要的分析、行銷及廣告整合功能，以便支援相關客戶體驗。
 
-[!UICONTROL Experience Platform Launch] 可讓任何人建立並維護自己的整合，稱為 [!DNL Experience Platform Launch]擴充功能。These extensions are available to web and mobile [!UICONTROL Experience Platform Launch] customers in an app-store experience, so customers can quickly install, configure, and deploy their integrations.
+[!UICONTROL Experience Platform Launch] 可供任何使用者建置和維護自己本身與 [!DNL Experience Platform Launch] 的整合 (也稱為擴充功能)。這些擴充功能可為使用網頁版和行動版的  [!UICONTROL Experience Platform Launch] 客戶提供應用程式商店的使用體驗，讓客戶能快速安裝、設定和部署自己的整合。
 
-For more information, see [Getting Started with Experience Platform Launch](https://docs.adobelaunch.com/getting-started).
+如需詳細資訊，請參閱 [Experience Platform Launch 快速入門](https://docs.adobelaunch.com/getting-started)。
 
 ## [!UICONTROL Dynamic Tag Management] {#section_22E3F3F928894A6A8D77E6953E6CA51C}
 
-[!UICONTROL 動態標籤管理] 會自動化實施所需的詳細資料工作 [!DNL Analytics]。Enter the required information in a form-based interface, and [!DNL Dynamic Tag Management] generates the code you need to add to your pages.
-對JavaScript熟悉，並瞭解基本Analytics術語，例如
+[!UICONTROL Dynamic Tag Management] 會自動執行實作 [!DNL Analytics] 所需的大部分瑣碎工作。在表單式介面中輸入必填資訊，[!DNL Dynamic Tag Management] 便會產生所需的程式碼，以新增至頁面。熟悉 JavaScript 以及瞭解 Analytics 基本術語會很有幫助，例如
 
-* [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) 是什麼及其運作方式
-* 何時使用 [自訂事件](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)
+* 什麼是 [eVar](https://marketing.adobe.com/resources/help/zh_TW/reference/conversion_var_admin.html) 及其運作方式
+* [自訂事件](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)的使用時機
 
-如需有關存取動態標籤管理與執行的資訊，請參閱動態標籤管理產品文件的[快速入門](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)。
+如需存取 Dynamic Tag Management 以及快速上手的相關資訊，請參閱 Dynamic Tag Management 產品文件中的[快速入門](https://marketing.adobe.com/resources/help/zh_TW/dtm/get_started.html)。
 
-如需詳細資訊，請參閱[使用動態標籤管理實施Analytics](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)。
+如需詳細資訊，請參閱[使用 Dynamic Tag Management 實作 Analytics](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)。
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
-JavaScript 實施方法需要您手動在頁面上設定 JavaScript 程式碼。如果您使用Experience Platform Launch或「動態標籤管理」實施方法，就可以簡化這項工作。不過，部分使用者可能需要 JavaScript 方法。
+JavaScript 實施方法需要您手動在頁面上設定 JavaScript 程式碼。如果您使用 Expereience Platform Launch 或 Dynamic Tag Management 實施方法，可將此工作的絕大部分加以簡化。不過，部分使用者可能需要 JavaScript 方法。
 
 JavaScript 實施需要:
 
 * 高強的 JavaScript 技能
 * 對 Analytics 概念與術語有深厚瞭解
 
-如需詳細資訊，請參閱[使用JavaScript實施Analytics](../../implement/js-implementation/javascript-implementation-overview.md)。
+如需詳細資訊，請參閱[使用 JavaScript 實作 Analytics](../../implement/js-implementation/javascript-implementation-overview.md)。
