@@ -1,14 +1,14 @@
 ---
 description: Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurment 支援的變數。
-keywords: Analytics實作；appmeasurement變數
+keywords: Analytics 實施;AppMeasurement 變數
 seo-description: Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurment 支援的變數。
 seo-title: 變數概觀
 solution: Analytics
 subtopic: 變數
 title: 變數概觀
-topic: 開發人員和實施
-uuid: 067d0135-572a-4a44-af9 e-445d3 c4 e9271
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
+translation-type: ht
 source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 ---
@@ -16,16 +16,16 @@ source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
 
 # 變數概觀
 
-Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出AppMeasurement支援的變數。
+Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurement 支援的變數。
 
-For more information on Page Variables, go [here](/help/implement/js-implementation/c-variables/page-variables.md).
-For more information on Configuration Variables, go [here](/help/implement/js-implementation/c-variables/configuration-variables.md).
+如需頁面變數的相關詳細資訊，請前往[這裡](/help/implement/js-implementation/c-variables/page-variables.md)。
+如需設定變數的相關詳細資訊，請前往[這裡](/help/implement/js-implementation/c-variables/configuration-variables.md)。
 
 ## 如何設定變數 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
 
-AppMeasurement requires that all configuration variables be set before the initial call to the track function, *`t()`*. If configuration variables are set after the call to *`t()`*, unexpected results may occur.
+AppMeasurement 要求所有設定變數都須於初始呼叫追蹤函數 *`t()`* 前完成設定。如果設定變數是在呼叫 *`t()`* 後設定，可能會發生未預期的結果。
 
-Configuration variables are set inside the *`doPlugins`* function, which is called during the execution of the track function. The specific configuration variable causing this issue is *`trackInlineStats`*, which enables ClickMap data collection. 此會使 ClickMap 模組處於未判斷狀態，並導致第一個追蹤呼叫附加「未定義」字串至 Adobe Analytics 信標，並影響貨幣代碼。
+設定變數是在 *`doPlugins`* 函數內設定，這會在執行追蹤函數期間呼叫。導致此問題的特定設定變數為 *`trackInlineStats`*，這會啟用 ClickMap 資料收集。此會使 ClickMap 模組處於未判斷狀態，並導致第一個追蹤呼叫附加「未定義」字串至 Adobe Analytics 信標，並影響貨幣代碼。
 
 若要解決此問題，請移除所有 doPlugins 函數上的設定變數。
 
