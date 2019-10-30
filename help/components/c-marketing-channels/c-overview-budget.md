@@ -1,31 +1,31 @@
 ---
-description: 瞭解如何為渠道指派成本和預算額。
-seo-description: 瞭解如何為渠道指派成本和預算額。
-seo-title: 成本與預算
+description: 瞭解如何將成本和預算金額指派給渠道。
+seo-description: 瞭解如何將成本和預算金額指派給渠道。
+seo-title: 成本和預算
 solution: Analytics
 subtopic: 行銷渠道
-title: 成本與預算
-topic: Reports & Analytics
-uuid: 7ba0e968-e565-4d4 c-8fc0-39fc25 d3 e5 b1
+title: 成本和預算
+topic: Reports and Analytics
+uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 成本與預算
+# 成本和預算
 
-瞭解如何為渠道指派成本和預算額。
+瞭解如何將成本和預算金額指派給渠道。
 
-## Costs and budgets {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
+## 成本和預算 {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
 
-瞭解如何為渠道指派成本和預算額。
+瞭解如何將成本和預算金額指派給渠道。
 
 成本表示您對渠道的花費。預算表示可花費的金額。
 
 檢視 ROI 的便利方法是建立顯示收入減去成本的計算量度。或者建立一個顯示總成本以及每項新增參與成本劃分的計算量度。例如，您可以透過建立計算量度，執行顯示新增參與的[!UICONTROL 「首次接觸渠道」]報表，然後新增「首次接觸成本」量度，顯示每項新增參與的成本。
 
-請參閱[計算量度使用行銷渠道報表](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74)。
+請參閱 [用於行銷渠道報表中的計算量度](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
 
 僅可為渠道指定成本和預算。所有成本均設定有套用於匯報的時間範圍。當成本與渠道直接相關聯時，選擇分配量度來顯示成本針對渠道內促銷活動的劃分方式。
 
