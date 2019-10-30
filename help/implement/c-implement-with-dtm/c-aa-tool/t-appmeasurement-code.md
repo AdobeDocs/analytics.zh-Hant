@@ -1,12 +1,12 @@
 ---
 description: 在 Adobe Analytics 中手動部署動態標籤管理時插入 AppMeasurement 代碼。
-keywords: 動態標籤管理；連結帳戶；連結帳戶；編輯代碼；appmeasurement;appmeasurement代碼
+keywords: Dynamic Tag Management;已連結的帳戶;連結中的帳戶;編輯程式碼;AppMeasurement;AppMeasurement 程式碼
 seo-description: 在 Adobe Analytics 中手動部署動態標籤管理時插入 AppMeasurement 代碼。
 seo-title: 插入核心 AppMeasurement 代碼
-solution: Experience Cloud,Analytics,Target，動態標籤管理
+solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 插入核心 AppMeasurement 代碼
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -16,12 +16,12 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 在 Adobe Analytics 中手動部署動態標籤管理時插入 AppMeasurement 代碼。
 
-1. On the [!DNL Adobe Analytics] tool page, expand the **[!UICONTROL General]** section, then click **[!UICONTROL Open Editor]**.
-1. 將您在部 [!DNL AppMeasurement_JavaScript*.zip] 署Adobe Analytics中下載的 [檔案解壓縮](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E)。
+1. 在 [!DNL Adobe Analytics] 工具頁面上，展開&#x200B;**[!UICONTROL 一般]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 開啟編輯器]**。
+1. 在[部署 Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E)中，將您下載的 [!DNL AppMeasurement_JavaScript*.zip] 檔案解壓縮。
 
    如果您選擇使用自訂程式庫，當您開啟視窗，該視窗即會顯示最新的代碼版本。不需從管理主控台下載 zip。
-1. Open [!DNL AppMeasurement.js] in a text editor.
-1. Copy and paste the contents into the **[!UICONTROL Edit Code]** window.
+1. 在文字編輯器中開啟 [!DNL AppMeasurement.js]。
+1. 將內容複製並貼到&#x200B;**[!UICONTROL 編輯程式碼]**&#x200B;視窗中。
 
    ![](assets/edit-code.png)
 
@@ -34,9 +34,9 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    >[!IMPORTANT]
    >
-   >If you add this code, it is recommended that you also select the **[!UICONTROL Set report suites using custom code below]** checkbox in the overall library settings.
+   >如果您新增此程式碼，建議您也在整體程式庫設定中選取&#x200B;**[!UICONTROL 使用以下的自訂程式碼設定報表套裝]**&#x200B;核取方塊。
 
-1. Click **[!UICONTROL Save and Close]**.
+1. 按一下&#x200B;**[!UICONTROL 儲存並關閉]**。
 
    如果您要使用媒體模組、整合模組或實施外掛程式，也可以將之複製到代碼區域。動態標籤管理中的受管理代碼完全可以像傳統實施中的 JavaScript 檔案一樣來設定。
 
