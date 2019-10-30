@@ -5,9 +5,9 @@ seo-title: 單頁存取次數
 solution: Analytics
 title: 單頁存取次數
 topic: 報表
-uuid: 5ca52be8-c7 f5-464a-8a0-55e8271760 b4
+uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 單頁瀏覽可包含許多影像要求，只要報告環境中的變數包含單一唯一值。在第二個唯一值填入後，瀏覽即不再被視為單頁瀏覽。
 * 我們將其視為一種路徑報告。[!UICONTROL 頁面]變數依預設會啟用路徑功能。但所有的流量變數也都具有此功能。是否可對其他流量變數啟用路徑功能，取決於您的合約。請洽詢組織的客戶經理，以取得詳細資訊。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
-* 此報告可使用[趨勢](/help/components/c-variables/dimensionslist/reports-types.md) 和 [排名](/help/components/c-variables/dimensionslist/reports-types.md) 格式。
+* 此報告可使用 趨 [勢和](/help/components/c-variables/dimensionslist/reports-types.md)[排名格式](/help/components/c-variables/dimensionslist/reports-types.md) 。
 
 * 此報告中無法使用劃分功能。
 * [!UICONTROL 瀏覽]是此報告中唯一可用的量度。
