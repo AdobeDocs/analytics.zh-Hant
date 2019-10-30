@@ -5,9 +5,9 @@ seo-title: 轉換漏斗
 solution: Analytics
 title: 轉換漏斗
 topic: 報表
-uuid: a67ce302-fe1-434a-b662-91672e85 cab3
+uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,7 +35,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 報告表格顯示每次點進的平均銷售量，以及每次點進賣出的平均產品件數的統計資料。您可以增加其他報告群組的量度和自訂事件至這些報告。這些漏斗有許多相似處，不過是根據不同的變數和事件。您可以使用這些報告，查看使用者引發您指定之特定事件的百分比和一般趨勢。您可以查看使用者在何處停止繼續前往事件，讓您深入瞭解轉換程序的某個特定點。
 
->[!NOTE]
->
->這些報告內容中的例項等於定義eVar或事件的瀏覽總數。
+> [!NOTE] 這些報表中的例項等於定義eVar或事件的瀏覽總數。
 
