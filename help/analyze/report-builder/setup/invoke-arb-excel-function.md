@@ -1,26 +1,24 @@
 ---
 description: 此功能進一步整合 Report Builder 在一般 Excel 工作流程中的用途，讓您無須存取 Report Builder 使用者介面。
 seo-description: 此功能進一步整合 Report Builder 在一般 Excel 工作流程中的用途，讓您無須存取 Report Builder 使用者介面。
-seo-title: 從Microsoft Excel函數叫用Report Builder功能
+seo-title: 從 Microsoft Excel 函數叫用 Report Builder 功能
 solution: Analytics
-title: 從Microsoft Excel函數叫用Report Builder功能
+title: 從 Microsoft Excel 函數叫用 Report Builder 功能
 topic: Report Builder
-uuid: 5342cc4f-085d-4a2d-a498-38b00 a3 ef4 d3
+uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 從Microsoft Excel函數叫用Report Builder功能
+# 從 Microsoft Excel 函數叫用 Report Builder 功能
 
 此功能進一步整合 Report Builder 在一般 Excel 工作流程中的用途，讓您無須存取 Report Builder 使用者介面。
 
-例如，您可能想要自動重新整理 Report Builder 請求，而該請求的輸入篩選條件是根據 Excel 中從其他來源提取的資料。您現在可以使用下列字串函數 RefreshRequestsInCellsRange(..) 這麼做。函數。所有呼叫皆為非同步。它們會立即傳回，而不會等待呼叫完全執行。
+例如，您可能想要自動重新整理 Report Builder 請求，而該請求的輸入篩選條件是根據 Excel 中從其他來源提取的資料。您現在可以使用下列字串函數 RefreshRequestsInCellsRange(..) 這麼做。函式。 所有呼叫皆為非同步。它們會立即傳回，而不會等待呼叫完全執行。
 
->[!NOTE]
->
->您必須安裝Report Builder5.0(或更新版本)才能運作。
+> [!NOTE] 您必須安裝Report Builder 5.0（或更新版本），才能使用此功能。
 
 下表列出各種公開函數:
 
