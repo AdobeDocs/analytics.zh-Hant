@@ -7,8 +7,8 @@ solution: Analytics
 title: 一般
 topic: 開發人員和實作
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
-source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,10 +35,10 @@ source-git-commit: 49c81e50ff10060ef7a3debe82132d1099e25118
      <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> 如果此 Cookie 存在，但設定為<span class="term">true</span>，則工具會正常載入。 </li> 
     </ul> <p>如果訪客選擇退出，您要負責將 <span class="filepath"> sat_track </span> (或自訂名稱) Cookie 設為 <span class="term">false</span>。您可以使用自訂代碼來達到此目標: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“false”); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
      </code> </p> <p> 若要讓訪客能在之後選擇加入，您也必須有能將 Cookie 設為 <span class="term">true</span> 的機制: </p> <p> 
      <code>
-       _satellite.setCookie(“sat_track”,&amp;nbsp;“true"); 
+       _satellite.setCookie("sat_track",&amp;nbsp;"true"); 
      </code> </p> </td> 
   </tr> 
   <tr> 
