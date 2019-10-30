@@ -7,7 +7,7 @@ title: 系統要求
 topic: Report Builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 32 位元或 64 位元 Microsoft Excel 2007 或更新版本
 * 不支援 OS X
 
-**必要條件**
+**必備條件**
 
 * 貴組織的合約包含 Excel 專用的 Report Builder。
 * 您的使用者名稱屬於預先定義之 Report Builder 使用者群組的一部分。This requirement includes [!DNL Analytics] administrators.
