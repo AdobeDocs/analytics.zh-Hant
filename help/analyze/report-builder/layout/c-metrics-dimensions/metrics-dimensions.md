@@ -1,22 +1,22 @@
 ---
-description: 您可以新增度量和維度至「請求精靈步驟2」，以定義請求中資料的Analytics版面。報告建立工具中的度量和維度清單會遵循顯示於「報告與分析」中的功能表配置。
-seo-description: 您可以新增度量和維度至「請求精靈步驟2」，以定義請求中資料的Analytics版面。報告建立工具中的度量和維度清單會遵循顯示於「報告與分析」中的功能表配置。
-seo-title: 度量與維度概述
+description: 您可以新增度量和維度至「請求精靈步驟2」，以定義請求中資料的Analytics配置。 「報告建立工具」中的量度和維度清單會遵循「報告與分析」中顯示的功能表配置。
+seo-description: 您可以新增度量和維度至「請求精靈步驟2」，以定義請求中資料的Analytics配置。 「報告建立工具」中的量度和維度清單會遵循「報告與分析」中顯示的功能表配置。
+seo-title: 度量和維度概觀
 solution: Analytics
-title: 度量與維度概述
+title: 度量和維度概觀
 topic: Report Builder
-uuid: eb305a06-d914-45c6-a7 b1-fd0342473 b0 c
+uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 度量與維度概述
+# 度量和維度概觀
 
-您可以新增度量和維度至「請求精靈」：步驟2，以定義請求中資料的Analytics版面配置。報告建立工具中的度量和維度清單會遵循顯示於「報告與分析」中的功能表配置。
+您可以新增度量和維度至「請求精靈」:步驟2：定義請求中資料的Analytics配置。 「報告建立工具」中的量度和維度清單會遵循「報告與分析」中顯示的功能表配置。
 
-度量是數值。它們是由與網站活動相關的數量資訊所組成，如[!UICONTROL 頁面檢視]、[!UICONTROL 訪客設定檔]、[!UICONTROL 點進]、[!UICONTROL 重新載入]、[!UICONTROL 平均花費時間]、[!UICONTROL 日期]、[!UICONTROL 單位]等。報告建立工具會組織數個群組中的度量，這些群組遵循Analytics中的標準分組：
+度量是數值。它們是由與網站活動相關的數量資訊所組成，如[!UICONTROL 頁面檢視]、[!UICONTROL 訪客設定檔]、[!UICONTROL 點進]、[!UICONTROL 重新載入]、[!UICONTROL 平均花費時間]、[!UICONTROL 日期]、[!UICONTROL 單位]等。報告建立工具會將量度組織成數個群組，並依循Analytics中的標準分組：
 
 * 標準流量: 根據指定的行項目來顯示度量。例如，在「頁面」報表中，「造訪」度量顯示該特定頁面的造訪次數。
 * 標準商務:「收入」、「訂購」及「結帳」等度量。
