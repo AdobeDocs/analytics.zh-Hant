@@ -5,7 +5,7 @@ seo-title: Adobe Analytics的Silverpop Data Connector
 title: Adobe Analytics的Silverpop Data Connector
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -32,19 +32,19 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 * 量度匯入頻率從每日增加至每小時。
 * 非零售客戶的兩個額外標準量度。
-* Remarketing to users who may not have clicked through an email.
-* Product Classifications are exported to Silverpop for additional customization in remarketing messages.
-* Additional data is available in remarketing segments (orders, revenue, and units).
+* 向未點選過電子郵件的使用者重新行銷。
+* 產品分類會匯出至Silverpop，以便在再行銷訊息中進行其他自訂。
+* 其他資料可用於再行銷區段（訂購、收入和件數）。
 
-## Dynamic Marketing Segments{#dynamic-marketing-segments}
+## 動態行銷區段{#dynamic-marketing-segments}
 
-This Data Connectors email integration supports dynamic marketing segments to help you drive your business.
+此Data Connectors電子郵件整合支援動態行銷區段，以協助您推動業務。
 
-This integration features the following marketing segments, out of the box:
+此整合具備下列立即可用的行銷區段：
 
-* **** Purchase Profiles: Increase repeat orders and average order value through campaigns targeted by visitor purchase patterns.
-* **** Product/Content View Behavioral Profile: Reach prospective customers through marketing segments based on product views and content access profiling.
+* **** 購買設定檔：透過訪客購買模式所定位的促銷活動，增加重複訂單和平均訂單值。
+* **** 產品／內容檢視行為設定檔：根據產品檢視和內容存取分析，透過行銷細分觸及潛在客戶。
 * **** 購物車放棄設定檔：透過專為猶豫是否要完成購物車的訪客量身打造的微調促銷活動，協助訪客轉化為客戶。
-* **** 表單放棄設定檔（可選）:鼓勵訪客透過專為已開始且未完成線上表單的訪客所設計的促銷活動，完成未完成的表單。 This segment will only be created if 2 events are created for form starts and form completes.
-* **** 檔案下載設定檔（選用）:透過專為有興趣者設計的促銷活動，下載白皮書或其他類型的下載，與潛在客戶接觸。 This segment will only be created if 1 event is created for successful file downloads.
-* Customers can also create and schedule custom remarketing segments specific to the needs of their users.
+* **** 表單放棄設定檔（可選）:鼓勵訪客透過專為已開始且未完成線上表單的訪客所設計的促銷活動，完成未完成的表單。 只有在為表單開始和表單完成建立2個事件時，才會建立此區段。
+* **** 檔案下載設定檔（選用）:透過專為有興趣者設計的促銷活動，下載白皮書或其他類型的下載，與潛在客戶接觸。 只有為成功的檔案下載建立1個事件時，才會建立此區段。
+* 客戶也可以根據其使用者的需求建立並排程自訂的再行銷區段。
