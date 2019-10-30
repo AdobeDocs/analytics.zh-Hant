@@ -1,19 +1,19 @@
 ---
 description: ' .js 檔案可經由設定而自動選取報告套裝 ID。'
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: ' .js 檔案可經由設定而自動選取報告套裝 ID。'
-seo-title: 報表套裝ID-動態帳戶
+seo-title: 報表套裝 ID - 動態帳戶
 solution: Analytics
-title: 報表套裝ID-動態帳戶
-topic: 開發人員和實施
-uuid: 763a9741-309d-4795-8819-6543866047d
-translation-type: tm+mt
+title: 報表套裝 ID - 動態帳戶
+topic: 開發人員和實作
+uuid: 763a9741-309d-4795-8819-6543866047d5
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 報表套裝ID-動態帳戶
+# 報表套裝 ID - 動態帳戶
 
  .js 檔案可經由設定而自動選取報告套裝 ID。.js 檔案可根據 URL 自動傳送影像要求至報告套裝。例如，如果 URL 是 `www.mysite.com`，則會自動傳送影像要求至報告套裝 A；如果 URL 是 `www.mysite1.com`，則會自動傳送影像要求至報告套裝 B。
 
@@ -61,11 +61,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * `s.dynamicAccountSelection=true`
 * `s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com"`
 
-The code first checks to determine if `qa.client.com` exists within the Host/Domain Name. If so, the report suite `devreportsuite1` is selected, and the match stops. 請以分號隔開多項規則。
+程式碼會先檢查 `qa.client.com` 是否存在於主機/網域名稱內。若存在，則會選取報表套裝 `devreportsuite1`，而比對隨即停止。請以分號隔開多項規則。
 
-## 預設報表套裝 {#section_0360D724929348B0B211708B5BA15647}
+## 預設報表套裝{#section_0360D724929348B0B211708B5BA15647}
 
-`s_account` 變數可先設定，並作為預設值，以防找不到指定的字串。其範例如下: 
+`s_account` 變數可先行設定，並做為預設值，以備找不到指定的字串時使用。其範例如下: 
 
 ```javascript
 var s_account="defaultreportsuiteid" 
@@ -73,4 +73,4 @@ s.dynamicAccountSelection=true
 s.dynamicAccountList="devreportsuite1=qa.client.com;reportsuite1=client.com" 
 ```
 
-In the case above, if the host/domain name did not contain either `qa.client.com` or `client.com`, the report suite *defaultreportsuiteid* would be used.
+在上方的案例中，若主機/網域名稱未包含 `qa.client.com` 或 `client.com`，則會使用報表套裝 *defaultreportsuiteid*。
