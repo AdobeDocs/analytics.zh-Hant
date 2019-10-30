@@ -1,20 +1,20 @@
 ---
 description: 將 JavaScript 程式庫檔案的呼叫放置於頁面頂端，可確保影像會是最先下載的元素之一。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 將 JavaScript 程式庫檔案的呼叫放置於頁面頂端，可確保影像會是最先下載的元素之一。
-seo-title: JavaScript檔案位置與並行作業
+seo-title: JavaScript 檔案的位置和並行性
 solution: Analytics
 subtopic: 疑難排解
-title: JavaScript檔案位置與並行作業
-topic: 開發人員和實施
-uuid: ed5118a8-b142-4fab-8aa1-92d931 cc1439
-translation-type: tm+mt
+title: JavaScript 檔案的位置和並行性
+topic: 開發人員和實作
+uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# JavaScript檔案位置與並行作業
+# JavaScript 檔案的位置和並行性
 
 將 JavaScript 程式庫檔案的呼叫放置於頁面頂端，可確保影像會是最先下載的元素之一。
 
@@ -24,5 +24,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!NOTE]
 >
->由於第三方網際網路效能稽核提供者(例如Keynote Systems)會依序下載頁面影像元素，而非同時下載頁面影像元素，因此無法模仿一般使用者體驗。
+>由於第三方網際網路效能稽核提供者 (例如 Keynote Systems) 會以循序方式下載頁面影像元素，而非並行方式，因此會不同於一般的使用者經驗。
 
