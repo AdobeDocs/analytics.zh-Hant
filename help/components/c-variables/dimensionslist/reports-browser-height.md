@@ -5,9 +5,9 @@ seo-title: 瀏覽器高度
 solution: Analytics
 title: 瀏覽器高度
 topic: 報表
-uuid: 4b824167-4a4e-40e9-cf00-957655bbdb3 d
+uuid: 4b824167-4a4e-40e9-bf00-95765bbdb3d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
