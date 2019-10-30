@@ -1,18 +1,18 @@
 ---
 description: 在編輯活頁簿時，如果您想要騰出一些空間給新請求使用，便需要刪除請求。
 seo-description: 在編輯活頁簿時，如果您想要騰出一些空間給新請求使用，便需要刪除請求。
-seo-title: 刪除輸出對應
+seo-title: 刪除輸出對映
 solution: Analytics
-title: 刪除輸出對應
+title: 刪除輸出對映
 topic: Report Builder
-uuid: a6805800-4cb9-4cc-aada-188a15 def643
+uuid: a6805800-4cb9-4cc-ada-198a15def643
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 刪除輸出對應
+# 刪除輸出對映
 
 在編輯活頁簿時，如果您想要騰出一些空間給新請求使用，便需要刪除請求。
 
