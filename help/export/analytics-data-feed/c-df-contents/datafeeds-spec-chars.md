@@ -1,15 +1,15 @@
 ---
 description: 資料摘要中所使用之特殊字元的相關資訊。
-keywords: 資料饋送；工作；特殊字元；hit_ data；多值變數；events_ list；products_ list；mvvars
+keywords: 資料饋送；job；特殊字元；hit_data；多值變數；events_list;products_list;mvvars
 seo-description: 資料摘要中所使用之特殊字元的相關資訊。
 seo-title: 特殊字元
 solution: Analytics
 subtopic: 資料饋送
 title: 特殊字元
-topic: Reports & Analytics
-uuid: 5efe019b-39e6-4226-a9326-88202 a02 f5 e6
+topic: Reports and Analytics
+uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -61,12 +61,12 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   <tr> 
    <td colname="col1"> <code> ; </code> (分號字元) </td> 
    <td colname="col02"> 個別產品值中子值的結尾 </td> 
-   <td colname="col2"> <p>分隔 <code>product_list</code> 中個別產品的相關值。 </p> </td> 
+   <td colname="col2"> <p>分隔 <code> product_list </code> 中個別產品的相關值。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <code> = </code> (等號字元) </td> 
    <td colname="col02"> 值指派 </td> 
-   <td colname="col2"> <p>指派值給 <code>event_list</code> 中的事件。 </p> </td> 
+   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
