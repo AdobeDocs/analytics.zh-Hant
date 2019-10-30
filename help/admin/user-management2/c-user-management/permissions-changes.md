@@ -9,7 +9,7 @@ title: 使用者和群組權限變更
 topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 **[!UICONTROL 管理員]** &gt;使 **[!UICONTROL 用者管理]** &gt;群 **[!UICONTROL 組]**
 
->[!NOTE]
->
->由於可用的權限組合數量龐大，我們無法提供說明每個權限組合中可使用之所有API方法的檔案。 一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
+> [!NOTE] 由於可用的權限組合數量龐大，我們無法提供說明每個權限組合中可使用之所有API方法的檔案。 一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
 
 由於 API 和介面使用相同的權限系統，因此無論管理員是否在介面 (Adobe 管理控制台) 中授權給特定非管理員，這些權限都會與使用者在 API 中具有的權限相同。
 
@@ -128,9 +126,7 @@ source-git-commit: 60305dce752362a2e9d871673a550629e4460a46
 
 下表列出工作以及工作發生的位置 (視公司的狀態而定)。
 
->[!NOTE]
->
->A *`migrated user`* and *`Experience Cloud user`* refer to users who have accepted an email invitation to join the Experience Cloud. 如果未接受電子郵件邀請，使用者仍為Analytics使用者，無法在「管理控制台」中管理。 (如果是使用[企業或同盟 ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html) 進行移轉則為例外。在此情況下，使用者是在管理員以使用者為基礎移轉使用者時移轉。)
+> [!NOTE] A *`migrated user`* 和 *`Experience Cloud user`* 指已接受電子郵件邀請加入Experience cloud的使用者。 如果未接受電子郵件邀請，使用者仍為Analytics使用者，無法在「管理控制台」中管理。 (如果是使用[企業或同盟 ID](https://helpx.adobe.com/enterprise/using/set-up-identity.html) 進行移轉則為例外。在此情況下，使用者是在管理員以使用者為基礎移轉使用者時移轉。)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
