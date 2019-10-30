@@ -5,9 +5,9 @@ seo-title: 篩選區段
 solution: Analytics
 title: 篩選區段
 topic: 區段
-uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355 f442 e
+uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
