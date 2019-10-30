@@ -5,7 +5,7 @@ seo-title: 快速入門
 title: 快速入門
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -66,9 +66,7 @@ c_sys_reqs.xml
 
  -->
 
->[!NOTE]
->
->自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在2018年7月維護髮行後在Java 7上執行臨機分析，Adobe將不再支援您的臨機分析實作。
+> [!NOTE]自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在2018年7月維護髮行後在Java 7上執行臨機分析，Adobe將不再支援您的臨機分析實作。
 
 * 支援 OpenGL 2.0 的影片卡
 * Cookie: 必要
