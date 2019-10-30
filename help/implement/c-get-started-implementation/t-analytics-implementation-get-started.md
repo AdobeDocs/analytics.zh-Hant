@@ -2,19 +2,19 @@
 description: 瞭解首次客戶實施 Adobe Analytics 的體驗。
 keywords: 快速入門
 seo-description: 瞭解首次客戶實施 Adobe Analytics 的體驗。
-seo-title: 簡化實作模型
+seo-title: 簡化實施模組
 solution: Analytics
 subtopic: Analysis Workspace
-title: 簡化實作模型
-topic: Reports & Analytics
+title: 簡化實施模組
+topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ---
 
 
-# 簡化實作模型
+# 簡化實施模組
 
 瞭解首次客戶實施 Adobe Analytics 的體驗。
 
@@ -24,30 +24,30 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
  -->
 
-New users can quickly create your first [!DNL Analytics] report suite (data repository) using this *`Getting Started with Adobe Analytics`* setup modal. Then, you can deploy [!DNL Analytics] code using [!DNL Dynamic Tag Management].
+新使用者可以利用此 *`Getting Started with Adobe Analytics`* 設定模組，快速建立第一個 [!DNL Analytics] 報表套裝 (資料存放庫)。接著，您可以使用 [!DNL Dynamic Tag Management] 部署 [!DNL Analytics] 程式碼。
 
-[!DNL Dynamic Tag Management] 可讓您管理Adobe Analytics實施，無需每次變更網站。如要實作行動應用程式，您可以取得所需的 SDK，開始從應用程式中蒐集有用的資料。
+[!DNL Dynamic Tag Management] 可讓您不需每次變更網站，即可管理 Adobe Analytics 實作情形。如要實作行動應用程式，您可以取得所需的 SDK，開始從應用程式中蒐集有用的資料。
 
 在此過程中，您可以:
 
-* 快速建立第一個[報表套裝](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html)。
-* Deploy [!DNL Analytics] and the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/).
+* 快速建立第一個[報表套裝](https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/report-suites.html)。
+* 部署 [!DNL Analytics] 和 [Identity 服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)。
 
 * 執行基本頁面層級資料的相關報告。
 
 >[!NOTE]
 >
->Before you begin, verify that Analytics is [enabled in the Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html) (the solution provisioning process). 如果您收到電子郵件，邀請您登入企業控制面板 (Enterprise Dashboard) 中的 Analytics，表示您已完成事前準備。
+>開始之前，請確認[已在 Adobe Experience Cloud 中啟用](https://marketing.adobe.com/resources/help/zh_TW/mcloud/core_services.html) Analytics (解決方案佈建程序)。如果您收到電子郵件，邀請您登入企業控制面板 (Enterprise Dashboard) 中的 Analytics，表示您已完成事前準備。
 
 **執行簡化的實作模組**
 
-1. Log in to the [!DNL Adobe Experience Cloud] ( [experiencecloud.adobe.com](https://experiencecloud.adobe.com)).
+1. 登入 [!DNL Adobe Experience Cloud] ([experiencecloud.adobe.com](https://experiencecloud.adobe.com))。
 
    存取 [!DNL Analytics] 時，系統會判斷您是否擁有報表套裝。如果沒有，系統會顯示 [!UICONTROL Adobe Analytics 快速入門]頁面。
 
    ![](assets/analytics-implementation-rs-wizard.png)
 
-   Alternatively, you can run this setup in [!DNL Analytics] by clicking **[!UICONTROL Help]** &gt; **[!UICONTROL Welcome to Adobe Analytics]**.
+   或者，您也可以按一下&#x200B;**[!UICONTROL 說明]** &gt; **[!UICONTROL 歡迎使用 Adobe Analytics]**，在 [!DNL Analytics] 中執行此設定。
 
 1. 指定下列貴企業的相關基本資訊:
 
@@ -69,11 +69,11 @@ New users can quickly create your first [!DNL Analytics] report suite (data repo
       </tr> 
       <tr> 
        <td colname="col1"> <p>資料層 </p> </td> 
-       <td colname="col2"> <p>(建議) 用以儲存資訊的 JavaScript 陣列。如果使用「動態標籤管理」執行自動設定，便會使用資料層。 </p> <p>For a blog on data layers, see <a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external"> Data Layer: From Buzzword to Best Practice</a>. </p> </td> 
+       <td colname="col2"> <p>(建議) 用以儲存資訊的 JavaScript 陣列。如果使用「動態標籤管理」執行自動設定，便會使用資料層。 </p> <p>如需資料層相關部落格，請參閱<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">資料層: 術語與最佳實務</a>。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>資料存放庫 (報表套裝) </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">報表套裝</a>為個別資料組，通常會對應至單一屬性 (網站或應用程式) 或品牌。每個報表套裝均有其專屬報表與量度組。 </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/report-suites.html" format="html" scope="external">報表套裝</a>為個別資料組，通常會對應至單一屬性 (網站或應用程式) 或品牌。每個報表套裝均有其專屬報表與量度組。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>時區 </p> </td> 
@@ -90,11 +90,11 @@ New users can quickly create your first [!DNL Analytics] report suite (data repo
      </tbody> 
     </table>
 
-1. Click **[!UICONTROL Next]**.
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 
    系統會隨即建立報表套裝。
 
-1. To begin deployment, click **[!UICONTROL Next]**, then click one of the following options:
+1. 若要開始部署，請按一下&#x200B;**[!UICONTROL 下一步]**，然後按一下下列其中一個選項:
 
    <table id="table_71C7F7B9677346CD8D5130519D32464B"> 
      <thead> 
@@ -106,24 +106,24 @@ New users can quickly create your first [!DNL Analytics] report suite (data repo
      <tbody> 
       <tr> 
        <td colname="col1"> <p>部署 </p> </td> 
-       <td colname="col2"> <p> 啟動<span class="keyword">「動態標籤管理」</span>，即可在此登入並部署 Analytics。This process automatically implements the <span class="filepath"> AppMeasurement.js</span> file and the Identity Service (<span class="filepath"> VisitorAPI.js</span>). </p> <p> <p>重要: 新的瀏覽器標籤中會顯示說明頁面，透過動態標籤管理，引導您完成 <span class="keyword">Adobe Analytics</span> 部署。 </p> </p> </td> 
+       <td colname="col2"> <p> 啟動<span class="keyword">「動態標籤管理」</span>，即可在此登入並部署 Analytics。此程序會自動實作 <span class="filepath"> AppMeasurement.js</span> 檔案與 Identity 服務 (<span class="filepath">VisitorAPI.js</span>)。 </p> <p> <p>重要: 新的瀏覽器標籤中會顯示說明頁面，透過動態標籤管理，引導您完成 <span class="keyword">Adobe Analytics</span> 部署。 </p> </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>下載 </p> </td> 
-       <td colname="col2"> <p> 下載名為 <span class="filepath">INSTALL-ME &lt;報表套裝名稱&gt;.js</span> 的安裝檔案。此選項適用於熟悉 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 實作</a>、經驗豐富的使用者。 </p> <p> <p>重要: 下載程式碼不會部署 <span class="keyword">Analytics</span>。這需要手動部署，您必須在網站頁面上執行，或請利用 Adobe 諮詢服務。 </p> </p> </td> 
+       <td colname="col2"> <p> 下載名為 <span class="filepath">INSTALL-ME &lt;報表套裝名稱&gt;.js</span> 的安裝檔案。此選項適用於熟悉 <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 實作</a>、經驗豐富的使用者。 </p> <p> <p>重要: 下載程式碼不會部署 <span class="keyword">Analytics</span>。這需要手動部署，您必須在網站頁面上執行，或請利用 Adobe 諮詢服務。 </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
 
 1. 執行報告.
 
-   部署 Analytics 工具後，您可以在「報表與分析」中執行報表，確認資訊順利進入您的網站。(請參閱[登入和瀏覽](https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/analytics-navigation.html)，以熟悉 Analytics 介面)
+   部署 Analytics 工具後，您可以在 Reports &amp; Analytics 中執行報表，確認資訊順利進入您的網站(請參閱[登入並導覽](https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/analytics-navigation.html)以熟悉 Analytics 介面)。
 
-   For example, a **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Real-Time]** lets you see immediate data.
+   例如，**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 即時]**&#x200B;可讓您檢視即時資料。
 
    >[!NOTE]
    >
-   >The [!UICONTROL Real-Time] report requires some configuration prior to running. 請參閱[設定即時報表](https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html)。
+   >執行[!UICONTROL 即時]報表前必須先完成幾項設定。請參閱[設定即時報表](https://marketing.adobe.com/resources/help/zh_TW/reference/t_realtime_admin.html)。
 
 **即時報表範例**
 
