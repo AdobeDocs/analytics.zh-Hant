@@ -8,7 +8,7 @@ title: 轉換變數 (eVar)
 topic: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,7 @@ eVar 最適合用來測量原因和結果，如:
 
 如果需要流量測量或路徑功能，建議使用流量變數。
 
->[!NOTE]
->
->影像要求中的eVar只能儲存單一值。 如果 eVar 值中需要多個數值，建議您實施[清單變數 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
+> [!NOTE]影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實施[清單變數 (list vars)](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html)。
 
 ## 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -48,7 +46,7 @@ eVar 最適合用來測量原因和結果，如:
    <td colname="col2"> <p>轉換變數的好記名稱。一般報告中會以此名稱來指稱 eVar，這也會是左側功能表中的報告名稱。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="uicontrol">類型</span> </p> <p>(僅限 eVar) </p> </td> 
+   <td colname="col1"> <p> <span class="uicontrol"> 類型</span> </p> <p>(僅限 eVar) </p> </td> 
    <td colname="col2"> <p>變數值的類型: </p> <p> <b></b> 文字字串</span>:擷取您網站上使用的文字值。 這是最常用的 eVar 類型，也是預設設定。其運作方式與其他變數類似，包含的值是靜態文字字串。如果您要追蹤內部促銷活動或內部搜尋關鍵字等項目，建議使用此設定。 </p> <p> <b></b> 計數器</span>:計算某個動作在成功事件之前發生的次數。 例如，如果您使用 eVar 追蹤網站上的內部搜尋，設定此值為<span class="uicontrol">「文字字串」</span>可追蹤搜尋詞的使用情況。將此值設定為<span class="uicontrol">「計數器」</span>，可計算已執行搜尋的次數，不考慮所使用的搜尋詞。例如，您可使用計數器 eVar 來追蹤某個人在進行購買前，使用內部搜尋的次數。 </p> </td> 
   </tr> 
   <tr> 
