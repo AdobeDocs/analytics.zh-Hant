@@ -5,9 +5,9 @@ seo-title: 訪客資料
 solution: Analytics
 title: 訪客資料
 topic: 報表
-uuid: fdd24ab-5de4-44a0-48a0-8d9b-5d60a2d
+uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> 語言 </td> 
-   <td colname="col2"> <p> 顯示訪客的慣用語言，擷取預設瀏覽器語言，顯示網站訪客使用最頻繁的語言。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客的慣用語言、擷取預設瀏覽器語言，並顯示訪客在您網站上最常使用的語言。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 網域 </td> 
