@@ -3,9 +3,9 @@ description: Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除�
 seo-description: Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 seo-title: 計算量度
 title: 計算量度
-uuid: c9814894-cda6-40ff-8ec4-3ab2 c1908 eBC
+uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 
->[!NOTE]
->
->現有活頁簿可能會指向具有舊式量度ID的請求。當您使用 Report Builder 5.2 時，這些舊式量度 ID 會轉換為新的全域 ID。如果將此活頁簿與使用 Report Builder 5.1 或更舊版本的使用者共用，該名使用者將看不到計算量度。
+> [!NOTE] 現有活頁簿可能會指向具有舊式量度ID的請求。 當您使用 Report Builder 5.2 時，這些舊式量度 ID 會轉換為新的全域 ID。如果將此活頁簿與使用 Report Builder 5.1 或更舊版本的使用者共用，該名使用者將看不到計算量度。
 
 若想深入了解如何使用新的計算量度產生器和計算量度管理員來建立和管理計算量度，請參閱[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics)指南。
 
@@ -24,7 +22,7 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 
 ## 篩選計算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-**按一下篩選圖示來篩選** 計算量度： ![](assets/segment_filter.png)
+**按一下** 「篩選」圖示以篩選計算量度：  ![](assets/segment_filter.png)
 
 。「進階篩選器」對話方塊會同時填入標準和計算量度。
 
