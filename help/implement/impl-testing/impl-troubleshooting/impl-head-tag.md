@@ -7,8 +7,8 @@ solution: Analytics
 title: 將 Analytics 程式碼放入 head 標記中
 topic: 開發人員和實作
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 Analytics 程式碼會建立影像物件，這是一種不會顯示在頁面上的不可見影像。
 
->[!NOTE]
->
->本節內容僅適用於傳統 s_code.js 實施。[JavaScript 1.0 適用的 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 支援在 `<head>` 標籤中部署程式庫和頁面程式碼。
+> [!NOTE]本節內容僅適用於傳統 s_code.js 實施。[JavaScript 1.0 適用的 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 支援在 `<head>` 標籤中部署程式庫和頁面程式碼。
 
 在過去，常見的實施方式是將 Analytics JavaScript 程式碼放在  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 與 </head> 標記之間。將程式碼放在這兩個標記之間，會使將資料傳入 Adobe 伺服器的要求所傳回的 1 x 1 像素影像在任何情況下都無法影響頁面配置。將程式碼放在文件標題中，意味著程式碼會較早出現。這可讓程式碼及早執行，而讓您更有效地計算部分頁面載入的頁面檢視數。
 
@@ -37,7 +35,7 @@ Analytics 程式碼可放置在正常格式 HTML 頁面的 BODY 標籤內的任�
 <html> 
 <head></head> 
 <body> 
-<!-- Analytics code version: H.20.3. 
+<!-- Analytics code version: H.20.3.
 Copyright 1997-2009 Omniture, Inc. More info available at 
 https://www.omniture.com --> 
 <script language="JavaScript" type="text/javascript" src="https://www.yourdomain.com/js/s_code.js"></script> 
