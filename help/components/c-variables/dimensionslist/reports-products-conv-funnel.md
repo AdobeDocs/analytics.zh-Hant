@@ -5,9 +5,9 @@ seo-title: 產品轉換漏斗
 solution: Analytics
 title: 產品轉換漏斗
 topic: 報表
-uuid: e857aa20-32b6-45a2-a2-a 934-a11 adadb49 d
+uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 若要新增其他報告群組的量度和自訂事件，請按一下報告標題中的「**[!UICONTROL 選取事件]」連結。**
 
-由於目前時段在您檢視資料時尚未結束，因此，此報告在從之前到目前時段會指出向下趨勢。例如，今天的瀏覽次數可能少於昨天，但這僅僅是因為該時段餘下的統計資料還不完整。
+由於目前時段在您檢視資料時尚未結束，因此，此報告在從之前到目前時段會指出向下趨勢。例如，今天的瀏覽次數可能比昨天少，但這僅僅是因為該時段余下的統計資料尚未出現。
