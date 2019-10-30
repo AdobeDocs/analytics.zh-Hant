@@ -3,16 +3,16 @@ description: Analysis Workplace 中「還原」選項的變更與改良功能。
 seo-description: Analysis Workplace 中「還原」選項的變更與改良功能。
 seo-title: 還原和重做設定
 title: 還原和重做設定
-uuid: a4dbc169-5fd7-4383-aee0-1b5 a235 ab
+uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 還原和重做設定
 
-**[!UICONTROL 工作區]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 還原/重做]**
+**[!UICONTROL 工作區]** &gt;專 **[!UICONTROL 案]** &gt;還 **[!UICONTROL 原／重做]**
 
 * **[!UICONTROL 「重做」]**&#x200B;選項 (重做還原動作) 在&#x200B;**「編輯」[!UICONTROL 功能表內。]**
 
@@ -22,7 +22,7 @@ source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
 
 * 您可以還原/重做對於報表套裝的變更。
 * 專案名稱附近會顯示還原/重做訊息，其中會顯示進行中的還原或重做動作時間。
-* You can use these [hotkeys](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* 您可以使用下列 [熱鍵](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
 
    * Ctrl (Cmd) + Z 為還原
    * Ctrl (Cmd) + Shift + Z 為重做
