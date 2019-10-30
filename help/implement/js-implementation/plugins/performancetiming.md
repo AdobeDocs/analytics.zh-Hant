@@ -1,13 +1,13 @@
 ---
 description: 此外掛程式透過使用 Navigation Timing JavaScript API 來運作，以精確量度網路上的效能。此提供一原生方法，以針對頁面載入事件及資產載入時間，取得準確且詳細的計時統計數據。先前，此類度量無不使用 JavaScript Date 物件來測量計時量度，或初步推算的 Navigation Timing 量度。兩種方法雖然都提供一些頁面載入次數的趨勢資料，卻都不夠可靠。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 此外掛程式透過使用 Navigation Timing JavaScript API 來運作，以精確量度網路上的效能。此提供一原生方法，以針對頁面載入事件及資產載入時間，取得準確且詳細的計時統計數據。先前，此類度量無不使用 JavaScript Date 物件來測量計時量度，或初步推算的 Navigation Timing 量度。兩種方法雖然都提供一些頁面載入次數的趨勢資料，卻都不夠可靠。
 seo-title: 效能計時
 solution: Analytics
 title: 效能計時
-topic: 開發人員和實施
-uuid: ab2a6c51-8791-41e7-9bea-c1 ce-c1 ce12 de8
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -17,11 +17,11 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 此外掛程式透過使用 Navigation Timing JavaScript API 來運作，以精確量度網路上的效能。此提供一原生方法，以針對頁面載入事件及資產載入時間，取得準確且詳細的計時統計數據。先前，此類度量無不使用 JavaScript Date 物件來測量計時量度，或初步推算的 Navigation Timing 量度。兩種方法雖然都提供一些頁面載入次數的趨勢資料，卻都不夠可靠。
 
-## 此外掛程式的用途 {#section_4E0771B959FD4F86B4B91BD18CA01DF1}
+## 此外掛程式的用途{#section_4E0771B959FD4F86B4B91BD18CA01DF1}
 
 >[!IMPORTANT]
 >
->此為外掛程式測試版，可能會推出其他更新。
+>此為測試版外掛程式，隨後可能有其他更新。
 
 此外掛程式使用以下詳細事件追蹤頁面載入內的個別計時元件:
 
@@ -48,16 +48,16 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 此外，此外掛程式可選擇是否使用 performanceEntries 物件來記錄特定頁面上個別載入資產的資產名稱、資產載入開始時間，以及資產載入時間長度細節。此應用程式會記錄大量資訊，並要求啟用 DOM 儲存物件，以在頁面檢視間儲存頁面載入資訊。啟動此功能前，請確保貴公司的隱私政策允許使用 DOM 儲存物件。此功能亦要求使用 listVar 追蹤所有資產。
 
-## 必要的支援外掛程式 {#section_B6447EB6548942EFBC219AEFDC245639}
+## 必要的支援外掛程式{#section_B6447EB6548942EFBC219AEFDC245639}
 
 * appendList
 * getPreviousValue
 
-## 外掛程式的程式碼與實施 {#section_564D77E1CF0E445586D95AD9769CE57D}
+## 外掛程式的程式碼與實施{#section_564D77E1CF0E445586D95AD9769CE57D}
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 Adobe Analytics 的開發人員執行。This plugin is compatible only with [!DNL AppMeasurement] tracking libraries.
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 Adobe Analytics 的開發人員執行。此外掛程式僅與 [!DNL AppMeasurement] 追蹤程式庫相容。
 
 **設定區段 (於 doPlugins 前設定):**
 
@@ -79,7 +79,7 @@ s.ptc = false;
 
 >[!NOTE]
 >
->In order to correlate performance timing entries with pages on your site, you must also initialize the `getPreviousValue` plug-in. 建議您將這些效能項目與上一頁的名稱或上一頁 URL 值相比較。
+>為使效能計時項目與您的網站頁面產生關聯，您也必須初始化 `getPreviousValue` 外掛程式。建議您將這些效能項目與上一頁的名稱或上一頁 URL 值相比較。
 
 *範例呼叫*
 
@@ -154,8 +154,8 @@ s.rfl=new Function("l","v","d1","d2","ku",""
 * 在部署至生產環境前，請務必對外掛程式安裝進行測試，以確保資料收集可如預期運作。
 * 由於外掛程式所傳送的是上一頁關聯的效能資料，因此不會收集瀏覽之最後一個頁面檢視的資料。
 * 若您正在追蹤資產計時，此外掛程式會仰賴於使用者網路瀏覽器設定 DOM 儲存值的能力。若使用者不接受 Cookie 且已啟動 DOM 儲存，則此應用程式不會將資料傳送至 Analytics。
-* 很小比例的使用者不會因為瀏覽器限制而傳送導覽計時資料，而邏輯會包含在外掛程式中，以確保資料不會產生偏差-尤其是行動瀏覽器的小部分。不過，此外掛程式在 IE、Firefox、Chrome、與 Safari 中均已順利通過測試。
-* [!UICONTROL 應建立計算量度] 以協助匯總及瞭解與這些度量關聯的訪客行為：
+* 由於瀏覽器限制，只有很小一部份的使用者不會傳送導覽計時資料，並且此外掛程式內也包含邏輯，用以確保資料最後不會產生偏差，在一小部分的行動瀏覽器中更是如此。不過，此外掛程式在 IE、Firefox、Chrome、與 Safari 中均已順利通過測試。
+* [!UICONTROL 計算量度] 可以建立計算量度來協助彙總及瞭解與以下量度關聯的訪客行為:
 
    * 平均重新導向計時 (重新導向計時/效能計時例項)
    * 平均應用程式快取計時 (應用程式快取計時/效能計時例項)
