@@ -3,9 +3,9 @@ description: 說明三種產品相容性選項。
 seo-description: 說明三種產品相容性選項。
 seo-title: 量度相容性
 title: 量度相容性
-uuid: f2706e2b-c0 cc-4af2-bcc4-1318796e9845
+uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: 6661e99d6b1289242e6c7ce3833b56e2f9990acc
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
