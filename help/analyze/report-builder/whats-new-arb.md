@@ -1,16 +1,16 @@
 ---
 description: 列出目前版本和舊版及其功能特色。
 seo-description: 列出目前版本和舊版及其功能特色。
-seo-title: 報告建立工具的新增功能
-title: 報告建立工具的新增功能
-uuid: 20f4a839-0667-45a7-b037-0357d0 e23010
+seo-title: Report Builder 的新功能
+title: Report Builder 的新功能
+uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 報告建立工具的新增功能
+# Report Builder 的新功能
 
 列出目前版本和舊版及其功能特色。
 
@@ -24,7 +24,7 @@ source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
 
 ## Report Builder 5.5
 
-**搭配Report Builder5.5發佈至Power BI**
+**使用 Report Builder 5.5 發佈至 Power BI**
 
 Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用分析結果。Adobe Analytics 與 Power BI 整合可讓您將 Microsoft Power BI 內的 Report Builder 分析資料視覺化，並在整個組織中輕鬆共用該資料。
 
@@ -42,7 +42,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **增強登入安全性** 除了 [新的登入畫面](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)外，Standard Report Builder登入功能也是根據OAuth授權架構，提供更安全的驗證程序。
+* **增強登入安全性** ：除了新的登入 [畫面外](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)，標準報告建立工具登入功能還具備更安全的驗證程式，以OAuth授權架構為基礎。
 
 ## Report Builder 5.3
 
@@ -52,9 +52,9 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 ## Report Builder 5.2
 
-* **計算量度** 報告建立工具5.2支援Adobe Analytics [統一計算量度](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
+* **計算量度** Report Builder 5.2支援Adobe Analytics統 [一計算量度](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 
-* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。In order to simplify the search, a couple of new search bars have been added to the Request Wizard: one for [report search](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) and one to search for [metrics](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4).
+* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋，「請求精靈」新增了幾個新搜尋列：一個用 [於報表搜尋](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) ，另一個用於搜尋 [量度](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4)。
 
-* **客戶屬性** 客戶屬性儲存在稱為VisAttr的新元素類型中，可設定為維度或量度。如需如何上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)。
+* **客戶屬性** ：客戶屬性儲存在名為VisAttr的新元素類型中，可設定為維度或量度。 如需如何上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)。
 
