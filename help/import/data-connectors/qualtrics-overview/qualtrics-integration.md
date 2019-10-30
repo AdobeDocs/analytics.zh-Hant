@@ -8,7 +8,7 @@ title: 使用整合
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 部署完成後，您就可以開始使用此整合提供的其他功能。
 
->[!NOTE]
->
->您可能需要24-48小時，才能開始在Adobe Analytics報表中查看Qualtrics回應資料。
+> [!NOTE] 您可能需要24-48小時，才能開始在Adobe Analytics報表中查看Qualtrics回應資料。
 
 以下是從Adobe Analytics中取得此整合價值所要採取的動作。
 
