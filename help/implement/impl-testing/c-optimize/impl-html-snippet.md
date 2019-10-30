@@ -1,20 +1,20 @@
 ---
 description: 有許多客戶雖已宣告變數，但並未指派值給變數。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 有許多客戶雖已宣告變數，但並未指派值給變數。
-seo-title: HTML程式碼片段
+seo-title: HTML 程式碼片段
 solution: Analytics
 subtopic: 疑難排解
-title: HTML程式碼片段
-topic: 開發人員和實施
+title: HTML 程式碼片段
+topic: 開發人員和實作
 uuid: 3f57da82-4d41-47a2-9fcb-74b9b08068ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# HTML程式碼片段
+# HTML 程式碼片段
 
 有許多客戶雖已宣告變數，但並未指派值給變數。
 
