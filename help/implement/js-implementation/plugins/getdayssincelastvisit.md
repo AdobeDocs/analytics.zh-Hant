@@ -1,14 +1,14 @@
 ---
 description: 判斷使用者前次瀏覽您的網站後所經過的天數，並將這項資訊擷取到 Analytics 變數中。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 判斷使用者前次瀏覽您的網站後所經過的天數，並將這項資訊擷取到 Analytics 變數中。
 seo-title: getDaysSinceLastVisit
 solution: Analytics
 subtopic: 外掛程式
 title: getDaysSinceLastVisit
-topic: 開發人員和實施
-uuid: cad95882-3bd0-4f94-a0 c3-4e7 b6058 d246
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
+translation-type: ht
 source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!IMPORTANT]
 >
->[分析工作區](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) 現在包含 **[!UICONTROL 自上次瀏覽]** 維度後的天數，因而抵消了此外掛程式的需求。
+>[Analysis Workspace](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/) 現在包含立即可用的&#x200B;**[!UICONTROL 上次瀏覽間隔天數]**&#x200B;維度，因而不需要使用此外掛程式。
 
 這項回訪頻率資料可用來解答下列問題:
 
@@ -32,7 +32,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 >[!NOTE]
 >
->下列指示要求您變更網站上的資料收集代碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+>下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式的程式碼與實施 {#section_5600DBB819F143D59527A73BD94418DE}
 
@@ -42,13 +42,14 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 **外掛程式設定**
 
-Place the following code within the `s_doPlugins()` function, which is located in the area of the [!DNL s_code.js] file labeled *Plugin Config*. 選擇一個自訂流量 (s.prop) 變數和 (或) 一個自訂轉換 (s.eVar) 變數，用於回訪頻率資料的擷取。選取的變數應為已使用管理控制台加以啟用，但目前未做任何其他用途的變數。下列內容為範例，請依照您的需求適當加以更新。
+將下列程式碼放入 `s_doPlugins()` 函數中；此函數位於 [!DNL s_code.js] 檔案中標示為 *Plugin Config* 的區域中。選擇一個自訂流量 (s.prop) 變數和 (或) 一個自訂轉換 (s.eVar) 變數，用於回訪頻率資料的擷取。選取的變數應為已使用管理控制台加以啟用，但目前未做任何其他用途的變數。下列內容為範例，請依照您的需求適當加以更新。
 
 ```js
 s.prop1=s.getDaysSinceLastVisit(Cookie_Name);
 ```
 
-**外掛程式區段**&#x200B;將下列程式碼新增至 [!DNL s_code.js]*檔案中標示為* PLUGINS SECTION 的區域中。請勿對此部分的外掛程式程式碼進行任何變更。
+**外掛程式區段**
+將下列程式碼新增至 [!DNL s_code.js]*檔案中標示為* PLUGINS SECTION 的區域中。請勿對此部分的外掛程式程式碼進行任何變更。
 
 ```js
 /* 
@@ -81,5 +82,5 @@ s.getDaysSinceLastVisit=new Function("c",""
    * 多於 7 天
    * 多於 30 天
 
-* 此外掛程式會利用 Cookie 為先前曾瀏覽的使用者加上旗標。若瀏覽器不接受 Cookie，外掛程式會傳回值 *「Cookies Not Supported」*(Cookie 不受支援)。
+* 此外掛程式會利用 Cookie 為先前曾瀏覽的使用者加上旗標。若瀏覽器不接受 Cookie，外掛程式會傳回值 *「Cookies Not Supported」*(不支援 Cookie)。
 
