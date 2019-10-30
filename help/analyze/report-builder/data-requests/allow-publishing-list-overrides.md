@@ -5,9 +5,9 @@ seo-title: 允許發佈清單覆蓋
 solution: Analytics
 title: 允許發佈清單覆蓋
 topic: Report Builder
-uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
+uuid: f2cc9878-ab54-4c6f-8a88-3f3b57955e3
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,7 +26,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 此選項不適用於從儲存格選擇的報表套裝。
 
->[!NOTE]
->
->如果將排程報表傳送給多份發佈清單，報表會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。
+> [!NOTE]如果將排程報表傳送給多份發佈清單，報表會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。
 
