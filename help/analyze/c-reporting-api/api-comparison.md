@@ -1,23 +1,21 @@
 ---
 description: 分析報告 API 的比較表。提供支援文件的連結。
 seo-description: 分析報告 API 的比較表。提供支援文件的連結。
-seo-title: 分析報告 API 比較
+seo-title: Analytics 報表 API 比較
 solution: Analytics
-title: 分析報告 API 比較
-uuid: fa533a8e-33c0-42f4-a294-cabee0258 c8 f
+title: Analytics 報表 API 比較
+uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 分析報告 API 比較
+# Analytics 報表 API 比較
 
 分析報告 API 的比較表。提供支援文件的連結。
 
->[!NOTE]
->
->關於延遲，Target for Target(A4T)將Analytics和Target資料結合在同一點擊中，以進行整合報告。因為 Analytics 和 Target 呼叫發生在不同的時間，會在任何處理發生之前儲存點擊，以從兩個解決方案收集資料。此處理會對所有查核點新增&#x200B;**額外的 7-10 分鐘**&#x200B;延遲。
+> [!NOTE] 關於延遲，Analytics for Target(A4T)將Analytics和Target資料結合在相同點擊上，以進行整合報表。 因為 Analytics 和 Target 呼叫發生在不同的時間，會在任何處理發生之前儲存點擊，以從兩個解決方案收集資料。此處理會對所有查核點新增&#x200B;**額外的 7-10 分鐘**&#x200B;延遲。
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
