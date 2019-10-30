@@ -1,12 +1,12 @@
 ---
 description: 在 Adobe Analytics 中部署動態標籤管理時，所用「Cookie」全域設定的欄位說明。
-keywords: 動態標籤管理；Cookie；訪客ID；訪客namespace；網域句點；fp網域句點；交易ID;Cookie存留期
+keywords: Dynamic Tag Management;Cookie;訪客 ID;訪客命名空間;網域句號;FP 網域句號;交易 ID;Cookie 期限
 seo-description: 在 Adobe Analytics 中部署動態標籤管理時，所用「Cookie」全域設定的欄位說明。
 seo-title: Cookie
-solution: Experience Cloud,Analytics，動態標籤管理
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 # Cookie
 
-Field descriptions for the Cookies global settings used for deploying [!UICONTROL Dynamic Tag Management] in Adobe Analytics.
+在 Adobe Analytics 中部署 [!UICONTROL Dynamic Tag Management] 時，所用 Cookie 全域設定的欄位說明。
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONCONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Cookies]**
+編輯工具]** &gt; **[!UICONTROL Cookie]**
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
@@ -42,7 +42,7 @@ Edit Tool]** &gt; **[!UICONTROL Cookies]**
   </tr> 
   <tr> 
    <td colname="col1"> FP 網域句號 </td> 
-   <td colname="col2"> <p>此 <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>請參 <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local"> 閱s.fpCookieDomainPeriods</a>。 </p> </td> 
+   <td colname="col2"> <p>此<span class="term"> fpCookieDomainPeriods</span> 變數會用於由 JavaScript (<code>s_sq</code>、<code> s_cc</code>、外掛程式) 設定、原本即為第一方 Cookie 的 Cookie，即使您的實施使用第三方 <span class="filepath">2o7.net</span> 或 <span class="filepath">omtrdc.net</span> 網域亦然。 </p> <p>請參閱 <a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local">s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
