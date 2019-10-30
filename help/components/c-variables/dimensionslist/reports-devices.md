@@ -5,9 +5,9 @@ seo-title: 裝置
 solution: Analytics
 title: 裝置
 topic: 報表
-uuid: b7ca4a3f-8646-42b8-82c8-ea4 f809 dc115
+uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
