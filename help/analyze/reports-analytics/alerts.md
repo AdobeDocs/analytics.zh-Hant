@@ -5,10 +5,10 @@ seo-title: 警報
 solution: Analytics
 subtopic: 警報
 title: 警報
-topic: Reports & Analytics
-uuid: e1333a9b-ea0-45b7-b7 e6-46e06190 db64
+topic: Reports and Analytics
+uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,14 +17,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 警報 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-智慧提醒是所有Adobe Analytics的新警報系統，可讓您建立和管理警報，並提供警報預覽和規則貢獻。您可以
+智慧型警報是所有Adobe Analytics的全新警報系統，可讓您建立和管理警報，並提供警報預覽和規則貢獻。 您可以
 
 * 根據異常 (90％、95％ 或 99％ 臨界值；％ 變化；以上/以下) 建立警報。
 * 預覽警報觸發的頻率。
 * 透過電子郵件或簡訊發送附有與自動產生的 Analysis Workspace 專案連結的警報。
 * 建立在單一警報中擷取多個量度的「堆疊」警報。
 
-You can access this new Alerts system from **[!UICONTROL More]** &gt; **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+您可以在 Report &amp; Analytics 中任何報表內的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
 
 若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)。
 
@@ -38,7 +38,7 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** menu. 不過，您仍可從「Report &amp; Analytics」內的報表進行存取:
+導覽至「 **[!UICONTROL Analytics]** &gt;元件」選單中的新 **[!UICONTROL 警報產生器]** 。 不過，您仍可從「Report &amp; Analytics」內的報表進行存取:
 
 1. 在「Report &amp; Analytics」內，開啟您要設定警報的報告。
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
@@ -46,7 +46,7 @@ Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** &gt; **[!UIC
 
 ## 檢視或編輯現有警報 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-任務內容
+任務上下文
 
 1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**. 這步驟將帶您進入新的[警報產生器](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)。
 
@@ -80,7 +80,7 @@ deprecated_alerts.xml
    <td colname="col3"> <p>不再可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>以時間為依據的獨特訪客警報 (每日、每週、每月等獨特訪客) </p> <p> </p> </td> 
+   <td colname="col1"> <p>以時間為依據的獨特訪客警報 (每日、每週、每月等不重複訪客) </p> <p> </p> </td> 
    <td colname="col2"> <p>建立每小時、每日、每週、每月獨特訪客報表。 </p> </td> 
    <td colname="col3"> <p>在新的警報管理器中，某些以時間為依據的獨特訪客警報將不再受到支援。例如，在您之前能夠設定每日獨特訪客每週警報的地方，您之後將可在獨特訪客量度中設定每日、每週等警報。(Analysis Workspace 支援獨特訪客量度，但不支援每日/每週/每月等獨特訪客量度。) </p> <p> </p> </td> 
   </tr> 
@@ -95,9 +95,9 @@ deprecated_alerts.xml
      <ul id="ul_9A690970A5AE4ED39E664DF23EF3164F"> 
       <li id="li_E2F44EDBA1D945CEBAC4802ED714E7A1">JavaScript </li> 
       <li id="li_B847C6A988854F76824F099681705EC9">路徑長度 </li> 
-      <li id="li_4AF656460BC748E8802FAF258D01842F">機器人 </li> 
+      <li id="li_4AF656460BC748E8802FAF258D01842F">Bot </li> 
       <li id="li_A300D2803B244774839BEC23D3EB533A">時區 </li> 
-      <li id="li_7A0B4CF92F4D47238B7B329EEC213322">上層網域 </li> 
+      <li id="li_7A0B4CF92F4D47238B7B329EEC213322">頂級網域 </li> 
      </ul> </p> <p> </p> </td> 
    <td colname="col3"> <p>不再可用於新的警報管理器。 </p> </td> 
   </tr> 
