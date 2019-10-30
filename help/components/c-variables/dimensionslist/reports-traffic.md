@@ -5,9 +5,9 @@ seo-title: 流量
 solution: Analytics
 title: 流量
 topic: 報表
-uuid: c32af0c0-f0 c2-47f7-a5 f6-4a2 df63 e11 fc
+uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,4 +27,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **通用持續性**
 
-在「流量來源」報告中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行  *`DVD`*&#x200B;會將他們帶到您的網站進行$100購買，報告會分配$100評分給關鍵字 *`DVD`* ，以及Google搜尋引擎。不論管理設定為何，該功能皆不可變更。
+在「流量來源」報告中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行   *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. 不論管理設定為何，該功能皆不可變更。
