@@ -1,18 +1,18 @@
 ---
 description: 設定與 Adobe FTP 伺服器間安全傳輸的指示。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 設定與 Adobe FTP 伺服器間安全傳輸的指示。
-seo-title: 使用SFTP連線至Adobe FTP帳戶
+seo-title: 使用 SFTP 連線至 Adobe FTP 帳戶
 solution: Analytics
-title: 使用SFTP連線至Adobe FTP帳戶
-uuid: 4ff27b8-7276-3c68-87cb-35802b809e27
+title: 使用 SFTP 連線至 Adobe FTP 帳戶
+uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 使用SFTP連線至Adobe FTP帳戶
+# 使用 SFTP 連線至 Adobe FTP 帳戶
 
 設定與 Adobe FTP 伺服器間安全傳輸的指示。
 
@@ -33,6 +33,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    * Create a [!DNL .ssh] directory (if it does not already exist).
    * Upload the [!DNL authorized_keys] file to the [!DNL .ssh] directory.
 
-1. 使用SFTP登入FTP帳戶來測試連線。
+1. 使用SFTP登入FTP帳戶以測試連線。
 
-For more detailed information, see [How to Connect to Adobe via sFTP Without a Password_...](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846).
+[如需詳細資訊，請 ](../../../export/ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md#concept_962A381F42A4472AA366A08CCC962846)參閱如何透過sFTP不使用密碼連線至Adobe_....
