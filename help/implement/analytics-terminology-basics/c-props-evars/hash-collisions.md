@@ -1,13 +1,13 @@
 ---
 description: 描述雜湊碰撞為何及其出現方式。
-keywords: Analytics實作；雜湊；碰撞；prop；evar；雜湊
+keywords: Analytics 實施;雜湊;碰撞;Prop;eVar;雜湊
 seo-description: 描述雜湊碰撞為何及其出現方式。
 seo-title: 雜湊碰撞
 solution: Analytics
 title: 雜湊碰撞
-topic: 開發人員和實施
-uuid: 7dfd6e64-4087-bc28-fb867 ec2 b1 b6
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
