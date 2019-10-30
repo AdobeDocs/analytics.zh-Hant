@@ -5,10 +5,10 @@ seo-title: 關於資料蒐集
 solution: Analytics
 subtopic: 快速入門
 title: 關於資料蒐集
-topic: Reports & Analytics
-uuid: dd9a23d-ad49-4841-8f4 c-32c3993851 f
+topic: Reports and Analytics
+uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,4 +29,4 @@ Adobe 追蹤的每一個頁面均含有一小段經由 Adobe 授權的 JavaScrip
 
 資料蒐集十分迅速，也不會對頁面載入時間造成顯著影響。蒐集的資料包括由於點按瀏覽器&#x200B;**重新載入**&#x200B;或&#x200B;**上一步**&#x200B;按鈕而產生的頁面檢視。即使頁面是從快取中擷取出來，JavaScript 程式碼也會執行。
 
-See [Data Collection in Analytics](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html).
+請參 [閱Analytics中的資料收集](https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html)。
