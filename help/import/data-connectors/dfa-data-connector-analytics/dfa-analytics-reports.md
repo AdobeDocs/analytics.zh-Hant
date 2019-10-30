@@ -8,7 +8,7 @@ title: 使用 DFA 資料的分析報表
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafed6
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,5 +51,5 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 * 圖形會以量度總計的百分比形式顯示每個量度的資料，而不是使用每個量度的實際數值。您可以在&#x200B;**[!UICONTROL 「設定報表」]對話方塊中變更此設定。**
 * 在圖形下方，DFA_Ad 名稱報表會列出每個 DFA 廣告的報表詳細資料，並顯示廣告效益的數值和百分比資料。
 * 選取特定 DFA 廣告名稱可開啟選項功能表，以取得更多關於特定 DFA 廣告的資訊。
-* 每個量度欄都包含一個顏色索引鍵，分別與量度在圖形中的指定顏色相對應。
+* 每個量度欄都包含對應於圖形中量度指定色彩的色鍵。
 * 報表會以「收入」量度排序，收入最高的廣告位於最上方。您可以按一下不同的欄 (量度) 標籤，以變更報表排序。
