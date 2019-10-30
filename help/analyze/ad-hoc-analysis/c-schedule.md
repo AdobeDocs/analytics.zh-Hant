@@ -7,7 +7,7 @@ title: 計劃管理員
 topic: Ad Hoc Analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 您可以自訂報表的傳送計劃。您可以在特定時間停止傳送，也可以指定某一報表的傳送次數。新計劃會使用報表中定義的日期範圍。例如，如果您針對最近 90 天建立了報告，並排程讓其每天執行，則會每天收到最近 90 天的報告。如果您是從日曆的靜態日期範圍建立報告，則每次報告傳送時，您看到的都是相同的報告。
 
->[!NOTE]
->
->當使用者帳戶停用時，該使用者建立的任何計畫報表傳送都會暫停。
+> [!NOTE] 當使用者帳戶停用時，該使用者建立的任何計畫報表傳送都會暫停。
 
 若要確保劃分中的明細項目在儲存和排程報表中持續存在，請使用「表格產生器」中的「編輯項目 ****[](../../analyze/ad-hoc-analysis/c-tablebuilder.md#concept_664FC77306E148DBA4EA081814943C5E) 」功能，在劃分中建立固定維度清單。
 
