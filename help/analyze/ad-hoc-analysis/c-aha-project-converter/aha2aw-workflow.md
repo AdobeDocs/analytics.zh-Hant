@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 在臨機分析中轉換您的專案
-title: 在臨機分析中轉換您的專案
-uuid: 20bd9974-209e-457c-9e52-d50 f90078 af6
+seo-title: 在 Ad Hoc Analysis 中轉換專案
+title: 在 Ad Hoc Analysis 中轉換專案
+uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 在臨機分析中轉換您的專案
+# 在 Ad Hoc Analysis 中轉換專案
 
-## Convert your projects in Ad Hoc Analysis {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## 在 Ad Hoc Analysis 中轉換專案 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 轉換專案之前，請注意下列事項: 
 
