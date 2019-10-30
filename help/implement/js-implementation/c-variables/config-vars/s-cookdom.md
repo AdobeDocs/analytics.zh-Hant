@@ -5,15 +5,15 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomain
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set.
+變數會判斷 [!DNL Analytics] Cookie `s_cc` 和 `s_sq` 設定的網域。
 
-Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using , you can explicitly set  to what you want to use in your implementation. `s.cookieDomainPeriods``s.cookieDomain`舉例來說，您可以使用下列語法，以完全合格的頁面名稱來設定 Cookie:
+Commonly, `s.cookieDomainPeriods` is used to generate `s.cookieDomain` from `window.location.hostname`. Instead of using `s.cookieDomainPeriods`, you can explicitly set `s.cookieDomain` to what you want to use in your implementation. 舉例來說，您可以使用下列語法，以完全合格的頁面名稱來設定 Cookie:
 
 `s.cookieDomain = window.location.hostname;`
