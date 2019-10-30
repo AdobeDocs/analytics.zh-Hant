@@ -6,9 +6,9 @@ seo-title: 隱藏報表套裝
 solution: Analytics
 title: 隱藏報表套裝
 topic: 管理工具
-uuid: 3e857ba7-d48 e-44d5-ad60-f3349 e203 e10
+uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 >[!IMPORTANT]
 >
->從您的網站傳送至隱藏報表套裝的資料會繼續收集、處理和計費。換句話說，報表套裝不會被完全刪除。
+>從您的網站傳送至隱藏報表套裝的資料會持續收集、處理和計費。 換句話說，報表套裝不會被完全刪除。
 
 To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. 勾選報表套裝名稱左側的「**[!UICONTROL 隱藏]」核取方塊。**
 
