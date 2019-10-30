@@ -1,20 +1,20 @@
 ---
 description: 指定退出連結，以及自訂連結的品牌化。來到您網站的訪客可能會造訪您資料收集網域的退出頁面，選擇不讓 Adobe 分析產品追蹤其活動。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 指定退出連結，以及自訂連結的品牌化。來到您網站的訪客可能會造訪您資料收集網域的退出頁面，選擇不讓 Adobe 分析產品追蹤其活動。
-seo-title: 新增退出連結
+seo-title: 新增選擇退出連結
 solution: Analytics
 subtopic: 疑難排解
-title: 新增退出連結
-topic: 開發人員和實施
-uuid: c12092be-3be-4621-b838-d6 b78 d074 f84
-translation-type: tm+mt
+title: 新增選擇退出連結
+topic: 開發人員和實作
+uuid: c12092be-3be7-4621-b838-d6b78d074f84
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
 
 
-# 新增退出連結
+# 新增選擇退出連結
 
 指定退出連結，以及自訂連結的品牌化。來到您網站的訪客可能會造訪您資料收集網域的退出頁面，選擇不讓 Adobe 分析產品追蹤其活動。
 
@@ -26,9 +26,9 @@ URL 結構的 collection_domain 區段是 JavaScript 檔案中使用的 tracking
 
 Adobe 提供所有實施類型的退出連結。您必須負責自己的隱私權原則以及遵循已簽署條款。請注意，退出頁面的連結會依您的實施類型而改變，如下所述。
 
-如果您實施 Adobe Analytics 產品和服務並在 Adobe 擁有的網域 (亦即 207.net 或 omtrdc.net) 上設定 Cookie，則在針對 Adobe Analytics 產品和服務使用 Adobe Cookie 的所有網站上，可將您的訪客引導至 [Adobe 隱私中心](https://www.adobe.com/privacy/opt-out.html)提供的退出機制。The direct link to the Adobe opt-out mechanism is `https:// *collection_domain* /optout.html`.
+如果您實施 Adobe Analytics 產品和服務並在 Adobe 擁有的網域 (亦即 207.net 或 omtrdc.net) 上設定 Cookie，則在針對 Adobe Analytics 產品和服務使用 Adobe Cookie 的所有網站上，可將您的訪客引導至 [Adobe 隱私中心](https://www.adobe.com/tw/privacy/opt-out.html)提供的選擇退出機制。Adobe 退出機制的直接連結為 `https:// *collection_domain* /optout.html`。
 
-More information about Adobe Analytics privacy practices can be found at [https://www.adobe.com/privacy/advertising-services.html](https://www.adobe.com/privacy/advertising-services.html).
+如需 Adobe Analytics 隱私權實務的其他相關資訊，請參閱 [https://www.adobe.com/tw/privacy/advertising-services.html](https://www.adobe.com/tw/privacy/advertising-services.html)。
 
 * [退出頁面 URL 結構](../../../implement/js-implementation/data-collection/opt-out-link.md#section_E0462428D2E440E7863E24D2F6DBF748)
 * [退出 URL 範例](../../../implement/js-implementation/data-collection/opt-out-link.md#section_258DE5226AA0483CA790D2C9C5318B2E)
@@ -42,9 +42,9 @@ More information about Adobe Analytics privacy practices can be found at [https:
 https://collection_domain/optout.html[?optional_parameters]
 ```
 
-The `optional_parameters` include:
+`optional_parameters` 包含:
 
-`locale=[code]`：提供轉譯頁面的翻譯版本。支援下列地區設定:
+`locale=[code]`: 提供選擇退出頁面的翻譯版本。支援下列地區設定:
 
 * en_US (預設)
 * de_DE
@@ -77,7 +77,7 @@ https://example.d3.sc.omtrdc.net/optout.html?locale=fr_FR
 https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 ```
 
-## 將退出 URL 品牌化 {#section_674AB62E810B414AB8F1615C0E3061F8}
+## 將退出 URL 品牌化{#section_674AB62E810B414AB8F1615C0E3061F8}
 
 您可以在網站某處提供類似下列的連結:
 
@@ -86,6 +86,6 @@ https://example.112.2o7.net/optout.html?popup=1&locale=de_DE
 Click Here to Opt Out! </a>
 ```
 
-其中&#x200B;*`stats.adobe.com`* 會取代為 *`s.trackingServer`* 變數設定的任何項目。
+其中&#x200B;*`stats.adobe.com`* 會取代為 *`s.trackingServer`* 變數所設定的任何值。
 
-Additionally, if you want like to provide a link to opt-in, use the same URL, but replace `?optout=1` with `?optin=1`, and keep the `confirm_change=1`.
+此外，如果您想提供退出的連結，請使用同一個 URL 但將 `?optout=1` 更換為 `?optin=1`，並保留 `confirm_change=1`。
