@@ -5,7 +5,7 @@ seo-title: 檢視/管理報表套裝資料控管設定
 title: 檢視/管理報表套裝資料控管設定
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>已對應</b>: 此報表套裝與您目前登入的 Analytics 登入公司已對應至同一個 Experience Cloud 組織。只有套用此設定的報表套裝才能加上標籤。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>: 按一下此連結可讓您<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">將報表套裝對應至</a> Experience Cloud 組織。 <p>這表示您將被重新導向至「Experience cloud組織——報表套裝對應管理」頁面，您必須在此頁面尋找報表套裝，並將其指派給適當的組織。 完成之後，導覽返回此資料控管 UI。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>: 按一下此連結可讓您<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">將報表套裝對應至</a> Experience Cloud 組織。 <p>換句話說，您會重新導向至 Experience Cloud 組織 – 報表套裝對應管理頁面，您可在該處找到報表套裝，並指派給適當的組織。完成之後，導覽返回此資料控管 UI。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>已對應至其他組織</b>: 其他 Experience Cloud 組織已將此報表套裝套用至其組織。 </li> 
     </ul> </td> 
   </tr> 
