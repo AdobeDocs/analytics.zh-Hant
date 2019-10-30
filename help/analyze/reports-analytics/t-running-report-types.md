@@ -7,7 +7,7 @@ title: 執行不同的報表類型
 topic: 報告,Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -157,9 +157,7 @@ t_anomaly_view.xml
 
 **[!UICONTROL 報表]** &gt;網 **[!UICONTROL 站量度]** &gt; **[!UICONTROL 異常偵測]** 。
 
->[!NOTE]
->
->您也可以從分析工作區專案中執行異常偵測。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE] 您也可以從分析工作區專案中執行異常偵測。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
 如需設定異常偵測的資訊，請參閱[參考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)。
 
@@ -313,7 +311,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>排序依據... 最熱門/增加/減少</strong></td> 
-   <td class="chdesc stentry"> 您可以切換為按照<span class="uicontrol">最熱門</span> (預設)、<span class="uicontrol">增加</span> (顯示最有成長) 和<span class="uicontrol">減少</span> (向下減少的維度) 進行排序。 <p>用來判斷增加或減少的公式如下: 即時會查看最早的範例和倒數第二個範例，並進行簡單的「百分比變更」計算。因此，如果選擇「最後 15 分鐘」，而且 n 代表目前分鐘，則 n-1 將與 n-15 比較。即時目前不進行任何加權。目前分鐘不會計入，因為它尚未完成，而且可能產生錯誤的百分比變更。 </p> <p>此公式在即時報告中使用的所有度量均保持一致。 </p> </td> 
+   <td class="chdesc stentry"> 您可以切換為按照<span class="uicontrol">最熱門</span> (預設)、<span class="uicontrol">增加</span> (顯示最有成長) 和<span class="uicontrol">減少</span> (向下減少的維度) 進行排序。 <p>以下是用以判斷獲益者或損失者的公式：即時檢視最早的範例和最新的範例，並執行簡單的「%變更」計算。 因此，如果選取「最近15分鐘」，且n代表目前分鐘，則n-1會與n-15比較。 即時目前不進行任何加權。目前分鐘不會計入，因為它尚未完成，而且可能產生錯誤的百分比變更。 </p> <p>此公式在即時報告中使用的所有度量均保持一致。 </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>次要 1 小報告</strong></td> 
