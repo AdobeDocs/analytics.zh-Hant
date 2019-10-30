@@ -7,8 +7,8 @@ solution: Analytics
 title: 在不同頁面範本間移動
 topic: 開發人員和實作
 uuid: 8c446290-1ea8-4e0a-a973-685b700585d3
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
