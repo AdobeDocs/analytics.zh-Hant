@@ -1,21 +1,21 @@
 ---
 keywords: Analysis Workspace
-seo-title: Analysis Workspace概觀
+seo-title: 分析工作區概觀
 solution: Analytics
-title: Analysis Workspace概觀
-topic: Reports & Analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64 ffbb6 ee4
+title: Analysis Workspace概述
+topic: Reports and Analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: cab449bb5c6a824f800845edd3d45c8b7a1238aa
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analysis Workspace概觀
+# 分析工作區概觀
 
 Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺化和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 工作區」]**
+**[!UICONTROL Analytics]** &gt;工作 **[!UICONTROL 區]**
 
 ## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,9 +23,7 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 [這裡](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)提供完整的 YouTube 播放清單。
 
->[!NOTE]
->
->See [What's New in Analysis Workspace](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) for updates about features.
+> [!NOTE] 如需 [功能的更新，請參閱分析工作區的新增功能](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) 。
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -53,7 +51,7 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」等新的滑鼠右鍵選項。若要將內部連結新增至您的專案:
+In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增名為「取得面板連結」和「取得視覺化連結」的全新右鍵選項。 若要將內部連結新增至您的專案:
 
 1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
 1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
@@ -69,9 +67,7 @@ In conjunction with the [rich text editing](../../analyze/analysis-workspace/vis
 
 如果您在專案內摺疊面板或視覺效果，按一下連結會展開面板/視覺效果，供使用者檢視。
 
->[!NOTE]
->
->You can also use this feature within the **[!UICONTROL Edit Description]** right-click option.
+> [!NOTE] 您也可以在「編輯說明」( **[!UICONTROL Edit Description]** )按一下右鍵選項中使用此功能。
 
 ## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
@@ -121,7 +117,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-請參閱[區段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)。
+請參閱 [區段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -171,7 +167,7 @@ See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/b
 
 **選取範圍和動作**
 
-您可用在 Excel 中選取行和欄的方式，來選取行和欄。接著就可以在這些選取範圍上執行動作。例如：
+您可用在 Excel 中選取行和欄的方式，來選取行和欄。接著就可以在這些選取範圍上執行動作。例如:
 
 * 從選取範圍建立視覺效果
 * 複製至剪貼簿 (CTRL 或 Command + C)
