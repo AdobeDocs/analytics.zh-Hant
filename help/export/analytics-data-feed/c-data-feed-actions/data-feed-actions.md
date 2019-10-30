@@ -1,18 +1,18 @@
 ---
 description: 您可以針對資料摘要執行多種動作。
-keywords: 資料饋送；actions
+keywords: 資料饋送；動作
 seo-description: 您可以針對資料摘要執行多種動作。
-seo-title: 資料饋送面板
+seo-title: 資料摘要面板
 solution: Analytics
-title: 資料饋送面板
-uuid: 10527738-13c2-48c0-9bb3-c4 c93 fb4 d8 f
+title: 資料摘要面板
+uuid: 10527738-13c2-48c0-9bb3-c4c93fbb4d8f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料饋送面板
+# 資料摘要面板
 
 您可以針對資料摘要執行多種動作。
 
