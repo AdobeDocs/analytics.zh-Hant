@@ -1,18 +1,18 @@
 ---
 description: Report Builder 中「管理請求」的欄位說明。
 seo-description: Report Builder 中「管理請求」的欄位說明。
-seo-title: 管理請求-定義
+seo-title: 管理請求 - 定義
 solution: Analytics
-title: 管理請求-定義
+title: 管理請求 - 定義
 topic: Report Builder
-uuid: 01b21d0e-c870-4df8-95b9-f4 aef1 f4 d16 b
+uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: 6a70b32b576cc7b5b6a6f0037d98e35b3f8c1426
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 管理請求-定義
+# 管理請求 - 定義
 
 Report Builder 中「管理請求」的欄位說明。
 
@@ -20,11 +20,9 @@ Report Builder 中「管理請求」的欄位說明。
 
 「[!UICONTROL 請求管理員]」能針對您為所有工作表建立的所有請求，提供詳細狀態檢視，或只提供使用中活頁簿內一份工作表的詳細狀態檢視。您也可以針對含有舊有請求的 Excel 試算表，在可用的儲存格內按一下滑鼠右鍵來新增、編輯、重新整理及刪除請求 (通常是與「[!UICONTROL 請求精靈]」和「[!UICONTROL 請求管理員]」相關的功能)。
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+按一 [!UICONTROL 下「管理] 」(在「報告建立工具」工具列 ****![](assets/edit_request.gif) 中)時，會顯示「請求管理員」。
 
->[!NOTE]
->
->Adobe Report Builder只會在同一工作表內執行請求相依性，而不會跨工作表執行請求。將相依性限制在單一工作表中，可確保執行的時效性。
+> [!NOTE] Adobe Report builder只會在相同的工作表內實施請求相依性，而不會跨工作表執行。 將相依性限制在單一工作表中，可確保執行的時效性。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -53,7 +51,7 @@ The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]**
    <td colname="col2"> <p>顯示報表的指定日期範圍。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>詳細程度 </p> </td> 
+   <td colname="col1"> <p>粒度 </p> </td> 
    <td colname="col2"> <p>指定請求的詳細程度。 </p> </td> 
   </tr> 
   <tr> 
