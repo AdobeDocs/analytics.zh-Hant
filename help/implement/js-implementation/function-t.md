@@ -1,14 +1,14 @@
 ---
 description: s.t() 函數會將該頁面上所定義的所有變數編譯為影像要求，並將其傳送至我們的伺服器。
-keywords: track；Analytics實作；頁面追蹤；追蹤頁面
+keywords: 追蹤;Analytics 實施;頁面追蹤;追蹤頁面
 seo-description: s.t() 函數會將該頁面上所定義的所有變數編譯為影像要求，並將其傳送至我們的伺服器。
 seo-title: s.t() 函數 - 頁面追蹤
 solution: Analytics
 subtopic: 函數
 title: s.t() 函數 - 頁面追蹤
-topic: 開發人員和實施
-uuid: 67696e46-1e0d-4200-bfad-427d1022348
-translation-type: tm+mt
+topic: 開發人員和實作
+uuid: 67696e46-1e0d-4200-bfad-4217d1023948
+translation-type: ht
 source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ---
@@ -25,7 +25,7 @@ s.t() 函數會將該頁面上所定義的所有變數編譯為影像要求，�
 * 若您要在單一頁面載入時引發多個影像要求，建議您使用 [!UICONTROL s.tl()] 函數。
 * 觸發此函數一律會使[!UICONTROL 頁面檢視]增加，也一律會納入 [!UICONTROL s.pageName] 變數。
 
-## 實施 {#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
+## 實施{#section_F75C7BD4A8954CD5BE066C6B88A4A01C}
 
 在[!UICONTROL 程式碼管理員]中產生程式碼時，頁面程式碼底部會出現下列項目: 
 
