@@ -4,10 +4,10 @@ seo-description: 所有轉換報告都會啟用完全子關聯，因此您可以
 seo-title: 子關聯
 solution: Analytics
 title: 子關聯
-topic: Reports & Analytics
-uuid: ca6df50f-5d4c-4f91-bc27-86CCD01391 a
+topic: Reports and Analytics
+uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
