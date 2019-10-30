@@ -5,7 +5,7 @@ seo-title: 度量和維度
 title: 度量和維度
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,8 +24,8 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 | 應用程式商店評等除數 | 用於定義「平均appFigures計算量度」。 未直接使用。 |
 | App Store收入（在應用程式中） | 應用程式內收入金額。 |
 | App Store收入（一次） | 與應用程式購買相關聯的收入金額。 |
-| App Store版稅（在應用程式中） | 不再提倡。 |
-| App Store版稅（一次） | 不再提倡。 |
+| App Store版稅（在應用程式中） | 已遭取代。 |
+| App Store版稅（一次） | 已遭取代。 |
 
 下列保留的分類維度是由資料連接器精靈為AppFigures物件ID保留eVar建立的。
 
