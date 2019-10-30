@@ -1,13 +1,13 @@
 ---
 description: 下列變數和函數可讓您在應用程式離線時儲存測量呼叫。
-keywords: Analytics 實施
+keywords: Analytics 實作
 seo-description: 下列變數和函數可讓您在應用程式離線時儲存測量呼叫。
 seo-title: 離線追蹤
 solution: Analytics
 title: 離線追蹤
-topic: 開發人員和實施
+topic: 開發人員和實作
 uuid: f7c55aef-28a4-4f2f-8f47-792a05f9525b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
 
 >[!NOTE]
 >
->若要啓用離線追蹤，您的報表套裝必須啓用時間戳記。如果報表套裝已啟用時間戳記，您的 `trackOffline` 組態屬性&#x200B;*必須*&#x200B;為 true。如果報表套裝未啟用時間戳記，您的 `trackOffline` 設定屬性&#x200B;*必須*&#x200B;為 false。如果此項目未正確設定，將會遺失資料。如果您不確定報表套裝是否啟用時間戳記，[聯絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics)
+>若要啟用離線追蹤，您的報表套裝必須已啟用時間戳記。如果報表套裝已啟用時間戳記，您的 `trackOffline` 組態屬性&#x200B;*必須*&#x200B;為 true。如果報表套裝未啟用時間戳記，您的 `trackOffline` 設定屬性&#x200B;*必須*&#x200B;為 false。如果此項目未正確設定，將會遺失資料。如果您不確定報表套裝是否啟用時間戳記，[聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html#analytics)
 
 啟用後，離線 AppMeasurement 會以下列方式運作:
 
@@ -40,20 +40,23 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   <tr> 
    <td colname="col1"> <p>trackOffline </p> </td> 
    <td colname="col2"> <p>預設值: false </p> <p>啟用或停用測量程式庫的離線追蹤。 </p> <p> <b>範例:</b> </p> 
-    <code class="syntax c">s. trackOffline= true； </code>
-  </td> 
+    <code class="syntax c">
+      s.trackOffline=true; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>offlineLimit </p> </td> 
    <td colname="col2"> <p>預設: 無限制 </p> <p>儲存在佇列中的離線點擊數量上限。 </p> <p> <b>範例:</b> </p> 
-    <code class="syntax c">s. offlineHitLimit=100； </code>
-  </td> 
+    <code class="syntax c">
+      s.offlineHitLimit=100; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>offlineThrottleDelay </p> </td> 
    <td colname="col2"> <p>預設值: 0 </p> <p>指定當 AppMeasurement 偵測到作用中的網路連線時，傳送緩衝點擊資料的延遲時間 (單位為毫秒)。指定此值可減輕因傳送多筆點擊資料而對應用程式造成的效能影響。 </p> <p>例如，如果 offlineThrottleDelay=1000 且系統花了 300 毫秒傳送點擊資料，則 AppMeasurement 會等候 700 毫秒再傳送下一筆緩衝點擊資料。 </p> 
-    <code class="syntax c">s. offlineThrottleDelay=1000； </code>
-  </td> 
+    <code class="syntax c">
+      s.offlineThrottleDelay=1000; 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>forceOnline </p> <p>forceOffline </p> </td> 
@@ -62,7 +65,8 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
      <li id="li_AF074C55DFED4DC8BD8CF3D25805040C"> 如果 <code>trackOffline</code> 為 true: 會儲存點擊資料，直到測量上線為止。 </li> 
      <li id="li_6A623377462548DB97C31654EADCFAF3"> 如果 <code>trackOffline</code> 為 false: 會捨棄點擊資料。 </li> 
     </ul> <p> <b>範例:</b> </p> 
-    <code class="syntax c">s. forceOffline()；
+    <code class="syntax c">
+      s.forceOffline();
 
 s.forceOnline();
 </code> </td>
