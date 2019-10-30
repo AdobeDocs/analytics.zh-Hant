@@ -5,9 +5,9 @@ seo-title: 訪客保留率
 solution: Analytics
 title: 訪客保留率
 topic: 報表
-uuid: e2d477d0-f704-489b-b4 b3-941bc352 cd7 a
+uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 回訪頻率 </td> 
+   <td colname="col1"> 回訪頻度 </td> 
    <td colname="col2"> <p>以下列類別 (代表每次存取間的時間間隔) 顯示返回您網站的訪客數目: 少於 1 天、1-3 天、3-7 天、8-14 天、14 天至 1 個月，以及多於 1 個月。 </p> </td> 
   </tr> 
   <tr> 
@@ -41,7 +41,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>顯示在指定一日內瀏覽您的網頁一次以上的訪客數目。一天指過去的 24 個小時。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 造訪次數 </td> 
+   <td colname="col1"> 訪問次數 </td> 
    <td colname="col2"> <p>顯示每位訪客瀏覽網站的次數。 </p> </td> 
   </tr> 
   <tr> 
@@ -49,12 +49,12 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col2"> <p>以三種類別的忠誠度 (新客戶、回訪客戶和忠誠客戶) 來顯示客戶購買模式。「<span class="wintitle">客戶忠誠度</span>」報告顯示新客戶、回訪客戶和忠誠客戶對網站標準成功量度的貢獻大小。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 首次購買前的天數差距 </td> 
+   <td colname="col1"> 首次購買間隔天數 </td> 
    <td colname="col2"> <p>顯示客戶首次瀏覽網站和進行購買之間的間隔天數。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 上次購買間隔天數 </td> 
-   <td colname="col2"> <p>顯示客戶再次購買的最常見間隔天數，並可讓您檢視對網站的「收入」和「訂購」等主要成功量度貢獻最大的時段。 </p> </td> 
+   <td colname="col2"> <p>顯示客戶重複購買之間最常見的間隔天數，並可讓您檢視對網站的「收入」和「訂購」等關鍵成功度量貢獻最大的時段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 每日獨特客戶 </td> 
