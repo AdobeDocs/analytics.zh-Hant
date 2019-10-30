@@ -3,9 +3,9 @@ description: 'null'
 seo-description: 'null'
 seo-title: 網域
 title: 網域
-uuid: 6c9a8c68-52ea-4e6e-6e7-be90 d1754073
+uuid: 6c9a8c68-52ea-4e6e-89e7-be90d1754073
 translation-type: tm+mt
-source-git-commit: 723101b72aafe12f126a731ec9ff7a7ebb1e8c09
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
