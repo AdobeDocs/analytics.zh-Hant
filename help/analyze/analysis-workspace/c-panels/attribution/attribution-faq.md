@@ -3,7 +3,7 @@ title: 歸因常見問答集
 seo-title: 歸因常見問答集
 description: 取得有關歸因的常見問題解答。
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
 
 不會。歸因模型使用報表時間處理，只能在分析工作區中使用。 如需詳 [細資訊，請參閱](../../../../components/vrs/vrs-report-time-processing.md) 「報表時間處理」。
 
-**只有在我使用虛擬報表套裝並啟用報表時間處理時，才可使用歸因模型嗎？**
+**只有在我使用虛擬報表套裝並啟用報表時間處理時，才能使用歸因模型嗎？**
 
 歸因模型可在虛擬報表套裝之外使用。 雖然他們在後端使用報表時間處理，但標準報表套裝和虛擬報表套裝都可使用歸因模型。
 
