@@ -4,7 +4,7 @@ seo-description: 關於如何使用Java 11執行臨機分析的指示。
 seo-title: 臨機分析和Java 11
 title: 使用 Java 11 執行 Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,13 +25,11 @@ source-git-commit: 23bdb0c24416c376ec1df7b609a5794dbf8886f2
 1. Go to **[!UICONTROL Analytics &gt; Tools &gt; Ad Hoc Analysis]**.
 1. Click **[!UICONTROL Ad Hoc Analysis (Java 11)]**. 系統會隨即下載 zip 檔。
 1. 將下載的檔案解壓縮。
-1. **選取 .bat (PC) 或 .sh (Mac) 檔**。從 Adobe Analytics URL 中找到「sc」之後的數字，依此數字選取相對應的資料中心檔案。(3 = LON, 4 = SIN, 5 = PNW)如果您使用PC，請前往「關於您的PC」以確認您是在運行32位或64位Windows作業系統。 接著選取對應的 .bat 檔。
+1. **選取 .bat (PC) 或 .sh (Mac) 檔**。請查看Adobe Analytics URL中的"sc"號碼，以選取適當的資料中心檔案。 (3 = LON, 4 = SIN, 5 = PNW)如果您使用PC，請前往「關於您的PC」以驗證您是在運行32位還是64位Windows作業系統。 接著選取對應的 .bat 檔。
 1. **執行選取的檔案**。PC: 按兩下 .bat 檔。Mac: 在 .sh 檔上按一下右鍵，然後選取&#x200B;**[!UICONTROL 「開啟檔案 &gt; 其他...  &gt; 公用程式」&gt; (啟用所有應用程式) &gt; 選取終端機 &gt; 開啟」]**。
 1. 登入 Ad Hoc Analysis。
 
->[!Note]
->
-> 同盟和企業ID驗證方法與Java 11版的臨機分析不相容。
+> [!NOTE] 同盟和企業ID驗證方法與Java 11版的臨機分析不相容。
 
 ## Ad Hoc Analysis (Java 11) 不支援的功能
 
