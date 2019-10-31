@@ -8,8 +8,8 @@ subtopic: 疑難排解
 title: 常見語法錯誤
 topic: 開發人員和實作
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,6 +33,6 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | s.events="event1, event2" | s.events="event1,event2" (在執行多事件標記時事件 ID 之間不空格) |
 | s.products="product name" | s.products=";product name" (未列出產品類別時使用分號) |
 
-## 其他附註{#section_E2B6A9C966AD40A09578DD0F784DCAB9}
+## 其他附註 {#section_E2B6A9C966AD40A09578DD0F784DCAB9}
 
 一律將結束 HTML 備註放在 Adobe 程式碼的結尾處 (即使您使用指令碼的 NOSCRIPT 部分亦然)。
