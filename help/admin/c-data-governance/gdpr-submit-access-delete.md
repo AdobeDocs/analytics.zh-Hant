@@ -5,7 +5,7 @@ seo-title: 提交存取與刪除請求
 title: 提交存取與刪除請求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -35,9 +35,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 您可以透過我們的資料隱私權UI入口網站或我們的 [資料隱私權API](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md) ，提交資料 [隱私權存取和刪除要求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 
->[!NOTE]
->
->資料隱私權API支援在單一要求中為多位使用者批次提交。 目前的支援上限是單一請求 JSON 檔案可提交 1000 名個別使用者 (每位使用者可能有多個 ID)。
+> [!NOTE] 資料隱私權API支援在單一要求中為多位使用者批次提交。 目前的支援上限是單一請求 JSON 檔案可提交 1000 名個別使用者 (每位使用者可能有多個 ID)。
 
 ## 範例 JSON 請求 {#sample-json-request}
 
@@ -122,12 +120,12 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 存取請求傳回的資料可提供您 (即資料控管單位) 可用來下載 ZIP 檔案的 URL，該檔案包含每個所擁有 Adobe 產品的目錄。Analytics 資料夾中可能包含:
 
-* 人員檔案——衍生自包含相符ID-PERSON標籤的點擊
+* 人員檔案 - 由含有相符 ID-PERSON 標籤的點擊所衍生
 
    * .CSV 檔案包含每個符合點擊的行，以及每個具 ACC-ALL 或 ACC-PERSON 標籤欄位的欄，按照時間戳記排序。
    * HTML 摘要檔案，包含每個 ACC-ALL 或 ACC-PERSON 標籤的一個項目。每個項目將列出該欄位的所有唯一值，以及每個值發生的次數。包含時間戳記的欄位會四捨五入，以指定唯一的日期。
 
-* 裝置檔案——衍生自點擊，其中一個欄位符合指定的ID-DEVICE，但沒有符合指定的ID-PERSON
+* 裝置檔案 - 衍生自某個與指定 ID-DEVICE 相符的欄位，但沒有欄位與指定 ID-PERSON 相符的點擊。
 
    * .CSV 檔案包含每個符合點擊的行，以及每個具 ACC-ALL 標籤欄位的欄，按照時間戳記排序。
    * HTML 摘要檔案，包含每個 ACC-ALL 標籤的一個項目。每個項目將列出該欄位的所有唯一值，以及每個值發生的次數。包含時間戳記的欄位會四捨五入，以指定唯一的日期。
