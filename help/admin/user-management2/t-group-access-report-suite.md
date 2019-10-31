@@ -8,7 +8,7 @@ title: 指派使用者群組至報表套裝
 topic: 管理工具
 uuid: 67173113-2fca-483e-9038-8423e6d4de6e
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
    **[!UICONTROL 可用群組:]**&#x200B;顯示所有目前定義的群組。Select the desired groups, then click **[!UICONTROL Add]**. 指定的群組會出現在「包含...的群組」欄位中 (位於右側)。
 
    **[!UICONTROL 包含...的群組:]** 顯示目前指派給報表套裝的所有群組。To remove a group, select it, then click **[!UICONTROL Remove]**.
-1. Click **[!UICONTROL Save Changes]**.
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
