@@ -1,19 +1,19 @@
 ---
 description: 報表中要能顯示渠道和渠道資料，首先須建立渠道和處理資料的基本規則。您亦可建立相關渠道的成本和預算額，並指定所需的訪客參與有效期。報表設定工作在「管理工具」中執行。
 seo-description: 報表中要能顯示渠道和渠道資料，首先須建立渠道和處理資料的基本規則。您亦可建立相關渠道的成本和預算額，並指定所需的訪客參與有效期。報表設定工作在「管理工具」中執行。
-seo-title: 關於渠道與規則
+seo-title: 關於渠道和規則
 solution: Analytics
 subtopic: 行銷渠道
-title: 關於渠道與規則
-topic: Reports & Analytics
-uuid: 7d5747790-4d0d-419d-8fb5-c16 ec5 a4 a387
+title: 關於渠道和規則
+topic: Reports and Analytics
+uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 關於渠道與規則
+# 關於渠道和規則
 
 報表中要能顯示渠道和渠道資料，首先須建立渠道和處理資料的基本規則。您亦可建立相關渠道的成本和預算額，並指定所需的訪客參與有效期。報表設定工作在「管理工具」中執行。
 
@@ -23,16 +23,14 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 Adobe 在[自動設定](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B)期間提供數個預定義渠道，您可視需求加以編輯。
 
->[!NOTE]
->
->Adobe建議您在報表套裝中設定報表，以便用作測試用途的範本。您可使用範本將渠道和規則設定總體套用至一個或多個生產報表套裝。
+> [!NOTE] Adobe建議您在報表套裝中設定報表，以便用作測試的範本。 您可使用範本將渠道和規則設定總體套用至一個或多個生產報表套裝。
 >
 >請參閱[套用範本報表套裝設定至多個報表套裝](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)。
 
 檢閱下列主題:
 
-* [必要條件](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [重要處理注意事項](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [必備條件](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
+* [重要處理附註](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
 
 ## 必備條件 {#section_9913D2932E3140C099B7978CA95378B2}
 
