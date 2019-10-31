@@ -7,8 +7,8 @@ solution: Analytics
 title: 資料正確性驗證
 topic: 開發人員和實作
 uuid: 267f6c61-705a-41cf-9e09-4e2ce2331f32
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 已知成功事件的比較，尤其是一般儲存在 Web 伺服器記錄中的 IP 位址和其他瀏覽器資訊可與收集到的資料相比較的記錄資料。
 * 頁面檢視的比較。
 
->[!NOTE]
->
->預設頁面 (例如 [!DNL index.html]) 通常會接收到自動或監控流量。相較於其他瀏覽頁面，這些頁面對於以瀏覽器為基礎的資料收集會顯現出較大的差異。
+> [!NOTE]預設頁面 (例如 [!DNL index.html]) 通常會接收到自動或監控流量。相較於其他瀏覽頁面，這些頁面對於以瀏覽器為基礎的資料收集會顯現出較大的差異。
 
 這三種類型的驗證都須用到相關時段的除錯記錄或資料饋送。此時段通常是一天或更短的時間。
 
