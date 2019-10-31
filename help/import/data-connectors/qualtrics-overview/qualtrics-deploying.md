@@ -8,7 +8,7 @@ title: 部署整合
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfef09
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,28 +36,28 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
 1. **精靈步驟3**:不需要，僅提供資訊。
 
-   步驟結果1. **精靈步驟4 —— 匯出設定**
+   步驟結果 1。**精靈步驟4 —— 匯出設定**
 
    | eVar | 選取最多5個eVar以供匯出至Qualtrics時公開 |
    |---|---|
-   | 事件 | Select up to five of your custom events to expose for exporting to Qualtrics |
-   | Prop | Select up to five of your Props to expose for exporting to Qualtrics |
-   | Access Requests | Check the box for any of the standard metrics and dimensions that you wish to export to Qualtrics. The  is required to allow the export to function properly.`visitor_id` |
+   | 事件 | 選取最多5個要公開的自訂事件以匯出至Qualtrics |
+   | Prop | 選取最多5個要公開以匯出至Qualtrics的Prop |
+   |  存取要求 | 勾選您要匯出至Qualtrics之任何標準量度和維度的方塊。 必 `visitor_id` 須允許導出正常運行。 |
 
-1. **Wizard Step 5**: Review configuration and then click **[!UICONTROL Activate Now]**.
+1. **精靈步驟5**:檢閱設定，然後按一下「 **[!UICONTROL 立即啟動]**」。
 
-## Enabling the Integration in Qualtrics Research Suite{#enabling-the-integration-in-qualtrics-research-suite}
+## 啟用Qualtrics Research Suite中的整合{#enabling-the-integration-in-qualtrics-research-suite}
 
-After completing the integration wizard, you must activate the integration for each Qualtrics survey that you want connected.
+完成整合精靈後，您必須啟動每個要連線之Qualtrics調查的整合。
 
-1. Log in to the Qualtrics Research Suite.
-1. On the My Surveys tab, click the Edit button for the survey that you want to integrate.********
-1. Click the **[!UICONTROL Advanced Options]** menu and select **[!UICONTROL Adobe Analytics]**. (if you do not see this option, ask your administrator about gaining the permissions required).
+1. 登入Qualtrics Research Suite。
+1. 在「我 **[!UICONTROL 的調查]** 」索引標籤上，按一 **** 下您要整合之調查的「編輯」按鈕。
+1. 按一下「 **[!UICONTROL 進階選項]** 」功能表，然 **[!UICONTROL 後選取Adobe Analytics]**。 （如果您未看到此選項，請詢問您的管理員有關取得所需權限的問題）。
 
    ![](assets/advanced_options.png)
 
-1. Select the Adobe Analytics Configuration, then click Save. **** If no configurations are available then you likely have not yet completed the Adobe Integration Wizard.
-   1. 「包 **[!UICONTROL 含部分回應]** 」核取方塊可用來指示您希望在每個部分調查畫面完成後，將資料擷取至Adobe Analytics。 If not checked, then data is transferred only for fully completed surveys.
+1. 選取「Adobe Analytics設定」，然後按一下「 **[!UICONTROL 儲存]**」。 如果沒有可用的設定，則您可能尚未完成Adobe整合精靈。
+   1. 「包 **[!UICONTROL 含部分回應]** 」核取方塊可用來指示您希望在每個部分調查畫面完成後，將資料擷取至Adobe Analytics。 如果未勾選，則資料只會傳送至完整調查。
    1. 只 **** 有在與已設定為接收時間戳記資料（非常用）的報表套裝整合時，才應使用「傳送含信標的時間戳記」核取方塊。
    ![](assets/integration_config.png)
 
