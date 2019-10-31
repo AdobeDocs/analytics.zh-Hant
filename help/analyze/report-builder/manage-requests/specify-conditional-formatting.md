@@ -1,18 +1,18 @@
 ---
 description: 在建立含內嵌請求的報表後，您可以將格式化的條件套用至新活頁簿的儲存格。
 seo-description: 在建立含內嵌請求的報表後，您可以將格式化的條件套用至新活頁簿的儲存格。
-seo-title: 指定條件式格式
+seo-title: 指定格式化的條件
 solution: Analytics
-title: 指定條件式格式
+title: 指定格式化的條件
 topic: Report Builder
-uuid: 13ac12f1-3498-1fb9-a6 d0-c5 d84 e0125 dc
+uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 指定條件式格式
+# 指定格式化的條件
 
 在建立含內嵌請求的報表後，您可以將格式化的條件套用至新活頁簿的儲存格。
 
@@ -22,7 +22,5 @@ On the report builder Toolbar, click **[!UICONTROL Format]**.
 
 基於安全理由，會停用您使用 Excel Visual Basic for Applications (VBA) 語言撰寫的活頁簿巨集。
 
->[!NOTE]
->
->條件式格式是Excel功能。如需建立格式化規則的資訊，請參閱 Excel 文件。
+> [!NOTE] 條件式格式是Excel功能。 如需建立格式化規則的資訊，請參閱 Excel 文件。
 
