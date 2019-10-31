@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 伺服器端轉送概觀
 uuid: 22ddbde5-6805-4eba-8f82-6272644dcaa
 translation-type: tm+mt
-source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -43,10 +43,10 @@ source-git-commit: a41ac96bf93343fbcb8d7ab16f633665dcf3aa6a
 
 檢查Analytics追蹤請求，確認您是否已實作伺服器端轉 [送版本](/help/admin/admin/c-server-side-forwarding/ssf-verify.md)。
 
-在「回應」標籤中，檢查回應是否包含 Audience Manager 資料。如果您看到:
+在「回應」索引標籤中，檢查回應是否包含Audience manager資料。 如果您看到:
 
-* **Audience Manager 的 JSON 回應包含「postbacks」或「dcs_region」等項目**: 您已經啟用伺服器端轉送的部分形式。繼續進行步驟 3。
-* **「status":"SUCCESS」**: 您已實作「對象管理模組」，但未正確設定伺服器端轉送。繼續進行步驟 3。
+* A **JSON response from Audience Manager that includes items such as "postbacks" or "dcs_region"**: you have some form of server-side forwarding already enabled. 繼續進行步驟 3。
+* The **"status":"SUCCESS"**: you have the Audience Management Module implemented, but do not have server side forwarding properly configured. 繼續進行步驟 3。
 * **2 x 2 影像**: 您尚未實作伺服器端轉送或「對象管理模組」。若要修正此問題:
 
    * **具有 DIL 的 AAM 客戶**: 密切協調下列兩個項目:
@@ -70,7 +70,5 @@ Go to **Analytics** &gt; **Admin** &gt; **Report Suites** &gt; (select **report 
 
 <!-- Meike, check Report Suite Mapping UI link above -->
 
->[!NOTE]
->
->Data will not appear in other Experience Cloud solutions, such as [Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html) or [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) until all 3 steps are complete. 啟用後，這些設定需要數小時的時間才會生效。
+> [!NOTE] 在完成所有3個步驟之前，資料不會出現在其他Experience cloud解決方 [案中，例如Audience Manager](https://marketing.adobe.com/resources/help/en_US/aam/c_aam_home.html)[或Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) 。 啟用後，這些設定需要數小時的時間才會生效。
 
