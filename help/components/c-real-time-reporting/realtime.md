@@ -1,26 +1,24 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 seo-description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-seo-title: 即時報告概述
+seo-title: 即時報表概觀
 solution: Analytics
-title: 即時報告概述
+title: 即時報表概觀
 topic: 報表
-uuid: ff832952-c507-4c63-9437-25d9 c44 c44 d
+uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 5c13b8d8fa2fca85d89d0c22f6142a83a87d9975
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 即時報告概述
+# 即時報表概觀
 
-即時報告會即時顯示網頁流量並排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
+即時報告會顯示網頁流量並即時排名頁面檢視。 提供可操作的資料，供您據以進行業務決策。
 
->[!NOTE]
->
->即時報告不需要額外實施或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
+> [!NOTE] 即時報表不需要額外實施或標籤。 它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40).
 
-**[!UICONTROL 網站度量]** &gt; **[!UICONTROL 即時]**
+**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 即時]**
 
 請即時回答下列問題: 我的網站有何趨勢、原因為何? 它可讓身為行銷人員的您，迅速回應、積極管理行銷內容和促銷活動的效能。所報告的即時資料延遲不超過兩分鐘，並且每分鐘自動更新一次。
 
@@ -44,7 +42,7 @@ source-git-commit: 5c13b8d8fa2fca85d89d0c22f6142a83a87d9975
 
 * 舉例來說，可以比較上週的值和去年的值 (以及今日總計)。
 
-請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱[設定即時報表](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)。
+請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱 設 [定即時報表](../../components/c-real-time-reporting/t-realtime-admin.md#task_1CD03E9B6BDB48B08E9E612183557F40)。
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 
@@ -57,4 +55,4 @@ After the A4T integration is enabled in Adobe [!DNL Target], you will experience
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完整實作此整合，延遲增加也會在您實作身分服務之後開始。
+請注意，延遲增加會在您實作Identity service後開始，即使您尚未完全實作此整合亦然。
