@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 分析指南
 user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
@@ -77,7 +77,7 @@ source-git-commit: 8fe853cc5942bcf3f5de4c944756e6524ce07f0b
    + 面板 {#panels}
       + [面板概觀](analysis-workspace/c-panels/panels.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + 歸因{attribution}
+      + 出處 {#attribution}
          + [歸因概觀](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用歸因面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [歸因常見問答集](analysis-workspace/c-panels/attribution/attribution-faq.md)
