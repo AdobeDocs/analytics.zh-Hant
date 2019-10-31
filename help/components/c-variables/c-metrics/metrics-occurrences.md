@@ -5,9 +5,9 @@ seo-title: 發生次數
 solution: Analytics
 title: 發生次數
 topic: 量度
-uuid: ff999fba-fcp7-4b16-9446-001facd0 f15 d
+uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ecc762f73f9a303cebf48668b807fef9a2f055c5
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
