@@ -7,7 +7,7 @@ title: 實作程式碼範例
 topic: Activity Map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
 
-The following is an example of how the AppMeasurement library and the [!DNL Activity Map] module are combined in the [!DNL AppMeasurement.js] file.
+以下是如何在 [!DNL AppMeasurement.js] 檔案中結合 AppMeasurement 程式庫和 Activity Map 模組的範例。
 
-Note that code sections that are relevant to this [!DNL Activity Map] implementation are **bolded**.
+請留意與此 Activity Map 實作相關的代碼區段是以&#x200B;**粗體**&#x200B;顯示。
 
 ```
 <b>// Initialize AppMeasurement 
@@ -59,17 +59,17 @@ s.trackingServerSecure="INSERT-SECURE-TRACKING-SERVER-HERE"
 // https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html 
 // Plug-ins can then be used in the s_doPlugins(s) function above
 
-<b>/****************************** START [!DNL Activity Map] MODULE *****************************/ 
+<b>/****************************** START Activity Map MODULE *****************************/ 
  //The following module enables ActivityMap tracking in Adobe Analytics. ActivityMap 
   allows you to view data overlays on your links and content to understand how 
   users engage with your web site. If you do not intend to use ActivityMap, you 
-  can remove the following block of code from your AppMeasurement.js file.
-  Additional documentation on how to configure [!DNL Activity Map] is available at: 
+  can remove the following block of code from your AppMeasurement.js file. 
+  Additional documentation on how to configure Activity Map is available at: 
   https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/getting-started-admins.html 
  */ 
- function AppMeasurement_Module_[!DNL Activity Map](g){func 
- ...
- /* END [!DNL Activity Map] MODULE */ 
+ function AppMeasurement_Module_Activity Map(g){func 
+ ... 
+ /* END Activity Map MODULE */ 
  </b> 
 /* 
  ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! =============== 
