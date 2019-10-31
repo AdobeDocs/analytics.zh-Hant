@@ -4,7 +4,7 @@ seo-description: 登入資料連接器；從協力廠商應用程式將追蹤資
 seo-title: Analytics資料連接器
 title: Analytics資料連接器快速入門
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -27,9 +27,9 @@ Data Connectors 應該可以與最熱門的各種瀏覽器適當地整合。然�
 * 螢幕解析度: 1024x768 (800x600 亦可)
 * 色彩深度: 16 位元或更高
 
-此外，若使用者的網路瀏覽器啟用 JavaScript，資料收集的效能將更為提高。
+此外，當使用者的網頁瀏覽器啟用JavaScript時，資料收集會有所改善。
 
-**必要條件**
+**必備條件**
 
 在設定產品的 Data Connectors 整合前，請完成以下工作:
 
@@ -65,7 +65,7 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 
 **區段**
 
-* [!UICONTROL 放棄購買]: 訪客新增項目至購物車但未購買的百分比。一 般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
+* [!UICONTROL  放棄購買]: 訪客新增項目至購物車但未購買的百分比。一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
 * [!UICONTROL 購買]: 根據特定產品中的訊息 ID 而進行購買的接收者 ID (或是訪客 ID)。
 * [!UICONTROL 產品檢視]:類似於「 [!UICONTROL 購物車放棄]」，這也是計算量度。 It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
 
@@ -82,14 +82,14 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 **** 注意：如果定義產品時沒有關聯事件，則會自動觸發prodView事件。
 如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
-[!UICONTROL 放棄購買]&#x200B;: 當使用者新增產品至購物車時會啟動:
+[!UICONTROL 放棄購買]: 當使用者新增產品至購物車時會啟動:
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL 購買]&#x200B;: 在購買確認頁面上啟動:
+[!UICONTROL 購買]: 在購買確認頁面上啟動:
 
 ```
 s.products=";
