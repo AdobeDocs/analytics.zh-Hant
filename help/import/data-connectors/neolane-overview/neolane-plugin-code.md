@@ -5,7 +5,7 @@ seo-title: Adobe Analytics外掛程式程式碼
 title: Adobe Analytics外掛程式程式碼
 uuid: b10345ba-1e80-4e5c-af87-6e6a9dc87c00
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,7 +24,5 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
->[!NOTE]
->
->上述外掛程式會假設有特定的自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Adobe Analytics部署中不可用，只需將其取代為可用的變數即可。
+> [!NOTE] 上述外掛程式會假設有特定的自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Adobe Analytics部署中不可用，只需將其取代為可用的變數即可。
 
