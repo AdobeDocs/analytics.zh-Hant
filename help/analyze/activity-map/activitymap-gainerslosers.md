@@ -7,7 +7,7 @@ title: 可自訂覆蓋圖
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -50,9 +50,7 @@ source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE]
->
->子功能表的泡泡覆蓋圖只會在您顯示子功能表時顯示：
+> [!NOTE] 子功能表的泡泡覆蓋圖只會在您顯示子功能表時顯示：
 >
 >![](assets/bubbles_submenu.png)&gt;
 
