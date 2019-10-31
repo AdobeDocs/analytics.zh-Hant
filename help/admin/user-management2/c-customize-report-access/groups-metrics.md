@@ -1,15 +1,15 @@
 ---
 description: 為流量量度、轉換量度、自訂事件、解決方案事件和內容感知啟用權限。
-keywords: 群組；權限
+keywords: 組；權限
 seo-description: 為流量量度、轉換量度、自訂事件、解決方案事件和內容感知啟用權限。
 seo-title: 自訂量度權限
 solution: Analytics
 subtopic: 使用者和群組
 title: 自訂量度權限
 topic: 管理工具
-uuid: 7bfff68a-2add-4068-a07 d-87a4 f624634 c
+uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
 為流量量度、轉換量度、自訂事件、解決方案事件和內容感知啟用權限。
 
-**[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL 報表存取]** &gt; **[!UICONTROL 量度]** &gt; **[!UICONTROL 自訂]**
+**[!UICONTROL 使用者管理&gt;]** 群組&gt; **[!UICONTROL 報表存取]** &gt;量度 **[!UICONTROL &gt;自]********[!UICONTROL 訂]**
 
 「自訂量度」頁面上的設定適用於[!UICONTROL 定義使用者群組]頁面上選取的報表套裝。
 
@@ -36,7 +36,7 @@ In addition to [Custom Events](https://marketing.adobe.com/resources/help/en_US/
 
 具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。
 
-See [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md) for information about metrics used in Analytics.
+如需 [Analytics中所用量度的相關資訊](/help/components/c-variables/c-metrics/metricslist.md) ，請參閱量度概觀。
 
 ## 內容感知
 
