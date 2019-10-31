@@ -1,20 +1,20 @@
 ---
 description: 分類 (SAINT) FTP 選項對於上傳大型分類資料集可提供更大彈性，包括能夠將資料上傳至多個報表套裝，以及可以上傳超過 50,000 列的資料集。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 分類 (SAINT) FTP 選項對於上傳大型分類資料集可提供更大彈性，包括能夠將資料上傳至多個報表套裝，以及可以上傳超過 50,000 列的資料集。
-seo-title: '分類   '
+seo-title: 分類
 solution: Analytics
-title: '分類   '
-uuid: 35936c98-b785-43eb-89f4-ab42 a10 db256
+title: 分類
+uuid: 35936c98-b785-43eb-89f4-ab42a10db256
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 分類   
+# 分類
 
-分類FTP選項可讓上傳大型分類資料集的彈性更大，包括能夠將資料上傳至多個報表套裝，以及上載超過50,000列的資料集。
+分類FTP選項提供更大的彈性，可上傳大型分類資料集，包括將資料上傳至多個報表套裝以及上傳超過50,000列的資料集。
 
 請參閱[分類](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)，了解如何透過 FTP 下載分類資料以及如何透過 FTP 上傳資料檔案的步驟 (包括建立 FTP 帳戶的步驟)。
 
@@ -26,9 +26,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## 關於分類和資料來源上傳的 .fin 檔案 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此檔案的用途是告知系統，資料檔案已完全上傳至 FTP 帳戶。[!DNL .fin] 檔案可讓Adobe識別您已完成匯入。在提交此檔案後，Adobe 會從 FTP 移除這兩個檔案，並開始處理匯入。匯入檔案: [!DNL Classifications.tab]
+When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. This [!DNL .fin] file is a finish file. 此檔案的用途是告知系統，資料檔案已完全上傳至 FTP 帳戶。The [!DNL .fin] file lets Adobe recognize that you are done with your import. 在提交此檔案後，Adobe 會從 FTP 移除這兩個檔案，並開始處理匯入。匯入檔案: [!DNL Classifications.tab]
 
-Finish File: [!DNL Classifications.fin]
+完成檔案： [!DNL Classifications.fin]
 
 If you upload your Data Sources or classification file without an accompanying [!DNL .fin] file, Adobe does not add it to the queue for processing. The file remains on the FTP, and is not applied to your data in the [!UICONTROL Experience Cloud]. 除非您已在 Analytics「[!UICONTROL 建立 FTP 帳戶]」視窗的「[!UICONTROL 通知收件者]」中輸入您的電子郵件地址，否則不會收到此類狀況的通知。如果未在此欄位中輸入電子郵件地址，將不會傳送任何通知。
 
