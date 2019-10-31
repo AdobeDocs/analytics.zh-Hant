@@ -4,9 +4,9 @@ seo-description: PathFinder 報表旨在幫助您進一步將整個路徑剖析�
 seo-title: PathFinder
 solution: Analytics
 title: PathFinder
-uuid: 35a00bd7-263c-4a8b-99d0-fea08046 edc7
+uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
