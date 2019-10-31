@@ -5,9 +5,9 @@ seo-title: 使用請求精靈篩選路徑報表
 solution: Analytics
 title: 使用請求精靈篩選路徑報表
 topic: Report Builder
-uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562be
+uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    ![](assets/site_section_path_1.png)
 
 1. 指定適當的日期。
-1. Click **[!UICONTROL Next]**.
+1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. 依預設，在路徑報表中，模式皆已套用。
 
    ![](assets/site_section_path_2.png)
