@@ -1,21 +1,21 @@
 ---
-description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
+description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
 keywords: event
-seo-description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
-seo-title: 成功事件概述
+seo-description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
+seo-title: 成功事件概觀
 solution: Analytics
-title: 成功事件概述
+title: 成功事件概觀
 topic: 管理工具
-uuid: 410eee44-8960-462c-a9 c3-07b44 d0 b1 df0
+uuid: 410ee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 成功事件概述
+# 成功事件概觀
 
-成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
+成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
 
 成功事件有多種類型，視您的網站類型而定。這些類型包括:
 
@@ -31,7 +31,7 @@ source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
 
 ## 成功事件頁面 - 說明 {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 成功事件」]**
+**[!UICONTROL Analytics]** &gt;管理 **[!UICONTROL 員報]** 表報表套裝 **[!UICONTROL &gt;]** Settings **[!UICONTROL &gt;編輯轉換]********[!UICONTROL &gt;成功事件]**
 
 「成功事件」頁面可讓您設定在您網站上使用的事件變數。可最多新增 1,000 個成功事件。事件 81-1,000 僅適用於 H22 代碼或更高版本。
 
@@ -43,6 +43,6 @@ source-git-commit: a1213919de61a72c06ec5518e72a714c76c6859f
 | 極性 | 極性量度可讓您指定當特定自訂事件 (量度) 上升時，Adobe Analytics 是否應該將其視為好事或壞事。這可讓 Adobe Analytics 為各種量度顯示方向指示 (箭頭) 以增加上下文 (例如每過一週的比較)。範例: 如果「提交錯誤」每週都上升，Adobe Analytics 應將其視為好事或壞事? 電子郵件註冊增加可能是好事。但表單提交錯誤增加可能是壞事。在 Analysis Workspace 中，極性適用於:「自由表格」條件式格式、「摘要變更」視覺效果，以及「地圖」視覺效果的「正/負片」色彩配置。 |
 | 說明 | 事件用途與用法的簡短說明。 |
 | 獨特事件記錄 | 請參閱[事件序列化](/help/implement/js-implementation/event-serialization.md)。 |
-| 參與率 | See [Metrics Participation](/help/components/c-variables/c-metrics/metrics-participation.md). |
+| 參與率 | 請參閱 [量度參與率](/help/components/c-variables/c-metrics/metrics-participation.md)。 |
 | 警告 (貨幣事件) | 將事件類型變更為貨幣事件或改為不使用貨幣事件時，會顯示訊息，告知歷史資料無法用於報告。不同的事件類型使用不同的資料表格，且無法同時使用。如果使用者回復事件類型，部分歷史資料可加以還原。不過，在初次變更後收集的資料都無法使用。變更事件類型時請謹慎。 |
 
