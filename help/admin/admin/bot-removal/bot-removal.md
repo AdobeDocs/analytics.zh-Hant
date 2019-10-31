@@ -4,7 +4,7 @@ seo-title: Adobe Analytics中的機器人移除
 description: Adobe Analytics中移除機器人的3種方式
 seo-description: Adobe Analytics中移除機器人的3種方式
 translation-type: tm+mt
-source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
 
 ### 步驟1:將訪客的Experience Cloud ID傳遞至新宣告的ID
 
-若要開始，您會想要在「人員核心服務」中建立新 [的宣告ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。 您需要將訪客的Experience Cloud ID傳遞至此新宣告的ID中，這可以透過 [Adobe Experience Platform Launch快速輕鬆地完成](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。 讓我們為宣告的ID使用名稱「ECID」。
+若要開始，您會想要在 [People Core Services中建立新宣告的ID](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)。 您需要將訪客的Experience Cloud ID傳遞至此新宣告的ID中，這可以透過 [Adobe Experience Platform Launch快速輕鬆地完成](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)。 讓我們為宣告的ID使用名稱「ECID」。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -46,7 +46,7 @@ source-git-commit: ef17712b4a8a4a5c13dde9be9fdf2281eeb40091
 
 ### 步驟2:使用區段來識別機器人
 
-現在您已將訪客的ECID傳入宣告的ID中，您可以在分析工作區中使 [用區段來識別像是機器人的訪客](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 。 機器人通常由其行為定義：單次存取、異常使用者代理、未知的裝置／瀏覽器資訊、無反向連結、新訪客、異常著陸頁面等。 使用工作區下鑽和分段功能，識別逃避IAB篩選的機器人程式和您的報表套裝機器人規則。 例如，以下是您可使用之區段的螢幕擷取：
+現在，您已將訪客的ECID傳入宣告的ID中，您可以在分析工作區中使 [用區段來識別像是機器人的訪客](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 。 機器人通常由其行為定義：單次存取、異常使用者代理、未知的裝置／瀏覽器資訊、無反向連結、新訪客、異常著陸頁面等。 使用工作區下鑽和分段功能，識別逃避IAB篩選的機器人程式和您的報表套裝機器人規則。 例如，以下是您可使用之區段的螢幕擷取：
 
 ![](assets/bot-filter-seg1.png)
 
