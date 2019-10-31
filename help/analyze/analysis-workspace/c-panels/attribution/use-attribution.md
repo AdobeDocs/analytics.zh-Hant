@@ -5,7 +5,7 @@ seo-title: 在 Analysis Workspace 中使用歸因 IQ
 title: 在 Analysis Workspace 中使用歸因 IQ
 uuid: 99fc91b6-eebe-4a60-bb82-64a7611a04c6
 translation-type: tm+mt
-source-git-commit: 989568079f301a99a744e06b9de3d8636b3686a1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,13 +28,13 @@ Analysis Workspace 自由表格支援適用於幾乎所有量度的歸因模型�
 
 ## Apply attribution models to breakdowns {#section_ED1E7532CF084B5AB0942BD80B4770C9}
 
-您也可以將歸因模型套用到任何自由表格中的劃分，使該欄擁有與上層欄相同或不同的歸因模型。舉例來說，您可以在「行銷管道」維度中分析線性訂單，但將「U 形訂單」套用至管道中的特定追蹤代碼。若要編輯套用到劃分的歸因模型，只要將滑鼠移到劃分模型，然後按一下「編輯」即可。
+您也可以將歸因模型套用到任何自由表格中的劃分，使該欄擁有與上層欄相同或不同的歸因模型。舉例來說，您可以在「行銷管道」維度中分析線性訂單，但將「U 形訂單」套用至管道中的特定追蹤代碼。若要編輯套用至劃分的歸因模型，只需將滑鼠指標暫留在劃分模型上，然後按一下「編輯」:
 
 ![](assets/breakdown_settings.png)
 
 ## Compare one attribution model to another {#section_1D74C09549CC4EC8A952A7392C76D375}
 
-If you’d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
+If you'd like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Add comparative attribution model]**:
 
 ![](assets/Comparative_Attribution_Model.png)
 
@@ -69,4 +69,4 @@ If you’d like to quickly and easily compare one attribution model to another, 
 | 維度重疊圖表 | Venn 圖表會顯示前三個維度項目 (例如管道) 和項目參與相關轉換的頻率。舉例來說，重疊的泡泡圖大小代表訪客接觸到兩個維度項目 (例如管道) 時，轉換發生的頻率。選取自由表格中的其他列即可依據您的選取項目更新視覺效果。 |
 | 每個歷程的行銷接觸點 | 色階分佈圖代表訪客在報告日期範圍中的行銷 (或任何維度) 接觸點數量。此圖表在查看多點接觸歸因影響資料集情形時相當實用。如果幾乎所有訪客都只有單一接觸點，結果中的歸因模型將不會顯示太大差異。 |
 | 行銷管道效能詳細資料 | 讓您使用散佈圖以視覺效果的方式比較最多三種歸因模型。 |
-| 行銷管道流量 | 讓您查看最常進行互動的管道，以及在訪客歷程中的順序。 |
+| 行銷管道流量 | 可讓您查看哪些頻道最常互動，以及訪客歷程中的順序。 |
