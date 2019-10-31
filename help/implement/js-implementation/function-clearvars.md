@@ -7,8 +7,8 @@ solution: Analytics
 title: s.clearVars() 函數
 topic: 開發人員和實作
 uuid: 43c425bc-15ae-4892-a5a5-e1defcb25ff4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 s.clearVars()
 ```
 
->[!NOTE]
->
->[JavaScript 適用的 AppMeasurement](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 包含 `clearVars()`，但無法在 H-Code 及先前的程式碼中使用。
+> [!NOTE]`clearVars()`[JavaScript 適用的 AppMeasurement](../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 包含 ，但無法在 H-Code 及先前的程式碼中使用。
 
