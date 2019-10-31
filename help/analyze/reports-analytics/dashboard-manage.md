@@ -8,7 +8,7 @@ title: 控制面板管理員
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: cc87c5a7b193fe8a36ce7409a833cc0b91b8af60
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,15 +73,11 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 現有的舊式控制面板仍會繼續執行，您也可繼續編輯、下載和排程這些控制面板，但是不再能夠建立新的舊式控制面板。我們強烈建議您將現有的舊式控制面板升級至較新的控制面板格式。
 
->[!NOTE]
->
->Moving forward, consider using [Analysis Workspace projects](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) and their ability to be downloaded and scheduled.
+> [!NOTE] 未來，請考慮使用 [分析工作區專案](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/) ，以及其下載和排程的能力。
 
 複製舊控制面板時，系統會開啟舊控制面板以供編輯，您可新增舊內容或新內容。複製舊控制面板時，其原型會保留在舊控制面板的清單中。
 
->[!NOTE]
->
->將舊式內容新增至控制面板會根據最新的控制面板功能建立控制面板。 不過，舊式小報告可能會包含以舊版資料平台為基礎的資料。
+> [!NOTE] 將舊式內容新增至控制面板會根據最新的控制面板功能建立控制面板。 不過，舊式小報告可能會包含以舊版資料平台為基礎的資料。
 
 **若要遷移 14.x 版舊式控制面板**
 
@@ -115,9 +111,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
 ## 封存控制面板
 
->[!NOTE]
->
->2020年1月將不再提供此功能。
+> [!NOTE] 2020年1月將不再提供此功能。
 
 說明如何將任何傳送的控制面板封存為 PDF 檔案的步驟。系統會將封存檔儲存兩年，或直到達到封存報告的 4 GB 上限為止 (以先達到的為準)。
 
