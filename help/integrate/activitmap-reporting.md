@@ -1,22 +1,22 @@
 ---
 description: 在 Analytics 中啟用 Activity Map 報告的管理步驟。
 seo-description: 在 Analytics 中啟用 Activity Map 報告的管理步驟。
-seo-title: 活動圖報告
+seo-title: Activity Map 報表
 solution: Analytics
-title: 活動圖報告
+title: Activity Map 報表
 topic: 報表
-uuid: 7636c670-bb6 c-4a25-823a-7bbba0 b747 b
+uuid: 7636c670-bb6c-4a25-823a-7bbba0b747b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 活動圖報告
+# Activity Map 報表
 
 在 Analytics 中啟用 Activity Map 報告的管理步驟。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 活動圖]** &gt; **[!UICONTROL 活動圖報表」]**
+**[!UICONTROL Analytics]** &gt;管理 **[!UICONTROL &gt;報表報表套裝]** &gt;設定 **[!UICONTROL &gt;活動地圖]****[!UICONTROL <select report suite>]************[!UICONTROL &gt;編輯活動地圖&gt;活動地圖]**
 
 讓 Analytics 從 Activity Map (舊稱 ClickMap) 收集使用者活動。此項整合
 
