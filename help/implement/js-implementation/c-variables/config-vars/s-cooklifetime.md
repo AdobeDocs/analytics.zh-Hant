@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript 和資料收集伺服器都會使用 變數來決定 Cookie 的有效
 |---|---|---|---|
 | 不適用 | cl | 流量 &gt; 技術 &gt; Cookie (所有訪客相關) 報表 | "" |
 
-若設定了 *`cookieLifetime`*，此變數將會覆寫 JavaScript 和資料收集伺服器的任何其他 Cookie 有效期，但有一個例外，以下會有說明。The *`cookieLifetime`* variable can have one of three values:
+If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 變數可以有下列三個值之一:
 
 * [!DNL Analytics] Cookie
 * Cookie
@@ -53,4 +53,4 @@ s.cookieLifetime="86400" // one day in seconds
 
 ## 缺陷、問題和提示
 
-*`cookieLifetime`* 影響追 [!DNL Analytics] 蹤。 If, for example, *`cookieLifetime`* is two days, then monthly, quarterly, and yearly unique visitor reports will be incorrect. Use caution when setting *`cookieLifetime`*.
+*`cookieLifetime`* 會影響 [!DNL Analytics] 追蹤。例如，如果 *`cookieLifetime`* 為兩天，則每月、每季和每年的獨特訪客報表將會不正確。請謹慎設定 *`cookieLifetime`*。
