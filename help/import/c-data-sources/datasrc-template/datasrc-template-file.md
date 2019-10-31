@@ -1,19 +1,19 @@
 ---
 description: 有關資料來源範本的資訊；資料來源範本是一種資料框架，適合用來提交特定外部資料集給資料來源s。
 seo-description: 有關資料來源範本的資訊；資料來源範本是一種資料框架，適合用來提交特定外部資料集給資料來源s。
-seo-title: Data Sources範本概述
+seo-title: 資料來源範本概觀
 solution: Analytics
 subtopic: 資料來源
-title: Data Sources範本概述
-topic: 開發人員和實施
-uuid: e768bcff-a996-44c7-a7 f2-9a2 c651 ead9
+title: 資料來源範本概觀
+topic: 開發人員和實作
+uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Data Sources範本概述
+# 資料來源範本概觀
 
 有關資料來源範本的資訊；資料來源範本是一種資料框架，適合用來提交特定外部資料集給資料來源s。
 
@@ -25,7 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [流量](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC) (不再支援)
 * [轉換](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0)
 * [交易 ID](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)
-* [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+* [訪客 ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 * [完全處理](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)
 
 For example, for a Visitor ID data type, you can add a column for any metric or dimensions listed in [Visitor ID](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5).
