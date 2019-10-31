@@ -9,24 +9,20 @@ title: 自訂維度權限
 topic: 管理工具
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
 
 # 自訂維度權限
 
->[!IMPORTANT]
->
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT] 使用者和產品管理移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
 
 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
 
 **[!UICONTROL 使用者管理&gt;]** 群組&gt; **[!UICONTROL 報表存取]** &gt;維度 **[!UICONTROL &gt;自]** 訂 ******[!UICONTROL &gt;]**
 
->[!IMPORTANT]
->
->目前無法存取某些維度。 這些維度包括: 行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
+> [!IMPORTANT] 目前無法存取某些維度。 這些維度包括: 行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
 >
 >不論使用者具備哪些其他權限，所有使用者都可使用這些維度。
 
@@ -107,4 +103,3 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
  </tbody> 
 </table>
-
