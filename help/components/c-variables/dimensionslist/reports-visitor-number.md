@@ -1,18 +1,18 @@
 ---
 description: 協助您透過追蹤每個訪客瀏覽您網站的次數評估訪客的忠誠度。您可以檢視在選取時段內大多數瀏覽是來自首次還是第 20 次存取您網站的訪客。
 seo-description: 協助您透過追蹤每個訪客瀏覽您網站的次數評估訪客的忠誠度。您可以檢視在選取時段內大多數瀏覽是來自首次還是第 20 次存取您網站的訪客。
-seo-title: 造訪次數
+seo-title: 訪問次數
 solution: Analytics
-title: 造訪次數
+title: 訪問次數
 topic: 報表
-uuid: f98dafab-9369-4055-a793-5ea0214 b78 b0
+uuid: f98dafab-9369-4055-a793-5ea0217b78b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 造訪次數
+# 訪問次數
 
 協助您透過追蹤每個訪客瀏覽您網站的次數評估訪客的忠誠度。您可以檢視在選取時段內大多數瀏覽是來自首次還是第 20 次存取您網站的訪客。
 
