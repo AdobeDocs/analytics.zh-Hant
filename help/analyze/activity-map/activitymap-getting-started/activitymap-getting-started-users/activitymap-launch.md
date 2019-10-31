@@ -1,20 +1,20 @@
 ---
-description: 假設已安裝正確的瀏覽器外掛程式，您可以直接從網頁啟動[!DNL Activity Map]。
-seo-description: 假設已安裝正確的瀏覽器外掛程式，您可以直接從網頁啟動[!DNL Activity Map]。
-seo-title: 啟動[!DNL Activity Map]
+description: 如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
+seo-description: 如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
+seo-title: 啟動 Activity Map
 solution: Analytics
-title: 啟動[!DNL Activity Map]
+title: 啟動 Activity Map
 topic: Activity Map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
-# Launch [!DNL Activity Map]{#launch-activity-map}
+# 啟動 Activity Map{#launch-activity-map}
 
-Assuming that the correct browser plug-in is installed, you can launch [!DNL Activity Map] directly from your web page.
+如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
 
 1. 按一下瀏覽器位址列右側的Adobe Analytics圖示：\
    ![](assets/an_icon.png){width="90px"}
