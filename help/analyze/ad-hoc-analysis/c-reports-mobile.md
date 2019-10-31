@@ -5,7 +5,7 @@ seo-title: 行動裝置報表
 title: 行動裝置報表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,9 +20,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 為改進行動裝置的訪客識別，您必須位於營運商的清單上 (白名單)，以傳送使用者 ID 至網域。(You can view the carrier in the **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Domains]** report.)
 
->[!NOTE]
->
->若要在行動裝置上檢視報表，請登入 [Experience Cloud](https://login.experiencecloud.adobe.com)。
+> [!NOTE] 若要在行動裝置上檢視報表，請登入 [Experience Cloud](https://login.experiencecloud.adobe.com)。
 
 For more information about mobile tracking, see the [Mobile Analytics](https://www.adobe.com/experience-cloud/topics/mobile-analytics.html) site.
 
@@ -69,11 +67,11 @@ For more information about mobile tracking, see the [Mobile Analytics](https://w
   </tr> 
   <tr> 
    <td colname="col1"> <p>色彩深度報告 </p> </td> 
-   <td colname="col2"> <p>依照支援的色彩數目對行動裝置的點擊分組。該報告顯示使用行動裝置瀏覽您網站的訪客總數，並依照他們行動裝置中配置的色彩數目對訪客進行分組。例如，如果訪客的行動電話支援 24 色，則 Marketing Reports &amp; Analytics 會增加與 24 色相對應的明細項目。 </p> </td> 
+   <td colname="col2"> <p>依照支援的色彩數目對行動裝置的點擊分組。該報告顯示使用行動裝置瀏覽您網站的訪客總數，並依照他們行動裝置中配置的色彩數目對訪客進行分組。例如，如果訪客的行動電話支援24色，則行銷報告與分析會增加對應24色的行項目。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>音訊支援報表 </p> </td> 
-   <td colname="col2"> <p>依照行動裝置支援的音訊格式類型對行動裝置實行分組。例如，如果訪客的電話支援 <span class="filepath">.mp3</span> 格式，則「音訊支援」報告至少增加一。<span class="wintitle"></span>如果電話支援更多影像格式，那麼瀏覽網站可能導致每個受支援的音訊類型均增加。換言之，如果電話支援 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 及 <span class="filepath">.amr</span> 格式，報告中這些群組的每一組都會增加。因此，群組的總數可能比顯示在報告底部的總數大。 </p> </td> 
+   <td colname="col2"> <p>依照行動裝置支援的音訊格式類型對行動裝置實行分組。For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the <span class="wintitle"> Audio Support</span> report increments by at least one. 如果電話支援更多影像格式，那麼瀏覽網站可能導致每個受支援的音訊類型均增加。換言之，如果電話支援 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 及 <span class="filepath">.amr</span> 格式，報告中這些群組的每一組都會增加。因此，群組的總數可能比顯示在報告底部的總數大。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>影片支援報告 </p> </td> 
