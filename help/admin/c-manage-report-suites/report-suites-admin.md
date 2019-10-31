@@ -7,7 +7,7 @@ title: 報表套裝管理員
 topic: 管理工具
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 
 **[!UICONTROL 分析]** &gt;管 **[!UICONTROL 理]** &gt;報 **[!UICONTROL 表套裝]**
 
->[!NOTE]
->
->Virtual Report Suites are managed via **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**. 請參閱虛擬報 [表套裝檔案](/help/components/vrs/vrs-about.md)。
+> [!NOTE] 虛擬報表套裝是透過 **[!UICONTROL Analytics]** &gt;元 **[!UICONTROL 件]** &gt;虛 **[!UICONTROL 擬報表套裝管理]**。 請參閱虛擬報 [表套裝檔案](/help/components/vrs/vrs-about.md)。
 
 ## 報表套裝管理器說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
