@@ -2,17 +2,17 @@
 description: 本節含有常見問題的相關資訊。
 keywords: 資料饋送；疑難排解
 seo-description: 本節含有常見問題的相關資訊。
-seo-title: 疑難排解資料饋送
+seo-title: 資料摘要的疑難排解
 solution: Analytics
-title: 疑難排解資料饋送
-uuid: 4be981ab-3a61-4099-1b0d-785d2ac2492a
+title: 資料摘要的疑難排解
+uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 疑難排解資料饋送
+# 資料摘要的疑難排解
 
 本節含有常見問題的相關資訊。
 
@@ -44,15 +44,15 @@ AWS 也能讓使用者在完全屬於不同使用者帳戶的儲存貯體中建�
 
 ## 重新傳送選項 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-Once you have verified/corrected the delivery issue, just use [rerun the job](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) to get the files.
+在您驗證／修正傳送問題後，只要使用 [重新執行工作](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) ，即可取得檔案。
 
 ## 日光節約時間對每小時資料饋送的影響 {#section_70E867D942054DD09048E027A9474FFD}
 
 對於某些時區，由於採用日光節約時間 (DST)，因此其時間每年會變動兩次。資料饋送會遵循報表套裝所設定的時區。如果報表套裝的時區不採用 DST，檔案傳送的運作與任何一天都相同。如果報表套裝的時區採用 DST，則檔案傳送會在發生時間變更的該小時進行更改 (通常是 2:00 am)。
 
-STD -&gt; DST 時間轉換期間 (「前進」)，客戶只會收到 23 個檔案。DST 轉換中跳過的該小時將直接忽略。例如，如果轉換發生在 2 AM，客戶將取得 1:00 的檔案以及 3:00 的檔案。不會有 2:00 檔案，因為 2:00 STD 變成了 3:00 DST。
+進行STD -&gt; DST時間轉換（「前進彈起」）時，客戶只能取得23個檔案。 DST 轉換中跳過的該小時將直接忽略。例如，如果轉換發生在2 AM，則他們會取得1:00小時的檔案，並取得3:00小時的檔案。 不會有 2:00 檔案，因為 2:00 STD 變成了 3:00 DST。
 
-DST -&gt; STD 轉換期間 (「後退」)，客戶會收到 24 個檔案。不過，轉換該小時實際包含 2 小時的資料量。例如，如果轉換發生在 2:00 am，1:00 的檔案將延遲一個小時，但包含兩個小時的資料，其中包含從 1:00 DST 到 2:00 STD (原本是 3:00 DST) 的資料。下一個檔案將從 2:00 STD 開始。
+進行DST -&gt; STD轉換時（「後退」），客戶將獲得24個檔案。 不過，轉換時間實際上會包含2小時的資料。 例如，如果轉換發生在 2:00 am，1:00 的檔案將延遲一個小時，但包含兩個小時的資料，其中包含從 1:00 DST 到 2:00 STD (原本是 3:00 DST) 的資料。下一個檔案將從 2:00 STD 開始。
 
 ## 某個時間期間無資料 {#section_72510794694D42A9A75C966B812AEB0F}
 
