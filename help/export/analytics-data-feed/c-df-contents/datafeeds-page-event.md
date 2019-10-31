@@ -1,14 +1,14 @@
 ---
 description: 查閱表格以根據 page_event 值來判斷點擊的類型。
-keywords: 資料饋送；頁面；event；page_ event；post_ page_ event
+keywords: 資料饋送；page;event;page_event;post_page_event
 seo-description: 查閱表格以根據 page_event 值來判斷點擊的類型。
 seo-title: 頁面事件查閱
 solution: Analytics
 title: 頁面事件查閱
-topic: Reports & Analytics
-uuid: 73af597c-5560-466e-94b2-dd1 d6479 c8
+topic: Reports and Analytics
+uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,17 +29,17 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   <tr> 
    <td colname="col1"> 頁面檢視 </td> 
    <td colname="col02"> 與帖子相同 </td> 
-   <td colname="col2"> <p>0: 所有頁面檢視 (<code>s.t()</code> 呼叫) </p> <p>0: 來自行動 SDK 的 <code>trackState</code> 呼叫。 </p> </td> 
+   <td colname="col2"> <p>0 for all page views ( <code> s.t() </code> calls) </p> <p>0: 來自行動 SDK 的 <code> trackState </code> 呼叫。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 連結追蹤 </td> 
-   <td colname="col02"> <p>10: 「其他連結」 </p> <p>10: 來自行動 SDK 的 <code>trackAction</code> 和生命週期呼叫。 </p> <p>11: 「下載連結」 </p> <p>12: 「外部或退出連結」 </p> </td> 
-   <td colname="col2"> <p>100: 「其他連結」 </p> <p>100: 來自行動 SDK 的 <code>trackAction</code> 和生命週期呼叫。 </p> <p>101: 「下載連結」 </p> <p>102: 「外部或退出連結」 </p> </td> 
+   <td colname="col02"> <p>10: 「其他連結」 </p> <p>10: 來自行動 SDK 的 <code> trackAction </code> 和生命週期呼叫。 </p> <p>11: 「下載連結」 </p> <p>12: 「外部或退出連結」 </p> </td> 
+   <td colname="col2"> <p>100: 「其他連結」 </p> <p>100: 來自行動 SDK 的 <code> trackAction </code> 和生命週期呼叫。 </p> <p>101: 「下載連結」 </p> <p>102: 「外部或退出連結」 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 里程碑影片 </td> 
    <td colname="col02"> 
-    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – 媒體開始事件 </p> <p>32 - 僅限媒體更新事件(不執行任何eVar或任何其他變數處理) </p> <p>33 – 媒體 + 其他變數更新事件 (包括 eVar 和其他變數處理) </p> </td> 
+    <!--<p>30 - Legacy full media tracking event at the end of the video playback (no longer supported)</p>--> <p>31 – 媒體開始事件 </p> <p>32 – 僅媒體更新事件 (不執行任何 eVar 或任何其他變數處理) </p> <p>33 – 媒體 + 其他變數更新事件 (包括 eVar 和其他變數處理) </p> </td> 
    <td colname="col2"> 
     <!--<p> 75 - Legacy full media tracking event at theend of the video playback (no longer supported)</p>--> <p> 76 – 媒體開始事件 </p> <p>77 – 僅媒體更新事件 (不執行任何 eVar 或任何其他變數處理) </p> <p>78 – 媒體 + 其他變數更新事件 (包括 eVar 和其他變數處理) </p> </td> 
   </tr> 
