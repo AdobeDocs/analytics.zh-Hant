@@ -5,7 +5,7 @@ seo-title: 報表功能表
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -39,9 +39,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 按 Tab 鍵或向下鍵 (?) 可以在報表清單間瀏覽。按 Esc 鍵可關閉搜尋而不變更目前報表，按 Enter 鍵則可載入選取的報表。
 
->[!NOTE]
->
->您也可以依據prop、eVar和事件編號來搜尋報表清單。 在搜尋列中輸入 prop、eVar 或事件編號。
+> [!NOTE] 您也可以依據prop、eVar和事件編號來搜尋報表清單。 在搜尋列中輸入 prop、eVar 或事件編號。
 
 ## 導覽概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
