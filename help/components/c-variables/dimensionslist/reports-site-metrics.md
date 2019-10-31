@@ -5,9 +5,9 @@ seo-title: 網站量度
 solution: Analytics
 title: 網站量度
 topic: 報表
-uuid: a7bec7f5-7dc7-4124-b61 d-2fa3 d4 f
+uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -29,4 +29,4 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * [事件之前時間](../../../components/c-variables/dimensionslist/reports-time-prior-to-event.md#concept_00820DACA2F24EE6A83B0FB211BE6907)
 * [購物車](../../../components/c-variables/dimensionslist/reports-shopping-cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339)
 * [自訂事件](../../../components/c-variables/dimensionslist/reports-custom-events.md#concept_9337B2FB8A3F417BA8689FE7FD64629F)
-* [機器人](../../../components/c-variables/dimensionslist/reports-bots.md#concept_15E1C8514EF54581A9467877F62426EC)
+* [Bot](../../../components/c-variables/dimensionslist/reports-bots.md#concept_15E1C8514EF54581A9467877F62426EC)
