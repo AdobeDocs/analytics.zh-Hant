@@ -5,7 +5,7 @@ seo-title: 執行資料連接器整合精靈
 title: 執行資料連接器整合精靈
 uuid: 25480e0d-e3ca-458c-8f18-65789c273a33
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 資料連接器整合精靈會逐步引導您完成資料連接器整合程式。
 
-1. 登入 [!DNL Adobe Experience Cloud]。
+1. Log in to the [!DNL Adobe Experience Cloud].
 1. 請確定所要的報表套裝在功能表中處於作用 [!DNL Report Suite] 中。
 1. 按一 **[!UICONTROL 下「Adobe Experience Cloud]** &gt;資 **[!UICONTROL 料連接器]**」。
 
