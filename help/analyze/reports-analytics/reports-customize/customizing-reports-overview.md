@@ -7,7 +7,7 @@ title: 自訂報表概觀
 topic: Reports and Analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -51,7 +51,7 @@ t_reports_select_date.xml
 
  -->
 
-您可以選擇特定日、週、月或年。您也可以執行比較報告。
+您可以選擇特定日、週、月或年。您也可以執行比較報告實施流量分類。
 
 當您使用擁有不同日期範圍的小報告開啟控制面板，並在「日曆」中選擇新的日期範圍時，變更會套用至控制面板中的所有小報告。
 
@@ -84,9 +84,7 @@ t_reports_comparing_dates.xml
 
 您無法比較趨勢報告之間的日期。
 
->[!NOTE]
->
->If you want to perform a date comparison on key metrics in a dashboard, you can pull the data into [Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) using two separate requests. 您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
+> [!NOTE] 如果您想要對控制面板中的關鍵量度執行日期比較，可以使用兩個不同的請求將資料提取 [到Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 。 您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
 
 若要比較「Report &amp; Analytics」中排名報表之間的日期:
 
