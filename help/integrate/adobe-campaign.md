@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: Adobe Campaign報告
-title: Adobe Campaign報告
+seo-title: Adobe Campaign 報表
+title: Adobe Campaign 報表
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Adobe Campaign報告
+# Adobe Campaign 報表
 
 如需如何設定整合的詳細資訊，請前往 [Adobe Campaign 文件](https://helpx.adobe.com/campaign/standard/integrating/using/about-campaign-analytics-integration.html)。
 
@@ -24,7 +24,7 @@ Adobe Analytics 與 Adobe Campaign 之間的整合
 * 增加 6 個全新 Adobe Campaign 維度。
 * 每 15 分鐘同步資料至 Analytics。
 
-## 步驟 1. 啟用 Adobe Campaign 報告功能 {#section_C685EF10505045708A6536BB13F6CD58}
+## 步驟 1.啟用 Adobe Campaign 報告功能 {#section_C685EF10505045708A6536BB13F6CD58}
 
 若要在 Analytics 檢視 Campaign 資料，必須先啟用 Campaign 報表。
 
@@ -52,14 +52,14 @@ The integration between Adobe Campaign Standard and Adobe Analytics adds the fol
  </tbody> 
 </table>
 
-## 步驟 3. 使用 Adobe Campaign 分類 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
+## 步驟 3.使用 Adobe Campaign 分類 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL <select report suite>]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL Adobe Campaign]** &gt; **[!UICONTROL Adobe Campaign分類」]**
+**[!UICONTROL Analytics]** Admin **[!UICONTROL &gt;報表報表報表套裝]** &gt; &gt;設定 **[!UICONTROL &gt;促銷活動編]** 輯&gt; Adobe促銷活動 **[!UICONTROL <select report suite>]************[!UICONTROL &gt; Adobe促銷活動分類]**
 
 在您針對 Adobe Campaign 啟用報表套裝後，以下分類即可使用:
 
 * 傳送 ID (您在 Campaign 所見的「內部傳送名稱」)
-* 傳送標籤((促銷活動中的傳送-個別傳送/週期性傳送/交易傳送)
+* 傳送標籤(（促銷活動中的傳送——個別傳送／循環傳送／交易傳送）
 * Campaign ID (您在 Campaign 所見的「內部行銷活動名稱」)
 * Campaign 標籤 (Adobe Campaign 中的行銷活動)
 * 已執行的傳送標籤 (個別已執行傳送清單)
