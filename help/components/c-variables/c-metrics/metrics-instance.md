@@ -6,9 +6,9 @@ seo-title: 例項
 solution: Analytics
 title: 例項
 topic: 量度
-uuid: fec94bdd-a1 dc-4cb0-8983-ea575 b69589 f
+uuid: fec94bdd-a1dc-4cb0-8983-ea575b69589f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
