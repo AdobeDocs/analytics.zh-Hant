@@ -7,8 +7,8 @@ solution: Analytics
 title: 頁面命名策略
 topic: 開發人員和實作
 uuid: a829d0c7-6ebf-459a-b403-5e9c05161e5c
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ pageName 變數中應填入直觀易懂的頁面識別碼。
 
 下列頁面命名策略將說明如何填入&#x200B;*`pageName`* 變數中。雖然使用者傾向於選擇最容易實施的頁面命名策略，但頁面命名策略在相當大的程度上決定了所有[!UICONTROL 「路徑」]及[!UICONTROL 「頁面」]報表的可用性。在決定頁面的命名方式時，應審慎判斷。
 
-## 每個頁面的唯一名稱{#section_24704CA39E2F4C00ACEAFF39CA0A921B}
+## 每個頁面的唯一名稱 {#section_24704CA39E2F4C00ACEAFF39CA0A921B}
 
 最有效的頁面命名方法，是為每個頁面指定一個讓您的組織內所有的 [!DNL Analytics] 使用者都容易理解的唯一識別碼。舉例來說，頁面名稱可以是「首頁」、「電子部門首頁」、「運動: 地方運動: 高中」。
 
@@ -51,7 +51,7 @@ pageName 變數中應填入直觀易懂的頁面識別碼。
 | 電子裝置: 筆記型電腦 | 技術: 新型小工具 | 房屋貸款: 利率比較 |
 | 電子裝置: 筆記型電腦: 產品頁面 | 技術: 新型小工具: 文章頁面 | 房屋貸款: 利率比較: 10 年期固定 |
 
-## 檔案路徑 (不是「完整的 URL」){#section_37FDCDA00DA84B3D9B8AB4290555FF34}
+## 檔案路徑 (不是「完整的 URL」) {#section_37FDCDA00DA84B3D9B8AB4290555FF34}
 
 某些網站的檔案路徑清晰易讀。任何商業使用者皆可讀取 URL，並確定檔案路徑所參照的頁面。若您的網站是這樣，您可以使用伺服器端變數，將檔案路徑填入&#x200B;*`pageName`* 變數中，如下所示: 
 
@@ -72,7 +72,7 @@ Adobe 不建議將 *`pageName`* 保留為空白 (因而使用頁面的完整 URL
 * 有些頁面 (例如表單) 是自身發佈的，由此消除了原始表單和輸出結果之間的區別。
 * 當您的頁面被搜尋引擎或其他線上工具轉譯成另一種語言時，頁面的 URL 會是搜尋引擎的 URL (而不是您的網站的 URL)。
 
-## HTML (document.title){#section_B99B8F66B0E2410FA7BFE44E6851EB3F}
+## HTML (document.title) {#section_B99B8F66B0E2410FA7BFE44E6851EB3F}
 
 若您花時間讓 HTML 標題變得直觀易懂，您可以考慮使用與 *`pageName`* 變數中相同的標題。Adobe 建議使用伺服器端變數來填入 *`pageName`*，而不使用 JavaScript 的 [!DNL document.title]。有些瀏覽器會以不同的方式解譯 HTML 標題，而可能導致 [!DNL Analytics] 從不同的瀏覽器接收到不同的頁面名稱。
 
