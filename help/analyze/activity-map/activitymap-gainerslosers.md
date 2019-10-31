@@ -7,7 +7,7 @@ title: 可自訂覆蓋圖
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 覆蓋圖提供多種設定資料視覺效果的方式，讓您輕鬆查看並了解頁面上連結的人氣高低。
 
-覆蓋圖可讓您在頁面上直接視覺化點按資料。This is what separates a visual analysis tool like [!DNL Activity Map] from mostly tabular and graphical tools like Reports &amp; Analytics.
+覆蓋圖可讓您在頁面上直接視覺化點按資料。這正是 Activity Map 視覺化分析工具與大部分表格與圖形工具 (例如「Reports &amp; Analytics」) 之間的最大差異。
 
-[!DNL Activity Map] 提供三種覆蓋類型：
+Activity Map 提供下列三種覆蓋圖:
 
 * 漸層覆蓋圖 (熱度圖)
 * 氣泡覆蓋圖
@@ -46,7 +46,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 氣泡覆蓋圖會在一個小型註標泡泡中顯示覆蓋圖內容 (量度、百分比或排名)。
 
-在工具列的「覆蓋圖類型」中選取此覆蓋圖時，就會顯示氣泡覆蓋圖。Bubble overlays show for all links that match the selection in [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) (top 30, top 50, all...). 如果未選取此選項，則顯示漸層覆蓋圖。
+在工具列的「覆蓋圖類型」中選取此覆蓋圖時，就會顯示氣泡覆蓋圖。符合「[Activity Map 設定](/help/analyze/activity-map/activitymap-overlay-settings.md)」中選取項目 (前 30 名、前 50 名、全部...) 的所有連結都會顯示氣泡覆蓋圖。如果未選取此選項，則顯示漸層覆蓋圖。
 
 ![](assets/bubble_overlay.png)
 
