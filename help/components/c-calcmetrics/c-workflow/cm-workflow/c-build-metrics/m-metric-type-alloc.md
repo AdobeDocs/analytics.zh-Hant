@@ -3,9 +3,9 @@ description: 選取量度旁的齒輪圖示，即可指定量度類型和歸因�
 seo-description: 選取量度旁的齒輪圖示，即可指定量度類型和歸因模型。
 seo-title: 量度類型和歸因
 title: 量度類型和歸因
-uuid: 64649698-df2 a-42c3-be31-938f766 e1 d1 f
+uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -34,15 +34,15 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 >In July 2018, [!DNL Analytics] introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型:
 >
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 文件。
->* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至「上次接觸」和「首次接觸」屬性模型 (注意:「行銷管道」將不會遭到廢止，而只會廢止出現在計算量度中的兩個配置模型)。
->* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 「行銷渠道上次接觸」和「行銷渠道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」歸因模型(注意：「行銷渠道」不會過時——只有出現在計算量度中的兩個配置模型會過時)。
+>* 此外，我們將修正「線性配置」的計算方式。對於使用具有「線性」配置模型之計算量度的客戶，報表可能會稍有變更，以反映新的修正歸因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 >
 
 
 
 ## 「線性配置」自 2018 年 7 月 19 日起的新運作方式 {#section_EDBB2E14A6C248C5A79C0913C02D7CA1}
 
-Adobe在2018年月變更了計算量度的線性分配方式。This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 此次變更主要影響 eVar 和其他具持續性的維度。Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 其他使用線性配置的報表將繼續使用目前的線性配置方法。
+在2018年7月，Adobe變更了計算量度的線性配置報告方式。 This change impacts Analysis Workspace, Ad Hoc Analysis, [!UICONTROL Reports &amp; Analytics], Report Builder, Activity Map, and the Reporting APIs. 此次變更主要影響 eVar 和其他具持續性的維度。Note that these changes will only apply to calculated metrics and will not impact other reports using linear allocation (such as the Pages report in [!UICONTROL Reports &amp; Analytics]). 其他使用線性配置的報表將繼續使用目前的線性配置方法。
 
 下列範例將說明具有線性配置的計算量度在報表中將如何變更:
 
@@ -120,7 +120,7 @@ Adobe在2018年月變更了計算量度的線性分配方式。This change impac
 
 **自 2018 年 7 月 19 日起的線性配置運作方式摘要**
 
-自 7 月 19 日起，我們在計算量度中修正了這種行為。[!DNL Analytics] 現在只會使用傳入的值(頂端表格的第一列)，而不是根據上次接觸或首次接觸來使用持續值。同樣地，維度配置設定不再影響線性配置的計算方式 (亦即會以同樣的方式處理 prop 和 eVar)，且結果會反映原本傳入的內容，而非可能持續存在的首次或上次接觸值。因此，在三個案例中，A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
+自 7 月 19 日起，我們在計算量度中修正了這種行為。Instead of using the persisted values based on last touch or first touch, [!DNL Analytics] now uses only the values that were passed in (the first row of the top table). 同樣地，維度配置設定不再影響線性配置的計算方式 (亦即會以同樣的方式處理 prop 和 eVar)，且結果會反映原本傳入的內容，而非可能持續存在的首次或上次接觸值。因此，在三個案例中，A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
 
 | 值 | 新的上次接觸 eVar | 新的首次接觸 eVar | 新的 Prop |
 |---|---|---|---|
