@@ -1,20 +1,20 @@
 ---
-description: 列出與使用[!DNL Activity Map]不相容的瀏覽器參數。 請停用這些設定。
-seo-description: 列出與使用[!DNL Activity Map]不相容的瀏覽器參數。 請停用這些設定。
+description: 列出與使用 Activity Map 不相容的瀏覽器參數。請停用這些設定。
+seo-description: 列出與使用 Activity Map 不相容的瀏覽器參數。請停用這些設定。
 seo-title: 疑難排解瀏覽器延伸模組
 solution: Analytics
 title: 疑難排解瀏覽器延伸模組
 topic: Activity Map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # 疑難排解瀏覽器擴充功能
 
-Shows the browser parameters that are not compatible with the use of [!DNL Activity Map]. 請停用這些設定。
+顯示與Activity map使用不相容的瀏覽器參數。 請停用這些設定。
 
 ## Chrome
 
