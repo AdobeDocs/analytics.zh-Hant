@@ -1,20 +1,20 @@
 ---
-description: 可讓您在[!DNL Activity Map]中套用多區段篩選。
-seo-description: 可讓您在[!DNL Activity Map]中套用多區段篩選。
+description: 可讓您在 Activity Map 中套用多區段篩選。
+seo-description: 可讓您在 Activity Map 中套用多區段篩選。
 seo-title: 客戶分段
 solution: Analytics
 title: 客戶分段
 topic: Activity Map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
 
 # 客戶分段
 
-Lets you apply a multiple-segment filter within [!DNL Activity Map].
+可讓您在 Activity Map 中套用多區段篩選。
 
 > [!NOTE] 「區段」控制項僅適用於「標準模式」，因為Adobe Analytics平台不支援分段即時資料。
 
@@ -28,4 +28,4 @@ Lets you apply a multiple-segment filter within [!DNL Activity Map].
 
 ![](assets/two_segments.png)
 
-The selected segments will be applied to all Analytics reports presented in [!DNL Activity Map], i.e. overlays and the **[!UICONTROL Links on Page]** and **[!UICONTROL Page Details]** reports.
+選取的區段會套用至 Activity Map 中呈現的所有 Analytics 報表，也就是覆蓋圖以及「**[!UICONTROL 頁面上的連結]**」和「**頁面細節]」報表。[!UICONTROL **
