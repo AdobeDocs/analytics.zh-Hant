@@ -7,7 +7,7 @@ title: 連結報表
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 連結報表會報告在目前頁面上找到的連結。並不會報告為該頁面收集的所有連結。
 
-「頁面上的連結」報表提供連結的表格檢視。有時候您會想查看在單一檢視中排名的連結點擊次數 (或其他量度)。如此可在連結之間提供更好的比較結果。建立「頁面上的連結」報表，包含頁面上所有連結的排名清單 (依據連結 ID)、點按資訊 (# 和 %) 以及頁面中的地區。Click the Links in Page report button in the [!DNL Activity Map] toolbar.
+「頁面上的連結」報表提供連結的表格檢視。有時候您會想查看在單一檢視中排名的連結點擊次數 (或其他量度)。如此可在連結之間提供更好的比較結果。建立「頁面上的連結」報表，包含頁面上所有連結的排名清單 (依據連結 ID)、點按資訊 (# 和 %) 以及頁面中的地區。按一下 Activity Map 工具列中的「頁面上的連結報表」按鈕。
 
-「**[!UICONTROL 頁面上的連結]」報表隨即在 控制面板的瀏覽器框架下方開啟。**[!DNL Activity Map]
+「**[!UICONTROL 頁面上的連結]」報表隨即在 Activity Map 控制面板的瀏覽器框架下方開啟。**
 
 ## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
@@ -63,7 +63,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **篩選資料**
 
-如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]」欄位中搜尋相關詞語。**&#x200B;只有符合搜尋的連結會顯示覆蓋圖。Without a filter, the overlays specified in the [[!DNL Activity Map] Settings](/help/analyze/activity-map/activitymap-overlay-settings.md) will be shown.
+如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]」欄位中搜尋相關詞語。**&#x200B;只有符合搜尋的連結會顯示覆蓋圖。若不使用篩選，則會顯示「[Activity Map 設定](/help/analyze/activity-map/activitymap-overlay-settings.md)」中指定的覆蓋圖。
 
 ## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
 
