@@ -5,10 +5,10 @@ seo-title: 資料來源管理員
 solution: Analytics
 subtopic: 資料來源
 title: 資料來源管理員
-topic: 開發人員和實施
-uuid: cfa4a1c-7c56-421b-8ee6-a42 b334659 b1
+topic: 開發人員和實作
+uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
 
 在報表套裝中建立、管理、檢視資料來源的使用。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 資料來源]**」。
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;資 **[!UICONTROL 料來源]**。
 
 ## 建立標籤 {#section_74603FDA3D8842E49F1A51624A06DE20}
 
@@ -67,7 +67,7 @@ source-git-commit: 887f48d2ea5f21b7db95a1a8f716f7da9cf43662
    <td colname="col1"> <p>狀態 </p> </td> 
    <td colname="col2"> <p> 檔案的目前狀態。可能的狀態值有: </p> 
     <ul id="ul_56A0BF8C1BE249F6BB39B0D11DA3997F"> 
-     <li id="li_BAB359E08EDE4E0298C0362258789603">在佇列中 (3 個步驟中的步驟 1): 檔案存在，但尚未開始處理。如果 30 分鐘內未顯示檔案，請檢查相應的 <span class="filepath">.fin</span> 檔案是否存在 </li> 
+     <li id="li_BAB359E08EDE4E0298C0362258789603">在佇列中 (3 個步驟中的步驟 1): 檔案存在，但尚未開始處理。If the file doesn't appear within 30 minutes, check that the associated <span class="filepath"> .fin</span> file is present </li> 
      <li id="li_A09A14F42CB74F01B694799740B3DA17">準備中 (3 個步驟中的步驟 2): 正在檢查檔案有無錯誤或警告 </li> 
      <li id="li_793FDCDB64CF434D82CAF5B6E9BDE557">處理中 (3 個步驟中的步驟 3): 正在處理檔案 </li> 
      <li id="li_1D8C4B241FF0453EAF7DDFD8354C5573">失敗: 因出現錯誤，檔案未被處理 </li> 
