@@ -5,10 +5,10 @@ seo-description: 在 Analysis Workspace 中建立自訂日期範圍，並將其�
 seo-title: 建立自訂日期範圍
 solution: Analytics
 title: 建立自訂日期範圍
-topic: Reports & Analytics
-uuid: c8873d41-454d-4f22-ad1 f-38cacec5 a3 bc
+topic: Reports and Analytics
+uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 
-**[!UICONTROL 元件]** &gt; **[!UICONTROL 新的日期範圍]**
+**[!UICONTROL 元件]** &gt;新 **[!UICONTROL 日期範圍]**
 
 日期範圍會套用至面板層級。To add a date range to your project, click **Panels** &gt; *`<select panel>`*, and specify a new date range.
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/date-range-two-months-table.png)
 
-## Use a 7-day rolling date range {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
+## 使用7天滾動日期範圍 {#section_7EF63B2E9FF54D2E9144C4F76956A8DD}
 
 日期範圍會套用至面板層級。若要新增日期範圍至專案，請按一下「**動作** &gt; **新增面板**」，指定新的日期範圍。
 
