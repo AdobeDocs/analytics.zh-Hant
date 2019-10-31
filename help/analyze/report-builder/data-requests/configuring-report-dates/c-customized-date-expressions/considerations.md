@@ -3,16 +3,16 @@ description: '使用「自訂運算式」設定日期範圍時的兩個重要考
 seo-description: '使用「自訂運算式」設定日期範圍時的兩個重要考量 '
 seo-title: 考量事項
 solution: Analytics
-title: 自訂的日期考量事項
+title: 自訂日期考量事項
 topic: Report Builder
-uuid: a3bb3a63-0f15-4292-add7-4ea68 c8
+uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 自訂的日期考量事項
+# 自訂日期考量事項
 
 在使用自訂運算式設定日期範圍時，有兩項重要的考量事項: 
 
