@@ -5,7 +5,7 @@ seo-title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
+source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
 
 ---
 
@@ -62,11 +62,9 @@ source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
       請準備好將、 *`Email`*&#x200B;和值複製 *`First Name`**`Last Name`*[!DNL sample.csv] 到檔案（在下一步中介紹）。
 
-      >[!IMPORTANT]
-      >
-      >CSV檔案中的值必須以逗號分隔。
+      > [!IMPORTANT] CSV檔案中的值必須以逗號分隔。
 
-      **秘訣**: 此步驟中，建議您簡化使用者清單，以確保 Enterprise 或 Federated ID 移轉作業只會包含具有效電子郵件 ID 的使用者。
+      > [!TIP] 在此步驟中，Adobe建議簡化您的使用者清單，以確保只有具有有效電子郵件ID的使用者才會納入Enterprise或Federated ID移轉。
 
 1. 在 Admin Console 中，下載 Admin Console 使用者清單:
 
@@ -76,9 +74,7 @@ source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
    1. Compare the two files: the existing Admin Console users in the exported [!DNL .csv] file ( [!DNL sample.csv], in this example) with the users in the Analytics [!DNL User Logins List.csv] file.
 
-      >[!IMPORTANT]
-      >
-      >If you find duplicates, delete them from the Analytics [!DNL User Logins List.csv] file. 這麼做可防止覆寫 Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
+      > [!IMPORTANT] 如果您發現重複項目，請從Analytics檔案中刪 [!DNL User Logins List.csv] 除。 這麼做可防止覆寫 Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
 
 1. 從 Admin Console 下載 CSV 範本:
    1. On the Users tab, click **[!UICONTROL Add users by CSV]**, then **[!UICONTROL Download CSV Template]**.
@@ -136,9 +132,7 @@ source-git-commit: 3276298eed17827c92162dd09856bed3f22de468
 
 For more information about the fields in the [!DNL .csv] file, see [CSV file format](https://helpx.adobe.com/enterprise/using/users.html).
 
->[!NOTE]
->
->其他欄，例如 *`Product Configurations`* 和 *`Admin Roles`* 可以是空白。
+> [!NOTE] 其他欄，例如 *`Product Configurations`* 和 *`Admin Roles`* 可以是空白。
 
 1. On the Users tab in the Admin Console, upload the template file by clicking **[!UICONTROL Add users by CSV]** (as shown in Step 3.).
 1. 在Analytics中，執行移轉工具(如移轉 [Analytics使用者帳戶所述](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md))。
