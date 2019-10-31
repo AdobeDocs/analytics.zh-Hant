@@ -1,25 +1,23 @@
 ---
 description: 關於如何使用 Adobe 的資料來源的資訊。
 seo-description: 關於如何使用 Adobe 的資料來源的資訊。
-seo-title: Data Sources如何運作
+seo-title: 資料來源運作方式
 solution: Analytics
 subtopic: 資料來源
-title: Data Sources如何運作
-topic: 開發人員和實施
-uuid: ee9e6e74-9b00-4733-9a4b-d9 f2 b954 cc7 c
+title: 資料來源運作方式
+topic: 開發人員和實作
+uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Data Sources如何運作
+# 資料來源運作方式
 
 關於如何使用 Adobe 的資料來源的資訊。
 
->[!NOTE]
->
->透過Data Sources提交後，匯入的資料不會與使用其他方法(JavaScript指標、ActionSource、資料插入API等)收集的報告資料不一致。一旦匯入資料便「無法」移除。
+> [!NOTE] 透過Data Sources提交後，匯入的資料與使用其他方法（JavaScript信標、ActionSource、資料插入API等）收集的報表資料不會有任何區別。 一旦匯入資料便「無法」移除。
 
 ![](assets/data_sources_overview.png)
 
