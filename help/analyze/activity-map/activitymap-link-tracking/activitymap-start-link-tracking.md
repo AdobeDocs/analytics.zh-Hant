@@ -1,20 +1,20 @@
 ---
-description: 在[!DNL Activity Map]或舊版ClickMap中開始連結追蹤的步驟。
-seo-description: 在[!DNL Activity Map]或舊版ClickMap中開始連結追蹤的步驟。
+description: 在 Activity Map 或舊版 ClickMap 中開始進行連結追蹤的步驟。
+seo-description: 在 Activity Map 或舊版 ClickMap 中開始進行連結追蹤的步驟。
 seo-title: 開始連結追蹤
 solution: Analytics
 title: 開始連結追蹤
 topic: Activity Map
 uuid: 425cb287-f76e-4430-802f-288499711ba9
 translation-type: tm+mt
-source-git-commit: 36637b76b8026fbf87ad48adcfa47386c530e732
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # 開始連結追蹤
 
-Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
+在 Activity Map 或舊版 ClickMap 中開始進行連結追蹤的步驟。
 
 <table id="table_1745199B3105467CBA26F50B3B1CCE99"> 
  <thead> 
@@ -25,7 +25,7 @@ Steps for starting link tracking in [!DNL Activity Map] or Legacy ClickMap.
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> [!DNL Activity Map] </td> 
+   <td colname="col1"> Activity Map </td> 
    <td colname="col2"> 新增 Appmeasurement.js 檔案中的下列內容: 
     <code>
      /*
