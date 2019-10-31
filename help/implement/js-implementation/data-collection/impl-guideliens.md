@@ -7,8 +7,8 @@ solution: Analytics
 title: 實作指南
 topic: 開發人員和實作
 uuid: 2917f4af-19bd-4666-ae4b-056e7e33f642
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
 
 * **RSID:**[!UICONTROL 報表套裝 ID]
 * **VNS:**&#x200B;訪客命名空間，用以儲存[!DNL 2o7.net]訪客 ID Cookie 之 [!DNL omtrdc.net] 或  的子網域。
-* **COOKIEDOMAIN:** 您的 VNS + trackingServer。這些項目可能會隨您的資料中心與 RDC 組態而大不相同。如果您不確定自己的資料收集網域，請[聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html#analytics)。
+* **COOKIEDOMAIN:** 您的 VNS + trackingServer。這些項目可能會隨您的資料中心與 RDC 組態而大不相同。[如果您不確定您的資料收集網域](https://helpx.adobe.com/contact/enterprise-support.ec.html#analytics) ，請連絡客戶服務。
 
 ## Javascript
 
