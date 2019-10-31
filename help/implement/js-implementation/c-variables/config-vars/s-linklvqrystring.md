@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,11 +26,9 @@ https://www.mycompany.com/download.asp?filename=myfile.exe
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |--- |--- |--- |--- |
-| 不適用 | 不適用 | Exit Links File Downloads | false |
+| 不適用 | 不適用 | 退出連結檔案下載 | false |
 
->[!NOTE]
->
->Setting `linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
+> [!NOTE]設為 `linkLeaveQueryString=true` 會納入所有退出連結和下載連結的所有查詢字串參數。
 
 ## 語法
 
@@ -60,5 +58,5 @@ s.linkLeaveQueryString=true
 
 ## 缺陷、問題和提示
 
-* Setting `s.linkLeaveQueryString=true` includes all query string parameters for all exit links and download links.
-* The `linkLeaveQueryString` variable does not affect recorded page URLs, visitor click map, or [!UICONTROL Path] reports.
+* 設為 `s.linkLeaveQueryString=true` 會納入所有退出連結和下載連結的所有查詢字串參數。
+* `linkLeaveQueryString` 變數不會對記錄的頁面 URL、訪客點按對映或[!UICONTROL 路徑]報表造成影響。
