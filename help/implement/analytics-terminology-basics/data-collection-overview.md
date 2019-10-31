@@ -1,6 +1,6 @@
 ---
 description: 瞭解至您網站的造訪如何在 Adobe Analytics 中成為一份報告。
-keywords: Analytics實施；資料收集
+keywords: Analytics 實施;資料收集
 seo-description: 瞭解至您網站的造訪如何在 Adobe Analytics 中成為一份報告。
 seo-title: 資料彙集
 solution: Analytics
@@ -8,7 +8,7 @@ title: 資料彙集
 topic: 開發人員和實作
 uuid: d0d6098d-113e-4cf5-bb89-e435f7b6b1af
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 瞭解至您網站的造訪如何在 Adobe Analytics 中成為一份報告。
 
-Analytics 資料收集是透過向 Adobe 資料收集伺服器發出特殊影像請求來完成。在大部分實施中，是在要進行追蹤的網頁中放置 JavaScript 代碼。當標記的網頁在訪客瀏覽器中載入時，瀏覽器會執行 JavaScript 代碼以執行邏輯，擷取訪客資訊並正確填入標記。JavaScript 處理的最後一個步驟，是向 Analytics 資料收集伺服器發出影像請求，用以收集要提交的資料並傳回小型透明影像至訪客瀏覽器。
+Analytics 資料收集是透過向 Adobe 資料收集伺服器發出特殊影像請求來完成。在大部分實施中，是在要進行追蹤的網頁中放置 JavaScript 程式碼。當標記的網頁在訪客瀏覽器中載入時，瀏覽器會執行 JavaScript 程式碼以執行邏輯，擷取訪客資訊並正確填入標記。JavaScript 處理的最後一個步驟，是向 Analytics 資料收集伺服器發出影像請求，用以收集要提交的資料並傳回小型透明影像至訪客瀏覽器。
 
-由於瀏覽器處理的典型瓶頸是從網站伺服器下載頁面元素 (影像等) 的花費時間，因此瀏覽器執行 JavaScript 代碼的所需時間幾可忽略。不過，訪客瀏覽器向 Adobe 資料收集伺服器發出影像請求的最後一個步驟，確實會增加頁面下載總時間。對頁面下載時間的整體影響，取決於網站訪客距離 Adobe 資料收集伺服器的鄰近程度 (通常是指網際網路躍點，而非地理距離)。
+由於瀏覽器處理的典型瓶頸是從網站伺服器下載頁面元素 (影像等) 的花費時間，因此瀏覽器執行 JavaScript 程式碼的所需時間幾可忽略。不過，訪客瀏覽器向 Adobe 資料收集伺服器發出影像請求的最後一個步驟，確實會增加頁面下載總時間。對頁面下載時間的整體影響，取決於網站訪客距離 Adobe 資料收集伺服器的鄰近程度 (通常是指網際網路躍點，而非地理距離)。
 
 Adobe 提供多種將資料傳入 Analytics 的方式。這些方式包括即時追蹤下列項目的資訊:
 
@@ -41,7 +41,7 @@ Adobe 提供多種將資料傳入 Analytics 的方式。這些方式包括即時
 
    ![](assets/how-data-is-collected-1.png)
 
-1. 您的網站網路伺服器會傳送頁面代碼資訊，且頁面會顯示於瀏覽器。
+1. 您的網站網路伺服器會傳送頁面程式碼資訊，且頁面會顯示於瀏覽器。
 
    ![](assets/how-data-is-collected-2.png)
 
@@ -61,7 +61,7 @@ Adobe 提供多種將資料傳入 Analytics 的方式。這些方式包括即時
 
    >[!NOTE]
    >
-   >每個影像要求都包含隨機數字字串，以防止瀏覽器快取，並確保瀏覽器發出後續的影像要求。
+   >每個影像要求都包含隨機數字串，用以避免瀏覽器快取確保瀏覽器能產生後續影像要求。
 
 1. Adobe 回報空白像素影像。
 
@@ -69,7 +69,7 @@ Adobe 提供多種將資料傳入 Analytics 的方式。這些方式包括即時
 
    程式碼會自動收集額外細節 (如作業系統、瀏覽器類型、瀏覽器高度及寬度、IP 位址，以及瀏覽器使用語言)。
 
-1. Adobe伺服器會將網頁分析資料儲存 *`report suites`* 在（您的資料儲存庫）中。
+1. Adobe 伺服器會將網頁分析資料儲存在 *`report suites`* (您的資料存放庫) 中。
 
    ![](assets/how-data-is-collected-5.png)
 
