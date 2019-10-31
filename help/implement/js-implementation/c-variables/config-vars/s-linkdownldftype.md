@@ -5,7 +5,7 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,11 +20,11 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 |--- |--- |--- |--- |
 | 不適用 | 不適用 | 流量 &gt; 網站流量 &gt; 檔案下載 | "exe、zip、wav、mp3、mov、mpg、avi、wmv、doc、pdf、xls" |
 
-此 變 *`linkDownloadFileTypes`* 數僅在設為' *`trackDownloadLinks`* True'時相關。
+此&#x200B;*`linkDownloadFileTypes`* 變數只有在 *`trackDownloadLinks`* 設為「True」時才具有相關性。
 
 以滑鼠左鍵點按連結時，才會計入[!UICONTROL 「檔案下載」]報表中。任何在頁面載入時自動啟動的檔案下載，或是只會在重新導向後執行的檔案下載，都不會計入[!UICONTROL 「檔案下載」]報表中。當您以滑鼠右鍵按一下檔案，然後選取「另存目標...」選項時，並不會計入[!UICONTROL 「檔案下載」]報表中。
 
-此&#x200B;*`linkDownloadFileTypes`* 變數可用來追蹤 RSS 饋送的點按次數。如果您有RSS饋送的連結，且副檔名為。xml或其他副檔名，則在清單中附加 *`linkDownloadFileTypes`* ",xml"可讓您查看每個RSS連結的點按頻率。
+此&#x200B;*`linkDownloadFileTypes`* 變數可用來追蹤 RSS 饋送的點按次數。如果您有具有 .xml 或其他副檔名的 RSS 饋送連結，將「.xml」附加至 *`linkDownloadFileTypes`* 清單可讓您查看各個 RSS 連結的點按頻率。
 
 ## 語法和可能的值
 
@@ -34,7 +34,7 @@ source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
 s.linkDownloadFileTypes="type1[,type2[,type3[...]]]"
 ```
 
-任何副檔名皆可包含在清單內。請留意勿將常見副檔名 (例如 htm 或 aspx) 納入 *`linkDownloadFileTypes`*。此舉將導致每次點按時都會發送額外的影像要求，而計為主要伺服器呼叫的費用。
+任何副檔名皆可包含在清單內。請留意勿將常見副檔名 (例如 htm 或 aspx) 納入  *`linkDownloadFileTypes`*。此舉將導致每次點按時都會發送額外的影像要求，而計為主要伺服器呼叫的費用。
 
 ## 範例
 
