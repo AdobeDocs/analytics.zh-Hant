@@ -1,18 +1,18 @@
 ---
 description: 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 seo-description: 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
-seo-title: 報告功能
+seo-title: 報表功能
 solution: Analytics
-title: 報告功能
-topic: Reports & Analytics
-uuid: 32f72961-cb94-4e50-ae18-03326e02 bc8 b
+title: 報表功能
+topic: Reports and Analytics
+uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 報告功能{#report-features}
+# 報表功能{#report-features}
 
 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 
@@ -22,31 +22,31 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages Reports]** &gt; **[!UICONTROL Pages]**).
 
-![](assets/pages_report.png){width=「672px」}
+![](assets/pages_report.png){width="672px"}
 
 ## 報告工具列 {#section_0D674177AE6C4A71B07234DB25910ECD}
 
 可讓您與能依照資料變更網站，或與行銷策略的決策者共用您的報告資料。
 
-![](assets/toolbar.png){width=「672px」}
+![](assets/toolbar.png){width="672px"}
 
-Also refer to [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+另請參閱自 [訂報表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## 報告標題與設定 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
 顯示報告設定，並可讓您設定報告類型、選擇度量等等。此群組的可用選項會依您執行的報告而異。
 
-![](assets/settings_header.png){width=「672px」}
+![](assets/settings_header.png){width="672px"}
 
-See [Customizing a Report](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) for more information.
+如需詳 [細資訊，請參閱自訂報表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 。
 
 ## 日曆 {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 只要按一下「日曆」按鈕並選擇日期範圍，即可指定日期。您亦可選擇兩個時間範圍來比較效能。
 
-![](assets/calendar_large.png){width=「672px」}
+![](assets/calendar_large.png){width="672px"}
 
-See [Selecting a Date or Date Range](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34) and [Comparing Dates](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824).
+請參 [閱選擇日期或日期範圍](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34)[和比較日期](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824)。
 
 ## 圖表類型 {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
