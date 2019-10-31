@@ -1,18 +1,18 @@
 ---
 description: Adobe 無法還原已從 FTP 帳戶刪除的任何資料。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: Adobe 無法還原已從 FTP 帳戶刪除的任何資料。
-seo-title: 還原已刪除的FTP資料和FTP帳戶
+seo-title: 還原已刪除的 FTP 資料和 FTP 帳戶
 solution: Analytics
-title: 還原已刪除的FTP資料和FTP帳戶
-uuid: 79ded9e4-c84 f-468f-a33 e-55c51 b2 d16 da
+title: 還原已刪除的 FTP 資料和 FTP 帳戶
+uuid: 79bed9e4-c84f-468f-a33e-55c51b2d16da
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 還原已刪除的FTP資料和FTP帳戶
+# 還原已刪除的 FTP 資料和 FTP 帳戶
 
 Adobe 無法還原已從 FTP 帳戶刪除的任何資料。
 
