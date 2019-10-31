@@ -1,13 +1,13 @@
 ---
-description: 使用動態標籤管理建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
-keywords: 動態標籤管理
-seo-description: 使用動態標籤管理建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
+description: 使用 Dynamic Tag Management 建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
+keywords: Dynamic Tag Management
+seo-description: 使用 Dynamic Tag Management 建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
 seo-title: 手動實作 Adobe Analytics (舊版)
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 手動實作 Adobe Analytics (舊版)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
