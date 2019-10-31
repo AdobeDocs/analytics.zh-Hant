@@ -5,17 +5,17 @@ seo-title: 交易與客戶整合
 solution: Analytics
 subtopic: 資料來源
 title: 交易與客戶整合
-topic: 開發人員和實施
-uuid: 71f73a47-3436-4314-a182-36de4 bd935 ba
+topic: 開發人員和實作
+uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 交易與客戶整合
 
-Data Sources提供兩種方式，將離線發生的事件整合至線上資料。
+Data Sources提供另外兩種方式，將離線發生的事件整合至您的線上資料。
 
 * [啟用交易 ID 記錄](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [交易整合](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -27,7 +27,7 @@ Data Sources提供兩種方式，將離線發生的事件整合至線上資料�
 
 交易 ID 可以透過 UI 啟用/停用，而且無須使用 ClientCare:
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL[Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
 
 <!-- 
 
@@ -49,10 +49,10 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 客戶 ID 是用於指定客戶的離線活動，並將其連結至線上活動。下列情況應使用客戶 ID:
 
-* 將客戶 ID 填入到&#x200B;*`visitorID`* 變數。
+* 將客戶 ID 填入到&#x200B;*`visitorID`* 變數中。
 * 客戶活動離線動作沒有指定的點，如銷售機會提交或購買。
 
-若要設定此類型的資料來源，請參閱 [Visitor ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
+若要設定此類型的資料來源，請參閱 [訪客 ID](../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)
 
 ## 交易整合 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
