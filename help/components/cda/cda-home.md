@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: 跨裝置分析將裝置資料結合在一起，將您的資料從以裝置為中心變更為以人為中心。
 translation-type: tm+mt
-source-git-commit: ca79141a353dbd09176dbbe295611656262ba107
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
