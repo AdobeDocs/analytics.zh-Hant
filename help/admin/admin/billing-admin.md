@@ -5,9 +5,9 @@ seo-title: 帳單
 solution: Analytics
 title: 帳單
 topic: 管理工具
-uuid: ad6ee1c4-d317-4320-a36 e-ee966 c8 f145 e
+uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -16,9 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 帳單頁面可讓您存取帳單資訊，包括每個報表套裝的流量細節。只有獲授權的管理員可存取此頁面。
 
->[!NOTE]
->
->如果您公司的帳單標籤存取權已停用，請連絡您的帳戶管理員。
+> [!NOTE] 如果您公司的帳單標籤存取權已停用，請連絡您的帳戶管理員。
 
 帳單頁面的流量概述資料可將報告中的頁面檢視資料與發票上的計費伺服器呼叫次數產生關聯。[!UICONTROL 帳單]頁面可讓您進行下列工作:
 
@@ -44,9 +42,7 @@ To view monthly traffic overview data, locate the month where you want to view t
 | 自訂連結 | 每個報表套裝的自訂連結總數。您可以在「網站內容 &gt; 連結 &gt; 自訂連結」中確認自訂連結值。 |
 | 退出連結 | 每個報表套裝的退出連結總數。您可以在「網站內容 &gt; 連結 &gt; 退出連結」中確認退出連結值。 |
 
->[!NOTE]
->
->To obtain a working copy of the [!UICONTROL Monthly Invoice] report, copy it onto your clipboard, then paste it into a spreadsheet program such as Microsoft Excel*.
+> [!NOTE] 若要取得「每月發票」報 [!UICONTROL 表的工作副本] ，請將它複製到剪貼簿，然後貼到試算表程式，例如Microsoft Excel*。
 
 ## 報告日期和處理日期比較 {#section_51A48C2F223F4904BE1407C13333C457}
 
