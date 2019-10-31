@@ -5,9 +5,9 @@ seo-title: 核准區段
 solution: Analytics
 title: 核准區段
 topic: 區段
-uuid: 01f4ff51-d923-4328-a68 d-c4 e793 cb5 b34
+uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 1. 在「區段管理員」中，勾選區段標題左側的核取方塊。
 1. 在區段管理工作列中，按一下「**[!UICONTROL 核准]」。**
 1. 考慮將核准的區段共用給組織。
-1. Click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 確定]**。
 1. 注意清單中該區段旁出現核准圖示。
 
    ![](assets/seg_approved.png)
