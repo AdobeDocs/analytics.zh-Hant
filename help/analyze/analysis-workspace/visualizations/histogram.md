@@ -3,9 +3,9 @@ description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型�
 seo-description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型。
 seo-title: 色階分佈圖
 title: 色階分佈圖
-uuid: 8bd2bd2c-da15-4f64-b889-ab9 add685046
+uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -24,9 +24,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ![](assets/histogram.png)
 
->[!NOTE]
->
->直方圖僅支援標準度量，而不支援計算度量。
+> [!NOTE] 直方圖僅支援標準量度，不支援計算量度。
 
 這裡我們使用了每個獨特訪客的頁面檢視次數量度。第一個 (最左邊) 貯體對應至每個獨特訪客 1 次頁面檢視、第二個貯體對應至 2 次頁面檢視，以此類推。
 
@@ -41,7 +39,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 起始貯體 | 決定色階分佈圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
 | 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
 | 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | 可讓您選擇[訪客](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html)、[造訪](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)或[點擊](https://marketing.adobe.com/resources/help/en_US/reference/hit.html)。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，則在自由表格中使用「發生次數」作為 Y 軸的量度。 |
+| 計算方法 | 可讓您選擇[訪客](https://marketing.adobe.com/resources/help/en_US/reference/visitors.html)、[造訪](https://marketing.adobe.com/resources/help/en_US/reference/metrics_visit.html)或[點擊](https://marketing.adobe.com/resources/help/en_US/reference/hit.html)。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。對於「點擊」,「發生次數」會用作自由表格中的Y軸量度。 |
 
 **範例**:
 
