@@ -1,13 +1,13 @@
 ---
 description: 您可以決定要顯示哪些欄，以及根據需求予以排序。
-keywords: 資料饋送；欄；欄組態
+keywords: 資料饋送；columns;columns configuration
 seo-description: 您可以決定要顯示哪些欄，以及根據需求予以排序。
 seo-title: 排序欄
 solution: Analytics
 title: 排序欄
-uuid: 97861aff-6395-48da-8ea4-aea67 cd74005
+uuid: 97861aff-6395-48da-8eb4-aea67cd74005
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
