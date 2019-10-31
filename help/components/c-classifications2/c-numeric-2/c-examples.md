@@ -3,12 +3,12 @@ description: 提供數值 2 分類匯入指引的範例。
 seo-description: 提供數值 2 分類匯入指引的範例。
 seo-title: 範例
 solution: Analytics
-subtopic: '分類   '
+subtopic: 分類
 title: 範例
 topic: 管理工具
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -70,7 +70,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-在 2 月，使用者花費在 Product1 的成本減少為收入的 15%，而 Product2 則減少為收入的 25%。
+在2月，使用者對Product1的成本降至收入的15%，而Product2則降至收入的25%。
 
 ## 結果 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -170,9 +170,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
->[!NOTE]
->
->這項功能可供進階使用者估計值。但請勿將產生的資訊視為精確的值。
+> [!NOTE] 此功能可讓進階使用者近似值。 但請勿將產生的資訊視為精確的值。
 
 <!-- 
 
