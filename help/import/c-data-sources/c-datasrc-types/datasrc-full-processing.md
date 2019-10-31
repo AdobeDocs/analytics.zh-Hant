@@ -1,19 +1,19 @@
 ---
 description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 seo-description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
-seo-title: 完整處理
+seo-title: 完全處理
 solution: Analytics
 subtopic: 資料來源
-title: 完整處理
-topic: 開發人員和實施
-uuid: 590ae89c-6e17-453b-b701-ce1 adba6 fa4
+title: 完全處理
+topic: 開發人員和實作
+uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 完整處理
+# 完全處理
 
 針對以標準伺服器調用 (「通用 &gt; 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -51,25 +51,26 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>注意: 標準資料來源 (如 <code>貨幣代碼</code>) 也支援此變數。 </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
    <td colname="col3"> <p>收入貨幣代碼 (如 USD)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>時間戳記 </p> </td> 
+   <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>日期 </p> </td> 
-   <td colname="col3"> <p>使用 ISO 8601 日期格式 <code>YYYY-MM-DDThh:mm:ss±UTC_offset</code> (如 <code>2013-09-01T12:00:00-07:00</code>) 或 Unix 時間格式 (自 1970 年 1 月 1 日起的總秒數)。 </p> </td> 
+   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>，即 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar (<span class="varname"> eVar </span> - <span class="varname"> eVar75 </span>)。 </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告促銷活動 3)。 </p> </td> 
+   <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告促銷活動 3)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>事件 </p> </td> 
    <td colname="col2"> <p>事件 </p> </td> 
    <td colname="col3"> <p>事件字串，格式語法與 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> 變數相同。 </p> <p>例如: </p> 
-    <code>scAdd，event1，event7 </code>
-  </td> 
+    <code>
+      scAdd,event1,event7 
+    </code> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
@@ -109,12 +110,12 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>Page URL (for example, <code>https://www.mysite.com/index.html)</code>. </p> </td> 
+   <td colname="col3"> <p>頁面URL(例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>產品清單 (如 <code>"Sports;Ball;1;5.95")</code>。 </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -201,7 +202,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>訪客的連線類型 (<span class="term"> LAN </span> 或 <span class="term"> 數據機 </span>)。 </p> </td> 
+   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
@@ -224,7 +225,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
    <td colname="col2"> <p>JavaScript 版本 (如 1.3)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>plugins </p> </td> 
+   <td colname="col1"> <p>外掛程式 </p> </td> 
    <td colname="col2"> <p>瀏覽器外掛程式名稱清單，以分號隔開。 </p> </td> 
   </tr> 
   <tr> 
@@ -236,7 +237,7 @@ source-git-commit: 01a6fc7e44dc71b868bd38a4f6a5a4089eae6349
    <td colname="col2"> <p>頁面反向連結的 URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>resolution </p> </td> 
+   <td colname="col1"> <p>解析度 </p> </td> 
    <td colname="col2"> <p>螢幕解析度 (如 1024x768)。 </p> </td> 
   </tr> 
   <tr> 
