@@ -7,7 +7,7 @@ title: 儲存含請求的活頁簿
 topic: Report Builder
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 ## Filenames and location {#section_2406629E9B644CE08430826948977D5D}
 
-[!UICONTROL 「儲存範本] 」表單的功能與標準「Excel [!UICONTROL 檔案] &gt; [!UICONTROL 另存新檔」] 對話方塊中的部分功能相同，例如使用傳統 [!DNL .xls] 副檔名輸入試算表報表檔案名稱的文字方塊。
+The [!UICONTROL Save Template] form has some of the same functions as the standard Excel [!UICONTROL File] &gt; [!UICONTROL Save As] dialog box, such as a text box for entering the file name of the spreadsheet report using the conventional [!DNL .xls] file extension.
 
 您使用的任何檔案名稱最多只能含有 255 個字元。此外，檔案名稱不得含有以下字元: 
 
