@@ -3,12 +3,12 @@ description: 新增離線資料至行銷管道報表。
 seo-description: 新增離線資料至行銷管道報表。
 seo-title: 新增離線資料
 solution: Analytics
-subtopic: Marketing channels
+subtopic: 行銷渠道
 title: 新增離線資料
 topic: Reports and Analytics
 uuid: bbf4661a-b6b1-4a89-a3cf-ae8dd785d37d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 
 線上渠道可讓您為不同來源 (例如搜尋引擎、Internet 廣告、反向連結網域或電子郵件促銷活動) 的訪客分類資料。離線渠道適用於透過電視廣告、報章或雜誌廣告找到您網站的訪客。
 
-**Integrate data sources into Marketing Channel reports**
+**將資料來源整合至行銷渠道報表**
 
 如果您要將[資料來源的資料](https://marketing.adobe.com/resources/help/en_US/sc/datasources/c_faq.html)整合至行銷渠道報表，請記住下列幾點:
 
