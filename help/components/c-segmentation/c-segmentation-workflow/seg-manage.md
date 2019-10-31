@@ -5,9 +5,9 @@ seo-title: 管理區段
 solution: Analytics
 title: 管理區段
 topic: 區段
-uuid: 47d54822-a662-471d-8dab-03ddf6 c2 f395
+uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
