@@ -5,9 +5,9 @@ seo-title: 標記區段
 solution: Analytics
 title: 標記區段
 topic: 區段
-uuid: 2adb95b8-862e-439a-8694-e2 ee163066 a6
+uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
