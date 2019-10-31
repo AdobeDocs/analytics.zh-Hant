@@ -8,8 +8,8 @@ subtopic: 疑難排解
 title: 正確設定 PageType 變數
 topic: 開發人員和實作
 uuid: eafaf58e-ba07-416f-89b9-694687cc4802
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
