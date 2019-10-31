@@ -7,8 +7,8 @@ solution: Analytics
 title: 變數和值
 topic: 開發人員和實作
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -48,8 +48,6 @@ var s_code=s.t();if(s_code)document.write(s_code)//-->
 
 頁面名稱須區分大小寫，若有差異將產生其他頁面記錄。"Home" 與 "home" 在 [!DNL Analytics] 中是兩個不同的頁面。
 
->[!NOTE]
->
->報表中無法結合多筆頁面記錄。
+> [!NOTE]報表中無法結合多筆頁面記錄。
 
 請驗證[!UICONTROL 「自訂連結」]報表中有連結的報告資料。請確定傳入 [!UICONTROL tl] 函數中的參數正確無誤。如需[!UICONTROL 自訂連結]的詳細資訊，請參閱[連結追蹤](../../../implement/js-implementation/function-tl.md#concept_EA13689CB8EE4F308FC89A1293046D5E).
