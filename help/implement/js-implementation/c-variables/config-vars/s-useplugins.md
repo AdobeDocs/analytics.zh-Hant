@@ -5,16 +5,16 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 60dd1b300035e5149f53870239de85fb3174a77a
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.usePlugins
 
-If the  function is available and contains useful code, [!UICONTROL s_usePlugins] should be set to 'true.'
+若此函數可供使用且包含有用的程式碼，則 [!UICONTROL s_usePlugins] 應設為「true」。
 
-When [!UICONTROL usePlugins] is 'true,' the *`s_doPlugins`* function is called prior to each image request.
+當 [!UICONTROL usePlugins] 設為「true」時，則會在每個影像要求之前呼叫 *`s_doPlugins`* 函數。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
@@ -38,7 +38,7 @@ s.usePlugins=true
 s.usePlugins=false
 ```
 
-[!UICONTROL usePlugins] 變數在  *`s_doPlugins`* function is not declared in your JavaScript file.
+若未在 JavaScript 檔案中宣告 *`s_doPlugins`* 函數，[!UICONTROL usePlugins] 變數僅應為 false (或未宣告)。
 
 ## 組態設定
 
