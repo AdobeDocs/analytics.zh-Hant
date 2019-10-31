@@ -7,8 +7,8 @@ solution: Analytics
 title: 資料彙集 HTTP 標題
 topic: 開發人員和實作
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 HTTP 要求和回應標題可用來收集 AppMeasurement 未收集的資料。本節將說明資料收集期間所使用的標題。
 
-## HTTP 要求標題{#section_C1DE3416CCC241A898155C915A01A0FC}
+## HTTP 要求標題 {#section_C1DE3416CCC241A898155C915A01A0FC}
 
 <table id="table_84D1F4B54ABE4423A2EBE840C49D3876"> 
  <tbody> 
@@ -27,7 +27,7 @@ HTTP 要求和回應標題可用來收集 AppMeasurement 未收集的資料。�
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>讀取先前由我們的資料收集伺服器建立的 Cookie。 </p> <p> 自 2014 年起，Adobe 伺服器將捨棄除了 Adobe 設定的 Cookie 以外，所有伴隨伺服器呼叫的 Cookie。如需 Adobe Cookie 的完整清單，請參閱 <a href="https://marketing.adobe.com/resources/help/zh_TW/whitepapers/cookies/" format="https" scope="external">Experience Cloud 中使用的 Cookie</a>。 </p> </td> 
+   <td> <p>讀取先前由我們的資料收集伺服器建立的 Cookie。 </p> <p> 自 2014 年起，Adobe 伺服器將捨棄除了 Adobe 設定的 Cookie 以外，所有伴隨伺服器呼叫的 Cookie。如需 Adobe Cookie 的完整清單，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud 中使用的 Cookie</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
@@ -88,9 +88,7 @@ HTTP 要求和回應標題可用來收集 AppMeasurement 未收集的資料。�
  </tbody> 
 </table>
 
->[!NOTE]
->
->使用動態變數的實施可選擇讀取前述以外其他 HTTP 要求標題。
+> [!NOTE]使用動態變數的實施可選擇讀取前述以外其他 HTTP 要求標題。
 
 ## HTTP 回應標題 {#section_A9C7035198C84037A21A8033CC408F0E}
 
@@ -110,6 +108,4 @@ HTTP 要求和回應標題可用來收集 AppMeasurement 未收集的資料。�
 | Content-Type | 指定傳回至用戶端的內容類型 (GIF、文字、Javascript 等)。 |
 | Content-Length | 指定傳回至用戶端的內容大小。 |
 
->[!NOTE]
->
->在回應中可設定其他 HTTP 標題，以進行內部狀態監控。其中有部分標題可傳回至瀏覽器，但瀏覽器不一定需加以接收。
+> [!NOTE]在回應中可設定其他 HTTP 標題，以進行內部狀態監控。其中有部分標題可傳回至瀏覽器，但瀏覽器不一定需加以接收。
