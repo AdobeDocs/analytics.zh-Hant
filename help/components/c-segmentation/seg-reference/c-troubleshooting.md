@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 分段疑難排解
-title: 分段疑難排解
-uuid: 8476d617-4b4-4ff2-9b3a-02685f666afc
+seo-title: 區段疑難排解
+title: 區段疑難排解
+uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
 translation-type: tm+mt
-source-git-commit: 50069fe860d58f04df7ffe63714afeef9d3d7a28
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 分段疑難排解
+# 區段疑難排解
 
 ## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
