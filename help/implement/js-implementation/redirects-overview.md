@@ -8,8 +8,8 @@ subtopic: 重新導向
 title: 重新導向與別名
 topic: 開發人員和實作
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
-translation-type: ht
-source-git-commit: 76d0ce11d9b560e0df866be9e753804b6fa4bb3d
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -41,7 +41,7 @@ redirects_sc.xml
 * [範例: 沒有重新導向的瀏覽](../../implement/js-implementation/redirects-overview.md#section_5C835A4D665A4625A23333C2C21F152D)
 * [範例: 有重新導向的瀏覽](../../implement/js-implementation/redirects-overview.md#section_921DDD32932847848C4A901ACEF06248)
 
-## 範例: 沒有重新導向的瀏覽{#section_5C835A4D665A4625A23333C2C21F152D}
+## 範例: 沒有重新導向的瀏覽 {#section_5C835A4D665A4625A23333C2C21F152D}
 
 假設有下面這種使用者未遇到重新導向的情況:
 
@@ -149,7 +149,7 @@ s.pageName=""
 s.server="" 
 s.campaign="" 
 s.referrer="https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets" 
-// Setting the s.pageURL variable is optional. 
+// Setting the s.pageURL variable is optional.
 s.pageURL="https://www.flytohawaiiforfree.com"
 ```
 
@@ -163,7 +163,7 @@ redirects_verify_referrer.xml
 
 執行測試，以確認正在擷取反向連結、原始 URL (*`s_server`*) 和促銷活動變數。
 
-在 [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) 中，這些變數將以下列參數的形式表示。
+These variables will be represented as the following parameters in the [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
