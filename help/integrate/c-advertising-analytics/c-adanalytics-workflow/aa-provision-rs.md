@@ -1,18 +1,18 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 啓用廣告分析的報表套裝
-title: 啓用廣告分析的報表套裝
-uuid: 934f0e02-b5 d-7a-93d8-92f95 bd714 a714 a
+seo-title: 啟用 Advertising Analytics 的報表套裝
+title: 啟用 Advertising Analytics 的報表套裝
+uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 啓用廣告分析的報表套裝
+# 啟用 Advertising Analytics 的報表套裝
 
-若要在Analytics中查看任何Advertising Analytics搜尋資料，您必須為Advertising Analytics報表設定每個Experience Cloud映射的報表套裝。
+若要在Analytics中查看任何Advertising Analytics搜尋資料，您必須針對Advertising Analytics報表設定每個Experience cloud對應的報表套裝。
 
 1. [將報表套裝對應至組織](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)。
 1. Navigate to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
@@ -24,7 +24,7 @@ source-git-commit: e3b1ac3139f26ca3a97f3d2228276e690ec4cb79
 
    >[!IMPORTANT]
    >
-   >AMO ID是指要插入搜尋資料的Adobe Advertising Cloud變數。
+   >AMO ID是指將要插入搜尋資料的Adobe Advertising cloud變數。
 
 1. 請設定您想要 AMO ID 變數使用的變數配置和到期日。轉換變數 (eVars) 可讓 Adobe Analytics 將成功事件歸因於特定變數值。有時候，變數在感應到成功事件之前會遇到一個以上的值。在此情況下，配置會決定哪個變數值可以取得該事件的評分。
 
