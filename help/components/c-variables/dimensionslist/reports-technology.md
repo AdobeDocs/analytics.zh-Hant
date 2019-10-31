@@ -5,9 +5,9 @@ seo-title: 技術
 solution: Analytics
 title: 技術
 topic: 報表
-uuid: 8e2f88dc-e1 b9-428e-b0 d3-faf4 c063 bec
+uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> 監視器色彩深度 </td> 
-   <td colname="col2"> <p> 顯示訪客的電腦設定中最常用的色彩深度設定。色彩深度是指螢幕可顯示的色彩數量。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客的電腦設定中最常用的色彩深度設定。 色彩深度是指螢幕可顯示的色彩數量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 螢幕解析度 </td> 
@@ -62,7 +62,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript 版本 </td> 
-   <td colname="col2"> <p> 顯示訪客檢視您網站時，其瀏覽器所使用的 JavaScript 版本。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客瀏覽您網站時的瀏覽器所使用的JavaScript版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie </td> 
