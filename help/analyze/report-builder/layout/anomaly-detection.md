@@ -5,9 +5,9 @@ seo-title: 異常偵測
 solution: Analytics
 title: 異常偵測
 topic: Report Builder
-uuid: 02da21b4-3394-471b-97b5-aa1 bddf1 f445
+uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -25,9 +25,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 * 視訊緩衝事件的尖峰
 * 低視訊位元率的尖峰
 
->[!NOTE]
->
->異常偵測只有在您選取日詳細程度時才可用。
+> [!NOTE] 異常偵測只有在您選取「日」精細度時才可用。
 
 <p class="head"> <b>異常偵測度量</b> </p>
 
