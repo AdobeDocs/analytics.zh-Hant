@@ -7,7 +7,7 @@ title: 自訂流量
 topic: 報表
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
 ## 自訂流量報告的屬性 {#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
 
 * 自訂流量報告只以 [prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (流量變數) 為基礎。
-* 報表的預設量度是頁面檢視 (或在 15 版中是例項)。14 版的頁面檢視和 15 版的例項是一樣的，它們都會計算定義變數的總次數。15 版的頁面檢視只會計算   image requests (excluding  requests).*`s.t()`**`s.tl()`*
+* 報表的預設量度是頁面檢視 (或在 15 版中是例項)。14 版的頁面檢視和 15 版的例項是一樣的，它們都會計算定義變數的總次數。15 版的頁面檢視只會計算  影 *`s.t()`* 像請求(排除 *`s.tl()`* 請求)。
 
 * 如果您組織的合約中包含路徑分析，而且經受支援使用者請求，可以啟用路徑分析。針對流量變數啟用路徑分析時，可以使用下列量度:
 * 
