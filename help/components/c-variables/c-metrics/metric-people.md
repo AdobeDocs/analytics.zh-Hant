@@ -1,16 +1,16 @@
 ---
 description: 「人員」量度是 Adobe Analytics 報告量度，可協助您將裝置歸屬於人員。
 seo-description: 「人員」量度是 Adobe Analytics 報告量度，可協助您將裝置歸屬於人員。
-seo-title: 人員
-title: 人員
-uuid: f67fe072-099d-4ebc-82344-9ede2a632fab
+seo-title: 人物
+title: 人物
+uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 人員
+# 人物
 
 「人員」量度是 Adobe Analytics 報告量度，可協助您將裝置歸屬於人員。
 
