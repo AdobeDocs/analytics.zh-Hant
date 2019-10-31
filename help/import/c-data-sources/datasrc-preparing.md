@@ -8,7 +8,7 @@ title: 準備使用資料來源
 topic: 開發人員和實作
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -31,9 +31,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 請參閱「管理工具」說明中的「[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)」。
 
->[!NOTE]
->
->Adobe強烈建議搭配Data Sources資料使用新的空事件，但在少數情況下，使用預先存在的事件可能是合理的。
+> [!NOTE] Adobe強烈建議搭配Data Sources資料使用新的空事件，但在少數情況下，使用預先存在的事件可能是合理的。
 
 ## 識別資料維度 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -43,9 +41,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 您可以替一個量度定義多個資料維度，但每個量度必須為每一個關聯的資料維度提供一個相關值或值的組合。例如，如果您匯入「離線銷售」量度，並將其與 *`Product`* and *`Partner`* data dimensions, the Off-line Sales metric must be relevant for each combination of product and partner (for example, Total Revenue).
 
->[!NOTE]
->
->您可以匯入無法依任何資料維度劃分的總量度。
+> [!NOTE] 您可以匯入無法依任何資料維度劃分的總量度。
 
 在定義資料來源要使用的資料維度後，將維度資料映射到變數，即可將其整合到行銷報表中。使用標準報告 (如產品、追蹤代碼、搜尋關鍵字) 或轉換流量變數 (eVar)。
 
