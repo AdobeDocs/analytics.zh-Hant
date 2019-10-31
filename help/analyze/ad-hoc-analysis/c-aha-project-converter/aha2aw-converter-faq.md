@@ -5,7 +5,7 @@ seo-title: 專案轉換工具常見問題集
 title: 專案轉換工具常見問題集
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
    <td colname="col1"> <p><b>問: 如何轉換日期範圍?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的「最近 X 天」日期範圍會<i>排除</i>今天， 而 Analysis Workspace 會<i>包含</i>今天。因此，「最近 90 天」等日期範圍在各項工具之間可能不會完全相符。使用自訂日期範圍，在 Analysis Workspace 中擷取相同的時段。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">'Last X day' date ranges in Ad Hoc Analysis <i>exclude</i> today, while Analysis Workspace <i>includes</i> today. 因此，「過去90天」等日期範圍可能不會完全符合工具之間。 使用自訂日期範圍，在 Analysis Workspace 中擷取相同的時段。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis 工作區層級的日期範圍會套用在 Workspace 中的專案/工作區層級。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis 報表層級的日期範圍會套用在 Workspace 中的表格欄層級。 </li> 
     </ul> <p>您可以在<span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">元件</span> &gt; <span class="uicontrol">日期範圍」</span>下編輯自訂日期範圍。 </p> </td> 
