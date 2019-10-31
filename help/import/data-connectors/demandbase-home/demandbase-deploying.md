@@ -5,7 +5,7 @@ seo-title: 部署整合
 title: 部署整合
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -73,9 +73,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 完成整合精靈後，您必須將整合程式碼部署至Adobe Analytics部署程式碼(s_code)。
 
->[!NOTE]
->
->如果您使用Adobe tagManager或動態標籤管理來部署Adobe Analytics，則可使用其中一種工具輕鬆新增整合程式碼。
+> [!NOTE] 如果您使用Adobe tagManager或動態標籤管理來部署Adobe Analytics，則可使用其中一種工具輕鬆新增整合程式碼。
 
 1. 前往「支 **[!UICONTROL 援]** 」標籤，從整合的「資 `integration code v2_0_1` 源」區下載並儲存資源。
 
@@ -202,9 +200,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 或者，您也可以導覽至Adobe Analytics功能表結構內的Demandbase報表——請參閱下方的螢幕擷取畫面。
 
->[!NOTE]
->
->在成功部署後的24-48小時內應會顯示此資料。
+> [!NOTE] 在成功部署後的24-48小時內應會顯示此資料。
 
 ![](assets/reporting1.png)
 
