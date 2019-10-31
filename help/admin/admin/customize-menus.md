@@ -5,9 +5,9 @@ seo-title: 功能表自訂
 solution: Analytics
 title: 功能表自訂
 topic: 管理工具
-uuid: 31e335e7-c91 a-4669-a9 b7-00f9 e385375 a
+uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 功能表變更可套用至存取報表套裝的所有使用者。但使用者使用報表套裝時，可以選擇還原功能表的預設設定。
 
->[!NOTE]
->
->功能表結構中的任何變更都不會影響報告建立工具和臨機分析。不過，重新命名報告將在這兩項工具中反映。
+> [!NOTE] 功能表結構的任何變更不會影響報告建立工具和臨機分析。 不過，重新命名報告將在這兩項工具中反映。
 
 ## 功能表自訂說明 {#section_B0D224DACB914A378902A4E0E1234889}
 
