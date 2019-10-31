@@ -3,9 +3,9 @@ description: 說明如何建立量度，以顯示哪些行銷管道有助於提�
 seo-description: 說明如何建立量度，以顯示哪些行銷管道有助於提升訂購量。這可用於任何可能有助益的維度或成功案例。
 seo-title: 訂購協助量度
 title: 訂購協助量度
-uuid: 7c82227a-7cfc-486f-bef8-164ea84 af77 c
+uuid: 7c82227a-7fcc-486f-bef8-164ea84af77c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
