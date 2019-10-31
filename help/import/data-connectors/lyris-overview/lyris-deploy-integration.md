@@ -6,7 +6,7 @@ solution: Analytics
 title: 部署整合
 uuid: a3c0ef21-ed9a-44d7-bdce-19b3bd5b8b80
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -75,9 +75,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 完成所有部署步驟後，您可以驗證整合是否成功傳輸資料。
 
->[!NOTE]
->
->資料交換需要幾天的時間才能開始。 在啟動整合後，請務必與Lyris聯絡。
+> [!NOTE] 資料交換需要幾天的時間才能開始。 在啟動整合後，請務必與Lyris聯絡。
 
 1. 導覽至Data Connectors中的Lyris整合。 在「支 **[!UICONTROL 援]** &gt;整合活 **[!UICONTROL 動記錄」下，您應該會看到成功匯入]**&#x200B;量度資料和 **[!UICONTROL /或成功匯入分]******&#x200B;類資料的事件：
 
@@ -91,9 +89,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 
 顯示要與Adobe Analytics搭配使用的Lyris外掛程式程式碼。
 
->[!NOTE]
->
->請務必先在Adobe Analytics的「管理工具」中保留必要的eVar，然後再使用下列程式碼。 一旦您知道已保留哪些eVar，請以相關eVar取代eVarN。 例如eVar10。
+> [!NOTE] 請務必先在Adobe Analytics的「管理工具」中保留必要的eVar，然後再使用下列程式碼。 一旦您知道已保留哪些eVar，請以相關eVar取代eVarN。 例如eVar10。
 
 ```
 /* 
