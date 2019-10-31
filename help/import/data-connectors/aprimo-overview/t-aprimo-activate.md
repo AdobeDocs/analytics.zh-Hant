@@ -5,7 +5,7 @@ seo-title: 啟動整合
 title: 啟動整合
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
