@@ -5,36 +5,32 @@ seo-description: 動態變數可讓您直接在變數之間複製值，而無須
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: b38ba4222951d957c607cd764224028527835c7e
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # s.cookieDomainPeriods
 
-The  variable determines the domain on which the [!DNL Analytics] cookies `s_cc` and `s_sq` are set by determining the number of periods in the domain of the page URL. 有些外掛程式也會使用此變數來判斷設定外掛程式 Cookie 所需的正確網域。
+變數會判斷頁面 URL 網域中所含的句號數，以判定 [!DNL Analytics] Cookie `s_cc` 和 `s_sq` 設定所在的網域。有些外掛程式也會使用此變數來判斷設定外掛程式 Cookie 所需的正確網域。
 
-The default value for  is "2". *`cookieDomainPeriods`* This is the value that is used if *`cookieDomainPeriods`* is omitted. For example, using the domain ,  should be "2". `www.mysite.com`*`cookieDomainPeriods`* For ,  should be "3".`www.mysite.co.jp`*`cookieDomainPeriods`*
+*`cookieDomainPeriods`* 的預設值為「2」。若省略 *`cookieDomainPeriods`*，就會使用這個值。例如，使用網域 `www.mysite.com`，則 *`cookieDomainPeriods`* 應為「2」。針對 `www.mysite.co.jp`，*`cookieDomainPeriods`* 應為「3」。
 
-If *`cookieDomainPeriods`* is set to "2" but the domain contains three periods, the JavaScript file attempts to set cookies on the domain suffix.
+如果將 *`cookieDomainPeriods`* 設為「2」，但網域包含三個句號，則 JavaScript 檔案會嘗試在網域尾碼上設定 Cookie。
 
-For example, if setting  to "2" on the domain , the  and  cookies are created on the domain . *`cookieDomainPeriods`*`www.mysite.co.jp``s_cc``s_sq``co.jp`由於 `co.jp` 是無效網域，幾乎所有瀏覽器都會拒絕這些 Cookie。因此，訪客點按對映資料將會遺失，且「[!UICONTROL 訪客資料] &gt; [!UICONTROL 技術] &gt; [!UICONTROL Cookie]」報表會指出幾乎所有的訪客都拒絕 Cookie。
+例如，如果在網域 `www.mysite.co.jp` 上將 *`cookieDomainPeriods`* 設為「2」，則會在網域 `co.jp` 上建立 `s_cc` 和 `s_sq` Cookie。由於 `co.jp` 是無效網域，幾乎所有瀏覽器都會拒絕這些 Cookie。因此，訪客點按對映資料將會遺失，且「[!UICONTROL 訪客資料] &gt; [!UICONTROL 技術] &gt; [!UICONTROL Cookie]」報表會指出幾乎所有的訪客都拒絕 Cookie。
 
-若&#x200B;*`cookieDomainPeriods`* 設為 "3"，但網域僅包含兩個句號，則 JavaScript 檔案會在網站的子網域上設定 Cookie。For example, if setting  to "3" on the domain , the  and  cookies are created on the domain . *`cookieDomainPeriods`*`www2.mysite.com``s_cc``s_sq``www2.mysite.com`When a visitor goes to another subdomain of your site (such as `www4.mysite.com`), all cookies set with `www2.mysite.com` cannot be read.
+若&#x200B;*`cookieDomainPeriods`* 設為 "3"，但網域僅包含兩個句號，則 JavaScript 檔案會在網站的子網域上設定 Cookie。例如，如果在網域 `www2.mysite.com` 上將 *`cookieDomainPeriods`* 設為「3」，則會在網域 `www2.mysite.com` 上建立 `s_cc` 和 `s_sq` Cookie。當訪客進入您的網站的其他子網域時 (例如 `www4.mysite.com`)，所有以 `www2.mysite.com` 設定的 Cookie 都將無法讀取。
 
->[!NOTE]
->
->Do not include additional subdomains as part of *`cookieDomainPeriods`*. For example,  would still have  set to "2". `store.toys.mysite.com`*`cookieDomainPeriods`*&#x200B;此變數定義會在根網域 [!DNL mysite.com] 上正確設定 Cookie。Setting *`cookieDomainPeriods`* to "3" in this example would set cookies on the domain [!DNL toys.mysite.com], which has the same implications as the prior example.
+> [!NOTE] 請勿將其他子網域納入其中 *`cookieDomainPeriods`*。 例如，`store.toys.mysite.com` 仍會將 *`cookieDomainPeriods`* 設為「2」。此變數定義會在根網域 [!DNL mysite.com] 上正確設定 Cookie。在此範例中將 *`cookieDomainPeriods`* 設為「3」，將會在網域 [!DNL toys.mysite.com] 上設定 Cookie，其意涵與上一個範例相同。
 
-See also [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html).
+另請參閱 [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
 | 不適用 | CDP | 可控制訪客 ID 的儲存與處理方式，而影響多份報表。 | "2" |
 
->[!NOTE]
->
->Some cloud computing services are considered Top-Level Domains, which do not allow cookies to be written. (For example, `compute.amazonaws.com`, `*.herokuapp.com`, `*.googlecode.com`, and so on.) 如果您在這些服務上實施，且沒有設定自己的網域 (例如您正在測試自己的實施)，可能會受到 Analytics 隱私權設定影響，已封鎖所有 Cookie 的使用者會遭到移除。若發生這種情況，經系統判斷 Cookie 已停用、無作用或無法存取的所有點擊都會遭退出，因此排除在報表之外。
+> [!NOTE]將某些雲端運算服務視為頂級網域，不允許寫入 Cookie(例如 `compute.amazonaws.com`、`*.herokuapp.com`、`*.googlecode.com` 等網域)。如果您在這些服務上實施，且沒有設定自己的網域 (例如您正在測試自己的實施)，可能會受到 Analytics 隱私權設定影響，已封鎖所有 Cookie 的使用者會遭到移除。若發生這種情況，經系統判斷 Cookie 已停用、無作用或無法存取的所有點擊都會遭退出，因此排除在報表之外。
 
 ## 範例
 
@@ -65,7 +61,7 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 
 ## 缺陷、問題和提示
 
-* 若您發現訪客點按對映資料不存在，或「[!UICONTROL 流量] &gt; [!UICONTROL 技術] &gt; [!UICONTROL Cookie]」報表顯示有大百分比的訪客拒絕 Cookie，請檢查 *`cookieDomainPeriods`*&#x200B;的值是否正確。
+* 如果您發現訪客點按對映資料不存在，或[!UICONTROL 流量] &gt; [!UICONTROL 技術] &gt; [!UICONTROL Cookie] 報表顯示有很大比例的訪客拒絕 Cookie，請檢查 *`cookieDomainPeriods`* 的值是否正確無誤。
 
-* If *`cookieDomainPeriods`* is higher than the number of sections in the domain, cookies will be set with the full domain. 這可能會導致訪客在不同子網域之間切換時遺失資料。
-* 此     variable was used in deprecated implementations prior to  to set the visitor ID cookie. *`cookieDomainPeriods`**`trackingServer`* Though only present in outdated code, failure to correctly define  in this circumstance puts your implementation at risk of data loss.*`cookieDomainPeriods`*
+* 如果 *`cookieDomainPeriods`* 大於網域中的區段數，則會以完整網域設定 Cookie。這可能會導致訪客在不同子網域之間切換時遺失資料。
+* 此   *`cookieDomainPeriods`* 變數在 *`trackingServer`* 之前的已遭取代實施中是用來設定訪客 ID Cookie。雖然僅存在於過時的程式碼中，但在此情況下，如果無法正確定義 *`cookieDomainPeriods`*，將會讓您的實施面臨資料遺失的風險。
