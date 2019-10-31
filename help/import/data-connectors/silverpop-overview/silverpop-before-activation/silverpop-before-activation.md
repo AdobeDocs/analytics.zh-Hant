@@ -5,7 +5,7 @@ seo-title: 啟動此整合之前
 title: 啟動此整合之前
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -36,9 +36,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
 * **** 有效的Silverpop帳戶：若要使用Data Connectors電子郵件整合，用戶端必須有啟用電子郵件的作用中Silverpop帳戶，以及作用中的使用者憑證。
 * **請連絡您的Silverpop代表**。 此整合不會由Silverpop自動啟用。 您必須先連絡您的Silverpop代表，以啟動Silverpop設定，才能從Analytics匯入或匯出資料。
 
->[!NOTE]
->
->此整合僅適用於「參與」組織（而非「交易」）。
+> [!NOTE] 此整合僅適用於「參與」組織（而非「交易」）。
 
 ## 定價{#pricing}
 
