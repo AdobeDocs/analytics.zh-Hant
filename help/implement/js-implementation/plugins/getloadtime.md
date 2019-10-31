@@ -7,8 +7,8 @@ solution: Analytics
 title: getLoadTime
 topic: 開發人員和實作
 uuid: 5d26a69b-cbde-4be1-bac1-5ee8a4e55ca3
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,9 +19,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 若要使用此外掛程式，需先插入函數程式碼，然後在 [!DNL s_code.js] 檔案中呼叫函數兩次。一次在檔案開頭，另一次在 `doPlugins` 區段中。此外掛程式是特意不定義為 s 物件的方法。這麼做會增加計算的頁面載入時間。
 
->[!NOTE]
->
->下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
 ## 外掛程式的程式碼與實施 {#section_968AC379C3004C359A85AFED5A48D5AE}
 
