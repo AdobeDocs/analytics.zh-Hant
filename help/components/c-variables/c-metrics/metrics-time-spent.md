@@ -5,9 +5,9 @@ seo-title: 逗留時間
 solution: Analytics
 title: 逗留時間
 topic: 量度
-uuid: a9f63da3-7e79-49c3-9b0b-6dcd2aasc
+uuid: a9f63da3-7e79-49c3-9b0b-6dcd2ae6aadc
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics 提供各種「逗留時間」量度和維度。請找出其內�
   <tr> 
    <td colname="col1"> <p>花費秒數總計 </p> </td> 
    <td colname="col2"> <p>代表訪客與特定維度項目互動的總時間量。 </p> <p>包括值的例項和縱貫後續所有點擊的持續性。如果是 prop，則會對後續連結事件一併計算逗留時間。 </p> </td> 
-   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>Report Builder (又稱「總逗留時間」) </p> <p>Data Warehouse </p> </td> 
+   <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> <p>報告建立工具（稱為「總逗留時間」） </p> <p>Data Warehouse </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>每次瀏覽逗留時間 (秒數) </p> </td> 
@@ -47,17 +47,17 @@ Adobe Analytics 提供各種「逗留時間」量度和維度。請找出其內�
   </tr> 
   <tr> 
    <td colname="col1"> <p>每位訪客逗留時間 (秒數) </p> </td> 
-   <td colname="col2"> <p><i>花費秒數總計/(獨特訪客 - 彈回獨特訪客)</i> </p> <p>代表訪客在訪客期限內 (Cookie 的存留時間長度內期間) 與特定維度項目互動的平均時間量。 </p> </td> 
+   <td colname="col2"> <p><i>花費秒數總計/(獨特訪客 - 彈回獨特訪客)</i> </p> <p>代表訪客在訪客存留期間（其Cookie長度）與特定維度項目互動的平均時間。 </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站平均逗留時間 (秒數) </p> </td> 
-   <td colname="col2"> <p>代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。這並非單單如其名地只限於「網站」的平均逗留時間。如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。 </p> <p>注意: 因為在計算中使用不同的分母，此量度與維度項目層級的「每次瀏覽逗留時間」可能有所差異。 </p> </td> 
+   <td colname="col2"> <p>代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。它不僅僅限於「網站」平均值（如名稱所示）。 如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。 </p> <p>注意: 因為在計算中使用不同的分母，此量度與維度項目層級的「每次瀏覽逗留時間」可能有所差異。 </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> <p>Reports &amp; Analytics (以分鐘顯示) </p> <p>Report Builder (以分鐘顯示) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>平均頁面逗留時間 </p> </td> 
-   <td colname="col2"> <p><b>已停用的量度。</b> </p> <p>我們建議您在需要維度項目的平均時間量時，使用「網站平均逗留時間」。 </p> </td> 
+   <td colname="col2"> <p><b>已停用的量度。</b> </p> <p>如果需要維度項目的平均時間，建議您使用「網站平均逗留時間」。 </p> </td> 
    <td colname="col3"> <p>Report Builder (請求中包含維度時) </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ Adobe Analytics 提供各種「逗留時間」量度和維度。請找出其內�
   </tr> 
   <tr> 
    <td colname="col1"> <p>平均作業長度 (行動) </p> </td> 
-   <td colname="col2"> <p>工作階段長度總計/(啓動-首次啓動) </p> <p>僅限於行動應用程式 SDK。這是作業層級量度。 </p> </td> 
+   <td colname="col2"> <p>作業長度總計/（啟動——首次啟動） </p> <p>僅限於行動應用程式 SDK。這是作業層級量度。 </p> </td> 
    <td colname="col3"> <p>Report Builder </p> <p>Mobile Services UI </p> </td> 
   </tr> 
  </tbody> 
@@ -110,7 +110,7 @@ Adobe Analytics 提供各種「逗留時間」量度和維度。請找出其內�
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面逗留時間 - 精細 </p> </td> 
-   <td colname="col2"> <p>每次點擊的總逗留時間，去除尾數後為最接近的秒數。這是點擊層級維度，且包含頁面檢視和連結事件。這並非單單如其名地只限於「頁面」維度的逗留時間。 </p> </td> 
+   <td colname="col2"> <p>每次點擊的總逗留時間，去除尾數後為最接近的秒數。這是點擊層級維度，且包含頁面檢視和連結事件。它不僅限於「頁面」維度，如名稱所示。 </p> </td> 
    <td colname="col3"> <p>Analysis Workspace </p> </td> 
   </tr> 
   <tr> 
@@ -137,9 +137,7 @@ Adobe Analytics 提供各種「逗留時間」量度和維度。請找出其內�
 
 Adobe Analytics 使用明確值 (包括連結事件和視訊檢視) 來計算[!UICONTROL 「逗留時間」]。
 
->[!NOTE]
->
->Without link events like [!UICONTROL Video Views] or [!UICONTROL Exit Links], time spent on the last hit of a visit cannot be known. 此外，基於類似的理由，[!UICONTROL 「反彈造訪」](亦即含有單一點擊的[!UICONTROL 「造訪」]) 不會有相關聯的[!UICONTROL 「逗留時間」]。
+> [!NOTE] 若沒有視訊檢 [!UICONTROL 視或退出連結等連結事] 件 ，則無法得知瀏覽上次點擊所花費的時間。 此外，基於類似的理由，[!UICONTROL 「反彈造訪」](亦即含有單一點擊的[!UICONTROL 「造訪」]) 不會有相關聯的[!UICONTROL 「逗留時間」]。
 
 計算逗留時間時所使用的&#x200B;**「分子」**&#x200B;均為「總逗留秒數」。
 
@@ -171,10 +169,10 @@ Adobe Analytics 使用明確值 (包括連結事件和視訊檢視) 來計算[!U
   </tr> 
   <tr> 
    <td colname="col1"> <p>哪一個逗留時間維度最適合使用於劃分其他維度項目來劃分? </p> </td> 
-   <td colname="col2"> <p>「頁面逗留時間-精細」維度是點擊層級維度。使用由其他維度來劃分這個項目會告訴您當劃分維度也存在時點擊持續的秒數。 </p> <p>在以下範例中，搜尋詞彙「已分類」與 54 秒、59 秒等點擊時間相關聯，可能表示訪客正在花時間閱讀該搜尋詞彙傳回的內容。 </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
+   <td colname="col2"> <p>「頁面逗留時間——精細」維度是點擊層級維度。 使用由其他維度來劃分這個項目會告訴您當劃分維度也存在時點擊持續的秒數。 </p> <p>在下列範例中，搜尋詞「classifieds」與54秒、59秒等的點擊時間相關聯，可能表示訪客花時間閱讀該搜尋詞傳回的內容。 </p> <p><img placement="break" align="center"  src="assets/time-spent1.png" id="image_99FB62DCADDA4F8887B14333E65FF8FA" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>哪個量度適合「頁面逗留時間-精細」維度？ </p> </td> 
+   <td colname="col1"> <p>哪些量度適用於「頁面逗留時間——精細」維度？ </p> </td> 
    <td colname="col2"> <p>任意量度皆可。維度可顯示事件發生時確切點擊的逗留時間。較長的逗留時間表示訪客在事件發生的頁面 (點擊) 上停留較長時間。 </p> <p><img placement="break" align="center"  src="assets/time-spent2.png" id="image_A741C1BA52254124B5C28D030FE20EFF" width="500px" /> </p> </td> 
   </tr> 
   <tr> 
@@ -350,8 +348,8 @@ Adobe Analytics 使用明確值 (包括連結事件和視訊檢視) 來計算[!U
 可支持此範例的其他附註:
 
 * 所有「逗留時間」均係根據造訪間隔時間 (於造訪的首次點擊從零開始) 計算而得。
-* 「花費秒數」是指目前點擊時間戳記與下次點擊時間戳記之間的差距。因此，造訪 (和彈回) 的最後一次點擊沒有逗留時間。
-* 「序列」是一組連續點擊，其中的指定變數會包含相同的值 (不論是透過設定、擴散或持續)。例如，prop1「A」有兩個序列: 點擊 1 和 2 以及點擊 6。造訪的最後一次點擊的值不會開始新的序列，因為最後一次點擊沒有逗留時間。網站平均逗留時間會使用序列作為分母。
+* 「逗留秒數」是目前點擊的時間戳記與下次點擊的時間戳記之間的差異。 因此，造訪 (和彈回) 的最後一次點擊沒有逗留時間。
+* 「序列」是一組連續的點擊，其中指定變數包含相同的值（不論是透過設定、前傳或持續）。 例如，prop1 "A"有兩個序列：點擊1和2，點擊6。 造訪的最後一次點擊的值不會開始新的序列，因為最後一次點擊沒有逗留時間。網站平均逗留時間會使用序列作為分母。
 
-   * 僅為了計算「逗留時間」的目的，prop 會從頁面點擊「擴散」至後續的連結點擊 (點擊 2 上的 prop1，如上所示)。這得以讓點擊 1 上的 prop1 所設定的值 (「A」) 將逗留時間累積在點擊 2 上。
+   * 僅針對逗留時間，點擊2的prop1會從頁面點擊「向前擴散」至後續的連結點擊，如上所示。 這可讓為點擊1的prop1設定的值("A")累積點擊2的逗留時間。
    * eVar 會將逗留時間累積在 eVar 已設定或持續存在的點擊上。eVar 持續性是由 Analytics「管理控制台」中的 eVar 設定所定義。
