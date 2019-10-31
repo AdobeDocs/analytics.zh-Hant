@@ -1,47 +1,35 @@
 ---
-title: 疑難排解Adobe Analytics中的作業
-description: 瞭解如何解決從Adobe Analytics登出的問題。
-seo-title: 疑難排解Adobe Analytics中的作業
-seo-description: 瞭解如何解決從Adobe Analytics登出的問題。
+title: 疑難排解Adobe Analytics中的工作階段
+description: 瞭解如何解決登出Adobe Analytics的相關問題。
+seo-title: 疑難排解Adobe Analytics中的工作階段
+seo-description: 瞭解如何解決登出Adobe Analytics的相關問題。
 translation-type: tm+mt
-source-git-commit: b5e3801454dafbcc47b93e65f8b5e7c59c3a8081
+source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
 
 ---
 
 
-# 疑難排解Adobe Analytics中的作業
+# 疑難排解Adobe Analytics中的工作階段
 
-此頁面與疑難排解作業有關，表示您可以成功登入，但仍有問題留待登入。If you are having issues logging in to Adobe Analytics, see [Troubleshoot logging in to Adobe Analytics](troubleshoot-login.md).
+本頁面是有關疑難排解工作階段的資訊，這表示您可以成功登入，但有未登入的問題。 如果您在登入Adobe Analytics時遇到問題，請參閱「疑難排解登 [入Adobe Analytics的問題」](troubleshoot-login.md)。
 
-幾乎所有以作業階段為基礎的問題都源自於組織自訂的公司網路。如果您可以登入Adobe Analytics但無法登入，請使用此文章來協助判斷原因。
+幾乎所有基於會話的問題都源自組織的定製公司網路。 如果您能夠登入Adobe Analytics，但無法繼續登入，請使用本文章協助判斷原因。
 
-## 判斷此問題是否因您組織的網路而定
+## 確定問題是否由於您組織的網路
 
-許多組織部署額外的網路功能以增強安全性，例如Proxy伺服器或防火牆。這些自訂有時會干擾在Adobe Analytics中保留作用中會話的能力。
+許多組織都部署了額外的網路功能來增強安全性，例如代理伺服器或防火牆。 這些自訂功能有時會干擾Adobe Analytics中保留作用中工作階段的能力。
 
-若要判斷您連線的公司網路是否會導致使用Adobe Analytics，請在公司網路外部的裝置上使用Experience Cloud登入憑證。裝置的例子可以是您的家庭網路或行動裝置的資料計劃。如果您可以成功地從頁面移至頁面，而不是登出，則您的組織網路可能是您登出Adobe Analytics的原因。
+若要判斷您所連線的公司網路是否造成使用Adobe Analytics的問題，請在公司網路以外的裝置上使用您的Experience cloud登入認證。 例如，裝置可透過您的家庭網路或行動裝置的資料計畫。 如果您能夠在未登出的情況下成功地從頁面間移動，您組織的網路可能是您登出Adobe Analytics的原因。
 
-## 因IP集區而引起的問題
+## Proxy造成的問題
 
-有些網路使用稱為IP位址集區的實務，在組織使用的範圍內，裝置的IP位址可經常變更。作為Adobe安全性實務的一部分，如果IP位址發生變更，則該作業已過期。
+Adobe向Adobe提出要求時會使用授權標題。 有些Proxy(例如Bluecoat（現為Symantec所有）會移除Adobe Analytics使用的重要授權標題資訊。 當Adobe未看到授權標題時，作業階段即會過期。
 
-如果您的組織使用IP位址集區，請使用下列指示將您的IP範圍新增至Adobe的電子白名單：
+為解決此問題，Adobe建議與貴組織的IT團隊合作，以透過貴組織的Proxy允許授權標題。
 
-1. 與組織的IT團隊合作，取得組織中使用的IP範圍清單
-2. 請客戶支援委派聯絡Adobe客戶服務，並向Adobe提供IP範圍
-3. 代理商會將IP範圍輸入白名單中，以防止工作階段在提供範圍內的同時過期。
+> [!NOTE] 雖然 Analytics 社群的會員已發現下列實用連結，但 Adobe 並非這些連結的擁有者。檢視其內容時，請將此備註列入考量。
 
-## 因proxy而引起的問題
+有關Symantec Proxy和驗證標頭的資訊，請參見：
 
-Adobe在向Adobe提出要求時使用授權標題。有些proxy(例如BlueCoat(現在由Symantec擁有)會移除Adobe Analytics使用的重要授權標題資訊。當Adobe看不到授權標題時，作業即過期。
-
-若要解決此問題，Adobe建議您與組織的IT團隊合作，允許授權標題透過組織的proxy進行授權。
-
-> [!NOTE] 注意
->
-> 雖然Analytics社群成員發現下列連結有用，但並不屬於Adobe所有。檢視其內容時，請考量此附註。
-
-Symantec proxy和驗證標題的資訊可在此處找到：
-
-* [在ProxSG或ASG裝置上的Proxy鏈結部署中配置上游代理驗證](https://support.symantec.com/en_US/article.TECH246122.html)
-* [允許ProxSG永遠在上游轉送伺服器授權](https://support.symantec.com/en_US/article.TECH244708.html)
+* [在ProxySG或ASG裝置上的代理鏈部署中配置上游代理驗證](https://support.symantec.com/en_US/article.TECH246122.html)
+* [允許ProxySG始終向上游轉發伺服器授權](https://support.symantec.com/en_US/article.TECH244708.html)
