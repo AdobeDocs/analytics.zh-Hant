@@ -1,59 +1,59 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: 工作區限制，分析工作區中已知的限制
+seo-title: 工作區限制，分析工作區的已知限制
 title: 分析工作區的已知限制
 translation-type: tm+mt
-source-git-commit: 9d6b35c7c6de6fcb49fea3b662ff8bc9044b5e29
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # 分析工作區的已知限制
 
-以下列出分析工作區及其相關元件的已知限制清單：
+以下是分析工作區及其相關元件的已知限制清單：
 
 ## 表格
 
-* 當日期範圍或度量用作表格的列時，無法新增日期比較欄。
-* 當區段被用作表格的列時，從選取範圍建立量度時會停用。此外，從選取範圍建立量度不應套用至對齊日期的欄。
+* 當日期範圍或量度用作表格的列時，無法新增日期比較欄。
+* 當區段用作表格的列時，會停用從選取範圍建立量度。 此外，「從選取範圍建立量度」不應套用至與日期對齊的欄。
 * 劃分列的條件式格式無法使用自訂範圍。
-* 套用列值設定時(通常用於靜態列項目)計算總計時，無法趨勢化表格總計列。
-* [!UICONTROL 貢獻分析] 只能在 [!UICONTROL 每日] 詳細程度 _上執行_。It cannot be run against [!UICONTROL hourly], [!UICONTROL weekly], etc., data.
+* 套用「計算總行數」設定時（通常與「靜態」行項目搭配使用），表格總行數無法趨勢化。
+* [!UICONTROL 貢獻分析] ，只能以每日詳細 [!UICONTROL 程度] 執 _行_。 無法對每小時、 [!UICONTROL 每週][!UICONTROL 等資]料執行。
 
 ## 視覺效果
 
-* Visualizations that leverage segmentation, such as [!UICONTROL Fallout], [!UICONTROL Flow], [!UICONTROL Cohort], and [!UICONTROL Histogram], cannot accept calculated metrics as inputs.
-* [!UICONTROL 流程]：登入/退出維度(例如 [!UICONTROL 登入頁面])無法用於流量。
-* [!UICONTROL 世代]：非整數無法用作世代標準。
+* 運用「流失」、「流量」、「同類群組 [!UICONTROL 」]、「直方圖」分段的視覺化 [!UICONTROL ，無法接受計]算量度作為輸入。
+* [!UICONTROL 流量]:登入／退出維度(例如「登入 [!UICONTROL 頁面」])無法用於「流量」。
+* [!UICONTROL 同類群組]:非整數不能用作同類群組條件。
 
 ## 面板
 
-* Segment Comparison: The [!UICONTROL Everyone Else] segment does not get created if a segment template is used in the initial drop zone.
+* 區段比較：如果 [!UICONTROL 在初始放置區中使用區段範本，則不會建立「其他人] 」區段。
 
 ## 元件&gt;區段
 
-* Certain metrics and dimensions are not segmentable, such as [!UICONTROL Occurrences], [!UICONTROL Unique Visitors], etc.
-* Certain components and operators are unavailable if a segment is created from Workspace (as opposed to being created from [!UICONTROL Components &gt; Segments]). 例如IP位址。
+* 某些度量和維度無法區隔，例如 [!UICONTROL 發生][!UICONTROL 次數、獨特訪客]等。
+* 如果從「工作區」建立區段（而非從「元件&gt;區段」建立區段），則某些元件和運算子 [!UICONTROL 將無法使用]。 例如，IP位址。
 
 ## 元件&gt;計算量度
 
-* 計算量度無法用於某些視覺化。請參閱上述「視覺效果」。
-* Calculated metrics cannot be used in the [!UICONTROL Attribution] panel, since calculated metrics themselves can include separate attribution models.
-* Certain components and operators are unavailable if a calculated metric is created from Workspace (as opposed to being created from [!UICONTROL Components &gt; Segments]). For example, [!UICONTROL IP Address].
+* 計算量度無法用於特定視覺化。 請參閱上方的「視覺化」。
+* 計算量度無法用於「歸 [!UICONTROL 因] 」面板，因為計算量度本身可以包含個別的歸因模型。
+* 如果從「工作區」建立計算量度（而非從「元件&gt;區段」建立），某些元件和運算子 [!UICONTROL 將無法使用]。 例如， [!UICONTROL IP位址]。
 
 ## 元件&gt;日期範圍
 
-* Custom date ranges do not support [!UICONTROL This day last year], [!UICONTROL This day last month], etc.
+* 自訂日期範圍不支 [!UICONTROL 援去年的今天][!UICONTROL 、上個月的這天]，等等。
 
 ## 元件&gt;虛擬報表套裝
 
-* 啓用報告時間處理時，不支援某些元件。For a full list, see [Report Time Processing](/help/components/vrs/vrs-report-time-processing.md).
+* 啟用報告時間處理時，不支援某些元件。 如需完整清單，請參閱報 [告時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 
 ## 元件&gt;報表設定
 
-* [!UICONTROL 「報表設定」] 頁面上的部分設定不適用。Analysis Workspace uses only the [!UICONTROL Language/Currency/Encoding] settings at the bottom: [!UICONTROL Thousands separator], [!UICONTROL Scheduled Report Encoding], and [!UICONTROL CSV Separator Character].
+* 「報表設定」頁面上的 [!UICONTROL 某些設定] ，則不適用。 分析工作區僅使用 [!UICONTROL 底部的「語言／貨幣／編碼] 」設定：千 [!UICONTROL 位分隔符號]、 [!UICONTROL 排程報表編碼]、 [!UICONTROL CSV分隔符號字元]。
 
 ## 歸因 IQ
 
-* [!UICONTROL Attribution IQ不支援量度子集]。For a full list, see the [Attribution IQ FAQ](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md).
+* Attribution IQ不支援度量的 [!UICONTROL 子集]。 如需完整清單，請參閱 [Attribution IQ常見問答](/help/analyze/analysis-workspace/attribution-iq/attribution-faq.md)。
