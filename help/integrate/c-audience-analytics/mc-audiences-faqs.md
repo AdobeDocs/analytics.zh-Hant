@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    <td colname="col1"> <b>問: 如何知道我的報表套裝是進行站上個人化，還是離站/站上鎖定?</b> </td> 
    <td colname="col2"> 
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
-     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">此設定不適用於將 Adobe Analytics 資料傳送至 Adobe Audience Manager。 </li> 
+     <li id="li_9BC3819784A9408F846D60FF0F20AAF9">這些不適用於傳送Adobe Analytics資料至Adobe Audience Manager。 </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">請自問: 您是否會將 Analytics 共用區段與 Experience Cloud 中的 MCA 維度共用? </li> 
      <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統? </li> 
     </ul> </td> 
@@ -89,20 +89,20 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    <td colname="col2"> <p>幾乎所有位置; 這些維度的處理方式與在 Analytics 中收集的任何其他維度相同。但有兩項例外: 資料目前不會出現在 Data Workbench 或 Livestream 中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問: 為何在 Analytics 中看不到資料流入?</b> </p> </td> 
-   <td colname="col2"> <p>您的資料來源和目標之間很可能存在 AAM 隱私控制衝突。實施流量分類。 </p> </td> 
+   <td colname="col1"> <p><b>問：為何我不看到Analytics中的資料流傳？</b> </p> </td> 
+   <td colname="col2"> <p>您可能在資料來源與目的地之間有衝突的AAM隱私權控制。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 即使我已選擇傳送所有區段，為何在 Analytics 中仍會遺失部分區段?</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">目標和區段資料來源中的 AAM 資料匯出控制可能有衝突，故使某個區段無法傳送。 </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">您的AAM資料匯出控制項在目標和區段資料來源中可能會發生衝突，導致某些區段無法傳送。 </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">若您在區段中使用了第三方資料特徵，則這些區段無法與包含個人資料的目標 (一組報表套裝) 共用。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：我為何在Analytics報表中看到「已達對象限制」? (注意：這也會在資料倉庫中顯示為「對象ID = -1」和「:::max_audiences_exceeded::」)</b> </p> </td> 
-   <td colname="col2"> <p>依預設，AAM 的 Audience Analytics 整合會將訪客符合條件的所有區段，按每次點擊傳送到 Analytics。如果某位訪客在一次點擊中所屬的 AAM 區段超過 150 個，則最新的 <b>150 個合格區段</b>會傳送到 Analytics，而其餘的清單會被截斷。 </p> <p>系統會傳送額外標幟給 Analytics 表示區段清單已截斷，並在「對象名稱」維度中顯示為「已達對象上限」以及在「對象 ID」維度中顯示「-1」。 </p> <p>雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果您的報表中出現「已達對象上限」，則有兩個選項: </p> 
+   <td colname="col2"> <p>依預設，AAM 的 Audience Analytics 整合會將訪客符合條件的所有區段，按每次點擊傳送到 Analytics。如果某位訪客在一次點擊中所屬的 AAM 區段超過 150 個，則最新的 <b>150 個合格區段</b>會傳送到 Analytics，而其餘的清單會被截斷。 </p> <p>會傳送其他標幟給Analytics，表示區段清單已截斷，並在「對象名稱」維度中顯示為「已達對象限制」，在「對象ID」維度中顯示為「-1」。 </p> <p>雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果您在報告中遇到「已達受眾限制」，您有兩個選項： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選項　１</b>: 繼續讓整合工作以立即可用狀態作業，針對特定訪客傳送最新的 150 個合格區段。 </li> 
      <li id="li_CA4D5747AA4A4452929097807B604959"><b>選項 2</b>: 在 AAM 中，選擇對您業務而言最重要的 150 個區段進行整合。AAM 隨即根據這 150 個區段檢查訪客。此方法的缺點是，在所有訪客中，您僅能收到這 150 個區段。換句話說，由於整合的按點擊性質，「選項 1」方法可以提供無限區段。 </li> 
@@ -124,7 +124,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
    <td colname="col2"> <p>是。在 AAM 目標設定中，您只會看見已開啟 SSF 的報表套裝。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問: 為何我無法在 Analytics「管理控制台」中開啟某些報表套裝的 SSF?</b> </p> </td> 
+   <td colname="col1"> <p><b>問：為什麼無法在Analytics管理員中為SSF開啟特定報表套裝？</b> </p> </td> 
    <td colname="col2"> <p>只能啟用對應至您Experience cloud組織的套裝。 </p> </td> 
   </tr> 
  </tbody> 
