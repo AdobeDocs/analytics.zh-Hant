@@ -1,22 +1,22 @@
 ---
 description: 資料饋送是將 Adobe 收到的點按資料流資料匯出，可同時提供標準和自訂資料饋送。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 資料饋送是將 Adobe 收到的點按資料流資料匯出，可同時提供標準和自訂資料饋送。
-seo-title: 資料饋送
+seo-title: 資料摘要
 solution: Analytics
-title: 資料饋送
-uuid: 3c70eea3-ca59-4aa5-9b11-64e1 bb677 bfa
+title: 資料摘要
+uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 資料饋送
+# 資料摘要
 
 資料饋送是將 Adobe 收到的點按資料流資料匯出，可同時提供標準和自訂[資料饋送](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)。
 
-If you have purchased Adobe Data Warehouse, [!UICONTROL Standard Data Feeds] you can set up your own Analytics data feeds. 可將其設定為傳送至任何 FTP 帳戶 (由 Adobe 設定的帳戶或外部 FTP 皆可)。Adobe 工程技術服務提供自訂的[!UICONTROL 資料饋送]，幾乎可透過所有方法進行傳送。
+如果您已購買Adobe Data Warehouse，則 [!UICONTROL Standard Data Feed] ，您可以設定自己的Analytics資料饋送。 可將其設定為傳送至任何 FTP 帳戶 (由 Adobe 設定的帳戶或外部 FTP 皆可)。Adobe 工程技術服務提供自訂的[!UICONTROL 資料饋送]，幾乎可透過所有方法進行傳送。
 
 [!UICONTROL 資料饋送] FTP 帳戶允許 2 GB 或 63 個檔案 (依預設)。所有其他標準 FTP 帳戶 則預設為 50MB。將 FTP 帳戶用於正確用途的客戶，有時候某些高流量的使用者，會很快就裝滿其帳戶。當 FTP 帳戶已滿，就無法再推送檔案至該帳戶。因此，傳遞至該 FTP 帳戶的任何檔案 ([!UICONTROL 資料饋送]、資料倉庫請求等) 將停止傳遞。因此，請務必移除已接收和下載的檔案，適當管理您的 Adobe FTP 帳戶。
 
