@@ -1,20 +1,20 @@
 ---
-description: 資料倉庫可提供Tableau資料擷取(TDE)檔案格式的報表，讓您在Adobe Analytics以外的其他資料中視覺化資料和圖層。您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
-seo-description: 資料倉庫可提供Tableau資料擷取(TDE)檔案格式的報表，讓您在Adobe Analytics以外的其他資料中視覺化資料和圖層。您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
+description: 「資料倉庫」可以以Tableau資料擷取(TDE)檔案格式提供報表，讓您在Adobe Analytics外部的其他資料中視覺化資料和圖層。 您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
+seo-description: 「資料倉庫」可以以Tableau資料擷取(TDE)檔案格式提供報表，讓您在Adobe Analytics外部的其他資料中視覺化資料和圖層。 您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
 seo-title: Tableau 資料檔案
 solution: Analytics
 title: Tableau 資料檔案
 topic: Data Warehouse
-uuid: 84566ba8-87d8-4c5e-8c31-f659 a577848 c
+uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
 # Tableau 資料檔案
 
-資料倉庫可提供Tableau資料擷取(TDE)檔案格式的報表，讓您在Adobe Analytics以外的其他資料中視覺化資料和圖層。您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
+「資料倉庫」可以以Tableau資料擷取(TDE)檔案格式提供報表，讓您在Adobe Analytics外部的其他資料中視覺化資料和圖層。 您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
 
 如需詳細資訊，請參閱 [Tableau 和 Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491)。
 
