@@ -7,7 +7,7 @@ title: 行銷管道的詳情 - 首次接觸與上次接觸
 topic: 報表
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -42,7 +42,5 @@ source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
    * 瀏覽與訪客: 是否可用須視組織與報表套裝而定。請洽詢您的客戶經理，以取得詳細資訊。
    請參閱[!UICONTROL 行銷管道]說明中的[量度](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)。
 
->[!NOTE]
->
->[!UICONTROL 行銷渠道] 13.5版不提供報表。
+> [!NOTE] 行 [!UICONTROL 銷渠道] 13.5版不提供報表。
 
