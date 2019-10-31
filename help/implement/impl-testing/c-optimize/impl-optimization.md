@@ -8,8 +8,8 @@ subtopic: 疑難排解
 title: 最佳化概觀
 topic: 開發人員和實作
 uuid: 8e8ecc5b-d4b1-4d13-8525-39e4924df247
-translation-type: ht
-source-git-commit: 6250335d05c8e7799802fce26192896a7a6598fe
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,5 @@ Analytics 部署可統整為三個主要步驟。
 
 1. 此程式庫檔案會向 Adobe 資料收集伺服器提出影像要求。伺服器在收集所要提交的資料後，會將 1x1 透明影像傳回至訪客的瀏覽器。第三個步驟會略為增加頁面下載的總時間。
 
->[!NOTE]
->
->客戶可執行其他步驟，以盡量降低 Analytics 的負載。
+> [!NOTE]客戶可執行其他步驟，以盡量降低 Analytics 的負載。
 
