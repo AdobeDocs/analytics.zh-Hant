@@ -3,14 +3,14 @@ description: 勾選「函數」下拉式清單中的「顯示進階」即可存�
 seo-description: 勾選「函數」下拉式清單中的「顯示進階」即可存取這些函數。
 seo-title: 參考進階功能
 title: 參考進階功能
-uuid: 7d1071b9-1737-4b7c-b318-87907deta5619
+uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: ff46935f6ec38c8981e4a1fffdbdc637bdf557db
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 參考：進階函數
+# 參考資料: 進階函數
 
 <!-- 
 
@@ -36,9 +36,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 傳回其引數的值。使用 NOT 可確保其值不等於某個特定值。
 
->[!NOTE]
->
->(零)表示False，且任何其他值為True。
+> [!NOTE] 0（零）表示False，且任何其他值為True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -65,7 +63,7 @@ Approximate Count Distinct (dimension)
 
 近似相異計數 (客戶 ID eVar) 是此函數的常見使用案例。
 
-新「近似客戶」計算量度的定義:
+新「近似客戶」計算量度的定義：
 
 ![](assets/approx-count-distinct.png)
 
@@ -214,9 +212,7 @@ CBRT(metric)
 
 如果 N &lt;= 0 則使用所有先前列。由於是依據維度排序，因此只適用於根據日期或路徑長度等自然順序排列的維度。
 
->[!NOTE]
->
->這無法像您預期的收入/訪客等比率度量來運作：它會平均比率，而非將最後N個收入相加，並將過去N個訪客相加，然後再加以分隔。請改為使用
+> [!NOTE] 這與收入／訪客等比率量度的運作不同：它會平均比率，而不是將過去N的收入加總，再將最後N的訪客加總，然後加以劃分。 請改為使用
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -459,9 +455,7 @@ NOT(logical)
 
 如果任何引數為 TRUE 則傳回 TRUE，若所有引數為 FALSE 則傳回 FALSE。
 
->[!NOTE]
->
->(零)表示False，且任何其他值為True。
+> [!NOTE] 0（零）表示False，且任何其他值為True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -658,7 +652,7 @@ Z 分數的別名，即平均值偏差除以標準差
 
 執行 m 尾 t 檢定，使用 col 的 t 分數和 n 自由度。
 
-The signature is `t_test( x, n, m )`. Underneath, it simply calls `m*cdf_t(-abs(x),n)`. (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+簽名是 `t_test( x, n, m )`。 在下面，它只是呼叫 `m*cdf_t(-abs(x),n)`。 (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
 
 在此，`m` 是反面的數目，而 `n` 是自由度。這些應該為數字 (在整個報表中為常數，例如，不會逐列變更)。
 
@@ -702,11 +696,9 @@ Z 分數的方程式為:
 
 其中 [!DNL x] 是原始分數、[!DNL μ] 是族群平均值，[!DNL σ] 是族群標準差。
 
->[!NOTE]
->
->[!DNL μ] (mu)和[!DNL σ] (sigma)會自動從度量計算。
+> [!NOTE] [!DNL μ] (mu)和[!DNL σ] (sigma)自動從度量計算。
 
-Z分數(量度)
+Z分數（量度）
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -729,7 +721,5 @@ Z分數(量度)
 
 傳回可在欄中看到目前列的機率。
 
->[!NOTE]
->
->假設值通常是分布的。
+> [!NOTE] 假設值是正常分佈的。
 
