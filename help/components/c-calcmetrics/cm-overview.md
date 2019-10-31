@@ -6,7 +6,7 @@ seo-title: 計算與進階計算 (衍生) 量度
 title: 計算與進階計算 (衍生) 量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 >In July 2018, Adobe introduced [Attribution IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html), which revised the way allocation models in calculated metrics are evaluated. 這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型:
 >
 >* 「行銷渠道上次接觸」和「行銷渠道首次接觸」配置模型已分別移轉至新的「上次接觸」和「首次接觸」歸因模型(注意：「行銷渠道」尚未過時——只有出現在計算量度中的兩個配置模型已過時)。
->* 此外，我們還修正了線性分配的計算方式。 如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 此外，我們還修正了線性分配的計算方式。 對於使用具有「線性」配置模型之計算量度的客戶，報表可能會稍有變更，以反映新的修正歸因模型。 This change to calculated metrics is reflected in [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 
 
 我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。They allow you as marketers, product managers and analysts to ask questions of the data without having to change your [!DNL Analytics] implementation. The custom metrics available in each [!DNL Analytics] package are:
