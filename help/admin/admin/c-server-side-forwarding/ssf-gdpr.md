@@ -1,16 +1,16 @@
 ---
 description: 'null'
 seo-description: 'null'
-seo-title: GDPR/E隱私權合規性與伺服器端轉送
-title: GDPR/E隱私權合規性與伺服器端轉送
-uuid: 1b90c567-3321-4dbd-a699-38c04 e809 fa4
+seo-title: GDPR/e隱私權規範與伺服器端轉送
+title: GDPR/e隱私權規範與伺服器端轉送
+uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 translation-type: tm+mt
-source-git-commit: 26c3cc9895c27d6abc452e0a4636771fb2415fb3
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# GDPR/E隱私權合規性與伺服器端轉送
+# GDPR/e隱私權規範與伺服器端轉送
 
 本節內容說明，根據[歐盟 Cookie 法規規範](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm) (已於 2017 年 9 月 30 日生效) 近期內推動之伺服器端轉送的增強功能。
 
@@ -28,23 +28,23 @@ When this new context variable, `cm.ssf=1`, exists on a hit, this hit gets flagg
 
 | 實施方法 | 步驟 |
 |--- |--- |
-| Adobe Experience Platform Launch | Assuming you have the Adobe Analytics extension installed, add the following context data variable definition to the custom code editor within the Action configuration of a Rule: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>Note:  Define the contextdata variable and set it to 1 if a customer does not consent to targeted marketing. Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
+| Adobe Experience Platform Launch | 假設您已安裝Adobe Analytics擴充功能，請在規則的「動作」設定中，將下列上下文資料變數定義新增至自訂代碼編輯器： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` 注 <br/>意： 定義contextdata變數，如果客戶不同意目標行銷，請將其設為1。 Set the `contextdata` variable to *0* for customers who consented to targeted marketing. |
 | DTM | 將內容變數定義新增至自訂頁面程式碼編輯器:<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意: 若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 | AppMeasurement | 將內容資料變數定義新增至 AppMeasurement.js 檔案:<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意: 若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
 ## 報表 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-您可以使用 Adobe Analytics 來報告，獲得同意且因此從伺服器端轉送的流量有多少，以及未獲得同意且未轉送至 AAM 的流量有多少。
+您可以使用Adobe Analytics來報告您的流量中有多少是基於同意的，因此已轉發至伺服器端，有多少流量不是基於同意而未轉發至AAM。
 
 若要設定此類型報表，請將新的內容變數，透過處理規則對應至自訂流量變數 (prop)。若要這麼做
 
-1. 請實施「cm.ssf」變數 (如上所示)。
+1. 實作"cm.ssf"變數（如上所示）。
 1. [啟用 prop。](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. 使用處理規則將內容變數對應至 prop。
 
    1. Go to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** , then select a report suite.
    1. Click  **[!UICONTROL Edit Report Suite]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Processing Rules]** .
    1. 按一下&#x200B;**[!UICONTROL 「新增規則」。」]**
-   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable “cm.ssf(Context Data)”.
-   1. 按一下&#x200B;**[!UICONTROL 儲存]**。
+   1. Under **[!UICONTROL Always Execute]**, overwrite the value of the prop you had enabled with the context variable "cm.ssf(Context Data)".
+   1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
