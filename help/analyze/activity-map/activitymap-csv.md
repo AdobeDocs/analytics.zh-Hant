@@ -1,26 +1,26 @@
 ---
-description: 在標準模式中，將Analytics資料從[!DNL Activity Map]匯出至逗號分隔值(CSV)檔案。
-seo-description: 在標準模式中，將Analytics資料從[!DNL Activity Map]匯出至逗號分隔值(CSV)檔案。
+description: 在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
+seo-description: 在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
 seo-title: 匯出至 CSV 檔案
 solution: Analytics
 title: 匯出至 CSV 檔案
 topic: Activity Map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
 
 ---
 
 
 # 匯出至 CSV 檔案
 
-In Standard Mode, export Analytics data from [!DNL Activity Map] to a Comma Separated Values (CSV) file.
+在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
 
-身為使用者，有時需要合併連結點按資料與其他資料來源，或是執行其他分析工作 (例如在 Excel 中進行)。CSV export allows you to obtain all of your [!DNL Activity Map] data for a given page in an easy-to-consume format. 它可讓您將為頁面產生的分析資料儲存為平面CSV檔案，讓您匯出「頁面報表」、「頁面流量報表 [」和「頁](/help/analyze/activity-map/activitymap-page-flow.md)面上的連結」資料 [](/help/analyze/activity-map/activitymap-links-report.md) 。 接著您可用試算表或文字檔格式來檢視資料，或將資料匯入其他系統。
+身為使用者，有時需要合併連結點按資料與其他資料來源，或是執行其他分析工作 (例如在 Excel 中進行)。匯出至 CSV 能以易用格式提供您特定頁面的所有 Activity Map 資料。也能讓您將某頁面所產生的分析資料儲存至一般 CSV 檔案，以便匯出 Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. 接著您可用試算表或文字檔格式來檢視資料，或將資料匯入其他系統。
 
-Click the Export icon on the [!DNL Activity Map] toolbar.
+按一下 Activity Map 工具列上的「匯出」圖示。
 
-[!DNL Activity Map] 會根據 Adobe Analytics 頁面名稱而產生檔案名稱，並附加上日期和時間戳記: Pagename_DateTime.csv。這個檔案會儲存在對應瀏覽器的預設下載目錄中。
+Activity Map 會根據 Adobe Analytics 頁面名稱而產生檔案名稱，並附加上日期和時間戳記: Pagename_DateTime.csv。這個檔案會儲存在對應瀏覽器的預設下載目錄中。
 
 | 匯出資訊 | 說明 |
 |---|---|
