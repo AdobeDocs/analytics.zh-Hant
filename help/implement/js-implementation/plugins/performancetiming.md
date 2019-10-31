@@ -7,8 +7,8 @@ solution: Analytics
 title: 效能計時
 topic: 開發人員和實作
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
-translation-type: ht
-source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
+translation-type: tm+mt
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 此外掛程式透過使用 Navigation Timing JavaScript API 來運作，以精確量度網路上的效能。此提供一原生方法，以針對頁面載入事件及資產載入時間，取得準確且詳細的計時統計數據。先前，此類度量無不使用 JavaScript Date 物件來測量計時量度，或初步推算的 Navigation Timing 量度。兩種方法雖然都提供一些頁面載入次數的趨勢資料，卻都不夠可靠。
 
-## 此外掛程式的用途{#section_4E0771B959FD4F86B4B91BD18CA01DF1}
+## 此外掛程式的用途 {#section_4E0771B959FD4F86B4B91BD18CA01DF1}
 
 >[!IMPORTANT]
 >
@@ -46,18 +46,16 @@ source-git-commit: ee0cb9b64a3915786f8f77d80b55004daa68cab6
 
 [https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface](https://www.w3.org/TR/navigation-timing/#sec-navigation-timing-interface)
 
-此外，此外掛程式可選擇是否使用 performanceEntries 物件來記錄特定頁面上個別載入資產的資產名稱、資產載入開始時間，以及資產載入時間長度細節。此應用程式會記錄大量資訊，並要求啟用 DOM 儲存物件，以在頁面檢視間儲存頁面載入資訊。啟動此功能前，請確保貴公司的隱私政策允許使用 DOM 儲存物件。此功能亦要求使用 listVar 追蹤所有資產。
+此外，此外掛程式可選擇是否使用 performanceEntries 物件來記錄特定頁面上個別載入資產的資產名稱、資產載入開始時間，以及資產載入時間長度細節。此應用程式會記錄大量資訊，並要求啟用 DOM 儲存物件，以在頁面檢視間儲存頁面載入資訊。在啟用此功能之前，請確定貴公司的隱私權政策允許使用DOM儲存物件。 此功能亦要求使用 listVar 追蹤所有資產。
 
-## 必要的支援外掛程式{#section_B6447EB6548942EFBC219AEFDC245639}
+## 必要的支援外掛程式 {#section_B6447EB6548942EFBC219AEFDC245639}
 
 * appendList
 * getPreviousValue
 
-## 外掛程式的程式碼與實施{#section_564D77E1CF0E445586D95AD9769CE57D}
+## 外掛程式的程式碼與實施 {#section_564D77E1CF0E445586D95AD9769CE57D}
 
->[!NOTE]
->
->下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 Adobe Analytics 的開發人員執行。此外掛程式僅與 [!DNL AppMeasurement] 追蹤程式庫相容。
+> [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 Adobe Analytics 的開發人員執行。此外掛程式僅與 [!DNL AppMeasurement] 追蹤程式庫相容。
 
 **設定區段 (於 doPlugins 前設定):**
 
@@ -77,9 +75,7 @@ s.ptc = false;
 
 若要初始化外掛程式，需要在 s_code 的 `doPlugins` 區段中加入一行程式碼，最好在指定 `s.pageName` 變數後進行。若您希望在此外掛程式內利用資產載入時間功能，您必須以將使用的清單變數名稱傳遞。否則，只有效能計時項目會於您先前指定的 `s.pte` 變數事件中受到追蹤。
 
->[!NOTE]
->
->為使效能計時項目與您的網站頁面產生關聯，您也必須初始化 `getPreviousValue` 外掛程式。建議您將這些效能項目與上一頁的名稱或上一頁 URL 值相比較。
+> [!NOTE]為使效能計時項目與您的網站頁面產生關聯，您也必須初始化 `getPreviousValue` 外掛程式。建議您將這些效能項目與上一頁的名稱或上一頁 URL 值相比較。
 
 *範例呼叫*
 
