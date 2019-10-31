@@ -5,10 +5,10 @@ seo-description: 開始建立虛擬報表套裝前，請謹記以下一些注意
 seo-title: 建立虛擬報表套裝
 solution: Analytics
 title: 建立虛擬報表套裝
-topic: Reports & Analytics
-uuid: 022a6656-808e-4c92-b7 ec-4d2 a42 e84 fa8
+topic: Reports and Analytics
+uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 * 非管理員使用者看不到「虛擬報表套裝管理器」。
 * 虛擬報表套裝無法共用。「共用」是透過群組/權限達成。
-* 在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。必須按一下「全部顯示」才能查看其他人的虛擬報表套裝。
+* 在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。您必須按一下「全部顯示」，才能查看其他人的。
 
 1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
 1. Click **[!UICONTROL Add +]**.
@@ -37,7 +37,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> 名稱  </td> 
+   <td colname="col1"> 名稱 </td> 
    <td colname="col2"> <p>虛擬報表套裝的名稱不會繼承自父報表套裝，且應為不同的名稱。 </p> </td> 
   </tr> 
   <tr> 
