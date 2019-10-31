@@ -5,9 +5,9 @@ seo-title: 登入 Report Builder
 solution: Analytics
 title: 登入 Report Builder
 topic: Report Builder
-uuid: 9a21b791-e323-46d2-b850-2d67 babe964 b
+uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 15d49195e5d555adcc37366d679d6b971972504b
 
 如果您想使用 Adobe Analytics 憑證來登入 Report Builder，請使用這種登入。
 
-**Report Builder登入-欄位定義**
+**報告建立工具登入——欄位定義**
 
 | 欄位 | 定義 |
 |--- |--- |
@@ -50,7 +50,5 @@ Experience Cloud 登入可讓您使用 Enterprise ID (電子郵件與密碼) 來
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE]
->
->Experience Cloud登入是以作業階段為基礎，代號會在30天後過期。
+> [!NOTE] Experience cloud登入是以作業為基礎，代號會在30天後過期。
 
