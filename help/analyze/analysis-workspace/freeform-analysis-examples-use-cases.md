@@ -2,18 +2,18 @@
 description: 如何在「Analysis Workspace」中使用資料表格、區段以及使用案例的範例。
 keywords: Analysis Workspace
 seo-description: 如何在「Analysis Workspace」中使用資料表格、區段以及使用案例的範例。
-seo-title: Analysis Workspace使用案例
+seo-title: Analysis Workspace 的使用案例
 solution: Analytics
-title: Analysis Workspace使用案例
-topic: Reports & Analytics
-uuid: 09e20b76-8c31-4d20-920b-bec877 b3 b70
+title: Analysis Workspace 使用案例
+topic: Reports and Analytics
+uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Analysis Workspace使用案例
+# Analysis Workspace 的使用案例
 
 如何在「Analysis Workspace」中使用資料表格、區段以及使用案例的範例。
 
