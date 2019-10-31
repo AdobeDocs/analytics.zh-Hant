@@ -1,18 +1,18 @@
 ---
 description: 使用資料連接器與 Adobe 合作夥伴建立整合時，Adobe 可以推送重新行銷或其他資料至 FTP 帳戶，供您或合作夥伴下載。
-keywords: ftp；sftp
+keywords: ftp;sftp
 seo-description: 使用資料連接器與 Adobe 合作夥伴建立整合時，Adobe 可以推送重新行銷或其他資料至 FTP 帳戶，供您或合作夥伴下載。
-seo-title: 'Data Connectors '
+seo-title: Data Connectors
 solution: Analytics
-title: 'Data Connectors '
-uuid: 76edb815-f40 d-413d-986f-565b6619648 d
+title: Data Connectors
+uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# Data Connectors 
+# Data Connectors
 
 When you create an integration with an Adobe partner using [data connectors](https://www.adobeexchange.com/experiencecloud.html), Adobe can push re-marketing or other data to an FTP account, which you or the partner can download.
 
