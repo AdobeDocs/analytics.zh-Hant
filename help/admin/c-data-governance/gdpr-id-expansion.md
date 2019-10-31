@@ -5,7 +5,7 @@ seo-title: ID 擴增
 title: ID 擴增
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
 translation-type: tm+mt
-source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID 擴增 </p> </td> 
-   <td colname="col2"> <p>Many Analytics customers originally used the (Legacy) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external"> Analytics Cookie </a>, but are now using the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external"> Identity Service (ECID) </a>, previously known as the Marketing Cloud ID Service (MCID). 針對轉換後初次造訪的網站訪客，系統僅存在 ECID。不過，對於初次造訪時網站只使用舊版 Cookie 而後再訪的使用者: 有些資料會兩種 Cookie 都有，而較舊的資料只會有 Analytics Cookie，在極少數情況下，最新的資料則可能只有 ECID。 </p> <p>您希望確保您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。因此，若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 expandIds 選項。當您指定 expandIds 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 </p> </td> 
+   <td colname="col2"> <p>許多 Analytics 客戶原本使用 (舊版) <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html" format="html" scope="external">Analytics Cookie</a>，現在則使用原稱為 Marketing Cloud ID 服務 (MCID) 的<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">身分識別服務 (ECID)</a>。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。不過，對於初次造訪時網站只使用舊版 Cookie 而後再訪的使用者: 有些資料會兩種 Cookie 都有，而較舊的資料只會有 Analytics Cookie，在極少數情況下，最新的資料則可能只有 ECID。 </p> <p>您希望確保您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。因此，若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 expandIds 選項。當您指定 expandIds 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂 ID 至 Cookie ID 擴增 </p> </td> 
@@ -63,5 +63,5 @@ source-git-commit: 3be4e96df12d5e53bf77b1960afc229a1ac6c046
 
 您也應該注意，任何因「資料隱私權」刪除要求而遭到刪除（更新或匿名）點擊的訪客，都會重設其狀態資訊。 訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您想要清除資料欄位，則不需要此副作用，並強調隱私權服務API不適用於此用途的一個原因。
 
-請連絡您的客戶經理(CSM)，與我們的工程架構顧問團隊協作，以進一步審查並提供移除任何PII或資料問題的工作層級。
+請連絡您的客戶經理 (CSM) 來協調工程架構顧問團隊，以進一步檢視及著手移除所有 PII 或資料問題。
 
