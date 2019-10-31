@@ -5,9 +5,9 @@ seo-title: 行動管理
 solution: Analytics
 title: 行動管理
 topic: 管理工具
-uuid: d09edf72-bb91-422d-b22 c-7b6971 f228 de
+uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 6184104b5a46242c5973552298964e96ff671d7c
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -26,9 +26,9 @@ Adobe Analytics 與 Mobile Services 之間的整合
 * 增加全新 Adobe Mobile 維度。
 * 每 15 分鐘同步資料至 Analytics
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 行動管理]** &gt; **[!UICONTROL 行動應用報表]**」。
+**[!UICONTROL Analytics]** Admin **[!UICONTROL Report Report Report Suites &gt;]** Edit Suites **[!UICONTROL &gt; Mobile Management Settings]**************&gt; Mobile Reporting Mobile Reporting。
 
-## 步驟 1. 啟用 App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
+## 步驟 1.啟用 App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
 
 啟用 App Reports v3.0 以測量以下量度:
 
@@ -46,11 +46,11 @@ Adobe Analytics 與 Mobile Services 之間的整合
 * 於 Mobile Services 中辨識、建立和視覺化特定興趣點 (POI)。POI 必須在行動 SDK 設定檔案中加以設定。
 * 追蹤藍牙信標 (UUID、主要、次要及鄰近地區)。
 
-## 步驟 3. (可選) 啟用/停用背景點擊數的傳統報表和屬性 {#section_1708BCAA87AA4884986F7532759C5DD4}
+## 步驟 3.(可選) 啟用/停用背景點擊數的傳統報表和屬性 {#section_1708BCAA87AA4884986F7532759C5DD4}
 
 啟用背景點擊數 (當應用程式在背景運作時產生的點擊數) 代表這些點擊數被視為一般的前景點擊數。這些點擊數會在一般報表顯示，並會影響屬性。此設定通常僅為了與傳統實作內容保持一致。
 
-相反地，我們建議您將「包含背景點擊次數」加入[虛擬報表套裝](../../components/vrs/vrs-about.md)。這讓您可以看到點擊數，但不會對瀏覽和訪客數量產生不良影響。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+Instead, we recommend that you "include background hits" in a [virtual report suite](../../components/vrs/vrs-about.md). 這讓您可以看到點擊數，但不會對瀏覽和訪客數量產生不良影響。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
 
 分類用於將值分組，然後依群組級別匯報。 例如，您可以將所有「付費搜尋」促銷活動歸為「流行音樂術語」類別，並匯報此類別中與量度（如「例項」，亦稱為「點進
 」）相關的成功，然後轉換為成功事件。
