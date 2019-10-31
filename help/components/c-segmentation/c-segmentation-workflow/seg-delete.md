@@ -5,9 +5,9 @@ seo-title: 刪除區段
 solution: Analytics
 title: 刪除區段
 topic: 區段
-uuid: cb6db6ad-f400-4633-900a-8a02 dcccf2 c
+uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    ![](assets/duplicate_seg_names.png)
 
-   您有個書籤是引用 mainprod 報表套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將剩下那個區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或已計劃報表是否在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否在使用剩下那個區段。
+   您有個書籤是引用 mainprod 報表套裝中的區段。然後您會刪除該區段，因為它是重複的。 書籤將會繼續運作，引用已刪除之區段的定義。如果您將剩下那個區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或排程報表是否使用已刪除的區段，您可以變更剩餘區段的名稱，以便更清楚書籤是否使用剩餘的區段。
 
 ## Edit Embedded Deleted Segments in Ad Hoc Analysis {#section_976D601DBD2244E38B0A0222E31D2610}
 
