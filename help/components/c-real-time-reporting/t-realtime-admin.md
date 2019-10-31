@@ -1,18 +1,18 @@
 ---
 description: 設定即時報表的管理步驟。
 seo-description: 設定即時報表的管理步驟。
-seo-title: 設定即時報告
+seo-title: 設定即時報表
 solution: Analytics
-title: 設定即時報告
+title: 設定即時報表
 topic: 管理工具
-uuid: a2c3c515-55f2-4c64-ac92-a86 d75 e78 a86
+uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
 
-# 設定即時報告
+# 設定即時報表
 
 設定即時報表的管理步驟。
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   For information on supported real-time metrics and dimensions, see [Supported Metrics and Dimensions](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7).
+   如需支援的即時度量和維度的詳細資訊，請參 [閱支援的度量和維度](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7)。
 
    如果您已定義分類，則會以縮排顯示在其所定義的維度下方:
 
@@ -45,13 +45,13 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    >[!NOTE]
    >
-   >對於單一即時報告，我們目前不支援啓用重復維度，即使為每個維度選取不同的分類亦然。
+   >對於單一即時報表，我們目前不支援啟用重複維度，即使為每個維度選取了不同的分類亦然。
 
-   For more information about classifications, see [About Classifications](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE).
+   如需分類的詳細資訊，請參 [閱關於分類](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE)。
 
    >[!NOTE]
    >
-   >有些維度(例如「搜尋關鍵字」或「產品」)不會像在Adobe Analytics中其他位置一樣持續存在於即時。選取非持續性的量度時，會出現此警告:
+   >有些維度（例如「搜尋關鍵字」或「產品」）不會像Adobe Analytics中其他地方一樣，在即時中持續存在。 選取非持續性的量度時，會出現此警告:
 
    ![](assets/warning_dimensions.png)
 
