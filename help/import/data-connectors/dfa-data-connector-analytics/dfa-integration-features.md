@@ -8,7 +8,7 @@ title: 整合功能
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
 
@@ -23,9 +23,7 @@ Data connectors DFA 整合在啟動之後，將可為您的 Adobe Analytics 報�
 * (可選) DFA 成本資料
 * (可選) DFA 查詢錯誤、逾時
 
->[!NOTE]
->
->此整合不支援點按追蹤器（先前稱為點按命令）。 點按追蹤可用來記錄對網站上的文字連結、電子郵件訊息中的連結或其他硬式編碼元素的點按次數。
+> [!NOTE] 此整合不支援點按追蹤器（先前稱為點按命令）。 點按追蹤可用來記錄對網站上的文字連結、電子郵件訊息中的連結或其他硬式編碼元素的點按次數。
 
 Data connectors DFA 整合會自動從 DFA 所傳回的資料建構 DFA 追蹤代碼。所建構的這些追蹤代碼，會用來唯一識別廣告及其相關聯的版面和創作。以下將根據整合的版本概述追蹤代碼的結構。1.5 版顯示如下:
 
@@ -47,20 +45,18 @@ Data connectors DFA 整合會自動從 DFA 所傳回的資料建構 DFA 追蹤�
 
 ## SearchCenter 重複資料刪除 {#section-f809b3bb5e5142aa8ff89bcd5f0d0e49}
 
-Adobe SearchCenter 現在已可辨識 DFA 整合。透過 Data connectors 精靈啟用 SearchCenter 重複資料刪除功能後，搜尋驅動的訪客將無法再從 DFA 的 Floodlight 伺服器提取資料，且&#x200B;*`s.campaign`*&#x200B;將不會由 DFA 填入，而讓 SearchCenter 能夠加以填入。此外，DFA 和 SearchCenter 現在會將重複資料刪除值填入每項產品的變數中。
+Adobe SearchCenter 現在已可辨識 DFA 整合。透過「資料連接器」精靈啟用SearchCenter重複資料消除，搜尋導向的訪客將不會從DFA的Floodlight伺服器提取資料，而且 *`s.campaign`* DFA將不會填入資料，因此SearchCenter可以填入資料。 此外，DFA 和 SearchCenter 現在會將重複資料刪除值填入每項產品的變數中。
 
 下列清單列出啟用 SearchCenter 重複資料刪除功能時所將啟用的邏輯:
 
 If **[!UICONTROL DFA]** &gt; **[!UICONTROL SearchCenter deduplication]** is selected in the wizard:
 
-* 在 DFA 點進的案例中，整合會將字串 "DFA Clickthrough" 填入至已設定的 SCM eVar。
-* 在 DFA 閱覽的案例中，整合會將字串 "DFA Viewthrough" 填入至 SCM eVar。
+* 若是DFA點進，整合會將字串「DFA點進」填入設定的SCM eVar。
+* 若是DFA檢視，整合會將字串「DFA檢視」填入SCM eVar。
 
 If **[!UICONTROL SearchCenter]** &gt; **[!UICONTROL DFA deduplication]** is selected in the wizard:
 
-* 在 DFA 閱覽的案例中，整合會將字串 "DFA Viewthrough" 填入至 SCM eVar。
+* 若是DFA檢視，整合會將字串「DFA檢視」填入SCM eVar。
 
->[!NOTE]
->
->如果啟用SearchCenter &gt; DFA重複資料消除，並設定SearchCenter查詢字串參數，則不會將瀏覽視為DFA處理。 這表示，SearchCenter 查詢字串參數應不同於 DFA 點進參數，且不應有「顯示」廣告設定 SearchCenter 查詢字串參數。
+> [!NOTE] 如果啟用SearchCenter &gt; DFA重複資料消除，並設定SearchCenter查詢字串參數，則不會將瀏覽視為DFA處理。 這表示，SearchCenter 查詢字串參數應不同於 DFA 點進參數，且不應有「顯示」廣告設定 SearchCenter 查詢字串參數。
 
