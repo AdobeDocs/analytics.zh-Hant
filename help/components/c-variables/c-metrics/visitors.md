@@ -8,7 +8,7 @@ title: 訪客
 topic: 量度
 uuid: 098beb78-5294-42b4-8875-f3908aa646ca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 如需詳細資訊，請參閱「Adobe Analytics 實施指南」中的[識別獨特訪客](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_overview.html)。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [訪客報告](/help/components/c-variables/dimensionslist/reports-visitors.md)
 
