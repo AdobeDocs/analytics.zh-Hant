@@ -5,7 +5,7 @@ seo-title: 伺服器端轉送常見問題集
 title: 伺服器端轉送常見問題集
 uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
 | 問：如果我們有兩個Experience cloud組織（或AAM例項），並且想要在兩個Experience cloud組織之間共用資料，該怎麼辦？ 我是否可在伺服器端將單一Analytics點擊轉送至多個Experience cloud組織？ | 不會。如果您需要將在一個Experience cloud組織下收集的資料共用至另一個Experience cloud組織，我們建議您使用觀眾市場將任何適用的觀眾從一個Audience manager例項傳送至另一個。 |
 | 問: 伺服器端轉送在 Audience Manager 或 Analytics 中需要額外付費嗎? | 在 Analytics 中不需要額外付費。在 Audience Manager 中，轉送的點擊會被視為與任何其他點擊一樣，且必須付費。這就是切勿同時啟用 DIL 和伺服器端轉送的原因，因為這麼做可能會造成費用加倍和資料重複。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [伺服器端轉送功能](/help/admin/admin/c-server-side-forwarding/ssf.md)
 
