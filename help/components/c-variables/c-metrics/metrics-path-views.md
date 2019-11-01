@@ -7,7 +7,7 @@ title: 路徑檢視
 topic: 量度
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 轉換 | 不適用 |
 | Ad Hoc Analysis | 不是完整的瀏覽時間長度。通常是路徑的集合，其中每個路徑通常含有 3-4 個頁面。顯示該特定路徑的瀏覽頻率。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [路徑報告](/help/components/c-variables/dimensionslist/reports-paths.md)
 
