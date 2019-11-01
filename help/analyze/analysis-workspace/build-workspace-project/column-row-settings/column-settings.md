@@ -5,7 +5,7 @@ seo-title: 欄設定
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 自訂 | 您可以手動指派條件式格式的「上限」、「中點」和「下限」欄位。這可提供由您決定欄的值是好、中等或壞的彈性。 |
 | 表格儲存格預覽 | 顯示目前已套用選定格式選項之各儲存格的呈現方式預覽。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
