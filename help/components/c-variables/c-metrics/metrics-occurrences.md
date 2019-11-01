@@ -7,7 +7,7 @@ title: 發生次數
 topic: 量度
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 例項數高於發生次數 | 報告中不可能發生此情況，因為所有例項也會記錄為發生次數。 |
 | 例項數等於發生次數 | 此情況最常出現在流量變數上，因為這些變數依其特性不會存留到下一個影像要求。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [例項](/help/components/c-variables/c-metrics/metrics-instance.md)
 
