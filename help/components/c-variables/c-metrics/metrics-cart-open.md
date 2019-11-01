@@ -5,9 +5,9 @@ seo-title: 購物車開啟
 solution: Analytics
 title: 購物車開啟
 topic: 量度
-uuid: aac79908-979e-48db-a6 d4-580863657e3 c
+uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 轉換 | 所設定[!UICONTROL 購物車開啟]事件的例項。發生於建立新購物車時。 |
 | Ad Hoc Analysis | 所設定[!UICONTROL 購物車開啟]事件的例項。發生於建立新購物車時。 |
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [購物車報告](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
 
