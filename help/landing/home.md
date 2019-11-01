@@ -4,12 +4,14 @@ seo-title: Adobe Analytics 技術文件和自助使用者指南的完整清單
 description: Analytics 使用者指南和資源
 seo-description: Adobe Analytics 技術文件、發行說明和自助使用者指南的完整清單。
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
 
 ---
 
 
 # Adobe Analytics 文件
+
+歡迎使用Adobe Analytics產品與技術檔案首頁。 您可在這裡找到報表工具的自助和支援資訊，例如 [!UICONTROL Analysis]、 [!UICONTROL Report Builderapi、Reporting API、]Data Workbench [!UICONTROL ，以及]Activity Map Workspace。 您也可以存取產品與使用者管理、實作以及Adobe Analytics支援的所有功能的檔案。
 
 [![工具](assets/analyze_50px.png)](/help/analyze/home.md) [Analytics 工具指南](/help/analyze/home.md) – 說明 Adobe Analytics 提供的所有分析工具。首先，指南會針對 Analysis Workspace 提供詳盡的文件介紹，這是 Analytics 的主要分析和視覺化工具。
 
