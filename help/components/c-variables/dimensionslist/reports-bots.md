@@ -7,7 +7,7 @@ title: Bot
 topic: 報表
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 系統會根據使用者代理程式或 IP 位址來篩選機器人。我們也提供相關選項，讓您使用 IAB/ABCe International Spiders &amp; Bots List 來篩選機器人流量。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [機器人規則](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)
 
