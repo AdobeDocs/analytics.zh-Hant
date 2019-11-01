@@ -6,7 +6,7 @@ solution: Audience Manager
 title: 如何確認您的伺服器端轉送實作情形
 uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >If the response contains the key value pair `"status":"SUCCESS"` or a 2 x 2 image, then server-side forwarding * is not* configured correctly. 請確定Identity service已正確部署，您已部署App Measurement模組，適用的報表套裝已對應至正確的IMS組織，且Analytics管理控制台中已啟用伺服器端轉送。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Charles 網頁除錯工具](https://www.charlesproxy.com/)
 
