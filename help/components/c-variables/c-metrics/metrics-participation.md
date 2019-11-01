@@ -7,7 +7,7 @@ title: 參與率
 topic: 量度
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -43,7 +43,7 @@ See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-
 
    參與率類似於線性分配，但它是將完整評分給予所有值。如果使用「收入 (參與率)」量度，將不考慮分配方法。此範例中的「收入 (參與率)」會對兩個搜尋詞都報告 120 美元。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [量度計算](/help/components/c-variables/c-metrics/metrics-calculations.md)
 
