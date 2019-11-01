@@ -5,7 +5,7 @@ seo-title: 設定現有報表
 title: 設定現有報表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 ---
 
@@ -164,7 +164,7 @@ t_reports_breakdown_table.xml
    >
    >為獲得更大的彈性，請使 [用表格產生器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) ，以設定包含劃分的報表。 開啟含有劃分的儲存或計劃的報表後，您可能需要按一下&#x200B;**[!UICONTROL 取代表格]重新整理動態報表資料的劃分。**&#x200B;例如，如果計劃報表包含會隨日期範圍或訪客活動變更的行項目，您可能需要重新整理該計劃報表。
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [表格產生器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
@@ -249,7 +249,7 @@ t_column_width.xml
 
    如果啟用[!UICONTROL 適合螢幕大小]，則會停用此選項。1. Specify a width in pixels, then click **[!UICONTROL OK]**.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [表格產生器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)
 
