@@ -8,7 +8,7 @@ title: 完全處理
 topic: 開發人員和實作
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 「完全處理」資料來源的資料是使用不同的訪客個人資料進行處理，因此即使上傳資料中的訪客 ID 與使用 JavaScript 或其他 AppMeasurement 程式庫收集的資料相符，也不會從 eVar 配置的角度連結訪客個人資料。
 
-例如，訪客 ID 為 "user@example.com" 的使用者從名為 "Spring Sale" (此名稱儲存在 campaign 變數) 的促銷活動造訪您的網站。如果您稍後使用相同的訪客 ID 上傳交易，"Spring Sale" 促銷活動不會收到任何使用完全處理資料來源上傳之收入或成功事件的信用。
+For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 如果您稍後使用相同的訪客 ID 上傳交易，"Spring Sale" 促銷活動不會收到任何使用完全處理資料來源上傳之收入或成功事件的信用。
 
 ## 欄參考 {#section_92BAE76639E3404E97276B1BE0581078}
 
