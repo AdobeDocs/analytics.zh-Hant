@@ -4,7 +4,7 @@ seo-description: 登入資料連接器；從協力廠商應用程式將追蹤資
 seo-title: Analytics資料連接器
 title: Analytics資料連接器快速入門
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
 
 ---
 
@@ -79,7 +79,7 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
    * 購買： `purchase` 事件
    * Product Views: `prodView` event
 
-**** 注意：如果定義產品時沒有關聯事件，則會自動觸發prodView事件。
+> [!NOTE] 如果定義產品時沒有關聯事件，則會自動觸發prodView事件。
 如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
 [!UICONTROL 放棄購買]: 當使用者新增產品至購物車時會啟動:
