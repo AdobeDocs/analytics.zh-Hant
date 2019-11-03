@@ -65,7 +65,7 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 
 **區段**
 
-* [!UICONTROL  放棄購買]: 訪客新增項目至購物車但未購買的百分比。一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
+* [!UICONTROL 放棄購買]: 訪客新增項目至購物車但未購買的百分比。 一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
 * [!UICONTROL 購買]: 根據特定產品中的訊息 ID 而進行購買的接收者 ID (或是訪客 ID)。
 * [!UICONTROL 產品檢視]:類似於「 [!UICONTROL 購物車放棄]」，這也是計算量度。 It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
 
