@@ -8,29 +8,31 @@ title: 常見問題集和範例
 topic: Reports and Analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # 常見問題集和範例
 
-閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
+<!--
+Read about best practices and examples of how to populate various rules you can set up for your marketing channels.
 
-* [常見問題集](../../components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573)
-* [未識別渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)
-* [付費搜尋](../../components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1)
-* [免費搜尋](../../components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386)
-* [附加產品](../../components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622)
-* [社交網路](../../components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8)
-* [顯示](../../components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB)
-* [內部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)
-* [電子郵件](../../components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE)
-* [直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
+* [Frequently Asked Questions](/help/components/c-marketing-channels/c-faq.md#section_E490CEAF0E76422C91D34D8A80A0C573) 
+* [No Channel Identified](/help/components/c-marketing-channels/c-faq.md##no-channel-identified) 
+* [Paid Search](/help/components/c-marketing-channels/c-faq.md#section_E934BFE182E4404A93FE07AFEAE64DC1) 
+* [Natural Search](/help/components/c-marketing-channels/c-faq.md#section_A4C6B8F0360449BE94F0128FF7C71386) 
+* [Affiliates](/help/components/c-marketing-channels/c-faq.md#section_8D142C7074CD4DEC87DF55B691107622) 
+* [Social Networks](/help/components/c-marketing-channels/c-faq.md#section_492B72A3B261479D9C84F631E90C03D8) 
+* [Display](/help/components/c-marketing-channels/c-faq.md#section_4FD846B89FCE4ECFB7781BD02874A1AB) 
+* [Internal](/help/components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947) 
+* [Email](/help/components/c-marketing-channels/c-faq.md#section_4A927BE947B748E39595F4525B7280DE) 
+* [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
+-->
 
-請參閱 [Create Marketing Channel Processing Rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
 
-## 常見問題集 {#section_E490CEAF0E76422C91D34D8A80A0C573}
+## 常見問題集 {#faq}
 
 各行銷渠道規則的實施，因您的追蹤代碼而異。若要設定可提供所需結果的規則，需要一些創新的問題解決方法。
 
@@ -39,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用 *`affiliates.`*
 * 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. 如果不含，則 *`eml`*&#x200B;為分支機構。
 
-**問題**: 反向連結網域包含的資料多於我的預期。
+**問題**:反向連結網域包含的資料比我預期的要多。
 
 * 反向連結網域可能在處理規則清單中排位過高。它應是最後的規則集或之一，因為處理順序至關重要。
 
@@ -65,15 +67,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 請確保擁有針對這三種可能性的渠道。例如，建立如下規則︰
 
-1. **[!UICONTROL 反向連結]** 和 **[!UICONTROL 不存在]** , **[!UICONTROL 且是第一個瀏覽頁面]**。 (請參閱[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)。)
+1. **[!UICONTROL 反向連結]** 和 **[!UICONTROL 不存在]** , **[!UICONTROL 且是第一個瀏覽頁面]**。 (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
 
-2. **[!UICONTROL 反向連結符合內部URL篩選]** , **[!UICONTROL 是第一個瀏覽頁面]**。 (請參閱[內部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)。)
+2. **[!UICONTROL 反向連結符合內部URL篩選]** , **[!UICONTROL 是第一個瀏覽頁面]**。 (請參閱[內部](/help/components/c-marketing-channels/c-faq.md)。)
 
 3. **[!UICONTROL 反向連結]** 、 **[!UICONTROL 存在]** 、反向連 **[!UICONTROL 結不符合內部URL篩選器]**。
 
-最後，建立一個擷取剩餘點按的&#x200B;*「其他」*&#x200B;渠道，如[未識別渠道](../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7)中所述。
+最後，建立一個擷取剩餘點按的&#x200B;*「其他」*&#x200B;渠道，如[未識別渠道](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)中所述。
 
-## 未識別渠道 {#section_451E42994DA247A8A7B8559C715A5EE7}
+## 未識別渠道 {#no-channel-identified}
 
 當規則不擷取資料時，或如果規則設定有誤，則報表會顯示報表上[!UICONTROL 「未識別渠道」]行中的資料。您可建立一個稱作&#x200B;*「其他」*&#x200B;的規則集，例如在處理順序的末尾，這也可識別內部流量，如下所示。
 
@@ -83,7 +85,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 > [!NOTE] 可能仍有一些渠道流量屬於「未識別渠道」類別。 舉例來說: 一位訪客造訪網站並將網頁加到書籤中，在同一次造訪中會透過書籤返回該頁面。由於這不是該次造訪的第一頁，並沒有反向連結網域，因此不會分類到「直接渠道」或「其他渠道」。
 
-## 付費搜尋 {#section_E934BFE182E4404A93FE07AFEAE64DC1}
+## 付費搜尋 {#paid-search}
 
 付費搜尋是指您為顯示在搜索結果中而需要向搜尋引擎付款的字詞或短語。為了比對付費搜尋偵測規則，行銷渠道使用[!UICONTROL 「付費搜尋偵測」]頁面上的設定。( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). 目標 URL 符合搜索引擎的現存付費搜尋偵測規則。
 
@@ -93,7 +95,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)。
 
-## 免費搜尋 {#section_A4C6B8F0360449BE94F0128FF7C71386}
+## 免費搜尋 {#natural-search}
 
 訪客經由某個網站搜尋找到您的網站 (您不須支付排名費用，即由該搜尋引擎排名您的網站)，則為「免費」搜尋。您可以控制搜尋引擎用來連結套裝的目的地 URL。此 URL 允許分析識別搜尋是否為免費的。
 
@@ -105,31 +107,31 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://marketing.adobe.com/resources/help/en_US/reference/paid_search_detection.html)。
 
-## 附加產品 {#section_8D142C7074CD4DEC87DF55B691107622}
+## 附加產品 {#afilliates}
 
 附屬機構規則可識別源自指定反向連結網域組的訪客。透過該規則，您可列出想要追蹤的附屬機構網域，如下所示:
 
 ![](assets/example_affiliates.png)
 
-## 社交網路 {#section_492B72A3B261479D9C84F631E90C03D8}
+## 社交網路 {#social-networks}
 
 該規則可識別源自社交網路的訪客，例如 Facebook*。設定值如下: 
 
 ![](assets/example_social.png)
 
-## 顯示 {#section_4FD846B89FCE4ECFB7781BD02874A1AB}
+## 顯示 {#display}
 
 該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為 *另存`Ad_01`。*
 
 ![](assets/example_display.png)
 
-## 內部 {#section_179A2BE5C8E24719A9E5C0DC09AF0947}
+## 內部 {#internal}
 
 該規則可識別源自符合報表套裝內部 URL 篩選器的反向連結的訪客。
 
 ![](assets/example_internal.png)
 
-## 電子郵件 {#section_4A927BE947B748E39595F4525B7280DE}
+## 電子郵件 {#email}
 
 若要設定該規則，您可為電子郵件促銷活動提供查詢字串參數。在本例中，參數為 *`eml`*:
 
@@ -139,7 +141,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ![](assets/tracking_code.png)
 
-## 直接 {#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A}
+## 直接 {#direct}
 
 該規則可識別無反向連結網域的訪客。這包括直接來到您網站的訪客，例如來自「我的最愛」連結或透過傳遞其瀏覽器中的連結。
 
