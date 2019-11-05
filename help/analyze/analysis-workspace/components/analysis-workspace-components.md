@@ -5,7 +5,7 @@ seo-title: 元件概觀
 title: 元件概觀
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
 
-若要存取「元件」面板，請按一下左側欄中的「**[!UICONTROL 元件]」圖示。**&#x200B;您可以使用左側導軌圖示或使用熱鍵(Hotkeys)，在「面板」( [Blank panel](../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F), [Freeform panel](../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793) , or [Segment Comparison(空白麵板](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)[](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)，自由格式面板)」面板、「視覺化」和「元件」之間切換。
+若要存取「元件」面板，請按一下左側欄中的「**[!UICONTROL 元件]」圖示。**&#x200B;您可以使用左側導軌圖示或使用熱鍵(Hotkeys)，在「面板」( [Blank panel](/help/analyze/analysis-workspace/visualizations/freeform-table.md), [Freeform panel](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) , or [Segment Comparison(空白麵板](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)[](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，自由格式面板)」面板、「視覺化」和「元件」之間切換。
 
 ![](assets/components.png)
 
-See [Create a freeform analysis project](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for information about using Components in a project.
+See [Create a freeform analysis project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for information about using Components in a project.
 
 ## 元件動作 {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
@@ -34,4 +34,4 @@ See [Create a freeform analysis project](../../../analyze/analysis-workspace/bui
 | 共用 | 僅套用至區段。 |
 | 刪除 | 僅套用至區段。 |
 
-[在YouTube上建立量度、區段和日期](https://www.youtube.com/watch?v=XXJuNAte8E8&index=25&list=PL2tCx83mn7GuNnQdYGOtlyCu0
+[在YouTube上建立量度、區段和日期](https://www.youtube.com/watch?v=XXJuNAte8E8&index=25&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:51)
