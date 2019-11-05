@@ -7,7 +7,7 @@ title: 連結追蹤 方法
 topic: Activity Map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](../../../analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#section_634197EACD404AC086DF9A03B813C8C3). 如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](../../../analyze/activity-map/lnk-tracking-overview.md#section_A9F016E64F33446F8916855D8C69A7C6)。
+>Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). 如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](/help/analyze/activity-map/lnk-tracking-overview.md)。
 
 Activity Map 的連結追蹤是根據下列兩個 ID:
 
@@ -112,7 +112,7 @@ s.ActivityMap.regionIDAttribute="lpos";
 </div>
 ```
 
-## 設定變數 {#section_634197EACD404AC086DF9A03B813C8C3}
+## 設定變數 {#configuration-vars}
 
 請注意，以下所列變數僅供參考。Activity Map 在出廠時即已正確設定，但您可使用這些變數來自訂實作。
 
