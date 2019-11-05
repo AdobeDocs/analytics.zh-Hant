@@ -5,7 +5,7 @@ seo-title: 參與率量度
 title: 參與率量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 在計算量度產生器中建立新量度。
 1. 將成功事件「訂購」拖曳至「定義」畫布。
-1. 將該事件 [的歸因模型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#concept_B7A1FCFEFA9D4C4883208ACE8C9C8E5E) ，變更為「設定」 **[!UICONTROL (Settings)齒輪下的「參與率」(Participation]** ) **[!UICONTROL 模型]** 。 選擇 **[!UICONTROL 瀏覽]** 回顧。 定義應該看起來類似下列:
+1. 將該事件 [的歸因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) ，變更為「設定」 **[!UICONTROL (Settings)齒輪下的「參與率」(Participation]** ) **[!UICONTROL 模型]** 。 選擇 **[!UICONTROL 瀏覽]** 回顧。 定義應該看起來類似下列:
 
    ![](assets/participation.png)
 
