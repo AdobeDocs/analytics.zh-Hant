@@ -5,7 +5,7 @@ seo-title: 異常偵測概觀
 title: 異常偵測概觀
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [YouTube的貢獻分析](https://www.youtube.com/watch?v=MbpeJIADtGk&index=64&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (3:20)
 
-> [!IMPORTANT] 「異常偵測」僅適用於分析工作區。 Adobe Analytics Select和Foundation客戶只能存取工作區中的「每日詳細程度」異常偵測。 如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](../contribution-analysis/ca-tokens.md)。
+>[!IMPORTANT] 「異常偵測」已從「報告與分析」功能集中移除，現在僅能透過「分析工作區」使用。 請注意，Adobe Analytics Select和Adobe Analytics Foundation客戶只能存取工作區中的「每日精細度」異常偵測。 如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
 
 異常偵測提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 
