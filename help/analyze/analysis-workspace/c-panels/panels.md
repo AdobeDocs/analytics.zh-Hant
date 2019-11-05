@@ -5,7 +5,7 @@ seo-title: 面板概觀
 title: 面板概觀
 uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 「空白面板」與「自由面板」適用於開始分析的階段，而「歸因 IQ」與「區段比較」則適用於更進階的分析。我們也新增了「+」面板按鈕，可讓您隨時新增「空白面板」。
 
-預設的開始面板為「自由面板」，但您也可以將[「空白面板」](../../../analyze/analysis-workspace/c-panels/blank-panel.md#concept_B0AD924A792F4166B13448AC253CE7E2)設為預設面板。
+預設的開始面板為「自由面板」，但您也可以將[「空白面板」](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
 ## 面板中的下拉式篩選器 {#section_D2828EEDD52944528E87F470EAB581CF}
 
