@@ -7,7 +7,7 @@ title: 瀏覽器寬度/高度
 topic: 量度
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 該量度指的是瀏覽器視窗內資料的水平/垂直距離。如需更具體資訊，請參閱瀏覽器
 
-Adobe Analytics 僅會使用瀏覽時首次點擊的瀏覽器高度和寬度。其餘點擊不會取得同樣的瀏覽屬性。The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](../../../components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
+Adobe Analytics 僅會使用瀏覽時首次點擊的瀏覽器高度和寬度。其餘點擊不會取得同樣的瀏覽屬性。The browser width/height dimensions capture similar but distinct values when compared with [mobile screen size](/help/components/c-variables/dimensionslist/reports-mobile.md#topic_D306EA4558194488AC47A45B9C570150).
 
 例如，當您依行動裝置解析度劃分瀏覽器寬度或高度時，必須注意以下差異:
 
