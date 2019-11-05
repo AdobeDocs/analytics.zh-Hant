@@ -5,7 +5,7 @@ seo-title: 發佈至 Power BI - 概觀
 title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -22,13 +22,13 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 與 Adobe Report Builder 整合可讓您
 
-* [將已排程的 Report Builder 活頁簿發佈到 Power BI](../../../analyze/report-builder/whats-new-arb.md#section_21CA66229EC240D49594A9A7D3FBA687)
-* [以 Power BI 資料集表格發佈活頁簿中的所有格式化表格](../../../analyze/report-builder/whats-new-arb.md#section_7C54A54E75184DD6BAEF4ACCE241239A)
-* [以 Power BI 資料集表格發佈所有 Report Builder 請求](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)
+* [將已排程的 Report Builder 活頁簿發佈到 Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [以 Power BI 資料集表格發佈活頁簿中的所有格式化表格](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
+* [以 Power BI 資料集表格發佈所有 Report Builder 請求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## 系統要求 {#section_0B71092D853446F38FA36447DAC0D32B}
 
-* 已安裝Adobe Report Builder 5.5 [](../../../analyze/report-builder/setup/t-install-arb.md#task_0CA66703882F469EB6DBD9298975D6C3)
+* 已安裝Adobe Report Builder 5.5 [](/help/analyze/report-builder/setup/t-install-arb.md)
 * 可讓您登入 Power BI 的有效 Microsoft 帳戶
 
 ## Publish workbook to Power BI {#section_21CA66229EC240D49594A9A7D3FBA687}
@@ -81,7 +81,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    ![](assets/advanced-schedule-wizard2.png)
 
-1. (選用) 在 Power BI 中，您可以自訂已發佈資產的名稱。如果您使用版本編號作為活頁簿名稱的一部分 (例如 myworkbook_v1.1.xlsx)，但不希望版本號碼出現在已發佈之 Power BI 資產的名稱中，就可以使用這個方式。這樣做的好處是，當版本號碼改變時，已發佈的資產不會變更。(在這裡檢視[規格](../../../analyze/report-builder/c-publish-power-bi/specifications-limits.md#concept_1B6522B4D7A9482680198F125D94EEFD)。)
+1. (選用) 在 Power BI 中，您可以自訂已發佈資產的名稱。如果您使用版本編號作為活頁簿名稱的一部分 (例如 myworkbook_v1.1.xlsx)，但不希望版本號碼出現在已發佈之 Power BI 資產的名稱中，就可以使用這個方式。這樣做的好處是，當版本號碼改變時，已發佈的資產不會變更。(在這裡檢視[規格](/help/analyze/report-builder/c-publish-power-bi/specifications-limits.md)。)
 
 **在Power BI中查看表資料**
 
