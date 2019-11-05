@@ -8,7 +8,7 @@ title: 資料彙集 HTTP 標題
 topic: 開發人員和實作
 uuid: 3325e13c-b300-46e4-a592-3a83ed59718b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -27,7 +27,7 @@ HTTP 要求和回應標題可用來收集 AppMeasurement 未收集的資料。�
   </tr> 
   <tr> 
    <td> Cookie </td> 
-   <td> <p>讀取先前由我們的資料收集伺服器建立的 Cookie。 </p> <p> 自 2014 年起，Adobe 伺服器將捨棄除了 Adobe 設定的 Cookie 以外，所有伴隨伺服器呼叫的 Cookie。如需 Adobe Cookie 的完整清單，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/" format="https" scope="external">Experience Cloud 中使用的 Cookie</a>。 </p> </td> 
+   <td> <p>讀取先前由我們的資料收集伺服器建立的 Cookie。 </p> <p> 自 2014 年起，Adobe 伺服器將捨棄除了 Adobe 設定的 Cookie 以外，所有伴隨伺服器呼叫的 Cookie。如需 Adobe Cookie 的完整清單，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/">Experience Cloud 中使用的 Cookie</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> User-Agent </td> 
