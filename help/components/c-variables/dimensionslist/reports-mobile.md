@@ -7,7 +7,7 @@ title: 行動
 topic: 報表
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,11 +87,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 作業系統 (已不再使用) </td> 
-   <td colname="col2"> <p> 依照裝置上執行的行動作業系統對行動裝置分組。行動作業系統包括 Windows、RIM、iOS、Symbian 等。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>注意：更新「技術&gt;作業系統」報表以包含所有作業系統( <a href="../../../components/c-variables/dimensionslist/reports-operating-system.md#concept_3FADC871C6204533B4FCE73316B0B34F" format="dita" scope="local"></a> 包括行動裝置)時，此報表已過時。 您可以建立內含「行動裝置」的區段，並將其套用至「技術 &gt; 作業系統」報表，以便僅檢視行動作業系統。 </p> </td> 
+   <td colname="col2"> <p> 依照裝置上執行的行動作業系統對行動裝置分組。行動作業系統包括 Windows、RIM、iOS、Symbian 等。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>注意：更新「技術&gt;作業系統」報表以包含所有作業系統( <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  ></a> 包括行動裝置)時，此報表已過時。 您可以建立內含「行動裝置」的區段，並將其套用至「技術 &gt; 作業系統」報表，以便僅檢視行動作業系統。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java 版本 </td> 
-   <td colname="col2"> <p> 依據行動裝置支援的 Java 版本對行動裝置分組。Java 版本報告透過裝置所支援的「Java 規格請求」(JSR) 來識別 Java 版本。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>您可以在 <a href="https://jcp.org/en/jsr/overview" scope="external" format="html">Java 社區進程</a>網站尋找更多有關指定 JSR 的資訊。 </p> </td> 
+   <td colname="col2"> <p> 依據行動裝置支援的 Java 版本對行動裝置分組。Java 版本報告透過裝置所支援的「Java 規格請求」(JSR) 來識別 Java 版本。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>您可以在 <a href="https://jcp.org/en/jsr/overview"  >Java 社區進程</a>網站尋找更多有關指定 JSR 的資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 書籤 URL 長度 </td> 
