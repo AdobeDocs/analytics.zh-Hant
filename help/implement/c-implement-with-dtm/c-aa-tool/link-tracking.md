@@ -1,13 +1,13 @@
 ---
 description: 部署 Analytics 時，動態標籤管理中用於連結追蹤的欄位說明。
-keywords: 動態標籤管理；連結追蹤；啟用clickmap；追蹤下載連結；下載擴充功能；追蹤出站連結；keep url參數
+keywords: Dynamic Tag Management;連結追蹤;啟用 Clickmap;追蹤下載連結;下載副檔名;追蹤對外連結;保留 URL 參數
 seo-description: 部署 Analytics 時，動態標籤管理中用於連結追蹤的欄位說明。
 seo-title: 連結追蹤
-solution: Experience Cloud,Analytics，動態標籤管理
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 連結追蹤
-uuid: 982b744b-5696-4c31-b1d1-410486b0edd
+uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 部署 Analytics 時，動態標籤管理中用於連結追蹤的欄位說明。
 
-**[!UICONTROL *`Property`*]** &gt; **[!UICONCONTROL ![](assets/settings_gear.png)
+**[!UICONTROL *`Property`*]** &gt; **[!UICONTROL   ![](assets/settings_gear.png)
 
-Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
+編輯工具]** &gt; **[!UICONTROL 連結追蹤]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C"> 
  <thead> 
@@ -30,7 +30,7 @@ Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
  <tbody> 
   <tr> 
    <td colname="col1"> 啟用 ClickMap </td> 
-   <td colname="col2"> <p>決定是否蒐集訪客點按對映資料。 </p> <p>如需詳細資訊，請參閱<a href="../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00" format="dita" scope="local">s.trackInlineStats</a>。 </p> </td> 
+   <td colname="col2"> <p>決定是否蒐集訪客點按對映資料。 </p> <p>如需詳細資訊，請參閱<a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.trackInlineStats</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 追蹤下載連結 </td> 
@@ -44,7 +44,7 @@ Edit Tool]** &gt; **[!UICONTROL Link Tracking]**
    <td colname="col1"> 追蹤對外連結 </td> 
    <td colname="col2"> <p>判斷點按的任何連結是否為退出連結。 </p> <p>See <a href="/help/implement/js-implementation/c-variables/configuration-variables.md">Configuration Variables</a>. </p> <p><b>單一頁面應用程式考量事項: </b>由於部分 SPA 網站的編碼方式，對 SPA 網站上頁面的內部連結，看起來可能像是對外連結。 </p> <p>您可以使用下列其中一個方法來追蹤來自 SPA 網站的對外連結: </p> 
     <ul id="ul_A4179633ED0644C3BA5F548A58CA4EC9"> 
-     <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>如果您不想要從 SPA 追蹤任何對外連結，請插入項目至<span class="wintitle">永不追蹤</span>區段。 </p> <p>For example, <span class="filepath"> https://testsite.com/spa/#</span> </p> <p>會忽略對此主機的所有 # 連結。會追蹤連線至其他主機的所有輸出連結，例如 <span class="filepath"></span>https://www.google.com。 </p> </li> 
+     <li id="li_1959FBF14E42469FA8724B37EB58BC54"> <p>如果您不想要從 SPA 追蹤任何對外連結，請插入項目至<span class="wintitle">永不追蹤</span>區段。 </p> <p>例如，<span class="filepath">https://testsite.com/spa/#</span> </p> <p>會忽略對此主機的所有 # 連結。會追蹤連線至其他主機的所有輸出連結，例如 <span class="filepath"></span>https://www.google.com。 </p> </li> 
      <li id="li_37DD4D37887243FB928C9C04ACE9D39E"> <p>如果在 SPA 上有您想要追蹤的一些連結，請使用<span class="wintitle">永遠追蹤</span>區段。 </p> <p>例如，如果您有 <span class="filepath">spa/#/about</span> 頁面，即可以在<span class="wintitle">永遠追蹤</span>區段放入「關於」。 </p> <p>「關於」頁面是所追蹤的唯一對外連結。不會追蹤頁面上的任何其他連結 (例如，<span class="filepath"></span>https://www.google.com)。 </p> </li> 
     </ul> <p>請注意，這兩個選項互斥。 </p> </td> 
   </tr> 
