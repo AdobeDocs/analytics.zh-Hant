@@ -7,7 +7,7 @@ title: 關於區段與容器
 topic: 區段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 區段是根據使用巢狀容器模型的[!UICONTROL 訪客]、[!UICONTROL 瀏覽]和[!UICONTROL 點擊]層級階層。巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
 
-您可以在「區段產生器」中建立並儲存區段，或從流失報表 (在 [!DNL ad hoc analysis] 中) 產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_40C299B60B354E10B344702EA3138B34)。
+您可以在「區段產生器」中建立並儲存區段，或從流失報表 (在 [!DNL ad hoc analysis] 中) 產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 
 ## 區段 {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -113,7 +113,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **邏輯群組容器**
 
-邏輯群組容器可讓您在區段規則中提供個別容器，用以不依據階層篩選實體。例如，您可能會想在區段中提供嵌套的容器，用以依據訪客篩選。這種邏輯類型需要中斷階層 (因為您已有頂層訪客容器)，才能僅篩選選定的訪客。您可以使用邏輯群組容器來達成此目的。請參閱[邏輯群組範例](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)以取得詳細資訊。
+邏輯群組容器可讓您在區段規則中提供個別容器，用以不依據階層篩選實體。例如，您可能會想在區段中提供嵌套的容器，用以依據訪客篩選。這種邏輯類型需要中斷階層 (因為您已有頂層訪客容器)，才能僅篩選選定的訪客。您可以使用邏輯群組容器來達成此目的。請參閱[邏輯群組範例](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)以取得詳細資訊。
 
 ## Nesting containers {#section_7FDF47B3C6A94C38AE40D3559AFFAF70}
 
@@ -154,13 +154,13 @@ Country = United States + Order = True
 
 ![](assets/nesting_container.png)
 
-[!UICONTROL 訪客]是循序劃分中最高順序的容器，而[!UICONTROL 訪客]中包含[!UICONTROL 瀏覽]、[!UICONTROL 訪客]或[!UICONTROL 瀏覽]容器中包含[!UICONTROL 點擊]。必須維護這種[容器階層](../../components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)，才能建立順序良好的循序區段。
+[!UICONTROL 訪客]是循序劃分中最高順序的容器，而[!UICONTROL 訪客]中包含[!UICONTROL 瀏覽]、[!UICONTROL 訪客]或[!UICONTROL 瀏覽]容器中包含[!UICONTROL 點擊]。必須維護這種[容器階層](/help/components/c-segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)，才能建立順序良好的循序區段。
 
 **若要建立循序區段**，請使用 [!UICONTROL THEN] 運算子將容器巢狀內嵌並以循序邏輯連結起來，此作業要求每個容器根據訪客次序都為 True。
 
 ![](assets/sequential_segmentation_nesting_3.png)
 
-此容器階層的唯一例外是使用[邏輯群組容器](../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560)。[!UICONTROL 邏輯群組]容器可讓您不依順序在容器內巢狀內嵌點擊，不依順序擷取事件和維度。
+此容器階層的唯一例外是使用[邏輯群組容器](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。[!UICONTROL 邏輯群組]容器可讓您不依順序在容器內巢狀內嵌點擊，不依順序擷取事件和維度。
 
 ![](assets/logic_group_hierarchy.png)
 
@@ -253,7 +253,7 @@ Country = United States + Order = True
 
 依跨某個範圍的頁面上持續存在的維度 (例如「促銷活動」eVar 或「反向連結」維度) 進行篩選，將會影響在容器層級收集的資料；須先瞭解這點，才能獲得準確的報表。
 
-區段資料可能因維度或所套用的變數在所有所選頁面上的持續存在性而有所不同。有些維度 (例如「頁面」維度) 會在頁面層級提供唯一值，而且會根據「點擊」容器中的資料受到篩選。(請參閱[以容器資料為基礎的報表](../../components/c-segmentation/seg-overview.md#concept_BE822C12F87C4F07B7147D80BEFBAB87)範例)。其他維度 (例如「反向連結網域」維度) 則會在同次瀏覽的多個頁面上持續存在。有些維度或套用的變數 (例如「瀏覽期間」) 則會跨訪客的整個歷史記錄。
+區段資料可能因維度或所套用的變數在所有所選頁面上的持續存在性而有所不同。有些維度 (例如「頁面」維度) 會在頁面層級提供唯一值，而且會根據「點擊」容器中的資料受到篩選。(請參閱[以容器資料為基礎的報表](/help/components/c-segmentation/seg-overview.md)範例)。其他維度 (例如「反向連結網域」維度) 則會在同次瀏覽的多個頁面上持續存在。有些維度或套用的變數 (例如「瀏覽期間」) 則會跨訪客的整個歷史記錄。
 
 ![](assets/RefDomain_aol.png)
 
