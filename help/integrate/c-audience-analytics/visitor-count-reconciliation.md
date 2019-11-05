@@ -5,7 +5,7 @@ seo-title: 訪客計數差異
 title: 訪客計數差異
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,11 +25,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: 總區段人口數</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: 總區段人口數</a> </p> </td> 
    <td colname="col3"> <p>回顧期間，屬於區段成員的裝置計數 (Experience Cloud ID)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html" format="html" scope="external"> AAM: 即時區段人口數</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/aam/segment-builder-data.html"  > AAM: 即時區段人口數</a> </p> </td> 
    <td colname="col3"> <p>回顧期間，屬於區段成員且達到所設屬性的裝置計數 (Experience Cloud ID)。 </p> </td> 
   </tr> 
   <tr> 
@@ -72,4 +72,4 @@ Audience Analytics 報表中的 AAM「即時區段人口數」和 Analytics 的�
  </tbody> 
 </table>
 
-See [Understanding Segments in Analytics and Audience Manager](../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
+See [Understanding Segments in Analytics and Audience Manager](/help/integrate/c-audience-analytics/aam-analytics-segments.md) for additional explanation on the nuances between Analytics and Audience Manager data and segmentation.
