@@ -7,7 +7,7 @@ title: 網站區域
 topic: 報表
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **所有標準電子商務量度**: 收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等
    * **所有自訂事件**: 事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100。
 
-[!UICONTROL 網站區域報告]中的所有轉換事件都會使用最後一個配置。您會看到轉換劃分到實作中不含成功事件的各個頁面。這不同於使用線性配置的[頁面報告](../../../components/c-variables/dimensionslist/reports-pages.md#concept_0219136EA25745B58434D0C7E751D7D5)。
+[!UICONTROL 網站區域報告]中的所有轉換事件都會使用最後一個配置。您會看到轉換劃分到實作中不含成功事件的各個頁面。這不同於使用線性配置的[頁面報告](/help/components/c-variables/dimensionslist/reports-pages.md)。
 
 **產品特定資訊**
 
