@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 手動實作 Adobe Analytics (舊版)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,14 +16,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 使用 [!UICONTROL Dynamic Tag Management] 建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
 
-如需自動實作管理的更多資訊，請參閱[新增 Adobe Analytics 工具](../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8).
+如需自動實作管理的更多資訊，請參閱[新增 Adobe Analytics 工具](/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md).
 
 如果您想要將手動配置變更為自動，請編輯工具並按一下&#x200B;**[!UICONTROL 啟用自動配置]**。
 
 1. 下載 Analytics 測量代碼:
    1. 在 Analytics 中，按一下&#x200B;**[!UICONTROL 管理員]** &gt; **[!UICONTROL 代碼管理器]**。
    1. 按一下 **[!UICONTROL JavaScript (新)]** 將程式碼下載到本機。
-1. 在 [!UICONTROL Dynamic Tag Management] 中，[建立 Web 屬性](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)。
+1. 在 [!UICONTROL Dynamic Tag Management] 中，[建立 Web 屬性](/help/implement/c-implement-with-dtm/t-create-web-property.md)。
 
    ![](assets/dtm-property.png)
 
@@ -53,11 +53,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    至少按一下 **[!UICONTROL Cookie]，然後設定您的追蹤伺服器和 SSL 追蹤伺服器。**
 
-1. 按一下&#x200B;**[!UICONTROL 一般]**&#x200B;和[插入核心 AppMeasurement 程式碼](../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658)。
-1. 定義[頁面載入規則](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)以收集 [!DNL Analytics] 資料。
+1. 按一下&#x200B;**[!UICONTROL 一般]**&#x200B;和[插入核心 AppMeasurement 程式碼](/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md)。
+1. 定義[頁面載入規則](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)以收集 [!DNL Analytics] 資料。
 
    您現在可以開始定義規則以收集分析資料。您可能需要先定義幾個資料元素。有了資料元素，您便可擷取頁面中的資料，以便用來設定規則。若要開始，您可以定義一個不含任何條件的頁面載入規則，以便收集每個頁面上的 [!DNL Analytics] 資料。
-1. [在「內嵌」索引標籤上新增頁首與頁尾代碼](../../implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md#task_43C8DD699A514638B0620775C06423E5)。
+1. [在「內嵌」索引標籤上新增頁首與頁尾代碼](/help/implement/c-implement-with-dtm/c-headers-footers/t-header-footer-code.md)。
 
    在測試環境中，您可以保留預設的 Amazon 代管選項。在首度發行到生產環境之前，您可以視需要變更此選項。
 1. (選用) 按一下選項標籤上的&#x200B;**[!UICONTROL 設定]** ![](assets/settings_gear.png)，然後設定 Adobe Analytics 程式碼。
