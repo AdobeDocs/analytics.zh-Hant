@@ -5,7 +5,7 @@ seo-title: 報表功能表
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -61,7 +61,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">區段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取「<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html" format="http" scope="external">區段產生器</a>」和「<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html" format="http" scope="external">區段管理員</a>」介面。 </td> 
+   <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取「<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build_ui.html"  >區段產生器</a>」和「<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_manage.html"  >區段管理員</a>」介面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -77,7 +77,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">我的最愛</span> </td> 
-   <td colname="col2">您可以從本區域輕鬆擷取標示為「<span class="uicontrol">已收藏</span>」的報表。如果您有 10 個以上的我的最愛，以個別使用者和個別報表套裝為基礎，此處會顯示 10 個我的最愛和一個「<span class="uicontrol">更多...</span>」連結。 <p>請注意，您可以重新命名我的最愛中的報表，但不能重新命名控制面板。 </p> <p>我的最愛類似於書籤，但我的最愛不會儲存在資料夾，也不能透過<a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local">書籤管理器</a>以類似書籤的方式來管理。 </p> </td> 
+   <td colname="col2">您可以從本區域輕鬆擷取標示為「<span class="uicontrol">已收藏</span>」的報表。如果您有 10 個以上的我的最愛，以個別使用者和個別報表套裝為基礎，此處會顯示 10 個我的最愛和一個「<span class="uicontrol">更多...</span>」連結。 <p>請注意，您可以重新命名我的最愛中的報表，但不能重新命名控制面板。 </p> <p>我的最愛類似於書籤，但我的最愛不會儲存在資料夾，也不能透過<a href="/help/analyze/reports-analytics/bookmarks.md"  >書籤管理器</a>以類似書籤的方式來管理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 經常檢視</span> </td> 
@@ -97,11 +97,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 書籤...</span> </td> 
-   <td colname="col2">可讓您 <a href="../../../analyze/reports-analytics/bookmarks.md#concept_55B5E0DF20B14AAF8819CB8244464406" format="dita" scope="local"> 為報表</a> 建立書籤。 </td> 
+   <td colname="col2">可讓您 <a href="/help/analyze/reports-analytics/bookmarks.md"  > 為報表</a> 建立書籤。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 控制面板</span>... </td> 
-   <td colname="col2">Lets you add the report to a <a href="../../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0" format="dita" scope="local"> dashboard</a>. </td> 
+   <td colname="col2">Lets you add the report to a <a href="/help/analyze/reports-analytics/dashboard.md"  > dashboard</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol"> 更多...</span> </td> 
@@ -109,11 +109,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1">報表套裝選擇器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">讓您選取<a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html" format="https" scope="external">基本報表套裝</a>或<a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html" format="https" scope="external">虛擬報表套裝</a>。 </td> 
+   <td colname="col2">讓您選取<a href="https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html"  >基本報表套裝</a>或<a href="https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html"  >虛擬報表套裝</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日曆 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
-   <td colname="col2">帶出<a href="../../../analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1" format="dita" scope="local">日曆</a>，讓您決定報告時段。 </td> 
+   <td colname="col2">帶出<a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  >日曆</a>，讓您決定報告時段。 </td> 
   </tr> 
  </tbody> 
 </table>
