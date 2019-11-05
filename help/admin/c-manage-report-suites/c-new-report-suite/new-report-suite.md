@@ -7,7 +7,7 @@ title: 新的報表套裝 - 設定
 topic: 管理工具
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -50,7 +50,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>上線日期 </p> </td> 
-   <td colname="col2">通知 Adobe 您要讓此報表套裝開始生效的日期。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md" format="dita" scope="local"> Traffic Management</a>. </td> 
+   <td colname="col2">通知 Adobe 您要讓此報表套裝開始生效的日期。If your deployment schedule changes, provide an updated traffic estimate using the <span class="wintitle"> Permanent Expected Traffic</span> tool in <a href="/help/admin/c-traffic-management/traffic-management.md"> Traffic Management</a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 預計的每日頁面檢視次數</span> </td> 
