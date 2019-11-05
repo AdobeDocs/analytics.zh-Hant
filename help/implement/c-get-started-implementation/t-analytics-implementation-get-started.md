@@ -9,7 +9,7 @@ title: 簡化實施模組
 topic: Reports and Analytics
 uuid: 6fad2c1f-476c-4985-90df-7c222e751ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,11 +67,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
       </tr> 
       <tr> 
        <td colname="col1"> <p>資料層 </p> </td> 
-       <td colname="col2"> <p>(建議) 用以儲存資訊的 JavaScript 陣列。如果使用「動態標籤管理」執行自動設定，便會使用資料層。 </p> <p>如需資料層相關部落格，請參閱<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/" format="http" scope="external">資料層: 術語與最佳實務</a>。 </p> </td> 
+       <td colname="col2"> <p>(建議) 用以儲存資訊的 JavaScript 陣列。如果使用「動態標籤管理」執行自動設定，便會使用資料層。 </p> <p>如需資料層相關部落格，請參閱<a href="https://blogs.adobe.com/digitalmarketing/analytics/data-layers-buzzword-best-practice/">資料層: 術語與最佳實務</a>。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>資料存放庫 (報表套裝) </p> </td> 
-       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html" format="html" scope="external">報表套裝</a>為個別資料組，通常會對應至單一屬性 (網站或應用程式) 或品牌。每個報表套裝均有其專屬報表與量度組。 </p> </td> 
+       <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/getting-started/report-suites.html">報表套裝</a>為個別資料組，通常會對應至單一屬性 (網站或應用程式) 或品牌。每個報表套裝均有其專屬報表與量度組。 </p> </td> 
       </tr> 
       <tr> 
        <td colname="col1"> <p>時區 </p> </td> 
@@ -108,7 +108,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
       </tr> 
       <tr> 
        <td colname="col1"> <p>下載 </p> </td> 
-       <td colname="col2"> <p> 下載名為 <span class="filepath">INSTALL-ME &lt;報表套裝名稱&gt;.js</span> 的安裝檔案。此選項適用於熟悉 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html" format="html" scope="external">JavaScript 實作</a>、經驗豐富的使用者。 </p> <p> <p>重要: 下載程式碼不會部署 <span class="keyword">Analytics</span>。這需要手動部署，您必須在網站頁面上執行，或請利用 Adobe 諮詢服務。 </p> </p> </td> 
+       <td colname="col2"> <p> 下載名為 <span class="filepath">INSTALL-ME &lt;報表套裝名稱&gt;.js</span> 的安裝檔案。此選項適用於熟悉 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html">JavaScript 實作</a>、經驗豐富的使用者。 </p> <p> <p>重要: 下載程式碼不會部署 <span class="keyword">Analytics</span>。這需要手動部署，您必須在網站頁面上執行，或請利用 Adobe 諮詢服務。 </p> </p> </td> 
       </tr> 
      </tbody> 
     </table>
