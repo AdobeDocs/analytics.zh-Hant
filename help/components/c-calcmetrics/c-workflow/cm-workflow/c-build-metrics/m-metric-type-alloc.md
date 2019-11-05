@@ -5,7 +5,7 @@ seo-title: 量度類型和歸因
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 選取量度旁的齒輪圖示，即可指定量度類型和歸因模型。
 
-* [量度類型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [欄歸因模型](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
+* [量度類型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
+* [欄歸因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
+* [「線性配置」自 2018 年 7 月 19 日起的新運作方式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 量度類型 {#section_34A86FB402F94E988724232283BF18B7}
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 >
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 文件。
 >* 「行銷渠道上次接觸」和「行銷渠道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」歸因模型(注意：「行銷渠道」不會過時——只有出現在計算量度中的兩個配置模型會過時)。
->* 此外，我們將修正「線性配置」的計算方式。對於使用具有「線性」配置模型之計算量度的客戶，報表可能會稍有變更，以反映新的修正歸因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
+>* 此外，我們將修正「線性配置」的計算方式。對於使用具有「線性」配置模型之計算量度的客戶，報表可能會稍有變更，以反映新的修正歸因模型。 This change to calculated metrics will be reflected in Analysis Workspace, [!UICONTROL Reports &amp; Analytics], the Reporting API, Report Builder, and Ad Hoc Analysis. 如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 >
 
 
