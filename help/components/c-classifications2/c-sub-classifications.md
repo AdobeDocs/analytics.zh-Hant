@@ -8,7 +8,7 @@ title: 關於子分類
 topic: 管理工具
 uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -42,7 +42,7 @@ c_single-level_classifications.xml
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-如需資料檔案的詳細資訊，請參閱 [Classification Data Files](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735).
+如需資料檔案的詳細資訊，請參閱 [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
 
 <!-- 
 
@@ -54,7 +54,7 @@ c_multiple-level_classifications.xml
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**父分類:**&#x200B;父分類是指任何具有相關聯子分類的分類。任何分類都可以是父分類和子分類。與最上層父分類對應的是單級分類 (請參閱 [單級分類](../../components/c-classifications2/c-sub-classifications.md#concept_6B909B54221F4A9BAEA8E30594F06C49)).
+**父分類:**&#x200B;父分類是指任何具有相關聯子分類的分類。任何分類都可以是父分類和子分類。與最上層父分類對應的是單級分類 (請參閱 [單級分類](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **子分類:**&#x200B;子分類是指任何具有其他作為父分類 (而非變數) 的分類。子分類能提供其他有關父分類的資訊。例如，[!UICONTROL 促銷活動]分類可能會有一個促銷活動擁有人子分類。[!UICONTROL 數值]分類還可以作為分類報告中的量度。
 
@@ -62,7 +62,7 @@ c_multiple-level_classifications.xml
 
 `<parent_name>^<child_name>`
 
-如需資料檔案格式的詳細資訊，請參閱分 [類資料檔案](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_EBA7669C546040BE8162ADACA3548735)。
+如需資料檔案格式的詳細資訊，請參閱分 [類資料檔案](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 例如:
 
