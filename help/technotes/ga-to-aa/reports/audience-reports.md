@@ -1,187 +1,187 @@
 ---
-title: Adobe Analytics中的對象報表
-description: 瞭解如何使用分析工作區建立讀者型報表。
+title: Adobe Analytics中的觀眾報表
+description: 瞭解如何使用分析工作區建立受眾型報表。
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# 對象報表
+# 觀眾報告
 
-「對象」報表顯示瀏覽您網站的訪客類型相關資訊。
+讀者報表顯示有關瀏覽您網站的訪客類型的資訊。
 
-此頁面假設使用者具備使用分析工作區的基本知識。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+本頁假設使用者具備使用分析工作區的基本知識。 如 [果您尚不熟悉Adobe Analytics中的工具](create-report.md) ，請參閱「Google Analytics使用者分析工作區」中的建立基本報表。
 
-## 作用中的使用者
+## 作用中使用者
 
-「活動中的使用者」會顯示您的網站在前1、7、14或28天內的累積使用者數量。雖然Adobe沒有Google Analytics中使用的精確計算，但您可以使用量度獨特訪客，根據選取的日期範圍，查看使用者對您網站的重復計算計數。
+作用中使用者會顯示您網站在1、7、14或28天內的累計使用者人數。 雖然Adobe在Google Analytics中沒有使用的確切計算，但您可以使用「獨特訪客」量度，根據選取的日期範圍，查看您網站的重複資料去除計數。
 
 若要取得獨特訪客的折線圖：
 
-1. 按一下左側的「視覺效果」圖示，並將「線條視覺效果」拖曳至空白自由表格上方的工作區上。
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the smaller space labeled 'Drop a Metric here'.
-3. If different granularity is desired, drag the desired date range (e.g. **Day**, **Week**, **Month**, etc.) 位於現有的日期維度標題之上。
+1. 按一下左側的「視覺化」圖示，然後將「線條」視覺化拖曳至空白自由表格上方的工作區。
+2. 按一下左側的「元件」圖示，然後將「獨特訪客」 **** 量度拖曳至標示為「拖曳量度至此處」的較小空間。
+3. 如果需要不同的詳細程度，請拖曳所要的日期範圍( **例如** Day、 **Week**、 **Month**&#x200B;等)在現有日期維度標題上。
 
-See [Unique Visitors](../../../components/c-variables/c-metrics/metrics-unique-visitors.md) in the Components user guide for details on how Adobe calculates unique visitors.
+如需 [](/help/components/c-variables/c-metrics/metrics-unique-visitors.md) Adobe如何計算獨特訪客的詳細資訊，請參閱元件使用指南中的獨特訪客。
 
 ## 期限值
 
-期限值是需要在兩個平台上額外實施的功能。Adobe建議您與實施顧問合作取得此資料。
+期限值是一項功能，需要在這兩種平台上進行額外的專業實作。 Adobe建議與實施顧問合作以取得此資料。
 
 ## 同類群組分析
 
-世代分析顯示相同使用者回訪網站的頻率。
+世代分析顯示相同使用者回訪您網站的頻率。
 
-若要建立同類群組表格：
+要建立同類組表：
 
-1. 按一下左側的「視覺效果」圖示，然後拖曳同類群組表格視覺化至工作區。
-2. Click the Components icon on the left, then drag the **Visits** metric onto both the Inclusion Criteria and Return Criteria.
+1. 按一下左側的「視覺化」圖示，然後將「同類群組表格」視覺化拖曳至工作區。
+2. 按一下左側的「元件」圖示，然後將「瀏 **覽** 」量度拖曳至「包含條件」和「回訪條件」上。
 3. 按一下「建立」。
 
-See [Cohort Analysis](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) in the Analysis Workspace user guide for details on additional customizations to the cohort visualization.
+如需 [](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 世代視覺化的其他自訂詳細資訊，請參閱分析工作區使用指南中的同類群組分析。
 
 ## 對象
 
-Google Analytics中的「對象」報表需要設定對象。觀眾也需要Adobe Audience Manager中的設定。如需詳細資訊，請參閱Adobe Audience Manager使用指南。
+Google Analytics中的「對象」報表需要設定對象。 觀眾也需要透過Adobe Audience manager在Adobe中進行設定。 如需詳細資訊，請參閱Adobe Audience manager使用指南。
 
-## User Explorer
+## 使用者檔案總管
 
-「使用者總管」報表可讓分析者透過匿名識別碼檢視個別瀏覽。Adobe不會將資料饋送以外的後端識別碼浮出水面，這是點擊層級資料的來源。
+「使用者總管」報表可讓分析人員透過匿名識別碼檢視個別瀏覽。 Adobe不會在資料饋送之外顯示後端識別碼，這些資料饋送是點擊層級的資料原始匯出。
 
-* 如果在Analysis工作區中需要此資料，可以與實施顧問合作，將匿名唯一識別碼Cookie值傳遞至eVar。請注意，這僅適用於較小的實施，包括每個月不超過1000000個獨特訪客的實施。
-* If this data is desired within data feeds, the concatenated columns `visid_high` and `visid_low` are the most common way to identify unique visitors. Learn more about [Data Feeds](../../../export/analytics-data-feed/c-getstarted/data-feed-overview.md) in the Export user guide.
+* 如果分析工作區需要此資料，則可與實施顧問合作，將匿名唯一識別碼Cookie值傳入eVar。 請注意，這僅適用於每月獨特訪客少於100萬的較小實作。
+* 如果資料饋送中需要此資料，串連的欄 `visid_high` 和 `visid_low` 是識別獨特訪客的最常見方式。 進一步瞭解「匯 [出」使用指南中](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 的「資料饋送」。
 
-## 人口統計與興趣報告
+## 人口統計與興趣報表
 
-人口統計和興趣資料提供有關網站使用者年齡、性別和興趣的資訊。該資料由Google透過其跨網站追蹤能力收集。
+人口統計資料和興趣資料提供網站使用者的年齡、性別和興趣相關資訊。 谷歌會透過其跨網站追蹤功能收集這些資料。
 
-人口統計和興趣資料不會自動由Adobe收集。不過，如果您的組織取得此資料，您可以使用Adobe Experience Cloud Platform中的「客戶屬性」。它可完全控制由屬性組織資料，不僅限於人口統計或興趣。
+Adobe不會自動收集人口統計和興趣資料。 但是，如果貴組織取得此資料，您可以使用Adobe Experience Cloud Platform中的「客戶屬性」。 它可讓您完全掌控依屬性組織資料，而且不僅限於人口統計或興趣。
 
 如需詳細資訊，請參閱客戶屬性說明。
 
-## 地理-語言
+## 地理——語言
 
-地理語言報表會依據訪客瀏覽器中的語言設定顯示網站流量。
+地理語言報表會依訪客瀏覽器中的語言設定顯示網站流量。
 
-若要建立語言報表：
+要建立語言報告：
 
-1. In the Components menu, locate the **Language** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在「元件」功能表中，找出 **「語言** 」維度，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See the [Language](../../../components/c-variables/dimensionslist/reports-languages.md) dimension in the Components user guide for more information.
+如需詳細 [資訊，請參閱](/help/components/c-variables/dimensionslist/reports-languages.md) 「元件」使用指南中的「語言」維度。
 
-## 地理-位置
+## 地理位置
 
-地理位置報告提供全球地圖檢視，依國家區分資料。
+地理位置報表提供全球地圖檢視，依國家區分資料。
 
-若要建立地理位置報表：
+要建立地理位置報表，請執行以下操作：
 
-1. 按一下左側的「視覺效果」圖示，將地圖視覺化拖曳至空白自由表格上方的工作區上。
-2. Click the Components icon on the left, then drag the **Unique Visitors** metric into the space labeled 'Add Metric'.
+1. 按一下左側的「視覺化」圖示，然後將「對應」視覺化拖曳至空白自由表格上方的工作區。
+2. 按一下左側的「元件」圖示，然後將「獨特訪 **客** 」量度拖曳至標示為「新增量度」的空間。
 3. 按一下「建立」。
 
-如果表格另外也需要表格：
+如果除了地圖外還需要表格：
 
-1. In the Components menu, locate the **Countries** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在「元件」功能表中，找出「國 **家」維度** ，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See [Geosegmentation](../../../components/c-variables/dimensionslist/reports-geosegmentation.md) dimensions in the Components user guide for more information.
+如需詳 [細資訊](/help/components/c-variables/dimensionslist/reports-geosegmentation.md) ，請參閱元件使用指南中的地域劃分維度。
 
-## 行為-新功能與舊版
+## 行為——新增與回訪
 
-新的與回訪報表可簡化第一個作業(新瀏覽)與後續作業(回訪)的檢視。
+新的與回訪報表可簡化第一個工作階段（新造訪）與後續工作階段（回訪）的檢視。
 
-若要建立新的回訪報表：
+若要建立新的瀏覽與回訪報表：
 
-1. In the components menu, locate the **First Time Visits** segment and drag it onto the large freeform table area labeled 'Drop a Dimension here'. Note that **First Time Visits** is a segment, while Workspace typically uses dimensions to represent rows.
-2. Locate the **Return Visits** segment and drag it on top of the Segments row header. 這會將區段新增為「首次瀏覽」下方的維度，以便進行簡單比較。
-3. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件功能表中，找出「 **首次瀏覽」區段** ，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。 請注意， **「首次瀏覽** 」是區段，而「工作區」通常使用維度來表示行。
+2. 找到「 **回訪** 」區段，並將其拖曳至「區段」列標題上方。 這會將區段新增為「首次瀏覽」下方的維度，以方便比較。
+3. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-如果也需要折線圖：
+如果還需要折線圖：
 
-1. 按一下左側的視覺效果圖示，並拖曳「Line」視覺化至自由表格上方的工作區上。
-2. 在自由表格中每一列上，使用ctrl+ click(Windows)或cmd+ click(Mac)來強調它們。這可讓這兩種趨勢出現在線條視覺效果中。
-3. 按一下線條視覺效果左上角的小圓角圓點，然後按一下核取方塊「鎖定選取範圍」。
+1. 按一下左側的視覺化圖示，然後將線條視覺化拖曳至自由表格上方的工作區
+2. 在自由表格的每一列上，使用ctrl+click(Windows)或cmd+click(Mac)來反白顯示。 這可讓這兩個趨勢出現線上條視覺化中。
+3. 按一下線條視覺化左上角的小圓角色點，然後按一下核取方塊「鎖定選取範圍」。
 
-## 行為-頻率與最近一次
+## 行為——頻率與時近
 
-The frequency &amp; recency report is approximately equal to the **Visit Number** dimension in Analysis Workspace.
+頻率與時近報表大約等於分析工作 **區中的** 「瀏覽次數」維度。
 
-1. In the components menu, locate the **Visit Number** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件功能表中，找出「 **瀏覽次數** 」維度，並拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See the [Visit Number](../../../components/c-variables/dimensionslist/reports-visitor-number.md) dimension in the Components user guide for more information.
+如需詳細 [資訊，請參閱](/help/components/c-variables/dimensionslist/reports-visitor-number.md) 「元件」使用指南中的「瀏覽次數」維度。
 
-## 行為-參與
+## 行為——參與
 
-The engagement report is approximately equal to the **Time Spent per Visit - Bucketed** dimension.
+參與報表大約等於「每次瀏 **覽逗留時間——分組** 」維度。
 
-1. In the components menu, locate the **Time Spent per Visit - Bucketed** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件功能表中，找出「每次瀏 **** 覽逗留時間——分組化」維度，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See the [Time Spent per Visit](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md) dimension in the Components user guide for more information.
+如需詳細 [資訊，請參閱元件使用指南中](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md) 「每次瀏覽逗留時間」維度。
 
-## 技術-瀏覽器與作業系統
+## 技術——瀏覽器與作業系統
 
-「瀏覽器與作業系統」報表有多個主要維度可用。
+「瀏覽器與作業系統」報表中有多個主要維度。
 
-* **「瀏覽器** 」主要維度也可用於分析工作區中。
-* **「作業系統** 」主要維度也可用於分析工作區中。
-* **「螢幕解析度** 」主要維度可在「分析工作區」中做為 **「監視器解析度** 」維度使用。
-* **「螢幕色彩** 」主要維度可在「分析工作區」中做為 **「色彩深度** 」維度使用。
-* **Adobe Analytics無法使用Flash版本** 主要維度，但是有需要時，可由eVar收集此資料。
+* 「分 **析工作區** 」中也提供「瀏覽器」主要維度作為維度。
+* 「分 **析工作區** 」中也提供「作業系統」主要維度。
+* 「分 **析工作區** 」中的「螢幕解析度」主要維度是「螢幕解析度」 **維度** 。
+* 「分 **析工作區** 」(Analysis Workspace)中的「螢幕顏色」(Screen Colors **)主要維是「顏** 色深度」(Color Depth)維。
+* Adobe Analytics中 **不提供Flash Version** primary維度，但eVar可視需要收集這些資料。
 
-1. 在元件選單中，找出上述所要的維度，並將它拖曳至標示為「拖曳到此處」的大型自由表格區域。
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件功能表中，找出上述所要的維度，並將其拖曳至標示為「拖曳維度到此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-如需詳細資訊，請參閱元件使用指南中的下列頁面：
+如需各自維度的詳細資訊，請參閱元件使用指南中的下列頁面：
 
-* [瀏覽器](../../../components/c-variables/dimensionslist/reports-browsers.md)
-* [作業系統 ](../../../components/c-variables/dimensionslist/reports-operating-system.md)
-* [監視器解析度](../../../components/c-variables/dimensionslist/reports-technology.md)
-* [色彩深度](../../../components/c-variables/dimensionslist/reports-color-depth.md)
+* [瀏覽器](/help/components/c-variables/dimensionslist/reports-browsers.md)
+* [作業系統 ](/help/components/c-variables/dimensionslist/reports-operating-system.md)
+* [監視器解析度](/help/components/c-variables/dimensionslist/reports-technology.md)
+* [色彩深度](/help/components/c-variables/dimensionslist/reports-color-depth.md)
 
-## 技術-網路
+## 技術——網路
 
-The network report is approximately equal to the **Domain** dimension.
+網路報表大致等於網 **域維** 。
 
-1. In the components menu, locate the **Domain** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件功能表中，找出 **網域維度** ，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See the [Domain](../../../components/c-variables/dimensionslist/reports-domains.md) dimension in the Components user guide for more information.
+如需詳細 [資訊，請參閱](/help/components/c-variables/dimensionslist/reports-domains.md) 「元件使用指南」中的「網域」維度。
 
-## 行動-概觀
+## 行動——概觀
 
-The mobile overview report is approximately equal to the **Mobile Device Type** dimension. 請注意，「其他」值等同於桌面流量。
+行動概述報表大致等於「行 **動裝置類型** 」維度。 請注意，「其他」值等同於案頭流量。
 
-1. In the components menu, locate the **Mobile Device Type** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件選單中，找出「 **行動裝置類型」維度** ，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See the [Mobile Device Type](../../../components/c-variables/dimensionslist/reports-device-types.md) dimension in the Components user guide for more information.
+如需詳細 [資訊，請參閱元件使用指南中的](/help/components/c-variables/dimensionslist/reports-device-types.md) 「行動裝置類型」維度。
 
-## 行動-裝置
+## 行動——裝置
 
-The mobile devices report is approximately equal to the **Mobile Device** dimension.
+行動裝置報表大致等於「行 **動裝置** 」維度。
 
-1. In the components menu, locate the **Mobile Device** dimension and drag it onto the large freeform table area labeled 'Drop a dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在元件選單中，找出 **行動裝置維度** ，並拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-See the [Mobile Device](../../../components/c-variables/dimensionslist/reports-devices.md) dimension in the Components user guide for more information.
+如需詳細 [資訊，請參閱「元件](/help/components/c-variables/dimensionslist/reports-devices.md) 」使用指南中的「行動裝置」維度。
 
 ## 自訂
 
-自訂報表是依實施定義。與組織的Analytics管理員及/或實施顧問合作，以解譯這些報告。Typically an organization maintains a [Solution Design Document](../../../implement/prepare/solution-design.md) to keep track of custom variable values and how they are populated.
+自訂報表是依實作而定義。 與您組織的Analytics管理員和／或實作顧問合作，以解譯這些報表。 通常，組織會維護 [Solution Design Document](/help/implement/prepare/solution-design.md) ，以追蹤自訂變數值及其填入方式。
 
-## 基準基準
+## 基準
 
-基準報表可讓您查看資料的Facet與行業平均值的比較。Adobe目前並未與客戶分享基準資料。
+基準報告可讓您查看資料的各個方面與業界平均值的比較。 Adobe目前不會在客戶之間分享基準資料。
 
 ## 使用者流量
 
-流量報告可在兩個平台上使用。若要建立流量報表：
+流量報表適用於兩種平台。 若要建立流量報表：
 
-1. 按一下左側的視覺效果圖示，並拖曳流量視覺化至自由表格上方的工作區上
-2. Locate the **Pages** dimension, then click the Arrow icon to reveal page values. 維度值是黃色的。
-3. 找出所要的頁面值，並將其拖曳至中心中標示為「維度或項目」的空格
-4. 此流量報告為互動式報表。按一下任何值，將流量展開至後續或先前頁面。使用右鍵功能表展開或收合欄。也可以在相同的流量報表中使用不同維度。
+1. 按一下左側的視覺化圖示，然後將「流量」視覺化拖曳至自由表格上方的工作區
+2. 找到「 **頁面** 」維度，然後按一下「箭頭」圖示以顯示頁面值。 尺寸值為黃色。
+3. 找出所要的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
+4. 此流量報表是互動式的。 按一下任何值，將流量展開至後續或上一頁。 使用右鍵功能表來展開或收合欄。 同一流量報表中也可使用不同的維度。
