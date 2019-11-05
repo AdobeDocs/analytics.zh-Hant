@@ -8,7 +8,7 @@ title: 關於分類
 topic: 管理工具
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -43,7 +43,7 @@ Reports &amp; Analytics 包含追蹤程式碼變數預先定義分類，提供�
 
 請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://marketing.adobe.com/resources/help/en_US/reference/conversion_classifications.html)」。
 
-下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱「 上傳 [資料檔案之前](../../components/c-classifications2/c-classifications-importer/c-saint-data-files.md#concept_9EFF968DF5D244A887DE94075431C1BE) ，先使用一般檔案結構。
+下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱「 上傳 [資料檔案之前](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) ，先使用一般檔案結構。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
