@@ -7,7 +7,7 @@ solution: Experience Cloud,Dynamic Tag Management
 title: 程式庫管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -46,7 +46,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>位於 DTM</b>: 您可以在動態標籤管理內託管 <span class="filepath">s_code</span>。按一下<span class="uicontrol">「編輯代碼」</span>，將檔案剪下並直接貼到編輯器中。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>: 如果您擁有正確的 <span class="filepath">s_code</span> 檔案，而且不會覺得更新該檔案很麻煩，可以在此處提供該檔案的 URL。然後，動態標籤管理便會其實施的 <span class="filepath">Adobe Analytics</span> 中取用該 <span class="keyword">s_code</span> 檔案。 </li> 
-    </ul> <p> <b>開啟編輯器: </b>可讓您<a href="../../../implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md#task_068D72664B2743359A64ADB8692D3658" format="dita" scope="local">插入核心 AppMeasurement 程式碼</a>。使用如 <a href="../../../implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md#concept_FBA6679A0B79490F8296437F11E5E4F8" format="dita" scope="local">Adobe Analytics 設定</a>所述的自動配置方法時，會自動填入此程式碼。 </p> <p> <b>追蹤器變數名稱:</b> 如果您要平行執行兩個 <span class="keyword"> Adobe Analytics</span> 例項 (一個在 Dynamic Tag Management 中，一個在原生程式中)，您可以重新命名主要的 <span class="term">s</span> 物件。重新命名物件名稱可避免衝突。 </p> </td> 
+    </ul> <p> <b>開啟編輯器: </b>可讓您<a href="/help/implement/c-implement-with-dtm/c-aa-tool/t-appmeasurement-code.md"  >插入核心 AppMeasurement 程式碼</a>。使用如 <a href="/help/implement/c-implement-with-dtm/c-aa-tool/analytics-dtm.md"  >Adobe Analytics 設定</a>所述的自動配置方法時，會自動填入此程式碼。 </p> <p> <b>追蹤器變數名稱:</b> 如果您要平行執行兩個 <span class="keyword"> Adobe Analytics</span> 例項 (一個在 Dynamic Tag Management 中，一個在原生程式中)，您可以重新命名主要的 <span class="term">s</span> 物件。重新命名物件名稱可避免衝突。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
