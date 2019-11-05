@@ -4,9 +4,9 @@ seo-description: 您必須符合這些 Experience Cloud 解決方案、服務及
 seo-title: 伺服器端轉送需求
 solution: Audience Manager
 title: 伺服器端轉送需求
-uuid: e52c9292-b2 ed-4782-9594-c813 e4 f894 e1
+uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
 
 ## 服務需求
 
-Server-side forwarding requires the [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/). Identity Service提供通用ID，可識別Experience Cloud所有解決方案中網站訪客的身分。您必須實作 ID 服務，伺服器端轉送才會運作。
+伺服器端轉送需要 [Identity Service](https://marketing.adobe.com/resources/help/en_US/mcvid/)。 Identity service提供通用ID，可識別Experience cloud所有解決方案的網站訪客。 您必須實作 ID 服務，伺服器端轉送才會運作。
 
 ## 程式碼版本
 
@@ -35,5 +35,5 @@ Server-side forwarding requires the [Identity Service](https://marketing.adobe.c
 
 任何可監控瀏覽器發出之 HTTP 請求的工具，均可顯示 AppMeasurement 和訪客 API 程式碼的版本號碼。The `AppMeasurement_Module_AudienceManagement.js` does not contain or return a version ID. 下列範例說明版本 ID 在 `AppMeasurement.js` 和 `VisitorAPI.js` 程式碼中的表示方式。
 
-* `AppMeasurement.js`： [Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 會傳回AppMeasurement版本，如下所示： `Version of Code | JS-1.5.1`。其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
-* `VisitorAPI.js`：尋找 `d_visid_ver` 參數。It will show you the Visitor ID service like this: `d_visid_ver: 1.5.5`. 早於 1.5.2 版的訪客 API 程式碼不包含版本號碼。如果您的監控結果沒有傳回版本號碼，則您可能是使用舊版程式碼庫 (且必須升級)。
+* `AppMeasurement.js`:Adobe [Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html) 會傳回AppMeasurement版本，如下所示： `Version of Code | JS-1.5.1`。 其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
+* `VisitorAPI.js`:尋找參 `d_visid_ver` 數。 It will show you the Visitor ID service like this: `d_visid_ver: 1.5.5`. 早於 1.5.2 版的訪客 API 程式碼不包含版本號碼。如果您的監控結果沒有傳回版本號碼，則您可能是使用舊版程式碼庫 (且必須升級)。
