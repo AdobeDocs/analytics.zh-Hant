@@ -5,7 +5,7 @@ seo-title: Silverpop整合
 title: Silverpop整合
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -123,7 +123,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr valign="top"> 
    <td colname="col2"> <p>資料彙集 </p> </td> 
    <td colname="col03"> <p>(3)資料設定 </p> </td> 
-   <td colname="col3"> <p>如果 <b>您想要使用s_code.js外掛程式做為此整合的收集模型，請選取</b> JavaScript外掛程式(請參閱 <a href="../silverpop-overview/silverpop-analytics-code.md#concept-28e7c834a6804a949aa9306f8896b36e" format="dita" scope="local"></a>Analytics外掛程式程式碼)。 </p> <p>如果您 <b>想要針對此整合使用自動化收集模型</b> ，請選取「自動化解決方案」，然後指定用於此整合的唯一識別碼。 </p> <p>如果您選取此選項，請指定用於此整合的唯一識別碼： </p> <p> <b>訊息ID查詢字串參數：</b>此值代表您的電子郵件合作夥伴附加至著陸頁面URL的訊息ID。 </p> <p> <b></b> 收件者ID查詢字串參數：此值代表您的電子郵件合作夥伴附加至著陸頁面URL的收件者ID。 </p> </td> 
+   <td colname="col3"> <p>如果 <b>您想要使用s_code.js外掛程式做為此整合的收集模型，請選取</b> JavaScript外掛程式(請參閱 <a href="../silverpop-overview/silverpop-analytics-code.md"></a>Analytics外掛程式程式碼)。 </p> <p>如果您 <b>想要針對此整合使用自動化收集模型</b> ，請選取「自動化解決方案」，然後指定用於此整合的唯一識別碼。 </p> <p>如果您選取此選項，請指定用於此整合的唯一識別碼： </p> <p> <b>訊息ID查詢字串參數：</b>此值代表您的電子郵件合作夥伴附加至著陸頁面URL的訊息ID。 </p> <p> <b></b> 收件者ID查詢字串參數：此值代表您的電子郵件合作夥伴附加至著陸頁面URL的收件者ID。 </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td colname="col2"> <p>產生控制面板和書籤 </p> </td> 
