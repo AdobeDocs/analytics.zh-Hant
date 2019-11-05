@@ -6,7 +6,7 @@ solution: Analytics
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col5"> 用於提取大型資料匯出的完整處理、已完成的資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf" format="https" scope="external"> 延遲性</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > 延遲性</a> </p> </td> 
    <td colname="col2"> 30-90 分鐘 </td> 
    <td colname="col3"> * 秒 -10 分鐘 </td> 
    <td colname="col4"> 秒 -10 分鐘 </td> 
@@ -50,7 +50,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col5"> 全螢幕 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/" format="https" scope="external"> 報告介面</a> </td> 
+   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/"  > 報告介面</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、API 中的即時報告 </td> 
    <td colname="col4"> 僅 API </td> 
@@ -86,10 +86,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <b>文件</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B" format="https" scope="external"> 網站服務</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time" format="https" scope="external"> 即時報告</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B" format="https" scope="external"> Livestream 概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html" format="https" scope="external"> Data Warehouse</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 網站服務</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 即時報告</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream 概述</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
