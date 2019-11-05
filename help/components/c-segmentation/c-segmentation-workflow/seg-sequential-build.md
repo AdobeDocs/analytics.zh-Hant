@@ -7,7 +7,7 @@ title: 建立循序區段
 topic: 區段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/before-after-sequence.png)
 
-Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_07708877D06742998C6237DD9FD194EA).
+Additionally, you can constrain sequential segments to a specific duration of time, granularity, and counts between checkpoints using the [After and Within operators](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ## 包括所有使用者 {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -183,7 +183,7 @@ Additionally, you can constrain sequential segments to a specific duration of t
 * **排除反向連結網域**。使用僅包含來自 Google.com 之反向連結網域的規則，然後排除所有其他值。
 * **找出未購買者**。找出訂單大於零的情形，然後排除該[!UICONTROL 訪客]。
 
-可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點]也能包含在 [邏輯群組中](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+可採用[!UICONTROL 「排除」]運算子，以識別訪客未執行特定瀏覽或點擊的序列。[!UICONTROL 排除查核點]也能包含在 [邏輯群組中](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 ### 查核點之間的排除
 
@@ -324,7 +324,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **建立此區段**
 
-從左窗格拖曳維度、事件和預先建立的區段，以建立此區段。See [Building a Logic Group Segment](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_23CE0E6071E14E51B494CD21A9799112).
+從左窗格拖曳維度、事件和預先建立的區段，以建立此區段。See [Building a Logic Group Segment](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 
 在[!UICONTROL 邏輯群組]中巢狀內嵌值，按一下[!UICONTROL **邏輯群組]容器內的**[!UICONTROL 「排除」]按鈕。
 
@@ -425,7 +425,7 @@ Build segments using the [!UICONTROL Logic Group] where multiple page views are 
 
 **符合**
 
-在 2019 年 6 月 1 日點擊頁面 A，然後在 2019 年 6 月 15 日 00:01 之後及 2019 年 7 月 1 日&#x200B;*之前*&#x200B;返回的任何訪客，都會納入區段。與[時間介於排除](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_C5CB0A391B7C4AC8A95B9724A14E28E8)比較。
+在 2019 年 6 月 1 日點擊頁面 A，然後在 2019 年 6 月 15 日 00:01 之後及 2019 年 7 月 1 日&#x200B;*之前*&#x200B;返回的任何訪客，都會納入區段。與[時間介於排除](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)比較。
 
 [!UICONTROL After] 和 [!UICONTROL Within] 運算子可一起使用來定義循序區段。
 
