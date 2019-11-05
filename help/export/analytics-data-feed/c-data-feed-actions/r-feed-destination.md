@@ -7,7 +7,7 @@ solution: Analytics
 title: 摘要目的地
 uuid: 4a59e8de-e7a6-4f7a-bf42-db7d59e61b4c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -95,7 +95,7 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p>分段 </p> </td> 
-   <td colname="col2"> <p>輸入 Amazon S3 分段位置。 </p> <p>該值應符合適當的 S3 分段格式。(See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html" format="html" scope="external"> https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>附註: 如需 Amazon S3 設定的詳細資訊，請參閱下文中的 <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Amazon S3 資料摘要的 BucketOwnerFullControl 設定</a>。 </p> </p> </td> 
+   <td colname="col2"> <p>輸入 Amazon S3 分段位置。 </p> <p>該值應符合適當的 S3 分段格式。(See <a href="https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html"  > https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html</a>.) </p> <p> <p>附註: 如需 Amazon S3 設定的詳細資訊，請參閱下文中的 <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Amazon S3 資料摘要的 BucketOwnerFullControl 設定</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>容器 </p> </td> 
@@ -111,7 +111,7 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p>路徑 </p> </td> 
-   <td colname="col2"> <p>選取主機或分段的路徑。建立摘要前該路徑即必須存在。 </p> <p> <p>附註: 如需 Amazon S3 設定的詳細資訊，請參閱下文中的 <a href="../../../export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D" format="dita" scope="local">Amazon S3 資料摘要的 BucketOwnerFullControl 設定</a>。 </p> </p> </td> 
+   <td colname="col2"> <p>選取主機或分段的路徑。建立摘要前該路徑即必須存在。 </p> <p> <p>附註: 如需 Amazon S3 設定的詳細資訊，請參閱下文中的 <a href="/help/export/analytics-data-feed/feed-troubleshooting.md#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D"  >Amazon S3 資料摘要的 BucketOwnerFullControl 設定</a>。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶 </p> </td> 
@@ -119,11 +119,11 @@ Adobe Customer Care will provide you with a Public key. Verify in recording.
   </tr> 
   <tr> 
    <td colname="col1"> <p>公開金鑰 </p> </td> 
-   <td colname="col2"> <p>提供 SFTP 公開金鑰。 </p> <p>您必須下載公開金鑰以設定 SFTP 存放庫。 </p> <p> <p>附註: 建立摘要不需要下載公開金鑰。 </p> </p> <p>在建立先前的摘要時，您可以使用已下載的公開金鑰。 </p> <p>如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html" format="html" scope="external">https://marketing.adobe.com/resources/help/zh_TW/whitepapers/ftp/ftp_sftp_dw.html</a>。 </p> </td> 
+   <td colname="col2"> <p>提供 SFTP 公開金鑰。 </p> <p>您必須下載公開金鑰以設定 SFTP 存放庫。 </p> <p> <p>附註: 建立摘要不需要下載公開金鑰。 </p> </p> <p>在建立先前的摘要時，您可以使用已下載的公開金鑰。 </p> <p>如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/ftp_sftp_dw.html"  >https://marketing.adobe.com/resources/help/zh_TW/whitepapers/ftp/ftp_sftp_dw.html</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>金鑰 </p> <p>確認金鑰 </p> </td> 
-   <td colname="col2"> <p> 輸入儲存裝置存取金鑰。再次輸入以資確認。 </p> <p> <p>注意: 請參閱 <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys" format="https" scope="external">https://docs.microsoft.com/zh-tw/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> 瞭解如何存取存取金鑰。 </p> </p> </td> 
+   <td colname="col2"> <p> 輸入儲存裝置存取金鑰。再次輸入以資確認。 </p> <p> <p>注意: 請參閱 <a href="https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys"  >https://docs.microsoft.com/zh-tw/azure/storage/common/storage-create-storage-account#view-and-copy-storage-access-keys</a> 瞭解如何存取存取金鑰。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>機密金鑰 </p> <p>確認機密金鑰 </p> </td> 
