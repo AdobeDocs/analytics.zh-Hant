@@ -5,7 +5,7 @@ seo-title: 還原和重做設定
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 您可以還原/重做對於報表套裝的變更。
 * 專案名稱附近會顯示還原/重做訊息，其中會顯示進行中的還原或重做動作時間。
-* 您可以使用下列 [熱鍵](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051):
+* 您可以使用下列 [熱鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * Ctrl (Cmd) + Z 為還原
    * Ctrl (Cmd) + Shift + Z 為重做
