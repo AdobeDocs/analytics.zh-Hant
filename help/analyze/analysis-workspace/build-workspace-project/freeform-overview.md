@@ -8,7 +8,7 @@ title: 建立專案 - 概觀
 topic: Reports and Analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -33,8 +33,8 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 | 元素 | 說明 |
 |---|---|
-| 專案 [範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
-| [建立新專案](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) | 按一下此連結即可從頭開始建立新的專案。 |
+| 專案 [範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
+| [建立新專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 按一下此連結即可從頭開始建立新的專案。 |
 | 管理專案 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
 | 觀看教學課程 | 將您導向 [Analysis Workspace YouTube 影片](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
 | 名稱 | 「工作區」專案名稱。 |
@@ -85,7 +85,7 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 ## 左側欄 {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276), and [Components](../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
