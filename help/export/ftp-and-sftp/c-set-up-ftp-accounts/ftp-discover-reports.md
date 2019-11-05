@@ -7,7 +7,7 @@ solution: Analytics
 title: Ad Hoc Analysis 傳遞的報表
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 傳遞排程可在一段選定期間內進行。報表通常在隨後期間的第一天傳送，最遲不超過第二天早上。您隨時可修改或停止這些已排程的傳遞。如需[!UICONTROL 臨機分析]傳遞的報表的詳細資訊，請參閱[臨機分析說明](https://marketing.adobe.com/resources/help/en_US/dsc/index.html#Discover_Help)。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
