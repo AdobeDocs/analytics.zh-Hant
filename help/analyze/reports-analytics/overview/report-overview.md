@@ -7,12 +7,12 @@ title: 報表功能
 topic: Reports and Analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
-# 報表功能{#report-features}
+# 報表功能
 
 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 
@@ -30,7 +30,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/toolbar.png){width="672px"}
 
-另請參閱自 [訂報表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
+另請參閱自 [訂報表](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## 報告標題與設定 {#section_12A90FAE02EC43FB9F11F0E2CE8FAE8F}
 
@@ -38,7 +38,7 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/settings_header.png){width="672px"}
 
-如需詳 [細資訊，請參閱自訂報表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 。
+如需詳 [細資訊，請參閱自訂報表](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md) 。
 
 ## 日曆 {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
@@ -46,23 +46,23 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/calendar_large.png){width="672px"}
 
-請參 [閱選擇日期或日期範圍](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_9BEF7D4D839A4748B76E8500D1406C34)[和比較日期](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md#task_95155C3700774B709F5FB81AE96B0824)。
+請參 [閱選擇日期或日期範圍](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)[和比較日期](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
 ## 圖表類型 {#section_8B9CBA4096E64FC3B744E2E06EB83C19}
 
-選取您想要查看的圖形或圖表類型。
+選擇要查看的圖形或圖表類型：
 
 ![](assets/graph_type.png)
 
-請參閱 [變更報表圖表](../../../analyze/reports-analytics/reports-customize/t-reports-graphs.md#task_B290BF0B82124111AA19B3F3ACED500A).
+See [Changing Report Graphs.](/help/analyze/reports-analytics/reports-customize/t-reports-graphs.md)
 
 ## 圖表顯示 {#section_4C78ADC82C234CC6841AC92C803636F4}
 
-依您所選取的圖表類型而定，通常可看到詳細清單中的前幾個項目。如果您的圖表是顯示不同時段的趨勢圖表，則會顯示所有時段。
+依您所選取的圖表類型而定，通常可看到詳細清單中的前幾個項目。如果您的圖表是顯示不同時段的趨勢圖表，則會顯示所有時段。:
 
 ![](assets/graph.png)
 
-請參閱 [自訂報表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+請參閱 [自訂報表。](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
 
 ## 量度 {#section_8B8F9EC72B864E29B91039E7B7381EAD}
 
@@ -70,14 +70,14 @@ An example of a Pages Report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site 
 
 ![](assets/metrics.png)
 
-請參閱 [量度](../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686).
+請參閱 [量度.](/help/analyze/reports-analytics/metrics.md)
 
 ## 詳細資料表格 {#section_449A5DC848744F65A10DA12E189B835D}
 
-詳細資料是整批的報告資料。此時，您已列示了所有頁面，並且它們正在被「頁面檢視」測量，即計算此時段內頁面載入的次數。
+詳細資料是整批的報告資料。在此例中，您會列出頁面，並且依「頁面檢視」來測量這些頁面，即在時段內載入的次數：
 
 ![](assets/detail.png)
 
 在詳細資料表格中，您可以篩選資料、建立劃分、新增度量等等。
 
-請參閱 [自訂報表](../../../analyze/reports-analytics/reports-customize/customizing-reports-overview.md).
+請參閱 [自訂報表.](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)
