@@ -9,7 +9,7 @@ title: Util.getQueryParam
 topic: 開發人員和實作
 uuid: 1fecd148-3e52-46f2-a73f-003563f7a62c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此   getQueryParam 有助於將資料擷取至 Analytics 變數中。
 
-此公用程式會取代  [getQueryParam](../../implement/js-implementation/plugins/getqueryparam.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF) 外掛程式。
+此公用程式會取代  [getQueryParam](/help/implement/js-implementation/plugins/getqueryparam.md) 外掛程式。
 
 **語法:**
 
