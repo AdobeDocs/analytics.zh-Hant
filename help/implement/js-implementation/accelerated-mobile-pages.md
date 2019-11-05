@@ -8,7 +8,7 @@ title: Accelerated Mobile Pages
 topic: 開發人員和實作
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 AMP 是一項[開放原始碼專案](https://www.ampproject.org/)，可讓您建立快速轉譯靜態內容的網頁。這項功能相當適合發佈者使用，因為他們只需建立一次行動最佳化內容，即可在任何地方立即載入。包含主題:
 
-* [運作方式](../../implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
-* [使用有「adobeanalytics」範本的 amp-analytics 標記](../../implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
-* [使用有「adobeanalytics_nativeConfig」範本的 amp-analytics 標記](../../implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
-* [摘要](../../implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
-* [常見問題集](../../implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
+* [運作方式](/help/implement/js-implementation/accelerated-mobile-pages.md#section_21C2836D63104794BCEBEECB6593AFBF)
+* [使用有「adobeanalytics」範本的 amp-analytics 標記](/help/implement/js-implementation/accelerated-mobile-pages.md#section_2E4EBF4EF623440D95DE98E78C47244E)
+* [使用有「adobeanalytics_nativeConfig」範本的 amp-analytics 標記](/help/implement/js-implementation/accelerated-mobile-pages.md#section_3556B68304A4492991F439885727E9FF)
+* [摘要](/help/implement/js-implementation/accelerated-mobile-pages.md#section_4D8ED26084F249738A5C2BC66B933A07)
+* [常見問題集](/help/implement/js-implementation/accelerated-mobile-pages.md#section_5F57AA2DE0C5452FB65241058A924C73)
 
 **其他文件及範本**
 
@@ -211,7 +211,7 @@ AMP 專案正快速演進且時常產生變更，所以請您經常於[此處](h
   </tr> 
   <tr> 
    <td colname="col1"> <p>什麼是 <span class="keyword">Experience Cloud</span> ID 服務? 我需要這項服務嗎? </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/" format="https" scope="external">Identity 服務 </a> (先前稱為<span class="term">訪客 ID 服務</span>) 可支援 <span class="keyword">Experience Cloud</span> 核心服務，並可在不同的 Adobe <span class="keyword"> Experience Cloud </span> 解決方案之間進行整合。若您的整合項目中有 <span class="keyword">Adobe Audience Manager</span> 或 <span class="keyword">Adobe Target</span>，您就很可能使用此服務。此服務為許多即將上市的 <span class="keyword">Adobe Analytics</span> 功能之基礎。若您現在或將來需要 ID 服務支援，建議您使用 <code> iframeMessage </code> 解決方案。 </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"  >Identity 服務 </a> (先前稱為<span class="term">訪客 ID 服務</span>) 可支援 <span class="keyword">Experience Cloud</span> 核心服務，並可在不同的 Adobe <span class="keyword"> Experience Cloud </span> 解決方案之間進行整合。若您的整合項目中有 <span class="keyword">Adobe Audience Manager</span> 或 <span class="keyword">Adobe Target</span>，您就很可能使用此服務。此服務為許多即將上市的 <span class="keyword">Adobe Analytics</span> 功能之基礎。若您現在或將來需要 ID 服務支援，建議您使用 <code> iframeMessage </code> 解決方案。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>For the <code> "adobeanalytics_nativeConfig" </code> template, where should I host my utility page? </p> </td> 
@@ -219,7 +219,7 @@ AMP 專案正快速演進且時常產生變更，所以請您經常於[此處](h
   </tr> 
   <tr> 
    <td colname="col1"> <p>這與 <span class="keyword">Facebook 即時文章</span>不是很像嗎 ? 我該如何設定用 Facebook 即時文章功能設定 <span class="keyword">Adobe Analytics</span>? </p> </td> 
-   <td colname="col2"> <p> Facebook 即時文章支援的解決方案與以上概述的 nativeConfig 解決方案相似。事實上，以上創建的 stats.html 頁面可以同時滿足您對 AMP 及 FIA 的需求。想取得更多 在 FIA 上實施追蹤功能的資訊，請參見<a href="../../implement/js-implementation/analytics-facebook-instant-articles.md#concept_AC9AD1431CD14F919E329A161A80AA08" format="dita" scope="local"> Facebook 即時文章 </a> </p> </td> 
+   <td colname="col2"> <p> Facebook 即時文章支援的解決方案與以上概述的 nativeConfig 解決方案相似。事實上，以上創建的 stats.html 頁面可以同時滿足您對 AMP 及 FIA 的需求。想取得更多 在 FIA 上實施追蹤功能的資訊，請參見<a href="/help/implement/js-implementation/analytics-facebook-instant-articles.md"  > Facebook 即時文章 </a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
