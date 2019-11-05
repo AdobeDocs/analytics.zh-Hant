@@ -9,7 +9,7 @@ title: getQueryParam
 topic: 開發人員和實作
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->此外掛程式僅限 H-Code 使用。[JavaScript 適用的 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 透過 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5) 以原生方式提供此功能。
+>此外掛程式僅限 H-Code 使用。[JavaScript 適用的 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) 透過 [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md) 以原生方式提供此功能。
 
 在 JavaScript 適用的 [!DNL AppMeasurement] 程式碼中安裝此外掛程式後，您即可選取要使用在查詢字串中找到的資料填入的 [!DNL Analytics] 變數，並指定所要擷取的查詢字串值，來設定外掛程式。外掛程式會偵測指定的查詢字串，若偵測到，即會以其值填入選擇的變數中。若沒有找到該值的查詢字串參數，則會返回空字串。若有查詢字串參數存在，但沒有值 (例如 `?param1&param2=value` 中的 param1)，則會傳回 *`true`* 這個字。
 
