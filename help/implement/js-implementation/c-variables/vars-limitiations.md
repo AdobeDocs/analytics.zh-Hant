@@ -9,7 +9,7 @@ title: 變數和限制
 topic: 開發人員和實作
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,7 +18,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 以高階方式查看變數及其限制。
 
-> [!NOTE]若要深入瞭解最常見的 Analytics 變數，請參閱[設定變數](../../../implement/js-implementation/c-variables/configuration-variables.md#concept_8FCA630706334F54B4DCB607378BCD00)和[頁面變數](../../../implement/js-implementation/c-variables/page-variables.md#concept_37933DFF2FC547A0A3B296D5E646B6A3)。
+>[!NOTE]
+>
+>若要深入瞭解最常見的 Analytics 變數，請參閱[設定變數](/help/implement/js-implementation/c-variables/configuration-variables.md)和[頁面變數](/help/implement/js-implementation/c-variables/page-variables.md)。
 
 下列的表格提供有關 [!DNL Analytics] 變數的簡單資訊:
 
