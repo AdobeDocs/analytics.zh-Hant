@@ -1,18 +1,18 @@
 ---
 description: 當錯誤發生時，「工作狀態」欄會報告錯誤相關資訊。
-keywords: 資料饋送；工作；疑難排解；錯誤；ftp；chdir；連接；登入；put
+keywords: 資料饋送；job；疑難排解；error;ftp;chdir;connect;login;put
 seo-description: 當錯誤發生時，「工作狀態」欄會報告錯誤相關資訊。
-seo-title: 疑難排解工作
+seo-title: 工作的疑難排解
 solution: Analytics
-title: 疑難排解工作
-uuid: 8fb914e-03db-434e-b4 d3-8594144ff2 b7
+title: 工作的疑難排解
+uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 疑難排解工作
+# 工作的疑難排解
 
 當錯誤發生時，「工作狀態」欄會報告錯誤相關資訊。
 
