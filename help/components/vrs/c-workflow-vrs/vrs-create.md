@@ -8,7 +8,7 @@ title: 建立虛擬報表套裝
 topic: Reports and Analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 區段 </td> 
-   <td colname="col2"> <p>您可以只新增一個區段，也可以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html" format="https" scope="external">堆疊區段</a>。 </p> <p> <p>注意: 將兩個區段堆疊在一起時，會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。 </p> </p> <p>如果嘗試刪除或修改虛擬報表套裝目前使用中的區段，便會出現警告。 </p> </td> 
+   <td colname="col2"> <p>您可以只新增一個區段，也可以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_stack.html"  >堆疊區段</a>。 </p> <p> <p>注意: 將兩個區段堆疊在一起時，會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。 </p> </p> <p>如果嘗試刪除或修改虛擬報表套裝目前使用中的區段，便會出現警告。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
