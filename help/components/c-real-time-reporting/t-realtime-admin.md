@@ -7,7 +7,7 @@ title: 設定即時報表
 topic: 管理工具
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
 
    ![](assets/real_time_admin.png)
 
-   如需支援的即時度量和維度的詳細資訊，請參 [閱支援的度量和維度](../../components/c-real-time-reporting/realtime-metrics.md#concept_B86D8DF89AD448839332AD84B1DF2AE7)。
+   如需支援的即時度量和維度的詳細資訊，請參 [閱支援的度量和維度](/help/components/c-real-time-reporting/realtime-metrics.md)。
 
    如果您已定義分類，則會以縮排顯示在其所定義的維度下方:
 
@@ -47,7 +47,7 @@ Setting up real-time reports within [!UICONTROL Reports &amp; Analytics] consist
    >
    >對於單一即時報表，我們目前不支援啟用重複維度，即使為每個維度選取了不同的分類亦然。
 
-   如需分類的詳細資訊，請參 [閱關於分類](../../components/c-classifications2/c-classifications.md#concept_4CEC7FF1A9E24204A7DA6B9AC70709DE)。
+   如需分類的詳細資訊，請參 [閱關於分類](/help/components/c-classifications2/c-classifications.md)。
 
    >[!NOTE]
    >
