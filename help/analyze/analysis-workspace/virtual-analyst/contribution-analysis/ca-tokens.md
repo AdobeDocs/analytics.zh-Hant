@@ -5,7 +5,7 @@ seo-title: 貢獻分析概觀
 title: 貢獻分析概觀
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我該如何限制對「貢獻分析」的存取權?</b> </p> </td> 
-   <td colname="col2"> <p>依預設，只有管理員可以存取執行貢獻分析，但管理員可以在「管理控制台」中建立權限群組，以授與其他使用者 <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html" format="html" scope="external"> 的存取權 </a>。 您應僅將「貢獻分析」的使用權限授予具有合理使用理由且受信任不會濫用其存取權的使用者。 </p> <p>此權限稱為「貢獻分析」，其位於<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span></span>當中。 </p> </td> 
+   <td colname="col2"> <p>依預設，只有管理員可以存取執行貢獻分析，但管理員可以在「管理控制台」中建立權限群組，以授與其他使用者 <a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"  > 的存取權 </a>。 您應僅將「貢獻分析」的使用權限授予具有合理使用理由且受信任不會濫用其存取權的使用者。 </p> <p>此權限稱為「貢獻分析」，其位於<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span></span>當中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>我該如何得知敝公司每個月有權使用多少代號，以及在當月中已使用的數量?</b> </p> </td> 
@@ -103,17 +103,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col3" colsep="1"> <p>沒有代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other" format="html" scope="external"> Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>僅每日粒度 </p> </td> 
    <td colname="col3"> <p>沒有代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other" format="html" scope="external">Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 個代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other" format="html" scope="external"> Ultimate</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html?promoid=8N4B5F1V&amp;mv=other"  > Ultimate</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 20 個代號 </p> </td> 
   </tr> 
@@ -138,7 +138,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col3"> <p>每月 2 個代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Premium (Complete、<a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html" format="html" scope="external">Predictive Intelligence</a>) </p> </td> 
+   <td colname="col1"> <p>Premium (Complete、<a href="https://www.adobe.com/data-analytics-cloud/analytics/predictive-intelligence.html"  >Predictive Intelligence</a>) </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>代號数量不受限制 </p> </td> 
   </tr> 
