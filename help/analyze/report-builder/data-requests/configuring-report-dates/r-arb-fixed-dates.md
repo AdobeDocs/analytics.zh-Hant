@@ -1,18 +1,18 @@
 ---
 description: Report Builder 中固定日期的定義。
 seo-description: Report Builder 中固定日期的定義。
-seo-title: 請求精靈定義-固定日期
+seo-title: 請求精靈定義 - 固定日期
 solution: Analytics
-title: 請求精靈定義-固定日期
+title: 請求精靈定義 - 固定日期
 topic: Report Builder
-uuid: bd65a312-bab6-46d7-ba30-570777444cc
+uuid: bd65a312-bab6-46d7-ba30-57077344cc9
 translation-type: tm+mt
-source-git-commit: 0b8fa4df8ea6cc6f9a9c103b6aa5e063b510a380
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 請求精靈定義-固定日期
+# 請求精靈定義 - 固定日期
 
 報告建立工具中固定日期的定義。
 
