@@ -6,7 +6,7 @@ title: Analysis Workspace概述
 topic: Reports and Analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,7 +23,9 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 [這裡](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)提供完整的 YouTube 播放清單。
 
-> [!NOTE] 如需 [功能的更新，請參閱分析工作區的新增功能](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#concept_EDB651D6F41E4F7BB4EB5E1EBB95D195) 。
+>[!NOTE]
+>
+>See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
 
 ## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
@@ -35,7 +37,7 @@ Analysis Workspace 提供自由與靈活性:
 
 ![](assets/fa_project_new.png)
 
-See [Create an Analysis Workspace project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
 ## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
 
@@ -47,11 +49,11 @@ See [Create an Analysis Workspace project](../../analyze/analysis-workspace/buil
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) for more information.
+See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
 
 ## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增名為「取得面板連結」和「取得視覺化連結」的全新右鍵選項。 若要將內部連結新增至您的專案:
+In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增名為「取得面板連結」和「取得視覺化連結」的全新右鍵選項。 若要將內部連結新增至您的專案:
 
 1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
 1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
@@ -75,7 +77,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
-選取個別儲存格，動態查看視覺效果變更。將視覺效果[同步 (鎖定)](../../analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) 至所選儲存格。
+選取個別儲存格，動態查看視覺效果變更。將視覺效果[同步 (鎖定)](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) 至所選儲存格。
 
 ![](assets/visualize-selected-cells.png)
 
@@ -85,7 +87,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099).
+See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
 
 ## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
@@ -103,7 +105,7 @@ See [Manage data sources](../../analyze/analysis-workspace/visualizations/t-sync
 
 ![步驟結果](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4).
+See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
 
 ## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
 
@@ -117,7 +119,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-請參閱 [區段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80).
+請參閱 [區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
 
 ## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
 
@@ -140,7 +142,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 | 共用 | 僅套用至區段。 |
 | 刪除 | 僅套用至區段。 |
 
-請參閱[視覺效果](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)以取得詳細資訊。
+請參閱[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)以取得詳細資訊。
 
 ## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
@@ -163,7 +165,7 @@ See [Break down dimensions](../../analyze/analysis-workspace/components/dimensio
 * 排序日期範圍預設集 (不包含自訂日期範圍)。
 * CTRL (或 Command) + 按一下 + 拖曳欄可以複製該欄，而拖曳副本則會將其貼至表格中的新位置。
 
-See [Hotkeys Available in Analysis Workspace](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) for more information.
+See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
 
 **選取範圍和動作**
 
