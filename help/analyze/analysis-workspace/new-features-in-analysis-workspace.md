@@ -8,7 +8,7 @@ title: Analysis Workspace 的新增功能
 topic: Reports and Analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -100,7 +100,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>全新範本: 音效消耗</b> </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html" format="html" scope="external">Audio Analytics</a>。 </p> </td> 
+   <td colname="col2"> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -140,7 +140,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/attribution-iq/attribution.md#concept_5BDCF631FCC841FF920FE07F1B0D08A2" format="dita" scope="local"> 歸因 IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/attribution-iq/attribution.md"  > 歸因 IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>歸因 IQ 可讓您針對行銷績效執行更精細的智慧化分析作業。全新的歸因模式適用於 Analysis Workspace (任何表格或任何劃分) 與計算量度中的量度。全新的歸因面板可提供更理想的視覺化效果和比較功能。 </p> </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>現在，我們會盡可能顯示計算量度的總計，包括百分比 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>新增<a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local">日期範圍</a>預設集</b> </p> </td> 
+   <td colname="col1"> <p><b>新增<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >日期範圍</a>預設集</b> </p> </td> 
    <td colname="col2"> <p>針對 Analysis Workspace 的日期範圍預設集新增「過去 13 週整」。 </p> </td> 
   </tr> 
  </tbody> 
@@ -177,7 +177,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/components/dimensions/view-dimensions.md#concept_5459DF3389564391A04AEBC63D732337" format="dita" scope="local"> 動態維度欄 </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 動態維度欄 </a> </b> </p> </td> 
    <td colname="col2"> <p>過去，當維度放置於某一欄時，我們會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)，並將這些值保持為靜態 (亦意，所選的 5 個值從未改變)。 </p> <p>從現在起，我們會預設顯示動態值而不是靜態值，並可以選擇將這些值轉換為靜態值。其他注意事項: </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">按一下動態維度上的 (i)，您將會看到排名 (5 名中的第 1 名) 與維度類型。 </li> 
@@ -210,7 +210,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>介面右下角會提供每日祕訣 (並附上短片)。這麼做的目的，是要協助您儘快熟悉 Analysis Workspace 的眾多功能。您可以選擇關閉這些秘訣，需要時可隨時前往<span class="uicontrol">「說明</span> &gt; <span class="uicontrol">秘訣」</span>查看。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> 區 <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 段範本 </a> 和計 <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 算量度範本 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> 區 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 段範本 </a> 和計 <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 算量度範本 </a></b> </p> </td> 
    <td colname="col2"> <p>現在起，左側欄會顯示區段範本和計算量度範本。 </p> </td> 
   </tr> 
   <tr> 
@@ -218,7 +218,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>現在開始，將元件拖曳到新位置時可以同時上下捲動。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>檢視異常的 <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md#concept_B215F229DD804928BB4455198E89A68D" format="dita" scope="local"> 其他資訊 </a></b> </p> </td> 
+   <td colname="col1"> <p><b>檢視異常的 <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  > 其他資訊 </a></b> </p> </td> 
    <td colname="col2"> <p>現在起，將滑鼠游標暫留在折線圖的某個異常上，畫面就會顯示異常的日期和原始值等相關資訊。 </p> </td> 
   </tr> 
  </tbody> 
@@ -237,19 +237,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">「繞排標題文字」預設為啟用</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「繞排標題文字」預設為啟用</a> </p> </td> 
    <td colname="col2"> <p>自由格式表格現已預設啟用<span class="uicontrol">「繞排標題文字」</span>欄設定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> 新的列設定 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新的列設定 </a> </p> </td> 
    <td colname="col2"> <p>新增<span class="uicontrol">「按列計算百分比」</span>的列設定，強制自由格式表格計算跨列的儲存格百分比，而非整欄計算。此設定在計算趨勢百分比時特別實用，例如分析一維值是如何隨著時間而在剩餘的部分當中好轉的趨勢。按一下<span class="uicontrol">「視覺化」</span>圖示時，此功能就會預設為啟用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B" format="dita" scope="local">「100% 堆疊」的視覺化設定</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100% 堆疊」的視覺化設定</a> </p> </td> 
    <td colname="col2"> <p>針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的全新視覺化設定可讓圖表以「100% 堆疊」的視覺化方式呈現；因此，你可以測量相對比例。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="../../analyze/analysis-workspace/virtual-analyst/virtual-analyst.md#concept_2DEA84993D8641808C25CF2DC286093E" format="dita" scope="local">「異常偵測」和「貢獻分析」</a>。 </p> </td> 
+   <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >「異常偵測」和「貢獻分析」</a>。 </p> </td> 
    <td colname="col2"> <p>「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。 </p> <p>請注意，Adobe Analytics Select和Adobe Analytics Foundation客戶只能存取工作區中的「每日精細度」異常偵測。 </p> </td> 
   </tr> 
  </tbody> 
@@ -268,15 +268,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> 標題文字繞排 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 標題文字繞排 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以在自由表格中繞排標題文字，讓標題更容易閱讀，表格也更便於分享。我們在「欄」設定中新增了名為「繞圖排文」的選項。 這項設定特別是對 PDF 的轉譯還有較長名稱的量度來說，非常實用。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/apply-create-metrics.md#concept_941E9463B88D4EC59076B0E3D76F7C5B" format="dita" scope="local"> 按一下右鍵以建立量度 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  > 按一下右鍵以建立量度 </a> </p> </td> 
    <td colname="col2"> <p>為了更方便快速建立計算量度，在自由表格中，已將<span class="uicontrol">「從選取範圍建立量度」</span>新增至的滑鼠右鍵功能表。只要選取一個或多個標題欄儲存格，就可以看到這個選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> 地圖視覺效果增強功能 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地圖視覺效果增強功能 </a> </p> </td> 
    <td colname="col2"> <p>為了能夠在地圖視覺效果中顯示期間比較 (例如，逐年比較)，我們新增了下列增強功能: </p> 
     <ul id="ul_F570E6AB174C45788620CF50E2742A08"> 
      <li id="li_746E329037764644A9CCF79161C26350">地圖視覺效果現在也支援顯示負數。舉例來說，如果您繪製的是逐年比較量度，則地圖可以在紐約上顯示 -33％。 </li> 
@@ -285,7 +285,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> 自訂範本更新 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 自訂範本更新 </a> </p> </td> 
    <td colname="col2"> <p>在最新發行的自訂範本中，我們已 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">在專案的上方(標題旁邊)新增範本圖示，以幫助您在使用範本開始一個專案的同時，區分與編輯範本模式。 </li> 
@@ -308,11 +308,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#section_309C3DEDC9584A3FA3699BE10BF751ED" format="dita" scope="local"> 自訂 Workspace 範本 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自訂 Workspace 範本 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以建立與保存專屬於您的 Workspace 範本，並且供您機構中其他與該範本類似的使用者直接使用您的範本。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 新專案啟動模式 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 新專案啟動模式 </a> </p> </td> 
    <td colname="col2"> <p>按一下「新專案」會啟動新畫面，讓您可以從 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白專案，或 </li> 
@@ -325,15 +325,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>我們新增了按一下滑鼠右鍵「複製到剪貼簿」選項，讓您能夠不間斷地複製儲存格/表格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">欄百分比改善</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >欄百分比改善</a> </p> </td> 
    <td colname="col2"> <p>欄中顯示的「總百分比」上限為100%，即使某些藍本導致列佔總數的100%以上（例如平均值）。 </p> <p>為了比例更精確，現在開始我們可以顯示超過 100% 的數值。我們也將上限提高為 1000％，以確保欄位的寬度夠大。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB" format="dita" scope="local"> 在「劃分」上啟用條件格式 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 在「劃分」上啟用條件格式 </a> </p> </td> 
    <td colname="col2"> <p>現在會自動在自由表格中套用條件式格式（顏色等），除非已選取「自訂」限制。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Changes to default <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> calendar </a> view </p> </td> 
+   <td colname="col1"> <p>Changes to default <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > calendar </a> view </p> </td> 
    <td colname="col2"> <p>預設狀況下，Workspace 日曆現在將顯示當月與上個月，而不是先前的當月與下個月。 </p> </td> 
   </tr> 
   <tr> 
@@ -356,7 +356,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>自由表格中多個維度項目的<a href="../../analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md#concept_3E1AE8B53CBE4D06B2C4470EDA7E9FE9" format="dita" scope="local">篩選選項</a> </p> </td> 
+   <td colname="col1"> <p>自由表格中多個維度項目的<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >篩選選項</a> </p> </td> 
    <td colname="col2"> <p>已新增多個維度項目的進階篩選選項 (除了現有的「包含」與「不包含」選項以外): </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">包含所有字詞 </li> 
@@ -371,11 +371,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C" format="dita" scope="local"> 在各面板和專案之間複製並貼上視覺效果/面板</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_05B7914D4C9E443F97E2BFFDEC70240C"  > 在各面板和專案之間複製並貼上視覺效果/面板</a> </p> </td> 
    <td colname="col2"> <p>您現在可按一下滑鼠右鍵複製視覺效果或面板，然後再將複製的元素貼到 (「插入」) 專案內的其他位置或其他專案中。 </p> <p>您可使用這項功能建立「建置組塊」 (預先定義的視覺效果/面板) 並將這些組塊複製到其他專案中，然後藉由您業務專用的資料，更快地展開作業。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local">適用於「傳訊」和「位置」的全新行動範本</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  >適用於「傳訊」和「位置」的全新行動範本</a> </p> </td> 
    <td colname="col2"> <p>新增兩項全新的專案範本: </p> 
     <ul id="ul_2F5976C849474A2B8A6BCDA2559F2855"> 
      <li id="li_51B7830E062A4CFDBDF219C56249A733">適用於「傳訊」的全新行動專案範本，著重於應用程式內及推送訊息效能。 </li> 
@@ -387,19 +387,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>現在重新調整最左邊欄的大小時，Workspace 可以維持其他欄的寬度百分比 (而非只是調整右側相鄰欄的寬度)。這項變更加快了建立表格以用於分析和共用的速度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>在一個表格中顯示 <a href="../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local">400 列</a> </p> </td> 
+   <td colname="col1"> <p>在一個表格中顯示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 列</a> </p> </td> 
    <td colname="col2"> <p>您現可於一個表格中顯示 400 列 (至少顯示 200 列)，還可顯示 365 天的趨勢。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> 地圖視覺效果支援 PDF 格式</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地圖視覺效果支援 PDF 格式</a> </p> </td> 
    <td colname="col2"> <p>2017 年 10 月推出的地圖視覺效果現在可以 PDF 格式呈現。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 複製/另存為新專案時的</a>相對內部連結 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 複製/另存為新專案時的</a>相對內部連結 </p> </td> 
    <td colname="col2"> <p>以前，當您複製專案或執行「另存新檔」時，專案中儲存的所有內部連結都指向原始專案，而非複製的專案。 </p> <p>現在您複製/另存新檔後，內部連結可反映其所在專案中的相對位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>貢獻分析: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html" format="html" scope="external">代號通知 </a> </p> </td> 
+   <td colname="col1"> <p>貢獻分析: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/contribution/ca_main.html"  >代號通知 </a> </p> </td> 
    <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者: 您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻度分析」，其位於<span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span>當中。 </p> </td> 
   </tr> 
   <tr> 
@@ -449,23 +449,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/map-visualization.md#concept_FC933745EDC248D6A783FC6865607F16" format="dita" scope="local"> 地圖視覺效果 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地圖視覺效果 </a> </p> </td> 
    <td colname="col2"> <p>全新的地圖視覺化(nbsp)功能可讓您在客戶所在位置的環境中輕鬆檢視客戶互動。 從宏觀 (全球) 檢視到微觀 (城市) 檢視，您都可以輕鬆放大和縮小視覺效果中的各種階層層次，以查看跨區域使用者的叢集。 </p> <p>您可以透過 IP 位址將位置資料 (針對非行動資料集) 加以視覺化，您也可以讓經緯度資料 (適用於使用 Mobile SDK 的客戶) 在 Analysis Workspace 中重現。&amp;nbsp; </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/line.md#concept_EBE07FCD66C24D2AB58F1EC0F8017AD8" format="dita" scope="local">趨勢視覺效果的粒度選取器</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  >趨勢視覺效果的粒度選取器</a> </p> </td> 
    <td colname="col2"> <p>若資料來源的維度是時間維度，現在您可以輕鬆地切換不同的時間粒度。您可以透過視覺效果設定中的下拉式選單切換粒度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 區段放置區的完整維度和事件 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 區段放置區的完整維度和事件 </a> </p> </td> 
    <td colname="col2"> <p>先前，您只能將維度項目、日期範圍或區段放置到區段放置區。您現在可以將完整維度或事件放置到區段放置區。在這兩種情況下，Analysis Workspace 會建立「存在」點擊區段。 </p> <p>例子: 「點撃 eVar1 存在的位置」或「點撃 event1 存在的位置」。 </p> <p>注意: 您不可將計算量度放入區段區。只有您可以建立區段的維度/量度才可放入區段區域。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local">「資料來源設定」中列出的已連接視覺效果</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  >「資料來源設定」中列出的已連接視覺效果</a> </p> </td> 
    <td colname="col2"> <p>若有視覺效果連接到自由格式表格或同類群組表格，則左上角的點 (資料來源設定) 會列出已連接的視覺效果。游標暫留時會反白顯示連結的視覺效果，只要按一下，即可進入該視覺效果。 </p> <p>此外還有一個「顯示/隱藏資料表」核取方塊，讓您顯示或隱藏資料表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local">新增至左側欄事件名稱的 Event#</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >新增至左側欄事件名稱的 Event#</a> </p> </td> 
    <td colname="col2"> <p>在 2017 年 10 月前，我們已將 evar# 和 prop# 附加至維度名稱，您可以搜索這些號碼。現在事件也可使用相同的功能。 </p> <p>範例: 「訂閱」現於左側邊欄顯示為「訂閱 (event1)」 </p> <p>請記住: </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">表中不會顯示事件號碼 (以保持標題簡短)。 </li> 
@@ -473,7 +473,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local">依預設現有的維度會按照邏輯順序排序</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >依預設現有的維度會按照邏輯順序排序</a> </p> </td> 
    <td colname="col2"> <p>對於以下這些情況，部分現有維度的預設排序順序已更新: </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">將維度拖入自由格式表格時。 </li> 
@@ -481,11 +481,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p>例如: 若將「小時」放置在表格中，則會從上午 12 時排序至晚上 11 時。您仍可以選擇按任何量度欄排序。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md" format="dita" scope="local">允許重新縮放圖表的信賴區間的選項</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md"  >允許重新縮放圖表的信賴區間的選項</a> </p> </td> 
    <td colname="col2"> <p>異常偵測信賴區間不會自動縮放視覺效果中的 Y 軸，如此，可能會使圖表更清晰。 </p> <p>您現在可以選擇允許信賴區間來縮放圖表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local">警報: 新增<b>「續訂」</b>選項</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/alert-manager.md"  >警報: 新增<b>「續訂」</b>選項</a> </p> </td> 
    <td colname="col2"> <p>在「警報管理器」中，選取一或多個警報後，按一下<span class="uicontrol">「續訂」</span>即可續訂警報。 </p> <p>如此一來，無論原始到期日為何，到期日將從按一下<span class="uicontrol">「續訂」</span>之日起延長 1 年。 </p> </td> 
   </tr> 
   <tr> 
@@ -513,7 +513,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md#concept_03D6295D84CD42528D40B932AD80AE04" format="dita" scope="local">Analysis Workspace 中的時間分段維度</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md"  >Analysis Workspace 中的時間分段維度</a> </p> </td> 
    <td colname="col2"> <p>以時間戳記為基礎的維度已新增至 Analysis Workspace 且立即可用。維度包含: </p> 
     <ul id="ul_9BDBC0B344504E85840040E493873A47"> 
      <li id="li_826A8CBF4FDB4C98AC176C7145C09DB2">小時 (例如，01、12、15、23) </li> 
@@ -527,27 +527,27 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local"> 在自由表格中同時管理多個欄 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 在自由表格中同時管理多個欄 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以同時變更多個欄中的設定。只要選取多個欄，然後在任一欄中按一下設定圖示。您所做的任何變更都會套用在所有欄，以及您在其中選定的儲存格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md#concept_7D1D66E9D34D4C52902C8E2D92658B27" format="dita" scope="local"> 流量: 維度間標籤 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  > 流量: 維度間標籤 </a> </p> </td> 
    <td colname="col2"> <p>在每個「流量」欄頂端新增了量度標籤，如此一來在流量視覺效果中使用多維度時可更符合使用直覺。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477" format="dita" scope="local"> 色階分佈圖點擊計數方法 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477"  > 色階分佈圖點擊計數方法 </a> </p> </td> 
    <td colname="col2"> <p>先前在色階分佈圖視覺效果中有兩種計數方法:「造訪」和「訪客」(預設)。 </p> <p>現在您可以使用第三種計數方法「點擊」做為區段容器。「發生次數」會用作自由表格中的Y軸量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 「區段比較」和「貢獻分析」設定的<span class="uicontrol">「全部清除」</span>按鈕 </p> </td> 
    <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列 Workspace 區域中的所有元素，而不必手動刪除每個元素: </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
-     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC" format="dita" scope="local"> 貢獻分析的已排除元件 </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="../../analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937" format="dita" scope="local"> 區段比較的已排除元件 </a> </li> 
+     <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢獻分析的已排除元件 </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md#section_5E98FFA0744140C08D83700E3F025937"  > 區段比較的已排除元件 </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">更新「摘要變更」的顯示類型名稱</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >更新「摘要變更」的顯示類型名稱</a> </p> </td> 
    <td colname="col2"> <p>重新命名目前的兩種「摘要變更選項」以釐清意義: </p> 
     <ul id="ul_7301D1C73E72424F911EE8DAAD9247A0"> 
      <li id="li_89D94632E0C94263A84887AF5B360E27">「顯示變更 &gt; 顯示百分比變更」 </li> 
@@ -555,7 +555,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/summary-number-change.md#concept_804726EA096349F8AECF8C2D3DFD9BE4" format="dita" scope="local">延伸縮寫「摘要編號/變更」的小數位數</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/summary-number-change.md"  >延伸縮寫「摘要編號/變更」的小數位數</a> </p> </td> 
    <td colname="col2"> <p>先前縮寫的「摘要編號/變更」視覺效果顯示 0 個小數位數。 </p> <p>現在您可以選擇顯示 0 至 3 個小數位數來加強報表。 </p> </td> 
   </tr> 
  </tbody> 
@@ -574,19 +574,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2" format="dita" scope="local"> 儲存時標記專案 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 儲存時標記專案 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以在儲存專案時為專案新增標記。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7" format="dita" scope="local">「專案」清單頁面中的「標記」欄</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md"  >「專案」清單頁面中的「標記」欄</a> </p> </td> 
    <td colname="col2"> <p>已將<span class="wintitle">「標記」</span>欄新增至「工作區」專案清單頁面。此欄會顯示各個專案的標記。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> 將「流量」視覺效果匯出為 .CSV 檔案 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 將「流量」視覺效果匯出為 .CSV 檔案 </a> </p> </td> 
    <td colname="col2"> <p>您可以下載 .csv 檔格式的「流量」視覺效果，如此即可在 Microsoft Excel 內分析 (以視覺化呈現表格) 或其他地方分析「流量」結果。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> 智慧型警報: 其他可信度區間 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 智慧型警報: 其他可信度區間 </a> </p> </td> 
    <td colname="col2"> <p>已針對「異常偵測」警報新增兩個新可信度區間等級 (99.75% 和 99.9%)。此外，部分粒度選項的預設值均已變更: </p> 
     <ul id="ul_EB1F07A4D2204D57B2DDD9838CE4F5D9"> 
      <li id="li_542AAACE703F4EBFBD91F11F5ABC2929">每小時: 現在為 99.75% </li> 
@@ -609,23 +609,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/text.md#concept_2315D97E27364E3194AC1C459B654B2F" format="dita" scope="local"> RTF 編輯器 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/text.md"  > RTF 編輯器 </a></b> </p> </td> 
    <td colname="col2"> <p>可讓您變更字體設定 (粗體、斜體等) 和文字方塊視覺效果和面板/視覺效果說明內的超連結。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086" format="dita" scope="local"> 內部連結 (快速視覺化連結) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > 內部連結 (快速視覺化連結) </a></b> </p> </td> 
    <td colname="col2"> <p><b>內部連結</b>可讓您透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增名為「取得面板連結」和「取得視覺化連結」的全新右鍵選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE" format="dita" scope="local"> 編輯圖例標籤 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_94F1988CB4B9434BA1D9C6034062C3DE"  > 編輯圖例標籤 </a></b> </p> </td> 
    <td colname="col2"> <p>讓您重新命名視覺效果圖例 (「流失」、「區域圖」、「堆疊區域圖」、「長條圖」、「堆疊長條圖」、「環形圖」、「色階分布圖」、「橫條圖」、「堆疊橫條圖」、「折線圖」、「散佈圖」和「Venn 圖表」) 中的數列名稱，有助於讓視覺效果更簡單明瞭。 </p> <p>編輯圖例<b>不</b>適用於:「樹狀圖」、「項目」、「摘要變更或數字」、「文字」、「自由格式」、「色階分布圖」、「同類群組」或「流量」視覺效果。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> 「管 <a href="../../analyze/analysis-workspace/visualizations/t-sync-visualization.md#task_A73B065DC3834AFCA422E364A1468099" format="dita" scope="local"> 理資料來源」的更新 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> 「管 <a href="/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md"  > 理資料來源」的更新 </a></b> </p> </td> 
    <td colname="col2"> <p>我們已重新開發資料來源（支援視覺化）的管理方式。 當您將資料來源鎖定至某表格後，將不再顯示其他個別隱藏的表格。 </p> <p>我們會繼續將視覺效果繫結至您建立該效果的來源表格。此方式也可解決即時連結表格中，當您變更資料粒度後，載入下個專案時回復至原先資料粒度的錯誤。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#concept_0E420C3EB71847399AA1D719C0B75250" format="dita" scope="local"> 反白標示特定異常項目的功能 </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md"  > 反白標示特定異常項目的功能 </a></b> </p> </td> 
    <td colname="col2"> <p>我們現在可在貢獻分析及與其連結的智慧型警報專案內，使用藍點強調顯示異常項目。如此即可以更清楚的方式指明分析所得的異常項目。 </p> </td> 
   </tr> 
   <tr> 
@@ -633,7 +633,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>如果您先前使用 Experience Cloud 憑證登入，並導覽至 Analytics，您可能無法使用<span class="ignoretag">「<span class="uicontrol">共用</span> &gt; <span class="uicontrol">取得專案連結</span>」</span>功能。我們已修正此問題。 但您仍須先儲存專案，才可點選此選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/curate-share/schedule-projects.md#concept_A7B9856EF2504BD791FE5A9E8AA7C29C" format="dita" scope="local">排程專案管理員中的「到期專案」篩選器</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >排程專案管理員中的「到期專案」篩選器</a></b> </p> </td> 
    <td colname="col2"> <p>現在您可以在排程專案管理員中篩選到期的專案。接著便可以決定是否重新啟動或刪除這些專案。 </p> </td> 
   </tr> 
  </tbody> 
@@ -652,7 +652,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b><a href="../../analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md#concept_298891C950D5498FA820CC4D7F51F4CA" format="dita" scope="local">「流失」</a></b>改良功能 </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/fallout/configuring-fallout.md"  >「流失」</a></b>改良功能 </td> 
    <td colname="col2"> 
     <ul id="ul_8A979BC0BE0F4D008F68B019A2D83A08"> 
      <li id="li_C8093834980B43A094FA9E2A7906E135">無限的比較區段 </li> 
@@ -663,14 +663,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow-settings.md#concept_1DD357A991414622877364BAB40C8E26" format="dita" scope="local"><b>「流量」</b></a>改良功能 </td> 
+   <td colname="col1"> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow-settings.md"  ><b>「流量」</b></a>改良功能 </td> 
    <td colname="col2"> 
     <ul id="ul_54675DB3F59E4B24AF0C8F6E6AB2F3C1"> 
      <li id="li_DEF7D9BF03CD4A2D86A4BDD89FB3731A">新增名為<span class="wintitle">「停用標籤截斷」</span>的視覺效果設定 (預設 = 未勾選)。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#concept_7705EA2616284F7185D82F5E872257FE" format="dita" scope="local"> 日曆</a></b>變更 </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  > 日曆</a></b>變更 </td> 
    <td colname="col2"> 日曆的變更可使其與「Reports &amp; Analytics」日曆的內容一致: 
     <ul id="ul_BD706B07369F4339BF4925F22FEC1C7F"> 
      <li id="li_33A47BAAD3C04C8784D2FC00A6F6782E">按第一下會啟動日期範圍選取。接著往前或往後反白標示範圍，按第二下則可選取結束日期範圍。若 Shift 鍵在點選第一次日期時為按住狀態 (或已使用右鍵)，則會將該日期附加至範圍。 </li> 
@@ -686,7 +686,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#concept_05C48D3D834F416994602216C9FF6535" format="dita" scope="local">「使用百分比限制」核取方塊</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「使用百分比限制」核取方塊</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 特別為使用百分比的量度新增核取方塊，以表示百分比截點 (也可與非百分比量度搭配使用)。 </li> 
@@ -700,7 +700,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md" format="dita" scope="local">「警報管理器」改良功能</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/components/c-alerts/alert-manager.md"  >「警報管理器」改良功能</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_72464DC499744290BA37DB3B1E143F74"> 
      <li id="li_C687F0A3A99F4CC39B482BDA0F7B75DD">新增啟用/停用警報的功能。 </li> 
@@ -709,7 +709,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新增 <b> <a href="../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051" format="dita" scope="local"> 快捷鍵 </a></b> </p> </td> 
+   <td colname="col1"> <p>新增 <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > 快捷鍵 </a></b> </p> </td> 
    <td colname="col2"> <p>已新增下列快捷鍵: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = 前往「面板」窗格 </li> 
@@ -733,12 +733,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> 人物範本 </a> </p> </td> 
-   <td colname="col2"> <p>注意:「人物」範本與相關的「人物」量度僅在做為 <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html" format="html" scope="external">Adobe Experience Cloud Device Co-op</a> 的一部分時才可供使用。 </p> <p>此模板是根據「人員」量度建立，該量度是「不重複訪客」量度消除重複項後的版本。「人員」量度提供的是客戶利用多部裝置與品牌互動的頻率。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物範本 </a> </p> </td> 
+   <td colname="col2"> <p>注意:「人物」範本與相關的「人物」量度僅在做為 <a href="https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a> 的一部分時才可供使用。 </p> <p>此模板是根據「人員」量度建立，該量度是「不重複訪客」量度消除重複項後的版本。「人員」量度提供的是客戶利用多部裝置與品牌互動的頻率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>改善還原/重做選項 </p> </td> 
-   <td colname="col2"> <p>以下清單顯示您可進行與不可進行之項目<a href="../../analyze/analysis-workspace/build-workspace-project/undo-redo.md#concept_993110B9F2F84EB192308108882F8EEC" format="dita" scope="local">在 Analysis Workplace 中還原/重做</a>。 </p> </td> 
+   <td colname="col2"> <p>以下清單顯示您可進行與不可進行之項目<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >在 Analysis Workplace 中還原/重做</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -756,7 +756,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md#concept_AA32AA9932F744FB9044F59C7B8E562C" format="dita" scope="local"> 依位置劃分 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 依位置劃分 </a> </p> </td> 
    <td colname="col2"> <p>允許依表格位置劃分。範例：「我總是希望自由表格中前7列被劃分。」 現在，當您建立自由表格時，有一個核取方塊可讓您啟用「依位置劃分」。此設定預設為停用。 </p> <p>以前，劃分中的值清單是「鎖定」的。 這會導致一種情況 - 舉例來說 - 您執行「<span class="wintitle">依頁面</span>劃分<span class="wintitle">日期</span>」，會得到選取日期範圍內的前 50 頁清單。 </p> <p>如果您儲存該報告，然後在一個月後執行，則前 50 頁可能已變更。然而，Analysis Workspace 會「信任」原始劃分的結果，並傳回相同的頁面，但以當前月份為日期範圍。 </p> </td> 
   </tr> 
  </tbody> 
@@ -775,11 +775,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local">傳送及下載 PDF 而不儲存專案</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  >傳送及下載 PDF 而不儲存專案</a> </p> </td> 
    <td colname="col2"> <p>您現在可以傳送和下載「工作區」中的 PDF 檔案，而無須儲存專案。PDF 檔案的名稱會符合專案目前名稱。已下載的 PDF 檔案包含專案中未儲存的變更。請注意，您無法排程未儲存的專案。(您也可以傳送和下載未儲存的 CSV 檔案，但無法排程。) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6" format="dita" scope="local">自動共用專案元件</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >自動共用專案元件</a> </p> </td> 
    <td colname="col2"> <p>您現在可以選擇與所有收件者自動共用專案元件 (區段、計算量度及日期範圍)。共用後，這些元件會顯示在收件者工作區的元件下拉式清單中。 </p> </td> 
   </tr> 
   <tr> 
@@ -787,11 +787,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> <p>新增 CSV 格式的「流失」視覺效果支援。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 區段中的日期範圍 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 區段中的日期範圍 </a> </p> </td> 
    <td colname="col2"> <p>您可以在區段放置區域中放置日期範圍 (例如，面板區段放置區域、「流失」視覺效果區段放置區域等)。日期範圍會自動轉換為區段。日期範圍可以是自訂和非自訂，但不可是粒度，如小時/天/週/月/季/年。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 在表格中的每一欄新增時段 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 在表格中的每一欄新增時段 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以在表格的每個欄中新增時段，以新增不同於行事曆設定的時段。此功能提供您另一種比較日期的方式。您也可以讓每一欄的日期與同一列中所有開始日期一致。 </p> </td> 
   </tr> 
  </tbody> 
@@ -810,7 +810,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 日期比較 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日期比較 </a> </p> </td> 
    <td colname="col2"> <p>新的「日期比較」功能可讓您使用任一欄來建立一般的日期比較 (例如年與年、季與季、月與月等等)。 </p> <p>日期比較會自動包括差別欄，其中顯示百分比的變化。 </p> </td> 
   </tr> 
  </tbody> 
@@ -829,7 +829,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/fallout/fallout-flow.md#concept_D7ED51D138C747CA8F35BD93F21E79A6" format="dita" scope="local"> 流失分析 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md"  > 流失分析 </a></b> </td> 
    <td colname="col2"> <p>新的流失功能可將行銷漏斗功能引進 Analysis Workspace。漏斗可讓您識別客戶與您的網站互動或進行跨頻道促銷活動時，客戶於何處放棄促銷活動或是從定義的轉換路徑轉向。流失分析可讓您使用新的視覺效果和 Analysis Workspace 提供的固有靈活性來建立強大的漏斗，用以識別關鍵成功量度的轉換。流失分析可讓您 </p> <p> </p> 
     <ul id="ul_E7C8255BA5D84F74ABBC6CC0E148DFB0"> 
      <li id="li_B7AC104F2A9348DCB2BCAA2FC9D3F3E6">拖曳、放置和重新安排漏斗步驟 (接觸點) </li> 
@@ -838,7 +838,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/fallout2.png" width="500px" id="image_193B0E7870734DAFA063BBFA121A3E34" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/visualizations/c-flow/flow.md#concept_2F210EC358ED4887AE6DAA8C095DB55E" format="dita" scope="local"> 流量視覺效果 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/visualizations/c-flow/flow.md"  > 流量視覺效果 </a></b> </td> 
    <td colname="col2"> <p>新的流量功能可讓您透過 Analysis Workspace 中全新、更新且彈性的視覺效果，來檢視客戶在網站/應用程式間的流程/歷程，以便了解客戶如何在其網站/應用程式間移動和取得進展。流量可讓您 </p> <p> </p> 
     <ul id="ul_F1D4A99743664CB3B17E9485CF5E72FC"> 
      <li id="li_0F7AF953EAB746DC95032FF9A533E560">將客戶的跨資產歷程視覺化呈現 </li> 
@@ -847,7 +847,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/flow.png" width="500px" id="image_8ED88B5EDAA046978170F8BBB4018DA2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> 智慧型警報 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/components/c-alerts/intellligent-alerts.md"  > 智慧型警報 </a></b> </td> 
    <td colname="col2"> <p>所有 Adobe Analytics 通用的全新警報系統，智慧型警報，可讓您在 Analysis Workspace 中建立與管理警報，並有完整的警報預覽與規則貢獻。您可以︰ </p> <p> </p> 
     <ul id="ul_02BD64D3047942009880B8F1DA1F2A40"> 
      <li id="li_01504AABBC514DF38354683843222541">根據異常 (90％、95％ 或 99％ 臨界值；％ 變化；以上/以下) 建立警報。 </li> 
@@ -857,7 +857,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/intel-alerts.png" width="400px" id="image_10069C33B6B1437CA578B8194FC75AD8" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md#concept_65E7C869C20B4509984189C8FD971F0E" format="dita" scope="local"> 異常偵測和貢獻分析 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md"  > 異常偵測和貢獻分析 </a></b> </td> 
    <td colname="col2"> <p>讓您知道趨勢資料的變化是否顯著以及造成的原因。 </p> <p>現在「異常偵測」和「貢獻分析」是 Analysis Workspace 的核心工作流程。 </p> <p>重要提示:「貢獻分析」僅適用於 Adobe Analytics Premium 客戶。 </p> <p>您可以︰ </p> <p> </p> 
     <ul id="ul_9CEE47788F3640838D8598F2E2C020D6"> 
      <li id="li_787236BB5EA545B8833B311C06C24337">自動偵測您的資料中具有統計顯著意義的資料異常。 </li> 
@@ -865,7 +865,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/anomaly_linechart.png" width="500px" id="image_DFAF4034E2AC4B4AAB140EA004112722" /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b> <a href="../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5" format="dita" scope="local"> 入門專案 </a></b> </td> 
+   <td colname="col1"> <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 入門專案 </a></b> </td> 
    <td colname="col2"> 為了讓使用者能更輕鬆地開始使用 Analysis Workspace，我們為一些常見的業務問題建立了一些預先建立的專案範本，例如 <p> </p> 
     <ul id="ul_603F5ACC16F74D53AEB9F762FAC91656"> 
      <li id="li_6B3F2E5D4B044EC19D45E5501E33DB91">使用者保留率 </li> 
@@ -873,7 +873,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     </ul> <p><img placement="break"  src="assets/starter.png" width="500px" id="image_A62AFD39812E43DCBF30D5E072A7E892" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <b><a href="../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_46E886D108DF49BDB6EE2D5A0E054E95" format="dita" scope="local">色階分佈圖視覺效果</a></b> </td> 
+   <td colname="col1"> <b><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md">色階分佈圖視覺效果</a></b> </td> 
    <td colname="col2"> <p>色階分佈圖可讓使用者查看任何成功事件中使用者的分佈。您可以自訂貯體和貯體大小，以容納任何分佈並識別高價值和低價值的使用者。 </p> <p><img placement="break"  src="assets/histogram3.png" width="500px" id="image_E3277073B50140E0A3FD7C1601CF9661" /> </p> </td> 
   </tr> 
   <tr> 
@@ -888,7 +888,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_946EC05568D4447193E9307546DF6F9B">在搜尋列中新增一個篩選器，可以對標籤、我的最愛、已核准的項目和元件進行篩選。 </li> 
      <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">新增預覽圖示至手動列 (而不是列出維度項目的動態列)，可讓您預覽區段、量度和日期範圍。 </li> 
      <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->將 Analysis Workspace 教學課程的 YouTube 連結更新為: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS" format="https" scope="external">https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
+      <!--AN-128702: -->將 Analysis Workspace 教學課程的 YouTube 連結更新為: <a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->為了視覺效果，我們在操作功能表中新增了一個名為<span class="uicontrol">「重新開始」</span>的滑鼠右鍵選項 (將用於流量、Venn 圖表、長條圖)，該選項會刪除目前視覺效果的配置，並開啟一個新面板，讓您可以在其中重新進行配置。 </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">一個名為「可見圖例」的新增視覺效果設定，可用於隱藏「摘要編號/摘要變更」視覺效果的篩選器的詳細資訊文字。 </li> 
@@ -905,18 +905,18 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 2016 年 6 月 16 日發行的新功能:
 
 * [新的群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) ，可讓管理員允許或拒絕使用者存取「 **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]** 」標籤。 截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
-* 行動設定檔案中遺失[區段比較](../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
-* [新專案功能表結構](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
-* [新的左側欄](../../analyze/analysis-workspace/build-workspace-project/freeform-overview.md#concept_F5EE3CF6691545D6AA69AD6F512555D7): 面板、視覺效果、元件
-* 新的 [](../../analyze/analysis-workspace/visualizations/venn.md#concept_202EAB813A084DBD9DBF5E84C92E4B9D)Venn 視覺效果類型，可讓您拖曳至最多 3 個區段及量度，並建立 Venn 圖表。
-* 排名表格中的[「趨勢選取範圍」](../../analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
-* [「建立視覺效果」圖示](../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276): 按一下此圖示可提供您下一個動作 (長條圖、Venn...) 的智慧猜測
-* 展開的「[手動列](../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8)」功能
-* 「[新增區段](../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80)」拖放區域
+* 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
+* [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
+* [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 面板、視覺效果、元件
+* 新的 [](/help/analyze/analysis-workspace/visualizations/venn.md)Venn 視覺效果類型，可讓您拖曳至最多 3 個區段及量度，並建立 Venn 圖表。
+* 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
+* [「建立視覺效果」圖示](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md): 按一下此圖示可提供您下一個動作 (長條圖、Venn...) 的智慧猜測
+* 展開的「[手動列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)」功能
+* 「[新增區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」拖放區域
 * 小幅更新:
 
    * 可刪除面板中所有的視覺效果和專案中的所有面板。(先前，您必須保留至少一個視覺效果或一個面板。)
-   * 變更為[快速鍵](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) (快捷鍵) 可加速使用 Analysis Workspace。
+   * 變更為[快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (快捷鍵) 可加速使用 Analysis Workspace。
    * 樣式變更: 視覺效果中較小字體; 列上的顏色切換; 日期選擇器下移 (面板上)。
 
 ## 2016 年 4 月
@@ -933,7 +933,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> 傳送檔案 </td> 
-   <td colname="col2"> <p>透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。See <a href="../../analyze/analysis-workspace/curate-share/t-schedule-report.md#task_509549DD2D83495A94A0DFC6724DA907" format="dita" scope="local"> Send File - Schedule a project for delivery </a>. </p> </td> 
+   <td colname="col2"> <p>透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。See <a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  > Send File - Schedule a project for delivery </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 下載 PDF </td> 
@@ -946,17 +946,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 2016 年 1 月 21 日發行的新功能
 
-* [復原動作](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
-* [連結至本專案](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
-* [項目圖表、散點圖和樹狀圖視覺效果](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
-* [區段、量度和日期的另存新檔功能](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
-* [加入新區段按鈕](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
-* [條件式格式](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
-* [維度預覽](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
-* [可見圖例](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
-* [將 Y 軸固定於零](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
-* [標籤標題顯示專案名稱](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
-* [轉讓專案所有權](../../analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
+* [復原動作](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_12890C393D5E4FC8A3CF050318BD8482)
+* [連結至本專案](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_453E70F7409F4501B8E976A0D18C9A46)
+* [項目圖表、散點圖和樹狀圖視覺效果](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_B19EA50EBF5546E99D3A142827153FD6)
+* [區段、量度和日期的另存新檔功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_04C8B10A0751453AAE5F1BC35938C6CE)
+* [加入新區段按鈕](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_85CC88C02C79456EA2B41F2BFBB64FC4)
+* [條件式格式](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_5775B505D83041408B8C3EAEC5D7C32B)
+* [維度預覽](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_F519EBF889B244E8B25BB6BA2833325A)
+* [可見圖例](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_28D10D86CAE343AB838808C1DD2E7983)
+* [將 Y 軸固定於零](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_83DF5DE79EF04F9F8DCB3154F5E799B3)
+* [標籤標題顯示專案名稱](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_497C61A030984BCCA2CEA553312C3226)
+* [轉讓專案所有權](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md#section_989C2CCB80B5408EB85E6B12C8D943E3)
 
 
 ## 復原動作 {#section_12890C393D5E4FC8A3CF050318BD8482}
@@ -967,7 +967,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/undo.png)
 
-您也可以使用標準的Windows和Mac鍵 [盤快速鍵](../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051) （ctrl或cmd + z）來還原。
+您也可以使用標準的Windows和Mac鍵 [盤快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) （ctrl或cmd + z）來還原。
 
 *`Undo`*&#x200B;尤其適合用來復原表格中的劃分。
 
