@@ -7,7 +7,7 @@ title: Data Warehouse 概觀
 topic: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -67,7 +67,7 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
   </tr> 
   <tr> 
    <td colname="col1"><span class="wintitle"> 量度排序</span> </td> 
-   <td colname="col2">提供依遞減量度值排序的排名劃分報表，類似於「Reports &amp; Analytics」使用者介面、Data Workbench 等等顯示的項目。<a href="../../export/data-warehouse/sorting-by-metric.md#concept_7B7BDE3D42E549389DACA1E33B2FC1CC" format="dita" scope="local"> 更多...</a> </td> 
+   <td colname="col2">提供依遞減量度值排序的排名劃分報表，類似於「Reports &amp; Analytics」使用者介面、Data Workbench 等等顯示的項目。<a href="/help/export/data-warehouse/sorting-by-metric.md"  > 更多...</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 排程傳送</span> </td> 
