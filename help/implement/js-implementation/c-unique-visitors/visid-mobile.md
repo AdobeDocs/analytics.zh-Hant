@@ -8,7 +8,7 @@ title: 識別行動裝置
 topic: 開發人員和實作
 uuid: 22587dd1-cead-485b-a4d8-94dfb7cd9662
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 大部分行動裝置接受瀏覽器 Cookie。然而，萬一裝置不接受 Cookie，則會使用另一種方法來專門識別無線裝置。
 
-Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP [訂閱者 OD 標題](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)。這些標題常包含裝置電話號碼 (或號碼的雜湊版本) 或其他識別碼。目前大部分裝置具有一或多個可唯一識別裝置的標題，所有 Adobe 資料收集伺服器都會自動以這些標題代替訪客 ID。
+Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP [訂閱者 OD 標題](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md#section_60D6EAC0D16945A89DD5A7ADF3B8298D)。這些標題常包含裝置電話號碼 (或號碼的雜湊版本) 或其他識別碼。目前大部分裝置具有一或多個可唯一識別裝置的標題，所有 Adobe 資料收集伺服器都會自動以這些標題代替訪客 ID。
 
 在一般影像要求中，路徑 (`/b/ss/rsid/1`) 中的「1」會導致 Adobe 伺服器傳回 gif 影像，並嘗試設定持續的[!UICONTROL 訪客 ID] Cookie (`AMCV_` 或 `s_vi`)。然而，如果根據 HTTP 標題將裝置辨識為行動裝置，則會傳遞 '5'，取代 '1'，以指出應該傳回 wbmp 格式影像，而且我們已辨識的無線標題 (不是 Cookie) 清單應該用來識別裝置。
 
@@ -88,4 +88,4 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP [訂閱者 OD 
 
 例如，"callinglineid" 會比對出 "X-Up-Calling-Line-ID" 和 "nokia-callinglineid"。標題類型可指出標題中應有的項目。以下列出標題的優先順序 (若有 "callinglineid" 標題存在，則會以此標題取代 "subno")。
 
-您可以使用[從標題擷取特定值的動態變數](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)。
+您可以使用[從標題擷取特定值的動態變數](/help/implement/js-implementation/c-variables/dynvars-overview.md)。
