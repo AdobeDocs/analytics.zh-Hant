@@ -8,7 +8,7 @@ title: 標記行動通訊協定的頁面
 topic: 開發人員和實作
 uuid: 5788beaf-f309-4918-a99c-a3e591668205
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -52,4 +52,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * `/5.5/` 一律會傳回 WBMP 影像。
 
-請參閱[識別使用行動通訊協定的訪客](../../../implement/js-implementation/c-unique-visitors/visid-mobile.md#concept_8C5557634014440AA3588FBB0CF6BB49)。
+請參閱[識別使用行動通訊協定的訪客](/help/implement/js-implementation/c-unique-visitors/visid-mobile.md)。
