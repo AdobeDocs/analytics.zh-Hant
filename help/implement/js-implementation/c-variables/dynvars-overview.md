@@ -9,7 +9,7 @@ title: 動態變數
 topic: 開發人員和實作
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 在產生於頁面檢視的 Adobe 影像要求中，若您使用動態變數將[!UICONTROL 自訂流量 ] 的值複製到[!UICONTROL 自訂轉換 ]，您將會看 `v1=D=c1`1=1。若 eVar1 接收到先前位於要求中的值，Adobe 的伺服器將會在資料處理期間動態地將[!UICONTROL 自訂流量 1] 的值複製到[!UICONTROL 自訂轉換 1]。因此，原先使用[!UICONTROL 自訂流量 1] 傳遞的值，也會出現在[!UICONTROL 自訂轉換 1] 報告中。
 
-動態變數的傳遞方式，是先將一個變數設為所需值，再將其他變數設為 `D=[variable abbreviation]`。如需各個變數的縮寫，請參閱[資料收集查詢參數](../../../implement/js-implementation/data-collection/query-parameters.md)。動態變數可以從下列位置提取資料:
+動態變數的傳遞方式，是先將一個變數設為所需值，再將其他變數設為 `D=[variable abbreviation]`。如需各個變數的縮寫，請參閱[資料收集查詢參數](/help/implement/js-implementation/data-collection/query-parameters.md)。動態變數可以從下列位置提取資料:
 
 * 其他查詢字串變數
 * HTTP 標題 (Cookie HTTP 標題除外)
