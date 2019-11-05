@@ -8,7 +8,7 @@ title: 常見問題集
 topic: 區段
 uuid: f49dc829-1d53-4183-9add-1aea5219d89
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,12 +25,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * 在比較時使用[區段作為維度](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html)。
    * 在[流失分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用區段。
 
-* 您可以[將多個區段套用至報表或專案](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#task_13E69C7D428A43EF9CCCA7F1104F1E8F)。
+* 您可以[將多個區段套用至報表或專案](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 區段在所有報表套裝中都通用。
-* The [Segment Builder](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726) simplifies segment creation.
-* [區段管理員](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_7A2E019317864065B7C641DC3315928F)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_6D2E1A72A3AD4EBBB9135094F2D9DEDF)。
+* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* [區段管理員](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 
-* 您可以[標記區段](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* 您可以[標記區段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
 
 * 您可以在 Ad Hoc Analysis 外建立[循序區段](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。
 * 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
@@ -63,7 +63,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **舊式區段下拉式清單移至何處?**
 
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_643F2DF74C544796B58F4656ABC5F726)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下「區段」圖示 ![](assets/segment_icon.png)
+「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下「區段」圖示 ![](assets/segment_icon.png)
 
 在左邊導覽中，區段邊欄隨即顯示。
 
@@ -79,7 +79,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
 
-管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](../../components/c-segmentation/seg-reference/seg-rights.md)
+管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
 **我是否可以看見公司中的所有區段?**
 
@@ -97,7 +97,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 **我為何刪除不了區段?**
 
-如果區段已[發佈至 Experience Cloud](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01)，則您無法加以刪除或編輯。不過，您可以加以複製再編輯複製的版本。
+如果區段已[發佈至 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)，則您無法加以刪除或編輯。不過，您可以加以複製再編輯複製的版本。
 
 ## 最佳實務 {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
@@ -112,13 +112,13 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 * 檢閱您現有的區段。
 * 適時將這些區段新增至區段庫。
 * 核准要做為標準區段的區段。
-* 標記區段時依照[最佳實務](../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50)。
+* 標記區段時依照[最佳實務](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 
 ## 管理舊式區段 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
 **我現有的區段有什麼改變?**
 
-您現有的區段將繼續如往常般運作。任何已套用這些區段的報表都將繼續正常運作。[更多...](../../components/c-segmentation/seg-transition.md#section_83ACAB256F394DCD8B424D8920BDD853)
+您現有的區段將繼續如往常般運作。任何已套用這些區段的報表都將繼續正常運作。[更多...](/help/components/c-segmentation/seg-transition.md)
 
 原本預先定義的區段與套裝區段多半會以區段範本的形式移轉至「區段產生器」。區段範本的用途是快速建立具有常見對象的自訂區段。區段範本無法直接套用至報表，但可以輕易儲存成自訂區段。
 
@@ -204,9 +204,9 @@ seg_definition.xml
 * 瀏覽器——使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如Google Chrome
 * 作業系統——使用「作業系統類型」維度來取得某個類型的所有作業系統，例如Microsoft Windows。
 
-* [新維度和經過重新命名的維度](../../components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [包含的變更](../../components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [變更為小於和大於](../../components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [新維度和經過重新命名的維度](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
+* [包含的變更](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [變更為小於和大於](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新維度和經過重新命名的維度 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
