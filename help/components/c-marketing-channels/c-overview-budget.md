@@ -8,7 +8,7 @@ title: 成本和預算
 topic: Reports and Analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,21 +17,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 瞭解如何將成本和預算金額指派給渠道。
 
-## 成本和預算 {#topic_7CCFD3B54440433FBA0E4EE127F58B0C}
-
-瞭解如何將成本和預算金額指派給渠道。
-
 成本表示您對渠道的花費。預算表示可花費的金額。
 
 檢視 ROI 的便利方法是建立顯示收入減去成本的計算量度。或者建立一個顯示總成本以及每項新增參與成本劃分的計算量度。例如，您可以透過建立計算量度，執行顯示新增參與的[!UICONTROL 「首次接觸渠道」]報表，然後新增「首次接觸成本」量度，顯示每項新增參與的成本。
 
-請參閱 [用於行銷渠道報表中的計算量度](../../components/c-marketing-channels/c-channel-calc-metrics.md#topic_4521D324A79E43EF99E69FCDE1E92F74).
+請參閱 [用於行銷渠道報表中的計算量度](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 僅可為渠道指定成本和預算。所有成本均設定有套用於匯報的時間範圍。當成本與渠道直接相關聯時，選擇分配量度來顯示成本針對渠道內促銷活動的劃分方式。
 
 新增成本和預算項目後，即可將表格資料匯出至 CSV 檔案。您亦可將 CSV 檔案匯入「行銷渠道成本」頁面。
 
-## 新增成本和預算項目 {#task_9238A033994440748960DE21593E6388}
+## 新增成本和預算項目 {#add-cost-and-budget}
 
 新增成本和預算項目至行銷管道。
 
@@ -45,11 +41,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
 
-## Marketing Channel costs - definitions {#reference_0B193210E10A4B6B84A385A781FD9515}
+## Marketing Channel costs - definitions {#mktg-channel-costs}
 
 行銷渠道成本或預算的欄位定義
-
-
 
 | 欄位 | 定義 |
 |--- |--- |
