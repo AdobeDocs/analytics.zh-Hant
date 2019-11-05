@@ -5,7 +5,7 @@ seo-title: 伺服器呼叫使用狀況警報
 title: 伺服器呼叫使用狀況警報
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -67,12 +67,12 @@ It is pre-populated with **1 default alert** that appears within any login compa
 
    | Action | 定義 |
    |--- |--- |
-   | + 新增 | 按一下[!UICONTROL 「+ 新增」]以存取[「警報產生器」](../../admin/c-server-call-usage/scu-alerts.md)。 |
+   | + 新增 | 按一下[!UICONTROL 「+ 新增」]以存取[「警報產生器」](/help/admin/c-server-call-usage/scu-alerts.md)。 |
    | 標記 | 標記警報可讓您組織警報以方便使用。 |
    | 刪除 | 您可以刪除預設警報以外的所有警報。 |
    | 重新命名 | 您可以重新命名預設警報以外的所有警報。 |
    | 核准 | 核准警報即可使其成為「正式」警報。 |
    | 啟用/停用 | 您可以啟用或停用所有警報，甚至是預設警報。 |
    | 續訂 | 選取一或多個警報後，可續訂這些警報。這將延長警報到期日，無論其原始到期日為何，將從按下[!UICONTROL 「更新」]之日起延長 1 年。 |
-   | 匯出至 CSV | 請參閱[下載使用情況報表](../../admin/c-server-call-usage/report-suite-usage.md) |
+   | 匯出至 CSV | 請參閱[下載使用情況報表](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
