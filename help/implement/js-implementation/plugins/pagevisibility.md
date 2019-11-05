@@ -8,7 +8,7 @@ title: getPageVisibility
 topic: 開發人員和實作
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE]此為測試版外掛程式，隨後可能有其他更新。
 
-此外掛程式需要使用 [getVisitStart](../../../implement/js-implementation/plugins/getvisitstart.md#concept_1C3CD25A87094A498A1D8A455963FBD8)。
+此外掛程式需要使用 [getVisitStart](/help/implement/js-implementation/plugins/getvisitstart.md)。
 
 此外掛程式也會記錄頁面在瀏覽器中的秒數總計 (包括作用中和被動檢視時間)。必須使用 getPreviousValue 外掛程式，才能追蹤與頁面可見度事件關聯的上一頁名稱。追蹤這些值可讓您更清楚瞭解訪客參與，以及更精確追蹤您網站上的訪客行為。
 
