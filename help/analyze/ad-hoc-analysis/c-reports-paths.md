@@ -7,7 +7,7 @@ title: 路徑報表
 topic: Ad Hoc Analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 **[!UICONTROL 流失]**: 顯示您定義的每個查核點之間的存取量減少情況以及轉換率。步驟依自上向下的順序排列，其中左邊是原始數字與百分數，右邊是轉換與流失百分比。
 
-請參閱[流失報告](../../analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)，瞭解更多資訊。
+請參閱[流失報告](/help/analyze/ad-hoc-analysis/c-reports-paths.md#concept_0ED452F3B1D04A19A59DD04D76D20347)，瞭解更多資訊。
 
 **[!UICONTROL 路徑長度]**: 以百分比及總數向您展示網站每位訪客的瀏覽深度。也就是說，該報告將顯示訪客離開您網站前平均檢視的頁面數量。
 
