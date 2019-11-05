@@ -5,7 +5,7 @@ seo-title: 在 Analysis Workspace 中檢視異常
 title: 在 Analysis Workspace 中檢視異常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 異常情形發生日期
 * 異常情形的原始值
 * 高於或低於期望值的百分比，期望值會加上綠色實線。
-* 啟動[貢獻分析](../../../../analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)的分析連結。
+* 啟動[貢獻分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)的分析連結。
 
 ![](assets/anomaly_linechart.png)
 
