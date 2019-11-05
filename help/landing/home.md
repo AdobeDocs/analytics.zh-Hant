@@ -4,7 +4,7 @@ seo-title: Adobe Analytics 技術文件和自助使用者指南的完整清單
 description: Analytics 使用者指南和資源
 seo-description: Adobe Analytics 技術文件、發行說明和自助使用者指南的完整清單。
 translation-type: tm+mt
-source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,11 +31,11 @@ source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
 
 [![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)資料工[作台指南](https://marketing.adobe.com/resources/help/en_US/insight/) -資料工作台用戶端、安裝、資料集設定等
 
-[![技術說明](assets/technotes_50px.png)](../technotes/home.md) [Analytics 技術說明](../technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
+[![技術說明](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技術說明](/help/technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
 | 全新和精選項目 | 重要 Analytics 資源 |
 | --- | --- |
-| <ul><li>[地區資料收集](../technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱: [2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics教學課程與影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[現場培訓與虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱: [2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics教學課程與影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[現場培訓與虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -43,13 +43,13 @@ source-git-commit: 85d80a186d7f833065a2ebebad53ca158c788100
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](../analyze/analysis-workspace/analysis-workspace-features.md)
-* [Report Builder](../analyze/report-builder/home.md)
-* [Data Warehouse](../export/data-warehouse/data-warehouse.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Report Builder](/help/analyze/report-builder/home.md)
+* [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
-* [Reports & Analytics](../analyze/reports-analytics/getting-started.md)
-* [Ad Hoc Analysis](../analyze/ad-hoc-analysis/adhoc-home.md)
+* [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
+* [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
 ### Analytics feature list
 
@@ -80,7 +80,7 @@ Support delegates can get assisted support via:
 **In-Product:**
 
 1.  [Sign in to Adobe Analytics.](https://sc.omniture.com/login/)
-2.  Navigate to **Help** > **Customer Care**.  
+2.  Navigate to **Help** > **Customer Care**.
 
 **Phone:** 1-800-497-0335 (US & Canada).
 
@@ -91,5 +91,5 @@ Get [phone numbers for other regions](https://helpx.adobe.com/contact/dma-extern
 1.  Include [case details](https://helpx.adobe.com/experience-cloud/enterprise-email-support-guidelines.html) to open a ticket via email. 
 1.  Send your case to [customercare@adobe.com](mailto:customercare@adobe.com).
 
-Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).  
+Not sure if you're a **support delegate**? Find out if this [user type applies to you](https://helpx.adobe.com/experience-cloud/supported-users.html) and learn about our [enterprise support terms](https://helpx.adobe.com/support/programs/enterprise-support-terms.html).
  -->
