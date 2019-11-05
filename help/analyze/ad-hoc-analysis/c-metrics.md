@@ -5,7 +5,7 @@ seo-title: 量度
 title: 量度
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -70,7 +70,7 @@ t_add_metrics_dsc.xml
 
    如果您不想要重複新增度量至某個報表，可以事先在[!UICONTROL 設定]中指定預設度量。
 
-   請參閱[排名標籤 - 定義](../../analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF)。
+   請參閱[排名標籤 - 定義](/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_FB9BADD7E3DA42C1BB2A02A6E9D5C1CF)。
 
 ## 計算量度產生器 {#concept_F8E213CE786A43FB93847C5BA883A29C}
 
