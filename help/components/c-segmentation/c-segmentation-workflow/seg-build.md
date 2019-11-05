@@ -7,7 +7,7 @@ title: 建立區段
 topic: 區段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -24,11 +24,11 @@ source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 要存取「區段產生器」有數種方式:
 
-* **Analytics頂端導覽**:按一 **[!UICONTROL 下「Analytics]** &gt;元 **[!UICONTROL 件]** &gt;區 **[!UICONTROL 段」]**。
-* **[!UICONTROL 分析工作區]**:按一 **[!UICONTROL 下「Analytics]** &gt;工 **[!UICONTROL 作區]**」，開啟專案，然後按一下「 **[!UICONTROL +新增]** &gt;建立 ****&#x200B;區段」。
-* **[!UICONTROL 報告與分析]**:按一 **[!UICONTROL 下「Analytics]** &gt;報 **[!UICONTROL 表]**」，開啟現有報表，然後按一下左側導覽中 ![](assets/segment_icon.png) 的「區段」圖示，然後按一下「 **[!UICONTROL 新增]**」。
-* **[!UICONTROL 臨機分析]**:在臨 [機分析中建立區段](../../../components/c-segmentation/c-segmentation-workflow/seg-build.md#section_E440630183D64999BA2369D1B8048AA6)。
-* **[!UICONTROL 報告建立工具]**:在報 [告建立工具中新增或編輯區段](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
+* **** Analytics頂端導覽：按一 **[!UICONTROL 下「Analytics]** &gt;元 **[!UICONTROL 件]** &gt;區 **[!UICONTROL 段」]**。
+* **分析工作區**:按一 **[!UICONTROL 下「Analytics]** &gt;工 **[!UICONTROL 作區]**」，開啟專案，然後按一下「 **[!UICONTROL +新增]** &gt;建立 ****&#x200B;區段」。
+* **報告與分析**:按一 **[!UICONTROL 下「Analytics]** &gt;報 **[!UICONTROL 表]**」，開啟現有報表，然後按一下左側導覽中 ![](assets/segment_icon.png) 的「區段」圖示，然後按一下「 **[!UICONTROL 新增]**」。
+* **臨機分析**:在臨 [機分析中建立區段](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md#build-segments)。
+* **報告建立工具**:在報 [告建立工具中新增或編輯區段](https://marketing.adobe.com/resources/help/en_US/arb/segmentation.html)。
 
 ## Segment Builder user interface {#concept_643F2DF74C544796B58F4656ABC5F726}
 
@@ -36,9 +36,9 @@ source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 ## Web UI 功能 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
-[!UICONTROL 「區段產生器」]可讓您在 Web UI (或在 [Ad Hoc Analysis 的 Java UI](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#section_E440630183D64999BA2369D1B8048AA6)) 中建立和編輯區段。您可以新增規則定義和容器來微調您的區段、堆疊區段和巢狀內嵌區段。您也可以驗證有多少個頁面檢視、瀏覽和獨特訪客是從您目前的區段定義得出。然後儲存區段，以供未來使用。
+[!UICONTROL 「區段產生器」]可讓您在 Web UI (或在 [Ad Hoc Analysis 的 Java UI](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)) 中建立和編輯區段。您可以新增規則定義和容器來微調您的區段、堆疊區段和巢狀內嵌區段。您也可以驗證有多少個頁面檢視、瀏覽和獨特訪客是從您目前的區段定義得出。然後儲存區段，以供未來使用。
 
-存取「區段產生器」的方法有:
+存取「區段產生器」的方法有::
 
 * 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)In the segment rail that displays, click **[!UICONTROL Add]**.
 
@@ -47,16 +47,16 @@ source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 ![](assets/segment_builder_ui.png)
 
-1. **[!UICONTROL 標題]**:可讓您命名或重新命名區段。
-1. **[!UICONTROL 說明]**:提供區段的說明。 如果您要共用區段，則必須提供說明。
-1. **[!UICONTROL 標籤]**:從現 [有標籤清單中挑選](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_CD892CEB326C4986A1B67487052DBA50) ，或建立新標籤，以標籤您所建立的區段。
-1. **[!UICONTROL 定義]**:這是您建立和設 [定區段、新增規則](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_BD4C17B01C5B4E378D0C14C852D055D4)、巢狀內嵌容器及排序容器的地方。 可讓您透過選取容器並拖放維度、區段或量度至定義，來提供新區段的說明。
-1. **[!UICONTROL 顯示]**:（頂端容器選擇器）。Lets you select the top-level [container](../../../components/c-segmentation/seg-overview.md#concept_A38E7000056547399E346559D85E2551) ([!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). 預設的頂層容器為「點擊」容器。
-1. **[!UICONTROL 選項]**:（齒輪）圖示
+1. **** 標題：可讓您命名或重新命名區段。
+1. **** 說明：提供區段的說明。 如果您要共用區段，則必須提供說明。
+1. **** 標籤：從現 [有標籤清單中挑選](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) ，或建立新標籤，以標籤您所建立的區段。
+1. **** 定義：這是您建立和設 [定區段、新增規則](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)、巢狀內嵌容器及排序容器的地方。 可讓您透過選取容器並拖放維度、區段或量度至定義，來提供新區段的說明。
+1. **** 顯示：（頂端容器選擇器）。Lets you select the top-level [container](/help/components/c-segmentation/seg-overview.md) ( [!UICONTROL Visitor], [!UICONTROL Visit], [!UICONTROL Hit]). 預設的頂層容器為「點擊」容器。
+1. **** 選項：（齒輪）圖示
 
-   * **[!UICONTROL + 新增容器]**: 可讓您新增新的容器 (在頂層容器下) 至區段定義。
-   * **[!UICONTROL + 從選項新增容器]**: 可讓您使用在「定義」欄位中選取的一個以上元素建立新容器。
-   * **[!UICONTROL 排除]**: 可讓您透過排除一或多個維度、區段或量度來定義區段。
+   * **** +新增容器：可讓您新增容器（位於頂層容器下方）至區段定義。
+   * **** +從選取範圍新增容器：可讓您從「定義」欄位中選取的元素（多個）建立新容器。
+   * **** 排除：可讓您排除一或多個維度、區段或量度來定義區段。
 
 **[!UICONTROL 歸因模型]**:用於維度分段。 維度模型在循序分段中特別有用，例如支援「流量」視覺化的維度模型：
 
@@ -66,26 +66,26 @@ source-git-commit: ac663ccb22e4d33a35ede96d59ee0699b04de8d5
 
 ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL 維度]**:維度會從「維度」清單中拖放（橘色側欄）。
-1. **[!UICONTROL 比較]**:您可以使用選取的運算子來比較和限制值。
-1. **[!UICONTROL 值]**:您為維度、區段或量度輸入或選取的值。
-1. **[!UICONTROL 和／或/然後]**:在容器 [!UICONTROL 或規則之間指派AND/OR] /THEN運算子。 The THEN operator lets you [define sequential segments](../../../components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md#concept_83AEC78CD25F442EBEE364856A889560).
+1. **** 維度：維度會從「維度」清單中拖放（橘色側欄）。
+1. **** 比較：您可以使用選取的運算子來比較和限制值。
+1. **** 值：您為維度、區段或量度輸入或選取的值。
+1. **[!UICONTROL 和／或/然後]**:在容器 [!UICONTROL 或規則之間指派AND/OR] /THEN運算子。 The THEN operator lets you [define sequential segments](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md).
 1. **[!UICONTROL 量度]**:（綠色側欄）從「量度」清單拖放的量度。
 1. **[!UICONTROL 比較運算子]** :您可以使用選取的運算子來比較和限制值。
 1. **[!UICONTROL 值]**:您為維度、區段或量度輸入或選取的值。
 1. **[!UICONTROL X]**:（刪除）可讓您刪除區段定義的此部分。
 1. **[!UICONTROL 儲存]** 或 **[!UICONTROL 取消]**:儲存或取消區段。 After clicking **[!UICONTROL Save]**, you are taken to the Segment Manager where you can manage the segment.
-1. **[!UICONTROL 搜尋]**:搜尋維度、區段或度量的清單。
-1. **[!UICONTROL 維度]**:（清單）按一下標題以展開。
-1. **[!UICONTROL 量度]**:按一下標題以展開。
-1. **[!UICONTROL 區段]**:按一下標題以展開。
-1. **[!UICONTROL 報表套裝選擇器]**:可讓您選取此區段將儲存在下方的報表套裝。 您仍可以使用所有報表套裝中的區段。
-1. **[!UICONTROL 區段預覽]**:可讓您預覽關鍵量度，以查看您是否有有效的區段，以及區段的廣度。 代表如果您套用此區段，可以預期看到的資料集劃分。顯示 3 個同心圓以及一個清單，以顯示對資料集執行之區段的[!UICONTROL 點擊]、[!UICONTROL 瀏覽]和[!UICONTROL 訪客]符合項目的數目和百分比。在您建立或對區段定義進行變更之後，此圖表會立即更新。
-1. **[!UICONTROL 產品相容性]**:提供您所建立區段相容的Adobe Analytics產品(分析工作區、 [!UICONTROL 報告與分析]、臨機分析、資料倉庫)清單。 大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](../../../components/c-segmentation/seg-reference/seg-compatibility.md#concept_7A2CC00352274A75ACD4949CA3C144D4). 在您對區段定義進行變更之後，此圖表會立即更新。
+1. **** 搜尋：搜尋維度、區段或度量的清單。
+1. **** 維度：（清單）按一下標題以展開。
+1. **** 量度：按一下標題以展開。
+1. **** 區段：按一下標題以展開。
+1. **** 報表套裝選擇器：可讓您選取此區段將儲存在下方的報表套裝。 您仍可以使用所有報表套裝中的區段。
+1. **** 區段預覽：可讓您預覽關鍵量度，以查看您是否有有效的區段，以及區段的廣度。 代表如果您套用此區段，可以預期看到的資料集劃分。顯示 3 個同心圓以及一個清單，以顯示對資料集執行之區段的[!UICONTROL 點擊]、[!UICONTROL 瀏覽]和[!UICONTROL 訪客]符合項目的數目和百分比。在您建立或對區段定義進行變更之後，此圖表會立即更新。
+1. **** 產品相容性：提供您所建立區段相容的Adobe Analytics產品(分析工作區、 [!UICONTROL 報告與分析]、臨機分析、資料倉庫)清單。 大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/c-segmentation/seg-reference/seg-compatibility.md). 在您對區段定義進行變更之後，此圖表會立即更新。
 
 Segments with embedded date ranges continue to operate differently in Analysis Workspace versus [!UICONTROL Reports &amp; Analytics]: In Workspace, a segment with an embedded date range overrides the panel date range. By contrast, [!UICONTROL Reports &amp; Analytics] gives you the intersection of the report date range and the segment's embedded date range.
 
-**[!UICONTROL 發佈至Experience Cloud(適用`<report suite name>`於)]**:（未在螢幕上顯示）只有在您要儲存此區段的報表套裝已啟用Experience cloud時，才 [會顯示此選項](../../../components/c-segmentation/c-segmentation-workflow/seg-workflow.md#concept_1E9FC92437D748C392546542B6511D01)。 By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. 需要區段標題和說明。
+**[!UICONTROL 發佈至Experience Cloud(適用`<report suite name>`於)]**:（未在螢幕上顯示）只有在您要儲存此區段的報表套裝已啟用Experience cloud時，才 [會顯示此選項](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 By publishing a segment to the Experience Cloud, you can use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], and [!DNL Audience Manager]. 需要區段標題和說明。
 
 > [!NOTE]您可以在 Analytics 中編輯或刪除發佈的區隔。如果該區隔正在使用中，系統會在您編輯該區隔時發出警告訊息。您無法刪除 Adobe [!DNL Target] 正在使用的已發佈區段。
 
@@ -99,7 +99,7 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 >
 >Once a visitor qualifies for the audience shared from Analytics, there is a 24 - 48 hour delay before that information is actionable in [!DNL Target], [!DNL Advertising Cloud], and [!DNL Campaign].
 
-## 建立區段 {#section_050E3343533E45C3923242398E0E0213}
+## 建立區段 {#build-segments}
 
 1. 只需從左側窗格將「維度」、「區段」或「量度事件」拖放至「[!UICONTROL 定義]」欄位即可。
 
@@ -107,18 +107,18 @@ Segments with embedded date ranges continue to operate differently in Analysis W
 
    將元素拖曳到「[!UICONTROL 定義]」之後，預設的最上層「[!UICONTROL 點擊]」容器隨即顯示。您可以透過「**[!UICONTROL 顯示]」下拉式功能表，將容器類型變更為「瀏覽」或「訪客」。**
 
-1. 從下拉 [式功能表](../../../components/c-segmentation/seg-reference/seg-operators.md) ，設定運算子。
+1. 從下拉 [式功能表](/help/components/c-segmentation/seg-reference/seg-operators.md) ，設定運算子。
 1. 針對選取的項目輸入或選取值。
 1. Add additional containers if needed, using **[!UICONTROL And]**, **[!UICONTROL Or]**, or **[!UICONTROL Then]** rules.
 1. 放置好容器且設定規則後，請在右上方的驗證圖表中查看區段的結果。驗證器會指出與您所建立區段相符之頁面檢視、瀏覽和獨特訪客的百分比與絕對數量。
-1. Under **[!UICONTROL Tags]**, [tag](../../../components/c-segmentation/c-segmentation-workflow/seg-tag.md#concept_CD892CEB326C4986A1B67487052DBA50) the container by selecting an existing tag or creating a new one.
+1. Under **[!UICONTROL Tags]**, [tag](/help/components/c-segmentation/c-segmentation-workflow/seg-tag.md) the container by selecting an existing tag or creating a new one.
 1. 按一下「**[!UICONTROL 儲存]」來儲存區段。**
 
-您現在會進入「區 [段管理員](../../../components/c-segmentation/c-segmentation-workflow/seg-manage.md#concept_7A2E019317864065B7C641DC3315928F)」，您可透過多種方式標籤、共用及管理區段。
+您現在會進入「區 [段管理員](/help/components/c-segmentation/c-segmentation-workflow/seg-manage.md)」，您可透過多種方式標籤、共用及管理區段。
 
 ## Build and nest containers {#section_1C38F15703B44474B0718CEF06639EFD}
 
-You can [build a framework of containers](../../../components/c-segmentation/seg-overview.md#concept_82653C7E29FE49F5A4B5E5E93B0A6399) and then place logic rules and operators between.
+You can [build a framework of containers](/help/components/c-segmentation/seg-overview.md) and then place logic rules and operators between.
 
 1. Click **[!UICONTROL Options &gt; Add Container]**.
 
