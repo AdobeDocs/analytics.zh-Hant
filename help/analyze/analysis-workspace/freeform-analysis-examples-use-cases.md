@@ -8,7 +8,7 @@ title: Analysis Workspace 使用案例
 topic: Reports and Analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -60,5 +60,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    您已透過劃分資料，為您的銷售團隊產生可在其他促銷活動中實施的建議和交叉銷售項目，可為您的公司帶來更多收入。您可以繼續進行劃分，直到獲得您想要的成果為止。
 
-   現在您可以將報表[共用](../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)給銷售團隊了!
+   現在您可以將報表[共用](/help/analyze/analysis-workspace/curate-share/curate.md)給銷售團隊了!
 
