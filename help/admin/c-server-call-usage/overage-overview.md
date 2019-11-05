@@ -5,7 +5,7 @@ seo-title: 伺服器呼叫使用量概述
 title: 伺服器呼叫使用量概述
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,8 +28,8 @@ Previously, while you could access monthly server call consumption data under  *
 
 ## 必備條件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **權限**: 若要存取「伺服器呼叫使用量」控制面板和「警報產生器/管理器」，您必須是 Adobe Analytics 管理員。
-* **權限**:管理員可授予非管理員的存取權：此權限稱為「伺 **[!UICONTROL 服器呼叫使用」]**。 請參閱[伺服器呼叫使用量權限](../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
+* **** 權限：若要存取「伺服器呼叫使用控制面板」和「警報產生器／管理員」，您必須是Adobe Analytics管理員。
+* **** 權限：管理員可授予非管理員的存取權：此權限稱為「伺 **[!UICONTROL 服器呼叫使用」]**。 請參閱[伺服器呼叫使用量權限](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369).
 
 ## 重要術語 {#section_CBA348A039F34563B097CD8890AB358D}
 
@@ -53,13 +53,13 @@ Previously, while you could access monthly server call consumption data under  *
   </tr> 
   <tr> 
    <td colname="col1"> <p>登入公司 </p> </td> 
-   <td colname="col2"> <p>一間帳單公司可以擁有<a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html" format="html" scope="external">多家登入公司</a>。登入公司是您的組織使用的報表套裝集合。某些組織擁有多個登入公司，適用於組織內的不同部門。在需要處理不同業務單位的大型組織中，有許多報表套裝不適用於公司內其他人時，這特別有用。 </p> <p>通常會是公司的地區子公司。此範例顯示登入公司及其相關的報表套裝: </p> 
+   <td colname="col2"> <p>一間帳單公司可以擁有<a href="https://helpx.adobe.com/analytics/kb/multiple-login-companies.html">多家登入公司</a>。登入公司是您的組織使用的報表套裝集合。某些組織擁有多個登入公司，適用於組織內的不同部門。在需要處理不同業務單位的大型組織中，有許多報表套裝不適用於公司內其他人時，這特別有用。 </p> <p>通常會是公司的地區子公司。此範例顯示登入公司及其相關的報表套裝: </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1、RS2、RS3、RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1、RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>注意: 具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="../../admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369" format="dita" scope="local">所有</a>報表套裝的伺服器呼叫使用量資料。 </p> </td> 
+    </ul> <p>注意: 具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">所有</a>報表套裝的伺服器呼叫使用量資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 組織 </p> </td> 
