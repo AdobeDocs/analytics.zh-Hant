@@ -8,7 +8,7 @@ title: 資料來源管理員
 topic: 開發人員和實作
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 「[!UICONTROL 建立]」標籤讓您可以為目前選取的報表套裝設定新的資料來源。啟用資料來源後，「[!UICONTROL 資料來源精靈]」將引導您完成建立資料來源範本的整個過程，並將建立一個上傳資料的 FTP 地址。
 
-您在「建立」標籤中的選取，將決定建立的範本一開始有什麼欄位。如需詳細資訊，請參閱[產生匯入檔案範本](../../import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md#task_A2F150D9DC1A4D338E878534FA506267)。
+您在「建立」標籤中的選取，將決定建立的範本一開始有什麼欄位。如需詳細資訊，請參閱[產生匯入檔案範本](/help/import/c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)。
 
 ## 管理標籤 {#section_DD559A6701CA45F1A85E56F840F48DBE}
 
@@ -41,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>完成處理 </p> </td> 
-   <td colname="col2"> <p>指示資料來源關閉檔案中所有已開啟的造訪，並完成資料來源檔案的處理。當您有跨越多個資料來源檔案的造訪時，這功能相當實用。這僅適用於 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> 完全處理</a>. </p> </td> 
+   <td colname="col2"> <p>指示資料來源關閉檔案中所有已開啟的造訪，並完成資料來源檔案的處理。當您有跨越多個資料來源檔案的造訪時，這功能相當實用。這僅適用於 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 完全處理</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>停用 </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>出現錯誤/警告時停止處理 </p> </td> 
-   <td colname="col2"> <p> 指示資料來源處理引擎在遇到錯誤時停止處理。要等到您選取「重新開始處理」後，才會繼續處理資料來源。「出現警告時停止處理」選項僅適用於 <a href="../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED" type="concept" format="dita" scope="local"> 完全處理</a>. </p> <p>當資料來源遇到檔案錯誤，會通知您發生錯誤。系統會將有錯誤的資料來源檔案移到 FTP 伺服器上名為 <span class="filepath">files_with_errors</span> 的資料夾。在您解決問題後，將資料來源檔案重新提交處理。 </p> </td> 
+   <td colname="col2"> <p> 指示資料來源處理引擎在遇到錯誤時停止處理。要等到您選取「重新開始處理」後，才會繼續處理資料來源。「出現警告時停止處理」選項僅適用於 <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md"   > 完全處理</a>. </p> <p>當資料來源遇到檔案錯誤，會通知您發生錯誤。系統會將有錯誤的資料來源檔案移到 FTP 伺服器上名為 <span class="filepath">files_with_errors</span> 的資料夾。在您解決問題後，將資料來源檔案重新提交處理。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>設定 </p> </td> 
