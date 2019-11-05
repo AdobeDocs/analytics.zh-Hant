@@ -7,7 +7,7 @@ title: 登入 Report Builder
 topic: Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,9 +20,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/login_screen.png)
 
-* [標準](../../../analyze/report-builder/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
-* [單一登入](../../../analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
-* [Experience Cloud 和單一登入](../../../analyze/report-builder/setup/login.md#section_1FA230F35AB54021A874A7A28DE4C850)
+* [標準](/help/analyze/report-builder/setup/login.md#section_6D54B8ADAE7F416BB83F5082B3771CFA)
+* [單一登入](/help/analyze/report-builder/setup/login.md#section_6970A5F926774976B85FFE576610E85F)
+* [Experience Cloud 和單一登入](/help/analyze/report-builder/setup/login.md#section_1FA230F35AB54021A874A7A28DE4C850)
 
 ## 標準 {#section_6D54B8ADAE7F416BB83F5082B3771CFA}
 
