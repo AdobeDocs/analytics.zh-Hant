@@ -5,9 +5,9 @@ seo-title: 代碼管理器
 solution: Analytics
 title: 代碼管理器
 topic: 管理工具
-uuid: 7b60bca7-756f-444f-a7 e6-abd3 e0 f1 a15 e
+uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5cb0cc590322020eab68709aa772edf25bda1857
 
 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 代碼管理器]**」。
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;代 **[!UICONTROL 碼管理器]**。
 
-下載程式庫後，必須設定代碼以便傳送資料至正確的追蹤伺服器和報表套裝。Additional implementation resources are available in the [Implement](../../implement/home.md) user guide.
+下載程式庫後，必須設定代碼以便傳送資料至正確的追蹤伺服器和報表套裝。「實作使用指南」中提供其 [他實作](/help/implement/home.md) 資源。
 
 ## 代碼管理器頁面說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
