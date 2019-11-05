@@ -1,18 +1,18 @@
 ---
 description: 使用「工作」索引標籤來檢視工作記錄及執行工作管理任務。
-keywords: 資料饋送；工作；configuration
+keywords: 資料饋送；工作；設定
 seo-description: 使用「工作」索引標籤來檢視工作記錄及執行工作管理任務。
-seo-title: 資料饋送工作-概述
+seo-title: 資料摘要工作 - 概觀
 solution: Analytics
-title: 資料饋送工作-概述
-uuid: 83ccab-9457-4e37-9d1e-f2 ee281 daba6
+title: 資料摘要工作 - 概觀
+uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 資料饋送工作-概述
+# 資料摘要工作 - 概觀
 
 使用「工作」索引標籤來檢視工作記錄及執行工作管理任務。
 
@@ -35,7 +35,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | 摘要名稱 | 摘要的名稱。 |
 | 開始時間 | 以您所在時區顯示的工作開始時間。 |
 | 執行時間 | 工作執行所需的時間。顯示格式為 dd hh:mm:ss。 |
-| 狀態 | 工作目前的[狀態](../../../export/analytics-data-feed/c-df-jobs/r-job-status.md#reference_7A39A327F643447F9B5AE3A2502C72BA)。 |
+| 狀態 | 工作目前的[狀態](/help/export/analytics-data-feed/c-df-jobs/r-job-status.md)。 |
 | 完成時間 | 工作執行完成時的時間。以您的所在時區為顯示。 |
 | 請求的日期 | 工作包含之資料的資料戳記。 |
 
