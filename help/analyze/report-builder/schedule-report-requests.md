@@ -5,9 +5,9 @@ seo-title: 排程報表請求
 solution: Analytics
 title: 排程報表請求
 topic: Report Builder
-uuid: d9b65b82-1975-403b-bc50-f22 cfea6019 f
+uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 translation-type: tm+mt
-source-git-commit: 249ad59a8809b56b1ea60adf20d1e43af22bec1e
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
