@@ -5,7 +5,7 @@ seo-title: 設定
 title: 設定
 uuid: 3444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,7 +40,7 @@ r_dsc_general_settings.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 資料設定 </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol">計算重複例項</span>：指定是否在報告中計算例項。這表示，如果同一個變數有多個連續值，您可以將這些值視為變數的一或多個例項。 </p> <p>例如，您可能看到重複頁面重新載入，也就是網站的網頁在單一造訪期間重新載入或重新整理的次數。這個選項可讓您將指定多次點擊同一個網頁視為一次，或是多次網頁檢視。 </p> <p> <span class="uicontrol"> <span class="keyword">臨機</span> </span>: 指定<span class="keyword">「臨機」</span>作為報告資料的唯一來源。此資料來自網頁產生的影像請求。 </p> <p> <span class="uicontrol"><span class="keyword">資料來源</span></span>: 指定要使用其他 Adobe 來源或是自訂資料來源所上載的的資料。這些資料將可供 <span class="keyword">Experience Cloud</span> 中的產品使用。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html" scope="external" format="html">資料來源</a>，瞭解更多資訊。 </p> <p> <span class="uicontrol">兩者</span>: (預設) 使用 <span class="keyword">Ad Hoc Analysis</span> 和其他資料來源的資料。 </p> <p>附註: 變更這些選項可能會造成 <span class="keyword">Ad Hoc Analysis</span> 資料和 <span class="keyword">Marketing Reports &amp; Analytics 資料</span>之間產生差異。 </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol">計算重複例項</span>：指定是否在報告中計算例項。這表示，如果同一個變數有多個連續值，您可以將這些值視為變數的一或多個例項。 </p> <p>例如，您可能看到重複頁面重新載入，也就是網站的網頁在單一造訪期間重新載入或重新整理的次數。這個選項可讓您將指定多次點擊同一個網頁視為一次，或是多次網頁檢視。 </p> <p> <span class="uicontrol"> <span class="keyword">臨機</span> </span>: 指定<span class="keyword">「臨機」</span>作為報告資料的唯一來源。此資料來自網頁產生的影像請求。 </p> <p> <span class="uicontrol"><span class="keyword">資料來源</span></span>: 指定要使用其他 Adobe 來源或是自訂資料來源所上載的的資料。這些資料將可供 <span class="keyword">Experience Cloud</span> 中的產品使用。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/index.html"  >資料來源</a>，瞭解更多資訊。 </p> <p> <span class="uicontrol">兩者</span>: (預設) 使用 <span class="keyword">Ad Hoc Analysis</span> 和其他資料來源的資料。 </p> <p>附註: 變更這些選項可能會造成 <span class="keyword">Ad Hoc Analysis</span> 資料和 <span class="keyword">Marketing Reports &amp; Analytics 資料</span>之間產生差異。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自動儲存設定 </p> </td> 
