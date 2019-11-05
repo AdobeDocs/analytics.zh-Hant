@@ -3,7 +3,7 @@ seo-title: 設定 Advertising 帳戶
 title: 設定 Advertising 帳戶
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。
 
-管理員還可[授權給非管理員](../../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)，使其得以設定廣告帳戶。
+管理員還可[授權給非管理員](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)，使其得以設定廣告帳戶。
 
 ![](assets/aa_accounts.png)
 
@@ -47,7 +47,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords: 提供 Google 帳戶 ID。 </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing: 提供 Bing 帳戶 ID 和 Bing 客戶 ID。 </li> 
-        </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md#concept_F7F67448F3B44342967E0419E96F384D" format="dita" scope="local">尋找您的帳戶 ID</a> 以取得這些 ID 的相關資訊。 </p> <p>成功登入後，將會顯示「OAuth Token」欄位 
+        </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >尋找您的帳戶 ID</a> 以取得這些 ID 的相關資訊。 </p> <p>成功登入後，將會顯示「OAuth Token」欄位 
         <systemoutput>
           已擷取
         </systemoutput>實施流量分類。 </p> </td> 
@@ -74,7 +74,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
             <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">「S_kwcid」參數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。 </li> 
             <li id="li_A04D4AA31A934392808639E46C86573F">此外，關鍵字可以作為「S_kwcid」值的一部份，插入至登陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。 </li> 
           </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手動</span>:可讓您管理追蹤參數新增至搜尋引擎的追蹤範本／目標URL的方式。 <a href="../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md#concept_87B28BA9E7F84BA5972F69E6F3482A33" format="dita" scope="local">如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例</a>。 </li> 
+        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol"> 手動</span>:可讓您管理追蹤參數新增至搜尋引擎的追蹤範本／目標URL的方式。 <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  >如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例</a>。 </li> 
         </ul> </td> 
       </tr> 
     </tbody> 
@@ -98,7 +98,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>報表套裝對應 </p> </td> 
-      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html" format="html" scope="external">將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
+      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -106,7 +106,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 儲存後，免責聲明會顯示一系列警語。系統會要求確認您已閱讀合約並瞭解其中的條款。Click the checkbox, then click **[!UICONTROL OK]**.
 
-   此時，系統會將您導向 Advertising 帳戶[管理使用者介面](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md#concept_531B99165A4E47B4B8849376B532AFDB)，而新建立的帳戶應該會列示在其中。
+   此時，系統會將您導向 Advertising 帳戶[管理使用者介面](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，而新建立的帳戶應該會列示在其中。
 
 > [!NOTE] 您應該會等到至少24小時後，搜尋引擎資料才會開始填入Analytics報表。
 
