@@ -7,7 +7,7 @@ title: 路徑
 topic: 報表
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/fallout_graphic.png)
 
-請參閱 [流失報告](../../../components/c-variables/dimensionslist/reports-fallout.md#concept_DE1F8040F1B741F087B78568B342EC41)。
+請參閱 [流失報告](/help/components/c-variables/dimensionslist/reports-fallout.md)。
 
 **[!UICONTROL Pathfinder]**: 可讓您進一步將整個路徑剖析為路徑片段，從而得到有助於網站最佳化的精確模式。Pathfinder 精靈允許您指定用於產生報告的選擇標準，以便您能夠分析路徑片段，查詢以特定頁面開頭、以特定頁面結尾的片段，或以一個頁面開頭並以另一個頁面結尾的片段。
 
