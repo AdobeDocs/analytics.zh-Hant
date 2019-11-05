@@ -7,26 +7,26 @@ title: 量度
 topic: Reports and Analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # 量度
 
-度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。度量是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
+度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 
-## 量度 {#concept_EB00207C07BD4481AB116E62EC24E686}
+## 量度
 
 度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。度量是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 
 度量和相關資料顯示在報告欄中。流度度量顯示訪客量的相關資料。轉換度量顯示成功事件 (例如購買、下載或任何其他您希望使用者在您網站上執行的動作) 的相關資料。
 
-[計算度量是由組合度量所建立。](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)
+[計算度量是由組合度量所建立。](/help/components/c-calcmetrics/cm-overview.md)
 
-For definitions, see [Metrics](https://marketing.adobe.com/resources/help/en_US/reference/metrics.html).
+For definitions, see [Metrics overview](/help/components/c-variables/c-metrics/metricslist.md)
 
-## 選擇預設報告度量 {#task_9537A607288A4450AE07EC7C070B47C6}
+## 選擇預設報告度量
 
 說明如何選擇報告層級之預設度量的步驟。
 
