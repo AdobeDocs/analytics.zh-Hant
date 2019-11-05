@@ -8,7 +8,7 @@ title: 複製上下文資料變數至 eVar
 topic: 管理工具
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 下列範例會將上 `search_term` 下文資料變數放入其值中 `eVar3`:
 
-![設定](assets/set-context-data.png)
+![若您要在網站上追蹤可下載檔案的連結，請將  ](assets/set-context-data.png)
 
 上述範例在只有幾個eVar可填入時非常有效。 如果您的組織有數百個上下文資料變數，每個變數都需要自己的eVar，則可使用條件陳述式。 數十個條件陳述式可以符合單一處理規則，讓您的組織能夠在報表套裝中填入所有eVar，而不需符合150個規則的處理規則限制。
 
@@ -31,4 +31,4 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 
 ![有條件](assets/add-conditional.png)
 
-如需實作上下文資料變數的詳細資訊，請參閱「實 [作使用指南」中的](../../../../implement/js-implementation/c-variables/context-data-variables.md) 「上下文資料變數」。
+如需實作上下文資料變數的詳細資訊，請參閱「實 [作使用指南」中的](/help/implement/js-implementation/c-variables/context-data-variables.md) 「上下文資料變數」。
