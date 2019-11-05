@@ -8,7 +8,7 @@ title: 警報
 topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -103,17 +103,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>參照報表套裝包含 ASI 槽的警報 </p> </td> 
-   <td colname="col2"> <p>您將無法再<a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html" format="https" scope="external">建立或編輯 ASI 槽</a>，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>您將無法再<a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >建立或編輯 ASI 槽</a>，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用參與率量度的警報 </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html" format="https" scope="external">參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂日曆報表套裝的每月警報 </p> </td> 
-   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html" format="https" scope="external">自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
    <td colname="col3"> <p>尚未可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
