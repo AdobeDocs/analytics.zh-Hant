@@ -8,7 +8,7 @@ title: 轉換變數 (eVar)
 topic: 開發人員和實作
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ eVar 可以瀏覽為準，其功能類似於 Cookie。傳送到 eVar 變數的�
 
 如需變數的詳細資訊，請參閱:
 
-* [本說明中的 Analytics 實施及報告之變數](../../implement/js-implementation/c-variables/sc-variables.md#concept_E10E43221A2740FAAF900B79CE1EC5FB)
+* [本說明中的 Analytics 實施及報告之變數](/help/implement/js-implementation/c-variables/sc-variables.md)
 * [變數 - 在報告中如何使用](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
 * [頁面變數](/help/implement/js-implementation/c-variables/page-variables.md)
 * [促銷活動變數](/help/implement/js-implementation/c-variables/page-variables.md)
