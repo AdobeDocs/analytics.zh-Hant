@@ -7,7 +7,7 @@ title: 網站量度
 topic: 報表
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,11 +22,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 量度報告會隨時間而形成[趨勢](/help/components/c-variables/dimensionslist/reports-types.md)。亦即，您可以對這些報告套用時間和一週中的某天詳細程度。
 
-* [頁面檢視](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33)
-* [瀏覽報告](../../../components/c-variables/dimensionslist/reports-visits.md#concept_50CA55CF2A41430CBC754AEEEE6023A9)
-* [訪客報告](../../../components/c-variables/dimensionslist/reports-visitors.md#concept_7371DAB5DA474D03A2D1448F151E011B)
-* [每次瀏覽逗留時間](../../../components/c-variables/dimensionslist/reports-time-spent-per-visit.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)
-* [事件之前時間](../../../components/c-variables/dimensionslist/reports-time-prior-to-event.md#concept_00820DACA2F24EE6A83B0FB211BE6907)
-* [購物車](../../../components/c-variables/dimensionslist/reports-shopping-cart.md#concept_6AEC5A6C707B46B790C1A79E72F9A339)
-* [自訂事件](../../../components/c-variables/dimensionslist/reports-custom-events.md#concept_9337B2FB8A3F417BA8689FE7FD64629F)
-* [Bot](../../../components/c-variables/dimensionslist/reports-bots.md#concept_15E1C8514EF54581A9467877F62426EC)
+* [頁面檢視](/help/components/c-variables/dimensionslist/reports-page-views.md)
+* [瀏覽報告](/help/components/c-variables/dimensionslist/reports-visits.md)
+* [訪客報告](/help/components/c-variables/dimensionslist/reports-visitors.md)
+* [每次瀏覽逗留時間](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md)
+* [事件之前時間](/help/components/c-variables/dimensionslist/reports-time-prior-to-event.md)
+* [購物車](/help/components/c-variables/dimensionslist/reports-shopping-cart.md)
+* [自訂事件](/help/components/c-variables/dimensionslist/reports-custom-events.md)
+* [Bot](/help/components/c-variables/dimensionslist/reports-bots.md)
