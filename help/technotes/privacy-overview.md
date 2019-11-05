@@ -7,7 +7,7 @@ solution: Analytics
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -90,7 +90,7 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings" format="https" scope="external"> https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -127,7 +127,7 @@ Adobe Analytics 收集下列資料:
    <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Equinix) </p> </td> 
    <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table" format="http" scope="external"> Equinix </a> </p> </td> 
+   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
