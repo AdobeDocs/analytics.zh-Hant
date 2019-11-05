@@ -5,7 +5,7 @@ seo-title: 將應用程式資料分段
 title: 將應用程式資料分段
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 84c40be45ed4b03435451c12b000910579d75ba1
 
 ---
 
@@ -17,7 +17,7 @@ appFigures整合通常用於跨多個應用程式商店收集多個應用程式�
 appFigures資料的區段方針：
 
 * 僅能使用頁面檢視容器。
-* 篩選規則中 [只能使用](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) AppFigures維度。
-* 只要僅參考 [AppFigures維度，即可使用多](../appfigures-overview/appfigures-metrics.md#concept-890b06e6f59e44a7a331ce872f4e1d9c) 個區段規則。
+* 篩選規則中 [只能使用](/help/import/data-connectors/appfigures-overview/appfigures-metrics.md) AppFigures維度。
+* 只要僅參考 [AppFigures維度，即可使用多](/help/import/data-connectors/appfigures-overview/appfigures-segment-filter.md) 個區段規則。
 * 可同時使用「包含」和「排除」畫布。
 * 區段僅適用於Adobe Analytics v15。
