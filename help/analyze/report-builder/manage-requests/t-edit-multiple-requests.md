@@ -7,7 +7,7 @@ title: 編輯多個請求
 topic: Report Builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    * **依區段:**&#x200B;依照區段名稱分組請求。
 
       * **選擇區段**: 如果請求不存在區段時顯示。若要新增區段，請按一下&#x200B;**[!UICONTROL 「編輯群組」]**&#x200B;並從[!UICONTROL 「編輯群組」]面板中選取區段。
-   * **依量度**:請參 [閱編輯多個請求的量度](../../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB)。
+   * **** 依量度：請參 [閱編輯多個請求的量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)。
 
    * **依日期範圍和粒度:**&#x200B;依日期範圍和粒度: 依照日期範圍和時間粒度分組請求的顯示。
    * **依群組:**&#x200B;依照分組的請求集來分組請求的顯示。
