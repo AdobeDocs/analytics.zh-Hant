@@ -9,7 +9,7 @@ title: 連結跨裝置的使用者
 topic: 開發人員和實作
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 [!UICONTROL 訪客 ID] 通常會在驗證之後設定，或是在訪客執行其他特定動作而讓您可加以唯一識別 (無論使用什麼裝置) 時設定。建議您建立使用者名稱的雜湊，或使用不含任何個人識別資訊的內部 ID。
 
-在[先前的範例](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md)中，客戶從某個裝置登入後，都會與相同的使用者個人資料產生關聯。若訪客於其後登出該裝置，關聯仍將持續運作，因為在每個裝置上的 Cookie 中所儲存的[!UICONTROL 訪客 ID] 已與相同的訪客資料產生關聯。建議您只要情況允許即應填入 [!UICONTROL s.visitorID] 變數，以備[!UICONTROL 訪客 ID] Cookie 遭刪除時使用。
+在[先前的範例](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)中，客戶從某個裝置登入後，都會與相同的使用者個人資料產生關聯。若訪客於其後登出該裝置，關聯仍將持續運作，因為在每個裝置上的 Cookie 中所儲存的[!UICONTROL 訪客 ID] 已與相同的訪客資料產生關聯。建議您只要情況允許即應填入 [!UICONTROL s.visitorID] 變數，以備[!UICONTROL 訪客 ID] Cookie 遭刪除時使用。
 
 ## 唯一訪客和訪客數 {#section_70330AB6724C4E419A4BD0BDD54641AC}
 
