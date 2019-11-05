@@ -7,7 +7,7 @@ title: 反彈率
 topic: 量度
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 顯示包含單一點擊之瀏覽的百分比。
 
-反彈率使用「 [彈回數](../../../components/c-variables/c-metrics/metrics-bounces.md#concept_2A92D575504E4522B860AB44B0621593) 」量度，計算方式為：
+反彈率使用「 [彈回數](/help/components/c-variables/c-metrics/metrics-bounces.md) 」量度，計算方式為：
 
 `Bounces divided by Entries`
 
