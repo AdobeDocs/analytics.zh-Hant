@@ -7,7 +7,7 @@ title: 退出連結
 topic: 報表
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -35,6 +35,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 您可以使用趨勢和排名格式檢視這個報告。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
 * 您可以透過「管理工具」以其他任何流量變數 [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) with any other variable via Admin Tools.
-* [例項](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)是這個報告中唯一提供的預設量度，會計算退出連結觸發的次數。
+* [例項](/help/components/c-variables/c-metrics/metrics-instance.md)是這個報告中唯一提供的預設量度，會計算退出連結觸發的次數。
 * 可以針對這份報告啟用每日、每週、每月和每季的訪客。但是，只有 Adobe 代表能夠啟用，而且必須另外收費。啟用任何自訂連結追蹤變數的獨特訪客可大幅減少報告套裝的延遲。
 
