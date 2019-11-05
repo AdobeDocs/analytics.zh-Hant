@@ -7,7 +7,7 @@ title: 不重複訪客
 topic: 量度
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -28,7 +28,7 @@ Version 14 does not remove duplicate [!UICONTROL Visits] and [!UICONTROL Unique 
 | 轉換 | 訪客是指進入您的網站的人。當發生有關轉換的事件或動作時就會被計算為一次。 |
 | Ad Hoc Analysis | 訪客是指進入您的網站的人。不要求使用永久性 cookie。 |
 
-請參 [閱獨特訪客報表——第15版和臨機分析](../../../components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md#concept_877141D6D1E743DA9FAB41C72A8121C7)。
+請參 [閱獨特訪客報表——第15版和臨機分析](/help/components/c-variables/dimensionslist/reports-unique-visitors-v15-dsc.md)。
 
 >[!MORELIKETHIS]
 >
