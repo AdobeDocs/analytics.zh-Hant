@@ -9,7 +9,7 @@ title: 關於 JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 下列清單包含您在切換為此新版 [!DNL AppMeasurement] 之前所需瞭解的變更:
 
-* 有些外掛程式已不受支援。詳情請參閱 [AppMeasurement 外掛程式支援](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)。
+* 有些外掛程式已不受支援。詳情請參閱 [AppMeasurement 外掛程式支援](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)。
 * 此程式庫不支援動態帳戶選項 ([dynamicAccountList](/help/implement/js-implementation/c-variables/configuration-variables.md)、[dynamicAccountMatch](/help/implement/js-implementation/c-variables/configuration-variables.md) 和 [dynamicAccountSelection](/help/implement/js-implementation/c-variables/configuration-variables.md))。
 
 * 程式庫和頁面程式碼可部署在 `<head>` 標籤中。
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 常見問題集 {#section_9BD41B08F7B54197B230937714B9357A}
 
-如需效能、視訊追蹤、行動等相關資訊，請參閱[常見問題集](../../../implement/faq.md#concept_9BBC230E01114318BE9C08724F2040D3)。
+如需效能、視訊追蹤、行動等相關資訊，請參閱[常見問題集](/help/implement/faq.md)。
 
 ## 初始化過程 {#section_F6D5680F6D134B6AB1F01C6235860635}
 
@@ -47,15 +47,15 @@ var s=s_gi(s_account)
 
 ## 擷取 AppMeasurement 例項 {#section_6F05C96DCAB24C8C9B4B91C5739630A6}
 
-在整個程式碼中，呼叫全域 [s_gi() 函數](../../../implement/js-implementation/function-s-gi.md#concept_50EE6629F61A478BB67781408FBA04BD)以擷取現有 [!DNL AppMeasurement] 例項。
+在整個程式碼中，呼叫全域 [s_gi() 函數](/help/implement/js-implementation/function-s-gi.md)以擷取現有 [!DNL AppMeasurement] 例項。
 
 ## 公用程式 {#section_0F47694DD0214645A24C94AB6A4142A0}
 
 JavaScript [!DNL AppMeasurement] 提供下列內建公用程式:
 
-* [Util.cookieRead](../../../implement/js-implementation/util-cookieread.md#concept_33BD774A90504F2C8094DDC16D47440D)
-* [Util.cookieWrite](../../../implement/js-implementation/util-cookiewrite.md#concept_9BE4F7D9CDAE4445B9AF3212BC7E61F2)
-* [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)
+* [Util.cookieRead](/help/implement/js-implementation/util-cookieread.md)
+* [Util.cookieWrite](/help/implement/js-implementation/util-cookiewrite.md)
+* [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)
 
 ## 清除變數 {#section_597C411E7EDB42BC9A6A0508C9D57147}
 
