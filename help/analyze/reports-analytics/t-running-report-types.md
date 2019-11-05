@@ -7,7 +7,7 @@ title: 執行不同的報表類型
 topic: 報告,Reports & Analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -186,7 +186,7 @@ t_anomaly_view.xml
         <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下界和預期值相同，則偏差百分比為-100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否則偏差百分比為(（下限值——實際值）/（預期值——下限值）)* -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下「<span class="uicontrol">顯示區段</span>」會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/" format="http" scope="external">深入了解</a>區段。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下「<span class="uicontrol">顯示區段</span>」會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >深入了解</a>區段。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下「<span class="uicontrol">編輯量度</span>」可讓您選取和取消選取您要偵測異常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -241,7 +241,7 @@ t_anomaly_config.xml
 
    如需建立和管理區段的詳細資訊，請參閱[分析分段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。1. (可選) 收藏報表或將報表設為書籤。
 1. (選用) 變更視圖時段的結束日期。預設值為昨日。
-1. 您現在可以開始解讀報告。[檢視異常偵測圖表](../../analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
+1. 您現在可以開始解讀報告。[檢視異常偵測圖表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
 ## 執行即時報告 {#task_5D25929C918E40B18965222FA94176B0}
 
@@ -268,7 +268,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>選擇報告套裝</strong></td> 
-   <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html" format="http" scope="external">即時報告組態</a>。 </td> 
+   <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >即時報告組態</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切換報告</strong></td> 
