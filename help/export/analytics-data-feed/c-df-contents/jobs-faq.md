@@ -1,13 +1,13 @@
 ---
 description: 'null'
-keywords: 資料饋送；工作；常見問題集
+keywords: 資料饋送；工作；常見問答集
 seo-description: 'null'
 seo-title: 工作常見問題集
 solution: Analytics
 title: 工作常見問題集
-uuid: 6da2c3a0-79f9-4d0a-9728-a8 be42 ce2 f3 c
+uuid: 6da2c3a0-79f9-4d0a-9828-a8be42ce2f3c
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -20,5 +20,5 @@ source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
 
 * 報表套裝延遲 (亦即突然增加的流量)
 * 上游處理
-* 尖峰與非尖峰時間
+* 尖峰和非尖峰時間
 * 網際網路連線速度
