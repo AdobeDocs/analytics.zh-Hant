@@ -5,7 +5,7 @@ seo-title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -121,7 +121,7 @@ source-git-commit: ae18932eda59c059e2aa635cc30f233b88840031
   </tr> 
   <tr> 
    <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確認 網 <span class="term"> 域和</span> 「電子郵件 <span class="term"> 」欄會符合必要條件中建立的網</span> 域 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs" format="dita" scope="local"></a>。 </p> </td> 
+   <td colname="col2"> <p>確認 網 <span class="term"> 域和</span> 「電子郵件 <span class="term"> 」欄會符合必要條件中建立的網</span> 域 <a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  ></a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>國家/地區代碼 </p> </td> 
