@@ -7,7 +7,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 插入核心 AppMeasurement 代碼
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 在 Adobe Analytics 中手動部署動態標籤管理時插入 AppMeasurement 代碼。
 
 1. 在 [!DNL Adobe Analytics] 工具頁面上，展開&#x200B;**[!UICONTROL 一般]**&#x200B;區段，然後按一下&#x200B;**[!UICONTROL 開啟編輯器]**。
-1. 在[部署 Adobe Analytics](../../../implement/c-implement-with-dtm/t-analytics-deploy.md#task_3A00639CADF14C9C844F962222077E4E)中，將您下載的 [!DNL AppMeasurement_JavaScript*.zip] 檔案解壓縮。
+1. 在[部署 Adobe Analytics](/help/implement/c-implement-with-dtm/t-analytics-deploy.md)中，將您下載的 [!DNL AppMeasurement_JavaScript*.zip] 檔案解壓縮。
 
    如果您選擇使用自訂程式庫，當您開啟視窗，該視窗即會顯示最新的代碼版本。不需從管理主控台下載 zip。
 1. 在文字編輯器中開啟 [!DNL AppMeasurement.js]。
