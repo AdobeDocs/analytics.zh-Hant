@@ -8,7 +8,7 @@ title: 適用於處理規則的維度
 topic: 管理工具
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 複製上下文資料變數至eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md" format="dita" scope="local"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html" format="http" scope="external"> 上下文資料變數</a> </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 複製上下文資料變數至eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
