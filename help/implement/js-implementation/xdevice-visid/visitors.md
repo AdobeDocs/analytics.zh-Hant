@@ -9,7 +9,7 @@ title: 訪客
 topic: 開發人員和實作
 uuid: 16cfdb64-a3c6-4056-97da-3227cddcf1cd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Analytics 會將每個唯一的有效訪客 ID 計為獨特訪客。
 
-如果您查看[上表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)，則會發現這已發生 3 次: 在點擊 1、9 和 10。之所以會如此，是因為這兩個伺服器呼叫的有效[!UICONTROL 訪客 ID] 是相同的，即使訪客相隔了數小時，且使用的是不同的裝置，仍是如此。
+如果您查看[上表](/help/implement/js-implementation/xdevice-visid/visit-example.md)，則會發現這已發生 3 次: 在點擊 1、9 和 10。之所以會如此，是因為這兩個伺服器呼叫的有效[!UICONTROL 訪客 ID] 是相同的，即使訪客相隔了數小時，且使用的是不同的裝置，仍是如此。
 
 這在跨裝置訪客身分識別啟用時，可能會增加獨特訪客的數目。訪客的同一次瀏覽可能會計數兩次: 一次是初次瀏覽時，另一次是使用者完成驗證時。
 
