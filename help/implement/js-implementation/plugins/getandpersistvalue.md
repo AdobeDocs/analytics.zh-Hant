@@ -9,7 +9,7 @@ title: getAndPersistValue
 topic: 開發人員和實作
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ getAndPersistValue 外掛程式可依照您的選擇在指定時段內取得值�
 
 >[!IMPORTANT]
 >
->此外掛程式尚未通過是否能與 [JavaScript 適用的 AppMeasurement](../../../implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md#concept_F3957D7093A94216BD79F35CFC1557E8) 相容的驗證。詳情請參閱 [AppMeasurement 外掛程式支援](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)。
+>此外掛程式尚未通過是否能與 [JavaScript 適用的 AppMeasurement](/help/implement/js-implementation/c-appmeasurement-js/appmeasure-mjs.md) 相容的驗證。詳情請參閱 [AppMeasurement 外掛程式支援](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)。
 
 例如，您可能會使用此外掛程式，針對每位訪客在未來 30 天內進行的頁面檢視，將來自 *`campaign`* 變數的促銷活動追蹤程式碼設定至自訂流量 (*`s.prop`*) 變數中。此範例可讓您判斷追蹤程式碼因原始點進而產生了多少個頁面檢視。
 
