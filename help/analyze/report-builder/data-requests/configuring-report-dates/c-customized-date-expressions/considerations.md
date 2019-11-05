@@ -7,7 +7,7 @@ title: 自訂日期考量事項
 topic: Report Builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -51,4 +51,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 目前這週的開始 (11 月 23 日星期日) 減去一天 = 11 月 22 日星期六
 
-在歐洲和其他某些國家/地區，一週的開始為星期一，而非星期日。在這種情況下，您可以自訂日曆來變更開始日期。(請參閱 [自訂日曆](../../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md#concept_4342A844600048759EEDABD164AC3F5A).)
+在歐洲和其他某些國家/地區，一週的開始為星期一，而非星期日。在這種情況下，您可以自訂日曆來變更開始日期。(請參閱 [自訂日曆](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md).)
