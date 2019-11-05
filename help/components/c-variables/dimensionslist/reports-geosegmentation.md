@@ -7,7 +7,7 @@ title: 地域劃分
 topic: 報表
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 地區 </td> 
-   <td colname="col2"> <p> 小於國家、大於城市的地理區域。在某些國家，地區是指一個州、省或府/州。在其他區域，則是指構成國、部門或都會區。在所示每個地區的右側，括弧中顯示有地區所在的國家。 </p> <p>在表格詳細資料中，按一下「執行用於此地區的城市報告」(放大鏡) 執行報告，可顯示選定地區中的城市與該地區的其他城市的比較情況。 </p> <p>請參閱<a href="../../../components/c-variables/dimensionslist/reports-geosegmentation-reference.md#concept_F7D998B418544B39ACD8838B48B732F1" format="dita" scope="local">地域劃分地區和郵遞區號的使用狀況 (依國家區分)</a>，以瞭解哪些國家/地區使用地區。 </p> </td> 
+   <td colname="col2"> <p> 小於國家、大於城市的地理區域。在某些國家，地區是指一個州、省或府/州。在其他區域，則是指構成國、部門或都會區。在所示每個地區的右側，括弧中顯示有地區所在的國家。 </p> <p>在表格詳細資料中，按一下「執行用於此地區的城市報告」(放大鏡) 執行報告，可顯示選定地區中的城市與該地區的其他城市的比較情況。 </p> <p>請參閱<a href="/help/components/c-variables/dimensionslist/reports-geosegmentation-reference.md"  >地域劃分地區和郵遞區號的使用狀況 (依國家區分)</a>，以瞭解哪些國家/地區使用地區。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 城市 </td> 
