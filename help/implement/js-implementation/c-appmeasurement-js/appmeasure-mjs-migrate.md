@@ -9,7 +9,7 @@ title: 移轉至 JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -18,13 +18,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 下表包含您在移轉實施時所需執行的工作清單。
 
-> [!NOTE]當您移轉至 JavaScript 適用的 [ 時，建議您移轉至 ](../../../implement/js-implementation/c-unique-visitors/visid-service.md#concept_230F8759826E47789EA8DEE08FA09B07)Identity 服務[!DNL AppMeasurement]。
+>[!NOTE]
+>
+>當您移轉至 JavaScript 適用的 [!DNL AppMeasurement] 時，建議您移轉至 [Identity 服務](/help/implement/js-implementation/c-unique-visitors/visid-service.md)。
 
 ![](assets/step1_icon.png) 檢查外掛程式相容性
 
 其中：s\_code.js
 
-有些外掛程式已不受支援。詳情請參閱 [AppMeasurement 外掛程式支援](../../../implement/js-implementation/c-appmeasurement-js/plugins-support.md#concept_E31A189BC8A547738666EB5E00D2252A)。
+有些外掛程式已不受支援。詳情請參閱 [AppMeasurement 外掛程式支援](/help/implement/js-implementation/c-appmeasurement-js/plugins-support.md)。
 
 ![](assets/step2_icon.png) 下載新的 AppMeasurement
 
@@ -42,7 +44,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 其中：AppMeasurement.js
 
-若您使用 getQueryParam 外掛程式，請更新這些呼叫，以使用新的公用程式 [Util.getQueryParam](../../../implement/js-implementation/util-getqueryparam.md#concept_763AD2621BB44A3990204BE72D3C9FA5)。
+若您使用 getQueryParam 外掛程式，請更新這些呼叫，以使用新的公用程式 [Util.getQueryParam](/help/implement/js-implementation/util-getqueryparam.md)。
 
 ![](assets/step5_icon.png) (可選) 更新「媒體」和「整合」模組
 
