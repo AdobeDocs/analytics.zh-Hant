@@ -4,7 +4,7 @@ seo-description: 關於如何使用Java 11執行臨機分析的指示。
 seo-title: 臨機分析和Java 11
 title: 使用 Java 11 執行 Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
