@@ -1,18 +1,18 @@
 ---
 description: Report Builder 中遞延日期的欄位定義。
 seo-description: Report Builder 中遞延日期的欄位定義。
-seo-title: 請求精靈定義-滾動日期
+seo-title: 請求精靈定義 - 遞延日期
 solution: Analytics
-title: 請求精靈定義-滾動日期
+title: 請求精靈定義 - 遞延日期
 topic: Report Builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
 
-# 請求精靈定義-滾動日期
+# 請求精靈定義 - 遞延日期
 
 Report Builder 中遞延日期的欄位定義。
 
@@ -26,7 +26,7 @@ Report Builder 中遞延日期的欄位定義。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>自訂運算式 </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="../../../../analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md#task_F5D3C926214F47B8A2C45B2A38C75A45" type="task" format="dita" scope="local"> 自訂的日期運算式</a>. </p> </td> 
+   <td colname="col2"> <p>請參閱 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 自訂的日期運算式</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 截止日期 </p> </td> 
