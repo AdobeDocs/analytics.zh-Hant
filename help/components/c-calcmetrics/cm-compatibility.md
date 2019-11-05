@@ -5,7 +5,7 @@ seo-title: 量度相容性
 title: 量度相容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> 目前的資料 </td> 
-   <td colname="col2"> <p>分析中的「包含目前的資料」選項可讓您檢視最新 Analytics 資料，通常是在資料經過完全處理完並完成之前。<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html" format="https" scope="external">目前的資料</a>會在數分鐘內顯示最多的量度，提供可操作的資料以幫助快速決策。 </p> <p>目前的資料僅支援計算量度 (其中包含乘法、除法、加法和減法)。目前的資料不支援進階計算量度 (其中包含區段或函數)。 </p> </td> 
+   <td colname="col2"> <p>分析中的「包含目前的資料」選項可讓您檢視最新 Analytics 資料，通常是在資料經過完全處理完並完成之前。<a href="https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html"  >目前的資料</a>會在數分鐘內顯示最多的量度，提供可操作的資料以幫助快速決策。 </p> <p>目前的資料僅支援計算量度 (其中包含乘法、除法、加法和減法)。目前的資料不支援進階計算量度 (其中包含區段或函數)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 完全處理的資料 </td> 
