@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">如果您的 prop 或 eVar 中有電子郵件/地址等資訊，請考慮在收集時將這些資訊進行雜湊處理。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html" format="html" scope="external">開啟 IP 模糊化</a>功能。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://marketing.adobe.com/resources/help/en_US/reference/exclude_IP.html"  >開啟 IP 模糊化</a>功能。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">請與您的 Analytics 管理員討論，了解您正在收集哪些資訊。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">與您的法律部門討論，了解他們認為哪些資訊屬於 PII。 </li> 
     </ul> </td> 
@@ -47,7 +47,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問: 如何在 Audience Manager 中建立 Analytics 目標?</b> </p> </td> 
-   <td colname="col2"> 請參 <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html" format="html" scope="external"> 閱在AAM中設定Analytics目標 </a>。 </td> 
+   <td colname="col2"> 請參 <a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  > 閱在AAM中設定Analytics目標 </a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 建立並儲存 Analytics 目標後，需要多久才會在我選取的表套裝中顯示資料?</b> </p> </td> 
@@ -138,11 +138,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>問: 為何 Audience Manager 和 Analytics 之間的區段訪客計數不一樣?</b> </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="../../integrate/c-audience-analytics/visitor-count-reconciliation.md#concept_03DD2B594C2B4D23907D5272DDFADFA0" format="dita" scope="local"> 訪客計數差異 </a>. </p> </td> 
+   <td colname="col2"> <p>請參閱 <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > 訪客計數差異 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: AAM 中的「對象」與 Analytics 中的「區段」有何不同?</b> </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="../../integrate/c-audience-analytics/aam-analytics-segments.md#concept_AB72F76AFAF14F82A5BB17809925813B" format="dita" scope="local"> Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
+   <td colname="col2"> <p>請參閱 <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 從 AAM 整合的「客戶屬性」和客戶資料有何不同?</b> </p> </td> 
