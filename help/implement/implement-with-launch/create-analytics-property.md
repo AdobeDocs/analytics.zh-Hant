@@ -3,8 +3,8 @@ title: 在 Launch 中建立 Analytics 屬性
 seo-title: 在 Adobe Experience Platform Launch 中建立 Adobe Analytics 屬性
 description: 使用 Adobe Experience Platform Launch 建立空間來自訂資料收集方式。
 seo-description: 使用 Adobe Experience Platform Launch 建立空間來自訂 Adobe Analytics 中的資料收集方式。
-translation-type: ht
-source-git-commit: 4e7a8bab956503093633deff0a64e8c7af2d5497
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -15,13 +15,13 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 ## 必備條件
 
-[建立報表套裝](../../admin/admin-console/create-report-suite.md): 建立可供 Analytics 收集資料的獨立單位
+[建立報表套裝](/help/admin/admin-console/create-report-suite.md): 建立可供 Analytics 收集資料的獨立單位
 
 ## 建立屬性並安裝重要的擴充功能
 
 屬性是用來管理標籤的普遍容器。擴充功能可讓您安裝產品專屬標籤並加以設定。
 
-1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. 按一下「新增屬性」。
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下「儲存」。
 1. 按一下您新建立的屬性以輸入其設定。
@@ -34,7 +34,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 資料元素是網站特定部分的參考，可用來收集變數值。
 
-1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 2. 按一下您預計在網站上實作的 Launch 屬性。
 3. 按一下資料元素標籤，然後按一下建立新資料元素。
 4. 為資料元素執行下列設定:
@@ -51,7 +51,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 規則會將資料元素對映至 Analytics 變數值，並決定要在何時將這些值傳送至 Adobe 的伺服器。
 
-1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
+1. Go to [launch.adobe.com](https://launch.adobe.com) and log in if prompted.
 1. 按一下您預計在網站上實作的 Launch 屬性。
 1. 按一下建立新規則，然後將其命名為 `Global Rule`。
 1. 按一下事件旁邊的新增，然後輸入下列設定:
@@ -76,9 +76,9 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 ## 文件和其他資源
 
-* [Adobe Analytics 擴充功能文件](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension): Adobe Experience Platform Launch 中 Adobe Analytics 擴充功能的完整專屬文件。
+* [Adobe Analytics擴充功能檔案](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension):Adobe Experience Platform Launch中Adobe Analytics擴充功能的完整檔案。
 * [Launch 快速入門](https://docs.adobelaunch.com/getting-started): Launch 的完整文件，包括更深入的快速入門手冊
-* [Adobe Experience Platform Launch YouTube 頻道](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd): 透過影片瞭解如何使用 Launch
+* [Adobe Experience Platform Launch youTube頻道](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&shelf_id=0&sort=dd):瞭解如何透過影片使用Launch
 
 ## 下一步
 
