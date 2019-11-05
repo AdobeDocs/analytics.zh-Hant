@@ -5,7 +5,7 @@ seo-title: 檢視/管理報表套裝資料控管設定
 title: 檢視/管理報表套裝資料控管設定
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 「管理工具」中的資料控管對話方塊提供概述，讓您瞭解已針對資料控管設定哪些報表套裝、是否已對應至 Experience Cloud 組織，以及此報表套裝是否已制定資料保留政策。
 
 1. 登入 Adobe Experience Cloud。
-1. Navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Governance.]**
+1. 依序導覽至&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 資料控管」]**。
 
    您將看到屬於您登入公司的所有報表套裝:
 
@@ -38,17 +38,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>已對應</b>: 此報表套裝與您目前登入的 Analytics 登入公司已對應至同一個 Experience Cloud 組織。只有套用此設定的報表套裝才能加上標籤。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>: 按一下此連結可讓您<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html" format="html" scope="external">將報表套裝對應至</a> Experience Cloud 組織。 <p>換句話說，您會重新導向至 Experience Cloud 組織 – 報表套裝對應管理頁面，您可在該處找到報表套裝，並指派給適當的組織。完成之後，導覽返回此資料控管 UI。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>: 按一下此連結可讓您<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html">將報表套裝對應至</a> Experience Cloud 組織。 <p>換句話說，您會重新導向至 Experience Cloud 組織 – 報表套裝對應管理頁面，您可在該處找到報表套裝，並指派給適當的組織。完成之後，導覽返回此資料控管 UI。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>已對應至其他組織</b>: 其他 Experience Cloud 組織已將此報表套裝套用至其組織。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料保留政策 </p> </td> 
-   <td colname="col2"> <p>Analytics資料隱私權實作需要您有適當的資料保留政策。 </p> <p>此設定會顯示 </p> 
-    <ul id="ul_AC1F0827293B47E39BFEC4B1766A0CAC"> 
-     <li id="li_3AAD93EA92B94C6180E5AEBC5E4D10FB">是否已針對此報表套裝制定資料保留政策。以及 </li> 
-     <li id="li_2E8D71905C734F8BB3245FEEDA953B3E">刪除資料之前 Adobe 要保留資料的時間。預設的資料保留時間為 25 個月。 </li> 
-    </ul> <p>注意： Adobe Analytics無法協助您處理資料隱私權API的要求，例如處理您從使用者收到的存取或刪除要求（若未設定資料保留期）。 請聯絡客戶成功案例經理，以設定資料保留時間。 </p> </td> 
+   <td colname="col2"> <p>Analytics 資料隱私權實作需要您制定資料保留政策。 </p> <p>此設定會顯示: </p> 
+    <ul> 
+     <li>此報表套裝已制定資料保留原則，且 </li> 
+     <li>Adobe在刪除資料之前，會保留該資料多久。 預設的資料保留時間為 25 個月。 </li> 
+    </ul> <p>附註: 若未設定資料保留時間，Adobe Analytics 就無法協助您處理資料隱私權 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>群組 </p> </td> 
