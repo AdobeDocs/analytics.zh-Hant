@@ -8,16 +8,12 @@ title: 訪客參與有效期
 topic: Reports and Analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
 
 # 訪客參與有效期
-
-瞭解如何在行銷管道中指定訪客參與有效期。
-
-## 訪客參與有效期 {#topic_32ADFDB12D3A4F35843A4545AC97C49F}
 
 瞭解如何在行銷管道中指定訪客參與有效期。
 
@@ -31,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | 從不 | 訪客參與期限從不過期。 |
 | 渠道重設 | 將所有訪客參與期限設為過期。如果您需要重設所有行銷渠道資料，可將所有訪客參與期限設為過期。如果您的處理規則先前設定錯誤，便可能需要重設資料。當訪客返回時，所有首次和上次接觸渠道值都會立即過期並重設。 |
 
-## 指定訪客參與有效期 {#task_A8B8B5A07C5A4882BB895252A018FDED}
+## 指定訪客參與有效期 {#specify-visitor-expire}
 
 指定訪客參與有效期。
 
