@@ -8,7 +8,7 @@ title: Facebook 即時文章
 topic: 開發人員和實作
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Analytics 可以內嵌於 Facebook 即時文章，於訪客與內容互動
    1. 貴公司的追蹤伺服器網域。
    1. 您的訪客命名空間變數。**請注意:** 您的標準 Analytics 實施中可找到許多此類數值。若有需要，客戶服務或 Adobe 諮詢可以協助提供適當的數值。
 
-1. [設定自訂變數及事件追蹤](../../implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
+1. [設定自訂變數及事件追蹤](/help/implement/js-implementation/analytics-facebook-instant-articles.md#section_932C41BD21154C25B99389299BDF3E0B).
 1. 納入頁面檢視影像要求語法 `( s.t())`。
 
 ## 步驟 3.設定自訂變數及事件追蹤 {#section_932C41BD21154C25B99389299BDF3E0B}
