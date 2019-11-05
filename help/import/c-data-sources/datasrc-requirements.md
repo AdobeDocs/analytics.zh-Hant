@@ -8,7 +8,7 @@ title: 需求和上傳限制
 topic: 開發人員和實作
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -19,11 +19,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 下列各節列出資料來源和匯入行銷報表與分析之資料的限制。
 
-* [大小限制](../../import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
-* [日期](../../import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
-* [一般](../../import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
-* [多位元組支援](../../import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
-* [上傳網站記錄檔](../../import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
+* [大小限制](/help/import/c-data-sources/datasrc-requirements.md#section_77B06D82CB374FFABD39F7D9A49D8E18)
+* [日期](/help/import/c-data-sources/datasrc-requirements.md#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2)
+* [一般](/help/import/c-data-sources/datasrc-requirements.md#section_1CD337F660484ABDB7D8CAE96FF46ACF)
+* [多位元組支援](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
+* [上傳網站記錄檔](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
 ## 大小限制 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 上傳資料來源檔案時，資料來源會執行基本資料驗證，確定檔案不包含格式錯誤。若在檔案中發現錯誤，會傳送電子郵件通知並停止處理。
 * 資料欄位不可包含分號。資料來源會略過包含分號的記錄。
-* 來自網站記錄檔、流量的資料以及部分通用資料來源群組，在資料倉儲或 Discover 中無法使用。有關詳細資訊，請參閱[資料類型與類別](../../import/c-data-sources/c-datasrc-types/datasrc-categories.md#concept_42D1534F48324F20B4F9297FC4022105)。
+* 來自網站記錄檔、流量的資料以及部分通用資料來源群組，在資料倉儲或 Discover 中無法使用。有關詳細資訊，請參閱[資料類型與類別](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
 * 資料來源不支援序列化事件。
 
 ## 多位元組支援 {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,7 +60,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html" format="https" scope="external">新增報表套裝</a>」。 </p> </td> 
+   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >新增報表套裝</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
