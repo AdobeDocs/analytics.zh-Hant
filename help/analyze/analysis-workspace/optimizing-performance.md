@@ -5,7 +5,7 @@ seo-title: Analysis Workspace 效能最佳化
 title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 記住，日期範圍 (紫色元件) 會覆蓋面板日期範圍。因此，如果您使用不同日期範圍做為欄 (例如，「上個月」、「上週」和「昨天」欄)，面板日期範圍不必跨越所有的欄日期範圍。可簡單將其設為昨天，因自由表格中使用的資料範圍會覆蓋面板。如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://www.youtube.com/watch?v=ybmv6EBmhn0)。
 
-Use [date comparison options](../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764) to pull in the specific time periods of data you want to compare. 例如，如果您需要顯示上個月的資料來與去年同用份比較，不必將面板設定為過去 13 個月的資料，只要使用比較時間範圍選項來顯示年對年的效能。
+Use [date comparison options](/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md) to pull in the specific time periods of data you want to compare. 例如，如果您需要顯示上個月的資料來與去年同用份比較，不必將面板設定為過去 13 個月的資料，只要使用比較時間範圍選項來顯示年對年的效能。
 
 ## 視覺效果的數目
 
