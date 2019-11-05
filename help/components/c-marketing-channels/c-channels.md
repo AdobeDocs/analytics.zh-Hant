@@ -8,7 +8,7 @@ title: 管理行銷渠道
 topic: Reports and Analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,18 +17,14 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
 
-## 管理行銷渠道 {#topic_45CF1C6A783B4F96ABF6317EAB6A854F}
-
-Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
-
 以下是建立渠道的指引:
 
 * 透過設立所有渠道的清單來提前計劃，以便將所有訪客點按歸入正確的渠道類別。
-* 一律包括[內部](../../components/c-marketing-channels/c-faq.md#section_179A2BE5C8E24719A9E5C0DC09AF0947)點按和[直接](../../components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)點按類別的渠道。
+* 一律包括[內部](/help/components/c-marketing-channels/c-faq.md)點按和[直接](/help/components/c-marketing-channels/c-faq.md)點按類別的渠道。
 
-[!UICONTROL 新增渠道至「行銷渠道」頁面，與在「行銷渠道處理規則」頁面上建立規則是相互獨立的][](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08)。建立規則時，您會將規則與渠道相關聯。
+[!UICONTROL 新增渠道至「行銷渠道」頁面，與在「行銷渠道處理規則」頁面上建立規則是相互獨立的][](/help/components/c-marketing-channels/t-rules.md)。建立規則時，您會將規則與渠道相關聯。
 
-## 新增行銷渠道 {#task_98C9D3F5DBBC4B198E0A9ED4D3891E03}
+## 新增行銷渠道 {#add-mktg-channels}
 
 在行銷管道管理員中新增行銷管道。
 
@@ -39,11 +35,11 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 
    如果選擇多個報表套裝，請選擇一個範本，將範本設定複製到所選的報表套裝。
 
-   請參閱 [套用範本報表套裝設定至多個報表套裝](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC).
+   請參閱 [套用範本報表套裝設定至多個報表套裝](/help/components/c-marketing-channels/t-template.md).
 
 1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
 
-   If your report suite does not have channels defined, the [Auto Setup](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B) page displays.
+   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
 
 1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
 
@@ -52,9 +48,9 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
 1. Click **[!UICONTROL Save.]**
 1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
 
-   See [Create Marketing Channel processing rules](../../components/c-marketing-channels/t-rules.md#task_84EDE9F46F404CB9B7CA0537328CEE08).
+   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
 
-## Marketing Channel Manager - interface definitions {#reference_01779A2928054BF48339897D4033AFB9}
+## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
 
 [!UICONTROL 行銷渠道管理員]頁面的欄位定義。
 
@@ -84,7 +80,7 @@ Add or enable marketing channels in the [!UICONTROL Marketing Channel Manager]. 
   </tr> 
   <tr> 
    <td colname="col1"> <p>類型 </p> </td> 
-   <td colname="col2"> <p> 指定使用者前往您網站的方式。您可選擇<span class="uicontrol">「線上」</span>或<span class="uicontrol">「離線」</span>。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」渠道。「離線」渠道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線渠道通常包括從報告資料來源匯入的資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/" scope="external" format="http">Data Sources</a>。 </p> <p>See <a href="../../components/c-marketing-channels/t-offline-data.md#task_FC96E6A48F0D4D37A79BD234E90DAA26" type="task" format="dita" scope="local"> Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> 指定使用者前往您網站的方式。您可選擇<span class="uicontrol">「線上」</span>或<span class="uicontrol">「離線」</span>。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」渠道。「離線」渠道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線渠道通常包括從報告資料來源匯入的資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Data Sources</a>。 </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>色彩 </p> </td> 
