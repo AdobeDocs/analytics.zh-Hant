@@ -6,8 +6,8 @@ seo-title: 建立資料元素
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立資料元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
 在動態標籤管理中建立資料元素。
 
-1. [建立 Web 屬性](../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123) (如果尚未這麼做的話)。
+1. [建立 Web 屬性](/help/implement/c-implement-with-dtm/t-create-web-property.md) (如果尚未這麼做的話)。
 1. 在 Web 屬性中，按一下&#x200B;**[!UICONTROL 規則]** &gt; **[!UICONTROL 資料元素]**。
 1. 按一下&#x200B;**[!UICONTROL 「建立新資料元素」]**。
 1. 填入下列欄位和選項:
@@ -29,13 +29,14 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
     <tr class="chrow strow"> 
       <td class="choption"><strong>名稱</strong></td> 
       <td class="chdesc stentry"> <p>行銷人員看得懂的資料元素易記名稱。例如， 
+         
         <code>
-          產品 ID
+          Product ID
         </code>. </p> <p> <p>注意: 規則產生器會參考名稱，而不是 ID。如果您變更資料元素的名稱，您必須在使用該元素的每個規則中變更其參考。 </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>類型</strong></td> 
-      <td class="chdesc stentry"> <p> 指定提取資料的來源，例如 JS 物件、CSS 選擇器、Cookie、URL 參數或自訂指令檔。 </p> <p>視您選取的類型而定，會顯示不同的選項。如需詳細資訊與範例，請參閱動態標籤管理產品文件中的<a href="https://marketing.adobe.com/resources/help/zh_TW/dtm/data_elements.html" format="html" scope="external">資料元素類型</a>。 </p> </td> 
+      <td class="chdesc stentry"> <p> 指定提取資料的來源，例如 JS 物件、CSS 選擇器、Cookie、URL 參數或自訂指令檔。 </p> <p>視您選取的類型而定，會顯示不同的選項。如需詳細資訊與範例，請參閱動態標籤管理產品文件中的<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">資料元素類型</a>。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>預設值</strong></td> 
@@ -56,5 +57,5 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
     </tr> 
    </table>
 
-   如需如何使用資料元素的相關資訊，請參閱 Adobe Tag Management 產品文件中的[資料元素](https://marketing.adobe.com/resources/help/zh_TW/dtm/data_elements.html)。
+   如需有關如何使用資料元素的詳細資訊，請參閱 Adobe 標籤管理產品文件中的[資料元素](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)。
 1. 按一下&#x200B;**[!UICONTROL 儲存資料元素]**。
