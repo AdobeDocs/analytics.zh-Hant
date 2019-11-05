@@ -5,7 +5,7 @@ seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -20,11 +20,11 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
 ## Hit Governor 外掛程式的運作方式 {#section_541BC639E31442D09B1C85A2FFCDC02C}
 
-每次影像請求傳送至追蹤伺服器時，外掛程式都會增加 Cookie 值，並在滾動時間範圍期間追蹤該請求。預設的時間範圍為 1 分鐘，但您可以覆寫時間範圍。(請參閱[下方的實施](../../../implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)。)若時間範圍期間的點擊總數超過預設點擊次數臨界值 (60)，則系統會傳送最終自訂連結影像要求，以設定 *`exceptionFlag`* 內容資料變數。您也可以覆寫預設的點擊次數臨界值。
+每次影像請求傳送至追蹤伺服器時，外掛程式都會增加 Cookie 值，並在滾動時間範圍期間追蹤該請求。預設的時間範圍為 1 分鐘，但您可以覆寫時間範圍。(請參閱[下方的實施](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)。)若時間範圍期間的點擊總數超過預設點擊次數臨界值 (60)，則系統會傳送最終自訂連結影像要求，以設定 *`exceptionFlag`* 內容資料變數。您也可以覆寫預設的點擊次數臨界值。
 
 可視需要自該值起，停止收集特定訪客的流量，預設時間為 60 天。封鎖流量需要在 doPlugins 函數中，新增一行程式碼 (如下所示)。您也能調整時間範圍。此邏輯可讓時間將該訪客的 IP 位址、使用者代理，或 [!DNL Experience Cloud] 訪客 ID，包含至適當的永久例外邏輯，或在 60 天後重設逾時期間。若 60 天後，外掛程式將該流量識別為假性流量，系統會再次將該流量標記為例外，並在另一個 60 天期間停止收集該流量。
 
-## 報告 {#section_E742F19B528041808454744DB2C7007C}
+## 報表 {#section_E742F19B528041808454744DB2C7007C}
 
 不需要設定預設變數或事件。但是，我們強烈建議您設定處理規則邏輯，據以設定變數和事件。那些自訂變數和事件可能包括:
 
@@ -55,7 +55,7 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
    }); 
    ```
 
-   AppMeasurement 檔案的 doPlugins 區段下，包含了[外掛程式原始程式碼](../../../implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)中的外掛程式程式碼 (如下所示)。
+   AppMeasurement 檔案的 doPlugins 區段下，包含了[外掛程式原始程式碼](/help/implement/js-implementation/plugins/hitgovernor.md#reference_76423C81A7A342B2AC4BE41490B27DE0)中的外掛程式程式碼 (如下所示)。
 
    您可以在外掛程式外設定這些變數 (最好使用其他設定變數)，以覆寫點擊次數限制臨界值、點擊時間臨界值，及流量排除時間範圍:
 
