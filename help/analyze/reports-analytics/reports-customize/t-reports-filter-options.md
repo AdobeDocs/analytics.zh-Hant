@@ -7,7 +7,7 @@ title: 篩選報表資料
 topic: Reports and Analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -173,7 +173,7 @@ t_reports_correlation_filter.xml
 
 **要新增關聯篩選**
 
-1. 執行支援關聯的報告。(See [Running a Breakdown Report](../../../analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
+1. 執行支援關聯的報告。(See [Running a Breakdown Report](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69).)
 1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
 1. 在[!UICONTROL 「篩選規則產生器」]下，選擇與項目關聯的類別。
 1. Click **[!UICONTROL OK.]**
