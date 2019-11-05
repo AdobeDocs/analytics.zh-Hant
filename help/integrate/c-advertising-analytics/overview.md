@@ -5,7 +5,7 @@ seo-title: Advertising Analytics 概觀
 title: Advertising Analytics 概觀
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 
 > [!NOTE] Yahoo Gemini於2019年3月31日被Microsoft Bing吸收。 因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。
 
-我們將來自這些搜尋引擎的資料全都帶到 Adobe Analytics 中，以便您運用 Analysis Workspace 的強大功能分析相同的資料。新的[Workspace 付費搜尋績效](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md#concept_E29B25BEE60C4A64B66E9255D7612254)範本有助於進行此分析。
+我們將來自這些搜尋引擎的資料全都帶到 Adobe Analytics 中，以便您運用 Analysis Workspace 的強大功能分析相同的資料。新的[Workspace 付費搜尋績效](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)範本有助於進行此分析。
 
 ![](assets/aa_aw.png)
 
@@ -30,13 +30,13 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 * Advertising Analytics 只適用於 Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) 及 [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) 的 SKU。
 
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
-* 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](../../integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
+* 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
 * Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
 
 * 若要將搜尋帳戶整合至 Adobe Analytics，您需要擁有具備編輯權限之帳戶的使用者登入憑證，例如 Google 帳戶 ID 和密碼。
 * 若是 Bing 廣告，則需要使用 Bing 客戶 ID。
-* 如果您使用 Internet Explorer 11 (或更早版本)，便無法成功為這三個搜尋引擎[設定廣告帳戶](../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)。請改用其他網頁瀏覽器。
+* 如果您使用 Internet Explorer 11 (或更早版本)，便無法成功為這三個搜尋引擎[設定廣告帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)。請改用其他網頁瀏覽器。
 
 ## Advertising Analytics 權限 {#section_FCC58EB635954A32990D4E67B52B4369}
 
