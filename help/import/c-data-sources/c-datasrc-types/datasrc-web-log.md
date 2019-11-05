@@ -5,10 +5,10 @@ seo-title: 網站記錄檔
 solution: Analytics
 subtopic: 資料來源
 title: 網站記錄檔
-topic: 開發人員和實施
-uuid: a0fed57-6d1b-43d8-97ce-dc31009805 e0
+topic: 開發人員和實作
+uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
