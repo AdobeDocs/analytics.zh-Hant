@@ -7,7 +7,7 @@ title: 使用請求精靈篩選路徑流失報表
 topic: Report Builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    ![](assets/page_fallout.png)
 
-1. 設定適當的 [日期範圍](../../../../analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
+1. 設定適當的 [日期範圍](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Define Checkpoints]** link. (在流失報表中，您永遠必須定義路徑元素，這點與路徑報表已預先套用模式不同。)
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 1. 決定要從儲存格範圍或清單選取。
 1. If you select from a list, click **[!UICONTROL Add]** to select checkpoints to add to the fallout path. 您可以定義 3 到 8 個查核點。(Search for available elements by clicking **[!UICONTROL More]**.)
 
-   For more information on refining the filter, see [Filter Dimensions](../../../../analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md#concept_9C0518E2CF604AADA97DDBB1B4ECAAF8). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
+   For more information on refining the filter, see [Filter Dimensions](/help/analyze/report-builder/layout/c-filter-dimensions/filter-dimensions.md). 1. Move **[!UICONTROL Available Elements]** from the left column to the right by selecting them and clicking the orange arrow.
 1. Click **[!UICONTROL OK]** three times, then click **[!UICONTROL Finish]**.
 
    報表應該會立即重新整理。
