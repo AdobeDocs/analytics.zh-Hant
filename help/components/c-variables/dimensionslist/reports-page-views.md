@@ -7,7 +7,7 @@ title: 頁面檢視
 topic: 報表
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 此為趨勢報告，顯示選取時段 (小時、日、週、月份、季度或年) 內網站頁面的檢視次數。您可利用此報告來追蹤網站中每個頁面的檢視次數，以及整個網站的頁面檢視次數總和。
 
-[頁面檢視](../../../components/c-variables/c-metrics/metrics-page-view.md#concept_ABB4C6725E844B13970D6BD625654F26)是對整頁文件的要求，而不是對頁面的某個元素，例如影像或影片的要求。例如，若單一訪客在一次瀏覽期間檢視 15 個頁面，則計為 15 次頁面檢視。若訪客在一次瀏覽期間檢視相同頁面 3 次，則計為 3 次頁面檢視。
+[頁面檢視](/help/components/c-variables/c-metrics/metrics-page-view.md)是對整頁文件的要求，而不是對頁面的某個元素，例如影像或影片的要求。例如，若單一訪客在一次瀏覽期間檢視 15 個頁面，則計為 15 次頁面檢視。若訪客在一次瀏覽期間檢視相同頁面 3 次，則計為 3 次頁面檢視。
 
 **報告屬性**
 
