@@ -7,7 +7,7 @@ title: 報表套裝管理員
 topic: 管理工具
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 統計</span> </td> 
-   <td colname="col2"> <p>「統計」是指將數個其他報表套裝的追蹤資料結合在內的單一報表套裝。 </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md" format="dita" scope="local"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>「統計」是指將數個其他報表套裝的追蹤資料結合在內的單一報表套裝。 </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 編輯設定</span> </td> 
@@ -62,7 +62,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 建立新的</span> </td> 
-   <td colname="col2">請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的報表套裝</a>。 </td> 
+   <td colname="col2">請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的報表套裝</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 自訂欄</span> </td> 
@@ -70,15 +70,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 報表套裝 ID</span> </td> 
-   <td colname="col2">請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的報表套裝</a>。 </td> 
+   <td colname="col2">請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的報表套裝</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 網站標題</span> </td> 
-   <td colname="col2"> <p>在「管理工具」，以及行銷報告標頭的報表套裝下拉式清單中，識別報表套裝。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的報表套裝</a>。 </p> </td> 
+   <td colname="col2"> <p>在「管理工具」，以及行銷報告標頭的報表套裝下拉式清單中，識別報表套裝。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的報表套裝</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基礎 URL</span> </td> 
-   <td colname="col2"> <p>定義報表套裝的基本網域。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md" format="dita" scope="local">新的報表套裝</a>。 </p> </td> 
+   <td colname="col2"> <p>定義報表套裝的基本網域。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的報表套裝</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
