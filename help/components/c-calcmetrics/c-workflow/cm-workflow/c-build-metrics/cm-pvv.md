@@ -5,7 +5,7 @@ seo-title: 建立簡單的「每次造訪頁面檢視次數」量度
 title: 建立簡單的「每次造訪頁面檢視次數」量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 顯示如何建立簡易的「每次瀏覽頁面檢視次數」量度。
 
-如需 UI 元件的詳細說明，請參閱 [建立量度](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md#concept_5EC82A91EB9C44FC870326C85F9D0B18).
+如需 UI 元件的詳細說明，請參閱 [建立量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md).
 
 以下是如何建立簡易「每次瀏覽頁面檢視次數」量度的方法。
 
@@ -31,5 +31,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 1. 產品相容性會顯示量度是否與「[目前的資料](https://marketing.adobe.com/resources/help/en_US/reference/data_latency.html)」相容，或是只與「完全處理的資料」相容。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 注意「**[!UICONTROL 摘要]」公式會隨著您變更量度定義而更新。**
-1. 您現在會自動進入「計 [算量度管理員](../../../../../components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md#concept_BA6815CB06D842D5825766396B691653)」，類似於「區段管理員」。 您可在此共用、核准、(重新) 標記、重新命名或刪除量度。
+1. 您現在會自動進入「計 [算量度管理員](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」，類似於「區段管理員」。 您可在此共用、核准、(重新) 標記、重新命名或刪除量度。
 
