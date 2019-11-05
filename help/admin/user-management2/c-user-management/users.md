@@ -8,7 +8,7 @@ title: 使用者管理概觀
 topic: 管理工具
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -82,7 +82,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 使用者</span> </td> 
-   <td colname="col2"> <p> 僅授予使用者對選定群組的權限。在<span class="uicontrol">「可用群組」</span>欄位 (位於左側) 中選取所要的群組，然後按一下<span class="uicontrol">「新增」</span>。指定的群組會出現在<span class="uicontrol">「已指派的群組」</span>欄位中 (位於右側)。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 僅授予使用者對選定群組的權限。在<span class="uicontrol">「可用群組」</span>欄位 (位於左側) 中選取所要的群組，然後按一下<span class="uicontrol">「新增」</span>。指定的群組會出現在<span class="uicontrol">「已指派的群組」</span>欄位中 (位於右側)。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
