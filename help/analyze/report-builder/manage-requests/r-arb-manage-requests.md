@@ -7,7 +7,7 @@ title: 管理請求 - 定義
 topic: Report Builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -60,11 +60,11 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p>新增 </p> </td> 
-   <td colname="col2"> <p>顯示「請求精靈」對話方塊。請參閱 <a href="../../../analyze/report-builder/data-requests/t-create-a-data-request.md#task_65B453C8F015429A8EA73A1B64025B6C" type="task" format="dita" scope="local"> 建立資料請求</a>. </p> </td> 
+   <td colname="col2"> <p>顯示「請求精靈」對話方塊。請參閱 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 建立資料請求</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>編輯 </p> </td> 
-   <td colname="col2"> <p> (或「編輯多項) 編輯選擇的請求。系統會顯示「<span class="wintitle">請求精靈</span>」對話方塊。See <a href="../../../analyze/report-builder/manage-requests/t-edit-multiple-requests.md#task_70A13DBE43CD4BBEBE1B62459ADB3AD1" type="task" format="dita" scope="local"> Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (或「編輯多項) 編輯選擇的請求。系統會顯示「<span class="wintitle">請求精靈</span>」對話方塊。See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>刪除 </p> </td> 
@@ -80,7 +80,7 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 重新整理 </p> </td> 
-   <td colname="col2"> <p>重新整理單一請求或選擇的請求。(請參閱 <a href="../../../analyze/report-builder/manage-requests/t-refresh-a-request.md#task_96556DB051A2479A955999D3837EE609" type="task" format="dita" scope="local"> 重新整理請求</a>.) </p> </td> 
+   <td colname="col2"> <p>重新整理單一請求或選擇的請求。(請參閱 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 重新整理請求</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新整理清單 </p> </td> 
