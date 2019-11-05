@@ -8,7 +8,7 @@ title: 未分類索引鍵
 topic: 管理工具
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,4 +40,4 @@ Steps that describe how to rename a non-classified key that displays as *`none`*
    若要依照本文件中的範例，您可以在名為「[!UICONTROL 行動促銷活動名稱]」的欄裡輸入 "non-mobile campaign"。
 
    這個項目會將 *`None`* to *`non-mobile campaign`* in the [!UICONTROL Mobile Campaign Type] report.
-1. [將資料匯回](../../../components/c-classifications2/c-classifications-importer/import-file.md#concept_F88785E2BDFD448CB5D1DA3491466B0D)系統。
+1. [將資料匯回](/help/components/c-classifications2/c-classifications-importer/import-file.md)系統。
