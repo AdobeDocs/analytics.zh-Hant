@@ -8,7 +8,7 @@ title: 選擇實作方法
 topic: 開發人員和實作
 uuid: 20d3317f-7c63-4421-93e0-fff60dbd9f87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,11 +34,11 @@ For more information, see [Getting Started with Experience Platform Launch](http
 [!UICONTROL Dynamic Tag Management] 會自動執行實作 [!DNL Analytics] 所需的大部分瑣碎工作。在表單式介面中輸入必填資訊，[!DNL Dynamic Tag Management] 便會產生所需的程式碼，以新增至頁面。熟悉 JavaScript 以及瞭解 Analytics 基本術語會很有幫助，例如
 
 * [eVar](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) 是什麼及其運作方式
-* [自訂事件](../../implement/analytics-terminology-basics/c-props-evars/event-custom.md#concept_CDA3C98C85B24A71B4B5C71F24BF918F)的使用時機
+* [自訂事件](/help/implement/analytics-terminology-basics/c-props-evars/event-custom.md)的使用時機
 
 如需有關存取動態標籤管理與執行的資訊，請參閱動態標籤管理產品文件的[快速入門](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)。
 
-如需詳細資訊，請參閱[使用 Dynamic Tag Management 實作 Analytics](../../implement/c-implement-with-dtm/dtm-implementation-overview.md)。
+如需詳細資訊，請參閱[使用 Dynamic Tag Management 實作 Analytics](/help/implement/c-implement-with-dtm/dtm-implementation-overview.md)。
 
 ## JavaScript {#section_55429940D5094B9BB513E526F224D1B4}
 
@@ -49,4 +49,4 @@ JavaScript 實施需要:
 * 高強的 JavaScript 技能
 * 對 Analytics 概念與術語有深厚瞭解
 
-如需詳細資訊，請參閱[使用 JavaScript 實作 Analytics](../../implement/js-implementation/javascript-implementation-overview.md)。
+如需詳細資訊，請參閱[使用 JavaScript 實作 Analytics](/help/implement/js-implementation/javascript-implementation-overview.md)。
