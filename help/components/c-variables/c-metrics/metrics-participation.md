@@ -7,7 +7,7 @@ title: 參與率
 topic: 量度
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 參與率量度會將成功事件的全部評分指派給瀏覽期間傳遞之 eVar 的所有值。參與率量度可用於判斷哪些頁面、促銷活動或其他自訂變數值對網站成功的貢獻最大。參與率是基於瀏覽。發生事件時，點擊前 (與包含點擊) 之瀏覽中的所有 eVar 值會收到參與率評分 (無論其過期設定違和)。
 
-See [Visitor Participation - Ad Hoc Analysis](../../../components/c-variables/c-metrics/metrics-visitor-participation.md#concept_ACBAE3626B224D9683257B5F73E0FB4A) for more information about how Ad Hoc Analysis uses participation.
+See [Visitor Participation - Ad Hoc Analysis](/help/components/c-variables/c-metrics/metrics-visitor-participation.md) for more information about how Ad Hoc Analysis uses participation.
 
 參與率量度可對每個轉換事件進行兩項設定:
 
