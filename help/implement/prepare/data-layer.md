@@ -3,8 +3,8 @@ title: 建立資料層
 seo-title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 seo-description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
-translation-type: ht
-source-git-commit: a0158b98089c044091f61796d782604865aa4eba
+translation-type: tm+mt
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
