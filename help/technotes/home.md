@@ -1,7 +1,7 @@
 ---
 title: 技術說明首頁
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](../landing/home.md)
+[Analytics 使用手冊](/help/landing/home.md)
 
 ## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
-* [Analytics 論壇](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
+* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
