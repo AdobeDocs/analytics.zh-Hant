@@ -7,7 +7,7 @@ solution: Analytics
 title: 資料摘要
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,4 +22,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 當 FTP 帳戶已滿時，您應下載並移除目前的檔案，並通知 Adobe 已清除空間。接著 Adobe 就能重新傳送尚未傳遞的檔案。有些工具 (例如資料倉庫) 可讓使用者重新傳送這些檔案。重新傳送也許無須 Adobe 介入。如果您的 FTP 帳戶似乎經常填滿，請聯絡 Adobe 客戶服務，由他們推薦一些傳遞替代方案，包括提高 FTP 空間以及該帳戶的檔案數目配額。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
