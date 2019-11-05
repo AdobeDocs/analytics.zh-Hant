@@ -9,7 +9,7 @@ title: 頁面變數
 topic: 開發人員和實作
 uuid: 2578eddd-74db-4a8a-96f2-d0289ec1826b
 translation-type: tm+mt
-source-git-commit: 8a96dc0587125e1b72e3146eb2f0923cecd808fb
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -123,7 +123,7 @@ campaign.xml
 
 有兩種主要方法可填入 *`campaign`* 變數:
 
-* [!UICONTROL getQueryParam] 外掛程式，用於 JavaScript 檔案，可從 URL 中擷取查詢字串參數。如需 [!UICONTROL getQueryParam] 外掛程式的詳細資訊，請參閱[實施外掛程式](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* [!UICONTROL getQueryParam] 外掛程式，用於 JavaScript 檔案，可從 URL 中擷取查詢字串參數。如需 [!UICONTROL getQueryParam] 外掛程式的詳細資訊，請參閱[實施外掛程式](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * 將值指派給網頁的 HTML 中的 *`campaign`* 變數。
 
@@ -131,7 +131,7 @@ campaign.xml
 
 例如，假設某個訪客在點選付費搜尋關鍵字後進入了您的網站。當訪客進入登陸頁面時，URL 會包含一個查詢字串參數，識別該關鍵字的追蹤代碼。接著，訪客點選了其他頁面的連結，但隨即又點選了「上一頁」按鈕，而返回登陸頁面。當訪客第二次進入登陸頁面時，含有查詢字串參數的 URL 會再次識別追蹤代碼。第二次點進也會註冊，而使點進次數不實膨脹。
 
-為避免點進次數因此而膨脹，Adobe 建議您使用 [!UICONTROL getValOnce] 外掛程式，強制每個促銷活動點進在一個工作階段中僅計數一次。如需 [!UICONTROL getValOnce] 外掛程式的詳細資訊，請參閱[實施外掛程式](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+為避免點進次數因此而膨脹，Adobe 建議您使用 [!UICONTROL getValOnce] 外掛程式，強制每個促銷活動點進在一個工作階段中僅計數一次。如需 [!UICONTROL getValOnce] 外掛程式的詳細資訊，請參閱[實施外掛程式](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 **語法和可能的值** {#section_91A141841A6D4711A1EE08A6145A301D}
 
@@ -161,7 +161,7 @@ s.campaign=s.getQueryParam('cid');
 
 **缺陷、問題和提示** {#section_94B5C4BF9DE84BA3A16F9E9E9D197F0C}
 
-* 若要避免點進次數不實膨脹，請使用 [!UICONTROL getValOnce] 外掛程式，使每個促銷活動點進在一個工作階段中僅計數一次。如需 [!UICONTROL getValOnce] 外掛程式的詳細資訊，請參閱[實施外掛程式](../../../implement/js-implementation/plugins/impl-plugins.md#concept_021F5E4A6BD745AE91E85E7138BE930F).
+* 若要避免點進次數不實膨脹，請使用 [!UICONTROL getValOnce] 外掛程式，使每個促銷活動點進在一個工作階段中僅計數一次。如需 [!UICONTROL getValOnce] 外掛程式的詳細資訊，請參閱[實施外掛程式](/help/implement/js-implementation/plugins/impl-plugins.md).
 
 * 如需追蹤促銷活動和關鍵字購買的詳細資訊，請參閱[促銷活動](https://marketing.adobe.com/resources/help/en_US/reference/campaign.html)。
 * 使用 [!DNL DigitalPulse Debugger] 可檢視促銷活動的實際值 (除錯程式中的 v0)。若除錯程式中未出現 v0，表示對於該頁面未記錄任何促銷活動資料。
@@ -300,7 +300,7 @@ eVarN.xml
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
-| 255 位元組 | v1-v75 ([或是 v100 或 v250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) | 自訂轉換 | "" |
+| 255 位元組 | v1-v75 ([或是 v100 或 v250](/help/implement/js-implementation/c-variables/page-variables.md)) | 自訂轉換 | "" |
 
 **過期** {#section_6DB5882B960D4660AE248B91B76883C4}
 
@@ -327,7 +327,7 @@ eVar 通常會用來放置字串值，但也可設定作為計數器。當您嘗
 
 **語法和可能的值** {#section_BD46438B14F3488FB9AC42994C317B06}
 
-雖然 eVar 可重新命名，但在 JavaScript 檔案中應一律以 eVarX 加以參照，其中，X 是介於 1 與 75 之間 ([或是 100 或 250](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) 的數字。
+雖然 eVar 可重新命名，但在 JavaScript 檔案中應一律以 eVarX 加以參照，其中，X 是介於 1 與 75 之間 ([或是 100 或 250](/help/implement/js-implementation/c-variables/page-variables.md)) 的數字。
 
 ```js
 s.eVarX="value"
@@ -418,11 +418,11 @@ events.xml
 
 根據預設，成功事件會設定為&#x200B;*計數器*&#x200B;事件。計數器事件會計算成功事件的設定次數 (x+1)。事件也可設定為&#x200B;*數值*&#x200B;事件。數值事件可讓您指定所要增加的數值 (可能會在計算動態值或任意值時用到，例如內部搜尋所傳回的結果數)。
 
-最後一個事件類型是&#x200B;*貨幣*，可讓您定義所要增加的金額 (類似於數值事件)，但在報表中會以貨幣的形式顯示，且必須遵循以 s.*`currencyCode`* 值和報表套裝預設貨幣設定為基礎的貨幣轉換方式。如需使用數值和貨幣事件的相關資訊，請參閱[產品](../../../implement/js-implementation/c-variables/page-variables.md#concept_A4007F6307E4419DAA65E1668A8FEBA2)。
+最後一個事件類型是&#x200B;*貨幣*，可讓您定義所要增加的金額 (類似於數值事件)，但在報表中會以貨幣的形式顯示，且必須遵循以 s.*`currencyCode`* 值和報表套裝預設貨幣設定為基礎的貨幣轉換方式。如需使用數值和貨幣事件的相關資訊，請參閱[產品](/help/implement/js-implementation/c-variables/page-variables.md)。
 
 **設定變數** {#section_9195286C34C54B02B2598E2B856492C3}
 
-依預設會為所有實施啟用 [!UICONTROL s.events] 變數。對於所有新的報表套裝，都會自動啟用七項預先設定的轉換事件。新的自訂事件 (event1- [event100 或 event1000](../../../implement/js-implementation/c-variables/page-variables.md#concept_558663F3B8164986AB5D94128FEA7B28)) 可由任何管理層級使用者透過管理控制台來啟用。
+依預設會為所有實施啟用 [!UICONTROL s.events] 變數。對於所有新的報表套裝，都會自動啟用七項預先設定的轉換事件。新的自訂事件 (event1- [event100 或 event1000](/help/implement/js-implementation/c-variables/page-variables.md)) 可由任何管理層級使用者透過管理控制台來啟用。
 
 **可能的值** {#section_18395A3BEFEB4E9F8D7B2ED0001FBE4E}
 
@@ -475,7 +475,7 @@ s.events="scRemove=3,event6,event2=4"
 
 根據預設，每次在您的網站上設定事件時，都會對該事件計數。
 
-請參閱[事件序列化](../../../implement/js-implementation/event-serialization.md#concept_092B638D7FEE423D91F8A57EA8E09705)，以瞭解詳細資訊。
+請參閱[事件序列化](/help/implement/js-implementation/event-serialization.md)，以瞭解詳細資訊。
 
 **語法** {#section_8559D42D3F344AF3BB3C0125F78C4989}
 
@@ -749,11 +749,11 @@ list_props.xml
 
 **考量事項**
 
-* 清單 prop 只能對流量變數 ([prop](../../../implement/js-implementation/c-variables/page-variables.md#concept_0F10FA2DE69B4029A31EA5E9313AA254)) 啟用。
+* 清單 prop 只能對流量變數 ([prop](/help/implement/js-implementation/c-variables/page-variables.md)) 啟用。
 * 您無法為清單 prop 啟用路徑分析和關聯。
 * 幾乎每個報表都可獲得 Analytics 提供的瀏覽和獨特訪客資料，包括所有的清單 prop 報表在內。
 * 清單 prop 支援分類功能。
-* 任何自訂流量變數皆可成為清單 prop(例外: [pageName](../../../implement/js-implementation/c-variables/page-variables.md#concept_5827B499DAC34B5D8445F9D9140CC328)、[channel](../../../implement/js-implementation/c-variables/page-variables.md#concept_C7770B8C15724A99B10F8F468AF82D0D) 和 [server](../../../implement/js-implementation/c-variables/page-variables.md#concept_BF77952603BA454BAFC9A0A81D06A7D2))。
+* 任何自訂流量變數皆可成為清單 prop(例外: [pageName](/help/implement/js-implementation/c-variables/page-variables.md)、[channel](/help/implement/js-implementation/c-variables/page-variables.md) 和 [server](/help/implement/js-implementation/c-variables/page-variables.md))。
 
 * 在相同的影像要求中定義重複值時，不會對例項進行重複資料刪除。
 
@@ -1312,7 +1312,7 @@ mobile.xml
 
  -->
 
-詳情請參閱[行動網路通訊協定](../../../implement/js-implementation/c-additional-libraries/network-protocols.md#concept_2425537FC9CB45DD868B5FA2298B6CAC)。
+詳情請參閱[行動網路通訊協定](/help/implement/js-implementation/c-additional-libraries/network-protocols.md)。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
@@ -1585,7 +1585,7 @@ products.xml
 | 產品 | (必要) 用以追蹤產品的識別碼。此識別碼可用來填入[!UICONTROL 「產品」]報表。請確實在整個結帳程序中使用相同的識別碼。 |
 | 數量 | 購買產品的件數。此欄位必須與[!UICONTROL 購買]事件一起設定，才能記錄下來。 |
 | 價格 | 請參考已購買的組合總品質成本 (單位 x 個別單位價格)，而非參考個別價和。此欄位必須與[!UICONTROL 購買]事件一起設定，才能記錄下來。 |
-| 事件 | 與指定之事件相關聯的貨幣事件。請參閱[產品特有的貨幣事件](../../../implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)及[整張訂單貨幣事件](../../../implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)。 |
+| 事件 | 與指定之事件相關聯的貨幣事件。請參閱[產品特有的貨幣事件](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)及[整張訂單貨幣事件](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)。 |
 | eVar | 與指定之產品相關聯的銷售 eVar 值。請參閱 [銷售變數](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
 
 包含在以下的值  *`products`*&#x200B;變數中包括的值是根據您正在記錄的事件類型。省略類別時，必須以類別/產品分隔字元 (;) 作為預留位置。僅在需要其他分隔字元，來區分您將包括的參數時，才需要這些分隔字元，如此頁面上的範例所示。
@@ -2014,7 +2014,7 @@ s.timestamp="UNIX or ISO-8601 format timestamp"
 >
 >此外，如果您啟用報表套裝的時間戳記支援以便支援離線追蹤，從 JavaScript 傳送給此報表套裝的所有點擊也必須以手動設定時間戳記 (使用 *`s.timestamp`*).您不能同時傳送具有時間戳記和不具有時間戳記的點擊給同一份報表套裝。
 >
->您也可以使用[可選時間戳記](../../../implement/js-implementation/timestamps-overview.md#concept_1A7DF6F7BDA34467B51A6F61E08BB73F)設定，以在相同的全域報表套裝中混合時間戳記及非時間戳記資料，從行動應用程式將時間戳記資料傳送至全域報表套裝，也可將應用程式升級，以便在不創建新報表套裝的情形下採用時間戳記。
+>您也可以使用[可選時間戳記](/help/implement/js-implementation/timestamps-overview.md)設定，以在相同的全域報表套裝中混合時間戳記及非時間戳記資料，從行動應用程式將時間戳記資料傳送至全域報表套裝，也可將應用程式升級，以便在不創建新報表套裝的情形下採用時間戳記。
 
 **時間戳記格式** {#section_C12CBCECCD7047D38EF63A5800761CE9}
 
