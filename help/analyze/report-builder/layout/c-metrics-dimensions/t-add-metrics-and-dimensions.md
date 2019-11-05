@@ -7,7 +7,7 @@ title: 新增度量和維度
 topic: Report Builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 將度量和維度新增至請求的步驟。
 
-1. [在「請求精靈](../../../../analyze/report-builder/data-requests/data-requests.md#concept_E14C1E6B63C44D02BF8D80021B4B0F89) 」中建立 [!UICONTROL 資料請求：步驟1]，然後按「下 **[!UICONTROL 一步]**」。
+1. [在「請求精靈](/help/analyze/report-builder/data-requests/data-requests.md) 」中建立 [!UICONTROL 資料請求：步驟1]，然後按「下 **[!UICONTROL 一步]**」。
 1. 在[!UICONTROL 「請求精靈: 步驟 2」]中按兩下度量，或將度量拖曳到需要的位置。
 
    ![步驟資訊](assets/adding_metrics.png)
@@ -64,7 +64,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
     
     *年*日期範圍（未指定詳細程度時）
 
-1. 透過設定格式選項和篩選 [器來修改](../../../../analyze/report-builder/layout/t-format-display-headers.md#task_45C7C4938C2C47FCB02634A1248AA831) 量度和維度。
+1. 透過設定格式選項和篩選 [器來修改](/help/analyze/report-builder/layout/t-format-display-headers.md) 量度和維度。
 1. 按一下&#x200B;**[!UICONTROL 完成]**。在以下範例中，維度與「[!UICONTROL 頁面]」度量相關。在此範例中，[!UICONTROL 「反向連結網域」]維度建立了[!UICONTROL 「頁面」]和[!UICONTROL 「反向連結網域]」間的劃分報表。只會針對您可以新增至劃分報表的維度更新[!UICONTROL 「維度」]索引標籤。
 
 ![](assets/page_pageview_02.png)
