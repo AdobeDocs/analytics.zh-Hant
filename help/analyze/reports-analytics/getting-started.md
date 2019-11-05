@@ -8,7 +8,7 @@ title: 「Reports and Analytics」快速入門
 topic: Reports and Analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -77,13 +77,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 1. 登入 [!UICONTROL Report &amp; Analytics]。
 
-   如果已設定報表功能表，則 [會顯示](../../analyze/reports-analytics/dashboard.md#concept_8CD3ACA2830A4994A68A31D8773B57E0) 「報表」功能表，或顯示控制面板。
+   如果已設定報表功能表，則 [會顯示](/help/analyze/reports-analytics/dashboard.md) 「報表」功能表，或顯示控制面板。
 
 1. Click **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]** (for example).
 
    ![](assets/pages_report.png)
 
-   See [Report Features](../../analyze/reports-analytics/overview/report-overview.md#concept_AEA3BBC8167040198E0FECEAB2E0A677) for information about interface features of a report.
+   See [Report Features](/help/analyze/reports-analytics/overview/report-overview.md) for information about interface features of a report.
 
 ## 編輯使用者的帳戶設定
 
@@ -116,11 +116,11 @@ Click the Account icon ![](assets/account.png)at the top right, then click the *
   </tr> 
   <tr> 
    <td> <p> 登入 </p> </td> 
-   <td> <p>顯示帳戶使用者名稱，並讓您變更帳戶密碼。 </p> <p>另請參閱: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html" format="html" scope="external">如何重設 Reports &amp; Analytics 帳戶密碼</a>。 </p> </td> 
+   <td> <p>顯示帳戶使用者名稱，並讓您變更帳戶密碼。 </p> <p>另請參閱: <a href="https://helpx.adobe.com/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >如何重設 Reports &amp; Analytics 帳戶密碼</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p>網站服務 </p> </td> 
-   <td> <p>顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/developer" scope="external" format="https">Developer Connection</a>。 </p> <p> <p>附註: 只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 </p> </p> </td> 
+   <td> <p>顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>。 </p> <p> <p>附註: 只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 排除此電腦 </p> </td> 
