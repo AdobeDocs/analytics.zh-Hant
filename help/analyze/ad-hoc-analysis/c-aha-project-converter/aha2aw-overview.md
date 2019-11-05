@@ -5,7 +5,7 @@ seo-title: Ad Hoc Analysis 專案轉換器概觀
 title: Ad Hoc Analysis 專案轉換器概觀
 uuid: 7d78753d-d56c-4eea-b1dd-7c9ec225cce3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Ad Hoc Analysis 專案轉換工具可順暢地將您所有的 Ad Hoc 專案轉換至 Analysis Workspace。
 
-* [為何應該轉換專案? ](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
-* [如何轉換臨機分析專案](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
-* [在 Analysis Workspace 中檢視轉換的專案](../../../analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md#concept_8906482FF9D641D9A93137C1DAD4BB88)
-* [專案轉換工具常見問題集](../../../analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
+* [為何應該轉換專案? ](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md#section_173A6297E20641D0B68B7AF199557CA6)
+* [如何轉換臨機分析專案](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md#topic_5A55F73488704C5D8E42CDD04B5984DE)
+* [在 Analysis Workspace 中檢視轉換的專案](/help/analyze/ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
+* [專案轉換工具常見問題集](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)
 
 ## Why Should You Convert Projects? {#section_173A6297E20641D0B68B7AF199557CA6}
 
