@@ -7,7 +7,7 @@ title: 共用區段
 topic: 區段
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 何時應將區段共用給整個公司而不僅是一群使用者或個人?以下是您可以遵循的一些最佳實務:
 
-* 身為管理員，如果區段對整個公司都有用，而且每個人都樂於使用它，請將區段共用給&#x200B;**[!UICONTROL 全部]的人。** In this case, you should also consider making it an [approved](../../../components/c-segmentation/c-segmentation-workflow/seg-approve.md#concept_DF477F151A9E483A92ED1DDAAF035953) segment.
+* 身為管理員，如果區段對整個公司都有用，而且每個人都樂於使用它，請將區段共用給&#x200B;**[!UICONTROL 全部]的人。** In this case, you should also consider making it an [approved](/help/components/c-segmentation/c-segmentation-workflow/seg-approve.md) segment.
 
 * 身為管理員，如果區段可為特定團隊帶來良好的商務價值，請將區段共用給該&#x200B;**[!UICONTROL 群組]。**&#x200B;請勿正式核准此類型的區段。
 * 身為管理員或個人使用者，將區段共用給其他個人來審查和檢驗區段。如果效果不如預期，則可加以捨棄。請勿正式核准此類型的區段。
