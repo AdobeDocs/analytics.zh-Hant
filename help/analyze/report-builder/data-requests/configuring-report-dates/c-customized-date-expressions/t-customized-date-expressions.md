@@ -1,18 +1,18 @@
 ---
 description: 您可以建立自訂運算式來指定複雜的日期範圍。
 seo-description: 您可以建立自訂運算式來指定複雜的日期範圍。
-seo-title: 自訂日期陳述式-總覽
+seo-title: 自訂日期運算式 - 概觀
 solution: Analytics
-title: 自訂日期陳述式-總覽
+title: 自訂日期運算式 - 概觀
 topic: Report Builder
-uuid: 7d6d7c03-a3 f4-4ec-8343-de2 e6478 f06
+uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: d75c58caf1220031fa36483a0ad50ea6f7be7c39
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 自訂日期陳述式-總覽
+# 自訂日期運算式 - 概觀
 
 您可以建立自訂運算式來指定複雜的日期範圍。
 
