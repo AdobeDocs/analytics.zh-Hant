@@ -5,10 +5,10 @@ seo-description: Analysis Workspace 的系統需求。
 seo-title: 管理需求
 solution: Analytics
 title: 管理需求
-topic: Reports & Analytics
-uuid: 6c8boga a-0cf8-435d-a4 d1-67e2 cb55 da4 c
+topic: Reports and Analytics
+uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspace 的系統需求。
   </tr> 
   <tr> 
    <td colname="col1"> 使用者 </td> 
-   <td colname="col2"> <p>若要啟用 Analytics 中 Workspace 索引標籤的存取，系統管理員必須將使用者新增至「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt;<span class="uicontrol"> 群組</span>」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">Analysis Workspace 存取</a>」群組。 </p> </td> 
+   <td colname="col2"> <p>若要啟用 Analytics 中 Workspace 索引標籤的存取，系統管理員必須將使用者新增至「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt;<span class="uicontrol"> 群組</span>」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace 存取</a>」群組。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 轉讓專案 </td> 
