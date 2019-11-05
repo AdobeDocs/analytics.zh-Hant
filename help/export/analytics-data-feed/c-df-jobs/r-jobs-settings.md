@@ -7,7 +7,7 @@ solution: Analytics
 title: 工作設定
 uuid: e124b4f1-0168-4eaa-8657-19207b2f263f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 每小時 (預設值) </td> 
-   <td colname="col2"> <p>每小時的資料以包含該小時所有資料的單一壓縮檔案進行傳送。您每天會收到 24 次傳送，每個檔案在該小時資料進行處理後傳送。 </p> <p>「每小時」一詞說明每次匯出資料時傳送的資料時段，而非傳送的時段。 我們會盡一切所能地處理並傳送每小時資料饋送。 </p> <p>對於每小時資料饋送，預期95%的時間會在該小時資料結束時的12小時內傳送。 高流量之報表套裝的資料摘要可能需要較長的時間來處理及提交。 </p> <p>接收每小時資料饋送不同於接收多個檔案傳送的每日饋送。接收每小時資料饋送時，每天的資料將根據該小時收集到的資料而分割為 24 個檔案，每個檔案一旦可用時馬上傳送。以多個檔案傳送的每日饋送則是在前一天的資料處理完畢後每天傳送一次，且根據收集到的資料量，分割為 2GB 的遞增檔案。 </p> <p>每個檔案的命名格式如下: </p> <p> <span class="filepath"> <span class="varname"> reportsuite</span>-<span class="varname"> date</span>-<span class="varname"> hour</span>.tar</span> </p> <p>如需影響每小時摘要之因子的詳細資訊，請參閱<a href="../../../export/analytics-data-feed/c-df-contents/jobs-faq.md#concept_7C67A012CCF64B0C8DA33E5A6CF7FD9E" format="dita" scope="local">工作常見問題集</a>。 </p> </td> 
+   <td colname="col2"> <p>每小時的資料以包含該小時所有資料的單一壓縮檔案進行傳送。您每天會收到 24 次傳送，每個檔案在該小時資料進行處理後傳送。 </p> <p>「每小時」一詞說明每次匯出資料時傳送的資料時段，而非傳送的時段。 我們會盡一切所能地處理並傳送每小時資料饋送。 </p> <p>對於每小時資料饋送，預期95%的時間會在該小時資料結束時的12小時內傳送。 高流量之報表套裝的資料摘要可能需要較長的時間來處理及提交。 </p> <p>接收每小時資料饋送不同於接收多個檔案傳送的每日饋送。接收每小時資料饋送時，每天的資料將根據該小時收集到的資料而分割為 24 個檔案，每個檔案一旦可用時馬上傳送。以多個檔案傳送的每日饋送則是在前一天的資料處理完畢後每天傳送一次，且根據收集到的資料量，分割為 2GB 的遞增檔案。 </p> <p>每個檔案的命名格式如下: </p> <p> <span class="filepath"> <span class="varname"> reportsuite</span>-<span class="varname"> date</span>-<span class="varname"> hour</span>.tar</span> </p> <p>如需影響每小時摘要之因子的詳細資訊，請參閱<a href="/help/export/analytics-data-feed/c-df-contents/jobs-faq.md"  >工作常見問題集</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 回填每小時資料饋送的資料 </td> 
