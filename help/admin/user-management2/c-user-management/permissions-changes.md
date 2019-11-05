@@ -9,7 +9,7 @@ title: 使用者和群組權限變更
 topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,15 +40,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col1"> <p id="reportaccess">變更<span class="uicontrol">報表存取</span> (自訂群組) </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> 新增群組</span> &gt; <span class="uicontrol">報表存取</span> </p> <p><span class="wintitle">定義使用者群組</span>頁面上的<span class="wintitle">報表存取</span>區段已簡化為四個類別，讓您可以在精細層次自訂權限。 </p> <p><img  src="assets/report-access.png" id="image_CB83E5C7DB4343619421A1FAA61478D0"> </img> </p> <p>先前包括的項目 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </p> <p> <b>注意:</b> 來自自訂管理控制台類別的公司設定已移至分析工具。 </p> </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">報表套裝工具</a>: 為網站服務、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </p> </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </p> </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </p> </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </p> <p> <b>注意:</b> 來自自訂管理控制台類別的公司設定已移至分析工具。 </p> </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">報表套裝工具</a>: 為網站服務、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </p> </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </p> </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"> <p> <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </p> </li> 
     </ul> <p>例如，您可以建立群組，使其可取得多項 Analytics 工具 (<span class="wintitle">Analysis Workspace</span>、<span class="wintitle">Reports &amp; Analytics</span> 及 <span class="wintitle">Report Builder</span>)、具有特定量度和維度 (包括 eVar) 之權限，並具有區段或計算量度建立等功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>對預先定義的群組的變更 </p> </td> 
-   <td colname="col2"> <p> <b>管理員存取:</b> 管理員不再需要預先定義的群組。管理員現在可以存取所有項目 (工具、量度和維度)，以及網站服務存取、Report Builder、Activity Map 和 Ad Hoc Analysis。 </p> <p>在此之後，群組的目的是授予或限制對非管理使用者的存取。 </p> <p> <b>自訂群組:</b> 自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">自訂分析工具</a>。 </p> <p> 屬於「全部報 <span class="term"> 表存取權</span> 」的使用者已移轉至具有下列存取權的自訂群組： </p> 
+   <td colname="col2"> <p> <b>管理員存取:</b> 管理員不再需要預先定義的群組。管理員現在可以存取所有項目 (工具、量度和維度)，以及網站服務存取、Report Builder、Activity Map 和 Ad Hoc Analysis。 </p> <p>在此之後，群組的目的是授予或限制對非管理使用者的存取。 </p> <p> <b>自訂群組:</b> 自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自訂分析工具</a>。 </p> <p> 屬於「全部報 <span class="term"> 表存取權</span> 」的使用者已移轉至具有下列存取權的自訂群組： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有維度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
@@ -57,19 +57,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">異常偵測報表權限 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">即時報表權限 </li> 
      <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 存取權限 </li> 
-    </ul> <p>管理員可以刪除自訂群組並建立自己的群組，因為先前在預先定義的群組中可使用的所有設定，皆可在位於<span class="wintitle">「定義使用者群組」</span>內的<a href="/help/admin/user-management2/c-user-groups/groups.md" format="dita" scope="local">「報表存取」</a>設定中自訂。 </p> </td> 
+    </ul> <p>管理員可以刪除自訂群組並建立自己的群組，因為先前在預先定義的群組中可使用的所有設定，皆可在位於<span class="wintitle">「定義使用者群組」</span>內的<a href="/help/admin/user-management2/c-user-groups/groups.md">「報表存取」</a>設定中自訂。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>維度層級權限 </p> </td> 
    <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限: 存取類別是由存取類別基準的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html" format="html" scope="external">變數</a>所決定。  </li> 
-    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local"> Customize Dimension Permissions</a>. </p> </td> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限: 存取類別是由存取類別基準的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">變數</a>所決定。  </li> 
+    </ul> <p>See <a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md"> Customize Dimension Permissions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>僅新客戶或已在 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html" format="html" scope="external">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱「管 <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html" format="html" scope="external"> 理控制台」中的「管理產品權限」</a>。 </p> </td> 
+   <td colname="col2"> <p>僅新客戶或已在 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱「管 <a href="https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html"> 理控制台」中的「管理產品權限」</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col1"> <p><b>2016 年 10 月</b>版本中有哪些權限變更項目? </p> </td> 
    <td colname="col2"> <p>提供了對目前<span class="wintitle">管理工具</span>介面的下列增強功能: </p> <p> 
      <ul id="ul_2A31E8DC17A94B7FABDBA9C87C3947EF"> 
-      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">權限變更，如「管理變更- 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md" format="dita" scope="local"> 年秋季版」所述</a>。 </li> 
+      <li id="li_AE2ECCA01CC64D30B109BE74379EE474">權限變更，如「管理變更- 2016 <a href="/help/admin/user-management2/c-user-management/permissions-changes.md"> 年秋季版」所述</a>。 </li> 
       <li id="li_33CB2B6A2E5F45BE97CC5E0983AF280E">移除已不在功能表中的預設流量報表。 </li> 
       <li id="li_57234CF27E1D405987DE89312CD62C52">分類權限：分類的存取權將由分類所用變數的存取權決定。 </li> 
      </ul> </p> </td> 
@@ -140,15 +140,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> 建立使用者 </td> 
-   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> 管理工具</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> 管理控制台</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> 管理控制台</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (creating a user and adding him or her to an Analytics <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> product configuration</a> also creates the user account in Analytics). </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 編輯使用者 </td> 
-   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md" format="dita" scope="local"> 管理工具</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> 管理控制台</a> </p> <p> 管理工具 - 在管理工具中針對移轉的使用者進行編輯，受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/" format="http" scope="external"> 管理控制台</a> </p> <p> 管理工具 - 編輯受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> <p> 管理工具 - 在管理工具中針對移轉的使用者進行編輯，受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> <p> 管理工具 - 編輯受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 刪除使用者 </td> 
@@ -165,8 +165,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr> 
    <td colname="col1"> 建立群組 </td> 
    <td colname="col2"> <p>管理控制台——在管理控制台中建立群組時，Analytics中的對應群組會顯示在「管理工具」中，但此對應群組的名稱無法從「管理工具」變更，或從「管理工具」刪除。 </p> <p>管理工具. </p> </td> 
-   <td colname="col3"> <p>管理控制台(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> 建立產品設定</a>) </p> </td> 
-   <td colname="col4"> <p>管理控制台(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html" format="html" scope="external"> 建立產品設定</a>) </p> </td> 
+   <td colname="col3"> <p>管理控制台(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> 建立產品設定</a>) </p> </td> 
+   <td colname="col4"> <p>管理控制台(<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html"> 建立產品設定</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 編輯群組中的使用者 </td> 
