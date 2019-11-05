@@ -8,7 +8,7 @@ title: 轉換變數 (eVar)
 topic: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -87,7 +87,7 @@ eVar 最適合用來測量原因和結果，如:
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售</span> </p> <p>(僅限 eVar) </p> </td> 
-   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法: </p> <p> <b></b> 產品語法</span>:將eVar值與產品關聯。 注意: 如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b></b> 轉換變數語法</span>:只有在發生「系結事件」時，才會將eVar與產品關聯。 在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html" format="http" scope="external">銷售變數</a>。 </p> </td> 
+   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法: </p> <p> <b></b> 產品語法</span>:將eVar值與產品關聯。 注意: 如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b></b> 轉換變數語法</span>:只有在發生「系結事件」時，才會將eVar與產品關聯。 在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/var_merchandising.html">銷售變數</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售捆綁事件</span> </p> <p>(僅限 eVar) </p> </td> 
