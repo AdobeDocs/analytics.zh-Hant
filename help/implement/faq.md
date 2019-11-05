@@ -8,7 +8,7 @@ title: Analytics 實作常見問題集
 topic: 開發人員和實作
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
 
 ---
 
@@ -25,39 +25,39 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> <p>如何管理 Analytics 使用者和群組? </p> </td> 
-   <td colname="col3"> <p>如需管理使用者和群組的相關資訊，請參閱 Adobe Experience Cloud 說明中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html" format="html" scope="external">使用者和產品管理</a>。 </p> </td> 
+   <td colname="col3"> <p>如需管理使用者和群組的相關資訊，請參閱 Adobe Experience Cloud 說明中的<a href="https://marketing.adobe.com/resources/help/en_US/reference/user_management.html">使用者和產品管理</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>eVar有效期——為什麼eVar會被歸因為報表中的「無」? </p> </td> 
-   <td colname="col3"> <p> <span class="uicontrol">過期時間</span>能指定時段或事件，在發生此時段或事件後，eVar 值就會過期 (不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。如果您選取事件作為過期值，則變數在事件發生時才會過期。如果事件未發生，變數永遠不會過期。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p> <span class="uicontrol">過期時間</span>能指定時段或事件，在發生此時段或事件後，eVar 值就會過期 (不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。如果您選取事件作為過期值，則變數在事件發生時才會過期。如果事件未發生，變數永遠不會過期。<a href="https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>自訂事件可見性 - 為何自訂事件不會出現在報表功能表中? </p> </td> 
-   <td colname="col3"> <p>在「可見性」欄中，您可以在功能表、量度選擇器、計算量度產生器及區段產生器中隱藏標準 (內建) 量度器、自訂事件及內建事件。此設定不會影響該量度或事件的資料收集作業，只會影響其使用者介面的可見性。<a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>在「可見性」欄中，您可以在功能表、量度選擇器、計算量度產生器及區段產生器中隱藏標準 (內建) 量度器、自訂事件及內建事件。此設定不會影響該量度或事件的資料收集作業，只會影響其使用者介面的可見性。<a href="https://marketing.adobe.com/resources/help/en_US/reference/metric-visibility.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>時間戳記 - 變更時間戳記設定前，需要考量哪些事項? </p> </td> 
-   <td colname="col3"> <p>使用可選時間戳記功能，您可以結合非時間戳記資料與時間戳記資料，而不會導致資料遺失。收集自行動裝置的附時間戳記離線資料可與來自網頁的即時非時間戳記資料相結合，或與使用用戶端時間戳記呼叫的平台資料相整合。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>使用可選時間戳記功能，您可以結合非時間戳記資料與時間戳記資料，而不會導致資料遺失。收集自行動裝置的附時間戳記離線資料可與來自網頁的即時非時間戳記資料相結合，或與使用用戶端時間戳記呼叫的平台資料相整合。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/timestamps-overview.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>訪客 ID - 訪客 ID 寬限期如何運作及啟動? </p> </td> 
-   <td colname="col3"> <p>如果您有多個 JavaScript 檔案會傳送資料至相同的報表套裝，或是您在網站上使用其他技術 (例如 Flash 視訊測量)，建議您設定寬限期。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>如果您有多個 JavaScript 檔案會傳送資料至相同的報表套裝，或是您在網站上使用其他技術 (例如 Flash 視訊測量)，建議您設定寬限期。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid_grace_period.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>訪客 ID - Experience Cloud 訪客 ID 與 Analytics 訪客 ID 有何不同? </p> </td> 
-   <td colname="col3"> <p>Identity 服務會指派不重複的永久性識別碼給所有網站訪客。有了此 ID，便可在 Experience Cloud 的其他解決方案之間共用訪客及其資料。此外，此 ID 也能取代或與解決方案專用的 ID 共同運作，例如 Analytics 訪客 ID。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>Identity 服務會指派不重複的永久性識別碼給所有網站訪客。有了此 ID，便可在 Experience Cloud 的其他解決方案之間共用訪客及其資料。此外，此 ID 也能取代或與解決方案專用的 ID 共同運作，例如 Analytics 訪客 ID。<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-overview.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>訪客 ID - 若 Cookie 遭到封鎖，如何設定訪客 ID? </p> </td> 
-   <td colname="col3"> <p>在標準 s_vi Cookie 無法使用時，將會以隨機產生的唯一 ID 在網站的網域上建立備援 Cookie。此 Cookie (名為 s_fid) 會設定 2 年的有效期，且會作為後續的備援身分識別方法。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>在標準 s_vi Cookie 無法使用時，將會以隨機產生的唯一 ID 在網站的網域上建立備援 Cookie。此 Cookie (名為 s_fid) 會設定 2 年的有效期，且會作為後續的備援身分識別方法。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_fallback.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>Dynamic Tag Management - 為何我的 DTM 規則沒有觸發? </p> </td> 
-   <td colname="col3"> <p>如果您的事件型規則沒有受到觸發，可能是因為選擇器或規則條件發生問題。請在網站上找到發生所需事件動作的元素，按一下滑鼠右鍵然後選取「檢查元素」。在開啟的方塊中檢查醒目顯示的指令檔，確定您已鎖定正確的元素作為目標。<a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>如果您的事件型規則沒有受到觸發，可能是因為選擇器或規則條件發生問題。請在網站上找到發生所需事件動作的元素，按一下滑鼠右鍵然後選取「檢查元素」。在開啟的方塊中檢查醒目顯示的指令檔，確定您已鎖定正確的元素作為目標。<a href="https://marketing.adobe.com/resources/help/en_US/dtm/c_Troubleshooting.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>如何實作心率視訊追蹤? </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/" format="https" scope="external">此區段</a>包含下載視訊心率 SDK 的相關說明，以及您平台的開發者指南。請確保您也下載開發者指南，內容有對於視訊心率的特定實作指示，您在下載 SDK 時，該指南會包含於文件資料夾中。 </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/">此區段</a>包含下載視訊心率 SDK 的相關說明，以及您平台的開發者指南。請確保您也下載開發者指南，內容有對於視訊心率的特定實作指示，您在下載 SDK 時，該指南會包含於文件資料夾中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>如何將 Cookie 新增至正確的子網域? </p> </td> 
@@ -65,11 +65,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> <p>追蹤伺服器 - 如何正確填充我的追蹤伺服器? </p> </td> 
-   <td colname="col3"> <p>您在設定傳送資料給 Adobe Analytics 伺服器的實作時，必須傳送至正確的位置。若有錯誤，將導致訪客計數膨脹或資料遺失。<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html" format="https" scope="external"> [更多...] </a> </p> </td> 
+   <td colname="col3"> <p>您在設定傳送資料給 Adobe Analytics 伺服器的實作時，必須傳送至正確的位置。若有錯誤，將導致訪客計數膨脹或資料遺失。<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html"> [更多...] </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>效能 - 無法載入外部 Adobe JavaScript (由於網際網路連線、Proxy、防火牆或 Adobe 服務中斷等原因) 是否會影響效能? </p> </td> 
-   <td colname="col3"> <p>否。JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 JavaScript 執行。如果採用 Dynamic Tag Management，則 JavaScript 檔案是由 Akamai 託管，或位在客戶決定的伺服器位置。 </p> <p>請參閱 <i>Dynamic Tag Management 會降低我網站的效能嗎? </i> (位於 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html" format="https" scope="external">Dynamic Tag Management 常見問題集 </a>)。 </p> <p>此外，如果您不想依賴 Akamai 的 CDN，也可以主控自己的核心 Dynamic Tag Management 檔案。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html" format="https" scope="external">內嵌代碼和託管選項</a>。 </p> </td> 
+   <td colname="col3"> <p>否。JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 JavaScript 執行。如果採用 Dynamic Tag Management，則 JavaScript 檔案是由 Akamai 託管，或位在客戶決定的伺服器位置。 </p> <p>請參閱 <i>Dynamic Tag Management 會降低我網站的效能嗎? </i> (位於 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/faq.html">Dynamic Tag Management 常見問題集 </a>)。 </p> <p>此外，如果您不想依賴 Akamai 的 CDN，也可以主控自己的核心 Dynamic Tag Management 檔案。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/dtm/deployment.html">內嵌代碼和託管選項</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>效能 - 載入外部 Adobe JavaScript 會導致效能降低嗎? </p> </td> 
@@ -85,55 +85,55 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col2"> 我可以根據自己的定義條件，變更收集的資料嗎? </td> 
-   <td colname="col3"> 使用處理規則可簡化資料收集作業，並在資料傳送至報表後管理內容。<a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html" format="https" scope="external"> [更多...] </a> </td> 
+   <td colname="col3"> 使用處理規則可簡化資料收集作業，並在資料傳送至報表後管理內容。<a href="https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> s_code 檔案的最新版本是什麼? </td> 
-   <td> 本節包含 Web 及行動平台上 [!DNL AppMeasurement] 資料庫的版本記錄。每個程式庫的最新版本可從「Reports &amp; Analytics &gt; 管理工具 &gt; 代碼管理器」下載。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> 本節包含 Web 及行動平台上 [!DNL AppMeasurement] 資料庫的版本記錄。每個程式庫的最新版本可從「Reports &amp; Analytics &gt; 管理工具 &gt; 代碼管理器」下載。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何偵錯 s_code 檔案? </td> 
-   <td> Adobe Debugger (舊稱為 DigitalPulse Debugger) 是 Adobe 提供的免費工具，可以在任何指定頁面上檢視從您網站收集到的資料。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> Adobe Debugger (舊稱為 DigitalPulse Debugger) 是 Adobe 提供的免費工具，可以在任何指定頁面上檢視從您網站收集到的資料。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何追蹤不同的連結類型? </td> 
-   <td> 系統會根據「JavaScript 適用的 AppMeasurement」檔案所設定的參數，自動追蹤檔案下載和退出連結。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> 系統會根據「JavaScript 適用的 AppMeasurement」檔案所設定的參數，自動追蹤檔案下載和退出連結。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/function_tl.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何追蹤視訊? </td> 
-   <td> JavaScript 可以用來追蹤多種播放器。若要使用 JavaScript 進行追蹤，您可將程式碼新增至包含播放器的網頁，並使用事件處理程式追蹤播放器。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> JavaScript 可以用來追蹤多種播放器。若要使用 JavaScript 進行追蹤，您可將程式碼新增至包含播放器的網頁，並使用事件處理程式追蹤播放器。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何追蹤行動應用程式? </td> 
-   <td> 可以在 Adobe Mobile Services 中產生具備獨特追蹤代碼的贏取連結。當使用者按一下產生的連結，從 Apple App Store 下載並執行應用程式後，SDK 就會自動收集並傳送贏取資料至 Adobe Mobile Services。<a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html" format="http" scope="external"> iOS</a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html" format="http" scope="external">Android </a> </td> 
+   <td> 可以在 Adobe Mobile Services 中產生具備獨特追蹤代碼的贏取連結。當使用者按一下產生的連結，從 Apple App Store 下載並執行應用程式後，SDK 就會自動收集並傳送贏取資料至 Adobe Mobile Services。<a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/acquisition.html"> iOS</a> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/acquisition.html">Android </a> </td> 
   </tr> 
   <tr> 
    <td> 如何實作視訊追蹤? </td> 
-   <td> 您可建立相關功能，並將功能附加到視訊播放器事件的處理常式，藉此追蹤媒體撥放器。如此一來，您就可以在適當時機呼叫 Media.open、Media.play、Media.stop 和 Media.close。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> 您可建立相關功能，並將功能附加到視訊播放器事件的處理常式，藉此追蹤媒體撥放器。如此一來，您就可以在適當時機呼叫 Media.open、Media.play、Media.stop 和 Media.close。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js_events.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何設定第一方 Cookie? </td> 
-   <td> Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的 Cookie 源自 Adobe 所經營的網域，稱為第三方 Cookie。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> Analytics 會使用 Cookie，針對未跨影像請求與瀏覽器作業存留的變數和元件提供相關資訊。這些無害的 Cookie 源自 Adobe 所經營的網域，稱為第三方 Cookie。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何取得 SSL 憑證? </td> 
-   <td> 確定您的網站是否使用 https:// 通訊協定。如果是，則必須請求 CSR 並購買 SSL 憑證。注意: 如果您沒有任何安全的頁面或內容，則不需要 SSL 憑證。如果您的網站僅使用 https:// 通訊協定，可跳過這整個步驟。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> 確定您的網站是否使用 https:// 通訊協定。如果是，則必須請求 CSR 並購買 SSL 憑證。注意: 如果您沒有任何安全的頁面或內容，則不需要 SSL 憑證。如果您的網站僅使用 https:// 通訊協定，可跳過這整個步驟。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_cert.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 哪裡可以找到憑證過期通知的相關資訊? </td> 
-   <td> SSL 憑證每年會到期一次，這表示每當到期時，Adobe 就會要求要有更新的憑證請求。FPC 專員會在到期時發出警告，但建議您主動監控到期時間，並向 Adobe 提供此更新的憑證。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> SSL 憑證每年會到期一次，這表示每當到期時，Adobe 就會要求要有更新的憑證請求。FPC 專員會在到期時發出警告，但建議您主動監控到期時間，並向 Adobe 提供此更新的憑證。<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/fpcookies_renewals.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 什麼是外掛程式? </td> 
-   <td> 「JavaScript 適用的 AppMeasurement」外掛程式是可執行數種進階功能的程式或函數。這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實作中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。若您想要使用 JavaScript 擷取資料，但不確定如何進行，請與客戶經理連絡。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> 「JavaScript 適用的 AppMeasurement」外掛程式是可執行數種進階功能的程式或函數。這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實作中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。若您想要使用 JavaScript 擷取資料，但不確定如何進行，請與客戶經理連絡。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/impl_plugins.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 資料插入 API 的相關資訊? </td> 
-   <td> Adobe 提供多種將資料傳入 Analytics 的方式。<a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html" format="http" scope="external"> [更多...] </a> </td> 
+   <td> Adobe 提供多種將資料傳入 Analytics 的方式。<a href="https://marketing.adobe.com/resources/help/en_US/reference/usecase_sending_data_to_sc.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 500 錯誤是什麼? </td> 
-   <td> 造成「500 查詢錯誤」狀態之內部伺服器錯誤的相關資訊。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html" format="http" scope="external">請參閱 pageType 變數 </a> </td> 
+   <td> 造成「500 查詢錯誤」狀態之內部伺服器錯誤的相關資訊。<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/pageType.html">請參閱 pageType 變數 </a> </td> 
   </tr> 
  </tbody> 
 </table>
