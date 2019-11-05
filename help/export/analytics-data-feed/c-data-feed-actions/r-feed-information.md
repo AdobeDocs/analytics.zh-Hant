@@ -1,13 +1,13 @@
 ---
 description: 「摘要資訊」區段可用來為摘要命名、指定執行摘要時依據的報表套裝、決定摘要循環，以及指定摘要的開始和結束時間。
-keywords: 資料饋送；資訊；名稱；報表套裝；填妥電子郵件；電子郵件；間隔；摘要；延遲處理；延遲；開始；結束；日期；連續摘要
+keywords: 資料饋送；資訊；名稱；報表套裝；完成時傳送；電子郵件；間隔；饋送；延遲處理；延遲；開始；結束；日期；連續饋送
 seo-description: 「摘要資訊」區段可用來為摘要命名、指定執行摘要時依據的報表套裝、決定摘要循環，以及指定摘要的開始和結束時間。
 seo-title: 摘要資訊
 solution: Analytics
 title: 摘要資訊
-uuid: adf92f42-a957-4de0-a5 a1-683f2933 af04
+uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 5a30ea6ac47ddd8612728e488afda868491a1ddc
   </tr>
   <tr>
    <td colname="col1"> <p>報表套裝 (必要) </p> </td>
-   <td colname="col2"> <p>指定摘要查詢的報表套裝。 </p> <p>至少需要選取一個報表套裝。您不能列出同一個報表套裝兩次。 </p> <p>可供登入使用者使用的所有非虛擬報表套裝都可供使用。 </p></td>
+   <td colname="col2"> <p>指定摘要查詢的報表套裝。 </p> <p>至少需要選取一個報表套裝。您不能列出同一個報表套裝兩次。 </p> <p>所有可供登入使用者使用的非虛擬報表套裝皆可使用。 </p></td>
   </tr>
   <tr>
    <td colname="col1"> <p>完成時傳送電子郵件 (必要) </p> </td>
