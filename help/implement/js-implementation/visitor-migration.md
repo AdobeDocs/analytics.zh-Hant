@@ -8,7 +8,7 @@ title: 訪客移轉
 topic: 開發人員和實作
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>開始使用:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html" format="http" scope="external">請聯絡客戶服務</a>，提供您要移轉的網域以及您想啟用的移轉期間 (30、60 或 90 天)。請務必包含不安全和安全的網域。 </p> </td> 
+   <td colname="col1"> <p> <b>開始使用:</b> <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html"  >請聯絡客戶服務</a>，提供您要移轉的網域以及您想啟用的移轉期間 (30、60 或 90 天)。請務必包含不安全和安全的網域。 </p> </td> 
    <td colname="col3"> <p>使用移轉來源和目標網域的<i>確實</i>語法，建立清單。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 
@@ -51,11 +51,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>組態變更後 6 小時以上</b>: 更新 Analytics JavaScript 程式碼中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 變數，以使用新的資料收集伺服器。 </p> </td> 
-   <td colname="col3"> <p>進行此變更後，請使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">封包分析器</a>，驗證 Analtyics 影像要求正在前往更新的資料收集伺服器。 </p> </td> 
+   <td colname="col3"> <p>進行此變更後，請使用<a href="/help/implement/impl-testing/packet-monitor.md"  >封包分析器</a>，驗證 Analtyics 影像要求正在前往更新的資料收集伺服器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>緊接在更新 Analytics 程式碼後</b>: 測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 </p> </td> 
-   <td colname="col3"> <p>使用<a href="../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258" format="dita" scope="local">封包分析器</a>驗證第一次存取您的網站或是清除 Cookie 後，您會先看到兩個 302 (重新導向) HTTP 狀態碼，接著才是 200 (確定) HTTP 狀態碼。如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 </p> </td> 
+   <td colname="col3"> <p>使用<a href="/help/implement/impl-testing/packet-monitor.md"  >封包分析器</a>驗證第一次存取您的網站或是清除 Cookie 後，您會先看到兩個 302 (重新導向) HTTP 狀態碼，接著才是 200 (確定) HTTP 狀態碼。如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在整個移轉期間</b>: 保留 DNS 記錄，讓先前的主機名稱作用中。 </p> </td> 
