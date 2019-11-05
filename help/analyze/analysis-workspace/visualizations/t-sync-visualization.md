@@ -8,7 +8,7 @@ title: 管理資料來源
 topic: Reports and Analytics
 uuid: 7bacf497-a933-463a-bf9d-f6d0c5de0cba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 管理資料來源可讓您顯示資料來源或鎖定選取項目。這些設定會決定當新資料進入時視覺效果的變更方式 (或不變更)。
 
-1. [使用資料表格](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2) 和視覺化建立專 [案](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)。
+1. [使用資料表格](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) 和視覺化建立專 [案](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 1. 在資料表中，選取您想關聯至視覺效果的儲存格 (資料來源)。
 1. In the visualization, click the dot next to the title to bring up the **[!UICONTROL Data Source]** dialog. Select **[!UICONTROL Show Data Source]** or **[!UICONTROL Lock Selection]**.
 
