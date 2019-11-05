@@ -8,7 +8,7 @@ title: JavaScript 適用的 AppMeasurement
 topic: 開發人員和實作
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -349,11 +349,11 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> iOS 延伸功能</span> </p> </td> 
-   <td colname="col2"> <p> 在 <span class="keyword">iOS</span> SDK 4.5 版中啟動新的 <span class="keyword">iOS</span> 擴充功能，可讓您從 Apple Watch 應用程式、Today Widget、Photo Editing Widget 和所有其他 <span class="keyword">iOS</span> 擴充應用程式上收集使用資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html" format="https" scope="external">iOS 延伸功能實施</a>。 </p> </td> 
+   <td colname="col2"> <p> 在 <span class="keyword">iOS</span> SDK 4.5 版中啟動新的 <span class="keyword">iOS</span> 擴充功能，可讓您從 Apple Watch 應用程式、Today Widget、Photo Editing Widget 和所有其他 <span class="keyword">iOS</span> 擴充應用程式上收集使用資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/ios_ext.html">iOS 延伸功能實施</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="keyword"> Android 穿戴式延伸功能</span> </p> </td> 
-   <td colname="col2"> <p> 在 <span class="keyword">Android</span> SDK 4.5 版中啟動新的 <span class="keyword">Android</span> 擴充功能可讓您透過 <span class="keyword">Android</span> 穿戴式應用程式中收集資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html" format="https" scope="external">Android 穿戴式延伸功能</a>。 </p> </td> 
+   <td colname="col2"> <p> 在 <span class="keyword">Android</span> SDK 4.5 版中啟動新的 <span class="keyword">Android</span> 擴充功能可讓您透過 <span class="keyword">Android</span> 穿戴式應用程式中收集資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/android_wearable.html">Android 穿戴式延伸功能</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
