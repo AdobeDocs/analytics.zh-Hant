@@ -1,83 +1,83 @@
 ---
-description: 資料隱私權中隱私權報告的變數。
-seo-description: 資料隱私權中隱私權報告的變數。
-seo-title: 隱私權報告變數
+description: 資料隱私權中的隱私權報表變數。
+seo-description: 資料隱私權中的隱私權報表變數。
+seo-title: 隱私權報表變數
 solution: Analytics
-title: 隱私權報告變數
+title: 隱私權報表變數
 topic: 管理工具
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
-# 隱私權報告變數
+# 隱私權報表變數
 
 為了在管理隱私權資料方面提供額外協助，我們提供一組保留變數，可搭配特定上下文資料變數使用。
-這些隱私權報告變數提供簡單易用的架構，可用來擷取每個分析點擊的隱私權狀態。
+這些隱私權報表變數提供簡單易用的架構，可用來擷取每個 Analytics 點擊的隱私權狀態。
 
 ## 變數
 
 * 同意管理選擇退出
-   * 保留變數：清單Prop
-   * 類型：逗號分隔字串
+   * 保留變數: 清單 Prop
+   * 類型: 逗號分隔字串
    * 包含:
-      * `contextData.['cm.ssf']=1` 顯示為SSF
-      * `contextData.['opt.dmp']=N` 顯示為DMP
-      * `contextData.['opt.sell']=N` 顯示為SELL
+      * `contextData.['cm.ssf']=1` 顯示為 SSF
+      * `contextData.['opt.dmp']=N` 顯示為 DMP
+      * `contextData.['opt.sell']=N` 顯示為 SELL
 
 * 同意管理選擇加入
-   * 保留變數：清單Prop
-   * 類型：逗號分隔字串
+   * 保留變數: 清單 Prop
+   * 類型: 逗號分隔字串
    * 包含:
-      * `contextData.['opt.dmp']=Y` 顯示為DMP
-      * `contextData.['opt.sell']=Y` 顯示為SELL
+      * `contextData.['opt.dmp']=Y` 顯示為 DMP
+      * `contextData.['opt.sell']=Y` 顯示為 SELL
 
-## 報告
+## 報表
 
-您可以透過Analytics管理控制台中提供的新隱私權設定，啟用隱私權報告變數。
+您可透過 Analytics Admin Console 中提供的新「隱私權」設定來啟用隱私權報表變數。
 
-每個報表套裝皆可設定如下：
-1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites.]**
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management.]**
+每個報表套裝皆可依照以下步驟設定:
+1. 在 Reports &amp; Analytics 中，按一下&#x200B;**[!UICONTROL 「管理員 &gt; 報表套裝」]**。
+1. 選取您要收集媒體資料的報表套裝，然後按一下&#x200B;**[!UICONTROL 「編輯設定 &gt; 隱私權管理」]**。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 按一下「啟 **[!UICONTROL 用資料隱私權報表]** 」按鈕。 **** 注意：啟用後，這些變數就無法關閉。
+1. 按一下&#x200B;**[!UICONTROL 「啟用資料隱私權報表」]**&#x200B;按鈕。**請注意:** 這些變數一經啟用即無法關閉。
 
    ![](assets/rsm-privacy-enable.png)
 
-1. 啟用後，您會看到確認訊息。
+1. 啟用後會顯示一則確認訊息。
 
    ![](assets/rsm-privacy-config.png)
 
-1. 保留的變數現在可用於報告。  請參閱「同意管理選擇退出」和「同意管理選擇加入」。
+1. 保留的變數現在可用於報表。請參閱「同意管理選擇退出」和「同意管理選擇加入」。
 
    ![](assets/rsm-privacy-reports.png)
 
 ## 實施
 
-已預先定義三個上下文資料變數，以搭配隱私權報告管理保留變數使用。  每位實施工程師都必須決定如何管理並保留這些變數的設定。
+已預先定義三個上下文資料變數，用於搭配隱私權報表管理保留變數使用。如何管理並保留這些變數的設定取決於每位實作工程師。
 
-如需實 [作上下文資料變數的一般指引](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html) ，請參閱上下文資料變數。
+如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
 
 ### SSF
 
 * 上下文資料: `contextData.['cm.ssf']`
-* 接受的值：
-   * 1 —— 傳送值"1"時，這表示伺服器端轉送處於選擇退出狀態。 值"1"與此變數搭配使用，將會封鎖此點擊與Adobe Audience manager的共用。 請參 [閱AAM ePrivacy Compliance。](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)
+* 接受的值:
+   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。請參閱[ AAM ePrivacy 合規性](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
    * 此參數不接受其他值。
 
 ### DMP
 
 * 上下文資料: `contextData.['opt.dmp']`
-* 接受的值：
-   * N —— 傳送值"N"時，這表示消費者選擇不共用至資料管理平台。 **** 注意：將此變數設為"N"目前並不會封鎖AAM的共用，但是，AAM功能的封鎖呼叫將會在2020年初新增。 目前，Adobe建議同時設 `c.cm.ssf=1` 定 `c.opt.dmp=N` 和以封鎖點擊傳送至AAM。
-   * Y —— 傳送值"Y"時，這表示消費者選擇分享至資料管理平台。
+* 接受的值: 
+   * N - 傳送「N」值時，表示消費者選擇不分享至資料管理平台。**注意:** 將此變數設為「N」目前並不會封鎖分享至 AAM，但是封鎖對 AAM 的呼叫功能將會在 2020 年初新增。目前 Adobe 建議同時設定 `c.cm.ssf=1` 和 `c.opt.dmp=N` 以封鎖將點擊傳送至 AAM。
+   * Y - 傳送「Y」值時，表示消費者選擇分享至資料管理平台。
 
-### 銷售
+### SELL
 
 * 上下文資料: `contextData.['opt.sell']`
-* 接受的值：
-   * N —— 傳送值"N"時，這表示消費者選擇不分享或銷售資料給第三方。
-   * Y —— 傳送值"Y"時，這表示消費者選擇分享或銷售資料給第三方。
+* 接受的值: 
+   * N - 傳送「N」值時，表示消費者選擇不分享或銷售資料給第三方。
+   * Y - 傳送「Y」值時，表示消費者選擇分享或銷售資料給第三方。
