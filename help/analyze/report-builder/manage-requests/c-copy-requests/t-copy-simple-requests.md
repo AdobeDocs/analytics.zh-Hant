@@ -7,7 +7,7 @@ title: 複製簡單請求
 topic: Report Builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
 
-A [referential request](../../../../analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md#task_82A145CC2A774F5EA86977D670E07DC8) uses values from cells as input for parameters, such as a data filter or relational filter. 這些篩選使用比對或趨勢，並且是以先前請求的結果或使用者輸入的儲存格內容 (稱為輸入儲存格) 為基礎。
+A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. 這些篩選使用比對或趨勢，並且是以先前請求的結果或使用者輸入的儲存格內容 (稱為輸入儲存格) 為基礎。
 1. 建立有效的請求。
 1. 以滑鼠右鍵按一下任一個已映射請求的儲存格，或選擇含請求的儲存格區域。
 
