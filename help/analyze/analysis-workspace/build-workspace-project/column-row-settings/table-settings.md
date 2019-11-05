@@ -5,7 +5,7 @@ seo-title: 列設定
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 列設定依您拖放至表格中的元件而異。
 
-您也可以使用[表格中的按右鍵動作](../../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F)來管理選取的列。
+您也可以使用[表格中的按右鍵動作](/help/analyze/analysis-workspace/visualizations/freeform-table.md)來管理選取的列。
 
 若要存取表格列設定，按一下維度、區段、量度、時段旁的設定圖示，或按以下各項之中的劃分:
 
@@ -29,7 +29,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><a href="../../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 日期比較</a> </p> </td> 
+   <td colname="col1"> <p><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 日期比較</a> </p> </td> 
    <td colname="col2"> <p><b>對齊各欄日期，讓所有開始日期在同一列。</b> </p> <p>當您選擇對齊日期，例如，在 2016 年 10 月和 9 月的月對月比較中，左欄將從 10 月 1 日開始，右欄將從 9 月 1 日開始: </p> <p><img placement="break"  src="assets/add-time-period-column3.png" width="500px" id="image_99398B13FEDA4715B8B818DF6093CA37" /> </p> <p>預設為停用。 </p> </td> 
   </tr> 
   <tr> 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>欄總計 </p> </td> 
-   <td colname="col2"> <p>這些設定只會在<a href="../../../../analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md#concept_C50E7DFBC0504C72A973123192F487D8" format="dita" scope="local">手動 (靜態) 列</a>顯示 (當您已選取有限數目的項目)，不會在動態列顯示 (當您拖放會顯示所有項目的維度)。 <p>附註: 若是<i>量度</i>手動列，此設定會停用，因為去加總表格中目前列以外的任何量度不太合理。 </p> </p> <p><b>加總目前在每個欄中的值來計算總計 (預設為啟用):</b> </p> <p>這個選項只會計算目前在表格中的列。(用戶端計算) </p> <p><b>依據每個量度的所有列計算總計 (預設為停用):</b> </p> <p>這個選項包含此維度的所有維度項目，即使是未列於表格中的項目。(伺服器端計算) </p> </td> 
+   <td colname="col2"> <p>這些設定只會在<a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md"  >手動 (靜態) 列</a>顯示 (當您已選取有限數目的項目)，不會在動態列顯示 (當您拖放會顯示所有項目的維度)。 <p>附註: 若是<i>量度</i>手動列，此設定會停用，因為去加總表格中目前列以外的任何量度不太合理。 </p> </p> <p><b>加總目前在每個欄中的值來計算總計 (預設為啟用):</b> </p> <p>這個選項只會計算目前在表格中的列。(用戶端計算) </p> <p><b>依據每個量度的所有列計算總計 (預設為停用):</b> </p> <p>這個選項包含此維度的所有維度項目，即使是未列於表格中的項目。(伺服器端計算) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>劃分 </p> </td> 
