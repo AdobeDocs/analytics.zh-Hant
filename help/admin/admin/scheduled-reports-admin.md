@@ -7,7 +7,7 @@ title: 排程報表佇列
 topic: 報表
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,10 +20,10 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 「排程報告管理員」中的管理層級功能包含:
 
-* 在組織中[「顯示所有計劃報表」](../../admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)的選項。
-* 組織中的[進階篩選功能](../../admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
-* 新的[「報表佇列」](../../admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)標籤會列出報告伺服器上所有佇列等候執行的報告。
-* 在「報表佇列」介面中公開「[排程 ID](../../admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1)」。
+* 在組織中[「顯示所有計劃報表」](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)的選項。
+* 組織中的[進階篩選功能](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
+* 新的[「報表佇列」](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)標籤會列出報告伺服器上所有佇列等候執行的報告。
+* 在「報表佇列」介面中公開「[排程 ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1)」。
 
 ## 顯示所有計劃報表 {#section_3F167CAAEEC24140B476CF95B7402690}
 
