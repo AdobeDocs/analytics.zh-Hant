@@ -7,7 +7,7 @@ solution: Analytics
 title: 工程技術服務參與 FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 這些參與項目包括 [!UICONTROL DB VISTA] 和自訂專案。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
 
 ## DB VISTA {#section_D1AC697356DA4B92B7A7F074ED76147F}
 
@@ -26,4 +26,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ## 自訂參與 {#section_A2A251CFB38D47CA9CDA73C5B00F5DDA}
 
-Adobe工程服務提供同時使用FTP和SFTP的自訂專案。 如需自訂專案的詳細資訊，請參閱 Adobe 工程技術服務。有關SFTP的資訊，請參 [閱安全檔案傳輸協定](../../../export/ftp-and-sftp/c-sftp/ftp-sftp.md#concept_08905F69AE2445FFB167D8AEE68390DC)。
+Adobe工程服務提供同時使用FTP和SFTP的自訂專案。 如需自訂專案的詳細資訊，請參閱 Adobe 工程技術服務。有關SFTP的資訊，請參 [閱安全檔案傳輸協定](/help/export/ftp-and-sftp/c-sftp/ftp-sftp.md)。
