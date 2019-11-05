@@ -5,7 +5,7 @@ seo-title: Report Builder 的新功能
 title: Report Builder 的新功能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 列出目前版本和舊版及其功能特色。
 
-## Report Builder 5.6
+## Report Builder 5.6{#rb-5-6-section}
 
 **編輯多個請求的量度**
 
 「編輯多個量度」功能可讓您輕鬆地在預先存在的一組請求中新增、移除或更換量度。
 
-如需詳細資訊，請參閱 [在多個要求之間編輯量度](../../analyze/report-builder/manage-requests/edit-multiple-metrics.md#concept_1524B059C72C4224AA199411151069AB).
+如需詳細資訊，請參閱 [在多個要求之間編輯量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
 
-## Report Builder 5.5
+## Report Builder 5.5{#rb-5-5-section}
 
 **使用 Report Builder 5.5 發佈至 Power BI**
 
@@ -30,11 +30,11 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 以前，身為分析師的您會將 Report Builder 活頁簿建立排程，以透過電子郵件 (或 FTP) 散佈。現在，您可以讓企業使用者相關人士在各種平台與裝置皆可使用的網頁式環境中，存取 (從其 Power BI 帳戶內部) 精確且最新的資料。
 
-結合 Report Builder 的報表產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。使用 Power Bi，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM)，以發掘獨特的客戶分析資料、關聯及商機。[更多...](../../analyze/report-builder/c-publish-power-bi/power-bi.md#concept_07653F1641774B70AD2DE77F0614B8CC)
+結合 Report Builder 的報表產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。有了Power BI，您也可以將Adobe Analytics與其他資料來源（例如銷售點、CRM）整合，以發掘獨特的客戶見解、關聯和機會。 [更多...](/help/analyze/report-builder/c-publish-power-bi/power-bi.md)
 
-## Report Builder 5.4
+## Report Builder 5.4{#rb-5-4-section}
 
-* **更有效管理和編輯多個請求中的區段。**&#x200B;在[!UICONTROL 「編輯多個請求」]下的新選項，可讓您在多個目標請求當中新增、移除、更換以及更換所有區段。[更多...](../../analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **更有效管理和編輯多個請求中的區段。**&#x200B;在[!UICONTROL 「編輯多個請求」]下的新選項，可讓您在多個目標請求當中新增、移除、更換以及更換所有區段。[更多...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **新增前往 Adobe Report Builder 社群的連結**「說明」底下新的 Adobe 社群連結，會前往 Adobe 社群論壇，搜索範圍縮小到 Report Builder 問題。Adobe 社群是您向 Report Builder 使用者同伴，詢問關於應用程式問題，以及了解或分享最佳做法的好地方。
 
@@ -42,19 +42,19 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
    >
    >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
 
-* **增強登入安全性** ：除了新的登入 [畫面外](../../analyze/report-builder/setup/login.md#concept_67A16213B90D43C7A624C4E43B821981)，標準報告建立工具登入功能還具備更安全的驗證程式，以OAuth授權架構為基礎。
+* **增強登入安全性** ：除了新的登入 [畫面外](/help/analyze/report-builder/setup/login.md)，標準報告建立工具登入功能還具備更安全的驗證程式，以OAuth授權架構為基礎。
 
-## Report Builder 5.3
+## Report Builder 5.3{#rb-5-3-section}
 
 * [虛擬報表套裝](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
 * [Analytics 中的 Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
 * [AEM 資產報告](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
 
-## Report Builder 5.2
+## Report Builder 5.2{#rb-5-2-section}
 
-* **計算量度** Report Builder 5.2支援Adobe Analytics統 [一計算量度](../../analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md#concept_C36AF97877EA49E0B055122E1EE32DD4)。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
+* **計算量度** Report Builder 5.2支援Adobe Analytics統 [一計算量度](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md)。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 
-* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋，「請求精靈」新增了幾個新搜尋列：一個用 [於報表搜尋](../../analyze/report-builder/data-requests/c-report-types/select-report-types.md#concept_C711B27E6FB64C18AC564EE142FC7EFC) ，另一個用於搜尋 [量度](../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4)。
+* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋，「請求精靈」新增了幾個新搜尋列：一個用 [於報表搜尋](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) ，另一個用於搜尋 [量度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。
 
 * **客戶屬性** ：客戶屬性儲存在名為VisAttr的新元素類型中，可設定為維度或量度。 如需如何上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)。
 
