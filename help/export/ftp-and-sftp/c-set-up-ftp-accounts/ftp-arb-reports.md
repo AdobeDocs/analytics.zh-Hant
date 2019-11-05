@@ -7,7 +7,7 @@ solution: Analytics
 title: Report Builder 傳遞的報表
 uuid: 94070700-4073-499a-afe2-10a30eab79f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 這些請求可動態參考工作表中的儲存格，而您可以更新及自訂資料的展示方式。對於 FTP，您必須確認可從外部連接主機。如需[!UICONTROL 報告建立工具]傳遞的報表的詳細資訊，請參閱[報告建立工具說明](https://marketing.adobe.com/resources/help/en_US/arb/index.html#ReportBuilder_Home)。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
