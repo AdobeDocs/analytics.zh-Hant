@@ -2,63 +2,63 @@
 description: 針對 Analytics 的最常問問題提供解答和疑難排解建議。
 keywords: Analytics 疑難排解
 seo-description: 針對 Analytics 的最常問問題提供解答和疑難排解建議。
-seo-title: 常問的問題
-title: 常問的問題
-uuid: 285b0ea4-aa07-4d39-a74 f-37b1 d02 d19 f1
+seo-title: 常見問題集
+title: 常見問題集
+uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# 常見問答集
+# 常見問題集
 
-針對報告與分析中最常詢問的Analytics問題提供解答和疑難排解建議。For frequently asked implementation questions, see the [FAQ](../../implement/faq.md) in the Implement user guide.
+針對「報告與分析」中一些最常問的Analytics問題，提供解答和疑難排解建議。 如需常見的實施問題，請參閱「實 [施使用指南](/help/implement/faq.md) 」中的常見問答集。
 
-**我的帳戶已鎖定；我要如何解除鎖定？**
+**我的賬戶已被鎖定；我要如何解鎖它？**
 
-若要重新啓用帳戶，請聯絡組織內的管理員。See also [Troubleshoot login issues with Adobe Analytics](../../technotes/troubleshoot-login.md) in the Technotes user guide.
+若要重新啟用帳戶，請連絡您組織內的管理員。 另請參 [閱Technotes使用指南中的](/help/technotes/troubleshoot-login.md) 「使用Adobe Analytics疑難排解登入問題」。
 
-**為甚麼我知道資料已收集，為甚麼會看到空白報表？**
+**我為何會看到空白報表，即使我知道已收集資料？**
 
-要疑難排解報表資料，需檢查幾項：
+若要疑難排解報表資料，請檢查以下幾項：
 
-* 檢查使用的度量：有些報表預設為「報告與分析」中的收入。確定您檢視的量度與報表相關。
-* 檢查日期範圍：日期範圍(尤其是組織的資料保留原則)無法傳回任何資料。檢查以確定您的日期範圍已正確設定。
-* 檢查內部URL篩選器：在您正確定義內部URL篩選器後，有些流量來源報表才會運作。
+* 檢查所用的量度：有些報表預設為「報告與分析」中的「收入」。 請確定您檢視的量度與報表相關。
+* 檢查日期範圍：日期範圍，尤其是您組織的資料保留政策以外的日期範圍，無法傳回任何資料。 檢查以確保日期範圍設定正確。
+* 檢查內部URL篩選器：有些流量來源報表要等到您正確定義內部URL篩選器後才能運作。
 
-**為何導覽功能表中缺少某些報表？**
+**為什麼導覽功能表中遺失某些報表？**
 
-從功能表中最常源自限制權限或功能表自訂的功能表中遺失任何報表。請與組織中的產品管理員聯絡，以確保您有權存取所需的所有維度和度量，且報表套裝的功能表結構不會加以自訂。
+功能表中遺失的任何報表最常源自受限權限或功能表自訂。 請連絡組織內的產品管理員，以確保您擁有所有所需維度和量度的存取權，而且報表套裝的功能表結構尚未自訂。
 
-**為甚麼有些長值會被切斷？**
+**為什麼有些長期價值觀會被切斷？**
 
-Adobe Analytics中幾乎所有變數都有字元限制。頁面名稱的字元限制為100個字元，而自訂轉換變數(eVar)則有255個字元限制。Adobe建議您確保傳送給Adobe的值簡明扼要，以避免截斷。
+Adobe Analytics中幾乎所有的變數都有字元限制。 「頁面名稱」有100個字元的限制，而自訂轉換變數(eVar)有255個字元的限制。 Adobe建議您確保傳送至Adobe的值簡明扼要，以避免截斷。
 
-**為甚麼報告的延遲會大延遲？**
+**為什麼報告會大幅延遲？**
 
-即時報告可讓某些流量度量在幾分鐘內推出，而轉換和其他處理密集資料通常會在30-90分鐘內提供。雖然 Experience Cloud 平台十分健全，但偶爾仍可能出現報告延遲的情形。此延遲稱為延遲。See [Latency](../../technotes/latency.md) in the Technotes user guide for more information.
+即時報告可讓部分流量量度在幾分鐘內可用，而轉換和其他需要處理的資料通常在30-90分鐘內可用。 雖然 Experience Cloud 平台十分健全，但偶爾仍可能出現報告延遲的情形。此延遲稱為延遲。 如需詳 [細資訊](/help/technotes/latency.md) ，請參閱Technotes使用指南中的延遲。
 
-**為何我無法在iPhone上看到裝置版本？**
+**我為何無法在iPhone上看到裝置版本？**
 
-Apple裝置會在使用者代理字串中報告韌體版本，而非裝置版本。使用Adobe Analytics提供的資訊來判斷iPhone裝置版本很困難。See [Comparing iPhone device versions](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) in the Analytics KB for more information.
+Apple裝置會在使用者代理字串中報告其韌體版本，而非裝置版本。 使用Adobe Analytics可用的資訊來判斷iPhone裝置版本很困難。 如需詳 [細資訊，請參閱](https://helpx.adobe.com/analytics/kb/comparing-iphone-device-versions.html) Analytics KB中的比較iPhone裝置版本。
 
-**為甚麼我的報表底部總計值不符合值？**
+**為什麼我總和值時，報表底部的總計不符？**
 
-維度值通常適用於多個位置；例如，跨午夜的瀏覽或屬於單一訂單的多個產品。維度值會報告所有適用行項目，但會在報表總計中進行去重復化。See [Compare sum of line items to report total](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) in the Analytics KB for more information.
+維度值通常可以套用至多個位置；例如，跨午夜的瀏覽或屬於單一訂單的多個產品。 維度值會報告至所有適用的行項目，但會在報表的總計中去重複化。 如需 [詳細資訊，請參閱Analytics KB中的行項目總和](https://helpx.adobe.com/analytics/kb/sum-line-items-different-from-total.html) ，與報告總計進行比較。
 
 **如何從報表套裝中的特定IP位址排除資料？**
 
-您可以消除報告中的內部網站活動資料，例如網站測試和員工使用情形。此功能可讓您和您的同事拜訪您的網站，但不影響流量資料的準確性。See [Exclude by IP Address](../../admin/admin/exclude-ip.md) in the Admin user guide for more information.
+您可以消除報表中來自內部網站活動的資料，例如網站測試和員工使用情況。 此功能可讓您和您的同事拜訪您的網站，但不影響流量資料的準確性。如需詳 [細資訊，請參閱](/help/admin/admin/exclude-ip.md) 「管理員使用指南」中的「依IP位址排除」。
 
 **我可以刪除報表套裝嗎？**
 
-無法刪除報表套裝。不過，報表套裝可從Adobe Analytics中的所有檢視中隱藏。請注意，傳送至隱藏報表套裝的伺服器呼叫仍會計入您的每月合約限制。See [Hide report suites](../../admin/company/c-hide-report-suites.md) in the Admin user guide for more information.
+無法刪除報表套裝。 不過，報表套裝可從Adobe Analytics的所有檢視中隱藏。 請注意，傳送至隱藏報表套裝的伺服器呼叫仍會計入您的每月合約限制。 如需詳 [細資訊，請參閱](/help/admin/company/c-hide-report-suites.md) 「管理員使用指南」中的「隱藏報表套裝」。
 
-**使用分段時，我應該使用哪個容器？Page view, visit, or visitor?**
+**使用區段時，我應使用哪個容器？ 頁面檢視、瀏覽或訪客？**
 
-您使用的區段容器取決於您要擷取資料的廣度。頁面檢視容器只會出現符合區段標準的點擊，用於篩選瀏覽中無關的部分。瀏覽容器會將一次瀏覽的所有點擊放入一或多個符合區段標準的點擊，以便一般檢視工作階段。訪客容器會引入點擊符合區段標準的所有存取，對查詢人員有用。您是決定哪個區段容器最適合使用的分析師。See [Segmentation overview](../../components/c-segmentation/seg-overview.md) in the Components user guide for more information.
+您使用的區段容器取決於您要擷取資料的範圍。 頁面檢視容器只會引入符合區段條件的點擊，這對於篩選掉不相關的瀏覽部分非常有用。 瀏覽容器會帶來瀏覽中的所有點擊，其中一或多個點擊符合區段條件，對一般檢視工作階段非常有用。 訪客容器會引入點擊符合區段條件的所有瀏覽，這對查看訪客非常有用。 您可以選擇分析師來判斷最適合使用的區段容器。 如需詳 [細資訊](/help/components/c-segmentation/seg-overview.md) ，請參閱元件使用指南中的區段概述。
 
-**為甚麼我的區段無法顯示在資料倉庫中？**
+**我的區段為何未顯示在資料倉庫中？**
 
-由於資料倉庫獨特的處理架構，平台並未最佳化來處理某些類型的資料，例如路徑分析。See [Data Warehouse segment compatibility](../../components/c-segmentation/seg-reference/seg-compatibility.md) in the Components user guide for more information.
+由於資料倉庫的獨特處理架構，平台無法最佳化以處理某些類型的資料，例如路徑。 如需詳 [細資訊，請參閱元件使用指南](/help/components/c-segmentation/seg-reference/seg-compatibility.md) 中的資料倉儲區段相容性。
