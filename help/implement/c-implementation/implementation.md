@@ -5,7 +5,7 @@ seo-title: 實作藍圖
 title: 實作藍圖
 uuid: 988bcca5-67ae-4e3f-97e6-6a42030b1962
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -32,20 +32,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col1"> 選擇實作方法. </td> 
    <td colname="col2"> <p>實施 Analytics 常用的方法包括: </p> <p> 
      <ul id="ul_A7475867861540EFBD77AEE8C6DAD418"> 
-      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/" format="https" scope="external"> Experience Platform Launch </a> (建議使用) <p>本指南會說明使用 Adobe 網站標籤和行動 SDK 管理功能，需要瞭解的所有內容，以及實施方法。 </p> </li> 
-      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="../../implement/c-implement-with-dtm/dtm-implementation-overview.md" format="dita" scope="local"> Dynamic Tag Management </a> <p>本指南包含 Analytics 專屬的資訊，可引導您完成動態標籤管理的實施。 </p> </li> 
-      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="../../implement/js-implementation/javascript-implementation-overview.md" format="dita" scope="local"> JavaScript </a> <p>本指南包含資料收集變數的說明，且詳細說明如何在 JavaScript 中實施資料收集程式碼，其中包括<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html" format="https" scope="external">影片</a>。 </p> </li> 
-      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html" format="html" scope="external"> Analytics SDK </a> <p>使用 Analytics SDK 來管理: </p> <p> 
+      <li id="li_035E2619670F4D04A7F708625A9C01EF"> <a href="https://docs.adobelaunch.com/"> Experience Platform Launch </a> (建議使用) <p>本指南會說明使用 Adobe 網站標籤和行動 SDK 管理功能，需要瞭解的所有內容，以及實施方法。 </p> </li> 
+      <li id="li_996FA2F5B0E149399CED391AB5235D8A"> <a href="/help/implement/c-implement-with-dtm/dtm-implementation-overview.md"> Dynamic Tag Management </a> <p>本指南包含 Analytics 專屬的資訊，可引導您完成動態標籤管理的實施。 </p> </li> 
+      <li id="li_18E6AD6D864246D0BA26DAA1D91DD811"> <a href="/help/implement/js-implementation/javascript-implementation-overview.md"> JavaScript </a> <p>本指南包含資料收集變數的說明，且詳細說明如何在 JavaScript 中實施資料收集程式碼，其中包括<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/video/video_js.html">影片</a>。 </p> </li> 
+      <li id="li_85EC7A0AC5E04EE6981ED72A88C5D1FD"> <a href="https://marketing.adobe.com/resources/help/en_US/reference/developer.html"> Analytics SDK </a> <p>使用 Analytics SDK 來管理: </p> <p> 
         <ul id="ul_F67F2E1964724800A84445A36DFB8E86"> 
-         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html" format="html" scope="external"> iOS 上的行動應用程式 </a> </li> 
-         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html" format="html" scope="external"> Android 上的行動應用程式 </a> </li> 
+         <li id="li_9C43F051EB5B4EA7A4C14EC1513DB824"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/ios/analytics_main.html"> iOS 上的行動應用程式 </a> </li> 
+         <li id="li_4354E44EB8B3494A88578C1621EF5BAC"> <a href="https://marketing.adobe.com/resources/help/en_US/mobile/android/analytics_main.html"> Android 上的行動應用程式 </a> </li> 
         </ul> </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step2_icon.png" id="image_02CFDC007BF1486AA312698EBFFA79F7" /> </td> 
    <td colname="col1"> 設定 Identity 服務。 </td> 
-   <td colname="col2"> <p>(先前稱為<span class="term">訪客 ID 服務</span>。)請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html" format="https" scope="external">設定 Analytics 適用的 Identity 服務</a>。 </p> 
+   <td colname="col2"> <p>(先前稱為<span class="term">訪客 ID 服務</span>。)請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-analytics.html">設定 Analytics 適用的 Identity 服務</a>。 </p> 
     <draft-comment> 
      <p>在 <code> VisitorAPI.js </code> 中，將下列訪客 ID 初始化程式碼加入至檔案開頭處: </p> 
      <code class="syntax javascript">
@@ -74,18 +74,18 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   <tr> 
    <td colname="col01"> <img  src="assets/step4_icon.png" id="image_B255E5EAE7BB43FC946D0E9DFCA83003" /> </td> 
    <td colname="col1"> 驗證實作。 </td> 
-   <td colname="col2"> <p> <a href="../../implement/impl-testing/impl-validation/impl-validation.md" format="dita" scope="local">測試和驗證</a>提供關於驗證實施的資訊。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/implement/impl-testing/impl-validation/impl-validation.md">測試和驗證</a>提供關於驗證實施的資訊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col01"> <img  src="assets/step5_icon.png" id="image_844E896941E2489A943BE10AD710ED36" /> </td> 
    <td colname="col1"> 使用 Adobe Experience Cloud Debugger 驗證是否已傳送資料。 </td> 
-   <td colname="col2"> <p>安裝 <a href="../../implement/impl-testing/debugger.md#topic_E05CEAF0682E483A9AB147D774CF2188" format="dita" scope="local"> Experience Cloud Debugger</a>。安裝後，載入您已部署頁面程式碼的頁面並開啟除錯程式。除錯程式會顯示已傳送之收集資料的詳細資料. </p> </td> 
+   <td colname="col2"> <p>安裝 <a href="/help/implement/impl-testing/debugger.md"> Experience Cloud Debugger</a>。安裝後，載入您已部署頁面程式碼的頁面並開啟除錯程式。除錯程式會顯示已傳送之收集資料的詳細資料. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 更多資訊 {#section_64B6A948DF4A4B5E9E1D22549F8C508B}
 
-如需 [!UICONTROL Experience Platform Launch]、[!UICONTROL Dynamic Tag Management] 及 JavaScript 方法之間的差異的相關資訊，請參閱[選擇實施方法](../../implement/c-implementation-methods/choose-implementation-method.md#concept_97CE27B16410422EB28B4B9CE3B9529B)。
+如需 [!UICONTROL Experience Platform Launch]、[!UICONTROL Dynamic Tag Management] 及 JavaScript 方法之間的差異的相關資訊，請參閱[選擇實施方法](/help/implement/c-implementation-methods/choose-implementation-method.md)。
 
 如需快速入門程序的概述，及快速設定第一個 Analytics 報表套裝的說明，請參閱 Analytics 快速入門指南中的 [Analytics 實施快速入門](https://marketing.adobe.com/resources/help/en_US/dtm/get_started.html)。
