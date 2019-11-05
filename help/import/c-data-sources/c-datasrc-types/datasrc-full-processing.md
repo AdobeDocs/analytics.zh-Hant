@@ -8,7 +8,7 @@ title: 完全處理
 topic: 開發人員和實作
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -19,8 +19,8 @@ source-git-commit: d22bb34ffb997b0c49ef37d6908961cd1875cc27
 
 「完全處理」資料來源的資料處理方式，會將資料當做在指定的時間由 Adobe 伺服器收到 (每次點擊都有時間戳記)。
 
-* [訪客資料](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
-* [欄參考](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
+* [訪客資料](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
+* [欄參考](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## 訪客資料 {#section_6065627D0C144506965F562C80AE67F8}
 
@@ -67,7 +67,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>事件 </p> </td> 
    <td colname="col2"> <p>事件 </p> </td> 
-   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html" format="https" scope="external">s.events</a> 變數相同。 </p> <p>例如: </p> 
+   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -170,7 +170,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html" format="https" scope="external">多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
+   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/multibyte/index.html"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
