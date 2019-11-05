@@ -5,7 +5,7 @@ seo-title: 整合程式與先決條件
 title: 整合程式與先決條件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -26,4 +26,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 作用中的Emarsys帳戶
 
-如需逐步整合指示，請參閱執 [行資料連接器整合精靈](../emarsys-overview/emarsys-wizard.md#task-72b844fe0f7a44d9acf3eb8f9f7ecb5a)。
+如需逐步整合指示，請參閱執 [行資料連接器整合精靈](/help/import/data-connectors/emarsys-overview/emarsys-wizard.md)
