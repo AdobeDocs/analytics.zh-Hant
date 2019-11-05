@@ -5,7 +5,7 @@ seo-title: 部署整合
 title: 部署整合
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -194,7 +194,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/debugger2.png)
 
-### 報告 {#section-1792fe75dc3249d0ad063dfd87a89162}
+### 報表 {#section-1792fe75dc3249d0ad063dfd87a89162}
 
 使用使用Adobe整合精靈（步驟7）自動為您建立的儀表板，在Adobe Analytics中檢視您的Demandbase報表。
 
