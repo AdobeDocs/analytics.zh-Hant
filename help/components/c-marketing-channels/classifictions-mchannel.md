@@ -8,16 +8,12 @@ title: 行銷渠道中的分類
 topic: Reports and Analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # 行銷渠道中的分類
-
-使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
-
-## 行銷渠道中的分類 {#topic_18E1471F1A584B358E57E191074A7243}
 
 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 
@@ -29,7 +25,7 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 >
 >「行銷管道」分類報表的行為與標準分類略有不同：當您為首次接觸或上次接觸報表建立分類時，它們會自動套用至兩者。 不對其他分類，就無法對其分類。
 
-## 行銷渠道分類 - 定義 {#section_38D2F8BBA47D444780B65BD84156532D}
+## 行銷渠道分類 - 定義 {#mktg-channel-classifications}
 
 | 術語 | 定義 |
 |--- |--- |
@@ -37,11 +33,13 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 | 名稱 | 分類的名稱。新增的分類顯示為行銷渠道管理員中的「渠道劃分」選項。 |
 | 選項 | 分類的名稱。新增的分類顯示為行銷渠道管理員中的「渠道劃分」選項。 |
 
-## 建立行銷頻道分類 {#task_BCA5597281574E339E71F3BBC1BE3DFA}
+## 建立行銷頻道分類 {#create-mktg-channel-classifications}
 
 建立[!UICONTROL 行銷管道]報表分類。
 
 1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
 1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
-1. 在[「行銷渠道分類」](../../components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D)頁面上，指定分類類型。
+<!--
+1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md#section_38D2F8BBA47D444780B65BD84156532D) page, specify the classification type.
+-->
 1. 在[!UICONTROL 「分類」]**下，按一下[!UICONTROL 「新增分類」]**(或編輯現有的一個)。
