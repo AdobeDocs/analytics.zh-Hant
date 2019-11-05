@@ -7,7 +7,7 @@ title: 發生次數
 topic: 量度
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
 
 下列是看起來相似的兩種量度:
 
-**[例項](../../../components/c-variables/c-metrics/metrics-instance.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF)**: 設定變數之值的次數。
+**[例項](/help/components/c-variables/c-metrics/metrics-instance.md)**: 設定變數之值的次數。
 
 **發生次數**: 某個值有設定或持續存在的總次數。
 
