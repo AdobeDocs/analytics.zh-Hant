@@ -1,18 +1,18 @@
 ---
 description: 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
 seo-description: 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
-seo-title: 並非由來源報表套裝複製所得到的設定值
+seo-title: 並非從來源報表套裝複製的設定
 solution: Analytics
-title: 並非由來源報表套裝複製所得到的設定值
+title: 並非從來源報表套裝複製的設定
 topic: 管理工具
-uuid: 5176c561-a278-43e4-837f-a17759985 d52
+uuid: 5176c561-a278-43e4-837f-a1775985d52
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
 
-# 並非由來源報表套裝複製所得到的設定值
+# 並非從來源報表套裝複製的設定
 
 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
 
@@ -28,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類資料 (複製了分類結構) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html" format="html" scope="external"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟用交易 ID 記錄 </p> </td> 
@@ -71,7 +71,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪客 ClickMap 管理員 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html" format="html" scope="external"> 升級至 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> 升級至 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 規則 </p> </td> 
