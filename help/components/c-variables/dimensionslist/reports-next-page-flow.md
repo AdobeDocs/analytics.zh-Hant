@@ -7,7 +7,7 @@ title: 下一頁流量
 topic: 報表
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 按一下「<span class="uicontrol">圖形</span>」，可檢視您的訪客在選定頁面之後所檢視之人氣最高頁面的兩個層級。該報告還會反白標示訪客退出網站的時間。 </p> <p>按一下「<b>表格</b>」，可在類似於 <a href="../../../components/c-variables/dimensionslist/reports-next-page.md#concept_E3D0FEC81E1F4987B39CC467F19FFCFF" format="dita" scope="local"> 下一頁報告</a>. 但是，它也可以讓您深入鑽研每個<i>下一頁</i>，以檢視每個兩頁流程的下一頁。 </p> <p>Reports &amp; Analytics 使用路徑檢視。 </p> </td> 
+   <td colname="col2"> <p> 按一下「<span class="uicontrol">圖形</span>」，可檢視您的訪客在選定頁面之後所檢視之人氣最高頁面的兩個層級。該報告還會反白標示訪客退出網站的時間。 </p> <p>按一下「<b>表格</b>」，可在類似於 <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > 下一頁報告</a>. 但是，它也可以讓您深入鑽研每個<i>下一頁</i>，以檢視每個兩頁流程的下一頁。 </p> <p>Reports &amp; Analytics 使用路徑檢視。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
