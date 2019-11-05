@@ -5,7 +5,7 @@ seo-title: Analytics 劃分新增功能
 title: Analytics 劃分新增功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -14,19 +14,19 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 Adobe Analytics 劃分的新功能。
 
-* [2016 年 11 月](../../components/c-segmentation/whats-new-segmentation.md#concept_EAF1A19D50774E8CB822A64B29495D80)
-* [2016 年 10 月](../../components/c-segmentation/whats-new-segmentation.md#concept_543F31389665406A9106C0DACDA089AD)
-* [2016年 9 月](../../components/c-segmentation/whats-new-segmentation.md#concept_ECC5516509BB4774A439BD22ED5803CD)
-* [2016 年 6 月](../../components/c-segmentation/whats-new-segmentation.md#concept_3A4B77FC1FA5422BB14516065F066B21)
-* [2016 年 1 月](../../components/c-segmentation/whats-new-segmentation.md#concept_95A4D824A5DC423AB594F3D6ADCF229D)
-* [2015 年 11 月](../../components/c-segmentation/whats-new-segmentation.md#concept_BCD702E34E134D06AF936AE475D7B4B8)
-* [2015 年 10 月](../../components/c-segmentation/whats-new-segmentation.md#concept_B1F82BE6425647BE8C003606EB73EE10)
-* [2015 年 9 月](../../components/c-segmentation/whats-new-segmentation.md#concept_C43C11F33EB54F928268304F3D4867AA)
-* [2014 年 10 月](../../components/c-segmentation/whats-new-segmentation.md#concept_486A4F65270B423B9F7457ED4CB6429E)
-* [2014 年 9 月](../../components/c-segmentation/whats-new-segmentation.md#concept_6FF28E134DE647FDA4CC1FD7DC1FADC8)
-* [2014 年 8 月](../../components/c-segmentation/whats-new-segmentation.md#concept_8AD156B1DCB74D938A0501365F77D4ED) 
-* [2014 年 7 月](../../components/c-segmentation/whats-new-segmentation.md#concept_252D29FA25FC4FA999BBC94127A616B1)
-* [2014年5月](../../components/c-segmentation/whats-new-segmentation.md#concept_D7CC21CD653C46E7828B789F38704553)
+* [2016 年 11 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016 年 10 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016年 9 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016 年 6 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2016 年 1 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015 年 11 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015 年 10 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2015 年 9 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014 年 10 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014 年 9 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014 年 8 月](/help/components/c-segmentation/whats-new-segmentation.md) 
+* [2014 年 7 月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014年5月](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -75,7 +75,7 @@ Adobe Analytics 劃分的新功能。
    <td colname="col2"> <p>在"within"子句中，在THEN語句之間，可以添加"within 1 search keyword instance"、"within 1 eVar 47 instance"。 這樣會將區段限制在某個維度的一個例項內。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html" format="html" scope="external">在流失分析使用區段 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >在流失分析使用區段 </a> </p> </td> 
    <td colname="col2"> <p>在 Analysis Workspace 裡，您可以從接觸點建立區段，新增區段做為接觸點，以及在各種區段間比較關鍵工作流程。 </p> </td> 
   </tr> 
  </tbody> 
@@ -106,7 +106,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 區段比較 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html" format="https" scope="external">「區段比較」</a> (區段 IQ) 面板可讓客戶快速比較任意兩個 Analytics 區段，以找出兩者在所有資料點中最明顯的差異。 </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >「區段比較」</a> (區段 IQ) 面板可讓客戶快速比較任意兩個 Analytics 區段，以找出兩者在所有資料點中最明顯的差異。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 建立區段</span>權限 </p> </td> 
-   <td colname="col2"> <p>如果使用者沒有<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external">「建立區段」權限</a>，他們將不能存取「區段產生器」。 </p> </td> 
+   <td colname="col2"> <p>如果使用者沒有<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >「建立區段」權限</a>，他們將不能存取「區段產生器」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,7 +170,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>區段產生器的權限變更 </p> </td> 
-   <td colname="col2"> <p>管理員用戶可以限制哪些用戶能建立新區段。依預設，所有使用者均可建立區段。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html" format="https" scope="external"> 更多...</a> </p> </td> 
+   <td colname="col2"> <p>管理員用戶可以限制哪些用戶能建立新區段。依預設，所有使用者均可建立區段。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > 更多...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
