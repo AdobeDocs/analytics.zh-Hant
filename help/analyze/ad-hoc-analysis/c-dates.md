@@ -5,7 +5,7 @@ seo-title: 日期和日期範圍
 title: 日期和日期範圍
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -40,7 +40,8 @@ c_legacy_data.xml
 
 **若要存取歷史日期片段**
 
-1. [建立或開啟專案。](../../analyze/ad-hoc-analysis/c-getting-started.md#task_918A4539134E4E62B00486DCB8D3D403)
-1. 開啟日 [歷](../../analyze/ad-hoc-analysis/c-dates.md#concept_E8A2E36E595C45C785ECB724CA37FA47)，然後選 **[!UICONTROL 擇季]** 或 **[!UICONTROL 年]**。
+1. [建立或開啟專案。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
+1. 開啟日 [歷](/help/analyze/ad-hoc-analysis/c-dates.md)，然後選 **[!UICONTROL 擇季]** 或 **[!UICONTROL 年]**。
 
-> [!NOTE] 歷史日期片段位於季度和年限限制內。 您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日
+> [!NOTE] 歷史日期片段位於季度和年限限制內。 您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
+
