@@ -6,7 +6,7 @@ title: 同類群組分析分析是什麼?
 topic: Reports and Analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 A *`cohort`* is a group of people sharing common characteristics over a specified period. 例如，當您想要瞭解同類群組如何與品牌互動時，同類群組分析就很有用。 您可輕易看出趨勢中的變化，然後據以做出回應。(Explanations of Cohort Analysis are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
-建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參 [閱組織與分享](../../../../analyze/analysis-workspace/curate-share/curate.md#concept_4A9726927E7C44AFA260E2BB2721AFC6)。
+建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參 [閱組織與分享](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
 世代分析的範例：
 
