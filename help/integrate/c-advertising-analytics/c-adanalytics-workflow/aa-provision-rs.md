@@ -5,7 +5,7 @@ seo-title: 啟用 Advertising Analytics 的報表套裝
 title: 啟用 Advertising Analytics 的報表套裝
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -34,5 +34,5 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    | 最近 (最後一個) | 最後一個顯示的值擁有成功事件的完全分配評價，無論先前引發的變數為何。 |
    | 過期時間 | 可讓您指定時段或事件，在經過此時段或事件發生後 eVar 值就會過期 (即不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。 |
 
-1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). 您的報表套裝現在已準備就緒，可以接收 Advertising Analytics 搜尋資料。您現在已經準備就緒，可以[建立 Advertising 帳戶](../../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md#concept_1958E8C15C334E8B9DC510EC8D5DCA7C)了。
+1. Click **[!UICONTROL Enable Advertising Analytics Reporting]** (first time), or **[!UICONTROL Update Advertising Analytics Reporting]** (subsequent times). 您的報表套裝現在已準備就緒，可以接收 Advertising Analytics 搜尋資料。您現在已經準備就緒，可以[建立 Advertising 帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)了。
 
