@@ -1,38 +1,38 @@
 ---
-description: The following information can help troubleshoot report suite latency issues in Analytics data.
+description: 下列資訊可協助疑難排解Analytics資料中的報表套裝延遲問題。
 keywords: 丟失資料；慢速
 seo-description: 下列資訊可協助疑難排解Analytics資料中的報表套裝延遲問題。
-seo-title: Data availability and latency
+seo-title: 資料可用性與延遲
 solution: Analytics
 subtopic: 目前的資料
-title: Data availability and latency
+title: 資料可用性與延遲
 topic: 報表
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
 
-# Data availability and latency in Adobe Analytics
+# Adobe Analytics中的資料可用性和延遲
 
 通常，在收集資料後2小時內，您會預期報表中會顯示完整的資料。 下列資訊可協助疑難排解Analytics資料中的報表套裝延遲問題。
 
 ## 瞭解資料批次處理
 
-每一個資料收集伺服器擷取和處理原始分析資料，然後每小時上傳批次的資料以便報告。傳輸程序通常要花 30 分鐘，因此在前一個上傳程序完成之後緊接著出現的正常流量延遲大約是 90 分鐘 (到下一次批次上傳還有 60 分鐘，然後檔案轉輸及顯示又要 30 分鐘)。For traffic that occurs directly before an upload, data latency could be as short as 30 minutes (0 minutes until the next batch upload occurs, then 30 minutes for file transfer and display).
+每一個資料收集伺服器擷取和處理原始分析資料，然後每小時上傳批次的資料以便報告。傳輸程序通常要花 30 分鐘，因此在前一個上傳程序完成之後緊接著出現的正常流量延遲大約是 90 分鐘 (到下一次批次上傳還有 60 分鐘，然後檔案轉輸及顯示又要 30 分鐘)。對於直接在上傳前發生的流量，資料延遲可能只有30分鐘（在下次批次上傳之前0分鐘，然後是30分鐘，檔案傳輸和顯示）。
 
-If needed, Adobe Customer Care can enable 30 minute batched data uploads (instead of hourly) for your most-used report suites.
+如有需要，Adobe客戶服務可針對您最常用的報表套裝啟用30分鐘的批次資料上傳（而非每小時）。
 
-## Contributors to latency
+## 延遲的成因
 
-Latency is a delay that is longer than the typical 2 hours it takes for data collection servers to fully process data. 它不影響資料收集；無論報表套裝的潛在性為何，仍會收集工作實作的資料。 Its severity (how current the data is) and length (the time it takes to resolve) can vary greatly. It is usually limited to a single report suite.
+延遲是比資料收集伺服器完全處理資料所花費的一般2小時長的延遲。 它不影響資料收集；無論報表套裝的潛在性為何，仍會收集工作實作的資料。 其嚴重性（資料的目前狀況）和長度（解決時間）可能會大不相同。 通常僅限單一報表套裝。
 
 延遲導因於下列一般類別之一:
 
 * **** 非預期的流量尖峰：當傳送的資料比合約約定或預期的要多時，即會發生此類延遲。 這是發生延遲最常見的原因。
 * **** 一般硬體問題：Adobe運用同級最佳的策略來管理和監控資料中心、資料備援以及硬體可靠性。 硬體除了會定期更新，也會配合發佈的維護時程進行更新。當更換硬體上線時，緊急維護故障硬體可能需要在資料處理中暫停（而非在資料收集中）。 這樣的暫停處理可能導致相當程度的延遲。
-* **** Abnormal data: Unnatural data patterns, such as unusually long visits caused by a bot or crawler, can temporarily increase certain processing loads that result in latency.
+* **** 異常資料：非自然的資料模式（例如機器人或爬蟲造成異常長的瀏覽）可能會暫時增加某些導致延遲的處理負載。
 
 ## 依賴延遲的功能
 
@@ -45,7 +45,7 @@ Adobe Experience cloud中的某些功能，除了標準處理時間之外，還�
 
 有幾種策略可防止延遲，或縮短延遲的復原時間:
 
-* **** 預期的流量尖峰通知Adobe:雖然您無法預測網站的每個流量尖峰，但有時您可能會預期流量會大幅增加。 例如，特別成功的假期，或大型促銷活動推播後不久。 針對這些情況，Adobe 備有適當管道可供您的組織回報預期的流量增加，好讓我們為您的報表套裝額外配置處理資源。請參 [閱「管理員使用指南](../admin/c-traffic-management/t-traffic-schedule-spike.md) 」中的「排程流量尖峰」，瞭解如何通知Adobe流量增加。
+* **** 預期的流量尖峰通知Adobe:雖然您無法預測網站的每個流量尖峰，但有時您可能會預期流量會大幅增加。 例如，特別成功的假期，或大型促銷活動推播後不久。 針對這些情況，Adobe 備有適當管道可供您的組織回報預期的流量增加，好讓我們為您的報表套裝額外配置處理資源。請參 [閱「管理員使用指南](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) 」中的「排程流量尖峰」，瞭解如何通知Adobe流量增加。
 * **** 啟動新功能時，請考慮處理負載：有些功能的處理密集程度高於其他功能。 在報表套裝上啟用的功能愈多，延遲的復原難度就愈高。在報表套裝上啟用功能時，請留意下列會增加處理資料量的功能:
 
    * 在相同頁面上實作超過20個事件
