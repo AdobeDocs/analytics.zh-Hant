@@ -1,87 +1,87 @@
 ---
-title: Adobe Analytics中的行為報告
-description: 瞭解如何在Adobe Analytics中建立行為報告
+title: Adobe Analytics中的行為報表
+description: 瞭解如何在Adobe Analytics中建立行為報表
 translation-type: tm+mt
-source-git-commit: 71899840dd5b401c6892b6ad5088d4a32fd07042
+source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
 
 
 # 行為報告
 
-行為報表顯示使用者如何與您的網站互動的資訊。
+行為報表顯示使用者與您網站互動的相關資訊。
 
-此頁面假設使用者具備使用分析工作區的基本知識。See [Create a basic report in Analysis Workspace for Google Analytics users](create-report.md) if you are not yet familiar with the tool in Adobe Analytics.
+本頁假設使用者具備使用分析工作區的基本知識。 如 [果您尚不熟悉Adobe Analytics中的工具](create-report.md) ，請參閱「Google Analytics使用者分析工作區」中的建立基本報表。
 
-## 行為流程
+## 行為流
 
-您可以使用流量視覺化來重新建立行為流程報表。
+行為流報表可使用「流量」視覺化重新建立。
 
-1. 按一下左側的視覺效果圖示，並拖曳流量視覺化至自由表格上方的工作區上
-2. Locate the **Page** dimension, then click the Arrow icon to reveal page values. 維度值是黃色的。
-3. 找出所要的頁面值，並將其拖曳至中心中標示為「維度或項目」的空格
-4. 此流量報告為互動式報表。按一下任何值，將流量展開至後續或先前頁面。使用右鍵功能表展開或收合欄。也可以在相同的流量報表中使用不同維度。
+1. 按一下左側的視覺化圖示，然後將「流量」視覺化拖曳至自由表格上方的工作區
+2. 找到頁 **面維** ，然後按一下箭頭圖示以顯示頁面值。 尺寸值為黃色。
+3. 找出所要的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
+4. 此流量報表是互動式的。 按一下任何值，將流量展開至後續或上一頁。 使用右鍵功能表來展開或收合欄。 同一流量報表中也可使用不同的維度。
 
-![流量報表](../assets/flow.png)
+![流量報表](/help/technotes/ga-to-aa/assets/flow.png)
 
-## 網站內容-所有頁面
+## 網站內容——所有頁面
 
-頁面報表顯示網站上個別頁面的績效。
+頁面報表顯示您網站上個別頁面的效能。
 
-1. In the Components menu, locate the **Pages** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在「元件」功能表中，找出 **「頁面** 」維度，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-另外，Adobe提供一些預先建立的工作區，稱為範本。內容消費(Web)範本提供類似於所有頁面報表的值。
+另外，Adobe提供數個預先建立的工作區，稱為範本。 「內容消費」(Web)範本提供與所有頁面報表類似的值。
 
-1. Click *[!UICONTROL Project]&gt;[!UICONTROL New]*, which opens a modal window with project options.
-2. 按一下內容消費(網頁)範本，然後按一下「建立」。
+1. 按一 *[!UICONTROL 下「專案]&gt;新[!UICONTROL 增」(Project]*&gt; New)，以開啟包含專案選項的模式視窗。
+2. 按一下「內容使用(Web)」範本，然後按一下「建立」。
 
-## 網站內容-內容Drill Drill
+## 網站內容——內容深入分析
 
-內容詳細分析報表可讓您查看URL結構的頁面流量。在分析工作區中需要額外實施。Adobe建議與實施顧問合作，以確保正確收集資料。
+內容下鑽報表可讓您依URL結構來檢視頁面流量。 分析工作區中需要額外實作。 Adobe建議與實作顧問合作，以確保正確收集這些資料。
 
-## 網站內容-著陸頁面
+## 網站內容——著陸頁面
 
-著陸頁面報告會顯示網站上的排名最前的著陸頁面。Landing pages are available in Analysis Workspace as the **Entry Page** dimension.
+著陸頁面報表顯示您網站上排名最前的著陸頁面。 「分析工作區」中的著陸頁面是「登 **入頁面** 」維度。
 
-1. In the Components menu, locate the **Entry Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在「元件」功能表中，找到「 **登入頁面」維度** ，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-Adobe recommends using the **Visits** metric for this dimension.
+Adobe建議使用此 **維度** 的「瀏覽」度量。
 
-## 網站內容-退出頁面
+## 網站內容——退出頁面
 
-退出頁面報告會顯示成為個人瀏覽最後一頁的排名最前的頁面。它可在相同名稱的分析工作區中使用。
+退出頁面報表會顯示成為個人瀏覽最後一頁的熱門頁面。 在「分析工作區」中，它以相同名稱提供。
 
-1. In the Components menu, locate the **Exit Page** dimension and drag it onto the large freeform table area labeled 'Drop a Dimension here'.
-2. Drag the desired metrics onto the workspace alongside the automatically created **Occurrences** metric. See the [Metric translation guide](common-metrics.md) for details on how to obtain each respective metric.
+1. 在「元件」功能表中，找出「 **退出頁面** 」維度，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
-Adobe recommends using the **Visits** metric for this dimension.
+Adobe建議使用此 **維度** 的「瀏覽」度量。
 
 ## 網站速度報告
 
-網站速度報告顯示頁面載入的速度，顯示提高頁面載入時間的機會。
+網站速度報表顯示頁面載入的速度，顯示增加頁面載入時間的機會。
 
-這項功能需要在兩個平台上進行額外的實施；Adobe建議您與實施顧問合作，以確保「分析工作區」中已正確設定資料。[效能計時外掛程式](../../../implement/js-implementation/plugins/performancetiming.md) 通常指派給eVar，以取得Adobe Analytics中的效能資料。
+這項功能需要在這兩種平台上進行額外的實作；Adobe建議與實施顧問合作，以確保此資料已正確設定至分析工作區。 效能 [計時外掛程式](/help/implement/js-implementation/plugins/performancetiming.md) ，通常會指派給eVar，以在Adobe Analytics中取得效能資料。
 
-## 網站搜尋報告
+## 網站搜尋報表
 
-網站搜尋報告提供訪客如何使用網站內部搜尋功能的深入分析。
+網站搜尋報表可提供訪客如何使用您網站內部搜尋功能的分析。
 
-這項功能需要在兩個平台上進行額外的實施；Adobe建議您與實施顧問合作，以確保「分析工作區」中已正確設定資料。通常會從查詢字串參數提取內部搜尋詞，並放入eVar中以進行報告。
+這項功能需要在這兩種平台上進行額外的實作；Adobe建議與實施顧問合作，以確保此資料已正確設定至分析工作區。 通常，內部搜尋詞會從查詢字串參數中提取，並放入eVar中進行報告。
 
-## 事件報告
+## 事件報表
 
-事件在Google和Adobe Analytics之間有一些重大結構差異。兩者都需要額外的實施變更，以便在其個別平台上正常運作。
+事件在Google和Adobe Analytics之間有一些重大的結構差異。 這兩項作業都需要進行額外的實作變更，才能在各自的平台上正常運作。
 
-* 在Google Analytics中，事件會在您的實施中定義為文字。事件有類別、動作和標籤。
-* 在Adobe Analytics中，事件首先會在管理控制台中設定，在該處指派識別碼。此識別碼用於實施代碼中。例如:
-   1. 您可以將「管理控制台」中的event設定為「註冊」。
-   2. 在實施中，您會在註冊確認頁面上的事件變數中加入event1。每次顯示註冊確認頁面時，event就會增加。
-   3. 在分析工作區中，「註冊」會以度量的形式出現在任何報表中。
+* 在Google Analytics中，事件在實作中定義為文字。 事件包含類別、動作和標籤。
+* 在Adobe Analytics中，事件會先在「管理控制台」中設定，並在其中指派識別碼。 該識別碼用於實作程式碼。 例如:
+   1. 您可以在管理控制台中將event1設為「註冊」。
+   2. 在您的實作中，您會在註冊確認頁面上的events變數中包含event1。 每次顯示註冊確認頁面時，event1都會增加。
+   3. 在分析工作區中，「註冊」會以度量的形式顯示，以供任何報表使用。
 
-由於此功能需要實施變更，Adobe建議您與實施顧問合作，以確保「分析工作區」正確設定資料。
+由於此功能需要變更實作，Adobe建議與實施顧問合作，以確保分析工作區的資料設定正確。
 
-## 發行者報告
+## 發行者報表
 
-類似Google要求與Google廣告管理員的聯繫，Adobe提供專屬的產品，以提供稱為Adobe Advertising Cloud的見解。如果您的組織有意使用此產品，請聯絡組織的客戶經理。
+類似Google需要與Google Ad Manager連線的方式，Adobe提供專屬產品來提供Adobe Advertising cloud的見解。 如果您的組織有興趣使用本產品，請連絡您組織的客戶經理。
