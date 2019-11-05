@@ -8,7 +8,7 @@ title: 建立 Workspace 專案
 topic: Reports and Analytics
 uuid: c1def77a-a76e-4699-feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
-本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。如需特定使用案例，請參 [閱分析工作區的使用案例](../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B)。
+本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。如需特定使用案例，請參 [閱分析工作區的使用案例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
 
 ## 建立專案
 
@@ -38,8 +38,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    您可以選擇從以下來源建立專案
 
 * 空白專案 (預設)。如需指示，請參閱以下內容。
-* 標準範本。這些範本皆由 Adobe 建立且出廠即提供。如需指示，請參閱[範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
-* 自訂範本。這些範本是由擁有管理員權限的使用者所建立。如需指示，請參閱[範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_49B9A327C5004DB0A4BE6291435625C5)
+* 標準範本。這些範本皆由 Adobe 建立且出廠即提供。如需指示，請參閱[範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* 自訂範本。這些範本是由擁有管理員權限的使用者所建立。如需指示，請參閱[範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
    ![](assets/start_modal.png)
 
@@ -64,15 +64,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/analysis-workspace-components.md#concept_BEBE3A75E072495D9E2F895567BBD462" format="dita" scope="local"> 元件</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/analysis-workspace-components.md"  > 元件</a> </td> 
    <td colname="col2"> <p>您可以拖曳至專案的維度、量度、區段和日期範圍。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> 視覺效果</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 視覺效果</a> </td> 
    <td colname="col2"> <p>您可拖曳至介面的面板或專案區域的項目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-table.md#concept_0D2E24FCCBAF4194AA941448860E422F" format="dita" scope="local"> 自由面板 </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 自由面板 </a> </td> 
    <td colname="col2"> <p>您與「Analysis Workspace」互動的畫布或工作區。 </p> </td> 
   </tr> 
  </tbody> 
@@ -116,7 +116,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> 區段 (藍色) </td> 
-   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳 <a href="../../../analyze/analysis-workspace/freeform-analysis-examples-use-cases.md#concept_173D1EB783F24EA89E754628BA30FF4B" format="dita" scope="local"> 細資訊，請參閱分析工作區的使用案例</a> 。 </p> </td> 
+   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > 細資訊，請參閱分析工作區的使用案例</a> 。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期範圍和粒度 (紫色) </td> 
@@ -125,9 +125,9 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </tbody> 
 </table>
 
-**[視覺效果](../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276)**
+**[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-「[!UICONTROL 視覺化]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](../../../analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md#concept_9D240A490265427DA694D18D14EACC0E)表格、Venn 圖表等等。您可以拖放多個視覺化至專案。
+「[!UICONTROL 視覺化]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表格、Venn 圖表等等。您可以拖放多個視覺化至專案。
 
 ![步驟結果](assets/visualizations.png)
 
@@ -150,11 +150,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 新增時段欄</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 新增時段欄</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md#concept_93BCAD81B7A54ABBBA5CD9E419F6F764" format="dita" scope="local"> 比較時段</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/time-comparison.md"  > 比較時段</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -166,11 +166,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md" format="dita" scope="local"> 從選取範圍建立警報</a> </td> 
+   <td colname="col1"><a href="/help/components/c-alerts/intellligent-alerts.md"  > 從選取範圍建立警報</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md#task_B594DA2476E84DFDA8279E831F0BD9C4" format="dita" scope="local"> 劃分</a> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md"  > 劃分</a> 
     <ul id="ul_18C83B8514AD4C1C86C071AA8402CB5C"> 
      <li id="li_6CA84ED293EA4940A7495DA9D9121264">維度 </li> 
      <li id="li_EA16EE017B2E4A6998918706938A21BF">量度 </li> 
@@ -180,23 +180,23 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#concept_09242627629147A88A68F1506954C276" format="dita" scope="local"> 視覺化</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md"  > 視覺化</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/curate-share/download-send.md#concept_BB548979F47F45739679B830428C3025" format="dita" scope="local"> 下載為 CSV</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/curate-share/download-send.md"  > 下載為 CSV</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/analysis-workspace-features.md#concept_4D69EE46E3C24EEB97C935A8789364F9" format="dita" scope="local"> 趨勢選取範圍</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/analysis-workspace-features.md"  > 趨勢選取範圍</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/components/t-freeform-project-segment.md#task_11C6A2C7717B48049E5750B9D20FEC80" format="dita" scope="local"> 從選取範圍建立區段</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取範圍建立區段</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="../../../analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md#concept_74FAC1C6D0204F9190A110B0D9005793" format="dita" scope="local"> 在區段比較中執行</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"  > 在區段比較中執行</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
@@ -210,4 +210,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  </tbody> 
 </table>
 
-請參閱 [Analysis Workspace 可用的鍵盤和滑鼠互動](../../../analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md#concept_9A6356084DBC4D468E265E7A65B3E051)，以獲得複製和選取行的相關資訊。
+請參閱 [Analysis Workspace 可用的鍵盤和滑鼠互動](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以獲得複製和選取行的相關資訊。
