@@ -7,7 +7,7 @@ solution: Analytics
 title: 資料摘要的疑難排解
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -40,11 +40,11 @@ AWS 也能讓使用者在完全屬於不同使用者帳戶的儲存貯體中建�
 
 如果發生 FTP 傳輸失敗 (登入拒絕、遺失連線、配額不足等)，Adobe 會嘗試三次自動連線並傳送資料。如果持續失敗，饋送會標記為失敗並寄出電子郵件通知。
 
-如果傳輸失敗，您可以[重新執行工作](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501)，直到成功為止。
+如果傳輸失敗，您可以[重新執行工作](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md)，直到成功為止。
 
 ## 重新傳送選項 {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
-在您驗證／修正傳送問題後，只要使用 [重新執行工作](../../export/analytics-data-feed/c-df-jobs/t-job-rerun.md#task_FF9CD08685944E1EBB0CCA02F581C501) ，即可取得檔案。
+在您驗證／修正傳送問題後，只要使用 [重新執行工作](/help/export/analytics-data-feed/c-df-jobs/t-job-rerun.md) ，即可取得檔案。
 
 ## 日光節約時間對每小時資料饋送的影響 {#section_70E867D942054DD09048E027A9474FFD}
 
