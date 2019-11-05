@@ -8,7 +8,7 @@ title: 資料彙集查詢參數
 topic: 開發人員和實作
 uuid: 4d5af486-df27-42fe-bb9c-28938dddf2b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 下表列出查詢參數，這些參數包含每個傳送給資料收集之分析變數的值。
 
-這項資訊可用於使用[封包分析器](../../../implement/impl-testing/packet-monitor.md#concept_490DF35E06D44234A91B5FC57C0BF258)進行偵錯時、手動建立影像要求時，以及使用[動態變數](../../../implement/js-implementation/c-variables/dynvars-overview.md#concept_B016789733A94070A9EAB209EEC05262)時。
+這項資訊可用於使用[封包分析器](/help/implement/impl-testing/packet-monitor.md)進行偵錯時、手動建立影像要求時，以及使用[動態變數](/help/implement/js-implementation/c-variables/dynvars-overview.md)時。
 
 <table id="table_5442E15BF0AE4BDA92DDADD1C08F7C13"> 
  <thead> 
