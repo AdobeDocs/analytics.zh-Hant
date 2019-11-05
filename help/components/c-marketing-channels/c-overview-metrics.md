@@ -8,16 +8,12 @@ title: 用於行銷渠道報表中的量度
 topic: Reports and Analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
 
 # 用於行銷渠道報表中的量度
-
-如何在行銷渠道報表中使用量度。
-
-## 用於行銷渠道報表中的量度 {#topic_F83F5D4C3E144967AD90D956F0E8A999}
 
 如何在行銷渠道報表中使用量度。
 
@@ -29,11 +25,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 新增欄至報表。
 
-## 首次和上次接觸量度 {#concept_68D9A50204304BA58C1F8013451E7853}
+## 首次和上次接觸量度 {#first-and-last-touch}
 
 首次接觸和上次接觸是渠道屬性，可讓您查看訪客在渠道中的活動產生多少新參與（或產品檢視、收入和訂購等量度資料）。
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](../../components/c-marketing-channels/visitor-engagement.md#topic_32ADFDB12D3A4F35843A4545AC97C49F)). 它會記下使用者進入的第一個渠道，以及最近的渠道。接著將成功事件的評價給予每個適當的渠道。
+When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 它會記下使用者進入的第一個渠道，以及最近的渠道。接著將成功事件的評價給予每個適當的渠道。
 
 <!-- 
 
@@ -65,7 +61,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 > [!NOTE] 此報表使用每個度量的首次接觸或上次接觸版本。 因此，[!UICONTROL 「行銷渠道」]報表中顯示的資料，可能不符合其他報表中顯示的資料。
 
-## Metric definitions {#section_364D003D34D748B79503DFA4DD208EDB}
+## Metric definitions {#metric-defs}
 
 | 量度 | 定義 |
 |--- |--- |
@@ -73,7 +69,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 | 首次接觸訪客 | 在渠道報表中，首次接觸訪客是指源自某個渠道產生的每日獨特訪客。訪客的參與資料會在其參與網站的時間內加以儲存，時間可持續多次瀏覽。 |
 | 上次接觸渠道 | 轉換渠道是指上一個吸引訪客參與並導致轉換的行銷渠道。只有一個渠道被設為首次接觸渠道。上次接觸渠道可隨每一次回訪網站而變更。每次瀏覽都包含一個首次接觸渠道和上次接觸渠道，但是首次接觸渠道的值始終不會隨著後續瀏覽而變更。 |
 
-## 點進 {#reference_55E2254F02EF4E7EB0AD2838C948347A}
+## 點進 {#click-through}
 
 點進是上次接觸渠道中的例項。它是使用最新分配的 eVar。
 
@@ -89,7 +85,7 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 首次接觸渠道報表將會顯示 1 個付費搜尋的新增參與。其他每個渠道顯示為 0 個新增參與。上次接觸渠道報表將顯示付費搜尋點進次數為 2 次；顯示點進次數為 3 次；以及免費搜尋點進次數為 2 次。
 
-## 新增量度至行銷管道報表 {#task_D381139E00504666AB2402D553CFEA5B}
+## 新增量度至行銷管道報表 {#add-metrics-to-mktg-channel-rpt}
 
 新增量度至行銷管道報表。您可為報表中的每一欄新增最多四個量度，欄數不限。
 
