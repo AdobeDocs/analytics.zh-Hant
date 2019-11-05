@@ -8,7 +8,7 @@ title: 使用者群組設定
 topic: 管理工具
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
 
 ---
 
@@ -95,10 +95,10 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      </ul> </p> </td> 
    <td colname="col2"> <p>群組成員可存取報告群組中的報告子集。按一下「<span class="uicontrol">自訂</span>」會開啟一個頁面，讓您在其中選取群組成員可以存取的報告群組中的特定報告。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
-     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md" format="dita" scope="local">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md" format="dita" scope="local">報表套裝工具</a>: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </li> 
-     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md" format="dita" scope="local">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md" format="dita" scope="local">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </li> 
+     <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">報表套裝工具</a>: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </li> 
+     <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
      <ul id="ul_19FCA8B24B7E4477B9AC9564D6CF2D44"> 
       <li id="li_F006EF42026F43069AEC0BFE01D7CBC8">TagManager (完全存取、自訂、無權存取) </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>具有作用中 <span class="keyword">TagManager</span> 容器的客戶支援這些權限。無法供新使用者使用。 </p> <p>Adobe 建議使用 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html" format="html" scope="external">Dynamic Tag Management</a> 來進行部署。 </p> </td> 
+   <td colname="col2"> <p>具有作用中 <span class="keyword">TagManager</span> 容器的客戶支援這些權限。無法供新使用者使用。 </p> <p>Adobe 建議使用 <a href="https://marketing.adobe.com/resources/help/en_US/dtm/atm_migration.html">Dynamic Tag Management</a> 來進行部署。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><b>指定使用者登入</b> </td> 
