@@ -8,7 +8,7 @@ title: 建立區段
 topic: 開發人員和實作
 uuid: 476a4667-033c-4e53-961d-ad67e7c2b045
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 您可以在每次有指定的訪客 ID Cookie 產生關聯時建立區段。
 
-根據[上表](../../../implement/js-implementation/xdevice-visid/visit-example.md#concept_E3B32B8E539F4FDC8E3FA872328B87BA)，若您建立了瀏覽數等於 9 的區段，其中將會包含伺服器呼叫 12 和 13。雖然伺服器呼叫 11 在技術上也屬於相同瀏覽的一部分，但該伺服器呼叫的歷史資料並未更改，瀏覽數也保持不變。
+根據[上表](/help/implement/js-implementation/xdevice-visid/visit-example.md)，若您建立了瀏覽數等於 9 的區段，其中將會包含伺服器呼叫 12 和 13。雖然伺服器呼叫 11 在技術上也屬於相同瀏覽的一部分，但該伺服器呼叫的歷史資料並未更改，瀏覽數也保持不變。
