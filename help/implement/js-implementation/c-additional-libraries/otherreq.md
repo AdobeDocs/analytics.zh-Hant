@@ -7,8 +7,8 @@ solution: Analytics
 title: 不使用 JavaScript 指南實作
 topic: 開發人員和實作
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **區分大小寫**
 
-參數名稱 (`pageName`、`purchaseID` 等) 會區分大小寫，且除非如[查詢參數](../../../implement/js-implementation/data-collection/query-parameters.md)中所示之表格指定的方式顯示，否則將無法正確記錄資料。
+參數名稱 (`pageName`、`purchaseID` 等) 會區分大小寫，且除非如[查詢參數](/help/implement/js-implementation/data-collection/query-parameters.md)中所示之表格指定的方式顯示，否則將無法正確記錄資料。
 
 **為查詢參數編碼**
 
@@ -33,7 +33,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **最大變數長度**
 
-每個變數都有其最大長度。各個變數的這個長度都會指定於  [Analytics 變數](../../../implement/js-implementation/c-variables/sc-variables.md).超過變數的最大長度時，將導致此變數的值在儲存及顯示於 Analytics 時遭截斷。
+每個變數都有其最大長度。各個變數的這個長度都會指定於  [Analytics 變數](/help/implement/js-implementation/c-variables/sc-variables.md).超過變數的最大長度時，將導致此變數的值在儲存及顯示於 Analytics 時遭截斷。
 
 **無效字元**
 
