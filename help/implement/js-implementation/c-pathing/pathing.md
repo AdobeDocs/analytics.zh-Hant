@@ -8,7 +8,7 @@ title: 路徑概觀
 topic: 開發人員和實作
 uuid: 18acfd9f-4e5f-4c2d-8be8-743be135e7d6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,4 +23,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE]若要啟用路徑功能，請前往&#x200B;**[!UICONTROL 管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 流量 &gt; 流量變數]**。若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
 
-探索 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更多強大的路徑功能 (流程) 選項。
+探索 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更多強大的路徑功能 (流程) �
