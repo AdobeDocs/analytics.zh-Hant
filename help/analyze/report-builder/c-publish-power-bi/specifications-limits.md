@@ -5,7 +5,7 @@ seo-title: 限制與規格
 title: 限制與規格
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    **以下是視覺效果「將會」中斷的範例:**
 
    1. 在 Report Builder 中，使用「頁面」維度和「頁面檢視」量度建立含有一個請求的活頁簿。
-   1. [排程此請求](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)以發佈至 Power BI。
+   1. [排程此請求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)以發佈至 Power BI。
    1. 在 Power BI 中，針對「頁面」與「頁面檢視」建立視覺效果。
    1. 現在，移除請求中的「頁面檢視」以編輯活頁簿。
    1. 使用更新的活頁簿編輯排程，然後將請求重新發佈至 Power BI。
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    **以下是視覺效果「不會」中斷的範例:**
 
    1. 在 Report Builder 中，使用「頁面」維度和「頁面檢視」量度建立含有一個請求的活頁簿。
-   1. [排程此請求](../../../analyze/report-builder/whats-new-arb.md#section_0C26057C7DBB4068A643FDD688F6E463)以發佈至 Power BI。
+   1. [排程此請求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)以發佈至 Power BI。
    1. 在 Power BI 中，針對「頁面」與「頁面檢視」建立視覺效果。
    1. 現在，在 Report Builder 中編輯活頁簿，新增「造訪」量度，同時保留「頁面」與「頁面檢視」。
    1. 使用更新的活頁簿編輯排程，然後將請求重新發佈至 Power BI。
