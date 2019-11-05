@@ -5,7 +5,7 @@ seo-title: 智慧型警報
 title: 智慧型警報
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -75,7 +75,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：我是否可以得到包含虛線的「預期值」表，或是輸出這些值的某種形式？ </b> </p> </td> 
-   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片: <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU" format="https" scope="external">Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。其偵測方式採用固定的 30 天培訓期間、固定 95% 區間，並與<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html" format="html" scope="external"><span class="uicontrol"></span>Reports &amp; Analytics 異常偵測</a>的偵測方式相似。 </p> </td> 
+   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片: <a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。其偵測方式採用固定的 30 天培訓期間、固定 95% 區間，並與<a href="https://marketing.adobe.com/resources/help/en_US/reference/anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 異常偵測</a>的偵測方式相似。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
