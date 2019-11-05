@@ -7,7 +7,7 @@ title: 流量增加所需的前置時間
 topic: 管理工具
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -18,7 +18,7 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 
 配置硬體是由透過 Reports &amp; Analytics 使用者介面提交的警報驅動。
 
-> [!IMPORTANT] Adobe無法容納「預留位置」流量變更要求。 除非另有指示，請盡量遵守建議的提前期，包括不要太早傳送警報。 請參 [閱排程流量尖峰](../../admin/c-traffic-management/t-traffic-schedule-spike.md) ，或 [指定永久流量增加](../../admin/c-traffic-management/t-traffic-permanent.md)。
+> [!IMPORTANT] Adobe無法容納「預留位置」流量變更要求。 除非另有指示，請盡量遵守建議的提前期，包括不要太早傳送警報。 請參 [閱排程流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md) ，或 [指定永久流量增加](/help/admin/c-traffic-management/t-traffic-permanent.md)。
 
 使用以下準則判斷您必須在多久之前提交流量警報。
 
