@@ -8,7 +8,7 @@ title: 產生匯入檔案範本
 topic: 開發人員和實作
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 重要範本檔案是用來讓您開始匯入。
 
-不限使用範本中定義的欄。您可以視需要新增任何其他欄，只要選取的資料處理類型支援量度或定義。您可以在下列各節查閱各類型支援的量度和維度: Web [Traffic 、](../../../import/c-data-sources/c-datasrc-types/datasrc-web-log.md#concept_E25D89C8B90A41FEB7DF4E936CACEE2B)Traffic [、](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC)Conversion [](../../../import/c-data-sources/c-datasrc-types/datasrc-conversion.md#concept_FA3B6557128649C0B662E95C6B617FA0)Log事務處理 [](../../../import/c-data-sources/c-datasrc-types/datasrc-transactionid.md#concept_A97302E9EC45468A8F30285FACE8C776)[](../../../import/c-data-sources/c-datasrc-types/datasrc-visitorid.md#concept_1CFAA61D57A84B22A41F7A8E0DFCAAB5)[](../../../import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#concept_975B1BB9981D49139B4EE09C78CDE6ED)ID完整、訪客身份證處理（ID處理）。 For example, for a traffic data type, you can add a column for any metric or dimensions listed in [Traffic](../../../import/c-data-sources/c-datasrc-types/datasrc-traffic.md#concept_F50D3AC6A5544D06BB81EF1E279576BC).
+不限使用範本中定義的欄。您可以視需要新增任何其他欄，只要選取的資料處理類型支援量度或定義。您可以在下列各節查閱各類型支援的量度和維度: Web [Traffic 、](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)Traffic [、](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md)Conversion [](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)Log事務處理 [](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)[](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)[](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)ID完整、訪客身份證處理（ID處理）。 For example, for a traffic data type, you can add a column for any metric or dimensions listed in [Traffic](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md).
 
 建立後，可下載範本，將您的資料輸入範本，然後上傳資料到資料來源 FTP 站台。Data Sources伺服器處理後，匯入的資料便可用於Analytics報表。
 
 「資料來源」範本是 .txt 檔案，可以用任何文字編輯器開啟。不過，使用範本最簡單的方法是使用 Microsoft Excel 或其他試算表應用程式。範本的內容依您在「資料來源啟動精靈」中的選擇而異。
 
-如需詳細資訊，請參閱[匯入檔案參考](../../../import/c-data-sources/datasrc-template/datasrc-import-file-reference.md#concept_472095E1D011434D98A21C101A4618BD)。
+如需詳細資訊，請參閱[匯入檔案參考](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)。
 
 1. 登入 Analytics.
 1. In the Suite header, select **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
