@@ -8,7 +8,7 @@ title: 關於渠道和規則
 topic: Reports and Analytics
 uuid: 7d574790-4d0d-419d-8fb5-c16ec5a4a387
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,18 +21,20 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/buckets_2.png)
 
-Adobe 在[自動設定](../../components/c-marketing-channels/c-channel-autosetup.md#topic_E9ABE9E9E71B4E40A4E7EA9AD2C0372B)期間提供數個預定義渠道，您可視需求加以編輯。
+Adobe 在[自動設定](/help/components/c-marketing-channels/c-channel-autosetup.md)期間提供數個預定義渠道，您可視需求加以編輯。
 
-> [!NOTE] Adobe建議您在報表套裝中設定報表，以便用作測試的範本。 您可使用範本將渠道和規則設定總體套用至一個或多個生產報表套裝。
+>[!NOTE]
 >
->請參閱[套用範本報表套裝設定至多個報表套裝](../../components/c-marketing-channels/t-template.md#task_0DE0A320EDA94FC5A6E5912868B6E2DC)。
+> Adobe建議您在報表套裝中設定報表，以便用作測試的範本。 您可使用範本將渠道和規則設定總體套用至一個或多個生產報表套裝。
+>
+>請參閱[套用範本報表套裝設定至多個報表套裝](/help/components/c-marketing-channels/t-template.md)。
 
 檢閱下列主題:
 
-* [必備條件](../../components/c-marketing-channels/c-channels-rules.md#section_9913D2932E3140C099B7978CA95378B2)
-* [重要處理附註](../../components/c-marketing-channels/c-channels-rules.md#section_DE372EEF02314F2395750CF2892DAAE1)
+* [必備條件](/help/components/c-marketing-channels/c-channels-rules.md#prereqs)
+* [重要處理附註](/help/components/c-marketing-channels/c-channels-rules.md#important-proc-rules)
 
-## 必備條件 {#section_9913D2932E3140C099B7978CA95378B2}
+## 必備條件 {#prereqs}
 
 如有必要，請連絡 ClientCare 以協助您釐清這些必要條件:
 
@@ -42,11 +44,11 @@ Adobe 在[自動設定](../../components/c-marketing-channels/c-channel-autosetu
 
 * Set up user group access to the **[!UICONTROL Marketing Channel Report]**.
 
-   See [Configure User Group Access](../../components/c-marketing-channels/t-user-groups.md#task_B156E7527FE94055A43A697338FE8C8C).
+   See [Configure User Group Access](/help/components/c-marketing-channels/t-user-groups.md).
 
 * Ensure that your account manager has enabled **[!UICONTROL Channel Reports]** for your report suite.
 
-## Important processing notes {#section_DE372EEF02314F2395750CF2892DAAE1}
+## Important processing notes {#important-proc-rules}
 
 * 系統以您指定的順序來處理規則，當符合規則後，即停止處理剩餘規則。
 * 規則可以存取 VISTA 已設定的變數，但無法存取 VISTA 已刪除的資料。
