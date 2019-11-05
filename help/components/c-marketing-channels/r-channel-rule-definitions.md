@@ -8,7 +8,7 @@ title: 行銷渠道處理規則 - 定義
 topic: Reports and Analytics
 uuid: 4e71ff5b-912a-4dc0-9c22-4be74c5e3cc0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>轉換變數 </p> </td> 
-   <td colname="col2"> <p>包含為該報表套裝啟用的 eVars，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf" scope="external" format="html"> 實施指南</a>。 </p> </td> 
+   <td colname="col2"> <p>包含為該報表套裝啟用的 eVars，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/oms_sc_implement.pdf"  > 實施指南</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>存在 </p> </td> 
@@ -56,7 +56,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>將該渠道識別為 </p> </td> 
-   <td colname="col2"> <p>將規則與新增至<span class="wintitle">行銷渠道管理員</span>頁面的行銷渠道相關聯。 </p> <p>See <a href="../../components/c-marketing-channels/c-channels.md#task_98C9D3F5DBBC4B198E0A9ED4D3891E03" type="task" format="dita" scope="local"> Add marketing channels </a>. </p> </td> 
+   <td colname="col2"> <p>將規則與新增至<span class="wintitle">行銷渠道管理員</span>頁面的行銷渠道相關聯。 </p> <p>See <a href="/help/components/c-marketing-channels/c-channels.md"   > Add marketing channels </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>匹配付費搜尋的偵測規則 </p> </td> 
@@ -72,7 +72,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結不匹配內部 URL 篩選器 </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。此設定可搭配使用 <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="../../components/c-marketing-channels/c-faq.md#section_451E42994DA247A8A7B8559C715A5EE7" type="section" format="dita" scope="local"> No Channel Identified </a> section of the report. </p> </td> 
+   <td colname="col2"> <p>反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。此設定可搭配使用 <span class="term"> Page URL </span> and <span class="term"> Exists </span> to set up a catch-all rule, so that no visits land in the <a href="/help/components/c-marketing-channels/c-faq.md#no-channel-identified" > No Channel Identified </a> section of the report. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>忽略符合內部 URL 篩選條件的點按 </p> </td> 
@@ -147,6 +147,3 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
  </tbody> 
 </table>
-
-
-
