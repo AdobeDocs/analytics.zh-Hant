@@ -7,8 +7,8 @@ solution: Analytics
 title: 處理規則
 topic: 開發人員和實作
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -28,9 +28,9 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如需有關處理規則的詳細資訊，請參閱:
 
-* Analytics 說明和參考指南中的[處理規則](https://marketing.adobe.com/resources/help/zh_TW/reference/processing_rules.html)
-* [本說明文件中的建立新規則](../../implement/c-implement-with-dtm/c-rules/t-rules-create.md#task_B7FB5ED415AF430C952265AC2835C0DB)
-* 行銷管道文件中的[行銷管道快速入門](https://marketing.adobe.com/resources/help/zh_TW/mchannel/c_getting_started_mchannel.html)
-* Analytics 說明和參考指南中的[VISTA 規則](https://marketing.adobe.com/resources/help/zh_TW/reference/VISTA.html)
-* Analytics 說明和參考指南中的[機器人規則](https://marketing.adobe.com/resources/help/zh_TW/reference/bot_rules.html)
+* Analytics 說明與參考指南中的[處理規則](https://marketing.adobe.com/resources/help/en_US/reference/processing_rules.html)
+* [本說明文件中的建立新規則](/help/implement/c-implement-with-dtm/c-rules/t-rules-create.md)
+* 行銷管道文件中[行銷管道快速入門](https://marketing.adobe.com/resources/help/en_US/mchannel/c_getting_started_mchannel.html)
+* Analytics 說明與參考指南中的 [VISTA 規則](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html)
+* Analytics 說明與參考指南中的[機器人規則](https://marketing.adobe.com/resources/help/en_US/reference/bot_rules.html)
 
