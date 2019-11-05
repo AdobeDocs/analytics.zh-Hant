@@ -7,7 +7,7 @@ title: 頁面檢視
 topic: 量度
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,4 +24,4 @@ A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt;
 | 轉換 | 訪客存取您的網站頁面時產生的頁面檢視。 |
 | Ad Hoc Analysis | 訪客存取您的網站頁面時產生的頁面檢視。 |
 
-請參閱 [頁面檢視報告](../../../components/c-variables/dimensionslist/reports-page-views.md#concept_332C9BDFD6C1495C8362860478B9BA33).
+請參閱 [頁面檢視報告](/help/components/c-variables/dimensionslist/reports-page-views.md).
