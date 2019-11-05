@@ -7,7 +7,7 @@ title: 顯示標題格式
 topic: Report Builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
    | 報表名稱 | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | 篩選參數 | 顯示維度篩選，例如搜尋篩選。 |
    | 區段 | 顯示區段參數。 |
-   | 資料時近 | 顯示資料時近參數。例如:    資料時近：頁面檢視（1.5小時前）、退出（30分鐘前）如需目前資料處理的詳細資 [訊](../../../analyze/report-builder/options.md) ，請參閱選項。 |
+   | 資料時近 | 顯示資料時近參數。例如:    資料時近：頁面檢視（1.5小時前）、退出（30分鐘前）如需目前資料處理的詳細資 [訊](/help/analyze/report-builder/options.md) ，請參閱選項。 |
 
    至於顯示順序，如果「[!UICONTROL 列標籤]」格線 (於步驟 2) 含有項目，則會最先顯示在請求中。如果不含項目，系統會使用「[!UICONTROL 欄標籤]」格線中的第一個項目。如果沒有任何列項目或欄項目，系統會顯示「[!UICONTROL 度量]」格線中的第一個項目。
 
@@ -43,6 +43,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    **執行自動外框:** 將 Report Builder 傳回的日期從清單檢視轉換為樹狀檢視。
 
-   **為此請求命名:**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為「[!UICONTROL 請求管理員]」中的「[!UICONTROL 報表]」名稱。請參閱[為請求命名](../../../analyze/report-builder/layout/name-a-request.md#concept_37277AFB63EA4541B6FD93A5B713D82D)。
+   **為此請求命名:**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為「[!UICONTROL 請求管理員]」中的「[!UICONTROL 報表]」名稱。請參閱[為請求命名](/help/analyze/report-builder/layout/name-a-request.md)。
 
 1. 按一下&#x200B;**[!UICONTROL 確定]**。
