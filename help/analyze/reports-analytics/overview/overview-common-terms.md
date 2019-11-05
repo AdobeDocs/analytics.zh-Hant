@@ -4,15 +4,15 @@ seo-description: 行銷報告中常用之網站分析詞語的簡介。
 seo-title: 常用詞語
 solution: Analytics
 title: 常用詞語
-topic: Reports & Analytics
-uuid: 0560dc7d-9f92-46d4-848b-3cf29707382
+topic: Reports and Analytics
+uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
+source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
 
 ---
 
 
-# 常用詞語{#common-terms}
+# 常用詞語
 
 常用Adobe Analytics術語的簡介。
 
@@ -30,7 +30,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p>度量 </p> </td> 
-   <td> <p>有關您網站上活動的數量資訊，例如檢視、點進、重新載入、平均逗留時間、日期、件數等。 </p> <p>有關詳細資訊，請參閱 <a scope="local" href="../../../analyze/reports-analytics/metrics.md#concept_EB00207C07BD4481AB116E62EC24E686" type="concept" format="dita"> 量度</a>. </p> </td> 
+   <td> <p>有關您網站上活動的數量資訊，例如檢視、點進、重新載入、平均逗留時間、日期、件數等。 </p> <p>有關詳細資訊，請參閱 <a href="/help/analyze/reports-analytics/metrics.md">量度</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 維度 </p> </td> 
@@ -38,7 +38,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p> 報告 </p> </td> 
-   <td> <p>行銷報告功能的基礎。您可以針對所有蒐集的資料執行線上報告。 </p> <p>有關詳細資訊，請參閱 <a href="../../../analyze/reports-analytics/reports.md#concept_54DA0D426E2B49F3BF0E707FE83932A6" type="concept" format="dita" scope="local"> 報表類型</a>. </p> </td> 
+   <td> <p>行銷報告功能的基礎。您可以針對所有蒐集的資料執行線上報告。 </p> <p>有關詳細資訊，請參閱 <a href="/help/analyze/reports-analytics/reports.md"> 報表類型</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 頁面檢視 </p> </td> 
@@ -46,7 +46,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p>瀏覽 </p> </td> 
-   <td> <p>某一位置的頁面檢視順序。瀏覽在非活動狀態持續 30 分鐘，或持續活動-發生 12 個小時後結束。(這個時間長度是網站分析的業界標準)。瀏覽是由 Cookie 進行追蹤。當檢視者存取頁面，就表示開始瀏覽。瀏覽有時也稱為<span class="term"> 作業</span>，但不是瀏覽器作業。前往其他網站、關閉瀏覽器或甚至重新啟動電腦，都不會結束瀏覽。 </p> <p> 如果在訪客閱讀頁面時發生閒置逾時，瀏覽就會關閉並進行處理。當訪客點進其他頁面，就開始新的瀏覽。 </p> <p>如果在瀏覽途中日期變更了，例如在午夜時瀏覽網站，則該次瀏覽會計入瀏覽開始當天。 </p> </td> 
+   <td> <p>某一位置的頁面檢視順序。瀏覽在非活動狀態持續 30 分鐘，或持續活動-發生 12 個小時後結束。(這個時間長度是網站分析的業界標準)。瀏覽是由 Cookie 進行追蹤。當檢視者存取頁面，就表示開始瀏覽。瀏覽有時也稱為 <span class="term"> session</span>, but it is not a browser session. 前往其他網站、關閉瀏覽器或甚至重新啟動電腦，都不會結束瀏覽。 </p> <p> 如果在訪客閱讀頁面時發生閒置逾時，瀏覽就會關閉並進行處理。當訪客點進其他頁面，就開始新的瀏覽。 </p> <p>如果在瀏覽途中日期變更了，例如在午夜時瀏覽網站，則該次瀏覽會計入瀏覽開始當天。 </p> </td> 
   </tr> 
   <tr> 
    <td> <p> 獨特訪客 </p> </td> 
@@ -66,7 +66,7 @@ source-git-commit: bf9152741507c75e1f92e8d5d515127eadf5d590
   </tr> 
   <tr> 
    <td> <p>頻道 </p> </td> 
-   <td> <p> 定義您網站的區域或類別。有兩個主要類別的網站 (例如: <span class="term"> 天氣</span> 與 <span class="term"> 新聞</span>，有兩個通道。您可以將您網站上任何頻道中發生的所有頁面檢視統計資料進行分組。 </p> </td> 
+   <td> <p> 定義您網站的區域或類別。有兩個主要類別的網站 (例如:  天 <span class="term"> 氣和</span> 新聞 <span class="term"></span>，有兩個頻道。 您可以將您網站上任何頻道中發生的所有頁面檢視統計資料進行分組。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
