@@ -5,7 +5,7 @@ seo-title: 常見問題集
 title: 常見問題集
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 哪些 <b>Adobe Analytics SKU</b> 授予您使用 Advertising Analytics 的權益? </p> </td> 
-   <td colname="col2"> <p>Advertising Analytics 適用於 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html" format="html" scope="external">Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html" format="html" scope="external">Prime</a> 及 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html" format="html" scope="external">Ultimate</a> 的 SKU。 </p> </td> 
+   <td colname="col2"> <p>Advertising Analytics 適用於 Adobe Analytics <a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html"  >Prime</a> 及 <a href="https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> 的 SKU。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 使用 Advertising Analytics 需要<b>額外付費</b>嗎? </p> </td> 
@@ -91,7 +91,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 我正在嘗試<b>將我的 Advertising Analytics 帳戶對應到特定的報表套裝</b>，不過在報表套裝強制回應中找不到帳戶。原因為何? </p> </td> 
-   <td colname="col2"> <p>答: 若要將報表套裝指派至 Advertising Analytics 帳戶，您必須先<a href="../../integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md#concept_BE491B2A2CAE4D818C218033B985A0FB" format="dita" scope="local">佈建所需的報表套裝，Advertising Analytics 的報告功能才能正常運作</a>。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
+   <td colname="col2"> <p>答: 若要將報表套裝指派至 Advertising Analytics 帳戶，您必須先<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >佈建所需的報表套裝，Advertising Analytics 的報告功能才能正常運作</a>。 </p> <p>This is done through a separate Admin page that is accessible from: <span class="ignoretag"> <span class="uicontrol"> Admin </span>  &gt; <span class="uicontrol"> Report Suites </span>  &gt; <span class="uicontrol"> [select Experience Cloud-enabled report suite] </span>  &gt; <span class="uicontrol"> Edit Settings </span>  &gt; <span class="uicontrol"> Advertising Analytics Configuration </span> </span>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問: 我可以將<b>虛擬報表套裝</b> (VRS) 指派給 Advertising Analytics 帳戶嗎? </p> </td> 
