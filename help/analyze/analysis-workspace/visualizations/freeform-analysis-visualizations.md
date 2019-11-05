@@ -8,7 +8,7 @@ title: 視覺效果概觀
 topic: Reports and Analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 >[!IMPORTANT]
 >
->哪些視覺化設定可視，視視覺化而定。 並非所有設定均可套用至所有視覺效果。此外，部分進階設定&#x200B;**僅**&#x200B;針對特定視覺效果顯示，例如[「色階分布圖」設定](../../../analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
+>哪些視覺化設定可視，視視覺化而定。 並非所有設定均可套用至所有視覺效果。此外，部分進階設定&#x200B;**僅**&#x200B;針對特定視覺效果顯示，例如[「色階分布圖」設定](/help/analyze/analysis-workspace/visualizations/histogram.md#section_09D774C584864D4CA6B5672DC2927477)。
 
 ![](assets/visualization_settings.png)
 
@@ -67,7 +67,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>標準化 </p> </td> 
-   <td colname="col2"> <p>強制量度為相同比例。請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html" format="https" scope="external"> 標準化</a>。 </p> </td> 
+   <td colname="col2"> <p>強制量度為相同比例。請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  > 標準化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顯示雙軸 </p> </td> 
