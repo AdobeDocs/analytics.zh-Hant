@@ -8,7 +8,7 @@ title: 分類匯入程式 - 概觀
 topic: 管理工具
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -23,6 +23,6 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE]Adobe 建議您將匯入和匯出上限設為 30 欄。
 
-See [Numeric 2 Classifications](../../../components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md#concept_71024B7B91DF4E909076062AB1380D8B) for information about uploading data using numeric 2 classifications.
+See [Numeric 2 Classifications](/help/components/c-classifications2/c-numeric-2/c-numeric-2-classifications.md) for information about uploading data using numeric 2 classifications.
 
 請參閱[常見的 Saint 上傳問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html): 說明因不正確的檔案格式和檔案內容所引起問題的知識庫文章。
