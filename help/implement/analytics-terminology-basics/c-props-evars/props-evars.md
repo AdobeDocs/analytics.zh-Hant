@@ -8,7 +8,7 @@ title: Prop 和 eVar 概觀
 topic: 開發人員和實作
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 自訂流量變數 (也稱為 prop (s.prop) 或屬性變數) 是一種計數器，會計算每個值傳入 Analytics 中的次數。
 
-在判斷哪些變數應指派至何處時，務必瞭解 Prop 與 eVar 兩者的功能有何差異。瞭解這些差異，可讓您的組織決定最適合使用的變數類型。有關詳細資訊，請參閱[比較 Prop 和 eVar](../../../implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md#concept_6E55483C1EC24566B5D3B2736E766EBC).
+在判斷哪些變數應指派至何處時，務必瞭解 Prop 與 eVar 兩者的功能有何差異。瞭解這些差異，可讓您的組織決定最適合使用的變數類型。有關詳細資訊，請參閱[比較 Prop 和 eVar](/help/implement/analytics-terminology-basics/c-props-evars/props-vs-evars.md).
 
 Prop 也可讓您將自訂資料與特定的流量相關事件產生關連。這些變數會嵌入至您的網站上每個頁面中的 [!DNL Analytics] 程式碼中。[!UICONTROL  可透過 ]s.prop[!DNL Analytics] 變數讓您建立專屬於您的組織、產業與企業目標的自訂報表。
 
@@ -40,4 +40,4 @@ eVar (或[!UICONTROL 「自訂轉換分析」]變數) 可用來識別特定屬�
 
 如需其他相關資訊，請參閱 Analytics 說明與參考中的[流量變數](https://marketing.adobe.com/resources/help/en_US/reference/traffic_var.html)。
 
-如需在數位標籤管理中設定屬性的相關資訊，請參閱[建立 Web 屬性](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)。
+如需在數位標籤管理中設定屬性的相關資訊，請參閱[建立 Web 屬性](/help/implement/c-implement-with-dtm/t-create-web-property.md)。
