@@ -7,7 +7,7 @@ solution: Analytics
 title: Data Warehouse 傳遞的報表
 uuid: 7a26e6f7-51a1-45fb-b53e-8c49c4f84aa6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -18,4 +18,4 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 在這種情況下，可在「[!UICONTROL 進階傳送選項]」設定中選擇使用 FTP 傳遞。使用 FTP 時，您需要現有的內部 FTP 帳戶或 Adobe FTP 帳戶。Adobe 不會透過資料倉庫介面自動為您設定該 FTP 帳戶。視檔案大小和處理的報表數目而定，FTP 傳遞應該會立即發生。
 
-如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](../../../export/ftp-and-sftp/ftp-limits.md#concept_8CAA1D8F27B3411AB902520AD6C9A70E)。
+如需 FTP 限制和資料保留的相關資訊，請參閱[FTP 限制和資料保留](/help/export/ftp-and-sftp/ftp-limits.md)。
