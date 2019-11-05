@@ -8,7 +8,7 @@ title: 子分類與規則產生器 - 使用案例
 topic: 管理工具
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 您可結合「分類規則產生器」和子分類，以簡化分類管理並減少所需的規則數目。若您的追蹤程式碼包含想要個別分類的程式碼，則您可能會想要執行此動作。
 
-See [Sub-Classifications](../../../components/c-classifications2/c-sub-classifications.md#concept_19EE5513A7DC43C38CC396E96F306CFE) for conceptual information about sub-classifications.
+See [Sub-Classifications](/help/components/c-classifications2/c-sub-classifications.md) for conceptual information about sub-classifications.
 
 **範例**
 
@@ -33,7 +33,7 @@ See [Sub-Classifications](../../../components/c-classifications2/c-sub-classific
 
 ![](assets/sub_class_table.png)
 
-一旦設定好此架構後，即可使用[分類規則產生器](../../../components/c-classifications2/crb/classification-rule-builder.md)，上傳只會更新查詢表格 (亦即上圖中的綠色與紅色表格) 的小型檔案。之後，您即可使用規則產生器讓主要分類表格維持在最新狀態。
+一旦設定好此架構後，即可使用[分類規則產生器](/help/components/c-classifications2/crb/classification-rule-builder.md)，上傳只會更新查詢表格 (亦即上圖中的綠色與紅色表格) 的小型檔案。之後，您即可使用規則產生器讓主要分類表格維持在最新狀態。
 
 下列工作說明完成此動作的方式。
 
@@ -47,7 +47,9 @@ t_rule_builder_subclass.xml
 
 說明如何使用「規則產生器」上傳子分類的範例步驟。
 
-> [!NOTE] 這些步驟說明如何完成子分類和規則產 [生器中所述的使用案例](../../../components/c-classifications2/crb/sub-classification-rule-builder.md)。
+>[!NOTE]
+>
+> 這些步驟說明如何完成子分類和規則產 [生器中所述的使用案例](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. 在「[分類管理員](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)」中建立分類和子分類。
 
@@ -55,7 +57,7 @@ t_rule_builder_subclass.xml
 
    ![步驟資訊](assets/sub_class_create.png)
 
-1. In the [Classifications Rule Builder](../../../components/c-classifications2/crb/classification-rule-builder.md#concept_C1F219E622044D43852EF5168FF7192A), classify the sub-classification key from the original tracking code.
+1. In the [Classifications Rule Builder](/help/components/c-classifications2/crb/classification-rule-builder.md), classify the sub-classification key from the original tracking code.
 
    您可使用規則運算式執行此動作。在此範例中，填入 *`Broad Campaign code`* 會使用此規則運算式:
 
@@ -70,7 +72,7 @@ t_rule_builder_subclass.xml
 
 1. 上傳僅含指定子分類的分類檔案。
 
-   請參 [閱多級分類](../../../components/c-classifications2/c-sub-classifications.md#concept_35AD906CDDC4441DAAF70664CF76AA0A)。
+   請參 [閱多級分類](/help/components/c-classifications2/c-sub-classifications.md)。
 
    範例:
 
