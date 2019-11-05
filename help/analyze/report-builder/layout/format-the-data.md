@@ -5,9 +5,9 @@ seo-title: 日期格式
 solution: Analytics
 title: 日期格式
 topic: Report Builder
-uuid: 5211db30-07b3-4413-97c3-e40 e6 ff223 cd
+uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 除了 Excel「格式 &gt; 儲存格」(Ctrl+1) 功能提供的標準儲存格格式選擇之外，您還可以透過 Report Builder 將有限的格式套用至儲存格範圍。這些格式選擇取決於您選擇的度量。
 
-[新增維度](../../../analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md#task_E3F520C020F64C5A96DC5C96FEF71FC4) 至「列標籤」格線後，請按一下 **[!UICONTROL 「格式]**」。
+After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
 
 在「**[!UICONTROL 格式]**」功能表中按一下「**自訂格式]」以套用日期的自訂格式，其形式與在開頭和結尾附加文字的功能相似。[!UICONTROL **&#x200B;例如，您可以輸入一律要出現日期後的文字 (如 A.D. B.C.E. A.H. 等)。您可以在日期前加上文字，如「[!UICONTROL 開始日期]」和「[!UICONTROL 開始與結束日期]」。除此之外，您還可以利用日、月、年等縮寫建構自訂日期運算式，以及在日期的各個部分間使用自訂分隔符號。所有日期格式都只能由三個以方括號包覆的縮寫組成。
 
