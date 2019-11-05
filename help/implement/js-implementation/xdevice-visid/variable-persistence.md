@@ -8,7 +8,7 @@ title: 歸屬分配和持續性
 topic: 開發人員和實作
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 如果訪客資料存在，則自此之後都會使用系統中已存在的訪客資料，而不再使用先前的訪客資料。
 * 如果找不到相符的訪客 ID，則會建立新的訪客資料。
 
-當未驗證的客戶第一次造訪您的網站時，Adobe Analytics 會指派一個訪客資料給該客戶。如同[唯一訪客和瀏覽數](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)所示，驗證時會建立新的訪客資料。當建立新的訪客資料時，某個瀏覽會結束，而另一個瀏覽則會開始。
+當未驗證的客戶第一次造訪您的網站時，Adobe Analytics 會指派一個訪客資料給該客戶。如同[唯一訪客和瀏覽數](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)所示，驗證時會建立新的訪客資料。當建立新的訪客資料時，某個瀏覽會結束，而另一個瀏覽則會開始。
 
 **在第一個資料連線上**
 
@@ -58,7 +58,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 * 地域劃分資料會根據第一次的瀏覽點擊進行記錄，不會因為單一瀏覽而變更，無論使用何種裝置皆然。這表示在新裝置的後續資料連線上，通常不會包括地域劃分資料。
 * 在第一次瀏覽點擊時，會記錄如瀏覽器、作業系統及顏色深度這類的技術欄。如同地域劃分值一樣，它們將不會複製至裝訂的訪客資料。
-* 通常設定為不要覆寫另一個通路的「行銷通路」(例如「直接」或「內部」)，將覆寫後續資料連線上的其他通路，其中包含該裝置的第一個驗證，例如[唯一訪客和瀏覽數](../../../implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)中顯示的第一個驗證。
+* 通常設定為不要覆寫另一個通路的「行銷通路」(例如「直接」或「內部」)，將覆寫後續資料連線上的其他通路，其中包含該裝置的第一個驗證，例如[唯一訪客和瀏覽數](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md#section_70330AB6724C4E419A4BD0BDD54641AC)中顯示的第一個驗證。
 
 **特殊情況**
 
