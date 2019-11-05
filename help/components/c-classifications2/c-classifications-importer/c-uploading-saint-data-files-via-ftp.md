@@ -8,7 +8,7 @@ title: FTP 匯入
 topic: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 > [!NOTE] 處理分類資料檔案所需的時間視檔案大小和Adobe伺服器已處理的目前檔案數目而定。 資料檔案的處理時間通常不會超過 72 小時。
 
-在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。有關詳細資訊，請參閱[建立 FTP 帳戶](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
+在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。有關詳細資訊，請參閱[建立 FTP 帳戶](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
 ## 透過 FTP 匯入分類 {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -50,7 +50,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 說明如何使用 FTP 帳戶將分類匯入 Adobe Analytics 的步驟。
 
-如需建立 FTP 帳戶的詳細資訊，請參閱[建立 FTP 帳戶](../../../components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
+如需建立 FTP 帳戶的詳細資訊，請參閱[建立 FTP 帳戶](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
 1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
 1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
