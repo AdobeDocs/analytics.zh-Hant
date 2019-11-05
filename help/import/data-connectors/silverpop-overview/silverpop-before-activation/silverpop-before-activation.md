@@ -5,7 +5,7 @@ seo-title: 啟動此整合之前
 title: 啟動此整合之前
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 檢視與Adobe Analytics相關之此「資料連接器」整合的下列資訊：
 
 * **** 報表套裝特定：請注意，此整合是報表套裝專用的。 在啟動整合之前，請確定您已選取所需的報表套裝。
-* **** 可用和設定的Analytics變數：此整合需要5個自訂事件和2個自訂eVar，以及（可選）3個額外事件和3個額外eVar。 請參 [閱Analytics整合變數](../../silverpop-overview/silverpop-variables.md#concept-6c8a359719fd4794a42f5f6fb118f8b2)。
+* **** 可用和設定的Analytics變數：此整合需要5個自訂事件和2個自訂eVar，以及（可選）3個額外事件和3個額外eVar。 請參 [閱Analytics整合變數](/help/import/data-connectors/silverpop-overview/silverpop-variables.md)。
 
 * **** 授權代表：請注意，啟用此項整合可能會使貴公司根據您與Adobe, Inc.的服務合約或您與Adobe信任的合作夥伴之一（視情況而定）的服務合約產生費用。 啟動此整合後，您即表示您是您公司的授權代表；因此，貴公司同意支付上述服務協定所載之費用（如有）。
 * **** Data Warehouse™:此整合需要啟用「資料倉庫」才能產生再行銷區段。 如果您尚未啟用「資料倉庫」，請聯絡Adobe以取得詳細資訊。
