@@ -8,7 +8,7 @@ title: 新增頁首與頁尾代碼
 topic: 開發人員和實作
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
    >[!NOTE]
    >
-   >生產環境內嵌代碼反映的發佈項目僅限於該[屬性](../../../implement/c-implement-with-dtm/t-create-web-property.md#task_960467FBB7A54499AC228CB3AA3C4123)。不過，用於測試的內嵌代碼會反映關聯的屬性中的所有項目，而不論狀態為已發佈或已取消發佈。若要在生產網站上測試取消發佈的項目，請在本機的主控台中啟用測試，請遵循此文件中的指示[測試 Akamai 託管的取消發佈規則](../../../implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md#task_B397167F9E9B4487957AD6CE2AD47259).
+   >生產環境內嵌代碼反映的發佈項目僅限於該[屬性](/help/implement/c-implement-with-dtm/t-create-web-property.md)。不過，用於測試的內嵌代碼會反映關聯的屬性中的所有項目，而不論狀態為已發佈或已取消發佈。若要在生產網站上測試取消發佈的項目，請在本機的主控台中啟用測試，請遵循此文件中的指示[測試 Akamai 託管的取消發佈規則](/help/implement/c-implement-with-dtm/c-rules/t-test-rules-akamai.md).
 
 1. 複製生產頁尾代碼，並將它放置在網站 HTML 的 [!DNL BODY] 區段內。
 
