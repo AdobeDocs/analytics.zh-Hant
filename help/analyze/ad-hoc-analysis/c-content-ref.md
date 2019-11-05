@@ -7,7 +7,7 @@ title: 建立區段
 topic: Ad Hoc Analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -22,17 +22,17 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 如需在 Unified Segmentation 環境中建立和管理區段的相關資訊和指示，包括臨機分析功能，請參閱 [Unified Segmentation](https://marketing.adobe.com/resources/help/en_US/analytics/segment/index.html) 文件。
 
-* [新功能](../../analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [新功能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [區段定義變更](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_definition.html)
-* [我現有的區段有什麼改變?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
-* [我現有的區段資料夾有什麼改變?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
-* [我是否可以在區段管理員中管理所有 Analytics 區段?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
-* [點擊容器是什麼? 它是否與頁面檢視容器不同?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
-* [要使用、建立和管理區段需要有什麼權限?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
-* [我應如何處理具有……](../../analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
-* [Adobe 建議我該如何清理區段?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
-* [我為何刪除不了區段?](../../analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
-* [更多關於現有區段會有什麼改變的資訊](../../analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
+* [我現有的區段有什麼改變?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
+* [我現有的區段資料夾有什麼改變?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
+* [我是否可以在區段管理員中管理所有 Analytics 區段?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_AF5EDD72C74A4739BD40C4AF125CE489)
+* [點擊容器是什麼? 它是否與頁面檢視容器不同?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_65BBE60A836C4001938830DDA15DC256)
+* [要使用、建立和管理區段需要有什麼權限?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_648DFA3A882146C485A84ED014EEC707)
+* [我應如何處理具有……](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_E2C3A1B4B4274D1B86CAA9C0359D049C)
+* [Adobe 建議我該如何清理區段?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_3AC2D265F9084557A24C6FB39DC6EE49)
+* [我為何刪除不了區段?](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_0FEB6711031A4ABCA915CDA745ECF38D)
+* [更多關於現有區段會有什麼改變的資訊](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_83ACAB256F394DCD8B424D8920BDD853)
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -117,7 +117,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_67CE51237EC34FD4B33942BA14584EBF">來自付費搜尋的瀏覽次數 </li> 
      <li id="li_C3820743178A4E9F9E5E5B5C47401DF2">具有訪客 ID Cookie 的瀏覽次數 </li> 
     </ul> </td> 
-   <td colname="col2"> <p>這些區段將會以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">區段範本的形式移轉至「區段產生器」。</a> </p> <p>已套用這些區段的現有報表將可繼續正常運作。 </p> </td> 
+   <td colname="col2"> <p>這些區段將會以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >區段範本的形式移轉至「區段產生器」。</a> </p> <p>已套用這些區段的現有報表將可繼續正常運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">Experience Cloud (套裝) 區段: 
@@ -130,7 +130,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
      <li id="li_1FEF207959DC4D2E9FC925DD43177AA0">先前造訪過 5 次以上的造訪* </li> 
      <li id="li_219AB1D4FD7E469C9076A23D2CCC7C2C">來自 Facebook 的瀏覽次數* </li> 
     </ul> </td> 
-   <td colname="col2"> <p> 這些區段 (具有星號 * 標記者除外) 多半將會以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html" format="http" scope="external">區段範本的形式移轉至「區段產生器」。</a>另外，新增了數個新的區段範本。 </p> <p>已套用這些區段的現有報表將可繼續正常運作。 </p> </td> 
+   <td colname="col2"> <p> 這些區段 (具有星號 * 標記者除外) 多半將會以<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_templates.html"  >區段範本的形式移轉至「區段產生器」。</a>另外，新增了數個新的區段範本。 </p> <p>已套用這些區段的現有報表將可繼續正常運作。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1">管理員區段 <p>(也稱為「全域」區段) </p> </td> 
