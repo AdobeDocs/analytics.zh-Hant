@@ -5,7 +5,7 @@ seo-title: 對數位助理實作 Analytics
 title: 對數位助理實作 Analytics
 uuid: c61e6a1a-ec08-4936-9053-5f57223f57ff
 translation-type: tm+mt
-source-git-commit: de48a1211edd3a4fd35cc455f2002384deeed5be
+source-git-commit: b7a92c7b7305c5456e6764b4329c51ad13f2609e
 
 ---
 
@@ -56,7 +56,7 @@ GET
 /b/ss/[rsid]/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.omtrdc.net" format="http" scope="external">
+<xref href="https://sc.omtrdc.net">
   sc.omtrdc.net
  Cache-Control: no-cache
 </xref href="https:>
@@ -64,7 +64,7 @@ Host:
 
 ## 多個助理或多個應用程式
 
-您的組織可能需要適用於多種平台的應用程式。 最佳作法是在每個要求中納入應用程式 ID。This variable can be set in the `a.AppID` context data variable. Follow the format of `[AppName] [BundleVersion]`, for example, BigMac for Alexa 1.2:
+您的組織可能需要適用於多種平台的應用程式。 最佳作法是在每個要求中納入應用程式 ID。This variable can be set in the `a.AppID` context data variable. 請遵照 `[AppName] [BundleVersion]` 格式，例如 Alexa 1.2 為 BigMac:
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
@@ -82,7 +82,7 @@ Cache-Control: no-cache
 
 Adobe Analytics使用 [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/en/id-service/using/home.html) ，將不同時間的互動關聯至同一個人。 大部分數位助理都 `userID` 會傳回可供您用來為不同使用者保留活動的資訊。 在大多數情況下，此值是您可以作為唯一識別碼傳入的值。 有些平台傳回的識別碼長於允許的100個字元。 在這些情況下，Adobe建議您使用標準雜湊演算法（例如MD5或Sha1），將唯一識別碼雜湊成固定長度值。
 
-使用ID服務可在跨不同裝置（例如，網路到數位助理）對應ECID時提供最大的價值。 如果您的應用程式是行動應用程式，請依現狀使用Experience Platform SDK，並使用方法傳送使用者 `setCustomerID` ID。 不過，如果您的應用程式是服務，請使用服務提供的使用者ID做為ECID，並在中設定它 `setCustomerID`。
+使用ID服務可在跨不同裝置（例如，網路到數位助理）對應ECID時提供最大的價值。 如果您的應用程式是行動應用程式，請依現狀使用Experience Platform SDK，並使用方法傳送使用者 `setCustomerID` ID。 However, if your app is a service, use the user ID provided by the service as the ECID, as well as setting it in `setCustomerID`.
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
@@ -127,7 +127,7 @@ Host: example.sc.omtrdc.net
 Cache-Control: no-cache
 ```
 
-或 
+或
 
 ```text
 GET /b/ss/[rsid]/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
