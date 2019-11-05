@@ -8,7 +8,7 @@ title: 資料來源概觀
 topic: 開發人員和實作
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -37,6 +37,6 @@ Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線�
 
 >[!IMPORTANT]
 >
->對於交易 ID 資料來源，若想將離線資料關聯至線上事件，必須先由客戶服務啟用交易 ID 記錄。如需詳細資訊，請參閱[交易 ID 記錄](../../import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)。
+>對於交易 ID 資料來源，若想將離線資料關聯至線上事件，必須先由客戶服務啟用交易 ID 記錄。如需詳細資訊，請參閱[交易 ID 記錄](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)。
 
 匯入後，在 Digital Marketing Suite 中可使用大部分的資料來源資料。
