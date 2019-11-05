@@ -5,7 +5,7 @@ seo-title: 範本
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -16,16 +16,16 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 您可以選擇從以下來源建立專案:
 
-* 空白專案 (預設)。如需指示，請參 [閱建立分析工作區專案](../../../analyze/analysis-workspace/build-workspace-project/t-freeform-project.md#task_C2C698ACC7954062A28E4784911E6CF2)。
+* 空白專案 (預設)。如需指示，請參 [閱建立分析工作區專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * 標準範本。這些範本皆由 Adobe 建立且出廠即提供。
 * 自訂範本。具有管理權限的使用者，或非管理員但已獲得「另存為範本」權限的使用者，皆可建立這些範本。(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
 
 ![](assets/start_modal.png)
 
-* [建立自訂範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#task_279637F56CFD4B6094D7CBDB82FA4835)
-* [標準範本](../../../analyze/analysis-workspace/build-workspace-project/starter-projects.md#concept_4FE900FEEC894E849CB6C6A0E0ADA524)
+* [建立自訂範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
+* [標準範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
-## 建立自訂範本 {#task_279637F56CFD4B6094D7CBDB82FA4835}
+## 建立自訂範本 {#create-custom-template}
 
 擁有管理員權限的使用者可以將其建立的任何專案轉換為自訂範本。方法如下:
 
