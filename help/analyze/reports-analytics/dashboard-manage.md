@@ -8,7 +8,7 @@ title: 控制面板管理員
 topic: Reports and Analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
 
@@ -86,7 +86,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 
    複製的控制面板會在控制面板配置編輯器中開啟。
 
-   請參閱 [編輯控制面板和小報表資料](../../analyze/reports-analytics/dashboard.md#task_B460CCD70D9F40FCAC6BBC1C044CC460).
+   請參閱 [編輯控制面板和小報表資料](/help/analyze/reports-analytics/dashboard.md).
 
 ## 共用控制面板
 
@@ -107,7 +107,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 1. 開啟一個控制面板。
 1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Send]**.
 
-   See [Schedule and Distribution](../../analyze/reports-analytics/scheduling.md#concept_4EA333DFC7FD4E9CA086385A3DA10BE9) for more information.
+   See [Schedule and Distribution](/help/analyze/reports-analytics/scheduling.md) for more information.
 
 ## 封存控制面板
 
