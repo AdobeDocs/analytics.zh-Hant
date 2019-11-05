@@ -7,7 +7,7 @@ title: 瀏覽
 topic: 報表
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2b0a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -24,12 +24,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 當新訪客提出第一個影像要求時，或現有使用者的瀏覽到期後，瀏覽即會開始。我們可將其視為登入頁面。
 * 瀏覽到期前的最後一個影像要求出現時，瀏覽即結束。我們可將其視為退出頁面。
 
-   請參閱 [登入與退出報告](../../../components/c-variables/dimensionslist/reports-entries-exits.md#concept_C4AED2C1D62E43A48ACAA837327FCCF2).
+   請參閱 [登入與退出報告](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * 以小時為單位的劃分會以報表套裝的時區為準。
 * 此報告不含明細項目。您只能在趨勢格式中加以檢視。
 * 詳細程度可採用小時、日、週、月、季與年。這些詳細程度設定是否可用，須取決於報告日期範圍。
 
-請參閱[瀏覽量度](../../../components/c-variables/c-metrics/metrics-visit.md#concept_9DA4D9EF8B964755BAC57378AD37911E)，以進一步瞭解 Experience Cloud 對此量度的處理方式。
+請參閱[瀏覽量度](/help/components/c-variables/c-metrics/metrics-visit.md)，以進一步瞭解 Experience Cloud 對此量度的處理方式。
 
 **產品特定報告資訊**
 
