@@ -8,7 +8,7 @@ title: 處理規則的運作方式
 topic: 管理工具
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
  <tbody> 
   <tr> 
    <td colname="col1"> <p>規則套用至單一報告套裝。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md" type="task" format="dita" scope="local"> 複製處理規則至其他報表套裝 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> 複製處理規則至其他報表套裝 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則依列出順序而套用。 </p> </td> 
@@ -41,15 +41,15 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>系統儲存處理規則後，會將它們立即套用至報表套裝。 </p> </td> 
-   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定 <a href="/help/admin/admin/realtime/t-realtime-admin.md" format="dita" scope="local"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則是存取上下文資料變數的唯一方法。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md" format="dita" scope="local"> 複製上下文資料變數至eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 複製上下文資料變數至eVar </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則的套用時機早於 VISTA 規則和行銷渠道規則。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md" type="concept" format="dita" scope="local"> 處理順序 </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md"> 處理順序 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不能排除點擊。 </p> </td> 
@@ -81,7 +81,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI 中的值比較不區分大小寫。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md" type="concept" format="dita" scope="local"> 清理報告中的值 </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> 清理報告中的值 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數名稱只能包含英數字元、底線和點。其他任何字元都會刪除。 </p> </td> 
