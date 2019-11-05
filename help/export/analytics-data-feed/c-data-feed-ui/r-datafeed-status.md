@@ -1,18 +1,18 @@
 ---
 description: 顯示的摘要可能會附帶幾種狀態標籤中的其中一種。
-keywords: 資料饋送；狀態；活動；核准擱置中；刪除；complete；擱置中；active
+keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
 seo-description: 顯示的摘要可能會附帶幾種狀態標籤中的其中一種。
-seo-title: 資料饋送狀態
+seo-title: 資料摘要狀態
 solution: Analytics
-title: 資料饋送狀態
-uuid: 07ec0d16-925c-481d-801c-869abb1568689
+title: 資料摘要狀態
+uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
 
 ---
 
 
-# 資料饋送狀態
+# 資料摘要狀態
 
 顯示的摘要可能會附帶幾種狀態標籤中的其中一種。
 
@@ -21,6 +21,6 @@ source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
 | 啟用 | 摘要運作中。 |
 | 待核准 | 在某些情況下，摘要需經過 Adobe 核准才能開始產生工作。此時，這項狀態會套用至摘要。 |
 | 已刪除 | 摘要已遭刪除。 |
-| 完成 | 摘要已完成處理。您可以編輯、中止及取消完成的摘要。 |
+| 完成 | 動態消息已完成處理。 您可以編輯、中止及取消完成的摘要。 |
 | 待審 | 摘要已建立，但尚未作用。這是短暫的暫時性狀態，可能不會出現在「摘要」清單中。 |
 | 非活動 | 非活動狀態等同於暫停或中止狀態。摘要一經重新啟動，便會從停止之處繼續提交工作。 |
