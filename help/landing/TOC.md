@@ -4,7 +4,7 @@ audience: 全部
 user-guide-title: Analytics 文件
 user-guide-url: /content/help/zh-Hant/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: 611f8998e4030d089c86d124452096c5eb8655c1
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -20,7 +20,11 @@ source-git-commit: 611f8998e4030d089c86d124452096c5eb8655c1
 * [實施指南](https://docs.adobe.com/content/help/en/analytics/implementation/home.html)
 * [匯入指南](https://docs.adobe.com/content/help/en/analytics/import/home.html)
 * [整合指南](https://docs.adobe.com/content/help/en/analytics/integration/home.html)
+* [媒體分析指南](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+* [資料工作台指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+
 * [文件更新](doc-updates.md)
+* [發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
 
 
 <!--
