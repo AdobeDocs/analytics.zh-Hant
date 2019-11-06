@@ -23,4 +23,4 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 > [!NOTE]若要啟用路徑功能，請前往&#x200B;**[!UICONTROL 管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 流量 &gt; 流量變數]**。若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
 
-探索 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更多強大的路徑功能 (流程) �
+探索 [Analysis Workspace](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) 中更多強大的路徑功能 (流程) 選項。
