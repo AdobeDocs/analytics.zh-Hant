@@ -4,7 +4,7 @@ seo-title: Adobe Analytics 技術文件和自助使用者指南的完整清單
 description: Analytics 使用者指南和資源
 seo-description: Adobe Analytics 技術文件、發行說明和自助使用者指南的完整清單。
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 [![媒體分析](assets/media_50px.png)](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)[媒體分析指南](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html) -對音訊或視訊來源實施分析。 包含 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://marketing.adobe.com/resources/help/en_US/insight/)資料工[作台指南](https://marketing.adobe.com/resources/help/en_US/insight/) -資料工作台用戶端、安裝、資料集設定等
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)資料工[作台指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) -資料工作台用戶端、安裝、資料集設定等
 
 [![技術說明](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技術說明](/help/technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
@@ -47,7 +47,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://marketing.adobe.com/resources/help/en_US/insight/)
+* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 * [Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)
 
