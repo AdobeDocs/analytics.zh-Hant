@@ -5,7 +5,7 @@ seo-title: 我該使用哪種 Adobe Analytics 工具呢?
 title: 我該使用哪種 Adobe Analytics 工具呢?
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 若希望以標籤來組織專案工作實施流量分類。
 * 使用「網站分析」報表 (3D 路徑報表) 時
 
-該使用&#x200B;**[「Data Workbench」](https://marketing.adobe.com/resources/help/en_US/insight/)**&#x200B;的情況:
+該使用&#x200B;**[「Data Workbench」](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**&#x200B;的情況:
 
 * 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
 * 用於從 CRM 到 POS 到 Web，建立線上和離線互動的多頻道資料集。
