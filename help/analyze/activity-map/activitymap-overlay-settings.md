@@ -6,7 +6,7 @@ solution: Analytics
 title: 設定 Activity Map
 topic: Activity Map
 uuid: 42a0309e-3efc-4506-989b-09b6fe419423
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,12 +20,12 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 「設定」面板會根據所選取的應用程式模式，而顯示不同的內容。「其他」索引標籤包含一般設定。
 
-| 標準 | **[!UICONTROL 漸層]**&#x200B;或&#x200B;**[!UICONTROL 氣泡]覆蓋圖** |
+| 標準 | **[!UICONTROL 漸層]**&#x200B;或&#x200B;**[!UICONTROL 氣泡]**&#x200B;覆蓋圖 |
 |---|---|
-| Live | **[!UICONTROL 獲益者和損失者]**、漸 **[!UICONTROL 層]**、泡泡 **[!UICONTROL 覆蓋圖]** |
+| Live | **[!UICONTROL 獲益者和損失者]**、**[!UICONTROL 漸層]**、**[!UICONTROL 氣泡]**&#x200B;覆蓋圖 |
 | 其他 | 報表套裝選擇和語言選擇 |
 
-## Settings for standard mode overlay {#section_24DB95376E1A448494ECF3F57743FC19}
+## 標準模式覆蓋圖的設定 {#section_24DB95376E1A448494ECF3F57743FC19}
 
 ![](assets/settings_standard.png)
 
@@ -78,18 +78,18 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## Settings for live mode overlays {#section_D30F6E62FB5D404090B588F396A460AF}
+## 即時模式覆蓋圖的設定 {#section_D30F6E62FB5D404090B588F396A460AF}
 
 ![](assets/settings_live.png)
 
 | 設定 | 說明 |
 |---|---|
-| **[!UICONTROL 顯示排名最前的]** | Select number of links to display (or all) and the **[!UICONTROL Gainers]** or **[!UICONTROL Losers]** (or both) to display as overlays. |
+| **[!UICONTROL 顯示排名最前的]** | 選取要顯示的連結數 (或全部)，並選取要將「**[!UICONTROL 獲益者]**」或「**[!UICONTROL 損失者]**」(或兩者) 顯示為覆蓋圖。 |
 | **[!UICONTROL 排除最後 (%)]** | 選取以消除資料稀少的獲益者-損失者連結。過濾掉連結變更的最後百分比，僅檢視具有足夠資料可顯示相關獲益或損失的連結。百分比是根據該頁面的連結數來計算。例如，過濾掉具 200 個連結之清單上的最後 10%，會過濾掉最後 20 個連結。 |
 | **[!UICONTROL 自動更新資料]** | 可讓您決定在計算新時段時，是否應自動更新介面上顯示的 Analytics 資料。 |
 | **[!UICONTROL 自動更新時段]** | 勾選此選項時，每次擷取新資料都會重新整理網頁，以讓頁面上的連結與所收集的資料更緊密同步。 |
 
-## Other settings {#section_697A12F099494D699A4BF498598178C5}
+## 其他設定 {#section_697A12F099494D699A4BF498598178C5}
 
 ![](assets/settings_other.png)
 
