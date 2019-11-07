@@ -1,24 +1,22 @@
 ---
 description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
-seo-description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
-seo-title: 資料隱私權與資料連接器(Genesis)
-title: 資料隱私權與資料連接器(Genesis)
+title: 資料隱私權與 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
 
-# 資料隱私權與資料連接器(Genesis)
+# 資料隱私權與 Data Connectors (Genesis)
 
 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
 
-這項資訊可讓您識別任何透過我們的連接器匯入的直接可識別資料或間接可識別資料，當連接器收到資料隱私權要求時。
+Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透過 Connector 匯入的直接或間接個人識別資料。
 
 如果您使用以下任何 Connector 整合，只要檢查整合中可能含有直接或間接個人識別資料的合作夥伴變數/分類即可。
 
-> [!NOTE] 本資訊可協助您識別必須標示的變數 [](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)[](/help/admin/c-data-governance/an-gdpr-overview.md) ，但您身為資料掌控者的責任是套用適當的標籤，或執行其他資料隱私準備動作（更新分類等）。
+> [!NOTE]本文資訊旨在協助您識別必須[加上標籤](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)的變數，但身為資料控管單位，您必須負責套用適當標籤，或執行其他[資料隱私權整備動作](/help/admin/c-data-governance/an-gdpr-overview.md) (更新分類等)。
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
