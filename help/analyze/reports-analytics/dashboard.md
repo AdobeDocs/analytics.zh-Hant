@@ -8,7 +8,7 @@ title: 控制面板和報表
 topic: Reports and Analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -58,7 +58,7 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 使用[!UICONTROL 控制面板管理員]可以編輯和管理控制面板，以及啟用它們的 DirectAccess 功能。
 
-請參閱 [管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F).
+請參閱 [管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## 建立控制面板 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
@@ -87,7 +87,7 @@ t_dashboard_add.xml
    請參 [閱建立小報表](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3)[和編輯控制面板設定](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
 1. Click **[!UICONTROL Save.]**
 
-   儲存控制面板會讓它顯示在&#x200B;**[!UICONTROL 控制面板]功能表中。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (請參閱 [管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md#concept_E1301CF138EB477794B00F693B4FCA0F)。)
+   儲存控制面板會讓它顯示在&#x200B;**[!UICONTROL 控制面板]功能表中。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (請參閱 [管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md)。)
 
 1. (Optional) To set the dashboard as your landing page, click **[!UICONTROL More Options]** &gt; **[!UICONTROL Set as Landing Page]**.
 
