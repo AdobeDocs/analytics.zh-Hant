@@ -6,7 +6,7 @@ solution: Analytics
 title: 區別參照相同連結 ID 和地區的連結
 topic: Activity Map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -49,13 +49,13 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 應如何自訂網頁和標記，以區別這些連結的值呢? 您有三個選擇: 自訂連結 ID、自訂地區，或是自訂 AppMeasurement ActivityMap 模組檔案。
 
-## 使用 s_objectID 自訂連結 ID {#section_01B0D463397B4837B2D46F087A6E5937}
+## 使用 s_objectID 自訂連結 ID{#section_01B0D463397B4837B2D46F087A6E5937}
 
-透過為頁面上的連結或連結位置建立唯一的物件 ID，可改善 Activity Map 追蹤，或使用 Activity Map 來報告連結類型或位置，而不是連結 URL。如需 s_objectID 變數的詳細資訊，請按[此處](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html)。
+透過為頁面上的連結或連結位置建立唯一的物件 ID，可改善 Activity Map 追蹤，或使用 Activity Map 來報告連結類型或位置，而不是連結 URL。如需 s_objectID 變數的詳細資訊，請按[此處](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/s_objectID.html)。
 
 >[!IMPORTANT]
 >
->請注意，在Activity map中使用s_objectID時，需要結尾分號(;)。
+>請注意，在 Activity Map 中使用 s_objectID 時，必須在結尾加上分號 (;)。
 
 <table id="table_9439A5F320304E439A19842CF3EBA456"> 
  <thead> 
@@ -86,11 +86,11 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## 自訂地區 {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 自訂地區{#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 您可透過確定每個「購買」連結都定義自己的地區，來自訂地區。若要這麼做，請在每個 "Buy" 錨記的其中一個父項新增 "id" 參數。
 
-> [!NOTE] 您不嚴格限制使用"id"參數做為地區識別碼。 您也可以使用JavaScript變數「s.ActivityMap.regionIDAttribute」來設定自己的識別碼。
+> [!NOTE] 並未嚴格限制一定要使用 "id" 參數做為地區識別碼。您也可以使用 JavaScript 變數 "s.ActivityMap.regionIDAttribute" 設定自己的識別碼。
 
 <table id="table_250DB52A869C466B942517BABA1C287B"> 
  <thead> 
@@ -121,13 +121,13 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## 自訂 AppMeasurement ActivityMap 模組檔案 {#section_B933BB9F944E4D5389002908A5A881F8}
+## 自訂 AppMeasurement ActivityMap 模組檔案{#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
->請確定您已測試修改的程式碼，以確保它正常運作。 Adobe 對修改後代碼的行為概不負責。
+>請務必測試修改後的代碼，確保代碼可以正常運作。Adobe 對修改後代碼的行為概不負責。
 
-以下是您可在AppMeasurement.js檔案中加入的**一般**連結／地區函式的幾個範例。
+以下是一些您可加入 AppMeasurement.js 檔案的**一般**連結/地區函數範例 (修改形式)。
 
 ```
 s.ActivityMap.link = function(ele,linkName){ 
