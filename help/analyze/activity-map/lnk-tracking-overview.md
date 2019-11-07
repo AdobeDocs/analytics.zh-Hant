@@ -6,7 +6,7 @@ solution: Analytics
 title: 強大的連結追蹤
 topic: Activity Map
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -21,13 +21,13 @@ Activity Map 使用更強大的演算法來追蹤連結，具有下列優點:
 
 如需 Activity Map 中連結追蹤的詳細資訊，請前往[此處](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)。
 
-## How Activity Map link tracking may collect PII Data {#section_AEE57510D17B4C21A7D49D32D21D67B9}
+## Activity Map 連結追蹤如何收集 PII 資料 {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
 > [!CAUTION]開啟 Activity Map 追蹤功能後，您就可能會收集個人識別資訊 (PII) 資料。此資料可以單獨使用，或搭配其他資訊使用，藉以識別、聯絡或尋找個別人員，或者識別環境中的個人。
 
 以下是可能使用 Activity Map 追蹤來收集 PII 資料的一些已知案例:
 
-* `Mailto` 連結。 Mailto 連結是一種 HTML 連結，它會啟用電腦上的預設郵件用戶端來傳送電子郵件。
-* `User ID` 當使用者登入後，網站的頁首／頁尾中可能會顯示的連結。
+* `Mailto` 連結。Mailto 連結是一種 HTML 連結，它會啟用電腦上的預設郵件用戶端來傳送電子郵件。
+* 當使用者登入後，`User ID` 連結可能會顯示在網站的標題/註腳中。
 * 若為金融機構，帳號可能會以連結的型態顯示。按一下連結，就可以收集該連結的文字。
 * 醫療照護網站也可能讓 PII 資料以連結的型態顯示。按一下這些連結，就可以收集該連結的文字，從而收集 PII 資料。
