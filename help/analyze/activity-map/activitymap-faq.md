@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map 常見問題集
 topic: Activity Map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -20,15 +20,15 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **問: 啟用新 Activity Map 的實作步驟為何?**
 
-答: 請檢閱 [啟用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+答: 請檢閱[啟用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 
 **問: 所有 Analytics 客戶都有權存取管理工具的「Activity Map 啟用」頁面嗎?**
 
-答：Adobe SiteCatalyst客戶無法存取管理控制台的「Activity Map啟用」頁面。 只有簽訂 Adobe Analytics Standard 和 Adobe Analytics Premium 合約的公司有權存取此設定頁面。
+答: Adobe SiteCatalyst 客戶無權存取管理控制台的「Activity Map 啟用」頁面。只有簽訂 Adobe Analytics Standard 和 Adobe Analytics Premium 合約的公司有權存取此設定頁面。
 
 **問: 新的 AppMeasurement 代碼可以透過「動態標籤管理」(DTM) 進行設定嗎?**
 
-答: 是，您可以[手動實施](https://marketing.adobe.com/resources/help/en_US/dtm/analytics_dtm.html)新的 AppMeasurement 代碼。
+答: 是，您可以[手動實施](https://marketing.adobe.com/resources/help/zh_TW/dtm/analytics_dtm.html)新的 AppMeasurement 代碼。
 
 **問: AppMeasurement v1.6 程式庫有什麼重大變更?**
 
@@ -42,7 +42,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 答: 否。Activity Map 功能不須依賴 VisitorAPI。
 
-## Activity Map application {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
+## Activity Map 應用程式 {#section_E4F2DAC09EBA4E3BA7BACB49A0A89F8D}
 
 **問: 我之前沒有在網站上使用 Visitor ClickMap，現在可以使用 Activity Map 嗎?**
 
@@ -62,9 +62,9 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 答: 有些排名連結會在頁面上隱藏 (例如子功能表連結)。因此也不會顯示其對應的連結覆蓋圖。因此您可以預期覆蓋圖排名會遺失部分特定的排名值，因為排名是針對頁面上的所有連結來進行計算 (顯示連結 + 隱藏連結)。
 
-**問: 「全部連結」報表中的連結排名是如何決定的?**
+**問:「全部連結」報表中的連結排名是如何決定的?**
 
-* 在「**漸層**」和「**氣泡**」模式中: 「排名」是由量度欄決定。對於具有相同量度值的連結，再進一步根據連結 ID 的字母順序來排名。
+* 在「**漸層**」和「**氣泡**」模式中:「排名」是由量度欄決定。對於具有相同量度值的連結，再進一步根據連結 ID 的字母順序來排名。
 * 而在「**獲益者和損失者**」模式中，排名主要是由「獲益 %」欄決定。對於具有相同獲益的連結，再進一步根據連結 ID 的字母順序來排名。
 
 **問: 為什麼 Activity Map 執行時，沒有收集連結點擊資料?**
@@ -73,13 +73,13 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **問: 為什麼量度下拉式清單多次列出相同的量度?**
 
-答: Activity Map 會列出所有報表套裝的量度。因此，如果公司未執行[量度整合程序](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_transition.html)，可以預期會看到重複項目。
+答: Activity Map 會列出所有報表套裝的量度。因此，如果公司未執行[量度整合程序](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/cm_transition.html)，可以預期會看到重複項目。
 
 您可以利用量度下拉式清單，將計算量度清單限制為指派給已造訪頁面之報表套裝的量度。
 
-**問: 「Activity Map 全部連結報表」與「Reports &amp; Analytics Activity Map」報表有何差異?**
+**問:「Activity Map 全部連結報表」與「Reports &amp; Analytics Activity Map」報表有何差異?**
 
-答：若要提取Activity map中的「所有連結報表」，我們會建立劃分請求，如下所示：Activity map頁面= "visitedpage"，依中的Activity Map連結與地區劃分 `<list of link&regions present in the page at rendering time>`。
+答: 若要提取 Activity Map 中的「全部連結報表」，我們會建立劃分請求，如下所示: Activity M ap 頁面 = "visitedpage"，依據`<list of link&regions present in the page at rendering time>`的 Activity Map 連結和地區來劃分。
 
 若想在「Reports &amp; Analytics」中取得相等報表，您需先導覽至「Activity Map 頁面」報表。並在此處篩選 Activity Map 中的已造訪頁面名稱。已造訪頁面名稱會顯示在「Activity Map 頁面詳細資料底部面板」的左欄中。找到頁面後，即可從該頁面劃分，並選擇「Activity Map 連結和地區」做為第二維度。
 
@@ -119,13 +119,13 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 *網頁具有不相容 Analytics 標記 (AppMeasurement v1.5 或更舊版本)*
 
-會顯示警告訊息，指出您需要(/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)將頁面程式碼升級至v1.6。
+系統會顯示訊息，指出您需要 (/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 將頁面代碼升級至 v1.6。
 
 *網頁具有相容的 Analytics 標記 (AppMeasurement v1.6 或更新版本)，但未在管理工具中啟用 Activity Map*
 
-會顯示警告訊息，指出您需要要求您的管理員\[啟用Activity map報表\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")。
+系統會顯示警告訊息，指出您需要請管理員\[啟用 Activity Map 報表。\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")
 
-**問: 能否透過[分析資料摘要](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)匯出 Activity Map 資料 (contextData)?**
+**問: 能否透過[Analytics 資料摘要](https://marketing.adobe.com/resources/help/zh_TW/reference/analytics-data-feed.html)匯出 Activity Map 資料 (contextData)?**
 
 答: 否。
 
@@ -133,7 +133,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **問: 區段關聯至個別使用者區段嗎? 共用管理員層級區段可否在 Activity Map 中使用?**
 
-答：Activity map會繼承Analytics的管理員層級區段（報告區段）。
+答: Activity Map 會繼承 Analytics 的管理員層級區段 (報表區段)。
 
 **問: 區段可否用於即時模式?**
 
