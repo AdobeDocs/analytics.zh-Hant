@@ -1,11 +1,9 @@
 ---
 description: 「管理工具」中的資料控管對話方塊提供概述，讓您瞭解已針對資料控管設定哪些報表套裝、是否已對應至 Experience Cloud 組織，以及此報表套裝是否已制定資料保留政策。
-seo-description: 「管理工具」中的資料控管對話方塊提供概述，讓您瞭解已針對資料控管設定哪些報表套裝、是否已對應至 Experience Cloud 組織，以及此報表套裝是否已制定資料保留政策。
-seo-title: 檢視/管理報表套裝資料控管設定
 title: 檢視/管理報表套裝資料控管設定
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
