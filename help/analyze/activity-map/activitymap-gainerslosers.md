@@ -6,7 +6,7 @@ solution: Analytics
 title: 可自訂覆蓋圖
 topic: Activity Map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -30,19 +30,19 @@ Activity Map 提供下列三種覆蓋圖:
 
 將滑鼠暫留在某個覆蓋圖上，會顯示其[詳細資料](/help/analyze/activity-map/activitymap-overlay-details.md)。
 
-## Gradient overlay (Heatmap) {#section_06AF13DE05A1454D960176CD0DA921A6}
+## 漸層覆蓋圖 (熱度圖) {#section_06AF13DE05A1454D960176CD0DA921A6}
 
 漸層覆蓋圖中的色彩強度是根據該連結的人氣高低。此強度可以針對前 30 名排行進行標準化，也可以做為絕對量度值的函數。
 
-這些度量覆蓋在頁面的連結上，成為一種「熱圖」，提供重要問題的解答，其中包括：
+這些度量覆蓋在頁面的連結上，成為一種「熱圖」，提供重要問題的解答，其中包括:
 
-* 個別頁面有何價值？
+* 個別頁面有何價值?
 * 頁面上的個別元素有何價值?
 * 頁面上最有價值的數位不動產為何?
 
 ![](assets/gradient.png)
 
-## Bubble overlay {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
+## 氣泡覆蓋圖 {#section_A657AB3F64CB47F881BBFFD72B37D9D4}
 
 氣泡覆蓋圖會在一個小型註標泡泡中顯示覆蓋圖內容 (量度、百分比或排名)。
 
@@ -50,13 +50,13 @@ Activity Map 提供下列三種覆蓋圖:
 
 ![](assets/bubble_overlay.png)
 
-> [!NOTE] 子功能表的泡泡覆蓋圖只會在您顯示子功能表時顯示：
+> [!NOTE] 您必須顯示子功能表，才會顯示子功能表的氣泡覆蓋圖:
 >
 >![](assets/bubbles_submenu.png)&gt;
 
-## Gainers and losers overlays {#section_EE80278E20C14824869BF5A27A4634C8}
+## 獲益者和損失者覆蓋圖 {#section_EE80278E20C14824869BF5A27A4634C8}
 
-**[!UICONTROL 獲益者和損失者覆蓋圖]** ，僅在即時模式中提供。 它們會比較目前時段的量度和上一個時段的量度，用以報告連結活動的即時變更。藉以提供充滿視覺吸引力的檢視即時趨勢方式。
+**[!UICONTROL 獲益者和損失者覆蓋圖]**&#x200B;僅適用於即時模式: 它們會比較目前時段的量度和上一個時段的量度，用以報告連結活動的即時變更。藉以提供充滿視覺吸引力的檢視即時趨勢方式。
 
 此即時覆蓋圖會根據前一個和目前時段之間的量度值變更，來排名點按。
 
