@@ -6,7 +6,7 @@ solution: Analytics
 title: 連結報表
 topic: Activity Map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 「頁面上的連結」報表提供連結的表格檢視。有時候您會想查看在單一檢視中排名的連結點擊次數 (或其他量度)。如此可在連結之間提供更好的比較結果。建立「頁面上的連結」報表，包含頁面上所有連結的排名清單 (依據連結 ID)、點按資訊 (# 和 %) 以及頁面中的地區。按一下 Activity Map 工具列中的「頁面上的連結報表」按鈕。
 
-「**[!UICONTROL 頁面上的連結]」報表隨即在 Activity Map 控制面板的瀏覽器框架下方開啟。**
+「**[!UICONTROL 頁面上的連結]**」報表隨即在 Activity Map 控制面板的瀏覽器框架下方開啟。
 
-## Standard mode {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
+## 標準模式 {#section_C8D2A1C07A2A4E3A8F84AC9240603FA7}
 
 ![](assets/links_in_page.png)
 
@@ -40,7 +40,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
   </tr> 
   <tr> 
    <td colname="col1"> 連結 ID </td> 
-   <td colname="col2">連結的主要ID（如需[新連結追蹤方法]如何定義主要ID的詳細資訊）(/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
+   <td colname="col2">連結的主要 ID。 (關於如何定義主要 ID 的詳細資訊，請參閱 [全新的連結追蹤方法] (/home/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 點按 </td> 
@@ -63,9 +63,9 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
 
 **篩選資料**
 
-如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]」欄位中搜尋相關詞語。**&#x200B;只有符合搜尋的連結會顯示覆蓋圖。若不使用篩選，則會顯示「[Activity Map 設定](/help/analyze/activity-map/activitymap-overlay-settings.md)」中指定的覆蓋圖。
+如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]**」欄位中搜尋相關詞語。只有符合搜尋的連結會顯示覆蓋圖。若不使用篩選，則會顯示「[Activity Map 設定](/help/analyze/activity-map/activitymap-overlay-settings.md)」中指定的覆蓋圖。
 
-## Live mode {#section_AC1967217B5A4532ACB01D33636F6770}
+## 即時模式 {#section_AC1967217B5A4532ACB01D33636F6770}
 
 在即時模式中，「頁面上的連結」報表會顯示跨越數分鐘的趨勢資料。
 
@@ -85,7 +85,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
   </tr> 
   <tr> 
    <td colname="col1"> 連結 ID </td> 
-   <td colname="col2">連結的主要 ID。如需新[連結追蹤方法]如何定義主要ID的詳細資訊(/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodoly.md)。 </td> 
+   <td colname="col2">連結的主要 ID。關於如何定義主要 ID 的詳細資訊，請參閱全新的 [連結追蹤方法。] (/help/analyze/activity-map/activitymap-link-tracking/activitymap-)ink-tracking-methodology.md) </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 連結點擊次數 </td> 
@@ -114,7 +114,7 @@ source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
  </tbody> 
 </table>
 
-## Sorting and filtering {#section_4B8E8233C21247CAA70DAEC2156548AD}
+## 排序和篩選 {#section_4B8E8233C21247CAA70DAEC2156548AD}
 
 有時候您只需要分析特定頁面區域的結果 (例如左側面板)，以判斷如何組織該特定網頁區域的內容。
 
