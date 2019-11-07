@@ -1,11 +1,9 @@
 ---
 description: 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
-seo-description: 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
-seo-title: 命名空間
 title: 命名空間
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -14,13 +12,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
 
-命名空間字串用於識別您在提供ID做為資料隱私權要求的一部分時所要搜尋的欄位。 提交「資料隱私權」請求時，請求將包含JSON區段，指定要用於請求的資料主體ID。 您可以納入多個 ID 做為資料主體的單一請求的一部分。JSON 包含以下項目:
+當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，該請求會包含 JSON 區段，用以指定用於請求的資料主體 ID。您可以納入多個 ID 做為資料主體的單一請求的一部分。JSON 包含以下項目:
 
 * 具有命名空間字串的「namespace」欄位。
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
 * 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
 
-Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md) for more details.
+如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)。
 
 <!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
 
@@ -52,7 +50,7 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 
 已廢止的形式:
 
-指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。如果其中一個數字沒有足夠的位數，則應添加前導零。
+指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
 
 ## 身分識別服務 Cookie
 
@@ -72,11 +70,11 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 >
 >這些是 Analytics 支援的 ID 中，唯一使用「type」值而非「analytics」值的 ID。
 
-如果這些Cookie ID中任何一個的值部分的格式不符合該ID所描述的格式，則資料隱私權要求將會失敗，並出現錯誤「值格式不正確」。
+若這些 Cookie ID 的數值部分格式未遵照上述該 ID 的格式，則資料隱私權請求會失敗，並產生「數值格式有誤」錯誤。
 
 大部分情況下，您會最常使用新的[隱私權 JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm)收集這些 Cookie ID，這會自動為 JSON ID 提供所有相關索引鍵值配對。
 
-除了上述項目（namespace、類型、值）外，此JavaScript程式碼還會填入JSON中其他金鑰／值配對，但上述欄位是Analytics資料隱私權處理的最重要欄位，也是您以其他方式收集ID時唯一需要提供的欄位。
+此 JavaScript 程式碼會使用除了上述 (命名空間、類型、值) 之外的其他索引鍵值配對填入 JSON，不過以上所列欄位是 Analytics 資料隱私權處理程序中最重要的欄位，也是您以其他方式收集 ID 時唯一需要提供的項目。
 
 ## 自訂訪客 ID
 
@@ -104,12 +102,12 @@ Refer to the [Experience Cloud Data Privacy API documentation](https://www.adobe
 }
 ```
 
-對於自訂流量或轉換變數 (屬性或 eVar) 中的 ID，請使用 ID-DEVICE 或 ID-PERSON 標籤標記變數，然後將您自己的命名空間名稱指派給該類型 ID。See [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](gdpr-labels.md)
+對於自訂流量或轉換變數 (屬性或 eVar) 中的 ID，請使用 ID-DEVICE 或 ID-PERSON 標籤標記變數，然後將您自己的命名空間名稱指派給該類型 ID。請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](gdpr-labels.md)。
 
 您也會看到並可重複使用先前為其他變數或報表套裝定義的命名空間，如此即可輕鬆讓儲存該類型 ID 的所有報表套裝都使用相同的命名空間。此外，您也可以指派相同的命名空間給報表套裝中的多個變數。例如，部分客戶會在流量變數和轉換變數中儲存 CRM ID (視頁面而定，有時會儲存在其中一個變數或兩者皆有)，並將「CRM ID」命名空間指派給這兩個變數。
 
-> [!TIP] 在為資料隱私API指定命名空間時，請避免使用變數的好記名稱（顯示在報告UI中的名稱）或變數的編號（例如eVar12），除非這是套用ID-DEVICE或ID-PERSON標籤時指定的命名空間。 使用命名空間而非簡單易記的名稱，這樣能促使同一個使用者身分識別區塊為多個報表套裝指定正確的變數。例如，若ID位於某些報表套裝中的不同eVar，或友好名稱不符（例如友好名稱已本地化為特定報表套裝時）。
+> [!TIP] 將命名空間指定給資料隱私權 API 時，除非該命名空間是在套用 ID-DEVICE 或 ID-PERSON 標籤時指定的命名空間，否則請避免使用簡單易記的變數名稱 (報表 UI 所顯示的名稱)，也不要使用變數的號碼 (如 eVar12)。使用命名空間而非簡單易記的名稱，這樣能促使同一個使用者身分識別區塊為多個報表套裝指定正確的變數。例如 ID 位於部分報表套裝的其他 eVar，或是易記名稱不符時 (像是特定報表套裝已本地化的易記名稱)。
 
 > [!CAUTION] 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
-For more information, see [Provide a Namespace when Labeling a Variable as ID-DEVICE or ID-PERSON.](/help/admin/c-data-governance/gdpr-labels.md)
+如需詳細資訊，請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](/help/admin/c-data-governance/gdpr-labels.md)。
