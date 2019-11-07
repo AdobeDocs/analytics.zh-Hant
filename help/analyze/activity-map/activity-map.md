@@ -6,7 +6,7 @@ solution: Analytics
 title: Activity Map 概觀
 topic: Activity Map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
 
 ---
@@ -20,7 +20,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 
 **管理員快速入門**
 
-* [啟用Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+* [啟用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [實作代碼範例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
 **使用者快速入門**
@@ -28,7 +28,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [安裝 Activity Map 瀏覽器外掛程式](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [啟動 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity map功能**
+**Activity Map 功能**
 
 * [強大的連結追蹤](lnk-tracking-overview.md)
 * [標準模式和即時模式的比較](activitymap-standard-live.md)
