@@ -6,7 +6,7 @@ solution: Analytics
 title: 頁面細節
 topic: Activity Map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -18,11 +18,11 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ![](assets/page_flow.png)
 
-## Page report {#section_2335A9EFE57B4A7687B397DF2098CC6B}
+## 頁面報表 {#section_2335A9EFE57B4A7687B397DF2098CC6B}
 
 此面板顯示與所造訪網頁相關的流量量度。如果您前往的網頁未實作 Analytics 頁面標記，則不會顯示此面板。
 
-## Page Flow report {#section_D6EDE78CF7124758BF846E57ADABA234}
+## 頁面流量報表 {#section_D6EDE78CF7124758BF846E57ADABA234}
 
 左側顯示先前頁面和反向連結 (外部)，或者可展開來顯示每個類別的前 4 個項目。
 
