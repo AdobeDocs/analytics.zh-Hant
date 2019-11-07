@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 標籤範例
 title: 標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
 
@@ -44,8 +42,8 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | user=Mary | false | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
 | user=Mary | true | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
 | user=Mary | true | 裝置 | 不存在 | 77、88 | 不存在 | N、P | U、W |
-| user=Mary AAID=66 | true | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
-| user=Mary AAID=66 | true | 裝置 | 不存在 | 66、77、88 | 不存在 | N、P | U、W、Z |
+| user=MaryAAID=66 | true | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=MaryAAID=66 | true | 裝置 | 不存在 | 66、77、88 | 不存在 | N、P | U、W、Z |
 | xyz=X | false | 裝置 | 不存在 | 55、77 | 不存在 | M、R | X |
 | xyz=X | true | 裝置 | 不存在 | 55、77 | 不存在 | M、P、R | W、X |
 
@@ -67,7 +65,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] 只有包含 AAID = 77 和 DEL-DEVICE 標籤的資料列儲存格會受到影響。
+> [!NOTE] 只有包含 AAID = 77 和 DEL-DEVICE 標籤的資料列儲存格會受到影響。
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -81,7 +79,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。此外，在實務中，包含A_ID的變數可能是prop或eVar，其取代值會是以"Privacy-"開頭的字串，後面接著隨機數字(GUID)，而不是以不同的隨機數值取代數值。
+> [!NOTE] 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。另外，包含 A_ID 的變數實際上可能會是 prop 或 eVar，所以它的取代值可能會是開頭為「Privacy-」再加上隨機號碼 (GUID) 的字串，而不是將數值取代為其他隨機數值。
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
