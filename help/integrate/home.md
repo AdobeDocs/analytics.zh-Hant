@@ -3,8 +3,8 @@ title: Analytics 整合說明
 seo-title: Analytics 整合說明
 description: 'null'
 seo-description: 'null'
-translation-type: ht
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+translation-type: tm+mt
+source-git-commit: 30b4afa20a85d1a6c3bb4839f8236ed37f98570d
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 # Analytics 整合指南
 
 ![橫幅](../../assets/doc_banner_integrate.png)
+
+本指南著重於整合多個Experience cloud解決方案。 如果您要尋找Analytics資料連接器，請參閱「匯入 [使用指南](/help/import/data-connectors/getting-started-data-connectors.md) 」中的「資料連接器」頁面。
 
 完成與 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 或 Target) 的整合設定。其功能包括:
 
@@ -32,7 +34,7 @@ source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
 
 ## 重要 Analytics 資源
 
-* [聯絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
-* [Analytics 論壇](https://forums.adobe.com/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
+* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
