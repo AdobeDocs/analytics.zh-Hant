@@ -1,42 +1,42 @@
 ---
-description: AppMeasurement 3.x for Android
-seo-description: 適用於Android的AppMeasurement 3.x舊版檔案
-seo-title: AppMeasurement 3.x for Android
+description: AppMeasurement 3.x for ios
+seo-description: AppMeasurement 3.x for ios的舊版檔案
+seo-title: AppMeasurement 3.x for ios
 solution: Analytics
 subtopic: 書籤
-title: AppMeasurement 3.x for Android
+title: AppMeasurement 3.x for ios
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 595efd52fe3b8edae32d8b3c2216ea066ec642be
+source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
 
 ---
 
 
-# AppMeasurement 3.x for Android
+# AppMeasurement 3.x for iOS
 
-*注意：本檔案包含舊版AppMeasurement的舊版資訊，尤其是Android 3.x版。
+*注意：本檔案包含舊版AppMeasurement的舊版資訊，尤其是iOS 3.x版的舊版資訊。
 如需目前AppMeasurement實作的詳細資訊，請參[閱關於Javascript適用的AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。*
 
-*上次更新日期：2018年3月15日AppMeasurement 3.x for Android*
+*上次更新日期： 2018年3月15日適用於iOS的AppMeasurement 3.x*
 
-Adobe appMeasurement for android可讓您在Adobe Experience cloud中測量原生Android應用程式。
+Adobe appMeasurement for iOS可讓您在Adobe Experience cloud中測量原生的Apple iPhone和iPad應用程式。
 
-本指南分為兩節：其中一節是針對具備Adobe Analytics經驗的分析師，另一節是針對具備行動應用程式開發經驗的Android開發人員。
+本指南分為兩節：其中一節是針對具備Adobe Analytics經驗的分析師，另一節則是針對具備行動應用程式開發經驗的OS開發人員。
 
-**支援的版本**:Android 2.0或更新版本。
+**支援的版本**:iOS 4.3或更新版本。
 
-**如需下載所有AppMeasurement**&#x200B;行動平台的「程式庫下載」指示和連結，請參閱Developer Connection上的「測量與最佳化行動應用程式」頁面。 您必須有免費的 Developer Connection 帳戶或 SiteCatalyst 登入，才能下載程式庫。直到您登入以後，下載連結才會出現。
+**如需下載所有AppMeasurement**&#x200B;行動平台的「程式庫下載」指示和連結，請參閱Developer Connection上的「測量與最佳化行動應用程式」頁面。 您必須有免費的 Developer Connection 帳戶或報表與分析登入，才能下載程式庫。直到您登入以後，下載連結才會出現。
 
 ## 分析師快速入門
 
-本節會逐步帶您實作 Android 程式庫和新增標準實作所需要的程式碼。內含的步驟將告訴您如何傳送自訂事件和其他資料。
+本節會逐步帶您實作 iOS 程式庫和新增標準實作所需要的程式碼。內含的步驟將告訴您如何傳送自訂事件和其他資料。
 
 身為分析師的您，必須為您的報表套裝啟用「行動應用報表」。如果您要擷取其他量度，則必須將應用程式所應傳送的上下文資料變數相關的說明提供給您的開發人員。例如，若要在登入後收集使用者名稱，可以讓開發人員在名為 `myco.username` 的上下文資料變數中設定使用者名稱。
 
-### 在 SiteCatalyst 中啟用行動應用報表
+### 在 Analytics 中啟用行動應用報表
 
-SiteCatalyst 提供用以啟用「行動應用生命週期追蹤」的介面。 此映射可以讓 SiteCatalyst 自動產生行動應用報表。
+Analytics 提供用以啟用「行動應用生命週期追蹤」的介面。此映射可以讓 Analytics 自動產生行動應用報表。
 
 1. 開啟「管理控制台 &gt; 報表套裝 &gt; 編輯設定 &gt; 行動管理 &gt; 行動應用報表」。
 1. 按一下「啟用行動應用程式生命週期追蹤」。
@@ -57,19 +57,17 @@ SiteCatalyst 提供用以啟用「行動應用生命週期追蹤」的介面。 
 
 啟用離線追蹤後，所有點擊都必須有時間戳記，否則不會加以收集。如果您目前回報 AppMeasurement 資料的報表套裝也可從 JavaScript 收集資料，則必須為行動資料設定個別的報表套裝，以免資料遺失，或使用 s.timestamp 變數在 JavaScript 點擊上加上自訂時間戳記。
 
-如果您不確定報表套裝是否啟用時間戳記，請連絡客戶服務。
+如果不確定您的報表套裝是否啟用時間戳記，請聯絡客戶服務。
 
 ## 開發人員快速入門
 
-本節將會逐步帶您進行選取和設定您將用來收集 Android 資料的 events、eVars 和 props。也包含建立處理規則，以便將 Android 程式庫所傳送的上下文資料複製到這些變數的步驟。
-
-實作Android程式庫和開始傳送測量資料的步驟如下：
+本節會逐步帶您實作iOS程式庫並開始傳送測量資料的步驟，包括：
 
 * 取得程式庫
 * 新增程式庫至您的專案
-* 新增應用程式權限
 * TrackingHelper 簡述
 * 實施
+
 
 ### 取得程式庫
 
