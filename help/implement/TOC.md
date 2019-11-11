@@ -4,7 +4,7 @@ audience: 終端使用者
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/zh-Hant/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
+source-git-commit: 3e449b1075ad04fc3f1a48aea28b5a46b9db3d6f
 
 ---
 
@@ -60,11 +60,11 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [建立資料層](prepare/data-layer.md)
    + [選擇實作方法](c-implementation-methods/choose-implementation-method.md)
-+ [開始使用 Analytics 實作](c-get-started-implementation/t-analytics-implementation-get-started.md)
++ [Analytics 實施快速入門](c-get-started-implementation/t-analytics-implementation-get-started.md)
 + 使用 Adobe Experience Platform Launch 實作 Analytics {#implement-with-launch}
    + [在 Experience Platform Launch 中建立 Analytics 屬性](implement-with-launch/create-analytics-property.md)
    + [將實作部署至開發環境](implement-with-launch/deploy-dev.md)
-   + [驗證開發實作並發佈至生產環境](implement-with-launch/validate-publish-prod.md)
+   + [驗證開發實施並發佈至生產環境](implement-with-launch/validate-publish-prod.md)
 + 使用 DTM 實作 Analytics {#implement-analytics-with-dtm}
    + [Dynamic Tag Management 實作概觀](c-implement-with-dtm/dtm-implementation-overview.md)
    + [建立 Web 屬性](c-implement-with-dtm/t-create-web-property.md)
@@ -82,7 +82,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [連結追蹤](c-implement-with-dtm/c-aa-tool/link-tracking.md)
       + [反向連結與促銷活動](c-implement-with-dtm/c-aa-tool/referrers-campaigns.md)
       + [Cookie](c-implement-with-dtm/c-aa-tool/cookies-analytics.md)
-      + [自訂頁面代碼](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
+      + [自訂頁面程式碼](c-implement-with-dtm/c-aa-tool/customize-page-code.md)
       + [Adobe Analytics 工具常見問題集](c-implement-with-dtm/c-aa-tool/dtm-faq.md)
    + [建立資料元素](c-implement-with-dtm/t-data-element.md)
    + [手動實作 Adobe Analytics (舊版)](c-implement-with-dtm/t-analytics-deploy.md)
@@ -115,7 +115,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
       + [行動通訊協定上的自訂連結測量](js-implementation/c-additional-libraries/mobile-link-tracking.md)
    + Analytics 實作及報表之變數 {#variables-analytics-reporting}
       + [變數概觀](js-implementation/c-variables/sc-variables.md)
-      + [組態變數清單](js-implementation/c-variables/configuration-variables.md)
+      + [設定變數清單](js-implementation/c-variables/configuration-variables.md)
       + 設定變數 {#config-var}
          + [s.account](js-implementation/c-variables/config-vars/s-account.md)
          + [s.dynamicAccountSelection](js-implementation/c-variables/config-vars/s-dynaccsel.md)
@@ -207,7 +207,7 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + 不重複訪客 {#unique-visitors}
       + [識別不重複訪客](js-implementation/c-unique-visitors/visid-overview.md)
       + [自訂訪客 ID](js-implementation/c-unique-visitors/visid-custom.md)
-      + [識別服務](js-implementation/c-unique-visitors/visid-service.md)
+      + [Identity 服務](js-implementation/c-unique-visitors/visid-service.md)
       + [Analytics 訪客 ID](js-implementation/c-unique-visitors/visid-analytics.md)
       + [備援 ID 方法](js-implementation/c-unique-visitors/visid-fallback.md)
       + [識別行動裝置](js-implementation/c-unique-visitors/visid-mobile.md)
@@ -264,3 +264,4 @@ source-git-commit: bb3ce7c230d618ba757e3206c6cd6869adb13414
    + [報表與變數的對應](impl-testing/report-variable-mapping.md)
    + [用以報表對應的變數](impl-testing/var-report-mapping.md)
 + [對數位助理實作 Analytics](c-analytics-digital-assistants/digital-assistants-white-paper.md)
++ [實作行動裝置分析](mobile-device-sdk.md)
