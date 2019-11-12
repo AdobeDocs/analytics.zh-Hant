@@ -1,10 +1,10 @@
 ---
 title: Analytics 管理說明
 seo-title: Analytics 產品比較
-description: 'null'
-seo-description: 'null'
+description: Adobe Analytics管理員的管理說明，包括管理控制台中的使用者和產品管理，以及設定報表套裝、變數、分類和資料收集。
+seo-description: Adobe Analytics管理員的管理說明，包括管理控制台中的使用者和產品管理，以及設定報表套裝、變數、分類和資料收集。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
 
 ---
 
@@ -12,6 +12,8 @@ source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
 # Analytics 管理指南
 
 ![橫幅](/assets/doc_banner_admin.png)
+
+本說明適用於Adobe Analytics的管理員。 其中包含「管理控制台」中有關使用者和產品管理的說明，以及設定報表套裝、變數、分類和資料收集。
 
 Adobe Analytics 目前有兩個管理員區域:
 
