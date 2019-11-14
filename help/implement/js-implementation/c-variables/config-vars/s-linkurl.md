@@ -1,20 +1,20 @@
 ---
 description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
-keywords: Analytics 實作
+keywords: Analytics Implementation
 seo-description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 2d8b6c453ba11fa14bec86f3ebaef9a47388cf2f
 
 ---
 
 
 # s-linkURL
 
-連結的 URL，當 linkName 不存在時將當做名稱使用。可設為任何 URL 字串。這是影像請求中的 `pev1` 參數。
+The URL of the link, which acts as the name if a `linkName` does not exist. 可設為任何 URL 字串。這是影像請求中的 `pev1` 參數。
 
-If set with `linkType`, an image request will be sent as a download, custom or exit link.
+If set with `linkType`, an image request will be sent as a download, custom, or exit link.
 
 **範例**
 
