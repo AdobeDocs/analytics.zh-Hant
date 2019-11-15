@@ -1,14 +1,12 @@
 ---
 description: 您可以使用瀏覽器匯入 (上傳) 分類資料。這種方法限制您的分類資料上傳只能上傳單一的報表套裝
-seo-description: 您可以使用瀏覽器匯入 (上傳) 分類資料。這種方法限制您的分類資料上傳只能上傳單一的報表套裝
-seo-title: 瀏覽器匯入
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 瀏覽器匯入
-topic: 管理工具
+topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
