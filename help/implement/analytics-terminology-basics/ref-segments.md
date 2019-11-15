@@ -1,14 +1,12 @@
 ---
 description: 區段是自訂資料子集，或由您建立之規則所篩選的資料。
-keywords: Analytics 實施;區段
-seo-description: 區段是自訂資料子集，或由您建立之規則所篩選的資料。
-seo-title: 區段
+keywords: Analytics Implementation;segment
 solution: Analytics
 title: 區段
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
