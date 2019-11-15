@@ -1,14 +1,12 @@
 ---
 description: 說明「定義使用者群組」頁面上的元素。
-seo-description: 說明「定義使用者群組」頁面上的元素。
-seo-title: 使用者群組設定
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 使用者群組設定
-topic: 管理工具
+topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
