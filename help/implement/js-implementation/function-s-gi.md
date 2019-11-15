@@ -1,14 +1,12 @@
 ---
 description: s_gi() 函數可用來建立或根據報表套裝 ID 尋找 AppMeasurement 例項。AppMeasurement 可在內部追蹤已建立的所有例項，而 s_gi() 會傳回報表套裝的現有例項 (若存在)。如果例項不存在，則會建立並傳回新的例項。
-keywords: Analytics 實作
-seo-description: s_gi() 函數可用來建立或根據報表套裝 ID 尋找 AppMeasurement 例項。AppMeasurement 可在內部追蹤已建立的所有例項，而 s_gi() 會傳回報表套裝的現有例項 (若存在)。如果例項不存在，則會建立並傳回新的例項。
-seo-title: s_gi() 函數
+keywords: Analytics Implementation
 solution: Analytics
 title: s_gi() 函數
-topic: 開發人員和實作
-uuid: a77de90e-c60e-4946-90cf-dead8aa3d755
+topic: Developer and implementation
+uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -17,7 +15,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 s_gi() 函數可用來建立或根據報表套裝 ID 尋找 AppMeasurement 例項。AppMeasurement 可在內部追蹤已建立的所有例項，而 s_gi() 會傳回報表套裝的現有例項 (若存在)。如果例項不存在，則會建立並傳回新的例項。
 
-We recommend calling `s_gi()` before setting variables and making tracking calls throughout your page code. 如此可在不小心覆寫 s 變數時，確保使用正確的物件來進行追蹤呼叫。
+建議您先在整個頁面程式碼中呼叫 `s_gi()`，然後再設定變數以及進行追蹤呼叫。如此可在不小心覆寫 s 變數時，確保使用正確的物件來進行追蹤呼叫。
 
 ## 使用多個報表套裝 {#section_F2F3B76E7AFD4B4B91CDC8BBEB34BBC5}
 
