@@ -1,14 +1,12 @@
 ---
 description: 路徑分析報表是可用於頁面的套裝功能，但您也可以對自訂流量變數啟用路徑分析。
-keywords: Analytics 實作
-seo-description: 路徑分析報表是可用於頁面的套裝功能，但您也可以對自訂流量變數啟用路徑分析。
-seo-title: 對 Prop 啟用路徑分析
+keywords: Analytics Implementation
 solution: Analytics
 title: 對 Prop 啟用路徑分析
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
