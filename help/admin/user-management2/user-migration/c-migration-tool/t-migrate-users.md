@@ -1,11 +1,9 @@
 ---
 description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admin Console。
-seo-description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admin Console。
-seo-title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
