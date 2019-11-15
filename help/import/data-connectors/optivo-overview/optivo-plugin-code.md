@@ -1,11 +1,9 @@
 ---
 description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
-seo-description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
-seo-title: Adobe Analytics外掛程式程式碼
 title: Adobe Analytics外掛程式程式碼
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
