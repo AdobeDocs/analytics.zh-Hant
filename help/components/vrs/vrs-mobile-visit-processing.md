@@ -1,11 +1,9 @@
 ---
 description: 虛擬報表套裝中的內容感知工作階段會變更Adobe Analytics計算行動造訪的方式。 本文針對行動造訪次數定義的方式，說明背景點擊數與應用程式啟動事件數 (兩者均由行動 SDK 設定) 的處理含意。
-seo-description: 虛擬報表套裝中的內容感知工作階段會變更Adobe Analytics計算行動造訪的方式。 本文針對行動造訪次數定義的方式，說明背景點擊數與應用程式啟動事件數 (兩者均由行動 SDK 設定) 的處理含意。
-seo-title: 內容感知作業
 title: 內容感知作業
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
