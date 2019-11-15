@@ -1,13 +1,11 @@
 ---
 description: 您可以提供 eVar、prop、分類和事件的自訂報表說明。說明會顯示給所有使用者。
-seo-description: 您可以提供 eVar、prop、分類和事件的自訂報表說明。說明會顯示給所有使用者。
-seo-title: 自訂報表說明
 solution: Analytics
 title: 自訂報表說明
-topic: 管理工具
+topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
