@@ -1,11 +1,9 @@
 ---
 description: 客戶屬性儲存在稱為 VisAttr 的新元素類型中，可以設定為維度或量度。
-seo-description: 客戶屬性儲存在稱為 VisAttr 的新元素類型中，可以設定為維度或量度。
-seo-title: 客戶屬性
 title: 客戶屬性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
