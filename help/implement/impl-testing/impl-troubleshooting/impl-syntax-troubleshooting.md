@@ -1,15 +1,13 @@
 ---
 description: 下表列出正確與錯誤程式碼之間的差異。
-keywords: Analytics 實作
-seo-description: 下表列出正確與錯誤程式碼之間的差異。
-seo-title: 常見語法錯誤
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: 常見語法錯誤
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 9845dcb9-9f10-4f65-a43d-2af41edaa122
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
