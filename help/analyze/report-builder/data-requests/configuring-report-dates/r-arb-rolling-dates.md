@@ -1,13 +1,11 @@
 ---
 description: Report Builder 中遞延日期的欄位定義。
-seo-description: Report Builder 中遞延日期的欄位定義。
-seo-title: 請求精靈定義 - 遞延日期
 solution: Analytics
 title: 請求精靈定義 - 遞延日期
-topic: Report Builder
+topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
