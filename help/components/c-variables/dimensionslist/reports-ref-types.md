@@ -1,13 +1,11 @@
 ---
 description: 透過追蹤並記錄每次瀏覽的訪客「反向連結網站」，您可以決定每次瀏覽的訪客如何得知您的網站。
-seo-description: 透過追蹤並記錄每次瀏覽的訪客「反向連結網站」，您可以決定每次瀏覽的訪客如何得知您的網站。
-seo-title: 反向連結類型
 solution: Analytics
 title: 反向連結類型
-topic: 報表
-uuid: 7f63d327-d223-4537-a722-4780ae05c2b
+topic: Reports
+uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
