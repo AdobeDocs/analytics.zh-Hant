@@ -1,14 +1,12 @@
 ---
 description: 如何將主報表套裝作為範本，以測試行銷管道設定。為節省時間，您可在大量更新中，將該範本套用至一個或多個生產報表套裝。您需為渠道和規則集分別執行該任務。
-seo-description: 如何將主報表套裝作為範本，以測試行銷管道設定。為節省時間，您可在大量更新中，將該範本套用至一個或多個生產報表套裝。您需為渠道和規則集分別執行該任務。
-seo-title: 套用範本報表套裝設定至多個報表套裝
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 套用範本報表套裝設定至多個報表套裝
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 212d16d7-fb0c-40c4-b8ff-a86c9a511a23
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
