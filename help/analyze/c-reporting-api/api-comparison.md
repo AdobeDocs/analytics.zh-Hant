@@ -1,12 +1,10 @@
 ---
 description: 分析報告 API 的比較表。提供支援文件的連結。
-seo-description: 分析報告 API 的比較表。提供支援文件的連結。
-seo-title: Analytics 報表 API 比較
 solution: Analytics
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
