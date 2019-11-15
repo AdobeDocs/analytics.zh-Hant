@@ -1,13 +1,11 @@
 ---
 description: 量度是採用標準、參與率、最近和線性配置方法來計算。每個方法依據公式不同，計算的值也不同。
-seo-description: 量度是採用標準、參與率、最近和線性配置方法來計算。每個方法依據公式不同，計算的值也不同。
-seo-title: 量度計算
 solution: Analytics
 title: 量度計算
-topic: 量度
+topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
