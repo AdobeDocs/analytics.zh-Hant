@@ -1,15 +1,13 @@
 ---
 description: Analytics 變數的長度可能會影響到 HTML 程式碼片段、JavaScript 程式庫檔案和影像要求的大小。
-keywords: Analytics 實作
-seo-description: Analytics 變數的長度可能會影響到 HTML 程式碼片段、JavaScript 程式庫檔案和影像要求的大小。
-seo-title: 變數長度
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: 變數長度
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 87deabb3-2acb-4797-9a65-769d9e2fbd62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
