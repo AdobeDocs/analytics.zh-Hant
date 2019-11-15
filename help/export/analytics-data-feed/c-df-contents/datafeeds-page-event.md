@@ -1,14 +1,12 @@
 ---
 description: 查閱表格以根據 page_event 值來判斷點擊的類型。
-keywords: 資料饋送；page;event;page_event;post_page_event
-seo-description: 查閱表格以根據 page_event 值來判斷點擊的類型。
-seo-title: 頁面事件查閱
+keywords: Data Feed;page;event;page_event;post_page_event
 solution: Analytics
 title: 頁面事件查閱
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
