@@ -1,15 +1,13 @@
 ---
 description: 自訂分析工具、報表套裝工具、量度和維度的群組權限。
-keywords: 組；權限
-seo-description: 自訂分析工具、報表套裝工具、量度和維度的群組權限。
-seo-title: 自訂報表存取 - 概觀
+keywords: groups;permissions
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 自訂報表存取 - 概觀
-topic: 管理工具
-uuid: 818a7196-8b43-4654-8d5f-800b3122ad3
+topic: Admin tools
+uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
