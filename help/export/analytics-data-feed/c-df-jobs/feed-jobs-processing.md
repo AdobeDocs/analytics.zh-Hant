@@ -1,13 +1,11 @@
 ---
 description: 使用「工作」索引標籤來檢視工作記錄及執行工作管理任務。
-keywords: 資料饋送；工作；設定
-seo-description: 使用「工作」索引標籤來檢視工作記錄及執行工作管理任務。
-seo-title: 資料摘要工作 - 概觀
+keywords: Data Feed;job;configure
 solution: Analytics
 title: 資料摘要工作 - 概觀
 uuid: 83ccaabb-9457-4e37-9d1e-f2ee281daba6
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
