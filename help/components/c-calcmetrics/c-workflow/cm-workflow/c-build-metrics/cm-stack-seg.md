@@ -1,16 +1,14 @@
 ---
 description: 說明如何在計算量度產生器中堆疊和取代區段。
-seo-description: 說明如何在計算量度產生器中堆疊和取代區段。
-seo-title: 堆疊並取代區段
-title: 堆疊並取代區段
-uuid: f6d4db9e-d982-4731-b342-7e49 dee02035
+title: 堆疊和取代區段
+uuid: f6d4db9e-d982-4731-b342-7e49dee02035
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 堆疊並取代區段
+# 堆疊和取代區段
 
 說明如何在計算量度產生器中堆疊和取代區段。
 
