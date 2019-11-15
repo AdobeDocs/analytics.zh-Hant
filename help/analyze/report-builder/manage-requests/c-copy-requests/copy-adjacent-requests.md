@@ -1,13 +1,11 @@
 ---
 description: 您可以選擇捷徑功能表中的「剪下請求」，將請求的位置重新設定為試算表的其他部分，如同複製及貼上請求一般。
-seo-description: 您可以選擇捷徑功能表中的「剪下請求」，將請求的位置重新設定為試算表的其他部分，如同複製及貼上請求一般。
-seo-title: 複製相鄰的請求
 solution: Analytics
 title: 複製相鄰的請求
-topic: Report Builder
+topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
