@@ -1,13 +1,11 @@
 ---
 description: 啟用行動管理會啟用行動解決方案變數，以便用於擷取行動應用程式的生命週期及其他量度。
-seo-description: 啟用行動管理會啟用行動解決方案變數，以便用於擷取行動應用程式的生命週期及其他量度。
-seo-title: 行動管理
 solution: Analytics
 title: 行動管理
-topic: 管理工具
+topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
