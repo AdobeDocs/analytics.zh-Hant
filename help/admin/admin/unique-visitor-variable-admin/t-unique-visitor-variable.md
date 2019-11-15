@@ -1,13 +1,11 @@
 ---
 description: 說明如何指定要以哪個 eVar 包含訪客識別碼的步驟。
-seo-description: 說明如何指定要以哪個 eVar 包含訪客識別碼的步驟。
-seo-title: 指定不重複訪客變數
 solution: Analytics
 title: 指定不重複訪客變數
-topic: 管理工具
+topic: Admin tools
 uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
