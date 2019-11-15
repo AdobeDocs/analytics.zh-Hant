@@ -1,14 +1,12 @@
 ---
 description: 內容階層的常見用法之一，是顯示訪客從特定頁面、層級等位置所採用的不同路徑。
-keywords: Analytics 實施;內容階層;heir
-seo-description: 內容階層的常見用法之一，是顯示訪客從特定頁面、層級等位置所採用的不同路徑。
-seo-title: 計算內容階層數
+keywords: Analytics Implementation;content hierachies;hier
 solution: Analytics
 title: 計算內容階層數
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
-translation-type: ht
-source-git-commit: 1bc1c7a1e00d7b59cd39f368ac9afb745bea9e47
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
