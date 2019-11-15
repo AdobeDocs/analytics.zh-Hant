@@ -1,13 +1,11 @@
 ---
 description: 條件決定觸發事件型規則的時機。
-keywords: Dynamic Tag Management;規則;建立規則;新規則;事件型規則;延遲連結啟動;直接將事件處理常式套用至元素;反昇;事件反昇
-seo-description: 條件決定觸發事件型規則的時機。
-seo-title: 建立事件型規則的條件
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;delay link activation;apply event handler directly to element;bubbling;event bubbling
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立事件型規則的條件
 uuid: a847391c-5aec-4d64-8a35-388587731598
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
