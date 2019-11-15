@@ -1,13 +1,11 @@
 ---
 description: 在 Analytics 報告中檢視和劃分 Adobe Target 流量資料。
-seo-description: 在 Analytics 報告中檢視和劃分 Adobe Target 流量資料。
-seo-title: Adobe Target
 solution: Analytics
 title: Adobe Target
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
