@@ -1,13 +1,11 @@
 ---
 description: 新增日曆事件和管理共用事件的步驟。
-seo-description: 新增日曆事件和管理共用事件的步驟。
-seo-title: 日曆事件
 solution: Analytics
 title: 日曆事件
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
