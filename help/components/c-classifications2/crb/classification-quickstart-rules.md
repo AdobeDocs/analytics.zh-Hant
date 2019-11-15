@@ -1,14 +1,12 @@
 ---
 description: 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
-seo-description: 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
-seo-title: 分類規則
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 分類規則
-topic: 管理工具
+topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -307,7 +305,7 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
-> 在此程式中，您必須將規則套用至一或多個報表套裝。 每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](/help/components/c-classifications2/c-sub-classifications.md)簡化您的規則集。
+>在此程式中，您必須將規則套用至一或多個報表套裝。 每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](/help/components/c-classifications2/c-sub-classifications.md)簡化您的規則集。
 
 1. [建立分類規則集](/help/components/c-classifications2/crb/classification-rule-set.md) 。
 1. On the rule set page, click **[!UICONTROL Add Rule]**.
@@ -319,7 +317,7 @@ t_classification_rule.xml
    接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]頁面。**
 
    >[!NOTE]
-   當符合下列條件時，報 *`only`* 表套裝會顯示在此頁面： &gt;
+   當符合下列條件時，報 *`only`* 表套裝會顯示在此頁面：       &gt;
 
    * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
    (請參閱 *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.)
