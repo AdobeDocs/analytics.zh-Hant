@@ -1,13 +1,11 @@
 ---
-description: 「上一區域流量」報表類似於「上一頁流量」報表。但顯示的是網站區域 (相關網頁的群組) 的資料。若一個頁面包含於多個網站區域，那麼報告顯示所有網站區域的資料。
-seo-description: 「上一區域流量」報表類似於「上一頁流量」報表。但顯示的是網站區域 (相關網頁的群組) 的資料。若一個頁面包含於多個網站區域，那麼報表顯示所有網站區域的資料。
-seo-title: 上一區域流量
+description: 「上一區域流量」報表類似於「上一頁流量」報表。但顯示的是網站區域 (相關網頁的群組) 的資料。若一個頁面包含於多個網站區域，那麼報表顯示所有網站區域的資料。
 solution: Analytics
 title: 上一區域流量
-topic: 報表
+topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
