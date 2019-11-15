@@ -1,12 +1,10 @@
 ---
 description: 可讓您利用過去在 Target Classic 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
-seo-description: 可讓您利用過去在 Target Classic 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
-seo-title: 目標提升度和可信度
 solution: Analytics
 title: 目標提升度和可信度
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
