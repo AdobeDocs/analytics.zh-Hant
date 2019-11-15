@@ -1,14 +1,12 @@
 ---
 description: 地域劃分資料會根據第一次的瀏覽點擊進行記錄，不會因為單一瀏覽而變更，無論使用何種裝置皆然。
-keywords: Analytics 實作
-seo-description: 地域劃分資料會根據第一次的瀏覽點擊進行記錄，不會因為單一瀏覽而變更，無論使用何種裝置皆然。
-seo-title: 地域劃分資料
+keywords: Analytics Implementation
 solution: Analytics
 title: 地域劃分資料
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 8449bf11-c367-4698-a73e-f6cb59f8c945
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
