@@ -1,13 +1,11 @@
 ---
 description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
-seo-description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
-seo-title: Report Builder 的疑難排解和最佳作法
 solution: Analytics
 title: Report Builder 的疑難排解和最佳作法
-topic: Report Builder
+topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
