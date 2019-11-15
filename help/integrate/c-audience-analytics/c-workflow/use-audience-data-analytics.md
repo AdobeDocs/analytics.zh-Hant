@@ -1,12 +1,10 @@
 ---
 description: '您可以在整個 Analytics 中使用 AAM「對象」維度。整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。在資料饋送中，觀眾ID會儲存在「mc_audiences」欄中。 這些維度目前在 Data Workbench 或 Livestream 中均不可用。可以利用 Audiences 維度的部分例子包括 '
-seo-description: '您可以在整個 Analytics 中使用 AAM「對象」維度。整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。在資料饋送中，觀眾ID會儲存在「mc_audiences」欄中。 這些維度目前在 Data Workbench 或 Livestream 中均不可用。可以利用 Audiences 維度的部分例子包括 '
-seo-title: 在 Analytics 中使用對象資料
 solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
