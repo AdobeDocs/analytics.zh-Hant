@@ -1,13 +1,11 @@
 ---
 description: 說明將篩選條件套用至流失報表的步驟。
-seo-description: 說明將篩選條件套用至流失報表的步驟。
-seo-title: 使用請求精靈篩選路徑流失報表
 solution: Analytics
 title: 使用請求精靈篩選路徑流失報表
-topic: Report Builder
+topic: Report builder
 uuid: 269e900e-23bd-48d8-9bac-69e3167a9c18
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
