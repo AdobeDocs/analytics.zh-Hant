@@ -1,13 +1,11 @@
 ---
 description: 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
-seo-description: 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
-seo-title: 尋找方法
 solution: Analytics
 title: 尋找方法
-topic: 管理工具
-uuid: 1053993e-7fc4-4874-84fa-367ecd7b45
+topic: Admin tools
+uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
