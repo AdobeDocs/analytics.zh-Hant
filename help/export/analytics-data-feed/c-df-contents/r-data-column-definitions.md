@@ -1,13 +1,11 @@
 ---
 description: 本區段可用來選取摘要中應包含哪些資料欄，以及在提交之前該如何處理和包裝摘要資料。
 keywords: Data Feed;data;column;definitions;select column templates;clickstream;available columns;included columns;compression format;packaging type;include data manifest;remove escaped characters;download csv
-seo-description: 本區段可用來選取摘要中應包含哪些資料欄，以及在提交之前該如何處理和包裝摘要資料。
-seo-title: 資料欄定義
 solution: Analytics
 title: 資料欄定義
 uuid: 43370933-5dd9-48f0-a1be-3d10d38a0edb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
