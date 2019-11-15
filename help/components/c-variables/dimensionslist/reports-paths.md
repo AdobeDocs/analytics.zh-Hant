@@ -1,13 +1,11 @@
 ---
-description: 顯示訪客存取您網站網頁之順序的相關資訊。您可以收集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
-seo-description: 顯示訪客存取您網站網頁之順序的相關資訊。您可以蒐集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
-seo-title: 路徑
+description: 顯示訪客存取您網站網頁之順序的相關資訊。您可以蒐集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
 solution: Analytics
 title: 路徑
-topic: 報表
+topic: Reports
 uuid: 1f6df932-76cd-490d-b883-d59277405178
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
