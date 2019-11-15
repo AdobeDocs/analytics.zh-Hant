@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 智慧提醒-使用個案
-title: 智慧提醒-使用個案
-uuid: 2aa8e00f-4885-4861-a47 f-40c df1 f8539
+title: 智慧型警報 - 使用案例
+uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 智慧提醒-使用個案
+# 智慧型警報 - 使用案例
 
 ## 建立依兩個區段篩選的簡單警報 {#section_2E96FFFA93D44F7D8DBCEC97203204AA}
 
