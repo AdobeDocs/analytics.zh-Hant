@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 分頁、篩選和排序表格
-title: 分頁、篩選和排序表格
-uuid: 53263cec-c378-459b-9689-6adaebeb66 e5 c9
+title: 分頁、篩選及分類表格
+uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: a0bdacb39d145b7f5299ac391b9591fe0b8e4e04
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 分頁、篩選和排序表格
+# 分頁、篩選及分類表格
 
 如需概覽，請在 YouTube 上觀賞此影片:
 
