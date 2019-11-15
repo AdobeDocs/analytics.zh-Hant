@@ -1,13 +1,11 @@
 ---
 description: 說明報告建立工具如何支援路徑和流失報表，以及實作與「報告與分析」有何不同。
-seo-description: 說明報告建立工具如何支援路徑和流失報表，以及實作與「報告與分析」有何不同。
-seo-title: Report Builder 中的路徑與路徑流失報表
 solution: Analytics
 title: Report Builder 中的路徑與路徑流失報表
-topic: Report Builder
+topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
