@@ -1,15 +1,13 @@
 ---
 description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
-keywords: 組；權限
-seo-description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
-seo-title: 自訂維度權限
+keywords: groups;permissions
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 自訂維度權限
-topic: 管理工具
+topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
