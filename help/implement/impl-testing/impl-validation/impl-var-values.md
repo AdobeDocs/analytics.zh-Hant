@@ -1,14 +1,12 @@
 ---
 description: 請確定從伺服器指令碼或程式碼填入的變數無法輸出任何會對值造成干擾的引號。
-keywords: Analytics 實作
-seo-description: 請確定從伺服器指令碼或程式碼填入的變數無法輸出任何會對值造成干擾的引號。
-seo-title: 變數和值
+keywords: Analytics Implementation
 solution: Analytics
 title: 變數和值
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 2ff4857a-9451-4794-9146-f417abd1d1ba
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
