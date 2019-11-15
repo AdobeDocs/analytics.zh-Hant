@@ -1,20 +1,18 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 管理工具
 title: 管理工具
-uuid: 6961e956-14ea-4367-bdbd-eb0 bcc456 aae
+uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
 translation-type: tm+mt
-source-git-commit: 8f3f11ada9bd12498dc40931cc987aa550b8d655
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 管理工具
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理員」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理員]**
 
->[!IMPORTANT] 請勿在相同瀏覽器中開啓多個管理員標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
+>[!IMPORTANT] 請勿在相同的瀏覽器中開啟多個管理標籤。 這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
 
 + [帳單](billing-admin.md)
 + [機器人規則概觀](bot-removal/bot-rules.md)
