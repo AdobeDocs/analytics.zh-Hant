@@ -1,13 +1,11 @@
 ---
 description: 說明如何使用預先定義的篩選條件建立路徑報表。
-seo-description: 說明如何使用預先定義的篩選條件建立路徑報表。
-seo-title: 新增相依請求以篩選路徑報表
 solution: Analytics
 title: 新增相依請求以篩選路徑報表
-topic: Report Builder
-uuid: dd1294f8-a26 b-4254-a9 f6-1365b2912 adf
+topic: Report builder
+uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -38,4 +36,4 @@ Report Builder does not offer these as standalone reports, but you can create th
 
 1. Select the predefined filter, for example **[!UICONTROL Previous Page]**.
 
-   「請求精靈」便會顯示，並已選取「上一頁」度量。1. 繼續在「請求精靈」中調整請求並產生請求。
+   「請求精靈」便會顯示，並已選取「上一頁」度量。1.繼續在「請求精靈」中調整您的請求，並產生您的請求。
