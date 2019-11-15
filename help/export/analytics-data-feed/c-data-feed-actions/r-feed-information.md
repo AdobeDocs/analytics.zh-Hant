@@ -1,13 +1,11 @@
 ---
 description: 「摘要資訊」區段可用來為摘要命名、指定執行摘要時依據的報表套裝、決定摘要循環，以及指定摘要的開始和結束時間。
-keywords: 資料饋送；資訊；名稱；報表套裝；完成時傳送；電子郵件；間隔；饋送；延遲處理；延遲；開始；結束；日期；連續饋送
-seo-description: 「摘要資訊」區段可用來為摘要命名、指定執行摘要時依據的報表套裝、決定摘要循環，以及指定摘要的開始和結束時間。
-seo-title: 摘要資訊
+keywords: Data Feed;information;name;report suite;email when complete;email;interval;feed;delay processing;delay;start;end;date;continuous feed
 solution: Analytics
 title: 摘要資訊
 uuid: adf92f42-a957-4de0-a5a1-683f2933af04
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
