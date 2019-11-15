@@ -1,14 +1,12 @@
 ---
 description: 未在報表中記錄及顯示路徑分析資訊的可能原因清單。
-keywords: Analytics 實作
-seo-description: 未在報表中記錄及顯示路徑分析資訊的可能原因清單。
-seo-title: 未記錄路徑分析的原因
+keywords: Analytics Implementation
 solution: Analytics
 title: 未記錄路徑分析的原因
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 9985b7f7-75ea-4c94-97a3-520f92630989
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
