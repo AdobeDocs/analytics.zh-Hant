@@ -1,14 +1,12 @@
 ---
 description: 如何執行行銷管道報表。
-seo-description: 如何執行行銷管道報表。
-seo-title: 執行行銷渠道報表
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 執行行銷渠道報表
-topic: Reports & Analytics
-uuid: 95a7aa1e-570b-4d63-a493-91c2337 bb715
+topic: Reports and analytics
+uuid: 95a7aa1e-570b-4d63-a493-91c2337bb715
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
