@@ -1,14 +1,12 @@
 ---
 description: 說明如何刪除或移除分類資料的步驟。
-seo-description: 說明如何刪除或移除分類資料的步驟。
-seo-title: 刪除分類資料
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 刪除分類資料
-topic: 管理工具
+topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
