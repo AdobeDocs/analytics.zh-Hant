@@ -1,11 +1,9 @@
 ---
 description: 瞭解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
-seo-description: 瞭解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
-seo-title: 設定現有報表
 title: 設定現有報表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
