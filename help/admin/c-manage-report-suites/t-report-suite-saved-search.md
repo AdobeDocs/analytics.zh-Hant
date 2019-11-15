@@ -1,13 +1,11 @@
 ---
 description: 說明如何定義一組準則，用以決定報表套裝搜尋成員的步驟。
-seo-description: 說明如何定義一組準則，用以決定報表套裝搜尋成員的步驟。
-seo-title: 儲存報表套裝搜尋
 solution: Analytics
 title: 儲存報表套裝搜尋
-topic: 管理工具
-uuid: dd83ester6-1374-429c-9fc3-7090598a44
+topic: Admin tools
+uuid: dd83eed6-1374-429c-9fc3-709055698a44
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
