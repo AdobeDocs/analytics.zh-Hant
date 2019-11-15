@@ -1,11 +1,9 @@
 ---
 description: 函數可讓您篩選/排序資料以及執行統計分析。
-seo-description: 函數可讓您篩選/排序資料以及執行統計分析。
-seo-title: 使用函數
 title: 使用函數
 uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
