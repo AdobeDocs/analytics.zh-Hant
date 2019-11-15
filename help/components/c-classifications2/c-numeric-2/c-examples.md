@@ -1,14 +1,12 @@
 ---
 description: 提供數值 2 分類匯入指引的範例。
-seo-description: 提供數值 2 分類匯入指引的範例。
-seo-title: 範例
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 範例
-topic: 管理工具
+topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
