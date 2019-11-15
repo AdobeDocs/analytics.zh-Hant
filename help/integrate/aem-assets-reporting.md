@@ -1,13 +1,11 @@
 ---
 description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
-seo-description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
-seo-title: AEM Assets 報表
 solution: Analytics
 title: AEM Assets 報表
-topic: 報表
+topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
