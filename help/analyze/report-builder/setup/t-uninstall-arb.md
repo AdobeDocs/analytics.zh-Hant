@@ -1,13 +1,11 @@
 ---
 description: 說明如何解除安裝 Adobe Report Builder 的步驟。
-seo-description: 說明如何解除安裝 Adobe Report Builder 的步驟。
-seo-title: 解除安裝 Report Builder
 solution: Analytics
 title: 解除安裝 Report Builder
-topic: Report Builder
-uuid: fish973-e246-4fcp-abc1-0aafddca0536
+topic: Report builder
+uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
