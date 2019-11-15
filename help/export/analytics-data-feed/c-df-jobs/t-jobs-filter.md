@@ -1,13 +1,11 @@
 ---
 description: 搜尋和篩選有助於找出清單中的工作。
-keywords: 資料饋送；工作；篩選；search
-seo-description: 搜尋和篩選有助於找出清單中的工作。
-seo-title: 篩選工作清單
+keywords: Data Feed;job;filter;search
 solution: Analytics
 title: 篩選工作清單
-uuid: 811990bb-b721-42c3-9262-2ec2 ba262087
+uuid: 811990bb-b721-42c3-9262-2ec2ba262087
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
 
 1. 按一下「篩選」圖示或暫留於圖示上方可檢視篩選選項。
 
-   ![工作篩選](assets/jobs-filter.jpg)
+   ![作業篩選](assets/jobs-filter.jpg)
 
    可用的篩選選項有數個:
 
