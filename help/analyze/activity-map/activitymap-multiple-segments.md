@@ -1,13 +1,11 @@
 ---
 description: 可讓您在 Activity Map 中套用多區段篩選。
-seo-description: 可讓您在 Activity Map 中套用多區段篩選。
-seo-title: 客戶分段
 solution: Analytics
 title: 客戶分段
-topic: Activity Map
+topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,9 +14,9 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 可讓您在 Activity Map 中套用多區段篩選。
 
-> [!NOTE] 「區段」控制項僅適用於「標準模式」，因為Adobe Analytics平台不支援分段即時資料。
+> [!NOTE] 由於 Adobe Analytics 平台不支援分段即時資料，因此「區段」控制項僅適用於標準模式。
 
-您可從下方顯示的「**[!UICONTROL 區段]」下拉式功能表中選取一個或數個區段。**&#x200B;列出的區段就是在所選取的報表套裝中，您所擁有或是透過「Reports &amp; Analytics」與您共用的區段。
+您可從下方顯示的「**[!UICONTROL 區段]**」下拉式功能表中選取一個或數個區段。列出的區段就是在所選取的報表套裝中，您所擁有或是透過「Reports &amp; Analytics」與您共用的區段。
 
 ![](assets/segments.png)
 
@@ -28,4 +26,4 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ![](assets/two_segments.png)
 
-選取的區段會套用至 Activity Map 中呈現的所有 Analytics 報表，也就是覆蓋圖以及「**[!UICONTROL 頁面上的連結]**」和「**頁面細節]」報表。[!UICONTROL **
+選取的區段會套用至 Activity Map 中呈現的所有 Analytics 報表，也就是覆蓋圖以及「**[!UICONTROL 頁面上的連結]**」和「**[!UICONTROL 頁面細節]**」報表。
