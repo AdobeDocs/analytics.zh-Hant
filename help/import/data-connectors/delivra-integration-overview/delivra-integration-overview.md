@@ -1,11 +1,9 @@
 ---
 description: 此Adobe® Data Connectors™電子郵件整合功能結合了Analytics®的行為資訊與Delivra電子郵件行銷，以建立功能強大的工具來重新定義成功評估，並運用更相關的訊息鎖定受眾。
-seo-description: 此Adobe® Data Connectors™電子郵件整合功能結合了Analytics®的行為資訊與Delivra電子郵件行銷，以建立功能強大的工具來重新定義成功評估，並運用更相關的訊息鎖定受眾。
-seo-title: Adobe Analytics的Delivra Data Connector
 title: Adobe Analytics的Delivra Data Connector
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
