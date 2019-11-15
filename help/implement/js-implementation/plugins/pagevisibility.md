@@ -1,14 +1,12 @@
 ---
 description: 記錄您的頁面在瀏覽器中是作用中標籤的秒數，並傳遞該值給下一個頁面檢視的量度。
-keywords: Analytics 實作
-seo-description: 記錄您的頁面在瀏覽器中是作用中標籤的秒數，並傳遞該值給下一個頁面檢視的量度。
-seo-title: getPageVisibility
+keywords: Analytics Implementation
 solution: Analytics
 title: getPageVisibility
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
