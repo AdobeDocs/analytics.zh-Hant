@@ -1,19 +1,17 @@
 ---
 description: 'null'
-keywords: Analytics 實施
-seo-description: 'null'
-seo-title: 銷售變數簡介
+keywords: Analytics Implementation
 solution: Analytics
-title: 銷售變數簡介
-topic: 開發人員和實施
-uuid: ccf516a-a7 ee-48ab-92aa-414228a4102 f
+title: 銷售變數概觀
+topic: Developer and implementation
+uuid: 2ccf516a-a7ee-48ab-92aa-414228a4102f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 銷售變數簡介
+# 銷售變數概觀
 
 測量外部促銷活動或外部搜尋詞的成功情形時，通常會想使用單一值來接收發生之任何成功事件的評分。例如，如果客戶按一下促銷活動電子郵件中的連結而前往您的網站，其隨後進行的所有購買都應評給該促銷活動。
 
