@@ -1,10 +1,8 @@
 ---
 description: 瞭解如何調整檢視密度。
-seo-description: 瞭解如何調整分析工作區表格中的檢視密度。
-seo-title: 分析工作區中的檢視密度設定
 title: 檢視密度
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
