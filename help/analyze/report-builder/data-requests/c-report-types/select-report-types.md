@@ -1,18 +1,16 @@
 ---
 description: 您可以選擇資料請求的基礎報表類型，如網站度量、網站內容及視訊。
-seo-description: 您可以選擇資料請求的基礎報表類型，如網站度量、網站內容及視訊。
-seo-title: 報表類型概述
 solution: Analytics
-title: 報表類型概述
-topic: Report Builder
-uuid: 63e656d-f22 e-4846-9e24-7ef3299 dde5 a
+title: 報表類型概觀
+topic: Report builder
+uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 報表類型概述
+# 報表類型概觀
 
 您可以選擇資料請求的基礎報表類型，如網站度量、網站內容及視訊。
 
