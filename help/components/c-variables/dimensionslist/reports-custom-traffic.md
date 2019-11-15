@@ -1,13 +1,11 @@
 ---
 description: 自訂流量報告可以讓每個組織報告預設並未實施的其他維度。自訂流量報告有許多種使用方式，最常見的是測量流量和路徑分析。
-seo-description: 自訂流量報告可以讓每個組織報告預設並未實施的其他維度。自訂流量報告有許多種使用方式，最常見的是測量流量和路徑分析。
-seo-title: 自訂流量
 solution: Analytics
 title: 自訂流量
-topic: 報表
+topic: Reports
 uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
