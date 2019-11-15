@@ -1,15 +1,13 @@
 ---
 description: s.t() 函數會將該頁面上所定義的所有變數編譯為影像要求，並將其傳送至我們的伺服器。
-keywords: 追蹤;Analytics 實施;頁面追蹤;追蹤頁面
-seo-description: s.t() 函數會將該頁面上所定義的所有變數編譯為影像要求，並將其傳送至我們的伺服器。
-seo-title: s.t() 函數 - 頁面追蹤
+keywords: track;Analytics Implementation;page tracking;track page
 solution: Analytics
-subtopic: 函數
+subtopic: Functions
 title: s.t() 函數 - 頁面追蹤
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 67696e46-1e0d-4200-bfad-4217d1023948
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
