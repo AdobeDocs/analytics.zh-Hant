@@ -1,11 +1,9 @@
 ---
 description: 在 Analysis Workspace 和「區段產生器」中可供使用。
-seo-description: 在 Analysis Workspace 和「區段產生器」中可供使用。
-seo-title: 具有 Experience Cloud ID 的訪客
 title: 具有 Experience Cloud ID 的訪客
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
