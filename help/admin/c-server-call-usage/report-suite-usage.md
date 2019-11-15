@@ -1,11 +1,9 @@
 ---
 description: 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
-seo-description: 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
-seo-title: 檢視報表套裝使用量
 title: 檢視報表套裝使用量
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
