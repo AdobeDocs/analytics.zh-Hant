@@ -1,10 +1,8 @@
 ---
 title: Adobe Analytics 的第一個管理指南
-seo-title: Adobe Analytics 的第一個管理指南
 description: 瞭解如何開始使用Adobe Analytics、一般角色類型和登入UI。
-seo-description: 瞭解如何開始使用Adobe Analytics、一般角色類型和登入UI。
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
