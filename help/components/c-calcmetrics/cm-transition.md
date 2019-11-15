@@ -1,11 +1,9 @@
 ---
 description: 以下 Analytics 中計算量度運作方式的變更可能會影響到您。
-seo-description: 以下 Analytics 中計算量度運作方式的變更可能會影響到您。
-seo-title: 常見問題集
 title: 常見問題集
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
