@@ -1,14 +1,12 @@
 ---
 description: Analytics 程式碼會建立影像物件，這是一種不會顯示在頁面上的不可見影像。
-keywords: Analytics 實作
-seo-description: Analytics 程式碼會建立影像物件，這是一種不會顯示在頁面上的不可見影像。
-seo-title: 將 Analytics 程式碼放入 head 標記中
+keywords: Analytics Implementation
 solution: Analytics
 title: 將 Analytics 程式碼放入 head 標記中
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: e8f91d3c-cb72-454d-9bd4-ff54d83d981f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
