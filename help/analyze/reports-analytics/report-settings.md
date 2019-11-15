@@ -1,13 +1,11 @@
 ---
 description: 定義所有報表的顯示方式以及將預設功能表選項置於簡化功能表位置的資訊的設定。
-seo-description: 定義所有報表的顯示方式以及將預設功能表選項置於簡化功能表位置的資訊的設定。
-seo-title: 報表顯示設定和導覽
 solution: Analytics
 title: 報表顯示設定和導覽
-topic: 報告,Reports & Analytics
+topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
