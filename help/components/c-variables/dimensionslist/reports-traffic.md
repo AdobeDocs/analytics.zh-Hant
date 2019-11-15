@@ -1,13 +1,11 @@
 ---
 description: 「流量」報表可讓您深入瞭解訪客與您網站的互動情形。
-seo-description: 「流量」報表可讓您深入瞭解訪客與您網站的互動情形。
-seo-title: 流量
 solution: Analytics
 title: 流量
-topic: 報表
+topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
