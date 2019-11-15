@@ -1,14 +1,12 @@
 ---
 description: Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和 eVar，可讓您的組織將標準預設報告所未提供的自訂維度資料報告至您的網站。
-keywords: Analytics 實施;Prop;eVar;Prop 與 eVar 的比較;命名規則;流量變數;持續性;成功是件;路徑
-seo-description: Experience Cloud 中有數種可用變數。最常見的兩種類型是 Prop 和 eVar，可讓您的組織將標準預設報告所未提供的自訂維度資料報告至您的網站。
-seo-title: 比較 Prop 和 eVar
+keywords: Analytics Implementation;prop;evar;props vs evars;naming convention;traffic variables;persistence;success event;pathing
 solution: Analytics
 title: 比較 Prop 和 eVar
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 0f02760f-ff69-481c-a817-799f02dafe8e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
