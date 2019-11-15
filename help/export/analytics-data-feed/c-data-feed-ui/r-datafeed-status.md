@@ -1,13 +1,11 @@
 ---
 description: 顯示的摘要可能會附帶幾種狀態標籤中的其中一種。
 keywords: Data Feed;status;active;approval pending;deleted;complete;pending;inactive
-seo-description: 顯示的摘要可能會附帶幾種狀態標籤中的其中一種。
-seo-title: 資料摘要狀態
 solution: Analytics
 title: 資料摘要狀態
 uuid: 07ec0d16-925c-481d-801c-869eb1568689
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
