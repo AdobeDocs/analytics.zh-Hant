@@ -1,14 +1,12 @@
 ---
 description: ' .js 檔案可經由設定而自動選取報告套裝 ID。'
-keywords: Analytics 實作
-seo-description: ' .js 檔案可經由設定而自動選取報告套裝 ID。'
-seo-title: 報表套裝 ID - 動態帳戶
+keywords: Analytics Implementation
 solution: Analytics
 title: 報表套裝 ID - 動態帳戶
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 763a9741-309d-4795-8819-6543866047d5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
