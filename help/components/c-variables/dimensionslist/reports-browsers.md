@@ -1,13 +1,11 @@
 ---
 description: 列出由使用者代理字串所識別，用於造訪您網站的瀏覽器版本。
-seo-description: 列出由使用者代理字串所識別，用於造訪您網站的瀏覽器版本。
-seo-title: 瀏覽器
 solution: Analytics
 title: 瀏覽器
-topic: 報表
-uuid: b8c386dd-1ae2-48c3-90bd-dce9 f5698 d3 f
+topic: Reports
+uuid: b8c386dd-1ae2-48c3-90bd-dce9f5698d3f
 translation-type: tm+mt
-source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -24,8 +22,8 @@ source-git-commit: fb27d500a725a540e632952295aa2ea3a3a21fb6
 * Mozilla Firefox 66
 * Safari 12
 * Safari 11
-* Opera60
-* Microsoft Edge17
+* Opera 60
+* Microsoft Edge 17
 * Internet Explorer 11
 
 瀏覽器報表可能包含未知版本的瀏覽器。
