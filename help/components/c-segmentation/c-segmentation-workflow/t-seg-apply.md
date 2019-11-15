@@ -1,18 +1,16 @@
 ---
 description: 如何從區段邊欄套用一或多個區段至報表。
-seo-description: 如何從區段邊欄套用一或多個區段至報表。
-seo-title: 選取並套用區段
 solution: Analytics
-title: 選取並套用區段
-topic: 區段
+title: 選擇與套用區段
+topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 選取並套用區段
+# 選擇與套用區段
 
 如何從區段邊欄套用一或多個區段至報表。
 
@@ -25,11 +23,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
    >[!NOTE]
    >
-   >您可以將多個區段套用至報表(這稱為區段堆疊)。套用多個區段時，會先以 'and' 運算子結合每個區段中的準則，然後再進行套用。可以堆疊的區段數目沒有限制。
+   >您可以套用多個區段至報表（這稱為區段堆疊）。 套用多個區段時，會先以 'and' 運算子結合每個區段中的準則，然後再進行套用。可以堆疊的區段數目沒有限制。
 
    >[!NOTE]
    >
-   >按一下區段名稱旁的「資訊」圖示(i)可讓您預覽關鍵量度，以查看您是否有有效的區段以及區段範圍。
+   >按一下區段名稱旁的資訊圖示(i)可讓您預覽關鍵量度，以查看您是否有效的區段以及區段的範圍。
 
 1. You can filter by report suite by selecting the **[!UICONTROL (Only)`<report suite name>`]** check box. 如此將只會顯示上次在該報表套裝中儲存的區段。
 1. Click **[!UICONTROL Apply Segment]** and the report will refresh. 套用的一或多個區段現在會顯示在報表頂端:
