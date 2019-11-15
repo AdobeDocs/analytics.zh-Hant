@@ -1,13 +1,11 @@
 ---
 description: 說明如何啟用和實施銷售變數。
-keywords: Analytics實施；merchandising;variable;product語法；轉換變數語法；s.products
-seo-description: 說明如何啟用和實施銷售變數。
-seo-title: 實作銷售變數
+keywords: Analytics Implementation;merchandising;variable;product syntax;Conversion Variable Syntax;s.products
 solution: Analytics
 title: 實作銷售變數
-topic: 開發人員和實作
+topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: f3c3a3c74434586f2bd8bcf3c23f488994129394
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
