@@ -1,13 +1,11 @@
 ---
 description: 該量度指的是瀏覽器視窗內資料的水平/垂直距離。如需更具體資訊，請參閱瀏覽器
-seo-description: 該量度指的是瀏覽器視窗內資料的水平/垂直距離。如需更具體資訊，請參閱瀏覽器
-seo-title: 瀏覽器寬度/高度
 solution: Analytics
 title: 瀏覽器寬度/高度
-topic: 量度
+topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
