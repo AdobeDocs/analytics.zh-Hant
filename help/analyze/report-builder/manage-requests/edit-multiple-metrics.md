@@ -1,11 +1,9 @@
 ---
 description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
-seo-description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
-seo-title: 編輯多個請求的量度
 title: 編輯多個請求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
