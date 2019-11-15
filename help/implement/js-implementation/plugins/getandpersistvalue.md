@@ -1,15 +1,13 @@
 ---
 description: getAndPersistValue 外掛程式可依照您的選擇在指定時段內取得值，並將其填入 Analytics 變數中。一個常見作用就是檢視促銷活動被點進後所產生的頁面檢視次數，這可讓您輕易地看出每個促銷活動的最頻繁頁面。
-keywords: Analytics 實作
-seo-description: getAndPersistValue 外掛程式可依照您的選擇在指定時段內取得值，並將其填入 Analytics 變數中。一個常見作用就是檢視促銷活動被點進後所產生的頁面檢視次數，這可讓您輕易地看出每個促銷活動的最頻繁頁面。
-seo-title: getAndPersistValue
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: getAndPersistValue
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: ddeab80c-260e-44b6-8483-8b8b369ec19b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
