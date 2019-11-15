@@ -1,13 +1,11 @@
 ---
-description: 顯示您的線上媒體存取統計資料。報告會顯示影片及其他媒體存取的相關資料。
-seo-description: 顯示您的線上媒體存取統計資料。報表會顯示視訊及其他媒體存取的相關資料。
-seo-title: 影片
+description: 顯示您的線上媒體存取統計資料。報表會顯示視訊及其他媒體存取的相關資料。
 solution: Analytics
 title: 影片
-topic: 報表
+topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
