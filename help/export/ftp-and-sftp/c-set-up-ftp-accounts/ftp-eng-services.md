@@ -1,13 +1,11 @@
 ---
 description: 許多 Adobe 工程技術服務參與牽涉到資料交換，這通常需要用到 FTP。
 keywords: ftp;sftp
-seo-description: 許多 Adobe 工程技術服務參與牽涉到資料交換，這通常需要用到 FTP。
-seo-title: 工程技術服務參與 FTP
 solution: Analytics
 title: 工程技術服務參與 FTP
 uuid: 38d1fc13-b709-4661-805b-7efa82b57a47
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
