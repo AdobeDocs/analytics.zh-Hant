@@ -1,13 +1,11 @@
 ---
 description: 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。
-seo-description: 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。
-seo-title: 管理流量
 solution: Analytics
 title: 管理流量
-topic: 管理工具
+topic: Admin tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
