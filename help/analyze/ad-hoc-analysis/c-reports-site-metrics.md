@@ -1,13 +1,11 @@
 ---
 description: 顯示您網站的相關數量資訊，如特定網頁的訪客瀏覽次數、特定網頁中的購買總次數、訪客的來歷，以及類似量化資料。每一個這纇報表都是一個度量，您可放置於其他項目型報表中。
-seo-description: 顯示您網站的相關數量資訊，如特定網頁的訪客瀏覽次數、特定網頁中的購買總次數、訪客的來歷，以及類似量化資料。每一個這纇報表都是一個度量，您可放置於其他項目型報表中。
-seo-title: 網站度量報表
 solution: Analytics
 title: 網站度量報表
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
