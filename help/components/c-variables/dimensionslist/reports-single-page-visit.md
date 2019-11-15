@@ -1,13 +1,11 @@
 ---
 description: 「單頁存取次數」報表不應與 Ad Hoc Analysis 中的「單頁存取次數」量度混淆；前者會顯示您的網站訪客在進入後隨即退出，而未檢視任何其他頁面的頁面。
-seo-description: 「單頁存取次數」報表不應與 Ad Hoc Analysis 中的「單頁存取次數」量度混淆；前者會顯示您的網站訪客在進入後隨即退出，而未檢視任何其他頁面的頁面。
-seo-title: 單頁存取次數
 solution: Analytics
 title: 單頁存取次數
-topic: 報表
+topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
