@@ -1,12 +1,10 @@
 ---
 description: 您必須符合這些 Experience Cloud 解決方案、服務及程式碼需求，才能實作伺服器端轉送。這些需求包括如何檢查程式碼版本和取得最新程式碼庫的指示。
-seo-description: 您必須符合這些 Experience Cloud 解決方案、服務及程式碼需求，才能實作伺服器端轉送。這些需求包括如何檢查程式碼版本和取得最新程式碼庫的指示。
-seo-title: 伺服器端轉送需求
 solution: Audience Manager
 title: 伺服器端轉送需求
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
