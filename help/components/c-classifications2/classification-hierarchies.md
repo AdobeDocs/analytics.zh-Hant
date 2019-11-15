@@ -1,14 +1,12 @@
 ---
 description: 「分類階層」頁面可讓您定義分類階層，以便用來建立具有相同名稱的階層報告。
-seo-description: 「分類階層」頁面可讓您定義分類階層，以便用來建立具有相同名稱的階層報告。
-seo-title: 分類階層
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 分類階層
-topic: 管理工具
-uuid: 1b2b73af-84ea-4b90-b4a5-ba7523547fb
+topic: Admin tools
+uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
