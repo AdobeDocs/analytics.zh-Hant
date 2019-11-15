@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報表。
-keywords: 分段；分段
-seo-description: Adobe Analytics 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報表。
-seo-title: Analytics 區段
+keywords: segmentation;segments
 solution: Analytics
 title: Analytics 區段
-topic: 區段
-uuid: 845c1743-1264-4090-bcc-78830477f52e
+topic: Segments
+uuid: 845c1743-1264-4090-bccc-78830477f52e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
