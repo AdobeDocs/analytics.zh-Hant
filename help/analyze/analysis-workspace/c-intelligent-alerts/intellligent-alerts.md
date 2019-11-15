@@ -1,11 +1,9 @@
 ---
-description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
-seo-description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
-seo-title: 智慧型警報概觀
+description: 新的智慧型警報系統可提供更細緻的警報控制能力，並整合警報系統的異常偵測功能。
 title: 智慧型警報概觀
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
