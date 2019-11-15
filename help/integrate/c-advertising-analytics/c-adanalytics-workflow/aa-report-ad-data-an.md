@@ -1,11 +1,9 @@
 ---
 description: Analysis Workspace 範本的詳細資料，以及在 Reports & Analytics 和 Report Builder 的報告功能。
-seo-description: Analysis Workspace 範本的詳細資料，以及在 Reports & Analytics 和 Report Builder 的報告功能。
-seo-title: 報告 Adobe Analytics 的 Advertising 資料
 title: 報告 Adobe Analytics 的 Advertising 資料
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和
 
 >[!NOTE]
 >
-> 即使您尚未實作任何廣告帳戶，所有客戶都可看到廣告範本類別。 然而，如果嘗試開啟尚未針對特定公司佈建的「搜尋引擎」範本，系統便會顯示錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。在此情況下，按一下&#x200B;**[!UICONTROL 「立即設定」]**&#x200B;即可前往[「Advertising 帳戶設定」](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)畫面。
+>即使您尚未實作任何廣告帳戶，所有客戶都可看到廣告範本類別。 然而，如果嘗試開啟尚未針對特定公司佈建的「搜尋引擎」範本，系統便會顯示錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。在此情況下，按一下&#x200B;**[!UICONTROL 「立即設定」]**&#x200B;即可前往[「Advertising 帳戶設定」](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)畫面。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
