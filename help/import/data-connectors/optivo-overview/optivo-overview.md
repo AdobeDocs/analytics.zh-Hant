@@ -1,11 +1,9 @@
 ---
 description: 此整合結合了電子郵件行銷軟體整合式意見回應系統的強大功能與Adobe Analytics的行為報告功能，為您的組織建立強大的分析與最佳化機會。
-seo-description: 此整合結合了電子郵件行銷軟體整合式意見回應系統的強大功能與Adobe Analytics的行為報告功能，為您的組織建立強大的分析與最佳化機會。
-seo-title: Adobe Analytics的Optivo® broadmail Data Connector
 title: Adobe Analytics的Optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
