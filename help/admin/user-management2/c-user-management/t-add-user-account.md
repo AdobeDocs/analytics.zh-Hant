@@ -1,14 +1,12 @@
 ---
 description: 說明如何新增使用者帳戶的步驟。
-seo-description: 說明如何新增使用者帳戶的步驟。
-seo-title: 新增使用者帳戶
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 新增使用者帳戶
-topic: 管理工具
+topic: Admin tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
