@@ -1,13 +1,11 @@
 ---
 description: 評量不同的廣告追蹤程式碼對您網站上不同的轉換事件有何影響。此報告可用來評量哪些特定促銷活動可讓不同的成功事件產生較佳的績效，或用來檢視促銷活動為何有助於或有礙於網站計劃的推動；例如哪些促銷活動可產生最多收益。
-seo-description: 評量不同的廣告追蹤程式碼對您網站上不同的轉換事件有何影響。此報告可用來評量哪些特定促銷活動可讓不同的成功事件產生較佳的績效，或用來檢視促銷活動為何有助於或有礙於網站計劃的推動；例如哪些促銷活動可產生最多收益。
-seo-title: 追蹤程式碼
 solution: Analytics
 title: 追蹤程式碼
-topic: 報表
+topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
