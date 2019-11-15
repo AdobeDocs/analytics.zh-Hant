@@ -1,13 +1,11 @@
 ---
 description: 以路徑分析為基礎的報告群組。技術上而言，路徑表示從一個頁面名稱移至另一個 (從一個值移至另一個) 的過程。
-seo-description: 以路徑分析為基礎的報告群組。技術上而言，路徑表示從一個頁面名稱移至另一個 (從一個值移至另一個) 的過程。
-seo-title: 路徑分析
 solution: Analytics
 title: 路徑分析
-topic: 報表
+topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
