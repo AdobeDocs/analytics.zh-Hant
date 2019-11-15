@@ -1,15 +1,13 @@
 ---
 description: 下表包含您在移轉實施時所需執行的工作清單。
-keywords: Analytics 實施;AppMeasurement;移轉;移轉;JavaScript
-seo-description: 下表包含您在移轉實施時所需執行的工作清單。
-seo-title: 移轉至 JavaScript 適用的 AppMeasurement
+keywords: Analytics Implementation;appmeasurement;migrate;migrating;javascript
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 移轉至 JavaScript 適用的 AppMeasurement
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 5be345a8-5a95-4176-a2e6-97139b9b46ce
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
