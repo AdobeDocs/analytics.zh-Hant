@@ -1,10 +1,8 @@
 ---
 title: Analytics 管理說明
-seo-title: Analytics 產品比較
 description: Adobe Analytics管理員的管理說明，包括管理控制台中的使用者和產品管理，以及設定報表套裝、變數、分類和資料收集。
-seo-description: Adobe Analytics管理員的管理說明，包括管理控制台中的使用者和產品管理，以及設定報表套裝、變數、分類和資料收集。
 translation-type: tm+mt
-source-git-commit: d868c0fe8406b096ca97081ad4dbb7d34a23212b
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
