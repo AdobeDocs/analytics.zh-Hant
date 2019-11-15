@@ -1,13 +1,11 @@
 ---
 description: 您可以鎖定活頁簿，保護活頁簿中的所有請求，不讓他人新增及編輯。這樣可暫停所有報表請求，啟用活頁簿的離線編輯功能，進行更有效率的編輯。
-seo-description: 您可以鎖定活頁簿，保護活頁簿中的所有請求，不讓他人新增及編輯。這樣可暫停所有報表請求，啟用活頁簿的離線編輯功能，進行更有效率的編輯。
-seo-title: 鎖定/解除鎖定活頁簿
 solution: Analytics
 title: 鎖定/解除鎖定活頁簿
-topic: Report Builder
+topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
