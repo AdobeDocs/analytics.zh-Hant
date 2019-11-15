@@ -1,12 +1,10 @@
 ---
 description: 本主題提供每個 Adobe Analytics 使用者介面之系統要求的詳細資料。
-seo-description: 本主題提供每個 Adobe Analytics 使用者介面之系統要求的詳細資料。
-seo-title: 系統要求
 solution: Analytics
 title: 系統要求
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 0dbc8ac9b416ce50f197a884bb71c6cd389cd0bb
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
