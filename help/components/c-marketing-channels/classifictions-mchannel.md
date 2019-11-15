@@ -1,14 +1,12 @@
 ---
 description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
-seo-description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
-seo-title: 行銷渠道中的分類
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 行銷渠道中的分類
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
