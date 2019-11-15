@@ -1,19 +1,17 @@
 ---
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 keywords: Analysis Workspace
-seo-description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
-seo-title: 分析工作區可用的快速鍵
 solution: Analytics
-title: 分析工作區可用的快速鍵
-topic: Reports & Analytics
-uuid: ee93ce3-acab-44f8-abdc-9a68 ced35 d32
+title: Analysis Workspace 中可用的快速鍵
+topic: Reports and analytics
+uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 分析工作區可用的快速鍵
+# Analysis Workspace 中可用的快速鍵
 
 Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 
