@@ -1,14 +1,12 @@
 ---
 description: 計劃實施虛擬報表套裝所需步驟的概觀。
-keywords: 虛擬報表套裝
-seo-description: 計劃實施虛擬報表套裝所需步驟的概觀。
-seo-title: 虛擬報表套裝工作流程
+keywords: Virtual Report Suite
 solution: Analytics
 title: 虛擬報表套裝工作流程
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
