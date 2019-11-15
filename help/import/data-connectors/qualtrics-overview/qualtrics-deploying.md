@@ -1,14 +1,12 @@
 ---
 description: 部署此整合是一個簡單的程式，需要執行下列動作。
-seo-description: 部署此整合是一個簡單的程式，需要執行下列動作。
-seo-title: 部署整合
 solution: Analytics
 subtopic: Qualtrics
 title: 部署整合
 topic: Data connectors
-uuid: 9bdc233d-63f6-456d-8c26-b5736dfef09
+uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,7 +40,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    |---|---|
    | 事件 | 選取最多5個要公開的自訂事件以匯出至Qualtrics |
    | Prop | 選取最多5個要公開以匯出至Qualtrics的Prop |
-   |  存取要求 | 勾選您要匯出至Qualtrics之任何標準量度和維度的方塊。 必 `visitor_id` 須允許導出正常運行。 |
+   | 存取要求 | 勾選您要匯出至Qualtrics之任何標準量度和維度的方塊。 必 `visitor_id` 須允許導出正常運行。 |
 
 1. **精靈步驟5**:檢閱設定，然後按一下「 **[!UICONTROL 立即啟動]**」。
 
