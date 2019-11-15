@@ -1,15 +1,13 @@
 ---
 description: 將 JavaScript 程式庫檔案的呼叫放置於頁面頂端，可確保影像會是最先下載的元素之一。
-keywords: Analytics 實作
-seo-description: 將 JavaScript 程式庫檔案的呼叫放置於頁面頂端，可確保影像會是最先下載的元素之一。
-seo-title: JavaScript 檔案的位置和並行性
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: JavaScript 檔案的位置和並行性
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: ed5118a8-b142-4fab-8aa1-92d931cc1439
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
