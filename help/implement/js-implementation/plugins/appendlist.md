@@ -1,15 +1,13 @@
 ---
 description: Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透過區分大小寫或不區分大小寫檢查的選項確認該數值不在清單中。Apl 外掛程式被多個標準外掛程式所參照，但也能直接應用於多種情況。
-keywords: Analytics 實作
-seo-description: Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透過區分大小寫或不區分大小寫檢查的選項確認該數值不在清單中。Apl 外掛程式被多個標準外掛程式所參照，但也能直接應用於多種情況。
-seo-title: appendList
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: appendList
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
