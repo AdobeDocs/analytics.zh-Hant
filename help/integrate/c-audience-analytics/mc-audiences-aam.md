@@ -1,12 +1,10 @@
 ---
 description: Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與第三方資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
-seo-description: Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與第三方資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
-seo-title: Audience Analytics 概觀
 solution: Experience Cloud
 title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
