@@ -1,14 +1,12 @@
 ---
 description: 自訂流量變數 (也稱為 prop (s.prop) 或屬性變數) 是一種計數器，會計算每個值傳入 Analytics 中的次數。
-keywords: Analytics 實施;流量 Prop;Prop;轉換;eVar;s.prop;自訂轉換分析;流量變數
-seo-description: 自訂流量變數 (也稱為 prop (s.prop) 或屬性變數) 是一種計數器，會計算每個值傳入 Analytics 中的次數。
-seo-title: Prop 和 eVar 概觀
+keywords: Analytics Implementation;Traffic prop;prop;conversion;evar;s.prop;custom conversion insight;traffic variable
 solution: Analytics
 title: Prop 和 eVar 概觀
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 522cab2b-1ef8-4f10-b216-c82b21431487
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
