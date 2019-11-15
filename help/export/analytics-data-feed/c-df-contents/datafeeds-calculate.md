@@ -1,14 +1,12 @@
 ---
 description: 說明如何使用資料摘要來計算通用量度。
-keywords: 資料饋送；job;metrics;pre column;post column;bots；日期篩選；事件字串；common；公式
-seo-description: 說明如何使用資料摘要來計算通用量度。
-seo-title: 計算量度
+keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
 solution: Analytics
 title: 計算量度
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
