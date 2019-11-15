@@ -1,13 +1,11 @@
 ---
 description: 列出在刪除區段之前，您應注意的一些事項。
-seo-description: 列出在刪除區段之前，您應注意的一些事項。
-seo-title: 刪除區段
 solution: Analytics
 title: 刪除區段
-topic: 區段
+topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
