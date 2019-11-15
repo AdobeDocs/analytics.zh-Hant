@@ -1,15 +1,13 @@
 ---
 description: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。
-keywords: 組；權限
-seo-description: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。
-seo-title: 自訂 Analytics 工具權限
+keywords: groups;permissions
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 自訂 Analytics 工具權限
-topic: 管理工具
+topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
