@@ -1,20 +1,18 @@
 ---
-description: 說明若想啟用 Activity Map 連結收集和使用者下載， Analytics 管理員需要完成的步驟。
-seo-description: 說明若想啟用 Activity Map 連結收集和使用者下載， Analytics 管理員需要完成的步驟。
-seo-title: 啟用Activity Map
+description: 說明若想啟用 Activity Map 連結收集和使用者下載，Analytics 管理員需要完成的步驟。
 solution: Analytics
-title: 啟用Activity Map
-topic: Activity Map
-uuid: 3043319-d0e6-4977-951a-4492b356e1f2
+title: 啟用 Activity Map
+topic: Activity map
+uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 啟用Activity Map{#enable-activity-map}
+# 啟用 Activity Map{#enable-activity-map}
 
-說明若想啟用 Activity Map 連結收集和使用者下載， Analytics 管理員需要完成的步驟。
+說明若想啟用 Activity Map 連結收集和使用者下載，Analytics 管理員需要完成的步驟。
 
 ## 步驟 1.將 AppMeasurement (Javascript) 代碼更新至 v1.6 (或更高版本) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
@@ -22,7 +20,7 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 除非更新到 AppMeasurement 的這個版本 (或更高版本)，否則無法收集 Activity Map 資料。
 
-1. Download the latest AppMeasurement code (AppMeasurement_Javascript-1.6.zip) by going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Code Manager]** and [implement it](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
+1. 請前往「**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 代碼管理器]**」下載最新的 AppMeasurement 代碼，然後[實作代碼](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)。
 
    我們隨附一些[實作代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
 
@@ -35,27 +33,27 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. Break this report down by **[!UICONTROL Activity Map Link by Region]** to see the link/region for that page:  ![](assets/am_breakdown.png){width="400px"}
+1. 依照「**[!UICONTROL 各地區的 Activity Map 連結]**」劃分此報表，查看該頁面的連結/地區:  ![](assets/am_breakdown.png){width="400px"}
 
-## 步驟 2.Enable Activity Map reports {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## 步驟 2.啟用 Activity Map 報表 {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
 首先，您必須在報表套裝層級啟用 Activity Map 報表。
 
-1. Log in to Adobe Analytics and navigate to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Report Suites &gt;[select report suite]&gt; Edit Settings &gt; Activity Map]** &gt; **[!UICONTROL Activity Map Reporting]** .
-1. Activity Map 會將連結資料收集至 Activity Map 報表中。For the activation to happen, you must first activate the variables by clicking **[!UICONTROL Enable Activity Map Reports]**.
+1. 登入 Adobe Analytics 並導覽至「**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員 &gt; 報表套裝 &gt;[選取報表套裝]&gt; 編輯設定 &gt; Activity Map]** &gt; **[!UICONTROL Activity Map 報表]**」。
+1. Activity Map 會將連結資料收集至 Activity Map 報表中。您必須先按一下「**[!UICONTROL 啟用 Activity Map 報表]**」啟動變數，才能真正啟動。
 
    此步驟會新增收集資料所需的所有 Analytics 維度。
 
 1. 大約一小時後，查看「[Activity Map 頁面報表](/help/analyze/activity-map/activitymap-reporting-analytics.md)」，當中就會顯示使用者有點按連結的所有頁面。
 
-## 步驟 3.Add users to Activity Map access group {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## 步驟 3.新增使用者至 Activity Map 存取群組 {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
-1. Click **[!UICONTROL Add Users to Group]**.
+1. 按一下「**[!UICONTROL 新增使用者至群組]**」。
 
    這會將您帶往管理控制台中的群組管理頁面。
 
-1. [新增使用者至此群組](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) ，並 **[!UICONTROL 儲存群組]**。
+1. [新增使用者到此群組](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，然後&#x200B;**[!UICONTROL 儲存群組]**。
 
 1. This allow your Admin users to download Activity Map from  **[!UICONTROL Adobe Analytics]** &gt; **[!UICONTROL Tools]** &gt; **[!UICONTROL ActivityMap]** .
 
-> [!NOTE] 如果您希望非管理員使用者下載Activity Map，請建立新的使用者群組，以提供「工具」和「舊版ClickMap安裝」的權限。 此權限層級與「Activity Map存取」結合，提供下載和使用工具的權限。
+> [!NOTE] 如果您希望非管理員使用者下載 Activity Map，請建立新的使用者群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map存取」結合，提供下載和使用工具的權限。
