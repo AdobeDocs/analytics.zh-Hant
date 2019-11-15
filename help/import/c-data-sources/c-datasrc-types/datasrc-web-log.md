@@ -1,14 +1,12 @@
 ---
 description: 網站記錄檔資料來源讓您匯入標準的網站伺服器記錄檔。
-seo-description: 網站記錄檔資料來源讓您匯入標準的網站伺服器記錄檔。
-seo-title: 網站記錄檔
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 網站記錄檔
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
