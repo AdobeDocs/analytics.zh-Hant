@@ -1,13 +1,11 @@
 ---
 description: 收集並整理單一頁面的特定資訊並在單一報表中展示此資訊。可用來瞭解訪客造訪特定頁面的方式，以及他們是否透過您的網站繼續進行進一步的作業或者退出網站。
-seo-description: 收集並整理單一頁面的特定資訊並在單一報表中展示此資訊。可用來瞭解訪客造訪特定頁面的方式，以及他們是否透過您的網站繼續進行進一步的作業或者退出網站。
-seo-title: 頁面摘要
 solution: Analytics
 title: 頁面摘要
-topic: 報表
+topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
