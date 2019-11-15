@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 自由格式面板
-title: 自由格式面板
-uuid: 9fc4ba61-a8 d6-41c3-b1 c5-18900b5 cb5 fb
+title: 自由面板
+uuid: 9fc4ba61-a8d6-41c3-b1c5-18900b5cb5fb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 自由格式面板
+# 自由面板
 
 自由面板是在啟動狀態中包含自由表格的空白面板。
 
