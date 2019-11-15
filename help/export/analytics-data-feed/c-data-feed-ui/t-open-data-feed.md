@@ -1,13 +1,11 @@
 ---
 description: 「資料摘要」使用者介面可從「」管理索引標籤存取。
-keywords: 資料饋送；資料饋送登陸頁面；饋送清單
-seo-description: 「資料摘要」使用者介面可從「」管理索引標籤存取。
-seo-title: 開啟資料摘要介面
+keywords: Data Feed;data feed landing page;feeds list
 solution: Analytics
 title: 開啟資料摘要介面
 uuid: d4a1aa01-603b-423e-b5ed-9091c39aa14b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
