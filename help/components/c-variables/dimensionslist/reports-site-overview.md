@@ -1,13 +1,11 @@
 ---
 description: 「網站量度 > 網站綜覽」報告在登入時顯示，可讓您立即檢視並與相關資料互動。您可以編輯版面、將其儲存為控制面板，以及下鑽資料以進行更深入分析。
-seo-description: 「網站量度 > 網站綜覽」報告在登入時顯示，可讓您立即檢視並與相關資料互動。您可以編輯版面、將其儲存為控制面板，以及下鑽資料以進行更深入分析。
-seo-title: 網站綜覽
 solution: Analytics
 title: 網站綜覽
-topic: 報表
+topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
