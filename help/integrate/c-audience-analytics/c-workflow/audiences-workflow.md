@@ -1,12 +1,10 @@
 ---
-description: 如何佈建、共用以及使用觀眾資料。
-seo-description: 如何佈建、共用以及使用觀眾資料。
-seo-title: 工作流程概觀
+description: 如何佈建、共用以及使用對象資料。
 solution: Experience Cloud
 title: 工作流程概觀
 uuid: 211e079b-46ee-4238-856d-7cac40620717
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
