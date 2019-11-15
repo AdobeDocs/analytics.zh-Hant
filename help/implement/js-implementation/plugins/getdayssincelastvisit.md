@@ -1,15 +1,13 @@
 ---
 description: 判斷使用者前次瀏覽您的網站後所經過的天數，並將這項資訊擷取到 Analytics 變數中。
-keywords: Analytics 實作
-seo-description: 判斷使用者前次瀏覽您的網站後所經過的天數，並將這項資訊擷取到 Analytics 變數中。
-seo-title: getDaysSinceLastVisit
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: getDaysSinceLastVisit
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: cad95882-3bd0-4f94-a0c3-4e7b6058d246
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
