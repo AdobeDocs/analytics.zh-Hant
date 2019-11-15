@@ -1,13 +1,11 @@
 ---
 description: 顯示為您的網站帶來客戶的原始反向連結。因為客戶可多次造訪網站，並且每次造訪都會使用不同的反向連結，原始反向連結網域會顯示客戶首次造訪您網站時的反向連結資訊。此維度只會依照反向連結的基本網域 (aol.com、yahoo.com 等) 來參照反向連結。
-seo-description: 顯示為您的網站帶來客戶的原始反向連結。因為客戶可多次造訪網站，並且每次造訪都會使用不同的反向連結，原始反向連結網域會顯示客戶首次造訪您網站時的反向連結資訊。此維度只會依照反向連結的基本網域 (aol.com、yahoo.com 等) 來參照反向連結。
-seo-title: 原始反向連結網域
 solution: Analytics
 title: 原始反向連結網域
-topic: 報表
-uuid: 4a21c2a2-8507-4d25-8d75-f5 a5 a20409 b0
+topic: Reports
+uuid: 4a21c2a2-8507-4d25-8d75-f5a5a20409b0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
