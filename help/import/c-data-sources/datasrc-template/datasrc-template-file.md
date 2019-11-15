@@ -1,14 +1,12 @@
 ---
 description: 有關資料來源範本的資訊；資料來源範本是一種資料框架，適合用來提交特定外部資料集給資料來源s。
-seo-description: 有關資料來源範本的資訊；資料來源範本是一種資料框架，適合用來提交特定外部資料集給資料來源s。
-seo-title: 資料來源範本概觀
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 資料來源範本概觀
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
