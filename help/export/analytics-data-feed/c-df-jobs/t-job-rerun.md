@@ -1,13 +1,11 @@
 ---
 description: 您可以重新執行「工作」清單中的一或多項工作。
-keywords: 資料饋送；工作；rerun
-seo-description: 您可以重新執行「工作」清單中的一或多項工作。
-seo-title: 重新執行工作
+keywords: Data Feed;job;rerun
 solution: Analytics
 title: 重新執行工作
-uuid: caf95da-dd888 b1 a-a-a081-684f4 fd1 f714
+uuid: 5caf95da-dd88-4b1a-a081-684f4fd1f714
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
