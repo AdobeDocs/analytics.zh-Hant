@@ -1,13 +1,11 @@
 ---
 description: 說明如何在動態標籤管理中建立規則的步驟。
-keywords: Dynamic Tag Management;規則;建立規則;新規則;事件型規則;頁面載入規則;直接呼叫規則
-seo-description: 說明如何在動態標籤管理中建立規則的步驟。
-seo-title: 建立新規則
+keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立新規則
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
