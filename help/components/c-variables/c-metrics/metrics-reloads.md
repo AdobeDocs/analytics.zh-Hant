@@ -1,13 +1,11 @@
 ---
 description: 相同頁面名稱被連續載入兩次時就列入計數。這通常表示頁面被重新整理。
-seo-description: 相同頁面名稱被連續載入兩次時就列入計數。這通常表示頁面被重新整理。
-seo-title: 重新載入
 solution: Analytics
 title: 重新載入
-topic: 量度
+topic: Metrics
 uuid: 0896ae8b-3db6-4b95-8dab-134946f98201
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
