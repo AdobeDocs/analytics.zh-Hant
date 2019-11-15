@@ -1,11 +1,9 @@
 ---
 description: 部署此整合是一個簡單的程式，需要執行下列動作。
-seo-description: 部署此整合是一個簡單的程式，需要執行下列動作。
-seo-title: 部署整合
 title: 部署整合
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -168,7 +166,7 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ### 舊版程式碼（H程式碼） {#section-bba8ad8c715e4f97883e7de3269f681a}
 
-1. 從「資料連接器」UI的「資源」區域（在「支援」標籤下）下載「整合模組」。
+1. 從「資料連接器」UI的「資源」區域（在「支援」標籤下）下載整合模組。
 
    ![](assets/h_code.png)
 
