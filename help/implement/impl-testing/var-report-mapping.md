@@ -1,14 +1,12 @@
 ---
 description: 下表顯示用來填入 Analytics 報表的變數進行對映報告時所使用的變數。
-keywords: Analytics 實作
-seo-description: 下表顯示用來填入 Analytics 報表的變數進行對映報告時所使用的變數。
-seo-title: 用以報表對應的變數
+keywords: Analytics Implementation
 solution: Analytics
 title: 用以報表對應的變數
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: fd81f97d-dd1a-47d5-9157-b7932fe13490
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
