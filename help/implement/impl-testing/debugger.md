@@ -1,19 +1,17 @@
 ---
-description: 安裝舊版Adobe Experience cloud除錯程式。 This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
-seo-description: 安裝舊版Adobe Experience cloud除錯程式。 This debugger inspects tags for the Analytics, Target, Advertising Cloud, Identity Service, DTM, and Launch.
-seo-title: Legacy Adobe Experience Cloud Debugger
-title: Legacy Adobe Experience Cloud Debugger
+description: 安裝舊版Adobe Experience cloud除錯程式。 此除錯程式會檢查Analytics、Target、Advertising Cloud、Identity Service、DTM和Launch的標籤。
+title: 舊版Adobe Experience cloud除錯程式
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 舊版Adobe Experience cloud除錯程式
 
-> [!IMPORTANT] 此除錯工具不再受維護。 Adobe recommends instead using the Adobe Experience Cloud Debugger Chrome Extension.[](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+> [!IMPORTANT] 此除錯工具不再受維護。 Adobe建議改用 [Adobe Experience cloud除錯程式Chrome擴充功能](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)。
 
-The Legacy Debugger inspects tags for most Adobe Experience Cloud services. 使用除錯程式可讓您查看網站上任何指定頁面上的Adobe資料。 您可使用此資訊來疑難排解或驗證組織的實施。
+舊 [!UICONTROL 版除錯程式] 會檢查大部分Adobe Experience cloud服務的標籤。 使用除錯程式可讓您查看網站上任何指定頁面上的Adobe資料。 您可使用此資訊來疑難排解或驗證組織的實施。
 
 ## 安裝舊式除錯程式
 
@@ -62,21 +60,21 @@ Edge無法手動建立書籤小工具，但可編輯書籤URL。
 Safari無法手動建立書籤小程式，但可編輯書籤URL。
 
 1. 按一下右上方的「共用」圖示，開啟書籤模式視窗。
-2. Name the bookmark "Adobe Experience Cloud Debugger", and save it in the desired location.
-3. Click Bookmarks &gt; Edit Bookmarks, and locate the newly created bookmark.
-4. Right click &gt; Edit Address, then paste the code snippet into text field.
+2. 將書籤命名為「Adobe Experience Cloud Debugger」，並將其儲存在所需位置。
+3. 按一下「書籤&gt;編輯書籤」，並找出新建立的書籤。
+4. 以滑鼠右鍵按一下&gt; 「編輯位址」，然後將程式碼片段貼入文字欄位。
 
-## Using the legacy debugger
+## 使用舊版除錯程式
 
-To use the debugger, navigate to the desired page on your site, then click the bookmarklet. A pop-up window appears, showing data sent to Adobe.
+若要使用除錯程式，請導覽至您網站上所要的頁面，然後按一下書籤小工具。 出現快顯視窗，顯示傳送至Adobe的資料。
 
-> [!NOTE] Certain ad-blocking plug-ins and pop-up blockers can interfere with the loading of the debugger window. Check for blocked pop-ups in your browser, and allow them so the debugger can work correctly.
+> [!NOTE] 某些廣告封鎖外掛程式和快顯封鎖程式可能會干擾除錯程式視窗的載入。 檢查瀏覽器中是否有已封鎖的快顯視窗，並允許它們，讓除錯程式可正常運作。
 
-The debugger has several options available, all of which customize how data is displayed. None of these options affect data collection.
+除錯程式有數個可用選項，所有選項都可自訂資料的顯示方式。 這些選項均不會影響資料收集。
 
-* **** Displayed Experience Cloud products: Shows or hides image requests for each respective Experience Cloud product.
-* **** URL Decode: URL decodes the image request to match what is displayed in reporting. Adobe recommends leaving this box checked.
-* **** 自動重新整理：每隔幾秒自動重新整理快顯視窗，以檢查頁面上是否有更多影像要求。 If you need to copy/paste content in the debugger, disable auto-refresh so your selection stays.
-* **** Friendly Format: Toggles the display format between helpful labels and raw query strings in an image request. 如需詳 [細資訊，請參閱資料收集查詢參數](../js-implementation/data-collection/query-parameters.md) 。
+* **** 顯示的Experience cloud產品：顯示或隱藏每個Experience cloud產品的影像要求。
+* **** URL解碼：URL會解碼影像要求，以符合報告中顯示的內容。 Adobe建議勾選此方塊。
+* **** 自動重新整理：每隔幾秒自動重新整理快顯視窗，以檢查頁面上是否有更多影像要求。 如果您需要在除錯程式中複製／貼上內容，請停用自動重新整理，讓您的選取範圍維持不變。
+* **** 友好格式：在影像請求中的實用標籤和原始查詢字串之間切換顯示格式。 如需詳 [細資訊，請參閱資料收集查詢參數](../js-implementation/data-collection/query-parameters.md) 。
 
 若要儲存除錯程式的預設顯示選項，請在右上角的「Adobe除錯程式」連結上按一下滑鼠右鍵，然後複製連結位址。 編輯您目前的除錯程式書籤小程式，並將更新的程式碼片段貼入URL欄位。
