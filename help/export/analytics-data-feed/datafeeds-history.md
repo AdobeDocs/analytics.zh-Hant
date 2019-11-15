@@ -1,15 +1,13 @@
 ---
 description: Analytics資料饋送的累積發行說明。
-keywords: 資料饋送
-seo-description: Analytics資料饋送的累積發行說明。
-seo-title: 資料摘要發行說明
+keywords: Data Feed
 solution: Analytics
-subtopic: 資料饋送
+subtopic: data feeds
 title: 資料摘要發行說明
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 4b2b2165-d8b3-4dc0-98a8-0121de7e26a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
