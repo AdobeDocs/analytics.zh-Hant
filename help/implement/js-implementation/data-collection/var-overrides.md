@@ -1,15 +1,13 @@
 ---
 description: 「變數覆寫」可讓您變更單一追蹤或追蹤連結呼叫的變數值。
-keywords: Analytics 實作
-seo-description: 「變數覆寫」可讓您變更單一追蹤或追蹤連結呼叫的變數值。
-seo-title: 變數覆寫
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 變數
+subtopic: Variables
 title: 變數覆寫
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 3ec09ae8-b9df-426f-8065-42b4518e6c5f
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
