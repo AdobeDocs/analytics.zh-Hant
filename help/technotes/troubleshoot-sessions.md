@@ -1,10 +1,8 @@
 ---
 title: 疑難排解Adobe Analytics中的工作階段
 description: 瞭解如何解決登出Adobe Analytics的相關問題。
-seo-title: 疑難排解Adobe Analytics中的工作階段
-seo-description: 瞭解如何解決登出Adobe Analytics的相關問題。
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
