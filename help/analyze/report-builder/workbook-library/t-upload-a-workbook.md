@@ -1,13 +1,11 @@
 ---
 description: 上傳要共用的 Report Builder Excel 活頁簿。
-seo-description: 上傳要共用的 Report Builder Excel 活頁簿。
-seo-title: 上傳活頁簿
 solution: Analytics
 title: 上傳活頁簿
-topic: Report Builder
+topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
