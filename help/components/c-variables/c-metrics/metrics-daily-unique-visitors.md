@@ -1,13 +1,11 @@
 ---
 description: 一天內您的網站不重複 (只計一次) 的訪客數量。每日獨特訪客瀏覽的結束時間為報表套裝所選時區的午夜。
-seo-description: 一天內您的網站不重複 (只計一次) 的訪客數量。每日獨特訪客瀏覽的結束時間為報表套裝所選時區的午夜。
-seo-title: 每日不重複訪客
 solution: Analytics
 title: 每日不重複訪客
-topic: 量度
+topic: Metrics
 uuid: 31cc98e0-5c81-4893-9f50-b0b47799d2f3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
