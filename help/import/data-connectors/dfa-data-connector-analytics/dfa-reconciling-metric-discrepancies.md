@@ -1,14 +1,12 @@
 ---
 description: 在比較 Adobe Analytics 量度與 DFA 量度時，有些量度可能會超出可接受的差異範圍。以下列出量度定義以及可能的變異原因。
 keywords: DFA
-seo-description: 在比較 Adobe Analytics 量度與 DFA 量度時，有些量度可能會超出可接受的差異範圍。以下列出量度定義以及可能的變異原因。
-seo-title: 協調量度差異
 solution: Analytics
 title: 協調量度差異
 topic: Data connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
