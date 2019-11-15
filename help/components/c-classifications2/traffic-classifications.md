@@ -1,14 +1,12 @@
 ---
 description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
-seo-description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
-seo-title: 流量分類
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 流量分類
-topic: 管理工具
+topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
