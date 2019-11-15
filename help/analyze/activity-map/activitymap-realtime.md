@@ -1,13 +1,11 @@
 ---
 description: 即時頁面分析 (即時模式) 可讓您即時取得分鐘粒度的結果。
-seo-description: 即時頁面分析 (即時模式) 可讓您即時取得分鐘粒度的結果。
-seo-title: 即時頁面分析
 solution: Analytics
 title: 即時頁面分析
-topic: Activity Map
+topic: Activity map
 uuid: a3faa9bd-73d8-48b3-be2b-f818ed7456fb
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -37,4 +35,4 @@ Adobe Target 中的 A4T 整合啟用後，您就會在 Adobe Analytics 中遇到
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施[身份服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)後開始。
+請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施[身份服務](https://marketing.adobe.com/resources/help/en_US/mcvid/)後開始。
