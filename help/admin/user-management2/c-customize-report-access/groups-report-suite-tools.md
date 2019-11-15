@@ -1,15 +1,13 @@
 ---
 description: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。
-keywords: 組；權限
-seo-description: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。
-seo-title: 自訂報表套裝工具權限
+keywords: groups;permissions
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 自訂報表套裝工具權限
-topic: 管理工具
+topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
