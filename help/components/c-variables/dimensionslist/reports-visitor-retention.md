@@ -1,13 +1,11 @@
 ---
 description: 顯示您客戶的忠誠度。您可以看到訪客回訪您網站的次數和頻率。該類別報告顯示客戶的忠誠度。您可以看到訪客回訪您網站的次數和頻率。
-seo-description: 顯示您客戶的忠誠度。您可以看到訪客回訪您網站的次數和頻率。該類別報告顯示客戶的忠誠度。您可以看到訪客回訪您網站的次數和頻率。
-seo-title: 訪客保留率
 solution: Analytics
 title: 訪客保留率
-topic: 報表
+topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
