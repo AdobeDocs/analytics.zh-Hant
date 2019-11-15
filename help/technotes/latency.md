@@ -1,15 +1,13 @@
 ---
 description: 下列資訊可協助疑難排解Analytics資料中的報表套裝延遲問題。
-keywords: 丟失資料；慢速
-seo-description: 下列資訊可協助疑難排解Analytics資料中的報表套裝延遲問題。
-seo-title: 資料可用性與延遲
+keywords: missing data;slow
 solution: Analytics
-subtopic: 目前的資料
+subtopic: Current data
 title: 資料可用性與延遲
-topic: 報表
+topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,7 +24,7 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ## 延遲的成因
 
-延遲是比資料收集伺服器完全處理資料所花費的一般2小時長的延遲。 它不影響資料收集；無論報表套裝的潛在性為何，仍會收集工作實作的資料。 其嚴重性（資料的目前狀況）和長度（解決時間）可能會大不相同。 通常僅限單一報表套裝。
+延遲是比資料收集伺服器完全處理資料所花費的一般2小時長的延遲。 它不影響資料收集；無論報表套裝的潛在性有多高，仍會收集工作實作的資料。 其嚴重性（資料的目前狀況）和長度（解決時間）可能會大不相同。 通常僅限單一報表套裝。
 
 延遲導因於下列一般類別之一:
 
