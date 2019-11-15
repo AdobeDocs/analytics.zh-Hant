@@ -1,13 +1,11 @@
 ---
 description: 「發佈介面工具集」是一個容器，可在網頁上嵌入行銷報告 (書籤和控制面板)。您組織中無權存取行銷報告的人員將可以檢視相關資料。
-seo-description: 「發佈介面工具集」是一個容器，可在網頁上嵌入行銷報告 (書籤和控制面板)。您組織中無權存取行銷報告的人員將可以檢視相關資料。
-seo-title: 發佈介面工具集
 solution: Analytics
 title: 發佈介面工具集
-topic: 管理工具
+topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
