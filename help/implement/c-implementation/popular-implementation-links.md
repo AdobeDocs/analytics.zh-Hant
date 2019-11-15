@@ -1,11 +1,9 @@
 ---
 description: '實施期間，下列文件可能會對您有所助益 '
-seo-description: '實施期間，下列文件可能會對您有所助益 '
-seo-title: 熱門實作連結
 title: 熱門實作連結
 uuid: 4441aa4c-0bb7-4797-91b9-cd201aad99f2
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
