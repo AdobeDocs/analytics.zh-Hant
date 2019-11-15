@@ -1,11 +1,9 @@
 ---
 description: 執行「資料連接器」整合精靈以實施「資料連接器」整合之前，您必須具備的工作和資訊。
-seo-description: 執行「資料連接器」整合精靈以實施「資料連接器」整合之前，您必須具備的工作和資訊。
-seo-title: 準備資料連接器電子郵件整合
 title: 準備資料連接器電子郵件整合
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
