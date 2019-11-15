@@ -1,14 +1,12 @@
 ---
 description: 事件會在訪客執行指定動作時加以追蹤。
-keywords: Analytics 實施;事件;成功事件;貨幣事件;自訂事件
-seo-description: 事件會在訪客執行指定動作時加以追蹤。
-seo-title: 事件
+keywords: Analytics Implementation;event;success event;currency event;custom event
 solution: Analytics
 title: 事件
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: d2edd432-60bc-4426-9967-153b713147a1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
