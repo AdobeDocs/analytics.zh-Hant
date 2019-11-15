@@ -1,11 +1,9 @@
 ---
 description: 列出目前版本和舊版及其功能特色。
-seo-description: 列出目前版本和舊版及其功能特色。
-seo-title: Report Builder 的新功能
 title: Report Builder 的新功能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
