@@ -1,13 +1,11 @@
 ---
 description: 關於 Activity Map 中連結追蹤的常問問題。
-seo-description: 關於 Activity Map 中連結追蹤的常問問題。
-seo-title: 連結追蹤常見問題集
 solution: Analytics
 title: 連結追蹤常見問題集
-topic: Activity Map
+topic: Activity map
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
