@@ -1,15 +1,13 @@
 ---
 description: 資料摘要中所使用之特殊字元的相關資訊。
-keywords: 資料饋送；job；特殊字元；hit_data；多值變數；events_list;products_list;mvvars
-seo-description: 資料摘要中所使用之特殊字元的相關資訊。
-seo-title: 特殊字元
+keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
-subtopic: 資料饋送
+subtopic: data feeds
 title: 特殊字元
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
