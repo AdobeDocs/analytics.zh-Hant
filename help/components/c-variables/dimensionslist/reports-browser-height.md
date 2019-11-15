@@ -1,13 +1,11 @@
 ---
 description: 單純指瀏覽器視窗內資料的垂直距離。瀏覽器高度維度不包括工具列、功能表、按鈕等。
-seo-description: 單純指瀏覽器視窗內資料的垂直距離。瀏覽器高度維度不包括工具列、功能表、按鈕等。
-seo-title: 瀏覽器高度
 solution: Analytics
 title: 瀏覽器高度
-topic: 報表
-uuid: 4b824167-4a4e-40e9-bf00-95765bbdb3d
+topic: Reports
+uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
