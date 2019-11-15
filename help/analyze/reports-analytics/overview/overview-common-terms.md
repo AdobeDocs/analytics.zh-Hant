@@ -1,13 +1,11 @@
 ---
 description: 行銷報告中常用之網站分析詞語的簡介。
-seo-description: 行銷報告中常用之網站分析詞語的簡介。
-seo-title: 常用詞語
 solution: Analytics
 title: 常用詞語
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -25,7 +23,7 @@ source-git-commit: f7b0a6d53c9c43aa51c3e0fe14ec0569c91cdad2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> 報告套裝 </p> </td> 
+   <td colname="col1"> <p> 報表套裝 </p> </td> 
    <td colname="col2"> <p>報告套裝全面、獨立地定義對選定網站、網站集合或網站頁面子集合的報告。一般情況下，報告套裝是一個網站，但也可以是您同時新增多個站點以便獲取總計值的全域區段。如果您想執行部分站點的報告，則報告套裝也可以小於網站。 </p> <p>例如，如果登入使用者和非登入使用者以不同的方式使用您的網站，並有不同的人在檢視各個群組的報告，則您可依據需驗證和不需驗證的頁面來劃分報告套裝的類別。 </p> <p>當您登入時，可以選擇一個要使用的報告套裝 (使用結合了報告套裝的統計報告套裝時除外)。 </p> </td> 
   </tr> 
   <tr> 
