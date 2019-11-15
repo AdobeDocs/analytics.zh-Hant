@@ -1,14 +1,12 @@
 ---
 description: 在 Adobe Analytics 實施 Accelerated Mobile Pages (AMP) 專案。
-keywords: Analytics 實施;amp;amp-analytics;adobeanalytics 範本;adobeanalytics_nativeConfig 範本;點擊追蹤;訪客流量膨脹;ID 服務
-seo-description: 在 Adobe Analytics 實施 Accelerated Mobile Pages (AMP) 專案。
-seo-title: Accelerated Mobile Pages
+keywords: Analytics Implementation;amp;amp-analytics;adobeanalytics template;adobeanalytics_nativeConfig template;click tracking;visitor inflation;id service
 solution: Analytics
 title: Accelerated Mobile Pages
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: c86e4a80-7191-4ee7-ab20-787730026c4b
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
