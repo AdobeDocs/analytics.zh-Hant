@@ -1,13 +1,11 @@
 ---
 description: 您可以新增度量和維度至「請求精靈步驟2」，以定義請求中資料的Analytics配置。 「報告建立工具」中的量度和維度清單會遵循「報告與分析」中顯示的功能表配置。
-seo-description: 您可以新增度量和維度至「請求精靈步驟2」，以定義請求中資料的Analytics配置。 「報告建立工具」中的量度和維度清單會遵循「報告與分析」中顯示的功能表配置。
-seo-title: 度量和維度概觀
 solution: Analytics
 title: 度量和維度概觀
-topic: Report Builder
+topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
