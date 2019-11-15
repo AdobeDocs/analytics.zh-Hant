@@ -1,13 +1,11 @@
 ---
 description: 與自訂流量變數 (prop 變數) 群組有關的報告集。每個 prop 報告都是獨立的自訂分析報告。
-seo-description: 與自訂流量變數 (prop 變數) 群組有關的報告集。每個 prop 報告都是獨立的自訂分析報告。
-seo-title: 自訂分析
 solution: Analytics
 title: 自訂分析
-topic: 報表
-uuid: bdfe3578-765a-42d2-98ea-d575743 f8 be
+topic: Reports
+uuid: bdfe3578-765a-42d2-98ea-d575743f8be2
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
