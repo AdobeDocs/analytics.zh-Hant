@@ -1,13 +1,11 @@
 ---
 description: 在 Activity Map 或舊版 ClickMap 中停止連結追蹤的步驟。
-seo-description: 在 Activity Map 或舊版 ClickMap 中停止連結追蹤的步驟。
-seo-title: 停止連結追蹤
 solution: Analytics
 title: 停止連結追蹤
-topic: Activity Map
+topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
 translation-type: tm+mt
-source-git-commit: 1b38c08c209a6a336046e842e812445ea493f7bd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
