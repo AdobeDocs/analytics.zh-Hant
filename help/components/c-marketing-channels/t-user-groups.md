@@ -1,14 +1,12 @@
 ---
 description: 設定使用者群組對行銷管道的存取權。
-seo-description: 設定使用者群組對行銷管道的存取權。
-seo-title: 設定使用者群組存取權
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 設定使用者群組存取權
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: b85661af-5e33-4a92-a756-3589afb2f457
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
