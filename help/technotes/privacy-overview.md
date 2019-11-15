@@ -1,13 +1,11 @@
 ---
 description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
-keywords: 隱私權
-seo-description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
-seo-title: 隱私權概觀
+keywords: privacy
 solution: Analytics
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
