@@ -1,13 +1,11 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-seo-description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-seo-title: 即時報表
 solution: Analytics
 title: 即時報表
-topic: 報表
+topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -55,4 +53,4 @@ Adobe Target 中的 A4T 整合啟用後，您就會在 Adobe Analytics 中遇到
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，延遲增加會在您實作Identity service後開始，即使您尚未完全實作此整合亦然。
+請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施身份服務後開始。
