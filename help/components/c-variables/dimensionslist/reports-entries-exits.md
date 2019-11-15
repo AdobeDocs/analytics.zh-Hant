@@ -1,13 +1,11 @@
 ---
 description: 「登入頁面」報表以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。
-seo-description: 「登入頁面」報表以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。
-seo-title: 登入與退出
 solution: Analytics
 title: 登入與退出
-topic: 報表
+topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
