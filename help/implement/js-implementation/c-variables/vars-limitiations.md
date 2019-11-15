@@ -1,15 +1,13 @@
 ---
 description: 以高階方式查看變數及其限制。
-keywords: Analytics 實施;變數;限制;限制
-seo-description: 以高階方式查看變數及其限制。
-seo-title: 變數和限制
+keywords: Analytics Implementation;variable;limitations;limits
 solution: Analytics
-subtopic: 變數
+subtopic: Variables
 title: 變數和限制
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
