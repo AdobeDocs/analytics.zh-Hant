@@ -1,14 +1,12 @@
 ---
 description: 如何在 Facebook 即時文章中實施。
-keywords: Analytics 實施;內嵌;自訂變數;自訂事件;訪客追蹤;追蹤;限制
-seo-description: 如何在 Facebook 即時文章中實施。
-seo-title: Facebook 即時文章
+keywords: Analytics Implementation;embed;custom variable;custom event;visitor tracking;tracking;limitations
 solution: Analytics
 title: Facebook 即時文章
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 04b6366b-7c52-4dae-b2dd-bb6b78fd409c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
