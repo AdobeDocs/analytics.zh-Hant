@@ -1,14 +1,12 @@
 ---
 description: 訪客移轉是將訪客 ID Cookie 從一個網域移轉至另一個網域的程序。
-keywords: Analytics 實作
-seo-description: 訪客移轉是將訪客 ID Cookie 從一個網域移轉至另一個網域的程序。
-seo-title: 訪客移轉
+keywords: Analytics Implementation
 solution: Analytics
 title: 訪客移轉
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
