@@ -1,14 +1,12 @@
 ---
 description: 使用動態標籤管理來新增頁首與頁尾代碼，以決定網站上 JavaScript 和頁面內容的載入方式。無論使用哪個託管選項，您都必須在網站的每個頁面上安裝頁首與頁尾代碼。
-keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;程式碼;頁面程式碼;頁首程式碼;頁尾程式碼;內嵌程式碼;內嵌標籤;內嵌
-seo-description: 使用動態標籤管理來新增頁首與頁尾代碼，以決定網站上 JavaScript 和頁面內容的載入方式。無論使用哪個託管選項，您都必須在網站的每個頁面上安裝頁首與頁尾代碼。
-seo-title: 新增頁首與頁尾代碼
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
 solution: Analytics
 title: 新增頁首與頁尾代碼
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
