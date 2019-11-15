@@ -1,14 +1,12 @@
 ---
 description: 資料來源提供另外兩種方式，將離線發生的事件整合到您的線上資料中。
-seo-description: 資料來源提供另外兩種方式，將離線發生的事件整合到您的線上資料中。
-seo-title: 交易與客戶整合
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 交易與客戶整合
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
