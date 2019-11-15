@@ -1,13 +1,11 @@
 ---
 description: 協助您瞭解不同資料類別 (包括國家、州、ZIP/郵遞區號和網域) 之客戶的購買模式。
-seo-description: 協助您瞭解不同資料類別 (包括國家、州、ZIP/郵遞區號和網域) 之客戶的購買模式。
-seo-title: 訪客資料
 solution: Analytics
 title: 訪客資料
-topic: 報表
+topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
