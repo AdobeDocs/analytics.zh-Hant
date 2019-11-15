@@ -1,13 +1,11 @@
 ---
 description: 「區段管理員」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標記為我的最愛。
-seo-description: 「區段管理員」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標記為我的最愛。
-seo-title: 管理區段
 solution: Analytics
 title: 管理區段
-topic: 區段
+topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
