@@ -1,14 +1,12 @@
 ---
 description: 下列表格顯示報表與變數的對映，或是報表和其中使用的變數。
-keywords: Analytics 實作
-seo-description: 下列表格顯示報表與變數的對映，或是報表和其中使用的變數。
-seo-title: 報表與變數的對應
+keywords: Analytics Implementation
 solution: Analytics
 title: 報表與變數的對應
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -107,7 +105,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ... |  |  |
 | 自訂 eVar 75 | [!UICONTROL s.eVar] 75 |  |
 
-## 流量報表{#section_76A74C3D7B60461D9ADE0E5E183DD777}
+## 流量報表 {#section_76A74C3D7B60461D9ADE0E5E183DD777}
 
 下表列出用來填入各個報表的[!UICONTROL 流量]變數: 
 
@@ -193,7 +191,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 | ... | ... |  |
 | 階層 5 | s.hier5 |  |
 
-## 路徑分析報表{#section_85E0A2396B894659A6BE572819263E95}
+## 路徑報告 {#section_85E0A2396B894659A6BE572819263E95}
 
 下表列出用來填入 [!DNL Analytics] 內各個報表的路徑分析變數: 
 
