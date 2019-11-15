@@ -1,14 +1,12 @@
 ---
 description: 本主題提供常見問題的解答。
-seo-description: 本主題提供常見問題的解答。
-seo-title: 資料來源常見問題集
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 資料來源常見問題集
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
