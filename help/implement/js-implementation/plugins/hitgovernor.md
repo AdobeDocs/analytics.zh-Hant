@@ -1,11 +1,9 @@
 ---
 description: s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤傳送的 Analytics 影像請求總數，若總數超過特定的臨界值，則可執行其他邏輯。
-seo-description: s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤傳送的 Analytics 影像請求總數，若總數超過特定的臨界值，則可執行其他邏輯。
-seo-title: hitGovernor
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
