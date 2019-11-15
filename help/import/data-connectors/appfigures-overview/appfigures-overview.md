@@ -1,12 +1,10 @@
 ---
 description: 此Adobe資料連接器整合結合了appFigures整合行動應用程式商店分析的強大功能以及Adobe Analytics的直接應用程式追蹤功能，為您的組織建立強大的分析與最佳化機會。
 keywords: AppFigures
-seo-description: 此Adobe資料連接器整合結合了appFigures整合行動應用程式商店分析的強大功能以及Adobe Analytics的直接應用程式追蹤功能，為您的組織建立強大的分析與最佳化機會。
-seo-title: appFigures Data Connector for Adobe Analytics
 title: appFigures Data Connector for Adobe Analytics
 uuid: b9bdb88c-2d7d-4fe4-aa05-da531224993f
 translation-type: tm+mt
-source-git-commit: 34b18e7769e0850283fd3840c2557818d5d742f0
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
