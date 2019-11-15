@@ -1,14 +1,12 @@
 ---
 description: 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送。
-seo-description: 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送。
-seo-title: 控制面板管理員
 solution: Analytics
-subtopic: 控制面板
+subtopic: Dashboards
 title: 控制面板管理員
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -31,7 +29,7 @@ Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICON
 |--- |--- |
 | 共用 | 顯示控制面板是否為共用。 |
 | 已排程 | 可讓您計劃控制面板的傳送。 |
-| 檢視封存 | 可讓您檢視控制面板封存檔。2020年1月將不再提供此功能。 |
+| 檢視封存 | 可讓您檢視控制面板封存檔。 2020年1月將不再提供此功能。 |
 | 推送至使用者 | 可讓您共用控制面板。 |
 | 管理 | 可讓您編輯、複製及刪除控制面板。 |
 
