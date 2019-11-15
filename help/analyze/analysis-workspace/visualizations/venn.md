@@ -1,11 +1,9 @@
 ---
 description: Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立 Venn 圖表。
-seo-description: Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立 Venn 圖表。
-seo-title: Venn
 title: Venn
-uuid: 0a743378-f588-417f-9108-4a1313 d6 bb
+uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
