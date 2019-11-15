@@ -1,13 +1,11 @@
 ---
 description: 在「區段管理員」內，您可以設立工作流程來核准適合各種應用層級、適合特定的部門或群組、且符合報表原則的區段。
-seo-description: 在「區段管理員」內，您可以設立工作流程來核准適合各種應用層級、適合特定的部門或群組、且符合報表原則的區段。
-seo-title: 核准區段
 solution: Analytics
 title: 核准區段
-topic: 區段
+topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
