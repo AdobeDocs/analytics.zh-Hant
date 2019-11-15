@@ -1,14 +1,12 @@
 ---
 description: 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
-keywords: Analytics 實施;資料收集;代碼管理器
-seo-description: 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
-seo-title: 代碼管理器
+keywords: Analytics Implementation;data collection;code manager
 solution: Analytics
 title: 代碼管理器
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 4dc79214-a38b-4e1a-90f9-d09c8142dd0a
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -19,7 +17,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 **[!UICONTROL Analytics &gt; 管理員 &gt; 代碼管理器]**。
 
-下載程式庫後，必須設定代碼以便傳送資料至正確的追蹤伺服器和報表套裝。如需其他實施資源，請參閱[開發人員與實施](https://marketing.adobe.com/resources/help/zh_TW/reference/developer.html)。
+下載程式庫後，必須設定代碼以便傳送資料至正確的追蹤伺服器和報表套裝。如需其他實施資源，請參閱[開發人員和實施](https://marketing.adobe.com/resources/help/en_US/reference/developer.html)。
 
 ## 代碼管理器頁面說明 {#section_0C23784E20BD4631841FF24E5075DA12}
 
@@ -32,7 +30,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>名稱  </p> </td> 
+   <td colname="col1"> <p>名稱 </p> </td> 
    <td colname="col2"> <p>名稱符合您要啟用資料收集的平台。此欄列出的每個平台都會提供原生庫。 </p> </td> 
   </tr> 
   <tr> 
