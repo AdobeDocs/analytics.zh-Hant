@@ -1,11 +1,10 @@
 ---
 description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
-keywords: Analytics 實作
-seo-description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
+keywords: Analytics Implementation
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 
 > [!NOTE] 目前 `s.dynamicAccountList` 的AppMeasurement程式庫不 [支援變數](../../c-appmeasurement-js/appmeasure-mjs.md)。 它僅用於舊版AppMeasurement，例如H代碼。
 
-變數 `s.dynamicAccountList` 可用來協助動態決定要傳送資料至的報表套裝。 它可與和變數一 `dynamicAccountSelection` 起使 `dynamicAccountMatch` 用。 如果將中 `dynamicAccountList` 的規則設 `dynamicAccountSelection` 為，則會套 `true`用這些規則，並套用至中指定之URL區段 `dynamicAccountMatch`。
+變數 `s.dynamicAccountList` 可用來協助動態決定要傳送資料至的報表套裝。 它可與和變數一 `dynamicAccountSelection` 起使 `dynamicAccountMatch` 用。 The rules in `dynamicAccountList` are applied if `dynamicAccountSelection` is set to `true`, and they apply to the section of the URL specified in `dynamicAccountMatch`.
 
 ## 語法和可能的值
 
@@ -22,7 +21,7 @@ source-git-commit: 5d6ff87bd49140a974fcaaeed714d0f0b7d1e58b
 s.dynamicAccountList="rs1[,rs2]=domain1.com[,domain2.com/path][;...]";
 ```
 
-Valid input is a semicolon-separated list of name=value pairs (rules). 每個清單都包含下列項目：
+有效輸入是以分號分隔的name=value對（規則）清單。 每個清單都包含下列項目：
 
 * 一或多個報表套裝ID（以逗號分隔）
 * 等號
@@ -50,8 +49,8 @@ s.dynamicAccountList = "examplersid4=path4;examplersid5=path5";
 
 ## 缺陷、問題和提示
 
-* 此 此變數中列出的規則會以從左至右的順序套用。 If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. 因此，請在清單的右側放置更多的一般規則。
+* 此變數中所列的規則會以由左至右的順序套用。If the `dynamicAccountMatch` variable matches more than one rule, the left-most rule is used to determine the report suite. 因此，請在清單的右側放置更多的一般規則。
 * If no rules match, the default report suite in `s_account` is used.
 * 如果您的頁面已儲存至某人的硬碟，或是透過網路翻譯引擎（例如Google的翻譯頁面）進行翻譯，動態帳戶選擇可能無法運作。
-* The `dynamicAccountSelection` rules apply only to the section of the URL specified in `dynamicAccountMatch`.
+* `dynamicAccountSelection` 規則只會套用至 `dynamicAccountMatch` 中指定的 URL 的區段。
 * Use the [!DNL Adobe Experience Cloud Debugger] to test the destination report suite.
