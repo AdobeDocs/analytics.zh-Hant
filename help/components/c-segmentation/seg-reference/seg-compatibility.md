@@ -1,13 +1,11 @@
 ---
 description: 並非所有在「區段產生器」中建立的區段都與 Data Warehouse 相容。下表列出支援的功能。
-seo-description: 並非所有在「區段產生器」中建立的區段都與 Data Warehouse 相容。下表列出支援的功能。
-seo-title: Data Warehouse 區段相容性
 solution: Analytics
 title: Data Warehouse 區段相容性
-topic: 區段
+topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: 26bba9528873c983852754056a5495c4004d25e6
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -47,7 +45,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
   </tr> 
   <tr> 
    <td colname="col1"> <b>維度</b> </td> 
-   <td colname="col2">將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，只有分析工作區、報告與分析和臨機分析才支援這些維度： 
+   <td colname="col2">將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，這些維度僅在分析工作區、報告與分析和臨機分析中受支援： 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">進入伺服器 </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">進入類別 </li> 
@@ -78,7 +76,7 @@ Not all segments created in the Segment Builder are compatible with [!DNL Data W
      <li id="li_FFC8E1F7092C4876A7E9F2365CC234B9">找不到頁面 </li> 
      <li id="li_7A070C8E0F664F5AB554555B17D0E4E6">付費搜尋 </li> 
      <li id="li_12228C18BF90463C8D8394FB810843D3">季別 </li> 
-     <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">回訪頻率 </li> 
+     <li id="li_1833B6E2011C4757A60CAA2C98B35AFA">回訪頻度 </li> 
      <li id="li_39154CD74A534D9AA09C701FE1E2C521">單頁存取次數 </li> 
      <li id="li_84BDE34DD577488881E8842D2DE72D3C">事件之前時間 </li> 
      <li id="li_552BE3414CC949B3B24BE99298945874">頁面逗留時間 - 分組 </li> 
