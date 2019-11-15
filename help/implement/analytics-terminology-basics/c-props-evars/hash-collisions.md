@@ -1,14 +1,12 @@
 ---
 description: 描述雜湊碰撞為何及其出現方式。
-keywords: Analytics 實施;雜湊;碰撞;Prop;eVar;雜湊
-seo-description: 描述雜湊碰撞為何及其出現方式。
-seo-title: 雜湊碰撞
+keywords: Analytics Implementation;hash;collision;prop;evar;hash
 solution: Analytics
 title: 雜湊碰撞
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 7dfd6e64-4a62-4087-bc28-fb867ec2b1b6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
