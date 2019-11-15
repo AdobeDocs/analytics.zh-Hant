@@ -1,13 +1,11 @@
 ---
 description: 此為趨勢報告，顯示選取時段 (小時、日、週、月份、季度或年) 內網站頁面的檢視次數。您可利用此報告來追蹤網站中每個頁面的檢視次數，以及整個網站的頁面檢視次數總和。
-seo-description: 此為趨勢報告，顯示選取時段 (小時、日、週、月份、季度或年) 內網站頁面的檢視次數。您可利用此報告來追蹤網站中每個頁面的檢視次數，以及整個網站的頁面檢視次數總和。
-seo-title: 頁面檢視
 solution: Analytics
 title: 頁面檢視
-topic: 報表
+topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
