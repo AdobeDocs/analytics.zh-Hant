@@ -1,14 +1,12 @@
 ---
 description: 在 DFA 與 Adobe® 收集伺服器可相互通訊後，您即可在「報告與分析」中產生包含 DFA 資料的報表。
 keywords: DFA
-seo-description: 在 DFA 與 Adobe® 收集伺服器可相互通訊後，您即可在「報告與分析」中產生包含 DFA 資料的報表。
-seo-title: 使用 DFA 資料的分析報表
 solution: Analytics
 title: 使用 DFA 資料的分析報表
 topic: Data connectors
-uuid: a4fe4a6c-f4a4-431d-bce9-9edbcafed6
+uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
