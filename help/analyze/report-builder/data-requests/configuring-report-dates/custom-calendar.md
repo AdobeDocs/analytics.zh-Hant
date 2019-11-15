@@ -1,13 +1,11 @@
 ---
 description: Report Builder 使用 Analytics 自訂日曆。您可以使用日曆來定義一週和一年的第一天，或使用其他零售日曆類型。日曆格式的作用各異，包括銷售比較和預測標準化，工資成本分析或實地盤存規範。
-seo-description: Report Builder 使用 Analytics 自訂日曆。您可以使用日曆來定義一週和一年的第一天，或使用其他零售日曆類型。日曆格式的作用各異，包括銷售比較和預測標準化，工資成本分析或實地盤存規範。
-seo-title: 自訂日曆
 solution: Analytics
 title: 自訂日曆
-topic: Report Builder
+topic: Report builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
