@@ -1,11 +1,9 @@
 ---
 description: 選取量度旁的齒輪圖示，即可指定量度類型和歸因模型。
-seo-description: 選取量度旁的齒輪圖示，即可指定量度類型和歸因模型。
-seo-title: 量度類型和歸因
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
