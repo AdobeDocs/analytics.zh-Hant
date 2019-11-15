@@ -1,13 +1,11 @@
 ---
 description: 顯示的工作可能會附帶幾種狀態標籤中的其中一種。
 keywords: Data Feed;job;status;waiting for data;failed;ready;processing;complete;no data
-seo-description: 顯示的工作可能會附帶幾種狀態標籤中的其中一種。
-seo-title: 工作狀態
 solution: Analytics
 title: 工作狀態
 uuid: 0058b83f-7bff-4fd0-bb9f-ab15616d29cf
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
