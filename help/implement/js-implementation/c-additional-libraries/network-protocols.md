@@ -1,14 +1,12 @@
 ---
 description: WAP 和 I-Mode 是現今所使用的兩個主要通訊協定或標準。WAP 主要用於美國，而 I-Mode 則在日本和歐洲廣受使用。
-keywords: Analytics 實施;wap;i-mode
-seo-description: WAP 和 I-Mode 是現今所使用的兩個主要通訊協定或標準。WAP 主要用於美國，而 I-Mode 則在日本和歐洲廣受使用。
-seo-title: 行動網路通訊協定
+keywords: Analytics Implementation;wap;i-mode
 solution: Analytics
 title: 行動網路通訊協定
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: b453677c-7449-4174-a243-a0eb024b319d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
