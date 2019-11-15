@@ -1,13 +1,11 @@
 ---
 description: 從購物車移除項目的次數。此值來自於 scRemove 事件。
-seo-description: 從購物車移除項目的次數。此值來自於 scRemove 事件。
-seo-title: 購物車移除
 solution: Analytics
 title: 購物車移除
-topic: 量度
-uuid: bddd5c63-e906-472a-8aec-a342 f417 ddfa
+topic: Metrics
+uuid: bddd5c63-e906-472a-8aec-a342f417ddfa
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
