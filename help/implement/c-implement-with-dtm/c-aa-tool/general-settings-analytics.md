@@ -1,14 +1,12 @@
 ---
 description: 用於部署 Adobe Analytics 之動態標籤管理員「一般」設定的欄位描述。
-keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;一般設定;歐盟法規遵循;字元集;貨幣代碼;追蹤伺服器;SSL 追蹤伺服器
-seo-description: 用於部署 Adobe Analytics 之動態標籤管理員「一般」設定的欄位描述。
-seo-title: 一般
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;general settings;eu compliance;character set;currency code;tracking server;ssl tracking server
 solution: Analytics
 title: 一般
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
