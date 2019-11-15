@@ -1,13 +1,11 @@
 ---
 description: Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，用來監控您網頁的觀眾參與情形。
-seo-description: Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，用來監控您網頁的觀眾參與情形。
-seo-title: Activity Map 概觀
 solution: Analytics
 title: Activity Map 概觀
-topic: Activity Map
+topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
-translation-type: ht
-source-git-commit: e830bad6eae774a82b0d1ec05fa71bba9cc32d2b
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
