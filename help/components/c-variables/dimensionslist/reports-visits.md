@@ -1,13 +1,11 @@
 ---
 description: 顯示指定時段內整個網站的造訪次數。
-seo-description: 顯示指定時段內整個網站的造訪次數。
-seo-title: 瀏覽
 solution: Analytics
 title: 瀏覽
-topic: 報表
-uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2b0a7
+topic: Reports
+uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
