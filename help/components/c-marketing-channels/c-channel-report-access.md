@@ -1,14 +1,12 @@
 ---
 description: 說明如何執行行銷渠道報表、授予有限的管理員使用者權利以及報表的使用者群組權限。
-seo-description: 說明如何執行行銷渠道報表、授予有限的管理員使用者權利以及報表的使用者群組權限。
-seo-title: 報表存取
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 報表存取
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5da9f2e7-582b-40e4-a027-b5248065b89c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
