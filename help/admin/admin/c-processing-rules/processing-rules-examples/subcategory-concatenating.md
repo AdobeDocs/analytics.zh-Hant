@@ -1,14 +1,12 @@
 ---
 description: 您可使用串連選項結合其他值，用來填入值。
-seo-description: 您可使用串連選項結合其他值，用來填入值。
-seo-title: 串連類別和頁面名稱以新增子類別
 solution: Analytics
-subtopic: 處理規則
+subtopic: Processing rules
 title: 串連類別和頁面名稱以新增子類別
-topic: 管理工具
+topic: Admin tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
