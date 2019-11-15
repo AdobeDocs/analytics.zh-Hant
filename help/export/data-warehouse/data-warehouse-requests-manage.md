@@ -1,13 +1,11 @@
 ---
-description: 「要求管理員」可讓您檢視或複製要求，以及重新排列要求的優先順序。
-seo-description: 「請求管理員」可讓您檢視或複製要求，以及重新排列要求的優先順序。
-seo-title: 管理 Data Warehouse 請求
+description: 「請求管理員」可讓您檢視或複製要求，以及重新排列要求的優先順序。
 solution: Analytics
 title: 管理 Data Warehouse 請求
-topic: Data Warehouse
+topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
