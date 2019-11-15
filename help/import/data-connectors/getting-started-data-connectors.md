@@ -1,10 +1,8 @@
 ---
 description: 將協力廠商應用程式的追蹤資料匯入 Analytics。
-seo-description: 登入資料連接器；從協力廠商應用程式將追蹤資料匯入Analytics、新增整合、資料連接器主控台。
-seo-title: Analytics資料連接器
 title: Analytics資料連接器快速入門
 translation-type: tm+mt
-source-git-commit: 757814b2f7163fdc915c5c5c770f956f9733c1ba
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -65,7 +63,7 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 
 **區段**
 
-* [!UICONTROL 放棄購買]: 訪客新增項目至購物車但未購買的百分比。 一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
+* [!UICONTROL  放棄購買]: 訪客新增項目至購物車但未購買的百分比。一般來說，此百分比是「訂單數」除以「購物車新增項目數」所組成的計算量度。
 * [!UICONTROL 購買]: 根據特定產品中的訊息 ID 而進行購買的接收者 ID (或是訪客 ID)。
 * [!UICONTROL 產品檢視]:類似於「 [!UICONTROL 購物車放棄]」，這也是計算量度。 It reports [!UICONTROL Product Views] divided by Orders, because customers' viewing the product shows some interest.
 
@@ -82,14 +80,14 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 > [!NOTE] 如果定義產品時沒有關聯事件，則會自動觸發prodView事件。
 如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
-[!UICONTROL 放棄購買]&#x200B;: 當使用者新增產品至購物車時會啟動:
+[!UICONTROL 放棄購買]: 當使用者新增產品至購物車時會啟動:
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL 購買]&#x200B;: 在購買確認頁面上啟動:
+[!UICONTROL 購買]: 在購買確認頁面上啟動:
 
 ```
 s.products=";
