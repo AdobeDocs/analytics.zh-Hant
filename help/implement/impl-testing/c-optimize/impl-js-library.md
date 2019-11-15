@@ -1,15 +1,13 @@
 ---
 description: JavaScript 程式庫檔案可在初次載入後，在使用者的瀏覽器中快取，以限制所需下載的資料量。
-keywords: Analytics 實作
-seo-description: JavaScript 程式庫檔案可在初次載入後，在使用者的瀏覽器中快取，以限制所需下載的資料量。
-seo-title: Javascript 程式庫檔案
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: Javascript 程式庫檔案
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 52940a85-4905-4302-9c8f-d93327e2e7b6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
