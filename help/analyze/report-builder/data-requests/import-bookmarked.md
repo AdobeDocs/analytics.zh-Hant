@@ -1,13 +1,11 @@
 ---
 description: 現在，所有書籤化報表與儀表板報表都已列為「請求精靈步驟 1」中的維度，並且可匯入作為 Report Builder 請求。
-seo-description: 現在，所有書籤化報表與儀表板報表都已列為「請求精靈步驟 1」中的維度，並且可匯入作為 Report Builder 請求。
-seo-title: 匯入書籤化報表與儀表板報表
 solution: Analytics
 title: 匯入書籤化報表與儀表板報表
-topic: Report Builder
+topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
