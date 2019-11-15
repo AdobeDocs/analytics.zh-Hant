@@ -1,14 +1,12 @@
 ---
 description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 keywords: Analysis Workspace
-seo-description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
-seo-title: 傳送檔案 - 排程專案進行傳送
 solution: Analytics
 title: 傳送檔案 - 排程專案進行傳送
-topic: Reports and Analytics
-uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b66a
+topic: Reports and analytics
+uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
