@@ -1,15 +1,13 @@
 ---
 description: 測量訪客的捲動活動，以查看訪客在前往其他頁面前所檢視的頁面比例。此外掛程式可讓您判斷使用者平均對您的內容會做多少檢視，以便您根據使用者行為對頁面長度與版面配置進行最佳化。
-keywords: Analytics 實作
-seo-description: 測量訪客的捲動活動，以查看訪客在前往其他頁面前所檢視的頁面比例。此外掛程式可讓您判斷使用者平均對您的內容會做多少檢視，以便您根據使用者行為對頁面長度與版面配置進行最佳化。
-seo-title: getPercentPageViewed
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: getPercentPageViewed
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 1751dcdb-699f-4bd1-8bcb-5e62fa24896a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
