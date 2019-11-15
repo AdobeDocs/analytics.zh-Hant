@@ -1,11 +1,9 @@
 ---
 description: 「點擊類型」維度可表示收集點擊時，應用程式位於前景或背景。
-seo-description: 「點擊類型」維度可表示收集點擊時，應用程式位於前景或背景。
-seo-title: 點擊類型
 title: 點擊類型
 uuid: 14a04260-27b2-4f59-b0a5-80387d39e1a9
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
