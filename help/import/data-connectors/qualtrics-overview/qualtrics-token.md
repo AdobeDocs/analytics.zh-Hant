@@ -1,14 +1,12 @@
 ---
 description: 完成整合精靈需要Token。 若要尋找此ID，請完成下列作業。
-seo-description: 完成整合精靈需要Token。 若要尋找此ID，請完成下列作業。
-seo-title: 產生您的Qualtrics Adobe Analytics Token
 solution: Analytics
 subtopic: Qualtrics
 title: 產生您的Qualtrics Adobe Analytics Token
 topic: Data connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
