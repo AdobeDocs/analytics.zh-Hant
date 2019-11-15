@@ -1,14 +1,12 @@
 ---
 description: 查閱表格以根據 page_event 值來判斷點擊的來源。
-keywords: 資料饋送；點擊；source
-seo-description: 查閱表格以根據 page_event 值來判斷點擊的來源。
-seo-title: 點擊來源查閱
+keywords: Data Feed;hit;source
 solution: Analytics
 title: 點擊來源查閱
-topic: Reports & Analytics
-uuid: b4ef2366-a7 c3-421b-8dc6-279706Fe277 f
+topic: Reports and analytics
+uuid: b4ef2366-a7c3-421b-8dc6-279706fe277f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
