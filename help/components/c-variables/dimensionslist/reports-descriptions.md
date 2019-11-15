@@ -1,13 +1,11 @@
 ---
 description: 「Reports & Analytics」中可用的預先定義報告的定義，以及其他 Analytics 工具 (例如 Analysis Workspace) 中可用的維度。
-seo-description: 「Reports & Analytics」中可用的預先定義報告的定義，以及其他 Analytics 工具 (例如 Analysis Workspace) 中可用的維度。
-seo-title: 維度說明
 solution: Analytics
 title: 維度說明
-topic: 報表
+topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
