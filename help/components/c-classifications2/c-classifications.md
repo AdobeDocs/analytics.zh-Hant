@@ -1,14 +1,12 @@
 ---
 description: 分類是將Analytics變數資料分類，然後在您產生報表時以不同方式顯示資料的方式。
-seo-description: 分類是將Analytics變數資料分類，然後在您產生報表時以不同方式顯示資料的方式。
-seo-title: 關於分類
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 關於分類
-topic: 管理工具
+topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
