@@ -1,13 +1,11 @@
 ---
 description: 三種登入 Report Builder 之方法的相關資訊。
-seo-description: 三種登入 Report Builder 之方法的相關資訊。
-seo-title: 登入 Report Builder
 solution: Analytics
 title: 登入 Report Builder
-topic: Report Builder
+topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
