@@ -1,13 +1,11 @@
 ---
 description: 設定即時報表的管理步驟。
-seo-description: 設定即時報表的管理步驟。
-seo-title: 即時報表設定
 solution: Analytics
 title: 即時報表設定
-topic: 管理工具
+topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
