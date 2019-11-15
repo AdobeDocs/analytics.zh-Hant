@@ -1,14 +1,12 @@
 ---
 description: 選取「通用 (交易 ID)」類別，可整合交易 ID。
-seo-description: 選取「通用 (交易 ID)」類別，可整合交易 ID。
-seo-title: 交易 ID
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 交易 ID
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: f3370bb7-3f28-460b-a20d-c9e58d7301d4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
