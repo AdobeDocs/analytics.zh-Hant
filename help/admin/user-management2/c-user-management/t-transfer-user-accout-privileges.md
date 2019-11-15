@@ -1,14 +1,12 @@
 ---
 description: 步驟說明如何從一個使用者帳戶將使用者帳戶項目 (控制面板、計算量度、日曆事件、警報、書籤、區段、Analysis Workspace 專案及已排程專案) 指派到另一個使用者的帳戶。
-seo-description: 步驟說明如何從一個使用者帳戶將使用者帳戶項目 (控制面板、計算量度、日曆事件、警報、書籤、區段、Analysis Workspace 專案及已排程專案) 指派到另一個使用者的帳戶。
-seo-title: 轉移使用者帳戶項目
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 轉移使用者帳戶項目
-topic: 管理工具
-uuid: b083c622-1397-45ab-8796-f7 cdc7043 ec6
+topic: Admin tools
+uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 translation-type: tm+mt
-source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -32,5 +30,5 @@ source-git-commit: f608acafd77fd6469f553f30c45f54484028890a
 
    >[!NOTE]
    >
-   >無法轉讓臨機分析資源。如果貴組織使用多間登入公司，便無法在各登入公司之間轉移任何事物。
+   >無法傳輸臨機分析資源。 如果貴組織使用多間登入公司，便無法在各登入公司之間轉移任何事物。
 
