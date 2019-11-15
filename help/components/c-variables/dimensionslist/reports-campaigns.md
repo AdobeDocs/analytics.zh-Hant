@@ -1,13 +1,11 @@
 ---
-description: 顯示您廣告行銷的成效。您可以看到帶給您最大流量的廣告行銷類型，以及負責推廣這些行銷的員工。
-seo-description: 顯示您廣告行銷的成效。您可以看到，哪類廣告行銷帶給您最大流量，以及負責促進這些行銷的員工。
-seo-title: 促銷活動
+description: 顯示您廣告行銷的成效。您可以看到，哪類廣告行銷帶給您最大流量，以及負責促進這些行銷的員工。
 solution: Analytics
 title: 促銷活動
-topic: 報表
+topic: Reports
 uuid: ce6379cb-8617-44f4-b012-945fe1bd98d0
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
