@@ -1,14 +1,12 @@
 ---
 description: 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。
-keywords: Analytics 實施;eVar;轉換變數;eVar 值;轉換;成功事件
-seo-description: 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。
-seo-title: 轉換變數 (eVar)
+keywords: Analytics Implementation;eVar;conversion variable;eVar value;conversion;success event
 solution: Analytics
 title: 轉換變數 (eVar)
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
