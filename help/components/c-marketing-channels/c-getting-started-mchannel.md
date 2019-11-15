@@ -1,14 +1,12 @@
 ---
 description: 「行銷渠道」常用來提供訪客如何進入您的網站的相關資訊。您可以根據所要追蹤的渠道以及追蹤方式，建立及自訂行銷渠道處理規則。
-seo-description: 「行銷渠道」常用來提供訪客如何進入您的網站的相關資訊。您可以根據所要追蹤的渠道以及追蹤方式，建立及自訂行銷渠道處理規則。
-seo-title: 開始使用行銷渠道
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 開始使用行銷渠道
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: d38cb0e5-0b75-4690-b1da-fea2fdff9e7d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -44,7 +42,7 @@ See [Channels and Rules](/help/components/c-marketing-channels/c-channels-rules.
 
 >[!NOTE]
 >
-> 如果先前未設定行銷渠道，則會顯 [示自動設](/help/components/c-marketing-channels/c-channel-autosetup.md) 定。 此設定提供數個預先設定好的行銷渠道，供您進行自訂。Adobe 建議您使用這些規則作為範本。不過，如果您已有確定的渠道定義，則可跳過自動設定。
+>如果先前未設定行銷渠道，則會顯 [示自動設](/help/components/c-marketing-channels/c-channel-autosetup.md) 定。 此設定提供數個預先設定好的行銷渠道，供您進行自訂。Adobe 建議您使用這些規則作為範本。不過，如果您已有確定的渠道定義，則可跳過自動設定。
 
 ![](assets/step3_icon.png)在[!UICONTROL 「行銷渠道處理規則」]頁面上設定或調整每個渠道的規則。
 
