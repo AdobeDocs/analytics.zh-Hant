@@ -1,13 +1,11 @@
 ---
-description: 顯示回訪客戶再次造訪與初次造訪之間相隔的時間長度，以及歸入各時間長度類別的造訪次數。使用報告可以查看回頭訪客未瀏覽您網站的平均時間，以及回頭客戶的趨勢。
-seo-description: 顯示回訪客戶再次造訪與初次造訪之間相隔的時間長度，以及歸入各時間長度類別的造訪次數。使用報表可以查看回頭訪客未存取您網站的平均時間，以及回頭客戶的趨勢。
-seo-title: 回訪頻度
+description: 顯示回訪客戶再次造訪與初次造訪之間相隔的時間長度，以及歸入各時間長度類別的造訪次數。使用報表可以查看回頭訪客未存取您網站的平均時間，以及回頭客戶的趨勢。
 solution: Analytics
 title: 回訪頻度
-topic: 報表
+topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
