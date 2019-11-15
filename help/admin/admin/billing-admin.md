@@ -1,13 +1,11 @@
 ---
 description: 帳單頁面可讓您存取帳單資訊，包括每個報表套裝的流量細節。只有獲授權的管理員可存取此頁面。
-seo-description: 帳單頁面可讓您存取帳單資訊，包括每個報表套裝的流量細節。只有獲授權的管理員可存取此頁面。
-seo-title: 帳單
 solution: Analytics
 title: 帳單
-topic: 管理工具
+topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
