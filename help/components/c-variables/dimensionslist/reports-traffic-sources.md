@@ -1,13 +1,11 @@
 ---
 description: 顯示促進網站流量的網站位置。您可以看到您網域外部的哪些搜尋引擎和網站為您帶來訪客。
-seo-description: 顯示促進網站流量的網站位置。您可以看到您網域外部的哪些搜尋引擎和網站為您帶來訪客。
-seo-title: 流量來源
 solution: Analytics
 title: 流量來源
-topic: 報表
+topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
