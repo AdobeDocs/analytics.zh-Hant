@@ -1,13 +1,11 @@
 ---
 description: 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
-seo-description: 代碼管理器可讓您下載網站和行動平台的資料收集代碼。
-seo-title: 代碼管理器
 solution: Analytics
 title: 代碼管理器
-topic: 管理工具
+topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
 translation-type: tm+mt
-source-git-commit: 4e3e164f5c28290ac280343d95cf5cb1186e09cd
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
