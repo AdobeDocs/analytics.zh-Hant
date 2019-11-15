@@ -1,11 +1,9 @@
 ---
 description: 欄設定可讓您設定欄格式，部分可設為條件式。
-seo-description: 欄設定可讓您設定欄格式，部分可設為條件式。
-seo-title: 欄設定
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
