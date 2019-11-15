@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 公司設定概觀
 title: 公司設定概觀
-uuid: 175de01f-02ae-44e2-ae94-fa49733 e2703
+uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,11 +12,11 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 [!UICONTROL 「公司設定」]頁面可讓您設定要對您的組織所管理的所有報表套裝套用的設定。
 
-**[!UICONTROL 「分析]** &gt; **[!UICONTROL 管理]** &gt; **[!UICONTROL 公司設定」]**
+**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;公 **[!UICONTROL 司設定]**
 
-+ [功能存取等級](feature-access-levels.md)
++ [功能存取層級](feature-access-levels.md)
 + [網站服務](web-services-admin.md)
-+ [報告建立工具報表](report-builder-reports-admin.md)
++ [Report Builder 報表](report-builder-reports-admin.md)
 + [單一登入](single-signon-admin.md)
 + [待定動作](pending-actions-admin.md)
 + [品牌結合](co-branding-admin.md)
