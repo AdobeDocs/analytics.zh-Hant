@@ -1,11 +1,9 @@
 ---
 description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型。
-seo-description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型。
-seo-title: 色階分佈圖
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
