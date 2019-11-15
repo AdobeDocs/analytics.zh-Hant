@@ -1,13 +1,11 @@
 ---
 description: 定義提供服務和產品 (這些服務和產品通常透過未來參與而售出) 相關資訊之網站的一般設定。
-seo-description: 定義提供服務和產品 (這些服務和產品通常透過未來參與而售出) 相關資訊之網站的一般設定。
-seo-title: 銷售機會開發
 solution: Analytics
 title: 銷售機會開發
-topic: 管理工具
+topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
