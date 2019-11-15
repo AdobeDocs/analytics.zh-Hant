@@ -1,11 +1,9 @@
 ---
 description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Analytics程式碼。
-seo-description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Analytics程式碼。
-seo-title: Analytics外掛程式程式碼
 title: Analytics外掛程式程式碼
 uuid: c75a6cd2-ee7a-4c2f-98a8-4618d0617b4f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
