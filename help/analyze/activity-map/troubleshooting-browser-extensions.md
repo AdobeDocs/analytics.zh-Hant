@@ -1,13 +1,11 @@
 ---
 description: 列出與使用 Activity Map 不相容的瀏覽器參數。請停用這些設定。
-seo-description: 列出與使用 Activity Map 不相容的瀏覽器參數。請停用這些設定。
-seo-title: 疑難排解瀏覽器延伸模組
 solution: Analytics
 title: 疑難排解瀏覽器延伸模組
-topic: Activity Map
+topic: Activity map
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
-translation-type: ht
-source-git-commit: d27e045487453d8e411afe788d5ee9160b3c0767
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
