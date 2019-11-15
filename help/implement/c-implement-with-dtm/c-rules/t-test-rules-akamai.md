@@ -1,13 +1,11 @@
 ---
 description: 如果您使用 Akamai 託管，請自主控台測試取消發佈規則。
-keywords: Dynamic Tag Management;規則;Switcher 外掛程式;Akamai;測試 Akamai;取消發佈規則;測試取消發佈規則;除錯規則
-seo-description: 如果您使用 Akamai 託管，請自主控台測試取消發佈規則。
-seo-title: 為 Akamai 主機測試未發佈的規則
+keywords: Dynamic Tag Management;rule;switcher plugin;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 為 Akamai 主機測試未發佈的規則
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
