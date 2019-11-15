@@ -1,11 +1,9 @@
 ---
 description: 資料連接器整合精靈會逐步引導您完成資料連接器整合程式。
-seo-description: 資料連接器整合精靈會逐步引導您完成資料連接器整合程式。
-seo-title: Silverpop整合
 title: Silverpop整合
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -116,7 +114,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
    <td colname="col3"> <p>此整合會建立顯示在「合作夥伴區段」區段中的合作夥伴定義區段。 </p> <p>此外，您也可以選取現有的報表套裝層級區段，以納入整合中。 </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td colname="col2"> <p> 存取要求 </p> </td> 
+   <td colname="col2"> <p>存取要求 </p> </td> 
    <td colname="col03"> <p>(3)資料設定 </p> </td> 
    <td colname="col3"> <p> （必要）啟用 <span class="uicontrol"> 允許此整合以下載產品資料</span>。 </p> <p>可選：允許此整合下載收入、訂購和件數。 </p> </td> 
   </tr> 
