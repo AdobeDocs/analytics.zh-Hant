@@ -1,13 +1,11 @@
 ---
 description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報告資料、變更以圖形呈現資料的方式、變更日期精細度等等。
-seo-description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報告資料、變更以圖形呈現資料的方式、變更日期精細度等等。
-seo-title: 自訂報表概觀
 solution: Analytics
 title: 自訂報表概觀
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
