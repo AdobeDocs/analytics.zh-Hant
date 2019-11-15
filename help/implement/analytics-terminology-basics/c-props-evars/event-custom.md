@@ -1,14 +1,12 @@
 ---
 description: 自訂事件可讓您定義所要追蹤的成功類型。
-keywords: Analytics 實施;自訂事件
-seo-description: 自訂事件可讓您定義所要追蹤的成功類型。
-seo-title: 什麼是自訂事件?
+keywords: Analytics Implementation;custom event
 solution: Analytics
 title: 什麼是自訂事件?
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 8e78ba04-9b4c-4566-980c-c24dd9d82236
-translation-type: ht
-source-git-commit: d7056c233e784a073c75c55f396ff43c9e0d1c71
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
