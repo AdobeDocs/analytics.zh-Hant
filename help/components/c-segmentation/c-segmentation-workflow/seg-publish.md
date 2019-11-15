@@ -1,13 +1,11 @@
 ---
 description: 可讓您在「對象庫」、「目標」和「對象管理員」中，將區段用於行銷活動。
-seo-description: 可讓您在「對象庫」、「目標」和「對象管理員」中，將區段用於行銷活動。
-seo-title: 發佈區段至 Experience Cloud
 solution: Analytics
 title: 發佈區段至 Experience Cloud
-topic: 區段
+topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
