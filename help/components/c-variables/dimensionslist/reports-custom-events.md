@@ -1,13 +1,11 @@
 ---
 description: 您希望在訪客完成的網站上轉換動作。這些動作可能是註冊、訂閱、填寫銷售機會表單、啟動聊天、購買、預訂或完成調查。
-seo-description: 您希望在訪客完成的網站上轉換動作。這些動作可能是註冊、訂閱、填寫銷售機會表單、啟動聊天、購買、預訂或完成調查。
-seo-title: 自訂事件
 solution: Analytics
 title: 自訂事件
-topic: 報表
+topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
