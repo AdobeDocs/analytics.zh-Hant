@@ -1,14 +1,12 @@
 ---
 description: 要在不使用 JavaScript 的情況下實施 Analytics，會有其他需求和設定需要考量。
-keywords: Analytics 實施;區分大小寫;為查詢參數編碼;無效字元;安全影像要求;最大變數長度;反向連結;URL;快取;命名空間
-seo-description: 要在不使用 JavaScript 的情況下實施 Analytics，會有其他需求和設定需要考量。
-seo-title: 不使用 JavaScript 指南實作
+keywords: Analytics Implementation;case sensitive;encode query parameters;invalid characters;secure image requests;maximum variable length;referring;url;caching;namespace
 solution: Analytics
 title: 不使用 JavaScript 指南實作
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
