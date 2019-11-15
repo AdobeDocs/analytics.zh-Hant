@@ -1,13 +1,11 @@
 ---
 description: 設定您要條件觸發的動作。
-keywords: Dynamic Tag Management;規則;建立規則;新規則;JavaScript/第三方標籤;設定條件的動作;新增指令檔;非循序 JavaScript;循序 JavaScript;非循序 HTML
-seo-description: 設定您要條件觸發的動作。
-seo-title: 設定條件要觸發的動作
+keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 設定條件要觸發的動作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
