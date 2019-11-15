@@ -1,13 +1,11 @@
 ---
 description: 西曆模式以外的日曆選項。選項包括 4-4-5、4-5-4 和 5-4-4 日曆模式，這三種均用作零售業的標準。此外，報告還提供可以自行設定的完全自訂日曆選項。
-seo-description: 西曆模式以外的日曆選項。選項包括 4-4-5、4-5-4 和 5-4-4 日曆模式，這三種均用作零售業的標準。此外，報告還提供可以自行設定的完全自訂日曆選項。
-seo-title: 自訂日曆
 solution: Analytics
 title: 自訂日曆
-topic: 管理工具
+topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
