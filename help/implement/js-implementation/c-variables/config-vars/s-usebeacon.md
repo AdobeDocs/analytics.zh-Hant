@@ -1,10 +1,9 @@
 ---
 title: useBeacon
 description: useBeacon可讓您強制AppMeasurement使用瀏覽器sendBeacon API
-keywords: Analytics 實作
-seo-description: useBeacon可讓您強制AppMeasurement使用瀏覽器sendBeacon API
+keywords: Analytics Implementation
 translation-type: tm+mt
-source-git-commit: f89d909e539cee2b78798c165fcb405773418056
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
