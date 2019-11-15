@@ -1,11 +1,10 @@
 ---
 description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
-keywords: Analytics 實作
-seo-description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
+keywords: Analytics Implementation
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
 
@@ -101,4 +100,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*注意: 單一連結只能被視為檔案下載或退出連結受到追蹤，兩者皆成立時，會優先將其視為檔案下載。如果連結是根據參數和的退出連結和檔案下載，`linkDownloadFileTypes``linkInternalFilters`則會追蹤並報告為檔案下載，而非退出連結。*
+*注意: 單一連結只能被視為檔案下載或退出連結受到追蹤，兩者皆成立時，會優先將其視為檔案下載。如果連結是根據參數和的退出連結和檔案下載，`linkDownloadFileTypes``linkInternalFilters`則會追蹤並報告為檔案下載，
