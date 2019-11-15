@@ -1,18 +1,16 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 每季獨特訪客
 solution: Analytics
-title: 每季獨特訪客
-topic: 量度
-uuid: a61e982d-a0 c6-4915-1desk-1e203 ee2 cvent
+title: 每季不重複訪客
+topic: Metrics
+uuid: a61e982d-a0c6-4915-9bed-1e203ee2cfee
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 每季獨特訪客
+# 每季不重複訪客
 
 | 使用 | 說明 |
 |---|---|
