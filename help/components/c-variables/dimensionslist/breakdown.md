@@ -1,13 +1,11 @@
 ---
 description: 當您所報告的特定區段很重要時，您可能會想進一步瞭解它，以及它與其他維度的關係。 這通常稱為將維度劃分為另一個維度。 劃分是指整合兩個或以上 Analytics 變數的動作。
-seo-description: 當您所報告的特定區段很重要時，您可能會想進一步瞭解它，以及它與其他維度的關係。 這通常稱為將維度劃分為另一個維度。 劃分是指整合兩個或以上 Analytics 變數的動作。
-seo-title: 劃分
 solution: Analytics
 title: 劃分
-topic: 報表
+topic: Reports
 uuid: 0f2c8c37-f46e-4d6c-9ac2-eace48e8708f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
