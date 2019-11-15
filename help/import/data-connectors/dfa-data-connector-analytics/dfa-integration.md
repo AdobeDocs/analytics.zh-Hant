@@ -1,14 +1,12 @@
 ---
 description: '要設定 DFA 整合，必須執行下列工作 '
 keywords: DFA
-seo-description: '要設定 DFA 整合，必須執行下列工作 '
-seo-title: DFA 整合
 solution: Analytics
 title: DFA 整合
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -150,7 +148,7 @@ DFA 的 Genesis 整合採用 DFA Floodlight 設定 ID (dfa_SPOTID)，這可以�
 
 ### DFA 的整合模組 {#section-fa00e42a732a4e27a4ab3dfcfeae1a5b}
 
-The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). 當您從「代碼管理器」下載AppMeasurement for Javascript代碼時，「整合模組」會作為。zip檔案的一部分。 只有在您需要其他協助才能找到Adobe顧問時，才與您聯絡。
+The DFA integration leverages the Adobe Experience Cloud Integrate Module, which adds functionality to your core JavaScript data collection code ( `s_code.js`). 當您從「代碼管理器」下載AppMeasurement for Javascript代碼時，「整合模組」會作為。zip檔案的一部分。 只有在您需要其他協助尋找時，才能與Adobe顧問聯絡。
 
 Insert the Integrate Module code in the `Modules` section of your website's `s_code.js` file.
 
