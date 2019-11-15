@@ -1,13 +1,11 @@
 ---
 description: 定義電子商務網站的一般設定。
-seo-description: 定義電子商務網站的一般設定。
-seo-title: 商務
 solution: Analytics
 title: 商務
-topic: 管理工具
+topic: Admin tools
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
