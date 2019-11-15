@@ -1,12 +1,10 @@
 ---
 description: 部署後，您應驗證整合是否透過下列檢查成功傳輸資料。
-seo-description: 部署後，您應驗證整合是否透過下列檢查成功傳輸資料。
-seo-title: 驗證整合
 solution: Analytics
 title: 驗證整合
 uuid: 5f0f9f69-e932-4472-8578-dd3af1315c0c
 translation-type: tm+mt
-source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -27,4 +25,4 @@ source-git-commit: f326b29bb73fd6e8630957c43dfd89f47b711986
 
       ![](assets/reporting.png)
 
-   1. 尋找Responsys報表。 在成功部署後的24-48小時內應會顯示此資料。
+   1. 尋找Responsys報表。  在成功部署後的24-48小時內應會顯示此資料。
