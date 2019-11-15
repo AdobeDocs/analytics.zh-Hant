@@ -1,13 +1,11 @@
 ---
 description: 參與率量度會將成功事件的全部評分指派給瀏覽期間傳遞之 eVar 的所有值。參與率量度可用於判斷哪些頁面、促銷活動或其他自訂變數值對網站成功的貢獻最大。參與率是基於瀏覽。發生事件時，點擊前 (與包含點擊) 之瀏覽中的所有 eVar 值會收到參與率評分 (無論其過期設定違和)。
-seo-description: 參與率量度會將成功事件的全部評分指派給瀏覽期間傳遞之 eVar 的所有值。參與率量度可用於判斷哪些頁面、促銷活動或其他自訂變數值對網站成功的貢獻最大。參與率是基於瀏覽。發生事件時，點擊前 (與包含點擊) 之瀏覽中的所有 eVar 值會收到參與率評分 (無論其過期設定違和)。
-seo-title: 參與率
 solution: Analytics
 title: 參與率
-topic: 量度
+topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
