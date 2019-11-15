@@ -1,13 +1,11 @@
 ---
 description: 使用 Dynamic Tag Management 建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
 keywords: Dynamic Tag Management
-seo-description: 使用 Dynamic Tag Management 建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實作方式。
-seo-title: 手動實作 Adobe Analytics (舊版)
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 手動實作 Adobe Analytics (舊版)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -42,8 +40,8 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
       |---|---|
       | 工具類型 | Experience Cloud 解決方案，例如 Analytics、Target、Social 等。 |
       | 工具名稱 | 此工具的名稱。此名稱會顯示[!UICONTROL 「概述」]索引標籤的[!UICONTROL 「已安裝工具」]下。 |
-      | 生產帳戶 ID | 進行資料收集時，您要使用之生產帳戶的代表數字。動態標籤管理會自動在生產與測試環境中安裝正確帳戶。 |
-      | 測試帳戶 ID | 在開發或測試環境中使用的數字。測試帳戶可讓您的測試資料與生產資料彼此分離。 |
+      | 生產帳戶 ID | 進行資料收集時，您要使用之生產帳戶的代表數字。「動態標記管理」會自動在生產與中繼環境中安裝正確的帳戶。 |
+      | 測試帳戶 ID | 在開發或測試環境中使用的數字。中繼帳戶可讓您將測試資料與生產資料分開。 |
 
 1. 按一下&#x200B;**[!UICONTROL 建立工具]**。
 
