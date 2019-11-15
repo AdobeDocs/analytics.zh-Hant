@@ -1,16 +1,14 @@
 ---
 description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
-seo-description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
-seo-title: 伺服器端轉送資料與程式碼參考
-title: 伺服器端轉送資料與程式碼參考
-uuid: 3eb3ea0f-a530-448d-bba5-6408b2490 dc8
+title: 伺服器端轉送資料和程式碼參考
+uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 伺服器端轉送資料與程式碼參考
+# 伺服器端轉送資料和程式碼參考
 
 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
 
@@ -20,8 +18,8 @@ Parameters prefixed with `d_*` identify special, system-level key-value pairs us
 
 | 參數 | 說明 |
 |--- |--- |
-| d_rs | (Gets set with legacy/tracking-server-based server-side forwarding) <br>Set to the report suites passed in with the hit to Analytics. |
-| d_dst_filter | (Gets set with report-suite-based server-side forwarding)  <br>Set to the report suite IDs passed in with the hit to Analytics. |
+| d_rs | （以舊版／追蹤伺服器式伺服器端轉送設定）設 <br>定為隨點擊傳入至Analytics的報表套裝。 |
+| d_dst_filter | （以報表套裝伺服器端轉送設定） <br>設定為隨點擊傳入至Analytics的報表套裝ID。 |
 | d_dst | 如果向 Analytics 發出的請求預期與要傳回給用戶端之目標相關的內容，請設定 d_dst=1<br>。 |
 | d_mid | 傳入 Analytics 的 Experience Cloud ID。 |
 
@@ -49,16 +47,16 @@ Parameters prefixed with `c_` identify customer-defined variables. 另請參閱 
 | c_browserWidth 和 c_browserHeight | 瀏覽器視窗寬度和高度。 |
 | c_campaign | 由 s.campaign 設定。 |
 | c_channel | 由 s.channel 設定。 |
-| c_clientDateTime | 時間戳記格式為dd/mm/yyy hh：mm：ss W TZ.TZ 的單位為分鐘，且符合 Date.getTimezoneOffset 方法的回傳。 |
+| c_clientDateTime | 時間戳格式為dd/mm/yyy hh:mm:ss W TZ。    TZ 的單位為分鐘，且符合 Date.getTimezoneOffset 方法的回傳。 |
 | c_colorDepth | 指定為 16 or 32 位元色彩。 |
 | c_connectionType | 指定連線類型。選項包括:<ul><li>數據機</li><li>LAN</li></ul> |
-| c_contextData.* | 範例:<ul><li>AppMeasurement：s. contextData</li><li>[「category」] =「news」；</li><li>訊號: c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括:是，不是，未知 |
+| c_contextData.* | 範例:<ul><li>AppMeasurement:s.contextData</li><li>["category"] = "news";</li><li>訊號: c_contextData.category=news</li></ul> |
+| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括: 是，否，未知 |
 | c_currencyCode | 用於交易的貨幣類型。 |
 | c_evar# | 自訂 eVar。 |
 | c_events | 由 s.events 設定。 |
 | c_hier# | 自訂階層變數。 |
-| c_javaEnabled | 指定 Java 是否可啟用。選項包括:是，不是，未知 |
+| c_javaEnabled | 指定 Java 是否可啟用。選項包括: 是，否，未知 |
 | c_javaScriptVersion | 瀏覽器支援的 JavaScript 版本。 |
 | c_latitude | 數值緯度。 |
 | c_linkClick | 選項包括：自訂，下載退出 |
@@ -67,7 +65,7 @@ Parameters prefixed with `c_` identify customer-defined variables. 另請參閱 
 | c_linkExitURL | 退出連結 URL。 |
 | c_list# | 自訂清單變數。 |
 | c_longitude | 數值經度。 |
-| c_mediaPlayerType | 適用於媒體串流追蹤請求。選項包括:其他，黃金時段 |
+| c_mediaPlayerType | 適用於媒體串流追蹤請求。選項包括:  其他，primetime |
 | c_pageName | 頁面名稱 (若有設定)。 |
 | c_pageURL | 瀏覽器網址列中的頁面位址。 |
 | c_products | 產品字串 (由 s.products 設定)。 |
