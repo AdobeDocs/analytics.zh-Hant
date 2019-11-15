@@ -1,14 +1,12 @@
 ---
 description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
-seo-description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
-seo-title: 適用於處理規則的維度
 solution: Analytics
-subtopic: 處理規則
+subtopic: Processing rules
 title: 適用於處理規則的維度
-topic: 管理工具
+topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
