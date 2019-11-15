@@ -1,18 +1,16 @@
 ---
-description: 說明如何新增及啟用流量變數報告的步驟。
-seo-description: 說明如何新增及啟用流量變數報表的步驟。
-seo-title: 啟用流量變數報表
+description: 說明如何新增及啟用流量變數報表的步驟。
 solution: Analytics
-title: 啟用流量變數報告
-topic: 管理工具
-uuid: c4109da1-4d46-407c-9ca7-cb22 ediaa68 ba
+title: 啟用流量變數報表
+topic: Admin tools
+uuid: c4109da1-4d46-407c-9ca7-cb22edaa68ba
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 啟用流量變數報告
+# 啟用流量變數報表
 
 說明如何新增及啟用流量變數報告的步驟。
 
