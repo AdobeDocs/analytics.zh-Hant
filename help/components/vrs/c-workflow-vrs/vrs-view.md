@@ -1,14 +1,12 @@
 ---
 description: 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相關資訊。
-keywords: 虛擬報表套裝
-seo-description: 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相關資訊。
-seo-title: 檢視虛擬報表套裝資訊
+keywords: Virtual Report Suite
 solution: Analytics
 title: 檢視虛擬報表套裝資訊
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
