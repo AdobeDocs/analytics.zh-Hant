@@ -1,14 +1,12 @@
 ---
 description: 開始建立虛擬報表套裝前，請謹記以下一些注意事項。
-keywords: 虛擬報表套裝
-seo-description: 開始建立虛擬報表套裝前，請謹記以下一些注意事項。
-seo-title: 建立虛擬報表套裝
+keywords: Virtual Report Suite
 solution: Analytics
 title: 建立虛擬報表套裝
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
