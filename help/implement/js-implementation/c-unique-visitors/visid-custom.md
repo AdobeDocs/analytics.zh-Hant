@@ -1,14 +1,12 @@
 ---
 description: 您可以實施自訂方法，設定 s.visitorID 變數以識別訪客。
-keywords: Analytics 實作
-seo-description: 您可以實施自訂方法，設定 s.visitorID 變數以識別訪客。
-seo-title: 自訂訪客 ID
+keywords: Analytics Implementation
 solution: Analytics
 title: 自訂訪客 ID
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
