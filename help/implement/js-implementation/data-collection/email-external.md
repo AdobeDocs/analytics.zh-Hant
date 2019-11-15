@@ -1,14 +1,12 @@
 ---
 description: 公司可使用 Analytics 來判斷電子郵件促銷活動是否成功。
-keywords: Analytics 實作
-seo-description: 公司可使用 Analytics 來判斷電子郵件促銷活動是否成功。
-seo-title: 外部電子郵件追蹤
+keywords: Analytics Implementation
 solution: Analytics
 title: 外部電子郵件追蹤
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: fa450f45-14cf-4d0d-a87c-14a946512a9b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
