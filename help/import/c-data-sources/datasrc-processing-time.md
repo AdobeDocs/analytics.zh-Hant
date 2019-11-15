@@ -1,12 +1,10 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 資料來源處理時間
 solution: Analytics
 title: 資料來源處理時間
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -14,7 +12,7 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 # 資料來源處理時間
 
 >[!Note]
->任何資料處理時段都應視為近似，不構成服務層級合約(SLA)。
+>任何資料處理時段都應視為近似，不構成服務等級合約(SLA)。
 
 資料處理時間
 
