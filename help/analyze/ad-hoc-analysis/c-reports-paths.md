@@ -1,13 +1,11 @@
 ---
 description: 顯示訪客存取您網站網頁之順序的相關資訊。您可以收集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
-seo-description: 顯示訪客存取您網站網頁之順序的相關資訊。您可以收集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
-seo-title: 路徑報表
 solution: Analytics
 title: 路徑報表
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
