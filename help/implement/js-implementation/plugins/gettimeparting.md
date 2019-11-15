@@ -1,15 +1,13 @@
 ---
 description: getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。當 Analysis Workspace 之外的其他 Analytics 解決方案需要使用時間分段維度時，應使用此外掛程式。
-keywords: Analytics 實作
-seo-description: getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。當 Analysis Workspace 之外的其他 Analytics 解決方案需要使用時間分段維度時，應使用此外掛程式。
-seo-title: getTimeParting
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: getTimeParting
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
