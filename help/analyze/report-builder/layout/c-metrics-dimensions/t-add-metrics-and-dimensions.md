@@ -1,13 +1,11 @@
 ---
 description: 將度量和維度新增至請求的步驟。
-seo-description: 將度量和維度新增至請求的步驟。
-seo-title: 新增度量和維度
 solution: Analytics
 title: 新增度量和維度
-topic: Report Builder
+topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
