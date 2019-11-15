@@ -1,14 +1,12 @@
 ---
 description: 點進次數代表 a) 促銷活動例項，和 b) 行銷管道例項。
-keywords: 促銷活動檢視
-seo-description: 點進次數代表 a) 促銷活動例項，和 b) 行銷管道例項。
-seo-title: 點進次數
+keywords: Campaign Views
 solution: Analytics
 title: 點進次數
-topic: 量度
-uuid: da605430-24aa-4713-a5 c3-735ffc0 a3441
+topic: Metrics
+uuid: da605430-24aa-4713-a5c3-735fac0a3441
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
