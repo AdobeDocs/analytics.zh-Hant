@@ -1,13 +1,11 @@
 ---
-description: 每次傳送伺服器呼叫時，就會計算一次「頁面檢視」。這個量度代表「頁面檢視」的例項總數。TrackLink 呼叫不會計算為頁面檢視，也不會增加「頁面檢視」量度的數值。
-seo-description: 每次傳送伺服器呼叫時，就會計算一次「頁面檢視」。這個量度代表「頁面檢視」的例項總數。TrackLink 呼叫不會計算為頁面檢視，也不會增加「頁面檢視」度量的數值。
-seo-title: 頁面檢視
+description: 每次傳送伺服器呼叫時，就會計算一次「頁面檢視」。這個量度代表「頁面檢視」的例項總數。TrackLink 呼叫不會計算為頁面檢視，也不會增加「頁面檢視」度量的數值。
 solution: Analytics
 title: 頁面檢視
-topic: 量度
+topic: Metrics
 uuid: 85004c72-2369-44a9-a97f-f2e144a54c90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
