@@ -1,11 +1,9 @@
 ---
 description: 您可以將量度共用給整個組織、群組或個別使用者 (視您的權限而定)。
-seo-description: 您可以將量度共用給整個組織、群組或個別使用者 (視您的權限而定)。
-seo-title: 共用計算量度
 title: 共用計算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
