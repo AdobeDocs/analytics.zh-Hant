@@ -1,14 +1,12 @@
 ---
 description: PhoneGap 的累積發行說明。
-seo-description: PhoneGap 的累積發行說明。
-seo-title: PhoneGap
 solution: Analytics,Experience Cloud
-subtopic: 發行說明
+subtopic: Release notes
 title: PhoneGap
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 430f5e71-909e-4841-b8fb-2895b01736ad
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
