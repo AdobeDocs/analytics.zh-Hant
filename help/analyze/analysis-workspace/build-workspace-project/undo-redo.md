@@ -1,11 +1,9 @@
 ---
 description: Analysis Workplace 中「還原」選項的變更與改良功能。
-seo-description: Analysis Workplace 中「還原」選項的變更與改良功能。
-seo-title: 還原和重做設定
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
