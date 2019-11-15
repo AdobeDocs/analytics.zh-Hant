@@ -1,11 +1,9 @@
 ---
 description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。
-seo-description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。
-seo-title: 虛擬報表套裝概觀
 title: 虛擬報表套裝概觀
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
