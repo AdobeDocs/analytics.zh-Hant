@@ -1,13 +1,11 @@
 ---
-description: 關於如何在 Report Builder 建立異常偵測請求的步驟。
-seo-description: 關於如何在報告建立工具建立異常偵測請求的步驟。
-seo-title: 設定異常偵測請求
+description: 關於如何在報告建立工具建立異常偵測請求的步驟。
 solution: Analytics
 title: 設定異常偵測請求
-topic: Report Builder
+topic: Report builder
 uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
