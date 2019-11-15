@@ -1,11 +1,9 @@
 ---
 description: Adobe Analytics 內容套件提供預先建置的 Power BI 控制面板及一組 Power BI 報表，可讓您掌握網站流量和使用者維度。您可以使用提供的控制面板和報表，或自訂兩者的內容以反白標示您最在意的資訊。系統將會每日自動重新整理資料。
-seo-description: Adobe Analytics 內容套件提供預先建置的 Power BI 控制面板及一組 Power BI 報表，可讓您掌握網站流量和使用者維度。您可以使用提供的控制面板和報表，或自訂兩者的內容以反白標示您最在意的資訊。系統將會每日自動重新整理資料。
-seo-title: 適用於 Power BI 的 Adobe Analytics 內容套件
 title: 適用於 Power BI 的 Adobe Analytics 內容套件
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
