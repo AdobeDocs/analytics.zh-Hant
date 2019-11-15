@@ -1,19 +1,17 @@
 ---
 description: 'null'
 keywords: DFA
-seo-description: 'null'
-seo-title: Adobe Analytics 的 DFA Data Connectors
 solution: Analytics
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Adobe Analytics 的 DFA Data Connectors{#dfa-data-connector-for-adobe-analytics}
+# DFAAdobe Analytics 的 Data Connectors{#dfa-data-connector-for-adobe-analytics}
 
 在現今日益複雜且競爭激烈的線上市場中，線上廣告商和廣告公司必須不斷提升他們對線上行銷環境的瞭解，以及廣告支出的報酬率。 雖然廣告主、代理商和發佈者都各有其工具可協助他們達成這些目標，但要手動從完全不同的資料系統和程序中彙整資料，可能會嚴重影響到線上行銷活動的效益，而造成促銷活動效益不盡理想、資料不相符和混淆。
 
