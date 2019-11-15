@@ -1,15 +1,13 @@
 ---
 description: 新版的 JavaScript AppMeasurement 已變更其外掛程式支援。
-keywords: Analytics 實施;AppMeasurement;JavaScript;外掛程式;外掛程式
-seo-description: 新版的 JavaScript AppMeasurement 已變更其外掛程式支援。
-seo-title: AppMeasurement 外掛程式支援
+keywords: Analytics Implementation;appmeasurement;javascript;plugin;plug-in
 solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: AppMeasurement 外掛程式支援
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: e048e16b-994a-4079-bde4-3faa3df8c96d
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
