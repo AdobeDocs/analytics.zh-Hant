@@ -1,13 +1,11 @@
 ---
 description: 搜尋和篩選有助於找出清單中的摘要。
-keywords: 資料饋送；search;filter；報表套裝；owner;status
-seo-description: 搜尋和篩選有助於找出清單中的摘要。
-seo-title: 搜尋和篩選
+keywords: Data Feed;search;filter;report suite;owner;status
 solution: Analytics
 title: 搜尋和篩選
 uuid: 0d9e38ea-e681-4aa3-843a-d0221e88c177
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
