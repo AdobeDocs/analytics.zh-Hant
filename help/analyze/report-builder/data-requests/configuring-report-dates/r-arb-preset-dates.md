@@ -1,13 +1,11 @@
 ---
 description: 預設日期可讓您選擇常用日期或您以儲存的日期。在「請求精靈步驟1」中，選擇「預設日期」。 以下是報告建立工具中預設日期的欄位定義。
-seo-description: 預設日期可讓您選擇常用日期或您以儲存的日期。在「請求精靈步驟1」中，選擇「預設日期」。 以下是報告建立工具中預設日期的欄位定義。
-seo-title: 請求精靈定義 - 預設日期
 solution: Analytics
 title: 請求精靈定義 - 預設日期
-topic: Report Builder
+topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
