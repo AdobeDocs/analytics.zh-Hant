@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics支援單級和多級分類模型。 分類階層可以讓您將分類套用到分類。
-seo-description: Adobe Analytics支援單級和多級分類模型。 分類階層可以讓您將分類套用到分類。
-seo-title: 關於子分類
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 關於子分類
-topic: 管理工具
-uuid: 48bd7fc1-54a1-40ef-bc55-39538522f2d
+topic: Admin tools
+uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
