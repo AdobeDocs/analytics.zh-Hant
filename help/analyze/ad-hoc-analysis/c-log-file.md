@@ -1,13 +1,11 @@
 ---
 description: 記錄檔是一個文字檔，伺服器會使用這個檔案儲存從網站擷取檔案時相關的資料。其中收集的資訊包括日期和時間、所服務的 URL、IP 位址、請求狀態等。
-seo-description: 記錄檔是一個文字檔，伺服器會使用這個檔案儲存從網站擷取檔案時相關的資料。其中收集的資訊包括日期和時間、所服務的 URL、IP 位址、請求狀態等。
-seo-title: 記錄檔
 solution: Analytics
 title: 記錄檔
-topic: Ad Hoc Analysis
-uuid: 基於1e5c0e70-928b-45de-9f5b-0c562909的
+topic: Ad hoc analysis
+uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
