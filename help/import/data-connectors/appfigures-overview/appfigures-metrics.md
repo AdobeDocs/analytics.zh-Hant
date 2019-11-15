@@ -1,11 +1,9 @@
 ---
 description: 以下量度會同步化為appFigures整合的一部分。
-seo-description: 以下量度會同步化為appFigures整合的一部分。
-seo-title: 度量和維度
 title: 度量和維度
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
