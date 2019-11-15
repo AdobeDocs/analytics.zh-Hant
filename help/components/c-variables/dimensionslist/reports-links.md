@@ -1,13 +1,11 @@
 ---
-description: 顯示訪客在您網站上點按的連結，包括點按以離開網站的連結，或下載連結。
-seo-description: 顯示訪客在您網站上點擊的連結，包括點擊以離開網站的連結，或下載連結。
-seo-title: 連結
+description: 顯示訪客在您網站上點擊的連結，包括點擊以離開網站的連結，或下載連結。
 solution: Analytics
 title: 連結
-topic: 報表
+topic: Reports
 uuid: 8e5dd378-12df-4eb9-9deb-7192bfe652b8
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
