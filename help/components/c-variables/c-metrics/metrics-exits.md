@@ -1,13 +1,11 @@
 ---
 description: 指定的值在瀏覽中是被擷取的最後一個值之次數。退出點在每次瀏覽中只能發生一次。
-seo-description: 指定的值在瀏覽中是被擷取的最後一個值之次數。退出點在每次瀏覽中只能發生一次。
-seo-title: 退出點
 solution: Analytics
 title: 退出點
-topic: 量度
+topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
