@@ -1,13 +1,11 @@
 ---
 description: 依照行動裝置支援的網路通訊協定 (GPRS、CSD、EDGE、HSCSD 等)，將行動裝置分組。該報告還包括無法識別網路通訊協定的「未知」群組。
-seo-description: 依照行動裝置支援的網路通訊協定 (GPRS、CSD、EDGE、HSCSD 等)，將行動裝置分組。該報告還包括無法識別網路通訊協定的「未知」群組。
-seo-title: 網路通訊協定
 solution: Analytics
 title: 網路通訊協定
-topic: 報表
+topic: Reports
 uuid: 565edadb-44e4-455b-a476-fad2e4b28765
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
