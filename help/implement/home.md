@@ -1,10 +1,8 @@
 ---
 title: 實作行動裝置分析
-seo-title: 實作行動裝置分析
 description: 'null'
-seo-description: 'null'
 translation-type: tm+mt
-source-git-commit: 4907b2930d894525b93b02f743c095f824a61a3b
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
