@@ -1,15 +1,13 @@
 ---
 description: 指定退出連結，以及自訂連結的品牌化。造訪您網站的訪客可能會造訪資料收集網域的退出頁面，選擇不讓其活動在Adobe的分析產品中受到追蹤。
-keywords: Analytics 實作
-seo-description: 指定退出連結，以及自訂連結的品牌化。造訪您網站的訪客可能會造訪資料收集網域的退出頁面，選擇不讓其活動在Adobe的分析產品中受到追蹤。
-seo-title: 新增選擇退出連結
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: 新增選擇退出連結
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
