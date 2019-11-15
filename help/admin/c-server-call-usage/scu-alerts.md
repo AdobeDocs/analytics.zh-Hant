@@ -1,11 +1,9 @@
 ---
 description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
-seo-description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
-seo-title: 伺服器呼叫使用狀況警報
 title: 伺服器呼叫使用狀況警報
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
