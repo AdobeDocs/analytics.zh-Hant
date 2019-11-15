@@ -1,14 +1,12 @@
 ---
 description: 透過資料擷取，您可以選擇要在報告的 X 和 Y 軸上檢視的參數，以及篩選報告所依據的項目。
-seo-description: 透過資料擷取，您可以選擇要在報告的 X 和 Y 軸上檢視的參數，以及篩選報告所依據的項目。
-seo-title: 資料擷取
 solution: Analytics
-subtopic: 排程
+subtopic: Schedule
 title: 資料擷取
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
