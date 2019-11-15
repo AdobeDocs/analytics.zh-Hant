@@ -1,13 +1,11 @@
 ---
 description: 說明管理員如何為一組使用者啟用 Data Warehouse 報告存取權的步驟。
-seo-description: 說明管理員如何為一組使用者啟用 Data Warehouse 報告存取權的步驟。
-seo-title: 新增 Data Warehouse 使用者群組
 solution: Analytics
 title: 新增 Data Warehouse 使用者群組
-topic: Data Warehouse
+topic: Data warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
