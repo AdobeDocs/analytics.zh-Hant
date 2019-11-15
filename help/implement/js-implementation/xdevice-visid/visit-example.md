@@ -1,15 +1,13 @@
 ---
 description: 相關範例，內含透過一般客戶互動而傳送的伺服器呼叫樣本。
-keywords: Analytics 實作
-seo-description: 相關範例，內含透過一般客戶互動而傳送的伺服器呼叫樣本。
-seo-title: 範例瀏覽
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 訪客
+subtopic: Visitors
 title: 範例瀏覽
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
