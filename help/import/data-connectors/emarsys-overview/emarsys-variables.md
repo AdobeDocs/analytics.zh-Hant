@@ -1,11 +1,9 @@
 ---
 description: emarsys的「資料連接器」整合使用Analytics變數來追蹤各種emarsys量度。
-seo-description: emarsys的「資料連接器」整合使用Analytics變數來追蹤各種emarsys量度。
-seo-title: Analytics 變數
 title: Analytics 變數
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
 translation-type: tm+mt
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
