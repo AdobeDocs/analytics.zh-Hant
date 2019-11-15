@@ -1,11 +1,9 @@
 ---
-seo-description: 由Adobe Analytics收集的資料會保留特定時段。 Adobe保留此資料的時間因合約而異，組織的資料保留政策中已列出這些資料。
-seo-title: Adobe Analytics的資料保留政策
 title: 資料保留政策
 description: 資料保留政策可決定Adobe儲存資料的時間。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
