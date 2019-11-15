@@ -1,14 +1,12 @@
 ---
 description: 對來源報告中的細分資料進行分組 (分類)，可建立「分類」。
-keywords: Analytics 實施;分類
-seo-description: 對來源報告中的細分資料進行分組 (分類)，可建立「分類」。
-seo-title: 分類
+keywords: Analytics Implementation;classification
 solution: Analytics
 title: 分類
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 6bbb1113-9fc9-4e9d-90dd-d2d9d6b67b73
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,5 +19,5 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
 
 如需更多詳細資料，請參閱:
 
-* Analytics 說明和參考指南中的[分類](https://marketing.adobe.com/resources/help/zh_TW/reference/classifications.html)
+* Analytics 說明與參考指南中的[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)
 
