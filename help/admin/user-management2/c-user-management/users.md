@@ -1,14 +1,12 @@
 ---
 description: 「使用者管理」頁面上的「管理報告使用者和群組」可讓您管理使用者和群組，以及控制對報告、工具和報表套裝的存取。
-seo-description: 「使用者管理」頁面上的「管理報告使用者和群組」可讓您管理使用者和群組，以及控制對報告、工具和報表套裝的存取。
-seo-title: 使用者管理概觀
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 使用者管理概觀
-topic: 管理工具
+topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
