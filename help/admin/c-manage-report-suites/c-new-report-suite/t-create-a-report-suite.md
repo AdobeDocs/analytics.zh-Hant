@@ -1,13 +1,11 @@
 ---
 description: 說明如何建立報表套裝以及將報表套裝設定複製到新報表套裝的步驟。
-seo-description: 說明如何建立報表套裝以及將報表套裝設定複製到新報表套裝的步驟。
-seo-title: 建立報表套裝
 solution: Analytics
 title: 建立報表套裝
-topic: 管理工具
+topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
