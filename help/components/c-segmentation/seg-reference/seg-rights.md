@@ -1,13 +1,11 @@
 ---
 description: 區段的功能現在主要是以管理員級使用者與非管理員級使用者做區隔。
-seo-description: 區段的功能現在主要是以管理員級使用者與非管理員級使用者做區隔。
-seo-title: 不同角色的區段權限
 solution: Analytics
 title: 不同角色的區段權限
-topic: 區段
-uuid: 62b742c-c918-45b7-98c7-f6 badc0 b9 fc7
+topic: Segments
+uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -30,7 +28,7 @@ source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
   <tr> 
    <td colname="col1"> <b>管理員級使用者</b> </td> 
    <td colname="col2"> 可以將區段共用給整個公司、使用者群組以及個別使用者。 </td> 
-   <td colname="col3"> <span class="keyword"> 分析工作區、報告與分析 </span>：可以檢視/編輯/刪除…自己和其他使用者的區段。 <p> <span class="keyword"> 臨機分析 </span> 和 <span class="keyword"> 報告建立工具 </span>：可以檢視/編輯/刪除…他們自己的區段，以及與他們共用的區段。 </p> </td> 
+   <td colname="col3"> <span class="keyword"> 分析工作區、報告與分析 </span>:可檢視／編輯／刪除…… 他們自己和其他使用者的區段。 <p> <span class="keyword"> 臨機分析 </span> 與報 <span class="keyword"> 告建立工具 </span>:可檢視／編輯／刪除……他們自己的群體和與他們分享的群體。 </p> </td> 
    <td colname="col4"> 可以核准區段做為標準區段。 </td> 
    <td colname="col5"> 可以套用整個組織內的任何區段。 </td> 
   </tr> 
