@@ -1,13 +1,11 @@
 ---
 description: 資料饋送是將 Adobe 收到的點按資料流資料匯出，可同時提供標準和自訂資料饋送。
 keywords: ftp;sftp
-seo-description: 資料饋送是將 Adobe 收到的點按資料流資料匯出，可同時提供標準和自訂資料饋送。
-seo-title: 資料摘要
 solution: Analytics
 title: 資料摘要
 uuid: 3c70eea3-ca59-4aa5-9b11-64e1bb677bfa
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
