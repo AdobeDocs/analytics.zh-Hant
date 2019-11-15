@@ -1,13 +1,11 @@
 ---
 description: Data Warehouse 提供可讓您擷取訪客 ID 清單的功能。這些 ID 並不是 Cookie ID，而是您在其中一個轉換變數中擷取的 ID。雖然您有其他方式可取得這項資訊，但下列範例會是您產生 Data Warehouse 請求要求的捷徑。
-seo-description: Data Warehouse 提供可讓您擷取訪客 ID 清單的功能。這些 ID 並不是 Cookie ID，而是您在其中一個轉換變數中擷取的 ID。雖然您有其他方式可取得這項資訊，但下列範例會是您產生 Data Warehouse 請求要求的捷徑。
-seo-title: 使用案例 - 擷取訪客 ID
 solution: Analytics
 title: 使用案例 - 擷取訪客 ID
-topic: 管理工具
+topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
