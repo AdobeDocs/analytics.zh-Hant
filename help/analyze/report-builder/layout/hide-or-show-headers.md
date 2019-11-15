@@ -1,13 +1,11 @@
 ---
 description: 此程序說明如何隱藏或顯示標題。
-seo-description: 此程序說明如何隱藏或顯示標題。
-seo-title: 隱藏或顯示標題
 solution: Analytics
 title: 隱藏或顯示標題
-topic: Report Builder
+topic: Report builder
 uuid: ab0ef56f-3531-48fb-9456-1220718d59c5
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
