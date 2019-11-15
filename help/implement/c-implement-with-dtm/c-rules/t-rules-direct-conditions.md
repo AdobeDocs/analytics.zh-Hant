@@ -1,13 +1,11 @@
 ---
 description: 建立直接呼叫規則的條件.
-keywords: Dynamic Tag Management;規則;建立規則;新規則;直接呼叫規則
-seo-description: 建立直接呼叫規則的條件.
-seo-title: 建立直接呼叫規則的條件
+keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立直接呼叫規則的條件
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
