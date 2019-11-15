@@ -1,13 +1,11 @@
 ---
 description: 「訪客參與率」是一個量度系列，可讓您檢視跨訪客作業階段的行銷管道、促銷活動、收入等等的參與率。例如，購買和收入評分可以歸入在下訂單的瀏覽前存取的其他行銷接觸點。Ad Hoc Analysis 提供所有瀏覽的訪客參與率。
-seo-description: 「訪客參與率」是一個量度系列，可讓您檢視跨訪客作業階段的行銷管道、促銷活動、收入等等的參與率。例如，購買和收入評分可以歸入在下訂單的瀏覽前存取的其他行銷接觸點。Ad Hoc Analysis 提供所有瀏覽的訪客參與率。
-seo-title: 訪客參與率 - Ad Hoc Analysis
 solution: Analytics
 title: 訪客參與率 - Ad Hoc Analysis
-topic: 量度
+topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
