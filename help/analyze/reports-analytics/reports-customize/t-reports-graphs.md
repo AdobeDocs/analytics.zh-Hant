@@ -1,18 +1,16 @@
 ---
 description: 說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
-seo-description: 說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
-seo-title: 變更報告圖表
 solution: Analytics
-title: 變更報告圖表
-topic: Reports & Analytics
-uuid: c2e81c6c-bfe9-4457-8b5 d-512225ca9711
+title: 變更報表圖表
+topic: Reports and analytics
+uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 變更報告圖表
+# 變更報表圖表
 
 說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
 
