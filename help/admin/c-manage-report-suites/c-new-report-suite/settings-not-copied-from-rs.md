@@ -1,13 +1,11 @@
 ---
 description: 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
-seo-description: 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
-seo-title: 並非從來源報表套裝複製的設定
 solution: Analytics
 title: 並非從來源報表套裝複製的設定
-topic: 管理工具
-uuid: 5176c561-a278-43e4-837f-a1775985d52
+topic: Admin tools
+uuid: 5176c561-a278-43e4-837f-a17759985d52
 translation-type: tm+mt
-source-git-commit: 27cb3afd2322217c1f8882934fdb00b6fcd83c7f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
