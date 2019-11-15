@@ -1,13 +1,11 @@
 ---
 description: 提供全面且準確的詳細客戶活動分析。諸如促銷活動管理、銷售週期、客戶流失和客戶轉換等量度，可以讓您量度電子商務交易、銷售來源、廣告效果和客戶忠誠度等等。
-seo-description: 提供全面且準確的詳細客戶活動分析。諸如促銷活動管理、銷售週期、客戶流失和客戶轉換等量度，可以讓您量度電子商務交易、銷售來源、廣告效果和客戶忠誠度等等。
-seo-title: 轉換
 solution: Analytics
 title: 轉換
-topic: 報表
+topic: Reports
 uuid: 457d3033-6562-4fba-8c2e-0e7a9be44bfd
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
