@@ -1,13 +1,11 @@
 ---
 description: 建立可決定規則所觸發之頁面的規則。
-keywords: Dynamic Tag Management;規則;建立規則;新規則;頁面載入規則
-seo-description: 建立可決定規則所觸發之頁面的規則。
-seo-title: 建立頁面載入規則的條件
+keywords: Dynamic Tag Management;rule;create rule;new rule;page load rule
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立頁面載入規則的條件
 uuid: 30a6c69f-56e7-414e-9636-64c262e7ccd4
-translation-type: ht
-source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -26,4 +24,5 @@ source-git-commit: e060fb745d611f37f28708b3fe103c1191aa483b
 
    例如，您可以選取&#x200B;**[!UICONTROL 「路徑」]，以識別要為其觸發規則的特定頁面。**
 
-   ![](assets/conditions-page-load-rules
+   ![](assets/conditions-page-load-rules2.png)
+
