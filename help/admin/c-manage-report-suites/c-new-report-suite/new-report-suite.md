@@ -1,13 +1,11 @@
 ---
 description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
-seo-description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
-seo-title: 新的報表套裝 - 設定
 solution: Analytics
 title: 新的報表套裝 - 設定
-topic: 管理工具
+topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
