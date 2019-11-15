@@ -1,13 +1,11 @@
 ---
 description: 顯示人們最常點擊連往您網站之外的連結。這些連結通常指向合作夥伴或附屬機構的網站。但是，也可能是您實施外部連結的任何位置。您可以使用這個報告來檢視最熱門的附屬機構連結，或者協助驗證您的合作夥伴發佈您提供轉接連結的數量。
-seo-description: 顯示人們最常點擊連往您網站之外的連結。這些連結通常指向合作夥伴或附屬機構的網站。但是，也可能是您實施外部連結的任何位置。您可以使用這個報告來檢視最熱門的附屬機構連結，或者協助驗證您的合作夥伴發佈您提供轉接連結的數量。
-seo-title: 退出連結
 solution: Analytics
 title: 退出連結
-topic: 報表
+topic: Reports
 uuid: e1452f04-389d-4aa3-8763-732880284302
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
