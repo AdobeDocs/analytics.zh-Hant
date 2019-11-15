@@ -1,13 +1,11 @@
 ---
 description: 顯示網站頁面的階層版面配置並依據它們在 hierN 變數中的組態依次顯示該等頁面。該報告使用為想要加入階層的每個頁面所設定的適當變數設定來填充。您能夠使用該報告檢視為階層選取的量度 (例如獨特訪客)。
-seo-description: 顯示網站頁面的階層版面配置並依據它們在 hierN 變數中的組態依次顯示該等頁面。該報告使用為想要加入階層的每個頁面所設定的適當變數設定來填充。您能夠使用該報告檢視為階層選取的量度 (例如獨特訪客)。
-seo-title: 階層
 solution: Analytics
 title: 階層
-topic: 報表
-uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3ff
+topic: Reports
+uuid: 52f5d0af-67f7-4439-923f-4b79bf1c3fff
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
