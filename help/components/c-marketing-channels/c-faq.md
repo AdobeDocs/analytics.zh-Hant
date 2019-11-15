@@ -1,14 +1,12 @@
 ---
 description: 閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
-seo-description: 閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
-seo-title: 常見問題集和範例
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 常見問題集和範例
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
