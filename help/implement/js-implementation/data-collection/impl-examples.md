@@ -1,14 +1,12 @@
 ---
 description: 在此以 adobe.com 為例，以下說明的實施會參考相同的 visid Cookie。
-keywords: Analytics 實作
-seo-description: 在此以 adobe.com 為例，以下說明的實施會參考相同的 visid Cookie。
-seo-title: 實作範例
+keywords: Analytics Implementation
 solution: Analytics
 title: 實作範例
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 17d8d2b2-2303-495a-b0f9-d8d3c05f3893
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
