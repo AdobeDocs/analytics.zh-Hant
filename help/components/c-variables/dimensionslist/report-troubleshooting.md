@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。大部分報告都能迅速產生，但您仍可能遇到報告逾時或無法成功產生的問題。為了協助避免報告無法產生，本區段說明會影響報告產生速度的眾多因素。了解這些資訊有助於建構能夠成功產生的報告。
-keywords: 最佳實務；失敗；逾時；疑難排解；慢速
-seo-description: Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。大部分報告都能迅速產生，但您仍可能遇到報告逾時或無法成功產生的問題。為了協助避免報告無法產生，本區段說明會影響報告產生速度的眾多因素。了解這些資訊有助於建構能夠成功產生的報告。
-seo-title: 報告最佳實務與疑難排解
+keywords: best practices;failure;timeout;troubleshooting;slow
 solution: Analytics
 title: 報告最佳實務與疑難排解
-topic: 報表
+topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
