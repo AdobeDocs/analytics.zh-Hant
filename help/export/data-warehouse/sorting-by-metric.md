@@ -1,12 +1,10 @@
 ---
 description: 在 Data Warehouse 中提供排名劃分報表，可依遞減的量度順序排序。
-seo-description: 在 Data Warehouse 中提供排名劃分報表，可依遞減的量度順序排序。
-seo-title: 依量度排序
 solution: Analytics
 title: 依量度排序
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
