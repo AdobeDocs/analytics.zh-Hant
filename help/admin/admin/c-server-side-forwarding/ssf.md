@@ -1,12 +1,10 @@
 ---
 description: 伺服器端轉送功能經過精心設計，可讓客戶即時從 Analytics 將資料共用至其他 Experience Cloud 解決方案。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
-seo-description: 伺服器端轉送功能經過精心設計，可讓客戶即時從 Analytics 將資料共用至其他 Experience Cloud 解決方案。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
-seo-title: 伺服器端轉送概觀
 solution: Audience Manager
 title: 伺服器端轉送概觀
-uuid: 22ddbde5-6805-4eba-8f82-6272644dcaa
+uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
