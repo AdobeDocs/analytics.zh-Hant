@@ -1,14 +1,12 @@
 ---
 description: 量度是有關訪客活動的量化資訊，例如檢視、點進、重新載入、平均逗留時間、件數、訂購、收入等。
-keywords: Analytics 實施;量度;流量量度;轉換量度;影片量度;社交量度;計算量度;頁面檢視;造訪;獨特訪客
-seo-description: 量度是有關訪客活動的量化資訊，例如檢視、點進、重新載入、平均逗留時間、件數、訂購、收入等。
-seo-title: 量度
+keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
 solution: Analytics
 title: 量度
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
