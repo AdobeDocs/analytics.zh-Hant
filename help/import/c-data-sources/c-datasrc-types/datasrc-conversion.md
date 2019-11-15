@@ -1,14 +1,12 @@
 ---
 description: 針對以轉換方式處理的資料類型，資料來源支援下列「轉換」資料維度和量度。
-seo-description: 針對以轉換方式處理的資料類型，資料來源支援下列「轉換」資料維度和量度。
-seo-title: 轉換
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 轉換
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
