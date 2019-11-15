@@ -1,11 +1,9 @@
 ---
 description: 瞭解如何為 Analytics 使用者停用舊版登入。
-seo-description: 瞭解如何為 Analytics 使用者停用舊版登入。
-seo-title: 停用舊版登入
 title: 停用舊版登入
 uuid: 085874b2-10bf-4a56-a337-f3104428d71e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
