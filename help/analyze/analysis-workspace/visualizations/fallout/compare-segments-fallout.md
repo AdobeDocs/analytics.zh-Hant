@@ -1,12 +1,10 @@
 ---
 description: 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
-keywords: 流失和分段；流失分析中的區段；流失分析中的區段；比較流失中的區段
-seo-description: 您可以從接觸點建立區段、新增區段做為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
-seo-title: 在流失分析中套用區段
+keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
