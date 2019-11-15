@@ -1,15 +1,13 @@
 ---
 description: 說明資料饋送中欄的表格資料。
-keywords: 資料饋送；欄
-seo-description: 說明資料饋送中欄的表格資料。
-seo-title: 資料欄參考
+keywords: Data Feed;columns
 solution: Analytics
-subtopic: 資料饋送
+subtopic: data feeds
 title: 資料欄參考
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -76,14 +74,14 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | first_hit_time_gmt | 訪客初次點擊的時間戳記，格式為 Unix 時間。 | int |
 | geo_city | 根據 IP 的點擊來源城市名稱。Adobe 與 Digital Envoy 合作，比對 IP 位址與城市。 | char(32) |
 | geo_country | 根據 IP 的點擊來源國家/地區縮寫。Adobe 與 Digital Envoy 合作，比對 IP 位址與國家/地區。 | char(4) |
-| geo_dma | 根據 IP 的點擊來源地理區域數值 ID。Adobe 與 Digital Envoy 合作，比對 IP 位址與地理區域。 | int unsigned |
+| geo_dma | 根據 IP 的點擊來源地理區域數值 ID。Adobe 與 Digital Envoy 合作，比對 IP 位址與地理區域。 | 不帶正負號的 |
 | geo_region | 根據 IP 的點擊來源州或地區名稱。Adobe 與 Digital Envoy 合作，比對 IP 位址與州/地區。 | char(32) |
-| geo_zip | The zip code the hit came came from, based on IP. Adobe 與 Digital Envoy 合作，比對 IP 位址與郵遞區號。 | varchar(16) |
+| geo_zip | 點擊來自的郵遞區號，以IP為基礎。 Adobe 與 Digital Envoy 合作，比對 IP 位址與郵遞區號。 | varchar(16) |
 | hier1 - hier5 | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
 | hit_source | 指出點擊來源。<br>1:沒有時間戳記 <br>2的標準影像要求：具有時間戳記 <br>3的標準影像要求：使用時間戳記 <br>4即時資料來源上傳：未使用 <br>5:通用資料來源上 <br>傳6:完整處理資料來源上 <br>傳7:TransactionID資料來源上 <br>傳8:不再使用；舊版Adobe Advertising cloud資料來源 <br>9:不再使用；Adobe Social摘要量度 | 不帶正負號的 tinyint |
 | hit_time_gmt | 點擊Adobe資料收集伺服器收到點擊的時間戳記，以Unix時間為基礎。 | int |
-| hitid_high | 用於結合 hitid_low 以專門識別點擊。 | bigint unsigned |
-| hitid_low | 用於結合 hitid_high 以專門識別點擊。 | bigint unsigned |
+| hitid_high | 用於結合 hitid_low 以專門識別點擊。 | 不帶正負號的bigint |
+| hitid_low | 用於結合 hitid_high 以專門識別點擊。 | 不帶正負號的bigint |
 | homepage | 已不再使用。指出目前 URL 是否為瀏覽器的首頁。 | char(1) |
 | hourly_visitor | 此旗標用於確定點擊是否為新每小時訪客。 | 不帶正負號的 tinyint |
 | ip | IP 位址，根據影像要求的 HTTP 標頭。 | char(20) |
@@ -91,25 +89,25 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | j_jscript | 瀏覽器支援的 JavaScript 版本。 | char(5) |
 | java_enabled | 此旗標用於指出是否已啟用 Java。<br>Y:啟用 <br>N:已停 <br>用U:未知 | char(1) |
 | javascript | JavaScript 版本的查閱 ID，根據 j_jscript。使用查閱表格。 | 不帶正負號的 tinyint |
-| language | 語言的數值 ID。使用 languages.tsv 查閱表格。 | smallint unsigned |
+| language | 語言的數值 ID。使用 languages.tsv 查閱表格。 | 不帶正負號的smallint |
 | last_hit_time_gmt | 先前點擊的時間戳記 (Unix 時間)。用於計算「上次造訪間隔天數」維度。 | int |
-| last_purchase_num | 用於「客戶忠誠度」維度的變數。表示訪客之前的購買次數。<br>0:沒有先前購買（非客戶） <br>1:1個先前購買（新客戶） <br>2:2個先前購買（退貨客戶） <br>3:3次或更多先前購買（忠誠客戶） | int unsigned |
+| last_purchase_num | 用於「客戶忠誠度」維度的變數。表示訪客之前的購買次數。<br>0:沒有先前購買（非客戶） <br>1:1個先前購買（新客戶） <br>2:2個先前購買（退貨客戶） <br>3:3次或更多先前購買（忠誠客戶） | 不帶正負號的 |
 | last_purchase_time_gmt | 用於「上次購買間隔天數」維度。上次購買的時間戳記 (Unix 時間)。對於首次購買和之前未購買的訪客，此值為 0。 | int |
 | latlon1 | 位置 (10 公里以內) | varchar(255) |
 | latlon23 | 位置 (100 公尺以內) | varchar(255) |
 | latlon45 | 位置 (1 公尺以內) | varchar(255) |
 | mc_audiences  | 訪客所屬的 Audience Manager 區段 ID 清單。 | text |
 | mcvisid | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
-| mobile_id | If the user is using a mobile device, the numeric ID of the device. | int |
+| mobile_id | 如果使用者使用行動裝置，則是裝置的數值ID。 | int |
 | mobileaction | 行動動作。在Mobile services中呼叫trackAction時自動收集。 允許應用程式中的自動動作路徑。 | varchar(100) |
 | mobileappid | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本:[AppName] [BundleVersion] | varchar(255) |
 | mobileappperformanceappid | 用於Apteligent資料連接器。 Apteligent中使用的應用程式ID。 | varchar(255) |
 | mobileappperformancecashid | 用於Apteligent資料連接器。 Apteligent中使用的當機ID。 | varchar(255) |
-| mobileappstoreobjectid | Used in the Appfigures data connector. 應用程式商店物件ID | varchar(255) |
+| mobileappstoreobjectid | 用於Appfigures資料連接器。 應用程式商店物件ID | varchar(255) |
 | mobilebeaconmajor | Mobile services信標主修 | varchar(100) |
-| mobilebeaconminor | Mobile Services beacon minor | varchar(100) |
-| mobilebeaconproximity | Mobile Services beacon proximity | varchar(255) |
-| mobilebeaconuuid | Mobile Services beacon UUID | varchar(100) |
+| mobilebeaconminor | Mobile services信標次要 | varchar(100) |
+| mobilebeaconproximity | Mobile services信標鄰近度 | varchar(255) |
+| mobilebeaconuuid | Mobile services信標UUID | varchar(100) |
 | mobilecampaigncontent | 顯示連結的內容名稱或 ID。由「行動應用程式贏取」填入。 | varchar(255) |
 | mobilecampaignmedium | 行銷媒體，例如橫幅或電子郵件。由「行動應用程式贏取」填入。 | varchar(255) |
 | mobilecampaignname | 行銷活動名稱，亦儲存於行銷活動變數中。由「行動應用程式贏取」填入。 | varchar(255) |
@@ -117,19 +115,19 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | mobilecampaignterm | 您想要以此贏取追蹤的付費關鍵字或其他詞語。由「行動應用程式贏取」填入。 | varchar(255) |
 | mobiledayofweek | 應用程式啟動的工作日數。 | varchar(255) |
 | mobiledayssincefirstuse | 自應用程式初次執行以來的天數。 | varchar(255) |
-| mobiledayssincelastupgrade | Collected from the context data variable a.DaysSinceLastUpgrade. The number of days that have passed since the previous session. | varchar(255) |
+| mobiledayssincelastupgrade | 從上下文資料變數a.DaysSinceLastUpgrade收集。 自上次作業以來已經過的天數。 | varchar(255) |
 | mobiledayssincelastuse | 自應用程式上次執行以來的天數。 | varchar(255) |
-| mobiledeeplinkid | Collected from the context data variable a.deeplink.id. <span></span>Used in acquisition reports as an identifier for mobile acquisition link. | varchar(255) |
+| mobiledeplinkid | 從上下文資料變數a.<span>deeplink</span>.id收集。 用於贏取報表中，作為行動贏取連結的識別碼。 | varchar(255) |
 | mobiledevice | 行動裝置名稱。在 iOS 上，此名稱以逗號分隔的 2 位數字串形式儲存。第一個數字代表裝置代別，第二個數字代表裝置系列。 | varchar(255) |
 | mobilehourofday | 定義啟動應用程式的一天中的時段。請依照 24 小時數字格式。 | varchar(255) |
 | mobileinstalldate | 行動安裝日期。提供使用者初次開啟行動應用程式的日期。 | varchar(255) |
-| mobilelaunchessincelastupgrade | Collected from the context data variable a.LaunchesSinceUpgrade. Reports the number of launches since last upgrade. | varchar(255) |
+| mobilelaunchessincelastupgrade | 從上下文資料變數a.LaunchesSinceUpgrade收集。 報告自上次升級以來的啟動次數。 | varchar(255) |
 | mobilelaunchnumber | 每次啟動行動應用程式時增加 1。 | varchar(255) |
 | mobileltv | 已不再使用。由 trackLifetimeValue 方法填入。 | varchar(255) |
-| mobilemessagebuttonname | 從上下文資料變數a.<span>message</span>.button.id收集。 Used for in-app messaging to identify the button that closed the message. | varchar(100) |
+| mobilemessagebuttonname | 從上下文資料變數a.<span>message</span>.button.id收集。 用於應用程式內訊息，以識別關閉訊息的按鈕。 | varchar(100) |
 | mobilemessageid | 應用程式內訊息ID | varchar(255) |
 | mobilemessageonline | 線上應用程式內訊息 | varchar(255) |
-| mobilemessagepushoptin | Collected from the context data variable a.push.optin. 當使用者選擇推送訊息時，設為「true」;否則，值為"false"。 | varchar(255) |
+| mobilemessageushoptin | 從上下文資料變數a.push.optin收集。 當使用者選擇推送訊息時，設為「true」;否則，值為"false"。 | varchar(255) |
 | mobilemessagepushpayloadid | 從上下文資料變數a.push.payloadid收集。 用於推播訊息中做為裝載識別碼。 | varchar(255) |
 | mobileosenvironment | 從上下文資料變數a.OSEnvironment收集。 狀態為OS環境，例如Android或iOS。 | varchar(255) |
 | mobileosversion | Mobile services作業系統版本 | varchar(255) |
@@ -169,9 +167,9 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | purchaseid | 使用 s_purchaseID 變數設定之購買的唯一識別碼。由 duplicate_purchase 欄使用。 | char(20) |
 | quarterly_visitor | 此旗標用於確定點擊是否為新每季訪客。 | 不帶正負號的 tinyint |
 | ref_domain | 根據反向連結欄。點擊的反向連結網域。 | varchar(100) |
-| ref_type | 此數值 ID 表示點擊的反向連結類型。<br>1: Inside your site2: Other web sites 3: Search engines 4: Hard drive 5: USENET 6: Typed/Bookmarked (no referrer) 7: Email 8: No JavaScript 9: Social Networks<br><br><br><br><br><br><br><br> | 不帶正負號的 tinyint |
+| ref_type | 此數值 ID 表示點擊的反向連結類型。<br>1:網站內<br>2:其他網站 <br>3:搜尋引擎 <br>4:硬碟 <br>5:USENET <br>6:分類／建立書籤（無反向連結） <br>7:電子郵 <br>件8:無JavaScript <br>9:社交網路 | 不帶正負號的 tinyint |
 | referrer | 上一頁的頁面 URL。 | varchar(255) |
-| resolution | 此數值 ID 表示螢幕解析度。填入「螢幕解析度」維度。使用 resolution.tsv 查閱表格。 | 不帶正負號的smallint |
+| 解析度 | 此數值 ID 表示螢幕解析度。填入「螢幕解析度」維度。使用 resolution.tsv 查閱表格。 | 不帶正負號的smallint |
 | s_kwcid | Adobe Advertising cloud整合中使用的關鍵字ID。 | varchar(255) |
 | s_resolution | 原始螢幕解析度值。使用 JavaScript 函數 screen.width x screen.height 收集。 | char(20) |
 | sampled_hit | 已不再使用。先前用於 Ad Hoc Analysis 中的取樣。 | char(1) |
@@ -216,21 +214,21 @@ source-git-commit: 2ea071c4d4f675c74770396610219d405a07a0e1
 | va_finder_id | 可識別「首次接觸管道」維度的數值 ID 。可以在「行銷通路管理員」中找到此 ID 的查閱。 | 不帶正負號的 tinyint |
 | va_instance_event | 用於識別行銷管道例項的旗標。由「行銷管道上次接觸例項」量度使用。 | 不帶正負號的 tinyint |
 | va_new_engagement | 用於識別行銷管道新增參與的旗標。由「新增參與」量度使用。 | 不帶正負號的 tinyint |
-| video | Video content | varchar(255) |
-| videoad | Video ad name | varchar(255) |
-| videoadinpod | Video ad in pod position | varchar(255) |
-| videoadlength | Video ad length | varchar(255) |
+| video | 視訊內容 | varchar(255) |
+| videoad | 視訊廣告名稱 | varchar(255) |
+| videoadinpod | Pod位置中的視訊廣告 | varchar(255) |
+| videoadlength | 視訊廣告長度 | varchar(255) |
 | videoadload | 視訊廣告載入 | varchar(255) |
 | videoadname | 視訊廣告名稱 | varchar(255) |
 | videoadplayername | 視訊廣告播放器名稱 | varchar(255) |
 | videoadpod | 視訊廣告pod | varchar(255) |
-| videoadvertiser | Video advertiser | varchar(255) |
-| videoaudioalbum | Video audio album | varchar(255) |
-| videoaudioartist | Video audio artist | varchar(255) |
-| videoaudioauthor | Video audio author | varchar(255) |
-| videoaudiolabel | Video audio label | varchar(255) |
-| videoaudiopublisher | Video audio publisher | varchar(255) |
-| videoaudiostation | Video audio station | varchar(255) |
+| videoadvertiser | 視訊廣告商 | varchar(255) |
+| 影音相簿 | 影音相簿 | varchar(255) |
+| 影音藝術家 | 視訊音訊藝術家 | varchar(255) |
+| videoaudioauthor | 視訊音訊作者 | varchar(255) |
+| videoaudiolabel | 視訊音訊標籤 | varchar(255) |
+| videoaudiopublisher | 視訊音訊發佈者 | varchar(255) |
+| videoaudiostation | 視訊音訊站 | varchar(255) |
 | videocampaign | 視訊促銷活動 | varchar(255) |
 | videochannel | 視訊頻道 | varchar(255) |
 | videochapter | 影片章節名稱 | varchar(255) |
