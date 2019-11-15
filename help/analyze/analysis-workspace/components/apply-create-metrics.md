@@ -1,11 +1,9 @@
 ---
 description: 在 Analysis Workspace 中使用量度有兩種方式。
-seo-description: 在 Analysis Workspace 中使用量度有兩種方式。
-seo-title: 量度
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
