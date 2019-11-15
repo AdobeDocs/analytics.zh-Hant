@@ -1,18 +1,16 @@
 ---
 description: 如果您不知道報表套裝的 ID，可以將「報表套裝」功能表之「報表套裝」欄位中的值拖放到 Excel 活頁簿內的儲存格中。
-seo-description: 如果您不知道報表套裝的 ID，可以將「報表套裝」功能表之「報表套裝」欄位中的值拖放到 Excel 活頁簿內的儲存格中。
-seo-title: 使用Excel尋找報表套裝ID
 solution: Analytics
-title: 使用Excel尋找報表套裝ID
-topic: Report Builder
-uuid: 087d5720-f438-4db3-bb-e6452 f1 f2 ba6
+title: 使用 Excel 來找出報表套裝 ID
+topic: Report builder
+uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 使用Excel尋找報表套裝ID
+# 使用 Excel 來找出報表套裝 ID
 
 如果您不知道報表套裝的 ID，可以將「報表套裝」功能表之「報表套裝」欄位中的值拖放到 Excel 活頁簿內的儲存格中。
 
