@@ -1,15 +1,13 @@
 ---
 description: pageType 變數的用途僅止於指定 404 (找不到頁面) 錯誤頁面。
-keywords: Analytics 實作
-seo-description: pageType 變數的用途僅止於指定 404 (找不到頁面) 錯誤頁面。
-seo-title: 正確設定 PageType 變數
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: 正確設定 PageType 變數
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: eafaf58e-ba07-416f-89b9-694687cc4802
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
