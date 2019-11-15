@@ -1,13 +1,11 @@
 ---
 description: 本節適用對象為 Adobe Analytics 系統管理員。本節重點放在新的連結追蹤參數，以及這些新參數如何在瀏覽器和裝置之間確保連結獨特性和一致性，並改善頁面上的連結重新定位處理。
-seo-description: 本節適用對象為 Adobe Analytics 系統管理員。本節重點放在新的連結追蹤參數，以及這些新參數如何在瀏覽器和裝置之間確保連結獨特性和一致性，並改善頁面上的連結重新定位處理。
-seo-title: 連結追蹤方法
 solution: Analytics
-title: 連結追蹤 方法
-topic: Activity Map
+title: 連結追蹤方法
+topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!IMPORTANT]
 >
->Any link where the text (not the href) may contain PII (Personally Identifiable Information) should be implemented explicitly using [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) or by excluding ActivityMap link collection with [s.ActivityMap.linkExclusions or s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars). 如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](/help/analyze/activity-map/lnk-tracking-overview.md)。
+>任何可能含有 PII (個人識別資訊) 之文字的連結，都應使用 [s_objectID](https://marketing.adobe.com/resources/help/en_US/sc/implement/s_objectID.html) 明確實作，或是使用 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 連結集合。如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](/help/analyze/activity-map/lnk-tracking-overview.md)。
 
 Activity Map 的連結追蹤是根據下列兩個 ID:
 
@@ -50,7 +48,7 @@ Activity Map 的連結追蹤是根據下列兩個 ID:
 * 不受頁面上連結重新定位的影響。
 * 改善可讀性，讓使用者可以在 Activity Map 外部分析連結追蹤報表。
 
-## Link region {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
+## 連結地區 {#section_75BF9B9E3CE94B59ACC3D9AF63E04535}
 
 這個新屬性可讓使用者指定字串，用來代表連結所在的頁面地區。
 
@@ -61,12 +59,12 @@ Activity Map 的連結追蹤是根據下列兩個 ID:
 * 可協助區分具相同主要 ID 的連結。
 * 地區趨勢分析較不受網頁的動態方面影響。
 * 使用者可查看某地區內績效最佳的連結。使用地區做為錨記，可以顯示頁面中目前隱藏之連結的覆蓋圖 (Ajax、鎖定)。
-* 由於特定地區可在許多網頁間使用，因此地區可以取代頁面。它有助於回答以下問題：「我的「產品選件」地區在女性登陸頁面或男性登陸頁面上的表現最佳嗎？
+* 由於特定地區可在許多網頁間使用，因此地區可以取代頁面。這可協助回答類似下列問題:「我的『產品供應』地區在女性登陸頁面還是男性登陸頁面表現最佳?
 * 地區本身是相關維度，可分析高度動態網頁。這是因為它可移除不斷變動連結所造成的雜訊: 例如，CNN 登陸頁面中的「最新消息」地區可能會有很多變動連結。但地區永遠存在。所以在地區層級針對許多天進行分析，應該可獲得有趣的結果。
 
 **自訂地區追蹤**
 
-您可以自訂連結的地區參數 (預設為連結 ID): 設為 "ID" 的標記會使用具有 "id" 參數的所有 HTML 元素做為「地區」。因此，將「地區」標籤設為「id」很可能會傳回許多不同的地區（如同頁面上有不同的「ID」一樣多）。 此外，如果您想要自訂性更強的實作，可將地區標記設定為更具體的項目，例如 "region_id"。
+您可以自訂連結的地區參數 (預設為連結 ID): 設為 "ID" 的標記會使用具有 "id" 參數的所有 HTML 元素做為「地區」。因此，將地區標記設為 "id" 最有可能傳回許多不同的地區 (數量即頁面上設定的 "ID" 數)。此外，如果您想要自訂性更強的實作，可將地區標記設定為更具體的項目，例如 "region_id"。
 
 以下顯示一些使用預設地區 ID 屬性 "id" 的 HTML 範例。
 
