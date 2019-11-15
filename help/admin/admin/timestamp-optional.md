@@ -1,13 +1,11 @@
 ---
 description: 在單一報表套裝中，結合時間戳記與非時間戳記資料。
-seo-description: 在單一報表套裝中，結合時間戳記與非時間戳記資料。
-seo-title: 可選時間戳記
 solution: Analytics
 title: 可選時間戳記
-topic: 管理工具
+topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
