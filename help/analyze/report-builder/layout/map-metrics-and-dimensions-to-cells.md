@@ -1,13 +1,11 @@
 ---
 description: 在將項目映射至試算表之前，請確認試算表的保護機制已解除。如果工作表的保護機制禁止任何使用者動作，您將無法選擇試算表中的儲存格。因此，請先解除工作表的保護機制，然後再新增儲存格映射。
-seo-description: 在將項目映射至試算表之前，請確認試算表的保護機制已解除。如果工作表的保護機制禁止任何使用者動作，您將無法選擇試算表中的儲存格。因此，請先解除工作表的保護機制，然後再新增儲存格映射。
-seo-title: 將度量和維度映射至儲存格
 solution: Analytics
 title: 將度量和維度映射至儲存格
-topic: Report Builder
+topic: Report builder
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
