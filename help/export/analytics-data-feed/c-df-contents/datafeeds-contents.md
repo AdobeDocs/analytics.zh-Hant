@@ -1,15 +1,13 @@
 ---
 description: 本節說明資料饋送傳送中所含的檔案。
-keywords: 資料饋送；job;contents;manifest;file;lookup;hit data;delivery contents
-seo-description: 本節說明資料饋送傳送中所含的檔案。
-seo-title: 資料摘要內容 - 概觀
+keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
 solution: Analytics
-subtopic: 資料饋送
+subtopic: data feeds
 title: 資料摘要內容 - 概觀
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 4ce92a400c6590ce7c891155f404b64f0808bcb8
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
