@@ -1,13 +1,11 @@
 ---
 description: 顯示客戶首次造訪網站和最後消費之間的間隔天數。
-seo-description: 顯示客戶首次造訪網站和最後消費之間的間隔天數。
-seo-title: 首次購買間隔天數
 solution: Analytics
 title: 首次購買間隔天數
-topic: 報表
+topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
