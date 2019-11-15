@@ -1,14 +1,12 @@
 ---
 description: 如同其他訪客，行動裝置也是透過信標受到追蹤的，因此大部分的報表皆正確可用。
-keywords: Analytics 實施;報表;行動通訊協定;搜尋引擎;搜尋關鍵字;反向連結網域;反向連結;地域劃分;網域;連線類型;時區;Cookie;Java;JavaScript;螢幕色彩;螢幕解析度;瀏覽器寬度;高度;Netscape 外掛程式
-seo-description: 如同其他訪客，行動裝置也是透過信標受到追蹤的，因此大部分的報表皆正確可用。
-seo-title: 使用行動通訊協定之裝置的報表
+keywords: Analytics Implementation;reports;mobile protocols;search engines;search keywords;referring domains;referrers;geosegmentation;domains;connection type;time zone;cookies;java;javascript;monitor colors;monitor resolution;browser width;height;netscape plug-in
 solution: Analytics
 title: 使用行動通訊協定之裝置的報表
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 4aab125d-c131-4402-9bc8-1c7fd1bb2bee
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
