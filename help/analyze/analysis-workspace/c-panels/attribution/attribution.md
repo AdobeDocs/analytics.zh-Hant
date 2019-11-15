@@ -1,11 +1,9 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 歸因面板概觀
 title: 歸因面板概觀
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: bfa8dbdae3c67ec441d18fa4dfa181fa057bd24d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -66,7 +64,7 @@ source-git-commit: bfa8dbdae3c67ec441d18fa4dfa181fa057bd24d
    * 付費搜尋觸點與轉換之間的間隔為9天。 `2`<sup>`(-9/7)`</sup> `= 0.41`
    * 將這些值標準化會產生下列結果：
       * 顯示：33.8%,16.88美元
-      * 電子郵件：33.8%得到16.88美元
+      * 電子郵件：33.8%獲得16.88美元
       * 社交：18.6%,9.32美元
       * 付費搜尋：13.8%,6.92美元
 
