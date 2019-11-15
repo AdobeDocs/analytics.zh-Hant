@@ -1,13 +1,11 @@
 ---
 description: 關於在自訂運算式中使用日期範圍的範例、附註及語法附註。
-seo-description: 關於在自訂運算式中使用日期範圍的範例、附註及語法附註。
-seo-title: 使用自訂運算式的日期範圍範例
 solution: Analytics
 title: 使用自訂運算式的日期範圍範例
-topic: Report Builder
-uuid: 3f46816d-9ee-4b2d-83be-bf1c9fb97fcf
+topic: Report builder
+uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
