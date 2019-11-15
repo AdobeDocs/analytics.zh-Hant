@@ -1,14 +1,12 @@
 ---
 description: 智慧型警報可讓您透過 Analysis Workspace 建立和管理警報，完成警報預覽和規則貢獻。
-keywords: Analytics 實施;警報;異常;異常;電子郵件;SMS;多重量度
-seo-description: 智慧型警報可讓您透過 Analysis Workspace 建立和管理警報，完成警報預覽和規則貢獻。
-seo-title: 警報
+keywords: Analytics Implementation;alert;anomalies;anomaly;email;sms;multiple metrics
 solution: Analytics
 title: 警報
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 8b266adf-bb6b-4bff-8307-e246aca717c7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
