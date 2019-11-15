@@ -1,15 +1,13 @@
 ---
 description: 將 Target 的資訊收集到 Analytics 整合。此外掛程式會被 Adobe Analytics 及 Adobe 目標整合所取代。
-keywords: Analytics 實作
-seo-description: 將 Target 的資訊收集到 Analytics 整合。此外掛程式會被 Adobe Analytics 及 Adobe 目標整合所取代。
-seo-title: trackTNT
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: trackTNT
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 84f019c1-d3d1-4434-9cce-0459d745acf6
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
