@@ -1,12 +1,10 @@
 ---
 description: 分析工作區、報告與分析、臨機分析、報告建立工具、資料倉庫和資料工作台的系統需求與比較
-seo-description: 分析工作區、報告與分析、臨機分析、報告建立工具、資料倉庫和資料工作台的系統需求與比較
-seo-title: Analytics 產品比較和需求
 solution: Analytics
 title: Analytics 產品比較和需求
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: c253105a838b7f115d51b31fc4d3cdc15781298a
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
