@@ -1,13 +1,11 @@
 ---
-description: 所選時段內的訂購總件數。由於您可在一次訂購中購買多件商品，因此商品件數是揭示總存貨流動的重要量度。
-seo-description: 所選時段內的訂購總件數。由於您可在一次訂購中購買多件商品，因此商品件數是揭示總存貨流動的重要度量。
-seo-title: 件數
+description: 所選時段內的訂購總件數。由於您可在一次訂購中購買多件商品，因此商品件數是揭示總存貨流動的重要度量。
 solution: Analytics
 title: 件數
-topic: 量度
-uuid: a0b3f3e0-5ba2-4c5c9c9c9b89b3079dd8
+topic: Metrics
+uuid: a0b3f3e0-5ba2-4c5c-9f7b-5b89b3079dd8
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
