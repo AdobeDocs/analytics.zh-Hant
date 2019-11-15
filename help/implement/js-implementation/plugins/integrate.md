@@ -1,10 +1,8 @@
 ---
 title: 整合模組
-seo-title: Adobe Analytics 適用的整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
-seo-description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
-translation-type: ht
-source-git-commit: dae73042ace20eded9d0caf690a14203827f903a
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
