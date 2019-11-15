@@ -1,13 +1,11 @@
 ---
-description: 度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。度量是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
-seo-description: 度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、件數、訂購、收入等。
-seo-title: 量度
+description: 度量是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 solution: Analytics
 title: 量度
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
