@@ -1,13 +1,11 @@
 ---
 description: 顯示相同產品字串中的產品關係。例如，如果訪客購買產品 A，還有哪些其他的產品在購買時也在購物車內。
-seo-description: 顯示相同產品字串中的產品關係。例如，如果訪客購買產品 A，還有哪些其他的產品在購買時也在購物車內。
-seo-title: 交叉銷售
 solution: Analytics
 title: 交叉銷售
-topic: 報表
-uuid: 4104d62e-b1 b2-4c6 d-93b3-be390 b123423
+topic: Reports
+uuid: 4104d62e-b1b2-4c6d-93b3-bb390b123423
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
