@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 區域和區域堆疊
-title: 區域和區域堆疊
-uuid: 27f1bfd0-bf64-4424-8827-f7127 d239762
+title: 區域圖和堆疊區域圖
+uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 區域和區域堆疊
+# 區域圖和堆疊區域圖
 
 ## 區域 {#section_FDC4B6AA944F4F8AAAEAA5E17359F28A}
 
