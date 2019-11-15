@@ -1,14 +1,12 @@
 ---
 description: 'null'
-keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM
-seo-description: 'null'
-seo-title: DTM 實施概覽
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm
 solution: Analytics
 title: DTM 實施概覽
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
