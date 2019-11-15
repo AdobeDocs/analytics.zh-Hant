@@ -1,13 +1,11 @@
 ---
 description: 「下一區域流量」類似於「下一頁流量」，但顯示的是網站區域 (相關網頁的群組) 的資料。若多個網站區域均包含某個頁面，則買頁面會顯示所有網站區域的資料。
-seo-description: 「下一區域流量」類似於「下一頁流量」，但顯示的是網站區域 (相關網頁的群組) 的資料。若多個網站區域均包含某個頁面，則買頁面會顯示所有網站區域的資料。
-seo-title: 下一區域流量
 solution: Analytics
 title: 下一區域流量
-topic: 報表
+topic: Reports
 uuid: cd476822-a3e2-496c-a27d-a13beac8cba2
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
