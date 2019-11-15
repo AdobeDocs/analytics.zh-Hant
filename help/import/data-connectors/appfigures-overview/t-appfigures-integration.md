@@ -1,11 +1,9 @@
 ---
 description: 資料連接器整合精靈會逐步引導您完成資料連接器整合程式。
-seo-description: 資料連接器整合精靈會逐步引導您完成資料連接器整合程式。
-seo-title: 設定整合
 title: 設定整合
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
