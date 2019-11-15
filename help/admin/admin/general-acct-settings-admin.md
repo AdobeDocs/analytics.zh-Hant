@@ -1,13 +1,11 @@
 ---
-description: 「管理」報表套裝裡「一般帳戶設定」的欄位說明。
-seo-description: 「管理」裡報表套裝「一般帳戶設定」的欄位說明。
-seo-title: 一般帳戶設定
+description: 「管理」裡報表套裝「一般帳戶設定」的欄位說明。
 solution: Analytics
 title: 一般帳戶設定
-topic: 管理工具
+topic: Admin tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
