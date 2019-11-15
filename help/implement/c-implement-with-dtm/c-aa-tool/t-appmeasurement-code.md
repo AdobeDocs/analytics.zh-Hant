@@ -1,13 +1,11 @@
 ---
 description: 在 Adobe Analytics 中手動部署動態標籤管理時插入 AppMeasurement 代碼。
-keywords: Dynamic Tag Management;已連結的帳戶;連結中的帳戶;編輯程式碼;AppMeasurement;AppMeasurement 程式碼
-seo-description: 在 Adobe Analytics 中手動部署動態標籤管理時插入 AppMeasurement 代碼。
-seo-title: 插入核心 AppMeasurement 代碼
+keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 插入核心 AppMeasurement 代碼
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
