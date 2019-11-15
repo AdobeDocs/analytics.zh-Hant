@@ -1,12 +1,10 @@
 ---
 description: 部署此項整合是一個簡單的3步驟程式。
-seo-description: 部署此項整合是一個簡單的3步驟程式。
-seo-title: 部署整合
 solution: Analytics
 title: 部署整合
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
