@@ -1,13 +1,11 @@
 ---
 description: 檔案下載有助您瞭解訪客從網站下載檔案的頻率。檔案下載的內容可以是文字處理器文件、試算表、音訊檔、影片檔、使用者手冊等。其中包括直接從瀏覽器儲存與開啟的檔案，以及儲存至使用者電腦的檔案。此報告會顯示要下載之檔案的名稱，包括存取檔案所需的完整 URL 在內。
-seo-description: 檔案下載有助您瞭解訪客從網站下載檔案的頻率。檔案下載的內容可以是文字處理器文件、試算表、音訊檔、影片檔、使用者手冊等。其中包括直接從瀏覽器儲存與開啟的檔案，以及儲存至使用者電腦的檔案。此報告會顯示要下載之檔案的名稱，包括存取檔案所需的完整 URL 在內。
-seo-title: 檔案下載
 solution: Analytics
 title: 檔案下載
-topic: 報表
-uuid: 897fc221-aa30-4eac-aca6-bcb76adaf71
+topic: Reports
+uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
