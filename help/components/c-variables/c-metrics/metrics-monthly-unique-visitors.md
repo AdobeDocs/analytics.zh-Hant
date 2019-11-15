@@ -1,18 +1,16 @@
 ---
 description: 一月內您的網站不重複 (只計一次) 的訪客數量。
-seo-description: 一月內您的網站不重複 (只計一次) 的訪客數量。
-seo-title: 每月獨特訪客
 solution: Analytics
-title: 每月獨特訪客
-topic: 量度
-uuid: b11555b6-b4 df-4ef-ba2 c-2f31651256 f6
+title: 每月不重複訪客
+topic: Metrics
+uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 每月獨特訪客
+# 每月不重複訪客
 
 一月內您的網站不重複 (只計一次) 的訪客數量。
 
