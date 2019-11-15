@@ -1,14 +1,12 @@
 ---
 description: 處理規則可簡化資料收集作業，並在資料傳送至報表後管理內容。
-keywords: Analytics 實施;處理規則;規則
-seo-description: 處理規則可簡化資料收集作業，並在資料傳送至報表後管理內容。
-seo-title: 處理規則
+keywords: Analytics Implementation;processing rules;rules
 solution: Analytics
 title: 處理規則
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 6655a82f-4eb1-4c28-918e-168254ab1f92
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
