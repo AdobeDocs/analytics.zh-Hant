@@ -1,13 +1,11 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-seo-description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-seo-title: 即時報表概觀
 solution: Analytics
 title: 即時報表概觀
-topic: 報表
+topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -18,7 +16,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 >[!NOTE]
 >
->即時報表不需要額外實施或標籤。 它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](/help/components/c-real-time-reporting/t-realtime-admin.md).
+> 即時報表不需要額外實施或標籤。 它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](/help/components/c-real-time-reporting/t-realtime-admin.md).
 
 **[!UICONTROL 網站量度]** &gt; **[!UICONTROL 即時]**
 
@@ -57,4 +55,4 @@ After the A4T integration is enabled in Adobe [!DNL Target], you will experience
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，延遲增加會在您實作Identity service後開始，即使您尚未完全實作此整合亦然。
+請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施身份服務後開始。
