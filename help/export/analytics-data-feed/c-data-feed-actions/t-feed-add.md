@@ -1,13 +1,11 @@
 ---
 description: 建立新的摘要。
-keywords: 資料饋送；新增
-seo-description: 建立新的摘要。
-seo-title: 新增摘要
+keywords: Data Feed;add
 solution: Analytics
 title: 新增摘要
 uuid: e6767e2d-3283-4cdd-a972-475517f820bb
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
