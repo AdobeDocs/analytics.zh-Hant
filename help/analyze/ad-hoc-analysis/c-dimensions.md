@@ -1,13 +1,11 @@
 ---
 description: 維度是度量資料的描述或特徵，可以在報表中加以檢視、劃分及比較。它們是非數值和日期，可以關聯、子關聯至原始報表類型度量，或成為原始報表類型度量的分類。
-seo-description: 維度是度量資料的描述或特徵，可以在報表中加以檢視、劃分及比較。它們是非數值和日期，可以關聯、子關聯至原始報表類型度量，或成為原始報表類型度量的分類。
-seo-title: 維度
 solution: Analytics
 title: 維度
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
