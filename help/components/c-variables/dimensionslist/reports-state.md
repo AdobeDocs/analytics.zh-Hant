@@ -1,13 +1,11 @@
 ---
 description: 使用地域劃分報告訪客所在的美國州別。
-seo-description: 使用地域劃分報告訪客所在的美國州別。
-seo-title: 美國州別
 solution: Analytics
 title: 美國州別
-topic: 報表
-uuid: 42083d1-c9 b3-42e6-b4 f6-ea6 b6-ea79 f56
+topic: Reports
+uuid: 422083d1-c9b3-42e6-b4f6-ea6b52c79f56
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
