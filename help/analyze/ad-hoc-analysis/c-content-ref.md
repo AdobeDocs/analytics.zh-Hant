@@ -1,13 +1,11 @@
 ---
 description: 臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 臨機分析為其「區段產生器」和「區段管理員」提供以Java為基礎的使用者介面，與其他Analytics工具使用的網路工具相同，可比對伺服器呼叫，並從Java主控台提供相同的功能。
-seo-description: 臨機分析與Analytics區段環境整合，讓您可以跨Adobe產品建立、共用、管理和套用訪客區段。 臨機分析為其「區段產生器」和「區段管理員」提供以Java為基礎的使用者介面，與其他Analytics工具使用的網路工具相同，可比對伺服器呼叫，並從Java主控台提供相同的功能。
-seo-title: 建立區段
 solution: Analytics
 title: 建立區段
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
