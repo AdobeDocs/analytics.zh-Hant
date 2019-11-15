@@ -1,18 +1,16 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 每年獨特訪客
 solution: Analytics
-title: 每年獨特訪客
-topic: 量度
-uuid: 80015631-b100-4e47-a493-e9 c10563 f99 d
+title: 每年不重複訪客
+topic: Metrics
+uuid: 80015631-b100-4e47-a493-e9c10563f99d
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 每年獨特訪客
+# 每年不重複訪客
 
 | 使用 | 說明 |
 |---|---|
