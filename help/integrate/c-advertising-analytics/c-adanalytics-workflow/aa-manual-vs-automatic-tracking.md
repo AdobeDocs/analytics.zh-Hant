@@ -1,11 +1,9 @@
 ---
 description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
-seo-description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
-seo-title: 追蹤手動模式和自動模式
 title: 追蹤手動模式和自動模式
 uuid: c6ce7901-7b65-48b6-b65f-f29cc47b7454
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
