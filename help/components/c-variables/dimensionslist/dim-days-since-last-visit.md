@@ -1,11 +1,9 @@
 ---
 description: 「上次造訪間隔天數」為 Analysis Workspace 出廠即提供的 Analytics 維度。
-seo-description: 「上次造訪間隔天數」為 Analysis Workspace 出廠即提供的 Analytics 維度。
-seo-title: 上次造訪間隔天數
 title: 上次造訪間隔天數
-uuid: d7726a7c-7c4b-45c2-ACE9-444EB2 d4 a4 d0
+uuid: d7726a7c-7c4b-45c2-ace9-444eb2d3a4d0
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
