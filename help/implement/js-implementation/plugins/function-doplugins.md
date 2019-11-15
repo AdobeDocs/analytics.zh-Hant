@@ -1,15 +1,13 @@
 ---
 description: JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
-keywords: Analytics 實作
-seo-description: JavaScript 外掛程式通常被 doPlugins 函數呼叫，該動作會於 t() 函數在貼上程式碼中被呼叫時執行。
-seo-title: doPlugins 函數
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: doPlugins 函數
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 367d5550-f8e2-477d-8681-18ae9665d699
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
