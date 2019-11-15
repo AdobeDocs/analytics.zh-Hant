@@ -1,13 +1,11 @@
 ---
 description: 「頁面細節」索引標籤會以表格顯示頁面報表，並以蝶形報表來顯示頁面流量報表。
-seo-description: 「頁面細節」索引標籤會以表格顯示頁面報表，並以蝶形報表來顯示頁面流量報表。
-seo-title: 頁面細節
 solution: Analytics
 title: 頁面細節
-topic: Activity Map
+topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: ht
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
