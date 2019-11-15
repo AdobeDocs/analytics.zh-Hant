@@ -1,13 +1,11 @@
 ---
-description: 您的網站在所選時段內的訂購數。您可以依其他量度劃分特定的時段，以便在特定時間範圍內顯示促成最多訂購的項目 (如產品或促銷活動)。
-seo-description: 您的網站在所選時段內的訂購數。您可以依其他度量劃分特定的時段，以便顯示在特定時間範圍內促成最多訂購的項目 (如產品或促銷活動)。
-seo-title: 訂購
+description: 您的網站在所選時段內的訂購數。您可以依其他度量劃分特定的時段，以便顯示在特定時間範圍內促成最多訂購的項目 (如產品或促銷活動)。
 solution: Analytics
-title: 訂單
-topic: 量度
-uuid: b20ad038-370b-4343-a394-434d3 c4 bd111
+title: 訂購
+topic: Metrics
+uuid: b20ad038-370b-4343-a394-434d3c4bd111
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
