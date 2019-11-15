@@ -1,13 +1,11 @@
 ---
 description: 刪除摘要會將其從「摘要」清單中移除。
-keywords: 資料饋送；饋送；刪除
-seo-description: 刪除摘要會將其從「摘要」清單中移除。
-seo-title: 刪除摘要
+keywords: Data Feed;feed;delete
 solution: Analytics
 title: 刪除摘要
 uuid: b6056da6-9c8c-47dc-b9c5-f75716454952
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
