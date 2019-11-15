@@ -1,13 +1,11 @@
 ---
 description: SFTP是傳輸資料的安全通訊協定，可確保除了您以外，沒有人能看見您的資料。 Adobe工程服務可以設定SFTP帳戶，以安全地保留您的資料。
 keywords: ftp;sftp
-seo-description: SFTP是傳輸資料的安全通訊協定，可確保除了您以外，沒有人能看見您的資料。 Adobe工程服務可以設定SFTP帳戶，以安全地保留您的資料。
-seo-title: 安全檔案傳輸通訊協定 - 概觀
 solution: Analytics
 title: 安全檔案傳輸通訊協定 - 概觀
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
