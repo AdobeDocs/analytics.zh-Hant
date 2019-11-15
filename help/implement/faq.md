@@ -1,14 +1,12 @@
 ---
 description: 實作的相關常見問題，以及可提供更多資訊的連結。
-keywords: Analytics 實作; 常見問題; 常見問題; eVar 過期; 自訂事件可見度; 時間戳記; 訪客 ID 寬限期; 訪客 ID; Experience Cloud 訪客 ID; Analytics 訪客 ID; DTM; 心率; Cookie; 追蹤伺服器; 效能; JavaScript; 資料收集; s_code 版本; s_code 偵錯; 追蹤連結類型; 追蹤視訊; 追蹤行動應用程式; 第一方 Cookie; SSL 憑證; 認證過期; 憑證過期; 外掛程式; 資料插入 API; 500 錯誤; 500;管理使用者; 管理群組; 使用者; 群組
-seo-description: 實作的相關常見問題，以及可提供更多資訊的連結。
-seo-title: Analytics 實作常見問題集
+keywords: Analytics Implementation;faq;frequently asked questions;evar expiration;custom event visibility;timestamp;visitor id grace period;visitor id;Experience Cloud visitor id;analytics visitor id;dtm;heartbeat;cookies;tracking server;performance;javascript;data collection;s_code version;s_code debug;track link types;track video;track mobile app;first party cookie;ssl certificate;certification expiration;certificate expiration;plugins;data insertion api;500 error;500;Manage user;manage group;users;groups
 solution: Analytics
 title: Analytics 實作常見問題集
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: c723d0938a2ea782d026daf67599d7be38a93c46
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
