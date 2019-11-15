@@ -1,11 +1,9 @@
 ---
 description: 使用「即插即用」嚮導，直觀的逐步過程將引導您完成系統同步點並初始化整合。
-seo-description: 使用「即插即用」嚮導，直觀的逐步過程將引導您完成系統同步點並初始化整合。
-seo-title: 整合程式與先決條件
 title: 整合程式與先決條件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
