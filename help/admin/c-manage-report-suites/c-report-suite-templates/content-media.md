@@ -1,13 +1,11 @@
 ---
 description: 定義開發原始內容並顯示文章和影片之網站的一般設定。
-seo-description: 定義開發原始內容並顯示文章和影片之網站的一般設定。
-seo-title: 內容與媒體
 solution: Analytics
 title: 內容與媒體
-topic: 管理工具
+topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
