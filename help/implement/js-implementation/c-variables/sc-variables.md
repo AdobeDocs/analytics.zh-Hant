@@ -1,15 +1,13 @@
 ---
 description: Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurment 支援的變數。
-keywords: Analytics 實施;AppMeasurement 變數
-seo-description: Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurment 支援的變數。
-seo-title: 變數概觀
+keywords: Analytics Implementation;appmeasurement variables
 solution: Analytics
-subtopic: 變數
+subtopic: Variables
 title: 變數概觀
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
-translation-type: ht
-source-git-commit: 40e9872126114588961a1e84e6be85bb945050a4
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
