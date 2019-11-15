@@ -1,12 +1,10 @@
 ---
 description: 回答實作 Audience Analytics 時可能遇到的問題。
-seo-description: 回答實作 Audience Analytics 時可能遇到的問題。
-seo-title: 常見問題集
 solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
