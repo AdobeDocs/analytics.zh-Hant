@@ -1,13 +1,11 @@
 ---
 description: 在報表中檢視和區分您的 Adobe Target 流量資料。
-seo-description: 在報表中檢視和區分您的 Adobe Target 流量資料。
-seo-title: 目標
 solution: Analytics
 title: 目標
-topic: 報表
+topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
