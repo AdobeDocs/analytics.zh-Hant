@@ -1,13 +1,11 @@
 ---
 description: 部署 Analytics 時，動態標籤管理中用於頁面檢視與內容設定的欄位說明。
-keywords: 動態標籤管理；頁面檢視；content；頁面名稱；頁面url override;channel;site section;hierarchy
-seo-description: 部署 Analytics 時，動態標籤管理中用於頁面檢視與內容設定的欄位說明。
-seo-title: 頁面檢視與內容
-solution: Experience Cloud,Analytics，動態標籤管理
+keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
+solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 頁面檢視與內容
 uuid: 6d019304-5892-475b-9887-00f86983f859
 translation-type: tm+mt
-source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
 
 部署 Analytics 時，動態標籤管理中用於頁面檢視與內容設定的欄位說明。
 
-**[!UICONTROL &gt;*`Property`*]** 「編輯工具 ![](assets/settings_gear.png) &gt;頁面檢 ******[!UICONTROL 視與內容」]**
+**[!UICONTROL *`Property`*]** &gt; ![](assets/settings_gear.png) **[!UICONTROL 編輯工具]** &gt; **[!UICONTROL 頁面檢視與內容]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F"> 
  <thead> 
@@ -28,19 +26,19 @@ source-git-commit: 506c670e4b2903cc71bb6880cd74c3392bbc751c
  <tbody> 
   <tr> 
    <td colname="col1"> 頁面名稱 </td> 
-   <td colname="col2"> <p>您網站上各個頁面的名稱。 </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>。 </p> </td> 
+   <td colname="col2"> <p>您網站上各個頁面的名稱。 </p> <p>請參閱<a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 頁面 URL 覆寫 </td> 
-   <td colname="col2"> <p> 覆寫頁面的實際 URL。 </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>。 </p> </td> 
+   <td colname="col2"> <p> 覆寫頁面的實際 URL。 </p> <p>請參閱<a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 頻道 (網站區域) </td> 
-   <td colname="col2"> <p>可識別您網站的某個區域。 </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>。 </p> </td> 
+   <td colname="col2"> <p>可識別您網站的某個區域。 </p> <p>請參閱<a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 階層 </td> 
-   <td colname="col2"> <p>判斷某個頁面在您的網站階層中的所在位置。 </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>。 </p> </td> 
+   <td colname="col2"> <p>判斷某個頁面在您的網站階層中的所在位置。 </p> <p>請參閱<a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
