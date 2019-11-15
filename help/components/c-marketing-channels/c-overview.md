@@ -1,14 +1,12 @@
 ---
 description: 行銷渠道報表可讓您瞭解您的行銷渠道產生了多少收入。這些報表包括首次接觸和上次接觸渠道配置的概述報表，並搭配重要的標準量度，如收入、訂購和成本。
-seo-description: 行銷渠道報表可讓您瞭解您的行銷渠道產生了多少收入。這些報表包括首次接觸和上次接觸渠道配置的概述報表，並搭配重要的標準量度，如收入、訂購和成本。
-seo-title: 關於行銷渠道報表
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 關於行銷渠道報表
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 464cabc9-9e8f-4db7-a7c7-203aa7852635
 translation-type: tm+mt
-source-git-commit: 2b5e51e76b18980d169a024276fc0aa6b085c248
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
