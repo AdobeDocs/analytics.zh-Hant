@@ -1,15 +1,13 @@
 ---
 description: Adobe 在更新 Analytics 程式碼方面提供了幾項最佳實務準則。
-keywords: Analytics 實作
-seo-description: Adobe 在更新 Analytics 程式碼方面提供了幾項最佳實務準則。
-seo-title: 取代 Analytics 程式碼
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 疑難排解
+subtopic: Troubleshooting
 title: 取代 Analytics 程式碼
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: d3ea6585-199f-4dbe-9ee8-15b204689f2f
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
