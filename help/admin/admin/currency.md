@@ -1,13 +1,11 @@
 ---
 description: Experience Cloud 中使用的貨幣代碼。
-seo-description: Experience Cloud 中使用的貨幣代碼。
-seo-title: 貨幣代碼
 solution: Analytics
 title: 貨幣代碼
-topic: 管理工具
-uuid: 73c7476b-f09 c-4459-8e72-da6 fa85 ff533
+topic: Admin tools
+uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
