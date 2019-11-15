@@ -1,13 +1,11 @@
 ---
 description: 顯示您網站訪客的慣用連結。例如，網站的首頁上可能有多個連結會顯示同一個頁面。可能有一個圖形連結，和一個文字連結，都連結到同一個頁面。這份報告顯示使用圖形連結和使用文字連結的訪客百分比。
-seo-description: 顯示您網站訪客的慣用連結。例如，網站的首頁上可能有多個連結會顯示同一個頁面。可能有一個圖形連結，和一個文字連結，都連結到同一個頁面。這份報告顯示使用圖形連結和使用文字連結的訪客百分比。
-seo-title: 自訂連結
 solution: Analytics
 title: 自訂連結
-topic: 報表
+topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
 translation-type: tm+mt
-source-git-commit: 4420560ef19f8123de1736ba904b655b9bee1a4c
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
