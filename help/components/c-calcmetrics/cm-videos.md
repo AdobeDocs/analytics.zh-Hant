@@ -1,16 +1,14 @@
 ---
 description: 這些短片 (8 分鐘以內) 概述如何最佳化計算量度工具的使用方式。
-seo-description: 這些短片 (8 分鐘以內) 概述如何最佳化計算量度工具的使用方式。
-seo-title: 教學影片
-title: 教學影片
-uuid: b6920b20-4c38-4017-bb10-cb187 d39 fd77
+title: 作法影片
+uuid: b6920b20-4c38-4017-bb10-cb187d39fd77
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 教學影片
+# 作法影片
 
 這些短片 (8 分鐘以內) 概述如何最佳化計算量度工具的使用方式。
 
