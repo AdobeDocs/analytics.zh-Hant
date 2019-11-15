@@ -1,14 +1,12 @@
 ---
 description: 使用 HTML 影像標記實施 Analytics (硬式編碼影像請求)
-keywords: Analytics 實施;html 影像標籤;硬式編碼影像要求
-seo-description: 使用 HTML 影像標記實施 Analytics (硬式編碼影像請求)
-seo-title: 使用 HTML 影像標記實作 Analytics
+keywords: Analytics Implementation;html image tag;hardcoded image request
 solution: Analytics
 title: 使用 HTML 影像標記實作 Analytics
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
