@@ -1,13 +1,11 @@
 ---
 description: 使用資料連接器與 Adobe 合作夥伴建立整合時，Adobe 可以推送重新行銷或其他資料至 FTP 帳戶，供您或合作夥伴下載。
 keywords: ftp;sftp
-seo-description: 使用資料連接器與 Adobe 合作夥伴建立整合時，Adobe 可以推送重新行銷或其他資料至 FTP 帳戶，供您或合作夥伴下載。
-seo-title: Data Connectors
 solution: Analytics
 title: Data Connectors
 uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
