@@ -1,14 +1,12 @@
 ---
 description: 每個排名在前的比較表格會顯示依多項統計測試所計算出的不同積分，根據所進行的比較而定; 但是，無論使用哪個測試，差異積分會以 0 與 1 之間的值顯示。
-keywords: 分析工作區；區段IQ
-seo-description: 每個排名在前的比較表格會顯示依多項統計測試所計算出的不同積分，根據所進行的比較而定; 但是，無論使用哪個測試，差異積分會以 0 與 1 之間的值顯示。
-seo-title: 區段比較中所使用的統計測試
+keywords: Analysis Workspace;Segment IQ
 solution: Analytics
 title: 區段比較中所使用的統計測試
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c3f52470-5bfc-4e6b-8638-1c142b08d013
 translation-type: tm+mt
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
