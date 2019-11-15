@@ -1,14 +1,12 @@
 ---
 description: 前置欄包含傳送給資料收集的資料。後置欄包含處理後的值。
-keywords: Data Feed;job;pre column;post column；區分大小寫
-seo-description: 前置欄包含傳送給資料收集的資料。後置欄包含處理後的值。
-seo-title: 前置欄和後置欄
+keywords: Data Feed;job;pre column;post column;case sensitivity
 solution: Analytics
 title: 前置欄和後置欄
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a415327b-6151-4d08-b8b9-5aaa2348eb0c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
