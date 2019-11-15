@@ -1,18 +1,16 @@
 ---
 description: 要組織區段以方便使用，將區段標記為我的最愛是另一種方法。
-seo-description: 要組織區段以方便使用，將區段標記為我的最愛是另一種方法。
-seo-title: 將區段標示為我的最愛
 solution: Analytics
-title: 將區段標示為我的最愛
-topic: 區段
-uuid: 0bc1f19c-4ab1-47a2-47a2-9dd415846ee
+title: 將區段標示為最愛
+topic: Segments
+uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 將區段標示為我的最愛
+# 將區段標示為最愛
 
 要組織區段以方便使用，將區段標記為我的最愛是另一種方法。
 
