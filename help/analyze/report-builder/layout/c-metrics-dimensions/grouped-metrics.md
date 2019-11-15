@@ -1,18 +1,16 @@
 ---
 description: 現在，您可以將這兩種度量類型合併為同一個請求，而不須分別建立請求。
-seo-description: 現在，您可以將這兩種度量類型合併為同一個請求，而不須分別建立請求。
-seo-title: 結合相同請求中的流量和商務度量
 solution: Analytics
-title: 結合相同請求中的流量和商務度量
-topic: Report Builder
-uuid: 2813d594-f4 ec-4f6 a-8539-ec7 d954 a392 a392 f
+title: 將流量與商務度量合併為同一請求
+topic: Report builder
+uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 結合相同請求中的流量和商務度量
+# 將流量與商務度量合併為同一請求
 
 現在，您可以將這兩種度量類型合併為同一個請求，而不須分別建立請求。
 
