@@ -1,14 +1,12 @@
 ---
 description: 在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
-seo-description: 在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
-seo-title: 管理行銷渠道
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 管理行銷渠道
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
