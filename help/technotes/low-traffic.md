@@ -1,13 +1,11 @@
 ---
 description: 當報表有大量唯一值時，Adobe提供的功能可確保最重要的值出現在您的報表中。
-seo-description: 當報表有大量唯一值時，Adobe提供的功能可確保最重要的值出現在您的報表中。
-seo-title: Adobe Analytics中的低流量值
 solution: Analytics
 title: Adobe Analytics中的低流量值
-topic: 量度
+topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 translation-type: tm+mt
-source-git-commit: 22fc459dae1a57a387511560e7039c7085e30551
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
