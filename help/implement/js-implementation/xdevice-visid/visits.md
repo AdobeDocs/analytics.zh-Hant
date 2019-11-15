@@ -1,15 +1,13 @@
 ---
 description: Analytics 會在每次發生伺服器呼叫、且「瀏覽頁碼」等於 1 時計入一次瀏覽。
-keywords: Analytics 實作
-seo-description: Analytics 會在每次發生伺服器呼叫、且「瀏覽頁碼」等於 1 時計入一次瀏覽。
-seo-title: 瀏覽
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 訪客
+subtopic: Visitors
 title: 瀏覽
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 3035be8f-6adc-45df-a3f2-5de6d3ed99ce
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
