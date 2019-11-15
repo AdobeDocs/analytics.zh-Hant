@@ -1,13 +1,11 @@
 ---
 description: 在第 14 版中，唯一訪客是指在指定的時段內第一次瀏覽某網站的訪客。例如，假設獨特訪客一星期內可能瀏覽某網站十次，但若時段單位為星期，則一個獨特訪客只會在該星期被計算一次。該星期結束後，該獨特訪客就可以在新的時段內再被計算一次。
-seo-description: 在第 14 版中，唯一訪客是指在指定的時段內第一次瀏覽某網站的訪客。例如，假設獨特訪客一星期內可能瀏覽某網站十次，但若時段單位為星期，則一個獨特訪客只會在該星期被計算一次。該星期結束後，該獨特訪客就可以在新的時段內再被計算一次。
-seo-title: 不重複訪客
 solution: Analytics
 title: 不重複訪客
-topic: 量度
+topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
