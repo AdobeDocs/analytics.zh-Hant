@@ -1,13 +1,11 @@
 ---
 description: 與基本報告類型 (包括「流量」、「轉換」及「路徑」) 相關的資訊。
-seo-description: 與基本報告類型 (包括「流量」、「轉換」及「路徑」) 相關的資訊。
-seo-title: 報表類型
 solution: Analytics
 title: 報表類型
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: c1705d98-58f9-4b34-afdf-4afcea01da97
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
