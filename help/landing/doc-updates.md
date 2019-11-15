@@ -1,11 +1,9 @@
 ---
 title: Adobe Analytics 文件更新
 description: Adobe Analytics 技術文件更新
-seo-title: Adobe Analytics 文件更新
-seo-description: Adobe Analytics 文件更新
-short-title: Analytics 文件更新
+short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
