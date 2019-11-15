@@ -1,14 +1,12 @@
 ---
 description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
-seo-description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
-seo-title: 控制面板和報表
 solution: Analytics
-subtopic: 控制面板
+subtopic: Dashboards
 title: 控制面板和報表
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
