@@ -1,14 +1,12 @@
 ---
 description: Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料以用於報告。
-seo-description: Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料以用於報告。
-seo-title: 資料來源概觀
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 資料來源概觀
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
