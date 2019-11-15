@@ -1,16 +1,14 @@
 ---
-description: 說明尋找量度排序和篩選的兩個主要方法。
-seo-description: 說明尋找量度排序和篩選的兩個主要方法。
-seo-title: 尋找度量
-title: 尋找度量
-uuid: 60c8e02c-736d-4d20-87999-69f6ca250033
+description: 說明尋找量度排序和篩選的兩種主要方式。
+title: 尋找量度
+uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 尋找度量
+# 尋找量度
 
 說明尋找量度的兩個主要方法: 排序和篩選。
 
