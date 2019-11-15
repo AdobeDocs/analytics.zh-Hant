@@ -1,20 +1,18 @@
 ---
 description: 「客戶忠誠度」可揭示客戶的購買模式。
-seo-description: 「客戶忠誠度」可揭示客戶的購買模式。
-seo-title: 客戶忠誠度
 solution: Analytics
 title: 客戶忠誠度
-topic: 報表
+topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
 # 客戶忠誠度
 
-客戶忠誠度 揭示客戶的購買模式。
+「客戶忠誠度」可揭示客戶的購買模式。
 
 此報表會根據 4 個忠誠度類別來顯示客戶的購買模式:
 
