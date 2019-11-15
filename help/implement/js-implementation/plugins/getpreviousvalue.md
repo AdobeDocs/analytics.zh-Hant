@@ -1,15 +1,13 @@
 ---
 description: 在下一個頁面檢視上擷取 Analytics 變數的值。例如，您可以使用外掛程式，將上一個頁面檢視中的 s.pageName 值擷取到自訂流量變數中。您也可以選擇僅在指定的成功事件設定時才擷取先前值。
-keywords: Analytics 實作
-seo-description: 在下一個頁面檢視上擷取 Analytics 變數的值。例如，您可以使用外掛程式，將上一個頁面檢視中的 s.pageName 值擷取到自訂流量變數中。您也可以選擇僅在指定的成功事件設定時才擷取先前值。
-seo-title: getPreviousValue
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 外掛程式
+subtopic: Plug-ins
 title: getPreviousValue
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 20da7b4a-9820-4690-a1cc-d10b6dd627a7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
