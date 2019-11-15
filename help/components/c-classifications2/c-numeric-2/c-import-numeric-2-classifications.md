@@ -1,14 +1,12 @@
 ---
 description: 每個數值 2 分類匯入和匯出檔案皆含有 6 個資料欄。
-seo-description: 每個數值 2 分類匯入和匯出檔案皆含有 6 個資料欄。
-seo-title: 匯入數值 2 分類
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 匯入數值 2 分類
-topic: 管理工具
+topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
