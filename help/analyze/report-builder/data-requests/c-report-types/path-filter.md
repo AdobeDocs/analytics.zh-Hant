@@ -1,13 +1,11 @@
 ---
 description: 說明將篩選條件套用至路徑報表的步驟。
-seo-description: 說明將篩選條件套用至路徑報表的步驟。
-seo-title: 使用請求精靈篩選路徑報表
 solution: Analytics
 title: 使用請求精靈篩選路徑報表
-topic: Report Builder
+topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
