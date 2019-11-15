@@ -1,14 +1,12 @@
 ---
 description: 說明如何傳送電子郵件訊息給公司中所有使用者的步驟。
-seo-description: 說明如何傳送電子郵件訊息給公司中所有使用者的步驟。
-seo-title: 電子郵件使用者
 solution: Analytics
-subtopic: 使用者和群組
+subtopic: Users and groups
 title: 電子郵件使用者
-topic: 管理工具
+topic: Admin tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
