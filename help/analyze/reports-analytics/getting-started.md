@@ -1,14 +1,12 @@
 ---
 description: 開始使用「Reports & Analytics」前，請先瞭解這些基本的登入和設定工作，以及如何存取帳戶資訊。
-seo-description: 開始使用「Reports & Analytics」前，請先瞭解這些基本的登入和設定工作，以及如何存取帳戶資訊。
-seo-title: 「Reports and Analytics」快速入門
 solution: Analytics
-subtopic: 快速入門
+subtopic: Get started
 title: 「Reports and Analytics」快速入門
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
