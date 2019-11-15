@@ -1,13 +1,11 @@
 ---
 description: 您可以暫停作用中的摘要。
-keywords: 資料饋送；摘要；暫停
-seo-description: 您可以暫停作用中的摘要。
-seo-title: 暫停摘要
+keywords: Data Feed;feed;pause
 solution: Analytics
 title: 暫停摘要
-uuid: 2e06b9d8-521f-4811-aa2 e-5588ec4 e3 d54
+uuid: 2e06b9d8-521f-4811-aa2e-5588ec4e3d54
 translation-type: tm+mt
-source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -21,4 +19,4 @@ source-git-commit: ace5f9f2c003d8c0617d3d5c338ff02439a013b5
 1. 選取一或多個摘要。
 1. Click **[!UICONTROL Pause]**.
 
-   For information about activating a paused feed, see [Activate a Feed](t-feed-activate.md).
+   如需有關啟用已暫停之動態消息的詳細資訊，請 [參閱啟用動態消息](t-feed-activate.md)。
