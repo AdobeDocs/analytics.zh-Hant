@@ -1,13 +1,11 @@
 ---
 description: 在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
-seo-description: 在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
-seo-title: 匯出至 CSV 檔案
 solution: Analytics
 title: 匯出至 CSV 檔案
-topic: Activity Map
+topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
 
 在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
 
-身為使用者，有時需要合併連結點按資料與其他資料來源，或是執行其他分析工作 (例如在 Excel 中進行)。匯出至 CSV 能以易用格式提供您特定頁面的所有 Activity Map 資料。也能讓您將某頁面所產生的分析資料儲存至一般 CSV 檔案，以便匯出 Page Report, [Page Flow Report](/help/analyze/activity-map/activitymap-page-flow.md)), and [Links on Page](/help/analyze/activity-map/activitymap-links-report.md) data. 接著您可用試算表或文字檔格式來檢視資料，或將資料匯入其他系統。
+身為使用者，有時需要合併連結點按資料與其他資料來源，或是執行其他分析工作 (例如在 Excel 中進行)。匯出至 CSV 能以易用格式提供您特定頁面的所有 Activity Map 資料。也能讓您將某頁面所產生的分析資料儲存至一般 CSV 檔案，以便匯出頁面報表、[頁面流量報表](/help/analyze/activity-map/activitymap-page-flow.md)和[頁面上的連結](/help/analyze/activity-map/activitymap-links-report.md)資料。接著您可用試算表或文字檔格式來檢視資料，或將資料匯入其他系統。
 
 按一下 Activity Map 工具列上的「匯出」圖示。
 
