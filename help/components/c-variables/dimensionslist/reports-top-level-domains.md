@@ -1,13 +1,11 @@
 ---
 description: 顯示來自不同國家/地區的客戶對您的成功量度有何影響。此維度可依據原始網域的擴展名稱識別世界各地訪客所屬的地區。
-seo-description: 顯示來自不同國家/地區的客戶對您的成功量度有何影響。此維度可依據原始網域的擴展名稱識別世界各地訪客所屬的地區。
-seo-title: 頂級網域
 solution: Analytics
 title: 頂級網域
-topic: 報表
+topic: Reports
 uuid: c40ba9bc-fbf2-4e50-9117-6c5947e6675b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
