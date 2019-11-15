@@ -1,11 +1,9 @@
 ---
 description: 分析工作區中的日期比較可讓您取用包含日期範圍的任何欄，並建立常用的日期比較，例如年與年、季與季、月與月等。
-seo-description: 分析工作區中的日期比較可讓您取用包含日期範圍的任何欄，並建立常用的日期比較，例如年與年、季與季、月與月等。
-seo-title: 日期比較
 title: 日期比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
