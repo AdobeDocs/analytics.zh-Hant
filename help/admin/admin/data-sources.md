@@ -1,13 +1,11 @@
 ---
 description: 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。這項資料在匯入後，即可比照以原生方式收集的資料並透過類似方式處理。
-seo-description: 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。這項資料在匯入後，即可比照以原生方式收集的資料並透過類似方式處理。
-seo-title: 資料來源
 solution: Analytics
 title: 資料來源
-topic: 管理工具
+topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
