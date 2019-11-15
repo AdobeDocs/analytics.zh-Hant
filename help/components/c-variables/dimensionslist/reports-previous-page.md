@@ -1,13 +1,11 @@
 ---
 description: 一種路徑報告，可顯示您的網站訪客在檢視某個選定頁面之前所檢視的頁面，從而提供詳細的網站路徑分析。
-seo-description: 一種路徑報告，可顯示您的網站訪客在檢視某個選定頁面之前所檢視的頁面，從而提供詳細的網站路徑分析。
-seo-title: 上一頁
 solution: Analytics
 title: 上一頁
-topic: 報表
+topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
