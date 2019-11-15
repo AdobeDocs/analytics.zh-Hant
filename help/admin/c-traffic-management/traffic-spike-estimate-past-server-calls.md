@@ -1,12 +1,10 @@
 ---
 description: 您可取得 (舉例來說) 去年特定時間範圍內伺服器的每日平均呼叫數，再加上今年伺服器呼叫的預估可能增加次數。如此一來，您便可以根據此乘數因子，為流量尖峰制定排程。
-seo-description: 您可取得 (舉例來說) 去年特定時間範圍內伺服器的每日平均呼叫數，再加上今年伺服器呼叫的預估可能增加次數。如此一來，您便可以根據此乘數因子，為流量尖峰制定排程。
-seo-title: 預估以往伺服器呼叫數並計劃流量尖峰
 solution: Analytics
 title: 預估以往伺服器呼叫數並計劃流量尖峰
 uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
