@@ -1,13 +1,11 @@
 ---
 description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
-seo-description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
-seo-title: 管理區段
 solution: Analytics
 title: 管理區段
-topic: Report Builder
+topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
