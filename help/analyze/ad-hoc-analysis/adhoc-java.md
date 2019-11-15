@@ -1,10 +1,8 @@
 ---
 description: 關於如何使用Java 11執行臨機分析的指示。
-seo-description: 關於如何使用Java 11執行臨機分析的指示。
-seo-title: 臨機分析和Java 11
 title: 使用 Java 11 執行 Ad Hoc Analysis
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -40,7 +38,7 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 * When using a Mac, do not use the Mac application menu (including *cmd + Q*). 這可能會導致 Ad Hoc Analysis 無故關閉，且系統毫無警告。請改用 Ad Hoc Analysis 內的選單。
 * 在 MacOS 上執行 Ad Hoc Analysis 時，不支援網站分析視覺化。
 
-## 常見問題解答
+## 常見問題集
 
 **問：我會收到「找不到\bin\javaw」錯誤（範例如下）-我該怎麼辦？**
 
