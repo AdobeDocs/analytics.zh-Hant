@@ -1,13 +1,11 @@
 ---
 description: 顯示網頁流量與頁面訪問量即時排名，如此您便可更快速瞭解網站的趨勢。
-seo-description: 顯示網頁流量與頁面訪問量即時排名，如此您便可更快速瞭解網站的趨勢。
-seo-title: 即時報表
 solution: Analytics
 title: 即時報表
-topic: Report Builder
+topic: Report builder
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
