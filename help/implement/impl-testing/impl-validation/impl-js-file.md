@@ -1,14 +1,12 @@
 ---
 description: 請驗證 .JS 檔案是否正確參考自頁面。您可以指定相對於現行文件的路徑，也可以使用絕對路徑名稱。
-keywords: Analytics 實作
-seo-description: 請驗證 .JS 檔案是否正確參考自頁面。您可以指定相對於現行文件的路徑，也可以使用絕對路徑名稱。
-seo-title: JavaScript JS 檔案
+keywords: Analytics Implementation
 solution: Analytics
 title: JavaScript JS 檔案
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 6e83223f-2127-41d3-9806-bd085fa2a747
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
