@@ -1,14 +1,12 @@
 ---
 description: 行銷渠道處理規則確定了訪客點按是否符合要指定給渠道的標準。規則會處理訪客在您網站的每次點按。當規則不符合渠道標準，或如果未正確設定規則，系統會將點按指派給「未識別渠道」。
-seo-description: 行銷渠道處理規則確定了訪客點按是否符合要指定給渠道的標準。規則會處理訪客在您網站的每次點按。當規則不符合渠道標準，或如果未正確設定規則，系統會將點按指派給「未識別渠道」。
-seo-title: 行銷渠道的處理規則
 solution: Analytics
-subtopic: 行銷渠道
+subtopic: Marketing channels
 title: 行銷渠道的處理規則
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: f6394f4b-a244-48e9-9892-7dfbfceb5fc9
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
