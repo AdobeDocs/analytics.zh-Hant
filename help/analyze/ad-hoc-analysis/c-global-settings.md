@@ -1,11 +1,9 @@
 ---
 description: 設定全域行為設定例如，您可以設定自動儲存、圖表和表格設定，以及指定字型和地區。
-seo-description: 設定全域行為設定例如，您可以設定自動儲存、圖表和表格設定，以及指定字型和地區。
-seo-title: 設定
 title: 設定
-uuid: 3444052-479b-4923-b379-a03ca614bf3e
+uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
