@@ -1,14 +1,12 @@
 ---
 description: 您可以比對值是否有常見的拼寫錯誤，並加以更新以便在報告中正確顯示。
-seo-description: 您可以比對值是否有常見的拼寫錯誤，並加以更新以便在報告中正確顯示。
-seo-title: 清除報表中的值
 solution: Analytics
-subtopic: 處理規則
+subtopic: Processing rules
 title: 清除報表中的值
-topic: 管理工具
+topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
