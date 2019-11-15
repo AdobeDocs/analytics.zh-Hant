@@ -1,13 +1,11 @@
 ---
 description: 當您想要詳細瞭解報告項目或區段如何與其他報告產生關聯時，請使用劃分。這通常稱為「依其他報表劃分」報表。
-seo-description: 當您想要詳細瞭解報告項目或區段如何與其他報告產生關聯時，請使用劃分。這通常稱為「依其他報表劃分」報表。
-seo-title: 劃分
 solution: Analytics
 title: 劃分
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
