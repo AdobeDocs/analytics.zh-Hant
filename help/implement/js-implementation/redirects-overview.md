@@ -1,15 +1,13 @@
 ---
 description: 重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
-keywords: Analytics 實作
-seo-description: 重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
-seo-title: 重新導向與別名
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 重新導向
+subtopic: Redirects
 title: 重新導向與別名
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
