@@ -1,14 +1,12 @@
 ---
 description: 報表套裝可全面而獨立地定義對選定網站、一組網站或網頁子集的報告。一般情況下，報告套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入行銷報告、臨機分析和報告建立工具時，需選取一個要使用的報告套裝 (使用結合數個報告套裝的統計除外)。
-keywords: Analytics 實施;報表;報表套裝;Analytics 報表;全域區段;統計;統計;結合報表套裝;流量;轉換;路徑
-seo-description: 報表套裝可全面而獨立地定義對選定網站、一組網站或網頁子集的報告。一般情況下，報告套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入行銷報告、臨機分析和報告建立工具時，需選取一個要使用的報告套裝 (使用結合數個報告套裝的統計除外)。
-seo-title: 報表與報表套裝
+keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
 solution: Analytics
 title: 報表與報表套裝
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
