@@ -1,13 +1,11 @@
 ---
 description: 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
-seo-description: 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
-seo-title: 網站服務
 solution: Analytics
 title: 網站服務
-topic: 管理工具
-uuid: ccae04cf-f58c-490e-baa-ee04c534b28d
+topic: Admin tools
+uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 translation-type: tm+mt
-source-git-commit: 45e3330adb562ec795d287ae1c1fa6b03a2b2a31
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
