@@ -1,13 +1,11 @@
 ---
 description: 如果您已啟用 Adobe Social，此選項可讓您分類 Social 變數。
-seo-description: 如果您已啟用 Adobe Social，此選項可讓您分類 Social 變數。
-seo-title: 社會化管理
 solution: Analytics
 title: 社會化管理
-topic: 管理工具
+topic: Admin tools
 uuid: d5159048-d7bc-4321-9753-9b4d733e529f
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
