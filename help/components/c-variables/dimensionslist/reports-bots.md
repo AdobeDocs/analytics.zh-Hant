@@ -1,13 +1,11 @@
 ---
 description: 顯示在指定時段內有哪些編目程式與機器人瀏覽您的網站。被認定為產生自機器人的流量 (根據您所設定的機器人規則) 將不會傳送至您的報表套裝。這些流量會個別收集。報告會顯示這些代理程式所瀏覽的頁面。
-seo-description: 顯示在指定時段內有哪些編目程式與機器人瀏覽您的網站。被認定為產生自機器人的流量 (根據您所設定的機器人規則) 將不會傳送至您的報表套裝。這些流量會個別收集。報告會顯示這些代理程式所瀏覽的頁面。
-seo-title: Bot
 solution: Analytics
 title: Bot
-topic: 報表
+topic: Reports
 uuid: 9909ce3b-41a4-4ce8-afe9-02cb46f31d64
 translation-type: tm+mt
-source-git-commit: ed22e0520bf1c7427ead039fb1d0391f2f1e567f
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
