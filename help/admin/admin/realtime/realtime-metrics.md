@@ -1,18 +1,16 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
-seo-description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
-seo-title: 支援的即時度量和維度
 solution: Analytics
-title: 支援的即時度量和維度
-topic: 報表
-uuid: 836af337-1187-4ed-90c8-a19 b15 df4705
+title: 支援的即時量度和維度
+topic: Reports
+uuid: 836af337-1187-4ded-90c8-a19b15df4705
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 支援的即時度量和維度
+# 支援的即時量度和維度
 
 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
 
