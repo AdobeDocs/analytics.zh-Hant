@@ -1,13 +1,11 @@
 ---
 description: 說明如何設定「付費搜尋偵測」的步驟。
-seo-description: 說明如何設定「付費搜尋偵測」的步驟。
-seo-title: 設定付費搜尋偵測
 solution: Analytics
 title: 設定付費搜尋偵測
-topic: 管理工具
+topic: Admin tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
