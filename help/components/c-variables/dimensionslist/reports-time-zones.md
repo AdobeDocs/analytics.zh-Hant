@@ -1,13 +1,11 @@
 ---
 description: 顯示您的訪客來自哪個時區。圖表顯示世界地圖。若您有來自某一時區的訪客，此時區就會出現一個色柱，以反映您在指定時段內接待的訪客數量。所有時區均以作為國際標準時間的格林威治標準時間 (GMT) 表示。
-seo-description: 顯示您的訪客來自哪個時區。圖表顯示世界地圖。若您有來自某一時區的訪客，此時區就會出現一個色柱，以反映您在指定時段內接待的訪客數量。所有時區均以作為國際標準時間的格林威治標準時間 (GMT) 表示。
-seo-title: 時區
 solution: Analytics
 title: 時區
-topic: 報表
-uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223dc
+topic: Reports
+uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
