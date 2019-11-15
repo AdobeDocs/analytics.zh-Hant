@@ -1,11 +1,9 @@
 ---
 description: 此Adobe® Data Connectors電子郵件整合功能結合了Adobe Analytics®與Datran電子郵件行銷的行為資訊，以建立功能強大的工具，重新定義成功評估並透過更相關的訊息鎖定受眾。
-seo-description: 此Adobe® Data Connectors電子郵件整合功能結合了Adobe Analytics®與Datran電子郵件行銷的行為資訊，以建立功能強大的工具，重新定義成功評估並透過更相關的訊息鎖定受眾。
-seo-title: Adobe Analytics的資料連接器
 title: Adobe Analytics的資料連接器
 uuid: f97655c4-9623-4d06-a3c6-894246eba80f
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
