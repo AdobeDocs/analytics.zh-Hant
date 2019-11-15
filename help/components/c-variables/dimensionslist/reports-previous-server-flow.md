@@ -1,13 +1,11 @@
 ---
-description: 該報告顯示網站上伺服器之間的瀏覽資料。當您從網站選取一個伺服器名稱後，該報表會顯示在單次造訪內或跨造訪間，從網站上其他各伺服器導覽至該伺服器的訪客數量。
-seo-description: 該報告顯示網站上伺服器之間的瀏覽資料。當您從網站選取一個伺服器名稱後，該報表會顯示在單次存取內或跨存取間，從網站上其他各伺服器瀏覽至該伺服器的訪客數量。
-seo-title: 上一伺服器流量
+description: 該報告顯示網站上伺服器之間的瀏覽資料。當您從網站選取一個伺服器名稱後，該報表會顯示在單次存取內或跨存取間，從網站上其他各伺服器瀏覽至該伺服器的訪客數量。
 solution: Analytics
 title: 上一伺服器流量
-topic: 報表
+topic: Reports
 uuid: 19521f5b-81fc-41d7-928d-9b6e5b5a77ed
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
