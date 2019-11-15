@@ -1,13 +1,11 @@
 ---
 description: 如果工作表受到保護 (藉由鎖定儲存格)，您便無法建立、編輯或重新整理請求。因此在使用「請求管理員」之前，請解除工作表中的所有保護。
-seo-description: 如果工作表受到保護 (藉由鎖定儲存格)，您便無法建立、編輯或重新整理請求。因此在使用「請求管理員」之前，請解除工作表中的所有保護。
-seo-title: 受保護的工作表元素
 solution: Analytics
 title: 受保護的工作表元素
-topic: Report Builder
+topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
