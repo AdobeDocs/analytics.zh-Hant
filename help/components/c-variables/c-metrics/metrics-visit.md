@@ -1,14 +1,12 @@
 ---
-description: 某一段時間的頁面檢視順序。瀏覽量度常用在會顯示所選時段內之使用者工作階段數的報告中。
-keywords: 瀏覽
-seo-description: 某一段時間的頁面檢視順序。瀏覽度量常用在會顯示所選時段內之使用者工作階段數的報表中。
-seo-title: 瀏覽
+description: 某一段時間的頁面檢視順序。瀏覽度量常用在會顯示所選時段內之使用者工作階段數的報表中。
+keywords: visit
 solution: Analytics
 title: 瀏覽
-topic: 量度
+topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
