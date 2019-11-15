@@ -1,11 +1,9 @@
 ---
 description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
-seo-description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
-seo-title: 日曆和日期範圍概觀
 title: 日曆和日期範圍概觀
-uuid: 3d7727ba-9070-4f7c-815f-c98ba4e3a2d
+uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
