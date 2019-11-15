@@ -1,14 +1,12 @@
 ---
 description: 在分析工作區中建立同類群組並執行同類群組分析報表。
 keywords: Analysis Workspace
-seo-description: 在分析工作區中建立同類群組並執行同類群組分析報表。
-seo-title: 執行同類群組分析報表
 solution: Analytics
 title: 執行同類群組分析報表
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
