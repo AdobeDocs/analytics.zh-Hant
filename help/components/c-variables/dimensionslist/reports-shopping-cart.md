@@ -1,13 +1,11 @@
 ---
 description: 顯示特定時段內開啟的購物車數量。您可以執行報告來分析購物車檢視、購物車新增、購物車移除和結帳。購物車通常在客戶選擇購買項目時開啟，但在沒有項目時亦可開啟。
-seo-description: 顯示特定時段內開啟的購物車數量。您可以執行報告來分析購物車檢視、購物車新增、購物車移除和結帳。購物車通常在客戶選擇購買項目時開啟，但在沒有項目時亦可開啟。
-seo-title: 購物車
 solution: Analytics
 title: 購物車
-topic: 報表
+topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
