@@ -1,13 +1,11 @@
 ---
 description: 如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
-seo-description: 如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
-seo-title: 啟動 Activity Map
 solution: Analytics
 title: 啟動 Activity Map
-topic: Activity Map
+topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
-source-git-commit: 38eb2298a2fc351591542bdfac9016ce4497c484
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
