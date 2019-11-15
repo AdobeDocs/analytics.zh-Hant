@@ -1,14 +1,12 @@
 ---
 description: 在報表套裝中建立、管理、檢視資料來源的使用。
-seo-description: 在報表套裝中建立、管理、檢視資料來源的使用。
-seo-title: 資料來源管理員
 solution: Analytics
-subtopic: 資料來源
+subtopic: Data sources
 title: 資料來源管理員
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
