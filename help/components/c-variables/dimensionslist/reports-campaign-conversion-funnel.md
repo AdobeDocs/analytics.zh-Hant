@@ -1,13 +1,11 @@
 ---
 description: 顯示「促銷活動」報告群組中的量度平均值。預設量度為點進、銷售總額、訂購和收入。
-seo-description: 顯示「促銷活動」報告群組中的量度平均值。預設量度為點進、銷售總額、訂購和收入。
-seo-title: 促銷活動轉換漏斗
 solution: Analytics
 title: 促銷活動轉換漏斗
-topic: 報表
+topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
