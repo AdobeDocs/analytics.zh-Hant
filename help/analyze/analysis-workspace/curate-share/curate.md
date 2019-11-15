@@ -1,14 +1,12 @@
 ---
 description: 組織可讓您在共用專案前先限制元件。您可以與企業中的行銷人員及其他非分析人員共用專案及其元件。註解並套用標記至專案。
 keywords: Analysis Workspace
-seo-description: 組織可讓您在共用專案前先限制元件。您可以與企業中的行銷人員及其他非分析人員共用專案及其元件。註解並套用標記至專案。
-seo-title: 組織/共用概觀
 solution: Analytics
 title: 組織/共用概觀
-topic: Reports and Analytics
+topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
