@@ -1,11 +1,9 @@
 ---
 description: 管理員級使用者和非管理員之間的計算量度權限不一樣。
-seo-description: 管理員級使用者和非管理員之間的計算量度權限不一樣。
-seo-title: 計算量度角色型權限
 title: 計算量度角色型權限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 translation-type: tm+mt
-source-git-commit: bc46011a48aa18e33ba6f1912223857f5a664f35
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
