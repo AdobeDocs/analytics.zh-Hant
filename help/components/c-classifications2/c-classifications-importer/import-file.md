@@ -1,14 +1,12 @@
 ---
 description: 您將適當的資料複製到分類範本檔案後，可以匯入 (上傳) 到 Adobe 資料收集伺服器裡。
-seo-description: 您將適當的資料複製到分類範本檔案後，可以匯入 (上傳) 到 Adobe 資料收集伺服器裡。
-seo-title: 瀏覽器和 FTP 匯入
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 瀏覽器和 FTP 匯入
-topic: 管理工具
+topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
