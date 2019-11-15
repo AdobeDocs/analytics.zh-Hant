@@ -1,20 +1,18 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 實作程式碼範例
 solution: Analytics
-title: 實作程式碼範例
-topic: Activity Map
+title: 實作代碼範例
+topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Sample implementation code{#sample-implementation-code}
+# 實作代碼範例{#sample-implementation-code}
 
-## Sample AppMeasurement.js file {#section_CD6E603EB41141E587B71E138FE99F52}
+## AppMeasurement.js 範例檔案 {#section_CD6E603EB41141E587B71E138FE99F52}
 
 以下是如何在 [!DNL AppMeasurement.js] 檔案中結合 AppMeasurement 程式庫和 Activity Map 模組的範例。
 
