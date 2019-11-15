@@ -1,13 +1,11 @@
 ---
 description: 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
-seo-description: 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
-seo-title: 報表概觀
 solution: Analytics
 title: 報表概觀
-topic: Ad Hoc Analysis
+topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
