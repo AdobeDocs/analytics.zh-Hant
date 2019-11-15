@@ -1,14 +1,12 @@
 ---
 description: 處理規則可讓您根據已定義條件來對資料進行變更。當屬性或值符合定義條件時，可以設定或刪除值，以及設定事件。
-seo-description: 處理規則可讓您根據已定義條件來對資料進行變更。當屬性或值符合定義條件時，可以設定或刪除值，以及設定事件。
-seo-title: 處理規則的運作方式
 solution: Analytics
-subtopic: 處理規則
+subtopic: Processing rules
 title: 處理規則的運作方式
-topic: 管理工具
+topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
