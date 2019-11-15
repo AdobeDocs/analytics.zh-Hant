@@ -1,16 +1,14 @@
 ---
 description: 'null'
-seo-description: 'null'
-seo-title: 堆疊列和橫條
-title: 堆疊列和橫條
-uuid: 45d2d9f3-3fb3-460f-bc87-7d6 e3 cc44494
+title: 長條圖和堆疊長條圖
+uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 translation-type: tm+mt
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 堆疊列和橫條
+# 長條圖和堆疊長條圖
 
 ## 長條圖 {#section_2E96E55D4E8E488CBCA6A3508DDF3918}
 
