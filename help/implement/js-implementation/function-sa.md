@@ -1,15 +1,13 @@
 ---
 description: s.sa() 函數可讓您在影像要求引發之前或之後，隨時動態變更頁面上的報表套裝。
-keywords: Analytics 實作
-seo-description: s.sa() 函數可讓您在影像要求引發之前或之後，隨時動態變更頁面上的報表套裝。
-seo-title: s.sa() 函數
+keywords: Analytics Implementation
 solution: Analytics
-subtopic: 函數
+subtopic: Functions
 title: s.sa() 函數
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: a6aacd10-2a5b-448b-b3b7-bed5590b71d4
-translation-type: ht
-source-git-commit: 86fe1b3650100a05e52fb2102134fee515c871b1
+translation-type: tm+mt
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -22,7 +20,7 @@ s.sa() 函數可讓您在影像要求引發之前或之後，隨時動態變更�
 
 這項資訊適用於報告與實施皆熟稔的進階使用者。若未通盤瞭解，請勿嘗試編輯您的實施。如需進行實施變更，請與組織的客戶經理連絡。
 
-## 函數的屬性{#section_E10CB41A0CF749F4A24C8377958E3671}
+## 函數的屬性 {#section_E10CB41A0CF749F4A24C8377958E3671}
 
 設定此函數時會使用所有先前已定義的變數，並可讓這些變數用於不同的報表套裝中。
 
