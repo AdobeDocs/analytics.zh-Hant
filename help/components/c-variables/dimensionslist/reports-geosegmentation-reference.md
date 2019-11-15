@@ -1,13 +1,11 @@
 ---
 description: 下表列出該國家/地區是否有地區代碼或是郵遞區號，如此可指出是否需要建立地區報表或郵遞區號報表。
-seo-description: 下表列出該國家/地區是否有地區代碼或是郵遞區號，如此可指出是否需要建立地區報表或郵遞區號報表。
-seo-title: 地域劃分地區和郵遞區號使用狀況 (依國家區分)
 solution: Analytics
 title: 地域劃分地區和郵遞區號使用狀況 (依國家區分)
-topic: 報表
+topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
