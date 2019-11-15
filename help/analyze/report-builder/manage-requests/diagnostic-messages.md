@@ -1,13 +1,11 @@
 ---
 description: 當您重新整理請求時，診斷訊息可提供請求的狀態資訊。
-seo-description: 當您重新整理請求時，診斷訊息可提供請求的狀態資訊。
-seo-title: 診斷訊息
 solution: Analytics
 title: 診斷訊息
-topic: Report Builder
+topic: Report builder
 uuid: 8ba783b7-5c81-4d60-b830-ff10313a3b01
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
