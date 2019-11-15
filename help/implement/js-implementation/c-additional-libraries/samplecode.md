@@ -1,14 +1,12 @@
 ---
 description: 相關範例，說明如何在 HTML 範例頁面中使用伺服器產生的影像標記。
-keywords: Analytics 實施;變數
-seo-description: 相關範例，說明如何在 HTML 範例頁面中使用伺服器產生的影像標記。
-seo-title: 程式碼範例
+keywords: Analytics Implementation;variables
 solution: Analytics
 title: 程式碼範例
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
