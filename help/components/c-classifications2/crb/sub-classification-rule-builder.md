@@ -1,14 +1,12 @@
 ---
 description: 您可結合「分類規則產生器」和子分類，以簡化分類管理並減少所需的規則數目。若您的追蹤程式碼包含想要個別分類的程式碼，則您可能會想要執行此動作。
-seo-description: 您可結合「分類規則產生器」和子分類，以簡化分類管理並減少所需的規則數目。若您的追蹤程式碼包含想要個別分類的程式碼，則您可能會想要執行此動作。
-seo-title: 子分類與規則產生器 - 使用案例
 solution: Analytics
-subtopic: 分類
+subtopic: Classifications
 title: 子分類與規則產生器 - 使用案例
-topic: 管理工具
+topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
 translation-type: tm+mt
-source-git-commit: 8c4c368a84ba5499d85f0b7512c99de47ddb14c2
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -49,7 +47,7 @@ t_rule_builder_subclass.xml
 
 >[!NOTE]
 >
-> 這些步驟說明如何完成子分類和規則產 [生器中所述的使用案例](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
+>這些步驟說明如何完成子分類和規則產 [生器中所述的使用案例](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)。
 
 1. 在「[分類管理員](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)」中建立分類和子分類。
 
