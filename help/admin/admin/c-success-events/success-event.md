@@ -1,14 +1,12 @@
 ---
 description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
 keywords: event
-seo-description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
-seo-title: 成功事件概觀
 solution: Analytics
 title: 成功事件概觀
-topic: 管理工具
-uuid: 410ee44-8960-462c-a9c3-07b44d0b1df0
+topic: Admin tools
+uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
