@@ -1,12 +1,10 @@
 ---
 description: 您可以啟用隱私權報告。
-seo-description: 您可以啟用隱私權報告。
-seo-title: 隱私權報告
 solution: Analytics
 title: 隱私權報告
-topic: 管理工具
+topic: Admin tools
 translation-type: tm+mt
-source-git-commit: 21fe6a0ee434e430d77a24d060acd2ffce08e219
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
