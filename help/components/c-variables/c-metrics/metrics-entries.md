@@ -1,13 +1,11 @@
 ---
 description: 登入點代表指定的值在瀏覽中是被擷取的第一個值之次數。登入點在每次瀏覽時只能計入一次。但是，如果未定義變數，則不一定要是第一次點擊。
-seo-description: 登入點代表指定的值在瀏覽中是被擷取的第一個值之次數。登入點在每次瀏覽時只能計入一次。但是，如果未定義變數，則不一定要是第一次點擊。
-seo-title: 登入點
 solution: Analytics
 title: 登入點
-topic: 量度
+topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
