@@ -1,13 +1,11 @@
 ---
 description: 使用動態標籤管理來部署 Adobe Analytics 時的欄位說明和變數相關資訊。
-keywords: Dynamic Tag Management;全域變數;伺服器變數;eVar;Prop;動態變數首碼;動態變數
-seo-description: 使用動態標籤管理來部署 Adobe Analytics 時的欄位說明和變數相關資訊。
-seo-title: 全域變數
+keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 全域變數
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
 translation-type: tm+mt
-source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -16,7 +14,7 @@ source-git-commit: 2fc1a01aced4cf2b165b46353418fbee9b83bee5
 
 使用動態標籤管理來部署 Adobe Analytics 時的欄位說明和變數相關資訊。
 
-這些變數會在所有頁面載入規則信標上觸發。您可以透過設定為在所有頁面上觸發的[頁面載入規則](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md)來實現相同的效果。這些變數可能不會在[直接呼叫](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)和[事件型](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md)規則中引發。
+這些變數會在所有頁面載入規則信標上觸發。您可以使用[頁面載入規則](/help/implement/c-implement-with-dtm/c-rules/t-rules-page-conditions.md)集於所有頁面上觸發，來達到相同的效果。這些變數可能不會在[直接呼叫](/help/implement/c-implement-with-dtm/c-rules/t-rules-direct-conditions.md)和[事件型](/help/implement/c-implement-with-dtm/c-rules/t-rules-event-conditions.md)規則中引發。
 
 ## 全域變數 - 欄位描述 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
