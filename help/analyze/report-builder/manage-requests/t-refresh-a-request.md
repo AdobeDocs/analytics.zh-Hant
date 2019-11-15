@@ -1,13 +1,11 @@
 ---
 description: 在經由編輯或篩選來更新請求後，或需要檢視最新的資料時，您必須重新整理請求。您可以在工作表內選擇數個請求，然後再同時重新整理所有請求。
-seo-description: 在經由編輯或篩選來更新請求後，或需要檢視最新的資料時，您必須重新整理請求。您可以在工作表內選擇數個請求，然後再同時重新整理所有請求。
-seo-title: 重新整理請求
 solution: Analytics
 title: 重新整理請求
-topic: Report Builder
+topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
