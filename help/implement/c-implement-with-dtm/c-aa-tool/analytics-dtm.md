@@ -1,14 +1,12 @@
 ---
 description: 您可以藉由建立 Adobe Analytics 工具並自動或手動設定頁面程式碼，使用 Dynamic Tag Management 來部署 Adobe Analytics。建議大多數使用者採用自動方法。
-keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;分析工具;屬性;工具類型;工具名稱;設定方法;Analytics Premium;eVar;事件
-seo-description: 您可以藉由建立 Adobe Analytics 工具並自動或手動設定頁面程式碼，使用 Dynamic Tag Management 來部署 Adobe Analytics。建議大多數使用者採用自動方法。
-seo-title: 新增 Adobe Analytics 工具
+keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;analytics tool;property;tool type;tool name;configuration method;analytics premium;evars;events
 solution: Analytics
 title: 新增 Adobe Analytics 工具
-topic: 開發人員和實作
+topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
@@ -54,8 +52,8 @@ source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
   <tr> 
    <td colname="col2"> <p> <b>手動</b>: 手動管理 AppMeasurement 代碼。您可以從「<span class="keyword"></span>管理工具<span class="keyword"> &gt; </span>代碼管理員<span class="ignoretag"><span class="uicontrol">」下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 代碼。 </p> <p>如需如何在本機下載程式碼以複製並貼到<a href="/help/implement/c-implement-with-dtm/c-aa-tool/library-management.md">程式碼管理</a>的<span class="wintitle">編輯程式碼</span>欄位的相關資訊，請按一下 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/appmeasure_mjs.html">JavaScript (新增)</a>。 </p> <p>填寫手動配置的特定欄位: </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
-     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生產帳戶 ID: </b>(必要) 您用於資料收集的生產帳戶。若為 Analytics，這是您的報表套裝 ID。動態標籤管理會自動在生產與測試環境中安裝正確帳戶。 </p> </li> 
-     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>測試帳戶 ID: </b>(必要) 用於您的開發或測試環境。若為 Analytics，這是您的報表套裝 ID。測試帳戶可讓您的測試資料與生產資料彼此分離。 </p> </li> 
+     <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生產帳戶 ID: </b>(必要) 您用於資料收集的生產帳戶。對於 Analytics，這是您的報表套裝 ID。「動態標記管理」會自動在生產與中繼環境中安裝正確的帳戶。 </p> </li> 
+     <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>測試帳戶 ID: </b>(必要) 用於您的開發或測試環境。對於 Analytics，這是您的報表套裝 ID。中繼帳戶可讓您將測試資料與生產資料分開。 </p> </li> 
      <li id="li_69E6C6A41F5240E1ABE8ABE0B9D151FC"> <p><b> 追蹤伺服器: </b>指定 追蹤伺服器的資訊。 </p> <p><span class="wintitle">追蹤伺服器</span>和 <span class="wintitle">SSL 追蹤伺服器</span>變數用於第一方 Cookie 實施，以指定影像要求和 Cookie 寫入所在的網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/analytics/kb/determining-data-center.html">正確填入 trackingServer 和 trackingServerSecure 變數</a>一文。 </p> </li> 
      <li id="li_1A7271C68205428F8CA5548A96CACBEC"> <p><b>SSL 追蹤伺服器: </b>指定 SSL 追蹤伺服器的資訊。 </p> </li> 
     </ul> </td> 
