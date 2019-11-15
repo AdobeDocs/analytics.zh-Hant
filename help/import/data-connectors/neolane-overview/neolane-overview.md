@@ -1,11 +1,9 @@
 ---
 description: 此Adobe® Data Connectors™電子郵件整合功能結合了Adobe Analytics®的行為資訊與電子郵件行銷，以建立功能強大的工具來重新定義成功評估並透過更相關的訊息鎖定受眾。
-seo-description: 此Adobe® Data Connectors™電子郵件整合功能結合了Adobe Analytics®的行為資訊與電子郵件行銷，以建立功能強大的工具來重新定義成功評估並透過更相關的訊息鎖定受眾。
-seo-title: Adobe Analytics的Neolane Ozon Data Connector
 title: Adobe Analytics的Neolane Ozon Data Connector
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
