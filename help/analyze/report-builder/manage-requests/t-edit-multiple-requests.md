@@ -1,13 +1,11 @@
 ---
 description: 您可以根據請求的報表套裝、詳細程度及日期範圍，同時變更數個請求。
-seo-description: 您可以根據請求的報表套裝、詳細程度及日期範圍，同時變更數個請求。
-seo-title: 編輯多個請求
 solution: Analytics
 title: 編輯多個請求
-topic: Report Builder
+topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 translation-type: tm+mt
-source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
