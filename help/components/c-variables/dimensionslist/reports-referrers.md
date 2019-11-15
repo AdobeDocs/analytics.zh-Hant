@@ -1,13 +1,11 @@
 ---
 description: 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。
-seo-description: 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。
-seo-title: 反向連結
 solution: Analytics
 title: 反向連結
-topic: 報表
+topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
