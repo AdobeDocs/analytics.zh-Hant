@@ -3,7 +3,7 @@ title: useBeacon
 description: useBeacon可讓您強制AppMeasurement使用瀏覽器sendBeacon API
 keywords: Analytics Implementation
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 使用變 `s.useBeacon` 數需要AppMeasurement 2.17.0或更新版本。
 
-> [!NOTE] ExitLinks [會自動使用此變數](s-linktrackvars.md) ，而不需要任何其他設定。
+> [!NOTE] 「退 [出連結](s-linktrackvars.md) 」會自動使用此變數，而不需額外設定。
 
 ## 語法
 
