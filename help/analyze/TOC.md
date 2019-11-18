@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 終端使用者
-user-guide-title: Analytics 分析指南
-user-guide-url: /content/help/zh-Hant/analytics/analyze/home.html
+audience: end-user
+user-guide-title: Analytics Analyze Guide
+user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
+source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 ---
 
@@ -80,7 +80,7 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
       + 出處 {#attribution}
          + [歸因概觀](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用歸因面板](analysis-workspace/c-panels/attribution/use-attribution.md)
-         + [歸因常見問答集](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [歸因常見問題集](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [區段 IQ 概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -120,6 +120,10 @@ source-git-commit: 5df7bc43587deed41786f6c85f472fb6f908caf8
    + [Analysis Workspace 效能最佳化](analysis-workspace/optimizing-performance.md)
    + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
+   + [歸因 IQ](analysis-workspace/attribution-iq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
+   + [區段 IQ](analysis-workspace/segment-iq.md)
+   + [虛擬分析人員](analysis-workspace/journey-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
    + [Report Builder 的新功能](report-builder/whats-new-arb.md)
