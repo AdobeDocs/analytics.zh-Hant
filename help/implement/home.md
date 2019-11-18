@@ -2,7 +2,7 @@
 title: 實作行動裝置分析
 description: 'null'
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 9dba25b73ad8125a1bf5f1644792456957fefdee
 
 ---
 
@@ -10,25 +10,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # 實作行動裝置分析
 
 ![橫幅](../../assets/doc_banner_implement.png)
-
-若要實作行動裝置的Analytics，請參閱下列SDK儲存庫和檔案清單：
-
-體驗平台SDK
-
-
-體驗平台SDK
-
-Experience Platform SDK檔案
-
-4.x SDK:
-
-4.x SDK檔案
-
-3.x SDK檔案：雖然行動裝置不再支援3.x Analytics SDK，但您可以存取下列檔案：
-
-
-
-
 
 
 * **Adobe Experience Platform Launch:** 標準化且建議的 Adobe Analytics 實作方法。在每個頁面上放置載入器標記，並使用 Launch 的介面來決定每個變數的定義方式。
