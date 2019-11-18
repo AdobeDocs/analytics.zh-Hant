@@ -7,14 +7,14 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: c32f7302fdc30860da6f5a29d98ada53a6a6da20
+source-git-commit: 3cb4a916a083e9397479d53294795136409e15d0
 
 ---
 
 
 # 頁面變數
 
-頁面變數會直接填入一份報告，如 pageName、List Props、List Variables 等。如需特定頁面變數的說明，請按一下下列任一連結：
+頁面變數會直接填入一份報告，如 pageName、List Props、List Variables 等。如需特定頁面變數的說明，請從下列清單中按一下變數的名稱：
 
 * [browserHeight](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
 * [browserWidth](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)
