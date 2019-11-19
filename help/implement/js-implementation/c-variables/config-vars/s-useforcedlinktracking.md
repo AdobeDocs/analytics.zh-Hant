@@ -1,12 +1,13 @@
 ---
 description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
-keywords: Analytics 實作
+keywords: Analytics Implementation
 solution: null
 title: 動態變數
 translation-type: tm+mt
-source-git-commit: 8c06a54ccd652f3f915af3af040e9cc69f01d0c1
+source-git-commit: 8deec068fcea49f1183633826d5ce8271fb38a14
 
 ---
+
 
 
 # s.useForcedLinkTracking
@@ -22,9 +23,8 @@ JavaScript H.25.4 (於 2013 年 2 月發行) 針對在 `useForcedLinkTracking` �
 * The `HREF` can't start with `#`, `about:`, or `javascript:`.
 * The `TARGET` attribute must not be set, or the `TARGET` needs to refer to the current window ( `_self`, `_top`, or the value of `window.name`).
 
-預設值= true
+Default value = `true`
 
 ## 範例
 
 `s.useForcedLinkTracking = false`
-
