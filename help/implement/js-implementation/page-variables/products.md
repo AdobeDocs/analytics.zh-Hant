@@ -159,7 +159,3 @@ s.purchaseID="1234567890"
   </tr> 
   <tr> 
    <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
