@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的詞語
 description: Adobe Analytics辭彙表，定義使用的常用詞語。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** 彈回數：包含單一點擊的瀏覽。 請參 [閱「元件](/help/components/c-variables/c-metrics/metrics-bounces.md) 」使用指南中的「彈回數」。 另請參閱單次存取。
 * **** 計算量度：允許結合現有量度、統計函式和公式，以便用於報告。 請參 [閱「元件](/help/components/c-calcmetrics/cm-overview.md) 」使用指南中的「計算量度」。
 * **** 促銷活動：可參閱：
-   * 促銷活動變數，會填入「追蹤代碼」維度。 請參 [閱「實作](/help/implement/js-implementation/c-variables/page-variables.md) 」使用指南中的頁面變數。
+   * 促銷活動變數，會填入「追蹤代碼」維度。 請參 [閱「實作](/help/implement/js-implementation/page-variables/page-variables.md) 」使用指南中的頁面變數。
    * 追蹤代碼維度的預設分類；自動為所有報表套裝建立。
    * Adobe Campaign,Adobe Experience cloud的一部分。 有關 [Adobe.com的更多資訊](https://www.adobe.com/marketing/campaign.html)。
 * **** 渠道：可參閱：
-   * Channel變數，會填入「網站區域」維度。 請參 [閱「實作](/help/implement/js-implementation/c-variables/page-variables.md) 」使用指南中的頁面變數。
+   * Channel變數，會填入「網站區域」維度。 請參 [閱「實作](/help/implement/js-implementation/page-variables/page-variables.md) 」使用指南中的頁面變數。
    * 行銷渠道，此元件有助於瞭解使用者如何到達您的網站。 請參 [閱元件使](/help/components/c-marketing-channels/c-overview.md) 用指南中的行銷渠道。
 * **** 分類：Adobe Analytics中允許對維度值進行分組的功能。 請參 [閱「元件](/help/components/c-classifications2/c-classifications.md) 」使用指南中的「分類」。
 * **** Clickmap:不再使用。 舊版瀏覽器外掛程式，可顯示您網站上最常點按的區域。 此工具已淘汰，改用Activity Map。
@@ -65,8 +65,8 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 * **** KPI:關鍵績效指標的縮寫。 有助於企業瞭解其網站績效的量度。 每個組織都有不同的KPI，可衡量其業務的不同方面。 請參 [閱「實作使用指南](/help/implement/prepare/solution-design.md) 」中的「建立解決方案設計檔案」。
 * **** 延遲：資料收集時間與報表中資料可用時間之間的延遲。 報表套裝的一般延遲為30-90分鐘。 請參 [閱Technotes](/help/technotes/latency.md) 使用指南中的延遲。
 * **** 啟動：Adobe目前的實作解決方案Adobe Experience Platform Launch的簡稱。 請參 [閱](https://docs.adobe.com/content/help/en/launch/using/overview.html) Adobe Experience Platform Launch使用指南中的概述。
-* **** 清單prop:一種設定，可轉換典型流量變數，以支援相同點擊中的多個值。 如果設定已啟用，任何自訂流量變數都可成為清單prop。 請參 [閱「實作](/help/implement/js-implementation/c-variables/page-variables.md) 」使用指南中的頁面變數。
-* **** 清單變數：與轉換變數分開的不同變數。 清單變數支援相同點擊中的多個值，而變數值會保留在瀏覽中，類似於轉換變數。 組織只能使用三個清單變數。 請參 [閱「實作](/help/implement/js-implementation/c-variables/page-variables.md) 」使用指南中的頁面變數。
+* **** 清單prop:一種設定，可轉換典型流量變數，以支援相同點擊中的多個值。 如果設定已啟用，任何自訂流量變數都可成為清單prop。 請參 [閱「實作](/help/implement/js-implementation/page-variables/page-variables.md) 」使用指南中的頁面變數。
+* **** 清單變數：與轉換變數分開的不同變數。 清單變數支援相同點擊中的多個值，而變數值會保留在瀏覽中，類似於轉換變數。 組織只能使用三個清單變數。 請參 [閱「實作](/help/implement/js-implementation/page-variables/page-variables.md) 」使用指南中的頁面變數。
 * **** 登入公司：您組織使用的報表套裝集合。 有些組織有多個登入公司，可套用至其組織的不同部分。
 * **** 行銷渠道：Adobe Analytics中的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷渠道處理規則自訂用於分類點擊的邏輯。 請參 [閱「元件」使用指南中的](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 「行銷渠道入門」。
 * **** 量度：包含量化資料的元件類型。 度量值通常包含數字，例如頁面檢視、瀏覽和收入。 維度通常是對應維度。
