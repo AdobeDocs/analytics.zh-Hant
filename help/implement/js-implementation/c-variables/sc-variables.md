@@ -7,7 +7,7 @@ title: 變數概觀
 topic: Developer and implementation
 uuid: 067d0135-572a-4a44-af9e-445d3c4e9271
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -16,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analytics 提供數個變數，可用於收集 Analytics 資料。例如，pageName 變數中的值即為所要報告之網頁的名稱。本節列出 AppMeasurement 支援的變數。
 
-如需頁面變數的相關詳細資訊，請前往[這裡](/help/implement/js-implementation/c-variables/page-variables.md)。
+如需頁面變數的相關詳細資訊，請前往[這裡](/help/implement/js-implementation/page-variables/page-variables.md)。
 如需設定變數的相關詳細資訊，請前往[這裡](/help/implement/js-implementation/c-variables/configuration-variables.md)。
 
-## 如何設定變數 {#section_E52CF9E8FDF74164A1511E0D9D31884D}
+## 如何設定變數
 
 AppMeasurement 要求所有設定變數都須於初始呼叫追蹤函數 *`t()`* 前完成設定。如果設定變數是在呼叫 *`t()`* 後設定，可能會發生未預期的結果。
 
