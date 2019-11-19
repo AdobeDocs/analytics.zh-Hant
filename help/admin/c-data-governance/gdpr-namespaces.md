@@ -3,7 +3,7 @@ description: 命名空間是一組自訂字串，可用來在所有報表套裝�
 title: 命名空間
 uuid: cab61844-3209-4980-b14c-6859de777606
 translation-type: tm+mt
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -18,9 +18,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
 * 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
 
-如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://www.adobe.io/apis/cloudplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/gdpr/use-cases/gdpr-api-overview.md)。
-
-<!-- Meike, I converted this table to headings and text to fix a validation error. -Bob -->
+如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)。
 
 ## Cookie ID
 
