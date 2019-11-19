@@ -6,7 +6,7 @@ title: 轉換變數 (eVar)
 topic: Developer and implementation
 uuid: 50071c1c-be00-4b3a-a7ee-5d129acf498b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -29,14 +29,14 @@ eVar 可以瀏覽為準，其功能類似於 Cookie。傳送到 eVar 變數的�
 
 當 eVar 被設定為某個訪客的值，Adobe 會自動記住該值，直到其過期。訪客在 eVar 值活動期間遇到的任何成功事件都會被計入 eVar 值。
 
-> [!NOTE]影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實施[](/help/implement/js-implementation/c-variables/page-variables.md)清單變數 (list vars)。
+> [!NOTE]影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實施[](/help/implement/js-implementation/page-variables/listvariable.md)清單變數 (list vars)。
 
 如需變數的詳細資訊，請參閱:
 
 * [本說明中的 Analytics 實施及報告之變數](/help/implement/js-implementation/c-variables/sc-variables.md)
 * [變數 - 在報告中如何使用](https://marketing.adobe.com/resources/help/en_US/reference/variable_definitions.html)
-* [頁面變數](/help/implement/js-implementation/c-variables/page-variables.md)
-* [促銷活動變數](/help/implement/js-implementation/c-variables/page-variables.md)
-* [產品變數](/help/implement/js-implementation/c-variables/page-variables.md)
+* [頁面變數](/help/implement/js-implementation/page-variables/page-variables.md)
+* [促銷活動變數](/help/implement/js-implementation/page-variables/campaign.md)
+* [產品變數](/help/implement/js-implementation/page-variables/products.md)
 * 行動 SDK 文件中的[產品變數](https://marketing.adobe.com/resources/help/en_US/mobile/android/products.html)
 
