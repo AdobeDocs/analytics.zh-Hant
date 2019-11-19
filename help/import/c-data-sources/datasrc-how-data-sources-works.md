@@ -6,7 +6,7 @@ title: 資料來源運作方式
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ---
 
@@ -32,4 +32,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe 提供資料來源 API，讓您以程式將您的應用程式連結至資料來源。這麼做不需要中間媒介的 FTP 伺服器，而是透過 HTTP、SOAP、REST 傳輸資料。
 
-請參閱[資料來源 API 文件](https://marketing.adobe.com/developer/documentation/data-sources/c-data-sources-api)。
+請參閱[資料來源 API 文件](https://github.com/AdobeDocs/analytics-1.4-apis/tree/master/docs/data-sources-api)。
