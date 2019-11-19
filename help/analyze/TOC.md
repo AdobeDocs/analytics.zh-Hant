@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
+source-git-commit: 4320a2dc41ebb24860edb440f89f182d87aba3c2
 
 ---
 
@@ -84,7 +84,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + Segment comparison {#segment-comparison}
          + [區段 IQ 概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-         + [臨時頁面](analysis-workspace/c-panels/c-segment-comparison/compare-segments.md)
          + [區段 IQ 使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 組織或共用專案 {#curate-share}
@@ -94,11 +93,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
-   + 歸因 IQ {#attribution-iq}
-      + [臨時頁面](analysis-workspace/attribution-iq/attribution.md)
-      + [臨時頁面](analysis-workspace/attribution-iq/use-attribution-iq.md)
-      + [臨時頁面](analysis-workspace/attribution-iq/attribution-calcmetrics.md)
-      + [臨時頁面](analysis-workspace/attribution-iq/attribution-faq.md)
    + 虛擬分析人員 {#virtual-analyst}
       + [虛擬分析人員](analysis-workspace/virtual-analyst/virtual-analyst.md)
       + 異常偵測 {#anomaly-detection}
@@ -121,7 +115,6 @@ source-git-commit: 28a50956dd69d695b5ac304c414fcf631d394d9e
    + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
    + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
    + [歸因 IQ](analysis-workspace/attribution-iq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + [虛擬分析人員](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
