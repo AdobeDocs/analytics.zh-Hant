@@ -6,7 +6,7 @@ title: 自訂訪客 ID
 topic: Developer and implementation
 uuid: 49881e27-0418-4ecf-a092-dcc3db923f40
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 方法 | 說明 |
 |---|---|
-| [s.visitorID](/help/implement/js-implementation/c-variables/page-variables.md) 變數 | 如果在瀏覽器上使用 JavaScript，或如果您是使用任何其他 AppMeasurement 程式庫，則可在資料收集變數中設定訪客 ID。 |
+| [s.visitorID](/help/implement/js-implementation/page-variables/page-variables.md) 變數 | 如果在瀏覽器上使用 JavaScript，或如果您是使用任何其他 AppMeasurement 程式庫，則可在資料收集變數中設定訪客 ID。 |
 | 影像要求上的查詢字串參數 | 這可讓您透過硬式編碼影像請求的 [!UICONTROL vid 查詢字串]參數，將[!UICONTROL 訪客 ID] 傳送至 Adobe。 |
 | 資料插入 API | 在使用無線通訊協定，沒有接受 JavaScript 的裝置上，您可以從您的伺器將包含 `<visitorid/>` XML 元素的 XML 貼文傳送至 Adobe 收集伺服器。 |
 | URL 重寫和 VISTA | 有些部署架構可在您無法設定 Cookie 時，提供使用 URL 重寫以維護工作階段狀態的支援。在這種情況下，Adobe 工程服務可實施 [!DNL VISTA] 規則以在頁面的 URL 中尋找工作階段值，並在格式化後將其放入 [!UICONTROL visid] 值中。 |
