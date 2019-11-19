@@ -7,14 +7,14 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
 
 # propN
 
-屬性 ([!UICONTROL prop]) 變數可用來建置[!UICONTROL 流量模組]內的自訂報表。
+屬性 (`prop`) 變數可用來建置流量模組內的自訂報表。
 
 <!-- 
 
@@ -28,7 +28,7 @@ prop 變數可作為計數器 (用以計算頁面檢視的傳送次數)、用於
 |---|---|---|---|
 | 100 位元組 | c1 - c75 | 自訂流量 | "" |
 
-**語法和可能的值** {#section_4D3013AF2979426B9589CA2BB9D254CD}
+**語法和可能的值**
 
 ```js
 s.propN="value"
@@ -36,7 +36,7 @@ s.propN="value"
 
 除了標準變數限制以外，[!UICONTROL 屬性]變數並無其他限制。
 
-**範例** {#section_FFBB916DA9F44B668D5FAB7C511F6182}
+**範例**
 
 ```js
 s.prop2="editorial" 
@@ -46,6 +46,6 @@ s.prop2="editorial"
 s.prop15="toy category"
 ```
 
-**組態設定** {#section_25FDEB6ECA8242A2A44EE540C083078A}
+**組態設定**
 
-請向 Adobe 客戶服務洽詢為 [!UICONTROL prop] 變數顯示[!UICONTROL 「瀏覽」]、[!UICONTROL 「訪客」]和[!UICONTROL 「路徑」]等度量的相關事宜。
+請向 Adobe 客戶服務洽詢為 變數顯示「瀏覽」、「訪客」和`prop`「路徑」等度量的相關事宜。
