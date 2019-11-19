@@ -1,7 +1,7 @@
 ---
 title: 歸因 IQ
-description: Attribution IQ是Adobe Analytics中的一組功能，可進一步瞭解行銷工作如何促成轉化。
-translation-type: tm+mt
+description: 歸因 IQ 是 Adobe Analytics 中的一組功能，可深入分析行銷活動對轉換所具有的貢獻。
+translation-type: ht
 source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 ---
@@ -9,13 +9,13 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 
 # 歸因 IQ
 
-Attribution IQ是Adobe Analytics中的一組功能，可進一步瞭解行銷工作如何促成轉化。
+歸因 IQ 是 Adobe Analytics 中的一組功能，可深入分析行銷活動對轉換所具有的貢獻。
 
-特定客戶歷程並非線性，而且通常無法預測。 每位客戶都以自己的步調進行；他們通常會重複返回、停止、重新啟動或參與其他非線性行為。 這些有機動作讓您難以瞭解整個客戶歷程中行銷工作的影響。 它也阻礙了將多個資料通道連結在一起的努力。
+客戶歷程並非線性，且經常無法預測。每位客戶都以自己的步調前進，常常會流連往返、停滯不動、重新開始，或以其他非線性行為進行互動。這些非機械性的行為使得我們很難掌握行銷活動在客戶歷程中的影響，也會阻礙我們將多個資料管道聯繫在一起的努力。
 
-Adobe Analytics Attribution IQ可讓現代智慧團隊瞭解客戶歷程中如何進行有意義的互動，並找出引導客戶達成目標的轉折點。 瞭解客戶歷程的這一方面，有效地優化了行銷舉措。
+Adobe Analytics 歸因 IQ 讓現代情報團隊能夠瞭解如何在客戶歷程中進行有意義的參與，找出將客戶導向目標結果的轉折點。瞭解客戶歷程的這些層面，您就能有效最佳化行銷行動。
 
-![歸因IQ問題](c-panels/attribution/assets/attribution_iq_problem.png)
+![歸因 IQ 問題](c-panels/attribution/assets/attribution_iq_problem.png)
 
 Adobe Analytics 強化了歸因功能，讓您可以:
 
@@ -24,12 +24,12 @@ Adobe Analytics 強化了歸因功能，讓您可以:
 * 避免實施變更: 透過報表時間處理功能和內容感知工作階段，可以建置客戶歷程內容並套用在執行階段中。
 * 建構與您的歸因狀況最相符的工作階段。
 * 按區段劃分歸因: 輕鬆比較行銷管道在任何重要區段中的效能 (例如，新客戶與回頭客戶、產品 X 與產品 Y、忠誠度或 CLV)。
-* 檢查渠道交叉和多點觸控分析：使用文氏圖和直方圖以及趨勢歸因結果。
-* 以視覺化方式分析關鍵行銷序列：透過多節點流量和流失視覺化來探索可視覺化轉換的路徑。
+* 跨管道檢查和多點接觸分析: 使用 Venn 圖表和色階分佈圖，並計算歸因結果趨勢。
+* 以視覺化方式分析關鍵行銷序列活動: 透過多節點流量和流失視覺效果，以視覺化方式探究帶來轉換的路徑。
 * 建立計算量度: 使用任何數量的歸因配置方法。
 
 ## 功能
 
-歸因IQ包含下列功能：
+歸因 IQ 包含下列功能:
 
-* [歸因面板：](c-panels/attribution/attribution.md)
+* [歸因面板:](c-panels/attribution/attribution.md)
