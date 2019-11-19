@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 反向連結與促銷活動
 uuid: 56580206-a382-4993-9bba-a488da65cf89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -26,11 +26,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 反向連結覆寫 </td> 
-   <td colname="col2"> <p>覆寫<span class="varname"> s.referrer</span> 變數中所設定的值，該變數通常是由瀏覽器中設定的反向連結填入。 </p> <p>請參閱<a href="/help/implement/js-implementation/c-variables/page-variables.md">頁面變數</a>. </p> </td> 
+   <td colname="col2"> <p>覆寫<span class="varname"> s.referrer</span> 變數中所設定的值，該變數通常是由瀏覽器中設定的反向連結填入。 </p> <p>請參閱<a href="/help/implement/js-implementation/page-variables/page-variables.md">頁面變數</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 促銷活動 </td> 
-   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>See [<a href="/help/implement/js-implementation/c-variables/page-variables.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>See [<a href="/help/implement/js-implementation/page-variables/campaign.md">Page Variables</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
