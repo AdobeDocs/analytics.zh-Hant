@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -25,17 +25,17 @@ list_props.xml
 
 **考量事項**
 
-* 清單 prop 只能對流量變數 ([prop](/help/implement/js-implementation/c-variables/page-variables.md)) 啟用。
+* 清單 prop 只能對流量變數 ([prop](/help/implement/js-implementation/page-variables/propn.md)) 啟用。
 * 您無法為清單 prop 啟用路徑分析和關聯。
 * 幾乎每個報表都可獲得 Analytics 提供的瀏覽和獨特訪客資料，包括所有的清單 prop 報表在內。
 * 清單 prop 支援分類功能。
-* 任何自訂流量變數皆可成為清單 prop(例外: [pageName](/help/implement/js-implementation/c-variables/page-variables.md)、[channel](/help/implement/js-implementation/c-variables/page-variables.md) 和 [server](/help/implement/js-implementation/c-variables/page-variables.md))。
+* 任何自訂流量變數皆可成為清單 prop(例外: [pageName](/help/implement/js-implementation/page-variables/pagename.md)、[channel](/help/implement/js-implementation/page-variables/channel.md) 和 [server](/help/implement/js-implementation/page-variables/server.md))。
 
 * 在相同的影像要求中定義重複值時，不會對例項進行重複資料刪除。
 
 在「管理工具 &gt; 報表套裝 &gt; 流量變數」頁面上啟用「清單支援」接著選取分隔字元，即可將 Prop 變更為清單 Prop。常用的分隔字元有冒號、分號、逗號或垂直線。技術上而言，分隔字元可以是前 127 個 ASCII 字元中的任一個。
 
-**實施範例** {#section_A3DD7293A8BB4807B42BFB1F73BE11AC}
+**實施範例**
 
 在要求啟用清單 prop 時，請指定您要使用的分隔字元。在啟用您所選擇的&#x200B;*`s.prop`* 後，您可以在此變數中設定多個值，如下列範例所示:
 
