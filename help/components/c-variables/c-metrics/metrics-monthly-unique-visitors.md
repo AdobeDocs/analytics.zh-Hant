@@ -5,14 +5,14 @@ title: 每月不重複訪客
 topic: Metrics
 uuid: b11555b6-b4df-4ebf-ba2c-2f31651256f6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 32fac842028e051db2f202cd112c1ce7dc899cfc
 
 ---
 
 
 # 每月不重複訪客
 
-一月內您的網站不重複 (只計一次) 的訪客數量。
+在單月期間，您網站的不重複（即僅計一次）訪客數。
 
 | 使用 | 說明 |
 |---|---|
