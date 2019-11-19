@@ -1,22 +1,22 @@
 ---
-title: 區段IQ概觀
-description: 瞭解Adobe Analytics細分IQ是什麼，以及它如何協助您的組織。
-keywords: 分析工作區；區段IQ
-translation-type: tm+mt
+title: 區段 IQ 概述
+description: 瞭解何為 Adobe Analytics 區段 IQ，以及此 IQ 可為您的組織提供的協助。
+keywords: Analysis Workspace, 區段 IQ
+translation-type: ht
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
 
 
-# 區段IQ概觀
+# 區段 IQ 概述
 
-分析人員可花費數小時甚至數天時間，在組織的量度和維度間搜尋區段的相關差異。 此分析不但麻煩而且耗時，您永遠無法確定是否遺漏了某個區段的關鍵差異，而可能會對您的目標行銷工作造成重大影響。
+分析人員有時候會花費數小時甚或數天，在您組織的量度與維度中搜尋不同區段之間的相關差異。這項分析不僅曠日耗時，您也可能永遠無法確認某區段所缺漏的關鍵差異是否會對已設定目標的行銷行動產生巨大影響。
 
-許多組織都使用細分IQ所提供的功能，獲得成功。 請參 [閱區段比較使用案例](c-panels/c-segment-comparison/segment-compare-use-cases.md) ，以瞭解為組織提供寶貴洞察力的實際案例。
+許多組織運用區段 IQ 所提供的功能後，都獲得成功。請參閱[區段比較使用案例](c-panels/c-segment-comparison/segment-compare-use-cases.md)，透過實際案例瞭解組織如何取得價值連城的深度分析能力。
 
 ## 功能
 
-區段IQ包含下列功能：
+區段 IQ 包含下列功能:
 
-* [](c-panels/c-segment-comparison/segment-comparison.md) 區段比較面板：區段IQ的核心功能。 將兩個區段拖曳至面板，並檢視顯示兩個觀眾之間統計上顯著差異和重疊的完整報表。
-* [](visualizations/fallout/compare-segments-fallout.md) 比較流失中的區段：在流失視覺化中，瞭解不同的觀眾如何彼此比較。
+* [區段比較面板:](c-panels/c-segment-comparison/segment-comparison.md) 區段 IQ 的核心功能。將兩個區段拖曳至面板中，並透過資料全面的報表，檢視兩種目標對象之間在統計數據上的顯著差異和重疊之處。
+* [比較區段的流失:](visualizations/fallout/compare-segments-fallout.md) 透過流失率視覺效果，互相比較不同目標對象的流失情況。
