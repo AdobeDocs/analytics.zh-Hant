@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 
 ---
 
@@ -26,11 +26,11 @@ eVarN.xml
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
-| 255 位元組 | v1-v75 ([或是 v100 或 v250](/help/implement/js-implementation/c-variables/page-variables.md)) | 自訂轉換 | "" |
+| 255 位元組 | v1-v75 ([或是 v100 或 v250](/help/implement/js-implementation/page-variables/page-variables.md)) | 自訂轉換 | "" |
 
-**過期** {#section_6DB5882B960D4660AE248B91B76883C4}
+**過期**
 
-[!UICONTROL eVar] 會在經過您所指定的時段之後過期。eVar 過期後，即不會再獲得成功事件的評價。您也可以將 eVar 設定成隨著成功事件過期。例如，若您有某個內部促銷會在瀏覽結束時過期，此內部促銷將只會因為在購買或註冊啟動的瀏覽期間所發生的購買或註冊，而獲得評價。
+`eVars` 在您指定的時段後過期。 eVar 過期後，即不會再獲得成功事件的評價。您也可以將 eVar 設定成隨著成功事件過期。例如，若您有某個內部促銷會在瀏覽結束時過期，此內部促銷將只會因為在購買或註冊啟動的瀏覽期間所發生的購買或註冊，而獲得評價。
 
 有兩種方式可讓 eVar 過期: 
 
@@ -39,21 +39,21 @@ eVarN.xml
 
 若某個 eVar 在五月用來反映內部促銷情形，並在 21 天後過期，而在六月則用來擷取內部搜尋關鍵字，則您應在 6 月 1 日將此變數強制過期，或重設此變數。這麼做有助於將內部促銷值排除在六月的報表以外。
 
-**區分大小寫** {#section_6E9145B7FCC2438E95BB35AAE3857412}
+**區分大小寫**
 
 eVar 不區分大小寫，但會以第一次出現時的大寫格式顯示。例如，若 eVar1 的第一個例項設為 "Logged In"，但後續所有的例項皆以 "logged in" 的格式傳入，則報表一律會將 eVar 的值顯示為 "Logged In"。
 
-**計數器** {#section_D8403F0C175E4BC9BE4F2E794B1F4D33}
+**計數器**
 
 eVar 通常會用來放置字串值，但也可設定作為計數器。當您嘗試計算使用者在某個事件之前所執行的動作數時，即可將 eVar 當作計數器使用。例如，您可以使用 eVar 擷取購買之前的內部搜尋次數。每次訪客搜尋時，eVar 中都應會有 '+1' 值。若訪客在購買之前做了四次搜尋，您將會看見各個總計數的例項: 1.00、2.00、3.00、4.00。但只有 4.00 會獲得購買事件的評價 (訂購和收入度量)。eVar 計數器的值必須是正數。
 
-**子關聯** {#section_2BEABBBC735241F4BA42E74D19B5AEE0}
+**子關聯**
 
-[!UICONTROL 「自訂 eVar」]報表的一般需求之一，是必須能夠以一個[!UICONTROL 「自訂 eVar」]報表劃分另一個。例如，若一個 eVar 包含性別，另一個包含薪資，您可以問下列問題: 就網站上的女性訪客而言，有多少收入來自於年收入達 50,000 美元以上的女性。任何具有完整子關聯的 eVar，都可在報表中用於此類型的劃分。例如，若性別 eVar 已啟用完整子關聯，則所有其他自訂 eVar 報表都將能以性別來劃分，而性別也能以所有其他 eVar 來劃分。若要檢視兩份報表之間的關聯，只要有其中一份報表啟用完整子關聯即可。根據預設，[!UICONTROL 「促銷活動」]、[!UICONTROL 「產品」]和[!UICONTROL 「類別」]等報表都具有完整子關聯 (任何 eVar 都能以促銷活動或產品來劃分)。
+「自訂 eVar」報表的一般需求之一，是必須能夠以一個「自訂 eVar」報表劃分另一個。例如，若一個 eVar 包含性別，另一個包含薪資，您可以問下列問題: 就網站上的女性訪客而言，有多少收入來自於年收入達 50,000 美元以上的女性。任何具有完整子關聯的 eVar，都可在報表中用於此類型的劃分。例如，若性別 eVar 已啟用完整子關聯，則所有其他自訂 eVar 報表都將能以性別來劃分，而性別也能以所有其他 eVar 來劃分。若要檢視兩份報表之間的關聯，只要有其中一份報表啟用完整子關聯即可。依預設，促銷活動、產品和類別報表是完全子關聯的（任何eVar都可依促銷活動或產品劃分）。
 
-**語法和可能的值** {#section_BD46438B14F3488FB9AC42994C317B06}
+**語法和可能的值**
 
-雖然 eVar 可重新命名，但在 JavaScript 檔案中應一律以 eVarX 加以參照，其中，X 是介於 1 與 75 之間 ([或是 100 或 250](/help/implement/js-implementation/c-variables/page-variables.md)) 的數字。
+雖然 eVar 可重新命名，但在 JavaScript 檔案中應一律以 eVarX 加以參照，其中，X 是介於 1 與 75 之間 ([或是 100 或 250](/help/implement/js-implementation/page-variables/page-variables.md)) 的數字。
 
 ```js
 s.eVarX="value"
@@ -61,7 +61,7 @@ s.eVarX="value"
 
 eVar 在未作為計數器時，會受到與所有其他變數相同的限制。若 eVar 為「計數器」，則預期應會接收 "1" 或 "2.5" 之類的數值。若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar 計數器不可包含負數。
 
-**範例** {#section_B37F4B0D56734DA3AB02BB218825BA4E}
+**範例**
 
 ```js
 s.eVar1="logged in"
@@ -71,9 +71,9 @@ s.eVar1="logged in"
 s.eVar23="internal spring promo 4"
 ```
 
-**組態設定** {#section_BD1FE63001C84D3DB69F3DEE243960B6}
+**組態設定**
 
-eVar 可在 [!UICONTROL Analytics &gt; 管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 轉換 &gt; 轉換變數]中設定。所有 eVar 都能以[!UICONTROL 「名稱」]、[!UICONTROL 「類型」]、[!UICONTROL 「配置」]、[!UICONTROL 「在設定之後過期」]或[!UICONTROL 「重設」]來設定。每項組態設定會分開處理。
+eVar可在「分析&gt;管理&gt;報表套裝&gt;編輯設定&gt;轉換&gt;轉換變數」中設定。 所有 eVar 都能以「名稱」、「類型」、「配置」、「在設定之後過期」或「重設」來設定。每項組態設定會分開處理。
 
 <table id="table_5C524B71520849FA8A9A6B79A3EE77C9"> 
  <thead> 
@@ -106,7 +106,7 @@ eVar 可在 [!UICONTROL Analytics &gt; 管理員 &gt; 報表套裝 &gt; 編輯�
  </tbody> 
 </table>
 
-**缺陷、問題和提示** {#section_DA6912C802E445F986C6DE4234C6C737}
+**缺陷、問題和提示**
 
 * 不同於 [!UICONTROL prop] 變數，eVar 變數不可以是分隔值清單。若您為 eVar 填入值清單 (例如 "one,two,three")，這個字串將會照原樣出現在報表中。
 * eVar 計數器不可包含負數。
