@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
 
@@ -84,7 +84,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問: 在 Analytics 中，可以在哪裡使用這些維度?</b> </p> </td> 
-   <td colname="col2"> <p>幾乎所有位置; 這些維度的處理方式與在 Analytics 中收集的任何其他維度相同。但有兩項例外: 資料目前不會出現在 Data Workbench 或 Livestream 中。 </p> </td> 
+   <td colname="col2"> <p>幾乎所有位置; 這些維度的處理方式與在 Analytics 中收集的任何其他維度相同。有一個例外：目前，資料不會在資料工作台中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為何我不看到Analytics中的資料流傳？</b> </p> </td> 
@@ -119,7 +119,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問: 如果我已實作舊式 SSF，我是否還需要前往 Analytics「管理控制台」並開啟報表套裝 SSF?</b> </p> </td> 
-   <td colname="col2"> <p>是。在 AAM 目標設定中，您只會看見已開啟 SSF 的報表套裝。 </p> </td> 
+   <td colname="col2"> <p>是. 在 AAM 目標設定中，您只會看見已開啟 SSF 的報表套裝。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為什麼無法在Analytics管理員中為SSF開啟特定報表套裝？</b> </p> </td> 
