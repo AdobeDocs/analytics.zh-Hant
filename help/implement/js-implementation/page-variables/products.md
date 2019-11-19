@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
 
@@ -57,7 +57,7 @@ products.xml
  </tbody> 
 </table>
 
-**語法** {#section_ABA3682985E540E6AA67A510176CCFFC}
+**語法**
 
 ```js
 "Category;Product;Quantity;Price;eventN=X[|eventN2=X2];eVarN=merch_category[|eVarN2=merch_category2]"
@@ -66,23 +66,23 @@ products.xml
 | 欄位 | 定義 |
 |---|---|
 | 類別 | 包含相關聯產品類別。在第 15 版中，產品可與多個類別相關聯，這會修正第 14 版中存在的限制。如果您先前未記錄產品類別，則鼓勵您開始對第 15 版的報告套件填寫此欄位。 |
-| 產品 | (必要) 用以追蹤產品的識別碼。此識別碼可用來填入[!UICONTROL 「產品」]報表。請確實在整個結帳程序中使用相同的識別碼。 |
-| 數量 | 購買產品的件數。此欄位必須與[!UICONTROL 購買]事件一起設定，才能記錄下來。 |
-| 價格 | 請參考已購買的組合總品質成本 (單位 x 個別單位價格)，而非參考個別價和。此欄位必須與[!UICONTROL 購買]事件一起設定，才能記錄下來。 |
-| 事件 | 與指定之事件相關聯的貨幣事件。請參閱[產品特有的貨幣事件](/help/implement/js-implementation/c-variables/page-variables.md#section_F814DF053C0D463A97DA039E6323720C)及[整張訂單貨幣事件](/help/implement/js-implementation/c-variables/page-variables.md#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0)。 |
+| 產品 | (必要) 用以追蹤產品的識別碼。此識別碼可用來填入「產品」報表。請確實在整個結帳程序中使用相同的識別碼。 |
+| 數量 | 購買產品的件數。此欄位必須與購買事件一起設定，才能記錄下來。 |
+| 價格 | 請參考已購買的組合總品質成本 (單位 x 個別單位價格)，而非參考個別價和。此欄位必須與購買事件一起設定，才能記錄下來。 |
+| 事件 | 與指定之事件相關聯的貨幣事件。請參閱[產品特有的貨幣事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)及[整張訂單貨幣事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)。 |
 | eVar | 與指定之產品相關聯的銷售 eVar 值。請參閱 [銷售變數](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
 
 包含在以下的值  *`products`*&#x200B;變數中包括的值是根據您正在記錄的事件類型。省略類別時，必須以類別/產品分隔字元 (;) 作為預留位置。僅在需要其他分隔字元，來區分您將包括的參數時，才需要這些分隔字元，如此頁面上的範例所示。
 
-**設定產品與非購買事件** {#section_D5E689D4AAE941EC851CA9B98328A4DE}
+**設定產品與非購買事件**
 
 *`products`* 變數必須與成功事件一起設定。
 
-**設定產品與購買事件** {#section_618AAC96E7B541A7AABAA028E5F4E5C3}
+**設定產品與購買事件**
 
 *`purchase`* 事件應設定於訂購程序的最終確認 (「感謝您」)頁面。產品名稱、類別、數量和價格全都會擷取到&#x200B;*`products`* 變數中。雖然 *`purchaseID`* 變數並非必要項目，但建議您最好使用，以防止出現重複訂單。
 
-**產品特有貨幣事件** {#section_F814DF053C0D463A97DA039E6323720C}
+**產品特有貨幣事件**
 
 如果貨幣事件收到 *`products`* 變數中的值 (而不是 events 變數)，則僅適用於該值。這有助於追磫產品特有折扣、產品出貨，以及類似值。例如，如果您已將事件 1 設為追蹤產品出貨，則具有 "4.50" 運送費用的產品可能會出現，如下所示:
 
@@ -93,7 +93,7 @@ s.products="Footwear;Running Shoes;1;99.99;event1=4.50"
 
 在此範例中，值 4.50 直接與 "Running Shoes" 產品相關聯。如果已將 event1 新增至產品報告，則您將看到 "4.50" 針對 "Running Shoes" 細項列出。與 Price 類似，此值應該反映所列出之數量的總金額。如果您有 2 個項目，每個項目的運送費用為 4.50，則 event1 應為 "9.00"。
 
-**整張訂單貨幣事件** {#section_D06F76A8A1F8498EB1BD6D8C8B9D5BE0}
+**整張訂單貨幣事件**
 
 如果貨幣事件收到事件清單中的值 (而不是 *`products`* 變數)，則是用於 *`products`* 變數中的所有產品。這在追蹤整張訂單的折扣、運費及類似的價格時很有用，不必修改產品價格或在產品清單中個別追蹤。
 
@@ -109,15 +109,15 @@ s.purchaseID="1234567890"
 
 > [!NOTE]如果在 *`products`* 變數和 *`events`* 變數中針對同一個數值/貨幣事件指定某個值，則會使用來自 *`events`* 的值。
 
-**缺陷、問題和提示** {#section_D38FD0B79C0347B9AB4CF1632183DA2E}
+**缺陷、問題和提示**
 
-* *`products`* 變數一律應與[!UICONTROL 成功]事件 (一或多個) 一起設定。若未指定[!UICONTROL 成功]事件，預設事件將是 [!UICONTROL prodView]。
+* *`products`* 變數一律應與成功事件 (一或多個) 一起設定。若未指定成功事件，預設事件將是 prodView。
 
 * 在填入產品前，請先移除產品和類別名稱中的所有逗號和分號。
 * 移除所有的 HTML 字元 (註冊符號、商標等)。
 * 移除價格中的貨幣符號 ($)。
 
-**範例** {#section_FCC6EF43D3534ECB9A95CDB05820F564}
+**範例**
 
 <table id="table_6F1334E73CE048A5AC0CC28B561C1B2D"> 
  <tbody> 
