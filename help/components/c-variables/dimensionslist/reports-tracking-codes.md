@@ -5,7 +5,7 @@ title: 追蹤程式碼
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **一般屬性**
 
-* 此報告會直接參照來自於網站上實施之 [s.campaign](/help/implement/js-implementation/c-variables/page-variables.md) 變數的資料。
+* 此報告會直接參照來自於網站上實施之 [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 變數的資料。
 * 此報告所依據的變數為[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。也就是說，轉換變數可跨頁面檢視而存留，並可在其指定的有效期內與量度產生關聯。
 * 此報告的預設量度為「收入」。您可以在[!UICONTROL 「管理工具」]的[!UICONTROL 「報表套裝管理器」]中變更此預設值。( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
 
