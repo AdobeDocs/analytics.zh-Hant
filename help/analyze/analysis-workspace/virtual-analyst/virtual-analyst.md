@@ -1,7 +1,7 @@
 ---
-description: 此頁面已移動。
+description: 此頁面已經移至他處。
 title: 重新導向
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
@@ -9,4 +9,4 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 # 重新導向
 
-這是臨時頁面。 請參 [閱虛擬分析師](../virtual-analyst.md)。
+此為暫時頁面。請參閱[虛擬分析人員](../virtual-analyst.md)。
