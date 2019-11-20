@@ -2,7 +2,7 @@
 title: 地區資料收集
 description: 地區資料收集資訊
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -20,7 +20,6 @@ RDC 目前包括下列位置 (可能隨時變更):
 | RDC 類型 | 資料收集中心 |
 |---------------------|-------------------|
 | 預設值 | 聖荷西、維吉尼亞、倫敦、新加坡、香港、雪梨、阿姆斯特丹 |
-| 僅限中國 | 北京 |
 
 Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. 如果您在請求的 URL 中看到任一端點，即可判定出此結論。
 
