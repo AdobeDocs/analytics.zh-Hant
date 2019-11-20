@@ -4,7 +4,7 @@ solution: Analytics
 title: 逗留時間
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e67926856111834bb9c783ec916a24d34981454c
+source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
 
 ---
 
@@ -46,13 +46,15 @@ The **numerator** in all time spent calculations is total seconds spent.
 
 The **denominator** is not available as a separate metric in Adobe Analytics. 對於點擊層級的「逗留時間」量度，分母為序列。 序列是一組連續點擊，其中的指定變數會包含相同的值 (不論是透過設定、擴散或持續)。「前移」是指Prop在頁面檢視之間（即跨後續連結事件）的持續存在性，以計算逗留時間。
 
-* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially 'Instances' or 'Page Views', but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
+* For example, in the case of [!UICONTROL Page Name] or other dimensions at the hit level, the denominator is essentially [!UICONTROL 'Instances'] or [!UICONTROL 'Page Views'], but with reloads and unset values (e.g. link events) counted as a single interaction (a sequence).
 
 * 反彈和退出點擊也會從分母中移除，因為'逗留時間'無法得知。
 
 ## 常見問題解答
 
-**第1季：所有「逗留時間」量度都能套用至任何維度嗎？**&#x200B;答：可套用至任何維度的「逗留時間」量度為：
+**第1季：所有「逗留時間」量度都能套用至任何維度嗎？**
+
+答：可套用至任何維度的「逗留時間」量度為：
 
 * [!UICONTROL 花費秒數總計]
 
@@ -62,15 +64,21 @@ The **denominator** is not available as a separate metric in Adobe Analytics. �
 
 * [!UICONTROL 網站平均逗留時間] （秒）
 
-**第2季：哪個逗留時間維度最適合用於與其他維度的劃分？**&#x200B;答：「頁 [!UICONTROL 面逗留時間——粒度] 」維度是點擊層級維度。 使用由其他維度來劃分這個項目會告訴您當劃分維度也存在時點擊持續的秒數。在下列範例中，搜尋詞"classifieds"與54秒、59秒等的點擊時間相關聯，可能表示訪客花時間閱讀該詞語傳回的內容。
+**第2季：哪個逗留時間維度最適合用於與其他維度的劃分？**
+
+A: The [!UICONTROL Time Spent on Page – granular] dimension is a hit-level dimension. 使用由其他維度來劃分這個項目會告訴您當劃分維度也存在時點擊持續的秒數。在下列範例中，搜尋詞"classifieds"與54秒、59秒等的點擊時間相關聯，可能表示訪客花時間閱讀該詞語傳回的內容。
 
 ![](assets/time-spent1.png)
 
-**第3季：哪些量度適用於「頁面逗留時[!UICONTROL 間——細微」維度]?**&#x200B;答：任何量度。 維度會顯示事件發生地點的確切點擊逗留時間。 較長的逗留時間表示訪客在事件發生的頁面 (點擊) 上停留較長時間。
+**第3季：哪些量度適用於「頁面逗留時[!UICONTROL 間——細微」維度]?**
+
+答：任何量度。 維度會顯示事件發生地點的確切點擊逗留時間。 較長的逗留時間表示訪客在事件發生的頁面 (點擊) 上停留較長時間。
 
 ![](assets/time-spent2.png)
 
-**第4季：網站平[!UICONTROL 均逗留時間與每次瀏覽][!UICONTROL 逗留時間有何不同]?**&#x200B;答：差異在於量度中的分母：
+**第4季：網站平[!UICONTROL 均逗留時間與每次瀏覽][!UICONTROL 逗留時間有何不同]?**
+
+答：差異在於量度中的分母：
 
 * [!UICONTROL 網站平均逗留時間] ，會使用包含維度項目的序列。
 
@@ -87,7 +95,7 @@ The **denominator** is not available as a separate metric in Adobe Analytics. �
 | **瀏覽用時（秒）** | 0 | 30 | 80 | 180 | 190 | 230 | 290 |
 | **花費秒數** | 30 | 50 | 100 | 10 | 40 | 60 | - |
 | **點擊類型** | 頁面 | 連結 | 頁面 | 頁面 | 頁面 | 頁面 | 頁面 |
-| **頁面名稱** | 首頁 | - | 產品 | 首頁 | 首頁 (重新載入) | 購物車 | 訂單確認 |
+| **頁面名稱** | 首頁 | - | 產品 | 首頁 | 首頁 (重新載入) | 購物車 | 訂購確認 |
 |  |  |  |  |  |  |  |  |
 | **prop1** | A (設定) | A（前進） | 未設定 | B（設定） | B（設定） | A(設定) | C (設定) |
 | **prop1 花費秒數** | 30 | 50 | - | 10 | 40 | 60 | - |
