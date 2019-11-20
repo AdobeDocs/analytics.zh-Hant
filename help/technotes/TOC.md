@@ -1,10 +1,10 @@
 ---
 product: analytics
-audience: 全部
-user-guide-title: Analytics 技術文件
-user-guide-url: /content/help/zh-Hant/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
+audience: all
+user-guide-title: Analytics tech notes
+user-guide-url: /content/help/en/analytics/technotes/home.html
+translation-type: tm+mt
+source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 
 ---
 
@@ -34,7 +34,6 @@ source-git-commit: fd1e2f1789ed9c8c31c89f0e7b6b7b2dd3ee114d
    + [地區資料彙集說明](rdc/regional-data-collection.md)
    + [環境特性](rdc/rdc-environment-characteristics.md)
    + [SSL 認證授權](rdc/ssl-cert-licensing.md)
-   + [中國的 RDC](rdc/rdc-china.md)
 + [使用詞彙 (字彙表)](terms.md)
 + [疑難排解登入](troubleshoot-login.md)
 + [疑難排解被登出](troubleshoot-sessions.md)
