@@ -2,7 +2,7 @@
 title: 實作行動裝置分析
 description: 'null'
 translation-type: tm+mt
-source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
+source-git-commit: 0550b1ad44aebe70398b3994ff0dd72507e2ed4c
 
 ---
 
@@ -32,5 +32,5 @@ source-git-commit: c94e581e98ae1563359140b9896eb892303c06ba
 
 *注意：不再支援行動裝置專用的AppMeasurement 3.x SDK。 不過，SDK的說明檔案如下所示。*
 
-* [iOS檔案](/assets/adobe_mobile_ios_3.x.pdf)
-* [Android檔案](/assets/android_3.x.pdf)
+* [iOS檔案](../../assets/adobe_mobile_ios_3x.pdf)
+* [Android檔案](../../assets/android_3x.pdf)
