@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 # products
 
 此變數可用來追蹤產品和產品類別，以及購買數量和購買價格。產品通常會與購物車事件或 事件一起設定。
+
 
 <!-- 
 
@@ -159,3 +160,7 @@ s.purchaseID="1234567890"
   </tr> 
   <tr> 
    <td colname="col1"> <code> s.events="event1,event2,event3=9.95" </code> <p> <code> s.products="Category;ABC123;,;ABC456;2;19.98;event1=1.99|event2=100;evar1=Ground Shipping,;;;;event3=2.9;evar3=20% off" </code> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
