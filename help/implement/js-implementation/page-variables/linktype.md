@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # linkType
 
  變數是一個用於連結追蹤中的可選變數，可判斷會出現連結名稱或 URL 的報表 (自訂、下載或退出連結)。
+
 
 <!-- 
 
