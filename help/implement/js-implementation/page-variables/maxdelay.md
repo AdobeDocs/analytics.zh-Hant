@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # maxDelay
 
 s.maxDelay 變數主要用於 Genesis DFA 整合，用以決定聯繫 DFA 主機時的逾時期間。若 Adobe 未在 變數中設定的指定期間內接收到來自 DFA 伺服器的回應，連線即會中斷，而資料會正常處理。若您對 DFA 各頁面的回應時間有所顧慮，請實施此變數。建議您先以此值進行測試，以找出最理想的逾時期間。
+
 
 <!-- 
 
