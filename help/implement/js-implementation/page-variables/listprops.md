@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -16,6 +16,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 # 清單 Prop
 
 清單 prop 是一份使用分隔字元的值清單，會在傳入至變數後，以個別明細項目的形式來報告。清單 prop 最常在含有使用者可選值的頁面上實施，例如具有核取方塊或選項按鈕的清單項目。清單 prop 在任何您需要於一個變數中定義多個值，但不想傳送多個影像要求的情況下皆適用。
+
 
 <!-- 
 
