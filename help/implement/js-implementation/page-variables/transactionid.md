@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: 45642bdbe18627caa20b1def6443f1e596a41f52
 # transactionID
 
 [!UICONTROL 「整合資料來源」使用交易 ID 將離線資料連接到線上交易 (像是在線上產生的潛在客戶或購買)。]
+
 
 <!-- 
 
