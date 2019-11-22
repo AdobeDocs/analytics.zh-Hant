@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ea6109f2f9aa421001fde6d7bec65b82beda883c
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ea6109f2f9aa421001fde6d7bec65b82beda883c
 # channel
 
  變數通常用於識別網站的某個區域。
+
 
 <!-- 
 
