@@ -7,7 +7,7 @@ title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
+source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: ce200ed36f8c61d2870ea1500664673fa1cc4b5e
 # 清單變數
 
 也稱為清單變數 (List Var)。清單變數的運作方式與清單 Prop 類似，也允許相同影像要求中可有多個值。其運作方式也類似於 eVar，可獨立存留於其定義所在之影像要求外。您可以使用這些變數來檢視單一頁面上多個元素的因果關係，例如產品清單、期望清單、進階搜尋清單或顯示廣告清單等。
+
 
 <!-- 
 
