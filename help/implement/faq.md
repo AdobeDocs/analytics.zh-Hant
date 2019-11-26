@@ -6,7 +6,7 @@ title: Analytics 實作常見問題集
 topic: Developer and implementation
 uuid: 983d759a-c4f2-4021-84c8-0486dbb951b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: c3bdd39808041b2e716d3e6bbdcfbf23c37b7a24
 
 ---
 
@@ -87,7 +87,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td> s_code 檔案的最新版本是什麼? </td> 
-   <td> 本節包含 Web 及行動平台上 [!DNL AppMeasurement] 資料庫的版本記錄。每個程式庫的最新版本可從「Reports &amp; Analytics &gt; 管理工具 &gt; 代碼管理器」下載。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [更多...] </a> </td> 
+   <td> This section contains a release history for <code>AppMeasurement</code> libraries across web and mobile platforms. 每個程式庫的最新版本可從「Reports &amp; Analytics &gt; 管理工具 &gt; 代碼管理器」下載。<a href="https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/release/c_release_notes_javascript.html"> [更多...] </a> </td> 
   </tr> 
   <tr> 
    <td> 如何偵錯 s_code 檔案? </td> 
