@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics 管理指南
-user-guide-url: /content/help/zh-Hant/analytics/admin/home.html
+user-guide-title: Analytics Admin Guide
+user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
+source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
 
@@ -117,6 +117,7 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [品牌結合](company/co-branding-admin.md)
    + [隱藏報表套裝](company/c-hide-report-suites.md)
    + [安全管理員](company/security-manager.md)
+   + [「強制IP登入限制」的生命週期結束](company/login-restrictions-eol.md)
 + 管理報表套裝 {#manage-report-suites}
    + [報表套裝管理員](c-manage-report-suites/report-suites-admin.md)
    + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
@@ -161,9 +162,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [電子郵件使用者](user-management2/t-email-users.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics與CCPA](c-data-governance/an-ccpa-overview.md)
+   + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
    + [常見問題集](c-data-governance/gdpr-faq.md)
-   + [Adobe Analytics資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
+   + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
    + [檢視/管理報表套裝資料控管設定](c-data-governance/gdpr-view-settings.md)
    + [標籤報表套裝資料](c-data-governance/gdpr-setup-reportsuite.md)
    + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
@@ -172,9 +173,9 @@ source-git-commit: af95cc329414cfca68968c463206314aae1b8e18
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [標籤最佳作法](c-data-governance/gdpr-analytics-ids.md)
    + [標籤範例](c-data-governance/gdpr-labeling-example.md)
-   + [資料隱私權與資料連接器(Genesis)](c-data-governance/data-connectors-gdpr.md)
+   + [資料隱私權與 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [資料隱私權術語](c-data-governance/gdpr-terminology.md)
-   + [隱私權報告變數](c-data-governance/consent-variables.md)
+   + [隱私權報表變數](c-data-governance/consent-variables.md)
 + 伺服器呼叫使用量 {#server-call-usage}
    + [伺服器呼叫使用量概觀](c-server-call-usage/overage-overview.md)
    + [檢視目前伺服器呼叫使用量](c-server-call-usage/server-call-usage-dashboard.md)
