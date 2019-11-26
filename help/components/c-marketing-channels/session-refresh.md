@@ -2,7 +2,7 @@
 title: 內部（作業階段重新整理）頻道
 description: 閱讀有關內部（作業重新整理）頻道的資訊。
 translation-type: tm+mt
-source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
+source-git-commit: cf05e9f5d666fd40e74028929a831dad57ee2007
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ### 方案5:登入頁面載入時間較長
 
-訪客登陸頁面A，內容繁重，而Adobe Analytics代碼位於頁面的機器人。 在載入所有內容（包括Adobe Analytics影像要求）之前，檢視者會點按至頁面B。頁面B會觸發其Adobe Analytics影像要求。 由於頁面A的影像要求從未載入，因此在Adobe Analytics中，第二個頁面會顯示為瀏覽的第一次點擊，而頁面A則為反向連結。 瀏覽會被分類為「工作階段重新整理」。
+訪客登陸頁面A，其內容很重，而Adobe Analytics程式碼位於頁面底部。 在所有內容（包括Adobe Analytics影像要求）可載入之前，訪客點按頁面B。頁面B會觸發其Adobe Analytics影像要求。 由於頁面A的影像要求從未載入，因此在Adobe Analytics中，第二個頁面會顯示為瀏覽的第一次點擊，而頁面A則為反向連結。 瀏覽會被分類為「工作階段重新整理」。
 
 ### 方案6:清除Cookie中間網站
 
