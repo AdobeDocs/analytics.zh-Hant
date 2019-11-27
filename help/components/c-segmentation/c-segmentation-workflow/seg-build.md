@@ -5,7 +5,7 @@ title: 建立區段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 ---
 
@@ -56,13 +56,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * **[!UICONTROL + 從選項新增容器]**: 可讓您使用在「定義」欄位中選取的一個以上元素建立新容器。
    * **[!UICONTROL 排除]**: 可讓您透過排除一或多個維度、區段或量度來定義區段。
 
-**[!UICONTROL 歸因模型]**:用於維度分段。 維度模型在循序分段中特別有用，例如支援「流量」視覺化的維度模型：
+1. **[!UICONTROL 歸因模型]**:用於維度分段。 維度模型在循序分段中特別有用，例如支援「流量」視覺化的維度模型：
 
-    * **[!UICONTROL 重複]**(（預設值）:包含維度的例項和持續值。
-    * **實[!UICONTROL 例]**:包含維度的例項。
-    * **[!UICONTROL 非重複實例]**:包含維的唯一實例（非重複）。
-
-![](assets/attribution-models.jpg)
+   * **[!UICONTROL 重複]** (（預設）):包含維度的例項和持續值。
+   * **[!UICONTROL 例項]**:包含維度的例項。
+   * **[!UICONTROL 非重複例項]**:包含維的唯一實例（非重複）。
+   ![](assets/attribution-models.jpg)
 
 1. **[!UICONTROL 維度]**:維度會從「維度」清單中拖放（橘色側欄）。
 1. **[!UICONTROL 比較]**:您可以使用選取的運算子來比較和限制值。
