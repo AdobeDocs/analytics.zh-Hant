@@ -2,7 +2,7 @@
 description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作，以支援資料主體的 CCPA 存取和刪除權限。
 title: Adobe Analytics 和 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -16,17 +16,17 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 >[!IMPORTANT]本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 CCPA 的建議。
 
-加州消費者隱私法 (CCPA) 將於 2020 年 1 月 1 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/privacy.html)。
+加州消費者隱私法 (CCPA) 將於 2020 年 1 月 1 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)。
 
 當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。身為資料處理者，Adobe 會根據貴公司的權限和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
 
-身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。如需範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/privacy/marketing-cloud.html#collect)。
+身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。如需範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html#collect)。
 
 ## Adobe 如何處理 CCPA 資料
 
 Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資料控管基礎結構連接其用於建立和管理消費者體驗的 Adobe 工具。Adobe Cloud Platform 的資料控管功能，可啟用資料控管策略與資料使用情況之間直接關聯。
 
-請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解隱私權整備步驟，以及如何與 Adobe Experience Cloud 隱私權服務 API 整合。
+請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解隱私權整備步驟，以及如何與 Adobe Experience Cloud 隱私權服務 API 整合。
 
 ## CCPA 整備與您的 Adobe Analytics 資料
 
@@ -37,8 +37,8 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 ## 必備條件
 
 * 熟悉 [GDPR 術語](/help/admin/c-data-governance/gdpr-terminology.md)。
-* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)。
-* 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html)。
+* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://marketing.adobe.com/resources/help/zh_TW/mcloud/organizations.html)。
+* 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://marketing.adobe.com/resources/help/zh_TW/mcloud/report-suite-mapping.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 CCPA 刪除與存取請求。
 
    若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
