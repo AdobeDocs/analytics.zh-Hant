@@ -1,8 +1,8 @@
 ---
-description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
+description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之可直接或間接識別資料的合作夥伴變數。
 title: 資料隱私權與 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 # 資料隱私權與 Data Connectors (Genesis)
 
-本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之直接或間接個人識別資料的合作夥伴變數。
+本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之可直接或間接識別資料的合作夥伴變數。
 
 Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透過 Connector 匯入的直接或間接個人識別資料。
 
