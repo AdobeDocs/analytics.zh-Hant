@@ -3,7 +3,7 @@ description: 資料隱私權中的隱私權報表變數。
 solution: Analytics
 title: 隱私權報表變數
 topic: 管理工具
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -36,14 +36,14 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 您可透過 Analytics Admin Console 中提供的新「隱私權」設定來啟用隱私權報表變數。
 
 每個報表套裝皆可依照以下步驟設定:
-1. In Reports &amp; Analytics click **[!UICONTROL Admin &gt; Report Suites]**.
-1. Select the report suite(s) where you are collecting media data and click **[!UICONTROL Edit Settings &gt; Privacy Management]**.
+1. 在 Reports &amp; Analytics 中，按一下&#x200B;**[!UICONTROL 「管理員 &gt; 報表套裝」]**。
+1. 選取您要收集媒體資料的報表套裝，然後按一下&#x200B;**[!UICONTROL 「編輯設定 &gt; 隱私權管理」]**。
 
    ![](assets/rsm-privacy-select.png)
 
 1. 按一下&#x200B;**[!UICONTROL 「啟用資料隱私權報表」]**&#x200B;按鈕。
 
-   > [!NOTE] 啟用後，這些變數就無法關閉。
+   > [!NOTE] 這些變數一經啟用即無法關閉。
 
    ![](assets/rsm-privacy-enable.png)
 
@@ -59,20 +59,20 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 已預先定義三個上下文資料變數，用於搭配隱私權報表管理保留變數使用。如何管理並保留這些變數的設定取決於每位實作工程師。
 
-如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
+如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](https://docs.adobe.com/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
 
 ### SSF
 
 * 上下文資料: `contextData.['cm.ssf']`
 * 接受的值:
-   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。See [AAM ePrivacy Compliance](https://docs.adobe.com/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html).
+   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。請參閱[ AAM ePrivacy 合規性](https://docs.adobe.com/help/zh-Hant/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
    * 此參數不接受其他值。
 
 ### DMP
 
 * 上下文資料: `contextData.['opt.dmp']`
 * 接受的值: 
-   * N - 傳送「N」值時，表示消費者選擇不分享至資料管理平台。**注意**:將此變數設為"N"目前並不會封鎖AAM的共用，但是，AAM功能的封鎖呼叫將會在2020年初新增。 目前 Adobe 建議同時設定 `c.cm.ssf=1` 和 `c.opt.dmp=N` 以封鎖將點擊傳送至 AAM。
+   * N - 傳送「N」值時，表示消費者選擇不分享至資料管理平台。**注意:** 目前，將此變數設為「N」並不會封鎖對 AAM 的分享，不過，我們將在 2020 年初新增封鎖 AAM 功能呼叫的功能。目前 Adobe 建議同時設定 `c.cm.ssf=1` 和 `c.opt.dmp=N` 以封鎖將點擊傳送至 AAM。
    * Y - 傳送「Y」值時，表示消費者選擇分享至資料管理平台。
 
 ### SELL
