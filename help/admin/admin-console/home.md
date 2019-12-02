@@ -1,6 +1,6 @@
 ---
 source-git-commit: d195fb85711f58383577bf1d7b4da4078b909427
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Adobe Admin Console中的Adobe Analytics
+# Adobe Admin Console 中的 Adobe Analytics
