@@ -2,7 +2,7 @@
 title: Adobe Analytics中的觀眾報表
 description: 瞭解如何使用分析工作區建立受眾型報表。
 translation-type: tm+mt
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
 
@@ -50,7 +50,7 @@ Google Analytics中的「對象」報表需要設定對象。 觀眾也需要透
 「使用者總管」報表可讓分析人員透過匿名識別碼檢視個別瀏覽。 Adobe不會在資料饋送之外顯示後端識別碼，這些資料饋送是點擊層級的資料原始匯出。
 
 * 如果分析工作區需要此資料，則可與實施顧問合作，將匿名唯一識別碼Cookie值傳入eVar。 請注意，這僅適用於每月獨特訪客少於100萬的較小實作。
-* 如果資料饋送中需要此資料，串連的欄 `visid_high` 和 `visid_low` 是識別獨特訪客的最常見方式。 進一步瞭解「匯 [出」使用指南中](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 的「資料饋送」。
+* 如果資料饋送中需要此資料，串連的欄 `visid_high` 和 `visid_low` 是識別獨特訪客的最常見方式。 進一步瞭解「匯 [出」使用指南中](/help/export/analytics-data-feed/data-feed-overview.md) 的「資料饋送」。
 
 ## 人口統計與興趣報表
 
