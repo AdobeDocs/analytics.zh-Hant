@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的詞語
 description: Adobe Analytics辭彙表，定義使用的常用詞語。
 translation-type: tm+mt
-source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** 活動圖：一種瀏覽器外掛程式，可顯示您網站上哪些區域的點按頻率最高。 請參 [閱「分析](/help/analyze/activity-map/activity-map.md) 」使用指南中的「Activity Map」。
 * **** 管理控制台：可參閱：
    * 舊版管理工具，可管理Adobe Analytics中的報表套裝設定。 在舊版Adobe Analytics中，使用者權限也會在此處管理。 請參 [閱「管理員](/help/admin/admin/c-admin-tools.md) 」使用指南中的「管理工具」。
-   * Adobe管理主控台，提供產品存取權並管理使用者權限。 請參 [閱「管理員](/help/admin/admin-console/home.md) 」使用指南中的「管理控制台」。
+   * Adobe管理主控台，提供產品存取權並管理使用者權限。 See [Admin Console](/help/admin/admin-console/home.md) in the Admin user guide.
 * **** 配置：如果轉換變數在瀏覽期間遇到多個值，則變數的配置設定會決定要保留哪個值。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin user guide.
 * **** 異常：使用統計模型偵測到，以自動尋找資料中未預期的趨勢。 此模型會分析量度並決定上下界限和值的預期範圍。請參 [閱「分析](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) 」使用指南中的「異常偵測」。
 * **** AppMeasurement:用來收集資料並傳送至Adobe的程式碼庫。 請參閱 [實作](/help/implement/home.md) 使用指南的首頁。
@@ -43,7 +43,7 @@ source-git-commit: 0ff163713e47d47e104e15258586f1544fc5f019
 * **** 客戶支援委派：經授權可直接與Adobe客戶服務互動的指定使用者。 請參 [閱Experience cloud知識庫](https://helpx.adobe.com/experience-cloud/supported-users.html) 中的客戶支援委派。
 * **** 資料收集伺服器：接收及處理資料的Adobe所擁有伺服器。 影像要求會傳送至Adobe的資料收集伺服器，以用於報告。
 * **** 資料連接器：完整的開發解決方案，可讓協力廠商自動將資料上傳至Adobe Analytics。 該協力廠商的客戶可使用資料連接器，在Adobe Analytics中豐富其資料。 大部分的資料連接器都使用類似的Data Sources工作流程。 請參閱「匯入」使用指南中的「資料連接器」。
-* **** 資料饋送：原始資料匯出，會將每次點擊列為一列，而變數列為個別欄。 最常用來將Adobe Analytics資料匯出至協力廠商資料庫。 請參 [閱「匯出](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 」使用指南中的資料饋送。
+* **** 資料饋送：原始資料匯出，會將每次點擊列為一列，而變數列為個別欄。 最常用來將Adobe Analytics資料匯出至協力廠商資料庫。 請參 [閱「匯出](/help/export/analytics-data-feed/data-feed-overview.md) 」使用指南中的資料饋送。
 * **** 資料來源：可讓使用者從檔案上傳資料至Adobe Analytics。 通常會從FTP網站提取檔案。 請參 [閱「匯入](/help/import/c-data-sources/datasrc-home.md) 」使用指南中的「資料來源」。
 * **** 資料倉庫：Adobe Analytics中可讓您要求較大報表的功能。 請參 [閱「匯出](/help/export/data-warehouse/data-warehouse.md) 」使用指南中的「資料倉庫」。
 * **** 維：包含變數值（如文字）的元件類型。 範例包括頁面名稱、追蹤代碼或反向連結網域。 量度通常是對應量度。
