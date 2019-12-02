@@ -3,122 +3,53 @@ description: 資料摘要中所使用之特殊字元的相關資訊。
 keywords: Data Feed;job;special characters;hit_data;multi-valued variables;events_list;products_list;mvvars
 solution: Analytics
 subtopic: data feeds
-title: 特殊字元
+title: 資料饋送中的特殊字元
 topic: Reports and analytics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
 
-# 特殊字元
+# 資料饋送中的特殊字元
 
-資料摘要中所使用之特殊字元的相關資訊。
+Adobe使用逸出邏輯來確保傳送至資料收集伺服器的值不會損壞或產生負面資料饋送檔案。 Adobe保留下列字元的目的如下 `hit_data.tsv`:
 
-* [hit_data 檔案中的特殊字元](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_9759C7A6AE684EB5B4A154FB6A26B39E)
-* [多值變數 (events_list、products_list、mvvars) 中的特殊字元](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_056F8D540FFC4F24A001DC74331C2AAC)
-* [工作流程範例](/help/export/analytics-data-feed/c-df-contents/datafeeds-spec-chars.md#section_97F8C2925A35433DA2E7E8BE60037E37)
+## 任何欄中的特殊字元
 
-## hit_data 檔案中的特殊字元 {#section_9759C7A6AE684EB5B4A154FB6A26B39E}
+| 字元 | 說明 |
+|--- |--- |
+| `\t` | 代表標籤。 標籤列或資料欄位的結尾。 |
+| `\n` | 代表新行。 標籤列或點擊的結尾。 |
+| `\` | 反斜線. 當以資料收集的方式傳送時，逸出字元。 |
 
-下列字元在 hit_data 檔案中有特殊含義:
+當這些保留值前面有反斜線時，這些值會作為資料收集的一部分傳送。
 
-| 字元 | 含義 | 說明 |
-|--- |--- |--- |
-| \t (定位字元) | 欄的結尾 | 標示資料欄位的結尾。 |
-| \n (新行字元) | 行的結尾 | 標示資料行的結尾。 |
-| \  (反斜線字元) | 逸出字元 | 當資料收集期間傳送的值包含定位、新行和反斜線字元時，逸出這些字元。 |
+| 字元 | 說明 |
+|--- |--- |
+| `\\t` | 值'`\t`'是在資料收集期間傳送，由Adobe逸出。 |
+| `\\n` | 值'`\n`'是在資料收集期間傳送，由Adobe逸出。 |
+| `\\` | 值'`\`'是在資料收集期間傳送，由Adobe逸出。 |
 
-當任一特殊字元前面加上反斜線，即代表常值字元。
+例如，您網站的訪客使用內部搜尋並搜尋「search\nstring」。 您在eVar1中填入「search\nstring」，然後將該值傳送給Adobe。 Adobe會收到此點擊，並逸出字串中包含的新行。 原始資料中的實際值為「search\\nstring」。
 
-| 字元 | 含義 | 說明 |
-|--- |--- |--- |
-| \\t | 定位 | 常值定位字元。此字元是資料收集期間所傳送值的一部分。 |
-| \\n | 新行 | 常值新行。此字元是資料收集期間所傳送值的一部分。 |
-| \\ | 反斜線 | 常值反斜線字元。此字元是資料收集期間所傳送值的一部分。 |
+## 多值變數 (events_list、products_list、mvvars) 中的特殊字元
 
-## 多值變數 (events_list、products_list、mvvars) 中的特殊字元 {#section_056F8D540FFC4F24A001DC74331C2AAC}
+下列字元在可包含多個值的欄中具有特殊含義。
 
-下列字元在多值變數中有特殊含義:
+| 字元 | 說明 |
+|--- |--- |
+| `,` | 逗號. 代表個別值的結尾。 分隔產品字串、事件ID或其他值。 |
+| `;` | 分號。 表示中的單個值的結尾 `product_list`。 分隔單一產品字串中的欄位。 |
+| `=` | 等號。 Assigns a value to an event in `product_list`. |
+| `^` | 脫字符號. 當以資料收集的方式傳送時，逸出字元。 |
 
-<table id="table_FDA13DE05A784ED4972C2955BD2642C7"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 字元 </th> 
-   <th colname="col02" class="entry"> 含義 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <code> , </code> (逗號字元) </td> 
-   <td colname="col02"> 值的結尾 </td> 
-   <td colname="col2"> <p>分隔多值變數中的產品字串、事件 ID 或其他值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> ; </code> (分號字元) </td> 
-   <td colname="col02"> 個別產品值中子值的結尾 </td> 
-   <td colname="col2"> <p>分隔 <code> product_list </code> 中個別產品的相關值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <code> = </code> (等號字元) </td> 
-   <td colname="col02"> 值指派 </td> 
-   <td colname="col2"> <p>Assigns a value to an event in the <code> event_list </code>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+當這些保留值前面加上脫字元號時，這些值會作為資料收集的一部分傳送。
 
-當任一特殊字元前面加上脫字符號，即代表常值字元。
-
-| 字元 | 含義 | 說明 |
-|--- |--- |--- |
-| ^, | 逗號 | 常值逗號字元。此字元是資料收集期間所傳送值的一部分。 |
-| ^; | 分號 | 常值分號字元。此字元是資料收集期間所傳送值的一部分。 |
-| ^= | 等號 | 常值等號字元。此字元是資料收集期間所傳送值的一部分。 |
-| ^^ | 脫字符號 | 常值脫字符號字元。此字元是資料收集期間所傳送值的一部分。 |
-
-## 工作流程範例 {#section_97F8C2925A35433DA2E7E8BE60037E37}
-
-如果您的資料饋送中某些欄包含使用者提交的資料，在使用 `split`、`readLine` 或類似指令分離資料前，應先檢查是否有特殊字元。
-
-假設有下列資料:
-
-| 瀏覽器寬度 | 瀏覽器高度 | eVar1 | prop1 |
-|---|---|---|---|
-| 1680 | 1050 | search\nstring | en |
-| 800 | 600 | search\tstring | en |
-
-在匯出期間，eVar1 值中的新行和定位字元已逸出。這些行的資料饋送顯示如下:
-
-```
-1680\t1050\tsearch\\nstring\ten\n 
-800\t600\tsearch\\tstring\ten\n
-```
-
-Calling `readLine()` on the first row returns the following partial string:
-
-```
-800\t600\tsearch\
-```
-
-Calling `split("\t")` on the second row returns the following string array:
-
-```
-800 
-600 
-search\ 
-string 
-en
-```
-
-若要避免此狀況，請採用類似下列的解決方案:
-
-1. 從檔案的開頭開始讀取，直到發現定位、新行、反斜線或脫字符號字元。
-1. 根據所遇到的特殊字元，執行相關動作:
-
-   * 定位 - 將該點前面的字串插入至資料存放儲存格並繼續。
-   * 新行 - 結束資料存放行。
-   * 反斜線 - 讀取下一個字元、插入適當的字串常值，然後繼續。
-   * 脫字符號 - 讀取下一個字元、插入適當的字串常值，然後繼續。
-
+| 字元 | 說明 |
+|--- |--- |
+| `^,` | 值'`,`'是在資料收集期間傳送，由Adobe逸出。 |
+| `^;` | 值'`;`'是在資料收集期間傳送，由Adobe逸出。 |
+| `^=` | 值'`=`'是在資料收集期間傳送，由Adobe逸出。 |
+| `^^` | 值'`^`'是在資料收集期間傳送，由Adobe逸出。 |
