@@ -2,7 +2,7 @@
 description: 'null'
 title: Analytics 變數的資料隱私權標籤
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
 
 > [!NOTE]資料使用標籤和實行 (DULE) 架構的設計目的，是為了在所有 Adobe 解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此最初發行的版本中，Analytics 只會公開與資料隱私權相關的 DULE 標籤。隨著其他 Adobe 產品陸續實施 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
 
-## 身分資料標籤 (DULE) {#identity-data-labels}
+## 身分資料標籤 (DULE){#identity-data-labels}
 
 身分資料「I」標籤可用來分類可識別身分或聯絡特定人員的資料。
 
@@ -58,7 +58,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 敏感資料標籤 (DULE) {#sensitive-data-labels}
+## 敏感資料標籤 (DULE){#sensitive-data-labels}
 
 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。
 
@@ -200,7 +200,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間{#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 當您將變數標示為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。您可以使用先前定義的命名空間或定義新的命名空間。
 
@@ -288,7 +288,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 可以指派 ACC-ALL/ACC-PERSON 以外標籤的變數/已修改 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## 可以指派 ACC-ALL/ACC-PERSON 以外標籤的變數/已修改{#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -344,14 +344,14 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
    <td colname="col4"> <p>您不能移除 DEL 標籤，不過可以變更為 DEL-DEVICE、DEL-PERSON 或兩者。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>ClickMap 動作 (舊版)、 </p> <p>ClickMap 內容 (舊版)、 </p> <p>頁面、 </p> <p>頁面 URL, </p> <p>原始登入頁面 URL、 </p> <p>反向連結、 </p> <p>造訪開始頁面 URL </p> </td> 
+   <td colname="col2"> <p>ClickMap 動作 (舊版)、 </p> <p>ClickMap 內容 (舊版)、 </p> <p>頁面、 </p> <p>頁面 URL、 </p> <p>原始登入頁面 URL、 </p> <p>反向連結、 </p> <p>造訪開始頁面 URL </p> </td> 
    <td colname="col3"> <p>無 / I1 / I2 </p> <p>無 / DEL-DEVICE / DEL-PERSON </p> </td> 
    <td colname="col4"> <p>變數可包含 URL 參數，這些參數可能包含可直接識別或可間接識別的資料。如果您的實作未收集這些變數中可直接識別或可間接識別的資料，那麼這些資料不需要身分或刪除標籤。 </p> <p>請注意，刪除會清除 URL 參數，但會保留基礎 URL。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 刪除處理 {#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 刪除處理{#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報表的影響降至最低。在大多數情況下，報表中顯示的量度應該不會變更。在資料隱私權刪除前執行的歷史報表將會與刪除後執行的報表一致。為了達成此目的，可以完全解除已刪除資料與資料主體的關聯，同時保留無法識別身分的資料；如此一來，報表的值就能維持一致。
 
@@ -439,7 +439,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
  </tbody> 
 </table>
 
-## 存取請求的日期欄位 {#section_6678FB4FF42B481C9B78E64F61782397}
+## 存取請求的日期欄位{#section_6678FB4FF42B481C9B78E64F61782397}
 
 共有五個標準變數包含時間戳記:
 
