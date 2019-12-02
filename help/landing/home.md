@@ -2,7 +2,7 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 全新和精選項目 | 重要 Analytics 資源 |
 | --- | --- |
-| <ul><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱: [2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics教學課程與影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[現場培訓與虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/support/analytics.html)</li></ul> |
+| <ul><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢?](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱: [2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li> [Adobe Analytics Youtube頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics教學課程與影片](https://helpx.adobe.com/analytics/kt/index/analytics-videos.html)</li><li>[Analytics社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[現場培訓與虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[聯絡客戶服務](https://helpx.adobe.com/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -59,7 +59,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Cohort Analysis](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
 *   [Contribution Analysis](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
 *   [Data Connectors](https://www.adobeexchange.com/experiencecloud.html)
-*   [Data Feeds](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md)   
+*   [Data Feeds](/help/export/analytics-data-feed/data-feed-overview.md)   
 *   [Data Sources](/help/import/c-data-sources/datasrc-home.md)  
 *   [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)
 *   [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
