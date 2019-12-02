@@ -3,7 +3,7 @@ title: 資料保留政策
 description: 資料保留政策可決定Adobe儲存資料的時間。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
 
@@ -43,7 +43,7 @@ Adobe身為資料處理者，必須採取適當措施協助其客戶完成個人
 
 **我可以在資料刪除前索取資料複本嗎?**
 
-是。Adobe可以提供原始點擊層級資料的歷史資料轉儲。 如需詳 [細資訊，請參閱](/help/export/analytics-data-feed/c-getstarted/data-feed-overview.md) 「匯出使用指南」中的「資料饋送」。 如果您的資料匯出需求超出UI可提供的範圍，請連絡您組織的客戶經理。 酒店可提供特殊住宿；成本可能有所不同。
+是。Adobe可以提供原始點擊層級資料的歷史資料轉儲。 如需詳 [細資訊，請參閱](/help/export/analytics-data-feed/data-feed-overview.md) 「匯出使用指南」中的「資料饋送」。 如果您的資料匯出需求超出UI可提供的範圍，請連絡您組織的客戶經理。 酒店可提供特殊住宿；成本可能有所不同。
 
 **Adobe何時會刪除資料？**
 
