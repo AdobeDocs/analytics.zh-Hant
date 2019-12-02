@@ -2,7 +2,7 @@
 description: 'null'
 title: GDPR 術語
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -56,7 +56,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 **主要場所** - 在歐盟內針對資料處理進行主要決策的地點；就處理者而言
 
-**個人資料** -任何與自然人或「資料主體」相關的資訊，可用來直接或間接識別該人
+**個人資料** - 與自然人或「資料主體」相關的任何資訊，可用於直接或間接識別使用者的身分
 
 **個人資料缺口** - 導致個人資料遭意外或非法存取、銷毀、濫用等事件的安全性缺口
 
