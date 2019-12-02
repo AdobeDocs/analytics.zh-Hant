@@ -1,54 +1,54 @@
 ---
 source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
-translation-type: tm+mt
+translation-type: ht
 
 ---
-# Adobe Analytics中的產品描述檔
+# Adobe Analytics 的產品設定檔
 
-產品設定檔是一個權限預設集，可供產品管理員指派給組織內的使用者。如果您建立產品描述檔並指派Experience Cloud使用者至該產品描述檔，則會繼承產品描述檔中包含的權限項目。
+產品設定檔是產品管理員可指派給組織內使用者的權限預設集。如果您建立產品設定檔，並將將 Experience Cloud 使用者指派到該產品設定檔，對方會繼承產品設定檔中包含的權限項目。
 
-See [Manage products and profiles](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) in the Enterprise user guide for general information on product profiles.
+如需瞭解產品設定檔的一般資訊 ，請參閱企業使用者指南中的[管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)。
 
 ## 產品設定檔管理員
 
-產品設定檔管理員是可選群組，可新增或移除使用者至該產品描述檔。請注意，產品設定檔管理員與產品管理員不同：
+產品設定檔管理員是一個選用群組，可對該產品設定檔新增或移除使用者。請注意，產品設定檔管理員與產品管理員並不相同:
 
-* 產品設定檔管理員僅負責產品設定檔的使用者清單。
-* 產品設定檔管理員無法完整存取Adobe Analytics。Adobe Analytics的完整存取權僅適用於產品管理員。
-* 產品設定檔管理員無法調整其產品設定檔中的權限項目；產品管理員必須進行權限項目調整。
-* 產品設定檔管理員最適合需要為團隊授與Adobe Analytics存取權的團隊潛在客戶或經理人。個人不需要健全的系統管理員或產品管理員來授與Adobe Analytics的存取權。
+* 產品設定檔管理員只負責管理產品設定檔的使用者清單。
+* 產品設定檔管理員無法完整存取 Adobe Analytics。Adobe Analytics 的完整存取權會保留給產品管理員。
+* 產品設定檔管理員無法調整產品設定檔中的權限項目，產品管理員則必須執行權限項目的調整工作。
+* 產品設定檔管理員是理想的團隊主管或管理人，只需要授予及管理團隊的 Adobe Analytics 存取權，且不需經由系統管理員或產品管理員即可執行這項操作。
 
-## Adobe Analytics權限項目
+## Adobe Analytics 權限項目
 
-存取Adobe Analytics的產品設定檔中所需的權限上限如下：
+產品設定檔要存取 Adobe Analytics 所需的最低權限如下:
 
-* 產品描述檔必須至少存取一個報表套裝
-* The product profile must belong to the Analytics Tools permission item **Analysis Workspace Access** (or **Reports &amp; Analytics Access**)
+* 產品設定檔必須至少擁有一個報表套裝的存取權-
+* 產品設定檔必須屬於 Analytics 工具權限項目&#x200B;**「Analysis Workspace 存取」**(或&#x200B;**「Reports &amp; Analytics 存取」**)
 
 ### 報表套裝
 
-授予屬於您Analytics組織之報告套裝的存取權。使用者必須屬於至少一個報表套裝，才能獲得使用Adobe Analytics的存取權。
+授予 Analytics 組織中報表套裝的存取權。使用者必須至少屬於一個報表套裝，才能獲得使用 Adobe Analytics 的存取權。
 
 ### 量度
 
-授予報表套裝中度量的存取權。度量會在分析工作區中列為其各自的元件，也會在「報告與分析」中提供，作為「網站度量」下的功能表項目。
+授予報表套裝中量度的存取權。量度會在 Analysis Workspace 中各自列為元件；如果量度可在「Reports &amp; Analytics」中使用，則會列為「網站量度」下的功能表項目。
 
-自訂度量會標示為「自訂事件1-1000」，使它們獨立於報表套裝。如果「自訂事件1」是已啓用的權限項目，則該使用者可在產品設定檔中的所有報表套裝中存取event1。
+自訂量度會以編號 1 到 1000 標記為「自訂事件」，以便在報表套裝中各自獨立。如果「自訂事件 1」是啟用的權限項目，則該使用者可存取產品設定檔中所有報表套裝的 event1。
 
 ### 維度
 
-授予報表套裝維度的存取權。維度會在分析工作區中列為其各自的元件，或如果維度可用於「報告與分析」，則可作為功能表項目。
+授予報表套裝中維度的存取權。維度會在 Analysis Workspace 中各自列為元件；如果維度可在「Reports &amp; Analytics」中使用，則會列為「網站維度」下的功能表項目。
 
-自訂變數(例如eVar)會標示為「自訂轉換1-250」，使它們獨立於報表套裝。如果「自訂轉換1」是已啓用的權限項目，則該使用者可在產品設定檔中的所有報表套裝中存取eVar1。
+自訂維度 (例如 eVar) 會以編號 1 到 250 標記為「自訂轉換」，以便在報表套裝中各自獨立。如果「自訂轉換 1」是啟用的權限項目，則該使用者可存取產品設定檔中所有報表套裝的 eVar1。
 
 ### 報表套裝工具
 
-報表套裝工具權限項目授予存取使用者有權存取之報告套裝的功能。See [Report Suite Tools](report-suite-tools.md) for a full list of permission items and descriptions.
+報表套裝工具權限項目所授予的權限是使用者在報表套裝中有權存取的特定功能。如需權限項目完整清單和說明，請參閱[報表套裝工具](report-suite-tools.md)。
 
 ### Analytics 工具
 
-Analytics工具權限項目授予存取獨立於報表套裝設定的功能。See [Analytics Tools](analytics-tools.md) for a full list of permission items and descriptions.
+Analytics 工具權限項目所授予的權限是不受報表套裝設定影響的功能。如需權限項目完整清單和說明，請參閱 [Analytics 工具](analytics-tools.md)。
 
 ## 產品設定檔開發人員
 
-Developers are similar to users, except they are granted the ability to use the Experience Cloud API on Adobe I/O. See [Manage Developers](https://helpx.adobe.com/enterprise/using/manage-developers.html) in the Enterprise user guide for more information.
+開發人員與使用者類似，但是他們可以在 Adobe I/O 上使用 Experience Cloud API。如需詳細資訊，請參閱企業版使用手冊中的[管理開發人員](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。
