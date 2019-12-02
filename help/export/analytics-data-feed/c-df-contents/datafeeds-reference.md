@@ -7,7 +7,7 @@ title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 使用此頁可以瞭解每列包含哪些資料。 大部分實作不會使用每一欄，因此在決定要包含在資料饋送匯出中的欄時，可參考此頁面。
 
-> [!IMPORTANT] 對於任何指定的欄（例如，定義為255個字元的欄），資料饋送會因為在字串中加入字元逸出值，而傳送其他字元。 如果您的實作會定期傳送超過字元限制的值，請記住此主題。
+> [!IMPORTANT] 對於任何指定的欄（例如，定義為255個字元的欄），資料饋送會因為在字串中加入字元逸出值，而傳送其他字元。 如果您的實作會定期傳送超過字元限制的值，請記住這些可能的額外字元。
 
 ## 欄、說明和資料類型
 
-> [!NOTE] 大部分欄都包含一個前置詞為的類似欄 `post_`。 後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。
+> [!NOTE] 大部分欄都包含一個前置詞為的類似欄 `post_`。 後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳 [細資訊，請參閱資料饋送常見問答](../df-faq.md) 。
 
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
@@ -327,14 +327,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * mobilemessageid<span>.</span>名稱
 * mobilemessageid<span>.</span>type
 * mobilemessageimpressions
-* mobilemessagepushpayloadid<span><span>。</span></span>名稱
+* mobilemessagepushpayloadid<span><span>。</span></span>name
 * mobilemessageviews
 * mobilemonthlyengitedusers
 * mobileplacedwelltime
 * mobileplaceentry
 * mobileplaceexit
 * mobileprevsessionlength
-* mobilerelaunchcampaigntrackingcode<span><span>。</span></span>名稱
+* mobilerelaunchcampaigntrackingcode<span><span>。</span></span>name
 * mobileupgrades
 * socialaveragesentiment
 * socialaveragesentiment（已過時）
