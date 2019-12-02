@@ -1,58 +1,33 @@
 ---
 product: analytics
-audience: 終端使用者
-user-guide-title: Analytics 匯出指南
-user-guide-url: /content/help/zh-Hant/analytics/export/home.html
-translation-type: ht
-source-git-commit: f008d05f686bd6c357c0dc422b5976aaea53f0d0
+audience: end-user
+user-guide-title: Analytics Export Guide
+user-guide-url: /content/help/en/analytics/export/home.html
+translation-type: tm+mt
+source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
 
 
 # Analytics 匯出指南 {#export}
 
-+ [Analytics 匯出說明](home.md)
++ [Analytics匯出首頁](home.md)
 + Analytics 資料摘要 {#analytics-data-feed}
-   + 快速入門 {#get-started}
-      + [Analytics 資料摘要概觀](analytics-data-feed/c-getstarted/data-feed-overview.md)
-      + [術語](analytics-data-feed/c-getstarted/datafeeds-terminology.md)
-      + [最佳作法和一般資訊](analytics-data-feed/c-getstarted/data-feeds-best-practices.md)
-   + 資料摘要介面 {#data-feed-ui}
-      + [開啟資料摘要介面](analytics-data-feed/c-data-feed-ui/t-open-data-feed.md)
-      + [排序欄](analytics-data-feed/c-data-feed-ui/t-feed-columns-sort.md)
-      + [搜尋和篩選](analytics-data-feed/c-data-feed-ui/t-feed-search-and-filter.md)
-      + [資料摘要狀態](analytics-data-feed/c-data-feed-ui/r-datafeed-status.md)
-   + 資料摘要動作 {#data-feed-actions}
-      + [資料摘要面板](analytics-data-feed/c-data-feed-actions/data-feed-actions.md)
-      + [新增摘要](analytics-data-feed/c-data-feed-actions/t-feed-add.md)
-      + [摘要資訊](analytics-data-feed/c-data-feed-actions/r-feed-information.md)
-      + [摘要目的地](analytics-data-feed/c-data-feed-actions/r-feed-destination.md)
-      + [檢視摘要的工作記錄](analytics-data-feed/c-data-feed-actions/t-feed-job-history.md)
-      + [刪除摘要](analytics-data-feed/c-data-feed-actions/t-feed-delete.md)
-      + [暫停摘要](analytics-data-feed/c-data-feed-actions/t-feed-pause.md)
-      + [啟動摘要](analytics-data-feed/c-data-feed-actions/t-feed-activate.md)
-      + [編輯摘要](analytics-data-feed/c-data-feed-actions/t-feed-edit.md)
-   + 資料摘要工作 {#data-feed-jobs}
-      + [資料摘要工作 - 概觀](analytics-data-feed/c-df-jobs/feed-jobs-processing.md)
-      + [篩選工作清單](analytics-data-feed/c-df-jobs/t-jobs-filter.md)
-      + [工作設定](analytics-data-feed/c-df-jobs/r-jobs-settings.md)
-      + [工作狀態](analytics-data-feed/c-df-jobs/r-job-status.md)
-      + [重新執行工作](analytics-data-feed/c-df-jobs/t-job-rerun.md)
+   + [資料饋送概觀](analytics-data-feed/data-feed-overview.md)
+   + [建立或編輯資料饋送](analytics-data-feed/create-feed.md)
+   + [管理資料饋送](analytics-data-feed/df-manage-feeds.md)
+   + [管理資料饋送工作](analytics-data-feed/df-manage-jobs.md)
    + 資料摘要內容 {#data-feed-contents}
-      + [資料摘要內容 - 概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [資料饋送內容概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
-      + [識別訪客](analytics-data-feed/c-df-contents/datafeeds-visid.md)
-      + [資料欄定義](analytics-data-feed/c-df-contents/r-data-column-definitions.md)
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [頁面事件查閱](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [點擊來源查閱](analytics-data-feed/c-df-contents/datafeeds-hit-source.md)
-      + [前置欄和後置欄](analytics-data-feed/c-df-contents/datafeeds-column-types.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-      + [工作常見問題集](analytics-data-feed/c-df-contents/jobs-faq.md)
-   + [資料摘要的疑難排解](analytics-data-feed/feed-troubleshooting.md)
+   + [資料饋送常見問答集](analytics-data-feed/df-faq.md)
+   + [資料饋送最佳實務](analytics-data-feed/data-feeds-best-practices.md)
+   + [疑難排解資料饋送](analytics-data-feed/feed-troubleshooting.md)
    + [工作的疑難排解](analytics-data-feed/jobs-troubleshooting.md)
-   + [資料摘要發行說明](analytics-data-feed/datafeeds-history.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)
