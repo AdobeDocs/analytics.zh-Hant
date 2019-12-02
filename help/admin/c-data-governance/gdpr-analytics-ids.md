@@ -2,7 +2,7 @@
 description: 'null'
 title: 標籤最佳作法
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 * 部分 ID 可能對應到多個人，而您不希望不小心將同個 ID 的其他使用者的資訊傳回。例如: 即使您確認某人的姓名就是約翰史密斯，但您並不打算將系統中姓名同為約翰史密斯的所有使用者資料一併傳回。
 * 另一個例子是裝置 ID 如: Analytics Cookie ID。手機應用程式中產生 ID 時，您也許會將使用該 ID 進行的所有互動判斷為來自這支手機的擁有者。但如果是發生在共用裝置 (如家用電腦、圖書館或網咖的電腦) 時，您可能就無法區分該裝置的使用者，而傳回不同使用者資料的風險太大，因此您不能允許使用這類 ID。
 
-## 適用於 Analytics 支援 ID 的最佳實務 {#section_B6481505FF1949498D4B4B35B780D050}
+## 適用於 Analytics 支援 ID 的最佳實務{#section_B6481505FF1949498D4B4B35B780D050}
 
 請使用下表來判斷將資料隱私權請求提交給 Analytics 時，要使用的 ID 類型。瞭解此資訊能讓您輕鬆地判斷變數應使用的其他標籤。
 
@@ -43,14 +43,14 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
   <tr> 
    <td colname="col1"> <p>Cookie ID </p> 
     <ul id="ul_CB43CEA3054E490585CBF3AB46F95B5B"> 
-     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/cookies_analytics.html"> (舊版) Analytics Cookie </a> </li> 
-     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/"> 身分識別服務 Cookie</a> (ECID) 原稱為 Marketing Cloud ID (MCID) </li> 
+     <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://marketing.adobe.com/resources/help/zh_TW/whitepapers/cookies/cookies_analytics.html"> (舊版) Analytics Cookie </a> </li> 
+     <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://marketing.adobe.com/resources/help/zh_TW/mcvid/"> 身分識別服務 Cookie</a> (ECID) 原稱為 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
    <td colname="col2"> <p>這些 Cookie 可用來識別裝置，更具體的說法是裝置使用者所用的瀏覽器；而共用裝置一般會採用通用登入帳號，因此 ID 可能適用於裝置的任何/所有使用者。如果您想要讓這些 ID 用於資料隱私權請求，Adobe 已建立一些<a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">統一的 JavaScript</a>，可讓您放置於網站中以收集 Cookie。 </p> <p>Adobe Analytics Mobile SDK 也有 Experience Cloud ID (ECID)，SDK 中的 API 呼叫可讀取此 ID，因此您可增強應用程式以收集用於資料隱私權請求的 ID。 </p> <p>許多公司會將瀏覽器 Cookie ID 視為共用裝置 ID，在與內部法務部門人員諮詢過後，可能選擇不支援將這些 ID 用於資料隱私權請求；或者也可選擇在使用這些 ID 時僅傳回非常有限的資料量，或者僅接受這些資料用於刪除請求 </p> <p>這些 Cookie 具有無法變更的 ID-DEVICE 標籤 (以及 I2 和 DEL-DEVICE 標籤)。預設的 Adobe Analytics 設定將僅傳回裝置的類型、作業系統、瀏覽器等一般資料，以及裝置使用這些 ID 造訪網站的時間/日期。不過，如果您選擇支援這些 ID 用於資料隱私權請求，則可按照下文所述以新增或移除 ACC-ALL 標籤，並設定您想傳回用於資料隱私權存取請求的確切欄位組合。 </p> <p>特別是在報表套裝已對應到行動應用程式，且您的行動應用程式要求登入的情況下，您可決定讓裝置的 Experience Cloud ID 對應到特定使用者，然後您可能會想透過 ACC-ALL 標籤標記更多欄位，包括使用者造訪的頁面名稱、瀏覽過的產品等等。 </p> <p>注意: 如果您在資料隱私權請求中指定「expandIds」選項，則除了您指定的其他任何 ID 之外，請求將一律包含 Cookie ID。如需更多詳細資料，請參閱 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 擴增</a>。在這些例項中，只有一個 Cookie ID (沒有其他 ID) 的點擊只會在存取請求中傳回標籤為 ACC-ALL 的資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂變數中的 ID </p> </td> 
-   <td colname="col2"> <p>部分客戶會將 ID 放置於<a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/props_eVars.html">自訂流量變數 (prop) 或自訂轉換變數 (eVar)</a> 中；最常用的是 CRM ID，其他 ID 則包含: 電子郵件地址、使用者登入名稱、客戶忠誠度編號或這些值的雜湊。 </p> 
+   <td colname="col2"> <p>部分客戶會將 ID 放置於<a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/props_eVars.html">自訂流量變數 (prop) 或自訂轉換變數 (eVar)</a> 中；最常用的是 CRM ID，其他 ID 則包含: 電子郵件地址、使用者登入名稱、客戶忠誠度編號或這些值的雜湊。 </p> 
     <ul id="ul_0B9492CF786046BB97E31CCF83A85FEA"> 
      <li id="li_D35B61CC6A8B485A8E09358A46D3F598">如果您想將上述任一 ID 用於資料隱私權請求，則您應該對包含該 ID 的欄位提供 ID-PERSON 標籤。 </li> 
      <li id="li_94541340B054436297C5565F074413DC">(非常少見) 如果其中一個自訂變數的 ID 僅能識別多人共用的裝置，則您可改為包含 ID-DEVICE 標籤。 </li> 
@@ -66,7 +66,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 設定刪除標籤的最佳實務 {#section_08166C99B48E49218392FAC18922C10E}
 
-> [!NOTE]屬性一律不區分大小寫，而 eVar 雖然預設為不區分，但您可聯絡 Adobe 客戶服務中心將其設為區分大小寫。如果具有 ID 的 eVar 區分大小寫，則您在提交資料隱私權請求時有責任使用正確的大小寫，如此請求中所用的大小寫與點擊包含之 ID 的大小寫才會相符。
+> [!NOTE]prop 一律不區分大小寫，而 eVar 雖然預設為不區分，但您可聯絡 Adobe 客戶服務中心將其設為區分大小寫。如果具有 ID 的 eVar 區分大小寫，則您在提交資料隱私權請求時有責任使用正確的大小寫，如此請求中所用的大小寫與點擊包含之 ID 的大小寫才會相符。
 
 請謹慎使用刪除標籤 DEL-DEVICE 和 DEL-PERSON。如果套用到的變數中沒有用於資料隱私權請求的 ID，則歷史 Analytics 報表中的計數 (量度) 幾乎一律都會變更。
 
