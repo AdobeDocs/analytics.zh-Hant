@@ -3,7 +3,7 @@ title: Adobe Analytics 文件更新
 description: Adobe Analytics 技術文件更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 811a5d8c8a79d6522173aa1ef77ea9a0af9f8c80
+source-git-commit: a785aa20800e189503b6bc0010cbd87cba7333e0
 
 ---
 
@@ -20,6 +20,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
+| 2019 年 11 月 25 日 | 關於強制 [IP登入限制生命週期結束的新主題](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html) |
+| 2019 年 11 月 25 日 | 內部(工作階 [段重新整理)行銷渠道的新主題](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html) |
 | 2019 年 11 月 21 日 | 客戶歷程分析的 [新檔案集](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) |
 | 2019 年 9 月 28 日 | 有關Javascript實作 [組態變數的新文章](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html) |
 | 2019 年 9 月 12 日 | Journey IQ的新 [檔案：跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) |
