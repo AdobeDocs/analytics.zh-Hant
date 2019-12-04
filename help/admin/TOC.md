@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
+source-git-commit: b7ef2f8b097540799a19c3964dfc64d59babd4a6
 
 ---
 
@@ -19,9 +19,9 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 + 管理工具 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
-   + 移除 Bot {#bot-removal}
-      + [移除 Bot](admin/bot-removal/bot-removal.md)
-      + [Bot 規則概觀](admin/bot-removal/bot-rules.md)
+   + 移除機器人 {#bot-removal}
+      + [移除機器人](admin/bot-removal/bot-removal.md)
+      + [機器人規則概觀](admin/bot-removal/bot-rules.md)
    + [代碼管理器](admin/code-manager-admin.md)
    + 轉換變數 {#conversion-variables}
       + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
@@ -60,7 +60,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
          + [檢視處理規則歷史記錄](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
          + [還原處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
          + [複製處理規則至其他報表套裝](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-      + [適用於處理規則的維度](admin/c-processing-rules/processing-rule-dimensions.md)
+      + [可用於處理規則的維度](admin/c-processing-rules/processing-rule-dimensions.md)
       + 處理規則範例 {#processing-rules-examples}
          + [處理規則的範例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
          + [從查詢字串參數填入促銷活動 ID](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
@@ -80,6 +80,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [排程報表佇列](admin/scheduled-reports-admin.md)
    + 伺服器端轉送功能 {#server-side-forwarding}
       + [伺服器端轉送概觀](admin/c-server-side-forwarding/ssf.md)
+      + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [伺服器端轉送需求](admin/c-server-side-forwarding/ssf-requirements.md)
       + [伺服器端轉送資料和程式碼參考](admin/c-server-side-forwarding/ssf-reference.md)
       + [如何確認您的伺服器端轉送實作情形](admin/c-server-side-forwarding/ssf-verify.md)
@@ -119,7 +120,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [安全管理員](company/security-manager.md)
    + [「強制IP登入限制」的生命週期結束](company/login-restrictions-eol.md)
 + 管理報表套裝 {#manage-report-suites}
-   + [報表套裝管理員](c-manage-report-suites/report-suites-admin.md)
+   + [報表套裝管理器](c-manage-report-suites/report-suites-admin.md)
    + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
    + [建立統計報表套裝](c-manage-report-suites/t-rollups.md)
    + 報表套裝範本 {#report-suite-templates}
@@ -133,7 +134,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
       + [銷售機會開發](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
       + [支援媒體](c-manage-report-suites/c-report-suite-templates/support-media.md)
    + [儲存報表套裝搜尋](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [特定報表套裝的設定值](c-manage-report-suites/individual-rs-settings.md)
+   + [個別報表套裝的設定值](c-manage-report-suites/individual-rs-settings.md)
    + [下載報表套裝設定值](c-manage-report-suites/t-download-rs-settings.md)
    + 新的報表套裝 {#new-report-suite}
       + [建立報表套裝](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -168,7 +169,7 @@ source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
    + [檢視/管理報表套裝資料控管設定](c-data-governance/gdpr-view-settings.md)
    + [標籤報表套裝資料](c-data-governance/gdpr-setup-reportsuite.md)
    + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics變數的資料隱私權標籤](c-data-governance/gdpr-labels.md)
+   + [Analytics 變數的資料隱私權標籤](c-data-governance/gdpr-labels.md)
    + [命名空間](c-data-governance/gdpr-namespaces.md)
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [標籤最佳作法](c-data-governance/gdpr-analytics-ids.md)
