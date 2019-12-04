@@ -2,7 +2,7 @@
 title: Cross-Device Analytics
 description: 跨裝置分析將裝置資料結合在一起，將您的資料從以裝置為中心變更為以人為中心。
 translation-type: tm+mt
-source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
+source-git-commit: c358df811f23a57441e6f9410c957e34954de712
 
 ---
 
@@ -49,10 +49,12 @@ source-git-commit: a2c38c2cf3a2c1451e2c60e003ebe1fa9bfd145d
 * 無法如上述先決條件所述跨報表套裝進行拼接。
 * Adobe Analytics報表套裝無法對應至多個IMS組織。 由於CDA可在指定的報表套裝中連接裝置，因此CDA無法用於將資料接合在多個IMS組織中。
 * CDA目前與「客戶屬性」不相容。 「客戶屬性」不能用來建立CDA虛擬報表套裝、跨裝置區段，或用來建立以CDA虛擬報表套裝為基礎的「分析」工作區專案內的報表。
-* CDA需要「合作圖」或「私人圖」。 不支援協力廠商裝置圖形。
+   > [!TIP] 雖然CDA中無法使用客戶屬性，但這兩項功能都依賴於功 `setCustomerIDs` 能。 這兩個功能可在個別（虛擬）報表套裝中保持一致。
+* CDA需要「合作圖」或「私用圖」。 不支援協力廠商裝置圖形。
 * 不支援舊版Analytics ID。 只有具有Experience Cloud ID的訪客會被縫紉。
 * 客戶服務尚未完全支援此功能。 跨 [裝置分析論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview) ，可用來支援這項功能，包括Adobe產品經理主動且直接參與。
 * 跨裝置分析使用虛擬報表套裝和報表時間處理，有其自己的限制。 如需 [這些限制的詳細資訊](../vrs/vrs-about.md) ，請參 [](../vrs/vrs-report-time-processing.md) 閱虛擬報表套裝和報表時間處理。
+* 不支援1.4 API。 Power BI連接器和Report builder都仰賴1.4 API，因此與CDA不相容。
 * 造訪您網站的新裝置最多需要兩週時間，才能由「合作圖」或「私人圖」處理。 CDA中最近兩週的拼接程度通常低於兩週以前的日期範圍。 Adobe計畫改善Adobe Experience Platform Identity Service，在未來即時連接新裝置。
 * 虛擬報表套裝中的歷史資料會根據Adobe識別和連結裝置而改變。 來源報表套裝中的資料不會變更。
 
