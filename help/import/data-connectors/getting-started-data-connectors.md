@@ -80,14 +80,14 @@ Adobe Analytics會透過資料倉庫將這些資料以個別的每日檔案傳�
 > [!NOTE] 如果定義產品時沒有關聯事件，則會自動觸發prodView事件。
 如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
-[!UICONTROL 放棄購買]: 當使用者新增產品至購物車時會啟動:
+[!UICONTROL]放棄購買: 當使用者新增產品至購物車時會啟動:
 
 ```
 s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL 購買]: 在購買確認頁面上啟動:
+[!UICONTROL]購買: 在購買確認頁面上啟動:
 
 ```
 s.products=";
