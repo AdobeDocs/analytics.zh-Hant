@@ -3,7 +3,7 @@ description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
 
@@ -64,9 +64,9 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
       > [!TIP] 在此步驟中，建議您簡化使用者清單，確保 Enterprise 或 Federated ID 移轉作業中加入的都是具有有效電子郵件 ID 的使用者。
 
-1. 在 Admin Console 中，下載 Admin Console 使用者清單:
+1. In the [!UICONTROL Admin Console], download a list of Admin Console users:
 
-   1. 前往[「Admin Console](http://adminconsole.adobe.html/#) &gt; **[!UICONTROL 使用者」]**，然後按一下[「將使用者清單匯出為 CSV」](https://helpx.adobe.com/enterprise/using/users.html)。
+   1. 前往[!UICONTROL 「Admin Console] &gt; **[!UICONTROL 使用者」]**，然後按一下[「將使用者清單匯出為 CSV」](https://helpx.adobe.com/enterprise/using/users.html)。
 
       ![](assets/export-csv.png)
 
@@ -119,7 +119,7 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
   </tr> 
   <tr> 
    <td colname="col1"> <p>網域 </p> </td> 
-   <td colname="col2"> <p>確認<span class="term">「網域」</span>和<span class="term">「電子郵件」</span>欄中的網域符合在<a href="/help/admin/user-management2/user-migration/c-migration-tool/migrate-enterprise.md#prereqs"  >「先決條件」</a>中建立的網域。 </p> </td> 
+   <td colname="col2"> <p>確認<span class="term">「網域」</span>和<span class="term">「電子郵件」</span>欄中的網域符合在「先決條件」</a>中建立的網域。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>國家/地區代碼 </p> </td> 
@@ -130,16 +130,16 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/enterprise/using/users.html)。
 
-> [!NOTE] 其他欄 (例如 *`Product Configurations`* 和 *`Admin Roles`*) 可以空白。
+> [!NOTE] 其他欄(例如「產 [!UICONTROL 品設定] 」 [!UICONTROL 和「管理員角色] 」)可以是空白。
 
 1. 在 Admin Console 的「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**&#x200B;上傳範本檔案 (如步驟 3 所示)。
-1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/user-management2/user-migration/c-migration-tool/t-migrate-users.md)所述)。
+1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/user-management2/user-migration/t-migrate-users.md)所述)。
 1. 按一下&#x200B;**[!UICONTROL 「移轉]** &gt; **[!UICONTROL 以 Enterprise ID 移轉」]**。
 
    ![步驟資訊](assets/migrate-as-enterprise.png)
 
    在您按下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者就會在 Admin Console 中與 Enterprise ID/Federated ID 帳戶連結。Analytics 的舊版使用者帳戶權限會符合&#x200B;**[!UICONTROL 「Admin Console]** &gt; **[!UICONTROL Analytics]** &gt; **[!UICONTROL 產品描述檔」]**&#x200B;中授予 Enterprise/Federated ID 登入的權限。使用者 ID 會顯示在「完成移轉程序」區塊中。您可以停用其舊版 [!DNL my.omniture.com] 存取權。
 
-   移轉使用者後，「移轉狀態」欄下方的狀態會從 *`Not Initiated`* 變更為 *`Migrated`*。
+   After migrating users, the status under the Migration Status column changes from **[!UICONTROL Not Initiated]** to **[!UICONTROL Migrated]**.
 
    移轉工具中顯示的 Adobe ID 使用者也可透過此程序移轉。切換身分之前，使用者仍需使用其 Adobe ID 登入。如需身分切換的相關說明，請聯絡 Adobe 客戶服務。
