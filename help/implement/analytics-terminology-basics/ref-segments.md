@@ -6,7 +6,7 @@ title: 區段
 topic: Developer and implementation
 uuid: 090a3aa1-2625-4bfe-8221-e24d0621040a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: e6f6cf0caf6188d5bf3a60830f45b1f73500ae4c
 
 ---
 
@@ -19,8 +19,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 點擊
 * 訪客
-* 造訪
+* 瀏覽
 
-如需使用區段進行跨裝置訪客身分識別的相關資訊，請參閱[建立區段](/help/implement/js-implementation/xdevice-visid/segments.md).
-
-如需 Adobe 分析區段的詳細資訊，請參閱[區段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。
+請參 [閱「元件](/help/components/c-segmentation/seg-home.md) 」使用指南中的「Analytics區段」。
