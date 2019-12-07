@@ -1,12 +1,11 @@
 ---
 description: 書籤可讓您存取自己最常用的報告。您建立的書籤會新增到 Experience Cloud，並可在 Data Connectors 之類的整合式功能中使用。
-solution: Analytics
 subtopic: Bookmarks
 title: 書籤管理器
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,10 +26,11 @@ t_bookmarks_creating.xml
 
 1. Run a report, then click **[!UICONTROL Bookmark.]**.
 
-       |名稱|此書籤的用戶友好名稱。|
-       |—|—|     |新增至|指定要放置書籤的資料夾。|
-       |設為公用|讓具有報表套裝存取權的使用者可使用此書籤。|
-       |登入時顯示報表|登入時顯示報表。|
+       |名稱|此書籤的用戶友好名稱。
+    |
+ |—|—|     |新增至|指定要放置書籤的資料夾。
+|     |設為公用|讓具有報表套裝存取權的使用者可使用此書籤。
+|     |登入時顯示報表|登入時顯示報表。|
    
 ## 管理書籤 {#task_1EE793CB52EA467787817BBD98DEF150}
 
