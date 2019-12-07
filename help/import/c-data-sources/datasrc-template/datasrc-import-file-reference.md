@@ -1,12 +1,11 @@
 ---
 description: 關於資料來源 .txt 範本的資訊。
-solution: Analytics
 subtopic: Data sources
 title: 匯入檔案參考
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
