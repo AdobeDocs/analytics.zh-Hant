@@ -1,11 +1,10 @@
 ---
 description: 您可設定傳遞排程以自訂傳送報表至電子郵件地址或 FTP 伺服器。
 keywords: ftp;sftp
-solution: Analytics
 title: Ad Hoc Analysis 傳遞的報表
 uuid: 9a26fb77-9cec-40a3-b994-226692637902
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
