@@ -1,11 +1,10 @@
 ---
 description: 當錯誤發生時，「工作狀態」欄會報告錯誤相關資訊。
 keywords: Data Feed;job;troubleshooting;error;ftp;chdir;connect;login;put
-solution: Analytics
 title: 工作的疑難排解
 uuid: 8fbb914e-03db-434e-b4d3-8594144ff2b7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
