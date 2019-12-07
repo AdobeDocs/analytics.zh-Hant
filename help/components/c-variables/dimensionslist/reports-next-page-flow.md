@@ -1,11 +1,10 @@
 ---
 description: 顯示路徑檢視，或路徑限制中一個頁面被檢視的次數和百分比。例如，「隱私政策」頁面的總計頁面檢視次數可能為 10000 次，但只有 500 次是在進入「首頁」前直接檢視的。在這種情形下，您會看到 500 個路徑檢視。您可以在瀏覽或訪客層級檢視報告。頁面名稱旁邊顯示各頁面的百分比。連接至頁面的線寬表示相對的瀏覽百分比。
-solution: Analytics
 title: 下一頁流量
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 按一下「<span class="uicontrol">圖形</span>」，可檢視您的訪客在選定頁面之後所檢視之人氣最高頁面的兩個層級。該報告還會反白標示訪客退出網站的時間。 </p> <p>按一下「<b>表格</b>」，可在類似於 <a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > 下一頁報告</a>. 但是，它也可以讓您深入鑽研每個<i>下一頁</i>，以檢視每個兩頁流程的下一頁。 </p> <p>Reports &amp; Analytics 使用路徑檢視。 </p> </td> 
+   <td colname="col2"> <p> 按一下「<span class="uicontrol">圖形</span>」，可檢視您的訪客在選定頁面之後所檢視之人氣最高頁面的兩個層級。該報告還會反白標示訪客退出網站的時間。 </p> <p>按一下「<b>表格</b>」，可在類似於<a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > 下一頁報告</a>.但是，它也可以讓您深入鑽研每個<i>下一頁</i>，以檢視每個兩頁流程的下一頁。 </p> <p>Reports &amp; Analytics 使用路徑檢視。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
