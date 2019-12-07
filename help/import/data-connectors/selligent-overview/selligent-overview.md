@@ -1,10 +1,9 @@
 ---
 description: 'null'
-solution: Analytics
 title: Adobe Analytics的Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -40,7 +39,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 先決條件 | 附註 |
 |---|---|
-| 選擇報表套裝 | 請注意，此整合是報表套裝專用的。 在啟動整合之前，請確定您已選取所需的報表套裝。 |
+| 選取報表套裝 | 請注意，此整合是報表套裝專用的。 在啟動整合之前，請確定您已選取所需的報表套裝。 |
 | 設定Analytics變數 | 此整合需要自訂事件和自訂eVar，以及選擇性的其他事件和其他eVar。 請參閱設定Analytics變數以供Selligent使用。 |
 | 授權代表 | 請注意，啟用此項整合可能會使貴公司根據您與Adobe, Inc.的服務合約或您與Adobe信任的合作夥伴之一（視情況而定）的服務合約產生費用。 啟動此整合後，您即表示您是您公司的授權代表；因此，貴公司同意支付上述服務協定所載之費用（如有）。 |
 | 啟用Adobe Data Warehouse™ | 此整合需要啟用「資料倉庫」才能產生再行銷區段。 如果您尚未啟用Adobe資料倉庫，請聯絡Adobe以取得詳細資訊。 |
