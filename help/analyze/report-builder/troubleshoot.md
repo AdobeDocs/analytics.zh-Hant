@@ -1,11 +1,10 @@
 ---
 description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
-solution: Analytics
 title: Report Builder 的疑難排解和最佳作法
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
