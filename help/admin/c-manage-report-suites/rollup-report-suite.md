@@ -1,11 +1,10 @@
 ---
 description: 統計報表套裝從多個子報表套裝中收集資料，然後將它們顯示在簡化的資料集合中。
-solution: Analytics
 title: 統計和全域報表套裝
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
