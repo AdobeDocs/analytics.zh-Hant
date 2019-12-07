@@ -1,12 +1,11 @@
 ---
 description: 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
 keywords: Analytics Implementation
-solution: Analytics
 title: 歸屬分配和持續性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: 3e2f0bccbe7183ea75b12b1ef2b5afdd87837629
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
