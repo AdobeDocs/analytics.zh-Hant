@@ -1,13 +1,12 @@
 ---
 description: 本節包含核心 JavaScript 檔案與網站頁面的範例程式碼。
 keywords: Analytics Implementation;appmeasurement.js code;example page code
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 範例頁面程式碼和全域設定
 topic: Developer and implementation
 uuid: e8880d77-172b-42e5-8187-ce371aa9eff9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
