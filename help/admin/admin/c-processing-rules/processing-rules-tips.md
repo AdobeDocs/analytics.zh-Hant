@@ -1,12 +1,11 @@
 ---
 description: 本章節包含測試處理規則的指引，以及應避免的常見錯誤清單。
-solution: Analytics
 subtopic: Processing rules
 title: 處理規則提示與秘訣
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,15 +20,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **測試讀取搜尋詞的規則**
 
-若是任何以搜尋為基礎的准則，例如如果prop1包含「news」，請前往prop 1報表並搜尋「news」，並查看是否有任何您不期望的相符項目。
+對於任何以搜尋為依據而設定的條件，例如 prop1 是否包含「news」，請前往 prop 1 報表搜尋「news」，查看當中是否有任何不想要的相符項目。
 
 **測試讀取變數的規則**
 
-Create a blank HTML page on your desktop, include the s_code from your site, and set the `s.account` variable to a dev report suite. 如果您的規則是根據反向連結、反向連結網域等，請從即時反向連結報告中取得一些範例 URL，將 `s.referrer` 變數設為其中一個值，並載入頁面。同樣，如果規則是根據頁面 URL 值，則可設定 `s.pageURL`。這套程序可對任何變數使用。
+在桌面建立空白 HTML 頁面，在頁面中加入網站的 s_code，並將 `s.account` 變數設為開發報表套裝。如果您的規則是根據反向連結、反向連結網域等，請從即時反向連結報表中取得一些範例 URL，將 `s.referrer` 變數設為其中一個值，並載入頁面。同樣，如果規則是根據頁面 URL 值，則可設定 `s.pageURL`。這套程序可對任何變數使用。
 
 **使用開發報表套裝**
 
-我們建議在開發報表套裝上設定處理規則，以確保它們正常運作。 如果可行，建議在廣泛部署前，先將規則複製至小型生產報表套裝。
+建議您在開發報表套裝上設定處理規則，確保套裝可以正常運作。如果可行，建議在廣泛部署前，先將規則複製至小型生產報表套裝。
 
 ## 檢查空白值 {#section_EE84A5525E26415787930723B0CAAE0F}
 
@@ -37,7 +36,7 @@ Create a blank HTML page on your desktop, include the s_code from your site, and
 
 ![](assets/tips-set-value-acquisition-code.png)
 
-也請務必考慮處理順序。在下列範例中，如果「頁面名稱」不存在，則「上一個頁面名稱」自訂eVar會設定為URL。 但 URL 是在套用處理規則後才放入頁面名稱的，因此在此例中，如果頁面未設定頁面名稱，頁面名稱就會空白。
+也請務必考慮處理順序。在下列範例中，如果不存在「頁面名稱」的話，系統就會將「先前的頁面名稱」自訂 eVar 設為 URL。但 URL 是在套用處理規則後才放入頁面名稱的，因此在此例中，如果頁面未設定頁面名稱，頁面名稱就會空白。
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
