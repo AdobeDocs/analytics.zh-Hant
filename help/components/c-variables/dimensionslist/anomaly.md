@@ -1,12 +1,11 @@
 ---
 description: 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 keywords: anomaly
-solution: Analytics
 title: 異常偵測
 topic: Reports
 uuid: 0e8bf30c-004d-47d3-ad8d-c5a86ba81d9d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
