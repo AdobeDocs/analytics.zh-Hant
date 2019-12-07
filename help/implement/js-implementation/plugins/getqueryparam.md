@@ -1,13 +1,12 @@
 ---
 description: 若在現行頁面 URL 中找到指定的查詢字串參數值，則加以傳回。由於重要資料 (例如促銷活動追蹤程式碼、內部搜尋關鍵字等)都可在頁面上的查詢字串中使用，因此   getQueryParam 有助於將資料擷取至 Analytics 變數中。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getQueryParam
 topic: Developer and implementation
 uuid: ba202756-c728-4ebc-8fd9-5bc29a9f673b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
