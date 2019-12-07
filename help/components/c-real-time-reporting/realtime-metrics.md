@@ -1,11 +1,10 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
-solution: Analytics
 title: 支援的即時量度和維度
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
