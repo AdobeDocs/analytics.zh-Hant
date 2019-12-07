@@ -1,11 +1,10 @@
 ---
 description: 在單一報表套裝中，結合時間戳記與非時間戳記資料。
-solution: Analytics
 title: 可選時間戳記
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->If you are using Timestamps Optional, then do not set [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) on data that is already timestamped. 這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
+>如果使用「可選時間戳記」，請勿在已附上時間戳記的資料上設定 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html)。這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
-> [!NOTE]啟動時間戳記的作業資料最多可保留 92 日。這表示瀏覽／工作階段將「持續開啟」92天，而任何額外點擊(在上次點擊後30分鐘（在點擊時間）內)仍可包含在同一次瀏覽／工作階段中。 任何未依序收到的「舊」點擊都會產生「未知」的結果，因為有許多因素（分段、分配、過期等）影響這些點擊是否會包含在報表中。
+> [!NOTE]啟動時間戳記的作業資料最多可保留 92 日。也就是說，造訪/工作階段將「持續開放」92 天，而任何額外點擊 (並非在上次點擊後 30 分鐘內發生) 仍可計入同一次造訪/工作階段中。任何非依序收到的「舊」點擊都會產生「未知」的結果，因為分段、配置、有效期等種種因素，都會影響這些點擊是否會納入報表中。
 
 ## 新的報表套裝 {#section_095A7CFBD280494593B9BEC1592B73A6}
 
@@ -46,5 +45,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    這會將您的報表套裝變更為「可選時間戳記」。
 
-> [!NOTE] 如果報表套裝設為「可選 **時間戳記」**，若要將此變更為任何其他設定，請連絡Adobe客戶服務。
+> [!NOTE] 如果報表套裝設定為&#x200B;**「可選時間戳記」**，若要變更為其他設定，請聯絡 Adobe Client Care。
 
