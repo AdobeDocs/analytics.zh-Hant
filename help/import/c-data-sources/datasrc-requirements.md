@@ -1,12 +1,11 @@
 ---
 description: 有關使用資料來源前的報表套件需求資訊。
-solution: Analytics
 subtopic: Data sources
 title: 需求和上傳限制
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
