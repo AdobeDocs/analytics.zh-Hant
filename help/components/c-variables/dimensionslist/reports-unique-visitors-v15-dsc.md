@@ -1,11 +1,10 @@
 ---
 description: 顯示存取您的網站的獨特訪客人數。每位訪客會被記錄一次，不論此人瀏覽網站多少次。
-solution: Analytics
 title: 不重複訪客
 topic: Reports
 uuid: e70e1a14-b3b9-4d1a-a8a5-a247a443c752
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 獨特訪客報告 - 趨勢量度 {#section_372C08A881D34BBF811C1DE0A1460617}
 
-[!UICONTROL 「獨特訪客] 」報表在臨機分析中的行為類似。 對於產生瀏覽的每次點擊，都會計入該次點擊的訪客。每個頁面都會因為有該訪客在頁面上而獲得評分。
+[!UICONTROL 獨特訪客]報表顯示行為的方式與 Ad Hoc Analysis 類似。對於產生瀏覽的每次點擊，都會計入該次點擊的訪客。每個頁面都會因為有該訪客在頁面上而獲得評分。
 
 <table id="table_7D9119045E8243698B6BB2E8C93F6B97"> 
  <thead> 
@@ -105,19 +104,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -127,7 +126,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-**[!UICONTROL 獨特訪客報表]劃分依據&#x200B;*`Page`*.**
+**[!UICONTROL 獨特訪客報表]劃分依據&#x200B;*`Page`*。**
 
 您可以為[!UICONTROL 獨特訪客報告]選取頁面。在下列報告中，訪客於下列日期瀏覽頁面 A:
 
@@ -140,19 +139,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -177,19 +176,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -210,19 +209,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -243,11 +242,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -278,19 +277,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -311,19 +310,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>1 月 1 日 </p> </td> 
+   <td colname="col1"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 2 日 </p> </td> 
+   <td colname="col1"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 3 日 </p> </td> 
+   <td colname="col1"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1 月 4 日 </p> </td> 
+   <td colname="col1"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>0 </p> </td> 
   </tr> 
   <tr> 
@@ -348,27 +347,27 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 月 1 日 </p> </td> 
+   <td colname="col02"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>1 月 2 日 </p> </td> 
+   <td colname="col02"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>1 月 3 日 </p> </td> 
+   <td colname="col02"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>1 月 4 日 </p> </td> 
+   <td colname="col02"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>E </p> </td> 
-   <td colname="col02"> <p>1 月 5 日 </p> </td> 
+   <td colname="col02"> <p>5 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -392,22 +391,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>A </p> </td> 
-   <td colname="col02"> <p>1 月 1 日 </p> </td> 
+   <td colname="col02"> <p>1 年 1 月 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>B </p> </td> 
-   <td colname="col02"> <p>1 月 2 日 </p> </td> 
+   <td colname="col02"> <p>2 年 1 月 </p> </td> 
    <td colname="col2"> <p>2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>C </p> </td> 
-   <td colname="col02"> <p>1 月 3 日 </p> </td> 
+   <td colname="col02"> <p>3 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>D </p> </td> 
-   <td colname="col02"> <p>1 月 4 日 </p> </td> 
+   <td colname="col02"> <p>4 年 1 月 </p> </td> 
    <td colname="col2"> <p>1 </p> </td> 
   </tr> 
   <tr> 
@@ -418,7 +417,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-若要依某個屬性來劃分另一個屬性 (例如 *`page`* by *`eVar`*), Analytics allocates a period-based Unique Visitor for each unique instance of the period and page (or the attribute being correlated).
+若要依某個屬性來劃分另一個屬性 (例如依 *`page`* 劃分 *`eVar`*)，Analytics 會為時段與頁面 (或相關聯的屬性) 的每個唯一例項分配一個以時段為基礎的獨特訪客。
 
 若您依 eVar T、U 來劃分「頁面 A」，則會排除 1 月 2 日，因為「頁面 A」是在 1 月 1 日檢視的。針對「每週獨特訪客」會顯示下列結果:
 
@@ -447,6 +446,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 永久性 Cookie {#section_81E139F08AEB4E30A06472856975EA1E}
 
-瀏覽之間使用的永久性 Cookie 會保留在訪客的電腦上，以便 Adobe 可以在後續的瀏覽中識別訪客。To see the percentage of users who do and do not accept persistent cookies, select **[!UICONTROL Filter]** &gt; **[!UICONTROL Persistent Cookies]**.
+瀏覽之間使用的永久性 Cookie 會保留在訪客的電腦上，以便 Adobe 可以在後續的瀏覽中識別訪客。若要瞭解使用者接受或拒絕永久性 Cookie 的百分比，請選取&#x200B;**[!UICONTROL 「篩選]** &gt; **[!UICONTROL 永久性 Cookie」]**。
 
 下方的圖形與詳細資料檢視，可顯示永久性 Cookie 訪客與非永久性 Cookie 訪客的數量。通常來說，非永久性 Cookie 訪客的數量都可忽略不計。
