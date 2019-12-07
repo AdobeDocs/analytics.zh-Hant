@@ -1,11 +1,10 @@
 ---
 description: 「資料倉庫」可以以Tableau資料擷取(TDE)檔案格式提供報表，讓您在Adobe Analytics外部的其他資料中視覺化資料和圖層。 您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
-solution: Analytics
 title: Tableau 資料檔案
 topic: Data warehouse
 uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
