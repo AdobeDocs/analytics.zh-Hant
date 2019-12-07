@@ -1,11 +1,10 @@
 ---
 description: 依照行動裝置支援的影片格式類型對行動裝置分組。例如，如果訪客的行動裝置支援 .mp4 格式，則當其存取您的網站時，「視訊支援」報告至少增加一。如果電話支援多種影片格式 (如 .mp4 和 .wmv)，則報告中的每一群組都會隨之增加。因此，群組的總數可能比顯示在報告底部的總數大。
-solution: Analytics
 title: 視訊支援
 topic: Reports
 uuid: a1dcf60a-a1e5-4a0c-9aec-3fadc71c22c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
