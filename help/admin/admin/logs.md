@@ -1,11 +1,10 @@
 ---
 description: 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
-solution: Analytics
 title: 記錄檔
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;記 **[!UICONTROL 錄]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 記錄檔]**
 
 ## 管理記錄檔 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 報表套裝 | 依報表套裝 ID 篩選記錄檔。 |
 | 事件類型 | 依事件類型篩選記錄檔。從下拉式清單中選擇事件類型。 |
 | 事件 | 依事件說明中的文字或片語篩選記錄檔。 |
-| 下載報告 | 將[!UICONTROL 「使用與存取記錄檔」]的內容匯出至以 Tab 分隔的檔案。 |
+| 下載報表 | 將[!UICONTROL 「使用與存取記錄檔」]的內容匯出至以 Tab 分隔的檔案。 |
 
 ## 報表套裝變更記錄檔 {#section_3864966639414BBEA871F4D0352F56B6}
 
@@ -51,5 +50,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 登入 | 依使用者名稱篩選記錄檔。 |
 | IP | 依 IP 位址篩選記錄檔。 |
 | 事件 | 依事件說明中的文字或片語篩選記錄檔。 |
-| 下載報告 | 將[!UICONTROL 「使用與存取記錄檔」]的內容匯出至以 Tab 分隔的檔案。 |
+| 下載報表 | 將[!UICONTROL 「使用與存取記錄檔」]的內容匯出至以 Tab 分隔的檔案。 |
 
