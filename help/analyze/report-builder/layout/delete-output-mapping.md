@@ -1,11 +1,10 @@
 ---
 description: 在編輯活頁簿時，如果您想要騰出一些空間給新請求使用，便需要刪除請求。
-solution: Analytics
 title: 刪除輸出對映
 topic: Report builder
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
