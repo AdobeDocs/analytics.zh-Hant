@@ -1,12 +1,11 @@
 ---
 description: 'null'
-solution: Analytics
 subtopic: Alerts
 title: 警報
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,9 +17,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 智慧型警報是所有Adobe Analytics的全新警報系統，可讓您建立和管理警報，並提供警報預覽和規則貢獻。 您可以
 
 * 根據異常 (90％、95％ 或 99％ 臨界值；％ 變化；以上/以下) 建立警報。
-* 預覽警報觸發的頻率。
-* 透過電子郵件或簡訊發送附有與自動產生的 Analysis Workspace 專案連結的警報。
-* 建立在單一警報中擷取多個量度的「堆疊」警報。
+* 預覽警報觸發的頻率.
+* 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結.
+* 建立在單一警報中擷取多個量度的「堆疊」警報.
 
 您可以在 Report &amp; Analytics 中任何報表內的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
 
