@@ -1,12 +1,11 @@
 ---
 description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
-solution: Analytics
 subtopic: Processing rules
 title: 處理規則概觀
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -34,14 +33,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. 若您還未這麼做，[請建立有權使用處理規則且僅包含非管理員的群組](/help/admin/user-management2/c-user-groups/groups.md)。
 1. [將非管理員新增至該群組](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. Then go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Groups]** &gt; **[!UICONTROL [group name]]** &gt; **[!UICONTROL Edit]** &gt; **[!UICONTROL Report Access]** &gt; **[!UICONTROL Report Suite Tools]** &gt; **[!UICONTROL Customize]** &gt; **[!UICONTROL Report Suite Management]**.
-1. Check the box next to [!UICONTROL Processing Rules] and click **[!UICONTROL OK]**.
+1. 接著前往&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL [群組名稱]]** &gt; **[!UICONTROL 編輯]** &gt; **[!UICONTROL 報表存取]** &gt; **[!UICONTROL 報表套裝工具]** &gt; **[!UICONTROL 自訂]** &gt; **[!UICONTROL 報表套裝管理」]**。
+1. 勾選[!UICONTROL 「處理規則」]旁的方塊，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->由於處理規則會永久影響Analytics資料，因此強烈建議處理規則管理員接受Adobe Analytics的認證訓練，並熟悉您報表套裝的所有資料來源（標準網站、行動網站、行動應用程式、資料插入API等）。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
+>由於處理規則會永久影響 Analytics 資料，因此強烈建議處理規則管理員應先通過 Adobe Analytics 的認證訓練，同時熟悉報表套裝的所有資料來源 (標準網站、行動網站、行動應用程式、資料插入 API 等)。瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
 
 ## 使用上下文資料簡化資料收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -59,4 +58,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在實施中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱 這 [里](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md) , [這裡](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
+如需詳細資訊，請參閱[本文](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)及[本文](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
