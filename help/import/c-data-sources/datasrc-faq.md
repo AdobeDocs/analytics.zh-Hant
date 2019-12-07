@@ -1,12 +1,11 @@
 ---
 description: 本主題提供常見問題的解答。
-solution: Analytics
 subtopic: Data sources
 title: 資料來源常見問題集
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -37,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 可以刪除使用資料來源匯入的資料嗎? {#section_DB73BC06BD774738BF019B347D9DED96}
 
-否。使用資料來源上傳至報表的資料，一旦匯入便「無法」移除，即使 Adobe 技術人員也無法做到。它會永久插入您現存的資料，與您透過傳統資料收集方法 (如 JavaScript、ActionSource、資料插入 API 等) 輸入的資料沒有差別。因此，Adobe 強烈建議您先將資料來源上傳到測試報表套裝中，再上傳至生產套裝。
+不可以。使用資料來源上傳至報表的資料，一旦匯入便「無法」移除，即使 Adobe 技術人員也無法做到。它會永久插入您現存的資料，與您透過傳統資料收集方法 (如 JavaScript、ActionSource、資料插入 API 等) 輸入的資料沒有差別。因此，Adobe 強烈建議您先將資料來源上傳到測試報表套裝中，再上傳至生產套裝。
 
 ## 一次可匯入多少資料? {#section_7A76D59E2C5B434D9BDBD2ABD2873168}
 
@@ -132,4 +131,4 @@ The number of Unique Visitors in a web-server log is calculated as the different
 
 ## 使用資料來源上傳的 eVar 會持續到之後的線上行為嗎？ {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
-不會。經由交易 ID 資料來源上傳的 eVar 只會從已儲存的個人資料讀取資訊，不會更新個人資料。否。eVar 是訪客資料快照中唯一儲存的變數。
+不可以。經由交易 ID 資料來源上傳的 eVar 只會從已儲存的個人資料讀取資訊，不會更新個人資料。不可以。eVar 是訪客資料快照中唯一儲存的變數。
