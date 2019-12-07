@@ -1,11 +1,10 @@
 ---
 description: 在「區段管理員」中，您可透過將區段進行標記來組織區段。
-solution: Analytics
 title: 標記區段
 topic: Segments
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. 按一下「**[!UICONTROL 標記]」，然後**
 
    * 選取現有標記或是
-   * add a new tag and press **[!UICONTROL Enter]**.
+   * 加入新標記並按 **[!UICONTROL Enter]**。
 
       ![](assets/tagging_ui.png)
 
@@ -36,4 +35,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 標記現在應該出現在「標記」欄中。(按一下右上方的齒輪圖示來管理您的欄。)
 
-You can also filter on tags by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Tags]**.
+您也可以前往&#x200B;**[!UICONTROL 篩選]** &gt; **[!UICONTROL 標記]** 來依標記篩選。
