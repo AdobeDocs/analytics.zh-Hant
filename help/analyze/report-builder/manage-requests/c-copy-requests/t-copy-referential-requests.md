@@ -1,11 +1,10 @@
 ---
 description: 參考請求會將儲存格的值當做參數的輸入，如資料篩選或關聯篩選。
-solution: Analytics
 title: 複製參考請求
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
