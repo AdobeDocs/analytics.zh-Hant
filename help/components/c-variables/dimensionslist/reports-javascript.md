@@ -1,11 +1,10 @@
 ---
 description: 根據裝置是否啟用或停用 JavaScript，或是計算為「無法辨識」而顯示量度。
-solution: Analytics
 title: JavaScript 支援
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 根據裝置是否啟用或停用 JavaScript，或是計算為「無法辨識」而顯示量度。
 
-> [!NOTE] 在2016年11月初，我們計畫移除JavaScript一律列為行動裝置 *`disabled / unidentified`* 的限制。
+> [!NOTE] 在 2016 年 11 月初，我們計劃移除行動裝置上 JavaScript 一律被列為 *`disabled / unidentified`* 的限制。
 
 JavaScript 報表對應至原始資料中的欄 javascript。
 
