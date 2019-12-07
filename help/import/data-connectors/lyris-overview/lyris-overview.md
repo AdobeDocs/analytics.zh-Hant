@@ -1,10 +1,9 @@
 ---
 description: 說明透過整合所實現的行銷效率。
-solution: Analytics
 title: Adobe Analytics的Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -122,7 +121,7 @@ Lyris與Adobe Analytics的整合提供下列主要優點：
   <tr> 
    <td colname="col1"> 事件 </td> 
    <td colname="col2"> Lyris —— 電子郵件彈回數 </td> 
-   <td colname="col3"> 來儲存號碼。 被拒發的郵件 </td> 
+   <td colname="col3"> 來儲存號碼。 被拒收的郵件 </td> 
    <td colname="col4">類型：數值 <p>參與率：已啟用 </p> </td> 
   </tr> 
   <tr> 
