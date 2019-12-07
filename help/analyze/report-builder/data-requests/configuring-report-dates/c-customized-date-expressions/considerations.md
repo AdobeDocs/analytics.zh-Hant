@@ -1,11 +1,10 @@
 ---
 description: '使用「自訂運算式」設定日期範圍時的兩個重要考量 '
-solution: Analytics
 title: 自訂日期考量事項
 topic: Report builder
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
