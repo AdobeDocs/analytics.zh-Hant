@@ -1,12 +1,11 @@
 ---
 description: 開始建立虛擬報表套裝前，請謹記以下一些注意事項。
 keywords: Virtual Report Suite
-solution: Analytics
 title: 建立虛擬報表套裝
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,10 +16,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 非管理員使用者看不到「虛擬報表套裝管理器」。
 * 虛擬報表套裝無法共用。「共用」是透過群組/權限達成。
-* 在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。您必須按一下「全部顯示」，才能查看其他人的。
+* 在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。必須按一下「全部顯示」才能查看其他人的虛擬報表套裝。
 
-1. Navigate to **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]**.
-1. Click **[!UICONTROL Add +]**.
+1. 導覽至&#x200B;**[!UICONTROL 元件]** &gt; **[!UICONTROL 虛擬報表套裝]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增 +」]**。
 
    ![](assets/new_vrs.png)
 
@@ -47,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>您可新增標記來組織報表套裝。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 群組 </td> 
+   <td colname="col1"> 群組  </td> 
    <td colname="col2"> <p>選取您希望可存取此 VRS 的權限群組。(您也可以從<span class="ignoretag"><span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組」</span></span>管理群組權限。) </p> </td> 
   </tr> 
   <tr> 
