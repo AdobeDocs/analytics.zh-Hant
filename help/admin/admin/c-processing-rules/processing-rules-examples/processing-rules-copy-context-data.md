@@ -1,32 +1,31 @@
 ---
 description: 處理規則用於將上下文資料變數的值移至 prop 和 eVar。
-solution: Analytics
 subtopic: Processing rules
 title: 複製上下文資料變數至 eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 複製上下文資料變數至 eVar
 
-處理規則可用來將值從上下文資料變數移至prop和eVar。 若沒有處理規則，上下文資料變數就毫無意義，且不會在Analytics中填入任何報表。
+處理規則用於將上下文資料變數的值移至 prop 和 eVar。若沒有處理規則，上下文資料變數就毫無意義，且不會填入 Analytics 的任何報表。
 
-[!UICONTROL 「上下文變數」]清單包含在最近 30 天內，傳送至報表套裝的所有變數。If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
+[!UICONTROL 「上下文變數」]清單包含在最近 30 天內，傳送至報表套裝的所有變數。如果您知道上下文資料變數的名稱但尚未將它傳送至目前的報表套裝，則可輸入變數名稱並按一下&#x200B;**[!UICONTROL 「新增變數名稱上下文資料」]**:
 
 ![新增](assets/add-context-variable.png)
 
-下列範例會將上 `search_term` 下文資料變數放入其值中 `eVar3`:
+以下範例接受 `search_term` 這個上下文資料變數後，會將其值放入 `eVar3`:
 
-![若您要在網站上追蹤可下載檔案的連結，請將  ](assets/set-context-data.png)
+![若您要在網站上追蹤可下載檔案的連結，請將 ](assets/set-context-data.png)
 
-上述範例在只有幾個eVar可填入時非常有效。 如果您的組織有數百個上下文資料變數，每個變數都需要自己的eVar，則可使用條件陳述式。 數十個條件陳述式可以符合單一處理規則，讓您的組織能夠在報表套裝中填入所有eVar，而不需符合150個規則的處理規則限制。
+如果只有少數幾個 eVar 可填入，上述範例非常實用。如果您的組織有數百個上下文資料變數，每個變數都需要專屬 eVar，建議使用條件陳述式。符合單一處理規則的條件陳述式有數十個，方便您的組織填入報表套裝中的所有 eVar，不需受限於 150 個處理規則的上限。
 
-下列範例會填 `prop7` 入內容資料變數，但 `testhierarchy`僅在設定 `testhierarchy` 時：
+下列範例會將上下文資料變數 `testhierarchy` 填入 `prop7`，前提是 `testhierarchy` 已設定:
 
 ![有條件](assets/add-conditional.png)
 
-如需實作上下文資料變數的詳細資訊，請參閱「實 [作使用指南」中的](/help/implement/js-implementation/c-variables/context-data-variables.md) 「上下文資料變數」。
+如需詳細瞭解如何實施上下文資料變數，請參閱實施使用手冊中的[上下文資料變數](/help/implement/js-implementation/c-variables/context-data-variables.md)。
