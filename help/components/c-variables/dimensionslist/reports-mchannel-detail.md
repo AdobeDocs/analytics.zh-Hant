@@ -1,11 +1,10 @@
 ---
 description: 這些報告可提供您網站上最有效之特定促銷活動或關鍵字的分析。您可使用此報告來分配成功量度和收入至各種管道的詳情，無需考慮整體管道情形。例如，您可以將某個「付費搜尋關鍵字」與某個電子郵件促銷活動進行比較。相對於行銷管道概述報告，此報告更類似標準行銷報告。
-solution: Analytics
 title: 行銷管道的詳情 - 首次接觸與上次接觸
 topic: Reports
 uuid: 669152df-90b3-4a39-b8c0-aea0f5dd8323
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 以下是可在此報告中使用的量度 (視組織與報表套裝設定而定):
 * 
 
-   * Click-throughs: the number of times the *`s.campaign`* variable is defined.
+   * 點進次數: *`s.campaign`* 變數已定義的次數。
    * 新增參與: 已接收新的「首次接觸管道」的訪客人數。
    * 所有標準電子商務量度: 收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等。
    * 所有自訂事件: 事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100。
    * 瀏覽與訪客: 是否可用須視組織與報表套裝而定。請洽詢您的客戶經理，以取得詳細資訊。
    請參閱[!UICONTROL 行銷管道]說明中的[量度](https://marketing.adobe.com/resources/help/en_US/mchannel/c_overview_metrics.html)。
 
-> [!NOTE] 行 [!UICONTROL 銷渠道] 13.5版不提供報表。
+> [!NOTE] [!UICONTROL 行銷管道]報表不適用於 13.5 版。
 
