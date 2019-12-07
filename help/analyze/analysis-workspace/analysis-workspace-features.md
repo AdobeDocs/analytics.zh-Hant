@@ -1,22 +1,21 @@
 ---
 keywords: Analysis Workspace
-solution: Analytics
-title: 分析工作區概觀
+title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 分析工作區概觀
+# Analysis Workspace 概述
 
 Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺化和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
 
-**[!UICONTROL Analytics]** &gt;工作 **[!UICONTROL 區]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
-## Overview video {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 概述影片 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
 >[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
 
@@ -24,9 +23,9 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 >[!NOTE]
 >
->See [What's New in Analysis Workspace](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) for updates about features.
+>參閱 [Analysis Workspace 的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)瞭解功能的相關更新。
 
-## Full control over project elements and components {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## 完整控制專案元素和元件 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
 Analysis Workspace 提供自由與靈活性:
 
@@ -36,9 +35,9 @@ Analysis Workspace 提供自由與靈活性:
 
 ![](assets/fa_project_new.png)
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得詳細資訊。
 
-## Multiple visualizations in a project {#section_B7670740C2D44130B21DAF0873280DA5}
+## 專案中的多重視覺效果 {#section_B7670740C2D44130B21DAF0873280DA5}
 
 拖放您需要的視覺效果數目至專案。
 
@@ -48,11 +47,11 @@ See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/buil
 
 ![](assets/visualizations-multiple02.png)
 
-See [Create an Analysis Workspace project](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) for more information.
+參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得詳細資訊。
 
-## Intra-linking to panels and visualizations {#section_253EA04E067F4A29A8B54CE2B7631086}
+## 面板和視覺效果的內部連結 {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-In conjunction with the [rich text editing](/help/analyze/analysis-workspace/visualizations/text.md) capabilities of Analysis Workspace, you can link down to specific panels and visualizations within a project from a text box, such as to create a project's table of contents. 您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增名為「取得面板連結」和「取得視覺化連結」的全新右鍵選項。 若要將內部連結新增至您的專案:
+結合 Analysis Workspace [豐富文字編輯](/help/analyze/analysis-workspace/visualizations/text.md)功能後，您可透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案的內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。若要將內部連結新增至您的專案:
 
 1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
 1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
@@ -60,7 +59,7 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
    ![](assets/intra-linking1.png)
 
 1. 捲動至該面板或視覺效果，然後以滑鼠右鍵按一下面板的標題。
-1. Scroll down and select **[!UICONTROL Get Panel Link]** or **[!UICONTROL Get Visualization Link]**:
+1. 向下捲動，選取&#x200B;**[!UICONTROL 「取得面板連結」]**&#x200B;或&#x200B;**[!UICONTROL 「取得視覺效果連結」]**:
 
    ![](assets/intra-linking2.png)
 
@@ -68,29 +67,29 @@ In conjunction with the [rich text editing](/help/analyze/analysis-workspace/vis
 
 如果您在專案內摺疊面板或視覺效果，按一下連結會展開面板/視覺效果，供使用者檢視。
 
-> [!NOTE] 您也可以在「編輯說明」( **[!UICONTROL Edit Description]** )按一下右鍵選項中使用此功能。
+> [!NOTE] 您也可以在&#x200B;**[!UICONTROL 「編輯說明」]**&#x200B;的右鍵選項中使用此功能。
 
-## Link to other projects {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 連結至其他專案 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** &gt; **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+舉例來說，您可以將使用者連結至對方可能感興趣的其他專案，方法是前往&#x200B;**[!UICONTROL 「共用]** &gt; **[!UICONTROL 取得專案連結」]**，將此連結嵌入專案說明。
 
-## Dynamic visualization of selected cells {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 所選儲存格的動態視覺效果 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
 選取個別儲存格，動態查看視覺效果變更。將視覺效果[同步 (鎖定)](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) 至所選儲存格。
 
 ![](assets/visualize-selected-cells.png)
 
-## Lock selected items or positions {#section_9D66A001586F49CEB0C565581E44957C}
+## 鎖定所選項目或位置 {#section_9D66A001586F49CEB0C565581E44957C}
 
 鎖定視覺效果可以控制哪些自由資料表來源對應至視覺效果。
 
 ![](assets/manage-data-source.png)
 
-See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+參閱[管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)。
 
-## Trend visualizations from selected cells {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 所選儲存格的趨勢視覺效果 {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-從所選儲存格建立視覺效果。(Right-click &gt; **[!UICONTROL Trend Selection]**.)
+從所選儲存格建立視覺效果。(按一下滑鼠右鍵 &gt; **[!UICONTROL 趨勢選取項目]**。)
 
 ![](assets/trend-selection.png)
 
@@ -98,17 +97,17 @@ See [Manage data sources](/help/analyze/analysis-workspace/visualizations/t-sync
 
 ![](assets/trend-selection2.png)
 
-## Dimensions and dimension item breakdowns {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## 維度與維度項目劃分 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
 
 身為零售商，您可以對促銷活動進行比以往更深入的分析，了解如何以更好的方式吸引客戶。您可針對特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
 
 ![步驟結果](assets/fa_data_table_actions.png)
 
-See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md).
+參閱[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 
-## Segments from table selections {#section_73BC3688089B426D969B3D5B606DA970}
+## 從表格選取項目建立區段 {#section_73BC3688089B426D969B3D5B606DA970}
 
-選取自由表格中的儲存格，並從選取範圍建立區段。
+選取自由表格中的儲存格，並從選取項目建立區段。
 
 比較多個區段，並立即建立和套用區段。您可以套用多個區段，根據行為和互動將重點放在特定客戶，然後進行比較與對照。
 
@@ -118,9 +117,9 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 
 ![](assets/segment-panel.png)
 
-請參閱 [區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md).
+請參閱[區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
 
-## Project and component tagging {#section_F54D688132A541F2982326D5E022B90D}
+## 專案和元件標記 {#section_F54D688132A541F2982326D5E022B90D}
 
 您可在 Analysis Workspace 中，套用標記至專案和元件:
 
@@ -129,9 +128,9 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 * 以滑鼠右鍵按一下元件，以從元件面板進行標記 (或建立標記)。
 * 在搜尋欄位中使用 # 尋找標記。
 
-## Component actions {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## 元件動作 {#section_CBF4D0A5F63E4B0883077B8D852B800B}
 
-從元件左側欄頂端的「動作」功能表，可執行元件層級動作。選取元件並按一下「**[!UICONTROL 動作]」即可檢視動作。**
+從元件左側欄頂端的「動作」功能表，可執行元件層級動作。選取元件並按一下「**[!UICONTROL 動作]**」即可檢視動作。
 
 | 元件動作 | 說明 |
 |--- |--- |
@@ -143,7 +142,7 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 
 請參閱[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)以取得詳細資訊。
 
-## Additional feature descriptions {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 其他功能說明 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
 
 **您可以拖曳和堆疊的項目**
 
@@ -164,7 +163,7 @@ See [Break down dimensions](/help/analyze/analysis-workspace/components/dimensio
 * 排序日期範圍預設集 (不包含自訂日期範圍)。
 * CTRL (或 Command) + 按一下 + 拖曳欄可以複製該欄，而拖曳副本則會將其貼至表格中的新位置。
 
-See [Hotkeys Available in Analysis Workspace](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) for more information.
+參閱 [Analysis Workspace 中可用的快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以瞭解詳細資訊。
 
 **選取範圍和動作**
 
