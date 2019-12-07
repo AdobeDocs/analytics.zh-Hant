@@ -1,12 +1,11 @@
 ---
 description: 這項資訊適用於報告與實施皆熟稔的進階使用者。若不瞭解後果，請勿嘗試編輯您的實施。如需進行實施變更，請與組織的客戶經理連絡。
 keywords: Analytics Implementation
-solution: Analytics
 title: 追蹤不同的實作類型
 topic: Developer and implementation
 uuid: a0a3229a-79a2-4dc2-b0be-4b8fac2efa3a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
