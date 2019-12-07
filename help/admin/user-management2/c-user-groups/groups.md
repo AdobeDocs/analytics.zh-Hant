@@ -1,25 +1,24 @@
 ---
 description: 說明「定義使用者群組」頁面上的元素。
-solution: Analytics
 subtopic: Users and groups
 title: 使用者群組設定
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 使用者群組設定（舊版）
+# 使用者群組設定 (舊版)
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 說明「定義使用者群組」頁面上的元素。
 
-**[!UICONTROL 管理員]** &gt;使 **[!UICONTROL 用者管理]** &gt;群 **[!UICONTROL 組]** &gt;新 **[!UICONTROL 增使用者群組]**
+**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL 新增使用者群組」]**
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -61,7 +60,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
-       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量報表</b>:根據流量授與對所有報表的存取權，例如頁面檢視、瀏覽和獨特訪客。 </li> 
+       <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量報表</b>: 根據流量授予所有報表的存取權，例如頁面檢視、造訪和不重複訪客。 </li> 
        <li id="li_2742B7A661FC45F496DFFBBB6CE675DE"><b>工具</b> (授與「報告與分析」中所用工具的存取權，例如依 IP 排除、分類和舊式 ClickMap)。 </li> 
        <li id="li_88D54C31211B4A38B46FF64651718865"><b>視訊和行動報表</b> </li> 
        <li id="li_DBC756832B52433DA6467EA8AEC02DBA"><b>路徑報表</b> (授與路徑報表的存取權，例如下一頁、流失和頁面逗留時間)。 </li> 
@@ -69,8 +68,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        <li id="li_D63F60FF2DD2418A876B53404634D12D"><b>測試和目標 </b>(如果貴組織同時使用分析和目標，則授與目標報表的存取權)。 </li> 
        <li id="li_03CE1718D51049D596DB061932D97506"><b>SearchCenter</b> </li> 
        <li id="li_78AB0BCEDBA946718F90B6D7AB52CB80"><b>網站服務 </b>(授與報告和管理之 API 資源的存取權)。 </li> 
-       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>量度</b> (授與「報告與分析」中所用量度的存取權，包括頁面檢視等預設量度以及自訂事件等其他量度)。</li> 
-       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>管理控制台 </b>(授與管理員功能表中各種元件的存取權，例如記錄檔和報表套裝設定)。 </li> 
+       <li id="li_DCA83780F6214AF1A82255BC977744F1"><b>量度</b> (授予「 Reports &amp; Analytics」中所用量度的存取權，包括頁面檢視等預設量度以及自訂事件等其他量度)。</li> 
+       <li id="li_A200E3CED33D4B15BFD30CBDD930912C"><b>Admin Console </b>(授與管理員功能表中各種元件的存取權，例如記錄檔和報表套裝設定)。 </li> 
        <li id="li_CF3FA04D402A47618401633BA8583010"><b>報表下載</b> (授與從 Analytics UI 下載報表的能力)。 </li> 
        <li id="li_03AC2D9FF43648CB90E514C62DC31217"><b>調查</b> (如果貴組織也有使用已停用的 Adobe Survey 功能，則授與調查報表的存取權)。 </li> 
        <li id="li_9FC3F25F335641B5AC9232BDC2DCCECA"><b>進階報表</b> (授與進階報表的存取權，例如 Marketing Channels、異常偵測、區段和計算量度)。 </li> 
@@ -91,12 +90,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <ul id="ul_B573C170710545F0BF5CC3675A8F7ECA"> 
       <li id="li_238BA42873E24953A0D73443F36BD7C8">自訂 </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>群組成員可存取報告群組中的報告子集。按一下「<span class="uicontrol">自訂</span>」會開啟一個頁面，讓您在其中選取群組成員可以存取的報告群組中的特定報告。 </p> 
+   <td colname="col2"> <p>群組成員可存取報告群組中的報告子集。按一下<span class="uicontrol">「自訂」</span>會開啟一個頁面，讓您在其中選取群組成員可以存取的報表群組中的特定報表。 </p> 
     <ul id="ul_16D5EF18D57D4608AEEDEC40D90D8828"> 
      <li id="li_F29E84C6228A464C8807F09205AEAAC6"><a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">分析工具</a>: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。 </li> 
-     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">報表套裝工具</a>: 為 API 存取、報表套裝管理、工具和報告與控制面板項目啟用使用者權限。 </li> 
+     <li id="li_A6EB788162A2455E94CE54B9279A854D"><a href="/help/admin/user-management2/c-customize-report-access/groups-report-suite-tools.md">報表套裝工具</a>: 為 API 存取、報表套裝管理、工具和報表與控制面板項目啟用使用者權限。 </li> 
      <li id="li_EDB0255E009B4F1CAFAF53966B41363C"><a href="/help/admin/user-management2/c-customize-report-access/groups-metrics.md">量度</a>: 為流量、轉換、自訂事件、解決方案事件、內容感知等等啟用權限。 </li> 
-     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。 </li> 
+     <li id="li_8DAE87D1DEF54803A9C6FE31C01F0FB0"><a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">維度</a>: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -126,14 +125,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <ul id="ul_8C68B33A3847467DBDC58838E3E85612"> 
       <li id="li_9BA51B0001AA41DE949322083A6CE70D">現存使用者 </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>顯示目前定義的所有使用者帳戶。選取想要的使用者帳戶，然後按一下「<span class="uicontrol">新增</span>」。指派的使用者帳戶會出現在<span class="uicontrol">「群組成員」</span>欄位中。 </p> </td> 
+   <td colname="col2"> <p>顯示目前定義的所有使用者帳戶。選取想要的使用者帳戶，然後按一下<span class="uicontrol">「新增」</span>。指派的使用者帳戶會出現在<span class="uicontrol">「群組成員」</span>欄位中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
      <ul id="ul_5EAE5B2B54EA4C87BAA0C30AE9C8ECB0"> 
       <li id="li_FB6C9E925A5E498BBAFE13EF7606E940">群組成員 </li> 
      </ul> </p> </td> 
-   <td colname="col2"> <p>顯示目前指派為群組成員的所有使用者帳戶。若要移除使用者帳戶，請選取該使用者帳戶，然後按一下「<span class="uicontrol">移除</span>」。 </p> </td> 
+   <td colname="col2"> <p>顯示目前指派為群組成員的所有使用者帳戶。若要移除使用者帳戶，請選取該使用者帳戶，然後按一下<span class="uicontrol">「移除」</span>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
