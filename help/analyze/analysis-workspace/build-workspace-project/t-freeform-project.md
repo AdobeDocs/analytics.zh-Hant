@@ -1,12 +1,11 @@
 ---
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-solution: Analytics
 title: 建立 Workspace 專案
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,23 +14,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
-本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。如需特定使用案例，請參 [閱分析工作區的使用案例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
+本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。如需具體用案例，請參閱 [Analysis Workspace 的使用案例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
 
-## 建立專案
+## 建立 專案
 
 1. 指定建立和組織專案的使用者權限。
 
-   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**在 Analysis Workspace 中建立 / 組織專案**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]」使用者群組。**( **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]** &gt; [Groups](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)).
+   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; [群組](https://marketing.adobe.com/resources/help/en_US/reference/groups.html))。
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**.
+1. 在 [!DNL Experience Cloud] 中，按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL Workspace]**」。
 
    ![](assets/analysis_workspace_menu.png)
 
-   Alternatively, enter a forward slash (/) to open the report search bar, then type *`workspace`*.
+   或者，輸入斜線 (/) 開啟報表搜尋列，然後輸入「*`workspace`*」。
 
    ![](assets/analysis-app-search.png)
 
-1. Click **[!UICONTROL Create New Project]**.
+1. 按一下&#x200B;**[!UICONTROL 「建立新專案」]**。
 
    您可以選擇從以下來源建立專案
 
@@ -41,17 +40,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 若要從空白專案建立專案，請按一下&#x200B;**[!UICONTROL 「空白專案」]**。
 
-   * Then click **[!UICONTROL Create]**, or
-   * Simply click **[!UICONTROL Enter]**.
+   * 接著，按一下&#x200B;**[!UICONTROL 「建立」]**，或
+   * 只需按一下  **[!UICONTROL Enter]** 即可。
    接著會出現空白專案，其中顯示自由面板和資料表格視覺化。
 
    ![](assets/fa_project_new.png)
 
    >[!NOTE]
    >
-   >有時，在載入專案（或切換至報表套裝）時會顯示「不相容的報表套裝」訊息，其中專案中包含的所有元件（量度／維度）並非都包含在報表套裝中。 您可以看到不相容的元件清單，得知收到這類訊息的原因。
+   >有時，系統在載入專案 (或切換到報表套裝) 時會顯示「不相容的報表套裝」訊息，這是因為並非所有元件 (量度/維度) 都包含在報表套裝中。您可以看到不相容的元件清單，得知收到這類訊息的原因。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
@@ -76,7 +75,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-1. 儲存您的專案。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. 儲存您的專案。為專案命名，輸入說明 (選填，但此項目很實用) 並標記專案 (選用)，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    ![](assets/save_project.png)
 
@@ -86,11 +85,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >複製／另存新檔後，內部連結現在會相對於其所在的專案，而非原始的專案。
+   >在您複製/另存新檔後，內部連結與其所在專案為相對關係，已非原本複製的原始專案。
 
 ## 新增元件與視覺效果 {#task_CDAC9B3007BE4A3790AFAD3746D669B1}
 
-1. 拖曳並拖曳至專案， *`components`* 以建 *`visualizations`* 立您的專案。
+1. 將 *`components`* 和 *`visualizations`* 拖曳到專案中，藉此建立您的專案。
 
    **元件**
 
@@ -110,11 +109,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 量度 (綠色) </td> 
-   <td colname="col2"> <p>在專案層級套用。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term"> 發生次數</span> ，是資料表格的預設度量。 </p> </td> 
+   <td colname="col2"> <p>在專案層級套用。 </p> <p><img  src="assets/metrics.png" id="image_7C874C72992E414CBEE6B90CEF7B9F3C" /> </p> <p> <span class="term">「發生次數」</span>是資料表的預設量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 區段 (藍色) </td> 
-   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  > 細資訊，請參閱分析工作區的使用案例</a> 。 </p> </td> 
+   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳細資訊，請參閱 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace 的使用案例</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期範圍和粒度 (紫色) </td> 
@@ -190,7 +189,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取範圍建立區段</a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 從選取項目建立區段</a> </td> 
    <td colname="col2"> </td> 
   </tr> 
   <tr> 
