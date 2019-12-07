@@ -1,11 +1,10 @@
 ---
-description: 建議對搜尋引擎與關鍵字使用的預設量度。該量度表示點進例項，顯示與特定引擎或關鍵字相關的頁面。搜尋度量資料可報告至之前的資料集起點。
-solution: Analytics
+description: 建議對搜尋引擎與關鍵字使用的預設量度。該量度表示點進例項，顯示與特定引擎或關鍵字相關的頁面。搜尋量度資料可報告至之前的資料集起點。
 title: 搜尋
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
