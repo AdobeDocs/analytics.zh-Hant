@@ -1,11 +1,10 @@
 ---
 description: 「行銷管道概觀報告」可讓您概略分析客戶採用哪些方法進入您的網站時對您最具效益。您可以使用此報告，為不同的管道配置成功量度與收入。您也可以檢視各個管道內最成功的特定促銷活動或關鍵字。此報告中包含其本身獨特而直觀的介面，可讓您同時檢視首次接觸與最後一次接觸量度。
-solution: Analytics
 title: 行銷管道概觀
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 您可以使用[分類](https://marketing.adobe.com/resources/help/en_US/mchannel/t_classifications.html)，以便重新命名和合併明細項目。
 * 以下是可在此報告中使用的量度 (視組織與報表套裝設定而定):
 
-   * **點進次數**:變數的定 *`s.campaign`* 義次數。
+   * **點進次數**: *`s.campaign`*&#x200B;變數已定義的次數。
 
    * [新增參與](https://marketing.adobe.com/resources/help/en_US/mchannel/t_visitor_engagement.html): 已接收新的「首次接觸管道」的訪客人數。
    * 所有標準電子商務量度: 收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等。
@@ -38,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **第 14 版與第 15 版**
 
-This report can be accessed by going to **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Channel Overview Report]** (provided the menu is not customized).
+此報表可從&#x200B;**[!UICONTROL 行銷管道]** &gt; **[!UICONTROL 管道概觀報表]**&#x200B;存取 (若未自訂功能表)。
 
 此報告中無法使用區段功能。請改用[!UICONTROL 首次接觸或最後一次接觸管道]或[!UICONTROL 首次接觸或最後一次接觸詳細資料]報告。
 
