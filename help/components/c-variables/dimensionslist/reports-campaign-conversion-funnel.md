@@ -1,11 +1,10 @@
 ---
 description: 顯示「促銷活動」報告群組中的量度平均值。預設量度為點進、銷售總額、訂購和收入。
-solution: Analytics
 title: 促銷活動轉換漏斗
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 顯示「促銷活動」報告群組中的量度平均值。預設量度為點進、銷售總額、訂購和收入。
 
-**[!UICONTROL 促銷活動]** &gt;促銷 **[!UICONTROL 活動轉換漏斗]**
+**[!UICONTROL 促銷活動]** &gt; **[!UICONTROL 促銷活動轉換漏斗]**
 
 漏斗圖表的頂部區域顯示轉換資料。底部則依據訂購和最多兩個其他量度 (收入和件數)，顯示頂部區域中所有事件的統計資料。
 
