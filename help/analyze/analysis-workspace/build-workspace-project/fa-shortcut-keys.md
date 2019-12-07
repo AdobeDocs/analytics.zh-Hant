@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 keywords: Analysis Workspace
-solution: Analytics
 title: Analysis Workspace 中可用的快速鍵
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -154,7 +153,7 @@ Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
    <td colname="col2"> <p>ctrl (或 cmd) + shift + z </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>復原 </p> </td> 
+   <td> <p>還原 </p> </td> 
    <td> <p>ctrl (或 cmd) + z </p> </td> 
   </tr> 
  </tbody> 
