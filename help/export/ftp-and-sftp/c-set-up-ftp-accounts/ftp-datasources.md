@@ -1,11 +1,10 @@
 ---
 description: 您可以使用 Analytics 建立及管理 FTP 型資料來源，其會利用 FTP 檔案轉移，將離線或歷史資料匯入 Experience Cloud。
 keywords: ftp;sftp
-solution: Analytics
 title: 資料來源
 uuid: 41ba2de7-d33d-4394-b7d8-04a116f45419
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
