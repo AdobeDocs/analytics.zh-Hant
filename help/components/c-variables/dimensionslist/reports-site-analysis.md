@@ -1,11 +1,10 @@
 ---
 description: 一種 Ad Hoc Analysis 報表。「網站分析」會顯示訪客如在指定的頁面和事件之間移動。例如，您可以查看頁面間流量的流動方向、產品和行銷管道間的相似性，以及促銷活動和管道如何流向產品訂單。您可以拖曳頁面、維度項目 (和清單) 以及量度事件。每個圓柱體各代表一或多個維度項目 (頁面) 或事件。箭頭代表圓柱體值之間的流動方向。而量度則指派給圓柱體位置 (X 和 Y)、圓柱體寬度、圓柱體高度以及顏色。位置、大小和顏色會隨量度值而變更。
-solution: Analytics
 title: 網站分析
 topic: Reports
 uuid: 39c22dc8-6ff3-43aa-a2ed-bc02c2db4764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
