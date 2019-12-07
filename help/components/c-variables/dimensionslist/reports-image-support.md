@@ -1,11 +1,10 @@
 ---
 description: 依照行動裝置支援的影像類型對行動裝置分組。例如，如果訪客的電話支援 .jpg 影像並存取了網站，則「影像支援」報告至少增加一。如果電話支援更多音訊格式，那麼瀏覽網站可以導致該次瀏覽增加多次。換言之，如果您的電話支援 .jpg、.png 及 .gif 格式，報告中這些群組的每一組都將增加。因此，群組的總數可能比顯示在報告底部的總數大。
-solution: Analytics
 title: 影像支援
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
