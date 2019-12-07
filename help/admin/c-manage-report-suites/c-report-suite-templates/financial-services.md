@@ -1,11 +1,10 @@
 ---
 description: 定義提供線上服務之銀行或其他機構的一般設定。
-solution: Analytics
 title: 金融服務
 topic: Admin tools
 uuid: a321b409-24a4-4d9f-9aac-65761261e991
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
