@@ -1,11 +1,10 @@
 ---
 description: 在建立含內嵌請求的報表後，您可以將格式化的條件套用至新活頁簿的儲存格。
-solution: Analytics
 title: 指定格式化的條件
 topic: Report builder
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
