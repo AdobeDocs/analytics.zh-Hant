@@ -1,11 +1,10 @@
 ---
 description: 執行不同報表類型的步驟。
-solution: Analytics
 title: 執行不同的報表類型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 執行排名報告 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
-在排名報告中，表格會根據數量或百分比，顯示與度量相關的報告頁面排名。「排名」報告可在一個報告中顯示多個度量。
+在排名報告中，表格會根據數量或百分比，顯示與度量相關的報告頁面排名。「排名」報告可在一個報告中顯示多個量度。
 
 <!-- 
 
@@ -265,7 +264,7 @@ reports_realtime.xml
    <th class="chdeschd"> 說明 </th> 
    </thead> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>選擇報告套裝</strong></td> 
+   <td class="choption"><strong>選取報表套裝</strong></td> 
    <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >即時報告組態</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
