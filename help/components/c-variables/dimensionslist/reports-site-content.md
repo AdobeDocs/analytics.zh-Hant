@@ -1,11 +1,10 @@
 ---
 description: 顯示您網站中最活躍的網頁與區域以及最常用的伺服器。
-solution: Analytics
 title: 網站內容
 topic: Reports
 uuid: a14080b7-be8d-4513-8f17-39926c7b70cb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
