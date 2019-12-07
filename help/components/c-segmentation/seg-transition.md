@@ -1,19 +1,18 @@
 ---
 description: 'null'
 keywords: segmentation;segments
-solution: Analytics
 title: 常見問題集
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 常見問題集
 
-回答關於區段功能、存取權、權限、最佳實務以及管理舊有區段的常見問題。
+有關區段功能、存取權、權限、最佳實務及管理舊式區段的常見問題解答。
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
@@ -25,10 +24,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 您可以[將多個區段套用至報表或專案](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 區段在所有報表套裝中都通用。
-* The [Segment Builder](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) simplifies segment creation.
+* [區段生產器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)簡化了區段的建立流程。
 * [區段管理員](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 
-* 您可以[標記區段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。Previously, you used folders (in [!DNL Ad Hoc Analysis]) to organize your segments.
+* 您可以[標記區段](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。之前，您是使用資料夾 (在 [!DNL Ad Hoc Analysis] 中) 來組織區段。
 
 * 您可以在 Ad Hoc Analysis 外建立[循序區段](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。
 * 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
@@ -41,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 存取「區段產生器」的方法有:
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)In the segment rail that displays, then click **[!UICONTROL Add]**, or
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
 
-* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
+* 在「區段管理器」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![](assets/add_button.png)
 
    或
 
@@ -53,17 +52,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 存取「區段管理員」的方法有:
 
-* Going to  **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the top navigation. Then click **[!UICONTROL Segments]**, or
+* 前往頂端導覽中的&#x200B;**[!UICONTROL 分析]** &gt; **[!UICONTROL 元件]**。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)Then click **[!UICONTROL Manage]**, or
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
 * 在介面中任意處按正斜線鍵 '/'，然後搜尋區段管理員。
 
 **舊式區段下拉式清單移至何處?**
 
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下「區段」圖示 ![](assets/segment_icon.png)
+「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，
 
-在左邊導覽中，區段邊欄隨即顯示。
+區段欄隨即顯示。
 
 **舊式報表套裝下拉式清單移至何處?**
 
@@ -81,7 +80,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **我是否可以看見公司中的所有區段?**
 
-Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL Reports & Analytics] user interfaces.
+是的，管理員可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
 
 「Ad Hoc Analysis」和「Report Builder」會顯示區段您所擁有和已共用給您的區段。
 
@@ -138,11 +137,11 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 ![](assets/duplicate_seg_names.png)
 
-您有個書籤是引用 mainprod 報表套裝中的區段。然後您會刪除該區段，因為它是重複的。 書籤將會繼續運作，引用已刪除之區段的定義。如果您將 maindev 區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或排程報表是否使用已刪除的區段，您可以變更剩餘區段的名稱，以便更清楚書籤是否使用剩餘的區段。
+您有個書籤是引用 mainprod 報表套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將 maindev 區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或已計劃報表是否正在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否正使用剩下那個區段。
 
 **Data Warehouse 區段有何變化?**
 
-所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分的資料倉庫區段也適用於其他元件，例如分析工作區、臨機分析和報告與分析。
+所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分 Data Warehouse 區段也可繼續在 Analysis Workspace、Ad Hoc Analysis 和 Reports &amp; Analytics 等其他元件中運作。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
 
@@ -182,7 +181,7 @@ Yes, Admins can see all segments within the [!DNL Analysis Workspace] and [!DNL 
 
 **管理員**&#x200B;區段將會移轉至新的區段介面，並顯示為共用給每個人的區段。
 
-這些區段的擁有者會設為具有登入公司管理員使用者清單中最舊帳戶的管理員，但是所有管理員都可以刪除、編輯和共用這些區段。
+這些區段的擁有者是設為其帳戶在登入公司的管理員使用者清單中存在最久的管理員，不過所有管理員都可以刪除、編輯和共用這些區段。
 
 「管理主控台」中原本供管理員建立和管理這些全域區段的區段管理介面已不存在。管理員現在應該使用新的區段產生器，來建立區段以及將區段共用給適當的群組/個人或每個人。
 
@@ -198,13 +197,13 @@ seg_definition.xml
 
 請參考下列提示來移轉常見維度:
 
-* 地域城市／地區／國家——搜尋並選取特定城市、地區或國家，而非使用部分比對。
-* 瀏覽器——使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如Google Chrome
-* 作業系統——使用「作業系統類型」維度來取得某個類型的所有作業系統，例如Microsoft Windows。
+* 地域城市/地區/國家 - 搜尋並選取特定城市、地區或國家，而不是使用局部比對。
+* 瀏覽器 - 使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如 Google Chrome
+* 作業系統 - 使用「作業系統類型」維度來取得某個類型的所有作業系統，例如 Microsoft Windows。
 
 * [新維度和經過重新命名的維度](/help/components/c-segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [包含的變更](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [變更為小於和大於](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* [「包含」的變更](/help/components/c-segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
+* [「小於」和「大於」的變更](/help/components/c-segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
 ## 新維度和經過重新命名的維度 {#section_73CF121B64A24DEF8E6499F3167BF742}
 
