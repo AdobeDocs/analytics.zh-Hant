@@ -1,11 +1,10 @@
 ---
 description: 顯示瀏覽內每個值引發所在處的平均深度。在判斷您的訪客經過多深入的瀏覽後才進入指定頁面或 prop 值時，這會是很有價值的量度。平均頁面深度可用於任何已啟用路徑的變數。
-solution: Analytics
 title: 平均頁面深度
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
