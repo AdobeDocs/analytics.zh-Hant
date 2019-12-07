@@ -1,22 +1,21 @@
 ---
 description: 報表套裝可全面而獨立地定義對選定網站、一組網站或網頁子集的報告。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理器」可讓您定義用以控管如何在報表套裝中處理資料的規則。
-solution: Analytics
-title: 報表套裝管理員
+title: 報表套裝管理器
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 報表套裝管理員
+# 報表套裝管理器
 
 報表套裝可全面而獨立地定義對選定網站、一組網站或網頁子集的報告。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理器」可讓您定義用以控管如何在報表套裝中處理資料的規則。
 
-**[!UICONTROL 分析]** &gt;管 **[!UICONTROL 理]** &gt;報 **[!UICONTROL 表套裝]**
+**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**
 
-> [!NOTE] 虛擬報表套裝是透過 **[!UICONTROL Analytics]** &gt;元 **[!UICONTROL 件]** &gt;虛 **[!UICONTROL 擬報表套裝管理]**。 請參閱虛擬報 [表套裝檔案](/help/components/vrs/vrs-about.md)。
+> [!NOTE] 虛擬報表套裝可透過&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 虛擬報表套裝」]**&#x200B;來管理。請參閱[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)。
 
 ## 報表套裝管理器說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
@@ -31,7 +30,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 選擇報表套裝</span> </td> 
+   <td colname="col1"> <span class="wintitle"> 選取報表套裝</span> </td> 
    <td colname="col2"> <p><span class="wintitle">「報表套裝管理器」</span>會反白標示選取的報表套裝。您可以用 <span class="uicontrol">Ctrl+click</span> 或 <span class="uicontrol">Shift+click</span> 選取多個報表套裝。 </p> <p>選擇的報表套裝保持已選狀態，直至選擇另一個報表套裝為止。 </p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +51,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 統計</span> </td> 
-   <td colname="col2"> <p>「統計」是指將數個其他報表套裝的追蹤資料結合在內的單一報表套裝。 </p> <p>See <a href="/help/admin/c-manage-report-suites/rollup-report-suite.md"> Rollup Report Suites</a>. </p> </td> 
+   <td colname="col2"> <p>「統計」是指將數個其他報表套裝的追蹤資料結合在內的單一報表套裝。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/rollup-report-suite.md">統計報表套裝</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 編輯設定</span> </td> 
@@ -72,7 +71,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 網站標題</span> </td> 
-   <td colname="col2"> <p>在「管理工具」，以及行銷報告標頭的報表套裝下拉式清單中，識別報表套裝。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的報表套裝</a>。 </p> </td> 
+   <td colname="col2"> <p>在「管理工具」，以及行銷報表標頭的報表套裝下拉式清單中，識別報表套裝。 </p> <p>請參閱<a href="/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md">新的報表套裝</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 基礎 URL</span> </td> 
