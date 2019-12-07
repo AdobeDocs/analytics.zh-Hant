@@ -1,12 +1,11 @@
 ---
 description: AJAX 是網頁設計的新興概念，採用多種技術建立及管理網頁上的動態內容。
 keywords: Analytics Implementation
-solution: Analytics
 title: AJAX- 追蹤多媒體應用程式
 topic: Developer and implementation
 uuid: ffe6a263-ae18-4875-badb-b3aea3efcb64
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
