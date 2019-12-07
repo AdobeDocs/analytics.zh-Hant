@@ -1,12 +1,11 @@
 ---
 description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
-solution: Analytics
 subtopic: Marketing channels
 title: 行銷渠道中的分類
 topic: Reports and analytics
 uuid: 8b31cff5-36a6-4072-b0f9-f932dc890a87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,13 +14,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 
-Classifications that you add in this procedure display in the [!UICONTROL Marketing Channel Overview] report as [!UICONTROL Channel Values]. 渠道值是渠道詳情中未分類的值。
+您在此程序中新增的分類，在[!UICONTROL 行銷管道概述]報表中顯示為[!UICONTROL 管道值]。渠道值是渠道詳情中未分類的值。
 
-> [!NOTE] 請確定您熟悉在「Analytics參考」說明的「 [分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) 」中建立分類。
+> [!NOTE] 請務必詳閱 Analytics Reference 說明[中分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)所列的分類建立方式。
 
 >[!IMPORTANT]
 >
->「行銷管道」分類報表的行為與標準分類略有不同：當您為首次接觸或上次接觸報表建立分類時，它們會自動套用至兩者。 不對其他分類，就無法對其分類。
+>「行銷管道」分類報表的運作方式與標準分類略有不同: 當您為首次接觸或上次接觸報表建立分類時，系統會同時自動套用至兩者。兩者均須分類，無法只分類其中一個。
 
 ## 行銷渠道分類 - 定義 {#mktg-channel-classifications}
 
@@ -35,8 +34,8 @@ Classifications that you add in this procedure display in the [!UICONTROL Market
 
 建立[!UICONTROL 行銷管道]報表分類。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Classification]**.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 在[!UICONTROL 報表套裝管理器]中，按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 行銷管道]** &gt; **[!UICONTROL 行銷管道分類」]**。
 <!--
 1. On the [Marketing Channel Classifications](/help/components/c-marketing-channels/classifictions-mchannel.md) page, specify the classification type.
 -->
