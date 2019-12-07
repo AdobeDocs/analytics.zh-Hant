@@ -1,11 +1,10 @@
 ---
-description: 顯示您的線上媒體存取統計資料。報表會顯示視訊及其他媒體存取的相關資料。
-solution: Analytics
+description: 顯示您的線上媒體存取統計資料。報告會顯示影片及其他媒體存取的相關資料。
 title: 影片
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -45,4 +44,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-See [Measuring audio and video in Adobe Analytics](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/).
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/)。
