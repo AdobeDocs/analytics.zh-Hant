@@ -1,13 +1,12 @@
 ---
 description: 客戶可使用標準型編碼 (例如 gzip) 來壓縮 JavaScript 程式庫檔案。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 檔案壓縮
 topic: Developer and implementation
 uuid: 609fec4b-2732-4ef5-9263-32192e4f0825
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
