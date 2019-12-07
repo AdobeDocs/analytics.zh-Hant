@@ -1,12 +1,11 @@
 ---
 description: 瞭解 s.linkTrackVars 和 s.linkTrackEvents 變數，是成功實施連結追蹤的關鍵。這可讓您傳送使用者動作的自訂變數值。
 keywords: Analytics Implementation
-solution: Analytics
 title: 使用 s.linkTrackVars 和 s.linkTrackEvents
 topic: Developer and implementation
 uuid: f6b7019b-987b-4b7d-a446-80205f7cc36c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
