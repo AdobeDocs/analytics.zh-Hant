@@ -1,12 +1,11 @@
 ---
 description: 計劃實施虛擬報表套裝所需步驟的概觀。
 keywords: Virtual Report Suite
-solution: Analytics
 title: 虛擬報表套裝工作流程
 topic: Reports and analytics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png)規劃您的虛擬報表套裝策略。
 
-Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/components/vrs/vrs-considerations.md) and the FAQs as you decide on your strategy.
+決定您的策略時，請詳閱[全域/多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)和常見問題集。
 
 ![](assets/step2_icon.png)[套用一或多個區段至父報表套裝](/help/components/vrs/c-workflow-vrs/vrs-create.md)以建立虛擬報表套裝。
 
@@ -36,7 +35,7 @@ Familiarize yourself with [Global/Multi-Suite Tagging considerations](/help/comp
 * 在「虛擬報表套裝管理器」中編輯虛擬報表套裝。
 * 前往「管理員 &gt; 使用者管理 &gt; 群組」，然後選取具有虛擬報表套裝權限的群組，並按一下「編輯」。
 
-![](assets/step4_icon.png) 開啟專案或報表並選取虛擬報表套裝，以提供資料的分段檢視。
+![](assets/step4_icon.png) 開啟一個專案或報表，然後選取虛擬報表套裝以提供分段的資料檢視。
 
 ![](assets/step5_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虛擬報表套裝。
 
