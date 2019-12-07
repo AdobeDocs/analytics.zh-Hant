@@ -1,13 +1,12 @@
 ---
 description: Adobe 可使用 Cookie 來追蹤獨特的瀏覽器/裝置。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: 識別不重複訪客
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
