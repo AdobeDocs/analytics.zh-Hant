@@ -1,26 +1,25 @@
 ---
-description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
+description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。
 keywords: groups;permissions
-solution: Analytics
 subtopic: Users and groups
 title: 自訂維度權限
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 自訂維度權限
 
-> [!IMPORTANT] 使用者和產品管理移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+> [!IMPORTANT]使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
-在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報告和路徑報告。
+在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。
 
-**[!UICONTROL 使用者管理&gt;]** 群組&gt; **[!UICONTROL 報表存取]** &gt;維度 **[!UICONTROL &gt;自]** 訂 ******[!UICONTROL &gt;]**
+**[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 群組]** &gt; **[!UICONTROL 報表存取]** &gt; **[!UICONTROL 維度]** &gt; **[!UICONTROL 自訂]**
 
-> [!IMPORTANT] 目前無法存取某些維度。 這些維度包括: 行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
+> [!IMPORTANT] 目前部分維度無法提供權限。這些維度包括: 行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
 >
 >不論使用者具備哪些其他權限，所有使用者都可使用這些維度。
 
@@ -32,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * eVars 1-250 為個別取得權限。
 * 所有流量報表皆屬於維度。
-* 視訊和行動報表是維度，以及其他Analytics解決方案報表（Experience Manager、Advertising Cloud、Social等）。
+* 視訊和行動報表以及其他 Analytics 解決方案報表 (Experience Manager、Advertising Cloud、Social 等) 均屬維度。
 * 如果用戶有權存取父維度，則可以使用路徑報表。
 * 自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。
 * Classifications Importer (即原 SAINT) 權限: 存取類別是由存取類別基準的[變數](https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html)所決定。 
@@ -69,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>標準 </p> </td> 
-   <td colname="col2"> <p>請參閱 Analytics 中的標準 （現成可用的）維度。 </p> </td> 
+   <td colname="col2"> <p>請參閱 Analytics 中的標準(現成) 維度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
