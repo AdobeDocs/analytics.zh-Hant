@@ -1,12 +1,11 @@
 ---
 description: 建立數值 2 分類的方法與建立其他分類的方法一樣。您只能將數值 2 分類新增至轉換或通路變數。
-solution: Analytics
 subtopic: Classifications
 title: 建立數值 2 分類
 topic: Admin tools
 uuid: 5573e009-49aa-4dd6-8ac7-73046e4d9938
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,17 +14,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 建立數值 2 分類的方法與建立其他分類的方法一樣。您只能將數值 2 分類新增至轉換或通路變數。
 
-> [!NOTE] 在2018年5月10日的Analytics維護髮行中，Adobe開始限制啟用日期和數值分類的功能。 這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
+> [!NOTE] 在 2018 年 5 月 10 日的 Analytics 維護發行中，Adobe 已開始限制日期啟用和數值分類的功能。這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. Select the report suite, then click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
-1. Click the **[!UICONTROL Add Classification]** icon.
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 選擇報表套裝，然後按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 轉換分類」]**。
+1. 按一下&#x200B;**「新增分類」**&#x200B;圖示。
 1. 填寫欄位: 
 
-   **** 選擇類型：選擇 **[!UICONTROL 數值2]**。
+   **選擇類型:** 選擇&#x200B;**[!UICONTROL 數值 2]**。
 
    **名稱:** 指定分類的名稱。
 
-   **** 數值：選擇此分類是百 **[!UICONTROL 分比(%)]****[!UICONTROL 還是貨幣($)]**。
+   **數值:** 選擇此分類為&#x200B;**[!UICONTROL 百分比 (%)]** 還是&#x200B;**[!UICONTROL 貨幣 ($)]**。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
