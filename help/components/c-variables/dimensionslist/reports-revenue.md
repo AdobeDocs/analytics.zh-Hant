@@ -1,11 +1,10 @@
 ---
 description: 測量在特定時段內透過您所有的產品所產生的收入金額。
-solution: Analytics
 title: 收入
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -33,11 +32,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
        s.events="purchase"
       ```
 
-* 若 [!UICONTROL s.products] 變數中有多項產品存在，則所有產品都將計入收入報告中。For example, [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] would pass $9 in revenue to reporting.
+* 若 [!UICONTROL s.products] 變數中有多項產品存在，則所有產品都將計入收入報告中。以 [!DNL s.products="Mens;Socks;1;4.50,Womens;Socks;1;4.50"] 為例，報表中將會傳入 $9 的收入。
 
    >[!NOTE]
    >
-   >如果單一產品的數量增加，收入不會乘以數量。 For example, [!DNL s.products="Womens;Socks;5;4.50"] does not pass $22.50 into reporting, it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed ( [!DNL s.products="Womens;Socks;5;22.50"]).
+   >當單一產品的數量增加時，收入金額並不會乘上此數量。以 [!DNL s.products="Womens;Socks;5;4.50"] 為例，傳入報表中的並不是 $22.50，而是 $4.50。請確認您的實作傳入的是所列數量的收入總額 ([!DNL s.products="Womens;Socks;5;22.50"])。
 
 * [!UICONTROL 「收入」]會將某個時段的總金額四捨五入到最接近的貨幣值。它不會四捨五入個別的產品或點擊。
 * 由於 Analytics 會將每天的金額四捨五入到最接近的整數貨幣值，因此在比較每天加總起來的金額與每月總額時，可能會略有差異。這是因為每月總額並非每天四捨五入後加總的金額，而是四捨五入到最接近之整數貨幣值的絕對總額。
@@ -65,15 +64,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 產品特定屬性 {#section_ED87FFD020634453AABE86B0248BE69B}
 
-* This report can be accessed by going to **[!UICONTROL Conversion]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* 此報表可從&#x200B;**[!UICONTROL 轉換]** &gt; **[!UICONTROL 購買]** &gt; **[!UICONTROL 收入]**&#x200B;存取。
 
 * [!UICONTROL 流量來源]劃分可從[!UICONTROL 「尋找方法」]下存取。
 
-* This report can be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* 此報表可從&#x200B;**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 購買]** &gt; **[!UICONTROL 收入]**&#x200B;存取。
 
 * 除了前述所有的劃分外，您也可以使用[!UICONTROL 首次和最後一次接觸行銷管道]劃分。
 
-* This report can also be accessed by going to **[!UICONTROL Site Metrics]** &gt; **[!UICONTROL Purchases]** &gt; **[!UICONTROL Revenue]**.
+* 此報表也可從&#x200B;**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 購買]** &gt; **[!UICONTROL 收入]**&#x200B;存取。
 
 * 除了前述的劃分外，您也可以使用[!UICONTROL 清單]變數與目前的[!UICONTROL 影片]變數。
 
