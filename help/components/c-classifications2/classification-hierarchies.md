@@ -1,12 +1,11 @@
 ---
 description: 「分類階層」頁面可讓您定義分類階層，以便用來建立具有相同名稱的階層報告。
-solution: Analytics
 subtopic: Classifications
 title: 分類階層
 topic: Admin tools
 uuid: 1b2b73af-84ea-4b90-b4a5-ba75235547fb
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 請先建立分類，之後才能將其新增至階層。
 
-## Create a Classification Hierarchy {#task_3805EBCACC844261A7125D63D772CCDF}
+## 建立分類階層 {#task_3805EBCACC844261A7125D63D772CCDF}
 
 <!-- 
 
@@ -35,9 +34,9 @@ t_classification_heirarchy.xml
 
  -->
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 選擇報表套裝.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Classification Hierarchies]**.
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 選取報表套裝。
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 分類階層」]**。
 1.  在&#x200B;**建立階層用於**&#x200B;下拉式清單中，選取您想建立分類階層的變數。
 
    分類清單會自動顯示可用於選定變數的分類。
