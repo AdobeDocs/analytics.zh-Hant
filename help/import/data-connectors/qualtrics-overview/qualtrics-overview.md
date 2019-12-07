@@ -1,19 +1,18 @@
 ---
-description: 此整合結合了Qualtrics Research Suite的客戶研究功能與您在Adobe Analytics中收集的豐富資料，為您的組織建立強大的分析與最佳化機會。
-solution: Analytics
+description: 此整合結合了Qualtrics Research suite的客戶研究功能與您在Adobe Analytics中收集的豐富資料，為您的組織建立強大的分析與最佳化機會。
 subtopic: Qualtrics
 title: Adobe Analytics的Qualtrics Data Connector
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Qualtrics Data Connector for Adobe Analytics{#qualtrics-data-connector-for-adobe-analytics}
 
-此整合結合了Qualtrics Research Suite的客戶研究功能與您在Adobe Analytics中收集的豐富資料，為您的組織建立強大的分析與最佳化機會。
+此整合結合了Qualtrics Research suite的客戶研究功能與您在Adobe Analytics中收集的豐富資料，為您的組織建立強大的分析與最佳化機會。
 
 此雙向整合會先將Qualtrics調查回應資料與訪客點按流資料連接。 然後，它會從Adobe Analytics將相關行為動作和屬性重新插入Qualtrics調查報表。
 
