@@ -1,10 +1,9 @@
 ---
 description: 分析報告 API 的比較表。提供支援文件的連結。
-solution: Analytics
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -63,16 +62,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <b>訪客資料處理</b> </td> 
-   <td colname="col2"> 有 </td> 
-   <td colname="col3"> 否 </td> 
-   <td colname="col4"> 否 </td> 
+   <td colname="col2"> 是 </td> 
+   <td colname="col3"> 無 </td> 
+   <td colname="col4"> 無 </td> 
    <td colname="col5"> 是 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>支援區段</b> </td> 
-   <td colname="col2"> 有 </td> 
-   <td colname="col3"> 否 </td> 
-   <td colname="col4"> 否 </td> 
+   <td colname="col2"> 是 </td> 
+   <td colname="col3"> 無 </td> 
+   <td colname="col4"> 無 </td> 
    <td colname="col5"> 是 (但僅限 Data Warehouse 相容區段) </td> 
   </tr> 
   <tr> 
