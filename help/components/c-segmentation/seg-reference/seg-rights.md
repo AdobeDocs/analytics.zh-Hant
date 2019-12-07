@@ -1,11 +1,10 @@
 ---
 description: 區段的功能現在主要是以管理員級使用者與非管理員級使用者做區隔。
-solution: Analytics
 title: 不同角色的區段權限
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   <tr> 
    <td colname="col1"> <b>管理員級使用者</b> </td> 
    <td colname="col2"> 可以將區段共用給整個公司、使用者群組以及個別使用者。 </td> 
-   <td colname="col3"> <span class="keyword"> 分析工作區、報告與分析 </span>:可檢視／編輯／刪除…… 他們自己和其他使用者的區段。 <p> <span class="keyword"> 臨機分析 </span> 與報 <span class="keyword"> 告建立工具 </span>:可檢視／編輯／刪除……他們自己的群體和與他們分享的群體。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>: 可以檢視/編輯/刪除自己所擁有和其他使用者的區段。 <p> <span class="keyword">Ad Hoc Analysis</span> 和 <span class="keyword">Report Builder</span>: 可以檢視/編輯/刪除自己所擁有和已共用給自己的區段。 </p> </td> 
    <td colname="col4"> 可以核准區段做為標準區段。 </td> 
    <td colname="col5"> 可以套用整個組織內的任何區段。 </td> 
   </tr> 
