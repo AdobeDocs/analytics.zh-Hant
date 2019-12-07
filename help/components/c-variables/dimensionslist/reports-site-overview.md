@@ -1,11 +1,10 @@
 ---
 description: 「網站量度 > 網站綜覽」報告在登入時顯示，可讓您立即檢視並與相關資料互動。您可以編輯版面、將其儲存為控制面板，以及下鑽資料以進行更深入分析。
-solution: Analytics
 title: 網站綜覽
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
