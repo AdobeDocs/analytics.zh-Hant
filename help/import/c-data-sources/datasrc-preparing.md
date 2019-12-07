@@ -1,12 +1,11 @@
 ---
 description: 使用資料來源的準備步驟
-solution: Analytics
 subtopic: Data sources
 title: 準備使用資料來源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * [識別及命名量度](/help/import/c-data-sources/datasrc-preparing.md#section_0D1DA6D7768E4C4CB6E9A2F4639C0135)
 * [識別資料維度](/help/import/c-data-sources/datasrc-preparing.md#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A)
-* [促銷活動追蹤代碼](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
+* [促銷活動追蹤程式碼](/help/import/c-data-sources/datasrc-preparing.md#section_468222796FF449ABAA90D88EB3264CB1)
 * [交易 ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [識別「資料來源」資料的有效日期範圍](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
@@ -47,7 +46,7 @@ It is important to understand the metrics or measurements that are contained in 
 
 請參閱「分析說明」中的「[成功事件](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)」。
 
-## 促銷活動追蹤代碼 {#section_468222796FF449ABAA90D88EB3264CB1}
+## 促銷活動追蹤程式碼 {#section_468222796FF449ABAA90D88EB3264CB1}
 
 除了匯入成功事件，您也可以選擇匯入關聯的 eVar 值。例如，若您以促銷活動追蹤代碼追蹤線上活動，且離線量度有促銷活動追蹤代碼，就可以用促銷活動追蹤代碼匯入量度。這個方法讓您可以在促銷活動報表中檢視線上和離線量度。
 
