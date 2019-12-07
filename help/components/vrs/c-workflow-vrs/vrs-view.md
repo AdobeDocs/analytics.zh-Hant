@@ -1,12 +1,11 @@
 ---
 description: 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相關資訊。
 keywords: Virtual Report Suite
-solution: Analytics
 title: 檢視虛擬報表套裝資訊
 topic: Reports and analytics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
