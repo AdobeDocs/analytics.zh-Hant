@@ -1,13 +1,12 @@
 ---
 description: 在 AppMeasurement.js 中設定的設定變數。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 設定變數
 topic: Developer and implementation
 uuid: a19484b6-e350-4c12-b4d6-a31c79a42db0
 translation-type: tm+mt
-source-git-commit: bc8d4e922a776596c9af83a1cd6e22f8967ef2d0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
