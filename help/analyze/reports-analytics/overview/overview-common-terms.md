@@ -1,11 +1,10 @@
 ---
 description: 行銷報告中常用之網站分析詞語的簡介。
-solution: Analytics
 title: 常用詞語
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -47,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p>某一位置的頁面檢視順序。瀏覽在非活動狀態持續 30 分鐘，或持續活動-發生 12 個小時後結束。(這個時間長度是網站分析的業界標準)。瀏覽是由 Cookie 進行追蹤。當檢視者存取頁面，就表示開始瀏覽。瀏覽有時也稱為 <span class="term"> session</span>, but it is not a browser session. 前往其他網站、關閉瀏覽器或甚至重新啟動電腦，都不會結束瀏覽。 </p> <p> 如果在訪客閱讀頁面時發生閒置逾時，瀏覽就會關閉並進行處理。當訪客點進其他頁面，就開始新的瀏覽。 </p> <p>如果在瀏覽途中日期變更了，例如在午夜時瀏覽網站，則該次瀏覽會計入瀏覽開始當天。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p> 獨特訪客 </p> </td> 
+   <td> <p> 不重複訪客 </p> </td> 
    <td> <p>獨特訪客報告揭示了在您選定的時段中，訪問您網站的不同訪客的數目。有 6 種不同的「獨特訪客」報告: </p> 
     <ul id="ul_863B8DE8B9E74DE4A93C2C2931EEFB6D"> 
      <li id="li_21C835B71EF64B4DA821B674416C8B85">每小時 </li> 
