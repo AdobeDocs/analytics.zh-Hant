@@ -1,11 +1,10 @@
 ---
 description: 您可以排程報表以按照定義的時間和檔案格式傳送。
-solution: Analytics
 title: 排程資料請求
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -47,7 +46,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | 選擇報表 | 活頁簿的名稱。 對於新的排程報表，系統會將作用中活頁簿的名稱填入此欄位。 |
 | 選擇 | 顯示「選擇報表」頁面。您可以從伺服器 (儲存舊排程活頁簿的位置) 選擇報表，或從本機電腦選擇。如果您從本機磁碟選擇 .xls 格式的活頁簿，系統會將檔案轉換為 .xlsx。在轉換過程中，系統會在 Excel 開啟檔案並使其成為作用中狀態。如果排程報表的選擇活頁簿檔案名稱與目前在 Excel 中開啟的活頁簿檔案名稱相同，系統會選擇本機檔案而非先前上傳的檔案。如果您從排程儲存庫選取報表，則會在伺服器上建立活頁簿副本，其檔案名稱會更新為1。新建立的排程報表會使用複製的活頁簿。 |
 | 自訂 | 可讓您自訂日期格式。 |
-| 收件者 | 顯示 Outlook 通訊錄 (若有的話)。 |
+| 結束日期 | 顯示 Outlook 通訊錄 (若有的話)。 |
 | 傳送至: 電子郵件 | 活頁簿的電子郵件收件者。 |
 | 傳送至: 發佈清單 | 顯示此公司的可用分送清單。 |
 | Power BI | 如需詳細資訊，請參閱[將活頁簿發佈至 Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)。 |
