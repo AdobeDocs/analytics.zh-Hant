@@ -1,11 +1,10 @@
 ---
 description: 分類分支是用於映射可回報資料的分析到相關屬性。分類的用途廣泛，但最常用來分類促銷活動追蹤程式碼 (內部和外部) 和產品 ID。
-solution: Analytics
 title: 分類
 topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
