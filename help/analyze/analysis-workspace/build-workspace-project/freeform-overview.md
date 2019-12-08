@@ -1,19 +1,18 @@
 ---
 description: 'null'
 keywords: Analysis Workspace
-solution: Analytics
-title: 建立專案 - 概觀
+title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 建立專案 - 概觀
+# 建立專案 - 概述
 
-**[!UICONTROL Analytics]** &gt;工作 **[!UICONTROL 區]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
 
 您可以根據任何視覺效果、報表元件以及資料表格的組合，建立強大的 Analytics 專案。它將「Ad Hoc Analysis」的許多表格產生器功能引進 Analytics。
 
@@ -23,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 工作區專案清單頁面 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**, the page lists all the projects you own or have been granted access to. You can set this page to be your Adobe Analytics landing page by clicking **[!UICONTROL Set as Landing Page]**. (如果您看不到如下方螢幕擷取畫面所示的選項，即表示該頁面已為您的著陸頁面。)
+如果您先前往「**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace」]**，此頁面會列出所有您擁有或有權存取的專案。您可以按一下&#x200B;**[!UICONTROL 「設為登陸頁面」]**，將此頁面設定為您的 Adobe Analytics 登陸頁面。(如果您看不到如下方螢幕擷取畫面所示的選項，即表示該頁面已為您的著陸頁面。)
 
 ![](assets/sample-project.png)
 
@@ -31,18 +30,18 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 | 元素 | 說明 |
 |---|---|
-| 專案 [範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
+| 專案[範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
 | [建立新專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 按一下此連結即可從頭開始建立新的專案。 |
-| 管理專案 | Clicking this link takes you to the Projects Component Manager ( **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Projects]**), which lists all your projects and lets you tag, share, delete, rename, approve, copy, and export projects to CSV. |
+| 管理專案 | 按一下此連結，您就會前往「專案元件管理員」(**[!UICONTROL 「分析]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 專案」]**)，這裡會列出您的所有專案，且可供您標記、共用、刪除、重新命名、核准、複製，以及匯出為 CSV。 |
 | 觀看教學課程 | 將您導向 [Analysis Workspace YouTube 影片](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
 | 名稱 | 「工作區」專案名稱。 |
 | 建立者 | 建立此專案的人 (您或與您共用專案的人)。 |
-| 標記 | Tags that were applied to the project, either in the Projects Component Manager or under **[!UICONTROL Workspace]** &gt; **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]**. |
+| 標記 | 套用至專案的標記，位於「專案元件管理員」或&#x200B;**[!UICONTROL 「Workspace]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 專案資訊和設定」]**&#x200B;中。 |
 | 上次修改 | 上次修改專案的日期和時間。 |
 
 ## 專案資訊和設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
-**[!UICONTROL 工作區]** &gt;專 **[!UICONTROL 案]** &gt;專 **[!UICONTROL 案資訊與設定]**
+**[!UICONTROL Workspace]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 專案資訊和設定]**
 
 ![](assets/projectinfo.png)
 
@@ -67,12 +66,12 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 次功能表包含下列選項。
 
-> [!NOTE] 以星號(*)標示的選項只會與儲存的專案一 **起顯** 示。
+> [!NOTE]以星號 (*) 標示的選項只會顯示在&#x200B;**已儲存**&#x200B;的專案。
 
 | 專案 | 編輯 | 插入 | 元件 | 共用 | 說明 |
 |---|---|---|---|---|---|
-| 新增 | 復原 | 新增面板 | 新增區段 | 共用專案 | 視訊 |
-| 開啟 | 清除 | 新增自由格式面板 | 新增量度 | 取得專案連結* | 快捷鍵 |
+| 新增 | 還原 | 新增面板 | 新增區段 | 共用專案 | 視訊 |
+| 開啟 | 清除 | 新增自由格式面板 | 新增量度 | 取得專案連結* | 快速鍵 |
 | 儲存 | 全部清除 | 新增區段比較面板 | 新增日期範圍 | 立即傳送檔案* | 說明論壇 |
 | 另存新檔* |  | 新增自由表格 | 新增警報 | 依排程傳送檔案* |  |
 | 設定為著陸頁面* |  | 新行 | 重新整理元件 | 組織專案資料 |  |
@@ -83,8 +82,8 @@ When you first go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**,
 
 ## 左側欄 {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-The left rail has 3 icons, allowing you access to Panels, [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md), and [Components](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(Dimensions, Metrics, Segments, Data Ranges) with one click:
+左側欄有 3 個圖示，您只需按一下即可存取「面板」、[「視覺效果」](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和[「元件」](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(維度、量度、區段、資料範圍):
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-會新增「**[!UICONTROL 空白面板]」至可從左側欄存取的面板清單。**&#x200B;若要建立「**新同類群組面板**」，拖曳至「空白面板」並拖曳至「同類群組表格」視覺效果。
+會新增「**[!UICONTROL 空白面板]**」至可從左側欄存取的面板清單。若要建立「**新同類群組面板**」，拖曳至「空白面板」並拖曳至「同類群組表格」視覺效果。
