@@ -1,11 +1,10 @@
 ---
 description: 顯示存取您網站所用的行動裝置詳細清單。
-solution: Analytics
 title: 裝置
 topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
