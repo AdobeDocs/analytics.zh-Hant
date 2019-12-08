@@ -1,13 +1,12 @@
 ---
 description: 頁面變數會直接填入一份報告，如 pageName、List Props、List Variables 等。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -36,7 +35,7 @@ events.xml
  <tbody> 
   <tr> 
    <td> 不限 </td> 
-   <td> 事件 </td> 
+   <td> events </td> 
    <td> <p>購物車事件 </p> <p>自訂事件 </p> </td> 
    <td> 不適用 </td> 
   </tr> 
