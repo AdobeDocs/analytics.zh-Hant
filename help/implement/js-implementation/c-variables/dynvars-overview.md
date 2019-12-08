@@ -1,13 +1,12 @@
 ---
 description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 動態變數
 topic: Developer and implementation
 uuid: 1c6db083-570e-4bc4-858d-84cf46e7bec8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
