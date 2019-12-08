@@ -1,12 +1,11 @@
 ---
 description: 說明如何刪除或移除分類資料的步驟。
-solution: Analytics
 subtopic: Classifications
 title: 刪除分類資料
 topic: Admin tools
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 translation-type: tm+mt
-source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,10 +18,10 @@ source-git-commit: e526a38415135440f666ecadd73c34920c0c4c1d
 
 移除分類資料時，會上傳包含或位於 `~empty~` 適當儲 `~deletekey~` 存格中的分類檔案。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Classification Importer]**.
-1. Click **[!UICONTROL Browser Export]**.
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 分類匯入工具」]**。
+1. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]**。
 1. 選取您要移除其中之分類資料的報表套裝和資料集。
-1. Adjust any optional settings to filter specific data you're looking for, then click **[!UICONTROL Export File]**.
+1. 調整任何可選的設定，以篩選您在尋找的特定資料，然後按一下&#x200B;**[!UICONTROL 「匯出檔案」]**。
 1. 下載檔案後，請開啟檔案並以或取代任何分 `~empty~` 類值 `~deletekey~`。
 1. 將檔案儲存為以Tab分隔的文字檔案。
 1. 按一 **[!UICONTROL 下「匯入檔案]**」，然後將儲存的分類檔案上傳回Adobe Analytics。
