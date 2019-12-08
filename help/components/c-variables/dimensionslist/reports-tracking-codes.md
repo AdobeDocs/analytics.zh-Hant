@@ -1,11 +1,10 @@
 ---
 description: 評量不同的廣告追蹤程式碼對您網站上不同的轉換事件有何影響。此報告可用來評量哪些特定促銷活動可讓不同的成功事件產生較佳的績效，或用來檢視促銷活動為何有助於或有礙於網站計劃的推動；例如哪些促銷活動可產生最多收益。
-solution: Analytics
 title: 追蹤程式碼
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
 translation-type: tm+mt
-source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 * 此報告會直接參照來自於網站上實施之 [s.campaign](/help/implement/js-implementation/page-variables/page-variables.md) 變數的資料。
 * 此報告所依據的變數為[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。也就是說，轉換變數可跨頁面檢視而存留，並可在其指定的有效期內與量度產生關聯。
-* 此報告的預設量度為「收入」。您可以在[!UICONTROL 「管理工具」]的[!UICONTROL 「報表套裝管理器」]中變更此預設值。( **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Individual Report Settings]** &gt; **[!UICONTROL Default Metrics]**.)
+* 此報告的預設量度為「收入」。您可以在[!UICONTROL 「管理工具」]的[!UICONTROL 「報表套裝管理器」]中變更此預設值。(**[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 個別報表設定]** &gt; **[!UICONTROL 預設量度]**。)
 
 * 此報告可使用趨勢與排名格式來檢視。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
@@ -37,14 +36,14 @@ source-git-commit: 5f087807ddff07f2439f82061e471624381febf8
 
 * 以下是可在此報告中使用的量度 (視組織與報表套裝設定而定):
 
-   * Click-throughs: the number of times the *`s.campaign`* variable is defined
+   * 點進次數: *`s.campaign`* 變數已定義的次數
    * 所有標準電子商務量度: 收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等。
    * 所有自訂事件: 事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100
    * 瀏覽與訪客: 是否可用須視組織與報表套裝而定。請洽詢您的客戶經理，以取得相關資訊。
 
 **Reports &amp; Analytics 屬性**
 
-* Click **[!UICONTROL Conversion]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** to locate this report, unless the menu is customized.
+* 按一下&#x200B;**[!UICONTROL 「轉換]** &gt; **[!UICONTROL 促銷活動]** &gt; **[!UICONTROL 追蹤程式碼」]**&#x200B;即可找到此報表 (除非已自訂功能表)。
 
 * 此報表還可由所有[清單變數](https://marketing.adobe.com/resources/help/en_US/sc/implement/list_var.html)劃分。
 * 頁面檢視、瀏覽與獨特訪客皆可作為量度。
