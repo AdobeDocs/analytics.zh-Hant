@@ -1,11 +1,10 @@
 ---
 description: 您可以自訂報表的傳送計劃。您可以在特定時間停止傳送，也可以指定某一報表的傳送次數。新計劃會使用報表中定義的日期範圍。例如，如果您針對最近 90 天建立了報告，並排程讓其每天執行，則會每天收到最近 90 天的報告。如果您是從日曆的靜態日期範圍建立報表，則每次報表傳送時，您看到的都是相同的報表。
-solution: Analytics
 title: 計劃管理員
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
