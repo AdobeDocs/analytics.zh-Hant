@@ -1,11 +1,10 @@
 ---
 description: 您可以從含有請求的工作表選擇儲存格，藉此指定日期範圍。Report Builder 會在這些請求中使用特定的日期範圍資訊。如果選擇今天的日期，您可以根據請求執行的時間來查看一部分資料。
-solution: Analytics
 title: 來自儲存格的日期
 topic: Report builder
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
