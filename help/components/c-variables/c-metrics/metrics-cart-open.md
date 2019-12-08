@@ -1,11 +1,10 @@
 ---
 description: 客戶因新增第一個項目而開啟購物車的次數。發生於首次將項目新增至購物車時。此值來自於 scOpen 事件。
-solution: Analytics
 title: 購物車開啟
 topic: Metrics
 uuid: 3aac7908-979e-48db-a6d4-580863657e3c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
