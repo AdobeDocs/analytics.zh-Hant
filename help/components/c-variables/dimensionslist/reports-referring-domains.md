@@ -1,11 +1,10 @@
 ---
-description: 顯示對網站的「成功量度」影響最大之客戶的反向連結網域。反向連結分為兩個主要類別：網域和URL。 「網域」指的是網域名稱，以不含查詢字串或子目錄的基本網域形式出現。URL 包括基本網域名稱，亦包括任意字串或子目錄。
-solution: Analytics
+description: '顯示對網站的「成功量度」影響最大之客戶的反向連結網域。反向連結分為兩種主要類別: 網域與 URL。「網域」指的是網域名稱，以不含查詢字串或子目錄的基本網域形式出現。URL 包括基本網域名稱，亦包括任意查詢字串或子目錄。'
 title: 反向連結網域
 topic: Reports
 uuid: ab310bb8-51b1-4428-a42e-2377d36ca986
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
