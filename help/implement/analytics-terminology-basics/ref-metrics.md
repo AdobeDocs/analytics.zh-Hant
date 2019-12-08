@@ -1,12 +1,11 @@
 ---
 description: 量度是有關訪客活動的量化資訊，例如檢視、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 keywords: Analytics Implementation;metrics;traffic metric;conversion metric;video metric;social metric;calculated metric;page view;visit;unique visitor
-solution: Analytics
 title: 量度
 topic: Developer and implementation
 uuid: d2addb55-cae6-470d-b482-303ef365809c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
