@@ -1,28 +1,27 @@
 ---
 description: 可讓您利用過去在 Target Classic 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
-solution: Analytics
 title: 目標提升度和可信度
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 目標提升度和可信度
 
-Lets you assess the success of campaigns in Adobe Analytics in the same way you have done in [!DNL Target Classic]  in the past.
+可讓您利用過去在 [!DNL Target Classic] 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
 
-**[!UICONTROL Analytics]****[!UICONTROL &gt;報表]** &gt;檢 **[!UICONTROL 視所有報表]** &gt; Adobe Target **[!UICONTROL &gt; Analytics的Target活動]********** &gt; Target Analytics Target Activities 。
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 報表]** &gt; **[!UICONTROL 檢視全部報表]** &gt; **[!UICONTROL Adobe Target]** &gt; **[!UICONTROL Analytics for Target]** &gt; **[!UICONTROL Target 活動]**。
 
 Adobe Target 文件包含更多關於[提升度](https://marketing.adobe.com/resources/help/en_US/target/target/c_estimating_lift_in_revenue.html)和[可信度](https://marketing.adobe.com/resources/help/en_US/rec/c_Confidence_Level_and_Confidence_Interval.html)的詳細資訊。
 
 若要計算提升度和可信度:
 
 1. 在&#x200B;**[!UICONTROL 「目標活動」]報表中，按一下某個活動以顯示其詳細資料。**
-1. Under Report Type, select **[!UICONTROL Lift and Confidence]**.
+1. 在「報表類型」下方選取&#x200B;**[!UICONTROL 「提升度和可信度」]**。
 1. 按一下&#x200B;**[!UICONTROL 「顯示量度」]以新增一個量度。**&#x200B;這種報表類型無法新增超過一個量度，因為最佳實務是只依據一個量度來評估測試。多個量度只會增加雜訊，降低測試訊號。
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. 大部分時候都是預設值「訪客」。
+1. (選用) 在&#x200B;**[!UICONTROL 標準化量度]**&#x200B;下方，選取下列其中一個項目: 訪客數、造訪次數或曝光數。大部分時候都是預設值「訪客」。
 
 1. 報表會新增這些量度，包括量度和標準化量度之間的比率。
 
