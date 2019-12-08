@@ -1,12 +1,11 @@
 ---
 description: 您可複製 eVar 的值至 prop，以啟用路徑。
-solution: Analytics
 subtopic: Processing rules
 title: 將 eVar 值複製至 Prop 以判斷路徑
 topic: Admin tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
