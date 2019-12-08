@@ -1,11 +1,10 @@
 ---
 description: 「Reports & Analytics」中可用的預先定義報告的定義，以及其他 Analytics 工具 (例如 Analysis Workspace) 中可用的維度。
-solution: Analytics
 title: 維度說明
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 「Reports &amp; Analytics」中可用的預先定義報告的定義，以及其他 Analytics 工具 (例如 Analysis Workspace) 中可用的維度。
 
-維度是度量資料的描述或特徵，可以在報表中加以檢視、劃分及比較。這些值和日期是非數值，可劃分或是原始報表類型量度的分類。
+維度是量度資料的描述或特徵，可以在報表中加以檢視、劃分及比較。它們是經過劃分的非數值和日期，或原始報表類型量度的分類。
 
 <table id="table_5F240226DE7C40D3B613178F5A829011"> 
  <thead> 
