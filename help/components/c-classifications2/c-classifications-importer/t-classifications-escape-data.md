@@ -1,12 +1,11 @@
 ---
 description: 說明如何在分類檔案中逸出分類資料的步驟。
-solution: Analytics
 subtopic: Classifications
 title: 逸出分類資料
 topic: Admin tools
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,11 +22,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >To specify a format of v2.1, enable **[!UICONTROL Quoted Output]** when exporting the file on the [!UICONTROL Classification Importer] page ( [!UICONTROL Browser Export] or [!UICONTROL FTP Export]).
+   >若要指定 v2.1 格式，請在[!UICONTROL 分類匯入工具]頁面上匯出檔案時 ([!UICONTROL 瀏覽器匯出]或 [!UICONTROL FTP 匯出])，啟用&#x200B;**[!UICONTROL 佇列的輸出]**。
 
-1. Surround the field containing special characters in double quotes (`"`).
+1. 以雙引號 (`"`) 括住包含特殊字元的欄位。
 
-A double quote character can appear in an escaped cell by replacing it with two double quote characters (`" "`). 例如:
+雙引號字元在逸出的儲存格中會顯示為兩個雙引號字元 (`" "`)。例如:
 
 ```
 My String "of data"
