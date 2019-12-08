@@ -1,12 +1,11 @@
 ---
 description: 路徑分析報表是可用於頁面的套裝功能，但您也可以對自訂流量變數啟用路徑分析。
 keywords: Analytics Implementation
-solution: Analytics
 title: 對 Prop 啟用路徑分析
 topic: Developer and implementation
 uuid: 582f7ecb-3f36-4d52-ac69-f74ad37c5f7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
