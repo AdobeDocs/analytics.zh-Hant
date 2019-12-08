@@ -1,12 +1,11 @@
 ---
 description: 完成整合精靈需要組織ID。 若要尋找此ID，您必須執行下列作業。
-solution: Analytics
 subtopic: Qualtrics
 title: 尋找您的Qualtrics組織ID
 topic: Data connectors
 uuid: ed27becd-7364-423b-8a49-35bf7217f4b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
