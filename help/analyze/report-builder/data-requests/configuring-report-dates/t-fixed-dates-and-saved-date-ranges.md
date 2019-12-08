@@ -1,11 +1,10 @@
 ---
 description: 當您指定固定日期或日期範圍時，Report Builder 會顯示報告日曆，它能供您選擇日期、日期範圍或預設日期。您也可以將固定日期儲存為範本，然後再指定目前的報表套裝或所有報表套裝是否要使用儲存的日期。
-solution: Analytics
 title: 固定日期和儲存的日期範圍
 topic: Report builder
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
