@@ -1,12 +1,11 @@
 ---
 description: 處理規則的常見使用案例。
-solution: Analytics
 subtopic: Processing rules
 title: 處理規則的範例
 topic: Admin tools
 uuid: 804190bd-30f0-4001-9569-6352e20bb00b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
