@@ -1,12 +1,11 @@
 ---
 description: 報表套裝可全面而獨立地定義對選定網站、一組網站或網頁子集的報告。一般情況下，報告套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入行銷報告、臨機分析和報告建立工具時，需選取一個要使用的報告套裝 (使用結合數個報告套裝的統計除外)。
 keywords: Analytics Implementation;reports;report suite;analytics report;global segment;roll-ups;rollups;combine report suites;traffic;conversion;path
-solution: Analytics
 title: 報表與報表套裝
 topic: Developer and implementation
 uuid: 288203f6-cd13-4e01-9950-2c7e5cfb8a17
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -47,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * [Adobe Report Builder](https://marketing.adobe.com/resources/help/en_US/arb/) 說明
 * [資料擷取](https://marketing.adobe.com/resources/help/en_US/sc/user/data_extract.html)
 * [Activity Map](https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/)
-* [報表套裝管理員](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
+* [報表套裝管理器](https://marketing.adobe.com/resources/help/en_US/reference/report_suites_admin.html)
 * [Analytics 產品比較和需求](https://marketing.adobe.com/resources/help/en_US/reference/analytics-product-comparison.html)
 * [報告說明](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html)
 * [控制面板和報表](https://marketing.adobe.com/resources/help/en_US/sc/user/dashboard.html)
