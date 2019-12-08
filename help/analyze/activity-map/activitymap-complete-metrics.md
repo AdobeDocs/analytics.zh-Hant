@@ -1,11 +1,10 @@
 ---
 description: 可讓您在 Activity Map 工具列中存取 Adobe Analytics 的完整量度集。
-solution: Analytics
 title: 完整的量度集
 topic: Activity map
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
