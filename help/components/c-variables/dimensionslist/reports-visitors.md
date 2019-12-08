@@ -1,11 +1,10 @@
 ---
 description: 顯示在選取小時、日、週、月份、季度或年內網站的獨特訪客數量。獨特訪客在選定時段內僅計算為一次。在時段內又返回您網站的訪客，不會再被計算為獨特使用者。
-solution: Analytics
 title: 訪客
 topic: Reports
 uuid: f7df37ca-f268-4770-9217-21e64680c0f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
