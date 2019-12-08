@@ -1,25 +1,24 @@
 ---
-description: 瞭解如何將成本和預算金額指派給渠道。
-solution: Analytics
+description: 瞭解如何將成本和預算金額指派給管道。
 subtopic: Marketing channels
 title: 成本和預算
 topic: Reports and analytics
 uuid: 7ba0e968-e565-4d4c-8fc0-39bf25d3e5b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 成本和預算
 
-瞭解如何將成本和預算金額指派給渠道。
+瞭解如何將成本和預算金額指派給管道。
 
 成本表示您對渠道的花費。預算表示可花費的金額。
 
 檢視 ROI 的便利方法是建立顯示收入減去成本的計算量度。或者建立一個顯示總成本以及每項新增參與成本劃分的計算量度。例如，您可以透過建立計算量度，執行顯示新增參與的[!UICONTROL 「首次接觸渠道」]報表，然後新增「首次接觸成本」量度，顯示每項新增參與的成本。
 
-請參閱 [用於行銷渠道報表中的計算量度](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
+請參閱[用於行銷渠道報表中的計算量度](/help/components/c-marketing-channels/c-channel-calc-metrics.md).
 
 僅可為渠道指定成本和預算。所有成本均設定有套用於匯報的時間範圍。當成本與渠道直接相關聯時，選擇分配量度來顯示成本針對渠道內促銷活動的劃分方式。
 
@@ -29,17 +28,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 新增成本和預算項目至行銷管道。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
 1. 在[!UICONTROL 「報告套裝管理員」]頁面上，選擇一個報告套裝。
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Costs]**.
-1. On the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Add Cost Item]** or **[!UICONTROL Add Budget Item]**.
-1. Click **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 行銷管道]** &gt; **[!UICONTROL 行銷管道成本」]**。
+1. 在[!UICONTROL 行銷管道成本]頁面上，按一下&#x200B;**[!UICONTROL 「新增成本項目」]**&#x200B;或&#x200B;**[!UICONTROL 「新增預算項目」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
-   To continue adding cost items, click **[!UICONTROL Save and Add Another]**.
+   若要繼續新增成本項目，請按一下&#x200B;**[!UICONTROL 「儲存並新增其他」]**。
 
-1. (Optional) To export or import CSV files, access the [!UICONTROL Marketing Channel Costs] page, click **[!UICONTROL Export File]** or **[!UICONTROL Import File]**, then follow the prompts.
+1. (選用) 若要匯出或匯入 CSV 檔案，請進入[!UICONTROL 行銷管道成本]頁面，按一下&#x200B;**[!UICONTROL 「匯出檔案」]**&#x200B;或&#x200B;**[!UICONTROL 「匯入檔案」]**，然後遵循提示操作。
 
-## Marketing Channel costs - definitions {#mktg-channel-costs}
+## 行銷管道成本 - 定義 {#mktg-channel-costs}
 
 行銷渠道成本或預算的欄位定義
 
