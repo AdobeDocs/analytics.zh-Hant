@@ -1,12 +1,11 @@
 ---
 description: 對於購買事件，會使用 Analytics 變數來擷取特定的購買資訊。s.purchaseID 變數可用來序列化事件 (對事件進行重複資料刪除)。
 keywords: Analytics Implementation
-solution: Analytics
 title: 購買事件
 topic: Developer and implementation
 uuid: d90cdec7-7397-445a-84e5-31014f7ff875
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
