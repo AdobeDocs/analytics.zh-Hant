@@ -1,13 +1,12 @@
 ---
 description: 指定退出連結，以及自訂連結的品牌化。造訪您網站的訪客可能會造訪資料收集網域的退出頁面，選擇不讓其活動在Adobe的分析產品中受到追蹤。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 新增選擇退出連結
 topic: Developer and implementation
 uuid: c12092be-3be7-4621-b838-d6b78d074f84
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
