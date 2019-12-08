@@ -1,12 +1,11 @@
 ---
 description: 處理規則可讓您根據已定義條件來對資料進行變更。當屬性或值符合定義條件時，可以設定或刪除值，以及設定事件。
-solution: Analytics
 subtopic: Processing rules
 title: 處理規則的運作方式
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -39,11 +38,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>系統儲存處理規則後，會將它們立即套用至報表套裝。 </p> </td> 
-   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定 <a href="/help/admin/admin/realtime/t-realtime-admin.md"> real-time reports</a> in your test report suite so you can quickly see the results of a processing rule. </p> </td> 
+   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定<a href="/help/admin/admin/realtime/t-realtime-admin.md">即時報表</a>，方便您快速查看處理規則的結果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則是存取上下文資料變數的唯一方法。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 複製上下文資料變數至eVar </a> </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則的套用時機早於 VISTA 規則和行銷渠道規則。 </p> </td> 
@@ -62,7 +61,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>行動裝置查閱的發生時機早於處理規則，但屬性不可用於處理規則。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>如果是執行 JavaScript AppMeasurement H.25.2 或更早的版本，無法讀取超過 URL 前 255 個字元的查詢字串參數。JavaScript appMeasurement H.25.3及更新版本提供完整URL，包括處理規則的所有查詢字串參數。 </p> </td> 
+   <td colname="col1"> <p>如果是執行 JavaScript AppMeasurement H.25.2 或更早的版本，無法讀取超過 URL 前 255 個字元的查詢字串參數。JavaScript AppMeasurement H.25.3 和更新版本提供完整的 URL，包含處理規則的所有查詢字串參數。 </p> </td> 
    <td colname="col2"> <p>升級到 H.25.3 或更新的版本，或者從長 URL 用戶端讀取查詢字串參數，並將它的值儲存在上下文資料變數裡。 </p> </td> 
   </tr> 
   <tr> 
@@ -79,11 +78,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI 中的值比較不區分大小寫。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> 清理報告中的值 </a>. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> 清除報表中的值 </a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數名稱只能包含英數字元、底線和點。其他任何字元都會刪除。 </p> </td> 
-   <td colname="col2"> <p>For example, The context data variable <code> login_page-home</code> automatically becomes <code> login_pagehome</code>. All data sent to the <code> login_page-home</code> variable is allocated under <code> login_pagehome</code>. </p> <p>包含不支援之字元的上下文資料變數無法在「處理規則」介面中新增。 </p> </td> 
+   <td colname="col2"> <p>例如，上下文資料變數 <code> login_page-home</code> 會自動變成 <code> login_pagehome</code>。所有傳送至 <code> login_page-home</code> 變數的資料，都會分配到 <code> login_pagehome</code> 下。 </p> <p>包含不支援之字元的上下文資料變數無法在「處理規則」介面中新增。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>脫字符號 (^) 是處理規則系統中的特殊字元。 </p> </td> 
