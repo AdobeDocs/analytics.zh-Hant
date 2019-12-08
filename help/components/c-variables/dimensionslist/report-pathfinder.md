@@ -1,10 +1,9 @@
 ---
 description: PathFinder 報表旨在幫助您進一步將整個路徑剖析為路徑片段，從而得到有助於最佳化網站的精確模式。
-solution: Analytics
 title: PathFinder
 uuid: 35a00bd7-263c-4a8b-99d0-fea08046edc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
