@@ -1,11 +1,10 @@
 ---
 description: 顯示搜尋關鍵字的劃分。
-solution: Analytics
 title: 搜尋關鍵字
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->對於付費和免費搜尋，搜尋引擎停止（在大多數情況下）提供作為反向連結一部分的搜尋關鍵字。 因此，Adobe 一律將 Google (或 Bing、Yahoo) 網域分類為搜尋。根據反向連結的格式和內容 (即使沒有關鍵字)，Adobe 通常可以確定這是搜尋結果，因此該搜尋將按照「關鍵字無法使用」計數。[更多...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
+>針對付費和免費搜尋，搜尋引擎在大多數情況下已停止提供搜尋關鍵字作為反向連結的一部分。因此，Adobe 一律將 Google (或 Bing、Yahoo) 網域分類為搜尋。根據反向連結的格式和內容 (即使沒有關鍵字)，Adobe 通常可以確定這是搜尋結果，因此該搜尋將按照「關鍵字無法使用」計數。[更多...](https://helpx.adobe.com/analytics/kb/keyword-unavailable.html)
 
 ## 分配、過期和特殊值 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
