@@ -1,11 +1,10 @@
 ---
 description: 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
-solution: Analytics
 title: 尋找方法
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
 
-**[!UICONTROL Analytics]** Admin **[!UICONTROL 報表報表報表報表]** &gt; **[!UICONTROL Settings]** &gt;編輯轉換套裝 ************&gt;尋找轉換方法。
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 尋找方法**]。
 
 ## 尋找方法說明 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -53,5 +52,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-> [!NOTE] 所有尋找方法會在瀏覽結束時過期。 如果您選擇在不同的事件 (例如，購物車結帳) 發生後過期，在瀏覽期間發生「購物車結帳」時，「尋找方法」會過期。如果「購物車結帳」未在瀏覽期間發生，則「尋找方法」仍在瀏覽結束時過期。
+> [!NOTE] 所有「尋找方法」將在瀏覽結束時過期。如果您選擇在不同的事件 (例如，購物車結帳) 發生後過期，在瀏覽期間發生「購物車結帳」時，「尋找方法」會過期。如果「購物車結帳」未在瀏覽期間發生，則「尋找方法」仍在瀏覽結束時過期。
 
