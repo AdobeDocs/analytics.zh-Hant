@@ -1,11 +1,10 @@
 ---
 description: 依照裝置的螢幕大小，將行動裝置對您網站的點擊分組。顯示每種螢幕的大小，使用每種螢幕大小瀏覽您網站的訪客數量，以及每種螢幕大小占總檢視次數的百分比。與「螢幕高度」和「螢幕寬度」相較而言，「螢幕大小」可同時顯示螢幕大小的高度及寬度。
-solution: Analytics
 title: 螢幕大小
 topic: Reports
 uuid: a71378c7-91b1-43da-8583-fbbdc5df39ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
