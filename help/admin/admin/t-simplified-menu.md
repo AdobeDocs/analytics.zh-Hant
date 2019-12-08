@@ -1,30 +1,29 @@
 ---
-description: 在「報告與分析」中實作簡化報告功能表的步驟。
-solution: Analytics
+description: 在 Reports & analytics 中實施簡化報表功能表的步驟。
 title: 簡化的報表功能表
 topic: Admin tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 簡化的報表功能表
 
-在「報告與分析」中實作簡化報告功能表的步驟。
+在 Reports &amp; analytics 中實施簡化報表功能表的步驟。
 
 簡化的 Adobe Reports &amp; Analytics 功能表可讓您選擇以套用替代的簡化功能表，在其下會有重組的資料夾。簡化的功能表預設會顯示這些選項:
 
 ![](assets/simplified-menu.png)
 
-> [!NOTE] 請注意，套用簡化的功能表會移除您對預設功能表結構所做的所有自訂。 也會對您組織中的所有 Marketing Reports &amp; analytics 使用者實施簡化的功能表結構。由於無法回復現有功能表結構中的任何自訂項目，在實施此新的功能表之前請先審慎考慮後果 (例如已針對現有功能表結構開發的培訓項目)。
+> [!NOTE] 請注意，套用簡化的功能表，會移除您已對預設功能表結構自訂的所有設定，也會對您組織中的所有 Marketing Reports &amp; analytics 使用者實施簡化的功能表結構。由於無法回復現有功能表結構中的任何自訂項目，在實施此新的功能表之前請先審慎考慮後果 (例如已針對現有功能表結構開發的培訓項目)。
 
-1. Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** to open the Report Suite Manager.
-1. 選取您要對其實施簡化的功能表結構的報表套裝。
-1. Go to **[!UICONTROL Edit settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Customize Menus]**.
-1. Click **[!UICONTROL Restore Simplified]** to implement the simplified menu structure.
+1. 前往&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**&#x200B;開啟「報表套裝管理器」。
+1. 選取您要對其實施簡化之功能表結構的報表套裝。
+1. 前往&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 自訂功能表」]**。
+1. 按一下&#x200B;**[!UICONTROL 「還原簡化」]**，實施簡化的功能表結構。
 
    ![](assets/restore-simplified.png)
 
-1. To go back to the (non-customized) default menu, click **[!UICONTROL Restore Defaults]**.
+1. 若想回復成 (非自訂) 預設功能表，請按一下&#x200B;**[!UICONTROL 「還原預設值」]**。
