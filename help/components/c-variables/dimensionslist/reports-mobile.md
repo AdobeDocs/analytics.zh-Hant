@@ -1,11 +1,10 @@
 ---
-description: 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動」報表適用於所有報表套裝。
-solution: Analytics
+description: 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報表套裝。
 title: 行動
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報表套裝。
 
-> [!NOTE] 「行動報表」僅顯示行動網路流量。 使用原生 iOS、Android 和其他 SDK 收集的行動應用程式資料，需先在「管理工具」啟用該功能，才會顯示在「行動應用」報告中。
+> [!NOTE] 行動報表只會顯示行動網路流量。使用原生 iOS、Android 和其他 SDK 收集的行動應用程式資料，需先在「管理工具」啟用該功能，才會顯示在「行動應用」報告中。
 
 提供下列行動報告:
 
@@ -57,19 +56,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> Cookie 支援 </td> 
-   <td colname="col2"> <p>依照是否支援 Cookie，將行動裝置的點擊分組。訪客被分為支援 cookie 和不支援 cookie 的群組。行動裝置的類型透過使用者代理字串加以識別。Adobe 會維護已知支援 Cookie 的行動裝置清單。If the mobile device listed in the user agent string is also listed in Adobe's list of mobile devices, then the <span class="term"> Supported</span> line item in the <span class="wintitle"> Cookie Support</span> report is incremented. Otherwise, the <span class="term"> Not Supported</span> line item in the report is incremented. </p> </td> 
+   <td colname="col2"> <p>依照是否支援 Cookie，將行動裝置的點擊分組。訪客被分為支援 cookie 和不支援 cookie 的群組。行動裝置的類型透過使用者代理字串加以識別。Adobe 會維護已知支援 Cookie 的行動裝置清單。如果使用者代理字串中列出的行動裝置亦在 Adobe 的行動裝置清單中列出，則 <span class="wintitle">Cookie 支援</span>報表中的<span class="term">受支援</span>條列項目會增加。反之則報表中的<span class="term">非受支援</span>條列項目會增加。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 影像支援 </td> 
-   <td colname="col2"> <p> 依照行動裝置支援的影像類型對行動裝置分組。 </p> <p>For example, if a visitor's phone that supports <span class="filepath"> .jpeg</span> images, accesses a site, the <span class="wintitle"> Image Support</span> report is incremented by at least one. 如果電話支援更多音訊格式，那麼瀏覽網站可以導致該次瀏覽增加多次。換言之，如果您的電話支援 <span class="filepath">.jpeg</span>、<span class="filepath">.png</span> 及 <span class="filepath">.gif</span> 格式，報告中這些群組的每一組都將增加。因此，群組的總數可能比顯示在報告底部的總數大。 </p> </td> 
+   <td colname="col2"> <p> 依照行動裝置支援的影像類型對行動裝置分組。 </p> <p>例如，如果訪客的手機支援 <span class="filepath">.jpeg</span> 影像並存取了網站，則<span class="wintitle">影像支援</span>報表至少會增加一個項目。如果電話支援更多音訊格式，那麼瀏覽網站可以導致該次瀏覽增加多次。換言之，如果您的電話支援 <span class="filepath">.jpeg</span>、<span class="filepath">.png</span> 及 <span class="filepath">.gif</span> 格式，報告中這些群組的每一組都將增加。因此，群組的總數可能比顯示在報告底部的總數大。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 色彩深度 </td> 
-   <td colname="col2"> <p> 依據支援的色彩數目對行動裝置的點擊分組。該報告顯示使用行動裝置瀏覽您網站的訪客總數，並依照他們行動裝置中配置的色彩數目對訪客進行分組。 </p> <p>例如，如果訪客的行動電話支援24色，則報表會增加對應24色的行項目。 </p> </td> 
+   <td colname="col2"> <p> 依據支援的色彩數目對行動裝置的點擊分組。該報告顯示使用行動裝置瀏覽您網站的訪客總數，並依照他們行動裝置中配置的色彩數目對訪客進行分組。 </p> <p>例如，如果訪客的行動電話支援 24 色，則報表會增加與 24 色相對應的條列項目。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 音訊支援 </td> 
-   <td colname="col2"> <p> 依照行動裝置支援的音訊格式類型對行動裝置實行分組。 </p> <p>For example, if a visitor's phone supports the <span class="filepath"> .mp3</span> format, the Audio Support report increments by at least one. 如果電話支援更多影像格式，那麼瀏覽網站可能導致每個受支援的音訊類型均增加。換言之，如果電話支援 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 及 <span class="filepath">.amr</span> 格式，報告中這些群組的每一組都會增加。因此，群組的總數可能比顯示在報告底部的總數大。 </p> </td> 
+   <td colname="col2"> <p> 依照行動裝置支援的音訊格式類型對行動裝置實行分組。 </p> <p>例如，如果訪客的手機支援 <span class="filepath">.mp3</span> 格式，則音訊支援報表至少會增加一個項目。如果電話支援更多影像格式，那麼瀏覽網站可能導致每個受支援的音訊類型均增加。換言之，如果電話支援 <span class="filepath">.mp3</span>、<span class="filepath">.aac</span> 及 <span class="filepath">.amr</span> 格式，報告中這些群組的每一組都會增加。因此，群組的總數可能比顯示在報告底部的總數大。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 視訊支援 </td> 
@@ -77,7 +76,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> DRM </td> 
-   <td colname="col2"> <p> 依照行動裝置支援的「數位版權管理」(DRM) 類型對行動裝置分組。DRM 群組包括 轉 <span class="term"> 寄鎖定</span>、組合傳送 <span class="term"> 、</span>個別傳送 <span class="term"> ，以及</span><span class="term"> 未知。</span> </p> </td> 
+   <td colname="col2"> <p> 依照行動裝置支援的「數位版權管理」(DRM) 類型對行動裝置分組。DRM 群組包括<span class="term">前進鎖定</span>、<span class="term">組合傳送</span>、<span class="term">單獨傳送</span>和<span class="term">未知</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 網路通訊協定 </td> 
@@ -85,7 +84,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 作業系統 (已不再使用) </td> 
-   <td colname="col2"> <p> 依照裝置上執行的行動作業系統對行動裝置分組。行動作業系統包括 Windows、RIM、iOS、Symbian 等。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>注意：更新「技術&gt;作業系統」報表以包含所有作業系統( <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  ></a> 包括行動裝置)時，此報表已過時。 您可以建立內含「行動裝置」的區段，並將其套用至「技術 &gt; 作業系統」報表，以便僅檢視行動作業系統。 </p> </td> 
+   <td colname="col2"> <p> 依照裝置上執行的行動作業系統對行動裝置分組。行動作業系統包括 Windows、RIM、iOS、Symbian 等。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>注意:「技術 &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  >作業系統</a>」報表更新以包含所有作業系統 (包括行動裝置) 時，已將此報表淘汰。您可以建立內含「行動裝置」的區段，並將其套用至「技術 &gt; 作業系統」報表，以便僅檢視行動作業系統。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java 版本 </td> 
@@ -109,11 +108,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> PTT </td> 
-   <td colname="col2"> <p> 依照裝置是否支援「隨壓即說」(PTT) 對行動裝置分組。此報告也包括 無法 <span class="term"> 判斷</span> PTT支援之裝置的未知群組。 </p> </td> 
+   <td colname="col2"> <p> 依照裝置是否支援「隨壓即說」(PTT) 對行動裝置分組。此報告也包括<span class="term">未知</span>群組，適用於無法判斷是否支援 PTT 的裝置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 裝飾郵件支援 </td> 
-   <td colname="col2"> <p> 依照行動裝置是否支援 DecoMail 對行動裝置實行分組，DecoMail 允許使用者使用圖形和動畫來裝飾郵件。此報告也包括 <span class="term"> Unknown</span> group for those devices where Decoration Mail support cannot be determined. </p> </td> 
+   <td colname="col2"> <p> 依照行動裝置是否支援 DecoMail 對行動裝置實行分組，DecoMail 允許使用者使用圖形和動畫來裝飾郵件。此報告也包括<span class="term">未知</span>群組，適用於無法判斷是否支援「裝飾郵件」的裝置。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 資訊服務 </td> 
