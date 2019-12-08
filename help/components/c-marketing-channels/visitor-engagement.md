@@ -1,12 +1,11 @@
 ---
 description: 瞭解如何在行銷管道中指定訪客參與有效期。
-solution: Analytics
 subtopic: Marketing channels
 title: 訪客參與有效期
 topic: Reports and analytics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,10 +28,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 指定訪客參與有效期。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Expiration]**.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 在[!UICONTROL 報表套裝管理器]中，按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 行銷管道]** &gt; **[!UICONTROL 行銷管道有效期」]**。
 
    ![](assets/mchannel_expiration.png)
 
 1. 設定訪客參與有效期欄位。
-1. Click **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
