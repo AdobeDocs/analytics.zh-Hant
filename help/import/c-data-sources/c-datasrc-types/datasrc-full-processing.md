@@ -1,12 +1,11 @@
 ---
 description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
-solution: Analytics
 subtopic: Data sources
 title: 完全處理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -63,8 +62,8 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告促銷活動 3)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>事件 </p> </td> 
-   <td colname="col2"> <p>事件 </p> </td> 
+   <td colname="col1"> <p>events </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>事件字串，格式語法與 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/events.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
