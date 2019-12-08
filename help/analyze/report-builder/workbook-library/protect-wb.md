@@ -1,11 +1,10 @@
 ---
 description: 您可以鎖定活頁簿，保護活頁簿中的所有請求，不讓他人新增及編輯。這樣可暫停所有報表請求，啟用活頁簿的離線編輯功能，進行更有效率的編輯。
-solution: Analytics
 title: 鎖定/解除鎖定活頁簿
 topic: Report builder
 uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
