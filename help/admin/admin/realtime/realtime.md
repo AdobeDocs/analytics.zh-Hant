@@ -1,11 +1,10 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-solution: Analytics
 title: 即時報表
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 
-> [!NOTE] 即時報表不需要額外實施或標籤。 它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱 [即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md).
+> [!NOTE] 即時報表不需要進行額外的實施或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md).
 
 **[!UICONTROL 網站量度]** &gt; **[!UICONTROL 即時]**
 
@@ -40,7 +39,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 舉例來說，可以比較上週的值和去年的值 (以及今日總計)。
 
-請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱 設 [定即時報表](/help/admin/admin/realtime/t-realtime-admin.md)。
+請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱[設定即時報表](/help/admin/admin/realtime/t-realtime-admin.md)。
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 
