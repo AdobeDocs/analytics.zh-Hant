@@ -1,12 +1,11 @@
 ---
 description: 內容階層的常見用法之一，是顯示訪客從特定頁面、層級等位置所採用的不同路徑。
 keywords: Analytics Implementation;content hierachies;hier
-solution: Analytics
 title: 計算內容階層數
 topic: Developer and implementation
 uuid: d41df92d-65fb-44de-bf46-8fac24303dad
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
