@@ -1,12 +1,11 @@
 ---
 description: 相關範例，說明如何在 HTML 範例頁面中使用伺服器產生的影像標記。
 keywords: Analytics Implementation;variables
-solution: Analytics
 title: 程式碼範例
 topic: Developer and implementation
 uuid: 47e5e82c-cfb2-4912-919b-720b2ee852ba
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,10 +20,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|
 | pageName | 訂購確認 |
 | 目前的 URL | https://www.somesite.com/cart/confirmation.asp |
-| 事件 | purchase,event1 |
+| events | purchase,event1 |
 | c1 | Registered |
 | purchaseID | 0123456 |
-| products | Books;Book Name;1;19.95 |
+| 產品 | Books;Book Name;1;19.95 |
 | state | CA |
 | zip | 90210 |
 | 隨機數字 | 123456 |
