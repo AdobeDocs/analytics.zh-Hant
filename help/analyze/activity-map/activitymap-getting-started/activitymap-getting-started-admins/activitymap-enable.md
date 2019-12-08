@@ -1,11 +1,10 @@
 ---
 description: 說明若想啟用 Activity Map 連結收集和使用者下載，Analytics 管理員需要完成的步驟。
-solution: Analytics
 title: 啟用 Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
