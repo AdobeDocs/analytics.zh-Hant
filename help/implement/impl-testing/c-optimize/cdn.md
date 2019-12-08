@@ -1,13 +1,12 @@
 ---
 description: Akamai 和 Speedera 之類的內容遞送服務或內容分送網路 (CDN) 可將網頁內容發送至更接近網路邊緣之處，讓經常受到要求的文件能夠保持在其受到存取的位置附近。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 內容遞送服務/網路
 topic: Developer and implementation
 uuid: 6cb57c59-d0f9-4ca5-9f15-0e74e585a4a1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
