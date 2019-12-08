@@ -1,12 +1,11 @@
 ---
 description: 下列表格顯示報表與變數的對映，或是報表和其中使用的變數。
 keywords: Analytics Implementation
-solution: Analytics
 title: 報表與變數的對應
 topic: Developer and implementation
 uuid: 4707660c-4be5-425c-a690-7bc6df4cc0fa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -191,7 +190,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | ... | ... |  |
 | 階層 5 | s.hier5 |  |
 
-## 路徑報告 {#section_85E0A2396B894659A6BE572819263E95}
+## 路徑分析報表 {#section_85E0A2396B894659A6BE572819263E95}
 
 下表列出用來填入 [!DNL Analytics] 內各個報表的路徑分析變數: 
 
