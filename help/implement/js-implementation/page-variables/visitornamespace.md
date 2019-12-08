@@ -1,13 +1,12 @@
 ---
 description: 頁面變數會直接填入一份報告，如 pageName、List Props、List Variables 等。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -31,7 +30,7 @@ visitorNamespace.xml
 
 Analytics 會使用 Cookie 對進入您的網站的訪客進行唯一識別。若未使用 *`visitorNamespace`*，Cookie 則會與 2o7.net 相關聯。若已使用 *`visitorNamespace`*，則 Cookie 會與 2o7.net 的子網域相關聯。瀏覽您網站的所有訪客均應有各自關聯至相同網域或子網域的 Cookie。
 
-之所以使用  *`visitorNamespace`* 變數，是為了避免發生超出瀏覽器 Cookie 限制的狀況。Internet Explorer 會有每個網域 20 個 Cookie 的限制。藉由使用  *`visitorNamespace`* 變數，其他公司的 Analytics Cookie 就不會與您的訪客的 Cookie 發生衝突。
+之所以使用  *`visitorNamespace`* 變數，是為了避免發生超出瀏覽器 Cookie 限制的狀況。Internet Explorer 會有每個網域 20 個 Cookie 的限制。藉由使用 *`visitorNamespace`* 變數，其他公司的 Analytics Cookie 就不會與您的訪客的 Cookie 發生衝突。
 
 **語法和可能的值** {#section_EE247FE371784CA4B6058182181F3EA1}
 
