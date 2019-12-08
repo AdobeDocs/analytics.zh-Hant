@@ -1,12 +1,11 @@
 ---
 description: 'null'
 keywords: DFA
-solution: Analytics
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -89,14 +88,14 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 |---|---|---|---|
 | DFA 點按和曝光數的夜間量度 | 是 | 是 | 是 |
 | 點進和閱覽追蹤 | 是 | 是 | 是 |
-| 整合可接收廣告主層級的資料 | 否 | 是 | 是 |
-| 整合可接收 Floodlight 設定層級的資料 | 否 | 否 | 是 |
-| 成本量度 | 否 | 否 | 是 |
-| 創作量度 | 否 | 否 | 是 |
-| 超過 2k 位元組的查詢字串 | 否 | 是 | 是 |
-| 使用整合模組進行最理想的第三方資料收集 | 否 | 是 | 是 |
-| 逾時和錯誤追蹤 | 否 | 是 | 是 |
-| 不需要交涉的客戶端 ID | 否 | 否 | 是 |
+| 整合可接收廣告主層級的資料 | 無 | 是 | 是 |
+| 整合可接收 Floodlight 設定層級的資料 | 無 | 無 | 是 |
+| 成本量度 | 無 | 無 | 是 |
+| 創作量度 | 無 | 無 | 是 |
+| 超過 2k 位元組的查詢字串 | 無 | 是 | 是 |
+| 使用整合模組進行最理想的第三方資料收集 | 無 | 是 | 是 |
+| 逾時和錯誤追蹤 | 無 | 是 | 是 |
+| 不需要交涉的客戶端 ID | 無 | 無 | 是 |
 
 ### 關於 1.5 版 {#section-b5a3e967cfa141ea8f740612336181be}
 
