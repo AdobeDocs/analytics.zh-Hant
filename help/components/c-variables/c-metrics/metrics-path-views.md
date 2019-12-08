@@ -1,11 +1,10 @@
 ---
 description: 「路徑檢視」量度以路徑資料為基礎，系統會為所有接受永久性 Cookie 的使用者追蹤該項資料。
-solution: Analytics
 title: 路徑檢視
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
