@@ -1,11 +1,10 @@
 ---
 description: 獨特訪客是指在某個時段內第一次瀏覽某網站的訪客。例如，假設獨特訪客一星期內可能瀏覽某網站十次，但若時段單位為星期，則一個獨特訪客只會在該星期被計算一次。該星期結束後，該獨特訪客就可以在新的時段內再被計算一次。
-solution: Analytics
 title: 每週不重複訪客
 topic: Metrics
 uuid: b732abf9-cad2-4518-9669-30b85b3e1e28
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
