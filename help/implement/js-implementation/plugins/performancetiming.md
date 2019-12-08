@@ -1,12 +1,11 @@
 ---
 description: 此外掛程式透過使用 Navigation Timing JavaScript API 來運作，以精確量度網路上的效能。此提供一原生方法，以針對頁面載入事件及資產載入時間，取得準確且詳細的計時統計數據。先前，此類度量無不使用 JavaScript Date 物件來測量計時量度，或初步推算的 Navigation Timing 量度。兩種方法雖然都提供一些頁面載入次數的趨勢資料，卻都不夠可靠。
 keywords: Analytics Implementation
-solution: Analytics
 title: 效能計時
 topic: Developer and implementation
 uuid: ab2a6c51-8791-41e7-9bea-c1ce8d312de8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
