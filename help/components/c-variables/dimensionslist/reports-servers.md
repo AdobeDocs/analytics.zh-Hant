@@ -1,11 +1,10 @@
 ---
 description: 可讓您將某部特定伺服器代管的頁面分組。列出您網站中的所有伺服器，同時也會告訴您哪些伺服器最常被存取。例如，如果您的網站由兩部不同的伺服器代管，您可能會想要瞭解其中一部伺服器就曝光數而言是否比另一部更高。
-solution: Analytics
 title: 伺服器
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
