@@ -1,11 +1,10 @@
 ---
 description: 購買商品的獨特訪客。「獨特客戶」在該時間範圍內只會計入一次，而不會再次計入，無論該訪客回訪並購買了多少次。「獨特訪客」只會在指定時段內的第一次瀏覽時計入，且在該時段到期前將不會再次計入。在該時段到期後，即會再次對獨特訪客計數。「獨特客戶」一律計為「獨特訪客」，因為他們必須瀏覽網站才能購物。
-solution: Analytics
 title: 獨特客戶
 topic: Reports
 uuid: f4fb15e8-482d-4467-81dc-58ade7743822
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
