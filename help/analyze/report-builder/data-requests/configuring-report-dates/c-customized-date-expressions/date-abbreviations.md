@@ -1,11 +1,10 @@
 ---
 description: 時間縮寫表示期間開始的特定日期，而不是某個範圍內的日期。某個範圍內的日期是透過指定開始日期和結束日期兩個時間的縮寫 (字詞) 來表示。
-solution: Analytics
 title: 日期縮寫
 topic: Report builder
 uuid: 829d613e-5900-4586-a9fc-239988492d8b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
