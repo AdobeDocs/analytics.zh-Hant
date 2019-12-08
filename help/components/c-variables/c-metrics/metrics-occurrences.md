@@ -1,11 +1,10 @@
 ---
 description: 擷取特定值的次數，加上有指定值存留的頁面檢視數目。換句話說，發生次數是頁面檢視與頁面事件的總和。發生次數可在 Analysis Workspace 和「Ad Hoc Analysis」中使用。
-solution: Analytics
 title: 發生次數
 topic: Metrics
 uuid: ff999fba-fcb7-4b16-9446-001facd0f15d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
