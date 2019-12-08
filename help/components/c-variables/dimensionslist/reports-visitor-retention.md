@@ -1,11 +1,10 @@
 ---
 description: 顯示您客戶的忠誠度。您可以看到訪客回訪您網站的次數和頻率。該類別報告顯示客戶的忠誠度。您可以看到訪客回訪您網站的次數和頻率。
-solution: Analytics
 title: 訪客保留率
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -52,7 +51,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 上次購買間隔天數 </td> 
-   <td colname="col2"> <p>顯示客戶重複購買之間最常見的間隔天數，並可讓您檢視對網站的「收入」和「訂購」等關鍵成功度量貢獻最大的時段。 </p> </td> 
+   <td colname="col2"> <p>顯示客戶再次購買的最常見間隔天數，並可讓您檢視對網站的「收入」和「訂單」等主要成功量度貢獻最大的時段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 每日獨特客戶 </td> 
