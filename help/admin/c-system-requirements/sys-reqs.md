@@ -1,10 +1,9 @@
 ---
 description: 本主題提供每個 Adobe Analytics 使用者介面之系統要求的詳細資料。
-solution: Analytics
 title: 系統要求
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Adobe 支援以下瀏覽器的最新主要版本:
 
-* Microsoft Edge. (Adobe於2018年11月13日終止在Adobe Analytics中支援Microsoft Internet Explorer 11。 請盡快切換至Microsoft edge或其他支援瀏覽器的最新主要版本。)
+* Microsoft Edge。(Adobe Analytics 已於 2018 年 11 月 13 日停止支援 Microsoft Internet Explorer 11。請及早改用 Microsoft Edge 或其他支援瀏覽器的最新主要版本。)
 * Google Chrome
 * Mozilla Firefox
 * Apple Safari
