@@ -1,11 +1,10 @@
 ---
 description: 除了 Excel「格式 > 儲存格」(Ctrl+1) 功能提供的標準儲存格格式選擇之外，您還可以透過 Report Builder 將有限的格式套用至儲存格範圍。這些格式選擇取決於您選擇的度量。
-solution: Analytics
 title: 日期格式
 topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -26,7 +25,7 @@ After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensi
 | M | 月份的數值 | 3 |
 | MM | 月份的數值，小於 10 的月需補上 0 | 03 |
 | MMM | 月份的簡短名稱 | 3月 |
-| MMMM | 月份的完整名稱 | 3 月 |
+| MMMM | 月份的完整名稱 |  年 3 月 |
 | D | 完整日期 | 2012 年 3 月 14 日星期三 |
 | d | 日的數值 | 14 |
 | dd | 日的數值，小於 10 的日需補上 0 | 01 – 09 |
