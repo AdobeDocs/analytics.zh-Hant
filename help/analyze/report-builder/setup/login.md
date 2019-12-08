@@ -1,11 +1,10 @@
 ---
 description: 三種登入 Report Builder 之方法的相關資訊。
-solution: Analytics
 title: 登入 Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
