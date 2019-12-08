@@ -1,13 +1,12 @@
 ---
 description: 「上下文資料」變數可讓您定義每個頁面上可由「處理規則」讀取的自訂變數。
 keywords: Analytics Implementation;contextdata;s.contextdata
-solution: Analytics
 subtopic: Variables
 title: 上下文資料變數
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,11 +18,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 您無須在程式碼中明確為 prop 和 eVar 指派值，而可以在以「處理規則」進行對映的上下文資料變數中傳送資料。處理規則提供功能強大的圖形介面，可以在收到資料時變更資料。您可以根據上下文資料中傳送的來設定事件、將值複製到 eVar 與 prop，以及執行其他條件陳述式。
 
 > [!NOTE]內容資料變數不區分大小寫。例如，下列 2 個變數效力相同:
->```
+>
+```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >與
->```
+>
+```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
@@ -53,7 +54,7 @@ s.contextData['myco.rsid'] = 'value'
  <tbody> 
   <tr> 
    <td colname="col1"> <p>支援的名稱和字元 </p> </td> 
-   <td colname="col2"> <p>上下文資料變數的名稱只能包含英數字元、底線和點。其他任何字元都會被移除。上下文資料變數並未以數值指定，而是採用命名的方式。 </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. All data sent to the <code> login_page-home </code> variable is allocated under <code> login_pagehome </code>. </p> </td> 
+   <td colname="col2"> <p>上下文資料變數的名稱只能包含英數字元、底線和點。其他任何字元都會被移除。上下文資料變數並未以數值指定，而是採用命名的方式。 </p> <p>For example, the context data variable <code> login_page-home </code> automatically becomes <code> login_pagehome </code>. 所有傳送至 <code> login_page-home </code> 變數的資料，都會分配到 <code> login_pagehome </code> 下。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>命名空間 </p> </td> 
