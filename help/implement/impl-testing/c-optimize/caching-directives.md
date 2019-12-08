@@ -1,13 +1,12 @@
 ---
 description: 在使用者第一次載入頁面後，會在使用者的瀏覽器中快取 JavaScript 程式庫檔案。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 快取指示
 topic: Developer and implementation
 uuid: 6bd2c26d-93ee-4039-8beb-6a6b16218a07
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
