@@ -2,7 +2,7 @@
 title: 行動應用程式
 description: Adobe Analytics行動應用程式的產品檔案與自助
 translation-type: tm+mt
-source-git-commit: 3abe9a29137f85e0c6f8438435663bb7b78a05d0
+source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
 
 ---
 
@@ -15,6 +15,6 @@ Adobe Analytics行動應用程式可隨時隨地從Adobe Analytics提供深入�
 
 Analytics行動應用程式提供下列測試版檔案：
 
-* 執行使用者快速入門手冊：本指南旨在協助主管使用者閱讀和解譯Analytics行動應用程式上的記分卡。 此應用程式可讓主管使用者在自己的行動裝置上，快速輕鬆地檢視重要摘要資料的廣泛轉譯。
+* [策展人指南](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/curator.html):本指南旨在協助資料管理員在Analytics行動應用程式上為其執行使用者設定記分卡。 策展人可以是組織管理員或其他角色中負責設定應用程式記分卡的人員。
 
-* 策展人指南：本指南旨在協助資料管理員在Analytics行動應用程式上為其執行使用者設定記分卡。 策展人可以是組織管理員或其他角色中負責設定應用程式記分卡的人員。
+* [執行使用者快速入門手冊](https://docs.adobe.com/content/help/en/analytics/analyze/mobapp/executive.html):本指南旨在協助主管使用者閱讀和解譯Analytics行動應用程式上的記分卡。 此應用程式可讓主管使用者在自己的行動裝置上，快速輕鬆地檢視重要摘要資料的廣泛轉譯。
