@@ -1,11 +1,10 @@
 ---
 description: 您可以提供 eVar、prop、分類和事件的自訂報表說明。說明會顯示給所有使用者。
-solution: Analytics
 title: 自訂報表說明
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,9 +13,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以提供 eVar、prop、分類和事件的自訂報表說明。說明會顯示給所有使用者。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;報表套裝 **[!UICONTROL &gt;]** Settings **[!UICONTROL &gt;編輯變]****[!UICONTROL *數*]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL *變數*]**
 
-> [!NOTE] 新增說明適用於大部分的傳統分類，但目前行動分類則不適用。
+> [!NOTE] 大部分傳統分類都能新增說明，但目前不適用於行動裝置分類。
 
 ![](assets/report_descriptions.png)
 
