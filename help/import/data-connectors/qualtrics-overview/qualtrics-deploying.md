@@ -1,12 +1,11 @@
 ---
 description: 部署此整合是一個簡單的程式，需要執行下列動作。
-solution: Analytics
 subtopic: Qualtrics
 title: 部署整合
 topic: Data connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -55,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    ![](assets/advanced_options.png)
 
 1. 選取「Adobe Analytics設定」，然後按一下「 **[!UICONTROL 儲存]**」。 如果沒有可用的設定，則您可能尚未完成Adobe整合精靈。
-   1. 「包 **[!UICONTROL 含部分回應]** 」核取方塊可用來指示您希望在每個部分調查畫面完成後，將資料擷取至Adobe Analytics。 如果未勾選，則資料只會傳送至完整調查。
+   1. 「包 **[!UICONTROL 含部分回應]** 」核取方塊可用來指示您希望在每個部分調查畫面完成後，將資料擷取至Adobe Analytics。 如果未勾選，則只會針對完整完成的調查傳送資料。
    1. 只 **** 有在與已設定為接收時間戳記資料（非常用）的報表套裝整合時，才應使用「傳送含信標的時間戳記」核取方塊。
    ![](assets/integration_config.png)
 
