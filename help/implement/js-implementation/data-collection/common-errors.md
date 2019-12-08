@@ -1,13 +1,12 @@
 ---
 description: 以下幾節將說明動態帳戶的常見錯誤。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Troubleshooting
 title: 常見錯誤
 topic: Developer and implementation
 uuid: 04345355-60cc-4678-81c3-390c86752df1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
