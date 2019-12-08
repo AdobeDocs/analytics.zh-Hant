@@ -1,10 +1,9 @@
 ---
 description: Adobe Analytics 提供各種「逗留時間」量度和維度。請找出其內容及計算方式。
-solution: Analytics
 title: 逗留時間
 topic: Metrics
 translation-type: tm+mt
-source-git-commit: e04051a655a842092f3d99ba784a738e86d65eb2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
