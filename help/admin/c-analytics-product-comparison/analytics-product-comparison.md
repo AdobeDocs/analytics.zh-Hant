@@ -1,19 +1,18 @@
 ---
-description: 分析工作區、報告與分析、臨機分析、報告建立工具、資料倉庫和資料工作台的系統需求與比較
-solution: Analytics
+description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系統要求與比較。
 title: Analytics 產品比較和需求
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # Analytics 產品比較和需求
 
-分析工作區、報告與分析、臨機分析、報告建立工具、資料倉庫和資料工作台的系統需求與比較
+Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系統要求與比較。
 
-For information on which Adobe Analytics product to use, go [here](/help/admin/c-analytics-product-comparison/which-analytics-tool.md).
+如需瞭解如何挑選 Adobe Analytics 產品，請前往[此處](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)。
 
 <table id="table_8A42BE3253024552A170F6471B1E4D1D"> 
  <tbody> 
@@ -76,26 +75,26 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> 是 <p> </p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"> 流失 </a> <p> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html"> 流量 </a> </p> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/reports.html"> 是 </a> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_reports_paths.html"> 是 </a> </td> 
-   <td> 有 </td> 
-   <td colname="col06"> 否 </td> 
+   <td> 是 </td> 
+   <td colname="col06"> 無 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
    <td> <b>進階客戶動向分析</b> </td> 
    <td> 已規劃 </td> 
-   <td> 否 </td> 
-   <td> 有 </td> 
-   <td> 否 </td> 
-   <td colname="col06"> 否 </td> 
+   <td> 無 </td> 
+   <td> 是 </td> 
+   <td> 無 </td> 
+   <td colname="col06"> 無 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
    <td> <b>同類群組分析</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/cohort_analysis.html"> 是 </a> </td> 
-   <td> 否 </td> 
-   <td> 否 </td> 
-   <td> 否 </td> 
-   <td colname="col06"> 否 </td> 
+   <td> 無 </td> 
+   <td> 無 </td> 
+   <td> 無 </td> 
+   <td colname="col06"> 無 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
@@ -110,10 +109,10 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   <tr> 
    <td> <b>增強視覺效果選項</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/analysis-workspace-features.html"> 是 </a> </td> 
-   <td> 否 </td> 
+   <td> 無 </td> 
    <td> 是 </td> 
    <td> 是 </td> 
-   <td colname="col06"> 否 </td> 
+   <td colname="col06"> 無 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
@@ -128,10 +127,10 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
   <tr> 
    <td> <b>專案組織 (為非分析人員簡化報表)</b> </td> 
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html"> 是 </a> </td> 
-   <td> 否 </td> 
-   <td> 否 </td> 
-   <td> 有 </td> 
-   <td colname="col06"> 否 </td> 
+   <td> 無 </td> 
+   <td> 無 </td> 
+   <td> 是 </td> 
+   <td colname="col06"> 無 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
@@ -140,7 +139,7 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/scheduling.html"> 是</a>；所有/任何使用者 </td> 
    <td> 僅限 Ad Hoc Analysis 使用者 </td> 
    <td> 是；所有/任何使用者 </td> 
-   <td colname="col06"> 否 </td> 
+   <td colname="col06"> 無 </td> 
    <td colname="col6"> 是 </td> 
   </tr> 
   <tr> 
@@ -158,8 +157,8 @@ For information on which Adobe Analytics product to use, go [here](/help/admin/c
    <td> <p>瀏覽器 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/user/requirements.html"> 更多... </a> </p> </td> 
    <td> <p>Java </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/dsc/c_sys_reqs.html"> 更多... </a> </p> </td> 
    <td> <p>Windows、MS Excel </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/arb/system_requirements.html"> 更多... </a> </p> </td> 
-   <td colname="col06"> 需瀏覽器和程式來開啟 <span class="filepath">.csv</span> 檔案 (如 MS Excel)。可產生 Tableau 格式檔案。 </td> 
-   <td colname="col6"> Windows 64 位元、優秀的 OpenGL 3.2 圖形卡 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">更多...</a></u>) </td> 
+   <td colname="col06"> 需要瀏覽器和程式來開啟 <span class="filepath">.csv</span> 檔案 (如 MS Excel)。可產生 Tableau 格式檔案。 </td> 
+   <td colname="col6"> Windows 64 位元、運作良好的 OpenGL 3.2 圖形卡 (<u><a href="https://marketing.adobe.com/resources/help/en_US/insight/install/c_Data_Workbench_Client_install.html">更多...</a></u>) </td> 
   </tr> 
  </tbody> 
 </table>
