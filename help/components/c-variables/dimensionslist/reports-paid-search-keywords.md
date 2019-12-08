@@ -1,11 +1,10 @@
 ---
 description: 顯示用於尋找您網站的每個付費搜尋關鍵字的劃分資訊。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
-solution: Analytics
 title: 付費搜尋關鍵字
 topic: Reports
 uuid: e8a2c075-e6e4-41ce-8e1f-0b77d278e9aa
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
