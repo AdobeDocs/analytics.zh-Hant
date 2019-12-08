@@ -1,12 +1,11 @@
 ---
 description: 如果其他訪客 ID 方法失敗，則 Adobe 會設定一個回呼 Cookie，或使用 IP 位址與使用者代理程式的組合來識別訪客。
 keywords: Analytics Implementation
-solution: Analytics
 title: 備援 ID 方法
 topic: Developer and implementation
 uuid: f242d481-81f0-4287-be4f-52fd03eb01fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
