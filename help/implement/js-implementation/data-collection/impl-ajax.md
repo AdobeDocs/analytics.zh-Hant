@@ -1,12 +1,11 @@
 ---
 description: 使用 AJAX 進行實施的程序，與將程式碼部署在標準 HTML 頁面上完全相同。
 keywords: Analytics Implementation
-solution: Analytics
 title: 使用 AJAX 進行實作
 topic: Developer and implementation
 uuid: 9e3477ef-7dea-4c76-ab61-36a188222be7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
