@@ -1,13 +1,12 @@
 ---
 description: 以高階方式查看變數及其限制。
 keywords: Analytics Implementation;variable;limitations;limits
-solution: Analytics
 subtopic: Variables
 title: 變數和限制
 topic: Developer and implementation
 uuid: 028677a7-2132-4ee7-9cc1-697c2c09b087
 translation-type: tm+mt
-source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -43,7 +42,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 | dynamicAccountSelection | 可讓您根據各頁面的 URL 動態選取報表套裝。 |
 | dynamicVariablePrefix | 可讓您在部署中為動態填入的變數加上標記。Cookie、要求標題和影像查詢字串參數皆可動態填入。 |
 | eVarN | 用來建置 [!DNL Analytics][!UICONTROL  轉換模組]內的自訂報表。當 eVar 設為訪客的值時，[!DNL Analytics] 會記住該值，直到它過期為止。訪客在 eVar 值活動期間遇到的任何成功事件都會被計入 eVar 值。 |
-| 事件 | 記錄一般購物車成功事件和自訂成功事件。 |
+| events | 記錄一般購物車成功事件和自訂成功事件。 |
 | fpCookieDomainPeriods | 判斷頁面的網域中所含的時段數，以決定[!DNL Analytics]訪客 ID[!UICONTROL  (s_vi) Cookie 以外的 ] Cookie 設定所在的網域。 |
 | hierN。 | 判斷某個頁面在您的網站階層中的所在位置。此變數對於擁有超過三層結構的網站尤其實用。 |
 | homepage | (在 Internet Explorer 中) 指出目前的頁面是否設為使用者的首頁。 |
@@ -69,7 +68,7 @@ source-git-commit: edf88e40cae8b6886b04257f266666c13a37f88d
 | pageType | 用途僅止於指定 404 (找不到頁面) 錯誤頁面。此變數只有一個可能的值，即 "errorPage"。在 404 錯誤頁面上，*`pageName`*&#x200B;變數不應填入。 |
 | pageURL | 極少數的情況下，頁面的 URL 不會是您要在 [!DNL Analytics] 中報告的 URL。為因應這些情況，[!DNL Analytics] 提供 *`pageURL`* 變數，可覆寫頁面的實際 URL。 |
 | 外掛程式 | 在 Netscape 和 Mozilla 瀏覽器上，列出瀏覽器中所安裝的外掛程式。 |
-| products | 用來追蹤產品和產品類別，以及購買數量和購買價格。此&#x200B;*`products`*&#x200B;變數一律應與成功事件一起設定。您可以視需要選擇使用 *`products`* 變數追蹤自訂數值和貨幣事件，以及[!UICONTROL 商品銷售] eVar。 |
+| 產品 | 用來追蹤產品和產品類別，以及購買數量和購買價格。此&#x200B;*`products`*&#x200B;變數一律應與成功事件一起設定。您可以視需要選擇使用 *`products`* 變數追蹤自訂數值和貨幣事件，以及[!UICONTROL 商品銷售] eVar。 |
 | propN | 用來建置 [!DNL Analytics][!UICONTROL  流量模組]內的自訂報表。[!UICONTROL prop] 可作為計數器 (用以計算頁面檢視的傳送次數)、用於路徑分析報表，或用於關聯報表中。 |
 | purchaseID | 讓 [!DNL Analytics] 用來防止重複計算同一份訂單。只要您的網站上使用購買事件，則應使用 *`purchaseID`* 變數。 |
 | referrer | 還原遺失的反向連結資訊。 |
