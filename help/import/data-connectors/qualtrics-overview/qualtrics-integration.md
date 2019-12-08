@@ -1,12 +1,11 @@
 ---
 description: 部署完成後，您就可以開始使用此整合提供的其他功能。
-solution: Analytics
 subtopic: Qualtrics
 title: 使用整合
 topic: Data connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
