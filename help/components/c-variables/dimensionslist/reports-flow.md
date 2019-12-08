@@ -1,11 +1,10 @@
 ---
 description: 流量會顯示使用者在頁面、網站區域及伺服器間採取的最常見路徑。
-solution: Analytics
 title: 流量
 topic: Reports
 uuid: d114d117-b5cc-483d-a169-c56d615fa1c4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,6 +19,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **上一流量**
 
-「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報表的控制項與「下一流量」報表的控制項相同。
+「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報告的控制項與「下一流量」報告的控制項相同。
 
 如需流量如何在 **Analysis Workspace** 中運作的相關資訊，請參閱[客戶歷程 – 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
