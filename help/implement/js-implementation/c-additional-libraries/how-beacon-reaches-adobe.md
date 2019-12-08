@@ -1,12 +1,11 @@
 ---
 description: 當行動裝置向 Web 伺服器要求頁面時，要求會透過閘道傳送；閘道會將行動裝置要求 (通常採用 WAP 或 I-Mode 通訊協定) 轉換為傳送至 Web 伺服器的 HTTP 要求。
 keywords: Analytics Implementation;gateway;wap;i-mode;wbmp
-solution: Analytics
 title: 行動通訊協定網路閘道
 topic: Developer and implementation
 uuid: a2c92ce2-53a9-4b5b-be1a-89d9f1bf776f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
