@@ -1,12 +1,11 @@
 ---
 description: 排程、下載和發佈報表的相關資訊。
-solution: Analytics
 subtopic: Schedule
 title: 報表排程和分發
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -44,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    | 選項 | 說明 |
    |--- |--- |
-   | 格式 | 選取 PDF 或 HTML實施流量分類。 |
+   | 格式 | 選取 PDF 或 HTML. |
    | 傳送至 | 提供接收報告的電子郵件地址實施流量分類。 |
    | 主旨 | 電子郵件的主旨。 |
    | 排程 | 選取立即發送報告，或以不同間隔發送。 |
@@ -81,7 +80,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 以 PDF、CSV、Excel 或「原始資料集匯出」格式下載特定報表的詳細資訊。
 
 1. 在 **Analytics** &gt; **[!UICONTROL 報表]**&#x200B;中，選取報表以檢視。
-1. Click **[!UICONTROL Download]**.
+1. 按一下&#x200B;**[!UICONTROL 「下載」]**。
 
    ![](assets/download_basic.png)
 
