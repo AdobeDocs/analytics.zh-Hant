@@ -1,12 +1,11 @@
 ---
 description: 閱讀最佳實務和範例，瞭解如何填入各種可為行銷渠道設定的規則。
-solution: Analytics
 subtopic: Marketing channels
 title: 常見問題集和範例
 topic: Reports and analytics
 uuid: 1c63a1b5-a191-4855-aa65-fac19ab1037a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -28,7 +27,7 @@ Read about best practices and examples of how to populate various rules you can 
 * [Direct](/help/components/c-marketing-channels/c-faq.md#section_D0A1DD9D5EEF4A05A1CC81F9EADC074A)
 -->
 
-See [Create Marketing Channel Processing Rules](/help/components/c-marketing-channels/t-rules.md) for definitions of fields displayed on the [!UICONTROL Marketing Channel Processing Rules] page.
+請參閱[建立行銷管道處理規則](/help/components/c-marketing-channels/t-rules.md)，瞭解[!UICONTROL 行銷管道處理規則]頁面中所顯示欄位的定義。
 
 ## 常見問題集 {#faq}
 
@@ -37,9 +36,9 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 **問題**: 我的追蹤代碼不遵從模式，而我必須為我的「附屬機構」渠道指定上千個模式。
 
 * 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用 *`affiliates.`*
-* 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*. Create a rule set detecting whether the ch query parameter equals *`eml`*. 如果不含，則 *`eml`*&#x200B;為分支機構。
+* 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*.建立一個規則集，用於偵測 ch 查詢參數是否等於 *`eml`*。如果不包含 *`eml`*，則為附屬機構。
 
-**問題**:反向連結網域包含的資料比我預期的要多。
+**問題**: 反向連結網域包含的資料多於我的預期。
 
 * 反向連結網域可能在處理規則清單中排位過高。它應是最後的規則集或之一，因為處理順序至關重要。
 
@@ -57,19 +56,19 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 * 規則依順序處理。如果不符合特定標準，點按便會屬於下列三個類別之一: 
 
-1. 無反向連結（直接瀏覽）。
+1. 無反向連結 (直接造訪)。
 
-2. 內部反向連結，位於瀏覽的第一頁。
+2. 內部反向連結，位於第一個造訪的頁面上。
 
 3. 頁面上的處理故障。
 
 請確保擁有針對這三種可能性的渠道。例如，建立如下規則︰
 
-1. **[!UICONTROL 反向連結]** 和 **[!UICONTROL 不存在]** , **[!UICONTROL 且是第一個瀏覽頁面]**。 (See [Direct.](/help/components/c-marketing-channels/c-faq.md))
+1. **[!UICONTROL 反向連結]**&#x200B;和&#x200B;**[!UICONTROL 不存在]**&#x200B;和&#x200B;**[!UICONTROL 是第一個造訪的頁面]**。(請參閱[直接](/help/components/c-marketing-channels/c-faq.md)。)
 
-2. **[!UICONTROL 反向連結符合內部URL篩選]** , **[!UICONTROL 是第一個瀏覽頁面]**。 (請參閱[內部](/help/components/c-marketing-channels/c-faq.md)。)
+2. **[!UICONTROL 反向連結符合內部 URL 篩選器]**&#x200B;和&#x200B;**[!UICONTROL 是第一個造訪的頁面]**。(請參閱[內部](/help/components/c-marketing-channels/c-faq.md)。)
 
-3. **[!UICONTROL 反向連結]** 、 **[!UICONTROL 存在]** 、反向連 **[!UICONTROL 結不符合內部URL篩選器]**。
+3. **[!UICONTROL 反向連結]**&#x200B;和&#x200B;**[!UICONTROL 存在]**&#x200B;和&#x200B;**[!UICONTROL 反向連結不匹配內部 URL 篩選器]**。
 
 最後，建立一個擷取剩餘點按的&#x200B;*「其他」*&#x200B;渠道，如[未識別渠道](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)中所述。
 
@@ -79,13 +78,13 @@ See [Create Marketing Channel Processing Rules](/help/components/c-marketing-cha
 
 ![](assets/example_other.png)
 
-This kind of rule serves as a catch-all to ensure that channel traffic always matches external traffic, and typically does not end up in **[!UICONTROL No Channel Identified]**. 注意不要建立同時識別內部流量的規則。將渠道值設定為&#x200B;**[!UICONTROL 「反向連結網域」]**&#x200B;或&#x200B;**「頁面 URL」]是最常見且實用的建立有效「其他」規則之方法。[!UICONTROL **
+這類規則涵蓋範圍甚廣，可確保管道流量總是符合外部流量，且通常不會以&#x200B;**[!UICONTROL 未識別管道]**&#x200B;結束。注意不要建立同時識別內部流量的規則。將渠道值設定為&#x200B;**[!UICONTROL 「反向連結網域」]**&#x200B;或&#x200B;**「頁面 URL」]是最常見且實用的建立有效「其他」規則之方法。[!UICONTROL **
 
-> [!NOTE] 可能仍有一些渠道流量屬於「未識別渠道」類別。 舉例來說: 一位訪客造訪網站並將網頁加到書籤中，在同一次造訪中會透過書籤返回該頁面。由於這不是該次造訪的第一頁，並沒有反向連結網域，因此不會分類到「直接渠道」或「其他渠道」。
+> [!NOTE] 可能還會有其他管道流量分類到「未識別管道」類別中。舉例來說: 一位訪客造訪網站並將網頁加到書籤中，在同一次造訪中會透過書籤返回該頁面。由於這不是該次造訪的第一頁，並沒有反向連結網域，因此不會分類到「直接渠道」或「其他渠道」。
 
 ## 付費搜尋 {#paid-search}
 
-付費搜尋是指您為顯示在搜索結果中而需要向搜尋引擎付款的字詞或短語。為了比對付費搜尋偵測規則，行銷渠道使用[!UICONTROL 「付費搜尋偵測」]頁面上的設定。( **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL Paid Search Detection]**). 目標 URL 符合搜索引擎的現存付費搜尋偵測規則。
+付費搜尋是指您為顯示在搜索結果中而需要向搜尋引擎付款的字詞或短語。為了比對付費搜尋偵測規則，行銷渠道使用[!UICONTROL 「付費搜尋偵測」]頁面上的設定。(**[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 付費搜尋偵測]**)。目標 URL 符合搜索引擎的現存付費搜尋偵測規則。
 
 對於行銷渠道規則，[!UICONTROL 付費搜尋]設定如下:
 
@@ -119,7 +118,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ## 顯示 {#display}
 
-該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為 *另存`Ad_01`。*
+該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為  *另存`Ad_01`。*
 
 ![](assets/example_display.png)
 
@@ -131,7 +130,7 @@ This kind of rule serves as a catch-all to ensure that channel traffic always ma
 
 ## 電子郵件 {#email}
 
-若要設定該規則，您可為電子郵件促銷活動提供查詢字串參數。在本例中，參數為 *`eml`*:
+若要設定該規則，您可為電子郵件促銷活動提供查詢字串參數。在本例中，參數為  *`eml`*:
 
 ![](assets/example_email.png)
 
