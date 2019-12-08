@@ -1,13 +1,12 @@
 ---
 description: 說明資料饋送中欄的表格資料。
 keywords: Data Feed;columns
-solution: Analytics
 subtopic: data feeds
 title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -327,14 +326,14 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 * mobilemessageid<span>.</span>名稱
 * mobilemessageid<span>.</span>type
 * mobilemessageimpressions
-* mobilemessagepushpayloadid<span><span>。</span></span>name
+* mobilemessagepushpayloadid<span><span>。</span></span>名稱
 * mobilemessageviews
 * mobilemonthlyengitedusers
 * mobileplacedwelltime
 * mobileplaceentry
 * mobileplaceexit
 * mobileprevsessionlength
-* mobilerelaunchcampaigntrackingcode<span><span>。</span></span>name
+* mobilerelaunchcampaigntrackingcode<span><span>。</span></span>名稱
 * mobileupgrades
 * socialaveragesentiment
 * socialaveragesentiment（已過時）
