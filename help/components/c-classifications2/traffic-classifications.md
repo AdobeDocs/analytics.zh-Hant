@@ -1,12 +1,11 @@
 ---
 description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
-solution: Analytics
 subtopic: Classifications
 title: 流量分類
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 啟用分類後，請使用[分類匯入工具](/help/components/c-classifications2/c-classifications-importer/c-working-with-saint.md)，將特定值指派給適當的分類。
 
-## Add a Traffic Classification {#task_4DB49CCB1D764483907BC33A5CEB7315}
+## 新增流量分類 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
 <!-- 
 
@@ -33,15 +32,15 @@ t_classification_add_traffic.xml
 
 說明如何為選取的報表套裝新增或編輯分類的步驟。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. 選擇報表套裝.
+1. 在套裝標題中，按一下&#x200B;**[!UICONTROL 「管理]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 選取報表套裝。
 1. 在&#x200B;**「選取分類類型」**&#x200B;欄位中，選取您要新增分類的變數。
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Traffic]** &gt; **[!UICONTROL Traffic Classifications]**.
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 流量]** &gt; **[!UICONTROL 流量分類」]**。
 
    ![步驟資訊](assets/traffic-classification.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]** or **[!UICONTROL Edit Classification]**.
-1. In the **[!UICONTROL Text Classification]** dialog box, configure the classification as desired:
+1. 將滑鼠移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 新增分類]**&#x200B;或&#x200B;**[!UICONTROL 編輯分類]**。
+1. 在&#x200B;**[!UICONTROL 文字分類]**&#x200B;對話方塊中，視需要設定分類:
 
    **[!UICONTROL 名稱:]** 指定分類名稱。
 
