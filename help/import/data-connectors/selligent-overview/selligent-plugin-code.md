@@ -1,10 +1,9 @@
 ---
 description: 在您使用下列程式碼之前，請先在Adobe Analytics的「管理工具」中保留必要的eVar。
-solution: Analytics
 title: 查詢字串參數外掛程式代碼
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
