@@ -1,12 +1,11 @@
 ---
 description: 建立行銷管道處理規則，以判定訪客點按是否符合指派給管道的標準。
-solution: Analytics
 subtopic: Marketing channels
 title: 建立行銷管道處理規則
 topic: Reports and analytics
 uuid: 0e47634f-3c69-46db-8af4-8d0b3d15f7a8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,18 +16,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 此程序使用電子郵件規則做為範例。此範例假設您已新增電子郵件渠道至「行銷渠道管理員」頁面上的渠道清單中。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 選擇報表套裝.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 選取報表套裝。
 
    如果報表套裝尚未定義渠道，則會顯示[!UICONTROL 「自動設定」頁面]。
 
-   請參閱 [執行自動設定](/help/components/c-marketing-channels/c-channel-autosetup.md).
+   請參閱[執行自動設定](/help/components/c-marketing-channels/c-channel-autosetup.md)。
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Processing Rules]**.
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 行銷管道]** &gt; **[!UICONTROL 行銷管道處理規則」]**。
 
    ![步驟結果](assets/marketing_channel_rules.png)
 
-1. From the **[!UICONTROL Add New Rule Set]** menu, select **[!UICONTROL Email]**.
+1. 從&#x200B;**[!UICONTROL 新增新規則集]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 「電子郵件」]**。
 
    您在此處並非選擇渠道，而是選擇範本並以數個必要參數填入規則。
 
@@ -42,10 +41,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
-   In this example, *`<value>`* is the query string parameter that you use for your email campaign, such as *`eml`*.
-1. To continue creating rules, click **[!UICONTROL Add Rule]**.
+   在此範例中，*`<value>`* 是用於電子郵件促銷活動的查詢字串參數，例如 *`eml`*
+1. 若要繼續建立規則，請按一下&#x200B;**[!UICONTROL 「新增規則」]**。
 1. 若要排列規則優先順序，請將它們拖放至適當位置。
-1. Click **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!MORELIKETHIS]
 >
