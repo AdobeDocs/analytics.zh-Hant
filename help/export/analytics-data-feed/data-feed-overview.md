@@ -1,11 +1,10 @@
 ---
 description: 從網站、行動應用程式收集或使用網站服務 API 或資料來源上傳的資料會儲存在 Adobe 的 Data Warehouse。這些原始點按流資料形成 Adobe Analytics 所使用的資料集。
 keywords: clickstream;data feed;datafeed;Data Feed
-solution: Analytics
 title: Analytics 資料摘要概觀
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -57,7 +56,10 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 瞭解取得資料饋送的基本工作流程後，即可與組織內的團隊合作，將原始資料儲存或收錄至資料庫。
 
-[建立資料饋送](create-feed.md):建立資料饋送的技術詳細資訊，詳細說明個別欄位管理[資料饋送](df-manage-feeds.md):進一步瞭解如何導覽資料饋送介面[資料饋送內容](c-df-contents/datafeeds-contents.md):瞭解壓縮檔案資料欄定[義內容](c-df-contents/datafeeds-reference.md):所有可用欄的完整清單
+* [建立資料饋送](create-feed.md):建立資料饋送的技術詳細資訊，詳細說明個別欄位
+* [管理資料饋送](df-manage-feeds.md):進一步瞭解如何導覽資料饋送介面
+* [資料饋送內容](c-df-contents/datafeeds-contents.md):瞭解壓縮檔案內容
+* [資料欄定義](c-df-contents/datafeeds-reference.md):所有可用欄的完整清單
 
 ## 其他資源
 
