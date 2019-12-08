@@ -1,17 +1,16 @@
 ---
 description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
-solution: Analytics
 subtopic: Processing rules
-title: 適用於處理規則的維度
+title: 可用於處理規則的維度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 適用於處理規則的維度
+# 可用於處理規則的維度
 
 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
 
@@ -39,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報告變數，才會在報告中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md"> 複製上下文資料變數至eVar </a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md"> 使用上下文資料變數設定事件 </a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文資料變數</a> </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用上下文資料變數設定事件</a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,23 +96,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>查詢字串參數 </p> </td> 
-   <td colname="col2"> <p>目前 URL 中指定之查詢字串參數的值，或為空 (如果沒有參數)。For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>如果您執行的是 JavaScript AppMeasurement H.25.2 或更早的版本，頁面 URL 可能會在 255 個字元之後截斷。JavaScript AppMeasurement H.25.3 (2013 年 1 月發佈) 和更新的版本提供處理規則的完整 URL。 </p> </td> 
+   <td colname="col2"> <p>目前 URL 中指定之查詢字串參數的值，或為空 (如果沒有參數)。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> 中，查詢字串參數 <span class="syntax codeph">cid</span> 的值為 <b>ad1</b>，而查詢字串參數 <span class="syntax codeph">node</span> 的值為 <b>4</b>。 </p> <p>如果您執行的是 JavaScript AppMeasurement H.25.2 或更早的版本，頁面 URL 可能會在 255 個字元之後截斷。JavaScript AppMeasurement H.25.3 (2013 年 1 月發佈) 和更新的版本提供處理規則的完整 URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面路徑 </p> </td> 
-   <td colname="col2"> <p>頁面 URL 的路徑。The path of the URL <b>https://www.example.com/news/a.html?cid=ad1</b> is <span class="syntax codeph"> news/a.html</span> . </p> </td> 
+   <td colname="col2"> <p>頁面 URL 的路徑。URL <b>https://www.example.com/news/a.html?cid=ad1</b> 的路徑是 <span class="syntax codeph">news/a.html</span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面網域 </p> </td> 
-   <td colname="col2"> <p>URL 中指定的完整主機名稱。https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>URL 中指定的完整主機名稱。https://<span class="syntax codeph">en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面根網域 </p> </td> 
-   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>頁面之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面查詢字串 </p> </td> 
-   <td colname="col2"> <p>URL 的完整查詢字串。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>URL 的完整查詢字串。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結* (唯讀) </p> </td> 
@@ -121,19 +120,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結查詢字串參數 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中指定之查詢字串參數的值，或為空 (如果沒有參數)。For the URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b>, the value of Query String Parameter <span class="syntax codeph"> cid</span> is <b>ad1</b>, and the value of Query String Parameter <span class="syntax codeph"> node</span> is <b>4</b>. </p> <p>如果您執行的是 JavaScript AppMeasurement H.25.2 或更早的版本，頁面 URL 可能會在 255 個字元之後截斷。JavaScript AppMeasurement H.25.3 (2013 年 1 月發佈) 和更新的版本提供處理規則的完整 URL。 </p> </td> 
+   <td colname="col2"> <p>反向連結 URL 中指定之查詢字串參數的值，或為空 (如果沒有參數)。URL <b>https://www.example.com/a.html?cid=ad1&amp;node=4</b> 中，查詢字串參數 <span class="syntax codeph">cid</span> 的值為 <b>ad1</b>，而查詢字串參數 <span class="syntax codeph">node</span> 的值為 <b>4</b>。 </p> <p>如果您執行的是 JavaScript AppMeasurement H.25.2 或更早的版本，頁面 URL 可能會在 255 個字元之後截斷。JavaScript AppMeasurement H.25.3 (2013 年 1 月發佈) 和更新的版本提供處理規則的完整 URL。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結網域 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結的完整主機名稱。https://<span class="syntax codeph"> en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>反向連結的完整主機名稱。https://<span class="syntax codeph">en.main.example.co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結根網域 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結之主機名稱的最後兩個區段。https://en.main.example。<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>反向連結之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結查詢字串 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP 位址 (唯讀) </p> </td> 
