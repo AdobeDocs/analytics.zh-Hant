@@ -1,12 +1,11 @@
 ---
 description: 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「付費搜尋」促銷活動歸類為「流行音樂術語」類別，並報告該類別相對於「例項」(點進次數) 等量度的成功，以及成功事件的轉換。
-solution: Analytics
 subtopic: Classifications
 title: 轉換分類
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -62,22 +61,22 @@ t_classification_conversion.xml
 
 說明如何在「管理」中新增轉換分類的步驟。
 
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
-1. 選擇報表套裝.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 選取報表套裝。
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 轉換分類」]**。
 1.  在&#x200B;**「選取分類類型」**&#x200B;下拉式清單中，選取您要新增分類的變數。
 
    ![步驟資訊](assets/sub_class_create.png)
 
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Add Classification]**.
+1. 將游標移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 「新增分類」]**。
 1.  在&#x200B;**選擇類型**&#x200B;欄位中，選取您要新增至變數的分類類型。
 
-   Options include **[!UICONTROL Text]** and **[!UICONTROL Numeric]**. For more information on classification types, see [About Classifications](/help/components/c-classifications2/c-classifications.md).
-1. In the **[!UICONTROL Text Classifications]** dialog box, configure the classification as desired.
+   選項包括&#x200B;**[!UICONTROL 文字]**&#x200B;和&#x200B;**[!UICONTROL 數值]**。如需分類類型的詳細資訊，請參閱[關於分類](/help/components/c-classifications2/c-classifications.md)。
+1. 在&#x200B;**[!UICONTROL 文字分類]**&#x200B;對話方塊中，視需要設定分類。
 
    如需這些元素的相關資訊，請參閱[轉換分類說明](/help/components/c-classifications2/conversion-classifications.md#section_4A98DD5F5C314B9DAEE710AEE4EE51D4)。
 
-1. In the **[!UICONTROL Dropdown List]** dialog box, add or remove options.
+1. 在&#x200B;**[!UICONTROL 下拉式清單]**&#x200B;對話方塊中，新增或移除選項。
 
    新增選項可建立用於此分類的分類值清單。您可以使用這個選項搭配促銷活動變數，在「促銷活動管理員」裡提供使用者一份受支援分類值的清單。使用此清單作為分類維度，可讓您擁有一小部分幾乎不會或絕對不會變更的許可值。例如您可能會針對不同等級的客戶忠誠度進行不同的促銷活動: 銀級、金級和白金級。您可以使用下拉式清單確保只有接受的值是符合這三個等級的值。如果有其他人嘗試使用其他值，就會被捨棄。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
@@ -92,9 +91,9 @@ t_classification_delete_conversion.xml
 
 刪除不再需要的轉換分類。
 
-1. Open the Report Suite Manager by clicking **[!UICONTROL Admin]**&gt; **[!UICONTROL Report Suites]** in the Suite header.
-1. 選擇報表套裝.
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Conversion]** &gt; **[!UICONTROL Conversion Classifications]**.
+1. 開啟「報表套裝管理器」，方法是按一下套裝標題中的&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 選取報表套裝。
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 轉換分類」]**。
 1. 在&#x200B;**選取分類類型**&#x200B;下拉式清單中，選取您要刪除分類的變數。
-1. Mouse over the **[!UICONTROL Edit Classification]** icon, then select **[!UICONTROL Delete Classification]**.
-1. In the Delete Classification dialog box, click **[!UICONTROL Delete]**.
+1. 將游標移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 「刪除分類」]**。
+1. 在「刪除分類」對話方塊中，按一下&#x200B;**[!UICONTROL 「刪除」]**。
