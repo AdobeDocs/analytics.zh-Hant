@@ -1,11 +1,10 @@
 ---
-description: 「網站量度」報表會顯示網站的相關定量資訊。例如，可顯示訪客查看頁面的次數、來自特定頁面的購買量、逗留在頁面的時間、收入以及類似的定量資料。每一個這纇報表都是一個量度，您可放置於其他項目型報表中。
-solution: Analytics
+description: 「網站量度」報表會顯示網站的相關定量資訊。例如，可顯示訪客查看頁面的次數、來自特定頁面的購買量、逗留在頁面的時間、收入以及類似的定量資料。每一個這類報告都是一個量度，您可放置於其他項目型報告中。
 title: 網站量度
 topic: Reports
 uuid: a7bec7f5-7dc7-4124-b61d-2faa3d4f3a8e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
