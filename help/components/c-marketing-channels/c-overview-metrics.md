@@ -1,19 +1,18 @@
 ---
-description: 如何在行銷渠道報表中使用量度。
-solution: Analytics
+description: 如何在行銷管道報表中使用量度。
 subtopic: Marketing channels
 title: 用於行銷渠道報表中的量度
 topic: Reports and analytics
 uuid: be5bcb94-927e-4b5f-b201-3d54eb51e740
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 用於行銷渠道報表中的量度
 
-如何在行銷渠道報表中使用量度。
+如何在行銷管道報表中使用量度。
 
 ![](assets/metric_edit_icon.png)
 
@@ -25,9 +24,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 首次和上次接觸量度 {#first-and-last-touch}
 
-首次接觸和上次接觸是渠道屬性，可讓您查看訪客在渠道中的活動產生多少新參與（或產品檢視、收入和訂購等量度資料）。
+首次接觸和上次接觸是管道屬性，可讓您查看訪客在管道中的活動產生了多少新參與 (或產品檢視次數、收入和訂單等量度資料)。
 
-When a success event occurs, Analytics looks at the entire visitor's activity and history (back to the [visitor's engagement expiration](/help/components/c-marketing-channels/visitor-engagement.md)). 它會記下使用者進入的第一個渠道，以及最近的渠道。接著將成功事件的評價給予每個適當的渠道。
+發生成功事件時，Analytics 會查看整個訪客活動和歷史記錄 (直到[訪客參與有效期](/help/components/c-marketing-channels/visitor-engagement.md))。它會記下使用者進入的第一個渠道，以及最近的渠道。接著將成功事件的評價給予每個適當的渠道。
 
 <!-- 
 
@@ -57,14 +56,14 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
 每個成功事件例項都有剛好一個「首次接觸」渠道以及剛好一個「上次接觸」渠道。這表示如果您加總任一成功事件的某個量度欄，會剛好等於同一時段的總計。此總計也會剛好等於適當之[!UICONTROL 「網站量度] &gt; [!UICONTROL 自訂事件」]報表中的事件總數。非成功事件量度 (如存取和訪客) 不會符合 1 對 1，因為同一次存取中可以觸發多個渠道。
 
-> [!NOTE] 此報表使用每個度量的首次接觸或上次接觸版本。 因此，[!UICONTROL 「行銷渠道」]報表中顯示的資料，可能不符合其他報表中顯示的資料。
+> [!NOTE] 此報表使用每個量度的首次接觸或上次接觸版本。因此，[!UICONTROL 「行銷渠道」]報表中顯示的資料，可能不符合其他報表中顯示的資料。
 
-## Metric definitions {#metric-defs}
+## 量度定義 {#metric-defs}
 
 | 量度 | 定義 |
 |--- |--- |
-| 首次接觸渠道 | 吸引訪客參與的第一個行銷渠道。技術上而言，首次接觸渠道是具有原始配置的eVar。 |
-| 首次接觸訪客 | 在渠道報表中，首次接觸訪客是指源自某個渠道產生的每日獨特訪客。訪客的參與資料會在其參與網站的時間內加以儲存，時間可持續多次瀏覽。 |
+| 首次接觸渠道 | 吸引訪客參與的第一個行銷渠道。從技術方面來說，首次接觸管道是指使用原始配置的 eVar。 |
+| 首次接觸訪客 | 在管道報表中，首次接觸訪客是指源自某個管道產生的每日獨特訪客。訪客的參與資料會在其參與網站的時間內加以儲存，時間可持續多次瀏覽。 |
 | 上次接觸渠道 | 轉換渠道是指上一個吸引訪客參與並導致轉換的行銷渠道。只有一個渠道被設為首次接觸渠道。上次接觸渠道可隨每一次回訪網站而變更。每次瀏覽都包含一個首次接觸渠道和上次接觸渠道，但是首次接觸渠道的值始終不會隨著後續瀏覽而變更。 |
 
 ## 點進 {#click-through}
@@ -96,5 +95,5 @@ When a success event occurs, Analytics looks at the entire visitor's activity an
 
    ![步驟結果](assets/metric_create.png)
 
-1. To create calculated metrics, scroll to [!UICONTROL Calculated Metrics], then click **[!UICONTROL Create]**.
-1. Click **[!UICONTROL Save.]**
+1. 若要建立計算量度，請捲動至[!UICONTROL 計算量度]並按一下&#x200B;**[!UICONTROL 「建立」]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
