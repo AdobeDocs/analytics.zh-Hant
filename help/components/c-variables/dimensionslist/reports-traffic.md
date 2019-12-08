@@ -1,11 +1,10 @@
 ---
 description: 「流量」報表可讓您深入瞭解訪客與您網站的互動情形。
-solution: Analytics
 title: 流量
 topic: Reports
 uuid: c32af0c0-f0c2-47f7-a5f6-4a2df63e11fc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -25,4 +24,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **通用持續性**
 
-在「流量來源」報告中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行   *`DVD`*, which brings them to your site for a $100 purchase, the report allocates $100 credit to the keyword *`DVD`* and also to the Google search engine. 不論管理設定為何，該功能皆不可變更。
+在「流量來源」報告中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行   *`DVD`* Google 搜尋，並因此前往您的網站購買 $100 的商品，則報表會將 $100 評分分配給關鍵字 *`DVD`* 以及 Google 搜尋引擎。不論管理設定為何，該功能皆不可變更。
