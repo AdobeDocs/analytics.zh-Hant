@@ -1,11 +1,10 @@
 ---
 description: 顯示促進網站流量的網站位置。您可以看到您網域外部的哪些搜尋引擎和網站為您帶來訪客。
-solution: Analytics
 title: 流量來源
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -58,7 +57,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 所有搜尋頁面排名 </td> 
-   <td colname="col2"> <p> 顯示訪客搜尋清單中您網站的排名，包括付費和免費搜尋頁面排名資料。 </p> <p>例如，透過搜尋引擎到達您網站的使用者可能會發現您的網站位於 100 個結果頁面的第 3 位。這將有助於您快速瞭解並最佳化搜尋引擎的效力。此報告中的資料可依照除「<span class="wintitle">小時</span>」之外的任意時段檢視。 </p> </td> 
+   <td colname="col2"> <p> 顯示您的網站在訪客搜尋清單中的排名，包括付費和免費搜尋頁面排名資料。 </p> <p>例如，透過搜尋引擎到達您網站的使用者可能會發現您的網站位於 100 個結果頁面的第 3 位。這將有助於您快速瞭解並最佳化搜尋引擎的效力。此報告中的資料可依照除「<span class="wintitle">小時</span>」之外的任意時段檢視。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向連結網域 </td> 
@@ -70,16 +69,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 反向連結 </td> 
-   <td colname="col2"> <p> 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。 </p> <p>例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在 實施中，您的實施顧問會幫助您定義屬於您網站一部份的網域和 URL (這亦可在實施之後完成)。任何非該等已定義網域之一部分的網域或 URL 被視為反向連結。 </p> <p>例如，如果將網頁 A 和網頁 B 新增至內部 URL 過濾器，而網頁 C 並未被新增至內部 URL 過濾器，那麼網頁 C 被視為反向連結。 </p> <p>請參閱 <a href="/help/admin/admin/internal-url-filter-admin.md"> 內部 URL 篩選器</a></p>  <p>Note: Analytics records a referring domain as an email when visitors click an emailed message link containing the protocol <code> imap://</code> or <span class="filepath"> mail://</span> and arrive at your site. </p> <p>For example, anything coming from <code> https://mail.yahoo.com</code> is not counted as an email referrer because the protocol is <span class="filepath"> https://</span>. 來自 Outlook 的電子郵件會報告到「<span class="wintitle">分類/建立書籤</span>」行，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「<span class="wintitle">搜尋引擎</span>」行。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。 </p> <p>例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在 實施中，您的實施顧問會幫助您定義屬於您網站一部份的網域和 URL (這亦可在實施之後完成)。任何非該等已定義網域之一部分的網域或 URL 被視為反向連結。 </p> <p>例如，如果將網頁 A 和網頁 B 新增至內部 URL 過濾器，而網頁 C 並未被新增至內部 URL 過濾器，那麼網頁 C 被視為反向連結。 </p> <p>請參閱<a href="/help/admin/admin/internal-url-filter-admin.md"> 內部 URL 篩選器</a></p>  <p>注意: 當訪客點按包含通訊協定 <code> imap://</code> 或 <span class="filepath">mail://</span> 的電子郵件連結而進入您的網站時，Analytics 會將反向連結網域記錄為電子郵件。 </p> <p>例如，來自 <code> https://mail.yahoo.com</code> 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 <span class="filepath">https://</span>。來自 Outlook 的電子郵件會報告到「<span class="wintitle">分類/建立書籤</span>」行，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「<span class="wintitle">搜尋引擎</span>」行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向連結類型 </td> 
-   <td colname="col2"> <p> 透過追蹤並記錄每次瀏覽的訪客反向連結網站，您可以決定每次瀏覽的訪客如何找到您的網站。 下列清單定義反向連結的各種類型。 </p> 
+   <td colname="col2"> <p> 透過追蹤並記錄每次存取的訪客反向連結位置，您可以瞭解每次存取中訪客是如何找到您的網站的。下列清單定義反向連結的各種類型。 </p> 
     <ul id="ul_981E224B63A44893BFCCE4110BA941F7"> 
      <li id="li_9CF3A37599D24C628E1FD9C5F014DF0F"> 訪客點按其硬碟上的 HTML 文件中的連結來到達您的網站時，會記錄硬碟反向連結。 </li> 
      <li id="li_7B48C857AE0A48E5A35A73A00B039328"> 訪客點按其他網頁 (未定義為您網站的一部分) 上的連結進入您的網站時，會記錄其他網站反向連結。 </li> 
      <li id="li_87BCF837F21B43C0B4C9C97C4CBF69A2"> 訪客使用搜尋引擎存取您的網站時，會記錄搜尋引擎反向連結。 </li> 
-     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 當訪客將您網站的URL直接鍵入瀏覽器或透過選擇書籤存取您的網站時，會記錄分類／建立書籤反向連結。 </li> 
+     <li id="li_14A94FA2F4A44F47A810A86F94896162"> 分類/建立書籤: 當訪客在瀏覽器中直接鍵入您的網站 URL，或透過選擇書籤存取您的網站時，會記錄反向連結。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
