@@ -1,12 +1,11 @@
 ---
 description: 提供數值 2 分類匯入指引的範例。
-solution: Analytics
 subtopic: Classifications
 title: 範例
 topic: Admin tools
 uuid: 0553d07f-87c1-4372-90ce-7118a6393a01
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -23,7 +22,7 @@ c_example_1__rate.xml
 
 在此案例中，您在「[!UICONTROL 分類轉換]」管理員建立了分類，並且要匯入 1 月的值:
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` |  | `.2` |
 | Product2 | Text2 | `Cost2_jan_var` |  | `.3` |
@@ -33,7 +32,7 @@ c_example_1__rate.xml
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 | 2010/01/01 - 2010/01/31 | revenue | revenue |
 
-In January, Product1 had a cost of 20% of its revenue (shown in `~MyCost^~value~`) and Product2 had a cost of 30% of its revenue. Because you are importing a new row, `~MyCost^~id~` is blank.
+在 1 月，Product1 的成本為其收入的 20% (如 `~MyCost^~value~` 所示)，而 Product2 的成本為其收入的 30%。由於您正要匯入新的列，因此 `~MyCost^~id~` 是空白的。
 
 ## 結果 {#section_E0569289C9B34C479C7D2CD9ECBF866E}
 
@@ -54,7 +53,7 @@ c_example_2__rate.xml
 
  -->
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product2 | Text2 | `Cost2_jan_var` | 2 | .3 |
@@ -68,7 +67,7 @@ c_example_2__rate.xml
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 | 2010/02/01 - 2010/02/28 | revenue | revenue |
 
-在2月，使用者對Product1的成本降至收入的15%，而Product2則降至收入的25%。
+在 2 月，使用者的 Product1 成本減少為收入的 15%，而 Product2 則減少為收入的 25%。
 
 ## 結果 {#section_23DF5353AC1B478C88647F222703352C}
 
@@ -109,7 +108,7 @@ c_example_3__fixed.xml
 
 因為您會匯入以下資料:
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_jan_fixed` |  | 2000.00 |
@@ -140,7 +139,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 
 在此範例中，您在 Product1 的 1 月加入 $500 的運費，在 2 月加入 $600 的運費。
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_jan_var` | 1 | .2 |
 | Product1 | Text1 | `Cost2_jan_fixed` |  | 500 |
@@ -168,7 +167,7 @@ c_example_4__(advanced)_multiple_row_per_time_period.xml
 |---|---|---|
 | Product1 | $10,000.23 | $2500.05 |
 
-> [!NOTE] 此功能可讓進階使用者近似值。 但請勿將產生的資訊視為精確的值。
+> [!NOTE] 進階使用者能利用此功能來略估值。但請勿將產生的資訊視為精確的值。
 
 <!-- 
 
@@ -178,7 +177,7 @@ c_example_5__identical_rate_hinge.xml
 
 此範例的說明如下:
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_var` |  | 1 |
 
@@ -206,7 +205,7 @@ c_example_5__fixed_no_hinge.xml
 
  -->
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
@@ -238,7 +237,7 @@ c_example_7__fixed_hinge.xml
 
 在此案例中，您會匯入以下資料:
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | `Cost1_mar_fixed` |  | 3000.00 |
 | Product2 | Text2 | `Cost2_mar_fixed` |  | 2000.00 |
@@ -270,7 +269,7 @@ c_example_7_continued__different_rate_hinge.xml
 
 在此案例中，您會匯入以下檔案資料:
 
-| 代碼 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
+| 金鑰 | MyText | `~MyCost` | `~MyCost^~id~` | `~MyCost^~value~` |
 |---|---|---|---|---|
 | Product1 | Text1 | Cost1_mar_fixed |  | 3 |
 
