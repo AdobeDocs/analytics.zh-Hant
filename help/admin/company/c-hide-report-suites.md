@@ -1,12 +1,11 @@
 ---
 description: 可讓您在 Adobe Analytics 使用者介面中隱藏報表套裝。
 keywords: delete report suite
-solution: Analytics
 title: 隱藏報表套裝
 topic: Admin tools
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -21,14 +20,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->從您的網站傳送至隱藏報表套裝的資料會持續收集、處理和計費。 換句話說，報表套裝不會被完全刪除。
+>系統會繼續收集、處理從您的網站傳送給隱藏報表套裝的資料，並據此計費。換句話說，報表套裝不會被完全刪除。
 
-To hide the report suite, go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Company Settings]** &gt; **[!UICONTROL Hide Report Suites]**. 勾選報表套裝名稱左側的「**[!UICONTROL 隱藏]」核取方塊。**
+若要隱藏報表套裝，請前往&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 公司設定]** &gt; **[!UICONTROL 隱藏報表套裝」]**。勾選報表套裝名稱左側的&#x200B;**[!UICONTROL 「隱藏」]**&#x200B;核取方塊。
 
-若要解除隱藏報表套裝，請取消勾選「**[!UICONTROL 隱藏]」核取方塊。**
+若要解除隱藏報表套裝，請取消勾選&#x200B;**[!UICONTROL 「隱藏」]**&#x200B;核取方塊。
 
-To view only hidden report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Hidden Report Suites]**.
+若只要檢視已隱藏的報表套裝，請在&#x200B;**[!UICONTROL 「公司設定」]**&#x200B;下方選取&#x200B;**[!UICONTROL 「檢視]** &gt; **[!UICONTROL 僅顯示隱藏的報表套裝」]**。
 
-To view only visible report suites, under **[!UICONTROL Company Settings]**, select **[!UICONTROL View]** &gt; **[!UICONTROL Only Visible Report Suites]**.
+若只要檢視可見的報表套裝，請在&#x200B;**[!UICONTROL 「公司設定」]**&#x200B;下方選取&#x200B;**[!UICONTROL 「檢視]** &gt; **[!UICONTROL 僅顯示可見的報表套裝」]**。
 
-The default is **[!UICONTROL View]** &gt; **[!UICONTROL All]**.
+預設為&#x200B;**[!UICONTROL 「檢視]** &gt; **[!UICONTROL 全部」]**。
