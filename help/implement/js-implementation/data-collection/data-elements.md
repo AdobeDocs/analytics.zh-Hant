@@ -1,12 +1,11 @@
 ---
 description: 您可以將表單元素 (例如選項按鈕與核取方塊項目) 的值擷取到報表中。這有助於您分析線上表單中最熱門的選項。
 keywords: Analytics Implementation
-solution: Analytics
 title: 從表單元素彙集資料
 topic: Developer and implementation
 uuid: e0c13b96-e1ca-4744-a912-60ca2b8f25c3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
