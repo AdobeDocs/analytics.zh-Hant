@@ -1,11 +1,10 @@
 ---
 description: 協助您瞭解不同資料類別 (包括國家、州、ZIP/郵遞區號和網域) 之客戶的購買模式。
-solution: Analytics
 title: 訪客資料
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 語言 </td> 
-   <td colname="col2"> <p> 顯示訪客的慣用語言、擷取預設瀏覽器語言，並顯示訪客在您網站上最常使用的語言。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客的慣用語言，擷取預設瀏覽器語言，顯示網站訪客使用最頻繁的語言。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 網域 </td> 
