@@ -1,13 +1,12 @@
 ---
 description: JavaScript 適用的 AppMeasurement 是新的程式庫，提供與 s_code.js 相同的核心功能，但可更加輕巧快速地在行動與桌面網站上使用。
 keywords: appmeasurement;Analytics Implementation;javascript;appmeasurement for javascript;initialization;retrieve appmeasurement instance;clear vars;clearvars;appmeasurement utilities;appmeasurement instance;appmeasurement benefits
-solution: Analytics
 subtopic: JavaScript AppMeasurement
 title: 關於 JavaScript 適用的 AppMeasurement
 topic: Developer and implementation
 uuid: dc71ad7a-92bd-40cd-8fab-707f6f8472e2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
