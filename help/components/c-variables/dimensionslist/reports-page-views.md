@@ -1,11 +1,10 @@
 ---
 description: 此為趨勢報告，顯示選取時段 (小時、日、週、月份、季度或年) 內網站頁面的檢視次數。您可利用此報告來追蹤網站中每個頁面的檢視次數，以及整個網站的頁面檢視次數總和。
-solution: Analytics
 title: 頁面檢視
 topic: Reports
 uuid: c78260c6-9ad4-4b85-84fd-763627392e44
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -19,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 **報告屬性**
 
 * 此報告會參照在您的網站上呼叫 [s.t()](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_the_s.t(.html)function) 函數的次數。
-* Custom [link tracking](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html) calls (such as custom links, file downloads, and exit links) use the [!DNL s.tl()] function and are not counted in this report.
+* 自訂[連結追蹤](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linktracking.html)呼叫 (例如自訂連結、檔案下載和退出連結) 使用 [!DNL s.tl()] 函數，而且不會計入這個報表中。
 
 * 由於只要使用者重新整理頁面或點按上一頁按鈕就會傳送影像要求，因此這個報告也會包含這些動作。
 * 以小時為單位的劃分會以報表套裝的時區為準。
