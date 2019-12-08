@@ -1,11 +1,10 @@
 ---
 description: 流量來源報表能讓您深入瞭解訪客與您網站的互動。
-solution: Analytics
 title: 流量來源報表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -27,7 +26,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **通用持續性**
 
-在[!UICONTROL 「流量來源」]中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行  "DVD" Google 搜尋，並因此前往您的網站進行 $100 購買，則報告會將 $100 評分分配給關鍵字 "DVD" 以及 Google 搜尋引擎。This functionality is unalterable, regardless of [!DNL Admin Console] settings.
+在[!UICONTROL 「流量來源」]中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行   "DVD" Google 搜尋，並因此前往您的網站進行 $100 購買，則報告會將 $100 評分分配給關鍵字 "DVD" 以及 Google 搜尋引擎。This functionality is unalterable, regardless of [!DNL Admin Console] settings.
 
 ## 搜尋關鍵字 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -101,7 +100,7 @@ See [Internal URL Filters](https://marketing.adobe.com/resources/help/en_US/refe
 
 ## 反向連結類型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
-透過追蹤並記錄每次瀏覽的訪客反向連結網站，您可以決定每次瀏覽的訪客如何找到您的網站。
+透過追蹤並記錄每次存取的訪客反向連結位置，您可以瞭解每次存取中訪客是如何找到您的網站的。
 
 <!-- 
 
@@ -124,7 +123,7 @@ c_reports_ref_types.xml
 
 執行此報表時可能會顯示下列明細項目:
 
-**網站內**: 這些項目是指被內部 URL 篩選器加上標記的 URL。這些項目不會計為反向連結例項，但可在報告其他量度時顯示。
+**網站內**: 這些項目是指被內部 URL 篩選器加上標記的 URL。這些項目不會計為反向連結例項，但可在報告其他度量時看到。
 
 **無 JavaScript**: 沒有 JavaScript，因此無法識別類型 (未知)。這表示瀏覽器上的用戶端未提供反向連結資訊，因而未回報可支援 Javascript。這些項目不會計為「反向連結例項」，但可在報告其他度量時顯示。
 
