@@ -1,11 +1,10 @@
 ---
 description: 將來源活頁簿中的整份試算表複製到一或多份目標活頁簿中。
-solution: Analytics
 title: 在活頁簿之間複製請求和工作表
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
