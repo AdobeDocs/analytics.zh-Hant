@@ -1,11 +1,10 @@
 ---
 description: 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
-solution: Analytics
 title: 複製簡單請求
 topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
