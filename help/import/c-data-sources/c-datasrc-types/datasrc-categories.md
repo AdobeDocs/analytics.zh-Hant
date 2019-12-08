@@ -1,12 +1,11 @@
 ---
 description: 資料來源類別可識別具有類似功能的不同資料來源類型。
-solution: Analytics
 subtopic: Data sources
 title: 資料類型和類別的概觀
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
