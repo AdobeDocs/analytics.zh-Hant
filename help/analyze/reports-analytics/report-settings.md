@@ -1,11 +1,10 @@
 ---
 description: 定義所有報表的顯示方式以及將預設功能表選項置於簡化功能表位置的資訊的設定。
-solution: Analytics
 title: 報表顯示設定和導覽
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -64,7 +63,7 @@ nav_menu.xml
 |  | 關鍵量度 | 度量 &gt; 關鍵度量 |
 |  | 頁面檢視 | 度量 &gt; 頁面檢視 |
 |  | 瀏覽 | 度量 &gt; 瀏覽次數 |
-|  | 訪客 | 度量 &gt; 訪客 |
+|  | 訪客 | 量度 &gt; 訪客 |
 |  | 每次瀏覽逗留時間 | 度量 &gt; 每次瀏覽逗留時間 |
 |  | 事件之前時間 | 轉換 &gt; 事件之前時間 |
 |  | 購買 | 度量 &gt; 購買 |
