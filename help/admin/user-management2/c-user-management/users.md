@@ -1,12 +1,11 @@
 ---
-description: 「使用者管理」頁面上的「管理報告使用者和群組」可讓您管理使用者和群組，以及控制對報告、工具和報表套裝的存取。
-solution: Analytics
+description: 「使用者管理」頁面上的「管理報表使用者和群組」可讓您管理使用者和群組，以及控制對報表、工具和報表套裝的存取。
 subtopic: Users and groups
 title: 使用者管理概觀
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,11 +14,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
-「使用者管理」頁面上的「管理報告使用者和群組」可讓您管理使用者和群組，以及控制對報告、工具和報表套裝的存取。
+「使用者管理」頁面上的「管理報表使用者和群組」可讓您管理使用者和群組，以及控制對報表、工具和報表套裝的存取。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;使 **[!UICONTROL 用者管理]** &gt;編 **[!UICONTROL 輯使用者]**
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 編輯使用者]**
 
 ## 使用者帳戶說明 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
@@ -46,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|
 | [!UICONTROL 名字] | 使用者的名字。 |
 | [!UICONTROL 姓氏] | 使用者的姓氏。 |
-| [!UICONTROL 職稱] | (可選) 使用者的職稱。 |
+| [!UICONTROL 標題] | (可選) 使用者的職稱。 |
 | [!UICONTROL 電話號碼] | (可選) 使用者的公司電話號碼。 |
 | [!UICONTROL 電子郵件地址] | 使用者的公司電子郵件地址。 |
 
@@ -76,11 +75,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 管理員</span> </td> 
-   <td colname="col2"> 授予使用者對分析報告中所有公司報告、網站和頁面的權限，以及新增、編輯和刪除其他使用者的能力。 </td> 
+   <td colname="col2"> 授予使用者對分析報表中所有公司報表、網站和頁面的權限，以及新增、編輯和刪除其他使用者的能力。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 使用者</span> </td> 
-   <td colname="col2"> <p> 僅授予使用者對選定群組的權限。在<span class="uicontrol">「可用群組」</span>欄位 (位於左側) 中選取所要的群組，然後按一下<span class="uicontrol">「新增」</span>。指定的群組會出現在<span class="uicontrol">「已指派的群組」</span>欄位中 (位於右側)。For information about creating and managing groups, see <a href="/help/admin/user-management2/c-user-groups/groups.md"> Groups</a>. </p> </td> 
+   <td colname="col2"> <p> 僅授予使用者對選定群組的權限。在<span class="uicontrol">「可用群組」</span>欄位 (位於左側) 中選取所要的群組，然後按一下<span class="uicontrol">「新增」</span>。指定的群組會出現在<span class="uicontrol">「已指派的群組」</span>欄位中 (位於右側)。如需建立與管理群組的詳細資訊，請參閱<a href="/help/admin/user-management2/c-user-groups/groups.md">群組</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
