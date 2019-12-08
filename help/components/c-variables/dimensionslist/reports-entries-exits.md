@@ -1,11 +1,10 @@
 ---
 description: 「登入頁面」報表以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。
-solution: Analytics
 title: 登入與退出
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -13,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 # 登入與退出
 
 >[!NOTE]
->對於產品變數中具有多個值的點擊，「登入與退出」會套用至點擊中的所有產品值，而非僅套用至第一個值。
+>對於產品變數中具有多個值的點擊，「登入點」和「退出點」適用於點擊的所有產品值，不限於第一個產品值。
 
 「登入頁面」報表以百分比和瀏覽總數的形式，顯示新訪客首先檢視的是哪些網頁。
 
@@ -21,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * **登入頁面** (或區域): 以百分比和瀏覽總數的形式，顯示新造訪首先檢視的是哪些網頁。您可以使用該報告來識別您的網站中哪些網頁是最為繁忙的登入點；最佳化您網站上的主要登入點；以及將登入流量引至關鍵訊息。
 
-   A useful way to use the Page View metric is to run a **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Pages Entry]** report, sort by it, and see which entry pages drive the most page views.
+   「頁面檢視」量度的實用方式是執行&#x200B;**[!UICONTROL 路徑]** &gt; **[!UICONTROL 頁面]** &gt; **[!UICONTROL 頁面登入]**&#x200B;報表，依此量度排序，然後查看哪個登入頁面吸引最多頁面檢視次數。
 
 * **原始登入頁面**: 顯示初次來到您網站的訪客所檢視的第一個頁面。除非刪除他們的 Cookie 或沒有使用 Cookie 追蹤，否則每個使用者均只計算一次。
 * **單頁瀏覽次數**: 顯示在訪客瀏覽作業階段中，同時作為登入與退出頁面的最常見頁面。
