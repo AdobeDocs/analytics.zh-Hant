@@ -1,12 +1,11 @@
 ---
 description: 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送。
-solution: Analytics
 subtopic: Dashboards
 title: 控制面板管理員
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
