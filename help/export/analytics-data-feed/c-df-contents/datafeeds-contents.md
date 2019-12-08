@@ -1,13 +1,12 @@
 ---
 description: 本節說明資料饋送傳送中所含的檔案。
 keywords: Data Feed;job;contents;manifest;file;lookup;hit data;delivery contents
-solution: Analytics
 subtopic: data feeds
 title: 資料摘要內容 - 概觀
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -100,7 +99,7 @@ Adobe傳送的檔案會因您設定的資料饋送類型而有所不同。 所�
 
 `[rsid]_[YYYY-mm-dd].[compression_suffix]`
 
-提取後，資料檔案會包含單一檔 `hit_data.tsv` 案，其中包含當天的所有資料，以及任何必要欄的查閱檔案。
+提取後，資料檔案會包含單一檔案， `hit_data.tsv` 其中包含當天的所有資料，以及任何必要欄的查閱檔案。
 
 ### 每日，多個檔案
 
