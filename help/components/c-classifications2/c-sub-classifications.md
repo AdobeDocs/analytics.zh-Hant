@@ -1,21 +1,20 @@
 ---
-description: Adobe Analytics支援單級和多級分類模型。 分類階層可以讓您將分類套用到分類。
-solution: Analytics
+description: Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓您將分類套用到分類。
 subtopic: Classifications
 title: 關於子分類
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 關於子分類
 
-Adobe Analytics支援單級和多級分類模型。 分類階層可以讓您將分類套用到分類。
+Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓您將分類套用到分類。
 
-> [!NOTE] 子分類是指建立分類分類的能力。 然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱分 [類階層](classification-hierarchies.md)。
+> [!NOTE] 子分類表示在分類中建立分類的能力。然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](classification-hierarchies.md)。
 
 <!-- 
 
@@ -40,7 +39,7 @@ c_single-level_classifications.xml
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-如需資料檔案的詳細資訊，請參閱 [Classification Data Files](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md).
+如需資料檔案的詳細資訊，請參閱[分類資料檔案](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 <!-- 
 
@@ -52,7 +51,7 @@ c_multiple-level_classifications.xml
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**父分類:**&#x200B;父分類是指任何具有相關聯子分類的分類。任何分類都可以是父分類和子分類。與最上層父分類對應的是單級分類 (請參閱 [單級分類](/help/components/c-classifications2/c-sub-classifications.md)).
+**父分類:**&#x200B;父分類是指任何具有相關聯子分類的分類。任何分類都可以是父分類和子分類。與最上層父分類對應的是單級分類 (請參閱[單級分類](/help/components/c-classifications2/c-sub-classifications.md)).
 
 **子分類:**&#x200B;子分類是指任何具有其他作為父分類 (而非變數) 的分類。子分類能提供其他有關父分類的資訊。例如，[!UICONTROL 促銷活動]分類可能會有一個促銷活動擁有人子分類。[!UICONTROL 數值]分類還可以作為分類報告中的量度。
 
@@ -60,18 +59,18 @@ c_multiple-level_classifications.xml
 
 `<parent_name>^<child_name>`
 
-如需資料檔案格式的詳細資訊，請參閱分 [類資料檔案](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
+如需資料檔案格式的詳細資訊，請參閱[分類資料檔案](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
 例如:
 
-| 代碼 | PROPERTY 1 | 屬性1&amp;Hat；屬性1-1 | 屬性1&amp;Hat；屬性1-2 | 屬性 2 |
+| 代碼 | PROPERTY 1 | 屬性 1&amp;Hat;屬性 1-1 | 屬性 1&amp;Hat;屬性 1-2 | 屬性 2 |
 |---|---|---|---|---|
 | 123 | ABC | 綠色 | 小 | A12B |
 | 456 | DEF | 紅色 | 大 | C3D4 |
 
 儘管多級分類的檔案範本更加複雜，但其優勢在於，可以將獨立層級上傳為獨立檔案。該方法可將隨時間變化和不隨時間變化的資料分入不同的分類，從而減少需定期 (每天、每週等) 上傳的資料量。
 
-> [!NOTE] 如果資 [!UICONTROL 料檔案中] 「金鑰」欄為空白，Adobe會自動為每個資料列產生唯一的金鑰。 為了避免在上傳含第二級或更高級分類資料的資料檔案時造成檔案毀損，請在「[!UICONTROL 代碼]」欄中的每一行填入星號 (*)。
+> [!NOTE] 若資料檔案中的[!UICONTROL 代碼]欄空白，Adobe 會自動為每個資料列產生唯一的代碼。為了避免在上傳含第二級或更高級分類資料的資料檔案時造成檔案毀損，請在「[!UICONTROL 代碼]」欄中的每一行填入星號 (*)。
 
 如需疑難排解說明，請參閱「[常見的分類上傳問題](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues)」。
 
@@ -83,13 +82,13 @@ c_classifications_example.xml
 
 ![](assets/sample-product-classifications.png)
 
->[!NOTE] 產品分類資料僅限於與產品直接相關的資料屬性。 資料不受產品在網站上分類或銷售方式的限制。銷售類別、網站瀏覽節點或銷售項目等資料元素並不是產品分類資料。反之，這些元素是在報告轉換變數中擷取的。
+>[!NOTE] 產品分類資料限於直接與產品相關的資料屬性。資料不受產品在網站上分類或銷售方式的限制。銷售類別、網站瀏覽節點或銷售項目等資料元素並不是產品分類資料。反之，這些元素是在報告轉換變數中擷取的。
 
-上傳這個產品分類的資料檔案時，您可以使用單一的檔案或多個檔案來上傳分類資料 (請參閱下面)。將檔案 1 裡的顏色代碼和檔案 2 裡的顏色名稱分開，則只有在建立新的顏色代碼時，才需要上傳顏色名稱資料 (可能僅有幾列)。這樣，在更頻繁更新的檔案1中消除了顏色名稱(CODE&amp;Hat;COLOR)欄位，並減少了生成資料檔案時的檔案大小和複雜性。
+上傳這個產品分類的資料檔案時，您可以使用單一的檔案或多個檔案來上傳分類資料 (請參閱下面)。將檔案 1 裡的顏色代碼和檔案 2 裡的顏色名稱分開，則只有在建立新的顏色代碼時，才需要上傳顏色名稱資料 (可能僅有幾列)。這可以免除較常更新之檔案 1 裡的顏色名稱 (代碼&amp;Hat;色彩) 欄位，並減少檔案大小和產生資料檔案時的複雜性。
 
 ## 產品分類 - 單一檔案 {#section_E8C5E031869C449F9B636F5EB3BFEC17}
 
-| 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 | CODE&amp;Hat;COLOR |
+| 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 | 代碼&amp;Hat;色彩 |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 | 石板褐 |
 | 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 | 冷色 |
@@ -105,7 +104,7 @@ c_classifications_example.xml
 
 ## 產品分類 - 多重檔案 (檔案 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| 代碼 | 代碼 | CODE&amp;Hat;COLOR |
+| 代碼 | 代碼 | 代碼&amp;Hat;色彩 |
 |---|---|---|
 | * | 01 | 石板褐 |
 | * | 03 | 冷色 |
