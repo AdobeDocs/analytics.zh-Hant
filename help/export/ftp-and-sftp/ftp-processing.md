@@ -1,11 +1,10 @@
 ---
 description: 任何 FTP 檔案 (包括分類或資料來源) 的處理時間取決於處理佇列中的檔案數，以及檔案大小。
 keywords: ftp;sftp
-solution: Analytics
 title: FTP 處理時間
 uuid: a0f67db4-0bb1-4596-95da-21c8ab2a4a61
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
