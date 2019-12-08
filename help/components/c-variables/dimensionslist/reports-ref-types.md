@@ -1,18 +1,17 @@
 ---
-description: 透過追蹤並記錄每次瀏覽的訪客「反向連結網站」，您可以決定每次瀏覽的訪客如何得知您的網站。
-solution: Analytics
+description: 透過追蹤並記錄每次造訪的訪客反向連結位置，您可以瞭解每次造訪中訪客找到您網站的方式。
 title: 反向連結類型
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 反向連結類型
 
-透過追蹤並記錄每次瀏覽的訪客「反向連結網站」，您可以決定每次瀏覽的訪客如何得知您的網站。
+透過追蹤並記錄每次造訪的訪客反向連結位置，您可以瞭解每次造訪中訪客找到您網站的方式。
 
 下列清單定義反向連結的各種類型:
 
@@ -22,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL 社交網路]**: 反向連結值必須被 Adobe 視為社交網路。請參閱[社交網路清單](https://helpx.adobe.com/analytics/kb/list-social-networks.html)。
 
-**電子郵件**:當訪客點按包含通訊協定的電子郵件連結或進入您的網站時，反向連結網域 [!DNL imap://] 會 [!DNL mail://] 被視為電子郵件反向連結網域。 例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
+**電子郵件**: 當訪客點按包含通訊協定 [!DNL imap://] 或 [!DNL mail://] 的電子郵件連結而進入您的網站時，會將反向連結網域視為電子郵件反向連結網域。例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
 
-**分類／建立書籤**:當訪客將您網站的URL直接鍵入瀏覽器，或透過選擇書籤存取您的網站時，會記錄反向連結。 如果瀏覽的第一次點擊 *`typed/bookmarked`* 上沒有反向連結，行動裝置會報告反向連結類型。
+**分類/建立書籤**: 當訪客在瀏覽器中直接鍵入您的網站 URL 或透過選擇書籤存取您的網站時，會記錄反向連結。當造訪的第一個點擊沒有任何反向連結時，行動裝置現在便會將 *`typed/bookmarked`* 的一個反向連結類型列入報表中。
 
-**[!UICONTROL 網站內]**: 這些項目是指被內部 URL 篩選器加上標記的 URL。These items are not counted as *`referrer instances`* but can be seen when reporting on other metrics.
+**[!UICONTROL 網站內]**: 這些項目是指被內部 URL 篩選器加上標記的 URL。這些項目不會計為 *`referrer instances`*，但可在報告其他量度時顯示。
 
 ## 根據介面的反向連結類型 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
 
