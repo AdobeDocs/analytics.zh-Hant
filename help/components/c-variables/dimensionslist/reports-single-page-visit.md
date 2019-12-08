@@ -1,11 +1,10 @@
 ---
 description: 「單頁存取次數」報表不應與 Ad Hoc Analysis 中的「單頁存取次數」量度混淆；前者會顯示您的網站訪客在進入後隨即退出，而未檢視任何其他頁面的頁面。
-solution: Analytics
 title: 單頁存取次數
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 單頁瀏覽可包含許多影像要求，只要報告環境中的變數包含單一唯一值。在第二個唯一值填入後，瀏覽即不再被視為單頁瀏覽。
 * 我們將其視為一種路徑報告。[!UICONTROL 頁面]變數依預設會啟用路徑功能。但所有的流量變數也都具有此功能。是否可對其他流量變數啟用路徑功能，取決於您的合約。請洽詢組織的客戶經理，以取得詳細資訊。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
-* 此報告可使用 趨 [勢和](/help/components/c-variables/dimensionslist/reports-types.md)[排名格式](/help/components/c-variables/dimensionslist/reports-types.md) 。
+* 此報告可使用[趨勢](/help/components/c-variables/dimensionslist/reports-types.md)和[排名](/help/components/c-variables/dimensionslist/reports-types.md)格式。
 
 * 此報告中無法使用劃分功能。
 * [!UICONTROL 瀏覽]是此報告中唯一可用的量度。
