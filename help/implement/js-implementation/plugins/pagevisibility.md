@@ -1,12 +1,11 @@
 ---
 description: 記錄您的頁面在瀏覽器中是作用中標籤的秒數，並傳遞該值給下一個頁面檢視的量度。
 keywords: Analytics Implementation
-solution: Analytics
 title: getPageVisibility
 topic: Developer and implementation
 uuid: 3891e2aa-d5c1-4a2b-8522-eb2bae39ea2e
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
