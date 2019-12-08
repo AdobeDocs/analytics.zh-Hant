@@ -1,12 +1,11 @@
 ---
 description: 在 Admin Console 中管理 Analytics 使用者、群組和產品。
-solution: Analytics
 subtopic: Users and groups
 title: 使用者和產品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->User and product management is moving to the [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html). 輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin Tools]** &gt; **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 ## Admin Console 管理員的說明資源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -31,11 +30,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>將 Analytics 使用者 ID 移轉至 Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe 會協助 Analytics 管理員將使用者 ID 移轉至 Adobe Admin Console。此移轉作業會分批進行。輪到移轉您的使用者時，Adobe 會以含有相關說明的電子郵件通知 Analytics 管理員。屆時，Analytics 使用者管理中將會提供<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">移轉工具</a>以簡化作業。 </p> <p>重要: 使用者移轉當天，系統會將您先前的權限群組自動複製到管理控制台。您將無法在 Analytics「管理工具」中邀請新的使用者或建立新群組。如需如何準備移轉作業以及受影響之管理功能的相關資訊，請檢閱 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics 使用者移轉至管理控制台</a>的常見問題集和說明。 </p> </td> 
+   <td colname="col2"> <p> Adobe 會協助 Analytics 管理員將使用者 ID 移轉至 Adobe Admin Console。此移轉作業會分批進行。輪到移轉您的使用者時，Adobe 會以含有相關說明的電子郵件通知 Analytics 管理員。屆時，Analytics 使用者管理中將會提供<a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/t_migrate-users.html">移轉工具</a>以簡化作業。 </p> <p>重要: 使用者移轉當天，系統會將您先前的權限群組自動複製到 Admin Console。您將無法在 Analytics「管理工具」中邀請新的使用者或建立新群組。如需如何準備移轉作業以及受影響之管理功能的相關資訊，請檢閱 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics 使用者移轉至 Admin Console</a> 的常見問題集和說明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟動 Admin Console </p> </td> 
-   <td colname="col2"> <p>您的使用者帳戶移轉後，就可以在 Admin Console 中管理所有解決方案中的使用者和產品 </p> <p>Navigate to: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>. </p> <p>如需說明，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">管理 Experience Cloud 使用者和產品</a>，以瞭解 Admin Console 中 Experience Cloud 使用者和產品管理的更新。 </p> </td> 
+   <td colname="col2"> <p>您的使用者帳戶移轉後，就可以在 Admin Console 中管理所有解決方案中的使用者和產品 </p> <p>導覽至: <a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>如需說明，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/admin_getting_started.html">管理 Experience Cloud 使用者和產品</a>，以瞭解 Admin Console 中 Experience Cloud 使用者和產品管理的更新。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,15 +65,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新增使用者</span> </td> 
-   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>. </p> </td> 
+   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 下載報告</span> </td> 
+   <td colname="col1"> <span class="wintitle"> 下載報表</span> </td> 
    <td colname="col2">將<span class="wintitle">「使用者」</span>表格的內容匯出至以 Tab 分隔的檔案。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登入</span> </td> 
-   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>. </p> </td> 
+   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -110,7 +109,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 編輯</span> </td> 
-   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>. </p> </td> 
+   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 刪除</span> </td> 
@@ -118,10 +117,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 轉移</span> </td> 
-   <td colname="col2">將一個使用者帳戶的特權 (權限和資源存取) 指派給另一個帳戶。 <p>請參閱 <a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md"> 轉移使用者帳戶特殊權限</a>. </p> </td> 
+   <td colname="col2">將一個使用者帳戶的特權 (權限和資源存取) 指派給另一個帳戶。 <p>請參閱<a href="/help/admin/user-management2/c-user-management/t-transfer-user-accout-privileges.md">轉移使用者帳戶特殊權限</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="wintitle"> 以此使用者身份登入</span> </td> 
+   <td colname="col1"><span class="wintitle"> 以此使用者身分登入</span> </td> 
    <td colname="col2"> <p>讓管理員模擬非管理員帳戶並登入。無法模擬管理員帳戶。 </p> </td> 
   </tr> 
  </tbody> 
