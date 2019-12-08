@@ -1,12 +1,11 @@
 ---
 description: 當使用者瀏覽您的網站時，Adobe 網站伺服器會設定持續 Cookie，方法為將它併入瀏覽器的 HTTP 回應中。此 Cookie 會設定在指定的資料收集網域上。
 keywords: Analytics Implementation
-solution: Analytics
 title: Analytics 訪客 ID
 topic: Developer and implementation
 uuid: fa7737cc-0190-4d27-af1b-87301a715df2
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
