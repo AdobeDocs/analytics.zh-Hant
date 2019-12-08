@@ -1,12 +1,11 @@
 ---
 description: 虛擬報表套裝和多套裝標籤有不同的優點。 瞭解哪一種最適合您的組織。
 keywords: Virtual Report Suite,VRS
-solution: Analytics
 title: 虛擬報表套裝和多套裝標籤考量事項
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -91,7 +90,7 @@ Adobe客戶服務可針對少數維度增加獨特的價值限制，以完全消
 
 1. 建立虛擬報表套裝以符合您子報表套裝中的資料。 區隔自訂維度上的區段，以區隔您的網站。
    * 如果您從現有的多套裝標籤實作進行移轉，請比較虛擬報表套裝的區段與您現有的子報表套裝。 在將使用者移至虛擬報表套裝之前，您會先確定資料是可比的。
-   * 最佳實務是，請考慮使用 [區段堆疊](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) ，以便您可以在單一位置編輯區段，並讓區段套用至所有相依的虛擬報表套裝。
+   * 最佳實務是，請考慮使用 [區段堆疊](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md) ，以便您可以在單一位置編輯區段，並讓它套用至所有相依的虛擬報表套裝。
    * 如果您想要讓虛擬報表套裝更互斥，請使用點擊容器。
 2. 在您確認虛擬報表套裝已正確設定後，請從實作中移除次要報表套裝ID。 如何移除次要報表套裝:
    * 在Adobe Experience Platform Launch中，按一下您不想再使用的任何報表套裝旁的'x'。
