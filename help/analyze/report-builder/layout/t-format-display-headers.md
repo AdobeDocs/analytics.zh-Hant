@@ -1,11 +1,10 @@
 ---
 description: 您可以為報表命名，以及設定列和欄標題的顯示方式。「樞紐配置」和「自訂配置」等類型備有「格式選項」連結供您使用。
-solution: Analytics
 title: 顯示標題格式
 topic: Report builder
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    | 元素 | 說明 |
    |--- |--- |
-   | 報表名稱 | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
+   | 報告名稱 | Displays either the name of the report type you selected from the tree in the  Request Wizard: Step 1 (for example, [!DNL Traffic Report]), or the name you type in the [!DNL Name this Request] field. |
    | 篩選參數 | 顯示維度篩選，例如搜尋篩選。 |
    | 區段 | 顯示區段參數。 |
    | 資料時近 | 顯示資料時近參數。例如:    資料時近：頁面檢視（1.5小時前）、退出（30分鐘前）如需目前資料處理的詳細資 [訊](/help/analyze/report-builder/options.md) ，請參閱選項。 |
