@@ -1,12 +1,11 @@
 ---
 description: 'Data connectors DFA 整合在啟動之後，將可為您的 Adobe Analytics 報表提供下列量度 '
 keywords: DFA
-solution: Analytics
 title: 整合功能
 topic: Data connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
