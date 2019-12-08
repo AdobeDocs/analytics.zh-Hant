@@ -1,11 +1,10 @@
 ---
 description: 顯示訪客最常存取的網站區域。「網站區域」可包含您定義的產品群組 (類似於類別)。例如，您可能有頁面的「相機」群組、「電腦」群組等。「轉換網站區域」報表的資料是從「流量」群組中的「網站區域」報表匯入，「網站區域」報表則是從追蹤程式碼中的頻道變數接收資訊。您可以使用此報告識別不同網站區域的項目對網站統計資料的最大影響。
-solution: Analytics
 title: 網站區域
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
