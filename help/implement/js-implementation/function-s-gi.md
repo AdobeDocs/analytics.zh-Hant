@@ -1,12 +1,11 @@
 ---
 description: s_gi() 函數可用來建立或根據報表套裝 ID 尋找 AppMeasurement 例項。AppMeasurement 可在內部追蹤已建立的所有例項，而 s_gi() 會傳回報表套裝的現有例項 (若存在)。如果例項不存在，則會建立並傳回新的例項。
 keywords: Analytics Implementation
-solution: Analytics
 title: s_gi() 函數
 topic: Developer and implementation
 uuid: a77de90e-c60e-4946-90cf-deaf8aa3d755
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
