@@ -1,11 +1,10 @@
 ---
 description: 您可使用 s.tl() 函數來追蹤自訂元素以及設定動態內容的覆蓋圖演算。
-solution: Analytics
 title: 使用 s.tl() 函數
 topic: Activity map
 uuid: 59e062af-6a1c-46ff-9c3b-6cf7a0453711
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
