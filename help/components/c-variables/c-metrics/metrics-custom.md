@@ -1,11 +1,10 @@
 ---
-description: 自訂度量可讓您追蹤網站上的其他成功度量。
-solution: Analytics
+description: 自訂量度可讓您追蹤網站上的其他成功量度。
 title: 自訂量度
 topic: Metrics
 uuid: ff0c92cc-07c4-40ef-a946-2cd277b5a97c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
