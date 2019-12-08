@@ -1,11 +1,10 @@
 ---
 description: 本節含有常見問題的相關資訊。
 keywords: Data Feed;troubleshooting
-solution: Analytics
 title: 資料摘要的疑難排解
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
 translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
