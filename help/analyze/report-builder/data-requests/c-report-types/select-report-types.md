@@ -1,11 +1,10 @@
 ---
 description: 您可以選擇資料請求的基礎報表類型，如網站度量、網站內容及視訊。
-solution: Analytics
 title: 報表類型概觀
 topic: Report builder
 uuid: 63e656d0-f22e-4846-9e24-7ef3299dde5a
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
