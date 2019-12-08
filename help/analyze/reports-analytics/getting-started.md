@@ -1,12 +1,11 @@
 ---
 description: 開始使用「Reports & Analytics」前，請先瞭解這些基本的登入和設定工作，以及如何存取帳戶資訊。
-solution: Analytics
 subtopic: Get started
 title: 「Reports and Analytics」快速入門
 topic: Reports and analytics
 uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
