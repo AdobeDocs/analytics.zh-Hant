@@ -1,12 +1,11 @@
 ---
 description: 說明如何計算銷售變數的例項。
 keywords: Analytics Implementation
-solution: Analytics
 title: 銷售變數的例項
 topic: Developer and implementation
 uuid: 4cdfd53e-88aa-48cf-a135-98f7fc8dcece
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -48,5 +47,5 @@ s.products=";Fernie Snow Goggles"
 
 如果在未發生綁定事件的頁面上設定 eVar 的值，或是在沒有綁定事件的產品字串中設定 eVar 值，會發生分配給「無」的情形。
 
-> [!NOTE] 目前正在審查用於計算銷售變數例項的功能，並排定在即將發行的版本中變更。
+> [!NOTE] 在銷售變數上計算例項的功能目前正在審核中，已排定在未來發行中進行變更。
 
