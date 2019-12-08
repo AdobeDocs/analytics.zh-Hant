@@ -1,12 +1,11 @@
 ---
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
-solution: Analytics
 subtopic: Release notes
 title: JavaScript 適用的 AppMeasurement
 topic: Developer and implementation
 uuid: 1440013d-d266-4dce-9807-8b9adac73315
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -178,7 +177,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 ## 版本 2.0.0 {#section_4C4A502CDFC84F06914EB16CE77736D1}
 
-發行日期: **2017 年 03 月 9 日**
+發行日期: **2017 年 3 月 9 日**
 
 * 移到需要到更新版本 2.0.0 新的建立程序。(AN-137878)
 * 將「mboxMCSDID」的處理移到追蹤呼叫發出的正確截面位置。(AN-138483)
