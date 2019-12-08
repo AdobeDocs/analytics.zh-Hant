@@ -1,47 +1,31 @@
 ---
 description: 跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客識別會使用訪客 ID 變數 s.visitorID，為使用者建立裝置間的關聯。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Visitors
 title: 連結跨裝置的使用者
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 連結跨裝置的使用者
 
->[!IMPORTANT]
->
->不建議您繼續使用這種跨裝置識別訪客的方法。請參閱 [Adobe Experience cloud裝置合作檔案](https://marketing.adobe.com/resources/help/en_US/mcdc/)。
+> [!IMPORTANT]不建議您繼續使用這種跨裝置識別訪客的方法。請參 [閱「元件」使用指南](/help/components/cda/cda-home.md) 中的「跨裝置分析」。
 
-跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客識別會使用訪客 ID 變數 s.visitorID，為使用者建立裝置間的關聯。
+跨裝置訪客身分識別可協助您連結多個裝置間的訪客。Cross-device visitor identification uses the `visitorID` variable to associate a user across devices. 識別 `visitorID` 獨特訪客時，變數的優先 [順序最高](../c-unique-visitors/visid-overview.md)。
 
-當您透過點擊而提供[!UICONTROL 訪客 ID] 變數時，系統即會檢查是否有其他訪客資料具有相符的[!UICONTROL 訪客 ID]。若有的話，則自此之後都會使用系統中已存在的訪客資料，而不再使用先前的訪客資料。
+當您使用自訂訪客ID傳送點擊時，Adobe會檢查是否有任何具有相符訪客ID的訪客描述檔。 如果訪客資料存在，系統中已有的訪客資料會從此開始使用，而不再使用先前的訪客資料。
 
-[!UICONTROL 訪客 ID] 通常會在驗證之後設定，或是在訪客執行其他特定動作而讓您可加以唯一識別 (無論使用什麼裝置) 時設定。建議您建立使用者名稱的雜湊，或使用不含任何個人識別資訊的內部 ID。
+Setting the `visitorID` variable is typically set after authentication, or after a visitor performs some other action that allows you to uniquely identify them independently of the device that is used. 有效識別碼包括其使用者名稱、電子郵件地址的雜湊，或不含任何個人識別資訊的內部ID。
 
-在[先前的範例](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)中，客戶從某個裝置登入後，都會與相同的使用者個人資料產生關聯。若訪客於其後登出該裝置，關聯仍將持續運作，因為在每個裝置上的 Cookie 中所儲存的[!UICONTROL 訪客 ID] 已與相同的訪客資料產生關聯。建議您只要情況允許即應填入 [!UICONTROL s.visitorID] 變數，以備[!UICONTROL 訪客 ID] Cookie 遭刪除時使用。
+客戶從每個裝置登入後，都會系結至相同的使用者個人檔案。 如果訪客稍後登出裝置，則他們仍屬於相同的訪客資料，因為Adobe會識別每個裝置上的瀏覽器Cookie屬於相同的訪客資料。 Adobe建議在刪除瀏 `visitorID` 覽器Cookie時盡可能使用變數。
 
-## 唯一訪客和訪客數 {#section_70330AB6724C4E419A4BD0BDD54641AC}
+## 限制
 
-考量兩個裝置的下列連線順序:
+使用您自己的自訂訪客ID，可讓您更能控制訪客的識別方式，但有其限制。
 
-![](assets/xdevice-counts.png)
-
-**在第一個資料連線上**
-
-* 刪除重複訪客不具有可回溯性。
-
-在膝上型電腦上進行驗證之後，Adobe Analytics 會將具有訪客 ID (`nv1` 或 `cust1`) 的點擊將視為相同個體。然而，刪除重複訪客不具有可回溯性，因此會算成 2 個唯一訪客。
-
-在行動裝置的第一個資料連線上，無法辨識客戶，因為會算成新的唯一訪客。一旦在行動裝置驗證了使用者 (`cust1`)，Adobe Analytics 就會將 `cust1` 對應回主要網站上提供的訪客 ID，因此唯一瀏覽不再增加。
-
-每個已驗證的新裝置或瀏覽器將 1 個唯一訪客。
-
-**在後續的資料連線上**
-
-在已驗證之裝置的後續資料連線上，不會增加唯一訪客。
+* **訪客重複資料刪除不具可回溯性**:如果訪客首次存取您的網站，然後進行驗證，則會計入兩個獨特訪客。 一個獨特訪客會自動產生一般Analytics ID計數，另一個則會計算自訂訪客ID的登入計數。 每次訪客使用新裝置或清除其Cookie時，都會出現此獨特訪客的複製。
+* **與Experience Cloud ID服務不相容**:自從跨裝置訪客身分識別問世以來，Adobe已推出更強大、更可靠的方式來跨裝置追蹤訪客。 這些新的識別方法與自訂訪客ID覆寫不相容。 如果您打算使用ID服務、跨裝置分析(CDA)或Device co-op,Adobe強烈建議不要使用變 `visitorID` 數。
