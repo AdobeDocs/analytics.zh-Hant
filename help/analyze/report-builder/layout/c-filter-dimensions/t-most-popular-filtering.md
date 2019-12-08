@@ -1,11 +1,10 @@
 ---
 description: 能使用布林邏輯搭配 AND/OR 搜尋運算式來排名篩選並設定篩選條件。
-solution: Analytics
 title: 最受歡迎篩選
 topic: Report builder
 uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
