@@ -1,12 +1,11 @@
 ---
 description: Analysis Workspace 的系統需求。
 keywords: Analysis Workspace
-solution: Analytics
 title: 管理需求
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -15,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace 的系統需求。
 
-## Administration and access requirements {#section_FD3737DE452F4F6CA181F13FF3DC668F}
+## 管理和存取需求 {#section_FD3737DE452F4F6CA181F13FF3DC668F}
 
 <table id="table_3065772701A64D4EB5F175100A60F284"> 
  <thead> 
