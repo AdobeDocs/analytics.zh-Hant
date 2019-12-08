@@ -1,11 +1,10 @@
 ---
 description: 在報表中檢視和區分您的 Adobe Target 流量資料。
-solution: Analytics
 title: 目標
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -20,10 +19,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 例如:
 
-* Measuring the success of Adobe [!DNL Target] campaigns through your KPIs.
-* Breaking down [!DNL Target] campaign and recipe data with conversion variables.
-* Breaking down other reports with [!DNL Target] campaign and recipe traffic data.
+* 透過 KPI 測量 Adobe [!DNL Target] 行銷活動的成功。
+* 使用轉換變數劃分 [!DNL Target] 行銷活動和方式資料。
+* 使用 [!DNL Target] 行銷活動和方式流量資料劃分其他報表。
 
-By leveraging data in Analytics reports, you can drill into your [!DNL Target] recipes using [breakdowns](/help/analyze/reports-analytics/reports-customize/breakdowns.md) and detect high performing segments that are ideal for future tests and potentially targeted campaigns. The report displays Analytics conversion data rather than conversion data from [!DNL Target].
+透過利用 Analytics 中的資料，您可運用[劃分](/help/analyze/reports-analytics/reports-customize/breakdowns.md)來深入探討 [!DNL Target] 方式並偵測高績效區段，瞭解適合的未來測試及鎖定潛在目標促銷活動的對象。報表會顯示 Analytics 轉換資料，而非來自 [!DNL Target] 的轉換資料。
 
 有關詳細資訊，請參閱 [Target](https://help.testandtarget.omniture.com/) 說明。
