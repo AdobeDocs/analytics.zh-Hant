@@ -1,12 +1,11 @@
 ---
 description: 事件序列化為實作措施以防止重複事件進入 Analytics 報告的程序。當使用者重新整理頁面多次、導覽至特定頁面多次，或將網頁儲存至電腦 (例如，如果客戶將採購確認頁面儲存至其電腦，則每次他們檢視它時，如果事件序列化不在適當的位置，則會重新計算訂單及收入)，通常就會發生此情況。
 keywords: Analytics Implementation
-solution: Analytics
 title: 事件序列化概觀
 topic: Developer and implementation
 uuid: 8c7883bb-5ba4-4440-af80-c0d15867570c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
