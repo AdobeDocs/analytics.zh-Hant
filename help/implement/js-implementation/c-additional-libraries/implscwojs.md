@@ -1,12 +1,11 @@
 ---
 description: 使用 HTML 影像標記實施 Analytics (硬式編碼影像請求)
 keywords: Analytics Implementation;html image tag;hardcoded image request
-solution: Analytics
 title: 使用 HTML 影像標記實作 Analytics
 topic: Developer and implementation
 uuid: 0c098a57-7c71-4362-812c-36e37848a5ae
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
