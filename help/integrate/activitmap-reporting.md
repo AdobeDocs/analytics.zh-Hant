@@ -1,11 +1,10 @@
 ---
 description: 在 Analytics 中啟用 Activity Map 報告的管理步驟。
-solution: Analytics
 title: Activity Map 報表
 topic: Reports
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
