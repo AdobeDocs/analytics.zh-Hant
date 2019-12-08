@@ -1,11 +1,10 @@
 ---
 description: 顯示指定時段內整個網站的造訪次數。
-solution: Analytics
 title: 瀏覽
 topic: Reports
 uuid: ff65bddf-fb65-4cf0-8aae-4ab59c2bb0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -22,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 當新訪客提出第一個影像要求時，或現有使用者的瀏覽到期後，瀏覽即會開始。我們可將其視為登入頁面。
 * 瀏覽到期前的最後一個影像要求出現時，瀏覽即結束。我們可將其視為退出頁面。
 
-   請參閱 [登入與退出報告](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
+   請參閱[登入與退出報告](/help/components/c-variables/dimensionslist/reports-entries-exits.md).
 * 以小時為單位的劃分會以報表套裝的時區為準。
 * 此報告不含明細項目。您只能在趨勢格式中加以檢視。
 * 詳細程度可採用小時、日、週、月、季與年。這些詳細程度設定是否可用，須取決於報告日期範圍。
