@@ -1,13 +1,12 @@
 ---
 description: 頁面變數會直接填入一份報告，如 pageName、List Props、List Variables 等。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Variables
 title: 頁面變數
 topic: null
 uuid: null
 translation-type: tm+mt
-source-git-commit: 47291fb3d55ab3eb5ef181770bf2078c7ea55bc4
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -51,7 +50,7 @@ products.xml
  <tbody> 
   <tr> 
    <td> <p>「<span class="wintitle">products</span>」字串的大小上限為 64k。 </p> </td> 
-   <td> products </td> 
+   <td> 產品 </td> 
    <td> 產品 <p>類別 (選用) </p> <p>收入 (選用) </p> <p>件數 (選用) </p> <p>自訂事件 (選用) </p> <p>eVar (選用) </p> </td> 
    <td> " " </td> 
   </tr> 
@@ -71,7 +70,7 @@ products.xml
 | 數量 | 購買產品的件數。此欄位必須與購買事件一起設定，才能記錄下來。 |
 | 價格 | 請參考已購買的組合總品質成本 (單位 x 個別單位價格)，而非參考個別價和。此欄位必須與購買事件一起設定，才能記錄下來。 |
 | 事件 | 與指定之事件相關聯的貨幣事件。請參閱[產品特有的貨幣事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)及[整張訂單貨幣事件](https://helpx.adobe.com/analytics/kb/comparing-event-types.html)。 |
-| eVar | 與指定之產品相關聯的銷售 eVar 值。請參閱 [銷售變數](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
+| eVar | 與指定之產品相關聯的銷售 eVar 值。請參閱[銷售變數](/help/components/c-variables/c-merch-variables/var-merchandising.md)。 |
 
 包含在以下的值  *`products`*&#x200B;變數中包括的值是根據您正在記錄的事件類型。省略類別時，必須以類別/產品分隔字元 (;) 作為預留位置。僅在需要其他分隔字元，來區分您將包括的參數時，才需要這些分隔字元，如此頁面上的範例所示。
 
