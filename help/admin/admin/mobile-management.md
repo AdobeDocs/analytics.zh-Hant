@@ -1,11 +1,10 @@
 ---
 description: 啟用行動管理會啟用行動解決方案變數，以便用於擷取行動應用程式的生命週期及其他量度。
-solution: Analytics
 title: 行動管理
 topic: Admin tools
 uuid: d09edf72-bb91-422d-b22c-7b6971f228de
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -24,9 +23,9 @@ Adobe Analytics 與 Mobile Services 之間的整合
 * 增加全新 Adobe Mobile 維度。
 * 每 15 分鐘同步資料至 Analytics
 
-**[!UICONTROL Analytics]** Admin **[!UICONTROL Report Report Report Suites &gt;]** Edit Suites **[!UICONTROL &gt; Mobile Management Settings]**************&gt; Mobile Reporting Mobile Reporting。
+**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 行動管理]** &gt; **[!UICONTROL 行動應用程式報表**]
 
-## 步驟 1.啟用 App Reports {#section_FBADF80AED2B4978A904ABB770B3B931}
+## 步驟 1.啟用應用程式報表 {#section_FBADF80AED2B4978A904ABB770B3B931}
 
 啟用 App Reports v3.0 以測量以下量度:
 
@@ -48,7 +47,7 @@ Adobe Analytics 與 Mobile Services 之間的整合
 
 啟用背景點擊數 (當應用程式在背景運作時產生的點擊數) 代表這些點擊數被視為一般的前景點擊數。這些點擊數會在一般報表顯示，並會影響屬性。此設定通常僅為了與傳統實作內容保持一致。
 
-Instead, we recommend that you "include background hits" in a [virtual report suite](/help/components/vrs/vrs-about.md). 這讓您可以看到點擊數，但不會對瀏覽和訪客數量產生不良影響。Mobile classifications are enabled after you enable **[!UICONTROL Mobile Management]** &gt; **[!UICONTROL Mobile Application Reporting]**.
+反之，我們建議您將「包含背景點擊次數」加入[虛擬報表套裝](/help/components/vrs/vrs-about.md)。這讓您可以看到點擊數，但不會對瀏覽和訪客數量產生不良影響。在您啟用&#x200B;**[!UICONTROL 「行動管理]** &gt; **[!UICONTROL 行動應用程式報表」]**&#x200B;後，行動裝置分類便會啟用。
 
 分類用於將值分組，然後依群組級別匯報。 例如，您可以將所有「付費搜尋」促銷活動歸為「流行音樂術語」類別，並匯報此類別中與量度（如「例項」，亦稱為「點進
 」）相關的成功，然後轉換為成功事件。
@@ -56,7 +55,7 @@ Instead, we recommend that you "include background hits" in a [virtual report su
 | 分類 | 定義 |
 |--- |--- |
 | 首次發行日期 | 安裝或重新安裝後首次啟動的日期。MM/DD/YYYY |
-| 應用程式 ID | 以下列格式儲存應用程式名稱和版本:   `[AppName] [BundleVersion]`  例如, `myapp 1.1.` |
+| 應用程式 ID | 以下列格式儲存應用程式名稱和版本:   `[AppName] [BundleVersion]`  例如，`myapp 1.1.` |
 | 啟動次數 | 應用程式啟動或在背景執行的次數。 |
 | 首次使用後間隔天數 | 自首次執行起的天數。 |
 | 上次使用後間隔天數 | 距離上次使用的天數。 |
@@ -74,8 +73,8 @@ Instead, we recommend that you "include background hits" in a [virtual report su
 | 位置 (10 公里以內) | 由 trackLocation 方法填入。 |
 | 位置 (100 公尺以內) | 由 trackLocation 方法填入。 |
 | 位置 (1 公尺以內) | 由 trackLocation 方法填入。 |
-| 興趣點名稱 | 當裝置處於定義地標範圍內時由 trackLocation 方法填入。 |
-| 至興趣點中心的距離 | 當裝置處於定義地標範圍內時由 trackLocation 方法填入。 |
+| 興趣點名稱 | 當裝置處於定義地標範圍內時，由 trackLocation 方法填入。 |
+| 至興趣點中心的距離 | 當裝置處於定義地標範圍內時，由 trackLocation 方法填入。 |
 | 應用程式內訊息 ID |  |
 | 線上應用程式內訊息 |  |
 | 推送選擇加入 |  |
