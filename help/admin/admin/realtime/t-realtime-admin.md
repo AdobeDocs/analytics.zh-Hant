@@ -1,11 +1,10 @@
 ---
 description: 設定即時報表的管理步驟。
-solution: Analytics
 title: 即時報表設定
 topic: Admin tools
 uuid: f48692a0-77c0-4ee4-b3ec-eaa842d06ac8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,11 +13,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 設定即時報表的管理步驟。
 
-在 Reports &amp; Analytics 中設定即時報告，包括選取報表套裝，以及為其選取最多 3 個報告。
+在 Reports &amp; Analytics 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
 
-1. 選取您要啟用即時報告的報表套裝。
+1. 選取您要啟用即時報表的報表套裝。
 
-   Navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports]** &gt; **[!UICONTROL View All Reports &gt; Site Metrics]** &gt; **[!UICONTROL Real-Time]** and select the report suite from the drop-down at the top:
+   導覽至 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 報表]** &gt; **[!UICONTROL 檢視全部報表 &gt; 網站量度]** &gt; **[!UICONTROL 即時]**，並從上方的下拉式清單中選取報表套裝:
 
    ![](assets/report_suite_selector.png)
 
@@ -26,16 +25,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. Click **[!UICONTROL Configure]** (gear icon) to run the [!UICONTROL Report Suite Manager].
+1. 按一下&#x200B;**[!UICONTROL 「設定」]** (齒輪圖示)，執行[!UICONTROL 報表套裝管理器]。
 
-   (Also available under **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin &gt; Report Suites]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Real-Time]**.)
+   (也可在 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員 &gt; 報表套裝]** &gt; **[!UICONTROL 編輯設定]** &gt; **[!UICONTROL 即時]**&#x200B;下方執行。)
 
-1. Turn on the **[!UICONTROL Enable Real-Time]** setting.
+1. 開啟&#x200B;**[!UICONTROL 啟用即時]**&#x200B;設定。
 1. 設定最多 3 個報告的即時資料收集，每個報告各一個量度和三個維度或分類。
 
    ![](assets/real_time_admin.png)
 
-   如需支援的即時度量和維度的詳細資訊，請參 [閱支援的度量和維度](/help/admin/admin/realtime/realtime-metrics.md)。
+   如需深入瞭解支援的即時量度和維度，請參閱[支援的量度和維度](/help/admin/admin/realtime/realtime-metrics.md)。
 
    如果您已定義分類，則會以縮排顯示在其所定義的維度下方:
 
@@ -43,17 +42,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >對於單一即時報表，我們目前不支援啟用重複維度，即使為每個維度選取了不同的分類亦然。
+   >針對單一即時報表，目前不支援啟用重複維度，即使為每個維度選取了不同的分類亦同。
 
-   如需分類的詳細資訊，請參 [閱關於分類](/help/components/c-classifications2/c-classifications.md)。
+   如需分類的詳細資訊，請參閱[關於分類](/help/components/c-classifications2/c-classifications.md)。
 
    >[!NOTE]
    >
-   >有些維度（例如「搜尋關鍵字」或「產品」）不會像Adobe Analytics中其他地方一樣，在即時中持續存在。 選取非持續性的量度時，會出現此警告:
+   >在「即時」中，有些維度 (如「搜尋關鍵字」或「產品」) 不會像在 Adobe Analytics 中的其他位置一樣持續存在。選取非持續性的量度時，會出現此警告:
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;或&#x200B;**[!UICONTROL 「儲存並檢視報表」]**。
 
    初始設定報告後，最多可能需要 20 分鐘，才會開始串流資料。從那時起，資料就立即可用。如需檢視即時報告的詳細資訊，請參閱[執行即時報告](https://marketing.adobe.com/resources/help/en_US/sc/user/reports_realtime.html)。
 
