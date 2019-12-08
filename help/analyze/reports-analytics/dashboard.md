@@ -1,12 +1,11 @@
 ---
 description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
-solution: Analytics
 subtopic: Dashboards
 title: 控制面板和報表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -83,7 +82,7 @@ t_dashboard_add.xml
 1. 拖曳項目至小報告畫布，即可新增可用內容至控制面板。
 
    請參 [閱建立小報表](/help/analyze/reports-analytics/dashboard.md#task_EC3AFBBAA51C45CEBAF632F841C305B3)[和編輯控制面板設定](/help/analyze/reports-analytics/dashboard.md#task_90D7FAC1CC3E4DB786B4C87CC33B5459)。
-1. Click **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    儲存控制面板會讓它顯示在&#x200B;**[!UICONTROL 控制面板]功能表中。** The new dashboard is also available in the [!UICONTROL Dashboard Manager] ( **[!UICONTROL Favorites]** &gt; **[!UICONTROL Dashboards]** &gt; **[!UICONTROL Manager]**), where you can edit, organize, share, schedule, archive dashboards, and more. (請參閱 [管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md)。)
 
@@ -167,7 +166,7 @@ t_dashboard_content.xml
 
    顯示您已新增至控制面板的項目。
 
-1. Click **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 編輯控制面板和小報告資料 {#task_B460CCD70D9F40FCAC6BBC1C044CC460}
 
@@ -184,7 +183,7 @@ t_dashboard_edit.xml
 1. Click **[!UICONTROL Components]** &gt; **[!UICONTROL Dashboards]** &gt; *dashboard name* to open a dashboard.
 1. Click **[!UICONTROL Layout]**.
 
-| 若要 | 執行動作 |
+| 結束日期 | 執行動作 |
 |--- |--- |
 | 變更控制面板的報告套裝 | 按一下 Experience Cloud 標題中的功能表，然後選取報表套裝。 |
 | 變更小報告的報告套裝 | 在小報告中，按一下報告套裝名稱，然後從[!UICONTROL 報告套裝]功能表中選取報告套裝。 |
