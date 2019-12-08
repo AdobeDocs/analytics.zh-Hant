@@ -1,11 +1,10 @@
 ---
 description: 顯示特定時段內開啟的購物車數量。您可以執行報告來分析購物車檢視、購物車新增、購物車移除和結帳。購物車通常在客戶選擇購買項目時開啟，但在沒有項目時亦可開啟。
-solution: Analytics
 title: 購物車
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -17,5 +16,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 您可以使用[!UICONTROL 購物車]:
 
 * 確定網站上已開啟購物車的模式及其數量的最高值或最低值。
-* 檢查特定時段，瞭解對開啟購物車貢獻突出的度量。
+* 檢查特定時段，瞭解對開啟購物車貢獻突出的量度。
 
