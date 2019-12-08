@@ -1,11 +1,10 @@
 ---
 description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
-solution: Analytics
 title: 管理區段
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -73,7 +72,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 | 擁有者 | 可讓您依擁有者篩選區段。請注意，「擁有者」篩選條件使用 OR 運算子。如果您勾選兩個擁有者，右側窗格會顯示&#x200B;**其中一位**&#x200B;擁有者擁有的區段。 |
 | 其他篩選條件 &gt; 僅&#x200B;*報表套裝名稱* | If you apply the "Only *report suite name*" filter in the Segment Builder in [!DNL marketing reports & analytics], and then display the Advanced Filter in [!DNL report builder], the Advanced filter will display the segment for the selected report suite only. |
 | 其他篩選器 &gt; 我的 | 顯示您擁有的所有區段。 |
-| 其他篩選條件 &gt; 與我共用 | 顯示所有其他人與您共用的區段。 |
+| 其他篩選器 &gt; 與我共用 | 顯示所有其他人與您共用的區段。 |
 | 其他篩選條件 &gt; 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |
 | 其他篩選條件 &gt; 批准 | 顯示所有已正式批准的區段。 |
 
