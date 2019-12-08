@@ -1,10 +1,9 @@
 ---
 title: 區段比較面板概述
 description: 瞭解如何使用 Analysis Workspace 中區段 IQ 的區段比較面板。
-keywords: Analysis Workspace, 區段 IQ
-solution: Analytics
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+keywords: Analysis Workspace;Segment IQ
+translation-type: tm+mt
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
