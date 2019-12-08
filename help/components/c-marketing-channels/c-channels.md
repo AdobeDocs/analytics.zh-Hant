@@ -1,19 +1,18 @@
 ---
-description: 在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
-solution: Analytics
+description: 在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
 subtopic: Marketing channels
 title: 管理行銷渠道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 管理行銷渠道
 
-在行銷渠道管理員中新增或啟用行銷渠道。 對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
+在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷渠道的報表套裝，自動設定可為您建立多個渠道及其規則。您可視需要編輯預定義渠道或建立自己的渠道 (最多總共 25 個)。
 
 以下是建立渠道的指引:
 
@@ -26,29 +25,29 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在行銷管道管理員中新增行銷管道。
 
-> [!NOTE] 您無法刪除渠道。 如果不想使用渠道，則可停用或重新命名它，並保留以備將來之用。
+> [!NOTE] 管道無法刪除。如果不想使用渠道，則可停用或重新命名它，並保留以備將來之用。
 
-1. Click **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]**.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
 1. 在[!UICONTROL 「報告套裝管理員」]頁面上，選擇一個報告套裝。
 
    如果選擇多個報表套裝，請選擇一個範本，將範本設定複製到所選的報表套裝。
 
-   請參閱 [套用範本報表套裝設定至多個報表套裝](/help/components/c-marketing-channels/t-template.md).
+   請參閱[套用範本報表套裝設定至多個報表套裝](/help/components/c-marketing-channels/t-template.md)。
 
-1. Click **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Marketing Channels]** &gt; **[!UICONTROL Marketing Channel Manager]**.
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 行銷管道]** &gt; **[!UICONTROL 行銷管道管理員」]**。
 
-   If your report suite does not have channels defined, the [Auto Setup](/help/components/c-marketing-channels/c-channel-autosetup.md) page displays.
+   如果報表套裝尚未定義管道，則會顯示[自動設定](/help/components/c-marketing-channels/c-channel-autosetup.md)頁面。
 
-1. On the [!UICONTROL Marketing Channel Manager] page, click **[!UICONTROL Add Channel]**.
+1. 在[!UICONTROL 行銷管道管理員]頁面上，按一下&#x200B;**[!UICONTROL 「新增管道」]**。
 
    已定義 25 個渠道時，此選項不可用。
 
-1. Click **[!UICONTROL Save.]**
-1. To configure rules for the channel, click **[!UICONTROL Marketing Channel Processing Rules]**.
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 若要設定管道規則，請按一下&#x200B;**[!UICONTROL 「行銷管道處理規則」]**。
 
-   See [Create Marketing Channel processing rules](/help/components/c-marketing-channels/t-rules.md).
+   請參閱[建立行銷管道處理規則](/help/components/c-marketing-channels/t-rules.md)。
 
-## Marketing Channel Manager - interface definitions {#mktg-channel-mgr}
+## 行銷管道管理員 - 介面定義 {#mktg-channel-mgr}
 
 [!UICONTROL 行銷渠道管理員]頁面的欄位定義。
 
@@ -78,7 +77,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>類型 </p> </td> 
-   <td colname="col2"> <p> 指定使用者前往您網站的方式。您可選擇<span class="uicontrol">「線上」</span>或<span class="uicontrol">「離線」</span>。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」渠道。「離線」渠道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線渠道通常包括從報告資料來源匯入的資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Data Sources</a>。 </p> <p>See <a href="/help/components/c-marketing-channels/t-offline-data.md"   > Add Offline Data</a>. </p> </td> 
+   <td colname="col2"> <p> 指定使用者前往您網站的方式。您可選擇<span class="uicontrol">「線上」</span>或<span class="uicontrol">「離線」</span>。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」渠道。「離線」渠道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線渠道通常包括從報告資料來源匯入的資料。 </p> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/sc/datasources/"  >Data Sources</a>。 </p> <p>請參閱<a href="/help/components/c-marketing-channels/t-offline-data.md"   >新增離線資料</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>色彩 </p> </td> 
