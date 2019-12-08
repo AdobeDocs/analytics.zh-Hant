@@ -1,11 +1,10 @@
 ---
 description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報告資料、變更以圖形呈現資料的方式、變更日期精細度等等。
-solution: Analytics
 title: 自訂報表概觀
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -59,7 +58,7 @@ t_reports_select_date.xml
 1. 按一下右上角的日曆圖示。
 1. 選擇日期。
 
-   您可以︰
+   您可以:
 
    * 檢視天、月或年時段 (最多 3 個)。
    * 將游標拖過若干日期以選擇範圍。
