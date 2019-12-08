@@ -1,11 +1,10 @@
 ---
 description: 說明 Experience Cloud 中所使用的報告類別。
-solution: Analytics
 title: 報表類別
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -14,13 +13,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 說明 Experience Cloud 中所使用的報告類別。
 
-A **ranked report** displays a table with ranked items, using numbers and percentages in metrics. 例如，「頁面報告」會根據流量來排行您網站的頁面，詳情表格則顯示量度 (如「頁面檢視」和「收入」) 的數字和百分比。水平橫條圖是預設的圖形類型。圖形會為每個量度採用不同的顏色。「排名」報告可在一個報告中顯示多個量度。A **trended report** lets you examine how conversions and events trend over a selected time granularity (Hour, Day, Week, Month, Quarter, or Year) during a reporting period.
+**排名報表**&#x200B;使用量度的數字和百分比，顯示內含排名項目的表格。例如，「頁面報告」會根據流量來排行您網站的頁面，詳情表格則顯示量度 (如「頁面檢視」和「收入」) 的數字和百分比。水平橫條圖是預設的圖形類型。圖形會為每個量度採用不同的顏色。「排名」報告可在一個報告中顯示多個量度。**趨勢報表**&#x200B;可讓您檢查在某個報表期間，轉換和事件在選定之時間詳細程度上 (小時、日、週、月、季和年) 的趨勢變化。
 
 圖表中，垂直軸顯示追蹤項目，水平軸顯示時間詳細程度。在表格中，您可以在特定儲存格中分析趨勢，然後從該儲存格啟動完整報告。使用的日期或時間以儲存格的值為根據。
 
 您也可以選取多個儲存格，並根據選定詳細程度來啟動趨勢報告。從多個儲存格分析趨勢時，報告欄會顯示整個報告期間的資料。
 
-產品報告是趨勢報告的範例。您可以查看在選定的期間內，一項產品產生了多少收入。如果您的報告期間是一週，則可查看該產品在該時段每一天產生多少收入，也可以顯示特定產品在某一天的趨勢圖，或是開啟選取範圍的個別趨勢報告。「總計」報表是執行層級報表，可顯示獲利圖。 它包含總收入、頁面檢視和訂單的資料。您可對報告進行區段，並新增其他量度以檢視其他資料。流量會顯示使用者在頁面、網站區域及伺服器間採取的最常見路徑。
+產品報告是趨勢報告的範例。您可以查看在選定的期間內，一項產品產生了多少收入。如果您的報告期間是一週，則可查看該產品在該時段每一天產生多少收入，也可以顯示特定產品在某一天的趨勢圖，或是開啟選取範圍的個別趨勢報告。「總計」報表是執行層級報表，可顯示營收數字。它包含總收入、頁面檢視和訂單的資料。您可對報告進行區段，並新增其他量度以檢視其他資料。流量會顯示使用者在頁面、網站區域及伺服器間採取的最常見路徑。
 
 如需流量如何在 Analysis Workspace 中運作的相關資訊，請參閱[客戶歷程 – 流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)。
 
@@ -30,4 +29,4 @@ A **ranked report** displays a table with ranked items, using numbers and percen
 
 **上一流量**
 
-「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報告的控制項與「下一流量」報告的控制項相同。「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。如需詳細資訊，請參 [閱分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html) 工作區中的流失。
+「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報告的控制項與「下一流量」報告的控制項相同。「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。如需詳細資訊，請參閱 Analysis Workspace 中的[流失](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)。
