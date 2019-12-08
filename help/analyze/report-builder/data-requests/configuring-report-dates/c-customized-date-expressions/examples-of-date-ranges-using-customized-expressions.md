@@ -1,11 +1,10 @@
 ---
 description: 關於在自訂運算式中使用日期範圍的範例、附註及語法附註。
-solution: Analytics
 title: 使用自訂運算式的日期範圍範例
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 範例 | 日期範圍 | 自訂運算式 | 報表的日期範圍 |
 |---|---|---|---|
-|  |  | **開始日期** | **結束日期** |  |
+|  |  | **從** | **結束日期** |  |
 | 1 | 兩週前 | cw-2w | cw-1w-1d | 10 月 26 日到 11 月 1 日 |
 | 2 | 去年第五個月的前 3 天 | cy-1y+4m | cy-1y+4m+2d | 2010 年 5 月 1 日到 5 月 3 日 |
 | 3 | 4 週前開始的一整週 | cw-4w | cw-3w-1d | 10 月 12 日到 10 月 18 日 |
