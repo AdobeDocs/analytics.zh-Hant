@@ -1,13 +1,12 @@
 ---
 description: Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透過區分大小寫或不區分大小寫檢查的選項確認該數值不在清單中。Apl 外掛程式被多個標準外掛程式所參照，但也能直接應用於多種情況。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: appendList
 topic: Developer and implementation
 uuid: e923c86c-eaa6-4e17-a3a4-0e08af886674
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -29,7 +28,7 @@ Apl (或 AppendList) 外掛程式可讓您為任何分隔清單附加值，透�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>藍本 </p> </td> 
-   <td colname="col2"> <p>新增<span class="term">event1</span> 至目前的事件變數，同時確保該事件不會重複。 </p> <p>s.events="scCheckout" </p> </td> 
+   <td colname="col2"> <p>Add <span class="term"> event1 </span> to the current events variable while ensuring the event isn't duplicated. </p> <p>s.events="scCheckout" </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>程式碼 </p> </td> 
