@@ -1,18 +1,17 @@
 ---
 description: 這些報表會顯示訪客所用的瀏覽器、作業系統、監視器解析度等相關資訊。
-solution: Analytics
 title: 技術
 topic: Reports
 uuid: 8e2f88dc-e1b9-428e-b0d3-faf4c063bebc
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
 # 技術
 
-這些報告會顯示訪客所用的瀏覽器、作業系統、螢幕解析度等相關資訊。
+這些報表會顯示訪客所用的瀏覽器、作業系統、監視器解析度等相關資訊。
 
 <table id="table_6B55FDDC4C484766BC3817E06551E753"> 
  <thead> 
@@ -44,7 +43,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> 監視器色彩深度 </td> 
-   <td colname="col2"> <p> 顯示訪客的電腦設定中最常用的色彩深度設定。 色彩深度是指螢幕可顯示的色彩數量。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客的電腦設定中最常用的色彩深度設定。色彩深度是指螢幕可顯示的色彩數量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 螢幕解析度 </td> 
@@ -60,7 +59,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> JavaScript 版本 </td> 
-   <td colname="col2"> <p> 顯示訪客瀏覽您網站時的瀏覽器所使用的JavaScript版本。 </p> </td> 
+   <td colname="col2"> <p> 顯示訪客檢視您網站時，其瀏覽器所使用的 JavaScript 版本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Cookie </td> 
