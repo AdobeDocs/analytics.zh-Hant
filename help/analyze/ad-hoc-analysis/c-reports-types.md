@@ -1,11 +1,10 @@
 ---
 description: 說明 Experience Cloud 中使用的報表類型。
-solution: Analytics
 title: 報表類型
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -119,7 +118,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。For example, you can see how many users went from a `https://www.mysite.com` to `https://info.mysite.com` or `https://sales.mysite.com`.
+例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。例如，您可瞭解從 `https://www.mysite.com` 前往 `https://info.mysite.com` 或 `https://sales.mysite.com` 的使用者數量。
 
 ## 下一區域流量 {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -170,7 +169,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。For example, you can see how many users went from a `www.mysite.com` to `info.mysite.com` or `sales.mysite.com`.
+例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。例如，您可瞭解從 `www.mysite.com` 前往 `info.mysite.com` 或 `sales.mysite.com` 的使用者數量。
 
 ## 轉換漏斗報告 {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
@@ -209,7 +208,7 @@ c_reports_site_analysis.xml
 
 | 選項 | 說明 |
 |--- |--- |
-| 網站分析顯示位置 (瀏覽或訪客) | 可讓您切換造訪和訪客，分析訪客路徑。這些設定可讓您瞭解在訪客層級、跨瀏覽的訪客參與情形。網站分析、流量和流失報告可用於訪客路徑。變更此設定會重新執行報告，並將資料限制在該選取範圍。 |
+| 網站分析顯示位置 (瀏覽或訪客) | 可讓您切換瀏覽和訪客，分析訪客路徑。這些設定可讓您瞭解在訪客層級、跨瀏覽的訪客參與情形。網站分析、流量和流失報告可用於訪客路徑。變更此設定會重新執行報告，並將資料限制在該選取範圍。 |
 | 加入查核點 | 顯示「查核點編輯器」，您可於其中選取維度或事件，以便加入至顯示。 |
 | 取代圖表 | 以您加入至編輯器的查核點來取代網站分析圖表。 |
 | 適合螢幕大小 | 還原圖表的原始檢視。 |
