@@ -1,13 +1,12 @@
 ---
 description: getValOnce 外掛程式可防止指定的變數設為先前定義的值。它會使用 Cookie 來判斷變數最後顯現的值。若目前的值與 Cookie 值相符，則會以空白字串覆寫變數，再將其傳送至 Adobe 的處理伺服器。此外掛程式可用來防止轉換變數例項數因為使用者重新整理頁面或點按「上一頁」按鈕而膨脹。
 keywords: Analytics Implementation
-solution: Analytics
 subtopic: Plug-ins
 title: getValOnce
 topic: Developer and implementation
 uuid: 82fe0da5-3bc4-4632-8c62-7b5683f6b587
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
