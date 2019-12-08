@@ -1,11 +1,10 @@
 ---
 description: 顯示訪客離開 (流失) 和繼續瀏覽 (經過) 預先指定之頁面順序的位置，並會顯示每個步驟之間的轉換率和流失率。例如，您可以追蹤訪客在購買過程中的流失點。選取起點和結論點，然後新增中間點來建立網站導覽路徑。
-solution: Analytics
 title: 流失
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
