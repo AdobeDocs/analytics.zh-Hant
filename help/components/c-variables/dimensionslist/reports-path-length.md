@@ -1,11 +1,10 @@
 ---
 description: 以百分比及總數顯示每次瀏覽的深度。也就是說，該報告將顯示訪客離開您網站前平均檢視的頁面數量。
-solution: Analytics
 title: 路徑長度
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
@@ -18,6 +17,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 相同值的多個例項 (重新載入) 不會增加路徑長度。範例:
 
-**[!UICONTROL 頁面A]** &gt;頁 **[!UICONTROL 面B]** &gt;自 **[!UICONTROL 訂連結]** &gt;頁 **[!UICONTROL 面B]** =路徑長度2。 (請注意，自訂連結和重新載入頁面 B 不會計入路徑長度)。
+**[!UICONTROL 頁面 A]** &gt; **[!UICONTROL 頁面 B]** &gt; **[!UICONTROL 自訂連結]** &gt; **[!UICONTROL 頁面 B]** = 路徑長度 2。(請注意，自訂連結和重新載入頁面 B 不會計入路徑長度)。
 
-**[!UICONTROL Prop A]** &gt;自 **[!UICONTROL 訂連結傳遞Prop B]** &gt; **[!UICONTROL Prop C]** =路徑長度3。 (請注意，Prop B 的自訂連結不會計入路徑長度)。
+**[!UICONTROL Prop A]** &gt; **[!UICONTROL 自訂連結通過 Prop B]** &gt; **[!UICONTROL Prop C]** = 路徑長度 3。(請注意，Prop B 的自訂連結不會計入路徑長度)。
