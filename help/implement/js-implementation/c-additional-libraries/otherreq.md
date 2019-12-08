@@ -1,12 +1,11 @@
 ---
 description: 要在不使用 JavaScript 的情況下實施 Analytics，會有其他需求和設定需要考量。
 keywords: Analytics Implementation;case sensitive;encode query parameters;invalid characters;secure image requests;maximum variable length;referring;url;caching;namespace
-solution: Analytics
 title: 不使用 JavaScript 指南實作
 topic: Developer and implementation
 uuid: c672dd63-1c74-4f66-8992-9257c5a75e36
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
