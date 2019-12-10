@@ -175,34 +175,34 @@ Mobile Scorecard會在並排版面中為主管使用者顯示關鍵資料視覺�
 
    **針對iOS的主管使用者：**
 
-   1. 按一下下列公用連結(也可在「工具&gt;行動應用程式 **」下方的Analytics****中取得**):
+    1. 按一下下列公用連結(也可在「工具&gt;行動應用程式 **」下方的Analytics****中取得**):
 
-      [iOS連結](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
+        [iOS連結](https://testflight.apple.com/join/WtXMQxlI): `https://testflight.apple.com/join/WtXMQxlI`
 
-      按一下連結後，會出現下列Testflight畫面：
+        按一下連結後，會出現下列Testflight畫面：
 
-      ![Testflight畫面](assets/testflight1.png)
+        ![Testflight畫面](assets/testflight1.png)
 
-   2. 點選畫面 **上的「在App Store中檢視** 」連結，以下載Testflight應用程式。
+    2. 點選畫面 **上的「在App Store中檢視** 」連結，以下載Testflight應用程式。
 
-   3. 安裝Testflight應用程式後，請在Testflight中尋找並安裝Adobe Analytics行動應用程式，如下所示：
+    3. 安裝Testflight應用程式後，請在Testflight中尋找並安裝Adobe Analytics行動應用程式，如下所示：
 
       ![Testflight畫面](assets/testflight2.png)
    **針對Android的主管使用者：**
 
-   1. 點選使用者裝置上的下列「播放商店」連結(也可在「工具 **&gt;行動應用程式******」下的Analytics中取得):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+    1. 點選使用者裝置上的下列「播放商店」連結(也可在「工具 **&gt;行動應用程式******」下的Analytics中取得):
+        [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
 
-      點選連結後，點選下列螢幕上的「成為測試者」連結：
+        點選連結後，點選下列螢幕上的「成為測試者」連結：
 
-      ![播放商店畫面](assets/play.png)
+        ![播放商店畫面](assets/play.png)
 
-   2. 點選下 **列螢幕上的Google play連結** ，下載它：
-      ![下載連結](assets/playnext.png)
+    2. 點選下 **列螢幕上的Google play連結** ，下載它：
+        ![下載連結](assets/playnext.png)
 
-   3. 下載並安裝應用程式。
-一旦下載並安裝後，主管使用者就可使用現有的Adobe Analytics認證登入應用程式；我們同時支援Adobe和Enterprise/Federated ID。
-   ![應用程式歡迎畫面](assets/welcome.png)
+    3. 下載並安裝應用程式。
+    一旦下載並安裝後，主管使用者就可使用現有的Adobe Analytics認證登入應用程式；我們同時支援Adobe和Enterprise/Federated ID。
+    ![應用程式歡迎畫面](assets/welcome.png)
 
 2. 幫助他們訪問您的記分卡。 主管使用者登入應用程式後，會出 **現「選擇公司** 」畫面。 此螢幕列出執行用戶所屬的登錄公司。 要幫助他們進入記分卡：
 
