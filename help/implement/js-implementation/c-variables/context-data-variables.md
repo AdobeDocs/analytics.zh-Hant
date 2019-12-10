@@ -26,7 +26,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 ```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->```
+>
+```
 
 使用上下文資料不需要更新程式碼，就能支援不同的報表套裝設定。
 
