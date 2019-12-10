@@ -19,11 +19,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE]內容資料變數不區分大小寫。例如，下列 2 個變數效力相同:
 >
+
 ```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->```
+>
+```
 >與
 >
+
 ```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >
