@@ -2,7 +2,7 @@
 description: 設定行動應用程式記分卡的指示。
 title: Adobe Analytics行動應用程式策展人指南
 translation-type: tm+mt
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
 
 ---
 
@@ -188,18 +188,20 @@ Mobile Scorecard會在並排版面中為主管使用者顯示關鍵資料視覺�
    3. 安裝Testflight應用程式後，請在Testflight中尋找並安裝Adobe Analytics行動應用程式，如下所示：
 
       ![Testflight畫面](assets/testflight2.png)
-      
    **針對Android的主管使用者：**
 
    1. 點選使用者裝置上的下列「播放商店」連結(也可在「工具 **&gt;行動應用程式******」下的Analytics中取得):
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp` 點選連結後，點選下列螢幕上的「成為測試者」連結：
+      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp): `https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+
+      點選連結後，點選下列螢幕上的「成為測試者」連結：
+
       ![播放商店畫面](assets/play.png)
 
    2. 點選下 **列螢幕上的Google play連結** ，下載它：
       ![下載連結](assets/playnext.png)
 
    3. 下載並安裝應用程式。
-   一旦下載並安裝後，主管使用者就可使用現有的Adobe Analytics認證登入應用程式；我們同時支援Adobe和Enterprise/Federated ID。
+一旦下載並安裝後，主管使用者就可使用現有的Adobe Analytics認證登入應用程式；我們同時支援Adobe和Enterprise/Federated ID。
    ![應用程式歡迎畫面](assets/welcome.png)
 
 2. 幫助他們訪問您的記分卡。 主管使用者登入應用程式後，會出 **現「選擇公司** 」畫面。 此螢幕列出執行用戶所屬的登錄公司。 要幫助他們進入記分卡：
