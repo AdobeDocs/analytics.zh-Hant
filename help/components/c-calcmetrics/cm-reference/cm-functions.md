@@ -1,26 +1,20 @@
 ---
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
-title: 參考基本功能
+title: 參考資料  基本函數
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # 參考資料: 基本函數
 
-<!-- 
-
-cm_functions.xml
-
- -->
-
 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 
 以下是函數及其定義的字母順序清單。
 
-> [!NOTE] 其中 [!DNL metric] 在函式中被識別為引數時，也允許使用其他度量運算式。 例如， [!DNL MAXV(metrics)] 也允許 [!DNL MAXV(PageViews + Visits).]
+> [!NOTE] 此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits).]
 
 ## 表格函數和列函數 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -103,7 +97,7 @@ EXP(metric)
 乘冪運算元
 
 <pre>
-pow(x,y)=<sup>xy</sup> = x*x*x*...（y次）
+pow(x,y) = x<sup>y</sup> = x*x*x*… (乘以 y 次)
 </pre>
 
 ## 平均值 (表格) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
@@ -156,7 +150,7 @@ modulo(modulo(x,y)+y,y)
 
 ## 百分位數 (表格) {#concept_51DF57B606D14F898E5010DBA61CA979}
 
-傳回量度值的第 k 個百分位數。您可使用此函數來建立接受臨界值。例如，您可以決定檢查分數高於90個百分位數的維度元素。
+傳回量度值的第 k 個百分位數。您可使用此函數來建立接受臨界值。例如，您可以決定檢驗分數高於第 90 個百分位數的維度元素。
 
 ```
 PERCENTILE(metric,k)
@@ -208,7 +202,7 @@ QUARTILE(metric,quart)
  </tbody> 
 </table>
 
-*如果 *quart* = 0，QUARTILE 會傳回最小值。If *quart* = 1, QUARTILE returns the first quartile (25 percentile). If *quart* = 2, QUARTILE returns the first quartile (50 percentile). If *quart* = 3, QUARTILE returns the first quartile (75 percentile). 如果 *quart* = 4，QUARTILE 會傳回最大值。
+*如果 *quart* = 0，QUARTILE 會傳回最小值。如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
 
 ## 四捨五入 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 
@@ -233,7 +227,7 @@ round( 314.15, -2) = 300
 
 ## 列計數 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-傳回指定欄的列計數（維度中報告的獨特元素數）。「超出唯一客戶數」會計為1。
+傳回指定欄的列數 (在一個維度中報告的唯一元素數)。「超出唯一數目」計為 1。
 
 ## 列最大值 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 
@@ -306,11 +300,11 @@ VARIANCE(metric)
 
 為了計算變數，請查看整欄的數字。請先從那列數字計算平均值。取得平均值後，請陸續處理每個項目，然後進行下列步驟:
 
-1. 從數字中減去平均值。
+1. 將數字減去平均值。
 
-2. 將結果平方。
+2. 取結果的平方。
 
-3. 將它加入總計。
+3. 將其加入總計。
 
 反覆運算整欄之後，會得到單一合計。接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
 
@@ -322,7 +316,7 @@ VARIANCE(metric)
 
 3
 
-欄平均值為 2。柱的方差為((1 - 2)² +(2 - 2)² +(3 - 2)²/3 = 2/3。 在 Ad Hoc Analysis 中，這會看起來像這樣：
+欄平均值為 2。欄的變數將會是 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。在 Ad Hoc Analysis 中，這會看起來像這樣：
 
 1 2/3
 
