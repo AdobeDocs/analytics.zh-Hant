@@ -1,28 +1,22 @@
 ---
-description: 勾選「函數」下拉式清單中的「顯示進階」即可存取這些函數。
-title: 參考進階功能
+description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
+title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
 # 參考資料: 進階函數
 
-<!-- 
-
-cm_adv_functions.xml
-
- -->
-
-Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
+勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
 
 ## 表格函數和列函數 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-## 「包括零」參數的意義是什麼? {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## 「包括零」參數的意義是什麼?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 此參數指出是否在計算中包括零。有時候零沒有意義，有時候卻很重要。
 
@@ -34,7 +28,7 @@ Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UIC
 
 傳回其引數的值。使用 NOT 可確保其值不等於某個特定值。
 
-> [!NOTE] 0（零）表示False，且任何其他值為True。
+> [!NOTE] 0 (零) 表示 False，其他值表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -42,7 +36,7 @@ AND(logical_test1,[logical_test2],...)
 
 | 引數 | 說明 |
 |---|---|
-| *logical_test1* | 必填。可評估為 TRUE 或 FALSE 的任何值或運算式。 |
+| *logical_test1* | 必填. 可評估為 TRUE 或 FALSE 的任何值或運算式。 |
 | *logical_test2* | 選填。您要評估為 TRUE 或 FALSE 的其他條件 |
 
 ## 近似相異計數 (維度) {#concept_000776E4FA66461EBA79910B7558D5D7}
@@ -61,7 +55,7 @@ Approximate Count Distinct (dimension)
 
 近似相異計數 (客戶 ID eVar) 是此函數的常見使用案例。
 
-新「近似客戶」計算量度的定義：
+新「近似客戶」計算量度的定義:
 
 ![](assets/approx-count-distinct.png)
 
@@ -210,7 +204,7 @@ CBRT(metric)
 
 如果 N &lt;= 0 則使用所有先前列。由於是依據維度排序，因此只適用於根據日期或路徑長度等自然順序排列的維度。
 
-> [!NOTE] 這與收入／訪客等比率量度的運作不同：它會平均比率，而不是將過去N的收入加總，再將最後N的訪客加總，然後加以劃分。 請改為使用
+> [!NOTE] 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -222,7 +216,7 @@ cumul(revenue)/cumul(visitor)
 
 ## 指數迴歸_ 相關係數 (表格) {#concept_C18BBFA43C1A499293290DF49566D8D8}
 
-Returns the correlation coefficient, *r*, between two metric columns ( *metric_A* and *metric_B*) for the regression equation .
+針對迴歸方程式，傳回兩個量度欄 (*metric_A* 和 *metric_B*) 之間的相關係數 *r*。
 
 ```
 CORREL.EXP(metric_X, metric_Y)
@@ -235,7 +229,7 @@ CORREL.EXP(metric_X, metric_Y)
 
 ## 指數迴歸: 截距 (表格) {#concept_0047206C827841AD936A3BE58EEE1514}
 
-Returns the intercept, *b*, between two metric columns ( *metric_X* and *metric_Y*) for
+針對以下迴歸方程式，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的截距 *b*
 
 ```
 INTERCEPT.EXP(metric_X, metric_Y)
@@ -248,7 +242,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 ## 指數迴歸: 斜率 (表格) {#concept_230991B0371E44308C52853EFA656F04}
 
-Returns the slope, *a*, between two metric columns ( *metric_X* and *metric_Y*) for .
+針對以下迴歸方程式，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的斜率 *a*。
 
 ```
 SLOPE.EXP(metric_X, metric_Y)
@@ -325,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 引數 | 說明 |
 |---|---|
-| *logical_test* | 必填。可評估為 TRUE 或 FALSE 的任何值或運算式。 |
+| *logical_test* | 必填. 可評估為 TRUE 或 FALSE 的任何值或運算式。 |
 | *[value_if_true]* | 您想在 *logical_test* 引數評估為 TRUE 時傳回的值。(若未指定則此引數預設為 0。) |
 | *[value_if_false]* | 您想在 *logical_test* 引數評估為 FALSE 時傳回的值。(若未指定則此引數預設為 0。) |
 
@@ -367,7 +361,7 @@ LOG10(metric)
 
 ## 對數迴歸: 相關係數 (表格) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 會使用 CORREL 方程式進行計算。
+傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，迴歸方程式 *的相關係數* r[!DNL Y = a ln(X) + b]。會使用 CORREL 方程式進行計算。
 
 ```
 CORREL.LOG(metric_X,metric_Y)
@@ -393,7 +387,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 ## 對數迴歸: 預計 Y (列) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the "least squares" method for calculating the line of best fit based on [!DNL Y = a ln(X) + b]. 會使用 ESTIMATE 方程式進行計算。
+已知 [!DNL y] 值 (me ric_X)，計算預計 [!DNL x] 值 (metric_Y)，根據 [!DNL Y = a ln(X) + b] 使用「最小平方」方法計算最佳配適線。會使用 ESTIMATE 方程式進行計算。
 
 在迴歸分析中，已知 [!DNL y] 值 (*metric_X*)，此函數會計算預計 [!DNL x] 值 (*metric_Y*)，使用對數計算迴歸方程式 [!DNL Y = a ln(X) + b] 的最佳配適線。[!DNL a] 值對應到每個 x 值，而 [!DNL b] 是常數值。
 
@@ -408,7 +402,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 ## 對數迴歸: 斜率 (表格) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for the regression equation [!DNL Y = a ln(X) + b]. 會使用 SLOPE 方程式進行計算。
+傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，迴歸方程式 *的斜率* a[!DNL Y = a ln(X) + b]。會使用 SLOPE 方程式進行計算。
 
 ```
 SLOPE.LOG(metric_A, metric_B)
@@ -441,7 +435,7 @@ NOT(logical)
 
 | 引數 | 說明 |
 |---|---|
-| *logical* | 必填。可評估為 TRUE 或 FALSE 的值或運算式。 |
+| *logical* | 必填. 可評估為 TRUE 或 FALSE 的值或運算式。 |
 
 使用 NOT 需要知道運算式 (&lt;、&gt;、=、&lt;&gt; 等)是傳回 0 還是 1 值。
 
@@ -453,7 +447,7 @@ NOT(logical)
 
 如果任何引數為 TRUE 則傳回 TRUE，若所有引數為 FALSE 則傳回 FALSE。
 
-> [!NOTE] 0（零）表示False，且任何其他值為True。
+> [!NOTE] 0 (零) 表示 False，其他值表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -461,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | 引數 | 說明 |
 |---|---|
-| *logical_test1* | 必填。可評估為 TRUE 或 FALSE 的任何值或運算式。 |
+| *logical_test1* | 必填. 可評估為 TRUE 或 FALSE 的任何值或運算式。 |
 | *logical_test2* | 選填。您要評估為 TRUE 或 FALSE 的其他條件 |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -476,7 +470,7 @@ PI()
 
 ## 乘冪迴歸: 相關係數 (表格) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+針對 [!DNL Y = b*X]，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的相關係數 *r*。
 
 ```
 CORREL.POWER(metric_X, metric_Y)
@@ -489,7 +483,7 @@ CORREL.POWER(metric_X, metric_Y)
 
 ## 乘冪迴歸: 截距 (表格) {#concept_7781C85597D64D578E19B212BDD1764F}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*的截距* b[!DNL Y = b*X]。
 
 ```
  INTERCEPT.POWER(metric_X, metric_Y)
@@ -502,7 +496,7 @@ Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y
 
 ## 乘冪迴歸: 預計 Y (列) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
-Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!DNL x] values ( [!DNL metric_X]) using the "least squares" method for calculating the line of best fit for [!DNL Y = b*X].
+已知 [!DNL x] 值 ([!DNL metric_X])，計算預測 [!DNL y] 值 ([!DNL metric_Y])，使用「最小平方」方法計算 [!DNL Y = b*X] 的最佳配適線。
 
 ```
  ESTIMATE.POWER(metric_X, metric_Y)
@@ -515,7 +509,7 @@ Calculates the predicted [!DNL y] values ( [!DNL metric_Y]), given the known [!D
 
 ## 乘冪迴歸: 斜率 (表格) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = b*X].
+傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*) 的斜率* a[!DNL Y = b*X]。
 
 ```
 SLOPE.POWER(metric_X, metric_Y)
@@ -528,7 +522,7 @@ SLOPE.POWER(metric_X, metric_Y)
 
 ## 二次迴歸: 相關係數 (表格) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
-Returns the correlation coefficient, *r*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+針對 [!DNL Y=(a*X+b)]****，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的相關係數 *r*。
 
 ```
 CORREL.QUADRATIC(metric_X, metric_Y)
@@ -541,7 +535,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 ## 二次迴歸: 截距 (表格) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y=(a*X+b)]****.
+針對 [!DNL Y=(a*X+b)]****，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的截距 *b*。
 
 ```
 INTERCEPT.POWER(metric_X, metric_Y)
@@ -554,7 +548,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 ## 二次迴歸: 預計 Y (列) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y=(a*X+b)]**** .
+已知 [!DNL y] 值 (metric_X)，計算預測 [!DNL x] 值 (metric_Y)，使用最小平方方法計算使用 [!DNL Y=(a*X+b)] 的最佳配適線。
 
 ```
 ESTIMATE.QUADRATIC(metric_A, metric_B)
@@ -567,7 +561,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 ## 二次迴歸: 斜率 (表格) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and metric_Y) for [!DNL Y=(a*X+b)]****.
+針對 [!DNL Y=(a*X+b)]****，傳回兩個量度欄 (*metric_X* 和 metric_Y) 之間的斜率 *a*。
 
 ```
 SLOPE.QUADRATIC(metric_X, metric_Y)
@@ -593,7 +587,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 ## 倒數迴歸: 截距 (表格) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
-Returns the intercept, *b*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*的截距* b[!DNL Y = a/X+b]。
 
 ```
 INTERCEPT.RECIPROCAL(metric_A, metric_B)
@@ -606,7 +600,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 ## 倒數迴歸: 預計 Y (列) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
-Calculates the predicted [!DNL y] values (metric_Y), given the known [!DNL x] values (metric_X) using the least squares method for calculating the line of best fit using [!DNL Y = a/X+b].
+已知 [!DNL y] 值 (metric_X)，計算預計 [!DNL x] 值 (metric_Y)，使用最小平方方法計算使用 [!DNL Y = a/X+b] 的最佳配適線。
 
 ```
 ESTIMATE.RECIPROCAL(metric_X, metric_Y)
@@ -619,7 +613,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 ## 倒數迴歸: 斜率 (表格) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
-Returns the slope, *a*, between two metric columns (*metric_X* and *metric_Y*) for [!DNL Y = a/X+b].
+傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*) 的斜率* a[!DNL Y = a/X+b]。
 
 ```
 SLOPE.RECIPROCAL(metric_X, metric_Y)
@@ -650,11 +644,11 @@ Z 分數的別名，即平均值偏差除以標準差
 
 執行 m 尾 t 檢定，使用 col 的 t 分數和 n 自由度。
 
-簽名是 `t_test( x, n, m )`。 在下面，它只是呼叫 `m*cdf_t(-abs(x),n)`。 (This is similar to the z-test function which runs `m*cdf_z(-abs(x))`.
+簽名是 `t_test( x, n, m )`。底下其只呼叫了 `m*cdf_t(-abs(x),n)`。(這與 z 檢定函數執行 `m*cdf_z(-abs(x))` ) 類似)。
 
 在此，`m` 是反面的數目，而 `n` 是自由度。這些應該為數字 (在整個報表中為常數，例如，不會逐列變更)。
 
-`X` 是 t 檢定的統計資料，且經常會是基於度量的公式 (例如 zscore)，並在每列進行評估。
+`X` 是 t 檢定的統計資料，且經常會是基於量度的公式 (例如 zscore)，並在每列進行評估。
 
 傳回值是在給定自由度和反面的數目下，出現檢定統計資料 x 的機率。
 
@@ -694,9 +688,9 @@ Z 分數的方程式為:
 
 其中 [!DNL x] 是原始分數、[!DNL μ] 是族群平均值，[!DNL σ] 是族群標準差。
 
-> [!NOTE] [!DNL μ] (mu)和[!DNL σ] (sigma)自動從度量計算。
+> [!NOTE] [!DNL μ] (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
 
-Z分數（量度）
+Z 分數 (量度)
 
 <table id="table_AEA3622A58F54EA495468A9402651E1B"> 
  <thead> 
@@ -719,5 +713,5 @@ Z分數（量度）
 
 傳回可在欄中看到目前列的機率。
 
-> [!NOTE] 假設值是正常分佈的。
+> [!NOTE] 此處假設值為常態分布。
 
