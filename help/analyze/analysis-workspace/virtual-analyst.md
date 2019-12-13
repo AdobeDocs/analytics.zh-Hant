@@ -1,8 +1,8 @@
 ---
 title: 虛擬分析人員
 description: 瞭解 Adobe Analytics 中的哪些功能對虛擬分析人員有幫助。
-translation-type: ht
-source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
+translation-type: tm+mt
+source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 虛擬分析人員是 Adobe Analytics 中的一組功能，可運用預測演算法和機器學習，針對影響業務的異常現象提供深入分析。它能讓您自動處理最常見也最昂貴的資料科學工作流程，藉此識別造成在您的資料中引起不正常行為的原因。
 
-## 功能
+## 功能 {#features}
 
 虛擬分析人員包括以下功能:
 
