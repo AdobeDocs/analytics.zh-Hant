@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
+source-git-commit: ab1f3bd829a0534d9ab09db10a42d8bbd25af6bd
 
 ---
 
@@ -266,26 +266,13 @@ source-git-commit: d5804b411c28270ef910eec5a815532c067a4642
    + [Experience Cloud 核心服務](https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html)
    + 跨裝置訪客身份識別 {#cross-device-visitor-id}
       + [連結跨裝置的使用者](js-implementation/xdevice-visid/xdevice-connecting.md)
-      + [跨裝置訪客身分識別對資料的影響](js-implementation/xdevice-visid/xdevice-data.md)
-      + [範例瀏覽](js-implementation/xdevice-visid/visit-example.md)
-      + [訪客](js-implementation/xdevice-visid/visitors.md)
-      + [瀏覽](js-implementation/xdevice-visid/visits.md)
-      + [建立區段](js-implementation/xdevice-visid/segments.md)
-      + [地域劃分資料](js-implementation/xdevice-visid/geo-data.md)
+      + [跨裝置範例](js-implementation/xdevice-visid/visit-example.md)
       + [歸屬分配和持續性](js-implementation/xdevice-visid/variable-persistence.md)
+      + [跨裝置常見問答集](js-implementation/xdevice-visid/xdevice-faq.md)
    + [訪客移轉](js-implementation/visitor-migration.md)
    + [使用可選時間戳記](js-implementation/timestamps-overview.md)
    + [重新導向與別名](js-implementation/redirects-overview.md)
 + 測試和驗證 {#testing-and-validation}
-   + 測試和驗證程序 {#testing-and-validation-process}
-      + [測試和驗證概觀](impl-testing/impl-validation/impl-validation.md)
-      + [在除錯程式中識別 s_account 變數](impl-testing/impl-validation/impl-testing-account.md)
-      + [JavaScript JS 檔案](impl-testing/impl-validation/impl-js-file.md)
-      + [程式碼修改](impl-testing/impl-validation/impl-code-updates.md)
-      + [變數和值](impl-testing/impl-validation/impl-var-values.md)
-      + [自訂變數](impl-testing/impl-validation/impl-custom-vars.md)
-      + [實作同意](impl-testing/impl-validation/impl-acceptance.md)
-      + [資料正確性驗證](impl-testing/impl-validation/impl-data-accuracy.md)
    + [Experience Cloud Debugger](impl-testing/debugger.md)
    + [封包分析器](impl-testing/packet-monitor.md)
    + 實作疑難排解 {#implementation-troubleshooting}
