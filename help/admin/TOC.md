@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
 
 ---
 
@@ -145,16 +145,17 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
    + [使用者和產品管理](user-management2/user-management.md)
    + [指派使用者群組至報表套裝](user-management2/t-group-access-report-suite.md)
    + 使用者管理 {#user-management}
-      + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
-         + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
-         + [停用舊版登入](user-management2/user-migration/t-disable-legacy-login.md)
-         + [受移轉影響的 API](user-management2/user-migration/developer.md)
       + [使用者管理概觀](user-management2/c-user-management/users.md)
       + [新增使用者帳戶](user-management2/c-user-management/t-add-user-account.md)
       + [使用者和群組權限變更](user-management2/c-user-management/permissions-changes.md)
       + [轉移使用者帳戶項目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [新增使用者至群組](user-management2/c-user-management/t-add-user-to-group.md)
+      + 將使用者移轉至Adobe Admin Console {#migrate-users}
+         + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
+         + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
+         + [停用舊版登入](user-management2/user-migration/t-disable-legacy-login.md)
+         + [受移轉影響的 API](user-management2/user-migration/developer.md)
       + [管理 Ad Hoc Analysis 使用者](user-management2/c-user-management/t-manage-dsc-users-admin.md)
    + 使用者群組 {#user-groups}
       + [新增使用者群組](user-management2/c-user-groups/t-user-group.md)
