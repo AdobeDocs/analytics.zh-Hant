@@ -2,7 +2,7 @@
 title: 歸因 IQ
 description: '歸因 IQ 是 Adobe Analytics 中的一組功能，可深入分析行銷活動對轉換所具有的貢獻。 '
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 強化了歸因功能，讓您可以:
 * 按區段劃分歸因: 輕鬆比較行銷管道在任何重要區段中的效能 (例如，新客戶與回頭客戶、產品 X 與產品 Y、忠誠度或 CLV)。
 * 跨管道檢查和多點接觸分析: 使用 Venn 圖表和色階分佈圖，並計算歸因結果趨勢。
 * 以視覺化方式分析關鍵行銷序列活動: 透過多節點流量和流失視覺效果，以視覺化方式探究帶來轉換的路徑。
-* 建立計算量度: 使用任何數量的歸因配置方法。
+* 建立計算量度：使用任意數量的歸因分配方法。
 
 ## 功能 {#features}
 
