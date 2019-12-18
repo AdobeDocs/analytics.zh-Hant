@@ -2,7 +2,7 @@
 title: 虛擬分析人員
 description: 瞭解 Adobe Analytics 中的哪些功能對虛擬分析人員有幫助。
 translation-type: tm+mt
-source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
+source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 3a0bed6c9e6fbf1319d0e0a62078d8527b80d2d6
 
 ## 功能 {#features}
 
-虛擬分析人員包括以下功能:
+虛擬分析師包含下列功能：
 
 * [異常偵測:](virtual-analyst/c-anomaly-detection/anomaly-detection.md) 此功能提供的統計方法，可判斷指定量度和先前的資料相比有何變更。
 * [貢獻分析:](virtual-analyst/contribution-analysis/run-contribution-analysis.md) 可協助判別對資料造成異常的最大因素。
