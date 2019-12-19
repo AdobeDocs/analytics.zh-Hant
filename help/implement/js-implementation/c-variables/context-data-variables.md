@@ -6,7 +6,7 @@ title: 上下文資料變數
 topic: Developer and implementation
 uuid: 4b215803-99d4-46f2-b3c1-e78558987764
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 5d69587886c87bc62ad744c51d56bb6cd9e53167
 
 ---
 
@@ -19,19 +19,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE]內容資料變數不區分大小寫。例如，下列 2 個變數效力相同:
 >
-
 ```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
->
-```
-
+>```
 >與
 >
-
 ```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
->
-```
+>```
 
 使用上下文資料不需要更新程式碼，就能支援不同的報表套裝設定。
 
