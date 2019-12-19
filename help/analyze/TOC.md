@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Analyze Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
+source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
 
 ---
 
@@ -95,7 +95,7 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 虛擬分析人員 {#virtual-analyst}
-      + [虛擬分析人員](analysis-workspace/virtual-analyst/virtual-analyst.md)
+      + [虛擬分析師概觀](analysis-workspace/virtual-analyst.md)
       + 異常偵測 {#anomaly-detection}
          + [異常偵測概觀](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -117,7 +117,6 @@ source-git-commit: f06bf79b6876caf7e88c5038eb9b9e14211fa035
    + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
    + [歸因 IQ](analysis-workspace/attribution-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
-   + [虛擬分析人員](analysis-workspace/virtual-analyst.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
    + [Report Builder 的新功能](report-builder/whats-new-arb.md)
