@@ -18,13 +18,11 @@ source-git-commit: 5d69587886c87bc62ad744c51d56bb6cd9e53167
 您無須在程式碼中明確為 prop 和 eVar 指派值，而可以在以「處理規則」進行對映的上下文資料變數中傳送資料。處理規則提供功能強大的圖形介面，可以在收到資料時變更資料。您可以根據上下文資料中傳送的來設定事件、將值複製到 eVar 與 prop，以及執行其他條件陳述式。
 
 > [!NOTE]內容資料變數不區分大小寫。例如，下列 2 個變數效力相同:
->
-```
+>```
 >s.contextData['article_title'] = 'Weekend Concert Controversy'; 
 >```
 >與
->
-```
+>```
 >s.contextData['ARTICLE_TITLE'] = 'Weekend Concert Controversy';
 >```
 
