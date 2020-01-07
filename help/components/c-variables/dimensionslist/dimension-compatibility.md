@@ -1,25 +1,25 @@
 ---
-title: Analytics維度相容性
-description: Analytics維度與報表的參考。
-translation-type: tm+mt
+title: Analytics 維度相容性
+description: Analytics 維度與報表的參考資料。
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analytics維度相容性
+# Analytics 維度相容性
 
-此參考文章列出「報告與分析」和「分析工作區」中支援的維度／報表、僅限「分析工作區」，以及僅限「報告與分析」。
+本參考文章列出 Reports &amp; Analytics 與 Analysis Workspace 均支援、僅於 Analysis Workspace 中以及僅於 Reports &amp; Analytics 中支援的維度/報表。
 
 請記住，
 
 * 這些並非完整的清單。每個報表套裝可能不一定會有一組指定啟用的產品變數。此外，任何指定的報表套裝可能有任意數量的啟用、停用，或對應至產品變數的自訂變數。我們也已省略訪客屬性和分類，因為它們專屬於各個報表套裝。
 
-* There are some cases of overlap, where Analytics tools use different terms for what is essentially the same thing, for example: `browserwidth` and `browserwidthbucketed`.
+* 在一些重疊的案例中，Analytics 工具使用不同的詞彙來描述本質相同的項目，例如: `browserwidth` 和 `browserwidthbucketed`
 
 ## Reports &amp; Analytics 與 Analysis Workspace 中同時支援的維度
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |---|---|
 | 目標分析 | targetraw |
 | 適用對象 ID | mcaudiences |
@@ -32,8 +32,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Cookie 支援 | Cookie |
 | 國家 | geocountry |
 | 客戶忠誠度 | customerloyalty |
-| 自訂轉換 Var | evar1、evar2等。 |
-| 自訂分析 Var | prop1、prop2等。 |
+| 自訂轉換 Var | evar1、evar2 等 |
+| 自訂分析 Var | prop1、prop2 等 |
 | 自訂連結 | customlink |
 | 首次購買間隔天數 | daysbeforefirstpurchase |
 | 上次購買間隔天數 | dayssincelastpurchase |
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 退出連結 | exitlink |
 | 首次接觸渠道 | firsttouchchannel |
 | 首次接觸渠道的詳情 | firsttouchchanneldetail |
-| Java已啟用 | javaenabled |
+| Java 已啟用 | javaenabled |
 | 語言 | language |
 | 上次接觸渠道 | lasttouchchannel |
 | 上次接觸渠道的詳情 | lasttouchchanneldetail |
@@ -99,7 +99,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 僅於 Analysis Workspace 中支援的維度
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 上午/下午 | timepartampm |
 | 瀏覽器高度 - 範圍化 | browserheightbucketed |
@@ -150,7 +150,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 僅於 Analysis Workspace 中支援的內容感知維度
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | Activity Map XY | clickmapxy |
 | 媒體工作階段 ID | videosessionid |
@@ -161,7 +161,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 僅於 Reports &amp; Analytics 中支援的維度
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 瀏覽器高度 | browserheight |
 | 瀏覽器寬度 | browserwidth |
@@ -244,7 +244,7 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### 影片 (Media Analytics)
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 內容 | video |
 | 內容區段 | videosegment |
@@ -268,7 +268,7 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 | 內容長度 (變數) | videolength |
 | 廣告名稱 (變數) | videoadname |
 | 廣告長度 (變數) | videoadlength |
-| Show | videoshow |
+| 節目 | videoshow |
 | 季數 | videoseason |
 | 集數 | videoepisode |
 | 網路 | videonetwork |
@@ -294,7 +294,7 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### Adobe Social
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 詞彙 | socialterm |
 | 社交平台/屬性 | socialcontentprovider |
@@ -316,7 +316,7 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### Mobile SDK
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 首次發行日期 | mobileinstalldate |
 | 應用程式 ID | mobileappid |
@@ -351,16 +351,16 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 | 鄰近地區進入信標 | entrymobilebeaconproximity |
 | 鄰近地區退出信標 | exitmobilebeaconproximity |
 
-### Adobe Advertising Cloud(AMO)
+### Adobe Advertising Cloud (AMO)
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | AMO EF ID | amo_ef_id |
 | AMO ID | amo_cid |
 
 ### Activity Map
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | Activity Map 連結 (依地區) | clickmaplinkbyregion |
 | Activity Map 地區 | clickmapregion |
@@ -369,9 +369,9 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### Nielsen 整合
 
-如需有關如何實作此整合的詳細資訊，請參閱 [Nielsen 合作關係](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/hbvideo/nielsen-partnership.html)。
+如需有關如何實作此整合的詳細資訊，請參閱 [Nielsen 合作關係](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/hbvideo/nielsen-partnership.html)。
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | Nielsen 廣告模型 | nielsenadmodel |
 | Nielsen 區段 C | nielsensegmentc |
@@ -392,7 +392,7 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### Adobe Experience Manager (AEM)
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 資產 ID | aemassetid |
 | 資產來源 | aemassetsource |
@@ -402,6 +402,6 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### Adobe Campaign
 
-| 維度名稱（在Analytics UI中可見） | 維度 ID (用於 API 請求) |
+| 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | Adobe Campaign 執行的傳送 ID | ac_delivery_internal_name |
