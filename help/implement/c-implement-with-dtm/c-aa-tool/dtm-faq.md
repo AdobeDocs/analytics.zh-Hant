@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;plugins;staging;effect on current settings;revi
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: Adobe Analytics 工具常見問題集
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我從手動配置 (現有工具的預設設定) 切換為自動配置，目前的設定會不會受到影響? </p> </td> 
-   <td colname="col2"> <p>否。 </p> </td> 
+   <td colname="col2"> <p>不可以。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果我從手動程式庫管理切換為由 Adobe 管理，目前的設定或代碼會不會受到影響? </p> </td> 
