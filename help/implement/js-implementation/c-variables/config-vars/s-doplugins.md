@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -47,6 +47,6 @@ s_mc.doPlugins=s_mc_doPlugins;
 
 ## 缺陷、問題和提示
 
-* 您將內容與其他客戶共用，或提取其他客戶的內容，是唯一須變更物件名稱 (例如從 s 變更為 s_mc) 的原因。重新命名 *`s_doPlugins`* 函數為 [!UICONTROL s_mc_doPlugins]，可確保其他客戶的 JavaScript 檔案不會覆寫您的 *`doPlugins`* 函數。
+* 您將內容與其他客戶共用，或提取其他客戶的內容，是唯一須變更物件名稱 (例如從 s 變更為 s_mc) 的原因。重新命名  *`s_doPlugins`* 函數為 [!UICONTROL s_mc_doPlugins]，可確保其他客戶的 JavaScript 檔案不會覆寫您的 *`doPlugins`* 函數。
 
 * 如果您意外地從其他 Adobe 客戶開始提取內容，而 *`s_doPlugins`* 函數正遭到覆寫，您可以直接重新命名 *`s_doPlugins`* 函數，而不變更物件名稱。雖然最理想的解決方案是使用與相同頁面上的其他 JavaScript 檔案不同的物件名稱，但這並非必要動作。
