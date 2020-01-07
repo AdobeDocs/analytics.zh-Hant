@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 |---|---|---|---|
 | 不適用 | 不適用 | 不適用 | True |
 
-若您網站上的可下載檔案沒有連結，或是您不想要追蹤可下載檔案的點按次數，則只能將 *`trackExternalLinks`* 變數設為 'false'。退出連結是指將訪客帶離您網站的任何連結。若&#x200B;*`trackExternalLinks`*&#x200B;為「true」，則在您點按退出連結時，將會立即傳送追蹤資料。隨退出連結傳送的資料包括連結 URL、連結名稱和該連結的訪客點按對映資料。若&#x200B;*`trackExternalLinks`* 為「false」，則網站上的退出連結可能會出現訪客點按對映資料報告不充分的情形。
+若您網站上的可下載檔案沒有連結，或是您不想要追蹤可下載檔案的點按次數，則只能將  *`trackExternalLinks`* 變數設為 'false'。退出連結是指將訪客帶離您網站的任何連結。若&#x200B;*`trackExternalLinks`*&#x200B;為「true」，則在您點按退出連結時，將會立即傳送追蹤資料。隨退出連結傳送的資料包括連結 URL、連結名稱和該連結的訪客點按對映資料。若&#x200B;*`trackExternalLinks`* 為「false」，則網站上的退出連結可能會出現訪客點按對映資料報告不充分的情形。
 
 ## 語法和可能的值
 
@@ -64,15 +64,15 @@ s.linkInternalFilters="javascript:,mysite.com,[more filters here]"
 s.linkLeaveQueryString=false 
 ```
 
-參數 `trackDownloadLinks` and `trackExternalLinks` determine if automatic file download and exit link tracking are enabled. 啟用後，任何檔案類型符合中其中一個值的連結都會 `linkDownloadFileTypes` 自動被追蹤為檔案下載。 任何URL中不含其中一個值的連結，都會自 `linkInternalFilters` 動視為退出連結進行追蹤。
+參數`trackDownloadLinks` 和 `trackExternalLinks` 用於判斷自動檔案下載和退出連結追蹤是否已啟用。如已啟用，任何連結中的檔案類型若符合 `linkDownloadFileTypes` 中的任一個值，系統就會將該連結視為檔案下載自動加以追蹤。任何連結中的 URL 若不含 `linkInternalFilters` 中的任一個值，系統就會將該連結視為退出連結自動加以追蹤。
 
-In JavaScript H.25.4 (released February 2013), automatic exit link tracking was updated to always ignore links with `HREF` attributes that start with `#`, `about:`, or `javascript:`.
+在 JavaScript H.25.4 (於 2013 年 2 月發行)，自動退出連結追蹤已有所更新，一律會忽略以 `#`、`about:` 或 `javascript:` 開頭的 `HREF` 屬性連結。
 
 ### 範例 1
 
-檔案類型 `.jpg` 和未 `.aspx` 包含在上方，因此 `linkDownloadFileTypes` 不會自動追蹤並報告為檔案下載。
+檔案類型 `.jpg` 和 `.aspx` 未包含在上方的 `linkDownloadFileTypes`，因此系統不會自動追蹤這些類型的點擊並在報表中計為檔案下載。
 
-The parameter `linkLeaveQueryString` modifies the logic used to determine exit links. When `linkLeaveQueryString`=false, exit links are determined using only the domain, path, and file portion of the link URL. When `linkLeaveQueryString`=true, the query string portion of the link URL is also used to determine an exit link.
+參數 `linkLeaveQueryString` 會修改用以判斷退出連結的邏輯。如果 `linkLeaveQueryString`=false，系統僅會使用連結 URL 的網域、路徑及檔案來判斷退出連結。如果 `linkLeaveQueryString`=true，系統才會加碼使用連結 URL 的查詢字串來判斷退出連結。
 
 ### 範例 2
 
@@ -100,4 +100,4 @@ s.linkLeaveQueryString=true
 <a href='https://othersite.com/index.html?r=mysite.com'>Visit Other Site</a> 
 ```
 
-*注意: 單一連結只能被視為檔案下載或退出連結受到追蹤，兩者皆成立時，會優先將其視為檔案下載。如果連結是根據參數和的退出連結和檔案下載，`linkDownloadFileTypes``linkInternalFilters`則會追蹤並報告為檔案下載，而非退出連結。*
+*注意: 單一連結只能被視為檔案下載或退出連結受到追蹤，兩者皆成立時，會優先將其視為檔案下載。如果連結同時以參數`linkDownloadFileTypes`和`linkInternalFilters`的退出連結和檔案下載為依據，系統就會追蹤連結，並在報表中計為檔案下載，而非退出連結。*
