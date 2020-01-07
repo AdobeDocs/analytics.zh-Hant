@@ -2,7 +2,7 @@
 description: 列設定依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>劃分 </p> </td> 
-   <td colname="col2"> <p><b>依位置劃分:</b> </p> <p>您可以根據 Freeform 表格中的固定位置執行劃分。例如，您可以指定一律劃分前七列。 </p> <p>(之前，劃分中的值清單已「鎖定」。 This led to a situation where, for example, if you broke down <span class="term"> Date</span> by <span class="term"> Page</span>, you got a list of the top 50 pages for your selected date range. 如果您儲存該報告，然後在一個月後執行，則前 50 頁可能已變更。然而，Analysis Workspace 會使用原始劃分的結果，並傳回相同的頁面，但以當前月份為日期範圍。) </p> <p>依固定位置執行劃分: </p> 
+   <td colname="col2"> <p><b>依位置劃分:</b> </p> <p>您可以根據 Freeform 表格中的固定位置執行劃分。例如，您可以指定一律劃分前七列。 </p> <p>(在舊版中，資料劃分中的值清單為「鎖定」。這樣的設定如舉例說名，在您執行依<span class="term">「頁面」</span>劃分<span class="term">「日期」</span>時，會得到所選日期範圍內前 50 個頁面的清單。如果您儲存該報告，然後在一個月後執行，則前 50 頁可能已變更。然而，Analysis Workspace 會使用原始劃分的結果，並傳回相同的頁面，但以當前月份為日期範圍。) </p> <p>依固定位置執行劃分: </p> 
     <ol id="ol_A396A11566AA4F52BC3ABBC373CEF477"> 
      <li id="li_BDAB1E9A48D44944A4F7C31F1182B923">劃分表格中的一些列。 </li> 
      <li id="li_C5610437D3714CCEB9F3C771864B4336">按一下您要固定位置之表格列旁邊的設定 (齒輪) 圖示。 </li> 
