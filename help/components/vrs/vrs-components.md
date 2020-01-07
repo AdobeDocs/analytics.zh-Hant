@@ -2,7 +2,7 @@
 description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 title: 虛擬報表套裝元件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,11 +12,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 
-> [!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。Previously, anyone could see non-curated components by clicking **[!UICONTROL Show all Components]**. [更新的組織體驗](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
+> [!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理:
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Virtual Report Suites]** &gt; **[!UICONTROL Create new virtual report suite]**.
+1. 前往 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 虛擬報表套裝]** &gt; **[!UICONTROL 建立新的虛擬報表套裝]**。
 1. 定義&#x200B;**[!UICONTROL 「設定」]**&#x200B;後，按一下&#x200B;**「元件」]標籤。[!UICONTROL **
 
 1. 選取&#x200B;**[!UICONTROL 「啟用虛擬報表套裝元件自訂」核取方塊]**:
@@ -25,7 +25,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >If component customization is enabled, the virtual report suite is accessible **only in Analysis Workspace** and is not accessible in the following:
+   >如已啟用元件自訂，則&#x200B;**只能在 Analysis Workspace 中**&#x200B;存取虛擬報表套裝，且無法在以下項目中存取:
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
@@ -40,9 +40,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    * 日期範圍
    >[!NOTE]
    >
-   >There is no need to *share* curated components (segments, calculated metrics, date ranges). 只要元件是針對虛擬報表套裝而進行管理，即使不共用，也會一律顯示在 Analysis Workspace 中。
+   >不需要&#x200B;*共用*&#x200B;已組織的元件 (區段、計算量度、日期範圍)。只要元件是針對虛擬報表套裝而進行管理，即使不共用，也會一律顯示在 Analysis Workspace 中。
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. 此外，還可以篩選或搜尋元件，以及按一下&#x200B;**[!UICONTROL 「新增全部」]**，將整個經過篩選的選取項目新增至已包含的欄中。
 
    ![](assets/vrs-add-all.png)
 
@@ -56,12 +56,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/vrs-aw-renamed.png)
 
-## 元件群組 {#section_483BEC76F49E46ADAAA03F0A12E48426}
+## 元件群組{#section_483BEC76F49E46ADAAA03F0A12E48426}
 
 使用元件群組對虛擬報表套裝進行大量元件新增作業。例如，若您想匯入專屬行動應用程式分析的預設元件集，請選取行動應用程式群組。對應的維度和量度集 (已重新命名) 會自動新增到虛擬報表套裝的「己包含」清單中。
 
 ![](assets/vrs-comp-grp.png)
 
-## 工作區行為 {#section_6C32F8B642804C0097FCB14E21028D4A}
+## 工作區行為{#section_6C32F8B642804C0097FCB14E21028D4A}
 
-如需有關在 Analysis Workspace 中進行管理的詳細資訊，請參閱[組織和共用專案](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/curate.html)。
+如需有關在 Analysis Workspace 中進行管理的詳細資訊，請參閱[組織和共用專案](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/curate.html)。
