@@ -1,7 +1,7 @@
 ---
 title: 建立解決方案設計文件
 description: 瞭解解決方案設計文件是什麼，以及可如何將其用於您的組織。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -44,11 +44,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 > [!NOTE] 雖然 Analytics 社群的會員已發現下列實用連結，但 Adobe 並非這些連結的擁有者。檢視其內容時，請將此備註列入考量。
 
-* [使用ObservePoint設定網頁分析解決方案設計的](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance) 7個步驟
-* [Analytics Demystified的數位分析流程](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/) 架構
-* [解決方案設計參考實際上是您透過數值分析的BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/) 。
-* [如何製作Antti Koski的Adobe Analytics標籤地圖](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/) ,
-* [Ebiquity解決方案設計檔案的重要性](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)
+* [設定網站 Analytics 解決方案設計的 大步驟](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)/7-；文章來源: ObservePoint
+* [數位分析程序的架構](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)；文章來源: Analytics Demystified
+* [解決方案設計參考資料其實是您的 BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)；文章來源: Numeric Analytics
+* [如何建立 Adobe Analytics 標籤對映](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)；文章來源: Antti Koski
+* [解決方案設計文件的重要性](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)；文章來源: Ebiquity
 
 ## 後續步驟
 
