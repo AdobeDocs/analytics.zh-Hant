@@ -2,7 +2,7 @@
 description: 您可以在表格或線性圖中檢視異常。
 title: 在 Analysis Workspace 中檢視異常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以在表格或線性圖中檢視異常。
 
-## View anomalies in a table {#section_869A87B92B574A38B017A980ED8A29C5}
+## 在表格中檢視異常 {#section_869A87B92B574A38B017A980ED8A29C5}
 
 在時間序列自由表格中，如果偵測到資料異常，該列現在會自動標記深灰色驚嘆號。
 
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 並在每一列中以垂直灰線指出期望值。將滑鼠移到驚嘆號上方時，會指出異常值偏離預期值的程度 (以 + 或 - % 表示)。
 
-## View anomalies in a line chart {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
+## 在線性圖中檢視異常 {#section_7C1192AFDB4345A8A2CCFB3AE0C47D82}
 
 線性圖會顯示淺綠色信賴帶以及異常值 (白點)。
 
@@ -37,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 異常偵測信賴區間不會自動縮放視覺效果中的 Y 軸，如此可能會使圖表更清晰。
 
-您可以選擇允許信賴區間縮放圖表。Just click the Settings (gear) icon and check **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**.
+您可以選擇允許信賴區間縮放圖表。只需按一下「設定」(「齒輪」) 圖示，並勾選&#x200B;**[!UICONTROL 「允許異常偵測縮放 Y 軸」]**&#x200B;即可。
 
 ![](assets/scale-y-axis.png)
 
