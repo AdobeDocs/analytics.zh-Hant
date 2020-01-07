@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Android
 topic: Developer and implementation
 uuid: 32232d28-3459-4f78-bb00-ca3163c63461
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -86,12 +86,12 @@ Android 行動程式庫的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> 訪客 ID 服務 </p> </td> 
+   <td colname="1"> <p> 訪客 ID服務 </p> </td> 
    <td colname="2"> <p>在 <code> adobe_mc</code>   參數中新增時間戳記和 Experience Cloud 組織 ID。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 深層連結 </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>在呼叫 <code> trackAdobeDeepLink</code> 時，系統已能適當處理帶有「<code> adb</code>」和「<code> ctx</code>」首碼的變數。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ Android 行動程式庫的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>訪客 ID 服務 </p> </td> 
+   <td colname="1"> <p>訪客 ID服務 </p> </td> 
    <td colname="2"> <p> 新增可將訪客身分新增至指定 URL 的新方法，以將身分傳送給以網路為基礎的實作。 </p> </td> 
   </tr> 
  </tbody> 
@@ -405,7 +405,7 @@ Android 行動程式庫的累積發行說明。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> PhoneGap</span> 支援信標追蹤功能 </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>您現在可在 <span class="keyword">PhoneGap</span> 中使用 <code> trackBeacon</code> 和 <code> clearCurrentBeacon</code> 呼叫。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -593,7 +593,7 @@ Experience Cloud 解決方案適用的 [!DNL Android] SDK 4.x 現已提供下列
 
 發行日期: **2012 年 10 月**
 
-* 新增對 [Google Play 促銷活動追蹤](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/android/referrer.html)的支援。
+* 新增對 [Google Play 促銷活動追蹤](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/android/referrer.html)的支援。
 
 ## 版本 3.0.2 {#section_CB24859B34804F9391BA1BF8DF29CC86}
 
@@ -613,7 +613,7 @@ Experience Cloud 解決方案適用的 [!DNL Android] SDK 4.x 現已提供下列
 
 首次發行。
 
-## 舊版 Android (1.x) {#section_F2CC015616184D55AC6D6529DFC9A18B}
+## 舊版 Android (1.x){#section_F2CC015616184D55AC6D6529DFC9A18B}
 
 下列發行說明適用於 [!DNL Android] 適用的 [!DNL AppMeasurement] 的 1.x 版。建議客戶盡可能升級至 3.x 版。
 
