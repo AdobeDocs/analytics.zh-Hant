@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain per
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> FP 網域句號 </td> 
-   <td colname="col2"> <p>此 <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
+   <td colname="col2"> <p>此 <span class="term"> fpCookieDomainPeriods</span> 變數會用於由 JavaScript (<code> s_sq</code>、<code> s_cc</code>、外掛程式) 設定、原本即為第一方 Cookie 的 Cookie，即使您的實施使用第三方 <span class="filepath"> 2o7.net</span> 或 <span class="filepath"> omtrdc.net</span> 網域亦然。 </p> <p>請參閱 <a href="/help/implement/js-implementation/c-variables/configuration-variables.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
