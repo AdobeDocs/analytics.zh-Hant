@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 seo-description: 動態變數可讓您直接在變數之間複製值，而無須在網站的影像請求中多次輸入完整值。
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 ---
@@ -12,10 +12,10 @@ source-git-commit: 1773e84809e04b3be25c77bf1fb8ad8317b7f8c0
 
 # s-linkURL
 
-The URL of the link, which acts as the name if a `linkName` does not exist. 可設為任何 URL 字串。這是影像請求中的 `pev1` 參數。
+連結的 URL，可在 `linkName` 不存在時將當做名稱使用。可設為任何 URL 字串。這是影像請求中的 `pev1` 參數。
 
 
-If set with [`linkType`](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html), an image request will be sent as a download, custom or exit link.
+若以 [`linkType`](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html) 進行設定，系統會將影像要求視為下載、自訂或退出連結進行傳送。
 
 
 **範例**
