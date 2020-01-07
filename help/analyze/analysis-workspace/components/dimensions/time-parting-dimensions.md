@@ -2,7 +2,7 @@
 description: 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
 title: 時間分段維度
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 週末的銷售情形與工作日的銷售情形是否有差異？
 * 某個促銷活動是否在上午或下午產生較高的轉換率？
 
-> [!NOTE] 時間分割維度僅適用於分析工作區。 若要在其他 Analytics 解決方案中使用時間分段維度，您可以執行 [getTimeParting 外掛程式](https://marketing.adobe.com/resources/help/en_US/sc/implement/getTimeParting.html)。
+> [!NOTE]時間分段維度僅可在 Analysis Workspace 中使用。若要在其他 Analytics 解決方案中使用時間分段維度，您可以執行 [getTimeParting 外掛程式](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/getTimeParting.html)。
 
 Analysis Workspace 中的時間分段維度包括:
 
