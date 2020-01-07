@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
 
 ---
@@ -332,7 +332,7 @@ source-git-commit: 4cd12beff4d9007d4c2037a9998417ff85c4ade9
    + [關於渠道和規則](c-marketing-channels/c-channels-rules.md)
    + [自動設定](c-marketing-channels/c-channel-autosetup.md)
    + [管理行銷渠道](c-marketing-channels/c-channels.md)
-   + [內部（作業階段重新整理）頻道](c-marketing-channels/session-refresh.md)
+   + [內部 (工作階段重新整理) 管道](c-marketing-channels/session-refresh.md)
    + [行銷渠道的處理規則](c-marketing-channels/c-rules.md)
    + [建立行銷管道處理規則](c-marketing-channels/t-rules.md)
    + [行銷渠道處理規則 - 定義](c-marketing-channels/r-channel-rule-definitions.md)
