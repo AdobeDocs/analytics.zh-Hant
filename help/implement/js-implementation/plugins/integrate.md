@@ -1,7 +1,7 @@
 ---
 title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
