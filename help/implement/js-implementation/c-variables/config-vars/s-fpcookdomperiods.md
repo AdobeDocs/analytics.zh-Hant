@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 名稱 「*`fpCookieDomainPeriods`*」代表網域以"www" 做為開頭時位於網域中的句號 (".") 數。例如，`www.mysite.com` 包含兩個句號，`www.mysite.co.jp` 則包含三個句號。此變數還有另一種解釋方式，即網站之主網域的區段數 (`mysite.com` 為兩個區段，`mysite.co.jp` 為三個區段)。
 
-JavaScript 檔案適用的 [!DNL AppMeasurement] 會使用 *`fpCookieDomainPeriods`* 變數來判斷要透過哪個網域設定第一方 Cookie，但 [!UICONTROL 訪客 ID] (s_vi) Cookie 除外。There are at least two cookies affected by this variable, including `s_sq` and `s_cc` (used for visitor click map and cookie checking respectively). 此外，[!UICONTROL getValOnce] 之類的外掛程式所使用的 Cookie 也會受影響。
+JavaScript 檔案適用的 [!DNL AppMeasurement] 會使用 *`fpCookieDomainPeriods`* 變數來判斷要透過哪個網域設定第一方 Cookie，但 [!UICONTROL 訪客 ID] (s_vi) Cookie 除外。至少有兩個 Cookie 會受此變數影響，包括 `s_sq` 與 `s_cc` (分別用於訪客點擊對應和 Cookie 檢查)。此外，[!UICONTROL getValOnce] 之類的外掛程式所使用的 Cookie 也會受影響。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
