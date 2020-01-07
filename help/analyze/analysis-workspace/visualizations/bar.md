@@ -2,7 +2,7 @@
 description: 'null'
 title: 長條圖和堆疊長條圖
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 視覺效果設定中的粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
 
-## Bar stacked {#section_9EA83779AE964635907EE5031A785A49}
+## 堆疊長條圖 {#section_9EA83779AE964635907EE5031A785A49}
 
 此視覺效果類似長條圖，但數列長條堆疊在彼此頂端。
 
