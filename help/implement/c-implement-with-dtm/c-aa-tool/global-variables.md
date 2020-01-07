@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;global variables;server variable;evar;props;dyn
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 全域變數
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -25,4 +25,4 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 | 伺服器 | 預先定義的變數會填入 Adobe Analytics 中的伺服器維度。請參閱[頁面變數](/help/implement/js-implementation/page-variables/page-variables.md) |
 | eVar | [eVar 變數](/help/implement/js-implementation/page-variables/evarn.md)可用來建置自訂轉換報表。 |
 | Prop | [Prop 變數](/help/implement/js-implementation/page-variables/propn.md)可用來建置自訂流量報表。 |
-| 動態變數首碼 | 值開頭的特殊首碼。預設首碼為 "D="。請參閱[動態變數](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
+| 動態變數首碼 | 值開頭的特殊首碼。預設首碼為 "D="。請參閱[動態變數](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/dynvars-overview.html) |
