@@ -2,7 +2,7 @@
 description: Adobe Analytics 劃分的新功能。
 title: Analytics 劃分新增功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,7 +24,7 @@ Adobe Analytics 劃分的新功能。
 * [2014 年 9 月](/help/components/c-segmentation/whats-new-segmentation.md)
 * [2014 年 8 月](/help/components/c-segmentation/whats-new-segmentation.md) 
 * [2014 年 7 月](/help/components/c-segmentation/whats-new-segmentation.md)
-* [2014年5月](/help/components/c-segmentation/whats-new-segmentation.md)
+* [2014 年 5 月](/help/components/c-segmentation/whats-new-segmentation.md)
 
 <table id="table_BA0B0E5013D944F59A2BF3C33CD8E684"> 
  <thead> 
@@ -51,7 +51,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>區段中的日期範圍 </p> </td> 
-   <td colname="col2"> <p>您可以建立包含滾動日期範圍的區段，以回答與持續性促銷活動或事件有關的問題。例如，現在您可以輕鬆建立包含「過去60天內購買產品的每個人」的區段。 </p> <p> <p>注意: 此功能在 Ad Hoc Analysis 無法使用。 </p> </p> </td> 
+   <td colname="col2"> <p>您可以建立包含滾動日期範圍的區段，以回答與持續性促銷活動或事件有關的問題。舉例來說，您現在可以輕鬆建立包括「過去 60 天內購買過一次的人」的區段。 </p> <p> <p>注意: 此功能在 Ad Hoc Analysis 無法使用。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,10 +70,10 @@ Adobe Analytics 劃分的新功能。
   </tr> 
   <tr> 
    <td colname="col1"> <p>序列區段的「維度」限制 </p> </td> 
-   <td colname="col2"> <p>在"within"子句中，在THEN語句之間，可以添加"within 1 search keyword instance"、"within 1 eVar 47 instance"。 這樣會將區段限制在某個維度的一個例項內。 </p> </td> 
+   <td colname="col2"> <p>在「within」子句裡，您可以在「THEN」陳述式之間加入「within 1 search keyword instance」、「within 1 eVar 47 instance」之類的文字。這樣會將區段限制在某個維度的一個例項內。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html"  >在流失分析使用區段 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace: <a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/fallout_flow.html"  >在流失分析使用區段 </a> </p> </td> 
    <td colname="col2"> <p>在 Analysis Workspace 裡，您可以從接觸點建立區段，新增區段做為接觸點，以及在各種區段間比較關鍵工作流程。 </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 區段比較 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html"  >「區段比較」</a> (區段 IQ) 面板可讓客戶快速比較任意兩個 Analytics 區段，以找出兩者在所有資料點中最明顯的差異。 </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/segment-comparison.html"  >「區段比較」</a> (區段 IQ) 面板可讓客戶快速比較任意兩個 Analytics 區段，以找出兩者在所有資料點中最明顯的差異。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 建立區段</span>權限 </p> </td> 
-   <td colname="col2"> <p>如果使用者沒有<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >「建立區段」權限</a>，他們將不能存取「區段產生器」。 </p> </td> 
+   <td colname="col2"> <p>如果使用者沒有<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html"  >「建立區段」權限</a>，他們將不能存取「區段產生器」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -134,7 +134,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Data Warehouse: 依區段劃分 </p> </td> 
-   <td colname="col2"> <p>增加<span class="wintitle">「依區段劃分」</span>的支援。您目前除了可依標準 (項目) 與自訂 (深入分析) 劃分報表外，也可依區段進行劃分。選取<span class="wintitle">「區段」</span>索引標籤後，該清單會填入<span class="wintitle">「可用」區段</span>下拉式清單中提供之一組相同的區段。 </p> <p>區段中具有成員資格的明細項目會報告值"1"，而區段以外的項目則報告"0"。 </p> </td> 
+   <td colname="col2"> <p>增加<span class="wintitle">「依區段劃分」</span>的支援。您目前除了可依標準 (項目) 與自訂 (深入分析) 劃分報表外，也可依區段進行劃分。選取<span class="wintitle">「區段」</span>索引標籤後，該清單會填入<span class="wintitle">「可用」區段</span>下拉式清單中提供之一組相同的區段。 </p> <p>區段中包含成員資格的行項目會回報「1」的值，而區段以外的項目會回報「0」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>區段產生器的權限變更 </p> </td> 
-   <td colname="col2"> <p>管理員用戶可以限制哪些用戶能建立新區段。依預設，所有使用者均可建立區段。<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  > 更多...</a> </p> </td> 
+   <td colname="col2"> <p>管理員用戶可以限制哪些用戶能建立新區段。依預設，所有使用者均可建立區段。<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html"  > 更多...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -226,7 +226,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p> Data Warehouse 區段支援「符合」和「不符合」 </p> </td> 
-   <td colname="col2"> <p>資料倉庫現在支援區段定義中的「符合」和「不符合」。 (「Reports &amp; Analytics」和「Ad Hoc Analysis」已支援此項目。) </p> <p>先前因為資料倉庫不支援「符合」和「不符合」而與資料倉庫不相容的區段，在發行後將會變得相容（假設這是區段不相容的唯一原因）。此版發行後，Data Warehouse 區段中可能會出現其他區段。 </p> </td> 
+   <td colname="col2"> <p>Data Warehouse 現在在區段定義中支援「符合」和「不符合」。(「Reports &amp; Analytics」和「Ad Hoc Analysis」已支援此項目。) </p> <p>先前由於 Data Warehouse 不支援「符合」和「不符合」而與 Data Warehouse 不相容的區段，在此版發行後都將能相容 (前提是此問題是區段不相容的唯一原因)。此版發行後，Data Warehouse 區段中可能會出現其他區段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站服務 API 中的 Segments.Save </p> </td> 
