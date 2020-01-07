@@ -5,7 +5,7 @@ subtopic: Release notes
 title: iOS 應用程式
 topic: Developer and implementation
 uuid: cc98f8f2-f619-4b31-abf9-e43f4deac64f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,9 +19,9 @@ iOS 的累積發行說明。
 
 您可在 [GitHub](https://github.com/Adobe-Marketing-Cloud/mobile-services) 和 [Developer Connection](https://marketing.adobe.com/developer/gallery/app-measurement-for-ios) 中下載行動程式庫。
 
-[4.x 文件](https://marketing.adobe.com/resources/help/en_US/mobile/ios/)
+[4.x 文件](https://marketing.adobe.com/resources/help/zh_TW/mobile/ios/)
 
-[3.x 文件](https://marketing.adobe.com/resources/help/en_US/sc/appmeasurement/ios/)
+[3.x 文件](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/ios/)
 
 ## 版本 4.13.4 {#section_BF05D33CEF6E42358C8089441449449B}
 
@@ -86,16 +86,16 @@ iOS 的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p> 訪客 ID 服務 </p> </td> 
+   <td colname="1"> <p> 訪客 ID服務 </p> </td> 
    <td colname="2"> <p> 在 <code> adobe_mc</code>   參數中新增時間戳記和 Experience Cloud 組織 ID。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 設定 </p> </td> 
-   <td colname="2"> <p> Invalid IDFAs (00000000-0000-0000-0000-000000000000) passed to the SDK via <code> setAdvertisingIdentifier:</code> will be ignored. </p> </td> 
+   <td colname="2"> <p> 透過 <code> setAdvertisingIdentifier:</code> 傳遞至 SDK 的無效 IDFA (00000000-0000-0000-0000-000000000000) 將會被忽略。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 深層連結 </p> </td> 
-   <td colname="2"> <p>When calling <code> trackAdobeDeepLink</code>, variables prefixed with "<code> adb</code>" and "<code> ctx</code>" are now handled properly. </p> </td> 
+   <td colname="2"> <p>在呼叫 <code> trackAdobeDeepLink</code> 時，系統已能適當處理帶有「<code> adb</code>」和「<code> ctx</code>」首碼的變數。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p> 贏取 </p> </td> 
@@ -164,7 +164,7 @@ iOS 的累積發行說明。
  </thead>
  <tbody> 
   <tr rowsep="1"> 
-   <td colname="1"> <p>訪客 ID 服務 </p> </td> 
+   <td colname="1"> <p>訪客 ID服務 </p> </td> 
    <td colname="2"> <p> 新增可將訪客身分新增至指定 URL 的新方法，以將身分傳送給以網路為基礎的實作。 </p> </td> 
   </tr> 
   <tr rowsep="1"> 
@@ -318,7 +318,7 @@ iOS 的累積發行說明。
      <li id="li_19F8AF546EEB45EBB5849EA6EB3CE6A3"><code> visitorSyncIdentifiers:authenticationState:</code> </li> 
      <li id="li_1AF1CF62B3ED442D81B438ECBF981583"><code> visitorSyncIdentifierWithType:identifier:authenticationState: </code> </li> 
      <li id="li_C116F0DA8E2A449A8B76637961C2100C"><code> visitorGetIDs</code> </li> 
-    </ul> <p>將方 <code> visitorSyncIdentifiers:identifiers</code> 法變更為 <code> visitorSyncIdentifiers:</code> </p> </td> 
+    </ul> <p>將 <code> visitorSyncIdentifiers:identifiers</code> 方法變更為 <code> visitorSyncIdentifiers:</code> </p> </td> 
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> 新的 TVJS 方法 </td> 
@@ -452,7 +452,7 @@ iOS 的累積發行說明。
  <tbody> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> iOS 延伸功能</span> </p> </td> 
-   <td colname="2"> <p>在 <span class="keyword">iOS</span> SDK 4.5 版中啟動新的 <span class="keyword">iOS</span> 擴充功能，可讓您從 Apple Watch 應用程式、Today Widget、Photo Editing Widget 和所有其他 <span class="keyword">iOS</span> 擴充應用程式上收集使用資料。 </p> <p>我們強烈建議您使用 <span class="keyword"> iOS</span> SDK，避免使用您自己的包裝函式。 </p> <p>Apple 提供一組讓 Watch 應用程式與容納應用程式通訊的 API (將請求傳送給容納應用程式，然後再接收回應)。 </p> <p>雖然您可以將追蹤資料當做字典，從 Watch 應用程式傳送到容納應用程式，然後再呼叫容納應用程式上的任何追蹤方法來傳送資料，不過這個解決方案有其限制。 </p> <p>In most cases when a user is using the Watch app, the containing app is running in the background and it is only safe to call <code> TrackActionInBackground</code>, <code> TrackLocation</code>, and <code> TrackBeacon</code>. 呼叫其他追蹤方法會干擾生命週期資料，所以若要從 Watch 應用程式傳送資料，您應該只使用這三個方法。 </p> <p>即使這三個追蹤方法已能滿足您的需求，我們仍建議您使用 <span class="keyword">iOS</span> SDK，因為適用於 Watch 應用程式的 SDK 包含應用程式內傳訊之外的所有 <span class="keyword">Mobile</span> 功能。 </p> </td> 
+   <td colname="2"> <p>在 <span class="keyword">iOS</span> SDK 4.5 版中啟動新的 <span class="keyword">iOS</span> 擴充功能，可讓您從 Apple Watch 應用程式、Today Widget、Photo Editing Widget 和所有其他 <span class="keyword">iOS</span> 擴充應用程式上收集使用資料。 </p> <p>我們強烈建議您使用 <span class="keyword"> iOS</span> SDK，避免使用您自己的包裝函式。 </p> <p>Apple 提供一組讓 Watch 應用程式與容納應用程式通訊的 API (將請求傳送給容納應用程式，然後再接收回應)。 </p> <p>雖然您可以將追蹤資料當做字典，從 Watch 應用程式傳送到容納應用程式，然後再呼叫容納應用程式上的任何追蹤方法來傳送資料，不過這個解決方案有其限制。 </p> <p>在大部分的情況下，當使用者使用 Watch 應用程式時，容納應用程式會在背景執行，此時唯有呼叫 <code> TrackActionInBackground</code>、<code> TrackLocation</code> 及 <code> TrackBeacon</code> 是安全的。呼叫其他追蹤方法會干擾生命週期資料，所以若要從 Watch 應用程式傳送資料，您應該只使用這三個方法。 </p> <p>即使這三個追蹤方法已能滿足您的需求，我們仍建議您使用 <span class="keyword">iOS</span> SDK，因為適用於 Watch 應用程式的 SDK 包含應用程式內傳訊之外的所有 <span class="keyword">Mobile</span> 功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -473,7 +473,7 @@ iOS 的累積發行說明。
   </tr> 
   <tr rowsep="1"> 
    <td colname="1"> <p><span class="keyword"> PhoneGap</span> 支援信標追蹤功能 </p> </td> 
-   <td colname="2"> <p>The <code> trackBeacon</code> and <code> clearCurrentBeacon</code> calls are now available in <span class="keyword"> PhoneGap</span>. </p> </td> 
+   <td colname="2"> <p>您現在可在 <span class="keyword">PhoneGap</span> 中使用 <code> trackBeacon</code> 和 <code> clearCurrentBeacon</code> 呼叫。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -699,7 +699,7 @@ Experience Cloud 解決方案適用的 [!DNL iOS] SDK 4.x 現已提供下列新�
 * deleteLightProfiles
 * retrieveLightProfiles
 
-## 舊版 iOS (2.x) {#section_5F76C3DA854D4BAEA636A68B3811142B}
+## 舊版 iOS (2.x){#section_5F76C3DA854D4BAEA636A68B3811142B}
 
 下列發行說明適用於 [!DNL iOS] 適用的 [!DNL AppMeasurement] 的 2.x 版。建議客戶盡可能升級至 3.x 版。
 
