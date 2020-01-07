@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Export Guide
 user-guide-url: /content/help/en/analytics/export/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ---
@@ -11,22 +11,22 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 # Analytics 匯出指南 {#export}
 
-+ [Analytics匯出首頁](home.md)
++ [Analytics 匯出首頁](home.md)
 + Analytics 資料摘要 {#analytics-data-feed}
-   + [資料饋送概觀](analytics-data-feed/data-feed-overview.md)
-   + [建立或編輯資料饋送](analytics-data-feed/create-feed.md)
-   + [管理資料饋送](analytics-data-feed/df-manage-feeds.md)
-   + [管理資料饋送工作](analytics-data-feed/df-manage-jobs.md)
+   + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
+   + [建立或編輯資料摘要](analytics-data-feed/create-feed.md)
+   + [管理資料摘要](analytics-data-feed/df-manage-feeds.md)
+   + [管理資料摘要作業](analytics-data-feed/df-manage-jobs.md)
    + 資料摘要內容 {#data-feed-contents}
-      + [資料饋送內容概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
+      + [資料摘要內容概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [頁面事件查閱](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [資料饋送常見問答集](analytics-data-feed/df-faq.md)
-   + [資料饋送最佳實務](analytics-data-feed/data-feeds-best-practices.md)
-   + [疑難排解資料饋送](analytics-data-feed/feed-troubleshooting.md)
+   + [資料摘要常見問答集](analytics-data-feed/df-faq.md)
+   + [資料摘要最佳作法](analytics-data-feed/data-feeds-best-practices.md)
+   + [資料摘要的疑難排解](analytics-data-feed/feed-troubleshooting.md)
    + [工作的疑難排解](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
