@@ -1,7 +1,7 @@
 ---
 title: Analytics 匯出說明
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
