@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -45,6 +45,6 @@ s.dynamicAccountSelection=false
 
 ## 缺陷、問題和提示
 
-* [適用於 JavaScript 的 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)不支援動態帳戶選項。
+* [適用於 JavaScript 的 AppMeasurement](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)不支援動態帳戶選項。
 
 * 請一律使用 [!DNL DigitalPulse Debugger]，確認是哪個報表套裝在接收來自各頁面的資料。
