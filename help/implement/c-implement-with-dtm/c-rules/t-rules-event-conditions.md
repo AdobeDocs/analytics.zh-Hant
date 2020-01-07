@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立事件型規則的條件
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based.png)
 
-   如需詳細資訊，請參閱 Adobe 標籤管理產品文件中的[事件類型](https://marketing.adobe.com/resources/help/en_US/dtm/event_types.html)。
+   如需詳細資訊，請參閱 Adobe 標籤管理產品文件中的[事件類型](https://marketing.adobe.com/resources/help/zh_TW/dtm/event_types.html)。
 
 1. 視需要啟用下列選項:
 
@@ -35,7 +35,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/condition-event-based2.png)
 
-   如需尋找正確元素標籤的相關資訊，請參閱動態標籤管理產品文件中的[使用 CSS 選取器](https://marketing.adobe.com/resources/help/en_US/dtm/css-selector.html)。
+   如需尋找正確元素標籤的相關資訊，請參閱動態標籤管理產品文件中的[使用 CSS 選取器](https://marketing.adobe.com/resources/help/zh_TW/dtm/css-selector.html)。
 
 1. 選取並設定您想要綁定到規則的任何其他準則或條件類型。
 
