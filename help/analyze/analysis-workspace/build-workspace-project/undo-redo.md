@@ -1,8 +1,8 @@
 ---
-description: Analysis Workplace 中「還原」選項的變更與改良功能。
+description: Analysis Workspace 中「還原」選項的變更與改良功能。
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,22 +10,22 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 還原和重做設定
 
-**[!UICONTROL 工作區]** &gt;專 **[!UICONTROL 案]** &gt;還 **[!UICONTROL 原／重做]**
+**[!UICONTROL Workplace]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 還原/重做]**
 
-* **[!UICONTROL 「重做」]**&#x200B;選項 (重做還原動作) 在&#x200B;**「編輯」[!UICONTROL 功能表內。]**
+* **[!UICONTROL 「重做」]**&#x200B;選項 (重做還原動作) 在&#x200B;**[!UICONTROL 「編輯」]**&#x200B;功能表內。
 
-* 點選&#x200B;**[!UICONTROL 「儲存」]**&#x200B;不會清除&#x200B;**「還原」]堆疊。[!UICONTROL **
+* 點選&#x200B;**[!UICONTROL 「儲存」]**&#x200B;不會清除&#x200B;**[!UICONTROL 「還原」]**&#x200B;堆疊。
 
-* **[!UICONTROL 「新增專案」]**&#x200B;或&#x200B;**[!UICONTROL 「開啟現有的專案」]**&#x200B;會清除&#x200B;**「還原」]堆疊[!UICONTROL **
+* **[!UICONTROL 「新增專案」]**&#x200B;或&#x200B;**[!UICONTROL 「開啟現有的專案」]**&#x200B;會清除&#x200B;**[!UICONTROL 「還原」]**&#x200B;堆疊
 
 * 您可以還原/重做對於報表套裝的變更。
 * 專案名稱附近會顯示還原/重做訊息，其中會顯示進行中的還原或重做動作時間。
-* 您可以使用下列 [熱鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
+* 您可以使用以下[快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
 
    * Ctrl (Cmd) + Z 為還原
    * Ctrl (Cmd) + Shift + Z 為重做
 
-## What you can undo and redo {#section_1E94152CC206470D84FC11710311DA12}
+## 您可以還原或重做的項目 {#section_1E94152CC206470D84FC11710311DA12}
 
 * 組織
 * 全部清除
@@ -58,7 +58,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 編輯描述
 * 複製視覺效果
 
-## What you cannot undo and redo {#section_65BB313E048F4744B692926362873230}
+## 您無法還原或重做的項目 {#section_65BB313E048F4744B692926362873230}
 
 * 專案資訊與設定變更 (「新增標記」、「描述」變更、「計算重複例項」設定)
 * 設定為著陸頁面
