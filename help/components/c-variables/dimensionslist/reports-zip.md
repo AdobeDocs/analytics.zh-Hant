@@ -1,7 +1,7 @@
 ---
 title: 訪客郵遞區號
 description: 顯示產生對於成功量度有最大影響之客戶的郵遞區號。此報表的資訊通常是取自於客戶購物過程中，您因此取得的郵遞區號。您可以使用這個報告判斷本地化廣告促銷活動成功與否，最多可以細究到具體的城鎮。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,6 +14,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 此報表的建立方式，為以下兩種方式其中之一:
 
 * 在您的 Analytics 實作中填入 `s.zip` 變數
-* 根據地域劃分資料設定郵遞區號自動建立功能。您可以將郵遞區號設定為只有在未設定 s.zip 時填入。若要啟用，請讓受支援的使用者聯絡Adobe客戶服務。
+* 根據地域劃分資料設定郵遞區號自動建立功能。您可以將郵遞區號設定為只有在未設定 s.zip 時填入。若要啟用，請由受支援的使用者聯絡 Adobe 客戶服務。
 
-See [GeoSegmentation Regions and Postal Code usage by Country](reports-geosegmentation-reference.md)
+請參閱[地域劃分地區和郵遞區號使用狀況 (依國家區分)](reports-geosegmentation-reference.md)
