@@ -1,7 +1,7 @@
 ---
 title: 將 Adobe Analytics 部署至開發環境
 description: 瞭解如何使用 Adobe Experience Platform Launch 來將 Adobe Analytics 部署至開發環境。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Experience Cloud Debugger 是顯示存在於頁面上的所有 Experience Cloud 標籤的 Chrome 外掛程式。
 
-1. Open [Chrome Web Browser](https://www.google.com/chrome/) and go to [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) on the Chrome Web Store to install the extension.
+1. 開啟 [Chrome 網頁瀏覽器](https://www.google.com/chrome/)，然後前往 Chrome 線上應用程式商店中的 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 以安裝此擴充功能。
 2. 導覽至您已實作 Launch 的開發網站。
 3. 按一下 Chrome 右上角的 Adobe Experience Cloud Debugger 圖示
 4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、Adobe Experience Platform Launch 及 Adobe Experience Cloud 訪客 ID 服務中看到內容:
