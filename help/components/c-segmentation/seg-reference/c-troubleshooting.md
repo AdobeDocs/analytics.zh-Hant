@@ -2,7 +2,7 @@
 description: 'null'
 title: 區段疑難排解
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,14 +10,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 區段疑難排解
 
-## Error: "Incompatible elements in this segment" {#section_B167EE10A0844E649DD7E14D0BAEDA17}
+## 錯誤:「此區段中有不相容的元素」{#section_B167EE10A0844E649DD7E14D0BAEDA17}
 
 如果您嘗試在 Data Warehouse 資料夾中儲存區段，但該區段包含與 Data Warehouse 不相容的元素時，就會發生這個錯誤。若要解決此錯誤，請執行下列其中一項作業:
 
 * 將區段儲存至其他資料夾
 * 移除或變更區段不相容的部分。
 
-## 為什麼我的區段完全沒有傳回資料? {#section_999749CBBE984142AEA49A6E68E6730A}
+## 為什麼我的區段完全沒有傳回資料?  {#section_999749CBBE984142AEA49A6E68E6730A}
 
 可能的原因包括:
 
@@ -25,7 +25,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 報表不支援分段。
 * 沒有與分段標準相符的資料。
 
-## 為什麼我在區段管理員中看不到我建立的區段? {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 為什麼我在區段管理員中看不到我建立的區段?  {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 可能的原因包括:
 
@@ -37,7 +37,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 區段未儲存。
 * 可能在使用者端封鎖了 IP 位址。
 
-## 為什麼在套用區段後顯示的頁面資料不正確? {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 為什麼在套用區段後顯示的頁面資料不正確?  {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 可能的原因包括:
 
