@@ -2,7 +2,7 @@
 description: 'null'
 title: 常見問題集
 uuid: f2eb6784-8355-4be3-af10-f20d1ab0de0e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 會改變 Adobe Analytics 中預先設定的報表嗎? </p> </td> 
-   <td colname="col2"> <p>否。因為這是單獨的環境，所以不會改變 Adobe Analytics 中您現有或預先設定的報表。您仍可應用採用 Analysis Workspace 的標準「Reports &amp; Analytics」和「Report Builder」報表。 </p> </td> 
+   <td colname="col2"> <p>不可以。因為這是單獨的環境，所以不會改變 Adobe Analytics 中您現有或預先設定的報表。您仍可應用採用 Analysis Workspace 的標準「Reports &amp; Analytics」和「Report Builder」報表。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>可以將 Analysis Workspace 用於 Data Warehouse 嗎? </p> </td> 
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace 的功能與 Ad Hoc Analysis 相比如何? </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  > 比較 Analysis Workspace 與 Ad Hoc Analysis</a>. </p> </td> 
+   <td colname="col2"> <p>請參閱<a href="/help/analyze/analysis-workspace/adhocanalysis-vs-analysisworkspace.md"  >比較 Analysis Workspace 與 Ad Hoc Analysis</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
