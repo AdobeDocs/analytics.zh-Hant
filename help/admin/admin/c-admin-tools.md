@@ -2,7 +2,7 @@
 description: 'null'
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理工具
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理員]**
+**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員」]**
 
->[!IMPORTANT] 請勿在相同的瀏覽器中開啟多個管理標籤。 這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
+>[!IMPORTANT] 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
 
 + [帳單](billing-admin.md)
 + [機器人規則概觀](bot-removal/bot-rules.md)
@@ -36,14 +36,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 + [付費搜尋偵測概觀](paid-search-detection/paid-search-detection.md)
 + [發佈清單](publishing-list.md)
 + [發佈介面工具集](publishing-widgets-admin.md)
-+ [使用偏好管理器](preferences-manager.md)
++ [偏好設定管理器](preferences-manager.md)
 + [隱私權設定](privacy-settings.md)
 + [處理規則概觀](c-processing-rules/processing-rules.md)
 + [即時報表概觀](realtime/realtime.md)
 + [排程報表佇列](scheduled-reports-admin.md)
 + [伺服器端轉送概觀](c-server-side-forwarding/ssf.md)
 + [簡化的報表功能表](t-simplified-menu.md)
-+ [社會化管理](social-management.md)
++ [社交管理](social-management.md)
 + [成功事件概觀](c-success-events/success-event.md)
 + [可選時間戳記](timestamp-optional.md)
 + [流量變數 (Prop) 概觀](c-traffic-variables/traffic-var.md)
