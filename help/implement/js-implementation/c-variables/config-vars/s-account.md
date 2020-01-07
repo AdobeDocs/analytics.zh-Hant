@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: f1ebe5e89f62957c8bcc829be4b1a97463210f93
 
 `s_account` 變數通常會在 JavaScript 檔案 (s_code.js) 內進行宣告。您可以在 HTML 頁面上宣告 `s_account` 變數；當 `s_account` 的值可能隨不同頁面而有所變更時，這是很常見的做法。`s_account` 變數屬於全域變數，因此應在納入 Adobe 的 JavaScript 檔案前進行宣告。若 `s_account` 在 JavaScript 檔案載入時並沒有值，則不會將任何資料傳送至 [!DNL Analytics]。
 
-Adobe [!DNL DigitalPulse Debugger] 會在位於「影像」一字正下方之 URL 的路徑中顯示 `s_account` 的值，緊接在 /b/ss/ 後面。在某些情況下，`s_account` 的值也會顯示在網域中 (在 112.2o7.net 的前面)。路徑中的值是決定目標報表套裝的唯一值。下方的粗體文字顯示資料所傳送到的報表套裝，如同除錯程式中所顯示。請參閱[DigitalPulse 除錯程式](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html).
+Adobe [!DNL DigitalPulse Debugger] 會在位於「影像」一字正下方之 URL 的路徑中顯示 `s_account` 的值，緊接在 /b/ss/ 後面。在某些情況下，`s_account` 的值也會顯示在網域中 (在 112.2o7.net 的前面)。路徑中的值是決定目標報表套裝的唯一值。下方的粗體文字顯示資料所傳送到的報表套裝，如同除錯程式中所顯示。請參閱[DigitalPulse 除錯程式](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/testing-and-validation/debugger.html).
 
 ```js
 https://mycompany.112.207.net/b/ss/ 
