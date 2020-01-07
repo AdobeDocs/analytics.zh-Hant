@@ -2,7 +2,7 @@
 description: 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。
 title: 樹狀圖
 uuid: 4e1ec255-d43e-46f2-ac62-296f15218799
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
