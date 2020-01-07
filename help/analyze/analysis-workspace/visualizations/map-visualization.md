@@ -2,7 +2,7 @@
 description: 'null'
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,15 +14,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace 中的地圖視覺效果
 
-* 可讓您建立任何量度的視覺化地圖（包括計算量度）。
+* 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。
 * 相當實用，可辨識和比較不同地理區域之間的量度資料。
 * 可支援 2 項資料來源: 行動裝置使用的經緯度、或網頁使用的地理維度。
-* 支援PDF匯出。
+* 支援 PDF 匯出。
 * 針對圖形顯示使用 WebGL。如果您的顯示卡驅動程式不支援 WebGL 轉譯，您可能需要更新驅動程式。
 
-## Build a map visualization {#section_61BBFA3A7BFD48DA8D305A69D9416299}
+## 建立地圖視覺效果 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. 從視覺效果清單中，將&#x200B;**[!UICONTROL 「地圖」]拖曳至自由面板:**
+1. 從視覺效果清單中，將&#x200B;**[!UICONTROL 「地圖」]**&#x200B;拖曳至自由面板:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ Analysis Workspace 中的地圖視覺效果
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL Build]**.
+1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
    您看到的第一張檢視會是「世界視圖」以及與此類似的泡泡圖地圖。
 
@@ -67,9 +67,9 @@ Analysis Workspace 中的地圖視覺效果
 
    ![](assets/location-dimensions.png)
 
-## Map visualization settings {#section_5F89C620A6AA42BC8E0955478B3A427E}
+## 地圖視覺效果設定 {#section_5F89C620A6AA42BC8E0955478B3A427E}
 
-地圖有2組設定：
+地圖中有 2 組設定:
 
 右上角的&#x200B;**扳手圖示**&#x200B;可顯示初始對話方塊，您可以在此變更量度和資料來源:
 
@@ -84,4 +84,4 @@ Analysis Workspace 中的地圖視覺效果
 | 樣式: 顏色主題 | 顯示熱度圖和泡泡圖的顏色主題。您可以選擇珊瑚色、紅色、綠色或藍色。預設為珊瑚色。 |
 | 樣式: 地圖樣式 | 您可以選擇基本、街道、明亮、淺色、深色和衛星。 |
 | 叢集半徑 | 將指定像素數內的資料點分組在一起。預設為 50。 |
-| 自訂最大值 | 可讓您變更地圖最大值的臨界值——調整此值可調整泡泡／熱圖值（顏色和大小）相對於自訂最大值集的比例。 |
+| 自訂最大值 | 可用於變更地圖最大值的臨界值。調整此數值可以調整泡泡圖/熱度圖的值 (顏色和大小) 相對於自訂最大值的比例。 |
