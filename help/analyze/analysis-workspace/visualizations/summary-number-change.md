@@ -2,7 +2,7 @@
 description: 'null'
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/summary-number.png)
 
-## 摘要變更視覺化
+## 摘要變更視覺效果
 
 * 如果未選取儲存格，則會比較欄中前兩個儲存格的值。
 * 如果選取一個儲存格，由於與自身比較儲存格的值，因此會顯示 0。
@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 如果選取欄，會就第一個值的本身進行比較，顯示變更為 0。
 * 摘要變更的綠紅顏色可以透過以下方式控制:
 
-   * [自訂事件極性](https://marketing.adobe.com/resources/help/en_US/reference/success_event.html)。
-   * 計算量度的[「將向上趨勢顯示為」](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/cm_build_metrics.html)選項。
+   * [自訂事件極性](https://marketing.adobe.com/resources/help/zh_TW/reference/success_event.html)。
+   * 計算量度的[「將向上趨勢顯示為」](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/cm_build_metrics.html)選項。
 
-## Summary Change settings {#section_2581AC0107634FB4990AB8347E5897AA}
+## 摘要變更設定 {#section_2581AC0107634FB4990AB8347E5897AA}
 
 按一下視覺效果旁的齒輪圖示以設定「摘要」設定:
 
