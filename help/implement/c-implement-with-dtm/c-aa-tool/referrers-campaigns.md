@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 反向連結與促銷活動
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
 
 ---
@@ -30,7 +30,7 @@ source-git-commit: e9820869d16b8656ebebe11e397a3d7d8123fbcf
   </tr> 
   <tr> 
    <td colname="col1"> 促銷活動 </td> 
-   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>See [<a href="/help/implement/js-implementation/page-variables/campaign.md">Page Variables</a>. </p> </td> 
+   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>請參閱<a href="/help/implement/js-implementation/page-variables/campaign.md">頁面變數</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
