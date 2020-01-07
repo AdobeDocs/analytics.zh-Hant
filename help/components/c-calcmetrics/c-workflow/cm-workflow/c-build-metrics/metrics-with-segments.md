@@ -2,7 +2,7 @@
 description: 對個別量度分段可讓您在同一份報表中比較量度。(僅限衍生量度)
 title: 區段量度
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -28,11 +28,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >You can also do this in the [Segment Builder](https://marketing.adobe.com/resources/help/en_US/analytics/segment/seg_build.html), but we have simplified the workflow by making dimensions available in the Calculated Metric Builder.
+   >您也可以在[區段產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_build.html)中進行此操作。但我們已藉由在計算量度產生器中提供維度簡化了工作流程。
 
    >[!NOTE]
    >
-   >"Internal" means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the "i" icon next to it and clicking **[!UICONTROL Make public]**.
+   >「內部」表示左側欄的&#x200B;**[!UICONTROL 區段]**&#x200B;清單中不會顯示此區段。但您可以將游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
 
 1. 如果您沒有可供比較的區段，請先建立一個名為「國際訪客」的區段，其中「國家/地區」不等於「德國」。
 1. 將「德國」區段拖曳至「定義」畫布並將「獨特訪客」量度拖曳至其中，藉此建立並儲存名為「德國訪客」的量度:
@@ -44,7 +44,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports &amp; Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. 或是在 [!UICONTROL Reports &amp; Analytics] 中開啟[!UICONTROL 頁面]報表，按一下&#x200B;**[!UICONTROL 「顯示量度」]**，然後套用新的「美國訪客」和「國際訪客」分段量度，以查看其內容瀏覽行為相較之下的結果。
 
    ![](assets/pages-report.png)
 
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 如果您想概略查看美國和國際瀏覽行為的最大差異，則可建立另一個量度，相減兩者的百分比。若要這麼做，您可使用「容器」功能有效做為兩組量度間的括號。
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** &gt; **[!UICONTROL Container]**:
+1. 在[!UICONTROL 定義]畫布中按一下&#x200B;**[!UICONTROL 「新增]** &gt; **[!UICONTROL 容器」]**:
 
    ![](assets/cm_add_container.png)
 
