@@ -2,7 +2,7 @@
 description: 針對報表套裝流量提供摘要資料。
 title: 帳戶活動
 uuid: 21d2b1f6-838b-41ae-89b2-d4a299bfb1bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
