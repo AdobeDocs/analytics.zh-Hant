@@ -2,7 +2,7 @@
 description: 'null'
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,11 +16,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 對於可新增的步驟數或是可使用的維度數並沒有限制。
 
-您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://marketing.adobe.com/resources/help/en_US/sc/implement/listN.html) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。例如，假設某人在看一頁上的鞋、襯衫，在下一頁上，他們在看襯衫、襪子。 來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
+您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/listN.html) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
 
 1. 從「視覺效果」下拉式清單將「[!UICONTROL 流失]」視覺效果拖曳至「[!UICONTROL 自由表格]」中。
 
-1. 將「頁面」維度拖曳至「自由表格」中，然後從那裡將頁面 (在此例中是「首頁 - JJEsquire」) 拖曳至「**[!UICONTROL 新增接觸點]」欄位，做為第一個接觸點。**
+1. 將「頁面」維度拖曳至「自由表格」中，然後從那裡將頁面 (在此例中是「首頁 - JJEsquire」) 拖曳至「**[!UICONTROL 新增接觸點]**」欄位，做為第一個接觸點。
 
    ![](assets/fallout1.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >多個區段會與AND連結，但多個項目（例如維度項目和量度）會與OR連結。
+   >多個區段必須以 AND 連結，但多個項目 (例如維度項目和量度) 則須以 OR 連結。
 
    ![](assets/multiple_obj_touchpoint.png)
 
@@ -57,14 +57,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Fallout settings {#section_0C7C89D72F0B4D6EB467F278AC979093}
+## 流失設定 {#section_0C7C89D72F0B4D6EB467F278AC979093}
 
 | 設定 | 說明 |
 |--- |--- |
-| 流失容器 <ul><li>瀏覽</li><li>訪客</li></ul> | 可讓您切換造訪和訪客，分析訪客路徑。預設為「訪客」。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
-| 將「所有訪客」顯示為第一個觸點 | 如果您不想將「所有訪客」顯示為第一個接觸點，您可以取消選取此項。 |
+| 流失容器 <ul><li>瀏覽</li><li>訪客</li></ul> | 可讓您切換瀏覽和訪客，分析訪客路徑。預設為「訪客」。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
+| 將「所有訪客」顯示為第一個接觸點 | 如果您不想將「所有訪客」顯示為第一個接觸點，您可以取消選取此項。 |
 
-When you **right-click a touchpoint**, the following options appear:
+**以滑鼠右鍵按一下接觸點**，下列選項就會出現:
 
 | 選項 | 說明 |
 |--- |--- |
