@@ -2,7 +2,7 @@
 description: 'null'
 title: 預覽維度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 預覽維度
 
-## Dimension preview {#section_13D5A69AE6194715A721BC87D283F6F2}
+## 維度預覽 {#section_13D5A69AE6194715A721BC87D283F6F2}
 
 將滑鼠移到維度旁的資訊 (i) 圖示上，即會顯示非時間維度的前 5 個值 (而時間維度則是前 15 個值)。我們之前會將這些值保持為靜態 (亦即，所選的 5 個值從未變更)。
 
@@ -24,8 +24,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/dimension_static.png)
 
-## Show dimension items {#section_A074B3A984634AC7B1362889088E0A42}
+## 顯示維度項目 {#section_A074B3A984634AC7B1362889088E0A42}
 
 當您將游標停留在維度上，並按一下旁邊的灰色向右箭頭，即會出現維度項目清單。任何維度項目清單通常會顯示最近 30 天排名最前的項目。
 
-If you scroll down to the bottom of the list, you will see a **[!UICONTROL Show Top Items From Last 6 Months]**. 按一下此選項，即可檢視最近 180 天排名最前的維度項目。
+如果您向下捲動至清單底部，會看見&#x200B;**[!UICONTROL 「顯示最近 6 個月排名最前的項目」]**&#x200B;選項。按一下此選項，即可檢視最近 180 天排名最前的維度項目。
