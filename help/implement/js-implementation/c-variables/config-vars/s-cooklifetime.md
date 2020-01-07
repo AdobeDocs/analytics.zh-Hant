@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,7 +17,7 @@ JavaScript 和資料收集伺服器都會使用 變數來決定 Cookie 的有效
 |---|---|---|---|
 | 不適用 | cl | 流量 &gt; 技術 &gt; Cookie (所有訪客相關) 報表 | "" |
 
-If *`cookieLifetime`* is set, it overrides any other cookie expirations for both JavaScript and data collection servers, with one exception, described below. *`cookieLifetime`* 變數可以有下列三個值之一:
+如果您設定了 *`cookieLifetime`*，此變數會覆寫 JavaScript 和資料收集伺服器的任何其他 Cookie 有效期，但有一個例外，以下會有說明。*`cookieLifetime`* 變數可以有下列三個值之一:
 
 * [!DNL Analytics] Cookie
 * Cookie
