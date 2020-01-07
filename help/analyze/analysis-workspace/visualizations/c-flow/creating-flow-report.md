@@ -2,7 +2,7 @@
 description: 'null'
 title: 設定流量視覺效果
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,12 +32,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 圖表中的路徑會依照比例顯示。具有較多活動的路徑看起來比較寬。
 
-按一下圖表中的節點，會顯示該節點的詳細資料。例如，如果按一下頂部圖表右上方的「**[!UICONTROL 搜尋結果]」，圖表會展開並顯示搜尋結果節點的更多詳細資料。**&#x200B;再次按一下該節點即可將其摺疊。
+按一下圖表中的節點，會顯示該節點的詳細資料。例如，如果按一下頂部圖表右上方的「**[!UICONTROL 搜尋結果]**」，圖表會展開並顯示搜尋結果節點的更多詳細資料。再次按一下該節點即可將其摺疊。
 
 ![](assets/flow3.jpg)
 
-依預設，圖表會顯示前五個流量。如果按一下圖表底部的「**[!UICONTROL 更多]」節點，圖表會向下展開並顯示另外五個流量。**&#x200B;繼續按「**[!UICONTROL 更多]」，可繼續展開直到沒有其他可顯示的流量為止。**
+依預設，圖表會顯示前五個流量。如果按一下圖表底部的「**[!UICONTROL 更多]**」節點，圖表會向下展開並顯示另外五個流量。繼續按「**[!UICONTROL 更多]**」，可繼續展開直到沒有其他可顯示的流量為止。
 
 在流量圖中的探索完全沒有限制。
 
-You can also export and further analyze your Flow diagram as part of a project's .CSV file by going to **[!UICONTROL Project]** &gt; **[!UICONTROL Download CSV]**.
+您也可以前往&#x200B;**[!UICONTROL 「專案]** &gt; **[!UICONTROL 下載 CSV」]**，匯出並進一步分析您專案 .CSV 檔案中的「流量」圖表。
