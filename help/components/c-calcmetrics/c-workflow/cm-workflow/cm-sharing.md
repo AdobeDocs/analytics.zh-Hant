@@ -2,7 +2,7 @@
 description: 您可以將量度共用給整個組織、群組或個別使用者 (視您的權限而定)。
 title: 共用計算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -37,5 +37,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    「共用」圖示會出現在量度旁: ![](assets/share_icon.png)
 
-1. You can filter on metrics shared with you by going to **[!UICONTROL Filters]** &gt; **[!UICONTROL Other Filters]** &gt; **[!UICONTROL Shared with Me]**.
+1. 您可以依已共用給您的量度來篩選，方法是前往&#x200B;**[!UICONTROL 篩選]** &gt; **[!UICONTROL 其他篩選器]** &gt; **[!UICONTROL 與我共用]**。
 
