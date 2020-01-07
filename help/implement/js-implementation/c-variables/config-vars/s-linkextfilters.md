@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -17,13 +17,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |---|---|---|---|
 | 不適用 | 不適用 | 路徑 &gt; 登入與退出 &gt; 退出連結 | "" |
 
-The *`linkExternalFilters`* variable is an optional variable used in conjunction with *`linkInternalFilters`* to determine whether a link is an exit link. 退出連結被定義為將訪客帶離您網站的任何連結。無論退出連結的目標視窗是快顯視窗還是現有視窗，這都不會影響該連結是否會出現在退出連結報表中。只有在&#x200B;*`trackExternalLinks`* 設為「true」時，退出連結才會受到追蹤。*`linkExternalFilters`* 和 *`linkInternalFilters`* 中的篩選器會區分大小寫。
+*`linkExternalFilters`* 變數是可與 *`linkInternalFilters`* 搭配使用的選用變數，可判斷連結是否為退出連結。退出連結被定義為將訪客帶離您網站的任何連結。無論退出連結的目標視窗是快顯視窗還是現有視窗，這都不會影響該連結是否會出現在退出連結報表中。只有在&#x200B;*`trackExternalLinks`* 設為「true」時，退出連結才會受到追蹤。*`linkExternalFilters`* 和 *`linkInternalFilters`* 中的篩選器會區分大小寫。
 
 > [!NOTE]如果您不想要使用 *`linkExternalFilters`*，請將其刪除或設為 ""。
 
 根據預設，*`linkExternalFilters`* 和 *`linkInternalFilters`* 中的篩選器會套用至任何連結的網域和路徑。若將 *`linkLeaveQueryString`* 設為「true」，則篩選器會套用至整個 URL (網域、路徑和查詢字串)。這些篩選器可始終被套用到 URL 的絕對路徑，即使相對路徑被用作 href 值。
 
-有許多公司認為  *`linkInternalFilters`* 即足以供他們託管退出連結，因此不需要 *`linkExternalFilters`*。*`linkExternalFilters`* 會降低退出連結被視為外部連結的可能性。若 *`linkExternalFilters`* 具有值，則只有在連結不符合 *`linkInternalFilters`* 且不符合 *`linkExternalFilters`* 時，才會被視為外部連結。
+有許多公司認為   *`linkInternalFilters`* 即足以供他們託管退出連結，因此不需要 *`linkExternalFilters`*。*`linkExternalFilters`* 會降低退出連結被視為外部連結的可能性。若 *`linkExternalFilters`* 具有值，則只有在連結不符合 *`linkInternalFilters`* 且不符合 *`linkExternalFilters`* 時，才會被視為外部連結。
 
 以下範例可說明此變數的使用方式。在此範例中，頁面的 URL 為 `https://www.mysite.com/index.html`。
 
@@ -48,7 +48,7 @@ s.linkLeaveQueryString=false
 s.linkExternalFilters="site1.com[,site2.com[,site3.net[...]]]"
 ```
 
-URL 的任何部分皆可包含在  *`linkExternalFilters`* 中，以逗號分隔。
+URL 的任何部分皆可包含在   *`linkExternalFilters`* 中，以逗號分隔。
 
 ## 範例
 
@@ -68,6 +68,6 @@ s.linkExternalFilters=""
 
 * *`linkExternalFilters`* 可減少您的網站上會成為退出連結的連結。請勿使用此變數取代 *`linkInternalFilters`* 來強制內部連結變成退出連結。
 
-* 若 *`linkExternalFilters`* 應套用至某個連結的查詢字串，請確保已將 *`linkLeaveQueryString`* 設為「true」。在設為 `"true"` 之前，請參閱 [linkLeaveQueryString](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
+* 若 *`linkExternalFilters`* 應套用至某個連結的查詢字串，請確保已將 *`linkLeaveQueryString`* 設為「true」。在設為 `"true"` 之前，請參閱 [linkLeaveQueryString](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
 
 * 若要停用退出連結追蹤，請將 *`trackExternalLinks`* 設為 `"false"`。
