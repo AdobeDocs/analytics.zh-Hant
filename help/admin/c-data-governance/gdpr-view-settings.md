@@ -49,7 +49,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
     </ul> <p>附註: 若未設定資料保留時間，Adobe Analytics 就無法協助您處理資料隱私權 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>群組 </p> </td> 
+   <td colname="col1"> <p>群組  </p> </td> 
    <td colname="col2"> <p>目前尚未執行分組功能。 </p> </td> 
   </tr> 
   <tr> 
