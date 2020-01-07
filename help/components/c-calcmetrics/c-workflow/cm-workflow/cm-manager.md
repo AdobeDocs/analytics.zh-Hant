@@ -2,7 +2,7 @@
 description: 計算量度管理器提供許多管理量度的方式，例如共用、篩選、標記、核准、複製、刪除以及標記為我的最愛。
 title: 計算量度管理員
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 計算量度管理員會顯示您所擁有和已共用給您的區段。管理層級使用者可以查看組織中的所有自訂量度。此概覽會介紹「計算量度管理員」的使用者介面和功能。存取方式
 
-* Going to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** in the left navigation. Then click **[!UICONTROL Calculated Metrics]**.
+* 前往左側導覽中的 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]**。然後按一下&#x200B;**[!UICONTROL 「計算量度」]**。
 
 ![](assets/calcmet_mgr_ui.png)
 
@@ -30,5 +30,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 標記 | 顯示由您或共用區段給您的人員對量度套用的標記。 |
 | 共用對象 | 列出您將區段共用給的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 |
 | 欄選擇器 | 可讓您在計算量度管理員中選取或取消選取欄，以便自訂檢視。 |
-| 共用圖示  (未顯示) | 指出此自訂量度已由您共用或與您共用。 |
-| 批准圖示  (未顯示) | 指出管理員已批准此自訂量度。 |
+| 共用圖示    (未顯示) | 指出此自訂量度已由您共用或與您共用。 |
+| 批准圖示    (未顯示) | 指出管理員已批准此自訂量度。 |
