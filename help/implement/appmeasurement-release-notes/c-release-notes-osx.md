@@ -5,7 +5,7 @@ subtopic: Release notes
 title: Mac OS X
 topic: Developer and implementation
 uuid: d5e46c86-2d00-4a18-8eee-dcaf082761af
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 > [!NOTE]若要尋找目前的程式庫版本，請開啟偵錯記錄功能。
 
-Mobile library [downloads](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) are available on [!DNL Developer Connection].
+您可在 [ 上使用行動程式庫](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications)下載內容[!DNL Developer Connection]。
 
 ## 版本 3.2.2 {#section_90CCB6A33C5041FA9CBAF6E8B7F3915F}
 
