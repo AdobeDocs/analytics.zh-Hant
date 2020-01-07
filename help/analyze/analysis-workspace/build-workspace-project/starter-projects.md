@@ -2,7 +2,7 @@
 description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以選擇從以下來源建立專案:
 
-* 空白專案 (預設)。如需指示，請參 [閱建立分析工作區專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* 空白專案 (預設)。如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * 標準範本。這些範本皆由 Adobe 建立且出廠即提供。
-* 自訂範本。具有管理權限的使用者，或非管理員但已獲得「另存為範本」權限的使用者，皆可建立這些範本。(See [Manage product permissions](https://helpx.adobe.com/enterprise/using/manage-permissions-and-roles.html) in the Admin Console documentation for more information.
+* 自訂範本。具有管理權限的使用者，或非管理員但已獲得「另存為範本」權限的使用者，皆可建立這些範本。(如需詳細資訊，請參閱 Admin Console 文件中的[管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。)
 
 ![](assets/start_modal.png)
 
@@ -28,7 +28,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 擁有管理員權限的使用者可以將其建立的任何專案轉換為自訂範本。方法如下:
 
 1. 開啟專案。
-1. Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Save As Template]**.
+1. 前往&#x200B;**[!UICONTROL 「專案]** &gt; **[!UICONTROL 另存為範本」]**。
 
    ![](assets/save_project_template.png)
 
@@ -36,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >依預設，專案範本會顯示給組織中的每個人。 您可以透過套用標記的方式組織範本。(Go to **[!UICONTROL Project]** &gt; **[!UICONTROL Project Info &amp; Settings]** to edit tags and descriptions.)
+   >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往&#x200B;**[!UICONTROL 「專案]** &gt; **[!UICONTROL 專案資訊和設定」]**&#x200B;即可編輯標記和說明。)
 
 ### 您可以在自訂範本執行的動作
 
@@ -51,7 +51,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>編輯template </p> </td> 
+   <td colname="col1"> <p>編輯範本 </p> </td> 
    <td colname="col2"> <p>可讓管理員透過變更資料來源、修改元件、視覺效果和日期範圍等方式編輯範本。 </p> <p>若要編輯自訂範本，您可以 </p> 
     <ul id="ul_2B3A371F83334E14806385753A360903"> 
      <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">開啟 Analysis Workspace 中的自訂範本清單、選取一個範本，然後按一下<span class="uicontrol">「編輯範本」</span>，或 </li> 
@@ -81,63 +81,63 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## Standard templates {#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
+## 標準範本{#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
-當您第一次開啟工作區時，範本會位於左側導軌中。 Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+第一次開啟 Workspace 時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
-[YouTube分析工作區中的標準範本](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6) (2:46)
+[在 YouTube 觀看「Analysis Workspace 標準範本」](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
 
-以下是可用的範本，以及每個範本可協助回答的問題：
+以下為可用的範本，以及可透過個別範本找到答案的問題:
 
 ### 廣告
 
 >[!IMPORTANT]
 >
->廣告範本僅在您的報表套裝已啟用Advertising cloud時才可用。
+>您必須在 Advertising Cloud 啟用報表套裝，才可使用廣告範本。
 
-* **搜尋引擎**:此範本可劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等。
+* **搜尋引擎**: 此範本可劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等。
 
 ### 商務
 
-* **馬根托：行銷與商務**:此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等提供分析。 如需影片總覽，請參閱&gt;[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: 行銷與商務**: 此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等資料提供深入分析。如需影片概述，請參閱 &gt; [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### 媒體
 
-* **音訊耗用**:哪些內容的使用量最高，而且吸引使用者？
-* **最近一次——頻率——忠誠度**:我忠實的讀者是誰？
+* **音訊使用量**: 使用者最常使用且受到哪些內容吸引?
+* **使用間隔 - 頻率 - 忠誠度:** 誰是我的忠實讀者?
 
 ### 行動
 
 >[!IMPORTANT]
 >
->行動範本只有在您的報表套裝已啟用行動裝置時才可用。
+>您的報表套裝必須為行動裝置啟用，才能使用行動範本。
 
-* **** 訊息：著重於應用程式內和推播訊息效能。
-* **** 位置：包含展示位置資料的地圖。
-* **** 關鍵量度：掌握應用程式的關鍵量度。
-* **** 應用程式使用：應用程式有多少個應用程式使用者、啟動和首次啟動，平均作業長度為何？
-* **** 收購：瞭解行動裝置贏取連結的效能。
-* **** 效能：應用程式的效能如何，使用者在哪裡有問題？
-* **** 保留：我的忠誠使用者有哪些？
-* **** 歷程：我的應用程式有哪些顯著的使用模式？
+* **傳送訊息:** 著重於應用程式內及推播訊息的效能。
+* **位置:** 當中的地圖可呈現位置資料。
+* **關鍵量度:** 掌握您應用程式的關鍵量度。
+* **應用程式使用情形:** 應用程式擁有多少使用者和首次啟動次數，而平均工作階段時間長度又如何?
+* **贏取:** 瞭解行動裝置客戶贏取連結的成效。
+* **成效:** 應用程式的成效如何，以及使用者在哪些階段遭遇問題?
+* **保留率:** 我的忠實使用者是哪些人，以及他們都進行什麼活動?
+* **歷程:** 我應用程式中的顯著使用模式為何?
 
 ### 零售
 
-* **** 促銷活動績效：哪些促銷活動帶來最多收入？
-* **** 產品：哪些產品表現最佳？
+* **促銷活動成效:** 什麼促銷活動帶來的收入最高?
+* **產品:** 哪些產品成效最佳?
 
 ### Web
 
-* **** 收購：我網站的主要流量驅動因素為何？
-* **** 內容消費：我的網站上有哪些熱門位置？
-* **** 保留：哪些類型的使用者可能是我網站的忠實使用者？
-* **** 技術：人們使用哪些技術來存取我的網站？
+* **贏取:** 為我的網站帶來最多流量的因素是什麼?
+* **內容消耗:** 使用者最常前往我網站的哪些位置?
+* **保留率:** 什麼類型的使用者可能成為我網站的忠實使用者?
+* **技術:** 使用者使用哪些技術來存取我的網站?
 
 ### 人物
 
-> [!NOTE] 「人員」範本及其相關的「人員」量度僅能用於 [Adobe Experience Cloud Device Co-op的一部分](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html)。
+> [!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/zh_TW/mcdc/mcdc-people.html) 的一部分使用。
 
 此範本是根據「人物」量度建立，該量度是「獨特訪客」量度去除重複後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
