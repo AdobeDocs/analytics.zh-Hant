@@ -2,7 +2,7 @@
 description: 'null'
 title: 智慧型警報 - 使用案例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Update screenshots for better readability.
 
 ## 從表格選取範圍建立警報 {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+在自由表格中，此時可以用滑鼠右鍵按一下表格列並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**，建立內容感知警報。
 
 ![](assets/alert_selection.png)
 
@@ -30,7 +30,7 @@ In Freeform Tables, you can now create in-context alerts by right-clicking a tab
 
 ![](assets/prepopulated_alert.png)
 
-## Consolidate (stack) alerts instead of creating multiple alerts {#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 合併 (堆疊) 警報，而非建立多個警報 {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 堆疊警報可確保結合警報，以免您收到大量的單獨警報。
 
