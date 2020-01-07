@@ -2,7 +2,7 @@
 description: s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤傳送的 Analytics 影像請求總數，若總數超過特定的臨界值，則可執行其他邏輯。
 title: hitGovernor
 uuid: d9091eae-005a-43c2-b419-980b795bc2a9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
 使用此外掛程式可讓系統自動封鎖該訪客剩餘期間的流量，並在報表中動態識別該流量。
 
-## Hit Governor 外掛程式的運作方式 {#section_541BC639E31442D09B1C85A2FFCDC02C}
+## Hit Governor 外掛程式的運作方式{#section_541BC639E31442D09B1C85A2FFCDC02C}
 
 每次影像請求傳送至追蹤伺服器時，外掛程式都會增加 Cookie 值，並在滾動時間範圍期間追蹤該請求。預設的時間範圍為 1 分鐘，但您可以覆寫時間範圍。(請參閱[下方的實施](/help/implement/js-implementation/plugins/hitgovernor.md#task_D4BDB524AA294C139AFCAE2B61FEA3F2)。)若時間範圍期間的點擊總數超過預設點擊次數臨界值 (60)，則系統會傳送最終自訂連結影像要求，以設定 *`exceptionFlag`* 內容資料變數。您也可以覆寫預設的點擊次數臨界值。
 
@@ -105,7 +105,7 @@ s.hitGovernor 外掛程式可在預先定義的滾動時間範圍期間，追蹤
 
    若未包含此程式碼，系統會標記該訪客的流量，但不會將其封鎖。
 
-## 外掛程式原始程式碼 {#reference_76423C81A7A342B2AC4BE41490B27DE0}
+## 外掛程式原始程式碼{#reference_76423C81A7A342B2AC4BE41490B27DE0}
 
 您應將此程式碼新增至 AppMeasurement 程式庫的 doPlugins 區段下方。
 
