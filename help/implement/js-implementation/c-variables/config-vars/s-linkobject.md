@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
 
 ---
@@ -11,4 +11,4 @@ source-git-commit: ff9ca2a07b5e488d1cd4412fcea221c2e0c5d1c4
 
 # s.linkObject
 
-可供點按參考的物件。此為唯讀，對測量沒有直接影響。
+可供點按參考的物件。此變數為唯讀，對於測量作業沒有直接影響。
