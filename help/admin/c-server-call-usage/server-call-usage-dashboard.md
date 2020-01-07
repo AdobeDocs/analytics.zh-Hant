@@ -2,7 +2,7 @@
 description: 'null'
 title: 檢視目前伺服器呼叫使用量
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 檢視目前伺服器呼叫使用量
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理員]** &gt;伺服 **[!UICONTROL 器呼叫使用]** &gt;目 **[!UICONTROL 前使用]**
+**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 伺服器呼叫使用量]** &gt; **[!UICONTROL 目前使用量」]**
 
-> [!IMPORTANT] 所有登入公司和報表套裝中，您所看到的使用情形和承諾編號都會累計。
+> [!IMPORTANT] 您看到的所有使用量和承諾使用量，是所有登入公司和報表套裝的累計值。
 
 「目前使用量」控制面板
 
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 將您目前期間的使用量與去年的使用量 (藍線) 進行比較。很顯然地，只有當貴公司擁有去年的伺服器呼叫使用量資料時，才會出現藍線。
 
-   > [!NOTE] 如果您想要檢視上一時段的使用情形，您必須前往「報表套裝使用情形 [](/help/admin/c-server-call-usage/report-suite-usage.md) 」標籤，並下載上一時段的使用情形資料。
+   > [!NOTE] 如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/c-server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
 
 * 列出使用的呼叫百分比 (百分比和原始資料)，以及實際使用期間的百分比 (百分比和原始資料)。
 * 預設情況下會每天更新，有 5 天的處理延遲。
