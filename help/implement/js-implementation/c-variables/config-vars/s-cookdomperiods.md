@@ -3,7 +3,7 @@ description: 動態變數可讓您直接在變數之間複製值，而無須在�
 keywords: Analytics Implementation
 solution: null
 title: 動態變數
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 若&#x200B;*`cookieDomainPeriods`* 設為 "3"，但網域僅包含兩個句號，則 JavaScript 檔案會在網站的子網域上設定 Cookie。例如，如果在網域 `www2.mysite.com` 上將 *`cookieDomainPeriods`* 設為「3」，則會在網域 `www2.mysite.com` 上建立 `s_cc` 和 `s_sq` Cookie。當訪客進入您的網站的其他子網域時 (例如 `www4.mysite.com`)，所有以 `www2.mysite.com` 設定的 Cookie 都將無法讀取。
 
-> [!NOTE] 請勿將其他子網域納入其中 *`cookieDomainPeriods`*。 例如，`store.toys.mysite.com` 仍會將 *`cookieDomainPeriods`* 設為「2」。此變數定義會在根網域 [!DNL mysite.com] 上正確設定 Cookie。在此範例中將 *`cookieDomainPeriods`* 設為「3」，將會在網域 [!DNL toys.mysite.com] 上設定 Cookie，其意涵與上一個範例相同。
+> [!NOTE] 請勿將其他子網域加入為 *`cookieDomainPeriods`* 的一部分。例如，`store.toys.mysite.com` 仍會將 *`cookieDomainPeriods`* 設為「2」。此變數定義會在根網域 [!DNL mysite.com] 上正確設定 Cookie。在此範例中將 *`cookieDomainPeriods`* 設為「3」，將會在網域 [!DNL toys.mysite.com] 上設定 Cookie，其意涵與上一個範例相同。
 
-另請參閱 [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
+另請參閱 [s.fpCookieDomainPeriods](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-account.html)。
 
 | 最大尺寸 | 偵錯器參數 | 填充報表 | 預設值 |
 |---|---|---|---|
@@ -65,4 +65,4 @@ if(window.location.indexOf(".co.jp") > 0 || window.location.indexOf(".com.au") >
 * 如果您發現訪客點按對映資料不存在，或[!UICONTROL 流量] &gt; [!UICONTROL 技術] &gt; [!UICONTROL Cookie] 報表顯示有很大比例的訪客拒絕 Cookie，請檢查 *`cookieDomainPeriods`* 的值是否正確無誤。
 
 * 如果 *`cookieDomainPeriods`* 大於網域中的區段數，則會以完整網域設定 Cookie。這可能會導致訪客在不同子網域之間切換時遺失資料。
-* 此   *`cookieDomainPeriods`* 變數在 *`trackingServer`* 之前的已遭取代實施中是用來設定訪客 ID Cookie。雖然僅存在於過時的程式碼中，但在此情況下，如果無法正確定義 *`cookieDomainPeriods`*，將會讓您的實施面臨資料遺失的風險。
+* 此    *`cookieDomainPeriods`* 變數在 *`trackingServer`* 之前的已遭取代實施中是用來設定訪客 ID Cookie。雖然僅存在於過時的程式碼中，但在此情況下，如果無法正確定義 *`cookieDomainPeriods`*，將會讓您的實施面臨資料遺失的風險。
