@@ -1,8 +1,8 @@
 ---
-description: 說明尋找量度排序和篩選的兩種主要方式。
+description: '說明尋找量度的兩種主要方法: 排序和篩選。'
 title: 尋找量度
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 說明尋找量度的兩個主要方法: 排序和篩選。
 
-## 排序 {#section_89F9C4D515084F5796F2A54D468BF6C8}
+## 排序{#section_89F9C4D515084F5796F2A54D468BF6C8}
 
 開啟報表並按一下報表左側的「量度」圖示 ![](assets/metrics_icon.png) 帶出量度邊欄，量度選擇器中的「**排序依據]」下拉式清單會顯示四個排序選項:[!UICONTROL **
 
@@ -25,9 +25,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 經常使用 | 適用於當您是新手使用者，需了解哪些是報表常用量度時。 |
 | 最近使用 | 適用於當您在專案中工作，且會一再使用同一組量度時。 |
 
-## 篩選 - 進階選擇 {#section_33818CC048C04F098703AC229693F8CA}
+## 篩選 - 進階選擇{#section_33818CC048C04F098703AC229693F8CA}
 
-When you open a report and click the Metrics icon, then click **[!UICONTROL Manage]**. 現在按一下「篩選」圖示。您可用數種方法進行篩選。
+開啟報表並按一下「量度」圖示，接著按一下&#x200B;**[!UICONTROL 「管理」]**。現在按一下「篩選」圖示。您可用數種方法進行篩選。
 
 ![](assets/cm_advanced_sel.png)
 
