@@ -1,13 +1,13 @@
 ---
-title: 實作Adobe Analytics
+title: 實作 Adobe Analytics
 description: 'null'
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ---
 
 
-# 實作Adobe Analytics
+# 實作 Adobe Analytics
 
 ![橫幅](../../assets/doc_banner_implement.png)
 
@@ -16,7 +16,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 * **Dynamic Tag Management:** Launch 的前身。DTM 使用類似介面來實作 Analytics，但已不再更新，而且也不是那麼有彈性。Adobe 建議使用 Launch 來實作 Adobe Analytics。
 * **舊版 JavaScript:** 舊版手動實作 Adobe Analytics 的方法。概述實作中使用的變數和設定，這對使用自訂程式碼規則的 Launch 實作來說很有用。
 
-## 關鍵Analytics實作文章
+## 重要 Analytics 實施文章
 
 * [Adobe Debugger](impl-testing/debugger.md)
 * [在 Experience Platform Launch 中建立屬性](implement-with-launch/create-analytics-property.md)
@@ -29,7 +29,7 @@ source-git-commit: 3669f5d5ad81d9adab2d1ed0628de251bec3a90b
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
