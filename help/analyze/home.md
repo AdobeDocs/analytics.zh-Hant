@@ -1,7 +1,7 @@
 ---
 title: Analysis Workspace 說明
-description: 分析工作區、Activity Map、報告建立工具、報告API和報告與分析的產品檔案與自助（先前稱為Omniture Analytics產品）。
-translation-type: tm+mt
+description: Analysis Workspace、Activity Map、Report Builder、報表 API 和 Reports & Analytics (前身為 Omniture Analytics 產品) 的產品文件與自助資源。
+translation-type: ht
 source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ---
@@ -11,14 +11,14 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ![橫幅](../../assets/doc_banner_analyze.png)
 
-本指南提供以下Adobe Analytics報告與分析工具的產品檔案和自助：
+本指南提供以下 Adobe Analytics 報表與分析工具的產品文件和自助資源:
 
-* **分析工作區**:Adobe Analytics中最重要的功能。 Workspace 提供畫布，可讓您拖曳元件以符合報告需求。
-* **活動圖**:瀏覽器外掛程式，可顯示網站上的覆蓋圖，顯示哪些元素被點按的次數最多。
-* **臨機分析**:具備強穩報告功能的獨立Java應用程式。 此工具已不再更新，最終將於未來停止服務。
-* **報告API**:直接向Adobe的伺服器進行報表查詢，並取得回應以用於您自己的客戶報表工具。
-* **報告建立工具**:Excel增益集，可讓您擷取Analytics資料並直接放入活頁簿中。
-* **報告與分析**:具備數十種預建報表的工具。 Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。
+* **[!UICONTROL Analysis Workspace]:** Adobe Analytics 中最重要的功能。Workspace 提供畫布，可讓您拖曳元件以符合報告需求。
+* **[!UICONTROL Activity Map]:** 此瀏覽器外掛程式會在您的網站上顯示覆蓋圖，覆蓋圖上可看見哪些元素的點擊次數最多。
+* **[!UICONTROL Ad Hoc Analysis]:** 具備強大報告功能的獨立 Java 應用程式。此工具已不再更新，最終將於未來停止服務。
+* **[!UICONTROL 報表 API]:** 直接向 Adobe 的伺服器提出報表查詢並取得回應，以便在您自己的客戶報告工具中使用。
+* **[!UICONTROL Report Builder]:** 此 Excel 增益集可讓您擷取 Analytics 資料，並將其直接放入活頁簿中。
+* **[!UICONTROL Reports &amp; Analytics]:** 此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。
 
 ## 重要 Analytics 工具文章
 
@@ -32,7 +32,7 @@ source-git-commit: d3071ea852e98f447d51c0511a6a8fff642a8fe2
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
-* [Analytics論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
-* [Adobe Analytics資源](https://forums.adobe.com/message/10660755)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
+* [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
