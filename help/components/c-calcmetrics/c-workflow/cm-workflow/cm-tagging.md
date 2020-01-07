@@ -2,7 +2,7 @@
 description: 在計算量度管理員中，您可透過將區段進行標記來組織區段。
 title: 標記計算量度
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. 按一下「**[!UICONTROL 標記]」，然後**
 
    * 選取現有標記或是
-   * add a new tag name in the Add Tags/Search dialog box and press **[!UICONTROL Enter]**.
+   * 在「新增標記/搜尋」對話方塊中新增標記名稱，然後按 **[!UICONTROL Enter]**。
 
       ![](assets/cm_add_tags.png)
 
@@ -31,4 +31,4 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 標記現在應該出現在「標記」欄中。(按一下右上方的齒輪圖示來管理您的欄。)
 
-You can also filter on tags by going to **[!UICONTROL Show Filters]** &gt; **[!UICONTROL Tags]**.
+您也可以前往&#x200B;**[!UICONTROL 顯示篩選器]** &gt; **[!UICONTROL 標記]**，依標記進行篩選。
