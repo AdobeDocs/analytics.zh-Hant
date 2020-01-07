@@ -6,123 +6,118 @@ title: getTimeParting
 topic: Developer and implementation
 uuid: 74f696a3-7169-4560-89b2-478b3d8385e1
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 73d20b23e38bc619c156c418c95096a94d2fdfce
 
 ---
 
 
 # getTimeParting
 
-getTimeParting 外掛程式會在自訂變數中填入小時、星期幾、週末與工作日等自訂變數。Analysis Workspace 提供立即可用的時間分段維度。當 [!UICONTROL Analysis Workspace] 之外的其他 Analytics 解決方案需要使用時間分段維度時，應使用此外掛程式。
+getTimeParting外掛程式提供完整的分析解決方案，可讓您擷取網站上發生任何可測量活動的詳細時間。
 
-此外掛程式會擷取使用者網頁瀏覽器中可用的日期與時間資訊。它會從這項資訊中取得一天中的某小時與一週中的某天。接著，它會將這項資料轉換成您所選擇的時區。它也會反映日光節約時間。
+如果您想要依指定日期範圍內任何可重複的時間劃分來劃分量度，則應使用getTimeParting外掛程式。  例如，getTimeParting外掛程式可讓您比較一週中兩天（例如所有週日與所有週四）、一天中兩個不同時段（例如所有上午與所有晚上），或甚至兩分鐘後（例如所有10:00 AM例項與所有10:01 AM例項）的轉換率您在報表中指定的日期範圍。
+
+[!DNL Analysis Workspace] 提供類似的現成可用維度，其格式與此外掛程式的格式略有不同(請參 [閱](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.html))。  Adobe Consulting建議您閱讀本說明章節的其餘部分，以判斷此外掛程式是否以更符合您需求的方式提供資料。
+
+如果您不需要依特定日期範圍的可重複時間劃分量度，則不需要使用getTimeParting外掛程式。  此外，如果您發現「時 [!DNL Analysis Workspace] 間分割維度」足夠，則不需要實作此外掛程式。
+
+>[!CAUTION] getTimeParting外掛程式4.0+版提供的解決方案與舊版外掛程式提供的解決方案大不相同。  如果您選擇從4.0之前的版本升級，您應「從頭開始」實作解決方案。  換言之，您應設定全新的eVar —— 一個eVar —— 以保存外掛程式提供的資料，並在實作解決方案之前仔細閱讀本檔案。
+
+>[!CAUTION] 此外：此版本的外掛程式與 *Microsoft Internet* explorer瀏覽器不完全相容，但外掛程式與Microsoft edge瀏覽器完全相容。   使用Internet explorer的訪客將可提供時間，但只能在其本地 *時區* ，而不能轉換為您指定的時區。  請參閱下列範例，以取得不會包含Internet explorer瀏覽器資料，但仍會說明其存在狀況的解決方案。
 
 > [!NOTE]下列指示會要求您變更網站上的資料收集程式碼。此動作可能會影響到您網站上的資料收集，因此應由懂得使用及實施 [!DNL Analytics] 的開發人員執行。
 
-## 外掛程式程式碼 {#section_1390D6FA53BE4C40B748B0C0AE09C4FA}
+> [!WARNING] 在部署至生產環境之前，請務必先測試所有外掛程式實作，以確保資料收集如預期般運作。
 
-**設定區段**
+## 必備條件
 
-將下列程式碼放入 [!DNL s_code.js] 檔案中標示為 [!UICONTROL CONFIG SECTION] 的區域中，並依照下列說明進行必要的更新。
+無
 
-`s._tpDST` - DST 值的陣列。陣列結構的格式如下: `YYYY:'MM/DD,MM/DD'`
+## 實施方式
 
-```js
-//time parting configuration 
-//Australia 
-s._tpDST = { 
-2012:'4/1,10/7', 
-2013:'4/7,10/6', 
-2014:'4/6,10/5', 
-2015:'4/5,10/4', 
-2016:'4/3,10/2', 
-2017:'4/2,10/1', 
-2018:'4/1,10/7', 
-2019:'4/7,10/6',
-2020:'4/5,10/4',
-2021:'4/4,10/3'} 
-  
-//US 
-s._tpDST = { 
-2012:'3/11,11/4', 
-2013:'3/10,11/3', 
-2014:'3/9,11/2', 
-2015:'3/8,11/1', 
-2016:'3/13,11/6', 
-2017:'3/12,11/5', 
-2018:'3/11,11/4', 
-2019:'3/10,11/3',
-2020:'3/8,11/1',
-2021:'3/14,11/7'} 
-  
-//Europe 
-s._tpDST = { 
-2012:'3/25,10/28', 
-2013:'3/31,10/27', 
-2014:'3/30,10/26', 
-2015:'3/29,10/25', 
-2016:'3/27,10/30', 
-2017:'3/26,10/29', 
-2018:'3/25,10/28', 
-2019:'3/31,10/27',
-2020:'3/29,10/25',
-2021:'3/28,10/31'}
-```
+* 複製+貼上下列程式碼至AppMeasurement程式碼之「外掛程式」區段內的任意位置：
 
-南半球用戶端注意: 在陣列中，DST 值為 DST start, DST end。
+```function getTimeParting(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(new Date).toLocaleDateString("en-US",{timeZone:a, minute:"numeric",hour:"numeric",weekday:"long",day:"numeric",year:"numeric",month:"long"});a=/([a-zA-Z]+).*?([a-zA-Z]+).*?([0-9]+).*?([0-9]+)(.*?)([0-9])(.*)/.exec(a);return"year="+a[4]+" | month="+a[2]+" | date="+a[3]+" | day="+a[1]+" | time="+(a[6]+a[7])}```
 
-北半球用戶端注意: 在陣列中，DST 值為 DST end, DST start。
+> [!NOTE] 您也可以使用Adobe Launch等標籤管理程式來部署外掛程式程式程式碼，而不需將它附加至AppMeasurement或任何其他分析解決方案
 
-**參數**
+* 如下所述，在doPlugins函式中或您需要擷取時間分割資料的任何其他位置執行getTimeParting函式
 
-```js
-var tp = s.getTimeParting(h,z);
-```
+**要傳入的參數**
 
-* h = (必要) 半球 - 指定您要將時間轉換為哪個半球。這是 'n'或 's' 的值。這是用來決定如何使用傳遞的 DST 陣列。如果傳遞 'n'，則外掛程式會在 DST 開啟時使用日期。如果傳遞 's'，則外掛程式會在 DST 關閉時使用日期。
-* z = (選用) 時區 - 如果您想要資料根據特定時段，則該時段將需要指定為不同於這裡 GMT 的時間。請注意，在非 DST 期間，這應該是 GMT。如果未指定任何值，則它會預設為 GMT (例如，'-5' 表示美國東部時間)
+* t:(**可選**，但建議使用字串)將訪客的當地時間轉換為的時區名稱。  預設為「Etc/GMT」，或未設定時的UTC/GMT時間。  請造 [訪https://en.wikipedia.org/wiki/List_of_tz_database_time_zones] ，以取得要輸入的完整值清單。
 
-**傳回**
+常見值包括：
 
-以分鐘層次及一週中的某天傳回連結的時間值，例如:
+* 東部時間的&quot;America/New_York&quot;
+* 《美洲／芝加哥》(America/Chicago)
+* 《美洲／丹佛》
+* 太平洋時間的&quot;美國／洛杉磯&quot;
 
-```
-8:03 AM|Monday
-```
+## 傳回
 
-然後，您可以使用[分類](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)，將瀏覽分組為不同時段。例如，您可以在 Classification Rule Builder 中設定一個規則，將 9:00 AM 與 9:59 AM 之間的瀏覽分裝為 "9:00 AM - 10:00 AM"。作為分類的替代方案，您可以提供額外的用戶端邏輯，以 JavaScript 分裝瀏覽。
+getTimeParting外掛程式會傳回包含下列項目的字串：
 
-**範例呼叫**
+* 本年度
+* 當月
+* 目前日期（即當月的某天）
+* 當天（即一週中的某天）
+* 當前時間（非軍事時間）
 
-```js
-var tp = s.getTimeParting('n','-7'); 
-s.prop1 = tp;
-```
+上述各項目均以垂直號(&quot;|&quot;)字元分隔。
 
-**外掛程式區段**
+## 呼叫範例
 
+如果您位於法國巴黎，且想要使用eVar10（在Adobe Analytics中）來擷取時間分段資料，請使用下列程式碼：
 
-將下列程式碼新增至 [!UICONTROL  檔案中的 ]PLUGINS SECTION[!DNL s_code.js]。
+```s.eVar10 = getTimeParting("Europe/Paris")```
 
-```js
-/* 
- * Plugin: getTimeParting 3.4 
- */ 
-s.getTimeParting=new Function("h","z","" 
-+"var s=this,od;od=new Date('1/1/2000');if(od.getDay()!=6||od.getMont" 
-+"h()!=0){return'Data Not Available';}else{var H,M,D,U,ds,de,tm,da=['" 
-+"Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturda" 
-+"y'],d=new Date();z=z?z:0;z=parseFloat(z);if(s._tpDST){var dso=s._tp" 
-+"DST[d.getFullYear()].split(/,/);ds=new Date(dso[0]+'/'+d.getFullYea" 
-+"r());de=new Date(dso[1]+'/'+d.getFullYear());if(h=='n'&&d>ds&&d<de)" 
-+"{z=z+1;}else if(h=='s'&&(d>de||d<ds)){z=z+1;}}d=d.getTime()+(d.getT" 
-+"imezoneOffset()*60000);d=new Date(d+(3600000*z));H=d.getHours();M=d" 
-+".getMinutes();M=(M<10)?'0'+M:M;D=d.getDay();U=' AM';if(H>=12){U=' P" 
-+"M';H=H-12;}if(H==0){H=12;}D=da[D];tm=H+':'+M+U;return(tm+'|'+D);}");
-```
+如果您位於加州聖荷西，請使用下列程式碼：
 
-**附註**
+```s.eVar10 = getTimeParting("America/Los_Angeles")```
 
-* 在部署至生產環境前，請務必對外掛程式安裝進行測試，以確保資料收集可如預期運作。
-* 必須設定組態變數，外掛程式才能正常運作。
+如果您位於非洲國家的迦納，請使用下列程式碼：
 
+```s.eVar10 = getTimeParting();```
+
+迦納處於UTC/GMT時區內。  因此，此示例說明在這種情況下不需要插件引數。
+
+如果您位於紐約且不想包含來自Internet explorer訪客的資料，請使用下列程式碼（因為IE瀏覽器傳回的值只能在訪客的當地時間提供）
+
+```if(!document.documentMode) s.eVar10 = getTimeParting("America/New_York");```
+```else s.eVar10 = "Internet Explorer Visitors";```
+
+**呼叫結果**
+
+如果來自科羅拉多州丹佛市的訪客於2020年8月31日上午9:15瀏覽網站，請使用下列程式碼……
+
+```s.eVar10 = getTimeParting("Europe/Athens");```
+
+...會將s.eVar10設為 **year=2020|月=八月| date=31| day=星期一|時間=6:15 PM**
+
+下列程式碼……
+
+```s.eVar10 = getTimeParting("America/Nome");```
+
+...會改為將s.eVar10設為 **year=2020|月=八月| date=31| day=星期一|時間=6:15 AM**
+
+下列程式碼……
+
+```s.eVar10 = getTimeParting("Asia/Calcutta");```
+
+...會改為將s.eVar10設為 **year=2020|月=八月| date=31| day=星期一|時間=8:45 PM**
+
+下列程式碼……
+
+```s.eVar10 = getTimeParting("Australia/Sydney");```
+
+...會改為將s.eVar10設為 **year=2020|月=九月|日期=1| day=星期二|時間=1:15 AM**
+
+## Adobe Analytics設定
+
+如果您想在Adobe Analytics中擷取時間分段資料，請設定具有下列特性的新eVar:
+
+* 名稱：時間分割
+* 配置：最近（最後一個）
+* 過期時間：瀏覽
+* 所有其他屬性使用提供的預設值
