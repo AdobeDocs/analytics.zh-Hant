@@ -3,7 +3,7 @@ description: 有關客戶屬性的 Analytics 常見問題，以及如何執行�
 solution: Experience Cloud,Analytics
 title: 客戶屬性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -13,34 +13,34 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 有關客戶屬性的 Analytics 常見問題，以及如何執行「客戶屬性」報表。
 
-**[!UICONTROL 報表]** &gt;訪客資料 **[!UICONTROL &gt;客]****[!UICONTROL 戶屬性]**
+**[!UICONTROL 報表]**&gt; **[!UICONTROL 訪客資料]** &gt; **[!UICONTROL 客戶屬性]**
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。資料上傳後，您可以執行 Reports &amp; Analytics 中的「客戶屬性」報表。
 
 * [Analytics 中的客戶屬性和報表量度](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_EF343662146B460A882D3DF772ADD86D)
 * [常見問題集 - Analytics 中的客戶屬性](/help/components/c-variables/dimensionslist/reports-customer-attributes.md#section_E29641D1F3D649C1AC9EA5231921F038)
 
-如需有關上傳客戶屬性資料的詳細資訊，請參閱 Experience Cloud 說明中的[客戶屬性](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)。
+如需有關上傳客戶屬性資料的詳細資訊，請參閱 Experience Cloud 說明中的[客戶屬性](https://marketing.adobe.com/resources/help/zh_TW/mcloud/attributes.html)。
 
-## Analytics 中的客戶屬性和報表量度 {#section_EF343662146B460A882D3DF772ADD86D}
+## Analytics 中的客戶屬性和報表量度{#section_EF343662146B460A882D3DF772ADD86D}
 
-在您上傳客戶屬性並驗證結構（在Experience Cloud中）後，系統會根據您對應至屬性字串和整數的好記名稱(如 *`age`* 或 *`gender`*)建立量度。 These metrics appear in **[!UICONTROL Visitor Profile]** &gt; **[!UICONTROL Customer Attributes]** reports.
+上傳客戶屬性並驗證結構後 (在 Experience Cloud 中)，系統會根據您對應至屬性字串和整數的好記名稱 (如 *`age`* 或 *`gender`*) 建立量度。這些量度會出現在&#x200B;**[!UICONTROL 訪客資料]** &gt; **[!UICONTROL 客戶屬性]**&#x200B;報表中。
 
 例如:
 
-**[!UICONTROL 訪客資料]** &gt;客 **[!UICONTROL 戶屬性]** &gt;年 **[!UICONTROL 齡]**
+**[!UICONTROL 訪客資料]** &gt; **[!UICONTROL 客戶屬性]** &gt; **[!UICONTROL 年齡]**
 
 ![](assets/report_age.png)
 
 **範例 - 年齡量度**
 
-若您指定字串為 *`age`*, the system creates the following metrics and dimensions:
+若您指定字串為&#x200B;*`age`*，系統會建立以下量度和維度:
 
 * 年齡維度: 可讓您根據年齡屬性執行報表。
 * 年齡量度: 可新增至報表的量度，如「唯一訪客」報表。
 * 年齡量度計數: 可讓您瞭解，舉例來說，訪客是否在表單上指定&#x200B;*`age`*&#x200B;值。
 
-因為量度是報表表格中的總和，所以您應:  [建立計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)用於提供平均年齡。此度量的公式為 `Age / Count of Age`。
+因為量度是報表表格中的總和，所以您應:    [建立計算量度](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)用於提供平均年齡。此量度的公式為 `Age / Count of Age`。
 
 ## 常見問題集 - Analytics 中的客戶屬性 {#section_E29641D1F3D649C1AC9EA5231921F038}
 
@@ -53,12 +53,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>為什麼最好使用Identity service來設定客戶ID，而不是將客戶ID填入prop或eVar? </p> </td> 
-   <td colname="col2"> <p>使用Identity service可提供許多優點： </p> 
+   <td colname="col1"> <p>為什麼不在 prop 或 eVar 中填入客戶 ID，而是使用 Identity Service 來設定客戶 ID 比較好? </p> </td> 
+   <td colname="col2"> <p>使用 Identity Service 具備許多優點: </p> 
     <ul id="ul_5D3659604D43419F9CA5920B4F93728E"> 
-     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">如果您未使用Identity service設定客戶ID，則客戶記錄僅能用於Adobe Analytics。 如果您想要使用客戶記錄進行即時定位，則必須使用Identity Service。 </li> 
-     <li id="li_228358684E474A298E39578D427BF932">使用Identity service設定客戶ID可縮短同步ID與Experience cloud的時間。 如果將客戶 ID 放在 prop 或 eVar 中，會透過後端伺服器同步將客戶 ID 傳送至 Experience Cloud，這種同步為批次執行。Identity service會立即將客戶ID與Experience cloud同步。 </li> 
-     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> 使用Identity service而非prop或eVar可釋放該prop或eVar供其他用途。 </li> 
+     <li id="li_BA2EF0715C5A47EFAFA7191CFAD088A4">若您不是用 Identity Service 設定客戶 ID，客戶記錄將只能供 Adobe Analytics 使用。如果想將客戶記錄用於即時定位，就必須使用 Identity Service。 </li> 
+     <li id="li_228358684E474A298E39578D427BF932">使用 Identity Service 設定客戶 ID，可縮短與 Experience Cloud 同步 ID 的時間。如果將客戶 ID 放在 prop 或 eVar 中，會透過後端伺服器同步將客戶 ID 傳送至 Experience Cloud，這種同步為批次執行。Identity Service 會立即與 Experience Cloud 同步客戶 ID。 </li> 
+     <li id="li_BCF28219E4014FCF9F747C3D8D270526"> 使用 Identity Service 來代替 prop 或 eVar，可釋出 prop 或 eVar 以用於其他用途。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的 CRM 屬性將如何出現在 Adobe Analytics 中? </p> </td> 
-   <td colname="col2"> <p>CRM 屬性將出現在 Reports &amp; Analytics、Ad Hoc Analysis、報表 API、Report Builder。文字屬性將以報表/維度呈現。數字屬性將同時以維度和量度呈現。 </p> </td> 
+   <td colname="col2"> <p>CRM 屬性將出現在 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis、Reporting API、Report Builder。文字屬性將以報表/維度呈現。數字屬性將同時以維度和量度呈現。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CRM 資料可以用於 Data Warehouse 和資料摘要中嗎? </p> </td> 
