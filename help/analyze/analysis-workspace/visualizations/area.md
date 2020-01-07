@@ -2,7 +2,7 @@
 description: 'null'
 title: 區域圖和堆疊區域圖
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/area.png)
 
-## Area stacked {#section_922BBC5A6D254778A050DF710B0BD8D9}
+## 堆疊區域圖 {#section_922BBC5A6D254778A050DF710B0BD8D9}
 
 此視覺效果類似區域圖，但各數列始於前一個數列的頂端。
 
