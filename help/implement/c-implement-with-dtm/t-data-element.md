@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;data element;create new data element;name;type;
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立資料元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,15 +26,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </thead> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>名稱</strong></td> 
-      <td class="chdesc stentry"> <p>行銷人員看得懂的資料元素易記名稱。例如， 
-         
+      <td class="chdesc stentry"> <p>行銷人員看得懂的資料元素易記名稱。例如, 
         <code>
           Product ID
         </code>. </p> <p> <p>注意: 規則產生器會參考名稱，而不是 ID。如果您變更資料元素的名稱，您必須在使用該元素的每個規則中變更其參考。 </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>類型</strong></td> 
-      <td class="chdesc stentry"> <p> 指定提取資料的來源，例如 JS 物件、CSS 選擇器、Cookie、URL 參數或自訂指令檔。 </p> <p>視您選取的類型而定，會顯示不同的選項。如需詳細資訊與範例，請參閱動態標籤管理產品文件中的<a href="https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html">資料元素類型</a>。 </p> </td> 
+      <td class="chdesc stentry"> <p> 指定提取資料的來源，例如 JS 物件、CSS 選擇器、Cookie、URL 參數或自訂指令檔。 </p> <p>視您選取的類型而定，會顯示不同的選項。如需詳細資訊與範例，請參閱動態標籤管理產品文件中的<a href="https://marketing.adobe.com/resources/help/zh_TW/dtm/data_elements.html">資料元素類型</a>。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>預設值</strong></td> 
@@ -55,5 +54,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </tr> 
    </table>
 
-   如需有關如何使用資料元素的詳細資訊，請參閱 Adobe 標籤管理產品文件中的[資料元素](https://marketing.adobe.com/resources/help/en_US/dtm/data_elements.html)。
+   如需有關如何使用資料元素的詳細資訊，請參閱 Adobe 標籤管理產品文件中的[資料元素](https://marketing.adobe.com/resources/help/zh_TW/dtm/data_elements.html)。
 1. 按一下&#x200B;**[!UICONTROL 儲存資料元素]**。
