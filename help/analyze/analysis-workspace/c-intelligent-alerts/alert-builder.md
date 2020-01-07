@@ -2,7 +2,7 @@
 description: 'null'
 title: 警報產生器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->智慧提醒僅適用於Adobe Analytics Prime和Adobe Analytics Ultimate客戶。
+>智慧型警報僅供 Adobe Analytics Prime 與 Adobe Analytics Ultimate 的客戶使用。
 
 ## 存取警報產生器
 
@@ -21,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 在 Analysis Workspace 中使用下列快速鍵:
 
    `ctrl (or cmd) + shift + a`
-* By going to **[!UICONTROL Workspace]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL New Alert]**.
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* From within a Reports &amp; Analytics report, by going to **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
+* 前往&#x200B;**[!UICONTROL 工作區]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 新增警報]**。
+* 選取一或多個自由表格條列項目，按一下滑鼠右鍵並選取&#x200B;**[!UICONTROL 「從選取項目建立警報」]**。
+* 在「Reports &amp; Analytics」報表中，前往&#x200B;**[!UICONTROL 「更多]** &gt; **[!UICONTROL 新增警報」]**。
 
-## 建立警報
+## 產生警報
 
 警報產生器的介面與在 Analytics 中建立區段或計算量度類似:
 
@@ -41,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 指定您希望檢查量度的時間: 每小時、每日、每週或每月。
 
-> [!NOTE] 對於具有自訂日曆的報表套裝，我們不支援警報產生器中的每月詳細程度。
+> [!NOTE] 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
 
 **收件者**
 
@@ -49,9 +49,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->The phone number must be preceded by a "+" and a [country code](https://countrycode.org/).
+>電話號碼前面必須加上「+」號和[國家/地區代碼](https://countrycode.org/)。
 
-在觸發警報後，使用者會收到的電子郵件看起來類似：
+一旦觸發警報，使用者收到的電子郵件顯示如下:
 
 ![](assets/alerts-email.PNG)
 
@@ -65,7 +65,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 拖放量度到畫布以新增觸發。
 
-   An **"incompatible components"** message will appear if not all the components (metrics/dimensions/segments) in the alert are compatible with the currently selected report suite.
+   如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，系統會顯示&#x200B;**「不相容的元件」**&#x200B;訊息。
 * 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件:
 
    * 存在異常
