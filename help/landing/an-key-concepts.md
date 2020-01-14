@@ -103,7 +103,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 方法/資源 | 說明 | 文件連結 |
 |--- |--- |--- |
 | 開發人員資源 | 概述可用於收集所有可用平台 (網路、行動應用程式、視訊、Flash 等) 之 Analytics 資料之程式庫的文件 | [開發人員文件](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-| 實施指引 | 說明資料收集變數，並詳述如何在 JavaScript 中實施資料收集程式碼。 | [實施指南](實作https://docs.adobe.com/content/help/zh-Hant/analytics/home.html) |
+| 實施指引 | 說明資料收集變數，並詳述如何在 JavaScript 中實施資料收集程式碼。 | [實施指南](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/home.html) |
 | App Measurement (s_code) | 全域變數管理 | [AppMeasurement](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | 應用程式 SDK | 可自訂套裝，包含應用程式設定檔的預先填入版本。 | <ul><li>[iOS 應用程式](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM 和 Adobe Launch | 請參閱 Analytics 工具。 |  |
