@@ -1,10 +1,10 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics Analyze Guide
+user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [工作區總計](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [Workspace 總計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 元件 {#components}
       + [元件概觀](analysis-workspace/components/analysis-workspace-components.md)
       + 維度 {#dimensions}
@@ -83,7 +83,7 @@ source-git-commit: 0dfe0f4519ca77363344e33490151f215a689b10
          + [使用歸因面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [歸因常見問題集](analysis-workspace/c-panels/attribution/attribution-faq.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + Segment comparison {#segment-comparison}
+      + 區段比較 {#segment-comparison}
          + [區段 IQ 概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [區段 IQ 使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
