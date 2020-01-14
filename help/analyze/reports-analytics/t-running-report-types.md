@@ -4,7 +4,7 @@ title: 執行不同的報表類型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
 
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. Generate a report, such as a [!UICONTROL Pages Report] ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**).
-1. 在報表標題中，按一下&#x200B;**[!UICONTROL 排名]**。
+1. 產生報表，例如[!UICONTROL 頁面報表] (**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;網站內容]** > **[!UICONTROL 頁面]**)。
+1. 在報告標題中，按一下&#x200B;**[!UICONTROL 排名]**。
 1. 若要將報告排名，請按一下表格中的欄標題。
 
    排名報告最多可在表格中列示 200 個項目 (例如產品、類別、網頁等等) 和 10 個度量 (收入、訂購、檢視等等)。
@@ -44,8 +44,8 @@ t_reports_trended.xml
 
 **若要執行趨勢報告**
 
-1. Run a conversion or traffic report, such as **[!UICONTROL Reports]** &gt; **[!UICONTROL Site Content]** &gt; **[!UICONTROL Pages]**.
-1. Under **[!UICONTROL Report Type]**, click **[!UICONTROL Trended.]**
+1. 執行轉換或流量報表，例如「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;網站內容]** > **[!UICONTROL 頁面]**」。
+1. 在&#x200B;**[!UICONTROL 報告類型]**下，按一下**[!UICONTROL &#x200B;趨勢]**。
 
 ## 執行轉換漏斗報告 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,7 +57,7 @@ t_reports_conversion_funnel.xml
 
  -->
 
-To run this report, select a report, such as a Pages report ( **[!UICONTROL Reports]** &gt; **[!UICONTROL Campaigns]** &gt; **[!UICONTROL Tracking Code]** &gt; **[!UICONTROL Campaign Conversion Funnel]**).
+若要執行此報表，請選取一個報表 (例如「頁面」報表) (**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;促銷活動]** > **[!UICONTROL 追蹤代碼]**>**[!UICONTROL &#x200B;促銷活動轉換漏斗]**)。
 
 如需相關說明，請參閱[轉換報告](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)。
 
@@ -73,13 +73,13 @@ t_reports_fallout.xml
 
 查看 Analysis Workspace 新的[流失分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)面板!
 
-1. In [!UICONTROL Adobe Analytics], click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Fallout]**.
-1. On the [!UICONTROL Fallout Report] page, click **[!UICONTROL Launch the Fallout Report Builder]**.
+1. 在 [!UICONTROL Adobe Analytics] 中，按一下「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;路徑]** > **[!UICONTROL 頁面]**>**[!UICONTROL &#x200B;流失]**」。
+1. 在[!UICONTROL 流失報告]頁面上，按一下&#x200B;**[!UICONTROL 啟動流失 Report Builder]**。
 
    ![步驟結果](assets/fallout_add_items.png)
 
 1. 在[!UICONTROL 定義查核點]頁面上，指定您想用於報告的查核點。
-1. Click **[!UICONTROL Run Report]**.
+1. 按一下「**[!UICONTROL 運行報表]**」。
 
    ![步驟結果](assets/fallout_report.png)
 
@@ -92,17 +92,11 @@ t_reports_fallout.xml
 
 「頁面流程報告」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報告可協助解答
 
-<!-- 
-
-t_reports_page_flow.xml
-
- -->
-
 查看 Analysis Workspace 新的[流量視覺化](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)!
 
 執行[路徑](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html)報告。
 
-For example, click **[!UICONTROL Reports]** &gt; **[!UICONTROL Paths]** &gt; **[!UICONTROL Pages]** &gt; **[!UICONTROL Next Page Flow]**.
+例如，按一下「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;路徑]** > **[!UICONTROL 頁面]**>**[!UICONTROL &#x200B;下一頁流量]**」。
 
 ![](assets/page_flow.png)
 
@@ -126,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. Click **[!UICONTROL Reports]** &gt; **[!UICONTROL Products]** &gt; [Products Conversion Funnel](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html).
+1. 按一下「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;產品]** > [產品轉換漏斗](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html)」。
 
 ## 執行行銷管道報告 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -152,7 +146,7 @@ t_anomaly_view.xml
 
 查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)功能!
 
-**[!UICONTROL 報表]** &gt;網 **[!UICONTROL 站量度]** &gt; **[!UICONTROL 異常偵測]** 。
+**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;網站量度]** > **[!UICONTROL 異常偵測]**。
 
 > [!NOTE] 您也可以從分析工作區專案中執行異常偵測。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
 
@@ -217,11 +211,11 @@ t_anomaly_config.xml
 
 您可以分別設定各個報告套裝的異常偵測。
 
-1. 導覽至「**[!UICONTROL Analytics &gt; 報表 &gt; 網站量度 &gt; 異常偵測]**。
+1. 導覽至「**[!UICONTROL Analytics > 報表 > 網站量度 > 異常偵測]**。
 1. 選擇您要每日追蹤異常偵測的報告套組。若要顯示報表套裝，請按一下報表套裝選取器下拉式功能表。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]** at the top right of the screen:  ![](assets/metrics_icon.png).
+1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:![](assets/metrics_icon.png).
 
-   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. Once the report has been generated, define the **[!UICONTROL Training Period]** and the **[!UICONTROL View Period]** for anomaly detection. (可以將訓練時段視為演算法的「學習時段」。) 
+   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. (可以將訓練時段視為演算法的「學習時段」。) 
 
    ![](assets/view_training_periods.png)
 
@@ -232,7 +226,7 @@ t_anomaly_config.xml
 * 延長訓練時段可以讓擴大資料的範圍，而且可以減少異常的大小。
 
    每次您變更參數，異常偵測度量報告都會重新整理。
-1. (Optional) Apply segments to the report by clicking **[!UICONTROL Show Segments]** and selecting one or more existing segments or creating a new segment and applying it.
+1. (可選) 按一下「**[!UICONTROL 顯示區段]**」並選取一或多個現有區段或建立新區段並套用該區段，以套用區段至報表。
 
    ![](assets/ad_top_menu.png)
 
@@ -250,13 +244,13 @@ reports_realtime.xml
 
  -->
 
-**[!UICONTROL 報表 &gt; 網站量度 &gt; 即時]**。
+**[!UICONTROL 報表 > 網站量度 > 即時]**。
 
 即時報告提供兩個主要報告 - 概述報告和詳細報告。這些分別包含許多小報告。
 
 如需設定即時報告的資訊，請參閱[分析參考指南](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration)。
 
-1. Take a look at the **[!UICONTROL Overview]** report and its components:  ![](assets/rtr_overview_report.png)
+1. 檢視&#x200B;**[!UICONTROL 概述]**報告及其元件:![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -320,7 +314,7 @@ reports_realtime.xml
    </tr> 
    </table>
 
-1. Click a list item in the Primary Reportlet to launch the **[!UICONTROL Details]** view for that list item:  ![](assets/rtr_detail_report.png)
+1. 按一下主要小報告中的清單項目將啟動該清單項目的&#x200B;**[!UICONTROL 詳細資料]**檢視:![](assets/rtr_detail_report.png)
 
    | **項目趨勢小報告** | 對於最後 N 分鐘在概述報告中選取的項目顯現趨勢線。透過時間範圍選擇器即可設定 N。 |
    |---|---|
