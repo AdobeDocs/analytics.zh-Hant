@@ -1,8 +1,8 @@
 ---
-title: Analysis Workspace 說明
+title: Analytics 工具指南
 description: Analysis Workspace、Activity Map、Report Builder、報表 API 和 Reports & Analytics (前身為 Omniture Analytics 產品) 的產品文件與自助資源。
 translation-type: tm+mt
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
 
 ---
 
