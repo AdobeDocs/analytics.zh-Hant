@@ -5,7 +5,7 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 功能 | 說明 |
 |--- |--- |
 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組分析的重大改善可讓您:<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算: 根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
-| [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 &gt; 專案資訊與設定」，存取此設定。 |
+| [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
 | [支援歸因 IQ 中的多值變數](/help/analyze/analysis-workspace/attribution-iq/attribution.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將歸因 IQ 套用至這些點擊層級變數。 |
 | 改善效能 | 提升劃分視覺效果的速度，具有大量劃分的專案會更快載入。 |
 
@@ -246,7 +246,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的全新視覺化設定可讓圖表以「100% 堆疊」的視覺化方式呈現；因此，你可以測量相對比例。 </p> <p><img placement="break"  src="assets/stacked_100_percent.png" width="500px" id="image_ED9C94CE5EAF4500B1EF71BE8701B6D2" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="/help/analyze/analysis-workspace/virtual-analyst/virtual-analyst.md"  >「異常偵測」和「貢獻分析」</a>。 </p> </td> 
+   <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >「異常偵測」和「貢獻分析」</a>。 </p> </td> 
    <td colname="col2"> <p>「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。 </p> <p>請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在 Workspace 中只能存取「每日粒度」的異常偵測功能。 </p> </td> 
   </tr> 
  </tbody> 
@@ -706,7 +706,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>新增 <b><a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > 快速鍵 </a></b> </p> </td> 
+   <td colname="col1"> <p>New <b> <a href="/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md"  > Hotkeys </a></b> </p> </td> 
    <td colname="col2"> <p>已新增下列快速鍵: </p> 
     <ul id="ul_5AE965D910DA4883BC2067CDFDBBA75A"> 
      <li id="li_6DBD6DFB9CA54F89B9A0627F3B1D5928">alt + shift + 1 = 前往「面板」窗格 </li> 
@@ -735,7 +735,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>改善還原/重做選項 </p> </td> 
-   <td colname="col2"> <p>以下清單顯示您可進行與不可進行之項目<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >在 Analysis Workplace 中還原/重做</a>。 </p> </td> 
+   <td colname="col2"> <p>以下清單顯示您可進行與不可進行之項目<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >在 Analysis Workspace 中還原/重做</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -901,7 +901,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 2016 年 6 月 16 日發行的新功能:
 
-* [新群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)可讓系統管理員允許或拒絕使用者存取&#x200B;**[!UICONTROL 「Analytics]** &gt;**[!UICONTROL Workspace」]**&#x200B;索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
+* [新群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]**>**[!UICONTROL  Workspace]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
 * 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 面板、視覺效果、元件
@@ -966,11 +966,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您也可以使用標準的 Windows 和 Mac [鍵盤快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (ctrl 或 cmd + z) 來還原。
 
-*`Undo`*&#x200B;尤其適合用來還原表格中的劃分。
+*`Undo`*尤其適合用來還原表格中的劃分。
 
-非&#x200B;*`not`*&#x200B;不可還原的動作:
+非&#x200B;*`not`*不可還原的動作:
 
-* 變更[!UICONTROL 同類群組表格]的設定 (例如拖曳量度、變更值)。不過，您可在按一下&#x200B;**[!UICONTROL 「執行」]**&#x200B;後按&#x200B;**[!UICONTROL 「還原」]**。
+* 變更[!UICONTROL 同類群組表格]的設定 (例如拖曳量度、變更值)。不過，您可在按一下&#x200B;**[!UICONTROL 「執行」]**後按**[!UICONTROL 「還原」]**。
 
 * 重新調整面板和子面板的大小或移動面板和子面板。
 
@@ -1023,7 +1023,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 新區段會顯示於「[!UICONTROL 元件]」面板中的「[!UICONTROL 區段]」群組。
 
-*`Save As`*&#x200B;也適用於「[!UICONTROL 計算量度產生器]」和「[!UICONTROL 日期範圍產生器]」。
+*`Save As`*也適用於「[!UICONTROL 計算量度產生器]」和「[!UICONTROL 日期範圍產生器]」。
 
 ## 加入新區段按鈕 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1081,7 +1081,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 將 Y 軸固定於零 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-視折線圖或面積圖的數字而定，Y 軸原點不一定為零。啟用「[!UICONTROL 視覺效果設定]」中的「**[!UICONTROL 將 Y 軸固定於零]**」，可強制將 Y 軸原點設為零，以更精確瞭解趨勢走向。下列範例顯示啟用和停用此設定時，收入圖表所產生的變化:
+視折線圖或面積圖的數字而定，Y 軸原點不一定為零。啟用「**[!UICONTROL 視覺效果設定]**」中的「[!UICONTROL 將 Y 軸固定於零]」，可強制將 Y 軸原點設為零，以更精確瞭解趨勢走向。下列範例顯示啟用和停用此設定時，收入圖表所產生的變化:
 
 **停用將 Y 軸固定於零**
 
@@ -1099,4 +1099,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
-導覽至&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 轉讓」]**，即可轉讓專案。
+導覽至「**[!UICONTROL 管理員]**>**[!UICONTROL &#x200B;使用者管理]** > **[!UICONTROL 轉讓]**」，即可轉讓專案。
