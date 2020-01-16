@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
+source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
 
 ---
 
@@ -94,8 +94,15 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
+   + [常見問題集](analysis-workspace/faq.md)
+   + [管理需求](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
+   + [Analysis Workspace 效能最佳化](analysis-workspace/optimizing-performance.md)
+   + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
+   + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
+   + [歸因 IQ](analysis-workspace/attribution-iq.md)
+   + [區段 IQ](analysis-workspace/segment-iq.md)
    + 虛擬分析人員 {#virtual-analyst}
-      + [虛擬分析師概觀](analysis-workspace/virtual-analyst.md)
+      + [虛擬分析師概觀](analysis-workspace/virtual-analyst/overview.md)
       + 異常偵測 {#anomaly-detection}
          + [異常偵測概觀](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -110,13 +117,6 @@ source-git-commit: 66ec7b7e4dc79aee2af5b81c7323563478b1312d
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [常見問題集](analysis-workspace/faq.md)
-   + [管理需求](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace 效能最佳化](analysis-workspace/optimizing-performance.md)
-   + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
-   + [歸因 IQ](analysis-workspace/attribution-iq.md)
-   + [區段 IQ](analysis-workspace/segment-iq.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
    + [Report Builder 的新功能](report-builder/whats-new-arb.md)
