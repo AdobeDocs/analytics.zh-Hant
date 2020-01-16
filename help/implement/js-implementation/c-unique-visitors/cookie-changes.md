@@ -3,7 +3,7 @@ description: Analytics Cookie
 title: 瀏覽器與分析Cookie常見問答集
 uuid: null
 translation-type: tm+mt
-source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
+source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
 
 ---
 
@@ -33,6 +33,8 @@ source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
 ### 協力廠商Cookie
 
 協力廠商Cookie不是由使用者造訪的網站所建立。 雖然瀏覽器目前對所有第三方Cookie的處理方式相同，並據以儲存，但第三方Cookie本身的行為方式可能不同。 透過客戶的Analytics協力廠商Cookie實作，客戶僅會呼叫Adobe，而不會呼叫未知或可疑的協力廠商網域。 這是目前實作Analytics以進行安全(HTTPS)且使用永久性識別碼進行可靠追蹤的方法。 此方法是透過設定AppMeasurement.js檔案來實作。 如需詳細資訊，請 [參閱Cookie和Experience Platform Identity Service](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html)。
+
+![Cookie差異](assets/cookieimage.PNG)
 
 ## 瀏覽器目前如何儲存和管理Analytics Cookie?
 
@@ -69,7 +71,7 @@ source-git-commit: ec96e30becf1cb799c0597b0e2f441fa1d6df0e3
 下表摘要了Analytics Cookie:
 
 
-[Analytics cookie表格]
+![Analytics cookie表格](assets/cookie_table.png)
 
 
 ## 為Chrome、Firefox和Edge變更準備我網站的最佳方式為何？
