@@ -3,7 +3,7 @@ description: Analytics Cookie
 title: 瀏覽器與分析Cookie常見問答集
 uuid: null
 translation-type: tm+mt
-source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
+source-git-commit: 782d34c26942d75ce445cb4e3bf413e27fd9c326
 
 ---
 
@@ -71,7 +71,7 @@ source-git-commit: 38de617d3c77195d2308e14783962f6690b4b3fc
 下表摘要了Analytics Cookie:
 
 
-![Analytics cookie表格](assets/cookie_table.png)
+![Analytics cookie表格](assets/cookietable.png)
 
 
 ## 為Chrome、Firefox和Edge變更準備我網站的最佳方式為何？
