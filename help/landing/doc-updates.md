@@ -3,7 +3,7 @@ title: Adobe Analytics 文件更新
 description: Adobe Analytics 技術文件更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6d7b23fb88ff76fef2897671c9a80323bea32128
+source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
-| 2020 年 1 月 22 日 | 更新包含新自由表格產生器之自由表格 [上的頁面](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
+| 2020 年 1 月 22 日 | 更新「自由表格」頁面，其中包含新「自由表格產生器」 [的相關資訊](/help/analyze/analysis-workspace/visualizations/freeform-table.md) |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/login-restrictions-eol.html)的相關新主題 |
 | 2019 年 11 月 25 日 | [內部 (工作階段重新整理) 行銷管道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)的相關新主題 |
