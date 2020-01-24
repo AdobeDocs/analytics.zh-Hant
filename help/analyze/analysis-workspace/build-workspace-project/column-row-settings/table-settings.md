@@ -2,8 +2,8 @@
 description: 列設定依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 5c2f2d098398927d8379f2eb9ea69ca9acbfd726
 
 ---
 
@@ -51,3 +51,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
+| 列設定 | 說明 |
+|--- |--- |
+| 日期比較 | 對齊各欄日期，讓所有開始日期在同一列。當您選擇對齊日期，例如，在 2016 年 10 月和 9 月的月對月比較中，左欄將從 10 月 1 日開始，右欄將從 9 月 1 日開始.<br>預設為停用。 |
+| 百分比 | 依列計算百分比強制自由表格計算行間的儲存格百分比，而非向下計算欄。 此設定在計算趨勢百分比時特別實用。<br>使用「視覺化」圖示時，預設為啟用。 |
+| 欄總計 | 這些設定只會在 [static) rows](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html) (when you have selected a finite set of items), not with dynamic rows (i.e., when you drop in a dimension that shows all items).<ul><li>**[!UICONTROL 將目前的列數加總顯示為總計]**- 這個選項會顯示表格中的用戶端列數加總，因此總計**&#x200B;不會&#x200B;**刪除「造訪次數」或「訪客人數」等重複量度。</li><li>**[!UICONTROL 顯示總量]**- 這個選項會顯示伺服器端的加總，因此總計會刪除「造訪次數」或「訪客人數」等重複量度。</li></ul> |
+| 劃分 | **[!UICONTROL 依職位劃分]**: 您可以根據自由表格中的固定位置執行劃分。 例如，您可以指定一律劃分前七列。<br>(在舊版中，資料劃分中的值清單為「鎖定」。這樣的設定如舉例說名，在您執行依「頁面」劃分「日期」時，會得到所選日期範圍內前 50 個頁面的清單。如果您儲存該報告，然後在一個月後執行，則前 50 頁可能已變更。然而，Analysis Workspace 會使用原始劃分的結果，並傳回相同的頁面，但以當前月份為日期範圍。)<br>若要根據固定位置執行劃分：1. 劃分表格中的一些列。2.按一下您要固定位置之表格列旁的「設定（齒輪）」圖示。 3.勾選「依位置劃分」旁的核取方塊。 4.變更排序順序或日期範圍，並注意劃分現在會系結至列位置，而非硬式編碼列。<br>預設為停用。 |
