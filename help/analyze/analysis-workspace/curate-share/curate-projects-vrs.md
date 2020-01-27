@@ -2,7 +2,7 @@
 title: VRS 與專案組織
 description: 瞭解如何組織虛擬報表套裝元件和專案
 translation-type: tm+mt
-source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
+source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 02f9106d7b8b42c1aca46682736b94f5cde519ef
 
 基本上，組織專案或虛擬報表套裝 (VRS) 時，您會篩選掉元件，使對象只看見您希望他們使用的專案/VRS 元件 (維度、量度、區段及日期範圍)。
 
->[!N注意]
+>[!NOTE]
 >
 >產品描述檔是控制使用者可檢視之元件的主要機制。 They are managed through the [Admin Console](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html#createproductprofiles). 組織為次要的篩選器。
 
