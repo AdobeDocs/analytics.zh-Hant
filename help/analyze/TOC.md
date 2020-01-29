@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
 
 ---
 
@@ -232,7 +232,20 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [Report Builder 的疑難排解和最佳作法](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Activity Map 概觀](activity-map/activity-map.md)
+   + 快速入門 {#getting-started}
+      + 管理員快速入門 {#get-started-admins}
+         + [啟用Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [實作代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+      + 使用者快速入門 {#get-started-users}
+         + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
+         + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [強大的連結追蹤](activity-map/lnk-tracking-overview.md)
+   + 連結追蹤 {#link-tracking}
+      + [連結追蹤方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
+      + [連結追蹤常見問題集](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [區別參照相同連結 ID 和地區的連結](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [停止連結追蹤](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
+      + [使用 s.tl() 函數](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [標準模式和即時模式的比較](activity-map/activitymap-standard-live.md)
    + [連結報表](activity-map/activitymap-links-report.md)
    + [頁面細節](activity-map/activitymap-page-flow.md)
@@ -244,20 +257,6 @@ source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
    + [匯出至 CSV 檔案](activity-map/activitymap-csv.md)
    + [支援的系統和需求](activity-map/activitymap-sysreqs.md)
    + [Activity Map 常見問題集](activity-map/activitymap-faq.md)
-   + 快速入門 {#getting-started}
-      + 管理員快速入門 {#get-started-admins}
-         + [啟用Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [實作代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + 使用者快速入門 {#get-started-users}
-         + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
-   + 連結追蹤 {#link-tracking}
-      + [連結追蹤方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [連結追蹤常見問題集](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [區別參照相同連結 ID 和地區的連結](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
-      + [開始連結追蹤](activity-map/activitymap-link-tracking/activitymap-start-link-tracking.md)
-      + [停止連結追蹤](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
-      + [使用 s.tl() 函數](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
