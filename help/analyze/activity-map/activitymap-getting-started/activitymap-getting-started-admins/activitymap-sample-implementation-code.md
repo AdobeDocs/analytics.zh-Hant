@@ -4,14 +4,14 @@ title: 實作代碼範例
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
 
 # 實作代碼範例{#sample-implementation-code}
 
-## AppMeasurement.js 範例檔案 {#section_CD6E603EB41141E587B71E138FE99F52}
+## AppMeasurement.js 範例檔案
 
 以下是如何在 [!DNL AppMeasurement.js] 檔案中結合 AppMeasurement 程式庫和 Activity Map 模組的範例。
 
