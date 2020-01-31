@@ -2,7 +2,7 @@
 title: 工作區中的多個報表套裝
 description: 瞭解如何及為何在具有多個報表套裝的工作區中建立專案
 translation-type: tm+mt
-source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
+source-git-commit: 48b0d6a92de1697acc54c8601e6b2c920e01ffee
 
 ---
 
@@ -47,8 +47,8 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
    ![](assets/incompat-rs.png)
 
-   1. 您有3個選項可處理此不相容性：
-   * 繼續處理某些遺失的元件。
+   您有3個選項可處理此不相容性：
+   * 繼續處理某些遺失的元件。 這將不會產生這些元件的資料和／或空白的視覺化。
    * 還原.
    * 變更報表套裝.
 
@@ -58,6 +58,6 @@ source-git-commit: 7f79d5c041959e4093b2aaacb64c948b0593262f
 
 1. （可選）您也可以前往其他Analytics元件建立工具，並確定它們現在會顯示報表套裝標籤，指出
 
-   * 建立區段的位置（區段產生器）。
-   * 建立計算量度的位置（計算量度產生器）。
-   * 建立警報的位置（警報產生器）。
+   * 建立區段的位置：區 [段產生器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 建立計算量度的位置：計算 [量度產生器](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * 建立警報的位置：警 [報產生器](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html)。
