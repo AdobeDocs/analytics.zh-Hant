@@ -2,14 +2,14 @@
 title: getPageName
 description: 從目前的網站路徑建立容易閱讀的pageName。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：getPageName
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外掛 `getPageName` 程式可建立目前URL的易讀、好記的格式化版本。 如果您想要在報表中輕鬆設定和 `pageName` 瞭解的值，Adobe建議使用此外掛程式。 如果您已有變數的命名結構（例如透過資料層）, `pageName` 就不需要此外掛程式。 當您沒有其他解決方案來設定變數時，最好使用此變 `pageName` 數。
 
