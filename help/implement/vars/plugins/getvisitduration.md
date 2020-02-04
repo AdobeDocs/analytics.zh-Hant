@@ -2,14 +2,14 @@
 title: getVisitDuration
 description: 追蹤訪客目前在網站上逗留的時間。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：getVisitDuration
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外 `getVisitDuration` 掛程式會追蹤訪客在網站上逗留至該時段的時間，以分鐘為單位。 如果您想要追蹤網站上截至該點的累計時間，或追蹤執行活動所花費的時間，Adobe建議使用此外掛程式。 此外掛程式不會追蹤事件之間的時間長度；如果需要此功能，請使 `getTimeBetweenEvents` 用外掛程式。
 
@@ -33,7 +33,7 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
 1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示「 [!UICONTROL 開啟編輯器] 」按鈕。
+1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
