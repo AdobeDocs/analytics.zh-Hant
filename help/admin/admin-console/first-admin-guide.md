@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 的第一個管理指南
 description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪些，以及如何登入 UI。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -56,4 +56,4 @@ Experience Platform Launch 的產品管理員存取權與 Analytics 產品管理
 
 [建立報表套裝](create-report-suite.md): 請 Analytics 管理員登入工具並建立資料收集的報表套裝
 
-[在 Experience Platform Launch 中建立屬性](/help/implement/implement-with-launch/create-analytics-property.md): 請 Experience Platform Launch 管理員登入工具並建立要在網站上實施的屬性
+[在 Experience Platform Launch 中建立屬性](/help/implement/launch/create-analytics-property.md): 請 Experience Platform Launch 管理員登入工具並建立要在網站上實施的屬性
