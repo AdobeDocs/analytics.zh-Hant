@@ -4,7 +4,7 @@ title: Activity Map 常見問題集
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
 
@@ -66,7 +66,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **問: 為什麼 Activity Map 執行時，沒有收集連結點擊資料?**
 
-答: 使用 Activity Map 時，Analytics 標記不會收集連結點擊資料。此行為符合 ClickMap 外掛程式的行為。
+答: 使用 Activity Map 時，Analytics 標記不會收集連結點擊資料。此行為會遵循ClickMap外掛程式的行為。
 
 **問: 為什麼量度下拉式清單多次列出相同的量度?**
 
@@ -76,7 +76,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **問:「Activity Map 全部連結報表」與「Reports &amp; Analytics Activity Map」報表有何差異?**
 
-答: 若要提取 Activity Map 中的「全部連結報表」，我們會建立劃分請求，如下所示: Activity M ap 頁面 = "visitedpage"，依據`<list of link&regions present in the page at rendering time>`的 Activity Map 連結和地區來劃分。
+答: 若要提取 Activity Map 中的「全部連結報表」，我們會建立劃分請求，如下所示: Activity M ap 頁面 = &quot;visitedpage&quot;，依據`<list of link&regions present in the page at rendering time>`的 Activity Map 連結和地區來劃分。
 
 若想在「Reports &amp; Analytics」中取得相等報表，您需先導覽至「Activity Map 頁面」報表。並在此處篩選 Activity Map 中的已造訪頁面名稱。已造訪頁面名稱會顯示在「Activity Map 頁面詳細資料底部面板」的左欄中。找到頁面後，即可從該頁面劃分，並選擇「Activity Map 連結和地區」做為第二維度。
 
@@ -86,7 +86,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 答: 依預設，Activity Map 會使用頁面所傳送第一個標記相關聯的報表套裝。
 
-但您可透過「Activity Map 設定 &gt; 其他」索引標籤，選取其他已標記報表套裝。
+但您可透過「Activity Map 設定 > 其他」索引標籤，選取其他已標記報表套裝。
 
 **問: Activity Map 會掃描 Analytics 標記多久時間?**
 
@@ -120,7 +120,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 *網頁具有相容的 Analytics 標記 (AppMeasurement v1.6 或更新版本)，但未在管理工具中啟用 Activity Map*
 
-系統會顯示警告訊息，指出您需要請管理員\[啟用 Activity Map 報表。\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md")
+系統會顯示警告訊息，指出您需要請管理員\[啟用 Activity Map 報表。\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;)
 
 **問: 能否透過[Analytics 資料摘要](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)匯出 Activity Map 資料 (contextData)?**
 
