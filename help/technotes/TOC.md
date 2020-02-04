@@ -3,8 +3,8 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: ht
-source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
+translation-type: tm+mt
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
@@ -30,11 +30,15 @@ source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
 + [延遲性](latency.md)
 + [低流量值](low-traffic.md)
 + [隱私權概觀](privacy-overview.md)
++ [重新導向與別名](redirects.md)
 + 地區資料彙集 {rdc}
    + [地區資料彙集說明](rdc/regional-data-collection.md)
    + [環境特性](rdc/rdc-environment-characteristics.md)
    + [SSL 認證授權](rdc/ssl-cert-licensing.md)
 + [使用詞彙 (字彙表)](terms.md)
++ [選擇式時間戳記](timestamps-optional.md)
 + [疑難排解登入](troubleshoot-login.md)
 + [疑難排解被登出](troubleshoot-sessions.md)
 + [未指定、其他和未知](unspecified.md)
++ [訪客身分識別](visitor-identification.md)
++ [訪客移轉](visitor-migration.md)
