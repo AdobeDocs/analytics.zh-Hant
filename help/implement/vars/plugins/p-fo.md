@@ -2,14 +2,14 @@
 title: p_fo（僅限頁面優先）
 description: 確保每頁只觸發一次特定常式。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：p_fo（僅限頁面優先）
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外 `p_fo` 掛程式是一個公用程式，可檢查特定JavaScript物件是否存在。 如果對象不存在，則插件將建立該對象並返回 `true`。 如果頁面上已存在JavaScript物件，則會傳回該物件 `false`。 此外掛程式可讓您在頁面上執行一次程式碼。 其他數種外掛程式則仰賴此程式碼運作。 如果您不擔心某個頁面上執行程式碼的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
 
