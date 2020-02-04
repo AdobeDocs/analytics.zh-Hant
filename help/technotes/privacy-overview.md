@@ -4,14 +4,16 @@ keywords: privacy
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
 
 # 隱私權概觀
 
-概述 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
+Adobe 建議您提供關於選擇退出不讓 Adobe 產品或服務收集其瀏覽資訊的容易找到且容易了解的相關資訊給網站訪客。
+
+訪客可進一步瞭解Adobe一般如何使用在 [Adobe隱私權中心收集到的資訊](https://www.adobe.com/privacy.html)。 由貴組織自行控制如何實作Adobe服務，因此您的組織應該披露您使用Adobe產品和服務的方式。 您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
 
 ## 資料收集劃分 {#section_F59D958D7AE44747846993E643CD4BF2}
 
