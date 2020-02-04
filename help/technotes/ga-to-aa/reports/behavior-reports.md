@@ -2,7 +2,7 @@
 title: Adobe Analytics中的行為報表
 description: 瞭解如何在Adobe Analytics中建立行為報表
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 1. 按一下左側的視覺化圖示，然後將「流量」視覺化拖曳至自由表格上方的工作區
 2. 找到頁 **面維** ，然後按一下箭頭圖示以顯示頁面值。 尺寸值為黃色。
 3. 找出所要的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
-4. 此流量報表是互動式的。 按一下任何值，將流量展開至後續或上一頁。 使用右鍵功能表來展開或收合欄。 同一流量報表中也可使用不同的維度。
+4. 此流量報表為互動式。按一下任何值，即可將流量展開至接續或先前的頁。使用右鍵功能表來展開或收合欄。同一流量報表中也可使用不同的維度。
 
 ![流量報表](/help/technotes/ga-to-aa/assets/flow.png)
 
@@ -28,12 +28,12 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 頁面報表顯示您網站上個別頁面的效能。
 
-1. 在「元件」功能表中，找出 **「頁面** 」維度，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
+1. 在「元件」功能表中，找 **到「頁面** 」維度，並將其拖曳至標示為「拖曳維度至此處」的大型自由表格區域。
 2. 將所要的量度與自動建立的「發生次數」量度一起拖曳至 **工作區** 。 請參閱 [量度轉譯指南](common-metrics.md) ，以取得如何取得各個量度的詳細資訊。
 
 另外，Adobe提供數個預先建立的工作區，稱為範本。 「內容消費」(Web)範本提供與所有頁面報表類似的值。
 
-1. 按一 *[!UICONTROL 下「專案]&gt;新[!UICONTROL 增」(Project]*&gt; New)，以開啟包含專案選項的模式視窗。
+1. 按一 *[!UICONTROL 下「專案]>新[!UICONTROL 增」(Project]*> New)，以開啟包含專案選項的模式視窗。
 2. 按一下「內容使用(Web)」範本，然後按一下「建立」。
 
 ## 網站內容——內容深入分析
@@ -62,7 +62,7 @@ Adobe建議使用此 **維度** 的「瀏覽」度量。
 
 網站速度報表顯示頁面載入的速度，顯示增加頁面載入時間的機會。
 
-這項功能需要在這兩種平台上進行額外的實作；Adobe建議與實施顧問合作，以確保此資料已正確設定至分析工作區。 效能 [計時外掛程式](/help/implement/js-implementation/plugins/performancetiming.md) ，通常會指派給eVar，以在Adobe Analytics中取得效能資料。
+這項功能需要在這兩種平台上進行額外的實作；Adobe建議與實施顧問合作，以確保此資料已正確設定至分析工作區。 getPageLoadTime [外掛程式通常會指派給eVar](/help/implement/vars/plugins/getpageloadtime.md) ，以在Adobe Analytics中取得效能資料。
 
 ## 網站搜尋報表
 
