@@ -4,7 +4,7 @@ title: 隱私權設定
 topic: Admin tools
 uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
 
@@ -13,4 +13,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以啟用瀏覽器 Cookie 的隱私權設定。
 
-請參閱[啟用瀏覽器 Cookie 的隱私權設定](https://marketing.adobe.com/resources/help/en_US/whitepapers/cookies/browser_cookie_settings.html)。
+請參 [閱核心服務使用指南中](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/browser-cookie-settings.html) 「啟用瀏覽器Cookie的隱私權設定」。
