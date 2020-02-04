@@ -2,14 +2,14 @@
 title: getAndPersistValue
 description: 儲存值，以便稍後隨時擷取。
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：getAndPersistValue
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外 `getAndPersistValue` 掛程式可讓您將值儲存在Cookie中，以便稍後在瀏覽期間擷取。 它的角色與Adobe Experience Platform Launch的「 [!UICONTROL 儲存持續] 」功能類似。 如果您想在設定變數後，在後續的點擊中自動將Analytics變數保留為相同值，Adobe建議使用此外掛程式。 如果啟動的「儲存持續時間  」功能已足夠，或者您不需要在後續點擊中將變數設定並保留至相同值，則不需要此外掛程式。 eVar的內建永續性不需要使用此外掛程式，因為這些變數會由Adobe在伺服器端持續存在。
 
