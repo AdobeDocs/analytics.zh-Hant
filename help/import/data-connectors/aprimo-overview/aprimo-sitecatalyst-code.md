@@ -1,14 +1,14 @@
 ---
 description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
-title: Adobe Analytics外掛程式程式碼
+title: Adobe Analytics 外掛程式程式碼
 uuid: 60d80366-d144-465a-b3de-acc2341be1cd
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
 
-# Adobe Analytics外掛程式程式碼 {#adobe-analytics-plug-in-code}
+# Adobe Analytics 外掛程式程式碼 {#adobe-analytics-plug-in-code}
 
 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
 
@@ -26,5 +26,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable
 ```
 
-> [!NOTE] 上述外掛程式會假設有特定的自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Adobe Analytics部署中不可用，只需將其取代為可用的變數即可。
+> [!NOTE] 上述外掛程式會假設某些自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Adobe Analytics部署中不可用，只需將其取代為可用的變數即可。
 
