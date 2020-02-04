@@ -1,8 +1,8 @@
 ---
 title: 建立報表套裝
 description: 在 Adobe Analytics 中建立資料收集的基本容器。
-translation-type: ht
-source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -30,6 +30,8 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 1. 在強制回應視窗中，按一下「開始設定」。用相同名稱來命名這個報表套裝，但結尾加上「- DEV」。由於此報表套裝只會接收內部流量，因此預估大小可設為最小。
 1. 按「下一步」即可完成開發報表套裝的建立。
 
+如需此模式視窗中步驟的詳細資訊，請參閱「實 [作使用指南](/help/implement/prepare/implementation-modal.md) 」中的「實作模式」。
+
 ## 疑難排解
 
 **登入 Experience Cloud 後，Analytics 圖示會變灰。**
@@ -42,4 +44,4 @@ source-git-commit: 6c57780d0ecf65669c1a5306dde267f6e48f1cc4
 
 ## 下一步
 
-[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/implement-with-launch/create-analytics-property.md): 建立一個管理 Analytics 實施情形的區域
+[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md): 建立一個管理 Analytics 實施情形的區域
