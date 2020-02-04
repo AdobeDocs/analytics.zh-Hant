@@ -2,14 +2,14 @@
 title: getResponsiveLayout
 description: 判斷目前檢視的網站版面。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：getResponsiveLayout
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外 `getResponsiveLayout` 掛程式可讓您追蹤訪客目前正在檢視的互動式設計網站版本。 如果您的網站使用自適應設計，而您想要追蹤訪客檢視的網站版本，Adobe建議使用此外掛程式。 如果您的網站未使用互動式設計，則不需要此外掛程式。
 
