@@ -2,14 +2,14 @@
 title: rfl
 description: 從字元分隔字串移除特定值。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：rfl（從清單中刪除）
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外掛 `rfl` 程式可讓您「安全」地從分隔字串移除值，例如 `events``products`、清單變數等。 如果您想從分隔字串移除特定值，而不需擔心分隔字元，此外掛程式會很有用。 其他數個外掛程式則依賴此程式碼才能正確執行。 如果您不需要一次對多個Analytics變數執行特定函式，或者您未使用任何相依外掛程式，則不需要此外掛程式。
 
