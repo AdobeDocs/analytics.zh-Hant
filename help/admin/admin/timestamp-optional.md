@@ -4,7 +4,7 @@ title: 可選時間戳記
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -19,11 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 從行動應用程式傳送時間戳記資料至全域報表套裝。
 * 升級應用程式，即可在無需建立新報表套裝的狀況下使用離線追蹤。
 
-如需在報表套裝中使用時間戳記的最佳實務，請參閱[使用可選時間戳記](/help/implement/js-implementation/timestamps-overview.md)。
-
->[!IMPORTANT]
->
->如果使用「可選時間戳記」，請勿在已附上時間戳記的資料上設定 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html)。這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
+> [!IMPORTANT] 如果您使用「可選時間戳記」，請勿在已經 [加上時間戳記的資料上設定s.visitorID](/help/implement/vars/config-vars/visitorid.md) 。 這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
 > [!NOTE]啟動時間戳記的作業資料最多可保留 92 日。也就是說，造訪/工作階段將「持續開放」92 天，而任何額外點擊 (並非在上次點擊後 30 分鐘內發生) 仍可計入同一次造訪/工作階段中。任何非依序收到的「舊」點擊都會產生「未知」的結果，因為分段、配置、有效期等種種因素，都會影響這些點擊是否會納入報表中。
 
@@ -31,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 如果是從範本建立，新的報表套裝預設為使用「可選時間戳記」。
 
-   (若要從範本建立新的報表套裝，請至&#x200B;**「管理員 &gt; 報表套裝 &gt; 新建 &gt; 報表套裝」**。)
+   (若要從範本建立新的報表套裝，請至&#x200B;**「管理員 > 報表套裝 > 新建 > 報表套裝」**。)
 * 若是從現有的報表套裝複製，則新的報表套裝會繼承原始報表套裝的時間戳記設定，包括:
 
    * **不允許時間戳記** (支援設定 s.visitorID)
@@ -40,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 若要將現有的報表套裝變更為可選時間戳記 {#section_40BCD3B4639241DEA716F7640ED33E72}
 
-1. 前往&#x200B;**「管理員 &gt; 報表套裝 &gt; 編輯設定 &gt; 一般 &gt; 時間戳記設定」**。
+1. 前往&#x200B;**「管理員 > 報表套裝 > 編輯設定 > 一般 > 時間戳記設定」**。
 1. 選取&#x200B;**「將所選的報表套裝轉換為可選時間戳記」**&#x200B;方塊。
 
    這會將您的報表套裝變更為「可選時間戳記」。
