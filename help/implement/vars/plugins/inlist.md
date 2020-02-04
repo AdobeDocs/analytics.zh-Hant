@@ -2,14 +2,14 @@
 title: inList
 description: 檢查是否有值包含在另一個以字元分隔的值中。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：inList
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外掛 `inList` 程式可讓您檢查分隔字串或JavaScript陣列物件中是否已有值。 其他數種外掛程式則依 `inList` 賴外掛程式運作。 此外掛程式可提供比JavaScript方法更明顯的優 `indexOf()` 勢，讓您不符合部分字串。 例如，如果您使用此外掛程式來檢查 `"event2"`，它將不符合包含的字串 `"event25"`。 如果您不需要檢查分隔字串或陣列中的值，或您想要使用自己的邏輯，則不需要此外掛程 `indexOf()` 式。
 
