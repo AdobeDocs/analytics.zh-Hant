@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics Admin Guide
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
+source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 ---
 
@@ -27,6 +27,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
       + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [編輯轉換變數](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [轉換分類](admin/conversion-var-admin/conversion-classifications.md)
+      + [清單變數](admin/conversion-var-admin/list-var-admin.md)
    + [貨幣代碼](admin/currency.md)
    + [自訂報表說明](admin/custom-desc-admin.md)
    + [自訂日曆](admin/custom-calendar.md)
@@ -118,7 +119,7 @@ source-git-commit: f2932b7497d5838eb0d596d617ff5d88d6fac293
    + [品牌結合](company/co-branding-admin.md)
    + [隱藏報表套裝](company/c-hide-report-suites.md)
    + [安全管理員](company/security-manager.md)
-   + [「強制IP登入限制」的生命週期結束](company/login-restrictions-eol.md)
+   + [「強制 IP 登入限制」服務終止](company/login-restrictions-eol.md)
 + 管理報表套裝 {#manage-report-suites}
    + [報表套裝管理器](c-manage-report-suites/report-suites-admin.md)
    + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
