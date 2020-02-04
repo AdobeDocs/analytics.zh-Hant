@@ -3,8 +3,8 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics Import Guide
 user-guide-url: /content/help/en/analytics/import/home.html
-translation-type: ht
-source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
+translation-type: tm+mt
+source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
 
@@ -74,6 +74,7 @@ source-git-commit: a31f25e8a4681cf34525a7994b00580aa3aac15d
       + [使用 DFA 資料的分析報表](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
       + [協調量度差異](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
       + [常見問題集](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
+      + [最大延遲](data-connectors/dfa-data-connector-analytics/maxdelay.md)
    + Adobe Analytics 的 DreamMail Data Connector {#dreammail}
       + [Adobe Analytics 的 DreamMail Data Connector](data-connectors/dreammail-overview/dreammail-overview.md)
       + [啟用整合](data-connectors/dreammail-overview/t-dreammail-activate.md)
