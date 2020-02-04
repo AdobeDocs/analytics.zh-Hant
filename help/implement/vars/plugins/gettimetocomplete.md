@@ -2,14 +2,14 @@
 title: getTimeToComplete
 description: 測量完成任務所花費的時間。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：getTimeToComplete
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外 `getTimeToComplete` 掛程式會追蹤使用者在網站上完成程式所花的時間。 「時鐘」從呼叫動作時開 `start` 始，在呼叫動作時 `stop` 結束。 如果網站上的工作流程需要一些時間才能完成，而且您想瞭解訪客完成外掛程式所花的時間，Adobe建議您使用此外掛程式。 如果您網站上的工作流程耗時較短（少於3秒），因為精細度只會降至完整秒，就不需要使用此外掛程式。
 
@@ -76,7 +76,7 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 if(s.events.indexOf("scCheckout") > -1) s.getTimeToComplete("start");
 ```
 
-當訪客進行購買時停止計時器，並將prop1設定為停止與開始之間的時間差：
+當訪客進行購買時停止計時器，並將prop1設為停止與開始之間的時間差：
 
 ```js
 if(s.events.indexOf("purchase") > -1) s.prop1 = s.getTimeToComplete("stop");
