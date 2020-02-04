@@ -4,7 +4,7 @@ title: 流量變數 (prop) 概觀
 topic: Admin tools
 uuid: 5d62b19e-9fea-4489-8a80-1ebb317f5a78
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
 
 ---
 
@@ -15,4 +15,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 使用「[!UICONTROL 流量變數]」頁面來啟用、停用或重新命名流量變數報告。一旦停用之後，流量變數的報告就不會在使用者介面裡顯示。
 
-請參閱以及[流量 prop 和轉換 eVar](/help/implement/analytics-terminology-basics/c-props-evars/props-evars.md)
+請參閱 也 [是實作](../../../implement/vars/page-vars/prop.md) 使用指南中的prop。
