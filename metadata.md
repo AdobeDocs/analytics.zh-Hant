@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: adobe analytics
+product: analytics
 solution: Analytics
 solution-title: 學習與支援
 solution-hub-url: https://helpx.adobe.com/tw/support/analytics.html
@@ -8,11 +8,11 @@ solution-image: assets/analytics-icon-24.png
 getting-started-title: 快速入門
 getting-started-url: https://helpx.adobe.com/tw/analytics/get-started.html
 tutorials-title: 教學課程
-tutorials-url: https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html
+tutorials-url: https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/analytics.en
 index: true
 translation-type: tm+mt
-source-git-commit: 2a304dd963273b43d23d5f39fbc9d4000d893f32
+source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
 
