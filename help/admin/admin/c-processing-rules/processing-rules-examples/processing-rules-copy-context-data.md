@@ -5,7 +5,7 @@ title: 複製上下文資料變數至 eVar
 topic: Admin tools
 uuid: 1beaec4c-71e9-49ce-b154-78408cc532a3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -28,4 +28,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![有條件](assets/add-conditional.png)
 
-如需詳細瞭解如何實施上下文資料變數，請參閱實施使用手冊中的[上下文資料變數](/help/implement/js-implementation/c-variables/context-data-variables.md)。
+如需詳細瞭解如何實施上下文資料變數，請參閱實施使用手冊中的[上下文資料變數](/help/implement/vars/page-vars/contextdata.md)。
