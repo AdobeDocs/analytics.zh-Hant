@@ -1,105 +1,35 @@
 ---
-description: 「JavaScript 適用的 AppMeasurement」外掛程式是可執行數種進階功能的程式或函數。
-keywords: Analytics Implementation
-subtopic: Plug-ins
-title: 使用實作外掛程式
-topic: Developer and implementation
-uuid: 7ffcfe89-b7e2-45e4-b771-942d5ae07c39
+title: 增效模組概觀
+description: 將程式碼貼在您的網站上，以引入新功能。
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
-# 使用實作外掛程式
+# 增效模組概觀
 
-外掛程式是程式碼的片段，可執行數種進階功能，以協助您實作Analytics。
+外掛程式是程式碼的片段，可執行數種進階功能，以協助您實作Analytics。 這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實作中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。
 
-這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實作中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。若您想要使用 JavaScript 擷取資料，但不確定如何進行，請與客戶經理連絡。
+> [!IMPORTANT] Adobe Consulting提供外掛程式，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供這些外掛程式的支援，包括安裝或疑難排解。 如果您需要外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
-JavaScript plug-ins are usually called by the doPlugins function, which is executed when the `t` method is called in the Code to Paste.
+Adobe提供數種安裝特定外掛程式的方式：
 
-因此，若您在 *`doPlugins`*函數中設定了變數，即可覆寫您在 HTML 頁面上設定的變數。唯一不會呼叫*`doPlugins`* 函數就是將 [!UICONTROL usePlugins] 變數設為「false」的時候。
+1. 使用Adobe Experience Platform Launch的「通用分析外掛程式」擴充功能
+2. 使用啟動自訂程式碼編輯器貼上外掛程式程式碼
+3. 將外掛程式碼貼入您的檔 `AppMeasurement.js` 案
 
-## 程式碼範例 {#section_6940FD16F2E94753A1C39694D0CF5FBA}
+每個組織有不同的實作需求，因此您可以決定要如何將它們納入實作中。 在網站上加入程式碼時，請務必符合下列條件：
 
-下列程式碼範例顯示 *`doPlugins`*函數在 JavaScript 檔案中會如何呈現:
+1. 先執行個體化Analytics追蹤物件(使 `s_gi`用)。
+   * 當Adobe Analytics載入時，Launch會自動執行個體化追蹤物件。
+   * 使用的實 `AppMeasurement.js` 施通常會在JavaScript檔案頂端初始化追蹤物件。
+2. 先加入外掛程式程式碼。
+   * 「通用分析外掛程式」擴充功能有動作設定，您可在其中初始化外掛程式。
+   * 如果您不想使用外掛程式，可在設定Analytics擴充功能時，在自訂程式碼編輯器中貼上外掛程式程式碼。
+   * 如果您的實作不使用Launch，則可在執行個體化追蹤物件後，將外掛程式 `AppMeasurement.js` 碼貼至任何位置。
+3. 呼叫增效模組第3個。
+   * 所有實作（包括Launch內部和外部）都使用JavaScript來呼叫外掛程式。 使用外掛程式頁面上記載的格式呼叫外掛程式。
+4. 驗證您的實作和發佈。
 
-JavaScript 適用的 AppMeasurement:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
-}
-```
-
-H 程式碼:
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-function s_doPlugins(s) {
- /* Add calls to plug-ins here */
-}
-s.doPlugins=s_doPlugins
-```
-
-> [!NOTE]H-Code 及較舊版本使用不同語法來支援某些極舊的瀏覽器 (例如 IE 4 和 5)。
-
-## 重新命名 doPlugins 函數 {#section_70B7D58E057B48058E25907AB3726725}
-
-*`doPlugins`*函數一般被稱為*`s_doPlugins`*。在特定情況下 (通常是單一頁面上可能出現多個版本的程式碼時)，*`doPlugins`*函數名稱可能會改變。如需重新命名標準*`doPlugins`* 函數以避免產生衝突，請確保為 *`doPlugins`*指派正確的函數名稱，如下列範例所示。
-
-```js
-/* Plugin Config */
-s_mc.usePlugins=true
-function s_mc_doPlugins(s_mc) {
- /* Add calls to plug-ins here */
-}
-s_mc.doPlugins=s_mc_doPlugins
-```
-
-## 使用 doPlugins {#section_FA5D901CC5214D54BCD08AB77BED7925}
-
-*`doPlugins`*函數可讓您輕鬆地為變數指定預設值，或是從網站上任何頁面上的[!UICONTROL 查詢字串參數]取用值。使用*`doPlugins`* 通常會比在 HTML 頁面上填入值來得容易，因為只需更新一個檔案即可。請留意，JavaScript 檔案的變更不一定都是立即生效的。網站的回訪訪客常會使用快取版本的 JavaScript 檔案。也就是說，檔案的更新最遲在變更完成後的一個月，都還不會套用至所有訪客。
-
-下列範例說明應如何使用   *`doPlugins`*函數來設定變數的預設值，以及從查詢字串獲取值。
-
-```js
-/* Plugin Config */
-s.usePlugins=true
-s.doPlugins=function(s) {
- /* Add calls to plug-ins here */
- // if prop1 doesn't have a value, set it to "Default Value"
- if(!s.prop1)
-s.prop1="Default Value"
-
- // if campaign doesn't have a value, get cid from the query string
- if(!s.campaign)
-s.campaign=s.getQueryParam('cid');
-
-// Note: The code to read query parameters is different for
-// Appmeasurement for JavaScript since a plug-in is not required:
-// s.campaign=s.Util.getQueryParam('cid');
-}
-```
-
-## 已安裝的外掛程式 {#section_C5494347D85940A78670032199787CD0}
-
-要確認外掛程式是否包含在您的 JavaScript 檔案中並且可供使用，請查看 JavaScript 檔案的[!UICONTROL 外掛程式區段]。下列範例說明 [!UICONTROL getQueryParam] 函數。
-
-```js
-/************************** PLUGINS SECTION *************************/
-/* You may insert any plug-ins you wish to use here.                 */
-/*
- * Plugin: getQueryParam 1.3 - Return query string parameter values
- */
-s.getQueryParam=new Function("qp","d",""
-+"var s=this,v='',i,t;d=d?d:'';while(qp){i=qp.indexOf(',');i=i<0?qp.l"
-//
-// ... more code below ...
-//
-```
-
+許多組織都使用函式呼叫外掛 [`doPlugins`](../functions/doplugins.md) 程式。 雖然此功能不是必要功能，但Adobe認為使用此功能是最佳實務。 AppMeasurement會在編譯和傳送影像要求之前呼叫此函式，這是最理想的選擇，因為數個外掛程式需仰賴其他Analytics變數。
