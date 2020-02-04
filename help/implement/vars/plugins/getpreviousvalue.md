@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: 取得最後一個傳遞至變數的值。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 ---
 
@@ -21,10 +21,13 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 1. 按一下所要的屬性。
 1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
 1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
-1. 對於您想要使用外掛程式的任何「啟動規則」，請新增具有下列設定的動作：
+1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+   * 條件：無
+   * 事件：核心——載入的程式庫（頁面頂端）
+1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化addProductEvar
-1. 儲存並發佈規則的變更
+   * 動作類型：初始化getPreviousValue
+1. 儲存並發佈規則的變更。
 
 ## 使用Launch自訂程式碼編輯器安裝外掛程式
 
@@ -52,7 +55,7 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 該方 `getPreviousValue` 法使用以下引數：
 
-* **`v`**（字串，必要）:具有您要傳遞至下一個影像要求之值的變數。 用來擷取上`s.pageName`一頁值的通用變數。
+* **`v`**（字串，必要）:具有您要傳遞至下一影像要求之值的變數。 用來擷取上`s.pageName`一頁值的通用變數。
 * **`c`**（字串，選用）:儲存值的Cookie名稱。  如果未設定此引數，則預設為`"s_gpv"`。
 
 當您呼叫此方法時，它會傳回Cookie中包含的字串值。 此外掛程式會重設Cookie有效期，並從引數指派變數 `v` 值。 未活動30分鐘後，Cookie即過期。
