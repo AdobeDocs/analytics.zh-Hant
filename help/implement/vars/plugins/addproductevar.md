@@ -2,7 +2,7 @@
 title: addProductEvar
 description: 將銷售eVar新增至產品變數。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: d73ba14ac217ad6a46c16a29b4e19b265573fdda
 
 ---
 
@@ -23,7 +23,10 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 1. 按一下所要的屬性。
 1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
 1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
-1. 對於您想要使用外掛程式的任何「啟動規則」，請新增具有下列設定的動作：
+1. 如果您尚未建立新的啟動規則，請使用下列設定建立名為「初始化外掛程式」的啟動規則：
+   * 條件：無
+   * 事件：核心——載入的程式庫（頁面頂端）
+1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常見Analytics外掛程式
    * 動作類型：初始化addProductEvar
 1. 儲存並發佈規則的變更
