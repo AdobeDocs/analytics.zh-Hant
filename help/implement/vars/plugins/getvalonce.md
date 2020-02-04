@@ -2,14 +2,14 @@
 title: getValOnce
 description: 防止Analytics變數一列設為相同值兩次。
 translation-type: tm+mt
-source-git-commit: 26f06adbef1608a6e01df3ab1d3ad4ba78abc28f
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：getValOnce
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外掛 `getValOnce` 程式可防止變數多次設定為等於相同值。 Adobe建議您在訪客重新整理頁面或多次瀏覽指定頁面時，使用此外掛程式來去重複資料。 如果您不擔心分析工作區中的「發生次數」度量，就不需要此外掛程式。
 
