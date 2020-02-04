@@ -3,7 +3,7 @@ title: Adobe Analytics 文件更新
 description: Adobe Analytics 技術文件更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: ad559f0c067de932aba01d1a84b3c22944e9be75
+source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
 
@@ -40,6 +40,6 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 大幅更新[地區資料收集](/help/technotes/rdc/regional-data-collection.md)。 |
 | 2019 年 2 月 7 日 | 微幅更新[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)中的「將 IP 位址的最後八位數字取代為 0 」和「IP 模糊化」設定。 |
-| 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](/help/implement/js-implementation/plugins/getpercentpageviewed.md) 實作外掛程式。 |
+| 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 實作外掛程式。 |
 | 2019 年 1 月 17 日 | Analysis Workspace 新增專案設定[檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md)。 |
 | 2019 年 1 月 17 日 | 大幅更新[同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。 |
