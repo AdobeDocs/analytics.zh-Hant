@@ -2,36 +2,35 @@
 title: 地區資料收集
 description: 地區資料收集資訊
 translation-type: tm+mt
-source-git-commit: 6d8f081d5ed86dfd6aeb0b68c5ae9624edb84b21
+source-git-commit: 449a64e361523d7a68514d60541c443a4f696c9d
 
 ---
 
 
 # 地區資料收集
 
-瞭解 地區資料收集 (RDC)，以及如何根據需要變更收集網路。
-
-為了改善資料收集效能，所有Adobe Experience cloud客戶都已轉換為地區資料收集(RDC)，如此收集作業就會盡可能接近您的使用者。 這可改善您的網站／應用程式效能，並確保資料能盡快收集，以最佳化使用者體驗。 按地區在 Data Collection Center (DCC) 收集您數位財產中的資料後，系統會透過安全連線將資料轉送到資料處理中心 (DPC)，資料經過處理後，便可供 Adobe Experience Cloud 的產品使用。自從 2009 年以來，新的實作項目一律預設採用 RDC。
+Adobe Experience cloud使用地區資料收集(RDC)，讓您的使用者與Adobe Experience cloud之間的互動盡可能接近您的使用者。 這可改善您的網站／應用程式效能，並確保資料能盡快收集，以最佳化使用者體驗。 當您的數位屬性資料在資料收集中心(DCC)以區域方式收集後，會透過安全連線將資料轉送至資料處理中心(DPC)，並在該處處理資料並提供給Adobe Experience cloud中的產品。
 
 RDC 目前包括下列位置 (可能隨時變更): 
 
-## 第三方資料收集
+## 協力廠商和HTTP資料收集
 
 | RDC 類型 | 資料收集中心 |
 |---------------------|-------------------|
-| 預設值 | 聖荷西、維吉尼亞、倫敦、新加坡、香港、雪梨、阿姆斯特丹 |
+| 預設值 | 俄勒岡、維吉尼亞、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨 |
 
 Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` endpoints, then you have third-party data collection. 如果您在請求的 URL 中看到任一端點，即可判定出此結論。
 
-## 第一方資料收集
+## 第一方HTTPS資料收集
 
 | RDC 類型 | 資料收集中心 |
 |---------------------|-------------------|
-| Standard | 聖荷西、維吉尼亞、倫敦、新加坡 |
-| 全部 | Standard加上香港、雪梨、阿姆斯特丹 |
-| 僅限美國 | 聖荷西、維吉尼亞 |
-| 僅限EU | 倫敦、阿姆斯特丹 |
-| 僅限印度 | 孟買 |
+| 全域（預設） | 俄勒岡、維吉尼亞、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨 |
+| 僅限美洲 | 俄勒岡，維吉尼亞 |
+| 僅限歐洲 | 愛爾蘭，巴黎 |
+| 僅限亞太地區 | 孟買、新加坡、東京、雪梨 |
+
+注意：Experience Edge global為您的使用者提供最佳效能。  如果您想要使用替代的RDC類型，請聯絡Adobe客戶服務以取得協助。
 
 ## RDC 的運作方式
 
@@ -45,7 +44,7 @@ Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` e
 
 | 好處 | 說明 |
 |---------|-----------|
-| 效能 | 有了RDC，您的訪客將會連線至最近的DCC。 這表示您網頁的回應時間可以降低 (越低越好)，導致更精確的追蹤與更快的載入時間。如需回應時間的詳細資訊，請參閱RDC 提供的效能改進. |
+| 效能 | 有了RDC，您的訪客將會連線至最近的DCC。 這表示您網頁的回應時間可以降低 (越低越好)，導致更精確的追蹤與更快的載入時間。 |
 | 備援 | 如果與DCC的通訊中斷，資料收集會自動路由至最近的DCC，以確保服務連續性。 |
 | 備援 | 萬一 DCC 與 DPC 之間的通訊發生中斷，Adobe 的 RDC 基礎結構會在本機儲存資料，然後在通訊還原時將資料轉送至 DPC。 |
 
@@ -53,4 +52,5 @@ Note: If your Analytics image request is sent to the `2o7.net` or `omtdrc.net` e
 
 | 更新 | 說明 |
 |--------|---------|
+| 2020年2月4日 | 更新RDC位置 |
 | 2019 年 2 月 20 日 | 完全重寫。 已新增RDC網路資訊。 |
