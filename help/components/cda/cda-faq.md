@@ -1,8 +1,8 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: ht
-source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -35,7 +35,7 @@ Adobe 將時間戳記點擊視為收到時間戳記時的時間，而非 Adobe �
 
 **CDA 與自訂訪客 ID 有何不同?**
 
-[自訂訪客 ID](/help/implement/js-implementation/c-unique-visitors/visid-custom.md)是傳統方法，用於[跨裝置連結使用者](/help/implement/js-implementation/xdevice-visid/xdevice-connecting.md)。若使用自訂訪客 ID，需使用 `s.visitorID` 變數明確設定用於訪客邏輯的 ID。`s.visitorID` 變數會覆寫任何存在的 Cookie 式 ID。如需詳細資訊，請參閱「實作使用指南」中的[識別獨特訪客](/help/implement/js-implementation/c-unique-visitors/visid-overview.md)。
+[自訂訪客 ID](/help/implement/vars/config-vars/visitorid.md)是傳統方法，用於[跨裝置連結使用者](/help/implement/js/xdevice-visid/xdevice-connecting.md)。若使用自訂訪客 ID，需使用 `s.visitorID` 變數明確設定用於訪客邏輯的 ID。`s.visitorID` 變數會覆寫任何存在的 Cookie 式 ID。
 
 自訂訪客 ID 有許多不良副作用，而 CDA 的設計目的為克服或減輕這些副作用。例如，自訂訪客 ID 方法沒有回顧功能。如果使用者在造訪期間進行驗證，則造訪的前半部和後半部會與不同的訪客 ID 建立關聯。不同的訪客 ID 會導致造訪和訪客數膨脹。CDA 的 30 天回顧時限可用於及時回溯，重新認定先前的行為屬於同一人，將未驗證的跨裝置行為與已驗證的跨裝置行為結合在一起，以達到零膨脹或最小膨脹。
 
