@@ -1,8 +1,8 @@
 ---
 title: 建立解決方案設計文件
 description: 瞭解解決方案設計文件是什麼，以及可如何將其用於您的組織。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 必備條件
 
-[驗證 Analytics 實施並發佈至生產環境](../implement-with-launch/validate-publish-prod.md) - 雖然並非直接必要，但 Adobe 建議您建立基本實施，這樣就能在建立及實作其他業務需求時收集重要資料。
+[驗證 Analytics 實施並發佈至生產環境](../launch/validate-publish-prod.md) - 雖然並非直接必要，但 Adobe 建議您建立基本實施，這樣就能在建立及實作其他業務需求時收集重要資料。
 
 ## 設計文件的擁有權與位置
 
@@ -41,14 +41,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 定義解決方案設計文件是相當複雜的專案，對未曾建立這類文件的組織來說更是如此。如需其他協助，Adobe 可提供專業諮詢服務，協助您的組織快速上手並開始執行 Adobe Analytics。若要獲得 Adobe 的專業服務，請聯絡您的客戶經理。您可以填寫[技術預先實施問卷](assets/technical-pre-implementation-questionnaire.pdf)，讓 Adobe 確切瞭解如何根據您的組織需求提供協助。
 
 此外，也有一些 Adobe 合作夥伴可專門協助您建立解決方案設計文件，以及在您的網站上實作 Adobe Analytics。
-
-> [!NOTE] 雖然 Analytics 社群的會員已發現下列實用連結，但 Adobe 並非這些連結的擁有者。檢視其內容時，請將此備註列入考量。
-
-* [設定網站 Analytics 解決方案設計的 大步驟](https://resources.observepoint.com/blog/7-steps-solution-design-data-governance)/7-；文章來源: ObservePoint
-* [數位分析程序的架構](https://analyticsdemystified.com/analytics-strategy/framework-digital-analytics-process/)；文章來源: Analytics Demystified
-* [解決方案設計參考資料其實是您的 BFF](http://numericanalytics.com/why-a-simple-piece-of-documentation-is-the-key-to-analytics-success-the-solution-design-reference-is-actually-your-bff/)；文章來源: Numeric Analytics
-* [如何建立 Adobe Analytics 標籤對映](http://www.anttikoski.fi/how-to-make-adobe-analytics-tagging-map-aka-solution-design-requirements-for-sitecatalyst-implementation/)；文章來源: Antti Koski
-* [解決方案設計文件的重要性](https://www.ebiquity.com/news-insights/analytics/the-importance-of-the-solution-design-document)；文章來源: Ebiquity
 
 ## 後續步驟
 
