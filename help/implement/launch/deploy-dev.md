@@ -2,7 +2,7 @@
 title: 將 Adobe Analytics 部署至開發環境
 description: 瞭解如何使用 Adobe Experience Platform Launch 來將 Adobe Analytics 部署至開發環境。
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
@@ -69,8 +69,8 @@ Launch 可在部署程式碼時配合許多組織工作流程。請按照下列�
 
 ## 文件和其他資源
 
-- [Launch 快速入門](https://docs.adobelaunch.com/getting-started): 瞭解 Launch 的基本工作流程
-- [Launch 管理](https://docs.adobelaunch.com/administration): 深入瞭解轉接器和環境
+- [Launch 快速入門](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html): 瞭解 Launch 的基本工作流程
+- [啟動發佈](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html):進一步瞭解發佈與環境
 
 ## 後續步驟
 
