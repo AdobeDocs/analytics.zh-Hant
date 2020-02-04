@@ -2,14 +2,14 @@
 title: cleanStr
 description: 從字串移除或取代所有不必要的字元。
 translation-type: tm+mt
-source-git-commit: e08f3e168a779f9678a109d7f533761629cd38f3
+source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
 
 ---
 
 
 # Adobe外掛程式：cleanStr
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以利您運用Adobe Analytics獲得更大價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
 外掛 `cleanStr` 程式會移除或取代字串中所有不必要的字元，包括HTML標籤字元、額外的空格、標籤和新行／換行符。 它也取代左／右單引號(`‘` 和 `’`)直單引號(`'`)。 如果您想要從變數值中移除不必要的字元，而Launch中的「清除文字」功能無法滿足您的實作需求，Adobe建議使用此外掛程式。 如果收集的資料不含不必要的字元，或Launch中的「清除文字」功能已足夠，則不需要此外掛程式。
 
