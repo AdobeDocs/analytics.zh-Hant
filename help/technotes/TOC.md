@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+source-git-commit: f8c8253b59d6297e4028e812bd05ee7528ef00ff
 
 ---
 
@@ -33,7 +33,6 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 + [重新導向與別名](redirects.md)
 + 地區資料彙集 {rdc}
    + [地區資料彙集說明](rdc/regional-data-collection.md)
-   + [環境特性](rdc/rdc-environment-characteristics.md)
    + [SSL 認證授權](rdc/ssl-cert-licensing.md)
 + [使用詞彙 (字彙表)](terms.md)
 + [選擇式時間戳記](timestamps-optional.md)
