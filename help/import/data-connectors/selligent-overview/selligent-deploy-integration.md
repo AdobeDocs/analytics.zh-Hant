@@ -3,7 +3,7 @@ description: 部署此項整合是一個簡單的3步驟程式。
 title: 部署整合
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/selligent-variables.png)
 
-1. **資料設定**:除了3個自動化合作夥伴區 **[!UICONTROL 段外]** ，您可在「您的區段」下選擇 **[!UICONTROL 您自己的區段]** 。
+1. **資料設定**:除了3個自動化合作夥伴區 **[!UICONTROL 段外]**，您可在「您的區段」下選擇**[!UICONTROL &#x200B;您自己的區段]** 。
 
 1. 此整合可能需要將數個資料點下載至您的Selligent帳戶。 您可以選擇在「存取請求」下授予相 **[!UICONTROL 同的存取權]**。
 1. 在「 **[!UICONTROL 資料收集]**」下方，選擇自動或手動解決方案（JavaScript外掛程式），從著陸頁面URL收集查詢字串參數。 如果您選擇自動化解決方案，請為「訊息ID」和「收件者ID」輸入查詢字串參數，其分別為MID和RID。 如需JavaScript外掛程式，請連絡您的Adobe顧問。
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 整合活動記錄 {#section-927e270495db479fba9578915d9ae9c9}
 
-導覽至「資料連接器」中的「自訂整合」。 在「支 **[!UICONTROL 援]** 」索引標籤下，您應會看到「已成功匯入量度資料」和／或「已匯入分類資料」等事件：
+導覽至「資料連接器」中的「自訂整合」。 在「支 **[!UICONTROL 援]**」索引標籤下，您應會看到「已成功匯入量度資料」和／或「已匯入分類資料」等事件：
 
 ![](assets/selligent-verifying.png)
 
@@ -74,4 +74,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 前往Adobe Experience cloud下的「報告與分析」。
 1. 選取正確的報表套裝。
-1. 在「 **[!UICONTROL 自訂轉換]**」下，選取「 **[!UICONTROL 訊息ID報表]** 」並選 **[!UICONTROL 擇「訊息ID/訊息名稱」]**。
+1. 在「 **[!UICONTROL 自訂轉換]**」下，選取「**[!UICONTROL &#x200B;訊息ID報表]** 」並選 **[!UICONTROL 擇「訊息ID/訊息名稱」]**。
