@@ -2,7 +2,7 @@
 title: eVar
 description: 您可在實作中使用的自訂變數。
 translation-type: tm+mt
-source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+source-git-commit: dcb69257fd29686ae346cf4d0cf50ed041ebcbbc
 
 ---
 
@@ -54,6 +54,8 @@ s.eVar1 = "+12.49";
 
 若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar計數器不能包含負數。
 
+> [!IMPORTANT] 您必須先在管理控制台中將eVar設定為&#39;Counter&#39;，才能使用計數器eVar。 See [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in the Admin guide.
+
 ## prop或eVar的獨享優勢
 
 在目前的Adobe Analytics版本中，prop和eVar都是具有類似功能的自訂變數。 但是，它們有幾大不同：
@@ -61,4 +63,4 @@ s.eVar1 = "+12.49";
 * Prop中的資料可在數分鐘內供報告使用。 eVar可能需要超過30分鐘才會顯示在報表中。
 * Prop的報表限制為100位元組。 eVar有255位元組的限制。
 * Prop可成為清單Prop，這些Prop在同一點擊中接受多個值。 清單變數是個別的變數，只有三個清單變數可供使用。
-* Prop預設不會持續存在超過設定的點擊。 eVar有自訂的過期時間，可讓您判斷eVar何時不再獲得後續事件的評分。 如果您使 [用報表時間處理](../../../components/vrs/vrs-report-time-processing.md),prop和eVar都可以使用任何您想要的歸因模型。
+* Prop預設不會持續存在超過設定的點擊。 eVar有自訂的過期時間，可讓您判斷eVar何時不再獲得後續事件的評分。 不過，如果您使用報 [告時間處理](../../../components/vrs/vrs-report-time-processing.md),prop和eVar都可以使用自訂歸因模型。
