@@ -5,7 +5,7 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 功能 | 說明 |
 |--- |--- |
-| [自由表格產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
+| [自由表格產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -26,9 +26,9 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 更新至自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**和**[!UICONTROL &#x200B;總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入瞭解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**和**[!UICONTROL 「顯示總量」]**選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的**[!UICONTROL &#x200B;摘要數字]**視覺效果)，以及轉存的 CSV 和 PDF 資料。 |
+| 更新至自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入瞭解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及轉存的 CSV 和 PDF 資料。 |
 | 移除「未指定／無」的選項 | 可輕鬆移除「未指定 (無)」的功能已新增為報表篩選器的選項。 |
-| 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**區段也已重新命名為**[!UICONTROL &#x200B;日期範圍]**。 |
+| 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
 
 ## 2019 年 8 月
 
@@ -584,7 +584,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
    <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列 Workspace 區域中的所有元素，而不必手動刪除每個元素: </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢獻分析的已排除元件 </a> </li> 
-     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/compare-segments.md"> 區段比較的已排除元件 </a> </li> 
+     <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 區段比較的已排除元件 </a> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -945,7 +945,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 2016 年 6 月 16 日發行的新功能:
 
-* [新群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]**>**[!UICONTROL  Workspace]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
+* [新群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
 * 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 面板、視覺效果、元件
@@ -1010,11 +1010,11 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 您也可以使用標準的 Windows 和 Mac [鍵盤快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md) (ctrl 或 cmd + z) 來還原。
 
-*`Undo`*尤其適合用來還原表格中的劃分。
+*`Undo`*&#x200B;尤其適合用來還原表格中的劃分。
 
-非&#x200B;*`not`*不可還原的動作:
+非&#x200B;*`not`*&#x200B;不可還原的動作:
 
-* 變更[!UICONTROL 同類群組表格]的設定 (例如拖曳量度、變更值)。不過，您可在按一下&#x200B;**[!UICONTROL 「執行」]**後按**[!UICONTROL 「還原」]**。
+* 變更[!UICONTROL 同類群組表格]的設定 (例如拖曳量度、變更值)。不過，您可在按一下&#x200B;**[!UICONTROL 「執行」]**&#x200B;後按&#x200B;**[!UICONTROL 「還原」]**。
 
 * 重新調整面板和子面板的大小或移動面板和子面板。
 
@@ -1067,7 +1067,7 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 新區段會顯示於「[!UICONTROL 元件]」面板中的「[!UICONTROL 區段]」群組。
 
-*`Save As`*也適用於「[!UICONTROL 計算量度產生器]」和「[!UICONTROL 日期範圍產生器]」。
+*`Save As`*&#x200B;也適用於「[!UICONTROL 計算量度產生器]」和「[!UICONTROL 日期範圍產生器]」。
 
 ## 加入新區段按鈕 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
@@ -1143,4 +1143,4 @@ source-git-commit: 3a00162c5899ba2d5bb1b5aaed448b2abe93d56d
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
-導覽至「**[!UICONTROL 管理員]**>**[!UICONTROL &#x200B;使用者管理]** > **[!UICONTROL 轉讓]**」，即可轉讓專案。
+導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 轉讓]**」，即可轉讓專案。
