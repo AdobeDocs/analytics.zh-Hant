@@ -2,14 +2,14 @@
 title: tl
 description: 傳送連結追蹤呼叫給Adobe。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ---
 
 
 # tl
 
-方 `tl` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。 它的運作方式與方 `t` 法類似，但此方法不會增加頁面檢視。 這對於追蹤連結和其他不會視為完整頁面載入的元素非常有用。
+方 `tl` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。 它的運作方式與方 `t` 法類似，但此方法不會增加頁面檢視。 它對於追蹤連結和其他不會視為完整頁面載入的元素非常有用。
 
 如果 `trackDownloadLinks` 啟用 `trackExternalLinks` 或已啟用，AppMeasurement會自動呼叫方法， `tl` 以傳送下載連結和退出連結追蹤資料。 如果您的組織想要對要追蹤的連結及其行為擁有更多控制權，則可以手動呼叫 `tl` 方法。 自訂連結只能手動追蹤。
 
@@ -18,11 +18,11 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 Launch有專用位置設定連結追蹤呼叫。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下，按一下「+」圖示
-5. 將「延 [!UICONTROL 伸功能] 」下拉式清單設定為Adobe Analytics，並設定 [!UICONTROL 「傳送信標的動作類型] 」。
-6. Click the `s.tl()` radio button.
+1. 按一下所要的屬性。
+1. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
+1. 在「 [!UICONTROL 動作]」下，按一下「+」圖示
+1. 將「延 [!UICONTROL 伸功能] 」下拉式清單設定為Adobe Analytics，並設定 [!UICONTROL 「傳送信標的動作類型] 」。
+1. Click the `s.tl()` radio button.
 
 您不能在Launch中設定任何可選引數。
 
