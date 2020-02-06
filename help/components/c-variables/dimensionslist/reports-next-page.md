@@ -1,10 +1,10 @@
 ---
-description: 顯示訪客在檢視您的網站上某個選定頁面之後所檢視的頁面，從而提供詳細的網站路徑分析。例如，在選取並報告您整個網站時，此報告會顯示排名前 10 的登陸頁面，每個登陸頁面下方各列出 5 個最受歡迎的下一頁。這項資料可協助您瞭解哪些內容和功能最能促使訪客瀏覽您的網站。
+description: 顯示訪客在您網站上檢視選定頁面後所檢視的頁面。
 title: 下一頁
 topic: Reports
 uuid: 4abecb9c-efc4-4844-9712-f352b2570936
 translation-type: tm+mt
-source-git-commit: 8ca43ce77eb78a422b183dc0432e5d809732258b
+source-git-commit: f2c6dcb2151a3183cbd0d3c90522983288759250
 
 ---
 
