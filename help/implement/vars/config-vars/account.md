@@ -2,14 +2,14 @@
 title: account
 description: 使用帳戶變數可判斷資料要傳送至的報表套裝。
 translation-type: tm+mt
-source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
 
 ---
 
 
 # account
 
-> [!IMPORTANT] 此變數已停用。 如果您 [`s.sa()`](../functions/sa.md) 的實作需要修改報表套裝目標，請使用函式。
+> [!IMPORTANT] 此變數已停用。 如果您 [`s.sa()`](../functions/sa-method.md) 的實作需要修改報表套裝目標，請使用函式。
 
 在舊版Adobe Analytics中，變數會 `account` 決定您要傳送資料的報表套裝。 必須有報表套裝ID才能傳送資料至Adobe Analytics。
 
