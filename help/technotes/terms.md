@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的詞語
 description: Adobe Analytics辭彙表，定義使用的常用詞語。
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 轉換變數：俗稱eVar。 儲存自訂值，並保留變數值，直到其過期為止。 See [Conversion variables](/help/components/c-variables/dimensionslist/reports-conversion.md) in the Components user guide.
 * **** 關聯：不再用作詞語；取代為維度劃分。 在舊版Adobe Analytics中，關聯可讓您劃分流量變數。 請參 [閱「分析](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md) 」使用指南中的劃分維度。
 * **** 目前的資料：某些報表中的選項，可包含尚未完全處理的最近收集資料。 請參 [閱「分析](/help/analyze/reports-analytics/current-data.md) 」使用指南中的「目前的資料」。
-* **** 自訂連結：包含非頁面檢視資料的點擊類型。 請參閱 [實施使用指南中的](../implement/vars/functions/tl.md) s.tl()函式。 另請參閱「點擊」。
+* **** 自訂連結：包含非頁面檢視資料的點擊類型。 請參閱 [實施使用指南中的](../implement/vars/functions/tl-method.md) s.tl()函式。 另請參閱「點擊」。
 * **** 客戶屬性：允許上傳屬性資料的Experience cloud功能。 請參 [閱核心服務](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) (Core Services)使用指南中的客戶屬性。
 * **** 客戶支援委派：經授權可直接與Adobe客戶服務互動的指定使用者。 請參 [閱Experience cloud知識庫](https://helpx.adobe.com/experience-cloud/supported-users.html) 中的客戶支援委派。
 * **** 資料收集伺服器：接收及處理資料的Adobe所擁有伺服器。 影像要求會傳送至Adobe的資料收集伺服器，以用於報告。
@@ -68,7 +68,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 清單prop:一種設定，可轉換典型流量變數，以支援相同點擊中的多個值。 如果設定已啟用，任何自訂流量變數都可成為清單prop。 請參 [閱](../implement/vars/page-vars/prop.md) 「實施使用指南」中的prop。
 * **** 清單變數：與轉換變數分開的不同變數。 清單變數支援相同點擊中的多個值，而變數值會保留在瀏覽中，類似於轉換變數。 組織只能使用三個清單變數。 請參 [閱「實作](../implement/vars/page-vars/list.md) 」使用指南中的清單。
 * **** 登入公司：您組織使用的報表套裝集合。 有些組織有多個登入公司，可套用至其組織的不同部分。
-* **** 行銷渠道：Adobe Analytics中的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷渠道處理規則自訂用於分類點擊的邏輯。 請參 [閱「元件」使用指南中的](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 「行銷渠道入門」。
+* **** 行銷渠道：Adobe Analytics中的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷渠道處理規則自訂用於分類點擊的邏輯。 請參 [閱元件使用指南中的](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 「行銷渠道入門」。
 * **** 量度：包含量化資料的元件類型。 度量值通常包含數字，例如頁面檢視、瀏覽和收入。 維度通常是對應維度。
 * **** 多套裝標籤：傳送相同點擊至多個報表套裝的慣例。 隨著虛擬報表套裝的推出，此作法基本上已不再必要。 大部分的多套裝標籤工作都有助於容納全域報表套裝。
 * **** 標準化：組織視覺化的方式，可將所有量度納入並強制其等比例，讓趨勢比較更輕鬆。
@@ -87,8 +87,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 * **** 報表套裝：您傳送資料至的首要容器。 Adobe Analytics中的所有報表都會參考報表套裝。
 * **** 滾動日期範圍：隨時間流逝而變更的相對日期範圍類型。 例如，顯示最近7天的報表可視為遞延日期範圍。 另請參閱靜態日期範圍。
 * **** RSID:報表套裝ID的縮寫。 報表套裝同時具有好記的名稱和報表套裝ID。
-* **** s.t():傳送頁面檢視影像要求之AppMeasurement程式庫中函式的名稱。 有些AppMeasurement程式庫會改 `s.track()` 用。 請參 [閱](../implement/vars/functions/t.md) 「實施使用指南」。
-* **s<span>.</span>** tl():傳送連結追蹤影像要求之AppMeasurement程式庫中函式的名稱。 有些AppMeasurement程式庫會改 `s.trackLink()` 用。 請參 [閱「實作](../implement/vars/functions/tl.md) 」使用指南中的tl。
+* **** s.t():傳送頁面檢視影像要求之AppMeasurement程式庫中函式的名稱。 有些AppMeasurement程式庫會改 `s.track()` 用。 請參 [閱](../implement/vars/functions/t-method.md) 「實施使用指南」。
+* **s<span>.</span>** tl():傳送連結追蹤影像要求之AppMeasurement程式庫中函式的名稱。 有些AppMeasurement程式庫會改 `s.trackLink()` 用。 請參 [閱「實作](../implement/vars/functions/tl-method.md) 」使用指南中的tl。
 * **** s_code.js:Adobe Analytics歷史版本中使用的JavaScript檔案名稱。 使用之JavaScript檔案的目前名稱為AppMeasurement.js。
 * **** 衛星：不再用作詞語。 動態標籤管理的舊版產品名稱。
 * **** 次要伺服器呼叫：影像要求或點擊的替代名稱，主要用於多套裝標籤和帳單的內容。 當相同點擊傳送至多個報表套裝時，第一個列出後的所有報表套裝都是次要伺服器呼叫。 另請參閱主要伺服器呼叫。
