@@ -1,8 +1,8 @@
 ---
 title: 跨裝置分析
 description: 跨裝置分析將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
-translation-type: ht
-source-git-commit: c358df811f23a57441e6f9410c957e34954de712
+translation-type: tm+mt
+source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 
 ---
 
@@ -32,14 +32,14 @@ source-git-commit: c358df811f23a57441e6f9410c957e34954de712
 * 貴組織的資料必須存放於 Adobe 的太平洋西北地區資料中心。已規劃為全球其他地區的資料中心提供支援。
 * 請聯絡貴組織的客戶經理以確立下列關鍵點:
    * 必須與 Adobe 簽署包含 Adobe Analytics Ultimate 的合約。
-   * 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)。
+   * 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)。
    * 貴組織必須同意允許 Adobe 在 Microsoft Azure 伺服器上處理及儲存 Analytics 資料。Adobe 使用 Azure 來儲存裝置圖表資料及執行裝置連結。因此，Adobe Analytics 資料會在 Adobe 的資料處理中心與 Adobe 所採用的 Microsoft Azure 之間來回傳遞。
 * 系統會根據報表套裝啟用跨裝置分析功能。已啟用 CDA 的報表套裝須達到以下條件:
    * 報表套裝每天的點擊數不能超過 1 億次。此門檻將在未來幾個月內提高。
    * Adobe 建議報表套裝中包含跨裝置資料，也就是來自多種裝置類型 (網頁、應用程式等) 的資料。某些組織將此概念稱為「全域」報表套裝，但從地理角度來說 CDA 不見得須為全域。跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
 * 您的實作必須符合下列最低要求:
-   * 必須部署最新版的 Experience Cloud ID Service。請參閱 Experience Cloud Identity Sservice 使用指南中的[首頁](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。大部分使用 Adobe Experience Platform Launch 的實作可能都已部署 ECID。
-   * 每當可識別個人身分時 (例如使用者登入或開啟電子郵件)，就會呼叫 `setCustomerIDs` 函式。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 Experience Cloud Identity Service 使用指南中的 [setCustomerIDs](https://docs.adobe.com/content/help/zh-Hant/id-service/using/id-service-api/methods/setcustomerids.html)。
+   * 必須部署最新版的 Experience Cloud ID Service。請參閱 Experience Cloud Identity Sservice 使用指南中的[首頁](https://docs.adobe.com/content/help/en/id-service/using/home.html)。大部分使用 Adobe Experience Platform Launch 的實作可能都已部署 ECID。
+   * 每當可識別個人身分時 (例如使用者登入或開啟電子郵件)，就會呼叫 `setCustomerIDs` 函式。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 Experience Cloud Identity Service 使用指南中的 [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)。
 
 ## 限制
 
@@ -55,7 +55,7 @@ source-git-commit: c358df811f23a57441e6f9410c957e34954de712
 * 客戶服務尚未完全支援此功能。可使用[跨裝置分析論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview)來支援這項功能，包括 Adobe 產品經理的主動與直接參與。
 * 跨裝置分析使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](../vrs/vrs-about.md)和[報表時間處理](../vrs/vrs-report-time-processing.md)。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
-* 當有新裝置造訪您的網站，由「合用圖表」或「專用圖表」進行處理最多需要兩週時間。CDA 中最近兩週的連結程度通常低於兩週以前的日期範圍。Adobe 計畫改善 Adobe Experience Platform Identity Service 未來即時連結新裝置的效能。
+* 造訪您網站的新裝置最多需要兩週時間，才能由Co-op Graph處理。 CDA 中最近兩週的連結程度通常低於兩週以前的日期範圍。Adobe 計畫改善 Adobe Experience Platform Identity Service 未來即時連結新裝置的效能。
 * 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。來源報表套裝中的資料不會變更。
 
 貴組織達到所有要求並瞭解相關限制後，您就可以開始[設定跨裝置分析](cda-setup.md)。
