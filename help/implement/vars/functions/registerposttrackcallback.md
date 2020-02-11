@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: 在傳送點擊至Adobe後建立回呼函式。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: acfcb1f27650649581875680e7897e5c9813765a
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 每次呼叫變數 `registerPostTrackCallback` 時，您都會勾選該函式，以便在成功傳送影像要求後立即執行。 請避免在同一頁面載入中多次註冊相同的函式。
 
-> [!NOTE] 在和之間觸發的函式的時 `registerPostTrackCallback` 間和 `registerPostTrackCallback` 順序不保證。 避免這兩個函式之間的依賴關係。
+> [!NOTE] 在和之間觸發的函式的時 `registerPreTrackCallback` 間和 `registerPostTrackCallback` 順序不保證。 避免這兩個函式之間的依賴關係。
 
 ## 在Adobe Experience Platform Launch中註冊貼文追蹤回呼
 
