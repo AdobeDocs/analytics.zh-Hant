@@ -3,7 +3,7 @@ title: JavaScript適用的AppMeasurement發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 
 ---
 
@@ -14,7 +14,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在「程式碼管理員」中下載最新版 [的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
+您可以在「程式碼管理員」(/help/admin/admin/code-manager-admin.md)中下 [載最新版]的AppMeasurement。
+
+## 2.18.0 版
+
+發行日期: **2020 年 2 月 20 日**
+
+* AppMeasurement現在可以透過設定為&#39;true&#39;，強制Cookie `writeSecureCookies` 包含安全標籤。 此設定的要求是要安全地提供整個用戶端網站(https)。 (AN-204604)
 
 ## 2.17.0 版
 
@@ -228,7 +234,7 @@ Updated: **August 4, 2016**
 發行日期: **2016 年 4 月 21 日**
 
 * [!DNL AppMeasurement] Activity Map 模組已整合至 [!DNL AppMeasurement] 標準模組，因此您僅需參照一個 [!DNL .js] 檔案。此外，預設已啟用「Activity Map」追蹤。(AN-112689)
-* 修正 [!DNL AppMeasurement] 中查詢字串變數順序的截斷問題，因此 *`pageURLRest`*會顯示於最後。(AN-114647)
+* 修正 [!DNL AppMeasurement] 中查詢字串變數順序的截斷問題，因此 *`pageURLRest`* 會顯示於最後。(AN-114647)
 
 ## 第 1.5.4 版
 
@@ -262,8 +268,8 @@ Updated: **August 4, 2016**
 
 發行日期: **2015 年 6 月 18 日**
 
-* Visitor API 1.5 的支援 (使用 *`getCustomerIDs`*方法收集客戶 ID 及已驗證狀態，並針對資料收集要求傳送 ID)。
-* 修正 **[!UICONTROL AudienceManagement]**模組 (DIL 6.1) 中重複目的地 iframe 的建立
+* Visitor API 1.5 的支援 (使用 *`getCustomerIDs`* 方法收集客戶 ID 及已驗證狀態，並針對資料收集要求傳送 ID)。
+* 修正 **[!UICONTROL AudienceManagement]** 模組 (DIL 6.1) 中重複目的地 iframe 的建立
 * 已修正 1.4.5 版中說明的已知問題。
 
 ## 1.4.5 版
@@ -290,7 +296,7 @@ Updated: **August 4, 2016**
 發行日期: **2015 年 2 月 19 日**
 
 * 將所有延遲追蹤呼叫的處理改為一致，以修正延遲期間的備份變數問題，例如已點按物件。
-* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定   *`s.referrer`*時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。
+* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定   *`s.referrer`*&#x200B;時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。
 * 已更新分送 Zip 檔，現在包含 Visitor API 1.3.5。
 
 ## 1.4.2 版
@@ -298,7 +304,7 @@ Updated: **August 4, 2016**
 發行日期: **2015 年 1 月 15 日**
 
 * 修正 WebKit 轉譯前處理，防止追蹤未檢視的轉譯前頁面。
-* 更新分送 Zip 檔，以包含 Visitor API 1.3.4 以及 **[!UICONTROL AudienceManagement]**模組 (包含 DIL 5.5 版)。
+* 更新分送 Zip 檔，以包含 Visitor API 1.3.4 以及 **[!UICONTROL AudienceManagement]** 模組 (包含 DIL 5.5 版)。
 
 ## 1.4.1 版
 
@@ -328,7 +334,7 @@ Updated: **August 4, 2016**
 發行日期: **2014 年 8 月 21 日**
 
 *  15 版中不再針對移除追蹤瀏覽器外掛程式 (`p` 查詢參數) 做為外掛程式進行報告。
-* 在下載 Zip 中新增 **[!UICONTROL AudienceManagement]**模組。
+* 在下載 Zip 中新增 **[!UICONTROL AudienceManagement]** 模組。
 * 已新增對其他 eVars (76 - 250) 和事件 (101-1000) 的支援。
 
 > [!NOTE]H-Code 不支援其他 eVar 和事件。
