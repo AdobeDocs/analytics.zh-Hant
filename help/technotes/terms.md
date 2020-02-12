@@ -2,7 +2,7 @@
 title: Adobe Analytics中使用的詞語
 description: Adobe Analytics辭彙表，定義使用的常用詞語。
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: e080c38e536f710490291aaca252cba36456b0f9
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
    * Adobe Campaign,Adobe Experience cloud的一部分。 有關 [Adobe.com的更多資訊](https://www.adobe.com/marketing/campaign.html)。
 * **** 渠道：可參閱：
    * Channel變數，會填入「網站區域」維度。 請參 [閱實作](../implement/vars/page-vars/channel.md) 使用指南中的channel。
-   * 行銷渠道，此元件有助於瞭解使用者如何到達您的網站。 請參 [閱元件使](/help/components/c-marketing-channels/c-overview.md) 用指南中的行銷渠道。
+   * 行銷渠道，此元件有助於瞭解使用者如何到達您的網站。 請參 [閱元件使](/help/components/c-marketing-channels/mc-analyze/analyze-mc.md) 用指南中的行銷渠道。
 * **** 分類：Adobe Analytics中允許對維度值進行分組的功能。 請參 [閱「元件](/help/components/c-classifications2/c-classifications.md) 」使用指南中的「分類」。
 * **** Clickmap:不再使用。 舊版瀏覽器外掛程式，可顯示您網站上最常點按的區域。 此工具已淘汰，改用Activity Map。
 * **** 點按流資料饋送：請參閱資料饋送。
@@ -68,7 +68,7 @@ source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
 * **** 清單prop:一種設定，可轉換典型流量變數，以支援相同點擊中的多個值。 如果設定已啟用，任何自訂流量變數都可成為清單prop。 請參 [閱](../implement/vars/page-vars/prop.md) 「實施使用指南」中的prop。
 * **** 清單變數：與轉換變數分開的不同變數。 清單變數支援相同點擊中的多個值，而變數值會保留在瀏覽中，類似於轉換變數。 組織只能使用三個清單變數。 請參 [閱「實作](../implement/vars/page-vars/list.md) 」使用指南中的清單。
 * **** 登入公司：您組織使用的報表套裝集合。 有些組織有多個登入公司，可套用至其組織的不同部分。
-* **** 行銷渠道：Adobe Analytics中的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷渠道處理規則自訂用於分類點擊的邏輯。 請參 [閱元件使用指南中的](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 「行銷渠道入門」。
+* **** 行銷渠道：Adobe Analytics中的一項功能，可依點擊到達您網站的方式分類點擊。 可使用行銷渠道處理規則自訂用於分類點擊的邏輯。 請參 [閱「元件」使用指南中的](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) 「行銷渠道入門」。
 * **** 量度：包含量化資料的元件類型。 度量值通常包含數字，例如頁面檢視、瀏覽和收入。 維度通常是對應維度。
 * **** 多套裝標籤：傳送相同點擊至多個報表套裝的慣例。 隨著虛擬報表套裝的推出，此作法基本上已不再必要。 大部分的多套裝標籤工作都有助於容納全域報表套裝。
 * **** 標準化：組織視覺化的方式，可將所有量度納入並強制其等比例，讓趨勢比較更輕鬆。
