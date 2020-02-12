@@ -2,7 +2,7 @@
 title: Adobe Analytics中的贏取報告
 description: 瞭解如何使用分析工作區建立贏取型報表。
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 0d9d94608deac089bed97f7570b468e098d1b46e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 > [!IMPORTANT]
 >
-> 設定您的行銷渠道處理規則，以使用這些報表。 如需 [如何在組織中最佳設定行銷渠道的詳細資訊](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ，請參閱行銷渠道快速入門。
+> 設定您的行銷渠道處理規則，以使用這些報表。 如需 [如何在組織中最佳設定行銷渠道的詳細資訊](/help/components/c-marketing-channels/getting-started/c-getting-started-mchannel.md) ，請參閱行銷渠道快速入門。
 
 本頁假設使用者具備使用分析工作區的基本知識。 如 [果您尚不熟悉Adobe Analytics中的工具](create-report.md) ，請參閱「Google Analytics使用者分析工作區」中的建立基本報表。
 
