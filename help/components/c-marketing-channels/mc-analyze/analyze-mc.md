@@ -2,7 +2,7 @@
 title: 分析行銷渠道
 description: 瞭解如何在工作區中使用行銷渠道維度。
 translation-type: tm+mt
-source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
+source-git-commit: 49e349b2caefdad09ff31550649b5dc35656b9bb
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
 | 行銷渠道 | 這是我們建議使用的行銷渠道維度。 可在執行時期套用歸因IQ模型。 一般行銷渠道維度的運作方式與上次接觸渠道維度相同，但標籤不同，以防止與不同歸因模型搭配使用時混淆。 |
 | 上次接觸渠道 | 舊版維度，其歸因模型已預先套用且不可變更。 |
 | 首次接觸渠道 | 舊版維度，其歸因模型已預先套用且不可變更。 |
-| [行銷渠道例項此度量……] |
+| 行銷管道例項 | 此量度…… |
 | 新增參與 | 這是舊式量度，只有在渠道套用「首次接觸」配置時，才會遞增。 |
 
 ## 基本分析
@@ -57,4 +57,4 @@ source-git-commit: 53a4f2cf78077a81d888401777323f5543cfc71c
 
 ![](assets/mc-viz6.png)
 
-透過此影片進 [一步瞭解](https://www.youtube.com/watch?v=M3EOdONa-3E)。
+在此影片中進一步瞭解跨標籤行銷 [分析](https://www.youtube.com/watch?v=M3EOdONa-3E)。
