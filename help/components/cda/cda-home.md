@@ -2,7 +2,7 @@
 title: 跨裝置分析
 description: 跨裝置分析將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 ---
 
@@ -55,7 +55,8 @@ source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
 * 客戶服務尚未完全支援此功能。可使用[跨裝置分析論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/cross-device-analytics/overview)來支援這項功能，包括 Adobe 產品經理的主動與直接參與。
 * 跨裝置分析使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](../vrs/vrs-about.md)和[報表時間處理](../vrs/vrs-report-time-processing.md)。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
-* 造訪您網站的新裝置最多需要兩週時間，才能由Co-op Graph處理。 CDA 中最近兩週的連結程度通常低於兩週以前的日期範圍。Adobe 計畫改善 Adobe Experience Platform Identity Service 未來即時連結新裝置的效能。
+* 如果您的組織使用「私用圖表」，新裝置最多需要24小時的縫合時間。
+* 造訪您網站的新裝置最多需要兩週時間，才能由Co-op Graph處理。 CDA 中最近兩週的連結程度通常低於兩週以前的日期範圍。Adobe計畫未來將Co-op圖表改良為每日更新的圖表。
 * 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。來源報表套裝中的資料不會變更。
 
 貴組織達到所有要求並瞭解相關限制後，您就可以開始[設定跨裝置分析](cda-setup.md)。
