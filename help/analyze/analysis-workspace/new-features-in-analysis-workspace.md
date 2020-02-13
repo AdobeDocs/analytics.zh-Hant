@@ -5,7 +5,7 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
+source-git-commit: a3bd0344e69321dbf1117547a8f911b270252dc1
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 | 使用跨裝置分析的組織適用的新工作區範本 | 此範本顯示CDA如何有效地將造訪連結在一起，並教育您瞭解CDA專屬的維度和量度。 需要使用CDA的報表套裝。 如需 [詳細資訊，請參閱設定跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
 | 工作區中的新快速鍵 | <ul><li>收合／展開所有面板： `alt + m`</li><li>折疊／展開活動面板： `alt + ctrl + m`</li><li>搜尋左側欄： `ctrl + /`</li><li>移至下一個面板： `alt + Right Key`</li><li>移至上一個面板： `alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 其他工作區增強功能 | <ul><li>當面板或視覺化放入「工作區」時，左側導軌現在會自動切換至元件，讓工作流程更順暢。</li><li>範本元件現在可以依據（例如標籤、收藏、核准）進行設定。</li><li>篩選的量度和區段清單會提供+按鈕，讓您在找不到所需項目時新增元件。</li></ul> |
+| 工作區除錯程式 | 工作區除錯程式已新增至「說明」功能表，讓您能以更順暢的方式啟用它來除錯工作區請求。 [更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
