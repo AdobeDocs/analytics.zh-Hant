@@ -4,7 +4,7 @@ title: 使用自訂運算式的日期範圍範例
 topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
 
 ---
 
@@ -43,10 +43,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 僅限使用以下縮寫: cd cw cm cq cy d w m q y
 * 最佳做法是在開始日期和結束日期中使用相同的日期參考: cd、cd 或 cw、cw 或 cy、cy。混雜日期參考可能會導致年度中出現無效的日期。
 * 縮寫 d w m q y 的有效倍數由附加在縮寫前的整數 ( 1 2 3 ... ) 所組成，如 53d 3w 5q 9m 2y
-
-   * 禁止使用非整數值。
-   * 請避免只在縮寫前附加零。例如，不允許 0w。
-
+* 禁止使用非整數值。
+* 請避免只在縮寫前附加零。例如，不允許 0w。
 * 以下運算子可用來連接縮寫: + -
 * 由於日期範圍的計算必須與目前的期間相對應，因此運算式中的第一個字詞一律以 c 開頭。
 
