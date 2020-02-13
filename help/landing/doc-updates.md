@@ -3,7 +3,7 @@ title: Adobe Analytics 文件更新
 description: Adobe Analytics 技術文件更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -12,16 +12,17 @@ source-git-commit: 01bc8d216aa6deba062261e9e0371e257e5cfffd
 
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
-* 如需新功能、管理注意事項和錯誤修正的完整清單，請參閱最新 [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/en_US/whatsnew/)。
-* 如需新功能的詳細資訊，請參 [閱「分析」使用指南中的](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 「分析工作區新功能」。
+* 如需新功能、管理注意事項和錯誤修正的完整清單，請參閱最新 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)。
+* 如需新功能的詳細資訊，請參 [閱「工具」使用指南中的「分析工作區的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 」。
 * 如需 Adobe Analytics for Audio and Video 的相關資訊，請參閱[在 Analytics 測量音訊和視訊](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)。
 
 ## 更新詳細資訊
 
 | 日期 | 說明 |
 |---|---|
+| 2020 年 2 月 12 日 | 行銷管道檔案的更新與重組。 |
 | 2020 年 2 月 7 日 | 設定跨 [裝置分析的更新及常見問](../components/cda/cda-setup.md) 題 [集](../components/cda/cda-faq.md) |
-| 2020年2月4日 | 完整重寫實 [作使用指南](../implement/home.md)。 |
+| 2020年2月4日 | 完整重寫實 [施使用指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 已更新「自由表格」頁面，其中包含新「自由表格產生 [器」的相關資訊](/help/analyze/analysis-workspace/visualizations/freeform-table.md)。 |
 | 2020 年 1 月 13 日 | 已新 [增Adobe Analytics和瀏覽器Cookie](../technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
