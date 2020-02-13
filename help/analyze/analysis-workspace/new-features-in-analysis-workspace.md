@@ -5,12 +5,23 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
+source-git-commit: c911ca4396f01ad7647ec761ed3b749d63364683
 
 ---
 
 
 # Analysis Workspace 的新增功能
+
+## 2020 年 2 月
+
+2020年2月20日發行的新功能。
+
+| 功能 | 說明 |
+|--- |--- |
+| 支援工作區中的多個報表套裝 | 您現在可以將多個報表套裝的資料匯入單一專案，以並排檢視。 從2020年2月20日開始，此功能將在數週內推出給所有客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 使用跨裝置分析的組織適用的新工作區範本 | 此範本顯示CDA如何有效地將造訪連結在一起，並教育您瞭解CDA專屬的維度和量度。 需要使用CDA的報表套裝。 如需 [詳細資訊，請參閱設定跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html) 。 |
+| 工作區中的新快速鍵 | <ul><li>收合／展開所有面板： `alt + m`</li><li>折疊／展開活動面板： `alt + ctrl + m`</li><li>搜尋左側欄： `ctrl + /`</li><li>移至下一個面板： `alt + Right Key`</li><li>移至上一個面板： `alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 其他工作區增強功能 | <ul><li>當面板或視覺化放入「工作區」時，左側導軌現在會自動切換至元件，讓工作流程更順暢。</li><li>範本元件現在可以依據（例如標籤、收藏、核准）進行設定。</li><li>篩選的量度和區段清單會提供+按鈕，讓您在找不到所需項目時新增元件。</li></ul> |
 
 ## 2020 年 1 月
 
@@ -18,7 +29,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 | 功能 | 說明 |
 |--- |--- |
-| [自由表格產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
+| [自由表格產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，Instead, updates occur after you click **[!UICONTROL Build]**, saving you time once you know what table you want to construct. 此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -26,9 +37,9 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 更新至自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入瞭解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及轉存的 CSV 和 PDF 資料。 |
+| 更新至自由表格總計 | 自由表格現在包含兩個總計， **[!UICONTROL Table total]** a和a **[!UICONTROL Grand total]**。 表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)。以前只有區段會影響總計。[更](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>多資訊此外， **[!UICONTROL Show Totals]** 還 **[!UICONTROL Show Grand Total]** 新增了選項至 **[!UICONTROL Column Settings]**。<br/>對自由格式總計的這項變更，會更新相依的視覺化(例如連結的視覺 **[!UICONTROL Summary Number]** 化)，以及匯出的CSV和PDF資料。 |
 | 移除「未指定／無」的選項 | 可輕鬆移除「未指定 (無)」的功能已新增為報表篩選器的選項。 |
-| 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
+| 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色 **[!UICONTROL Time]** 區段也已重新命名為 **[!UICONTROL Date Ranges]**。 |
 
 ## 2019 年 8 月
 
@@ -945,7 +956,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 2016 年 6 月 16 日發行的新功能:
 
-* [新群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
+* [新群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) ，可讓管理員允許或拒絕使用者存取 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** 標籤。 截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
 * 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md): 面板、視覺效果、元件
@@ -1004,7 +1015,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 現在您可以還原在「Analysis Workspace」中執行的大多數動作。
 
-若要還原，請按一下動作功能表中的&#x200B;**[!UICONTROL 「還原」]**。
+To undo, click **[!UICONTROL Undo]** from the action menu.
 
 ![](assets/undo.png)
 
@@ -1014,7 +1025,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 非&#x200B;*`not`*&#x200B;不可還原的動作:
 
-* 變更[!UICONTROL 同類群組表格]的設定 (例如拖曳量度、變更值)。不過，您可在按一下&#x200B;**[!UICONTROL 「執行」]**&#x200B;後按&#x200B;**[!UICONTROL 「還原」]**。
+* Changing the configuration of a [!UICONTROL Cohort Table] (such as dragging metrics, changing values). 不過，您可在按一下 **[!UICONTROL Undo]** 後按一下 **[!UICONTROL Run]**。
 
 * 重新調整面板和子面板的大小或移動面板和子面板。
 
@@ -1025,7 +1036,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ## 連結至本專案 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
-在專案中按一下「動作」功能表中的「**[!UICONTROL 連結至本專案]**」，將已儲存的專案 URL 透過電子郵件傳送給其他使用者。管理員收件者可以編輯並儲存透過此方法共用的專案。除此之外，這些專案都僅供讀取。
+In a project, click **[!UICONTROL Link to This Project]** from the Actions menu to email a saved project&#39;s URL to other users. 管理員收件者可以編輯並儲存透過此方法共用的專案。除此之外，這些專案都僅供讀取。
 
 ![](assets/link-to-this-project.png)
 
@@ -1041,7 +1052,7 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ![](assets/bullet-image.png)
 
-項目符號圖表提供單一的主要測量 (例如本年度至今的收入)，可將該測量與其他一個或多個測量進行比較以豐富其含意 (例如與目標收入比較)，並顯示其效能的定性範圍狀況，例如高、中以及低。您可在「[!UICONTROL 視覺效果設定]」中指定目標範圍。
+項目符號圖表提供單一的主要測量 (例如本年度至今的收入)，可將該測量與其他一個或多個測量進行比較以豐富其含意 (例如與目標收入比較)，並顯示其效能的定性範圍狀況，例如高、中以及低。You can specify goal ranges in [!UICONTROL Visualization Settings].
 
 **散點圖**
 
@@ -1061,21 +1072,21 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ## 區段、量度和日期的另存新檔功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
-在「Analysis Workspace 區段產生器」中編輯現有 (已儲存的) 區段時，按一下「**[!UICONTROL 另存新檔]**」即可產生副本。
+When editing an existing (saved) segment the Analysis Workspace Segment Builder, click **[!UICONTROL Save As]** to make a copy.
 
 ![](assets/segment-save-as.png)
 
-新區段會顯示於「[!UICONTROL 元件]」面板中的「[!UICONTROL 區段]」群組。
+The new segment displays in the [!UICONTROL Segments] group in the [!UICONTROL Components] panel.
 
-*`Save As`*&#x200B;也適用於「[!UICONTROL 計算量度產生器]」和「[!UICONTROL 日期範圍產生器]」。
+*`Save As`* 也可以訪問 [!UICONTROL Calculated Metric Builder] 和 [!UICONTROL Date Range Builder]。
 
 ## 加入新區段按鈕 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
 
-在您拖放區段至專案的位置上，新增了「**[!UICONTROL 加入新區段]**」按鈕。
+The **[!UICONTROL Add New Segment]** button has been added to the location where you drag-and-drop segments onto a project.
 
 ![](assets/add-new-segment.png)
 
-如果您在專案中工作時偏好直接建立區段，而非使用「[!UICONTROL 區段]」面板來建立區段，這個改良功能會很好用。
+This enhancement is helpful if you prefer to directly create segments when working in a project, rather than using the [!UICONTROL Segment] panel to create segments.
 
 ## 條件式格式 {#section_5775B505D83041408B8C3EAEC5D7C32B}
 
@@ -1113,19 +1124,19 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 ## 維度預覽 {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-在「[!UICONTROL 維度]」元件面板中，將滑鼠移至維度旁的資訊圖示上，即可預覽前五大項目。
+In the [!UICONTROL Dimensions] component panel, you can hover over the information icon next to a dimension and see a top-five preview.
 
 ![](assets/dimension-preview.png)
 
 ## 可見圖例 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-在「[!UICONTROL 視覺效果設定]」中，「**[!UICONTROL 可見圖例]**」選項會顯示或隱藏視覺效果的圖例。
+在選 [!UICONTROL Visualization Settings] 項中 **[!UICONTROL Legend Visible]** 顯示或隱藏視覺化的圖例。
 
 ![](assets/legend-visible.png)
 
 ## 將 Y 軸固定於零 {#section_83DF5DE79EF04F9F8DCB3154F5E799B3}
 
-視折線圖或面積圖的數字而定，Y 軸原點不一定為零。啟用「**[!UICONTROL 視覺效果設定]**」中的「[!UICONTROL 將 Y 軸固定於零]」，可強制將 Y 軸原點設為零，以更精確瞭解趨勢走向。下列範例顯示啟用和停用此設定時，收入圖表所產生的變化:
+視折線圖或面積圖的數字而定，Y 軸原點不一定為零。啟 **[!UICONTROL Anchor Y Axis at Zero]** 用 [!UICONTROL Visualization Settings] 強制Y軸為零，以更精確地檢視趨勢。 下列範例顯示啟用和停用此設定時，收入圖表所產生的變化:
 
 **停用將 Y 軸固定於零**
 
@@ -1143,4 +1154,4 @@ source-git-commit: 437f19c9b4def1ceae211662ed6785db62f80ba4
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
-導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 轉讓]**」，即可轉讓專案。
+導覽至 **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Transfer]** 以轉移專案。
