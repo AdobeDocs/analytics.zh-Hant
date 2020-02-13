@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
+source-git-commit: a4ef07d2cdc45c1d79d99f3a09c479686784891e
 
 ---
 
@@ -327,25 +327,25 @@ source-git-commit: 73ca71231f84acbb460d31199e398d9472a80708
    + [設定即時報表](c-real-time-reporting/t-realtime-admin.md)
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
-   + [開始使用行銷渠道]{#mc-get-started}
+   + Get Started with Marketing Channels {#mc-get-started}
       + [快速入門](c-marketing-channels/getting-started/c-getting-started-mchannel.md)
       + [自動設定](c-marketing-channels/getting-started/c-channel-autosetup.md)
       + [套用範本報表套裝設定至多個報表套裝](c-marketing-channels/getting-started/t-template.md)
-   + [行銷渠道經理]{#mc-manager}
+   + 行銷渠道經理 {#mc-manager}
       + [管理行銷渠道](c-marketing-channels/mark-channel-mgr/c-channels.md)
       + [關於渠道和規則](c-marketing-channels/mark-channel-mgr/c-channels-rules.md)
-   + [行銷渠道處理規則]{#mc-proc-rules}
+   + Marketing Channels processing rules {#mc-proc-rules}
       + [行銷渠道的處理規則](c-marketing-channels/mc-proc-rules/c-rules.md)
       + [建立行銷管道處理規則](c-marketing-channels/mc-proc-rules/t-rules.md)
       + [行銷渠道規則條件](c-marketing-channels/mc-proc-rules/r-channel-rule-definitions.md)
       + [內部 (工作階段重新整理) 管道](c-marketing-channels/mc-proc-rules/session-refresh.md)
-   + [行銷管道分類]{#mc-classifications}
+   + 行銷管道分類 {#mc-classifications}
       + [行銷渠道中的分類](c-marketing-channels/mc-classifications/classifictions-mchannel.md)
-   + [行銷渠道有效期]{#mc-expire}
+   + 行銷渠道有效期 {#mc-expire}
       + [訪客參與有效期](c-marketing-channels/mc-expiration/visitor-engagement.md)
-   + [分析行銷渠道]{#mc-analyze}
+   + 分析行銷渠道 {#mc-analyze}
       + [分析行銷渠道](c-marketing-channels/mc-analyze/analyze-mc.md)
-   + [存取行銷渠道]{#mc-access}
+   + 存取行銷渠道 {#mc-access}
       + [行銷渠道權限](c-marketing-channels/mc-access/c-channel-report-access.md)
-   + [行銷渠道常見問答集]{#mc-faq}
+   + 行銷渠道常見問答集 {#mc-faq}
       + [行銷渠道常見問答集和範例](c-marketing-channels/mc-faq/c-faq.md)
