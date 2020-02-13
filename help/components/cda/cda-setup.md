@@ -2,7 +2,7 @@
 title: 設定跨裝置分析
 description: 瞭解符合必要條件後如何設定跨裝置分析。
 translation-type: tm+mt
-source-git-commit: 98e09f543381d4a4ac9731a24dbabbf36c94d0a5
+source-git-commit: 2faec7513624be207a6cf01545702a977a84d5fc
 
 ---
 
@@ -56,6 +56,8 @@ Adobe提供範本，可檢視重要的跨裝置效能資料。
 1. 如果出現提示，請將報表套裝變更為支援CDA的報表套裝。
 
 會建立包含數個面板的分析工作區專案。 在上方，會顯示目錄和簡介，允許報表的內容和導覽至個別報表。 按一下目錄內的連結，或展開面板的accordion以檢視這些報表。
+
+<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
 
 * **Co-op Graph成員的特殊注意事項**:顯示支援合作圖的地區和不支援的地區中，報表套裝的哪些部分包含訪客。
 * **使用者識別**:顯示使用基於跨裝置分析的方法識別網站訪客的頻率。
