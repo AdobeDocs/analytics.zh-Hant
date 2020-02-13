@@ -2,8 +2,8 @@
 description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 1d2df77352c3ab39cbd602d08ae2c82a02c95f93
 
 ---
 
@@ -14,21 +14,18 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以選擇從以下來源建立專案:
 
-* 空白專案 (預設)。如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
-* 標準範本。這些範本皆由 Adobe 建立且出廠即提供。
-* 自訂範本。具有管理權限的使用者，或非管理員但已獲得「另存為範本」權限的使用者，皆可建立這些範本。(如需詳細資訊，請參閱 Admin Console 文件中的[管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。)
+* **空白專案（預設）**:如需指示，請參 [閱建立分析工作區專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* **標準範本**:這些範本是由Adobe建立並隨附於產品中。
+* **自訂範本**:這些範本可由具有管理權限的使用者或非管理員建立、共用或刪除，但前提是這些範本已獲得「管 [!UICONTROL Analysis Workspace: Save as Template] 理控制台」的權限。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
-
-* [建立自訂範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
-* [標準範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)
 
 ## 建立自訂範本 {#create-custom-template}
 
 擁有管理員權限的使用者可以將其建立的任何專案轉換為自訂範本。方法如下:
 
 1. 開啟專案。
-1. 前往&#x200B;**[!UICONTROL 「專案]** &gt; **[!UICONTROL 另存為範本」]**。
+1. Go to **[!UICONTROL Project]** > **[!UICONTROL Save As Template]**.
 
    ![](assets/save_project_template.png)
 
@@ -36,50 +33,20 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    >[!NOTE]
    >
-   >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往&#x200B;**[!UICONTROL 「專案]** &gt; **[!UICONTROL 專案資訊和設定」]**&#x200B;即可編輯標記和說明。)
+   >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往 **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]** 以編輯標籤和說明。)
 
 ### 您可以在自訂範本執行的動作
 
 ![](assets/custom_templates.png)
 
-<table id="table_D7C7B0CA1EE64E108484C03426800EBC"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 動作 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>編輯範本 </p> </td> 
-   <td colname="col2"> <p>可讓管理員透過變更資料來源、修改元件、視覺效果和日期範圍等方式編輯範本。 </p> <p>若要編輯自訂範本，您可以 </p> 
-    <ul id="ul_2B3A371F83334E14806385753A360903"> 
-     <li id="li_EE75E0281B764BA9B56FF1DB1B12D2CC">開啟 Analysis Workspace 中的自訂範本清單、選取一個範本，然後按一下<span class="uicontrol">「編輯範本」</span>，或 </li> 
-     <li id="li_4934DAAA46204990A295E22A97F81EDA">在 Analytics 中，導覽至<span class="ignoretag"><span class="uicontrol">「元件</span> &gt; <span class="uicontrol">專案」</span></span>，然後篩選<span class="uicontrol">「範本」</span>。按一下您想要編輯的範本名稱。 </li> 
-    </ul> <p> </p> <p>附註: 視情況而定，您在編輯範本後有兩個選項:<span class="uicontrol">「儲存」</span>、<span class="uicontrol">「另存新檔」</span>。兩者的不同之處為: 
-     <ul id="ul_87E2842C8AA442399585B1C6189F5E16"> 
-      <li id="li_AB7B189729E14E40A0141ECE2A24C113"><b>「儲存」</b>: 會更新所有使用者的自訂範本。其他人從這個自訂範本建立專案時，就會看到您變更的內容。 </li> 
-      <li id="li_C85B0B9873A3404D8B443BBD30B37CEB"><b>「另存新檔」</b>: 會建立含有您變更內容的自訂範本複本。 </li> 
-     </ul> </p> <p>(<span class="uicontrol">「共用</span> &gt; <span class="uicontrol">共用專案」</span>的功能表項目停用時，您就可以得知目前處於編輯模式。) </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>搜尋範本 </p> </td> 
-   <td colname="col2"> <p>在「自訂範本」對話方塊中，按一下<span class="uicontrol">「搜尋範本」</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>將範本排序 </p> </td> 
-   <td colname="col2"> <p>您可以依字母順序、關聯性以及建立日期等將範本排序。 </p> <p>在「自訂範本」對話方塊中，按一下<span class="uicontrol">「排序:」</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>套用標記至範本 </p> </td> 
-   <td colname="col2"> <p>開啟範本，然後前往<span class="ignoretag"><span class="uicontrol">「專案</span> &gt; <span class="uicontrol">專案資訊和設定」</span></span>。按一下<span class="uicontrol">「新增標記」</span>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>修改範本說明 </p> </td> 
-   <td colname="col2"> <p>開啟範本，然後前往<span class="ignoretag"><span class="uicontrol">「專案</span> &gt; <span class="uicontrol">專案資訊和設定」</span></span>。連按兩下說明並進行編輯。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 動作 | 說明 |
+|--- |--- |
+| 編輯範本 | 可讓管理員透過變更資料來源、修改元件、視覺效果和日期範圍等方式編輯範本。若要編輯自訂範本，您可以<ul><li>開啟 Analysis Workspace 中的自訂範本清單、選取一個範本，然後按一下「編輯範本」，或</li><li>在 Analytics 中，導覽至「元件 > 專案」，然後篩選「範本」。按一下您想要編輯的範本名稱。</li></ul>**附註:** 視情況而定，您在編輯範本後有兩個選項:「儲存」、「另存新檔」。兩者的不同之處為:<ul><li>**** 儲存：更新所有使用者的自訂範本。 其他人從這個自訂範本建立專案時，就會看到您變更的內容。</li><li>**** 另存新檔：使用您所做的變更建立自訂範本的復本。 (「共用 > 共用專案」的功能表項目停用時，您就可以得知目前處於編輯模式。)</li></ul> |
+| 搜尋範本 | 在「自訂範本」對話方塊中，按一下「搜尋範本」。 |
+| 將範本排序 | 您可以依字母順序、關聯性以及建立日期等將範本排序。在「自訂範本」對話方塊中，按一下「排序:」。 |
+| 套用標記至範本 | 開啟範本，然後前往「專案 > 專案資訊和設定」。按一下「新增標記」。 |
+| 修改範本說明 | 開啟範本，然後前往「專案 > 專案資訊和設定」。連按兩下說明並進行編輯。 |
+
 
 ## 標準範本{#concept_4FE900FEEC894E849CB6C6A0E0ADA524}
 
@@ -87,7 +54,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
-[在 YouTube 觀看「Analysis Workspace 標準範本」](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
+[在 YouTube 觀看「Analysis Workspace 標準範本」](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6)(2:46)
 
 以下為可用的範本，以及可透過個別範本找到答案的問題:
 
@@ -101,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### 商務
 
-* **Magento: 行銷與商務**: 此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等資料提供深入分析。如需影片概述，請參閱 &gt; [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento: 行銷與商務**: 此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等資料提供深入分析。如需影片概述，請參閱 > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### 媒體
 
@@ -137,7 +104,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ### 人物
 
-> [!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/zh_TW/mcdc/mcdc-people.html) 的一部分使用。
+> [!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html) 的一部分使用。
 
 此範本是根據「人物」量度建立，該量度是「獨特訪客」量度去除重複後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
@@ -149,3 +116,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 了解如何搭配「人物」量度使用區段堆疊。
 * 了解如何透過環境中的 Experience Cloud ID 增強「人物」量度的效益。
 
+### 歷程IQ:跨裝置分析範本
+
+<!-->This content is mirrored in the CDA doc.<-->
+
+此範本可讓您查看重要的跨裝置效能資料。 它僅適用於可存取跨裝置 [分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA)的客戶。
+
+* **Co-op Graph成員的特殊注意事項**:顯示支援合作圖的地區和不支援的地區中，報表套裝的哪些部分包含訪客。
+* **使用者識別**:顯示使用基於跨裝置分析的方法識別網站訪客的頻率。
+* **測量受眾規模**:顯示「獨特裝置」與「人物」的比較。 這兩個數字的比例稱為「跨裝置壓縮」，此面板中可見的計算量度。 此壓縮度量取決於廣泛的因素：
+   * **使用合作圖或私人圖**:一般而言，使用裝置合作社的組織看到的壓縮率，會比使用私人圖表的組織好。
+   * **登入率**:登入您網站的使用者越多，Adobe越能識別並將訪客連結到各種裝置上。 登入率低的網站壓縮率也會很低。
+   * **Experience Cloud ID涵蓋範圍**:只有具有ECID的訪客才能被銜接。 使用 ECID 造訪您網站的訪客比例較低，與壓縮率較低有關。
+   * **多種裝置使用**:若您網站的訪客不使用多種裝置，則可看到較低的壓縮率。
+   * **報告詳細程度**:按日壓縮通常比按月或年壓縮小。 依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
+* **以人為本的細分**:包含區段下拉式清單，可讓您檢視裝置特定的資料。 此面板鼓勵您嘗試區段，以瞭解包含或排除裝置類型對報表有何影響。
+* **分析跨裝置歷程**:根據裝置類型提供流量和流失報表。
+* **跨裝置歸因**:將Journey IQ和Attribution IQ的功能結合在一起。
+* **其他秘訣與訣竅**:CDA相關的實用主題可讓您進一步運用它。
