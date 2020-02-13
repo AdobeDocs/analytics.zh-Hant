@@ -3,7 +3,7 @@ title: JavaScript適用的AppMeasurement發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
+source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
 
 ---
 
@@ -18,7 +18,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 ## 2.18.0 版
 
-發行日期: **2020 年 2 月 20 日**
+發行日期: **2020 年 2 月 13 日**
 
 * AppMeasurement現在可以透過設定為&#39;true&#39;，強制Cookie `writeSecureCookies` 包含安全標籤。 此設定的要求是要安全地提供整個用戶端網站(https)。 (AN-204604)
 
