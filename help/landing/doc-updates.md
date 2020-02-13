@@ -3,7 +3,7 @@ title: Adobe Analytics 文件更新
 description: Adobe Analytics 技術文件更新
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 2eda65f50e008574306ec345574a0c1b98e3726b
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
-| 2020 年 2 月 12 日 | 行銷管道檔案的更新與重組。 |
+| 2020 年 2 月 12 日 | 行銷管道檔案的更 [新和重組](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
 | 2020 年 2 月 7 日 | 設定跨 [裝置分析的更新及常見問](../components/cda/cda-setup.md) 題 [集](../components/cda/cda-faq.md) |
 | 2020年2月4日 | 完整重寫實 [施使用指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 已更新「自由表格」頁面，其中包含新「自由表格產生 [器」的相關資訊](/help/analyze/analysis-workspace/visualizations/freeform-table.md)。 |
