@@ -3,7 +3,7 @@ title: JavaScript適用的AppMeasurement發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a59b3564b4b56d88517493d907e8b0f721b44a3e
+source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
 
 ---
 
@@ -14,13 +14,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在「程式碼管理員」(/help/admin/admin/code-manager-admin.md)中下 [載最新版]的AppMeasurement。
+您可以在「程式碼管理員」中下載最新版 [的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
 
 ## 2.18.0 版
 
 發行日期: **2020 年 2 月 13 日**
 
-* AppMeasurement現在可以透過設定為&#39;true&#39;，強制Cookie `writeSecureCookies` 包含安全標籤。 此設定的要求是要安全地提供整個用戶端網站(https)。 (AN-204604)
+* AppMeasurement現在可以透過設定變數，強制Cookie包含「保全」 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 屬性。 此變數的要求是必須安全地提供整個用戶端網站(HTTPS)。 (AN-204604)
 
 ## 2.17.0 版
 
@@ -352,7 +352,7 @@ Updated: **August 4, 2016**
 
 * [!DNL JavaScript] `s_gi` 適用的 [!DNL AppMeasurement] 功能無法正確地找到使用 H-Code `s_gi` 所建立的例項。請注意，此問題只有影響到某些雙重標籤實施，意即 [!DNL JavaScript] 適用的 [!DNL AppMeasurement] 和 H-Code 出現在具備個別例項的相同頁面，而報表套裝也使用 `s_gi` 尋找例項。
 
-## 版本 1.3
+## 1.3 版
 
 發行日期: **2014 年 4 月 17 日**
 
