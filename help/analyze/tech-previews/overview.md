@@ -1,16 +1,14 @@
 ---
 title: Labs 使用指南
 description: 預覽 Adobe Analytics 的原型專案
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
 
 ---
 
 
 
 # Labs 使用指南
-
->[!NOTE] 目前 Labs 已經發行，僅供有限數量的客戶提早存取，日後將會廣泛發行。
 
 Labs 可讓您更快速地建立早期構想的原型。此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。它讓使用者運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。透過 Labs，您可以提前存取 Analytics 創新功能，並根據您自己的業務使用情形和資料評估即將推出的功能。
 
