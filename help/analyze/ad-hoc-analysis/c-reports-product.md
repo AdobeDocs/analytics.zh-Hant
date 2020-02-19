@@ -3,7 +3,7 @@ description: 顯示您網站上正出售、經銷或展示的物品相關資訊�
 title: 產品報表
 topic: Ad hoc analysis
 uuid: e2a8814b-735d-4f63-97ee-af1afac4d75d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ c_reports_products_conv_funnel.xml
 
  -->
 
-若要新增其他報告群組的量度和自訂事件，請按一下報告標題中的「**[!UICONTROL 選取事件]」連結。**
+若要新增其他報告群組的量度和自訂事件，請按一下報告標題中的「**[!UICONTROL 選取事件]**」連結。
 
 由於目前時段在您檢視資料時尚未結束，因此，此報告在從之前到目前時段會指出向下趨勢。例如，今天的造訪次數可能少於昨天，但這僅僅是因為該時段餘下的統計資料還不完整。
 
