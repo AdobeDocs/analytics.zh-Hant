@@ -1,8 +1,8 @@
 ---
-description: 設定使用者並瞭解資料取樣。
+description: 設定使用者並了解資料取樣。
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理
 
-設定使用者並瞭解資料取樣。
+設定使用者並了解資料取樣。
 
-For [!DNL Admin Console] help, see the [Analytics Reference](https://marketing.adobe.com/resources/help/en_US/reference/index.html).
+如需 [!DNL Admin Console] 相關說明，請參閱 [Analytics 參考資料](https://marketing.adobe.com/resources/help/zh_TW/reference/index.html)。
 
 ## 使用者許可 {#concept_C1440741C77C471EB38A243B013EA620}
 
@@ -36,15 +36,15 @@ t_user_licenses.xml
 
  -->
 
-1. Log in to the [!DNL Experience Cloud].
-1. Click **[!UICONTROL Admin]** &gt; **[!UICONTROL User Management]**.
-1. Click **[!UICONTROL Edit Groups]**.
+1. 登入 [!DNL Experience Cloud]。
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 使用者管理」]**。
+1. 按一下「**[!UICONTROL 編輯群組]**」。
 
    若您的公司已購買使用者授權，則[!UICONTROL 「Ad Hoc Analysis 授權使用者」]群組會顯示於[!UICONTROL 「群組名稱」]欄。亦會顯示使用者登入的可用授權數量。
 
-1. Click **[!UICONTROL Edit]**.
-1. 在[!UICONTROL 指派使用者登入]**下，選取想要新增至群組的使用者，然後按一下[!UICONTROL 新增]。**
-1. Click **[!UICONTROL Save Group]**.
+1. 按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 在[!UICONTROL 指派使用者登入]下，選取想要新增至群組的使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存群組」]**。
 
    授權系統不會限制新增至群組的使用者人數。但所購買使用者授權數目的同時使用量有限制。
 
@@ -58,8 +58,8 @@ t_managing_users.xml
 
  -->
 
-1. 按一 **[!UICONTROL 下「Analytics]** &gt;管理員 **** &gt;使 **[!UICONTROL 用者管理」]**，然後按一 ****&#x200B;下「管理使用者」。
-1.   找到使用者，然後按一下&#x200B;**[!UICONTROL 「終止」。]**
+1. 按一下&#x200B;**[!UICONTROL 「Adobe Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理」]**，然後按一下&#x200B;**[!UICONTROL 「管理使用者」]**。
+1. 找到使用者，然後按一下&#x200B;**[!UICONTROL 終止]**。
 
    在[!UICONTROL 「作用中的 Ad Hoc Analysis 作業」]頁面中，閒置最久的使用者會顯示在清單頂端。
 
@@ -71,7 +71,7 @@ c_permissions.xml
 
  -->
 
-You set up access to report suites in the [!DNL Administration Console]. 您可在報告套裝層級設定權限。例如，如果您啟用了多個報表套裝，但您不想授予每個使用者所有報表套裝的存取權，則您可以為特定的報表套裝建立群組，然後將這些使用者指派至適用群組。
+您可到 [!DNL Administration Console] 設定報表套裝的存取權限。您可在報告套裝層級設定權限。例如，如果您啟用了多個報表套裝，但您不想授予每個使用者所有報表套裝的存取權，則您可以為特定的報表套裝建立群組，然後將這些使用者指派至適用群組。
 
 ## 新增使用者至完全報表存取群組 {#task_E821BF3B4FDB434D844A98AAB15487A9}
 
@@ -83,11 +83,11 @@ t_permissions.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
-1. Click **[!UICONTROL All Report Access]**.
-1. 在[!UICONTROL 現存使用者]**中，選取使用者，然後按一下[!UICONTROL 新增]。**
-1. Click **[!UICONTROL Save Group]**.
+1. 登入 **[!UICONTROL Experience Cloud]**。
+1. 按一下「**[!UICONTROL Adobe Adone Analytics > 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**」。
+1. 按一下&#x200B;**[!UICONTROL 完全報表存取]**。
+1. 在[!UICONTROL 現存使用者]中，選取使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存群組」]**。
 
 ## 建立權限群組 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -99,8 +99,8 @@ t_permission_groups.xml
 
  -->
 
-1. Log in to the **[!UICONTROL Experience Cloud]**.
-1. Click **[!UICONTROL Adobe Analytics &gt; Admin]** &gt; **[!UICONTROL User Management]** &gt; **[!UICONTROL Edit Groups]**.
+1. 登入 **[!UICONTROL Experience Cloud]**。
+1. 按一下「**[!UICONTROL Adobe Adone Analytics > 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**」。
 1. 為非管理員使用者建立權限群組，包括您想讓使用者存取的已啟動 Ad Hoc Analysis 報表套裝。
 
    建立新專案時，使用者可用的報表套裝會顯示在 [!UICONTROL Report Cloud] 功能表中。
@@ -117,10 +117,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis 使用 HTTP 來與伺服器通訊。與其他 HTTP 流量相同，它也必須遵守相同的 Proxy 政策。
 
-1. 在中， [!DNL Windows Control Panel]啟動 [!UICONTROL Java控制面板]。
-1. On the **[!UICONTROL General]** tab, click **[!UICONTROL Network Settings]**.
-1. Select **[!UICONTROL Use browser settings]**, or manually configure the proxy settings.
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL OK]** on the [!UICONTROL Java Control Panel].
+1. 在 [!DNL Windows Control Panel] 中，啟動[!UICONTROL 「Java 控制面板」]。
+1. 在&#x200B;**[!UICONTROL 一般]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 網路設定]**。
+1. 選取&#x200B;**[!UICONTROL 使用瀏覽器設定]**，或手動設定 Proxy 設定。
+1. 按一下&#x200B;**[!UICONTROL 確定]**，然後按一下 **[!UICONTROL Java 控制面板]**&#x200B;上的[!UICONTROL 確定]。
 
 ## 資料取樣的方式 {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
@@ -134,11 +134,11 @@ c_overview_data_sampling.xml
 
 為了實現最佳化處理，Ad Hoc Analysis 在每個片段最多可使用大約 7.5 億次點擊。(點擊率 = 頁面檢視 + 事件。) 
 
-為了得到預計的取樣率，系統會計算每個資料集的預計點擊率，然後除以 7.5 億，如下所示:
+為了得到預計的取樣率，系統會計算每個資料集的預計點擊率，然後除以 7.5 億，如下所示：
 
 * (平均每日點擊次數 x 片段的天數) / 7.5 億
 
-例如，如果每日有 1000 萬次點擊，資料片段為 90 天:
+例如，如果每日有 1000 萬次點擊，資料片段為 90 天：
 
 * (10,000,000 x 90) / 750,000,000 = 1.2
 
