@@ -4,7 +4,7 @@ title: 自訂日期運算式 - 概觀
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
+source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 ---
 
@@ -34,5 +34,5 @@ source-git-commit: 2a6031cde69014859d6c3f943220c4da499a3191
 
    例如，如果您將上述日期變更為每月滾動，從三個月前的第一天起至本月的第一天，預先選項部分中的日期會自行更新，以反映：
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldates3.png)
 
