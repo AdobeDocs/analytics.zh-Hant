@@ -1,8 +1,8 @@
 ---
-description: 瞭解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
+description: 了解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
 title: 設定現有報表
 uuid: 5c7bb66a-a9a2-49fe-ba98-1a99a922f6b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 設定現有報表
 
-瞭解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
+了解您可在報表上執行的各種動作，例如設定圖表、圖形、劃分以及擷取資料。
 
 ## 報表動作 {#concept_26C41C0141A94B19B61D43955A908480}
 
@@ -50,7 +50,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>傳送選項 </p> </td> 
-   <td colname="col2"> <p> 請參閱 <a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   > 傳送選項</a>。 </p> </td> 
+   <td colname="col2"> <p> 請參閱<a href="/help/analyze/ad-hoc-analysis/c-schedule.md#reference_CA49AC560258471AAE959BCA243F170C"   >傳送選項</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 列印 </p> </td> 
@@ -62,7 +62,7 @@ c_report_actions.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料來源 </p> </td> 
-   <td colname="col2"> <p>See <a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   > General Settings Tab - Definitions</a>. </p> </td> 
+   <td colname="col2"> <p>請參閱<a href="/help/analyze/ad-hoc-analysis/c-global-settings.md#reference_EADAF83466994F89BCC6B0F49A9A53DB"   >一般設定標籤 - 定義</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>檢視 </p> </td> 
@@ -93,7 +93,7 @@ c_chart_options.xml
    <td colname="col1"> <p>圖表類型 </p> </td> 
    <td colname="col2"> <p> 讓您將圖表類型變更為線圖、橫條圖、堆疊區域圖、泡泡圖等。 </p> 
     <ul id="ul_98A8DBBCADA042359C5D096EA0B1104B"> 
-     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡圖</b>: 泡泡圖可用於任何排名報表。泡泡圖可為最多五個單獨維度提供度量分析。沒有任何度量套用至點的直徑時，您可將該圖表用作散佈圖。泡泡圖會動態變更以反映報表資料的變動實施流量分類。 </li> 
+     <li id="li_6C29218C3ADC47199DE832A2E3A105C7"> <b>泡泡圖</b>：泡泡圖可用於任何排名報表。泡泡圖可為最多五個單獨維度提供度量分析。沒有任何度量套用至點的直徑時，您可將該圖表用作散佈圖。泡泡圖會動態變更以反映報表資料的變動實施流量分類。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -155,12 +155,12 @@ t_reports_breakdown_table.xml
 
 **若要劃分表格資料**
 
-1. 執行報告.
-1.  以滑鼠右鍵按一下某個行項目，然後按一下&#x200B;**「劃分** &gt; *項目*」。
+1. 執行報告。
+1. 以滑鼠右鍵按一下某個行項目，然後按一下&#x200B;**[!UICONTROL 劃分]** > *項目*。
 
    >[!NOTE]
    >
-   >為獲得更大的彈性，請使 [用表格產生器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md) ，以設定包含劃分的報表。 開啟含有劃分的儲存或計劃的報表後，您可能需要按一下&#x200B;**[!UICONTROL 取代表格]重新整理動態報表資料的劃分。**&#x200B;例如，如果計劃報表包含會隨日期範圍或訪客活動變更的行項目，您可能需要重新整理該計劃報表。
+   >為獲得更大的彈性，請使用[表格產生器](/help/analyze/ad-hoc-analysis/c-tablebuilder.md)，以設定包含劃分的報表。開啟含有劃分的儲存或計劃的報表後，您可能需要按一下&#x200B;**[!UICONTROL 取代表格]**&#x200B;重新整理動態報表資料的劃分。例如，如果計劃報表包含會隨日期範圍或訪客活動變更的行項目，您可能需要重新整理該計劃報表。
 
 >[!MORELIKETHIS]
 >
@@ -180,7 +180,7 @@ t_reports_changing_types.xml
 **若要變更表格中的報表類型**
 
 1. 開啟並設定排名報表。
-1.  以滑鼠右鍵按一下表格中的報表名稱欄標題，然後按一下&#x200B;**「選取報表」**、導覽至該報表。
+1. 以滑鼠右鍵按一下表格中的報表名稱欄標題，然後按一下&#x200B;**[!UICONTROL 選取報表]**、導覽至該報表。
 
 ## 複製資料到剪貼板 {#task_357E53EF61FF49F8BE5AC8D2F419375C}
 
@@ -190,11 +190,11 @@ t_reports_clipboard.xml
 
  -->
 
-1. 開啟Microsoft Excel。
+1. 開啟 Microsoft Excel。
 
    建議您先開啟 Excel 再複製資料，因為 Excel 在啟動前會清除記憶體緩衝區。
 
-1. At the report level, click **[!UICONTROL Settings]** ![](assets/settings_icon.png), then click **[!UICONTROL Copy Report Data]**.
+1. 在報表層級，按一下&#x200B;**[!UICONTROL 設定]** ![](assets/settings_icon.png)，然後按一下&#x200B;**[!UICONTROL 複製報表資料]**。
 1. 在 Excel 中，選取儲存格，然後貼上資料。
 
 ## 提取訪客 ID {#task_7223BE8E0389460282825E61BEDC0574}
@@ -205,16 +205,16 @@ t_reports_extract_ID.xml
 
  -->
 
-在「報告與分析」中，您可以設定欄位以包含使用者ID資料。 如果有設定此選項，便能使用[!UICONTROL 「提取訪客 ID」]選項。如果先前未啟用此選項，但稍後決定啟用，則您無法回溯提取歷史訪客 ID。
+在 Reports &amp; Analytics 中，您可以設定欄位以包含使用者 ID 資料。如果有設定此選項，便能使用[!UICONTROL 「提取訪客 ID」]選項。如果先前未啟用此選項，但稍後決定啟用，則您無法回溯提取歷史訪客 ID。
 
 **若要提取訪客 ID**
 
 1.  新增「資料倉儲」區段至報表。
-1. Right-click the segment and select **[!UICONTROL Extract Visitor IDs]**.
+1. 以滑鼠右鍵按一下區段，並選取&#x200B;**[!UICONTROL 提取訪客 ID]**。
 
    「資料倉儲」應用程式隨即啟動。
 1.  在[!UICONTROL 「Data Warehouse 請求」]標籤上，輸入篩選器名稱。
-1. Click **[!UICONTROL Request this Report]**.
+1. 按一下&#x200B;**[!UICONTROL 「請求此報表」]**。
 
 ## 分析行的趨勢 {#task_83C003EDCA7140C3AE9804629DD7A235}
 
@@ -224,16 +224,16 @@ t_reports_trending_row.xml
 
  -->
 
-檢視排名報表時，例如產品報表，您可以看到某個值的趨勢資料。例如，您可以看到產品在選定時段產生了 $10,000 的總收入。若想要瞭解該產品每天所產生的收入，則可顯示產品的趨勢圖，或開啟單獨的趨勢報表。
+檢視排名報表時，例如產品報表，您可以看到某個值的趨勢資料。例如，您可以看到產品在選定時段產生了 $10,000 的總收入。若想要了解該產品每天所產生的收入，則可顯示產品的趨勢圖，或開啟單獨的趨勢報表。
 
 **若要分析行的趨勢**
 
-1. 執行排名報告.
+1. 執行排名報告。
 1. 按一下「趨勢」圖示。![](assets/TrendInspector_Buttcon.png)
 
    您可以選取多個儲存格，以套用至單一趨勢報表。
 
-1. To launch a report, click **[!UICONTROL Launch Trend Report]**.
+1. 若要啟動報表，請按一下&#x200B;**[!UICONTROL 啟動趨勢報表]**。
 
 ## 設定欄寬 {#task_0FCF395B4A8C40508B38B44586FB5969}
 
@@ -243,9 +243,9 @@ t_column_width.xml
 
  -->
 
-1. In the table, right-click the column header, then click **[!UICONTROL Column Width]**.
+1. 在表格中的欄標題上按一下滑鼠右鍵，然後按一下&#x200B;**[!UICONTROL 欄寬]**。
 
-   如果啟用[!UICONTROL 適合螢幕大小]，則會停用此選項。1. Specify a width in pixels, then click **[!UICONTROL OK]**.
+   如果啟用[!UICONTROL 適合螢幕大小]，則會停用此選項。1. 指定寬度 (單位為像素)，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 >[!MORELIKETHIS]
 >
@@ -254,7 +254,7 @@ t_column_width.xml
 
 ## 自訂報表 {#concept_039A45AAEEDC4828B3CDA080717B8E4F}
 
-管理員可以使用特定的度量和特定的日期範圍來設定報告，然後儲存到報告功能表以供每個人使用。
+管理員可以使用特定的量度和特定的日期範圍來設定報告，然後儲存到報告功能表以供每個人使用。
 
 <!-- 
 
