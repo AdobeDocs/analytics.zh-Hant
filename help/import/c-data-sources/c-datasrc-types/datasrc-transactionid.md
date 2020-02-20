@@ -2,7 +2,7 @@
 title: 交易ID資料來源
 description: 瞭解使用交易ID資料來源的一般工作流程。
 translation-type: tm+mt
-source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
+source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
 
 ---
 
@@ -21,3 +21,29 @@ source-git-commit: a5c3d9b2cd02dc7e89abb469e2e0e44985a17638
 1. 依照資料饋送設定精靈的指示，取得FTP位置以上傳資料並下載資料來源範本檔案。
 1. 更新您的實作以包含變 `transactionID` 數。
 1. 使用檔案將資料來源檔案上傳至FTP `.fin` 網站。
+
+## 上傳檔案與實作代碼範例
+
+如果您上傳了下列資料來源檔案，並在您的網站上實作了下列程式碼，您會在報表中看到連結的資料。 資料來源檔案使用eVar1和event1，而線上實作則使用eVar2和event2。 由於交易ID符合，您可以看到eVar1的event2資料，以及eVar2的event1資料。
+
+### 範例檔案
+
+下載範本、更新值，然後將其上傳至資料來源的FTP位置：
+
+| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
+|---|---|---|---|
+| `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+| `Date` | `Evar 1` | `Event 1` | `transactionID` |
+| `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
+
+### 實作程式碼範例
+
+如需交易ID的詳細說明，請參閱「實 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 作使用指南」。
+
+```js
+var s = s_gi("examplersid");
+s.eVar2 = "Example eVar2 value";
+s.events = "event2";
+s.transactionID = "1234";
+s.t();
+```
