@@ -2,7 +2,7 @@
 title: 交易ID資料來源
 description: 瞭解使用交易ID資料來源的一般工作流程。
 translation-type: tm+mt
-source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
+source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 ---
 
@@ -30,9 +30,8 @@ source-git-commit: c54704bef49a2c3076caac6fe7dd3ec8d40596ef
 
 下載範本、更新值，然後將其上傳至資料來源的FTP位置：
 
-| `# Generic Data Source (Transaction ID) template file (user: 0 ds_id: 1)` |  |  |  |
-|---|---|---|---|
 | `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
+|---|---|---|---|
 | `Date` | `Evar 1` | `Event 1` | `transactionID` |
 | `01/01/2020/12/00/00` | `Example eVar1 value` | `1` | `1234` |
 
