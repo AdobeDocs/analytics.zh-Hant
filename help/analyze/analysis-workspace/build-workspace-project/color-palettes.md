@@ -16,14 +16,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/color_palettes.png)
 
-請記住:
+請記住：
 
 * 有五種預先設定的調色盤可供選擇。預設調色盤與其下方的調色盤已針對最佳對比度進行最佳化，兩者皆變得更方便供色盲人士使用。
 * 在上方兩個調色盤之下的第三到第五個調色盤，則是針對顏色和諧度進行最佳化。
 
-## 若要變更調色盤:
+## 若要變更調色盤：
 
-1. 導覽至&#x200B;**[!UICONTROL 「Workspace]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 專案資訊和設定」]**。
+1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
 1. 在&#x200B;**[!UICONTROL 「專案調色盤」]**&#x200B;下拉式功能表中，您可以從五個預先設定的色彩配置中選擇其一。
 
    ![](assets/custom_palette.png)
