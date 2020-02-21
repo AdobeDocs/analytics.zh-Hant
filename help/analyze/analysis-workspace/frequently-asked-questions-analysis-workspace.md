@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 管理需求
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -34,7 +34,7 @@ Analysis Workspace 的系統需求。
   </tr> 
   <tr> 
    <td colname="col1"> 使用者 </td> 
-   <td colname="col2"> <p>若要啟用 Analytics 中 Workspace 索引標籤的存取，系統管理員必須將使用者新增至「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt;<span class="uicontrol"> 群組</span>」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/groups.html"  >Analysis Workspace 存取</a>」群組。 </p> </td> 
+   <td colname="col2"> <p>若要啟用 Analytics 中 Workspace 索引標籤的存取，系統管理員必須將使用者新增至「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt;<span class="uicontrol"> 群組</span>」中的「<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html"  >Analysis Workspace 存取</a>」群組。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 轉讓專案 </td> 
@@ -42,10 +42,10 @@ Analysis Workspace 的系統需求。
   </tr> 
   <tr> 
    <td colname="col1"> 瀏覽器 </td> 
-   <td colname="col2"> <p> 瀏覽器: </p> 
+   <td colname="col2"> <p> 瀏覽器： </p> 
     <ul id="ul_B10D000F38DC44F68E2909B483E58FE0"> 
-     <li id="li_5A905B0F5342443B96433FDBB1015CA9">建議使用: 最新版本的 Firefox、Chrome、Safari 或 Edge。 </li> 
-     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> 最新版本的 Microsoft Internet Explorer 11。 <p> 注意: Adobe Analytics 已於 2018 年 11 月 13 日停止支援 Internet Explorer 11。請及早改用 Microsoft Edge 或其他支援的瀏覽器。</p> </li> 
+     <li id="li_5A905B0F5342443B96433FDBB1015CA9">建議使用：最新版本的 Firefox、Chrome、Safari 或 Edge。 </li> 
+     <li id="li_75D6560CE77748B6B2A794B374E3C6F8"> 最新版本的 Microsoft Internet Explorer 11。 <p> 注意：Adobe Analytics 已於 2018 年 11 月 13 日停止支援 Internet Explorer 11。請及早改用 Microsoft Edge 或其他支援的瀏覽器。</p> </li> 
     </ul> 
     <ul id="ul_74DD135CDAEF40A28DCCE927212B4163"> 
      <li id="li_385DCC2B725E4FDBAE75F57E96889B2E"> 必須啟用 Cookie 和 JavaScript。 </li> 
