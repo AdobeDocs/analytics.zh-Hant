@@ -3,7 +3,7 @@ title: JavaScript適用的AppMeasurement發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 54804b1b00730a99b7352619d04bdbd2566ba5d3
+source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
 
 ---
 
@@ -15,6 +15,12 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在「程式碼管理員」中下載最新版 [的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
+
+## 2.19.0 版
+
+發行日期: **2020 年 2 月 21 日**
+
+* Audience Manager 模組已更新至 DIL 9.4。(AN-209341)
 
 ## 2.18.0 版
 
