@@ -12,7 +12,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
 
-當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，該請求會包含 JSON 區段，用以指定用於請求的資料主體 ID。您可以納入多個 ID 做為資料主體的單一請求的一部分。JSON 包含以下項目:
+當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，該請求會包含 JSON 區段，用以指定用於請求的資料主體 ID。您可以納入多個 ID 做為資料主體的單一請求的一部分。JSON 包含以下項目：
 
 * 具有命名空間字串的「namespace」欄位。
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
@@ -22,7 +22,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 ## Cookie ID
 
-舊版 Analytics 追蹤 Cookie，亦稱為 Adobe Analytics ID (AAID):
+舊版 Analytics 追蹤 Cookie，亦稱為 Adobe Analytics ID (AAID)：
 
 ```
 {
@@ -36,7 +36,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 您也可以使用 `"namespaceId": 10` (而非 `"namespace": "AAID"`)，這樣就能看到其他幾種 Adobe 產品使用該表單。
 
-## 舊版 Analytics 追蹤 Cookie: 已廢止的形式
+## 舊版 Analytics 追蹤 Cookie：已廢止的形式
 
 ```
 {
@@ -46,7 +46,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 }
 ```
 
-已廢止的形式:
+已廢止的形式：
 
 指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
 
@@ -64,7 +64,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 您也可以使用 `"namespaceId": 4` (而非 `"namespace": "ECID"`)，這樣就能看到其他幾種 Adobe 產品使用該表單。
 
-> [!NOTE]Experience Cloud ID (ECID) 先前稱為 Marketing Cloud ID (MCID)，現在有些文件還是會以舊名指稱。
+> [!NOTE] Experience Cloud ID (ECID) 先前稱為 Marketing Cloud ID (MCID)，現在有些文件還是會以舊名指稱。
 >
 >這些是 Analytics 支援的 ID 中，唯一使用「type」值而非「analytics」值的 ID。
 
