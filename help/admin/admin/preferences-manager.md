@@ -3,7 +3,7 @@ description: 透過「偏好設定管理器」頁面，您可以設定如何轉�
 title: 偏好設定管理器
 topic: Admin tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 透過「偏好設定管理器」頁面，您可以設定如何轉譯 Excel 和逗號分隔值 (CSV) 報告輸出。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 公司設定]** &gt; **[!UICONTROL 偏好設定]**
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 使用偏好」]**
 
 * 使用 CSV 適用的 Deprecated 日期格式 (2013 年 8 月 30 日)
 * 使用 CSV 適用的 ISO 30 日期格式 (2013-08-30)
