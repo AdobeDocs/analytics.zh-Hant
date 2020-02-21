@@ -14,7 +14,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## Adobe 概觀 {#section_E582A1D77583410EBB790BB646854A2C}
 
-> [!IMPORTANT]本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
+> [!IMPORTANT] 本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
 
 歐盟通用資料保護規範 (GDPR) 已於 2018 年 5 月 25 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [GDPR 和您的業務](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
@@ -45,6 +45,6 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 * 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://marketing.adobe.com/resources/help/zh_TW/mcloud/report-suite-mapping.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 GDPR 刪除與存取請求。
 
-   > [!NOTE]如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
+   > [!NOTE] 如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
 
-* 檢查您的權限: 若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
+* 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
