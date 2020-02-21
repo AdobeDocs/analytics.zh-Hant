@@ -18,7 +18,7 @@ Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一�
 
 ![](assets/venn_hover.png)
 
-若要將 Venn 圖表轉換為自由表格，請按一下 **[!UICONTROL Venn]** 標題旁的彩色點，並選取&#x200B;**[!UICONTROL 「管理資料來源]** &gt; **[!UICONTROL 可用的資料來源]** &gt; **[!UICONTROL 自由表格」]**。
+若要將 Venn 圖表轉換為自由表格，請按一下 **[!UICONTROL Venn]** 標頭旁的彩色點，並選取&#x200B;**[!UICONTROL 「管理資料來源]** > **[!UICONTROL 可用的資料來源]** > **[!UICONTROL 自由表格」]**。
 
 若要標準化 Venn 圖表 (將大小移除)，請前往其「視覺效果設定」圖示並選取&#x200B;**[!UICONTROL 「標準化」]**。
 
