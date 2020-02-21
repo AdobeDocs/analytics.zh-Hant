@@ -10,28 +10,28 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 伺服器呼叫使用量概觀
 
-## 為何要對伺服器呼叫使用量進行監控和傳送警報? {#section_060C29BF1D00444B85892AD1FCF55290}
+## 為何要對伺服器呼叫使用量進行監控和傳送警報？{#section_060C29BF1D00444B85892AD1FCF55290}
 
-Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服器呼叫使用量資料透明化的請求。其可讓您存取:
+Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服器呼叫使用量資料透明化的請求。其可讓您存取：
 
-* 「伺服器呼叫使用量」控制面板，用於追蹤伺服器呼叫耗用量資料，並將其與合約限制進行比較。(**[!UICONTROL 「Analytics &gt; 管理員 &gt; 伺服器呼叫使用量」]**)
-* 「警報產生器」中的「伺服器呼叫使用量」警報類型可用於設定警報，避免使用過量 (**[!UICONTROL 「Analytics &gt; 元件 &gt; 警報」]**)
+* 「伺服器呼叫使用量」控制面板，用於追蹤伺服器呼叫耗用量資料，並將其與合約限制進行比較。(**[!UICONTROL 「Analytics > 管理員 > 伺服器呼叫使用量」]**)
+* 「警報產生器」中的「伺服器呼叫使用量」警報類型可用於設定警報，避免使用過量 (**[!UICONTROL 「Analytics > 元件 > 警報」]**)
 
-伺服器呼叫使用量的主要幾項好處如下:
+伺服器呼叫使用量的主要幾項好處如下：
 
 * 伺服器呼叫耗用量和承諾使用量資料的&#x200B;**可見性**，包括相對於合約伺服器呼叫使用量限制的行動耗用量。
 * **警報**&#x200B;功能可通知您風險狀況或使用過量情形，並對於發生使用過量的可能性加以因應/採取行動。
 
-以往，雖然您可以在&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 帳單」]**&#x200B;下存取每月伺服器呼叫耗用量資料，但該資料僅在該月結算後 6 天更新。此外，該資料未包含行動耗用量。此功能也會取代&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 報表」]**&#x200B;下的目前&#x200B;**[!UICONTROL 「計費資訊」]**&#x200B;報表。
+以往，雖然您可以在&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 帳單」]**&#x200B;下存取每月伺服器呼叫耗用量資料，但該資料僅在該月結算後 6 天更新。此外，該資料未包含行動耗用量。此功能也會取代 **[!UICONTROL 「分析]** > **[!UICONTROL 報表」]**&#x200B;下的目前&#x200B;**[!UICONTROL 「計費資訊」]**&#x200B;報表。
 
 ## 必備條件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
-* **權限:** 若要存取「伺服器呼叫使用量」控制面板和「警報產生器/管理器」，您必須是 Adobe Analytics 管理員。
-* **權限:** 管理員可以向非管理員授予存取權: 該權限稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量」]**。請參閱[伺服器呼叫使用量權限](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
+* **權限：**&#x200B;若要存取「伺服器呼叫使用量」控制面板和「警報產生器/管理器」，您必須是 Adobe Analytics 管理員。
+* **權限：**&#x200B;管理員可以向非管理員授予存取權： 該權限稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量」]**。請參閱[伺服器呼叫使用量權限](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
 
 ## 重要術語 {#section_CBA348A039F34563B097CD8890AB358D}
 
-以下是伺服器呼叫使用量之基本術語的簡短入門:
+以下是伺服器呼叫使用量之基本術語的簡短入門：
 
 <table id="table_4E97F85F13344A2C962FA4FA5A51642E"> 
  <thead> 
@@ -43,7 +43,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫 </p> </td> 
-   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。伺服器呼叫最常見的類型是頁面檢視。訪客在您的網站上檢視頁面，因此系統向 Adobe 產生伺服器呼叫，要求 Adobe 收集與處理資料，這次檢視就會在報表量度中計為一次頁面檢視。 </p> <p>另外還有其他類型的伺服器呼叫，包括退出連結與檔案下載；在此處資料會傳送至 Adobe 進行處理，但這些呼叫不會記錄為新的頁面檢視。即使是「已排除的」頁面檢視 (例如，被您所設定的 IP 位址範圍排除在報告外) 也是伺服器呼叫，因為這些檢視都會由 Adobe 接收並處理，但一律不會在您的報告中顯示。 </p> <p><b>主要伺服器呼叫</b>: 從網站訪客瀏覽器或「資料插入 API」直接收到的請求。包含主要點擊 (頁面檢視)、主要自訂事件、主要下載事件，以及主要退出事件。 </p> <p><b>次要伺服器呼叫</b>: 多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動 SDK 收到的請求。包含 trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意: 如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
+   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。伺服器呼叫最常見的類型是頁面檢視。訪客在您的網站上檢視頁面，因此系統向 Adobe 產生伺服器呼叫，要求 Adobe 收集與處理資料，這次檢視就會在報表量度中計為一次頁面檢視。 </p> <p>另外還有其他類型的伺服器呼叫，包括退出連結與檔案下載；在此處資料會傳送至 Adobe 進行處理，但這些呼叫不會記錄為新的頁面檢視。即使是「已排除的」頁面檢視 (例如，被您所設定的 IP 位址範圍排除在報告外) 也是伺服器呼叫，因為這些檢視都會由 Adobe 接收並處理，但一律不會在您的報告中顯示。 </p> <p><b>主要伺服器呼叫</b>：從網站訪客瀏覽器或「資料插入 API」直接收到的請求。包含主要點擊 (頁面檢視)、主要自訂事件、主要下載事件，以及主要退出事件。 </p> <p><b>次要伺服器呼叫</b>：多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動 SDK 收到的請求。包含 trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意：如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳單公司 (計費 ID) </p> </td> 
@@ -51,13 +51,13 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
   </tr> 
   <tr> 
    <td colname="col1"> <p>登入公司 </p> </td> 
-   <td colname="col2"> <p>一間帳單公司可以擁有<a href="https://helpx.adobe.com/tw/analytics/kb/multiple-login-companies.html">多家登入公司</a>。登入公司是您的組織使用的報表套裝集合。某些組織擁有多個登入公司，適用於組織內的不同部門。在需要處理不同業務單位的大型組織中，有許多報表套裝不適用於公司內其他人時，這特別有用。 </p> <p>通常會是公司的地區子公司。此範例顯示登入公司及其相關的報表套裝: </p> 
+   <td colname="col2"> <p>一間帳單公司可以擁有<a href="https://helpx.adobe.com/tw/analytics/kb/multiple-login-companies.html">多家登入公司</a>。登入公司是您的組織使用的報表套裝集合。某些組織擁有多個登入公司，適用於組織內的不同部門。在需要處理不同業務單位的大型組織中，有許多報表套裝不適用於公司內其他人時，這特別有用。 </p> <p>通常會是公司的地區子公司。此範例顯示登入公司及其相關的報表套裝： </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
-     <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide: RS1、RS2、RS3、RS4 </li> 
-     <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us: RS1、RS2 </li> 
-     <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in: RS3 </li> 
-     <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de: RS4 </li> 
-    </ul> <p>注意: 具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">所有</a>報表套裝的伺服器呼叫使用量資料。 </p> </td> 
+     <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide：RS1、RS2、RS3、RS4 </li> 
+     <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us：RS1、RS2 </li> 
+     <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in：RS3 </li> 
+     <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de：RS4 </li> 
+    </ul> <p>注意：具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">所有</a>報表套裝的伺服器呼叫使用量資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 組織 </p> </td> 
