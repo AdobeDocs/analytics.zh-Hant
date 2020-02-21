@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 建立 Workspace 專案
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,9 +20,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 指定建立和組織專案的使用者權限。
 
-   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; [群組](https://marketing.adobe.com/resources/help/en_US/reference/groups.html))。
+   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > [群組](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html))。
 
-1. 在 [!DNL Experience Cloud] 中，按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL Workspace]**」。
+1. 在「[!DNL Experience Cloud]」中，按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Workspace」]**。
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -43,8 +43,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 若要從空白專案建立專案，請按一下&#x200B;**[!UICONTROL 「空白專案」]**。
 
    * 接著，按一下&#x200B;**[!UICONTROL 「建立」]**，或
-   * 只需按一下  **[!UICONTROL Enter]** 即可。
-   接著會出現空白專案，其中顯示自由面板和資料表格視覺化。
+   * 只需按一下 **[!UICONTROL Enter]** 即可。
+   接著會出現空白專案，其中顯示自由面板和資料表格視覺效果。
 
    ![](assets/fa_project_new.png)
 
@@ -105,7 +105,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> 維度 (橘色) </td> 
-   <td colname="col2"> <p>在專案層級套用 </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>維度名稱後面附加了 Prop#、eVar# 和 event#，您可以依據這些編號來搜尋。範例:「內部促銷活動」會在左側欄中顯示為「內部促銷活動 (evar2)」。 </p> <p> 請注意，prop、eVar 和事件編號不會顯示在表格中 (以保持標題簡潔)。 </p> <p>在被拖曳至自由表格中、或是顯示在左側欄時，部分現有的維度會有預設的排序順序。例如，當「小時」被拖放到表格中，或顯示在左側欄時，會以從上午 12 點至下午 11 點的順序排序。您仍可以選擇依照任何量度欄來排序。 </p> </td> 
+   <td colname="col2"> <p>在專案層級套用 </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>維度名稱後面附加了 Prop#、eVar# 和 event#，您可以依據這些編號來搜尋。範例：「內部促銷活動」會在左側欄中顯示為「內部促銷活動 (evar2)」。 </p> <p> 請注意，prop、eVar 和事件編號不會顯示在表格中 (以保持標題簡潔)。 </p> <p>在被拖曳至自由表格中、或是顯示在左側欄時，部分現有的維度會有預設的排序順序。例如，當「小時」被拖放到表格中，或顯示在左側欄時，會以從上午 12 點至下午 11 點的順序排序。您仍可以選擇依照任何量度欄來排序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 量度 (綠色) </td> 
@@ -124,7 +124,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-「[!UICONTROL 視覺化]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表格、Venn 圖表等等。您可以拖放多個視覺化至專案。
+「[!UICONTROL 視覺效果]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表格、Venn 圖表等等。您可以拖放多個視覺效果至專案。
 
 ![步驟結果](assets/visualizations.png)
 
