@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 清除報表中的值
 topic: Admin tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 條件 | 如果 prop1 開頭為 Shopping |
 | 動作 | 將 prop1 的值覆寫為自訂值 Shopping |
 
-例如:
+例如：
 
 ![](assets/clean-up-values-in-report.png)
 
