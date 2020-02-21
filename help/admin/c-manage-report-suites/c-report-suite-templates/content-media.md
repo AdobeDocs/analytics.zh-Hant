@@ -3,7 +3,7 @@ description: 定義開發原始內容並顯示文章和影片之網站的一般�
 title: 內容與媒體
 topic: Admin tools
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
