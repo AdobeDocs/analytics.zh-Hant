@@ -12,7 +12,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 範例點擊資料
 
-假設您有以下點擊資料:
+假設您有以下點擊資料：
 
 * 第一行含有每個變數的標籤。
 * 第二行是變數的名稱。如果變數具有 ID 標籤，則會在括號中包含指派的命名空間。
@@ -20,7 +20,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 | 標籤 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **變數名稱**<br>**(命名空間)** | **MyProp1**<br>**(user)** | **Visitor ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **變數名稱&#x200B;**<br>**(命名空間)** | **MyProp1 **<br>**(user)** | **Visitor ID **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | 點擊資料 | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -37,8 +37,8 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 | API 值 | API 值 | 傳回的檔案類型 | 摘要存取檔案<br>中的資料 | 摘要存取檔案<br>中的資料 | 摘要存取檔案<br>中的資料 | 摘要存取檔案<br>中的資料 | 摘要存取檔案<br>中的資料 |
 |--- |--- |--- |---|---|---|---|---|
 | **命名空間/ID** | **expandIDs** |  | **MyProp1** | **訪客 ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-|  AAID=77 | false | 裝置 | 變數不存在 | 77 | 變數不存在 | M、P | X、W |
-|  AAID=77 | true | 裝置 | 變數不存在 | 77 | 變數不存在 | M、P | X、W |
+| AAID=77 | false | 裝置 | 變數不存在 | 77 | 變數不存在 | M、P | X、W |
+| AAID=77 | true | 裝置 | 變數不存在 | 77 | 變數不存在 | M、P | X、W |
 | user=Mary | false | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
 | user=Mary | true | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
 | user=Mary | true | 裝置 | 不存在 | 77、88 | 不存在 | N、P | U、W |
@@ -51,7 +51,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 範例刪除請求
 
-將使用 API 值的刪除請求列示在表格的第一行，點擊表格的內容將會更新並看起來像這樣:
+將使用 API 值的刪除請求列示在表格的第一行，點擊表格的內容將會更新並看起來像這樣：
 
 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 |
 |---|---|---|---|---|
@@ -93,7 +93,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
-請注意下列事項:
+請注意下列事項：
 
 * 包含 `user=Mary` 和 `DEL-DEVICE` 或 `DEL-PERSON` 標籤的資料列儲存格會受到影響，如果包含 `user=Mary` 的資料列上，包含任何 Visitor ID 的資料列有加上 `DEL-DEVICE` 標籤的儲存格，也會受到影響。
 * `MyEvar2`第四和第五行的 會更新，因為這些兩行包含的 Visitor ID 值與第一和第二行的值相同，因此 ID 擴增會將其納入裝置層級的刪除作業。
