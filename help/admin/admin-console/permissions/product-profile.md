@@ -11,7 +11,7 @@ translation-type: ht
 
 ## 產品設定檔管理員
 
-產品設定檔管理員是一個選用群組，可對該產品設定檔新增或移除使用者。請注意，產品設定檔管理員與產品管理員並不相同:
+產品設定檔管理員是一個選用群組，可對該產品設定檔新增或移除使用者。請注意，產品設定檔管理員與產品管理員並不相同：
 
 * 產品設定檔管理員只負責管理產品設定檔的使用者清單。
 * 產品設定檔管理員無法完整存取 Adobe Analytics。Adobe Analytics 的完整存取權會保留給產品管理員。
@@ -20,7 +20,7 @@ translation-type: ht
 
 ## Adobe Analytics 權限項目
 
-產品設定檔要存取 Adobe Analytics 所需的最低權限如下:
+產品設定檔要存取 Adobe Analytics 所需的最低權限如下：
 
 * 產品設定檔必須至少擁有一個報表套裝的存取權-
 * 產品設定檔必須屬於 Analytics 工具權限項目&#x200B;**「Analysis Workspace 存取」**(或&#x200B;**「Reports &amp; Analytics 存取」**)
