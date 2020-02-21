@@ -3,7 +3,7 @@ description: 說明如何設定成功事件的步驟。
 title: 設定成功事件
 topic: Admin tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 說明如何設定成功事件的步驟。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
-1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 轉換]** &gt; **[!UICONTROL 成功事件」]**。
+1.  按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 成功事件」]**。
 
    ![步驟結果](assets/success_event_page.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!NOTE]
    >
-   >您可以啟用的參與率最多可達 100 個自訂事件。除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
+   >您可以啟用的參與率最多可達 100 個自訂事件。除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
