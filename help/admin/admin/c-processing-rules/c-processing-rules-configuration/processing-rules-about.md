@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 處理規則的運作方式
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 重要概念 {#section_EB138775E7C64C74B0D1D3213F7A823C}
 
-下表包含您在使用處理規則時務必瞭解的重要概念: 
+下表包含您在使用處理規則時務必瞭解的重要概念：
 
 <table id="table_287C606AE26E47AA8F737411990ACEB2"> 
  <thead> 
@@ -97,7 +97,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以建立無條件的規則，以一律執行已定義動作。
 
-在發生動作前，並不會自動檢查變數的值。例如，Prop1 包含 "something" 值，而 eVar1 空白。如果您設定 Prop1 等於 eVar1，則兩個值都會變成空白。如果您想避免這種情形，請加入一個條件來檢查是否存在值。
+在發生動作前，並不會自動檢查變數的值。例如，Prop1 包含 &quot;something&quot; 值，而 eVar1 空白。如果您設定 Prop1 等於 eVar1，則兩個值都會變成空白。如果您想避免這種情形，請加入一個條件來檢查是否存在值。
 
 ## 處理規則動作 {#section_E2285C9D008442C7BF136E52A9A4CC06}
 
