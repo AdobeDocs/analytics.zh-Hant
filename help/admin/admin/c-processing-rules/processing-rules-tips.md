@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 處理規則提示與秘訣
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,7 +42,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 避免覆寫值 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
-在下列範例中，網站上使用兩個上下文資料變數來擷取搜尋詞: search_keyword 和 search_term。不過，根據設定，search_keyword 值一律會被覆寫，即使 search_term 空白亦然。
+在下列範例中，網站上使用兩個上下文資料變數來擷取搜尋詞：search_keyword 和 search_term。不過，根據設定，search_keyword 值一律會被覆寫，即使 search_term 空白亦然。
 
 應將此規則設定為在填入內部搜尋詞 (Internal Search Term) 之前，測試每個上下文資料變數是否有值，以及選擇性地在需要同時保留這兩個值時，串連兩個值。
 
