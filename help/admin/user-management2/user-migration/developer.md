@@ -2,7 +2,7 @@
 description: 'null'
 title: 受移轉影響的 API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
 
 ---
@@ -16,7 +16,7 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 
 ## 受影響的 API 方法 {#section-d19051ac26cc49aeb124f767c4760254}
 
-一旦開始移轉使用者，系統將不再支援 Admin API 1.3 和 1.4 版的以下 API 方法:
+一旦開始移轉使用者，系統將不再支援 Admin API 1.3 和 1.4 版的以下 API 方法：
 
 * Company.GetLoginKey
 * Permissions.AddLogin
@@ -39,10 +39,10 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 
 如果貴公司沒有使用上述任何方法，除了確保未開始使用這些方法之外，不需執行任何動作。
 
-如需其他資訊，請參閱以下資源: 
+如需其他資訊，請參閱以下資源：
 
-* [一般使用者管理資訊](https://helpx.adobe.com/enterprise/help/users.html)
+* [一般使用者管理資訊](https://helpx.adobe.com/tw/enterprise/help/users.html)
 * [透過 adobe.io 執行使用者管理 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [使用者管理 API 論壇](https://forums.adobe.com/community/umapi/overview)
-* [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/)
+* [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/admin-console/analytics-migration/)
 
