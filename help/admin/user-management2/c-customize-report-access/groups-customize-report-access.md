@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: 自訂報表存取 - 概觀
 topic: Admin tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 自訂分析工具、報表套裝工具、量度和維度的群組權限。
 
-**[!UICONTROL 新增群組]** &gt; **[!UICONTROL 報表存取]**
+**[!UICONTROL 新增群組]** > **[!UICONTROL 報表存取]**
 
 [!UICONTROL 定義使用者群組]頁面上的[!UICONTROL 報表存取]區段提供可讓您在精細層次自訂權限的存取。
 
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂群組 </p> </td> 
-   <td colname="col2"> <p> 自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自訂分析工具</a>。 </p> <p> 屬於<span class="term">「全部報表存取權 」</span>的使用者已移轉至具有下列存取權的自訂群組: </p> 
+   <td colname="col2"> <p> 自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自訂分析工具</a>。 </p> <p> 屬於<span class="term">「全部報表存取權」</span>的使用者已移轉至具有下列存取權的自訂群組： </p> 
     <ul id="ul_7E1B443DEEF7452E85FEB30CA0BBC8BE"> 
      <li id="li_A510C2A4129340E0AB08EEBDBE4AEAD9">所有維度 </li> 
      <li id="li_8BA1D7A2527C4F10AC93108B9E87F418">所有量度 </li> 
@@ -59,12 +59,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限: 存取類別是由存取類別基準的<a href="https://marketing.adobe.com/resources/help/en_US/reference/c_classifications.html">變數</a>所決定。  </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/c_classifications.html">變數</a>所決定。 </li> 
     </ul> <p>請參閱<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自訂維度權限</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>僅新客戶或已在 <a href="https://marketing.adobe.com/resources/help/en_US/mcloud/core_services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/">Analytics 使用者移轉至 Admin Console</a>。 </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/tw/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col2"> <p>僅新客戶或已在 <a href="https://marketing.adobe.com/resources/help/zh_TW/mcloud/core_services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/admin-console/analytics-migration/">Analytics 使用者移轉至 Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>內容感知 </p> </td> 
@@ -72,7 +72,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>預設權限/報告 </p> </td> 
-   <td colname="col2"> <p>這些已停用的報表將移除: </p> 
+   <td colname="col2"> <p>這些已停用的報表將移除： </p> 
     <ul id="ul_C0415CFF0562472297272EC58ECC0774"> 
      <li id="li_62B1CE33B1454987B878B321EB40D62E">每月摘要 </li> 
      <li id="li_71CD776D212540A18F9B083D2E11A296">訪客首頁 </li> 
@@ -89,7 +89,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <li id="li_0EB8A4A7619B45DF87109B183A7C69C8">裝飾郵件支援 </li> 
      <li id="li_989FAC662F7344E6BDDC517B79D4581E">資訊 </li> 
      <li id="li_F1FB7F8E415443F3B63F6D11D59A04AB">資訊服務 </li> 
-    </ul> <p>以下報表: </p> 
+    </ul> <p>以下報表： </p> 
     <ul id="ul_F71505C59F734EA9B541BF8AB9F9388F"> 
      <li id="li_7D461907B895447280E69CF1520DF47C">仍能透過書籤存取。 </li> 
      <li id="li_27BA2DD6BA4C446FBAA06B6C76CD171F">並未包含在新的維度權限類別中。 </li> 
