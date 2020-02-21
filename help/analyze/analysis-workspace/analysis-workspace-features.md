@@ -1,9 +1,9 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace 概述
+title: Analysis Workspace概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Analysis Workspace 概述
 
-Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺化和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
+Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL Workspace]**
+**[!UICONTROL 分析]** > **[!UICONTROL 工作區]**
 
 ## 概述影片 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
 
@@ -23,11 +23,11 @@ Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提�
 
 >[!NOTE]
 >
->參閱 [Analysis Workspace 的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)瞭解功能的相關更新。
+>參閱 [Analysis Workspace 的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)，了解功能的相關更新。
 
 ## 完整控制專案元素和元件 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
 
-Analysis Workspace 提供自由與靈活性:
+Analysis Workspace 提供自由與靈活性：
 
 * 拖放元件 (維度、量度、區段和時間粒度)
 * 拖放多個視覺效果至專案
@@ -51,14 +51,14 @@ Analysis Workspace 提供自由與靈活性:
 
 ## 面板和視覺效果的內部連結 {#section_253EA04E067F4A29A8B54CE2B7631086}
 
-結合 Analysis Workspace [豐富文字編輯](/help/analyze/analysis-workspace/visualizations/text.md)功能後，您可透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案的內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。若要將內部連結新增至您的專案:
+結合 Analysis Workspace [豐富文字編輯](/help/analyze/analysis-workspace/visualizations/text.md)功能後，您可透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案的內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。若要將內部連結新增至您的專案：
 
 1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
 1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
 
    ![](assets/intra-linking1.png)
 
-1. 捲動至該面板或視覺效果，然後以滑鼠右鍵按一下面板的標題。
+1. 捲動至該面板或視覺效果，然後以滑鼠右鍵按一下面板的標頭。
 1. 向下捲動，選取&#x200B;**[!UICONTROL 「取得面板連結」]**&#x200B;或&#x200B;**[!UICONTROL 「取得視覺效果連結」]**:
 
    ![](assets/intra-linking2.png)
@@ -71,7 +71,7 @@ Analysis Workspace 提供自由與靈活性:
 
 ## 連結至其他專案 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
 
-舉例來說，您可以將使用者連結至對方可能感興趣的其他專案，方法是前往&#x200B;**[!UICONTROL 「共用]** &gt; **[!UICONTROL 取得專案連結」]**，將此連結嵌入專案說明。
+您可以將使用者連結至其所可能感興趣的其他專案，例如前往&#x200B;**[!UICONTROL 「共用]** > **[!UICONTROL 取得專案連結]**」，將此連結嵌入專案說明。
 
 ## 所選儲存格的動態視覺效果 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
 
@@ -89,7 +89,7 @@ Analysis Workspace 提供自由與靈活性:
 
 ## 所選儲存格的趨勢視覺效果 {#section_34930C967C104C2B9092BA8DCF2BF81A}
 
-從所選儲存格建立視覺效果。(按一下滑鼠右鍵 &gt; **[!UICONTROL 趨勢選取項目]**。)
+從所選儲存格建立視覺效果。(按一下滑鼠右鍵 > **[!UICONTROL 趨勢選取項目]**。)
 
 ![](assets/trend-selection.png)
 
@@ -121,9 +121,9 @@ Analysis Workspace 提供自由與靈活性:
 
 ## 專案和元件標記 {#section_F54D688132A541F2982326D5E022B90D}
 
-您可在 Analysis Workspace 中，套用標記至專案和元件:
+您可在 Analysis Workspace 中，套用標記至專案和元件：
 
-* 在資訊面板中套用或建立專案層級標記。(![)](assets/information_icon.png)
+* 在資訊面板中套用或建立專案層級標記。(![](assets/information_icon.png))
 
 * 以滑鼠右鍵按一下元件，以從元件面板進行標記 (或建立標記)。
 * 在搜尋欄位中使用 # 尋找標記。
@@ -134,9 +134,9 @@ Analysis Workspace 提供自由與靈活性:
 
 | 元件動作 | 說明 |
 |--- |--- |
-| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 &gt; 元件 &gt; 區段」或「分析 &gt; 元件 &gt; 專案」 |
-| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 &gt; 元件 &gt; 區段」或「分析 &gt; 元件 &gt; 專案」。 |
-| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 &gt; 元件 &gt; 區段」或「分析 &gt; 元件 &gt; 專案」 |
+| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
+| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」。 |
+| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
 | 共用 | 僅套用至區段。 |
 | 刪除 | 僅套用至區段。 |
 
@@ -163,11 +163,11 @@ Analysis Workspace 提供自由與靈活性:
 * 排序日期範圍預設集 (不包含自訂日期範圍)。
 * CTRL (或 Command) + 按一下 + 拖曳欄可以複製該欄，而拖曳副本則會將其貼至表格中的新位置。
 
-參閱 [Analysis Workspace 中可用的快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以瞭解詳細資訊。
+參閱 [Analysis Workspace 中可用的快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以了解詳細資訊。
 
 **選取範圍和動作**
 
-您可用在 Excel 中選取行和欄的方式，來選取行和欄。接著就可以在這些選取範圍上執行動作。例如:
+您可用在 Excel 中選取行和欄的方式，來選取行和欄。接著就可以在這些選取範圍上執行動作。例如：
 
 * 從選取範圍建立視覺效果
 * 複製至剪貼簿 (CTRL 或 Command + C)
@@ -187,4 +187,4 @@ Analysis Workspace 獨特的預設區段。*`All Visits`*&#x200B;會顯示您新
 
 計算的使用方式與標準量度相同。
 
-請參閱[計算量度](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)。
+請參閱[計算量度](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)。
