@@ -26,7 +26,7 @@ Update screenshots for better readability.
 
 ![](assets/alert_selection.png)
 
-如此會立即預先填入警報產生器，使用正確的量度和篩選器建立警報:
+如此會立即預先填入警報產生器，使用正確的量度和篩選器建立警報：
 
 ![](assets/prepopulated_alert.png)
 
