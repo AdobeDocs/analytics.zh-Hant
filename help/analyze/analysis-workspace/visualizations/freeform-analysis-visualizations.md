@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 視覺效果概述
 topic: Reports and analytics
 uuid: 318dea64-6277-4ec3-ad48-4dfcb7a54555
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 了解 Analysis Workspace 中的視覺效果和視覺效果設定。
 
-[在 YouTube 觀看「Analysis Workspace 視覺效果類型」](https://www.youtube.com/watch?v=b1zLEywRa6w&index=39&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
+[在 YouTube 觀看「Analysis Workspace 視覺效果類型」](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:57)
 
 ## 視覺效果面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>100% 堆疊 </p> </td> 
-   <td colname="col2"> <p>針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的設定可讓圖表以「100% 堆疊」的視覺化方式呈現。範例: </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
+   <td colname="col2"> <p>針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。範例： </p> <p><img  src="assets/stacked_100_percent.png" placement="break" width="400px" id="image_1B60D53F7EB84571B1580BC3A1E603EE" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>可見圖例 </p> </td> 
@@ -64,7 +64,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>標準化 </p> </td> 
-   <td colname="col2"> <p>強制量度為相同比例。請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/normalization.html"  >標準化</a>。 </p> </td> 
+   <td colname="col2"> <p>強制量度為相同比例。請參閱<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/normalization.html"  >標準化</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>顯示雙軸 </p> </td> 
@@ -79,13 +79,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 「建立視覺效果」圖示{#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-如果您不確定要挑選哪個視覺效果，請按一下任何表格列中的「**[!UICONTROL 建立視覺效果]**」圖示。當您在表格列上暫留時，會顯示這個圖示。按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取最多 3 個區段，則會建立 Venn 圖表。如果大於 3 個區段，則會建立長條圖。若為其他類型的資料，則會建立線性圖等等。
+如果您不確定要挑選哪個視覺效果，請按一下任何表格列中的&#x200B;**[!UICONTROL 「建立視覺效果」]**&#x200B;圖示。當您在表格列上暫留時，會顯示這個圖示。按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取最多 3 個區段，則會建立 Venn 圖表。如果大於 3 個區段，則會建立長條圖。若為其他類型的資料，則會建立線性圖等等。
 
 ![](assets/create-visual.png)
 
 ## 右鍵視覺效果/面板功能表 {#section_05B7914D4C9E443F97E2BFFDEC70240C}
 
-在視覺效果或面板標題旁按一下滑鼠右鍵，可存取與圖表內容相關的設定。您可存取下列部分或全部的設定:
+在視覺效果或面板標頭旁按一下滑鼠右鍵，可存取與圖表內容相關的設定。您可存取下列部分或全部的設定：
 
 ![](assets/right-click_menu.png)
 
@@ -98,7 +98,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 摺疊面板中的所有視覺效果 | 摺疊專案面板中的所有視覺效果。 |
 | 展開所有面板 | 展開所有專案面板。 |
 | 展開面板中的所有視覺效果 | 展開專案面板中的所有視覺效果。 |
-| 編輯描述 | 新增 (或編輯) 視覺效果/面板的文字描述。此描述會顯示在「專案 &gt; 專案資訊和設定」中。 |
+| 編輯描述 | 新增 (或編輯) 視覺效果/面板的文字描述。此描述會顯示在「專案 > 專案資訊和設定」中。 |
 | 取得面板連結 | 讓您可將使用者直接導向專案中的特定面板。 |
 | 取得視覺效果連結 | 讓您複製並共用此連結以便直接將其他項目傳送至此視覺效果。使用者必須登入。 |
 | 重新開始 | (適用於流量、Venn、色階分佈圖) 刪除目前視覺效果的設定，並開啟一個新面板，讓您在其中重新設定。 |
@@ -107,7 +107,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以重新命名視覺效果圖例 (「流失」、「區域圖」、「堆疊區域圖」、「長條圖」、「堆疊長條圖」、「環形圖」、「色階分布圖」、「橫條圖」、「堆疊橫條圖」、「折線圖」、「散佈圖」和「Venn 圖表」) 中的數列名稱，有助於讓視覺效果更簡單明瞭。
 
-編輯圖例&#x200B;**不**&#x200B;適用於:「樹狀圖」、「項目」、「摘要變更或數字」、「文字」、「自由格式」、「色階分布圖」、「同類群組」或「流量」視覺效果。
+編輯圖例&#x200B;**不**&#x200B;適用於：「樹狀圖」、「項目」、「摘要變更或數字」、「文字」、「自由格式」、「色階分布圖」、「同類群組」或「流量」視覺效果。
 
 以在折線途中編輯圖例標籤為例說明，
 
@@ -119,4 +119,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://www.youtube.com/watch?v=mry3vDrTml0&index=61&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+以下是此主題的[影片連結](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
