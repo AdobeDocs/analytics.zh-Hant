@@ -3,7 +3,7 @@ description: 您可以從報表中排除特定 IP 位址的資料，例如內部
 title: 依 IP 位址排除
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 依 IP 排除]**
+**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 依 IP 排除]**
 
-> [!NOTE]依 IP 位址排除的點擊會在帳單中計為[「伺服器呼叫」](https://marketing.adobe.com/resources/help/en_US/reference/primary_server_calls.html)。
+> [!NOTE]依 IP 位址排除的點擊會在帳單中計為[「伺服器呼叫」](https://marketing.adobe.com/resources/help/zh_TW/reference/primary_server_calls.html)。
 
 ## 依 Cookie 排除 {#section_FB5A20AB5E514DA6BC596CC67F6A3A4C}
 
@@ -25,9 +25,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 元素 | 說明 |
 |--- |--- |
-| [!UICONTROL 新增 CNAME] | 產生退出連結，讓您用來排除您的網域。如需援助，請聯絡您公司的「支援使用者」部門。<br>您可瀏覽您公司的退出頁面並選擇將您的瀏覽器從測量中排除，即可從報表套裝中排除您的流量，不予以報告。<br>如果您的實施使用第三方 Cookie，您的退出頁面位在[此處](https://democorp.112.2o7.net/optout.html?locale=en_US&popup=true)。 |
+| [!UICONTROL 新增 CNAME] | 產生退出連結，讓您用來排除您的網域。如需援助，請聯絡您公司的「支援使用者」部門。<br>您可瀏覽您公司的退出頁面並選擇將您的瀏覽器從測量中排除，即可從報表套裝中排除您的流量，不予以報告。<br>如果您的實作使用第三方 Cookie，您的退出頁面位在[此處](https://democorp.112.2o7.net/optout.html?locale=zh_TW&amp;popup=true)。 |
 
-> [!NOTE] 只有符合以下條件時才可以依電腦排除:
+> [!NOTE] 只有符合以下條件時才可以依電腦排除：
 >
 > * 從同一工作站進入網站。
 > * 使用的瀏覽器啟用了 cookie。
@@ -46,7 +46,7 @@ IP 位址就是 Internet 位址。所有 Internet 使用者都擁有數位 IP �
 
 您也可以透過防火牆，阻止收集特定 IP 位址的資料。
 
-請參閱 [Experience Cloud 使用的 IP 位址](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-adobe-ip-addresses)一文。
+請參閱 [Experience Cloud 使用的 IP 位址](https://marketing.adobe.com/resources/help/zh_TW/home/index.html#kb-adobe-ip-addresses)一文。
 
 ## IP 模糊化的影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
