@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 可用於處理規則的維度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意: 上下文資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用上下文資料變數設定事件</a> </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/context_data_variables.html"> 上下文資料變數</a> </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意：上下文資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用上下文資料變數設定事件</a> </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/context_data_variables.html"> 上下文資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面名稱 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>附註: 頁面名稱非空白的所有感應區都會計入頁面檢視。系統追蹤連結時，資料收集伺服器會從感應區中移除頁面名稱，如此便不會計算頁面檢視。如果您使用處理規則將頁面名稱重新插入這些呼叫，頁面檢視便會列入計算。我們建議您仔細檢查，確保頁面名稱已經設定後再進行修正。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>附註：頁面名稱非空白的所有感應區都會計入頁面檢視。系統追蹤連結時，資料收集伺服器會從感應區中移除頁面名稱，如此便不會計算頁面檢視。如果您使用處理規則將頁面名稱重新插入這些呼叫，頁面檢視便會列入計算。我們建議您仔細檢查，確保頁面名稱已經設定後再進行修正。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面 URL </p> </td> 
@@ -144,7 +144,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>AppMeasurement 代碼版本 (唯讀) </p> </td> 
-   <td colname="col2"> <p>用來進行請求的 appMeasurement 庫版本。使用影像信標時，可以用採用處理規則讀取的自訂值來填入。這個值會出現在 URL 中的下列位置: </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
+   <td colname="col2"> <p>用來進行請求的 appMeasurement 庫版本。使用影像信標時，可以用採用處理規則讀取的自訂值來填入。這個值會出現在 URL 中的下列位置： </p> <p>https://server.net/b/ss/report-suite-ID/1/<span class="syntax codeph"> CODEVERSION</span>/... </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -201,13 +201,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_926ED12B58CA4FB685D799DC6EE567C0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 事件 </th> 
+   <th colname="col1" class="entry"> Event </th> 
    <th colname="col2" class="entry"> 說明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>事件 1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
+   <td colname="col1"> <p>Event 1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
