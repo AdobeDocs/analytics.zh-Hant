@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 檢視目前伺服器呼叫使用量
 
-**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 伺服器呼叫使用量]** &gt; **[!UICONTROL 目前使用量」]**
+**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 伺服器呼叫使用量]** > **[!UICONTROL 目前使用量」]**
 
 > [!IMPORTANT] 您看到的所有使用量和承諾使用量，是所有登入公司和報表套裝的累計值。
 
