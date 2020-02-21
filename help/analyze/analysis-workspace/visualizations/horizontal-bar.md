@@ -22,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/horizontal-bar-stacked.png)
 
-「堆疊長條圖」視覺效果中的[!UICONTROL 「堆疊橫條圖」]視覺效果設定可將圖表顯示為「100% 堆疊」的視覺效果:
+「堆疊長條圖」視覺效果中的[!UICONTROL 「堆疊橫條圖」]視覺效果設定可將圖表顯示為「100% 堆疊」的視覺效果：
 
 ![](assets/horizstacked100.png)
 
