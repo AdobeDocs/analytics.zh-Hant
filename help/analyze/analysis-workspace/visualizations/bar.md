@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/bar-stacked.png)
 
-針對堆疊橫條圖的全新視覺化設定可讓圖表以「100% 堆疊」的視覺化方式呈現。
+針對堆疊橫條圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。
 
 ![](assets/stacked_100_percent.png)
 
