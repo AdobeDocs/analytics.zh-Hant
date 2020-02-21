@@ -3,7 +3,7 @@ description: 說明如何建立報表套裝以及將報表套裝設定複製到�
 title: 建立報表套裝
 topic: Admin tools
 uuid: fada5b10-f574-4c3f-8704-679c9992fc88
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 說明如何建立報表套裝以及將報表套裝設定複製到新報表套裝的步驟。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
-1. 按一下&#x200B;**[!UICONTROL 「建立新項目]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 按一下「**[!UICONTROL 建立新的]** > **[!UICONTROL 報表套裝]**」。
 1. 若要複製報表套裝設定，請在範本清單中選取預先定義的範本，或將現有報表套裝當作[範本](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)使用。
 
    >[!NOTE]
