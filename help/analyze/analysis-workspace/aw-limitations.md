@@ -1,7 +1,7 @@
 ---
-description: Adobe Analysis Workspace及其相關元件的已知限制清單
+description: Adobe Analysis Workspace 及其相關元件的已知限制清單：
 title: Analysis Workspace 的已知限制
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 # Analysis Workspace 的已知限制
 
-以下為 Analysis Workspace 及其相關元件的已知限制清單:
+以下為 Analysis Workspace 及其相關元件的已知限制清單：
 
 ## 表格
 
@@ -21,36 +21,36 @@ source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ## 視覺效果
 
-* 運用[!UICONTROL 「流失」]、[!UICONTROL 「流量」]、[!UICONTROL 「同類群組 」]、[!UICONTROL 「色階分佈圖」]等區段的視覺效果，無法將計算量度設為輸入項目。
-* [!UICONTROL 流量]:「登入/退出」維度 (例如[!UICONTROL 「登入頁面」]) 無法用於「流量」。
-* [!UICONTROL 同類群組]: 非整數無法當作同類群組條件使用。
+* 運用[!UICONTROL 「流失」]、[!UICONTROL 「流量」]、[!UICONTROL 「同類群組」]、[!UICONTROL 「色階分佈圖」]等區段的視覺效果，無法將計算量度設為輸入項目。
+* [!UICONTROL 流量]：「登入/退出」維度 (例如[!UICONTROL 「登入頁面」]) 無法用於「流量」。
+* [!UICONTROL 同類群組]：非整數無法當作同類群組條件使用。
 
 ## 面板
 
-* 區段比較: 如果在初始放置區中使用區段範本，系統不會建立[!UICONTROL 「其他人」]區段。
+* 區段比較：如果在初始放置區中使用區段範本，系統不會建立[!UICONTROL 「其他人」]區段。
 
-## 元件 &gt; 區段
+## 元件 > 區段
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法設為區段。
-* 如果從 Workspace 中建立區段，而非經由[!UICONTROL 「元件 &gt; 區段」]建立，則某些元件和運算子將無法使用，例如 IP 位址。
+* 如果從 Workspace 中建立區段，而非經由[!UICONTROL 「元件 > 區段」]建立，則某些元件和運算子將無法使用，例如 IP 位址。
 
-## 元件 &gt; 計算量度
+## 元件 > 計算量度
 
 * 計算量度無法使用於特定視覺效果中。請參閱上方的「視覺效果」。
 * 計算量度無法用於[!UICONTROL 「歸因」]面板，因為計算量度本身就可包含個別的歸因模型。
-* 如果從 Workspace 中建立計算量度，而非經由[!UICONTROL 「元件 &gt; 區段」]建立，則某些元件和運算子將無法使用，例如 [!UICONTROL IP 位址]。
+* 如果從 Workspace 中建立計算量度，而非經由[!UICONTROL 「元件 > 區段」]建立，則某些元件和運算子將無法使用，例如 [!UICONTROL IP 位址]。
 
-## 元件 &gt; 日期範圍
+## 元件 > 日期範圍
 
 * 自訂日期範圍不支援[!UICONTROL 「去年的今天」]、[!UICONTROL 「上個月的今天」]等。
 
-## 元件 &gt; 虛擬報表套裝
+## 元件 > 虛擬報表套裝
 
 * 啟用報表時間處理功能時，系統不支援某些元件。如需完整清單，請參閱[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 
-## 元件 &gt; 報表設定
+## 元件 > 報表設定
 
-* [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定: [!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
+* [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
 
 ## 歸因 IQ
 
