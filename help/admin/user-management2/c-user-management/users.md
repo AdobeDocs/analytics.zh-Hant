@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 使用者管理概觀
 topic: Admin tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,11 +14,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理工具]** &gt; **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 「使用者管理」頁面上的「管理報表使用者和群組」可讓您管理使用者和群組，以及控制對報表、工具和報表套裝的存取。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者管理]** &gt; **[!UICONTROL 編輯使用者]**
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯使用者」]**
 
 ## 使用者帳戶說明 {#section_14A7E169514A42A88E06387CC7C2E9AD}
 
