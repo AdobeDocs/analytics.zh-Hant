@@ -14,7 +14,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## Adobe 概述
 
->[!IMPORTANT]本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 CCPA 的建議。
+>[!IMPORTANT] 本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 CCPA 的建議。
 
 加州消費者隱私法 (CCPA) 將於 2020 年 1 月 1 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)。
 
@@ -43,5 +43,5 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 
    若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
 
-* 檢查您的權限: 若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
+* 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
 * 請考慮實作[「同意管理變數」](/help/admin/c-data-governance/consent-variables.md)以追蹤點擊層級的同意狀態。
