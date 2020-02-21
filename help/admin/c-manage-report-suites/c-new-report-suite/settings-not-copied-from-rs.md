@@ -3,7 +3,7 @@ description: 如果從現有報表套裝複製設定，會出現系統訊息，�
 title: 並非從來源報表套裝複製的設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
 
-下列設定值不會從範本或複製的報表套裝進行複製:
+下列設定值不會從範本或複製的報表套裝進行複製：
 
 <table id="table_9774249E3D804E7D97F12B88E26F9066"> 
  <thead> 
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類資料 (複製了分類結構) </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/zh_TW/reference/c_working_with_saint.html"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟用交易 ID 記錄 </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪客 ClickMap 管理員 </p> </td> 
-   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/activitymap/activitymap-enable.html"> 升級至 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/activitymap/activitymap-enable.html"> 升級至 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 規則 </p> </td> 
