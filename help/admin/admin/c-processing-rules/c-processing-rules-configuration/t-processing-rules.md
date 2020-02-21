@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 建立處理規則
 topic: Admin tools
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,9 +14,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 處理規則是在報告套裝中設定。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
-1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 處理規則」]**。
+1.  按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則」]**。
 1. 在&#x200B;**[!UICONTROL 處理規則]**&#x200B;頁面上按一下&#x200B;**[!UICONTROL 「新增規則」]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增條件」]**，然後選取規則套用時機。
 
