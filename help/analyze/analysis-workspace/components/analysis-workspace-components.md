@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
 
-若要存取「元件」面板，請按一下左側欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以在各面板 (空白面板、[自由](/help/analyze/analysis-workspace/visualizations/freeform-table.md)面板或[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板)、[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件間，透過左欄圖示或使用[快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行切換。
+若要存取「元件」面板，請按一下左側欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以在各面板 (空白面板、[自由](/help/analyze/analysis-workspace/visualizations/freeform-table.md)面板或[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板)、[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件間，透過左欄圖示或使用[快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行切換。
 
 ![](assets/components.png)
 
@@ -26,9 +26,9 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 | 元件動作 | 說明 |
 |--- |--- |
-| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 &gt; 元件 &gt; 區段」或「分析 &gt; 元件 &gt; 專案」 |
-| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 &gt; 元件 &gt; 區段」或「分析 &gt; 元件 &gt; 專案」。 |
-| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 &gt; 元件 &gt; 區段」或「分析 &gt; 元件 &gt; 專案」 |
+| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
+| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」。 |
+| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
 | 共用 | 僅套用至區段。 |
 | 刪除 | 僅套用至區段。 |
 
