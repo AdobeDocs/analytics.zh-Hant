@@ -2,7 +2,7 @@
 description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admin Console。
 title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 > [!NOTE] 如果未透過 Experience Cloud 登入的管理員嘗試存取「使用者 ID 移轉」工具，系統會將他們重新導向至 Experience Cloud 登入頁面。
 
-**移轉 Analytics 使用者:**
+**移轉 Analytics 使用者：**
 
-1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 使用者 ID 移轉」]**。
+1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者 ID 移轉」]**。
 
    ![](assets/migration-progress.png)
 
@@ -61,11 +61,11 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
    <tbody> 
    <tr> 
       <td colname="col1"> <p>網域 </p> </td> 
-      <td colname="col2"> <p>網域必須是目前 Analytics 使用者群的電子郵件 ID 所專屬。網域只能由單一組織申請，而且只有系統管理員可以申請網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">要求已申請之網域的存取權</a>。 </p> </td> 
+      <td colname="col2"> <p>網域必須是目前 Analytics 使用者群的電子郵件 ID 所專屬。網域只能由單一組織申請，而且只有系統管理員可以申請網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/enterprise/help/request-access-to-claimed-domain.html">要求已申請之網域的存取權</a>。 </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>申請的網域 </p> </td> 
-      <td colname="col2"> <p>若要以 Enterprise 或 Federated ID 移轉使用者，您必須是「系統管理員」，並在移轉使用者前透過 Admin Console 申請可用網域。如需更多詳情，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> <p>如果您不想申請 Enterprise 或 Federated ID 的網域，請跳過此步驟，並以 Adobe ID 移轉使用者。如需有關 ID 類型的詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> </td> 
+      <td colname="col2"> <p>若要以 Enterprise 或 Federated ID 移轉使用者，您必須是「系統管理員」，並在移轉使用者前透過 Admin Console 申請可用網域。如需更多詳情，請參閱<a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">此處</a>。 </p> <p>如果您不想申請 Enterprise 或 Federated ID 的網域，請跳過此步驟，並以 Adobe ID 移轉使用者。如需有關 ID 類型的詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">此處</a>。 </p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -73,11 +73,11 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 1. 找到包含您要移轉之使用者 ID 的網域，然後按一下&#x200B;**[!UICONTROL 「需要移轉」]**&#x200B;底下的&#x200B;**[!UICONTROL 「選取使用者」]**。
 1. 在 [!DNL Users] 頁面中，選取您要移轉的使用者，然後按一下&#x200B;**[!UICONTROL 「移轉」]**。
 
-   按一下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者會收到邀請 (「啟動移轉程序」)，而且必須接受。此動作會將使用者 ID 移動到「完成移轉程序」。You can then turn off their legacy access to `[!DNL my.omniture.com].`
+   按一下&#x200B;**[!UICONTROL 「移轉」]**&#x200B;後，使用者會收到邀請 (「啟動移轉程序」)，而且必須接受。此動作會將使用者 ID 移動到「完成移轉程序」。接著，您就可以關閉 `[!DNL my.omniture.com].` 的舊版存取權
 
    ![](assets/user-info.png)
 
-1. 指定您要移轉使用者的ID類型（Adobe ID或Enterprise ID）
+1. 指定您要移轉使用者的 ID 類型 (Adobe ID 或 Enterprise ID)
 
    移轉使用者後，「移轉狀態」欄下方的狀態會從 *`Not Initiated`* 變更為 *`Migrated`*。
 
