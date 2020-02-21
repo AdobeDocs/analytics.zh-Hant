@@ -3,7 +3,7 @@ description: Adobe 需要事先收到有關新帳戶設定、流量尖峰及流�
 title: 流量增加所需的前置時間
 topic: Admin tools
 uuid: aa3fb882-51b0-458f-917b-7c54d5659623
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -55,10 +55,10 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
  </tbody>
 </table>
 
-其他需要考量的事項包括:
+其他需要考量的事項包括：
 
 * 如果您啟動數個報表套裝，或是予以新增至多達上方所列的數量，他們適用的前置時間會是每位客戶預期流量的總和。
-* 提交流量變更前請準備好以下資訊:
+* 提交流量變更前請準備好以下資訊：
 
    * 報表套裝 ID
    * 每日預估點擊數
