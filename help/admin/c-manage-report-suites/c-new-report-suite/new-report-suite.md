@@ -3,7 +3,7 @@ description: 您可以選取預先定義的範本，或使用其中一個現有�
 title: 新的報表套裝 - 設定
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 建立報表套裝時[所使用元素的說明](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 
-> [!NOTE]附註: [虛擬報表套裝文件](/help/components/vrs/c-workflow-vrs/vrs-create.md)會示範如何建立虛擬報表套裝。
+> [!NOTE]附註：[虛擬報表套裝文件](/help/components/vrs/c-workflow-vrs/vrs-create.md)會示範如何建立虛擬報表套裝。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 預設頁面</span> </td> 
-   <td colname="col2"> <p>(可選) 從遇到的 URL 中移除<span class="wintitle">預設頁面</span>值的發生次數。若您的<span class="wintitle">人氣最高的頁面</span>報表包含 URL 而非頁面名稱，此設定可防止同一網頁出現多個 URL。 </p> <p>例如，URL <span class="filepath">https://mysite.com</span> 和 <span class="filepath">https://mysite.com/index.html</span> 通常是同一頁面。您可移除無關的檔案名稱，以便讓上述兩個 URL 在報表中均顯示為 <span class="filepath">https://mysite.com</span>。 </p> <p>若您未設定此值，則 Analytics 會從 URL 中自動移除下列檔案名稱: <span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 與 <span class="filepath">home.asp</span>。 </p> <p>若要停用檔案名稱移除，請指定一個 URL 中永遠不會出現的「預設頁面」值， </p> </td> 
+   <td colname="col2"> <p>(可選) 從遇到的 URL 中移除<span class="wintitle">預設頁面</span>值的發生次數。若您的<span class="wintitle">人氣最高的頁面</span>報表包含 URL 而非頁面名稱，此設定可防止同一網頁出現多個 URL。 </p> <p>例如，URL <span class="filepath">https://mysite.com</span> 和 <span class="filepath">https://mysite.com/index.html</span> 通常是同一頁面。您可移除無關的檔案名稱，以便讓上述兩個 URL 在報表中均顯示為 <span class="filepath">https://mysite.com</span>。 </p> <p>若您未設定此值，則 Analytics 會從 URL 中自動移除下列檔案名稱：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 與 <span class="filepath">home.asp</span>。 </p> <p>若要停用檔案名稱移除，請指定一個 URL 中永遠不會出現的「預設頁面」值， </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上線日期 </p> </td> 
