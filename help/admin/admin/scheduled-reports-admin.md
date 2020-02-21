@@ -3,7 +3,7 @@ description: 讓管理員層級使用者查看與管理組織中的排程報表�
 title: 排程報表佇列
 topic: Reports
 uuid: 3fcf92d3-a472-465f-ad7a-c48cd9a8238b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 讓管理員層級使用者查看與管理組織中的排程報表。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 排程報表]**
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 排程報告]**」
 
-「排程報表管理員」中的管理層級功能包含:
+「排程報表管理員」中的管理層級功能包含：
 
 * 在組織中[「顯示所有計劃報表」](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)的選項。
 * 組織中的[進階篩選功能](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
@@ -32,7 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 進階篩選功能 {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-例如，如果您要篩選所有排程為每小時執行的報表，可在&#x200B;**[!UICONTROL 「進階」]**&#x200B;篩選器中指定&#x200B;**[!UICONTROL 「頻率等於每小時」]**，然後按一下&#x200B;**[!UICONTROL 「套用」]**:
+例如，如果您要篩選所有排程為每小時執行的報表，可在&#x200B;**[!UICONTROL 「進階」]**&#x200B;篩選器中指定&#x200B;**[!UICONTROL 「頻率等於每小時」]**，然後按一下&#x200B;**[!UICONTROL 「套用」]**：
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
