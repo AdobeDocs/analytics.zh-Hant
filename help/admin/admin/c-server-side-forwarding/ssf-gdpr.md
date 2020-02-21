@@ -20,15 +20,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 伺服器端轉送是雙向的，這代表當其適用於點擊，而系統將該點擊轉送至 AAM 時，Audience Analytics 會從 AAM 接收到該點擊的區段資訊，並將該資訊傳送回 Analytics。如此一來，任何非從 Analytics 伺服器端轉送至 AAM 的點擊，將不會加入 AAM 的 ID 區段清單。因此，將會存在不會從 AAM 取得區段 ID 資訊的流量/點擊子集。
 
-## 實施詳細資料 {#section_FFA8B66085BF469FAB5365C944FE38F7}
+## 實作詳細資料 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
-請根據您的實施方法，遵循下列步驟。
+請根據您的實作方法，遵循下列步驟。
 
-| 實施方法 | 步驟 |
+| 實作方法 | 步驟 |
 |--- |--- |
-| Adobe Experience Platform Launch | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的上下文資料變數定義加到自訂程式碼編輯器: <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意: 若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。如果客戶同意目標式行銷，請將 `contextdata` 變數設為&#x200B;*「0」*。 |
-| DTM | 將內容變數定義新增至自訂頁面程式碼編輯器:  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意: 若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
-| AppMeasurement | 將內容資料變數定義新增至 AppMeasurement.js 檔案:    <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意: 若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
+| Adobe Experience Platform Launch | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的上下文資料變數定義加到自訂程式碼編輯器： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> 注意： 若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。如果客戶同意目標式行銷，請將 `contextdata` 變數設為&#x200B;*「0」*。 |
+| DTM | 將內容變數定義新增至自訂頁面程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
+| AppMeasurement | 將內容資料變數定義新增至 AppMeasurement.js 檔案：  <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
 ## 報表 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
@@ -36,12 +36,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 若要設定此類型報表，請將新的內容變數，透過處理規則對應至自訂流量變數 (prop)。若要這麼做
 
-1. 請實施「cm.ssf」變數 (如上所示)。
+1. 請實作「cm.ssf」變數 (如上所示)。
 1. [啟用 prop。](/help/admin/admin/c-traffic-variables/traffic-var.md)
 1. 使用處理規則將內容變數對應至 prop。
 
-   1. 前往&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 報表套裝」]**，然後選取報表套裝。
-   1. 依序按下&#x200B;**[!UICONTROL 「編輯報表套裝]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 處理規則」]**。
+   1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝」]**，然後選取報表套裝。
+   1. 依序按下&#x200B;**[!UICONTROL 「編輯報表套裝]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則」]**。
    1. 按一下&#x200B;**[!UICONTROL 「新增規則」]**。
    1. 在&#x200B;**[!UICONTROL 「一律執行」]**&#x200B;下，以上下文變數「cm.ssf(Context Data)」覆寫已啟用的 prop 值。
    1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
