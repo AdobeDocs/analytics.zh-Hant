@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 還原和重做設定
 
-**[!UICONTROL Workplace]** &gt; **[!UICONTROL 專案]** &gt; **[!UICONTROL 還原/重做]**
+**[!UICONTROL 「Workplace]** > **[!UICONTROL 專案]** > **[!UICONTROL 還原/重做」]**
 
 * **[!UICONTROL 「重做」]**&#x200B;選項 (重做還原動作) 在&#x200B;**[!UICONTROL 「編輯」]**&#x200B;功能表內。
 
@@ -20,7 +20,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 您可以還原/重做對於報表套裝的變更。
 * 專案名稱附近會顯示還原/重做訊息，其中會顯示進行中的還原或重做動作時間。
-* 您可以使用以下[快速鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md):
+* 您可以使用以下[快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)：
 
    * Ctrl (Cmd) + Z 為還原
    * Ctrl (Cmd) + Shift + Z 為重做
@@ -36,7 +36,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 報表套裝選取
 * 新增/移除視覺效果
 * 摺疊/展開面板或視覺效果
-* 使用快速鍵 (Ctrl [Cmd] + Z 為還原)、(Ctrl [Cmd] + Shift + Z 為重做) 插入
+* 使用快捷鍵 (Ctrl [Cmd] + Z 為還原)、(Ctrl [Cmd] + Shift + Z 為重做) 插入
 * 插入面板
 * 以滑鼠右鍵按一下面板選項 (「複製面板」、「摺疊所有面板」、「展開所有面板」、「摺疊面板中的所有視覺效果」、「展開面板中的所有視覺效果」、「編輯面板描述」)
 * 變更為自由面板
