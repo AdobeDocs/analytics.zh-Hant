@@ -3,7 +3,7 @@ description: 定義提供服務和產品 (這些服務和產品通常透過未�
 title: 銷售機會開發
 topic: Admin tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
