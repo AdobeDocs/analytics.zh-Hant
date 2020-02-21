@@ -3,7 +3,7 @@ description: 列出即時報告支援的量度和維度。如果您已定義分�
 title: 支援的即時量度和維度
 topic: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
