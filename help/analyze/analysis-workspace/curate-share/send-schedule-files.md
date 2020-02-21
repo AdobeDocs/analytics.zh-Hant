@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 您可以立即共用及組織專案，並傳送專案檔案 (以 PDF 或 CSV 格式)，或依排程進行。
 
-**[!UICONTROL 「Workplace]** &gt; **[!UICONTROL 共用」]**
+**[!UICONTROL 「Workplace]** > **[!UICONTROL 共用」]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
