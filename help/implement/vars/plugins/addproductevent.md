@@ -2,7 +2,7 @@
 title: addProductEvent
 description: 新增自訂事件至產品和事件變數。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -35,8 +35,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 該方 `addProductEvent` 法使用以下引數：
 
-* **`en`**（必要，字串）:要新增至變數中最後一個項目的`products`事件。 如果變`products`數為空，則會建立「空白」產品項目，並附加事件（及其值）。
-* **`ev`**（必要，字串）:在引數中指派給數值或貨幣事件的`en`值。  預設為`1`未設定時。
-* **`ap`**（可選，布林）:如果產品變數目前包含多個產品項目，則值(`true`或`1`)會將事件新增至所有產品項目。  預設為`false`未設定時。
+* **`en`** （必要，字串）:要新增至變數中最後一個項目的 `products` 事件。 如果變 `products` 數為空，則會建立「空白」產品項目，並附加事件（及其值）。
+* **`ev`** （必要，字串）:在引數中指派給數值或貨幣事件的 `en` 值。  預設為 `1` 未設定時。
+* **`ap`** （可選，布林）:如果產品變數目前包含多個產品項目，則值( `true` 或 `1`)會將事件新增至所有產品項目。  預設為 `false` 未設定時。
 
 它 `addProductEvent` 不傳回。 而是將事件及其值新增至變 `products` 數。 此外掛程式也會自動將事件新增至變 `events` 數，因為此處也需要它。
 
@@ -75,126 +75,66 @@ addProductEvent外掛程式不會建立或使用任何Cookie
 
 ### 範例#1
 
-若...
+下列程式碼會將變 `s.products` 數設為 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`。
 
 ```js
 s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-s.events="purchase"
-```
-
-...下列程式碼會執行……
-
-```js
+s.events="purchase";
 s.addProductEvent("event35", "25");
 ```
 
-...s.products的最終值為：
-
-```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25;event35=25"
-```
-
-...而s.events的最終值將是：
-
-```js
-s.events="purchase,event35"
-```
+上述程式碼也會將變 `s.events` 數設為 `"purchase,event35"`
 
 ### 範例#2
 
-若...
+下列程式碼將變數 `s.products` 設為 `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
 ```js
-s.products=";product1;3;300,;product2;2;122,;product3;1;25"
-```
-
-...下列程式碼會執行……
-
-```js
+s.products=";product1;3;300,;product2;2;122,;product3;1;25";
 s.addProductEvent("event35", 25, 1);
 ```
 
-...s.products的最終值為：
-
-```js
-s.products=";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"
-```
-
-當第三個引數等於true（或1）時，每個產品項目都會將呼叫中指定的事件新增至其值
+當呼叫中的第三個引 `addProductEvent` 數為 `true` (或 `1`)時，每個產品項目都會將呼叫中指定的事件新增至其值。
 
 ### 範例#3
 
-若...
+下列程式碼將變數 `s.products` 設為 `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
 ```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
-s.events="purchase,event2"
-```
-
-...下列程式碼會執行……
-
-```js
+s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25";
+s.events="purchase,event2";
 s.addProductEvent("event33", "12");
 s.addProductEvent("event34", "10");
 s.addProductEvent("event35", "15");
 ```
 
-...s.products的最終值……
-
-```js
-s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"
-```
-
-...和s.events將設定如下：
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+上述程式碼也會將變 `s.events` 數設為 `"purchase,event2,event33,event34,event35"`
 
 ### 範例#4
 
-若...
+下列程式碼將變數 `s.products` 設為 `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
 ```js
 s.products=";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25"
 s.events="purchase,event2"
-```
-
-...下列程式碼會執行……
-
-```js
 s.addProductEvent("event33", "12", 1);
-s.addProductEvent("event34", 10, 1); //The second argument can be an integer or a string representing an integer/number
+s.addProductEvent("event34", 10, 1);
 s.addProductEvent("event35", "15", 1);
 ```
 
-...s.products的最終值……
+上述程式碼也會將變 `s.events` 數設為 `"purchase,event2,event33,event34,event35"`。
 
-```js
-s.products=";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"
-```
-
-...和s.events將設定如下：
-
-```js
-s.events="purchase,event2,event33,event34,event35"
-```
+> [!NOTE] 呼叫中的第二個引數可以是整數 **** ，或代表整數／數字的字串
 
 ### 範例#5
 
-如果未設定s.products，並執行下列程式碼……
+如 `s.products` 果尚未設定，下列程式碼會將它設定為 `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
 ```
 
-...s.products的最終值為：
-
-```js
-s.products=";;;;event35=25"
-```
-
-在此情況下，event35也會附加至s.events的結尾
+上述程式碼也會附 `"event35"` 加至結 `s.events` 尾 **，若尚未設定，**&#x200B;上述程式碼會設定 `s.events``s.events` 為 `"event35"`
 
 ## 版本記錄
 
