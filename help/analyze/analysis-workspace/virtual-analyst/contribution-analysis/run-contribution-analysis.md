@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 執行貢獻分析 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
-在專案中叫用貢獻分析有兩個分法:
+在專案中叫用貢獻分析有兩個分法：
 
 * 在設有每日粒度的自由表格中，以滑鼠右鍵按一下任一列並選取&#x200B;**[!UICONTROL 「執行貢獻分析」]**。您甚至可以在未顯示異常的列上執行貢獻分析。
 
@@ -31,17 +31,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 1. (選擇性) 在線性圖或表格中按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**&#x200B;後，您可藉由[排除維度](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC)來縮小分析範圍 (並加快分析速度)。
 
 1. 等候貢獻分析載入。取決於您報表套裝的大小以及維度數目，這可能需要相當長的時間。貢獻分析會對每個維度的前 50,000 個項目執行分析。
-1. Analysis Workspace 隨後會在此專案內直接載入新的「貢獻分析」面板。如果您曾在「Reports &amp; Analytics」中使用過「貢獻分析」，您會發現很多面板都很熟悉:
+1. Analysis Workspace 隨後會在此專案內直接載入新的「貢獻分析」面板。如果您曾在「Reports &amp; Analytics」中使用過「貢獻分析」，您會發現很多面板都很熟悉：
 
    * 顯示當天「**造訪**」數的視覺效果。
    * 上下文的每月「**造訪趨勢線**」。
    * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_contribution_score.html)排序)，加上相關量度，以及「獨特訪客」量度，以從規模觀點來將量度放在上下文中。
 
-   * 「[產生的區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_workflow_premium.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目:
+   * 「[產生的區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_workflow_premium.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
 
       ![](assets/auto_segment.png)
 
-1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵功能表運用它的多個功能，讓您的分析結果更具意義，例如:
+1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵功能表運用它的多個功能，讓您的分析結果更具意義，例如：
 
    * [依據另一個維度劃分每個維度項目。](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [顯示一或多列的趨勢。](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
