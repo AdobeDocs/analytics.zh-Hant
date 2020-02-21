@@ -33,5 +33,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 任何可監控瀏覽器發出之 HTTP 請求的工具，均可顯示 AppMeasurement 和訪客 API 程式碼的版本號碼。`AppMeasurement_Module_AudienceManagement.js` 不會包含或傳回版本 ID。下列範例說明版本 ID 在 `AppMeasurement.js` 和 `VisitorAPI.js` 程式碼中的表示方式。
 
-* `AppMeasurement.js`: [Adobe 除錯程式](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/debugger.html)傳回的 AppMeasurement 版本如下: `Version of Code | JS-1.5.1`。其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
-* `VisitorAPI.js`: 搜尋 `d_visid_ver` 參數。此參數會以下列方式顯示訪客 ID 服務: `d_visid_ver: 1.5.5`。早於 1.5.2 版的訪客 API 程式碼不包含版本號碼。如果您的監控結果沒有傳回版本號碼，則您可能是使用舊版程式碼庫 (且必須升級)。
+* `AppMeasurement.js`：[Adobe 除錯程式](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/debugger.html)傳回的 AppMeasurement 版本如下： `Version of Code | JS-1.5.1`。其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
+* `VisitorAPI.js`：搜尋 `d_visid_ver` 參數。此參數會以下列方式顯示訪客 ID 服務：`d_visid_ver: 1.5.5`。早於 1.5.2 版的訪客 API 程式碼不包含版本號碼。如果您的監控結果沒有傳回版本號碼，則您可能是使用舊版程式碼庫 (且必須升級)。
