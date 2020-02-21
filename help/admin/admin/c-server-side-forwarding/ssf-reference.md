@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 |--- |--- |
 | 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。其顯示為  `host name .demdex.net`。請參閱瞭解向 Demdex 網域進行的呼叫。 |
 | User-Agent | 設為傳入 Analytics 的 User-Agent 標題。 |
-| X-Original-User-Agent | 只有當替代的使用者代理是由以下其中一個標題指定時，才會設定: </br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
+| X-Original-User-Agent | 只有當替代的使用者代理是由以下其中一個標題指定時，才會設定：</br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
 | X-Forwarded-For | 設為提出請求之用戶端的 IP 位址。Analytics 會剖析好傳入的 `X-Forwarded-For` 標題，並判別要使用的正確 IP 位址。 |
 | Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 |
 | Referer | 設為傳入 Analytics 或從傳入 Analytics 的 Referer 標題所收集的頁面 URL。 |
@@ -49,23 +49,23 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | c_channel | 由 s.channel 設定。 |
 | c_clientDateTime | 時間戳記格式為 dd/mm/yyy hh:mm:ss W TZ。TZ 的單位為分鐘，且符合 Date.getTimezoneOffset 方法的回傳。 |
 | c_colorDepth | 指定為 16 or 32 位元色彩。 |
-| c_connectionType | 指定連線類型。選項包括: <ul><li>數據機</li><li>LAN</li></ul> |
-| c_contextData.* | 範例:<ul><li>AppMeasurement: s.contextData</li><li>["category"] = "news";</li><li>訊號: c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括: 是、否、未知 |
+| c_connectionType | 指定連線類型。選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
+| c_contextData.* | 範例：<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>訊號：c_contextData.category=news</li></ul> |
+| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括：是、否、未知 |
 | c_currencyCode | 用於交易的貨幣類型。 |
 | c_evar# | 自訂 eVar。 |
 | c_events | 由 s.events 設定。 |
 | c_hier# | 自訂階層變數。 |
-| c_javaEnabled | 指定 Java 是否可啟用。選項包括: 是、否、未知 |
+| c_javaEnabled | 指定 Java 是否可啟用。選項包括：是、否、未知 |
 | c_javaScriptVersion | 瀏覽器支援的 JavaScript 版本。 |
 | c_latitude | 數值緯度。 |
-| c_linkClick | 選項包括: 自訂，下載退出 |
+| c_linkClick | 選項包括：自訂，下載退出 |
 | c_linkCustomName | 為連結提供的自訂名稱 (若有)。 |
 | c_linkDownloadURL | 下載連結的 URL。 |
 | c_linkExitURL | 退出連結 URL。 |
 | c_list# | 自訂清單變數。 |
 | c_longitude | 數值經度。 |
-| c_mediaPlayerType | 適用於媒體串流追蹤請求。選項包括:    其他，Primetime |
+| c_mediaPlayerType | 適用於媒體串流追蹤請求。選項包括：  其他，Primetime |
 | c_pageName | 頁面名稱 (若有設定)。 |
 | c_pageURL | 瀏覽器網址列中的頁面位址。 |
 | c_products | 產品字串 (由 s.products 設定)。 |
