@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理工具
 
-**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 管理員」]**
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員」]**
 
 >[!IMPORTANT] 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
 
