@@ -3,7 +3,7 @@ description: 定義彙總內容之網站 (如新聞入口網站) 的一般設定
 title: 整合入口網站
 topic: Admin tools
 uuid: d227c209-4d88-4eff-b126-994b2a179c51
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
