@@ -10,7 +10,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 # ID 擴增
 
-您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求):
+您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求)：
 
 ```
 "expandIds": true
@@ -28,7 +28,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID 擴增 </p> </td> 
-   <td colname="col2"> <p>許多 Analytics 客戶原本使用 (舊版) <a href="https://marketing.adobe.com/resources/help/zh_TW/whitepapers/cookies/cookies_analytics.html">Analytics Cookie</a>，現在則使用原稱為 Marketing Cloud ID 服務 (MCID) 的<a href="https://marketing.adobe.com/resources/help/zh_TW/mcvid/">身分識別服務 (ECID)</a>。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。不過，對於初次造訪時網站只使用舊版 Cookie 而後再訪的使用者: 有些資料會兩種 Cookie 都有，而較舊的資料只會有 Analytics Cookie，在極少數情況下，最新的資料則可能只有 ECID。 </p> <p>您希望確保您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。因此，若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 expandIds 選項。當您指定 expandIds 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 </p> </td> 
+   <td colname="col2"> <p>許多 Analytics 客戶原本使用 (舊版) <a href="https://marketing.adobe.com/resources/help/zh_TW/whitepapers/cookies/cookies_analytics.html">Analytics Cookie</a>，現在則使用原稱為 Marketing Cloud ID 服務 (MCID) 的<a href="https://marketing.adobe.com/resources/help/zh_TW/mcvid/">身分識別服務 (ECID)</a>。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。不過，對於初次造訪時網站只使用舊版 Cookie 而後再訪的使用者：有些資料會兩種 Cookie 都有，而較舊的資料只會有 Analytics Cookie，在極少數情況下，最新的資料則可能只有 ECID。 </p> <p>您希望確保您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。因此，若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 expandIds 選項。當您指定 expandIds 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂 ID 至 Cookie ID 擴增 </p> </td> 
@@ -37,7 +37,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
  </tbody> 
 </table>
 
-在資料隱私權施行的最初幾個月期間，絕大部分的 Analytics 資料隱私權請求不會請求 ID 擴增，但是否要為組織決定適當的值取決於您。您應向法務團隊諮詢具您所使用之 ID 的資料，以及在 Adobe Analytics 內收集的資料，是否需要 ID 擴增。主要考量應為在共用裝置上，已有多位使用者造訪網站，使用 ID 擴增會在存取請求傳回的資料中，納入該裝置其他使用者的點擊資料 (位於裝置檔案中)。即使您已遵照標籤的最佳作法，例如裝置檔案中不會納入私人資料 (如造訪的頁面)，裝置檔案仍會包含造訪頁面數和每次造訪的時間。可以與可能還不是訪客的人士共用此資訊嗎?
+在資料隱私權施行的最初幾個月期間，絕大部分的 Analytics 資料隱私權請求不會請求 ID 擴增，但是否要為組織決定適當的值取決於您。您應向法務團隊諮詢具您所使用之 ID 的資料，以及在 Adobe Analytics 內收集的資料，是否需要 ID 擴增。主要考量應為在共用裝置上，已有多位使用者造訪網站，使用 ID 擴增會在存取請求傳回的資料中，納入該裝置其他使用者的點擊資料 (位於裝置檔案中)。即使您已遵照標籤的最佳作法，例如裝置檔案中不會納入私人資料 (如造訪的頁面)，裝置檔案仍會包含造訪頁面數和每次造訪的時間。可以與可能還不是訪客的人士共用此資訊嗎？
 
 若為刪除請求，由於這種請求並未使用 ID 擴增，若您使用非 Cookie ID (非 ECID 或 Analytics Cookie 的 ID) 來找出應刪除的點擊，且該 ID 具有 ID-DEVICE 標籤，則報表中的不重複訪客計數會有所改變，這是因為 Cookie ID 只有部分例項會匿名，其餘例項皆不會變更。若您未指定 ID 擴增，則建議您將 Cookie ID 用於請求，或使用具有 ID-PERSON 標籤的 ID。
 
@@ -45,7 +45,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## 其他資料隱私權請求標記
 
-除了「expandIDs」標記，Analytics 支援其他兩種標記，可以包含在資料隱私權請求中一併傳入。這些標記和其預設值如下:
+除了「expandIDs」標記，Analytics 支援其他兩種標記，可以包含在資料隱私權請求中一併傳入。這些標記和其預設值如下：
 
 ```
 "analyticsDeleteMethod": "anonymize"
