@@ -2,7 +2,7 @@
 description: 'null'
 title: Advertising Analytics 概觀
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,27 +10,27 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # Advertising Analytics 概觀
 
-Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以前，任何Google AdWords/DFA或Microsoft Bing Ads資料都必須在Adobe Advertising Cloud(AMO)或Google/Bing中檢視。 現在，您可以在 Adobe Analytics 中，直接透過搜尋引擎以及 AMO ID 實例 (按一下實例) 獲得以下資料: 曝光數、點選次數、成本、品質分數和平均位置。
+Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。現在，您可以在 Adobe Analytics 中直接利用搜尋引擎及 AMO ID 實例 (按一下實例)，取得以下資料：曝光數、點選次數、成本、品質分數和平均位置。
 
-> [!NOTE] Yahoo Gemini於2019年3月31日被Microsoft Bing吸收。 因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。
+> [!NOTE] Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。
 
-我們將來自這些搜尋引擎的資料全都帶到 Adobe Analytics 中，以便您運用 Analysis Workspace 的強大功能分析相同的資料。新的[Workspace 付費搜尋績效](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)範本有助於進行此分析。
+我們將來自這些搜尋引擎的資料全都帶到 Adobe Analytics 中，以便您運用 Analysis Workspace 的強大功能分析相同的資料。新的 [Workspace 付費搜尋績效](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)範本有助於進行此分析。
 
 ![](assets/aa_aw.png)
 
-以下是這次整合鎖定的目標對象:
+以下是這次整合鎖定的目標對象：
 
 * 需要為付費搜尋行銷人員收集績效報告的&#x200B;**分析人員**。
-* 想要瞭解向自己網站傳送多少流量以及客戶轉換率的&#x200B;**付費搜尋行銷人員**。我有哪些符合成本效益的廣告促銷活動?
+* 想要了解向自己網站傳送多少流量以及客戶轉換率的&#x200B;**付費搜尋行銷人員**。我有哪些符合成本效益的廣告促銷活動？
 
 ## 必備條件 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
-* Advertising Analytics 只適用於 Adobe Analytics [Select](https://www.adobe.com/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/data-analytics-cloud/analytics/prime.html) 及 [Ultimate](https://www.adobe.com/data-analytics-cloud/analytics/ultimate.html) 的 SKU。
+* Advertising Analytics 只適用於 Adobe Analytics [Select](https://www.adobe.com/tw/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics/prime.html) 及 [Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics/ultimate.html) 的 SKU。
 
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
 * 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
-* Any Analytics report suite where you want to view Google/Bing search data has to be [mapped to your Experience Cloud organization](https://marketing.adobe.com/resources/help/en_US/mcloud/report-suite-mapping.html).
-* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL Advertising Analytics Configuration]**).
+* 無論您要在任何 Analytics 報表套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://marketing.adobe.com/resources/help/zh_TW/mcloud/report-suite-mapping.html)。
+* 針對您要檢視 Google/Bing 搜尋資料的任何報表套裝，請[啟用 Advertising Analytics 報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL 「管理員]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**)。
 
 * 若要將搜尋帳戶整合至 Adobe Analytics，您需要擁有具備編輯權限之帳戶的使用者登入憑證，例如 Google 帳戶 ID 和密碼。
 * 若是 Bing 廣告，則需要使用 Bing 客戶 ID。
@@ -73,14 +73,14 @@ Advertising Analytics 將以下維度和量度新增至 Analysis Workspace、Rep
 
 >[!IMPORTANT]
 >
->此整合會透過AMO ID變數的分類建立新的維度集。 這些新建立的維度並不會影響或修改您現有的行銷管道或宣傳活動追蹤變數維度。當訪客從付費搜尋廣告登陸網站時，AMO ID 便會連結到訪客的個人資料。在這種情況下，AMO 維度可用來劃分此整合提供的 AMO 量度以及訪客於下游擷取的任資料 (造訪次數、訪客數、頁面檢視次數、反彈率、訂單、收入、自訂事件等等)。在報告其他站上量度時，也可以透過其他維度劃分這些資料。
+>這次整合會透過 AMO ID 變數的分類，建立一組新的維度。這些新建立的維度並不會影響或修改您現有的行銷管道或宣傳活動追蹤變數維度。當訪客從付費搜尋廣告登陸網站時，AMO ID 便會連結到訪客的個人資料。在這種情況下，AMO 維度可用來劃分此整合提供的 AMO 量度以及訪客於下游擷取的任資料 (造訪次數、訪客數、頁面檢視次數、反彈率、訂單、收入、自訂事件等等)。在報告其他站上量度時，也可以透過其他維度劃分這些資料。
 >
 >這些量度的分類會每天更新。因此，如果您在搜尋引擎內變更中繼資料，您可能要在分類更新後翌日才能看到這些變更內容。
 
 | 分類 (維度) 名稱 | 定義 |
 |--- |--- |
-| 關鍵字比對類型 (AMO ID) | 關鍵字比對類型。值通常會是「廣泛」、「詞組」或「完全」；如果廣告類型沒有比對類型，則沒有值。 |
-| 廣告平台 (AMO ID) | 搜尋引擎名稱。值可以包含Google adWords或Microsoft Bing廣告。 |
+| 關鍵字比對類型 (AMO ID) | 關鍵字比對類型。值通常會是廣泛、確切的詞句；如果沒有符合類型的廣告類型，則沒有值。 |
+| 廣告平台 (AMO ID) | 搜尋引擎名稱。值可以包括 Google AdWords 或 Microsoft Bing Ads。 |
 | 帳戶 (AMO ID) | 受追蹤搜尋引擎帳戶的名稱。 |
 | 宣傳活動 (AMO ID) | 在搜尋引擎帳戶中的宣傳活動名稱。 |
 | 廣告群組 (AMO ID) | 在搜尋引擎中的廣告群組名稱。 |
@@ -92,7 +92,7 @@ Advertising Analytics 將以下維度和量度新增至 Analysis Workspace、Rep
 | 廣告說明 (AMO ID) | 廣告中使用的廣告說明物件。 |
 | 廣告顯示 URL (AMO ID) | 廣告中使用的廣告顯示 URL 物件。 |
 | 廣告目的地 URL (AMO ID) | 指派給廣告的登陸頁面 URL 或最終 URL。 |
-| 網路 (AMO ID) | 正在投放廣告的網路。對於廣告分析，此值一律為「搜尋」。 |
+| 網路 (AMO ID) | 正在投放廣告的網路。若為 Advertising Analytics，此值一律為「Search」。 |
 | 版位 (AMO ID) | 託管式版位網站 (內容網路用)。僅託管式版位會使用此維度。 |
 | 產品目標 (AMO ID) | 用於 PLA 廣告的產品目標名稱 (非購買的實際產品)。 |
 | 最佳化 (AMO ID) | Advertising Analytics 不使用。僅 Advertising Cloud 客戶會使用。 |
@@ -102,7 +102,7 @@ Advertising Analytics 將以下維度和量度新增至 Analysis Workspace、Rep
 
 >[!IMPORTANT]
 >
->廣告分析提供的量度（列於下方）是來自搜尋引擎的摘要層級資料。 這些量度並未連結到 Analytics 訪客個人資料，而是只連結到 AMO ID 變數及其相關聯的分類維度。在這種情況下，除了依據 AMO ID 維度的量度外，這些量度都不應由任何維度/區段進行報告。這樣做會導致 Analytics 將資料顯示為零。您可以將其與其他量度一併加入計算量度中，但這些計算量度僅應由 AMO ID 維度劃分。
+>Advertising Analytics 提供的量度 (如下所示) 屬於搜尋引擎的摘要層級資料。這些量度並未連結到 Analytics 訪客個人資料，而是只連結到 AMO ID 變數及其相關聯的分類維度。在這種情況下，除了依據 AMO ID 維度的量度外，這些量度都不應由任何維度/區段進行報告。這樣做會導致 Analytics 將資料顯示為零。您可以將其與其他量度一併加入計算量度中，但這些計算量度僅應由 AMO ID 維度劃分。
 >
 >這些量度採用的是每日所得的資料，因此不會有當日的資料。此外，這些量度的報告精細度也不應少於每日報告一次。
 >
