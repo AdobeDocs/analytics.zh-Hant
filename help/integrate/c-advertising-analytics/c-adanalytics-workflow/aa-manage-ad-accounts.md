@@ -2,7 +2,7 @@
 description: 'null'
 title: 管理 Advertising 帳戶
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 管理 Advertising 帳戶
 
-You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **[!UICONTROL Advertising Accounts]**.
+若要存取管理使用者介面，您可以導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL Advertising 帳戶」]**。
 
 ![](assets/manage_ad_accounts.png)
 
@@ -24,7 +24,7 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>動作</b> </p> </td> 
-   <td colname="col2"> <p><b>注意：只有在您至少選取了一個廣告帳戶時，才會顯示動作。 </b> </p> </td> 
+   <td colname="col2"> <p><b>注意：唯有當您選取至少一個廣告帳戶時，畫面才會顯示「動作」。</b> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>+ 新增 </p> </td> 
@@ -56,18 +56,18 @@ You can access the Management UI by navigating to **[!UICONTROL Admin]** &gt; **
   </tr> 
   <tr> 
    <td colname="col1"> <p>類型 </p> </td> 
-   <td colname="col2"> <p>我們目前只支援一種類型: 搜尋。 </p> </td> 
+   <td colname="col2"> <p>我們目前只支援一種類型：搜尋。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳戶 </p> </td> 
-   <td colname="col2"> <p>列出2種支援的帳戶類型之一：Google Adwords或Bing廣告。 </p> </td> 
+   <td colname="col2"> <p>列出 2 種支援帳戶類型的其中一種：Google Adwords 或 Bing Ads。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>狀態 </p> </td> 
-   <td colname="col2"> <p>狀態指標有 2 種: </p> 
+   <td colname="col2"> <p>狀態指標有 2 種： </p> 
     <ul id="ul_376263DEF6EE44B48564D272D3CBFCBC"> 
-     <li id="li_75E329B68B4D4E929E227E717C993082"><b>作用中</b>: 帳戶目前正常提取搜尋資料。 </li> 
-     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>已暫停</b>: 帳戶目前已停用，因此未提取搜尋資料。 </li> 
+     <li id="li_75E329B68B4D4E929E227E717C993082"><b>作用中</b>：帳戶目前正常提取搜尋資料。 </li> 
+     <li id="li_5E2DF98B22D34437A2A2C93F996C1EA2"><b>已暫停</b>：帳戶目前已停用，因此未提取搜尋資料。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
