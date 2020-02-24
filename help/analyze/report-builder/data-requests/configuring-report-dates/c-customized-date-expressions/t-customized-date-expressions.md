@@ -4,7 +4,7 @@ title: 自訂日期運算式 - 概觀
 topic: Report builder
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 translation-type: tm+mt
-source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
+source-git-commit: 4f879bc347656bc442108a5174be26efa171d7e3
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9e1fdd7785b7323e4f667eab58a1f107272493f0
 
 1. 啟用 **[!UICONTROL Customize Expression]**. 透過選取下方的選 **[!UICONTROL Rolling Dates]**&#x200B;項，您可以輕鬆查看自訂日期運算式的語法。
 
-   ![](assets/rolldates5.png)
+   ![](assets/rolldatesfor5.png)
 
    您可以使用「進階選項」來混合和比對自訂日期運算式。 例如，如果您想查看從年初到上個完整月月底的資料，他們可以寫下列：寄件者：cy To:cm-1d 您可在精靈中看到，它會確認這些日期為1/1/2020-1/31/2020。
 
    例如，如果您將上述日期變更為每月滾動，從三個月前的第一天起至本月的第一天，預先選項部分中的日期會自行更新，以反映：
 
-   ![](assets/rolldates3.png)
+   ![](assets/rolldatesfor3.png)
 
