@@ -4,7 +4,7 @@ title: Activity Map 概觀
 topic: Activity map
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 translation-type: tm+mt
-source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
+source-git-commit: 59e1bc7644a02c6cafbb7d7833d1cc9bd157b9d1
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 69403e37c377ac65a2a1b110e153e18c559421b4
 # Activity Map 概觀
 
 >[!IMPORTANT]
->從2020年1月16日起，Adobe Analytics將開始移至新網域- https://experience.adobe.com/analytics。 此變更可能會在特定情況下導致Activity map停止為某些客戶運作。 如您所知，Activity map會插入iframe的客戶頁面（Activity map工具列的一個iframe和Activity Map底部面板的一個iframe）。 您可能已在網頁上為不包含&quot;。adobe.com&quot;的&quot;frame-src&quot;設定內容安全性原則指令。 在這種情況下，Activity map將停止在此類網頁上運作。
+>2020 年 1 月 16 日，Adobe Analytics 將移至新的網域：https://experience.adobe.com/analytics。這次變更可能會導致 Activity Map 在部分特定情況下停止運作。如您所知，Activity Map 會以 iframe 形式插入客戶頁面 (Activity Map 工具列和 Activity Map 底部面板分別插入一個 iframe)。您可能已在不含「.adobe.com」的「frame-src」網頁上，設定內容安全性原則指令。這種情況下，Activity Map 會停止在此類網頁上運作。
 
 Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，用來監控您網頁的觀眾參與情形。
 
@@ -48,3 +48,4 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [Analytics 中的 Activity Map 報表](activitymap-reporting-analytics.md)
 * [疑難排解瀏覽器延伸模組](troubleshooting-browser-extensions.md)
 * [知識資源](activitymap-info-resources.md)
+
