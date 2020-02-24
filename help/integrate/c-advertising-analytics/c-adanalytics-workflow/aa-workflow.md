@@ -2,7 +2,7 @@
 description: 'null'
 title: 工作流程概觀
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step4_icon.png)[報告 Analytics 的 Advertising 資料](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
 
-注意: 系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬 Adobe Analytics 資料中心當地時區的上午 6 點 (06:00)。這也是收集 AMO 資料和插入報表套裝的時間。該資料接著會轉換為報表套裝的時區，並做為插入資料至 Analytics 的一部分。
+注意：系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬 Adobe Analytics 資料中心當地時區的上午 6 點 (06:00)。這也是收集 AMO 資料和插入報表套裝的時間。該資料接著會轉換為報表套裝的時區，並做為插入資料至 Analytics 的一部分。
 
 下列工具均提供報告功能
 
