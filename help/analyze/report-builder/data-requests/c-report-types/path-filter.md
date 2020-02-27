@@ -3,7 +3,7 @@ description: 說明將篩選條件套用至路徑報表的步驟。
 title: 使用請求精靈篩選路徑報表
 topic: Report builder
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,43 +15,43 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此範例使用網站區域路徑。
 
-1. In Adobe Report Builder, click **[!UICONTROL Create]** to open the Request Wizard.
+1. 在 Adobe Report Builder 中，按一下&#x200B;**[!UICONTROL 「建立」]**&#x200B;以開啟「請求精靈」。
 1. 選擇正確的報表套裝。
-1. In the tree view on the left, select **[!UICONTROL Paths]** &gt; **[!UICONTROL Site Sections]** &gt; **[!UICONTROL Site Section Paths]**.
+1. 在左側的樹狀檢視中，選取&#x200B;**[!UICONTROL 「路徑]** > **[!UICONTROL 網站區域]** > **[!UICONTROL 網站區域路徑」]**。
 
    ![](assets/site_section_path_1.png)
 
 1. 指定適當的日期。
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
-1. In Step 2 of the Wizard, under **[!UICONTROL Row Labels]**, click the **[!UICONTROL Top 1-10 (pattern applied)]** link. 依預設，在路徑報表中，模式皆已套用。
+1. 在精靈的步驟 2 中，按一下&#x200B;**[!UICONTROL 「列標籤」]**&#x200B;底下的&#x200B;**[!UICONTROL 「前 1-10 項 (模式已套用)」]**&#x200B;連結。依預設，在路徑報表中，模式皆已套用。
 
    ![](assets/site_section_path_2.png)
 
-1. Select the **[!UICONTROL Filter]** option.
+1. 選取&#x200B;**[!UICONTROL 「篩選」]**&#x200B;選項。
 
    ![](assets/filter_option.png)
 
-1. In the **[!UICONTROL Define 'Site Section Paths' Path Pattern]** dialog, you can specify
+1. 在&#x200B;**[!UICONTROL 「定義網站區域路徑的路徑模式」]**&#x200B;對話方塊中，您可以指定
    1. 第一份報表的起始排名。
    1. 您希望在此報表中顯示的項目數。
-1. Click **[!UICONTROL Edit]** to define a path pattern.
-1. If you want a custom pattern, drag and drop any **[!UICONTROL Pattern Objects]** from the list on the left into the **[!UICONTROL Pattern Build Canvas]** on the right.
+1. 按一下&#x200B;**[!UICONTROL 「編輯」]**&#x200B;以定義路徑模式。
+1. 如果您想要自訂模式，請將任一&#x200B;**[!UICONTROL 「模式物件」]**&#x200B;從左側清單拖放至右側的&#x200B;**[!UICONTROL 「模式產生器畫布」]**。
 
    ![](assets/custom_pattern.png)
 
-1. You can also select a predefined pattern from the **[!UICONTROL Select a Pattern]** drop-down list and modify it. 可用的模式包括:
+1. 您也可以從&#x200B;**[!UICONTROL 「選取模式」]**&#x200B;下拉式清單中選取預先定義的模式，並加以修改。可用的模式包括：
 
    ![](assets/select_a_pattern.png)
 
-   有些模式只適用於 Report Builder : 登入路徑的下一個項目模式、退出路徑的前一個項目模式、下一個項目模式。
+   有些模式只適用於 Report Builder：登入路徑的下一個項目模式、退出路徑的前一個項目模式、下一個項目模式。
 1. 若要編輯預先定義的模式，
-   1. 請選取模式。For example, select the **[!UICONTROL Exited Site Pattern]**: ![](assets/exited_site_pattern.png)
+   1. 請選取模式。例如，您可以選取&#x200B;**[!UICONTROL 「退出網站模式」]**：![](assets/exited_site_pattern.png)
 
-   1. 現在，您應該定義使用者在退出前所依循的網站區域路徑。Click **[!UICONTROL Specific Item(s): 0 selected]**. 您可以從儲存格範圍 (如果您正在編輯現有的請求) 選取，或是從區段清單選取，以定義此路徑。
-   1. To select from a range of cells from a previous request, select **[!UICONTROL From range of cells]** and click the cell selector icon. Then pick the cells from the report. ![](assets/choose_site_section_paths.png)
+   1. 現在，您應該定義使用者在退出前所依循的網站區域路徑。按一下&#x200B;**[!UICONTROL 「特定項目: 已選取 0 項」]**。您可以從儲存格範圍 (如果您正在編輯現有的請求) 選取，或是從區段清單選取，以定義此路徑。
+   1. 若要從先前請求的儲存格範圍中選取，請選取&#x200B;**[!UICONTROL 「從儲存格範圍」]**，然後按一下儲存格選取器圖示。接著，從報表中選取儲存格。![](assets/choose_site_section_paths.png)
 
-   1. To select from a list of site sections, select **[!UICONTROL From list]** and click **[!UICONTROL Add]**.
-   1. Move elements from the **[!UICONTROL Available Elements]** column to the **[!UICONTROL Selected Elements]** column by selecting them and clicking the orange arrow. The click **[!UICONTROL OK]**. ![](assets/move_site_section_elements.png)
+   1. 若要從網站區域清單選取，請選取&#x200B;**[!UICONTROL 「從清單」]**，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
+   1. 選取元素，然後按一下橘色箭頭，以將元素從&#x200B;**[!UICONTROL 「可用元素」]**&#x200B;欄移至&#x200B;**[!UICONTROL 「選擇的元素」]**&#x200B;欄。按一下&#x200B;**[!UICONTROL 「確定」]**。![](assets/move_site_section_elements.png)
 
-   1. To save the pattern you just established, click **[!UICONTROL Save]**.
-   1. Click **[!UICONTROL OK]** three times and then click **[!UICONTROL Finish]**. 篩選路徑請求便順利產生。
+   1. 若要儲存您剛剛建立的模式，請按一下&#x200B;**[!UICONTROL 「儲存」]**。
+   1. 按三次「**[!UICONTROL 確定]**」，然後按一下&#x200B;**[!UICONTROL 「完成」]**。篩選路徑請求便順利產生。
