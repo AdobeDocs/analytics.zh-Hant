@@ -3,7 +3,7 @@ description: Report Builder 中固定日期的定義。
 title: 請求精靈定義 - 固定日期
 topic: Report builder
 uuid: bd65a312-bab6-46d7-ba30-570777344cc9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 請求精靈定義 - 固定日期
 
-報告建立工具中固定日期的定義。
+Report Builder 中固定日期的定義。
 
 | 欄位 | 定義 |
 |--- |--- |
