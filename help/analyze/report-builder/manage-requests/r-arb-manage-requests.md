@@ -3,7 +3,7 @@ description: Report Builder 中「管理請求」的欄位說明。
 title: 管理請求 - 定義
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,9 +17,9 @@ Report Builder 中「管理請求」的欄位說明。
 
 「[!UICONTROL 請求管理員]」能針對您為所有工作表建立的所有請求，提供詳細狀態檢視，或只提供使用中活頁簿內一份工作表的詳細狀態檢視。您也可以針對含有舊有請求的 Excel 試算表，在可用的儲存格內按一下滑鼠右鍵來新增、編輯、重新整理及刪除請求 (通常是與「[!UICONTROL 請求精靈]」和「[!UICONTROL 請求管理員]」相關的功能)。
 
-按一 [!UICONTROL 下「管理] 」(在「報告建立工具」工具列 ****![](assets/edit_request.gif) 中)時，會顯示「請求管理員」。
+按一下&#x200B;**[!UICONTROL 「管理」]** Report Builder 工具列的 ( ![](assets/edit_request.gif)，畫面會隨即顯示[!UICONTROL 「請求管理員」]。
 
-> [!NOTE] Adobe Report builder只會在相同的工作表內實施請求相依性，而不會跨工作表執行。 將相依性限制在單一工作表中，可確保執行的時效性。
+> [!NOTE] Adobe Report Builder 只會在同一個工作表中執行請求相依性，不會跨工作表執行。將相依性限制在單一工作表中，可確保執行的時效性。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
@@ -53,15 +53,15 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 上一次執行 </p> </td> 
-   <td colname="col2"> <p>指定 Report Builder 上次處理請求的日期。在適當的情況下，另有診斷訊息會出現在此表格的「<span class="wintitle">上一次執行</span>」欄中。 </p> </td> 
+   <td colname="col2"> <p>指定 Report Builder 上次處理請求的日期。在適當的情況下，另有診斷訊息會出現在此表格的<span class="wintitle">「上一次執行」</span>欄中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>新增 </p> </td> 
-   <td colname="col2"> <p>顯示「請求精靈」對話方塊。請參閱 <a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   > 建立資料請求</a>. </p> </td> 
+   <td colname="col2"> <p>顯示「請求精靈」對話方塊。請參閱<a href="/help/analyze/report-builder/data-requests/t-create-a-data-request.md"   >建立資料請求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>編輯 </p> </td> 
-   <td colname="col2"> <p> (或「編輯多項) 編輯選擇的請求。系統會顯示「<span class="wintitle">請求精靈</span>」對話方塊。See <a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   > Edit Multiple Requests</a>. </p> </td> 
+   <td colname="col2"> <p> (或「編輯多項) 編輯選擇的請求。系統會顯示<span class="wintitle">「請求精靈」</span>對話方塊。請參閱<a href="/help/analyze/report-builder/manage-requests/t-edit-multiple-requests.md"   >編輯多項請求</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>刪除 </p> </td> 
@@ -69,7 +69,7 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 選擇全部 </p> </td> 
-   <td colname="col2"> <p>選擇所有請求。「<span class="wintitle">請求管理員</span>」會在請求清單的底部顯示您選擇的請求數量。 </p> </td> 
+   <td colname="col2"> <p>選擇所有請求。<span class="wintitle">「請求管理員」</span>會在請求清單的底部顯示您選擇的請求數量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>從儲存格 </p> </td> 
@@ -77,11 +77,11 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 重新整理 </p> </td> 
-   <td colname="col2"> <p>重新整理單一請求或選擇的請求。(請參閱 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 重新整理請求</a>.) </p> </td> 
+   <td colname="col2"> <p>重新整理單一請求或選擇的請求(請參閱<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >重新整理請求</a>)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新整理清單 </p> </td> 
-   <td colname="col2"> <p>重新整理所有顯示的請求。在重新整理所有請求時，將伺服器中的資訊更新到報表的時間與報表中請求的複雜度成正比。對於規模龐大的報表來說，重新整理所有請求可能需要花費幾分鐘的時間。有鑑於此，您可以先個別更新最迫切的請求，然後等到其他較閒逸的時間再選擇<span class="wintitle">重新整理所有請求</span>。 </p> <p> <p>附註: 在重新整理含有多個請求的工作表時，我們建議您經常到「<span class="wintitle">請求管理員</span>」檢查結果。發生請求失敗時，診斷欄中的錯誤訊息能協助您找出錯誤的來源。當請求失敗時，系統大多時候會顯示錯誤訊息；然而請注意，偶而系統不會產生任何錯誤訊息。您會發現重新整理作業並未更新含參考之儲存格內的資料，或是更新作業移除儲存格內的資料。 </p> </p> </td> 
+   <td colname="col2"> <p>重新整理所有顯示的請求。在重新整理所有請求時，將伺服器中的資訊更新到報表的時間與報表中請求的複雜度成正比。對於規模龐大的報表來說，重新整理所有請求可能需要花費幾分鐘的時間。有鑑於此，您可以先個別更新最迫切的請求，然後等到其他較閒逸的時間再選擇<span class="wintitle">重新整理所有請求</span>。 </p> <p> <p>附註：在重新整理含有多個請求的工作表時，我們建議您經常到<span class="wintitle">「請求管理員」</span>檢查結果。發生請求失敗時，診斷欄中的錯誤訊息能協助您找出錯誤的來源。當請求失敗時，系統大多時候會顯示錯誤訊息；然而請注意，偶而系統不會產生任何錯誤訊息。您會發現重新整理作業並未更新含參考之儲存格內的資料，或是更新作業移除儲存格內的資料。 </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
