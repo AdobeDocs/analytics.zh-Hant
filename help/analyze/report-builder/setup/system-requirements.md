@@ -3,7 +3,7 @@ description: 系統建議與必要條件。
 title: 系統要求
 topic: Report builder
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,6 +20,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 **必備條件**
 
 * 貴組織的合約包含 Excel 專用的 Report Builder。
-* 您的使用者名稱屬於預先定義之 Report Builder 使用者群組的一部分。This requirement includes [!DNL Analytics] administrators.
+* 您的使用者名稱屬於預先定義之 Report Builder 使用者群組的一部分。這項需求包括 [!DNL Analytics] 管理員。
 * 使用者必須執行 Windows 並以管理員身分登入。
 
