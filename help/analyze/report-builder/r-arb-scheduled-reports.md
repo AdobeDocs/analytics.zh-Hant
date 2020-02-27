@@ -3,7 +3,7 @@ description: 「排程任務管理員」的欄位說明。
 title: 排程任務管理員
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,11 +33,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p> 電子郵件/FTP </p> </td> 
-   <td colname="col2"> <p>收件者的電子郵件或 FTP 位址。 </p> <p>注意: 如果選取電子郵件，大於 1 MB 的報表會自動以 .zip 檔案的形式附加至電子郵件。此功能可讓附件檔案維持在較小的大小，而且無法停用。 </p> </td> 
+   <td colname="col2"> <p>收件者的電子郵件或 FTP 位址。 </p> <p>注意：如果選取電子郵件，大於 1 MB 的報表會自動以 .zip 檔案的形式附加至電子郵件。此功能可讓附件檔案維持在較小的大小，而且無法停用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>發佈選項 </p> </td> 
-   <td colname="col2"> <p>如果選取其中一個<a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  >Power BI 發佈選項</a>，此欄將會列出 Power BI。 </p> </td> 
+   <td colname="col2"> <p>如果選取其中一個 <a href="/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md"  >Power BI 發佈選項</a>，此欄將會列出 Power BI。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>排程 </p> </td> 
@@ -49,7 +49,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新啟用 </p> </td> 
-   <td colname="col2"> <p>當排程活頁簿無法執行時，Report Builder 會嘗試每十五分鐘再執行活頁簿兩次。在第三次嘗試失敗後，Report Builder 會停用排程並顯示<span class="wintitle">「重新啟用」</span>按鈕。當您重新啟用活頁簿時，排程的傳送會從成為停用狀態的時間重新啟動。 </p> <p>例如，如果排程的活頁簿在 14 天前停用而您在今天將其重新啟用，它會執行遺漏的每個天數，因此會傳送 14 次。如果您不想要傳送遺漏活頁簿的天數，可以刪除排程活頁簿，然後再使用相同的排程參數建立新的排程活頁簿。 </p> <p> <p>附註: 在瞭解系統停用活頁簿的原因之前，請避免重新啟用活頁簿。其中一個疑難排解的方法是下載停用的活頁簿，然後在用戶端重新整理。如果您未發現任何錯誤，應該就可以重新啟用活頁簿。 </p> </p> </td> 
+   <td colname="col2"> <p>當排程活頁簿無法執行時，Report Builder 會嘗試每十五分鐘再執行活頁簿兩次。在第三次嘗試失敗後，Report Builder 會停用排程並顯示<span class="wintitle">「重新啟用」</span>按鈕。當您重新啟用活頁簿時，排程的傳送會從成為停用狀態的時間重新啟動。 </p> <p>例如，如果排程的活頁簿在 14 天前停用而您在今天將其重新啟用，它會執行遺漏的每個天數，因此會傳送 14 次。如果您不想要傳送遺漏活頁簿的天數，可以刪除排程活頁簿，然後再使用相同的排程參數建立新的排程活頁簿。 </p> <p> <p>附註：了解系統停用活頁簿的原因之前，請避免重新啟用活頁簿。其中一個疑難排解的方法是下載停用的活頁簿，然後在用戶端重新整理。如果您未發現任何錯誤，應該就可以重新啟用活頁簿。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>最後傳送 </p> </td> 
