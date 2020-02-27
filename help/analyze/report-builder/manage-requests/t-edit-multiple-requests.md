@@ -1,9 +1,9 @@
 ---
-description: 您可以根據請求的報表套裝、詳細程度及日期範圍，同時變更數個請求。
+description: 您可以根據請求的報表套裝、粒度及日期範圍，同時變更數個請求。
 title: 編輯多個請求
 topic: Report builder
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,31 +11,31 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 編輯多個請求
 
-您可以根據請求的報表套裝、詳細程度及日期範圍，同時變更數個請求。
+您可以根據請求的報表套裝、粒度及日期範圍，同時變更數個請求。
 
-您可以根據請求的報表套裝、區段、詳細程度及日期範圍，同時變更數個請求。例如，您可以更新報表的參數，使所有請求均以相同的報表套裝或區段為基礎，或將每日報表轉換為每週或每月報表 (假設您保留相同的期間數)。您可以為目前的工作表或試算表的所有工作表，編輯多個請求。
+您可以根據請求的報表套裝、區段、粒度及日期範圍，同時變更數個請求。例如，您可以更新報表的參數，使所有請求均以相同的報表套裝或區段為基礎，或假設您保留相同的期間數，則可以將每日報表轉換為每週或每月報表。您可以為目前的工作表或試算表的所有工作表，編輯多個請求。
 
 **若要編輯多項請求**
 
-1. In Excel, click **[!UICONTROL Manage]**.
+1. 在 Excel 中按一下&#x200B;**[!UICONTROL 「管理」]**。
 
    >[!NOTE]
    >
-   >To edit requests contained in cells of individual worksheets, clear the [!UICONTROL All Sheets] option on the [!UICONTROL Request Manager]. 如果數個工作表中均有請求，預設會勾選此核取方塊。
+   >若要編輯個別工作表中儲存格所含的請求，請清除[!UICONTROL 「請求管理員」]中的[!UICONTROL 「所有工作表」]選項。如果數個工作表中均有請求，預設會勾選此核取方塊。
 
-1. On the [!UICONTROL Request Manager] form, select two or more requests, then click **[!UICONTROL Edit Multiple]**.
+1. 在[!UICONTROL 「請求管理員」]表單中選擇兩個或兩個以上的請求，然後按一下&#x200B;**[!UICONTROL 「編輯多項」]**。
 
-   「[!UICONTROL 編輯多個請求]」表單會顯示資訊欄:「[!UICONTROL 依報表套裝]」、「[!UICONTROL 依區段]」、「[!UICONTROL 依量度]」、「[!UICONTROL 依日期範圍和粒度]」和「[!UICONTROL 依群組]」。
-1. 若要分組請求的顯示，請按一下以下任一選項:
+   [!UICONTROL 「編輯多個請求」]表單會顯示資訊欄：[!UICONTROL 「依報表套裝」]、[!UICONTROL 「依區段」]、[!UICONTROL 「依量度」]、[!UICONTROL 「依日期範圍和粒度」]和[!UICONTROL 「依群組」]。
+1. 若要將畫面顯示的請求分組，請按一下以下任一選項：
 
-   * **依報表套裝:**&#x200B;依照報表套裝分組請求的顯示。
-   * **依區段:**&#x200B;依照區段名稱分組請求。
+   * **依報表套裝**：依報表套裝將畫面上顯示的請求分組。
+   * **依區段**：依區段名稱將請求分組。
 
-      * **選擇區段**: 如果請求不存在區段時顯示。若要新增區段，請按一下&#x200B;**[!UICONTROL 「編輯群組」]**&#x200B;並從[!UICONTROL 「編輯群組」]面板中選取區段。
-   * **** 依量度：請參 [閱編輯多個請求的量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)。
+      * **選擇區段**：沒有任何請求區段時顯示。若要新增區段，請按一下&#x200B;**[!UICONTROL 「編輯群組」]**&#x200B;並從[!UICONTROL 「編輯群組」]面板中選取區段。
+   * **依量度**：請參閱[編輯多個請求的量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)。
 
-   * **依日期範圍和粒度:**&#x200B;依日期範圍和粒度: 依照日期範圍和時間粒度分組請求的顯示。
-   * **依群組:**&#x200B;依照分組的請求集來分組請求的顯示。
+   * **依日期範圍和粒度**：依日期範圍和時間粒度，將畫面上顯示的請求分組。
+   * **依群組**：依分組的請求集，將畫面上顯示的請求分組。
 
 
-1. On the [!UICONTROL Edit Multiple Requests] form, click **[!UICONTROL OK]**.
+1. 按一下[!UICONTROL 「編輯多項請求」]表單中的&#x200B;**[!UICONTROL 「確定」]**。
