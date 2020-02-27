@@ -3,7 +3,7 @@ description: 您可以選擇捷徑功能表中的「剪下請求」，將請求�
 title: 複製相鄰的請求
 topic: Report builder
 uuid: c8abec0d-6fbd-4a98-8672-ede81317487b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 剪下請求會將請求從原始位置移除，當您選擇「[!UICONTROL 貼上請求]」後，可以將它放置在新的位置。在剪下特定的請求後，如果您改變心意決定複製或剪下另一個儲存格內的其他請求，Report Builder 會將第一個請求保留在原始儲存格內，並只針對第二個請求採取行動 (複製或剪下)。
 
-> [!NOTE] 報告建立工具不支援剪下或貼上請求的Excel還原命令。 因此若要剪下請求，請謹慎為之。
+> [!NOTE] 剪下或貼上請求時，Report Builder 不支援 Excel 的「復原」命令。因此若要剪下請求，請謹慎為之。
 
 複製和貼上功能不限於在活頁簿的同一張工作表使用。因此，您可以複製某一張工作表內的請求，然後再貼到同一份活頁簿中其他工作表內的位置。
 
