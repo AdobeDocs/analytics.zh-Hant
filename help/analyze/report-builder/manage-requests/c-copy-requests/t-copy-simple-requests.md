@@ -3,7 +3,7 @@ description: 複製簡單請求而非參考請求。簡單請求是不含其他�
 title: 複製簡單請求
 topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,22 +13,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
 
-A [referential request](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md) uses values from cells as input for parameters, such as a data filter or relational filter. 這些篩選使用比對或趨勢，並且是以先前請求的結果或使用者輸入的儲存格內容 (稱為輸入儲存格) 為基礎。
+[參考請求](/help/analyze/report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)會將儲存格的值視為參數的輸入值，如資料篩選或關聯篩選。這些篩選會使用比對或趨勢，而且會以先前請求的結果或使用者輸入名為輸入儲存格的儲存格內容為基礎。
 1. 建立有效的請求。
 1. 以滑鼠右鍵按一下任一個已映射請求的儲存格，或選擇含請求的儲存格區域。
 
    在請求涵蓋的儲存格群組中選擇要複製的儲存格時，請採用一致的方法。比較適當的選擇是請求涵蓋之儲存格集合中最上方和最左側的儲存格，並且由左向右選擇。這是因為 Excel 試算表中有數百欄和數千列可供向右和向下擴張。如果您決定從請求的相關儲存格集合中最右側或最下方的儲存格開始複製請求，倘若要貼上的儲存格超出試算表左側或上方的邊界，系統將不允許您貼上請求。
-1. Select **[!UICONTROL Copy Request]**.
+1. 選擇&#x200B;**[!UICONTROL 「複製請求」]**。
 1. 在試算表的其他部分中，以滑鼠右鍵按一下空白的儲存格 (不含請求的儲存格)。
 
    為了避免遺失或毀損已建立的請求，您無法將含有請求的儲存格貼上目前與請求映射的儲存格。如果您複製或剪下含有請求的儲存格，當以滑鼠右鍵按一下含請求的儲存格 (或儲存格集合) 時，捷徑功能表將不提供「[!UICONTROL 貼上請求]」選項。您必須為貼上作業選擇其他目標儲存格，以避免請求重疊。不論您選擇單一要貼上請求的儲存格或含有請求的儲存格區域，都應採行此做法。
-1. Click **[!UICONTROL Paste Request]**.
+1. 按一下&#x200B;**[!UICONTROL 「貼上請求」]**。
 
    系統會將原始請求的副本放置在位置與原始請求相對的儲存格內。
 
    >[!NOTE]
    >
-   >僅複製請求，不複製儲存格的內容。 如果您有其他跟請求無關，但與瞭解儲存格中顯示資料相關的資訊 (如表格欄標題或列識別碼)，請使用 Excel 的標準「複製」和「貼上」命令。
+   >系統只會複製請求，不會複製儲存格的內容。如果您有其他跟請求無關，但與了解儲存格中顯示資料相關的資訊 (如表格欄標題或列識別碼)，請使用 Excel 的標準「複製」和「貼上」命令。
 
    由於 Excel 使用不同的剪貼簿來複製儲存格內容和請求，因此您可以依序執行「複製」/「貼上」和「複製請求」/「貼上請求」來複製非請求的儲存格內容。然而，如果您將格式套用至試算表中的請求，然後再進行複製及貼上，Report Builder 會重製原始格式 (如邊框、字型等)。
 
