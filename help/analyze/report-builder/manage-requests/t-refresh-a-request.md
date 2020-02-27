@@ -3,7 +3,7 @@ description: 在經由編輯或篩選來更新請求後，或需要檢視最新�
 title: 重新整理請求
 topic: Report builder
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,13 +16,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 如果您增加請求的日期範圍並重新整理請求，Report Builder 會新增儲存格以容納新增的期間數。
 
 1. 建立及執行請求。
-1. 在變更請求後，請以滑鼠右鍵按一下請求，然後在捷徑功能表中選擇「**重新整理請求**」。(您也可以按一下請求，然後再按一下工具列中的「**[!UICONTROL 重新整理]」。)**
+1. 在變更請求後，請以滑鼠右鍵按一下請求，然後在捷徑功能表中選擇&#x200B;**[!UICONTROL 「重新整理請求」]**(您也可以按一下請求，然後再按一下工具列中的「**[!UICONTROL 重新整理]**」)。
 
-   系統會顯示[!UICONTROL 重新整理請求]表單: 
+   系統會顯示[!UICONTROL 「重新整理請求」]表單：
 
-   **現在日期:**&#x200B;重新整理的基礎日期。亦稱為[!UICONTROL 截止]日期。
+   **現在日期：**&#x200B;重新整理的基礎日期。亦稱為[!UICONTROL 截止]日期。
 
-   **將後續的重新整理動作設為目前的日期:** 啟用此選項以要求 Report Builder 一律使用目前日期作為「[!UICONTROL 現在]」或 (「[!UICONTROL 截止]」) 日期。您可以按一下工具列中的「[!UICONTROL 選項]」來回復這項設定。
-1. 按一下&#x200B;**[!UICONTROL 確定]**。
+   **將後續的重新整理動作設為目前的日期：**&#x200B;啟用此選項以要求 Report Builder 一律使用目前日期作為[!UICONTROL 「現在」]或 ([!UICONTROL 「截止」]) 日期。您可以按一下工具列中的「[!UICONTROL 選項]」來回復這項設定。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
    當重新整理作業順利完成時，系統會在[!UICONTROL 「請求管理員]」中顯示綠色圖示來報告這項資訊。
