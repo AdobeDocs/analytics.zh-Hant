@@ -3,7 +3,7 @@ description: 異常偵測使用統計模型來自動尋找資料中的意外趨�
 title: 異常偵測
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 異常偵測使用統計模型來自動尋找資料中的意外趨勢。模型會分析量度並判斷下界限、上界限及正常值範圍。當發生意外的尖峰或下降時，系統會在報表中警報。
 
-您可能會調查的異常例子包括:
+您可能會調查的異常例子包括：
 
 * 訂單平均值大幅下降
 * 低收入訂單發生尖峰
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 視訊緩衝事件的尖峰
 * 低視訊位元率的尖峰
 
-> [!NOTE] 異常偵測只有在您選取「日」精細度時才可用。
+> [!NOTE] 異常偵測僅限於選取「日」粒度時適用。
 
 <p class="head"> <b>異常偵測度量</b> </p>
 
