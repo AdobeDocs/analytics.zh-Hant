@@ -2,7 +2,7 @@
 description: 列出目前版本和舊版及其功能特色。
 title: Report Builder 的新功能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 「編輯多個量度」功能可讓您輕鬆地在預先存在的一組請求中新增、移除或更換量度。
 
-如需詳細資訊，請參閱 [在多個要求之間編輯量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md).
+如需詳細資訊，請參閱[在多個要求之間編輯量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)。
 
 ## Report Builder 5.5{#rb-5-5-section}
 
@@ -28,7 +28,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 以前，身為分析師的您會將 Report Builder 活頁簿建立排程，以透過電子郵件 (或 FTP) 散佈。現在，您可以讓企業使用者相關人士在各種平台與裝置皆可使用的網頁式環境中，存取 (從其 Power BI 帳戶內部) 精確且最新的資料。
 
-結合 Report Builder 的報表產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。有了Power BI，您也可以將Adobe Analytics與其他資料來源（例如銷售點、CRM）整合，以發掘獨特的客戶見解、關聯和機會。 [更多...](/help/analyze/report-builder/c-publish-power-bi/power-bi.md)
+結合 Report Builder 的報表產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。使用 Power BI 時，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM)，以發掘不重複的客戶分析結果、關聯及商機。[更多...](/help/analyze/report-builder/c-publish-power-bi/power-bi.md)
 
 ## Report Builder 5.4{#rb-5-4-section}
 
@@ -38,21 +38,21 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    >[!NOTE]
    >
-   >You can change to a different locale by going to the [main Adobe Forums page](https://forums.adobe.com/welcome), under International Forums.
+   >您可以前往「國際論壇」底下的 [Adobe 論壇主頁面](https://forums.adobe.com/welcome)，變更為其他地區設定。
 
-* **增強登入安全性** ：除了新的登入 [畫面外](/help/analyze/report-builder/setup/login.md)，標準報告建立工具登入功能還具備更安全的驗證程式，以OAuth授權架構為基礎。
+* **增強登入安全性** 除了[新登入畫面](/help/analyze/report-builder/setup/login.md)外，標準 Report Builder 登入功能也提供以 OAuth 授權架構為基礎的驗證程序，更加安全。
 
 ## Report Builder 5.3{#rb-5-3-section}
 
-* [虛擬報表套裝](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)
+* [虛擬報表套裝](https://marketing.adobe.com/resources/help/zh_TW/reference/virtual-report-suites.html)
 * [Analytics 中的 Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
-* [AEM 資產報告](https://marketing.adobe.com/resources/help/en_US/reference/aem-assets-reporting.html)
+* [AEM 資產報告](https://marketing.adobe.com/resources/help/zh_TW/reference/aem-assets-reporting.html)
 
 ## Report Builder 5.2{#rb-5-2-section}
 
-* **計算量度** Report Builder 5.2支援Adobe Analytics統 [一計算量度](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md)。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
+* **計算量度** Report Builder 5.2 支援 Adobe Analytics [統一計算量度](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md)。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 
-* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/en_US/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋，「請求精靈」新增了幾個新搜尋列：一個用 [於報表搜尋](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md) ，另一個用於搜尋 [量度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。
+* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋工作，「請求精靈」新增幾個搜尋列：一個可用來[搜尋報表](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)，另一個則可搜尋[量度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。
 
-* **客戶屬性** ：客戶屬性儲存在名為VisAttr的新元素類型中，可設定為維度或量度。 如需如何上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)。
+* **客戶屬性** 客戶屬性儲存在名為 VisAttr 的新元素類型中，可設定為維度或量度。如需上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://marketing.adobe.com/resources/help/zh_TW/mcloud/attributes.html)。
 
