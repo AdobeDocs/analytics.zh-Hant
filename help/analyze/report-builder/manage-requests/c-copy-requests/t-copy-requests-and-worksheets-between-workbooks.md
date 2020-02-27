@@ -3,7 +3,7 @@ description: 將來源活頁簿中的整份試算表複製到一或多份目標�
 title: 在活頁簿之間複製請求和工作表
 topic: Report builder
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 將來源活頁簿中的整份試算表複製到一或多份目標活頁簿中。
 
-若要進行這項作業，您必須在同一個的 Excel 例項中至少開啟兩個活頁簿: 第一個來源活頁簿包含的試算表 (工作表) 其請求已映射儲存格，另一個目標活頁簿則是做為目標。對於每個新的目標活頁簿，您應該先登入與來源活頁簿相同的報表套裝，接著再貼上含有請求的試算表。
-1. Right-click the spreadsheet in the source workbook and select **[!UICONTROL Copy Worksheet w/Requests]**.
-1. In the destination workbook, right-click the spreadsheet and select **[!UICONTROL Paste Worksheet w/Requests]**.
+若要進行這項作業，您必須在同一個的 Excel 例項中至少開啟兩個活頁簿：第一個來源活頁簿包含的試算表 (工作表) 其請求已映射儲存格，另一個目標活頁簿則是作為目標。對於每個新的目標活頁簿，您應該先登入與來源活頁簿相同的報表套裝，接著再貼上含有請求的試算表。
+1. 在來源活頁簿的試算表中按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL 「複製工作表 (包含請求)」]**。
+1. 在目標活頁簿的試算表中按一下滑鼠右鍵，然後選擇「**[!UICONTROL 複製包含請求的工作表」]**。
 
    同一個 Excel 例項表示在同一時間內，只有一個 Excel 程序 ([!DNL excel.exe])在電腦中運作。如果您啟動兩個 Excel 例項並嘗試從第一個 Excel 例項將活頁簿中的工作表複製到第二個 Excel 例項的活頁簿中，Report Builder 不會在第二個 Excel 例項的捷徑功能表中提供貼上工作表選項。
 
