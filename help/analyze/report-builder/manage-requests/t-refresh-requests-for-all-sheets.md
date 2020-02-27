@@ -3,7 +3,7 @@ description: 您可以重新整理所有工作表的請求或多個請求。
 title: 重新整理所有工作表的請求
 topic: Report builder
 uuid: 7aa3a206-6b14-40c1-8e18-51998f02649e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 當您重新整理多個請求時，系統會根據請求為原始請求或相依請求來收集請求，以及排列請求的優先順序。系統會顯示有關重新整理進度的訊息。重新整理程序可能需要花費幾分鐘的時間才能完成，須視您請求的資料量而定。
 
-1. Click **[!UICONTROL Manage]**.
-1. Enable **[!UICONTROL All Sheets]**.
-1. Click **[!UICONTROL Refresh]**.
-1. Specify a date reference, then click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 「管理」]**。
+1. 啟用&#x200B;**[!UICONTROL 「所有工作表」]**。
+1. 按一下&#x200B;**[!UICONTROL 重新整理]**。
+1. 指定日期參考，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
