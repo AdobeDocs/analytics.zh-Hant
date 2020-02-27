@@ -3,7 +3,7 @@ description: 在排程報表時，您可以選擇要用於散佈的發佈清單�
 title: 允許發佈清單覆蓋
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 會在 Analytics 管理工具中設定發佈清單。
 
-請參閱「Analytics 參考」中的[發佈清單管理員](https://marketing.adobe.com/resources/help/en_US/reference/publishing_list.html)。
+請參閱「Analytics 參考」中的[發佈清單管理員](https://marketing.adobe.com/resources/help/zh_TW/reference/publishing_list.html)。
 
 若要啟用此功能，請導覽至[!UICONTROL 請求精靈: 步驟 1] 視窗。
 
