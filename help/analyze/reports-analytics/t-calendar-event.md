@@ -3,7 +3,7 @@ description: 新增日曆事件和管理共用事件的步驟。
 title: 日曆事件
 topic: Reports and analytics
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,9 +15,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE]為確保最佳報告效能，趨勢和特定時段的圖表會顯示 20 個最近的日曆事件。
 
-對於特定時段的趨勢報表，您可以圖形形式顯示事件，並查看促銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。設定日曆事件的過程包括命名事件、設定日期、新增附註和設定圖示. 例如，如果使用 Social，您可以建立日曆事件來顯示網站流量增加與某位名人使用 Twitter 提及產品有關聯。
+對於特定時段的趨勢報表，您可以圖形形式顯示事件，並查看促銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。設定日曆事件的過程包括命名事件、設定日期、新增附註和設定圖示。例如，如果使用 Social，您可以建立日曆事件來顯示網站流量增加與某位名人使用 Twitter 提及產品有關聯。
 
-1. 依序按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 日曆事件」]**。
+1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 日曆事件]**」。
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
    1. 在&#x200B;**[!UICONTROL 「標題」]**&#x200B;底下，為日曆事件命名。
    1. 指定&#x200B;**[!UICONTROL 「事件日期」]**。
@@ -31,8 +31,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    1. 按一下&#x200B;**[!UICONTROL 「勾選全部」]**&#x200B;或勾選使用者名稱旁的方塊。
    1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
    如此可讓日曆事件有更多用處。分析師現在可以強制覆蓋其使用者的報表，以提供更多上下文內容。
-1. 依序按一下&#x200B;**[!UICONTROL 「Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 日曆事件」]**。
-1. 在「共用日曆事件」底下，指定以下任一選項:
+1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 日曆事件]**」。
+1. 在「共用日曆事件」底下，指定以下任一選項：
 
        | **複製我** | 將副本新增至事件清單，名稱與原始事件相同。不過，您無法看見事件擁有者所做的任何更新/變更。|
        |---|---|
