@@ -1,8 +1,8 @@
 ---
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b5418e6321b09ddbab36e0052f75f36067086e3e
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **我在使用歸因模型時，為何有時會在報表中看到報表期間之外的日期？**
 
-這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/tw/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 預計將在後續版本中篩除這些額外資料列。
+這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 預計將在後續版本中篩除這些額外資料列。
 
 **我是否可以透過歸因模型使用自訂回顧期間？**
 
@@ -56,13 +56,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 單頁存取次數
 * 單次存取
 
-**Analysis Workspace 的歸因與 Data Workbench 的歸因有何不同？**
+**我是否可以透過歸因模型使用自訂回顧期間？**
 
-Data Workbench 逐步提供下列功能：
-
-* 歸因更多訪客層級資料來源，例如廣告印象和銷售點。
-* 演算法塑型。Analysis Workspace 的歸因僅包含規則模型。請參閱 Data Workbench 使用手冊中的[最適用模型](https://marketing.adobe.com/resources/help/en_US/insight/client/c_attrib_algorithmic.html)。
-* 額外的視覺效果，例如延遲表格。請參閱 Data Workbench 使用手冊中的[延遲表格](https://marketing.adobe.com/resources/help/en_US/insight/client/c_lat_tbls.html)。
+是的，使用自訂回顧視窗選項，回顧視窗可設定為任何日期範圍，最多在您報告視窗之前90天。 如需詳細資訊，請參閱[報表時間處理](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-report-time-processing.html)。
 
 **歸因是否適用於分類？**
 
