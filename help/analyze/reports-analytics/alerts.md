@@ -4,7 +4,7 @@ subtopic: Alerts
 title: 警報
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,20 +14,20 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 警報 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
-智慧型警報是所有Adobe Analytics的全新警報系統，可讓您建立和管理警報，並提供警報預覽和規則貢獻。 您可以
+智慧型警報是所有 Adobe Analytics 通用的全新警報系統，除了協助您建立及管理警報，並提供完整的警報預覽與規則貢獻。您可以
 
 * 根據異常 (90％、95％ 或 99％ 臨界值；％ 變化；以上/以下) 建立警報。
-* 預覽警報觸發的頻率.
-* 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結.
-* 建立在單一警報中擷取多個量度的「堆疊」警報.
+* 預覽警報觸發的頻率。
+* 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
+* 建立在單一警報中擷取多個量度的「堆疊」警報。
 
-您可以在 Report &amp; Analytics 中任何報表內的&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
+您可以在 Report &amp; Analytics 中任何報告內的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
 
-若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/intellligent_alerts.html)。
+若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/intellligent_alerts.html)。
 
 ## 新增警報 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
-說明如何在 Adobe Analytics 中新增警報的步驟。
+說明如何在 Adobe Analytics 中新增警報。
 
 <!-- 
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-導覽至「 **[!UICONTROL Analytics]** &gt;元件」選單中的新 **[!UICONTROL 警報產生器]** 。 不過，您仍可從「Report &amp; Analytics」內的報表進行存取:
+導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件」]**&#x200B;功能表中新版的「警報產生器」。不過，您仍可從「Report &amp; Analytics」內的報表存取：
 
 1. 在「Report &amp; Analytics」內，開啟您要設定警報的報告。
-1. Click **[!UICONTROL More]** &gt; **[!UICONTROL Add Alert]**.
-1. 這步驟將帶您進入[新的警報產生器](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-builder.html)。
+1. 按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。
+1. 這步驟能帶您進入[新版警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-builder.html)。
 
 ## 檢視或編輯現有警報 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
-任務上下文
+工作內容
 
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Components]** &gt; **[!UICONTROL Alerts]**. 這步驟將帶您進入新的[警報產生器](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/alert-manager.html)。
+1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報」]**。這步驟能帶您進入新版[警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-manager.html)。
 
 ## 舊式警報遷移 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -62,7 +62,7 @@ deprecated_alerts.xml
   <tr> 
    <th colname="col1" class="entry"> 舊式警版功能 </th> 
    <th colname="col2" class="entry"> 說明 </th> 
-   <th colname="col3" class="entry"> 已廢止或已遷移? </th> 
+   <th colname="col3" class="entry"> 已廢止或已遷移？ </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -100,22 +100,22 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>參照報表套裝包含 ASI 槽的警報 </p> </td> 
-   <td colname="col2"> <p>您將無法再<a href="https://marketing.adobe.com/resources/help/en_US/reference/ASI_slots_admin.html"  >建立或編輯 ASI 槽</a>，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>您將無法再<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/ASI_slots_admin.html"  >建立或編輯 ASI 槽</a>，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用參與率量度的警報 </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/metrics_participation.html"  >參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_participation.html"  >參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂日曆報表套裝的每月警報 </p> </td> 
-   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://marketing.adobe.com/resources/help/en_US/arb/custom_calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://marketing.adobe.com/resources/help/zh_TW/arb/custom_calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
    <td colname="col3"> <p>尚未可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>從 2015 年 9 月開始未曾運作的警報。 </p> </td> 
-   <td colname="col2"> <p>這是警報從 2015 年 9 月開始未曾運作的原因，包括:  </p> 
+   <td colname="col2"> <p>這是警報從 2015 年 9 月開始未曾運作的原因，包括： </p> 
     <ul id="ul_15812938A2454537AF6ADDB039DE16BC"> 
      <li id="li_D079A819CEE04F609AF18C09EEE83F0D">您在警報管理器的警報上按了「停用」。 </li> 
      <li id="li_E23D01FA0B1341AD8BC1DDD16FB1366F">警報遇到錯誤並永遠無法成功完成。 </li> 
