@@ -4,7 +4,7 @@ subtopic: Schedule
 title: 資料擷取
 topic: Reports and analytics
 uuid: 430f03bb-09e2-4e43-8cbd-1754b49acefe
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,5 +32,5 @@ t_data_extract.xml
 
 描述如何從報告擷取資料並透過電子郵件傳送該資料的步驟。
 
-1. Run a report, then click **[!UICONTROL More]** &gt; **[!UICONTROL Extract Data]**.
+1. 執行報表，然後按一下「**[!UICONTROL 更多]** > **[!UICONTROL 資料擷取]**」。
 1. 遵循「資料擷取」精靈中的步驟執行。
