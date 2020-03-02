@@ -4,7 +4,7 @@ subtopic: Bookmarks
 title: 書籤管理器
 topic: Reports and analytics
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,14 +24,13 @@ t_bookmarks_creating.xml
 
  -->
 
-1. Run a report, then click **[!UICONTROL Bookmark.]**.
+1. 執行報表，然後按一下&#x200B;**[!UICONTROL 「書籤」]**。
 
-   |名稱|此書籤的用戶友好名稱|
-   |---|---|     
-   |新增至|指定要放置書籤的資料夾。|     
-   |設為公用|讓具有報表套裝存取權的使用者可使用此書籤。|     
-   |登入時顯示報表|登入時顯示報表。|
-   
+       |名稱| 此書籤的易記名稱。|
+       |---|---|
+       |新增至|　指定要放置書籤的資料夾。|
+       |設為公用| 讓可存取報表套裝的使用者都能使用此書籤。|
+       |登入時顯示報表| 在您登入時顯示報表。|
    
 ## 管理書籤 {#task_1EE793CB52EA467787817BBD98DEF150}
 
@@ -43,7 +42,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL Analytics]** &gt;元 **[!UICONTROL 件]** &gt;書 **[!UICONTROL 簽]**。
+**[!UICONTROL Analytics]** >**[!UICONTROL 元件]** > **[!UICONTROL 書籤]**。
 
 **我的書籤**
 
