@@ -3,7 +3,7 @@ description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fa98e4d6612fc8d02f33f525ef3faf3206fe8daa
 
 ---
@@ -24,8 +24,8 @@ t_reports_ranked.xml
 
  -->
 
-1. 產生報表，例如[!UICONTROL 頁面報表] (**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;網站內容]** > **[!UICONTROL 頁面]**)。
-1. 在報告標題中，按一下&#x200B;**[!UICONTROL 排名]**。
+1. 產生報表，例如[!UICONTROL 頁面報表] (**[!UICONTROL 報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面]**)。
+1. 在報告標題中，按一下&#x200B;**[!UICONTROL 「排名」]**。
 1. 若要將報告排名，請按一下表格中的欄標題。
 
    排名報告最多可在表格中列示 200 個項目 (例如產品、類別、網頁等等) 和 10 個度量 (收入、訂購、檢視等等)。
@@ -44,8 +44,8 @@ t_reports_trended.xml
 
 **若要執行趨勢報告**
 
-1. 執行轉換或流量報表，例如「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;網站內容]** > **[!UICONTROL 頁面]**」。
-1. 在&#x200B;**[!UICONTROL 報告類型]**下，按一下**[!UICONTROL &#x200B;趨勢]**。
+1. 執行轉換或流量報表，例如&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面」]**。
+1. 在&#x200B;**[!UICONTROL 報告類型]**&#x200B;下，按一下&#x200B;**[!UICONTROL 「趨勢」]**。
 
 ## 執行轉換漏斗報告 {#task_B926A74AA6A641138C2986C1635120CB}
 
@@ -57,9 +57,9 @@ t_reports_conversion_funnel.xml
 
  -->
 
-若要執行此報表，請選取一個報表 (例如「頁面」報表) (**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;促銷活動]** > **[!UICONTROL 追蹤代碼]**>**[!UICONTROL &#x200B;促銷活動轉換漏斗]**)。
+若要執行此報表，請選取一個報表 (例如「頁面」報表) (**[!UICONTROL 報表]** > **[!UICONTROL 促銷活動]** > **[!UICONTROL 追蹤代碼]** > **[!UICONTROL 促銷活動轉換漏斗]**)。
 
-如需相關說明，請參閱[轉換報告](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion.html)。
+如需相關說明，請參閱[轉換報告](https://marketing.adobe.com/resources/help/zh_TW/reference/reports_conversion.html)。
 
 ## 執行流失報告 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -71,32 +71,32 @@ t_reports_fallout.xml
 
  -->
 
-查看 Analysis Workspace 新的[流失分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)面板!
+查看 Analysis Workspace 新的[流失分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/fallout_flow.html)面板！
 
-1. 在 [!UICONTROL Adobe Analytics] 中，按一下「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;路徑]** > **[!UICONTROL 頁面]**>**[!UICONTROL &#x200B;流失]**」。
+1. 在 [!UICONTROL Adobe Analytics] 中，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 流失」]**。
 1. 在[!UICONTROL 流失報告]頁面上，按一下&#x200B;**[!UICONTROL 啟動流失 Report Builder]**。
 
    ![步驟結果](assets/fallout_add_items.png)
 
 1. 在[!UICONTROL 定義查核點]頁面上，指定您想用於報告的查核點。
-1. 按一下「**[!UICONTROL 運行報表]**」。
+1. 按一下&#x200B;**[!UICONTROL 「執行報表」]**。
 
    ![步驟結果](assets/fallout_report.png)
 
 >[!MORELIKETHIS]
 >
->* [流失報告說明](https://marketing.adobe.com/resources/help/en_US/reference/reports_fallout.html)
+>* [流失報告說明](https://marketing.adobe.com/resources/help/zh_TW/reference/reports_fallout.html)
 
 
 ## 執行頁面流程報告 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 「頁面流程報告」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報告可協助解答
 
-查看 Analysis Workspace 新的[流量視覺化](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)!
+查看 Analysis Workspace 新的[流量視覺化](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/flow.html)！
 
-執行[路徑](https://marketing.adobe.com/resources/help/en_US/reference/reports_paths.html)報告。
+執行[路徑](https://marketing.adobe.com/resources/help/zh_TW/reference/reports_paths.html)報告。
 
-例如，按一下「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;路徑]** > **[!UICONTROL 頁面]**>**[!UICONTROL &#x200B;下一頁流量]**」。
+例如，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 下一頁流量」]**。
 
 ![](assets/page_flow.png)
 
@@ -104,7 +104,7 @@ t_reports_fallout.xml
 
 檢視每個後續頁面的百分比顯示在頁面名稱的旁邊。連接到每個下一頁的線條寬度描繪了該相關百分比。
 
-**[!UICONTROL 路徑檢視]**: 指出以顯示的路徑檢視某個頁面的次數。
+**[!UICONTROL 路徑檢視]**：指出以顯示的路徑檢視某個頁面的次數。
 
 例如，「隱私權原則」頁面的頁面檢視總次數可能為 10,000 次，但有 500 次是在進入「首頁」前直接檢視的。這樣，就可使用術語路徑檢視。
 
@@ -120,7 +120,7 @@ t_reports_funnel.xml
 
  -->
 
-1. 按一下「**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;產品]** > [產品轉換漏斗](https://marketing.adobe.com/resources/help/en_US/reference/reports_conversion_funnel.html)」。
+1. 按一下「**[!UICONTROL 報表]** > **[!UICONTROL 產品]** > [產品轉換漏斗](https://marketing.adobe.com/resources/help/zh_TW/reference/reports_conversion_funnel.html)」。
 
 ## 執行行銷管道報告 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -132,7 +132,7 @@ t_reports_marketing_channel.xml
 
  -->
 
-請參閱[行銷渠道](https://marketing.adobe.com/resources/help/en_US/mchannel/index.html)說明系統，瞭解更多資訊。
+請參閱[行銷渠道](https://marketing.adobe.com/resources/help/zh_TW/mchannel/index.html)說明系統，瞭解更多資訊。
 
 ## 執行異常偵測報告 {#task_4808C96327354D789C075823F5C3A049}
 
@@ -144,13 +144,13 @@ t_anomaly_view.xml
 
  -->
 
-查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)功能!
+查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/anomaly_detection.html)功能！
 
-**[!UICONTROL 報表]**>**[!UICONTROL &#x200B;網站量度]** > **[!UICONTROL 異常偵測]**。
+**[!UICONTROL 報表]** > **[!UICONTROL 網站量度]** > **[!UICONTROL 異常偵測]**。
 
-> [!NOTE] 您也可以從分析工作區專案中執行異常偵測。 [更多...](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/anomaly_detection.html)
+> [!NOTE]您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/anomaly_detection.html)
 
-如需設定異常偵測的資訊，請參閱[參考指南](https://marketing.adobe.com/resources/help/en_US/sc/user/index.html#Setting_up_Anomaly_Detection)。
+如需設定異常偵測的資訊，請參閱[參考指南](https://marketing.adobe.com/resources/help/zh_TW/sc/user/index.html#Setting_up_Anomaly_Detection)。
 
 異常偵測顯示兩種圖表：摘要圖表和個別度量圖表。只有在至少對於度量偵測到一個異常時，個別度量圖表才會顯示。
 
@@ -173,12 +173,12 @@ t_anomaly_view.xml
       <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差百分比值 (圖表左邊) 的計算方式如下： 
        <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
         <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限和預期值相同，則偏差百分比為 100% </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">否則偏差百分比為(（實際值——上界值）/（上界值——預期值）)* 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下界和預期值相同，則偏差百分比為-100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">否則偏差百分比為(（下限值——實際值）/（預期值——下限值）)* -100 </li> 
+        <li id="li_CA48064F5788448C8646CCE196161237">若不同，偏差百分比是 ((實際值 - 上限值) / (上限值 - 預期值)) * 100 </li> 
+        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和預期值相同，則偏差百分比為 -100% </li> 
+        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">若不同，偏差百分比是 ((下限值 - 實際值) / (預期值 - 下限值)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下「<span class="uicontrol">顯示區段</span>」會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://marketing.adobe.com/resources/help/en_US/analytics/segment/"  >深入了解</a>區段。 </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下「<span class="uicontrol">編輯量度</span>」可讓您選取和取消選取您要偵測異常的量度。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下<span class="uicontrol">「顯示區段」</span>會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/"  >深入了解</a>區段。 </li> 
+      <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下<span class="uicontrol">「編輯量度」</span>可讓您選取和取消選取您要偵測異常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -213,9 +213,9 @@ t_anomaly_config.xml
 
 1. 導覽至「**[!UICONTROL Analytics > 報表 > 網站量度 > 異常偵測]**。
 1. 選擇您要每日追蹤異常偵測的報告套組。若要顯示報表套裝，請按一下報表套裝選取器下拉式功能表。
-1. To select the metrics and/or define filtered metrics, click **[!UICONTROL Edit Metrics]**at the top right of the screen:![](assets/metrics_icon.png).
+1. 若要選取量度並/或定義篩選的量度，請按一下畫面右上角的&#x200B;**[!UICONTROL 「編輯量度」]**：![](assets/metrics_icon.png)。
 
-   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. Once the report has been generated, define the **[!UICONTROL Training Period]**and the**[!UICONTROL  View Period]** for anomaly detection. (可以將訓練時段視為演算法的「學習時段」。) 
+   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. 報告產生後，定義異常偵測的&#x200B;**[!UICONTROL 「培訓時段」]**&#x200B;和&#x200B;**[!UICONTROL 「檢視時段」]**(訓練時段可視為演算法的「學習時段」)。
 
    ![](assets/view_training_periods.png)
 
@@ -226,11 +226,11 @@ t_anomaly_config.xml
 * 延長訓練時段可以讓擴大資料的範圍，而且可以減少異常的大小。
 
    每次您變更參數，異常偵測度量報告都會重新整理。
-1. (可選) 按一下「**[!UICONTROL 顯示區段]**」並選取一或多個現有區段或建立新區段並套用該區段，以套用區段至報表。
+1. (可選) 按一下&#x200B;**[!UICONTROL 「顯示區段」]**&#x200B;並選取一或多個現有區段或建立新區段並套用該區段，以套用區段至報表。
 
    ![](assets/ad_top_menu.png)
 
-   如需建立和管理區段的詳細資訊，請參閱[分析分段指南](https://marketing.adobe.com/resources/help/en_US/analytics/segment/)。1. (可選) 收藏報表或將報表設為書籤。
+   如需建立和管理區段的詳細資訊，請參閱[分析分段指南](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/)。1.(可選) 收藏報表或將報表設為書籤。
 1. (選用) 變更視圖時段的結束日期。預設值為昨日。
 1. 您現在可以開始解讀報告。[檢視異常偵測圖表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
@@ -248,9 +248,9 @@ reports_realtime.xml
 
 即時報告提供兩個主要報告 - 概述報告和詳細報告。這些分別包含許多小報告。
 
-如需設定即時報告的資訊，請參閱[分析參考指南](https://marketing.adobe.com/resources/help/en_US/reference/index.html#RealTime_Reports_Configuration)。
+如需設定即時報告的資訊，請參閱[分析參考指南](https://marketing.adobe.com/resources/help/zh_TW/reference/index.html#RealTime_Reports_Configuration)。
 
-1. 檢視&#x200B;**[!UICONTROL 概述]**報告及其元件:![](assets/rtr_overview_report.png)
+1. 檢視&#x200B;**[!UICONTROL 概述]**&#x200B;報告及其元件：![](assets/rtr_overview_report.png)
 
    <table id="choicetable_8586BECF55E843B2B5CD41205567EA32"> 
    <thead class="chhead sthead"> 
@@ -259,7 +259,7 @@ reports_realtime.xml
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>選取報表套裝</strong></td> 
-   <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/reference/t_realtime_admin.html"  >即時報告組態</a>。 </td> 
+   <td class="chdesc stentry"> 顯示此即時報告涵蓋的報告套裝。若要變更報告套裝，請參閱<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/t_realtime_admin.html"  >即時報告組態</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切換報告</strong></td> 
@@ -271,7 +271,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>設定報表</strong></td> 
-   <td class="chdesc stentry"> 只有在您擁有管理員權限時，這個齒輪圖示連結才會出現。按一下它將進入<span class="ignoretag"><span class="uicontrol">管理工具</span> &gt; <span class="uicontrol">報告套裝</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">即時</span></span>下的報告套裝管理員。 </td> 
+   <td class="chdesc stentry"> 只有在您擁有管理員權限時，這個齒輪圖示連結才會出現。按一下連結，即可進入<span class="ignoretag"><span class="uicontrol">「管理工具</span> &gt; <span class="uicontrol">報告套裝</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">即時」</span></span>下的報告套裝管理員。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>全螢幕檢視</strong></td> 
@@ -283,13 +283,13 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>網站總計小報告</strong></td> 
-   <td class="chdesc stentry"> 對於最後 N 分鐘選擇的即時報告度量顯示網站總計計數。透過時間範圍選擇器即可設定「N」。 <p>箭頭顏色和方向均以下列演算法為準: 
+   <td class="chdesc stentry"> 對於最後 N 分鐘選擇的即時報告度量顯示網站總計計數。透過時間範圍選擇器即可設定「N」。 <p>箭頭顏色和方向均以下列演算法為準： 
       <ul id="ul_9F40CEA33798467393CB1266BB36D500"> 
-      <li id="li_CCD01A44F912487DA5681EA50113643C">顯著增加 (向上箭頭): &gt; 100% </li> 
-      <li id="li_7402491A9A614851B7F2AE0C77BD9A97">增加 (向右上箭頭): 介於 5% 與 100% 之間 </li> 
-      <li id="li_BCA79C08B5714D4B9315068112C66107"> 持平 (向右箭頭): 介於 5% 與 -5% 之間 </li> 
-      <li id="li_234ECBD7D83A4AE680E4A70BF288681F"> 減少 (向右下箭頭): 介於 -5% 與 -100% 之間 </li> 
-      <li id="li_10C5EA8803604C1CA714D3DB27478B31"> 顯著減少 (向下箭頭): &lt; -100% </li> 
+      <li id="li_CCD01A44F912487DA5681EA50113643C">顯著增加 (向上箭頭)：&gt; 100% </li> 
+      <li id="li_7402491A9A614851B7F2AE0C77BD9A97">增加 (向右上箭頭)：介於 5% 與 100% 之間 </li> 
+      <li id="li_BCA79C08B5714D4B9315068112C66107"> 持平 (向右箭頭)：介於 5% 與 -5% 之間 </li> 
+      <li id="li_234ECBD7D83A4AE680E4A70BF288681F"> 減少 (向右下箭頭)：介於 -5% 與 -100% 之間 </li> 
+      <li id="li_10C5EA8803604C1CA714D3DB27478B31"> 顯著減少 (向下箭頭)：&lt; -100% </li> 
       </ul> </p> <p>如果網站總計針對「例項」報告，這些例項將反映主要小報告的維度。如果例項特定名稱存在 (例如「頁面檢視」)，網站總計將報告該名稱。 </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
@@ -302,7 +302,7 @@ reports_realtime.xml
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>排序依據... 最熱門/增加/減少</strong></td> 
-   <td class="chdesc stentry"> 您可以切換為按照<span class="uicontrol">最熱門</span> (預設)、<span class="uicontrol">增加</span> (顯示最有成長) 和<span class="uicontrol">減少</span> (向下減少的維度) 進行排序。 <p>以下是用以判斷獲益者或損失者的公式：即時檢視最早的範例和最新的範例，並執行簡單的「%變更」計算。 因此，如果選取「最近15分鐘」，且n代表目前分鐘，則n-1會與n-15比較。 即時目前不進行任何加權。目前分鐘不會計入，因為它尚未完成，而且可能產生錯誤的百分比變更。 </p> <p>此公式在即時報告中使用的所有度量均保持一致。 </p> </td> 
+   <td class="chdesc stentry"> 您可以切換為按照<span class="uicontrol">最熱門</span> (預設)、<span class="uicontrol">增加</span> (顯示最有成長) 和<span class="uicontrol">減少</span> (向下減少的維度) 進行排序。 <p>判斷增加或減少的公式如下：「即時」會查看最早的範例和倒數第二個範例，並執行簡單的「百分比變更」計算。因此，如果選擇「最後 15 分鐘」，而且 n 代表目前的分鐘數，則 n-1 會與 n-15 比較。即時目前不進行任何加權。目前分鐘不會計入，因為它尚未完成，而且可能產生錯誤的百分比變更。 </p> <p>此公式在即時報告中使用的所有度量均保持一致。 </p> </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>次要 1 小報告</strong></td> 
@@ -314,10 +314,10 @@ reports_realtime.xml
    </tr> 
    </table>
 
-1. 按一下主要小報告中的清單項目將啟動該清單項目的&#x200B;**[!UICONTROL 詳細資料]**檢視:![](assets/rtr_detail_report.png)
+1. 按一下主要小報告中的清單項目將啟動該清單項目的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;檢視：![](assets/rtr_detail_report.png)
 
    | **項目趨勢小報告** | 對於最後 N 分鐘在概述報告中選取的項目顯現趨勢線。透過時間範圍選擇器即可設定 N。 |
    |---|---|
    | **項目總計小報告** | 對於最後 N 分鐘在概述報告中選取的項目顯現總計度量計數。透過時間範圍選擇器即可設定 N。 |
-   | **關連次要 1 小報告** | 這個小報告相當類似次要 1 小報告。唯一的差別是填入此報告所用的資料來源: 在此範例中，它顯示特定頁面 (您在概述報告的主要小報告中選取的頁面) 與檢視的例項之間的關連 (或劃分)。 |
-   | **關連次要 2 小報告** | 這個小報告相當類似次要 2 小報告。唯一的差別是填入此報告所用的資料來源: 在此範例中，它顯示特定頁面 (您在概述報告的主要小報告中選取的頁面) 與語言維度之間的關連 (或劃分)。 |
+   | **關連次要 1 小報告** | 這個小報告相當類似次要 1 小報告。唯一的差別是填入此報告所用的資料來源：在此範例中，它顯示特定頁面 (您在概述報告的主要小報告中選取的頁面) 與檢視的例項之間的關連 (或劃分)。 |
+   | **關連次要 2 小報告** | 這個小報告相當類似次要 2 小報告。唯一的差別是填入此報告所用的資料來源：在此範例中，它顯示特定頁面 (您在概述報告的主要小報告中選取的頁面) 與語言維度之間的關連 (或劃分)。 |
