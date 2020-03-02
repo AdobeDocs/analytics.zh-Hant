@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
+source-git-commit: f009b53ce14e22b7f5c014e2d6c3277d7940efe2
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立 Workspace 專案](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [工作區中的多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [工作區中有多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -82,6 +82,7 @@ source-git-commit: 758bfb7c44ffe7c878939ec69724b3807985385c
          + [歸因概觀](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用歸因面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [歸因常見問題集](analysis-workspace/c-panels/attribution/attribution-faq.md)
+         + [演算法歸因](analysis-workspace/c-panels/attribution/algorithmic.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + 區段比較 {#segment-comparison}
          + [區段 IQ 概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
