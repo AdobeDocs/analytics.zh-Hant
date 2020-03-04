@@ -2,7 +2,7 @@
 title: 跨裝置分析
 description: 跨裝置分析將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 translation-type: tm+mt
-source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
+source-git-commit: 3e821ce7b045647c09d9548659834ffc2170163d
 
 ---
 
@@ -11,17 +11,17 @@ source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 
 > [!NOTE] 跨裝置分析文件內容可能會隨著功能的進一步開發而有所變更。請定期回訪以取得更新內容。
 
-跨裝置分析功能將 Analytics 從裝置導向檢視轉變為以人為導向的檢視。此功能使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表來識別屬於個人的裝置，並將它們連結在一起。因此分析師可以瞭解跨瀏覽器、裝置或應用程式的使用者行為。使用 CDA，您可以回答下列問題:
+跨裝置分析功能將 Analytics 從裝置導向檢視轉變為以人為導向的檢視。此功能使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表來識別屬於個人的裝置，並將它們連結在一起。因此分析師可以瞭解跨瀏覽器、裝置或應用程式的使用者行為。使用 CDA，您可以回答下列問題：
 
-* 有多少人正在與我的品牌互動? 他們使用的裝置數量與類型為何? 他們互相重疊的程度?
-* 人們會在行動裝置上開始工作，稍後再移至桌上型電腦完成工作的頻率為何? 登陸在一部裝置上的行銷活動點進次數，是否會導致在其他位置上的轉換?
-* 如果將跨裝置歷程列入考量，我對行銷活動成效的理解會有何改變? 我的漏斗分析會有何改變?
-* 使用者在裝置間移動最常採取的路徑為何? 他們在哪裡退出? 他們在哪裡獲得成功?
-* 多部裝置使用者的行為與單一裝置使用者的行為有何不同?
+* 有多少人正在與我的品牌互動？他們使用的裝置數量與類型為何？他們互相重疊的程度？
+* 人們會在行動裝置上開始工作，稍後再移至桌上型電腦完成工作的頻率為何？登陸在一部裝置上的行銷活動點進次數，是否會導致在其他位置上的轉換？
+* 如果將跨裝置歷程列入考量，我對行銷活動成效的理解會有何改變？我的漏斗分析會有何改變？
+* 使用者在裝置間移動最常採取的路徑為何？他們在哪裡退出？他們在哪裡獲得成功？
+* 多部裝置使用者的行為與單一裝置使用者的行為有何不同？
 
 當裝置連結時，變數的持續存在性會跨裝置傳遞。例如，某位使用者先透過桌上型電腦上的廣告造訪您的網站。該使用者找到您的行動應用程式並安裝，最終在其行動裝置上進行購買。透過跨裝置分析功能，可將收入歸因於使用者在桌上型電腦上點按的廣告。
 
-請參閱[歷程 IQ: 跨裝置分析 Spark 頁面](http://adobe.ly/aacda)，進一步瞭解跨裝置分析的功能和特色。
+請參閱[歷程 IQ：跨裝置分析 Spark 頁面](http://adobe.ly/aacda)，進一步瞭解跨裝置分析的功能和特色。
 
 ## 必要條件
 
@@ -30,14 +30,14 @@ source-git-commit: 45d7a8d195ae12c3abcb2c623f921cd0762dc6ec
 > [!IMPORTANT] 若未符合所有必要條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * 貴組織的資料必須存放於 Adobe 的太平洋西北地區資料中心。已規劃為全球其他地區的資料中心提供支援。
-* 請聯絡貴組織的客戶經理以確立下列關鍵點:
+* 請聯絡貴組織的客戶經理以確立下列關鍵點：
    * 必須與 Adobe 簽署包含 Adobe Analytics Ultimate 的合約。
    * 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)。
-   * 貴組織必須同意允許 Adobe 在 Microsoft Azure 伺服器上處理及儲存 Analytics 資料。Adobe 使用 Azure 來儲存裝置圖表資料及執行裝置連結。因此，Adobe Analytics 資料會在 Adobe 的資料處理中心與 Adobe 所採用的 Microsoft Azure 之間來回傳遞。
-* 系統會根據報表套裝啟用跨裝置分析功能。已啟用 CDA 的報表套裝須達到以下條件:
-   * 報表套裝每天的點擊數不能超過 1 億次。此門檻將在未來幾個月內提高。
+   * 本著合作關係和透明度的精神，我們希望客戶瞭解我們與跨裝置分析結合使用Microsoft Azure的情況。 Adobe使用Azure來儲存裝置圖形資料，並執行跨裝置拼接。 因此，Adobe Analytics資料會在Adobe的資料處理中心與Adobe布建的Microsoft Azure執行個體之間來回傳遞。
+* 系統會根據報表套裝啟用跨裝置分析功能。已啟用 CDA 的報表套裝須達到以下條件：
+   * 報表套裝每天的點擊數不能超過5億次。
    * Adobe 建議報表套裝中包含跨裝置資料，也就是來自多種裝置類型 (網頁、應用程式等) 的資料。某些組織將此概念稱為「全域」報表套裝，但從地理角度來說 CDA 不見得須為全域。跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
-* 您的實作必須符合下列最低要求:
+* 您的實作必須符合下列最低要求：
    * 必須部署最新版的 Experience Cloud ID Service。請參閱 Experience Cloud Identity Sservice 使用指南中的[首頁](https://docs.adobe.com/content/help/en/id-service/using/home.html)。大部分使用 Adobe Experience Platform Launch 的實作可能都已部署 ECID。
    * 每當可識別個人身分時 (例如使用者登入或開啟電子郵件)，就會呼叫 `setCustomerIDs` 函式。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 Experience Cloud Identity Service 使用指南中的 [setCustomerIDs](https://docs.adobe.com/content/help/en/id-service/using/id-service-api/methods/setcustomerids.html)。
 
