@@ -1,8 +1,8 @@
 ---
 title: Analytics 匯入說明
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+description: Analytics 匯入說明
+translation-type: tm+mt
+source-git-commit: ebdf5ed1ca2b83b94284f1d8013a2b0c6b717714
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
