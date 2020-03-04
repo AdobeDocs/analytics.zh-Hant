@@ -3,7 +3,7 @@ title: JavaScript適用的AppMeasurement發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 9b6b08d41f9846a5ee6b0c3610bf04f481ccd34b
+source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
 
 ---
 
@@ -15,6 +15,12 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在「程式碼管理員」中下載最新版 [的AppMeasurement](/help/admin/admin/code-manager-admin.md)。
+
+## 2.20.0 版
+
+發行日期: **2020 年 3 月 5 日**
+
+* 已修正安全性相關問題。
 
 ## 2.19.0 版
 
@@ -282,7 +288,7 @@ Updated: **August 4, 2016**
 
 發行日期: **2015 年 5 月 21 日**
 
-* 從iOS SDK 4.5版開始，新的iOS擴充功能可讓您從Apple watch應用程式、「今日」Widget、像片編輯Widget和所有其他iOS擴充應用程式收集使用資料。 請參 [閱Mobile services使用指南](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) 中的iOS擴充功能實作。
+* 從iOS SDK 4.5版開始，新的iOS擴充功能可讓您從Apple Watch應用程式、「今日」Widget、像片編輯Widget和所有其他iOS擴充應用程式收集使用資料。 請參 [閱Mobile services使用指南](https://docs.adobe.com/content/help/en/mobile-services/ios/ios-ext/ios-ext.html) 中的iOS擴充功能實作。
 * 從Android SDK 4.5版開始，新的Android擴充功能可讓您從Android穿戴式應用程式收集資料。 請參 [閱Mobile services使用指南](https://docs.adobe.com/content/help/en/mobile-services/android/wearables-android/android-wearable.html) 中的Android可穿戴裝置。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版。
@@ -333,7 +339,7 @@ Updated: **August 4, 2016**
 * 如果訪客 API 尚未取得需要的值，從連結 onclick 功能呼叫 s.t 時，會導致頁面檢視計數倍增，這個問題已經修正。
 * HTTP POST 支援。
 
-   > [!IMPORTANT] 若要呼 [!DNL Analytics] 叫使用POST方法而非 [!DNL AppMeasurement] (IE中解決截斷URL的 [方法](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html))中的GET方法，您必須針對Experience cloud使用最新的訪客ID服務實作。
+   > [!IMPORTANT] 若要呼 [!DNL Analytics] 叫使用POST方法而非 [!DNL AppMeasurement] (IE中解決截斷URL的 [方法](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html))中的GET方法，您必須針對Experience Cloud使用最新的訪客ID服務實作。
 
 ## 第 1.4 版
 
