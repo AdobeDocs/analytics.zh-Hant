@@ -2,15 +2,12 @@
 title: 工作區中有多個報表套裝
 description: 了解在有多個報表套裝的工作區中建立專案的方法及原因
 translation-type: tm+mt
-source-git-commit: 1a08003170ba07a722927e935ecda26e1d189235
+source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
 
 ---
 
 
 # 工作區中有多個報表套裝
-
->[!IMPORTANT]
->「工作區」中的多個報表套裝目前為有限版本。
 
 您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同 Workspace 專案內的每個面板，選擇不同的報表套裝。
 
