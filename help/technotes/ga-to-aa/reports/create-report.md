@@ -2,7 +2,7 @@
 title: 在分析工作區中建立基本報表
 description: 瞭解如何在分析工作區中建立以熟悉第三方工具（例如Google Analytics）的使用者為對象的格式的基本報表。
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
 
 ---
 
@@ -31,32 +31,32 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 將正確的元件拖曳至工作區畫布，以建立「所有頁面」報表（類似Google Analytics中的報表）。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-3. 在頂端導覽列中，按一下「工作區」。
-4. 按一下「建立新專案」按鈕。
-5. 在模式快顯視窗中，請確定已選取「空白專案」，然後按一下「建立」。
-6. 在左側，會顯示維度、量度、區段和日期範圍的清單。 找到「頁面」維度（彩色橘色），並拖曳至標有「拖曳維度到此處」的畫布上。
-7. 您可以看到顯示本月最熱門頁面的報表。 分析工作區會自動填入「發生次 [數](/help/components/c-variables/c-metrics/metrics-occurrences.md) 」量度。
-8. Google Analytics中的表格通常包含7-8個量度。 找到「反彈率」量度（彩色綠色），並拖曳至「發生次數」量度標題旁。 如果您將「反彈率」量度拖曳至「發生次數」旁，兩個量度會並排顯示。
-9. 許多量度可以並排放置，方法是拖曳量度至現有量度標題旁。 如需 [如何取得Google Analytics中通常使用之量度的資訊](common-metrics.md) ，請參閱常用量度。
+1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
+1. 在上方的導覽列按一下「Workspace」。
+1. 按一下「建立新專案」按鈕。
+1. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
+1. 在左側，會顯示維度、量度、區段和日期範圍的清單。 找到「頁面」維度（彩色橘色），並拖曳至標有「拖曳維度到此處」的畫布上。
+1. 您可以看到顯示本月最熱門頁面的報表。 Analysis Workspace automatically populates the report with the [Occurrences](/help/components/c-variables/c-metrics/metrics-occurrences.md) metric.
+1. Google Analytics中的表格通常包含7-8個量度。 找到「反彈率」量度（彩色綠色），並拖曳至「發生次數」量度標題旁。 如果您將「反彈率」量度拖曳至「發生次數」旁，兩個量度會並排顯示。
+1. 許多量度可以並排放置，方法是拖曳量度至現有量度標題旁。 如需 [如何取得Google Analytics中通常使用之量度的資訊](common-metrics.md) ，請參閱常用量度。
 
-   ![新度量](/help/technotes/ga-to-aa//assets/new_metric.png)
+   ![新度量](/help/technotes/ga-to-aa/assets/new_metric.png)
 
 ## 從工作區中預先建立的報告範本開始
 
 存取專案範本，以建立「內容使用」範本（類似於Google Analytics中的「所有頁面」報表）。
 
 1. 按一下「建立新專案」按鈕。
-2. 找到並連按兩下「所有範本」下方所列的「內容消費(Web)」圖示。
-3. 瀏覽每個預先建立的視覺化：登入頁面流量、頂層頁面表格、退出頁面流量、登入網站區域流量和頂層網站區域表格。
+1. 找到並連按兩下「所有範本」下方所列的「內容消費(Web)」圖示。
+1. 瀏覽每個預先建立的視覺化：登入頁面流量、頂層頁面表格、退出頁面流量、登入網站區域流量和頂層網站區域表格。
 
    ![範本選擇](/help/technotes/ga-to-aa/assets/content_consumption_template.png)
 
-## 使用工具進行實驗
+## 透過工具進行實驗
 
-由於分析工作區是報告工具，因此對資料收集沒有影響。 不加區分地將元件拖曳至專案中，以檢視哪些功能有效，不會造成任何影響。 將不同的維度和量度組合拖曳至您的工作區專案，以檢視哪些項目可供您使用。
+Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。
 
-如果您意外將無效的元件拖曳至您的工作區專案，或想要返回步驟，請按ctrl+Z(Windows)或cmd+Z(Mac)，以復原最後執行的動作。 您也可以按一下左上方功能表中的「專 *[!UICONTROL 案]&gt;新[!UICONTROL 增]* 」(Project &gt; New)，從乾淨的石板開始。
+如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
 
 Adobe已將許多功能放入「分析工作區」的右鍵上下文選單中。 大部份的視覺化項目和元件都可以按一下滑鼠右鍵，以取得更詳細的分析和互動功能。 請考慮在工作區中以滑鼠右鍵按一下元件，以查看有哪些可用選項。
 
