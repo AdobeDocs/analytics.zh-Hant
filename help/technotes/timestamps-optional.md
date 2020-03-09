@@ -4,7 +4,7 @@ keywords: Analytics Implementation
 title: 使用可選時間戳記
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 > [!NOTE]針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
 
-如需其他的設定資訊，請參閱[可選時間戳記](https://marketing.adobe.com/resources/help/en_US/reference/timestamp-optional.html)。
+如需其他的設定資訊，請參閱[可選時間戳記](https://marketing.adobe.com/resources/help/zh_TW/reference/timestamp-optional.html)。
 
 ## 可選時間戳記: 整合了時間戳記與非時間戳記資料 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -38,7 +38,7 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 * 必要時間戳記 (不支援設定 visitorID)
 * 可選時間戳記 (支援設定 visitorID，但不適用於時間戳記的點擊上)
 
-## 關於可選時間戳記功能 {#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
+## 關於可選時間戳記功能{#section_63B2FA9A2AB24B3993E84D2C2B4BF2CE}
 
 「可選時間戳記」可讓您在多個報表套裝間進行整合與報告，無論是否包含用戶端時間戳記。透過「可選時間戳記」，您可以將應用程式更新為採用時間戳記，同時仍使用舊版應用程式的非時間戳記資料。
 
