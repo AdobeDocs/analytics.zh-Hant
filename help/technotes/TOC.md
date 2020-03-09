@@ -3,7 +3,7 @@ product: analytics
 audience: all
 user-guide-title: Analytics tech notes
 user-guide-url: /content/help/en/analytics/technotes/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 037016419e115b6e1771cdee3c1ba033e1204256
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 037016419e115b6e1771cdee3c1ba033e1204256
       + [轉換](ga-to-aa/reports/conversions-reports.md)
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
-+ [瀏覽器Cookie](cookies.md)
++ [瀏覽器 Cookie](cookies.md)
 + [資料保留](data-retention.md)
 + [延遲性](latency.md)
 + [低流量值](low-traffic.md)
