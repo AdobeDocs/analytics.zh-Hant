@@ -5,8 +5,8 @@ subtopic: Current data
 title: 資料可用性與延遲
 topic: Reports
 uuid: 1f0e67e3-6cea-4af8-8b18-7ae9223df7c8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: a4a4d9e6e2d3e3ed88b4ef66e9da3b05865a9b79
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Experience Cloud 中的某些功能，除了標準處理時間之外，還
    * 產品變數中有超過 20 個值
    * 事件序列化
 
-* 啟用 IAB 機器人篩選：[機器人篩選](https://marketing.adobe.com/resources/help/en_US/admin/c_bot_rules.html)可在您的報表套裝頻繁遭到機器人或編目程式侵擾時，大幅減少延遲的情形。建議您使用 IAB 機器人清單，因為這份清單是由 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) 負責更新及維護的。使用者也可自訂本身的機器人規則，與 IAB 提供的清單互補。
+* 啟用 IAB 機器人篩選：[機器人篩選](/help/admin/admin/bot-removal/bot-removal.md)可在您的報表套裝頻繁遭到機器人或編目程式侵擾時，大幅減少延遲的情形。建議您使用 IAB 機器人清單，因為這份清單是由 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) 負責更新及維護的。使用者也可自訂本身的機器人規則，與 IAB 提供的清單互補。
 
 ## 如何處理延遲問題
 
