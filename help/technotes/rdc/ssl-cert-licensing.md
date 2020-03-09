@@ -1,24 +1,24 @@
 ---
 title: SSL 憑證授權
-description: 客戶管理憑證的憑證程式
-translation-type: tm+mt
+description: 由客戶管理的憑證之憑證程序
+translation-type: ht
 source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
 
 ---
 
 
-# SSL/TLS憑證授權
+# SSL/TLS 憑證授權
 
-Adobe建議您透過 [Adobe Managed Certificate Program，免費管理憑證](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)。  Adobe管理認證方案已完全自動化，並可確保及時更新憑證，以免因過期的憑證而造成影響。
+Adobe 建議您透過 [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
 
-如果您選擇不使用 [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) ，則您負責提供要用於第一方Cookie的SSL/TLS憑證。
+如果您選擇不使用 [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)，便需自行負責提供用於第一方 Cookie 的 SSL/TLS 憑證。
 
-如果您要自行提供憑證，則您需自行負責購買和維護該憑證。您的SSL/TLS憑證必須包含不限數量的伺服器授權。
+如果您要自行提供憑證，則您需自行負責購買和維護該憑證。您的 SSL/TLS 憑證必須包含不限數量的伺服器授權。
 
-為確保憑證安全性，請向Adobe取得憑證簽署要求 [CSR] ，並與您想要的憑證授權機構安排簽署憑證。  為Adobe提供已簽署的實作憑證。  通過執行此過程，證書密鑰的安全性將保持不變。  Adobe客戶服務將協助此程式。
+為確保憑證安全性，請向 Adobe 取得憑證簽署請求 [CSR]，並與所需的憑證授權單位商談簽署憑證事宜。向 Adobe 提供用於實施的已簽署憑證。依照此用於實施的操作，便可維持憑證密鑰的安全性。Adobe 客戶服務將協助進行此程序。
 
-在憑證維護期間，您至少在憑證到期前一個月，請安排您想要的憑證授權機構取得續約的憑證，並將此項資訊提供給Adobe。  此憑證應使用與先前使用的相同CSR。  如果您需要一份CSR或想要使用新金鑰產生新的CSR，請與Adobe聯絡。
+作為憑證維護的一環，您至少需在憑證到期前一個月，與所需的憑證授權單位商談以取得續約的憑證，並將此憑證提供給 Adobe。此憑證應使用與先前所使用相同的 CSR。如果您需要 CSR 的副本或想使用透過新金鑰產生的新 CSR，請與 Adobe 聯絡。
 
-客戶服務可從customercare@adobe.com或1-800-497-0335取得。
+客戶服務的聯絡方式為 customercare@adobe.com 或 1-800-497-0335。
 
-常用的憑證授權機構包括DigiCert、Comodo和GeoTrust。
+常用的憑證授權單位包括 DigiCert、Comodo 和 GeoTrust。
