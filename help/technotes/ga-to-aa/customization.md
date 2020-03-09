@@ -1,7 +1,7 @@
 ---
-title: Adobe Analytics中的報表自訂
-description: 瞭解如何在Adobe Analytics中自訂報表
-translation-type: tm+mt
+title: Adobe Analytics 中的報表自訂功能
+description: 瞭解如何在 Adobe Analytics 中自訂報表
+translation-type: ht
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
@@ -9,64 +9,64 @@ source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 # 自訂報表
 
-在Google Analytics等協力廠商平台中，有數個自訂選項可供使用。 這些自訂可讓使用者建立控制面板、自訂報表、儲存的報表和自訂警報。 由於分析工作區可讓使用者從空白畫布建立報表，因此大部分的自訂都直接內建在工具中。
+在 Google Analytics 等協力廠商平台中，有數個自訂選項可供使用。這些自訂功能可讓使用者建立控制面板、自訂報表、已儲存報表，以及自訂警報。由於 Analysis Workspace 可讓使用者從空白畫布建立報表，因此大部分的自訂功能都直接內建在工具中。
 
-本頁假設使用者具備使用分析工作區的基本知識。 如 [果您尚不熟悉Adobe Analytics中的工具](reports/create-report.md) ，請參閱「Google Analytics使用者分析工作區」中的建立基本報表。
+本頁假設使用者具備使用 Analysis Workspace 的基本知識。如果您尚不熟悉 Adobe Analytics 中的工具，請參閱[在 Analysis Workspace 中建立基本報表 (Google Analytics 使用者適用)](reports/create-report.md)。
 
 ## 控制面板
 
-分析工作區的架構與儀表板Widget的概念類似。 「分析工作區」中的專案大致相當於Google Analytics中的控制面板。 「分析工作區」中的視覺化大致等同於Google Analytics中的Widget。
+Analysis Workspace 的架構與控制面板 Widget 的概念類似。Analysis Workspace 中的專案約略等同於 Google Analytics 中的控制面板。Analysis Workspace 中的視覺效果約略等同於 Google Analytics 中的 Widget。
 
-### 新增內容至專案
+### 新增內容到專案
 
-1. 按一下左側的「視覺化」圖示，然後將所要的視覺化拖曳至工作區。
-2. 按一下左側的「元件」圖示，將所需的維度和量度拖曳至視覺化，以填入資料。
-3. 拖曳視覺化的邊緣以調整其大小，並拖曳視覺化的標題以移動它。
+1. 按一下左側的「視覺效果」圖示，然後將所需的視覺效果拖曳至工作區。
+2. 按一下左側的「元件」圖示，然後將所需的維度和量度拖曳至視覺效果，以填入資料。
+3. 拖曳視覺效果的邊緣以調整其大小，而拖曳視覺效果的標頭即可移動。
 
-所有Google Analytics Widget都可在分析工作區中使用：
+所有 Google Analytics Widget 都可在 Analysis Workspace 中使用：
 
-* 量度 **介面工具集** ，大致等於「摘要數字」視覺化。
-* 時間 **軸介面工具集** ，大致等於線條視覺化。
-* Geomap **介面工具集** ，大致等於「地圖」視覺化。
-* 表格 **介面工具集** ，大致等於自由表格視覺化。
-* 圓形 **圖介面工具集** (Pie widget)與環圈圖視覺化(Donut visualization)大致相同。
-* 列 **介面工具集** ，大約等於列視覺化。
+* **量度 Widget** 約略等同於「摘要數字」視覺效果。
+* **時間軸 Widget** 約略等同於「線條圖」視覺效果。
+* **Geomap Widget** 約略等同於「地圖」視覺效果。
+* **表格 Widget** 約略等同於「自由表格」視覺效果。
+* **圓形圖 Widget** 約略等同於「環圈圖」視覺效果。
+* **長條圖 Widget** 約略等同於「長條圖」視覺效果。
 
-分析工作區包含更多視覺化選項，以最符合您報表需求的方式呈現資料。 如需詳 [細資訊，請參閱分析使用指南](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) 「分析工作區中的視覺化」。
+Analysis Workspace 包含更多視覺效果選項，讓您以最符合報表需求的方式呈現資料。如需詳細資訊，請參閱分析使用指南中的 [Analysis Workspace 中的視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 
 ### 共用專案
 
-在您將內容新增至專案後，就可以共用它。
+一旦您將內容新增至專案之後，即可加以共用。
 
-* 若要與同事共用專案，請前往「共用&gt;共用專案」。 收件者是您組織中擁有Adobe Analytics帳戶的其他使用者。
-* 若要透過連結分享您的專案，請前往「分享&gt;取得專案連結」。 請注意，這仍需要您組織內的Adobe Analytics登入。
+* 若要與同事共用專案，請前往「共用 > 共用專案」。收件者是貴組織中擁有 Adobe Analytics 帳戶的其他使用者。
+* 若要透過連結共用您的專案，請前往「共用 > 取得專案連結」。請注意，這仍需要在貴組織內登入 Adobe Analytics。
 
 ### 匯出專案
 
-除了PDF之外，「分析工作區」還提供CSV匯出功能。
+除了 PDF 之外，Analysis Workspace 還提供 CSV 匯出功能。
 
-1. 按一 *[!UICONTROL 下「共用]* &gt;立 *[!UICONTROL 即傳送檔案]*」，開啟模式視窗。
+1. 按一下&#x200B;*[!UICONTROL 共用]* > *[!UICONTROL 立即傳送檔案]*&#x200B;以開啟模組視窗。
 2. 指定檔案類型和收件者。
-3. Click [!UICONTROL Send Now].
+3. 按一下[!UICONTROL 立即傳送]。
 
 ## 自訂報表
 
-在Google Analytics中建立自訂報表時，所需欄位類似於在工作區中建立視覺化時的工作流程。 維度、度量和篩選定義在不同平台之間相似。 在分析工作區中，維度和度量會拖曳至自由表格，而不是從清單中選取維度和度量。
+在 Google Analytics 中建立自訂報表時，必填欄位類似在工作區中建立視覺效果時的工作流程。不同平台之間的維度、量度和篩選器定義都類似。在 Analysis Workspace 中，需要將維度和量度拖曳至自由表格，而不是從清單中選取維度和量度。
 
 ### 自訂報表中的計算量度
 
-自訂報表是Google Analytics中允許使用計算量度的少數區域之一。 由於「分析工作區」的運作方式與畫布相同，因此計算量度可追溯運作，而且可在任何情境中運作。
+自訂報表是 Google Analytics 中允許使用計算量度的少數區域之一。由於 Analysis Workspace 的運作方式有如畫布，因此計算量度能以回溯的方式運作，而且可在任何情境中運作。
 
-要建立計算量度:
+要建立計算量度：
 
-1. 按一下 **量度清單旁的** +圖示，以開啟計算量度產生器。
-2. 為您的計算量度指定名稱並指定格式。
-3. 將量度元件拖曳至定義區域，然後使用每個元件之間的下拉式清單來指定運算元。
-4. 計算量度包含所需公式後，按一下「儲存」返回您的工作區。
+1. 按一下量度清單旁邊的 **+** 圖示開啟「計算量度產生器」。
+2. 為您的計算量度命名並指定格式。
+3. 將量度元件拖曳至定義區域，然後使用每個元件之間的下拉式清單來指定運算子。
+4. 一旦計算量度包含所需公式之後，按一下「儲存」返回您的工作區。
 5. 將新定義的計算量度拖曳至工作區。
 
-   進一步瞭解「 [元件」使用指南](/help/components/c-variables/c-metrics/calculated-metric.md) 中的「計算量度」。
+   進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-variables/c-metrics/calculated-metric.md)。
 
 ## 自訂警報
 
-警報可在兩種平台上使用。 在Adobe Analytics中，使用頁首導覽功能表並前往「元件 *[!UICONTROL &gt;警]* 報」 **。 如需詳 [細資訊，請參閱元件](/help/components/c-alerts/intellligent-alerts.md) 使用指南中的智慧型警報。
+警報可在兩種平台上使用。在 Adobe Analytics 中，使用頁首導覽功能表並前往&#x200B;*[!UICONTROL 元件]* > *[!UICONTROL 警報]*。如需詳細資訊，請參閱元件使用指南中的[智慧型警報](/help/components/c-alerts/intellligent-alerts.md)。
