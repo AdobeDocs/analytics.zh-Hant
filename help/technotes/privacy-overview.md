@@ -3,7 +3,7 @@ description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考�
 keywords: privacy
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 Adobe 建議您提供關於選擇退出不讓 Adobe 產品或服務收集其瀏覽資訊的容易找到且容易了解的相關資訊給網站訪客。
 
-訪客可進一步瞭解Adobe一般如何使用在 [Adobe隱私權中心收集到的資訊](https://www.adobe.com/privacy.html)。 由貴組織自行控制如何實作Adobe服務，因此您的組織應該披露您使用Adobe產品和服務的方式。 您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
+訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實施 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
 
 ## 資料收集劃分 {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -49,7 +49,7 @@ Adobe Analytics 收集下列資料:
 
 *前提是 Adobe 客戶未選擇移除 IP。
 
-## 其他隱私權考量事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## 其他隱私權考量事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -73,7 +73,7 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 第一方分析不屬於線上行為廣告自律計畫（Self-Regulatory Program for Online Behavioral Advertising，簡稱「AdChoices」）的範圍。 </td> 
+   <td colname="col2"> 第一方分析不屬於「線上行為廣告自我監控計畫」(Self-Regulatory Program for Online Behavioral Advertising，簡稱「AdChoices」) 的規範範疇。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -89,24 +89,24 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/en_US/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/zh_TW/reference/index.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 客戶可將JavaScript測量程式碼中的Cookie期限變數設定為「無」、「工作階段」或其他指定值（以秒為單位）。 </td> 
+   <td colname="col2"> 客戶可以在 JavaScript 測量代碼中，將 Cookie 期限變數設為「none」、「session」或其他可在數秒內測量的指定值。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> Adobe已開發新的「依設計而設的隱私權」設定，現在可由Adobe clientCare for Adobe Analytics（先前稱為SiteCatalyst）14.9和15.4版啟用。啟用此新設定後，Adobe收集IP位址後，會立即將IP位址的最後八位元（最後一部分）取代為值0。 在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 </td> 
+   <td colname="col2"> Adobe 已開發出新的「從設計開始關注隱私權」設定，現在可在 Adobe ClientCare for Adobe Analytics (舊稱 SiteCatalyst) 發行版本 14.9 和 15.4 中啟用。啟用此新設定後，當 Adobe 收集到 IP 位址，IP 位址的最後八位元 (最後一部分) 就會立即更換為 0 值。在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 德國 </td> 
-   <td colname="col2"> <p>如果客戶尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡其 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 </p> <p>Adobe已針對Analytics準備一份資料處理合約(Vertrag fuer Auftragsdatenverarbeitung - ADV)，並經巴伐利亞資料保護局(Bayerisches Landesamt fuer Datenschutzaufsicht - bayLDA)審查並核准。 ADV 提供德文版和英文版。 </p> </td> 
+   <td colname="col2"> <p>如果客戶尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡其 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 </p> <p>Adobe 已針對 Analytics 備妥由巴伐利亞邦資料保護局 (Bayerisches Landesamt fuer Datenschutzaufsicht - BayLDA) 審查和批准的 Data Processing Agreement (Vertrag fuer Auftragsdatenverarbeitung - ADV)。ADV 提供德文版和英文版。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## EMEA 資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA 資料中心位置{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 下列 EMEA 資料中心目前代管 Adobe Analytics 資料:
 
