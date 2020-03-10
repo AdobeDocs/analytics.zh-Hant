@@ -2,12 +2,14 @@
 title: 演算法歸因
 description: Adobe Analytics中演算法歸因模型的詳細資訊。
 translation-type: tm+mt
-source-git-commit: 143cbed5f2159b7faab387e10896af836d0780f7
+source-git-commit: 30d44e990f9ed33d15cc1845e6bd11a1fef14eda
 
 ---
 
 
 # 演算法歸因
+
+> [!NOTE] 演算法歸因目前僅能透過 [Adobe Analytics Labs取得](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html)。 此功能將於2020年6月推出。
 
 「分析工 [作區](attribution.md) 」中的「演算法歸因」模型與其他模型不同，因為它使用統計技術在報表或自由表格中的維度值間分配評分。 和分析工作區中的所有其他歸因模型一樣，它可用於任何維度或度量，並支援無限制的分段和劃分，並將100%的轉換分發至表格中的維度（也稱為「分數」歸因）。
 
