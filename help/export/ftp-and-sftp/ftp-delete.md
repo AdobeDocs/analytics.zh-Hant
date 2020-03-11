@@ -3,7 +3,7 @@ description: Adobe FTP 政策針對連續 90 天無活動的 FTP 帳戶，會自
 keywords: ftp;sftp
 title: 刪除 FTP 資料和 FTP 帳戶
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
