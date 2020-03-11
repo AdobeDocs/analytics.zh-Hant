@@ -3,7 +3,7 @@ description: 'null'
 title: 歸因面板概述
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
+source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: fec5551a8d19af5201c741d64ed7efbfea062f17
 | ![時間耗損](assets/time_decay.png) | 時間耗損 | 會以自訂的半衰期參數 (預設為七天) 進行指數耗損。每個管道的權重須視接觸點啟動和最終轉換之間所經過的時間量而定。用於判斷評分的公式為 `2^(-t/halflife)`，`t` 代表接觸點和轉換之間的時間量。所有接觸點隨後都會標準化至 100%。 | 如有團隊經常刊登影片廣告，或針對預定日期的活動進行行銷，這個選項相當合適。從行銷活動到發生轉換的時間越久，獲得的評分就越少。 |
 | ![參與率](assets/participation.png) | 參與率 | 會將 100% 的評分給予所有不重複接觸點。相較於其他歸因模型，這項模型的轉換總數會經過誇大。參與率不會計入重複出現多次的管道。 | 這個模型很適於了解客戶經常接觸到哪些特定互動。媒體組織經常會使用此模型來計算內容速度。零售組織則常會使用此模型來了解網站的哪些部分是帶來轉換的關鍵。 |
 
-> [!NOTE] 下列演算法歸因模型目前已在 [Adobe Analytics Labs中提供](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) ，並將於2020年推出。
+> [!NOTE] 下列演算法歸因模型目前可在 [Adobe Analytics Labs中使用](https://docs.adobe.com/content/help/en/analytics/analyze/tech-previews/overview.html) ，並將最終成為一般版本的一部份。
 
 | UI 圖示 | 歸因模型 | 定義 | 使用時機 |
 | --- | --- | --- | --- |
