@@ -3,7 +3,7 @@ title: JavaScript適用的AppMeasurement發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 55150b8f6968fff973c889c8011e89eecc0d1720
+source-git-commit: e3bffe93b224089cb8561c415bf20a0457645ac3
 
 ---
 
@@ -20,7 +20,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期: **2020 年 3 月 5 日**
 
-* 已修正安全性相關問題。
+* 已修正安全性相關問題：更新Internet Explorer偵測以抑制JSLint警告。
 
 ## 2.19.0 版
 
