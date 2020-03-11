@@ -1,41 +1,41 @@
 ---
-title: 資料倉庫中的元件支援
-description: 瞭解Data Warehouse中有哪些額外維度和量度可用，以及哪些不受支援。
-translation-type: tm+mt
+title: Data Warehouse 中的元件支援
+description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
+translation-type: ht
 source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
 
 ---
 
 
-# 資料倉庫中的元件支援
+# Data Warehouse 中的元件支援
 
-資料倉庫的獨特處理架構可讓某些元件在Adobe Analytics的其他功能中通常無法使用。 由於其獨特的架構，某些元件無法用於報表或區段。 使用本頁可瞭解可使用的項目，以及無法使用的項目。
+Data Warehouse 的獨特處理架構允許使用某些在 Adobe Analytics 其他功能中通常無法使用的元件。由於其獨特的架構，某些元件無法用於報表或區段。請參閱本頁內容，了解可以使用以及無法使用的項目。
 
-## 資料倉庫的獨有元件
+## Data Warehouse 的獨有元件
 
-有些維度和量度可用於資料倉庫，但無法使用Adobe Analytics中的其他功能。
+有些維度和量度可用於 Data Warehouse，但若使用 Adobe Analytics 中的其他功能則無法使用。
 
-### 獨家支援的維度
+### 專門支援的維度
 
-* Experience Cloud ID:對於使用Experience Cloud ID服務(ECID)的實作，128位元數字由兩個串連的64位元數字組成，以19位元補充。
-* 頁面URL:點擊發生的頁面URL。
-* 購買ID:購買的唯一識別碼，請使用purchaseID變數來設定。
-* 訪客ID:提供訪客的唯一識別碼。 此值與資料饋送中的串連值 `visid_high` 和 `visid_low` 欄相同。 如需詳 [細資訊，請參閱](../analytics-data-feed/c-df-contents/datafeeds-reference.md) 「資料饋送」下的資料欄參考。
+* Experience Cloud ID：用在使用 Experience Cloud ID 服務 (ECID) 的實施，128 位元數字由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。
+* 頁面 URL：點擊發生的頁面 URL。
+* 購買 ID：購買的唯一識別碼，請使用 purchaseID 變數來設定。
+* 訪客 ID：提供訪客的唯一識別碼。此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
-### 獨家支援的量度
+### 專門支援的量度
 
-* 瀏覽次數：此度量在「資料倉儲」中會排除非永久性Cookie存取。
-* 瀏覽次數——所有訪客：資料倉庫中的此量度與Adobe Analytics中其他工具中的存取量度更接近。
+* 瀏覽次數：在 Data Warehouse 中，此度量會排除非永久性 Cookie 造訪。
+* 瀏覽次數 - 所有訪客：在 Data Warehouse 中，此量度與 Adobe Analytics 中其他工具的造訪量度更接近。
 
-## 資料倉庫不支援的元件
+## Data Warehouse 中不支援的支援元件
 
-有些維度和量度在資料倉庫中不受支援。
+Data Warehouse 中不支援某些維度和量度。
 
-> [!NOTE] 如果資料倉庫不支援維度或量度，也不支援使用這些元件的區段。 建立或編輯區段時，請務必檢查產品相容性。
+> [!NOTE] 如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。建立或編輯區段時，請務必檢查產品相容性。
 
 ### 不支援的維度
 
-* 一些以時間為基礎的維度，包括：
+* 某些以時間為主的維度，包括：
    * 上午/下午
    * 日期
    * 星期
@@ -46,7 +46,7 @@ source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
    * 季別
    * 平日/週末
    * 年
-* 部分路徑分析維度，包括：
+* 某些以路徑為主的維度，包括：
    * 除「登入頁面」外的所有登入維度
    * 除「退出頁面」和「退出連結」外的所有退出維度
    * 點擊深度
@@ -58,7 +58,7 @@ source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
 * 所有搜尋頁面排名
 * 階層變數
 * 點擊類型
-* 找不到頁面(可作為維度使用；不支援分段)
+* 找不到頁面 (可作為維度使用；不支援分段)
 * 付費搜尋
 * 單頁存取次數
 * 追蹤選擇退出原因
@@ -66,7 +66,7 @@ source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
 
 ### 不支援的量度
 
-* 部分路徑型量度，包括：
+* 某些以路徑為主的量度，包括：
    * 彈回數
    * 登入點
    * 退出點
