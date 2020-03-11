@@ -15,7 +15,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 1. 登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下右上方的 9 格線圖示，然後按一下 [!UICONTROL Analytics]。
-3. 在上方功能表中按一下[!UICONTROL 管理員] &gt; [!UICONTROL 資料摘要]。
+3. 在上方功能表中按一下[!UICONTROL 管理員] > [!UICONTROL 資料摘要]。
 
 ![資料摘要功能表](assets/AdminMenu.png)
 
@@ -23,7 +23,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 資料摘要管理員頁面的介面外觀如下:
 
-![資料饋送](assets/feeds.png)
+![資料摘要](assets/feeds.png)
 
 如果尚未設定摘要，頁面會顯示[!UICONTROL 「建立新的資料摘要」]按鈕。
 
@@ -31,7 +31,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 請使用篩選和搜尋找出您要尋找的確切摘要。
 
-在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。按一下 &gt; 形箭號即可收折或展開篩選類別。按一下核取方塊即可套用該篩選器。
+在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。按一下 > 形箭號即可收折或展開篩選類別。按一下核取方塊即可套用該篩選器。
 
 ![篩選](assets/filters.jpg)
 
