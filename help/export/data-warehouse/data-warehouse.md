@@ -3,7 +3,7 @@ description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資�
 title: Data Warehouse 概觀
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,11 +19,11 @@ Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件�
 
 Data Warehouse 針對個別已排程和已下載報表，可處理單一請求中的無限制列數。
 
-> [!NOTE] 資料倉庫會報告報告時段內遇到的第一個值。
+> [!NOTE] Data Warehouse 會報告在報告時段遇到的第一個值。
 
 >[!IMPORTANT]
 >
->對分類值進行分段時，「分析工作區」和「資料倉庫」會以不同方式處理「未指定」值。 Workspace 中的「未指定」是指未分類的值，而 Data Warehouse 中的「未指定」是指您分類為「未指定」的值。
+>依據分類的值進行分段時，Analysis Workspace 和 Data Warehouse 會將「未指定」的值視為不同的值處理。Workspace 中的「未指定」是指未分類的值，而 Data Warehouse 中的「未指定」是指您分類為「未指定」的值。
 
 ## Data Warehouse 請求說明 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
@@ -45,14 +45,14 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
    <td colname="col1"> <span class="wintitle"> 報告日期</span> </td> 
    <td colname="col2"> <p>請求的日期和詳細程度。 </p> 
     <ul id="ul_C00F4529BD9E4113B517A61751B1DD5C"> 
-     <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle">自訂</span>: 您在日曆中設定的日期範圍。 </li> 
-     <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle">預設</span>: 預設範圍。預設範圍是相對於報告日期。 </li> 
-     <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle">詳細程度</span>: 時間詳細程度。有效值為無、小時、日、週、月份、季度或年。 </li> 
+     <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle">自訂</span>：您在日曆中設定的日期範圍。 </li> 
+     <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle">預設</span>：預設範圍。預設範圍是相對於報告日期。 </li> 
+     <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle">詳細程度</span>：時間詳細程度。有效值為無、小時、日、週、月份、季度或年。 </li> 
     </ul> <p>報告虛擬報表套裝的 Data Warehouse 支援虛擬報表套裝上設定的替代時區。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用區段</span> </td> 
-   <td colname="col2"> <p>可讓您選擇要檢查的部分訪客人口並產生複雜區段。您可以載入預先設定的區段、建立新區段以及將區段元件儲存至建立其他區段時要使用的庫中。 </p> <p>您現在可以堆疊區段。選取多個區段時，預覽區域、「請求管理員」和「請求詳細資訊」彈出式功能表會顯示逗號分隔的名稱清單 (例如 Segment1, Segment2)。 </p> <p>請參閱 <a href="/help/components/c-segmentation/seg-home.md"> 分段指南</a>，瞭解更多資訊。 </p> <p>注意: 您不能在同一個 Data Warehouse 的同一個區段上，同時包括區段篩選和劃分。這麼做會導致錯誤。 </p> </td> 
+   <td colname="col2"> <p>可讓您選擇要檢查的部分訪客人口並產生複雜區段。您可以載入預先設定的區段、建立新區段以及將區段元件儲存至建立其他區段時要使用的庫中。 </p> <p>您現在可以堆疊區段。選取多個區段時，預覽區域、「請求管理員」和「請求詳細資訊」彈出式功能表會顯示逗號分隔的名稱清單 (例如 Segment1, Segment2)。 </p> <p>請參閱<a href="/help/components/c-segmentation/seg-home.md">分段指南</a>，瞭解更多資訊。 </p> <p>注意：您不能在同一個 Data Warehouse 的同一個區段上，同時包括區段篩選和劃分。這麼做會導致錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 劃分</span> </td> 
