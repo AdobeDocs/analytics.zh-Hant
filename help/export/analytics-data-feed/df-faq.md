@@ -1,25 +1,25 @@
 ---
-description: 有關資料饋送的常見問題
+description: 與資料摘要相關的常見問題
 keywords: Data Feed;job;pre column;post column;case sensitivity
-title: 資料饋送常見問答集
-translation-type: tm+mt
+title: 資料摘要常見問答集
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# 資料饋送常見問答集
+# 資料摘要常見問答集
 
-資料饋送的常見問題。
+與資料摘要相關的常見問題。
 
-## 前置詞的欄與前置詞的欄 `post_` 有何不 `post_` 同？
+## 具有 `post_` 首碼的欄與沒有 `post_` 首碼的欄有何不同?
 
-不含首碼 `post_` 的欄包含的資料與傳送至資料收集的資料完全相同。 前置詞的 `post_` 欄包含處理後的值。 可變更值的範例包括變數永續性、處理規則、VISTA規則、貨幣轉換或Adobe套用的其他伺服器端邏輯。 Adobe建議盡可能 `post_` 使用欄的版本。
+不含 `post_` 首碼的欄包含的資料與資料收集所收到的資料完全相同。具有 `post_` 首碼的欄則包含處理完成後的值。會造成值變更的原因包括變數的持續沿用、處理規則、VISTA 規則、貨幣轉換或 Adobe 套用的其他伺服器端邏輯。Adobe 建議您盡可能使用 `post_` 版本的欄。
 
-If a column does not contain a `post_` version (for example, `visit_num`), then the column can be considered a post column.
+如果欄不含 `post_` 版本 (例如 `visit_num`)，則該欄可視為後置欄。
 
-## 資料饋送如何處理區分大小寫？
+## 資料摘要是否區分大小寫?
 
-在Adobe Analytics中，大部分的變數都會被視為不區分大小寫，以利報告。 例如，'snow'、'Snow'、'SNOW'和'sNow'都被視為相同的值。 資料饋送會保留區分大小寫。
+在 Adobe Analytics 中，為了報表呈現目的，大部分的變數都不區分大小寫。舉例來說，「snow」、「Snow」、「SNOW」和「sNow」都是相同的值。資料摘要則會區分大小寫。
 
-如果您在非貼文和貼文欄之間看到相同值的不同大小寫變化（例如，前置欄中為'snow'，後置欄中為'Snow'），則您的實作會在您的網站上同時使用大寫和小寫值。 前置欄中的大小寫變化形是在之前傳入並儲存在虛擬 cookie 中，或是與該報表套裝在大約相同的時間處理。
+如果您在非後置欄和後置欄中看到同一值的不同大小寫變化形 (例如，前置欄中是「snow」，後置欄中是「Snow」)，表示您實作時在網站中同時使用了同一值的大寫和小寫版本。前置欄中的大小寫變化形是在之前傳入並儲存在虛擬 cookie 中，或是與該報表套裝在大約相同的時間處理。
