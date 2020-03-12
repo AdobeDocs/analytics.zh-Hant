@@ -1,31 +1,31 @@
 ---
-title: Analytics適用的PWA
-description: Adobe Analytics的漸進式網頁應用程式
-translation-type: tm+mt
+title: Analytics 專用 PWA
+description: Adobe Analytics 專用漸進式網頁應用程式
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# Analytics適用的PWA
+# Analytics 專用 PWA
 
-本指南說明如何搭配使用Adobe Analytics與漸進式網頁應用程式(PWA)。
+本指南說明如何搭配使用 Adobe Analytics 與漸進式網頁應用程式 (PWA)。
 
 ## 簡介
 
-PWA可為網站提供原生應用程式體驗以及離線功能。 通常，PWA包括服務工作者、快取設定和資訊清單檔案，這些功能都有助於加快載入時間、更輕鬆的導覽和回應式行為。
+PWA 可為網站提供原生應用程式體驗及離線功能。PWA 通常會包含服務程式、快取佈建和資訊清單檔案，這些都有助於實現更短的載入時間、更輕鬆的導覽操作，以及快速回應。
 
-Adobe Analytics與PWA搭配運作的順暢程度與傳統網站的順暢度相同。 雖然PWA需要多一些要求，才能逐漸地在內部和內部運作，但Analytics收集或報告資料的方式並不會造成任何障礙或限制，與傳統網站不同。 事實上，由於Analytics已包含離線追蹤功能，PWA可協助您比傳統網站更輕鬆地運用此內建功能。
+Adobe Analytics 與 PWA 搭配運作的順暢程度，與傳統網站如出一轍。雖然要讓 PWA 本身和內部以漸進方式運作，必須額外符合幾項要求，但 PWA 不會造成任何阻礙或限制，而導致 Analytics 收集或回報資料的方式與傳統網站有所不同。事實上，由於 Analytics 已具備離線追蹤功能，PWA 可協助您運用這項內建功能，且過程比傳統網站更為輕鬆。
 
-## 取得您的PWA Analytics資料
+## 取得 PWA Analytics 資料
 
-若要使用Analytics收集和分析PWA資料，您不需要進行任何設定變更。 Analytics會自動提供與傳統網站相同的所有功能和功能。
+您不需要變更任何設定，即可透過 Analytics 收集和分析 PWA 資料。Analytics 會自動提供與傳統網站相同的所有功能和特色。
 
-## 新增離線追蹤以提高PWA效能
+## 新增離線追蹤功能以提高 PWA 效益
 
-您可以搭配使用Analytics離線追蹤功能來提 [高PWA](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) 的效能。 依預設，此功能已關閉，但您可以將下列屬性新增至AppMeasurement.js檔案以開啟： `s.trackOffline=true;`。
+您可以搭配使用 Analytics [離線追蹤功能](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html)，提高 PWA 的使用效益。此功能預設為關閉，但只要將下列屬性新增至 AppMeasurement.js 檔案即可開啟：`s.trackOffline=true;`。
 
-例如，在下列AppMeasurement.js檔案中，屬性會新增至結尾 `CONFIG SECTION`:
+例如，下列 AppMeasurement.js 檔案中，將該屬性新增至 `CONFIG SECTION` 的結尾處：
 
 ```
 /************************** CONFIG SECTION **************************/ 
@@ -45,8 +45,8 @@ s.trackOffline=true
 ```
 
 
-如需編輯AppMeasurement.js檔案的詳細資訊，請參 [閱將程式碼插入AppMeasurement.js檔案](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
+如需編輯 AppMeasurement.js 檔案的詳細資訊，請參閱[在 AppMeasurement.js 檔案中插入程式碼](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
 
-如需AppMeasurement.js檔案中設定的範例，請參 [閱設定AppMeasurement.js檔案](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)。
+如需 AppMeasurement.js 檔案的設定範例，請參閱[設定 AppMeasurement.js 檔案](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)。
 
-如需AppMeasurement.js檔案特性的詳細資訊，請參閱 [Javascript實作概觀](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
+如需 AppMeasurement.js 檔案特性的詳細資訊，請參閱 [Javascript 實作概述](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
