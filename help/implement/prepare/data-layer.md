@@ -2,7 +2,7 @@
 title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 translation-type: tm+mt
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -167,3 +167,7 @@ digitalData = {
 ## 設定資料層值
 
 資料層通常會產生伺服器端，並參照用來建立網站內容的相同物件。 根據組織解決方案設計檔案中設定的追蹤需求，建立網站的 [資料層](solution-design.md)。
+
+## 後續步驟
+
+[將資料層物件對應至資料元素](../launch/layer-to-elements.md):在Adobe Experience Platform Launch中使用您網站的資料層。
