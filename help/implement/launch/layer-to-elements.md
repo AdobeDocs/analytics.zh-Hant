@@ -1,7 +1,6 @@
 ---
-description: 'null'
 title: 將資料層物件對應至資料元素
-uuid: null
+description: 設定「啟動」以從資料層讀取。
 translation-type: tm+mt
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
@@ -10,35 +9,28 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 # 將資料層物件對應至資料元素
 
+在您的組織建立並實作網站上的資料層後，您就可以將資料層物件對應至Launch中的資料元素。
 
-為實 [作建立資料層](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html) ，您可以將其中的物件對應至Launch中 [的資料元素](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)。 資料元素是您資料圖的建置區塊，可透過多種方式加以運用。 您可以使用資料元素跨Adobe Platform解決方案收集、組織和傳遞資料，包括您的Analytics報表。
+## 必備條件
 
-要將資料層對象映射到啟動資料元素：
+[建立資料層](../prepare/data-layer.md):請確定您的網站上有資料層。 雖然從技術上講，您可以直接對應任何JavaScript物件或從頁面上刮取CSS元素，但Adobe建議您最後採取此作法。 如果您的網站版面變更，Launch中使用的CSS選擇器會停止運作，造成資料遺失。
 
-1. 在啟動中，按一下您要新增資料元素的屬性名稱。 如果您尚未設定屬性，請參閱「建立啟動屬 [性」的指示](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/configure-launch/launch.html)。
+## 使用Adobe Experience Platform Launch建立資料元素
 
-2. Click **Data Elements** and then click **Create New Data Element**.
+[資料元素](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element) 是Launch中的元件，您可在工具間使用。 您可以使用資料元素，在Adobe Analytics擴充功能中指派變數值。
+
+1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
+1. 按一下所要的「啟動」屬性。
+1. Click the [!UICONTROL Data Elements] tab, then click [!UICONTROL Add Data Element].
 
    ![建立資料元素](assets/createelement.png)
 
+1. 輸入您的資料元素名稱。 它可以是與您要追蹤之資料層中的JavaScript變數相對應的簡單標籤。
+1. 在下拉式清 [!UICONTROL Extension] 單下，選取 [!UICONTROL Core]。
+1. 在下拉式清 [!UICONTROL Data Element Type] 單下，選取 [!UICONTROL JavaScript Variable]。 右側會出現一個文字欄位，可讓您輸入JavaScript變數以對應至此資料元素。
+1. 輸入所要的Javascript變數，通常在您的資料層中。 例如，如果貴組織的資料層與Adobe的建議做法緊密相符，則值可能是 `digitalData.page.pageInfo.pageName`。 您可以使用瀏覽器的主控台來驗證JavaScript變數語法和值。
+1. 按一下 [!UICONTROL Save].
 
-3. 輸入您的資料元素名稱。 此名稱應是與您要追蹤之資料層中JavaScript變數相對應的簡單標籤。
+## 後續步驟
 
-4. 對於「擴充功能」，請選取「 **核心」。** 此擴充功能包含您需要的所有變數。
-
-5. For **Data Element Type**, select **JavaScript Variable**. 在適用 **欄位中輸入** Javascript變數名稱。 這應符合JavaScript資料層中物件的確切名稱。
-
-6. 在「 **預設值**」中，輸入預設情況下要建立的任何值，或將其保留為空（如果適用）。
-
-7. 根據您的做法，您可以選擇強制小寫值並強制執行乾淨文本的選項（「啟動」將應用常規間距）。
-
-8. 指定您要為新資料元素具有「啟動儲存區」值的持續時間。
-
-9. 按一下&#x200B;**「儲存」**。
-
-下列範例顯示在Launch中為資料層中的JavaScript變數建立的「頁 ``pageName`` 面名稱」資料元素：
-
-![指定元素](assets/new_element.png)
-
-
-您的資料層物件會對應至資料元素，您可以運用這些物件來填入Analytics變數。 如需詳細資訊，請參 [閱將資料元素對應至Analytics變數](https://docs.adobe.com/content/help/en/analytics/implementation/prepare/data-layer.html)。
+[將資料元素對應至Analytics變數](elements-to-variable.md):將資料元素指派給Analytics變數，以便在分析工作區中將它們當做維度使用。
