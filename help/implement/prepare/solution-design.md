@@ -2,7 +2,7 @@
 title: 建立解決方案設計文件
 description: 瞭解解決方案設計文件是什麼，以及可如何將其用於您的組織。
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
 
@@ -46,5 +46,4 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 在解決方案設計文件中實作變數。
 
-* eVar 簡介: 瞭解 eVar 是什麼、其運作方式，以及如何在實施中使用 eVar
-* 事件簡介: 瞭解成功事件是什麼、其運作方式，以及如何在實施中使用成功事件
+[建立資料層](data-layer.md):將設計檔案中的變數轉換為網站上的JavaScript變數。
