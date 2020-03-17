@@ -29,10 +29,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型:
+>[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/attribution.html) 文件。
->* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意:「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
+>* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
 >* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Reporting API、Report Builder 和 Ad Hoc Analysis 會反映此次計算量度變更。如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
 >
 
@@ -42,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Ad Hoc Analysis、[!UICONTROL Reports &amp; Analytics]、Report Builder、Activity Map 和 Reporting API。此次變更主要影響 eVar 和其他具持續性的維度。請注意，這些變更只會套用至計算量度，不會影響其他使用線性配置的報表 (例如 [!UICONTROL Reports &amp; Analytics] 的「頁面」報表)。其他使用線性配置的報表將繼續使用目前的線性配置方法。
 
-下列範例將說明具有線性配置的計算量度在報表中將如何變更:
+下列範例將說明具有線性配置的計算量度在報表中將如何變更：
 
 <table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
  <thead> 
@@ -105,9 +105,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **2018 年 7 月前的線性配置運作方式摘要**
 
-2018 年 7 月 19 日前，線性歸因是在首次接觸或上次接觸持續性發生後才開始計算。也就是說，就上述的上次接觸 eVar 而言，$10 將分配如下: A = 10 * (3/6) = $5，B = 10 * (2/6) = $3.33，C = 10 * (1/6) = $1.67。
+2018 年 7 月 19 日前，線性歸因是在首次接觸或上次接觸持續性發生後才開始計算。也就是說，就上述的上次接觸 eVar 而言，$10 將分配如下：A = 10 * (3/6) = $5，B = 10 * (2/6) = $3.33，C = 10 * (1/6) = $1.67。
 
-就上述的首次接觸 eVar 而言，$10 會全數分配給 A。對 prop 而言: A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，而 C = 10 * (1/4) = $2.50。目前線性配置的運作方式總結如下:
+就上述的首次接觸 eVar 而言，$10 會全數分配給 A。對 prop 而言：A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，而 C = 10 * (1/4) = $2.50。目前線性配置的運作方式總結如下：
 
 | 值 | 目前的上次接觸 eVar | 目前的首次接觸 eVar | 目前的 Prop |
 |---|---|---|---|
