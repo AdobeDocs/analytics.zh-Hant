@@ -3,7 +3,7 @@ description: 收入會在購買事件發生時擷取，並定義為每項產品�
 title: 收入
 topic: Metrics
 uuid: d0c2c012-42a7-4ff2-8224-6486ab956d98
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
