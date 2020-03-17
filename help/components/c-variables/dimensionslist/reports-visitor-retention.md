@@ -3,7 +3,7 @@ description: 顯示您客戶的忠誠度。您可以看到訪客回訪您網站�
 title: 訪客保留率
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> 回訪頻度 </td> 
-   <td colname="col2"> <p>以下列類別 (代表每次存取間的時間間隔) 顯示返回您網站的訪客數目: 少於 1 天、1-3 天、3-7 天、8-14 天、14 天至 1 個月，以及多於 1 個月。 </p> </td> 
+   <td colname="col2"> <p>以下列類別 (代表每次存取間的時間間隔) 顯示返回您網站的訪客數目：少於 1 天、1-3 天、3-7 天、8-14 天、14 天至 1 個月，以及多於 1 個月。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 回訪 </td> 
@@ -55,7 +55,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 每日獨特客戶 </td> 
-   <td colname="col2"> <p>表示一天內在您的網站上購物的不同訪客人數。每日唯一客戶為某日首次在您網站購物的客戶 (從早上 12:01 至隔日早上 12:00)。 </p> <p>雖然客戶一天內可在您的網站購物多次，但「<span class="wintitle">每日唯一客戶</span>」報告會將其記錄為一個唯一訪客，以便您瞭解當天有多少不同的訪客從您的網站購買產品。 </p> </td> 
+   <td colname="col2"> <p>表示一天內在您的網站上購物的不同訪客人數。每日唯一客戶為某日首次在您網站購物的客戶 (從早上 12：01 至隔日早上 12：00)。 </p> <p>雖然客戶一天內可在您的網站購物多次，但「<span class="wintitle">每日唯一客戶</span>」報告會將其記錄為一個唯一訪客，以便您瞭解當天有多少不同的訪客從您的網站購買產品。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 每週獨特客戶 </td> 
