@@ -12,14 +12,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 計算量度產生器提供的畫布可用來拖放維度、量度、區段及函數，讓您根據容器階層邏輯、規則及運算子來建立自訂量度。此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
 
-有幾種方式可以存取計算量度產生器:
+有幾種方式可以存取計算量度產生器：
 
-* 在 Analysis Workspace 中，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** &gt; **[!UICONTROL 建立量度」]**。
-* 在 [!DNL Analytics] 中，前往&#x200B;**[!UICONTROL 元件]** &gt; **[!UICONTROL 計算量度]**。
+* 在 Analysis Workspace 中，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立量度」]**。
+* 在 [!DNL Analytics] 中，前往&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 計算量度」]**。
 
-* 按一下[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)頂端的&#x200B;**[!UICONTROL 「+ 新增」]**，或者
+* 按一下計算量度管理員頂端的「**[!UICONTROL + 新增]**[](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」，或者
 
-* 前往 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 報表]**，開啟任一報表並按一下「量度」圖示 ![](assets/metrics_icon.png) 以叫出「量度」欄，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
+* 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟任一報表並按一下量度圖示 ![](assets/metrics_icon.png) 以叫出「量度」邊欄，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
 
 ![](assets/cm_builder_ui.png)
 
@@ -55,12 +55,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 標記 </span> </td> 
-   <td colname="col3"> <p>標記是組織量度的好方法。所有使用者都能建立標記，並套用一或多個標記至量度。不過，您僅可以看見自己所擁有或已共用給您之區段的標記。您應該建立什麼樣的標記? 以下是一些建議的實用標記: 
+   <td colname="col3"> <p>標記是組織量度的好方法。所有使用者都能建立標記，並套用一或多個標記至量度。不過，您僅可以看見自己所擁有或已共用給您之區段的標記。您應該建立什麼樣的標記？ 以下是一些建議的實用標記： 
      <ul id="ul_9A6CE5F179424687A39F2D5C1A953258"> 
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">以<b>團隊名稱</b>為基礎的標記，例如「社交行銷」、「手機行銷」。 </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>專案</b>標記 (分析標記)，例如「登入頁面分析」。 </li> 
-      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>類別</b>標記: 「男性」、地理區。 </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>工作流程</b>標記: 「待核准」、策劃 (特定的業務單位) </li> 
+      <li id="li_B4605470A7094026AC168420B64BBCC3"><b>類別</b>標記：「男性」、地理區。 </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>工作流程</b>標記：「待核准」、策劃 (特定的業務單位) </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 產品相容性 </span> </td> 
-   <td colname="col3"> <p>產品相容性會顯示量度是否與<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/data_latency.html"  >目前的資料</a>、完全處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註: 目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
+   <td colname="col3"> <p>產品相容性會顯示量度是否與<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/data_latency.html"  >目前的資料</a>、完全處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 新增 </span> </td> 
@@ -114,12 +114,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>量度清單 </p> </td> 
-   <td colname="col3"> <p>量度共有 3 個類別: </p> 
+   <td colname="col3"> <p>量度共有 3 個類別： </p> 
     <ul id="ul_7BF50F4964EF45858FBA1634FBFA45CF"> 
      <li id="li_90F2312927A6499CA1CE04F8FFC912CF">標準量度 ( <img placement="inline"  src="assets/met_icon.png" id="image_65A80F54D73443E78542FE0B31CC3F20" />) </li> 
      <li id="li_A3F59083E79B4AC780D6F8CEDFFD20C9">計算量度 ( <img placement="inline"  src="assets/calc_met_icon.png" id="image_C5674AB9B9EB4DA9A56782D15822C319" />) </li> 
      <li id="li_8735E76637ED4C3F983731A66E04C93E">量度範本 (<img placement="inline"  src="assets/cm_template_icon.png" width="25px" id="image_D236601511CC4DD3828F223431E27E88" />) - 位於清單底部。 </li> 
-    </ul> <p>當您將游標放在量度上時，其右側會顯示資訊圖示: <img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。按一下此圖示會提供下列資訊: </p> 
+    </ul> <p>當您將游標放在量度上時，其右側會顯示資訊圖示：<img placement="inline"  src="assets/info.png" width="150px" id="image_5A65E772A68A4B94ACAD6552CCF21F5F" />。按一下此圖示會提供下列資訊： </p> 
     <ul id="ul_DF35DDB9FBFA40C8A93FA0F2286A0BBE"> 
      <li id="li_4215AA9BF93F4C8B941002A7A4D2F50B">其計算公式。 </li> 
      <li id="li_6A8E39EB6DCE4377B0B594B6D4FC0294">量度的預覽趨勢。 </li> 
@@ -132,7 +132,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>函數清單 </p> </td> 
-   <td colname="col3"> <p>(僅限進階計算量度) 函數分為兩種清單:  <a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本</a> (最常使用) 和<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >進階</a>。 </p> </td> 
+   <td colname="col3"> <p>(僅限進階計算量度) 函數分為兩種清單：<a href="/help/components/c-calcmetrics/cm-reference/cm-functions.md"  >基本</a> (最常使用) 和<a href="/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md"  >進階</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>報表套裝選擇器 </p> </td> 
