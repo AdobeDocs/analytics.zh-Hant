@@ -3,7 +3,7 @@ description: 檔案下載有助您瞭解訪客從網站下載檔案的頻率。�
 title: 檔案下載
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,11 +15,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **導覽**
 
-**[!UICONTROL 報表]** &gt; **[!UICONTROL 網站內容]** &gt; **[!UICONTROL 連結]** &gt; **[!UICONTROL 檔案下載]**
+**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 連結]** > **[!UICONTROL 檔案下載」]**
 
 若此報告未在預設位置中，請洽詢您的管理員，因為他們可能變更了預設功能表結構以因應您的組織獨特的需求。
 
-使用此報告可以:
+使用此報告可以：
 
 * 判斷從您網站中下載最頻繁的檔案。
 * 瞭解是否在特定時段內某些檔案下載的次數更多。
