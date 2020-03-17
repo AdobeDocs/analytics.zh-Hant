@@ -3,7 +3,7 @@ description: 說明 Experience Cloud 中所使用的報告類別。
 title: 報表類別
 topic: Reports
 uuid: 78369121-3854-4bf9-9156-c2369ec75d73
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,12 +21,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 產品報告是趨勢報告的範例。您可以查看在選定的期間內，一項產品產生了多少收入。如果您的報告期間是一週，則可查看該產品在該時段每一天產生多少收入，也可以顯示特定產品在某一天的趨勢圖，或是開啟選取範圍的個別趨勢報告。「總計」報表是執行層級報表，可顯示營收數字。它包含總收入、頁面檢視和訂單的資料。您可對報告進行區段，並新增其他量度以檢視其他資料。流量會顯示使用者在頁面、網站區域及伺服器間採取的最常見路徑。
 
-如需流量如何在 Analysis Workspace 中運作的相關資訊，請參閱[客戶歷程 – 流量](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/flow.html)。
+如需流量如何在 Analysis Workspace 中運作的相關資訊，請參閱[客戶歷程 – 流量](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/flow.html)。
 
 **下一流量**
 
-「下一流量」報告群組內含 3 個報告:「下一頁流量」、「下一區域流量」和「下一伺服器流量」。該群組中的報告顯示訪客在存取指定頁面、網站區域或伺服器後，存取最頻繁的頁面、網站區域和伺服器。這些報告顯示穿過網站的最常見路徑。
+「下一流量」報告群組內含 3 個報告：「下一頁流量」、「下一區域流量」和「下一伺服器流量」。該群組中的報告顯示訪客在存取指定頁面、網站區域或伺服器後，存取最頻繁的頁面、網站區域和伺服器。這些報告顯示穿過網站的最常見路徑。
 
 **上一流量**
 
-「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報告的控制項與「下一流量」報告的控制項相同。「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。如需詳細資訊，請參閱 Analysis Workspace 中的[流失](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/fallout_flow.html)。
+「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報告的控制項與「下一流量」報告的控制項相同。「流失」視覺效果提供更多選項，供您建立流失報表。流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。如需詳細資訊，請參閱 Analysis Workspace 中的[流失](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/fallout_flow.html)。
