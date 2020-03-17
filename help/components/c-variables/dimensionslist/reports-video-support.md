@@ -3,7 +3,7 @@ description: 依照行動裝置支援的影片格式類型對行動裝置分組�
 title: 視訊支援
 topic: Reports
 uuid: a1dcf60a-a1e5-4a0c-9aec-3fadc71c22c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
