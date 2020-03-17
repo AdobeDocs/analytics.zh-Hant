@@ -3,7 +3,7 @@ description: 客戶到達購買過程結帳步驟的事件。結帳階段通常�
 title: 結帳
 topic: Metrics
 uuid: 5379b814-7055-44d1-b080-bc8a27b967d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
