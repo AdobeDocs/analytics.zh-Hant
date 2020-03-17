@@ -3,7 +3,7 @@ description: 「上一區域流量」報表類似於「上一頁流量」報表�
 title: 上一區域流量
 topic: Reports
 uuid: 7be8d3e5-4936-40a0-845c-1617208479d6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
