@@ -3,7 +3,7 @@ description: 量度是報告的基礎，有助於您檢視和理解資料關係�
 title: 量度概觀
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,4 +17,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 以下是[標準 Analytics 量度](/help/components/c-variables/c-metrics/metrics-overview.md)的概觀。
 
-[計算量度是由組合量度所建立。](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)
+[計算量度是由組合量度所建立。](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)
