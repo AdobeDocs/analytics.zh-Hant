@@ -3,7 +3,7 @@ description: 識別個別產品和產品群組 (類別) 對各種轉換量度 (�
 title: 產品
 topic: Reports
 uuid: a081352b-601a-43be-83ad-fa7f69890b49
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 交叉銷售 </td> 
-   <td colname="col2"> <p> 該報告依「交叉銷售」劃分，顯示產品之間的銷售關係。此報告回答的問題是:「如果訪客購買了項目 A，在同一次訂購中他們還購買了其他什麼項目?」 </p> </td> 
+   <td colname="col2"> <p> 該報告依「交叉銷售」劃分，顯示產品之間的銷售關係。此報告回答的問題是：「如果訪客購買了項目 A，在同一次訂購中他們還購買了其他什麼項目？」 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 類別 </td> 
