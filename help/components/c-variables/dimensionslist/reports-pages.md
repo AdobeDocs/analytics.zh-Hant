@@ -3,7 +3,7 @@ description: 基於接收最多流量的網頁對頁面進行排名。如果您�
 title: 頁面
 topic: Reports
 uuid: 6435e262-e734-4c15-af5b-173799d5cc43
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -61,7 +61,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在「Reports &amp; Analytics」中，如果您在頁面報表中將任何自訂事件套用為量度，則套用線性分配。
 
-這表示即使該事件是以 s.tl() 呼叫傳送，仍會取得先前 s.t() 呼叫的線性分配。範例:
+這表示即使該事件是以 s.tl() 呼叫傳送，仍會取得先前 s.t() 呼叫的線性分配。範例：
 
 | 頁面名稱 | Page_event | 事件 |
 |---|---|---|
@@ -73,7 +73,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 頁面 2 | **s.t()** |  |
 | 頁面 2 | s.tl() | Event1 |
 
-對於這種情況，我們將在頁面報表中取得下列分配:
+對於這種情況，我們將在頁面報表中取得下列分配：
 
 | 頁面 | 頁面檢視 | 事件 1 |
 |---|---|---|
