@@ -3,7 +3,7 @@ description: 量度是採用標準、參與率、最近和線性配置方法來�
 title: 量度計算
 topic: Metrics
 uuid: 2af58f1e-12c5-4828-ae39-c9aeaef6b705
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -42,11 +42,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 範例 - 量度計算 {#section_4CE01DA35108418D9909823A7ECC4B45}
 
-假設您的網站有內部搜尋，並使用轉換變數 (eVar) 加以追蹤。訪客執行了數個內部搜尋，之後購買了 $100 元商品:
+假設您的網站有內部搜尋，並使用轉換變數 (eVar) 加以追蹤。訪客執行了數個內部搜尋，之後購買了 $100 元商品：
 
-*`Pet`* &gt; *`Feline`* &gt; *`Cat`* &gt; *`Kitten`* &gt;購買 $100 的商品
+*`Pet`* > *`Feline`* > *`Cat`* > *`Kitten`* > 購買 $100 的商品
 
-在報告中，評分分配如下: 
+在報告中，評分分配如下：
 
 <table id="table_91A7244E77854838A8392B49366FB445"> 
  <thead> 
