@@ -3,7 +3,7 @@ description: 「單頁存取次數」報表不應與 Ad Hoc Analysis 中的「�
 title: 單頁存取次數
 topic: Reports
 uuid: 5ca52be8-c7f5-464a-8a06-55e8271760b4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此報告最常用於[!UICONTROL 頁面]報告的環境中，但也可在所有已啟用[!UICONTROL 路徑]的流量變數中檢視。您可以使用此報告來識別最不可能吸引訪客進一步瀏覽您的網站的登入頁面，或判斷單一頁面包含多少次瀏覽。這項資訊可讓您將內容最佳化，以降低這些頁面的退出率。
 
-## 報告的屬性 {#section_2D30F939FE0648EF983DD7C1BAB1181B}
+## 報告的屬性{#section_2D30F939FE0648EF983DD7C1BAB1181B}
 
 * 以[!UICONTROL 單次存取]作為量度，可提取[!UICONTROL 頁面]報告以擷取相同的報告。
 
