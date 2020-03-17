@@ -3,7 +3,7 @@ description: 「路徑檢視」量度以路徑資料為基礎，系統會為所�
 title: 路徑檢視
 topic: Metrics
 uuid: ceab036c-8e0c-43b7-946a-aeba6a253982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
