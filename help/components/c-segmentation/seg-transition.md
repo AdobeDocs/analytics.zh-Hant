@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: 常見問題集
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace 的區段功能
 
-   * 您可以[比較區段](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segment-comparison.html)。
-   * 在比較時使用[區段作為維度](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/segments_as_dimensions.html)。
-   * 在[流失分析](https://marketing.adobe.com/resources/help/en_US/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用區段。
+   * 您可以[比較區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/segment-comparison.html)。
+   * 在比較時使用[區段作為維度](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/segments_as_dimensions.html)。
+   * 在[流失分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用區段。
 
 * 您可以[將多個區段套用至報表或專案](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 區段在所有報表套裝中都通用。
@@ -36,35 +36,35 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 存取區段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
-**如何開啟區段產生器?**
+**如何開啟區段產生器？**
 
-存取「區段產生器」的方法有:
+存取「區段產生器」的方法有：
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
 
-* 在「區段管理器」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![](assets/add_button.png)
+* 在「區段管理員」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![](assets/add_button.png)
 
    或
 
 * 按一下「區段管理員」中的現有區段標題，以編輯「區段產生器」中的區段。
 
-**如何開啟區段管理員?**
+**如何開啟區段管理員？**
 
-存取「區段管理員」的方法有:
+存取「區段管理員」的方法如下：
 
-* 前往頂端導覽中的&#x200B;**[!UICONTROL 分析]** &gt; **[!UICONTROL 元件]**。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
+* 前往頂端導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
-* 在介面中任意處按正斜線鍵 '/'，然後搜尋區段管理員。
+* 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
-**舊式區段下拉式清單移至何處?**
+**舊式區段下拉式清單移至何處？**
 
 「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，
 
 區段欄隨即顯示。
 
-**舊式報表套裝下拉式清單移至何處?**
+**舊式報表套裝下拉式清單移至何處？**
 
 報表套裝下拉式清單已移至到每個報表或控制面板右上角的日期選擇器旁邊。
 
@@ -72,19 +72,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 權限 {#section_648DFA3A882146C485A84ED014EEC707}
 
-**要使用、建立和管理區段需要有什麼權限?**
+**要使用、建立和管理區段需要有什麼權限？**
 
-依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
+依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
 
 管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
-**我是否可以看見公司中的所有區段?**
+**我是否可以看見公司中的所有區段？**
 
 是的，管理員可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
 
 「Ad Hoc Analysis」和「Report Builder」會顯示區段您所擁有和已共用給您的區段。
 
-**我是否可以在區段管理員中管理所有 Analytics 區段?**
+**我是否可以在區段管理員中管理所有 Analytics 區段？**
 
 是的，所有區段都可以在 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 的「區段管理員」中進行管理。「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
 
@@ -92,18 +92,18 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「Ad Hoc Analysis」和「Report Builder」只會顯示您建立的區段或專門與您共用的區段。
 
-**我為何刪除不了區段?**
+**我為何刪除不了區段？**
 
 如果區段已[發佈至 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)，則您無法加以刪除或編輯。不過，您可以加以複製再編輯複製的版本。
 
 ## 最佳實務 {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
-**有具有相同名稱、但不同定義的重複區段時該怎麼辦?**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一:
+**有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
 
 * 重新命名具有相同名稱、但不同定義的區段，或是
 * 刪除不再需要的區段。
 
-**Adobe 對於清除區段有什麼建議?**
+**Adobe 對於清除區段有什麼建議？**
 
 * 以 legacy 標記標記所有區段。
 * 檢閱您現有的區段。
@@ -113,45 +113,45 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 管理舊式區段 {#section_76CF47142D1A4FB6A0718AD9073049FE}
 
-**我現有的區段有什麼改變?**
+**我現有的區段有什麼改變？**
 
 您現有的區段將繼續如往常般運作。任何已套用這些區段的報表都將繼續正常運作。[更多...](/help/components/c-segmentation/seg-transition.md)
 
 原本預先定義的區段與套裝區段多半會以區段範本的形式移轉至「區段產生器」。區段範本的用途是快速建立具有常見對象的自訂區段。區段範本無法直接套用至報表，但可以輕易儲存成自訂區段。
 
-區段範本在「區段產生器」中有特殊的圖示標記:
+區段範本在「區段產生器」中有特殊的圖示標記：
 
 ![](assets/seg_templates.png)
 
-**我現有的區段資料夾有什麼改變?**
+**我現有的區段資料夾有什麼改變？**
 
 「區段管理員」不使用 (Ad Hoc Analysis) 資料夾，而是使用標記之間。您的資料夾名稱會自動轉換成標記，而這些標記會套用至對應的區段。
 
-**已套用區段的已計劃報表有什麼改變?**
+**已套用區段的已計劃報表有什麼改變？**
 
 已計劃的報表會繼續使用您定義的區段正常運作。
 
 當您刪除區段時，已套用此區段的已計劃報表和控制面板會繼續正常運作，亦即區段或控制面板會繼續使用刪除的區段。
 
-當您編輯同名區段時，已計劃的報表不會更新。以下是範例: 假設您有 2 個同名區段分別位在不同報表套裝中:
+當您編輯同名區段時，已計劃的報表不會更新。以下是範例：假設您有 2 個同名區段分別位在不同報表套裝中：
 
 ![](assets/duplicate_seg_names.png)
 
 您有個書籤是引用 mainprod 報表套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將 maindev 區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或已計劃報表是否正在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否正使用剩下那個區段。
 
-**Data Warehouse 區段有何變化?**
+**Data Warehouse 區段有何變化？**
 
 所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分 Data Warehouse 區段也可繼續在 Analysis Workspace、Ad Hoc Analysis 和 Reports &amp; Analytics 等其他元件中運作。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
 
-**Ad Hoc Analysis 中的我的最愛區段有什麼變化?**
+**Ad Hoc Analysis 中的我的最愛區段有什麼變化？**
 
 這些 Ad Hoc Analysis 區段在 Adobe Analytics 中會顯示為一般區段。
 
 不應將它們與「區段管理員」中可讓您將區段標記為我的最愛的「我的最愛」功能混淆。
 
-**預先建立的區段有何變化?**
+**預先建立的區段有何變化？**
 
 * **單頁存取次數**
 * **來自行動裝置的瀏覽次數**
@@ -163,7 +163,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 已套用這些區段的現有報表將可繼續正常運作。
 
-**Experience Cloud (套裝) 區段有何變化:**
+**Experience Cloud (套裝) 區段有何變化：**
 
 * 非購買者
 * 購買者
@@ -177,7 +177,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 已套用這些區段的現有報表將可繼續正常運作。
 
-**管理員區段 (也稱為「全域」區段有何變化?**
+**管理員區段 (也稱為「全域」區段有何變化？**
 
 **管理員**&#x200B;區段將會移轉至新的區段介面，並顯示為共用給每個人的區段。
 
@@ -195,7 +195,7 @@ seg_definition.xml
 
 **移轉提示**
 
-請參考下列提示來移轉常見維度:
+請參考下列提示來移轉常見維度：
 
 * 地域城市/地區/國家 - 搜尋並選取特定城市、地區或國家，而不是使用局部比對。
 * 瀏覽器 - 使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如 Google Chrome
@@ -326,11 +326,11 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 對於具有已知值之字串式維度的變更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 對於具有已知值之字串式維度的變更{#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 具有一組已知值的字串式維度已變更為列舉類型。使用這些維度建立區段時，清單中會預先填入所有已知值，而唯一支援的運算子為「等於」。如此您便能快速將所要尋找的確切值分段，而不需在使用較不精細的比對時選取到不想要的值。
 
-下列維度已變更為列舉清單:
+下列維度已變更為列舉清單：
 
 | 行動製造商 | 行動電子郵件長度 | 色彩深度 |
 |---|---|---|
@@ -348,9 +348,9 @@ seg_definition.xml
 | 行動書籤長度 | Java 已啟用 | 付費搜尋 |
 | 行動 URL 長度 | 語言 |  |
 
-## 對於具有已知值之整數式維度的變更 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 對於具有已知值之整數式維度的變更{#section_84A8AAD0344148AD9F9211D3EB271903}
 
-具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式:
+具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式：
 
 ![](assets/seg_browser_dimension.png)
 
