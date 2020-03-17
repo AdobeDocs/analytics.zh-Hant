@@ -3,7 +3,7 @@ description: 列出在刪除區段之前，您應注意的一些事項。
 title: 刪除區段
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 當您刪除區段時，
 
 * 已套用此區段的已計劃報表和控制面板會繼續正常運作，亦即區段或控制面板會繼續使用刪除的區段。
-* 當您編輯同名區段時，已計劃的報表不會更新。以下是範例: 假設您有 2 個同名區段分別位在不同報表套裝中:
+* 當您編輯同名區段時，已計劃的報表不會更新。以下是範例：假設您有 2 個同名區段分別位在不同報表套裝中：
 
    ![](assets/duplicate_seg_names.png)
 
@@ -24,6 +24,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 在 Ad Hoc Analysis 中編輯內嵌的已刪除區段 {#section_976D601DBD2244E38B0A0222E31D2610}
 
-現在，Ad Hoc Analysis 可讓您在[計算量度產生器](https://marketing.adobe.com/resources/help/en_US/analytics/calcmetrics/)中編輯內嵌的已刪除區段，並針對該區段執行「另存新檔」作業。
+現在，Ad Hoc Analysis 可讓您在[計算量度產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)中編輯內嵌的已刪除區段，並針對該區段執行「另存新檔」作業。
 
 不過，參照已刪除區段的其他已刪除區段仍維持不變。
