@@ -3,7 +3,7 @@ description: 建議對搜尋引擎與關鍵字使用的預設量度。該量度�
 title: 搜尋
 topic: Metrics
 uuid: 7269e83c-6ac7-4423-bb6e-d07540fdd750
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
