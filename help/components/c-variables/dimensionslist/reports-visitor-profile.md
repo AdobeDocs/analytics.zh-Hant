@@ -3,7 +3,7 @@ description: 協助您瞭解不同資料類別 (包括國家、州、ZIP/郵遞�
 title: 訪客資料
 topic: Reports
 uuid: ffdd24ab-5de4-44a0-8d9b-5d6a9b60a2dd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 網域 </td> 
-   <td colname="col2"> <p> 列出訪客用來存取您的網站的組織和 ISP。此報告與「<span class="wintitle">完整網域</span>」報告不同的是，「<span class="wintitle">完整網域</span>」報告記錄完整的 ISP 網域，而此報告僅列示二級網域。 </p> <p> <p>注意: 某些行動電信業者 (如 T-Mobile 和 O1) 不再提供反向 DNS 查閱所需的網域資訊。因此，網域報告將無法向這些業者取得資料。 </p> </p> </td> 
+   <td colname="col2"> <p> 列出訪客用來存取您的網站的組織和 ISP。此報告與「<span class="wintitle">完整網域</span>」報告不同的是，「<span class="wintitle">完整網域</span>」報告記錄完整的 ISP 網域，而此報告僅列示二級網域。 </p> <p> <p>注意：某些行動電信業者 (如 T-Mobile 和 O1) 不再提供反向 DNS 查閱所需的網域資訊。因此，網域報告將無法向這些業者取得資料。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 頂級網域 </td> 
