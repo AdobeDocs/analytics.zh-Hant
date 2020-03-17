@@ -3,7 +3,7 @@ description: 並非所有在「區段產生器」中建立的區段都與 Data W
 title: Data Warehouse 區段相容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -44,20 +44,20 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <b>維度</b> </td> 
-   <td colname="col2">將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，只有 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 支援以下維度: 
+   <td colname="col2">將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，只有 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 支援以下維度： 
     <ul id="ul_BD708CC3A16743F49F998D1046EC70A3"> 
      <li id="li_240DA619D50B4336ACD9117BF59AF10A">進入伺服器 </li> 
      <li id="li_222D4D4116674EF8A52945CCB9C78719">進入類別 </li> 
      <li id="li_5A43C846E2EA4EFCB892DE9E0607C68C">進入日期 </li> 
      <li id="li_8E9CABBE04FC4A7A9A5D2BDD34AD3C87">所有搜尋頁面排名 </li> 
     </ul> </td> 
-   <td colname="col3"> 將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，以下維度僅在「Data Warehouse」中才受支援: 
+   <td colname="col3"> 將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，以下維度僅在「Data Warehouse」中才受支援： 
     <ul id="ul_61A5B314CCCF497DB0385324E3309E22"> 
      <li id="li_1254089BDFAE4E0F8E51CB1511BBBF53">IP 位址 </li> 
      <li id="li_D8E040F77A8C46A084547F4FE685CB10">頁面 URL </li> 
      <li id="li_4C79AE900CF6458780C124143DC6FA5B">訪客 ID </li> 
      <li id="li_4EC10645DE9740609D8DDFD4F668FE67">Experience Cloud 訪客 ID </li> 
-    </ul> <p>下列維度<b>無法</b>在 Data Warehouse 區段中使用: </p> 
+    </ul> <p>下列維度<b>無法</b>在 Data Warehouse 區段中使用： </p> 
     <ul id="ul_FE143F6D1ABF45DAA444E1B5691C7D4F"> 
      <li id="li_E77F3CC45BA04674B857FE5AB19D56F1">所有搜尋頁面排名 </li> 
      <li id="li_95E1549C13F14BA0B32686401EE78E31">上午/下午 </li> 
@@ -93,4 +93,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-*注意：資料倉庫不支援使用或容器時`exclusion`的所`without`有情況`AND/OR`。 使用此組合時，資料倉庫只支援可重新寫入為`A AND NOT B`、(或&#x200B;**包含此特**性並排除此特性&#x200B;****)的區段。*
+*注意：使用`AND/OR`時，Data Warehouse 不支援所有使用`exclusion`或`without`容器的情況。如果使用上述組合，Data Warehouse 只支援可重新寫入為`A AND NOT B`(或&#x200B;**包含此特徵**和&#x200B;**排除此特徵**) 的區段。*
