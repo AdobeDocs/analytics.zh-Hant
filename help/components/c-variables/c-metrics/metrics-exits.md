@@ -3,7 +3,7 @@ description: 指定的值在瀏覽中是被擷取的最後一個值之次數。�
 title: 退出點
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
