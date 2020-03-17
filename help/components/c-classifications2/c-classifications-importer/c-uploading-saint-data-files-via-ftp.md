@@ -4,7 +4,7 @@ subtopic: Classifications
 title: FTP 匯入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
-**[!UICONTROL 管理員]** &gt; **[!UICONTROL 分類匯入工具]**。
+**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
 
-以下是重要的限制建議:
+以下是重要的限制建議：
 
 * 相較於數個大檔案，大量小檔案會減緩處理速度。這是因為小型工作會產生的佇列數量以及需排定優先順序。
 * 請將大檔案分割為 50 MB 的區塊。這步驟非必要，但仍建議進行，因為可為後端提供較佳的處理可見度。此外，如果我們在處理您的工作時發生錯誤，工作會重新啟動，在這種情況下大型檔案會造成大量的工作重作。
@@ -35,7 +35,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 處理分類資料檔案的所需時間視檔案的大小，以及當下 Adobe 伺服器已處理中的檔案數量而定。資料檔案的處理時間通常不會超過 72 小時。
 
-在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。For more information, see [Create an FTP account](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。如需詳細資訊，請參閱[建立 FTP 帳戶](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
 ## 透過 FTP 匯入分類 {#task_132C36830B69418B8C929E39838EF01D}
 
@@ -49,12 +49,12 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 如需建立 FTP 帳戶的詳細資訊，請參閱[建立 FTP 帳戶](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
-1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 分類匯入工具」]**。
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
 1. 按一下要使用的 FTP 帳戶旁的&#x200B;**[!UICONTROL 「檢視」]**。
-1.  使用您選擇的 FTP 用戶端利用 FTP 存取資訊 (主機、登入、密碼) 存取FTP 伺服器。
+1. 使用您選擇的 FTP 用戶端利用 FTP 存取資訊 (主機、登入、密碼) 存取FTP 伺服器。
 1. 將資料檔案 ([!DNL .tab] 或 [!DNL .txt]) 上傳至 FTP 伺服器。
-1.  上傳資料檔案後，上傳指出檔案已可供處理的 FIN 檔案。
+1. 上傳資料檔案後，上傳指出檔案已可供處理的 FIN 檔案。
 
    FIN 檔案是空白的檔案，其名稱與您的資料檔案相同，副檔名為 [!DNL .fin]。例如，若您的資料檔案是 [!DNL classdata1.tab]，則 檔案名稱為 [!DNL classdata1.fin].fin。
 
@@ -62,7 +62,7 @@ Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料
 
 ## 建立 FTP 帳戶 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
-在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。&gt;
+在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。>
 
 <!-- 
 
@@ -70,12 +70,12 @@ t_create_an_ftp_account.xml
 
  -->
 
-如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://marketing.adobe.com/resources/help/en_US/whitepapers/ftp/)。
+如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/ftp/)。
 
-1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 分類匯入工具」]**。
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
 1. 在&#x200B;**[!UICONTROL 匯入檔案]**&#x200B;索引標籤中按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. 指定 FTP 帳戶詳細資料:
+1. 指定 FTP 帳戶詳細資料：
 
    | 元素 | 說明 |
    |---|---|
