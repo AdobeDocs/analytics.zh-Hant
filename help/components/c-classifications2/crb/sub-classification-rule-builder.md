@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 子分類與規則產生器 - 使用案例
 topic: Admin tools
 uuid: 6db6a4a9-b93c-413b-8049-1e6cc1ba4a38
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,11 +22,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **範例**
 
-假設使用下列追蹤程式碼:
+假設使用下列追蹤程式碼：
 
 `channel:broad_campaign:creative`
 
-分類階層可以讓您將分類套用到分類 (稱為 *`sub-classification`*).亦即，您可將諸如關聯式資料庫等匯入工具，與多個表格搭配使用。其中一個表格會將完整追蹤程式碼對應至索引鍵，而另外的表格則會將這些索引鍵對應至其他表格。
+分類階層可以讓您將分類套用到分類 (稱為 *`sub-classification`*)。亦即，您可將諸如關聯式資料庫等匯入工具，與多個表格搭配使用。其中一個表格會將完整追蹤程式碼對應至索引鍵，而另外的表格則會將這些索引鍵對應至其他表格。
 
 ![](assets/sub_class_table.png)
 
@@ -48,15 +48,15 @@ t_rule_builder_subclass.xml
 >
 >以下步驟說明如何完成[子分類和規則產生器](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)中所述的使用案例。
 
-1. 在「[分類管理員](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)」中建立分類和子分類。
+1. 在「[分類管理員](https://marketing.adobe.com/resources/help/zh_TW/reference/classifications.html)」中建立分類和子分類。
 
-   範例:
+   範例：
 
    ![步驟資訊](assets/sub_class_create.png)
 
 1. 在[分類規則產生器](/help/components/c-classifications2/crb/classification-rule-builder.md)中，分類來自原始追蹤程式碼的子分類索引鍵。
 
-   您可使用規則運算式執行此動作。在此範例中，填入&#x200B;*`Broad Campaign code`* 會使用此規則運算式:
+   您可使用規則運算式執行此動作。在此範例中，填入&#x200B;*`Broad Campaign code`* 會使用此規則運算式：
 
    | `#` | 規則類型 | 符合 | 設定分類 | 結束日期 |
    |---|---|---|---|---|
@@ -71,7 +71,7 @@ t_rule_builder_subclass.xml
 
    請參閱[多級分類](/help/components/c-classifications2/c-sub-classifications.md)。
 
-   範例:
+   範例：
 
    | 金鑰 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&amp;Hat;促銷活動類型 | 廣泛促銷活動代碼&amp;Hat;促銷活動主管 | ... |
    |---|---|---|---|---|---|
