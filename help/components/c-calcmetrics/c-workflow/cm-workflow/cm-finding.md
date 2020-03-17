@@ -1,5 +1,5 @@
 ---
-description: '說明尋找量度的兩種主要方法: 排序和篩選。'
+description: 說明尋找量度的兩種主要方法：排序和篩選。
 title: 尋找量度
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
 translation-type: ht
@@ -10,11 +10,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 尋找量度
 
-說明尋找量度的兩個主要方法: 排序和篩選。
+說明尋找量度的兩個主要方法：排序和篩選。
 
 ## 排序{#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-開啟報表並按一下報表左側的「量度」圖示 ![](assets/metrics_icon.png) 帶出量度邊欄，量度選擇器中的「**排序依據]」下拉式清單會顯示四個排序選項:[!UICONTROL **
+開啟報表並按一下報表左側的「量度」圖示 ![](assets/metrics_icon.png) 帶出量度邊欄，量度選擇器中的「**[!UICONTROL 排序依據]**」下拉式清單會顯示四個排序選項：
 
 ![](assets/cm_sort.png)
 
