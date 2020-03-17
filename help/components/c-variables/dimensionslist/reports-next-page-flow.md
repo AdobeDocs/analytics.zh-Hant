@@ -3,7 +3,7 @@ description: 顯示路徑檢視，或路徑限制中一個頁面被檢視的次�
 title: 下一頁流量
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 預設情況下，該報告顯示使用者在到達您所選頁面之後繼續存取的前 10 位頁面。您可點按任何附有底線的頁面，以進一步展開圖形。圖形上呈現的頁面數目沒有上限，您也可以將滑鼠移到某個頁面上，查看該頁面的瀏覽和收入資料。
 
-使用此報告可以:
+使用此報告可以：
 
 * 瞭解檢視選取頁面後採用最為頻繁的步驟。
 * 最佳化網站路徑設計，以便將訪客流量引至預期的目標頁面。
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> 按一下「<span class="uicontrol">圖形</span>」，可檢視您的訪客在選定頁面之後所檢視之人氣最高頁面的兩個層級。該報告還會反白標示訪客退出網站的時間。 </p> <p>按一下「<b>表格</b>」，可在類似於<a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  > 下一頁報告</a>.但是，它也可以讓您深入鑽研每個<i>下一頁</i>，以檢視每個兩頁流程的下一頁。 </p> <p>Reports &amp; Analytics 使用路徑檢視。 </p> </td> 
+   <td colname="col2"> <p> 按一下「<span class="uicontrol">圖形</span>」，可檢視您的訪客在選定頁面之後所檢視之人氣最高頁面的兩個層級。該報告還會反白標示訪客退出網站的時間。 </p> <p>按一下「<b>表格</b>」，可在類似於<a href="/help/components/c-variables/dimensionslist/reports-next-page.md"  >下一頁報告</a>。但是，它也可以讓您深入鑽研每個<i>下一頁</i>，以檢視每個兩頁流程的下一頁。 </p> <p>Reports &amp; Analytics 使用路徑檢視。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Ad Hoc Analysis </td> 
