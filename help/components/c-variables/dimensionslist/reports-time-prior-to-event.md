@@ -3,7 +3,7 @@ description: 顯示在瀏覽期間內，選取的轉換事件發生之前經過�
 title: 事件之前時間
 topic: Reports
 uuid: 851d9b6e-9d85-464a-9c40-ce525365ea7d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,6 +13,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 顯示在瀏覽期間內，選取的轉換事件發生之前經過的時間長度。您可查看自影像請求開始瀏覽至影像請求觸發特定轉換事件之間的時間差異。此報告對於判斷訪客從進入您網站到點擊成功事件 (例如提交表格或訂購) 所需的時間十分實用。
 
-在 Ad Hoc Analysis 中，此報表位於&#x200B;**[!UICONTROL 路徑]** &gt; **[!UICONTROL 一般]** &gt; **[!UICONTROL 事件之前時間]**&#x200B;下方。
+在 Ad Hoc Analysis 中，此報告位於「**[!UICONTROL 路徑]**」>「**[!UICONTROL 一般]**」>「**[!UICONTROL 事件之前時間]**」下方。
 
-在行銷報表中，其位於&#x200B;**[!UICONTROL 網站量度]** &gt; **[!UICONTROL 事件之前時間]**&#x200B;下方。
+在行銷報告中，其位於「**[!UICONTROL 網站度量]**」>「**[!UICONTROL 事件之前時間]**」下方。
