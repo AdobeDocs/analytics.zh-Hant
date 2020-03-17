@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類規則
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,22 +14,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
 
-**[!UICONTROL Analytics]** &gt; **[!UICONTROL 管理員]** &gt; **[!UICONTROL 分類規則產生器]**
+**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 分類規則產生器]**
 
 規則產生器可用來建立 *`classification rule set`*，也就是 *`classification rules`* 的清單。規則會匹配您指定的準則，然後執行動作。
 
-分類規則可方便執行下列作業:
+分類規則可方便執行下列作業：
 
-* **電子郵件**&#x200B;和&#x200B;**顯示廣告**: 建立分類規則以便將個別顯示廣告促銷活動分組，讓您能瞭解針對電子郵件促銷活動執行顯示促銷活動的成果。
+* **電子郵件**&#x200B;和&#x200B;**顯示廣告**：建立分類規則以便將個別顯示廣告促銷活動分組，讓您能瞭解針對電子郵件促銷活動執行顯示促銷活動的成果。
 
-* **追蹤程式碼**: 建立分類規則將衍生自追蹤程式碼內之字串的索引鍵值分類，並和您定義的特定準則比對。
-* **搜尋詞**: 使用[規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)和萬用字元來簡化分類搜尋詞的程序。例如，如果搜尋詞包含 *`baseball`*，您可將分類 *`Sports League`* 設定為 *`MLB`*。
+* **追蹤程式碼**：建立分類規則將衍生自追蹤程式碼內之字串的索引鍵值分類，並和您定義的特定準則比對。
+* **搜尋詞**：使用[規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)和萬用字元來簡化分類搜尋詞的程序。例如，如果搜尋詞包含 *`baseball`*，您可將分類 *`Sports League`* 設定為 *`MLB`*。
 
-例如，假設電子郵件促銷活動 ID 的追蹤程式碼是:
+例如，假設電子郵件促銷活動 ID 的追蹤程式碼是：
 
 `em:Summer:2013:Sale`。
 
-您可以在規則集裡設定三個規則，以識別字串的各部分，然後將值分類:
+您可以在規則集裡設定三個規則，以識別字串的各部分，然後將值分類：
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
@@ -48,33 +48,33 @@ about_classification_rules.xml
  -->
 
 * [關於規則的重要資訊](/help/components/c-classifications2/crb/classification-rule-builder.md)
-* [規則什麼時候不會將索引鍵分類?](/help/components/c-classifications2/crb/classification-rule-builder.md)
+* [規則什麼時候不會將索引鍵分類？](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [關於規則優先順序](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
 > [!NOTE] [!UICONTROL 規則產生器]不支援「數值 2」分類。
 
 ## 關於規則的重要資訊
 
-* 指定分類的[群組權限](https://marketing.adobe.com/resources/help/en_US/reference/groups.html) (於[!UICONTROL  管理工具]中)。
+* 指定分類的[群組權限](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html) (於[!UICONTROL  管理工具]中)。
 
-* **規則運算式**: [分類規則中的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)底下提供說明。
+* **規則運算式**：[分類規則中的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)底下提供說明。
 
-* **報表套裝**: 至少要選取一個報表套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報表套裝。
+* **報表套裝**：至少要選取一個報表套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報表套裝。
 
    當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。(此[索引鍵](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄)。
 
-* **規則優先順序**: 如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。請參閱[關於規則優先順序](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **規則優先順序**：如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。請參閱[關於規則優先順序](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
-* **規則數目上限**: 您可以建立的規則數目並無限制。但是，大量的規則可能會影響瀏覽器效能。
-* **處理**: 視您的分類相關流量大小而定，會以頻繁間隔處理規則。
+* **規則數目上限**：您可以建立的規則數目並無限制。但是，大量的規則可能會影響瀏覽器效能。
+* **處理**：視您的分類相關流量大小而定，會以頻繁間隔處理規則。
 
    每 4 小時會處理作用中的規則，通常會往回追溯一個月內的分類資料並予以檢查。規則會自動檢查是否有新值，並使用匯入工具上傳分類。
 
-* **覆寫現有的分類**: 請參閱「[規則什麼時候不會將索引鍵分類?」](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 如有必要，您可以使用匯入工具來刪除或移除現有的分類。
+* **覆寫現有的分類**：請參閱「[規則什麼時候不會將索引鍵分類？」](/help/components/c-classifications2/crb/classification-quickstart-rules.md) 如有必要，您可以使用匯入工具來刪除或移除現有的分類。
 
-## 規則什麼時候不會將索引鍵分類?
+## 規則什麼時候不會將索引鍵分類？
 
-當您啟動規則時，可以覆寫現有的分類。在下列情況下，分類規則不會將[索引鍵](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) (變數) 分類: 
+當您啟動規則時，可以覆寫現有的分類。在下列情況下，分類規則不會將[索引鍵](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) (變數) 分類：
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/c-classifications2/crb/classification-rule-definitions.md)」。
 
@@ -102,7 +102,7 @@ regex_classification_rules.xml
 * [規則運算式 - 追蹤程式碼範例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_2EF7951398EB4C2F8E52CEFAB4032669)
 * [規則運算式 - 將特定字元分類](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_5D300C03FA484BADACBFCA983E738ACF)
 * [規則運算式 - 匹配各種長度的追蹤程式碼](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2)
-* [規則運算式 - "Does Not Contain" 範例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
+* [規則運算式 - &quot;Does Not Contain&quot; 範例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [規則運算式 - 參考表格](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
 > [!NOTE] 規則運算式最適合使用分隔字元的追蹤程式碼，此為最佳作法。
@@ -111,11 +111,11 @@ regex_classification_rules.xml
 
 > [!NOTE] 如果追蹤程式碼為 URL 編碼，將&#x200B;**無法**&#x200B;使用規則產生器來分類。
 
-在這個範例中，假設您要將以下的促銷活動 ID 分類:
+在這個範例中，假設您要將以下的促銷活動 ID 分類：
 
 [!UICONTROL Sample Key]: `em:JuneSale:20130601`
 
-您要分類的追蹤程式碼的部分為:
+您要分類的追蹤程式碼的部分為：
 
 * `em` = 電子郵件
 * `JuneSale` = 行銷活動名稱
@@ -123,11 +123,11 @@ regex_classification_rules.xml
 
 [!UICONTROL Regular Expression]: `^(.+)\:(.+)\:(.+)$`
 
-規則運算式如何與促銷活動 ID 關聯:
+規則運算式如何與促銷活動 ID 關聯：
 
 ![](assets/regex.png)
 
-[!UICONTROL 匹配群組]: 顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。
+[!UICONTROL 匹配群組]：顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。
 
 ![](assets/regex_tracking_code.png)
 
@@ -135,24 +135,24 @@ regex_classification_rules.xml
 
 **[!UICONTROL 規則產生器]**
 
-在[!UICONTROL 規則產生器]中，設定規則如下:
+在[!UICONTROL 規則產生器]中，設定規則如下：
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
-| 規則運算式 | &amp;Hat;(.+)\:(.+)\:(.+)$ | 促銷活動日期 | $3 |
+| 規則運算式 | &amp;Hat;(.+)\：(.+)\：(.+)$ | 促銷活動日期 | $3 |
 
 **語法**
 
 | 規則運算式 | 字串或匹配結果 | 對應的匹配群組 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale：20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
 | 建立語法 | `^` = 以該行開始  () = 將字元分組，並且讓您以括號擷取相符字元。`(.+)` = 擷取一個 ( .) 字元和 ( + ) 任何其他項目  \ = 字串的開始。`$` = 指示前面的字元 (或字元群組) 是行裡面最後一個。 |
 
 關於規則運算式中的字元代表意義的詳細資訊，請參閱[規則運算式 - 參考表格](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
 
-## 規則運算式 - 將特定字元分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
+## 規則運算式 - 將特定字元分類{#section_5D300C03FA484BADACBFCA983E738ACF}
 
-使用規則運算式的一種方式，是將字元字串裡的特定字元分類。例如，假設以下追蹤程式碼包含兩個重要的字元:
+使用規則運算式的一種方式，是將字元字串裡的特定字元分類。例如，假設以下追蹤程式碼包含兩個重要的字元：
 
 [!UICONTROL Sample Key]: `4s3234`
 
@@ -163,7 +163,7 @@ regex_classification_rules.xml
 
 **[!UICONTROL 規則產生器]**
 
-在[!UICONTROL 規則產生器]中，設定規則如下:
+在[!UICONTROL 規則產生器]中，設定規則如下：
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |--- |--- |--- |--- |
@@ -174,7 +174,7 @@ regex_classification_rules.xml
 
 這個範例顯示如果有各種長度的追蹤程式碼，要如何識別冒號分隔字元間的特定字元。Adobe 建議針對每個追蹤程式碼使用一個規則運算式。
 
-範例密鑰:
+範例密鑰：
 
 * `a:b`
 * `a:b:c`
@@ -188,7 +188,7 @@ regex_classification_rules.xml
 
 **[!UICONTROL 規則產生器]**
 
-在[!UICONTROL 規則產生器]中，設定規則如下:
+在[!UICONTROL 規則產生器]中，設定規則如下：
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |--- |--- |--- |--- |
@@ -199,15 +199,15 @@ regex_classification_rules.xml
 | 比對字串 a:b:c 的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
 | 比對字串 a:b:c:d 的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
-## 規則運算式 - "Does Not Contain" 範例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
+## 規則運算式 - &quot;Does Not Contain&quot; 範例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
 這個範例提供一個規則運算式，會匹配不包含特定字元的任何字串，在這個例子裡是 `13`。
 
-規則運算式:
+規則運算式：
 
 `^(?!.*13.*).*$`
 
-測試字串:
+測試字串：
 
 ```
 a:b:
@@ -216,7 +216,7 @@ c:d:xoxo
 c:d:yoyo
 ```
 
-匹配結果:
+匹配結果：
 
 ```
 a:b:
@@ -233,7 +233,7 @@ c:d:yoyo
 | `(?ms)` | 讓整個規則運算式配對多行輸入，可讓 .萬用字元符合任何新行字元 |
 | (`?i`) | 讓整個規則運算式不區分大小寫 |
 | [`abc`] | a、b 或 c 其中一個字元 |
-| [`^abc`] | 除了下列之外的任何單一字元: a、b 或 c |
+| [`^abc`] | 除了下列之外的任何單一字元：a、b 或 c |
 | [`a-z`] | a-z 範圍內的任何單一字元 |
 | [`a-zA-Z`] | a-z 或 A-Z 範圍內的任何單一字元 |
 | `^` | 行的開始 (匹配行的開始) |
@@ -271,7 +271,7 @@ rule_priority.xml
 
 如果您建立未共用同一個分類的多個規則，那麼處理順序並不重要。
 
-以下是將運動員的搜尋類型分類的搜尋詞規則範例:
+以下是將運動員的搜尋類型分類的搜尋詞規則範例：
 
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
@@ -279,16 +279,16 @@ rule_priority.xml
 | 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
-如果使用者搜尋  *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
+如果使用者搜尋   *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
 
-同樣地，假設您在一個規則集裡面為下列搜尋詞設定兩個規則:
+同樣地，假設您在一個規則集裡面為下列搜尋詞設定兩個規則：
 
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
-使用者搜尋  *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
+使用者搜尋 *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
 
 ## 將分類規則新增至規則集 {#add-classification-to-rule-set}
 
@@ -311,20 +311,20 @@ t_classification_rule.xml
 
    ![](assets/add_rule.png)
 
-1. 在&#x200B;**[!UICONTROL 報表套裝]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL 「新增套裝」]以指定要指派到這個規則集的一個或多個報表套裝。**
+1. 在&#x200B;**[!UICONTROL 報表套裝]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL 「新增套裝」]**&#x200B;以指定要指派到這個規則集的一個或多個報表套裝。
 
-   接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]頁面。**
+   接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]**&#x200B;頁面。
 
    >[!NOTE]
-   *只有 (`only`)* 在符合下列條件時，報表套裝才會顯示在此頁面上: &gt;
+   *`only`*&#x200B;只有 () 在符合下列條件時，報表套裝才會顯示在此頁面上：>
 
    * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
-   (請參閱&#x200B;*分類規則集`Variable`的*[](/help/components/c-classifications2/crb/classification-rule-set.md)，取得此必要條件的說明。)
+   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集[的 ](/help/components/c-classifications2/crb/classification-rule-set.md)，取得此必要條件的說明。)
 
    * 您在&#x200B;**[!UICONTROL 可用報表套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/c-classifications2/crb/classification-rule-set.md)來建立規則集後所顯示的報表套裝。
 
 
-1. 指定是否覆寫現有規則:
+1. 指定是否覆寫現有規則：
 
    | **規則會覆寫任何現有的值** | (預設設定) 一律覆寫現有分類索引，包括透過匯入工具 (SAINT) 上傳的分類。 |
    |---|---|
@@ -345,7 +345,7 @@ t_classification_rule.xml
 
    啟動規則會自動建立 檔案，並幫您上傳檔案。
 
-   欄位定義: 請參閱[分類規則產生器](/help/components/c-classifications2/crb/classification-rule-definitions.md)，以取得這個頁面上之介面選項的完整定義。
+   欄位定義：請參閱[分類規則產生器](/help/components/c-classifications2/crb/classification-rule-definitions.md)，以取得這個頁面上之介面選項的完整定義。
 
 ## 測試分類規則集
 
@@ -366,7 +366,7 @@ t_classifications_test_rule.xml
 
 1. 在「[!UICONTROL 範例索引鍵]」欄位中輸入或貼上測試索引鍵。
 
-   範例索引鍵包括:
+   範例索引鍵包括：
 
    * 追蹤程式碼
    * 搜尋關鍵字或片語
@@ -393,7 +393,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. (選用) 若要覆寫分類，請為 *`<selection>`* 啟用&#x200B;**[!UICONTROL 覆寫分類]**。
+1. (選用) 若要覆寫分類，請為  啟用&#x200B;**[!UICONTROL 覆寫分類]***`<selection>`*。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 
