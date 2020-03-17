@@ -3,7 +3,7 @@ description: 「客戶忠誠度」可揭示客戶的購買模式。
 title: 客戶忠誠度
 topic: Reports
 uuid: 7dc30b57-7b18-4228-a6ab-6eb66b3d9402
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,18 +13,18 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「客戶忠誠度」可揭示客戶的購買模式。
 
-此報表會根據 4 個忠誠度類別來顯示客戶的購買模式:
+此報表會根據 4 個忠誠度類別來顯示客戶的購買模式：
 
 * 非客戶
 * 新客戶
 * 回頭客戶
 * 忠誠客戶
 
-雖然您可以在此報告中檢視非購買量度 (例如: 自訂事件、購物車事件等)，但系統仍會根據下單數量來顯示類別。例如，訪客可將命名為「內部搜尋」的自訂事件新增至報告。[!UICONTROL 回頭客戶]明細項目會顯示先前曾購買兩次的訪客所執行的內部搜尋數量，而非執行過兩次內部搜尋的訪客數量。
+雖然您可以在此報告中檢視非購買量度 (例如：自訂事件、購物車事件等)，但系統仍會根據下單數量來顯示類別。例如，訪客可將命名為「內部搜尋」的自訂事件新增至報告。[!UICONTROL 回頭客戶]明細項目會顯示先前曾購買兩次的訪客所執行的內部搜尋數量，而非執行過兩次內部搜尋的訪客數量。
 
 **客戶忠誠度處理**
 
-下表定義 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis 和 Data Warehouse 目前處理客戶忠誠度的方式:
+下表定義 Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis 和 Data Warehouse 目前處理客戶忠誠度的方式：
 
 <table id="table_E6A5CA96BE5C47F29F09688A4D41BC60"> 
  <thead> 
