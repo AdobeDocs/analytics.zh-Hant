@@ -3,7 +3,7 @@ description: 在第 14 版中，唯一訪客是指在指定的時段內第一次
 title: 不重複訪客
 topic: Metrics
 uuid: ae210698-99f9-485e-a640-c7520807adc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
