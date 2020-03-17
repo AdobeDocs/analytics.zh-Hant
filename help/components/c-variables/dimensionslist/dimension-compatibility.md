@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 * 這些並非完整的清單。每個報表套裝可能不一定會有一組指定啟用的產品變數。此外，任何指定的報表套裝可能有任意數量的啟用、停用，或對應至產品變數的自訂變數。我們也已省略訪客屬性和分類，因為它們專屬於各個報表套裝。
 
-* 在一些重疊的案例中，Analytics 工具使用不同的詞彙來描述本質相同的項目，例如: `browserwidth` 和 `browserwidthbucketed`
+* 在一些重疊的案例中，Analytics 工具使用不同的詞彙來描述本質相同的項目，例如：`browserwidth` 和 `browserwidthbucketed`
 
 ## Reports &amp; Analytics 與 Analysis Workspace 中同時支援的維度
 
@@ -42,14 +42,14 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 登入頁面 | entrypage |
 | 登入頁面原始 | entrypageoriginal |
 | 退出連結 | exitlink |
-| 首次接觸渠道 | firsttouchchannel |
-| 首次接觸渠道的詳情 | firsttouchchanneldetail |
+| 首次接觸管道 | firsttouchchannel |
+| 首次接觸管道的詳情 | firsttouchchanneldetail |
 | Java 已啟用 | javaenabled |
 | 語言 | language |
-| 上次接觸渠道 | lasttouchchannel |
-| 上次接觸渠道的詳情 | lasttouchchanneldetail |
+| 上次接觸管道 | lasttouchchannel |
+| 上次接觸管道的詳情 | lasttouchchanneldetail |
 | 清單變數 | listvariables |
-| 行銷渠道 | marketingchannel |
+| 行銷管道 | marketingchannel |
 | 行動音訊支援 | mobileaudiosupport |
 | 行動電信業者 | mobilecarrier |
 | 行動色彩深度 | mobilecolordepth |
@@ -178,7 +178,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## Reports &amp; Analytics 中預先設定的報表
 
-Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對應至特定維度，或使用維度類別。此處列出這些報表: 
+Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對應至特定維度，或使用維度類別。此處列出這些報表：
 
 * 書籤 URL 長度
 * 瀏覽器
