@@ -3,7 +3,7 @@ description: 顯示包含單一點擊之瀏覽的百分比。
 title: 反彈率
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 顯示包含單一點擊之瀏覽的百分比。
 
-反彈率使用[彈回數](/help/components/c-variables/c-metrics/metrics-bounces.md)量度，計算方式為:
+反彈率使用[彈回數](/help/components/c-variables/c-metrics/metrics-bounces.md)量度，計算方式為：
 
 `Bounces divided by Entries`
 
