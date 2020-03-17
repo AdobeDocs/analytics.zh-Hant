@@ -3,7 +3,7 @@ description: 顯示訪客在到達您網站前的網域或 URL、訪客找到您
 title: 反向連結
 topic: Reports
 uuid: e63b47b4-49f3-43af-8409-3272bec0484e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。
 
-例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在實施中，您的實施顧問會幫助您定義屬於您網站一部分的網域和 URL。(此變更在實作期間後即可完成。) 
+例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在實作中，您的實作顧問會幫助您定義屬於您網站一部分的網域和 URL。(此變更在實作期間後即可完成。) 
 
 任何非這些已定義網域和 URL 之一部分的網域或 URL，就會被視為反向連結。例如，將網頁 A 和網頁 B 新增至內部 URL 篩選器，但網頁 C 沒有加入。在這種情形下，網頁 C 就會被視為反向連結。
 
@@ -49,8 +49,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 特殊值 </td> 
-   <td colname="col2"> <p>「無」: 瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
-   <td colname="col3"> <p>「無」: 瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
+   <td colname="col2"> <p>「無」：瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
+   <td colname="col3"> <p>「無」：瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
    <td colname="col4"> <p> 空白 - 等於「無」，瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
   </tr> 
  </tbody> 
@@ -63,7 +63,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 對應的量度在 Ad Hoc Analysis 中稱為「反向連結例項」。
 * 分類/建立書籤值不列在「反向連結」報告中。這表示全網站瀏覽值不符合此報告的瀏覽值。
 
-## 報告歷史記錄 {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## 報告歷史記錄{#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 <table id="table_9DFA79EC6A5A48648F2FB5418E1752DB"> 
  <thead> 
