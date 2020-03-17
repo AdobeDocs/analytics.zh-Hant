@@ -14,25 +14,25 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 > [!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
 
-啟用元件管理:
+啟用元件管理：
 
-1. 前往 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 虛擬報表套裝]** &gt; **[!UICONTROL 建立新的虛擬報表套裝]**。
-1. 定義&#x200B;**[!UICONTROL 「設定」]**&#x200B;後，按一下&#x200B;**「元件」]標籤。[!UICONTROL **
+1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]** > **[!UICONTROL 建立新的虛擬報表套裝]**」。
+1. 定義&#x200B;**[!UICONTROL 「設定」]**&#x200B;後，按一下&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤。
 
-1. 選取&#x200B;**[!UICONTROL 「啟用虛擬報表套裝元件自訂」核取方塊]**:
+1. 選取&#x200B;**[!UICONTROL 「啟用虛擬報表套裝元件自訂」核取方塊]**：
 
    ![](assets/vrs-enable.png)
 
    >[!NOTE]
    >
-   >如已啟用元件自訂，則&#x200B;**只能在 Analysis Workspace 中**&#x200B;存取虛擬報表套裝，且無法在以下項目中存取:
+   >如已啟用元件自訂，則&#x200B;**只能在 Analysis Workspace 中**&#x200B;存取虛擬報表套裝，且無法在以下項目中存取：
 
    * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics 報表 API
-   勾選後，只要從「已排除元件」欄將相關的元件拖曳到「已包含元件」欄，即可新增要包含在虛擬報表套裝的元件。可包含和排除的元件有:
+   勾選後，只要從「已排除元件」欄將相關的元件拖曳到「已包含元件」欄，即可新增要包含在虛擬報表套裝的元件。可包含和排除的元件有：
 
    * 維度
    * 量度
@@ -52,7 +52,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/vrs-rename-component.png)
 
-在 Analysis Workspace 中，按一下任何已包含元件的資訊圖示，以顯示已重新命名元件的原始名稱:
+在 Analysis Workspace 中，按一下任何已包含元件的資訊圖示，以顯示已重新命名元件的原始名稱：
 
 ![](assets/vrs-aw-renamed.png)
 
