@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics Implementation Guide
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
+source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
 
 ---
 
@@ -150,6 +150,8 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [建立Analytics屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至prod](launch/validate-publish-prod.md)
+   + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
+   + [將啟動資料元素對應至Analytics變數](launch/elements-to-variable.md)
 + 在其他平台上實施Analytics {#other}
    + [使用硬式編碼影像要求實作Analytics](other/hardcoded.md)
    + Implement Analytics using DTM {#dtm}
@@ -190,7 +192,7 @@ source-git-commit: 2bebccbcd7435458ca29782802fa56ca09a6d4a2
    + [追蹤不同的實作類型](use-cases/cross-type-implementation.md)
    + [外部電子郵件追蹤](use-cases/email-external.md)
 + Validate your implementation {#validate}
-   + [舊版Adobe Experience cloud除錯程式](validate/debugger.md)
+   + [舊版Adobe Experience Cloud除錯程式](validate/debugger.md)
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
