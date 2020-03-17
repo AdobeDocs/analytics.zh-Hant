@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 瀏覽器匯入
 topic: Admin tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以使用瀏覽器匯入 (上傳) 分類資料。這種方法限制您的分類資料上傳只能上傳單一的報表套裝
 
-**[!UICONTROL 管理員]** &gt; **[!UICONTROL 分類匯入工具]**
+**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**
 
 ## 分類瀏覽器匯入 - 欄位說明 {#section_F628C47081DA4026A4D30E3D3454B1DA}
 
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 選取要匯入的 檔案 </td> 
-   <td colname="col2"> <p>可讓您瀏覽以找出您要上傳的匯入資料檔案。 </p> <p>注意: 上傳檔案大小限制是 1 MB。 </p> </td> 
+   <td colname="col2"> <p>可讓您瀏覽以找出您要上傳的匯入資料檔案。 </p> <p>注意：上傳檔案大小限制是 1 MB。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 覆寫衝突的資料 </td> 
@@ -61,7 +61,7 @@ t_upload_a_saint_data_file_via_web_browser.xml
 
  -->
 
-1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 分類匯入工具」]**。
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 按一下&#x200B;**[!UICONTROL 「匯入檔案」]**。
 1. 設定&#x200B;**[!UICONTROL 瀏覽器匯入]**&#x200B;欄位。
 1. 按一下&#x200B;**[!UICONTROL 「匯入檔案」]**。
