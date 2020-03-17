@@ -4,7 +4,7 @@ keywords: best practices;failure;timeout;troubleshooting;slow
 title: 報告最佳實務與疑難排解
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,8 +16,8 @@ Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告�
 
 >[!Note]
 >這些建議適用於 Reports &amp; Analytics、Ad Hoc Analysis 以及 Report Builder，
->但不適用於 Analysis Workspace，Analysis Workspace 有其專屬的一套[最佳實務](/help/analyze/analysis-workspace/optimizing-performance.md)。這些建議也不適用於 Data Warehouse [最佳實務](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)。此外，
->Adobe Analytics Reporting API 有另一套[最佳實務](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可使用。
+>但不適用於 Analysis Workspace，Analysis Workspace 有其專屬的一套[最佳實務](/help/analyze/analysis-workspace/optimizing-performance.md)。這些建議也不適用於 Data Warehouse [最佳實務](https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse_bp.html)。此外，
+>[Adobe Analytics Reporting API 有另一套最佳實務](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可使用。
 
 ## 報告逾時和請求佇列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
@@ -29,7 +29,7 @@ Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告�
 
 每個報表套裝會維護個別的請求佇列。如果同時請求多個報告 (即使來自不同使用者)，同一時間只會產生少數報告。這些報告完成後，再依收到順序產生其餘報告。因此，如果報表套裝佇列中已有大量複雜的報告，原本可以迅速產生的報告有可能逾時。
 
-## 影響報告速度的因素 {#section_6BA937EB6CEC4CBCB71FAAD32F031DC2}
+## 影響報告速度的因素{#section_6BA937EB6CEC4CBCB71FAAD32F031DC2}
 
 下列因素會拉長報告產生時間。增加這些因素其中之一也許不會造成該報告逾時，但會延遲報表套裝佇列中的其他報告，並造成後續報告逾時。
 
@@ -53,9 +53,9 @@ Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告�
 
 包含數十萬個唯一值的報告的產生速度會比包含較少唯一值的報告來得慢，即使使用區段或篩選器來減少最後出現在報告中的值數目也一樣。例如，顯示搜尋詞的報告產生速度通常比其他報告更慢，即使套用篩選器以只顯示包含特定值的搜尋詞也一樣。
 
-## 其他報告選項 {#section_FEF85C7FC6E14755A6086AFFF36E0EB4}
+## 其他報告選項{#section_FEF85C7FC6E14755A6086AFFF36E0EB4}
 
-除了降低報告中的時間範圍、量度數和劃分數以外，下列指引有助於提高報告傳送的可靠性:
+除了降低報告中的時間範圍、量度數和劃分數以外，下列指引有助於提高報告傳送的可靠性：
 
 * 使用 Data Warehouse 來請求包含許多劃分或量度的報表。Data Warehouse 旨在產生這些報表類型。
 * 將報告排程在非尖峰時間執行。如此可提高報告傳回的機率，因為報表套裝的請求佇列在這種時段更可能是空的。
