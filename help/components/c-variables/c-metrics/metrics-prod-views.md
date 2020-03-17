@@ -3,7 +3,7 @@ description: 設定「產品檢視」的例項。在檢視產品詳細資料頁�
 title: 產品檢視
 topic: Metrics
 uuid: a9f2bbcd-e9ba-42d6-90c8-2fd4e6c9775b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
