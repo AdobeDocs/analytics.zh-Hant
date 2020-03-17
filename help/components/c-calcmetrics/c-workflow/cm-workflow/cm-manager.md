@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 計算量度管理員會顯示您所擁有和已共用給您的區段。管理層級使用者可以查看組織中的所有自訂量度。此概覽會介紹「計算量度管理員」的使用者介面和功能。存取方式
 
-* 前往左側導覽中的 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]**。然後按一下&#x200B;**[!UICONTROL 「計算量度」]**。
+* 前往左側導覽中的「**[!UICONTROL 分析]**」>「**[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「計算量度」]**。
 
 ![](assets/calcmet_mgr_ui.png)
 
