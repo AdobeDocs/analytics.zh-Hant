@@ -14,16 +14,16 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 >
 >智慧型警報僅供 Adobe [!DNL Analytics] Prime 與 Adobe [!DNL Analytics] Ultimate 的客戶使用。
 
-存取警報產生器有四種方法:
+存取警報產生器有四種方法：
 
-* 在 Analysis Workspace 中使用下列快速鍵:
+* 在 Analysis Workspace 中使用下列快速鍵：
 
    `ctrl (or cmd) + shift + a`
-* 前往&#x200B;**[!UICONTROL 工作區]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 新增警報]**。
+* 前往「**[!UICONTROL 工作區]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
 * 選取一或多個自由表格條列項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。
-* 在 [!UICONTROL Reports &amp; Analytics] 報表中，前往&#x200B;**[!UICONTROL 更多]** &gt; **[!UICONTROL 新增警報]**。
+* 在 [!UICONTROL Reports &amp; Analytics] 報表中，前往&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。
 
-警報產生器的介面與在 [!DNL Analytics] 中建立區段或計算量度時所用的介面類似:
+警報產生器的介面與在 [!DNL Analytics] 中建立區段或計算量度時所用的介面類似：
 
 ![](assets/alert_builder.png)
 
@@ -33,7 +33,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **時間粒度**
 
-指定您希望檢查量度的時間: 每小時、每日、每週或每月。
+指定您希望檢查量度的時間：每小時、每日、每週或每月。
 
 > [!NOTE] 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
 
@@ -57,7 +57,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    請注意，如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，則會出現&#x200B;**「不相容的元件清單」**&#x200B;訊息。
 
-* 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件:
+* 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件：
 
    * 存在異常
    * 異常超出預期
