@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 匯入數值 2 分類
 topic: Admin tools
 uuid: 82a3034c-e002-4991-900f-22dd45d54910
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,17 +20,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 以下定義假設您的數值 2 分類名稱為 MyCost。
 
-**~MyCost:** 資料行的描述性名稱。
+**~MyCost**：資料行的描述性名稱。
 
-**~MyCost^~id~:** 用於編輯現有列的 ID。在新增資料行時，此項目應該是空白的。從「分類管理員」匯出時，系統會自動指定 ID。
+**~MyCost^~id~：**&#x200B;用於編輯現有列的 ID。在新增資料行時，此項目應該是空白的。從「分類管理員」匯出時，系統會自動指定 ID。
 
-**~MyCost^~value~:** 列的值。如果比率欄是固定的，此值為分佈整個期間的固定值。如果比率欄是事件，此值為事件的乘數。此項目不能含有逗號。
+**~MyCost^~value~：**&#x200B;列的值。如果比率欄是固定的，此值為分佈整個期間的固定值。如果比率欄是事件，此值為事件的乘數。此項目不能含有逗號。
 
-**~MyCost^~period~:** 與列對應的時段。這必須包含開始和結束日期，使用虛線分隔。虛線前後必須加上空格。定義必須使用下列格式:
+**~MyCost^~period~：**&#x200B;與列對應的時段。這必須包含開始和結束日期，使用虛線分隔。虛線前後必須加上空格。定義必須使用下列格式：
 
 YYYY/MM/DD - YYYY/MM/DD
 
-**~MyCost^~rate~:** 要乘以[!UICONTROL 值]欄的事件。有效值為:
+**~MyCost^~rate~：**&#x200B;要乘以[!UICONTROL 值]欄的事件。有效值為：
 
 * fixed - 用來指出值為分佈整個期間的固定值。
 * revenue
@@ -47,4 +47,4 @@ YYYY/MM/DD - YYYY/MM/DD
 * event2
 * etc
 
-**~MyCost^~hinge~:** 用來在劃分時分配值的事件。除非您使用 [!UICONTROL fixed]，否則此值通常與 [!UICONTROL ~MyCost^~rate~] 相同。除了多了 [!UICONTROL none] 之外，此資料欄的有效值與 [!UICONTROL ~MyCost^~rate~] 相同。
+**~MyCost^~hinge~：**&#x200B;用來在劃分時分配值的事件。除非您使用 [!UICONTROL fixed~，否則此值通常與 ~]~MyCost^[!UICONTROL rate] 相同。除了多了 [!UICONTROL none~ 之外，此資料欄的有效值與 ~]~MyCost^[!UICONTROL rate] 相同。
