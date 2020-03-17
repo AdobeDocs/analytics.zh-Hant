@@ -3,7 +3,7 @@ description: 報告時段所有報告明細項目的值。如果目前有選取�
 title: 總計
 topic: Metrics
 uuid: b0827325-9736-4a68-ade2-3fe859c7f43c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
