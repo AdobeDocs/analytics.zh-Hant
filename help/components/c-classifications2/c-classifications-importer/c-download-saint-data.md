@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類範本
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 (可選) 將分類匯入行銷報告之前，可以下載能幫助您建立分類資料檔案的範本。資料檔案使用您所要的分類當做欄標題，然後將報告資料集組織在適當的分類標題下。
 
-**[!UICONTROL 管理員]** &gt; **[!UICONTROL 分類匯入工具]**。
+**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
 
 | 元素 | 說明 |
 |---|---|
@@ -40,8 +40,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 範本方法限制將資料下載至單一報表套裝中。
 
-1. 按一下&#x200B;**[!UICONTROL 「管理員]** &gt; **[!UICONTROL 分類匯入工具」]**。
-1. 在「**下載範本**」索引標籤中指定 [ 資料範本設定](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md).
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
+1. 在「**[!UICONTROL 下載範本]**」索引標籤中指定[資料範本設定](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)。
 1. 按一下&#x200B;**[!UICONTROL 「下載」]**。
 1. 將範本檔案儲存在本機系統中。
 
