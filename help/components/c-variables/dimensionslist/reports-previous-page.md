@@ -3,7 +3,7 @@ description: 一種路徑報告，可顯示您的網站訪客在檢視某個選�
 title: 上一頁
 topic: Reports
 uuid: 743d9931-25ed-4782-a10a-da25c4f89480
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> Reports &amp; Analytics </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> 路徑</span> &gt; <span class="uicontrol">頁面</span> &gt; <span class="uicontrol">上一頁</span> </p> <p>顯示每個頁面的訪客來自於何處。例如，若您有「功能」頁面，此報告即會就您的訪客是從何處進入該「功能」頁面，顯示排名最前的 5 個頁面。此報告: </p> 
+   <td colname="col2"> <p> <span class="uicontrol"> 路徑</span> &gt; <span class="uicontrol">頁面</span> &gt; <span class="uicontrol">上一頁</span> </p> <p>顯示每個頁面的訪客來自於何處。例如，若您有「功能」頁面，此報告即會就您的訪客是從何處進入該「功能」頁面，顯示排名最前的 5 個頁面。此報告： </p> 
     <ul id="ul_940C3FBD466A49CFB0AC56C170997031"> 
      <li id="li_3C27174CC49D4BF7A76227BE1CD44CCC">可識別訪客進入您的網站頁面時所採用的路徑。 </li> 
      <li id="li_C2C472CC765C48F8AD97CAE588D8F009">可讓您確定網站上哪些頁面將訪客引導至重要頁面。 </li> 
