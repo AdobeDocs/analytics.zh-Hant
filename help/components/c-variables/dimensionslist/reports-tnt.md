@@ -3,7 +3,7 @@ description: 在報表中檢視和區分您的 Adobe Target 流量資料。
 title: 目標
 topic: Reports
 uuid: 387dfc37-d799-465c-99e3-2d3980fec183
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在報表中檢視和區分您的 Adobe Target 流量資料。
 
-例如:
+例如：
 
 * 透過 KPI 測量 Adobe [!DNL Target] 行銷活動的成功。
 * 使用轉換變數劃分 [!DNL Target] 行銷活動和方式資料。
