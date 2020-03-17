@@ -2,13 +2,13 @@
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 ---
 
 
-# 參考資料: 進階函數
+# 參考資料：進階函數
 
 勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
 
@@ -16,7 +16,7 @@ source-git-commit: 83066f8e372fb5f8af3b7db2c165ab1cd8b76a10
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-## 「包括零」參數的意義是什麼?  {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## 「包括零」參數的意義是什麼？{#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 此參數指出是否在計算中包括零。有時候零沒有意義，有時候卻很重要。
 
@@ -36,7 +36,7 @@ AND(logical_test1,[logical_test2],...)
 
 | 引數 | 說明 |
 |---|---|
-| *logical_test1* | 必填. 可評估為 TRUE 或 FALSE 的任何值或運算式。 |
+| *logical_test1* | 必填.可評估為 TRUE 或 FALSE 的任何值或運算式。 |
 | *logical_test2* | 選填。您要評估為 TRUE 或 FALSE 的其他條件 |
 
 ## 近似相異計數 (維度) {#concept_000776E4FA66461EBA79910B7558D5D7}
@@ -51,23 +51,23 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *dimension* | 您希望近似相異項目計數的維度。 |
 
-## 範例使用案例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+## 範例使用案例{#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 近似相異計數 (客戶 ID eVar) 是此函數的常見使用案例。
 
-新「近似客戶」計算量度的定義:
+新「近似客戶」計算量度的定義：
 
 ![](assets/approx-count-distinct.png)
 
-這是可以在報表中使用「近似客戶」量度的方式:
+這是可以在報表中使用「近似客戶」量度的方式：
 
 ![](assets/approx-customers.png)
 
-## 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
+## 超出不重複值{#section_9C583858A9F94FF7BA054D1043194BAA}
 
-就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://marketing.adobe.com/resources/help/en_US/reference/metrics_uniques_high_numbers.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
+就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_uniques_high_numbers.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
-## 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## 比較計數函數{#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() 是改良 Count() 和 RowCount() 函數後的成果。其可將建立的量度用於任何維度報表，藉此演算不同維度項目的近似計數。例如，用於「行動裝置類型」報表中的客戶 ID 計數。
 
@@ -109,7 +109,7 @@ ATAN(metric)
 |---|---|
 | *量度* | 您所要擷取之角度的餘弦，從 -1 到 1。 |
 
-## 指數迴歸: 預計 Y (列) {#concept_25615693312B4A7AB09A2921083502AD}
+## 指數迴歸：預計 Y (列) {#concept_25615693312B4A7AB09A2921083502AD}
 
 已知 x 值 (metric_X)，計算預計 y 值 (metric_Y)，根據  ) 使用「最小平方」方法計算最佳配適線。
 
@@ -227,7 +227,7 @@ CORREL.EXP(metric_X, metric_Y)
 | *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
 | *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
-## 指數迴歸: 截距 (表格) {#concept_0047206C827841AD936A3BE58EEE1514}
+## 指數迴歸：截距 (表格) {#concept_0047206C827841AD936A3BE58EEE1514}
 
 針對以下迴歸方程式，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的截距 *b*
 
@@ -240,7 +240,7 @@ INTERCEPT.EXP(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 指數迴歸: 斜率 (表格) {#concept_230991B0371E44308C52853EFA656F04}
+## 指數迴歸：斜率 (表格) {#concept_230991B0371E44308C52853EFA656F04}
 
 針對以下迴歸方程式，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的斜率 *a*。
 
@@ -319,7 +319,7 @@ IF(logical_test, [value_if_true], [value_if_false])
 
 | 引數 | 說明 |
 |---|---|
-| *logical_test* | 必填. 可評估為 TRUE 或 FALSE 的任何值或運算式。 |
+| *logical_test* | 必填.可評估為 TRUE 或 FALSE 的任何值或運算式。 |
 | *[value_if_true]* | 您想在 *logical_test* 引數評估為 TRUE 時傳回的值。(若未指定則此引數預設為 0。) |
 | *[value_if_false]* | 您想在 *logical_test* 引數評估為 FALSE 時傳回的值。(若未指定則此引數預設為 0。) |
 
@@ -359,7 +359,7 @@ LOG10(metric)
 |---|---|
 | *量度* | 您要擷取以 10 為底之對數的正實數。 |
 
-## 對數迴歸: 相關係數 (表格) {#concept_F3EB35016B754E74BE41766E46FDC246}
+## 對數迴歸：相關係數 (表格) {#concept_F3EB35016B754E74BE41766E46FDC246}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，迴歸方程式 *的相關係數* r[!DNL Y = a ln(X) + b]。會使用 CORREL 方程式進行計算。
 
@@ -372,7 +372,7 @@ CORREL.LOG(metric_X,metric_Y)
 | *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
 | *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
-## 對數迴歸: 截距 (表格) {#concept_75A3282EDF54417897063DC26D4FA363}
+## 對數迴歸：截距 (表格) {#concept_75A3282EDF54417897063DC26D4FA363}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，迴歸方程式 *的截距* b[!DNL Y = a ln(X) + b] 做為最小平方迴歸。會使用 INTERCEPT 方程式進行計算。
 
@@ -385,7 +385,7 @@ INTERCEPT.LOG(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 對數迴歸: 預計 Y (列) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
+## 對數迴歸：預計 Y (列) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
 已知 [!DNL y] 值 (me ric_X)，計算預計 [!DNL x] 值 (metric_Y)，根據 [!DNL Y = a ln(X) + b] 使用「最小平方」方法計算最佳配適線。會使用 ESTIMATE 方程式進行計算。
 
@@ -400,7 +400,7 @@ ESTIMATE.LOG(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 對數迴歸: 斜率 (表格) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
+## 對數迴歸：斜率 (表格) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，迴歸方程式 *的斜率* a[!DNL Y = a ln(X) + b]。會使用 SLOPE 方程式進行計算。
 
@@ -435,9 +435,9 @@ NOT(logical)
 
 | 引數 | 說明 |
 |---|---|
-| *logical* | 必填. 可評估為 TRUE 或 FALSE 的值或運算式。 |
+| *logical* | 必填.可評估為 TRUE 或 FALSE 的值或運算式。 |
 
-使用 NOT 需要知道運算式 (&lt;、&gt;、=、&lt;&gt; 等)是傳回 0 還是 1 值。
+使用 NOT 需要知道運算式 (&lt;、>、=、&lt;> 等)是傳回 0 還是 1 值。
 
 ## 不等於 {#concept_EC010B7A9D2049099114A382D662FC16}
 
@@ -455,7 +455,7 @@ OR(logical_test1,[logical_test2],...)
 
 | 引數 | 說明 |
 |---|---|
-| *logical_test1* | 必填. 可評估為 TRUE 或 FALSE 的任何值或運算式。 |
+| *logical_test1* | 必填.可評估為 TRUE 或 FALSE 的任何值或運算式。 |
 | *logical_test2* | 選填。您要評估為 TRUE 或 FALSE 的其他條件 |
 
 ## Pi {#concept_41258789660D4A33B5FB86228F12ED9C}
@@ -468,7 +468,7 @@ PI()
 
 [!DNL PI] 函數沒有引數。
 
-## 乘冪迴歸: 相關係數 (表格) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
+## 乘冪迴歸：相關係數 (表格) {#concept_91EC2CFB5433494F9E0F4FDD66C63766}
 
 針對 [!DNL Y = b*X]，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的相關係數 *r*。
 
@@ -481,7 +481,7 @@ CORREL.POWER(metric_X, metric_Y)
 | *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
 | *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
-## 乘冪迴歸: 截距 (表格) {#concept_7781C85597D64D578E19B212BDD1764F}
+## 乘冪迴歸：截距 (表格) {#concept_7781C85597D64D578E19B212BDD1764F}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*的截距* b[!DNL Y = b*X]。
 
@@ -494,7 +494,7 @@ CORREL.POWER(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 乘冪迴歸: 預計 Y (列) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
+## 乘冪迴歸：預計 Y (列) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
 已知 [!DNL x] 值 ([!DNL metric_X])，計算預測 [!DNL y] 值 ([!DNL metric_Y])，使用「最小平方」方法計算 [!DNL Y = b*X] 的最佳配適線。
 
@@ -507,7 +507,7 @@ CORREL.POWER(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 乘冪迴歸: 斜率 (表格) {#concept_5B9E71B989234694BEB5EEF29148766C}
+## 乘冪迴歸：斜率 (表格) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*) 的斜率* a[!DNL Y = b*X]。
 
@@ -520,7 +520,7 @@ SLOPE.POWER(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 二次迴歸: 相關係數 (表格) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
+## 二次迴歸：相關係數 (表格) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
 針對 [!DNL Y=(a*X+b)]****，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的相關係數 *r*。
 
@@ -533,7 +533,7 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 | *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
 | *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
-## 二次迴歸: 截距 (表格) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
+## 二次迴歸：截距 (表格) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
 針對 [!DNL Y=(a*X+b)]****，傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間的截距 *b*。
 
@@ -546,7 +546,7 @@ INTERCEPT.POWER(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 二次迴歸: 預計 Y (列) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
+## 二次迴歸：預計 Y (列) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
 已知 [!DNL y] 值 (metric_X)，計算預測 [!DNL x] 值 (metric_Y)，使用最小平方方法計算使用 [!DNL Y=(a*X+b)] 的最佳配適線。
 
@@ -559,7 +559,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 | *metric_A* | 您要指定做為相依資料的量度。 |
 | *metric_B* | 您要指定做為相依資料的量度。 |
 
-## 二次迴歸: 斜率 (表格) {#concept_0023321DA8E84E6D9BCB06883CA41645}
+## 二次迴歸：斜率 (表格) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
 針對 [!DNL Y=(a*X+b)]****，傳回兩個量度欄 (*metric_X* 和 metric_Y) 之間的斜率 *a*。
 
@@ -572,7 +572,7 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 倒數迴歸: 相關係數 (表格) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
+## 倒數迴歸：相關係數 (表格) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*的相關係數* r[!DNL Y = a/X+b]。
 
@@ -585,7 +585,7 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 | *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
 | *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
-## 倒數迴歸: 截距 (表格) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
+## 倒數迴歸：截距 (表格) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*的截距* b[!DNL Y = a/X+b]。
 
@@ -598,7 +598,7 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 倒數迴歸: 預計 Y (列) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
+## 倒數迴歸：預計 Y (列) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
 已知 [!DNL y] 值 (metric_X)，計算預計 [!DNL x] 值 (metric_Y)，使用最小平方方法計算使用 [!DNL Y = a/X+b] 的最佳配適線。
 
@@ -611,7 +611,7 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 | *metric_X* | 您要指定做為相依資料的量度。 |
 | *metric_Y* | 您要指定做為獨立資料的量度。 |
 
-## 倒數迴歸: 斜率 (表格) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
+## 倒數迴歸：斜率 (表格) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
 傳回兩個量度欄 (*metric_X* 和 *metric_Y*) 之間，*) 的斜率* a[!DNL Y = a/X+b]。
 
@@ -652,15 +652,15 @@ Z 分數的別名，即平均值偏差除以標準差
 
 傳回值是在給定自由度和反面的數目下，出現檢定統計資料 x 的機率。
 
-**範例:**
+**範例：**
 
-1. 用其找出極端值:
+1. 用其找出極端值：
 
    ```
    t_test( zscore(bouncerate), row-count-1, 2)
    ```
 
-1. 將其與 `if` 合併，以便忽略非常高或非常低的反彈率，然後統計其他項目上的造訪率:
+1. 將其與 `if` 合併，以便忽略非常高或非常低的反彈率，然後統計其他項目上的造訪率：
 
    ```
    if ( t_test( z-score(bouncerate), row-count, 2) < 0.01, 0, visits )
@@ -682,13 +682,13 @@ TAN (metric)
 
 根據常態分布傳回 Z 分數 (常態計分)。Z 分數是觀察值偏離平均值之標準差的數字。Z 分數為 0 (零) 表示分數與平均值相同。Z 分數可為正或負，代表其高於或低於平均值多少標準差。
 
-Z 分數的方程式為:
+Z 分數的方程式為：
 
 ![](assets/z_score.png)
 
 其中 [!DNL x] 是原始分數、[!DNL μ] 是族群平均值，[!DNL σ] 是族群標準差。
 
-> [!NOTE] [!DNL μ] (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
+> [!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
 
 Z 分數 (量度)
 
