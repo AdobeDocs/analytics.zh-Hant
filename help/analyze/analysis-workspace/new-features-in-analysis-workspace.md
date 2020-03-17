@@ -5,12 +5,21 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
+source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
 
 ---
 
 
 # Analysis Workspace 的新增功能
+
+## 2020 年 3 月
+
+2020年3月12日發行的新功能。
+
+| 功能 | 說明 |
+|--- |--- |
+| 支援工作區中的多個報表套裝 | 您現在可以將多個報表套裝的資料匯入單一專案，以並排檢視。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 訓練教學課程範本 | 此新標準範本會逐步帶您瞭解在工作區中建立第一個分析的常用術語和步驟。 若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。[更多詳情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -18,7 +27,6 @@ source-git-commit: 06d2e64fc72c911828f089de5c487117251e060e
 
 | 功能 | 說明 |
 |--- |--- |
-| 支援工作區中的多個報表套裝 | 您現在可以將多個報表套裝的資料匯入單一專案，以並排檢視。 從2020年2月20日開始，此功能將在數週內推出給所有客戶。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | 使用跨裝置分析的組織適用的新工作區範本 | 此範本顯示CDA如何有效地將造訪連結在一起，並教育您瞭解CDA專屬的維度和量度。 需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-setup.html)。 |
 | 工作區中的新快速鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 其他工作區增強功能 | <ul><li>當面板或視覺化放入「工作區」時，左側導軌現在會自動切換至元件，讓工作流程更順暢。</li><li>範本元件現在可以依據（例如標籤、收藏、核准）進行設定。</li><li>篩選的量度和區段清單會提供+按鈕，讓您在找不到所需項目時新增元件。</li></ul> |
