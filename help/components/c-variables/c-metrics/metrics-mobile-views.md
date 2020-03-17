@@ -3,7 +3,7 @@ description: 透過行動裝置存取時，檢視頁面或設定維度的次數�
 title: 行動檢視
 topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
