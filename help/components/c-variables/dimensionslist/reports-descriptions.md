@@ -3,7 +3,7 @@ description: 「Reports & Analytics」中可用的預先定義報告的定義，
 title: 維度說明
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>Report Builder </p> </td> 
-   <td colname="col2"><span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">工具</span> &gt; <span class="uicontrol">Report Builder」</span></span> <p>請求精靈步驟 1: 標準報表清單 </p> <p>請求精靈步驟 2: 維度清單 </p> </td> 
+   <td colname="col2"><span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">工具</span> &gt; <span class="uicontrol">Report Builder」</span></span> <p>請求精靈步驟 1：標準報表清單 </p> <p>請求精靈步驟 2：維度清單 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Ad Hoc Analysis </p> </td> 
@@ -45,7 +45,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/en_US/insight/dataset/c_ex_dim.html"  > 擴充維度</a> </td> 
+   <td colname="col2"><a href="https://marketing.adobe.com/resources/help/zh_TW/insight/dataset/c_ex_dim.html"  > 擴充維度</a> </td> 
   </tr> 
  </tbody> 
 </table>
