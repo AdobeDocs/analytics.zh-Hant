@@ -3,7 +3,7 @@ description: 根據裝置是否啟用或停用 JavaScript，或是計算為「�
 title: JavaScript 支援
 topic: Reports
 uuid: 7b95001a-cd35-478a-8b24-54d30666110d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ javascript 是造訪層級欄位，因此可保存造訪中首次點擊的值。
 
 j_jscript 則從 Adobe Analytics 影像請求的參數 j 填入。
 
-其範例如下:
+其範例如下：
 
 | 點擊 | j_jscript | javascript |
 |---|---|---|
