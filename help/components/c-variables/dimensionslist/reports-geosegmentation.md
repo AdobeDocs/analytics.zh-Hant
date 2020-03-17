@@ -3,7 +3,7 @@ description: 顯示訪客位置的相關資料。地域劃分報告包括國家�
 title: 地域劃分
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 顯示訪客位置的相關資料。地域劃分報告包括國家、地區、城市、美國州和美國 DMA (數位行銷區域)。已為所有客戶啟用地域劃分報表。
 
-「Reports &amp; Analytics」中其他地方可用的所有量度會自動納入國家、地區、城市、美國州和 DMA 報告: 轉換和造訪型量度，外加計算量度。有關詳細資訊，請參閱本 Adobe [部落格](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/)文章。
+「Reports &amp; Analytics」中其他地方可用的所有量度會自動納入國家、地區、城市、美國州和 DMA 報告：轉換和造訪型量度，外加計算量度。有關詳細資訊，請參閱本 Adobe [部落格](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/)文章。
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
@@ -41,11 +41,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 美國 DMA </td> 
-   <td colname="col2"> <p> (數位行銷區域) 整個美國的廣播與電視媒體市場分區。您可以篩選報告，只顯示特定州的行銷區域。該資料由達成夥伴關係的 Adobe 和 Nielsen Media Research 公司共同提供。 </p> <p>注意: 美國 DMA 報告中「未指定的」項目代表無法與特定 DMA 相關聯的訪客。 </p> </td> 
+   <td colname="col2"> <p> (數位行銷區域) 整個美國的廣播與電視媒體市場分區。您可以篩選報告，只顯示特定州的行銷區域。該資料由達成夥伴關係的 Adobe 和 Nielsen Media Research 公司共同提供。 </p> <p>注意：美國 DMA 報告中「未指定的」項目代表無法與特定 DMA 相關聯的訪客。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 報告精確性 </td> 
-   <td colname="col2"> <p>Digital Envoy 是一家提供 IP 情資與驗證解決方案的頂級公司，Adobe 與他們合作，推出了「地域劃分」這項可根據使用者的 IP 位址測量地理位置的功能。雖然以個別資料集為準的精確性可能會浮動，但一般而言，Digital Envoy 在國家層級能夠提供 99% 以上的精確性、地區層級可達 97% 以上的精確性，城市層級則可達 90% 以上。 </p> <p>注意: 這些數字假設未啟用移除 IP 位址最後八位元的 [設定] (/help/admin/admin/general-acct-settings-admin.md)。 </p> <p>IP 位址會對應至郵遞區號，每個城市都依「當地政府」為該城市制定的郵遞區號來定義。例如，柏林郊區不包含在柏林的定義中，而如果 IP 位址可精確對應至每個城鎮的郵遞區號，就會分別列出這些城鎮。 </p> <p>有些因素可能會對 的地域劃分資料造成影響，包括: </p> 
+   <td colname="col2"> <p>Digital Envoy 是一家提供 IP 情資與驗證解決方案的頂級公司，Adobe 與他們合作，推出了「地域劃分」這項可根據使用者的 IP 位址測量地理位置的功能。雖然以個別資料集為準的精確性可能會浮動，但一般而言，Digital Envoy 在國家層級能夠提供 99% 以上的精確性、地區層級可達 97% 以上的精確性，城市層級則可達 90% 以上。 </p> <p>注意：這些數字假設未啟用移除 IP 位址最後八位元的 [設定] (/help/admin/admin/general-acct-settings-admin.md)。 </p> <p>IP 位址會對應至郵遞區號，每個城市都依「當地政府」為該城市制定的郵遞區號來定義。例如，柏林郊區不包含在柏林的定義中，而如果 IP 位址可精確對應至每個城鎮的郵遞區號，就會分別列出這些城鎮。 </p> <p>有些因素可能會對 的地域劃分資料造成影響，包括： </p> 
     <ul id="ul_1B05024AD5174232A8DB8145753FB09B"> 
      <li id="li_C3A21E7C1186490EB9A236634DB45E7F">代表公司 Proxy 的 IP 位址。這些 Proxy 可能看似是通過使用者公司網路的流量，然而實際上是不同位置 (若使用者在遠端工作)。 </li> 
      <li id="li_56FC36B3598C420F9246D4E8772822A7">行動 IP 位址。行動 IP 定位會根據位置與網路而在不同層級運作。許多電信業者會透過集中化或地區性 POP 取回 IP 流量。 </li> 
