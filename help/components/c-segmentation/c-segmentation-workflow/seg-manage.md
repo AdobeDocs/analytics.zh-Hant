@@ -3,7 +3,7 @@ description: 「區段管理器」提供許多管理區段的方式，例如共�
 title: 管理區段
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,16 +13,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「區段管理器」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標示為我的最愛。
 
-「Analytics 區段管理器」會顯示您所擁有以及已經與您共用的區段。管理員級使用者可以查看組織中的所有區段。此概覽會介紹「區段管理器」的使用者介面和功能。存取「區段管理器」的方法有:
+「Analytics 區段管理器」會顯示您所擁有以及已經與您共用的區段。管理員級使用者可以查看組織中的所有區段。此概覽會介紹「區段管理器」的使用者介面和功能。存取「區段管理器」的方法有：
 
-* 前往頂端導覽中的 **[!UICONTROL Analytics]** &gt; **[!UICONTROL 元件]** &gt; **[!UICONTROL 區段]**。
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](assets/segment_icon.png)然後按一下&#x200B;**[!UICONTROL 「管理」]**。
+* 前往左側導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段]**」。
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按一下&#x200B;**[!UICONTROL 「管理」]**。
 
 ## 作法影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-此 [Adobe Analytics YouTube 影片](https://www.youtube.com/watch?v=CdfOq98PTrg&index=6&list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd)提供如何使用區段管理器的簡短概述。
+此 [Adobe Analytics YouTube 影片](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd)提供如何使用區段管理器的簡短概述。
 
-## 區段管理器使用者介面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## 區段管理器使用者介面{#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
@@ -43,13 +43,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 13 | 批准圖示    | 指出管理員已批准此區段。 |
 | 14 | 篩選器 | 可讓您在「標記」、「報表套裝」、「擁有者」及「其他」(「全部顯示」、「我的」、「已共用給我」、「已核准」、「我的最愛」) 底下，看見並選取篩選器。 |
 
-## Ad Hoc Analysis 中的區段管理器 {#section_CC8BDC968EBC4BC1919870869D8443A9}
+## Ad Hoc Analysis 中的區段管理器{#section_CC8BDC968EBC4BC1919870869D8443A9}
 
 Ad Hoc Analysis 中的「區段管理器」會顯示所有您所擁有和已共用給您的區段。
 
-若要存取 [!DNL ad hoc analysis] 中的「區段管理器」:
+若要存取 [!DNL ad hoc analysis] 中的「區段管理器」：
 
-* 前往左側面板中的「**[!UICONTROL 區段]**」標籤，然後按一下扳手圖示 ![，再從功能表選取「](assets/wrench_icon.png)整理區段&#x200B;**」。**
+* 前往左側面板中的「**[!UICONTROL 區段]**」標籤，然後按一下扳手圖示 ![](assets/wrench_icon.png)，再從功能表選取「整理區段&#x200B;**[!UICONTROL 」。]**
 
 ![](assets/ad_hoc_organize_segments.png)
 
