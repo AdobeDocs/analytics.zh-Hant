@@ -3,7 +3,7 @@ description: 「單次存取」的定義為對您網站的存取包含單一獨�
 title: 單次存取
 topic: Metrics
 uuid: 3e35a12e-53ca-45a5-84a6-6eedbf3f4639
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
