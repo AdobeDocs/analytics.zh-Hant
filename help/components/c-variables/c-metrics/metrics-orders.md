@@ -3,7 +3,7 @@ description: 您的網站在所選時段內的訂購數。您可以依其他量�
 title: 訂購
 topic: Metrics
 uuid: b20ad038-370b-4343-a394-434d3c4bd111
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
