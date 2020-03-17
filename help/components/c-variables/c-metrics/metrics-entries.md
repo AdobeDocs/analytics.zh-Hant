@@ -3,7 +3,7 @@ description: 登入點代表指定的值在瀏覽中是被擷取的第一個值�
 title: 登入點
 topic: Metrics
 uuid: c4608b66-b70c-4e98-b7c6-9be5fbe4ec9c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
