@@ -3,7 +3,7 @@ description: 顯示可從行動裝置存取的網站相關資訊。「行動裝�
 title: 行動
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 > [!NOTE] 行動報表只會顯示行動網路流量。使用原生 iOS、Android 和其他 SDK 收集的行動應用程式資料，需先在「管理工具」啟用該功能，才會顯示在「行動應用」報告中。
 
-提供下列行動報告:
+提供下列行動報告：
 
 <table id="table_900BB8F2F3A746B6B97DC629B39910DA"> 
  <thead> 
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p>裝置 </p> </td> 
-   <td colname="col2"> <p>顯示使用行動裝置 (如執行 iOS 或 Android 的裝置) 瀏覽您網站的訪客人數。此報告有助於您理解行動舉措的影響，以便制定相應的計劃。您可將此報告用於: </p> <p> 
+   <td colname="col2"> <p>顯示使用行動裝置 (如執行 iOS 或 Android 的裝置) 瀏覽您網站的訪客人數。此報告有助於您理解行動舉措的影響，以便制定相應的計劃。您可將此報告用於： </p> <p> 
      <ul id="ul_8CC40461C2944A63AED561E384275D24"> 
       <li id="li_4667815ED7384DE9824FB47F02040374"> <p>制定針對行動使用者的策略 </p> </li> 
       <li id="li_12C1F430E5464FB4AC29C2D970165935"> <p>識別讀者的使用偏好 </p> </li> 
@@ -84,7 +84,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 作業系統 (已不再使用) </td> 
-   <td colname="col2"> <p> 依照裝置上執行的行動作業系統對行動裝置分組。行動作業系統包括 Windows、RIM、iOS、Symbian 等。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>注意:「技術 &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  >作業系統</a>」報表更新以包含所有作業系統 (包括行動裝置) 時，已將此報表淘汰。您可以建立內含「行動裝置」的區段，並將其套用至「技術 &gt; 作業系統」報表，以便僅檢視行動作業系統。 </p> </td> 
+   <td colname="col2"> <p> 依照裝置上執行的行動作業系統對行動裝置分組。行動作業系統包括 Windows、RIM、iOS、Symbian 等。該報告還包括無法識別行動作業系統的「未知」群組。 </p> <p>注意：「技術 &gt; <a href="/help/components/c-variables/dimensionslist/reports-operating-system.md"  >作業系統</a>」報表更新以包含所有作業系統 (包括行動裝置) 時，已將此報表淘汰。您可以建立內含「行動裝置」的區段，並將其套用至「技術 &gt; 作業系統」報表，以便僅檢視行動作業系統。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Java 版本 </td> 
