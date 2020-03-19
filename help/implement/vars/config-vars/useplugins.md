@@ -2,14 +2,14 @@
 title: usePlugins
 description: 啟用或停用doPlugins()函式。
 translation-type: tm+mt
-source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # usePlugins
 
-如果 `usePlugins` 已啟用，此函 `doPlugins()` 數會在AppMeasurement編譯前執行，並傳送點擊至Adobe。 如果您使用函式，請啟用此 `doPlugins()` 變數。
+如果 `usePlugins` 已啟用，此函 [`doPlugins()`](../functions/doplugins.md) 數會在AppMeasurement編譯前執行，並傳送點擊至Adobe。 如果您使用函式，請啟用此 `doPlugins()` 變數。
 
 ## 使用Adobe Experience Platform Launch的增效模組
 
