@@ -2,14 +2,14 @@
 title: Util.cookieWrite
 description: 寫入Cookie的值。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # Util.cookieWrite
 
-Cookie可以儲存和擷取相同網域上各頁面的資訊。 使用 `Util.cookieWrite` 方法將值設為Cookie。 您可以使用方 `Util.cookieRead` 法來檢索使用設定的值 `Util.cookieWrite`。
+Cookie可以儲存和擷取相同網域上各頁面的資訊。 使用 `Util.cookieWrite()` 方法將值設為Cookie。 您可以使用方 [`Util.cookieRead()`](util-cookieread.md) 法來檢索使用設定的值 `Util.cookieWrite()`。
 
 ## 在Adobe Experience Platform Launch中設定Cookie
 
