@@ -2,7 +2,7 @@
 title: addProductEvent
 description: 新增自訂事件至產品和事件變數。
 translation-type: tm+mt
-source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 7a455fb9eb355617bab016218b171dffa8d21958
 
 > [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
-外掛 `addProductEvent` 程式會新增數值或貨幣事件至變 `products` 數。 如果您想要新增數值或貨幣事件至變數，而不需擔心產品字串格式，Adobe `products` 建議使用此外掛程式。 如果您未在變數中使用數值或貨幣事件，則不需要此外掛程 `products` 式。
+外掛 `addProductEvent` 程式會新增數值或貨幣事件至變 [`products`](../page-vars/products.md) 數。 如果您想要新增數值或貨幣事件至變數，而不需擔心產品字串格式，Adobe `products` 建議使用此外掛程式。 如果您未在變數中使用數值或貨幣事件，則不需要此外掛程 `products` 式。
 
 ## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
 
@@ -42,7 +42,7 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 ## 使用AppMeasurement安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 `s_gi`何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,7 +65,7 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * **`ev`** （必要，字串）:在引數中指派給數值或貨幣事件的 `en` 值。  預設為 `1` 未設定時。
 * **`ap`** （可選，布林）:如果產品變數目前包含多個產品項目，則值( `true` 或 `1`)會將事件新增至所有產品項目。  預設為 `false` 未設定時。
 
-它 `addProductEvent` 不傳回。 而是將事件及其值新增至變 `products` 數。 此外掛程式也會自動將事件新增至變 `events` 數，因為此處也需要它。
+它 `addProductEvent` 不傳回。 而是將事件及其值新增至變 `products` 數。 此外掛程式也會自動將事件新增至變 [`events`](../page-vars/events/events-overview.md) 數，因為此處也需要它。
 
 ## Cookie
 
@@ -128,7 +128,7 @@ s.addProductEvent("event35", "15", 1);
 
 ### 範例#5
 
-如 `s.products` 果尚未設定，下列程式碼會將它設定為 `";;;;event35=25"`
+如 `s.products` 果尚未設定，下列程式碼會將它設為 `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
