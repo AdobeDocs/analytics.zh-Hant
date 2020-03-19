@@ -2,18 +2,18 @@
 title: forceOnline
 description: 手動設定AppMeasurement的線上狀態。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # forceOnline
 
-此方 `forceOnline` 法可讓您覆寫自動偵測到的AppMeasurement狀態。
+此方 `forceOnline()` 法可讓您覆寫自動偵測到的AppMeasurement狀態。
 
-> [!IMPORTANT] 僅在啟用時使 `trackOffline` 用此函式。 在離線追蹤以外使用此函式可能會造成資料遺失。
+> [!IMPORTANT] 只有在啟用時才使 [`trackOffline`](../config-vars/trackoffline.md) 用此方法。 在離線追蹤以外使用此函式可能會造成資料遺失。
 
-AppMeasurement會自動偵測裝置的線上狀態。 您可以使用方 `forceOnline` 法強制AppMeasurement將點擊視為裝置線上。 此方法不採用任何引數，也不返回任何值。 其唯一用途是覆寫AppMeasurement中的線上狀態。
+AppMeasurement會自動偵測裝置的線上狀態。 您可以使用方 `forceOnline()` 法強制AppMeasurement將點擊視為裝置線上。 此方法不採用任何引數，也不返回任何值。 其唯一用途是覆寫AppMeasurement中的線上狀態。
 
 ## 在Adobe Experience Platform Launch中強制線上
 
