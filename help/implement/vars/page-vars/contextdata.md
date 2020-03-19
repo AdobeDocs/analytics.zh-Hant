@@ -2,14 +2,14 @@
 title: contextData
 description: 上下文資料變數可讓您定義處理規則可讀取之每個頁面上的自訂變數。
 translation-type: tm+mt
-source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # contextData
 
-上下文資料變數可讓您定義處理規則可讀取之每個頁面上的自訂變數。 您可以在上下文資料變數中傳送資料，而不是在程式碼中明確指派值給Analytics變數。 處理規則接著會擷取上下文資料變數值，並將它們傳遞至個別的Analytics變數。 See [Processing rules](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md) in the Admin user guide.
+上下文資料變數可讓您定義處理規則可讀取之每個頁面上的自訂變數。 您可以在上下文資料變數中傳送資料，而不是在程式碼中明確指派值給Analytics變數。 處理規則接著會擷取上下文資料變數值，並將它們傳遞至個別的Analytics變數。 請參閱管理員使用手冊中的[處理規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)。
 
 上下文資料變數有助於開發團隊以命名元素而非編號變數來收集資料。 例如，您可以請求開發團隊將頁面的作者指派給 `eVar10`，而不是指派給頁面的作 `s.contextData["author"]` 者。 然後，您組織中的Analytics管理員可以建立處理規則，將上下文資料變數對應至分析變數，以便進行報告。 開發團隊最終只會擔心上下文資料變數，而不是Adobe提供的許多頁面變數。
 
@@ -44,7 +44,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 在連結追蹤呼叫中傳送上下文資料
 
-將上下文資料變數納入為中的 `contextData` 屬性 `s.linkTrackVars`:
+將上下文資料變數納入為中的 `contextData` 屬性 [`s.linkTrackVars`](../config-vars/linktrackvars.md):
 
 ```js
 s.contextData["example_variable"] = "Example value";
