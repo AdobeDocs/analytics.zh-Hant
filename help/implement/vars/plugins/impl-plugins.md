@@ -2,7 +2,7 @@
 title: 增效模組概觀
 description: 將程式碼貼在您的網站上，以引入新功能。
 translation-type: tm+mt
-source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,7 +21,7 @@ Adobe提供數種安裝特定外掛程式的方式：
 
 每個組織有不同的實作需求，因此您可以決定要如何將它們納入實作中。 在網站上加入程式碼時，請務必符合下列條件：
 
-1. 先執行個體化Analytics追蹤物件(使 `s_gi`用)。
+1. 先執行個體化Analytics追蹤物件(使 [`s_gi`](../functions/s-gi.md)用)。
    * 當Adobe Analytics載入時，Launch會自動執行個體化追蹤物件。
    * 使用的實 `AppMeasurement.js` 施通常會在JavaScript檔案頂端初始化追蹤物件。
 2. 先加入外掛程式程式碼。
