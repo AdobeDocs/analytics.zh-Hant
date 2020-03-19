@@ -2,14 +2,14 @@
 title: t
 description: 傳送頁面檢視追蹤呼叫給Adobe。
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# t
+# t()
 
-方 `t` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。
+方 `t()` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。
 
 例如，請考慮下列JavaScript程式碼：
 
@@ -25,7 +25,7 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-執行方 `t` 法會定義所有Analytics變數，並根據這些變數產生URL。 有些Analytics變數會決定影像的URL，而其他變數則會決定查詢字串參數值。
+執行方 `t()` 法會定義所有Analytics變數，並根據這些變數產生URL。 有些Analytics變數會決定影像的URL，而其他變數則會決定查詢字串參數值。
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
@@ -39,9 +39,9 @@ Launch有專用位置設定頁面檢視追蹤呼叫。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下，按一下「+」圖示
-5. 將「延 [!UICONTROL 伸功能] 」下拉式清單設定為Adobe Analytics，並設定 [!UICONTROL 「傳送信標的動作類型] 」。
+3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+4. 在下 [!UICONTROL Actions]方，按一下「+」圖示
+5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為傳送信標。
 6. Click the `s.t()` radio button.
 
 ## AppMeasurement和Launch自訂代碼編輯器中的s.t()方法
