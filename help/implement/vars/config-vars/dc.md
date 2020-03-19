@@ -2,14 +2,14 @@
 title: dc
 description: 可讓您決定要使用哪個資料中心的淘汰變數。
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # dc
 
-> [!IMPORTANT] 此變數已停用。 請改 `trackingServer` 用。
+> [!IMPORTANT] 此變數已停用。 請改 [`trackingServer`](trackingserver.md) 用。
 
 在舊版Adobe Analytics中，Adobe要求您指定要傳送資料至哪個資料中心。 將點擊傳送到錯誤的資料中心會導致資料遺失。
 
