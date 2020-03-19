@@ -2,7 +2,7 @@
 title: events
 description: 設定事件變數，此變數可控制您網站上的大部分量度。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,23 +17,23 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下方，按一下現有  的Adobe Analytics - 「設定變數」動作，或按一下「+」圖示。
-5. 將「延伸 [!UICONTROL 功能] 」下拉式清單設定為Adobe Analytics，並將「動作類型 [!UICONTROL 」設] 定為變數 。
-6. 找到「事 [!UICONTROL 件] 」區段。
+3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
+5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Events] section.
 
 提供多項功能：
 
 * 下拉式清單可讓您選取要包含的事件
 * 用於序列化的選用文字欄位。 See [event serialization](event-serialization.md) for more information.
 * 事件值的可選文字欄位。 您可以包含貨幣事件的貨幣，或非貨幣事件的整數，以增加多次。 例如，在下拉式清 `event1` 單下選取並在此欄位中 `10` 加入，在報表中 `event1` 會增加10。
-* 新增其他事件的按鈕。 您在點擊中可包含的事件數沒有合理的限制。
+* 新增其他事件的按鈕。 您在點擊中可包含的事件數目沒有合理限制。
 
 ## AppMeasurement和Launch自訂代碼編輯器中的s.events
 
 變 `s.events` 數是字串，包含要包含在點擊中的逗號分隔事件清單。 此變數沒有位元組限制，因此不會截斷。 有效值包括:
 
-* `event1` - `event1000`:自訂事件，視需要設定。 記錄您在組織解決方案設計檔案中使用每個事 [件的方式](../../../prepare/solution-design.md)。 可用事件的數目取決於您組織的Analytics合約。 大部分非舊合約的組織都有1000個可用的自訂事件。 如果您不確定有多少個自訂事件可供您使用，請連絡您組織的客戶經理。
+* `event1` - `event1000`:自訂事件，視需要設定。 記錄您在組織解決方案設計檔案中使用每個事 [件的方式](../../../prepare/solution-design.md)。 可用事件的數目取決於您組織的Analytics合約。 大部分非舊合約的組織都有1000個可用的自訂事件。 如果您不確定可用的自訂事件有多少，請連絡您組織的客戶經理。
 * `purchase`:將「訂購」量度遞增1，並使用變數中設 `products` 定的值來計算「件數」和「收入」。 如需詳 [細資訊](event-purchase.md) ，請參閱購買事件。
 * `prodView`:遞增「產品檢視」量度。
 * `scOpen`:遞增「購物車」量度。
@@ -42,7 +42,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 * `scView`:遞增「購物車檢視」量度。
 * `scCheckout`:遞增「結帳」量度。
 
-> [!TIP] 此變數區分大小寫。 避免誤用事件值，以確保資料收集的準確性。
+> [!NOTE] 此變數區分大小寫。 避免誤用事件值，以確保資料收集的準確性。
 
 ```js
 // Set the events variable to a single value
@@ -52,7 +52,7 @@ s.events = "event1";
 s.events = "event1,event13,purchase";
 ```
 
-### 多次增加計數器事件
+### 多次遞增計數器事件
 
 您可視需要計算多次自訂事件。 為字串內的所需事件指派整數。 依預設，在報表套裝設定中建立的事件是計數器事件。
 
