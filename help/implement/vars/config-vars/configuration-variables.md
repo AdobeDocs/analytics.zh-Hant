@@ -2,7 +2,7 @@
 title: 設定變數
 description: 使用設定變數協助判斷資料的收集方式。
 translation-type: tm+mt
-source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: e9a876a1f562333056387d63de46a9cfe3fb3939
 2. 按一下您要編輯的屬性。
 3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
 
-> [!IMPORTANT] 在呼叫track函式（或）之前，請確定已設定所有`t()` 組態 `tl()`變數。 請避免在函式中設定設定 `doPlugins()` 變數。
+> [!IMPORTANT] 在呼叫追蹤方法（或）之前，請確定已設定所有[`t()`](../functions/t-method.md) 組態 [`tl()`](../functions/tl-method.md)變數。 請避免在函式中設定設定 [`doPlugins()`](../functions/doplugins.md) 變數。
