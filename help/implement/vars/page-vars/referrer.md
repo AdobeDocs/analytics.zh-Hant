@@ -2,7 +2,7 @@
 title: referrer
 description: 覆寫點擊的自動收集反向連結。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -17,10 +17,10 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下方，按一下現有  的Adobe Analytics - 「設定變數」動作，或按一下「+」圖示。
-5. 將「延伸 [!UICONTROL 功能] 」下拉式清單設定為Adobe Analytics，並將「動作類型 [!UICONTROL 」設] 定為變數 。
-6. 找到「反向 [!UICONTROL 連結] 」區段。
+3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
+5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Referrer] section.
 
 您可以將反向連結設為任何字串值，包括資料元素。
 
@@ -36,7 +36,7 @@ s.referrer = "https://example.com";
 
 ## 範例
 
-許多組織都會處理重新導向相關的實施。 如果您的網站 [`getQueryParam`](../functions/util-getqueryparam.md) 容納反向連結，您可以使用公用程式從URL取得反向連結。 請確定您對查詢字串中包含的任何值進行URL編碼。
+許多組織都會處理重新導向相關的實施。 如果您的網站 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 容納反向連結，您可以使用公用程式從URL取得反向連結。 請確定您對查詢字串中包含的任何值進行URL編碼。
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
