@@ -2,7 +2,7 @@
 title: JavaScript 適用的 AppMeasurement
 description: 瞭解如何使用JavaScript在不使用標籤管理系統的情況下實作Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: 59956169308291e7607a2712cd63a802d7b8bd11
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -37,7 +37,7 @@ JavaScript適用的AppMeasurement向來是實作Adobe Analytics的常用方法�
    s.events = "event1";
    ```
 
-4. 定義所有頁面層級變數後，請使用函式將資料傳送至 `t` Adobe。 如需詳 [細資訊](../vars/functions/t-method.md) ，請參閱「t」。
+4. 定義所有頁面層級變數時，請使用方法將資料傳送 `t()` 至Adobe。 如需詳 [細資訊](../vars/functions/t-method.md) ，請參閱「t」。
 
    ```js
    s.t();
