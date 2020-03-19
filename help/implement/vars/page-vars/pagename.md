@@ -2,7 +2,7 @@
 title: pageName
 description: 您網站上的頁面名稱。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 > [!NOTE] 此維度一律會從連結追蹤呼叫中移除。 如果您想查看追蹤連結的頁面名稱，請考慮將此變數複製至eVar。
 
-如果此變數未定義於指定的頁面追蹤呼叫，則會改 `pageURL` 用變數。
+如果此變數未定義於指定的頁面追蹤呼叫，則會改 [`pageURL`](pageurl.md) 用變數。
 
 ## Adobe Experience Platform Launch中的頁面名稱
 
@@ -21,10 +21,10 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下方，按一下現有  的Adobe Analytics - 「設定變數」動作，或按一下「+」圖示。
-5. 將「延伸 [!UICONTROL 功能] 」下拉式清單設定為Adobe Analytics，並將「動作類型 [!UICONTROL 」設] 定為變數 。
-6. 找到「頁 [!UICONTROL 面名稱] 」區段。
+3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
+5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Page name] section.
 
 您可以將頁面名稱設為任何字串值，包括資料元素。
 
