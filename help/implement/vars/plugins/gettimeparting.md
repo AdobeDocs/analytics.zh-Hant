@@ -2,7 +2,7 @@
 title: getTimeParting
 description: 測量特定動作發生的時間。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -23,8 +23,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -39,14 +39,14 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
 ## 使用AppMeasurement安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 `s_gi`何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,7 +59,7 @@ var getTimeParting=function(a){a=document.documentMode?void 0:a||"Etc/GMT";a=(ne
 
 方 `getTimeParting` 法使用下列引數：
 
-**`t`**（可選但建議使用字串）:將訪客的當地時間轉換為的時區名稱。  預設為UTC/GMT時間。 如需[有效值的完整清單，請參閱](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)Wikipedia上的TZ資料庫時區清單。
+**`t`** （可選但建議使用字串）:將訪客的當地時間轉換為的時區名稱。  預設為UTC/GMT時間。 如需 [有效值的完整清單，請參閱](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones) Wikipedia上的TZ資料庫時區清單。
 
 常見有效值包括：
 
@@ -100,9 +100,9 @@ s.eVarX = getTimeParting();
 
 迦納處於UTC/GMT時區內。  此範例顯示在此情況下，不需要外掛程式引數。
 
-### Internet explorer瀏覽器的帳目
+### Internet Explorer瀏覽器的帳目
 
-如果您想從Internet explorer訪客中排除時間分段資料，請使用下列範例（因為從IE瀏覽器傳回的值只能在訪客的當地時間）
+如果您想從Internet Explorer訪客中排除時間分段資料，請使用下列範例（因為從IE瀏覽器傳回的值只能在訪客的當地時間）
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -154,7 +154,7 @@ s.eVar10 = getTimeParting("Australia/Sydney");
 
 ### 6.1（2018年11月26日）
 
-* Internet explorer瀏覽器的修正。 他們可以傳回時間，但只能在訪客的當地時間傳回。
+* Internet Explorer瀏覽器的修正。 他們可以傳回時間，但只能在訪客的當地時間傳回。
 
 ### 6.0（2018年8月14日）
 
