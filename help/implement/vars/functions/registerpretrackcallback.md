@@ -2,7 +2,7 @@
 title: registerPreTrackCallback
 description: 在傳送點擊至Adobe之前建立回呼函式。
 translation-type: tm+mt
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 此變 `registerPreTrackCallback` 數可讓您的組織在編譯影像請求URL後，但在傳送之前，先勾選JavaScript函式。 您可以使用此變數，將AppMeasurement收集的資料傳送至合作夥伴或內部基礎架構。
 
-> [!IMPORTANT] 請勿呼叫任何追蹤函式， `t` 例如 `tl` 變數 `registerPostTrackCallback` 內。 此變數中的追蹤函式會造成影像要求的無限回圈！
+> [!IMPORTANT] 請勿呼叫任何追蹤呼叫， [`t()`](t-method.md) 例如 [`tl()`](tl-method.md) 或在變數 [`registerPostTrackCallback`](registerposttrackcallback.md) 內。 此變數中的追蹤函式會造成影像要求的無限回圈！
 
 每次呼叫變數 `registerPreTrackCallback` 時，您都會勾選該函式，以便在每次編譯影像要求URL時執行。 請避免在同一頁面載入中多次註冊相同的函式。
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-函式中可包含其他引 `s.registerPreTrackCallback` 數，這些引數可用於嵌套函式：
+您可以在函式中包含其 `s.registerPreTrackCallback` 他引數，這些引數可用於巢狀函式：
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
@@ -48,4 +48,4 @@ s.registerPreTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-> [!NOTE] 設定頁面變數或變更 `requestUrl` 此函式中的字串 *不會影響* ，此函式呼叫後不久傳送的影像要求。
+> [!NOTE] 設定頁面變數或變更 `requestUrl` 此函式中的字串 **不會影響** ，此函式呼叫後不久傳送的影像要求。 請改用 [`doPlugins()`](doplugins.md) 變數。
