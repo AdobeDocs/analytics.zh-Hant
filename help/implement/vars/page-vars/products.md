@@ -2,7 +2,7 @@
 title: products
 description: 傳送顯示或顯示在購物車中的產品相關資料。
 translation-type: tm+mt
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 變數 `products` 會追蹤與其關聯的產品和屬性。 此變數通常設定在個別產品頁面、購物車頁面和購買確認頁面上。 此變數為多值變數，這表示您可以在相同點擊中傳送多個產品，而Adobe會將值剖析為個別的維度值。
 
-> [!NOTE] 如果此變數在點擊中設定，而變數中沒有購物車事 `events` 件，「產品檢視」量度會增加1。 請確定您在每次點擊時設定了適當的購物車事件。
+> [!NOTE] 如果此變數在點擊中設定，而變數中沒有購物車事 [`events`](events/events-overview.md) 件，「產品檢視」量度會增加1。 請確定您在每次點擊時設定了適當的購物車事件。
 
 ## Adobe Experience Platform Launch中的產品
 
@@ -19,7 +19,7 @@ Launch中沒有專用欄位可設定此變數；不過，有多個協力廠商�
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一 [!UICONTROL 下「目錄] 」以檢視所有可用的延伸模組。
+3. 前往標籤 [!UICONTROL Extensions] ，然後按一下以 [!UICONTROL Catalog] 查看所有可用的擴充功能。
 4. 搜尋詞&quot;product&quot;，此詞會顯示數個可用來協助設定此變數的擴充功能。
 
 您可以使用其中一個擴充功能，或依照下方的AppMeasurement語法使用自訂程式碼編輯器。
@@ -31,7 +31,7 @@ Launch中沒有專用欄位可設定此變數；不過，有多個協力廠商�
 * **類別** （選用）:總體產品類別。 您的組織會決定如何將產品分組為類別。
 * **產品名稱** （必要）:產品名稱。
 * **數量** （可選）:購物車中有多少個此產品。 此欄位僅適用於購買事件的點擊。
-* **價格** （可選）:產品總價小數。 如果數量超過一個，請將價格設定為總價，而非個別產品價格。 對齊此值的貨幣以符合變 `currencyCode` 數。 請勿在此欄位中加入貨幣符號。 此欄位僅適用於購買事件的點擊。
+* **價格** （可選）:產品總價小數。 如果數量超過一個，請將價格設定為總價，而非個別產品價格。 對齊此值的貨幣以符合變 [`currencyCode`](../config-vars/currencycode.md) 數。 請勿在此欄位中加入貨幣符號。 此欄位僅適用於購買事件的點擊。
 * **事件** （可選）:系結至產品的事件。 使用垂直號(`|`)分隔多個事件。 如需詳 [細資訊](events/events-overview.md) ，請參閱事件。
 * **eVar** （選用）:系結至產品的銷售eVar。 使用管道(`|`)分隔多個銷售eVar。 如需詳 [細資訊，請參閱](../../../components/c-variables/c-merch-variables/var-merchandising.md) 「銷售eVar」。
 
@@ -47,7 +47,7 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] 請務必從產品名稱、類別和銷售eVar值中移除所有分號、逗號和垂直號。 如果產品名稱包含逗號，AppMeasurement會將其剖析為新產品的開頭。 這個錯誤的剖析會拋出產品字串的其餘部分，導致維度和報表中的資料不正確。
+> [!IMPORTANT] 從產品名稱、類別和銷售eVar值中去除所有分號、逗號和垂直線。 如果產品名稱包含逗號，AppMeasurement會將其剖析為新產品的開始。 這個錯誤的剖析會拋出產品字串的其餘部分，導致維度和報表中的資料不正確。
 
 ## 範例
 
