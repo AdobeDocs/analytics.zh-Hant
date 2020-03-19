@@ -2,7 +2,7 @@
 title: getQueryParam
 description: 擷取URL查詢字串參數的值。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 外 `getQueryParam` 掛程式可讓您擷取URL中所含任何查詢字串參數的值。 它對於從著陸頁面URL擷取內部和外部促銷活動代碼非常有用。 在擷取搜尋詞或其他查詢字串參數時，它也很有用。
 
-此外掛程式在剖析複雜URL時提供強穩的功能，包括雜湊和包含多個查詢字串參數的URL。 如果您只有簡單的查詢字串參數需求，Adobe建議使用Launch中的URL參數功能或AppMeasurement `Util.getQueryParam` 中包含的方法。
+此外掛程式在剖析複雜URL時提供強穩的功能，包括雜湊和包含多個查詢字串參數的URL。 如果您只有簡單的查詢字串參數需求，Adobe建議使用Launch中的URL參數功能或AppMeasurement [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 中包含的方法。
 
 ## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
 
@@ -21,8 +21,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -37,8 +37,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
@@ -56,9 +56,9 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 該方 `getQueryParam` 法使用以下引數：
 
-* **`qsp`**（必要）:要在URL中尋找的查詢字串參數的逗號分隔清單。 不區分大小寫。
-* **`de`**（可選）:若多個查詢字串參數相符，則使用的分隔字元。 預設為空字串。
-* **`url`**（可選）:自訂URL、字串或變數，以從中擷取查詢字串參數值。 預設為`window.location`。
+* **`qsp`** （必要）:要在URL中尋找的查詢字串參數的逗號分隔清單。 不區分大小寫。
+* **`de`** （可選）:若多個查詢字串參數相符，則使用的分隔字元。 預設為空字串。
+* **`url`** （可選）:自訂URL、字串或變數，以從中擷取查詢字串參數值。 預設為 `window.location`。
 
 呼叫此方法會根據上述引數和URL傳回值：
 
@@ -139,7 +139,7 @@ http://www.abc123.com/#location&cid=trackingcode1&ecid=123456
 s.campaign=s.getQueryParam('ecid');
 ```
 
-**** 注意：外掛程式會在不存在問號時，以問號取代URL以檢查雜湊字元。  如果URL包含雜湊字元前的問號，外掛程式會以&amp;符號取代URL以檢查雜湊字元；
+**注意：** 外掛程式會在不存在問號時，以問號取代URL以檢查雜湊字元。  如果URL包含雜湊字元前的問號，外掛程式會以&amp;符號取代URL以檢查雜湊字元；
 
 ### 範例#6
 
@@ -167,7 +167,7 @@ s.campaign=s.getQueryParam('cid');
 s.campaign=s.getQueryParam('cid','',s.testURL);
 ```
 
-**** 注意：第三個參數可以是程式碼將用來嘗試在
+**注意：** 第三個參數可以是程式碼將用來嘗試在
 
 下列程式碼會將s.eVar2設為&quot;123456|trackingcode1|true|300&quot;:
 
