@@ -2,27 +2,27 @@
 title: visitorNameSpace
 description: 決定Cookie網域的已淘汰變數。
 translation-type: tm+mt
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # visitorNamespace
 
-> [!IMPORTANT] 此變數已停用。 請改 `trackingServer` 用。
+> [!IMPORTANT] 此變數已停用。 請改 [`trackingServer`](trackingserver.md) 用。
 
-在舊版Adobe Analytics中，AppMeasurement使用變 `visitorNameSpace` 數協助判斷訪客Cookie `2o7.net` 儲存位置的子網域。 在現代瀏覽器中增加隱私權實務會降低協力廠商Cookie的可靠性。 隨著和變數的 `trackingServer` 引 `trackingServerSecure` 入， `visitorNameSpace` 您不再需要。
+在舊版Adobe Analytics中，AppMeasurement使用變 `visitorNameSpace` 數協助判斷訪客Cookie `2o7.net` 儲存位置的子網域。 在現代瀏覽器中增加隱私權實務會降低協力廠商Cookie的可靠性。 隨著和變數的 `trackingServer` 引 [`trackingServerSecure`](trackingserversecure.md) 入， `visitorNameSpace` 您不再需要。
 
 > [!TIP] Adobe建議在您的網站上使用第一方Cookie。 第一方Cookie不會使用此變數。
 
 ## Adobe Experience Platform Launch中的訪客命名空間
 
-[!UICONTROL 「訪客命名空間] 」是設定Adobe Analytics擴充功能時， [!UICONTROL Cookie] accordion下方的欄位。
+[!UICONTROL Visitor Namespace] 是設定Adobe Analytics擴充功 [!UICONTROL Cookies] 能時accordion下方的欄位。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「 [!UICONTROL Adobe Analytics] 」下的「設定」按鈕。
-4. 展開 [!UICONTROL Cookies accordion] ，以顯示「訪客 [!UICONTROL 命名空間」欄位] 。
+3. 前往標籤 [!UICONTROL Extensions] ，然後按一下「Adobe Analytics [!UICONTROL Configure] 」下的按鈕。
+4. 展開accordion [!UICONTROL Cookies] ，以顯示欄 [!UICONTROL Visitor Namespace] 位。
 
 Adobe建議您不要使用此欄位。 請改 `trackingServer` 用 `trackingServerSecure` 和。
 
