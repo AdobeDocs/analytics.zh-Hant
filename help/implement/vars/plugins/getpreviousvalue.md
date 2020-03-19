@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: 取得最後一個傳遞至變數的值。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -35,14 +35,14 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
 ## 使用AppMeasurement安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 `s_gi`何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,8 +55,8 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 
 該方 `getPreviousValue` 法使用以下引數：
 
-* **`v`**（字串，必要）:具有您要傳遞至下一影像要求之值的變數。 用來擷取上`s.pageName`一頁值的通用變數。
-* **`c`**（字串，選用）:儲存值的Cookie名稱。  如果未設定此引數，則預設為`"s_gpv"`。
+* **`v`** （字串，必要）:具有您要傳遞至下一影像要求之值的變數。 用來擷取上 `s.pageName` 一頁值的通用變數。
+* **`c`** （字串，選用）:儲存值的Cookie名稱。  如果未設定此引數，則預設為 `"s_gpv"`。
 
 當您呼叫此方法時，它會傳回Cookie中包含的字串值。 此外掛程式會重設Cookie有效期，並從引數指派變數 `v` 值。 未活動30分鐘後，Cookie即過期。
 
@@ -70,7 +70,7 @@ s.getPreviousValue=function(v,c){var s=this,d;c=c||"s_gpv";var b=new Date;b.setT
 s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
 ```
 
-* 首先，將s.prop7設定為先前影像要求中傳入s.pageName的值（即儲存在&quot;gpv_Page&quot; cookie中的值）
+* 首先，將s.prop7設定為先前影像要求中傳入s.pageName的值（即儲存在&quot;gpv_Page&quot; Cookie中的值）
 * 然後程式碼會重設&quot;gpv_Page&quot; Cookie，使其等於s.pageName的目前值
 * 如果此程式碼執行時未設定s.pageName，則程式碼會重設Cookie目前值的有效期
 
@@ -92,7 +92,7 @@ if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
 
 ### 範例#4
 
-下列程式碼會將s.eVar10設定為等於先前影像要求中傳入s.eVar1的值。   先前的eVar1值原本會包含在&quot;s_gpv&quot; cookie中。  然後程式碼會將&quot;s_gpv&quot; cookie設定為s.eVar1的目前值。
+下列程式碼會將s.eVar10設定為等於先前影像要求中傳入s.eVar1的值。   先前的eVar1值原本會包含在&quot;s_gpv&quot; Cookie中。  然後程式碼會將&quot;s_gpv&quot; Cookie設定為s.eVar1的目前值。
 
 ```js
 s.eVar10 = s.getPreviousValue(s.eVar1)
