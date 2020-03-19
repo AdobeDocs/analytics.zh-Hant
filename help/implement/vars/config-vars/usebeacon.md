@@ -2,7 +2,7 @@
 title: useBeacon
 description: useBeacon可強制 AppMeasurement 使用瀏覽器 sendBeacon API
 translation-type: tm+mt
-source-git-commit: 58513f012bdbd1143601221985a399ed46916664
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 58513f012bdbd1143601221985a399ed46916664
 
 大部份的現代瀏覽器都包含原生方法 `navigator.sendBeacon()`。 它透過HTTP將少量資料非同步傳送至網頁伺服器。 如果變數已啟用， `navigator.sendBeacon()` AppMeasurement可 `useBeacon` 以使用方法。 對於退出連結和您想在頁面解除載入之前傳送資訊的其他情況，此功能十分有用。
 
-如果 `useBeacon` 已啟用，傳送至Adobe的下一次點擊會使用瀏覽器的方 `navigator.sendBeacon()` 法，而非標準 `GET` 影像要求。 這個變數會同時套用至 `s.t()` 和 `s.tl()` 影像請求。它需要AppMeasurement 2.17.0或更新版本。
+如果 `useBeacon` 已啟用，傳送至Adobe的下一次點擊會使用瀏覽器的方 `navigator.sendBeacon()` 法，而非標準 `GET` 影像要求。 這個變數會同時套用至 [`s.t()`](../functions/t-method.md) 和 [`s.tl()`](../functions/tl-method.md) 影像請求。它需要AppMeasurement 2.17.0或更新版本。
 
 > [!TIP] AppMeasurement會自動啟 `useBeacon` 用退出連結影像要求。
 
