@@ -2,7 +2,7 @@
 title: 中止
 description: 中止變數是布林值，可防止點擊傳送至Adobe資料收集伺服器。
 translation-type: tm+mt
-source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,7 +19,7 @@ Launch中沒有專用欄位可使用此變數。 依照AppMeasurement語法，�
 
 變 `abort` 數是布林值。 Its default value is `false`.
 
-* 如果設為 `true`，下次追蹤呼叫(`t()` 或 `tl()`)不會傳送任何資料給Adobe。
+* 如果設為 `true`，下次追蹤呼叫([`t()`](../functions/t-method.md) 或 [`tl()`](../functions/tl-method.md))不會傳送任何資料給Adobe。
 * 若設為或未 `false` 定義，此變數不會執行任何動作。
 
 ```js
@@ -30,7 +30,7 @@ s.abort = true;
 
 ## 範例
 
-此 `abort` 變數可在函式中設定，此函 `doPlugins()` 數是傳送影像要求至Adobe之前要執行的最後一個函式。
+此 `abort` 變數可在函式中設定，此函 [`doPlugins()`](../functions/doplugins.md) 數是傳送影像要求至Adobe之前要執行的最後一個函式。
 
 ```js
 s.doPlugins = function(s) {
