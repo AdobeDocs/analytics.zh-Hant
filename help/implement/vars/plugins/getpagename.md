@@ -2,7 +2,7 @@
 title: getPageName
 description: 從目前的網站路徑建立容易閱讀的pageName。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
 
 > [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
 
-外掛 `getPageName` 程式可建立目前URL的易讀、好記的格式化版本。 如果您想要在報表中輕鬆設定和 `pageName` 瞭解的值，Adobe建議使用此外掛程式。 如果您已有變數的命名結構（例如透過資料層）, `pageName` 就不需要此外掛程式。 當您沒有其他解決方案來設定變數時，最好使用此變 `pageName` 數。
+外掛 `getPageName` 程式可建立目前URL的易讀、好記的格式化版本。 如果您想要在報表中輕鬆設定和 [`pageName`](../page-vars/pagename.md) 瞭解的值，Adobe建議使用此外掛程式。 如果您已有變數的命名結構（例如透過資料層）, `pageName` 就不需要此外掛程式。 當您沒有其他解決方案來設定變數時，最好使用此變 `pageName` 數。
 
 ## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
 
@@ -19,8 +19,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -35,14 +35,14 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
 ## 使用AppMeasurement安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 `s_gi`何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -55,10 +55,10 @@ var getPageName=function(si,qv,hv,de){var c=location.hostname,f=location.pathnam
 
 該方 `getPageName` 法使用以下引數：
 
-* **`si`**（可選，字串）:插入字串開頭的ID，代表網站的ID。 此值可以是數值ID或好記名稱。 未設定時，它預設為當前域。
-* **`qv`**（可選，字串）:以逗號分隔的查詢字串參數清單，若在URL中找到，則會新增至字串
-* **`hv`**（可選，字串）:在URL雜湊中找到的逗號分隔參數清單，若在URL中找到，則會新增至字串
-* **`de`**（可選，字串）:分隔字元，以分割字串的個別部分。 預設為管道(`|`)。
+* **`si`** （可選，字串）:插入字串開頭的ID，代表網站的ID。 此值可以是數值ID或好記名稱。 未設定時，它預設為當前域。
+* **`qv`** （可選，字串）:以逗號分隔的查詢字串參數清單，若在URL中找到，則會新增至字串
+* **`hv`** （可選，字串）:在URL雜湊中找到的逗號分隔參數清單，若在URL中找到，則會新增至字串
+* **`de`** （可選，字串）:分隔字元，以分割字串的個別部分。 預設為管道(`|`)。
 
 方法會傳回包含易記格式化版URL的字串。 此字串通常指派給變 `pageName` 數，但也可用於其他變數。
 
