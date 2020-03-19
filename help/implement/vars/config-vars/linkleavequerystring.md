@@ -2,14 +2,14 @@
 title: linkLeaveQueryString
 description: 允許在連結追蹤維度中保留查詢字串。
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkLeaveQueryString
 
-依預設，AppMeasurement會從連結追蹤URL移除查詢字串。 使用linkLeaveQueryString變數，在連結追蹤維度中保留查詢字串。
+依預設，AppMeasurement會從連結追蹤URL移除查詢字串。 使用變 `linkLeaveQueryString` 數可保留連結追蹤維度中的查詢字串。
 
 對於某些退出連結和下載連結，URL的重要部分可以位於查詢字串中。 例如，下載連結（例如）在查 `https://example.com/download.asp?filename=myfile.exe` 詢字串中包含重要連結資訊。
 
@@ -21,12 +21,12 @@ source-git-commit: e500332fe16887fa004858b07b59644837e183aa
 
 ## 在Adobe Experience Platform Launch中保留URL參數
 
-[!UICONTROL 設定Adobe Analytics擴充功能時] ,「保留URL參數」是「連 [!UICONTROL 結追蹤] 」accordion下方的核取方塊。
+[!UICONTROL Keep URL Parameters] 是設定Adobe Analytics擴充功 [!UICONTROL Link Tracking] 能時accordion下的核取方塊。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「 [!UICONTROL Adobe Analytics] 」下的「設定」按鈕。
-4. 展開「連 [!UICONTROL 結追蹤] 」accordion，此會顯示「保留URL [!UICONTROL 參數」核取方塊] 。
+3. 前往標籤 [!UICONTROL Extensions] ，然後按一下「Adobe Analytics [!UICONTROL Configure] 」下的按鈕。
+4. 展開accordion [!UICONTROL Link Tracking] ，顯示核取方 [!UICONTROL Keep URL Parameters] 塊。
 
 如果您想在連結追蹤維度中包含查詢字串，請勾選此方塊。
 
@@ -43,7 +43,7 @@ s.linkLeaveQueryString = true;
 
 ## 範例
 
-將此變數設為true時請務必小心，因為這會影響連結追蹤篩選 `linkInternalFilters`器， `linkExternalFilters`例如 `linkDownloadFiletypes`、。
+將此變數設為true時請務必小心，因為這會影響連結追蹤篩選 [`linkInternalFilters`](linkinternalfilters.md)器， [`linkExternalFilters`](linkexternalfilters.md)例如 [`linkDownloadFiletypes`](linkdownloadfiletypes.md)、。
 
 請將下列範例視為已開啟 `adobe.com`:
 
