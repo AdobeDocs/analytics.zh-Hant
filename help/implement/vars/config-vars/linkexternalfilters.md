@@ -2,16 +2,16 @@
 title: linkExternalFilters
 description: 使用linkExternalFilters變數可協助自動退出連結追蹤。
 translation-type: tm+mt
-source-git-commit: 8f7baa770f800ffe800e760f1eca59911d3db348
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkExternalFilters
 
-AppMeasurement提供自動追蹤網站外部連結的功能。 如果 `trackExternalLinks` 是 `true`這樣，當訪客點按連結離開您的網站時，影像要求會直接傳送給Adobe。 與變 `linkTrackExternalFilters` 數會 `linkTrackInternalFilters` 決定哪些連結被視為內部／外部連結。
+AppMeasurement提供自動追蹤網站外部連結的功能。 如果 [`trackExternalLinks`](trackexternallinks.md) 啟用，當訪客點按連結離開您的網站時，影像要求會直接傳送給Adobe。 與變 `linkExternalFilters` 數會 [`linkInternalFilters`](linkinternalfilters.md) 決定哪些連結被視為內部／外部連結。
 
-如果此變數包含值，自動退出連結追蹤會以類似白名單的方式運作。 如果連結點按不符合任何 `linkExternalFilters` 值，則不視為退出連結。 系統會針對此變數檢查整個URL。 如果 `linkLeaveQueryString` 是 `true`，則也會檢查查詢字串。
+如果此變數包含值，自動退出連結追蹤會以類似白名單的方式運作。 如果連結點按不符合任何 `linkExternalFilters` 值，則不視為退出連結。 系統會針對此變數檢查整個URL。 如果 [`linkLeaveQueryString`](linkleavequerystring.md) 已啟用，則也會檢查查詢字串。
 
 > [!TIP] 只有在您確切知道要將哪些網域視為退出連結時，才使用此變數。 許多組織發現，使 `linkInternalFilters` 用足以滿足其退出連結追蹤需求，且不使用 `linkExternalFilters`。
 
@@ -19,14 +19,14 @@ AppMeasurement提供自動追蹤網站外部連結的功能。 如果 `trackExte
 
 ## 對外連結——在Adobe Experience Platform Launch中追蹤
 
-「追蹤」欄位是設定Adobe Analytics擴充功能時，「連結追蹤」accordion下方以逗號分隔的篩選 [!UICONTROL 器] （通常是網域）清單。
+「追蹤」欄位是設定Adobe Analytics擴充功能時，accordion下以逗號分隔的篩 [!UICONTROL Link Tracking] 選器（通常是網域）清單。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「 [!UICONTROL Adobe Analytics] 」下的「設定」按鈕。
-4. 展開「 [!UICONTROL 連結追蹤] 」accordion，其中會顯 [!UICONTROL 示「對外連結——追蹤」欄位] 。
+3. 前往標籤 [!UICONTROL Extensions] ，然後按一下「Adobe Analytics [!UICONTROL Configure] 」下的按鈕。
+4. 展開accordion [!UICONTROL Link Tracking] ，以顯示欄 [!UICONTROL Outbound Links - Track] 位。
 
-在此欄位中置入您要一律考慮為外部的篩選。 以逗號分隔多個網域，毋需空格。
+在此欄位中置入您要一律考慮為外部的篩選。 以逗號分隔多個網域，不含空格。
 
 ## AppMeasurement和Launch自訂代碼編輯器中的s.linkExternalFilters
 
@@ -44,7 +44,7 @@ s.linkExternalFilters = "example.com,example.net,example.org";
   s.linkExternalFilters = "example.com,example.net";
 </script>
 
-<!-- The following link is not considered an exit link, even though the link is outside adobe.com -->
+<!-- The following link is NOT considered an exit link, even though the link is outside adobe.com -->
 <a href = "example.org">Example link 1</a>
 
 <!-- The following link is an exit link because it matches the linkExternalFilters whitelist -->
