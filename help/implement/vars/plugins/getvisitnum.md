@@ -2,7 +2,7 @@
 title: getVisitNum
 description: 追蹤訪客的目前瀏覽次數。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -35,14 +35,14 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示「 [!UICONTROL 開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
 ## 使用AppMeasurement安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 `s_gi`何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,15 +58,15 @@ var endOfDatePeriod=function(dp){var a=new Date,b=isNaN(dp)?0:Math.floor(dp);a.s
 
 該方 `getVisitNum` 法使用以下引數：
 
-* **`rp`**（可選，整數或字串）:造訪次數計數器重設前的天數。  預設為`365`未設定時。
+* **`rp`** （可選，整數或字串）:造訪次數計數器重設前的天數。  預設為 `365` 未設定時。
    * 當此引數 `"w"`為時，計數器會在週末重設（本週六晚上11:59）
    * 當此引數 `"m"`為時，計數器會在月底（本月的最後一天）重設
    * 當此引數 `"y"`為時，計數器會在年底重設（12月31日）
-* **`erp`**（可選，布林）:當引數`rp`為數字時，此引數會決定是否應延長瀏覽次數的有效期。 若設為`true`，您網站的後續點擊會重設瀏覽次數計數器。 若設為`false`，當造訪次數計數器重設時，您網站的後續點擊不會延長。 預設為`true`。 當引數為字串時，`rp`此引數無效。
+* **`erp`** （可選，布林）:當引數 `rp` 為數字時，此引數會決定是否應延長瀏覽次數的有效期。 若設為 `true`，您網站的後續點擊會重設瀏覽次數計數器。 若設為 `false`，當造訪次數計數器重設時，您網站的後續點擊不會延長。 預設為 `true`。 當引數為字串時， `rp` 此引數無效。
 
 當訪客在閒置30分鐘後返回您的網站時，瀏覽次數會增加。 呼叫此方法會傳回一個整數，代表訪客的目前瀏覽次數。
 
-此外掛程式會設定第一方Cookie，稱 `"s_vnc[LENGTH]"` 為 `[LENGTH]` 其中是傳遞至引數的 `rp` 值。 例如， `"s_vncw"`、 `"s_vncm"`或 `"s_vnc365"`。 Cookie的值是Unix時間戳記的組合，代表存取計數器重設時間，例如週末、月末或閒置365天後。 也包含目前的瀏覽次數。 此外掛程式會設定另一個名為Cookie `"s_ivc"` 的Cookie，該Cookie會設 `true` 定為閒置30分鐘後過期。
+此外掛程式會設定第一方Cookie，稱 `"s_vnc[LENGTH]"` 為 `[LENGTH]` 其中是傳遞至引數的 `rp` 值。 For example, `"s_vncw"`, `"s_vncm"`, or `"s_vnc365"`. Cookie的值是Unix時間戳記的組合，代表存取計數器重設時間，例如週末、月末或閒置365天後。 也包含目前的瀏覽次數。 此外掛程式會設定另一個名為Cookie `"s_ivc"` 的Cookie，該Cookie會設 `true` 定為閒置30分鐘後過期。
 
 ## 呼叫範例
 
