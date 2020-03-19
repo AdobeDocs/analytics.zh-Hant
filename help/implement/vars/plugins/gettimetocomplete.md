@@ -2,7 +2,7 @@
 title: getTimeToComplete
 description: 測量完成任務所花費的時間。
 translation-type: tm+mt
-source-git-commit: 180ad544541f25d02b3a257559bc045abed7387b
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -19,8 +19,8 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下「目錄 [!UICONTROL 」按鈕]
-1. 安裝和發佈 [!UICONTROL Common Analytics Plugins] extension
+1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
 1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心——載入的程式庫（頁面頂端）
@@ -35,14 +35,14 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「延伸 [!UICONTROL 模組] 」標籤，然後按一下 [!UICONTROL Adobe Analytics延伸模組下的「設定] 」按鈕。
-1. 展開「使 [!UICONTROL 用自訂程式碼] accordion設定追蹤」，此會顯示 [!UICONTROL 「開啟編輯器] 」按鈕。
+1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
 1. 儲存變更並發佈至Analytics擴充功能。
 
 ## 使用AppMeasurement安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 `s_gi`何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -61,9 +61,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 該方 `getTimeToComplete` 法使用以下引數：
 
-* **`sos`**（可選，字串）:設定為`"start"`要啟動計時器的時間。 設定為`"stop"`要停止計時器的時間。 預設為`"start"`。
-* **`cn`**（可選，字串）:儲存開始時間的Cookie名稱。 預設為`"s_gttc"`。
-* **`exp`**（可選，整數）:Cookie（和計時器）過期的天數。 預設為`0`，代表瀏覽器作業結束。
+* **`sos`** （可選，字串）:設定為 `"start"` 要啟動計時器的時間。 設定為 `"stop"` 要停止計時器的時間。 預設為 `"start"`。
+* **`cn`** （可選，字串）:儲存開始時間的Cookie名稱。 預設為 `"s_gttc"`。
+* **`exp`** （可選，整數）:Cookie（和計時器）過期的天數。 預設為 `0`，代表瀏覽器作業結束。
 
 呼叫此方法會傳回一個字串，其中包含在和動作之間所花費的天數、小時數、分鐘數和／或 `"start"` 秒 `"stop"` 數。
 
@@ -89,7 +89,7 @@ s.prop1會擷取完成購買程式所需的時間量
 
 ### 範例#2
 
-如果您想要同時運行多個計時器（以測量不同的進程），則需要手動設定cn cookie參數。  例如，如果您想要測量完成購買所需的時間量，您應設定下列程式碼……
+如果您想要同時運行多個計時器（以測量不同的進程），則需要手動設定cn Cookie參數。  例如，如果您想要測量完成購買所需的時間量，您應設定下列程式碼……
 
 ```javascript
 if(s.inList(s.events, "scCheckout")) s.getTimeToComplete("start", "gttcpurchase");
