@@ -2,16 +2,16 @@
 title: tl
 description: 傳送連結追蹤呼叫給Adobe。
 translation-type: tm+mt
-source-git-commit: 8494e8bb08b45006b357dd114e6bf9507f0cd54a
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # tl
 
-方 `tl` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。 它的運作方式與方 `t` 法類似，但此方法不會增加頁面檢視。 它對於追蹤連結和其他不會視為完整頁面載入的元素非常有用。
+方 `tl()` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。 它的運作方式與方 [`t()`](t-method.md) 法類似，但此方法不會增加頁面檢視。 它對於追蹤連結和其他不會視為完整頁面載入的元素非常有用。
 
-如果 `trackDownloadLinks` 啟用 `trackExternalLinks` 或已啟用，AppMeasurement會自動呼叫方法， `tl` 以傳送下載連結和退出連結追蹤資料。 如果您的組織想要對要追蹤的連結及其行為擁有更多控制權，則可以手動呼叫 `tl` 方法。 自訂連結只能手動追蹤。
+如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 啟用 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 或已啟用，AppMeasurement會自動呼叫方法， `tl()` 以傳送下載連結和退出連結追蹤資料。 如果您的組織想要對要追蹤的連結及其行為擁有更多控制權，則可以手動呼叫 `tl()` 方法。 自訂連結只能手動追蹤。
 
 ## Adobe Experience Platform Launch中的連結追蹤呼叫
 
@@ -19,14 +19,14 @@ Launch有專用位置設定連結追蹤呼叫。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 1. 按一下所要的屬性。
-1. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-1. 在「 [!UICONTROL 動作]」下，按一下「+」圖示
-1. 將「延 [!UICONTROL 伸功能] 」下拉式清單設定為Adobe Analytics，並設定 [!UICONTROL 「傳送信標的動作類型] 」。
+1. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+1. 在下 [!UICONTROL Actions]方，按一下「+」圖示
+1. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為傳送信標。
 1. Click the `s.tl()` radio button.
 
 您不能在Launch中設定任何可選引數。
 
-## s.tl()方法在AppMeasurement和Launch自訂代碼編輯器中
+## s.tl()方法（在AppMeasurement和Launch自訂代碼編輯器中）
 
 當您想 `s.tl()` 要傳送追蹤呼叫至Adobe時，請呼叫方法。
 
@@ -44,7 +44,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 連結物件引數會決定瀏覽器在離開頁面前是否等待500毫秒。 如果影像要求在 500 毫秒內傳送，頁面會立即導覽至點按的連結。
 
-> [!NOTE] AppMeasurement會自動啟用退 `useBeacon` 出連結的變數，使此引數在現代瀏覽器中不再需要。 此引數在舊版AppMeasurement中更常使用。
+> [!NOTE] AppMeasurement會自動啟用退 [`useBeacon`](../config-vars/usebeacon.md) 出連結的變數，使此引數在現代瀏覽器中不再需要。 此引數在舊版AppMeasurement中更常使用。
 
 * `this`: 等候最多 500 毫秒，讓 AppMeasurement 有時間傳送影像要求。預設值。
 * `true`: 請勿等候。
@@ -59,7 +59,7 @@ s.tl(true);
 
 ### 連結類型
 
-連結類型引數是單字母字串，可決定連結追蹤呼叫的類型。 它與設定變數相 `linkType` 同。
+連結類型引數是單字母字串，可決定連結追蹤呼叫的類型。 它與設定變數相 [`linkType`](../config-vars/linktype.md) 同。
 
 ```js
 // Send a custom link
@@ -74,7 +74,7 @@ s.tl(true,"e");
 
 ### 連結名稱
 
-連結名稱引數是決定連結追蹤維度值的字串。 它與設定變數相 `linkName` 同。
+連結名稱引數是決定連結追蹤維度值的字串。 它與設定變數相 [`linkName`](../config-vars/linkname.md) 同。
 
 ```js
 s.tl(true,"d","Example download link");
