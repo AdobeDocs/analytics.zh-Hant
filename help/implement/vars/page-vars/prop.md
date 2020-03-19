@@ -2,7 +2,7 @@
 title: prop
 description: 您可在實作中使用的自訂變數。
 translation-type: tm+mt
-source-git-commit: ddab63a4fe3b8f1a3187893eba1ac3a1eda3bc41
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
@@ -21,14 +21,14 @@ Prop是自訂變數，您可以視需要使用。
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下方，按一下現有  的Adobe Analytics - 「設定變數」動作，或按一下「+」圖示。
-5. 將「延伸 [!UICONTROL 功能] 」下拉式清單設定為Adobe Analytics，並將「動作類型 [!UICONTROL 」設] 定為變數 。
-6. 找到 [!UICONTROL Prop] 。
+3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
+5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
+6. Locate the [!UICONTROL Props] section.
 
 您可以選取prop來設定值或資料元素。 您也可以從其他Analytics變數複製值。
 
-## s.prop1 - appMeasurement和Launch自訂代碼編輯器中的s.prop75
+## s.prop1 - AppMeasurement和Launch自訂代碼編輯器中的s.prop75
 
 每個prop變數都是包含您組織專屬之自訂值的字串。 最大長度為100個位元組；超過100位元組的值會在傳送至Adobe時自動截斷。
 
@@ -56,3 +56,5 @@ s.prop1 = "value1,value2,value3";
 ```
 
 > [!IMPORTANT] 清單prop仍受100位元組最大長度的限制。 清單prop可以更容易達到此限制並遭截斷，因為它們可以包含多個值。 如果您可能達到此100位元組限制，請考慮使用縮寫或縮短值。
+
+如果您在清單prop中設定相同值多次，則會在報表中消除重複資料。 「分析工作區」會計算檢視值的點擊數，而非資料中值存在的次數。
