@@ -2,18 +2,18 @@
 title: sa
 description: 隨時在您的實作中變更報表套裝。
 translation-type: tm+mt
-source-git-commit: f179292abae9cf7986d61da89a86e3e88111943e
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # sa
 
-此方 `sa` 法可讓您隨時在頁面上動態變更報表套裝。 如果您想要在不重新載入頁面的情況下將資料傳送至不同的報表套裝，則可使用此方法。
+此方 `sa()` 法可讓您隨時在頁面上動態變更報表套裝。 如果您想要在不重新載入頁面的情況下將資料傳送至不同的報表套裝，則可使用此方法。
 
 ## 使用Adobe Experience Platform Launch中的sa方法
 
-在介面中變更報表套裝沒有彈性的方式。 設定Adobe Analytics擴充功能時，您可 [!UICONTROL 以在「資料庫管理] 」accordion下設定報表套裝。 不過，您無法使用規則變更或更新報表套裝。 如果您想在設定報表套裝值後更新這些值，請依照AppMeasurement語法使用自訂代碼編輯器。
+在介面中變更報表套裝沒有彈性的方式。 設定Adobe Analytics擴充功能時， [!UICONTROL Library Management] 您可以在accordion下設定報表套裝。 不過，您無法使用規則變更或更新報表套裝。 如果您想在設定報表套裝值後更新這些值，請依照AppMeasurement語法使用自訂代碼編輯器。
 
 ## s.sa()在AppMeasurement和Launch自訂代碼編輯器中
 
