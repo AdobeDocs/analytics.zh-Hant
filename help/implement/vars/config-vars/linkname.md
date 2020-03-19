@@ -2,16 +2,16 @@
 title: linkName
 description: 設定自訂連結點擊的名稱。
 translation-type: tm+mt
-source-git-commit: e500332fe16887fa004858b07b59644837e183aa
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkName
 
-使用變 `linkName` 數可決定執行下一個函式時自訂連結、下載連結或退出連結的維度 `tl()` 值。
+使用變 `linkName` 數可決定執行下一個方法時自訂連結、下載連結或退出連結的維 [`tl()`](../functions/tl-method.md) 度值。
 
-如果此變數為空白，AppMeasurement會回復至變 `linkURL` 數。
+如果此變數為空白，AppMeasurement會回復至變 [`linkURL`](linkurl.md) 數。
 
 ## Adobe Experience Platform Launch中的連結名稱
 
@@ -19,16 +19,16 @@ source-git-commit: e500332fe16887fa004858b07b59644837e183aa
 
 1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
 2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下，按一下「+」圖示
-5. 將「延 [!UICONTROL 伸功能] 」下拉式清單設定為Adobe Analytics，並設定 [!UICONTROL 「傳送信標的動作類型] 」。
-6. 按一下顯 `s.tl()` 示「連結名稱」欄位 [!UICONTROL 的選項按鈕] 。
+3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
+4. 在下 [!UICONTROL Actions]方，按一下「+」圖示
+5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為傳送信標。
+6. 按一下顯 `s.tl()` 示欄位的選項按 [!UICONTROL Link Name] 鈕。
 
 ## AppMeasurement和Launch自訂代碼編輯器中的s.linkName
 
-變 `s.linkName` 數是一個字串，可決定自訂連結、下載連結或退出連結的維度值(視 `s.linkType` 情況而定)。 它最多可容納100個位元組。
+變 `s.linkName` 數是一個字串，可決定自訂連結、下載連結或退出連結的維度值(視 [`s.linkType`](linktype.md) 情況而定)。 它最多可容納100個位元組。
 
-> [!TIP] 此變數是函式的第三個參 `tl()` 數，通常不需要設定為獨立變數。 但是，如果您不 `linkName` 想在函式中將值設為引數，則可使用變 `tl()` 數。
+> [!TIP] 此變數是方法的第三個 `tl()` 參數，通常不需要設為獨立變數。 但是，如果您不 `linkName` 想在方法中將值設為參數，則可使用變 `tl()` 數。
 
 ```js
 s.linkName = "Example custom link";
