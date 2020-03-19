@@ -2,16 +2,16 @@
 title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中包含哪些事件。
 translation-type: tm+mt
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
 # linkTrackEvents
 
-有些實作不想將所有變數納入所有連結追蹤影像要求。 使用和 `linkTrackVars` 變數 `linkTrackEvents` ，在呼叫中選擇性地包含維度和 `tl()` 量度。
+有些實作不想將所有變數納入所有連結追蹤影像要求。 使用和 [`linkTrackVars`](linktrackvars.md) 變數 `linkTrackEvents` ，在呼叫中選擇性地包含維度和 [`tl()`](../functions/tl-method.md) 量度。
 
-此變數不用於頁面檢視呼叫(`t()` 函式)。
+此變數不用於頁面檢視呼叫([`t()`](../functions/t-method.md) 方法)。
 
 ## 使用Adobe Experience Platform Launch的連結追蹤呼叫中的事件
 
@@ -21,11 +21,11 @@ Launch會自動偵測介面中定義的事件，並將其納入連結追蹤點�
 
 ## AppMeasurement和Launch自訂代碼編輯器中的s.linkTrackEvents
 
-變 `s.linkTrackEvents` 數是一個字串，包含您要納入連結追蹤影像請求（函式）中的逗號分隔事件`tl()` 清單。 必須符合下列三個條件，才能在連結追蹤點擊中包含量度：
+變 `s.linkTrackEvents` 數是一個字串，包含您要納入連結追蹤影像請求（方法）中的逗號分隔事件`tl()` 清單。 必須符合下列三個條件，才能在連結追蹤點擊中包含量度：
 
-* 在變數中設定所要的 `events` 事件。 例如, `s.events = "event1";`.
-* Set the `events` variable in `linkTrackVars`. 例如, `s.linkTrackVars = "events";`.
-* 在變數中設定所要的 `linkTrackEvents` 事件。 例如, `s.linkTrackEvents = "event1";`.
+* 在變數中設定所要的 [`events`](../page-vars/events/events-overview.md) 事件。 例如, `s.events = "event1";`。
+* Set the `events` variable in `linkTrackVars`. 例如, `s.linkTrackVars = "events";`。
+* 在變數中設定所要的 `linkTrackEvents` 事件。 例如, `s.linkTrackEvents = "event1";`。
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
