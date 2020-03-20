@@ -2,8 +2,8 @@
 description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 title: 日曆和日期範圍概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
 
@@ -12,16 +12,15 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 
-日曆選取範圍套用至面板層級，但您也可以選擇將其套用至所有面板。預設狀況下，Workspace 日曆會顯示當月與上個月。
+日曆選取範圍套用至面板層級，但您也可以選擇將其套用至所有面板。當您按一下工作區中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。 您可以按一下每個上角的右箭頭和左箭頭，以調整這兩個日曆。
 
-按第一下會啟動日期範圍選取。接著往前或往後反白標示範圍，按第二下則可選取結束日期範圍。若此  `Shift` 鍵在點選第一次日期時為按住狀態 (或已使用右鍵)，則會將該日期附加至範圍。
+![日曆](assets/aw_calendar.png)
+
+日曆上的第一次點按會啟動日期範圍選擇。 第二次點按會完成日期範圍選擇，並反白顯示。 如果按 `Shift` 住鍵（或使用滑鼠右鍵），則會附加至目前選取的範圍。
 
 您也可以將日期 (和時間維度) 拖曳至 Workspace 專案中。您可以選取特定的日、週、月、年或滾動日期。
 
-![](assets/aw_calendar.png)
-
-[在 YouTube 觀看「在 Analysis Workspace 中使用日期範圍和行事曆」](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)(4:07)
-
+[在 YouTube 觀看「在 Analysis Workspace 中使用日期範圍和行事曆」](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28)(4:07)
 
 | 設定 | 說明 |
 |--- |--- |
