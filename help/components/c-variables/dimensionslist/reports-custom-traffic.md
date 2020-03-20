@@ -1,10 +1,8 @@
 ---
-description: 自訂流量報告可以讓每個組織報告預設並未實作的其他維度。自訂流量報告有許多種使用方式，最常見的是測量流量和路徑分析。
 title: 自訂流量
-topic: Reports
-uuid: 627e8f34-e8f7-4f79-919b-f6237f85685d
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+description: 根據自訂流量變數檢視報表。
+translation-type: tm+mt
+source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 
 ---
 
@@ -13,26 +11,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 自訂流量報告可以讓每個組織報告預設並未實作的其他維度。自訂流量報告有許多種使用方式，最常見的是測量流量和路徑分析。
 
-## 自訂流量報告的屬性{#section_4CBFC4EDFB1C49CD88F9874B6EF6FDEC}
+## 自訂流量報表的屬性
 
-* 自訂流量報告只以 [prop](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_propn.html) (流量變數) 為基礎。
-* 報表的預設量度是頁面檢視 (或在 15 版中是例項)。14 版的頁面檢視和 15 版的例項是一樣的，它們都會計算定義變數的總次數。15 版的頁面檢視只會計算   *`s.t()`* 影像要求 (排除 *`s.tl()`* 要求)。
-
-* 如果您組織的合約中包含路徑分析，而且經受支援使用者請求，可以啟用路徑分析。針對流量變數啟用路徑分析時，可以使用下列量度：
-* 
-
-   * 平均頁面深度
-   * 平均逗留時間
-   * 登入點
-   * 退出點
-   * 重新載入
-   * 單次存取
-   * 瀏覽
-
-* 您可以在流量報告中使用參與率量度。這種使用必須經過請求，而且必須包含在您組織的合約中。
+* 自訂流量報告只以 [prop](/help/implement/vars/page-vars/prop.md) (流量變數) 為基礎。
+* 預設度量為例項。
 * 這些報告可以使用趨勢與排名格式來檢視。
 * 可以使用搜尋篩選器來找出特定的行項目。
 * 可以在這些報告中使用分類，以便重新命名和合併行項目。
-* 可以針對任何的這類報告啟用關聯，讓您能查看其他流量變數之間的關係。
-* 每個自訂流量報告的位置依 prop 的數值指派值而定。通常是位於[!UICONTROL 流量]或[!UICONTROL 自訂流量]資料夾之下。
-
+* 每個自訂流量報告的位置依 prop 的數值指派值而定。通常可在或資料夾 [!UICONTROL Traffic] 下 [!UICONTROL Custom Traffic] 找到)。
