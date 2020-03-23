@@ -3,7 +3,7 @@ description: 'null'
 title: 歸因面板概述
 uuid: bb345642-4f45-4fb8-82d0-803248dd52ea
 translation-type: tm+mt
-source-git-commit: 8bae313fd4c26de8aedf18b095202735c0382bae
+source-git-commit: 3869385b9ad17cbea5e7a4e09bd06d5f0b53dd3c
 
 ---
 
@@ -96,3 +96,5 @@ Analytics 的某些維度可包含單次點擊中的多個值。常見範例包�
 舉例來說，如果您建立了套用「顯示廣告點擊」區段的虛擬報表套裝，您可以使用某些歸因模型在表格中顯示其他管道。
 
 ![僅限顯示廣告的虛擬報表套裝](assets/vrs-aiq-example.png)
+
+> [!NOTE] 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。 不過，類似的報表篩選器只會隱藏某些維度值，而不會影響依歸因模型處理的量度。 因此，具有可比定義的區段和篩選器，有時候會傳回較低的區段值。
