@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 匯入檔案參考
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,9 +25,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **日期**: (必要) 檔案中每一列資料的時間戳記。
 
-**變數**:映射到資料來源資料維度的報表變數名稱。
+**變數**：對應到資料來源之資料維度的報表變數名稱。
 
-**事件**:映射至資料來源量度的事件名稱。
+**事件**：對應到資料來源之量度的事件名稱。
 
 使用資料來源範本建立資料來源檔案，用以包含您要上傳的資料。建立資料來源檔案時，記住下列原則:
 
@@ -60,6 +60,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **.FIN 檔案**
 
-當您填寫完「資料來源」檔案後，可將它FTP傳入Analytics。 但是，還需要其他檔案，系統才能處理您的資料。You will need to upload an empty text file with the same name of your data file, but with a [!DNL .fin] extension.
+完成填寫資料來源檔案後，您可以用 FTP 將其加入 Analytics 中。但是，還需要其他檔案，系統才能處理您的資料。您必須上傳與您的資料檔案同名的空白文字檔，並以 [!DNL .fin] 為副檔名。
 
-For example, if you upload a (tab-delimited) data file called [!DNL myproductdata.txt], you would also need to upload an empty text file called [!DNL myproductdata.fin]. Without the [!DNL .fin] file, data would never be processed.
+例如，如果上傳檔名為 [!DNL myproductdata.txt] 的 (以 Tab 分隔) 資料檔案，您也需上傳檔名為 [!DNL myproductdata.fin] 的空白文字檔。若沒有 [!DNL .fin] 檔案，系統就不會處理資料。
