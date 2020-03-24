@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 資料類型和類別的概觀
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 資料來源類別可識別具有類似功能的不同資料來源類型。
 
-類別提供從使用者角度對資料來源分組的方式。 透過資料來源使用者介面建立資料來源時，必須先選取資料來源類別和特定資料來源類型。每個類別包含的資料來源類型，皆支援相似類型的資料。資料來源有下列資料來源類別:
+類別是以使用者的觀點將資料來源分門別類。透過資料來源使用者介面建立資料來源時，必須先選取資料來源類別和特定資料來源類型。每個類別包含的資料來源類型，皆支援相似類型的資料。資料來源有下列資料來源類別:
 
 ## 網站使用 {#section_4BA8D97B6BA848518F21760AE49F41D1}
 
@@ -33,9 +33,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col3"> <p>多數網站伺服器都會產生可記錄所提供每一個頁面的記錄檔。使用此資料來源，您可以處理來自多數網站伺服器資料的記錄檔，並將此資料加入到您的報表中。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Advertising cloud大量上傳 </p> </td> 
+   <td colname="col1"> <p>Advertising Cloud 大量上傳 </p> </td> 
    <td colname="col2"> <p> <a href="/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md"   > 轉換 </a> </p> </td> 
-   <td colname="col3"> <p>在Advertising cloud中提供手動和Excel自動的大量上傳。 </p> </td> 
+   <td colname="col3"> <p>在 Advertising Cloud 中提供手動和 Excel 自動的批量上載。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站等級流量資料來源 </p> </td> 
@@ -50,7 +50,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 廣告活動 {#section_9AE27E347CFC48F29E7C1134B6E928A6}
+## 廣告活動{#section_9AE27E347CFC48F29E7C1134B6E928A6}
 
 <table id="table_2A297A86CC3E4B1E8B72389AA148549A"> 
  <thead> 
@@ -79,7 +79,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 客戶關係管理 (CRM) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## 客戶關係管理 (CRM){#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
@@ -103,7 +103,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 客戶滿意度 {#section_1058CA3860044630B0B06EEDA261DBA2}
+## 客戶滿意度{#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -122,7 +122,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 網站績效 {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## 網站績效{#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -141,7 +141,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 通用 {#section_9B9A2A9871894B6491032AE1E961629A}
+## 通用{#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -199,7 +199,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 銷售機會和報價 {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## 銷售機會和報價{#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
