@@ -1,8 +1,8 @@
 ---
-description: 如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
+description: 如果您選取 JavaScript 外掛程式資料收集方法，請複製下列幾行程式碼，然後新增至您頁面上的 Adobe Analytics 程式碼中。
 title: Adobe Analytics 外掛程式程式碼
 uuid: e99999be-1800-4d63-a4cb-df68a1b53d0d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 # Adobe Analytics 外掛程式程式碼{#adobe-analytics-plug-in-code}
 
-如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Adobe Analytics程式碼。
+如果您選取 JavaScript 外掛程式資料收集方法，請複製下列幾行程式碼，然後新增至您頁面上的 Adobe Analytics 程式碼中。
 
 ```
 /* 
@@ -50,5 +50,5 @@ s.eVar11="Post Click Product ID"; // e.g. "shoes"
 s.eVar12="Post Click Type of Action"; // e.g. "purchase"; 
 ```
 
-> [!NOTE] 上述外掛程式會假設某些自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Adobe Analytics部署中不可用，只需將其取代為可用的變數即可。
+> [!NOTE] 上述外掛程式會假設某些自訂商務變數 (eVar) 可供使用。如果上述外掛程式中指定的變數無法在您的 Adobe Analytics 部署中使用，只需將其取代為可用的變數即可。
 
