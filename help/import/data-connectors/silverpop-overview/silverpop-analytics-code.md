@@ -1,8 +1,8 @@
 ---
-description: '如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Analytics程式碼 '
+description: '如果您選取 JavaScript 外掛程式資料收集方法，請複製下列幾行程式碼，然後新增至您頁面上的 Analytics 程式碼中。 '
 title: Analytics 外掛程式程式碼
 uuid: 534874bd-49d9-4b15-8019-b503dfcf3182
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 # Analytics 外掛程式程式碼{#analytics-plug-in-code}
 
-如果您選取JavaScript外掛程式資料收集方法，請複製下列程式碼行，並將它們新增至頁面上的Analytics程式碼：
+如果您選取 JavaScript 外掛程式資料收集方法，請複製下列幾行程式碼，然後新增至您頁面上的 Analytics 程式碼中：
 
 `/*`
 
@@ -22,4 +22,4 @@ source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 `s.campaign=s.getQueryParam("ET_CID"); //places query param value from cid in campaign variable s.eVar2=s.getQueryParam("ET_RID"); //places query param value from rid in eVar2 variable`
 
-> [!NOTE] 上述外掛程式會假設某些自訂商務變數(eVar)可供使用。 如果上述外掛程式中指定的變數在您的Analytics部署中不可用，只需將其取代為可用的變數即可。
+> [!NOTE] 上述外掛程式會假設某些自訂商務變數 (eVar) 可供使用。如果上述外掛程式中指定的變數在您的 Analytics 部署中不可使用，只需將其取代為可用的變數即可。
