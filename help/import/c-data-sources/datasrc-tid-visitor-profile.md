@@ -3,7 +3,7 @@ description: 'null'
 title: 交易 ID 和訪客資料
 topic: Developer and implementation
 uuid: 7a72779c-7f67-4872-ad5e-edf298d53cac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -39,7 +39,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 與交易 ID 關聯的訪客個人資料「快照」應在 90 天後刪除，不過實際刪除時間視情況而定。若有需要，您可以聯絡 Adobe 客戶服務以延長到期時程。如果在交易 ID 到期時程之後上傳資料列，資料會被記錄下來，但如果訪客個人資料已刪除，資料列中的所有資料都不會計入訪客個人資料「快照」。
 
-## 使用交易 ID 的劃分和分割 {#section_A4D39291200A42C496122FDB9EF6EF68}
+## 使用交易 ID 的劃分和分割{#section_A4D39291200A42C496122FDB9EF6EF68}
 
 使用資料來源上傳的 eVar，可用於劃分訪客個人資料的「快照」中的 eVar。因為此資料與目前訪客個人資料分開，您無法使用其他在交易 ID 設定之前或之後設定但不屬於「快照」的 eVar 進行劃分。
 
