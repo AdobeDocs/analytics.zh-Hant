@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 需求和上傳限制
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,19 +22,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * [多位元組支援](/help/import/c-data-sources/datasrc-requirements.md#section_96C8D26B21184C3E839865DB6F23EA22)
 * [上傳網站記錄檔](/help/import/c-data-sources/datasrc-requirements.md#section_DD736FC971FE45C89AB310BEDC1FE707)
 
-## 大小限制 {#section_77B06D82CB374FFABD39F7D9A49D8E18}
+## 大小限制{#section_77B06D82CB374FFABD39F7D9A49D8E18}
 
 * 每個 FTP 帳戶中所有檔案的資料總限制是 50 MB。如果大小超過 50 MB 就會暫停處理，直到大小總計低於 50 MB 才會繼續。
 
-## 日期 {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## 日期{#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * 在單一天之中，僅限上傳 90 天不同日期的資料。如果超過此限制，上傳會失敗，並出現錯誤訊息，指出您已超過最大不同日期。
 * 系統僅可匯入包含目前或過去日期的資料。請勿在資料來源資料中使用未來的日期。
 * 必須對所有列指定要啟用報表製圖功能的日期。如果列不包含日期，資料來源會產生錯誤並拒絕檔案。日期/時間格式依資料來源類型而異:
 
-   * **完全處理資料來源**:使用ISO 8601日期格 `YYYY-MM-DDThh:mm:ss±UTC_offset` 式(例如 `2013-09-01T12:00:00-07:00`)或Unix時間格式（自1970年1月1日以來經過的秒數）。
+   * **完整處理資料來源**：使用 ISO 8601 日期格式 `YYYY-MM-DDThh:mm:ss±UTC_offset` (如 `2013-09-01T12:00:00-07:00`) 或 Unix 時間格式 (自 1970 年 1 月 1 日起的總秒數)。
 
-   * **標準與整合資料來源**:使用下列日期格式： `MM/DD/YYYY/HH/mm/SS` (例如 `01/01/2013/06/00/00`)
+   * **標準與整合資料來源**：使用下列日期格式：`MM/DD/YYYY/HH/mm/SS` (例如 `01/01/2013/06/00/00`)
 
 ## 一般 {#section_1CD337F660484ABDB7D8CAE96FF46ACF}
 
@@ -57,7 +57,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/en_US/reference/new_report_suite.html"  >新增報表套裝</a>」。 </p> </td> 
+   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/new_report_suite.html"  >新增報表套裝</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
@@ -87,7 +87,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 在轉換過程中偵測到錯誤，此時您將得到一則訊息，如「從 UTF-8 轉換到 ISO-8859-1 時在檔案中的位置 18 發現錯誤字元」。
 * 檔案處理過程中未出現錯誤，但您會在報表中發現亂碼。
 
-## 上傳網站記錄檔 {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## 上傳網站記錄檔{#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * 檢視網站記錄時，最實用的報表是流量報表，如頁面檢視。
 * 顯示的頁面名稱為整個 URL，包括查詢字串。
