@@ -2,7 +2,7 @@
 title: 工作區中有多個報表套裝
 description: 了解在有多個報表套裝的工作區中建立專案的方法及原因
 translation-type: tm+mt
-source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
+source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ---
 
@@ -16,6 +16,12 @@ source-git-commit: e60de040e1036a1344baecfcc9c1fd5d71c4cf40
 * 比較兩個不同地區的資料，而這些資料位於兩個不同的報表套裝時，您可以建立表格和視覺效果，以便並排比較資料。
 
 * 建立量度和視覺效果的控制面板，以便向其他組織提交報告。您現在可以將各種報表套裝的資料提取到同一個專案中。
+
+## 套用報表套裝至所有面板
+
+您可以在任何面板標題上按滑鼠右鍵並選取，一次將報表套裝套用至所有面板 **[!UICONTROL Apply Report Suite to All Panels]**。
+
+![](assets/apply-rs-all-panels.png)
 
 ## 使用中面板
 
