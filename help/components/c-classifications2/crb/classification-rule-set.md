@@ -1,28 +1,28 @@
 ---
-description: 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
+description: 規則集是一組特定變數的分類規則。您可以套用變數至規則集。 如果您想要為一個變數建立多個規則集，您必須將每個規則集套用至多個報表套裝。
 subtopic: Classifications
 title: 分類規則集
 topic: Admin tools
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
 
 # 分類規則集
 
-規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
+規則集是一組特定變數的分類規則。您可以套用變數至規則集。 如果您想要為一個變數建立多個規則集，您必須將每個規則集套用至多個報表套裝。
 
 ## 分類規則集
 
-規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
+規則集是一組特定變數的分類規則。您可以套用變數至規則集。 如果您想要為一個變數建立多個規則集，您必須將每個規則集套用至多個報表套裝。
 
-## 分類規則產生器頁面{#section_C60B0888C76D49C596EF19F11808B718}
+## Classification Rule Builder Page {#section_C60B0888C76D49C596EF19F11808B718}
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 分類規則產生器]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
-「[!UICONTROL 分類規則產生器]」上有下列的欄位和選項。
+下列欄位和選項可在中取用 [!UICONTROL Classifications Rule Builder]。
 
 <table id="table_A5D92409969747E39E041216A5AA32CD"> 
  <thead> 
@@ -38,15 +38,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>規則 </p> </td> 
-   <td colname="col2"> 顯示規則集內包含的規則數目。 </td> 
+   <td colname="col2"> 顯示規則集中包含的規則數。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>狀態 </p> </td> 
-   <td colname="col2"> 顯示規則集的活動狀態，例如「草稿」或「作用中」。每日均會處理作用中的規則，通常會往回追溯一個月內的分類資料並予以檢查。規則會自動檢查是否有新值並上傳分類。 </td> 
+   <td colname="col2"> 顯示規則集的活動狀態，例如「草稿」或「作用中」。 作用中規則會每日處理，通常會追溯一個月的分類資料。 規則會自動檢查新值並上傳分類。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上次變更時間 </p> </td> 
-   <td colname="col2"> 指示上次編輯規則集的時間。 </td> 
+   <td colname="col2"> 指出規則集的編輯時間。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>複製 </p> </td> 
@@ -57,35 +57,29 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 建立分類規則集 {#create-classification-rule-set}
 
-<!-- 
-
-t_classification_rule_set.xml
-
- -->
-
 命名分類規則集、套用變數及指定覆寫設定。
 
-1. (先決條件) 在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**&#x200B;中定義分類結構。
+1. （先決條件）在 **[!UICONTROL Admin]** >中定義分類結 **[!UICONTROL Report Suites]**&#x200B;構。
 
-   (請參閱「管理工具」說明中的[「分類」](https://marketing.adobe.com/resources/help/zh_TW/reference/classifications.html)，了解如何新增分類。)
+   (請參閱「 [管理工具](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) 」說明中的「分類」，瞭解如何新增分類。)
 
-   必須先為變數定義至少一個分類，變數才會顯示在[!UICONTROL 「新的規則集」]面板中。
+   Variables will display in the [!UICONTROL New Rule Set] panel only after they have at least one classification defined for that variable.
 
-   您可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分類」]**(或&#x200B;**[!UICONTROL 「轉換]** > **[!UICONTROL 轉換分類」]**) 中建立變數的分類。然後選取變數，再按一下&#x200B;**[!UICONTROL 「新增分類」]**。
+   您可以在> > > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** (或 **[!UICONTROL Traffic]** > **[!UICONTROL Traffic Classifications]****[!UICONTROL Conversion]****[!UICONTROL Conversion Classifications]**)中建立變數的分類。 Then select the variable, then click **[!UICONTROL Add Classification]**.
 
-1. 若要建立規則集，請按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類規則產生器]** > **[!UICONTROL 新增規則集」]**。
+1. 若要建立規則集，請按一下 **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]** > **[!UICONTROL Add Rule Set]**。
 
    ![](assets/new_rule_set.png)
 
-1. 命名規則集，然後按一下&#x200B;**[!UICONTROL 「建立規則集」]**。
+1. 為規則集命名，然後按一下 **[!UICONTROL Create Rule Set]**。
 1. 選取要編輯的規則集。
 
    ![](assets/classification_rules_page.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「選取報表套裝和變數」]**。
+1. 按一下 **[!UICONTROL Select Report Suites and Variables]**.
 
-   報表套裝和變數清單會填入您的登入公司裡所有報表套裝中可用的所有分類變數。報表套裝中單一的變數只能屬於一個規則集。
+   報表套裝和變數清單會填入您登入公司中所有報表套裝中可用的所有分類變數。 報表套裝中的單一變數只能屬於一個規則集。
 
    請參閱&#x200B;*`Variable`*&#x200B;分類規則產生器[頁面所列定義中的](/help/components/c-classifications2/crb/classification-rule-definitions.md)以取得詳細資訊。
-1. 指定要使用的報表套裝和變數，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. Specify the report suites and variables to use, then click **[!UICONTROL Save]**.
 1. [將分類規則新增](/help/components/c-classifications2/crb/classification-rule-set.md)到規則集以繼續執行。
