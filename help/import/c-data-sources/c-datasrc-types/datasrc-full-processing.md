@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 完全處理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 完全處理
 
-針對以標準伺服器調用 (「通用 &gt; 完全處理」) 處理資料，資料來源支援下列變數。
+針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
 「完全處理」資料來源的資料處理方式，會將資料當做在指定的時間由 Adobe 伺服器收到 (每次點擊都有時間戳記)。
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「完全處理」資料來源的資料是使用不同的訪客個人資料進行處理，因此即使上傳資料中的訪客 ID 與使用 JavaScript 或其他 AppMeasurement 程式庫收集的資料相符，也不會從 eVar 配置的角度連結訪客個人資料。
 
-For example, a user with a visitor ID of `"user@example.com"` visits your site from a marketing campaign named "Spring Sale", which is stored in the campaign variable. 如果您稍後使用相同的訪客 ID 上傳交易，"Spring Sale" 促銷活動不會收到任何使用完全處理資料來源上傳之收入或成功事件的信用。
+例如，訪客 ID 為 `"user@example.com"` 的使用者從名為「Spring Sale」(此名稱儲存在 campaign 變數) 的促銷活動造訪您的網站。如果您稍後使用相同的訪客 ID 上傳交易，&quot;Spring Sale&quot; 促銷活動不會收到任何使用完全處理資料來源上傳之收入或成功事件的信用。
 
 ## 欄參考 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -48,18 +48,18 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
-   <td colname="col2"> <p>currencyCode </p> <p>Note:  This variable is also supported by Standard data sources as <code> currency code </code>. </p> </td> 
+   <td colname="col2"> <p>currencyCode </p> <p>注意：標準資料來源也支援此變數作為 <code> currency code </code>。 </p> </td> 
    <td colname="col3"> <p>收入貨幣代碼 (如 USD)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
    <td colname="col2"> <p>日期 </p> </td> 
-   <td colname="col3"> <p>Use the ISO 8601 date format of <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (for example, <code> 2013-09-01T12:00:00-07:00 </code>), or Unix Time Format (the number of seconds elapsed since January 1, 1970). </p> </td> 
+   <td colname="col3"> <p>使用 ISO 8601 日期格式 <code> YYYY-MM-DDThh:mm:ss±UTC_offset </code> (如 <code> 2013-09-01T12:00:00-07:00 </code>) 或 Unix 時間格式 (自 1970 年 1 月 1 日起的總秒數)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>，即 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar ( <span class="varname"> eVar1 </span> - <span class="varname"> eVar75 </span>). </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告促銷活動 3)。 </p> </td> 
+   <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar (<span class="varname"> eVar1</span> - <span class="varname">eVar75 </span>). </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告促銷活動 3)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
@@ -72,7 +72,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>hier<i>N</i> </p> </td> 
    <td colname="col2"> <p>hier<i>N</i>，即 &lt;hier2&gt;…&lt;/hier2&gt; </p> </td> 
-   <td colname="col3"> <p>階層名稱。您最多可以有 5 個階層 ( <span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>您可指定預設階層名稱 (<span class="varname">hier2</span>) 或友好名稱 (<span class="term">洋基</span>)。 </p> </td> 
+   <td colname="col3"> <p>階層名稱。您最多可以有 5 個階層 (<span class="varname"> hier1</span> - <span class="varname">hier5 </span>). </p> <p>您可指定預設階層名稱 (<span class="varname">hier2</span>) 或友好名稱 (<span class="term">洋基</span>)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
@@ -107,12 +107,12 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>頁面URL(例如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
+   <td colname="col3"> <p>頁面 URL (如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95") </code>. </p> </td> 
+   <td colname="col3"> <p>產品清單 (如 <code> "Sports;Ball;1;5.95") </code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -199,7 +199,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>Visitor's connection type ( <span class="term"> lan </span> or <span class="term"> modem </span>). </p> </td> 
+   <td colname="col2"> <p>訪客的連線類型 ( <span class="term"> LAN </span> 或是 <span class="term"> 數據機 </span>)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
@@ -222,7 +222,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col2"> <p>JavaScript 版本 (如 1.3)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>外掛程式 </p> </td> 
+   <td colname="col1"> <p>plugins </p> </td> 
    <td colname="col2"> <p>瀏覽器外掛程式名稱清單，以分號隔開。 </p> </td> 
   </tr> 
   <tr> 
@@ -234,7 +234,7 @@ For example, a user with a visitor ID of `"user@example.com"` visits your site f
    <td colname="col2"> <p>頁面反向連結的 URL。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>解析度 </p> </td> 
+   <td colname="col1"> <p>resolution </p> </td> 
    <td colname="col2"> <p>螢幕解析度 (如 1024x768)。 </p> </td> 
   </tr> 
   <tr> 
