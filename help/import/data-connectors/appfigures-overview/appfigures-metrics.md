@@ -1,68 +1,68 @@
 ---
-description: 以下量度會同步化為appFigures整合的一部分。
+description: 以下量度會同步為 appFigures 整合的一部分。
 title: 度量和維度
 uuid: 419a9031-1291-4ec0-a2e1-93993858991a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
 
 
-# 量度和維度{#metrics-and-dimensions}
+# 度量和維度{#metrics-and-dimensions}
 
-以下量度會同步化為appFigures整合的一部分。
+以下量度會同步為 appFigures 整合的一部分。
 
 | 量度 | 說明 |
 |---|---|
 | App Store 下載數 | 行動應用程式下載次數。 |
-| App Store購買項目（在應用程式中） | 應用程式內購買的數量。 |
-| 應用程式商店排名 | 用於定義「平均appFigures計算量度」。 未直接使用。 |
-| 應用程式商店排名除數 | 用於定義「平均appFigures計算量度」。 未直接使用。 |
-| 應用程式商店評等 | 用於定義「平均appFigures計算量度」。 未直接使用。 |
-| 應用程式商店評等除數 | 用於定義「平均appFigures計算量度」。 未直接使用。 |
-| App Store收入（在應用程式中） | 應用程式內收入金額。 |
-| App Store收入（一次） | 與應用程式購買相關聯的收入金額。 |
-| App Store版稅（在應用程式中） | 已遭取代。 |
-| App Store版稅（一次） | 已遭取代。 |
+| 應用程式商店購買數 (應用程式內) | 應用程式內購買項目的數量。 |
+| 應用程式商店排名 | 用於定義平均 appFigures 計算量度。不直接使用。 |
+| 應用程式商店排名除數 | 用於定義平均 appFigures 計算量度。不直接使用。 |
+| 應用程式商店評等 | 用於定義平均 appFigures 計算量度。不直接使用。 |
+| 應用程式商店評等除數 | 用於定義平均 appFigures 計算量度。不直接使用。 |
+| 應用程式商店收入 (應用程式內) | 應用程式內收入金額。 |
+| 應用程式收入 (一次性) | 與應用程式購買相關聯的收入金額。 |
+| 應用程式版稅 (應用程式內) | 已遭取代。 |
+| 應用程式版稅 (一次性) | 已遭取代。 |
 
-下列保留的分類維度是由資料連接器精靈為AppFigures物件ID保留eVar建立的。
+下列保留的分類維度是由 Data Connectors 精靈為 AppFigures 物件 ID 保留 eVar 所建立。
 
 | 分類維度 | 說明 |
 |---|---|
-| 國家/地區名稱 | 與應用程式商店活動相關的國家／地區名稱。 |
+| 國家/地區名稱 | 與應用程式商店活動相關的國家/地區名稱。 |
 | 裝置名稱 | 與應用程式商店活動相關的行動裝置名稱。 |
-| Appstore名稱 | 報告活動的應用程式商店名稱。 |
+| 應用程式商店名稱 | 報告活動的應用程式商店名稱。 |
 | 應用程式名稱 | 行動應用程式的名稱。 |
-| 應用程式內名稱 | 在應用程式中購買的項目。 |
-| 類別名稱 | 應用程式商店中應用程式的主要類別。 |
-| 檢閱標題 | 評論標題。 |
-| 檢閱評論 | 評論評論 |
-| 應用程式版本 | 用來產生審閱的應用程式版本。 |
-| 應用程式商店使用者 | 審閱的作者（使用者名稱）。 |
+| 應用程式內名稱 | 在應用程式內購買的項目。 |
+| 類別名稱 | 應用程式在應用程式商店中的主要類別。 |
+| 檢閱標題 | 評論的標題。 |
+| 檢閱評論 | 評論的留言 |
+| 應用程式版本 | 用來產生評論的應用程式版本。 |
+| 應用程式商店使用者 | 評論的作者 (使用者名稱)。 |
 
-資料連接器精靈會建立下列計算量度：
+下列計算量度是由 Data Connectors 精靈建立：
 
 | 計算度量 | 說明 |
 |--- |--- |
-| App Store平均排名（數值） | 平均應用程式排名。 此計算量度是使用下列公式來定義：  `[App Store Rank]` / `[App Store Rank Divisor]` 注 <br> 意： 依類別和國家／地區排名的應用程式數目，會因應用程式商店而異。 如果您的應用程式排名低於此臨界值，則無法使用應用程式排名。 |
-| App Store 平均評分 | 應用程式的平均分級。 This calculated metric is defined using the following formula:  `[App Store Rating]` / `[App Store Rating Divisor]` |
+| 應用程式商店平均排名 (數值) | 平均應用程式排名。此計算量度是使用下列公式來定義：`[App Store Rank]` / `[App Store Rank Divisor]` <br> 注意：依類別和國家/地區排名的應用程式數目，會因應用程式商店而異。如果您的應用程式排名低於此臨界值，就無法使用應用程式排名功能。 |
+| App Store 平均評分 | 平均應用程式評分。此計算量度是以下方公式計算：`[App Store Rating]` / `[App Store Rating Divisor]` |
 
-## 每個AppFigures量度的相關維度 {#section-cd356d3dce04412893beed345305c247}
+## 每個 AppFigures 量度的相關維度 {#section-cd356d3dce04412893beed345305c247}
 
-下表顯示哪些報表維度與哪些度量相關。
+下表顯示哪些報表維度與哪些量度相關。
 
 <table id="table_B9CF57EABE22449FBF1963E3F105E702"> 
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> App Store下載 </td> 
-   <td> App Store購買項目（應用程式內） </td> 
+   <td> 應用程式商店下載數 </td> 
+   <td> 應用程式商店購買數 (應用程式內) </td> 
    <td> 應用程式商店排名 </td> 
    <td> 應用程式商店排名除數 </td> 
    <td> 應用程式商店評等 </td> 
    <td> 應用程式商店評等除數 </td> 
-   <td> App Store收入（應用程式內） </td> 
-   <td> App Store收入（一次性） </td> 
+   <td> 應用程式商店收入 (應用程式內) </td> 
+   <td> 應用程式商店收入 (一次性) </td> 
    <td> 應用程式商店平均排名 </td> 
    <td> 應用程式商店平均評等 </td> 
   </tr> 
@@ -93,7 +93,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td> <p> <img id="image_6E5B220C71CD47CEBB9CE65FB42CC692" src="assets/ClearXRed_Illustrative.png" /> </p> </td> 
   </tr> 
   <tr> 
-   <td> Appstore名稱 </td> 
+   <td> 應用程式商店名稱 </td> 
    <td> <p> <img id="image_B0382AE2E0A44D8BBB373E95061C96B7" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_653EE4DADF644E329EB948051AF511CC" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
    <td> <p> <img id="image_16E4236EAAC64FC4872603974E61417B" src="assets/AlertApprove_Illustrative.png" /> </p> </td> 
