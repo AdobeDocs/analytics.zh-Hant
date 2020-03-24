@@ -1,8 +1,8 @@
 ---
-description: 在您使用下列程式碼之前，請先在Adobe Analytics的「管理工具」中保留必要的eVar。
+description: 先在 Adobe Analytics 的「管理工具」中保留必要的 eVar，然後再使用下列程式碼。
 title: 查詢字串參數外掛程式代碼
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 查詢字串參數外掛程式代碼{#query-string-param-plug-in-code}
 
-在您使用下列程式碼之前，請先在Adobe Analytics的「管理工具」中保留必要的eVar。
+先在 Adobe Analytics 的「管理工具」中保留必要的 eVar，然後再使用下列程式碼。
 
-一旦您知道已保留的eVar，請以相關eVar取代eVarN，例如eVar10。
+知道已保留哪些 eVar 後，請以相關的 eVar 取代 eVarN，例如 eVar10。
 
 ```
 /* 
