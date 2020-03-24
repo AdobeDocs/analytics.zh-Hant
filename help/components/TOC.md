@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Components Guide
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
+source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 ---
 
@@ -59,10 +59,10 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [共用計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
       + [計算量度管理員](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 量度參考資料 {#calcmetrics-reference}
-      + [參考資料: 基本函數](c-calcmetrics/cm-reference/cm-functions.md)
-      + [參考資料: 進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
+      + [參考資料：基本函數](c-calcmetrics/cm-reference/cm-functions.md)
+      + [參考資料：進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
       + [量度相容性](c-calcmetrics/cm-compatibility.md)
-      + [計算量度: 角色型權限](c-calcmetrics/cm-role-based-rights.md)
+      + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
 + 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報表套裝概觀](vrs/vrs-about.md)
@@ -107,7 +107,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
       + [分類規則集](c-classifications2/crb/classification-rule-set.md)
       + [分類規則](c-classifications2/crb/classification-quickstart-rules.md)
       + [分類規則 - 定義](c-classifications2/crb/classification-rule-definitions.md)
-      + [子分類與規則產生器 - 使用案例](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [子分類和規則產生器](c-classifications2/crb/sub-classification-rule-builder.md)
    + 數值 2 分類 {#numeric2-classification}
       + [數值 2 分類概觀](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
       + [建立數值 2 分類](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
@@ -330,7 +330,7 @@ source-git-commit: 0c04aaea568616254375f7f1fd33ae216693b3f4
    + [開始使用行銷渠道](c-marketing-channels/c-getting-started-mchannel.md)
    + [管理行銷渠道](c-marketing-channels/c-channels.md)
    + [行銷渠道的處理規則](c-marketing-channels/c-rules.md)
-   + [行銷渠道中的分類](c-marketing-channels/classifictions-mchannel.md)
+   + [行銷管道中的分類](c-marketing-channels/classifictions-mchannel.md)
    + [訪客參與有效期](c-marketing-channels/visitor-engagement.md)
    + [分析行銷渠道](c-marketing-channels/analyze-mc.md)
    + [行銷渠道權限](c-marketing-channels/c-channel-report-access.md)
