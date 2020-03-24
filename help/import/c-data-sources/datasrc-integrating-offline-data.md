@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 交易與客戶整合
 topic: Developer and implementation
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 交易與客戶整合
 
-Data Sources提供另外兩種方式，將離線發生的事件整合至您的線上資料。
+「資料來源」提供另外兩種方式，可將離線發生的事件整合到您的線上資料中。
 
 * [啟用交易 ID 記錄](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)
 * [交易整合](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
@@ -24,7 +24,7 @@ Data Sources提供另外兩種方式，將離線發生的事件整合至您的�
 
 交易 ID 可以透過 UI 啟用/停用，而且無須使用 ClientCare:
 
-Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONTROL [Select Report Suite]]** &gt; **[!UICONTROL Edit Settings]** &gt; **[!UICONTROL General]** &gt; **[!UICONTROL General Account Settings]**.
+前往&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL [選取報表套裝]]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 一般帳戶設定」]**。
 
 <!-- 
 
@@ -36,7 +36,7 @@ Go to **[!UICONTROL Admin]** &gt; **[!UICONTROL Report Suites]** &gt; **[!UICONT
 
  -->
 
-To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Admin]** &gt; **[!UICONTROL Data Sources]**.
+若想查看交易 ID 記錄是否已啟用，請導覽至「**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 資料來源]**」。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -49,7 +49,7 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 * 將客戶 ID 填入到&#x200B;*`visitorID`* 變數中。
 * 客戶活動離線動作沒有指定的點，如銷售機會提交或購買。
 
-若要設定此類型的資料來源，請參閱 [訪客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
+若要設定此類型的資料來源，請參閱[訪客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
 
 ## 交易整合 {#section_B3F281CEFF9B47E9A07F9851D61D415D}
 
@@ -65,4 +65,4 @@ To see if Transaction ID Recording is enabled, navigate to **[!UICONTROL Analyti
 
 這是因為交易 ID 資料未與造訪關聯 (因為離線事件通常不屬於線上事件)，但與訪客關聯。
 
-請參閱 [交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md).
+請參閱[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
