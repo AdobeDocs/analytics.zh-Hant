@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 資料來源常見問題集
 topic: Developer and implementation
 uuid: 394a627f-093c-400a-bfb3-c2aa24568deb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 對於交易 ID 資料來源，若想將離線資料關聯至線上事件，必須啟用交易 ID 記錄。如需詳細資訊，請參閱[交易 ID 記錄](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)。
 
-## 使用「資料來源」功能的費用為多少？ {#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
+## 使用「資料來源」功能的費用為多少？{#section_0B84E3E8891B45E8970EA9D8AAD1ADEC}
 
 「資料來源」不須支付標準伺服器呼叫以外的額外費用。伺服器呼叫費用僅適用於完整處理的資料來源類型，個別點擊將以資料列的形式傳送。流量與彙總層級資料來源不會產生額外費用。
 
@@ -30,7 +30,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 是。因為許多行銷報表是在日期欄中輸入，資料來源需有日期欄。
 
-## Can I store data in existing variables that I'm already using? {#section_AB557C2997D04EAFBDC61398B13D13C6}
+## 可以在已使用的現有變數中儲存資料嗎？{#section_AB557C2997D04EAFBDC61398B13D13C6}
 
 當您使用資料來源匯入資料時，Adobe 建議您選擇全新且未使用過的變數。若您不確定資料檔案的設定，或想要深入瞭解重複使用變數的風險，請連絡「客戶服務」。
 
@@ -42,17 +42,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 如果大小超過 50 MB 就會暫停處理，直到大小總計低於 50 MB 才會繼續。為了避免產生報表時發生延遲，一天請勿上傳超過 90 天的資料。
 
-## 當我透過資料來源匯入資料時，會覆寫現存資料嗎？ {#section_BDBD16D0AFD54D55AFDB8AC77D35FE77}
+## 當我透過資料來源匯入資料時，會覆寫現存資料嗎？{#section_BDBD16D0AFD54D55AFDB8AC77D35FE77}
 
 資料來源絕對不會覆寫現存的報表資料。反之，使用資料來源上傳的資料將加入現存資料中。
 
-## 當我透過資料來源將我的資料上傳後，為什麼不能取得我的量度？ {#section_33176B39744F4F5A861E69AD87B99B78}
+## 當我透過資料來源將我的資料上傳後，為什麼不能取得我的量度？{#section_33176B39744F4F5A861E69AD87B99B78}
 
 上傳資料來源資料時，會上傳在報表介面中可使用的量度。
 
-例如，若您上傳您在網站上販賣之產品的「話務中心收入」，將能夠在與「線上收入」相同的報表中取得該「話務中心收入」。但是，您無法搭配「瀏覽」使用它，因為您沒有上傳「瀏覽」次數。 Adobe 只會報告您透過資料來源上傳的量度和元素 (以及普通行銷報表量度)。
+例如，若您上傳您在網站上販賣之產品的「話務中心收入」，將能夠在與「線上收入」相同的報表中取得該「話務中心收入」。但是，您不能將其與「造訪」合併使用，因為您沒有同時上傳「造訪」次數。Adobe 只會報告您透過資料來源上傳的量度和元素 (以及普通行銷報表量度)。
 
-## 若我透過資料來源將負值傳入報表，會發生什麼事？ {#section_77E5F37F3CFB4407BA32A91E6F3132B2}
+## 若我透過資料來源將負值傳入報表，會發生什麼事？{#section_77E5F37F3CFB4407BA32A91E6F3132B2}
 
 值將因此減少。
 
@@ -81,9 +81,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 因為「資料來源」的處理 (指一般資料來源而非流量的處理) 會建立個別點擊讓快取處理，會處理子關係，但不會處理關聯。有可能會處理路徑，但每個點擊有自己的造訪，因此不會產生路徑。網站設定檔匯入會產生路徑資料。
 
-## 「資料來源」上傳或分類檔案的副檔名區分大小寫嗎？ {#section_710787BA4D8C403D8326D666807832B8}
+## 「資料來源」上傳或分類檔案的副檔名區分大小寫嗎？{#section_710787BA4D8C403D8326D666807832B8}
 
-如果「資料來源」上傳檔案或分類檔案的副檔案為大寫，就不會處理檔案。「資料來源」上傳檔案的副檔案必須為大寫。For example, [!DNL file.TXT] and [!DNL file.FIN] will not be processed. Similarly, [!DNL .TAB] and [!DNL .FIN] will not be processed. 但是， [!DNL .txt] 並且 [!DNL .fin] 會處理。
+如果「資料來源」上傳檔案或分類檔案的副檔案為大寫，就不會處理檔案。「資料來源」上傳檔案的副檔案必須為大寫。例如，系統不會處理 [!DNL file.TXT] 和 [!DNL file.FIN] 檔案。同樣地，也不會處理 [!DNL .TAB] 和 [!DNL .FIN]。但是會處理 [!DNL .txt] 和 [!DNL .fin]。
 
 ## 我可以新增其他事件到產生的範本中嗎？或僅限 3 個事件？{#section_F184913926DD43B1872956CED308ADB5}
 
@@ -108,27 +108,27 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 在「資料來源」上傳的網站伺服器記錄檔中，如何計算獨特訪客? {#section_477FEDFD1DBE45278E7D09AFBD59CDAC}
 
-The number of Unique Visitors in a web-server log is calculated as the different distinct combinations of *`IP Address`* and *`User Agent`* in the Web log. 這兩個項目的每一種獨特組合，就算是一個獨特訪客。如果[!UICONTROL 使用者代理]欄空白 (或不在網站記錄檔中)，我們就不能識別獨特訪客計數，整個上傳將計為只有一個獨特訪客 (即使有多個 IP 位址)。
+在網站伺服器記錄檔中，獨特訪客的數目是以網站記錄檔中不同的 *`IP Address`* 和 *`User Agent`* 組合來計算。這兩個項目的每一種獨特組合，就算是一個獨特訪客。如果[!UICONTROL 使用者代理]欄空白 (或不在網站記錄檔中)，我們就不能識別獨特訪客計數，整個上傳將計為只有一個獨特訪客 (即使有多個 IP 位址)。
 
 ## 在資料來源中，如何分辨哪個記錄檔屬於哪個報表? {#section_8EF9D22D5BE14C218724B06E78EF7DF4}
 
-在資料來源中，報表套裝 ID 是登入的第一個部分，之後是用來識別所設定之特定資料來源的隨機數字。例如, `RSID-drmossdev5 Login-drmossdev5_0001343430`.
+在資料來源中，報表套裝 ID 是登入的第一個部分，之後是用來識別所設定之特定資料來源的隨機數字。例如, `RSID-drmossdev5 Login-drmossdev5_0001343430`。
 
-## How does version 15 and segmentation impact data sources? {#section_7E9E541DB73C49CDAADC031B678F8678}
+## 第 15 版和區段對資料來源有何影響？{#section_7E9E541DB73C49CDAADC031B678F8678}
 
 在第 15 版中，資料來源因來源類型有不同的行為：
 
 * 完全處理、網站記錄檔及交易 ID 資料來源會以一般方式顯示。套用區段時，則會根據區段規則來篩選資料。
 * 標準或轉換資料來源 (廣告促銷活動、CRM、客戶滿意度、網站績效、一般摘要資料、線上購買、銷售機會和報價，以及離線管道資料) 會顯示在第 15 版中。不過，由於這些資料來源並未與瀏覽或訪客連接，因此在套用區段時會將它們篩選掉。
 
-## 使用交易 ID 匯入的量度可以在 Clickstream 資料饋送和資料倉儲中使用嗎？ {#section_01CD14CA3E11490CB2CBA433C649029E}
+## 使用交易 ID 匯入的量度可以在 Clickstream 資料饋送和資料倉儲中使用嗎？{#section_01CD14CA3E11490CB2CBA433C649029E}
 
 資料饋送包含所有已收到的交易 ID 量度。不過，如果上傳過去日期的交易 ID 資料，要取得該資料的唯一方法，是再度下載該日期的資料饋送。
 
-## 目前永續存在於「訪客個人資料」中的 eVar 是否會配置到使用資料來源上傳的量度？ {#section_1748BD5C6A12467F8082E07D6A9CD595}
+## 目前永續存在於「訪客個人資料」中的 eVar 是否會配置到使用資料來源上傳的量度？{#section_1748BD5C6A12467F8082E07D6A9CD595}
 
-否表示完全處理，是表示交易 ID。完全處理的資料來源是使用個別的訪客描述檔來處理，因此即使訪客ID符合，也不會從eVar配置角度將它們系結在一起。 「交易 ID」資料來源會連接至主要的訪客個人資料，因此永續 eVar 會被配置到使用交易 ID 上傳的事件。
+否表示完全處理，是表示交易 ID。完全處理資料來源是使用不同的訪客個人資料進行處理，因此，即使訪客 ID 相符，也不會從 eVar 配置的角度將其連接。「交易 ID」資料來源會連接至主要的訪客個人資料，因此永續 eVar 會被配置到使用交易 ID 上傳的事件。
 
-## 使用資料來源上傳的 eVar 會持續到之後的線上行為嗎？ {#section_0B490CEAAB604826AFD3E8B2531C8F2D}
+## 使用資料來源上傳的 eVar 會持續到之後的線上行為嗎？{#section_0B490CEAAB604826AFD3E8B2531C8F2D}
 
 不可以。經由交易 ID 資料來源上傳的 eVar 只會從已儲存的個人資料讀取資訊，不會更新個人資料。不可以。eVar 是訪客資料快照中唯一儲存的變數。
