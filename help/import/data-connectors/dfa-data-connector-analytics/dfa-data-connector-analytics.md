@@ -4,19 +4,19 @@ keywords: DFA
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
 
 
-# DFAAdobe Analytics 的 Data Connectors{#dfa-data-connector-for-adobe-analytics}
+# Adobe Analytics 的 DFA Data Connectors{#dfa-data-connector-for-adobe-analytics}
 
-在現今日益複雜且競爭激烈的線上市場中，線上廣告商和廣告公司必須不斷提升他們對線上行銷環境的瞭解，以及廣告支出的報酬率。 雖然廣告主、代理商和發佈者都各有其工具可協助他們達成這些目標，但要手動從完全不同的資料系統和程序中彙整資料，可能會嚴重影響到線上行銷活動的效益，而造成促銷活動效益不盡理想、資料不相符和混淆。
+在現今日趨複雜且競爭激烈的線上市場中，線上廣告主和代理商必須持續增進他們對線上市場環境的瞭解，並瞭解其廣告花費的回報。雖然廣告主、代理商和發佈者都各有其工具可協助他們達成這些目標，但要手動從完全不同的資料系統和程序中彙整資料，可能會嚴重影響到線上行銷活動的效益，而造成促銷活動效益不盡理想、資料不相符和混淆。
 
 DoubleClick for Advertisers (DFA) 整合可以解決此問題。它採用 Adobe® Data Connectors™，讓 DoubleClick DFA 能夠自動將資料傳送至「報告與分析」。
 
-**[!UICONTROL Analytics]** &gt;管 **[!UICONTROL 理]** &gt;資料 **[!UICONTROL 連接器]**
+**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL Data connectors]**
 
 ![](assets/data-connectors-home.png)
 
@@ -39,17 +39,17 @@ Data Connectors 的主要好處 - DFA 整合包括:
 
 ![](assets/Diagram1.png)
 
-訪客進入代管廣告的發行者網站。 此廣告具有唯一識別碼，名為廣告 ID。廣告包括「位置」加上「創意」，可說明廣告在「發佈者」網站上的位置，以及對訪客顯示的內容。 當訪客從 DFA 內容伺服器提取此廣告、版面或創作時，此訪客的曝光數將會被追蹤記錄到 DFA Floodlight 伺服器 (1)。
+訪客進入發佈者的網站，其中包含廣告。此廣告具有唯一識別碼，名為廣告 ID。廣告中包含版面和創作，後者可說明廣告在發佈者網站上的位置，以及對訪客顯示的內容。當訪客從 DFA 內容伺服器提取此廣告、版面或創作時，此訪客的曝光數將會被追蹤記錄到 DFA Floodlight 伺服器 (1)。
 
 如果訪客點按廣告 (2)，則會查詢 Floodlight 伺服器 (這會計為一次點按)，然後將訪客 302 重新導向 (3) 至著陸頁面。當訪客進入著陸頁面時，即完成所謂的點進。此頁面包含 Adobe 追蹤代碼，會查詢 DFA Floodlight 伺服器中的資料。
 
-如果訪客在 Floodlight 伺服器追蹤點按之後並未實際進入著陸頁面，則不算是點進。有些廣告和實作實際上可能不會導致訪客的瀏覽器遵循302重新導向。 有關此主題的進一步討論，請參閱協調 [度量差異](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)。
+如果訪客在 Floodlight 伺服器追蹤點按之後並未實際進入著陸頁面，則不算是點進。有些廣告和實施實際上不一定會使訪客的瀏覽器遵循 302 重新導向。有關此主題的進一步討論，請參閱[協調量度差異](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)。
 
 此整合會在訪客接收到廣告曝光數、未加以點按但在後續的某個時間點經由其他途徑進入著陸頁面時，擷取下一個量度。
 
 ![](assets/Viewthrough.png)
 
-我們將此情景稱為閱覽。此情景與點進情景的差異在於，訪客並未點按廣告，而是在繼續進行其他活動後進入著陸頁面 (2)。最簡單的情況是，訪客在瀏覽器中輸入著陸頁面的URL。 其他情況則包括，訪客繼續進行瀏覽，但後續使用了搜尋引擎，而將訪客導向至著陸頁面。無論是哪種情況，使用者都會進入著陸頁面。
+我們將此情景稱為閱覽。此情景與點進情景的差異在於，訪客並未點按廣告，而是在繼續進行其他活動後進入著陸頁面 (2)。最簡單的情況是，訪客在瀏覽器中鍵入登陸頁面的 URL。其他情況則包括，訪客繼續進行瀏覽，但後續使用了搜尋引擎，而將訪客導向至著陸頁面。無論是哪種情況，使用者都會進入著陸頁面。
 
 ## Adobe 整合: 即時資料收集{#adobe-integration-real-time-data-collection}
 
@@ -61,9 +61,9 @@ Adobe 整合的資料收集部分會在訪客進入著陸頁面時展開 (1)。�
 
 在資料送達，或是執行時間過久時，將會對 Adobe 追蹤伺服器引發點擊 (3)。
 
-整合模組是一個特殊核心 Adobe JavaScript 模組，它會使 Adobe 影像信標延遲，而在特定的時間長度內 (`s.maxDelay`)。`s.maxDelay` 定義在將影像標籤觸發至訪客瀏覽器之前，Integrate模組會等候DFA Floodlight伺服器資料的時間長度。 藉由此行為，即使在 DFA Floodlight 伺服器關閉或負載過重時，仍可收集基本訪客資料，因此這項行為是很重要的。如果 Floodlight 資料在`s.maxDelay`到期之前送達，將會立即引發 Adobe 追蹤資料，且其中會包含其他 DFA 資料。
+整合模組是一個特殊核心 Adobe JavaScript 模組，它會使 Adobe 影像信標延遲，而在特定的時間長度內 (`s.maxDelay`)。`s.maxDelay` 會定義整合模組將在等待 DFA Floodlight 伺服器傳回資料多久之後，對訪客的瀏覽器引發影像標記。藉由此行為，即使在 DFA Floodlight 伺服器關閉或負載過重時，仍可收集基本訪客資料，因此這項行為是很重要的。如果 Floodlight 資料在`s.maxDelay`到期之前送達，將會立即引發 Adobe 追蹤資料，且其中會包含其他 DFA 資料。
 
-如果發生逾時，頁面代碼可以將 Adobe 報告與分析事件指定作為逾時事件。在診斷整合方面的問題時，此事件將有其用處，或是，在調整 `s.maxDelay`. 如果太常發生逾時，請增加 `s.maxDelay`. `s.maxDelay` 但是，在此情況下，訪客可能會在計時器到期前離開網 `s.maxDelay` 站。.
+如果發生逾時，頁面代碼可以將 Adobe 報告與分析事件指定作為逾時事件。在診斷整合方面的問題時，此事件將有其用處，或是，在調整`s.maxDelay`.如果太常發生逾時，請增加 `s.maxDelay`.但是，`s.maxDelay` 可能會設定得太高，則訪客有可能在 `s.maxDelay` 計時器到期之前離開網站。
 
 有時候，Floodlight 伺服器在回應時會出現關於訪客的錯誤。此錯誤通常是發生在 Floodlight 伺服器因訪客尚未檢視任何廣告，或沒有 DFA 訪客 cookie，而對訪客一無所知的情況下。頁面代碼可指定一個自訂轉換變數 (eVar)，用來收集這些錯誤，以及協助您進行實施問題的疑難排解，或指出 Google 交易方面的問題。最常見的錯誤是「沒有歷史記錄」、「沒有 cookie」、「查詢錯誤」和「已退出」，如下表所說明:
 
@@ -97,9 +97,9 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 | 逾時和錯誤追蹤 | 無 | 是 | 是 |
 | 不需要交涉的客戶端 ID | 無 | 無 | 是 |
 
-### 關於 1.5 版 {#section-b5a3e967cfa141ea8f740612336181be}
+### 關於 1.5 版{#section-b5a3e967cfa141ea8f740612336181be}
 
-1.5 版的整合在著陸頁面 Java Script 中導入了整合模組。整合模組可支援對 DFA 廣告伺服器 (ad.doubleclick.net) 發出固定大小的要求，這解決了舊版整合最多只能使用 2K 要求的問題。它也導入了可設定的逾時  *`s.maxDelay`*, to continue collecting Adobe visitor data when network outages occur. 錯誤和逾時資料皆可擷取至 Analytics 變數中。
+1.5 版的整合在著陸頁面 Java Script 中導入了整合模組。整合模組可支援對 DFA 廣告伺服器 (ad.doubleclick.net) 發出固定大小的要求，這解決了舊版整合最多只能使用 2K 要求的問題。它也導入了可設定的逾時  *`s.maxDelay`*，而能夠在網路中斷時繼續收集 Adobe 訪客資料。錯誤和逾時資料皆可擷取至 Analytics 變數中。
 
 下圖說明著陸頁面在 1.5 版中的網路互動情形。
 
@@ -111,7 +111,7 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 
 新版 JavaScript 代碼的重要功能之一，是 1.5 版與 2.0 版之間不需要實施變更。
 
-### 關於 2.0 版 {#section-afd56de0c56c4489bb5ddc5798d6709a}
+### 關於 2.0 版{#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 最新版的 DFA 整合可將整個 Floodlight 設定的資料移至整合中。在 2.0 版之前，個別的整合會分別繫結至一個 DFA 廣告主。透過這項變更，整個 Floodlight 設定的點按、曝光數和成本量度，都會包含在整合的報表套裝中。如果有兩個網站位於相同的 Floodlight 設定中，您也可以追蹤跨網站的閱覽。
 
@@ -121,7 +121,7 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 
 如果 Floodlight 設定是 DFA 中的共用設定，則從 1.5 到 2.0 版的升級，將會使 Floodlight 設定內所有共用廣告主的轉換資料都包含在報表套裝中。
 
-### 升級至 2.0 版 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### 升級至 2.0 版{#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 下表列出移轉至新版整合之作業的擁有者:
 
