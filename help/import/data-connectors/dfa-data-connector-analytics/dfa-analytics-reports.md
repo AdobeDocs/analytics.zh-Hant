@@ -4,7 +4,7 @@ keywords: DFA
 title: 使用 DFA 資料的分析報表
 topic: Data connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,11 +31,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 若要產生 DFA 報表:
 
 1. 登入 Adobe Experience Cloud。
-1. Go to **[!UICONTROL Analytics]** &gt; **[!UICONTROL Reports &amp; Analytics]**. 請確定您已選取 DFA 整合安裝所在的報表套裝。
+1. 移至&#x200B;**[!UICONTROL 「分析」]**>**[!UICONTROL 「報告與分析」]**。請確定您已選取 DFA 整合安裝所在的報表套裝。
 
 1. 在左側導覽中，選取會擷取 DFA 點進資料的轉換變數，然後選取所需的 DFA 報表。
 1. 按一下&#x200B;**[!UICONTROL 「新增量度」]**。這會開啟 Metric Selector 對話方塊。
-1. Check the Impressions and Clicks metrics in the **[!UICONTROL Available Metrics]** list and click **[!UICONTROL Apply]**.
+1. 在&#x200B;**[!UICONTROL 「可用量度」]**&#x200B;清單中勾選「曝光數」和「點按」量度，然後按一下&#x200B;**[!UICONTROL 「套用」]**。
 
    產生的報表會顯示「曝光數」、「點按」和「收入」資料，讓您得以檢視您的 DFA 服務轉化為實際收入的情形。例如，DFA 廣告名稱報表會顯示可直接歸因於您目前的 DFA 廣告促銷活動之中特定橫幅廣告的曝光數、點按和收入資料:
 
@@ -45,8 +45,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 報表標題 (標示為 DFA_Ad 名稱報表) 會顯示報表期間 (2009 年 2 月)，並指出這是採用水平長條格式的排名報表。
 * 圖形本身會會報表中的每個 DFA 廣告顯示三個量度 (曝光數、點按和收入)。
-* 圖形會以量度總計的百分比形式顯示每個量度的資料，而不是使用每個量度的實際數值。您可以在&#x200B;**[!UICONTROL 「設定報表」]對話方塊中變更此設定。**
+* 圖形會以量度總計的百分比形式顯示每個量度的資料，而不是使用每個量度的實際數值。您可以在&#x200B;**[!UICONTROL 「設定報表」]**&#x200B;對話方塊中變更此設定。
 * 在圖形下方，DFA_Ad 名稱報表會列出每個 DFA 廣告的報表詳細資料，並顯示廣告效益的數值和百分比資料。
 * 選取特定 DFA 廣告名稱可開啟選項功能表，以取得更多關於特定 DFA 廣告的資訊。
-* 每個量度欄都包含對應於圖形中量度指定色彩的色鍵。
+* 每個量度欄都包含一個顏色索引鍵，分別與量度在圖形中的指定顏色相對應。
 * 報表會以「收入」量度排序，收入最高的廣告位於最上方。您可以按一下不同的欄 (量度) 標籤，以變更報表排序。
