@@ -3,8 +3,8 @@ keywords: Analysis Workspace
 title: 同類群組分析是什麼？
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 ---
 
@@ -17,17 +17,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 同類群組分析的用途範例：
 
-* 推行專為刺激所需動作的促銷活動。
-* 在客戶生命週期的正確時間點轉移行銷預算。
-* 識別何時終止試用或優惠，以最大化價值。
-* 獲得定價、升級路徑等領域的 A/B 測試相關想法。
-* 在指導分析報表中檢視同類群組分析報表。
-* 識別何時終止試用或優惠，以最大化價值。
-* 獲得定價、升級路徑等領域的 A/B 測試相關想法。
+* 啟動旨在刺激所需動作的促銷活動。
+* 在客戶生命週期的正確時間調整行銷預算。
+* 瞭解何時結束試用版或優惠，以發揮最大價值。
+* 在價格、升級途徑等方面獲得A/B測試的構想。
+* 在「引導分析」報表中檢視「同類群組分析」報表。
 
-所有具有 Analysis Workspace 存取權限的 Analytics 客戶皆可使用同類群組分析。
+世代分析適用於所有具有分析工作區存取權限的Analytics客戶。
 
-[在 YouTube 觀看「同類群組分析」](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
+[在 YouTube 觀看「同類群組分析」](https://www.youtube.com/watch?v=kqOIYrvV-co&index=45&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
 
 >[!IMPORTANT]
 >
@@ -35,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 同類群組分析功能
 
-2019 年 1 月，Adobe 推出了大幅增強的新版「同類群組分析」。這個版本能讓您對正在建立的同類群組進行更精細的控制。下列為主要的增強功能：
+2019 年 1 月，Adobe 推出了大幅增強的新版「同類群組分析」。它可讓您更精確地控制您正在建立的群組。 下列為主要的增強功能：
 
 ### 保留率表格
 
@@ -57,15 +55,15 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ### 延時表格
 
-衡量包含事件發生前後的經過時間。此工具非常適合用來進行事前/事後分析。「包含」欄位於表格的中央，包含事件前後的時段會顯示於兩側。
+測量包含事件發生前後經過的時間。 這是用於前／後分析的絕佳工具。 「已包含」欄位位於表格的中心，而包含事件前後的時段會在兩側顯示。
 
 ![](assets/cohort-latency.png)
 
 ### 自訂維度同類群組
 
-根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。使用行銷管道、促銷活動、產品、頁面、地區等 Adobe Analytics 維度，說明保留率在不同維度值的變化。
+根據選取的維度建立群組，而非預設的時間型群組。 使用行銷管道、促銷活動、產品、頁面、地區等 Adobe Analytics 維度，說明保留率在不同維度值的變化。
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-如需如何設定和執行同類群組報表的說明，請前往[設定同類群組分析報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
+如需如何設定及執行同類群組報表的指示，請前往「設 [定同類群組分析」報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
