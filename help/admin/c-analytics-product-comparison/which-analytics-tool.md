@@ -1,18 +1,18 @@
 ---
-description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
+description: 此說明頁面包含每個Adobe Analytics工具的建議使用案例。 工具的列出順序應視為工具。 如果某個工具不滿足需求，請移至下一個工具以供考慮。
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
+translation-type: tm+mt
+source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 ---
 
 
 # 我該使用哪種 Adobe Analytics 工具呢？
 
-此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
+此說明頁面包含每個Adobe Analytics工具的建議使用案例。 工具的列出順序應視為工具。 如果某個工具不滿足需求，請移至下一個工具以供考慮。
 
-如需 Adobe Analytics 產品比較的相關資訊，請前往[此處](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)取得。
+如需Adobe Analytics產品比較的詳細資訊，請前 [往](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)。
 
 ## Adobe Analytics 報告使用者介面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
 
@@ -21,47 +21,46 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 該使用 **[Reports &amp; Analytics](/help/analyze/reports-analytics/overview/report-overview.md)**的情況：
 
 * 入門使用者需要存取預先建立的報告以便導覽。
-* 用於瞭解目標活動 (目標分析/A4T) 提升度和可信度。
-* 用於存取 UI 中的即時資料。
-* 用於設定日曆事件。
-* 用於設定目標。
-* 用於檢視 Bot 報告。
-* 用於在單一 UI 控制面板中查看多個報表套裝。
-* 用於存取同時觀看者的獨特影片視覺效果、影片播出時段，以及觀看者下降人數。
-* 用於利用排程報告中的「發佈清單」。
+* 若要瞭解Target活動(Analytics for Target/A4T)提升度和可信度。
+* 在UI中存取即時資料。
+* 若要設定日曆事件。
+* 若要設定目標。
+* 若要檢視機器人報告。
+* 若要存取「並行檢視器」、「視訊日期部分」和「檢視器下拉」的獨特視訊視覺化。
+* 若要在排程報表中運用發佈清單。
 
-該使用 **[Mobile Services UI](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html)**的情況：
+該使用 **[Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)**的情況：
 
-* 若需要「行動應用」資料的獨立檢視.
+* 如果需要孤立的行動應用程式資料檢視。
 * 若要管理您行動應用程式 SDK 的實作。
-* 若要設定行動裝置廣告，例如應用程式內傳訊、推送訊息及位置目標。
-* 若希望應用程式資料的視覺化能夠更有互動性 (Sunburst).
-* 若要視覺化地圖上的興趣點。
-* 用於期限值量度.
+* 若要設定行動廣告，例如應用程式內訊息、推播訊息和位置定位。
+* 如果需要更多互動式視覺化來呈現應用程式資料（散射環）。
+* 在地圖上視覺化地標。
+* 適用於期限值量度。
 
 該使用 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)**的情況：
 
-* 用於匯出 50,000 列的資料
-* 若希望以標籤來組織專案工作。
-* 使用「網站分析」報表 (3D 路徑報表) 時
+* 要導出50,000行資料
+* 如果需要項目工作的標籤組織。
+* 若要使用網站分析報表（3D路徑報表）。
 
 該使用 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)**的情況：
 
-* 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
-* 用於從 CRM 到 POS 到 Web，建立線上和離線互動的多頻道資料集。
-* 用於 (基於規則和演算法模型的) 進階屬性。
-* 用於預測性的統計模型 (傾向評分、叢集、關聯性)。
-* 用於延遲分析 (事件發生前/後的時間).
-* 用於識別並匯出整個 Adobe Experience Cloud 的複雜區段。
+* 作為最有彈性的Analytics工具選項（直至訪客層級、點擊層級分析）。
+* 建立從CRM到POS到Web的線上與離線互動的多頻道資料集。
+* 適用於進階歸因（規則型和演算法模型）。
+* 針對預測性、統計模型（傾向分數、叢集、關聯等）。
+* 用於延遲分析（事件之前／之後的時間）。
+* 用於識別和匯出整個Adobe Experience Cloud中的複雜區段。
 
-## 將資料匯入 Adobe Analytics 中 {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## 將資料匯入Adobe Analytics {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
 該使用&#x200B;**[「分類」](/help/components/c-classifications2/c-classifications.md)**的情況：
 
-* 有您想要建立關聯以收集值的中繼資料 (eVar、prop、行銷通路) 時
+* 當您有要與收集值（eVar、prop、行銷渠道）關聯的中繼資料時
 * 選項：
 
-   * 規則產生器：您已針對變數，收集可預測的格式化值 (例如，具有分隔符號的值) 時使用。此方法讓您只要設立規則一次，便可大致上「設定完成、高枕無憂」。
+   * 規則產生器：您已針對變數，收集可預測的格式化值 (例如，具有分隔符號的值) 時使用。此方法可讓您設定規則一次，基本上可以「設定並忘記」。
    * 瀏覽器匯入器：如果您沒有可預測的值，或您有需要執行一次性更新的有限值清單，請使用此工具。此方法需要您不斷監控新值的分類。
 
 該使用「**[資料來源](/help/import/c-data-sources/datasrc-home.md)**」的情況：
@@ -71,11 +70,11 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
    * 摘要：輕鬆上傳資料，按日期或有限的維度
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
-   * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
+   * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。亦即，資料會直接插入訪客歷程中。
 
 該使用 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(原稱為 Genesis)**的情況：
 
-* 當您與第三方提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。Data Connectors 通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
+* 當您與已建立支援Adobe Analytics連線的第三方供應商接洽時。 資料連接器通常會定期將摘要層級資料永久且自動地整合到Adobe Analytics中。
 
 該使用 **[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**的情況：
 
@@ -83,53 +82,53 @@ source-git-commit: b4e17f7aad73af250c89cb8117f741f7eed89b7e
 
 該使用&#x200B;**[「客戶屬性」](/help/components/c-variables/dimensionslist/reports-customer-attributes.md)**的情況：
 
-* 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，並且想要將該資料上傳至 Experience Cloud 時。
-* 如果您想要使用 CRM 資料在 Analytics 中進行較為深入的分析時，或是將 CRM 資料作為 Adobe Target 中的目標準則時。
+* 如果您在客戶關係管理(CRM)資料庫中擷取企業客戶資料，並想要將資料上傳至Experience Cloud。
+* 如果您想要在Analytics中使用CRM資料進行更深入的分析，或在Adobe Target中用作定位標準。
 
 該使用 **[Audience Analytics](/help/integrate/c-audience-analytics/mc-audiences-aam.md)**的情況：
 
-* 如果您想要納入 Adobe Audience Manager (AAM) 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料或廣告曝光資料時。
-* 如果您想要根據時間上傳 CRM 資料時 (因為此整合會以逐次點擊的方式將新資訊傳送至 Analytics)。
+* 如果您想要將Adobe Audience Manager(AAM)受眾資料，例如人口統計資訊（例如性別或收入等級）、心理變數資訊（例如興趣和嗜好）、CRM資料或廣告曝光資料，併入任何Analytics工作流程。
+* 如果您希望上傳的CRM資料以時間為基礎，因為此整合會透過點擊傳送新資訊給Analytics點擊。
 
-## 從 Adobe Analytics 中匯出資料 {#section_901C06ABF2014E92B2952906723DF235}
+## 從Adobe Analytics匯出資料 {#section_901C06ABF2014E92B2952906723DF235}
 
 該使用 **[Report Builder](/help/analyze/report-builder/home.md)**的情況：
 
-* 若自訂的 Workspace 佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
-* 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
-* 用於合併來自不同維度報表的資料 (例如，將促銷印象報表與促銷一鍵轉換報表合併).
-* 用於跨報表套裝的檢視.
-* 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT).
+* 如果工作區的自訂版面選項有限（在Excel的限制內，Report Builder中可能提供任何功能）。
+* 將使用者輸入或離線資料來源（印象、成本）大致關聯至Adobe資料。 更永久的資料系結解決方案是Data Sources（請參閱將資料匯入Analytics）。
+* 要合併來自不同維度報表的資料（例如，促銷印象報表與促銷點按轉換報表連結）。
+* 適用於跨報表套裝檢視。
+* 如果需要透過排程進行自動化(XLSX、XLSM、CSV、PDF、TXT、XML、MHT)。
 
 該使用 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)**的情況：
 
 * 若要存取隱藏在其他 UI 中的變數 (IP 位址、Experience Cloud ID、Analytics 訪客 ID、頁面 URL)
-* 若要存取比 UI 更加精細的資料 (非正常的表格檢視)
-* 用若要以樞紐分析表輸入所適用的格式下載資料
-* 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到第三方資料視覺化工具中時
+* 若要存取比UI（非標準化表格檢視）更精細的資料
+* 以適合樞紐表輸入的格式下載資料
+* 如果客戶想要將Adobe資料輸入到協力廠商資料視覺化工具中（略作總結，而非點擊層級）
 * 若要在 Adobe Analytics 遇上「低流量」狀態時存取所有不重複維度值
 
 **[Analytics 資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**的使用時機：
 
-* 要利用我們所能提供最精細的資料摘要 (訪客 ID、點擊數) 時。
-* 若客戶希望 Adobe 資料能以我們所能傳送最精細的層級，存放在客戶端的資料庫中時.
-* 客戶希望開發商務智慧 (BI) 工具，或將點擊層級的 Adobe 資料輸入到第三方工具中時。
+* 若要運用我們可提供的最詳細資料饋送（訪客ID、點擊）。
+* 如果用戶端想要將Adobe資料儲存在用戶端資料庫中，我們可以傳送最精細的資料。
+* 如果客戶想要開發商業智慧(BI)工具，或將點擊層級的Adobe資料輸入至協力廠商工具。
 
 當其他視覺化選項都不符合您的需求時，才應該使用&#x200B;**[「報告 API」](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**。有 3 種 API 選項，包括：
 
-* **完整處理**：想要功能豐富的資料 (包括造訪次數、訪客、區段) 時。這是典型的 Analytics UI 摘要資料，需要約 30-90 分鐘才可供使用。可以透過「Report Builder」來使用。
-* **即時**：只想要檢視數個量度和維度，而不希望延遲超過數秒時。這是有限而只經過部分處理的摘要資料，只要約 30 秒以內就可供使用。包括獨特的演算法，可針對「最受歡迎」、「獲益者」和「損失者」。可以透過「Report Builder」來使用。
-* **[!UICONTROL 即時資料流]**：想要經過部分處理的點擊層級 Analytics 資料，而希望收集時間只花費數秒時。這是經過部分處理的資料，只要約 30 秒以內就可供使用。只有 Analytics Premium 才提供此 API。需要某種方法才能視覺化資料，通常會涉及工程技術服務。
+* **完整處理**：想要功能豐富的資料 (包括造訪次數、訪客、區段) 時。這是典型的Analytics UI摘要資料，可在約30-90分鐘內取得。 可透過報告建立工具使用。
+* **即時**：只想要檢視數個量度和維度，而不希望延遲超過數秒時。這是有限的、經過部分處理的摘要資料，可在約30秒內使用。 包含最受歡迎、獲益者和損失者的獨特演算法。 可透過報告建立工具使用。
+* **[!UICONTROL Live Stream]**:當您想要在收集後數秒內取得部分處理的點擊層級Analytics資料串流時。 這是部分處理的資料，可在約30秒內取得。 僅適用於Analytics Premium。 需要某種方式來直觀呈現資料，通常是透過工程服務參與。
 
 ## 自訂解決方案 {#section_4A212F26A15947599DFB0399A0440CB6}
 
-該使用工程技術服務的情況：
+該使用工程技術服務的情況:
 
 * 其他的 Adobe 工具都不符合您的需求時。
-* 想要自訂體驗時。
-* 想要完整的自動化解決方案時。
-* 想要觸及許多裝置時。
-* 具有多個資料來源時。
-* 具有複雜的資料 ETL (擷取、轉換、載入) 需求時。
-* 想要自訂品牌時。
-* 想要視覺化 [!UICONTROL Analytics Live Stream] 時。
+* 您需要自訂體驗。
+* 您需要完全自動化的解決方案。
+* 您想要觸及許多裝置。
+* 您有多個資料來源。
+* 您有複雜的資料ETL（擷取——轉換——載入）需求。
+* 您想要自訂品牌。
+* 你想要視覺化 [!UICONTROL Analytics Live Stream]。
