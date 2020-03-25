@@ -4,7 +4,7 @@ title: Activity Map 常見問題集
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 translation-type: tm+mt
-source-git-commit: 5a8ff1c81644c12f7d00ef147db197f54c48f60c
+source-git-commit: 0e125be6e1710c65effa0adc8097e8916c8a3290
 
 ---
 
@@ -53,7 +53,7 @@ A:
 
 **問：Activity Map是否提供「檢視」資料？**
 
-答：否，Adobe不會追蹤檢視的連結。
+答：否，Adobe不會追蹤已檢視的連結。
 
 **問：我之前沒有在網站上使用 Visitor ClickMap，現在可以使用 Activity Map 嗎？**
 
