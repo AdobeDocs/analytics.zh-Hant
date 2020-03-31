@@ -1,35 +1,35 @@
 ---
-title: 使用Launch概觀實施
-description: 瞭解如何使用Adobe Experience Platform Launch實作Adobe Analytics
-translation-type: tm+mt
+title: 使用 Launch 進行實施概述
+description: 瞭解如何使用 Adobe Experience Platform Launch 實施 Adobe Analytics
+translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
 
 ---
 
 
-# 使用Launch概觀實施
+# 使用 Launch 進行實施概述
 
-在Adobe Analytics的存留期間，Adobe提供了數種不同的方法，可在您的網站上實作資料收集程式碼。 Adobe目前的推薦方式是透過Adobe Experience Platform Launch。
+在 Adobe Analytics 的期限內，Adobe 提供數種不同的方式，可在您的網站上實施用於資料彙集的程式碼。Adobe 目前推薦的方式是透過 Adobe Experience Platform Launch。
 
-Launch是標籤管理解決方案，可讓您部署Analytics程式碼以及其他標籤需求。 Adobe提供與其他解決方案和產品的整合，讓您部署自訂程式碼。 您可以完成上述所有工作，而不需依賴組織中的任何開發團隊來更新網站上的程式碼。
+Launch 為標籤管理解決方案，可讓您部署 Analytics 程式碼及滿足其他標籤需求。Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
-所有具有有效Adobe Experience cloud合約的客戶都可以使用Launch。 如果您不確定您是否擁有存取權，請連絡您組織的其中一位Experience cloud系統管理員。
+所有具有有效 Adobe Experience Cloud 合約的客戶都可以使用 Launch。如果您不確定您是否擁有存取權，請聯絡貴組織的任一位 Experience Cloud 系統管理員。
 
 ## 整體工作流程
 
-使用Launch執行實作的步驟如下：
+使用 Launch 讓實施開始運作的步驟如下：
 
-1. **取得Launch的存取權**:您可以透過組織中的系統管理員取得啟動的存取權。
-2. **建立屬性**:屬性是用於參考標籤管理資料的首要容器。
-3. **部署至開發環境**:有一個環境，讓您可以重複標籤開發。
-4. **驗證並發佈至生產環境**:請確定一切都正常運作，然後即時發佈。
+1. **取得 Launch 的存取權**：您可以透過組織內部的系統管理員取得 Launch 的存取權。
+2. **建立屬性**：屬性是用於參考標籤管理資料的整體容器。
+3. **部署至開發環境**：有一個讓您可反覆進行標籤開發程序的環境。
+4. **驗證並發佈至生產環境**：確認一切都正常運作，然後發佈使其上線。
 
-請參 [閱Adobe Experience Platform Launch中的建立Analytics屬性](create-analytics-property.md) ，以開始使用。
+若要開始使用，請參閱[在 Adobe Experience Platform Launch 中建立 Analytics 屬性](create-analytics-property.md)。
 
 ## 其他資源
 
-Launch可以高度自訂。 進一步瞭解如何在實作中加入適當的資料，以充份運用Adobe Analytics。
+您可充分自訂 Launch。進一步瞭解如何在實施中加入適當的資料，以充分運用 Adobe Analytics。
 
-* [啟動檔案](https://docs.adobe.com/content/help/en/launch/using/overview.html):瞭解介面的運作方式，以及有哪些擴充功能。
-* [Adobe Analytics擴充功能](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html):使用Analytics擴充功能將資料傳送至Adobe Analytics。
-* [實施變數](../vars/overview.md):判斷您要傳送哪些變數至資料收集伺服器。
+* [Launch 文件](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)：瞭解介面的運作方式，以及有哪些擴充功能可用。
+* [Adobe Analytics 擴充功能](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)：使用 Analytics 擴充功能將資料傳送至 Adobe Analytics。
+* [實施變數](../vars/overview.md)：決定您要將哪些變數傳送至資料收集伺服器。
