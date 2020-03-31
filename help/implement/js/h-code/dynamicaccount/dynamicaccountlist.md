@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
-description: 建立實作如何決定其報表套裝的邏輯。
-translation-type: tm+mt
+description: 建立邏輯，讓實施根據此邏輯決定其報表套裝。
+translation-type: ht
 source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 ---
@@ -9,25 +9,25 @@ source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
 
 # s.dynamicAccountList
 
-> [!IMPORTANT] 動態帳戶僅支援使用舊版JavaScript實施（H代碼）。 目前的AppMeasurement程式庫或Adobe Experience Platform Launch不支援這些變數。
+> [!IMPORTANT] 動態帳戶僅支援使用舊版 JavaScript 實施 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
 
-變 `s.dynamicAccountList` 數會動態決定值 `s_account`。 如 `dynamicAccountSelection` 果設為 `true`，則 `dynamicAccountMatch` 會比較變數 `dynamicAccountList`。 如果找到相符項目，則會使用相符的報表套裝ID。
+`s.dynamicAccountList` 變數會以動態方式決定 `s_account` 的值。如果 `dynamicAccountSelection` 設為 `true`，則會比較 `dynamicAccountMatch` 變數與 `dynamicAccountList`。如果找到相符項目，則會使用相符的報表套裝 ID。
 
 ## 語法
 
-此變數是JavaScript檔案自動剖析的字串。
+此變數是 JavaScript 檔案自動剖析的字串。
 
 ```JavaScript
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-有效輸入是以分號分隔的rsid和值配對清單。 每個清單都包含下列項目:
+有效的輸入項目是以分號分隔的 rsid 和值配對清單。每個清單都包含下列項目:
 
 * 一或多個報表套裝 ID (以逗號分隔)
 * 一個等號
-* 要比對的一或多個字串（以逗號分隔）
+* 要比對的一或多個字串 (以逗號分隔)
 
-字串中只應使用標準ASCII字元。 不要包含空格。
+字串中只應使用標準 ASCII 字元。請勿包含空格。
 
 ## 範例
 
