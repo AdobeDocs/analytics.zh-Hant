@@ -1,7 +1,7 @@
 ---
 title: 移轉至 JavaScript 適用的 AppMeasurement
-description: 確定從H代碼移轉實施所需的項目。
-translation-type: tm+mt
+description: 決定將實施從 H 程式碼移出時所需的項目。
+translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
@@ -9,29 +9,29 @@ source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 # 移轉至 JavaScript 適用的 AppMeasurement
 
-如果您的實作仍使用H程式碼，Adobe強烈建議移轉至最新版的AppMeasurement。 建議透過 [Adobe Experience Platform Launch實作Analytics](../launch/overview.md) ，但可使用更新的JavaScript實作。
+如果您的實施仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。我們建議您透過 [Adobe Experience Platform Launch](../launch/overview.md) 實施 Analytics，不過也可以使用更新的 JavaScript 實施。
 
-與H代碼相比，AppMeasurement中會出現下列顯著變更：
+與 H 程式碼相比，AppMeasurement 有下列顯著變更:
 
-* 比H代碼快3-7倍。
-* 輕於H代碼- 21kb的未壓縮比H代碼（未壓縮為33kb）。
+* 較 H 程式碼快 3 到 7 倍。
+* 較 H 程式碼輕巧 - 未壓縮 21kb；H 程式碼則是未壓縮為 33kb。
 * 程式庫和頁面程式碼可部署在 `<head>` 標籤中。
-* 現有的頁面層級H程式碼與AppMeasurement相容。
+* 現有的頁面層級 H 程式碼與 AppMeasurement 相容。
 * 程式庫提供原生公用程式，用以取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
-* 程式庫不支援動態帳戶設定變數( `dynamicAccountSelection`包括 `dynamicAccountMatch`、 `dynamicAccountList`和)。
+* 程式庫不支援動態帳戶設定變數 (包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`)。
 * 「調查」模組不受支援。
 
-下列步驟概述了典型的遷移工作流。
+下列步驟概述典型的移轉工作流程。
 
-1. **下載新的AppMeasurement檔案**:登入Adobe Analytics，然後導覽至「管理員>代碼管理器」，以存取新檔案。 下載的壓縮檔包含精簡檔 `AppMeasurement.js` 案，以及媒體和整合模組。
-1. **將您的自`s_code.js`訂內容複製至`AppMeasurement.js`**:將中節之前的所`DO NOT ALTER ANYTHING BELOW THIS LINE`有代碼`s_code.js`移至開頭`AppMeasurement.js`。
-1. **更新所有外掛程式**:請確定您使用的是檔案中所列每個外掛程式的最新版本 `s_code.js` 。 這包括媒體和整合模組。
-1. **部署AppMeasurement.js檔案**:將檔案 `AppMeasurement.js` 上傳至網頁伺服器。
-1. **更新指令碼參考以指向`AppMeasurement.js`**:請確定所有頁面都參`AppMeasurement.js`考，而非`s_code.js`。
+1. **下載新的 AppMeasurement 檔案**：登入 Adobe Analytics，然後導覽至「管理員 > 代碼管理器」存取新檔案。下載的壓縮檔包含精簡的 `AppMeasurement.js` 檔案，以及媒體和整合模組。
+1. **將您的`s_code.js`自訂內容複製到`AppMeasurement.js`**：將`s_code.js`中`DO NOT ALTER ANYTHING BELOW THIS LINE`區段之前的所有程式碼複製到`AppMeasurement.js`的開頭。
+1. **更新所有外掛程式**：請務必使用 `s_code.js` 檔案所列的每個外掛程式，而且請務必使用最新版本，包括媒體和整合模組。
+1. **部署 AppMeasurement.js 檔案**：將 `AppMeasurement.js` 檔案上傳至網頁伺服器。
+1. **更新指令碼參考以指向`AppMeasurement.js`**：確認所有頁面都參考`AppMeasurement.js`，而非`s_code.js`。
 
-## 範例Appmeasurement程式碼
+## 範例 Appmeasurement 程式碼
 
-典型的 `AppMeasurement.js` 檔案。 請確定設定變數設定在函式上 `doPlugins` 方。
+典型的 `AppMeasurement.js` 檔案。請務必將設定變數設定在 `doPlugins` 函數上方。
 
 ```js
 // Initialize AppMeasurement
@@ -72,9 +72,9 @@ s.trackingServer="example.sc.omtrdc.net";
 /* ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! ===============  */
 ```
 
-## 頁面代碼範例
+## 範例頁面程式碼
 
-載入每個頁面的典型程式碼。
+在每個頁面上載入的典型程式碼。
 
 ```html
 <script src="AppMeasurement.js"></script>
@@ -86,4 +86,4 @@ s.t();
 </script>
 ```
 
-也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。如需詳 [細資訊，請參閱](/help/implement/js/overview.md) 「JavaScript實作」。
+也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。如需詳細資訊，請參閱 [JavaScript 實施](/help/implement/js/overview.md)。
