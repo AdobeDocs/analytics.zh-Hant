@@ -1,86 +1,31 @@
 ---
-description: 顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。
 title: 反向連結
-topic: Reports
-uuid: e63b47b4-49f3-43af-8409-3272bec0484e
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+description: 顯示先前點擊的URL（如果該點擊位於您的網站外）。
+translation-type: tm+mt
+source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
 
 
 # 反向連結
 
-顯示訪客在到達您網站前的網域或 URL、訪客找到您的網站時所使用的方法，以及由這些反向連結位置產生的瀏覽次數。
+「反向連結」維度顯示訪客在到達您網站前所處的URL。 例如，如果訪客點按某個連結並 `example.com/example-page.html` 進入您的網站， `example.com/example-page.html` 則未定義為您網域的一部分的反向連結。
 
-例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在實作中，您的實作顧問會幫助您定義屬於您網站一部分的網域和 URL。(此變更在實作期間後即可完成。) 
+此維度需要您設定報表套裝的內部 [URL篩選器](/help/admin/admin/internal-url-filter-admin.md)。 如果您未設定內部URL篩選器，Adobe Analytics會將所有網域視為您網站的內部網域。
 
-任何非這些已定義網域和 URL 之一部分的網域或 URL，就會被視為反向連結。例如，將網頁 A 和網頁 B 新增至內部 URL 篩選器，但網頁 C 沒有加入。在這種情形下，網頁 C 就會被視為反向連結。
+## 維屬性
 
-## 分配、過期和特殊值 {#section_4D8CE5E111DD48FBBDCF9B5A1F16E92E}
+* 依預設，此維度會使用最近的配置。
+* 依預設，此維度會在瀏覽後過期。
+* 在（低流量）下將維度值分組之前，此維度受500k唯一限制的約束。 資料倉庫沒有唯一限制。
+* 如果度量沒有反向連結值，則會將其分組在下方 `Typed/Bookmarked`。
+* 此維度通常會在瀏覽的首次點擊上設定，但可設定在瀏覽中間。
 
-<table id="table_EC7423532C7E44DE97B7FC0321585A2B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> Marketing Reports &amp; Analytics (SiteCatalyst) </th> 
-   <th colname="col3" class="entry"> Ad hoc analytics </th> 
-   <th colname="col4" class="entry"> Data warehouse </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 量度分配 </td> 
-   <td colname="col2"> 最近 </td> 
-   <td colname="col3"> 最近 </td> 
-   <td colname="col4"> 最近 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 值過期時間 </td> 
-   <td colname="col2"> 瀏覽 </td> 
-   <td colname="col3"> 瀏覽 </td> 
-   <td colname="col4"> 瀏覽 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 值限制 </td> 
-   <td colname="col2"> 無限制 (未來版本可能有所變動) </td> 
-   <td colname="col3"> 無限制 (未來版本可能有所變動) </td> 
-   <td colname="col4"> 無 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 特殊值 </td> 
-   <td colname="col2"> <p>「無」：瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
-   <td colname="col3"> <p>「無」：瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
-   <td colname="col4"> <p> 空白 - 等於「無」，瀏覽期間沒有反向連結的全網站總計。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+## 疑難排解
 
-## 附註 {#section_B83A3571D64E4E7792712FAF740D7955}
+**問：我為何將`googleusercontent.com`視為維度值？**
 
-* 反向連結、反向連結類型和反向連結網域設定於瀏覽的第一次點擊，或是在反向連結為外部的瀏覽期間 (例如，假設訪客離開您的網站、使用搜尋引擎，然後在第一次瀏覽過期前返回您的網站)。這些值會同時設定，且持續存在於瀏覽期間。
-* 會篩選內部 URL。只有不符合內部 URL 篩選器的反向連結才會列在此報告中。
-* 對應的量度在 Ad Hoc Analysis 中稱為「反向連結例項」。
-* 分類/建立書籤值不列在「反向連結」報告中。這表示全網站瀏覽值不符合此報告的瀏覽值。
+答： [Google](https://about.google/) ，將網域用 `googleusercontent.com` 於其代管內容。 代管內容包括：
 
-## 報告歷史記錄{#section_6C0FCEA9DAF04D97BA056E153B7E4628}
-
-<table id="table_9DFA79EC6A5A48648F2FB5418E1752DB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 日期 </th> 
-   <th colname="col2" class="entry"> 變更 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 2014 年 1 月 16 日 </td> 
-   <td colname="col2"> Data Warehouse 已更新為符合 Marketing Reports &amp; Analytics 使用的邏輯。在此日期前，搜尋關鍵字不會持續存在於瀏覽期間。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 6/19/2012 </td> 
-   <td colname="col2"> <p> 在 2012 年 7 月前，「無」包含所有行動流量、分類/建立書籤和無 JavaScript 的瀏覽。在 2012 年 7 月後，「無」僅包含瀏覽第一頁上無 JavaScript 的點擊。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+* **快取頁面**:Google的蜘蛛程式會不斷地編目網頁，並儲存網頁，以防網頁離線或無法使用。 按一下Google其中一個搜尋結果頁面的「快取」連結，即可在所有搜尋結果旁取得這些快取頁面。 當使用者按一下此連結，然後查看您網站上的原始內容時， `googleusercontent.com` 會列為其反向連結網域。 這些頁面具有子網域 `webcache.googleusercontent.com`。
+* **翻譯的頁面**:Google提供強大而方便的翻譯服務。 使用本服務檢視網站時，其來源為 `googleusercontent.com`。 如果使用者按一下連結以返回原始內容，反向連結維度會顯示此網域的URL。 這些頁面具有子網域 `translate.googleusercontent.com`。
