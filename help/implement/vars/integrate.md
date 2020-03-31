@@ -1,7 +1,7 @@
 ---
 title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 1. 您的網站訪客會載入頁面，為合作夥伴資料發起 `get` 要求。
 2. Adobe 合作夥伴會收到 `get` 要求，並將適當的變數封裝在 JSON 物件中。系統會傳回 JSON 物件。
 3. 網站會收到 JSON 物件，並呼叫 `setVars` 以將 JSON 物件中所包含的資訊指派給 Adobe Analytics 變數
-4. 傳送影像請求給 Adobe 資料收集伺服器。
+4. 傳送影像要求給 Adobe 資料收集伺服器。
 
 ## 整合模組實施
 
@@ -30,23 +30,23 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-1. 在頂端導覽區域中，按一下 [!UICONTROL 管理員] > [!UICONTROL 代碼管理器]。
+1. 在頂端導覽區域中，按一下 [!UICONTROL 「管理員] > [!UICONTROL 代碼管理器」]。
 1. 下載最新 JavaScript AppMeasurement 程式庫。
 1. 下載後，將檔案解壓縮，然後找出 `AppMeasurement_Module_Integrate.js`。
 
 ### 將整合模組放置在實施中
 
-若要在網站上實作整合模組，您必須擁有 Adobe Experience Platform Launch 的存取權。如果您使用舊版 JavaScript 實施，則需要您組織的網站原始碼的存取權。
+若要在網站上實施整合模組，您必須擁有 Adobe Experience Platform Launch 的存取權。如果您使用舊版 JavaScript 實施，則需要您組織的網站原始碼的存取權。
 
 1. 使用您的 Adobe ID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下您要編輯的 Launch 屬性。
-3. 按一下擴充功能標籤，然後按一下 Adobe Analytics 下方的設定。
+3. 按一下「擴充功能」標籤，然後按一下 Adobe Analytics 下方的設定。
 4. 開啟「使用自訂程式碼設定追蹤器」可摺疊功能表，然後按一下「&lt;/> 開啟編輯器」。
 5. 將整合模組程式碼貼到程式碼模組視窗中。完成後，請按一下儲存。
 
 ## 整合模組方法
 
-實作整合模組後，請使用這些方法設定該模組，以從您想要的 Adobe 合作夥伴傳送及接收資料。
+實施整合模組後，請使用這些方法設定該模組，以從您想要的 Adobe 合作夥伴傳送及接收資料。
 
 ### add
 
@@ -80,9 +80,9 @@ Adobe 內部團隊正在彼此合作，以提供說明此方法的相關文件�
 s.Integrate.<partner_name>.get("<url_to_json_object>?pid=value1&pid2=value2");
 ```
 
-* **合作夥伴名稱:** 組織通常會與 Adobe 合作夥伴合作，決定合作夥伴名稱的值。
-* **JSON 物件的 URL:** 包含要併入影像要求之合作夥伴變數的 JSON 物件的 URL。
-* **查詢字串參數:** 可在合作夥伴系統中識別您的組織的合作夥伴帳戶資訊。Adobe 合作夥伴會使用此資訊來識別資料集。
+* **合作夥伴名稱：**&#x200B;組織通常會與 Adobe 合作夥伴合作，決定合作夥伴名稱的值。
+* **JSON 物件的 URL：**&#x200B;包含要併入影像要求之合作夥伴變數的 JSON 物件的 URL。
+* **查詢字串參數：**&#x200B;可在合作夥伴系統中識別您的組織的合作夥伴帳戶資訊。Adobe 合作夥伴會使用此資訊來識別資料集。
 
 整合模組會自動將更多查詢字串新增至此 URL。變數查詢字串會指定模組預計要從合作夥伴傳回的 JSON 物件名稱。您也可以新增隨機數字，以防止瀏覽器進行快取。
 
