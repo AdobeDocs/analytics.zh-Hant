@@ -1,30 +1,30 @@
 ---
-title: 使用Facebook即時文章實作
-description: 在Facebook即時文章頁面上實作Adobe Analytics。
-translation-type: tm+mt
+title: 使用 Facebook 即時文章進行實施
+description: 在 Facebook 即時文章頁面上實施 Adobe Analytics。
+translation-type: ht
 source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
 
 ---
 
 
-# 使用Facebook即時文章實作
+# 使用 Facebook 即時文章進行實施
 
-Facebook Instant Articles可讓出版業者在Facebook上建立快速的互動文章。 即時文章載入內容的速度快達行動網路的十倍。
+Facebook 即時文章可讓發佈者於 Facebook 上快速建立互動式文章。即時文章載入內容的速度快達行動網路的十倍。
 
-您可以將Adobe Analytics內嵌在Facebook即時文章中，以追蹤訪客行為。 由於發行者內容位於Facebook應用程式內，而非發佈者網站上，因此標籤方法與標準Analytics實作稍有不同。
+您可以將 Adobe Analytics 內嵌在 Facebook 即時文章中，藉此追蹤訪客行為。由於發佈者的內容發佈於 Facebook 應用程式內，而非發佈者的網站，則標記方法與標準 Analytics 實施略有不同。
 
 ## 工作流程
 
-實作Adobe Analytics的主要工作流程如下：
+實施 Adobe Analytics 的整體工作流程如下：
 
-1. 建立頁 `stats.html` 面。 請撰寫此頁面的程式碼，以從URL提取查詢字串參數，並將每個參數指派給Analytics變數
-1. 在您的網 `stats.html` 頁伺服器上代管頁面
-1. 在Facebook即時文章上實作分析，方法是參照iframe `stats.html` 中的檔案
-1. 在iframe屬性中包含查詢字串參 `src` 數
+1. 建立 `stats.html` 頁面。撰寫此頁面的程式碼，從 URL 提取查詢字串參數，並將每個參數指派給 Analytics 變數
+1. 在您的 Web 伺服器上託管 `stats.html` 頁面
+1. 參考 iframe `stats.html` 中的檔案，在 Facebook 即時文章上實施 Analytics
+1. 在 iframe `src` 屬性中包含查詢字串參數
 
-### 步驟1:建立頁 `stats.html` 面
+### 步驟1：建立 `stats.html` 頁面
 
-以下的 HTML 樣本可以用於擷取即時文章的數據。此檔案會託管於貴公司其中一部網路伺服器。每次載入「即時文章」時，都會將檔案載入iframe中，這會觸發傳送資料至Adobe。
+以下的 HTML 樣本可以用於擷取即時文章的數據。此檔案會託管於貴公司其中一部網路伺服器。每次載入即時文章時，都會在 iframe 中載入檔案，進而觸發將資料傳送至 Adobe。
 
 ```html
 <html>
@@ -58,33 +58,33 @@ Facebook Instant Articles可讓出版業者在Facebook上建立快速的互動�
 </html>
 ```
 
-### 步驟2:在您的網 `stats.html` 頁伺服器上代管頁面
+### 步驟 2：在您的 Web 伺服器上託管 `stats.html` 頁面
 
-Adobe建議將您的頁 `stats.html` 面與最新版本的和 `AppMeasurement.js` 一起 `VisitorAPI.js`代管。 與組織中適當的工程團隊合作，將此檔案存放在正確的位置。
+Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 和 `VisitorAPI.js` 一起託管。與貴組織的適當工程團隊合作，在正確的位置託管此檔案。
 
-### 步驟3:每個Facebook `stats.html` 即時文章頁面上的參考
+### 步驟 3：參考每個 Facebook 即時文章頁面上的 `stats.html`
 
-建立Facebook即時文章內容時，請將分析HTML內容內嵌在iframe中。 例如:
+建立 Facebook 即時文章內容時，可以將 HTML 內容內嵌於 iframe 中。例如：
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html" height="0"></iframe>
 ```
 
-### 步驟4:設定自訂變數和事件追蹤
+### 步驟 4：設定自訂變數及事件追蹤
 
-您可以透過兩種不同的方法，在分析HTML中追蹤自訂變數和事件：
+可於您的分析 HTML 中經由兩種方法追蹤自訂變數及事件：
 
-* 直接在頁面中包含變數值和 `stats.html` 事件。 此處定義的變數最適合所有Facebook即時文章通常相同的值。
-* 將變數值納入參考iframe的查詢字串。 此方法可讓您將變數值從Facebook即時文章傳送至裝載Analytics代碼的iframe。
+* 直接在 `stats.html` 頁面中包含變數值和事件。此處定義的變數最適合所有 Facebook 即時文章通常相同的值。
+* 將變數值加入參考 iframe 的查詢字串中。此方法可讓您將變數值從 Facebook 即時文章傳送至託管 Analytics 程式碼的 iframe。
 
-下列範例顯示查詢字串中包含的數個自訂變數。 然後，內部的JavaScript `stats.html` 會使用檢查查詢字串 `s.Util.getQueryParam()`。
+下列範例顯示查詢字串中包含的多個自訂變數。接著 `stats.html` 內的 JavaScript 會使用 `s.Util.getQueryParam()` 來檢查查詢字串。
 
 ```html
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> [!NOTE] 由於iframe的性質，「反向連結」維度不會自動追蹤。 如果您想要追蹤此維度，請務必將此維度加入查詢字串中。
+> [!NOTE] 由於 iframe 的性質，系統不會自動追蹤「反向連結」維度。如果您想要追蹤此維度，請務必將此維度加入查詢字串中。
 
-## Facebook即時文章與隱私權
+## Facebook 即時文章與隱私權
 
-只要Analytics HTML頁面是裝載在您的網頁伺服器上，Adobe就會支援您所有Facebook即時文章的現有隱私權政策。 如果使用者選擇退出您主要網站上的追蹤，他們也會選擇退出您所有Facebook即時文章上的追蹤。 此公用程式頁面也支援Adobe Experience Cloud Identity Service，讓您可以將Facebook即時文章資料與Experience cloud的其他部分整合。
+只要 Analytics HTML 頁面託管於您的網路伺服器，Adobe 就會透過 Facebook 即時文章支援您現有的隱私權政策。若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 Facebook 即時文章。此公用程式頁面也支援 Adobe Experience Cloud Identity Service，因此您可以將 Facebook 即時文章資料與 Experience Cloud 的其他部分整合。
