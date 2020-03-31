@@ -2,7 +2,7 @@
 title: 將啟動資料元素對應至Analytics變數
 description: 將資料元素指派給Analytics變數，以便在分析工作區中將它們當做維度使用。
 translation-type: tm+mt
-source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
+source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 
 在Adobe Experience Platform Launch中擁有資料元素的儲存庫後，您就可以將其指派給Analytics維度。
 
-## 必備條件
+## 必要條件
 
 [將資料層物件對應至資料元素](layer-to-elements.md):請確定您瞭解Launch中的資料元素，以及您有數個要處理的元素。
 
@@ -38,8 +38,8 @@ source-git-commit: bb9648f4886ac26c77d89f850f7a68d40a9b4ffc
 1. 按一下所要的「啟動」屬性。
 1. 按一下 [!UICONTROL Rules] 標籤，然後按一下所要的規則（或建立一個規則）。
 1. 按一下下 [!UICONTROL Add] 方的按鈕 [!UICONTROL Actions]。
-1. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 變數。
-1. 按一 [!D下所需](assets/data-element.png) Analytics變數右側的資料元素圖示。 您組織的解決方 [案設計檔案](../prepare/solution-design.md) ，決定要使用哪些Analytics變數。
+1. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Set Variables.
+1. 按一下 ![所需Analytics變數右側的](assets/data-element.png) 「資料」元素圖示。 您組織的解決方 [案設計檔案](../prepare/solution-design.md) ，決定要使用哪些Analytics變數。
 1. 在模型窗口中選擇所需的資料元素。 按一下 [!UICONTROL Select].
 1. 資料元素名稱會新增至由符號所環繞的文字 `%` 欄位。 例如，如果您將資料元素命名為「頁面名稱」，則在將資料元素指派 `%Page name%` 至變數時，會看到字串。
 
