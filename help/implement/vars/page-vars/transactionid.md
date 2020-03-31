@@ -1,7 +1,7 @@
 ---
 title: transactionID
-description: 使用此變數可將線上和離線資料連結在一起。
-translation-type: tm+mt
+description: 此變數可用來將線上和離線資料連結在一起。
+translation-type: ht
 source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 ---
@@ -9,39 +9,39 @@ source-git-commit: f75c6759feb6576017733f1aac5bff2e21d4b0af
 
 # transactionID
 
-變 `transactionID` 數可唯一識別交易，因此點擊可關聯至透過Data Sources上傳的資料。 若您想要使用其他渠道的資料並將其連結至透過AppMeasurement收集的資料，此變數很有用。
+`transactionID` 變數可唯一識別交易，因此點擊能與透過 Data Sources 上傳的資料連結。若您想要使用其他頻道的資料，並將這些資料與透過 AppMeasurement 收集的資料連結在一起，此變數很有用。
 
-> [!NOTE] 使用此變  數前，請確定報表套裝中已啟用「交易ID儲存」。 See [General Account Settings](/help/admin/admin/general-acct-settings-admin.md) in the Admin user guide for more information.
+> [!NOTE] 使用此變數之前，請確認報表套裝中的[!UICONTROL 「交易 ID 儲存」]已啟用。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)。
 
-當您設 `transactionID` 定點擊時，Adobe會對所有Analytics變數集進行「快照」，或保留在該時間點。 透過具有相符交易ID的Data Sources上傳的資料會永久系結至這些變數值。
+當您在點擊上設定 `transactionID` 時，Adobe 會針對在該時間點設定或留存的所有 Analytics 變數拍攝「快照」。透過 Data Sources 上傳且具有相符交易 ID 的資料會永遠與這些變數值連結。
 
-依預設，Adobe會記住最多90天的所有交易ID值（連結和未連結）。 如果您的離線互動程式超過90天，請聯絡客戶服務以延長此限制。
+依預設，Adobe 會記住所有交易 ID 值 (連結和未連結) 達 90 天。如果您的離線互動程序超過 90 天，請聯絡客戶服務以要求延長期限。
 
-## Adobe Experience Platform Launch中的交易ID
+## Adobe Experience Platform Launch 中的交易 ID
 
-您可以在設定Analytics擴充功能（全域變數）時或在規則下設定交易ID。
+您可以在設定 Analytics 擴充功能 (全域變數) 時設定交易 ID，或依據規則進行設定。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往「規 [!UICONTROL 則] 」標籤，然後按一下所要的規則（或建立規則）。
-4. 在「 [!UICONTROL 動作]」下方，按一下現有  的Adobe Analytics - 「設定變數」動作，或按一下「+」圖示。
-5. 將「延伸 [!UICONTROL 功能] 」下拉式清單設定為Adobe Analytics，並將「動作類型 [!UICONTROL 」設] 定為變數 。
-6. 找到「 [!UICONTROL 交易ID] 」區段。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
+6. 找出[!UICONTROL 「交易 ID」]區段。
 
-您可以將交易ID設為任何字串值，包括資料元素。
+您可以將交易 ID 設為任何字串值，包括資料元素。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.transactionID
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.transactionID
 
-變 `s.transactionID` 數是包含交易唯一識別碼的字串。 有效值包括長度高達100個位元組的英數字元。 其預設值為空字串。
+`s.transactionID` 變數是包含交易唯一識別碼的字串。有效值包括長度最多 100 個位元組的英數字元。其預設值為空字串。
 
 ```js
 s.transactionID = "ABC123";
 ```
 
-如果您有多個點擊交易ID，則可以用逗號分隔每個交易ID。 多個交易ID仍受100位元組限制。
+如果您的點擊有多個交易 ID，可以使用逗號分隔每個 ID。即使有多個交易 ID，長度上限仍是 100 個位元組。
 
 ```js
 s.transactionID = "ABC123,XYZ456";
 ```
 
-> [!NOTE] 如果您使用此變數整合多個離線渠道，請確定不同渠道不會重疊交易ID。 例如，如果您的話務中心交易ID值為，而 `1234` 銷售線索交易ID值為 `1234`，則可能發生衝突並導致意外結果。 請確定交易ID包含每個離線渠道的唯一格式，並視需要加以區隔。 例如，在Data Sources和AppMeasurement中，將您的話務中心交易ID設 `call_1234` 定為和您的銷售 `lead_1234` 線索交易ID。
+> [!NOTE] 如果您使用此變數整合多個離線頻道，請確認不同頻道之間沒有重疊的交易 ID。例如，如果您的呼叫中心交易 ID 值為 `1234`，潛在客戶交易 ID 值為 `1234`，可能會發生衝突並導致意外結果。請確認每個離線頻道的交易 ID 均包含唯一格式，並視需要加以區分。例如，在 Data Sources 和 AppMeasurement 中，將呼叫中心交易 ID 設定為 `call_1234`，將潛在客戶交易 ID 設定為 `lead_1234`。
