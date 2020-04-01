@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics Tools Guide
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
+source-git-commit: 825dc13b0294e5a96b30b95f14524175d44c621d
 
 ---
 
@@ -13,8 +13,8 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
 
 + [Analytics 工具指南](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace 說明](analysis-workspace/home.md)
    + [Analysis Workspace 功能](analysis-workspace/analysis-workspace-features.md)
+   + [Analysis Workspace 說明](analysis-workspace/home.md)
    + [Analysis Workspace 的使用案例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace 的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
    + 建立 Workspace 專案 {#build-workspace-project}
@@ -95,11 +95,6 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
-   + [常見問題集](analysis-workspace/faq.md)
-   + [管理需求](analysis-workspace/frequently-asked-questions-analysis-workspace.md)
-   + [Analysis Workspace 效能最佳化](analysis-workspace/optimizing-performance.md)
-   + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/adhocanalysis-vs-analysisworkspace.md)
-   + [Analysis Workspace 的限制](analysis-workspace/aw-limitations.md)
    + [歸因 IQ](analysis-workspace/attribution-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + 虛擬分析人員 {#virtual-analyst}
@@ -118,6 +113,12 @@ source-git-commit: 509f86a0346e909b62d237deea71c67b7ee950af
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
+   + 工作區常見問答集 {#workspace-faq}
+      + [常見問題集](analysis-workspace/workspace-faqs/faq.md)
+      + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faqs/optimizing-performance.md)
+      + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/workspace-faqs/adhocanalysis-vs-analysisworkspace.md)
+      + [Analysis Workspace 的限制](analysis-workspace/workspace-faqs/aw-limitations.md)
+      + [管理需求](analysis-workspace/workspace-faqs/frequently-asked-questions-analysis-workspace.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
    + [Report Builder 的新功能](report-builder/whats-new-arb.md)
