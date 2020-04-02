@@ -3,7 +3,7 @@ description: 連結報表會報告在目前頁面上找到的連結。並不會�
 title: 連結報表
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/links_in_page.png)
 
-在標準模式中，「頁面上的連結」報表會顯示從一天到多天，彙總整個日期範圍的連結資料。並顯示每個連結的下列資訊:
+在標準模式中，「頁面上的連結」報表會顯示從一天到多天，彙總整個日期範圍的連結資料。並顯示每個連結的下列資訊：
 
 <table id="table_3DE41B2CFA644B70AF802A3123CE51D9"> 
  <thead> 
@@ -49,11 +49,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 可見性 </td> 
-   <td colname="col2">表示連結的可見性狀態。可能有兩個值: 
+   <td colname="col2">表示連結的可見性狀態。可能有兩個值： 
     <ul id="ul_BABCC0F64145407C9D439150A6898E6D">
-     <li id="li_9AF0479BDCEB4A44A37292FAABFA83A5"><b>隱藏</b>: 連結目前位在頁面中，但未顯示給一般使用者 (類似導覽功能表中的子功能表，只有在使用者將滑鼠暫留到父功能表頂端時才會顯示出來) </li>
-     <li id="li_C6FA4EC27EDD4341AB9821E2B4BC9E60"><b>顯示</b>: 連結目前顯示在頁面上。但有可能顯示在下半部，使用者必須捲動頁面才看得到。 </li>
-    </ul><p>附註: 如果連結設定為「隱藏」，則不會顯示它的覆蓋圖。 </p></td> 
+     <li id="li_9AF0479BDCEB4A44A37292FAABFA83A5"><b>隱藏</b>：連結目前位在頁面中，但未顯示給一般使用者 (類似導覽功能表中的子功能表，只有在使用者將滑鼠暫留到父功能表頂端時才會顯示出來) </li>
+     <li id="li_C6FA4EC27EDD4341AB9821E2B4BC9E60"><b>顯示</b>：連結目前顯示在頁面上。但有可能顯示在下半部，使用者必須捲動頁面才看得到。 </li>
+    </ul><p>附註：如果連結設定為「隱藏」，則不會顯示它的覆蓋圖。 </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,10 +102,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 可見性 </td> 
-   <td colname="col2">表示連結的可見性狀態。可能有兩個值: 
+   <td colname="col2">表示連結的可見性狀態。可能有兩個值： 
     <ul id="ul_B10C55ED4D3C4CF99506DC467E2E7CFB">
-     <li id="li_EA646722A51041CC9E62C56DEF92C81F">隱藏: 連結目前位在頁面中，但未顯示給您看到 (例如在頁面載入後才會顯示的連結)。 </li>
-     <li id="li_F9543614C2894003AC9984A7404E2785">顯示: 連結目前顯示在頁面上。但有可能顯示在下半部，您必須捲動頁面才看得到。 </li>
+     <li id="li_EA646722A51041CC9E62C56DEF92C81F">隱藏：連結目前位在頁面中，但未顯示給您看到 (例如在頁面載入後才會顯示的連結)。 </li>
+     <li id="li_F9543614C2894003AC9984A7404E2785">顯示：連結目前顯示在頁面上。但有可能顯示在下半部，您必須捲動頁面才看得到。 </li>
     </ul></td> 
   </tr> 
  </tbody> 
