@@ -3,7 +3,7 @@ description: 可讓您在 Activity Map 中套用多區段篩選。
 title: 客戶分段
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
