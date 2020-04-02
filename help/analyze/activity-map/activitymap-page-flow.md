@@ -3,7 +3,7 @@ description: 「頁面細節」索引標籤會以表格顯示頁面報表，並�
 title: 頁面細節
 topic: Activity map
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
