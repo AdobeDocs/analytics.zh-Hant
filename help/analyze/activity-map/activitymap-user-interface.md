@@ -3,7 +3,7 @@ description: 'Activity Map UI 由兩部分組成 '
 title: Activity Map 使用者介面
 topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # Activity Map 使用者介面
 
-Activity Map UI 由兩部分組成:
+Activity Map UI 由兩部分組成：
 
 * 上方視窗包含網頁、插入的覆蓋圖以及工具列。
 * 下方面板提供報表。
@@ -22,7 +22,7 @@ Activity Map UI 由兩部分組成:
 
 ![](assets/top_panel.png)
 
-將滑鼠暫留在每個連結覆蓋圖上，可以存取其他連結詳細資料:
+將滑鼠暫留在每個連結覆蓋圖上，可以存取其他連結詳細資料：
 
 ## 下方報表面板 {#section_21B129D69B7A4F918E975E8E66DB02EE}
 
