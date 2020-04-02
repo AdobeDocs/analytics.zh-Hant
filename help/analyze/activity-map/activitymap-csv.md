@@ -3,7 +3,7 @@ description: 在標準模式中，可從 Activity Map 匯出 Analytics 資料至
 title: 匯出至 CSV 檔案
 topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 按一下 Activity Map 工具列上的「匯出」圖示。
 
-Activity Map 會根據 Adobe Analytics 頁面名稱而產生檔案名稱，並附加上日期和時間戳記: Pagename_DateTime.csv。這個檔案會儲存在對應瀏覽器的預設下載目錄中。
+Activity Map 會根據 Adobe Analytics 頁面名稱而產生檔案名稱，並附加上日期和時間戳記：Pagename_DateTime.csv。這個檔案會儲存在對應瀏覽器的預設下載目錄中。
 
 | 匯出資訊 | 說明 |
 |---|---|
