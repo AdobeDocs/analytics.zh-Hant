@@ -3,7 +3,7 @@ description: 在 Activity Map 或舊版 ClickMap 中停止連結追蹤的步驟�
 title: 停止連結追蹤
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> Activity Map </td> 
-   <td colname="col2"> 移除 Appmeasurement.js 檔案中的下列內容: 
+   <td colname="col2"> 移除 Appmeasurement.js 檔案中的下列內容： 
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
@@ -40,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (舊稱 Visitor ClickMap) </td> 
-   <td colname="col2"> <p>將 <a href="https://marketing.adobe.com/resources/help/en_US/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 變數設定為 false (此為預設值)。語法如下: 
+   <td colname="col2"> <p>將 <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/trackInlineStats.html"  >trackInlineStats</a> 變數設定為 false (此為預設值)。語法如下：
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
