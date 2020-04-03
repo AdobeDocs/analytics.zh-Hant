@@ -3,7 +3,7 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics檔案儲存庫的重要更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 8228b44a6877bee8668e0177cc84a3928ce6c820
+source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 6 月 10 日 | [中國地區資料收集](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/rdc-china.html)的相關新文章 |
 | 2019 年 6 月 4 日 | 全新指南已撰寫完畢，標題為[從協力廠商的分析平台改用 Adobe Analytics](/help/technotes/ga-to-aa/home.md)。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
-| 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faqs/optimizing-performance.md)。 |
+| 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 大幅更新[地區資料收集](/help/technotes/rdc/regional-data-collection.md)。 |
 | 2019 年 2 月 7 日 | 微幅更新[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)中的「將 IP 位址的最後八位數字取代為 0 」和「IP 模糊化」設定。 |
 | 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 實作外掛程式。 |
