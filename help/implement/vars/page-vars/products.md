@@ -1,57 +1,57 @@
 ---
 title: products
-description: 傳送顯示或顯示在購物車中的產品相關資料。
+description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # products
 
-變數 `products` 會追蹤與其關聯的產品和屬性。 此變數通常設定在個別產品頁面、購物車頁面和購買確認頁面上。 此變數為多值變數，這表示您可以在相同點擊中傳送多個產品，而Adobe會將值剖析為個別的維度值。
+`products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。其為多值變數，這表示您可以在同一次點擊中傳送多個產品，而 Adobe 會將值解析為個別的維度值。
 
-> [!NOTE] 如果此變數在點擊中設定，而變數中沒有購物車事 [`events`](events/events-overview.md) 件，「產品檢視」量度會增加1。 請確定您在每次點擊時設定了適當的購物車事件。
+>[!NOTE] 如果您將此變數設定於點擊中，但 [`events`](events/events-overview.md) 變數中沒有購物車事件，則「產品檢視」量度會增加 1。請務必在每次點擊時設定適當的購物車事件。
 
-## Adobe Experience Platform Launch中的產品
+## Adobe Experience Platform Launch 中的產品
 
-Launch中沒有專用欄位可設定此變數；不過，有多個協力廠商擴充功能可提供協助。
+Launch 中沒有專用欄位可設定此變數。不過，有多個第三方擴充功能可提供協助。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Extensions] ，然後按一下以 [!UICONTROL Catalog] 查看所有可用的擴充功能。
-4. 搜尋詞&quot;product&quot;，此詞會顯示數個可用來協助設定此變數的擴充功能。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
+4. 搜尋 &quot;product&quot; 一字，幾個可用來協助設定此變數的擴充功能隨即會顯示。
 
-您可以使用其中一個擴充功能，或依照下方的AppMeasurement語法使用自訂程式碼編輯器。
+您可以使用其中一個擴充功能，或依照下方的 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.products
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.products
 
-變 `s.products` 數是字串，每個產品包含多個分隔欄位。 每個產品在所有欄位中最多可包含100個位元組。 在字串中以分號(`;`)分隔每個欄位。
+`s.products` 變數是字串，其中包含每個產品個別擁有的多個分隔欄位。每個產品在所有欄位中最多可包含 100 個位元組。在字串中以分號 (`;`) 分隔每個欄位。
 
-* **類別** （選用）:總體產品類別。 您的組織會決定如何將產品分組為類別。
-* **產品名稱** （必要）:產品名稱。
-* **數量** （可選）:購物車中有多少個此產品。 此欄位僅適用於購買事件的點擊。
-* **價格** （可選）:產品總價小數。 如果數量超過一個，請將價格設定為總價，而非個別產品價格。 對齊此值的貨幣以符合變 [`currencyCode`](../config-vars/currencycode.md) 數。 請勿在此欄位中加入貨幣符號。 此欄位僅適用於購買事件的點擊。
-* **事件** （可選）:系結至產品的事件。 使用垂直號(`|`)分隔多個事件。 如需詳 [細資訊](events/events-overview.md) ，請參閱事件。
-* **eVar** （選用）:系結至產品的銷售eVar。 使用管道(`|`)分隔多個銷售eVar。 如需詳 [細資訊，請參閱](../../../components/c-variables/c-merch-variables/var-merchandising.md) 「銷售eVar」。
+* **類別** (選用)：包羅萬象的產品類別。產品的分門別類由貴組織決定。
+* **產品名稱** (必要)：產品的名稱。
+* **數量** (選用)：此產品在購物車內的數量有多少。此欄位僅適用於購買事件的點擊。
+* **價格** (選用)：小數形式的產品總價。如果數量超過一個，請將價格設定為總價，而非個別產品價格。調整此值的貨幣，使其與 [`currencyCode`](../config-vars/currencycode.md) 變數相符。請勿在此欄位中加入貨幣符號。此欄位僅適用於購買事件的點擊。
+* **事件** (選用)：與產品相連結的事件。請使用垂直號 (`|`) 分隔多個事件。如需詳細資訊，請參閱[事件](events/events-overview.md)。
+* **eVar** (選用)：與產品相連結的銷售 eVar。請使用垂直號 (`|`) 分隔多個銷售 eVar。如需詳細資訊，請參閱[銷售 eVar](../../../components/c-variables/c-merch-variables/var-merchandising.md)。
 
 ```js
 // Set a single product using all available fields
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此變數支援相同點擊中的多個產品。 它對於購物車和包含多種產品的購買非常有價值。 雖然每個產品有100位元組的限制，但變數的總長 `products` 度為64K。 在字串中以逗號(`,`)分隔每個產品。
+此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。雖然每項產品有 100 個位元組的限制，但 `products` 變數的總長度為 64K。請在字串中以逗號 (`,`) 分隔每項產品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
-> [!IMPORTANT] 從產品名稱、類別和銷售eVar值中去除所有分號、逗號和垂直線。 如果產品名稱包含逗號，AppMeasurement會將其剖析為新產品的開始。 這個錯誤的剖析會拋出產品字串的其餘部分，導致維度和報表中的資料不正確。
+>[!IMPORTANT] 從產品名稱、類別和銷售eVar值中去除所有分號、逗號和垂直線。 如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
 
 ## 範例
 
-在省略 `products` 欄位並包含多個產品時，變數是有彈性的。 這種彈性可讓您輕鬆遺漏分隔字元，而分隔字元會導致您的實作傳送不正確的資料給Adobe。
+在省略欄位及納入多個產品時，`products` 變數是有彈性的。這種彈性可能會導致您很容易遺漏分隔字元，致使實施傳送錯誤的資料給 Adobe。
 
 ```js
 // Include only product and category. Common on individual product pages
