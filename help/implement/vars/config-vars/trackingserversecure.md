@@ -1,39 +1,39 @@
 ---
 title: trackingServerSecure
-description: 確定在HTTPS頁面上傳送的位置影像要求。
+description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # trackingServerSecure
 
-Adobe會接收訪客產生的影像要求，以收集您網站上的資料。 變 `trackingServerSecure` 數會決定透過HTTPS傳送影像要求的位置。 它也會決定訪客Cookie的儲存位置。 如果此變數未正確定義，您的實作可能會遭遇資料遺失。
+Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料。`trackingServerSecure` 變數能決定透過 HTTPS 傳送影像要求的位置。它也能決定訪客 Cookie 的儲存位置。如果此變數未正確定義，您的實施可能會遭遇資料遺失。
 
-> [!IMPORTANT] 變更此值會讓AppMeasurement尋找不同位置的Cookie。 獨特訪客計數會隨著訪客Cookie設定在新位置，在報告中暫時尖峰。
+>[!IMPORTANT] 變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的獨特訪客計數可能會暫時激增。
 
-## Adobe Experience Platform Launch中的SSL追蹤伺服器
+## Adobe Experience Platform Launch 中的 SSL 追蹤伺服器
 
 [!UICONTROL SSL Tracking Server] 是設定Adobe Analytics擴充功 [!UICONTROL General] 能時accordion下方的欄位。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Extensions] ，然後按一下「Adobe Analytics [!UICONTROL Configure] 」下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展開accordion [!UICONTROL General] ，以顯示欄 [!UICONTROL SSL Tracking Server] 位。
 
-如果此欄位留空，則預設為變數中的 [`trackingServer`](trackingserver.md) 值。
+如果此欄位留空，其預設值為 [`trackingServer`](trackingserver.md) 變數中的值。
 
-## AppMeasurement中的s.trackingServerSecure和Launch自訂代碼編輯器
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.trackingServerSecure
 
-變 `s.trackingServerSecure` 數是包含傳送影像要求之位置的字串。 它幾乎永遠是您網站的子網域。 瀏覽器中的現代隱私權實務通常會使協力廠商Cookie不可靠。 如果此變數為空白，則會使用變數中的 `s.trackingServer` 值。
+`s.trackingServerSecure` 變數是包含影像要求傳送位置的字串。它幾乎永遠是您網站的子網域。瀏覽器中的現代化隱私實務通常會使第三方 Cookie 變得不可靠。如果此變數留空，其會使用 `s.trackingServer` 變數中的值。
 
-此變數的值幾乎一律為第一方網域，例如 `data.example.com`。 如需 [有關第一方Cookie程式的詳細資訊，請參閱核心服務使用指南中](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html) Experience Cloud的第一方Cookie。
+此變數的值幾乎永遠是第一方網域，例如 `data.example.com`。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
 
-最初設定第一方Cookie實作的個人也會定義使用的網域和子網域。 例如:
+最初設定第一方 Cookie 實施的個人，也會定義使用的網域和子網域。例如：
 
 ```js
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME記錄通常指向上的子網域 `ssl.d1.sc.omtrdc.net`。
+CNAME 記錄通常會指向 `ssl.d1.sc.omtrdc.net` 上的子網域。
