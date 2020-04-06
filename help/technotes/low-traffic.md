@@ -3,8 +3,8 @@ description: 當報表中有大量不重複值時，Adobe 提供的功能可確�
 title: Adobe Analytics 中的低流量值
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    * 如果值已存在於報表中，則照常新增該值。
    * 如果值尚未顯示在報表中，則檢查該值當天是否有顯示超過 100 次左右。如果有，則將該值新增至報表。如果沒有，則將其保留在低流量下。
 
-> [!NOTE] 如果變數值收到足夠的流量而離開低流量貯體，則收集的第一個值不會移至其個別的行項目。前 10-100 個例項仍會維持在低流量下方。
+>[!NOTE] 如果變數值收到足夠的流量而離開低流量貯體，則收集的第一個值不會移至其個別的行項目。前 10-100 個例項仍會維持在低流量下方。
 
 ## 變更不重複限制臨界值
 
