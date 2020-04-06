@@ -5,7 +5,7 @@ title: 關於子分類
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 
 Adobe Analytics支援單級和多級分類模型。 分類階層可以讓您將分類套用到分類。
 
-> [!NOTE] 子分類表示在分類中建立分類的能力。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 如需分類階層的詳細資訊，請參閱[分類階層](classification-hierarchies.md)。
+>[!NOTE] 子分類表示在分類中建立分類的能力。However, this is not the same as a [!UICONTROL Classification Hierarchy] used to create [!UICONTROL Hierarchy] reports. 如需分類階層的詳細資訊，請參閱[分類階層](classification-hierarchies.md)。
 
 例如：
 
@@ -52,7 +52,7 @@ For more information about the data file, see [Classification Data Files](/help/
 
 雖然多級分類的檔案範本比較複雜，但多級分類的強大功能是，可將個別層級上傳為個別檔案。 此方法可用來將資料分組為可隨著時間改變的分類層級，而不是不需要定期（每日、每週等）上傳的資料量，以將之減至最少。
 
-> [!NOTE] 如果資 [!UICONTROL Key] 料檔案中的欄空白，Adobe會自動為每個資料列產生唯一的索引鍵。 為避免在上傳含第二級或更高級分類資料的資料檔案時造成檔案損毀，請在欄的每一列填入星號(*) [!UICONTROL Key] 。
+>[!NOTE] 如果資 [!UICONTROL Key] 料檔案中的欄空白，Adobe會自動為每個資料列產生唯一的索引鍵。 為避免在上傳含第二級或更高級分類資料的資料檔案時造成檔案損毀，請在欄的每一列填入星號(*) [!UICONTROL Key] 。
 
 如需疑難排解說明，請參閱「[常見的分類上傳問題](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-common-saint-upload-issues)」。
 
