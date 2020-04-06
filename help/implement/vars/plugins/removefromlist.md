@@ -1,53 +1,53 @@
 ---
 title: rfl
-description: 從字元分隔字串移除特定值。
+description: 從字元分隔字串中移除特定值。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：rfl（從清單中刪除）
+# Adobe 外掛程式：rfl (從清單中刪除)
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外掛 `rfl` 程式可讓您「安全」地從分隔字串移除值， [`events`](../page-vars/events/events-overview.md)[`products`](../page-vars/products.md)例如、 [`list`](../page-vars/list.md)和其他。 如果您想從分隔字串移除特定值，而不需擔心分隔字元，此外掛程式會很有用。 其他數個外掛程式則依賴此程式碼才能正確執行。 如果您不需要一次對多個Analytics變數執行特定函式，或您未使用任何相依外掛程式，則不需要此外掛程式。
+The `rfl` plug-in allows you to &quot;safely&quot; remove values from delimited strings, such as [`events`](../page-vars/events/events-overview.md), [`products`](../page-vars/products.md), [`list`](../page-vars/list.md), and others. 如果您想從分隔字串中移除特定值，而不想顧慮分隔字元，此外掛程式非常實用。其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
 
-外掛程式使用下列邏輯：
+此外掛程式使用下列邏輯：
 
-* 如果您要移除的值存在，外掛程式會保留變數中除要移除的值以外的所有項目。
+* 如果您要移除的值存在，外掛程式會保留變數中除了待移除值以外的所有內容。
 * 如果您要移除的值不存在，外掛程式會將原始字串維持原狀。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化RFP（從清單中刪除）
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 RFP (從清單中刪除)
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -58,19 +58,19 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 
 ## 使用外掛程式
 
-該方 `rfl` 法使用以下引數：
+`rfl` 方法使用以下引數：
 
-* **`lv`** （必要，字串）:包含分隔值清單的變數（或字串）
-* **`vr`** （必要，字串）:您要從引數中移除的 `lv` 值。 Adobe建議您不要在單一呼叫期間移除多個 `rfl` 值。
-* **`d1`** （可選，字串）:引數使用的 `lv` 分隔字元。 預設為逗號(`,`)。
-* **`d2`** （可選，字串）:您要使用傳回字串的分隔字元。 預設為與引數相同的 `d1` 值。
-* **`df`** （可選，布林）:如 `true`果，則僅強制從引數中重複 `vr` 執行個 `lv` 體，而非所有執行個體。 預設為 `false` 未設定時。
+* **`lv`** (必要，字串)：包含分隔值清單的變數 (或字串)
+* **`vr`** (必要，字串)：您要從 `lv` 引數中移除的值。Adobe 建議您不要在 `rfl` 單一呼叫期間移除多個值。
+* **`d1`** (選用，字串)：`lv` 引數使用的分隔字元。預設為逗號 (`,`)。
+* **`d2`** (選用，字串)：您要讓傳回字串使用的分隔字元。預設為與 `d1` 引數相同的值。
+* **`df`** (選用，布林值)：如果為 `true`，則僅強制從 `lv` 引數中複製 `vr` 引數的例項，而非所有例項。若未設定，則預設為 `false`。
 
-呼叫此方法會傳回包含引數的修 `lv` 改字串，但不會傳回在引數中指定值的例項（或重複例項） `vr` 。
+呼叫此方法會傳回包含 `lv` 引數的修改字串，但字串中不包含 `vr` 引數中所指定值的任何例項 (或重複例項)。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
 若...
 
@@ -78,19 +78,19 @@ s.rfl=function(lv,vr,d1,d2,df){if(!lv||!vr)return"";var d=[],b="";d2=d2?d2:d1;df
 s.events = "event22,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event24");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event25";
 ```
 
-### 範例#2
+### 範例 #2
 
 若...
 
@@ -98,21 +98,21 @@ s.events = "event22,event25";
 s.events = "event22,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event26");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event24,event25";
 ```
 
-在此範例中，rfl呼叫對s.events未做任何變更，因為s.events不包含&quot;event26&quot;
+在此範例中，rfl 呼叫沒有對 s.events 做任何變更，因為 s.events 中不包含「event26」
 
-### 範例#3
+### 範例 #3
 
 若...
 
@@ -120,21 +120,21 @@ s.events = "event22,event24,event25";
 s.events = "event22,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events);
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "";
 ```
 
-如果s.rfl呼叫中的lv引數或vr引數為空白，則外掛程式將不會傳回任何內容
+如果 s.rfl 呼叫中的 lv 引數或 vr 引數為空白，則外掛程式將不會傳回任何內容
 
-### 範例#4
+### 範例 #4
 
 若...
 
@@ -142,27 +142,27 @@ s.events = "";
 s.prop4 = "hello|people|today";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.eVar5 = s.rfl(s.prop4,"people","|");
 ```
 
-...s.prop4的最終值仍將是……
+...s.prop4 的最終值仍會是...
 
 ```js
 s.prop4 = "hello|people|today";
 ```
 
-...但s.eVar5的最終值將是：
+...但 s.eVar5 的最終值將為：
 
 ```js
 s.eVar5 = "hello|today";
 ```
 
-請記住，外掛程式只會傳回值；它實際上不會「重設」透過lv引數傳入的變數。
+請記得，外掛程式只會傳回值，實際上並不會「重設」透過 lv 引數傳入的變數。
 
-### 範例#5
+### 範例 #5
 
 若...
 
@@ -170,21 +170,21 @@ s.eVar5 = "hello|today";
 s.prop4 = "hello|people|today";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.prop4 = s.rfl(s.prop4,"people");
 ```
 
-...s.prop4的最終值仍將是……
+...s.prop4 的最終值仍會是...
 
 ```js
 s.prop4 = "hello|people|today";
 ```
 
-在lv引數值包含與預設值不同的分隔字元（即逗號）時，請務必設定d1引數。
+若 lv 引數值包含與預設值不同的分隔字元 (即逗號)，請務必設定 d1 引數。
 
-### 範例#6
+### 範例 #6
 
 若...
 
@@ -192,21 +192,21 @@ s.prop4 = "hello|people|today";
 s.events = "event22,event23,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"EVenT23");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event23,event25";
 ```
 
-雖然此範例不實用，但它顯示需要傳入區分大小寫的值。
+雖然此範例並不實際，但呈現出傳入區分大小寫值的必要性。
 
-### 範例#7
+### 範例 #7
 
 若...
 
@@ -214,19 +214,19 @@ s.events = "event22,event23,event25";
 s.events = "event22,event23:12345,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event25";
 ```
 
-### 範例#8
+### 範例 #8
 
 若...
 
@@ -234,21 +234,21 @@ s.events = "event22,event25";
 s.events = "event22,event23:12345,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23:12345");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event23:12345,event25";
 ```
 
-當您需要移除使用序列化及／或數值／貨幣語法的事件時，您應在s.rfl呼叫中僅指定事件本身（亦即沒有序列化／數值／貨幣值）。
+需要移除使用序列化及/或數值/貨幣語法的事件時，應在 s.rfl 呼叫中僅指定事件本身 (亦即不含序列化/數值/貨幣值)。
 
-### 範例#9
+### 範例 #9
 
 若...
 
@@ -256,19 +256,19 @@ s.events = "event22,event23:12345,event25";
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event24,event25");
 ```
 
-### 範例#10
+### 範例 #10
 
 若...
 
@@ -276,19 +276,19 @@ s.events = "event22,event24,event25");
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23", "", "",true);
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event23,event24,event25");
 ```
 
-### 範例#11
+### 範例 #11
 
 若...
 
@@ -296,19 +296,19 @@ s.events = "event22,event23,event24,event25");
 s.events = "event22,event23,event23,event23,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23", "", "|",true);
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22|event23|event24|event25");
 ```
 
-### 範例#12
+### 範例 #12
 
 若...
 
@@ -316,21 +316,21 @@ s.events = "event22|event23|event24|event25");
 s.events = "event22,event23,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23,event24");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event23,event24,event25";
 ```
 
-不支援在vr參數中設定多個值。 上述範例中的rfl邏輯會先分割lv引數（即s.events）中的值，然後嘗試將每個分隔值與完整vr引數值(即&quot;event23,event24&quot;)。
+不支援在 vr 引數中設定多個值。上述範例中，rfl 邏輯會先分割 lv 引數 (即 s.events) 中的值，然後嘗試比對每個分隔值與完整 vr 引數值 (即「event23,event24」)。
 
-### 範例#13
+### 範例 #13
 
 若...
 
@@ -338,22 +338,22 @@ s.events = "event22,event23,event24,event25";
 s.events = "event22,event23,event24,event25";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.events = s.rfl(s.events,"event23");
 s.events = s.rfl(s.events,"event24");
 ```
 
-...s.events的最終值為：
+...s.events 的最終值將為：
 
 ```js
 s.events = "event22,event25");
 ```
 
-從清單中移除的每個值都應包含在其自己的s.rfl呼叫中。
+從清單中移除的每個值都應包含在其自己的 s.rfl 呼叫中。
 
-### 範例#14
+### 範例 #14
 
 若...
 
@@ -361,21 +361,21 @@ s.events = "event22,event25");
 s.linkTrackVars = "events,eVar1,eVar2,eVar3";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.linkTrackVars = s.rfl(s.linkTrackVars,"eVar2", ",", ",", false);
 ```
 
-...s.linkTrackVars的最終值將是：
+...s.linkTrackVars 的最終值將為：
 
 ```js
 s.linkTrackVars = "events,eVar1,eVar3";
 ```
 
-最後三個論點(即&quot;,&quot;,&quot;,&quot;,false)不是必要的，但是也不會因為存在而「傷害任何東西」，因為它們符合預設設定。
+此 s.rfl 呼叫結尾的最後三個引數 (即「,」、「,」、false) 並非必要，但是也不會因為存在而「影響任何項目」，因為它們符合預設設定。
 
-### 範例#15
+### 範例 #15
 
 若...
 
@@ -383,31 +383,31 @@ s.linkTrackVars = "events,eVar1,eVar3";
 s.events = "event22,event23,event24";
 ```
 
-...下列程式碼會執行……
+...且下列程式碼執行...
 
 ```js
 s.rfl(s.events,"event23");
 ```
 
-...s.events的最終值仍為：
+...s.events 的最終值仍會是：
 
 ```js
 s.events = "event22,event23,event24";
 ```
 
-請記住，外掛程式只會傳回值；它實際上不會「重設」透過lv引數傳入的變數。
+再次強調，請記得，外掛程式只會傳回值，實際上並不會「重設」透過 lv 引數傳入的變數。
 
 ## 版本記錄
 
-### 2.01（2019年9月17日）
+### 2.01 (2019 年 9 月 17 日)
 
-* 預設分隔字元值的次要錯誤修正
+* 預設分隔字元值的微幅錯誤修正
 
-### 2.0（2018年4月16日）
+### 2.0 (2018 年 4 月 16 日)
 
-* 點數發行（重新編譯，程式碼大小較小）。
-* 已移除外掛程 `join` 式的需求。
+* 單點發行 (重新編譯，程式碼大小較小)。
+* 移除 `join` 外掛程式的必要性。
 
-### 1.0（2016年7月18日）
+### 1.0 (2016 年 7 月 18 日)
 
 * 首次發行。
