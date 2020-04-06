@@ -2,7 +2,7 @@
 title: eVar
 description: 可在實施中使用的自訂變數。
 translation-type: tm+mt
-source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 eVar 是自訂變數，您可以視需要使用。
 
-> [!TIP] Adobe 建議您在大部分情況下使用 eVar 來取代 prop。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
+>[!TIP] Adobe 建議您在大部分情況下使用 eVar 來取代 prop。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
 
 請務必將每個 eVar 的使用方式與其邏輯記錄在[解決方案設計文件](../../prepare/solution-design.md)內。
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar 計數器不能包含負數。
 
-> [!IMPORTANT] 您必須先在管理控制台中將eVar設定為&#39;Counter&#39;，才能使用計數器eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+>[!IMPORTANT] 您必須先在管理控制台中將eVar設定為&#39;Counter&#39;，才能使用計數器eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 ## prop 或 eVar 的獨特優點
 
