@@ -1,16 +1,16 @@
 ---
 title: dc
-description: 可讓您決定要使用哪個資料中心的淘汰變數。
+description: 已淘汰的變數，用於決定要使用哪個資料中心。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dc
 
-> [!IMPORTANT] 此變數已停用。 請改 [`trackingServer`](trackingserver.md) 用。
+>[!IMPORTANT] 此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
 
-在舊版Adobe Analytics中，Adobe要求您指定要傳送資料至哪個資料中心。 將點擊傳送到錯誤的資料中心會導致資料遺失。
+在舊版 Adobe Analytics 中，Adobe 要求您指定要將資料傳送至哪個資料中心。將點擊傳送到錯誤的資料中心會導致資料遺失。
 
-Adobe已透過允許任何實作傳送點擊至來改善此體驗 `sc.omtrdc.net`。 不再需要指定資料中心。
+Adobe 已允許所有實施將點擊傳送至 `sc.omtrdc.net` 以改善此體驗。現已無需指定資料中心。
