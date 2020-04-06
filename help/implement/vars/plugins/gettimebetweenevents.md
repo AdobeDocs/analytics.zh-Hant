@@ -1,48 +1,48 @@
 ---
 title: getTimeBetweenEvents
-description: 測量兩個事件之間的時間量。
+description: 測量兩個事件之間的時間長度。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：getTimeBetweenEvents
+# Adobe 外掛程式：getTimeBetweenEvents
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外掛 `getTimeBetweenEvents` 程式可讓您追蹤任何兩個Analytics事件（包括購物車和自訂事件）之間的時間長度。 在追蹤結帳程式完成或您想測量時間的任何其他程式所花費的時間時，此功能十分有用。 如果您沒有任何想測量轉換所需時間的轉換程式，則此外掛程式是不必要的。
+`getTimeBetweenEvents` 外掛程式可讓您追蹤任兩個 Analytics 事件 (包括購物車和自訂事件) 之間的時間長度。若想追蹤完成結帳程序所花費的時間，或想測量任何其他程序所需的時間，此外掛程式十分有用。如果您沒有想要測量任何轉換程序所需的時間，就不需要此外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化getTimeBetweenEvents
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getTimeBetweenEvents
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,83 +59,83 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 ## 使用外掛程式
 
-該方 `getTimeBetweenEvents` 法使用以下引數：
+`getTimeBetweenEvents` 方法使用以下引數：
 
-* **`ste`** （必要，字串）:啟動計時器事件。 以逗號分隔的Analytics事件字串，以「啟動計時器」。
-* **`rt`** （必要，布林）:重新啟動計時器選項。 如果每 `true` 次變數包含啟動計時器事件時 `events` 要重新啟動計時器，則設定為。 如果 `false` 您不希望計時器在看到啟動計時器事件時重新啟動，則設定為。
-* **`stp`** （必要，字串）:停止計時器事件。 逗號分隔的Analytics事件字串，「停止計時器」。
-* **`res`** （必要，布林）:重設計時器選項。 如果 `true` 要記錄計時器啟動後的時間，請設定為AND在計時器停止後重置計時器。 如果 `false` 您要記錄時間，但不要停止計時器，請設定為。 如果設定為 `false`，則計時器在事件變數記錄停止事件後繼續運行。
-   > [!TIP] 如果您將此引數設為 `false`，強烈建議 `rte` 設定下方引數。
-* **`cn`** （可選，字串）:儲存第一個事件時間的Cookie名稱。 預設為 `"s_tbe"`。
-* **`etd`** （可選，整數）:Cookie的過期時間（以天為單位）。 設為 `0` 在瀏覽器作業結束時過期。 未設定時，預設為1天。
-* **`fmt`** （可選，字串）:秒數傳回的時間格式（預設為無）
-   * `"s"` 數秒
-   * `"m"` 幾分鐘
-   * `"h"` 數小時
-   * `"d"` 天
-   * 未設定時，返回值的格式基於以下規則：
-      * 只要不到一分鐘，就會四捨五入到最接近的5秒基準。 例如，10秒，15秒
-      * 一分鐘到一小時之間的任何內容都會四捨五入至最接近的1/2分鐘基準。 例如，30.5分鐘，31分鐘
-      * 一小時到一天之間的任何值，都會四捨五入至最接近的四分之一小時基準值。 例如，2.25小時，3.5小時
-      * 任何大於一天的項目都會四捨五入至最接近的日期基準。 例如，1天、3天、9天
-* **`bml`** （可選，數字）:根據引數格式的捨入基準的長 `fmt` 度。 例如，如果引數 `fmt` 為且 `"s"` 此引數為 `2`，則返回值會四捨五入至最接近的2秒基準。 如果 `fmt` 引數 `"m"` 為且此引數為 `0.5`，則返回值會四捨五入至最接近的半分鐘基準。
-* **`rte`** （可選，字串）:移除或刪除計時器之Analytics事件的逗號分隔字串。 預設為無。
+* **`ste`** (必要，字串)：啟動計時器事件。用於「啟動計時器」的 Analytics 事件字串 (以逗號分隔)。
+* **`rt`** (必要，布林值)：重新啟動計時器選項。如果每次 `events` 變數包含啟動計時器事件時都需重新啟動計時器，則設為 `true`。如果您不希望計時器在看到啟動計時器事件時重新啟動，則設為 `false`。
+* **`stp`** (必要，字串)：停止計時器事件。用於「停止計時器」的 Analytics 事件字串 (以逗號分隔)。
+* **`res`** (必要，布林值)：重設計時器選項。如果要記錄計時器啟動後的時間，並在計時器停止後重設計時器，請設為 `true`。如果要記錄時間但不要停止計時器，請設為 `false`。如果設為 `false`，則計時器會在事件變數記錄停止事件後繼續執行。
+   > [!TIP] 如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
+* **`cn`** (選用，字串)：儲存第一個事件時間的 Cookie 名稱。預設為 `"s_tbe"`。
+* **`etd`** (選用，整數)：Cookie 的到期時間 (以天為單位)。設為 `0`，在瀏覽器作業階段結束時到期。若未設定，則預設為 1 天。
+* **`fmt`** (選用，字串)：傳回秒數的時間格式 (無預設值)
+   * `"s"` 代表秒數
+   * `"m"` 代表分鐘
+   * `"h"` 代表小時
+   * `"d"` 代表天數
+   * 若未設定，傳回值的格式會依據以下規則：
+      * 不到一分鐘的任何時間，都會捨入至最接近的 5 秒基準。例如 10 秒、15 秒。
+      * 一分鐘到一小時之間的任何時間，都會捨入至最接近的 1/2 分鐘基準。例如 30.5 分鐘、31分鐘
+      * 一小時到一天之間的任何時間，都會捨入至最接近的四分之一小時基準。例如 2.25 小時、3.5 小時
+      * 大於一天的任何時間，都會捨入至最接近的天數基準。例如 1 天、3 天、9 天
+* **`bml`** (選用，數字)：根據 `fmt` 引數格式的捨入基準長度。例如，如果 `fmt` 引數為 `"s"` 且此引數為 `2`，則傳回值會捨入至最接近的 2 秒基準。如果 `fmt` 引數為 `"m"` 且此引數為 `0.5`，則傳回值會捨入至最接近的半分鐘基準。
+* **`rte`** (選用，字串)：移除或刪除計時器的 Analytics 事件字串 (以逗號分隔)。無預設值。
 
-呼叫此方法會傳回一個整數，表示以所需格式顯示開始計時器事件和停止計時器事件之間的時間量。
+呼叫此方法會傳回一個整數，以所需格式表示啟動計時器事件和停止計時器事件之間的時間長度。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true, "", 0, "s", 2, "event3");
 ```
 
-...is configured to behace follows:
+...設為依照下列規則執行作業：
 
-* s.events包含event1時，計時器便會啟動。
-* 每次s.events包含event1時，計時器就會重新啟動
-* s.events包含event2時，計時器將停止
-* 每次s.events包含event2時，計時器都會重設（即移至0秒）
-* 當s.events包含event3或訪客關閉其瀏覽器時，計時器也會重設
-* 記錄event1和event2之間的實際時間時，外掛程式會將eVar1設定為兩個設定之間的秒數，四捨五入至最接近的2秒基準（例如0秒、2秒、4秒、10秒、184秒等）
-* 如果s.events在計時器啟動之前包含event2，則完全不會設定eVar1。
+* s.events 包含 event1 時，計時器便會啟動。
+* 每當 s.events 包含 event1 時，計時器都會重新啟動
+* s.events 包含 event2 時，計時器便會停止
+* 每當 s.events 包含 event2 時，計時器都會重設 (即回到 0 秒)
+* 當 s.events 包含 event 3 或訪客關閉其瀏覽器時，計時器也會重設
+* 記錄 event1 和 event2 之間的實際時間時，外掛程式會將 eVar1 設為等於所設定兩個事件之間的秒數，並捨入至最接近的 2 秒基準 (例如 0 秒、2 秒、4 秒、10 秒、184 秒等)
+* 如果計時器啟動之前 s.events 包含 event2，則完全不會設定 eVar1。
 
-### 範例#2
+### 範例 #2
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", false, "event2", false, "s_20", 20, "h", 1.5, "event3");
 ```
 
-...is configured to behace follows:
+...設為依照下列規則執行作業：
 
-* s.events包含event1時，計時器便會啟動。
-* 計時器不會在每次s.events包含event1時重新啟動，而原始計時器仍會繼續執行
-* s.events包含event2時，計時器不會停止，但外掛程式會記錄自記錄原始event1設定以來的時間
-* 計時器儲存在名為&quot;s_20&quot;的Cookie中
-* 只有在s.events包含event3時，或是自計時器啟動以來已經過20天時，計時器才會重設
-* 當記錄（原始）event1和event2之間的時間時，外掛程式會將eVar1設定為兩個設定之間的小時數，四捨五入至最接近的1 1/2小時基準（例如0小時、1.5小時、3小時、7.5小時、478.5小時等）
+* s.events 包含 event1 時，計時器便會啟動。
+* 該計時器不會在每次 s.events 包含 event1 時重新啟動，而原始計時器仍會繼續執行
+* s.events 包含 event2 時，計時器不會停止，但外掛程式會記錄自記錄原始 event1 設定以來的時間
+* 計時器儲存在名為「s_20」的 Cookie 中
+* 只有在 s.events 包含 event3 時，或是自計時器啟動以來已經過 20 天，計時器才會重設
+* 記錄 (原始) event1 和 event2 之間的時間時，外掛程式會將 eVar1 設為等於所設定兩個事件之間的小時數，並捨入至最接近的 1 又 1/2 小時基準 (例如 0 小時、1.5 小時、3 小時、7.5 小時、478.5 小時等)
 
-### 範例#3
+### 範例 #3
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.eVar1 = s.getTimeBetweenEvents("event1", true, "event2", true);
 ```
 
-...將產生與上述第一個範例類似的結果；不過，eVar1的值會在秒、分鐘、小時或天內傳回，視計時器的最終長度而定。  此外，計時器將在首次設定後1天過期，而非訪客關閉其瀏覽器時。
+...將產生與上述第一個範例類似的結果，不過傳回的 eVar1 值格式可能為秒、分鐘、小時或天，視計時器的最終長度而定。此外，計時器將在首次設定後 1 天到期，而非訪客關閉其瀏覽器時。
 
 ## 版本記錄
 
-### 2.1（2018年5月26日）
+### 2.1 (2018 年 5 月 26 日)
 
-* 適應對新版外掛程式所做 `formatTime` 的變更。
+* 因應新版 `formatTime` 外掛程式的變更進行調整。
 
-### 2.0（2018年4月6日）
+### 2.0 (2019 年 4 月 6 日)
 
-* 外掛程式的完整重寫／重新分析。
+* 外掛程式全面重寫/重新分析。
