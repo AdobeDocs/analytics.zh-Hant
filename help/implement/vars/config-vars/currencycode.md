@@ -2,39 +2,39 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # currencyCode
 
-對於使用商務的網站，收入和貨幣是Analytics的重要組成部分。 許多網站，尤其是橫跨多個國家的網站，都使用不同的貨幣。 使用變 `currencyCode` 數可確保收入屬性為正確的貨幣。
+對使用商務功能的網站而言，收入和貨幣是 Analytics 的重要一環。許多網站使用不同的貨幣，尤其是橫跨多國的網站。使用 `currencyCode` 變數可確保將收入歸因於正確的貨幣。
 
-如果 `currencyCode` 未定義，定義變數和貨幣事 [`products`](../page-vars/products.md) 件的貨幣值會被視為與報表套裝的貨幣相同。 請參 [閱「管理員使用指南](/help/admin/admin/general-acct-settings-admin.md) 」中的「一般帳戶設定」，以查看報表套裝的貨幣。
+如果沒有定義 `currencyCode`，系統會將定義了 [`products`](../page-vars/products.md) 變數和貨幣事件的貨幣值視為與報表套裝相同的貨幣。請參閱管理員使用手冊中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)，查看報表套裝的貨幣。
 
-如果 `currencyCode` 已定義並符合報表套裝的貨幣，則不會套用貨幣轉換。
+如果已定義 `currencyCode` 且與報表套裝的貨幣相同，則不會套用貨幣轉換。
 
-如 `currencyCode` 果已定義且與報表套裝的貨幣不同，Adobe會根據當天的匯率套用貨幣兌換。 Adobe與 [XE合作](https://xe.com) ，每天兌換貨幣。 所有儲存在資料收集伺服器中的值，最終都會儲存在報表套裝的貨幣中。
+如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。所有儲存在資料彙集伺服器中的值，最終都會以報表套裝的貨幣儲存。
 
-> [!IMPORTANT] 如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。 若您在實作中使用此變數，請確定此變數已正確定義。
+>[!IMPORTANT] 如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。若您會在實施中使用此變數，請確定已正確定義此變數。
 
-此變數不會在點擊之間持續存在。 請確定此變數已定義於每個涉及收入或貨幣事件的頁面上。
+此變數不會在點擊之間持續存在。請確定已在每個涉及收入或貨幣事件的頁面上定義此變數。
 
-## Adobe Experience Platform Launch中的貨幣代碼
+## Adobe Experience Platform Launch 中的貨幣代碼
 
-貨幣代碼是設定Adobe Analytics擴充功 [!UICONTROL General] 能時accordion下的欄位。
+Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Extensions] ，然後按一下「Adobe Analytics [!UICONTROL Configure] 」下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
 4. 展開accordion [!UICONTROL General] ，以顯示欄 [!UICONTROL Currency Code] 位。
 
-您可以使用預設貨幣代碼或自訂貨幣代碼。 如果使用自訂貨幣代碼，請確定代碼有效。
+您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.currencyCode
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.currencyCode
 
-變 `s.currencyCode` 數是字串，包含代表頁面貨幣的3個字母大寫代碼。
+`s.currencyCode` 變數為字串，包含代表頁面上貨幣的 3 個大寫字母代碼。
 
 ```js
 s.currencyCode = "USD";
@@ -48,42 +48,42 @@ s.currencyCode = "USD";
 | `AFA` | 阿富汗尼 |
 | `ALL` | 阿爾巴尼亞列克 |
 | `AMD` | 亞美尼亞德拉姆 |
-| `ANG` | 荷屬盾 |
-| `AOA` | 安哥拉寬扎 |
-| `ARS` | 阿根廷比索 |
+| `ANG` | 荷蘭盾 |
+| `AOA` | 安哥拉匡撒 |
+| `ARS` | 阿根廷披索 |
 | `AUD` | 澳大利亞元 |
 | `AWG` | 阿魯巴盾 |
-| `AZM` | 阿塞拜疆馬納特 |
-| `BAM` | 波斯尼亞和黑塞格維那可兌換馬克 |
-| `BBD` | 巴巴多斯元 |
+| `AZM` | 亞塞拜然新馬納特 |
+| `BAM` | 波士尼亞與赫塞哥維納波赫馬克 |
+| `BBD` | 巴貝多元 |
 | `BDT` | 孟加拉塔卡 |
 | `BGN` | 保加利亞列弗 |
-| `BHD` | 巴林第納爾 |
-| `BIF` | 布隆迪法郎 |
+| `BHD` | 巴林迪納 |
+| `BIF` | 蒲隆地法郎 |
 | `BMD` | 百慕達元 |
 | `BND` | 汶萊元 |
 | `BOB` | 玻利維亞諾 |
-| `BRL` | 巴西巴幣 |
+| `BRL` | 巴西黑奧 |
 | `BSD` | 巴哈馬元 |
-| `BTN` | 不丹努紮姆 |
-| `BWP` | 博茨瓦納普拉 |
+| `BTN` | 不丹那特倫 |
+| `BWP` | 波札那納普拉 |
 | `BYR` | 白俄羅斯盧布 |
-| `BZD` | 伯利茲元 |
+| `BZD` | 貝里斯元 |
 | `CAD` | 加拿大元 |
 | `CDF` | 剛果／金夏沙法郎 |
 | `CHF` | 瑞士法郎 |
-| `CLP` | 智利比索 |
+| `CLP` | 智利披索 |
 | `CNY` | 中國人民幣 |
-| `COP` | 哥倫比亞比索 |
-| `CRC` | 哥斯大黎加科朗 |
-| `CSD` | 塞爾維亞第納爾 |
-| `CUP` | 古巴比索 |
-| `CVE` | 佛得角埃斯庫多 |
-| `CYP` | 賽普勒斯鎊 |
+| `COP` | 哥倫比亞披索 |
+| `CRC` | 哥斯大黎加科隆 |
+| `CSD` | 塞爾維亞戴納 |
+| `CUP` | 古巴披索 |
+| `CVE` | 維德角埃斯庫多 |
+| `CYP` | 賽浦路斯鎊 |
 | `CZK` | 捷克共和國克朗 |
 | `DJF` | 吉布提法郎 |
 | `DKK` | 丹麥克朗 |
-| `DOP` | 多明尼加共和國比索 |
+| `DOP` | 多明尼加共和國披索 |
 | `DZD` | 阿爾及利亞第納爾 |
 | `EEK` | 愛沙尼亞克朗 |
 | `EGP` | 埃及鎊 |
@@ -95,15 +95,15 @@ s.currencyCode = "USD";
 | `GBP` | 英鎊 |
 | `GEL` | 喬治亞拉里 |
 | `GGP` | 根西島鎊 |
-| `GHC` | 加納塞地 |
+| `GHC` | 加納席迪 |
 | `GIP` | 直布羅陀鎊 |
-| `GMD` | 岡比亞達拉西 |
+| `GMD` | 甘比亞達拉西 |
 | `GNF` | 幾內亞法郎 |
 | `GTQ` | 瓜地馬拉格查爾 |
 | `GYD` | 圭亞那元 |
 | `HKD` | 港元 |
-| `HNL` | 洪都拉斯倫皮拉 |
-| `HRK` | 克羅地亞昆拉 |
+| `HNL` | 洪都拉斯雷匹拉 |
+| `HRK` | 克羅埃西亞庫納 |
 | `HTG` | 海地古德 |
 | `HUF` | 匈牙利福林 |
 | `IDR` | 印尼盾 |
@@ -111,14 +111,14 @@ s.currencyCode = "USD";
 | `IMP` | 曼島鎊 |
 | `INR` | 印度盧比 |
 | `IQD` | 伊拉克第納爾 |
-| `IRR` | 伊朗裏亞爾 |
+| `IRR` | 伊朗里亞爾 |
 | `ISK` | 冰島克朗 |
 | `JEP` | 澤西鎊 |
 | `JMD` | 牙買加元 |
 | `JOD` | 約旦第納爾 |
 | `JPY` | 日元 |
 | `KES` | 肯尼亞先令 |
-| `KGS` | 吉爾吉斯斯坦索姆 |
+| `KGS` | 吉爾吉斯索姆 |
 | `KHR` | 柬埔寨瑞爾 |
 | `KMF` | 科摩羅法郎 |
 | `KPW` | 北朝鮮元 |
@@ -126,94 +126,94 @@ s.currencyCode = "USD";
 | `KWD` | 科威特第納爾 |
 | `KYD` | 開曼元 |
 | `KZT` | 哈薩克坦吉 |
-| `LAK` | 老撾基普 |
+| `LAK` | 寮國基普 |
 | `LBP` | 黎巴嫩鎊 |
 | `LKR` | 斯里蘭卡盧比 |
-| `LRD` | 利比里亞元 |
-| `LSL` | 萊索托洛蒂 |
+| `LRD` | 賴比瑞亞元 |
+| `LSL` | 賴索托洛蒂 |
 | `LTL` | 立陶宛立塔 |
 | `LVL` | 拉脫維亞拉茲 |
 | `LYD` | 利比亞第納爾 |
 | `MAD` | 摩洛哥迪拉姆 |
-| `MDL` | 莫爾達瓦列伊 |
+| `MDL` | 摩爾多瓦雷 |
 | `MGA` | 馬達加斯加阿里亞里 |
 | `MKD` | 馬其頓代納爾 |
-| `MMK` | 緬幣 |
-| `MNT` | 蒙古圖格裏克 |
+| `MMK` | 緬甸元 |
+| `MNT` | 蒙古圖格里克 |
 | `MOP` | 澳門元 |
 | `MRO` | 茅利塔尼亞烏吉亞 |
 | `MTL` | 馬耳他里拉 |
-| `MUR` | 毛里求斯盧比 |
-| `MVR` | 馬爾代夫盧非亞 |
+| `MUR` | 模里西斯盧比 |
+| `MVR` | 馬爾地夫盧非亞 |
 | `MWK` | 馬拉維克瓦查 |
-| `MXN` | 墨西哥比索 |
+| `MXN` | 墨西哥披索 |
 | `MYR` | 馬來西亞林吉特 |
 | `MZM` | 莫三比克梅蒂卡爾 |
 | `NAD` | 納米比亞元 |
 | `NGN` | 尼日利亞奈拉 |
-| `NIO` | 尼加拉瓜金科多巴 |
+| `NIO` | 尼加拉瓜金科多巴幣 |
 | `NOK` | 挪威克朗 |
 | `NPR` | 尼泊爾盧比 |
-| `NZD` | 新西蘭元 |
-| `OMR` | 阿曼裏亞爾 |
+| `NZD` | 紐西西蘭元 |
+| `OMR` | 阿曼里亞爾 |
 | `PAB` | 巴拿馬巴波亞 |
 | `PEN` | 祕魯新托爾 |
 | `PGK` | 巴布亞新幾內亞基納 |
-| `PHP` | 菲律賓比索 |
+| `PHP` | 菲律賓披索 |
 | `PKR` | 巴基斯坦盧比 |
 | `PLN` | 波蘭茲羅提 |
 | `PYG` | 巴拉圭瓜拉尼 |
-| `QAR` | 卡塔爾裏亞爾 |
+| `QAR` | 卡達里亞爾 |
 | `ROL` | 羅馬尼亞列伊 |
 | `RUR` | 俄羅斯盧布 |
-| `RWF` | 盧旺達法郎 |
-| `SAR` | 沙特裏亞爾 |
+| `RWF` | 盧安達法郎 |
+| `SAR` | 沙烏地阿拉伯里亞爾 |
 | `SBD` | 所羅門元 |
-| `SCR` | 塞舌耳盧比 |
+| `SCR` | 塞席爾盧比 |
 | `SDD` | 蘇丹第納爾 |
 | `SEK` | 瑞典克朗 |
 | `SGD` | 新加坡元 |
 | `SHP` | 聖赫勒拿鎊 |
 | `SIT` | 斯洛維尼亞托勒 |
 | `SKK` | 斯洛伐克克朗 |
-| `SLL` | 塞拉里昂利昂 |
-| `SOS` | 索馬里先令 |
+| `SLL` | 獅子山利昂 |
+| `SOS` | 索馬利亞先令 |
 | `SPL` | 塞波加大公國幣 |
-| `SRD` | 蘇里南元 |
-| `SRG` | 蘇里南基爾德 |
-| `STD` | 聖多美和普林西比多布拉 |
+| `SRD` | 蘇利南元 |
+| `SRG` | 蘇利南基爾德 |
+| `STD` | 聖多美普林西比杜布拉 |
 | `SVC` | 薩爾瓦多科朗 |
 | `SYP` | 敘利亞鎊 |
-| `SZL` | 斯威士蘭埃馬蘭吉尼 |
+| `SZL` | 史瓦濟蘭史鍰 |
 | `THB` | 泰銖 |
-| `TJS` | 塔吉克斯坦索莫尼 |
+| `TJS` | 塔吉克索莫尼 |
 | `TMM` | 土庫曼馬納特 |
-| `TND` | 突尼斯第納爾 |
-| `TOP` | 湯加邦加 |
+| `TND` | 突尼西亞第納爾 |
+| `TOP` | 東加邦加 |
 | `TRL` | 土耳其里拉 |
-| `TTD` | 特里尼達和多巴哥元 |
-| `TVD` | 圖瓦盧元 |
-| `TWD` | 新臺幣 |
-| `TZS` | 坦桑尼亞先令 |
-| `UAH` | 烏克蘭格裏夫納 |
+| `TTD` | 千里達幣 |
+| `TVD` | 吐瓦魯元 |
+| `TWD` | 新台幣 |
+| `TZS` | 坦尚尼亞先令 |
+| `UAH` | 烏克蘭荷林夫納 |
 | `UGX` | 烏干達先令 |
 | `USD` | 美元 |
-| `UYU` | 烏拉圭比索 |
-| `UZS` | 烏茲別克斯坦索姆 |
-| `VEB` | 委內瑞拉博利瓦 |
+| `UYU` | 烏拉圭披索 |
+| `UZS` | 烏茲別克索姆 |
+| `VEB` | 委內瑞拉玻利瓦 |
 | `VND` | 越南盾 |
-| `VUV` | 瓦努阿圖瓦圖 |
+| `VUV` | 萬那杜那杜幣 |
 | `WST` | 薩摩亞塔拉 |
-| `XAF` | Communauté Financière Africaine Francs B |
+| `XAF` | 中非法郎 |
 | `XAG` | 銀盎司 |
 | `XAU` | 黃金盎司 |
 | `XCD` | 東加勒比元 |
 | `XDR` | 國際貨幣基金會特別提款權 |
-| `XOF` | Communauté Financière Africaine Francs B |
+| `XOF` | 中非法郎 |
 | `XPD` | 鈀盎司 |
-| `XPF` | Comptoirs Français du Pacifique Francs |
+| `XPF` | 太平洋法蘭西共同體法郎 |
 | `XPT` | 鉑盎司 |
-| `YER` | 葉門裏亞爾 |
-| `ZAR` | 南非蘭特 |
-| `ZMK` | 尚比亞克瓦查 |
+| `YER` | 葉門里亞爾 |
+| `ZAR` | 南非鍰 |
+| `ZMK` | 尚比亞夸加 |
 | `ZWD` | 辛巴威元 |
