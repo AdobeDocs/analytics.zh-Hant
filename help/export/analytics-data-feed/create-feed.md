@@ -1,8 +1,8 @@
 ---
 title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
-translation-type: ht
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -59,7 +59,7 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 * eu-west-1
 * sa-east-1
 
-> [!NOTE] 不支援 cn-north-1 區域。
+>[!NOTE] 不支援 cn-north-1 區域。
 
 ### Azure Blob
 
@@ -67,7 +67,7 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
 ![Azure 資訊](assets/azure.png)
 
-> [!NOTE] 您必須實作自己的處理程序，才能管理摘要目的地的磁碟空間。Adobe 不會從伺服器刪除任何資料。
+>[!NOTE] 您必須實作自己的處理程序，才能管理摘要目的地的磁碟空間。Adobe 不會從伺服器刪除任何資料。
 
 ## 資料欄定義
 
@@ -77,6 +77,6 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 * **壓縮格式**: 使用的壓縮類型。Gzip 會輸出 `.tar.gz` 格式的檔案。Zip 會輸出 `.zip` 格式的檔案。
 * **封裝類型**: 單一檔案會以單一形式輸出 `hit_data.tsv` 檔案，且可能會成為大型檔案。多個檔案會將您的資料分頁為 2GB 的大檔案 (未壓縮)。如果您選取了多個檔案，且報表回溯期的未壓縮資料少於 2GB，系統只會傳送一個檔案。Adobe 建議您在大部分資料摘要中都使用多個檔案。
 * **欄範本**: 建立多個資料摘要時，Adobe 建議您建立欄範本。選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。
-* **可用欄**: Adobe Analytics 中所有可用的資料欄。按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。
-* **已包括的欄**: 要包括在資料摘要中的欄。按一下[!UICONTROL 全部移除]，從資料摘要中移除所有欄。
+* **可用欄**: Adobe Analytics 中所有可用的資料欄。Click [!UICONTROL Add all] to include all columns in a data feed.
+* **已包括的欄**: 要包括在資料摘要中的欄。Click [!UICONTROL Remove all] to remove all columns from a data feed.
 * **下載 CSV**: 下載包含所有已包括欄的 CSV 檔案。
