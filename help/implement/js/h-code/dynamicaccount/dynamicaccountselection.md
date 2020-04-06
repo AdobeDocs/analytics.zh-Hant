@@ -1,15 +1,15 @@
 ---
 title: dynamicAccountSelection
 description: dynamicAccountSelection 變數能啟用或停用動態帳戶選擇。
-translation-type: ht
-source-git-commit: 4a6cfa479559a644588613bd127c5b45ee8787e6
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # dynamicAccountSelection
 
-> [!IMPORTANT] 動態帳戶僅支援使用舊版 JavaScript 實施 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
+>[!IMPORTANT] 動態帳戶僅支援使用舊版 JavaScript 實施 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
 
 `dynamicAccountSelection` 變數是布林值，可判斷是否使用動態帳戶選擇。
 
