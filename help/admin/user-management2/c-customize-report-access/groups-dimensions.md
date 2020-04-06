@@ -5,42 +5,42 @@ subtopic: Users and groups
 title: 自訂維度權限
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 自訂維度權限
 
-> [!IMPORTANT]使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>[!IMPORTANT]使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。
 
-**[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL 報表存取]** > **[!UICONTROL 維度]** > **[!UICONTROL 自訂]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
 
-> [!IMPORTANT] 目前部分維度無法提供權限。這些維度包括：行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
+>[!IMPORTANT] 目前部分維度無法提供權限。這些維度包括：行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
 >
->不論使用者具備哪些其他權限，所有使用者都可使用這些維度。
+>這些維度適用於所有使用者，不論其他權限為何。
 
-此頁面上的設定屬於[!UICONTROL 定義使用者群組]頁面上選取的報表套裝。
+此頁面上的設定與頁面上選取的報表套裝相 [!UICONTROL Define User Groups] 關。
 
 ![](assets/permissions-dimensions.png)
 
-瞭解權限維度類別的下列相關資訊。
+瞭解權限的「維度」類別的下列資訊。
 
-* eVars 1-250 為個別取得權限。
-* 所有流量報表皆屬於維度。
+* eVar 1-250會個別授權。
+* 所有流量報表都是維度。
 * 視訊和行動報表以及其他 Analytics 解決方案報表 (Experience Manager、Advertising Cloud、Social 等) 均屬維度。
-* 如果用戶有權存取父維度，則可以使用路徑報表。
-* 自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。
+* 如果使用者擁有父維度的存取權，則可使用路徑報表。
+* 自訂群組中的所有目前維度和量度都會自動移轉至新類別。 如果現有群組已啟用量度，預設會為其提供所有新取得權限的維度（eVar和內容感知）和量度。
 * Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的[變數](https://marketing.adobe.com/resources/help/zh_TW/reference/c_classifications.html)所決定。
 
-如需更多詳細資訊，請參閱[關於權限變更的常見問題](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html)。
+如需詳細資訊，請參 [閱權限變更的常見問題](https://marketing.adobe.com/resources/help/en_US/reference/permissions_faq.html)。
 
 **自訂維度**
 
-下列項目是您可以允許的維度。
+下列項目是您可以存取的維度。
 
 <table id="table_F37D74A1619A4560A5F5651E855DAF1C"> 
  <thead> 
@@ -52,7 +52,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/admin/admin/conversion-var-admin/conversion-var-admin.md"> eVar </a> </p> </td> 
-   <td colname="col2"> <p>eVars 1-250 為個別取得權限。eVar 是自訂轉換變數，您可以用來將自訂報表中的轉換成功量度分段。 </p> </td> 
+   <td colname="col2"> <p>eVar 1-250會個別授權。 eVar是自訂轉換變數，您可用來在自訂報表中劃分轉換成功度量。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/props_eVars.html"> Prop </a> </p> </td> 
@@ -64,11 +64,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/listN.html"> Listvar </a> </p> </td> 
-   <td colname="col2"> <p> 清單變數的運作方式與清單 Prop 函數類似，也允許相同影像要求中可有多個值。 </p> </td> 
+   <td colname="col2"> <p> 與「清單屬性」功能類似，清單變數允許在相同的影像要求中使用多個值。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>標準 </p> </td> 
-   <td colname="col2"> <p>請參閱 Analytics 中的標準(現成) 維度。 </p> </td> 
+   <td colname="col2"> <p>指Analytics中的標準（現成可用）維度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://marketing.adobe.com/resources/help/en_US/em/"> AEM </a> </p> </td> 
