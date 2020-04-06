@@ -1,48 +1,48 @@
 ---
 title: manageVars
-description: 一次變更多個Analytics變數的值。
+description: 一次變更多個 Analytics 變數的值。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：manageVars
+# Adobe 外掛程式：manageVars
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外 `manageVars` 掛程式可讓您一次控制多個Analytics變數的值。 您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。 如果您想一次清除多個變數的值，Adobe建議使用此外掛程式。
+`manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。如果您想一次清除多個變數的值，Adobe 建議使用此外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化manageVars
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 manageVars
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -65,10 +65,10 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
 
 ## 使用外掛程式
 
-該方 `manageVars` 法使用以下引數：
+`manageVars` 方法使用以下引數：
 
-* **`cb`** （必要，字串）:外掛程式用來控制Analytics變數的回呼函式名稱。 您可以使用類似Adobe函式或 `cleanStr` 您自己的自訂函式。
-* **`l`** （可選，字串）:您要操控之Analytics變數的逗號分隔清單。 未設定時，預設為所有Adobe Analytics變數，包括：
+* **`cb`** (必要，字串)：外掛程式用來操控 Analytics 變數的回呼函數名稱。您可以使用類似 `cleanStr` 的 Adobe 函數或您自己的自訂函數。
+* **`l`** (選用，字串)：您要操控之 Analytics 變數的逗號分隔清單。若未設定，則預設為所有 Adobe Analytics 變數，包括：
    * `pageName`
    * `purchaseID`
    * `channel`
@@ -80,81 +80,81 @@ s.pt=function(l,de,cf,fa){if(l&&this[cf]){l=l.split(de||",");de=l.length;for(var
    * `events`
    * `products`
    * `transactionID`
-   * 所有Prop
-   * 所有eVar
+   * 所有 Prop
+   * 所有 eVar
    * 所有階層變數
    * 所有清單變數
    * 所有上下文資料變數
-* **`Il`** （可選，布林）:如果 `false` 要排除 *引數中宣告的變*`l` 數清單，則設為。 預設為 `true`。
+* **`Il`** (選用，布林值)：如果要&#x200B;*排除* `l` 引數中宣告的變數清單而非包括，則設為 `false`。預設為 `true`。
 
-呼叫此方法不會傳回任何內容。 它會根據所要的回呼函式變更Analytics變數的值。
+呼叫此方法不會傳回任何內容，而是根據所需的回呼函數變更 Analytics 變數的值。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.manageVars("lowerCaseVars");
 ```
 
-...將上述所有變數的值變更為小寫版本。  唯一的例外是事件變數，因為有些事件（例如scAdd、scCheckout等）區分大小寫，不應小寫
+...會將上述所有變數的值變更為小寫版本。唯一的例外是事件變數，因為有些事件 (例如 scAdd、scCheckout 等)區分大小寫，且不應變為小寫
 
-### 範例#2
+### 範例 #2
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.manageVars("lowerCaseVars", "events", false);
 ```
 
-...實際上會產生與第一個範例完全相同的結果，因為events變數預設不會小寫。
+...實際上會產生與第一個範例完全相同的結果，因為事件變數預設為不會變為小寫。
 
-### 範例#3
+### 範例 #3
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2");
 ```
 
-...只會變更（例如小寫）eVar1、eVar2、eVar3和list2的值
+...只會變更 (例如變為小寫) eVar1、eVar2、eVar3 和 list2 的值
 
-### 範例#4
+### 範例 #4
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.manageVars("lowerCaseVars", "eVar1,eVar2,eVar3,list2", false);
 ```
 
-...將會變更（例如小寫）上述eVar1、eVar2、eVar3和list2 EXCEPT中所述的所有變數的值
+...會變更 (例如變為小寫) 除了 eVar1、eVar2、eVar3 和 list2 EXCEPT 以外上述所有變數的值
 
-### 範例#5
+### 範例 #5
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.manageVars("cleanStr");
 ```
 
-...變更上述所有變數的值，包括事件變數。  具體而言，cleanStr回呼函式會對每個變數的值執行下列動作：
+...會變更上述所有變數的值，包括事件變數。具體而言，cleanStr 回呼函數會對每個變數的值執行下列動作：
 
-* 移除HTML編碼
-* 移除值開頭和結尾處的空格
-* 取代左／右單引號(例如』)，單引號(&#39;)
-* 以空格替換制表符字元、換行符和歸位符
-* 取代所有雙（或三等）空格，單空格
+* 移除 HTML 編碼
+* 移除值開頭和結尾的空格
+* 以單引號 (&#39;) 取代左/右單引號 (例如 ’)
+* 以空格取代定位字元、換行字元和歸位字元
+* 以單空格取代所有雙 (或三以上)空格
 
 ## 版本記錄
 
-### 2.1（2019年1月14日）
+### 2.1 (2019 年 1 月 14 日)
 
-* Internet Explorer 11瀏覽器錯誤修正。
-* 變更 `s.cleanStr`，現在使用常規函 `cleanStr` 數。
+* Explorer 11 瀏覽器的錯誤修正。
+* 針對 `s.cleanStr` 所做變更，現在使用一般 `cleanStr` 函數。
 
-### 2.0（2018年5月7日）
+### 2.0 (2018 年 5 月 7 日)
 
-* 點數發行（包括外掛程式的完整重新分析／重寫）
-* 已新增 `cleanStr` 回呼函式
+* 單點發行 (包括外掛程式全面重新分析/重寫)。
+* 新增 `cleanStr` 回呼函數
