@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 中的轉換報表
 description: 瞭解如何在 Adobe Analytics 中使用轉換報表。
-translation-type: ht
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -45,7 +45,7 @@ Google Analytics 中的電子商務報表和 Adobe Analytics 中的產品報表�
 
 多管道漏斗報表提供的行銷管道資料超過贏取報表的範疇。這些報表著重於訪客的轉換方式，而非訪客到達您網站的方式。
 
-> [!NOTE]
+>[!NOTE]
 >
 > 在 Adobe Analytics 中使用多管道報表時，需要設定「行銷管道」和自訂實施，以採用產品變數和購買事件。如果您尚未針對報表套裝設定這些功能，Adobe 建議您與實施顧問合作。
 
