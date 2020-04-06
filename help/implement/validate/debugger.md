@@ -1,17 +1,17 @@
 ---
 title: 舊版 Adobe Experience Cloud Debugger
 description: 安裝舊版 Adobe Experience Cloud Debugger。此除錯工具會檢查 Analytics、Target、Advertising Cloud、Identity Service、DTM 和 Launch 的標籤。
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 舊版 Adobe Experience Cloud Debugger
 
-> [!IMPORTANT] 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)。
+>[!IMPORTANT] 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)。
 
-[!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標籤。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實施項目進行疑難排解或驗證。
+The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. 使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實施項目進行疑難排解或驗證。
 
 ## 安裝舊版 Debugger
 
@@ -68,7 +68,7 @@ Safari 不提供手動建立書籤小程式的功能，但可將書籤 URL 編�
 
 導覽至您網站上所需的頁面，然後按一下書籤小程式。隨後出現的快顯視窗中，會顯示傳送至 Adobe 的資料。
 
-> [!NOTE] 某些廣告封鎖外掛程式和快顯視窗封鎖程式可能會干擾除錯工具視窗的載入。請檢查瀏覽器中遭封鎖的快顯視窗，並允許除錯工具顯示，以利其正常運作。
+>[!NOTE] 某些廣告封鎖外掛程式和快顯視窗封鎖程式可能會干擾除錯工具視窗的載入。請檢查瀏覽器中遭封鎖的快顯視窗，並允許除錯工具顯示，以利其正常運作。
 
 除錯工具有數個可用選項，所有選項都可自訂資料的顯示方式。這些選項都不會影響資料收集。
 
