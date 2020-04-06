@@ -1,8 +1,8 @@
 ---
 title: 使用硬式編碼影像要求進行實施
 description: 使用 HTML 影像標籤實施 Adobe Analytics (硬式編碼影像要求)
-translation-type: ht
-source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ Adobe 提供的 AppMeasurement 程式庫會編譯出現在頁面上的變數，�
 
 此實施方法可用於顯示外部來源影像的任何平台。它完全不依賴 JavaScript。
 
-> [!NOTE] 雖然硬式編碼的影像要求易於設定，但在大型專案中卻難以除錯、維護和調整規模。繼續進行之前，請確定硬式編碼影像要求是您的最佳選項。
+>[!NOTE] 雖然硬式編碼的影像要求易於設定，但在大型專案中卻難以除錯、維護和調整規模。繼續進行之前，請確定硬式編碼影像要求是您的最佳選項。
 
 ## 影像要求語法
 
