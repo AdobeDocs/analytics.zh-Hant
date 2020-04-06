@@ -2,8 +2,8 @@
 title: 區段比較面板概述
 description: 了解如何使用 Analysis Workspace 中區段 IQ 的區段比較面板。
 keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![比較受眾](assets/compare-audiences.png)
 
-   在您將區段拖曳至面板後，Analytics 會自動建立[!UICONTROL 「其他所有人」]區段，當中包含「不」在您所選區段中的每個人。此為比較面板中常用的區段，但您可以任意將之移除，並選取不同區段用於比較。
+   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. 此為比較面板中常用的區段，但您可以任意將之移除，並選取不同區段用於比較。
 
    ![其他所有人](assets/everyone-else.png)
 
-1. 決定好要比較的兩個區段後，按一下[!UICONTROL 「建立」]。
+1. Once you have determined which two segments to compare, click [!UICONTROL Build].
 
    此動作會啟動後端處理程序，找出兩個所選區段與所有維度、量度和其他區段之間的統計差異。面板上方的進度列會指出系統還需要多少時間分析每個量度和維度。最常使用的量度、維度和區段會優先執行，方便您及時查看最關心的結果。
 
@@ -39,12 +39,12 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 有時候，您會想在區段比較中排除某些維度、量度或區段。舉例來說，如果您想比較「美國的手機使用者」和「德國的手機使用者」區段，則納入地理相關維度是沒有意義的，因為區段本身已指出這些差異。
 
-1. 在將兩個所需區段加入面板後，按一下[!UICONTROL 「顯示進階選項」]。
-1. 將您想要排除的元件拖放至[!UICONTROL 「排除的元件」]面板。
+1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
+1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
 
    ![排除的元件](assets/excluded-components.png)
 
-按一下[!UICONTROL 「設為預設值」] 即可在所有日後的區段比較中自動排除目前選擇的元件。如果要編輯排除的元件，請按一下「元件類型」，然後按一下元件旁的「X」，將該元件重新納入分析。按一下「全部清除」則會將所有元件重新納入區段比較中。
+Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. 如果要編輯排除的元件，請按一下「元件類型」，然後按一下元件旁的「X」，將該元件重新納入分析。按一下「全部清除」則會將所有元件重新納入區段比較中。
 
 ![排除的維度](assets/excluded-dimensions.png)
 
@@ -58,7 +58,7 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 ### 大小和重疊
 
-透過 Venn 圖表呈現每個所選區段的相對大小，以及彼此重疊的程度。您可以在視覺效果上暫留以查看每個重疊或非重疊區段中的訪客數。您也可在重疊上按一下滑鼠右鍵來建立全新區段以供進一步分析。如果兩個區段互斥，兩個圓圈不會彼此重疊 (通常使用點擊容器的區段會有此現象)。
+透過 Venn 圖表呈現每個所選區段的相對大小，以及彼此重疊的程度。您可以將滑鼠指標暫留在視覺畫面上，查看每個重疊或非重疊區域有多少訪客。 您也可以在重疊上按一下滑鼠右鍵，以建立全新的區段，以進一步分析。 如果兩個區段互斥，兩個圓圈不會彼此重疊 (通常使用點擊容器的區段會有此現象)。
 
 ![大小和重疊](assets/size-overlap.png)
 
@@ -74,7 +74,7 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 這項視覺效果類似 Analysis Workspace 中的自由表格。如果需要對特定量度進行更深入的分析，請將滑鼠指標暫留在該條列項目上，然後按一下「建立視覺效果」。系統隨即會建立新表格以分析該特定量度。如果量度與您的分析無關，您可以將滑鼠指標暫留在該條列項目，按一下「X」加以移除。
 
-> [!NOTE] 區段比較完成後才加到此表格的量度不會收到差異積分。
+>[!NOTE] 區段比較完成後才加到此表格的量度不會收到差異積分。
 
 ![排名在前的量度](assets/top-metrics.png)
 
@@ -90,7 +90,7 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 這項視覺效果類似 Analysis Workspace 中的自由表格。如果需要對特定維度值進行更深入的分析，請將滑鼠指標暫留在該條列項目上，然後按一下「建立視覺效果」。系統隨即會建立新表格以分析該特定維度值。如果維度值與您的分析無關，您可以將滑鼠指標暫留在該條列項目，按一下「X」加以移除。
 
-> [!NOTE] 區段比較完成後才加到此表格的維度值不會收到差異積分。
+>[!NOTE] 區段比較完成後才加到此表格的維度值不會收到差異積分。
 
 ![排名在前的維度](assets/top-dimension-item1.png)
 
@@ -106,7 +106,7 @@ Adobe 分析完所需的兩個區段後，會透過數個視覺效果顯示結�
 
 這項視覺效果類似 Analysis Workspace 中的自由表格。如果需要對特定區段進行更深入的分析，請將滑鼠指標暫留在該條列項目上，然後按一下「建立視覺效果」。系統隨即會建立新表格以分析該特定區段。如果區段與您的分析無關，您可以將滑鼠指標暫留在該條列項目，按一下「X」加以移除。
 
-> [!NOTE] 區段比較完成後才加到此表格的區段不會收到差異積分。
+>[!NOTE] 區段比較完成後才加到此表格的區段不會收到差異積分。
 
 ![排名在前的區段](assets/top-segments.png)
 
