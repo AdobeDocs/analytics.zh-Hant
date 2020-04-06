@@ -1,22 +1,22 @@
 ---
-description: 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
+description: 您要搜尋的每個ID都會指派一個命名空間，此為自訂字串，可識別所有報表套裝中所有變數使用該ID的變數。
 title: 命名空間
 uuid: cab61844-3209-4980-b14c-6859de777606
-translation-type: ht
-source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 命名空間
 
-命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
+您要搜尋的每個ID都會指派一個命名空間，此為自訂字串，可識別所有報表套裝中所有變數使用該ID的變數。
 
-當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，該請求會包含 JSON 區段，用以指定用於請求的資料主體 ID。您可以納入多個 ID 做為資料主體的單一請求的一部分。JSON 包含以下項目：
+當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，該請求會包含 JSON 區段，用以指定用於請求的資料主體 ID。資料主體的單一要求中可包含多個ID。 JSON 包含以下項目：
 
-* 具有命名空間字串的「namespace」欄位。
-* 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
-* 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
+* 包含namespace字串的「namespace」欄位。
+* 「類型」欄位，適用於大部分Adobe Analytics請求，其中包含值「analytics」。
+* 「值」欄位，包含Analytics應在每個報表套裝的關聯命名空間變數中搜尋的ID。
 
 如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)。
 
@@ -32,7 +32,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 }
 ```
 
-指定值時必須採用兩組十六進位並以破折號 (-) 區隔的數字。所有十六進位數字的字母字元，指定時必須採用大寫。十六進位數值不應以零開頭 (請注意，這與已廢止的形式不同，過去要求開頭為零)。
+該值必須指定為兩個以破折號分隔的十六進位數字。 所有字母字元的十六進位數字都必須使用大寫指定。 十六進位值不應具有任何前導零(請注意與在不建議使用的表單中指定的相同值（前導零是必需的）。
 
 您也可以使用 `"namespaceId": 10` (而非 `"namespace": "AAID"`)，這樣就能看到其他幾種 Adobe 產品使用該表單。
 
@@ -48,7 +48,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 已廢止的形式：
 
-指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
+該值應指定為兩個16位十六進位數字或兩個19位十進位數字。 數字應以破折號、底線或冒號分隔。 若數字的位數不足，應於開頭以零補足。
 
 ## 身分識別服務 Cookie
 
@@ -64,7 +64,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 您也可以使用 `"namespaceId": 4` (而非 `"namespace": "ECID"`)，這樣就能看到其他幾種 Adobe 產品使用該表單。
 
-> [!NOTE] Experience Cloud ID (ECID) 先前稱為 Marketing Cloud ID (MCID)，現在有些文件還是會以舊名指稱。
+>[!NOTE] Experience Cloud ID (ECID) 先前稱為 Marketing Cloud ID (MCID)，現在有些文件還是會以舊名指稱。
 >
 >這些是 Analytics 支援的 ID 中，唯一使用「type」值而非「analytics」值的 ID。
 
@@ -84,7 +84,7 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 }
 ```
 
-系統也會為自訂訪客 ID 預先定義命名空間。
+自訂訪客ID也預先定義了命名空間。
 
 ## 自訂變數中的 ID
 
@@ -102,10 +102,10 @@ source-git-commit: cf910f98a1921b7558a6614a9d0d69f8e4f855b4
 
 對於自訂流量或轉換變數 (屬性或 eVar) 中的 ID，請使用 ID-DEVICE 或 ID-PERSON 標籤標記變數，然後將您自己的命名空間名稱指派給該類型 ID。請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](gdpr-labels.md)。
 
-您也會看到並可重複使用先前為其他變數或報表套裝定義的命名空間，如此即可輕鬆讓儲存該類型 ID 的所有報表套裝都使用相同的命名空間。此外，您也可以指派相同的命名空間給報表套裝中的多個變數。例如，部分客戶會在流量變數和轉換變數中儲存 CRM ID (視頁面而定，有時會儲存在其中一個變數或兩者皆有)，並將「CRM ID」命名空間指派給這兩個變數。
+您也可以看到先前為其他變數或報表套裝定義的命名空間，並重複使用其中一個，如此，儲存該類型ID的所有報表套裝都可輕鬆使用相同的命名空間。 您也可以為報表套裝中的多個變數指派相同的命名空間。 例如，有些客戶會將CRM ID儲存在流量變數和轉換變數中（視頁面而定，有時會儲存在其中一個或另一個或兩者），而且他們可以將命名空間「CRM ID」指派給兩個變數。
 
-> [!TIP] 將命名空間指定給資料隱私權 API 時，除非該命名空間是在套用 ID-DEVICE 或 ID-PERSON 標籤時指定的命名空間，否則請避免使用簡單易記的變數名稱 (報表 UI 所顯示的名稱)，也不要使用變數的號碼 (如 eVar12)。使用命名空間而非簡單易記的名稱，這樣能促使同一個使用者身分識別區塊為多個報表套裝指定正確的變數。例如 ID 位於部分報表套裝的其他 eVar，或是易記名稱不符時 (像是特定報表套裝已本地化的易記名稱)。
+>[!TIP] 將命名空間指定給資料隱私權 API 時，除非該命名空間是在套用 ID-DEVICE 或 ID-PERSON 標籤時指定的命名空間，否則請避免使用簡單易記的變數名稱 (報表 UI 所顯示的名稱)，也不要使用變數的號碼 (如 eVar12)。使用命名空間而非簡單易記的名稱，這樣能促使同一個使用者身分識別區塊為多個報表套裝指定正確的變數。例如 ID 位於部分報表套裝的其他 eVar，或是易記名稱不符時 (像是特定報表套裝已本地化的易記名稱)。
 
-> [!CAUTION] 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
+>[!CAUTION] 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
 如需詳細資訊，請參閱[將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間](/help/admin/c-data-governance/gdpr-labels.md)。
