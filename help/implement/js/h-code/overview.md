@@ -1,19 +1,19 @@
 ---
 title: H 程式碼 JavaScript 實施概述
 description: 瞭解在網站上實施 H 程式碼的工作流程。
-translation-type: ht
-source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # H 程式碼 JavaScript 實施概述
 
-> [!IMPORTANT] 不再支援此版本的資料彙集。請升級為 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [JavaScript 適用的 AppMeasurement](../overview.md)。
+>[!IMPORTANT] 不再支援此版本的資料彙集。請升級為 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [JavaScript 適用的 AppMeasurement](../overview.md)。
 
 您必須擁有托管伺服器的存取權限，才能成功實施包含資料收集程式碼的頁面。下列步驟將帶領您進行基本的 Analytics H 程式碼實施。
 
-> [!NOTE] 若要遵循這些指示，您必須擁有一份 `s_code.js` 的現有副本。Adobe 不再提供在「代碼管理器」中下載 H 程式碼的選項。
+>[!NOTE] 若要遵循這些指示，您必須擁有一份 `s_code.js` 的現有副本。Adobe 不再提供在「代碼管理器」中下載 H 程式碼的選項。
 
 1. **更新核心 JS 檔案變數**：編輯 `s_code.js` 檔案並確認下列變數已更新:
    * `s_account` 包含您要傳送資料的目的地報表套裝 ID。如需此工具的其他相關資訊，請參閱
@@ -26,7 +26,7 @@ source-git-commit: 664d0cde8b8b17c86b47858611d459026aab0bef
 
 ## 快取
 
-JavaScript 檔案初始載入後會置於訪客瀏覽器的快取中，通常一個工作階段不會下載超過一次。此檔案即使用於網站上的每個頁面，也不會下載至每個頁面上。大部分網站上的使用者每個工作階段會進行多次頁面檢視，所以將多次使用的 JavaScript 傳輸至此檔案可以減少整體下載資料量。
+JavaScript檔案在初次載入後會在訪客的瀏覽器中快取，而且每個作業通常不會下載超過一次。 檔案不會下載至每個頁面，即使網站上的每個頁面都使用它。 在大多數網站上，使用者每個作業的頁面檢視次數平均超過幾次，因此將多次使用的JavaScript傳輸至此檔案可減少整體下載資料的量。
 
 ## H 程式碼壓縮
 
