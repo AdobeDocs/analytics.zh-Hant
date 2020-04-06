@@ -2,8 +2,8 @@
 description: 一旦部署整合後，您就可以開始使用其提供的其他功能。
 title: 使用整合
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 一旦部署整合後，您就可以開始使用其提供的其他功能。
 
-> [!NOTE] 您可能需要 24 到 48 小時，才能開始在 Adobe Analytics 報表中看到部分 Demandbase 資料。
+>[!NOTE] 您可能需要 24 到 48 小時，才能開始在 Adobe Analytics 報表中看到部分 Demandbase 資料。
 
 您可以採取下列動作，以透過這項整合從 Adobe Analytics 中獲得價值：
 
