@@ -1,21 +1,21 @@
 ---
-description: 此功能可讓您自訂使用者在「Reports & Analytics」中所見的報表功能表。您可以顯示或隱藏報表，並可在各個使用者的不同資料夾間移動這些報表。若您的組織只使用特定報告，又不想讓左側功能表充斥著未使用或不相關的資料，就非常適合使用這項功能。
+description: 此功能可讓您自訂使用者在「報告與分析」中看到的報表功能表。 您可以顯示或隱藏報表，也可以在所有使用者的不同資料夾中移動報表。 如果您的組織僅使用特定報表，且不想將左側功能表與未使用或不相關的資料雜亂無章，此功能特別有用。
 title: 功能表自訂
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 功能表自訂
 
-此功能可讓您自訂使用者在「Reports &amp; Analytics」中所見的報表功能表。您可以顯示或隱藏報表，並可在各個使用者的不同資料夾間移動這些報表。若您的組織只使用特定報告，又不想讓左側功能表充斥著未使用或不相關的資料，就非常適合使用這項功能。
+此功能可讓您自訂使用者在「報告與分析」中看到的報表功能表。 您可以顯示或隱藏報表，也可以在所有使用者的不同資料夾中移動報表。 如果您的組織僅使用特定報表，且不想將左側功能表與未使用或不相關的資料雜亂無章，此功能特別有用。
 
-功能表變更可套用至存取報表套裝的所有使用者。但使用者使用報表套裝時，可以選擇還原功能表的預設設定。
+功能表變更會套用至存取報表套裝的所有使用者。 不過，使用者可在使用報表套裝時，還原功能表的預設設定。
 
-> [!NOTE] 功能表結構中的任何變更不會影響 Report Builder 和 Ad Hoc Analysis。不過，重新命名報告將在這兩項工具中反映。
+>[!NOTE] 功能表結構中的任何變更不會影響 Report Builder 和 Ad Hoc Analysis。不過，重新命名報告將在這兩項工具中反映。
 
 ## 功能表自訂說明 {#section_B0D224DACB914A378902A4E0E1234889}
 
@@ -29,7 +29,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新增資料夾</span> </td> 
-   <td colname="col2"> <p> 在目前選取的項目上方新增資料夾。請注意，您必須新增至少一個報告至資料夾，該資料夾才會顯示出來。 </p> </td> 
+   <td colname="col2"> <p> 在目前選取的項目上方新增資料夾。 請注意，在顯示資料夾之前，您必須至少新增一個報表至資料夾。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 重新命名</span> </td> 
@@ -41,7 +41,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 切換顯示狀態</span> </td> 
-   <td colname="col2"> <p> 隱藏 (顯示) 目前選取的項目。隱藏的項目在「功能表自訂」頁面中以灰色線的樣式顯示。 </p> </td> 
+   <td colname="col2"> <p> 隱藏（顯示）目前選取的項目。 隱藏項目在「功能表自訂」頁面中以灰色線型顯示。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 刪除</span> </td> 
