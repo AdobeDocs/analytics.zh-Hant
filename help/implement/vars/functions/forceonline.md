@@ -1,27 +1,27 @@
 ---
 title: forceOnline
-description: 手動設定AppMeasurement的線上狀態。
+description: 手動設定 AppMeasurement 的線上狀態。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # forceOnline
 
-此方 `forceOnline()` 法可讓您覆寫自動偵測到的AppMeasurement狀態。
+`forceOnline()` 方法可讓您覆寫自動偵測到的 AppMeasurement 狀態。
 
-> [!IMPORTANT] 只有在啟用時才使 [`trackOffline`](../config-vars/trackoffline.md) 用此方法。 在離線追蹤以外使用此函式可能會造成資料遺失。
+>[!IMPORTANT] 只有在啟用時才使 [`trackOffline`](../config-vars/trackoffline.md) 用此方法。 在離線追蹤以外的情況下使用此函數可能會造成資料遺失。
 
-AppMeasurement會自動偵測裝置的線上狀態。 您可以使用方 `forceOnline()` 法強制AppMeasurement將點擊視為裝置線上。 此方法不採用任何引數，也不返回任何值。 其唯一用途是覆寫AppMeasurement中的線上狀態。
+AppMeasurement 會自動偵測裝置的線上狀態。您可以使用 `forceOnline()` 方法強迫 AppMeasurement 將點擊視為裝置上線。此方法不採用任何引數，也不會傳回任何值。其唯一用途是覆寫 AppMeasurement 中的線上狀態。
 
-## 在Adobe Experience Platform Launch中強制線上
+## Adobe Experience Platform Launch 中的強制上線
 
-Launch中沒有專用欄位可使用此變數。 依照AppMeasurement語法，使用自訂程式碼編輯器。
+Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.forceOnline()
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.forceOnline()
 
-在實例化Analytics物 `s.forceOnline()` 件後，您可以在實作中的任何地方呼叫方法。
+將 Analytics 物件實例化之後，您就可以在實施中的任何地方呼叫 `s.forceOnline()` 方法。
 
 ```js
 s.forceOnline();
