@@ -1,48 +1,48 @@
 ---
-title: p_fo（僅限頁面優先）
-description: 確保每頁只觸發一次特定常式。
+title: p_fo (僅限頁面優先)
+description: 確保每頁只引發一次特定常式。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：p_fo（僅限頁面優先）
+# Adobe 外掛程式：p_fo (僅限頁面優先)
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外 `p_fo` 掛程式是一個公用程式，可檢查特定JavaScript物件是否存在。 如果對象不存在，則插件將建立該對象並返回 `true`。 如果頁面上已存在JavaScript物件，則會傳回該物件 `false`。 此外掛程式可讓您在頁面上執行一次程式碼。 其他數種外掛程式則仰賴此程式碼運作。 如果您不擔心某個頁面上執行程式碼的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
+`p_fo` 外掛程式是公用程式，可檢查特定 JavaScript 物件是否存在。如果物件不存在，外掛程式將會建立該物件並傳回 `true`。如果頁面上已存在 JavaScript 物件，則會傳回 `false`。若要在頁面上執行一次程式碼，此外掛程式很實用。其他多個外掛程式依賴此程式碼才能運作。如果您不擔心某個頁面上程式碼執行的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化p_fo
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 p_fo
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,19 +53,19 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## 使用外掛程式
 
-該方 `p_fo` 法使用以下引數：
+`p_fo` 方法使用以下引數：
 
-* **on** （必要，字串）:外掛程式在頁面上尚未存在時所建立的JavaScript物件名稱。
+* **on** (必要，字串)：頁面上尚未存在物件時，外掛程式所建立的 JavaScript 物件之名稱。
 
-如果對象尚不存在，則此方法返回並 `true` 建立該對象。 如果對象已存在，則此方法返回 `false`。
+如果物件尚不存在，則此方法會傳回 `true` 並建立該物件。如果物件已存在，則此方法會傳回 `false`。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-以下代碼將檢查頁面中是否存在&quot;myobject&quot;對象。  如果&quot;myobject&quot;物件不存在，則程式碼會建立&quot;myobject&quot;物件並傳回true值。  因此，條件陳述式中的程式碼(即Console.log(&#39;hello&#39;);)將會執行。
+以下程式碼將檢查頁面中是否存在「myobject」物件。如果「myobject」物件不存在，則程式碼會建立「myobject」物件並傳回 true 值。因此，條件陳述式中的程式碼 (即 Console.log(&#39;hello&#39;);) 將會執行。
 
-另一方面，如果p_fo呼叫發生時&quot;myobject&quot;物件已存在，則p_fo函式會傳回false值，因此條件陳述式會被視為false。  在這種情況下，條件陳述式中的程式碼將不會執行。
+另一方面，如果 p_fo 呼叫發生時「myobject」物件已存在，p_fo 函數便會傳回 false 值，因此條件陳述式會被視為 false。在這種情況下，條件陳述式中的程式碼將不會執行。
 
 ```javascript
 if(s.p_fo("myobject"))
@@ -74,13 +74,13 @@ if(s.p_fo("myobject"))
 }
 ```
 
-**注意：** 每當新頁面物件/DOM載入（或目前頁面重新載入）時，on引數中指定的物件將不再存在，因此p_fo外掛程式會在頁面載入完成後第一次執行時再次傳回true。
+**注意：**&#x200B;每當新頁面物件/DOM 載入 (或目前頁面重新載入) 時，on 引數中指定的物件就不再存在，因此在頁面載入完成後 p_fo 外掛程式第一次執行時，會再次傳回 true。
 
 ## 版本記錄
 
 ### 2.0
 
-* 點數發行（重新編譯，程式碼大小較小）。
+* 單點發行 (重新編譯，程式碼大小較小)。
 * 將傳回值類型從整數變更為布林值
 
 ### 1.0
