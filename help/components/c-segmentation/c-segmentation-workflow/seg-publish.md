@@ -4,7 +4,7 @@ title: 發佈區段至 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 5c555bbea04bed68dd8b569ee2cdd7d25092bb7a
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,23 +15,23 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 現在最多需要 8 小時來進行處理，但視其他流量和區段大小而定，處理速度可能更快。(不過目前無法通知您區段何時可用，因此您必須手動檢查。)我們也將可發佈區段的數量上限從 20 個增加到 75 個。您可以在「元件 > 區段」中檢視已發佈的區段。
 
-> [!NOTE] Adobe Campaign (Classic 和 Standard 版) 的運作方式不同，除了 8 小時延遲外，還會產生額外的 24 小時延遲。
+>[!NOTE] Adobe Campaign (Classic 和 Standard 版) 的運作方式不同，除了 8 小時延遲外，還會產生額外的 24 小時延遲。
 
 
 ## 必備條件
 
-* 請確認您要儲存此區段的目標報表套裝[已在 Experience Cloud 上啟用](https://docs.adobe.com/content/help/en/core-services/interface/audiences/t-publish-audience-segment.html)，否則無法將它發佈至 Experience Cloud。
-* 請確認您使用的報表套裝已對應至您的 [Experience Cloud 組織](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 請確認您要儲存此區段的目標報表套裝[已在 Experience Cloud 上啟用](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/t-publish-audience-segment.html)，否則無法將它發佈至 Experience Cloud。
+* 請確認您使用的報表套裝已對應至您的 [Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 請確認貴組織使用 Experience Cloud ID。
-* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
+* Before you can publish segments, your Admin needs to assign the [!UICONTROL Segment Publishing] permission to a product profile in the [Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html), and add you to the product profile.
 
 
 ## 考量事項
 
 * **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
 * **成員限制**：透過 Analytics 與 [!DNL Experience Cloud] 共用的對象不能超過 2,000 萬名獨特成員。
-* **資料隱私權**：系統不會根據訪客的驗證狀態篩選對象。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/privacy/experience-cloud.html)以瞭解對象共享的完整隱私權意涵。
-* 有關 **[!DNL Adobe Analytics]和[!DNL Audience Manager]**中區段之間差異的探討，請前往[這裡](https://docs.adobe.com/content/help/en/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
+* **資料隱私權**：系統不會根據訪客的驗證狀態篩選對象。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解對象共享的完整隱私權意涵。
+* 有關 **[!DNL Adobe Analytics]和[!DNL Audience Manager]**中區段之間差異的探討，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
 ## 區段發佈時間軸
 
@@ -68,7 +68,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 若要刪除已發佈至 Experience Cloud 的區段，必須先將其取消發佈。若要取消發佈區段，只需&#x200B;**取消勾選**&#x200B;您用來發佈該區段的核取方塊即可。
 
-> [!NOTE]您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
+>[!NOTE]您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
 
 ## View segment publishing status in the [!UICONTROL Segment Manager]
 
@@ -88,7 +88,7 @@ Publishing a segment to the Experience Cloud lets you use the segment for market
 
 **方法 1：使用 Adobe Experience Cloud Debugger**
 
-1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)。
+1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/testing-and-validation/debugger.html)。
 1. 載入頁面時啟動除錯程式。
 1. 捲動至 Audience Manager 區段，並尋找目前瀏覽器頁面上設定的 AAM UUID
 (以下範例中為 `50814298273775797762943354787774730612`)
