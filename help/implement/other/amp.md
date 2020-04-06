@@ -1,8 +1,8 @@
 ---
 title: 使用 AMP 進行實施
 description: 在 AMP 頁面上實施 Adobe Analytics。
-translation-type: ht
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,17 +24,17 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 
 |  | **「adobeanalytics」範本** | **「adobeanalytics_nativeConfig」範本** |
 |---|---|---|
-| 現有報表套裝中的訪客/造訪計數 | 高度膨脹 | 最小膨脹 |
-| 使用個別報表套裝 | 建議 | 非必要 |
+| 現有報表套裝中的訪客/造訪計數 | 高通脹 | 最低通脹 |
+| 使用個別報表套裝 | 建議 | 不需要 |
 | 全新 vs. 回訪訪客 | 不支援 | 支援 |
-| 訪客 ID 服務 | 不支援 | 支援 |
+| 訪客ID服務 | 不支援 | 支援 |
 | 視訊和連結追蹤 | 部分支援 | 尚未支援 |
-| 實施困難 | 有些困難 | 相對容易 |
+| 實施難度 | 有些困難 | 相對容易 |
 | Adobe Experience Cloud 整合 | 不支援 | 部分支援 |
 
 權衡組織內的優點與缺點，決定您要使用哪種方法。如需程式碼範例，請參閱 Adobe GitHub 儲存庫上的 [AMP 範例](https://github.com/Adobe-Marketing-Cloud/mobile-services/tree/master/samples/mobile-web)。
 
-> [!WARNING] 請勿在使用 AMP 的同一頁上同時使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 範本。如果嘗試這麼做，可能會在瀏覽器主控台中產生錯誤，並重複計算訪客。
+>[!WARNING] 請勿在使用 AMP 的同一頁上同時使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 範本。如果嘗試這麼做，可能會在瀏覽器主控台中產生錯誤，並重複計算訪客。
 
 ## 方法 1：透過「adobeanalytics」範本使用 amp-analytics 標籤
 
@@ -77,11 +77,11 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 
 此外，`amp-analytics` 也支援一些變數替代，讓 AMP 能提供已知的資料數值。如需詳細資訊，請參閱 GitHub 上的 [amp-analytics 支援的變數](https://github.com/ampproject/amphtml/blob/master/extensions/amp-analytics/analytics-vars.md)。
 
-> [!NOTE] 使用此方法傳送至 Adobe 的影像要求不包含許多預設報表的資料 (例如瀏覽器、螢幕大小或反向連結)。如果您想在點擊中包含這些資訊，請確定這些資訊包含在影像要求查詢字串中。如需詳細資訊，請參閱[資料彙集查詢參數](../validate/query-parameters.md)。
+>[!NOTE] 使用此方法傳送至 Adobe 的影像要求不包含許多預設報表的資料 (例如瀏覽器、螢幕大小或反向連結)。如果您想在點擊中包含這些資訊，請確定這些資訊包含在影像要求查詢字串中。如需詳細資訊，請參閱[資料彙集查詢參數](../validate/query-parameters.md)。
 
 Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`。此訪客 ID 與 Adobe Analytics 設定的任何其他 ID 均不重複 (例如 `s_vi` Cookie)。使用此實施方法不支援 Adobe Experience Cloud ID Service。
 
-> [!NOTE] AMP 會使用 CDN 來傳送內容。CDN 的結構化會針對訪客從中擷取內容的每個 CDN 計算不同的不重複訪客，而這會誇大獨特訪客的計數。
+>[!NOTE] AMP 會使用 CDN 來傳送內容。CDN 的結構化會針對訪客從中擷取內容的每個 CDN 計算不同的不重複訪客，而這會誇大獨特訪客的計數。
 
 考量到 AMP 識別獨特訪客的方式，建議對 AMP 頁面使用獨立的報表套裝。
 
@@ -147,7 +147,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
 
 `"adobeanalytics_nativeConfig"` 範本也根據列於 amp-analytics 標記的 `extraUrlParams` 區段變數，新增查詢字串參數。在上例中，納入了 `pageName` 和 `v1` 參數。
 
-> [!IMPORTANT] 您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的  iframe。舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
+>[!IMPORTANT] 您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的  iframe。舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
 
 使用此方法時，若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 AMP。使用此公用程式頁面也表示 AMP 可支援 Adobe Experience Cloud ID Service。不需要獨立的報表套裝。
 
@@ -161,7 +161,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
 
 **如何在資料中區分 AMP 訪客與其他訪客？**
 
-對於所有 AMP 頁面，[!UICONTROL JavaScript 版本]維度會收集類似 `AMP vX.X` 的值。您也可以將自訂維度設為「AMP」以便區隔這些訪客。
+For all AMP pages, the [!UICONTROL JavaScript Version] dimension collects a value similar to `AMP vX.X`. 您也可以將自訂維度設為「AMP」以便區隔這些訪客。
 
 **此實施方法與 Facebook 即時文章有何不同？**
 
