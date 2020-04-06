@@ -2,8 +2,8 @@
 description: 'null'
 title: 使用整合
 uuid: b39c1334-ac0f-431b-a34f-27ff9b068e33
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 一旦部署後，您就可以開始使用這項整合提供的其他功能。若要從 Adobe Analytics 中取得此整合的值，需執行以下操作。
 
-> [!NOTE] 可能需要 24 到 48 小時的時間，才會開始在 Adobe Analytics 報表中看到 Kampyle 回應資料。
+>[!NOTE] 可能需要 24 到 48 小時的時間，才會開始在 Adobe Analytics 報表中看到 Kampyle 回應資料。
 
 ## 混合意見與現場行為資料{#mix-feedback-and-onsite-behavior-data}
 
