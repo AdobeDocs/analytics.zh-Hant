@@ -2,7 +2,7 @@
 title: 建立報表套裝
 description: 在 Adobe Analytics 中建立資料收集的基本容器。
 translation-type: tm+mt
-source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ## 必備條件
 
-[Adobe Analytics 的第一個管理指南](first-admin-guide.md): 確保系統層級管理員已透過 Experience Cloud Admin Console 將 Adobe Analytics 的權限授予您
+[Adobe Analytics 的第一個管理指南](first-admin-guide.md)：確保系統層級管理員已透過 Experience Cloud Admin Console 將 Adobe Analytics 的權限授予您
 
 ## 建立報表套裝
 
-> [!NOTE] 您也可以使用舊版管理員在 Adobe Analytics 中建立報表套裝。Adobe 建議您使用本文所說明的報表套裝設定精靈。
+>[!NOTE] 您也可以使用舊版管理員在 Adobe Analytics 中建立報表套裝。Adobe 建議您使用本文所說明的報表套裝設定精靈。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
@@ -42,6 +42,6 @@ source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 請確認您是透過 Experience Cloud 登入，而非透過 my.omniture.com 登入。透過 my.omniture.com 登入的使用者無法使用報表套裝設定精靈。
 
-## 下一步
+## 後續步驟
 
-[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md): 建立一個管理 Analytics 實施情形的區域
+[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md)：建立一個管理 Analytics 實作情形的區域
