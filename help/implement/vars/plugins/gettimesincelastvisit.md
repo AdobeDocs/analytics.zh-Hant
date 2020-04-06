@@ -1,48 +1,48 @@
 ---
 title: getTimeSinceLastVisit
-description: 測量兩次瀏覽之間經過的時間量。
+description: 測量兩次造訪之間經過的時間長度。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：getTimeSinceLastVisit
+# Adobe 外掛程式：getTimeSinceLastVisit
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外掛 `getTimeSinceLastVisit` 程式可讓您追蹤訪客在上次瀏覽後回訪您網站的時間。
+`getTimeSinceLastVisit` 外掛程式可用來追蹤訪客從上次造訪到下次回訪您網站經過的時間長度。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化getTimeSinceLastVisit
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getTimeSinceLastVisit
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,38 +59,38 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 ## 使用外掛程式
 
-方 `getTimeSinceLastVisit` 法不使用任何引數。 它會傳回自訪客上次瀏覽網站以來經過的時間量，以下列格式分組：
+`getTimeSinceLastVisit` 方法不使用任何引數。它會傳回自訪客上次造訪網站以來經過的時間長度，並以下列格式分組：
 
-* 自上次瀏覽後30分鐘至1小時之間的時間設定為最接近的半分鐘基準。 例如, `"30.5 minutes"`, `"53 minutes"`
-* 一小時至一天之間的時間會四捨五入至最接近的四分之一小時基準。 例如, `"2.25 hours"`, `"7.5 hours"`
-* 大於一天的時間會四捨五入至最接近的日基準。 例如, `"1 day"`, `"3 days"`, `"9 days"`, `"372 days"`
-* 如果訪客之前未瀏覽過，或經過的時間超過兩年，則值會設為 `"New Visitor"`。
+* 自上次造訪後 30 分鐘至 1 小時之間的時間設為最接近的半分鐘基準。例如：`"30.5 minutes"`、`"53 minutes"`
+* 一小時至一天之間的時間會捨入至最接近的四分之一小時基準。例如：`"2.25 hours"`、`"7.5 hours"`
+* 大於一天的時間會捨入至最接近的天數基準。例如：`"1 day"`、`"3 days"`、`"9 days"`、`"372 days"`
+* 如果訪客之前未造訪過，或經過的時間超過兩年，則值會設為 `"New Visitor"`。
 
-> [!NOTE] 此外掛程式只會傳回瀏覽首次點擊時的值。
+>[!NOTE] 此外掛程式只會傳回造訪首次點擊時的值。
 
-此外掛程式會建立第一方Cookie，此Cookie `"s_tslv"` 會設為目前時間的Unix時間戳記。 未活動兩年後，Cookie即會過期。
+此外掛程式會建立名為 `"s_tslv"` 的第一方 Cookie，並設為目前時間的 Unix 時間戳記。閒置兩年後 Cookie 便會到期。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-如果新訪客來到網站，而下列程式碼會在瀏覽的第一頁執行……
+如果新訪客造訪網站，而下列程式碼在造訪的第一頁上執行...
 
 ```javascript
 s.prop1 = s.getTimeSinceLastVisit();
 s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
 ```
 
-...s.prop1的值將設為「新訪客」。
+...s.prop1 的值將設為等於「New Visitor」。
 
-如果相同的程式碼在閒置35分鐘後在相同網域上執行，s.prop1的值將設為&quot;35分鐘&quot;。
+如果閒置 35 分鐘後在相同網域上執行相同的程式碼，s.prop1 的值將設為等於「35 分鐘」。
 
-如果相同的程式碼在閒置4天後，在相同網域上執行，s.prop1的值將設為&quot;4天&quot;。
+如果閒置 4 天後在相同網域上執行相同的程式碼，s.prop1 的值將設為等於「4 天」。
 
 ## 版本記錄
 
-### 1.0（2018年4月16日）
+### 1.0 (2018 年 4 月 16 日)
 
-* 點數發行（重新編譯的程式碼和較小的大小）。
-* 衍生自外掛程 `getDaysSinceLastVisit` 式的程式碼（現已過時並重新命名）。
-* 現在， `formatTime` 請使 `inList` 用和外掛程式來傳回值。
+* 單點發行 (重新編譯程式碼且大小較小)。
+* 衍生自 `getDaysSinceLastVisit` 外掛程式的程式碼 (現已過時並重新命名)。
+* 現在請使用 `formatTime` 和 `inList` 外掛程式來傳回值。
