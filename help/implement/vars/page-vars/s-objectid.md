@@ -1,8 +1,8 @@
 ---
 title: s_objectID
 description: 協助 Activity Map 辨識網站上的獨特連結。
-translation-type: ht
-source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 <a href="https://example.com" onClick="s_objectID='Example identifier';">Example link</a>
 ```
 
-> [!NOTE] 請一律加上 JavaScript 陳述式結尾的分號。Activity Map 必須有分號才能運作。
+>[!NOTE] 請一律加上 JavaScript 陳述式結尾的分號。Activity Map 必須有分號才能運作。
 
 ## 使用案例
 
