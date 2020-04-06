@@ -1,32 +1,32 @@
 ---
 title: cookieDomain
-description: cookieDomain變數可協助判斷要設定Cookie的網域。
+description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # cookieDomain
 
-> [!IMPORTANT] 此變數已停用。 請改 [`trackingServer`](trackingserver.md) 用。
+>[!IMPORTANT] 此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
 
-變 `cookieDomain` 數會決定AppMeasurement設定Cookie的網域。 您可以使用此變數來明確設定Cookie網域，而非使用變 [`cookieDomainPeriods`](cookiedomainperiods.md) 數。
+`cookieDomain` 變數決定了 AppMeasurement 在哪個網域設定 Cookie。您可以使用此變數來明確設定 Cookie 網域，而非使用 [`cookieDomainPeriods`](cookiedomainperiods.md) 變數。
 
-只有在符合下列兩個條件 **時** ，才需要使用此變數：
+只有在同時符合下列&#x200B;**兩個**&#x200B;條件時，才需要使用此變數：
 
-* 如果您的實作使用第一方Cookie。 使用包含的值的實作不需要 [`trackingServer`](trackingserver.md) 此變數 `sc.omtrdc.net`。
-* 如果您的網域的字尾有句號。 例如，可 `example.co.uk` 以使用變 `cookieDomain` 數明確指出Cookie網域為 `example.co.uk` 而非 `co.uk`。
+* 如果您的實施使用第一方 Cookie。若實施使用包含 `sc.omtrdc.net` 的 [`trackingServer`](trackingserver.md) 值，則不需要此變數。
+* 如果您的網域尾碼含有句號。例如，`example.co.uk` 可以使用 `cookieDomain` 變數明確指出 Cookie 網域為 `example.co.uk` 而非 `co.uk`。
 
-只有少數實作可用於變數， `cookieDomain` 甚至可以改用替代變 [`cookieDomainPeriods`](cookiedomainperiods.md) 數，例如。
+只有少數實施需要用到 `cookieDomain` 變數，即使發生此情況，也可改用 [`cookieDomainPeriods`](cookiedomainperiods.md) 這類變數替代。
 
-## Adobe Experience Platform Launch中的Cookie網域
+## Adobe Experience Platform Launch 中的 Cookie 網域
 
-Launch中沒有專用欄位可使用此變數。 依照AppMeasurement語法，使用自訂程式碼編輯器。
+Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.cookieDomain
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.cookieDomain
 
-變 `cookieDomain` 數是字串，並設為您要儲存Cookie的網域。
+`cookieDomain` 變數為字串，設為您要儲存 Cookie 的網域。
 
 ```js
 s.cookieDomain = "stats.example.com";
