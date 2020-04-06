@@ -1,8 +1,8 @@
 ---
 description: 設定行動應用程式計分卡的相關指示。
 title: Adobe Analytics 行動應用程式組織者指南
-translation-type: ht
-source-git-commit: 4248dc8f197f32cad5a0c9de7c65f845abdef88f
+translation-type: tm+mt
+source-git-commit: 6baf94c359c4fa54c326b2c68378cd08161f7da9
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
 
 下表解釋各個術語，協助使用者了解 Analytics 行動應用程式的對象、功能和操作方式。
 
-| 術語 | 定義 |
+| 詞語 | 定義 |
 |--- |--- |
 | 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的執行人員 |
 | 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
@@ -188,7 +188,6 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
    3. 安裝 Testflight 應用程式後，請在 Testflight 中尋找 Adobe Analytics 行動應用程式並加以安裝，如下所示：
 
       ![Testflight 畫面](assets/testflight2.png)
-
    **若執行使用者使用 Android：**
 
    1. 在使用者裝置上點選下列 Play Store 連結 (也可從&#x200B;**「工具** > **行動應用程式」**底下的 Analytics 取得)：
@@ -198,7 +197,8 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
 
       ![Play Store 畫面](assets/play.png)
 
-   2. 點選下列畫面上的&#x200B;**「透過 Google Play 下載」**連結：
+   2. 點選下列畫面上的&#x200B;**「透過 Google Play 下載」**&#x200B;連結：
+
       ![下載連結](assets/playnext.png)
 
    3. 下載並安裝應用程式。下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
