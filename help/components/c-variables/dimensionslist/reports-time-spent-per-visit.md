@@ -3,8 +3,8 @@ description: 'null'
 title: 每次瀏覽逗留時間
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Analytics 提供數種方式可判斷 Analytics 報表中的逗留時間�
 
 * **粒度**：每個維度值是組成造訪的不同秒數。
 * **分段**：每個維度值都是預先定義的貯體：
-   * 少於 1 分鐘
+   * 少於1分鐘
    * 1-5 分鐘
    * 5-10 分鐘
    * 30-60 分鐘
@@ -35,8 +35,8 @@ Adobe Analytics 提供數種方式可判斷 Analytics 報表中的逗留時間�
    * 2-5 小時
    * 5-10 小時
    * 10-15 小時
-   * 15 小時以上
+   * 15小時以上
 
-> [!NOTE][ 造訪](../c-metrics/metrics-visit.md)通常會在活動 12 個小時後結束。不過，如果使用時間戳記點擊或資料來源，造訪可能超過 12 小時。
+>[!NOTE][ 造訪](../c-metrics/metrics-visit.md)通常會在活動 12 個小時後結束。不過，如果使用時間戳記點擊或資料來源，造訪可能超過 12 小時。
 
 此維度是以造訪為基礎。將此維度與[頁面逗留時間](reports-time-spent-on-page.md) (以點擊為基礎的維度) 作比較。
