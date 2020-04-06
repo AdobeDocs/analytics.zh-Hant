@@ -2,7 +2,7 @@
 title: 將啟動資料元素對應至Analytics變數
 description: 將資料元素指派給Analytics變數，以便在分析工作區中將它們當做維度使用。
 translation-type: tm+mt
-source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 
 ### 在規則中設定變數
 
-規則中的變數集最適合不希望在每個頁面上設定變數的情況。 您可以在規則中定義標準。 See [Rules](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+規則中的變數集最適合不希望在每個頁面上設定變數的情況。 您可以在規則中定義標準。 See [Rules](https://docs.adobe.com/content/help/zh-Hant/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
 
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下所要的「啟動」屬性。
@@ -43,7 +43,7 @@ source-git-commit: 6937d47e3cf980a21bec680cdbd2931a4a368221
 1. 在模型窗口中選擇所需的資料元素。 按一下 [!UICONTROL Select].
 1. 資料元素名稱會新增至由符號所環繞的文字 `%` 欄位。 例如，如果您將資料元素命名為「頁面名稱」，則在將資料元素指派 `%Page name%` 至變數時，會看到字串。
 
-> [!TIP] 您可以串連相同變數中的資料元素。 例如，如果您有「主機名」資料元素和「路徑名」資料元素，則可使用將兩者結合為單一變數 `%Hostname%%Pathname%`。
+>[!TIP] 您可以串連相同變數中的資料元素。 例如，如果您有「主機名」資料元素和「路徑名」資料元素，則可使用將兩者結合為單一變數 `%Hostname%%Pathname%`。
 
 ## 後續步驟
 
