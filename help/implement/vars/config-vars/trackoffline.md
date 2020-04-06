@@ -1,8 +1,8 @@
 ---
 title: trackOffline
 description: 啟用或停用離線追蹤，變更 AppMeasurement 收集資料的方式。
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
 
 `trackOffline` 變數決定您是否要在實施中使用離線追蹤。
 
-> [!IMPORTANT] 啟用此變數之前，您必須先設定報表套裝接受時間戳記點擊。如果報表套裝不接受時間戳記點擊，但此變數已啟用，該資料會遺失且無法復原。
+>[!IMPORTANT] 啟用此變數之前，您必須先設定報表套裝接受時間戳記點擊。如果報表套裝不接受時間戳記點擊，但此變數已啟用，該資料會遺失且無法復原。
 
 啟用後，AppMeasurement 會使用下列程序將資料傳送至 Adobe：
 
