@@ -4,8 +4,8 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 建立 Web 屬性
 topic: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之網域和子網域的任意分組。
 
-> [!NOTE]只有具備管理員權利的使用者才能建立屬性。如需角色的相關詳細資訊，請參閱 Dynamic Tag Management 產品文件中的[在 DTM 中建立及管理群組](https://marketing.adobe.com/resources/help/zh_TW/dtm/groups.html)。
+>[!NOTE]只有具備管理員權利的使用者才能建立屬性。如需角色的相關詳細資訊，請參閱 Dynamic Tag Management 產品文件中的[在 DTM 中建立及管理群組](https://marketing.adobe.com/resources/help/zh_TW/dtm/groups.html)。
 
-您可以透過 DTM 管理及追蹤這些資產。例如，假設您有多個網站是根據同一個範本，且想要追蹤這所有網站上的相同資產。您可以將一個 Web 屬性套用到多個網域。
+您可以使用DTM管理及追蹤這些資產。 例如，假設您有多個網站是根據一個範本，而您想追蹤所有這些網站上的相同資產。 您可以將一個Web屬性套用至多個網域。
 
 如需有關 Web 屬性和最佳實務的一般資訊，請參閱Dynamic Tag Management 產品文件中的 [Web 屬性](https://marketing.adobe.com/resources/help/zh_TW/dtm/web_property.html)。
 
-1. 導覽至您的公司頁面，然後按一下&#x200B;**[!UICONTROL 新增屬性]**。
+1. Navigate to your company page, then click **[!UICONTROL Add Property]**.
 
    ![](assets/dtm-create-web-property.png)
 
@@ -44,12 +44,12 @@ Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 此網站涵蓋多個網域 </span> </td> 
-    <td colname="col2"> <p>如果您要保存網域之間的訪客資料，您可以新增與移除網域。若選取此選項，則造訪的資料會在保存在子網域之間。 </p> <p>此設定可讓您指定如何追蹤流量在關聯的子網域或網域間的移動。系統會將子網域的連結視為對外連結。系統會個別追蹤子網域的造訪。 </p> </td> 
+    <td colname="col2"> <p>如果您希望訪客資料在網域之間持續存在，則可新增和移除網域。 如果選取此選項，瀏覽的資料會跨子網域持續存在。 </p> <p>此設定可讓您指定您要如何追蹤在相關子網域或網域之間移動的流量。 子網域的連結會視為對外連結。 子網域的瀏覽會個別追蹤。 </p> </td> 
     </tr> 
     </tbody> 
     </table>
 
-1. (可選) 設定[!UICONTROL 進階設定]。
+1. （可選）設定 [!UICONTROL Advanced Settings]。
 
    <table id="table_6E687FBE6ACC4301BCCD837F4DCBB9C9"> 
     <thead> 
@@ -65,7 +65,7 @@ Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 啟用選擇性發佈</span> </td> 
-    <td colname="col2"> <p>指定是否允許使用者選取已發佈的批准規則。此為預設選項。 </p> </td> 
+    <td colname="col2"> <p>指定是否允許用戶選擇發佈哪些已批准規則。 這是預設選項。 </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 追蹤 Cookie 名稱</span> </td> 
@@ -73,7 +73,7 @@ Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 標籤逾時</span> </td> 
-    <td colname="col2"> <p>指定逾時和取消標籤要求前，Dynamic Tag Management 等待標籤引發的時間長度。 </p> <p> 由於 Dynamic Tag Management 的運作方式，無須擔心這會是很高的數字。DTM 具有確保緩慢標籤不會影響到使用者體驗的有效方法。 </p> </td> 
+    <td colname="col2"> <p>指定逾時和取消標籤要求前，Dynamic Tag Management 等待標籤引發的時間長度。 </p> <p> 由於 Dynamic Tag Management 的運作方式，無須擔心這會是很高的數字。DTM提供有效的方法，以確保緩慢的標籤不會影響使用者體驗。 </p> </td> 
     </tr> 
     <tr> 
     <td colname="col1"> <span class="uicontrol"> 錨點延遲</span> </td> 
@@ -82,4 +82,4 @@ Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之
     </tbody> 
     </table>
 
-1. 按一下&#x200B;**[!UICONTROL 建立屬性]**。
+1. 按一下 **[!UICONTROL Create Property]**.
