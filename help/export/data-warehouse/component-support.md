@@ -1,8 +1,8 @@
 ---
 title: Data Warehouse 中的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
-translation-type: ht
-source-git-commit: 00d4d59cb4c922b54a97ef7000e294ef3bf61f20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -31,15 +31,15 @@ Data Warehouse 的獨特處理架構允許使用某些在 Adobe Analytics 其他
 
 Data Warehouse 中不支援某些維度和量度。
 
-> [!NOTE] 如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。建立或編輯區段時，請務必檢查產品相容性。
+>[!NOTE] 如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。建立或編輯區段時，請務必檢查產品相容性。
 
 ### 不支援的維度
 
 * 某些以時間為主的維度，包括：
    * 上午/下午
-   * 日期
+   * 每個月的第幾天
    * 星期
-   * 一年當中的第幾天
+   * 一年中的第幾天
    * 小時
    * 分鐘
    * 月份
@@ -52,8 +52,8 @@ Data Warehouse 中不支援某些維度和量度。
    * 點擊深度
    * 回訪頻度
    * 事件之前時間
-   * 頁面逗留時間 - 分組
-   * 每次瀏覽逗留時間 - 分段
+   * 頁面逗留時間——分組
+   * 每次瀏覽逗留時間——分組
    * 瀏覽深度
 * 所有搜尋頁面排名
 * 階層變數
@@ -61,8 +61,8 @@ Data Warehouse 中不支援某些維度和量度。
 * 找不到頁面 (可作為維度使用；不支援分段)
 * 付費搜尋
 * 單頁存取次數
-* 追蹤選擇退出原因
-* 美國各州
+* 追蹤退出理由
+* 美國州
 
 ### 不支援的量度
 
