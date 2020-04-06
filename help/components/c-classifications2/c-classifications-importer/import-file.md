@@ -4,8 +4,8 @@ subtopic: Classifications
 title: 瀏覽器和 FTP 匯入
 topic: Admin tools
 uuid: a1d501be-6df0-4bc8-bb36-838e8d6744e3
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,8 +14,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您將適當的資料複製到分類範本檔案後，可以匯入 (上傳) 到 Adobe 資料收集伺服器裡。
 
-> [!NOTE] 您不需要先下載 (使用匯出功能) 現有的分類資料便可上傳新資料。只需要上傳包含新資料列的新檔案。這種方法可改進效能。
+>[!NOTE] 您不需要先下載 (使用匯出功能) 現有的分類資料便可上傳新資料。您只需要上傳包含新資料列的新檔案。 此方法可改善效能。
 
-請參閱[一般檔案結構](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)，以取得關於上傳之檔案的結構和限制的重要資訊。
+See [General File Structure](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md) for important information about the structure and limitations of uploaded files.
 
 如需疑難排解說明，請參閱「[常見的分類上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)」。
