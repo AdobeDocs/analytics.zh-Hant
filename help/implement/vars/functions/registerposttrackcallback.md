@@ -1,35 +1,35 @@
 ---
 title: registerPostTrackCallback
-description: 在傳送點擊至Adobe後建立回呼函式。
+description: 將點擊傳送至 Adobe 後建立回呼函數。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # registerPostTrackCallback
 
-此變 `registerPostTrackCallback` 數可讓貴組織在成功將點擊傳送至Adobe後，立即勾選JavaScript函式。 如果追蹤呼叫失敗，此函式將不執行。 您可以使用此變數，將AppMeasurement收集的資料傳送至合作夥伴或內部基礎架構，或清除單頁應用程式中的變數值。
+`registerPostTrackCallback` 變數可讓貴組織在成功將點擊傳送至 Adobe 後，立即連結 JavaScript 函數。如果追蹤呼叫失敗，此函數將不會執行。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構，或是清除單頁應用程式中的變數值。
 
-> [!IMPORTANT] 請勿呼叫任何追蹤呼叫， [`t()`](t-method.md) 例如 [`tl()`](tl-method.md) 或在變數 `registerPostTrackCallback` 內。 此變數中的追蹤函式會造成影像要求的無限回圈！
+>[!IMPORTANT] 請勿呼叫任何追蹤呼叫， [`t()`](t-method.md) 例如 [`tl()`](tl-method.md) 或在變數 `registerPostTrackCallback` 內。 此變數中的追蹤函數會導致影像要求發生無限循環！
 
-每次呼叫變數 `registerPostTrackCallback` 時，您都會勾選該函式，以便在成功傳送影像要求後立即執行。 請避免在同一頁面載入中多次註冊相同的函式。
+每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
-> [!NOTE] 在和之間觸發的函式的時 [`registerPreTrackCallback`](registerpretrackcallback.md) 間和 `registerPostTrackCallback` 順序不保證。 避免這兩個函式之間的依賴關係。
+>[!NOTE] 對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。請避免這兩個函數之間的依賴關係。
 
-## 在Adobe Experience Platform Launch中註冊貼文追蹤回呼
+## Adobe Experience Platform Launch 中的註冊後續追蹤回呼
 
-Launch中沒有專用欄位可使用此變數。 依照AppMeasurement語法，使用自訂程式碼編輯器。
+Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.registerPostTrackCallback
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.registerPostTrackCallback
 
-是 `s.registerPostTrackCallback` 一個函式，它將函式作為其唯一參數。 巢狀函式會在傳送影像要求之前執行。
+`s.registerPostTrackCallback` 是能將函數當作唯一引數的函數。巢狀函數會在影像要求傳送之前執行。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
 ```
 
-如果您想在程式碼中使用影像要求URL，請參考巢狀函 `requestUrl` 數內的字串引數。 您可以解析變 `requestUrl` 數以供您所需使用；調整此變數不會影響資料收集。
+如果您想在程式碼中使用影像要求 URL，請在巢狀函數內參考 `requestUrl` 字串引數。您可以解析 `requestUrl` 變數來滿足所需用途；調整此變數不會影響資料彙集。
 
 ```js
 s.registerPostTrackCallback(function(requestUrl){
@@ -37,7 +37,7 @@ s.registerPostTrackCallback(function(requestUrl){
 });
 ```
 
-函式中可包含其他引 `s.registerPostTrackCallback` 數，這些引數可用於嵌套函式：
+`s.registerPostTrackCallback` 函數中可包含其他引數，這些引數可用於巢狀函數：
 
 ```js
 s.registerPostTrackCallback(function(requestUrl,a,b,c) {
@@ -50,7 +50,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 
 ## 使用案例範例
 
-在貼文追 [`clearVars()`](clearvars.md) 蹤回呼中註冊函式對單頁應用程式有好處。 每次您成功傳送點擊至Adobe時，函式 `clearVars()` 就會執行。 然後，您的實作可以重新定義變數，而不必擔心值的持續性不正確。
+在後續追蹤回呼中註冊 [`clearVars()`](clearvars.md) 函數對單頁應用程式有好處。當您每次成功將點擊傳送至 Adobe 時，`clearVars()` 函數就會執行。接下來，您的實施便能重新定義變數，不必擔心存留的值不正確。
 
 ```js
 s.registerPostTrackCallback(function(){s.clearVars();});
