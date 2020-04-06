@@ -1,8 +1,8 @@
 ---
 title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
-translation-type: ht
-source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。此整合可提供雙向資料連線的機會。整合模組的使用通常是由 Adobe 合作夥伴推動。
 
-> [!NOTE] 在實施中要求提供合作夥伴資料可增加頁面載入與傳送至 Adobe 資料收集伺服器之資料間的延遲時間。如果訪客在傳送資料前載入新頁面，則不會記錄該頁面。
+>[!NOTE] 在實施中要求提供合作夥伴資料可增加頁面載入與傳送至 Adobe 資料收集伺服器之資料間的延遲時間。如果訪客在傳送資料前載入新頁面，則不會記錄該頁面。
 
 ## 整合模組工作流程
 
@@ -30,7 +30,7 @@ source-git-commit: e8f22d3e9efd57de0134a3c4ff55d0ad148f3df1
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-1. 在頂端導覽區域中，按一下 [!UICONTROL 「管理員] > [!UICONTROL 代碼管理器」]。
+1. In the top navigation, click [!UICONTROL Admin] > [!UICONTROL Code Manager].
 1. 下載最新 JavaScript AppMeasurement 程式庫。
 1. 下載後，將檔案解壓縮，然後找出 `AppMeasurement_Module_Integrate.js`。
 
