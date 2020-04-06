@@ -3,7 +3,7 @@ description: 'null'
 title: 部署整合
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 translation-type: tm+mt
-source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 完成整合精靈後，將整合設定物件部署至您的Web屬性。 在許多情況下，部署整合設定物件最簡單的方式，就是將物件加入您的 Adobe Analytics 部署程式碼中。
 
-> [!NOTE] 如果您使用Adobe Experience Platform Launch，就可以透過該工具輕鬆新增整合設定物件。
+>[!NOTE] 如果您使用Adobe Experience Platform Launch，就可以透過該工具輕鬆新增整合設定物件。
 
 1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
 1. 下載並儲存資 **[!UICONTROL Kampyle Integration Code (JS)]** 源。 程式碼看起來類似：
@@ -61,7 +61,7 @@ source-git-commit: 61df62a6f7089ce7d0308e3b62664176b76e520e
 
 View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
 
-> [!NOTE] 成功部署後24小時內通常會出現記錄項目。
+>[!NOTE] 成功部署後24小時內通常會出現記錄項目。
 
 ![整合活動記錄](assets/integration_activity_log.png)
 
@@ -69,6 +69,6 @@ View your Kampyle integration setup within the Adobe Experience Cloud by navigat
 
 導覽至適當功能表結構內的 Kampyle 報表，使用 Adobe Analytics 檢視 Kampyle 意見報表。
 
-> [!NOTE] 假設整合式意見表單正在主動接收提交內容，報表資料應會在部署成功後 24 到 48 小時內顯示。
+>[!NOTE] 假設整合式意見表單正在主動接收提交內容，報表資料應會在部署成功後 24 到 48 小時內顯示。
 
 ![Adobe報告資料](assets/adobe_reporting_data.png)
