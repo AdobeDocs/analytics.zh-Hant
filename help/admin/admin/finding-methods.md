@@ -1,19 +1,19 @@
 ---
-description: 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
+description: 「尋找方法」頁面可識別各種尋找方法報表如何接收網站上轉換成功事件的評價。 例如，如果搜尋引擎將訪客引薦至您進行購買的網站，「尋找方法」會指定搜尋引擎接收反向連結評分的方式。
 title: 尋找方法
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # 尋找方法
 
-「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
+「尋找方法」頁面可識別各種尋找方法報表如何接收網站上轉換成功事件的評價。 例如，如果搜尋引擎將訪客引薦至您進行購買的網站，「尋找方法」會指定搜尋引擎接收反向連結評分的方式。
 
-**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 尋找方法」]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Finding Methods]**.
 
 ## 尋找方法說明 {#section_8B6278DB75224EAB9F49D89A86274E8A}
 
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 配置 </td> 
-   <td colname="col2"> 指定如何套用反向連結的評分。支援的配置選項包括： <p> <span class="uicontrol">最近 (最後一個)：</span>將所有評分給予最後一個反向連結 (預設)。 </p> <p> <span class="uicontrol">原始值：</span>首個反向連結獲得全部評價。 </p> <p> <span class="uicontrol">線性：</span>所有反向連結獲得相同評價。 </p> </td> 
+   <td colname="col2"> 指定如何套用反向連結的評分。 支援的配置選項包括： <p> <span class="uicontrol">最近 (最後一個)：</span>將所有評分給予最後一個反向連結 (預設)。 </p> <p> <span class="uicontrol">原始值：</span>首個反向連結獲得全部評價。 </p> <p> <span class="uicontrol">線性：</span>所有反向連結獲得相同評價。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 過期時間 </td> 
@@ -52,5 +52,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-> [!NOTE] 所有「尋找方法」將在瀏覽結束時過期。如果您選擇在不同的事件 (例如，購物車結帳) 發生後過期，在瀏覽期間發生「購物車結帳」時，「尋找方法」會過期。如果「購物車結帳」未在瀏覽期間發生，則「尋找方法」仍在瀏覽結束時過期。
+>[!NOTE] 所有「尋找方法」將在瀏覽結束時過期。如果您選擇在不同事件（例如，購物車結帳）後過期，則當瀏覽期間發生購物車結帳時，尋找方法會過期。 如果在瀏覽期間未發生購物車結帳，則尋找方法在瀏覽結束時仍會過期。
 
