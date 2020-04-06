@@ -1,48 +1,48 @@
 ---
 title: getVisitDuration
-description: 追蹤訪客目前在網站上逗留的時間。
+description: 追蹤訪客目前為止在網站上逗留的時間。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：getVisitDuration
+# Adobe 外掛程式：getVisitDuration
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外 `getVisitDuration` 掛程式會追蹤訪客在網站上逗留至該時段的時間，以分鐘為單位。 如果您想要追蹤網站上截至該點的累計時間，或追蹤執行活動所花費的時間，Adobe建議使用此外掛程式。 此外掛程式不會追蹤事件之間的時間長度；如果需要此功能，請使 [`getTimeBetweenEvents`](gettimebetweenevents.md) 用外掛程式。
+`getVisitDuration` 外掛程式會追蹤訪客截至該時間點為止在網站上逗留的時間長度，以分鐘為單位。如果您想要追蹤網站上截至該時間點的累計時間，或追蹤執行活動所花費的時間，Adobe 建議使用此外掛程式。此外掛程式不會追蹤事件之間的時間長度；如果需要此功能，請使 [`getTimeBetweenEvents`](gettimebetweenevents.md) 用外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化getVisitDuration
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getVisitDuration
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,49 +53,49 @@ s.getVisitDuration=function(){var d=new Date,c=d.getTime(),b=this.c_r("s_dur");i
 
 ## 使用外掛程式
 
-方 `getVisitDuration` 法不使用任何引數。 它返回以下值之一：
+`getVisitDuration` 方法不使用任何引數。它會傳回以下其中一個值：
 
 * `"first hit of visit"`
 * `"less than a minute"`
 * `"1 minute"`
-* `"[x] minutes"` (其 `[x]` 中是訪客登陸網站後所經過的分鐘數)
+* `"[x] minutes"` (其中 `[x]` 是訪客進到網站以來經過的分鐘數)
 
-此外掛程式會建立名為的第一方Cookie `"s_dur"`，此為訪客登入網站後經過的毫秒數。 未活動30分鐘後，Cookie即過期。
+此外掛程式會建立名為 `"s_dur"` 的第一方 Cookie，這是訪客進到網站以來經過的毫秒數。閒置 30 分鐘後，Cookie 便會到期。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.eVar10 = s.getVisitDuration();
 ```
 
-...將一律將eVar10設定為訪客登陸網站後所經過的分鐘數
+...一律會將 eVar10 設為等於訪客進到網站以來經過的分鐘數
 
-### 範例#2
+### 範例 #2
 
-下列程式碼……
+下列程式碼...
 
 ```js
 if(s.inList(s.events, "purchase")) s.eVar10 = s.getVisitDuration();
 ```
 
-...使用inList外掛程式來檢查事件變數是否包含購買事件。  若是，eVar10將設為等於訪客開始瀏覽至購買時間之間的分鐘數。
+...使用 inList 外掛程式來檢查事件變數是否包含購買事件。若包含，eVar10 會設為等於訪客開始造訪時間和購買時間之間的分鐘數。
 
-### 範例#3
+### 範例 #3
 
-下列程式碼……
+下列程式碼...
 
 ```js
 s.prop10 = s.getVisitDuration();
 ```
 
-...將一律設定prop10，等於訪客登入網站後所經過的分鐘數。  如果prop10已啟用路徑功能，這將很有用。  將「退出點」量度新增至prop10報表時，會顯示精細的「散點圖」報表，說明訪客離開網站前幾分鐘的瀏覽時間。
+...一律會將 prop10 設為等於訪客進到網站以來經過的分鐘數。如果 prop10 已啟用路徑功能，此設定會非常實用。將「退出」量度新增至 prop10 報表時，會顯示較精細的「散點圖」報表，指出訪客離開網站前的造訪分鐘數。
 
 ## 版本記錄
 
-### 2.0（2018年5月2日）
+### 2.0 (2018 年 5 月 2 日)
 
-* 點數發行（外掛程式的完整重新分析／重寫）。
+* 單點發行 (外掛程式全面重新分析/重寫)。
