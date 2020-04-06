@@ -1,48 +1,48 @@
 ---
 title: pt
-description: 在變數清單上執行函式。
+description: 對變數清單執行函數。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：pt
+# Adobe 外掛程式：pt
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外掛 `pt` 程式會在Analytics變數清單上執行函式或方法。 例如，您可以選擇性地在數個變 [`clearVars`](../functions/clearvars.md) 數上執行方法，而不需每次手動呼叫方法。 其他數個外掛程式則依賴此程式碼才能正確執行。 如果您不需要一次對多個Analytics變數執行特定函式，或您未使用任何相依外掛程式，則不需要此外掛程式。
+`pt` 外掛程式會對 Analytics 變數清單執行函數或方法。例如，您可以選擇性地對多個變數執行 [`clearVars`](../functions/clearvars.md) 方法，而不需每次都手動呼叫該方法。其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化pt
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 pt
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,20 +53,20 @@ Adobe提供擴充功能，讓您使用最常用的增效模組。
 
 ## 使用外掛程式
 
-該方 `pt` 法使用以下引數：
+`pt` 方法使用以下引數：
 
-* **`l`** （必要，字串）:參數中包含的函式可針對的變 `cf` 數清單。
-* **`de`** （可選，字串）:分隔引數中變數清單的分隔 `l` 字元。 預設為逗號(`,`)。
-* **`cf`** （必要，字串）:AppMeasurement物件中包含的回呼函式名稱，可針對引數中包含的每個變數來呼 `l` 叫。
-* **`fa`** （可選，字串）:如果參數中的函式在 `cf` 運行時調用其他參數，請將它們包括在此處。 預設為 `undefined`。
+* **`l`** (必要，字串)：變數清單，包含 `cf` 引數的函數可針對此清單執行。
+* **`de`** (選用，字串)：區分 `l` 引數中變數清單的分隔字元。預設為逗號 (`,`)。
+* **`cf`** (必要，字串)：要針對 `l` 引數中包含的每個變數呼叫的 AppMeasurement 物件中，所包含的回呼函數名稱。
+* **`fa`** (選用，字串)：如果 `cf` 引數中的函數會在執行時呼叫其他引數，請在此處納入它們。預設為 `undefined`。
 
-如果回呼函式（在引數中）傳回值，呼叫此方 `cf` 法會傳回值。
+如果回呼函數 (在 `cf` 引數中) 傳回值，呼叫此方法便會傳回值。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-下列程式碼是getQueryParam外掛程式的一部分。  它會針對URL查詢字串(fullQueryString)中包含的每個鍵值對，執行getParameterValue輔助函式。  在其他方式中，若要擷取每個金鑰值對，fullQueryString必須以&amp;符號和&quot;&amp;&quot;字元分隔並分離。 parameterKey會參照外掛程式特別嘗試從查詢字串擷取的查詢字串參數
+下列程式碼是 getQueryParam 外掛程式的一部分。它會針對 URL 查詢字串 (fullQueryString) 中包含的每個鍵值組執行 getParameterValue 協助程式函數。若要擷取各個鍵值組，fullQueryString 必須以「&amp;」字元分隔並分割。parameterKey 會參考外掛程式特別嘗試從查詢字串中擷取的查詢字串參數
 
 ```javascript
 returnValue = s.pt(fullQueryString, "&", "getParameterValue", parameterKey)
@@ -87,15 +87,15 @@ for(var i = 0; i < parametersLength; i++)
 
 ## 版本記錄
 
-### 2.01（2019年9月24日）
+### 2.01 (2019 年 9 月 24 日)
 
 * 小幅變更程式碼以縮小整體大小
 
-### 2.0（2018年4月17日）
+### 2.0 (2018 年 4 月 17 日)
 
-* 點數發行（重新編譯，程式碼大小較小）。
-* 新增H程式碼和AppMeasurement的支援。
+* 單點發行 (重新編譯，程式碼大小較小)。
+* 新增對 H-Code 和 AppMeasurement 的支援。
 
-### 1.0（2013年9月23日）
+### 1.0 (2013 年 9 月 23 日)
 
 * 首次發行。
