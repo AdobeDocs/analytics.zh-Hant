@@ -3,7 +3,7 @@ description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -52,7 +52,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 您可以依原樣使用這些預先填入的範本，或依您的需求調整範本（例如新增或取代量度或視覺化），然後以新名稱儲存。
 
-[在 YouTube 觀看「Analysis Workspace 標準範本」](https://www.youtube.com/watch?v=aRgYwPneVXg&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=6)(2:46)
+[在 YouTube 觀看「Analysis Workspace 標準範本」](https://www.youtube.com/watch?v=aRgYwPneVXg&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=6)(2:46)
 
 以下為可用的範本，以及可透過個別範本找到答案的問題.
 
@@ -106,7 +106,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 ### 人物
 
-> [!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/mcdc-people.html) 的一部分使用。
+>[!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/zh_TW/mcdc/mcdc-people.html) 的一部分使用。
 
 此範本以「人員」量度為基礎，此量度是「獨特訪客」量度的去重複化版本。 「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。範本可讓您
 
@@ -122,7 +122,7 @@ source-git-commit: 3e055bbf83ee72217764aee22448b0ff1ab30751
 
 <!-->This content is mirrored in the CDA doc.<-->
 
-此範本可讓您查看重要的跨裝置效能資料。 它僅適用於可存取跨裝置 [分析](https://docs.adobe.com/content/help/en/analytics/components/cda/cda-home.html) (CDA)的客戶。
+此範本可讓您查看重要的跨裝置效能資料。 它僅適用於可存取跨裝置 [分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html) (CDA)的客戶。
 
 * **Co-op Graph成員的特殊注意事項**:顯示支援合作圖的地區和不支援的地區中，報表套裝的哪些部分包含訪客。
 * **使用者識別**:顯示使用基於跨裝置分析的方法識別網站訪客的頻率。
