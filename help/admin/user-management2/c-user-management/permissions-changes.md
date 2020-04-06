@@ -5,8 +5,8 @@ subtopic: Users and groups
 title: 使用者和群組權限變更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 ## 變更為何？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL 「管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組」]**
+**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
 
-> [!NOTE] 因為可能的權限組合數量相當多，我們提供的文件無法完整說明可用於每一個權限組合的所有 API 方法。一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
+>[!NOTE] 因為可能的權限組合數量相當多，我們提供的文件無法完整說明可用於每一個權限組合的所有 API 方法。一般而言，獲得網站服務存取權的非管理員將只擁有API方法的讀取存取權。 他們將沒有方法的「寫入」訪問權。
 
 由於 API 和介面使用相同的權限系統，因此無論管理員是否在介面 (Adobe Admin Console) 中授權給特定非管理員，這些權限都會與使用者在 API 中具有的權限相同。
 
@@ -44,8 +44,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
     </ul> <p>例如，您可以建立群組，使其可取得多項 Analytics 工具 (<span class="wintitle">Analysis Workspace</span>、<span class="wintitle">Reports &amp; Analytics</span> 及 <span class="wintitle">Report Builder</span>)、具有特定量度和維度 (包括 eVar) 之權限，並具有區段或計算量度建立等功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>對預先定義的群組的變更 </p> </td> 
-   <td colname="col2"> <p> <b>管理員存取：</b>管理員不再需要預先定義的群組。管理員現在可以存取所有項目 (工具、量度和維度)，以及網站服務存取、Report Builder、Activity Map 和 Ad Hoc Analysis。 </p> <p>在此之後，群組的目的是授予或限制對非管理使用者的存取。 </p> <p> <b>自訂群組：</b>自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自訂分析工具</a>。 </p> <p> 屬於<span class="term">「全部報表存取權」</span>的使用者已移轉至具有下列存取權的自訂群組： </p> 
+   <td colname="col1"> <p>對預先定義群組的變更 </p> </td> 
+   <td colname="col2"> <p> <b>管理員存取：</b>管理員不再需要預先定義的群組。管理員現在可以存取所有項目（工具、量度、維度），以及網站服務存取權、報告建立工具、Activity Map和臨機分析。 </p> <p>未來，群組的目的是授與或限制非管理使用者的存取權。 </p> <p> <b>自訂群組：</b>自訂群組已取代預先定義的群組。現有預先定義的群組將移轉至使用相同群組名稱的自訂群組。 您所建立的任何自訂群組，包括其設定，都將保留。 不過，您會注意到設定的位置已經移動。 例如，「公司」設定（在「自訂管理控制台」中）現在位於「自訂分析 <a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md"> 工具」中</a>。 </p> <p> 屬於<span class="term">「全部報表存取權」</span>的使用者已移轉至具有下列存取權的自訂群組： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有維度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
@@ -53,14 +53,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
      <li id="li_7ED1505590144B38B3B9851BAA6BBB49">頻道報表權限 </li> 
      <li id="li_F718FE1FCF9A4B05AB933CA3F105F3EC">異常偵測報表權限 </li> 
      <li id="li_527BD52007E846FE8B5F71AB3C12F695">即時報表權限 </li> 
-     <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">Analysis Workspace 存取權限 </li> 
+     <li id="li_AFFB58C7FB644AC8A85E2D76BA7D51F5">分析工作區存取權限 </li> 
     </ul> <p>管理員可以刪除自訂群組並建立自己的群組，因為先前在預先定義的群組中可使用的所有設定，皆可在位於<span class="wintitle">「定義使用者群組」</span>內的<a href="/help/admin/user-management2/c-user-groups/groups.md">「報表存取」</a>設定中自訂。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>維度層級權限 </p> </td> 
-   <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
+   <td colname="col2"> <p>您可以自訂權限，以包含或排除維度的存取權（除了度量之外）。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
-     <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
+     <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前維度和量度都會自動移轉至新類別。 如果現有群組已啟用量度，預設會為其提供所有新取得權限的維度（eVar和內容感知）和量度。 </p> </li> 
      <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/c_classifications.html">變數</a>所決定。 </li> 
     </ul> <p>請參閱<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自訂維度權限</a>。 </p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 關於權限變更常問的問題 {#section_02809EFC95054B40A089E6C6E4FACA13}
 
-此處是新的和計劃的更新，以及它們如何影響您的管理環境的相關重要新資訊。
+以下是有關新的和計畫的更新，以及它們對您的管理環境有何影響的重要新資訊。
 
 <table id="table_1E93F45C66E841E6882FB602509F30A3"> 
  <thead> 
@@ -85,7 +85,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"><b>2016 年 7 月</b>版本中有哪些權限變更？ </td> 
-   <td colname="col2"> <p> <b>完全報表套裝存取</b> </p> <p>新增要納入群組的報表套裝時，您可以指定<span class="uicontrol">所有報表套裝存取</span>。此設定會套用群組權限至所有目前和未來的報表套裝。 </p> <p>若要啟用此功能，請瀏覽至<span class="uicontrol">「使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">新增使用者群組」</span>，然後選取<span class="uicontrol">「所有報表套裝存取」</span>。 </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
+   <td colname="col2"> <p> <b>所有報表套裝存取</b> </p> <p>新增要納入群組的報表套裝時，您可以指定<span class="uicontrol">所有報表套裝存取</span>。此設定會套用群組權限至所有目前和未來的報表套裝。 </p> <p>若要啟用此功能，請瀏覽至<span class="uicontrol">「使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">新增使用者群組」</span>，然後選取<span class="uicontrol">「所有報表套裝存取」</span>。 </p> <p><img placement="break"  src="assets/all-report-suites.png" width="300px" id="image_9E814D412E87484C940F1100D6DE2B0F" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>如要管理使用者，我應該使用 Admin Console 還是現有的 Analytics「使用者管理」？ </p> </td> 
@@ -102,35 +102,35 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>移轉使用者需要執行任何動作？ </p> </td> 
-   <td colname="col2"> <p>沒有，所有權限移轉將透明地進行。 </p> <p> 
+   <td colname="col2"> <p>否，所有權限遷移將透明地進行。 </p> <p> 
      <ul id="ul_654F85286EC04416B3E0BA725EBE10AD"> 
-      <li id="li_8050B8941F794103B82A0ADF0930D216">自訂群組中所有目前的流量報表將自動移轉至新維度類別。 </li> 
-      <li id="li_B97079DB29A346B98D066F11AB7F94AF">如果自訂群組已啟用任何量度，則將自動提供它新近可獲得的所有維度 (eVar 和解決方案)。 </li> 
-      <li id="li_F1219EF490DA473BA15F2B215F2995AE"> 具有至少一個量度的自訂群組將自動獲授予所有 eVar 和其他內容感知維度的存取，新提供的流量維度 (先前的流量報表)<b>除外</b>。 </li> 
-      <li id="li_F494CE6144A04A6199CFBBA1D7BEA32B">每個預先定義的群組將變更為權限。這些新權限將新增至新的<span class="uicontrol">分析工具</span>類別。 </li> 
-      <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。 </li> 
-      <li id="li_34C4560769B64F28A4E83BAE71065DCC">原來在所有報表存取中的每個使用者將新增至新的自訂群組。所有報表存取將不再存在。 </li> 
+      <li id="li_8050B8941F794103B82A0ADF0930D216">自訂群組中的所有目前流量報表都會自動移轉至新的維度類別。 </li> 
+      <li id="li_B97079DB29A346B98D066F11AB7F94AF">如果自訂群組已啟用任何量度，則會自動為其提供所有新取得權限的維度（eVar和解決方案變數）。 </li> 
+      <li id="li_F1219EF490DA473BA15F2B215F2995AE"> 自訂群組（至少包含一個度量）將會自動獲得所有eVar和其他內容感應維度(新可用的流量維度 <b></b> （舊稱流量報表）除外)的存取權。 </li> 
+      <li id="li_F494CE6144A04A6199CFBBA1D7BEA32B">每個預先定義的群組都會變更為權限。 這些新權限將新增至新的<span class="uicontrol">分析工具</span>類別。 </li> 
+      <li id="li_2FCD9254FC3C4FD7871EEF9453E5CE1E">每個含有任何量度的自訂群組，都會將所有Analytics解決方案事件新增為新量度。 </li> 
+      <li id="li_34C4560769B64F28A4E83BAE71065DCC">以前位於「所有報表存取」中的每個使用者都會新增至新的自訂群組。 所有報表存取權將不再存在。 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>維持不變的為何？ </p> </td> 
-   <td colname="col2"> <p>訪客屬性將繼續為非許可權限。 </p> </td> 
+   <td colname="col2"> <p>訪客屬性仍將保有未授權。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 權限快速參考 {#section_A3FDD8259F524B21A5489833533D1B28}
+## 權限管理快速參考 {#section_A3FDD8259F524B21A5489833533D1B28}
 
 下表列出工作以及工作發生的位置 (視公司的狀態而定)。
 
-> [!NOTE] *`migrated user`* 和 *`Experience Cloud user`*&#x200B;是指已接受加入 Experience Cloud 電子郵件邀請的使用者。如果對方未接受電子郵件邀請，則將仍為 Analytics 使用者，無法在 Admin Console 接受管理。(如果是使用[企業或同盟 ID](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) 進行移轉則為例外。在此情況下，使用者是在管理員以使用者為基礎移轉使用者時移轉。)
+>[!NOTE] *`migrated user`* 和 *`Experience Cloud user`*&#x200B;是指已接受加入 Experience Cloud 電子郵件邀請的使用者。如果對方未接受電子郵件邀請，則將仍為 Analytics 使用者，無法在 Admin Console 接受管理。(例外情況是移轉使用企業 [或同盟ID](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)。 在這種情況下，當管理員依使用者而移轉使用者時，就會移轉使用者。)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 任務 </th> 
    <th colname="col2" class="entry"> 非移轉登入公司 </th> 
-   <th colname="col3" class="entry"> 目前移轉中的公司 </th> 
+   <th colname="col3" class="entry"> 目前正在移轉的公司 </th> 
    <th colname="col4" class="entry"> 完成移轉登入公司 </th> 
   </tr> 
  </thead>
@@ -145,7 +145,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> 編輯使用者 </td> 
    <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具 - 在管理工具中針對移轉的使用者進行編輯，受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具 - 編輯受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具——編輯僅限於API金鑰管理，以及刪除／傳輸資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 刪除使用者 </td> 
@@ -154,9 +154,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col4"> <p>Admin Console </p> <p> 管理工具 - 在 Admin Console 中刪除 Experience Cloud 使用者或取消連結其帳戶之後，您可以從管理工具刪除 Analytics 登入。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 登入 Analytics </td> 
-   <td colname="col2"> <p> <b>Experience Cloud：</b><span class="filepath">marketing.adobe.com</span>。僅適用 Experience Cloud 使用者。 </p> <p> <b>Analytics (舊版)：</b><span class="filepath">sc.omniture.com</span>。僅適用 Analytics 使用者，並且適用具有其 Analytics 憑證的 Experience Cloud 使用者 </p> </td> 
-   <td colname="col3"> <p> <span class="filepath">marketing.adobe.com</span> - 僅適用 Experience Cloud 使用者。 </p> <p> <span class="filepath">sc.omniture.com</span> - 僅適用 Analytics 使用者，並且適用具有其 Analytics 憑證的 Experience Cloud 使用者。 </p> <p>在移轉期間，管理員可以對特定使用者關閉 <span class="filepath">omniture.com</span> 登入功能。 </p> </td> 
+   <td colname="col1"> 登入Analytics </td> 
+   <td colname="col2"> <p> <b>Experience Cloud：</b><span class="filepath">marketing.adobe.com</span>。僅適用於Experience Cloud使用者。 </p> <p> <b>Analytics (舊版)：</b><span class="filepath">sc.omniture.com</span>。僅適用於Analytics使用者，以及具有其Analytics認證的Experience Cloud使用者 </p> </td> 
+   <td colname="col3"> <p> <span class="filepath"> marketing.adobe.com</span> —— 僅適用於Experience Cloud使用者。 </p> <p> <span class="filepath">sc.omniture.com</span> - 僅適用 Analytics 使用者，並且適用具有其 Analytics 憑證的 Experience Cloud 使用者。 </p> <p>在移轉期間，管理員可以對特定使用者關閉 <span class="filepath">omniture.com</span> 登入功能。 </p> </td> 
    <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
