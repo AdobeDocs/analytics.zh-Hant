@@ -1,17 +1,17 @@
 ---
 title: t
-description: 傳送頁面檢視追蹤呼叫給Adobe。
+description: 傳送頁面檢視追蹤呼叫給 Adobe。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # t()
 
-方 `t()` 法是Adobe Analytics的重要核心元件。 它會將頁面上定義的所有Analytics變數匯入影像請求，然後將該資料傳送至Adobe資料收集伺服器。
+`t()` 方法是 Adobe Analytics 的重要核心元件。它會使用頁面上定義的所有 Analytics 變數、編譯成影像要求，然後將該資料傳送至 Adobe 資料收集伺服器。
 
-例如，請考慮下列JavaScript程式碼：
+例如，請考慮下列 JavaScript 程式碼：
 
 ```js
 // Instantiate the tracking object
@@ -25,34 +25,34 @@ s.eVar1 = "Example dimension value";
 s.t();
 ```
 
-執行方 `t()` 法會定義所有Analytics變數，並根據這些變數產生URL。 有些Analytics變數會決定影像的URL，而其他變數則會決定查詢字串參數值。
+執行 `t()` 方法需要使用所有定義的 Analytics 變數，以及根據這些變數制訂 URL。有些 Analytics 變數決定影像的 URL，有些變數則決定查詢字串參數值。
 
 ```text
 https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 ```
 
-Adobe會接收影像要求，然後分析要求標題、URL和查詢字串參數。 然後，資料收集伺服器會傳回透明的1x1像素影像，在您的網站上不可見顯示。
+Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參數。接下來，資料收集伺服器會傳回透明的 1x1 像素影像，利用不可見的方式顯示在您的網站上。
 
-## Adobe Experience Platform Launch中的頁面檢視追蹤呼叫
+## Adobe Experience Platform Launch 中的頁面檢視追蹤呼叫
 
-Launch有專用位置設定頁面檢視追蹤呼叫。
+Launch 有設定頁面檢視追蹤呼叫的專用位置。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
-4. 在下 [!UICONTROL Actions]方，按一下「+」圖示
-5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為傳送信標。
-6. Click the `s.t()` radio button.
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
+4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
+5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+6. 按一下 `s.t()` 選擇鈕。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.t()方法
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.t() 方法
 
-當您想 `s.t()` 要傳送追蹤呼叫至Adobe時，請呼叫方法。
+當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.t()` 方法。
 
 ```js
 s.t();
 ```
 
-或者，您可以使用物件作為引數來覆寫變數值。 如需詳 [細資訊](../../js/overrides.md) ，請參閱變數覆寫。
+或者，您也可以將物件當作引數來覆寫變數值。如需詳細資訊，請參閱[變數覆寫](../../js/overrides.md)。
 
 ```js
 var y = new Object();
@@ -60,4 +60,4 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
-> [!NOTE] 舊版AppMeasurement使用數行程式碼來呼叫此函式。 其他程式碼過去會針對不同的瀏覽器提供解決方法。 現代瀏覽器的標準化和最佳實務不再需要此程式碼區塊。 現在只需要方 `s.t()` 法呼叫。
+>[!NOTE] 舊版 AppMeasurement 會使用數行程式碼來呼叫此函數。其他程式碼過去會針對不同的瀏覽器提供解決方法。現代瀏覽器的標準化和最佳實務不再需要這個程式碼區塊。現在只需要方法呼叫 `s.t()` 。
