@@ -2,8 +2,8 @@
 description: 'null'
 title: 警報產生器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -21,9 +21,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 在 Analysis Workspace 中使用下列快速鍵：
 
    `ctrl (or cmd) + shift + a`
-* 前往「**[!UICONTROL 工作區]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
-* 選取一或多個自由表格條列項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。
-* 在「Reports &amp; Analytics」報表中，前往「**[!UICONTROL 更多]** > **[!UICONTROL 新增警報]**」。
+* 前往 **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**。
+* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
+* 從「報告與分析」報表，前往 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**。
 
 ## 產生警報
 
@@ -35,17 +35,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **警報名稱**
 
-指定警報的名稱。警報名稱中可以包含報表的名稱或量度臨界值。
+指定警報的名稱。 警報名稱中可以包含報表的名稱或量度臨界值。
 
 **時間粒度**
 
 指定您希望檢查量度的時間：每小時、每日、每週或每月。
 
-> [!NOTE] 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
+>[!NOTE] 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
 
 **收件者**
 
-指定可傳送警報的位置。警報可以傳送給 Analytics 使用者、Analytics 群組、原始電子郵件地址或電話號碼。
+指定可傳送警報的位置。警報可以傳送至Analytics使用者、Analytics群組、原始電子郵件地址或電話號碼。
 
 >[!IMPORTANT]
 >
@@ -66,21 +66,21 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 拖放量度到畫布以新增觸發。
 
    如果警報中並非所有元件 (量度/維度/區段) 都與目前所選報表套裝相容，系統會顯示&#x200B;**「不相容的元件」**&#x200B;訊息。
-* 確定觸發警報前必須超過的量度臨界值。您可以將此值設為臨界值以及下列其中一個條件：
+* 確定度量在設定警報前必須超過的臨界值。 您可以將此值設為臨界值以及下列其中一個條件：
 
-   * 存在異常
-   * 異常超出預期
-   * 異常低於預期
+   * 存在有異常狀況
+   * 異常狀況高於預期
+   * 異常狀況低於預期
    * 高於或等於
    * 低於或等於
-   * 變更者
+   * 變更依據
    * 您可以設定 90%、95%、99%、99.75% 或 99.9% 的臨界值。
    請注意您也可以使用計算量度。
 
 *... 包含這些篩選*
 
-* 拖放區段或維度以新增篩選條件。例如，新增「僅限行動裝置」區段可以代表規則僅會針對行動裝置而觸發。
-* 可使用 AND 陳述式新增其他篩選器條件。
+* 拖放區段或維度以新增篩選。 例如，新增「僅限行動裝置」區段表示規則只會觸發行動裝置。
+* 將使用AND語句添加其他篩選器。
 
 **新增規則**
 
@@ -88,10 +88,10 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 預覽警報 {#section_10D75BA7B77E4C5FAF58A719C082E070}
 
-互動式警報預覽會根據過去經驗，顯示觸發警報的大約頻率。
+互動式警報預覽會根據過去的經驗，顯示警報的觸發頻率。
 
-例如，如果您將時間粒度設為每日，則預覽可告訴您在過去 30 或 31 天裡，針對某個量度觸發了 x 次警報。
+例如，如果您將時間詳細程度設為每日，預覽會告知您，在過去30或31天內，某個量度x次會觸發警報。
 
-如果您覺得觸發的警報次數過多，可在「[警報管理器](/help/components/c-alerts/alert-manager.md)」中調整臨界值。
+如果您發現觸發的警報過多，可以在警報管理器中調整 [閾值](/help/components/c-alerts/alert-manager.md)。
 
 ![](assets/alert_preview.png)
