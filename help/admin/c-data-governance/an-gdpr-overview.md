@@ -2,8 +2,8 @@
 description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作，以支援資料主體的 GDPR 存取和刪除權限。
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
-source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## Adobe 概觀 {#section_E582A1D77583410EBB790BB646854A2C}
 
-> [!IMPORTANT] 本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
+>[!IMPORTANT] 本文件的內容不是法律建議，且用意並非要取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
 
 歐盟通用資料保護規範 (GDPR) 已於 2018 年 5 月 25 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [GDPR 和您的業務](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
@@ -26,7 +26,7 @@ source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ## Adobe 如何處理 GDPR 資料 {#section_A20BCC08A80B410D97601BFB1CAF83F1}
 
-Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資料控管基礎結構連接其用於建立和管理消費者體驗的 Adobe 工具。Adobe Cloud Platform 的資料控管功能，可啟用資料控管策略與資料使用情況之間直接關聯。
+Adobe Cloud Platform(ACP)提供整合式解決方案，將您品牌的資料治理基礎架構與用來建立及管理消費者體驗的Adobe工具相連結。 Adobe Cloud Platform的資料治理功能可讓資料治理政策與資料使用直接連結。
 
 請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解 GDPR 整備步驟，以及如何與 Adobe Experience Cloud GDPR API 整合。
 
@@ -34,9 +34,9 @@ Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資�
 
 Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。
 
-為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
+為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便提交存取權並刪除要求以處理該資料。 對於每個請求，Analytics資料控管使用者介面中定義的標籤會接受與該請求對應的特定識別碼。
 
-請參閱[標籤報表套裝資料](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)，以瞭解如何設定標籤的詳細資訊。
+See [Label Report Suite Data](/help/admin/c-data-governance/gdpr-setup-reportsuite.md) for more information on how to set the labels.
 
 ## 必備條件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
@@ -45,6 +45,6 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 * 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://marketing.adobe.com/resources/help/zh_TW/mcloud/report-suite-mapping.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 GDPR 刪除與存取請求。
 
-   > [!NOTE] 如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
+   > [!NOTE] 如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請連絡您的客戶成功經理，以設定您的資料保留期。
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
