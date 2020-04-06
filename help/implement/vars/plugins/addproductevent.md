@@ -1,48 +1,48 @@
 ---
 title: addProductEvent
-description: 新增自訂事件至產品和事件變數。
+description: 將自訂事件新增至產品和事件變數。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：addProductEvent
+# Adobe 外掛程式：addProductEvent
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外掛 `addProductEvent` 程式會新增數值或貨幣事件至變 [`products`](../page-vars/products.md) 數。 如果您想要新增數值或貨幣事件至變數，而不需擔心產品字串格式，Adobe `products` 建議使用此外掛程式。 如果您未在變數中使用數值或貨幣事件，則不需要此外掛程 `products` 式。
+`addProductEvent` 外掛程式會將數值或貨幣事件新增至 [`products`](../page-vars/products.md) 變數。如果您想要將數值或貨幣事件新增至 `products` 變數，又不想擔心產品字串格式，Adobe 建議您使用此外掛程式。如果您未在 `products` 變數中使用數值或貨幣事件，就不需要使用此外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化addProductEvent
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 addProductEvent
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,21 +59,21 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 
 ## 使用外掛程式
 
-該方 `addProductEvent` 法使用以下引數：
+`addProductEvent` 方法使用以下引數：
 
-* **`en`** （必要，字串）:要新增至變數中最後一個項目的 `products` 事件。 如果變 `products` 數為空，則會建立「空白」產品項目，並附加事件（及其值）。
-* **`ev`** （必要，字串）:在引數中指派給數值或貨幣事件的 `en` 值。  預設為 `1` 未設定時。
-* **`ap`** （可選，布林）:如果產品變數目前包含多個產品項目，則值( `true` 或 `1`)會將事件新增至所有產品項目。  預設為 `false` 未設定時。
+* **`en`** (必要，字串)：要新增至 `products` 變數中最後一個項目的事件。如果 `products` 變數為空，系統會建立「空白」產品項目並附加事件 (與事件值)。
+* **`ev`** (必要，字串)：`en` 引數中指派給數值或貨幣事件的值。若未設定，則預設為 `1`。
+* **`ap`** (可選，布林)：如果產品變數目前包含多個產品項目，`true` 值 (或 `1`) 會將事件新增至所有產品項目。若未設定，則預設為 `false`。
 
-它 `addProductEvent` 不傳回。 而是將事件及其值新增至變 `products` 數。 此外掛程式也會自動將事件新增至變 [`events`](../page-vars/events/events-overview.md) 數，因為此處也需要它。
+`addProductEvent` 不傳回任何內容，而是將事件與事件值新增至 `products` 變數。此外掛程式也會自動將事件新增至 [`events`](../page-vars/events/events-overview.md) 變數，因為此處也需要它。
 
 ## Cookie
 
-addProductEvent外掛程式不會建立或使用任何Cookie
+addProductEvent 外掛程式不會建立或使用任何 Cookie
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
 下列程式碼會將變 `s.products` 數設為 `";product1;3;300,;product2;2;122,;product3;1;25;event35=25"`。
 
@@ -85,7 +85,7 @@ s.addProductEvent("event35", "25");
 
 上述程式碼也會將變 `s.events` 數設為 `"purchase,event35"`
 
-### 範例#2
+### 範例 #2
 
 下列程式碼將變數 `s.products` 設為 `";product1;3;300;event35=25,;product2;2;122;event35=25,;product3;1;25;event35=25"`
 
@@ -96,7 +96,7 @@ s.addProductEvent("event35", 25, 1);
 
 當呼叫中的第三個引 `addProductEvent` 數為 `true` (或 `1`)時，每個產品項目都會將呼叫中指定的事件新增至其值。
 
-### 範例#3
+### 範例 #3
 
 下列程式碼將變數 `s.products` 設為 `";product1;3;300;event2=10;eVar33=large|eVar34=men|eVar35=blue,;product2;2;122,;product3;1;25;event33= 12|event34=10|event35=15"`
 
@@ -110,7 +110,7 @@ s.addProductEvent("event35", "15");
 
 上述程式碼也會將變 `s.events` 數設為 `"purchase,event2,event33,event34,event35"`
 
-### 範例#4
+### 範例 #4
 
 下列程式碼將變數 `s.products` 設為 `";product1;3;300;event2=10|event33=12|event34=10|event35=15;eVar33=large|eVar34=men|eVar35=blue, ;product2;2;122;event33=12|event34=10|event35=15,;product3;1;25;event33=12|event34=10|event35=15"`
 
@@ -124,11 +124,11 @@ s.addProductEvent("event35", "15", 1);
 
 上述程式碼也會將變 `s.events` 數設為 `"purchase,event2,event33,event34,event35"`。
 
-> [!NOTE] 呼叫中的第二個引數可以是整數 **** ，或代表整數／數字的字串
+>[!NOTE] 呼叫中的第二個引數可以是整數 **** ，或代表整數／數字的字串
 
-### 範例#5
+### 範例 #5
 
-如 `s.products` 果尚未設定，下列程式碼會將它設為 `";;;;event35=25"`
+如 `s.products` 果尚未設定，下列程式碼會將它設定為 `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
@@ -138,6 +138,6 @@ s.addProductEvent("event35", "25");
 
 ## 版本記錄
 
-### 1.0（2019年10月7日）
+### 1.0 (2019 年 10 月 7 日)
 
 * 首次發行。
