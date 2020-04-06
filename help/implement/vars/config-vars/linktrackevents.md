@@ -1,43 +1,43 @@
 ---
 title: linkTrackEvents
-description: 決定要在連結追蹤影像要求中包含哪些事件。
+description: 決定要在連結追蹤影像要求中納入哪些事件。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkTrackEvents
 
-有些實作不想將所有變數納入所有連結追蹤影像要求。 使用和 [`linkTrackVars`](linktrackvars.md) 變數 `linkTrackEvents` ，在呼叫中選擇性地包含維度和 [`tl()`](../functions/tl-method.md) 量度。
+有些實施不希望將所有變數納入每個連結追蹤影像要求中。請使用 [`linkTrackVars`](linktrackvars.md) 和 `linkTrackEvents` 變數，在 [`tl()`](../functions/tl-method.md) 呼叫中選擇性地納入維度和量度。
 
-此變數不用於頁面檢視呼叫([`t()`](../functions/t-method.md) 方法)。
+This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
 
-## 使用Adobe Experience Platform Launch的連結追蹤呼叫中的事件
+## 使用 Adobe Experience Platform Launch 時連結追蹤呼叫中的事件
 
-Launch會自動偵測介面中定義的事件，並將其納入連結追蹤點擊中。
+Launch 會自動偵測介面中定義的事件，並將其納入連結追蹤點擊中。
 
-> [!IMPORTANT] 如果您使用自訂代碼編輯器在啟動中設定事件，則也必須在使用自訂代碼 `linkTrackEvents` 時加入事件。
+>[!IMPORTANT] 如果您使用自訂程式碼編輯器在 Launch 中設定事件，也必須使用自訂程式碼在 `linkTrackEvents` 中納入事件。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.linkTrackEvents
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackEvents
 
-變 `s.linkTrackEvents` 數是一個字串，包含您要納入連結追蹤影像請求（方法）中的逗號分隔事件`tl()` 清單。 必須符合下列三個條件，才能在連結追蹤點擊中包含量度：
+The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). 若要在連結追蹤點擊中納入量度，以下三個條件必須滿足：
 
-* 在變數中設定所要的 [`events`](../page-vars/events/events-overview.md) 事件。 例如, `s.events = "event1";`。
-* Set the `events` variable in `linkTrackVars`. 例如, `s.linkTrackVars = "events";`。
-* 在變數中設定所要的 `linkTrackEvents` 事件。 例如, `s.linkTrackEvents = "event1";`。
+* 在 [`events`](../page-vars/events/events-overview.md) 變數中設定所要的事件。例如：`s.events = "event1";`。
+* 在 `linkTrackVars` 中設定 `events` 變數。例如：`s.linkTrackVars = "events";`。
+* 在 `linkTrackEvents` 變數中設定所要的事件。例如：`s.linkTrackEvents = "event1";`。
 
 ```js
 s.linkTrackEvents = "event1,event2,event3,purchase";
 ```
 
-此變數的預設值為空字串。 如果未定義此變數，所有事件都會納入連結追蹤影像請求中。 請注意，Launch會根據介面中設定的事件自動填入此變數，因此一律會在使用Launch的實施中設定。
+此變數的預設值為空字串。如果此變數未定義，所有事件都會納入連結追蹤影像要求中。請注意，Launch 會根據介面中設定的事件自動填入此變數，因此在使用 Launch 的實施中一律會設定。
 
-> [!TIP] 在此變數中指定事件時，請`s.`避免使用Analytics物件識別碼()。 例如， `s.linkTrackEvents = "event1";` 正確，但 `s.linkTrackEvents = "s.event1";` 不正確。
+>[!TIP] 在此變數中指定事件時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackEvents = "event1";` 正確，而 `s.linkTrackEvents = "s.event1";` 不正確。
 
 ## 範例
 
-下列連結追蹤功能僅包含 `event1` (非 `event2`)傳送至Adobe的影像要求：
+以下連結追蹤函數只會在傳送給 Adobe 的影像要求中納入 `event1` (不會納入 `event2`)：
 
 ```js
 s.events = "event1,event2";
