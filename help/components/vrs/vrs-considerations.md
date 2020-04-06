@@ -4,8 +4,8 @@ keywords: Virtual Report Suite,VRS
 title: 虛擬報表套裝和多套裝標記考量事項
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 使用全域報表套裝和 VRS 取代多套裝標記，這樣就能簡化 Adobe Analytics 實作，並降低伺服器呼叫耗用量，這是我們建議使用的最佳作法。但是，VRS 存在一些重大侷限。若要判斷實作全域報表套裝上所建立的虛擬報表套裝是否為適合您使用的方法，下列準則可協助您做出決定。
 
-## 準則
+## 准則
 
 如果您不確定所述的使用案例是否適用於您及您的組織，請洽詢其他的 Adobe Analytics 管理員或 Adobe 客戶經理。他們可協助您評估業務需求並提供建議。
 
@@ -52,7 +52,7 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
 
 請務必確認不重複維度和量度的數量在單一全域報表套裝中適用。如果您發現不重複維度或量度數量過多，請檢查每項實作中的每個維度，因為當中可能存在對業務的成功不具關鍵性的重疊項目和維度。建議一併使用[分類](/help/components/c-classifications2/c-classifications.md)功能。例如，請根據「產品」維度建立「產品名稱」分類，而不擷取 eVar5 中的「產品名稱」。任何相依的虛擬報表套裝都能自動使用來源報表套裝中的分類功能。
 
-> [!TIP]由於我們推出了[組織](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)功能，您現在可以根據各個 VRS 變更指定維度或量度的名稱。
+>[!TIP]由於我們推出了[組織](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md)功能，您現在可以根據各個 VRS 變更指定維度或量度的名稱。
 
 ### 區段的細微差別
 
@@ -82,7 +82,7 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
 
 摘要資料來源可讓您以報表套裝層級將彙總的量度匯入至 Adobe Analytics。由於摘要資料來源的上傳內容包含的是彙總量度，因此無法分段。VRS 是透過分段來運作，所以所有使用摘要資料來源匯入的資料都無法在虛擬報表套裝中顯示。摘要資料來源僅會顯示在來源報表套裝中。
 
-> [!TIP] 完整的資料來源處理可支援分段，且可用於虛擬報表套裝。
+>[!TIP] 完整的資料來源處理可支援分段，且可用於虛擬報表套裝。
 
 ## 決定使用 VRS 時的依循步驟
 
