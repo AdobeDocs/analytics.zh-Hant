@@ -1,8 +1,8 @@
 ---
 title: 使用 AJAX 進行實施
 description: 瞭解如何使用 AJAX 在網站上實施 Adobe Analytics。
-translation-type: ht
-source-git-commit: 0439440e10dddf8a5d64e4ea8f9868b521e5ca20
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,13 +24,13 @@ Adobe Analytics 通常需要重新載入頁面才能重設 Analytics 追蹤物�
 * 如果答案為&#x200B;**是**，請考慮使用頁面檢視追蹤呼叫 (`s.t()`)。
 * 如果答案為&#x200B;**否**，請考慮使用連結追蹤呼叫 (`s.tl()`) 來追蹤互動。
 
-> [!NOTE] 並非所有互動或點按都需加以記錄。請仔細考慮哪些動作最需要追蹤，並據此將資料傳送至 Adobe。
+>[!NOTE] 並非所有互動或點按都需加以記錄。請仔細考慮哪些動作最需要追蹤，並據此將資料傳送至 Adobe。
 
 ## 清除每個頁面上的變數
 
 變數值會持續存在於使用 AJAX 在頁面上，因為頁面不會重新載入。因此，需要進行特殊的調整來清除變數值，以免這些值在點擊間錯誤地持續存在。Adobe 提供的 [`clearVars`](../vars/functions/clearvars.md) 函數可輕鬆清除變數值。將每個點擊傳送至 Adobe 之後，以及設定下次點擊的變數值之前，請務必使用此函數。
 
-> [!TIP] `clearVars()` 函數無法在 H Code 中使用。如果您尚未升級至 AppMeasurement，請將每個 Analytics 變數值設為空字串。
+>[!TIP] `clearVars()` 函數無法在 H Code 中使用。如果您尚未升級至 AppMeasurement，請將每個 Analytics 變數值設為空字串。
 
 ## 範例
 
