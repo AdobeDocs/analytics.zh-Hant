@@ -1,48 +1,48 @@
 ---
 title: getAndPersistValue
-description: 儲存值，以便稍後隨時擷取。
+description: 儲存值以便稍後隨時擷取。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：getAndPersistValue
+# Adobe 外掛程式：getAndPersistValue
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外 `getAndPersistValue` 掛程式可讓您將值儲存在Cookie中，以便稍後在瀏覽期間擷取。 它的角色與Adobe Experience Platform Launch [!UICONTROL Storage duration] 中的功能類似。 如果您想在設定變數後，在後續的點擊中自動將Analytics變數保留為相同值，Adobe建議使用此外掛程式。 如果Launch的功能已足夠，或者您不需要在後續點擊中將變 [!UICONTROL Storage duration] 數設定為相同值並持續存在，則不需要此外掛程式。 eVar的內建永續性不需要使用此外掛程式，因為這些變數會由Adobe在伺服器端持續存在。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。It serves a similar role to the [!UICONTROL Storage duration] feature in Adobe Experience Platform Launch. 設定變數後，如果您想在後續的點擊中自動讓 Analytics 變數保留相同的值，Adobe 建議您使用此外掛程式。This plug-in is not necessary if Launch&#39;s [!UICONTROL Storage duration] feature is sufficient, or if you do not need to set and persist variables to the same value in subsequent hits. eVar 的內建永續性不需要使用此外掛程式，因為這些變數由 Adobe 保留在伺服器端。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化getAndPersistValue
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getAndPersistValue
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -53,82 +53,82 @@ s.getAndPersistValue=function(vtp,cn,ex){var b=new Date;cn=cn?cn:"s_gapv";(ex=ex
 
 ## 使用外掛程式
 
-該方 `getAndPersist` 法使用以下引數：
+`getAndPersist` 方法使用以下引數：
 
-* **`vtp`** （必要）:要在頁面之間持續存留的值
-* **`cn`** （可選）:儲存值的Cookie名稱。 如果未設定此引數，則會命名Cookie `"s_gapv"`
-* **`ex`** （可選）:Cookie過期的天數。 如果此引數 `0` 已設定或未設定，Cookie會在瀏覽結束時過期（閒置30分鐘）。
+* **`vtp`** (必要)：要在頁面之間保留的值
+* **`cn`** (選用)：要儲存值的 Cookie 名稱。如果此引數未設定，系統會將 Cookie 命名為 `"s_gapv"`
+* **`ex`** (選用)：Cookie 過期的天數。如果此引數為 `0` 或未設定，Cookie 會在造訪結束時過期 (閒置 30 分鐘)。
 
-如果已設定引 `vtp` 數中的變數，則外掛程式會設定Cookie，然後傳回Cookie值。 如果未設定引 `vtp` 數中的變數，則外掛程式只會傳回Cookie值。
+如果 `vtp` 引數中的變數已設定，外掛程式會設定 Cookie，然後傳回 Cookie 值。如果 `vtp` 引數中的變數未設定，外掛程式只會傳回 Cookie 值。
 
 ## 範例
 
-### 範例#1
+### 範例 #1
 
-下列程式碼會將eVar21設定為等於&quot;hello&quot;的值。  接著，程式碼會設定ev21gapv Cookie，其將於28天後到期，等於eVar21的值(即&quot;hello&quot;)。  然後程式碼會（重新）將eVar21設定為ev21gapv Cookie的值。
+下列程式碼會將 eVar21 設定為等於「hello」的值。接著，程式碼會將 ev21gapv Cookie (將於 28 天後過期) 設定為等於 eVar21 的值 (即「hello」)。最後，程式碼會將 eVar21 設定 (重設) 為等於 ev21gapv Cookie 的值。
 
 ```js
 s.eVar21 = "hello";
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### 範例#2
+### 範例 #2
 
-假設eVar21尚未設定在目前頁面上，但在過去28天內設定為等於上一頁的「hello」。   下列程式碼只會將eVar21設定為等於ev21gapv Cookie的值(即&quot;hello&quot;)。  它不會重設ev21gapv Cookie，因為在呼叫函式之前，eVar21未在目前頁面上設定。
+假設 eVar21 尚未在目前頁面上設定，但是在過去 28 天內曾在先前的頁面上設定為等於「hello」的值。下列程式碼只會將 eVar21 設定為等於 ev21gapv Cookie 的值 (即「hello」)。它不會重設 ev21gapv Cookie，因為在呼叫函數之前，eVar21 尚未在目前頁面上設定。
 
 ```js
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### 範例#3
+### 範例 #3
 
-假設eVar21尚未設定在目前頁面上，但在過去28天內設定為等於上一頁的「hello」。  下列程式碼僅會將prop35設為ev21gapv Cookie的值(即&quot;hello&quot;)。  它不會設定eVar21。
+假設 eVar21 尚未在目前頁面上設定，但是在過去 28 天內曾在先前的頁面上設定為等於「hello」的值。下列程式碼只會將 prop35 設定為等於 ev21gapv Cookie 的值 (即「hello」)。它不會設定 eVar21。
 
 ```js
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### 範例#4
+### 範例 #4
 
-下列程式碼會將eVar21設定為&quot;howdy&quot;的值。  然後，程式碼會設定（或重設）ev21gapv Cookie，其將於28天後到期，等於eVar21的值(即&quot;howdy&quot;)。  然後，程式碼會將prop35設定為ev21gapv Cookie的值(即&quot;howdy&quot;)。
+下列程式碼會將 eVar21 設定為等於「howdy」的值。接著，程式碼會將 ev21gapv Cookie (將於 28 天後過期) 設定 (重設) 為等於 eVar21 的值 (即「howdy」)。最後，程式碼會將 prop35 設定為等於 ev21gapv Cookie 的值 (即「howdy」)。
 
 ```js
 s.eVar21 = "howdy";
 s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### 範例#5
+### 範例 #5
 
-假設s.eVar21在過去28天內未在任何頁面上設定。  下列程式碼會將s.eVar21設定為無值，因為ev21gapv Cookie會在上次設定後28天過期。
+假設 s.eVar21 在過去 28 天內未曾在任何頁面上設定。下列程式碼會將 s.eVar21 設定為無值，因為 ev21gapv Cookie 自從上次設定後已過期 28 天。
 
 ```js
 s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
 ```
 
-### 範例#6
+### 範例 #6
 
-下列程式碼會將eVar30設為「shopping」。  接著，它會設定s_gapv Cookie，此Cookie將在瀏覽器作業結束時過期，等於s.eVar30的值(即「購物」)。  然後，它會將s.eVar30設定為s_gapv Cookie的值（亦即getAndPersistValue呼叫會傳回s_gapv Cookie的值，在此例中為「shopping」）。
+下列程式碼會將 eVar30 設定為等於「shopping」的值。接著，代碼會將 s_gapv Cookie (將於瀏覽器工作階段結束後過期) 設定為等於 s.eVar30 的值 (即「shopping」)。最後，它會將 s.eVar30 設定為等於 s_gapv Cookie 的值 (也就是說 getAndPersistValue 呼叫會傳回 s_gapv Cookie的值，即此例中的「shopping」)。
 
 ```js
 s.eVar30 = "shopping";
 s.eVar30 = s.getAndPersistValue(s.eVar30);
 ```
 
-如果s.eVar30未設定為作業階段期間檢視之任何其他頁面上的明確值，但是透過下列程式碼設定（在doPlugins中）。..
+在工作階段期間內，如果 s.eVar30 未於其他任何顯示的頁面上設定為明確的值，但是透過下列程式碼設定 (在 doPlugins 中)...
 
 ```js
 s.eVar30 = s.getAndPersistValue(s.eVar30);
 ```
 
-...s.eVar30將設為「shopping」（即s_gapv Cookie的持續值）
+...s.eVar30 將設為等於「shopping」的值 (即 s_gapv cookie 留存的值)
 
 ## 版本記錄
 
-### 2.0（2018年4月16日）
+### 2.0 (2018 年 4 月 16 日)
 
-* 點數發行（較小的程式碼大小）
-* 現在，將0傳入 `ex` 引數中會強制在閒置30分鐘後過期，而非在瀏覽器作業結束時過期。
+* 單點發行 (程式碼大小較小)
+* 將 0 傳入 `ex` 引數現在會強迫在閒置 30 分鐘後過期，而不是在瀏覽器工作階段結束後過期。
 
-### 1.0（2016年1月18日）
+### 1.0 (2016 年 1 月 18 日)
 
 * 首次發行。
