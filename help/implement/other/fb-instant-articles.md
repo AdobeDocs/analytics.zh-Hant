@@ -1,8 +1,8 @@
 ---
 title: 使用 Facebook 即時文章進行實施
 description: 在 Facebook 即時文章頁面上實施 Adobe Analytics。
-translation-type: ht
-source-git-commit: 9d2007bead6a4963022f8ea884169802b1c002ff
+translation-type: tm+mt
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
@@ -24,7 +24,7 @@ Facebook 即時文章可讓發佈者於 Facebook 上快速建立互動式文章�
 
 ### 步驟1：建立 `stats.html` 頁面
 
-以下的 HTML 樣本可以用於擷取即時文章的數據。此檔案會託管於貴公司其中一部網路伺服器。每次載入即時文章時，都會在 iframe 中載入檔案，進而觸發將資料傳送至 Adobe。
+以下範例HTML可用來擷取即時文章的統計資料。 此檔案會託管於貴公司其中一部網路伺服器。每次載入即時文章時，都會在 iframe 中載入檔案，進而觸發將資料傳送至 Adobe。
 
 ```html
 <html>
@@ -83,7 +83,7 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 <iframe class="no-margin" src="https://example.com/stats.html?eVar2=Dynamic%20article%20title&pageName=Example%20article%20name&cmpId=exampleID123" height="0"></iframe>
 ```
 
-> [!NOTE] 由於 iframe 的性質，系統不會自動追蹤「反向連結」維度。如果您想要追蹤此維度，請務必將此維度加入查詢字串中。
+>[!NOTE] 由於 iframe 的性質，系統不會自動追蹤「反向連結」維度。如果您想要追蹤此維度，請務必將此維度加入查詢字串中。
 
 ## Facebook 即時文章與隱私權
 
