@@ -1,45 +1,45 @@
 ---
 title: linkTrackVars
-description: 指定要包含在連結追蹤影像要求中的變數。
+description: 指定要將哪些變數納入連結追蹤影像要求中。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
 # linkTrackVars
 
-有些實作不想將所有變數納入所有連結追蹤影像要求。 使用和 `linkTrackVars` 變數 [`linkTrackEvents`](linktrackevents.md) ，在呼叫中選擇性地包含維度和 [`tl()`](../functions/tl-method.md) 量度。
+有些實施不希望將所有變數納入每個連結追蹤影像要求中。請使用 `linkTrackVars` 和 [`linkTrackEvents`](linktrackevents.md) 變數，在 [`tl()`](../functions/tl-method.md) 呼叫中選擇性地納入維度和量度。
 
-此變數不用於頁面檢視呼叫(`t()` 方法)。
+This variable is not used for page view calls (`t()` method).
 
-## 使用Adobe Experience Platform Launch進行連結追蹤呼叫的變數
+## 使用 Adobe Experience Platform Launch 時連結追蹤呼叫中的變數
 
-Launch會根據介面中設定的變數，自動在後端填入此變數，因此一律會在使用Launch的實作中設定。
+Launch 會根據介面中設定的變數在後端自動填入此變數，因此在使用 Launch 的實施中一律會設定。
 
-> [!IMPORTANT] 如果您使用自訂程式碼編輯器在Launch中設定變數，則也必須在使用自訂程式碼時 `linkTrackVars` 加入變數。
+>[!IMPORTANT] 如果您使用自訂程式碼編輯器在 Launch 中設定變數，也必須使用自訂程式碼在 `linkTrackVars` 中納入變數。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.linkTrackVars
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackVars
 
-變 `s.linkTrackVars` 數是一個字串，包含您要納入連結追蹤影像要求（方法）的逗號分隔變`tl()` 數清單。 必須符合下列兩個標準，才能在連結追蹤點擊中包含維度：
+The `s.linkTrackVars` variable is a string containing a comma-delimited list of variables that you want to include in link tracking image requests (`tl()` method). 若要在連結追蹤點擊中納入維度，以下兩個條件必須滿足：
 
-* 設定所需的變數值。 例如, `s.eVar1 = "Example value";`。
-* 在變數中設定所需的 `linkTrackVars` 變數。 例如, `s.linkTrackEvents = "eVar1";`。
+* 設定所需的變數值。例如：`s.eVar1 = "Example value";`。
+* 在 `linkTrackVars` 變數中設定所要的變數。例如：`s.linkTrackEvents = "eVar1";`。
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 ```
 
-此變數的預設值為空字串。 不過，Adobe在「代碼管理員」中提供AppMeasurement代碼，此變數設為 `"None"`。 有效值是任何填入維度的頁面層級變數。
+此變數的預設值為空字串。不過，在「代碼管理器」內由 Adobe 提供的 AppMeasurement 程式碼中，此變數設為 `"None"`。有效值是任何填入維度的頁面層級變數。
 
-* 如果此變數未定義或設為空字串，則所有變 *數都會包含* 在連結追蹤影像要求中。
-* 如果此變數設為 `"None"`, *連結追蹤影像請求中不* 會包含任何變數。
+* 如果此變數未定義或設為空字串，*所有*&#x200B;變數都會納入連結追蹤影像要求中。
+* 如果此變數設為 `"None"`，*不會*&#x200B;有任何變數納入連結追蹤影像要求中。
 
-> [!TIP] 在此變數中指定變數時，請`s.`避免使用Analytics物件識別碼()。 例如， `s.linkTrackVars = "eVar1";` 正確，但 `s.linkTrackVars = "s.eVar1";` 不正確。
+>[!TIP] 在此變數中指定變數時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackVars = "eVar1";` 正確，而 `s.linkTrackVars = "s.eVar1";` 不正確。
 
 ## 範例
 
-下列連結追蹤功能僅包含 `eVar1` (非 `eVar2`)傳送至Adobe的影像要求：
+以下連結追蹤函數只會在傳送給 Adobe 的影像要求中納入 `eVar1` (不會納入 `eVar2`)：
 
 ```js
 s.eVar1 = "Example value 1";
