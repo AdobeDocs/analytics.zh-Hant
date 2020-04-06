@@ -2,47 +2,47 @@
 title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 translation-type: tm+mt
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# Adobe外掛程式：getPageLoadTime
+# Adobe 外掛程式：getPageLoadTime
 
-> [!IMPORTANT] 此外掛程式由Adobe Consulting提供，以協助您從Adobe Analytics中獲得更多價值。 Adobe客戶服務不提供此外掛程式的支援，包括安裝或疑難排解。 如果您需要此外掛程式的協助，請連絡您組織的客戶經理。 客人可安排與顧問會面以尋求協助。
+>[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-外 `getPageLoadTime` 掛程式使用JavaScript效能物件，可讓您測量頁面完全載入所花的時間。 如果您想要測量頁面載入所需的時間，Adobe建議使用此外掛程式。
+`getPageLoadTime` 外掛程式使用 JavaScript 效能物件，可讓您測量頁面完全載入所花的時間。如果您想要測量頁面載入所需的時間，Adobe 建議使用此外掛程式。
 
-## 使用Adobe Experience Platform Launch擴充功能安裝增效模組
+## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
-Adobe提供擴充功能，讓您使用最常用的增效模組。
+Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標 [!UICONTROL Extensions] 簽，然後按一下按 [!UICONTROL Catalog] 鈕
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
 1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
-1. 如果您尚未建立，請使用下列設定建立標示為「初始化外掛程式」的規則：
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心——載入的程式庫（頁面頂端）
+   * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常見Analytics外掛程式
-   * 動作類型：初始化getPageLoadTime
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getPageLoadTime
 1. 儲存並發佈規則的變更。
 
-## 使用Launch自訂程式碼編輯器安裝外掛程式
+## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，則可使用自訂程式碼編輯器。
+如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-1. 按一下所要的屬性。
-1. 前往標籤 [!UICONTROL Extensions] ，然後按一下Adobe Analytics [!UICONTROL Configure] 擴充功能下的按鈕。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 按一下所需的屬性。
+1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
 1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
-1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式碼貼入編輯視窗。
-1. 儲存變更並發佈至Analytics擴充功能。
+1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
+1. 儲存並發佈 Analytics 擴充功能的變更。
 
-## 使用AppMeasurement安裝外掛程式
+## 使用 AppMeasurement 安裝外掛程式
 
-在Analytics追蹤物件實例化（使用）後，將下列程式碼複製並貼至AppMeasurement檔案中的任 [`s_gi`](../functions/s-gi.md)何位置。 保留您實作中的程式碼注釋和版本號碼，有助於Adobe疑難排解任何潛在問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -59,21 +59,21 @@ s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo
 
 ## 使用外掛程式
 
-方 `getPageLoadTime` 法不使用任何引數。 呼叫此方法時，不會傳回任何內容。 而是設定下列變數：
+`getPageLoadTime` 方法不使用任何引數。呼叫此方法時，它不會傳回任何內容。而是會設定下列變數：
 
-* `s._pltPreviousPage`:上一頁，以便您將載入時間與上一頁建立關聯
-* `s._pltLoadTime`:上一頁載入所花費的秒數
+* `s._pltPreviousPage`：上一頁，讓您可將載入時間與上一頁建立關聯
+* `s._pltLoadTime`：上一頁載入所花費的秒數
 
-getPageLoadTime外掛程式會建立兩個第一方Cookie:
+getPageLoadTime 外掛程式會建立兩個第一方 Cookie：
 
-* `s_plt`:上一頁載入所花費的時間（以秒為單位）。 在瀏覽器作業結束時過期。
-* `s_pltp` 變數的值， `s.pageName` 如先前Adobe Analytics影像要求中所記錄。 在瀏覽器作業結束時過期。
+* `s_plt`：上一頁載入所花費的秒數。瀏覽器作業階段結束時會到期。
+* `s_pltp` `s.pageName` 變數的值，如先前 Adobe Analytics 影像要求中所記錄。瀏覽器作業階段結束時會到期。
 
 ## 呼叫範例
 
-### 範例#1
+### 範例 #1
 
-正在運行以下代碼……
+執行以下程式碼...
 
 ```js
 if(s.pageName) s.getPageLoadTime();
@@ -86,15 +86,15 @@ if(s._pltPreviousPage)
 }
 ```
 
-...將執行下列操作：
+...將執行下列作業：
 
-* 設定s.pageName時執行getPageLoadTime外掛程式
-* 將s.prop10設為上一頁的載入時間
-* 將s.prop11和s.eVar10設為上一頁的名稱（如s.pageName中所記錄）
-* 將event100設為自訂數值事件，等於上一頁的載入時間。   在此情況下，使用自訂事件可讓您取得上一頁（來自所有訪客／瀏覽）所有頁面載入的總時間量，因此使用計算量度來取得每個頁面的平均頁面載入時間
+* 設定 s.pageName 時執行 getPageLoadTime 外掛程式
+* 將 s.prop10 設為等於上一頁的載入時間
+* 將 s.prop11 和 s.eVar10 設為等於上一頁的名稱 (如 s.pageName 中所記錄)
+* 將 event100 (自訂數值事件) 設為等於上一頁的載入時間。在此情況下，使用自訂事件可讓您取得上一頁所有頁面載入的總時間量 (來自所有訪客/造訪)，進而使用計算量度來取得每個頁面的平均頁面載入時間
 
 ## 版本記錄
 
-### 1.0（2018年5月22日）
+### 1.0 (2018 年 5 月 22 日)
 
 * 首次發行。
