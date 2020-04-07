@@ -1,23 +1,23 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics Implementation Guide
+user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
+source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
 
 ---
 
 
-# Analytics 實作指南 {#implementation}
+# Analytics 實施指南 {#implementation}
 
-+ [Analytics 實作說明](home.md)
-+ [AppMeasurement發行說明](appmeasurement-updates.md)
-+ 分析變數、函式和方法 {#vars}
++ [Analytics 實施說明](home.md)
++ [AppMeasurement 發行說明](appmeasurement-updates.md)
++ Analytics 變數、函數和方法 {#vars}
    + [概述](vars/overview.md)
    + 設定變數 {#config-vars}
-      + [設定變數概觀](vars/config-vars/configuration-variables.md)
-      + [中止](vars/config-vars/abort.md)
+      + [設定變數概述](vars/config-vars/configuration-variables.md)
+      + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
       + [cookieDomain](vars/config-vars/cookiedomain.md)
@@ -50,7 +50,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [visitorID](vars/config-vars/visitorid.md)
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
-   + 頁面變數{page-vars}
+   + 頁面變數 {page-vars}
       + [頁面變數概觀](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
@@ -58,7 +58,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [動態變數](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
       + events {#events}
-         + [事件概觀](vars/page-vars/events/events-overview.md)
+         + [事件概述](vars/page-vars/events/events-overview.md)
          + [購買事件](vars/page-vars/events/event-purchase.md)
          + [事件序列化](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
@@ -76,8 +76,8 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [timestamp](vars/page-vars/timestamp.md)
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
-   + 函式與方法 {#functions}
-      + [函式概觀](vars/functions/overview.md)
+   + 函數與方法 {#functions}
+      + [函數概述](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
       + [t](vars/functions/t-method.md)
       + [tl](vars/functions/tl-method.md)
@@ -92,7 +92,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
    + 外掛程式 {#plugins}
-      + [增效模組概觀](vars/plugins/impl-plugins.md)
+      + [外掛程式概述](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
       + [ap](vars/plugins/apl.md)
@@ -118,44 +118,44 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
       + [manageVars](vars/plugins/managevars.md)
       + [Numbers Suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
-      + [pt](vars/plugins/pt.md)
+      + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
    + [整合模組](vars/integrate.md)
-+ Prepare to implement Adobe Analytics {#prepare}
++ 準備實施 Analytics {#prepare}
    + [建立資料層](prepare/data-layer.md)
    + [全域報表套裝考量事項](prepare/global-rs.md)
-   + [實作模式](prepare/implementation-modal.md)
+   + [實施強制回應視窗](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
-+ 使用 JavaScript 實作 Analytics {#js}
-   + [JavaScript概觀](js/overview.md)
-   + [實作退出連結](js/opt-out.md)
++ 使用 JavaScript 實施 Analytics {#js}
+   + [JavaScript 概述](js/overview.md)
+   + [實施退出連結](js/opt-out.md)
    + [變數覆寫](js/overrides.md)
-   + [從H程式碼移轉](js/migrate-from-hcode.md)
+   + [從 H Code 移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}
-      + [H程式碼概觀](js/h-code/overview.md)
+      + [H Code 概述](js/h-code/overview.md)
       + 動態帳戶 {#dynamicaccount}
-         + [動態帳戶概觀](js/h-code/dynamicaccount/overview.md)
+         + [動態帳戶概述](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
-      + [疑難排解H代碼](js/h-code/troubleshooting.md)
+      + [疑難排解 H Code](js/h-code/troubleshooting.md)
    + 舊版跨裝置識別 {#xdevice-visid}
-      + [跨裝置連線使用者概觀](js/xdevice-visid/xdevice-connecting.md)
-      + [變數永續性](js/xdevice-visid/variable-persistence.md)
-      + [瀏覽範例](js/xdevice-visid/visit-example.md)
+      + [跨裝置連結使用者概述](js/xdevice-visid/xdevice-connecting.md)
+      + [變數持續性](js/xdevice-visid/variable-persistence.md)
+      + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問答集](js/xdevice-visid/xdevice-faq.md)
-   + [疑難排解AppMeasurement](js/troubleshooting.md)
-+ Implement Analytics using Adobe Experience Platform Launch {#launch}
+   + [疑難排解 AppMeasurement ](js/troubleshooting.md)
++ 使用 Adobe Experience Platform Launch 實施 Analytics {#launch}
    + [Launch 概述](launch/overview.md)
-   + [建立Analytics屬性](launch/create-analytics-property.md)
+   + [建立 Analytics 屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
-   + [驗證並發佈至prod](launch/validate-publish-prod.md)
+   + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
    + [將啟動資料元素對應至Analytics變數](launch/elements-to-variable.md)
-+ 在其他平台上實施Analytics {#other}
-   + [使用硬式編碼影像要求實作Analytics](other/hardcoded.md)
-   + Implement Analytics using DTM {#dtm}
-      + [Dynamic Tag Management 實作概觀](other/dtm/dtm-implementation-overview.md)
++ 在其他平台上實施 Analytics {#other}
+   + [使用硬式編碼影像要求實施 Analytics](other/hardcoded.md)
+   + 使用 DTM 實施 Analytics {#dtm}
+      + [Dynamic Tag Management 實施概述](other/dtm/dtm-implementation-overview.md)
       + [建立 Web 屬性](other/dtm/t-create-web-property.md)
       + [設定託管選項](other/dtm/t-configure-hosting.md)
       + 頁首與頁尾 {#headers-footers}
@@ -165,7 +165,7 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [新增 Adobe Analytics 工具](other/dtm/c-aa-tool/analytics-dtm.md)
          + [一般](other/dtm/c-aa-tool/general-settings-analytics.md)
          + [程式庫管理](other/dtm/c-aa-tool/library-management.md)
-         + [插入核心 AppMeasurement 代碼](other/dtm/c-aa-tool/t-appmeasurement-code.md)
+         + [插入核心 AppMeasurement 程式碼](other/dtm/c-aa-tool/t-appmeasurement-code.md)
          + [全域變數](other/dtm/c-aa-tool/global-variables.md)
          + [頁面檢視與內容](other/dtm/c-aa-tool/pageviews-content.md)
          + [連結追蹤](other/dtm/c-aa-tool/link-tracking.md)
@@ -174,25 +174,25 @@ source-git-commit: d74a728b6d59e745204bb6c4b7de038491a1891a
          + [自訂頁面程式碼](other/dtm/c-aa-tool/customize-page-code.md)
          + [Adobe Analytics 工具常見問題集](other/dtm/c-aa-tool/dtm-faq.md)
       + [建立資料元素](other/dtm/t-data-element.md)
-      + [手動實作 Adobe Analytics (舊版)](other/dtm/t-analytics-deploy.md)
+      + [手動實施 Adobe Analytics (舊版)](other/dtm/t-analytics-deploy.md)
       + 規則 {#rules}
          + [建立新規則](other/dtm/c-rules/t-rules-create.md)
          + [建立事件型規則的條件](other/dtm/c-rules/t-rules-event-conditions.md)
          + [建立頁面載入規則的條件](other/dtm/c-rules/t-rules-page-conditions.md)
          + [建立直接呼叫規則的條件](other/dtm/c-rules/t-rules-direct-conditions.md)
          + [設定條件要觸發的動作](other/dtm/c-rules/t-rules-actions.md)
-         + [為 Akamai 主機測試未發佈的規則](other/dtm/c-rules/t-test-rules-akamai.md)
+         + [測試 Akamai 託管的取消發佈規則](other/dtm/c-rules/t-test-rules-akamai.md)
          + [程式庫下載或 FTP 的測試規則](other/dtm/c-rules/t-test-rules-ftp.md)
-   + [在Ajax上實作Analytics](other/ajax.md)
-   + [在AMP上實作分析](other/amp.md)
-   + [在數位助理上實作分析](other/digital-assistants.md)
-   + [在Facebook即時文章上實作分析](other/fb-instant-articles.md)
-+ [在行動裝置上實施Analytics](mobile-device-sdk.md)
+   + [在 Ajax 上實施 Analytics](other/ajax.md)
+   + [在 AMP 上實施 Analytics](other/amp.md)
+   + [在數位助理上實施 Analytics](other/digital-assistants.md)
+   + [在 Facebook 即時文章上實施 Analytics](other/fb-instant-articles.md)
++ [在行動裝置上實施 Analytics](mobile-device-sdk.md)
 + 實施使用案例 {#use-cases}
-   + [追蹤不同的實作類型](use-cases/cross-type-implementation.md)
+   + [追蹤不同的實施類型](use-cases/cross-type-implementation.md)
    + [外部電子郵件追蹤](use-cases/email-external.md)
-+ Validate your implementation {#validate}
-   + [舊版Adobe Experience Cloud除錯程式](validate/debugger.md)
++ 驗證實施 {#validate}
+   + [舊版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
