@@ -188,6 +188,7 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
    3. 安裝 Testflight 應用程式後，請在 Testflight 中尋找 Adobe Analytics 行動應用程式並加以安裝，如下所示：
 
       ![Testflight 畫面](assets/testflight2.png)
+
    **若執行使用者使用 Android：**
 
    1. 在使用者裝置上點選下列 Play Store 連結 (也可從&#x200B;**「工具** > **行動應用程式」**底下的 Analytics 取得)：
