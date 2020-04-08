@@ -3,7 +3,7 @@ description: 報告建立工具5.2支援Adobe Analytics統一計算量度。 除
 title: 計算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 96ddfa863fae6044131e27a6d1cddd62d50223eb
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 可用的篩選條件包括：
 
-![](assets/advanced_filters_(2).png)
+![](assets/advanced_filters.png)
 
 | 篩選器名稱 | 說明 |
 |---|---|
