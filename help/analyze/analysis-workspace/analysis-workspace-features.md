@@ -1,10 +1,10 @@
 ---
 keywords: Analysis Workspace
-title: Analysis Workspace概述
+title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 ---
 
@@ -15,9 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-## 概述影片 {#section_B99BF8A326D94ECB91BD69C9888AD10C}
+## 概述影片
 
->[!VIDEO](https://www.youtube.com/watch?v=IHOy-QsvVcA)
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
 [這裡](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)提供完整的 YouTube 播放清單。
 
@@ -25,7 +25,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >參閱 [Analysis Workspace 的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)，了解功能的相關更新。
 
-## 完整控制專案元素和元件 {#section_B7E3EDA3EDEE407D833F4FDB69646EEC}
+## 完整控制專案元素和元件
 
 Analysis Workspace 提供自由與靈活性：
 
@@ -37,7 +37,7 @@ Analysis Workspace 提供自由與靈活性：
 
 參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得詳細資訊。
 
-## 專案中的多重視覺效果 {#section_B7670740C2D44130B21DAF0873280DA5}
+## 專案中的多重視覺效果
 
 將任意數量的視覺化拖放至您想要的專案上。
 
@@ -49,7 +49,7 @@ Analysis Workspace 提供自由與靈活性：
 
 參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得詳細資訊。
 
-## 面板和視覺效果的內部連結 {#section_253EA04E067F4A29A8B54CE2B7631086}
+## 面板和視覺效果的內部連結
 
 結合 Analysis Workspace [豐富文字編輯](/help/analyze/analysis-workspace/visualizations/text.md)功能後，您可透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案的內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。若要將內部連結新增至您的專案：
 
@@ -69,17 +69,17 @@ Analysis Workspace 提供自由與靈活性：
 
 >[!NOTE] 您也可以在右鍵選項中使 **[!UICONTROL Edit Description]** 用此功能。
 
-## 連結至其他專案 {#section_AE886C367C3E4F189B65B1BD9BCDBD8C}
+## 連結至其他專案
 
 You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
 
-## 所選儲存格的動態視覺效果 {#section_182CEC285E4547EBA4608D5F70C9D5D7}
+## 所選儲存格的動態視覺效果
 
 選取個別儲存格，並檢視視覺效果會動態變更。 [將視覺化與選取的儲存格同步](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) ，並將其鎖定。
 
 ![](assets/visualize-selected-cells.png)
 
-## 鎖定所選項目或位置 {#section_9D66A001586F49CEB0C565581E44957C}
+## 鎖定所選項目或位置
 
 鎖定視覺效果可以控制哪些自由資料表來源對應至視覺效果。
 
@@ -87,7 +87,7 @@ You can link users to other projects that may be of interest to them by going to
 
 參閱[管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)。
 
-## 所選儲存格的趨勢視覺效果 {#section_34930C967C104C2B9092BA8DCF2BF81A}
+## 所選儲存格的趨勢視覺效果
 
 從所選儲存格建立視覺效果。(按一下滑鼠右鍵> **[!UICONTROL Trend Selection]**.)
 
@@ -97,7 +97,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ![](assets/trend-selection2.png)
 
-## 維度與維度項目劃分 {#section_1380C1F9E51E4BFB8C5D35E7A53BC70D}
+## 維度與維度項目劃分
 
 身為零售商，您可以比以往更深入地探討您的宣傳活動，以瞭解如何更好地吸引客戶。 根據您的特定需求，以無限制的方式劃分資料；使用相關量度、維度、區段、時間線和其他分析劃分值建立查詢。
 
@@ -105,7 +105,7 @@ You can link users to other projects that may be of interest to them by going to
 
 參閱[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 
-## 從表格選取項目建立區段 {#section_73BC3688089B426D969B3D5B606DA970}
+## 從表格選取項目建立區段
 
 選取自由表格中的儲存格，並從選取項目建立區段。
 
@@ -119,7 +119,7 @@ You can link users to other projects that may be of interest to them by going to
 
 請參閱 [區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
 
-## 專案和元件標記 {#section_F54D688132A541F2982326D5E022B90D}
+## 專案和元件標記
 
 您可在 Analysis Workspace 中，套用標記至專案和元件：
 
@@ -128,7 +128,7 @@ You can link users to other projects that may be of interest to them by going to
 * 在「元件」面板中按一下滑鼠右鍵以標籤（或建立標籤）。
 * 在「搜尋」欄位中使用#來尋找標籤。
 
-## 元件動作 {#section_CBF4D0A5F63E4B0883077B8D852B800B}
+## 元件動作
 
 從元件左側欄頂端的「動作」功能表，可執行元件層級動作。Select a component and click **[!UICONTROL Actions]** to view the actions.
 
@@ -142,7 +142,7 @@ You can link users to other projects that may be of interest to them by going to
 
 See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) for more information.
 
-## 其他功能說明 {#section_5F06AE43C0194CFDBCA7EE0EA3C30B05}
+## 其他功能說明
 
 **您可以拖曳和堆疊的項目**
 
@@ -187,4 +187,4 @@ Analysis Workspace 獨特的預設區段。*`All Visits`*&#x200B;會顯示您新
 
 使用計算的方式與使用標準量度的方式相同。
 
-請參閱 [計算量度](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)。
+請參閱 [計算量度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)。
