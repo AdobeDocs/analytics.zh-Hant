@@ -1,8 +1,8 @@
 ---
 title: Labs 使用指南
 description: 預覽 Adobe Analytics 的原型專案
-translation-type: ht
-source-git-commit: bff1f6c76484cc7c488ceeaa9076f549d6593514
+translation-type: tm+mt
+source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
 
 ---
 
@@ -58,7 +58,7 @@ Labs 已為所有管理員設為自動啟用。其他團隊成員則必須連絡
 
 1. 若要嘗試不同的原型，或要退出原型環境，請按一下畫面右上方的&#x200B;**「離開原型」**&#x200B;按鈕，並填寫與原型相關的簡短問卷調查。退出原型環境後，對原型專案所做的任何更改都將遺失。
 
-   ![新的意見回饋方塊](https://git.corp.adobe.com/storage/user/26539/files/d067e300-a95e-11e9-9208-74339dafe75e)
+   ![新的意見回饋方塊](assets/short-survey.png)
 
 1. 按一下&#x200B;**「提交」**&#x200B;即可返回主預覽入口網站。
 
