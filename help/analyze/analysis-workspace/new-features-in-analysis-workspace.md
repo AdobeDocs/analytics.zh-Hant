@@ -5,12 +5,20 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
+source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 ---
 
 
 # Analysis Workspace 的新增功能
+
+## 2020年4月
+
+2020年4月16日發行的新功能。
+
+| 功能 | 說明 |
+|--- |--- |
+| 從空白狀 [!UICONTROL Freeform Tables] 態自動建立 | 以前，您無法直接將元件拖放到空白專案或空白麵板中；您必須先新增自由表格。 您現在可以直接將元件拖放至空白的專案或面板，並會自動以建議的格式為您建立自由表格。 此外，對混合元件類型（例如維度和量度）在一起拖放至空白時的處理方式做了改 [!UICONTROL Freeform Table] 進。 |
 
 ## 2020 年 3 月
 
@@ -239,7 +247,7 @@ source-git-commit: 7180c2bf154d91db957a9e74efae61c2fc1ffa6d
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/components/dimensions/view-dimensions.md"  > 動態維度欄 </a> </b> </p> </td> 
-   <td colname="col2"> <p>以前，當維度放在欄上時，我們會顯示非時間維度的前5個值（而時間維度的前15個），並將這些值保持為靜態（即，選取的5個值從未變更）。 </p> <p>從現在開始，依預設，我們會顯示動態值而非靜態值，並提供將它們轉換為靜態值的選項。 其他注意事項： </p> 
+   <td colname="col2"> <p>以前，當維度放在欄上時，我們會顯示非時間維度的前5個值（而時間維度的前15個），並將這些值保持為靜態（即，選取的5個值從未變更）。 </p> <p>從現在開始，依預設，我們會顯示動態值，而非靜態值，並提供將它們轉換為靜態值的選項。 其他注意事項： </p> 
     <ul id="ul_C802BC32CB084E30B4E58E9E90B9A63D"> 
      <li id="li_452466AB416F4737B532849C604BD4CC">按一下動態維度上的(i)，您就會看到排名（前1個，共5個）和維度類型。 </li> 
      <li id="li_588F6199E38D47869AC855A4C2A4D1B7">當您的資料更新時，動態維度欄會更新，以顯示目前的5/15維度項目。 </li> 
