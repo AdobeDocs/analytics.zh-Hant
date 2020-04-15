@@ -1,53 +1,53 @@
 ---
-description: 設定行動應用程式計分卡的相關指示。
-title: Adobe Analytics 行動應用程式組織者指南
-translation-type: ht
-source-git-commit: 9149e9ad5a74ef1de0ece5fb0056ee6fee5d50e9
+description: 使用控制面板記分卡的說明。
+title: Adobe Analytics儀表板執行指南
+translation-type: tm+mt
+source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
 
 ---
 
 
-# Analytics 行動應用程式：執行使用者快速入門指南
+# Adobe Analytics儀表板：執行使用者快速入門手冊
 
 ## 簡介
 
-Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
+Adobe Analytics儀表板可隨時隨地從Adobe Analytics獲得深入資訊。  此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS和Android作業系統都支援控制面板。
 
 ## 關於本指南
 
-本指南旨在協助執行使用者閱讀和理解 Analytics 行動應用程式的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+本指南旨在協助執行使用者讀取和解譯Analytics控制面板上的記分卡。 此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 術語表
 
-| 術語 | 定義 |
+| 詞語 | 定義 |
 |--- |--- |
 | 消費者 | 在行動裝置上檢視 Analytics 關鍵量度和深入分析的執行人員 |
 | 組織者 | 從 Analytics 尋找及分發深入分析，以及設定計分卡以供消費者檢視的資料識讀人員 |
 | 組織 | 為消費者建立或編輯行動計分卡的行為，計分卡內容包含相關量度、維度和其他項目 |
-| 計分卡 | 包含一或多個圖磚的行動應用程式檢視畫面 |
+| 計分卡 | 包含一或多個拼貼的控制面板檢視 |
 | 圖磚 | 計分卡檢視畫面呈現量度的形式 |
 | 劃分 | 輔助性質的檢視畫面，點選計分卡中的圖磚即可顯示。此檢視畫面會在圖磚所顯示的量度上展開，並依使用者的選擇顯示其他劃分維度。 |
-| 日期範圍 | 行動應用程式報表的主要日期範圍 |
+| 日期範圍 | 控制面板報告的主要日期範圍 |
 | 比較日期範圍 | 與主要日期範圍相比較的日期範圍 |
 
-## 在裝置上設定應用程式
+## 在您的裝置上設定控制面板
 
-為了有效使用應用程式，您需要請計分卡組織者協助您設定應用程式。本節提供相關資訊，幫助您在組織者的協助下完成設定。
+要有效地使用控制面板，您需要讓記分卡管理員協助您設定控制面板。 本節提供相關資訊，幫助您在組織者的協助下完成設定。
 
 ### 取得存取權
 
-若要在應用程式上存取計分卡，請確認：
+要訪問控制面板上的記分卡，請確保：
 
 * 您處於 Adobe Analytics 的有效登入狀態
 * 您的組織者已正確建立行動計分卡並與您共用
 
-### 下載並安裝應用程式
+### 下載並安裝控制面板
 
 若要下載及安裝應用程式，請根據裝置的作業系統，依步驟操作。
 
 **iOS 裝置：**
 
-1. 按一下以下公開連結 (也可從&#x200B;**「工具** > **行動應用程式」**&#x200B;底下的 Analytics 取得)：
+1. Click the following public link (It is also available in Analytics under **Tools** > **dashboards**):
 
    [iOS 連結](https://testflight.apple.com/join/WtXMQxlI)：`https://testflight.apple.com/join/WtXMQxlI`
 
@@ -57,13 +57,13 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
 
 2. 點選畫面上的&#x200B;**「在 App Store 中檢視」**&#x200B;連結，前往下載 Testflight 應用程式。
 
-3. 安裝 Testflight 應用程式後，請在 Testflight 中尋找 Adobe Analytics 行動應用程式並加以安裝，如下所示：
+3. 安裝Testflight應用程式後，請在Testflight中尋找並安裝Adobe Analytics控制面板，如下所示：
 
    ![Testflight 畫面](assets/testflight2.png)
 
 **Android 裝置：**
 
-1. 在使用者裝置上點選下列 Play Store 連結 (也可從&#x200B;**「工具** > **行動應用程式」**&#x200B;底下的 Analytics 取得)：
+1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
 
 
    [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp)：`https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
@@ -76,15 +76,15 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
 
    ![下載連結](assets/playnext.png)
 
-## 使用應用程式
+## 使用控制面板
 
-使用應用程式：
+要使用控制面板：
 
-1. 登入應用程式。啟動應用程式後，登入畫面會隨即顯示。使用您現有的 Adobe Analytics 憑證，依提示操作。此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
+1. 登入應用程式。啟動控制面板時，會出現登入畫面。 使用您現有的 Adobe Analytics 憑證，依提示操作。此應用程式同時支援 Adobe 和 Enterprise/Federated ID。
 
    ![登入程序](assets/signseq.png)
 
-2. 選擇公司。登入應用程式後，**選擇公司**&#x200B;畫面會隨即顯示。此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
+2. 選擇公司。After you sign into dashboards, the **Choose a company** screen appears. 此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
 
 3. 接著，計分卡清單會顯示已與您共用的所有計分卡。點選要檢視的計分卡。
 
@@ -129,7 +129,7 @@ Adobe Analytics 行動應用程式可隨時隨地提供 Adobe Analytics 的深�
 
 8. 提供意見回饋。提供意見回饋：
 
-   1. 點選應用程式畫面右上方的使用者圖示。
+   1. 點選控制面板畫面右上方的使用者圖示。
    2. 在&#x200B;**我的帳戶**&#x200B;畫面上，點選&#x200B;**「意見回饋」**&#x200B;選項。
    3. 點選並查看提供意見回饋的選項。
    ![提供意見回饋](assets/feedback.png)
