@@ -1,9 +1,9 @@
 ---
-description: 選取量度旁的齒輪圖示可讓您指定量度類型和歸因模型。
+description: '瞭解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
+source-git-commit: 7a791dda238b04fbee2773c60668eb45db0a1fd0
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 * [欄歸因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
 * [線性配置的運作方式（自2018年7月19日起）](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
-## 量度類型 {#section_34A86FB402F94E988724232283BF18B7}
+## 量度類型
 
 ![](assets/cm_type_alloc.png)
 
@@ -25,7 +25,7 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 | 標準 | 這些量度就是在標準 [!DNL Analytics] 報表中使用的量度。如果公式由單一標準量度組成，則會顯示與非計算量度對應的相同資料。 標準量度對於建立每個個別行項目專屬的計算量度非常有用。 例如，[訂單] / [造訪] 會採用該特定條列項目的訂單，然後除以該特定條列項目的造訪次數。 |
 | 總計 | 在每個行項目中使用報告期間的總計。 如果公式由單一總量度組成，則會在每個行項目上顯示相同的總數。 總量度對於建立與網站總資料比較的計算量度非常有用。 例如，[訂單] / [造訪總次數] 可顯示相較於網站「全部」造訪次數的訂單比例，而不只是特定條列項目的造訪次數。 |
 
-## 欄歸因模型 {#section_F9690FD1943B403AB28E2FAC54EFE032}
+## 欄歸因模型
 
 >[!IMPORTANT]
 >
@@ -40,68 +40,25 @@ source-git-commit: e6aaf2754c6a5c33fbe3e093b4d7ca5a375c41e7
 
 ## 線性配置的運作方式（自2018年7月19日起）
 
-2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和 Reporting API。此次變更主要影響 eVar 和其他具持續性的維度。請注意，這些變更只會套用至計算量度，不會影響其他使用線性配置的報表 (例如 Reports &amp; Analytics 的「頁面」報表)。使用線性配置的其他報表將繼續使用現有的線性配置方法。
+2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和 Reporting API。此變更主要會影響eVar和具有持續性的其他維度。 請注意，這些變更僅適用於計算量度，不會影響使用線性配置的其他報表（例如「報告與分析」中的「頁面」報表）。 使用線性配置的其他報表將繼續使用現有的線性配置方法。
 
 下列範例將說明具有線性配置的計算量度在報表中將如何變更：
 
-<table id="table_E66D066A3E7B4232BBC220775F8B985A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> </th> 
-   <th colname="col2" class="entry"> 點擊1 </th> 
-   <th colname="col3" class="entry"> 點擊2 </th> 
-   <th colname="col4" class="entry"> 點擊3 </th> 
-   <th colname="col5" class="entry"> 點擊4 </th> 
-   <th colname="col6" class="entry"> 點擊5 </th> 
-   <th colname="col7" class="entry"> 點擊6 </th> 
-   <th colname="col8" class="entry"> 點擊7 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>傳送資料 </p> </td> 
-   <td colname="col2"> 促銷活動A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> 促銷活動A </td> 
-   <td colname="col5"> 促銷B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> 促銷C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>上次接觸eVar </p> </td> 
-   <td colname="col2"> 促銷活動A </td> 
-   <td colname="col3"> 促銷活動A </td> 
-   <td colname="col4"> 促銷活動A </td> 
-   <td colname="col5"> 促銷B </td> 
-   <td colname="col6"> 促銷B </td> 
-   <td colname="col7"> 促銷C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>首次接觸eVar </p> </td> 
-   <td colname="col2"> 促銷活動A </td> 
-   <td colname="col3"> 促銷活動A </td> 
-   <td colname="col4"> 促銷活動A </td> 
-   <td colname="col5"> 促銷活動A </td> 
-   <td colname="col6"> 促銷活動A </td> 
-   <td colname="col7"> 促銷活動A </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>範例prop </p> </td> 
-   <td colname="col2"> 促銷活動A </td> 
-   <td colname="col3"> - </td> 
-   <td colname="col4"> 促銷活動A </td> 
-   <td colname="col5"> 促銷B </td> 
-   <td colname="col6"> - </td> 
-   <td colname="col7"> 促銷C </td> 
-   <td colname="col8"> $10 </td> 
-  </tr> 
- </tbody> 
-</table>
+|  | 點擊1 | 點擊2 | 點擊3 | 點擊4 | 點擊5 | 點擊6 | 點擊7 |
+|--- |--- |--- |--- |--- |--- |--- |--- |
+| 傳送資料 | 促銷活動A | - | 促銷活動A | 促銷B | - | 促銷C | $10 |
+| 上次接觸eVar | 促銷活動A | 促銷活動A | 促銷活動A | 促銷B | 促銷B | 促銷C | $10 |
+| 首次接觸eVar | 促銷活動A | 促銷活動A | 促銷活動A | 促銷活動A | 促銷活動A | 促銷活動A | $10 |
+| 範例prop | 促銷活動A | - | 促銷活動A | 促銷B | - | 促銷C | $10 |
 
 在此範例中，值A、B和C已傳送至點擊1、3、4和6的變數，然後才在點擊7進行$10購買。 在第二列中，這些值會以上次接觸瀏覽為基礎持續存在於點擊之間。 第三列說明首次接觸瀏覽的永續性。 最後，最後一列說明如何記錄沒有永續性之prop的資料。
+
+## 線性配置在「報告與分析」與「工作區」中的運作方式差異
+
+線性歸因在這兩種工具之間的運作方式有一些差異：
+
+* 在「報告與分析」中，（已處理）線性歸因一律以瀏覽為基礎，而在「工作區」中，線性歸因可以是瀏覽或訪客為基礎。
+* 在「報告與分析」中，如果瀏覽的首次點擊沒有傳遞任何值，則（初始）值會從上次瀏覽持續存在。 Workspace(Attribution IQ)並非如此。 如果瀏覽的首次點擊未傳遞任何值，則「無」是初始值。
 
 ## 2018年7月前線性分配如何運作
 
