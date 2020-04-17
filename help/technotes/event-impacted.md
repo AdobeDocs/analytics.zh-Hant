@@ -2,7 +2,7 @@
 title: 分析受事件影響的資料
 description: 瞭解受事件影響的資料對整體資料品質的貢獻。
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
 
 ---
 
@@ -19,11 +19,15 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ## 使用區段分析並排除資料
 
-Adobe Analytics提供簡單而強穩的方式，讓您使用區段來關注或排除資料。 您可以使用區段中的日期範圍維度來篩選掉或關注這些特定日期。 請參 [閱「元件」使用指南中](/help/components/c-segmentation/use-cases/exclude-date-range.md) 「分析中排除特定日期」。
+Adobe Analytics提供簡單而強穩的方式，讓您使用區隔來關注或排除資料。 您可以使用區段中的日期範圍維度來篩選掉或關注這些特定日期。 請參 [閱「元件」使用指南中](/help/components/c-segmentation/use-cases/exclude-date-range.md) 「分析中排除特定日期」。
 
 ## 比較事件與先前的日期範圍
 
 如果您想要進一步瞭解某個事件對您的資料隨著時間而產生的影響，可以在分析工作區中使用日期比較。 此功能可讓您逐日、逐周或逐月比較資料，以檢視其與先前範圍的比較。 然後，您可以使用此比較來判斷事件對趨勢的影響程度。 請參 [閱「分析使用指南」中的「比較受事件影響的日期](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md) 」與先前範圍。
+
+## 使用計算量度修正趨勢資料
+
+建立區段並使用日期比較後，您就可以結合這兩個概念，使用計算度量來修正趨勢資料。 在計算量度中納入區段，然後將受影響的日期乘以比較日期時發現的偏移。 請參 [閱「元件」使用指南中](/help/components/c-calcmetrics/cm-events.md) 「衍生受事件影響的資料」。
 
 ## 在「報告與分析」中使用日曆事件
 
