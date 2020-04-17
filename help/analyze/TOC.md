@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
+source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 
 ---
 
@@ -44,6 +44,7 @@ source-git-commit: 26942a0f346cc646d2ab11a1bc86550fe7c2e2b2
          + [日曆和日期範圍概觀](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+         + [比較受事件影響的日期](analysis-workspace/components/calendar-date-ranges/compare-event.md)
    + 視覺效果 {#visualizations}
       + [視覺效果概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
