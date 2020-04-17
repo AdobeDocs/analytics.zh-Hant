@@ -4,14 +4,14 @@ title: 發佈區段至 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: f516be8395f7e7c0398f1ebb1d1e019e905d67ee
+source-git-commit: 3b7e79cf26c8dccd9c8090df48a556419995ebd7
 
 ---
 
 
 # 發佈區段至 Experience Cloud
 
-Publishing an Adobe Analytics segment to the Experience Cloud lets you use the segment for marketing activity in the [!UICONTROL Audience Library], [!DNL Target], [!DNL Audience Manager], [!DNL Advertising Cloud], and [!DNL Campaign]. 近期的更新已大幅最佳化發佈工作流程。您現在可以在8小時內將Analytics區段發佈至Experience Cloud。 使用這些區段，在Audience Manager中將觀眾啟動至所有下游目的地。
+將Adobe Analytics區段發佈至Experience Cloud可讓您將區段用於其他啟動管道(包括Adobe [!DNL Audience Manager] 和Adobe)的行銷活 [!DNL Advertising Cloud]動 [!DNL Target] 中 [!DNL Campaign]。 近期的更新已大幅最佳化發佈工作流程。您現在可以在8小時內將Analytics區段發佈至Experience Cloud。 使用這些區段，在Audience Manager中將觀眾啟動至所有下游目的地。
 
 我們也將可發佈的Adobe Analytics區段數目上限從20個增加到75個。 您可以在中檢視已發佈的區段 [!UICONTROL Analytics > Components > Segments]。
 
