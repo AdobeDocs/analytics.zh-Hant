@@ -2,7 +2,7 @@
 title: Labs 使用指南
 description: 預覽 Adobe Analytics 的原型專案
 translation-type: tm+mt
-source-git-commit: 52904d401455909a0786e66cd5439d547a53f062
+source-git-commit: 5209751a8b771b92f82bab9b170ac76a077e4b87
 
 ---
 
@@ -52,7 +52,7 @@ Labs 已為所有管理員設為自動啟用。其他團隊成員則必須連絡
 
 1. 使用原型時，隨時按一下&#x200B;**「提供意見回饋」**&#x200B;按鈕，即可在訊息方塊中輸入意見。
 
-   ![feedback_box](https://user-images.githubusercontent.com/29133525/58670344-f0363f80-82fb-11e9-8824-ec2b41f7187a.png)
+   ![feedback_box](assets/give_feedback.png)
 
 1. 按一下&#x200B;**「提交」**&#x200B;即可傳送您的意見。
 
