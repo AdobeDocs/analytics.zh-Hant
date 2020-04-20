@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 技術文件
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
+source-git-commit: ea1927827c0615b085a440bc86116b438594e448
 
 ---
 
@@ -27,6 +27,8 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
 + [分析受事件影響的資料](event-impacted.md)
++ 分析受事件影響的資料 {#event}
+   + [向使用者傳達影響](event/event-communicate.md)
 + [瀏覽器 Cookie](cookies.md)
 + [資料保留](data-retention.md)
 + [延遲性](latency.md)
@@ -34,7 +36,7 @@ source-git-commit: 09c7c1f4b4a6f67243cc72c642fd83a75406fb76
 + [隱私權概觀](privacy-overview.md)
 + [重新導向與別名](redirects.md)
 + [多貨幣支援](multicurrency.md)
-+ 地區資料彙集 {rdc}
++ 地區資料收集 {#rdc}
    + [地區資料彙集說明](rdc/regional-data-collection.md)
    + [SSL 認證授權](rdc/ssl-cert-licensing.md)
 + [安全資源](security.md)
