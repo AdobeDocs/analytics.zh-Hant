@@ -2,7 +2,7 @@
 description: 'null'
 title: 快速洞察建立工具
 translation-type: tm+mt
-source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
+source-git-commit: c8f482c21e6301ef34a221a73323cd7386921f2f
 
 ---
 
@@ -59,7 +59,6 @@ source-git-commit: 0a0993c8a91f1e42be3d919e8315cfab3aaecd72
 
    * 自由表格，其上方為垂直維度（此處為美國州）和水準度量（此處為瀏覽）。 查看下表：
    ![](assets/qibuilder3.png)
-
 
    * 隨附的視覺化，在此例中為長 [條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。 產生的視覺化是根據您新增至表格的資料類型。 您可以按一下旁邊的下拉箭頭，以變更視覺化類型 **[!UICONTROL Bar]**。
 
