@@ -2,14 +2,14 @@
 title: 衍生受事件影響的資料
 description: 使用計算量度來修正受事件影響的趨勢資料。
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 1ffbd728aba893d7f7a4ecf027c479fc753e371a
 
 ---
 
 
 # 衍生受事件影響的資料
 
-如果資料受 [事件影響](/help/technotes/event-impacted.md)，您可以使用計算度量來衍生事件期間的趨勢值。 例如，如果您有事件導致資料減少25%，您可將其用作計算量度中的乘數。
+如果資料受 [事件影響](/help/technotes/event-impacted.md)，您可以使用計算度量來衍生事件期間的趨勢值。 例如，如果您有事件導致資料減少25%，您可將其用作計算量度中的乘數。 如果您沒有時間或資源，無法使用資料來源或資料插入API將資料插入Adobe Analytics [](/help/import/c-data-sources/datasrc-home.md) ，則此方法很實用 [](/help/import/c-data-insertion-api/c-data-insertion-api.md)。
 
 >[!NOTE] 當您從區段和日期比較的角度瞭解事件的影響時，這些步驟最有效。 請務必在下 [一頁之前，先遵循「比較受事件影響的日期與先前的範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/compare-event.md)[」和「排除分析中的特定日期](../c-segmentation/use-cases/exclude-date-range.md) 」。
 
