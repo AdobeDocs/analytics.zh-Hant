@@ -1,8 +1,8 @@
 ---
-description: 'null'
+description: 「快速洞察」建立工具是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
 title: 快速洞察建立工具
 translation-type: tm+mt
-source-git-commit: 718de88664e9d27ed5973f5269a324ffbc3b5414
+source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ---
 
