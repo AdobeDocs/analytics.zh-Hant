@@ -3,7 +3,7 @@ description: 了解如何使用 FTP 和 SFTP 在電腦和伺服器之間傳輸�
 keywords: ftp;sftp
 title: 透過 Adobe Experience Cloud 使用 FTP 和 SFTP
 uuid: 12a82a13-1634-4a2d-bb92-5006d650ebe9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
