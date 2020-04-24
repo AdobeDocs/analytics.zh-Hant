@@ -3,7 +3,7 @@ description: SFTP 是一種傳輸資料的安全通訊協定，可確保除了�
 keywords: ftp;sftp
 title: 安全檔案傳輸通訊協定 - 概觀
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
