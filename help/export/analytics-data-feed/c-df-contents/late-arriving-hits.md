@@ -1,7 +1,7 @@
 ---
 title: 延遲送達點擊
 description: 了解資料摘要如何處理延遲送達點擊。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 ---
