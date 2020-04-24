@@ -2,7 +2,7 @@
 description: 與資料摘要相關的常見問題
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 資料摘要常見問答集
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
