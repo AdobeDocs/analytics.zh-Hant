@@ -3,7 +3,7 @@ description: 設定與 Adobe FTP 伺服器間安全傳輸的指示。
 keywords: ftp;sftp
 title: 使用 SFTP 連線至 Adobe FTP 帳戶
 uuid: 4faf27b8-7276-4c68-87cb-35802b809e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
