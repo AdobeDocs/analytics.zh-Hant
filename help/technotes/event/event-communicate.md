@@ -2,7 +2,7 @@
 title: 向使用者傳達影響
 description: 瞭解傳達組織內活動影響的有效方式。
 translation-type: tm+mt
-source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
+source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ---
 
@@ -31,4 +31,4 @@ source-git-commit: d400bd219cbd8710f2a2fbdaaa9210f3bc70c40b
 2. 輸入所要的標題、日期範圍和附註文字。
 3. 按一下 **[!UICONTROL Save]**.
 
-![日曆事件](../assets/exclude_calendar_event.jpg)
+![日曆事件](../assets/exclude_calendar_event.png)
