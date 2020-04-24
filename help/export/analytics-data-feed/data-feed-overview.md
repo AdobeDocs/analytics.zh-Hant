@@ -1,5 +1,5 @@
 ---
-description: 從網站、行動應用程式收集或使用網站服務API或資料來源上傳的資料，會處理並儲存在Adobe的資料倉庫中。 此原始點按流資料構成Adobe Analytics所使用的資料集。
+description: 從網站、行動應用程式收集或使用網站服務 API 或資料來源上傳的資料會儲存在 Adobe 的 Data Warehouse。這些原始點按流資料形成 Adobe Analytics 所使用的資料集。
 keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics 資料摘要概觀
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
