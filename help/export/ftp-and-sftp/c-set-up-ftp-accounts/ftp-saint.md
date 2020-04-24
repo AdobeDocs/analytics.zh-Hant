@@ -3,7 +3,7 @@ description: 分類 (SAINT) FTP 選項對於上傳大型分類資料集可提供
 keywords: ftp;sftp
 title: 分類
 uuid: 35936c98-b785-43eb-89f4-ab42a10db256
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,10 +23,10 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 關於分類和資料來源上傳的 .fin 檔案 {#section_1484719F8A134EAE91212DBD8F15174F}
 
-上傳分類或[!UICONTROL 資料來源]檔案 ([!DNL .tab] 或 [!DNL .txt]) 時，還需要上傳與正在匯入的資料檔案具有相同名稱，但副檔名為 [!DNL .fin] 的空白檔案。此 [!DNL .fin] 檔案是完成檔案。此檔案的用途是告知系統，資料檔案已完全上傳至 FTP 帳戶。[!DNL .fin] 檔案可讓 Adobe 識別您已完成匯入作業。在提交此檔案後，Adobe 會從 FTP 移除這兩個檔案，並開始處理匯入。匯入檔案：[!DNL Classifications.tab]
+When you upload a classification or [!UICONTROL Data Source] file ( [!DNL .tab]or [!DNL .txt]) the upload also requires that you upload an empty file with the exact same name as the data file being imported, but with a [!DNL .fin] extension. 此 [!DNL .fin] 檔案是完成檔案。此檔案的用途是告知系統，資料檔案已完全上傳至 FTP 帳戶。[!DNL .fin] 檔案可讓 Adobe 識別您已完成匯入作業。在提交此檔案後，Adobe 會從 FTP 移除這兩個檔案，並開始處理匯入。匯入檔案：[!DNL Classifications.tab]
 
 完成檔案：[!DNL Classifications.fin]
 
-如果您上傳的資料來源或分類檔案未附帶 [!DNL .fin] 檔案，Adobe 不會將其新增至處理佇列。檔案仍保留在 FTP 上，不會套用至您在 [!UICONTROL Experience Cloud] 中的資料。除非您已在 Analytics「[!UICONTROL 建立 FTP 帳戶]」視窗的「[!UICONTROL 通知收件者]」中輸入您的電子郵件地址，否則不會收到此類狀況的通知。如果未在此欄位中輸入電子郵件地址，將不會傳送任何通知。
+如果您上傳的資料來源或分類檔案未附帶 [!DNL .fin] 檔案，Adobe 不會將其新增至處理佇列。檔案仍保留在 FTP 上，不會套用至您在 [!UICONTROL Experience Cloud] 中的資料。You are notified of this only if you have entered your email address as the [!UICONTROL Notification Recipient] in the [!UICONTROL Create FTP Account] window of Analytics. 如果未在此欄位中輸入電子郵件地址，將不會傳送任何通知。
 
-如果您上傳檔案時已附帶 [!DNL .fin] 檔案，但檔案中發生錯誤，則系統會提交該檔案以進行處理，但錯誤會導致處理停止，並將檔案傳送至錯誤資料夾。如果發生這種狀況，系統會傳送通知給「[!UICONTROL 建立 FTP 帳戶]」視窗「[!UICONTROL 通知收件者]」欄位中所列出的電子郵件地址。如果未輸入電子郵件地址，將不會傳送任何通知。
+如果您上傳檔案時已附帶 [!DNL .fin] 檔案，但檔案中發生錯誤，則系統會提交該檔案以進行處理，但錯誤會導致處理停止，並將檔案傳送至錯誤資料夾。If this occurs, a notification is sent to the email address listed in the [!UICONTROL Notification Recipient] field in the [!UICONTROL Create FTP Account] window. 如果未輸入電子郵件地址，將不會傳送任何通知。
