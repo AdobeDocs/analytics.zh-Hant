@@ -2,7 +2,7 @@
 description: Data Connectors 整合精靈會引導您完成 Data Connectors 整合程序。
 title: Silverpop 整合
 uuid: dc5e6a09-3238-412d-9980-4a105ce14819
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
