@@ -3,7 +3,7 @@ description: 顯示路徑檢視，或路徑限制中一個頁面被檢視的次�
 title: 下一頁流量
 topic: Reports
 uuid: d3d2a461-63ee-4bf7-9e68-1ce1c345330f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 使用此報告可以：
 
-* 瞭解檢視選取頁面後採用最為頻繁的步驟。
+* 了解檢視選取頁面後採用最為頻繁的步驟。
 * 最佳化網站路徑設計，以便將訪客流量引至預期的目標頁面。
 * 確認訪客進入了哪些除預期目標頁面之外的頁面。
 
