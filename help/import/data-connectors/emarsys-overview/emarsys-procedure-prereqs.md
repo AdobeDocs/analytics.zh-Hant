@@ -2,7 +2,7 @@
 description: 使用「隨插即用」精靈，直觀的逐步程序將引導您完成系統同步點，並初始化整合。
 title: 整合程序與必要條件
 uuid: d0cd9f08-b66e-470a-a5d2-08cbddc18275
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
