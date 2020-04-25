@@ -3,7 +3,7 @@ description: 顯示促進網站流量的網站位置。您可以看到您網域�
 title: 流量來源
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_BF03A24CC90741FB98169742F9D1EB91"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 報告 </th> 
+   <th colname="col1" class="entry"> 報表 </th> 
    <th colname="col2" class="entry"> 說明 </th> 
   </tr> 
  </thead>
@@ -65,7 +65,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> 原始反向連結網域 </td> 
-   <td colname="col2"> <p> 顯示為您的網站帶來客戶的原始反向連結。客戶可以多次瀏覽您的網站，並且每次瀏覽都會使用不同的反向連結。 </p> <p>此報告非常實用，其可顯示訪客首次瀏覽您網站時的反向連結資訊。您可以透過該等資訊瞭解是否客戶繼續使用原始反向連結和檢視模式。您可以檢視原始反向連結產生的訪客數量，或每個原始反向連結對網站收入的貢獻。<span class="wintitle">可在訪客每次存取您網站時填入反向連結報告，即使此訪客在一個工作階段中 (瀏覽過期之前) 多次存取此網站。</span> </p> </td> 
+   <td colname="col2"> <p> 顯示為您的網站帶來客戶的原始反向連結。客戶可以多次瀏覽您的網站，並且每次瀏覽都會使用不同的反向連結。 </p> <p>此報告非常實用，其可顯示訪客首次瀏覽您網站時的反向連結資訊。您可以透過該等資訊了解是否客戶繼續使用原始反向連結和檢視模式。您可以檢視原始反向連結產生的訪客數量，或每個原始反向連結對網站收入的貢獻。<span class="wintitle">可在訪客每次存取您網站時填入反向連結報告，即使此訪客在一個工作階段中 (瀏覽過期之前) 多次存取此網站。</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 反向連結 </td> 
