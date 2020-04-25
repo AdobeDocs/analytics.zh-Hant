@@ -2,7 +2,7 @@
 description: 「目標」報表可讓您測量網站績效並追蹤預設目標的進度。例如，您可能希望增加來自某一地理區域之訪客的數目、每筆訂單的收入，或特定反向連結的點按次數。
 title: 目標
 uuid: ecb9b964-0703-414a-a4ff-7cf75121a0e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
