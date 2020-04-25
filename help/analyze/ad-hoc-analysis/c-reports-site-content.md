@@ -2,7 +2,7 @@
 description: 顯示您網站中最活躍的網頁與區域，以及最常用的伺服器。
 title: 網站內容報表
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
