@@ -2,7 +2,7 @@
 description: Silverpop 的 Data Connectors 整合使用 Analytics 變數來追蹤各種 Silverpop 量度。
 title: Analytics 整合變數
 uuid: 3aef3caf-e24e-4fe7-b4d7-50ca0f6703b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
