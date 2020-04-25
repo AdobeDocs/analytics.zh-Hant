@@ -1,7 +1,7 @@
 ---
 title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
