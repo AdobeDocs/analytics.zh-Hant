@@ -2,7 +2,7 @@
 description: 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 Analytics® 與 emarsys 電子郵件行銷的行為資訊，成為一項功能強大的工具，可重新定義成功測量，並透過更具相關性的訊息鎖定對象。
 title: Adobe Analytics 的 Emarsys Data Connector
 uuid: 6f2fbabc-dc6c-4975-887d-ec22eba42f9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
