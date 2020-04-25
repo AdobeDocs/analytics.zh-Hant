@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 複製處理規則至其他報表套裝
 topic: Admin tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
