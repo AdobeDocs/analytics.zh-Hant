@@ -1,7 +1,7 @@
 ---
 title: 常見問題集
 description: 取得從協力廠商平台移轉至 Adobe 時的常見問題解答。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
