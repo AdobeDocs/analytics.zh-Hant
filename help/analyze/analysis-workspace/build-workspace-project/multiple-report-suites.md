@@ -61,6 +61,6 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報表套裝標籤，指出
 
-   * 建立區段的位置：[區段產生器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
-   * 建立計算量度的位置：[計算量度產生器](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
-   * 建立警報的位置：[警報產生器](https://docs.adobe.com/content/help/en/analytics/components/alerts/alert-builder.html)。
+   * 建立區段的位置：[區段產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 建立計算量度的位置：[計算量度產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * 建立警報的位置：[警報產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/alerts/alert-builder.html)。
