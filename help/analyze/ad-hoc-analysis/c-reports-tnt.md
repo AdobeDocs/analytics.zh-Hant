@@ -3,7 +3,7 @@ description: 在 Analytics 報告中檢視和劃分 Adobe Target 流量資料。
 title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在 Analytics 報告中檢視和劃分 Adobe Target 流量資料。
 
-例如︰
+例如：
 
 * 透過 Analytics KPI 評量 Adobe Target 促銷活動的成就。
 * 使用 Analytics 轉換變數劃分 Target 促銷活動和方法資料。
