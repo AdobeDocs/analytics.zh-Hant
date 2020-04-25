@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 劃分維度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 您可針對特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
 
 1. [建立專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)並搭配資料表格。
-1. 在資料表格中，以滑鼠右鍵按一下某個行項目並選取「**[!UICONTROL 劃分]** > *`<item>`*.
+1. In the data table, right-click a line item and select **[!UICONTROL Breakdown]** > *`<item>`*.
 
    ![步驟結果](assets/fa_data_table_actions.png)
 
