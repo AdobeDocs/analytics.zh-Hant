@@ -3,7 +3,7 @@ description: 計算與進階計算 (或衍生) 量度為您可從現有量度建
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 計算與進階計算 (衍生) 量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | [基本函數 (計數、abs 值、平均值等)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 無 | 是 |
 | [進階函數 (迴歸、if/then、t 分數等)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 無 | 是 |
 
-## 功能{#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## 功能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 您可以
 
