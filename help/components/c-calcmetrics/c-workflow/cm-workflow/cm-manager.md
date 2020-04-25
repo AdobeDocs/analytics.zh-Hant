@@ -2,7 +2,7 @@
 description: 計算量度管理器提供許多管理量度的方式，例如共用、篩選、標記、核准、複製、刪除以及標記為我的最愛。
 title: 計算量度管理員
 uuid: 065c7b79-bab2-426b-a2d9-aac93f728b31
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
