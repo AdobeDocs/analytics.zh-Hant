@@ -2,7 +2,7 @@
 description: 在 Analysis Workspace 和「區段產生器」中可供使用。
 title: 具有 Experience Cloud ID 的訪客
 uuid: 47ebd3d6-a921-4e51-ac7a-b8d5fb9565e0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
