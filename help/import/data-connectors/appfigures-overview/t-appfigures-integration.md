@@ -2,7 +2,7 @@
 description: Data Connectors 整合精靈會引導您完成 Data Connectors 整合程序。
 title: 設定整合
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
