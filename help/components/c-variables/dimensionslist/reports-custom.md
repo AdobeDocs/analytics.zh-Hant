@@ -3,7 +3,7 @@ description: 管理員可以使用特定的量度和特定的日期範圍來設�
 title: 自訂
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
