@@ -3,7 +3,7 @@ description: 單純指瀏覽器視窗內資料的垂直距離。瀏覽器高度�
 title: 瀏覽器高度
 topic: Reports
 uuid: 4b824167-4a4e-40e9-bf00-957655bbdb3d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
