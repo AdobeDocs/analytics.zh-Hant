@@ -1,7 +1,7 @@
 ---
 title: charSet
 description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: f769da139d9890fd736a9b277934b11aa131e166
 
 ---
