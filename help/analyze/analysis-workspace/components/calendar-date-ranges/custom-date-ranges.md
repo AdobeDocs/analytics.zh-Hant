@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 建立自訂日期範圍
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在 Analysis Workspace 中建立自訂日期範圍，並將其儲存為時間元件。
 
-**[!UICONTROL 元件]** > **[!UICONTROL 新的日期範圍]**
+**[!UICONTROL Components]** > **[!UICONTROL New Date Range]**
 
 日期範圍會套用至面板層級。若要新增日期範圍至專案，請按一下&#x200B;**「面板** > *`<select panel>`*」，指定新的日期範圍。
 
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/date-range-two-months-ago.png)
 
-自訂日期範圍會顯示在您專案中的「[!UICONTROL 日期範圍]」元件面板上方：
+The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
 
 ![](assets/date-range-panel-two-months-ago.png)
 
