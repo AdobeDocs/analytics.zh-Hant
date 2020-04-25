@@ -1,7 +1,7 @@
 ---
 title: 追蹤不同的實施類型
 description: 使用不同的實施類型，順暢地在不同的實施間追蹤訪客。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
