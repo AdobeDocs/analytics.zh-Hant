@@ -3,7 +3,7 @@ description: 您可以將區段共用給整個組織、群組或個別使用者 
 title: 共用區段
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
