@@ -3,7 +3,7 @@ description: 「訪客參與率」是一個量度系列，可讓您檢視跨訪�
 title: 訪客參與率 - Ad Hoc Analysis
 topic: Metrics
 uuid: 567d627c-a2a8-4fbf-b3fd-abb1341e57a0
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
