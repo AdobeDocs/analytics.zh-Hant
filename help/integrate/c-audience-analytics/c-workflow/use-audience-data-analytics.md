@@ -3,7 +3,7 @@ description: '您可以在整個 Analytics 中使用 AAM「對象」維度。整
 solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -53,7 +53,7 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 
 對象也可用於[流失視覺效果](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/fallout_flow.html)中。
 
-## Analysis Workspace 中的文氏圖表視覺效果{#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace 中的文氏圖表視覺效果 {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [文氏圖表視覺效果](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/venn.html)可顯示最多 3 個區段之間的重疊部分。
 
@@ -79,7 +79,7 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics 及 Report Builder{#section_04E8FD30F73344D7937AD3C6CD19E34A}
+## Reports &amp; Analytics 及 Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
 
 1. 若要檢視 Analytics 報表，請前往&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 訪客資料]** > **[!UICONTROL 對象 ID 報表」]**。
 1. 在此資料夾中，您可以同時存取「對象 ID」和「對象名稱」維度。
