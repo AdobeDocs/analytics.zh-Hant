@@ -4,7 +4,7 @@ keywords: DFA
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -97,7 +97,7 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 | 逾時和錯誤追蹤 | 無 | 是 | 是 |
 | 不需要交涉的客戶端 ID | 無 | 無 | 是 |
 
-### 關於 1.5 版{#section-b5a3e967cfa141ea8f740612336181be}
+### 關於 1.5 版 {#section-b5a3e967cfa141ea8f740612336181be}
 
 1.5 版的整合在著陸頁面 Java Script 中導入了整合模組。整合模組可支援對 DFA 廣告伺服器 (ad.doubleclick.net) 發出固定大小的要求，這解決了舊版整合最多只能使用 2K 要求的問題。它也導入了可設定的逾時  *`s.maxDelay`*，而能夠在網路中斷時繼續收集 Adobe 訪客資料。錯誤和逾時資料皆可擷取至 Analytics 變數中。
 
@@ -111,7 +111,7 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 
 新版 JavaScript 代碼的重要功能之一，是 1.5 版與 2.0 版之間不需要實施變更。
 
-### 關於 2.0 版{#section-afd56de0c56c4489bb5ddc5798d6709a}
+### 關於 2.0 版 {#section-afd56de0c56c4489bb5ddc5798d6709a}
 
 最新版的 DFA 整合可將整個 Floodlight 設定的資料移至整合中。在 2.0 版之前，個別的整合會分別繫結至一個 DFA 廣告主。透過這項變更，整個 Floodlight 設定的點按、曝光數和成本量度，都會包含在整合的報表套裝中。如果有兩個網站位於相同的 Floodlight 設定中，您也可以追蹤跨網站的閱覽。
 
@@ -121,7 +121,7 @@ DFA 整合目前有三個版本: 1.0 版、1.5 版和 2.0 版。
 
 如果 Floodlight 設定是 DFA 中的共用設定，則從 1.5 到 2.0 版的升級，將會使 Floodlight 設定內所有共用廣告主的轉換資料都包含在報表套裝中。
 
-### 升級至 2.0 版{#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
+### 升級至 2.0 版 {#section-f0bf90b9a7a1434ab1540b6c0999f4c7}
 
 下表列出移轉至新版整合之作業的擁有者:
 
