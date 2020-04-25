@@ -1,13 +1,13 @@
 ---
-title: 函式與方法
-description: 瞭解如何使用Adobe在您的實作中提供的功能和方法。
+title: 函數與方法
+description: 瞭解如何在實施中使用 Adobe 提供的函數和方法。
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
 
 
-# 函式與方法
+# 函數與方法
 
 Adobe提供數種您可在實作中使用的函式和方法。 當您參考這些函式或方法時，這些函式或方法會使用一行程式碼來執行一般工作。
 
