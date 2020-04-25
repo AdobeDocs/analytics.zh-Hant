@@ -3,7 +3,7 @@ description: 顯示瀏覽內每個值引發所在處的平均深度。在判斷�
 title: 平均頁面深度
 topic: Metrics
 uuid: 4d8a3a3c-c698-4210-8dd8-a02a1638483c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
