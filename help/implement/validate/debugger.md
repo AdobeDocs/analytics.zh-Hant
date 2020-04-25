@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)。
 
-The [!UICONTROL Legacy Debugger] inspects tags for most Adobe Experience Cloud services. 使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實施項目進行疑難排解或驗證。
+[!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標籤。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實施項目進行疑難排解或驗證。
 
 ## 安裝舊版 Debugger
 
