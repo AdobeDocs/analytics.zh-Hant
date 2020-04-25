@@ -3,7 +3,7 @@ description: 在「區段管理器」內，您可以設立工作流程來核准�
 title: 核准區段
 topic: Segments
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
