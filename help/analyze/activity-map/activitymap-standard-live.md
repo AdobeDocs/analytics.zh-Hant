@@ -3,7 +3,7 @@ description: Activity Map 提供兩個基本模式，用以為頁面活動提供
 title: 標準模式和即時模式的比較
 topic: Activity map
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
