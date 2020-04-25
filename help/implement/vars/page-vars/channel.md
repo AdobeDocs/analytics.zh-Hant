@@ -1,7 +1,7 @@
 ---
 title: channel
 description: 填入「網站區域」維度。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: c7d596be4f70c820039725be6a5fddc8572156d9
 
 ---
