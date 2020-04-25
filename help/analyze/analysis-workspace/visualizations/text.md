@@ -2,7 +2,7 @@
 description: 可讓您將使用者定義文字新增至「工作區」。
 title: 文字
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
