@@ -9,7 +9,7 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # 反向連結
 
-「反向連結」維度顯示訪客在到達您網站前所處的URL。 例如，如果訪客點按某個連結並 `example.com/example-page.html` 進入您的網站， `example.com/example-page.html` 則未定義為您網域的一部分的反向連結。
+「反向連結」維度顯示訪客在到達您網站前所處的URL。 For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
 
 此維度需要您設定報表套裝的內部 [URL篩選器](/help/admin/admin/internal-url-filter-admin.md)。 如果您未設定內部URL篩選器，Adobe Analytics會將所有網域視為您網站的內部網域。
 
