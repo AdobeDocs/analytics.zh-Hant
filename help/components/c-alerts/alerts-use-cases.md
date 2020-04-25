@@ -2,7 +2,7 @@
 description: 'null'
 title: 智慧型警報 - 使用案例
 uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -26,11 +26,11 @@ Update screenshots for better readability.
 
 ![](assets/alert_selection.png)
 
-如此會立即預先填入警報產生器，使用正確的量度和篩選器建立警報：
+如此會立即預先填入警報產生器，使用正確的量度和篩選器建立警報:
 
 ![](assets/prepopulated_alert.png)
 
-## 合併 (堆疊) 警報，而非建立多個警報{#section_B27B0856BA104B9FB6D0BBB317633F18}
+## 合併 (堆疊) 警報，而非建立多個警報 {#section_B27B0856BA104B9FB6D0BBB317633F18}
 
 堆疊警報可確保結合警報，以免您收到大量的單獨警報。
 
