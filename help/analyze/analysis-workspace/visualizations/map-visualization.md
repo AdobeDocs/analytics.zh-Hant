@@ -2,7 +2,7 @@
 description: 'null'
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ Analysis Workspace 中的地圖視覺效果
 
 ## 建立地圖視覺效果 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. 從視覺效果清單中，將&#x200B;**[!UICONTROL 「地圖」]**&#x200B;拖曳至自由面板:
+1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
 
    ![](assets/map-viz1.png)
 
@@ -42,7 +42,7 @@ Analysis Workspace 中的地圖視覺效果
  </tbody> 
 </table>
 
-1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
+1. 按一下 **[!UICONTROL Build]**.
 
    您看到的第一張檢視會是「世界視圖」以及與此類似的泡泡圖地圖。
 
@@ -57,7 +57,7 @@ Analysis Workspace 中的地圖視覺效果
       * 顯示負數：舉例來說，如果您繪製的是逐年比較量度，則地圖可以在紐約上顯示 -33％。
       * 對於類型為「百分比」的量度，叢集會一併平均分配百分比。
       * 綠/紅色彩配置：正值/負值
-   * 按住 [!UICONTROL Ctrl] 鍵並移動地圖，以&#x200B;**旋轉** 2D 或 3D 地圖。
+   * 按住 **鍵並移動地圖，以**&#x200B;旋轉[!UICONTROL Ctrl] 2D 或 3D 地圖。
 
    * 使用下述[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切換**&#x200B;至不同的檢視 (例如熱度圖)。請注意，泡泡圖檢視是預設設定。
 
