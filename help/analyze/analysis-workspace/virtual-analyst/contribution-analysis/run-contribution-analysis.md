@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 執行貢獻分析
 
-貢獻分析是一項密集的機器學習程式，旨在發現Adobe Analytics中觀察到的異常的貢獻者。 其目的是協助使用者以比其他可能更快的速度，找出焦點或進行額外分析的機會。
+「貢獻分析」是密集型機器學習程序，專門設計來找出 Adobe Analytics 中所觀察到異常值的貢獻者。目的是要協助使用者比以往更快找出重點區域或機會以便進行其他分析。
 
 ## 執行貢獻分析 {#section_7D2C5E48A5664727941DF4C90976D9DC}
 
@@ -30,14 +30,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. (Optional) After you have clicked **[!UICONTROL Run Contribution Analysis]** in either the line chart or a table, you can narrow the scope of (and thus speed up) the analysis by [excluding dimensions](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC).
 
-1. 等待貢獻分析載入。 這可能需要相當長的時間，視您的報表套裝大小和維度數量而定。 貢獻分析會對每個維度的前50,000個項目執行分析。
-1. 然後，分析工作區會直接在此專案中載入新的貢獻分析面板。 如果您曾在「Reports &amp; Analytics」中使用過「貢獻分析」，您會發現很多面板都很熟悉：
+1. 等候貢獻分析載入。取決於您報表套裝的大小以及維度數目，這可能需要相當長的時間。貢獻分析會對每個維度的前 50,000 個項目執行分析。
+1. Analysis Workspace 隨後會在此專案內直接載入新的「貢獻分析」面板。如果您曾在「Reports &amp; Analytics」中使用過「貢獻分析」，您會發現很多面板都很熟悉：
 
-   * 顯示當天瀏覽次 **數** 的視覺化。
-   * 上下文 **的每月瀏覽趨勢** 行。
-   * **促成此異常** 的排名最前的項目(依貢獻分數加上相關量度排序 [](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_contribution_score.html))，以及從大小調整角度將量度置於上下文的「獨特訪客」量度。
+   * 顯示當天「**造訪**」數的視覺效果。
+   * 上下文的每月「**造訪趨勢線**」。
+   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_contribution_score.html)排序)，加上相關量度，以及「獨特訪客」量度，以從規模觀點來將量度放在上下文中。
 
-   * 「產 [生的區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_workflow_premium.html) 」（排名最前的項目叢集）表格會根據貢獻分數、異常發生次數及對異常數度的整體貢獻百分比來識別排名最前項目的關聯。 接著會擷取為觀眾區隔（貢獻區段1、貢獻區段2等）。 按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
+   * 「[產生的區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_workflow_premium.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
 
       ![](assets/auto_segment.png)
 
@@ -53,7 +53,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 排出貢獻分析中的維度 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
-有時候，您可能會想從貢獻分析中排除某些維度。 例如，您可能根本不關心任何與瀏覽器或硬體相關的維度，而您想要移除這些維度以加速分析。
+有時候，您可能會想要從「貢獻分析」排除部分維度。例如，您可能不在意任何與瀏覽器或硬體相關的維度，因此希望藉由移除這些項目來加快分析速度。
 
 1. 按一下(或 **[!UICONTROL Run Contribution Analysis]** 折線 **[!UICONTROL Analyze]** 圖中)後，會顯示 **[!UICONTROL Excluded Dimensions]** 面板。
 
