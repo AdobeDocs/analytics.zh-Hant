@@ -13,12 +13,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch 中的 s_gi()
 
-Analytics 擴充功能會替您將追蹤物件實例化或進行管理。However, you can also set a global tracking object in the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過，在設定 Adobe Analytics 擴充功能時，您也可以在[!UICONTROL 「程式庫管理」]設定追蹤器中設定全域追蹤物件。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展開accordion [!UICONTROL Library Management] ，然後選擇除外的任何單選按鈕 [!UICONTROL Manage the library for me]。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「程式庫管理」]設定追蹤器，接著選取[!UICONTROL 「為我管理程式庫」]以外的任何選擇鈕。
 
 全域變數文字欄位可讓您設定自訂追蹤物件。其預設值為 `s`。
 
