@@ -3,7 +3,7 @@ description: 設定即時報表的管理步驟。
 title: 設定即時報表
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
