@@ -1,5 +1,5 @@
 ---
-description: 色階分佈圖是分析工作區中的新視覺化類型。
+description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型。
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 色階分佈圖
 
-色階分佈圖類似長條圖，但是它會將數字分組到範圍（桶）中。 Analytics會將數字「分組」自動化至範圍，但您可以變更「進階設定」 [中的設定](#section_09D774C584864D4CA6B5672DC2927477)。
+色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。Analytics 會自動將數字分組至範圍貯體，但您可以在「[進階設定](#section_09D774C584864D4CA6B5672DC2927477)」中變更設定。
 
 ## 建立色階分佈圖 {#section_74647707CC984A1CB6D3097F43A30B45}
 
@@ -24,20 +24,20 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE]色階分佈圖僅支援標準量度，不支援計算量度。
 
-這裡我們使用了每個獨特訪客的頁面檢視量度。 第一個（左）時段對應於每個獨特訪客1個頁面檢視，第二個時段對應於2個頁面檢視等。
+這裡我們使用了每個獨特訪客的頁面檢視次數量度。第一個 (最左邊) 貯體對應至每個獨特訪客 1 次頁面檢視、第二個貯體對應至 2 次頁面檢視，以此類推。
 
 ![](assets/histogram2.png)
 
 ## 進階設定 {#section_09D774C584864D4CA6B5672DC2927477}
 
-若要調整色階分佈圖設定，請按一下右上角的「設定」（「齒輪」）圖示。 您可以修改的設定如下：
+若要調整色階分佈圖設定，請按一下右上角的「設定」(「齒輪」) 圖示。您可以修改的設定如下：
 
-| 色階分佈圖設定 | 它的功能 |
+| 色階分佈圖設定 | 用途 |
 |---|---|
-| 起始貯體 | 決定色階分佈圖的開頭是哪個桶。 &quot;1&quot;是預設值。 您可以將起始數字從0設定為無窮大（無負數）。 |
-| 量度區間 | 可讓您增加／減少資料範圍（區間）的數目。區間數上限為50。 |
-| 量度桶大小 | 可讓您設定每個儲存貯體的大小。 例如，您可以將儲存貯體大小從1個頁面檢視變更為2個頁面檢視。 |
-| 計數方法 | 可讓您選擇訪 [客](https://marketing.adobe.com/resources/help/zh_TW/reference/visitors.html)、瀏 [覽](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_visit.html)或 [點擊](https://marketing.adobe.com/resources/help/zh_TW/reference/hit.html)。 例如，每次瀏覽的頁面檢視次數、每位訪客的頁面檢視次數或每次點擊的頁面檢視次數。 若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| 起始貯體 | 決定色階分佈圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
+| 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
+| 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
+| 計算方法 | 可讓您選擇[訪客](https://marketing.adobe.com/resources/help/zh_TW/reference/visitors.html)、[造訪](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_visit.html)或[點擊](https://marketing.adobe.com/resources/help/zh_TW/reference/hit.html)。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
 
 **範例**：
 
