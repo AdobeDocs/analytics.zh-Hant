@@ -17,22 +17,22 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 若要啟動整合，請完成「資料連接器」介面中的設定精靈。
 
 1. 登入 Adobe Experience Cloud。
-1. 導覽至 **[!UICONTROL Data Connectors]**。
+1. 導覽至「資 **[!UICONTROL 料連接器]**」。
 1. 啟動 Kampyle 整合精靈。
 1. 選取所需的報表套裝，並提供整合的名稱。
 1. 設定下列項目：
-   1. **[!UICONTROL Email address]**: 主要連絡人的電子郵件地址.
-   1. **[!UICONTROL Description]** （可選）:此整合設定的說明。
-   1. **[!UICONTROL Kampyle Key]**:在>下的Kampyle應用程式中尋找 **[!UICONTROL Feedback Form]** 此金鑰 **[!UICONTROL Feedback Form Customization]**。
-   1. **[!UICONTROL Tracking Server]**:您用來追蹤Adobe Analytics資料的追蹤伺服器值。
-   1. **[!UICONTROL Tracking Server Secure]**:如果您的追蹤伺服器對於安全/https流量不同，請在此處提供該設定。
-1. Configure the following **[!UICONTROL Variable Mappings]** items:
+   1. **[!UICONTROL 電子郵件地址]**:主要聯繫人的電子郵件地址。
+   1. **[!UICONTROL 說明]** （可選）:此整合設定的說明。
+   1. **[!UICONTROL Kampyle Key]**:在Kampyle應用程式中的「意見表 **[!UICONTROL 單]** >意見表 **[!UICONTROL 單自訂」下尋找此金鑰]**。
+   1. **[!UICONTROL 追蹤伺服器]**:您用來追蹤Adobe Analytics資料的追蹤伺服器值。
+   1. **[!UICONTROL 追蹤伺服器安全]**:如果您的追蹤伺服器對於安全/https流量不同，請在此處提供該設定。
+1. 設定下列&#x200B;**[!UICONTROL 變數對應]**&#x200B;項目：
    1. **[!UICONTROL Kampyle Feedback ID]**:從報表套裝中選取可用的eVar變數
-   1. **[!UICONTROL Feedback Grade]**:從報表套裝中選取可用的成功事件（鍵入「計數器」）。
-   1. **[!UICONTROL Feedback Items]**:從報表套裝中選取可用的成功事件（鍵入「計數器」）。
-   1. **[!UICONTROL Feedback with Grade]**:從報表套裝中選取可用的成功事件（鍵入「計數器」）。
+   1. **[!UICONTROL 回饋等級]**:從報表套裝中選取可用的成功事件（鍵入「計數器」）。
+   1. **[!UICONTROL 意見項目]**:從報表套裝中選取可用的成功事件（鍵入「計數器」）。
+   1. **[!UICONTROL 評等意見]**:從報表套裝中選取可用的成功事件（鍵入「計數器」）。
 1. 核取方塊以自動建立 Kampyle 整合控制面板 (建議)。
-1. Review all configuration items and click **[!UICONTROL Activate Now]**.
+1. 檢閱所有設定項目，然後按一下&#x200B;**[!UICONTROL 「立即啟用」]**。
 
 ## 部署整合設定物件{#deploy-the-integration-configuration-object}
 
@@ -40,8 +40,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 如果您使用Adobe Experience Platform Launch，就可以透過該工具輕鬆新增整合設定物件。
 
-1. Navigate to the **[!UICONTROL Resources]** > **[!UICONTROL Support]** tab of the integration.
-1. 下載並儲存資 **[!UICONTROL Kampyle Integration Code (JS)]** 源。 程式碼看起來類似：
+1. 導覽至整合的&#x200B;**[!UICONTROL 「資源]** > **[!UICONTROL 支援」]**&#x200B;標籤。
+1. 下載並儲存 **[!UICONTROL Kampyle 整合程式碼 (JS)]** 資源。程式碼看起來類似：
 
    ```
    /* Kampyle:  Integration configuration settings */
@@ -59,7 +59,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### 整合活動記錄 {#section-0472df9180db4f218db5f6040cab07af}
 
-View your Kampyle integration setup within the Adobe Experience Cloud by navigating to **[!UICONTROL Support]** > **[!UICONTROL Integration Activity Log]**. Under the **[!UICONTROL Data In]** tab, you should see entries stating that classification data was successfully imported.
+導覽至&#x200B;**[!UICONTROL 「支援]** > **[!UICONTROL 整合活動記錄」]**，檢視 Adobe Experience Cloud 中的 Kampyle 整合設定。在&#x200B;**[!UICONTROL 「資料輸入」]**&#x200B;標籤下方，應該會看到指出分類資料已成功匯入的項目。
 
 >[!NOTE] 成功部署後24小時內通常會出現記錄項目。
 
