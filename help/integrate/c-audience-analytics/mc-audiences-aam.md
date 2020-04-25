@@ -3,7 +3,7 @@ description: Adobe Audience Manager (AAM) 是一個功能強大的資料管理�
 solution: Experience Cloud
 title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
