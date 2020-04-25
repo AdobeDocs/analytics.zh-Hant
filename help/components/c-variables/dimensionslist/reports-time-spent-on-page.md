@@ -2,7 +2,7 @@
 description: 顯示訪客在頁面上的逗留時間
 title: 頁面逗留時間
 topic: Reports
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
