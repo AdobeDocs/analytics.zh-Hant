@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 處理規則概觀
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -29,7 +29,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 2017 年 4 月 20 日之前，所有使用者 (包括管理員) 都必須通過一項檢驗，並且必須獲得授權才可使用 Adobe 客戶服務提供的處理規則。
 
-現在起，管理員&#x200B;**依預設**&#x200B;已有權使用處理規則。不再需要進行檢驗。管理員也可透過「管理工具」介面將這些權限授予非管理員。方法如下：
+現在起，管理員&#x200B;**依預設**&#x200B;已有權使用處理規則。不再需要進行檢驗。管理員也可透過「管理工具」介面將這些權限授予非管理員。方法如下:
 
 1. 若您還未這麼做，[請建立有權使用處理規則且僅包含非管理員的群組](/help/admin/user-management2/c-user-groups/groups.md)。
 1. [將非管理員新增至該群組](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/evar-context-map.png)
 
-請參閱實作說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/context_data_variables.html)。
+請參閱實施說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/context_data_variables.html)。
 
 ## 使用處理規則來轉換點擊資料和觸發事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
@@ -58,4 +58,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在實作中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱[本文](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)及[本文](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
+如需詳細資訊，請 [前往](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)[這裡](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
