@@ -14,9 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。
 
-**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**
+**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**
 
-您使用匯入工具匯入的資料必須是特定格式。 Adobe提供您下載資料範本的選項，其中包含Tab分隔資料檔案中所有正確的標題詳細資訊。 您可以使用FTP將新資料新增至此範本，然後在瀏覽器中匯入資料檔案。
+您使用匯入工具匯入的資料必須使用特定的格式。Adobe 可讓您選擇下載使用定位點分隔資料檔案的一個資料範本，包含所有適當的標題詳細資料。您可以使用 FTP 將自己的新資料新增到這個範本，然後在瀏覽器中匯入資料檔案。
 
 >[!NOTE]Adobe 建議您將匯入和匯出上限設為 30 欄。
 
