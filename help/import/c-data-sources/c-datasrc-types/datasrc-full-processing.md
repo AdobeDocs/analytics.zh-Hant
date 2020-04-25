@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 完全處理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -82,7 +82,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   <tr> 
    <td colname="col1"> <p>linkType </p> </td> 
    <td colname="col2"> <p>linkType </p> </td> 
-   <td colname="col3"> <p>連結的類型。支援的值包括: </p> 
+   <td colname="col3"> <p>連結的類型。支援的值包括： </p> 
     <ul id="ul_E441013055A9447AB6C3FB05B6099F7D"> 
      <li id="li_A33F66F30B60479284F72AE3AD4BF499"> <b>d</b>: 下載連結 </li> 
      <li id="li_182F695AA2D044DAB036BAFE38BC3915"> <b>e</b>: 外部連結 </li> 
