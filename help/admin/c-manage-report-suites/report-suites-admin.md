@@ -1,5 +1,5 @@
 ---
-description: 報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。通常，報表套裝是一個網站，但可以是一個全域區段，您在此區段中合併了數個網站的數字，以取得總計。 當您登入任何Adobe Analytics解決方案時，請選取一個要使用的報表套裝（使用結合報表套裝的統計除外）。 此外，如果您想要針對網站的一部分執行報表，報表套裝可以小於網站。 Analytics解決方案會匯總並報告這些資料儲存區。 管理報表套裝管理員可讓您定義規則，用以控制報表套裝中資料的處理方式。
+description: 報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理器」可讓您定義用以控管如何在報表套裝中處理資料的規則。
 title: 報表套裝管理器
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
@@ -11,15 +11,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 報表套裝管理器
 
-報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。通常，報表套裝是一個網站，但可以是一個全域區段，您在此區段中合併了數個網站的數字，以取得總計。 當您登入任何Adobe Analytics解決方案時，請選取一個要使用的報表套裝（使用結合報表套裝的統計除外）。 此外，如果您想要針對網站的一部分執行報表，報表套裝可以小於網站。 Analytics解決方案會匯總並報告這些資料儲存區。 管理報表套裝管理員可讓您定義規則，用以控制報表套裝中資料的處理方式。
+報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理器」可讓您定義用以控管如何在報表套裝中處理資料的規則。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**
+**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**
 
->[!NOTE] 虛擬報表套裝是透過 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** >管理 **[!UICONTROL Virtual Report Suites]**。 請參閱[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)。
+>[!NOTE] 虛擬報表套裝可透過&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝」]**&#x200B;來管理。請參閱[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)。
 
 ## 報表套裝管理器說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-下表說明了頁面上的 [!UICONTROL Report Suite Manager] 元素。
+下表說明[!UICONTROL 「報表套裝管理器」]頁面上的元素。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -39,11 +39,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 搜尋</span> </td> 
-   <td colname="col2"> 可讓您在「報表套裝清單」中找出特定的報表套裝。 搜尋工具包含基本名稱搜尋和進階搜尋頁面，以進行深入搜尋。 </td> 
+   <td colname="col2"> 可讓您在「報表套裝清單」中找出特定的報表套裝。搜尋工具包含以名稱為基礎的基本搜尋，和用於深入搜尋的進階搜尋頁面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle">群組 </span> </td> 
-   <td colname="col2"> <p>可讓您將報表套裝組織成自訂群組。 您可以快速存取多個共用類似設定或共同編輯的報表套裝。 </p> </td> 
+   <td colname="col2"> <p>可讓您將報表套裝整編到自訂群組中。您可以快速存取設定值相似或通常一起編輯的多個報表套裝。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 已儲存的搜尋</span> </td> 
