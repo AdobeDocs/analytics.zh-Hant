@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 手動實施 Adobe Analytics (舊版)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
    ![](assets/dtm-property.png)
 
-   建立 Web 屬性之後，您便可在[!UICONTROL 控制面板]的[!UICONTROL Web 屬性]標籤上加以編輯。不需要啟動 Web 屬性。
+   建立 Web 屬性之後，您便可在[!UICONTROL 控制面板]的[!UICONTROL Web 屬性]標籤上加以編輯。不需要啟動 Web 屬性.
 
 1. 將「Analytics」工具新增至屬性:
    1. 在 **[!UICONTROL Web 屬性]**&#x200B;標籤上按一下「屬性」。
