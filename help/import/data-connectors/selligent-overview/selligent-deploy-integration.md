@@ -2,7 +2,7 @@
 description: 簡單的 3 步驟程序即可部署此整合。
 title: 部署整合
 uuid: c578bf26-34c2-44ea-8e60-2990273f8659
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: a02fb674ea71a05e085c8e9b2dc4460f62f2cd51
 
 ---
