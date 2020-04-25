@@ -3,7 +3,7 @@ description: Ad Hoc Analysis 已與 Analytics Segmentation 環境整合，可讓
 title: 建立區段
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 Ad Hoc Analysis 已與 Analytics Segmentation 環境整合，可讓您在 Adobe 產品間建立、共用、管理和套用訪客區段。Ad Hoc Analysis 為其區段產生器和區段管理員提供 Java 型使用者介面，這些介面與其他 Analytics 工具所用的網路型工具完全相同，能比對伺服器呼叫並提供來自 Java 控制台的相同功能。
 
-「Ad Hoc Analysis」包含用來建立區段的熟悉功能，再加上新功能升級，例如用來設定區段管理[工作流程](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_workflow.html)的[區段管理員](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_manage.html)。跟以往一樣，您可以在[區段產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_build.html)中建立並儲存區段，或在 Ad Hoc Analysis 控制台中[從流失報表產生區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/t_seg_fallout.html)，然後將新區段或擴充區段儲存至觀眾庫，以供一般存取和應用。![](assets/seg__overview_ad_hoc.png)
+「Ad Hoc Analysis」包含用來建立區段的熟悉功能，再加上新功能升級，例如用來設定區段管理[工作流程](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_workflow.html)的[區段管理員](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_manage.html)。跟以往一樣，您可以在[區段產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_build.html)中建立並儲存區段，或在 Ad Hoc Analysis 控制台中[從流失報表產生區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/t_seg_fallout.html)，然後將新區段或擴充區段儲存至觀眾庫，以供一般存取和應用。 ![](assets/seg__overview_ad_hoc.png)
 
 ## Ad Hoc Analysis 中的 Unified Segmentation {#section_5FA03A06DE054448AD519CE30C39E294}
 
 如需在 Unified Segmentation 環境中建立和管理區段的相關資訊和指示，包括臨機分析功能，請參閱 [Unified Segmentation](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/index.html) 文件。
 
-* [新功能](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
+* [新特性](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_BD58629D1A9346BF879E229FA6BEC7A2)
 * [區段定義變更](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_definition.html)
 * [現有的區段有什麼改變？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_76CF47142D1A4FB6A0718AD9073049FE)
 * [現有的區段資料夾有什麼改變？](/help/analyze/ad-hoc-analysis/c-content-ref.md#section_FB04DCF775694E69B761DCA53F301C30)
@@ -52,34 +52,34 @@ Ad Hoc Analysis 已與 Analytics Segmentation 環境整合，可讓您在 Adobe 
 
 原本預先定義的區段與套裝區段多半會以[區段範本](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_templates.html)的形式移轉至區段產生器。區段範本的用途是快速建立具有常見對象的自訂區段。區段範本無法直接套用至報表，但可以輕易儲存成自訂區段。
 
-## 現有的區段資料夾有什麼改變？{#section_FB04DCF775694E69B761DCA53F301C30}
+## 現有的區段資料夾有什麼改變？ {#section_FB04DCF775694E69B761DCA53F301C30}
 
 「區段管理員」不再使用 (Ad Hoc Analysis) 資料夾，而是使用[標記](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_tag.html)。您的資料夾名稱會自動轉換成標記，而這些標記會套用至對應的區段。
 
-## 我是否可以在區段管理員中管理所有 Analytics 區段？{#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## 我是否可以在區段管理員中管理所有 Analytics 區段？ {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 在 Ad Hoc Analysis 區段管理員中，您只看得到屬於您 (您建立的區段) 和專屬於您的共用區段。
 
-## 點擊容器是什麼？是否與頁面檢視容器不同？{#section_65BBE60A836C4001938830DDA15DC256}
+## 點擊容器是什麼？它是否與頁面檢視容器不同？ {#section_65BBE60A836C4001938830DDA15DC256}
 
 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 [!DNL trackAction] 呼叫均可在點擊容器中受到納入或排除。
 
 請注意，此容器的運作方式並無改變，只是名稱有變而已。
 
-## 要使用、建立和管理區段需要有什麼權限？{#section_648DFA3A882146C485A84ED014EEC707}
+## 要使用、建立和管理區段需要有什麼權限？ {#section_648DFA3A882146C485A84ED014EEC707}
 
 所有使用者均可建立和編輯個人區段。這些區段可直接共用給任何其他 Analytics 使用者。
 
 管理員可以編輯任何區段、與群組[共用區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/t_seg_share.html)，以及為組織[設定存取區段的權限](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_rights.html)。
 
-## 有具有相同名稱、但不同定義的重複區段時該怎麼辦？{#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## 有具有相同名稱、但不同定義的重複區段時該怎麼辦？ {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
 由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下任一操作：
 
 * 重新命名具有相同名稱、但不同定義的區段，或是
 * 刪除不再需要的區段。
 
-## Adobe 建議我該如何清理區段？{#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Adobe 建議我該如何清理區段？ {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * 以 legacy 標記標記所有區段。
 * 檢閱您現有的區段。
@@ -87,11 +87,11 @@ Ad Hoc Analysis 已與 Analytics Segmentation 環境整合，可讓您在 Adobe 
 * 核准要做為標準區段的區段。
 * 標記區段時依照最佳實務。
 
-## 我為何刪除不了區段？{#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## 我為何刪除不了區段？ {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 如果區段已[發佈至 Experience Cloud](https://marketing.adobe.com/resources/help/zh_TW/mcloud/t_publish_audience_segment.html)，則您無法加以刪除或編輯。不過，您可以加以複製再編輯複製的版本。
 
-## 更多關於現有區段會有什麼改變的資訊{#section_83ACAB256F394DCD8B424D8920BDD853}
+## 更多關於現有區段會有什麼改變的資訊 {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
