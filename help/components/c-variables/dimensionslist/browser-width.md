@@ -3,7 +3,7 @@ description: 該量度指的是瀏覽器視窗內資料的水平/垂直距離。
 title: 瀏覽器寬度/高度
 topic: Metrics
 uuid: 1c0d3ea9-e001-4152-9bfc-8fe6406bc755
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
