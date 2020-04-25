@@ -2,7 +2,7 @@
 description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
 title: 伺服器呼叫使用量警報
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -73,6 +73,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    | 重新命名 | 您可以重新命名預設警報以外的所有警報。 |
    | 核准 | 核准警報即可使其成為「正式」警報。 |
    | 啟用/停用 | 您可以啟用或停用所有警報，甚至是預設警報。 |
-   | 續訂 | 選取一或多個警報後，可續訂這些警報。這將延長警報到期日，無論其原始到期日為何，將從按下[!UICONTROL 「更新」]之日起延長 1 年。 |
+   | 續訂 | When one or more alerts are selected, they can be renewed. This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
    | 匯出至 CSV | 請參閱[下載使用情況報表](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
