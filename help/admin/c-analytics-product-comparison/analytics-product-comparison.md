@@ -2,7 +2,7 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系統要求與比較。
 title: Analytics 產品比較和需求
 uuid: 988eab20-aa94-4eae-ae4a-5f2b70afa5b3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
