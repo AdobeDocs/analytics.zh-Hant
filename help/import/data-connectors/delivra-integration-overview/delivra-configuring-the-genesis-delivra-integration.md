@@ -2,7 +2,7 @@
 description: 執行 Data Connectors 整合精靈以實施 Data Connectors 整合之前，您必須具備的工作和資訊。
 title: 資料連接器電子郵件整合的準備事項
 uuid: f453e45a-4f56-4bb0-ac24-9ebc78e684f9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
