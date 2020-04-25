@@ -20,7 +20,7 @@ source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 您也可以將日期 (和時間維度) 拖曳至 Workspace 專案中。您可以選取特定的日、週、月、年或滾動日期。
 
-[在 YouTube 觀看「在 Analysis Workspace 中使用日期範圍和行事曆」](https://www.youtube.com/watch?v=L4FSrxr3SDA&list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&index=28)(4:07)
+[在 YouTube 觀看「在 Analysis Workspace 中使用日期範圍和行事曆」](https://www.youtube.com/watch?v=L4FSrxr3SDA&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=28)(4:07)
 
 | 設定 | 說明 |
 |--- |--- |
