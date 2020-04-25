@@ -3,7 +3,7 @@ description: 評量不同的廣告追蹤程式碼對您網站上不同的轉換�
 title: 追蹤程式碼
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
