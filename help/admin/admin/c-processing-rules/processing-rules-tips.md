@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 處理規則提示與秘訣
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
