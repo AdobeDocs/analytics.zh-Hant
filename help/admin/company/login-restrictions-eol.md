@@ -1,7 +1,7 @@
 ---
 title: '[!UICONTROL 強制 IP 登入限制]服務終止'
 description: 瞭解[!UICONTROL 強制 IP 登入限制]的終止時間及實作
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 490a856effac7ec3ff2430dff0ffdcee587bf933
 
 ---
