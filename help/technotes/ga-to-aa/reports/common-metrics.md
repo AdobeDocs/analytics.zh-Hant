@@ -1,7 +1,7 @@
 ---
 title: 其他平台常用的量度轉譯指南
 description: 透過 Google Analytics 使用者更熟悉的術語，瞭解如何提取許多常見報表的量度資料。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ---
