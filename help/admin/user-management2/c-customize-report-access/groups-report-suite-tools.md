@@ -5,7 +5,7 @@ subtopic: Users and groups
 title: 自訂報表套裝工具權限
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -67,7 +67,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | [即時報表](/help/admin/admin/realtime/t-realtime-admin.md) | 授予對即時報表的存取。 |
 | [機器人頁面](/help/admin/admin/bot-removal/bot-rules.md) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
 | [機器人](/help/admin/admin/bot-removal/bot-rules.md) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
-| [自訂 Data Warehouse 報表](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用於儲存和自訂報告的原始、未處理資料複本，可供您透過篩選資料的方式來執行。您可以要求報告依據您的特定問題，從原始資料顯示進階資料關係。 |
+| [自訂 Data Warehouse 報表](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用於儲存和自訂報告的原始、未處理資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。 |
 | [每日回訪](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (舊版) 該報告顯示在指定某天曾多次瀏覽網站的訪客數量。一天指過去的 24 個小時。 |
 | [資料來源管理員](/help/admin/admin/data-sources.md) | 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。 |
 | [依 IP 位址排除](/help/admin/admin/exclude-ip.md) | 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。 |
