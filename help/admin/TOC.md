@@ -1,7 +1,7 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics Admin Guide
+user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
 source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
@@ -13,7 +13,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 + [Analytics 管理說明](home.md)
 + Analytics 管理概觀 {#admin-overview}
-   + [我該使用哪種 Adobe Analytics 工具呢?](c-analytics-product-comparison/which-analytics-tool.md)
+   + [我該使用哪種 Adobe Analytics 工具呢？](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 產品比較和需求](c-analytics-product-comparison/analytics-product-comparison.md)
 + [系統要求](c-system-requirements/sys-reqs.md)
 + 管理工具 {#admin-tools}
@@ -151,7 +151,7 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
       + [使用者和群組權限變更](user-management2/c-user-management/permissions-changes.md)
       + [轉移使用者帳戶項目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
       + [新增使用者至群組](user-management2/c-user-management/t-add-user-to-group.md)
-      + 將使用者移轉至Adobe Admin Console {#migrate-users}
+      + 將使用者移轉至 Adobe Admin Console {#migrate-users}
          + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
          + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
          + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
