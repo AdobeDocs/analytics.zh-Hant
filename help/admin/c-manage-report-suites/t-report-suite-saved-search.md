@@ -3,7 +3,7 @@ description: 說明如何定義一組準則，用以決定報表套裝搜尋成�
 title: 儲存報表套裝搜尋
 topic: Admin tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
