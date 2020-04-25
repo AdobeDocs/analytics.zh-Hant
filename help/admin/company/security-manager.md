@@ -3,7 +3,7 @@ description: 可讓您控制報告資料的存取權。選項包括增強式密�
 title: 安全管理員
 topic: Admin tools
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
