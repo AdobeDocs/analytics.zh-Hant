@@ -3,7 +3,7 @@ description: 記錄檔可協助您查看使用者何時登入、其使用情形�
 title: 記錄檔
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
