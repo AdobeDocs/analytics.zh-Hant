@@ -1,7 +1,7 @@
 ---
 title: 訪客郵遞區號
 description: 顯示產生對於成功量度有最大影響之客戶的郵遞區號。此報表的資訊通常是取自於客戶購物過程中，您因此取得的郵遞區號。您可以使用這個報告判斷本地化廣告促銷活動成功與否，最多可以細究到具體的城鎮。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
