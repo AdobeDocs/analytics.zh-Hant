@@ -3,7 +3,7 @@ description: 顯示您的訪客來自哪個時區。圖表顯示世界地圖。�
 title: 時區
 topic: Reports
 uuid: 8cdc1bba-e6b9-4ff0-b529-91c427223ddc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
