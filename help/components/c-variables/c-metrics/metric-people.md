@@ -2,7 +2,7 @@
 description: 「人員」量度是 Adobe Analytics 報告量度，可協助您將裝置歸屬於人員。
 title: 人物
 uuid: f67fe072-099d-4ebc-8234-9ede2a632fab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
