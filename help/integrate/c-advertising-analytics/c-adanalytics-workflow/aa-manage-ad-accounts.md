@@ -2,7 +2,7 @@
 description: 'null'
 title: 管理 Advertising 帳戶
 uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -71,7 +71,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>篩選器</b> </p> </td> 
+   <td colname="col1"> <p><b>篩選條件</b> </p> </td> 
    <td colname="col2"> <p>(左邊界) 您可以根據「報表套裝」、「類型」及「狀態」來篩選廣告帳戶。 </p> </td> 
   </tr> 
  </tbody> 
