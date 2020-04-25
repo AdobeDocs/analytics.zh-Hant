@@ -3,7 +3,7 @@ description: Data Warehouse 提供可讓您擷取訪客 ID 清單的功能。這
 title: 使用案例 - 擷取訪客 ID
 topic: Admin tools
 uuid: ed228334-619c-43d7-b781-a18af73b00bb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
