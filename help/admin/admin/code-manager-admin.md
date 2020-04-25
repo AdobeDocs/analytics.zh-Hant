@@ -3,7 +3,7 @@ description: 代碼管理器可讓您下載網站和行動平台的資料收集�
 title: 代碼管理器
 topic: Admin tools
 uuid: 7b60bca7-756f-444f-a7e6-abd3e0f1a15e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
