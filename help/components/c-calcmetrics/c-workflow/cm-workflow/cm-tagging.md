@@ -2,7 +2,7 @@
 description: 在計算量度管理員中，您可透過將區段進行標記來組織區段。
 title: 標記計算量度
 uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
