@@ -46,7 +46,7 @@ When the `tl()` method is not called directly from the HTML element&#39;s on-cli
 </script>
 ```
 
-The best way for Activity Map to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to `s.tl`. 例如:
+The best way for Activity Map to overlay dynamic content links is to have a customized ActivityMap.link function set up to call the same function whose return value is passed to `s.tl`. 例如：
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
