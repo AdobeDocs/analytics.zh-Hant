@@ -3,7 +3,7 @@ description: 顯示訪客用來進行所有、付費、免費搜尋的搜尋引�
 title: 搜尋引擎
 topic: Reports
 uuid: a8234a11-ad83-44a1-a36b-d257dfc43d0f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
