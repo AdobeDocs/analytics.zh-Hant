@@ -2,7 +2,7 @@
 description: 對個別量度分段可讓您在同一份報表中比較量度。(僅限衍生量度)
 title: 區段量度
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
