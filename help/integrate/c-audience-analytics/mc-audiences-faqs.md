@@ -3,7 +3,7 @@ description: 回答實作 Audience Analytics 時可能遇到的問題。
 solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
 
 ---
@@ -33,13 +33,13 @@ source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
      <li id="li_9BC3819784A9408F846D60FF0F20AAF9">這不適用於將 Adobe Analytics 資料傳送至 Adobe Audience Manager。 </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">請自問：您是否會將 Analytics 共用區段與 Experience Cloud 中的 MCA 維度共用？ </li> 
-     <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統？ </li> 
+     <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統? </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## AAM 專屬常見問題{#section_6BDF746BA6464359A6A89A64EB025D12}
+## AAM 專屬常見問題 {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
@@ -69,12 +69,12 @@ source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：如果我的某些報表套裝載有個人資料，而其他沒有，該怎麼辦？</b> </p> </td> 
-   <td colname="col2"> <p>提示：建立兩個目的地──將個人資料報表套裝新增至一個目標，並將沒有個人資料的報表套裝新增至另一個目的地。 </p> </td> 
+   <td colname="col2"> <p>提示: 建立兩個目標──將個人資料報表套裝新增至一個目標，並將沒有個人資料的報表套裝新增至另一個目標。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Analytics 專屬常見問題{#section_67BFB1B1E48D4113A38B075C020931BA}
+## Analytics 專屬常見問題 {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -113,7 +113,7 @@ source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
  </tbody> 
 </table>
 
-## 伺服器端轉送 (SSF) 常見問題{#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## 伺服器端轉送 (SSF) 常見問題 {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -136,11 +136,11 @@ source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>問：為何 Audience Manager 和 Analytics 之間的區段訪客計數不一樣？</b> </p> </td> 
-   <td colname="col2"> <p>請參閱<a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > 訪客計數差異 </a>. </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  > Visitor Count Differences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：AAM 中的「對象」與 Analytics 中的「區段」有何不同？</b> </p> </td> 
-   <td colname="col2"> <p>請參閱<a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  >了解 Analytics 和 Audience Manager 中的區段 </a>。 </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
+   <td colname="col2"> <p>See <a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  > Understand Segments in Analytics and Audience Manager </a>. </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：從 AAM 整合的「客戶屬性」和客戶資料有何不同？</b> </p> </td> 
