@@ -15,11 +15,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 在 2016 年 11 月初，我們計劃移除行動裝置上 JavaScript 一律被列為 *`disabled / unidentified`* 的限制。
 
-JavaScript報表會對應原始資料中的欄javascript。
+JavaScript 報表對應至原始資料中的欄 javascript。
 
-javascript是瀏覽層級欄位，因此會保留瀏覽中首次點擊的值。 欄javascript是以j_jscript欄中出現的第一個值為基礎（如visit_referrer只會保留瀏覽的第一個反向連結）。
+javascript 是造訪層級欄位，因此可保存造訪中首次點擊的值。欄 javascript 是以 j_jscript 欄中的第一個值為基礎 (例如 visit_referrer 只會保存造訪的第一個反向連結)。
 
-j_jscript會從Adobe Analytics影像要求的參數j填入。
+j_jscript 則從 Adobe Analytics 影像請求的參數 j 填入。
 
 其範例如下：
 
@@ -29,4 +29,4 @@ j_jscript會從Adobe Analytics影像要求的參數j填入。
 | 2 | 1.6 | 0 |
 | 3 | 1.6 | 0 |
 
-因此，您是否在瀏覽中的某個時點指定javascript版本並不重要，因為第一次點擊不包含j_jscript的任何值，所以一律會顯示為非Javascript。
+因此，是否在造訪的某個點指定 javascript 版本並不重要，因為首次點擊不包含 j_jscript 的任何值，所以一律會顯示為非 Javascript。
