@@ -2,7 +2,7 @@
 description: Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立 Venn 圖表。
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,9 +18,9 @@ Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一�
 
 ![](assets/venn_hover.png)
 
-若要將 Venn 圖表轉換為自由表格，請按一下 **[!UICONTROL Venn]** 標頭旁的彩色點，並選取&#x200B;**[!UICONTROL 「管理資料來源]** > **[!UICONTROL 可用的資料來源]** > **[!UICONTROL 自由表格」]**。
+若要將文氏圖轉換為自由表格，請按一下標題旁的彩色點，然 **[!UICONTROL Venn]** 後選取 **[!UICONTROL Manage Data Sources]** > **[!UICONTROL Available Data Sources]** > **[!UICONTROL Freeform Table]**。
 
-若要標準化 Venn 圖表 (將大小移除)，請前往其「視覺效果設定」圖示並選取&#x200B;**[!UICONTROL 「標準化」]**。
+To normalize the Venn diagram (take the size out of it), go to its Visualization Settings icon and select **[!UICONTROL Normalization]**.
 
 ![](assets/normalization.png)
 
