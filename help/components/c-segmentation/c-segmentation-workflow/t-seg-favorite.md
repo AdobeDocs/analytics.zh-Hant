@@ -3,7 +3,7 @@ description: 要組織區段以方便使用，將區段標記為我的最愛是�
 title: 將區段標示為最愛
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
