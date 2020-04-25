@@ -2,7 +2,7 @@
 title: 區段比較使用案例
 description: 透過實際使用案例了解如何運用區段比較面板來深入分析行銷策略。
 keywords: Segment IQ
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 57fe1f6d613b9f54a5191ac8684d36bccfebf4e5
 
 ---
