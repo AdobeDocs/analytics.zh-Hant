@@ -2,7 +2,7 @@
 description: 先在 Adobe Analytics 的「管理工具」中保留必要的 eVar，然後再使用下列程式碼。
 title: 查詢字串參數外掛程式代碼
 uuid: a71e7774-bc7a-414e-a116-739770b900bf
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
