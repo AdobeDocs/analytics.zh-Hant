@@ -38,17 +38,17 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>購買 <p> </p> <p> </p> <p>購買 </p> <p> </p> <p> </p> <p>購買 </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>建議面板 <p> </p> <p> </p> <p>建議面板 </p> <p> </p> <p> </p> <p>建議面板 </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation Panel (建議面板) <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-應如何自訂網頁和標記，以區別這些連結的值呢？您有三個選擇：自訂連結 ID、自訂地區，或是自訂 AppMeasurement ActivityMap 模組檔案。
+應如何自訂網頁和標記，以區別這些連結的值呢？您有三個選擇: 自訂連結 ID、自訂地區，或是自訂 AppMeasurement ActivityMap 模組檔案。
 
-## 使用s_objectID自訂連結ID {#section_01B0D463397B4837B2D46F087A6E5937}
+## 使用 s_objectID 自訂連結 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-透過為頁面上的連結或連結位置建立唯一的物件ID，您可以改善Activity Map追蹤，或使用Activity Map來報告連結類型或位置，而非連結URL。 按一 [下這裡](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/s_objectID.html) ，以取得s_objectID變數的詳細資訊。
+透過為頁面上的連結或連結位置建立唯一的物件 ID，可改善 Activity Map 追蹤，或使用 Activity Map 來報告連結類型或位置，而不是連結 URL。如需 s_objectID 變數的詳細資訊，請按[此處](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/s_objectID.html)。
 
 >[!IMPORTANT]
 >
@@ -77,15 +77,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;onClick="s_objectID='Product3';"&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt;&nbsp;&nbsp;&nbsp; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>產品2 </p> <p> </p> <p> </p> <p>產品3 </p> <p> </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>建議面板 </p> <p> </p> <p> </p> <p>建議面板 </p> <p> </p> <p> </p> <p>建議面板 </p> <p> </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p>Product1 <p> </p> <p> </p> <p>Product2 </p> <p> </p> <p> </p> <p>Product3 </p> <p> </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 自訂地區 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-您可以自訂地區，方法是確保每個「購買」連結都已定義自己的地區。 若要這麼做，請新增&quot;id&quot;參數至每個&quot;Buy&quot;錨記的其中一個父項。
+您可透過確定每個「購買」連結都定義自己的地區，來自訂地區。若要這麼做，請在每個 &quot;Buy&quot; 錨記的其中一個父項新增 &quot;id&quot; 參數。
 
 >[!NOTE] 並未嚴格限制一定要使用 &quot;id&quot; 參數做為地區識別碼。您也可以使用 JavaScript 變數 &quot;s.ActivityMap.regionIDAttribute&quot; 設定自己的識別碼。
 
@@ -112,13 +112,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>購買 </p> <p> </p> <p> </p> <p>購買 </p> <p> </p> <p> </p> <p>購買 </p> </td> 
-   <td colname="col3"> <p> </p> <p> </p> <p> </p>區域 <p> </p> <p> </p> <p>地區b </p> <p> </p> <p> </p> <p>地區c </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自訂AppMeasurement ActivityMap模組檔案 {#section_B933BB9F944E4D5389002908A5A881F8}
+## 自訂 AppMeasurement ActivityMap 模組檔案 {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
