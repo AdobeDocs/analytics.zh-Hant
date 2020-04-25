@@ -3,7 +3,7 @@ description: 說明如何新增參與率量度的步驟。
 title: 新增參與率量度
 topic: Metrics
 uuid: 0cadc5f7-64d0-442a-8faf-b3bf13f04434
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
