@@ -1,7 +1,7 @@
 ---
 title: Analytics 平台之間的處理與架構差異
 description: 瞭解 Adobe Analytics 和 Google Analytics 等平台之間收集和顯示的資料有何不同。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
