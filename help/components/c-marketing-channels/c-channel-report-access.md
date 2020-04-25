@@ -1,5 +1,5 @@
 ---
-description: 說明如何執行行銷渠道報表、授予有限的管理員使用者權利以及報表的使用者群組權限。
+description: 說明如何執行行銷管道報表、授予有限的管理員使用者權利以及報表的使用者群組權限。
 title: 行銷渠道權限
 translation-type: tm+mt
 source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
@@ -20,4 +20,4 @@ source-git-commit: 5e0562312dc086c7e84de2ee8d5d47f6d1e12bce
 | Analytics 工具 | Analysis Workspace 存取 | 授予 Analysis Workspace 的存取權限。使用者必須屬於此群組（偏好）或「報告與分析存取」，才能在工作區中使用「行銷管道」維度。 |
 | Analytics 工具 | 報告與分析存取 | 授與「報告與分析」的存取權。 使用者必須屬於此群組或 Analysis Workspace 存取 (偏好設定)，才能使用 Adobe Analytics。 |
 
-如需有關Admin console中產品設定檔和Adobe Analytics權限的詳細資訊，請前往 [這裡](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)。
+如需有關Admin Console中產品設定檔和Adobe Analytics權限的詳細資訊，請前往 [這裡](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/permissions/product-profile.html)。
