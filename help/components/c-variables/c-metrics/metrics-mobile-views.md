@@ -1,5 +1,5 @@
 ---
-description: 透過行動裝置存取頁面或設定維度的次數。 僅限臨機分析。
+description: 透過行動裝置存取時，檢視頁面或設定維度的次數。僅限 Ad Hoc Analysis。
 title: 行動檢視
 topic: Metrics
 uuid: ba6ba9e8-3242-4a38-ae7b-359f821e2a46
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 行動檢視
 
-透過行動裝置存取頁面或設定維度的次數。 僅限臨機分析。
+透過行動裝置存取時，檢視頁面或設定維度的次數。僅限 Ad Hoc Analysis。
 
 >[!NOTE] 此報表已在 2017 年 9 月 21 日的維護版本中退役，且預期不會再傳回資料或於報表中使用。
 
