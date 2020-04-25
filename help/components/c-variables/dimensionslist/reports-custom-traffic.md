@@ -18,4 +18,4 @@ source-git-commit: de2f8c1270aa236b7ea5540a594963f4f6f97d8f
 * 這些報告可以使用趨勢與排名格式來檢視。
 * 可以使用搜尋篩選器來找出特定的行項目。
 * 可以在這些報告中使用分類，以便重新命名和合併行項目。
-* 每個自訂流量報告的位置依 prop 的數值指派值而定。通常可在或資料夾 [!UICONTROL Traffic] 下 [!UICONTROL Custom Traffic] 找到)。
+* 每個自訂流量報告的位置依 prop 的數值指派值而定。通常是位於[!UICONTROL 流量]或[!UICONTROL 自訂流量]資料夾之下。
