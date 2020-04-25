@@ -51,8 +51,8 @@ Adobe提供範本，可檢視重要的跨裝置效能資料。
 
 1. 導覽至 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 並使用您的 AdobeID 憑證登入。
 1. 按一下頂端的 9 格線圖示，然後按一下「Analytics」。
-1. 按一 [!UICONTROL Workspace] 下頂端，然後按一下 [!UICONTROL Create New Project]。
-1. 找到「Journey IQ:跨裝置分析」範本，然後按一下 [!UICONTROL Create]。
+1. Click [!UICONTROL Workspace] at the top, then click [!UICONTROL Create New Project].
+1. 找到「Journey IQ:跨裝置分析」範本，然後按一下「建 [!UICONTROL 立]」。
 1. 如果出現提示，請將報表套裝變更為支援CDA的報表套裝。
 
 會建立包含數個面板的分析工作區專案。 在上方，會顯示目錄和簡介，允許報表的內容和導覽至個別報表。 按一下目錄內的連結，或展開面板的accordion以檢視這些報表。
