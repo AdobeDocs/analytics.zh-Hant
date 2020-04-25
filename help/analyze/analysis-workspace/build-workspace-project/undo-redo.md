@@ -2,7 +2,7 @@
 description: Analysis Workspace 中「還原」選項的變更與改良功能。
 title: 還原和重做設定
 uuid: a4dbc169-5fd7-4383-aee0-6b5ba1c235ab
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -10,13 +10,13 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 # 還原和重做設定
 
-**[!UICONTROL 「Workplace]** > **[!UICONTROL 專案]** > **[!UICONTROL 還原/重做」]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Undo/Redo]**
 
-* **[!UICONTROL 「重做」]**&#x200B;選項 (重做還原動作) 在&#x200B;**[!UICONTROL 「編輯」]**&#x200B;功能表內。
+* The **[!UICONTROL Redo]** option (to redo an undo) is in the **[!UICONTROL Edit]** menu.
 
-* 點選&#x200B;**[!UICONTROL 「儲存」]**&#x200B;不會清除&#x200B;**[!UICONTROL 「還原」]**&#x200B;堆疊。
+* 按一 **[!UICONTROL Save]** 下不會清除堆 **[!UICONTROL Undo]** 疊。
 
-* **[!UICONTROL 「新增專案」]**&#x200B;或&#x200B;**[!UICONTROL 「開啟現有的專案」]**&#x200B;會清除&#x200B;**[!UICONTROL 「還原」]**&#x200B;堆疊
+* **[!UICONTROL New Project]** 或清 **[!UICONTROL Open Existing Project]** 除堆 **[!UICONTROL Undo]** 疊
 
 * 您可以還原/重做對於報表套裝的變更。
 * 專案名稱附近會顯示還原/重做訊息，其中會顯示進行中的還原或重做動作時間。
