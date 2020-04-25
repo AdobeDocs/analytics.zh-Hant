@@ -18,13 +18,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 >
 >Google AdWords 使用兩種類型的帳戶：a) MCC (我的客戶中心) 帳戶和 b) 標準帳戶。針對與 Adobe Analytics 的整合，**您必須使用標準帳戶登入資訊，而不是 MCC 帳戶登入資訊**。原因在於 MCC 帳戶就像是「傘狀」帳戶，使用者只要憑藉同一組登入資訊，就能存取多個 AdWords 帳戶，但標準帳戶登入資訊的每組登入資訊只能存取一個 AdWords 帳戶。
 
-按一下右上角的「帳戶」圖示，以檢視AdWords帳戶號碼（客戶ID）。
+請按一下右上角的「帳戶」圖示來檢視 AdWords 帳號 (客戶 ID)。
 
 ![](assets/google_account.png)
 
 ## Bing {#section_F1B9C7E997444746936599732CD62665}
 
-帳戶ID和客戶ID都是必要項目。 它們列在「帳戶」標籤上。
+須同時提供帳戶 ID 和客戶 ID。這些資訊皆列示於「帳戶」標籤中。
 
 >[!NOTE] 帳號與帳戶 ID 不同。
 
