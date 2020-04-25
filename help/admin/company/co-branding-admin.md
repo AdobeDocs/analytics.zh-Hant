@@ -3,7 +3,7 @@ description: 「管理品牌結合影像」頁面可讓您在下載的報告中�
 title: 品牌結合
 topic: Admin tools
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
