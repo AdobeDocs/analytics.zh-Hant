@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 設定事件序列化
 
-您必須先在報表套裝設定中將事 [!UICONTROL Unique Event Recording] 件設 [!UICONTROL Use Event ID] 為「事件」。 請參閱「管理員使用指南」中的[成功事件](/help/admin/admin/c-success-events/success-event.md)。
+您必須先在報表套裝設定中將事件的[!UICONTROL 「獨特事件記錄」]設定設為[!UICONTROL 「使用事件 ID」]。請參閱「管理員使用指南」中的[成功事件](/help/admin/admin/c-success-events/success-event.md)。
 
 使用事件 ID 時，去重複化會發生在以下層級：
 
@@ -31,10 +31,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
-5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
-6. 找到區 [!UICONTROL Events] 段，其中每個事件都包含一 [!UICONTROL Event ID] 個欄位。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
+6. 找出[!UICONTROL 「事件」]區段，其中每個事件都包含[!UICONTROL 「事件 ID」]欄位。
 
 有效值是長度最多 20 個位元組的英數字元。
 
