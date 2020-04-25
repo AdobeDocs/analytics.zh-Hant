@@ -3,7 +3,7 @@ description: 「行銷管道概觀報告」可讓您概略分析客戶採用哪�
 title: 行銷管道概觀
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    * **預算**&#x200B;與&#x200B;**成本**：「行銷管道」的專用量度。請參閱[成本與預算](https://marketing.adobe.com/resources/help/zh_TW/mchannel/c_overview_budget.html)。
 
-## 產品特定屬性{#section_0C78D294D00942FD9A26D37CB5D645AE}
+## 產品特定屬性 {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
 **第 14 版與第 15 版**
 
