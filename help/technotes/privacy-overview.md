@@ -3,7 +3,7 @@ description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考�
 keywords: privacy
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 收集下列資料:
 | 消費者點按客戶頁面上連結時的搜尋查詢 | 是 |
 | 瀏覽器類型 | 是 |
 | 裝置類型 | 是 |
-| 作業系統 | 是 |
+| 作業系統  | 是 |
 | ISP/連線速度 | 是 |
 | 顯示器設定 (例如螢幕大小和解析度) | 是 |
 | IP 位址 (用於大致定位) | 是* |
@@ -49,7 +49,7 @@ Adobe Analytics 收集下列資料:
 
 *前提是 Adobe 客戶未選擇移除 IP。
 
-## 其他隱私權考量事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## 其他隱私權考量事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -106,7 +106,7 @@ Adobe Analytics 收集下列資料:
  </tbody> 
 </table>
 
-## EMEA 資料中心位置{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA 資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 下列 EMEA 資料中心目前代管 Adobe Analytics 資料:
 
