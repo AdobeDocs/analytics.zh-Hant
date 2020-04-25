@@ -2,7 +2,7 @@
 description: 可讓您利用過去在 Target Classic 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
 title: 目標提升度和可信度
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -25,7 +25,7 @@ Adobe Target 文件包含更多關於[提升度](https://marketing.adobe.com/res
 
 1. 報表會新增這些量度，包括量度和標準化量度之間的比率。
 
-## 報表設定{#section_3508439E09CA4E38B2EA309BA477C01D}
+## 報表設定 {#section_3508439E09CA4E38B2EA309BA477C01D}
 
 ![](assets/lift_confidence_ui.png)
 
