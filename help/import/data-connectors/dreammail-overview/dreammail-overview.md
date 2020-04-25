@@ -2,7 +2,7 @@
 description: 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 Analytics® 與電子郵件行銷的行為資訊，成為一項功能強大的工具，可重新定義成功測量，並透過更具相關性的訊息鎖定對象。
 title: Adobe Analytics 的 DreamMail Data Connector
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
