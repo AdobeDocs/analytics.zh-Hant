@@ -29,9 +29,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/segment-builder.png)
 
-1. 為區段提供標題和說明並儲存。
+1. 提供區段的標題和描述，然後將其儲存。
 
-   您現在可以在任何您想要的報表中使用此區段。
+   您現在可以在任意報表中使用這個區段了。
 
 ## 將區段新增為接觸點 {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
@@ -39,14 +39,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/segment-touchpoint.png)
 
-或者，您也可以將美國使用者區段拖曳至另一個查核點，以建立AND觸點。
+或者，您也可以將美國使用者區段拖曳至其他檢查點尚，用以建立 AND 接觸點。
 
 ## 比較流失率中的區段 {#section_E0B761A69B1545908B52E05379277B56}
 
-您可以比較「流失」視覺化中不限數量的區段。
+您可以在「流失」視覺效果中比較無數區段。
 
-1. 從左側的邊欄選取您要比 [!UICONTROL Segments] 較的區段。 在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
-1. 將它們拖曳至頂端的「區段」拖放區。
+1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. 在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
+1. 將這些區段拖曳至頂端的「區段」拖放區域。
 
    ![](assets/segment-drop.png)
 
@@ -54,4 +54,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/seg-compare.png)
 
-1. 您現在可以比較兩個區段的流失，例如某個區段的績效高於另一個區段的位置，或是其他見解。
+1. 您現在可以比較這兩個區段的流失，例如某個區段在哪裡表現較另一個區段優秀，或是使用其他分析角度。
