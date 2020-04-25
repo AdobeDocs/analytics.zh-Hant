@@ -3,7 +3,7 @@ description: 透過「偏好設定管理器」頁面，您可以設定如何轉�
 title: 偏好設定管理器
 topic: Admin tools
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
