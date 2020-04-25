@@ -3,7 +3,7 @@ description: 「個別報表套裝的設定值」可讓您變更報表套裝的�
 title: 個別報表套裝的設定值
 topic: Admin tools
 uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
