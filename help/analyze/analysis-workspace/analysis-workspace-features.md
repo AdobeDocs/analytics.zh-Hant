@@ -11,7 +11,7 @@ source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 # Analysis Workspace 概述
 
-分析工作區可移除單一Analytics報表的所有典型限制。 它提供強穩、有彈性的畫布，以建立自訂分析專案。 您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段、建立群組以進行分析、建立警報、比較區段、進行流量和流失分析，以及組織和排程報表，以便與業務中的任何人共用。
+Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
 
 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
@@ -29,9 +29,9 @@ source-git-commit: 5161ccaf333908525c261b73419899918554b91c
 
 Analysis Workspace 提供自由與靈活性：
 
-* 拖放元件（維度、量度、區段和時間粒度）
-* 將多個視覺化拖放至專案
-* 在專案中隨處移動、調整大小和堆疊視覺化
+* 拖放元件 (維度、量度、區段和時間粒度)
+* 拖放多個視覺效果至專案
+* 在專案中的任意位置移動、調整大小以及堆疊視覺效果
 
 ![](assets/fa_project_new.png)
 
@@ -39,11 +39,11 @@ Analysis Workspace 提供自由與靈活性：
 
 ## 專案中的多重視覺效果
 
-將任意數量的視覺化拖放至您想要的專案上。
+拖放您需要的視覺效果數目至專案。
 
 ![](assets/visualizations-multiple.png)
 
-建立顯示變更百分比的專案，其中多個視覺化對應至自由格式資料表格中的儲存格。
+建立可顯示變更百分比的專案，其中具有對應至自由資料表中儲存格的多個視覺效果。
 
 ![](assets/visualizations-multiple02.png)
 
@@ -53,8 +53,8 @@ Analysis Workspace 提供自由與靈活性：
 
 結合 Analysis Workspace [豐富文字編輯](/help/analyze/analysis-workspace/visualizations/text.md)功能後，您可透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案的內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。若要將內部連結新增至您的專案：
 
-1. 將文字視覺化拖曳至專案中，可能會拖曳至需要某些內容的視覺化或表格旁。
-1. 在文字方塊中填入內容表格，然後反白標示您要連結至面板或視覺化的項目，例如「成功度量」。
+1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
+1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
 
    ![](assets/intra-linking1.png)
 
@@ -63,9 +63,9 @@ Analysis Workspace 提供自由與靈活性：
 
    ![](assets/intra-linking2.png)
 
-1. 複製該連結，並將其新增至文字視覺化中的「成功度量」超連結。 按一下核取標籤以儲存文字。
+1. 複製該連結，並將連結新增至文字視覺效果的「成功量度」超連結。按一下勾選記號以儲存文字。
 
-如果您的專案中已收合面板或視覺化，按一下連結會展開面板／視覺化，讓使用者看得到。
+如果您在專案內摺疊面板或視覺效果，按一下連結會展開面板/視覺效果，供使用者檢視。
 
 >[!NOTE] 您也可以在右鍵選項中使 **[!UICONTROL Edit Description]** 用此功能。
 
@@ -75,7 +75,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 所選儲存格的動態視覺效果
 
-選取個別儲存格，並檢視視覺效果會動態變更。 [將視覺化與選取的儲存格同步](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) ，並將其鎖定。
+選取個別儲存格，動態查看視覺效果變更。將視覺效果[同步 (鎖定)](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_9D66A001586F49CEB0C565581E44957C) 至所選儲存格。
 
 ![](assets/visualize-selected-cells.png)
 
@@ -99,7 +99,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 維度與維度項目劃分
 
-身為零售商，您可以比以往更深入地探討您的宣傳活動，以瞭解如何更好地吸引客戶。 根據您的特定需求，以無限制的方式劃分資料；使用相關量度、維度、區段、時間線和其他分析劃分值建立查詢。
+身為零售商，您可以對促銷活動進行比以往更深入的分析，了解如何以更好的方式吸引客戶。您可針對特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
 
 ![步驟結果](assets/fa_data_table_actions.png)
 
@@ -109,11 +109,11 @@ You can link users to other projects that may be of interest to them by going to
 
 選取自由表格中的儲存格，並從選取項目建立區段。
 
-比較多個區段，並立即建立和套用區段。 您可以套用多個區段，根據行為和互動來關注特定客戶，然後進行比較和對比。
+比較多個區段，並立即建立和套用區段。您可以套用多個區段，根據行為和互動將重點放在特定客戶，然後進行比較與對照。
 
 ![](assets/segment_inline.png)
 
-將區段拖放至專案層級的自由面板，區段就會套用至整個專案。
+在專案層級拖放區段至自由面板，區段就會套用至整個專案。
 
 ![](assets/segment-panel.png)
 
@@ -125,8 +125,8 @@ You can link users to other projects that may be of interest to them by going to
 
 * 在資訊面板中套用或建立專案層級標記。(![](assets/information_icon.png))
 
-* 在「元件」面板中按一下滑鼠右鍵以標籤（或建立標籤）。
-* 在「搜尋」欄位中使用#來尋找標籤。
+* 以滑鼠右鍵按一下元件，以從元件面板進行標記 (或建立標記)。
+* 在搜尋欄位中使用 # 尋找標記。
 
 ## 元件動作
 
@@ -135,12 +135,12 @@ You can link users to other projects that may be of interest to them by going to
 | 元件動作 | 說明 |
 |--- |--- |
 | 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
-| 收藏 | 將元件新增至您的最愛清單。 接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」。 |
-| 核准 | 核准元件，使其成為標準元件。 接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
-| 共用 | 僅適用於區段。 |
-| 刪除 | 僅適用於區段。 |
+| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」。 |
+| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
+| 共用 | 僅套用至區段。 |
+| 刪除 | 僅套用至區段。 |
 
-See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) for more information.
+請參閱[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)以取得詳細資訊。
 
 ## 其他功能說明
 
@@ -152,32 +152,32 @@ See [Visualizations](/help/analyze/analysis-workspace/visualizations/freeform-an
 * 區段
 * 量度
 * 日期範圍
-* 時間粒度（小時、日、周等）。
+* 時間粒度 (小時、日、週等)。
 
 **多個自由表格和多個視覺效果**
 
-關於可以新增至面板的自由表格和視覺效果數目，沒有技術上的限制。此外，您也可以執行新的視覺化（或匯出至CSV）每個自由表格或表格的選取列。
+關於可以新增至面板的自由表格和視覺效果數目，沒有技術上的限制。此外，您也可以對每個自由表格或表格上的選定列執行新的視覺效果 (或匯出至 CSV)。
 
 **欄排列、排序和複製**
 
 * 排序日期範圍預設集 (不包含自訂日期範圍)。
-* CTRL（或Command）+按一下+拖曳欄會複製欄，拖曳復本時，會將其貼至表格中的新位置。
+* CTRL (或 Command) + 按一下 + 拖曳欄可以複製該欄，而拖曳副本則會將其貼至表格中的新位置。
 
 參閱 [Analysis Workspace 中可用的快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以了解詳細資訊。
 
 **選取範圍和動作**
 
-您可以選取行和欄，就像在Excel中選取行和欄的方式一樣。 然後，您可以對這些選擇採取操作。 例如：
+您可用在 Excel 中選取行和欄的方式，來選取行和欄。接著就可以在這些選取範圍上執行動作。例如：
 
-* 從選取範圍建立視覺化
-* 複製到剪貼簿（CTRL或Command + C）
-* 劃分多個選取的列。 選取行，然後將維度拖曳至選取範圍。 或者，以滑鼠右鍵按一下選取範圍，然後使用「劃分」功能表。
+* 從選取範圍建立視覺效果
+* 複製至剪貼簿 (CTRL 或 Command + C)
+* 劃分多重選取的列。選取行，然後拖曳維度至選取範圍。或者，以滑鼠右鍵按一下選取範圍，然後使用「劃分」功能表。
 
 **自動儲存和未儲存的變更**
 
-如果您嘗試關閉瀏覽器（或使用「上一步」按鈕），但專案尚未儲存，系統會提示您儲存變更。 如果系統當機，您會在載入專案時收到要還原為先前專案狀態的警報。
+如果您嘗試關閉瀏覽器 (或使用「上一頁」按鈕) 時尚未儲存專案，系統會提示您儲存變更。如果系統當機，您會在載入專案時收到還原為上一個專案狀態的警報。
 
-現有（非新）專案只會在瀏覽器當機時自動儲存，或在其他情況下，您沒有機會儲存時自動儲存。
+已經存在 (非新的) 專案只會在瀏覽器當機時，或是其他您沒有機會儲存它們的情況下，才會自動儲存
 
 **所有造訪**
 
@@ -185,6 +185,6 @@ Analysis Workspace 獨特的預設區段。*`All Visits`*&#x200B;會顯示您新
 
 **計算量度**
 
-使用計算的方式與使用標準量度的方式相同。
+計算的使用方式與標準量度相同。
 
-請參閱 [計算量度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)。
+請參閱[計算量度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)。
