@@ -25,13 +25,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下頂端的 9 格線圖示，然後按一下 [!UICONTROL Adobe Analytics]。
-3. 如果您尚未建立報表套裝，強制回應視窗會自動顯示。If a report suite exists for this login company, click the Help icon in the top right, then click [!UICONTROL Welcome to Adobe Analytics].
+3. 如果您尚未建立報表套裝，強制回應視窗會自動顯示。如果此登入公司的報表套裝已存在，請按一下右上方的「說明」圖示，然後按一下[!UICONTROL 歡迎使用 Adobe Analytics]。
 
->[!NOTE] 只有 [!UICONTROL Welcome to Adobe Analytics] 當您透過Adobe Experience Cloud登入時，才會顯示此選項。 如果您透過舊版網域登入，將無法使用此強制回應視窗。
+>[!NOTE] 只有透過 Adobe Experience Coud 登入時，才會顯示[!UICONTROL 歡迎使用 Adobe Analytics] 選項。如果您透過舊版網域登入，將無法使用此強制回應視窗。
 
 ## 建立報表套裝
 
-Click the [!UICONTROL Start Setup] button to begin the report suite creation workflow.
+按一下[!UICONTROL 開始設定]按鈕，開始建立報表套裝的工作流程。
 
 ![RS 精靈](assets/analytics-implementation-rs-wizard.png)
 
