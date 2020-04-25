@@ -3,7 +3,7 @@ description: 內部 URL 篩選器可識別您認為是屬於網站內部的反�
 title: 內部 URL 篩選器
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
