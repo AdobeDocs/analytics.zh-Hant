@@ -23,7 +23,7 @@ source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 | 條件 | 促銷活動未設定 |
 | 動作 | 以查詢字串參數 cpid 覆寫促銷活動的值 |
 
-例如:
+例如：
 
 ![](assets/set-campaign-conditionally.png)
 
