@@ -1,7 +1,7 @@
 ---
 title: 雜湊碰撞
 description: 描述雜湊碰撞為何及其出現方式。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
