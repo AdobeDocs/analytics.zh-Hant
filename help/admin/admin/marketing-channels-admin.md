@@ -13,6 +13,6 @@ source-git-commit: 79a3bd43171f982831120a5a9fe181dd2f8dec16
 
 行銷渠道通常用於提供訪客如何（透過哪個渠道）到達您網站的分析。 您可以根據所要追蹤的管道以及追蹤方式，建立及自訂行銷管道處理規則。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]**.
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道」]**。
 
 請參閱[行銷管道](/help/components/c-marketing-channels/analyze-mc.md)。
