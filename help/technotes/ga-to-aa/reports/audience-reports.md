@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中的對象報表
 description: 瞭解如何使用 Analysis Workspace 建立對象型報表。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 
 ---
