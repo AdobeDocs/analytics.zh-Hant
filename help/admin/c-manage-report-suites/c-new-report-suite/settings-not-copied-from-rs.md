@@ -3,7 +3,7 @@ description: 如果從現有報表套裝複製設定，會出現系統訊息，�
 title: 並非從來源報表套裝複製的設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
