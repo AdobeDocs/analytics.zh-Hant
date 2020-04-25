@@ -3,7 +3,7 @@ description: 說明權限設定方式以及 Analytics 提供的維度。
 title: Analytics 中的 Activity Map 報表
 topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -27,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 | 維度 | 說明 |
 |---|---|
-| Activity Map 頁面 | 列出使用者在其中點按了連結的頁面。 |
+| Activity Map頁面 | 列出使用者在其中點按了連結的頁面。 |
 | Activity Map 地區 | 列出整個網站上所有收集的連結地區。請注意，如果某個地區重複出現在多個頁面，則會在所有頁面上彙總此量度。 |
 | Activity Map 連結 | 列出整個網站上所有收集的連結。 |
 | Activity Map 連結和地區 | 列出整個網站上所有收集的連結及其地區。 |
