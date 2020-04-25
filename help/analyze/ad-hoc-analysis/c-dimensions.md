@@ -3,7 +3,7 @@ description: 維度是量度資料的描述或特徵，可以在報表中加以�
 title: 維度
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
