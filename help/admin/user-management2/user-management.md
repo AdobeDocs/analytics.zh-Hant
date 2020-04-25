@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 使用者和產品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
 
 ---
@@ -65,7 +65,7 @@ source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新增使用者</span> </td> 
-   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
+   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下載報表</span> </td> 
@@ -73,7 +73,7 @@ source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登入</span> </td> 
-   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
+   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -109,7 +109,7 @@ source-git-commit: ad8615bcbdb00a91ac9c0c3beace3f1155e74694
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 編輯</span> </td> 
-   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
+   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 刪除</span> </td> 
