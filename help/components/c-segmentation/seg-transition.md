@@ -4,7 +4,7 @@ keywords: segmentation;segments
 title: 常見問題集
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -58,7 +58,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
-**舊式區段下拉式清單移至何處？**
+**舊式區段下拉式清單移至何處?**
 
 「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，
 
@@ -123,7 +123,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/seg_templates.png)
 
-**我現有的區段資料夾有什麼改變？**
+**我現有的區段資料夾有什麼改變?**
 
 「區段管理員」不使用 (Ad Hoc Analysis) 資料夾，而是使用標記之間。您的資料夾名稱會自動轉換成標記，而這些標記會套用至對應的區段。
 
@@ -173,7 +173,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 先前造訪過 5 次以上的造訪*
 * 來自 Facebook 的瀏覽次數*
 
-這些區段 (具有星號 * 標記者除外) 多半將會以區段範本的形式移轉至「區段產生器」。另外，新增了數個新的區段範本。
+這些區段 (具有星號 * 標記者除外) 多半會以區段範本的形式移轉至區段產生器。另外，新增了數個新的區段範本。
 
 已套用這些區段的現有報表將可繼續正常運作。
 
@@ -326,7 +326,7 @@ seg_definition.xml
  </tbody> 
 </table>
 
-## 對於具有已知值之字串式維度的變更{#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+## 對於具有已知值之字串式維度的變更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
 
 具有一組已知值的字串式維度已變更為列舉類型。使用這些維度建立區段時，清單中會預先填入所有已知值，而唯一支援的運算子為「等於」。如此您便能快速將所要尋找的確切值分段，而不需在使用較不精細的比對時選取到不想要的值。
 
@@ -348,7 +348,7 @@ seg_definition.xml
 | 行動書籤長度 | Java 已啟用 | 付費搜尋 |
 | 行動 URL 長度 | 語言 |  |
 
-## 對於具有已知值之整數式維度的變更{#section_84A8AAD0344148AD9F9211D3EB271903}
+## 對於具有已知值之整數式維度的變更 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式：
 
