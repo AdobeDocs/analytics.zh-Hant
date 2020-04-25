@@ -1,6 +1,6 @@
 ---
 title: 行銷管道中的分類
-description: 使用分類將值分類為相關群組，並在群組層級進行報告。 例如，您可以將所有付費搜尋促銷活動分類為視訊卡等類別。 然後，您就可以報告該類別相對於例項（或點進次數）等量度的成功。
+description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 translation-type: tm+mt
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
@@ -9,9 +9,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 行銷管道中的分類
 
-使用分類將值分類為相關群組，並在群組層級進行報告。 例如，您可以將所有付費搜尋促銷活動分類為視訊卡等類別。 然後，您就可以報告該類別相對於例項（或點進次數）等量度的成功。
+使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 
-您在此程式中新增的分類會在報表中 [!UICONTROL Marketing Channel Overview] 顯示為 [!UICONTROL Channel Values]。 管道值是管道詳情中未分類的值。
+您在此程序中新增的分類，在[!UICONTROL 行銷管道概述]報表中顯示為[!UICONTROL 管道值]。管道值是管道詳情中未分類的值。
 
 >[!NOTE] 請確定您熟悉如何在分類中建立 [分類](/help/components/c-classifications2/c-classifications.md)。
 
@@ -23,14 +23,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | 詞語 | 定義 |
 |--- |--- |
-| 文字分類 | 指定分類類別的類型，可讓您將變數資料分組以用於報告。 |
-| 名稱 | 分類的名稱。 新增的分類顯示為行銷管道管理員中的「管道劃分」選項。 |
-| 選項 | 分類的名稱。 新增的分類顯示為行銷管道管理員中的「管道劃分」選項。 |
+| 文字分類 | 指定可讓您為匯報而劃分變數資料的分類類別的類型。 |
+| 名稱 | 分類的名稱。新增的分類顯示為行銷管道管理員中的「管道劃分」選項。 |
+| 選項 | 分類的名稱。新增的分類顯示為行銷管道管理員中的「管道劃分」選項。 |
 
 ## Create Marketing Channels classifications {#create-mktg-channel-classifications}
 
-建立分類 [!UICONTROL Marketing Channels]。
+建立行銷管 [!UICONTROL 道的分類]。
 
-1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
-1. In the [!UICONTROL Report Suite Manager], click **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Classification]**.
-1. 在下 [!UICONTROL Classifications]方， **[!UICONTROL Add Classification]** 按一下（或編輯現有的）。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
+1. 在報表套裝管理器中，按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道分類」]**。
+1. 在[!UICONTROL 「分類」]**[!UICONTROL 下，按一下「新增分類」]**(或編輯現有的一個)。
