@@ -2,7 +2,7 @@
 description: Adobe Analytics 劃分的新功能。
 title: Analytics 劃分新增功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
