@@ -3,7 +3,7 @@ description: 「管理待定動作」頁面可讓您檢視 Analytics 環境中�
 title: 待定動作
 topic: Admin tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
