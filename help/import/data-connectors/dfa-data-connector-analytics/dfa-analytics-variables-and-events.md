@@ -4,7 +4,7 @@ keywords: DFA
 title: Analytics 變數和事件
 topic: Data connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -23,7 +23,7 @@ DFA 的 Data connectors 整合會使用 Analytics 變數來追蹤 DFA 促銷活�
 | eVar* | DFA 查詢錯誤 | (可選) 透過 JavaScript 收集代碼填入。 | 包含從 DFA 傳回的數個錯誤碼之一。 |
 | 事件* | 閱覽計數 | 由 DFA 促銷活動的 Data Connectors 自動填入。 | 擷取使用者檢視廣告、未點進但進入您的網站的次數。 |
 | 事件* | 曝光數 | 透過 DFA 的資料回饋自動填入。 | 追蹤特定 DFA 廣告的提供次數。 |
-| 事件* | 點按 | 透過 DFA 的資料回饋自動填入。 | 追蹤使用者點按特定 DFA 橫幅廣告的次數。基於數個原因之一，此量度可能會產生與原生 Analytics 點進量度不同的數值。請參閱[協調量度差異](/help/import/data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以取得詳細資訊。 |
+| 事件* | 點擊次數 | 透過 DFA 的資料回饋自動填入。 | 追蹤使用者點按特定 DFA 橫幅廣告的次數。基於數個原因之一，此量度可能會產生與原生 Analytics 點進量度不同的數值。請參閱[協調量度差異](/help/import/data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以取得詳細資訊。 |
 | 事件* | DFA 逾時 | (可選) 透過 JavaScript 收集代碼填入。 | 計算 DFA 無法在&#x200B;*`s.maxDelay`*&#x200B;逾時之前回應的次數。這有助於您判斷是否有 DFA 實施問題。 |
 | 事件* | DFA 媒體成本 | 透過 DFA 的資料回饋自動填入。 | 包含已在 DFA 介面中輸入的媒體成本量度。必須在 DFA 端啟用此功能，這些量度才會出現。 |
 
