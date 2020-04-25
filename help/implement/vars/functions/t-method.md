@@ -39,9 +39,9 @@ Launch 有設定頁面檢視追蹤呼叫的專用位置。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. Under [!UICONTROL Actions], click the &#39;+&#39; icon
-5. Set the [!UICONTROL Extension] dropdown to Adobe Analytics, and the [!UICONTROL Action Type] to Send Beacon.
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下「+」圖示
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為「傳送信標」。
 6. 按一下 `s.t()` 選擇鈕。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.t() 方法
