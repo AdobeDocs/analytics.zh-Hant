@@ -3,7 +3,7 @@ description: 顯示訪客離開 (流失) 和繼續瀏覽 (經過) 預先指定�
 title: 流失
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
