@@ -2,7 +2,7 @@
 description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
 title: 伺服器端轉送資料和程式碼參考
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -51,12 +51,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | c_colorDepth | 指定為 16 or 32 位元色彩。 |
 | c_connectionType | 指定連線類型。選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
 | c_contextData.* | 範例：<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>訊號：c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括：是、否、未知 |
+| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括:是、否、未知 |
 | c_currencyCode | 用於交易的貨幣類型。 |
 | c_evar# | 自訂 eVar。 |
 | c_events | 由 s.events 設定。 |
 | c_hier# | 自訂階層變數。 |
-| c_javaEnabled | 指定 Java 是否可啟用。選項包括：是、否、未知 |
+| c_javaEnabled | 指定 Java 是否可啟用。選項包括:是、否、未知 |
 | c_javaScriptVersion | 瀏覽器支援的 JavaScript 版本。 |
 | c_latitude | 數值緯度。 |
 | c_linkClick | 選項包括：自訂，下載退出 |
