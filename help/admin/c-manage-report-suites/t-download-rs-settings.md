@@ -3,7 +3,7 @@ description: 說明如何產生 Excel 試算表 (包含選定報表套裝之所�
 title: 下載報表套裝設定值
 topic: Admin tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
