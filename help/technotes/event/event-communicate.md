@@ -13,7 +13,7 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 ## 透過面板或視覺化說明進行溝通
 
-如果您的組織中的使用者共用工作區專案，您可透過面板或視覺化說明來傳達事件的影響。 以滑鼠右鍵按一下面板或視覺化標題，然後選取 **[!UICONTROL Edit description]**。
+如果您的組織中的使用者共用工作區專案，您可透過面板或視覺化說明來傳達事件的影響。 以滑鼠右鍵按一下面板或視覺化標題，然後選取「編 **[!UICONTROL 輯說明」]**。
 
 ![面板說明](../assets/panel_description.png)
 
@@ -27,8 +27,8 @@ source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
 
 如果您使用「報告與分析」，則可使用日曆事 [件](/help/components/t-calendar-event.md) ，在任何趨勢報表中反白標示受影響的日。 此方法不適用於分析工作區。
 
-1. 導覽至 **[!UICONTROL Components]** > **[!UICONTROL Calendar events]**。
+1. 導覽至「 **[!UICONTROL 元件]** >日 **[!UICONTROL 歷事件」]**。
 2. 輸入所要的標題、日期範圍和附註文字。
-3. 按一下 **[!UICONTROL Save]**.
+3. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ![日曆事件](../assets/exclude_calendar_event.png)
