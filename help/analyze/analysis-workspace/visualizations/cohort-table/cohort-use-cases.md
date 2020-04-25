@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 同類群組分析使用案例
 topic: Reports and analytics
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **包含量度**：應用程式安裝。
 
-**回訪量度**：作業階段或啟動次數
+**回訪量度**: 作業階段或啟動次數
 
 後續月份的訪客必須有作業階段或至少啟動應用程式，否則不會計算為&#x200B;*`engaged`*。同類群組分析接著會顯示使用模式，其中 *`App Install`* 一律發生在第 0 個月。您可能發現無論使用者於何時安裝應用程式，使用量都在第 2 個月下降。(對於在 2015 年 1 月安裝應用程式的使用者，第 2 個月是指 2015 年 3 月。對於在 2015 年 2 月安裝應用程式的使用者，第 2 個月是指 2015 年 4 月，以此類推。)這項分析可供您傳送電子郵件或推播訊息給安裝應用程式後進入第二個月期間的所有使用者，提醒他們使用應用程式。
 
