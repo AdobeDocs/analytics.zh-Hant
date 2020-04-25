@@ -17,7 +17,7 @@ source-git-commit: b580a8cb149babd9f64ec1ac532fdff7e7c18df7
 
 ## 範例
 
-下列報表會比較度量「瀏覽」和「頁 [面檢視](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-visit.html) 」 [的連線類型](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html):
+下列報表會比較度量「瀏覽」和「頁 [面檢視](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/metrics/metrics-visit.html) 」 [的連線類型](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-page-views.html):
 
 ![報告](assets/contype_compare.png)
 
