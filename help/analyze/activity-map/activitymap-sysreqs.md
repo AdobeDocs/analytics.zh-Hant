@@ -13,7 +13,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 下列網頁瀏覽器支援 Activity Map。
 
-| 支援的瀏覽器 | 版本 |
+| 受支援的瀏覽器 | 版本 |
 |--- |--- |
 | Internet Explorer | 最新版本 |
 | Firefox | 最新版本 |
