@@ -1,6 +1,6 @@
 ---
 title: 行銷管道的處理規則
-description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站上進行的每次點擊。 當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
+description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 translation-type: tm+mt
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
@@ -9,18 +9,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 行銷管道的處理規則
 
-行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站上進行的每次點擊。 當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
+行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 
 以下是建立規則的重要指引：
 
-* 依照您要處理規則的順序來排序規則。
-* 在清單的結尾處，加入一套全面性規則，例如「其他」。 此規則可識別外部流量，但不識別內部流量。
+* 依據所需的處理順序來排序規則。
+* 在清單結尾，加入一個包羅廣泛的規則，例如「其他」。此規則可識別外部流量，但不識別內部流量。
 
    請參閱[未識別管道](/help/components/c-marketing-channels/c-faq.md)。
 
->[!NOTE] 雖然這些規則不影響行銷管道外部的報表，但會影響行銷管道資料收集。使用這些規則收集的資料是100%永久性的，而在收集資料後變更的規則則不具追溯性。 It is strongly recommended to review and consider all circumstances before saving [!UICONTROL Marketing Channel Processing Rules] to mitigate data being collected in incorrect channels.
+>[!NOTE] 雖然這些規則不影響行銷管道外部的報表，但會影響行銷管道資料收集。使用這些規則收集的資料一律是永久性的，而在收集資料後更改的規則無法溯及以往。強烈建議您在儲存[!UICONTROL 行銷管道處理規則]前，檢閱並考慮所有的情況，移轉將在錯誤管道中收集的資料。
 
-## 必要條件
+## 必備條件
 
 * 檢視行銷管道快 [速入門的概念資訊](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * 建立一個或多個管道，以便為它們指定規則。See [Add marketing channels.](/help/components/c-marketing-channels/c-channels.md)
@@ -29,26 +29,26 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 建立行銷管道處理規則，以判定訪客點按是否符合指派給管道的標準。
 
-此程式使用電子郵件規則做為範例。 此範例假設您已新增電子郵件管道至「行銷管道管理員」頁面上的管道清單中。
+此程序使用電子郵件規則做為範例。此範例假設您已新增電子郵件管道至「行銷管道管理員」頁面上的管道清單中。
 
-1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 選取報表套裝。
 
-   If your report suite does not have channels defined, the [!UICONTROL Marketing Channels: Auto Setup] page displays.
+   如果報表套裝尚未定義管道，則會顯示[!UICONTROL 「自動設定」頁面]。
 
    See [Run the Automatic Setup](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
 
-1. 按一下 **[!UICONTROL Edit Settings]** > **[!UICONTROL Marketing Channels]** > **[!UICONTROL Marketing Channel Processing Rules]**.
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道處理規則」]**。
 
    ![步驟結果](assets/marketing_channel_rules.png)
 
-1. 從菜單 **[!UICONTROL Add New Rule Set]** 中，選擇 **[!UICONTROL Email]**。
+1. 從&#x200B;**[!UICONTROL 新增新規則集]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 「電子郵件」]**。
 
    您在此處並非選擇管道，而是選擇範本並以數個必要參數填入規則。
 
    ![步驟結果](assets/example_email.png)
 
-   使用布林邏輯（if / then陳述式）來設定規則。 例如，在電子郵件管道規則中，您提供下列規則陳述式中強調的設定或資訊：
+   使用布林邏輯 (if/then 陳述式) 來設定規則。例如，在電子郵件管道規則中，您提供下列規則陳述式中強調的設定或資訊：
 
    `"If **[!UICONTROL All]** or **[!UICONTROL Any]** of the following are true:  **[!UICONTROL Query String Parameter]** *<value>* **[!UICONTROL exists]**...`
 
@@ -57,9 +57,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    `"Then set the channel's value to **[!UICONTROL Query String Parameter]** *<value>*."`
 
    在此範例中，*`<value>`* 是用於電子郵件促銷活動的查詢字串參數，例如 *`eml`*
-1. 若要繼續建立規則，請按一下 **[!UICONTROL Add Rule]**。
+1. 若要繼續建立規則，請按一下&#x200B;**[!UICONTROL 「新增規則」]**。
 1. 若要排列規則優先順序，請將它們拖放至適當位置。
-1. 按一下 **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 >[!MORELIKETHIS]
 >
@@ -77,28 +77,28 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤程式碼。當其中一項整合啟用時，追蹤程式碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用 AMO ID 時，點按/成本/曝光量度可歸因為正確的管道 (若未設定，這些量度將變為「直接」或「無」)。 |
 | AMO ED ID | Advertising Cloud 使用的次要追蹤程式碼。此追蹤程式碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為以「：d」結尾 (代表 Display ClickThroughs) 或結尾為「：i」(代表 Display ViewThroughs) 的「AMO EF ID」設定行銷管道邏輯。如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
 | 轉換變數 | 包含為該報表套裝啟用的 eVar，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。請參閱  實作指南。 |
-| 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**：指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**:可讓您指定，例如，反向連結網域不包含特定值（與使用「包含」選項不同）。</li></ul> |
+| 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**: 例如，讓您指定某反向連結網域不包含特定數值 (與選項「 &quot;包含&quot;.)</li></ul> |
 | 將該管道識別為 | 將規則與新增至行銷管道管理員頁面的行銷管道相關聯。請參閱新增行銷管道。 |
-| 匹配付費搜尋的偵測規則 | Adobe偵測到的付費搜尋。 付費搜尋是指公司為搜尋引擎付費以列出其網站。 付費搜尋通常會出現在搜尋結果的頂端或右側。 |
-| 匹配免費搜尋的偵測規則 | Adobe報告偵測到的非付費搜尋。 |
-| 反向連結匹配內部 URL 篩選器 | 瀏覽的頁面URL與內部URL篩選器相符，如「管理工具」中針對報表套裝所定義。 |
-| 反向連結不匹配內部 URL 篩選器 | 反向連結URL與內部URL篩選器不符，如「管理工具」中針對報表套裝所定義。 您可將此設定與「頁面URL」和「存在」搭配使用，以設定一套全面性規則，如此，不會有任何瀏覽登入報表的「未識別渠道」區段。 |
-| 忽略符合內部URL篩選器的點擊 | （適用於反向連結）僅追蹤來自外部反向連結網站的點擊。 通常，除非您要包含內部流量，否則請保留此設定。 |
-| 是第一個瀏覽的頁面 | Adobe報告偵測到的瀏覽首頁。 |
+| 匹配付費搜尋的偵測規則 | Adobe 偵測的付費搜尋。付費搜尋是指公司付款以將其網站列入搜尋引擎。付費搜尋通常顯示在搜尋結果的頂部或右側。 |
+| 匹配免費搜尋的偵測規則 | Adobe 報表偵測的免費搜尋。 |
+| 反向連結匹配內部 URL 篩選器 | 瀏覽的頁面 URL 與內部 URL 篩選器匹配，該內部 URL 篩選器是為「管理工具」的報表套裝而定義的。 |
+| 反向連結不匹配內部 URL 篩選器 | 反向連結 URL 與一個內部 URL 篩選器不相符，並且這是為「管理工具」的報表套裝而定義的。此設定可搭配使用頁面 URL  和存在來設定範圍廣泛的規則，如此一來就不會有任何造訪落在報表的未識別管道區段中。 |
+| 忽略符合內部 URL 篩選條件的點按 | (適用於反向連結) 僅跟蹤來自外部反向連結網站的點按。通常，除非您想要包含內部流量，否則此設定保留啟用。 |
+| 是第一個瀏覽的頁面 | 由 Adobe 報表偵測到的瀏覽首頁。 |
 | 頁面 | 您網站上使用 Adobe 網站信標所標記的網頁之頁面名稱。此值等同於  s.pageName 。例如 `Home Page` 和 `About Us`。 |
 | 頁面網域 | 訪客著陸的頁面網域，例如 `products.example.co.uk`。 |
 | 頁面網域和路徑 | The domain and path, such as `products.example.co.uk/mens/pants/overview.html` . |
 | 頁面根網域 (TLD+1) | 訪客著陸的頁面根網域，例如 example.co.uk。 |
-| 頁面 URL | 您網站上網頁的URL。 |
+| 頁面 URL | 您網站某個網頁的 URL。 |
 | 反向連結網域 | 訪客在瀏覽您的網站前所處的網域，例如，源自 `abcsite.com` 與 `xyzsite.com` 的反向連結。 |
 | 查詢字串參數 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then page and cat are both query string parameters. (如需此工具的其他相關資訊，請參閱 `https://en.wikipedia.org/wiki/Query_string`.)  您可為每個規則集僅指定一個查詢字串參數。To add additional query string parameters, use `ANY` as your operator, then add new query string parameters to the rule. |
-| 反向連結 | 訪客來到您網站前所在的網頁位置（完整URL）。 反向連結存在於您定義的網域之外。 |
-| 反向連結網域和路徑 | 反向連結網域和URL路徑的串連。 例如：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
-| 反向連結參數 | 反向連結URL上的查詢字串參數。 例如，如果訪客來自 `example.com/?page=12345&cat=1`，則 page 和 cat 為反向連結參數。 |
-| 反向連結根網域 | 反向連結的根網域。 反向連結存在於您定義的網域之外。 |
+| 反向連結 | 訪客在來到您網站之前所處的網頁位置 (完整 URL)。反向連結存在於您所定義網域之外。 |
+| 反向連結網域和路徑 | 反向連結網域和 URL 路徑的串連例如：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
+| 反向連結參數 | 反向連結 URL 上的查詢字串參數。例如，如果訪客來自 `example.com/?page=12345&cat=1`，則 page 和 cat 為反向連結參數。 |
+| 反向連結根網域 | 反向連結的根網域。反向連結存在於您所定義網域之外。 |
 | 搜尋引擎 | 類似 Google 或 Yahoo! 將訪客帶至您網站的搜尋引擎。 |
 | 搜尋關鍵字 | 使用搜尋引擎來執行搜尋的一個詞。 |
-| 搜尋引擎+關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。 例如，如果搜尋 computer，則搜尋引擎和關鍵字的識別如下所示： `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**注意：**n = 免費; p = 付費 |
+| 搜尋引擎 + 關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。例如，如果搜尋 computer，則搜尋引擎和關鍵字的識別如下所示： `Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**注意：**n = 免費; p = 付費 |
 | 設定該管道的值為 | 除了瞭解為您網站帶來訪客的行銷管道之外，您還能知道管道內的哪些橫幅廣告、搜尋關鍵字或電子郵件促銷活動為訪客的網站活動獲得評分。該 ID 是與管道一同儲存的管道值。該值通常為內嵌於著陸頁面或反向連結 URL 中的促銷活動 ID，有時也是搜尋引擎和搜尋關鍵字組合，或是最近識別特定管道中訪客的反向連結 URL。 |
 
 ## 內部 (工作階段重新整理) 管道
