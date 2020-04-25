@@ -3,7 +3,7 @@ description: 說明如何定義目標貨幣代碼以便讓多貨幣支援運作�
 title: 多貨幣支援
 topic: null
 uuid: null
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 63a6ca92ae5fe103648c74bd16bcdf90858c71f3
 
 ---
