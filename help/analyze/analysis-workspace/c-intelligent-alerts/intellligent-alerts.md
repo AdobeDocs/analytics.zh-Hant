@@ -35,7 +35,7 @@ Analysis Workspace 中的新「警報產生器」和「警報管理器」取代�
 
    ![新增警報](assets/add-alert.png)
 
-百分比臨界值代表標準差。例如，95% = 2個標準差，99% = 3個標準差。 視您選擇的時間粒度而定 [](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md) ，會使用不同的模型來計算每個資料點離基準的距離（多少標準差）。 若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
+百分比臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。依您選擇的時間粒度而定，[不同模式](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
 
 >[!IMPORTANT]使用時間戳記資料建立警報，可能導致錯誤觸發警報。Adobe 建議您為智慧型警報使用非時間戳記資料。
 
