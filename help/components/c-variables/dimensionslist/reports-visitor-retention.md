@@ -3,7 +3,7 @@ description: 顯示您客戶的忠誠度。您可以看到訪客回訪您網站�
 title: 訪客保留率
 topic: Reports
 uuid: e2d477d0-f704-489b-b4b3-941bc352cd7a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_486948EB47664B90BDF9915314B572B0"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 報告 </th> 
+   <th colname="col1" class="entry"> 報表 </th> 
    <th colname="col2" class="entry"> 說明 </th> 
   </tr> 
  </thead>
