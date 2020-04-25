@@ -2,7 +2,7 @@
 description: 'null'
 title: Adobe Campaign 報表
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -38,7 +38,7 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 報告 </th> 
+   <th colname="col1" class="entry"> 報表 </th> 
    <th colname="col2" class="entry"> 定義 </th> 
   </tr> 
  </thead>
@@ -62,7 +62,7 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 * Campaign 標籤 (Adobe Campaign 中的行銷活動)
 * 已執行的傳送標籤 (個別已執行傳送清單)
 
-## Adobe Analytics 中可用的 Adobe Campaign 維度和量度{#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics 中可用的 Adobe Campaign 維度和量度 {#section_F33385C9660644AF84172EC39601469B}
 
 以下&#x200B;**量度**&#x200B;可透過 Adobe Analytics 報表套裝中的 Campaign 使用：
 
