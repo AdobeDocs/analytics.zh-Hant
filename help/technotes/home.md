@@ -1,6 +1,6 @@
 ---
 title: 技術說明首頁
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
 
 ---
