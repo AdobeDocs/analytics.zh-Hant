@@ -2,7 +2,7 @@
 description: emarsys 的 Data Connectors 整合使用 Analytics 變數來追蹤各種 emarsys 量度。
 title: Analytics 變數
 uuid: 4d5e087c-f495-4aab-9ad1-9b901d34a254
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
