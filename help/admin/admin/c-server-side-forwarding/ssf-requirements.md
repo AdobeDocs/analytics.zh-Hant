@@ -3,7 +3,7 @@ description: 您必須符合這些 Experience Cloud 解決方案、服務及程�
 solution: Audience Manager
 title: 伺服器端轉送需求
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
