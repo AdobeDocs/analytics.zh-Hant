@@ -2,7 +2,7 @@
 description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作，以支援資料主體的 CCPA 存取和刪除權限。
 title: Adobe Analytics 和 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 12a7452337307ca019c005dc20e3b551d96e1289
 
 ---
