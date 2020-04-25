@@ -2,7 +2,7 @@
 description: 設定全域行為設定例如，您可以設定自動儲存、圖表和表格設定，以及指定字型和地區。
 title: 設定
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
