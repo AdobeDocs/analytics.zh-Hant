@@ -3,7 +3,7 @@ description: 在 Activity Map 或舊版 ClickMap 中停止連結追蹤的步驟�
 title: 停止連結追蹤
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,6 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> 移除 Appmeasurement.js 檔案中的下列內容： 
+     
     <code>
      /*
      &nbsp;START&nbsp;Activity&nbsp;Map&nbsp;MODULE&nbsp;The&nbsp;following&nbsp;module&nbsp;enables&nbsp;Activity&nbsp;Map&nbsp;tracking&nbsp;in&nbsp;Adobe&nbsp;Analytics.&nbsp;Activity&nbsp;Map
