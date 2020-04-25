@@ -2,7 +2,7 @@
 description: 度量是有關訪客活動的量化資訊，例如瀏覽、點進、重新載入、平均逗留時間、日期、件數、訂購、收入等。量度和相關資料顯示在報告欄中。
 title: 量度
 uuid: ab9d8a45-0297-4757-b0f0-d8b0e0db8d67
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
