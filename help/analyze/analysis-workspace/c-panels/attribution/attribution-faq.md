@@ -15,7 +15,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 
 **我在使用歸因模型時，為何有時會在報表中看到報表期間之外的日期？**
 
-這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 預計將在後續版本中篩除這些額外資料列。
+這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/tw/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 預計將在後續版本中篩除這些額外資料列。
 
 **我是否可以透過歸因模型使用自訂回顧期間？**
 
@@ -45,7 +45,7 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 * 瀏覽
 * 發生次數
 * 頁面檢視
-* A4T量度
+* A4T 量度
 * 逗留時間量度
 * 彈回數
 * 反彈率
