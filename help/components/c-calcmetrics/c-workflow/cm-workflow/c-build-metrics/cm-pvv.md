@@ -2,7 +2,7 @@
 description: 顯示如何建立簡易的「每次瀏覽頁面檢視次數」量度。
 title: 建立簡單的「每次造訪頁面檢視次數」量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
