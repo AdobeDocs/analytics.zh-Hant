@@ -17,9 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 進入即時報表設定頁面的方式 (需要管理員權限)：
 
-1. Click [!UICONTROL Reports] in the Adobe Analytics header navigation.
-2. 在左側功能表中，按一下 *[!UICONTROL Site Metrics]* > *[!UICONTROL Real-Time]*。
-3. 如果報表套裝尚未啟用即時功能，則會顯示含有一個連結的訊息，可用此連結來設定報表套裝。If the report suite has real-time enabled, click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 按一下 Adobe Analytics 標頭導覽列中的[!UICONTROL 報表]。
+2. 在左側功能表中，按一下&#x200B;*[!UICONTROL 網站量度]* > *[!UICONTROL 即時]*。
+3. 如果報表套裝尚未啟用即時功能，則會顯示含有一個連結的訊息，可用此連結來設定報表套裝。如果報表套裝已啟用即時功能，請按一下即時報表標題附近的[!UICONTROL 設定]。
 
 Adobe 最多可同時收集三份即時報表。每個報表都必須先進行設定，才能開始即時收集資料。
 
@@ -29,13 +29,13 @@ Adobe 最多可同時收集三份即時報表。每個報表都必須先進行�
 
 即時位置可告訴您當下訪客造訪您網站時的所在地。設定三個即時報表其中之一以顯示位置資料的方式：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 按一下即時報表標題附近的[!UICONTROL 設定]。
 2. 在其中一個即時報表空位底下：
    * 為您的即時報表命名，例如「位置」。
    * 例項通常作為量度使用。使用者/獨特訪客目前無法用於即時報表。
    * 主要維度通常會使用「地域劃分國家」。也可以使用「地域劃分地區」、「地域劃分美國 DMA」和「地域劃分城市」。
    * 對於兩個次要維度，可使用您想要針對此流量查看的其他偏好資料。次要維度不須為位置限定。
-3. 按一下 [!UICONTROL Save and View Report].
+3. 按一下[!UICONTROL 儲存並檢視報表]。
 
 ## 即時流量來源
 
@@ -47,19 +47,19 @@ Adobe 最多可同時收集三份即時報表。每個報表都必須先進行�
    * 例項通常作為量度使用。使用者/獨特訪客目前無法用於即時報表。
    * 主要維度通常會使用「反向連結網域」。也可使用「搜尋引擎」和「搜尋關鍵字」。
    * 對於兩個次要維度，可使用您想要針對此流量查看的其他偏好資料。次要維度不須為流量來源限定。
-3. 按一下 [!UICONTROL Save and View Report].
+3. 按一下[!UICONTROL 儲存並檢視報表]。
 
 ## 即時內容
 
 即時內容可告訴您訪客目前檢視的頁面。設定三個即時報表其中之一以顯示內容資料的方式：
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 按一下即時報表標題附近的[!UICONTROL 設定]。
 2. 在其中一個即時報表空位底下：
    * 為您的即時報表命名，例如「內容」。
    * 例項通常作為量度使用。使用者/獨特訪客目前無法用於即時報表。
    * 主要維度通常會使用「頁面」。如果您的實施有定義「網站區域」和「伺服器」變數，也可使用這些變數。
    * 對於兩個次要維度，可使用您想要針對此流量查看的其他偏好資料。次要維度不須為內容限定。
-3. 按一下 [!UICONTROL Save and View Report].
+3. 按一下[!UICONTROL 儲存並檢視報表]。
 
 ## 即時事件
 
@@ -71,12 +71,12 @@ Adobe 最多可同時收集三份即時報表。每個報表都必須先進行�
 
 即時轉換在不同平台間呈現資料的方式有所不同。Google Analytics 的目標類似於 Adobe Analytics 中的量度和成功事件。您可以在即時報表中使用 Adobe Analytics 中的大部分量度 (包括成功事件等自訂量度，以及營收等標準量度)。與 Google Analytics 類似，您也可以在即時報表中套用產品名稱、追蹤代碼和促銷活動績效等維度。
 
-1. Click [!UICONTROL Configure] near the real-time report&#39;s title.
+1. 按一下即時報表標題附近的[!UICONTROL 設定]。
 2. 在其中一個即時報表空位底下：
    * 為您的即時報表命名，例如「轉換」。
    * 例項通常作為量度使用。使用者/獨特訪客目前無法用於即時報表。
    * 主要維度通常會使用「追蹤代碼」。如果您的實施有使用「產品」維度，也可使用此維度。
    * 對於兩個次要維度，可使用您想要針對此流量查看的其他偏好資料。次要維度不須為轉換限定。
-3. 按一下 [!UICONTROL Save and View Report].
+3. 按一下[!UICONTROL 儲存並檢視報表]。
 
 >[!NOTE] 如果在例項之外使用事件 (例如「訂購」)，請確定您的實施會在相同點擊上定義維度和事件。如果維度和事件沒有在相同點擊上引發，則可在 Analysis Workspace 中使用標準處理延遲 (通常為 30-90 分鐘) 使用該資料。
