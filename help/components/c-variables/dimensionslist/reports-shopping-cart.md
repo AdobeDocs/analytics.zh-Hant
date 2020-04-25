@@ -3,7 +3,7 @@ description: 顯示特定時段內開啟的購物車數量。您可以執行報�
 title: 購物車
 topic: Reports
 uuid: ce97e7f0-b455-438c-a064-d4856a1279e7
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
