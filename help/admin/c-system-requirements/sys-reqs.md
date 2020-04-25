@@ -2,7 +2,7 @@
 description: 本主題提供每個 Adobe Analytics 使用者介面之系統要求的詳細資料。
 title: 系統要求
 uuid: 320f3e77-69aa-4732-9228-fa32a9fe1a5c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
