@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 組織/共用概述
 topic: Reports and analytics
 uuid: 267e9678-95a1-4195-8ba4-e8a53c28ea0d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -18,24 +18,24 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!VIDEO](https://www.youtube.com/watch?v=LJJRskdmlOg&amp;index=79&amp;t=0s&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)
 
-**[!UICONTROL 工作區]** > **[!UICONTROL 共用]**> **[!UICONTROL 組織專案資料]**
+**[!UICONTROL Workspace]** > **[!UICONTROL Share]**> **[!UICONTROL Curate Project Data]**
 
 ## 組織專案資料
 
 1. 指定建立和組織專案的權限。
 
-   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用[「Analysis Workspace 存取權」](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html)權限的&#x200B;**[!UICONTROL 群組]**&#x200B;或&#x200B;**[!UICONTROL 「所有報表存取權」]**&#x200B;使用者群組(**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]**)。
+   Before creating or curating an Analysis Workspace project, administrators must add you to a [group](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html) with the **[!UICONTROL Analysis Workspace Access]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**).
 
-1. [建立及儲存](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)專案，然後按一下「**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**」。
-1. 從左側的可拖曳元件堆疊中，將要共用的元件拖曳至&#x200B;**[!UICONTROL 「已組織元件」]**&#x200B;欄位。
+1. [建立並儲存專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) ，然後按一下 **[!UICONTROL Share]** > **[!UICONTROL Curate Project Data]**。
+1. Drag components you want to share from the draggable component stack on the left to the **[!UICONTROL Curated Components]** field.
 
    ![](assets/curated-components.png)
 
    >[!IMPORTANT]
    >
-   >共用專案不需要組織元件。您可以共用具備所有可用元件、預設元件或選定元件的專案。若想保留專案中的所有預設元件，最佳實務是在組織元件前先自行建立一個專案副本 (使用&#x200B;**[!UICONTROL 「另存新檔」]**)。在組織專案中的元件後，您就無法針對該專案使用其他元件。
+   >共用專案不需要組織元件。您可以共用具備所有可用元件、預設元件或選定元件的專案。To preserve all of the default components in a project, a best practice is to create a copy of a project for yourself (using **[!UICONTROL Save As]**) prior to curating components. 在組織專案中的元件後，您就無法針對該專案使用其他元件。
 
-1. 按一下&#x200B;**[!UICONTROL 「完成」]**。
+1. 按一下 **[!UICONTROL Done]**.
 
 這會導致專案的行為類似於 Analysis Workspace 中的典型專案，但只能選擇使用指定的元件。
 
@@ -43,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 共用可讓貴公司中的其他 Analysis Workspace 使用者也能使用此專案。在其他人使用專案時，將會顯示您所完成的任何組織動作。
 
-1. 組織好專案的元件後，按一下&#x200B;**[!UICONTROL 「共用]** > **[!UICONTROL 共用專案」]**。
+1. After you curate the components of a report, click **[!UICONTROL Share]** > **[!UICONTROL Share Project]**.
 
    ![](assets/share_component.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >
    >這項動作不會沿用，僅在單次共用中有效。
 
-1. 按一下&#x200B;**[!UICONTROL 「共用」]**。
+1. 按一下 **[!UICONTROL Share]**.
 
 <!-- 
 
