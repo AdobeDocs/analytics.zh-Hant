@@ -3,7 +3,7 @@ description: 「區段管理器」提供許多管理區段的方式，例如共�
 title: 管理區段
 topic: Segments
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此 [Adobe Analytics YouTube 影片](https://www.youtube.com/watch?v=CdfOq98PTrg&amp;index=6&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd)提供如何使用區段管理器的簡短概述。
 
-## 區段管理器使用者介面{#section_7FDCD12949BE4741A402DB83AB7B37DF}
+## 區段管理器使用者介面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
 ![](assets/segment_manager_ui.png)
 
@@ -41,9 +41,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 11 | 欄選擇器 | 可讓您選取或取消選取「區段管理器」中的欄。 |
 | 12 | 共用圖示    | 指出此區段已由您共用或與您共用。 |
 | 13 | 批准圖示    | 指出管理員已批准此區段。 |
-| 14 | 篩選器 | 可讓您在「標記」、「報表套裝」、「擁有者」及「其他」(「全部顯示」、「我的」、「已共用給我」、「已核准」、「我的最愛」) 底下，看見並選取篩選器。 |
+| 14 | 篩選條件 | 可讓您在「標記」、「報表套裝」、「擁有者」及「其他」(「全部顯示」、「我的」、「已共用給我」、「已核准」、「我的最愛」) 底下，看見並選取篩選器。 |
 
-## Ad Hoc Analysis 中的區段管理器{#section_CC8BDC968EBC4BC1919870869D8443A9}
+## Ad Hoc Analysis 中的區段管理器 {#section_CC8BDC968EBC4BC1919870869D8443A9}
 
 Ad Hoc Analysis 中的「區段管理器」會顯示所有您所擁有和已共用給您的區段。
 
