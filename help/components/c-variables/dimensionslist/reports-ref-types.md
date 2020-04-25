@@ -3,7 +3,7 @@ description: 透過追蹤並記錄每次造訪的訪客反向連結位置，您�
 title: 反向連結類型
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -72,7 +72,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 反向連結、反向連結類型和反向連結網域設定於瀏覽的第一次點擊，或是在反向連結為外部的瀏覽期間 (例如，假設訪客離開您的網站、使用搜尋引擎，然後在第一次瀏覽過期前返回您的網站)。這些值會同時設定，且持續存在於瀏覽期間。
 * 並非所有反向連結類型都會列在此報告中。這表示全網站瀏覽值不符合此報告的瀏覽值。
 
-## 報告歷史記錄{#section_6C0FCEA9DAF04D97BA056E153B7E4628}
+## 報告歷史記錄 {#section_6C0FCEA9DAF04D97BA056E153B7E4628}
 
 | 日期 | 變更 |
 |---|---|
