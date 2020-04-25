@@ -3,7 +3,7 @@ description: 「網站服務 API」可程式化地存取行銷報告和其他「
 title: 網站服務
 topic: Admin tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
