@@ -1,7 +1,7 @@
 ---
 title: 資料彙集查詢參數
 description: 列出影像要求中使用的所有查詢字串參數。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
 
 ---
