@@ -2,7 +2,7 @@
 title: 資料保留原則
 description: 資料保留原則可決定 Adobe 儲存您資料的時間長度。
 uuid: 9988ef5c-d657-4521-8601-e508756d7d07
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: e1c935961f86c67e9da83d21ab21a998178739e1
 
 ---
