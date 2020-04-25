@@ -2,7 +2,7 @@
 description: 'null'
 title: 常見問題集
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -47,7 +47,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  </tbody> 
 </table>
 
-## 使用 Advertising Analytics{#section_3A70C6C4D5A842B2981F0257A01F95FF}
+## 使用 Advertising Analytics {#section_3A70C6C4D5A842B2981F0257A01F95FF}
 
 <table id="table_4EC69262B7AB4DF49E736CF3B0362302"> 
  <thead> 
@@ -121,12 +121,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：是否有包括<b>「顯示」</b>或<b>「社交」</b>等其他廣告管道的方案？ </p> </td> 
-   <td colname="col2"> <p>答：沒有。依照我們的規劃，目前沒有涵蓋這些管道的方案。 </p> </td> 
+   <td colname="col2"> <p>答: 沒有。依照我們的規劃，目前沒有涵蓋這些管道的方案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自動與手動追蹤{#section_7437C4698A6D482EB7ED94A948390119}
+## 自動與手動追蹤 {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
