@@ -1,7 +1,7 @@
 ---
 title: 變數
 description: Analytics 變數的登陸頁面
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 984d6034d14cc4256d93bd4f7d1a7f01b63b71e9
 
 ---
