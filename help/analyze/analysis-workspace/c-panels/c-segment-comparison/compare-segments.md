@@ -1,7 +1,7 @@
 ---
 title: 重新導向
 description: 此頁面已經移至他處。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ca9f1ed00295b556250894ae4e7fa377ef8a593d
 
 ---
