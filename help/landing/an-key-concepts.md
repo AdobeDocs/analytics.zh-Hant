@@ -1,7 +1,7 @@
 ---
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -46,7 +46,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 重要報表
 
-| 報告 | 說明 | 文件連結 |
+| 報表 | 說明 | 文件連結 |
 |--- |--- |--- |
 | 維度/報表完整清單 | Adobe Analytics 中所有可用維度/報表的定義。 | [維度](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) |
 | Advertising Analytics | 在 Adobe Analytics 中以並排方式分析所有 Google 和 Bing 付費搜尋資料。透過廣告平台、關鍵字、比對類型等整合項目建立維度。所建立的量度為 AMO 曝光、AMO 點擊、AMO 成本、平均排名和平均品質分數。 | [Advertising Analytics](https://docs.adobe.com/help/zh-Hant/analytics/integration/advertising-analytics/overview.html) |
