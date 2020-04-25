@@ -2,7 +2,7 @@
 description: 列出可在 Adobe 整合精靈的步驟 4 中提供的選用維度識別碼。
 title: Demandbase 自訂維度
 uuid: d1621046-3aa2-46b9-a536-4a8fb792b69f
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
