@@ -3,7 +3,7 @@ description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
 title: AEM Assets 報表
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
