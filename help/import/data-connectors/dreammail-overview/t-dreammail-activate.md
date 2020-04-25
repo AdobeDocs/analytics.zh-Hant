@@ -2,7 +2,7 @@
 description: 使用 Adobe Data Connectors 設定精靈來設定整合。
 title: 啟用整合
 uuid: 9084b691-291d-49f7-9fa4-abda507e060d
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
