@@ -1,7 +1,7 @@
 ---
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 keywords: Analysis Workspace
-title: Analysis Workspace 中可用的快速鍵
+title: Analysis Workspace 中可用的快捷鍵
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
@@ -10,7 +10,7 @@ source-git-commit: 033f17bda17f84fbb629d8adae18bb9769968d48
 ---
 
 
-# Analysis Workspace 中可用的快速鍵
+# Analysis Workspace 中可用的快捷鍵
 
 Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 
