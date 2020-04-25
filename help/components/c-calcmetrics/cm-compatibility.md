@@ -2,7 +2,7 @@
 description: 說明三種產品相容性選項。
 title: 量度相容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
