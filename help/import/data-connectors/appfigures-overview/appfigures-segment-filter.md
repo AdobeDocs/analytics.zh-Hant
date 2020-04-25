@@ -2,7 +2,7 @@
 description: appFigures 整合通常用於跨多個應用程式商店收集多個應用程式的資料。您可以建立區段來隔離出特定應用程式或應用程式商店的報表資料。
 title: 將應用程式資料分段
 uuid: 9c2aaf0d-088f-4178-8ed1-a8124087a683
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
