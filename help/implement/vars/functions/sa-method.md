@@ -1,6 +1,6 @@
 ---
 title: sa
-description: 隨時在您的實作中變更報表套裝。
+description: 隨時在您的實施中變更報表套裝。
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,15 +9,15 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # sa
 
-此方 `sa()` 法可讓您隨時在頁面上動態變更報表套裝。 如果您想要在不重新載入頁面的情況下將資料傳送至不同的報表套裝，則可使用此方法。
+`sa()` 方法可讓您隨時在頁面上動態變更報表套裝。如果您想要在不重新載入頁面的情況下，將資料傳送至不同的報表套裝，可以使用此方法。
 
-## 使用Adobe Experience Platform Launch中的sa方法
+## 使用 Adobe Experience Platform Launch 中的 sa 方法
 
-在介面中變更報表套裝沒有彈性的方式。 設定Adobe Analytics擴充功能時， [!UICONTROL Library Management] 您可以在accordion下設定報表套裝。 不過，您無法使用規則變更或更新報表套裝。 如果您想在設定報表套裝值後更新這些值，請依照AppMeasurement語法使用自訂代碼編輯器。
+在介面中變更報表套裝沒有彈性的方式。設定 Adobe Analytics 擴充功能時，您可以在[!UICONTROL 「程式庫管理」]設定追蹤器下方設定報表套裝。不過，您無法使用規則變更或更新報表套裝。如果您想要在設定報表套裝值後更新這些值，請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## s.sa()在AppMeasurement和Launch自訂代碼編輯器中
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.sa()
 
-呼叫方 `s.sa()` 法以變更目標報表套裝。 其唯一引數是包含報表套裝ID的字串，或多個以逗號分隔的報表套裝ID。 報表套裝ID引數為必要參數。 請勿在字串引數中使用空格。
+呼叫 `s.sa()` 方法變更目的地報表套裝。其唯一引數是包含報表套裝 ID 的字串，或是多個以逗號分隔的報表套裝 ID。報表套裝 ID 引數為必要項目。請勿在字串引數中使用空格。
 
 ```js
 s.sa("examplersid");
