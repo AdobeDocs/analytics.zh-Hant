@@ -13,39 +13,39 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 讓管理員層級使用者查看與管理組織中的排程報表。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Scheduled Reports]**
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 排程報告]**」
 
 「排程報表管理員」中的管理層級功能包含：
 
-* 在組織中顯 [示所有計畫報表](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690) 的選項。
-* [組織中的進階篩選功能](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275) 。
-* 新的「報 [告佇列](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B) 」標籤會列出報告伺服器上佇列等候執行的所有報告。
-* 在「報 [表佇列](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1) 」介面中公開「排程ID」。
+* 在組織中[「顯示所有計劃報表」](/help/admin/admin/scheduled-reports-admin.md#section_3F167CAAEEC24140B476CF95B7402690)的選項。
+* 組織中的[進階篩選功能](/help/admin/admin/scheduled-reports-admin.md#section_206A52A85DE84947AAB3AD082FBF6275)。
+* 新的[「報表佇列」](/help/admin/admin/scheduled-reports-admin.md#section_03C866115D354BB182E90BF4D52F1E0B)標籤會列出報告伺服器上所有佇列等候執行的報告。
+* 在「報表佇列」介面中公開「[排程 ID](/help/admin/admin/scheduled-reports-admin.md#section_568B70F4228C4229977CB85D2DCD53A1)」。
 
-## Show all Scheduled Reports {#section_3F167CAAEEC24140B476CF95B7402690}
+## 顯示所有計劃報表 {#section_3F167CAAEEC24140B476CF95B7402690}
 
-在標 **[!UICONTROL Report List]** 簽上，除了您個 **[!UICONTROL Show All Scheduled Reports]** 人排程的選項外，您還可以在組織中。
+在&#x200B;**[!UICONTROL 報表清單]**&#x200B;標籤上，除了您私人排程的報表，您還可以&#x200B;**[!UICONTROL 顯示組織中所有已排程報表]**。
 
->[!NOTE] 此 **[!UICONTROL Report Name]** 欄會顯示排程中報表的名稱，而此欄會顯示您 **[!UICONTROL File Name]** 在進階傳送選項中設定的任何自訂檔案名稱。 因此，如果您排程多個相同報表類型的報表，並指定每個報表的自訂名稱，「排程報表管理員」會顯示多個具有相同報表名稱但檔案名稱不同的項目。 這是因為排程的後端報表相同，因此「報表名稱」欄除了自訂檔案名稱（如設定）外，所有報表名稱都相同。
+>[!NOTE]**[!UICONTROL 「報表名稱」]**&#x200B;欄會顯示正在排程的報表名稱，而&#x200B;**[!UICONTROL 「檔案名稱」]**&#x200B;欄則會顯示您在「進階傳送選項」中所設定的所有自訂檔案名稱。結果就是，若您排定相同報表類型的多份報表並且逐一指定自訂名稱，則「排程報告管理員」就會顯示具有相同報表名稱但是檔案名稱不同的多個項目。這是由於正在排程的後端報表是相同的所致，因此「報表名稱」欄會出現除了自訂檔案名稱 (依設定) 之外的所有報表名稱皆相同的情況。
 
 ![](assets/show_all_scheduled_reports.png)
 
 ## 進階篩選功能 {#section_206A52A85DE84947AAB3AD082FBF6275}
 
-For example, if you wanted to filter on all reports that are scheduled hourly, you would specify **[!UICONTROL Frequency equals Hourly]** in the **[!UICONTROL Advanced]** filter and click **[!UICONTROL Apply]**:
+例如，如果您要篩選所有排程為每小時執行的報表，可在&#x200B;**[!UICONTROL 「進階」]**&#x200B;篩選器中指定&#x200B;**[!UICONTROL 「頻率等於每小時」]**，然後按一下&#x200B;**[!UICONTROL 「套用」]**：
 
 ![](assets/advanced_filtering_schedl_reports.png)
 
 ## 報表佇列 {#section_03C866115D354BB182E90BF4D52F1E0B}
 
-此佇列可讓您管理並潛在刪除任何「堵塞」佇列的排程報表。 （通常，報告會在4小時後逾時。）
+此佇列可讓您管理排程報告，以及可能可以刪除「堵塞」佇列的排程報告。(通常報告在 4 小時後逾時)。
 
 ![](assets/scheduled_reports_2.png)
 
-「報表佇列」也可讓您「略過計畫報表一次」。 Just click the blue icon in the **[!UICONTROL Manage]** column.
+「報表佇列」也能讓您「跳過計劃報表一次」。只需按一下&#x200B;**[!UICONTROL 「管理」]**&#x200B;欄中的藍色圖示。
 
 ## 排程 ID {#section_568B70F4228C4229977CB85D2DCD53A1}
 
-Having the **[!UICONTROL Schedule ID]** exposed in the Report Queue interface helps when you need to contact Adobe Client Care for resolution of a scheduled reports issue.
+當您需要聯絡 Adobe Client Care 以便尋求排程報表問題的解決辦法時，「報表佇列」介面中公開的&#x200B;**[!UICONTROL 「排程 ID」]**&#x200B;可提供協助。
 
 ![](assets/schedule_id.png)
