@@ -1,7 +1,7 @@
 ---
 title: 移轉至 JavaScript 適用的 AppMeasurement
 description: 決定將實施從 H 程式碼移出時所需的項目。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
 
 ---
