@@ -2,7 +2,7 @@
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 欄設定 {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
+To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
 
 ![](assets/column_settings.png)
 
