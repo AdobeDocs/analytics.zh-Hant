@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 資料來源範本概觀
 topic: Developer and implementation
 uuid: e768bcff-a996-44c7-a7f2-9a2c651ecad9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此精靈產生的範本，是為了讓您開始匯入而設計。不限使用範本中定義的欄。您可以視需要新增任何其他欄，只要選取的資料處理類型支援量度或定義。
 
-您可以在下列各節查閱各類型支援的量度和維度:
+您可以在下列各節查閱各類型支援的量度和維度: 
 
 * [網站記錄檔](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)
 * [流量](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md) (不再支援)
