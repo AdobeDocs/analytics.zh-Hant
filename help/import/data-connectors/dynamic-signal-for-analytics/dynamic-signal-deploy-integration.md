@@ -2,7 +2,7 @@
 description: 'null'
 title: 部署整合
 uuid: 1a0770a7-c61b-4eec-a9b3-983def842ad8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -31,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    | 項目 | 說明 |
    |---|---|
-   | 追蹤代碼 | 從報表套裝中選取可用的 eVar 變數。 |
+   | 追蹤程式碼 | 從報表套裝中選取可用的 eVar 變數。 |
 
 1. 檢閱將針對這項整合建立的分類。
 1. 核取該方塊以建立 Dynamic Signal 整合控制面板 (選用，但強烈建議使用)。
