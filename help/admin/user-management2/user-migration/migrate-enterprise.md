@@ -2,7 +2,7 @@
 description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 ---
