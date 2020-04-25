@@ -3,7 +3,7 @@ description: 顯示回訪客戶再次造訪與初次造訪之間相隔的時間�
 title: 回訪頻度
 topic: Reports
 uuid: 7069205d-8fab-4ff7-9d01-be9705142e27
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -19,7 +19,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 識別回訪訪客數量和回訪頻率。
 * 評估網站隨著時間對訪客的吸引力和實用性。
-* 瞭解您網站對訪客的吸引力以及他們迫切希望回訪網站以進一步互動或檢視更新內容的頻率。
+* 了解您網站對訪客的吸引力以及他們迫切希望回訪網站以進一步互動或檢視更新內容的頻率。
 * 識別您網站的內容和促銷活動對訪客的影響。
 
 預設情況下，該報告包含下列時間長度︰
