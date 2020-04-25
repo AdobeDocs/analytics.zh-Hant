@@ -3,7 +3,7 @@ description: 說明 Experience Cloud 中使用的報表類型。
 title: 報表類型
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -88,7 +88,7 @@ c_reports_flow.xml
 
 **上一流量**
 
-「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報表的控制項與「下一流量」報表的控制項相同。
+「上一流量」報表類似「下一流量」報告，只是查看的不是訪客在選定頁面後前往的位置，而是查看訪客在存取所指定頁面前的位置。該報告的控制項與「下一流量」報告的控制項相同。
 
 ## 下一頁流量 {#concept_F7565234927942BEAF75D5D94A7AB47D}
 
