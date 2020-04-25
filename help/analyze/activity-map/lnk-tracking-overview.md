@@ -13,10 +13,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Activity Map 使用更強大的演算法來追蹤連結，具有下列優點：
 
-* 包括頁面區域追蹤，以避免因為連結顯示在頁面上不同位置，而在不同裝置上混淆相同連結的情況；
-* 確保連結的獨特性，這表示由於LinkID問題或跨不同的瀏覽器，不能將不同的連結誤認為一個。
+* 包含頁面地區的追蹤，可避免由於連結顯示在頁面的不同位置，而導致不同裝置間的相同連結混淆。
+* 確保連結獨特性，這表示不會因為 LinkID 問題或在不同瀏覽器間弄錯不同的連結。
 
-如需Activity Map中連結追蹤的詳細資訊，請前 [往](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)。
+如需 Activity Map 中連結追蹤的詳細資訊，請前往[此處](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)。
 
 ## Activity Map 連結追蹤如何收集 PII 資料 {#section_AEE57510D17B4C21A7D49D32D21D67B9}
 
