@@ -2,7 +2,7 @@
 description: 由於各種原因，Adobe Analytics 和 Adobe Audience Manager 中的訪客量度有些具有相似的定義，但並非完全一致。
 title: 訪客計數差異
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
