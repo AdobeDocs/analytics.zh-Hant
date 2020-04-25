@@ -3,7 +3,7 @@ description: 有關客戶屬性的 Analytics 常見問題，以及如何執行�
 solution: Experience Cloud,Analytics
 title: 客戶屬性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -22,7 +22,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 如需有關上傳客戶屬性資料的詳細資訊，請參閱 Experience Cloud 說明中的[客戶屬性](https://marketing.adobe.com/resources/help/zh_TW/mcloud/attributes.html)。
 
-## Analytics 中的客戶屬性和報表量度{#section_EF343662146B460A882D3DF772ADD86D}
+## Analytics 中的客戶屬性和報表量度 {#section_EF343662146B460A882D3DF772ADD86D}
 
 上傳客戶屬性並驗證結構後 (在 Experience Cloud 中)，系統會根據您對應至屬性字串和整數的好記名稱 (如 *`age`* 或 *`gender`*) 建立量度。這些量度會出現在「**[!UICONTROL 訪客資料]** > **[!UICONTROL 客戶屬性]**」報表中。
 
