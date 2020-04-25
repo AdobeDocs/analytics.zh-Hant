@@ -1,7 +1,7 @@
 ---
 title: 從第三方分析平台轉換成 Adobe Analytics
 description: 以熟悉其他平台 (例如 Google Analytics) 的使用者為對象，說明取得報表的重要概念。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 757cea821bae49fabe819a65b921797070d328fc
 
 ---
