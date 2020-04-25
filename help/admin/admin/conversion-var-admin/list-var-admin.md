@@ -13,9 +13,9 @@ source-git-commit: 751d19227d74d66f3ce57888132514cf8bd6f7fc
 
 您可以存取「管理控制台」中的設定：
 
-1. 前往「**[!UICONTROL Analytics]**>**[!UICONTROL &#x200B;管理員]** > **[!UICONTROL 報表套裝]**」
+1. 前往「**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**」
 2. 選取報表套裝。
-3. 按一下「**[!UICONTROL 編輯設定]**>**[!UICONTROL &#x200B;轉換]** > **[!UICONTROL 清單變數]**」。
+3. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 清單變數]**」。
 
 * **名稱**: 每個分隔值最多可包含 255 個字元 (若使用多位元組字元則更低)。此為單一元素的最大長度。
 * **值分隔字元**: 在清單變數中用來分隔值的字元。最常用的分隔字元包括逗號、冒號、垂直線或類似字元。
