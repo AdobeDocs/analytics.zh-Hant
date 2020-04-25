@@ -3,7 +3,7 @@ description: 測量在特定時段內透過您所有的產品所產生的收入�
 title: 收入
 topic: Reports
 uuid: e5b72798-f5c7-440d-a62d-376bfd115ac8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 報告的一般屬性 {#section_97FC92DFB07D45A79F40B452F9AEE57B}
 
-* 要讓此報告成功收集資料，必須符合若干需求。下列項目必須產生於相同的影像要求中：
+* 要讓此報告成功收集資料，必須符合若干需求。下列項目必須產生於相同的影像要求中:
 
    * [!UICONTROL 購買]事件必須在`s.events` 變數中。
 
@@ -62,7 +62,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 劃分無法以小時為單位。
 
-## 產品特定屬性{#section_ED87FFD020634453AABE86B0248BE69B}
+## 產品特定屬性 {#section_ED87FFD020634453AABE86B0248BE69B}
 
 * 此報告可從「**[!UICONTROL 轉換]** > **[!UICONTROL 購買]** > **[!UICONTROL 收入]**」來存取。
 
