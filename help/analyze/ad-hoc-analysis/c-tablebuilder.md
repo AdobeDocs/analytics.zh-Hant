@@ -2,7 +2,7 @@
 description: 使用「表格產生器」，可以用任何度量、維度和區段的設定來建立報表。例如，您可以新增多個度量到「表格產生器」，然後一次將區段套用於所有度量。您可以套用工具窗格中的項目成為列和劃分，或套用成為欄，並且輕鬆地旋轉表格來呈現不同的檢視。建立表格後，您可直接與產生的資料表格互動，以便進一步分析。請記住，從「表格產生器」產生資料表格會執行查詢，並建立新的資料表格。
 title: 表格產生器
 uuid: d5dbd05e-9ebd-4571-b3a5-3856c28b65f3
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 [!UICONTROL 表格產生器]不適用於某些路徑報表，如[!UICONTROL 站點分析]、[!UICONTROL 流失]、[!UICONTROL 流量]和[!UICONTROL 虛擬重點]。
 
-## 表格產生器描述{#section_4B7B96546B864142AB91DF3996918590}
+## 表格產生器描述 {#section_4B7B96546B864142AB91DF3996918590}
 
 <table id="table_C11D78E62DEF48A78B50EFB8669817BC"> 
  <thead> 
