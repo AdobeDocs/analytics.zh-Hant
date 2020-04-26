@@ -1,6 +1,6 @@
 ---
 title: 購買事件
-description: 使用購買事件來收集「訂購」、「件數」和「收入」度量的資料。
+description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,28 +9,28 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # 購買事件
 
-購買事件是變數中的 `events` 值。 此值對於想要收集其網站所產生收入相關資料的組織非常有用。 它嚴重依賴於變數 [`products`](../products.md) 和 [`purchaseID`](../purchaseid.md) 變數。
+購買事件是 `events` 變數中的值。對於想要收集網站產生之收入相關資料的組織來說，這個值非常有用。它與 [`products`](../products.md) 和 [`purchaseID`](../purchaseid.md) 等變數的相依性非常高。
 
 當您設定購買事件時，它會影響下列量度：
 
-* 「訂購」量度以1為增量單位
-* 「件數」量度以變數中的產品數為增 `products` 加
-* 「收入」量度會依變數中的價格參數總和而增 `products` 加
+* 「訂購」量度增加 1
+* 「件數」量度以 `products` 變數中的產品數量為單位增加
+* 「收入」量度會以 `products` 變數中的價格參數總和為單位增加
 
-## 在Adobe Experience Platform Launch中設定購買事件
+## 在 Adobe Experience Platform Launch 中設定購買事件
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
-4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
-5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
-6. 找到區 [!UICONTROL Events] 段，並將事件下拉式清單設為 [!UICONTROL purchase]。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
+6. 找出[!UICONTROL 「事件」]區段，再將事件下拉式清單設定為[!UICONTROL 「購買」]。
 
-其他相依變數( `products` 例如和 `purchaseID` )在Launch中沒有專用欄位。 請依照AppMeasurement語法，為這些變數使用自訂程式碼編輯器。
+其他相依變數 (如 `products` 和 `purchaseID`) 在Launch 中沒有專用欄位。請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## 在AppMeasurement和Launch自訂代碼編輯器中設定購買事件
+## 在 AppMeasurement 和 Launch 自訂程式碼編輯器中設定購買事件
 
-購買事件是設定為事件變數一部分的字串。
+購買事件是連同事件變數一起設定的字串。
 
 ```js
 // Set the purchase event by itself
@@ -40,10 +40,10 @@ s.events = "purchase";
 s.events = "purchase,event1,event2";
 ```
 
-## 購買事件重複消除
+## 購買事件去重複化
 
-當您觸發購買事件時，Adobe會檢查下列項目：
+當您引發購買事件時，Adobe 會檢查下列項目：
 
-* 點擊是否包含變 `purchaseID` 數？ 若否，Adobe會使用點擊中的資訊建立「臨時購買ID」。 這個臨時購買 ID 僅適用於點擊的訪客。前5個臨時購買ID會儲存為每個報表套裝的每個訪客ID。
-* 臨時購買ID是否與前5個儲存的臨時購買ID中的任何一個相符？ 如果符合，則會將影像請求視為重複購買。所有轉換變數 (包括購買事件) 不會出現在報告中。
-* 如果已定 `purchaseID` 義變數，它是否符合所有訪客已在報表套裝中收集的任何值？ 如果符合，則會將影像請求視為重複購買。所有轉換變數 (包括購買事件) 不會出現在報告中。
+* 點擊是否包含 `purchaseID` 變數？若未包含，Adobe 會使用點擊中的資訊建立「臨時購買 ID」。這個臨時購買 ID 僅適用於點擊的訪客。系統會針對每個報表套裝的每個訪客 ID 儲存前 5 個臨時購買 ID。
+* 臨時購買 ID 是否與最近 5 個儲存的臨時購買 ID 相符？如果符合，則會將影像要求視為重複購買。所有轉換變數 (包括購買事件) 不會出現在報告中。
+* 如果 `purchaseID` 變數已定義，它是否與報表套裝中針對所有訪客收集的任何值相符？如果符合，則會將影像要求視為重複購買。所有轉換變數 (包括購買事件) 不會出現在報告中。
