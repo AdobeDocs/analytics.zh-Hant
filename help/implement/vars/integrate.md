@@ -30,7 +30,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-1. In the top navigation, click [!UICONTROL Admin] > [!UICONTROL Code Manager].
+1. 在頂端導覽區域中，按一下 [!UICONTROL 「管理員] > [!UICONTROL 代碼管理器」]。
 1. 下載最新 JavaScript AppMeasurement 程式庫。
 1. 下載後，將檔案解壓縮，然後找出 `AppMeasurement_Module_Integrate.js`。
 
