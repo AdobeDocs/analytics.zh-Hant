@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;dela
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立事件型規則的條件
 uuid: a847391c-5aec-4d64-8a35-388587731598
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -47,6 +47,6 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
    | 若您... | 勾選此選項 |
    |--- |--- |
-   | 希望所識別之規則選擇器之子項元素上的相關互動要引發規則。 | 允許子項元素上的事件反昇。 |
+   | 希望所識別之規則選擇器之子項元素上的相關互動要引發規則。 | 允許子項元素上的事件反昇. |
    | 希望在子項元素已自行觸發事件時防止事件反昇。 | 若子項元素已觸發事件，則不允許。 |
    | 不希望所識別之規則選取器的事件超越事件階層中的元素本身。 | 不允許事件向上反昇至父級。 |
