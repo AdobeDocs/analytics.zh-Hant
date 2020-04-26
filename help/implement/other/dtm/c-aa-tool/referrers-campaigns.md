@@ -12,9 +12,9 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 # 反向連結與促銷活動
 
-Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and campaign options when deploying [!UICONTROL Dynamic Tag Management] in Adobe [!DNL Analytics].
+在 Adobe [!DNL Analytics] 中部署 [!UICONTROL Dynamic Tag Management] 時，[!UICONTROL Dynamic Tag Management] 中用於反向連結與促銷活動選項的欄位說明。
 
-**[!UICONTROL  *`Property`*]** >齒輪 ![圖示](assets/settings_gear.png) > **[!UICONTROL Edit Tool]****[!UICONTROL Referrers & Campaigns]**
+**[!UICONTROL *`Property`*]**>![齒輪圖示](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;反向連結與促銷活動&#x200B;]**
 
 <table id="table_09AE3BFF0F12442F9C19CD96451F93E4">
  <thead>
@@ -26,11 +26,11 @@ Field descriptions in [!UICONTROL Dynamic Tag Management] for referrers and camp
  <tbody>
   <tr>
    <td colname="col1"> 反向連結覆寫 </td>
-   <td colname="col2"> <p>覆寫s.referrer變數中設 <span class="varname"> 定的值</span> ，此變數通常由瀏覽器中設定的反向連結填入。 </p> <p>請參閱 <a href="../../../vars/page-vars/referrer.md">反向連結</a>。 </p> </td>
+   <td colname="col2"> <p>覆寫<span class="varname"> s.referrer</span> 變數中所設定的值，該變數通常是由瀏覽器中設定的反向連結填入。 </p> <p>請參閱 <a href="../../../vars/page-vars/referrer.md">referrer</a>。 </p> </td>
   </tr>
   <tr>
    <td colname="col1"> 促銷活動 </td>
-   <td colname="col2"> <p>一種變數，可識別用來吸引訪客進入您網站的行銷促銷活動。 促銷活動的值通常取自查詢字串參數。 </p> <p>請參閱 <a href="../../../vars/page-vars/campaign.md">促銷活動</a>。 </p> </td>
+   <td colname="col2"> <p>變數，可識別用以吸引訪客進入網站的促銷活動。促銷活動的值通常取自查詢字串參數。 </p> <p>請參閱 <a href="../../../vars/page-vars/campaign.md">campaign</a>。 </p> </td>
   </tr>
  </tbody>
 </table>
