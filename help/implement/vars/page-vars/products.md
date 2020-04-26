@@ -19,7 +19,7 @@ Launch 中沒有專用欄位可設定此變數。不過，有多個第三方擴�
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click [!UICONTROL Catalog] to see all available extensions.
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]檢視所有可用的擴充功能。
 4. 搜尋 &quot;product&quot; 一字，幾個可用來協助設定此變數的擴充功能隨即會顯示。
 
 您可以使用其中一個擴充功能，或依照下方的 AppMeasurement 語法使用自訂程式碼編輯器。
