@@ -23,8 +23,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * 在 Adobe Experience Platform Launch 中：
    1. 登入 [launch.adobe.com](https://launch.adobe.com)，然後按一下所需的屬性。
-   2. Click the [!UICONTROL Extensions] tab, then click [!UICONTROL Configure] under Adobe Analytics.
-   3. 按一下 [!UICONTROL General] accordion，並記下 [!UICONTROL Tracking Server] 值。
+   2. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
+   3. 按一下[!UICONTROL 「一般」]設定追蹤器，接著記下[!UICONTROL 「追蹤伺服器」]值。
 
 * 在 JavaScript 實施中：
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
@@ -32,8 +32,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * 使用 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
-   2. Open the Experience Cloud Debugger, then go to the [!UICONTROL Network tab].
-   3. Note the [!UICONTROL Request URL - Hostname] value.
+   2. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標籤。
+   3. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
 
 找出實施的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
 
