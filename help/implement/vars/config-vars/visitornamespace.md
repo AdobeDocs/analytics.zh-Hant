@@ -17,12 +17,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch 中的訪客命名空間
 
-[!UICONTROL Visitor Namespace] 是設定Adobe Analytics擴充功 [!UICONTROL Cookies] 能時accordion下方的欄位。
+[!UICONTROL 「訪客命名空間」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「Cookie」]設定追蹤器下方的欄位。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展開accordion [!UICONTROL Cookies] ，以顯示欄 [!UICONTROL Visitor Namespace] 位。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「Cookie」]設定追蹤器，如此可顯示[!UICONTROL 「訪客命名空間」]欄位。
 
 Adobe 建議您不要使用此欄位。請改用 `trackingServer` 和 `trackingServerSecure`。
 
