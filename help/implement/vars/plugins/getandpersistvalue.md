@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。It serves a similar role to the [!UICONTROL Storage duration] feature in Adobe Experience Platform Launch. 設定變數後，如果您想在後續的點擊中自動讓 Analytics 變數保留相同的值，Adobe 建議您使用此外掛程式。This plug-in is not necessary if Launch&#39;s [!UICONTROL Storage duration] feature is sufficient, or if you do not need to set and persist variables to the same value in subsequent hits. eVar 的內建永續性不需要使用此外掛程式，因為這些變數由 Adobe 保留在伺服器端。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。它的角色與 Adobe Experience Platform Launch 的[!UICONTROL 「儲存期間」]功能類似。設定變數後，如果您想在後續的點擊中自動讓 Analytics 變數保留相同的值，Adobe 建議您使用此外掛程式。如果 Launch 的[!UICONTROL 「儲存期間」]功能已足夠，或是您不需要在後續點擊中將變數設定及保留相同的值，則不需要使用此外掛程式。eVar 的內建永續性不需要使用此外掛程式，因為這些變數由 Adobe 保留在伺服器端。
 
 ## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
@@ -19,8 +19,8 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 1. 按一下所需的屬性。
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心 - 已載入程式庫 (頁面頂端)
@@ -35,8 +35,8 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 1. 按一下所需的屬性。
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
