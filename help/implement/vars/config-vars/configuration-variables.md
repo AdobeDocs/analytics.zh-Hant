@@ -19,6 +19,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 使用您的 Adobe ID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下您要編輯的屬性。
-3. Click the [!UICONTROL Extensions] tab, then Click [!UICONTROL Configure] under Adobe Analytics.
+3. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
 
 >[!IMPORTANT] 在呼叫追蹤方法（或）之前，請確定已設定所有[`t()`](../functions/t-method.md) 組態 [`tl()`](../functions/tl-method.md)變數。 請避免在 [`doPlugins()`](../functions/doplugins.md) 函數中配置設定變數。
