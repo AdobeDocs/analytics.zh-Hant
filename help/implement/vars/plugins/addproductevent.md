@@ -19,8 +19,8 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 1. 按一下所需的屬性。
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. 安裝並發佈擴充 [!UICONTROL Common Analytics Plugins] 功能
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
    * 事件：核心 - 已載入程式庫 (頁面頂端)
@@ -35,8 +35,8 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 1. 按一下所需的屬性。
-1. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under the Adobe Analytics extension.
-1. 展開accordion [!UICONTROL Configure tracking using custom code] ，以顯示按 [!UICONTROL Open Editor] 鈕。
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
 
@@ -128,7 +128,7 @@ s.addProductEvent("event35", "15", 1);
 
 ### 範例 #5
 
-如 `s.products` 果尚未設定，下列程式碼會將它設定為 `";;;;event35=25"`
+如 `s.products` 果尚未設定，下列程式碼會將它設為 `";;;;event35=25"`
 
 ```js
 s.addProductEvent("event35", "25");
