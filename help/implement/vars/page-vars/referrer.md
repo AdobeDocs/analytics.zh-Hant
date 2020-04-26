@@ -9,34 +9,34 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # referrer
 
-變數 `referrer` 會覆寫報表中自動收集的反向連結。 此變數在反向連結可能遺失的情況下很有幫助，例如在重新導向期間或將訪客暫時轉送至付款處理者。 此變數可協助填入「反向連結」和「反向連結網域」維度。
+`referrer` 變數會覆寫報表中自動收集的反向連結。在反向連結可能遺失的情況下 (如重新導向期間或將訪客暫時轉送至付款處理者)，此變數很有幫助。此變數有助於填入「反向連結」和「反向連結網域」維度。
 
-## Adobe Experience Platform Launch中的反向連結
+## Adobe Experience Platform Launch 中的反向連結
 
-您可以在設定Analytics擴充功能（全域變數）時或在規則下設定反向連結。
+您可以在設定 Analytics 擴充功能 (全域變數) 時設定反向連結，或依據規則進行設定。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
-4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
-5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
-6. Locate the [!UICONTROL Referrer] section.
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
+6. 找出[!UICONTROL 「反向連結」]區段。
 
 您可以將反向連結設為任何字串值，包括資料元素。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.referrer
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.referrer
 
-變 `s.referrer` 數是包含上一頁URL的字串。 此變數最多可儲存255個位元組；大於255個位元組的值會被截斷。 AppMeasurement會自動將此變數設為 `document.referrer`;除非您要覆寫自動收集的值，否則您不需要設定此變數。
+`s.referrer` 變數是包含上一頁 URL 的字串。此變數最多可儲存 255 個位元組；長度超過 255 個位元組的值會遭到截斷。AppMeasurement 會自動將此變數設為 `document.referrer`。除非您想要覆寫自動收集的值，否則不需要設定此變數。
 
 ```js
 s.referrer = "https://example.com";
 ```
 
-請避免將此變數設為非URL值。
+請避免將此變數設為非 URL 的值。
 
 ## 範例
 
-許多組織都會處理重新導向相關的實施。 如果您的網站 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 容納反向連結，您可以使用公用程式從URL取得反向連結。 請確定您對查詢字串中包含的任何值進行URL編碼。
+許多組織都必須著手進行與重新導向相關的實施。如果您的網站容許的話，可以使用 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 公用程式從 URL 取得反向連結。請務必將查詢字串中包含的所有值編碼為 URL。
 
 ```js
 // Example if the URL is https://example.com?r=https%3A%2F%2Fexample.org
