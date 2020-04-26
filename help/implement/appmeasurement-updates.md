@@ -26,7 +26,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2020 年 2 月 21 日**
 
-* 將Audience Management模組更新為DIL 9.4。 (AN-209341)
+* Audience Manager 模組已更新至 DIL 9.4。(AN-209341)
 
 ## 2.18.0 版
 
@@ -75,8 +75,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2019 年 2 月 22 日**
 
-* 將Audience Management模組更新為DIL 9.1。 (AN-175255)
-* GTM安全性政策不允許Activity Map模組。 (AN-174679)
+* Audience Manager 模組已更新至 DIL 9.1。(AN-175255)
+* GTM 安全性政策不允許 Activity Map 模組。(AN-174679)
 * 改善 AppMeasurement；在 Identity Service 不核准選擇加入時，讓使用者可以選擇退出。(AN-175259)
 
 ## 2.11.0 版
@@ -84,7 +84,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 發行日期：**2019 年 2 月 11 日**
 
 * 在 AppMeasurement 中，新增了全新 Adobe 選擇加入服務功能的支援。(AN-163546)
-* 新增在作業儲存區上儲存連結追蹤資料的支援。 (AN-162272)
+* 新增了在工作階段儲存體上存儲連結追蹤資料的支援。(AN-162272)
 * 新增了 Audio Analytics 媒體資料流類型的支援。(AN-173265)
 
 ## 2.10.0 版
@@ -94,7 +94,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 此版本確保 [!DNL AppMeasurement] 程式庫正確提交所有連接種類的 Cookie。
 
 * [!DNL AppMeasurement] 在 POST 期間會封鎖 Cookie 傳輸。(AN-165538)
-* 放棄對XDomainRequest的支援。 (AN-165733)
+* 終止對 XDomainRequest 的支援。(AN-165733)
 * 將 [!DNL AppMeasurement] 的預設 Cookie 期限值從五年縮短為兩年。(AN-158572)
 * 從代碼管理器中移除媒體模組 ([!DNL AppMeasurement]) (AN-166590)
 
@@ -105,7 +105,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 >[!NOTE]使用 [!DNL Experience Cloud] ID 服務的客戶需要具備訪客 API 3.0 或更新版本。Adobe 建議只要更新相關的程式碼程式庫 ([!DNL at.js] 等等)，就要升級至最新的 Visitor API 版本。[!DNL AppMeasurement.js]
 
 * 更新 [!DNL AppMeasurement] 以使用更新後的訪客介面要求 ID。(AN-151483)
-* 修正連結追蹤Cookie在關閉連結追蹤後持續寫入的問題。 (AN-156332)
+* 修正當連結追蹤關閉時持續寫入連結追蹤 Cookie 的問題。(AN-156332)
 * 修正多次呼叫時 `registerPreTrackCallback` 和 `registerPostTrackCallback` 會破壞回呼函數簽名的問題。(AN-158566)
 
 ## 2.8.2 版
@@ -113,7 +113,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 發行日期：**2018 年 4 月 12 日**
 
 * 更新 [!DNL AppMeasurement] 以使用更新後的訪客介面要求 ID。(AN-151483)
-* 連結追蹤Cookie會在連結追蹤關閉後持續寫入。 (AN-156332)
+* 當連結追蹤關閉時持續寫入連結追蹤 cookie。(AN-156332)
 * 將 [!DNL AppMeasurement] 的預設 Cookie 期限值從五年縮短為兩年。(AN-158572)
 
 ## 2.8.1 版
@@ -129,16 +129,16 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 重新組合訪客 API 3.1.0 (AN-159524)，並包含 Hotfix：(CORE-11390、CORE-10634)
 
 * 將 VAPI v3.1 與 [!DNL AppMeasurement] v2.8 搭配組合。(AN-158353)
-* 重新調整資料收集端點的建立，以利共用。 (AN-156647)
+* 重構資料集合端點以便進行分享。(AN-156647)
 * 將請求的來回時間量度新增至 [!DNL AppMeasurement]。(AN-158343)
 
 ## 2.7.0 版
 
 發行日期：**2018 年 1 月 18 日**
 
-* 放棄對IE 6至9的支援
-* 納入訪客API v3.0.0
-* 納入DIL v7.00
+* 終止支援 IE 6 到 IE 9
+* 納入 Visitor API v3.0.0
+* 納入 DIL v7.00
 
 ## 2.6.0 版
 
@@ -157,8 +157,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2017 年 8 月 17 日**
 
-* 包含dil.js v6.11
-* 包含訪客API 2.4.0
+* 納入 dil.js v6.11
+* 納入訪客 API 2.4.0
 
 ## 2.3.0 版
 
@@ -172,7 +172,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 發行日期：**2017 年 6 月 8 日**
 
 * 新增對多重 [!DNL AppMeasurement] 具現化階層的支援。(AN-138237)
-* 包含2.2.0版訪客API。 (AN-144042)
+* 納入訪客 API 2.2.0 版。(AN-144042)
 
 ## 2.1.0 版
 
@@ -180,23 +180,23 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 * 納入最新版 `dil.js` (AN-140396)
 * 新增對 `adobe_mc_ref` 參數的支援，可覆寫頁面反向連結。(AN-131920)
-* 重新包含訪客API 2.1.0。 (AN-140873)
+* 重新納入 Visitor API 2.1.0。(AN-140873)
 * 新增 `mcorgid` 參數。(AN-139586)
-* 已新增cp(customerPerspective)參數。 (AN-140897)
+* 新增 cp (customerPerspective) 參數。(AN-140897)
 
 ## 2.0.0 版
 
 發行日期：**2017 年 3 月 9 日**
 
-* 已移至需要版本號碼更新至2.0.0的新建置程式。 (AN-137878)
-* 將mboxMCSDID處理移至進行追蹤呼叫的正確區段位置。 (AN-138483)
+* 移到需要到更新版本 2.0.0 新的建立程序。(AN-137878)
+* 將「mboxMCSDID」的處理移到追蹤呼叫發出的正確截面位置。(AN-138483)
 
 ## 1.8.0 版
 
 發行日期：**2017 年 1 月 19 日**
 
 * 納入 Visitor API 2.0.0
-* 重新排序函式呼叫和檢查，以便在中止檢查完成後使用SDID。 (AN-134364)
+* 重新排序函數呼叫和檢查，以便在中止檢查完成後使用 SDID。(AN-134364)
 * 新增 `s.registerPreTrackCallback` 和 `s.registerPostTrackCallback` 鉤點。(AN-134567)
 
 ## 1.7.0 版
@@ -245,7 +245,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2016 年 4 月 21 日**
 
-* [!DNL AppMeasurement] Activity Map 模組已整合至 [!DNL AppMeasurement] 標準模組，因此您僅需參考一個 [!DNL .js] 檔案。此外，Activity Map追蹤預設會啟用。 (AN-112689)
+* [!DNL AppMeasurement] Activity Map 模組已整合至 [!DNL AppMeasurement] 標準模組，因此您僅需參考一個 [!DNL .js] 檔案。此外，預設已啟用「Activity Map」追蹤。(AN-112689)
 * 修正 [!DNL AppMeasurement] 中查詢字串變數順序的截斷問題，因此 *`pageURLRest`* 會顯示於最後。(AN-114647)
 
 ## 第 1.5.4 版
@@ -253,14 +253,14 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 發行日期：**2016 年 3 月 17 日**
 
 * 納入 Visitor API 1.5.4
-* 支援訪客API 1.5.4+選擇退出
+* 支援 Visitor API 1.5.4+ 選擇退出功能
 
 ## 1.5.3 版
 
 發行日期：**2016 年 1 月 21 日**
 
 * 修正使用 POST 來追蹤呼叫時，[!DNL Audience Manager] 模組的處理方式。(AN-115381)
-* 將頁面URL的其餘部分(&quot;-g&quot;)移至追蹤請求查詢字串的結尾。 (AN-114647)
+* 已將剩餘的頁面 URL (「-g」) 移至追蹤請求查詢字串的尾端。(AN-114647)
 
 ## 第 1.5.2 版
 
@@ -291,7 +291,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 * 從 iOS SDK 4.5 版開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實施](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/ios-ext/ios-ext.html)。
 * 從 Android SDK 4.5 版開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/wearables-android/android-wearable.html)。
 * 納入 Visitor API 1.4.
-* 更新AudienceManagement模組以使用DIL 6.0版。
+* 已更新 AudienceManagement 模組以使用 DIL 6.0 版。
 
 >[!NOTE] **已知問題**：在訪客 API / [!DNL AppMeasurement] [!DNL Audience Manager] 模組整合中，有可發佈在 IE6-9 中提出之 iFrame 要求的兩個目的地：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`。
 
@@ -315,7 +315,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2015 年 1 月 15 日**
 
-* 修正WebKit預先演算處理的處理，以防止追蹤未檢視的預先演算頁面。
+* 修正 WebKit 轉譯前處理，防止追蹤未檢視的轉譯前頁面。
 * 更新分送 Zip 檔，以包含 Visitor API 1.3.4 以及 **[!UICONTROL AudienceManagement]** 模組 (包含 DIL 5.5 版)。
 
 ## 1.4.1 版
@@ -332,12 +332,12 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
    //.../b/ss/myrsid/1/JS-1.4.1-D1.0/s43317392037311?...
    ```
 
-   4個字元限定為URL檔案路徑中允許的字元，例如英數字元和句點。
+   這 4 個字元僅限使用 URL 檔案路徑允許的字元，例如英數字元和句號。
 
-* 在利用 H 程式碼加上雙標籤的頁面中，啟用強制連結追蹤 (Webkit 瀏覽器的預設) 時，在自動連結追蹤 (下載和退出) 期間可能會發生重複循環，這個問題已經修正。此外，新增自動連結追蹤的一般保護功能，以防止類似的回圈。 此保護功能可限制自動連結追蹤，每10秒 *對同* 一物件重複點按一次。 此保護僅適用於自動連結追蹤，因此手動連結追蹤(s.tl)呼叫不受限制。 此保護也不會影響到不同物件的點按次數，並會受到追蹤。
-* 修正當需要延遲時，已點按物件的處理。
-* 修正當從連結onclick函式呼叫s.t時，如果訪客API尚未具備所需值，會造成雙重頁面檢視計數的問題。
-* HTTP POST支援。
+* 在利用 H 程式碼加上雙標籤的頁面中，啟用強制連結追蹤 (Webkit 瀏覽器的預設) 時，在自動連結追蹤 (下載和退出) 期間可能會發生重複循環，這個問題已經修正。此外，在自動連結追蹤周圍新增一般防護以避免類似的重複循環。此防護可限制自動連結追蹤每 10 秒重複點擊&#x200B;*相同*&#x200B;物件一次。此防護僅適用於自動連結追蹤，因此，手動連結追蹤 (s.tl) 呼叫不在此限。此外，點擊不同物件也不受此防護影響，並且將進行追蹤。
+* 已修正需要延遲時點擊物件的處理。
+* 如果訪客 API 尚未取得需要的值，從連結 onclick 功能呼叫 s.t 時，會導致頁面檢視計數倍增，這個問題已經修正。
+* HTTP POST 支援。
 
    > [!IMPORTANT]若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實施用於 Experience Cloud。
 
@@ -374,13 +374,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2014 年 3 月 13 日**
 
-* 心率視訊的錯誤修正。
+* 已修正心率視訊的錯誤。
 
 ## 1.2.3 版
 
 發行日期：**2014 年 2 月 20 日**
 
-* 心率視訊的錯誤修正。
+* 已修正心率視訊的錯誤。
 
 ## 1.2.2 版
 
@@ -440,5 +440,5 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 * 執行速度較 H.25 程式碼快 3 到 7 倍。
 * 未壓縮大小僅為 21k，而採用 gzipped 壓縮的大小為 8k (H.25 程式碼的未壓縮大小為 33k，而採用 gzipped 的大小為 13 k)。
-* 原生支援，可取得查詢參數、讀取和寫入Cookie，以及執行進階連結追蹤。
-* 小巧又快速，可與行動網站搭配使用，而且功能強大，可在完整的案頭網路上使用，讓您在所有網路環境中都能運用單一資料庫。
+* 原生支援，以便取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
+* 輕便快速且功能強大，無論在行動版網頁或桌面完整版網頁皆可輕鬆使用，可讓您在所有的網站環境中使用單一程式庫。
