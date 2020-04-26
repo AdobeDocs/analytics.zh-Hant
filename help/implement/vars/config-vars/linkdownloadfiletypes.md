@@ -27,14 +27,14 @@ For these download types, you can manually call the [`tl()`](../functions/tl-met
 
 ## Adobe Experience Platform Launch 中的下載擴充功能
 
-Download Extensions is a list of file extensions with a field to add more under the [!UICONTROL Link Tracking] accordion when configuring the Adobe Analytics extension.
+「下載擴充功能」是含有欄位的副檔名清單，可在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「連結追蹤」]設定追蹤器下方新增更多副檔名。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展開accordion [!UICONTROL Link Tracking] ，以顯示欄 [!UICONTROL Download Extensions] 位。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「連結追蹤」]設定追蹤器，如此可顯示[!UICONTROL 「下載擴充功能」]欄位。
 
-Add file extensions to the list by entering text in the field and clicking [!UICONTROL Add]. 按一下各自的「X」圖示，從清單中移除副檔名。
+在欄位中輸入文字並按一下[!UICONTROL 「新增」]，將副檔名新增至清單。按一下各自的「X」圖示，從清單中移除副檔名。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkDownloadFileTypes
 
