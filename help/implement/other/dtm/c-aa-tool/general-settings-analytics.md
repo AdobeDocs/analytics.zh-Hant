@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 一般
 topic: Developer and implementation
 uuid: 93008719-6fb6-4e39-9a75-c937fe3247b9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
 ---
@@ -26,10 +26,10 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
  <tbody> 
   <tr> 
    <td colname="col1"> <p>對 <span class="keyword">Adobe Analytics</span> 啟用 EU 規範  </p> </td> 
-   <td colname="col2"> <p> 根據 EU 隱私權 Cookie 來啟用或停用追蹤。 </p> <p>載入頁面時，系統會檢查名為 <span class="filepath">sat_track</span> 的 Cookie 是否已受到設定 (或<span class="wintitle">「編輯屬性」</span>頁面上所指定的自訂 Cookie 名稱)。請考量下列資訊: </p> 
+   <td colname="col2"> <p> 根據 EU 隱私權 Cookie 來啟用或停用追蹤。 </p> <p>載入頁面時，系統會檢查名為 <span class="filepath">sat_track</span> 的 Cookie 是否已受到設定 (或<span class="wintitle">「編輯屬性」</span>頁面上所指定的自訂 Cookie 名稱)。請考量下列資訊： </p> 
     <ul id="ul_42A6D728F0BC4FBABB0069EFB66DCB01"> 
-     <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> 如果此 Cookie 不存在，或 Cookie 存在但設定為<span class="term">true</span> 以外的任何值，則會在啟用此設定時跳過工具的載入。其效果是，如果某規則使用工具，則不會套用該規則的任何部分。 </p> <p>如果規則具有啟用了 EU 規範的分析以及第三方程式碼，且 Cookie 設定為<span class="term">false</span>，則第三方程式碼仍會執行。不過，將不會設定分析變數。 </p> </li> 
-     <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> 如果此 Cookie 存在，但設定為<span class="term">true</span>，則工具會正常載入。 </li> 
+     <li id="li_227CB14326344AA3980F20C7EACF2AD2"> <p> 如果此 Cookie 不存在，或 Cookie 存在但設定為 <span class="term">true</span> 以外的任何值，則會在啟用此設定時跳過工具的載入。其效果是，如果某規則使用工具，則不會套用該規則的任何部分。 </p> <p>如果規則具有啟用了 EU 規範的分析以及第三方程式碼，且 Cookie 設定為<span class="term">false</span>，則第三方程式碼仍會執行。不過，不會設定分析變數。 </p> </li> 
+     <li id="li_1E74E02D7E4646ACA86D862A1D3C6679"> 如果此 Cookie 存在，但設定為 <span class="term">true</span>，則工具會正常載入。 </li> 
     </ul> <p>如果訪客選擇退出，您要負責將 <span class="filepath"> sat_track </span> (或自訂名稱) Cookie 設為 <span class="term">false</span>。您可以使用自訂程式碼來達到此目標: </p> <p> 
      <code>
        _satellite.setCookie("sat_track",&amp;nbsp;"false"); 
@@ -47,7 +47,7 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
    <td colname="col2"> <p>顯示可供選擇的支援貨幣代碼。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>追蹤伺服器 </p> </td> 
+   <td colname="col1"> <p>Tracking Server </p> </td> 
    <td colname="col2"> <p>在其中寫入影像要求和 Cookie 的網域。 </p> </td> 
   </tr> 
   <tr> 
