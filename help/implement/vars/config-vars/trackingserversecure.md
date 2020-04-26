@@ -15,12 +15,12 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ## Adobe Experience Platform Launch 中的 SSL 追蹤伺服器
 
-[!UICONTROL SSL Tracking Server] 是設定Adobe Analytics擴充功 [!UICONTROL General] 能時accordion下方的欄位。
+[!UICONTROL 「SSL 追蹤伺服器」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「一般」]設定追蹤器下方的欄位。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展開accordion [!UICONTROL General] ，以顯示欄 [!UICONTROL SSL Tracking Server] 位。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「一般」]設定追蹤器，如此可顯示[!UICONTROL 「SSL 追蹤伺服器」]欄位。
 
 如果此欄位留空，其預設值為 [`trackingServer`](trackingserver.md) 變數中的值。
 
