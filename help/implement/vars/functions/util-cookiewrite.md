@@ -1,6 +1,6 @@
 ---
 title: Util.cookieWrite
-description: 寫入Cookie的值。
+description: 將值寫入 Cookie。
 translation-type: tm+mt
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
@@ -9,21 +9,21 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # Util.cookieWrite
 
-Cookie可以儲存和擷取相同網域上各頁面的資訊。 使用 `Util.cookieWrite()` 方法將值設為Cookie。 您可以使用方 [`Util.cookieRead()`](util-cookieread.md) 法來檢索使用設定的值 `Util.cookieWrite()`。
+Cookie可以儲存和擷取相同網域上各頁面的資訊。使用 `Util.cookieWrite()` 方法可設定 Cookie 的值。您可以使用 [`Util.cookieRead()`](util-cookieread.md) 方法來擷取以 `Util.cookieWrite()` 設定的值。
 
-## 在Adobe Experience Platform Launch中設定Cookie
+## 在 Adobe Experience Platform Launch 中設定 Cookie
 
-Launch無法在介面中設定Cookie。 依照AppMeasurement語法，使用自訂程式碼編輯器。
+Launch 不提供在介面中設定 Cookie 的功能。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.Util.cookieWrite()
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.Util.cookieWrite()
 
-呼叫方 `s.Util.cookieWrite()` 法，將Cookie設定為所需值。
+呼叫 `s.Util.cookieWrite()` 方法將 Cookie 設定為所需的值。
 
 ```js
 s.Util.cookieWrite("example_cookie","Example cookie value")
 ```
 
-有可選的第三個引數可決定Cookie的過期時間。 使用設定 `s.Util.cookieWrite()` 的Cookie預設會在瀏覽器作業結束時過期。
+有選用的第三個引數可使用，其決定 Cookie 的過期時間。使用 `s.Util.cookieWrite()` 設定的 Cookie，預設會在瀏覽器作業結束時過期。
 
 ```js
 // Set a cookie with an expiration 6 months from now
@@ -34,7 +34,7 @@ s.Util.cookieWrite("example_cookie","Example 6-month cookie",cookieDate);
 
 ## 範例
 
-您可以在成功寫入Cookie時執行個體化變數。 此變數為布林值。
+您可以在成功寫入 Cookie 時將變數實例化。此變數為布林值。
 
 ```js
 var success = s.Util.cookieWrite("example_cookie","Example cookie value");
