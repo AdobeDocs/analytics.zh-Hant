@@ -21,12 +21,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch 中的保留 URL 參數
 
-[!UICONTROL Keep URL Parameters] 是設定Adobe Analytics擴充功 [!UICONTROL Link Tracking] 能時accordion下的核取方塊。
+[!UICONTROL 「保留 URL 參數」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「連結追蹤」]設定追蹤器下方的核取方塊。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展開accordion [!UICONTROL Link Tracking] ，顯示核取方 [!UICONTROL Keep URL Parameters] 塊。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「連結追蹤」]設定追蹤器，如此可顯示[!UICONTROL 「保留 URL 參數」]核取方塊。
 
 如果您想在連結追蹤維度中納入查詢字串，請勾選此方塊。
 
