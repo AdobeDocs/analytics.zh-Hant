@@ -9,9 +9,9 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # clearVars
 
-某些實作（例如在單頁應用程式上）需要在相同頁面載入時傳送多個點擊。 使用方 `clearVars()` 法清除變數值，使其不會持續存留至後續的點擊。
+某些實施 (如在單頁應用程式上) 要求在同一個頁面載入時傳送多個點擊。使用 `clearVars()` 方法來清除變數值，使其不會存留至後續的點擊。
 
-此方法不採用任何引數，也不返回任何值。 其唯一用途是從實例對象中清除變數值。 此方法將下列元素設為 `undefined`:
+此方法不採用任何引數，也不會傳回任何值。其唯一用途是清除例項物件的變數值。此方法將下列元素設為 `undefined`：
 
 * `prop1` - `prop75`
 * `eVar` - `eVar250`
@@ -26,19 +26,19 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 * `zip`
 * `campaign`
 
-## Adobe Experience Platform Launch中的清除變數
+## Adobe Experience Platform Launch 中的清除變數
 
 設定規則時設定「清除變數」動作。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Rules] ，然後按一下所要的規則（或建立規則）。
-4. 在下 [!UICONTROL Actions]方，按一下「+」圖示
-5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Clear Variables]。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下「+」圖示
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「清除變數」]。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.clearVars()
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.clearVars()
 
-在實例化Analytics物 `s.clearVars()` 件例項後，您可以在實作中的任何地方呼叫方法。
+將 Analytics 物件例項實例化之後，您就可以在實施中的任何地方呼叫 `s.clearVars()` 方法。
 
 ```js
 s.clearVars();
