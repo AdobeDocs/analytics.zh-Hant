@@ -13,5 +13,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 在舊版 Adobe Analytics 中，`account` 變數會決定您要將資料傳送至哪個報表套裝。必須有報表套裝 ID 才能將資料傳送至 Adobe Analytics。
 
-* If you use Adobe Experience Platform Launch, report suites reside under the [!UICONTROL Library Management] accordion when configuring the Adobe Analytics extension.
+* 如果您使用 Adobe Experience Platform Launch，設定 Adobe Analytics 擴充功能時，報表套裝位於[!UICONTROL 程式庫管理]摺疊式功能表底下。
 * 如果您使用 [`s_gi()`](../functions/s-gi.md) 函數來實例化 Analytics 追蹤物件，報表套裝 ID 已作為函數中的必要引數存在。
