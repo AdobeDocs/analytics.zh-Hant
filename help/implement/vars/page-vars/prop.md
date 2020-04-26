@@ -21,10 +21,10 @@ prop 是自訂變數，您可以視需要使用。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Rules] tab, then click the desired rule (or create a rule).
-4. 在下 [!UICONTROL Actions]方，按一下現 [!UICONTROL Adobe Analytics - Set Variables] 有動作或按一下「+」圖示。
-5. 將下拉 [!UICONTROL Extension] 式清單設定為Adobe Analytics，並設定 [!UICONTROL Action Type] 為 [!UICONTROL Set Variables]。
-6. Locate the [!UICONTROL Props] section.
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
+5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
+6. 找出[!UICONTROL 「prop」]區段。
 
 您可以選取 prop 來設定值或資料元素。您也可以複製其他 Analytics 變數的值。
 
