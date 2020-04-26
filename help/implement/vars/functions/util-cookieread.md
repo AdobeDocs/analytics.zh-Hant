@@ -9,23 +9,23 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # Util.cookieRead
 
-Cookie可以儲存和擷取相同網域上各頁面的資訊。 使用 `Util.cookieRead()` 方法從Cookie擷取值。
+Cookie可以儲存和擷取相同網域上各頁面的資訊。使用 `Util.cookieRead()` 方法可從 Cookie 擷取值。
 
-## 閱讀Adobe Experience Platform Launch中的Cookie
+## 在 Adobe Experience Platform Launch 中讀取 Cookie
 
-您可以透過在資料元素中設定值來讀取Cookie。
+您可以透過在資料元素中設定值來讀取 Cookie。
 
-1. Log in to [launch.adobe.com](https://launch.adobe.com) using your AdobeID credentials.
-2. 按一下所要的屬性。
-3. 前往標籤 [!UICONTROL Data Elements] ，然後按一下所需的資料元素（或建立資料元素）。
-4. 將下拉 [!UICONTROL Extension] 式清單設 [!UICONTROL Core]定為，並 [!UICONTROL Data Element Type] 將設為 [!UICONTROL Cookie]。
-5. 在文字欄位中輸入Cookie名稱。
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. 前往[!UICONTROL 資料元素]標籤，然後按一下所需的資料元素 (或建立資料元素)。
+4. 將 [!UICONTROL 「擴充功能」]下拉式清單設定為[!UICONTROL 「核心」]，並將[!UICONTROL 「資料元素類型」]設定為[!UICONTROL 「Cookie」]。
+5. 在文字欄位中輸入 Cookie 名稱。
 
-Cookie值會儲存在資料元素中。 然後，您可以參考規則中的資料元素來指派Analytics變數。
+Cookie 值會儲存在資料元素中。接著，您可以參考規則中的資料元素來指派 Analytics 變數。
 
-## AppMeasurement和Launch自訂代碼編輯器中的s.Util.cookieRead()
+## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.Util.cookieRead()
 
-呼叫方 `s.Util.cookieRead()` 法以讀取所需的Cookie值。 其唯一引數是字串，此為必要項。 此方法會傳回包含Cookie值的字串。 如果Cookie不存在，則會傳回空字串。
+呼叫 `s.Util.cookieRead()` 方法以讀取所需的 Cookie 值。其唯一引數是必要的字串。此方法會傳回包含 Cookie 值的字串。如果 Cookie 不存在，則會傳回空字串。
 
 ```js
 // Reads the value set in the cookie named 'example' and assigns the value to eVar1
