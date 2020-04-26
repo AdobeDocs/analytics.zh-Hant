@@ -1,7 +1,7 @@
 ---
 title: 外部電子郵件追蹤
 description: 使用 Adobe Analytics 追蹤電子郵件內容。
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
 
 ---
