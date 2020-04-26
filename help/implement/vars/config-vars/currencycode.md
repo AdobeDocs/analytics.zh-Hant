@@ -23,12 +23,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Adobe Experience Platform Launch 中的貨幣代碼
 
-Currency Code is a field under the [!UICONTROL General] accordion when configuring the Adobe Analytics extension.
+「貨幣代碼」是設定 Adobe Analytics 擴充功能時[!UICONTROL 一般]摺疊式功能表底下的欄位。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
-3. Go to the [!UICONTROL Extensions] tab, then click the [!UICONTROL Configure] button under Adobe Analytics.
-4. 展開accordion [!UICONTROL General] ，以顯示欄 [!UICONTROL Currency Code] 位。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 貨幣代碼]欄位。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
