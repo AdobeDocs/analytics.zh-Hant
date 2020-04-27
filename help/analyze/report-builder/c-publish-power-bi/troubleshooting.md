@@ -2,7 +2,7 @@
 description: 以下為 Report Builder 與 Power BI 搭配使用時的一些常見問題。
 title: 疑難排解 Power BI 的整合問題
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
