@@ -2,7 +2,7 @@
 title: Adobe Report Builder 說明
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
