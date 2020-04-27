@@ -3,7 +3,7 @@ description: 下載及編輯共用的活頁簿。
 title: 下載活頁簿
 topic: Report builder
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,8 +13,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 下載及編輯共用的活頁簿。
 
-1. 在 Excel 中按一下&#x200B;**[!UICONTROL 「共用」]**。
-1. 在&#x200B;**[!UICONTROL 「已上傳的活頁簿」]**&#x200B;下選擇活頁簿，然後按一下&#x200B;**[!UICONTROL 「下載」]**。
+1. In Excel, click **[!UICONTROL Share]**.
+1. 在下 **[!UICONTROL Uploaded Workbooks]**&#x200B;方，選取活頁簿並按一下 **[!UICONTROL Download]**。
 1. 儲存檔案。
 >以下選項僅適用於活頁簿的擁有者：
 >
