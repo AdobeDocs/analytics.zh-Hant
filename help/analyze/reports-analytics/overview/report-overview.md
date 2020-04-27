@@ -3,7 +3,7 @@ description: 報告功能 (包括工具列、日曆及詳細資料表格) 的簡
 title: 報表功能
 topic: Reports and analytics
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,11 +13,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 
-此範例顯示[!UICONTROL 頁面報告]。視您執行的報告而定，設定選項會跟著改變。例如，您可以不從網站內容報告中選取趨勢或[!UICONTROL 排名]，改為在[!UICONTROL 網站度量]報告中指定精細度和頁面名稱。
+This example shows a [!UICONTROL Pages Report]. The configuration options may vary, depending on the report that you run. For example, rather than selecting Trended or Ranked in a [!UICONTROL Site Content] report, you might specify the granularity and page name for a [!UICONTROL Site Metrics] report.
 
 ## 範例頁面報告 {#section_288CC85536684C2DB184141358481EF0}
 
-頁面報表的範例 (**[!UICONTROL 報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面報表]** > **[!UICONTROL 頁面]**)。
+頁面報表的範例( **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages Reports]** > **[!UICONTROL Pages]**)。
 
 ![](assets/pages_report.png){width=&quot;672px&quot;}
 
@@ -67,7 +67,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/metrics.png)
 
-請參閱[量度](/help/analyze/reports-analytics/metrics.md)。
+請參閱 [量度。](/help/analyze/reports-analytics/metrics.md)
 
 ## 詳細資料表格 {#section_449A5DC848744F65A10DA12E189B835D}
 
