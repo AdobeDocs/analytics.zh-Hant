@@ -2,7 +2,7 @@
 title: 分析受事件影響的資料
 description: 瞭解受事件影響的資料對整體資料品質的貢獻。
 translation-type: tm+mt
-source-git-commit: 6cca683836480f707fe18b5ee8d70b26ee5f54b0
+source-git-commit: 65f5fad547558cc9dc481f0eca72873815c9d13a
 
 ---
 
@@ -38,3 +38,8 @@ Adobe Analytics提供簡單而強穩的方式，讓您使用區隔來關注或�
 本影片將逐步介紹上述每個步驟。
 
 >[!VIDEO](https://video.tv.adobe.com/v/33316?quality=12)
+
+* **0:27**:使用區段排除資料
+* **2:55**:比較事件與先前範圍
+* **8:42**:使用計算量度衍生資料
+* **11:46**:向使用者傳達影響
