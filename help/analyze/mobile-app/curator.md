@@ -188,7 +188,6 @@ In Analytics, click the **Tools** menu and select **dashboards**. 在隨即顯�
    3. 安裝Testflight應用程式後，請在Testflight中尋找並安裝Adobe Analytics控制面板，如下所示：
 
       ![Testflight 畫面](assets/testflight2.png)
-   
    **若執行使用者使用 Android：**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -203,7 +202,6 @@ In Analytics, click the **Tools** menu and select **dashboards**. 在隨即顯�
       ![下載連結](assets/playnext.png)
 
    3. 下載並安裝應用程式。下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
-   
    ![應用程式歡迎畫面](assets/welcome.png)
 
 2. 協助使用者存取您的計分卡。執行使用者登入應用程式後，**選擇公司**&#x200B;畫面會隨即顯示。此畫面會列出執行使用者所屬的登入公司。協助使用者前往計分卡：
