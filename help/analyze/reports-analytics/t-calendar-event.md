@@ -20,7 +20,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. 按一下 **[!UICONTROL Add New]**.
    1. Under **[!UICONTROL Title]**, name the calendar event.
-   1. 指定 **[!UICONTROL Event Date]**。
+   1. 指定 **[!UICONTROL Event Date]**.
    1. Choose the **[!UICONTROL Report Suite]** to which this event applies.
    1. （可選）新增此 **[!UICONTROL Note Text]** 事件的任一項。
    1. 選取顯示圖示和色彩。
@@ -30,7 +30,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    1. 按一下 **[!UICONTROL Push To Users]**.
    1. Click **[!UICONTROL Check All]** or check the box next to the user name/s.
    1. 按一下 **[!UICONTROL Save]**.
-   這可讓「日曆事件」更有用。 分析師現在可以將覆蓋強制在使用者報表上，以提供更多內容。
+   如此可讓日曆事件有更多用處。分析師現在可以強制覆蓋其使用者的報表，以提供更多上下文內容。
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Calendar Events]**.
 1. 在「共用日曆事件」底下，指定以下任一選項：
 
