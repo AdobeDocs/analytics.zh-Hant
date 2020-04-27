@@ -20,7 +20,7 @@ source-git-commit: 67864f04effbc5cb41c14b9651da9144312148d9
 1. Open/Restart MS Excel to get the [!UICONTROL Add-Ins] menu to show up.
 1. Go to **[!UICONTROL Add-Ins]** > **[!UICONTROL Sign In]**.
 
-   依照報告建立工 [具登入中的指示進行](/help/analyze/report-builder/setup/login.md)。
+   依照 [Report Builder 登入](/help/analyze/report-builder/setup/login.md)提供的說明操作。
 
 ## 權限
 
