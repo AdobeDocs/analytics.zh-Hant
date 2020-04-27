@@ -2,7 +2,7 @@
 description: 列出目前版本和舊版及其功能特色。
 title: Report Builder 的新功能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -32,7 +32,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 ## Report Builder 5.4{#rb-5-4-section}
 
-* **更有效管理和編輯多個請求中的區段。**&#x200B;在[!UICONTROL 「編輯多個請求」]下的新選項，可讓您在多個目標請求當中新增、移除、更換以及更換所有區段。[更多...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
+* **更有效管理和編輯多個請求中的區段。** 下方的新 [!UICONTROL Edit Multiple Requests] 選項可讓您新增、移除、取代和取代多個目標請求中的所有區段。 [更多...](/help/analyze/report-builder/data-requests/segmentation.md#section_C3D63FCBE1A94369A319243313B03C93)
 
 * **新增前往 Adobe Report Builder 社群的連結**「說明」底下新的 Adobe 社群連結，會前往 Adobe 社群論壇，搜索範圍縮小到 Report Builder 問題。Adobe 社群是您向 Report Builder 使用者同伴，詢問關於應用程式問題，以及了解或分享最佳做法的好地方。
 
