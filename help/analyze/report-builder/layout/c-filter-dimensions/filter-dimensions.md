@@ -3,7 +3,7 @@ description: 您可以篩選新增至「列標籤」格線的維度。篩選能�
 title: 篩選維度概觀
 topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 定義篩選 – 值與特殊字元 {#section_15840216A4044C40974945FAA435AD93}
 
-在&#x200B;**[!UICONTROL 「熱門篩選]** > **[!UICONTROL 定義篩選」]**&#x200B;面板中的篩選相關資訊。
+關於「 >」面板中篩 **[!UICONTROL Most Popular Filter]** 選器 **[!UICONTROL Define Filter]** 的資訊。
 
 ![](assets/define_filter.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>終止於 </p> </td> 
    <td colname="col02"> <p>傳回以特定值作為結尾的結果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>會比對<span class="term">Wxyz</span> 而非 <span class="term">wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>進階 (特殊字元) </p> </td> 
