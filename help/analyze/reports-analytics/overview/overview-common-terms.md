@@ -3,7 +3,7 @@ description: 介紹行銷報告中常用的網站分析詞語。
 title: 常用詞語
 topic: Reports and analytics
 uuid: 0560dc7d-9f92-46d4-848b-3cf297073382
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 <table id="table_58F5D292485F45F9902B372E4E1E3103"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 術語 </th> 
+   <th colname="col1" class="entry"> 詞語 </th> 
    <th colname="col2" class="entry"> 定義 </th> 
   </tr> 
  </thead>
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col2"> <p>報告套裝全面、獨立地定義對選定網站、網站集合或網站頁面子集合的報告。一般情況下，報告套裝是一個網站，但也可以是您同時新增多個站點以便獲取總計值的全域區段。如果您想執行部分站點的報告，則報告套裝也可以小於網站。 </p> <p>例如，如果登入使用者和非登入使用者以不同的方式使用您的網站，並有不同的人在檢視各個群組的報告，則您可依據需驗證和不需驗證的頁面來劃分報告套裝的類別。 </p> <p>當您登入時，可以選擇一個要使用的報告套裝 (使用結合了報告套裝的統計報告套裝時除外)。 </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>度量 </p> </td> 
+   <td> <p>量度 </p> </td> 
    <td> <p>有關您網站上活動的數量資訊，例如檢視、點進、重新載入、平均逗留時間、日期、件數等。 </p> <p>有關詳細資訊，請參閱<a href="/help/analyze/reports-analytics/metrics.md">量度</a>。 </p> </td> 
   </tr> 
   <tr> 
