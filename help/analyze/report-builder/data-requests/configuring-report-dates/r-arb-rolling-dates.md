@@ -23,14 +23,14 @@ source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
  <tbody> 
   <tr> 
    <td colname="col1"> <p>自訂運算式 </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   > 自訂的日期運算式</a>. </p> </td> 
+   <td colname="col2"> <p>請參閱<a href="/help/analyze/report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/t-customized-date-expressions.md"   >自訂的日期運算式</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 截止日期 </p> </td> 
-   <td colname="col2"> <p>用於遞延範圍的日期參考。值為:  </p> 
+   <td colname="col2"> <p>用於遞延範圍的日期參考。值包括： </p> 
     <ul id="ul_6B73B707B7CB4C7D88299A8337260800"> 
-     <li id="li_48FD414FCF884F3AADB7CFBC90C7EF51"> 於執行時指定: 可讓您於每次執行請求時輸入日期。 </li> 
-     <li id="li_B1AE95854C1B4228A39164373A1C5303"> 從儲存格錨記: 可讓您從儲存格值設定日期參考。 </li> 
+     <li id="li_48FD414FCF884F3AADB7CFBC90C7EF51"> 於執行時指定：可讓您於每次執行請求時輸入日期。 </li> 
+     <li id="li_B1AE95854C1B4228A39164373A1C5303"> 從儲存格錨記：可讓您從儲存格值設定日期參考。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
