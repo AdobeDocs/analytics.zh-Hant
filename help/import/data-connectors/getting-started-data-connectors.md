@@ -86,7 +86,7 @@ s.products=";cat";
 s.events="scAdd";
 ```
 
-[!UICONTROL 購買]: 在購買確認頁面上啟動:
+[!UICONTROL 購買]&#x200B;: 在購買確認頁面上啟動:
 
 ```
 s.products=";
