@@ -3,7 +3,7 @@ description: '預設日期可讓您選擇常用日期或您以儲存的日期。
 title: 請求精靈定義 - 預設日期
 topic: Report builder
 uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
