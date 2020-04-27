@@ -3,7 +3,7 @@ description: 「排程任務管理員」的欄位說明。
 title: 排程任務管理員
 topic: Report builder
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
