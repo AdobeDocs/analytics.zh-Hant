@@ -4,7 +4,7 @@ subtopic: Alerts
 title: 警報
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
 * 建立在單一警報中擷取多個量度的「堆疊」警報。
 
-您可以在 Report &amp; Analytics 中任何報告內的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
+You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
 若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/intellligent_alerts.html)。
 
@@ -35,17 +35,17 @@ t_add_an_alert.xml
 
  -->
 
-導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件」]**&#x200B;功能表中新版的「警報產生器」。不過，您仍可從「Report &amp; Analytics」內的報表存取：
+Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. 不過，您仍可從「Report &amp; Analytics」內的報表存取：
 
 1. 在「Report &amp; Analytics」內，開啟您要設定警報的報告。
-1. 按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。
+1. 按一下 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
 1. 這步驟能帶您進入[新版警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-builder.html)。
 
 ## 檢視或編輯現有警報 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 工作內容
 
-1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報」]**。這步驟能帶您進入新版[警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-manager.html)。
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 這步驟能帶您進入新版[警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-manager.html)。
 
 ## 舊式警報遷移 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
