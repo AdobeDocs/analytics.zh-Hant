@@ -3,7 +3,7 @@ description: '您可以在「請求精靈: 步驟 2」中新增度量和維度�
 title: 度量和維度概觀
 topic: Report builder
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 您可以在「請求精靈: 步驟 2」中新增度量和維度，以定義請求中資料的 Analytics 配置。Report Builder 中的度量和維度清單會遵循 Reports &amp; Analytics 中顯示的功能表配置。
 
-度量是數值，由與網站活動相關的數量資訊所組成，如[!UICONTROL 頁面檢視]、[!UICONTROL 訪客設定檔]、[!UICONTROL 點進]、[!UICONTROL 重新載入]、[!UICONTROL 平均花費時間]、[!UICONTROL 日期]、[!UICONTROL 單位]等。Report Builder 會遵循 Analytics 中的標準分組依據，將度量組織為數個群組：
+度量是數值，這些資訊包含您網站上活動的量化資 [!UICONTROL Page Views]訊， [!UICONTROL Visitor Profile]例如 [!UICONTROL Click-throughs]、、 [!UICONTROL Reloads]、 [!UICONTROL Average Time Spent]、 [!UICONTROL Date]、 [!UICONTROL Units]等等。 Report Builder 會遵循 Analytics 中的標準分組依據，將度量組織為數個群組：
 
 * 標準流量：根據指定的行項目來顯示度量。例如，在「頁面」報表中，「造訪」度量顯示該特定頁面的造訪次數。
 * 標準商務：「收入」、「訂購」及「結帳」等度量。
