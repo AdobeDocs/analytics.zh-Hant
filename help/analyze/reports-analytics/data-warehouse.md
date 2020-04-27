@@ -3,7 +3,7 @@ description: 「資料倉儲」是指儲存和自訂報表所使用的原始、�
 title: 資料倉儲請求
 topic: Reports and analytics
 uuid: 586d3c8c-244f-4d47-8f93-230f166afaf9
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
