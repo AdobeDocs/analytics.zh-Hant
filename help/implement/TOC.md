@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
+source-git-commit: 31efa43043120b68de90e817a7980addbe2ded39
 
 ---
 
@@ -197,3 +197,5 @@ source-git-commit: 3684fdfe0910f0b1b31f741dbf6e3937d169f430
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
++ 搭配Analytics使用XDM資料 {#aep-edge}
+   + [使用AEP Web SDK](aep-edge/xdmoverview.md)
