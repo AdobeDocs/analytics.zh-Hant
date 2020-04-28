@@ -2,7 +2,7 @@
 description: 「快速洞察」建立工具是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
 title: 快速洞察建立工具
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 [!UICONTROL Quick Insights] 幫助您
 
-* 正確建立資料表格，並在中提供視覺化 [!UICONTROL Analysis Workspace]。
+* 正確建立資料表格及隨附的視覺化 [!UICONTROL Analysis Workspace]。
 * 瞭解基本元件和部分的術語和辭彙 [!UICONTROL Analysis Workspace]。
 * 進行維度的簡單劃分、新增多個量度，或輕鬆在內部比較區段 [!UICONTROL Freeform table]。
 * 變更或試用各種視覺化類型，以快速且直覺式的方式尋找分析的尋找工具。
@@ -36,24 +36,24 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 | [!UICONTROL Dimension item] | 維度項目是維度的個別值。 例如，瀏覽器維度的維度項目為「Chrome」、「Firefox」、「Edge」等。 |
 | [!UICONTROL Metric] | 量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
 | [!UICONTROL Visualization] | 工作區 [提供許多視覺化](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md) ，以建立資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。 |
-| [!UICONTROL Breakdown] | 劃分是將維度依其他維度劃分的一種方式。 在我們的範例中，您可以依行動裝置來劃分美國各州，以依每個州取得行動裝置瀏覽次數，或依行動裝置類型或依地區，依內部促銷活動等。 |
+| [!UICONTROL Breakdown] | 劃分是將維度依其他維度劃分的一種方式。 在我們的範例中，您可以依行動裝置來劃分美國各州，以取得每個州的行動裝置瀏覽次數，或依行動裝置類型、地區、內部促銷活動等來劃分行動裝置。 |
 | [!UICONTROL Segment] | 區段可讓您根據特性或網站互動來識別訪客的子集。 例如，您可以根據屬 [!UICONTROL Visitor] 性建立區段：瀏覽器類型、裝置、瀏覽次數、國家、性別或根據互動：促銷活動、關鍵字搜尋、搜尋引擎，或根據退出點和登入點：來自Facebook、已定義登陸頁面、反向連結網域或自訂變數的訪客：表單欄位、定義的類別、客戶ID。 |
 
 ## 快速洞察入門
 
 1. 使用您所提供的認證登入Adobe Analytics。
-1. 前往並 [!UICONTROL Workspace] 按一下 **[!UICONTROL Create New Project]** ，然後按一下 **[!UICONTROL Quick Insights Builder]**。
+1. 前往並 [!UICONTROL Workspace] 按一下 **[!UICONTROL Create New Project]** ，然後按一下 **[!UICONTROL Quick Insights]**。
 
    ![](assets/qibuilder.png)
 
-1. 當您第一次開始時，請進行簡短的教學課程，教您一些基本 [!UICONTROL Quick Insights Builder] 概念。 或者，按一下 **[!UICONTROL Skip Tutorial]**。
+1. 當您第一次開始時，請進行簡短的教學課程，教您一些基本 [!UICONTROL Quick Insights panel] 概念。 或者，按一下 **[!UICONTROL Skip Tutorial]**。
 1. 選擇您的構建塊（也稱為元件）:維度（橘色）、量度（綠色）、區段（藍色）或日期範圍（紫色）您必須為要自動建立的表格至少選擇一個維度和一個量度。
 
    ![](assets/qibuilder2.png)
 
    您有三種選擇構造塊的方法：
    * 從左側導軌拖放。
-   * 如果您知道您要尋找的是：開始輸入名稱， [!UICONTROL Quick Insights Builder] 然後為您填空。
+   * 如果您知道您要尋找的是：開始輸入 [!UICONTROL Quick Insights] 內容，然後為您填空。
    * 按一下下拉式清單並搜尋清單。
 
 1. 當您新增至少一個維度和一個量度時，將會為您建立下列項目：
@@ -72,13 +72,9 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 其他有用的提示會出現在中， [!UICONTROL Quick Insights Builder]其中一些提示會視您的最後動作而定。
 
-* **嘗試拖放**:例如，如果您使用下拉式清單來選取您的建置區塊，則可能會彈出：
+* 首先，完成教學 **[!UICONTROL More tips]** 課程：透過說明(?)存取它的雙曲餘切值。 [!UICONTROL Quick Insights Panel]
 
    ![](assets/qibuilder4.png)
-
-* **變更視覺效果**:鼓勵您嘗試不同的資料視覺呈現方式，直到找到真正出色的資料。 以下是折線圖的範例：
-
-   ![](assets/qibuilder8.png)
 
 * **劃分依據**:您最多可針對維度使用3個層級的劃分，以深入探討您真正需要的資料。
 
@@ -94,7 +90,13 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 
 ## 已知限制
 
-如果您嘗試直接在表格中編輯，會 [!UICONTROL Quick Insights Builder] 造成（填空工具）不同步。 您可以前往，將其還原為先前的「快速分析」設定 **[!UICONTROL Help > Tutorials]**，或按一下「快速分析」面板右上方的 **[!UICONTROL Resync Builder]** ，以清除表格。
+如果您嘗試直接在表格中編輯，會 [!UICONTROL Quick Insights] 導致面板（填空工具）不同步。 您可以按一下面板 [!UICONTROL Quick Insights] 右上角的 **[!UICONTROL Resync Builder]** 設定，將它還原為先前的設定。
+
+![](assets/qibuilder9.png)
+
+在直接將任何內容新增至表格之前，您會收到警告：
+
+![](assets/qibuilder8.png)
 
 否則，直接建立會使表格現在像傳統的自由表格一樣運作，而沒有新使用者的實用功能。
 
