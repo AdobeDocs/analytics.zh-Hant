@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
+source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
 
 ---
 
@@ -288,6 +288,7 @@ source-git-commit: dfc2e036711ee2229160f52ab16fb4299f7722e5
       + [購物車檢視](c-variables/c-metrics/metrics-cart-views.md)
       + [結帳](c-variables/c-metrics/metrics-checkouts.md)
       + [點進次數](c-variables/c-metrics/metrics-click-throughs.md)
+      + [內容速度](c-variables/c-metrics/metrics-content-velocity.md)
       + [自訂量度](c-variables/c-metrics/metrics-custom.md)
       + [每日不重複訪客](c-variables/c-metrics/metrics-daily-unique-visitors.md)
       + [登入點](c-variables/c-metrics/metrics-entries.md)
