@@ -188,6 +188,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 在隨即顯�
    3. 安裝Testflight應用程式後，請在Testflight中尋找並安裝Adobe Analytics控制面板，如下所示：
 
       ![Testflight 畫面](assets/testflight2.png)
+
    **若執行使用者使用 Android：**
 
    1. Tap the following Play Store link on the user&#39;s device (It is also available in Analytics under **Tools** > **dashboards**):
@@ -202,6 +203,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 在隨即顯�
       ![下載連結](assets/playnext.png)
 
    3. 下載並安裝應用程式。下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
+
    ![應用程式歡迎畫面](assets/welcome.png)
 
 2. 協助使用者存取您的計分卡。執行使用者登入應用程式後，**選擇公司**&#x200B;畫面會隨即顯示。此畫面會列出執行使用者所屬的登入公司。協助使用者前往計分卡：
@@ -209,6 +211,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 在隨即顯�
    * 點選套用至您所共用計分卡的登入公司或 Experience Cloud 組織名稱。接著，計分卡清單會顯示該登入公司與執行使用者共用的所有計分卡。
    * 如果情況適用，請協助他們依&#x200B;**最近修改的項目**&#x200B;將清單排序。
    * 點選計分卡的名稱即可檢視。
+
    ![選擇公司](assets/accesscard.png)
 
    注意：如果執行使用者登入後看到未共用任何內容的訊息：
@@ -217,6 +220,7 @@ In Analytics, click the **Tools** menu and select **dashboards**. 在隨即顯�
    * 可能沒有任何計分卡與該執行使用者共用
 
       ![無共用項目](assets/nothing.png)
+
    確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
 3. 向執行使用者說明圖磚在您所共用計分卡中的顯示方式。
