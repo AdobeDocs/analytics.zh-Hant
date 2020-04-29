@@ -6,7 +6,7 @@ title: 自訂報表套裝工具權限
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
 
 為 API 存取、報表套裝管理、工具和報表與控制面板項目啟用使用者權限。
 
-**[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL 報表存取]** > **[!UICONTROL 報表套裝工具]** > **[!UICONTROL 自訂]**
+**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Report Suite Tools]** > **[!UICONTROL Customize]**
 
-[!UICONTROL 自訂報表套裝工具]頁面會授予群組的成員對下列項目的存取。
+該頁 [!UICONTROL Customize Report Suite Tools] 面授與群組成員下列項目的存取權。
 
 ![](assets/report-suite-tools.png)
 
 ## 欄位說明
 
-此頁面上的設定屬於[!UICONTROL 定義使用者群組]頁面上選取的報表套裝。
+The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
 
 | 元素 | 說明 |
 |--- |--- |
@@ -65,8 +65,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | [異常偵測](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/anomaly_detection.html) | 授予對異常偵測的權限，其提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 |
 | [頻道報表](https://marketing.adobe.com/resources/help/zh_TW/mchannel/index.html) | 授予對可以在「報表 > 行銷管道報表」中找到的行銷管道報表的權限。 |
 | [即時報表](/help/admin/admin/realtime/t-realtime-admin.md) | 授予對即時報表的存取。 |
-| [機器人頁面](/help/admin/admin/bot-removal/bot-rules.md) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
-| [機器人](/help/admin/admin/bot-removal/bot-rules.md) | 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
+| [機器人頁面](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人頁面是用於特定的「報告與分析」報表，而非用於管理機器人規則。 目前，沒有允許編輯機器人規則的權限。**&#x200B;機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
+| [機器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人適用於特定的「報告與分析」報表，而非用於管理機器人規則。 目前，沒有允許編輯機器人規則的權限。** 機器人程式可讓您移除報表套裝中由已知編目程式和機器人程式產生的流量。 移除機器人流量可以提供網站上更準確的使用者活動測量。 |
 | [自訂 Data Warehouse 報表](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用於儲存和自訂報告的原始、未處理資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。 |
 | [每日回訪](/help/components/c-variables/dimensionslist/reports-daily-return-visits.md) | (舊版) 該報告顯示在指定某天曾多次瀏覽網站的訪客數量。一天指過去的 24 個小時。 |
 | [資料來源管理員](/help/admin/admin/data-sources.md) | 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。 |
