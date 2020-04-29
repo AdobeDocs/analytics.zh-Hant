@@ -3,7 +3,7 @@ description: 維度間流量可讓您檢查多個維度間的使用者路徑。
 title: 維度間流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ---
 
@@ -59,5 +59,3 @@ The [!UICONTROL Action Name] dimension was added to the flow, with the top retur
 現在，我想查看這些促銷活動帶動哪些頁面的流量，所以我將「頁面」維度拖曳至流量右側，將其新增至視覺效果：
 
 ![](assets/multi-dimensional-flow9.png)
-
-您接著可以依據其他維度或量度 (例如收入、造訪等) 來劃分這個結果。
