@@ -2,7 +2,7 @@
 description: 「快速洞察」建立工具是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
 title: 快速洞察建立工具
 translation-type: tm+mt
-source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
+source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: d339a1171d1d71a1074c5fbf81d6002de4955628
 
 >[!IMPORTANT]
 >
->**[!UICONTROL Quick Insights]** 目前正在測試中，目前尚未針對所有Adobe Analytics客戶提供測試版。
+>**[!UICONTROL Quick Insights]** 目前測試有限，目前尚未向所有Adobe Analytics客戶提供。
 
 [!UICONTROL Quick Insights] 為非分析師和新使用者提供指引，以 [!UICONTROL Analysis Workspace] 瞭解如何快速輕鬆地回答業務問題。 對於想要快速回答簡單問題而不需要自行建立表格的進階使用者而言，它也是絕佳的工具。
 
