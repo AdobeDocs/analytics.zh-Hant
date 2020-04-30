@@ -3,7 +3,7 @@ description: 'null'
 title: 資料請求 - 請求精靈步驟 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. **範圍選取器**：讓您從 Excel 的儲存格選取報表套裝軟體。請參閱[選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/)。
+1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
 
    For example, you can run a [!UICONTROL Pages Report], and then apply a First Time Visits segment.
 
