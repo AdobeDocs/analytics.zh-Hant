@@ -2,7 +2,7 @@
 title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -369,7 +369,7 @@ Reports &amp; Analytics 包含多個預先設定的報表，這些報表不對�
 
 ### Nielsen 整合
 
-如需有關如何實作此整合的詳細資訊，請參閱 [Nielsen 合作關係](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/hbvideo/nielsen-partnership.html)。
+如需有關如何實作此整合的詳細資訊，請參閱 [Nielsen 合作關係](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)。
 
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
