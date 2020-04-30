@@ -3,7 +3,7 @@ description: 一旦部署整合後，您就可以開始使用其提供的其他�
 title: 使用整合
 uuid: 5e861274-4d81-4ee0-b84e-ab83bc1c1331
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -32,6 +32,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 對象等於中小型企業。
 
-如需如何建立區段的詳細資訊，請參閱 [Analytics 分段指南](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/)。
+如需如何建立區段的詳細資訊，請參閱 [Analytics 分段指南](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
 
 然後，此區段便可套用至幾乎任何報表，其中一個範例是此處顯示的「每次瀏覽逗留時間報表」：![](assets/segment_applied_report.png)
