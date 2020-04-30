@@ -6,7 +6,7 @@ title: 識別不重複訪客
 topic: Developer and implementation
 uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Analytics 提供數個識別訪客的機制。下表列出 Analytics 中�
 | 方法 | 說明 |
 |---|---|
 | [s.visitorID](../implement/vars/config-vars/visitorid.md) 變數 | 如果在瀏覽器上使用 JavaScript，或如果您是使用任何其他 AppMeasurement 程式庫，則可在資料收集變數中設定訪客 ID。 |
-| 影像要求上的查詢字串參數 | 這可讓您透過硬式編碼影像請求的 [!UICONTROL vid 查詢字串]參數，將[!UICONTROL 訪客 ID] 傳送至 Adobe。 |
+| 影像要求上的查詢字串參數 | 這可讓您透過硬式 [!UICONTROL visitor ID] 編碼影像要求 [!UICONTROL vid query string] 上的參數，將影像傳遞給Adobe。 |
 | 資料插入 API | 在使用無線通訊協定，沒有接受 JavaScript 的裝置上，您可以從您的伺器將包含 `<visitorid/>` XML 元素的 XML 貼文傳送至 Adobe 收集伺服器。 |
 | URL 重寫和 VISTA | 有些部署架構可在您無法設定 Cookie 時，提供使用 URL 重寫以維護工作階段狀態的支援。在這種情況下，Adobe 工程服務可實施 [!DNL VISTA] 規則以在頁面的 URL 中尋找工作階段值，並在格式化後將其放入 [!UICONTROL visid] 值中。 |
 >[!CAUTION]
@@ -58,7 +58,7 @@ Adobe Analytics 提供數個識別訪客的機制。下表列出 Analytics 中�
 
 有些瀏覽器 (例如 Apple Safari) 不再從下列情況的網域儲存 HTTP 標題中設定的 Cookie: 不符合目前網站的網域 (這是協力廠商上下文中使用的 Cookie，或是協力廠商 Cookie)。例如，如果您位於 `mysite.com` 而您的資料收集伺服器是 `mysite.omtrdc.net`，則瀏覽器可能會拒絕從 `mysite.omtrdc.net` HTTP 標題中傳回的 Cookie。
 
-為了避免此問題，許多客戶在進行[第一方 Cookie 實施](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/)時，會為其資料收集伺服器實施 CNAME 記錄。如果已設定 CNAME 記錄將客戶網域的主機名稱對應至資料收集伺服器 (例如，將 `metrics.mysite.com` 對應至 `mysite.omtrdc.net`)，則資料收集網域現在符合網站的網域，因此可以儲存訪客 ID Cookie。如此可提高訪客 ID Cookie 被儲存的可能性，但也會造成額外負荷，因為您必須設定 CNAME 記錄以及維護資料收集伺服器的 SSL 憑證。
+為了避免此問題，許多客戶在進行[第一方 Cookie 實施](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)時，會為其資料收集伺服器實施 CNAME 記錄。如果已設定 CNAME 記錄將客戶網域的主機名稱對應至資料收集伺服器 (例如，將 `metrics.mysite.com` 對應至 `mysite.omtrdc.net`)，則資料收集網域現在符合網站的網域，因此可以儲存訪客 ID Cookie。如此可提高訪客 ID Cookie 被儲存的可能性，但也會造成額外負荷，因為您必須設定 CNAME 記錄以及維護資料收集伺服器的 SSL 憑證。
 
 ### 行動裝置上的 Cookie {#section_7D05AE259E024F73A95C48BD1E419851}
 
@@ -66,9 +66,9 @@ Adobe Analytics 提供數個識別訪客的機制。下表列出 Analytics 中�
 
 ## Identity 服務
 
-Identity 服務取代了舊式 Analytics 訪客 ID 機制，且為[!UICONTROL 心率]視訊測量、Analytics for Target 及未來 Experience Cloud 核心服務及整合的必要功能。
+The Identity Service replaces the legacy Analytics visitor ID mechanism, and is required by [!UICONTROL Heartbeat] video measurement, Analytics for Target, and future Experience Cloud core services and integrations.
 
-如需此服務的產品文件 ，請參閱 [Identity Service](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)。
+如需此服務的產品文件 ，請參閱 [Identity Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
 
 ## 識別行動裝置
 
@@ -76,7 +76,7 @@ Identity 服務取代了舊式 Analytics 訪客 ID 機制，且為[!UICONTROL �
 
 Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP 訂閱者 OD 標題。這些標題常包含裝置電話號碼 (或號碼的雜湊版本) 或其他識別碼。目前大部分裝置具有一或多個可唯一識別裝置的標題，所有 Adobe 資料收集伺服器都會自動以這些標題代替訪客 ID。
 
-在一般影像要求中，路徑 (`/b/ss/rsid/1`) 中的「1」會導致 Adobe 伺服器傳回 gif 影像，並嘗試設定持續的[!UICONTROL 訪客 ID] Cookie (`AMCV_` 或 `s_vi`)。然而，如果根據 HTTP 標題將裝置辨識為行動裝置，則會傳遞 &#39;5&#39;，取代 &#39;1&#39;，以指出應該傳回 wbmp 格式影像，而且我們已辨識的無線標題 (不是 Cookie) 清單應該用來識別裝置。
+In a typical image request, a &#39;1&#39; in the path ( `/b/ss/rsid/1`) causes Adobe servers to return a gif image and to attempt to set a persistent [!UICONTROL visitor ID] cookie ( `AMCV_` or `s_vi`). 然而，如果根據 HTTP 標題將裝置辨識為行動裝置，則會傳遞 &#39;5&#39;，取代 &#39;1&#39;，以指出應該傳回 wbmp 格式影像，而且我們已辨識的無線標題 (不是 Cookie) 清單應該用來識別裝置。
 
 下表列出根據路徑中的傳回影像類型值 (&#39;1&#39; or &#39;5&#39;) 所使用之 ID 方法的順序:
 
@@ -90,7 +90,7 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP 訂閱者 OD �
  <tbody> 
   <tr> 
    <td colname="col1"> <code> /1/</code> </td> 
-   <td colname="col2"> <p>預設值: </p> 
+   <td colname="col2"> <p>預設: </p> 
     <ul id="ul_E37E9919658A492C92187BAA18D33AB6"> 
      <li id="li_1A9E39C7CFB24C68AA07C8E85D33A858">自訂訪客 ID </li> 
      <li id="li_0DC8D17828C848BEB614C6E47C090064">Cookie </li> 
