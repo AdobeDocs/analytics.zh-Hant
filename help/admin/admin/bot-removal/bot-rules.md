@@ -5,7 +5,7 @@ title: 機器人規則概觀
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 定義機器人規則後，系統會將所有傳入流量與已定義規則做比較。符合任一規則的流量不會在報表套裝中加以收集，也不會納入流量量度。
 
-若要更新或上傳機器人規則，請導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝」]**。選取正確的報表套裝，然後前往「**[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 機器人規則]**」。
+若要更新或上傳機器人規則，請導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]**。 選取正確的報表套裝，然後前往 **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**。
 
 移除機器人流量通常會減少流量和轉換量度的數量。許多客戶都發現，移除機器人流量可以增加轉換率、提高其他可用性量度。在移除機器人流量前，請先聯絡專案關係人，確定他們能因應此項變更，對關鍵績效指標進行必要調整。如果可行，建議先移除小型報表套裝中的機器人流量，評估可能造成的影響。
 
@@ -24,12 +24,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | 規則類型 | 說明 |
 |--- |--- |
-| 標準 IAB 機器人規則 | 選取[!UICONTROL 「啟用 IAB 機器人篩選規則」]，系統會使用 [IAB](https://www.iab.com) (國際廣告局) 的「國際編目程式與機器人清單」來移除機器人流量。多數客戶至少都會選取此選項。 |
+| 標準 IAB 機器人規則 | Selecting [!UICONTROL Enable IAB Bot Filtering Rules] uses the [IAB&#39;s](https://www.iab.com) (International Advertising Bureau&#39;s) International Spiders &amp; Bots List to remove bot traffic. 多數客戶至少都會選取此選項。 |
 | 自訂機器人規則 | 您可以根據使用者代理、IP 位址或 IP 範圍來定義與新增自訂機器人規則。 |
 
 ## 標準 IAB 機器人規則
 
-勾選[!UICONTROL 「啟用 IAB 機器人篩選規則」]核取方塊，即可開啟標準 IAB 機器人規則 。這個選項會移除 IAB (國際廣告局) 國際編目程式與機器人清單中的機器人，藉此移除機器人流量。IAB 每月都會更新這份清單。
+勾選核取核取方塊，即可開啟標準IAB機器人 [!UICONTROL Enable IAB Bot Filtering Rules] 規則。 這個選項會移除 IAB (國際廣告局) 國際編目程式與機器人清單中的機器人，藉此移除機器人流量。IAB 每月都會更新這份清單。
 
 ![](assets/bot-iab-checkbox.png)
 
@@ -37,7 +37,7 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 ## 自訂機器人規則
 
->[!N注意] 使用者介面可供手動定義 500 個規則。達到上限之後，必須透過「匯入檔案」和「匯出機器人規則」選項來大量管理規則。
+>[!NOTE]可在使用者介面手動定義 500 個規則。達到上限之後，必須透過「匯入檔案」和「匯出機器人規則」選項來大量管理規則。
 
 自訂機器人規則可讓您根據自行定義的條件，來篩選流量。
 
@@ -51,11 +51,11 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 ### 使用者代理
 
-使用者代理條件會檢查使用者代理值，查看其是否&#x200B;**[!UICONTROL 開頭為]**&#x200B;或&#x200B;**[!UICONTROL 包含]**&#x200B;指定之字串。如果選取了&#x200B;**[!UICONTROL 包含]**，則子字串出現在使用者代理中任何位置都算符合。
+A User Agent condition checks the user agent value to see if it **[!UICONTROL starts with]** or **[!UICONTROL contains]** the specified string. If **[!UICONTROL contains]** is selected, the substring is matched if it occurs anywhere in the user agent.
 
-可以在&#x200B;**[!UICONTROL 不包含]**&#x200B;清單中加入選用值，定義使用者代理不應包含該值，才能算是成功符合。可以加入多個值，一行指定一個值。如果使用者代理滿足符合字串中指定的標準，但也含有不包含清單中的字串，則不視為符合。
+Optional values can be included in the **[!UICONTROL does not contain]** list to define values that the user agent must not contain for a successful match. 可以加入多個值，一行指定一個值。如果使用者代理滿足符合字串中指定的標準，但也含有不包含清單中的字串，則不視為符合。
 
-**[!UICONTROL 「包含」]**&#x200B;欄位限制在 100 個字元。不包含清單上限為 255 個字元，扣除每一新行的分隔符號字元。(這等於字串數目 - 1。如果您指定 4 個&#x200B;*不包含*&#x200B;字串，則需要 3 個分隔符號字元)。所有字串比對不分大小寫。
+The **[!UICONTROL contains]** field is limited to 100 characters. 不包含清單上限為 255 個字元，扣除每一新行的分隔符號字元。(這等於字串數目 - 1。如果您指定 4 個&#x200B;*不包含*&#x200B;字串，則需要 3 個分隔符號字元)。所有字串比對不分大小寫。
 
 ### IP 位址 (包括萬用字元符合)
 
@@ -72,9 +72,9 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 ### 定義自訂機器人規則
 
-1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員」]**，選取一或多個報表套裝並按一下&#x200B;**[!UICONTROL 「一般]** > **[!UICONTROL 機器人規則」]**。
-1. 按一下&#x200B;**[!UICONTROL 「新增規則」]**，定義一或多個符合條件。
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。30 分鐘內變更就會生效。
+1. 前往> **[!UICONTROL Analytics]** ，選 **[!UICONTROL Admin]**&#x200B;取一或多個報表套裝，然後按一下 **[!UICONTROL General]** > **[!UICONTROL Bot Rules]**。
+1. Click **[!UICONTROL Add Rule]** and define one or more match conditions.
+1. 按一下 **[!UICONTROL Save]**. 30 分鐘內變更就會生效。
 
 ## 上傳機器人規則
 
@@ -106,11 +106,11 @@ Adobe 無法提供詳細的 IAB 機器人清單給客戶，但您可使用「機
 
 ### 以上傳檔案覆寫所有規則
 
-選取&#x200B;**[!UICONTROL 「覆寫現有規則」]**&#x200B;核取方塊，刪除所有現有規則並以上傳檔案中定義的規則加以取代。
+Select the **[!UICONTROL Overwrite existing rules]** checkbox to delete all existing rules and replace them with the rules defined in the upload file.
 
 ### 匯出規則
 
-**[!UICONTROL 「匯出已上載機器人檔案」]**&#x200B;按鈕可將 UI 中定義的所有規則匯出維 CSV 格式。
+The **[!UICONTROL Export Uploaded Bot File]** button exports all rules defined in the UI in a CSV format.
 
 
 ## 機器人規則對資料收集的影響 {#section_F01A3130E7A04A9993371CF26F6586F2}
