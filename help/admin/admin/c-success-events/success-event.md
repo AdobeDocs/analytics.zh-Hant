@@ -5,7 +5,7 @@ title: 成功事件概觀
 topic: Admin tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 translation-type: tm+mt
-source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
 
 1. Log in to [experiencecloud.adobe.com](https://experiencecloud.adobe.com) using your AdobeID credentials.
 2. Click the 9-grid button at the top, then click [!UICONTROL Analytics].
-3. Navigate to [!UICONTROL Admin] > [!UICONTROL Report Suites]
-4. 選取所要的報表套裝，然後導覽至「 [!UICONTROL 編輯設定] > [!UICONTROL 轉換] > [!UICONTROL 成功事件]」。
-5. 找出所要的事件，並將「唯一事 [!UICONTROL 件記錄」下拉式清單修改] 為「每次瀏覽記錄一次 [!UICONTROL 」或「使用] 事件ID 」。
+3. 導覽至 [!UICONTROL Admin] > [!UICONTROL Report Suites]
+4. 選取所要的報表套裝，然後導覽至 [!UICONTROL Edit Settings] > [!UICONTROL Conversion] > [!UICONTROL Success Events]。
+5. 找到所要的事件，並將下拉式清 [!UICONTROL Unique Event Recording] 單修改為 [!UICONTROL Record Once Per Visit] 或 [!UICONTROL Use Event ID]。
 
 成功事件有多種類型，視您的網站類型而定。這些類型包括：
 
@@ -32,11 +32,11 @@ source-git-commit: 7a1c3c7ed0e509969e281e865e8ff2c969a18bcb
 * **高科技**：白皮書下載、RFP、表單填寫、支援要求
 * **汽車**：銷售機會提交、要求報價、手冊下載
 
-[s.events](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/events.html) 變數會定義成功事件。
+[s.events](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html) 變數會定義成功事件。
 
 ## 成功事件頁面 - 說明 {#section_681ECEC981694CABBDBF00E18165B447}
 
-**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 成功事件」]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Conversion]** > **[!UICONTROL Success Events]**
 
 「成功事件」頁面可讓您設定在您網站上使用的事件變數。可最多新增 1,000 個成功事件。事件 81-1,000 僅適用於 H22 代碼或更高版本。
 
