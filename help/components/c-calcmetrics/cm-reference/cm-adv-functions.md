@@ -3,14 +3,14 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # 參考資料：進階函數
 
-勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
+Access these functions by checking **[!UICONTROL Show Advanced]** in the **[!UICONTROL Functions]** drop-down list.
 
 ## 表格函數和列函數 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -65,7 +65,7 @@ Approximate Count Distinct (dimension)
 
 ## 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_uniques_high_numbers.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
+就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://docs.adobe.com/content/help/en/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
 ## 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
