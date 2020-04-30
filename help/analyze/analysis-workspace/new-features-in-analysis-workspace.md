@@ -5,7 +5,7 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -169,7 +169,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>全新範本：音效消耗</b> </p> </td> 
-   <td colname="col2"> <p>請參閱 <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/hbvideo/media-workspace-templates.html"  >Audio Analytics</a>。 </p> </td> 
+   <td colname="col2"> <p>請參閱 <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-workspace-templates.html"  >Audio Analytics</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -468,7 +468,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
    <td colname="col2"> <p>先前複製專案或使用「另存新檔」功能時，儲存在專案中的所有內部連結會指向原專案，而非複製的專案。 </p> <p>現在您複製/另存新檔後，內部連結可反映其所在專案中的相對位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>貢獻分析：<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_main.html"  >代號通知 </a> </p> </td> 
+   <td colname="col1"> <p>貢獻分析：<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >代號通知 </a> </p> </td> 
    <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻度分析」，其位於<span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span>當中。 </p> </td> 
   </tr> 
   <tr> 
@@ -803,7 +803,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md"  > 人物範本 </a> </p> </td> 
-   <td colname="col2"> <p>注意：「人物」範本與相關的「人物」量度僅在作為 <a href="https://marketing.adobe.com/resources/help/zh_TW/mcdc/mcdc-people.html"  >Adobe Experience Cloud Device Co-op</a> 的一部分時才可供使用。 </p> <p>此模板是根據「人物」量度建立，該量度是「不重複訪客」量度消除重複項後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。 </p> </td> 
+   <td colname="col2"> <p>注意：「人物」範本與相關的「人物」量度僅在作為 <a href="https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html"  >Adobe Experience Cloud Device Co-op</a> 的一部分時才可供使用。 </p> <p>此模板是根據「人物」量度建立，該量度是「不重複訪客」量度消除重複項後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>改善還原/重做選項 </p> </td> 
@@ -973,7 +973,7 @@ source-git-commit: 69a0e706e2788bf92ba70ea0fd53267c3e2cb80d
 
 2016 年 6 月 16 日發行的新功能：
 
-* [新群組權限](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html) ，可讓管理員允許或拒絕使用者存取 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** 標籤。 截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
+* [新群組權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html) ，可讓管理員允許或拒絕使用者存取 **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]** 標籤。 截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
 * 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、視覺效果、元件
