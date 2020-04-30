@@ -4,7 +4,7 @@ title: 影片
 topic: Reports
 uuid: d14c4451-2543-414e-a582-001dce001f5f
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,4 +44,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-請參閱[在 Adobe Analytics 測量音訊和視訊](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/hbvideo/)。
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)。
