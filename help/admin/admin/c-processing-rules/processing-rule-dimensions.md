@@ -5,7 +5,7 @@ title: 可用於處理規則的維度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -38,7 +38,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
   </tr> 
   <tr> 
    <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意：上下文資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用上下文資料變數設定事件</a> </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/context_data_variables.html"> 上下文資料變數</a> </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意：上下文資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用上下文資料變數設定事件</a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 上下文資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
