@@ -3,7 +3,7 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,12 +14,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 有幾種方式可以存取計算量度產生器：
 
-* 在 Analysis Workspace 中，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立量度」]**。
-* 在 [!DNL Analytics] 中，前往&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 計算量度」]**。
+* 在分析工作區中，開啟專案，然後按一下 **[!UICONTROL + New]** > **[!UICONTROL Create Metric]** 。
+* 在中 [!DNL Analytics]，請轉至 **[!UICONTROL Components]** > **[!UICONTROL Calculated Metrics]**。
 
-* 按一下計算量度管理員頂端的「**[!UICONTROL + 新增]**[](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」，或者
+* Click **[!UICONTROL + Add]** at the top of the [Calculated Metric Manager](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md), or
 
-* 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟任一報表並按一下量度圖示 ![](assets/metrics_icon.png) 以叫出「量度」邊欄，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
+* Go to **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**, open any report and click the Metrics icon  ![](assets/metrics_icon.png) to bring up the Metrics rail, then click **[!UICONTROL Add]**.
 
 ![](assets/cm_builder_ui.png)
 
@@ -85,7 +85,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 產品相容性 </span> </td> 
-   <td colname="col3"> <p>產品相容性會顯示量度是否與<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/data_latency.html"  >目前的資料</a>、完全處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
+   <td colname="col3"> <p>產品相容性會顯示量度是否與<a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >目前的資料</a>、完全處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 新增 </span> </td> 
@@ -102,7 +102,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + 新增 </span> </td> 
-   <td colname="col3"> <p>可讓您建立新元件，例如新區段 (會前往「<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_build_ui.html"  >區段產生器</a>」)。 </p> </td> 
+   <td colname="col3"> <p>可讓您建立新元件，例如新區段 (會前往「<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >區段產生器</a>」)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>搜尋元件 </p> </td> 
@@ -128,7 +128,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col2"> <p>區段清單 </p> </td> 
-   <td colname="col3"> <p>(僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有區段。如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/seg_rights.html"  > 更多... </a> </p> </td> 
+   <td colname="col3"> <p>(僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有區段。如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函數清單 </p> </td> 
