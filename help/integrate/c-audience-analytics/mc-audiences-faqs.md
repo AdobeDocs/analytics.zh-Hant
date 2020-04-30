@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 translation-type: tm+mt
-source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">如果您的 prop 或 eVar 中有電子郵件/地址等資訊，請考慮在收集時將這些資訊進行雜湊處理。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/exclude_IP.html"  >開啟 IP 模糊化</a>功能。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/exclude-ip.html"  >開啟 IP 模糊化</a>功能。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">請與您的 Analytics 管理員討論，了解您正在收集哪些資訊。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">與您的法律部門討論，了解他們認為哪些資訊屬於 PII。 </li> 
     </ul> </td> 
@@ -45,7 +45,7 @@ source-git-commit: 7ac854aa4d83f952bec911cfc63058f2997096e8
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問：如何在 Audience Manager 中建立 Analytics 目的地？</b> </p> </td> 
-   <td colname="col2"> 請參閱<a href="https://marketing.adobe.com/resources/help/en_US/aam/create-analytics-destination.html"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
+   <td colname="col2"> 請參閱<a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：建立並儲存 Analytics 目的地後，需要多久才會在我選取的表套裝中顯示資料？</b> </p> </td> 
