@@ -5,7 +5,7 @@ title: 分類資料檔案
 topic: Admin tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -109,19 +109,19 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ### 分類欄標題
 
-例如，Reports &amp; Analytics 會自動包含「[!UICONTROL 促銷活動]」變數的兩個分類：「[!UICONTROL 促銷活動]」和「[!UICONTROL 創作元素]」。若要將資料新增至「[!UICONTROL 促銷活動]」分類，則分類資料檔案中的欄標題應是「[!UICONTROL 促銷活動]」。
+例如，報告與分析會自動包含兩個變數的 [!UICONTROL Campaign] 分類： [!UICONTROL Campaigns] 和 [!UICONTROL Creative Elements]。 To add data to the [!UICONTROL Campaigns] classification, the column heading in the classification data file would be [!UICONTROL Campaigns].
 
->[!NOTE] [!UICONTROL 分類]欄標題中的值必須與分類的命名慣例完全相符，否則匯入會失敗。例如，若管理員在「[!UICONTROL 促銷活動設定管理員]」中將「[!UICONTROL 促銷活動]」變更為[!UICONTROL 內部促銷活動名稱]，則檔案欄標題也必須一併變更。
+>[!NOTE] 欄標題中的 [!UICONTROL Classifications] 值必須完全符合分類的命名慣例，否則匯入會失敗。 例如，如果管理員在中 [!UICONTROL Campaigns] 變更 [!UICONTROL Internal Campaign Names] 為 [!UICONTROL Campaign Set-up Manager]，則檔案列標題必須變更為匹配。
 
 此外，資料檔案支援以下額外的標題慣例，以便識別子分類和其他專業的資料欄：
 
 ### 子分類標題
 
-例如，[!UICONTROL Campaigns^Owner] 是含有 [!UICONTROL Campaign Owner] 值的資料欄所用的欄標題。同樣地，[!UICONTROL Creative Elements^Size] 是含有 [!UICONTROL Creative Elements] 分類 [!UICONTROL Size] 子分類的資料欄所用的欄標題。
+For example, [!UICONTROL Campaigns^Owner] is a column heading for the column containing [!UICONTROL Campaign Owner] values. Similarly, [!UICONTROL Creative Elements^Size] is a column heading for the column containing the [!UICONTROL Size] sub-classification of the [!UICONTROL Creative Elements] classification.
 
 ### 分類量度標題
 
-例如，[!UICONTROL Campaigns^~Cost] 表示「[!UICONTROL 促銷活動]」分類中的「[!UICONTROL 成本]」量度。
+For example, [!UICONTROL Campaigns^~Cost] refers to the [!UICONTROL Cost] metric in the [!UICONTROL Campaigns] classification.
 
 ### PER 修飾詞標題
 
@@ -141,9 +141,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **REVENUE**：用報告中行項目的收入額乘以該數值。
 
-**SCADD**：用報告中每行項目之[!UICONTROL 購物車新增]事件的呼叫次數乘以該數值。
+**SCADD:** 將值乘以報告中每行項目 [!UICONTROL Shopping Cart Add] 中事件被呼叫的次數。
 
-**SCREMOVE**：用報告中每行項目之[!UICONTROL 購物車移除]事件的呼叫次數乘以該數值。
+**SCREMOVE:** 將值乘以報告中每行項目 [!UICONTROL Shopping Cart Remove] 中事件被呼叫的次數。
 
 **INSTANCE**：用報告中行項目的例項數乘以該數值。
 
@@ -151,30 +151,30 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **EVENT**：用報告內每行項目指定的自訂事件發生次數乘以該數值。
 
-**範例**：如果促銷活動 A 的成本為 $10,000，[!UICONTROL Campaigns^~Cost] 欄便含有值 10000，而 [!UICONTROL Campaigns^~Cost~per] 欄含有 [!UICONTROL FIXED]。在報告中顯示「促銷活動 A」的「成本」時，會在日期範圍內將 $10,000 顯示為「促銷活動 A」的固定成本。
+**範例：** 如果促銷活動A的成本為$10,000, [!UICONTROL Campaigns^~Cost] 則欄會包含值10000，而 [!UICONTROL Campaigns^~~Costper] 欄會包含 [!UICONTROL FIXED]。 在報告中顯示「促銷活動 A」的「成本」時，會在日期範圍內將 $10,000 顯示為「促銷活動 A」的固定成本。
 
-**範例**：如果促銷活動 B 每個點按的成本約 $2，[!UICONTROL Campaigns^~Cost] 欄便含有 2，而 **[!UICONTROL Campaigns^~Cost~per]** 欄含有 [!UICONTROL CLICK]。在報表中顯示「促銷活動 B 的成本」時，Adobe 會在報表的日期範圍內即時計算 (2 * [點按次數])。這將為您提供基於促銷活動 B 所執行點按次數的總成本計算。
+**範例：** 如果促銷活動B的每次點按成本約為$2, [!UICONTROL Campaigns^~Cost] 則欄會包含2, **[!UICONTROL Campaigns^~~Costper]** 欄會包含 [!UICONTROL CLICK]。 在報表中顯示「促銷活動 B 的成本」時，Adobe 會在報表的日期範圍內即時計算 (2 * [點按次數])。這將為您提供基於促銷活動 B 所執行點按次數的總成本計算。
 
 ### 日期
 
 促銷活動日期通常是與個別促銷活動相關的範圍 (開始日期和結束日期)。日期的顯示格式應為 YYYY/MM/DD。例如：2013/06/15-2013/06/30。
 
-有關詳細資訊，請參閱「[轉換分類](https://marketing.adobe.com/resources/help/en_US/admin/index.html#Conversion%20Classifications)」。
+有關詳細資訊，請參閱「[轉換分類](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
 
 >[!NOTE] 在 2018 年 5 月 10 日的[!DNL Analytics]維護發行中，Adobe 已開始限制日期啟用和數值分類的功能。這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
 
-## 結合使用日期和[!UICONTROL 分類] {#section_966A07B228CD4643B258E73FB8BA150A}
+## Using dates in conjunction with [!UICONTROL classifications] {#section_966A07B228CD4643B258E73FB8BA150A}
 
-可以使用[!UICONTROL 分類]來指派日期範圍給促銷活動或其他轉換[!UICONTROL 分類]，以便進行更精確的促銷活動測量。指定值的日期範圍後，發生在日期範圍以外的任何相符值都不會予以分類。如果想採用促銷活動的確實上線日期 (而非符合促銷活動的所有點擊) 來進行促銷活動測量，這個方法會很有用。為了成功分類某個日期範圍的值，必須符合下列條件：
+[!UICONTROL Classifications] 可用來指派日期範圍給您的促銷活動或其他轉換，以 [!UICONTROL classifications]便更精確地測量促銷活動。 指定值的日期範圍後，發生在日期範圍以外的任何相符值都不會予以分類。如果想採用促銷活動的確實上線日期 (而非符合促銷活動的所有點擊) 來進行促銷活動測量，這個方法會很有用。為了成功分類某個日期範圍的值，必須符合下列條件：
 
-* [!UICONTROL 分類]必須根據轉換變數。
-* 使用的[!UICONTROL 分類]必須設定為「啟用日期」或「數值 2」。
+* The [!UICONTROL classification] must be based on a conversion variable.
+* The [!UICONTROL classification] used must be set as Date-Enabled or Numeric 2.
 * 相關的日期範圍必須包含開始日期和 (可選) 結束日期。
 
 若要根據日期範圍來分類促銷活動：
 
 1. 登入 [!DNL Analytics] 並前往「管理員 > 分類」。
-1. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]**&#x200B;標籤，確定啟用日期的分類設定正確，然後按一下「匯出檔案」。
+1. Click the **[!UICONTROL Browser Export]** tab, ensure the settings to your date-enabled classification are correct, then click Export File.
 1. 在 Microsoft Excel 或您熟悉的其他試算表編輯器中開啟檔案。
 1. 其中一欄結尾會是
 
