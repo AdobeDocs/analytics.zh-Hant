@@ -3,7 +3,7 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics檔案儲存庫的重要更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 ---
 
@@ -20,6 +20,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
+| 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs的檔案](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html)。 |
 | 2020 年 2 月 25 日 | 已新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
 | 2020 年 2 月 18 日 | 已新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
 | 2020 年 2 月 12 日 | 行銷管道檔案的更 [新和重組](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
