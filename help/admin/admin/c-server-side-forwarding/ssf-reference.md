@@ -3,7 +3,7 @@ description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊�
 title: 伺服器端轉送資料和程式碼參考
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 設定變數 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://marketing.adobe.com/resources/help/en_US/aam/c_compcollect.html) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
+前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 參數 | 說明 |
 |--- |--- |
@@ -40,7 +40,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 客戶定義的訊號 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-前置詞為 `c_` 的參數可識別客戶定義的變數。另請參閱 [DCS API 呼叫的支援屬性](https://marketing.adobe.com/resources/help/en_US/aam/dcs-keys.html)。
+前置詞為 `c_` 的參數可識別客戶定義的變數。另請參閱 [DCS API 呼叫的支援屬性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 訊號 | 說明 |
 |--- |--- |
