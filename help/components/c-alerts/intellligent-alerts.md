@@ -3,7 +3,7 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -25,19 +25,19 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
 * 建立在單一警報中擷取多個量度的「堆疊」警報.
 
-新警報系統的元件包括：警報產生器、警報管理器、警報預覽和更理想的內容感知存取建立警報方式。舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊型警報功能[不再提供使用](https://marketing.adobe.com/resources/help/zh_TW/sc/user/deprecated_alerts.html)。
+新警報系統的元件包括：警報產生器、警報管理器、警報預覽和更理想的內容感知存取建立警報方式。舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊型警報功能[不再提供使用](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/alerts.html)。
 
 取得「警報產生器」有四種方式：
 
 * 在 Analysis Workspace 中使用下列快速鍵：
 
    `ctrl (or cmd) + shift + a`
-* 直接前往「警報產生器」：「**[!UICONTROL 工作區]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
-* 選取一或多個自由表格行項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。如此會開啟「警報產生器」並從表格套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
+* 直接前往警報產生器： **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]** 。
+* By selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 如此會開啟「警報產生器」並從表格套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
 
    ![](assets/create-alert-from-selection.png)
 
-* 在 [!UICONTROL Reports &amp; Analytics] 報表中，前往&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。如此會開啟新的「警報產生器」，並從報表套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
+* 從報表 [!UICONTROL Reports & Analytics] 內，前往 **[!UICONTROL More]** > **[!UICONTROL Add Alert]** 。 如此會開啟新的「警報產生器」，並從報表套用的適當量度和篩選器預先填入產生器。接著您可以視需要編輯警報。
 
    ![](assets/add-alert.png)
 
@@ -73,7 +73,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：我能否取得包含虛線的「預期值」表格 (或某種顯示相關數值的輸出資料)？</b> </p> </td> 
-   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。其偵測方式採用固定的 30 天培訓期間、固定 95% 區間，並與 <a href="https://marketing.adobe.com/resources/help/zh_TW/reference/anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 異常偵測</a>的偵測方式相似。 </p> </td> 
+   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請參見此影片：<a href="https://www.youtube.com/watch?v=-a-8W6GQZnU"  >Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。其偵測方式採用固定的 30 天培訓期間、固定 95% 區間，並與 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/layout/t-anomaly.html"  ><span class="uicontrol"></span>Reports &amp; Analytics 異常偵測</a>的偵測方式相似。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
