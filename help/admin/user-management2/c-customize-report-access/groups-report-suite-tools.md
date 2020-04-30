@@ -6,7 +6,7 @@ title: 自訂報表套裝工具權限
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 0bf00f990a34768b93cef5d57a126ebe93087e91
+source-git-commit: 47f7ce6f07aeb0eab81181b7be7b5ad773873cca
 
 ---
 
@@ -43,27 +43,27 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [帳戶摘要](/help/admin/admin/general-acct-settings-admin.md) | 授予編輯報表套裝之帳戶設定的權限。 |
 | [URL 篩選器](/help/admin/admin/internal-url-filter-admin.md) | 授予報表套裝中內部 URL 篩選器的權限。內部 URL 篩選器可用來判斷哪些反向連結或反向連結頁面屬於網站內部。 |
 | [自訂日曆](/help/admin/admin/custom-calendar.md) | 授予編輯自訂日曆的權限。 |
-| [付費搜尋](https://marketing.adobe.com/resources/help/zh_TW/reference/paid_search_detection.html) | 「付費搜尋偵測」可區分「搜尋引擎」與「搜尋關鍵字」報表中的付費與免費搜尋。 |
+| [付費搜尋](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html) | 「付費搜尋偵測」可區分「搜尋引擎」與「搜尋關鍵字」報表中的付費與免費搜尋。 |
 | [功能表自訂](/help/admin/admin/customize-menus.md) | 自訂使用者在「Reports &amp; Analytics」中所見的報表功能表。 |
 | [即時報表設定](/help/admin/admin/realtime/t-realtime-admin.md) | 設定即時報表分析的權限。 |
 | [影片設定](/help/admin/admin/video-management.md) | 可指定一組要用來追蹤及報告影片相關資料的自訂轉換變數 (eVar) 與自訂事件的權限。 |
-| [影片分類](https://marketing.adobe.com/resources/help/zh_TW/sc/appmeasurement/video/video_config.html) | 可指定一組要用來追蹤及報告影片相關資料的自訂轉換變數 (eVar) 與自訂事件的權限。 |
+| [影片分類](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) | 可指定一組要用來追蹤及報告影片相關資料的自訂轉換變數 (eVar) 與自訂事件的權限。 |
 | [流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md) | 可將自訂資料與特定的流量相關事件產生關連的權限。 |
 | [流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
-| [頻道](https://marketing.adobe.com/resources/help/zh_TW/mchannel/index.html) | 授予「報表套裝管理器 > 編輯設定 > 行銷管道」中行銷管道設定的權限。 |
-| [成本](https://marketing.adobe.com/resources/help/zh_TW/mchannel/c_overview_budget.html) | 啟用報表套裝管理器中「行銷管道 > 行銷管道成本」的權限。 |
+| [頻道](/help/components/c-marketing-channels/analyze-mc.md) | 授予「報表套裝管理器 > 編輯設定 > 行銷管道」中行銷管道設定的權限。 |
+| [成本](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/analyze-mc.html) | 啟用報表套裝管理器中「行銷管道 > 行銷管道成本」的權限。 |
 | [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) | 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。 |
 | [尋找方法](/help/admin/admin/finding-methods.md) | 可讓您識別不同的尋找方法報表如何接收網站上轉換成功事件的評分。 |
 | [轉換分類](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
-| [不重複訪客](https://marketing.adobe.com/resources/help/zh_TW/reference/t_unique_visitor_variable.html) | 授予指定獨特訪客變數的權限。 |
-| [成功事件](https://marketing.adobe.com/resources/help/zh_TW/reference/success_event.html) | 可以追蹤的動作，例如產品檢視、結帳和購買。 |
+| [不重複訪客](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 授予指定獨特訪客變數的權限。 |
+| [成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html) | 可以追蹤的動作，例如產品檢視、結帳和購買。 |
 | [分類階層](/help/components/c-classifications2/classification-hierarchies.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
-| [清單變數 ](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/listN.html) | 也稱為清單變數 (List Var)。清單變數的運作方式與清單 Prop 類似，也允許相同影像要求中可有多個值。 |
+| [清單變數 ](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) | 也稱為清單變數 (List Var)。清單變數的運作方式與清單 Prop 類似，也允許相同影像要求中可有多個值。 |
 | [預設量度](/help/admin/admin/default-metrics.md) | 若使用者未選取自訂量度集，則「Reports &amp; Analytics」在所有轉換報表中都會顯示預設量度集。所選定量度會顯示給相關報表套裝的所有使用者。 |
-| [處理規則](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/ref-processing-rules.html) | 授予對「處理規則」的存取權限，可簡化資料收集，以及管理傳送至報表的內容。 |
+| [處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/processing-rules/processing-rules.html) | 授予對「處理規則」的存取權限，可簡化資料收集，以及管理傳送至報表的內容。 |
 | **工具和報表** |  |
-| [異常偵測](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/anomaly_detection.html) | 授予對異常偵測的權限，其提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 |
-| [頻道報表](https://marketing.adobe.com/resources/help/zh_TW/mchannel/index.html) | 授予對可以在「報表 > 行銷管道報表」中找到的行銷管道報表的權限。 |
+| [異常偵測](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 授予對異常偵測的權限，其提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 |
+| [頻道報表](/help/components/c-marketing-channels/analyze-mc.md) | 授予對可以在「報表 > 行銷管道報表」中找到的行銷管道報表的權限。 |
 | [即時報表](/help/admin/admin/realtime/t-realtime-admin.md) | 授予對即時報表的存取。 |
 | [機器人頁面](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人頁面是用於特定的「報告與分析」報表，而非用於管理機器人規則。 目前，沒有允許編輯機器人規則的權限。**&#x200B;機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
 | [機器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人適用於特定的「報告與分析」報表，而非用於管理機器人規則。 目前，沒有允許編輯機器人規則的權限。** 機器人程式可讓您移除報表套裝中由已知編目程式和機器人程式產生的流量。 移除機器人流量可以提供網站上更準確的使用者活動測量。 |
@@ -74,11 +74,11 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | 舊版 ClickMap | 授予對舊版 ClickMap 覆蓋工具功能表的存取。 |
 | 舊版 Clickmap 安裝 | 授予對舊版 ClickMap 工具的安裝權限。 |
 | [回訪](/help/components/c-variables/dimensionslist/reports-return-visits.md) | 此報告會顯示瀏覽次數大於 1 的瀏覽數。「回訪報告」會包含非 Cookie 訪客。 |
-| [分類匯入程式](https://marketing.adobe.com/resources/help/zh_TW/reference/c_working_with_saint.html)/匯出程式和[規則產生器](https://marketing.adobe.com/resources/help/zh_TW/reference/classification_rule_builder.html) | 合併在「分類」中 (請參閱以下內容)。 |
+| [分類匯入程式](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html)/匯出程式和[規則產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | 合併在「分類」中 (請參閱以下內容)。 |
 | 資料摘要管理員 | 授予權限至Analytics 資料摘要。 |
 | 分類 | 結合下列權限：「流量分類」、「視訊分類」、「轉換分類」、「分類階層」、「分類管理員」和「分類匯入/匯出工具與規則產生器」。注意：透過此權限，使用者可編輯所有報表套裝的分類，而不僅僅只有選取的套裝。 |
-| [貢獻分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/contribution-analysis.html) | 在 Analysis Workspace 中授予使用「貢獻分析」的權限。 |
+| [貢獻分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html) | 在 Analysis Workspace 中授予使用「貢獻分析」的權限。 |
 | **控制面板項目** |  |
-| 控制面板項目中的設定可讓您存取「Reports &amp; Analytics 」中的[報表](https://marketing.adobe.com/resources/help/zh_TW/sc/user/dashboard.html)：我的建議報表、公司摘要報表、影像、KPI/量規報表、報表套裝總計、文字、小報表、使用摘要報表和網頁資源 |  |
+| 控制面板項目中的設定可讓您存取「Reports &amp; Analytics 」中的[報表](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html)：我的建議報表、公司摘要報表、影像、KPI/量規報表、報表套裝總計、文字、小報表、使用摘要報表和網頁資源 |  |
 | **其他** |  |
 | 社交 | 控制對報表套裝管理器中社交管理功能表的存取權限。 |
