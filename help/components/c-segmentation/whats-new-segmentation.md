@@ -3,7 +3,7 @@ description: Adobe Analytics 劃分的新功能。
 title: Analytics 劃分新增功能
 uuid: ac53e984-9af5-4536-8105-345d78cc5653
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -73,7 +73,7 @@ Adobe Analytics 劃分的新功能。
    <td colname="col2"> <p>在「within」子句裡，您可以在「THEN」陳述式之間加入「within 1 search keyword instance」、「within 1 eVar 47 instance」之類的文字。這樣會將區段限制在某個維度的一個例項內。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Analysis Workspace：<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/fallout_flow.html"  >在流失分析使用區段 </a> </p> </td> 
+   <td colname="col1"> <p>Analysis Workspace：<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html"  >在流失分析使用區段 </a> </p> </td> 
    <td colname="col2"> <p>在 Analysis Workspace 裡，您可以從接觸點建立區段，新增區段做為接觸點，以及在各種區段間比較關鍵工作流程。 </p> </td> 
   </tr> 
  </tbody> 
@@ -104,7 +104,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analysis Workspace &gt; 區段比較 </p> </td> 
-   <td colname="col2"> <p> Analysis Workspace 中的<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/segment-comparison.html"  >「區段比較」</a> (區段 IQ) 面板可讓客戶快速比較任意兩個 Analytics 區段，以找出兩者在所有資料點中最明顯的差異。 </p> </td> 
+   <td colname="col2"> <p> Analysis Workspace 中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html"  >「區段比較」</a> (區段 IQ) 面板可讓客戶快速比較任意兩個 Analytics 區段，以找出兩者在所有資料點中最明顯的差異。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,7 +119,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 建立區段</span>權限 </p> </td> 
-   <td colname="col2"> <p>如果使用者沒有<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html"  >「建立區段」權限</a>，他們將不能存取「區段產生器」。 </p> </td> 
+   <td colname="col2"> <p>如果使用者沒有<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html"  >「建立區段」權限</a>，他們將不能存取「區段產生器」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -168,7 +168,7 @@ Adobe Analytics 劃分的新功能。
  <tbody> 
   <tr> 
    <td colname="col1"> <p>區段產生器的權限變更 </p> </td> 
-   <td colname="col2"> <p>管理員用戶可以限制哪些用戶能建立新區段。依預設，所有使用者均可建立區段。<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html"  > 更多...</a> </p> </td> 
+   <td colname="col2"> <p>管理員用戶可以限制哪些用戶能建立新區段。依預設，所有使用者均可建立區段。<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html"  > 更多...</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
