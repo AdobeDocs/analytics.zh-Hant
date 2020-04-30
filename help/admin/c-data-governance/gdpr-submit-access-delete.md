@@ -3,7 +3,7 @@ description: 'null'
 title: 提交存取與刪除請求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 管理消費者許可 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-身為資料控管單位，在收集有關資料主體的資料 (可能包括 Adobe Analytics 資料) 之前，您有責任取得他們的明確同意，也必須負責在網站上[實行退出機制](https://marketing.adobe.com/resources/help/zh_TW/dtm/opt-in.html)。這可讓您的資料主體退出未來的 Adobe Experience Cloud 資料收集。
+身為資料控管單位，在收集有關資料主體的資料 (可能包括 Adobe Analytics 資料) 之前，您有責任取得他們的明確同意，也必須負責在網站上[實行退出機制](https://docs.adobe.com/content/help/en/dtm/using/tools/opt-in.html)。這可讓您的資料主體退出未來的 Adobe Experience Cloud 資料收集。
 
 ## 驗證使用者和其資料 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
