@@ -3,7 +3,7 @@ description: 'null'
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 translation-type: tm+mt
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -28,8 +28,8 @@ source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
 * 如果選取某個範圍中的儲存格，會比較該範圍第一個與最後一個選取的儲存格。
 * 如果選取欄，會就第一個值的本身進行比較，顯示變更為 0。
 * 摘要變更的綠紅顏色可以透過以下方式控制：
-   * [自訂事件極性](https://marketing.adobe.com/resources/help/zh_TW/reference/success_event.html)。
-   * 計算量度的[「將向上趨勢顯示為」](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/cm_build_metrics.html)選項。
+   * [自訂事件極性](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)。
+   * 計算量度的[「將向上趨勢顯示為」](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)選項。
 
 ## 摘要變更設定 {#section_2581AC0107634FB4990AB8347E5897AA}
 
