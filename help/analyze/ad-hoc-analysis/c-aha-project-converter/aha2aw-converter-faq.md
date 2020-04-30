@@ -3,7 +3,7 @@ description: 'null'
 title: 專案轉換工具常見問題集
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -50,9 +50,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col2"> <p>答：請注意，圖表和圖形在 Workspace 中統稱為「視覺效果」。 </p> 
     <ul id="ul_597F5AB826EF434295D0CABD0313CAD5"> 
      <li id="li_AFB2805418034721A9519D999128C0A8"><b>設定</b>：Workspace 不支援「項目數」或「長條數目」之類的視覺效果設定。 </li> 
-     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>圓餅圖</b>：匯出為<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/donut.html"  >環形圖</a>視覺效果。Workspace 中的這個視覺效果限制為 19 個區段。 </li> 
-     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>泡泡圖</b>：匯出為<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/scatterplot.html"  >散點圖</a>視覺效果。根據預設，散點圖會在 X 軸上繪製第一個量度，並在 Y 軸上繪製第二個量度。如果只有一個量度，泡泡圖會轉換為「折線圖」視覺效果。 </li> 
-     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>色階分佈圖</b>：在 Workspace 與 Ad Hoc Analysis 中支援不同的分段邏輯。因此，這會轉換為<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/bar.html"  >長條圖</a>視覺效果。 </li> 
+     <li id="li_D5C7EA8815344EDB8585CBB8E1AF583E"><b>圓餅圖</b>：匯出為<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/donut.html"  >環形圖</a>視覺效果。Workspace 中的這個視覺效果限制為 19 個區段。 </li> 
+     <li id="li_91659FBFD77C4B3393D78447D658B7B4"><b>泡泡圖</b>：匯出為<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/scatterplot.html"  >散點圖</a>視覺效果。根據預設，散點圖會在 X 軸上繪製第一個量度，並在 Y 軸上繪製第二個量度。如果只有一個量度，泡泡圖會轉換為「折線圖」視覺效果。 </li> 
+     <li id="li_FA05085FFB1747EBAF63616AC2B8D59C"><b>色階分佈圖</b>：在 Workspace 與 Ad Hoc Analysis 中支援不同的分段邏輯。因此，這會轉換為<a href="https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/bar.html"  >長條圖</a>視覺效果。 </li> 
      <li id="li_959499D20796459CA0F6BBC8F0A8D808"><b>散點圖</b>：在 Analysis Workspace 的匯出專案中，Y 軸會設為第一欄，X 軸會設為第二欄，而直徑則是第三欄。 </li> 
      <li id="li_14E06D7A5106405A89A07B44FFD9A92D"><b>流失表格</b>：若要顯示流過或流失表格，請以滑鼠右鍵按一下查核點，然後選取劃分選項。 </li> 
      <li id="li_240F43C386F04111A7632A8FCA37832C"><b>流失報表層級資料範圍</b>：尚未將自訂的報表日期範圍套用到「流失」視覺效果。 </li> 
@@ -68,7 +68,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_AE61DAEC5C0047349DD192EFEEDB0BF9">Ad Hoc Analysis 工作區層級的區段會套用在 Workspace 中的專案/工作區層級。 </li> 
      <li id="li_B1559E2C18724FE189AF87D0BEF16811">Ad Hoc Analysis 報表層級的區段會套用在 Workspace 中的表格欄層級。 </li> 
      <li id="li_0E6DF6D44EA448A4A212BA2BB8E342CF">Ad Hoc Analysis 表格區段會套用在 Workspace 中的欄層級。 </li> 
-    </ul> <p>您可以在<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/"  >區段產生器</a>中編輯區段。 </p> </td> 
+    </ul> <p>您可以在<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html"  >區段產生器</a>中編輯區段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：如何轉換日期範圍？</b> </p> </td> 
@@ -86,7 +86,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
      <li id="li_010572F793F54680ABE64117DAB7E800">計算量度是供匯出的專案內部使用 (非公用)。以滑鼠右鍵按一下量度，然後按一下<span class="uicontrol">「設為公用」</span>，即可選擇將其設為公用。 <p><img placement="inline"  src="assets/calc_metric_internal.png" id="image_EA19BA55B161499CBDB9275A5C94BA90" width="200px" /> </p> </li> 
      <li id="li_930546EC8FEB432C8810FAF93556FC9A">所有類型的計算量度均支援匯出功能。 </li> 
      <li id="li_DFF7C6F8BB2344928D49194DA0F6EC38"><b>配置類型</b>：即使 Analysis Workspace 未明確顯示計算量度的配置類型，匯出仍會產生並符合 Ad Hoc Analysis 中既有的配置類型。 </li> 
-    </ul> <p>您可以按一下編輯圖示 (鉛筆)，在<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/"  >計算量度產生器</a>中編輯配置類型。 </p> </td> 
+    </ul> <p>您可以按一下編輯圖示 (鉛筆)，在<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html"  >計算量度產生器</a>中編輯配置類型。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：Ad Hoc 中的「全域資料設定」 如何套用到轉換的專案？</b> </p> </td> 
@@ -99,10 +99,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   <tr> 
    <td colname="col1"> <p><b>問：如果我的 Ad Hoc Analysis 專案已排定，該排程是否會轉換到 Analysis Workspace？</b> </p> </td> 
    <td colname="col2"> <p>否，不會轉換排程。在 Analysis Workspace 中，開啟您要排定的專案，然後前往<span class="uicontrol">「共用</span> &gt; <span class="uicontrol">依排程傳送檔案」</span>以設定新排程。請務必取消 Ad Hoc Analysis 中已排定的專案。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>問：這兩種工具之間是否有任何命名差異？</b> </p> </td> 
-   <td colname="col2"> <p>答：是。請參閱 Analysis Workspace 文件中的<a href="https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/adhocanalysis_vs_analysisworkspace.html"  >重要術語的比較</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
