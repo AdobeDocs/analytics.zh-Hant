@@ -5,7 +5,7 @@ title: FTP 匯入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
-**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
+**[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
 
 以下是重要的限制建議：
 
@@ -49,9 +49,9 @@ t_upload_a_saint_data_file_via_ftp.xml
 
 如需建立 FTP 帳戶的詳細資訊，請參閱[建立 FTP 帳戶](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
-1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
-1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
-1. 按一下要使用的 FTP 帳戶旁的&#x200B;**[!UICONTROL 「檢視」]**。
+1. 按一下 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. Next to the FTP account that you want to use, click **[!UICONTROL View]**.
 1. 使用您選擇的 FTP 用戶端利用 FTP 存取資訊 (主機、登入、密碼) 存取FTP 伺服器。
 1. 將資料檔案 ([!DNL .tab] 或 [!DNL .txt]) 上傳至 FTP 伺服器。
 1. 上傳資料檔案後，上傳指出檔案已可供處理的 FIN 檔案。
@@ -70,11 +70,11 @@ t_create_an_ftp_account.xml
 
  -->
 
-如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/ftp/)。
+如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://docs.adobe.com/content/help/en/analytics/export/ftp-and-sftp/ftp-overview.html)。
 
-1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
-1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
-1. 在&#x200B;**[!UICONTROL 匯入檔案]**&#x200B;索引標籤中按一下&#x200B;**[!UICONTROL 「新增」]**。
+1. 按一下 **[!UICONTROL Admin]** > **[!UICONTROL Classification Importer]**.
+1. Click **[!UICONTROL Import File]**, then click **[!UICONTROL FTP Import]**.
+1. 在標籤 **[!UICONTROL Import File]** 上，按一下 **[!UICONTROL Add New]**。
 1. 指定 FTP 帳戶詳細資料：
 
    | 元素 | 說明 |
@@ -87,6 +87,6 @@ t_create_an_ftp_account.xml
    | 通知收件者 | 指定要接收關於這個 FTP 帳戶之通知的電子郵件地址。 |
    | 授權 | (必要) 授權 Adobe 以自動匯入傳送到新 FTP 帳戶的所有資料檔案。 |
 
-1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 按一下 **[!UICONTROL Save]**.
 
 建立 FTP 帳戶後，按一下所需的 FTP 帳戶旁的適當連結可編輯或刪除該帳戶。
