@@ -4,7 +4,7 @@ keywords: ftp;sftp
 title: 安全檔案傳輸通訊協定 - 概觀
 uuid: 7dd1a867-e828-4c7b-bf11-75a81d4c149c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -17,7 +17,7 @@ SFTP 是一種傳輸資料的安全通訊協定，可確保除了您以外，其
 
 這表示 Adobe 的伺服器將檔案「推送」至您的伺服器。本質上，我們是將檔案傳遞至您的端點。
 
-[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 和 [ Analytics 資料摘要](https://marketing.adobe.com/resources/help/en_US/reference/analytics-data-feed.html)可透過 SFTP 推送資料。
+[Data Warehouse](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md) 和 [ Analytics 資料摘要](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html)可透過 SFTP 推送資料。
 
 下列 Analytics 工具&#x200B;**無法**&#x200B;透過 SFTP 推送資料：
 
