@@ -5,7 +5,7 @@ title: 瀏覽
 topic: Metrics
 uuid: 91317487-f116-4546-8cd2-421418c49a7a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -34,9 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 瀏覽結束時，含瀏覽過期的所有變數都會過期且不再保存。瀏覽數量度將在該訪客下一次造訪時遞增。
 
->[!NOTE] 如果您將 Analytics 當做 Adobe 的報表來源，請參閱 [ 文件中的](https://marketing.adobe.com/resources/help/zh_TW/target/a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)減少 A4T 中誇大的造訪和訪客計數[!DNL Target]。
+>[!NOTE] 如果您將 Analytics 當做 Adobe 的報表來源，請參閱 [ 文件中的](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/troubleshoot-a4t/minimizing-inflated-visit-and-visitor-counts-a4t.html)減少 A4T 中誇大的造訪和訪客計數[!DNL Target]。
 
-如需詳細資訊，請參閱「Adobe Analytics 實作指南」中的[識別不重複訪客](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/visid_overview.html)。
+如需詳細資訊，請參閱「Adobe Analytics 實作指南」中的[識別不重複訪客](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/visitor-identification.html)。
 
 **時段**
 
