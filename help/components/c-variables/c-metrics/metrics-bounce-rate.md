@@ -4,7 +4,7 @@ title: 反彈率
 topic: Metrics
 uuid: 9a5aba33-c16a-47db-b8d3-f66be6eb65be
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 現有實作有時會包含不同於 Analytics 預設量度的計算量度。請查看計算量度定義，確保沒有任何差異。
 
-如需詳細資訊，請參閱這篇[知識庫文章](https://marketing.adobe.com/resources/help/en_US/home/index.html#kb-analytics-comparing-bounces-and-single-access)。
+如需詳細資訊，請參閱這篇[知識庫文章](https://helpx.adobe.com/analytics/kb/comparing-bounces-and-single-access.html)。
