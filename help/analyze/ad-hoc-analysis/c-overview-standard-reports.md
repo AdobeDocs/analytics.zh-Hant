@@ -4,7 +4,7 @@ title: 報表概觀
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **摘要報表**
 
-包括如[!UICONTROL 總計報表]，顯示專為快速了解而設計的資料。這些報表適合於想要檢視資料一般說明的主管人員。
+Includes reports such as the [!UICONTROL Totals Report], which shows data designed for quick overviews. 這些報表適合於想要檢視資料一般說明的主管人員。
 
 **轉換報告**
 
@@ -58,7 +58,7 @@ c_reports_campaigns.xml
 
  -->
 
-這些報表通常會加以自訂，因此對每個分析人員來說都不一樣。請參閱 [!DNL Admin Console] 說明中的[促銷活動管理員](https://marketing.adobe.com/resources/help/en_US/reference/campaign_manager_admin.html)，了解詳細資訊。
+這些報表通常會加以自訂，因此對每個分析人員來說都不一樣。如需詳細 [資訊，請參閱](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 「管理控制台」說明。
 
 ## 統計計算 {#concept_83FF70DB7895435E985699FE9012D585}
 
@@ -74,12 +74,12 @@ c_Statistical_Calculation_ad_hoc.xml
 
 **若要開啟排名報表的統計計算：**
 
-1. 從功能表選取「**[!UICONTROL 工具]** > **[!UICONTROL 排名]**」。
+1. Select **[!UICONTROL Tools]** > **[!UICONTROL Ranked]** from the menu.
 
-1. 選取「**[!UICONTROL 設定]**」。
-1. 選取「**[!UICONTROL 預設統計]**」。
+1. 選擇 **[!UICONTROL Settings]**.
+1. 選擇 **[!UICONTROL Default Statistics]**.
 
-**[!UICONTROL 忽略統計計算中的零]**。選取此選項可忽略零，確保新增其他量度並不會變更已計算的平均值。所有統計資料都受此設定影響 (但對「總計」沒有影響)。
+**[!UICONTROL Ignore zeros in statistical calculations]**。選取此選項可忽略零，確保新增其他量度並不會變更已計算的平均值。所有統計資料都受此設定影響 (但對「總計」沒有影響)。
 
 | 計算 | 說明 |
 |--- |--- |
@@ -141,15 +141,15 @@ c_overlay_calculations.xml
 
  -->
 
-在識別一段時間內資料的報表中，「**[!UICONTROL 統計]**」按鈕能讓您選取可顯示為跨越報表時間表之覆蓋圖的計算式。
+In a report that identifies data over a period of time, the **[!UICONTROL Statistics]** button lets you select calculations that will display as overlays across the report time line.
 
 ![](assets/overlay_calculations.png)
 
-除了標準[統計計算](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585)，您還可以在覆蓋圖中選取第一、第二和第三標準差。
+In addition to standard [Statistical Calculations](/help/analyze/ad-hoc-analysis/c-overview-standard-reports.md#concept_83FF70DB7895435E985699FE9012D585), you can select the 1st, 2nd, and 3rd standard deviations in the overlays.
 
 ## 群組管理器 {#concept_E1433974A61144858E87334C006982B2}
 
-與其在報表中使用單一頁面，您可以將多個頁面組成群組，再以類別方式作為[!UICONTROL 流失]和[!UICONTROL 站點分析]報表中的開始、中間和目的地位置使用。您可以從主功能表，或從報表內編輯群組。您在 Marketing Reports &amp; Analytics 中已建立的類別，也會出現在[!UICONTROL 「查核點選擇器」]清單中。
+Rather than using a single page in a report, you can group multiple pages and use them as categories for starting, intermediate, or destination location in the [!UICONTROL Fallout] and [!UICONTROL Site Analysis] reports. 您可以從主功能表，或從報表內編輯群組。Categories that you have created in marketing reports and analytics also appear in the [!UICONTROL Checkpoint Selector] list.
 
 <!-- 
 
@@ -157,4 +157,4 @@ c_groups.xml
 
  -->
 
-按一下&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 群組管理器]**。
+按一下 **[!UICONTROL Tools]** > **[!UICONTROL Group Manager]**.
