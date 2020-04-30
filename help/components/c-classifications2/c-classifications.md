@@ -5,7 +5,7 @@ title: 關於分類
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -16,13 +16,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 「[Analytics 分類](https://video.tv.adobe.com/v/16853/?captions=chi_hant)」的影片概述。
 
-**[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > *`<Traffic or Conversion>`*
+**[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL Edit Settings]** > *`<Traffic or Conversion>`*
 
 您在分類時，建立變數和與該變數相關之中繼資料間的關係。分類最常在促銷活動中使用。可以將中繼資料套用到變數中收集的值，以彙總使用變數 (eVar、prop 和事件) 資訊收集的資料。
 
 ![步驟資訊](assets/sub_class_create.png)
 
-分類後，透過代碼資料產生的任何報告，亦可透過相關聯的屬性產生。例如，您可以使用其他的產品屬性將「[!UICONTROL 產品 ID]」分類，例如產品名稱、顏色、大小、說明和 SKU。利用其他屬性加強 Reports &amp; Analytics 資料可提供更深和更複雜的報告機會。
+分類後，透過代碼資料產生的任何報告，亦可透過相關聯的屬性產生。For example, you can classify [!UICONTROL Product IDs] with additional product attributes, such as product name, color, size, description, and SKU. 利用其他屬性加強 Reports &amp; Analytics 資料可提供更深和更複雜的報告機會。
 
 >[!IMPORTANT]
 >
@@ -38,7 +38,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Reports &amp; Analytics 包含追蹤程式碼變數預先定義分類，提供以分類為基礎的報告，名為「創作元素與促銷活動」。您必須以手動方式為其他所有轉換和流量變數設定分類。
 
-請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://marketing.adobe.com/resources/help/zh_TW/reference/conversion_classifications.html)」。
+請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
 
 下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱[一般檔案結構](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
