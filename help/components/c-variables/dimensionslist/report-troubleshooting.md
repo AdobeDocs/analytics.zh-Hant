@@ -5,7 +5,7 @@ title: 報告最佳實務與疑難排解
 topic: Reports
 uuid: d4eef0a3-1d26-4460-8a2b-962001c9f846
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,10 +14,10 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 
 Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。大部分報告都能迅速產生，但您仍可能遇到報告逾時或無法成功產生的問題。為了協助避免報告無法產生，本區段說明會影響報告產生速度的眾多因素。了解這些資訊有助於建構能夠成功產生的報告。
 
->[!Note]
+>[!NOTE]
 >這些建議適用於 Reports &amp; Analytics、Ad Hoc Analysis 以及 Report Builder，
->但不適用於 Analysis Workspace，Analysis Workspace 有其專屬的一套[最佳實務](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。這些建議也不適用於 Data Warehouse [最佳實務](https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse_bp.html)。此外，
->[Adobe Analytics Reporting API 有另一套最佳實務](https://marketing.adobe.com/developer/en_US/get-started/best-practices/c-best-practices)可使用。
+>但不適用於 Analysis Workspace，Analysis Workspace 有其專屬的一套[最佳實務](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。這些建議也不適用於 Data Warehouse [最佳實務](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)。此外，
+>[Adobe Analytics Reporting API 有另一套最佳實務](https://www.adobe.io)可使用。
 
 ## 報告逾時和請求佇列 {#section_A42AD7E487C749B7B879BAFA814FFEF9}
 
