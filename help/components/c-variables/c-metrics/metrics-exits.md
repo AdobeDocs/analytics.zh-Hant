@@ -4,7 +4,7 @@ title: 退出點
 topic: Metrics
 uuid: cd5436ef-65d3-431b-a24f-aceff8542c50
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 指定的值在瀏覽中是被擷取的最後一個值之次數。退出點在每次瀏覽中只能發生一次。
 
-退出頁面有瀏覽劃分範圍，代表它們持續存在於一次瀏覽的所有點擊間。有關詳細資訊，請參閱[劃分和分段容器](https://marketing.adobe.com/resources/help/en_US/sc/user/c_Breakdown_and_segmentation_containers.html)。
+退出頁面有瀏覽劃分範圍，代表它們持續存在於一次瀏覽的所有點擊間。有關詳細資訊，請參閱[劃分和分段容器](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-overview.html)。
 
 退出點在套用到維度時，以瀏覽的最後一個值來計算次數，這可能會在瀏覽期間的任一點擊時發生。如果最後點擊的位置不具任何值，退出點就會歸屬為最新值。
 
