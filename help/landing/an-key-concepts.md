@@ -2,7 +2,7 @@
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | Reports &amp; Analytics (前稱為 SiteCatalyst) | 用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。 | [Reports &amp; Analytics 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | 可讓您從 Adobe Analytics 資料建立自訂請求，並使用 Microsoft Excel 加以視覺化的 Excel 增益集。 | [Report Builder 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis (前稱為 Discover) | 進階數位分析的 Java 型工具。 | [Ad Hoc Analysis 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
-| Data Workbench (前稱為 Insight) | 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動情形。 | [Data Workbench 用戶端](https://marketing.adobe.com/resources/help/en_US/insight/client/) |
+| Data Workbench (前稱為 Insight) | 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動情形。 | [Data Workbench 用戶端](https://docs.adobe.com/content/help/en/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 用於儲存和自訂報表的原始、未處理資料複本，可供您透過篩選資料的方式來執行。非點擊層級。 | [Data Warehouse 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html) |
 | Adobe Mobile Services | 將整個 Adobe Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與應用程式的互動。 | [Mobile Services 首頁](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html) |
 | Adobe Exchange Data Connectors (前身為 Genesis) | 從第三方應用程式匯入追蹤資料至 Analytics，以便在同一中央位置呈現端對端的效能資訊。 | [Data Connectors 首頁](https://marketing.adobe.com/developer/documentation/genesis/c-overview-how-it-works) |
@@ -48,7 +48,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 報表 | 說明 | 文件連結 |
 |--- |--- |--- |
-| 維度/報表完整清單 | Adobe Analytics 中所有可用維度/報表的定義。 | [維度](https://marketing.adobe.com/resources/help/en_US/reference/reports_descriptions.html) |
+| 維度/報表完整清單 | Adobe Analytics 中所有可用維度/報表的定義。 | [維度](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html) |
 | Advertising Analytics | 在 Adobe Analytics 中以並排方式分析所有 Google 和 Bing 付費搜尋資料。透過廣告平台、關鍵字、比對類型等整合項目建立維度。所建立的量度為 AMO 曝光、AMO 點擊、AMO 成本、平均排名和平均品質分數。 | [Advertising Analytics](https://docs.adobe.com/help/zh-Hant/analytics/integration/advertising-analytics/overview.html) |
 | Audience Analytics | 透過 AAM 中使用者的對象成員資格，使傳入的 Analytics 點擊更為豐富。您可以在 Analytics 工作流程中納入 (AAM) 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料或廣告曝光資料。透過這項整合建立的維度為對象 ID與對象名稱。 | [Audience Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/integration/audience-analytics/mc-audiences-aam.html) |
 | 歸因 IQ | 可讓您了解如何在客戶歷程中進行有意義的參與，聰明地找出將客戶導向目標結果的轉折點，並有效提升行銷活動的效能。可用模型包括初次、最後一次、線性、參與率、J 形、反向 J 形、U 形、同一次接觸、自訂和時間耗損。 | [歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution.html) |
@@ -81,8 +81,8 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 | 選項 | 說明 | 文件連結 |
 |---|---|---|
-| 分類匯入工具 | 透過瀏覽器或 FTP 上傳，根據擷取的維度匯入中繼資料。相較於規則產生器，此為手動方式。 | [分類匯入工具](https://marketing.adobe.com/resources/help/zh_TW/reference/c_working_with_saint.html) |
-| 規則產生器 | 根據使用者定義規則，自動建立維度的中繼資料分類。 | [分類規則產生器](https://marketing.adobe.com/resources/help/zh_TW/reference/classification_rule_builder.html) |
+| 分類匯入工具 | 透過瀏覽器或 FTP 上傳，根據擷取的維度匯入中繼資料。相較於規則產生器，此為手動方式。 | [分類匯入工具](https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html) |
+| 規則產生器 | 根據使用者定義規則，自動建立維度的中繼資料分類。 | [分類規則產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) |
 | 客戶屬性 | 上傳至 Experience Cloud 供 Adobe Analytics 和 Adobe Target 使用的 CRM 資料。 | [客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html) |
 | 資料來源 | 可根據維度或僅依日期匯入離線量度至 Analytics。 | [資料來源](https://docs.adobe.com/content/help/zh-Hant/analytics/import/data-sources/datasrc-home.html) |
 | Adobe Exchange Data Connectors | 請參閱 [Analytics 工具](/help/landing/an-key-concepts.md) |  |
@@ -107,7 +107,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | App Measurement (s_code) | 全域變數管理 | [AppMeasurement](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html) |
 | 應用程式 SDK | 可自訂套裝，包含應用程式設定檔的預先填入版本。 | <ul><li>[iOS 應用程式](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/overview.html)</li><li>[Android](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | DTM 和 Adobe Launch | 請參閱 Analytics 工具。 |  |
-| VISTA | 可讓您套用伺服器端邏輯，以便在收集資料時變更或分段資料。 | [VISTA 規則](https://marketing.adobe.com/resources/help/en_US/reference/VISTA.html) |
+| VISTA | 可讓您套用伺服器端邏輯，以便在收集資料時變更或分段資料。 | [VISTA 規則](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/processing-rule-order.html) |
 | 處理規則 | 能夠在 Analytics UI 中設定、修改與複製變數，以便變更所收集的資料。 | [處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/processing-rules/processing-rules.html) |
 | 除錯工具選項 | 具備數個除錯程式和封包 Sniffer 可協助驗證您的實作情形，其中包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=tw) |
 | 資料插入 API | 資料插入 API 提供的機制，可用於伺服器端資料收集與將資料提交至 Experience Cloud 伺服器。伺服器端資料收集僅會根據網站瀏覽器的要求和網站伺服器的回應收集資料，不會使用每個網頁上的 JavaScript 信標來將訪客資料傳輸至 Experience Cloud 伺服器。 | [透過 POST 實作 Adobe Analytics 資料插入 API 的步驟](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
