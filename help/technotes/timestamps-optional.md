@@ -5,7 +5,7 @@ title: 使用可選時間戳記
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE]針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
 
-如需其他的設定資訊，請參閱[可選時間戳記](https://marketing.adobe.com/resources/help/zh_TW/reference/timestamp-optional.html)。
+如需其他的設定資訊，請參閱[可選時間戳記](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/timestamp-optional.html)。
 
 ## 可選時間戳記: 整合了時間戳記與非時間戳記資料 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -62,7 +62,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    順序錯誤的資料包括來自離線資料收集的遲到資料和遲到點擊，或離線行動裝置上的不同步時鐘。順序錯誤的資料會影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
-* 不建議在設定 [s.visitorID](https://marketing.adobe.com/resources/help/en_US/sc/implement/visid_custom.html) 時使用時間戳記。這可能會造成資料順序錯誤。
+* 不建議在設定 [s.visitorID](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/visitor-identification.html) 時使用時間戳記。這可能會造成資料順序錯誤。
 
 * 由應用程式 (有時間戳記的離線資料) 開啟網路瀏覽器 (非時間戳記的即時資料) 組成的混合應用程式不應使用時間戳記。這會導致錯誤報告作業階段。
 
