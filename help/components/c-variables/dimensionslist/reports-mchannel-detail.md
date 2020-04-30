@@ -2,7 +2,7 @@
 title: 行銷渠道詳情——首次接觸和上次接觸
 description: 將成功度量和收入分配至不同的渠道詳細資訊，而不考慮其所在的整體渠道。
 translation-type: tm+mt
-source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
 
 * 此報告依行銷管道中定義的規則而執行。請參閱[管道和規則](/help/components/c-marketing-channels/c-channels.md)。
 
-   尤其是，報告使用每個規則的&#x200B;**[!UICONTROL 「設定該管道的值為」]**&#x200B;部分。變更這些規則或管道值的設定方式，會變更此報告中資料的計算方式。如需詳細資訊，請參閱行銷管道處理規則[常見問題解答](/help/components/c-marketing-channels/c-faq.md)。
+   具體而言，報表會使用每 **[!UICONTROL Set the channel's value to]** 個規則的一部分。 變更這些規則或管道值的設定方式，會變更此報告中資料的計算方式。如需詳細資訊，請參閱行銷管道處理規則[常見問題解答](/help/components/c-marketing-channels/c-faq.md)。
 
 * Differences between *First* and *Last Touch* are located in [About Marketing Channel Reports](/help/components/c-marketing-channels/analyze-mc.md).
 
@@ -32,4 +32,4 @@ source-git-commit: 5bb107f22490bb9e092292367c51df4eafd43ba4
    * 所有標準電子商務量度：收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等。
    * 所有自訂事件：事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100。
    * 瀏覽與訪客：是否可用須視組織與報表套裝而定。請洽詢您的客戶經理，以取得詳細資訊。
-   請參閱[!UICONTROL 行銷管道]說明中的[量度](https://marketing.adobe.com/resources/help/zh_TW/mchannel/c_overview_metrics.html)。
+   See [Metrics](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html) in [!UICONTROL Marketing Channel] Help.
