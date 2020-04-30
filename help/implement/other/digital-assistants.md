@@ -2,18 +2,12 @@
 title: 對數位助理實施 Analytics
 description: 在數位助理 (例如 Amazon Alexa 或 Google首頁) 上實施 Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: d970f2428e24c0747ae9cac9b832d506a0b13854
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # 對數位助理實施 Analytics
-
-<!-- 
-https://wiki.corp.adobe.com/display/mobileanalytics/Analytics+for+Digital+Assistants+Whitepaper
-https://marketing.adobe.com/resources/help/en_US/sc/implement/digital-assistants-white-paper.html
-Ticket: https://jira.corp.adobe.com/browse/AN-157750
--->
 
 由於近期雲端運算、機器學習和自然語言處理等領域突飛猛進，數位助理已成為日常生活的一部分。消費者開始與他們的裝置交談，期待裝置能像人一樣理解和回應。隨著這些平台變得愈加成熟，品牌便可以同樣真實與擬真的方式，向消費者展現其服務。舉例來說，消費者可能問這樣問：
 
