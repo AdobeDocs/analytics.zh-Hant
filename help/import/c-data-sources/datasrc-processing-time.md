@@ -3,14 +3,14 @@ description: 'null'
 title: 資料來源處理時間
 uuid: d7cd679a-f9e3-4740-87cf-6171f3fe5cd9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # 資料來源處理時間
 
->[!Note]
+>[!NOTE]
 >任何資料處理時段都應視為約略時間，不構成服務等級協議 (SLA)。
 
 資料處理時間
