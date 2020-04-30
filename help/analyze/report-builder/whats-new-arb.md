@@ -3,7 +3,7 @@ description: 列出目前版本和舊版及其功能特色。
 title: Report Builder 的新功能
 uuid: 20f4a839-0667-45a7-b037-0357d0e23010
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -44,15 +44,15 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 ## Report Builder 5.3{#rb-5-3-section}
 
-* [虛擬報表套裝](https://marketing.adobe.com/resources/help/zh_TW/reference/virtual-report-suites.html)
-* [Analytics 中的 Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/mc-audiences-aam.html)
-* [AEM 資產報告](https://marketing.adobe.com/resources/help/zh_TW/reference/aem-assets-reporting.html)
+* [虛擬報表套裝](https://docs.adobe.com/help/zh-Hant/analytics/components/virtual-report-suites/vrs-about.html)
+* [Analytics 中的 Experience Cloud Audiences](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
+* [AEM 資產報告](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 ## Report Builder 5.2{#rb-5-2-section}
 
 * **計算量度** Report Builder 5.2 支援 Adobe Analytics [統一計算量度](/help/analyze/report-builder/layout/c-metrics-dimensions/calculated-metrics.md)。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 
-* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/evars_events.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋工作，「請求精靈」新增幾個搜尋列：一個可用來[搜尋報表](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)，另一個則可搜尋[量度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。
+* **對報表和量度的增強型搜尋**&#x200B;隨著 Adobe Analytics 增加更多 [eVar 和事件](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)，Adobe Report Builder 提供的報表和度量數量也大幅增加。為簡化搜尋工作，「請求精靈」新增幾個搜尋列：一個可用來[搜尋報表](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)，另一個則可搜尋[量度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)。
 
-* **客戶屬性** 客戶屬性儲存在名為 VisAttr 的新元素類型中，可設定為維度或量度。如需上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://marketing.adobe.com/resources/help/zh_TW/mcloud/attributes.html)。
+* **客戶屬性** 客戶屬性儲存在名為 VisAttr 的新元素類型中，可設定為維度或量度。如需上傳客戶屬性的詳細資訊，請參閱 [Experience Cloud 說明](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)。
 
