@@ -4,7 +4,7 @@ title: 裝置類型
 topic: Reports
 uuid: e1224769-9a94-4cad-a1ed-e285d60d23f3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -21,5 +21,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 此報表的資料使用訪客的使用者代理字串填入。
 
->[!Note]
+>[!NOTE]
 >只有對現有行動 ID 所做的變更才具有可回溯性。如果裝置是全新狀態而且還沒有行動 ID，則繫結至此裝置的唯一資料，會從將 ID 新增至裝置資料庫的日期起算。
