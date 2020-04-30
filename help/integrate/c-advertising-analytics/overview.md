@@ -3,7 +3,7 @@ description: 'null'
 title: Advertising Analytics 概觀
 uuid: 00e461ff-3e17-4071-818b-93fd1e4b36f1
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -29,8 +29,8 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
 * 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
-* 無論您要在任何 Analytics 報表套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://marketing.adobe.com/resources/help/zh_TW/mcloud/report-suite-mapping.html)。
-* 針對您要檢視 Google/Bing 搜尋資料的任何報表套裝，請[啟用 Advertising Analytics 報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL 「管理員]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**)。
+* 無論您要在任何 Analytics 報表套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+* For any report suite where you want to view Google/Bing search data, you must [enable those report suite/s for Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) ( **[!UICONTROL Admin]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Advertising Analytics Configuration]**).
 
 * 若要將搜尋帳戶整合至 Adobe Analytics，您需要擁有具備編輯權限之帳戶的使用者登入憑證，例如 Google 帳戶 ID 和密碼。
 * 若是 Bing 廣告，則需要使用 Bing 客戶 ID。
