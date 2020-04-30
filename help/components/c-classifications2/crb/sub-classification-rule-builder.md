@@ -2,7 +2,7 @@
 description: 您無法將分類規則產生器與子分類結合。
 title: 子分類和規則產生器
 translation-type: tm+mt
-source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 0e97e28ffb2bf94acfb382c3f97ff30b31321467
 >
 >以下步驟說明如何完成[子分類和規則產生器](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)中所述的使用案例。
 
-1. 在「[分類管理員](https://marketing.adobe.com/resources/help/zh_TW/reference/classifications.html)」中建立分類和子分類。
+1. 在「[分類管理員](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)」中建立分類和子分類。
 
    範例：
 
