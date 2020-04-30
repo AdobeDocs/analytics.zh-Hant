@@ -5,7 +5,7 @@ title: 傳送檔案 - 排程專案進行傳送
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 
-1. [ 建立 Analysis Workspace 專案](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/t_freeform_project.html)並儲存。
+1. [ 建立 Analysis Workspace 專案](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)並儲存。
 1. 按一下 **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
 
    ![步驟結果](assets/send-file.png)
