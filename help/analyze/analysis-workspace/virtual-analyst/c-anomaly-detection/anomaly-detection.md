@@ -3,7 +3,7 @@ description: 您可以在 Analysis Workspace 中根據內容檢視和分析資�
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 影片緩衝事件的尖峰
 * 低影片位元率的尖峰
 
-異常偵測和[貢獻分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/contribution/ca_main.html)是 Analysis Workspace 的核心工作流程。您可以對任何每日異常情形執行貢獻分析，並將結果內嵌至 Analysis Workspace 專案。
+異常偵測和[貢獻分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)是 Analysis Workspace 的核心工作流程。您可以對任何每日異常情形執行貢獻分析，並將結果內嵌至 Analysis Workspace 專案。
 
 Analysis Workspace 異常偵測的演算法包含
 
