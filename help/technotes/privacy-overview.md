@@ -4,7 +4,7 @@ keywords: privacy
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 translation-type: tm+mt
-source-git-commit: 69138bdedb42b66449426fee39822520ee4b1198
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -89,7 +89,7 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/reference/index.html#General_Account_Settings"  > https://marketing.adobe.com/resources/help/zh_TW/reference/index.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
