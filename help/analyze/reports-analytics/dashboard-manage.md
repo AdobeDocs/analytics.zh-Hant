@@ -5,7 +5,7 @@ title: 控制面板管理員
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 現有的舊式控制面板仍會繼續執行，您也可繼續編輯、下載和排程這些控制面板，但是不再能夠建立新的舊式控制面板。我們強烈建議您將現有的舊式控制面板升級至較新的控制面板格式。
 
->[!NOTE]日後請考慮使用 [Analysis Workspace 專案](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/)及其下載和排程功能。
+>[!NOTE]日後請考慮使用 [Analysis Workspace 專案](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/analysis-workspace-features.html)及其下載和排程功能。
 
 複製舊控制面板時，系統會開啟舊控制面板以供編輯，您可新增舊內容或新內容。複製舊控制面板時，其原型會保留在舊控制面板的清單中。
 
