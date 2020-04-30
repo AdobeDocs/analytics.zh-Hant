@@ -4,7 +4,7 @@ title: 設定即時報表請求
 topic: Report builder
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 關於如何設定即時報表請求日期的步驟。
 
-1. 確保即時報表可於行銷 Reports &amp; Analytics [管理工具](https://marketing.adobe.com/resources/help/en_US/reference/real_time_admin.html)中啟動。
+1. 確保即時報表可於行銷 Reports &amp; Analytics [管理工具](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)中啟動。
 1. 在上， [!UICONTROL Request Wizard: Step 1]按一下 **[!UICONTROL Real-Time Report]** > **[!UICONTROL `<report type>`]**
 
    例如，選取一個流量報表。When you select a real-time report type, the [!UICONTROL Select Time Range] options display.
