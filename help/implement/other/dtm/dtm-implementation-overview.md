@@ -5,7 +5,7 @@ title: DTM 實施概覽
 topic: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 利用 Dynamic Tag Management 來管理標籤，並在所有數位行銷系統間收集與發佈資料。Dynamic Tag Management 提供單一資料層，可從多個來源推送資料。Dynamic Tag Management 也能夠以回應式方式傳送使用者特定內容。
 
-本說明一節提供關於使用 Dynamic Tag Management 來實施 Adobe Analytics 的特定資訊。如需 Dynamic Tag Management 的詳細資訊，請參閱 [Dynamic Tag Management 產品文件](https://marketing.adobe.com/resources/help/zh_TW/dtm/)。如需有關開始使用 DTM 時存取 DTM 和常用作業的資訊，請參閱 Dynamic Tag Management 產品文件中的[快速入門](https://marketing.adobe.com/resources/help/zh_TW/dtm/get_started.html)。
+本說明一節提供關於使用 Dynamic Tag Management 來實施 Adobe Analytics 的特定資訊。如需 Dynamic Tag Management 的詳細資訊，請參閱 [Dynamic Tag Management 產品文件](https://docs.adobe.com/content/help/zh-Hant/dtm/using/dtm-home.html)。如需有關開始使用 DTM 時存取 DTM 和常用作業的資訊，請參閱 Dynamic Tag Management 產品文件中的[快速入門](https://docs.adobe.com/content/help/en/dtm/using/getting-started/get-started.html)。
 
-如需 Dynamic Tag Management 實施步驟的詳細摘要，請參閱快速入門 Adobe Analytics 中的[使用 Dynamic Tag Management 部署 Adobe Analytics](https://marketing.adobe.com/resources/help/zh_TW/analytics/getting-started/add-adobe-analytics-dtm-tool.html)。
+如需 Dynamic Tag Management 實施步驟的詳細摘要，請參閱快速入門 Adobe Analytics 中的[使用 Dynamic Tag Management 部署 Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/implementation/other/dtm/dtm-implementation-overview.html)。
 
 ## 實施步驟概述 {#section_D0BBB82486F44699AC7FF5E76E27434C}
 
