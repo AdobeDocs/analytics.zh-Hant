@@ -3,7 +3,7 @@ description: 開始使用 Ad Hoc Analysis。
 title: 快速入門
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 登入 Adobe <span class="keyword">Analytics</span>。 </p> </td> 
-   <td colname="col2"> <p>前往 <a href="https://marketing.adobe.com"  >marketing.adobe.com</a>，並使用您的 Adobe Analytics 憑證登入。 </p> </td> 
+   <td colname="col2"> <p>前往 <a href="https://experiencecloud.adobe.com"  >marketing.adobe.com</a>，並使用您的 Adobe Analytics 憑證登入。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 啟動 Ad Hoc Analysis。 </p> </td> 
@@ -88,8 +88,8 @@ c_sys_reqs.xml
 * 如果您有權在機器上安裝程式：
 
    1. 請前往 https://www.java.com。
-   1. 按一下「**[!UICONTROL 免費 Java 下載]**」。
-   1. 按一下「**[!UICONTROL 同意並開始免費下載]**」。
+   1. 按一下 **[!UICONTROL Free Java Download]**.
+   1. 按一下 **[!UICONTROL Agree and Start Free Download]**.
    1. 安裝您的作業系統專屬的最新 Java 版本。
 
 * 如果您&#x200B;**無權**&#x200B;在機器上安裝程式：
@@ -117,11 +117,11 @@ t_login_suite.xml
  -->
 
 1. 在瀏覽器中瀏覽至 [!DNL marketing.adobe.com]。
-1. 鍵入您的公司名稱、使用者名稱和密碼，按一下「**[!UICONTROL 登入]**」。
-1. 按一下「**[!UICONTROL Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Ad Hoc Analysis]**」。
+1. Type your company name, your username, and your password. Then click **[!UICONTROL Sign In]**.
+1. 按一下 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL Tools]** > **[!UICONTROL Ad Hoc Analysis]**.
 
    如果您在此頁面上看不到「**啟動 Ad Hoc Analysis**」按鈕，請向管理員確認是否已將您加入「管理工具」的「*Ad Hoc Analysis 授權使用者*」群組中。
-1. 按一下「**[!UICONTROL 啟動 Ad Hoc Analysis]**」。
+1. 按一下 **[!UICONTROL Launch Ad Hoc Analysis]**.
 1. 將 [!DNL discover.jnlp] 檔案儲存在本機。
 
    任何時候想啟動 Ad Hoc Analysis，請執行此儲存的檔案。
@@ -142,7 +142,7 @@ c_projects.xml
 
 一次只能開啟一個專案，但是您可以開啟一個專案中的多個工作環境。而在每個工作環境中，您又可以開啟數個報表。
 
-新專案的預設日期範圍是[!UICONTROL 過去 90 天]。
+The default date range for a new project is [!UICONTROL Last 90 Days].
 
 ## 開始專案 {#task_918A4539134E4E62B00486DCB8D3D403}
 
@@ -155,7 +155,7 @@ t_project_start.xml
  -->
 
 1. 登入。
-1. 開啟儲存的專案，或按一下&#x200B;**[!UICONTROL 建立專案]**。
+1. Open a saved project or click **[!UICONTROL Create Project]**.
 1. 搜尋報表或選擇範本。
 
 ## 開啟最近儲存的工作環境 {#task_DE4A54180BC24E9DAEC98E2171DC6B40}
@@ -168,7 +168,7 @@ t_recent_workspace.xml
 
  -->
 
-1. 按一下&#x200B;**[!UICONTROL 「檔案]** > **[!UICONTROL 最近工作區」]**。
+1. 按一下 **[!UICONTROL File]** > **[!UICONTROL Recent Workspace]**.
 
    您最多可開啟 5 個最近工作區。最近的工作環境在您結束   作業後即無法使用。
 
@@ -182,14 +182,14 @@ t_share_projects.xml
 
  -->
 
-1. 前往「**[!UICONTROL 檔案]** > **[!UICONTROL 另存新檔]**」。
-1. 從「**[!UICONTROL 儲存位置:]**」下拉式清單中選取「**[!UICONTROL 共用專案]**」。
+1. Go to **[!UICONTROL File]** > **[!UICONTROL Save As]**.
+1. 從下 **[!UICONTROL Shared Projects]** 拉式清 **[!UICONTROL Save in:]** 單中選擇。
 
    ![](assets/shared_projects.png)
 
-1. 按一下「**[!UICONTROL 儲存]**」，儲存專案。
+1. Click **[!UICONTROL Save]** to save the project.
 
-   共用專案可以透過「**[!UICONTROL 檔案]** > **[!UICONTROL 開啟]** > **[!UICONTROL 共用專案]**」來開啟。
+   共用的專案可以透過 **[!UICONTROL File]** > **[!UICONTROL Open]** >開啟 **[!UICONTROL Shared Projects]**。
 
    >[!NOTE]
    >
@@ -206,8 +206,8 @@ t_rename_workspace.xml
  -->
 
 1.  以滑鼠右鍵按一下工作環境名稱。
-1. 選擇&#x200B;**[!UICONTROL 重新命名工作環境]**。
-1. 輸入名稱，然後按一下&#x200B;**[!UICONTROL 確定]**。
+1. 選擇 **[!UICONTROL Rename Workspace]**.
+1. Type a name, then click **[!UICONTROL OK]**.
 
 ## 開啟本地專案 {#task_1B3EF63A80C74776B24B99D80EAC74AC}
 
@@ -219,8 +219,8 @@ t_open_local_project.xml
 
  -->
 
-1. 按一下&#x200B;**[!UICONTROL 「檔案]** > **[!UICONTROL 開啟本地副本」]**。
-1. 瀏覽至本機的 [!DNL .dproj] 檔案，然後按一下&#x200B;**[!UICONTROL 「開啟」]**。
+1. 按一下 **[!UICONTROL File]** > **[!UICONTROL Open Local Copy]**.
+1. Navigate to the local [!DNL .dproj] file, then click **[!UICONTROL Open]**.
 
 ## 報表範本 {#concept_370F674C5B4C45368731AA801C5A45F8}
 
@@ -232,7 +232,7 @@ c_templates.xml
 
  -->
 
-建立專案時 (**[!UICONTROL 檔案]** > **[!UICONTROL 新增專案]**) 或新增工作環境或報表時，您可以存取範本。
+You can access templates when creating a project ( **[!UICONTROL File]** > **[!UICONTROL New Project]**), or by adding a workspace or report.
 
 | 範本 | 說明 |
 |--- |--- |
@@ -257,6 +257,6 @@ t_reports_opening.xml
 
 有數種開啟報表的方法：
 
-* 在[!UICONTROL 新增報表]頁面上，搜尋報表或選擇範本。
-* 按一下功能表中的&#x200B;**[!UICONTROL 報告]**，然後選取報表或報表範本。
-* 從維度啟動報表：請在維度名稱上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 執行報表]** >   **`report name`**。
+* On the [!UICONTROL New Report] page, search for a report or choose a template.
+* Click **[!UICONTROL Reports]** from the menu, then select a report or report template.
+* Launch a report from a dimension: right-click a dimension name, then select **[!UICONTROL Run Report]** > **`report name`**.
