@@ -5,7 +5,7 @@ title: 常見問題集
 topic: Segments
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * Analysis Workspace 的區段功能
 
-   * 您可以[比較區段](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/segment-comparison.html)。
-   * 在比較時使用[區段作為維度](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/segments_as_dimensions.html)。
-   * 在[流失分析](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/graphics/compare-segments-fallout.html)中使用區段。
+   * 您可以[比較區段](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
+   * 在比較時使用[區段作為維度](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)。
+   * 在[流失分析](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
 
 * 您可以[將多個區段套用至報表或專案](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。
 * 區段在所有報表套裝中都通用。
@@ -40,9 +40,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 存取「區段產生器」的方法有：
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。In the segment rail that displays, then click **[!UICONTROL Add]**, or
 
-* 在「區段管理員」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![](assets/add_button.png)
+* At the top of the Segment Manager, clicking **[!UICONTROL + Add]**.  ![](assets/add_button.png)
 
    或
 
@@ -52,9 +52,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 存取「區段管理員」的方法如下：
 
-* 前往頂端導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
+* 前往頂 **[!UICONTROL Analytics]** 端導 **[!UICONTROL Components]** 覽中的>。 然後按 **[!UICONTROL Segments]**&#x200B;一下，或
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按 **[!UICONTROL Manage]**&#x200B;一下，或
 
 * 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
@@ -74,7 +74,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **要使用、建立和管理區段需要有什麼權限？**
 
-依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
+依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
 
 管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](/help/components/c-segmentation/seg-reference/seg-rights.md)
 
