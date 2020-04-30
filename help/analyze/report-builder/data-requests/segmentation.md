@@ -4,7 +4,7 @@ title: 管理區段
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -22,7 +22,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 >[!NOTE] 若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
-1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需有關如何建立區段的資訊，請參閱 [https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/)。
+1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需如何建立區段的詳細資訊，請參閱 [Analytics區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
 1. 在定義及儲存區段之後，返回「請求精靈」。
 1. 按一下「重新整理」圖示以重新整理區段清單。
 
@@ -39,7 +39,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_in_context.png)
 
-   如需容器的詳細資訊，請參閱[劃分指南](https://marketing.adobe.com/resources/help/zh_TW/analytics/segment/)。
+   如需容器的詳細資訊，請參閱[劃分指南](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
 
 1. 區段產生器使用者介面將立即在 Internet Explorer 中啟動。區段產生器使用者介面將會依您指定的容器與篩選條件進行起始化。
 1. 將名稱與說明新增至區段後，請儲存。
