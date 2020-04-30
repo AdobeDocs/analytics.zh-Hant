@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,7 +44,7 @@ Audience Analytics 整合具有以下主要優點：
 * 您同時是 Audience Manager 和 Adobe Analytics 的客戶。
 * 您是 Audience Manager 管理員。
 * 您使用 Identity Service v1.5 或更新版本。
-* AAM 及 Adobe Analytics 報表套裝[對應至同一個 Experience Cloud 組織](https://marketing.adobe.com/resources/help/zh_TW/mcloud/report-suite-mapping.html)。
-* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實作[對象管理模組](https://marketing.adobe.com/resources/help/en_US/aam/c_profiles_audiences.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
+* AAM 及 Adobe Analytics 報表套裝[對應至同一個 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實作[對象管理模組](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
 
 [對象分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些必備條件。
