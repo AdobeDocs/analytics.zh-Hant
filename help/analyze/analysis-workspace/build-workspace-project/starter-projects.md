@@ -3,7 +3,7 @@ description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -110,7 +110,7 @@ source-git-commit: cfe9f2221edab5fa1da9711982bd5bd65de1c0fd
 
 ### 人物
 
->[!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://marketing.adobe.com/resources/help/zh_TW/mcdc/mcdc-people.html) 的一部分使用。
+>[!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/data/people.html) 的一部分使用。
 
 此範本以「人員」量度為基礎，此量度是「獨特訪客」量度的去重複化版本。 「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
