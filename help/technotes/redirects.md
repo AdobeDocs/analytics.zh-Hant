@@ -6,7 +6,7 @@ title: 重新導向與別名
 topic: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -31,18 +31,18 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 
 假設有下面這種使用者未遇到重新導向的情況:
 
-1. 使用者在瀏覽器中前往 `www.google.com`，並在搜尋欄位中輸入「discount airline tickets」，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
+1. User points his or her browser to `www.google.com`, and types, &quot;discount airline tickets&quot; into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. 瀏覽器顯示的搜尋結果包含您網站的連結 [!DNL https://www.example.com/] 。顯示搜尋結果後，瀏覽器的網址列顯示了使用者在搜尋欄位中輸入的搜尋詞彙 (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`)。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`.
 1. 使用者按一下您的假設網站的連結 [!DNL https://www.example.com/] 。當使用者點按此連結並開啟了 [!DNL example.com] 網站時，[!DNL Analytics] 會使用 JavaScript 收集反向連結 URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 和目前的 URL (`https://www.example.com/`)。
-1. [!DNL Analytics] 會在不同的報表中報告在此互動期間收集到的資訊，例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]和[!DNL Search Keywords]。
+1. [!DNL Analytics] 報告此互動期間在各種報表中收集的資訊， [!UICONTROL Referring Domains]例如 [!UICONTROL Search Engines]、和 [!DNL Search Keywords]。
 
 ## 範例: 有重新導向的瀏覽 {#section_921DDD32932847848C4A901ACEF06248}
 
 重新導向可能會使瀏覽器忘掉真正的反向連結 URL。假設有下列情況:
 
-1. 使用者在瀏覽器中前往 `https://www.google.com`，並在搜尋欄位中輸入 *discount airline tickets*，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
+1. User points his or her browser to `https://www.google.com`, and types, *discount airline tickets* into the search field, and then clicks the **[!UICONTROL Search]** button.
 1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
-1. 使用者點按連結 `https://www.flytohawaiiforfree.com/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
+1. 使用者點按連結 `https://www.flytohawaiiforfree.com/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，報表中使用的原始搜 [!DNL Analytics] 尋資訊(例如 [!UICONTROL Referring Domains], [!UICONTROL Search Engines], [!UICONTROL Search Keywords])會遺失。
 
 ## 實作重新導向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
@@ -147,7 +147,7 @@ redirects_verify_referrer.xml
 
 執行測試，以確認正在擷取反向連結、原始 URL (*`s_server`*) 和促銷活動變數。
 
-在 [Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/) 中，這些變數將以下列參數的形式表示。
+在 [Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html) 中，這些變數將以下列參數的形式表示。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
