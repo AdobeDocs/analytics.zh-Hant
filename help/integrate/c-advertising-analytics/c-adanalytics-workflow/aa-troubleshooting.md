@@ -3,7 +3,7 @@ description: 'null'
 title: 疑難排解 Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 我在「對應」區段中看不到我的報表套裝 {#section_9CAACDE6445C492DBAE542BA74DE6316}
 
-您正在嘗試[設定新的 Advertising 帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)，但您在&#x200B;**[!UICONTROL 「選取報表套裝」]**&#x200B;下拉式清單中並沒有看到您的報表套裝。這種情況有兩個可能的原因：
+You are trying to [set up a new Advertising Account](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md) and you do not see your report suite listed in the **[!UICONTROL Select Report Suite]** drop-down list. 這種情況有兩個可能的原因：
 
 <table id="table_271D7E817B4C44818717A47C3223E592"> 
  <thead> 
@@ -27,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 報表套裝並未對應至登入使用者的 Experience Cloud 組織 ID。 </p> </td> 
-   <td colname="col2"> <p>如需指示，請參閱<a href="https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html"  >將報表套裝對應至組織</a>。 </p> </td> 
+   <td colname="col2"> <p>如需指示，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應至組織</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 尚未針對 Advertising Analytics 報表佈建報表套裝。 </p> </td> 
