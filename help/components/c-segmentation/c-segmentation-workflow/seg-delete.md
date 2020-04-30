@@ -4,7 +4,7 @@ title: 刪除區段
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -24,6 +24,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 在 Ad Hoc Analysis 中編輯內嵌的已刪除區段 {#section_976D601DBD2244E38B0A0222E31D2610}
 
-現在，Ad Hoc Analysis 可讓您在[計算量度產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)中編輯內嵌的已刪除區段，並針對該區段執行「另存新檔」作業。
+現在，Ad Hoc Analysis 可讓您在[計算量度產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)中編輯內嵌的已刪除區段，並針對該區段執行「另存新檔」作業。
 
 不過，參照已刪除區段的其他已刪除區段仍維持不變。
