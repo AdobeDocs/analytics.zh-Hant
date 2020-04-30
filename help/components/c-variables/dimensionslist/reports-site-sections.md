@@ -4,7 +4,7 @@ title: 網站區域
 topic: Reports
 uuid: 6839c566-f88f-4979-9cf5-52a77c0b0416
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -13,21 +13,21 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 顯示訪客最常存取的網站區域。「網站區域」可包含您定義的產品群組 (類似於類別)。例如，您可能有頁面的「相機」群組、「電腦」群組等。「轉換網站區域」報表的資料是從「流量」群組中的「網站區域」報表匯入，「網站區域」報表則是從追蹤程式碼中的頻道變數接收資訊。您可以使用此報告識別不同網站區域的項目對網站統計資料的最大影響。
 
-* 此報告會直接參照來自於網站上實作之 [s.channel](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_channel.html) 變數的資料。
+* 此報告會直接參照來自於網站上實作之 [s.channel](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/channel.html) 變數的資料。
 * 此報告可使用趨勢與排名格式來檢視。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
 * 您可以在此報告中使用「 分類」，以便對明細項目重新命名和合併。
 * 關聯可透過「管理工具」以任何其他流量變數來建立。
 * 此報告可使用下列量度：
 
-   * **頁面檢視**：[pageName](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_pagename.html) 變數或 URL 已定義 (設為預設量度) 的次數
+   * **頁面檢視**：[pageName](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/pagename.html) 變數或 URL 已定義 (設為預設量度) 的次數
 
    * **所有路徑量度**：瀏覽、平均頁面深度、平均頁面逗留時間、登入點、退出點、重新載入與單次存取
    * 根據您的組織與報表套裝的設定：可在此報告上啟用每日、每週、每月、每季獨特訪客。
    * **所有標準電子商務量度**：收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等
    * **所有自訂事件**：事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100。
 
-[!UICONTROL 網站區域報告]中的所有轉換事件都會使用最後一個配置。您會看到轉換劃分到實作中不含成功事件的各個頁面。這不同於使用線性配置的[頁面報告](/help/components/c-variables/dimensionslist/reports-pages.md)。
+使用上次配置中的所 [!UICONTROL Site Sections Report] 有轉換事件。 您會看到轉換劃分到實作中不含成功事件的各個頁面。這不同於使用線性配置的[頁面報告](/help/components/c-variables/dimensionslist/reports-pages.md)。
 
 **產品特定資訊**
 
