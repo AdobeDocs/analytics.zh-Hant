@@ -4,7 +4,7 @@ title: 篩選報表資料
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **不包含**
 
-如果詞語未出現在行項目的任何地方即相符。您可以使用「不包含」來篩選報表中的「未指定」、「無」、「沒有關鍵字」和其他[特殊值](https://marketing.adobe.com/resources/help/zh_TW/reference/none-unspecified-unknown-other.html)。
+如果詞語未出現在行項目的任何地方即相符。您可以使用「不包含」來篩選報表中的「未指定」、「無」、「沒有關鍵字」和其他[特殊值](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)。
 
 不包含： `none`
 
