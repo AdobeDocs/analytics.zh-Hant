@@ -4,7 +4,7 @@ title: 路徑分析
 topic: Reports
 uuid: c4ff9fa8-e567-4039-9c86-322800a942da
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 以路徑分析為基礎的報告群組。技術上而言，路徑表示從一個頁面名稱移至另一個 (從一個值移至另一個) 的過程。
 
-[Analysis Workspace 流量](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/flow.html)可提供更具彈性的路徑選項。
+[Analysis Workspace 流量](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)可提供更具彈性的路徑選項。
 
->[!NOTE]若要啟用路徑功能，請前往&#x200B;**[!UICONTROL 管理員 > 報表套裝 > 編輯設定 > 流量 > 流量變數]**。若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
+>[!NOTE] 若要啟用路徑功能，請前往 **[!UICONTROL Admin > Report Suites > Edit Settings > Traffic > Traffic Variables]**。 若要在「網站區域」及「伺服器」報表啟用路徑功能，請聯絡客戶服務。
 
 若您需要知道值的收集順序，您就必須對收集這些值的變數啟用路徑功能。依預設會為頁面啟用路徑功能。依預設不會為任何 prop 啟用路徑功能，因為它僅適於特定情況。聯絡客戶服務以啟用 prop 的路徑分析。
 
@@ -27,7 +27,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/path_sections.png)
 
-接著，路徑即可用於各種不同的路徑報告 (例如[!UICONTROL 下一個網站區域流程])，而顯示訪客瀏覽頁面群組或網站區域的情形。
+Pathing is then available in various paths reports, such as [!UICONTROL Next Site Section Flow], which displays how visitors move through page groups, or sections of your site.
 
 ![](assets/paths_report.png)
 
