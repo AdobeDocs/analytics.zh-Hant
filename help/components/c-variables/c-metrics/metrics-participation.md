@@ -4,7 +4,7 @@ title: 參與率
 topic: Metrics
 uuid: a7fa791d-0a77-429e-808e-4f97bb9ae5fc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * **已停用**：每個轉換事件的預設狀態。對此事件將不會收集參與率資料。
 * **已啟用**：對此事件會收集參與率資料。
 
->[!NOTE] 您最多可對 100 個自訂事件啟用參與率。除此之外，您還可在[計算量度](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/participation_metric.html)產生器中建立參與率量度。
+>[!NOTE] 您最多可對 100 個自訂事件啟用參與率。除此之外，您還可在[計算量度](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/participation-metric.html)產生器中建立參與率量度。
 
 參與率量度一經啟用後，即自動可供所有轉換報告使用。但參與率量度也可在您的要求下，在特定流量報告中受到檢視。您可以選擇要求讓參與率量度可用於特定的自訂流量報告中。
 
