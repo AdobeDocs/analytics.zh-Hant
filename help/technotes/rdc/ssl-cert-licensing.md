@@ -2,16 +2,16 @@
 title: SSL 憑證授權
 description: 由客戶管理的憑證之憑證程序
 translation-type: tm+mt
-source-git-commit: 290838566b86f71902abd303b5c43dd2661d3ce1
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
 
 # SSL/TLS 憑證授權
 
-Adobe 建議您透過 [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
+Adobe 建議您透過 [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
 
-如果您選擇不使用 [Adobe Managed Certificate Program](https://marketing.adobe.com/resources/help/zh_TW/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)，便需自行負責提供用於第一方 Cookie 的 SSL/TLS 憑證。
+如果您選擇不使用 [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)，便需自行負責提供用於第一方 Cookie 的 SSL/TLS 憑證。
 
 如果您要自行提供憑證，則您需自行負責購買和維護該憑證。您的 SSL/TLS 憑證必須包含不限數量的伺服器授權。
 
