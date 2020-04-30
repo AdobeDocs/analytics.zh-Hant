@@ -5,7 +5,7 @@ title: 管理需求
 topic: Reports and analytics
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
 translation-type: tm+mt
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -34,7 +34,7 @@ Analysis Workspace 的系統需求。
   </tr> 
   <tr> 
    <td colname="col1"> 使用者 </td> 
-   <td colname="col2"> <p>若要啟用 Analytics 中 Workspace 索引標籤的存取，系統管理員必須將使用者新增至「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt;<span class="uicontrol"> 群組</span>」中的「<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html"  >Analysis Workspace 存取</a>」群組。 </p> </td> 
+   <td colname="col2"> <p>若要啟用 Analytics 中 Workspace 索引標籤的存取，系統管理員必須將使用者新增至「<span class="uicontrol">管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt;<span class="uicontrol"> 群組</span>」中的「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html"  >Analysis Workspace 存取</a>」群組。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 轉讓專案 </td> 
