@@ -4,7 +4,7 @@ title: 量度概觀
 topic: Reports and analytics
 uuid: cf09afb9-ef1f-4f6c-accc-cd434ecdbd4b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 以下是[標準 Analytics 量度](/help/components/c-variables/c-metrics/metrics-overview.md)的概觀。
 
-[計算量度是由組合量度所建立。](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)
+[計算量度是由組合量度所建立。](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)
