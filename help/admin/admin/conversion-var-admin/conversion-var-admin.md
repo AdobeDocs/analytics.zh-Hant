@@ -5,7 +5,7 @@ title: 轉換變數 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -24,7 +24,7 @@ eVar 最適合用來測量原因和結果，如：
 
 如果需要流量測量或路徑功能，建議使用流量變數。
 
->[!NOTE]影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實作[清單變數 (list vars)](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/listN.html)。
+>[!NOTE]影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實作[清單變數 (list vars)](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。
 
 ## 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -84,7 +84,7 @@ eVar 最適合用來測量原因和結果，如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售</span> </p> <p>(僅限 eVar) </p> </td> 
-   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法： </p> <p> <b>產品語法</b>：</span>建立 eVar 值與產品的關聯。注意：如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b>轉換變數語法</b>：</span>僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://marketing.adobe.com/resources/help/zh_TW/sc/implement/var_merchandising.html">銷售變數</a>。 </p> </td> 
+   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法： </p> <p> <b>產品語法</b>：</span>建立 eVar 值與產品的關聯。注意：如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b>轉換變數語法</b>：</span>僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">銷售變數</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售捆綁事件</span> </p> <p>(僅限 eVar) </p> </td> 
@@ -102,7 +102,7 @@ eVar 最適合用來測量原因和結果，如：
 * 您可以將 eVar 設定成在指定的時段或事件之後過期。
 * 您可以重設eVar，強制eVar過期，這在重設變數用途時很有用。
 
-例如，如果您將eVar的有效期從30天變更為90天，收集的eVar值會在新的有效期設定期間（在此例中為90天）持續存在。 系統只會查看目前的有效期設定，以及收集的eVar值最後設定時間戳記，以判斷有效期。 只有「重 **[!UICONTROL 設]** 」選項會使值過期，並立即過期。
+例如，如果您將eVar的有效期從30天變更為90天，收集的eVar值會在新的有效期設定期間（在此例中為90天）持續存在。 系統只會查看目前的有效期設定，以及收集的eVar值最後設定時間戳記，以判斷有效期。 只有選 **[!UICONTROL Reset]** 項會使值過期，並立即過期。
 
 另一個例子：如果eVar在5月用於反映內部促銷活動並在21天後過期，而在6月用於擷取內部搜尋關鍵字，則在6月1日，您應強制變數過期或重設。 這麼做有助於將內部促銷值排除在六月的報表以外。
 
