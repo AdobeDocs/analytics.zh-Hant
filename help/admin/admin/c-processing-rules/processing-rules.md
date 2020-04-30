@@ -5,7 +5,7 @@ title: 處理規則概觀
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 若您還未這麼做，[請建立有權使用處理規則且僅包含非管理員的群組](/help/admin/user-management2/c-user-groups/groups.md)。
 1. [將非管理員新增至該群組](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. 接著，前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL [群組名稱]]** > **[!UICONTROL 編輯]** > **[!UICONTROL 報表存取]** > **[!UICONTROL 報表套裝工具]** > **[!UICONTROL 自訂]** > **[!UICONTROL 報表套裝管理」]**。
-1. 勾選[!UICONTROL 「處理規則」]旁的方塊，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
+1. 然後前往「 > **[!UICONTROL Analytics]** > > **[!UICONTROL Admin]** > > > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL `group name`]****[!UICONTROL Edit]****[!UICONTROL Report Access]****[!UICONTROL Report Suite Tools]****[!UICONTROL Customize]****[!UICONTROL Report Suite Management]**> Mignit」。
+1. 勾選旁邊的方塊， [!UICONTROL Processing Rules] 然後按一下 **[!UICONTROL OK]**。
 
 ![](assets/processing-rules.png)
 
@@ -48,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/evar-context-map.png)
 
-請參閱實施說明中的[上下文資料變數](https://marketing.adobe.com/resources/help/zh_TW/sc/implement/context_data_variables.html)。
+請參閱實施說明中的[上下文資料變數](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html)。
 
 ## 使用處理規則來轉換點擊資料和觸發事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
