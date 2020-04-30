@@ -3,7 +3,7 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -76,7 +76,7 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 
 * 當您與第三方提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。Data Connectors 通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
 
-該使用 **[Data Insertion API](https://marketing.adobe.com/developer/documentation/data-insertion/c-data-insertion-api)**的情況：
+該使用 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)**的情況：
 
 * 當您必須將資料上傳到 Adobe Analytics，且無法使用 Adobe AppMeasurement 或行動 SDK 程式碼時。
 
@@ -114,11 +114,11 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 * 若客戶希望 Adobe 資料能以我們所能傳送最精細的層級，存放在客戶端的資料庫中時.
 * 客戶希望開發商務智慧 (BI) 工具，或將點擊層級的 Adobe 資料輸入到第三方工具中時。
 
-當其他視覺化選項都不符合您的需求時，才應該使用&#x200B;**[「報告 API」](https://marketing.adobe.com/developer/get-started/introduction/c-introduction)**。有 3 種 API 選項，包括：
+當其他視覺化選項都不符合您的需求時，才應該使用&#x200B;**[「報告 API」](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**。有 3 種 API 選項，包括：
 
 * **完整處理**：想要功能豐富的資料 (包括造訪次數、訪客、區段) 時。這是典型的 Analytics UI 摘要資料，需要約 30-90 分鐘才可供使用。可以透過「Report Builder」來使用。
 * **即時**：只想要檢視數個量度和維度，而不希望延遲超過數秒時。這是有限而只經過部分處理的摘要資料，只要約 30 秒以內就可供使用。包括獨特的演算法，可針對「最受歡迎」、「獲益者」和「損失者」。可以透過「Report Builder」來使用。
-* **[!UICONTROL 即時資料流]**：想要經過部分處理的點擊層級 Analytics 資料，而希望收集時間只花費數秒時。這是經過部分處理的資料，只要約 30 秒以內就可供使用。只有 Analytics Premium 才提供此 API。需要某種方法才能視覺化資料，通常會涉及工程技術服務。
+* **[!UICONTROL Live Stream]**:當您想要在收集後數秒內取得部分處理的點擊層級Analytics資料串流時。 這是經過部分處理的資料，只要約 30 秒以內就可供使用。只有 Analytics Premium 才提供此 API。需要某種方法才能視覺化資料，通常會涉及工程技術服務。
 
 ## 自訂解決方案 {#section_4A212F26A15947599DFB0399A0440CB6}
 
@@ -131,4 +131,4 @@ source-git-commit: f7125e6845a653ca3d4dd3f1313d1b39f564459c
 * 具有多個資料來源時。
 * 具有複雜的資料 ETL (擷取、轉換、載入) 需求時。
 * 想要自訂品牌時。
-* 想要視覺化 [!UICONTROL Analytics Live Stream] 時。
+* You want to visualize [!UICONTROL Analytics Live Stream].
