@@ -4,7 +4,7 @@ title: 允許發佈清單覆蓋
 topic: Report builder
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 會在 Analytics 管理工具中設定發佈清單。
 
-請參閱「Analytics 參考」中的[發佈清單管理員](https://marketing.adobe.com/resources/help/zh_TW/reference/publishing_list.html)。
+請參閱「Analytics 參考」中的[發佈清單管理員](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)。
 
 若要啟用此功能，請導覽至視 [!UICONTROL Request Wizard: Step 1] 窗。
 
