@@ -5,7 +5,7 @@ title: 準備使用資料來源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 為資料來源的資料決定適當的量度-事件映射後，針對關聯的資料來源量度，以適當的描述名稱重新命名事件。
 
-請參閱「管理工具」說明中的「[成功事件](https://marketing.adobe.com/resources/help/zh_TW/reference/success_event.html)」。
+請參閱「管理工具」說明中的「[成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)」。
 
 >[!NOTE]Adobe 強烈建議讓「資料來源資料」使用新的空事件，但在少數情形下，使用原先現存的事件可能比較適當。
 
@@ -44,7 +44,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 若是 eVar，您可使用現存 eVar 或新的 eVar 做為資料維度。選取接受資料來源資料維度的 eVar 後，確定您將 eVar 正確命名。
 
-請參閱「分析說明」中的「[成功事件](https://marketing.adobe.com/resources/help/zh_TW/reference/success_event.html)」。
+請參閱「分析說明」中的「[成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)」。
 
 ## 促銷活動追蹤程式碼 {#section_468222796FF449ABAA90D88EB3264CB1}
 
