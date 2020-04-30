@@ -4,7 +4,7 @@ title: 檔案下載
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **導覽**
 
-**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 連結]** > **[!UICONTROL 檔案下載」]**
+**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
 
 若此報告未在預設位置中，請洽詢您的管理員，因為他們可能變更了預設功能表結構以因應您的組織獨特的需求。
 
@@ -33,8 +33,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 1. 在您的網站上，找出全域JavaScript 檔案。此檔案常命名為 [!DNL s_code.js]，但也可能已重新命名。如果已重新命名，您可以在網站上搜尋 JavaScript 檔案中的 *`s.account`* 值，該值是 JavaScript 程式碼的一部分。
 
-1. 在此檔案中，找出 [s.trackDownloadLinks](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_trackdownllinks.html) 變數。確定此變數設為 *true*。
+1. 在此檔案中，找出 [s.trackDownloadLinks](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/trackdownloadlinks.html) 變數。確定此變數設為 *true*。
 
-1. 找出 [s.linkDownloadFileTypes](https://marketing.adobe.com/resources/help/en_US/sc/implement/c_linkdownfiletypes.html) 變數。確定所有所需的副檔名都在這份清單中。如有必要，請在其中加入遺漏的副檔名，如 [!DNL .pdf]、[!DNL .zip] 等。
+1. 找出 [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) 變數。確定所有所需的副檔名都在這份清單中。如有必要，請在其中加入遺漏的副檔名，如 [!DNL .pdf]、[!DNL .zip] 等。
 
-如果這些變數的設定正確，但是[!UICONTROL 檔案下載報告]還是沒有收到資料，您組織的受支援使用者應該聯絡客戶服務。
+If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
