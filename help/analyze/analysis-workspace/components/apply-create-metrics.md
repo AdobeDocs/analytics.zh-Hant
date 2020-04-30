@@ -3,7 +3,7 @@ description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -18,7 +18,7 @@ You can either drag a standard metric, calculated metric, or calculated metric t
 
 >[!NOTE] 雖然這項操作看似簡單，但使用量度帶來的效果卻相當強大。將合適的量度拖曳至表格的量度區，就能新增量度到報表。您也可以依量度來劃分維度，讓您更精確地控制表格檢視。此外，您可以將量度當作維度插入表格，維度則當作量度，藉此建立特定時段報表。您可以盡情組合不同元件，了解各種效果。量度的可能性是無限的。
 
-或者，您也可以按一 **[!UICONTROL Components]** 下> **[!UICONTROL New Metric]**。 這會將您帶往「[計算量度產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/calcmetrics/)」，讓您從現有的量度建立自訂量度。
+或者，您也可以按一 **[!UICONTROL Components]** 下> **[!UICONTROL New Metric]**。 這會將您帶往「[計算量度產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)」，讓您從現有的量度建立自訂量度。
 
 To make it easier to quickly create calculated metrics, **[!UICONTROL Create metric from selection]** has been added to the column right-click menu in Freeform Tables. 只要選取一個或多個標頭欄儲存格，就可以看到這個選項。
 
