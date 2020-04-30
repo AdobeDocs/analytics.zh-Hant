@@ -4,7 +4,7 @@ title: 資料來源
 topic: Admin tools
 uuid: eab8a22b-5471-4922-b246-c991814c4b8b
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
 
@@ -21,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在報表套裝上啟用「資料來源」時，會提供 FTP 位置，讓您能夠上傳要整合到報告中的檔案。上傳之後，Adobe 伺服器會自動處理資料，然後將其整合到您的報表套裝中。
 
-請參閱[資料來源說明](https://marketing.adobe.com/resources/help/zh_TW/sc/datasources/)。
+請參閱[資料來源說明](https://docs.adobe.com/content/help/zh-Hant/analytics/import/data-sources/datasrc-home.html)。
