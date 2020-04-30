@@ -3,7 +3,7 @@ description: 即時頁面分析 (即時模式) 可讓您即時取得分鐘粒度
 title: 即時頁面分析
 topic: Activity map
 translation-type: tm+mt
-source-git-commit: 713a73a1d57d93c579e0da58e464cecab3f9d773
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -26,7 +26,7 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 如果您想檢查哪個元素在「即時模式」中大部分被點按：
 
-1. 在工具列的即時模式趨勢線 **[!UICONTROL 上]** ，選取您要分析的時段。
+1. 在工具列的趨勢線上選取您 **[!UICONTROL Live Mode]** 要分析的時段。
 1. 按一下工具列中的「眼睛」圖示，以存取「連結報表」表格。
 1. 依連結排序表格。
 
@@ -39,6 +39,6 @@ After the [A4T integration](https://docs.adobe.com/content/help/zh-Hant/target/u
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施[身份服務](https://marketing.adobe.com/resources/help/zh_TW/mcvid/)後開始。
+請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施[身份服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)後開始。
 
 這裡有更多 [資訊](/help/analyze/activity-map/activitymap-standard-live.md)。
