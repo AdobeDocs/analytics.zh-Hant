@@ -5,7 +5,7 @@ title: 需求和上傳限制
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/new_report_suite.html"  >新增報表套裝</a>」。 </p> </td> 
+   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >新增報表套裝</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
