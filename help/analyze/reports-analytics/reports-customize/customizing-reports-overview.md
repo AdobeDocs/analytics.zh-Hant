@@ -4,7 +4,7 @@ title: 自訂報表概觀
 topic: Reports and analytics
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -35,7 +35,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [功能表自訂](https://marketing.adobe.com/resources/help/zh_TW/reference/customize_menus.html)
+>* [功能表自訂](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 選擇日期或日期範圍 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -81,7 +81,7 @@ t_reports_comparing_dates.xml
 
 您無法比較趨勢報告之間的日期。
 
->[!NOTE]如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://marketing.adobe.com/resources/help/zh_TW/arb/)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
+>[!NOTE]如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
 
 若要比較「Report &amp; Analytics」中排名報表之間的日期：
 
@@ -218,4 +218,4 @@ try_in_workspace.xml
 
 目前，此按鈕僅限擁有 Analysis Workspace 完整權限的使用者名稱可以使用。
 
-如需自訂報告所有方式的詳細資訊，請參閱 [Analysis Workspace](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/) 指南。
+如需自訂報告所有方式的詳細資訊，請參閱 [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/analysis-workspace-features.html) 指南。
