@@ -5,7 +5,7 @@ title: 警報
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
 
-若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/intellligent_alerts.html)。
+若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
 
 ## 新增警報 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -39,13 +39,13 @@ Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONT
 
 1. 在「Report &amp; Analytics」內，開啟您要設定警報的報告。
 1. 按一下 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. 這步驟能帶您進入[新版警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-builder.html)。
+1. 這步驟能帶您進入[新版警報產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)。
 
 ## 檢視或編輯現有警報 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 工作內容
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 這步驟能帶您進入新版[警報產生器](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/alert-manager.html)。
+1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 這步驟能帶您進入新版[警報產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)。
 
 ## 舊式警報遷移 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -100,17 +100,17 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>參照報表套裝包含 ASI 槽的警報 </p> </td> 
-   <td colname="col2"> <p>您將無法再<a href="https://marketing.adobe.com/resources/help/zh_TW/reference/ASI_slots_admin.html"  >建立或編輯 ASI 槽</a>，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>您將無法再建立或編輯 ASI 槽，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用參與率量度的警報 </p> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_participation.html"  >參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
+   <td colname="col2"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-participation.html"  >參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂日曆報表套裝的每月警報 </p> </td> 
-   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://marketing.adobe.com/resources/help/zh_TW/arb/custom_calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
    <td colname="col3"> <p>尚未可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
