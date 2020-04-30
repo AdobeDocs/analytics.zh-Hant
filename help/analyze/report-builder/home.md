@@ -3,7 +3,7 @@ title: Adobe Report Builder 說明
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >
 >Update your installation of Report Builder to the latest version. This update is a pre-requisite for running the Analytics user ID migration to the Admin Console, beginning in April 2018.
 >
->See [Analytics User Migration to the Admin Console](https://marketing.adobe.com/resources/help/en_US/experience-cloud/admin-console/analytics-migration/) for migration information.
+>See [Analytics User Migration to the Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) for migration information.
 
 >[!IMPORTANT]
 >
@@ -40,15 +40,17 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 ## Experience Cloud 資源
 
 * [Adobe Analytics 社群](https://helpx.adobe.com/tw/marketing-cloud/analytics.html)
-* [Experience Cloud 發行說明](https://marketing.adobe.com/resources/help/zh_TW/whatsnew/index.html#Current%20Release%20Notes)
-* [產品文件首頁](https://marketing.adobe.com/resources/help/en_US/home/index.html)
-* [Developer](https://marketing.adobe.com/resources/help/zh_TW/home/index.html#Developer)
+* [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
+* [產品文件首頁](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
+* [Developer](https://www.adobe.io/apis/experiencecloud.html)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)
 * [精選解決方案中心](https://www.omniture.com/en/products/online_business_optimization)
 
+<!--Meike Russ Replace the omniture links above?-->
+
 ## Reports &amp; Analytics 說明
 
-* [Analysis Workspace 說明](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/)
-* [Reports &amp; Analytics 說明](https://marketing.adobe.com/resources/help/zh_TW/sc/user/index.html)
-* [Analytics 參考資料](https://marketing.adobe.com/resources/help/en_US/reference/index.html)管理工具、報表及量度說明。
+* [Analysis Workspace 說明](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/analysis-workspace-features.html)
+* [Reports &amp; Analytics 說明](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html)
+* [Analytics 參考資料](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)管理工具、報表及量度說明。
