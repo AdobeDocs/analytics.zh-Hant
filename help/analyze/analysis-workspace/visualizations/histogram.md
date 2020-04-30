@@ -3,7 +3,7 @@ description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型�
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -37,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 起始貯體 | 決定色階分佈圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
 | 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
 | 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | 可讓您選擇[訪客](https://marketing.adobe.com/resources/help/zh_TW/reference/visitors.html)、[造訪](https://marketing.adobe.com/resources/help/zh_TW/reference/metrics_visit.html)或[點擊](https://marketing.adobe.com/resources/help/zh_TW/reference/hit.html)。例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| 計算方法 | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). 例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+
+<!--Russ or Meike - Check Hit Type link above. -->
 
 **範例**：
 
@@ -54,4 +56,4 @@ To view or change the data source for the histogram chart, click the dot next to
 
 ![](assets/prebuilt_segments.png)
 
-若想探索管理自由資料表及其他視覺效果的其他方法，例如進行資料劃分，請前往[此處](https://marketing.adobe.com/resources/help/zh_TW/analytics/analysis-workspace/freeform-analysis-visualizations.html)。
+若想探索管理自由資料表及其他視覺效果的其他方法，例如進行資料劃分，請前往[此處](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)。
