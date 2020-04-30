@@ -3,7 +3,7 @@ description: 'null'
 title: 受移轉影響的 API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -44,5 +44,5 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 * [一般使用者管理資訊](https://helpx.adobe.com/tw/enterprise/help/users.html)
 * [透過 adobe.io 執行使用者管理 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [使用者管理 API 論壇](https://forums.adobe.com/community/umapi/overview)
-* [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://marketing.adobe.com/resources/help/zh_TW/experience-cloud/admin-console/analytics-migration/)
+* [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
