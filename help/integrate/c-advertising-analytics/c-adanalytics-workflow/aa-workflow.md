@@ -3,7 +3,7 @@ description: 'null'
 title: 工作流程概觀
 uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -12,7 +12,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ![](assets/step1_icon.png)將您要檢視 Google/Bing 搜尋資料的任何 Analytics 報表套裝對應到您的 Experience Cloud 組織。
 
-請參閱[將報表套裝對應至組織](https://marketing.adobe.com/resources/help/en_US/mcloud/map-report-suite.html)。
+請參閱[將報表套裝對應至組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
 
 ![](assets/step2_icon.png) [按照個別報表套裝來啟用 Advertising Analytics報表](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
