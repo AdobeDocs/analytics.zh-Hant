@@ -3,7 +3,7 @@ description: 分析報告 API 的比較表。提供支援文件的連結。
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col5"> 用於提取大型資料匯出的完整處理、已完成的資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://marketing.adobe.com/resources/help/en_US/analytics/whitepapers/analytics-data-availability.pdf"  > 延遲性</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > 延遲性</a> </p> </td> 
    <td colname="col2"> 30-90 分鐘 </td> 
    <td colname="col3"> * 秒 -10 分鐘 </td> 
    <td colname="col4"> 秒 -10 分鐘 </td> 
@@ -47,7 +47,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col5"> 全螢幕 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://marketing.adobe.com/resources/help/zh_TW/reference/"  > 報告介面</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html"  > 報告介面</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、API 中的即時報告 </td> 
    <td colname="col4"> 僅 API </td> 
@@ -86,7 +86,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 網站服務</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 即時報告</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream 概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://marketing.adobe.com/resources/help/zh_TW/reference/data_warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
