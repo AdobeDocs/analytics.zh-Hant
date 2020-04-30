@@ -5,7 +5,7 @@ solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 建立資料元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
 translation-type: tm+mt
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -15,8 +15,8 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
 在 Dynamic Tag Management 中建立資料元素。
 
 1. [建立 Web 屬性](/help/implement/other/dtm/t-create-web-property.md) (如果尚未這麼做的話)。
-1. 在 Web 屬性中，按一下&#x200B;**[!UICONTROL 「規則」]**>**[!UICONTROL 「資料元素」]**。
-1. 按一下&#x200B;**[!UICONTROL 「建立新資料元素」]**。
+1. 在Web屬性中，按一下 **[!UICONTROL Rules]** > **[!UICONTROL Data Elements]**。
+1. 按一下 **[!UICONTROL Create New Data Element]**.
 1. 填入下列欄位和選項:
 
    <table id="choicetable_681F7D5B86534FF0B6DB67E117B8E381"> 
@@ -33,7 +33,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>類型</strong></td> 
-      <td class="chdesc stentry"> <p> 指定提取資料的來源，例如 JS 物件、CSS 選擇器、Cookie、URL 參數或自訂指令碼。 </p> <p>視您選取的類型而定，會顯示不同的選項。如需詳細資訊與範例，請參閱 Dynamic Tag Management 產品文件中的<a href="https://marketing.adobe.com/resources/help/zh_TW/dtm/data_elements.html">資料元素類型</a>。 </p> </td> 
+      <td class="chdesc stentry"> <p> 指定提取資料的來源，例如 JS 物件、CSS 選擇器、Cookie、URL 參數或自訂指令碼。 </p> <p>視您選取的類型而定，會顯示不同的選項。如需詳細資訊與範例，請參閱 Dynamic Tag Management 產品文件中的<a href="https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html">資料元素類型</a>。 </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>預設值</strong></td> 
@@ -54,5 +54,5 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
     </tr> 
    </table>
 
-   如需有關如何使用資料元素的詳細資訊，請參閱 Adobe 標籤管理產品文件中的[資料元素](https://marketing.adobe.com/resources/help/zh_TW/dtm/data_elements.html)。
-1. 按一下&#x200B;**[!UICONTROL 儲存資料元素]**。
+   如需有關如何使用資料元素的詳細資訊，請參閱 Adobe 標籤管理產品文件中的[資料元素](https://docs.adobe.com/content/help/en/dtm/using/resources/data-elements.html)。
+1. 按一下 **[!UICONTROL Save Data Element]**.
