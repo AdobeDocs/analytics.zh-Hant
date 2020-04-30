@@ -5,7 +5,7 @@ title: 分類規則
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 分類規則產生器]**
+**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Classification Rule Builder]**
 
 規則產生器可用來建立 *`classification rule set`*，也就是 *`classification rules`* 的清單。規則會匹配您指定的準則，然後執行動作。
 
@@ -51,11 +51,11 @@ about_classification_rules.xml
 * [規則什麼時候不會將索引鍵分類？](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [關於規則優先順序](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] [!UICONTROL 規則產生器]不支援「數值 2」分類。
+>[!NOTE] 不 [!UICONTROL Rule Builder] 支援數值2分類。
 
 ## 關於規則的重要資訊
 
-* 指定分類的[群組權限](https://marketing.adobe.com/resources/help/zh_TW/reference/groups.html) (於[!UICONTROL  管理工具]中)。
+* 指定分類的 中的 [分類](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html) ，群組權限 [!UICONTROL Admin Tools]。
 
 * **規則運算式**：[分類規則中的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)底下提供說明。
 
@@ -63,7 +63,7 @@ about_classification_rules.xml
 
    當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。(此[索引鍵](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄)。
 
-* **規則優先順序**：如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+* **規則優先順序**:如果索引鍵符合設定相同分類的多個規則(在欄 [!UICONTROL Set Classification] 中)，則會使用符合分類的最後一個規則。 See [About Rule Priority](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
 
 * **規則數目上限**：您可以建立的規則數目並無限制。但是，大量的規則可能會影響瀏覽器效能。
 * **處理**：視您的分類相關流量大小而定，會以頻繁間隔處理規則。
@@ -78,7 +78,7 @@ about_classification_rules.xml
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/c-classifications2/crb/classification-rule-definitions.md)」。
 
-   您可在[](/help/components/c-classifications2/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
+   您可在[](/help/components/c-classifications2/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(For data connectors, rules are created by partners in the Dev Center and displayed in the [!UICONTROL Classification Rule Builder].)
 
 * 覆寫索引鍵時，在指定的時間範圍後，即使在您啟用「[覆寫分類](/help/components/c-classifications2/crb/classification-rule-definitions.md)」後，分類的索引鍵仍未在資料中顯示。
 * 索引鍵並未分類，而且在約一個月之前開始的時間範圍之後，索引鍵從未傳入 [!DNL Adobe Analytics]。
@@ -127,15 +127,15 @@ regex_classification_rules.xml
 
 ![](assets/regex.png)
 
-[!UICONTROL 匹配群組]：顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。
+[!UICONTROL Match Groups]:顯示規則運算式與促銷活動ID字元的對應方式，以便您對促銷活動ID中的位置進行分類。
 
 ![](assets/regex_tracking_code.png)
 
 這個範例告訴規則，促銷活動日期 `20140601` 是在第三個群組 `(.+)`，以 `$3` 識別。
 
-**[!UICONTROL 規則產生器]**
+**[!UICONTROL Rule Builder]**
 
-在[!UICONTROL 規則產生器]中，設定規則如下：
+In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
@@ -161,9 +161,9 @@ regex_classification_rules.xml
 
 ![](assets/regex_char_position.png)
 
-**[!UICONTROL 規則產生器]**
+**[!UICONTROL Rule Builder]**
 
-在[!UICONTROL 規則產生器]中，設定規則如下：
+In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |--- |--- |--- |--- |
@@ -186,9 +186,9 @@ regex_classification_rules.xml
 
 ![](assets/regex_varying_length.png)
 
-**[!UICONTROL 規則產生器]**
+**[!UICONTROL Rule Builder]**
 
-在[!UICONTROL 規則產生器]中，設定規則如下：
+In the [!UICONTROL Rule Builder], configure the rule as follows:
 
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |--- |--- |--- |--- |
@@ -261,7 +261,7 @@ c:d:yoyo
 
 ## 關於規則優先順序
 
-如果一個索引鍵符合多個規則，而且設定的分類欄和「[!UICONTROL 設定分類]」欄裡顯示的相同，會使用最後一個規則。因此，您可能要將最重要的規則排在規則集的最後面。
+If a key is matched to multiple rules, and it sets the same classification column shown in the [!UICONTROL Set Classification] column, the last rule is used. 因此，您可能要將最重要的規則排在規則集的最後面。
 
 <!-- 
 
@@ -307,21 +307,21 @@ t_classification_rule.xml
 >在這個程序中，您必須套用規則到一個或多個報表套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](/help/components/c-classifications2/c-sub-classifications.md)簡化您的規則集。
 
 1. [建立分類規則集](/help/components/c-classifications2/crb/classification-rule-set.md)。
-1. 在規則集頁面上，按一下&#x200B;**[!UICONTROL 「新增規則」]**。
+1. On the rule set page, click **[!UICONTROL Add Rule]**.
 
    ![](assets/add_rule.png)
 
-1. 在&#x200B;**[!UICONTROL 報表套裝]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL 「新增套裝」]**&#x200B;以指定要指派到這個規則集的一個或多個報表套裝。
+1. Next to **[!UICONTROL Report Suites]**, click **[!UICONTROL Add Suites]** to specify one or more report suites to assign to this rule set.
 
-   接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]**&#x200B;頁面。
+   隨即 **[!UICONTROL Select Report Suites]** 顯示頁面。
 
    >[!NOTE]
    *`only`*&#x200B;只有 () 在符合下列條件時，報表套裝才會顯示在此頁面上：>
 
-   * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
-   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集[的 ](/help/components/c-classifications2/crb/classification-rule-set.md)，取得此必要條件的說明。)
+   * The report suites have at least one classification defined for that variable in [!UICONTROL Admin Tools].
+   (See *`Variable`* in [Classification Rule Sets](/help/components/c-classifications2/crb/classification-rule-set.md) for an explanation about this prerequisite.)
 
-   * 您在&#x200B;**[!UICONTROL 可用報表套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/c-classifications2/crb/classification-rule-set.md)來建立規則集後所顯示的報表套裝。
+   * You selected the report suite on the **[!UICONTROL Available Report Suites]** page, which displays after you click [Add Rule Set](/help/components/c-classifications2/crb/classification-rule-set.md) to create the rule set.
 
 
 1. 指定是否覆寫現有規則：
@@ -341,7 +341,7 @@ t_classification_rule.xml
    >如果一個索引鍵符合設定同一個分類的多個規則 (在「設定分類」欄裡)，則會使用符合分類的最後一個規則。請參閱上文的&#x200B;**關於規則優先順序**，以取得關於排序規則的詳細資訊。
 
 1. [測試您的規則集](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
-1. 測試之後，按一下&#x200B;**[!UICONTROL 「作用中」]**&#x200B;以驗證及啟動規則。
+1. After testing, click **[!UICONTROL Active]** to validate and activate the rule.
 
    啟動規則會自動建立 檔案，並幫您上傳檔案。
 
@@ -358,23 +358,23 @@ t_classifications_test_rule.xml
 說明如何測試分類規則或規則集的步驟。執行測試會檢查規則集內所有的規則。
 
 1. [建立分類規則集](/help/components/c-classifications2/crb/classification-rule-set.md)。
-1. 在「[!UICONTROL 分類規則產生器]」上，按一下規則集名稱。
+1. 在上， [!UICONTROL Classification Rule Builder]按一下規則集名稱。
 1. 確定規則集已和一個報表套裝關聯。
-1. 在規則編輯器上，按一下&#x200B;**[!UICONTROL 「測試規則集」]**。
+1. On the rule editor, click **[!UICONTROL Test Rule Set]**.
 
    ![步驟結果](assets/classification_test_rule_set.png)
 
-1. 在「[!UICONTROL 範例索引鍵]」欄位中輸入或貼上測試索引鍵。
+1. Type or paste test keys in the [!UICONTROL Sample Keys] field.
 
    範例索引鍵包括：
 
    * 追蹤程式碼
    * 搜尋關鍵字或片語
    請參閱[分類規則裡的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)，以取得測試規則運算式的相關資訊。
-1. 按一下&#x200B;**[!UICONTROL 「執行測試」]**。
+1. 按一下 **[!UICONTROL Run Test]**.
 
-   符合的規則會在「[!UICONTROL 結果]」表格裡顯示。
-1. (選用) 按一下&#x200B;**[!UICONTROL 「啟動」]**&#x200B;以啟動規則，並覆寫現有的分類。
+   Rules that match are displayed in the [!UICONTROL Results] table.
+1. (Optional) Click **[!UICONTROL Activate]** to activate the rule, and to overwrite existing classifications.
 
    查看有關使用規則來覆寫現有分類的詳細資訊。
 
@@ -389,11 +389,11 @@ t_validate_rules.xml
 說明如何驗證和啟動分類規則的步驟。
 
 1. [建立分類規則集](/help/components/c-classifications2/crb/classification-rule-set.md)，然後[新增分類規則](/help/components/c-classifications2/crb/classification-quickstart-rules.md)至該集。
-1. 在規則編輯器上，按一下&#x200B;**[!UICONTROL 「啟動」]**。
+1. On the rule editor, click **[!UICONTROL Activate]**.
 
    ![](assets/overwrite_keys.png)
 
-1. (選用) 若要覆寫分類，請為  啟用&#x200B;**[!UICONTROL 覆寫分類]***`<selection>`*。
+1. （可選）若要覆寫分類，請啟 **[!UICONTROL Overwrite classifications for]***`<selection>`*&#x200B;用。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 
