@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
+source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
 
@@ -35,8 +35,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [Data Warehouse 區段相容性](c-segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](c-segmentation/seg-reference/seg-rights.md)
       + [疑難排解](c-segmentation/seg-reference/c-troubleshooting.md)
-   + 使用個案 {#use-cases}
-      + [排除特定日期](c-segmentation/use-cases/exclude-date-range.md)
    + [常見問題集](c-segmentation/seg-transition.md)
    + [Analytics區段的新增功能](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis 的轉換指南](c-segmentation/seg-transition-ad-hoc.md)
@@ -64,7 +62,6 @@ source-git-commit: 3e97fe61fd207dddf32f3c0e3ddea19949d18bac
       + [量度相容性](c-calcmetrics/cm-compatibility.md)
       + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
-   + [衍生受事件影響的資料](c-calcmetrics/cm-events.md)
    + [常見問題集](c-calcmetrics/cm-transition.md)
    + [作法影片](c-calcmetrics/cm-videos.md)
 + 虛擬報表套裝 {#virtual-report-suites}
