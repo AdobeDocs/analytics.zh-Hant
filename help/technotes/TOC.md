@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 技術文件
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: ea1927827c0615b085a440bc86116b438594e448
+source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ---
 
@@ -26,9 +26,12 @@ source-git-commit: ea1927827c0615b085a440bc86116b438594e448
       + [轉換](ga-to-aa/reports/conversions-reports.md)
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
-+ [分析受事件影響的資料](event-impacted.md)
 + 分析受事件影響的資料 {#event}
-   + [向使用者傳達影響](event/event-communicate.md)
+   + [分析受事件影響的資料概述](event/overview.md)
+   + [在分析中排除特定日期](event/segments.md)
+   + [比較日期與先前範圍](event/compare-dates.md)
+   + [衍生受事件影響的資料](event/calcmetrics.md)
+   + [向使用者傳達事件](event/communicate.md)
 + [瀏覽器 Cookie](cookies.md)
 + [資料保留](data-retention.md)
 + [延遲性](latency.md)
