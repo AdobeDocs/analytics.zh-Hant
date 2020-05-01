@@ -3,7 +3,7 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics檔案儲存庫的重要更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
+source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 ---
 
@@ -12,7 +12,8 @@ source-git-commit: 2aca0e5820b3301cd52e43a528ba1e2d9eed8e83
 
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
-* 如需新功能、管理注意事項和錯誤修正的完整清單，請參閱最新 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
+* 如需相關 [!UICONTROL Customer Journey Analytics]資訊，請 [前往](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html)。
+* For a comprehensive list of new Adobe Analytics features, Admin notices, and bug fixes, see the latest [Experience Cloud Release Notes](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html).
 * 如需新功能的詳細資訊，請參 [閱「工具」使用指南中的「分析工作區的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) 」。
 * 如需 Adobe Analytics for Audio and Video 的相關資訊，請參閱[在 Analytics 測量音訊和視訊](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)。
 
@@ -20,13 +21,16 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
+| 2020 年 4 月 28 日 | 已新增「內容速度」 [量度的檔案](https://docs.adobe.com/content/help/en/analytics/components/variables/metrics/metrics-content-velocity.html) 。 |
+| 2020 年 3 月 12 日 | 已新增將區 [段發佈至Experience Cloud的更新](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-publish.html)。 |
+| 2020 年 3 月 12 日 | 更新CDA連結延遲。 |
 | 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs的檔案](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html)。 |
 | 2020 年 2 月 25 日 | 已新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
 | 2020 年 2 月 18 日 | 已新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
 | 2020 年 2 月 12 日 | 行銷管道檔案的更 [新和重組](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html) 。 |
 | 2020 年 2 月 7 日 | 設定跨 [裝置分析的更新及常見問](../components/cda/cda-setup.md) 題 [集](../components/cda/cda-faq.md) |
 | 2020 年 2 月 4 日 | 完整重寫實 [施使用指南](../implement/home.md)。 |
-| 2020 年 1 月 22 日 | 更新「自由表格」頁面，該頁面含有新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)的相關資訊。 |
+| 2020 年 1 月 22 日 | Updated Freeform Table page to include information on the new [Freeform Table Builder](/help/analyze/analysis-workspace/visualizations/freeform-table.md). |
 | 2020 年 1 月 13 日 | Added [Adobe Analytics and browser cookies](../technotes/cookies.md). |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/company-settings/login-restrictions-eol.html)的相關新主題 |
