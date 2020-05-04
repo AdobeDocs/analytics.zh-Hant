@@ -2,7 +2,7 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 [![元件](assets/components_50px.png)](/help/components/home.md) [元件指南](/help/components/home.md) – 說明有助於彙整資料的實用功能。元件包括區段、計算量度、虛擬報表套裝、警報等。本指南也包含變數參考資訊，說明可使用的所有維度和度量。
 
-[![匯出](assets/export_50px.png)](/help/export/home.md)[指南](/help/export/home.md) -從Adobe Analytics取得資料：使用 [!UICONTROL Data Feeds] 以接收每小時或每日的原始資料匯出。 Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
+[![匯出](assets/export_50px.png)](/help/export/home.md)[指南](/help/export/home.md) -從Adobe Analytics取得資料： 使用 [!UICONTROL Data Feeds] 以接收每小時或每日的原始資料匯出。 Retrieve a spreadsheet output of data using [!UICONTROL Data Warehouse].
 
 [![匯入](assets/import_50px.png)](/help/import/home.md) [匯入指南](/help/import/home.md) – 以大量或即時匯入等方式，將資料從外部來源匯入 Analytics。包含 [!UICONTROL Data Sources]、 [!UICONTROL Data Insertion API]和 [!UICONTROL Data Connectors]。
 
@@ -41,7 +41,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 Here is a comprehensive list of and links to all the reporting capabilities in Adobe Analytics.
 
-* [Analysis Workspace](/help/analyze/analysis-workspace/analysis-workspace-features.md)
+* [Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
 * [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
