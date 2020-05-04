@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
+source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
 
 ---
 
@@ -13,8 +13,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 + [Analytics 工具指南](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace 功能](analysis-workspace/analysis-workspace-features.md)
-   + [Analysis Workspace 說明](analysis-workspace/home.md)
+   + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [Analysis Workspace 的使用案例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace 的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
    + 建立 Workspace 專案 {#build-workspace-project}
