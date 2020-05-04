@@ -5,7 +5,7 @@ title: Analysis Workspace 的新增功能
 topic: Reports and analytics
 uuid: ff50ef9f-e5b8-442e-bfa6-2f224ba9f111
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -682,7 +682,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col2"> <p>可讓您變更字體設定 (粗體、斜體等) 和文字方塊視覺效果和面板/視覺效果說明內的超連結。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/analysis-workspace-features.md#section_253EA04E067F4A29A8B54CE2B7631086"  > 內部連結 (快速視覺化連結) </a></b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="/help/analyze/analysis-workspace/home.md#section_253EA04E067F4A29A8B54CE2B7631086"  > 內部連結 (快速視覺化連結) </a></b> </p> </td> 
    <td colname="col2"> <p><b>內部連結</b>可讓您透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。 </p> </td> 
   </tr> 
   <tr> 
@@ -978,7 +978,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、視覺效果、元件
 * 新的 [](/help/analyze/analysis-workspace/visualizations/venn.md)Venn 視覺效果類型，可讓您拖曳至最多 3 個區段及量度，並建立 Venn 圖表。
-* 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
+* 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
 * [「建立視覺效果」圖示](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：按一下此圖示可提供您下一個動作 (長條圖、Venn...) 的智慧猜測
 * 展開的「[手動列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)」功能
 * 「[新增區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」拖放區域
