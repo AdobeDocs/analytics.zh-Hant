@@ -2,7 +2,7 @@
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 | 產品 | 說明 | 文件連結 |
 |--- |--- |--- |
-| Analysis Workspace | 用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。提供比 Reports &amp; Analytics 更多的報表靈活性。 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/analysis-workspace-features.html) |
+| Analysis Workspace | 用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。提供比 Reports &amp; Analytics 更多的報表靈活性。 | [adobe.ly/aaworkspacedocs](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) |
 | Reports &amp; Analytics (前稱為 SiteCatalyst) | 用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。 | [Reports &amp; Analytics 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html) |
 | Report Builder | 可讓您從 Adobe Analytics 資料建立自訂請求，並使用 Microsoft Excel 加以視覺化的 Excel 增益集。 | [Report Builder 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html) |
 | Ad Hoc Analysis (前稱為 Discover) | 進階數位分析的 Java 型工具。 | [Ad Hoc Analysis 首頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/ad-hoc-analysis/adhoc-home.html) |
