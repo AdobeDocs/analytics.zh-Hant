@@ -6,7 +6,7 @@ title: 自訂 Analytics 工具權限
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -58,7 +58,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 | [ Ad Hoc Analysis 授權使用者](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | Grants permission to access [!UICONTROL Ad Hoc Analysis]. |
 | 網站服務存取 | 為非管理員啟用網站服務存取。產生網站服務憑證。 |
 | [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | Grants members of this group access to [!UICONTROL Report Builder] licenses. |
-| [Analysis Workspace 存取](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/analysis-workspace-features.html) | 授予對 Analysis Workspace 的使用者存取，即 [!DNL Adobe Analytics] 建議的報告介面。 |
+| [Analysis Workspace 存取](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html) | 授予對 Analysis Workspace 的使用者存取，即 [!DNL Adobe Analytics] 建議的報告介面。 |
 | [Reports &amp; Analytics](https://docs.adobe.com/content/help/en/analytics/landing/an-key-concepts.html) | 授予對 Reports &amp; Analytics 的使用者存取。 |
 | [建立計算量度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html) | 授予建立計算量度的使用者權限。 |
 | [區段建立](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html) | 授予建立區段的使用者權限。 |
