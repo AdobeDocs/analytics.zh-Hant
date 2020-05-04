@@ -3,7 +3,7 @@ description: 'null'
 title: 執行貢獻分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ---
 
@@ -44,7 +44,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵功能表運用它的多個功能，讓您的分析結果更具意義，例如：
 
    * [依據另一個維度劃分每個維度項目。](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
-   * [顯示一或多列的趨勢。](/help/analyze/analysis-workspace/analysis-workspace-features.md#section_34930C967C104C2B9092BA8DCF2BF81A)
+   * [顯示一或多列的趨勢。](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
    * [新增視覺效果。](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)
    * [建立警報。](/help/components/c-alerts/intellligent-alerts.md)
    * [建立或比較區段。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
