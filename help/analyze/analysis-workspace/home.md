@@ -1,102 +1,190 @@
 ---
-description: 如何開始使用 Adobe Analytics。
 keywords: Analysis Workspace
-title: 快速入門指南
+title: Analysis Workspace 概述
+topic: Reports and analytics
+uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: efbbf94882a406e95791e38e80f86691285986a6
 
 ---
 
 
-# Analysis Workspace
+# Analysis Workspace 概述
 
-Analysis Workspace 是 Adobe 的旗艦級工具之一，可供組織運用資料進行可實際執行的決策。自由表格這項最常用的視覺效果，可讓您運用維度、量度、區段和日期範圍輕鬆建立自訂報表。
+Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
 
-## 必備條件
+**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
 
-[透過 Adobe Experience Platform Launch 將資料傳送至 Adobe Analytics](/help/implement/launch/validate-publish-prod.md)：使用 Analysis Workspace 需要先有效實施工具。請確認您的組織確實將資料傳送至 Adobe，再開始使用工具。其他實施方式 (例如 DTM 和舊版的手動實施) 也可有效運用。
+## 概述影片
 
-## 在 Workspace 中提取基本排名報表
+>[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
 
-運用 Analysis Workspace 提取基本排名報表。排名報表會顯示每個維度值的匯總完整數據檢視，從最大的數值開始依序顯示。這類報表類型有助於查看您網站的哪些元件成效最佳，例如哪些頁面獲得最多流量或哪些產品銷售最多。
+[這裡](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)提供完整的 YouTube 播放清單。
 
-1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-3. 在上方的導覽列按一下「Workspace」。
-4. 按一下「建立新專案」按鈕。
-5. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
-6. 左側應會顯示含有維度、量度、區段和日期範圍的清單。找到「頁面」維度 (顯示為橙色)，將該維度拖曳至畫布上顯示「將維度放置在此處」的位置。
-7. 請注意，如果報表套裝中含有資料，您就會看到顯示當月成效最佳頁面的報表。Analysis Workspace 會自動在報表中填入[「發生次數」](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度。
-8. 找出「造訪次數」量度 (顯示為綠色)，並將此量度拖曳到「發生次數」量度標頭&#x200B;**中**&#x200B;或&#x200B;**旁邊** (請避免放到量度上方)。如果將「造訪次數」量度拖曳到「發生次數」上，前者就會在報表中取代後者。如果將「造訪次數」量度拖曳到「發生次數」旁，兩個量度會並排顯示。
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+>[!NOTE]
+>
+>參閱 [Analysis Workspace 的新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)，了解功能的相關更新。
 
-## 在 Workspace 中提取基本趨勢報表
+## 完整控制專案元素和元件
 
-運用 Analysis Workspace 提取基本趨勢報表。趨勢報表會依據所選日期範圍顯示一段時間以來的量度檢視。這類報表有助於識別一段期間內的趨勢，且可用於評估業務決策的成功與否。舉例來說，您可以檢視一段期間內的頁面檢視趨勢報表，評估網站的重新設計是否造成流量的增減。
+Analysis Workspace 提供自由與靈活性：
 
-1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-3. 在上方的導覽列按一下「Workspace」。
-4. 按一下「建立新專案」按鈕。
-5. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
-6. 左側應會顯示含有維度、量度、區段和日期範圍的清單。找到「頁面檢視」維度，並將該維度拖曳至畫布上標為「將量度放置在此處」的小空間。請避免放置在維度專用的空間 (至少在本次練習中不要這麼做)。
-7. 請注意，如果報表套裝中含有資料，您應該會看到目前月份的基本頁面檢視趨勢報表。Analysis Workspace 會自動加入「天」日期範圍，以便您查看當月的頁面檢視趨勢。
-8. 在左側日期範圍元件清單中找到「週」日期範圍 (顯示為紫色)。按一下日期範圍標題以展開並查看所有日期範圍元件，或使用搜尋列搜尋元件。
-9. 將「週」日期範圍拖曳至畫布上的「天」日期範圍標頭上方，藉此取代「天」。
-10. 請注意，此時趨勢報表會按週彙總資料，而非按天。
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+* 拖放元件 (維度、量度、區段和時間粒度)
+* 拖放多個視覺效果至專案
+* 在專案中的任意位置移動、調整大小以及堆疊視覺效果
 
-## 透過工具進行實驗
+![](assets/fa_project_new.png)
 
-Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。
+參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得詳細資訊。
 
-如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+## 專案中的多重視覺效果
 
-## 疑難排解
+拖放您需要的視覺效果數目至專案。
 
-**我將量度拖曳到專案後，系統顯示「資料無效」。**
+![](assets/visualizations-multiple.png)
 
-資料無效代表 Adobe 無法運用報表中使用的維度和量度組合傳回資料。舉例來說，將兩個量度彼此堆疊在一起就無法傳回資料，因為系統無法以這種方式顯示兩個量度。因此，請改為並排放置量度。
+建立可顯示變更百分比的專案，其中具有對應至自由資料表中儲存格的多個視覺效果。
 
-**我將量度拖曳到專案後，系統並未顯示任何實際資料，只顯示零。**
+![](assets/visualizations-multiple02.png)
 
-如果您成功建立了工作區報表，但當中沒有任何資料，建議您檢查以下幾個事項：
+參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得詳細資訊。
 
-* 再次檢查報表套裝，確認報表中已填入資料。
-* 如果報表中有使用區段，可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
-* 檢查右上方的日期範圍，確認已設為您需要的值。
-* 導覽至您的網站，使用除錯程式來驗證系統確實開始收集所需資料。
+## 面板和視覺效果的內部連結
 
-## 其他資源
+結合 Analysis Workspace [豐富文字編輯](/help/analyze/analysis-workspace/visualizations/text.md)功能後，您可透過文字方塊向下連結至專案內的特定面板及視覺效果，例如建立專案的內容表格。您可以共用專案連結的方式共用這些連結，將使用者導向至專案內的特定視覺效果或面板。已新增「取得面板連結」和「取得視覺效果連結」滑鼠右鍵選項。若要將內部連結新增至您的專案：
 
-* [Analysis Workspace 發行說明](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：詳閱工具採用的最新功能。
-* [在 YouTube 觀看 Analysis Workspace 教學](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：了解如何透過這項廣泛播放清單使用 Analysis Workspace 的多數功能。
-* 產品使用秘訣：Analysis Workspace 右下方有時候會顯示每日秘訣，並搭配短片。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
-* [Analysis Workspace 社群](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：與其他使用者討論 Analysis Workspace 相關事項，並可投票選出想要加到工具中的功能。
-* 部落格貼文：
-   * [使用更聰明的分析強化組織](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
-   * [全新的 Adobe Analytics 功能讓您更容易取得最強大的前瞻分析](https://blogs.adobe.com/digitalmarketing/analytics/new-adobe-analytics-capabilities-make-powerful-insights-accessible/)
-   * [使用 Analysis Workspace 充分發揮生產力的 5 個祕訣](https://blogs.adobe.com/digitalmarketing/analytics/5-tips-maximize-productivity-analysis-workspace/)
-   * [Analysis Workspace 的更快速見解](https://blogs.adobe.com/digitalmarketing/analytics/faster-insights-with-the-analysis-workspace/)
-   * [為何應使用 Analysis Workspace](https://blogs.adobe.com/digitalmarketing/analytics/why-you-should-be-using-analysis-workspace-in-adobe-analytics/)
+1. 將文字視覺效果拖曳至專案，或許位在需要有上下文的視覺效果或表格旁。
+1. 將文字方塊填入如內容表格等，然後反白標示要連結至面板或視覺效果的項目，例如「成功量度」。
 
-## 下一步
+   ![](assets/intra-linking1.png)
 
-如要加深對 Analysis Workspace 的理解，您有許多方向可走。以下是 Adobe 建議的幾個基本方向：
+1. 捲動至該面板或視覺效果，然後以滑鼠右鍵按一下面板的標頭。
+1. 向下捲動並選取 **[!UICONTROL Get Panel Link]** 或 **[!UICONTROL Get Visualization Link]**:
 
-### 如果您是想要擴充 Analysis Workspace 使用方式相關知識的使用者
+   ![](assets/intra-linking2.png)
 
-* [Workspace UI 的詳細資料](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)：既然您已建立基本報表，接下來請進一步熟悉介面的其餘部分。
-* [Workspace 的視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：自由表格僅僅是 Analysis Workspace 資料視覺效果的其中一種類型。請進一步了解如何使用其他視覺效果，例如折線圖、長條圖和地理分佈圖。
-* [Workspace 的維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)：進一步了解各項維度，以及如何在排名報表之外使用這些維度。
-* [Workspace 的量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md)：進一步了解各項量度，以及如何在自由表格的其他部分使用這些量度。
-* [區段簡介](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)：了解各項區段，並使用區段提取基本報表。
-* [Workspace 的日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)：了解相對日期和滾動日期，並在 Workspace 專案中使用這些設定。
-* 共用 Workspace 中的專案：向同事展示您建立的出色 Workspace 專案。
-* [(進階) Workspace 的面板](/help/analyze/analysis-workspace/c-panels/panels.md)：使用 Workspace 的進階功能，例如「歸因」和「區段比較」。
+1. 複製該連結，並將連結新增至文字視覺效果的「成功量度」超連結。按一下勾選記號以儲存文字。
 
-### 針對想要改善其組織中工作區品質的分析師和管理員
+如果您在專案內摺疊面板或視覺效果，按一下連結會展開面板/視覺效果，供使用者檢視。
 
-* [Analysis Workspace 權限](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)：透過 Adobe Admin Console 在 Workspace 中指派使用者權限。
-* [Workspace 中的範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：建立範本，方便讓同事根據自己的需求量身打造專案空間。
-* [Workspace 組織](/help/analyze/analysis-workspace/curate-share/curate.md)：建立一項可用元件有限的專案，讓不熟悉工具的人更容易存取工作區。
+>[!NOTE] 您也可以在右鍵選項中使 **[!UICONTROL Edit Description]** 用此功能。
+
+## 連結至其他專案
+
+You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+
+## 所選儲存格的動態視覺效果
+
+選取個別儲存格，動態查看視覺效果變更。將視覺效果同步 (鎖定) 至所選儲存格。
+
+![](assets/visualize-selected-cells.png)
+
+## 鎖定所選項目或位置
+
+鎖定視覺效果可以控制哪些自由資料表來源對應至視覺效果。
+
+![](assets/manage-data-source.png)
+
+參閱[管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)。
+
+## 所選儲存格的趨勢視覺效果
+
+從所選儲存格建立視覺效果。(按一下滑鼠右鍵> **[!UICONTROL Trend Selection]**.)
+
+![](assets/trend-selection.png)
+
+趨勢選取範圍現在&#x200B;**連結**&#x200B;至以下表格，因此如果您在表格中選取不同的列，趨勢圖表會顯示該列。
+
+![](assets/trend-selection2.png)
+
+## 維度與維度項目劃分
+
+身為零售商，您可以對促銷活動進行比以往更深入的分析，了解如何以更好的方式吸引客戶。您可針對特定需求，以無限方式劃分資料；使用相關量度、維度、區段、時間表及其他分析劃分值來建立查詢。
+
+![步驟結果](assets/fa_data_table_actions.png)
+
+參閱[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
+
+## 從表格選取項目建立區段
+
+選取自由表格中的儲存格，並從選取項目建立區段。
+
+比較多個區段，並立即建立和套用區段。您可以套用多個區段，根據行為和互動將重點放在特定客戶，然後進行比較與對照。
+
+![](assets/segment_inline.png)
+
+在專案層級拖放區段至自由面板，區段就會套用至整個專案。
+
+![](assets/segment-panel.png)
+
+請參閱 [區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)。
+
+## 專案和元件標記
+
+您可在 Analysis Workspace 中，套用標記至專案和元件：
+
+* 在資訊面板中套用或建立專案層級標記。(![](assets/information_icon.png))
+
+* 以滑鼠右鍵按一下元件，以從元件面板進行標記 (或建立標記)。
+* 在搜尋欄位中使用 # 尋找標記。
+
+## 元件動作
+
+從元件左側欄頂端的「動作」功能表，可執行元件層級動作。Select a component and click **[!UICONTROL Actions]** to view the actions.
+
+| 元件動作 | 說明 |
+|--- |--- |
+| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
+| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」。 |
+| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
+| 共用 | 僅套用至區段。 |
+| 刪除 | 僅套用至區段。 |
+
+請參閱[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)以取得詳細資訊。
+
+## 其他功能說明
+
+**您可以拖曳和堆疊的項目**
+
+元件
+
+* 維度
+* 區段
+* 量度
+* 日期範圍
+* 時間粒度 (小時、日、週等)。
+
+**多個自由表格和多個視覺效果**
+
+關於可以新增至面板的自由表格和視覺效果數目，沒有技術上的限制。此外，您也可以對每個自由表格或表格上的選定列執行新的視覺效果 (或匯出至 CSV)。
+
+**欄排列、排序和複製**
+
+* 排序日期範圍預設集 (不包含自訂日期範圍)。
+* CTRL (或 Command) + 按一下 + 拖曳欄可以複製該欄，而拖曳副本則會將其貼至表格中的新位置。
+
+參閱 [Analysis Workspace 中可用的快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)，以了解詳細資訊。
+
+**選取範圍和動作**
+
+您可用在 Excel 中選取行和欄的方式，來選取行和欄。接著就可以在這些選取範圍上執行動作。例如：
+
+* 從選取範圍建立視覺效果
+* 複製至剪貼簿 (CTRL 或 Command + C)
+* 劃分多重選取的列。選取行，然後拖曳維度至選取範圍。或者，以滑鼠右鍵按一下選取範圍，然後使用「劃分」功能表。
+
+**自動儲存和未儲存的變更**
+
+如果您嘗試關閉瀏覽器 (或使用「上一頁」按鈕) 時尚未儲存專案，系統會提示您儲存變更。如果系統當機，您會在載入專案時收到還原為上一個專案狀態的警報。
+
+已經存在 (非新的) 專案只會在瀏覽器當機時，或是其他您沒有機會儲存它們的情況下，才會自動儲存
+
+**所有造訪**
+
+Analysis Workspace 獨特的預設區段。*`All Visits`*&#x200B;會顯示您新增至表格的元件總數。
+
+**計算量度**
+
+計算的使用方式與標準量度相同。
+
+請參閱[計算量度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)。
