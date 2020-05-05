@@ -1,13 +1,13 @@
 ---
-title: 控制面板概述
+title: Adobe Analytics儀表板——概觀
 description: Adobe Analytics儀表板的產品檔案與自助
 translation-type: tm+mt
-source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
+source-git-commit: 7c1f35d92bfaccaf4d2bb7e16e93314d739545d3
 
 ---
 
 
-# Adobe Analytics控制面板概觀
+# Adobe Analytics儀表板——概觀
 
 >[!IMPORTANT]
 >
