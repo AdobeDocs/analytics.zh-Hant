@@ -2,12 +2,16 @@
 description: 使用控制面板記分卡的說明。
 title: Adobe Analytics儀表板執行指南
 translation-type: tm+mt
-source-git-commit: 34c04a571a53c61970a97bc454df74b71bdbe10c
+source-git-commit: abb781413559c2da872ecfe3dbc9eb6df1cdbb74
 
 ---
 
 
-# Adobe Analytics儀表板：執行使用者快速入門手冊
+# Adobe Analytics儀表板： 執行使用者快速入門手冊
+
+>[!IMPORTANT]
+>
+>Adobe Analytics控制面板未發行，僅適用於受邀客戶的測試版測試。 本檔案僅供測試版使用者使用，不代表功能的完整功能。 如果您想成為此>功能的測試版使用者，請聯絡Ashok Gorrepati(gorrepati@adobe.com)。
 
 ## 簡介
 
