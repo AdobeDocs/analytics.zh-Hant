@@ -4,16 +4,19 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 225bc7022af656db5ad61bac2daf454c89ba1867
+source-git-commit: 20e5273ba5a2c3416f13fd91e18621e5dd0eeac7
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 97%
 
 ---
 
 
 # Analysis Workspace 概述
 
-Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
+Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。進階功能包括歸因IQ、
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**
+**[!UICONTROL 分析]** > **[!UICONTROL 工作區]**
 
 ## 概述影片
 
@@ -59,7 +62,7 @@ Analysis Workspace 提供自由與靈活性：
    ![](assets/intra-linking1.png)
 
 1. 捲動至該面板或視覺效果，然後以滑鼠右鍵按一下面板的標頭。
-1. 向下捲動並選取 **[!UICONTROL Get Panel Link]** 或 **[!UICONTROL Get Visualization Link]**:
+1. 向下捲動，選取&#x200B;**[!UICONTROL 「取得面板連結」]**&#x200B;或&#x200B;**[!UICONTROL 「取得視覺效果連結」]**:
 
    ![](assets/intra-linking2.png)
 
@@ -67,11 +70,11 @@ Analysis Workspace 提供自由與靈活性：
 
 如果您在專案內摺疊面板或視覺效果，按一下連結會展開面板/視覺效果，供使用者檢視。
 
->[!NOTE] 您也可以在右鍵選項中使 **[!UICONTROL Edit Description]** 用此功能。
+>[!NOTE] 您也可以在&#x200B;**[!UICONTROL 「編輯說明」]**&#x200B;的右鍵選項中使用此功能。
 
 ## 連結至其他專案
 
-You can link users to other projects that may be of interest to them by going to  **[!UICONTROL Share]** > **[!UICONTROL Get Project Link]** and embedding this link in project descriptions, for example.
+您可以將使用者連結至其所可能感興趣的其他專案，例如前往&#x200B;**[!UICONTROL 「共用]** > **[!UICONTROL 取得專案連結]**」，將此連結嵌入專案說明。
 
 ## 所選儲存格的動態視覺效果
 
@@ -89,7 +92,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 所選儲存格的趨勢視覺效果
 
-從所選儲存格建立視覺效果。(按一下滑鼠右鍵> **[!UICONTROL Trend Selection]**.)
+從所選儲存格建立視覺效果。(按一下滑鼠右鍵 > **[!UICONTROL 趨勢選取項目]**。)
 
 ![](assets/trend-selection.png)
 
@@ -130,7 +133,7 @@ You can link users to other projects that may be of interest to them by going to
 
 ## 元件動作
 
-從元件左側欄頂端的「動作」功能表，可執行元件層級動作。Select a component and click **[!UICONTROL Actions]** to view the actions.
+從元件左側欄頂端的「動作」功能表，可執行元件層級動作。選取元件並按一下「**[!UICONTROL 動作]**」即可檢視動作。
 
 | 元件動作 | 說明 |
 |--- |--- |
