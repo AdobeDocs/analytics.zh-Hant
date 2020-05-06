@@ -2,12 +2,15 @@
 title: Analytics 專用 PWA
 description: Adobe Analytics 專用漸進式網頁應用程式
 translation-type: tm+mt
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
+source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 75%
 
 ---
 
 
-# Analytics 專用 PWA
+# Adobe Analytics適用的PWA
 
 本頁說明如何搭配使用Adobe Analytics與漸進式網頁應用程式(PWA)。
 
@@ -19,11 +22,11 @@ Adobe Analytics 與 PWA 搭配運作的順暢程度，與傳統網站如出一�
 
 ## 取得您的PWA Analytics資料
 
-您不需要變更任何設定，即可透過 Analytics 收集和分析 PWA 資料。Analytics 會自動提供與傳統網站相同的所有功能和特色。
+To collect and analyze your PWA data with [!UICONTROL Analytics], you do not need to  make any configuration changes. [!UICONTROL Analytics 會自動提供與傳統網站相同的所有功能和特色。]
 
 ## 新增離線追蹤功能以提高 PWA 效益
 
-您可以搭配使用 Analytics [離線追蹤功能](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html)，提高 PWA 的使用效益。此功能預設為關閉，但只要將下列屬性新增至 AppMeasurement.js 檔案即可開啟：`s.trackOffline=true;`。
+You can increase the effectiveness of your PWA by using Adobe Analytics [offline tracking capabilities](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html) with it. 此功能預設為關閉，但只要將下列屬性新增至 AppMeasurement.js 檔案即可開啟：`s.trackOffline=true;`。
 
 例如，下列 AppMeasurement.js 檔案中，將該屬性新增至 `CONFIG SECTION` 的結尾處：
 
