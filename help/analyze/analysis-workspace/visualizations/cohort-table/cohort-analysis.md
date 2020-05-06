@@ -4,7 +4,10 @@ title: 同類群組分析是什麼？
 topic: Reports and analytics
 uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
 translation-type: tm+mt
-source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
+source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 91%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 99232c5bce94cfc55b9f01080555cb8e545442e9
 
 >[!IMPORTANT]
 >
->同類群組分析不支援計算量度。
+>同類群組分析不支援非可分段量度，例如計算量度、非整數量度或發生 [!UICONTROL 次數]。 只有可用於區段的量度可用於同類群組分析，而且一次只能增加1。
 
 ## 同類群組分析功能
 
