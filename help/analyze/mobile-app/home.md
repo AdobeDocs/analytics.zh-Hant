@@ -2,7 +2,7 @@
 title: Adobe Analytics儀表板——概觀
 description: Adobe Analytics儀表板的產品檔案與自助
 translation-type: tm+mt
-source-git-commit: b3772b96e02f6e3c6fb4f6c4a9f5df04512491e3
+source-git-commit: d4073fcfaabda669d0705e0adf2c911e8029b846
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 46%
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->Adobe Analytics控制面板未發行，僅適用於受邀客戶的測試版測試。 本文件旨在供測試版使用者使用，不代表此功能的完整性能。如果您想要成為此功能的測試版使用者，請聯絡Ashok Gorrepati(gorrepati@adobe.com)。
+>Adobe Analytics控制面板未發行，僅適用於受邀客戶的測試版測試。 本文件旨在供測試版使用者使用，不代表此功能的完整性能。如果您想要成為此功能的測試版使用者，請聯絡Ashok Gorrepati(gorrepat@adobe.com)。
 
 **[!UICONTROL Adobe Analytics儀表板]** ，可隨時隨地從Adobe Analytics提供深入資訊。 此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
 
