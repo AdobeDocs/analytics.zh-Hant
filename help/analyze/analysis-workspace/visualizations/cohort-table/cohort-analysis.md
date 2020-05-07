@@ -1,72 +1,71 @@
 ---
-keywords: Analysis Workspace
 title: 同類群組分析是什麼？
-topic: Reports and analytics
-uuid: 39a83f3a-15d1-41d7-bcdd-50c22aed8f1c
+description: 瞭解分析工作區中的同類群組分析
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 79849c574909543d74e2935e493008927700585d
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 91%
+source-wordcount: '472'
+ht-degree: 45%
 
 ---
 
 
-# 同類群組分析是什麼？
+# What is [!UICONTROL Cohort Analysis]?
 
-*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有提供同類群組分析的解釋，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
+*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(Explanations of [!UICONTROL Cohort Analysis] are available on the web, such as at [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis).)
 
 建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參閱[組織與共用](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
-同類群組分析的用途範例：
+Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 * 推行專為刺激所需動作的促銷活動。
 * 在客戶生命週期的正確時間點轉移行銷預算。
-* 識別何時終止試用或優惠，以最大化價值。
+* 識別何時結束試用版或優惠，以發揮最大價值。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
-* 在指導分析報表中檢視同類群組分析報表。
+* View a [!UICONTROL Cohort Analysis] report within a Guided Analysis report.
 
-所有具有 Analysis Workspace 存取權限的 Analytics 客戶皆可使用同類群組分析。
+[!UICONTROL 世代分析] (Choort Analysis)適用於所有擁有分析工作區存取權的Adobe Analytics [!UICONTROL 客戶]。
 
 [在 YouTube 觀看「同類群組分析」](https://www.youtube.com/watch?v=kqOIYrvV-co&amp;index=45&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:36)
 
 >[!IMPORTANT]
 >
->同類群組分析不支援非可分段量度，例如計算量度、非整數量度或發生 [!UICONTROL 次數]。 只有可用於區段的量度可用於同類群組分析，而且一次只能增加1。
+>[!UICONTROL 同類群組分析] 不支援非可分段量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於區段的量度可用於
+>[!UICONTROL 同類群組分析]，而且每次只能增加1。
 
 ## 同類群組分析功能
 
-2019 年 1 月，Adobe 推出了大幅增強的新版「同類群組分析」。這個版本能讓您對正在建立的同類群組進行更精細的控制。下列為主要的增強功能：
+下列功能可讓您對您正在建立的群組進行微調控制：
 
-### 保留率表格
+### [!UICONTROL 保留率表格]
 
-保留率同類群組報表會回傳訪客人數：每個資料儲存格顯示該同類群組中，在該時段內執行了動作的原始訪客數目和百分比。您可以包含最多 3 個量度和最多 10 個區段。
+A [!UICONTROL Retention] cohort report returns visitors: each data cell shows the raw number and percentage of visitors in the cohort who did the action during that time period. 您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/retention-report.png)
 
-### 流失率表格
+### [!UICONTROL 流失率表格]
 
-流失率同類群組與保留率表格相反，會顯示在一段時間中，離開或從未符合同類群組回傳條件的訪客。您可以包含最多 3 個量度和最多 10 個區段。
+A [!UICONTROL Churn] cohort is the inverse of a retention table and shows the visitors who fell out or never met the return criteria for your cohort over time. 您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/churn-report.png)
 
-### 滾動式計算
+### [!UICONTROL 滾動式計算]
 
 可讓您根據上一欄計算保留率或流失率，而非根據包含欄。
 
 ![](assets/cohort-rolling-calculation.png)
 
-### 延時表格
+### [!UICONTROL 延時表格]
 
-衡量包含事件發生前後的經過時間。此工具非常適合用來進行事前/事後分析。「包含」欄位於表格的中央，包含事件前後的時段會顯示於兩側。
+衡量包含事件發生前後的經過時間。此工具非常適合用來進行事前/事後分析。The **[!UICONTROL Included]** column is in the center of the table and time periods before and after the inclusion event are shown on both sides.
 
 ![](assets/cohort-latency.png)
 
-### 自訂維度同類群組
+### [!UICONTROL 自訂維度同類群組]
 
-根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。使用行銷管道、促銷活動、產品、頁面、地區等 Adobe Analytics 維度，說明保留率在不同維度值的變化。
+根據選取的維度建立同類群組，而非根據以時間為主的同類群組 (預設)。Use dimensions such as [!UICONTROL marketing channel], [!UICONTROL campaign], [!UICONTROL product], [!UICONTROL page], [!UICONTROL region], or any other dimension in Adobe Analytics to show how retention changes based on the different values of these dimensions.
 
 ![](assets/cohort-customizable-cohort-row.png)
 
-如需如何設定和執行同類群組報表的說明，請前往[設定同類群組分析報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
+如需如何設定及執行同類群組報表的指示，請前往「設 [定同類群組分析」報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
 
