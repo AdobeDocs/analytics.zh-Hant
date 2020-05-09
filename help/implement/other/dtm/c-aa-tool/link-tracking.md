@@ -5,7 +5,10 @@ solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 連結追蹤
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
 translation-type: tm+mt
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+source-git-commit: 354785439a5920d8fc53d566fa9306c74e2504d2
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 95%
 
 ---
 
@@ -14,9 +17,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 部署 Analytics 時，Dynamic Tag Management 中用於連結追蹤的欄位說明。
 
-**[!UICONTROL *`Property`*]**> **[!UICONTROL![](assets/settings_gear.png)
-
-編輯工具]** > **[!UICONTROL 連結追蹤]**
+**[!UICONTROL 「屬性]** >齒輪 ![圖示](assets/settings_gear.png)**[!UICONTROL 編輯工具]** >連結 **[!UICONTROL 追蹤」]**
 
 <table id="table_F23FB0B284E74B66A107B1D69D22A51C">
  <thead>
