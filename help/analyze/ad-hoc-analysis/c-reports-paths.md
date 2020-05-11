@@ -3,7 +3,7 @@ description: 顯示訪客存取您網站網頁之順序的相關資訊。您可�
 title: 路徑報表
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
