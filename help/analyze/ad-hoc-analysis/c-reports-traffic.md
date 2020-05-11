@@ -3,7 +3,7 @@ description: 流量來源報表能讓您深入了解訪客與您網站的互動�
 title: 流量來源報表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **通用持續性**
 
-In [!UICONTROL Traffic Sources], all report values persist and receive credit until they are overwritten or until the visit ends, whichever comes first. 以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行     &quot;DVD&quot; Google 搜尋，並因此前往您的網站進行 $100 購買，則報告會將 $100 評分分配給關鍵字 &quot;DVD&quot; 以及 Google 搜尋引擎。不論 [!DNL Admin Console] 設定為何，該功能皆不可變更。
+在[!UICONTROL 「流量來源」]中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行     &quot;DVD&quot; Google 搜尋，並因此前往您的網站進行 $100 購買，則報告會將 $100 評分分配給關鍵字 &quot;DVD&quot; 以及 Google 搜尋引擎。不論 [!DNL Admin Console] 設定為何，該功能皆不可變更。
 
 ## 搜尋關鍵字 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -38,11 +38,11 @@ c_reports_search_keyword.xml
 
  -->
 
-**[!UICONTROL Search Keywords - All]**:顯示用於尋找您網站的每個搜尋關鍵字的劃分資訊。 您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
+**[!UICONTROL 搜尋關鍵字 - 全部]**：顯示用於尋找您網站的每個搜尋關鍵字劃分。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
 
-**[!UICONTROL Search Keywords - Paid]**:顯示用於尋找您網站的每個付費搜尋關鍵字的劃分資訊。 您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
+**[!UICONTROL 搜尋關鍵字 - 付費]**：顯示用於尋找您網站的每個付費搜尋關鍵字的劃分資訊。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
 
-**[!UICONTROL Search Keywords - Natural]**:顯示用於尋找您網站的每個免費搜尋關鍵字的劃分資訊。 您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
+**[!UICONTROL 搜尋關鍵字 - 免費]**：顯示用於尋找您網站的每個免費搜尋關鍵字的劃分資訊。您可以透過按一下清單上面的欄標題，依頁面檢視次數或搜尋關鍵字對此清單進行排序。按一下每個搜尋關鍵字旁邊的放大鏡，檢視網站的搜尋結果。
 
 ## 搜尋引擎 {#concept_351CDE4F5FC44371B6B657064E125134}
 
@@ -54,11 +54,11 @@ c_reports_search_engines.xml
 
  -->
 
-**[!UICONTROL Search Engines - All]**:顯示訪客使用哪些搜尋引擎找到您的網頁。 圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
+**[!UICONTROL 搜尋引擎 - 所有]**：顯示訪客使用哪些搜尋引擎找到您的網頁。圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
 
-**[!UICONTROL Search Engines - Paid]**:顯示訪客使用哪些付費關鍵字搜尋引擎找到您的網頁。 圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
+**[!UICONTROL 搜尋引擎 - 付費]**：顯示訪客使用哪些付費關鍵字搜尋引擎找到您的網頁。圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
 
-**[!UICONTROL Search Engines - Natural]**:顯示訪客使用哪些免費關鍵字搜尋引擎找到您的網頁。 圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
+**[!UICONTROL 搜尋引擎 - 免費]**：顯示訪客使用哪些免費關鍵字搜尋引擎找到您的網頁。圖表顯示用於尋找您網站的搜尋引擎的百分比劃分。
 
 ## 反向連結網域 {#concept_804614DF21C14C9FB542451B30F92788}
 
@@ -94,7 +94,7 @@ c_reports_referrers.xml
 
 任何非這些已定義網域和 URL 之一部分的網域或 URL，就會被視為反向連結。例如，將網頁 A 和網頁 B 新增至內部 URL 篩選器，但網頁 C 沒有加入。在這種情形下，網頁 C 就會被視為反向連結。
 
-請參閱 [!DNL Admin Console] 說明中的[內部 URL 篩選器](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/internal-url-filter-admin.html)，了解詳細資訊。
+請參閱 [!DNL Admin Console] 說明中的[內部 URL 篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/internal-url-filter-admin.html)，了解詳細資訊。
 
 >[!NOTE] 訪客點選內含通訊協定 [!DNL imap://] 或 [!DNL mail://] 的電子郵件連結而進入您的網站時，Marketing Reports &amp; Analytics 會將反向連結網域記錄為電子郵件。例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
 
@@ -129,5 +129,5 @@ c_reports_ref_types.xml
 
 **USENET (新聞群組)**：這表示反向連結的 URL 是以 `news://` 開頭的。因此，反向連結被發佈在 Usenet 新聞群組上，而不是網頁上。
 
->[!NOTE] 「反向連結類型」邏輯與其他流量來源報表( [!UICONTROL Referrers] 如 [!UICONTROL Referring Domains]和)相符。 This should reduce or eliminate the occurrences of the Inside Your Site and No JavaScript line items in the [!UICONTROL Referrer Type] report.
+>[!NOTE]「反向連結類型」的邏輯與其他流量來源報表相符 (例如[!UICONTROL 「反向連結」]與[!UICONTROL 「反向連結網域」])。這應該會使[!UICONTROL 「反向連結類型」]報表中較少或完全不會出現「網站內」和「無 JavaScript」 明細項目。
 
