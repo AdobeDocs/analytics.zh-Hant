@@ -3,7 +3,7 @@ description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考�
 keywords: privacy
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -13,13 +13,13 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 Adobe 建議您提供關於選擇退出不讓 Adobe 產品或服務收集其瀏覽資訊的容易找到且容易了解的相關資訊給網站訪客。
 
-訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實施 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
+訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實作 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
 
 ## 資料收集劃分 {#section_F59D958D7AE44747846993E643CD4BF2}
 
-Adobe Analytics 收集下列資料:
+Adobe Analytics 收集下列資料：
 
-| 資料類型 | Adobe Analytics 是否收集這種資料? |
+| 資料類型 | Adobe Analytics 是否收集這種資料？ |
 |---|---|
 | 客戶網站中的網頁 URL | 是 |
 | 網頁名稱 | 是 |
@@ -49,7 +49,7 @@ Adobe Analytics 收集下列資料:
 
 *前提是 Adobe 客戶未選擇移除 IP。
 
-## 其他隱私權考量事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## 其他隱私權考量事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -89,7 +89,7 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/en/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="Https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -106,9 +106,9 @@ Adobe Analytics 收集下列資料:
  </tbody> 
 </table>
 
-## EMEA 資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA 資料中心位置{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-下列 EMEA 資料中心目前代管 Adobe Analytics 資料:
+下列 EMEA 資料中心目前代管 Adobe Analytics 資料：
 
 <table id="table_65794B3790FD4B519EE89CF4F4B88314"> 
  <thead> 
@@ -130,7 +130,7 @@ Adobe Analytics 收集下列資料:
   </tr> 
   <tr> 
    <td colname="col1"> LON5 </td> 
-   <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>英國 </p> </td> 
+   <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
    <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
    <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
