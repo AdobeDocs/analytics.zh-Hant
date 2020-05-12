@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 整合指南
 user-guide-url: /content/help/en/analytics/integration/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
