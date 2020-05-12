@@ -3,7 +3,7 @@ description: 當報表中有大量不重複值時，Adobe 提供的功能可確�
 title: Adobe Analytics 中的低流量值
 topic: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
