@@ -89,7 +89,7 @@ Adobe Analytics 收集下列資料：
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="Https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
