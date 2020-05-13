@@ -2,7 +2,10 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 translation-type: tm+mt
-source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
+source-git-commit: 06b9ac8ddbfb0398341a2ab5656237e3520a8612
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 88%
 
 ---
 
@@ -16,10 +19,6 @@ source-git-commit: f4fbe120e15d28da21b51849ff374ca4e2136ec7
 **我在使用歸因模型時，為何有時會在報表中看到報表期間之外的日期？**
 
 這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/tw/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 預計將在後續版本中篩除這些額外資料列。
-
-**我是否可以透過歸因模型使用自訂回顧期間？**
-
-歸因模型目前以「訪客」或「造訪」回顧期間為依據。這兩種回顧期間可藉由變更報表日期範圍 (針對訪客回顧) 或在虛擬報表套裝中使用自訂造訪定義來調整。如需詳細資訊，請參閱[報表時間處理](../../../../components/vrs/vrs-report-time-processing.md)。
 
 **我應該在什麼時機使用「造訪」或「訪客」歸因回顧？**
 
