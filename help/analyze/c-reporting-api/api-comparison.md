@@ -1,8 +1,8 @@
 ---
-description: 分析報告 API 的比較表。提供支援文件的連結。
+description: 分析報表 API 的比較表。提供支援文件的連結。
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -10,9 +10,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # Analytics 報表 API 比較
 
-分析報告 API 的比較表。提供支援文件的連結。
+分析報表 API 的比較表。提供支援文件的連結。
 
->[!NOTE] 針對延遲情形，Analytics for Target (A4T) 可在相同點擊上結合 Analytics 和 Target 資料，以執行整合式報告。因為 Analytics 和 Target 呼叫發生在不同的時間，會在任何處理發生之前儲存點擊，以從兩個解決方案收集資料。此處理會對所有查核點新增&#x200B;**額外的 7-10 分鐘**&#x200B;延遲。
+>[!NOTE] 針對延遲情形，Analytics for Target (A4T) 可在相同點擊上結合 Analytics 和 Target 資料，以執行整合式報表。因為 Analytics 和 Target 呼叫發生在不同的時間，會在任何處理發生之前儲存點擊，以從兩個解決方案收集資料。此處理會對所有查核點新增&#x200B;**額外的 7-10 分鐘**&#x200B;延遲。
 
 <table id="table_7AF4FD678D494063ADF459B3CBC3EF3F"> 
  <thead> 
@@ -33,11 +33,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col5"> 用於提取大型資料匯出的完整處理、已完成的資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/en/analytics/technotes/latency.html"  > 延遲性</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/latency.html"  > 延遲性</a> </p> </td> 
    <td colname="col2"> 30-90 分鐘 </td> 
    <td colname="col3"> * 秒 -10 分鐘 </td> 
    <td colname="col4"> 秒 -10 分鐘 </td> 
-   <td colname="col5"> 90 分鐘 + </td> 
+   <td colname="col5"> 90 分鐘以上 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>處理完成</b> </td> 
@@ -47,9 +47,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    <td colname="col5"> 全螢幕 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html"  > 報告介面</a> </td> 
+   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html"  > 報表介面</a> </td> 
    <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
-   <td colname="col3"> Reports &amp; Analytics、Report Builder、API 中的即時報告 </td> 
+   <td colname="col3"> Reports &amp; Analytics、Report Builder、API 中的即時報表 </td> 
    <td colname="col4"> 僅 API </td> 
    <td colname="col5"> Data Warehouse 與 API </td> 
   </tr> 
@@ -84,7 +84,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <b>文件</b> </td> 
    <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 網站服務</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 即時報告</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 即時報表</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream 概述</a> </p> </td> 
    <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
