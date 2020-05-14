@@ -2,7 +2,7 @@
 description: 'null'
 title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -36,14 +36,14 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 **在 Report Builder 中發佈活頁簿**
 
 1. 在 Report Builder 中產生活頁簿並加以儲存。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程]** > **[!UICONTROL 新增」]**。
 
-1. 在「基本排程精靈」中，核取旁邊的方塊 **[!UICONTROL Publish Workbook to Microsoft Power BI]**。
+1. 在「基本排程精靈」中，勾選&#x200B;**[!UICONTROL 「將活頁簿發佈至 Microsoft Power BI」]**&#x200B;旁邊的核取方塊。
 
    ![](assets/simple-schedule-wizard.png)
 
 1. 指定您的電子郵件並立即傳送，或者指定排程頻率 (每小時、每日等等)。
-1. 按一 **[!UICONTROL OK]** 下以發佈。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**&#x200B;即可發佈。
 1. 系統會要求您登入 Microsoft 帳戶。請提供您的憑證。
 1. Report Builder 活頁簿隨即列入排程並發佈至 Power BI。
 
@@ -51,11 +51,11 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 **在 Power BI 中檢視 Report Builder 活頁簿資料**
 
-1. In Power BI, double click the workbook under the [!UICONTROL Workbooks] menu.
+1. 在 Power BI 中，連按兩下[!UICONTROL 「活頁簿」]功能表下的活頁簿。
 
    ![](assets/workbooks-power-bi.png)
 
-1. 您現在可以檢視活頁簿控制面板資料。    ![](assets/view-data-pbi.png)
+1. 您現在可以檢視活頁簿控制面板資料。  ![](assets/view-data-pbi.png)
 
 1. 您可以接著釘選此活頁簿的某個區域，以將其包含在任何 Power BI 控制面板中。
 
@@ -70,12 +70,12 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 **在 Report Builder 中發佈格式化表格**
 
 1. 在 Report Builder 中，產生含有標題列且其後接著一列資料的資料表格。
-1. 選擇表並從菜 **[!UICONTROL Format as Table]** 單中選 [!UICONTROL Home] 擇。 The table gets named by default (Table 1, Table 2, etc.), but you can change the name on the [!UICONTROL Design]menu.
+1. 選取該表格，然後從[!UICONTROL 「首頁」]功能表選取&#x200B;**[!UICONTROL 「格式化為表格」]**。表格依預設會有名稱 (表格 1、表格 2 等等)，但您可以在[!UICONTROL 「設計」]功能中變更表格名稱。
 
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程]** > **[!UICONTROL 新增」]**。
 
-1. 在「基本排程精靈」中，按一下 **[!UICONTROL Advanced Scheduling Options]**。
-1. 在頁籤 [!UICONTROL Scheduling Wizard - Advanced]上，選中 **[!UICONTROL Publishing Options]** 旁邊的複選框 **[!UICONTROL Publish all Formatted Tables as Power BI dataset tables]**。
+1. 在「基本排程精靈」中，按一下&#x200B;**[!UICONTROL 「進階排程選項」]**。
+1. 在[!UICONTROL 「排程精靈 – 進階」]中的&#x200B;**[!UICONTROL 「發佈選項」]**&#x200B;索引標籤上，勾選&#x200B;**[!UICONTROL 「以 Power BI 資料集表格形式發佈所有格式化表格」]**&#x200B;旁邊的核取方塊。
 
    ![](assets/advanced-schedule-wizard2.png)
 
@@ -83,11 +83,11 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
 **在 Power BI 中檢視表格資料**
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. 在 Power BI 中，前往&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 資料集」]**&#x200B;功能表。
 
    ![](assets/datasets-menu.png)
 
-1. Select the dataset that you published and click the [!UICONTROL Create report] icon next to it. 請注意，表格將會以「欄位」的形式顯示。
+1. 選取您已發佈的資料集，然後按一下旁邊的[!UICONTROL 「建立報表」]圖示。請注意，表格將會以「欄位」的形式顯示。
 
    ![](assets/formatted-tables.png)
 
@@ -95,7 +95,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    ![](assets/view-table-dataset.png)
 
-1. From the [!UICONTROL Visualizations] menu, you can select how to visualize a table in Power BI. 例如，您可以選擇以折線圖呈現資料：
+1. 從[!UICONTROL 「視覺效果」]功能表，您可以選取要在 Power BI 中將表格視覺化的方式。例如，您可以選擇以折線圖呈現資料：
 
    ![](assets/bi-line-graph.png)
 
@@ -110,22 +110,22 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 >如果活頁簿含有超過 100 個請求，系統只會將前 100 個請求發佈至 Power BI。另外，對於每個發佈至 Power BI 的請求，系統將只會發佈前 10,000 列資料。因此，雖然這些請求會順利透過排程傳遞，但可發佈至 Power BI 的範圍是有限的。
 
 1. 在 Report Builder 中，使用 Report Builder 請求開啟或建立活頁簿。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]** > **[!UICONTROL New]**.
+1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程]** > **[!UICONTROL 新增」]**。
 
-1. 在「基本排程精靈」中，按一下 **[!UICONTROL Advanced Scheduling Options]**。
-1. 在標 [!UICONTROL Scheduling Wizard - Advanced]簽上， **[!UICONTROL Publishing Options]****[!UICONTROL Publish all Report Builder Requests as Power BI Dataset Tables]** 核取 ![](assets/advanced-schedule-wizard2.png)
+1. 在「基本排程精靈」中，按一下&#x200B;**[!UICONTROL 「進階排程選項」]**。
+1. 在[!UICONTROL 「精靈 – 進階」]中的&#x200B;**[!UICONTROL 「發佈選項」]**&#x200B;索引標籤中，勾選&#x200B;**[!UICONTROL 「以 Power BI 資料集表格形式發佈所有 Report Builder 請求」]**&#x200B;旁邊的核取方塊。![](assets/advanced-schedule-wizard2.png)
 
-1. 按一下 **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 **在 Power BI 中檢視請求資料**
 
-系統將會以資料集中的表格發佈每個已排程的 Report Builder 請求。Each request table is named after the primary dimension in the request and it has a [!UICONTROL Report Suite] and a [!UICONTROL Segments] column.
+系統將會以資料集中的表格發佈每個已排程的 Report Builder 請求。每個請求表格皆以請求中的主要維度命名，且具有一個[!UICONTROL 「報表套裝」]和一個[!UICONTROL 「區段」]欄。
 
-1. In Power BI, go to the **[!UICONTROL Workspaces]** > **[!UICONTROL Datasets]** menu.
+1. 在 Power BI 中，前往&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 資料集」]**&#x200B;功能表。
 
-1. Select the request that you published and click the [!UICONTROL Create report] icon next to it.
+1. 選取您已發佈的請求，然後按一下旁邊的[!UICONTROL 「建立報表」]圖示。
 
-   Notice that the requests appear as tables in the [!UICONTROL Fields] menu.
+   請注意，請求會以表格的形式顯示在[!UICONTROL 「欄位」]功能表中。
 
    ![](assets/published-requests.png)
 
@@ -133,7 +133,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
    >
    >不論如何設定活頁簿中 Report Builder 請求的編排方式 (樞紐配置、自訂配置、隱藏部分欄)，Report Builder 會一律以相同的二維單一標題列格式發佈請求：「日期」、「維度」、「量度」、「報表套裝」、「區段」。
 
-1. Also notice that there is an additional table called **[!UICONTROL Legend]**. 如果您從 Report Builder 上下文擷取請求，可能很難記住每個請求各代表什麼。而「圖例」表格的作用就是可讓您看到「表格 ID」中每個請求的名稱。您也可以新增其他「圖例」欄，以便完整檢視請求。
+1. 另請注意，其中有一個名為&#x200B;**[!UICONTROL 「圖例」]**&#x200B;的額外表格。如果您從 Report Builder 上下文擷取請求，可能很難記住每個請求各代表什麼。而「圖例」表格的作用就是可讓您看到「表格 ID」中每個請求的名稱。您也可以新增其他「圖例」欄，以便完整檢視請求。
 
    ![](assets/legend-table.png)
 
