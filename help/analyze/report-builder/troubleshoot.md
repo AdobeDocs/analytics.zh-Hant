@@ -3,7 +3,7 @@ description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而
 title: Report Builder 的疑難排解和最佳作法
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -96,9 +96,9 @@ Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法�
 
 四小時後，所有排程報表都會逾時。系統會再嘗試排程三次，而且可能導致失敗(一般而言，當資料集越大，所需執行時間就會越久)。[!DNL Analytics] 報表與 Report Builder 會顯示下列項目：
 
-* [!DNL Analytics]: **[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
+* [!DNL Analytics]：**[!UICONTROL Favorites]** > **[!UICONTROL Scheduled Reports]**
 
-* Report Builder: Click **[!UICONTROL Management]** in the [!UICONTROL Add-ins] tab in Excel.
+* Report Builder：在 Excel 的「[!UICONTROL Add-ins]」索引標籤中，按一下「**[!UICONTROL Management]**」。
 
 ## 錯誤訊息說明 {#section_3DF3A1EEDAD149CB941BEABEF948A4A5}
 
@@ -110,15 +110,15 @@ Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法�
 
 如果未在 Excel 中開啟任何活頁簿 (試算表文件)，且您按一下 Report Builder 工具列中的任一個圖示時，此訊息便會出現。此外，工具列將成為停用狀態，直到您開啟試算表為止。然而，在工具列仍為啟用狀態時，您可以按一下線上說明圖示而不致發生此錯誤。
 
-**您必須先退出，[!UICONTROL Request Wizard]才能啟動[!UICONTROL Request Manager]。**
+**您必須先退出[!UICONTROL Request Wizard]才能啟動[!UICONTROL Request Manager]。**
 
-雖然和 [!UICONTROL Request Manager] 在功 [!UICONTROL Request Wizard] 能上是連結的，但在完成或取消中採取的 [!UICONTROL Request Manager] 操作之前，無法開始使用 [!UICONTROL Request Wizard]。
+雖然[!UICONTROL Request Manager]和[!UICONTROL Request Wizard]在功能上有所關聯，但是您必須先完成或取消在[!UICONTROL Request Wizard]中採取的動作，才能開始使用[!UICONTROL Request Manager]。
 
 **無任何請求與此範圍相關聯。**
 
-This error message occurs if you click on the [!UICONTROL From Sheet] button in the [!UICONTROL Request Manager] when a cell of the spreadsheet contains no requests.
+試算表的儲存格內沒有任何請求時，如果您按一下[!UICONTROL Request Manager]中的「[!UICONTROL From Sheet]」按鈕，畫面就會顯示此錯誤訊息。
 
-To identify which cells in the spreadsheet contain requests, click individual requests listed in the table in the [!UICONTROL Request Manager]. 如果儲存格有相關聯的請求，當您選擇表格中的請求時，系統將會反白顯示儲存格。
+若要識別試算表中含有請求的儲存格，請在[!UICONTROL Request Manager]中按一下表格列示的個別請求。如果儲存格有相關聯的請求，當您選擇表格中的請求時，系統將會反白顯示儲存格。
 
 **選擇的範圍無效。請選擇其他範圍。**
 
@@ -128,12 +128,12 @@ To identify which cells in the spreadsheet contain requests, click individual re
 
 **使用此功能之前，請先退出目前所在的 Excel 儲存格。**
 
-如果您處於 Excel 儲存格內的&#x200B;*編輯模式*，當您按一下任一 Report Builder 圖示時，此錯誤訊息便會出現。在 Excel 儲存格內的編輯模式表示您已選擇儲存格且游標位在儲存格內。You are also in edit mode in an Excel cell when you type directly into the [!UICONTROL Formula] bar or into the [!UICONTROL Name Box] at the top of Excel.
+如果您處於 Excel 儲存格內的&#x200B;*編輯模式*，當您按一下任一 Report Builder 圖示時，此錯誤訊息便會出現。要在 Excel 儲存格內使用編輯模式，您必須先選擇儲存格，且游標位在儲存格內。如果直接在 Excel 頂端的「[!UICONTROL Formula]」列或「[!UICONTROL Name Box]」中輸入文字，也能進入 Excel 儲存格內的編輯模式。
 
 **選擇的範圍與其他請求的範圍相交。請變更您的選擇。**
 
-當您已將一組儲存格映射至試算表時，此錯誤便會出現。
+將一組儲存格映射至試算表時，便會發生此錯誤。
 
-One way to determine which cells are mapped before adding new requests is to close the [!UICONTROL Request Wizard] and open the [!UICONTROL Request Manager]. 接著逐一選擇請求摘要表格中列示的項目。當您選擇清單中的請求時，系統會反白顯示試算表中含有請求映射的相應儲存格。
+若要在新增請求前判斷哪些是已映射的儲存格，方法之一是關閉[!UICONTROL Request Wizard]，然後開啟[!UICONTROL Request Manager]。接著逐一選擇請求摘要表格中列示的項目。當您選擇清單中的請求時，系統會反白顯示試算表中含有請求映射的相應儲存格。
 
 這是為什麼在將多個儲存格映射至多個區域前，應先考慮以反白、列或欄資訊或格式化樣式標示儲存格的原因。
