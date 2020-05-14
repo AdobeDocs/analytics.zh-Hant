@@ -2,18 +2,15 @@
 title: 搭配Analytics使用XDM資料
 description: '在Adobe Analytics中使用Experience Platform中的XDM資料概觀 '
 translation-type: tm+mt
-source-git-commit: 31efa43043120b68de90e817a7980addbe2ded39
+source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 4%
 
 ---
 
 
-
-
 # 搭配Analytics使用Adobe Experience Platform Edge
-
->[!IMPORTANT]
->
->Adobe Experience Edge Web SDK未發行，僅適用於受邀客戶的測試版測試。 本文件旨在供測試版使用者使用，不代表此功能的完整性能。如果您想要成為此功能的測試版使用者，請連絡 Adobe [客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)。
 
 
 您可以使 [用Adobe Experience Platform(AEP)Web SDK](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) ，將資料傳送至Adobe Analytics。 這可將 [Experience Data Model(XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) 轉換為Analytics使用的格式。
