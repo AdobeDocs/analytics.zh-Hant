@@ -4,7 +4,7 @@ audience: all
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: b46b7968d94975be3335d5c2749b9468dcc91543
+source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 92%
@@ -202,4 +202,4 @@ ht-degree: 92%
 + [常見問題集](faq.md)
 + 搭配Analytics使用XDM資料 {#aep-edge}
    + [使用AEP Web SDK](aep-edge/xdmoverview.md)
-   + [手動將XDM資料對應至Analytics](aep-edge/xdmoverview.md)
+   + [手動將XDM資料對應至Analytics](aep-edge/xdm-manual.md)
