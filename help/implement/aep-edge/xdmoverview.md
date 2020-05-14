@@ -2,16 +2,15 @@
 title: 搭配Analytics使用XDM資料
 description: '在Adobe Analytics中使用Experience Platform中的XDM資料概觀 '
 translation-type: tm+mt
-source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
+source-git-commit: 3526d9f98b545e5f720a0cb127857e7fd5d5388e
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '298'
 ht-degree: 4%
 
 ---
 
 
 # 搭配Analytics使用Adobe Experience Platform Edge
-
 
 您可以使 [用Adobe Experience Platform(AEP)Web SDK](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html) ，將資料傳送至Adobe Analytics。 這可將 [Experience Data Model(XDM)](https://docs.adobe.com/content/help/en/experience-platform/xdm/home.html) 轉換為Analytics使用的格式。
 
@@ -23,7 +22,7 @@ Analytics透過兩種方法收集XDM資料：
 
 ## 自動對應
 
-自動對應依賴於XDM中 [的預設結構](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) ，可自動填入典型Analytics資料收集所包含的JSON物件。 自 [](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) 動從XDM映射至您設定的報表套裝的Analytics變數不需要任何開發人員支援來整合。
+[自動對應](https://git.corp.adobe.com/AdobeDocs/analytics.en/blob/master/help/implement/aep-edge/xdm-manual.md) ，需仰賴XDM中的預設 [結構](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html) ，自動填入一般Analytics資料收集所包含的JSON物件。 自 [](https://git.corp.adobe.com/analytics-data-collection/anedge/blob/master/XDM_Translator.md) 動從XDM映射至您設定的報表套裝的Analytics變數不需要任何開發人員支援來整合。
 
 ## 手動映射
 
