@@ -1,10 +1,10 @@
 ---
-description: Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料以用於報告。
+description: Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料以用於報表。
 subtopic: Data sources
 title: 資料來源概觀
 topic: Developer and implementation
 uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -12,9 +12,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 # 資料來源概觀
 
-Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料以用於報告。
+Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料，供報表使用。
 
-藉著整合離線資料，您可利用資料來源整合:
+藉著整合離線資料，您可利用資料來源整合：
 
 * 產品成本
 * 話務中心資訊
