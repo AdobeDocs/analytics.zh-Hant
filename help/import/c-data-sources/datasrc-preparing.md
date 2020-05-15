@@ -4,7 +4,7 @@ subtopic: Data sources
 title: 準備使用資料來源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -20,7 +20,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * [交易 ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [識別「資料來源」資料的有效日期範圍](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## 識別及命名量度 {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## 識別及命名量度{#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 重要的是，要瞭解您的資料來源中的量度和測量，例如 *`Off-line Sales Revenue by Product`*、*`Returns by Product`* 或 *`Ad Impressions by Campaign`*。這些是可以用報表量度關聯的名稱 (event、prop 及 eVar)。
 
@@ -40,7 +40,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!NOTE] 可匯入無法以任何維度劃分的總量度。
 
-在定義資料來源要使用的資料維度後，將維度資料映射到變數，即可將其整合到行銷報表中。使用標準報告 (如產品、追蹤代碼、搜尋關鍵字) 或轉換流量變數 (eVar)。
+在定義資料來源要使用的資料維度後，將維度資料映射到變數，即可將其整合到行銷報表中。使用標準報表 (如產品、追蹤代碼、搜尋關鍵字) 或轉換流量變數 (eVar)。
 
 若是 eVar，您可使用現存 eVar 或新的 eVar 做為資料維度。選取接受資料來源資料維度的 eVar 後，確定您將 eVar 正確命名。
 
@@ -56,8 +56,8 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 交易 ID 是用於將線上事件連結到離線事件。
 
-## 識別「資料來源」資料的有效日期範圍 {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## 識別「資料來源」資料的有效日期範圍{#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 定義您的資料來源量度 (自訂事件) 和資料維度 (eVar) 後，檢查您要匯入之資料來源資料的日期範圍。您無法匯入現存報表資料範圍以外的資料來源。
 
-例如，您不能匯入實施 線上資料追蹤以前的「資料來源」。資料來源應以天劃分。
+例如，您不能匯入實作線上資料追蹤以前的「資料來源」。資料來源應以天劃分。
