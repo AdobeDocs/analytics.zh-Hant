@@ -1,9 +1,9 @@
 ---
-description: 篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
+description: 篩選條件可以縮小報表的範圍來包含或排除符合篩選條件的行項目。
 title: 篩選報表資料
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -11,13 +11,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 # 篩選報表資料 {#concept_09DC5B986A644738B12204DAC76A90E1}
 
-篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
+篩選條件可以縮小報表的範圍來包含或排除符合篩選條件的行項目。
 
-## 簡單篩選 {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## 簡單篩選{#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
-簡單篩選出現在大多數報告上，可以讓您快速找出特定的行項目。簡單篩選不使用任何特殊字元，因此 `-, ", ', +` 和其他特殊字元將會比對報表中的常值。您可以使用空格找出包含多個詞語的行項目。
+簡單篩選出現在大多數報表上，可以讓您快速找出特定的行項目。簡單篩選不使用任何特殊字元，因此 `-, ", ', +` 和其他特殊字元將會比對報表中的常值。您可以使用空格找出包含多個詞語的行項目。
 
 例如：
 
@@ -49,7 +49,7 @@ help:Internal Search Term
 
 **不包含**
 
-如果詞語未出現在行項目的任何地方即相符。您可以使用「不包含」來篩選報表中的「未指定」、「無」、「沒有關鍵字」和其他[特殊值](https://docs.adobe.com/content/help/en/analytics/technotes/unspecified.html)。
+如果詞語未出現在行項目的任何地方即相符。您可以使用「不包含」來篩選報表中的「未指定」、「無」、「沒有關鍵字」和其他[特殊值](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/unspecified.html)。
 
 不包含： `none`
 
@@ -66,7 +66,7 @@ help:Rename the None classification key
 
 **包含其中一個**
 
-如果在行項目中找到空格分隔的任何項目即相符。下列篩選條件顯示包含「mens」或「sale」的所有頁面:
+如果在行項目中找到空格分隔的任何項目即相符。下列篩選條件顯示包含「mens」或「sale」的所有頁面：
 
 包含其中一個：`mens sale`
 
@@ -91,7 +91,7 @@ Sale & Values
 
 如果包含空格和其他字元的行項目以指定的字句為開頭即相符。
 
-開頭為: `mens`
+開頭為：`mens`
 
 比對下列頁面：
 
@@ -107,7 +107,7 @@ Mens Hemp/Bamboo Flip Flops
 
 如果包含空格和其他字元的行項目以指定的字句為結尾即相符。
 
-結尾為: `jean`
+結尾為：`jean`
 
 比對下列頁面：
 
@@ -132,9 +132,9 @@ Ocean Blue Jean
 | `-` | 否<br>請勿在特殊字元與搜尋字句之間加上空格。 |
 | `|` | 或者，<br>附註：您必須在直線字元 `" | "` 的兩側加上空格。 |
 
-## 建立報告特定篩選器 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
+## 建立報表專用篩選器 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-說明如何建立報告篩選器的步驟。
+說明如何建立報表篩選器。
 
 <!-- 
 
@@ -142,17 +142,17 @@ t_reports_filter_specific.xml
 
  -->
 
-有些報告具有自身特定的篩選器。例如，可讓 [!UICONTROL Purchase Conversion Funnel Report] 您依網頁篩選。 A [!UICONTROL Geosegmentation Report] lets you filter by geographical region. 其他報告均具有自身特定的其他篩選。
+有些報表具有自身特定的篩選器。例如，[!UICONTROL 購買轉換漏斗報表]可讓您依據網頁進行篩選。[!UICONTROL 地域劃分報表]可讓您依據地理區域進行篩選。其他報表均具有自身特定的其他篩選。
 
-存取這些篩選時，您可以看到清單中所指定項目的報告精細度。
+存取這些篩選時，您可以看到清單中所指定項目的報表精細度。
 
-**建立報告特定篩選器**
+**建立報表特定篩選器**
 
-1. 產生報表，例如 [!UICONTROL Purchase Report] ( **[!UICONTROL Site Metrics]** > **[!UICONTROL Purchases]** > **[!UICONTROL Purchase Conversion Funnel]**)。
-1. In the report header, click the **[!UICONTROL Filter]** link.
-1. 在頁面上 [!UICONTROL Filter Selector] ，按一下 **[!UICONTROL Apply a Filter]**，然後選取篩選類型。
-1. To search for an item, type a character string in the **[!UICONTROL Search]** field.
-1. 按一下 **[!UICONTROL OK]**.
+1. 產生報表，例如[!UICONTROL 購買報表] (**[!UICONTROL 網站量度]** > **[!UICONTROL 購買]** > **[!UICONTROL 購買轉換漏斗]**)。
+1. 在報表標題中，按一下&#x200B;**[!UICONTROL 篩選]**&#x200B;連結。
+1. 在[!UICONTROL 篩選選擇器]頁面上，按一下&#x200B;**[!UICONTROL 套用篩選]**，然後選取篩選類型。
+1. 若要搜尋項目，請在&#x200B;**[!UICONTROL 搜尋]**&#x200B;欄位中輸入字元字串。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 ## 新增關聯篩選器 {#task_065042E384DA4BF3864C58AF2B88D6E2}
 
@@ -164,13 +164,13 @@ t_reports_correlation_filter.xml
 
  -->
 
-某些報告可讓您新增自訂關聯篩選器。For example, if you are viewing the [!UICONTROL Pages Report] for a report suite that has Site Sections correlated with a Women&#39;s page, you can create a filter rule that generates a report showing the most popular pages when Site Sections = Women.
+某些報表可讓您新增自訂關聯篩選器。例如，若您正在檢視網站區域與女性頁面相關聯之報表套裝的[!UICONTROL 頁面報表]，則可建立一個篩選規則，用來產生一份顯示「網站區域 = 女性」的最受歡迎頁面。
 
-您可以使用任何可用關聯來篩選顯示於關聯報告中的資料。此範例顯示如何新增搜尋引擎關聯篩選器。
+您可以使用任何可用關聯來篩選顯示於關聯報表中的資料。此範例顯示如何新增搜尋引擎關聯篩選器。
 
 **要新增關聯篩選**
 
-1. 執行支援關聯的報告(請參閱[執行劃分報表](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69))。
-1. In the report header, click the **[!UICONTROL Correlation Filter]** link.
-1. 在下 [!UICONTROL Filter Rule Creator]方，選擇要與項目關聯的類別。
-1. 按一下 **[!UICONTROL OK.]**
+1. 執行支援關聯的報表(請參閱[執行劃分報表](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69))。
+1. 在報表標題中，按一下「**[!UICONTROL 關聯篩選]**」連結。
+1. 在[!UICONTROL 「篩選規則產生器」]下，選擇與項目關聯的類別。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
