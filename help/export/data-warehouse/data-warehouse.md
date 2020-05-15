@@ -1,9 +1,9 @@
 ---
-description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報告會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
+description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 title: Data Warehouse 概觀
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,9 +11,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # Data Warehouse 概觀
 
-Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報告會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
+Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 
-Adobe 僅針對管理員層級使用者，在特定報表套裝上啟用 Data Warehouse(DataWarehouse 可在全域及子報表套裝上啟用，但不可用於統計報表套裝)。管理員可建立存取資料倉儲的群組，然後將非管理員級別的使用者與該群組關聯。
+Adobe 僅針對管理員層級使用者，在特定報表套裝上啟用 Data Warehouse(DataWarehouse 可在全域及子報表套裝上啟用，但不可用於統計報表套裝)。管理員可建立存取 Data Warehouse 的群組，然後將非管理員級別的使用者與該群組關聯。
 
 Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件大小上限是 10 MB。
 
@@ -27,7 +27,7 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
 
 ## Data Warehouse 請求說明 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
-This table describes the fields and options on the [!UICONTROL Data Warehouse Request] tab.
+本表說明「[!UICONTROL Data Warehouse 請求]」標籤中的欄位和選項。
 
 <table id="table_7325A2466866460E8B0AF7D696152713"> 
  <thead> 
@@ -42,13 +42,13 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
    <td colname="col2"> 識別請求。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <span class="wintitle"> 報告日期</span> </td> 
+   <td colname="col1"> <span class="wintitle"> 報表日期</span> </td> 
    <td colname="col2"> <p>請求的日期和詳細程度。 </p> 
     <ul id="ul_C00F4529BD9E4113B517A61751B1DD5C"> 
      <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle">自訂</span>：您在日曆中設定的日期範圍。 </li> 
-     <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle">預設</span>：預設範圍。預設範圍是相對於報告日期。 </li> 
+     <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle">預設</span>：預設範圍。預設範圍是相對於報表日期。 </li> 
      <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle">詳細程度</span>：時間詳細程度。有效值為無、小時、日、週、月份、季度或年。 </li> 
-    </ul> <p>報告虛擬報表套裝的 Data Warehouse 支援虛擬報表套裝上設定的替代時區。 </p> </td> 
+    </ul> <p>虛擬報表套裝的 Data Warehouse 報表功能可支援虛擬報表套裝所設定的替代時區。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用區段</span> </td> 
@@ -68,7 +68,7 @@ This table describes the fields and options on the [!UICONTROL Data Warehouse Re
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 排程傳送</span> </td> 
-   <td colname="col2"> <p>可讓您排程請求在選定時間間隔自動傳送，或僅傳送一次報告。如果您使用預設格式，報告在電子郵件中為 .csv 格式的檔案。 </p> <p>若要新增日期範圍，請在檔案名稱中加上 <span class="filepath">%R</span>。此值表示報告中請求的日期值。例如，若您請求從 2013 年 5 月 1 日到 2013 年 5 月 7 日的資料，<span class="filepath">%R</span> 會顯示包含 20130501 - 20130507 日期範圍的檔案名稱。 </p> </td> 
+   <td colname="col2"> <p>可讓您排程請求在選定時間間隔自動傳送，或僅傳送一次報表。如果您使用預設格式，報表在電子郵件中為 .csv 格式的檔案。 </p> <p>若要新增日期範圍，請在檔案名稱中加上 <span class="filepath">%R</span>。此值表示報表中請求的日期值。例如，若您請求從 2013 年 5 月 1 日到 2013 年 5 月 7 日的資料，<span class="filepath">%R</span> 會顯示包含 20130501 - 20130507 日期範圍的檔案名稱。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
