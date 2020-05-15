@@ -2,8 +2,11 @@
 title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
-translation-type: ht
-source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
+translation-type: tm+mt
+source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: c2194a6cf7e381ebeab05e273c9b64816552d744
 
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
-* 如需 [!UICONTROL Customer Journey Analytics] 的相關資訊，請前往[此處](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html)。
+* 如需客戶歷 [!UICONTROL 程分析的詳細資訊]，請 [前往](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html)。
 * 如需新 Adobe Analytics 功能、管理注意事項和錯誤修正的完整清單，請參閱最新 [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 * 如需新功能的詳細資訊，請參閱工具使用者指南中的 [Analysis Workspace 新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 如需 Adobe Analytics for Audio and Video 的相關資訊，請參閱[在 Analytics 測量音訊和視訊](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)。
@@ -21,13 +24,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
-| 2020 年 4 月 28 日 | 新增[「內容速度」](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/metrics/metrics-content-velocity.html)量度的文件。 |
-| 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-publish.html) 新增更新內容。 |
+| 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/c-variables/c-metrics/metrics-content-velocity.md)量度的文件。 |
+| 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md) 新增更新內容。 |
 | 2020 年 3 月 12 日 | 更新 CDA 編結延遲。 |
 | 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html) 的文件。 |
 | 2020 年 2 月 25 日 | 新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
 | 2020 年 2 月 18 日 | 新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
-| 2020 年 2 月 12 日 | 更新及重新整理[行銷管道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/mc-get-started/c-getting-started-mchannel.html)文件。 |
+| 2020 年 2 月 12 日 | 更新及重新整理[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文件。 |
 | 2020 年 2 月 7 日 | 更新[設定跨裝置分析](../components/cda/cda-setup.md)及[常見問題集](../components/cda/cda-faq.md) |
 | 2020 年 2 月 4 日 | 徹底重寫[實作使用者指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新「自由表格」頁面，加入新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)的相關資訊。 |
