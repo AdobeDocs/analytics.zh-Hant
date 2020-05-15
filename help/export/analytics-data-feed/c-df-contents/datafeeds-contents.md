@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 資料摘要內容 - 概觀
 topic: Reports and analytics
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -17,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 資訊清單檔案
 
-資訊清單檔案包含上傳資料集內每個檔案的下列詳細資料:
+資訊清單檔案包含上傳資料集內每個檔案的下列詳細資料：
 
 * 檔案名稱
 * 檔案大小
@@ -26,13 +26,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 資訊清單檔案的格式與 Java JAR 資訊清單檔案相同。
 
-資訊清單檔案一律在最後以單獨的 `.txt` 檔案傳送，因此如有此檔案即代表已傳送該請求期間的完整資料集。資訊清單檔案的命名方式如下:
+資訊清單檔案一律在最後以單獨的 `.txt` 檔案傳送，因此如有此檔案即代表已傳送該請求期間的完整資料集。資訊清單檔案的命名方式如下：
 
 ```text
 [rsid]_[YYYY-mm-dd].txt
 ```
 
-典型的資訊清單檔案包含類似下列的資料:
+典型的資訊清單檔案包含類似下列的資料：
 
 ```text
 Datafeed-Manifest-Version: 1.0
@@ -60,7 +60,7 @@ Datafeed-Manifest-Version: 1.0
 
 請注意，`column_headers.tsv` 和 `event_list.tsv` 是資料摘要和報表套裝專屬檔案。`browser.tsv` 等其他檔案則是一般檔案。
 
-查閱檔案會以壓縮的 zip 檔案一起傳送，命名方式如下:
+查閱檔案會以壓縮的 zip 檔案一起傳送，命名方式如下：
 
 ```text
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
