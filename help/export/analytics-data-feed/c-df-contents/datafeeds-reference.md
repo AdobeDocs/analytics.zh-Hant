@@ -5,7 +5,7 @@ subtopic: data feeds
 title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # 資料欄參考
 
-參閱本頁內容，了解各欄包含哪些資料。大部分實施不會用到每一欄，因此在決定要將哪些欄包含在資料摘要匯出中時，可參考此頁面。
+參閱本頁內容，了解各欄包含哪些資料。大部分實作不會用到每一欄，因此在決定要將哪些欄包含在資料摘要匯出中時，可參考此頁面。
 
->[!IMPORTANT] 對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。如果您的實施經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
+>[!IMPORTANT] 對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。如果您的實作經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
 
 ## 欄、說明和資料類型
 
@@ -47,7 +47,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `code_ver` | 用於編譯及傳送影像要求的 AppMeasurement 程式庫版本。 | char(16) |
 | `color` | 以 c_color 欄為基礎的色彩深度 ID。請參考 color_depth.tsv 查閱表格。 | 不帶正負號的 smallint |
 | `connection_type` | 此數值 ID 表示連線類型。用於「連線類型」維度的變數。請參考 connection_type.tsv 查閱表格。 | 不帶正負號的 tinyint |
-| `cookies` | 用於「Cookie 支援」維度的變數。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
+| `cookies` | 「Cookie 支援」維度所使用的變數。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
 | `country` | 此數值 ID 表示點擊來源國家/地區。Adobe 與 Digital Envoy 合作，比對 IP 位址與國家/地區。使用 country.tsv 查閱。 | 不帶正負號的 smallint |
 | `ct_connect_type` | 與 connection_type 欄相關。最常見的值是 LAN/Wifi、行動電信業者和數據機。 | char(20) |
 | `curr_factor` | 決定貨幣小數位數，並用於貨幣轉換。例如，USD 使用兩個小數位數，因此該欄值為 2。 | tinyint |
@@ -55,16 +55,16 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `currency` | 交易期間使用的貨幣代碼。 | char(8) |
 | `cust_hit_time_gmt` | 僅限啟用時間戳記的報表套裝。時間戳記根據 Unix 時間隨點擊傳送。 | int |
 | `cust_visid` | 如果已設定自訂訪客 ID，則會填入此欄。 | varchar(255) |
-| `daily_visitor` | 此旗標用於確定點擊是否為新每日訪客。 | 不帶正負號的 tinyint |
+| `daily_visitor` | 確定點擊是否為新每日訪客的旗標。 | 不帶正負號的 tinyint |
 | `date_time` | 可讀格式的點擊時間，根據報表套裝的時區而定。 | 日期時間 |
 | `domain` | 用於「網域」維度的變數。以使用者的 Internet 服務提供商 (ISP) 為基礎。 | varchar(100) |
 | `duplicate_events` | 列出每個計為重複項目的事件。 | varchar(255) |
-| `duplicate_purchase` | 此旗標用於指出此點擊的購買事件因為重複而應被忽略。 | 不帶正負號的 tinyint |
+| `duplicate_purchase` | 此旗標可指出此點擊的購買事件因為重複而應被忽略。 | 不帶正負號的 tinyint |
 | `duplicated_from` | 僅用於包含點擊複製 VISTA 規則的報表套裝。指出從中複製點擊的報表套裝。 | varchar(40) |
 | `ef_id` | ef_id 用於 Adobe Advertising Cloud 整合。 | varchar(255) |
 | `evar1 - evar250` | 自訂變數 1-250。每個組織使用不同的 eVar。如需關於貴組織如何填入各 eVar 的更多資訊，請參閱貴組織專用的解決方案設計文件。 | varchar(255) |
 | `event_list` | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用 event.tsv 查閱。 | text |
-| `exclude_hit` | 此旗標用於表示點擊已從報告排除。visit_num 欄不會因為排除的點擊而增加。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。排除使用者代理<br>4：根據 IP 位址排除<br>5：遺失重要點擊資訊，例如 page_url、pagename、page_event 或 event_list<br>6：JavaScript 無法正確處理點擊<br>7：帳戶特定排除，例如在 VISTA 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報表套裝上遺失時間戳記的點擊，或非時間戳記報表套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
+| `exclude_hit` | 此旗標表示點擊已從報表中排除。visit_num 欄不會因為排除的點擊而增加。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。排除使用者代理<br>4：根據 IP 位址排除<br>5：遺失重要點擊資訊，例如 page_url、pagename、page_event 或 event_list<br>6：JavaScript 無法正確處理點擊<br>7：帳戶特定排除，例如在 VISTA 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報表套裝上遺失時間戳記的點擊，或非時間戳記報表套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
 | `first_hit_page_url` | 訪客的第一個 URL。 | varchar(255) |
 | `first_hit_pagename` | 用於「登入頁面原始」維度的變數。訪客的原始登入頁面名稱。 | varchar(100) |
 | `first_hit_ref_domain` | 此用於「原始反向連結網域」維度的變數。以 first_hit_referrer 為基礎。訪客的第一個反向連結網域。 | varchar(100) |
@@ -79,18 +79,18 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
 | `hit_source` | 指出點擊來源。<br>1：沒有時間戳記的標準影像請求<br>2：具有時間戳記的標準影像請求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：完整處理資料來源上傳<br>7：TransactionID 資料來源上傳<br>8：不再使用；舊版 Adobe Advertising Cloud 資料來源 <br>9：已不再使用；Adobe Social 摘要量度 | 不帶正負號的 tinyint |
 | `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
-| `hitid_high` | 用於結合 hitid_low 以專門識別點擊。 | 不帶正負號的 bigint |
-| `hitid_low` | 用於結合 hitid_high 以專門識別點擊。 | 不帶正負號的 bigint |
+| `hitid_high` | 搭配 hitid_low 使用以專門識別點擊。 | 不帶正負號的 bigint |
+| `hitid_low` | 搭配 hitid_high 使用以專門識別點擊。 | 不帶正負號的 bigint |
 | `homepage` | 已不再使用。指出目前 URL 是否為瀏覽器的首頁。 | char(1) |
-| `hourly_visitor` | 此旗標用於確定點擊是否為新每小時訪客。 | 不帶正負號的 tinyint |
+| `hourly_visitor` | 此旗標可確定點擊是否為每小時的新訪客。 | 不帶正負號的 tinyint |
 | `ip` | IP 位址，根據影像要求的 HTTP 標頭。 | char(20) |
 | `ip2` | 未使用。報表套裝的後端參考變數，包含以 IP 位址為基礎的 VISTA 規則。 | char(20) |
 | `j_jscript` | 瀏覽器支援的 JavaScript 版本。 | char(5) |
-| `java_enabled` | 此旗標用於指出是否已啟用 Java。<br>Y：啟用 <br>N：停用 <br>U：未知 | char(1) |
+| `java_enabled` | 此旗標可指出是否已啟用 Java。<br>Y：啟用 <br>N：停用 <br>U：未知 | char(1) |
 | `javascript` | JavaScript 版本的查閱 ID，根據 j_jscript。使用查閱表格。 | 不帶正負號的 tinyint |
 | `language` | 語言的數值 ID。使用 languages.tsv 查閱表格。 | 不帶正負號的 smallint |
 | `last_hit_time_gmt` | 先前點擊的時間戳記 (Unix 時間)。用於計算「上次造訪間隔天數」維度。 | int |
-| `last_purchase_num` | 用於「客戶忠誠度」維度的變數。表示訪客之前的購買次數。<br>0：沒有先前購買 (非客戶) <br>1：先前購買 1 次 (新客戶) <br>2：先前購買 2 次 (回頭客戶) <br>3：先前購買 3 次以上 (忠實客戶) | 不帶正負號的 int |
+| `last_purchase_num` | 「客戶忠誠度」維度所使用的變數。表示訪客之前的購買次數。<br>0：沒有先前購買 (非客戶) <br>1：先前購買 1 次 (新客戶) <br>2：先前購買 2 次 (回頭客戶) <br>3：先前購買 3 次以上 (忠實客戶) | 不帶正負號的 int |
 | `last_purchase_time_gmt` | 用於「上次購買間隔天數」維度。上次購買的時間戳記 (Unix 時間)。對於首次購買和之前未購買的訪客，此值為 0。 | int |
 | `latlon1` | 位置 (10 公里以內) | varchar(255) |
 | `latlon23` | 位置 (100 公尺以內) | varchar(255) |
@@ -99,7 +99,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `mcvisid` | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
 | `mobile_id` | 如果使用者使用行動裝置，則為裝置的數值 ID。 | int |
 | `mobileaction` | 行動動作。在行動服務中呼叫 trackAction 時自動收集。允許應用程式中的自動動作路徑。 | varchar(100) |
-| `mobileappid` | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本: [AppName] [BundleVersion] | varchar(255) |
+| `mobileappid` | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本：[AppName] [BundleVersion] | varchar(255) |
 | `mobileappperformanceappid` | 用於 Apteligent 資料連接器。Apteligent 中使用的應用程式 ID。 | varchar(255) |
 | `mobileappperformancecrashid` | 用於 Apteligent 資料連接器。Apteligent 中使用的當機 ID。 | varchar(255) |
 | `mobileappstoreobjectid` | 用於 Appfigures 資料連接器。App Store 物件 ID | varchar(255) |
@@ -139,10 +139,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `mobilerelaunchcampaignterm` | 行動服務上市條件 | varchar(255) |
 | `mobilerelaunchcampaigntrackingcode` | 從內容資料變數 a.launch.campaign.trackingcode 收集。用於贏取中，作為上市促銷活動的追蹤代碼。 | varchar(255) |
 | `mobileresolution` | 行動裝置的解析度。寬 x 高 (以像素表示)。 | varchar(255) |
-| `monthly_visitor` | 此旗標用於表示當月的獨特訪客。 | 不帶正負號的 tinyint |
+| `monthly_visitor` | 此旗標可標示當月的不重複訪客。 | 不帶正負號的 tinyint |
 | `mvvar1` - `mvvar3` | 清單變數值。根據實作包含使用分隔符號的自訂值清單。 | text |
 | `namespace` | 未使用。多年前報廢功能的一部分。 | varchar(50) |
-| `new_visit` | 此旗標用於確定目前的點擊是否為新造訪。造訪閒置 30 分鐘後，由 Adobe 伺服器設定。 | 不帶正負號的 tinyint |
+| `new_visit` | 此旗標可確定目前的點擊是否為新造訪。造訪閒置 30 分鐘後，由 Adobe 伺服器設定。 | 不帶正負號的 tinyint |
 | `os` | 此數值 ID 表示訪客的作業系統。根據 user_agent 欄。使用 os 查閱。 | 不帶正負號的 int |
 | `p_plugins` | 已不再使用。瀏覽器的可用外掛程式清單.使用 JavaScript 函數 navigator.plugins()。 | text |
 | `page_event` | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
@@ -164,10 +164,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `product_merchandising` | 未使用。請改用 product_list。 | text |
 | `prop1` - `prop75` | 自訂流量變數 1 - 75。 | varchar(100) |
 | `purchaseid` | 使用 s_purchaseID 變數設定之購買的唯一識別碼。由 duplicate_purchase 欄使用。 | char(20) |
-| `quarterly_visitor` | 此旗標用於確定點擊是否為新每季訪客。 | 不帶正負號的 tinyint |
+| `quarterly_visitor` | 此旗標可確定點擊是否為每季新訪客。 | 不帶正負號的 tinyint |
 | `ref_domain` | 根據反向連結欄。點擊的反向連結網域。 | varchar(100) |
 | `ref_type` | 此數值 ID 表示點擊的反向連結類型。<br>1：網站內<br>2：其他網站 <br>3：搜尋引擎 <br>4：硬碟 <br>5：USENET <br>6：分類/建立書籤 (無反向連結) <br>7：電子郵件 <br>8：無 JavaScript <br>9：社交網路 | 不帶正負號的 tinyint |
-| `referrer` | 上一頁的頁面 URL。請注意， `referrer` 雖然使用varchar(255)的資料類型， `post_referrer` 但使用varchar(244)的資料類型。 | varchar(255) |
+| `referrer` | 上一頁的頁面 URL。請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255) |
 | `resolution` | 此數值 ID 表示螢幕解析度。填入「螢幕解析度」維度。使用 resolution.tsv 查閱表格。 | 不帶正負號的 smallint |
 | `s_kwcid` | 用於 Adobe Advertising Cloud 整合的關鍵字 ID。 | varchar(255) |
 | `s_resolution` | 原始螢幕解析度值。使用 JavaScript 函數 screen.width x screen.height 收集。 | char(20) |
@@ -193,12 +193,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `socialownedpropertypropertyvsapp` | 已不再使用。社交擁有的屬性與應用程式 | varchar(255) |
 | `state` | State 變數。 | varchar(50) |
 | `stats_server` | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
-| `t_time_info` | 訪客的當地時間。格式如下: YYYY/M/D HH:MM:SS 月份 (0-11，0 為 1 月) 時區差 (以分鐘為單位) | varchar(100) |
+| `t_time_info` | 訪客的當地時間。格式如下：YYYY/M/D HH:MM:SS 月份 (0-11，0 為 1 月) 時區差 (以分鐘為單位) | varchar(100) |
 | `tnt` | 用於 Adobe Target 整合。 | text |
 | `tnt_action` | 用於 Adobe Target 整合。 | text |
 | `tnt_post_vista` | 已不再使用。請改用 post_tnt。 | text |
 | `transactionid` | 唯一識別碼，日後可透過資料來源上傳各種資料點。 | text |
-| `truncated_hit` | 此旗標用於表示影像要求已截斷。表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
+| `truncated_hit` | 此旗標代表影像要求已截斷。表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
 | `ua_color` | 已不再使用。先前作為色彩深度的後援。 | char(20) |
 | `ua_os` | 已不再使用。先前作為作業系統的後援。 | char(80) |
 | `ua_pixels` | 已不再使用。先前作為瀏覽器高度和寬度的後援。 | char(20) |
@@ -206,7 +206,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `user_hash` | 未使用。報表套裝 ID 上的雜湊.請改用使用者名稱。 | 不帶正負號的 int |
 | `user_server` | 用於「伺服器」維度的變數。 | varchar(100) |
 | `userid` | 未使用。報表套裝 ID 的數值 ID。請改用使用者名稱。 | 不帶正負號的 int |
-| `username` | 點擊的報表套裝ID。 | char(40) |
+| `username` | 點擊的報表套裝 ID。 | char(40) |
 | `va_closer_detail` | 用於「上次接觸詳情」維度的變數。 | varchar(255) |
 | `va_closer_id` | 可識別「上次接觸渠道」維度的數值 ID 。可以在「行銷通路管理員」中找到此 ID 的查閱。 | 不帶正負號的 tinyint |
 | `va_finder_detail` | 用於「首次接觸詳情」維度的變數。 | varchar(255) |
@@ -238,7 +238,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `videogenre` | 視訊類型 | text |
 | `videolength` | 視訊長度 | varchar(255) |
 | `videomvpd` | 視訊 MVPD | varchar(255) |
-| `videoname` | 影片名稱 | varchar(255) |
+| `videoname` | 視訊名稱 | varchar(255) |
 | `videonetwork` | 視訊網路 | varchar(255) |
 | `videopath` | 視訊路徑 | varchar(100) |
 | `videoplayername` | 視訊播放器名稱 | varchar(255) |
@@ -256,10 +256,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `videoshow` | 視訊節目 | varchar(255) |
 | `videoshowtype` | 視訊節目類型 | varchar(255) |
 | `videostreamtype` | 視訊串流類型 | varchar(255) |
-| `visid_high` | 用於結合 visid_low 以專門識別造訪。 | 不帶正負號的 bigint |
-| `visid_low` | 用於結合 visid_high 以專門識別造訪。 | 不帶正負號的 bigint |
+| `visid_high` | 搭配 visid_low 使用以專門識別造訪。 | 不帶正負號的 bigint |
+| `visid_low` | 搭配 visid_high 使用以專門識別造訪。 | 不帶正負號的 bigint |
 | `visid_new` | 用於識別點擊是否包含新產生訪客 ID 的旗標。 | char(1) |
-| `visid_timestamp` | 如果新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
+| `visid_timestamp` | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
 | `visid_type` | 此數值 ID 表示用於識別訪客的方法。<br>0：自訂訪客 ID <br>1：IP 和使用者代理備援 <br>2：HTTP 行動訂閱者標題 <br>3：舊版 Cookie 值 (s_vi) <br>4：備援 Cookie 值 (s_fid) <br>5：身分識別服務 | 不帶正負號的 tinyint |
 | `visit_keywords` | 用於「搜尋關鍵字」維度的變數。此欄使用非標準字元限制來容納 Adobe 使用的後端邏輯。 | varchar(244) |
 | `visit_num` | 用於「造訪數」維度的變數。從 1 開始，每次訪客開始新的造訪時都會遞增。 | 不帶正負號的 int |
@@ -269,10 +269,10 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `visit_referrer` | 造訪的第一個反向連結。 | varchar(255) |
 | `visit_search_engine` | 此數值 ID 是造訪的第一個搜尋引擎。使用 search_engines.tsv 查閱表格。 | 不帶正負號的 smallint |
 | `visit_start_page_url` | 造訪的第一個 URL。 | varchar(255) |
-| `visit_start_pagename` | 瀏覽的第一個頁面名稱。 | varchar(100) |
+| `visit_start_pagename` | 造訪的第一個頁面名稱。 | varchar(100) |
 | `visit_start_time_gmt` | 造訪之第一次點擊的時間戳記 (單位為 Unix 時間)。 | int |
-| `weekly_visitor` | 此旗標用於確定點擊是否為新每週訪客。 | 不帶正負號的 tinyint |
-| `yearly_visitor` | 此旗標用於確定點擊是否為新每年訪客。 | 不帶正負號的 tinyint |
+| `weekly_visitor` | 此旗標可確定點擊是否為每週新訪客。 | 不帶正負號的 tinyint |
+| `yearly_visitor` | 此旗標可確定點擊是否為每年新訪客。 | 不帶正負號的 tinyint |
 | `zip` | 用於填入「郵遞區號」維度。 | varchar(50) |
 
 ## 空白欄
