@@ -1,7 +1,7 @@
 ---
 title: Analytics Data Connectors 說明
 description: Data Connectors 說明
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 本指南說明如何
 
-其功能包括:
+內容包括：
 
 
 ## 重要 Analytics 匯入文章
