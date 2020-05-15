@@ -1,34 +1,34 @@
 ---
-title: 交易ID資料來源
-description: 瞭解使用交易ID資料來源的一般工作流程。
-translation-type: tm+mt
+title: 交易 ID 資料來源
+description: 了解使用交易 ID 資料來源的一般工作流程。
+translation-type: ht
 source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 ---
 
 
-# 交易ID資料來源
+# 交易 ID 資料來源
 
-交易ID資料來源不僅可讓您並排檢視線上和離線資料，還可將資料連結在一起。 它需要在您的Analytics實作 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 中使用變數。
+交易 ID 資料來源不僅可讓您並排檢視線上和離線資料，還可將資料關聯在一起。若要使用此功能，請在 Analytics 實作中使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 變數。
 
-當您傳送包含值的線上點擊時， `transactionID` Adobe會對當時所有已設定或持續存在的變數進行「快照」。 如果找到透過Data Sources上傳的相符交易ID，則離線和線上資料會系結在一起。 首先看到哪個資料來源並不重要。
+當您傳送包含 `transactionID` 值的線上點擊時，Adobe 會對當時所有已設定或持續存在的變數拍攝「快照」。如果找到透過 Data Sources 上傳的相符交易 ID，離線和線上資料就會繫結在一起。先看到哪個資料來源並不重要。
 
-## 交易ID資料來源的整體工作流程
+## 交易 ID 資料來源的整體工作流程
 
-使用下列一般工作流程開始使用交易ID資料來源：
+使用以下一般工作流程開始使用交易 ID 資料來源：
 
-1. 建立資料來源(「一般」類別和「一般資料來源（交易ID）」類型)。
-1. 依照資料饋送設定精靈的指示，取得FTP位置以上傳資料並下載資料來源範本檔案。
-1. 更新您的實作以包含變 `transactionID` 數。
-1. 使用檔案將資料來源檔案上傳至FTP `.fin` 網站。
+1. 建立資料來源 (「一般」類別和「一般資料來源 (交易 ID)」類型)。
+1. 依資料摘要設定精靈的指示取得 FTP 位置，以上傳資料並下載資料來源範本檔案。
+1. 更新您的實作，加入 `transactionID` 變數。
+1. 使用 `.fin` 檔案將資料來源檔案上傳至 FTP 站台。
 
-## 上傳檔案與實作代碼範例
+## 上傳檔案和實作程式碼範例
 
-如果您上傳了下列資料來源檔案，並在您的網站上實作了下列程式碼，您會在報表中看到連結的資料。 資料來源檔案使用eVar1和event1，而線上實作則使用eVar2和event2。 由於交易ID符合，您可以看到eVar1的event2資料，以及eVar2的event1資料。
+如果您上傳以下資料來源檔案，並在站台上實作以下程式碼，報表中就會顯示連結的資料。資料來源檔案使用 eVar1 和 event1，線上實作則使用 eVar2 和 event2。由於交易 ID 相符，您可以看到 eVar1 的 event2 資料，以及 eVar2 的 event1 資料。
 
-### 範例檔案
+### 範例檔
 
-下載範本、更新值，然後將其上傳至資料來源的FTP位置：
+下載範本、更新值，然後將其上傳至資料來源 FTP 位置：
 
 | `#` | `Example eVar1 name` | `Example event 1 name` | `1` |
 |---|---|---|---|
@@ -37,7 +37,7 @@ source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
 
 ### 實作程式碼範例
 
-如需交易ID的詳細說明，請參閱「實 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 作使用指南」。
+如需交易 ID 的詳細說明，請參閱實作使用者指南中的 [`transactionID`](/help/implement/vars/page-vars/transactionid.md)。
 
 ```js
 var s = s_gi("examplersid");
