@@ -3,7 +3,7 @@ description: 如果從現有報表套裝複製設定，會出現系統訊息，�
 title: 並非從來源報表套裝複製的設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>分類資料 (複製了分類結構) </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/classifications-importer/c-working-with-saint.html"> 分類匯入工具 (上傳) 文件</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟用交易 ID 記錄 </p> </td> 
@@ -68,7 +68,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>訪客 ClickMap 管理員 </p> </td> 
-   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/en/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升級至 Activity Map</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/getting-started/get-started-admins/activitymap-enable.html"> 升級至 Activity Map</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 規則 </p> </td> 
