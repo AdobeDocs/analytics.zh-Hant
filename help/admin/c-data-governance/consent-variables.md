@@ -2,7 +2,7 @@
 description: 資料隱私權中的隱私權報表變數。
 title: 隱私權報表變數
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 ---
@@ -35,12 +35,12 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 您可透過 Analytics Admin Console 中提供的新「隱私權」設定來啟用隱私權報表變數。
 
 每個報表套裝皆可依照以下步驟設定：
-1. 在 Reports &amp; Analytics 中，按一下&#x200B;**[!UICONTROL 「管理員 > 報表套裝」]**。
-1. 選取您要收集媒體資料的報表套裝，然後按一下&#x200B;**[!UICONTROL 「編輯設定 > 隱私權管理」]**。
+1. 在「報告與分析」中按一下「**[!UICONTROL Admin > Report Suites]**」。
+1. 選取您要收集媒體資料的報表套裝，然後按一下「**[!UICONTROL Edit Settings > Privacy Management]**」。
 
    ![](assets/rsm-privacy-select.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「啟用資料隱私權報表」]**&#x200B;按鈕。
+1. 按一下「**[!UICONTROL Enable Data Privacy Reports]**」按鈕。
 
    > [!NOTE] 這些變數一經啟用即無法關閉。
 
@@ -50,11 +50,11 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
    ![](assets/rsm-privacy-config.png)
 
-1. 保留的變數現在可供「報告與分析」和「工作區」中分析。 請參閱「同意管理選擇退出」和「同意管理選擇加入」。
+1. 「報告與分析」和「工作環境」現在會提供保留的變數，以便分析。請參閱「同意管理選擇退出」和「同意管理選擇加入」。
 
    ![](assets/consent-management.png)
 
-## 實施
+## 實作
 
 已預先定義三個上下文資料變數，用於搭配隱私權報表管理保留變數使用。如何管理並保留這些變數的設定取決於每位實作工程師。
 
@@ -71,7 +71,7 @@ source-git-commit: ddbd724231850c816e7b2b2e56dc139d31276d0c
 
 * 上下文資料：`contextData.['opt.dmp']`
 * 接受的值：
-   * N - 傳送「N」值時，表示消費者選擇不分享至資料管理平台。**注意**:自2020年1月15日起，將此變數設為&quot;N&quot;會封鎖此點擊的伺服器端共用給AAM。
+   * N - 傳送「N」值時，表示消費者選擇不分享至資料管理平台。**注意**：自 2020 年 1 月 15 日起，將此變數設為「N」會封鎖伺服器端對 AAM 共用此點擊的操作。
    * Y - 傳送「Y」值時，表示消費者選擇分享至資料管理平台。
 
 ### SELL
