@@ -3,7 +3,7 @@ description: 連結報表會報告在目前頁面上找到的連結。並不會�
 title: 連結報表
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 ---
@@ -37,7 +37,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
   </tr> 
   <tr> 
    <td colname="col1"> 連結 ID </td> 
-   <td colname="col2">The link's primary ID (for more information on how primary ID is defined by the <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">New Link Tracking Methodology</a>) </td> 
+   <td colname="col2">連結的主要 ID (如需定義主要 ID 的詳細資訊，請參閱<a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">全新連結追蹤方法</a>)。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 點擊次數 </td> 
@@ -60,7 +60,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
 
 **篩選資料**
 
-如果想聚焦於特定連結，則可在「**[!UICONTROL 篩選資料]**」欄位中搜尋相關詞語。只有符合搜尋的連結會顯示覆蓋圖。若不使用篩選，則會顯示「[Activity Map 設定](/help/analyze/activity-map/activitymap-overlay-settings.md)」中指定的覆蓋圖。
+如果想聚焦於特定連結，則可在&#x200B;**[!UICONTROL 「篩選資料」]**&#x200B;欄位中搜尋相關詞語。只有符合搜尋的連結會顯示覆蓋圖。若不使用篩選，則會顯示[「Activity Map 設定」](/help/analyze/activity-map/activitymap-overlay-settings.md)中指定的覆蓋圖。
 
 ## 即時模式 {#section_AC1967217B5A4532ACB01D33636F6770}
 
@@ -82,7 +82,7 @@ source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
   </tr> 
   <tr> 
    <td colname="col1"> 連結 ID </td> 
-   <td colname="col2">連結的主要 ID。For more information on how the primary ID is defined by the New <a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md"> Link Tracking Methodology</a>. </td>
+   <td colname="col2">連結的主要 ID。如需定義主要 ID 的詳細資訊，請參閱全新的<a href="/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md">連結追蹤方法</a>。 </td>
   </tr> 
   <tr> 
    <td colname="col1"> 連結點擊次數 </td> 
