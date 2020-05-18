@@ -2,7 +2,7 @@
 description: 'null'
 title: 標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
