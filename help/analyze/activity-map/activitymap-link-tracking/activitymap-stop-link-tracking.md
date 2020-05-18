@@ -3,7 +3,7 @@ description: 在 Activity Map 或舊版 ClickMap 中停止連結追蹤的步驟�
 title: 停止連結追蹤
 topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -41,7 +41,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> ClickMap (舊稱 Visitor ClickMap) </td> 
-   <td colname="col2"> <p>將 <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html"  >trackInlineStats</a> 變數設定為 false (此為預設值)。語法如下：
+   <td colname="col2"> <p>將 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/configuration-variables.translate.html"  >trackInlineStats</a> 變數設定為 false (此為預設值)。語法如下：
      <code>
        s.trackInlineStats=false
      </code> </p> </td> 
