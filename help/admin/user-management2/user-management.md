@@ -4,7 +4,7 @@ subtopic: Users and groups
 title: 使用者和產品管理
 topic: Admin tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -16,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 ## Admin Console 管理員的說明資源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -34,14 +34,14 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟動 Admin Console </p> </td> 
-   <td colname="col2"> <p>您的使用者帳戶移轉後，就可以在 Admin Console 中管理所有解決方案中的使用者和產品 </p> <p>導覽至：<a href="https://adminconsole.adobe.com/enterprise/#"> https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>如需說明，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html">管理 Experience Cloud 使用者和產品</a>，以瞭解 Admin Console 中 Experience Cloud 使用者和產品管理的更新。 </p> </td> 
+   <td colname="col2"> <p>您的使用者帳戶移轉後，就可以在 Admin Console 中管理所有解決方案中的使用者和產品 </p> <p>導覽至：<a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>如需說明，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html">管理 Experience Cloud 使用者和產品</a>，以瞭解 Admin Console 中 Experience Cloud 使用者和產品管理的更新。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## 使用者管理說明 {#section_7C19842A3D4249109A9399D4DF18DE75}
 
-下表說明了中頁籤 [!UICONTROL Users] 上的元素 [!UICONTROL User Management]。
+下表說明[!UICONTROL 「使用者管理」]中的[!UICONTROL 「使用者」]標籤的元素。
 
 <table id="table_6F81D1095EB945D8995FF971B65BA52A"> 
  <thead> 
@@ -65,7 +65,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 新增使用者</span> </td> 
-   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>。 </p> </td> 
+   <td colname="col2"> <p>可讓您為公司新增使用者帳戶。只有在「剩餘登入使用者數量」大於 0 時，這個連結才能使用。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下載報表</span> </td> 
@@ -73,7 +73,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 登入</span> </td> 
-   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>。 </p> </td> 
+   <td colname="col2"> <p>使用者名稱。您可以按一下使用者名稱以編輯使用者帳戶屬性。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 名字</span> </td> 
@@ -109,7 +109,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 編輯</span> </td> 
-   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱 <a href="/help/admin/user-management2/c-user-management/users.md"> 使用者</a>。 </p> </td> 
+   <td colname="col2"> <p>編輯使用者帳戶設定。 </p> <p>請參閱<a href="/help/admin/user-management2/c-user-management/users.md">使用者</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 刪除</span> </td> 
