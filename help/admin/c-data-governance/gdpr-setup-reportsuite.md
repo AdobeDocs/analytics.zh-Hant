@@ -2,7 +2,7 @@
 description: 為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。請務必先熟悉標籤及其定義。
 title: 標籤報表套裝資料
 uuid: a694851c-8933-496e-9118-113cc38cba8a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **範例**：您做為資料控管單位，計劃從資料主體收集電子郵件地址和 Cookie ID 以處理其資料隱私權請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。若要建立電子郵件地址和 Cookie ID 的標籤，您必須在 Analytics 中使用 Adobe Cloud Platform 的資料使用標籤與實行 (DULE) 架構。
 
-1. 在 Analytics 中，導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 資料控管]** > **[!UICONTROL (選取報表套裝)」]**。![](assets/privacy_rs_settings.png)
+1. 在 Analytics 中導覽至「**[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** > **[!UICONTROL (select report suite)]**」![](assets/privacy_rs_settings.png)
 
 1. 選取您想要加上標籤的變數群組。
 
@@ -37,7 +37,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/info.png)
 
-1. 按一下變數的核取方塊來選取一或多個變數，接著選取&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示 (位於右方) 來編輯一或多個變數。
+1. 按一下變數的核取方塊，選取一或多個變數，接著選取「**[!UICONTROL Edit]**」圖示 (位於右方) 即可編輯一或多個變數。
 
    ![](assets/edit.png)
 
@@ -57,7 +57,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![](assets/privacy_labels.png)
 
-1. 完成所有標籤設定後，按一下&#x200B;**[!UICONTROL 「套用」]**。
+1. 完成所有標籤設定後，按一下「**[!UICONTROL Apply]**」。
 
 ## 將標籤複製到報表套裝 {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
@@ -65,11 +65,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 1. 選取變數群組 (標準維度、轉換維度等)包含想要複製的變數。請注意，您一次只能複製一個變數群組的標籤。
 1. 選取群組中的某些變數或所有變數。
-1. 按一下「資料控管」對話方塊右上角的&#x200B;**[!UICONTROL 「將標籤複製到報表套裝」]**。
+1. 按一下「資料控管」對話方塊右上角的「**[!UICONTROL Copy Labels to Report Suite(s)]**」。
 
    ![](assets/apply_as_template.png)
 
-1. 勾選&#x200B;**[!UICONTROL 「選擇全部」]**，將選取的變數複的標籤製到所有報表套裝，或選取您想為其複製標籤的個別報表套裝。
+1. 勾選「**[!UICONTROL Select All]**」，將所選變數的標籤複製到所有報表套裝，或選取您想為其複製標籤的個別報表套裝。
 
    >[!IMPORTANT]
    >
@@ -87,5 +87,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
    >
    >每次都應該檢查目標報表套裝，確認您所複製的標籤正確無誤。這點對於含有 ID 或 DEL 標籤的變數來說尤其重要。
 
-1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
+1. 按一下「**[!UICONTROL Apply]**」。
 
