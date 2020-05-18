@@ -3,7 +3,7 @@ description: 在 Activity Map 中安裝、設定和使用功能的常問的問�
 title: Activity Map 常見問題集
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,7 +25,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **問：新的 AppMeasurement 代碼可以透過「Dynamic Tag Management」(DTM) 進行設定嗎？**
 
-答：是，您可以[手動實施](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)新的 AppMeasurement 代碼。
+答：是，您可以[手動實作](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)新的 AppMeasurement 代碼。
 
 **問：AppMeasurement v1.6 程式庫有什麼重大變更？**
 
@@ -51,17 +51,17 @@ A:
 
 * When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
 
-**問：Activity Map是否提供「檢視」資料？**
+**問：Activity Map 是否提供「檢視次數」的資料？**
 
-答：否，Adobe不會追蹤已檢視的連結。
+答：否，Adobe 不會追蹤已檢視的連結。
 
 **問：我之前沒有在網站上使用 Visitor ClickMap，現在可以使用 Activity Map 嗎？**
 
-答：是否安裝舊版 (現在簡稱為 ClickMap) 並非實施新版本的先決條件。Adobe 還會在一段限定時間內繼續支援舊版。
+答：是否安裝舊版 (現在簡稱為 ClickMap) 並非實作新版本的先決條件。Adobe 還會在一段限定時間內繼續支援舊版。
 
 **問：Activity Map 支援哪些瀏覽器和版本？**
 
-答：我們支援4種主要瀏覽器（Chrome、Firefox、Safari和IE）的最新版本。
+答：我們支援四種主要瀏覽器 (Chrome、Firefox、Safari 和 IE) 的最新版本。
 
 **問：預設覆蓋圖設定是什麼？**
 
@@ -80,7 +80,7 @@ A:
 
 **問：為什麼 Activity Map 執行時，沒有收集連結點擊資料？**
 
-答：使用 Activity Map 時，Analytics 標記不會收集連結點擊資料。此行為會遵循ClickMap外掛程式的行為。
+答：使用 Activity Map 時，Analytics 標記不會收集連結點擊資料。此行為會遵循 ClickMap 外掛程式的行為規範。
 
 **問：「Activity Map 全部連結報表」與「Reports &amp; Analytics Activity Map」報表有何差異？**
 
@@ -92,7 +92,7 @@ A:
 
 **問：Activity Map 如何處理包含多個標記 (因此列出多個報表套裝) 的頁面？**
 
-答：依預設，Activity Map 會使用頁面所傳送第一個標記相關聯的報表套裝。但您可透過「Activity Map 設定 > 其他」索引標籤，選取其他已標記報表套裝。
+答：依預設，Activity Map 會使用與頁面所傳送第一個標記相關聯的報表套裝。但您可透過「Activity Map 設定 > 其他」索引標籤，選取其他已標記報表套裝。
 
 **問：Activity Map 會掃描 Analytics 標記多久時間？**
 
@@ -122,7 +122,7 @@ A:
 
 *網頁具有不相容 Analytics 標記 (AppMeasurement v1.5 或更舊版本)*
 
-會顯示警告訊息，指出您需要將頁面程式碼升級至v1.6或更新版本。
+系統會顯示警告訊息，告知您需要將頁面代碼升級至 v1.6 或更新版本。
 
 *網頁具有相容的 Analytics 標記 (AppMeasurement v1.6 或更新版本)，但未在管理工具中啟用 Activity Map*
 
@@ -134,9 +134,9 @@ A:
 
 ## Activity Map 中的分段
 
-**問：區段關聯至個別使用者區段嗎？Are shared segments available in Activity Map?**
+**問：區段會與個別使用者區段相關聯嗎？能否在 Activity Map 中使用共用區段？**
 
-答：Activity Map會繼承Analytics的報表區段。
+Activity Map 會繼承 Analytics  報表區段。
 
 **問：區段可否用於即時模式？**
 
