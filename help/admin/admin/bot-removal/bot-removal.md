@@ -1,7 +1,7 @@
 ---
 title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的 3 種方式
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ---
