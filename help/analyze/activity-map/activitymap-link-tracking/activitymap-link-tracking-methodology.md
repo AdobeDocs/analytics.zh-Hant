@@ -3,7 +3,7 @@ description: 本節適用對象為 Adobe Analytics 系統管理員。本節重�
 title: 連結追蹤方法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -22,7 +22,7 @@ Activity Map 的連結追蹤是根據下列兩個 ID：
 * 主要 ID：這是連結的可識別參數。
 * 連結地區：這是次要參數，可讓使用者指定該頁面或地區中整體連結區域的代表字串。如果使用者未提供此參數，此參數可以自動產生。
 
-## 主要 ID {#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
+## 主要 ID{#section_E8705CC1BDBC47FB8A4FE02293BACFE6}
 
 如果 HTML 有 s_objectid，則主要 ID 預設為 s_objectid。否則會使用下列參數做為主要 ID (按照下列優先順序)：
 
@@ -32,7 +32,7 @@ Activity Map 的連結追蹤是根據下列兩個 ID：
 * Src
 * Action
 
-## 使用 InnerText 和使用連結動作 (URL) 的比較 {#section_70C3573E22274522A8CC035BF18EC468}
+## 使用 InnerText 和使用連結動作 (URL) 的比較{#section_70C3573E22274522A8CC035BF18EC468}
 
 「連結動作」是當連結被點按時，網頁所採取的動作 - 通常是連結點按後造訪的 URL。使用連結動作時可能會遇到的問題包括：
 
