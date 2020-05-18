@@ -3,7 +3,7 @@ description: 您可以從報表中排除特定 IP 位址的資料，例如內部
 title: 依 IP 位址排除
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Exclude by IP]**
+**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 依 IP 排除]**
 
 >[!NOTE]依 IP 位址排除的點擊會在帳單中計為[「伺服器呼叫」](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/terms.html)。
 
@@ -25,7 +25,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 | 元素 | 說明 |
 |--- |--- |
-| [!UICONTROL Add CNAME] | 產生退出連結，讓您用來排除您的網域。如需援助，請聯絡您公司的「支援使用者」部門。<br>您可瀏覽您公司的退出頁面並選擇將您的瀏覽器從測量中排除，即可從報表套裝中排除您的流量，不予以報告。<br>如果您的實作使用第三方 Cookie，您的退出頁面位在[此處](https://democorp.112.2o7.net/optout.html?locale=zh_TW&amp;popup=true)。 |
+| [!UICONTROL 新增 CNAME] | 產生退出連結，讓您用來排除您的網域。如需援助，請聯絡您公司的「支援使用者」部門。<br>您可瀏覽您公司的退出頁面並選擇將您的瀏覽器從測量中排除，即可從報表套裝中排除您的流量，不予以報告。<br>如果您的實作使用第三方 Cookie，您的退出頁面位在[此處](https://democorp.112.2o7.net/optout.html?locale=zh_TW&amp;popup=true)。 |
 
 >[!NOTE] 只有符合以下條件時才可以依電腦排除：
 >
@@ -34,9 +34,9 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 > * 您的 cookie 未刪除。如果 cookie 已刪除，您必須再次排除本人的帳戶。
 
 
-## 依 IP 位址排除 {#section_609FB6461529409D840111A32FEF5C3D}
+## 依 IP 位址排除{#section_609FB6461529409D840111A32FEF5C3D}
 
-IP 位址就是 Internet 位址。所有 Internet 使用者都擁有數位 IP 位址 (通常由 Internet 服務提供者提供)，作為有效的電子識別碼。
+IP 位址是指網際網路位址。所有 Internet 使用者都擁有數位 IP 位址 (通常由 Internet 服務提供者提供)，作為有效的電子識別碼。
 
 系統會計算頁面檢視，並透過 IP 位址辨識唯一頁面訪客。將 IP 位址排除不予計算，即可避免 Adobe 追蹤經常存取的訪客。此功能可讓您和您的同事拜訪您的網站，但不影響流量資料的準確性。最多可以排除 50 個不同的 IP 位址。
 
@@ -46,9 +46,9 @@ IP 位址就是 Internet 位址。所有 Internet 使用者都擁有數位 IP �
 
 您也可以透過防火牆，阻止收集特定 IP 位址的資料。
 
-請參閱 [Experience Cloud 使用的 IP 位址](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)一文。
+請參閱 [Experience Cloud 使用的 IP 位址](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)一文。
 
-## IP 模糊化的影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
+## IP 模糊化的影響{#section_51B7529FFF16449CA016FDC51D87E2CA}
 
 若啟用 IP 模糊化，系統會在將 IP 位址模糊化前即排除 IP，因此客戶在啟用 IP 模糊化至後，不必再進行任何變更。
 
