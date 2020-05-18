@@ -2,7 +2,7 @@
 description: 'null'
 title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
