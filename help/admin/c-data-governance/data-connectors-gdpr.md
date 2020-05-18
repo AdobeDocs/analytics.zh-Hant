@@ -2,7 +2,7 @@
 description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之可直接或間接識別資料的合作夥伴變數。
 title: 資料隱私權與 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -160,7 +160,7 @@ Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透�
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>收件者 ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>收件者 ID-&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>分類 </p> </td> 
   </tr> 
   <tr> 
