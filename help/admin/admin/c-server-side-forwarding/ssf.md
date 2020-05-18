@@ -3,7 +3,7 @@ description: 伺服器端轉送功能經過精心設計，可讓客戶即時從 
 solution: Audience Manager
 title: 伺服器端轉送概觀
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ---
@@ -30,12 +30,12 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## ![step1_icon.png image](assets/step1_icon.png) 確認 ECID 服務實作情形
 
-檢查 [Analytics 追蹤請求](https://docs.adobe.com/content/help/en/id-service/using/implementation/test-verify.html)，確認是否已實作 Experience Cloud ID (ECID) 服務。
+檢查 [Analytics 追蹤請求](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation/test-verify.html)，確認是否已實作 Experience Cloud ID (ECID) 服務。
 
 在「請求」標籤中，確認 ECID 值已完成設定。此步驟可告訴您身分識別服務已正確實作，此為伺服器端轉送的必要條件。
 
 * 如果畫面顯示 ECID 值，請繼續執行步驟 2。
-* 如果未顯示 ECID 值，請先[實作身分識別服務](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html)，再繼續執行步驟 2。
+* 如果未顯示 ECID 值，請先[實作身分識別服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation/implementation-guides.html)，再繼續執行步驟 2。
 
 ## ![step2_icon.png image](assets/step2_icon.png) 確認伺服器端轉送實作版本
 
@@ -44,14 +44,14 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 在「回應」標籤中，檢查回應是否包含 Audience Manager 資料。如果您看到：
 
 * **Audience Manager 的 JSON 回應包含「postbacks」或「dcs_region」等項目**：您已經啟用伺服器端轉送的部分形式。繼續進行步驟 3。
-* **「狀態」:「SUCCESS」**：您已實作「對象管理模組」，但未正確設定伺服器端轉送。繼續進行步驟 3。
+* **「狀態」：「SUCCESS」**：您已實作「對象管理模組」，但未正確設定伺服器端轉送。繼續進行步驟 3。
 * **2 x 2 影像**：您尚未實作伺服器端轉送或「對象管理模組」。若要修正此問題：
 
    * **具有 DIL 的 AAM 客戶**：密切協調下列兩個項目：
 
-      1. 移除 DIL 程式碼，並安裝[對象管理模組](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼。
+      1. 移除 DIL 程式碼，並安裝[對象管理模組](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼。
       1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。未移除 DIL 程式碼即啟用此設定將會使資料重複，並建立對 Audience Manager 的其他計費伺服器呼叫。
-   * **新 AAM 客戶**：安裝[對象管理模組](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼，並繼續進行步驟 3。在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
+   * **新 AAM 客戶**：安裝[對象管理模組](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼，並繼續進行步驟 3。在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
 
 
 ## ![step3_icon.png image](assets/step3_icon.png) 確認報表套裝的伺服器端轉送實作情形
