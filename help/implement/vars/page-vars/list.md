@@ -1,7 +1,7 @@
 ---
 title: list
 description: 在同一次點擊中容納多個值的自訂變數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
