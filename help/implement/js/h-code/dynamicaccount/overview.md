@@ -1,7 +1,7 @@
 ---
 title: 動態帳戶概述
 description: 瞭解如何使用 H 程式碼動態選取報表套裝的工作流程。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
