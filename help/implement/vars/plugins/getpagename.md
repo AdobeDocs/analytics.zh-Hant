@@ -1,7 +1,7 @@
 ---
 title: getPageName
 description: 從目前的網站路徑建立易讀的 pageName。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -186,7 +186,7 @@ getPageName 外掛程式的 4.0+ 版不依存於要執行的 Adobe Analytics App
 s.pageName = s.getPageName();
 ```
 
-...變更為這個:
+...變更為這個：
 
 ```js
 s.pageName = getPageName();
