@@ -1,7 +1,7 @@
 ---
 title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
