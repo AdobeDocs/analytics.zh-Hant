@@ -1,7 +1,7 @@
 ---
 title: getPercentPageViewed
 description: 擷取訪客所檢視的頁面比例。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
