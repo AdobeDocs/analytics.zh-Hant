@@ -1,7 +1,7 @@
 ---
 title: getNewRepeat
 description: 追蹤新訪客與重複訪客的活動。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
