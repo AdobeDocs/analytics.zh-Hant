@@ -1,7 +1,7 @@
 ---
 title: 外掛程式概述
 description: 將程式碼貼在您的網站上以引入新功能。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
