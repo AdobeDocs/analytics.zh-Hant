@@ -2,7 +2,7 @@
 title: 變數、函數、方法和外掛程式概述
 description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -26,7 +26,7 @@ Adobe Analytics 發佈的 AppMeasurement 資料庫在傳送資料至 Adobe 時�
 
 1. 若您的網站使用資料層，請先確認所有適用的變數均會填入。如需詳細資訊，請參閱[資料層](../prepare/data-layer.md)。
 2. 使用資料層填入 Analytics 變數。如果您使用 Launch，只要使用資料元素，然後將資料元素指派給變數，就能輕鬆完成這項工作。請參 Launch 使用指南中的[資料元素](https://docs.adobe.com/content/help/zh-Hant/launch/using/reference/manage-resources/data-elements.html)。
-3. 呼叫追蹤函數。Most AppMeasurement libraries use the `t()` method, however some mobile SDK&#39;s use `track()`. 呼叫追蹤函數時，Analytics 物件中定義的所有支援變數，都會以影像要求的形式傳送至 Adobe。
+3. 呼叫追蹤函數。大部分的 AppMeasurement 資料庫都使用 `t()` 方法，不過有些行動 SDK 使用 `track()`。呼叫追蹤函數時，Analytics 物件中定義的所有支援變數，都會以影像要求的形式傳送至 Adobe。
 
 ## 非法字元
 
