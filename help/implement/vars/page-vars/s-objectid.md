@@ -1,7 +1,7 @@
 ---
 title: s_objectID
 description: 協助 Activity Map 辨識網站上的獨特連結。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -47,7 +47,7 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 
 ### 將連結保留在頁面上
 
-有些網站的連結雖然位在不同的地方，不過都指向同一個位置。例如，網站頁首和頁尾中的首頁連結。由於這些連結的 URL 都一樣，Activity Map 便會彙總其資料。您可以使用 `s_objectID` 變數來分隔:
+有些網站的連結雖然位在不同的地方，不過都指向同一個位置。例如，網站頁首和頁尾中的首頁連結。由於這些連結的 URL 都一樣，Activity Map 便會彙總其資料。您可以使用 `s_objectID` 變數來分隔：
 
 ```HTML
 <a href="index.html" onClick="s_objectID='Header home link';">Example link in Header</a>
