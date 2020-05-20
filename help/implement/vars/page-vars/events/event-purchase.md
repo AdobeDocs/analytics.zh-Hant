@@ -1,7 +1,7 @@
 ---
 title: 購買事件
 description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
