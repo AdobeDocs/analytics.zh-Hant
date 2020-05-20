@@ -1,7 +1,7 @@
 ---
 title: dc
 description: 已淘汰的變數，用於決定要使用哪個資料中心。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
