@@ -1,7 +1,7 @@
 ---
 title: getVisitDuration
 description: 追蹤訪客目前為止在網站上逗留的時間。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
