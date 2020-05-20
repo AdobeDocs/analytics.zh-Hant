@@ -1,7 +1,7 @@
 ---
 title: 函數與方法
 description: 瞭解如何在實施中使用 Adobe 提供的函數和方法。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
@@ -9,10 +9,10 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 # 函數與方法
 
-Adobe提供數種您可在實作中使用的函式和方法。 當您參考這些函式或方法時，這些函式或方法會使用一行程式碼來執行一般工作。
+Adobe 提供數種您可在實施中使用的函數和方法。參考這些函數或方法時，它們會使用一行程式碼來執行常見工作。
 
-其中某些單行代碼屬於以下類別：
+其中部分一行程式碼屬於下列類別：
 
-* **追蹤呼叫**:最常見的方法，在許多實作中都至關重要。 其中包括 [`t()`](t-method.md) 和方 [`tl()`](tl-method.md) 法。
-* **AppMeasurement公用程式**:在舊版AppMeasurement中，實作必須編寫自己的程式碼才能執行這些工作。 Adobe提供這些公用程式方法來簡化這些常見工作。 AppMeasurement公用程 [`Util.cookieRead()`](util-cookieread.md)式包 [`Util.cookieWrite()`](util-cookiewrite.md)括、和 [`Util.getQueryParam()`](util-getqueryparam.md)。
-* **註冊功能**:您可以編寫自己的函式，並讓AppMeasurement在傳送追蹤呼叫至Adobe之前或之後自動執行這些函式。 屬於此類別的變數 [`doPlugins()`](doplugins.md)有 [`registerPreTrackCallback()`](registerpretrackcallback.md)、和 [`registerPostTrackCallback()`](registerposttrackcallback.md)。
+* **追蹤呼叫**：最常見的方法，在許多實施中非常重要。其中包括 [`t()`](t-method.md) 和 [`tl()`](tl-method.md) 方法。
+* **AppMeasurement 公用程式**：在舊版 AppMeasurement 中，實施必須編寫自己的程式碼才能執行這些工作。Adobe 提供這些公用程式方法來簡化這些常見工作。AppMeasurement 公用程式包括 [`Util.cookieRead()`](util-cookieread.md)、[`Util.cookieWrite()`](util-cookiewrite.md) 和 [`Util.getQueryParam()`](util-getqueryparam.md)。
+* **註冊功能**：您可以撰寫自己的函數，並讓 AppMeasurement 在將追蹤呼叫傳送至 Adobe 之前或之後，自動執行這些函數。屬於此類別的變數為 [`doPlugins()`](doplugins.md)、[`registerPreTrackCallback()`](registerpretrackcallback.md) 和 [`registerPostTrackCallback()`](registerposttrackcallback.md)。
