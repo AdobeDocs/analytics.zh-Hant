@@ -1,7 +1,7 @@
 ---
 title: pt
 description: 對變數清單執行函數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e2afe854a4141510fe2ecd85aa6df59f6751d0f5
 
 ---
