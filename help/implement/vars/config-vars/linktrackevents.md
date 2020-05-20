@@ -1,7 +1,7 @@
 ---
 title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中納入哪些事件。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 有些實施不希望將所有變數納入每個連結追蹤影像要求中。請使用 [`linkTrackVars`](linktrackvars.md) 和 `linkTrackEvents` 變數，在 [`tl()`](../functions/tl-method.md) 呼叫中選擇性地納入維度和量度。
 
-This variable is not used for page view calls ([`t()`](../functions/t-method.md) method).
+此變數不適用於頁面檢視呼叫 ([`t()`](../functions/t-method.md) 方法)。
 
 ## 使用 Adobe Experience Platform Launch 時連結追蹤呼叫中的事件
 
@@ -21,7 +21,7 @@ Launch 會自動偵測介面中定義的事件，並將其納入連結追蹤點�
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackEvents
 
-The `s.linkTrackEvents` variable is a string containing a comma-delimited list of events that you want to include in link tracking image requests (`tl()` method). 若要在連結追蹤點擊中納入量度，以下三個條件必須滿足：
+`s.linkTrackEvents` 變數是字串，其中包含您要納入連結追蹤影像要求 (`tl()` 方法) 中的逗號分隔事件清單。若要在連結追蹤點擊中納入量度，以下三個條件必須滿足：
 
 * 在 [`events`](../page-vars/events/events-overview.md) 變數中設定所要的事件。例如：`s.events = "event1";`。
 * 在 `linkTrackVars` 中設定 `events` 變數。例如：`s.linkTrackVars = "events";`。
