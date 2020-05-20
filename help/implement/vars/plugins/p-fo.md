@@ -1,7 +1,7 @@
 ---
 title: p_fo (僅限頁面優先)
 description: 確保每頁只引發一次特定常式。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
