@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;page views;content;page name;page url override;
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 頁面檢視與內容
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -38,7 +38,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
   </tr>
   <tr>
    <td colname="col1"> 階層 </td>
-   <td colname="col2"> <p>判斷某個頁面在您的網站階層中的所在位置。 </p> <p>請參 <a href="../../../vars/page-vars/hier.md">閱hier</a>。 </p> </td>
+   <td colname="col2"> <p>判斷某個頁面在您的網站階層中的所在位置。 </p> <p>請參閱 <a href="../../../vars/page-vars/hier.md">hier</a>。 </p> </td>
   </tr>
  </tbody>
 </table>
