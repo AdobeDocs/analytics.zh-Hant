@@ -1,7 +1,7 @@
 ---
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -47,7 +47,7 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] 從產品名稱、類別和銷售eVar值中去除所有分號、逗號和垂直線。 如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
+>[!IMPORTANT] 請移除產品名稱、類別和銷售 eVar 值中的所有分號、逗號和垂直號。如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
 
 ## 範例
 
