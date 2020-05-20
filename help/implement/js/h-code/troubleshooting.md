@@ -1,7 +1,7 @@
 ---
 title: 疑難排解 H 程式碼實施
 description: 瞭解舊版 JavaScript 實施的一些常見問題。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
