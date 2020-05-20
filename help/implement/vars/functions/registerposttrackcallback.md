@@ -1,7 +1,7 @@
 ---
 title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPostTrackCallback` 變數可讓貴組織在成功將點擊傳送至 Adobe 後，立即連結 JavaScript 函數。如果追蹤呼叫失敗，此函數將不會執行。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構，或是清除單頁應用程式中的變數值。
 
->[!IMPORTANT] 請勿呼叫任何追蹤呼叫， [`t()`](t-method.md) 例如 [`tl()`](tl-method.md) 或在變數 `registerPostTrackCallback` 內。 此變數中的追蹤函數會導致影像要求發生無限循環！
+>[!IMPORTANT] 請勿在 `registerPostTrackCallback` 變數內呼叫 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 之類的追蹤呼叫。此變數中的追蹤函數會導致影像要求發生無限循環！
 
 每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
