@@ -4,7 +4,7 @@ keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign 
 solution: Experience Cloud,Analytics,Dynamic Tag Management
 title: 反向連結與促銷活動
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 ---
@@ -35,7 +35,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
  </tbody>
 </table>
 
-使用 DTM 介面來選擇您要使用查詢字串或值 (可能從資料元素提取):
+使用 DTM 介面來選擇您要使用查詢字串或值 (可能從資料元素提取)：
 
 ![查詢參數](assets/dtm-queryparam.png)
 
