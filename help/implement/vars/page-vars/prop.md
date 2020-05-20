@@ -1,7 +1,7 @@
 ---
 title: prop
 description: 可在實施中使用的自訂變數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -57,4 +57,4 @@ s.prop1 = "value1,value2,value3";
 
 >[!IMPORTANT] 清單屬性仍有最多 100 個位元組的長度限制。清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
 
-如果您在清單prop中設定相同值多次，則會在報表中消除重複資料。 「分析工作區」會計算檢視值的點擊數，而非資料中值存在的次數。
+如果您在清單屬性中設定相同值多次，系統會在報表中刪除重複資料。Analysis Workspace 會計算檢視值處的點擊數，而非資料中值存在的次數。
