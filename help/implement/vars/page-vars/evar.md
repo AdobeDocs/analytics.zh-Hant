@@ -1,7 +1,7 @@
 ---
 title: eVar
 description: 可在實施中使用的自訂變數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # eVar
 
-*此說明頁面說明如何實作eVar。 如需eVar如何作為維度運作的詳細資訊，請參[閱「元件](../../../components/c-variables/dimensionslist/reports-conversion.md)」使用指南中的eVar。*
+*此說明頁面說明如何實施 eVar。如需 eVar 如何當作維度的詳細資訊，請參閱元件使用手冊中的[eVar](../../../components/c-variables/dimensionslist/reports-conversion.md)。*
 
 eVar 是自訂變數，您可以視需要使用。
 
@@ -56,7 +56,7 @@ s.eVar1 = "+12.49";
 
 若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar 計數器不能包含負數。
 
->[!IMPORTANT] 您必須先在管理控制台中將eVar設定為&#39;Counter&#39;，才能使用計數器eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+>[!IMPORTANT] 您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 ## prop 或 eVar 的獨特優點
 
@@ -65,4 +65,4 @@ s.eVar1 = "+12.49";
 * prop 中的資料可在數分鐘內供報表使用。eVar 可能需要 30 分鐘以上才會出現在報表中。
 * prop 在報表中的長度限制為 100 個位元組。eVar 的長度限制為 255 個位元組。
 * prop 可成為清單屬性，這些 prop 能在同一次點擊中接受多個值。清單變數是個別的變數，而且只有三個清單變數可供使用。
-* 依預設，prop 不會持續存在超過設定的點擊。eVar 有自訂的過期時間，可讓您判斷 eVar 何時不再獲得後續事件的評分。不過，如果您使用報 [告時間處理](../../../components/vrs/vrs-report-time-processing.md),prop和eVar都可以使用自訂歸因模型。
+* 依預設，prop 不會持續存在超過設定的點擊。eVar 有自訂的過期時間，可讓您判斷 eVar 何時不再獲得後續事件的評分。不過，如果您使用[報表時間處理](../../../components/vrs/vrs-report-time-processing.md)，prop 和 eVar 都可以使用自訂歸因模型。
