@@ -1,7 +1,7 @@
 ---
 title: contextData
 description: 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
