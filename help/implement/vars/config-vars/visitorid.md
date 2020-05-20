@@ -1,7 +1,7 @@
 ---
 title: visitorID
 description: 使用自訂訪客 ID。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,7 +28,7 @@ Adobe 使用數種不同的方法來識別您網站上的訪客。`visitorID` �
 
 `s.visitorID` 變數是包含訪客自訂唯一識別碼的字串。有效值包括最多 100 個位元組的英數字元。請避免在此變數中使用虛線、空格、底線或符號。
 
->[!WARNING] 如果您在瀏覽途中 `visitorID` 設定變數，資料會產生兩個不同的獨特訪客。
+>[!WARNING] 如果您在瀏覽途中 `visitorID` 設定變數，資料會產生兩個不同的不重複訪客。
 
 ```js
 s.visitorID = "abc123";
