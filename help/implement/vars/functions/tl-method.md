@@ -1,7 +1,7 @@
 ---
 title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -99,13 +99,13 @@ s.tl(true,"o","Example custom link",y);
 <a href="example.html" onClick="s.tl(true,'o','Example link');">Click here</a>
 ```
 
-使用JavaScript使用方法引數進行基本連結追蹤呼叫：
+使用 JavaScript，以使用方法引數進行基本連結追蹤呼叫：
 
 ```JavaScript
 s.tl(true,"o","Example link");
 ```
 
-使用JavaScript，使用個別變數進行相同的基本連結追蹤呼叫：
+使用 JavaScript，以使用不同變數進行相同基本連結追蹤呼叫：
 
 ```js
 s.linkType = "o";
@@ -115,7 +115,7 @@ s.tl();
 
 ### 在自訂函數中進行連結追蹤呼叫
 
-您可以將連結追蹤程式碼併入頁面上或連結 JavaScript 檔案中所定義的獨立 JavaScript 函數。接著，即可在每個連結的 onClick 函數中發出呼叫。在 JavaScript 檔案中設定下列項目:
+您可以將連結追蹤程式碼併入頁面上或連結 JavaScript 檔案中所定義的獨立 JavaScript 函數。接著，即可在每個連結的 onClick 函數中發出呼叫。在 JavaScript 檔案中設定下列項目：
 
 ```JavaScript
 function trackClickInteraction(name){
