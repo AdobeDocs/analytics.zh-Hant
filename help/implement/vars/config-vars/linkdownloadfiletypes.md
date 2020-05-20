@@ -1,7 +1,7 @@
 ---
 title: linkDownloadFileTypes
 description: 判斷要以下載連結形式自動追蹤的副檔名。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -9,7 +9,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 # linkDownloadFileTypes
 
-When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clicks on a link, AppMeasurement checks the URL of the link for filetype extensions. 如果連結 URL 包含 `linkDownloadFileTypes` 中的檔案類型，系統會自動傳送下載連結影像要求。
+當 [`trackDownloadLinks`](trackdownloadlinks.md) 啟用且訪客點按連結時，AppMeasurement 會檢查連結的 URL，取得檔案類型副檔名。如果連結 URL 包含 `linkDownloadFileTypes` 中的檔案類型，系統會自動傳送下載連結影像要求。
 
 使用 `linkDownloadFileTypes` 來自訂您要將哪些副檔名計為下載連結。
 
@@ -21,7 +21,7 @@ When [`trackDownloadLinks`](trackdownloadlinks.md) is enabled and a visitor clic
 > * 使用 JavaScript 的連結，如 `javascript:openLink()`
 >
 > 
-For these download types, you can manually call the [`tl()`](../functions/tl-method.md) method.
+對於這些下載類型，您可以手動呼叫 [`tl()`](../functions/tl-method.md) 方法。
 
 如果點按的連結符合退出連結和下載連結兩條件，下載連結類型的優先較高。
 
@@ -34,7 +34,7 @@ For these download types, you can manually call the [`tl()`](../functions/tl-met
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]設定追蹤器，如此可顯示[!UICONTROL 「下載擴充功能」]欄位。
 
-在欄位中輸入文字並按一下[!UICONTROL 「新增」]，將副檔名新增至清單。按一下各自的「X」圖示，從清單中移除副檔名。
+在欄位中輸入文字並按一下[!UICONTROL 「新增」]，將副檔名新增至清單。按一下各個項目的「X」圖示，可將副檔名從清單中移除。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkDownloadFileTypes
 
