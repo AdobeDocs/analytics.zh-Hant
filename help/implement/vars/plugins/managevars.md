@@ -1,7 +1,7 @@
 ---
 title: manageVars
 description: 一次變更多個 Analytics 變數的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
