@@ -1,7 +1,7 @@
 ---
 title: formatTime
 description: 將秒數轉換為等同的分鐘數、小時數等。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -66,7 +66,7 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
    * 如果您想要以秒為單位的時間，請設為 `"s"` (預設會捨入為最接近的 5 秒基準)
 * **`bml`** (可選，數字)：捨入基準的長度。預設值為 `tf` 引數中所列的基準
 
-此方法會傳回格式化後的秒數，使用的格式為在 `tf` 參數中指定的單位。如果 `tf` 引數未設定:
+此方法會傳回格式化後的秒數，使用的格式為在 `tf` 參數中指定的單位。如果 `tf` 引數未設定：
 
 * 小於一分鐘的值會捨入為最接近的 5 秒基準
 * 介於一分鐘到一小時之間的值，會捨入為最接近的 1/2 分鐘基準
