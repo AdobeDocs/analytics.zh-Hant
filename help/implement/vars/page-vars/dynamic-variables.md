@@ -1,7 +1,7 @@
 ---
 title: 動態變數
 description: 複製變數而不增加影像要求長度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
