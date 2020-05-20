@@ -1,7 +1,7 @@
 ---
 title: linkURL
 description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生連結 URL。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
