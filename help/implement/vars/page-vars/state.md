@@ -1,7 +1,7 @@
 ---
 title: 州別
 description: 在 Reports and Analytics 中填入「訪客州報表」。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
