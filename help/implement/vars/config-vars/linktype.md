@@ -1,7 +1,7 @@
 ---
 title: linkType
 description: 使用 linkType 變數來判斷點擊所屬的連結追蹤維度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -32,13 +32,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkType
 
-`s.linkType` 變數是字串，能接受 `o`、`d` 或 `e` 等三個單一字元值的其中之一。If a `tl()` method is called without a link type, it defaults to Custom link.
+`s.linkType` 變數是字串，能接受 `o`、`d` 或 `e` 等三個單一字元值的其中之一。如果您在呼叫 `tl()` 方法時未使用連結類型，預設值為自訂連結。
 
 * `o` - 自訂連結
 * `d` - 下載連結
 * `e` - 退出連結
 
->[!TIP] 此變數是方法的第二個 `tl()` 參數，通常不需要設為獨立變數。 However, you can use the `linkType` variable if you do not want to set values as arguments in the `tl()` method.
+>[!TIP] 此變數是 `tl()` 方法的第二個參數，通常不需要設定為獨立變數。但是，如果您不想在 `linkType` 方法中設定引數形式的值，可以使用 `tl()` 變數。
 
 ```js
 s.linkType = "e";
