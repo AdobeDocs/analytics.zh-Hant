@@ -1,7 +1,7 @@
 ---
 title: trackingServer
 description: 決定影像要求的傳送位置。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料。`trackingServer` 變數決定影像要求的傳送位置。如果此變數未正確定義，您的實施可能會遭遇資料遺失。
 
->[!IMPORTANT] 變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的獨特訪客計數可能會暫時激增。
+>[!IMPORTANT] 變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的不重複訪客計數可能會暫時激增。
 
 ## Adobe Experience Platform Launch 中的追蹤伺服器
 
@@ -58,4 +58,4 @@ s.trackingServer = "example.sc.omtrdc.net";
 
 挑選貴組織專屬的子網域，也就是其他使用 Adobe Analytics 之組織不太可能挑選的子網域。確定貴組織的所有實施都使用相同的追蹤伺服器。在[解決方案設計文件](../../prepare/solution-design.md)中維護這些資訊會是比較實用的方法。
 
->[!NOTE] 請勿使用深於的子網域 `example.sc.omtrdc.net`。 例如，不 `custom.example.sc.omtrdc.net` 是有效的追蹤伺服器。
+>[!NOTE] 請勿使用比 `example.sc.omtrdc.net` 更深入的子網域。例如，`custom.example.sc.omtrdc.net` 不是有效的追蹤伺服器。
