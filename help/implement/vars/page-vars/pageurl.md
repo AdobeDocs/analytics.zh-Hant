@@ -1,7 +1,7 @@
 ---
 title: pageURL
 description: 覆寫在網站上自動收集的頁面 URL。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
