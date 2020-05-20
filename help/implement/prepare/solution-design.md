@@ -1,7 +1,7 @@
 ---
 title: 建立解決方案設計文件
 description: 瞭解什麼是解決方案設計文件，以及可如何將其用於您的組織。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 ---
@@ -46,4 +46,4 @@ source-git-commit: 283fcd5832abe4c09caa332c2ebc3a22029e6707
 
 在解決方案設計文件中實施變數。
 
-[建立資料層](data-layer.md):將設計檔案中的變數轉換為網站上的JavaScript變數。
+[建立資料層](data-layer.md)：將設計文件中的變數轉譯為網站上的 JavaScript 變數。
