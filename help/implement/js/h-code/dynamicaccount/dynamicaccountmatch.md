@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 變數決定要在動態帳戶中查看的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -40,4 +40,4 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 ## 其他附註
 
 * 儲存至硬碟的頁面有幾個未定義的 `location` 變數 (例如，`location.host` 是空白的)。請確認 `s_account` 包含預設報表套裝。
-* 在透過網頁型翻譯引擎 (例如 Google) 翻譯頁面時，動態帳戶選項無法如預期運作。如需更精確的追蹤，請在伺服器端填入   `s_account` 變數。
+* 在透過網頁型翻譯引擎 (例如 Google) 翻譯頁面時，動態帳戶選項無法如預期運作。如需更精確的追蹤，請在伺服器端填入    `s_account` 變數。
