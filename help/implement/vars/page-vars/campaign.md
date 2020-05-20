@@ -1,7 +1,7 @@
 ---
 title: 促銷活動
 description: 填入「追蹤代碼」維度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7220b99268532adb2e425d52744dbc3efb615953
 
 ---
