@@ -1,52 +1,52 @@
 ---
-title: 將啟動資料元素對應至Analytics變數
-description: 將資料元素指派給Analytics變數，以便在分析工作區中將它們當做維度使用。
-translation-type: tm+mt
+title: 將 Launch 資料元素對應至 Analytics 變數
+description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# 將啟動資料元素對應至Analytics變數
+# 將 Launch 資料元素對應至 Analytics 變數
 
-在Adobe Experience Platform Launch中擁有資料元素的儲存庫後，您就可以將其指派給Analytics維度。
+在 Adobe Experience Platform Launch 中有資料元素存放庫後，您就可以將資料元素指派給 Analytics 維度。
 
 ## 必要條件
 
-[將資料層物件對應至資料元素](layer-to-elements.md):請確定您瞭解Launch中的資料元素，以及您有數個要處理的元素。
+[將資料層物件對應至資料元素](layer-to-elements.md)：請確定您了解 Launch 中的資料元素，以及您有數個可使用的資料元素。
 
-[建立解決方案設計檔案](../prepare/solution-design.md):解決方案設計檔案對於保持井然有序至關重要。 遵循解決方案設計檔案可簡化資料元素對Analytics變數的指派。
+[建立解決方案設計文件](../prepare/solution-design.md)：解決方案設計文件對於保持井然有序非常重要。按照解決方案設計文件操作，可簡化將資料元素指派給 Analytics 變數的作業。
 
-## 指派資料元素至Analytics變數
+## 將資料元素指派給 Analytics 變數
 
-依照下列步驟後，在Launch中發佈程式庫可讓您在分析工作區中使用自訂維度。 您可以全域或個別規則中設定Analytics變數。
+按照下列步驟操作後，在 Launch 中發佈資料庫可讓您在 Analysis Workspace 中使用自訂維度。您可以在全域或個別規則中設定 Analytics 變數。
 
 ### 設定全域變數
 
-在您想要在資料元素所在的所有頁面上設定變數值時，最適合使用全域變數。
+想在有資料元素的所有頁面上設定變數值，適合使用全域變數。
 
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
-1. 按一下所要的「啟動」屬性。
-1. 按一下「 [!UICONTROL 擴充功能]」標籤，然後按 [!UICONTROL 一下Adobe Analytics擴充功能下的「設定] 」。
-1. 按一下全 [!UICONTROL 域變數] accordion，此會顯示指派全域變數的介面。
+1. 按一下所需的 Launch 屬性。
+1. 按一下[!UICONTROL 「擴充功能」標籤]，然後按一下 Adobe Analytics 擴充功能下方的[!UICONTROL 「設定」]。
+1. 按一下[!UICONTROL 「全域變數」]摺疊式功能表，這會顯示指派全域變數的介面。
 
 ### 在規則中設定變數
 
-規則中的變數集最適合不希望在每個頁面上設定變數的情況。 您可以在規則中定義標準。 See [Rules](https://docs.adobe.com/content/help/zh-Hant/launch/using/reference/manage-resources/rules.html) in the Adobe Experience Platform Launch user guide.
+不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform Launch 使用手冊中的[規則](https://docs.adobe.com/content/help/zh-Hant/launch/using/reference/manage-resources/rules.html)。
 
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
-1. 按一下所要的「啟動」屬性。
-1. 按一下「 [!UICONTROL 規則] 」標籤，然後按一下所要的規則（或建立一個規則）。
-1. 按一下「 [!UICONTROL 動作] 」下的「新 [!UICONTROL 增」按鈕]。
+1. 按一下所需的 Launch 屬性。
+1. 按一下[!UICONTROL 「規則」]標籤，然後按一下所需的規則 (或建立規則)。
+1. 按一下[!UICONTROL 「動作」]中的[!UICONTROL 「新增」]按鈕。
 1. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為「設定變數」。
-1. 按一下 ![所需Analytics變數右側的](assets/data-element.png) 「資料」元素圖示。 您組織的解決方 [案設計檔案](../prepare/solution-design.md) ，決定要使用哪些Analytics變數。
-1. 在模型窗口中選擇所需的資料元素。 按一 [!UICONTROL 下選取]。
-1. 資料元素名稱會新增至由符號所環繞的文字 `%` 欄位。 例如，如果您將資料元素命名為「頁面名稱」，則在將資料元素指派 `%Page name%` 至變數時，會看到字串。
+1. 按一下所需 Analytics 變數右側的![「資料元素」](assets/data-element.png)圖示。您組織的[解決方案設計文件](../prepare/solution-design.md)會規定要使用的 Analytics 變數。
+1. 在強制回應視窗中選取所需的資料元素。按一下[!UICONTROL 「選取」]。
+1. 資料元素名稱會新增至由 `%` 符號包住的文字欄位。例如，如果您將資料元素命名為「Page name」，會在將資料元素指派至變數時看到字串 `%Page name%`。
 
->[!TIP] 您可以串連相同變數中的資料元素。 例如，如果您有「主機名」資料元素和「路徑名」資料元素，則可使用將兩者結合為單一變數 `%Hostname%%Pathname%`。
+>[!TIP] 您可以串連相同變數中的資料元素。舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
 
 ## 後續步驟
 
-[頁面變數](../vars/page-vars/page-variables.md):瞭解您可在實施中使用哪些頁面層級變數，以便在分析工作區中進一步運用維度。
+[頁面變數](../vars/page-vars/page-variables.md)：了解您可在實施中使用的頁面層級變數，以便在 Analysis Workspace 中進一步運用維度。
 
-[組態變數](../vars/config-vars/configuration-variables.md):瞭解您可在實作中使用哪些設定變數，以解除鎖定Adobe Analytics中的更多功能。
+[設定變數](../vars/config-vars/configuration-variables.md)：了解您可在實施中使用的設定變數，以解鎖 Adobe Analytics 的更多功能。
