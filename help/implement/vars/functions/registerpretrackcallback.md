@@ -1,7 +1,7 @@
 ---
 title: registerPreTrackCallback
 description: 將點擊傳送至 Adobe 前建立回呼函數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `registerPreTrackCallback` 變數可讓您的組織在影像要求 URL 編譯完成但尚未傳送時，連結 JavaScript 函數。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構。
 
->[!IMPORTANT] 請勿呼叫任何追蹤呼叫， [`t()`](t-method.md) 例如 [`tl()`](tl-method.md) 或在變數 [`registerPostTrackCallback`](registerposttrackcallback.md) 內。 此變數中的追蹤函數會導致影像要求發生無限循環！
+>[!IMPORTANT] 請勿在 [`registerPostTrackCallback`](registerposttrackcallback.md) 變數內呼叫 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 之類的追蹤呼叫。此變數中的追蹤函數會導致影像要求發生無限循環！
 
 每次呼叫 `registerPreTrackCallback` 變數時，您都可以連結該函數，以便在影像要求編譯完成時執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
@@ -37,7 +37,7 @@ s.registerPreTrackCallback(function(requestUrl){
 });
 ```
 
-您可以在函式中包含其 `s.registerPreTrackCallback` 他引數，這些引數可用於巢狀函式：
+您可以在 `s.registerPreTrackCallback` 函數中加入其他引數，這些引數可用於巢狀函數：
 
 ```js
 s.registerPreTrackCallback(function(requestUrl,a,b,c) {
