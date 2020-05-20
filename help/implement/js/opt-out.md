@@ -1,7 +1,7 @@
 ---
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
