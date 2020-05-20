@@ -1,7 +1,7 @@
 ---
 title: cookieLifetime
 description: 覆寫 AppMeasurement 所建立 Cookie 的有效期。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -11,7 +11,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 AppMeasurement 所設定的 Cookie 通常有效期為 2 年。可使用 `cookieLifetime` 變數覆寫 AppMeasurement 所設定 Cookie 的到期日。
 
->[!NOTE] 此變數會影響獨特訪客計數和歸因。設定此變數時請小心。
+>[!NOTE] 此變數會影響不重複訪客計數和歸因。設定此變數時請小心。
 
 ## Adobe Experience Platform Launch 中的 Cookie 期限
 
