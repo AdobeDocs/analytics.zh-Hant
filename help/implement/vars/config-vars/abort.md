@@ -1,7 +1,7 @@
 ---
 title: abort
 description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料收集伺服器。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
