@@ -1,7 +1,7 @@
 ---
 title: 對行動裝置實施 Analytics
 description: 決定要使用的行動 AppMeasurement 程式庫。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
