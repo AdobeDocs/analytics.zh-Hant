@@ -1,7 +1,7 @@
 ---
 title: Adobe Analytics 中的全域報表套裝
 description: 瞭解使用全域報表套裝的優點和需求。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
