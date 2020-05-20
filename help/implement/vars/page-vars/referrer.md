@@ -1,7 +1,7 @@
 ---
 title: referrer
 description: 覆寫點擊的自動收集反向連結。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 ---
