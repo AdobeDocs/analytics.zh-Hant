@@ -1,7 +1,7 @@
 ---
 title: useBeacon
 description: useBeacon 可強制 AppMeasurement 使用瀏覽器 sendBeacon API
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!TIP] AppMeasurement 會自動啟用 `useBeacon` 來處理退出連結影像要求。
 
-當訪客使用不支援 `useBeacon` 的瀏覽器時，`navigator.sendBeacon()` 變數會遭到忽略。使用此變數需要AppMeasurement 2.16.0或更新版本。
+當訪客使用不支援 `useBeacon` 的瀏覽器時，`navigator.sendBeacon()` 變數會遭到忽略。使用此變數需有 AppMeasurement 2.16.0 或更新版本。
 
 ## Adobe Experience Platform Launch 中的使用信標
 
