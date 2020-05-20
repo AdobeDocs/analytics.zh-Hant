@@ -1,7 +1,7 @@
 ---
 title: H 程式碼 JavaScript 實施概述
 description: 瞭解在網站上實施 H 程式碼的工作流程。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 >[!NOTE] 若要遵循這些指示，您必須擁有一份 `s_code.js` 的現有副本。Adobe 不再提供在「代碼管理器」中下載 H 程式碼的選項。
 
-1. **更新核心 JS 檔案變數**：編輯 `s_code.js` 檔案並確認下列變數已更新:
+1. **更新核心 JS 檔案變數**：編輯 `s_code.js` 檔案並確認下列變數已更新：
    * `s_account` 包含您要傳送資料的目的地報表套裝 ID。如需此工具的其他相關資訊，請參閱
    * `s.trackingServer` 包含 Cookie 的儲存位置。請參閱 [trackingServer](../../vars/config-vars/trackingserver.md)。
 2. **在您的網站上托管`s_code.js`檔案**：此檔案通常與 Web 伺服器上的其他指令碼共存。
