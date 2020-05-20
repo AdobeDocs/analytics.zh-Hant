@@ -1,7 +1,7 @@
 ---
 title: 疑難排解 JavaScript 實施
 description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ---
@@ -52,7 +52,7 @@ source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
 
 ## 變數中的空白字元
 
-HTML 中有數個字元會產生空白字元。這些字元包括空格、定位字元和歸位字元 (或換行字元)。考量下列範例:
+HTML 中有數個字元會產生空白字元。這些字元包括空格、定位字元和歸位字元 (或換行字元)。考量下列範例：
 
 ```html
 <head>
