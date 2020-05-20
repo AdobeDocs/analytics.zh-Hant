@@ -1,7 +1,7 @@
 ---
 title: 使用 Facebook 即時文章進行實施
 description: 在 Facebook 即時文章頁面上實施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
