@@ -1,7 +1,7 @@
 ---
 title: s_gi()
 description: 建立及追蹤 AppMeasurement 的例項。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
