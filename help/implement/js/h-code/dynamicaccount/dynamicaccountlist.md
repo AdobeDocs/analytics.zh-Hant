@@ -1,7 +1,7 @@
 ---
 title: dynamicAccountList
 description: 建立邏輯，讓實施根據此邏輯決定其報表套裝。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 s.dynamicAccountList = "[rsid]=[valuetomatch],[rsid2]=[valuetomatch]";
 ```
 
-有效的輸入項目是以分號分隔的 rsid 和值配對清單。每個清單都包含下列項目:
+有效的輸入項目是以分號分隔的 rsid 和值配對清單。每個清單都包含下列項目：
 
 * 一或多個報表套裝 ID (以逗號分隔)
 * 一個等號
