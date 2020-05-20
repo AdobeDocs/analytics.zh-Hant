@@ -4,7 +4,7 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 新增 Adobe Analytics 工具
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -18,7 +18,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 新增 Adobe Analytics 工具 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
-1. 按一下  **[!UICONTROL  *`Web Property Name`*]** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]** .
+1. 按一下 **[!UICONTROL *`Web Property Name`*]**>**[!UICONTROL &#x200B;概覽&#x200B;]**>**[!UICONTROL &#x200B;新增工具&#x200B;]**>**[!UICONTROL  Adobe Analytics ]**。
 
    ![](assets/dtm-add-analytics-tool.png)
 
@@ -49,7 +49,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p> <b>手動</b>：手動管理 AppMeasurement 程式碼。您可以從<span class="keyword"></span>「管理工具<span class="keyword"> &gt; </span>代碼管理員」<span class="ignoretag"><span class="uicontrol">下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 程式碼。 </p> <p>如需如何在本機下載程式碼以複製並貼到<a href="/help/implement/other/dtm/c-aa-tool/library-management.md">程式庫管理</a>中<span class="wintitle">編輯程式碼</span>欄位的相關資訊，請按一下 <a href="https://docs.adobe.com/content/help/en/analytics/implementation/js/migrate-from-hcode.html">JavaScript (新增)</a>。 </p> <p>填寫手動配置的特定欄位: </p> 
+   <td colname="col2"> <p> <b>手動</b>：手動管理 AppMeasurement 程式碼。您可以從<span class="keyword"></span>「管理工具<span class="keyword"> &gt; </span>代碼管理員」<span class="ignoretag"><span class="uicontrol">下載 </span>Analytics<span class="uicontrol"> </span>AppMeasurement</span> 程式碼。 </p> <p>如需如何在本機下載程式碼以複製並貼到<a href="/help/implement/other/dtm/c-aa-tool/library-management.md">程式庫管理</a>中<span class="wintitle">編輯程式碼</span>欄位的相關資訊，請按一下 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/migrate-from-hcode.html">JavaScript (新增)</a>。 </p> <p>填寫手動配置的特定欄位： </p> 
     <ul id="ul_CFB6CE78AEB743EF8B47BAAC42E2DB0A"> 
      <li id="li_5B7046CD95AB416F8C113B381A264D91"> <p><b>生產帳戶 ID：</b>(必要) 您用於資料彙集的生產帳戶。對於 Analytics，這是您的報表套裝 ID。Dynamic Tag Management 會自動在生產與中繼環境中安裝正確的帳戶。 </p> </li> 
      <li id="li_14E840FD79A0451BABEDD15DC0584768"> <p><b>測試帳戶 ID：</b>(必要) 用於您的開發或測試環境。對於 Analytics，這是您的報表套裝 ID。中繼帳戶可讓您將測試資料與生產資料分開。 </p> </li> 
@@ -60,11 +60,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  </tbody> 
 </table>
 
-1. Click **[!UICONTROL Create Tool]** to create the tool and display it for editing.
+1. 按一下&#x200B;**[!UICONTROL 「建立工具」]**&#x200B;來建立工具，並顯示它以便進行編輯。
 
-   工具會顯示在標 [!UICONTROL Overview] 簽的下方 [!UICONTROL Installed Tools]。
+   工具會顯示在[!UICONTROL 「概述」]標籤的[!UICONTROL 「已安裝工具」]下。
 
-1. （條件性）依循下列連結(、、、、、、、 [!UICONTROL General]、 [!UICONTROL Library Management]和 [!UICONTROL Global Variables]下列連結)中的指示，進一步設定 [!UICONTROL Pageviews & Content][!UICONTROL Link Tracking][!UICONTROL Referrers & Campaigns][!UICONTROL Cookies][!UICONTROL Customize Page Code]工具。
+1. (有條件) 視需要進一步配置工具，方法是遵循以下連結中的指示：[!UICONTROL 「一般] > [!UICONTROL 程式庫管理] > [!UICONTROL 全域變數] > [!UICONTROL 頁面檢視與內容] > [!UICONTROL 連結追蹤] > [!UICONTROL 反向連結與促銷活動] > [!UICONTROL Cookie] > [!UICONTROL 自訂頁面程式碼」]。
 
 如需此工具的其他相關資訊，請參閱[Adobe Analytics 工具常見問答集](/help/implement/faq.md)。
 
@@ -72,7 +72,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 您可以編輯現有的 Adobe Analytics 工具以變更其配置設定。
 
-1. Click the  ![](assets/settings_gear.png) icon next to an installed tool from the [!UICONTROL Overview] tab.
+1. 在![](assets/settings_gear.png)概述[!UICONTROL  標籤中按一下已安裝工具旁的 ] 圖示。
 1. 視需要編輯欄位。
 
    下表僅包含與您建立 Analytics 工具時可用的元素不同的那些元素，如以上所述。不過，您可以變更頁面上的任何元素，如這兩個表格中所述。
@@ -96,5 +96,5 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  </tbody> 
 </table>
 
-1. （條件性）依循下列連結(、、、、、、、 [!UICONTROL General]、 [!UICONTROL Library Management]和 [!UICONTROL Global Variables]下列連結)中的指示，進一步設定 [!UICONTROL Pageviews & Content][!UICONTROL Link Tracking][!UICONTROL Referrers & Campaigns][!UICONTROL Cookies][!UICONTROL Customize Page Code]工具。
-1. 按一下 **[!UICONTROL Save Changes]**.
+1. (有條件) 視需要進一步配置工具，方法是遵循以下連結中的指示：[!UICONTROL 「一般] > [!UICONTROL 程式庫管理] > [!UICONTROL 全域變數] > [!UICONTROL 頁面檢視與內容] > [!UICONTROL 連結追蹤] > [!UICONTROL 反向連結與促銷活動] > [!UICONTROL Cookie] > [!UICONTROL 自訂頁面程式碼」]。
+1. 按一下&#x200B;**[!UICONTROL 儲存變更]**。
