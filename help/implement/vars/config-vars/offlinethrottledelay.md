@@ -1,7 +1,7 @@
 ---
 title: offlineThrottleDelay
 description: 建立裝置重新上線時的點擊頻率。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 ---
