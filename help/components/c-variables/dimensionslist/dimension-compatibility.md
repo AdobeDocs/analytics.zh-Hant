@@ -1,7 +1,7 @@
 ---
 title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -68,9 +68,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 監視器解析度 | monitorresolution |
 | 作業系統 | operatingsystem |
 | 原始反向連結網域 | referringdomainoriginal |
-| 頁面 | 頁面 |
+| 頁面 | page |
 | 找不到頁面 | pagesnotfound |
-| 產品 | 產品 |
+| 產品 | product |
 | 反向連結 | referrer |
 | 反向連結類型 | referrertype |
 | 反向連結網域 | referringdomain |
