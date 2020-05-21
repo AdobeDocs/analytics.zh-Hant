@@ -2,7 +2,7 @@
 description: 'null'
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -10,7 +10,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 # 設定流失視覺效果
 
-您可指定接觸點來建立多維度流失序列。通常，接觸點就是網站上的某個頁面。但接觸點不限於頁面。例如，您可以新增事件 (例如件數)，以及獨特訪客和回訪次數。您也可以新增維度，例如類別、瀏覽器類型或內部搜尋詞。
+您可指定接觸點來建立多維度流失序列。通常，接觸點就是網站上的某個頁面。但接觸點不限於頁面。例如，您可以新增事件 (例如件數)，以及不重複訪客和回訪次數。您也可以新增維度，例如類別、瀏覽器類型或內部搜尋詞。
 
 您甚至可以在接觸點內新增區段。例如，您可能想比較 iOS 和 Android 使用者之類的區段。將想要的區段拖曳至流失上方，這些區段的相關資訊就會加入流失報表中。如果只想顯示這些區段，您也可以移除「所有造訪」基線。
 
@@ -18,9 +18,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
 
-1. 從「視 [!UICONTROL Fallout] 覺化」下拉式清單拖曳視覺化至 [!UICONTROL Freeform Table]。
+1. 從「視覺效果」下拉式清單將「[!UICONTROL Fallout]」視覺效果拖曳至「[!UICONTROL Freeform Table]」中。
 
-1. Drag the Page dimension into the Freeform Table and from there, drag a page (in this case, Home - JJEsquire) into the **[!UICONTROL Add TouchPoint]** field as the first touchpoint.
+1. 將「頁面」維度拖曳至「自由表格」中，然後從那裡將頁面 (在此例中是「首頁 - JJEsquire」) 拖曳至「**[!UICONTROL Add TouchPoint]**」欄位，作為第一個接觸點。
 
    ![](assets/fallout1.png)
 
@@ -71,6 +71,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 趨勢接觸點 | 在線性圖中查看接觸點的趨勢資料，其中包含一些預先建立的異常偵測資料。 |
 | 趨勢接觸點 (%) | 顯示總流失百分比趨勢。 |
 | 顯示所有接觸點趨勢 (%) | 在同一圖表上顯示流失中所有接觸點的百分比趨勢 (「所有造訪」若包含則除外)。 |
-| 在此觸點劃分落差 | 檢視訪客在兩個觸點（此觸點和下一個觸點）之間所做的動作（如果他們繼續進入下一個觸點）。 這會建立顯示維度的自由表格。您可以更換維度和表格上的其他元素。 |
-| 在此觸點劃分流失 | 檢視未通過漏斗的人，在選定步驟後立即做了什麼事。 |
+| 在此接觸點劃分區間 | 如果訪客繼續進入下一個接觸點，可檢視訪客在兩個接觸點 (此接觸點和下一個接觸點) 之間所做的動作。這會建立顯示維度的自由表格。您可以更換維度和表格上的其他元素。 |
+| 在此接觸點劃分流失 | 檢視未通過漏斗的人，在選定步驟後立即做了什麼事。 |
 | 從接觸點建立區段 | 從選取的接觸點建立新的區段。 |
