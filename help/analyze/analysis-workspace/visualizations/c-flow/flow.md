@@ -2,7 +2,7 @@
 description: 'null'
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,6 +28,6 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
 
-## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
+## 匯出包含流量圖表的專案 .CSV 檔案{#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
-Flow diagrams are part of a project&#39;s .CSV file that you can create by going to **[!UICONTROL Project]** > **[!UICONTROL Download CSV]**. 這可讓您在 Microsoft Excel 內分析 (以視覺化呈現表格) 或其他地方分析「流量」結果。
+專案的 .CSV 檔案包含流量圖表，前往「**[!UICONTROL Download CSV]** > **[!UICONTROL Project]**」即可建立 .CSV 檔案。這可讓您在 Microsoft Excel 內分析 (以視覺化呈現表格) 或其他地方分析「流量」結果。
