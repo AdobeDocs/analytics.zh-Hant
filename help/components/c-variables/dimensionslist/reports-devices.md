@@ -3,7 +3,7 @@ description: 顯示存取您網站所用的行動裝置詳細清單。
 title: 裝置
 topic: Reports
 uuid: b7ca4a3f-8646-42b8-82c8-ea4f809dc115
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
