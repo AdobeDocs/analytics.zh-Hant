@@ -3,7 +3,7 @@ description: 顯示前頁進入點、次頁退出點與例項相關資訊 (在�
 title: 網站區域摘要
 topic: Reports
 uuid: 5bee04ea-5414-4538-b0d1-120700982762
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
