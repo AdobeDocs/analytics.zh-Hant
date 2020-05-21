@@ -3,7 +3,7 @@ description: 依照行動裝置支援的影像類型對行動裝置分組。例�
 title: 影像支援
 topic: Reports
 uuid: 99cea17a-660b-46ff-8cbc-a4e42d6e8c89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
