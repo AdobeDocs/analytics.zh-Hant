@@ -2,7 +2,7 @@
 description: Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判斷是否應將某個觀察值視為異常。
 title: 異常偵測所使用的統計技術
 uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -31,7 +31,7 @@ Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判�
 選取好模型後，演算法接著會根據假日以及年度季節性調整結果。對於假日，演算法會查看在報表日期範圍內是否有下列假日：
 
 * 陣亡將士紀念日
-* 4 年 7 月
+* 7 月 4 日
 * 感恩節
 * 黑色星期五
 * 網路星期一
