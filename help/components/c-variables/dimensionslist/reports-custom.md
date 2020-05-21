@@ -3,7 +3,7 @@ description: 管理員可以使用特定的量度和特定的日期範圍來設�
 title: 自訂
 topic: Reports
 uuid: 04a2cf81-6f2a-49f3-a449-cb701a899aad
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -21,4 +21,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 另外，您可以儲存自己覺得重要的報告。這些報告稱為書籤。您亦可將許多報告放在一個畫布上，以迅速檢視對自己最重要的報告。這些稱為控制面板，也是依使用者而異。介面中圖表上方有一橫列，列出您書籤和控制面板。
 
-See [Bookmarks Manager](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html) and [Dashboards and Reportlets](https://docs.adobe.com/content/help/en/analytics/admin/server-call-usage/server-call-usage-dashboard.html) for more information.
+有關詳細資訊，請參閱[書籤](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/bookmarks.html)和[控制面板與報表](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/server-call-usage/server-call-usage-dashboard.html)。
