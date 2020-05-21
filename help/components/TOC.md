@@ -3,7 +3,7 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/en/analytics/components/home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
 
 ---
@@ -36,10 +36,10 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [不同角色的區段權限](c-segmentation/seg-reference/seg-rights.md)
       + [疑難排解](c-segmentation/seg-reference/c-troubleshooting.md)
    + [常見問題集](c-segmentation/seg-transition.md)
-   + [Analytics區段的新增功能](c-segmentation/whats-new-segmentation.md)
+   + [Analytics 區段新增功能](c-segmentation/whats-new-segmentation.md)
    + [Ad Hoc Analysis 的轉換指南](c-segmentation/seg-transition-ad-hoc.md)
 + 計算量度 {#calculated-metrics}
-   + [計算和進階計算（衍生）量度](c-calcmetrics/cm-overview.md)
+   + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
    + 計算量度工作流程 {#calcmetric-workflow}
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
@@ -77,10 +77,10 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [建立虛擬報表套裝](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虛擬報表套裝](vrs/c-workflow-vrs/vrs-manage.md)
       + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
-+ Cross-Device Analytics {#cda}
-   + [Cross-Device Analytics 概觀](cda/cda-home.md)
-   + [設定 Cross-Device Analytics](cda/cda-setup.md)
-   + [Cross-Device Analytics 常見問題集](cda/cda-faq.md)
++ 跨裝置分析 {#cda}
+   + [跨裝置分析概觀](cda/cda-home.md)
+   + [設定跨裝置分析](cda/cda-setup.md)
+   + [跨裝置分析常見問題集](cda/cda-faq.md)
 + 警報 {#alerts}
    + [智慧型警報](c-alerts/intellligent-alerts.md)
    + [警報產生器](c-alerts/alert-builder.md)
@@ -184,7 +184,7 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
       + [郵件 URL 長度](c-variables/dimensionslist/reports-mail-url.md)
       + [製造商](c-variables/dimensionslist/reports-manufacturer.md)
       + [行銷管道概觀](c-variables/dimensionslist/reports-mchannel-overview.md)
-      + [行銷管道的詳情 - 首次接觸與上次接觸](c-variables/dimensionslist/reports-mchannel-detail.md)
+      + [行銷管道詳細資料 - 首次接觸與上次接觸](c-variables/dimensionslist/reports-mchannel-detail.md)
       + [行動](c-variables/dimensionslist/reports-mobile.md)
       + [行動電信業者](c-variables/dimensionslist/reports-mobile-carrier.md)
       + [監視器色彩深度](c-variables/dimensionslist/reports-monitor-color-depth.md)
@@ -328,11 +328,11 @@ source-git-commit: 0a1e702fa3fcf88cd9eeb56f58bf52c46f30b387
    + [設定即時報表](c-real-time-reporting/t-realtime-admin.md)
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
-   + [開始使用行銷渠道](c-marketing-channels/c-getting-started-mchannel.md)
+   + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
    + [管理行銷渠道](c-marketing-channels/c-channels.md)
    + [行銷渠道的處理規則](c-marketing-channels/c-rules.md)
    + [行銷管道中的分類](c-marketing-channels/classifictions-mchannel.md)
    + [訪客參與有效期](c-marketing-channels/visitor-engagement.md)
-   + [分析行銷渠道](c-marketing-channels/analyze-mc.md)
-   + [行銷渠道權限](c-marketing-channels/c-channel-report-access.md)
-   + [行銷渠道常見問答集和範例](c-marketing-channels/c-faq.md)
+   + [分析行銷管道](c-marketing-channels/analyze-mc.md)
+   + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
+   + [行銷管道常見問題集與範例](c-marketing-channels/c-faq.md)
