@@ -3,7 +3,7 @@ description: 「Reports & Analytics」中可用的預先定義報告的定義，
 title: 維度說明
 topic: Reports
 uuid: 8518aacb-a407-4fa8-bc25-6b349c44528a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -45,7 +45,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p>Data Workbench </p> </td> 
-   <td colname="col2"><a href="https://docs.adobe.com/content/help/en/data-workbench/using/dataset/extended-dimensions/c-abt-ex-dim.html"  > 擴充維度</a> </td> 
+   <td colname="col2"><a href="https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/dataset/extended-dimensions/c-abt-ex-dim.html"  > 擴充維度</a> </td> 
   </tr> 
  </tbody> 
 </table>
