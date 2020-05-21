@@ -3,7 +3,7 @@ description: 下表列出該國家/地區是否有地區代碼或是郵遞區號
 title: 地域劃分地區和郵遞區號使用狀況 (依國家區分)
 topic: Reports
 uuid: 9dab88f8-cd3f-481f-955f-2fc2f48c006d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
