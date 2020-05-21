@@ -2,7 +2,7 @@
 description: 'null'
 title: 預覽維度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 ---
@@ -26,4 +26,4 @@ source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
 
 當您將游標停留在維度上，並按一下旁邊的灰色向右箭頭，即會出現維度項目清單。任何維度項目清單通常會顯示最近 30 天排名最前的項目。
 
-如果您向下捲動至清單底部，您會看到 **[!UICONTROL Show Top Items From Last 6 Months]**。 按一下此選項，即可檢視最近 180 天排名最前的維度項目。
+如果向下捲動至清單底部，您會看到「**[!UICONTROL Show Top Items From Last 6 Months]**」。按一下此選項，即可檢視最近 180 天排名最前的維度項目。
