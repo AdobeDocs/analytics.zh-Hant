@@ -3,7 +3,7 @@ description: 顯示您網站訪客的慣用連結。例如，網站的首頁上�
 title: 自訂連結
 topic: Reports
 uuid: 2e0d0175-d5e4-4919-b601-3f488ef3e090
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -13,9 +13,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 顯示您網站訪客的慣用連結。例如，網站的首頁上可能有多個連結會顯示同一個頁面。可能有一個圖形連結，和一個文字連結，都連結到同一個頁面。這份報告顯示使用圖形連結和使用文字連結的訪客百分比。
 
-您想要追蹤的特定連結必須以特殊標記修改，請參閱[連結追蹤](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)。
+您想要追蹤的特定連結必須以特殊標記修改，請參閱[連結追蹤](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/config-var/s-linktrackvars.html)。
 
-您可以使 [!UICONTROL Custom Links Report] 用：
+您可以使用[!UICONTROL 自訂連結報告]執行下列工作：
 
 * 知道您的訪客慣用哪些類型的連結，可以將網站設計最佳化
 * 驗證對單一頁面採用多餘連結的必要性
