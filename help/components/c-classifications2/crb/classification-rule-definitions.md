@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類規則 - 定義
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> <p>選取報表套裝和變數 </p> </td> 
-   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p>例如，若要將 <span class="term">Pages</span> 設為規則集的可用變數，請確定報表套裝已為 <span class="term">Pages</span> 實作<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >流量分類</a>。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/traffic-classifications.html"  >流量分類</a>」和「<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >轉換分類</a>」。 </p> </td> 
+   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p>例如，若要將 <span class="term">Pages</span> 設為規則集的可用變數，請確定報表套裝已為 <span class="term">Pages</span> 實作<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/traffic-classifications.html"  >流量分類</a>。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/traffic-classifications.html"  >流量分類</a>」和「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >轉換分類</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 啟動</span> </p> </td> 
@@ -117,7 +117,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 規則運算式頁面 {#section_C932A5469E774841B2229965A154163C}
 
-You can edit regular expressions on the [!UICONTROL Regular Expression] page.
+您可以在「[!UICONTROL 規則運算式]」頁面上編輯規則運算式。
 
 ![](assets/regex_tracking_code.png)
 
@@ -129,7 +129,7 @@ You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 | 匹配群組 | 顯示規則運算式對應到促銷活動 ID 字元的情形，以便您能夠將促銷活動 ID 裡的位置分類。 |
 | 匹配結果 | 顯示字串中與規則運算式成功匹配的部分。 |
 
-請參閱[分類規則裡的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md).
+請參閱[分類規則裡的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)。
 
 ## 測試頁面 {#section_EC926F97901C4E65901413F9683AA70A}
 
@@ -140,5 +140,5 @@ You can edit regular expressions on the [!UICONTROL Regular Expression] page.
 | 元素 | 說明 |
 |---|---|
 | 執行測試 | 當您測試規則集時，使用報告中的索引鍵查看規則集對它們有何影響。 |
-| 篩選 | Filters the values in the [!UICONTROL Results] panel. |
+| 篩選 | 篩選「[!UICONTROL 結果]」面板裡的值。 |
 
