@@ -3,7 +3,7 @@ description: 顯示可從行動裝置存取的網站相關資訊。「行動裝�
 title: 行動
 topic: Reports
 uuid: ec8f6977-da92-478e-a934-c32cf5889526
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
