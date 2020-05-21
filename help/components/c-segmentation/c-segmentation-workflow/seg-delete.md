@@ -3,7 +3,7 @@ description: 列出在刪除區段之前，您應注意的一些事項。
 title: 刪除區段
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
