@@ -3,7 +3,7 @@ description: 顯示「促銷活動」報告群組中的量度平均值。預設�
 title: 促銷活動轉換漏斗
 topic: Reports
 uuid: b0a90917-e4c7-40da-854e-58649de09742
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
