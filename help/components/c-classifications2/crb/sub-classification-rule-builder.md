@@ -1,7 +1,7 @@
 ---
-description: 您無法將分類規則產生器與子分類結合。
+description: 您不能結合「分類規則產生器」和子分類。
 title: 子分類和規則產生器
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -9,9 +9,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 # 子分類和規則產生器
 
-如果您確定每個子分類都有父級值，您可以將「分類規則產生器」與子分類結合。
+如果您確定每個子分類都有上層變數值，即可結合「分類規則產生器」與子分類。
 
-將分類規則產生器與子分類結合可簡化分類管理並減少所需的規則數目。 若您的追蹤程式碼包含想要個別分類的程式碼，則您可能會想要執行此動作。
+結合「分類規則產生器」和子分類，即可簡化分類管理並減少所需的規則數目。若您的追蹤程式碼包含想要個別分類的程式碼，則您可能會想要執行此動作。
 
 請參閱[子分類](/help/components/c-classifications2/c-sub-classifications.md)，瞭解子分類的概念資訊。
 
@@ -37,7 +37,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 >
 >以下步驟說明如何完成[子分類和規則產生器](/help/components/c-classifications2/crb/sub-classification-rule-builder.md)中所述的使用案例。
 
-1. 在「[分類管理員](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)」中建立分類和子分類。
+1. 在「[分類管理員](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html)」中建立分類和子分類。
 
    範例：
 
