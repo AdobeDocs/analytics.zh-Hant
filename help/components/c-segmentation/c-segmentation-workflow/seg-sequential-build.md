@@ -3,7 +3,7 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -28,7 +28,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 符合 | A 然後 B<br>A 然後 (在不同次造訪中) B<br>A 然後 D 然後 B |
 | 不符合 | B 然後 A |
 
-## 「僅限序列之前」與「僅限序列之後」 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## 「僅限序列之前」與「僅限序列之後」{#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 **[!UICONTROL 「僅限序列之前」]**&#x200B;與&#x200B;**[!UICONTROL 「僅限序列之後」選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
 
@@ -350,7 +350,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器並指定精細度和計數，將符合限制至指定的持續時間。[!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。[!UICONTROL After] 運算子用來指定兩個查核點之間時間量的下限。
 
-### After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 運算子{#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持續時間的指定方式是使用代表精細度的單一大寫字母，後接代表精細度重複計數的數字。
 
