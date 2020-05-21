@@ -3,7 +3,7 @@ description: 'null'
 title: 每次瀏覽逗留時間
 topic: Reports
 uuid: 76441e36-b7fe-4cf3-8d72-c51d558afa13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
