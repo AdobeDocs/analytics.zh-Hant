@@ -1,13 +1,13 @@
 ---
-title: 開始使用行銷渠道
-description: 瞭解行銷渠道工作流程、自動設定，以及如何將範本報表套裝設定套用至多個報表套裝。
-translation-type: tm+mt
+title: 行銷管道快速入門
+description: 了解行銷管道工作流程、自動設定，以及如何套用範本報表套裝設定至多個報表套裝。
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# 開始使用行銷渠道
+# 行銷管道快速入門
 
 「行銷管道」常用來提供訪客如何進入您的網站的相關資訊。您可以根據所要追蹤的管道以及追蹤方式，建立及自訂行銷管道處理規則。
 
@@ -44,11 +44,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 當您在[!UICONTROL 「行銷頻道管理員」]頁面上建立管道後，接著請設定規則，讓管道可以擷取及報告資料。
 
-See [Marketing Channel Processing Rules](/help/components/c-marketing-channels/c-rules.md).
+請參閱[行銷管道處理規則](/help/components/c-marketing-channels/c-rules.md)。
 
 如果管道是以自動設定建立的，則這些管道的規則已經定義好。您可修改規則以便符合您的需求。
 
-## 行銷渠道的自動設定 {#run-auto-setup}
+## 行銷管道的自動設定 {#run-auto-setup}
 
 行銷管道報表隨附一次性設定頁面，可協助您開始使用。其中提供數個行銷管道，您可用來追蹤。如果熟悉如何建立管道和規則，則可跳過該設定。不過，Adobe 仍建議讓精靈替您建立管道。自動設定可讓您觀看規則的建立方式，您也可自行編輯規則。您可隨時停用或刪除預定義管道。
 
