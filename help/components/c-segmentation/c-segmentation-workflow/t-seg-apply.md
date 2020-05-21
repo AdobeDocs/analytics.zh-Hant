@@ -3,7 +3,7 @@ description: 如何從區段邊欄套用一或多個區段至報表。
 title: 選擇與套用區段
 topic: Segments
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
