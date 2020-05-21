@@ -3,7 +3,7 @@ description: 以百分比及總數顯示每次瀏覽的深度。也就是說，�
 title: 路徑長度
 topic: Reports
 uuid: f1c29e78-279a-46a5-b758-d4f0da629239
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
