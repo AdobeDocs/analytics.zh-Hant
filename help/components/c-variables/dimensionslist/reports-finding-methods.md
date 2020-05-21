@@ -3,7 +3,7 @@ description: 顯示以何種方式接收轉換成功事件的評價。例如，�
 title: 尋找方法
 topic: Reports
 uuid: f748419e-4cea-4868-ae1a-9bd7e6f177c4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
