@@ -3,7 +3,7 @@ description: 檔案下載有助您瞭解訪客從網站下載檔案的頻率。�
 title: 檔案下載
 topic: Reports
 uuid: 897fc221-aa30-4eac-aca6-bccb76adaf71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -15,7 +15,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **導覽**
 
-**[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Links]** > **[!UICONTROL File Downloads]**
+**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 連結]** > **[!UICONTROL 檔案下載」]**
 
 若此報告未在預設位置中，請洽詢您的管理員，因為他們可能變更了預設功能表結構以因應您的組織獨特的需求。
 
@@ -37,4 +37,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 1. 找出 [s.linkDownloadFileTypes](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/linkdownloadfiletypes.html) 變數。確定所有所需的副檔名都在這份清單中。如有必要，請在其中加入遺漏的副檔名，如 [!DNL .pdf]、[!DNL .zip] 等。
 
-If these variables appear to be configured correctly, but the [!UICONTROL File Downloads Report] still is not receiving data, your organization&#39;s supported users should contact Customer Care.
+如果這些變數的設定正確，但是[!UICONTROL 檔案下載報告]還是沒有收到資料，您組織的受支援使用者應該聯絡客戶服務。
