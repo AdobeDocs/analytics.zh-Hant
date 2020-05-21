@@ -3,7 +3,7 @@ description: 購買商品的獨特訪客。「獨特客戶」在該時間範圍�
 title: 獨特客戶
 topic: Reports
 uuid: f4fb15e8-482d-4467-81dc-58ade7743822
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
