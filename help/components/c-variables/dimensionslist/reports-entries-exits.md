@@ -3,7 +3,7 @@ description: 「登入頁面」報表以百分比和瀏覽總數的形式，顯�
 title: 登入與退出
 topic: Reports
 uuid: 756de55b-136b-427b-a80c-f822260131b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
