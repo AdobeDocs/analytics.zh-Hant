@@ -3,7 +3,7 @@ description: 可讓您將某部特定伺服器代管的頁面分組。列出您�
 title: 伺服器
 topic: Reports
 uuid: af4391de-8dfa-48fe-88af-81ce4ec8cf03
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
