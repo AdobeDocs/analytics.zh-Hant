@@ -3,7 +3,7 @@ description: 您可以從接觸點建立區段、新增區段作為接觸點，�
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -21,7 +21,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 從接觸點建立區段 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。若要這麼做，請以滑鼠右鍵按一下接觸點並選取 **[!UICONTROL Create segment from touchpoint]**。
+1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。若要這麼做，請以滑鼠右鍵按一下接觸點並選取「**[!UICONTROL Create segment from touchpoint]**」。
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -45,7 +45,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以在「流失」視覺效果中比較無數區段。
 
-1. Select the segments you want to compare from the [!UICONTROL Segments] rail on the left. 在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
+1. 從左側的「[!UICONTROL Segments]」邊欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
 1. 將這些區段拖曳至頂端的「區段」拖放區域。
 
    ![](assets/segment-drop.png)
