@@ -2,7 +2,7 @@
 title: 區段比較面板概述
 description: 了解如何使用 Analysis Workspace 中區段 IQ 的區段比較面板。
 keywords: Analysis Workspace;Segment IQ
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -27,11 +27,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
    ![比較受眾](assets/compare-audiences.png)
 
-   After you drag a segment into the panel, Analytics automatically creates an [!UICONTROL 'Everyone Else'] segment that includes everyone NOT in the segment you chose. 此為比較面板中常用的區段，但您可以任意將之移除，並選取不同區段用於比較。
+   將區段拖曳至面板後，Analytics 會自動建立「[!UICONTROL 'Everyone Else']」區段，當中包含「不」在您所選區段中的每個人。此為比較面板中常用的區段，但您可以任意將之移除，並選取不同區段用於比較。
 
    ![其他所有人](assets/everyone-else.png)
 
-1. Once you have determined which two segments to compare, click [!UICONTROL Build].
+1. 決定好要比較的兩個區段後，按一下「[!UICONTROL Build]」。
 
    此動作會啟動後端處理程序，找出兩個所選區段與所有維度、量度和其他區段之間的統計差異。面板上方的進度列會指出系統還需要多少時間分析每個量度和維度。最常使用的量度、維度和區段會優先執行，方便您及時查看最關心的結果。
 
@@ -39,12 +39,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 有時候，您會想在區段比較中排除某些維度、量度或區段。舉例來說，如果您想比較「美國的手機使用者」和「德國的手機使用者」區段，則納入地理相關維度是沒有意義的，因為區段本身已指出這些差異。
 
-1. After the desired two segments are in the panel, click [!UICONTROL 'Show Advanced Options'].
-1. Drag and drop components you want to exclude into the [!UICONTROL Excluded Components] panel.
+1. 將兩個所需區段加入面板後，按一下「[!UICONTROL 'Show Advanced Options']」。
+1. 將您想要排除的元件拖放至「[!UICONTROL Excluded Components]」面板。
 
    ![排除的元件](assets/excluded-components.png)
 
-Click [!UICONTROL 'Set as default'] to automatically exclude your current components in all future segment comparisons. 如果要編輯排除的元件，請按一下「元件類型」，然後按一下元件旁的「X」，將該元件重新納入分析。按一下「全部清除」則會將所有元件重新納入區段比較中。
+按一下「[!UICONTROL 'Set as default']」即可在所有日後的區段比較中自動排除目前選擇的元件。如果要編輯排除的元件，請按一下「元件類型」，然後按一下元件旁的「X」，將該元件重新納入分析。按一下「全部清除」則會將所有元件重新納入區段比較中。
 
 ![排除的維度](assets/excluded-dimensions.png)
 
