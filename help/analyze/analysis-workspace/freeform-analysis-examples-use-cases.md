@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: Analysis Workspace 的使用案例
 topic: Reports and analytics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -26,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 逐日進行欄或行比較，在多重量度間分析成長情形。
 * 執行簡易查詢，例如每個維度的彈回數。
 
-## 零售範例 {#section_9EFDEF038CAD4954BCFB118A8F33A96F}
+## 零售範例{#section_9EFDEF038CAD4954BCFB118A8F33A96F}
 
 假設您是一家戶外用品零售商的市場分析人員，您的任務是檢視最近的感恩節促銷活動的成效，並對現場促銷活動提出建議。此範例說明如何比較不同區段的促銷活動收入資料，並新增劃分以更深入鑽研促銷活動。
 
