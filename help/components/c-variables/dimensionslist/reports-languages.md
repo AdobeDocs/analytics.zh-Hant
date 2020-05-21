@@ -3,7 +3,7 @@ description: 擷取訪客瀏覽器裡的語言設定，讓您查看語言設定�
 title: 語言
 topic: Reports
 uuid: 04f1fc86-2738-4063-8091-772ddc59f9cf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
