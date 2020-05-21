@@ -3,7 +3,7 @@ description: 您可以將區段共用給整個組織、群組或個別使用者 
 title: 共用區段
 topic: Segments
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -32,7 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    ![](assets/sharing_segments.png)
 
-   如果您是管理員，可以選取「**[!UICONTROL 全部]**」或選取貴組織中的「**[!UICONTROL 群組]**」和「使用者&#x200B;**[!UICONTROL 」。]**&#x200B;身為非管理員，您只能看見個人使用者。使用「**[!UICONTROL 搜尋]**」欄位來搜尋群組或使用者。 1. 按一下&#x200B;**[!UICONTROL 「共用」]**。
+   如果您是管理員，可以選取「**[!UICONTROL 全部]**」或選取貴組織中的「**[!UICONTROL 群組]**」和「使用者&#x200B;**[!UICONTROL 」。]**&#x200B;身為非管理員，您只能看見個人使用者。使用「**[!UICONTROL 搜尋]**」欄位來搜尋群組或使用者。1. 按一下&#x200B;**[!UICONTROL 「共用」]**。
 
    「共用」圖示會出現在此區段旁：![](assets/share_icon.png)
 
