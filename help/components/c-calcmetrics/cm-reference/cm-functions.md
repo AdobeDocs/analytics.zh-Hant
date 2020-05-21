@@ -2,7 +2,7 @@
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 title: 參考資料  基本函數
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
