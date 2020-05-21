@@ -1,7 +1,7 @@
 ---
 title: 歸因 IQ
 description: '歸因 IQ 是 Adobe Analytics 中的一組功能，可深入分析行銷活動對轉換所具有的貢獻。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
 
 ---
