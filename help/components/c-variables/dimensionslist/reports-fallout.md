@@ -3,7 +3,7 @@ description: 顯示訪客離開 (流失) 和繼續瀏覽 (經過) 預先指定�
 title: 流失
 topic: Reports
 uuid: 2385834e-a1b1-4ac5-9530-3afde6d02d3d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -25,10 +25,10 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **Reports and Analytics**
 
-如需設定資訊，請參閱「說明」中的「[執行流失報告](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)」。
+如需設定資訊，請參閱「說明」中的「[執行流失報告](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/t-running-report-types.html)」。
 
 **Ad Hoc Analysis**
 
 您可以在瀏覽或訪客層級分析流失資料。您亦可看到一個趨勢化路徑，顯示特定時段內的流失圖。您可以設定單一頁面或頁面群組作為報告查核點，也可以加入任何維度或量度的組合或順序。您亦可使用在行銷報告中設定的類別作為此報告的查核點。
 
-如需設定資訊，請參閱「說明」中的「[流失報告](https://docs.adobe.com/content/help/en/analytics/analyze/ad-hoc-analysis/c-reports-paths.html)」。
+如需設定資訊，請參閱「說明」中的「[流失報告](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/ad-hoc-analysis/c-reports-paths.html)」。
