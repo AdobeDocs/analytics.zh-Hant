@@ -2,10 +2,10 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 控制面板組織者指南
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: 37fb41fac4cdbc0f1716d2ed94f607459436202c
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 98%
+source-wordcount: '2323'
+ht-degree: 82%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 # Adobe Analytics儀表板的策展人指南
 
-以下資訊會指示Adobe Analytics資料的策展人如何設定並呈現管理使用者的控制面板。
+以下資訊會指示Adobe Analytics資料的策展人如何設定並呈現管理使用者的控制面板。 若要觀看示範此資訊的影片，請參 [閱Adobe Analytics儀表板應用程式內體驗](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)。
 
 ## 簡介
 
@@ -71,10 +71,6 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 ![計分卡範本](assets/new_template.png)
 
-
-*注意：如果畫面未顯示空白行動計分卡範本 (如下所示)，表示貴公司尚未啟動測試版。請連絡您的客戶服務經理。*
-
-
 **新增專案**
 
 在&#x200B;**專案**&#x200B;畫面的&#x200B;**「元件」**&#x200B;標籤底下，按一下&#x200B;**「新增」**&#x200B;按鈕並選取&#x200B;**「行動計分卡」**。
@@ -105,18 +101,17 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![新增維度](assets/layer_dimensions.png)
 
-   *注意：您也可以將維度拖放到計分卡畫布上，將維度新增至所有圖磚。*
+   您也可以將維拖放到記分卡畫布上，將維添加到所有表徵圖。
 
    按一下計分卡建立程式中的圖磚，右側邊欄會顯示與該圖磚相關聯的屬性和特性。在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
-
 
    此外，如果按一下圖磚，動態快顯視窗會顯示應用程式向執行使用者呈現劃分檢視畫面的方式。如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
    ![Breakdown_view](assets/break_view.png)
 
-   *請留意新增至圖磚的每個維度在應用程式詳細檢視畫面下拉式清單中的顯示方式。執行使用者可從下拉式清單中選擇選項。*
+   新增至方塊的每個維度都會顯示在應用程式詳細檢視的下拉式清單中。 執行使用者可從下拉式清單中選擇選項。
 
-4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。
+4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選選單中選取區段，以套用區段。 您可 [以像在Adobe Analytics工作區中一樣，設定並套用記分卡](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 的篩選器。
 
 5. 同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下將游標停留在元件上時顯示的 **x**，即可將其移除，如下方&#x200B;**「行動客戶」**&#x200B;區段所示：
 
@@ -155,7 +150,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 在您共用計分卡後，收件者便可在其 Analytics 控制面板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
 
-*注意：如果是以新增新元件的方式更新計分卡，您可再次共用計分卡 (並勾選&#x200B;**「自動與收件者共用內嵌元件」**選項)，以確保您的執行使用者有權存取這些變更。*
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
 
 ## 透過應用程式設定執行使用者
 
@@ -171,42 +166,23 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
 * 使用者可存取計分卡中的元件。注意：您可以在共用計分卡時選擇選項，以&#x200B;**自動與收件者共用內嵌元件**。
 
-### 協助執行使用者使用應用程式
+### 使用應用程式協助主管使用者
 
-測試期間及應用程式全面開放使用之前，您可以控制誰有權存取應用程式。
+要幫助主管用戶：
 
-1. 協助執行使用者下載並安裝應用程式。方法是提供下列步驟來延伸執行使用者的存取權，步驟會依其使用 iOS 或 Android 裝置而有所不同。
+1. 協助他們下載並安裝應用程式。 方法是提供下列步驟來延伸執行使用者的存取權，步驟會依其使用 iOS 或 Android 裝置而有所不同。
 
    **若執行使用者使用 iOS：**
 
-   1. 按一下以下公開連結 (也可從 Analytics 的&#x200B;**「工具** > **控制面板」**&#x200B;底下取得)：
+   1. 按一下下列連結(也可在「工具 **>控制面板******」下的Analytics中取得)，然後依照提示下載、安裝和開啟應用程式：
 
-      [iOS 連結](https://testflight.apple.com/join/WtXMQxlI)：`https://testflight.apple.com/join/WtXMQxlI`
-
-      按一下連結後，系統會顯示下列 Testflight 畫面：
-
-      ![Testflight 畫面](assets/testflight1.png)
-
-   2. 點選畫面上的&#x200B;**「在 App Store 中檢視」**&#x200B;連結，前往下載 Testflight 應用程式。
-
-   3. 安裝 Testflight 應用程式後，請在 Testflight 中尋找 Adobe Analytics 控制面板並加以安裝，如下所示：
-
-      ![Testflight 畫面](assets/testflight2.png)
-
+      [iOS連結](https://apple.co/2zXq0aN)
    **若執行使用者使用 Android：**
 
-   1. 在使用者裝置上點選下列 Play Store 連結 (也可從 Analytics 的&#x200B;**「工具** > **控制面板」**底下取得)：
-      [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp)：`https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
+   1. 按一下下列連結(也可在「工具 **>控制面板******」下的Analytics中取得)，然後依照提示下載、安裝和開啟應用程式：
 
-      點選連結後，點選下列畫面上的「成為測試者」連結：
-
-      ![Play Store 畫面](assets/play.png)
-
-   2. 點選下列畫面上的&#x200B;**「透過 Google Play 下載」**&#x200B;連結：
-
-      ![下載連結](assets/playnext.png)
-
-   3. 下載並安裝應用程式。下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
+      [Android](https://bit.ly/2LM38Oo)
+   下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
 
    ![應用程式歡迎畫面](assets/welcome.png)
 
@@ -215,19 +191,15 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
    * 點選套用至您所共用計分卡的登入公司或 Experience Cloud 組織名稱。接著，計分卡清單會顯示該登入公司與執行使用者共用的所有計分卡。
    * 如果情況適用，請協助他們依&#x200B;**最近修改的項目**&#x200B;將清單排序。
    * 點選計分卡的名稱即可檢視。
-
    ![選擇公司](assets/accesscard.png)
 
-   注意：如果執行使用者登入後看到未共用任何內容的訊息：
+   如果執行使用者登入並看見訊息指出未共用任何內容：
 
    * 執行使用者可能選擇了錯誤的 Analytics 例項
    * 可能沒有任何計分卡與該執行使用者共用
-
-      ![無共用項目](assets/nothing.png)
-
    確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
-3. 向執行使用者說明圖磚在您所共用計分卡中的顯示方式。
+3. 向執行用戶解釋拼貼在您共用的記分卡中的顯示方式(下面的記分卡設定為暗模式，在 **Preferences** 中設定，如後續步驟中所述):
 
    ![說明圖磚](assets/newexplain.png)
 
@@ -246,24 +218,30 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![劃分檢視](assets/sparkline.png)
 
+   * 點選Sparkline上的任何點，即可查看與線上該點關聯的資料。
+
+   * 包括表以顯示添加到表徵圖的尺寸的資料。 點選向下箭頭以選取尺寸。 如果未將維度新增至圖格，表格會顯示圖表資料。
+
 
 5. 變更計分卡日期範圍：
 
    ![變更日期](assets/changedate.png)
 
-   *注意：您也可以使用相同方式，變更上述劃分檢視中的日期範圍。*
+   您也可以以相同方式變更上述「劃分」檢視中的日期範圍。
 
    根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
 6. 在此應用程式上提供意見回饋：
 
-   1. 點選應用程式畫面右上方的使用者圖示。
-   2. 在&#x200B;**我的帳戶**&#x200B;畫面上，點選&#x200B;**「意見回饋」**&#x200B;選項。
+   1. 點選應用程式畫面右上角的設定圖示。
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. 點選並查看提供意見回饋的選項。
 
-   ![提供意見回饋](assets/feedback.png)
-   ![意見回饋選項](assets/feedback_option.png)
+      ![設定畫面](assets/settings.png)
 
+7. 若要變更偏好設定，請點選上 **述的** 「偏好設定」選項。 在偏好設定中，您可以開啟生物識別登入，或是將應用程式設定為深色模式，如下所示：
+
+   ![暗模式](assets/darkmode.png)
 
 **回報錯誤**：
 
