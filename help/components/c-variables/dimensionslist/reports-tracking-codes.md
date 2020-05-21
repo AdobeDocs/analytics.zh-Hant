@@ -3,7 +3,7 @@ description: 評量不同的廣告追蹤程式碼對您網站上不同的轉換�
 title: 追蹤程式碼
 topic: Reports
 uuid: c893d592-10fd-4b40-84b3-8c8949a67b25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -17,11 +17,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 * 此報表會直接參照 [s.campaign](/help/implement/vars/page-vars/campaign.md) 的資料
 * 此報表所依據的變數為[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。也就是說，轉換變數可跨頁面檢視而存留，並可在其指定的有效期內與量度產生關聯。
-* 此報告的預設量度為「收入」。您可以在中更改此預設 [!UICONTROL Report Suite Manager] 值 [!UICONTROL Admin Tools]。( **[!UICONTROL Edit Settings]** > **[!UICONTROL Individual Report Settings]** > **[!UICONTROL Default Metrics]**)。
+* 此報告的預設量度為「收入」。您可以在[!UICONTROL 「管理工具」]的[!UICONTROL 「報表套裝管理器」]中變更此預設值。(**[!UICONTROL 編輯設定]** > **[!UICONTROL 個別報告設定]** > **[!UICONTROL 預設量度]**。)
 
 * 此報告可使用趨勢與排名格式來檢視。
 * 此報告可使用搜尋篩選器尋找特定明細項目。
-* The [!UICONTROL Campaigns] and [!UICONTROL Creative Elements] reports are classifications based on this report, and are automatically created with each report suite.
+* [!UICONTROL 促銷活動]與[!UICONTROL 創作元素]報告是以此報告為基礎的分類，並且會隨著每個報表套裝自動建立。
 
 * 您可以在此報告中使用「SAINT 分類」，以便對明細項目重新命名和合併。
 * 此報告可依下列報告進行劃分 (視組織與報表套裝設定而定)：
@@ -43,9 +43,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 **Reports &amp; Analytics 屬性**
 
-* 按一 **[!UICONTROL Conversion]** 下> **[!UICONTROL Campaigns]** > **[!UICONTROL Tracking Code]** 以找出此報表，除非自訂功能表。
+* 按一下&#x200B;**[!UICONTROL 「轉換]** > **[!UICONTROL 促銷活動]** > **[!UICONTROL 追蹤程式碼」]**&#x200B;即可找到此報表 (除非已自訂功能表)。
 
-* 此報表還可由所有[清單變數](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)劃分。
+* 此報表還可由所有[清單變數](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/conversion-variables/list-var-admin.html)劃分。
 * 頁面檢視、瀏覽與獨特訪客皆可作為量度。
 * 此報告可使用區段。
 
