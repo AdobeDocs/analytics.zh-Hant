@@ -1,13 +1,13 @@
 ---
 description: 閱讀最佳實務和範例，瞭解如何填入各種可為行銷管道設定的規則。
-title: 行銷渠道常見問答集和範例
-translation-type: tm+mt
+title: 行銷管道常見問題集與範例
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
 
 
-# 行銷渠道常見問答集和範例
+# 行銷管道常見問題集與範例
 
 請參閱[建立行銷管道處理規則](/help/components/c-marketing-channels/c-rules.md)，瞭解[!UICONTROL 行銷管道處理規則]頁面中所顯示欄位的定義。
 
@@ -17,7 +17,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **問題**：我的追蹤代碼不遵從模式，而我必須為我的「附屬機構」管道指定上千個模式。
 
-* 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用 *`affiliates.`*
+* 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用&#x200B;*`affiliates.`*
 * 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*。建立一個規則集，用於偵測 ch 查詢參數是否等於 *`eml`*。如果不包含 *`eml`*，則為附屬機構。
 
 **問題**：反向連結網域包含的資料多於我的預期。
@@ -54,7 +54,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 最後，建立一個擷取剩餘點按的&#x200B;*「其他」*&#x200B;管道，如[未識別管道](/help/components/c-marketing-channels/c-faq.md#no-channel-identified)中所述。
 
-## 未識別管道 {#no-channel-identified}
+## 未識別管道{#no-channel-identified}
 
 當規則不擷取資料時，或如果規則設定有誤，則報表會顯示報表上[!UICONTROL 「未識別管道」]行中的資料。您可建立一個稱作&#x200B;*「其他」*&#x200B;的規則集，例如在處理順序的末尾，這也可識別內部流量，如下所示。
 
@@ -72,9 +72,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/example_paid_search.png)
 
-如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
-## 免費搜尋 {#natural-search}
+## 免費搜尋{#natural-search}
 
 訪客經由某個網站搜尋找到您的網站 (您不須支付排名費用，即由該搜尋引擎排名您的網站)，則為「免費」搜尋。您可以控制搜尋引擎用來連結套裝的目的地 URL。此 URL 允許分析識別搜尋是否為免費的。
 
@@ -84,9 +84,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/example_natural_search.png)
 
-如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
-## 附加產品 {#afilliates}
+## 附加產品{#afilliates}
 
 附屬機構規則可識別源自指定反向連結網域組的訪客。透過該規則，您可列出想要追蹤的附屬機構網域，如下所示：
 
@@ -100,7 +100,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 顯示 {#display}
 
-該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為 *`Ad_01`*。
+該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為  *`Ad_01`*。
 
 ![](assets/example_display.png)
 
@@ -110,9 +110,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/example_internal.png)
 
-## 電子郵件 {#email}
+## 電子郵件{#email}
 
-若要設定該規則，您可為電子郵件促銷活動提供查詢字串參數。在本例中，參數為 *`eml`*：
+若要設定該規則，您可為電子郵件促銷活動提供查詢字串參數。在本例中，參數為  *`eml`*：
 
 ![](assets/example_email.png)
 
@@ -120,7 +120,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/tracking_code.png)
 
-## 直接 {#direct}
+## 直接{#direct}
 
 該規則可識別無反向連結網域的訪客。這包括直接來到您網站的訪客，例如來自「我的最愛」連結或透過傳遞其瀏覽器中的連結。
 
