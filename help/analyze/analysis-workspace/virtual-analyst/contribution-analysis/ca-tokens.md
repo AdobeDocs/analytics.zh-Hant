@@ -2,7 +2,7 @@
 description: 'null'
 title: 貢獻分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
@@ -101,12 +101,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    <td colname="col3" colsep="1"> <p>沒有代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/zh-Hant/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/select.html?promoid=B4XQ3X7G&amp;mv=other"  > Select </a> </p> </td> 
    <td colname="col2"> <p>僅每日粒度 </p> </td> 
    <td colname="col3"> <p>沒有代號 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://www.adobe.com/zh-Hant/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://www.adobe.com/data-analytics-cloud/analytics/prime.html?promoid=91BF51TR&amp;mv=other"  >Prime</a> </p> </td> 
    <td colname="col2"> <p>是 </p> </td> 
    <td colname="col3"> <p>每月 10 個代號 </p> </td> 
   </tr> 
