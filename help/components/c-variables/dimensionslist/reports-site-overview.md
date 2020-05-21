@@ -3,7 +3,7 @@ description: 「網站量度 > 網站綜覽」報告在登入時顯示，可讓�
 title: 網站綜覽
 topic: Reports
 uuid: 6bd9ca4b-9026-4d31-9fb3-3112a37cf845
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
