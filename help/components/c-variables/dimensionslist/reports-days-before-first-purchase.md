@@ -3,7 +3,7 @@ description: 顯示客戶首次造訪網站和最後消費之間的間隔天數�
 title: 首次購買間隔天數
 topic: Reports
 uuid: 8ceea9e8-2b81-44f1-b4c0-aa6542eeba2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
