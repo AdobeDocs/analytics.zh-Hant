@@ -3,7 +3,7 @@ description: 顯示促進網站流量的網站位置。您可以看到您網域�
 title: 流量來源
 topic: Reports
 uuid: 34ab8797-7a3e-43fd-afb2-4335869661b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
