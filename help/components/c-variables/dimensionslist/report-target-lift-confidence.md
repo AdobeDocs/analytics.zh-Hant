@@ -2,7 +2,7 @@
 description: 可讓您利用過去在 Target Classic 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
 title: 目標提升度和可信度
 uuid: 00276cd2-2e0d-4a25-ae8a-d9f4b30dd8ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ---
@@ -12,16 +12,16 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 可讓您利用過去在 [!DNL Target Classic] 中使用的方式，在 Adobe Analytics 中評估促銷活動是否成功。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL Analytics for Target]** > **[!UICONTROL Target Activities]** .
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL 檢視全部報表]** > **[!UICONTROL Adobe Target]** > **[!UICONTROL 目標分析]** > **[!UICONTROL 目標活動」]**。
 
-Adobe Target 文件包含更多關於[提升度](https://docs.adobe.com/content/help/en/target/using/administer/preferences/estimating-lift-in-revenue.html)和[可信度](https://docs.adobe.com/help/en/target/using/reports/settings/average-lift-bounds-and-confidence-interval.html)的詳細資訊。
+Adobe Target 文件包含更多關於[提升度](https://docs.adobe.com/content/help/zh-Hant/target/using/administer/preferences/estimating-lift-in-revenue.html)和[可信度](https://docs.adobe.com/help/zh-Hant/target/using/reports/settings/average-lift-bounds-and-confidence-interval.html)的詳細資訊。
 
 若要計算提升度和可信度：
 
-1. In the **[!UICONTROL Target Activities]** report, click on an activity to bring up its details.
-1. 在「報表類型」下，選取 **[!UICONTROL Lift and Confidence]**。
-1. 按一 **[!UICONTROL Show Metrics]** 下以新增一個量度。 這種報表類型無法新增超過一個量度，因為最佳實務是只依據一個量度來評估測試。多個量度只會增加雜訊，降低測試訊號。
-1. (Optional) Under **[!UICONTROL Normalizing Metric]**, select one of the following: Visitors, Visits, or Impressions. 大部分時候都是預設值「訪客」。
+1. 在&#x200B;**[!UICONTROL 「目標活動」]**&#x200B;報表中，按一下某個活動以顯示其詳細資料。
+1. 在「報表類型」下方選取&#x200B;**[!UICONTROL 「提升度和可信度」]**。
+1. 按一下&#x200B;**[!UICONTROL 「顯示量度」]**&#x200B;以新增一個量度。這種報表類型無法新增超過一個量度，因為最佳實務是只依據一個量度來評估測試。多個量度只會增加雜訊，降低測試訊號。
+1. (選用) 在&#x200B;**[!UICONTROL 標準化量度]**&#x200B;下方，選取下列其中一個項目：訪客數、造訪次數或曝光數。大部分時候都是預設值「訪客」。
 
 1. 報表會新增這些量度，包括量度和標準化量度之間的比率。
 
