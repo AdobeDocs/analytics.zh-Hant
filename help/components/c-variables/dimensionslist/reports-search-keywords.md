@@ -3,7 +3,7 @@ description: 顯示搜尋關鍵字的劃分。
 title: 搜尋關鍵字
 topic: Reports
 uuid: db9d477b-b711-4b93-9c25-3aebe5f2ace6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
