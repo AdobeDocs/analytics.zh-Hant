@@ -1,7 +1,7 @@
 ---
 title: 反向連結
-description: 顯示先前點擊的URL（如果該點擊位於您的網站外）。
-translation-type: tm+mt
+description: 顯示上次點擊的 URL (如果該點擊位於您的網站之外)。
+translation-type: ht
 source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 ---
@@ -9,23 +9,23 @@ source-git-commit: f18fbd091333523cd9351bfa461a11f0c3f17bef
 
 # 反向連結
 
-「反向連結」維度顯示訪客在到達您網站前所處的URL。 For example, if a visitor clicks a link from `example.com/example-page.html` and arrives on your site, `example.com/example-page.html` is the referrer if it is not defined as part of your domain.
+「反向連結」維度會顯示訪客在到達您網站前所處 URL。例如，假設訪客從 `example.com/example-page.html` 點按連結找到您的網站，如果 `example.com/example-page.html` 沒有定義為您網域的一部分，那麼它就是反向連結。
 
-此維度需要您設定報表套裝的內部 [URL篩選器](/help/admin/admin/internal-url-filter-admin.md)。 如果您未設定內部URL篩選器，Adobe Analytics會將所有網域視為您網站的內部網域。
+此維度需要您設定報表套裝的[內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)。如果您未設定內部 URL 篩選器，Adobe Analytics 會將所有網域視為您網站的內部網域。
 
-## 維屬性
+## 維度屬性
 
-* 依預設，此維度會使用最近的配置。
-* 依預設，此維度會在瀏覽後過期。
-* 在（低流量）下將維度值分組之前，此維度受500k唯一限制的約束。 資料倉庫沒有唯一限制。
-* 如果度量沒有反向連結值，則會將其分組在下方 `Typed/Bookmarked`。
-* 此維度通常會在瀏覽的首次點擊上設定，但可設定在瀏覽中間。
+* 此維度預設使用最近的配置。
+* 此維度依預設為在造訪結束後到期。
+* 在 (低流量) 下將維度值分組前，此維度的不重複值上限為 500,000 個。Data Warehouse 沒有不重複限制。
+* 如果量度沒有反向連結值，則會將其分組在 `Typed/Bookmarked` 下。
+* 此維度通常設定在第一次的造訪點擊上，但也可以設定在中繼造訪上。
 
 ## 疑難排解
 
-**問：我為何將`googleusercontent.com`視為維度值？**
+**問：為什麼我會看到`googleusercontent.com`這個維度值？**
 
-答： [Google](https://about.google/) ，將網域用 `googleusercontent.com` 於其代管內容。 代管內容包括：
+答：[Google](https://about.google/) 將 `googleusercontent.com` 這個網域用於其託管內容。託管內容包括：
 
-* **快取頁面**:Google的蜘蛛程式會不斷地編目網頁，並儲存網頁，以防網頁離線或無法使用。 按一下Google其中一個搜尋結果頁面的「快取」連結，即可在所有搜尋結果旁取得這些快取頁面。 當使用者按一下此連結，然後查看您網站上的原始內容時， `googleusercontent.com` 會列為其反向連結網域。 這些頁面具有子網域 `webcache.googleusercontent.com`。
-* **翻譯的頁面**:Google提供強大而方便的翻譯服務。 使用本服務檢視網站時，其來源為 `googleusercontent.com`。 如果使用者按一下連結以返回原始內容，反向連結維度會顯示此網域的URL。 這些頁面具有子網域 `translate.googleusercontent.com`。
+* **快取頁面**：Google的編目程式會持續編目網站並儲存網頁，以防網頁離線或無法使用。按一下 Google 其中一個搜尋結果頁面上的「快取」連結，即可在所有搜尋結果旁看見這些快取頁面。當使用者點按連結並查看您網站上的原始內容，`googleusercontent.com` 便將列為他們的反向連結網域。這些頁面具有下列子網域：`webcache.googleusercontent.com`。
+* **翻譯頁面**：Google 提供強大且便利的翻譯服務。使用本服務檢視網站時，其來源為 `googleusercontent.com`。如果使用者點按連結返回原始內容，反向連結維度會顯示來自此網域的 URL。這些頁面具有下列子網域：`translate.googleusercontent.com`。
