@@ -3,7 +3,7 @@ description: 透過追蹤並記錄每次造訪的訪客反向連結位置，您�
 title: 反向連結類型
 topic: Reports
 uuid: 7f63d327-d223-4537-a722-4780aae05c2b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
