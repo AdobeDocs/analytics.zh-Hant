@@ -3,7 +3,7 @@ description: 有關客戶屬性的 Analytics 常見問題，以及如何執行�
 solution: Experience Cloud,Analytics
 title: 客戶屬性
 uuid: 94721265-ba23-45d5-8807-76f81b0b8a30
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ---
@@ -13,7 +13,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 有關客戶屬性的 Analytics 常見問題，以及如何執行「客戶屬性」報表。
 
-**[!UICONTROL Reports]** **[!UICONTROL > Visitor Profile]** > **[!UICONTROL Customer Attributes]**
+**[!UICONTROL 「報表]****[!UICONTROL > 訪客資料]** > **[!UICONTROL 客戶屬性」]**
 
 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，您可將該資料上傳至 Experience Cloud 的客戶屬性資料來源。資料上傳後，您可以執行 Reports &amp; Analytics 中的「客戶屬性」報表。
 
@@ -22,13 +22,13 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 如需有關上傳客戶屬性資料的詳細資訊，請參閱 Experience Cloud 說明中的[客戶屬性](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)。
 
-## Analytics 中的客戶屬性和報表量度 {#section_EF343662146B460A882D3DF772ADD86D}
+## Analytics 中的客戶屬性和報表量度{#section_EF343662146B460A882D3DF772ADD86D}
 
-上傳客戶屬性並驗證結構後 (在 Experience Cloud 中)，系統會根據您對應至屬性字串和整數的好記名稱 (如 *`age`* 或 *`gender`*) 建立量度。這些量度會顯示在 **[!UICONTROL Visitor Profile]** >報 **[!UICONTROL Customer Attributes]** 表中。
+上傳客戶屬性並驗證結構後 (在 Experience Cloud 中)，系統會根據您對應至屬性字串和整數的好記名稱 (如 *`age`* 或 *`gender`*) 建立量度。這些量度會出現在「**[!UICONTROL 訪客資料]** > **[!UICONTROL 客戶屬性]**」報表中。
 
 例如：
 
-**[!UICONTROL Visitor Profile]** > **[!UICONTROL Customer Attributes]** > **[!UICONTROL Age]**
+**[!UICONTROL 訪客資料]** > **[!UICONTROL 客戶屬性]** > **[!UICONTROL 年齡]**
 
 ![](assets/report_age.png)
 
