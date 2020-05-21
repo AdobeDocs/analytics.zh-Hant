@@ -2,17 +2,17 @@
 description: 控制面板計分卡的使用說明。
 title: Adobe Analytics 控制面板執行指南
 translation-type: tm+mt
-source-git-commit: d78bb56cb199585236b7193b5bd220818b806194
+source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 98%
+source-wordcount: '1287'
+ht-degree: 75%
 
 ---
 
 
 # Adobe Analytics 控制面板：執行使用者快速入門手冊
 
-以下資訊提供行政使用者有關使用和檢視Adobe Analytics控制面板的最佳實務資訊。
+以下資訊提供行政使用者有關使用和檢視Adobe Analytics控制面板的最佳實務資訊。 若要觀看示範此資訊的影片，請參 [閱Adobe Analytics儀表板應用程式內體驗](https://youtu.be/QXqQ_PkArbA)。
 
 
 ## 簡介
@@ -51,36 +51,21 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 若要下載及安裝應用程式，請根據裝置的作業系統，依步驟操作。
 
-**iOS 裝置：**
+**若執行使用者使用 iOS：**
 
-1. 按一下以下公開連結 (也可從 Analytics 的&#x200B;**「工具** > **控制面板」**&#x200B;底下取得)：
+按一下下列連結(也可在「工具 **>控制面板******」下的Analytics中取得)，然後依照提示下載、安裝和開啟應用程式：
 
-   [iOS 連結](https://testflight.apple.com/join/WtXMQxlI)：`https://testflight.apple.com/join/WtXMQxlI`
+[iOS連結](https://apple.co/2zXq0aN)
 
-   按一下連結後，系統會顯示下列 Testflight 畫面：
+**若執行使用者使用 Android：**
 
-   ![Testflight 畫面](assets/testflight1.png)
+按一下下列連結(也可在「工具 **>控制面板******」下的Analytics中取得)，然後依照提示下載、安裝和開啟應用程式：
 
-2. 點選畫面上的&#x200B;**「在 App Store 中檢視」**&#x200B;連結，前往下載 Testflight 應用程式。
+[Android連結](https://bit.ly/2LM38Oo)
 
-3. 安裝 Testflight 應用程式後，請在 Testflight 中尋找 Adobe Analytics 控制面板並加以安裝，如下所示：
+一旦下載並安裝後，主管使用者就可以使用現有的Adobe Analytics認證登入應用程式。
 
-   ![Testflight 畫面](assets/testflight2.png)
-
-**Android 裝置：**
-
-1. 在使用者裝置上點選下列 Play Store 連結 (也可從 Analytics 的&#x200B;**「工具** > **控制面板」**&#x200B;底下取得)：
-
-
-   [Android](https://play.google.com/apps/testing/com.adobe.analyticsmobileapp)：`https://play.google.com/apps/testing/com.adobe.analyticsmobileapp`
-
-   點選連結後，點選下列畫面上的「成為測試者」連結：
-
-   ![Play Store 畫面](assets/play.png)
-
-2. 點選下列畫面上的&#x200B;**「透過 Google Play 下載」**&#x200B;連結：
-
-   ![下載連結](assets/playnext.png)
+![應用程式歡迎畫面](assets/welcome.png)
 
 ## 使用控制面板
 
@@ -94,29 +79,33 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 3. 接著，計分卡清單會顯示已與您共用的所有計分卡。點選要檢視的計分卡。
 
-   ![選擇公司](assets/accesscard.png)
+   ![選擇公司](assets/nextseq.png)
 
-   *注意：如果您登入後看到未共用任何內容的訊息，請向組織者確認下列事項：*
+   如果您登入並看到訊息指出未共用任何內容，請與策展人確認下列事項：
 
-   * *您可以登入正確的 Analytics 例項*
-   * *已與您共用計分卡*
+   * 您可以登入正確的 Analytics 例項
+   * 已與您共用計分卡
+   ![無共用項目](assets/nothing.png)
 
-      ![無共用項目](assets/nothing.png)
-
-4. 檢查圖磚在計分卡中的顯示方式。
+4. 檢查拼貼在記分卡中的顯示方式(第一個記分卡以暗模式顯示； 請參閱 **下方的** 「偏好設定」，以取得詳細資訊)。
 
    ![圖磚說明](assets/newexplain.png)
 
    圖磚的其他資訊：
 
    * 走勢圖的粒度取決於日期範圍的長度：
-   * 若長度為一天，圖表會顯示每小時趨勢
-   * 若長度為一天以上、一年以下，圖表會顯示每日趨勢
-   * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
-   * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
-   * 下拉畫面即可重新整理計分卡。
 
-5. 點選圖磚，即可顯示圖磚劃分的詳細運作資訊。
+      * 若長度為一天，圖表會顯示每小時趨勢
+      * 一天以上一年以下，顯示每日趨勢
+      * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
+   * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
+
+   * 下拉畫面即可重新整理計分卡。
+   以下示例記分卡以正常模式顯示：
+
+   ![示例記分卡](assets/intro_scorecard.png)
+
+5. 點選圖格以檢視圖格的詳細劃分如何運作。
 
    ![劃分檢視](assets/sparkline.png)
 
@@ -125,21 +114,27 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![變更日期](assets/changedate.png)
 
-   *注意：您也可以使用相同方式，變更上述劃分檢視中的日期範圍。*
+   * 您也可以以相同方式變更上述「劃分」檢視中的日期範圍。
 
-   根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
+   * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-7. 更新計分卡。如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
+7. 若要將區段篩選套用至您的記分卡，請點選篩選下拉式清單，然後選取策展人已設定的區段。 [應用程式](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 中的篩選器功能與在Analytics工作區中的篩選器功能相同。
 
+   ![區段篩選](assets/segment_filter.png)
 
+8. 更新計分卡。如果計分卡中沒有您可能感興趣的所有度量或劃分，請連絡您的 Analytics 團隊以更新計分卡。更新後，您可以下拉畫面上的資訊卡，重新整理並載入最近新增的資料。
 
-8. 提供意見回饋。提供意見回饋：
+9. 在此應用程式上提供意見回饋：
 
-   1. 點選控制面板畫面右上方的使用者圖示。
-   2. 在&#x200B;**我的帳戶**&#x200B;畫面上，點選&#x200B;**「意見回饋」**&#x200B;選項。
+   1. 點選應用程式畫面右上角的設定圖示。
+   2. On the **Settings** screen, tap the **Feedback** option.
    3. 點選並查看提供意見回饋的選項。
-   ![提供意見回饋](assets/feedback.png)
-   ![意見回饋選項](assets/feedback_option.png)
+
+      ![設定畫面](assets/settings.png)
+
+10. 若要變更偏好設定，請點選上 **述的** 「偏好設定」選項。 在偏好設定中，您可以開啟生物識別登入，或是將應用程式設定為深色模式，如下所示：
+
+   ![暗模式](assets/darkmode.png)
 
 
 **回報錯誤**：
