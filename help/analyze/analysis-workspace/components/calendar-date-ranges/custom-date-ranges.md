@@ -4,7 +4,7 @@ keywords: Analysis Workspace
 title: 建立自訂日期範圍
 topic: Reports and analytics
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -24,7 +24,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/date-range-two-months-ago.png)
 
-The custom date range is displayed at the top of the [!UICONTROL Date Range] component panel in your project:
+自訂日期範圍會顯示在專案中的 [!UICONTROL Date Range] 元件面板上方：
 
 ![](assets/date-range-panel-two-months-ago.png)
 
@@ -42,7 +42,7 @@ The custom date range is displayed at the top of the [!UICONTROL Date Range] com
 
 ![](assets/create_date_range.png)
 
-使用 *`rolling daily`*。
+使用&#x200B;*`rolling daily`*。
 
 * 開始設定是 *`current day minus 14 days`*。
 
