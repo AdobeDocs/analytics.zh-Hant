@@ -2,7 +2,7 @@
 description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
 title: 智慧型警報概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
@@ -25,13 +25,13 @@ Analysis Workspace 中的新「警報產生器」和「警報管理器」取代�
 
 取得「警報產生器」有四種方式：
 
-* 直接前往警報產生器： **[!UICONTROL Components]** > **[!UICONTROL Alerts]**
+* 直接前往警報產生器：「**[!UICONTROL Components]** > **[!UICONTROL Alerts]**」
 * 使用 Workspace 中的鍵盤快速鍵：`Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac)
-* Selecting one or more freeform table line item/s, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**. 這個動作會開啟警報產生器，並預先填入表格中套用的合適量度量和篩選器。您可以視需要編輯警報。
+* 選取一或多個自由表格條列項目，按一下滑鼠右鍵並選取「**[!UICONTROL Create Alert from Selection]**」。這個動作會開啟警報產生器，並預先填入表格中套用的合適量度量和篩選器。您可以視需要編輯警報。
 
    ![從選取範圍建立警報](assets/create-alert-from-selection.png)
 
-* 從「報告與分析」報表，前往 **[!UICONTROL More]** > **[!UICONTROL Add Alert]** 。 這個動作會開啟警報產生器，並預先填入報表中套用的合適量度量和篩選器。您可以視需要編輯警報。
+* 從 Reports &amp; Analytics 報表中前往「**[!UICONTROL More]** > **[!UICONTROL Add Alert]**」。這個動作會開啟警報產生器，並預先填入報表中套用的合適量度量和篩選器。您可以視需要編輯警報。
 
    ![新增警報](assets/add-alert.png)
 
