@@ -3,7 +3,7 @@ description: 收集並整理單一頁面的特定資訊並在單一報表中展�
 title: 頁面摘要
 topic: Reports
 uuid: 00ae130a-8c07-409f-930a-d79a8631992b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
