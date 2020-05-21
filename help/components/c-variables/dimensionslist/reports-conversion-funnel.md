@@ -3,7 +3,7 @@ description: 轉換比率通常會測量轉換程序中的開始、結束與里�
 title: 轉換漏斗
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ---
