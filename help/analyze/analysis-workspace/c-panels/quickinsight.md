@@ -1,20 +1,20 @@
 ---
 description: 「快速洞察」建立工具是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
-title: 快速洞察建立工具
+title: 深入分析快速產生器
 translation-type: tm+mt
-source-git-commit: 5d4c0ae58dfb7c54b00f801aebe898f790432903
+source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 2%
+source-wordcount: '1050'
+ht-degree: 3%
 
 ---
 
 
-# 快速洞察建立工具
+# 深入分析快速產生器
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 快速洞察]** (Quick Insights)目前只進行有限的測試，目前並非所有Adobe Analytics客戶都能使用。
+>**[!UICONTROL 快速洞察]** (Quick Insights)目前測試有限。 [更多詳情...](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
 
 [!UICONTROL Quick Insights] 為分析工作區的非分析師和新使用者提供指引，以瞭解如何快速輕鬆地回答業務問題。 對於想要快速回答簡單問題而不需要自行建立表格的進階使用者而言，它也是絕佳的工具。
 
@@ -38,8 +38,8 @@ ht-degree: 2%
 | [!UICONTROL 維度] | 維度是量度資料的說明或特性，可在專案中檢視、劃分和比較。 它們是非數值和日期，可劃分為維度項目。 例如，「瀏覽器」或「頁面」是維度。 |
 | [!UICONTROL 維度項目] | 維度項目是維度的個別值。 例如，瀏覽器維度的維度項目為「Chrome」、「Firefox」、「Edge」等。 |
 | [!UICONTROL 量度] | 量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。 |
-| [!UICONTROL 視覺效果] | 工作區 [提供許多視覺化](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ，以建立資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。 |
-| [!UICONTROL 劃分] | 劃分是將維度依其他維度劃分的一種方式。 在我們的範例中，您可以依行動裝置來劃分美國各州，以取得每個州的行動裝置瀏覽次數，或依行動裝置類型、地區、內部促銷活動等來劃分行動裝置。 |
+| [!UICONTROL 視覺效果] | Workspace offers [a number of visualizations](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) to build visual representations of your data, such as bar charts, donut charts, histograms, line charts, maps, scatterplots, and others. |
+| [!UICONTROL 維度劃分] | 維度劃分是依其他維度來劃分維度的一種方式。 在我們的範例中，您可以依行動裝置來劃分美國各州，以取得每個州的行動裝置瀏覽次數，或依行動裝置類型、地區、內部促銷活動等來劃分行動裝置。 |
 | [!UICONTROL 區段] | 區段可讓您根據特性或網站互動來識別訪客的子集。 例如，您可以根據屬 [!UICONTROL 性] ，建立訪客區段： 瀏覽器類型、裝置、瀏覽次數、國家、性別或根據互動： 促銷活動、關鍵字搜尋、搜尋引擎，或根據退出點和登入點： 來自Facebook、已定義登陸頁面、反向連結網域或自訂變數的訪客： 表單欄位、定義的類別、客戶ID。 |
 
 ## 快速洞察入門
@@ -66,7 +66,7 @@ ht-degree: 2%
    * 自由表格，其上方為垂直維度（此處為美國州）和水準度量（此處為瀏覽）。 查看下表：
    ![](assets/qibuilder3.png)
 
-   * 隨附的視覺化，在此例中為長 [條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。 產生的視覺化是根據您新增至表格的資料類型。 您可以按一下「列」旁的下拉箭頭，以變更視覺化 **[!UICONTROL 類型]**。
+   * 隨附的視覺化，在此例中為長 [條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。 產生的視覺化是根據您新增至表格的資料類型。 任何以時間為基礎的資料(例如 [!UICONTROL 每日] /月的瀏覽次數 [!UICONTROL )都預設為] 折線圖。 任何非時間型資料(例如每個裝 [!UICONTROL 置的][!UICONTROL 瀏覽次數])都預設為 [!UICONTROL 長條圖] 。 您可以按一下視覺化類型旁的下拉箭頭，以變更視覺化類型。
 
 
 1. （可選）按一下維度旁的>向右箭頭，以深入檢視維度項目。
@@ -94,10 +94,6 @@ ht-degree: 2%
 * **新增更多區段**: 您最多可以使用AND或OR運算子來新增多達2個區段。 查看新增「行動使用者」或「忠誠訪客」時表格的變更。 它們彼此相鄰，位於量度上方。 如果您新增「行動使用者」和「忠誠訪客」，您會同時看到這兩個區段的結果，而且這些結果會堆疊在表格中。
 
    ![](assets/qibuilder7.png)
-
-## 開啟／載入快速洞察專案
-
-
 
 ## 已知限制
 
