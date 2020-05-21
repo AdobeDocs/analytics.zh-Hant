@@ -1,9 +1,9 @@
 ---
-description: 顯示訪客在您網站上檢視選定頁面後所檢視的頁面。
+description: 顯示訪客在您網站上看見某個選定頁面後所檢視的頁面。
 title: 下一頁
 topic: Reports
 uuid: 4abecb9c-efc4-4844-9712-f352b2570936
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2c6dcb2151a3183cbd0d3c90522983288759250
 
 ---
