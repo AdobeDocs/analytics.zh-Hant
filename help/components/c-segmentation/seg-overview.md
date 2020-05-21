@@ -3,7 +3,7 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段與容器
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
@@ -36,7 +36,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 這類區段會篩選根據以 [!UICONTROL AND] 和 [!UICONTROL OR] 運算子連結的特性來篩選資料集。
 
-## 循序區段 {#section_EE5B14287FC44E0B96E77679A2438948}
+## 循序區段{#section_EE5B14287FC44E0B96E77679A2438948}
 
 循序區段可讓您根據網站上的瀏覽和頁面檢視來識別訪客，提供定義動作和互動的區段。循序區段可協助您識別訪客的好惡。建立循序區段時，會使用 [!UICONTROL THEN] 運算子來定義和排序訪客的瀏覽。
 
