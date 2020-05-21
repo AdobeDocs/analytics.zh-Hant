@@ -3,7 +3,7 @@ description: 顯示「產品檢視」、「購物車新增」、「訂購」、�
 title: 產品轉換漏斗
 topic: Reports
 uuid: e857aa20-32b6-45a2-a934-6a11deadb49d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
