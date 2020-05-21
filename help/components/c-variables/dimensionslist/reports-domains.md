@@ -2,7 +2,7 @@
 description: 'null'
 title: 網域
 uuid: 6c9a8c68-52ea-4e6e-89e7-be90d1754073
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ---
