@@ -2,10 +2,10 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 控制面板組織者指南
 translation-type: tm+mt
-source-git-commit: c532cd26acd65da1eff488c6f10b3d7d9cec471a
+source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
 workflow-type: tm+mt
-source-wordcount: '2328'
-ht-degree: 82%
+source-wordcount: '2331'
+ht-degree: 78%
 
 ---
 
@@ -13,16 +13,15 @@ ht-degree: 82%
 
 # Adobe Analytics儀表板的策展人指南
 
-以下資訊會指示Adobe Analytics資料的策展人如何設定並呈現管理使用者的控制面板。 若要觀看示範此資訊的影片，請參 [閱Adobe Analytics儀表板應用程式內體驗](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)。
+以下資訊會指示Adobe Analytics資料的策展人如何設定並呈現管理使用者的控制面板。 若要觀看示範此資訊的影片，請參 [閱Adobe Analytics儀表板Scorecard Builder](https://youtu.be/tnnl6hrcP94)。
 
 ## 簡介
 
-Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取您從 Adobe Analytics 桌面版 UI 所建立和共用，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
+Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取您從Adobe Analytics案頭UI建立和共用的直覺式記分卡。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
 
 ## 本指南的詳細資訊
 
-本指南旨在協助 Adobe Analytics 資料組織者為 Adobe Analytics 控制面板的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
-
+本指南旨在協助Adobe Analytics資料的策展人在控制面板上為其主管使用者設定記分卡。 組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
 
 ## 術語表
 
@@ -164,9 +163,9 @@ If you update the Scorecard by adding new components, you may want to share the 
 
 * 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
 * 使用者處於 Adobe Analytics 的有效登入狀態
-* 您已為使用者正確建立行動計分卡，並與他們共用。
+* 您已為他們正確建立了移動記分卡，並已將這些記分卡與他們共用
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
-* 使用者可存取計分卡中的元件。注意：您可以在共用計分卡時選擇選項，以&#x200B;**自動與收件者共用內嵌元件**。
+* 使用者可存取計分卡中的元件。Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
 
 ### 使用應用程式協助主管使用者
 
@@ -198,19 +197,26 @@ If you update the Scorecard by adding new components, you may want to share the 
    如果執行使用者登入並看見訊息指出未共用任何內容：
 
    * 執行使用者可能選擇了錯誤的 Analytics 例項
-   * 可能沒有任何計分卡與該執行使用者共用
-   確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
-3. 向執行用戶解釋拼貼在您共用的記分卡中的顯示方式(下面的記分卡設定為暗模式，在 **Preferences** 中設定，如後續步驟中所述):
+   * 可能沒有任何計分卡與該執行使用者共用
+
+      ![無共用項目](assets/nothing.png)
+
+
+   * 確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
+
+
+3. 向執行用戶解釋拼貼在您共用的記分卡中的顯示方式(下面第一個記分卡是以暗模式設定的； 如果您認 **為您的主管使用者偏好此檢視選項** ，請參閱下列偏好設定):
 
    ![說明圖磚](assets/newexplain.png)
 
+   ![示例記分卡](assets/intro_scorecard.png)
 
    圖磚的其他資訊：
 
    * 走勢圖的粒度取決於日期範圍的長度：
       * 若長度為一天，圖表會顯示每小時趨勢
-      * 若長度為一天以上、一年以下，圖表會顯示每日趨勢
+      * 一天以上一年以下，顯示每日趨勢
       * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
    * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
    * 下拉畫面即可重新整理計分卡。
@@ -224,14 +230,13 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    * 包括表以顯示添加到表徵圖的尺寸的資料。 點選向下箭頭以選取尺寸。 如果未將維度新增至圖格，表格會顯示圖表資料。
 
-
 5. 變更計分卡日期範圍：
 
    ![變更日期](assets/changedate.png)
 
-   您也可以以相同方式變更上述「劃分」檢視中的日期範圍。
+   * 您也可以以相同方式變更上述「劃分」檢視中的日期範圍。
 
-   根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
+   * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
 6. 在此應用程式上提供意見回饋：
 
