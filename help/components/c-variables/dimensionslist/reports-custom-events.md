@@ -3,7 +3,7 @@ description: 您希望在訪客完成的網站上轉換動作。這些動作可�
 title: 自訂事件
 topic: Reports
 uuid: 5afc574c-974f-4b6c-9fb7-03458d0ecf14
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ---
