@@ -1,8 +1,11 @@
 ---
 title: 行銷管道詳細資料 - 首次接觸與上次接觸
 description: 使用此報表來分配成功量度和收入至各種管道的詳情，無需考慮整體管道情形。
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 100%
 
 ---
 
@@ -32,4 +35,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * 所有標準電子商務量度：收入、訂購、件數、購物車、購物車檢視、結帳、購物車新增、購物車移除等。
    * 所有自訂事件：事件 1-80；使用 H22 程式碼或更高版本時則為事件 81-100。
    * 瀏覽與訪客：是否可用須視組織與報表套裝而定。請洽詢您的客戶經理，以取得詳細資訊。
-   請參閱[!UICONTROL 行銷管道]說明中的[量度](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)。
+   請參閱[!UICONTROL 行銷管道]說明中的[量度](/help/components/c-marketing-channels/c-rules.md)。
