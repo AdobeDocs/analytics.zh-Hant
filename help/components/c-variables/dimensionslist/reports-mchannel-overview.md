@@ -3,8 +3,11 @@ description: 「行銷管道概觀報告」可讓您概略分析客戶採用哪�
 title: 行銷管道概觀
 topic: Reports
 uuid: e4542014-2098-4f4a-ac0d-97587182d6cc
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 一般屬性 {#section_87F54048CE5445F7A6C795C7787C530A}
 
-* 這個報告只依賴「行銷管道」[處理規則](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/c-channels-rules.html)。若變更這些規則，此報告的資料計算方式也會隨之變更。
+* 這個報告只依賴「行銷管道」[處理規則](/help/components/c-marketing-channels/c-rules.md)。若變更這些規則，此報告的資料計算方式也會隨之變更。
 * 處理規則的順序對於「行銷管道」的運作方式有很大的影響。每個點擊都會先檢查位於處理規則最上方的條件，然後再依序往下篩選。
 * 此報告由兩個劃分組成：管道本身和管道詳細資料。按一下每個管道旁的 &#39;+&#39; 按鈕，即可顯示其詳細資料。
 * 每一欄只能新增四個量度。但您可使用的欄數並無限制。
 * 最後一欄末端會顯示小型趨勢線。此趨勢線可在不同的作用中量度間循環切換。
 * 除了標準方法所收集的各種管道外，您也可以使用離線資料來源。
-* 您可以使用[分類](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html)，以便重新命名和合併明細項目。
+* 您可以使用[分類](/help/components/c-classifications2/c-classifications.md)，以便重新命名和合併明細項目。
 * 以下是可在此報告中使用的量度 (視組織與報表套裝設定而定)：
 
    * **點進次數**：*`s.campaign`*&#x200B;變數已定義的次數。
@@ -31,7 +34,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * **瀏覽**&#x200B;與&#x200B;**訪客**：必須是商務瀏覽與訪客，依組織和報表套裝而定。請洽詢您的客戶經理，以取得詳細資訊。
    * **預算**&#x200B;與&#x200B;**成本**：「行銷管道」的專用量度。請參閱[成本與預算](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/analyze-mc.html)。
 
-## 產品特定屬性{#section_0C78D294D00942FD9A26D37CB5D645AE}
+## 產品特定屬性 {#section_0C78D294D00942FD9A26D37CB5D645AE}
 
 **第 14 版與第 15 版**
 
