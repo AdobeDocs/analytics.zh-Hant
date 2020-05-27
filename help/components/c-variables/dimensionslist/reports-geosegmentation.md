@@ -3,8 +3,11 @@ description: 顯示訪客位置的相關資料。地域劃分報告包括國家�
 title: 地域劃分
 topic: Reports
 uuid: 66aa22c4-dcbc-491a-b23c-0c3d87444d23
-translation-type: ht
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '634'
+ht-degree: 99%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
 
 顯示訪客位置的相關資料。地域劃分報告包括國家、地區、城市、美國州和美國 DMA (數位行銷區域)。已為所有客戶啟用地域劃分報表。
 
-「Reports &amp; Analytics」中其他地方可用的所有量度會自動納入國家、地區、城市、美國州和 DMA 報告：轉換和造訪型量度，外加計算量度。有關詳細資訊，請參閱本 Adobe [部落格](https://blogs.adobe.com/digitalmarketing/analytics/introducing-new-metrics-in-geosegmentation-and-more/)文章。
+「Reports &amp; Analytics」中其他地方可用的所有量度會自動納入國家、地區、城市、美國州和 DMA 報告：轉換和造訪型量度，外加計算量度。有關詳細資訊，請參閱本 Adobe [部落格](https://theblog.adobe.com/introducing-new-metrics-in-geosegmentation-and-more/)文章。
 
 <table id="table_566CFFC82E1149D8BAFE6641627FCF1F"> 
  <thead> 
