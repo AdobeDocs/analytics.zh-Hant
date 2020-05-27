@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分類規則產生器工作流程
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: ad991b8fcc309d1f3aae01d472683927a447ab4d
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 99%
 
 ---
 
@@ -47,6 +50,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 **其他資源**
 
-**部落格**：如需此功能的其他相關資訊，請參閱 Digital Marketing Blog 上的[規則型分類](https://blogs.adobe.com/digitalmarketing/analytics/rule-based-classifications-part-1-making-classifications-easier/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+AdobeDigitalMarketing+%28Adobe+Digital+Marketing+Blog%29)。
+**部落格**：如需此功能的其他相關資訊，請參閱 Digital Marketing Blog 上的[規則型分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
 **影片**：請前往[ YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) 觀看[!UICONTROL 分類概觀]影片。
