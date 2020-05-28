@@ -1,9 +1,12 @@
 ---
-description: '了解 '
+description: '瞭解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+workflow-type: tm+mt
+source-wordcount: '914'
+ht-degree: 82%
 
 ---
 
@@ -11,10 +14,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 # 量度類型和歸因
 
 選取量度旁的齒輪圖示，即可指定量度類型和歸因模型。
-
-* [量度類型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_34A86FB402F94E988724232283BF18B7)
-* [欄歸因模型](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_F9690FD1943B403AB28E2FAC54EFE032)
-* [「線性配置」自 2018 年 7 月 19 日起的新運作方式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)
 
 ## 量度類型
 
@@ -29,9 +28,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
+>[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
->* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
+>* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
 >* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。Analysis Workspace、Reports &amp; Analytics、Reporting API、Report Builder 和 Ad Hoc Analysis 會反映此次計算量度變更。For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
 >
