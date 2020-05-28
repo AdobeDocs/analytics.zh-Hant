@@ -1,22 +1,24 @@
 ---
 description: 'null'
 title: 面板概述
-uuid: 480700e6-332e-44f2-a486-e3d1852cddbc
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 87%
 
 ---
 
 
 # 面板概述
 
-面板是表格與視覺效果的集合。您可以透過 Workspace 左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。Analysis Workspace 有四種類型的面板可供使用：「空白面板」、「歸因」、「自由面板」以及「區段比較」。
+面板是表格與視覺效果的集合。您可以透過 Workspace 左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。分析工作區提供下列六種面板： [空白麵板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)、 [Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md) （即將推出）、 [Analytics面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) （即將推出）、 [Attribution面板、Freeform Fream Camporation](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)[](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)[](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)、Comparising Segment面板Comparising Alement面板。
 
-「空白面板」與「自由面板」適用於開始分析的階段，而「歸因 IQ」與「區段比較」則適用於更進階的分析。我們也新增了「+」面板按鈕，可讓您隨時新增「空白面板」。
+「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳場所，而「Analytics for Target」、「歸因IQ」和「區段比較」則適用於更進階的分析。 我們也新增了「+」面板按鈕，可讓您隨時新增「空白面板」。
 
 預設的開始面板為「自由面板」，但您也可以將[「空白面板」](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
-## 面板中的下拉式篩選器{#section_D2828EEDD52944528E87F470EAB581CF}
+## 面板中的下拉式篩選器 {#section_D2828EEDD52944528E87F470EAB581CF}
 
 面板拖放區域具有下拉式篩選器功能。這些篩選器可讓您以有限方式與專案資料互動，以便進行深入分析、簡化專案，以及/或與其他人分享深入分析。
 
@@ -43,7 +45,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
    ![](assets/dropdown.png)
 
-1. 從下拉式清單選取其中一個選項，來變更下方面板的資料。(您也可以選取「**[!UICONTROL No filter]**」，選擇不篩選任何面板資料。)
+1. 從下拉式清單選取其中一個選項，來變更下方面板的資料。(您也可以選取&#x200B;**[!UICONTROL 「沒有篩選器」]**，選擇不篩選任何面板資料。)
 1. 例如，若想依行銷管道切割資料，您可以新增另一個名為「行銷管道」的下拉式清單。
 
    ![](assets/mc_dropdown.png)
