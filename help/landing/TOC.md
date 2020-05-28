@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Adobe Analytics 文件
 user-guide-url: /content/help/en/analytics/landing/home.html
 translation-type: tm+mt
-source-git-commit: dcca8559c9e730c9e04981d69068786878062561
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 90%
+source-wordcount: '146'
+ht-degree: 87%
 
 ---
 
@@ -30,3 +30,4 @@ ht-degree: 90%
 * [Analytics 文件更新](doc-updates.md)
 * [發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
 * [Adobe Analytics功能發行](an-releases.md)
+* [分析工作區中的協助功能](accessibility.md)
