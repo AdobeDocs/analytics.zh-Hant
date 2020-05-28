@@ -4,7 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+workflow-type: tm+mt
+source-wordcount: '1092'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [建立 Workspace 專案](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [工作區中有多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [在 Workspace 中使用多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -76,15 +79,16 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板概觀](analysis-workspace/c-panels/panels.md)
-      + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [快速洞察建立工具](analysis-workspace/c-panels/quickinsight.md)
-      + 出處 {#attribution}
+      + [Analytics for Target(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
+      + 歸因面板 {#attribution}
          + [歸因概觀](analysis-workspace/c-panels/attribution/attribution.md)
          + [使用歸因面板](analysis-workspace/c-panels/attribution/use-attribution.md)
          + [歸因常見問題集](analysis-workspace/c-panels/attribution/attribution-faq.md)
          + [演算法歸因](analysis-workspace/c-panels/attribution/algorithmic.md)
+      + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + 區段比較 {#segment-comparison}
+      + [快速洞察面板](analysis-workspace/c-panels/quickinsight.md)
+      + Segment comparison panel {#segment-comparison}
          + [區段比較概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -98,7 +102,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [歸因 IQ](analysis-workspace/attribution-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + 虛擬分析人員 {#virtual-analyst}
-      + [虛擬分析師概觀](analysis-workspace/virtual-analyst/overview.md)
+      + [虛擬分析人員概觀](analysis-workspace/virtual-analyst/overview.md)
       + 異常偵測 {#anomaly-detection}
          + [異常偵測概觀](analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)
          + [在 Analysis Workspace 中檢視異常](analysis-workspace/virtual-analyst/c-anomaly-detection/view-anomalies.md)
@@ -113,7 +117,7 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + 工作區常見問答集 {#workspace-faq}
+   + Workspace 常見問題集 {#workspace-faq}
       + [常見問題集](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
@@ -327,10 +331,10 @@ source-git-commit: 0567265c062a1a3501ba2d5bffc43c18acfbd4d0
    + [時間](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 概觀](tech-previews/overview.md)
-+ Adobe Analytics儀表板 {#mobapp}
++ Adobe Analytics 儀表板 {#mobapp}
    + [Adobe Analytics儀表板——概觀](mobile-app/home.md)
-   + [策展人指南](mobile-app/curator.md)
-   + [執行使用者快速入門手冊](mobile-app/executive.md)
+   + [組織者指南](mobile-app/curator.md)
+   + [執行使用者快速入門指南](mobile-app/executive.md)
 + 漸進式網頁應用程式 {#pwa}
    + [漸進式網頁應用程式](pwa/pwa.md)
 + Analytics 報表 API {#analytics-reporting-api}
