@@ -1,16 +1,16 @@
 ---
-description: 「快速洞察」建立工具是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
-title: 深入分析快速產生器
+description: 「快速洞察」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
+title: 快速洞察面板
 translation-type: tm+mt
-source-git-commit: 446026850794e6fba3ccf04562221f2ca907a390
+source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 3%
+source-wordcount: '1046'
+ht-degree: 2%
 
 ---
 
 
-# 深入分析快速產生器
+# 快速洞察面板
 
 >[!IMPORTANT]
 >
@@ -97,7 +97,7 @@ ht-degree: 3%
 
 ## 已知限制
 
-如果您嘗試直接在表格中編輯，會導致 [!UICONTROL Quick Insights] （填空的工具）面板不同步。 您可以按一下面板右上 [!UICONTROL 方的「重新同步產生器]**** 」，將其還原為先前的「快速分析」設定。
+如果您嘗試直接在表格中編輯，會導致「快速 [!UICONTROL 洞察] 」面板不同步。 您可以按一下面板右上 [!UICONTROL 方的「重新同步產生器]**** 」，將其還原為先前的「快速分析」設定。
 
 ![](assets/qibuilder9.png)
 
