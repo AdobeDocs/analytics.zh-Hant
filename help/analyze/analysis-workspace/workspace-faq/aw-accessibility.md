@@ -2,9 +2,9 @@
 description: 分析工作區中的協助工具支援功能
 title: 分析工作區中的協助功能
 translation-type: tm+mt
-source-git-commit: a1ba6e12eee2b7aae8b6fd977133518db128fa28
+source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '521'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 無障礙環境支援是指讓產品適用於視覺、聽覺、運動和其他殘障人士。 軟體產品的協助工具功能範例包括螢幕閱讀器支援、圖形等效文字、鍵盤快速鍵、將顯示顏色變更為高對比等。
 
-[!UICONTROL 分析工作區] (Analysis Workspace)提供一些可供使用的工具，以及協助您建立具備協助工具的內容。
+[!UICONTROL 分析工作區] (Analysis Workspace)提供一些可供使用的工具，包括：
 
 ## 使用 [!UICONTROL 鍵盤導覽] 「工作區」
 
@@ -34,7 +34,7 @@ ht-degree: 4%
 
 1. Tab to a component in the left rail.
 1. 按 `Enter` 選擇。
-1. 使用箭頭鍵導航到要放置元件的區域。
+1. 使用方向鍵導覽至您要拖放元件的區域。
 1. 按 `Enter` 以放置元件。
 
 ### 鍵盤快速鍵（熱鍵）
@@ -60,7 +60,7 @@ ht-degree: 4%
 | Ctrl + Shift + D | 新日期範圍 |
 | Ctrl + Shift + E | 新區段 |
 | Ctrl + Z | 還原 |
-| 按住shift鍵（在面板區段拖放區域中） | 建立下拉式 [篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。 |
+| 按住shift鍵（在面板區段拖放區域中） | 建立下拉式 [篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
 
 #### 民主化
 
