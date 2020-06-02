@@ -1,15 +1,16 @@
 ---
 title: 設定跨裝置分析
 description: 瞭解符合必要條件後如何設定跨裝置分析。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
 
 
 # 設定跨裝置分析
-
->[!NOTE] 跨裝置分析文件內容可能會隨著功能的進一步開發而有所變更。請定期回訪以取得更新內容。
 
 滿足所有必要條件後，請依照下列步驟啟用跨裝置分析。您必須屬於「產品設定檔管理員」群組，或在 Adobe Analytics 中擁有管理員權限，才能依照這些步驟操作。
 
