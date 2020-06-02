@@ -1,15 +1,16 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+workflow-type: tm+mt
+source-wordcount: '1185'
+ht-degree: 100%
 
 ---
 
 
 # 常見問題集
-
->[!NOTE] 跨裝置分析文件內容可能會隨著功能的進一步開發而有所變更。請定期回訪以取得更新內容。
 
 **如何使用 CDA 來瞭解人們如何從一種類型的裝置移至另一種類型的裝置上操作？**
 
