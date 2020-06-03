@@ -2,9 +2,9 @@
 description: 分析工作區中的協助工具支援功能
 title: 分析工作區中的協助功能
 translation-type: tm+mt
-source-git-commit: 67f05736882287231790c03df76e312e59b5afd3
+source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '553'
 ht-degree: 4%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 4%
 * 鍵在 `Tab` 個別元素之間移動。
 * 我們套用焦點指示器，讓有視力的鍵盤使用者清楚地指出目前哪些UI元素有焦點。 指示器是選定元素周圍的藍色邊框。
 
-   ![](assets/focus-indicator.png)
+   ![焦點指標](assets/focus-indicator.png)
 
 ### 拖放互動的鍵盤導覽
 
@@ -75,11 +75,11 @@ ht-degree: 4%
 
 ## 支援螢幕閱讀程式和螢幕放大鏡
 
-螢幕閱讀程式會背誦出現在電腦螢幕上的文字。 它也會讀取非文字資訊，例如協助工具標籤或屬性中提供的應用程式按鈕標籤或影像說明。
+螢幕閱讀器讀取出現在電腦螢幕上的文本。 它也會讀取非文字資訊，例如協助工具標籤或屬性中提供的應用程式按鈕標籤或影像說明。
 
 ## 色盤和對比
 
-[!UICONTROL 分析工作區] ，致力於符合WCAG AA的色彩對比。
+[!UICONTROL 分析工作區] (Analysis Workspace)致力於符合WCAG 2.1 AA的要求，包括色彩對比度要求。
 
 此外，使用者可在「專案>專案設定>專案」顏色浮動視窗下，設 **[!UICONTROL 定專案自己偏好]** 的顏色浮動視窗 ****[](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)。
 
@@ -89,8 +89,8 @@ ht-degree: 4%
 
 在元件完全驗證後，按 `Save` 關閉產生器。
 
-![](assets/error-validation.png)
+![錯誤驗證](assets/error-validation.png)
 
 ## 支援作業系統協助功能
 
-分析工作區支援內建的MS Windows和macOS協助功能，例如高對比模式和螢幕閱讀程式（MS Windows的Ander,macOS的VoiceOver）。
+分析工作區支援內建的MS Windows和macOS協助功能，例如高對比模式、自黏金鑰和慢動作鍵／篩選器金鑰。 此外，它還提供作業系統使用者介面的相關資訊，以便與輔助技術互動，包括螢幕閱讀程式，例如Windows上的VoiceOver for macOS和NVDA。
