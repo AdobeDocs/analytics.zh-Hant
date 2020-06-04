@@ -2,9 +2,9 @@
 description: 分析工作區中的協助工具支援功能
 title: 分析工作區中的協助功能
 translation-type: tm+mt
-source-git-commit: 4dd0710454a29faadb197d97e58394c753cec0ec
+source-git-commit: a8fa30ecd8f3f230dac98a6f69ff6334d996fb9c
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '554'
 ht-degree: 4%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 4%
 
 瞭解Adobe Analytics的主要分析工具 [!UICONTROL Analysis Workspace]（分析工作區）中的協助工具支援。
 
-無障礙環境支援是指讓產品適用於視覺、聽覺、運動和其他殘障人士。 軟體產品的協助工具功能範例包括螢幕閱讀器支援、圖形等效文字、鍵盤快速鍵、將顯示顏色變更為高對比等。
+無障礙環境支援是指讓產品適用於視覺、聽覺、認知、運動和其他殘障人士。 軟體產品的協助工具功能範例包括螢幕閱讀器支援、圖形等效文字、鍵盤快速鍵、將顯示顏色變更為高對比等。
 
 [!UICONTROL 分析工作區] (Analysis Workspace)提供一些可供使用的工具，包括：
 
