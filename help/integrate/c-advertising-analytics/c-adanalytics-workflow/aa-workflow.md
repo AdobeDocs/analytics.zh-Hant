@@ -1,22 +1,24 @@
 ---
-description: 'null'
+description: 廣告分析工作流程概觀。
 title: 工作流程概觀
-uuid: be550622-eadb-4062-a0cb-2d66b2ddca92
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: b92beee43756a3c5ec3902eee4ffaab0bcd43ce9
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 75%
 
 ---
 
 
 # 工作流程概觀
 
-![](assets/step1_icon.png)將您要檢視 Google/Bing 搜尋資料的任何 Analytics 報表套裝對應到您的 Experience Cloud 組織。
+![](assets/step1_icon.png) 將您要檢視Google/Bing搜尋資料的任何Adobe Analytics報表套裝對應至您的Experience Cloud組織。
 
 請參閱[將報表套裝對應至組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
 
 ![](assets/step2_icon.png) [按照個別報表套裝來啟用 Advertising Analytics報表](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md)
 
-為啟用 Experience Cloud 的報表套裝啟用 Advertising Analytics 報表。
+Enables [!UICONTROL Advertising Analytics] reporting for Experience-Cloud-enabled report suites.
 
 ![](assets/step3_icon.png) [設定 Advertising Analytics 帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
 
@@ -28,7 +30,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 下列工具均提供報告功能
 
-* Analysis Workspace「付費搜尋績效」範本
+* Analysis Workspace: [!UICONTROL Paid Search Performance] template
 * Reports &amp; Analytics
 * Report Builder
 * Analytics 報表 API
