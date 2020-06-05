@@ -2,7 +2,10 @@
 title: 設定 Advertising 帳戶
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 80%
 
 ---
 
@@ -15,14 +18,14 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 
 ![](assets/aa_accounts.png)
 
-1. 在Adobe Analytics中，導覽至 **[!UICONTROL Admin]** > **[!UICONTROL Advertising Accounts]**。
+1. 在 Adobe Analytics 中，導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL Advertising 帳戶」]**。
 1. (僅限首次使用) 接受「一般使用者授權合約」的條款。
-1. 按一下 **[!UICONTROL + Add]**.
-1. 對話 [!UICONTROL New Search Engine Account] 框隨即顯示：
+1. 按一下&#x200B;**[!UICONTROL 「+ 新增」]**。
+1. [!UICONTROL 「新增搜尋引擎帳戶」]對話方塊隨即出現：
 
    ![](assets/aa_new_se_account.png)
 
-1. 請填寫下列 **[!UICONTROL Search Engine Settings]** 准則：
+1. 依照以下準則填入&#x200B;**[!UICONTROL 「搜尋引擎設定」]**：
 
    <table id="table_B3BE66B7D4C54766B8FFD2C6DCD657AF"> 
     <thead> 
@@ -54,38 +57,19 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     </tbody> 
     </table>
 
-1. In the **[!UICONTROL Tracking]** section, you provide information on how the Search Engine data is tracked by your Adobe Analytics implementation. 這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。請填寫下列 **[!UICONTROL Tracking Settings]** 准則：
+1. 在&#x200B;**[!UICONTROL 「追蹤」]**&#x200B;區段，您可以提供 Adobe Analytics 實作如何追蹤搜尋引擎資料的相關資訊。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。依照以下準則填入&#x200B;**[!UICONTROL 「追蹤設定」]**：
 
-   <table id="table_1AB4E31456E84ABF8209B02058259C4D"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 設定 </th> 
-      <th colname="col2" class="entry"> 說明 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>類型 </p> </td> 
-      <td colname="col2"> 
-        <ul id="ul_1C5A0502A4984E57A08417A91CCD6FFE"> 
-        <li id="li_5736E38286FF494ABDDC6E85281D7F2A"> <span class="uicontrol">自動</span>：讓 Advertising Cloud 引擎決定如何將追蹤參數附加到搜尋引擎的追蹤範本/目的地 URL。這是最簡單的方法，但可能不會產生最佳的整合資料集。 <p>重要：若要在「自動模式」中設定搜尋引擎帳戶，您必須執行以下動作： 
-          <ul id="ul_4FF9D1E3CC4E452BA339E0A725D29FEE"> 
-            <li id="li_6F3A6D6259C0420CB7E6FD2C26A1B6E0">「S_kwcid」參數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。 </li> 
-            <li id="li_A04D4AA31A934392808639E46C86573F">此外，關鍵字可以作為「S_kwcid」值的一部份，插入至登陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。 </li> 
-          </ul> </p> </li> 
-        <li id="li_EAA7A7CA1E584854A7EC1E43E13B63FE"><span class="uicontrol">手動</span>：讓您管理如何將追蹤參數新增到搜尋引擎的追蹤範本/目的地 URL。<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md"  >如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例</a>。 </li> 
-        </ul> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   | 設定 | 說明 |
+   |--- |--- |
+   | 類型 | <ul><li>**自動：** 可讓Advertising Cloud引擎決定追蹤參數如何附加至搜尋引擎的追蹤範本／目標URL。 這是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**為了在「自動模式」中設定搜尋引擎帳戶，您需負責執行下列動作：<br>-將「s_kwcid」參數和值新增至要新增帳戶的帳戶追蹤範本或著陸頁面URL。 參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**&#x200B;注意：**進一步瞭解您是否應將此參數新增至您的「內容安[全性政策」](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。<br>-此外，關鍵字可插入著陸URL作為&quot;s_kwcid&quot;值的一部分，因此，如果關鍵字包含特殊字元或符號，請確認您的網頁伺服器可支援這些字元（常見特殊字元的範例是&quot;+&quot;，用於&quot;Broad Match Modified&quot;關鍵字）。</li><li>**手動：** 可讓您管理追蹤參數新增至搜尋引擎的追蹤範本／目標URL的方式。 [如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
-1. In the **[!UICONTROL Mapping]** section, you choose which report suite(s) to link to this search engine account. 在儲存 Advertising 帳戶之前，您必須先提供至少一個報表套裝。您可以將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。請注意，系統只會將 AMO 從搜尋引擎提取的資料複製到任何對應的報表套裝，因此資料不會遭到分割。
+1. 在&#x200B;**[!UICONTROL 「對應」]**&#x200B;區段，您可以選擇要與這個搜尋引擎帳戶相連結的報表套裝。在儲存 Advertising 帳戶之前，您必須先提供至少一個報表套裝。您可以將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。請注意，系統只會將 AMO 從搜尋引擎提取的資料複製到任何對應的報表套裝，因此資料不會遭到分割。
 
    >[!IMPORTANT]
    >
    >僅限[對應至 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)的報表套裝可供選取。如果畫面並未列出您的報表套裝，請參閱[疑難排解 Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
-   以下準 **[!UICONTROL Mapping Settings]** 則：
+   依照以下準則進行&#x200B;**[!UICONTROL 「對應設定」]**：
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
     <thead> 
@@ -102,8 +86,8 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     </tbody> 
     </table>
 
-1. 按一下 **[!UICONTROL Save]**.
-1. 儲存後，免責聲明會顯示一系列警語。系統會要求確認您已閱讀合約並了解其中的條款。Click the checkbox, then click **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 儲存後，免責聲明會顯示一系列警語。系統會要求確認您已閱讀合約並了解其中的條款。按一下核取方塊，再按一下&#x200B;**[!UICONTROL 「確定」]**。
 
    此時，系統會將您導向 Advertising 帳戶[管理使用者介面](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，而新建立的帳戶應該會列示在其中。
 
