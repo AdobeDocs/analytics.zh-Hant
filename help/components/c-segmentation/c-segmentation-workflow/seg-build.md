@@ -3,8 +3,11 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: f50f33b456656200b4492e6fec2a441d4c29dfa3
+workflow-type: tm+mt
+source-wordcount: '2436'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +32,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 [!UICONTROL 區段產生器]可讓您建立簡單或複雜區段，用以識別各瀏覽及頁面點擊中的訪客屬性和動作。它提供畫布來拖放量度維度、事件或其他區段，以根據容器階層邏輯、規則和運算子來劃分訪客。
 
-## Web UI 功能{#section_F61C4268A5974C788629399ADE1E6E7C}
+## Web UI 功能 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
 [!UICONTROL 「區段產生器」]可讓您在 Web UI (或在 [Ad Hoc Analysis 的 Java UI](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)) 中建立和編輯區段。您可以新增規則定義和容器來微調您的區段、堆疊區段和巢狀內嵌區段。您也可以驗證有多少個頁面檢視、造訪和獨特訪客是從您目前的區段定義得出。然後儲存區段，以供未來使用。
 
@@ -58,10 +61,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    * **[!UICONTROL 重複]** ((預設值))：包含維度的例項和持續值。
    * **[!UICONTROL 例項]**：包含維度的例項。
    * **[!UICONTROL 非重複例項]**：包含維度的唯一例項 (非重複)。
+
    ![](assets/attribution-models.jpg)
 
-1. **[!UICONTROL 維度]**：從「維度」清單拖放過來的維度 (橘色側欄)。
 1. **[!UICONTROL 比較]**：您可以使用選取的運算子來比較和限制值。
+1. **[!UICONTROL 維度]**：從「維度」清單拖放過來的維度 (橘色側欄)。
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL And/Or/Then]**：在容器或規則之間指派 [!UICONTROL AND/OR/THEN] 運算子。THEN 運算子可用來[定義循序區段](/help/components/c-segmentation/c-segmentation-workflow/seg-sequential-build.md)。
 1. **[!UICONTROL 量度]**：(綠色側欄) 從「量度」清單拖放過來的量度。
