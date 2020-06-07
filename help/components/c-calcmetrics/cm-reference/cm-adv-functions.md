@@ -2,8 +2,11 @@
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+workflow-type: tm+mt
+source-wordcount: '2911'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-## 「包括零」參數的意義是什麼？{#section_C7A2B05929584C65B308FD372CB8E8E3}
+## 「包括零」參數的意義是什麼？ {#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 此參數指出是否在計算中包括零。有時候零沒有意義，有時候卻很重要。
 
@@ -41,7 +44,7 @@ AND(logical_test1,[logical_test2],...)
 
 ## 近似相異計數 (維度) {#concept_000776E4FA66461EBA79910B7558D5D7}
 
-傳回選定維度之維度項目的近似相異計數。此功能使用近似相異計數的 HyperLogLog (HLL) 方法。  其設定可保證值幾乎隨時皆為實際值的 5% 以內。
+傳回選定維度之維度項目的近似相異計數。此功能使用近似相異計數的 HyperLogLog (HLL) 方法。  其設定可保證值在 95% 的時間內皆為實際值的 5% 以內。
 
 ```
 Approximate Count Distinct (dimension)
@@ -51,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *維度* | 您希望近似相異項目計數的維度。 |
 
-## 範例使用案例{#section_424E3FC5092948F0A9D655F6CCBA0312}
+## 範例使用案例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 近似相異計數 (客戶 ID eVar) 是此函數的常見使用案例。
 
@@ -63,11 +66,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-## 超出不重複值{#section_9C583858A9F94FF7BA054D1043194BAA}
+## 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
-## 比較計數函數{#section_440FB8FB44374459B2C6AE2DA504FC0B}
+## 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() 是改良 Count() 和 RowCount() 函數後的成果。其可將建立的量度用於任何維度報表，藉此演算不同維度項目的近似計數。例如，用於「行動裝置類型」報表中的客戶 ID 計數。
 
@@ -119,8 +122,8 @@ ESTIMATE.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## Cdf-T {#concept_4E2F2673532A48B5AF786521DE428A66}
 
@@ -237,8 +240,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 指數迴歸：斜率 (表格) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -250,8 +253,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 下限 (列) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -307,7 +310,7 @@ TANH(metric)
 
 | 引數 | 說明 |
 |---|---|
-| *量度* | 您想找出雙曲正切的角度 (以弧度為單位)。 |
+| *量度* | 您想要找到其雙曲正切的角度，單位為弧度。 |
 
 ## IF (列) {#concept_6BF0F3EAF3EF42C288AEC9A79806C48E}
 
@@ -382,8 +385,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 對數迴歸：預計 Y (列) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -397,8 +400,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 對數迴歸：斜率 (表格) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -410,8 +413,8 @@ SLOPE.LOG(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_A* | 您要指定做為相依資料的量度。 |
-| *metric_B* | 您要指定做為獨立資料的量度。 |
+| *metric_A* | 您要指定做為獨立資料的量度。 |
+| *metric_B* | 您要指定做為相依資料的量度。 |
 
 ## 自然對數 {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -491,8 +494,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 乘冪迴歸：預計 Y (列) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -504,8 +507,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 乘冪迴歸：斜率 (表格) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -517,8 +520,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 二次迴歸：相關係數 (表格) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -543,8 +546,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 二次迴歸：預計 Y (列) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -556,7 +559,7 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_A* | 您要指定做為相依資料的量度。 |
+| *metric_A* | 您要指定做為獨立資料的量度。 |
 | *metric_B* | 您要指定做為相依資料的量度。 |
 
 ## 二次迴歸：斜率 (表格) {#concept_0023321DA8E84E6D9BCB06883CA41645}
@@ -569,8 +572,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 倒數迴歸：相關係數 (表格) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -595,8 +598,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 倒數迴歸：預計 Y (列) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -608,8 +611,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 倒數迴歸：斜率 (表格) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -621,8 +624,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為相依資料的量度。 |
-| *metric_Y* | 您要指定做為獨立資料的量度。 |
+| *metric_X* | 您要指定做為獨立資料的量度。 |
+| *metric_Y* | 您要指定做為相依資料的量度。 |
 
 ## 正弦 (列) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 
