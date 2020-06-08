@@ -2,7 +2,7 @@
 title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 translation-type: tm+mt
-source-git-commit: acdaebf3c96d7cf1f0e5fed4a459968a83c89fbd
+source-git-commit: 8e8eb2c7787f97104c983cc4b0f11e5ed57de069
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 74%
@@ -150,6 +150,8 @@ ht-degree: 74%
 
 最佳實務是納入「其他促銷活動」渠道，遵循所有付費渠道規則。 此渠道對於未分類的付費流量而言是「萬全之策」。
 
+![](assets/other-campaigns.png)
+
 ### 社交網路 {#social-networks}
 
 該規則可識別源自社交網路的訪客，例如 Facebook*。頻道通常會重新命名為Organic Social。 設定值如下：
@@ -172,5 +174,6 @@ ht-degree: 74%
 
 ### 反向連結網域渠道 {#referring-domains}
 
-「反向連結網域」渠道可識別具有反向連結網域的訪客。 內部、直接和反向連結網域渠道搭配使用，可針對所有尚未分類至渠道的其餘點擊，提供一應俱全的功能。
+「反向連結網域」渠道可識別具有反向連結網域的訪客。 內部網域、直接網域和反向連結網域渠道搭配使用，可針對所有尚未分類至渠道的其餘點擊提供全面資訊。
 
+![](assets/referring-domains.png)
