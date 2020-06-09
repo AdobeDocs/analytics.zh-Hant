@@ -4,9 +4,11 @@ keywords: Analytics Implementation
 subtopic: Visitors
 title: 識別不重複訪客
 topic: Developer and implementation
-uuid: ed4dee75-ecfb-4715-8122-461983c7dd8f
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +21,7 @@ Adobe 可使用 Cookie 來追蹤獨特的瀏覽器/裝置。
 
 Adobe Analytics 提供數個識別訪客的機制。下表列出 Analytics 中用於辨識訪客的不同方法 (依優先順序)：
 
-| 使用順序 | 查詢參數 (收集方法) | 存在時機 |
+| 使用順序 | 查詢參數 (收集方法) | 使用時機 |
 |---|---|---|
 | 1 | vid (s.visitorID) | 設定 s.visitorID 時 |
 | 2 | aid (s_vi Cookie) | 在您部署訪客 ID 服務之前訪客已有 s_vi Cookie，或是您有設定訪客 ID 的寬限期。 |
@@ -54,13 +56,13 @@ Adobe Analytics 提供數個識別訪客的機制。下表列出 Analytics 中�
 
 當請求傳送至 Adobe 資料收集伺服器時，會檢查標題中是否有訪客 ID Cookie `s_vi`)。如果請求中有此 Cookie，系統會以此識別訪客。如果請求中沒有 Cookie，則伺服器會產生獨特的訪客 ID、在 HTTP 回應標題中將其設定為 Cookie，並隨請求將其傳回。Cookie 儲存在瀏覽器中，並在後續瀏覽網站時傳回至資料收集伺服器，以便在各次瀏覽間識別訪客。
 
-### 協力廠商 Cookie 和 CNAME 記錄{#section_61BA46E131004BB2B75929C1E1C93139}
+### 協力廠商 Cookie 和 CNAME 記錄 {#section_61BA46E131004BB2B75929C1E1C93139}
 
 有些瀏覽器 (例如 Apple Safari) 不再從下列情況的網域儲存 HTTP 標題中設定的 Cookie：不符合目前網站的網域 (這是協力廠商上下文中使用的 Cookie，或是協力廠商 Cookie)。例如，如果您位於 `mysite.com` 而您的資料收集伺服器是 `mysite.omtrdc.net`，則瀏覽器可能會拒絕從 `mysite.omtrdc.net` HTTP 標題中傳回的 Cookie。
 
 為了避免此問題，許多客戶在進行[第一方 Cookie 實作](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)時，會為其資料收集伺服器實作 CNAME 記錄。如果已設定 CNAME 記錄將客戶網域的主機名稱對應至資料收集伺服器 (例如，將 `metrics.mysite.com` 對應至 `mysite.omtrdc.net`)，則資料收集網域現在符合網站的網域，因此可以儲存訪客 ID Cookie。如此可提高訪客 ID Cookie 被儲存的可能性，但也會造成額外負荷，因為您必須設定 CNAME 記錄以及維護資料收集伺服器的 SSL 憑證。
 
-### 行動裝置上的 Cookie{#section_7D05AE259E024F73A95C48BD1E419851}
+### 行動裝置上的 Cookie {#section_7D05AE259E024F73A95C48BD1E419851}
 
 使用 Cookie 追蹤行動裝置時，您可使用一些設定來修改測量的發生方式。Cookie 預設期限為 5 年，但您可使用 CL 查詢參數變數 (`s.cookieLifetime`) 來變更此預設值。若要設定 cname 實作的 Cookie 位置，請使用 CDP 查詢字串 `s.cookieDomainPeriods`。若未指定值，預設為 2。而預設位置為 domain.com。對於未使用 CNAME 的實作，訪客 ID Cookie 位置位於 207.net 網域。
 
@@ -113,11 +115,11 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP 訂閱者 OD �
 
 您也可以在手動影像請求中傳遞 &#39;1&#39;或 &#39;5&#39;，但請注意，這些程式碼是互斥的，因此一律傳遞 &#39;5&#39; 並不會在支援 Cookie 時使用它。您可以合併本身的機制，判斷裝置是否支援 Cookie，若支援，則在影像中傳入 &#39;1&#39;，而不要傳入 &#39;5&#39;。在此情況下，正確性的提升會因為支援 Cookie 的行動裝置數而受到限制。
 
-### 訂閱者 ID 標題{#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
+### 訂閱者 ID 標題 {#section_60D6EAC0D16945A89DD5A7ADF3B8298D}
 
 訂閱者 ID 方法用於使用者識別，通常比 Cookie 更可靠，因為 Cookie 有刪除、接受和閘道 Cookie 管理的問題。
 
-將您自己新增至行動訪客所使用之電信業者的白名單，可以改進識別訪客的變更。若想存取電信業者的訪客 ID，請聯絡電信業者以將您的網域新增至其白名單。如果您位於電信業者的白名單上，則也可以存取一般無權存取的訂閱者 ID 標題。
+您可以借由新增至您行動訪客所使用之電信業者的「允許」清單，改善識別訪客的變更。 若要存取電信業者的訪客ID，請連絡電信業者，將您的網域新增至其「允許」清單。 如果您位在電信業者的允許清單上，您也可以存取訂閱者ID標題，否則您將無法存取。
 
 下列標題清單可用來識別無線裝置。處理標題的運算法為
 
@@ -151,7 +153,7 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP 訂閱者 OD �
 
 如果其他訪客 ID 方法失敗，則 Adobe 會設定一個回呼 Cookie，或使用 IP 位址與使用者代理程式的組合來識別訪客。
 
-### 備援訪客身分識別方法{#section_2BA15E4FA6034C3EBF43859406343EB6}
+### 備援訪客身分識別方法 {#section_2BA15E4FA6034C3EBF43859406343EB6}
 
 JavaScript 1.x 及 JavaScript H.25.3 適用的 AppMeasurement (於 2013 年 1 月發行) 包含新的備援訪客身分識別方法，如有訪客的瀏覽器會封鎖 Adobe 資料收集伺服器所設定的 Cookie (名為 `s_vi`)，此項目可用於解決問題。過去在無法設定 Cookie 時，在資料收集期間會使用 IP 位址和使用者代理字串的組合來識別訪客。
 
