@@ -5,7 +5,10 @@ title: 轉換
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +28,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 追蹤程式碼 | 追蹤代碼名稱。 |
 | 日期 | 使用以下日期格式: MM/DD/YYYY/HH/mm/SS (例如 01/01/2015/06/00/00) |
 | 類別 | 類別名稱。若您指定類別，則必須選取產品。 |
-| 管道 | 管道名稱。 |
-| eVarn | eVarn 名稱。n 的有效值是整數 1 - 75。 |
+| 管道 | 頻道名稱. |
+| eVarn | eVarn 名稱。n 的有效值是整數 1 - 250。 |
 | 產品 | 產品名稱。 |
 | 州別 | 州/省名。 |
 | Zip | 郵遞區號名稱。 |
@@ -42,7 +45,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 購物車檢視 | 購物車檢視次數。 |
 | 結帳 | 結帳次數。 |
 | 事件 n | 事件 n 的發生次數。n 的有效值是整數 1 - 100。若您指定「檢視」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 的值。 |
-| eVarn 檢視次數 | 檢視 eVar n 的次數。n 的有效值是整數 1 - 75。 |
+| eVarn 檢視次數 | 檢視 eVar n 的次數。n 的有效值是整數 1 - 250。 |
 | 價格 | 產品價格。 |
 | 訂購 | 訂購次數。 |
 | 產品檢視 | 產品檢視次數。 |
