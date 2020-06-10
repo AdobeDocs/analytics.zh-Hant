@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f29a9eef7dcdb0568a947521ca32f7aa0c2ce5b7
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 97%
 
 ---
@@ -93,8 +93,9 @@ ht-degree: 97%
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 組織或共用專案 {#curate-share}
-      + [組織/共用概觀](analysis-workspace/curate-share/curate.md)
-      + [VRS 與專案組織](analysis-workspace/curate-share/curate-projects-vrs.md)
+      + [組織工作區專案](analysis-workspace/curate-share/curate.md)
+      + [共用工作區專案](analysis-workspace/curate-share/share-projects.md)
+      + [僅限檢視的工作區專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
