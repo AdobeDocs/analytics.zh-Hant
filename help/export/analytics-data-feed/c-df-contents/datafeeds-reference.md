@@ -5,8 +5,11 @@ subtopic: data feeds
 title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '3650'
+ht-degree: 99%
 
 ---
 
@@ -256,8 +259,8 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | `videoshow` | 視訊節目 | varchar(255) |
 | `videoshowtype` | 視訊節目類型 | varchar(255) |
 | `videostreamtype` | 視訊串流類型 | varchar(255) |
-| `visid_high` | 搭配 visid_low 使用以專門識別造訪。 | 不帶正負號的 bigint |
-| `visid_low` | 搭配 visid_high 使用以專門識別造訪。 | 不帶正負號的 bigint |
+| `visid_high` | 與visid_low搭配使用，以唯一識別訪客。 | 不帶正負號的 bigint |
+| `visid_low` | 與visid_high搭配使用，以唯一識別訪客。 | 不帶正負號的 bigint |
 | `visid_new` | 用於識別點擊是否包含新產生訪客 ID 的旗標。 | char(1) |
 | `visid_timestamp` | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
 | `visid_type` | 此數值 ID 表示用於識別訪客的方法。<br>0：自訂訪客 ID <br>1：IP 和使用者代理備援 <br>2：HTTP 行動訂閱者標題 <br>3：舊版 Cookie 值 (s_vi) <br>4：備援 Cookie 值 (s_fid) <br>5：身分識別服務 | 不帶正負號的 tinyint |
