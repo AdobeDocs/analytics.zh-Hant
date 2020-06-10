@@ -5,9 +5,9 @@ subtopic: Visitors
 title: 識別不重複訪客
 topic: Developer and implementation
 translation-type: tm+mt
-source-git-commit: 67dd053b71a2e718539956fbfe775f782ec26557
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1913'
 ht-degree: 96%
 
 ---
@@ -119,7 +119,7 @@ Adobe 已找出數個可唯一識別大多數行動裝置的 HTTP 訂閱者 OD �
 
 訂閱者 ID 方法用於使用者識別，通常比 Cookie 更可靠，因為 Cookie 有刪除、接受和閘道 Cookie 管理的問題。
 
-您可以借由新增至您行動訪客所使用之電信業者的「允許」清單，改善識別訪客的變更。 若要存取電信業者的訪客ID，請連絡電信業者，將您的網域新增至其「允許」清單。 如果您位在電信業者的允許清單上，您也可以存取訂閱者ID標題，否則您將無法存取。
+您可以借由新增至您的行動訪客所使用電信業者的允許清單，來改善識別訪客的變更。 若要存取電信業者的訪客ID，請連絡電信業者，將您的網域新增至其允許清單。 如果您位於電信業者的允許清單上，您也可以存取其他可能無法存取的訂閱者ID標題。
 
 下列標題清單可用來識別無線裝置。處理標題的運算法為
 
