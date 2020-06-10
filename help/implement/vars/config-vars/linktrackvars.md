@@ -1,8 +1,11 @@
 ---
 title: linkTrackVars
 description: 指定要將哪些變數納入連結追蹤影像要求中。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 有些實施不希望將所有變數納入每個連結追蹤影像要求中。請使用 `linkTrackVars` 和 [`linkTrackEvents`](linktrackevents.md) 變數，在 [`tl()`](../functions/tl-method.md) 呼叫中選擇性地納入維度和量度。
 
-此變數不適用於頁面檢視呼叫 (`t()` 方法)。
+此變數不適用於頁面檢視呼叫 ([`t()`](../functions/t-method.md) 方法)。
 
 ## 使用 Adobe Experience Platform Launch 時連結追蹤呼叫中的變數
 
@@ -24,7 +27,7 @@ Launch 會根據介面中設定的變數在後端自動填入此變數，因此�
 `s.linkTrackVars` 變數是字串，其中包含您要納入連結追蹤影像要求 (`tl()` 方法) 中的逗號分隔變數清單。若要在連結追蹤點擊中納入維度，以下兩個條件必須滿足：
 
 * 設定所需的變數值。例如：`s.eVar1 = "Example value";`。
-* 在 `linkTrackVars` 變數中設定所要的變數。例如：`s.linkTrackEvents = "eVar1";`。
+* 在 `linkTrackVars` 變數中設定所要的變數。例如：`s.linkTrackVars = "eVar1";`。
 
 ```js
 s.linkTrackVars = "eVar1,eVar2,events,channel,products";
