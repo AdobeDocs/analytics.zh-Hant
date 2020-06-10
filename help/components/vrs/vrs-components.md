@@ -4,6 +4,9 @@ title: 虛擬報表套裝元件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 100%
 
 ---
 
@@ -12,14 +15,14 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 
->[!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。以前，任何人只要按一下，就能看到未組織的元件 **[!UICONTROL Show all Components]**。 [更新的組織體驗](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
+>[!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理：
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]** > **[!UICONTROL Create new virtual report suite]**.
-1. 定義後， **[!UICONTROL Settings]**&#x200B;按一下該選 **[!UICONTROL Components]** 項卡。
+1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]** > **[!UICONTROL 建立新的虛擬報表套裝]**」。
+1. 定義&#x200B;**[!UICONTROL 「設定」]**&#x200B;後，按一下&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤。
 
-1. 選中複選框 **[!UICONTROL Enable Customization of Virtual Report Suite Components]**:
+1. 選取&#x200B;**[!UICONTROL 「啟用虛擬報表套裝元件自訂」核取方塊]**：
 
    ![](assets/vrs-enable.png)
 
@@ -27,22 +30,24 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
    >
    >如已啟用元件自訂，則&#x200B;**只能在 Analysis Workspace 中**&#x200B;存取虛擬報表套裝，且無法在以下項目中存取：
 
-   * [!UICONTROL Reports & Analytics]
+   * [!UICONTROL Reports &amp; Analytics]
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
    * Analytics 報表 API
+
    勾選後，只要從「已排除元件」欄將相關的元件拖曳到「已包含元件」欄，即可新增要包含在虛擬報表套裝的元件。可包含和排除的元件有：
 
    * 維度
    * 量度
    * 區段
    * 日期範圍
+
    >[!NOTE]
    >
    >不需要&#x200B;*共用*&#x200B;已組織的元件 (區段、計算量度、日期範圍)。只要元件是針對虛擬報表套裝而進行管理，即使不共用，也會一律顯示在 Analysis Workspace 中。
 
-1. Additionally, you can filter or search the components and add the entire filtered selection to the included column by clicking **[!UICONTROL Add All]**.
+1. 此外，還可以篩選或搜尋元件，以及按一下&#x200B;**[!UICONTROL 「新增全部」]**，將整個經過篩選的選取項目新增至已包含的欄中。
 
    ![](assets/vrs-add-all.png)
 
