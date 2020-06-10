@@ -2,27 +2,14 @@
 title: VRS 與專案組織
 description: 了解如何組織虛擬報表套裝元件和專案
 translation-type: tm+mt
-source-git-commit: db983980a6ec3db4d60bbc8fc3ba57a4e1219287
+source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+workflow-type: tm+mt
+source-wordcount: '21'
+ht-degree: 76%
 
 ---
 
 
 # VRS 與專案組織
 
-基本上，組織專案或虛擬報表套裝 (VRS) 時，您會篩選掉元件，使對象只看見您希望他們使用的專案/VRS 元件 (維度、量度、區段及日期範圍)。
-
->[!NOTE]
->
->產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過[「Admin Console」](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html#createproductprofiles)來管理。組織為次要的篩選器。
-
-我們最近改善了組織體驗。Here is an overview of what the **[!UICONTROL Show All]** button reveals, in addition to the curated components already available, in different curated experiences and by permission level:
-
-| 組織類型 | 管理員 | 非管理員專案擁有者 | 非管理員 |
-|---|---|---|---|
-| 已組織的 VRS | 所有未經組織的 VRS 元件 | 此角色擁有或已與其共享之未經組織的 VRS 元件 | 此角色擁有或已與其共享之未經組織的 VRS 元件 |
-| 已組織的專案 | 所有未經組織的專案元件 | 所有未經組織的專案元件 | 此角色擁有或已與其共享之未經組織的專案元件 |
-| 已組織 VRS 中的已組織專案 | 所有未經組織的元件 (如下所示) **[!UICONTROL Non-Curated Project Components]** 與 **[!UICONTROL Non-Curated VRS Components]** | 此角色擁有或已與其共用之所有未經組織的專案元件和未經組織的 VRS 元件 | 此角色擁有或已與其共享之未經組織的 VRS 與專案元件 |
-
->[!IMPORTANT]
->
->系統會一律先套用 VRS 組織，再套用專案組織。換句話說，即使經組織的專案中含有特定元件，但只要經組織的 VRS 並未包含那些元件，系統便會將其篩除。
+請參閱「 [組織工作區」專案](/help/analyze/analysis-workspace/curate-share/curate.md)。
