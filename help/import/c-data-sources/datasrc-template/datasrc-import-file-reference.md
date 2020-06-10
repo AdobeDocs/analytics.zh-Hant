@@ -5,7 +5,10 @@ title: 匯入檔案參考
 topic: Developer and implementation
 uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 欄標題是用於識別「資料來源」檔案中各欄的資料。有三種欄標題:
 
-**日期**: (必要) 檔案中每一列資料的時間戳記。
+**日期**: （必要）檔案中每個資料列的時間戳記，格式為 `m/d/yyyy`。
 
 **變數**：對應到資料來源之資料維度的報表變數名稱。
 
