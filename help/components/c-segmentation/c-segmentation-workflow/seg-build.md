@@ -4,10 +4,10 @@ title: 建立區段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: e1315ce842247e690c481bf5061c980b943cd5c1
+source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 92%
+source-wordcount: '2037'
+ht-degree: 90%
 
 ---
 
@@ -45,7 +45,6 @@ ht-degree: 92%
    * **[!UICONTROL 重複]** （預設）: 包含維度的例項和持續值。
    * **[!UICONTROL 例項]**：包含維度的例項。
    * **[!UICONTROL 非重複例項]**：包含維度的唯一例項 (非重複)。這是排除重複實例時在「流」中應用的模型。
-
    ![](assets/attribution-models.jpg)
 
    **範例： eVar1 = A的點擊區段**
@@ -75,19 +74,7 @@ ht-degree: 92%
 
 含有內嵌日期範圍的區段在 Analysis Workspace 和 [!UICONTROL Reports &amp; Analytics] 中持續以不同方式運作。在 Workspace 中，包含內嵌日期範圍的區段會覆寫面板日期範圍。相較之下，[!UICONTROL Reports &amp; Analytics] 則提供報表日期範圍及區段內嵌日期範圍的交集。
 
-**[!UICONTROL 發佈至 Experience Cloud (適用於`<report suite name>`)]**：(畫面上不會顯示) 只有當您要儲存此區段的目標報表套裝[已啟用 Experience Cloud 功能](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)時，才會出現此選項。將區段發佈至 Experience Cloud 後，您便可以在[!UICONTROL 對象庫]、[!DNL Target] 和 [!DNL Audience Manager] 中，使用該區段進行促銷活動。需要區段標題和說明。
-
->[!NOTE]您可以在 Analytics 中編輯或刪除發佈的區隔。如果該區隔正在使用中，系統會在您編輯該區隔時發出警告訊息。您無法刪除 Adobe [!DNL Target] 正在使用的已發佈區段。
-
-![](assets/segment_publish_to_mac_copy.png)
-
->[!IMPORTANT]
->
->您必須將透過 Analytics 共用的對象數量限制為 20，以避免額外的程序延誤。透過 Analytics 與 Experience Cloud 共用的受眾不能超過 2,000 萬個不重複的成員。另外，由於快取關係，Experience Cloud 會在 12 小時之後才顯示 Analytics 中刪除的報表套裝資訊。
-
->[!IMPORTANT]
->
->訪客符合從 Analytics 共用的對象資格後，此資訊會延遲 24 至 48 小時才能在 [!DNL Target]、[!DNL Advertising Cloud] 和 [!DNL Campaign] 中操作。
+**[!UICONTROL Experience Cloud發佈]**: （未在螢幕上顯示）只有在您要儲存此區段的報表套裝已啟用Experience Cloud時，才 [會顯示此選項](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md)。 將區段發佈至 Experience Cloud 後，您便可以在[!UICONTROL 對象庫]、[!DNL Target] 和 [!DNL Audience Manager] 中，使用該區段進行促銷活動。[進一步瞭解](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-publish.html) Experience CLoud發佈。
 
 ## 建立區段 {#build-segments}
 
