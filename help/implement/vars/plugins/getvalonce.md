@@ -1,8 +1,11 @@
 ---
 title: getValOnce
 description: 防止 Analytics 變數連續設為相同值兩次。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 627a10830d73d21323f247fcaadfb462858637d3
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 99%
 
 ---
 
@@ -46,8 +49,8 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getValOnce v2.0 */
-s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:ep);return vtc}return""};
+/* Adobe Consulting Plugin: getValOnce v2.01 */
+s.getValOnce=function(vtc,cn,et,ep){if(vtc&&(cn=cn||"s_gvo",et=et||0,ep="m"===ep?6E4:864E5,vtc!==this.c_r(cn))){var e=new Date;e.setTime(e.getTime()+et*ep);this.c_w(cn,vtc,0===et?0:e);return vtc}return""};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -85,6 +88,10 @@ s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
 此程式碼可防止使用者作業階段期間將相同的值連續傳入 s.eVar2 多次。它也會忽略 epargument (呼叫結尾處) 中的「m」值，因為到期時間設為 0。此程式碼也會將比較值儲存在 s_ev2 Cookie 中。
 
 ## 版本記錄
+
+### 2.01
+
+* 已修正編寫Cookie的問題。
 
 ### 2.0
 
