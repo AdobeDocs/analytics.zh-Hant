@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的報表自訂功能
 description: 瞭解如何在 Adobe Analytics 中自訂報表
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 75%
@@ -68,7 +68,7 @@ In addition to PDF, [!UICONTROL Analysis Workspace] offers a CSV export.
 4. 一旦計算量度包含所需公式之後，按一下「儲存」返回您的工作區。
 5. 將新定義的計算量度拖曳至工作區。
 
-   進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-variables/c-metrics/calculated-metric.md)。
+   進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-calcmetrics/cm-overview.md)。
 
 ## 自訂警報
 
