@@ -3,9 +3,9 @@ description: 工作區中僅檢視專案
 keywords: View-only projects
 title: 僅限檢視的工作區專案
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 8efbe8c64f32a64da0422611e0170b7135ad39d0
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '248'
 ht-degree: 2%
 
 ---
@@ -23,12 +23,13 @@ ht-degree: 2%
 
 * 隱藏的左邊欄
 * 報表套裝
-* 面板日曆日期範圍注意： 如果您想要將日曆控制權授與收件者，請新增包含日 [期範圍的下拉式篩選](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+* 面板日曆日期範圍。 注意： 如果您想要將日曆控制權授與收件者，請新增包含日 [期範圍的下拉式篩選](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 * 自由格式篩選
 * 可見行的自由格式編號
 * 自由格式列、欄或視覺化設定
 * 面板區段
 * 編輯、插入和元件功能表
+* 工作區秘訣
 
 ## 啟用互動功能
 
