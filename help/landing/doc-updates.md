@@ -3,7 +3,7 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 816a83a3911250460e26fac9469f604b7616560a
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 98%
@@ -24,7 +24,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
-| 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/c-variables/c-metrics/metrics-content-velocity.md)量度的文件。 |
+| 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md) 新增更新內容。 |
 | 2020 年 3 月 12 日 | 更新 CDA 編結延遲。 |
 | 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html) 的文件。 |
