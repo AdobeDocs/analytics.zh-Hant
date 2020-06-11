@@ -4,8 +4,11 @@ keywords: eVar
 title: 轉換變數 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '1579'
+ht-degree: 98%
 
 ---
 
@@ -48,7 +51,7 @@ eVar 最適合用來測量原因和結果，如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 配置 </span> </p> </td> 
-   <td colname="col2"> <p>如果變數在事件之前接收到多個值，可決定 Analytics 如何為成功事件指派評價。支援的值包括： </p> <p> <b>最近</b>：在該 eVar 過期以前，最近一個 eVar 值一律會收到成功事件的評分。 </p> <p> <b>原始值</b>：在該 eVar 過期以前，第一個 eVar 值一律會收到成功事件的評分。 </p> <p> <b>線性</b>：所有 eVar 值會收到均分的成功事件評分。實際僅在一次瀏覽中分發值，因此請搭配瀏覽的 eVar 過期時間使用線性配置。 </p> <p>附註：切換分配至「線性」從「線性」切換分配時，不會顯示歷史資料。在報告介面混合配置類型可能造成報告中資料誤報。例如，「線性」配置將收入分配給數個不同的 eVar 值。變更回「最近」配置後，該收入的 100% 都關聯至最近的單一值。這種關聯會讓使用者產生不正確的結論。 </p> <p>為了避免報告產生混淆，Analytics 在介面中隱藏歷史資料。如果您決定將特定 eVar 變更回初始配置設定，仍可檢視這些歷史資料，但您不應僅為了存取歷史資料而變更 eVar 配置設定。如果想對已記錄的資料採用新的配置設定，Adobe 建議使用新的 eVar，而不是變更已建立了大量歷史資料的 eVar 之配置設定。 </p> </td> 
+   <td colname="col2"> <p>如果變數在事件之前接收到多個值，可決定 Analytics 如何為成功事件指派評分。支援的值包括： </p> <p> <b>最近</b>：在該 eVar 過期以前，最近一個 eVar 值一律會收到成功事件的評分。 </p> <p> <b>原始值</b>：在該 eVar 過期以前，第一個 eVar 值一律會收到成功事件的評分。 </p> <p> <b>線性</b>：所有 eVar 值會收到均分的成功事件評分。實際僅在一次瀏覽中分發值，因此請搭配瀏覽的 eVar 過期時間使用線性配置。 </p> <p>附註：切換分配至「線性」從「線性」切換分配時，不會顯示歷史資料。在報告介面混合配置類型可能造成報告中資料誤報。例如，「線性」配置將收入分配給數個不同的 eVar 值。變更回「最近」配置後，該收入的 100% 都關聯至最近的單一值。這種關聯會讓使用者產生不正確的結論。 </p> <p>為了避免報告產生混淆，Analytics 在介面中隱藏歷史資料。如果您決定將特定 eVar 變更回初始配置設定，仍可檢視這些歷史資料，但您不應僅為了存取歷史資料而變更 eVar 配置設定。如果想對已記錄的資料採用新的配置設定，Adobe 建議使用新的 eVar，而不是變更已建立了大量歷史資料的 eVar 之配置設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 過期時間</span> </p> </td> 
@@ -88,7 +91,7 @@ eVar 最適合用來測量原因和結果，如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售捆綁事件</span> </p> <p>(僅限 eVar) </p> </td> 
-   <td colname="col2"> <p>如果「銷售」設定為<span class="uicontrol">轉換變數語法</span>，則選定的事件會將產品與目前的 eVar 值捆綁。 </p> <p>若要使用「捆綁事件」，請設定<span class="uicontrol">「配置」至「最近」</span>。如果<span class="uicontrol">「配置」是原始值</span>，則保留第一個 eVar 產品捆綁，直到 eVar 過期。 </p> </td> 
+   <td colname="col2"> <p>如果「銷售」設定為<span class="uicontrol">轉換變數語法</span>，則選定的事件會將產品與目前的 eVar 值捆綁。 </p> <p>若要使用「捆綁事件」，請設定<span class="uicontrol">「配置」至「最近」</span>。如果<span class="uicontrol">「配置」是原始值</span>，則保留第一個 eVar 產品捆綁，直到 eVar 過期。Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. 選取「轉換變數語法」時，才能選取事件。</p> </td> 
   </tr> 
  </tbody> 
 </table>
