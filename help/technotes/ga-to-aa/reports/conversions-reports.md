@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的轉換報表
 description: 瞭解如何在 Adobe Analytics 中使用轉換報表。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1049'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +42,7 @@ Google Analytics 使用者可透過目標來定義網站的轉換。目標是建
 
 銷售產品或服務的網站通常會使用電子商務報表，來測量購買項目的訂購作業和收入。Adobe Analytics 中提供此功能，稱為「產品」報表。
 
-Google Analytics 中的電子商務報表和 Adobe Analytics 中的產品報表都需要自訂實施變更才能使用。如需詳細資訊，請參閱「元件」使用指南中的[產品](/help/components/c-variables/dimensionslist/reports-products.md)維度。
+Google Analytics 中的電子商務報表和 Adobe Analytics 中的產品報表都需要自訂實施變更才能使用。如需詳細資訊，請參閱「元件」使用指南中的[產品](/help/components/dimensions/product.md)維度。
 
 ## 多管道漏斗報表
 
