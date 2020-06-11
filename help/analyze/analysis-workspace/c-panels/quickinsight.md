@@ -2,10 +2,10 @@
 description: 「快速洞察」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
 title: 快速洞察面板
 translation-type: tm+mt
-source-git-commit: 354bc118c869bd926a1cef0a75f5133d1a410cd5
+source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 2%
+source-wordcount: '1066'
+ht-degree: 5%
 
 ---
 
@@ -14,13 +14,15 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->**[!UICONTROL 「快速洞察]** 」面板目前測試有限。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/landing/an-releases.html)
+>**[!UICONTROL 「快速洞察]** 」面板目前測試有限。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
-[!UICONTROL Quick Insights] 為分析工作區的非分析師和新使用者提供指引，以瞭解如何快速輕鬆地回答業務問題。 對於想要快速回答簡單問題而不需要自行建立表格的進階使用者而言，它也是絕佳的工具。
+[!UICONTROL 「快速深入分析」]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速回答簡單問題而不需要自行建立表格的進階使用者而言，它也是絕佳的工具。
 
 當您第一次使用此分析工作區時 ，可能會想知道哪些視覺化最有用、哪些維度和量度可能有助於洞察、拖放項目的位置、建立區段的位置等。
 
-為協助您，並根據您公司在 [!UICONTROL Analysis Workspace中的資料元件使用情況，]Quick Insights  運用演算法，提供您公司使用的最熱門維度、量度、區段和日期範圍。
+為協助您，並根據您公司在 [!UICONTROL Analysis Workspace中的資料元件使用情況，]Quick Insights  運用演算法，提供您公司使用的最熱門維度、量度、區段和日期範圍。 事實上，您會在下拉式清單中看到標籤為 [!UICONTROL Popul] （熱門）的維度、量度和區段，如下所示：
+
+![](assets/popular-tag.png)
 
 [!UICONTROL 快速洞察] ，協助您
 
@@ -64,6 +66,7 @@ ht-degree: 2%
 1. 當您新增至少一個維度和一個量度時，將會為您建立下列項目：
 
    * 自由表格，其上方為垂直維度（此處為美國州）和水準度量（此處為瀏覽）。 查看下表：
+
    ![](assets/qibuilder3.png)
 
    * 隨附的視覺化，在此例中為長 [條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。 產生的視覺化是根據您新增至表格的資料類型。 任何以時間為基礎的資料(例如 [!UICONTROL 每日] /月的瀏覽次數 [!UICONTROL )都預設為] 折線圖。 任何非時間型資料(例如每個裝 [!UICONTROL 置的][!UICONTROL 瀏覽次數])都預設為 [!UICONTROL 長條圖] 。 您可以按一下視覺化類型旁的下拉箭頭，以變更視覺化類型。
