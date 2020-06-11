@@ -2,7 +2,10 @@
 title: 其他平台常用的量度轉譯指南
 description: 透過 Google Analytics 使用者更熟悉的術語，瞭解如何提取許多常見報表的量度資料。
 translation-type: tm+mt
-source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
 ## 贏取量度
 
-**使用者**&#x200B;約略等同於 Workspace 中的&#x200B;**獨特訪客**。如需詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)量度。
+**使用者**&#x200B;約略等同於 Workspace 中的&#x200B;**獨特訪客**。如需詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/metrics/unique-visitors.md)量度。
 
 可透過下列方式取得&#x200B;**新使用者**：
 
@@ -26,13 +29,13 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 
    ![首次瀏覽次數](../assets/first_time_visits.png)
 
-**工作階段**&#x200B;約略等同於 Analysis Workspace 中的&#x200B;**造訪次數**。如需詳細資訊，請參閱「元件」使用指南中的[造訪次數](/help/components/c-variables/c-metrics/metrics-visit.md)量度。
+**工作階段**&#x200B;約略等同於 Analysis Workspace 中的&#x200B;**造訪次數**。如需詳細資訊，請參閱「元件」使用指南中的[造訪次數](/help/components/metrics/visits.md)量度。
 
 ![贏取量度](../assets/acquisition_metrics.png)
 
 ## 行為量度
 
-**跳出率**&#x200B;可在 Analysis Workspace 中以量度形式提供。如需詳細資訊，請參閱「元件」使用指南中的[跳出率](/help/components/c-variables/c-metrics/metrics-bounce-rate.md)量度。
+**跳出率**&#x200B;可在 Analysis Workspace 中以量度形式提供。如需詳細資訊，請參閱「元件」使用指南中的[跳出率](/help/components/metrics/bounce-rate.md)量度。
 
 **頁面/工作階段**&#x200B;是一項計算量度。它可透過下列方式取得：
 
@@ -48,9 +51,9 @@ source-git-commit: 3ce18f3f222286aed08c81dd2c958dab7e443df3
 7. 按一下「儲存」返回您的工作區。
 8. 將新定義的計算量度拖曳至工作區。
 
-   進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-variables/c-metrics/calculated-metric.md)。
+   進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-calcmetrics/cm-overview.md)。
 
-**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。進一步瞭解「元件」使用指南中的[逗留時間](/help/components/c-variables/c-metrics/metrics-time-spent.md)量度。
+**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
 
 ## 轉換量度
 
