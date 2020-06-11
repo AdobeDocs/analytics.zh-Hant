@@ -2,8 +2,11 @@
 description: 'null'
 title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-translation-type: ht
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
+translation-type: tm+mt
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+workflow-type: tm+mt
+source-wordcount: '1263'
+ht-degree: 100%
 
 ---
 
@@ -103,5 +106,5 @@ source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
 | `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe 遇到需要解決的問題。建議您透過客戶服務請求提交錯誤代碼。 |
 | `The request is too complex.` | 您的報表請求規模過大，無法執行。造成此錯誤的因素包括請求的規模所導致的逾時、區段或搜尋篩選器中有過多相符項目、加入的量度過多、維度和量度組合不相容等。建議您簡化請求。 |
 | `One of the segments or the search in this visualization contains a text search that returned too many results.` | 建議您縮小搜尋文字的條件，並再次嘗試請求。 |
-| `This dimension does not currently support non-default attribution models.` | 建議您使用與[歸因 IQ](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md) 相容的維度來取代表格中的維度。 |
+| `This dimension does not currently support non-default attribution models.` | 建議您使用與[歸因 IQ](../attribution/overview.md) 相容的維度來取代表格中的維度。 |
 | `Your request failed as a result of too many columns or pre-configured rows.` | 建議您移除某些欄或列，或將它們分割為個別的視覺效果。 |
