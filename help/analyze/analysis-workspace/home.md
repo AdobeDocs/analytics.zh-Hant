@@ -4,7 +4,7 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: d8db32a76b93e9687b28125050224857b598d82d
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 32%
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 Analysis Workspace 去除了單一 Analytics 報表的所有典型限制，提供強大、靈活的畫布供您建立自訂分析專案。您可拖放任意數目的資料表格、視覺效果和元件 (維度、量度、區段和時間粒度) 至專案。立即建立劃分和區段；建立同類群組以供分析；建立警報；比較區段；執行流量和流失分析；組織和排程報表，以便與企業中的其他人共用。
 
-本頁包含入門的基本指示。 當您熟悉基本功能後，就可進入Workspace的進階功能。 其中包括 [Iq](/help/analyze/analysis-workspace/attribution-iq.md)、異常 [偵測、貢獻](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)分析 [、區段](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)IQ歸因警報 [](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)、智慧警報。
+本頁包含入門的基本指示。 當您熟悉基本功能後，就可進入Workspace的進階功能。 其中包括 [Iq](/help/analyze/analysis-workspace/attribution/overview.md)、異常 [偵測、貢獻](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)分析 [、區段](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)IQ歸因警報 [](/help/analyze/analysis-workspace/segment-iq.md)[](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)、智慧警報。
 
 以下是工作區的影片概觀：
 
