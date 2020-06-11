@@ -3,17 +3,17 @@ description: 工作區中的專案共用與專案角色
 keywords: Analysis Workspace sharing
 title: 共用工作區專案
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 8%
+source-wordcount: '658'
+ht-degree: 9%
 
 ---
 
 
 # 共用工作區專案
 
-共用功能可讓組織中的其他分析工作區使用者使用專案。 收件者開啟專案時，會反映您所做的任何組織。
+共用功能可讓組織中的其他分析工作區使用者使用專案。 收 [件者](curate.md) 開啟專案時，會反映您所套用的任何組織。
 
 ## 專案角色
 
@@ -28,15 +28,15 @@ ht-degree: 8%
 | 可重複 | 收件者可另存新檔及存取左側邊欄，互動方式不會受限。<br>如果您想要將專案共用給瞭解組織資料以及如何使用分析工作區的使用者，但您不希望變更儲存的專案，這個角色就很有用。 |
 | 可檢視 | 收件者無法另存新檔，也無法存取左側導軌。 互動也是有限的。<br>如果您想要將專案共用給對您組織的資料結構、分析工作區或Adobe Analytics不太熟悉的使用者，這個角色就很有用。 不過，您仍希望他們在安全的環境中使用資料和見解。<br>進一步瞭解「可 [以檢視專案體驗」](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
 
-**未分配角色**
+### 未分配角色
 
 如果收件者未獲指派角色，並收到專案連結([!UICONTROL Share] > [!UICONTROL Get project link])，則依預設會將他們置於「Can view  」角色中。
 
-**指派多個角色**
+### 指派多個角色
 
 如果收件者被置於多個角色中，他們將始終獲得最高的控制權。 如果使用者同時以個人身分和群組的一部分新增，則可能會發生此情況。 例如，如果給予用戶1可以編輯和 [!UICONTROL 「可以查看」角色] ，則他們將  擁有項目的「可以編輯」控制。
 
-**管理員和角色**
+### 管理員和角色
 
 設為「可複製」 [!UICONTROL或「可檢視」角色] 的管  理員在開啟專案時，將會收到這些有限的體驗。 視需要，管理員可隨時透過元件 [!UICONTROL >專案將其角色增] 加為「 [!UICONTROL 可編] 輯」 。
 
@@ -74,9 +74,4 @@ ht-degree: 8%
 * 在選取專案A和B後，會將使用者4和7新增至收件者清單。 每個專案的新收件者清單現在為：
    * 專案A: 1, 2, 3, 4, 7
    * 項目B: 4, 5, 6, 7
-
    ![](assets/mult-proj-sharing.png)
-
-## 排程專案
-
-您也可以從「共用」功能表 [!UICONTROL 排程專案] ，以「立即 [!UICONTROL 傳送檔案] 」或「依排程 [!UICONTROL 傳送檔案」]。 傳送的檔案格式可以是PDF或CSV。 進一步瞭解專 [案排程](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
