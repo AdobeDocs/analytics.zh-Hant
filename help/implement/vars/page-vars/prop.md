@@ -1,19 +1,24 @@
 ---
 title: prop
 description: 可在實施中使用的自訂變數。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
 
 
 # prop
 
-prop 是自訂變數，您可以視需要使用。
+*此說明頁面說明如何實作prop。 For information on how props work as a dimension, see[prop](/help/components/dimensions/prop.md)in the Components user guide.*
 
->[!TIP] Adobe 建議在大部分情況下使用 eVar。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。如需這兩種自訂變數類型的功能比較，請參閱 [eVar](evar.md)。
+prop 是自訂變數，您可以視需要使用。它們不會持續存留於設定的點擊以外。
 
-如果貴組織使用 prop，請務必將其使用方法與邏輯記錄在[解決方案設計文件](../../prepare/solution-design.md)中。
+> [!TIP][ Adobe 建議在大部分情況下使用 eVar。](evar.md)在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
+
+如果您有解決方 [案設計檔案](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度分配給您組織的特定值。 可用的Prop數量視您與Adobe的合約而定。 若您與Adobe的合約支援，最多可使用75個Prop。
 
 ## Adobe Experience Platform Launch 中的 prop
 
@@ -26,7 +31,7 @@ prop 是自訂變數，您可以視需要使用。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「prop」]區段。
 
-您可以選取 prop 來設定值或資料元素。您也可以複製其他 Analytics 變數的值。
+您可以將prop設定為值或資料元素。 您也可以複製其他 Analytics 變數的值。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.prop1 - s.prop75
 
@@ -44,7 +49,7 @@ s.prop1 = "Example custom value";
 
 在報表套裝設定中啟用清單屬性。請參閱「管理員使用指南」中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)。請確認所需的分隔字元已正確設定。Adobe 不提供預設分隔字元。
 
->[!TIP] 實施中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的分隔字元。
+> [!TIP] 實施中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的分隔字元。
 
 ### 設定清單屬性
 
@@ -55,6 +60,6 @@ s.prop1 = "Example custom value";
 s.prop1 = "value1,value2,value3";
 ```
 
->[!IMPORTANT] 清單屬性仍有最多 100 個位元組的長度限制。清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
+> [!IMPORTANT] 清單屬性仍有最多 100 個位元組的長度限制。清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
 
 如果您在清單屬性中設定相同值多次，系統會在報表中刪除重複資料。Analysis Workspace 會計算檢視值處的點擊數，而非資料中值存在的次數。
