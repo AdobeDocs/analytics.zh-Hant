@@ -2,21 +2,28 @@
 description: 'null'
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 80126f2173ae71dd45cc3f983df7149bc1326c1e
+source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 87%
+source-wordcount: '481'
+ht-degree: 82%
 
 ---
 
 
 # 面板概述
 
-面板是表格與視覺效果的集合。您可以透過 Workspace 左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。分析工作區提供下列六種面板： [空白麵板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)、 [Quick Insights面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md) （即將推出）、 [Analytics面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) （即將推出）、 [Attribution面板、Freeform Fream Camporation](/help/analyze/analysis-workspace/c-panels/attribution/attribution.md)[](/help/analyze/analysis-workspace/c-panels/freeform-panel.md)[](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)、Comparising Segment面板Comparising Alement面板。
+面板是表格與視覺效果的集合。您可以透過 Workspace 左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。分析工作區提供下列六種面板：
 
-「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳場所，而「Analytics for Target」、「歸因IQ」和「區段比較」則適用於更進階的分析。 我們也新增了「+」面板按鈕，可讓您隨時新增「空白面板」。
+* [空白面板](blank-panel.md)
+* [快速洞察面板](quickinsight.md)
+* [Analytics for Target面板](a4t-panel.md) （即將推出）
+* [歸因面板](attribution.md)
+* [自由面板](freeform-panel.md)
+* [區段比較面板](c-segment-comparison/segment-comparison.md)
 
-預設的開始面板為「自由面板」，但您也可以將[「空白面板」](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
+「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳場所，而「Analytics for Target」、「歸因IQ」和「區段比較」則適用於更進階的分析。 專案 `"+"` 中有一個按鈕，讓您隨時都可以新增空白麵板。
+
+The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
 
 ## 面板中的下拉式篩選器 {#section_D2828EEDD52944528E87F470EAB581CF}
 
