@@ -1,8 +1,12 @@
 ---
 title: trackInlineStats
 description: 在您的實施中啟用或停用 Activity Map。
-translation-type: ht
-source-git-commit: 979a95ca749a3e21c4ddf48ba2d2a95672938a20
+keywords: disable activity map
+translation-type: tm+mt
+source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
