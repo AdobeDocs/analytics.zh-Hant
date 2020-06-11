@@ -1,8 +1,11 @@
 ---
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 92%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。其為多值變數，這表示您可以在同一次點擊中傳送多個產品，而 Adobe 會將值解析為個別的維度值。
 
->[!NOTE] 如果您將此變數設定於點擊中，但 [`events`](events/events-overview.md) 變數中沒有購物車事件，則「產品檢視」量度會增加 1。請務必在每次點擊時設定適當的購物車事件。
+> [!NOTE] 如果此變數在點擊中設定，而變數中沒有購物車事 [`events`](events/events-overview.md) 件，則「產 [品檢視](/help/components/metrics/product-views.md) 」量度會遞增1。 請確定您使用變數在每次點擊上設定了適當的購物車 `products` 事件。
 
 ## Adobe Experience Platform Launch 中的產品
 
@@ -33,7 +36,7 @@ Launch 中沒有專用欄位可設定此變數。不過，有多個第三方擴�
 * **數量** (選用)：此產品在購物車內的數量有多少。此欄位僅適用於購買事件的點擊。
 * **價格** (選用)：小數形式的產品總價。如果數量超過一個，請將價格設定為總價，而非個別產品價格。調整此值的貨幣，使其與 [`currencyCode`](../config-vars/currencycode.md) 變數相符。請勿在此欄位中加入貨幣符號。此欄位僅適用於購買事件的點擊。
 * **事件** (選用)：與產品相連結的事件。請使用垂直號 (`|`) 分隔多個事件。如需詳細資訊，請參閱[事件](events/events-overview.md)。
-* **eVar** (選用)：與產品相連結的銷售 eVar。請使用垂直號 (`|`) 分隔多個銷售 eVar。如需詳細資訊，請參閱[銷售 eVar](../../../components/c-variables/c-merch-variables/var-merchandising.md)。
+* **eVar** (選用)：與產品相連結的銷售 eVar。請使用垂直號 (`|`) 分隔多個銷售 eVar。如需詳細資訊，請參閱[銷售 eVar](evar-merchandising.md)。
 
 ```js
 // Set a single product using all available fields
@@ -47,7 +50,7 @@ s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eV
 s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
 ```
 
->[!IMPORTANT] 請移除產品名稱、類別和銷售 eVar 值中的所有分號、逗號和垂直號。如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
+> [!IMPORTANT] 請移除產品名稱、類別和銷售 eVar 值中的所有分號、逗號和垂直號。如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
 
 ## 範例
 
@@ -61,7 +64,7 @@ s.products = "Example category;Example product";
 s.products = ";Example product";
 
 // One product has a category, the other does not. Note the comma and adjacent semicolon to omit category
-s.products = "Example category;Example product,;Example product";
+s.products = "Example category;Example product 1,;Example product 2";
 
 // A visitor purchases a single product; record quantity and price
 s.events = "purchase";
