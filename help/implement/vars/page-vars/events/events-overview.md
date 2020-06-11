@@ -1,8 +1,11 @@
 ---
 title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 92%
 
 ---
 
@@ -34,13 +37,13 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 `s.events` 變數是字串，其中包含您要納入點擊中的逗號分隔事件清單。此變數沒有位元組限制，因此不會截斷。有效值包括：
 
 * `event1` - `event1000`：自訂事件，視需要設定。請將每個事件的使用方式記錄在貴組織的[解決方案設計文件](../../../prepare/solution-design.md)中。可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請聯絡貴組織的客戶經理。
-* `purchase`：將「訂購」量度增加 1，並使用在 `products` 變數中設定的值來計算「件數」和「收入」。如需詳細資訊，請參閱[購買事件](event-purchase.md)。
-* `prodView`：增加「產品檢視」量度。
-* `scOpen`：增加「購物車」量度。
-* `scAdd`：增加「購物車加貨」量度。
-* `scRemove`：增加「購物車移除」量度。
-* `scView`：增加「購物車檢視」量度。
-* `scCheckout`：增加「結帳」量度。
+* `purchase`: 將「訂 [購」量度](/help/components/metrics/orders.md) 遞增1，並使用變數中設定的值來計 `products` 算「件數 [」](/help/components/metrics/units.md) 和「收入」 [](/help/components/metrics/revenue.md)。 如需詳細資訊，請參閱[購買事件](event-purchase.md)。
+* `prodView`: 遞增「 [產品檢視」](/help/components/metrics/product-views.md) 量度。
+* `scOpen`: 遞增「 [購物車](/help/components/metrics/carts.md) 」量度。
+* `scAdd`: 遞增「 [購物車新增」](/help/components/metrics/cart-additions.md) 量度。
+* `scRemove`: 遞增「 [購物車移除」](/help/components/metrics/cart-removals.md) 量度。
+* `scView`: 遞增「 [購物車檢視」](/help/components/metrics/cart-views.md) 量度。
+* `scCheckout`: 遞增「 [結帳」量度](/help/components/metrics/checkouts.md) 。
 
 >[!NOTE] 此變數會區分大小寫。請避免事件值的大小寫拼寫錯誤，確保資料彙集的準確性。
 
