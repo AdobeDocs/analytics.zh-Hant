@@ -2,7 +2,7 @@
 title: Analytics 平台之間的處理與架構差異
 description: 瞭解 Adobe Analytics 和 Google Analytics 等平台之間收集和顯示的資料有何不同。
 translation-type: tm+mt
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 66%
@@ -25,7 +25,7 @@ ht-degree: 66%
 
 To achieve better parity between reporting tools, use the [!UICONTROL Single Page Visits] metric in Adobe Analytics instead of [!UICONTROL Bounces] as part of a calculated metric. The [!UICONTROL Single Page Visits] metric includes the total number of visits that only included one-page view, or visits that enter the website but do not include a click to another page.
 
-如需詳細資訊，請參閱「元件」使用指南中的[跳出率](/help/components/c-variables/c-metrics/metrics-bounce-rate.md)量度。
+如需詳細資訊，請參閱「元件」使用指南中的[跳出率](/help/components/metrics/bounce-rate.md)量度。
 
 ## [!UICONTROL 造訪與工作階段]
 
@@ -36,4 +36,4 @@ To achieve better parity between reporting tools, use the [!UICONTROL Single Pag
 * **手動工作階段覆蓋：**&#x200B;如果您使用 `sessionControl` 來手動啟動或結束工作階段，則 Google Analytics 中會啟動新的工作階段。[!UICONTROL 在Adobe Analytics中無法手動結束造訪。]
 * **Adobe Analytics中的異常值瀏覽偵測：** 如果使 [!UICONTROL 用者在] 100秒內達到12小時的連續活動、2500次點擊或100次點擊，Adobe Analytics中的新瀏覽會自動開始。 這些偵測標準通常是由機器人活動所觸發。
 
-如需詳細資訊，請參閱「元件」使用指南中的[造訪](/help/components/c-variables/c-metrics/metrics-visit.md)量度。
+如需詳細資訊，請參閱「元件」使用指南中的[造訪](/help/components/metrics/visits.md)量度。
