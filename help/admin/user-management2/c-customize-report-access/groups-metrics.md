@@ -6,7 +6,10 @@ title: 自訂量度權限
 topic: Admin tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
 
@@ -15,25 +18,25 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 為流量量度、轉換量度、自訂事件、解決方案事件和內容感知啟用權限。
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Metrics]** > **[!UICONTROL Customize]**
+**[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL 報表存取]** > **[!UICONTROL 量度]** > **[!UICONTROL 自訂]**
 
-The settings on the Customize Metrics page apply to the report suites selected on the [!UICONTROL Define User Groups] page.
+「自訂量度」頁面上的設定適用於[!UICONTROL 定義使用者群組]頁面上選取的報表套裝。
 
 ![](assets/customize-metrics.png)
 
 ## 解決方案事件
 
-除了[自訂事件](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/events/event-serialization.html)，此類別也包含 Analytics 解決方案事件，包括 Experience Manager (AEM)、Advertising Cloud (AMO)、行動裝置、視訊和 Social。具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。
+除了[自訂事件](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/events/event-serialization.html)，此類別也包含 Analytics 解決方案事件，包括 Experience Manager (AEM)、Advertising Cloud (AMO)、行動裝置、視訊和 Social。具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。
 
 您可以對自訂事件和 Analytics 解決方案事件 (AEM、AMO、設定權限) 設定權限。
 
 具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。
 
-如需在 Analytics 中所用量度的相關資訊 ，請參閱[量度概觀](/help/components/c-variables/c-metrics/metricslist.md)。
+如需在 Analytics 中所用量度的相關資訊 ，請參閱[量度概觀](/help/components/metrics/overview.md)。
 
 ## 內容感知
 
