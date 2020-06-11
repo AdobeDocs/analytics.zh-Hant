@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的贏取報表
 description: 瞭解如何使用 Analysis Workspace 建立贏取型報表。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1578'
+ht-degree: 100%
 
 ---
 
@@ -53,9 +56,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 如需其各自維度的詳細資訊，請參閱「元件」使用指南中的下列頁面：
 
-* [反向連結網域](/help/components/c-variables/dimensionslist/reports-referring-domains.md)
-* [反向連結類型](/help/components/c-variables/dimensionslist/reports-ref-types.md)
-* [搜尋關鍵字](/help/components/c-variables/dimensionslist/reports-search-keywords.md)
+* [反向連結網域](/help/components/dimensions/referring-domain.md)
+* [反向連結類型](/help/components/dimensions/referrer-type.md)
+* [搜尋關鍵字](/help/components/dimensions/search-keyword.md)
 
 ## 所有流量 - 反向連結
 
@@ -65,7 +68,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 在元件功能表中，找出&#x200B;**反向連結網域**&#x200B;或&#x200B;**登入頁面**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[反向連結網域](/help/components/c-variables/dimensionslist/reports-referring-domains.md)維度。
+如需詳細資訊，請參閱「元件」使用指南中的[反向連結網域](/help/components/dimensions/referring-domain.md)維度。
 
 ## Google Ads 報表和 Search Console 報表
 
