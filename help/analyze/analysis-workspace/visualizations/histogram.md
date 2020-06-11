@@ -3,7 +3,10 @@ description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型�
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '371'
+ht-degree: 97%
 
 ---
 
@@ -16,9 +19,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 若要建立色階分佈圖：
 
-1. Click **[!UICONTROL Visualizations]** in the left rail.
-1. Drag **[!UICONTROL Histogram]** to the panel.
-1. Choose a Metric to drag to the Histogram visualization and click **[!UICONTROL Build]**.
+1. 按一下左側欄中的&#x200B;**[!UICONTROL 「視覺效果」]**。
+1. 將&#x200B;**[!UICONTROL 「色階分佈圖」]**&#x200B;拖曳至面板。
+1. 選擇要拖曳至色階分佈圖視覺效果的量度並按一下&#x200B;**[!UICONTROL 「建立」]**。
 
 ![](assets/histogram.png)
 
@@ -37,7 +40,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 | 起始貯體 | 決定色階分佈圖開始使用的貯體。「1」是預設值。您可設定從 0 開始的數字，一直到無限大 (無負數)。 |
 | 量度貯體 | 可讓您增加/減少資料範圍 (貯體) 的數目。貯體的最大數量是 50。 |
 | 量度貯體大小 | 可讓您設定每個貯體的大小。例如，您可將貯體大小從 1 次頁面檢視變更為 2 次頁面檢視。 |
-| 計算方法 | Lets you choose among [Visitor](/help/components/c-variables/c-metrics/visitors.md), [Visit](/help/components/c-variables/c-metrics/metrics-visit.md), or [Hit Type](/help/components/c-variables/dimensionslist/report-hit-type.md). 例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
+| 計算方法 | Lets you choose among [Visitor](/help/components/metrics/unique-visitors.md), [Visit](/help/components/metrics/visits.md), or [Hit Type](/help/components/dimensions/hit-type.md). 例如，每次造訪的頁面檢視數、每個訪客的頁面檢視數，或每次點擊的頁面檢視數。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。 |
 
 <!--Russ or Meike - Check Hit Type link above. -->
 
@@ -48,11 +51,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 檢視和編輯色階分佈圖資料 {#section_B2CD7CDF0F6B432F928103AE7AAA3617}
 
-To view or change the data source for the histogram chart, click the dot next to the Histogram header to go to **[!UICONTROL Data Source Settings]** > **[!UICONTROL Show Data Source]**.
+若要檢視或變更色階分佈圖的資料來源，請按一下色階分佈圖標頭旁的點，前往「**[!UICONTROL 資料來源設定]** > **[!UICONTROL 顯示資料來源]**」。
 
 ![](assets/manage-data-source.png)
 
-此表格中顯示的預先建立區段是內部區段，不會顯示在區段選取器中。Click the &quot;i&quot; icon next to the segment name, then click **[!UICONTROL Make public]** to make the segment public.
+此表格中顯示的預先建立區段是內部區段，不會顯示在區段選取器中。按一下區段名稱旁的「i」圖示，然後按一下&#x200B;**[!UICONTROL 「設為公用」]**，將該區段設為公用。
 
 ![](assets/prebuilt_segments.png)
 
