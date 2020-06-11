@@ -3,7 +3,7 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: 44112013e049e6e76554530ba438c71fee902841
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 99%
@@ -109,7 +109,7 @@ ht-degree: 99%
 |--- |--- |
 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組分析的重大改善可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
 | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
-| [支援歸因 IQ 中的多值變數](attribution-iq.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將歸因 IQ 套用至這些點擊層級變數。 |
+| [支援歸因 IQ 中的多值變數](attribution/overview.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將歸因 IQ 套用至這些點擊層級變數。 |
 | 改善效能 | 提升劃分視覺效果的速度，具有大量劃分的專案會更快載入。 |
 
 ## 2018 年 11 月
@@ -210,7 +210,7 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b> <a href="attribution-iq.md"  > 歸因 IQ </a> </b> </p> </td> 
+   <td colname="col1"> <p><b> <a href="attribution/overview.md"  > 歸因 IQ </a> </b> </p> </td> 
    <td colname="col2"> <p>歸因 IQ 可讓您針對行銷績效執行更精細的智慧化分析作業。全新的歸因模式適用於 Analysis Workspace (任何表格或任何劃分) 與計算量度中的量度。全新的歸因面板可提供更理想的視覺化效果和比較功能。 </p> </td> 
   </tr> 
   <tr> 
