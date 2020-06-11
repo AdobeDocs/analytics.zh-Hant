@@ -1,18 +1,21 @@
 ---
 description: 您可以立即共用及組織專案，並傳送專案檔案 (以 PDF 或 CSV 格式)，或依排程進行。
-title: 共用和排程專案檔案
+title: 共用功能表
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 96%
 
 ---
 
 
-# 共用和排程專案檔案
+# 共用功能表
 
 您可以立即共用及組織專案，並傳送專案檔案 (以 PDF 或 CSV 格式)，或依排程進行。
 
-**[!UICONTROL Workplace]** > **[!UICONTROL Share]**
+**[!UICONTROL 「Workplace]** > **[!UICONTROL 共用」]**
 
 <table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
  <thead> 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
  <tbody> 
   <tr> 
    <td colname="col1"> 共用專案 </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > 詳細資訊</a> </td> 
+   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > 詳細資訊</a> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 取得專案連結 </td> 
