@@ -3,7 +3,10 @@ description: 如何開始使用 Adobe Analytics。
 keywords: Analysis Workspace
 title: 快速入門指南
 translation-type: tm+mt
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 100%
 
 ---
 
@@ -26,9 +29,9 @@ Analysis Workspace 是 Adobe 的旗艦級工具之一，可供組織運用資料
 4. 按一下「建立新專案」按鈕。
 5. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
 6. 左側應會顯示含有維度、量度、區段和日期範圍的清單。找到「頁面」維度 (顯示為橙色)，將該維度拖曳至畫布上顯示「將維度放置在此處」的位置。
-7. 請注意，如果報表套裝中含有資料，您就會看到顯示當月成效最佳頁面的報表。Analysis Workspace 會自動在報表中填入[「發生次數」](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度。
+7. 請注意，如果報表套裝中含有資料，您就會看到顯示當月成效最佳頁面的報表。Analysis Workspace 會自動在報表中填入[「發生次數」](/help/components/metrics/occurrences.md)量度。
 8. 找出「造訪次數」量度 (顯示為綠色)，並將此量度拖曳到「發生次數」量度標頭&#x200B;**中**&#x200B;或&#x200B;**旁邊** (請避免放到量度上方)。如果將「造訪次數」量度拖曳到「發生次數」上，前者就會在報表中取代後者。如果將「造訪次數」量度拖曳到「發生次數」旁，兩個量度會並排顯示。
-9. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+9. 如果您想要儲存專案，請按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案]>[!UICONTROL 儲存」]*。
 
 ## 在 Workspace 中提取基本趨勢報表
 
@@ -44,13 +47,13 @@ Analysis Workspace 是 Adobe 的旗艦級工具之一，可供組織運用資料
 8. 在左側日期範圍元件清單中找到「週」日期範圍 (顯示為紫色)。按一下日期範圍標題以展開並查看所有日期範圍元件，或使用搜尋列搜尋元件。
 9. 將「週」日期範圍拖曳至畫布上的「天」日期範圍標頭上方，藉此取代「天」。
 10. 請注意，此時趨勢報表會按週彙總資料，而非按天。
-11. If you&#39;d like to save your project, click *[!UICONTROL Project]>[!UICONTROL Save]*in the upper left menu.
+11. 如果您想要儲存專案，請按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案]>[!UICONTROL 儲存」]*。
 
 ## 透過工具進行實驗
 
 Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。
 
-如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。You can also start with a clean slate by clicking *[!UICONTROL Project]>[!UICONTROL New]*in the upper left menu.
+如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案]>[!UICONTROL 新專案」]*，以空白顯示窗開始操作。
 
 ## 疑難排解
 
@@ -71,7 +74,7 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 
 * [Analysis Workspace 發行說明](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)：詳閱工具採用的最新功能。
 * [在 YouTube 觀看 Analysis Workspace 教學](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)：了解如何透過這項廣泛播放清單使用 Analysis Workspace 的多數功能。
-* 產品使用秘訣：Analysis Workspace 右下方有時候會顯示每日秘訣，並搭配短片。If these tips are dismissed, they can be reached through *[!UICONTROL Help]>[!UICONTROL Tips]*at any time.
+* 產品使用秘訣：Analysis Workspace 右下方有時候會顯示每日秘訣，並搭配短片。如果您關閉了這些秘訣，仍可以隨時前往&#x200B;*[!UICONTROL 「說明]>[!UICONTROL 秘訣」]* 查看。
 * [Analysis Workspace 社群](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics/analysis-workspace)：與其他使用者討論 Analysis Workspace 相關事項，並可投票選出想要加到工具中的功能。
 * 部落格貼文：
    * [使用更聰明的分析強化組織](https://blogs.adobe.com/digitalmarketing/analytics/adobe-analytics-fall-2016-release-empowering-organizations-smarter-analysis/)
@@ -95,7 +98,7 @@ Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將�
 * 共用 Workspace 中的專案：向同事展示您建立的出色 Workspace 專案。
 * [(進階) Workspace 的面板](/help/analyze/analysis-workspace/c-panels/panels.md)：使用 Workspace 的進階功能，例如「歸因」和「區段比較」。
 
-### 針對想要改善其組織中工作區品質的分析師和管理員
+### 如果您是想要改善組織 Workspace 品質的分析師和管理員
 
 * [Analysis Workspace 權限](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)：透過 Adobe Admin Console 在 Workspace 中指派使用者權限。
 * [Workspace 中的範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)：建立範本，方便讓同事根據自己的需求量身打造專案空間。
