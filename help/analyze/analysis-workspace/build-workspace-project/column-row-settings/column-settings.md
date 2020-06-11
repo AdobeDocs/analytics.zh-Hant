@@ -3,7 +3,10 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 欄設定 {#section_C5A9C13553BF4BFDAD7FACE0139AECA3}
 
-To access [!UICONTROL Column Settings], drag a Freeform Table to the project, then click the gear icon in the column heading.
+若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
 
 ![](assets/column_settings.png)
 
@@ -46,6 +49,19 @@ To access [!UICONTROL Column Settings], drag a Freeform Table to the project, th
 | 自動產生 | 自動產生條件式格式的限制。上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
 | 自訂 | 您可以手動指派條件式格式的「上限」、「中點」和「下限」欄位。這可提供由您決定欄的值是好、中等或壞的彈性。 |
 | 表格儲存格預覽 | 顯示目前已套用選定格式選項之各儲存格的呈現方式預覽。 |
+
+## 使用非預設歸因模式
+
+分析工作區支援 [幾乎任何](../../attribution/overview.md) 度量的歸因。
+
+1. 按一下自由表格欄中的「設定」(齒輪) 圖示。
+
+   ![歸因核取方塊](assets/attribution-checkbox.png)
+
+2. 在&#x200B;**[!UICONTROL 「資料設定」]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+
+   ![選擇歸因模型](assets/attribution-select.png)
+
 
 >[!MORELIKETHIS]
 >
