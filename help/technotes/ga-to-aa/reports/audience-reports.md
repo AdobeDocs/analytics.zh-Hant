@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的對象報表
 description: 瞭解如何使用 Analysis Workspace 建立對象型報表。
 translation-type: tm+mt
-source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '1715'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 6217430bf0ae9c0f9c6426e4bb2a8101257068e7
 2. 按一下左側的「元件」圖示，然後將&#x200B;**獨特訪客**&#x200B;量度拖曳至標示為「將量度放置在此處」的較小空間。
 3. 如果需要不同的詳細程度，請在現有日期維度標頭上拖曳所需的日期範圍 (例如&#x200B;**日**、**週**、**月**&#x200B;等)。
 
-如需 Adobe 如何計算獨特訪客的詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/c-variables/c-metrics/metrics-unique-visitors.md)。
+如需 Adobe 如何計算獨特訪客的詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/metrics/unique-visitors.md)。
 
 ## 期限值
 
@@ -69,7 +72,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在「元件」功能表中，找出&#x200B;**語言**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[語言](/help/components/c-variables/dimensionslist/reports-languages.md)維度。
+如需詳細資訊，請參閱「元件」使用指南中的[語言](/help/components/dimensions/language.md)維度。
 
 ## 地域 - 位置
 
@@ -86,7 +89,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在「元件」功能表中，找出&#x200B;**國家**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[地域劃分](/help/components/c-variables/dimensionslist/reports-geosegmentation.md)維度。
+See the [Countries](/help/components/dimensions/countries.md) dimensions in the Components user guide for more information.
 
 ## 行為 - 新造訪與回訪
 
@@ -111,7 +114,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在元件功能表中，找出&#x200B;**造訪次數**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[造訪次數](/help/components/c-variables/dimensionslist/reports-visitor-number.md)維度。
+如需詳細資訊，請參閱「元件」使用指南中的[造訪次數](/help/components/dimensions/visit-number.md)維度。
 
 ## 行為 - 參與
 
@@ -120,7 +123,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在元件功能表中，找出&#x200B;**每次造訪逗留時間 - 分組**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[每次造訪逗留時間](/help/components/c-variables/dimensionslist/reports-time-spent-per-visit.md)維度。
+如需詳細資訊，請參閱「元件」使用指南中的[每次造訪逗留時間](/help/components/dimensions/time-spent-per-visit.md)維度。
 
 ## 技術 - 瀏覽器與作業系統
 
@@ -137,10 +140,10 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 
 如需其各自維度的詳細資訊，請參閱「元件」使用指南中的下列頁面：
 
-* [瀏覽器](/help/components/c-variables/dimensionslist/reports-browsers.md)
-* [作業系統 ](/help/components/c-variables/dimensionslist/reports-operating-system.md)
-* [監視器解析度](/help/components/c-variables/dimensionslist/reports-technology.md)
-* [色彩深度](/help/components/c-variables/dimensionslist/reports-color-depth.md)
+* [瀏覽器](/help/components/dimensions/browser.md)
+* [作業系統 ](/help/components/dimensions/operating-systems.md)
+* [監視器解析度](/help/components/dimensions/monitor-resolution.md)
+* [色彩深度](/help/components/dimensions/color-depth.md)
 
 ## 技術 - 網路
 
@@ -149,7 +152,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在「元件」功能表中，找出&#x200B;**網域**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[網域](/help/components/c-variables/dimensionslist/reports-domains.md)維度。
+如需詳細資訊，請參閱「元件」使用指南中的[網域](/help/components/dimensions/domain.md)維度。
 
 ## 行動 - 概觀
 
@@ -158,7 +161,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在元件功能表中，找出&#x200B;**行動裝置類型**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[行動裝置類型](/help/components/c-variables/dimensionslist/reports-device-types.md)維度。
+See the [Mobile device type](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## 行動 - 裝置
 
@@ -167,7 +170,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在元件功能表中，找出&#x200B;**行動裝置**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-如需詳細資訊，請參閱「元件」使用指南中的[行動裝置](/help/components/c-variables/dimensionslist/reports-devices.md)維度。
+See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimension in the Components user guide for more information.
 
 ## 自訂
 
