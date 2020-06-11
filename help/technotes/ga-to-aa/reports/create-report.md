@@ -2,7 +2,10 @@
 title: 在 Analysis Workspace 中建立基本報表
 description: 瞭解如何在 Analysis Workspace 中建立以熟悉 Google Analytics 等協力廠商工具的使用者為對象之格式的基本報表。
 translation-type: tm+mt
-source-git-commit: 099662d021c1919f0760e79154536cfd0e23e959
+source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 100%
 
 ---
 
@@ -36,7 +39,7 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
 1. 按一下「建立新專案」按鈕。
 1. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
 1. 左側會顯示含有維度、量度、區段和日期範圍的清單。找出「頁面」維度 (顯示為橙色)，將該維度拖曳至畫布上標示「將維度放置在此處」的位置。
-1. 您會看到顯示本月最上層頁面的報表。Analysis Workspace 會自動在報表中填入[發生次數](/help/components/c-variables/c-metrics/metrics-occurrences.md)量度。
+1. 您會看到顯示本月最上層頁面的報表。Analysis Workspace 會自動在報表中填入[發生次數](/help/components/metrics/occurrences.md)量度。
 1. Google Analytics 中的表格通常包含 7-8 個量度。找出「跳出率」量度 (顯示為綠色)，並將該量度拖曳至「發生次數」量度標頭旁。如果將「跳出率」量度拖曳到「發生次數」旁，兩個量度會並排顯示。
 1. 許多量度可以並排放置，方法是將量度拖曳至現有量度標頭旁。如需如何取得 Google Analytics 中[經常使用之量度](common-metrics.md)的相關資訊，請參閱常用量度。
 
