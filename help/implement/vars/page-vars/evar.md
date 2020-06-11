@@ -1,21 +1,22 @@
 ---
 title: eVar
 description: 可在實施中使用的自訂變數。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 86%
 
 ---
 
 
 # eVar
 
-*此說明頁面說明如何實施 eVar。如需 eVar 如何當作維度的詳細資訊，請參閱元件使用手冊中的[eVar](../../../components/c-variables/dimensionslist/reports-conversion.md)。*
+*此說明頁面說明如何實施 eVar。如需 eVar 如何當作維度的詳細資訊，請參閱元件使用手冊中的[eVar](/help/components/dimensions/evar.md)。*
 
-eVar 是自訂變數，您可以視需要使用。
+eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。依預設，eVar 可存留於其設定的點擊之外。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
->[!TIP] Adobe 建議您在大部分情況下使用 eVar 來取代 prop。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
-
-請務必將每個 eVar 的使用方式與其邏輯記錄在[解決方案設計文件](../../prepare/solution-design.md)內。
+可用eVar的數量視您與Adobe的合約而定。 若您與Adobe的合約支援，則最多可使用250個eVar。
 
 ## 在報表套裝設定中設定 eVar
 
@@ -32,7 +33,7 @@ eVar 是自訂變數，您可以視需要使用。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「eVar」]區段。
 
-您可以選取 eVar 來設定值或資料元素。您也可以複製其他 Analytics 變數的值。
+您可以將eVar設為值或資料元素。 您也可以複製其他 Analytics 變數的值。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.eVar1 - s.eVar250
 
@@ -56,13 +57,4 @@ s.eVar1 = "+12.49";
 
 若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar 計數器不能包含負數。
 
->[!IMPORTANT] 您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
-
-## prop 或 eVar 的獨特優點
-
-在目前的 Adobe Analytics 版本中，prop 和 eVar 都是具有類似功能的自訂變數。儘管如此，兩者之間還是有幾項重大差異：
-
-* prop 中的資料可在數分鐘內供報表使用。eVar 可能需要 30 分鐘以上才會出現在報表中。
-* prop 在報表中的長度限制為 100 個位元組。eVar 的長度限制為 255 個位元組。
-* prop 可成為清單屬性，這些 prop 能在同一次點擊中接受多個值。清單變數是個別的變數，而且只有三個清單變數可供使用。
-* 依預設，prop 不會持續存在超過設定的點擊。eVar 有自訂的過期時間，可讓您判斷 eVar 何時不再獲得後續事件的評分。不過，如果您使用[報表時間處理](../../../components/vrs/vrs-report-time-processing.md)，prop 和 eVar 都可以使用自訂歸因模型。
+> [!IMPORTANT] 您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
