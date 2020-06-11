@@ -2,8 +2,11 @@
 description: 比較 Analysis Workspace 與 Ad Hoc Analysis 的術語和工作
 title: 比較 Analysis Workspace 與 Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
 
 如需這兩項產品的重要功能技術比較和系統需求相關資訊，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-overview/analytics-product-comparison.html)。
 
-## 重要術語的比較{#section_6109406B83B043A18E46D38F130B1D2E}
+## 重要術語的比較 {#section_6109406B83B043A18E46D38F130B1D2E}
 
 | Ad Hoc Analysis | Analysis Workspace |
 |--- |--- |
@@ -29,7 +32,7 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
 | 流量範本 | 流量視覺效果 |
 | 流失 | 流失視覺效果 |
 
-## 重要工作的比較{#section_F31446F1DFA742D794A30D713E223440}
+## 重要工作的比較 {#section_F31446F1DFA742D794A30D713E223440}
 
 <table id="table_90D4461F04F34D70844C5E3FBB0BBE44"> 
  <thead> 
@@ -100,7 +103,7 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
   </tr> 
   <tr> 
    <td colname="col1"> <p>歸因 IQ </p> </td> 
-   <td colname="col2"> <p>您可以使用 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution-iq.md"  >歸因 IQ</a>，將許多新類型的歸因模型新增至自由表格、視覺效果和計算量度中。 </p> </td> 
+   <td colname="col2"> <p>您可以使用 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >歸因 IQ</a>，將許多新類型的歸因模型新增至自由表格、視覺效果和計算量度中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>不包括 </p> </td> 
