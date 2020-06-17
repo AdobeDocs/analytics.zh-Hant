@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 8a6c84b386d794e8929f4f9e0810a908a13387b8
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 75%
 
 ---
@@ -50,6 +50,7 @@ ht-degree: 75%
    + [首次接觸頻道](dimensions/first-touch-channel.md)
    + [首次接觸渠道的詳細資訊](dimensions/first-touch-detail.md)
    + [點擊深度](dimensions/hit-depth.md)
+   + [點擊類型](dimensions/hit-type.md)
    + [一天中的某小時](dimensions/hour-of-day.md)
    + [小時](dimensions/hour.md)
    + [Java 已啟用](dimensions/java-enabled.md)
