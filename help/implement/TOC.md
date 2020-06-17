@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 245aa818c39f34dab83f061359469c7f77346d3b
+source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 92%
+source-wordcount: '443'
+ht-degree: 98%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 92%
       + [contextData](vars/page-vars/contextdata.md)
       + [動態變數](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
+      + [eVar（銷售）](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [事件概述](vars/page-vars/events/events-overview.md)
          + [購買事件](vars/page-vars/events/event-purchase.md)
@@ -154,7 +155,7 @@ ht-degree: 92%
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
-   + [將啟動資料元素對應至Analytics變數](launch/elements-to-variable.md)
+   + [將 Launch 資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 在其他平台上實施 Analytics {#other}
    + [使用硬式編碼影像要求實施 Analytics](other/hardcoded.md)
    + 使用 DTM 實施 Analytics {#dtm}
@@ -200,6 +201,6 @@ ht-degree: 92%
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
-+ 搭配Analytics使用XDM資料 {#aep-edge}
-   + [使用AEP Web SDK](aep-edge/xdmoverview.md)
++ 透過 Analytics 使用 XDM 資料 {#aep-edge}
+   + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
    + [手動將XDM資料對應至Analytics](aep-edge/xdm-manual.md)
