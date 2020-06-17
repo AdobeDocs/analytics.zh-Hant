@@ -2,7 +2,7 @@
 title: 獨特訪客
 description: 唯一個人（或裝置）的數目。
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -45,7 +45,7 @@ ht-degree: 10%
 * 在不同裝置上瀏覽您網站的同一人。 個別獨特訪客會計入每個裝置。 您可以使用 [跨裝置分析](../cda/cda-home.md) ，使用「人物」度量將訪客 [結合在一起](people.md) 。
 * 開啟私人瀏覽作業（例如Chrome的Incognito標籤）。
 
-只要保留Cookie識別&#x200B;*碼* ，就不會計入新的獨特訪客*:
+只要保留Cookie識 *別碼* ，就不會計算新的獨特訪客：
 
 * 在較長時間內關閉瀏覽器
 * 將其瀏覽器升級至最新版本
