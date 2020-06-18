@@ -3,10 +3,10 @@ description: 工作區中的專案共用與專案角色
 keywords: Analysis Workspace sharing
 title: 共用工作區專案
 translation-type: tm+mt
-source-git-commit: 529812c3e26744ce245ee12e24c58b7bee803084
+source-git-commit: 2312330f9371922ee895b622230d7fa9c3632c12
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 9%
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
@@ -17,16 +17,16 @@ ht-degree: 9%
 
 ## 專案角色
 
-您可以將收件者新增至三個專案角色中的一個。 專案角色會系結至使用者和特定專案ID。
-
->[!NOTE]
-> 專案角色不受Experience Cloud管理控制台中管理的使用者權限影響。
+您可以將收件者新增至三個專案角色中的一個。 專案角色會系結至使用者和特定專案ID。 專案角色不受 [Experience Cloud管理控制台中管理的使用者權限影響](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)。
 
 | 角色 | 專案控制 |
 |---|---|
 | 可編輯 | 收件者可變更專案，以共同擁有者的身分操作。<br>如果您想要與同事在專案上協作，這個角色會很有用。 |
 | 可重複 | 收件者可另存新檔及存取左側邊欄，互動方式不會受限。<br>如果您想要將專案共用給瞭解組織資料以及如何使用分析工作區的使用者，但您不希望變更儲存的專案，這個角色就很有用。 |
 | 可檢視 | 收件者無法另存新檔，也無法存取左側導軌。 互動也是有限的。<br>如果您想要將專案共用給對您組織的資料結構、分析工作區或Adobe Analytics不太熟悉的使用者，這個角色就很有用。 不過，您仍希望他們在安全的環境中使用資料和見解。<br>進一步瞭解「可 [以檢視專案體驗」](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
+
+>[!IMPORTANT]
+> 在2020年6月18日之前新增的專案收件者已移轉至專案角色。 已移轉至「可編輯」角色的管理員用戶和已移轉至「可查看」角色的非管理員用戶。 這些角色提供與先前相同的專案體驗。
 
 ### 未分配角色
 
