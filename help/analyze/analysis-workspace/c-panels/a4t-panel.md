@@ -2,10 +2,10 @@
 description: Analytics for Target(A4T)面板可讓您分析分析分析工作區中的Adobe Target活動和體驗。
 title: Analytics for Target(A4T)面板
 translation-type: tm+mt
-source-git-commit: 9363888ec740b182bc523c6138f9623e1ab0ffda
+source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 16%
+source-wordcount: '855'
+ht-degree: 15%
 
 ---
 
@@ -61,8 +61,9 @@ ht-degree: 16%
 | 問題 | 回答 |
 |---|---|
 | A4T支援哪些活動類型？ | [進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html) ，支援哪些活動類型。 |
-| A4T報告中是否支援計算量度？ | 不可以，[進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) ，為何不支援計算量度。 |
+| 提升度和信賴度計算中是否支援計算量度？ | 不可以，[進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) 「提升度與信賴度」中為何不支援計算量度。 不過，計算量度可用於這些量度以外的A4T報表。 |
 | 為什麼Target和Analytics之間會有不同的獨特訪客？ | [進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) ，產品之間的獨特訪客差異。 |
 | 當我在分析中套用特定Target活動的點擊區段時，為什麼會看到傳回的不相關體驗？ | A4T維度是清單變數，這表示它可同時包含許多活動（和體驗）。 [更多詳情](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 信賴度量是否可計算極端訂單，或套用Bonferroni修正多個選件？ | 不可以，[進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics如何計算信心。 |
 
 如需Analytics for Target報表的詳細資訊，請造 [訪A4T報表](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
