@@ -3,7 +3,7 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: a5eeb8016f948c45973841c0ab574a0416fdfc3c
+source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 100%
@@ -54,7 +54,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *維度* | 您希望近似相異項目計數的維度。 |
 
-## 範例使用案例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### 範例使用案例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 近似相異計數 (客戶 ID eVar) 是此函數的常見使用案例。
 
@@ -66,11 +66,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-## 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
+### 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
 就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
-## 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() 是改良 Count() 和 RowCount() 函數後的成果。其可將建立的量度用於任何維度報表，藉此演算不同維度項目的近似計數。例如，用於「行動裝置類型」報表中的客戶 ID 計數。
 
