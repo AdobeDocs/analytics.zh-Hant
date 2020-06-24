@@ -3,10 +3,10 @@ description: 工作區中的專案共用與專案角色
 keywords: Analysis Workspace sharing
 title: 共用工作區專案
 translation-type: tm+mt
-source-git-commit: 3592544843d6c5e64eb0d009a2526ae41689c575
+source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 6%
+source-wordcount: '1073'
+ht-degree: 5%
 
 ---
 
@@ -21,8 +21,8 @@ ht-degree: 6%
 
 | 角色 | 專案控制 |
 |---|---|
-| 可編輯 | 收件者可變更專案，以共同擁有者的身分操作。如果您想要與其他同事共同編輯專案，這個角色會很有用。<br>注意： 分析工作區目前不支援即時協作，因此建議在指定時間只有一位使用者編輯專案。 如果專案同時儲存，則會保留最後一個版本。 |
-| 可重複 | 收件者可以「另存新檔」並存取左側導軌。 此角色不限於專案互動。 如果您想要將專案共用給瞭解組織資料以及如何使用分析工作區的使用者，但您不想變更專案，這個角色就很有用。 |
+| 可編輯 | Recipients can **[!UICONTROL Save]** changes to a project and function as co-owners. 如果您想要與其他同事共同管理專案，則此角色很有用； 這包括編輯、刪除和修改共用專案的收件者清單。 <br>注意： 分析工作區目前不支援即時協作，因此建議在指定時間只有一位使用者編輯專案。 如果專案同時儲存，則會保留最後一個版本。 |
+| 可重複 | 收件者可 **[!UICONTROL 以「另存新檔]** 」並存取左側導軌。 此角色不限於專案互動。 如果您想要將專案共用給瞭解組織資料以及如何使用分析工作區的使用者，但您不想變更專案，這個角色就很有用。 |
 | 可檢視 | 收件者無法另存新檔，也無法存取左側導軌。 專案互動也有限。 如果您想要將專案共用給對您組織的資料結構、分析工作區或Adobe Analytics不太熟悉的使用者，這個角色就很有用。 不過，您仍希望他們在安全的環境中使用資料和見解。<br>進一步瞭解「可 [以檢視專案體驗」](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
 
 >[!IMPORTANT]
@@ -30,7 +30,7 @@ ht-degree: 6%
 
 ### 未指派任何角色（專案連結收件者）
 
-如果收件者未獲指派角色並收到專案的連結(**[!UICONTROL Share]>[!UICONTROL Get project link]**)，則依預設會將他們置於 **[!UICONTROL Can duplicate]** role。
+如果收件者未獲指派角色，並收到專案的連結(**[!UICONTROL Share]>[!UICONTROL Get project link]**)，則預設會將他們置於角色中。 管理員會 **[!UICONTROL 收到]** 「可以編輯」，非管理員會收到「 **[!UICONTROL 可以複製」]**。
 
 ### 指派多個角色
 
@@ -65,9 +65,7 @@ ht-degree: 6%
 
 ## Share a project link {#Links}
 
-您可以在「共用>取得專案」連結 **[!UICONTROL 下取得][!UICONTROL 專案連結]**。 按一下後，收件者必須先登入，才能登入專案。 如果收件者尚未被置於專案角色中，預設會收到 **[!UICONTROL Can重複]** 專案體驗。
-
-您也可以從「元件 **[!UICONTROL >專案」共]用專案**。 依照上述相同步驟，可共用單一專案
+您可以在「共用>取得專案」連結 **[!UICONTROL 下取得][!UICONTROL 專案連結]**。 按一下後，收件者必須先登入，才能登入專案。 如果收件者尚未被置於角色中，他們將會收到預設角色。 管理員會 **[!UICONTROL 收到]** 「可以編輯」，非管理員會收到「 **[!UICONTROL 可以複製」]**。
 
 ## 在專案經理中共用專案 {#Manager}
 
@@ -92,4 +90,4 @@ ht-degree: 6%
 | 如果兩個編輯器同時儲存專案，會發生什麼情況？ | 不會合併變更，並保留上次儲存的專案版本。 分析工作區目前不支援即時協作。 |
 | 身為管理員，我將看到哪些專案體驗？ | 被置於「可以 **[!UICONTROL 」或「]****** 可以檢視」角色的管理員，在開啟專案時，會收到這些有限的體驗。 視需要，管理員可將其角色增加為 **[!UICONTROL 隨時透過「元件]** >專案」 **[!UICONTROL 進行][!UICONTROL 編輯]**。 |
 | 如果收件者以個人身分被置於某個角色，而以群組成員身分被置於另一個角色，會發生什麼情況？ | 如果收件者被置於多個角色中，他們將永遠獲得更高的體驗。 例如，如果收件者獲得「可以 **[!UICONTROL 編輯]** 」角色作為個人，而「可以 **[!UICONTROL 」角色作為群組的成員查看，他們將會收到「可以編輯]****** 」專案體驗。 |
-| 如果收件者開啟專案連結，會獲得哪些體驗？ | 如果收件者未獲指派角色並收到專案的連結(**[!UICONTROL Share]>[!UICONTROL Get project link]**)，則依預設會將他們置於 **[!UICONTROL Can duplicate]** role。 |
+| 如果收件者開啟專案連結，會獲得哪些體驗？ | 收件者會收到您在分享模式中置入他們的角色。 如果收件者未獲指派角色，並收到專案的連結(**[!UICONTROL Share]>[!UICONTROL Get project link]**)，則預設會將他們置於角色中。 管理員會 **[!UICONTROL 收到]** 「可以編輯」，非管理員會收到「 **[!UICONTROL 可以複製」]**。 |
