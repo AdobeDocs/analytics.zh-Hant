@@ -4,7 +4,10 @@ title: 可自訂覆蓋圖
 topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 100%
 
 ---
 
@@ -47,7 +50,9 @@ Activity Map 提供下列三種覆蓋圖：
 
 ![](assets/bubble_overlay.png)
 
->[!NOTE] 您必須顯示子功能表，才會顯示子功能表的氣泡覆蓋圖：
+>[!NOTE]
+>
+> 您必須顯示子功能表，才會顯示子功能表的氣泡覆蓋圖：
 >
 >![](assets/bubbles_submenu.png)>
 
