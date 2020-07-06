@@ -2,8 +2,11 @@
 description: 'null'
 title: 區段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '367'
+ht-degree: 100%
 
 ---
 
@@ -32,12 +35,14 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/segment-dropzone.png)
 
->[!NOTE]此為專案內部專用的區段建立方式。
+>[!NOTE]
+>
+>此為專案內部專用的區段建立方式。
 
 您可以遵循下列步驟將這些區段設為公用 (全域)：
 
 1. 在拖放區域中的區段上暫留並按一下「i」圖示。
-1. 在顯示的資訊面板中，按一下「**[!UICONTROL Make public]**」。
+1. 在顯示的資訊面板中，按一下&#x200B;**[!UICONTROL 「設為公用」]**。
 
    ![](assets/segment-info.png)
 
