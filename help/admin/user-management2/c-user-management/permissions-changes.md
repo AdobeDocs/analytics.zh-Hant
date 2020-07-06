@@ -6,7 +6,10 @@ title: 使用者和群組權限變更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1562'
+ht-degree: 100%
 
 ---
 
@@ -15,13 +18,15 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 ## 變更為何？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]**
+**[!UICONTROL 「管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組」]**
 
->[!NOTE] 因為可能的權限組合數量相當多，我們提供的文件無法完整說明可用於每一個權限組合的所有 API 方法。一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
+>[!NOTE]
+>
+> 因為可能的權限組合數量相當多，我們提供的文件無法完整說明可用於每一個權限組合的所有 API 方法。一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
 
 由於 API 和介面使用相同的權限系統，因此無論管理員是否在介面 (Adobe Admin Console) 中授權給特定非管理員，這些權限都會與使用者在 API 中具有的權限相同。
 
@@ -61,7 +66,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
    <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
     </ul> <p>請參閱<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自訂維度權限</a>。 </p> </td> 
   </tr> 
   <tr> 
@@ -123,7 +128,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 下表列出工作以及工作發生的位置 (視公司的狀態而定)。
 
->[!NOTE] *`migrated user`* 和 *`Experience Cloud user`*&#x200B;是指已接受加入 Experience Cloud 電子郵件邀請的使用者。如果對方未接受電子郵件邀請，則將仍為 Analytics 使用者，無法在 Admin Console 接受管理。(如果是使用[企業或同盟 ID](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) 進行移轉則為例外。在此情況下，使用者是在管理員以使用者為基礎移轉使用者時移轉。)
+>[!NOTE]
+>
+> *`migrated user`* 和 *`Experience Cloud user`*&#x200B;是指已接受加入 Experience Cloud 電子郵件邀請的使用者。如果對方未接受電子郵件邀請，則將仍為 Analytics 使用者，無法在 Admin Console 接受管理。(如果是使用[企業或同盟 ID](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html) 進行移轉則為例外。在此情況下，使用者是在管理員以使用者為基礎移轉使用者時移轉。)
 
 <table id="table_B68FD00FC5D24823A86BB69558C0327C"> 
  <thead> 
