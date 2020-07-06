@@ -3,8 +3,11 @@ description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段
 title: 發佈區段至 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1345'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 我們也將可發佈的 Adobe Analytics 區段數量上限從 20 個增加到 75 個。您可以在[!UICONTROL 「Analytics > 元件 > 區段」]中檢視已發佈的區段。
 
->[!NOTE] Adobe Campaign (Classic 和 Standard 版) 的運作方式不同，除了 8 小時延遲外，還會產生額外的 24 小時延遲。
+>[!NOTE]
+>
+> Adobe Campaign (Classic 和 Standard 版) 的運作方式不同，除了 8 小時延遲外，還會產生額外的 24 小時延遲。
 
 
 ## 必備條件
@@ -46,7 +51,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 在[!UICONTROL 區段產生器]中發佈區段
 
-1. 導覽至 **[!UICONTROL Analytics > Workspace > 元件 > 區段]> +**
+1. 導覽至 **[!UICONTROL Analytics >工作區> 元件 > 區段]> +**
 1. 在[!UICONTROL 區段產生器]中建立區段。
 1. 提供區段的標題和說明 (如未提供便無法儲存)。
 1. 請參閱&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*報表套裝*)]**。
@@ -70,7 +75,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 若要刪除已發佈至 Experience Cloud 的區段，必須先將其取消發佈。若要取消發佈區段，只需&#x200B;**取消勾選**&#x200B;您用來發佈該區段的核取方塊即可。
 
->[!NOTE]您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
+>[!NOTE]
+>
+>您&#x200B;**無法**&#x200B;取消發佈下列任何 Adobe 解決方案目前正在使用的區段：[!DNL Analytics] (在 [!DNL Audience Analytics] 中)、[!DNL Campaign]、[!DNL Advertising Cloud] (適用於 [!DNL Core Service] 和 [!DNL Audience Manager] 客戶) 以及所有其他外部合作夥伴 (適用於 [!DNL Audience Manager] 客戶)。您&#x200B;**可以**&#x200B;取消發佈 [!DNL Target] 正在使用的區段。
 
 ## 在[!UICONTROL 區段管理器]中檢視區段發佈狀態
 
