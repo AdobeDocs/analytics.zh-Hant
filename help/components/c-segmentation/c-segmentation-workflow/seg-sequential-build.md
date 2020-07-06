@@ -3,8 +3,11 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3842'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 符合 | A 然後 B<br>A 然後 (在不同次造訪中) B<br>A 然後 D 然後 B |
 | 不符合 | B 然後 A |
 
-## 「僅限序列之前」與「僅限序列之後」{#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## 「僅限序列之前」與「僅限序列之後」 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 **[!UICONTROL 「僅限序列之前」]**&#x200B;與&#x200B;**[!UICONTROL 「僅限序列之後」選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
 
@@ -243,7 +246,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 邏輯群組容器必須將條件分組至單一循序區段查核點。特殊邏輯群組容器僅適用於循序區段，以確保其條件在任何先前的循序查核點之後，以及任何後續的循序查核點之前皆符合。邏輯群組查核點本身內的條件可依任何順序符合。相較之下，非循序容器 (點擊、造訪、訪客) 不要求其條件在整個序列中均符合，如果搭配使用 THEN 運算子會產生非直覺式結果。[!UICONTROL 邏輯群組]容器可將&#x200B;*數個查核點視為群組*，*而不需在群組查核點間排序*。換句話說，該群組內的查核點順序並無影響。例如，您不能在[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 訪客]容器。反之，您可以在具有特定[!UICONTROL 造訪]層級和[!UICONTROL 點擊]層級查核點的[!UICONTROL 訪客]容器中巢狀內嵌[!UICONTROL 邏輯群組]容器。
 
->[!NOTE] 一個[!UICONTROL 邏輯群組]僅可在一個循序區段中加以定義，這代表需在運算式中使用 [!UICONTROL THEN] 運算子。
+>[!NOTE]
+>
+> 一個[!UICONTROL 邏輯群組]僅可在一個循序區段中加以定義，這代表需在運算式中使用 [!UICONTROL THEN] 運算子。
 
 | 容器階層 | 圖例 | 定義 |
 |---|---|---|
@@ -350,7 +355,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器並指定精細度和計數，將符合限制至指定的持續時間。[!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。[!UICONTROL After] 運算子用來指定兩個查核點之間時間量的下限。
 
-### After 和 Within 運算子{#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持續時間的指定方式是使用代表精細度的單一大寫字母，後接代表精細度重複計數的數字。
 
