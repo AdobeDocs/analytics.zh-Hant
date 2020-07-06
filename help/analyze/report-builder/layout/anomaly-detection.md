@@ -4,7 +4,10 @@ title: 異常偵測
 topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '518'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 視訊緩衝事件的尖峰
 * 低視訊位元率的尖峰
 
->[!NOTE] 異常偵測僅限於選取「日」粒度時適用。
+>[!NOTE]
+>
+> 異常偵測僅限於選取「日」粒度時適用。
 
 <p class="head"> <b>異常偵測度量</b> </p>
 
