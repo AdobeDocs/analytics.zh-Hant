@@ -2,8 +2,11 @@
 description: 'null'
 title: 標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '802'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 | 標籤 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **變數名稱**<br>**(命名空間)** | **MyProp1**<br>**(user)** | **Visitor ID**<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br>**(xyz)** |
+| **變數名稱&#x200B;**<br>**(命名空間)** | **MyProp1 **<br>**(user)** | **Visitor ID **<br>**(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3 **<br>**(xyz)** |
 | 點擊資料 | Mary | 77 | A | M | X |
 |  | Mary | 88 | B | N | Y |
 |  | Mary | 99 | C | O | Z |
@@ -65,7 +68,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] 只有包含 AAID = 77 和 DEL-DEVICE 標籤的資料列儲存格會受到影響。
+>[!NOTE]
+>
+> 只有包含 AAID = 77 和 DEL-DEVICE 標籤的資料列儲存格會受到影響。
 
 | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false | user=Mary<br>expandIDs=false |
 |--- |---|---|---|---|
@@ -79,7 +84,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | John | 55 | G | R | X |
 | Alice | 66 | A | N | W |
 
->[!NOTE] 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。另外，包含 A_ID 的變數實際上可能會是 prop 或 eVar，所以它的取代值可能會是開頭為「Privacy-」再加上隨機號碼 (GUID) 的字串，而不是將數值取代為其他隨機數值。
+>[!NOTE]
+>
+> 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。另外，包含 A_ID 的變數實際上可能會是 prop 或 eVar，所以它的取代值可能會是開頭為「Privacy-」再加上隨機號碼 (GUID) 的字串，而不是將數值取代為其他隨機數值。
 
 | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true | user=Mary<br>expandIDs=true |
 |--- |---|---|---|---|
