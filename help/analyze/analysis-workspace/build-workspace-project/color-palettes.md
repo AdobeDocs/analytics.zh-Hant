@@ -3,16 +3,21 @@ description: 'null'
 title: 調色盤
 uuid: 18252889-8dc0-48fa-820f-df534156c22f
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 100%
 
 ---
 
 
 # 視覺效果調色盤
 
-您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於 Workspace 的視覺效果調色盤。此功能會影響 Workspace 大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
+您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能會影響工作區大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
 
->[!NOTE]Internet Explorer 11 並不支援調色盤。
+>[!NOTE]
+>
+>Internet Explorer 11 並不支援調色盤。
 
 ![](assets/color_palettes.png)
 
@@ -23,11 +28,11 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 若要變更調色盤：
 
-1. 導覽至 **[!UICONTROL Workspace]** > **[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**。
-1. From the **[!UICONTROL Project Color Palette]** dropdown, you can pick one of five pre-set color schemes.
+1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
+1. 在&#x200B;**[!UICONTROL 「專案調色盤」]**&#x200B;下拉式功能表中，您可以從五個預先設定的色彩配置中選擇其一。
 
    ![](assets/custom_palette.png)
 
-1. To specify your own palette, select **[!UICONTROL Custom Palette]** below the pre-set options.
+1. 若要自訂調色盤，請選取預先設定選項下方的&#x200B;**[!UICONTROL 「自訂調色盤」]**。
 1. 指定最多 16 個由逗號分隔的十六進位值 (例如，#00a4e4) 作為要使用的顏色。舉例來說，如果您只想使用 4 個值，則這些顏色會在包含更多顏色的視覺效果中自動重複。
 
