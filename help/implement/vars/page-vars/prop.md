@@ -2,10 +2,10 @@
 title: prop
 description: 可在實施中使用的自訂變數。
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '484'
-ht-degree: 81%
+ht-degree: 80%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 81%
 
 prop 是自訂變數，您可以視需要使用。它們不會持續存留於設定的點擊以外。
 
-> [!TIP][ Adobe 建議在大部分情況下使用 eVar。](evar.md)在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
+>[!TIP]
+>
+>Adobe recommends using [eVars](evar.md) in most cases. 在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
 
 如果您有解決方 [案設計檔案](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度分配給您組織的特定值。 可用的Prop數量視您與Adobe的合約而定。 若您與Adobe的合約支援，最多可使用75個Prop。
 
@@ -49,7 +51,9 @@ s.prop1 = "Example custom value";
 
 在報表套裝設定中啟用清單屬性。請參閱「管理員使用指南」中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)。請確認所需的分隔字元已正確設定。Adobe 不提供預設分隔字元。
 
-> [!TIP] 實施中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的分隔字元。
+>[!TIP]
+>
+> 實施中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的分隔字元。
 
 ### 設定清單屬性
 
@@ -60,6 +64,8 @@ s.prop1 = "Example custom value";
 s.prop1 = "value1,value2,value3";
 ```
 
-> [!IMPORTANT] 清單屬性仍有最多 100 個位元組的長度限制。清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
+>[!IMPORTANT]
+>
+> 清單屬性仍有最多 100 個位元組的長度限制。清單屬性很容易因達到此限制而遭到截斷，因為它們可以包含多個值。如果您可能會達到前述 100 個位元組的限制，請考慮使用縮寫或縮短值。
 
 如果您在清單屬性中設定相同值多次，系統會在報表中刪除重複資料。Analysis Workspace 會計算檢視值處的點擊數，而非資料中值存在的次數。
