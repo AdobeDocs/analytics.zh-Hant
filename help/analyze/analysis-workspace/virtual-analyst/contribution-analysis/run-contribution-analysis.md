@@ -3,7 +3,7 @@ description: 'null'
 title: 執行貢獻分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
 translation-type: tm+mt
-source-git-commit: 333dc32e6dbb39b9acb9350ac23499993979a85c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '593'
 ht-degree: 100%
@@ -52,7 +52,9 @@ ht-degree: 100%
    * [建立警報。](/help/components/c-alerts/intellligent-alerts.md)
    * [建立或比較區段。](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 
->[!NOTE]我們會在「貢獻分析」及與其連結的「智慧型警報」專案內，以藍點標示出正在接受分析的異常項目。如此即可以更清楚的方式指明分析所得的異常項目。
+>[!NOTE]
+>
+>我們會在「貢獻分析」及與其連結的「智慧型警報」專案內，以藍點標示出正在接受分析的異常項目。如此即可以更清楚的方式指明分析所得的異常項目。
 
 ## 排出貢獻分析中的維度 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
