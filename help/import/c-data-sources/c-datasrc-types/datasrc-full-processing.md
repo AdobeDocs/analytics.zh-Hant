@@ -5,7 +5,7 @@ title: 完全處理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
 translation-type: tm+mt
-source-git-commit: 374202983d4d75f785eb7062b88fd5fded2cbb7b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 93%
@@ -15,7 +15,9 @@ ht-degree: 93%
 
 # 完全處理
 
->[!NOTE] Adobe建議客戶使 [用大量資料插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) ，而非完全處理資料來源。 未來將淘汰完全處理的資料來源。
+>[!NOTE]
+>
+>Adobe建議客戶使 [用大量資料插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) ，而非完全處理資料來源。 未來將淘汰完全處理的資料來源。
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
