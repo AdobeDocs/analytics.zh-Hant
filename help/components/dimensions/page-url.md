@@ -2,7 +2,7 @@
 title: 頁面 URL
 description: 頁面的URL。
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -14,7 +14,9 @@ ht-degree: 2%
 
 「頁面URL」維度會列出您網站上的URL。
 
->[!IMPORTANT] 此維度僅適用於資料倉庫。 如果您想在其他Analytics解決方案中使用URL維度，請使用 [eVar](evar.md)。
+>[!IMPORTANT]
+>
+>此維度僅適用於資料倉庫。 如果您想在其他Analytics解決方案中使用URL維度，請使用 [eVar](evar.md)。
 
 ## 將資料填入此維度
 
