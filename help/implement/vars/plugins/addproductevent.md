@@ -1,15 +1,20 @@
 ---
 title: addProductEvent
 description: 將自訂事件新增至產品和事件變數。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 外掛程式：addProductEvent
 
->[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>[!IMPORTANT]
+>
+> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `addProductEvent` 外掛程式會將數值或貨幣事件新增至 [`products`](../page-vars/products.md) 變數。如果您想要將數值或貨幣事件新增至 `products` 變數，又不想擔心產品字串格式，Adobe 建議您使用此外掛程式。如果您未在 `products` 變數中使用數值或貨幣事件，就不需要使用此外掛程式。
 
@@ -124,7 +129,9 @@ s.addProductEvent("event35", "15", 1);
 
 上述程式碼也會將 `s.events` 變數設為 `"purchase,event2,event33,event34,event35"`。
 
->[!NOTE] 呼叫中的第二個引數可為整數，**或者**&#x200B;代表整數/數字的字串
+>[!NOTE]
+>
+>呼叫中的第二個引數可為整數，**或者**&#x200B;代表整數/數字的字串
 
 ### 範例 #5
 
