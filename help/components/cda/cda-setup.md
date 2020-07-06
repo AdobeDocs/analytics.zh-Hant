@@ -2,7 +2,7 @@
 title: 設定跨裝置分析
 description: 瞭解符合必要條件後如何設定跨裝置分析。
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
@@ -14,7 +14,9 @@ ht-degree: 100%
 
 滿足所有必要條件後，請依照下列步驟啟用跨裝置分析。您必須屬於「產品設定檔管理員」群組，或在 Adobe Analytics 中擁有管理員權限，才能依照這些步驟操作。
 
->[!IMPORTANT] 執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需瞭解必要條件和限制，請參閱[跨裝置分析](cda-home.md)。
+>[!IMPORTANT]
+>
+> 執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需瞭解必要條件和限制，請參閱[跨裝置分析](cda-home.md)。
 
 ## 選擇要啟用 CDA 的跨裝置報表套裝
 
@@ -46,13 +48,13 @@ ht-degree: 100%
 * 「不重複訪客」量度無法使用，因為它已被「人物」和「不重複裝置」取代。
 * 建立區段時，「訪客」區段容器會被「人員」容器取代。
 
-## CDA Workspace 範本
+## CDA 工作區範本
 
 Adobe 提供可檢視重要跨裝置效能資料的範本。
 
 1. 導覽至 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 並使用您的 AdobeID 憑證登入。
 1. 按一下頂端的 9 格線圖示，然後按一下「Analytics」。
-1. 按一下頂端的 [!UICONTROL 「Workspace」]，然後按一下[!UICONTROL 「建立新專案」]。
+1. 按一下頂端的 [!UICONTROL 「工作區」]，然後按一下[!UICONTROL 「建立新專案」]。
 1. 找出「歷程 IQ：跨裝置分析」範本，然後按一下[!UICONTROL 「建立」]。
 1. 如果出現提示，請變更為支援 CDA 的報表套裝。
 
