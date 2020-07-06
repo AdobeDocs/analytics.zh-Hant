@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分類規則
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2018'
+ht-degree: 100%
 
 ---
 
@@ -51,7 +54,9 @@ about_classification_rules.xml
 * [規則什麼時候不會將索引鍵分類？](/help/components/c-classifications2/crb/classification-rule-builder.md)
 * [關於規則優先順序](/help/components/c-classifications2/crb/classification-quickstart-rules.md)
 
->[!NOTE] [!UICONTROL 規則產生器]不支援「數值 2」分類。
+>[!NOTE]
+>
+> [!UICONTROL 規則產生器]不支援「數值 2」分類。
 
 ## 關於規則的重要資訊
 
@@ -105,11 +110,15 @@ regex_classification_rules.xml
 * [規則運算式 - &quot;Does Not Contain&quot; 範例](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_FCA88A612A4E4B099458E3EF7B60B59C)
 * [規則運算式 - 參考表格](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)
 
->[!NOTE] 規則運算式最適合使用分隔字元的追蹤程式碼，此為最佳作法。
+>[!NOTE]
+>
+> 規則運算式最適合使用分隔字元的追蹤程式碼，此為最佳作法。
 
 ## 規則運算式 - 追蹤程式碼範例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
->[!NOTE] 如果追蹤程式碼為 URL 編碼，將&#x200B;**無法**&#x200B;使用規則產生器來分類。
+>[!NOTE]
+>
+> 如果追蹤程式碼為 URL 編碼，將&#x200B;**無法**&#x200B;使用規則產生器來分類。
 
 在這個範例中，假設您要將以下的促銷活動 ID 分類：
 
@@ -150,7 +159,7 @@ regex_classification_rules.xml
 
 關於規則運算式中的字元代表意義的詳細資訊，請參閱[規則運算式 - 參考表格](/help/components/c-classifications2/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
 
-## 規則運算式 - 將特定字元分類{#section_5D300C03FA484BADACBFCA983E738ACF}
+## 規則運算式 - 將特定字元分類 {#section_5D300C03FA484BADACBFCA983E738ACF}
 
 使用規則運算式的一種方式，是將字元字串裡的特定字元分類。例如，假設以下追蹤程式碼包含兩個重要的字元：
 
@@ -370,6 +379,7 @@ t_classifications_test_rule.xml
 
    * 追蹤程式碼
    * 搜尋關鍵字或片語
+
    請參閱[分類規則裡的規則運算式](/help/components/c-classifications2/crb/classification-quickstart-rules.md)，以取得測試規則運算式的相關資訊。
 1. 按一下&#x200B;**[!UICONTROL 「執行測試」]**。
 
