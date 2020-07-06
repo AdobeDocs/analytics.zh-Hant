@@ -2,8 +2,11 @@
 description: 'null'
 title: Analytics 變數的資料隱私權標籤
 uuid: a37a1278-7a0d-4e14-ae35-43bc460e7d12
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '3641'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,11 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
 
 ## DULE 標籤 {#section_B2E78130957647338495EF37DE21D6BC}
 
->[!NOTE] 資料使用標籤和實行 (DULE) 架構的設計目的，是為了在所有 Adobe 解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此最初發行的版本中，Analytics 只會公開與資料隱私權相關的 DULE 標籤。隨著其他 Adobe 產品陸續實作 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
+>[!NOTE]
+>
+>資料使用標籤和實行 (DULE) 架構的設計目的，是為了在所有 Adobe 解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此最初發行的版本中，Analytics 只會公開與資料隱私權相關的 DULE 標籤。隨著其他 Adobe 產品陸續實施 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
 
-## 身分資料標籤 (DULE){#identity-data-labels}
+## 身分資料標籤 (DULE) {#identity-data-labels}
 
 身分資料「I」標籤可用來分類可識別身分或聯絡特定人員的資料。
 
@@ -58,7 +63,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 敏感資料標籤 (DULE){#sensitive-data-labels}
+## 敏感資料標籤 (DULE) {#sensitive-data-labels}
 
 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。
 
@@ -200,7 +205,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間{#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
+## 將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間 {#section_F0A47AF8DA384A26BD56032D0ABFD2D7}
 
 當您將變數標示為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。您可以使用先前定義的命名空間或定義新的命名空間。
 
@@ -208,8 +213,8 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
 
 如果您先前曾將 ID 標籤指派給登入公司中任何報表套裝的其他變數，您可以選取任何一個現有的命名空間。如果此變數包含的 ID 類型與先前以此命名空間為標籤的其他變數相同，而且您想要在提交請求時搜尋所有的變數，您應重複使用該命名空間。
 
-1. 按一下「**[!UICONTROL Select Namespace]**」，然後選取任何一個現有的命名空間。
-1. 按一下「**[!UICONTROL Apply]**」。
+1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]**，然後選取任何一個現有的命名空間。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 ![](assets/namespace.png)
 
@@ -217,12 +222,12 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
 
 您也可以定義新的命名空間。我們建議將命名空間字串限制為英數字元，再加上底線、破折號及空格字元。所有字元都會轉換為小寫。
 
-1. 按一下「**[!UICONTROL Select Namespace]**」，然後輸入命名空間標題。
+1. 按一下&#x200B;**[!UICONTROL 「選取命名空間」]**，然後輸入命名空間標題。
 
    ![](assets/namespace2.png)
 
 1. 按下 **[!UICONTROL Enter]** 即可新增此命名空間。「套用」按鈕必須等到現在才會啟用。
-1. 按一下「**[!UICONTROL Apply]**」。
+1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
 
 您指定為命名空間的字串，也就是在透過資料隱私權 API 提交請求 (即「namespace」參數的值) 時應使用的字串。接著，請求會讓 Adobe Analytics 搜尋所有報表套裝中共用此命名空間的變數，找出請求中指定的 ID。
 
@@ -240,7 +245,9 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
 
 又例如，您的 CRM ID 可能有時候會透過 eVar1 傳送，有時候透過 prop7。於是，您會建立一條處理規則，將值從 eVar1 (若有的話) 複製到 eVar3，否則系統會將值從 prop7 複製到 eVar3。在這種情況下，eVar3 將一律包含 CRM ID (若為已知 ID)，所以只有 eVar3 需要 ID-PERSON 標籤。
 
->[!CAUTION] 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
+>[!CAUTION]
+>
+> 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
 ## 支援的變數類型與資料隱私權/DULE 標籤 {#section_CE7C3EDE1344466A98BC45E394B40762}
 
@@ -288,7 +295,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 可以指派 ACC-ALL/ACC-PERSON 以外標籤的變數/已修改{#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+## 可以指派 ACC-ALL/ACC-PERSON 以外標籤的變數/已修改 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -351,7 +358,7 @@ Adobe Analytics 資料隱私權實作支援下列身分資料、敏感資料和�
  </tbody> 
 </table>
 
-## 刪除處理{#section_F3DEE591671A4B16A8E043F91C137ECB}
+## 刪除處理 {#section_F3DEE591671A4B16A8E043F91C137ECB}
 
 Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報表的影響降至最低。在大多數情況下，報表中顯示的量度應該不會變更。在資料隱私權刪除前執行的歷史報表將會與刪除後執行的報表一致。為了達成此目的，可以完全解除已刪除資料與資料主體的關聯，同時保留無法識別身分的資料；如此一來，報表的值就能維持一致。
 
@@ -400,7 +407,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 變數 </th> 
-   <th colname="col2" class="entry"> 意見 </th> 
+   <th colname="col2" class="entry"> 註解 </th> 
   </tr>
  </thead>
  <tbody> 
@@ -439,7 +446,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
  </tbody> 
 </table>
 
-## 存取請求的日期欄位{#section_6678FB4FF42B481C9B78E64F61782397}
+## 存取請求的日期欄位 {#section_6678FB4FF42B481C9B78E64F61782397}
 
 共有五個標準變數包含時間戳記：
 
