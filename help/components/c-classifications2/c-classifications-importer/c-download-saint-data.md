@@ -4,8 +4,11 @@ subtopic: Classifications
 title: 分類範本
 topic: Admin tools
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 範本包含特定資料集目前定義的分類 (欄標題)，但不含與各分類相關的資料。
 
->[!NOTE] 範本方法限制將分類資料下載至單一報表套裝中。
+>[!NOTE]
+>
+> 範本方法限制將分類資料下載至單一報表套裝中。
 
 如需資料檔案結構的詳細資訊，請參閱[關於分類資料檔案](/help/components/c-classifications2/c-classifications-importer/c-saint-data-files.md)。
 
@@ -38,7 +43,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 範本提供您在分類時要遵循的檔案格式。
 
->[!NOTE] 範本方法限制將資料下載至單一報表套裝中。
+>[!NOTE]
+>
+> 範本方法限制將資料下載至單一報表套裝中。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 在「**[!UICONTROL 下載範本]**」索引標籤中指定[資料範本設定](/help/components/c-classifications2/c-classifications-importer/c-download-saint-data.md)。
