@@ -6,24 +6,31 @@ title: 自訂維度權限
 topic: Admin tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '512'
+ht-degree: 98%
 
 ---
 
 
 # 自訂維度權限
 
->[!IMPORTANT]使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>[!IMPORTANT]
+>
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。
 
-**[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Report Access]** > **[!UICONTROL Dimensions]** > **[!UICONTROL Customize]**
+**[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL 報表存取]** > **[!UICONTROL 維度]** > **[!UICONTROL 自訂]**
 
->[!IMPORTANT] 目前部分維度無法提供權限。這些維度包括：行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
+>[!IMPORTANT]
+>
+> 目前部分維度無法提供權限。這些維度包括：行動書籤長度、行動裝置號碼、行動 DRM、行動資訊服務、行動 Java VM、行動郵件裝飾、行動網路通訊協定、行動作業系統、行動「對講機」。
 >
 >不論使用者具備哪些其他權限，所有使用者都可使用這些維度。
 
-The settings on this page pertain to the report suites selected on the [!UICONTROL Define User Groups] page.
+此頁面上的設定屬於[!UICONTROL 定義使用者群組]頁面上選取的報表套裝。
 
 ![](assets/permissions-dimensions.png)
 
@@ -34,7 +41,7 @@ The settings on this page pertain to the report suites selected on the [!UICONTR
 * 視訊和行動報表以及其他 Analytics 解決方案報表 (Experience Manager、Advertising Cloud、Social 等) 均屬維度。
 * 如果用戶有權存取父維度，則可以使用路徑報表。
 * 自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。
-* Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的[變數](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html)所決定。
+* Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的[變數](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html)所決定。
 
 如需詳細資訊，請參 [閱使用者和群組權限變更](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/permissions-changes.html)。
 
