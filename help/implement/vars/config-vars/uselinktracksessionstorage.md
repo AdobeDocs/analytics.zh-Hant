@@ -1,8 +1,11 @@
 ---
 title: useLinkTrackSessionStorage
 description: 將連結追蹤資料存放在工作階段存放區中，而非 Cookie。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 工作階段存放區不會在通訊協定之間運作。例如，您有一個頁面透過 HTTP 提供，而下一個頁面則透過 HTTPS 提供。AppMeasurement 無法存取工作階段存放區中的連結追蹤資料，因為通訊協定不同。
 * 工作階段存放區不會在子網域間運作。例如，訪客導覽至 `store.example.com`，然後導覽至 `toys.example.com`。AppMeasurement 無法存取工作階段存放區中的連結追蹤資料，因為子網域不同。
 
->[!TIP] 將工作階段存放區用於連結追蹤最可靠的實施，會透過單一子網域上的 HTTPS 提供所有內容。
+>[!TIP]
+>
+> 將工作階段存放區用於連結追蹤最可靠的實施，會透過單一子網域上的 HTTPS 提供所有內容。
 
 AppMeasurement 會在傳送點擊至 Adobe 後，移除工作階段存放區連結追蹤資料。關閉瀏覽器標籤時，此資料也會自動過期。
 
