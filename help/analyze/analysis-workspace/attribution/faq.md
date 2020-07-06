@@ -2,7 +2,7 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 translation-type: tm+mt
-source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 76%
@@ -87,4 +87,6 @@ Analytics 的某些維度可包含單次點擊中的多個值。常見範例包�
 
 ![僅限顯示廣告的虛擬報表套裝](assets/vrs-aiq-example.png)
 
->[!NOTE] 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。不過，類似的報表篩選器只會隱藏某些維度值，而不會對根據歸因模型處理的量度造成任何影響。因此，區段傳回的值會比具有可比定義的篩選低。
+>[!NOTE]
+>
+> 如果區段隱藏包含量度的點擊，這些量度例項不會歸因於任何維度。不過，類似的報表篩選器只會隱藏某些維度值，而不會對根據歸因模型處理的量度造成任何影響。因此，區段傳回的值會比具有可比定義的篩選低。
