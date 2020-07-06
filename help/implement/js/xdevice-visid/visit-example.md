@@ -5,15 +5,20 @@ subtopic: Visitors
 title: 跨裝置訪客身分識別範例
 topic: Developer and implementation
 uuid: bc5f8f56-52e3-42d8-af1a-7f5c7b9496c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 100%
 
 ---
 
 
 # 跨裝置訪客身分識別範例
 
->[!IMPORTANT]不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/cda-home.md)。
+>[!IMPORTANT]
+>
+>不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/cda-home.md)。
 
 下列範例說明跨裝置訪客身分識別如何使用傳入常見客戶互動中的伺服器呼叫範例來運作。
 
