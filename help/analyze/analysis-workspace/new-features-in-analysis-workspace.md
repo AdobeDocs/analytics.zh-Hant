@@ -3,7 +3,7 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 44112013e049e6e76554530ba438c71fee902841
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '7261'
 ht-degree: 99%
@@ -27,8 +27,8 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| 對 Workspace 中多個報表套裝的支援 | 您現在可以將多個報表套裝的資料匯入同一個專案以並排檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
-| 培訓教學課程範本 | 這個全新的標準範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。[更多詳情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
+| 對工作區中多個報表套裝的支援 | 您現在可以將多個報表套裝的資料匯入同一個專案以並排檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 培訓教學課程範本 | 這個全新的標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。[更多詳情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
 
@@ -36,10 +36,10 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| 使用 Cross-Device Analytics 的組織適用的新 Workspace 範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-setup.html)。 |
-| Workspace 的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
-| Workspace 其他增強功能 | <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
-| Workspace 除錯工具 | 「說明」功能表新增 Workspace 偵錯程式，供您以更順暢的方式啟用，以偵錯 Workspace 請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-setup.html)。 |
+| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 工作區其他增強功能 | <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
+| 工作區除錯工具 | 「說明」功能表新增工作區偵錯程式，供您以更順暢的方式啟用，以偵錯工作區請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
 ## 2020 年 1 月
 
@@ -118,7 +118,7 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| [VRS 與專案組織 - 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。<br>過去，只要按一下「顯示所有元件」，任何人都能查看未組織的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
+| [VRS 與專案組織 - 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已組織的工作區專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。<br>過去，只要按一下「顯示所有元件」，任何人都能查看未組織的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -166,7 +166,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>調色盤</b> </p> </td> 
-   <td colname="col2"> <p>您現在可以從其他的調色盤中選擇，或者自訂調色盤，變更用於 Workspace 的色彩配置。此功能會影響 Workspace 許多項目，包括大部分的視覺效果。「摘要變更」、自由表格中的條件式格式以及地圖視覺效果<b>不</b>受影響。 </p> <p>注意：Internet Explorer 11 並不支援調色盤。 </p> </td> 
+   <td colname="col2"> <p>您現在可以從其他的調色盤中選擇，或者自訂調色盤，變更用於工作區的色彩配置。此功能會影響工作區許多項目，包括大部分的視覺效果。「摘要變更」、自由表格中的條件式格式以及地圖視覺效果<b>不</b>受影響。 </p> <p>注意：Internet Explorer 11 並不支援調色盤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>全新範本：音效消耗</b> </p> </td> 
@@ -257,8 +257,8 @@ ht-degree: 99%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>全新 Workspace 功能模式 </b> </p> </td> 
-   <td colname="col2"> <p>與上個月推出的「每日秘訣」類似，在新版本發行後，此模式會在第一次登入 Workspace 時顯示新的 Workspace 功能。 </p> </td> 
+   <td colname="col1"> <p><b>全新工作區功能模式 </b> </p> </td> 
+   <td colname="col2"> <p>與上個月推出的「每日秘訣」類似，在新版本發行後，此模式會在第一次登入工作區時顯示新的工作區功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -320,7 +320,7 @@ ht-degree: 99%
   </tr>
   <tr> 
    <td colname="col1"> <p> 現在僅可透過 Analysis Workspace 使用<a href="/help/analyze/analysis-workspace/virtual-analyst/overview.md"  >「異常偵測」和「貢獻分析」</a>。 </p> </td> 
-   <td colname="col2"> <p>「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。 </p> <p>請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在 Workspace 中只能存取「每日粒度」的異常偵測功能。 </p> </td> 
+   <td colname="col2"> <p>「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。 </p> <p>請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,16 +378,16 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自訂 Workspace 範本 </a> </p> </td> 
-   <td colname="col2"> <p>您現在可以建立與保存專屬於您的 Workspace 範本，並且供您機構中其他與該範本類似的使用者直接使用您的範本。 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自訂工作區範本 </a> </p> </td> 
+   <td colname="col2"> <p>您現在可以建立與保存專屬於您的工作區範本，並且供您機構中其他與該範本類似的使用者直接使用您的範本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 新專案啟動模式 </a> </p> </td> 
    <td colname="col2"> <p>按一下「新專案」以開啟新視窗，您可以在該視窗選擇您想要的開始方式 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白專案，或 </li> 
-     <li id="li_23BD391D68674C299858A97BFE10598B">標準 (內建) Workspace 範本，或 </li> 
-     <li id="li_04D84FE375B84BF88843AA0D43A234BF">自訂 Workspace 範本 (請參閱上述) </li> 
+     <li id="li_23BD391D68674C299858A97BFE10598B">標準 (內建)工作區範本，或 </li> 
+     <li id="li_04D84FE375B84BF88843AA0D43A234BF">自訂工作區範本 (請參閱上述) </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -404,10 +404,10 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>預設<a href="/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md"  >日曆</a>檢視的變更 </p> </td> 
-   <td colname="col2"> <p>預設狀況下，Workspace 日曆現在將顯示當月與上個月，而不是先前的當月與下個月。 </p> </td> 
+   <td colname="col2"> <p>預設狀況下，工作區日曆現在將顯示當月與上個月，而不是先前的當月與下個月。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>改善在 Workspace 表格中的覆蓋/選擇顏色 </p> </td> 
+   <td colname="col1"> <p>改善在工作區表格中的覆蓋/選擇顏色 </p> </td> 
    <td colname="col2"> <p>將滑鼠游標暫留在自由表格的儲存格上而不是點選儲存格時，其顏色差異更加明顯。 </p> </td> 
   </tr> 
  </tbody> 
@@ -454,7 +454,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>欄大小重新調整功能改善 </p> </td> 
-   <td colname="col2"> <p>現在重新調整最左邊欄的大小時，Workspace 可以維持其他欄的寬度百分比 (而非只是調整右側相鄰欄的寬度)。這項變更加快了建立表格以用於分析和共用的速度。 </p> </td> 
+   <td colname="col2"> <p>現在重新調整最左邊欄的大小時，工作區可以維持其他欄的寬度百分比 (而非只是調整右側相鄰欄的寬度)。這項變更加快了建立表格以用於分析和共用的速度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>在一個表格中顯示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 列</a> </p> </td> 
@@ -610,7 +610,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 「區段比較」和「貢獻分析」設定的<span class="uicontrol">「全部清除」</span>按鈕 </p> </td> 
-   <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列 Workspace 區域中的所有元素，而不必手動刪除每個元素： </p> 
+   <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列工作區區域中的所有元素，而不必手動刪除每個元素: </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢獻分析的已排除元件 </a> </li> 
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 區段比較的已排除元件 </a> </li> 
@@ -850,7 +850,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >自動共用專案元件</a> </p> </td> 
-   <td colname="col2"> <p>您現在可以選擇與所有收件者自動共用專案元件 (區段、計算量度及日期範圍)。共用後，這些元件會出現在收件者的 Workspace 元件下拉式清單中。 </p> </td> 
+   <td colname="col2"> <p>您現在可以選擇與所有收件者自動共用專案元件 (區段、計算量度及日期範圍)。共用後，這些元件會出現在收件者的工作區元件下拉式清單中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 格式的流失視覺效果   </p> </td> 
@@ -974,7 +974,7 @@ ht-degree: 99%
 
 2016 年 6 月 16 日發行的新功能：
 
-* [新群組權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
+* [新群組權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]** > **[!UICONTROL 工作區]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
 * 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、視覺效果、元件
@@ -1058,7 +1058,9 @@ ht-degree: 99%
 
 ![](assets/link-to-this-project.png)
 
->[!NOTE]如果貴公司使用單一登入 (包括舊式單一登入和透過 Experience Cloud 登入)，將無法使用共用專案連結。
+>[!NOTE]
+>
+>如果貴公司使用單一登入 (包括舊式單一登入和透過 Experience Cloud 登入)，將無法使用共用專案連結。
 
 ## 項目符號圖表、散點圖和樹狀圖視覺效果 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
@@ -1078,7 +1080,9 @@ ht-degree: 99%
 
 顯示呈現的印象以及有多少獨特使用者看到那些印象。每個資料點的大小提供視覺提示，代表觀看者接觸到廣告的平均次數。大小和資料會依據您選取的維度、日期範圍和篩選器而改變。
 
->[!NOTE]與散點圖關聯的表格至少需有兩個欄。第一欄定義 X 軸，第二欄定義 Y 軸。如果還有第三欄，散點圖會用來決定點的半徑。換句話說，欄 *1*、*2* 和 *3* 對應至 *X*、*Y* 和&#x200B;*點半徑*。
+>[!NOTE]
+>
+>與散點圖關聯的表格至少需有兩個欄。第一欄定義 X 軸，第二欄定義 Y 軸。如果還有第三欄，散點圖會用來決定點的半徑。換句話說，欄 *1*、*2* 和 *3* 對應至 *X*、*Y* 和&#x200B;*點半徑*。
 
 **樹狀圖**
 
