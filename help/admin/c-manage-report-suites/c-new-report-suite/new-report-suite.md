@@ -3,8 +3,11 @@ description: 您可以選取預先定義的範本，或使用其中一個現有�
 title: 新的報表套裝 - 設定
 topic: Admin tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 建立報表套裝時[所使用元素的說明](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 
->[!NOTE]附註：[虛擬報表套裝文件](/help/components/vrs/c-workflow-vrs/vrs-create.md)會示範如何建立虛擬報表套裝。
+>[!NOTE]
+>
+>附註：[虛擬報表套裝文件](/help/components/vrs/c-workflow-vrs/vrs-create.md)會示範如何建立虛擬報表套裝。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
