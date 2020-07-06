@@ -4,7 +4,10 @@ title: 管理請求 - 定義
 topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '545'
+ht-degree: 99%
 
 ---
 
@@ -15,11 +18,13 @@ Report Builder 中「管理請求」的欄位說明。
 
 ## 概述 {#section_75C288C945FA4781A4EDF806711A5660}
 
-The [!UICONTROL Request Manager] provides a detailed view of the status of all requests you have built for all sheets or just one sheet of the active workbook. You can also add, edit, refresh, and delete a request (functions typically associated with the [!UICONTROL Request Wizard] and [!UICONTROL Request Manager]) by right-clicking on an available cell in the Excel spreadsheet that contains previous requests.
+「[!UICONTROL 請求管理員]」能針對您為所有工作表建立的所有請求，提供詳細狀態檢視，或只提供使用中活頁簿內一份工作表的詳細狀態檢視。您也可以針對含有舊有請求的 Excel 試算表，在可用的儲存格內按一下滑鼠右鍵來新增、編輯、重新整理及刪除請求 (通常是與「[!UICONTROL 請求精靈]」和「[!UICONTROL 請求管理員]」相關的功能)。
 
-The [!UICONTROL Request Manager] displays when you click **[!UICONTROL Manage]** ( ![](assets/edit_request.gif) in the Report Builder toolbar.
+按一下&#x200B;**[!UICONTROL 「管理」]** Report Builder 工具列的 ( ![](assets/edit_request.gif)，畫面會隨即顯示[!UICONTROL 「請求管理員」]。
 
->[!NOTE] Adobe Report Builder 只會在同一個工作表中執行請求相依性，不會跨工作表執行。將相依性限制在單一工作表中，可確保執行的時效性。
+>[!NOTE]
+>
+> Adobe Report Builder 只會在同一個工作表中執行請求相依性，不會跨工作表執行。將相依性限制在單一工作表中，可確保執行的時效性。
 
 ## 定義 {#section_FD29D8614DE74F32A0027FA130F40304}
 
