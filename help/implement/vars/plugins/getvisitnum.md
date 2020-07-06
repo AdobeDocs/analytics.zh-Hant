@@ -1,15 +1,20 @@
 ---
 title: getVisitNum
 description: 追蹤訪客的目前造訪次數。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1041'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 外掛程式：getVisitNum
 
->[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>[!IMPORTANT]
+>
+> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getVisitNum` 外掛程式會傳回在指定天數內造訪過網站的所有訪客造訪次數。Analysis Workspace 提供的「造訪次數」維度具有類似功能。如果您想更深入控製造訪次數的增加方式，Adobe 建議使用此外掛程式。如果 Analysis Workspace 中的內建「造訪次數」維度足以滿足您的報表需求，就不需要此外掛程式。
 
