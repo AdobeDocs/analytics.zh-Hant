@@ -1,8 +1,11 @@
 ---
 title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +26,7 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.registerPostTrackCallback
 
-`s.registerPostTrackCallback` 是能將函數當作唯一引數的函數。巢狀函數會在影像要求傳送之前執行。
+`s.registerPostTrackCallback` 是能將函數當作唯一引數的函數。在成功傳送影像要求後，巢狀函式會立即執行。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
