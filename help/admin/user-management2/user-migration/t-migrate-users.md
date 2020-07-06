@@ -3,7 +3,10 @@ description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admi
 title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 uuid: 734e9f14-ef8d-44de-8ff3-3ee6dfe0a214
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '428'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 將使用者從舊版 Analytics 使用者管理系統移轉至 Admin Console。
 
->[!NOTE] 如果未透過 Experience Cloud 登入的管理員嘗試存取「使用者 ID 移轉」工具，系統會將他們重新導向至 Experience Cloud 登入頁面。
+>[!NOTE]
+>
+> 如果未透過 Experience Cloud 登入的管理員嘗試存取「使用者 ID 移轉」工具，系統會將他們重新導向至 Experience Cloud 登入頁面。
 
 **移轉 Analytics 使用者：**
 
