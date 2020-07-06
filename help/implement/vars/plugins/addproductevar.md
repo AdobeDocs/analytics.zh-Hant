@@ -1,19 +1,26 @@
 ---
 title: addProductEvar
 description: 將銷售 eVar 新增至產品變數。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '538'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 外掛程式：addProductEvar
 
->[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>[!IMPORTANT]
+>
+> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `addProductEvar` 外掛程式可讓您輕鬆將使用產品語法的 Adobe Analytics 銷售 eVar 新增至產品變數，而不需擔心產品變數的現有內容是否會變更/移動/刪除。如果您想要輕鬆將產品語法銷售 eVar 新增至 [`products`](../page-vars/products.md) 變數，Adobe 建議您使用此外掛程式。如果您不使用銷售 eVar 搭配產品語法，就不需要使用 `addProductEvar` 外掛程式。
 
->[!NOTE] 此外掛程式不會取代產品項目中已存在的 eVar。它只會附加您使用此外掛程式設定的值。在附加該產品已存在的 eVar 時請務必小心。
+>[!NOTE]
+>
+> 此外掛程式不會取代產品項目中已存在的 eVar。它只會附加您使用此外掛程式設定的值。在附加該產品已存在的 eVar 時請務必小心。
 
 ## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
