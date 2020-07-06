@@ -3,7 +3,10 @@ description: 「Report & Analytics」中的報表功能表概述。
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +26,23 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 「我的最愛」、「經常檢視」和「報表記錄」都是報表套裝的特定功能。如果您變更報表套裝，這三個清單也會隨之改變。
 
-報表導覽使用階層式檢視進行。按一 **[!UICONTROL View All Reports]**&#x200B;下，或按正斜線鍵(/)，然後按向下鍵(?)來快速顯示和導覽功能表。 按 Esc 鍵可關閉功能表而不變更目前報表，按 Enter 鍵則可載入選取的報表。
+報表導覽使用階層式檢視進行。按一下&#x200B;**[!UICONTROL 「檢視全部報表」]**&#x200B;或按正斜線鍵 (/)，接著按向下鍵 (?) 即可使用方向鍵來快速顯示並導覽功能表。按 Esc 鍵可關閉功能表而不變更目前報表，按 Enter 鍵則可載入選取的報表。
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-如需個別報表的詳細資訊，請參閱[報表說明](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)。
+如需個別報表的詳細資訊，請參閱[報表說明](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/c-variables.html)。
 
 ## 搜尋報表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
-「報表」功能表提供增強型搜尋體驗。Click **[!UICONTROL View All Reports]** , or press the Forward Slash key (/) , and then begin typing to quickly find a report. 已擴充報表搜尋，現在在 Analytics 左側導覽器中包含所有項目 (管理員、元件等)。
+「報表」功能表提供增強型搜尋體驗。按一下&#x200B;**[!UICONTROL 「檢視全部報表」]**&#x200B;或按正斜線鍵 (/)，接著開始輸入即可快速尋找報表。已擴充報表搜尋，現在在 Analytics 左側導覽器中包含所有項目 (管理員、元件等)。
 
 ![](assets/menu-search.png)
 
 按 Tab 鍵或向下鍵 (?) 可以在報表清單間瀏覽。按 Esc 鍵可關閉搜尋而不變更目前報表，按 Enter 鍵則可載入選取的報表。
 
->[!NOTE]您也可以依據 prop、eVar 和事件編號來搜尋報表清單。在搜尋列中輸入 prop、eVar 或事件編號。
+>[!NOTE]
+>
+>您也可以依據 prop、eVar 和事件編號來搜尋報表清單。在搜尋列中輸入 prop、eVar 或事件編號。
 
 ## 導覽概述 {#section_A6A0A369207149BABE504753B48A42D7}
 
@@ -118,4 +123,4 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 自訂全部報表功能表 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理員可以變更「報表」功能表中所含的報表。請參閱「管理說明」中的[功能表自訂](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/customize-menus.html)。
+管理員可以變更「報表」功能表中所含的報表。請參閱「管理說明」中的[功能表自訂](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/customize-menus.html)。
