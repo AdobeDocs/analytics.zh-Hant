@@ -3,17 +3,20 @@ description: 篩選條件可以縮小報表的範圍來包含或排除符合篩�
 title: 篩選報表資料
 topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 100%
 
 ---
 
 
 # 篩選報表資料 {#concept_09DC5B986A644738B12204DAC76A90E1}
 
-篩選條件可以縮小報表的範圍來包含或排除符合篩選條件的行項目。
+篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
 
-## 簡單篩選{#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
+## 簡單篩選 {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
 ![](assets/filter.png)
 
@@ -45,7 +48,9 @@ help:Internal Search Term
 
 如果詞語出現在行項目的任何地方即相符。這個的運作方式和簡單篩選一樣。
 
->[!NOTE]篩選條件中不可使用空格，因為搜尋功能會將空格視為分隔符號
+>[!NOTE]
+>
+>篩選條件中不可使用空格，因為搜尋功能會將空格視為分隔符號
 
 **不包含**
 
@@ -66,7 +71,7 @@ help:Rename the None classification key
 
 **包含其中一個**
 
-如果在行項目中找到空格分隔的任何項目即相符。下列篩選條件顯示包含「mens」或「sale」的所有頁面：
+如果在行項目中找到空格分隔的任何項目即相符。下列篩選條件顯示包含「mens」或「sale」的所有頁面:
 
 包含其中一個：`mens sale`
 
