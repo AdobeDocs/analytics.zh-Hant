@@ -3,8 +3,11 @@ description: 伺服器端轉送功能經過精心設計，可讓客戶即時從 
 solution: Audience Manager
 title: 伺服器端轉送概觀
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '850'
+ht-degree: 100%
 
 ---
 
@@ -66,5 +69,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 * **已停用**：您未開啟新的伺服器端轉送。閱讀頁面中的內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。您也可以設定此 Audience Analytics 整合。
 
->[!NOTE] 您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/aam-home.html) 或 [ Audiences](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。
+>[!NOTE]
+>
+> 您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/aam-home.html) 或 [ Audiences](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。
 
