@@ -4,7 +4,10 @@ title: 自訂報表說明
 topic: Admin tools
 uuid: df7b57ab-4bd9-4465-bcd1-d47647eed3ff
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL *變數」*]**
 
->[!NOTE] 大部分傳統分類都能新增說明，但目前不適用於行動裝置分類。
+>[!NOTE]
+>
+> 大部分傳統分類都能新增說明，但目前不適用於行動裝置分類。
 
 ![](assets/report_descriptions.png)
 
