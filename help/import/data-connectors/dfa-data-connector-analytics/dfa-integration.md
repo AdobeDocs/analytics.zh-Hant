@@ -5,7 +5,10 @@ title: DFA 整合
 topic: Data connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2598'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,9 @@ DFA 的 Data connectors 整合會要求您在頁面的網域上設定一個 cook
 
 DFA 的 Genesis 整合採用 DFA Floodlight 設定 ID (dfa_SPOTID)，這可以提升 DFA 與 Adobe 資料收集系統之間的報表一致性。
 
->[!NOTE] 在近期的 Google DFA 版本中，Spotlight 一詞已變更為 Floodlight。JavaScript 參數 `dfa_SPOTID` 是根據 Spotlight 術語而命名的，但用於兩個版本中。
+>[!NOTE]
+>
+> 在近期的 Google DFA 版本中，Spotlight 一詞已變更為 Floodlight。JavaScript 參數 `dfa_SPOTID` 是根據 Spotlight 術語而命名的，但用於兩個版本中。
 
 若要在您的網站上啟用 DFA 整合，您必須新增下列項目，以更新您的 JavaScript 資料收集代碼:
 
