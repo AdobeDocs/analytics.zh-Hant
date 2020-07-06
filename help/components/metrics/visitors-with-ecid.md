@@ -2,7 +2,7 @@
 title: 具有 Experience Cloud ID 的訪客
 description: 使用Adobe Experience Cloud ID服務的獨特訪客數。
 translation-type: tm+mt
-source-git-commit: 0328de560185e716a3913080feda9cd078e0f206
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -14,7 +14,9 @@ ht-degree: 19%
 
 「具有Experience Cloud ID的訪客」量度顯示Adobe使用 [Experience Cloud ID服務識別的獨特訪客數量](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。 此維度有助於與「獨特訪客 [](unique-visitors.md) 」量度進行比較，以確保網站的大部份訪客都使用ID服務。 如果大部分訪客不使用ID服務Cookie，則可指出您實作中的問題。
 
->[!NOTE] 如果您使用多個Experience Cloud服務（例如Adobe Target或Adobe Audience Manager），此度量對除錯特別重要。 跨Experience Cloud產品共用的區段不包括沒有Experience Cloud ID的訪客。
+>[!NOTE]
+>
+>如果您使用多個Experience Cloud服務（例如Adobe Target或Adobe Audience Manager），此度量對除錯特別重要。 跨Experience Cloud產品共用的區段不包括沒有Experience Cloud ID的訪客。
 
 ## 此度量的計算方式
 
