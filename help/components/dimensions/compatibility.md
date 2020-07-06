@@ -2,7 +2,7 @@
 title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 92%
@@ -14,9 +14,13 @@ ht-degree: 92%
 
 此頁面列出各自Analytics功能支援的維度。
 
->[!NOTE] 自訂變數名稱、分類和訪客屬性會在此清單中忽略。 這些維度值是個別報表套裝專屬的。
+>[!NOTE]
+>
+>自訂變數名稱、分類和訪客屬性會在此清單中忽略。 這些維度值是個別報表套裝專屬的。
 
->[!NOTE] Analytics工具對類似維度使用不同術語時，有些重疊。 例如，「報告與分析」在「分析工作區」 `browserwidth` 使用時會使用 `browserwidthbucketed`。
+>[!NOTE]
+>
+>Analytics工具對類似維度使用不同術語時，有些重疊。 例如，「報告與分析」在「分析工作區」 `browserwidth` 使用時會使用 `browserwidthbucketed`。
 
 ## Reports &amp; Analytics 與 Analysis Workspace 中同時支援的維度
 
