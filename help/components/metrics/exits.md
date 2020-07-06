@@ -2,7 +2,7 @@
 title: 退出點
 description: 瀏覽中最後一個值的例項。
 translation-type: tm+mt
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 1%
@@ -20,4 +20,6 @@ ht-degree: 1%
 
 瀏覽結 [束後](visits.md) ，將最近的維度值記錄為退出。 每次瀏覽每個維度只有一個退出。 如果維度設定在先前的點擊中，則不一定是瀏覽的最後點擊。 它是以瀏覽為基礎的度量； 它會追溯套用至瀏覽中的所有點擊。
 
->[!TIP] 如果您針對並非每次瀏覽都設定的維度檢視此量度，則可以在分析工作區中隱藏「未指定」維度值。 按一下篩選圖示，然後取消勾選「 [!UICONTROL 包含未指定（無）」]。
+>[!TIP]
+>
+>如果您針對並非每次瀏覽都設定的維度檢視此量度，則可以在分析工作區中隱藏「未指定」維度值。 按一下篩選圖示，然後取消勾選「 [!UICONTROL 包含未指定（無）」]。
