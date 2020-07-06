@@ -2,7 +2,7 @@
 title: 每次造訪逗留時間
 description: 瀏覽的總時間。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 11%
@@ -22,7 +22,9 @@ ht-degree: 11%
 
 當您想要瞭解訪客與您網站的一般互動時間時，這些維度很有價值。
 
->[!TIP] 逗留時間在一次瀏覽中至少需要兩次點擊，以測量時間。 由單一點擊組成的瀏覽不會顯示在此維度中。
+>[!TIP]
+>
+>逗留時間在一次瀏覽中至少需要兩次點擊，以測量時間。 由單一點擊組成的瀏覽不會顯示在此維度中。
 
 此維度是以瀏覽為基礎，這表示值會套用至瀏覽內的每個點擊，而不會變更。 將此維度與[頁面逗留時間](time-spent-on-page.md) (以點擊為基礎的維度) 作比較。
 
