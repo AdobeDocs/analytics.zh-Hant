@@ -4,8 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 計算量度
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 說明如何使用資料摘要來計算通用量度。
 
->[!IMPORTANT] 通常會從 Adobe Analytics 排除的點擊會包含在資料摘要中。使用 `exclude_hit > 0` 從對原始資料的查詢移除已排除的點擊。資料來源的資料也包含在資料摘要中。若要排除資料來源，請排除所有含有 `hit_source = 5,7,8,9` 的列。
+>[!IMPORTANT]
+>
+> 通常會從 Adobe Analytics 排除的點擊會包含在資料摘要中。使用 `exclude_hit > 0` 從對原始資料的查詢移除已排除的點擊。資料來源的資料也包含在資料摘要中。若要排除資料來源，請排除所有含有 `hit_source = 5,7,8,9` 的列。
 
 ## 頁面檢視
 
@@ -25,7 +30,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 串連 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 1. 計算值的唯一數目。
 
->[!NOTE] 網際網路違規、系統不正確或使用自訂訪客 ID，可能會在極少數情況中針對不同的瀏覽使用相同的 `visit_num` 值。計算瀏覽次數時使用 `visit_start_time_gmt`，以確定已計算這些瀏覽次數。
+>[!NOTE]
+>
+> 網際網路違規、系統不正確或使用自訂訪客 ID，可能會在極少數情況中針對不同的瀏覽使用相同的 `visit_num` 值。計算瀏覽次數時使用 `visit_start_time_gmt`，以確定已計算這些瀏覽次數。
 
 ## 訪客
 
