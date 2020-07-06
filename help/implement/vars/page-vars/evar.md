@@ -2,7 +2,7 @@
 title: eVar
 description: 可在實施中使用的自訂變數。
 translation-type: tm+mt
-source-git-commit: 10e157e370367374b55ee9c87c0e5c7ca9e99c1a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 86%
@@ -57,4 +57,6 @@ s.eVar1 = "+12.49";
 
 若指定了兩個以上的小數位數，eVar 計數器會進位至兩個小數位數。eVar 計數器不能包含負數。
 
-> [!IMPORTANT] 您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+>[!IMPORTANT]
+>
+> 您必須先在 Admin Console 中將 eVar 設為「計數器」，才能使用計數器 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
