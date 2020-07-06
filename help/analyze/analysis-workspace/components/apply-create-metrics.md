@@ -3,7 +3,7 @@ description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 88%
@@ -19,7 +19,9 @@ ht-degree: 88%
 
 ![](assets/metrics_icons.png)
 
->[!NOTE] 雖然這項操作看似簡單，但使用量度帶來的效果卻相當強大。將合適的量度拖曳至表格的量度區，就能新增量度到報表。您也可以依量度來劃分維度，讓您更精確地控制表格檢視。此外，您可以將量度當作維度插入表格，維度則當作量度，藉此建立特定時段報表。您可以盡情組合不同元件，了解各種效果。量度的可能性是無限的。
+>[!NOTE]
+>
+> 雖然這項操作看似簡單，但使用量度帶來的效果卻相當強大。將合適的量度拖曳至表格的量度區，就能新增量度到報表。您也可以依量度來劃分維度，讓您更精確地控制表格檢視。此外，您可以將量度當作維度插入表格，維度則當作量度，藉此建立特定時段報表。您可以盡情組合不同元件，了解各種效果。量度的可能性是無限的。
 
 或者，您可以按一下「**[!UICONTROL 元件]** > **[!UICONTROL 新增量度]**」。這會將您帶往「[計算量度產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)」，讓您從現有的量度建立自訂量度。
 
