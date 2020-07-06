@@ -4,8 +4,11 @@ subtopic: Classifications
 title: FTP 匯入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '697'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +36,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 當超過該月份的唯一客戶數上限時，您將無法在報告中看到超過唯一客戶數值的對應分類資料。您可以在 Data Warehouse 或 Ad Hoc Analysis 中查看這些分類。
 
->[!NOTE] 處理分類資料檔案的所需時間視檔案的大小，以及當下 Adobe 伺服器已處理中的檔案數量而定。資料檔案的處理時間通常不會超過 72 小時。
+>[!NOTE]
+>
+> 處理分類資料檔案的所需時間視檔案的大小，以及當下 Adobe 伺服器已處理中的檔案數量而定。資料檔案的處理時間通常不會超過 72 小時。
 
 在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。如需詳細資訊，請參閱[建立 FTP 帳戶](/help/components/c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
