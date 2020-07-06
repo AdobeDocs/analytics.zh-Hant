@@ -2,7 +2,7 @@
 title: 色彩深度
 description: 裝置的色深。
 translation-type: tm+mt
-source-git-commit: a8dc233e962a49674a30ff3c9f0b5d0d45b09f24
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -22,4 +22,6 @@ ht-degree: 0%
 
 尺寸值包括裝置支援的色彩數目。 範例值 `"16 million (24-bit)"`包括、 `"16 million (32-bit)"`和 `"65,536 (16-bit)"`。 如果AppMeasurement無法判斷色彩深度，則會顯示為 `"None"`。
 
-> [!TIP] 24位元和32位元支援的區別在於32位元支援alpha色版(RGBA)，而24位元則不支援(RGB)。 如需 [此概念的詳細資訊](https://en.wikipedia.org/wiki/Color_depth) ，請參閱Wikipedia的色彩深度。
+>[!TIP]
+>
+>24位元和32位元支援的區別在於32位元支援alpha色版(RGBA)，而24位元則不支援(RGB)。 如需 [此概念的詳細資訊](https://en.wikipedia.org/wiki/Color_depth) ，請參閱Wikipedia的色彩深度。
