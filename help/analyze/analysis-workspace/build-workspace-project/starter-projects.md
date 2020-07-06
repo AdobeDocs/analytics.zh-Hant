@@ -2,8 +2,11 @@
 description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1383'
+ht-degree: 97%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * **標準範本**：這些範本是由 Adobe 建立並隨產品提供。
-* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得「[!UICONTROL Analysis Workspace: Save as Template]」權限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
+* **自訂範本**: 這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但必須已授與 [!UICONTROL Analysis工作區： 在管理控制台中] ，儲存為範本權限。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -23,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 擁有管理員權限的使用者可以將其建立的任何專案轉換為自訂範本。方法如下：
 
 1. 開啟專案。
-1. 前往「**[!UICONTROL Project]** > **[!UICONTROL Save As Template]**」。
+1. 前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 另存為範本」]**。
 
    ![](assets/save_project_template.png)
 
@@ -31,7 +34,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往「**[!UICONTROL Project]** > **[!UICONTROL Project Info & Settings]**」編輯標記與說明。)
+   >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊和設定」]**&#x200B;即可編輯標記和說明)。
 
 ### 您可以在自訂範本執行的動作
 
@@ -48,7 +51,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## 標準範本
 
-第一次開啟 Workspace 時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+第一次開啟工作區時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
@@ -58,7 +61,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ### 培訓
 
-這個標準範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
+這個標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
 
 * **培訓教學課程 - 內部搜尋分析**：內部搜尋教學課程可協助您了解訪客想在網站或應用程式上尋找但沒有找到的內容。分析這類資料可以找出內容最佳化機會。
 
@@ -110,7 +113,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ### 人物
 
->[!NOTE]「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/data/people.html) 的一部分使用。
+>[!NOTE]
+>
+>「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/data/people.html) 的一部分使用。
 
 此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
@@ -129,14 +134,14 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html) (CDA) 的客戶使用。
 
 * **Co-op 圖表成員的特別注意事項**：顯示報表套裝中的哪些部分所包含的訪客，來自支援和不支援 Co-op 圖表的地區。
-* **使用者識別**：顯示使用根據 Cross-Device Analytics 的方法識別網站訪客的頻率。
-* **測量對象規模**：顯示「不重複裝置」與「人物」的比較結果。這兩個數字的比例稱為「跨裝置壓縮」，這是此面板中顯示的計算量度。此壓縮量度取決於廣泛的因素：
+* **使用者身分識別**：顯示使用以跨裝置分析為基礎之方法識別網站訪客的頻率。
+* **衡量對象規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此壓縮量度取決於廣泛的因素：
    * **使用 Co-op 圖表或私密圖表**：一般而言，使用 Device Co-op 的組織之壓縮率，會比使用私密圖表的組織來得高。
    * **登入率**：登入您網站的使用者越多，Adobe 就能越有效跨裝置識別並結合訪客。登入率低的網站壓縮率也會很低。
    * **Experience Cloud ID 涵蓋範圍**：系統只會結合具有 ECID 的訪客。使用 ECID 造訪您網站的訪客比例較低，與壓縮率較低有關。
    * **使用多部裝置**：若您網站的訪客沒有使用多部裝置，壓縮率便會較低。
    * **報表粒度**：依日計算的壓縮率通常比依月或年計算的壓縮率還低。依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
-* **以人物為基礎的區段**：包含區段下拉式清單，可讓您檢視特定於裝置的資料。此面板鼓勵您嘗試使用區段，以便了解包含或排除裝置類型會對報表造成什麼影響。
+* **以人物為基礎的區段**：包含區段下拉式清單，可讓您檢視裝置特定資料。此面板鼓勵您試用區段，以便了解納入或排除裝置類型對報表有何影響。
 * **分析跨裝置歷程**：根據裝置類型提供流量和流失報表。
-* **跨裝置歸因**：將歷程 IQ 和歸因 IQ 功能結合在一起。
-* **其他秘訣與訣竅**：與 CDA 相關的實用主題可協助您更充分運用此產品。
+* **跨裝置歸因**：結合歷程 IQ 和歸因 IQ 的功能。
+* **其他秘訣與技巧**：可協助您更順利使用 CDA 的實用主題。
