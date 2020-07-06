@@ -3,8 +3,11 @@ description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資�
 title: Data Warehouse 概觀
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,13 @@ Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件�
 
 Data Warehouse 針對個別已排程和已下載報表，可處理單一請求中的無限制列數。
 
->[!NOTE] Data Warehouse 會報告在報告時段遇到的第一個值。
+>[!NOTE]
+>
+> Data Warehouse 會報告在報告時段遇到的第一個值。
 
 >[!IMPORTANT]
 >
->依據分類的值進行分段時，Analysis Workspace 和 Data Warehouse 會將「未指定」的值視為不同的值處理。Workspace 中的「未指定」是指未分類的值，而 Data Warehouse 中的「未指定」是指您分類為「未指定」的值。
+>依據分類的值進行分段時，Analysis Workspace 和 Data Warehouse 會將「未指定」的值視為不同的值處理。工作區中的「未指定」是指未分類的值，而 Data Warehouse 中的「未指定」是指您分類為「未指定」的值。
 
 ## Data Warehouse 請求說明 {#section_F21C78ED36884C389C852E876AF5CDE8}
 
