@@ -1,8 +1,11 @@
 ---
 title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 100%
 
 ---
 
@@ -44,7 +47,9 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 連結物件引數決定在離開頁面進行導覽前，瀏覽器是否最多等候 500 毫秒。如果影像要求在 500 毫秒內傳送，頁面會立即導覽至點按的連結。
 
->[!NOTE] AppMeasurement 會自動針對退出連結啟用 [`useBeacon`](../config-vars/usebeacon.md) 變數，因此現代瀏覽器不再需要該引數。此引數在舊版 AppMeasurement 中較常使用。
+>[!NOTE]
+>
+> AppMeasurement 會自動針對退出連結啟用 [`useBeacon`](../config-vars/usebeacon.md) 變數，因此現代瀏覽器不再需要該引數。此引數在舊版 AppMeasurement 中較常使用。
 
 * `this`：等候最多 500 毫秒，讓 AppMeasurement 有時間傳送影像要求。預設值。
 * `true`：請勿等候。
