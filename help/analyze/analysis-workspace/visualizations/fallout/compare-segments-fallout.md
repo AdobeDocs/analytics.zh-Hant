@@ -3,8 +3,11 @@ description: 您可以從接觸點建立區段、新增區段作為接觸點，�
 keywords: fallout and segmentation;segments in fallout analysis;compare segments in fallout
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以從接觸點建立區段、新增區段作為接觸點，以及在 Analysis Workspace 的各種區段間比較關鍵工作流程。
 
->[!IMPORTANT]在流失分析中當作查核點使用的區段，其所用容器的層級必須低於流失視覺效果的整體設定。分析訪客相關流失率時，當作查核點使用的區段必須為「造訪」或「點擊」相關區段。分析造訪相關流失率時，當作查核點使用的區段必須為「點擊」相關區段。如果使用無效的組合，流失率會計為 100%。我們在「流失視覺效果」中新增一項警告功能，會在您將不相容區段新增為接觸點時顯示。特定的無效區段容器組合會產生無效的流失率圖表，例如：
+>[!IMPORTANT]
+>
+>在流失分析中當作查核點使用的區段，其所用容器的層級必須低於流失視覺效果的整體設定。分析訪客相關流失率時，當作查核點使用的區段必須為「造訪」或「點擊」相關區段。分析造訪相關流失率時，當作查核點使用的區段必須為「點擊」相關區段。如果使用無效的組合，流失率會計為 100%。我們在「流失視覺效果」中新增一項警告功能，會在您將不相容區段新增為接觸點時顯示。特定的無效區段容器組合會產生無效的流失率圖表，例如：
 
 * 使用以訪客為基礎的區段，作為訪客內容流失視覺效果內的接觸點
 * 使用以訪客為基礎的區段，作為造訪內容流失視覺效果內的接觸點
@@ -21,7 +26,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 從接觸點建立區段 {#section_915E8FBF35CD4F34828F860C1CCC2272}
 
-1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。若要這麼做，請以滑鼠右鍵按一下接觸點並選取「**[!UICONTROL Create segment from touchpoint]**」。
+1. 從您特別感興趣的某個接觸點建立區段，之後您可以將此區段套用於其他報表。若要這麼做，請以滑鼠右鍵按一下接觸點並選取&#x200B;**[!UICONTROL 「從接觸點建立區段」]**。
 
    ![](assets/segment-from-touchpoint.png)
 
@@ -45,7 +50,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您可以在「流失」視覺效果中比較無數區段。
 
-1. 從左側的「[!UICONTROL Segments]」邊欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
+1. 從左側的[!UICONTROL 「區段」]欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
 1. 將這些區段拖曳至頂端的「區段」拖放區域。
 
    ![](assets/segment-drop.png)
