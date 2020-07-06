@@ -4,7 +4,10 @@ title: 客戶分段
 topic: Activity map
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 可讓您在 Activity Map 中套用多區段篩選。
 
->[!NOTE] 由於 Adobe Analytics 平台不支援分段即時資料，因此「區段」控制項僅適用於標準模式。
+>[!NOTE]
+>
+> 由於 Adobe Analytics 平台不支援分段即時資料，因此「區段」控制項僅適用於標準模式。
 
 您可從下方顯示的「**[!UICONTROL 區段]**」下拉式功能表中選取一個或數個區段。列出的區段就是在所選取的報表套裝中，您所擁有或是透過「Reports &amp; Analytics」與您共用的區段。
 
