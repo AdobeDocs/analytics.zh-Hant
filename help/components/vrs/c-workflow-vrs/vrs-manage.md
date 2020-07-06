@@ -5,7 +5,10 @@ title: 管理虛擬報表套裝
 topic: Reports and analytics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +21,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/vrs-manage.png)
 
->[!NOTE]在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。必須按一下&#x200B;**[!UICONTROL 「全部顯示」]**&#x200B;才能查看其他人的虛擬報表套裝。
+>[!NOTE]
+>
+>在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。必須按一下&#x200B;**[!UICONTROL 「全部顯示」]**&#x200B;才能查看其他人的虛擬報表套裝。
 
 | 任務 | 說明 |
 |--- |--- |
