@@ -4,7 +4,10 @@ title: 複製參考請求
 topic: Report builder
 uuid: b6f64630-868f-455b-8682-471ff9fc596e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '541'
+ht-degree: 100%
 
 ---
 
@@ -17,20 +20,22 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您也可以建立請求，而該請求參考其他工作表 (但不得是其他活頁簿) 中請求的輸入篩選。例如，工作表 2 中的請求能使用工作表 1 中指定儲存格的報表套裝，並能使用工作表 2 內，請求之儲存格的日期範圍。您可以將新的輸出放置在任一工作表中，或放置在相同活頁簿內的新工作表中。在貼上相對請求時，如果輸入篩選所在的工作表與複製之請求輸出所在的工作表不同，系統會以絕對篩選的形式貼上篩選。
 
->[!NOTE] 您無法在多個工作表中輸出單一請求。此外，由於請求含有其他工作表的輸入篩選，因此系統無法將某些複製的請求貼入新的活頁簿中。輸入篩選包括儲存格的報表套裝、儲存格的日期範圍、儲存格的篩選及其他相關參數。
+>[!NOTE]
+>
+> 您無法在多個工作表中輸出單一請求。此外，由於請求含有其他工作表的輸入篩選，因此系統無法將某些複製的請求貼入新的活頁簿中。輸入篩選包括儲存格的報表套裝、儲存格的日期範圍、儲存格的篩選及其他相關參數。
 
 **複製參考請求**
 
 1. 選擇含欲複製之請求的儲存格，包括輸入儲存格或參考儲存格。
-1. Right-click within the highlighted cells and select **[!UICONTROL Copy Requests]** from the shortcut menu.
+1. 在反白顯示的儲存格內按一下滑鼠右鍵，然後選擇捷徑功能表中的&#x200B;**[!UICONTROL 「複製請求」]**。
 
    選擇請求和輸入儲存格所在的區域後，系統會反白顯示含有這些元素的儲存格。
 1. 選擇一個儲存格或一定範圍內的相鄰儲存格，以填入貼上的請求。
 
    確認您選擇的儲存格或儲存格範圍不含其他資料或請求。
-1. Right-click the single cell or the top left-most cell in the range of cells and select **[!UICONTROL Paste Requests]**.
+1. 在單一儲存格內或儲存格範圍最左上方的儲存格內按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL 「貼上請求」]**。
 
-   When pasting requests that include an input cell, the options under [!UICONTROL Paste Requests] include:
+   在貼上含輸入儲存格的請求時，[!UICONTROL 「貼上請求」]下的選項包括：
 
    **使用絕對輸入儲存格：**&#x200B;將請求副本和選定儲存格的相關格式貼入反白顯示的貼上區域。系統不會貼上輸入儲存格 (於某個原始請求中參考的儲存格)。反之，輸入儲存格會留在與先前相同的位置。
 
