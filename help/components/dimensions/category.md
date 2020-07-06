@@ -2,7 +2,7 @@
 title: 類別
 description: 點擊的產品類別。
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -22,4 +22,6 @@ ht-degree: 1%
 
 由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度值。 Adobe建議您使用「產品」和「類別」維度，將個別產品分組為有意義的類別。
 
-> [!TIP] 在舊版Adobe Analytics中，「類別」維度的某些限制是由於其處理架構的緣故。 這些限制已移除，可讓您使用任何度量和任何劃分。
+>[!TIP]
+>
+>在舊版Adobe Analytics中，「類別」維度的某些限制是由於其處理架構的緣故。 這些限制已移除，可讓您使用任何度量和任何劃分。
