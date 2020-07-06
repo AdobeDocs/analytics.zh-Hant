@@ -1,8 +1,11 @@
 ---
 title: 將 Launch 資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '448'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +46,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 在強制回應視窗中選取所需的資料元素。按一下[!UICONTROL 「選取」]。
 1. 資料元素名稱會新增至由 `%` 符號包住的文字欄位。例如，如果您將資料元素命名為「Page name」，會在將資料元素指派至變數時看到字串 `%Page name%`。
 
->[!TIP] 您可以串連相同變數中的資料元素。舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
+>[!TIP]
+>
+> 您可以串連相同變數中的資料元素。舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
 
 ## 後續步驟
 
