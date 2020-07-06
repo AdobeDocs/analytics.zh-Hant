@@ -1,21 +1,28 @@
 ---
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
 
 # 實施選擇退出連結
 
->[!IMPORTANT] Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)。
+>[!IMPORTANT]
+>
+> Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實施類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
 
 當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。如果使用者選擇不進行追蹤且設定選擇退出 Cookie，您的 JavaScript 檔案會繼續將資料傳送至 Adobe 伺服器。不過這些資料不會經過處理，也不會納入報表。
 
->[!TIP] Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](../../admin/admin/privacy-settings.md)。
+>[!TIP]
+>
+> Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](../../admin/admin/privacy-settings.md)。
 
 ## 退出 URL
 
@@ -73,7 +80,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，`https://example.sc.omtrdc.net/optout.html?locale=ko_KR` 會以韓文載入選擇退出頁面。
 
->[!TIP] `en_US` 查詢字串值不是必要值，因為頁面預設會以英文載入。
+>[!TIP]
+>
+> `en_US` 查詢字串值不是必要值，因為頁面預設會以英文載入。
 
 ### 快顯視窗
 
@@ -81,7 +90,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，`https://example.sc.omtrdc.net/optout.html?popup=1` 會載入包含「關閉視窗」按鈕的選擇退出頁面。
 
->[!NOTE] 在過去，此查詢字串參數會強制顯示快顯視窗。不過現代化的瀏覽器大多將快顯視窗的控制權交給一般使用者。
+>[!NOTE]
+>
+> 在過去，此查詢字串參數會強制顯示快顯視窗。不過現代化的瀏覽器大多將快顯視窗的控制權交給一般使用者。
 
 ### 單一點擊選擇退出
 
