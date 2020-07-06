@@ -4,9 +4,9 @@ title: Data Warehouse 區段相容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '349'
 ht-degree: 96%
 
 ---
@@ -91,7 +91,7 @@ ht-degree: 96%
   <tr> 
    <td> <b>區段堆疊</b> </td> 
    <td> 支援 </td> 
-   <td> 不支援 </td> 
+   <td> 支援 </td> 
   </tr>
   <tr>
     <td><b>'equals any of'和'Does not equal any of'運算子</b></td>
