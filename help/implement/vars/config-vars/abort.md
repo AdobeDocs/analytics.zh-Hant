@@ -1,8 +1,11 @@
 ---
 title: abort
 description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料收集伺服器。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,9 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 s.abort = true;
 ```
 
->[!NOTE] `abort` 變數會在每個追蹤呼叫後重設為 `false`。如需中止相同頁面上的後續追蹤呼叫，請重新將 `abort` 設為 `true`。
+>[!NOTE]
+>
+> `abort` 變數會在每個追蹤呼叫後重設為 `false`。如需中止相同頁面上的後續追蹤呼叫，請重新將 `abort` 設為 `true`。
 
 ## 範例
 
