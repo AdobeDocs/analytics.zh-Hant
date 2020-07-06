@@ -3,8 +3,11 @@ description: 說明若想啟用 Activity Map 連結收集和使用者下載，An
 title: 啟用 Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -55,4 +58,6 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 1. 如此可讓您的管理員使用者從&#x200B;**[!UICONTROL 「Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Activity Map」]**&#x200B;下載 Activity Map。
 
->[!NOTE] 如果您希望非管理員使用者下載 Activity Map，請建立新的使用者群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map存取」結合，提供下載和使用工具的權限。
+>[!NOTE]
+>
+> 如果您希望非管理員使用者下載 Activity Map，請建立新的使用者群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map存取」結合，提供下載和使用工具的權限。
