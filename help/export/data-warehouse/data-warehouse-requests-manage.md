@@ -4,7 +4,10 @@ title: 管理 Data Warehouse 請求
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,12 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。
 
-在資料倉庫中，選取標 **[!UICONTROL Request Manager]** 簽。
+在 Data Warehouse 中，選取「**[!UICONTROL 請求管理員]**」標籤。
 
 在此標籤中作業可讓您
 
 * 依報表名稱、套用區段、要求者、要求日期及狀態，檢視最近的報表要求。
-* 複製要求。Click **[!UICONTROL Duplicate]** next to the request.
+* 複製要求。按一下要求旁邊的「**[!UICONTROL 複製]**」。
 
    >[!NOTE]
    >
@@ -28,5 +31,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 將報表拖放至佇列中的新位置，重新排列報表的優先順序。
 * 若要查看開始處理要求的時間，請按一下計劃的要求 ID，並檢查開啟的快顯視窗。
 
->[!NOTE] 若要取消 Data Warehouse 請求，[請按照這些步驟執行](https://helpx.adobe.com/tw/analytics/kb/cancel-data-warehouse-requests.html)。
+>[!NOTE]
+>
+> 若要取消 Data Warehouse 請求，[請按照這些步驟執行](https://helpx.adobe.com/tw/analytics/kb/cancel-data-warehouse-requests.html)。
 
