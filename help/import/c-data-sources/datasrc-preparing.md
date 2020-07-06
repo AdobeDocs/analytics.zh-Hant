@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 準備使用資料來源
 topic: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * [交易 ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [識別「資料來源」資料的有效日期範圍](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## 識別及命名量度{#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## 識別及命名量度 {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 重要的是，要瞭解您的資料來源中的量度和測量，例如 *`Off-line Sales Revenue by Product`*、*`Returns by Product`* 或 *`Ad Impressions by Campaign`*。這些是可以用報表量度關聯的名稱 (event、prop 及 eVar)。
 
@@ -28,7 +31,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 請參閱「管理工具」說明中的「[成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)」。
 
->[!NOTE]Adobe 強烈建議讓「資料來源資料」使用新的空事件，但在少數情形下，使用原先現存的事件可能比較適當。
+>[!NOTE]
+>
+>Adobe 強烈建議讓「資料來源資料」使用新的空事件，但在少數情形下，使用原先現存的事件可能比較適當。
 
 ## 識別資料維度 {#section_8EC6BDC4AA314D9EB85F6FCD8E6ABC0A}
 
@@ -38,7 +43,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可以替一個量度定義多個資料維度，但每個量度必須為每一個關聯的資料維度提供一個相關值或值的組合。例如，如果您匯入「離線銷售」量度，並將其與&#x200B;*`Product`* 和 *`Partner`* 資料維度建立關聯，「離線銷售」量度與產品及合作夥伴的每種組合 (例如，總收入) 必定相關。
 
->[!NOTE] 可匯入無法以任何維度劃分的總量度。
+>[!NOTE]
+>
+> 可匯入無法以任何維度劃分的總量度。
 
 在定義資料來源要使用的資料維度後，將維度資料映射到變數，即可將其整合到行銷報表中。使用標準報表 (如產品、追蹤代碼、搜尋關鍵字) 或轉換流量變數 (eVar)。
 
@@ -56,7 +63,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 交易 ID 是用於將線上事件連結到離線事件。
 
-## 識別「資料來源」資料的有效日期範圍{#section_03AAB1291BDC4403BDC50905A78FDB71}
+## 識別「資料來源」資料的有效日期範圍 {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 定義您的資料來源量度 (自訂事件) 和資料維度 (eVar) 後，檢查您要匯入之資料來源資料的日期範圍。您無法匯入現存報表資料範圍以外的資料來源。
 
