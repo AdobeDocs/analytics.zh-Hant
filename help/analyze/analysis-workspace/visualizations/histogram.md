@@ -3,7 +3,7 @@ description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型�
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 97%
@@ -25,7 +25,9 @@ ht-degree: 97%
 
 ![](assets/histogram.png)
 
->[!NOTE]色階分佈圖僅支援標準量度，不支援計算量度。
+>[!NOTE]
+>
+>色階分佈圖僅支援標準量度，不支援計算量度。
 
 這裡我們使用了每個獨特訪客的頁面檢視次數量度。第一個 (最左邊) 貯體對應至每個獨特訪客 1 次頁面檢視、第二個貯體對應至 2 次頁面檢視，以此類推。
 
