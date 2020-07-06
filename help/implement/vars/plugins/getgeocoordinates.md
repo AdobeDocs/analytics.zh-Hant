@@ -1,15 +1,20 @@
 ---
 title: getGeoCoordinates
 description: 追蹤訪客的 geoLocation。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '529'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 外掛程式：getGeoCoordinates
 
->[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>[!IMPORTANT]
+>
+> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getGeoCoordinates` 外掛程式可讓您擷取訪客裝置的經緯度。如果您想要在 Analytics 變數中擷取地理位置資料，Adobe 建議您使用此外掛程式。
 
@@ -59,7 +64,9 @@ s.getGeoCoordinates=function(){var d=this,b="",a=d.c_r("s_ggc").split("|"),e={ti
 * `"error retrieving geo coordinates"`：當外掛程式嘗試擷取裝置位置時遇到任何錯誤時
 * `"latitude=[LATITUDE] | longtitude=[LONGITUDE]"`：其中的 [LATITUDE]/[LONGITUDE] 分別代表緯度與經度
 
->[!NOTE] 座標值會四捨五入到小數點後第四位最接近的值。例如，`"40.438635333"` 值會四捨五入為 `"40.4386"`，藉此限制要擷取的獨特值數目。這些值足以精準定位 20 英尺內裝置的確切位置。
+>[!NOTE]
+>
+> 座標值會四捨五入到小數點後第四位最接近的值。例如，`"40.438635333"` 值會四捨五入為 `"40.4386"`，藉此限制要擷取的獨特值數目。這些值足以精準定位 20 英尺內裝置的確切位置。
 
 需要的話，此外掛程式會使用名為　`"s_ggc"`　的 Cookie 來儲存點擊之間的座標。
 
