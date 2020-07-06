@@ -2,10 +2,10 @@
 title: 同類群組分析是什麼？
 description: 瞭解分析工作區中的同類群組分析
 translation-type: tm+mt
-source-git-commit: 79849c574909543d74e2935e493008927700585d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
 
@@ -30,7 +30,9 @@ Examples of what you can do with [!UICONTROL Cohort Analysis]:
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析] 不支援非可分段量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於區段的量度可用於
+>[!UICONTROL 同類群組分析]
+>
+>不支援非可分段量度（包括計算量度）、非整數量度（例如收入）或發生次數。 只有可用於區段的量度可用於
 >[!UICONTROL 同類群組分析]，而且每次只能增加1。
 
 ## 同類群組分析功能
