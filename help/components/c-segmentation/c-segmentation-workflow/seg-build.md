@@ -4,7 +4,7 @@ title: 建立區段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 translation-type: tm+mt
-source-git-commit: aaf7123b1ed8ced67076affd108e337b10fe0f39
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2037'
 ht-degree: 90%
@@ -45,6 +45,7 @@ ht-degree: 90%
    * **[!UICONTROL 重複]** （預設）: 包含維度的例項和持續值。
    * **[!UICONTROL 例項]**：包含維度的例項。
    * **[!UICONTROL 非重複例項]**：包含維度的唯一例項 (非重複)。這是排除重複實例時在「流」中應用的模型。
+
    ![](assets/attribution-models.jpg)
 
    **範例： eVar1 = A的點擊區段**
@@ -52,7 +53,7 @@ ht-degree: 90%
    | 範例 | A | A | A（持續） | B | A | C |
    |---|---|---|---|---|---|---|
    | 重複 | X | X | X | - | X | - |
-   | 實例 | X | X | - | - | X | - |
+   | 例項 | X | X | - | - | X | - |
    | 非重複例項 | X | - | - | - | X | - |
 
 1. **[!UICONTROL 運算元]**: 您可以使用選取的運算子來比較和限制值。
@@ -140,7 +141,9 @@ ht-degree: 90%
 * 一個區段代表平板電腦使用者
 * 20 個區段代表不同地區
 
->[!NOTE] 將兩個區段堆疊在一起時，預設會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。
+>[!NOTE]
+>
+> 將兩個區段堆疊在一起時，預設會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。
 
 1. 前往「區段產生器」。
 1. 提供區段的標題和說明。
