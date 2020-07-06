@@ -1,8 +1,11 @@
 ---
 title: t
 description: 傳送頁面檢視追蹤呼叫給 Adobe。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 100%
 
 ---
 
@@ -60,4 +63,6 @@ y.eVar1 = "Override value";
 s.t(y);
 ```
 
->[!NOTE] 舊版 AppMeasurement 會使用數行程式碼來呼叫此函數。其他程式碼過去會針對不同的瀏覽器提供解決方法。現代瀏覽器的標準化和最佳實務不再需要這個程式碼區塊。現在只需要方法呼叫 `s.t()` 。
+>[!NOTE]
+>
+> 舊版 AppMeasurement 會使用數行程式碼來呼叫此函數。其他程式碼過去會針對不同的瀏覽器提供解決方法。現代瀏覽器的標準化和最佳實務不再需要這個程式碼區塊。現在只需要方法呼叫 `s.t()` 。
