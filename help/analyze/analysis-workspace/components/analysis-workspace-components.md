@@ -2,8 +2,11 @@
 description: Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
 title: 元件概述
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
 
-若要存取「元件」面板，請按一下左側邊欄中的「**[!UICONTROL Components]**」圖示。您可以在各面板 (空白面板、[自由](/help/analyze/analysis-workspace/visualizations/freeform-table.md)面板或[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板)、[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件間，透過左欄圖示或使用[快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行切換。
+若要存取「元件」面板，請按一下左側欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以在各面板 (空白面板、[自由](/help/analyze/analysis-workspace/visualizations/freeform-table.md)面板或[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板)、[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件間，透過左欄圖示或使用[快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行切換。
 
 ![](assets/components.png)
 
@@ -20,9 +23,11 @@ Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，�
 
 ## 元件動作 {#section_B7BB29B89AE04297874CDE2C52EAD516}
 
-您可以透過多種方式管理元件 (個別或選取多個元件)。以滑鼠右鍵按一下元件，或按一下元件清單頂端的「**[!UICONTROL Actions]**」。
+您可以透過多種方式管理元件 (個別或選取多個元件)。以滑鼠右鍵按一下元件，或按一下元件清單頂端的&#x200B;**[!UICONTROL 「動作」]**。
 
->[!NOTE]此類動作不適用於「時間」元件。
+>[!NOTE]
+>
+>此類動作不適用於「時間」元件。
 
 | 元件動作 | 說明 |
 |--- |--- |
