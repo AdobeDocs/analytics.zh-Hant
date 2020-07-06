@@ -2,7 +2,7 @@
 title: 回訪頻率
 description: 目前瀏覽與上次瀏覽之間的時間範圍。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -14,7 +14,9 @@ ht-degree: 4%
 
 「回訪頻率」維度顯示回訪訪客之間的瀏覽間隔時間。 當訪客回訪您的網站時，Adobe會查看上次瀏覽的時間，並將點擊儲存在適當的維度值中。 此維度對於評估網站在一段時間內對訪客的吸引力及相關性非常有用。 它也有助於識別您網站的內容和促銷活動對訪客的影響。
 
->[!TIP] 此維度不包括首次訪客。
+>[!TIP]
+>
+>此維度不包括首次訪客。
 
 ## 將資料填入此維度
 
