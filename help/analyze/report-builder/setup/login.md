@@ -3,8 +3,11 @@ description: 三種 Report Builder 登入方法的相關資訊。
 title: 登入 Report Builder
 topic: Report builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -47,5 +50,7 @@ Experience Cloud 登入可讓您使用 Enterprise ID (電子郵件與密碼) 來
 
 ![](assets/adobe_id_login.png)
 
->[!NOTE] Experience Cloud 登入是以工作階段為準，代號會在 30 天後過期。
+>[!NOTE]
+>
+> Experience Cloud 登入是以工作階段為準，代號會在 30 天後過期。
 
