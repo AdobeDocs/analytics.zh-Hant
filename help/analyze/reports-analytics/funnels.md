@@ -4,7 +4,7 @@ title: 轉換漏斗
 topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
@@ -32,5 +32,7 @@ ht-degree: 100%
 
 報告表格顯示每次點進的平均銷售量，以及每次點進賣出的平均產品件數的統計資料。您可以增加其他報告群組的量度和自訂事件至這些報告。這些漏斗有許多相似處，不過是根據不同的變數和事件。您可以使用這些報告，查看使用者引發您指定之特定事件的百分比和一般趨勢。您可以查看使用者在何處停止繼續前往事件，讓您深入了解轉換程序的某個特定點。
 
->[!NOTE] 這些報表範圍中的例項相當於定義了 eVar 或事件的造訪總數。
+>[!NOTE]
+>
+> 這些報表範圍中的例項相當於定義了 eVar 或事件的造訪總數。
 
