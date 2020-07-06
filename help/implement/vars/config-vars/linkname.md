@@ -1,8 +1,11 @@
 ---
 title: linkName
 description: 設定自訂連結點擊的名稱。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `s.linkName` 變數是字串，可決定自訂連結、下載連結或退出連結的維度值 (視 [`s.linkType`](linktype.md) 的情況而定)。它最多可容納 100 個位元組。
 
->[!TIP] 此變數是 `tl()` 方法的第三個參數，通常不需要設定為獨立變數。但是，如果您不想在 `tl()` 方法中設定引數形式的值，可以使用 `linkName` 變數。
+>[!TIP]
+>
+> 此變數是 `tl()` 方法的第三個參數，通常不需要設定為獨立變數。但是，如果您不想在 `linkName` 方法中設定引數形式的值，可以使用 `tl()` 變數。
 
 ```js
 s.linkName = "Example custom link";
