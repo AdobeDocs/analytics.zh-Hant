@@ -2,7 +2,10 @@
 title: 建立報表套裝
 description: 在 Adobe Analytics 中建立資料收集的基本容器。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +22,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 建立報表套裝
 
->[!NOTE] 您也可以使用舊版管理員在 Adobe Analytics 中建立報表套裝。Adobe 建議您使用本文所說明的報表套裝設定精靈。
+>[!NOTE]
+>
+> 您也可以使用舊版管理員在 Adobe Analytics 中建立報表套裝。Adobe 建議您使用本文所說明的報表套裝設定精靈。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
