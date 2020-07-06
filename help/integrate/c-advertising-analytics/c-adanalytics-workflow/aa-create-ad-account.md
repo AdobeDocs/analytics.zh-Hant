@@ -2,7 +2,7 @@
 title: 設定 Advertising 帳戶
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
 translation-type: tm+mt
-source-git-commit: 0345a71bd2dd99410658cc858fe05ee2751d0013
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 80%
@@ -91,5 +91,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 
    此時，系統會將您導向 Advertising 帳戶[管理使用者介面](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)，而新建立的帳戶應該會列示在其中。
 
->[!NOTE] 搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。
+>[!NOTE]
+>
+> 搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。
 
