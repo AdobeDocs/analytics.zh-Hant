@@ -2,10 +2,10 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: 0dfab8e0b48b6a3be40bd1e2b39636b53b71113f
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 86%
+source-wordcount: '757'
+ht-degree: 76%
 
 ---
 
@@ -14,15 +14,15 @@ ht-degree: 86%
 
 **使用歸因時，「無」條列項目代表什麼？**
 
-「無」條列項目是一種全包的項目，代表的是在回顧期間中沒有任何接觸點時發生的所有轉換。請嘗試在報表期間中加入較長的時間範圍。
+「無」條列項目是一種全包的項目，代表的是在回顧期間中沒有任何接觸點時發生的所有轉換。若要減少「無」行項目的轉換次數，請嘗試使用具有較長回顧期的「自訂回顧視窗」。
 
 **我在使用歸因模型時，為何有時會在報表中看到報表期間之外的日期？**
 
-這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/tw/analytics/kb/data-appearing-outside-reporting-window.html)。Adobe 預計將在後續版本中篩除這些額外資料列。
+這些額外日期是因訪客報表回顧期間所導致。如需詳細資訊，請參閱 Analytics KB 中的[出現在報表期間之外的資料](https://helpx.adobe.com/tw/analytics/kb/data-appearing-outside-reporting-window.html)。
 
-**我應該在什麼時機使用「造訪」或「訪客」歸因回顧？**
+**我何時應使用瀏覽、訪客或自訂歸因回顧？**
 
-歸因回顧的選擇取決於您的使用情形。如果轉換需要的時間通常會高於單次造訪，建議使用訪客回顧。在虛擬報表套裝中定義較長的造訪期可能也是個解決方案。
+歸因回顧的選擇取決於您的使用情形。如果轉換通常需要的時間超過單次瀏覽，則建議訪客或自訂回顧。 對於較長的轉換週期，自訂回顧視窗最適合，因為它們是唯一能夠從報告視窗之前提取資料的類型
 
 **使用歸因時，prop 和 eVar 有何差異？**
 
