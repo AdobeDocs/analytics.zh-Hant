@@ -3,7 +3,10 @@ description: 在啟用這項整合之前，請針對您部署的 Adobe Analytics
 title: 啟動這項整合的事前準備
 uuid: fdc762bc-24e3-4c0a-904d-d4be2a4f3a20
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '699'
+ht-degree: 100%
 
 ---
 
@@ -56,7 +59,9 @@ appFigures 的 Data Connectors 整合使用 Analytics 變數來追蹤各種 appF
 
 ### 必要變數 {#section-3ca8dc46bab0436cba0c9ef827c8356a}
 
->[!NOTE] 此整合針對應用程式商店資料使用專用的變數，因此您不需要指派自訂商務變數和事件。
+>[!NOTE]
+>
+> 此整合針對應用程式商店資料使用專用的變數，因此您不需要指派自訂商務變數和事件。
 
 | 變數類型 | 名稱 | 填入方法 | 說明 |
 |---|---|---|---|
