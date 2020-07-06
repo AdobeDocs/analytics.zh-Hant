@@ -1,8 +1,11 @@
 ---
 title: 行銷管道中的分類
 description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '278'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 您在此程序中新增的分類，在[!UICONTROL 行銷管道概述]報表中顯示為[!UICONTROL 管道值]。管道值是管道詳情中未分類的值。
 
->[!NOTE] 請務必熟悉如何在「分類」中建立[分類](/help/components/c-classifications2/c-classifications.md)。
+>[!NOTE]
+>
+> 請務必熟悉如何在「分類」中建立[分類](/help/components/c-classifications2/c-classifications.md)。
 
 >[!IMPORTANT]
 >
