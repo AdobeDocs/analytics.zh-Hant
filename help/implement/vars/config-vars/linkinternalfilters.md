@@ -2,7 +2,7 @@
 title: linkInternalFilters
 description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤。
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 95%
@@ -18,7 +18,9 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 
 如果您同時使用 `linkInternalFilters` 和 `linkExternalFilters` 兩者，點按的連結必須符合 `linkExternalFilters` **而且**&#x200B;與 `linkInternalFilters` 不符，才會視為退出連結。如果點按的連結符合退出連結和下載連結兩條件，下載連結類型的優先較高。
 
->[!NOTE] `linkInternalFilters` 和 [內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)是不同的功能，其目的也不同。`linkInternalFilters` 變數專門用於退出連結追蹤。內部 URL 篩選器是管理員設定，能協助處理反向連結網域之類的流量來源維度。
+>[!NOTE]
+>
+>`linkInternalFilters`  和 [內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)是不同的功能，其目的也不同。`linkInternalFilters` 變數專門用於退出連結追蹤。內部 URL 篩選器是管理員設定，能協助處理反向連結網域之類的流量來源維度。
 
 ## 對外連結 - Adobe Experience Platform Launch 中的永不追蹤
 
