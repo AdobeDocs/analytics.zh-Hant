@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理指南
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: 07a9c983b0efa6e75765c1222cf056769417a341
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 99%
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Analytics 管理概觀 {#admin-overview}
    + [我該使用哪種 Adobe Analytics 工具呢？](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 產品比較和需求](c-analytics-product-comparison/analytics-product-comparison.md)
-+ [系統要求](c-system-requirements/sys-reqs.md)
++ [系統要求](sys-reqs.md)
 + 管理工具 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
