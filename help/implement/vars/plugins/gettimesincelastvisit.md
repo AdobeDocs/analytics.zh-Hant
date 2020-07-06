@@ -1,15 +1,20 @@
 ---
 title: getTimeSinceLastVisit
 description: 測量兩次造訪之間經過的時間長度。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
 
 # Adobe 外掛程式：getTimeSinceLastVisit
 
->[!IMPORTANT] 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>[!IMPORTANT]
+>
+> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getTimeSinceLastVisit` 外掛程式可用來追蹤訪客從上次造訪到下次回訪您網站經過的時間長度。
 
@@ -66,7 +71,9 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * 大於一天的時間會捨入至最接近的天數基準。例如：`"1 day"`、`"3 days"`、`"9 days"`、`"372 days"`
 * 如果訪客之前未造訪過，或經過的時間超過兩年，則值會設為 `"New Visitor"`。
 
->[!NOTE] 此外掛程式只會傳回造訪首次點擊時的值。
+>[!NOTE]
+>
+> 此外掛程式只會傳回造訪首次點擊時的值。
 
 此外掛程式會建立名為 `"s_tslv"` 的第一方 Cookie，並設為目前時間的 Unix 時間戳記。閒置兩年後 Cookie 便會到期。
 
