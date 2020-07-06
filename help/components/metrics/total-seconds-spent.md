@@ -2,7 +2,7 @@
 title: 花費秒數總計
 description: 維度值的總逗留秒數。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 9%
@@ -26,6 +26,8 @@ ht-degree: 9%
 
 持續變數(例如 [eVar](../dimensions/evar.md))會計算總花費秒數。 流量變數(例如 [prop](../dimensions/prop.md))包含後續連結追蹤呼叫所花費的秒數。
 
->[!TIP] 不會測量瀏覽的上次點擊逗留時間，因為沒有後續的影像要求來測量經過的時間。 此概念也適用於由單一點擊（彈回數）組成的瀏覽。
+>[!TIP]
+>
+>不會測量瀏覽的上次點擊逗留時間，因為沒有後續的影像要求來測量經過的時間。 此概念也適用於由單一點擊（彈回數）組成的瀏覽。
 
 如需 [逗留時間的詳細資訊](time-spent.md) ，請參閱逗留時間概觀。
