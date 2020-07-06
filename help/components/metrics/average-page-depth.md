@@ -2,7 +2,7 @@
 title: 平均頁面深度
 description: 維度平均存在於的頁數。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
@@ -38,7 +38,9 @@ If 'Count repeat instances' is disabled:
 (1 + 4) / 2 = 2.5, rounded up to 3
 ```
 
->[!TIP] 如果您想要查看平均頁面深度及小數位數，請使用此量度建立計算量度，作為公式中的唯一元素。 將計算量度中的小數位數增加至所需的小數。
+>[!TIP]
+>
+>如果您想要查看平均頁面深度及小數位數，請使用此量度建立計算量度，作為公式中的唯一元素。 將計算量度中的小數位數增加至所需的小數。
 
 ## 百分比高於100%
 
