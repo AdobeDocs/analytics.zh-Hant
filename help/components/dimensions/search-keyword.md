@@ -2,7 +2,7 @@
 title: 搜尋關鍵字
 description: 訪客用來存取您網站的搜尋關鍵字。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 「搜尋關鍵字」維度會報告訪客用於進入您網站的搜尋關鍵字。
 
->[!IMPORTANT] 由於隱私權實務的增加，大部分搜尋引擎不再傳遞搜尋關鍵字。 Adobe識別搜尋引擎但維度值下遺失關鍵字群組的點擊 `"Keyword unavailable"`。
+>[!IMPORTANT]
+>
+>由於隱私權實務的增加，大部分搜尋引擎不再傳遞搜尋關鍵字。 Adobe識別搜尋引擎但維度值下遺失關鍵字群組的點擊 `"Keyword unavailable"`。
 
 反向連結必須符合下列兩項，才能分類為搜尋關鍵字：
 
