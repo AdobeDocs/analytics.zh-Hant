@@ -1,8 +1,11 @@
 ---
 title: 對行動裝置實施 Analytics
 description: 決定要使用的行動 AppMeasurement 程式庫。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: ea8eefbf35bfec52ed794a886b5e67f63c121ce9
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Experience Cloud Mobile SDK
 
-* [SDK 儲存庫](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation/blob/master/resources/frequently-asked-questions/current-sdk-versions.md)
+* [SDK 儲存庫](https://github.com/Adobe-Marketing-Cloud/aep-sdks-documentation)
 * [文件](https://aep-sdks.gitbook.io/docs/)
 
 ## 第 4 版 Mobile SDK
