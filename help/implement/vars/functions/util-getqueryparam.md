@@ -1,8 +1,11 @@
 ---
 title: Util.getQueryParam
 description: 傳回查詢字串參數的值。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -50,4 +53,6 @@ var customString = "https://example.com?q1=value1;q2=value2;q3=value3";
 s.eVar1 = s.Util.getQueryParam("q2",customString,";");
 ```
 
->[!TIP] 提供類似的外掛程式 [`s.getQueryParam`](../plugins/getqueryparam.md)。此外掛程式包含更進階的功能，但也更複雜，預設不在 AppMeasurement 中。
+>[!TIP]
+>
+> 提供類似的外掛程式 [`s.getQueryParam`](../plugins/getqueryparam.md)。此外掛程式包含更進階的功能，但也更複雜，預設不在 AppMeasurement 中。
