@@ -3,7 +3,10 @@ description: 'null'
 title: 警報產生器
 uuid: 86d00a33-dc99-4dc3-a732-0b895ba487bc
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +38,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 指定您希望檢查量度的時間：每小時、每日、每週或每月。
 
->[!NOTE] 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
+>[!NOTE]
+>
+> 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
 
 **收件者**
 
