@@ -1,8 +1,11 @@
 ---
 title: pageName
 description: 網站上各個頁面的名稱。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `pageName` 變數通常會儲存指定頁面的名稱。這個變數有助於判斷哪些個別頁面最受歡迎。此變數會填入「頁面名稱」維度。
 
->[!NOTE] 此維度一律會從連結追蹤呼叫中移除。如果您想查看追蹤連結的頁面名稱，請考慮將此變數複製到 eVar。
+>[!NOTE]
+>
+> 此維度一律會從連結追蹤呼叫中移除。如果您想查看追蹤連結的頁面名稱，請考慮將此變數複製到 eVar。
 
 如果您未在指定頁面追蹤呼叫上設定此變數，系統會改用 [`pageURL`](pageurl.md) 變數。
 
