@@ -3,7 +3,10 @@ title: JavaScript 適用的 AppMeasurement 發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +105,9 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2018 年 5 月 24 日**
 
->[!NOTE]使用 [!DNL Experience Cloud] ID 服務的客戶需要具備訪客 API 3.0 或更新版本。Adobe 建議只要更新相關的程式碼程式庫 ([!DNL at.js] 等等)，就要升級至最新的 Visitor API 版本。[!DNL AppMeasurement.js]
+>[!NOTE]
+>
+>使用 [!DNL Experience Cloud] ID 服務的客戶需要具備訪客 API 3.0 或更新版本。Adobe 建議只要更新相關的程式碼程式庫 ([!DNL at.js] 等等)，就要升級至最新的 Visitor API 版本。[!DNL AppMeasurement.js]
 
 * 更新 [!DNL AppMeasurement] 以使用更新後的訪客介面要求 ID。(AN-151483)
 * 修正當連結追蹤關閉時持續寫入連結追蹤 Cookie 的問題。(AN-156332)
@@ -216,7 +221,9 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 * 更新 [!DNL AppMeasurement]，可讀取和寫入 AMCV Cookie。(AN-127098)
 * 納入 Visitor API 1.7.0。
 
->[!NOTE]另請參閱下列 [!DNL JavaScript] 1.6.3 版的發行說明中，對 Experience Cloud ID 服務的更新要求。
+>[!NOTE]
+>
+>另請參閱下列 [!DNL JavaScript] 1.6.3 版的發行說明中，對 Experience Cloud ID 服務的更新要求。
 
 ## 1.6.3 版
 
@@ -224,7 +231,9 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 * 修正 [!DNL AppMeasurement] 提前終止請求連線的問題。(AN-126448)
 
->[!IMPORTANT]1.6.0 版 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版或更新版本使用。如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 [!DNL AppMeasurement] 程式碼 1.6.3 版或更新版本。
+>[!IMPORTANT]
+>
+>1.6.0 版 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版或更新版本使用。如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 [!DNL AppMeasurement] 程式碼 1.6.3 版或更新版本。
 
 ## 1.6.2 版
 
@@ -293,7 +302,9 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版。
 
->[!NOTE] **已知問題**：在訪客 API / [!DNL AppMeasurement] [!DNL Audience Manager] 模組整合中，有可發佈在 IE6-9 中提出之 iFrame 要求的兩個目的地：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`。
+>[!NOTE]
+>
+>**已知問題**：在訪客 API / [!DNL AppMeasurement] [!DNL Audience Manager] 模組整合中，有可發佈在 IE6-9 中提出之 iFrame 要求的兩個目的地：`//fast.<subdomain>.demdex.net/dest5.html` 和 `//fast.<subdomain>.demdex.net/dest4.html`。如同其他瀏覽器的情況，正確的行為是只載入 `//fast.<subdomain>.demdex.net/dest5.html`。
 
 ## 1.4.4 版
 
@@ -349,7 +360,9 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 * 在下載 Zip 中新增 **[!UICONTROL AudienceManagement]** 模組。
 * 已新增對其他 eVar (76 - 250) 和事件 (101-1000) 的支援。
 
->[!NOTE]H-Code 不支援其他 eVar 和事件。
+>[!NOTE]
+>
+>H-Code 不支援其他 eVar 和事件。
 
 ## 1.3.2 版
 
