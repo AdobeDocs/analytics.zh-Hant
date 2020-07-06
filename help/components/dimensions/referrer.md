@@ -2,7 +2,7 @@
 title: 反向連結
 description: 訪客點進您的網站前所在的URL。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -14,7 +14,9 @@ ht-degree: 0%
 
 「反向連結」維度會報告訪客點進網站時所在的URL。 此維度對於瞭解哪些特定URL對您網站的流量最有用。 外部URL上必須有連結，而訪客必須按一下連結，才能顯示維度值。
 
->[!IMPORTANT] 您必須設定報表套裝的「內 [部URL」篩選器](/help/admin/admin/internal-url-filter-admin.md) ，才能使用此維度。 未能設定內部URL篩選器，可能會包含內部URL或防止出現外部URL。
+>[!IMPORTANT]
+>
+>您必須設定報表套裝的「內 [部URL」篩選器](/help/admin/admin/internal-url-filter-admin.md) ，才能使用此維度。 未能設定內部URL篩選器，可能會包含內部URL或防止出現外部URL。
 
 ## 將資料填入此維度
 
