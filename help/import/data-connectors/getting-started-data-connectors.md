@@ -1,8 +1,11 @@
 ---
 description: 將協力廠商應用程式的追蹤資料匯入 Analytics。
 title: 開始使用 Analytics Data Connectors
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 100%
 
 ---
 
@@ -77,7 +80,9 @@ Adobe Analytics 會透過 Data Warehouse 將這些檔案分為每日檔案，傳
    * 購買：`purchase` 事件
    * 產品檢視：`prodView` 事件
 
->[!NOTE] 如果定義產品時沒有關聯事件，則會自動引發 prodView 事件。如果上述要求不符合，則對應的再行銷區段無法正確回報。
+>[!NOTE]
+>
+> 如果定義產品時沒有關聯事件，則會自動引發 prodView 事件。如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
 [!UICONTROL 放棄購買]：當使用者新增產品至購物車時會啟動：
 
@@ -103,4 +108,6 @@ s.events="purchase";
 | 尚未收到再行銷區段檔案。 | 如果您沒有收到您的檔案，請讓一位您組織所支援的使用者聯絡 ClientCare，以檢查未成功收到報表的原因。 |
 
 
->[!IMPORTANT] 除了您的標準 Data Connectors 整合的再行銷區段檔案外，通常顧問也會設定 Data Warehouse 要求作為每日排程報表。此資料倉儲要求將包含 Data connectors 變數和非 Data connectors 變數，而該要求可僅根據您組織的特定要求進行排程。若要在疑難排解時避免混淆，請指定有問題的檔案是否真的是再行銷區段檔案，或是包含非 Genesis 變數的資料倉儲要求。
+>[!IMPORTANT]
+>
+> 除了您的標準 Data Connectors 整合的再行銷區段檔案外，通常顧問也會設定 Data Warehouse 要求作為每日排程報表。此資料倉儲要求將包含 Data connectors 變數和非 Data connectors 變數，而該要求可僅根據您組織的特定要求進行排程。若要在疑難排解時避免混淆，請指定有問題的檔案是否真的是再行銷區段檔案，或是包含非 Genesis 變數的資料倉儲要求。
