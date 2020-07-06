@@ -1,8 +1,11 @@
 ---
 title: linkDownloadFileTypes
 description: 判斷要以下載連結形式自動追蹤的副檔名。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
@@ -13,12 +16,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 使用 `linkDownloadFileTypes` 來自訂您要將哪些副檔名計為下載連結。
 
->[!NOTE] 系統只會自動追蹤實際點按，不會自動追蹤以下類型的連結：
+>[!NOTE]
+>
+> 系統只會自動追蹤實際點按，不會自動追蹤以下類型的連結：
 >
 > * 在頁面載入時自動開始的檔案下載
 > * 在重新導向後觸發的下載
 > * 按一下右鍵並選擇「另存目標...」
 > * 使用 JavaScript 的連結，如 `javascript:openLink()`
+
 >
 > 
 對於這些下載類型，您可以手動呼叫 [`tl()`](../functions/tl-method.md) 方法。
