@@ -2,7 +2,7 @@
 title: 美國各州
 description: 訪客的美國州。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -18,7 +18,9 @@ ht-degree: 0%
 
 此維度會參照Adobe內部的查閱規則。 查閱值以點擊所傳送的IP位址為基礎。 Adobe與 [Digital Element合作](https://www.digitalelement.com/) ，以維護IP位址與國家／地區間的查詢。 此維度適用於所有實作，不需開箱即用。
 
-> [!TIP] 如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
+>[!TIP]
+>
+>如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
 
 ## 維度值
 
