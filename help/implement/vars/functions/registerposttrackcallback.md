@@ -2,7 +2,7 @@
 title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
 translation-type: tm+mt
-source-git-commit: 0d7e7dcb2cc382d83e267e51b1abeff38da270d3
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 95%
@@ -14,11 +14,15 @@ ht-degree: 95%
 
 `registerPostTrackCallback` 變數可讓貴組織在成功將點擊傳送至 Adobe 後，立即連結 JavaScript 函數。如果追蹤呼叫失敗，此函數將不會執行。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構，或是清除單頁應用程式中的變數值。
 
->[!IMPORTANT] 請勿在 `registerPostTrackCallback` 變數內呼叫 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 之類的追蹤呼叫。此變數中的追蹤函數會導致影像要求發生無限循環！
+>[!IMPORTANT]
+>
+> 請勿在 [`t()`](t-method.md) 變數內呼叫 [`tl()`](tl-method.md) 或 `registerPostTrackCallback` 之類的追蹤呼叫。此變數中的追蹤函數會導致影像要求發生無限循環！
 
 每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
->[!NOTE] 對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。請避免這兩個函數之間的依賴關係。
+>[!NOTE]
+>
+> 對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。請避免這兩個函數之間的依賴關係。
 
 ## Adobe Experience Platform Launch 中的註冊後續追蹤回呼
 
