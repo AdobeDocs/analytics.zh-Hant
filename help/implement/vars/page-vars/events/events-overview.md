@@ -2,7 +2,7 @@
 title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 92%
@@ -45,7 +45,9 @@ ht-degree: 92%
 * `scView`: 遞增「 [購物車檢視」](/help/components/metrics/cart-views.md) 量度。
 * `scCheckout`: 遞增「 [結帳」量度](/help/components/metrics/checkouts.md) 。
 
->[!NOTE] 此變數會區分大小寫。請避免事件值的大小寫拼寫錯誤，確保資料彙集的準確性。
+>[!NOTE]
+>
+> 此變數會區分大小寫。請避免事件值的大小寫拼寫錯誤，確保資料彙集的準確性。
 
 ```js
 // Set the events variable to a single value
@@ -67,7 +69,9 @@ s.events = "event1=10";
 s.events = "event1=2,event2";
 ```
 
->[!NOTE] 計數器事件不支援貨幣或小數值。請使用貨幣事件來報告貨幣，或使用數值事件來報告小數值。
+>[!NOTE]
+>
+> 計數器事件不支援貨幣或小數值。請使用貨幣事件來報告貨幣，或使用數值事件來報告小數值。
 
 ### 使用貨幣事件
 
@@ -84,7 +88,9 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
 ```
 
->[!NOTE] 如果您同時在 `events` 和 `products` 變數中設定貨幣值，系統會使用 `events` 中的貨幣值。請避免同時在 `events` 和 `products` 變數中設定貨幣值。
+>[!NOTE]
+>
+> 如果您同時在 `events` 和 `products` 變數中設定貨幣值，系統會使用 `events` 中的貨幣值。請避免同時在 `events` 和 `products` 變數中設定貨幣值。
 
 ### 使用數值事件
 
@@ -99,4 +105,6 @@ s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
 
->[!NOTE] 如果您同時在 `events` 和 `products` 變數中設定數值，系統會使用 `events` 中的數值。請避免同時在 `events` 和 `products` 變數中設定數值。
+>[!NOTE]
+>
+> 如果您同時在 `events` 和 `products` 變數中設定數值，系統會使用 `events` 中的數值。請避免同時在 `events` 和 `products` 變數中設定數值。
