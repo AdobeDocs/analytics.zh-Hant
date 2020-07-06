@@ -4,8 +4,11 @@ subtopic: Dashboards
 title: 控制面板和報表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1819'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 即時報表
 * 其他控制面板
 
->[!NOTE]「Report &amp; Analytics」不再列出&#x200B;**[!UICONTROL 「網站概觀」]**&#x200B;控制面板。不過，在某些情況下您仍會看到其部分或全部的小報表。
+>[!NOTE]
+>
+>「Report &amp; Analytics」不再列出&#x200B;**[!UICONTROL 「網站概觀」]**&#x200B;控制面板。不過，在某些情況下您仍會看到其部分或全部的小報表。
 
 * 舉例來說，假設您只有三個經常檢視報表，則「Report &amp; Analytics」會取用「網站綜覽」控制面板的兩個報表，來填滿&#x200B;**[!UICONTROL 「我的建議報表」]**&#x200B;控制面板。
 * 全新的報表套裝一開始也會配備「網站綜覽」的小報表，直到您經常檢視的報表取代它們為止。即使如此，控制面板現在也改稱&#x200B;**[!UICONTROL 「我的建議報表」]**。
@@ -143,6 +148,7 @@ t_dashboard_content.xml
       您可以選取度量、圖表類型、顏色範圍以及臨界值。如果度量的計數超過大於臨界值，量規會使用大於欄位上方的顏色，在小報表中指出這點。如果度量的計數小於臨界值，量規會使用小於欄位上方的顏色，在小報表中指出這點。您在這些欄位中指定的值是度量的可計算值，例如頁面檢視次數、金額、購物車檢視等等(請勿使用特殊字元)。
    * 報表套裝摘要：顯示報表套裝的選定度量及其總計或高和低值。
    * 使用摘要：依據您公司的人員顯示有關介面存取的資料。這個小報表可依使用者名稱存取、報表存取或報表套裝存取來顯示資料。您可以提供 URL 以便建立以下使用者內容小報表。如果影像或其他資源 URL 不是以 https:// 開始，則 Internet Explorer 使用者可能會看到有關混合內容的警告。您可以在瀏覽器的安全設定中停用混合內容的警告。
+
    *使用者內容：*
 
    * 外部報表：讓您以 .xml 和 .csv 格式新增外部報表。
@@ -150,6 +156,7 @@ t_dashboard_content.xml
    * 影像：讓您從影像 URL 中建立控制面板。如果 URL 使用 HTTP 通訊協定，Internet Explorer 會發出混合內容警告。請使用帶 HTTPS 的 URL 移除警告。其他所有通訊協定都會發出 `Specified URL could not be retrieved` 錯誤。
    * RSS：讓您新增 RSS 網頁摘要。必須是 HTTP 或 HTTPS。否則，您將會看到 `Specified URL could not be retrieved` 錯誤。
    * 文字：讓您使用 XHTML 代碼建立自己的資料。URL 請使用 HTTP 或 HTTPS。用於文字小報表內容中的影像 (具備 HTTP 通訊協定) 將導致 IE 使用者接收有關混合內容的警告。使用其他通訊協定加入的影像不會顯示在報表中。
+
    **我的控制面板**
 
    列出您可移動內容至新控制面板的升級後控制面板。
