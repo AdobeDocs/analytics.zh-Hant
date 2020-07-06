@@ -4,7 +4,7 @@ title: 日曆事件
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 translation-type: tm+mt
-source-git-commit: 739368320e73d3b441151ce7e912fe74d3f8308b
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
@@ -16,7 +16,9 @@ ht-degree: 100%
 
 新增日曆事件和管理共用事件的步驟。
 
->[!NOTE]為確保最佳報告效能，趨勢和特定時段的圖表會顯示 20 個最近的日曆事件。
+>[!NOTE]
+>
+>為確保最佳報告效能，趨勢和特定時段的圖表會顯示 20 個最近的日曆事件。
 
 對於特定時段的趨勢報表，您可以圖形形式顯示事件，並查看促銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。設定日曆事件的過程包括命名事件、設定日期、新增附註和設定圖示。例如，如果使用 Social，您可以建立日曆事件來顯示網站流量增加與某位名人使用 Twitter 提及產品有關聯。
 
@@ -33,6 +35,7 @@ ht-degree: 100%
    1. 按一下&#x200B;**[!UICONTROL 「推送至使用者」]**。
    1. 按一下&#x200B;**[!UICONTROL 「勾選全部」]**&#x200B;或勾選使用者名稱旁的方塊。
    1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
    如此可讓日曆事件有更多用處。分析師現在可以強制覆蓋其使用者的報表，以提供更多上下文內容。
 1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 日曆事件]**」。
 1. 在&#x200B;**[!UICONTROL 「共用日曆事件」]**&#x200B;底下，指定以下任一選項：
