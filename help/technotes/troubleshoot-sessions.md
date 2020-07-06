@@ -2,7 +2,10 @@
 title: 排解 Adobe Analytics 中工作階段的疑難問題
 description: 瞭解如何解決登出 Adobe Analytics 時遇到的相關問題。
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '345'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +28,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 為解決此問題，Adobe 建議與貴組織的 IT 團隊合作，允許授權標頭通過貴組織的 Proxy。
 
->[!NOTE] 雖然 Analytics 社群的會員已發現下列實用連結，但 Adobe 並非這些連結的擁有者。檢視其內容時，請將此備註列入考量。
+>[!NOTE]
+>
+> 雖然 Analytics 社群的會員已發現下列實用連結，但 Adobe 並非這些連結的擁有者。檢視其內容時，請將此備註列入考量。
 
 如需 Symantec Proxy 和授權標頭的資訊，請參閱：
 
