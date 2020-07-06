@@ -4,7 +4,10 @@ title: 尋找方法
 topic: Admin tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 100%
 
 ---
 
@@ -52,5 +55,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
  </tbody> 
 </table>
 
->[!NOTE] 所有「尋找方法」將在瀏覽結束時過期。如果您選擇在不同的事件 (例如，購物車結帳) 發生後過期，在瀏覽期間發生「購物車結帳」時，「尋找方法」會過期。如果「購物車結帳」未在瀏覽期間發生，則「尋找方法」仍在瀏覽結束時過期。
+>[!NOTE]
+>
+> 所有「尋找方法」將在瀏覽結束時過期。如果您選擇在不同的事件 (例如，購物車結帳) 發生後過期，在瀏覽期間發生「購物車結帳」時，「尋找方法」會過期。如果「購物車結帳」未在瀏覽期間發生，則「尋找方法」仍在瀏覽結束時過期。
 
