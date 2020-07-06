@@ -4,7 +4,10 @@ title: 即時報表
 topic: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 
->[!NOTE]即時報表不需要進行額外的實作或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md)。
+>[!NOTE]
+>
+>即時報表不需要進行額外的實作或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md)。
 
 **[!UICONTROL 網站量度]** > **[!UICONTROL 即時]**
 
