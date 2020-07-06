@@ -2,8 +2,11 @@
 description: 'null'
 title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1038'
+ht-degree: 100%
 
 ---
 
@@ -61,7 +64,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 組織 </p> </td> 
-   <td colname="col2"> <p> 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像跨及所有 Experience Cloud 產品和解決方案的登入公司。 </p> <p>最常見的組織就是您的公司名稱。不過，公司可以有許多組織。 </p> </td> 
+   <td colname="col2"> <p> 組織是可讓管理員設定群組和使用者，以及控制 Experience Cloud 單一登入的實體。組織的作用就像跨及所有 Experience Cloud 產品和解決方案的登入公司。 </p> <p>通常組織就是您的公司名稱，但是一間公司可以有多個組織。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫承諾使用量 </p> </td> 
@@ -82,7 +85,9 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
 
 伺服器呼叫使用量權限會自動授予 Analytics 管理員。該權限可讓使用者檢視控制面板，並建立伺服器呼叫警報。管理員可以選擇將這些權限授予非管理員使用者。
 
->[!NOTE] 貴公司可選擇哪些登入公司能存取「伺服器呼叫使用量」。
+>[!NOTE]
+>
+> 貴公司可選擇哪些登入公司能存取「伺服器呼叫使用量」。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
