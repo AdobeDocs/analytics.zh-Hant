@@ -3,7 +3,10 @@ description: 'null'
 title: 限制與規格
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '617'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## Power BI 發佈限制 {#section_D4BDD70B20F94A0FAE53531CA528AE42}
 
->[!NOTE] 這些限制僅適用於「以 Power BI 資料集表格形式發佈 Report Builder 請求」選項。
+>[!NOTE]
+>
+> 這些限制僅適用於「以 Power BI 資料集表格形式發佈 Report Builder 請求」選項。
 
 * 每個活頁簿最多可將 100 個 Report Builder 請求匯出至 Power BI。
 * 達到第 101 個請求時，排程程序將會停止匯出請求。
@@ -20,7 +25,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 在發佈至 Power BI 後編輯 Report Builder 請求 {#section_6989E74F68DD43F08D37C36B6777DB50}
 
->[!NOTE] 此規格可套用至「以 Power BI 資料集表格形式發佈所有 Report Builder 請求」選項和「在活頁簿中以 Power BI 資料集表格形式發佈所有格式化表格」選項。
+>[!NOTE]
+>
+> 此規格可套用至「以 Power BI 資料集表格形式發佈所有 Report Builder 請求」選項和「在活頁簿中以 Power BI 資料集表格形式發佈所有格式化表格」選項。
 
 在發佈至 Power BI 後編輯 Report Builder 請求可能會造成問題。
 
@@ -38,6 +45,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
       1. 確認其覆寫您第一次發佈時所建立的現有資料集。
       1. 確認 page_1 表格已正確更新「頁面」欄與「造訪」欄。
       1. 確認視覺效果已中斷，因為其參考已不存在於 page_1 表格中的「頁面檢視」欄。
+
    **以下是視覺效果「不會」中斷的範例：**
 
    1. 在 Report Builder 中，使用「頁面」維度和「頁面檢視」量度建立含有一個請求的活頁簿。
@@ -62,5 +70,5 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 * 標籤不能是字母和數字的組合，因為系統可能會將其誤認為列或欄的位址。例如，A100 不能作為標籤，因為其為活頁簿中儲存格的位址。
 * 以下字元為無效的標籤字元：「#」、「@」、「!」、「$」、「^」、「&amp;」、「*」、「`」、「~」、「 」。這些字元將會替換成底線字元。
-* 輸入無效的名稱時，畫面將會顯示警告訊息，並建議自動產生的名稱。If you click **[!UICONTROL Yes]**, this name will be used. If you click **[!UICONTROL No]**, the Advanced Wizard UI will let you enter the new name.
+* 輸入無效的名稱時，畫面將會顯示警告訊息，並建議自動產生的名稱。如果您按一下&#x200B;**[!UICONTROL 「是」]**，系統將會使用此名稱。如果您按一下&#x200B;**[!UICONTROL 「否」]**，「進階精靈」使用者介面將會讓您輸入新名稱。
 
