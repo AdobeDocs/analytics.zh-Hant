@@ -1,8 +1,11 @@
 ---
 title: pageType
 description: 判斷目前頁面是否為 404 錯誤。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 100%
 
 ---
 
@@ -11,7 +14,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `pageType` 變數是用來標出網站上錯誤頁面 (如 404 錯誤) 的標幟。如果此變數包含字串 `errorPage`，則會填入「找不到頁面」維度。
 
->[!IMPORTANT] 請勿在非錯誤頁面上設定此變數。
+>[!IMPORTANT]
+>
+> 請勿在非錯誤頁面上設定此變數。
 
 ## Adobe Experience Platform Launch 中的頁面類型
 
@@ -25,4 +30,6 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 s.pageType = "errorPage";
 ```
 
->[!TIP] 使用 eVar 來收集錯誤代碼，以便取得訪客在網站上遇到哪些具體錯誤的詳細資訊。
+>[!TIP]
+>
+> 使用 eVar 來收集錯誤代碼，以便取得訪客在網站上遇到哪些具體錯誤的詳細資訊。
