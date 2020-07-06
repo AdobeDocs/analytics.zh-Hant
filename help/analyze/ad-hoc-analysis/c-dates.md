@@ -3,7 +3,10 @@ description: 在日曆中，您可以指定日期和日期範圍，也可以選�
 title: 日期和日期範圍
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/daterange.jpeg)
 
->[!NOTE] 如果您需要執行舊版報表的相關協助，請聯絡您的客戶經理。
+>[!NOTE]
+>
+> 如果您需要執行舊版報表的相關協助，請聯絡您的客戶經理。
 
 ## 舊日期片段 {#concept_53AA34DB3CE647608CAF4B41D6EAF45E}
 
@@ -41,5 +46,7 @@ c_legacy_data.xml
 1. [建立或開啟專案。](/help/analyze/ad-hoc-analysis/c-getting-started.md)
 1. 開啟[日曆](/help/analyze/ad-hoc-analysis/c-dates.md)，然後選取&#x200B;**[!UICONTROL 「季度」]**&#x200B;或&#x200B;**[!UICONTROL 「年度」]**。
 
->[!NOTE] 歷史日期片段是以季度和年度為單位來區隔。您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
+>[!NOTE]
+>
+> 歷史日期片段是以季度和年度為單位來區隔。您無法跨舊片段和新處理平台之間的邊界來檢視資料。同時橫跨這兩者的日期範圍會導致錯誤。此外，日期範圍僅適用於西曆，不適用於自訂日曆。
 
