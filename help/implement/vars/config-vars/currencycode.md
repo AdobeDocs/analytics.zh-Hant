@@ -2,7 +2,7 @@
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
 translation-type: tm+mt
-source-git-commit: fedece99d8d9fdaf4eb9ba5e997c7ee2f378df4c
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 90%
@@ -20,7 +20,9 @@ ht-degree: 90%
 
 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。所有儲存在資料彙集伺服器中的值，最終都會以報表套裝的貨幣儲存。
 
->[!IMPORTANT] 如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。若您會在實施中使用此變數，請確定已正確定義此變數。
+>[!IMPORTANT]
+>
+> 如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。若您會在實施中使用此變數，請確定已正確定義此變數。
 
 此變數不會在點擊之間持續存在。請確定已在每個涉及收入或貨幣事件的頁面上定義此變數。
 
