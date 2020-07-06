@@ -2,7 +2,7 @@
 title: 行動裝置尺寸
 description: 根據裝置的使用者代理字串的維度。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -22,7 +22,9 @@ ht-degree: 4%
 
 ## 行動維度說明
 
->[!NOTE] 標示為非 `"None"` 行動裝置的維度值。 如果您想要只包含行動裝置的報表，請將「行動裝置」維度拖曳至「工作區畫布」的區段區域。
+>[!NOTE]
+>
+>標示為非 `"None"` 行動裝置的維度值。 如果您想要只包含行動裝置的報表，請將「行動裝置」維度拖曳至「工作區畫布」的區段區域。
 
 * **行動音訊支援**: 決定裝置可播放的檔案格式。 範例值 `"MP3"`包括、 `"AAC"`和 `"MIDI Monophonic"`。 此維中的值不是互斥的； 單一點擊可歸因於多個維度值。
 * **行動電信業者**: 如果使用者代理包含電信業者專用的裝置，則電信業者為維度值。 範例值 `"Reliance Jio"`包括 `"Airtel"`、 `"Vodafone"`和 `"Verizon"`。
