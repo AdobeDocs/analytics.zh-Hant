@@ -4,7 +4,10 @@ title: 功能表自訂
 topic: Admin tools
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 功能表變更可套用至存取報表套裝的所有使用者。但使用者使用報表套裝時，可以選擇還原功能表的預設設定。
 
->[!NOTE] 功能表結構中的任何變更不會影響 Report Builder 和 Ad Hoc Analysis。不過，重新命名報告將在這兩項工具中反映。
+>[!NOTE]
+>
+> 功能表結構中的任何變更不會影響 Report Builder 和 Ad Hoc Analysis。不過，重新命名報告將在這兩項工具中反映。
 
 ## 功能表自訂說明 {#section_B0D224DACB914A378902A4E0E1234889}
 
