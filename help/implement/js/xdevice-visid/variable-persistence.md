@@ -4,15 +4,20 @@ keywords: Analytics Implementation
 title: 歸屬分配和持續性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '542'
+ht-degree: 100%
 
 ---
 
 
 # 歸屬分配和持續性
 
->[!IMPORTANT]不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/cda-home.md)。
+>[!IMPORTANT]
+>
+>不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/cda-home.md)。
 
 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
 
@@ -40,7 +45,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 設為透過其他措施來過期的 eVar 將複製至已驗證的訪客資料。請注意，值 `apple` 持續存在。
 * 對於持續存在的 eVar，不會記錄任何「例項」度量。這表示當使用交叉裝置訪客分身分識別時，可能看到 eVar 值的「唯一瀏覽」度量大於「例項」度量的報表。
 
->[!NOTE]如果使用者第一次造訪您的網站 (以前從未在此裝置上造訪過)，而且在到達後大約三分鐘內進行驗證，則沒有任何值將持續保存至已驗證的訪客資料。
+>[!NOTE]
+>
+>如果使用者第一次造訪您的網站 (以前從未在此裝置上造訪過)，而且在到達後大約三分鐘內進行驗證，則沒有任何值將持續保存至已驗證的訪客資料。
 
 ## 範例 2
 
