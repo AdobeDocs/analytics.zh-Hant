@@ -5,7 +5,7 @@ title: 管理行銷管道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
 translation-type: tm+mt
-source-git-commit: 45c441a558168cb2af70855e848e1eaa26db8daa
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 86%
@@ -44,7 +44,9 @@ ht-degree: 86%
 
 在行銷管道管理員中新增行銷管道。
 
->[!NOTE] 管道無法刪除。如果不想使用管道，則可停用或重新命名它，並保留以備將來之用。
+>[!NOTE]
+>
+> 管道無法刪除。如果不想使用管道，則可停用或重新命名它，並保留以備將來之用。
 
 1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 在[!UICONTROL 「報告套裝管理員」]頁面上，選擇一個報告套裝。
@@ -72,7 +74,7 @@ ht-degree: 86%
 
 | 欄位 | 定義 |
 |--- |--- |
-| 已啟用 | 啟用或停用該行銷管道。 |
+| 啟用 | 啟用或停用該行銷管道。 |
 | 管道名稱 | 行銷管道的友好名稱。 |
 | 覆蓋上次接觸管道 | 可讓您選擇是否使用選取的管道覆蓋現有的永久性上次接觸管道。如果勾選此核取方塊，任何管道 (包括直接和內部) 都會覆蓋現有的上次接觸管道。產生的結果會將轉換歸屬於可能不值得該評價的管道。例如，若之前已透過免費搜尋管道獲得使用者，則此選項可確保直接管道不會接收用於轉換的評價。 |
 | 管道劃分 | 允許您依該值劃分管道。建立[行銷管道分類](/help/components/c-marketing-channels/classifictions-mchannel.md)時，您可新增可能的管道劃分 (子管道)。 |
