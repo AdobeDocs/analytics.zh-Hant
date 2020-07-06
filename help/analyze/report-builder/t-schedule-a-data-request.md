@@ -4,7 +4,10 @@ title: 排程資料請求
 topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1025'
+ht-degree: 100%
 
 ---
 
@@ -15,11 +18,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，您可以將活頁簿排程為立即傳送或按照週期傳送，然後在「[!DNL Advanced Delivery Options]」中指定檔案格式。活頁簿上傳的檔案大小限制為 5 MB。
 
-Additionally, after you create a workbook schedule in Report Builder, you can view and edit the schedule in **[!UICONTROL Analytics]** > **[!UICONTROL Reports]**. (請參閱「Reports &amp; Analytics」說明中的[報表排程與分發](/help/analyze/reports-analytics/scheduling.md))。
+此外，在 Report Builder 中建立活頁簿排程後，您可以前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**&#x200B;檢視及編輯排程(請參閱「Reports &amp; Analytics」說明中的[報表排程與分發](/help/analyze/reports-analytics/scheduling.md))。
 
->[!NOTE] 您必須安裝 Excel 2007 或相容性套件，才能排程活頁簿。每一個 Report Builder 授權最多可建立 10 個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。若要這麼做，請前往 **[!UICONTROL Admin]** > **[!UICONTROL Company Settings]** > **[!UICONTROL Report Builder Reports]**。 活頁簿排程 (或上傳至活頁簿庫) 後，若超過 28 個月從未更動 (更新、更換)，系統將加以刪除。
+>[!NOTE]
+>
+> 您必須安裝 Excel 2007 或相容性套件，才能排程活頁簿。每一個 Report Builder 授權最多可建立 10 個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。若要這麼做，請前往&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL Report Builder 報表」]**。活頁簿排程 (或上傳至活頁簿庫) 後，若超過 28 個月從未更動 (更新、更換)，系統將加以刪除。
 
->[!NOTE] 使用者輸入的「傳送時間」/「每日時間」是指定活頁簿開始處理的時間，而非實際傳送活頁簿的時間。實際傳送活頁簿的時間主要會根據處理所需時間 (複雜和大型活頁簿的處理時間比簡單的活頁簿長)。例如，如果活頁簿需要 15 分鐘處理，則實際傳送時間至少會超過原本指定的「傳送時間」/「日期時間」15 分鐘。
+>[!NOTE]
+>
+> 使用者輸入的「傳送時間」/「每日時間」是指定活頁簿開始處理的時間，而非實際傳送活頁簿的時間。實際傳送活頁簿的時間主要會根據處理所需時間 (複雜和大型活頁簿的處理時間比簡單的活頁簿長)。例如，如果活頁簿需要 15 分鐘處理，則實際傳送時間至少會超過原本指定的「傳送時間」/「日期時間」15 分鐘。
 >此外，還有其他許多因素可能會進一步拉長實際傳送活頁簿前的延遲時間：
 >
 > * 如果&#x200B;**同時執行許多同類型的不同排程**，可能會使系統過載。排程系統僅允許同時執行少數 (5 至 10 個) 任一類型的活頁簿，因此，要是一次排程超過 5 至 10 個活頁簿，部分活頁簿就得等待其他活頁簿完成，才能開始處理。將公司活頁簿的排程分散到一整天或一個小時內，而非同時處理，即可緩解此問題。
@@ -31,15 +38,15 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 ## 排程活頁簿
 
 1. 產生並儲存活頁簿。
-1. On the Report Builder Toolbar, click **[!UICONTROL Schedule]**.
+1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程」]**。
 
-   The [!UICONTROL Scheduled Reports] tab summarizes all the tasks you have created, as well as the number of remaining tasks.
-1. 在標籤 **[!UICONTROL Scheduled Reports]** 上，按一下 **[!UICONTROL New]**。
+   [!UICONTROL 「排程報表」]索引標籤會總結您建立的所有任務和剩餘的任務數量。
+1. 在&#x200B;**[!UICONTROL 「排程報表」]**&#x200B;索引標籤中按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. 「基本排程精靈」顯示：
 
    ![](assets/simple-schedule-wizard.png)
 
-1. 在中， [!UICONTROL Basic Scheduling Wizard]配置以下選項：
+1. 在[!UICONTROL 「基本排程精靈」]中設定下列選項：
 
 | 欄位 | 說明 |
 |--- |--- |
@@ -55,7 +62,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 
 ## 進階傳送選項
 
-1. 按一 **[!UICONTROL Advanced Delivery Options]** 下以設定檔案和發佈選項：
+1. 按一下&#x200B;**[!UICONTROL 「進階傳送選項」]**，即可設定檔案和發佈選項：
 
 | 欄位 | 說明 |
 |--- |--- |
@@ -72,7 +79,7 @@ Additionally, after you create a workbook schedule in Report Builder, you can vi
 | 發佈至 Power BI | <ul><li>將活頁簿發佈至 Power BI</li><li>以 Power BI 資料集發佈所有 Report Builder 請求</li><li>以 Power BI 資料集發佈所有格式化表格</li></ul> |
 | 將此 Power BI 報表標記為 | 標記詳細資料 |
 
-1. Click **[!UICONTROL OK]**, then click **[!UICONTROL Exit]**.
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**，然後按一下&#x200B;**[!UICONTROL 「退出」]**。
 
    Report Builder 會在[「排程任務管理員」](/help/analyze/report-builder/r-arb-scheduled-reports.md)中顯示排程活頁簿。
 
