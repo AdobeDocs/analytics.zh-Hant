@@ -3,7 +3,7 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: tm+mt
-source-git-commit: f1907abd7f30a46c0f560b3b72883d260c296f14
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '2911'
 ht-degree: 100%
@@ -31,7 +31,9 @@ ht-degree: 100%
 
 傳回其引數的值。使用 NOT 可確保其值不等於某個特定值。
 
->[!NOTE] 0 (零) 表示 False，其他值表示 True。
+>[!NOTE]
+>
+> 0 (零) 表示 False，其他值表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -207,7 +209,9 @@ CBRT(metric)
 
 如果 N &lt;= 0 則使用所有先前列。由於是依據維度排序，因此只適用於根據日期或路徑長度等自然順序排列的維度。
 
->[!NOTE] 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
+>[!NOTE]
+>
+> 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -450,7 +454,9 @@ NOT(logical)
 
 如果任何引數為 TRUE 則傳回 TRUE，若所有引數為 FALSE 則傳回 FALSE。
 
->[!NOTE] 0 (零) 表示 False，其他值表示 True。
+>[!NOTE]
+>
+> 0 (零) 表示 False，其他值表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -691,7 +697,9 @@ Z 分數的方程式為：
 
 其中 [!DNL x] 是原始分數、[!DNL μ] 是族群平均值，[!DNL σ] 是族群標準差。
 
->[!NOTE][!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
+>[!NOTE]
+>
+>[!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
 
 Z 分數 (量度)
 
@@ -716,5 +724,7 @@ Z 分數 (量度)
 
 傳回可在欄中看到目前列的機率。
 
->[!NOTE] 此處假設值為常態分布。
+>[!NOTE]
+>
+> 此處假設值為常態分布。
 
