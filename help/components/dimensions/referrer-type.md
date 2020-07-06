@@ -2,7 +2,7 @@
 title: 反向連結類型
 description: 反向連結的類型，視訪客的來源而定。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -33,7 +33,9 @@ ht-degree: 0%
 
 下列清單會參照Adobe使用的「社交網路」查閱表格。 Adobe禮節性地提供此清單給Adobe Analytics客戶。 如果您想要建議Adobe將網域新增至此清單，請讓組織中的支援委派聯絡客戶服務。
 
->[!NOTE] 此清單與 [Marketing Channel處理規則中社交網路的預設清單不同](../c-marketing-channels/c-rules.md)。
+>[!NOTE]
+>
+>此清單與 [Marketing Channel處理規則中社交網路的預設清單不同](../c-marketing-channels/c-rules.md)。
 
 * `12seconds.tv`
 * `t.163.com`
