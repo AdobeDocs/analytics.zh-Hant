@@ -2,8 +2,11 @@
 description: 'null'
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '153'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 **[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員」]**
 
->[!IMPORTANT] 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
+>[!IMPORTANT]
+>
+> 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
 
 + [帳單](billing-admin.md)
 + [機器人規則概觀](bot-removal/bot-rules.md)
