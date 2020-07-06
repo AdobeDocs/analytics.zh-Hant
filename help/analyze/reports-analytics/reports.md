@@ -2,7 +2,7 @@
 title: 報表
 description: 「報告與分析」用於每個報表的維度和量度。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 「報告與分析」中的每個報表都使用專用的維度和預設度量。 您可以變更每個報表中的量度，並視需要新增劃分。 下列清單提供每個報表中使用的維度。
 
-> [!NOTE] 您的報表功能表會根據您組織中管理員所做的自訂設定而有所不同。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>您的報表功能表會根據您組織中管理員所做的自訂設定而有所不同。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
 
 ## 網站量度
 
@@ -105,7 +107,9 @@ ht-degree: 1%
    * 單頁瀏覽： 套用Adobe [提供的](/help/components/dimensions/page.md) 「單頁瀏覽」區段時，使用「頁面」維度。
    * 退出頁面： 使用「退 [出頁面](/help/components/dimensions/exit-dimensions.md) 」維度。
 
-> [!NOTE] 其他報表可顯示在此資料夾中。 它們是其他維度，例如prop，您可在報表套裝設 [定下啟用](../../admin/admin/c-traffic-variables/traffic-var.md) 路徑分析。
+>[!NOTE]
+>
+>其他報表可顯示在此資料夾中。 它們是其他維度，例如prop，您可在報表套裝設 [定下啟用](../../admin/admin/c-traffic-variables/traffic-var.md) 路徑分析。
 
 ## 流量來源
 
@@ -218,4 +222,6 @@ ht-degree: 1%
 
 包含您建立的目標。 See [Targets](targets.md) for more information.
 
-> [!NOTE] 如果您在此說明頁面上找不到報表，則管理員可能會重新命名或調整資料夾。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
+>[!NOTE]
+>
+>如果您在此說明頁面上找不到報表，則管理員可能會重新命名或調整資料夾。 See [Menu customizing](/help/admin/admin/customize-menus.md) in the Admin user guide.
