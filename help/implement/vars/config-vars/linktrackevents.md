@@ -1,8 +1,11 @@
 ---
 title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中納入哪些事件。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 Launch 會自動偵測介面中定義的事件，並將其納入連結追蹤點擊中。
 
->[!IMPORTANT] 如果您使用自訂程式碼編輯器在 Launch 中設定事件，也必須使用自訂程式碼在 `linkTrackEvents` 中納入事件。
+>[!IMPORTANT]
+>
+> 如果您使用自訂程式碼編輯器在 Launch 中設定事件，也必須使用自訂程式碼在 `linkTrackEvents` 中納入事件。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackEvents
 
@@ -33,7 +38,9 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 此變數的預設值為空字串。如果此變數未定義，所有事件都會納入連結追蹤影像要求中。請注意，Launch 會根據介面中設定的事件自動填入此變數，因此在使用 Launch 的實施中一律會設定。
 
->[!TIP] 在此變數中指定事件時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackEvents = "event1";` 正確，而 `s.linkTrackEvents = "s.event1";` 不正確。
+>[!TIP]
+>
+> 在此變數中指定事件時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackEvents = "event1";` 正確，而 `s.linkTrackEvents = "s.event1";` 不正確。
 
 ## 範例
 
