@@ -1,8 +1,11 @@
 ---
 description: 使用 Java 11 執行 Ad Hoc Analysis 相關說明
 title: 使用 Java 11 執行 Ad Hoc Analysis
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +30,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. **執行選取的檔案**。PC：按兩下 .bat 檔。Mac：在 .sh 檔上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 「開啟檔案 > 其他...  > 公用程式」> (啟用所有應用程式) > 選取終端機 > 開啟」]**。
 1. 登入 Ad Hoc Analysis。
 
->[!NOTE]Java 11 版的 Ad Hoc Analysis 與 Federated ID 和 Enterprise ID 驗證方法不相容。
+>[!NOTE]
+>
+>Java 11 版的 Ad Hoc Analysis 與 Federated ID 和 Enterprise ID 驗證方法不相容。
 
 ## Ad Hoc Analysis (Java 11) 不支援的功能
 
