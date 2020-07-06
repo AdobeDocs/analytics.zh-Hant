@@ -4,7 +4,10 @@ title: 匯入書籤化報表與控制面板報表
 topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +22,15 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ![](assets/import_dashboard_reportlet.png)
 
-當您按一下或 **[!UICONTROL Retrieve your Dashboards]** 時，您 **[!UICONTROL Retrieve your Bookmarks]**&#x200B;的現有控制面板和／或書籤資料會擷取並貼入工作表中。
+按一下「**[!UICONTROL 擷取您的控制面板]**」或「**[!UICONTROL 擷取您的書籤]**」時，就會擷取您現有的控制面板和/或書籤資料並貼入工作表中。
 
->[!NOTE] 在 Report Builder 中，可用的控制面板和書籤清單除了僅限於該使用者，也僅限於您在精靈步驟 1 中，套用至所選報表套裝的控制面板和書籤清單。相反地，在行銷 Reports &amp; Analytics 中，無論控制面板和書籤使用哪些報表套裝，您可以存取您具有存取權的所有書籤和控制面板。
+>[!NOTE]
+>
+> 在 Report Builder 中，可用的控制面板和書籤清單除了僅限於該使用者，也僅限於您在精靈步驟 1 中，套用至所選報表套裝的控制面板和書籤清單。相反地，在行銷 Reports &amp; Analytics 中，無論控制面板和書籤使用哪些報表套裝，您可以存取您具有存取權的所有書籤和控制面板。
 
->[!NOTE] 系統只會匯入資料，因此，如果書籤中包含圖表，或是控制面板報表僅由圖表組成，系統只會匯入圖表中的資料。
+>[!NOTE]
+>
+> 系統只會匯入資料，因此，如果書籤中包含圖表，或是控制面板報表僅由圖表組成，系統只會匯入圖表中的資料。
 
 一旦您匯入控制面板報表 (或書籤) 建立請求後，請求便會與報表 (或書籤) 的主要維度建立關聯。因此，如果您編輯請求，樹狀檢視就不會再選取控制面板報表樹狀檢視節點 (或書籤節點)，而會選取請求的主要維度。
 
