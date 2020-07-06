@@ -2,7 +2,7 @@
 title: 語言
 description: 瀏覽器中偏好的語言設定。
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 「語言」維度顯示訪客喜歡在中檢視內容的頂級語言。 當您想要瞭解最常使用的訪客語言，以協助當地語系化時，這個維度很有用。
 
-> [!NOTE] 此維度不會收集您網站的語言。 如果您想要在維度中收集網站的語言，Adobe建議使用自訂變數，例如 [eVar](evar.md)。
+>[!NOTE]
+>
+>此維度不會收集您網站的語言。 如果您想要在維度中收集網站的語言，Adobe建議使用自訂變數，例如 [eVar](evar.md)。
 
 ## 將資料填入此維度
 
