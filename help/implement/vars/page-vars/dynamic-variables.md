@@ -1,8 +1,11 @@
 ---
 title: 動態變數
 description: 複製變數而不增加影像要求長度。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 當 Adobe 辨識出動態變數首碼時，會自動複製報表套裝中的查詢字串或 HTTP 標題值。此動作會在其他任何處理 (包括處理規則和 VISTA 規則) 之前進行。
 
->[!TIP] 複製變數時請留意字元上限。例如，如果將 `eVar1` 複製到 `prop1`，`prop1` 的值可能會遭到截斷，因為它有 100 個位元組的限制 (`eVar1` 則有 255 個位元組的限制)。
+>[!TIP]
+>
+> 複製變數時請留意字元上限。例如，如果將 `eVar1` 複製到 `prop1`，`prop1` 的值可能會遭到截斷，因為它有 100 個位元組的限制 (`eVar1` 則有 255 個位元組的限制)。
 
 ## Adobe Experience Platform Launch 中的動態變數
 
@@ -48,4 +53,6 @@ s.eVar1 = "D=User-Agent";
 s.eVar1 = "D=g";
 ```
 
->[!NOTE] 在為實施除錯時，動態變數會顯示為字串。值由 Adobe 資料收集伺服器從伺服器端複製。
+>[!NOTE]
+>
+> 在為實施除錯時，動態變數會顯示為字串。值由 Adobe 資料收集伺服器從伺服器端複製。
