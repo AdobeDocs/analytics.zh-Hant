@@ -3,7 +3,10 @@ description: 在啟用這項整合之前，請針對您部署的 Adobe Analytics
 title: 啟動這項整合的事前準備
 uuid: b911edc6-2265-48ed-9e3c-c79cc20dd9b2
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * **有效的 Silverpop 帳戶：**&#x200B;若要使用 Data Connectors 電子郵件整合，客戶必須有已啟用電子郵件的有效 Silverpop 帳戶，以及有效的使用者憑證。
 * **請聯絡您的 Silverpop 代表**。Silverpop 不會自動啟用此整合。您必須先聯絡 Silverpop 代表以起始 Silverpop 設定，才能從 Analytics 匯入或匯出資料。
 
->[!NOTE] 此整合僅適用於 Engage 組織 (Transact 組織不適用)。
+>[!NOTE]
+>
+> 此整合僅適用於 Engage 組織 (Transact 組織不適用)。
 
 ## 定價{#pricing}
 
