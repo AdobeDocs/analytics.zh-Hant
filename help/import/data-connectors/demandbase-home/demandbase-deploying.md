@@ -3,7 +3,10 @@ description: 部署這項整合是一項簡單的程序，需要執行下列動�
 title: 部署整合
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1310'
+ht-degree: 100%
 
 ---
 
@@ -71,7 +74,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 完成整合精靈後，您必須將整合代碼部署至 Adobe Analytics 部署代碼 (s_code)。
 
->[!NOTE] 如果您使用 Adobe TagManager 或 Dynamic Tag Management 來部署 Adobe Analytics，則可使用其中一種工具來輕鬆新增整合代碼。
+>[!NOTE]
+>
+> 如果您使用 Adobe TagManager 或 Dynamic Tag Management 來部署 Adobe Analytics，則可使用其中一種工具來輕鬆新增整合代碼。
 
 1. 前往&#x200B;**[!UICONTROL 「支援」]**&#x200B;標籤，從整合的「資源」區域下載並儲存 `integration code v2_0_1` 資源。
 
@@ -198,7 +203,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 或者，您也可以導覽至 Adobe Analytics 功能表結構內的 Demandbase 報表：請參閱下方的螢幕擷取畫面。
 
->[!NOTE] 這項資料應會在成功部署後 24 到 48 小時內顯示。
+>[!NOTE]
+>
+>這項資料應會在成功部署後 24 到 48 小時內顯示。
 
 ![](assets/reporting1.png)
 
