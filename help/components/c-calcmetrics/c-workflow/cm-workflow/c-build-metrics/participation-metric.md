@@ -3,7 +3,10 @@ description: 使用計算量度產生器，任何人都能建立參與率量度�
 title: 參與率量度
 uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 以下是一個簡單的使用案例：您是內容擁有者，且想查看是哪些頁面促成 (即參與) 包含訂單的造訪。方法如下：
 
->[!NOTE] 您以前必須透過「管理工具」執行此工作。您仍可從「管理工具」啟用參與率量度，但只限於自訂事件 1 至 100。
+>[!NOTE]
+>
+> 您以前必須透過「管理工具」執行此工作。您仍可從「管理工具」啟用參與率量度，但只限於自訂事件 1 至 100。
 
 以下是一個簡單的使用案例：您是內容擁有者，並想查看是哪些頁面促成 (參與) 包含電子郵件註冊的造訪。方法如下：
 
