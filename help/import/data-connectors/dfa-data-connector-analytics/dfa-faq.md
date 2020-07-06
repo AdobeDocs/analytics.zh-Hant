@@ -5,7 +5,10 @@ title: 常見問題集
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，假設報表套裝 A 中有廣告主 ID 為 Z 的整合，被指派了一個 CSID。如果後續在報表套裝 B 中特定了另一個廣告主 ID 為 Z 的整合，系統將不會再次為這個較新的整合指派 CSID。這時候將需要 Google 票證。另一方面，以報表套裝 A 中具有廣告主 ID Z 的整合為例，假設後續在報表套裝 A 中設定了另一個廣告主 Z 的整合。只有第一個整合會接收到整合的資料；但在此情況下，第一個整合可以停用，而資料將會傳遞到第二個整合。
 
->[!NOTE] CSID 不會在 2.0 版的整合中使用，因此 CSID 交涉程序並不適用。
+>[!NOTE]
+>
+> CSID 不會在 2.0 版的整合中使用，因此 CSID 交涉程序並不適用。
 
 ## 我使用 2.0 版的整合，但並未出現我的 DFA 廣告的成本量度。為什麼會這樣?  {#section-805748111bbe4bbf918d6dbbb2641fff}
 
