@@ -1,8 +1,11 @@
 ---
 title: linkLeaveQueryString
 description: 允許保留連結追蹤維度中的查詢字串。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +20,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 `linkLeaveQueryString` 的啟用將套用至所有連結追蹤維度 (包括自訂連結、退出連結和下載連結)。
 
->[!TIP] 此變數不會影響連結追蹤以外的維度。它只會影響自訂連結、退出連結和下載連結。
+>[!TIP]
+>
+> 此變數不會影響連結追蹤以外的維度。它只會影響自訂連結、退出連結和下載連結。
 
 ## Adobe Experience Platform Launch 中的保留 URL 參數
 
