@@ -5,7 +5,10 @@ title: 使用可選時間戳記
 topic: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 從行動應用程式傳送時間戳記資料至全域報表套裝。
 * 升級應用程式即可使用時間戳記，無需建立新的報表套裝。
 
->[!NOTE]針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
+>[!NOTE]
+>
+>針對所有從範本產生的新報表套裝，選擇式時間戳記皆為預設設定。由現有報表套裝複製的新報表套裝，將繼承原始報表套裝的時間戳記設定。
 
 如需其他的設定資訊，請參閱[可選時間戳記](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/timestamp-optional.html)。
 
@@ -52,7 +57,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 將資料合併至全域報表套裝可透過數個方式完成，包括多套裝標記、Vista 規則以及從離線來源匯入批次檔案。
 
->[!IMPORTANT]請務必謹慎規劃每個元件資料集的設計，以讓全域報表套裝中的組合有意義。
+>[!IMPORTANT]
+>
+>請務必謹慎規劃每個元件資料集的設計，以讓全域報表套裝中的組合有意義。
 
 ## 採用時間戳記的最佳實務 {#section_9436394E5D7E4F8A8B369B6D11BB2B2B}
 
