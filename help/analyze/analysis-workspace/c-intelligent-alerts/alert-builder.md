@@ -3,7 +3,10 @@ description: 'null'
 title: 警報產生器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 * 在 Analysis Workspace 中使用下列快速鍵：
 
    `ctrl (or cmd) + shift + a`
-* 前往 **[!UICONTROL Workspace]** > **[!UICONTROL Components]** > **[!UICONTROL New Alert]**。
-* By selecting one or more freeform table line items, right-clicking and selecting **[!UICONTROL Create Alert from Selection]**.
-* 從「報告與分析」報表，前往 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**。
+* 前往「**[!UICONTROL 工作區]** > **[!UICONTROL 元件]** > **[!UICONTROL 新增警報]**」。
+* 選取一或多個自由表格條列項目、以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**。
+* 在「Reports &amp; Analytics」報表中，前往「**[!UICONTROL 更多]** > **[!UICONTROL 新增警報]**」。
 
 ## 產生警報
 
@@ -41,7 +44,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 指定您希望檢查量度的時間：每小時、每日、每週或每月。
 
->[!NOTE] 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
+>[!NOTE]
+>
+> 對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
 
 **收件者**
 
