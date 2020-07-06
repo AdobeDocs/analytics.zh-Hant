@@ -4,7 +4,10 @@ title: 發佈 Widget
 topic: Admin tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 例如，您可以提供控制面板，讓公司行政人員檢視頁面訪客人數、獨特頁面訪客人數等等。
 
->[!CAUTION]檢視透過發佈 Widget 發佈的資料無需任何驗證。因此，您不妨認為，已發佈資料並沒有比將資料傳送至電子郵件群組或清單伺服器來得安全。請僅在嚴格遵守貴組織安全標準、現有合約規定及適用法律的情況下，才使用 Widget。發佈 Widget 可依 IP 位址或網域路徑進行限制，您可透過此發佈資料。然而，這類機制僅可防止無意資料發佈，並非保證安全存取透過發佈 Widget 發佈之資料的有效方式。
+>[!CAUTION]
+>
+>檢視透過發佈 Widget 發佈的資料無需任何驗證。因此，您不妨認為，已發佈資料並沒有比將資料傳送至電子郵件群組或清單伺服器來得安全。請僅在嚴格遵守貴組織安全標準、現有合約規定及適用法律的情況下，才使用 Widget。發佈 Widget 可依 IP 位址或網域路徑進行限制，您可透過此發佈資料。然而，這類機制僅可防止無意資料發佈，並非保證安全存取透過發佈 Widget 發佈之資料的有效方式。
 >
 > 對於透過發佈 Widget 公開的資料，Adobe 概不負責。
 
@@ -31,7 +36,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 在 Widget 上，按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 重新執行工具集。(預覽模式不會使用工具集的快取。)
 
->[!NOTE] 發佈 Widget 只會顯示報表的第一欄資料。
+>[!NOTE]
+>
+> 發佈 Widget 只會顯示報表的第一欄資料。
 
 ## 發佈 Widget 說明 {#section_D67478AECCA946B19A3E4C7071EB4871}
 
