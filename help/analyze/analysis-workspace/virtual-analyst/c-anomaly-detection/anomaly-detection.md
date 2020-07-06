@@ -2,8 +2,11 @@
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
@@ -16,9 +19,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 [在 YouTube 觀看「貢獻分析」](https://www.youtube.com/watch?v=MbpeJIADtGk&amp;index=64&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(3:20)
 
->[!IMPORTANT]異常偵測功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在 Workspace 中只能存取「每日粒度」的異常偵測功能。如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
+>[!IMPORTANT]
+>
+>異常偵測功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
 
-異常偵測提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
+「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 
 異常偵測可讓您區隔「真實訊號」與「雜訊」，接著找出形成這些訊號或異常情形的可能因素。換句話說，可讓您識別哪些統計波動是重要的、哪些不重要。接著您可以找出真正異常的根本原因。此外，您還可以取得可靠的量度 (KPI) 預測。
 
