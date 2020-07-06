@@ -4,7 +4,10 @@ title: 管理區段
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '919'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +22,11 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 ## 新增或編輯區段 {#section_B2BC136F9A53498D90C7C2ECC5DB892B}
 
->[!NOTE] 若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
+>[!NOTE]
+>
+> 若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
-1. In the segment panel of Step 1 of the Request Wizard, click **[!UICONTROL Add]**.
+1. 在「請求精靈」步驟 1 的區段面板中，按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需如何建立區段的詳細資訊，請參閱 [Analytics區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
 1. 在定義及儲存區段之後，返回「請求精靈」。
 1. 按一下「重新整理」圖示以重新整理區段清單。
@@ -35,7 +40,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 您可以將要轉換成區段的報表維度合併為特定組合。您可以從 Report Builder 介面建立這些區段。例如，從「頁面」請求輸出選取一些頁面，並根據這些值建立區段。
 
 1. 選取您要轉換成區段的報表輸出項目。
-1. Right-click to select **[!UICONTROL Create In-Context Segment in]** and specify the right container (Hits Container, Visits Container, Visitor Container).
+1. 按一下滑鼠右鍵選取「**[!UICONTROL 建立內文中區段於]**」，並指定正確的容器 (點擊數容器、瀏覽次數容器、訪客容器)。
 
    ![](assets/seg_in_context.png)
 
@@ -52,13 +57,15 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 您可以套用一或多個區段至任何指定的請求。這包含依序排列的區段。
 
-1. Go to the **[!UICONTROL Segment]** drop-down list and click the small down arrow in the **[!UICONTROL Choose Segment]** box to display all the segments.
+1. 前往&#x200B;**[!UICONTROL 「區段」]**&#x200B;下拉式清單，按一下&#x200B;**[!UICONTROL 「選擇區段」]**&#x200B;方塊中的小型向下箭頭，以顯示所有區段。
 
    ![](assets/seg_list.png)
 
 1. 勾選您要套用的區段。
 
->[!NOTE] 無論您是否擔任管理員，都只能在 Report Builder 中查看您擁有的區段以及與您共用的區段(在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段)。
+>[!NOTE]
+>
+> 無論您是否擔任管理員，都只能在 Report Builder 中查看您擁有的區段以及與您共用的區段(在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段)。
 
 ## 篩選區段 {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -84,14 +91,14 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_control.png)
 
-1. Check all the segments that you want to appear in the segment control, or check **[!UICONTROL Select All]**.
-1. 請注意此選項 **[!UICONTROL Automatically refresh linked requests upon item selection]**。
+1. 勾選所有您希望在區段控制項中出現的區段，或勾選「**[!UICONTROL 選取全部]**」。
+1. 請注意「**[!UICONTROL 項目選取時自動重新整理連結的請求]**」選項。
 
    * 如果勾選此選項，所有使用該控制項的請求都會重新整理。
    * 如果未勾選此選項，則會更新相關的請求參數，但不會重新整理請求。
 
 1. 指定區段控制項的左上方儲存格位置。
-1. Click **[!UICONTROL OK]** and the segment control appears in the specified location.
+1. 按一下「**[!UICONTROL 確定]**」，區段控制項便會出現在指定的位置。
 
    ![](assets/seg_control2.png)
 
@@ -106,7 +113,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 Report Builder 5.4 可讓您在多個目標請求當中新增、移除、取代以及取代所有區段：
 
 1. 選取活頁簿中的多個請求。
-1. 按一下右鍵並選擇 **[!UICONTROL Edit Requests]** > **[!UICONTROL By Segment]**。
+1. 按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 「編輯請求]** > **[!UICONTROL 依區段」]**。
 
    ![](assets/edit_by_segment.png)
 
