@@ -1,15 +1,20 @@
 ---
 title: cookieDomain
 description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 100%
 
 ---
 
 
 # cookieDomain
 
->[!IMPORTANT] 此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
+>[!IMPORTANT]
+>
+> 此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
 
 `cookieDomain` 變數決定了 AppMeasurement 在哪個網域設定 Cookie。您可以使用此變數來明確設定 Cookie 網域，而非使用 [`cookieDomainPeriods`](cookiedomainperiods.md) 變數。
 
