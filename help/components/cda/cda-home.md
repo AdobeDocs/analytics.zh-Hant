@@ -2,7 +2,7 @@
 title: 跨裝置分析
 description: 跨裝置分析將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 translation-type: tm+mt
-source-git-commit: d847fb9dc1427727a0162be993ddc4a73c52f192
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 96%
@@ -28,7 +28,9 @@ ht-degree: 96%
 
 跨裝置分析需要下列項目。 請與組織內部團隊及 Adobe 客戶經理合作，確保您符合以下所有條件。
 
->[!IMPORTANT] 若未符合所有必要條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
+>[!IMPORTANT]
+>
+> 若未符合所有必要條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * 貴組織的資料必須存放於 Adobe 的太平洋西北地區資料中心。已規劃為全球其他地區的資料中心提供支援。
 * 請聯絡貴組織的客戶經理以確立下列關鍵點：
