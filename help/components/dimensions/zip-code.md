@@ -2,7 +2,7 @@
 title: 郵遞區號
 description: 訪客的郵遞區號。
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -23,7 +23,9 @@ ht-degree: 0%
 
 「一 [!UICONTROL 般帳戶設定][](/help/admin/admin/general-acct-settings-admin.md) 」下的「郵遞區號」選項控制您要填入此維度的方式。
 
->[!IMPORTANT] 如果您想要完全控制填入此維度的方式，報表套裝設定至關重要。
+>[!IMPORTANT]
+>
+>如果您想要完全控制填入此維度的方式，報表套裝設定至關重要。
 
 ## 維度值
 
