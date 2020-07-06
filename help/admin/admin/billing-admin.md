@@ -4,7 +4,10 @@ title: 帳單
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 帳單頁面可讓您存取帳單資訊，包括每個報表套裝的流量細節。只有獲授權的管理員可存取此頁面。
 
->[!NOTE] 如果您公司的帳單標籤存取權遭到停用，請洽詢您的帳戶管理員。
+>[!NOTE]
+>
+> 如果您公司的帳單標籤存取權遭到停用，請洽詢您的帳戶管理員。
 
 帳單頁面的流量概述資料可將報告中的頁面檢視資料與發票上的計費伺服器呼叫次數產生關聯。[!UICONTROL 「帳單」]頁面可讓您進行下列工作：
 
@@ -39,7 +44,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 | 自訂連結 | 每個報表套裝的自訂連結總數。您可以在「網站內容 > 連結 > 自訂連結」中確認自訂連結值。 |
 | 退出連結 | 每個報表套裝的退出連結總數。您可以在「網站內容 > 連結 > 退出連結」中確認退出連結值。 |
 
->[!NOTE] 若要取得[!UICONTROL 「每月發票」]報表的工作副本，請將其複製至剪貼簿，然後貼至試算表程式 (例如 Microsoft Excel*)。
+>[!NOTE]
+>
+> 若要取得[!UICONTROL 「每月發票」]報表的工作副本，請將其複製至剪貼簿，然後貼至試算表程式 (例如 Microsoft Excel*)。
 
 ## 報告日期和處理日期比較 {#section_51A48C2F223F4904BE1407C13333C457}
 
