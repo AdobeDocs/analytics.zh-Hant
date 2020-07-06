@@ -3,7 +3,7 @@ description: 顯示可從行動裝置存取的網站相關資訊。「行動裝�
 title: 行動報表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: f7c2a366b409995c1fe790db97de5c708882ab3d
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 98%
@@ -21,7 +21,9 @@ ht-degree: 98%
 
 若要改善行動裝置的訪客識別，您必須位於電信業者的清單(allowlist)中，才能將訂閱者ID傳送至網域。 (您可在「**[!UICONTROL 訪客質料]** > **[!UICONTROL 網域]**」報表中檢視營運商)。
 
->[!NOTE] 若要在行動裝置上檢視報表，請登入 [Experience Cloud](https://login.experiencecloud.adobe.com)。
+>[!NOTE]
+>
+> 若要在行動裝置上檢視報表，請登入 [Experience Cloud](https://login.experiencecloud.adobe.com)。
 
 請參閱[行動裝置數據分析](https://www.adobe.com/tw/experience-cloud/topics/mobile-analytics.html)網站，了解行動裝置追蹤的詳細資訊。
 
