@@ -1,8 +1,11 @@
 ---
 title: 疑難排解 H 程式碼實施
 description: 瞭解舊版 JavaScript 實施的一些常見問題。
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '244'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 ## 將 Analytics 程式碼放入 head 標記中
 
->[!NOTE] H 程式碼實施需要在 `<body>` 標記中參考程式碼，其他實施 (例如使用 Adobe Experience Platform Launch) 則需要在 `<head>` 標記中參考程式碼。
+>[!NOTE]
+>
+> H 程式碼實施需要在 `<body>` 標記中參考程式碼，其他實施 (例如使用 Adobe Experience Platform Launch) 則需要在 `<head>` 標記中參考程式碼。
 
 Analytics 程式碼會建立不可見的 1x1 像素影像。以前，常見的實施做法是將 `s_code.js` 參考放在 `<head>` 標記中。將程式碼放在這裡，可避免影像以任何方式影響頁面配置。這樣還可以及早執行代碼，讓您更有效地計算部分頁面載入的頁面檢視數。
 
@@ -21,4 +26,6 @@ Analytics 程式碼會建立不可見的 1x1 像素影像。以前，常見的�
 
 Analytics 程式碼碼可在正常格式的 HTML 頁面中，放置於 `<body>` 標記內的任一處。Adobe 建議盡可能將 Analytics 程式碼放在 `<body>` 標記頂端的鄰近位置。請確認所有頁面變數會在 `s_code.js` 檔案載入後設定。
 
->[!TIP] 若您想整合 Adobe Analytics 與 Target，則必須將 JavaScript 含入檔放在頁面底部。
+>[!TIP]
+>
+> 若您想整合 Adobe Analytics 與 Target，則必須將 JavaScript 含入檔放在頁面底部。
