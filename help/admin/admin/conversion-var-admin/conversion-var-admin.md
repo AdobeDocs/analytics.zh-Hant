@@ -5,7 +5,7 @@ title: 轉換變數 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 translation-type: tm+mt
-source-git-commit: b9bb7a60398b8c392393a8d16b58292f91ab0ea7
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 98%
@@ -27,7 +27,9 @@ eVar 最適合用來測量原因和結果，如：
 
 如果需要流量測量或路徑功能，建議使用流量變數。
 
->[!NOTE]影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實作[清單變數 (list vars)](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。
+>[!NOTE]
+>
+>影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實作[清單變數 (list vars)](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。
 
 ## 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
