@@ -3,8 +3,11 @@ description: 流量來源報表能讓您深入了解訪客與您網站的互動�
 title: 流量來源報表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '1159'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +99,9 @@ c_reports_referrers.xml
 
 請參閱 [!DNL Admin Console] 說明中的[內部 URL 篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/internal-url-filter-admin.html)，了解詳細資訊。
 
->[!NOTE] 訪客點選內含通訊協定 [!DNL imap://] 或 [!DNL mail://] 的電子郵件連結而進入您的網站時，Marketing Reports &amp; Analytics 會將反向連結網域記錄為電子郵件。例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
+>[!NOTE]
+>
+> 訪客點選內含通訊協定 [!DNL imap://] 或 [!DNL mail://] 的電子郵件連結而進入您的網站時，Marketing Reports &amp; Analytics 會將反向連結網域記錄為電子郵件。例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
 
 ## 反向連結類型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
@@ -129,5 +134,7 @@ c_reports_ref_types.xml
 
 **USENET (新聞群組)**：這表示反向連結的 URL 是以 `news://` 開頭的。因此，反向連結被發佈在 Usenet 新聞群組上，而不是網頁上。
 
->[!NOTE]「反向連結類型」的邏輯與其他流量來源報表相符 (例如[!UICONTROL 「反向連結」]與[!UICONTROL 「反向連結網域」])。這應該會使[!UICONTROL 「反向連結類型」]報表中較少或完全不會出現「網站內」和「無 JavaScript」 明細項目。
+>[!NOTE]
+>
+>「反向連結類型」的邏輯與其他流量來源報表相符 (例如[!UICONTROL 「反向連結」]與[!UICONTROL 「反向連結網域」])。這應該會使[!UICONTROL 「反向連結類型」]報表中較少或完全不會出現「網站內」和「無 JavaScript」 明細項目。
 
