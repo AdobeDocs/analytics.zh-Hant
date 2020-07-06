@@ -3,7 +3,10 @@ description: 'null'
 title: 檢視目前伺服器呼叫使用量
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 100%
 
 ---
 
@@ -12,7 +15,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 伺服器呼叫使用量]** > **[!UICONTROL 目前使用量」]**
 
->[!IMPORTANT] 您看到的所有使用量和承諾使用量，是所有登入公司和報表套裝的累計值。
+>[!IMPORTANT]
+>
+> 您看到的所有使用量和承諾使用量，是所有登入公司和報表套裝的累計值。
 
 「目前使用量」控制面板
 
