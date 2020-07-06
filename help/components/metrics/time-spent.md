@@ -2,7 +2,7 @@
 title: 逗留時間
 description: 逗留時間維度和度量的匯總頁面。
 translation-type: tm+mt
-source-git-commit: 52e00470df0f0c6bff84b26c1548e64ff5114fb8
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 93%
@@ -39,7 +39,9 @@ Adobe Analytics 產品提供各種[!UICONTROL 逗留時間]量度和維度。
 
 Adobe Analytics 使用明確值 (包括連結事件和視訊檢視) 來計算[!UICONTROL 「逗留時間」]。
 
->[!NOTE]若沒有[!UICONTROL 視訊檢視]或[!UICONTROL 退出連結]等連結事件，即無法得知造訪的最後點擊逗留時間。基於類似的理由，[!UICONTROL 反彈造訪] (亦即含有單一點擊的造訪) 也不會有與造訪相關聯的逗留時間。
+>[!NOTE]
+>
+>若沒有[!UICONTROL 視訊檢視]或[!UICONTROL 退出連結]等連結事件，即無法得知造訪的最後點擊逗留時間。基於類似的理由，[!UICONTROL 反彈造訪] (亦即含有單一點擊的造訪) 也不會有與造訪相關聯的逗留時間。
 
 計算逗留時間時所使用的&#x200B;**分子**&#x200B;均為總逗留秒數。
 
