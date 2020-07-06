@@ -2,7 +2,7 @@
 description: 本文提供尋找 Google 和 Bing 帳戶 ID 的相關指示。
 title: 找出您的帳戶 ID
 translation-type: tm+mt
-source-git-commit: fae9d036f33029b7b8553cb71441997fc4e83354
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 65%
@@ -32,6 +32,8 @@ ht-degree: 65%
 
 須同時提供帳戶 ID 和客戶 ID。這些資訊皆列示於「帳戶」標籤中。
 
->[!NOTE] 帳號與帳戶 ID 不同。
+>[!NOTE]
+>
+> 帳號與帳戶 ID 不同。
 
 ![](assets/bing_id.png)
