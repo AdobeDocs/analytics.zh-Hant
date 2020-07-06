@@ -2,7 +2,7 @@
 title: 獨特訪客
 description: 唯一個人（或裝置）的數目。
 translation-type: tm+mt
-source-git-commit: 8cfd797e336e006bf4134a2c10a89ad1003c53dc
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 10%
@@ -34,7 +34,9 @@ ht-degree: 10%
 | 4 | `fid` | 訪客有現有 [`s_fid`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或 `aid` 是 `mid` 由於任何原因無法設定。 |
 | 5 | IP 位址、使用者代理、閘道 IP 位址 | 若訪客的瀏覽器不接受Cookie，則最後可識別獨特訪客。 |
 
->[!NOTE] 每個Analytics訪客ID都會系結至Adobe伺服器上的描述檔。 無論訪客ID Cookie有效期為何，這些訪客設定檔至少在閒置13個月後會被刪除。
+>[!NOTE]
+>
+>每個Analytics訪客ID都會系結至Adobe伺服器上的描述檔。 無論訪客ID Cookie有效期為何，這些訪客設定檔至少在閒置13個月後會被刪除。
 
 ## 影響獨特訪客計數的行為
 
