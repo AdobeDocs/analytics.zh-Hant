@@ -2,7 +2,7 @@
 title: 頁面
 description: 頁面名稱。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -24,4 +24,6 @@ ht-degree: 3%
 
 維度值包括您網站上的頁面名稱。 您的組織會決定您要使用的特定維度值。 有些組織會直接使 `document.title`用，而有些則會制定自訂的網站導覽路徑標示。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
 
->[!NOTE] 在「報告與分析」中，轉換度量會使用此維度的線性歸因。 For example, revenue is split between all pages viewed in a visit before a `purchase` event. 分析工作區預設會使用最後一個歸因，並提供使用任何歸因模型的選項。
+>[!NOTE]
+>
+>在「報告與分析」中，轉換度量會使用此維度的線性歸因。 For example, revenue is split between all pages viewed in a visit before a `purchase` event. 分析工作區預設會使用最後一個歸因，並提供使用任何歸因模型的選項。
