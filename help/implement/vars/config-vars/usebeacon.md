@@ -1,8 +1,11 @@
 ---
 title: useBeacon
 description: useBeacon 可強制 AppMeasurement 使用瀏覽器 sendBeacon API
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 如果 `useBeacon` 已啟用，傳送至 Adobe 的下一次點擊就會使用瀏覽器的 `navigator.sendBeacon()` 方法，而非標準 `GET` 影像要求。這個變數會同時套用至 [`s.t()`](../functions/t-method.md) 和 [`s.tl()`](../functions/tl-method.md) 影像要求。它需要 AppMeasurement 2.17.0 或更新版本。
 
->[!TIP] AppMeasurement 會自動啟用 `useBeacon` 來處理退出連結影像要求。
+>[!TIP]
+>
+> AppMeasurement 會自動啟用 `useBeacon` 來處理退出連結影像要求。
 
 當訪客使用不支援 `useBeacon` 的瀏覽器時，`navigator.sendBeacon()` 變數會遭到忽略。使用此變數需有 AppMeasurement 2.16.0 或更新版本。
 
@@ -29,4 +34,6 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 s.useBeacon = true;
 ```
 
->[!NOTE] 追蹤呼叫執行後，此變數會重設為 `false`。如果您的實施在相同的頁面載入中傳送多個影像要求 (如單頁應用程式)，請在每次追蹤呼叫前將此變數設定為 `true`。
+>[!NOTE]
+>
+> 追蹤呼叫執行後，此變數會重設為 `false`。如果您的實施在相同的頁面載入中傳送多個影像要求 (如單頁應用程式)，請在每次追蹤呼叫前將此變數設定為 `true`。
