@@ -3,7 +3,7 @@ description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以�
 title: 虛擬報表套裝元件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
@@ -15,7 +15,9 @@ ht-degree: 100%
 
 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 
->[!NOTE]管理員與非管理員可在已組織的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
+>[!NOTE]
+>
+>管理員與非管理員可在已組織的工作區專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理：
 
