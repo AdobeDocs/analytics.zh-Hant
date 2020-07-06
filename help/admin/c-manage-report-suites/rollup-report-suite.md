@@ -3,8 +3,11 @@ description: 統計報表套裝從多個子報表套裝中收集資料，然後�
 title: 統計和全域報表套裝
 topic: Admin tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '569'
+ht-degree: 100%
 
 ---
 
@@ -34,7 +37,9 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 **次要伺服器呼叫**：統計不會產生任何超出單一報表套裝收集範圍的額外伺服器呼叫。如果您的組織使用多套裝標記，系統會針對影像請求中所包含的每個額外報表套裝進行次要伺服器呼叫。
 
->[!TIP] 如果您只使用採用[虛擬報表套裝](../../components/vrs/vrs-considerations.md)的全域報表套裝，系統就不需要進行次要伺服器呼叫。
+>[!TIP]
+>
+> 如果您只使用採用[虛擬報表套裝](../../components/vrs/vrs-considerations.md)的全域報表套裝，系統就不需要進行次要伺服器呼叫。
 
 **實作變更**：統計不需要變更任何實作，而全域報表套裝則需要您在實作中加入全域報表套裝 ID。
 
