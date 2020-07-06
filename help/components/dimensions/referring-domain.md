@@ -2,7 +2,7 @@
 title: 轉介網域
 description: 訪客點進您的網站前所處的首要網域。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 1%
@@ -14,7 +14,9 @@ ht-degree: 1%
 
 「反向連結網域」維度會報告訪客點進哪些網域以進入您的網站。 此維度有助於瞭解哪些協力廠商網站對您的流量貢獻最大。 外部網站上必須有連結，而訪客必須按一下連結，才能顯示維度值。
 
->[!IMPORTANT] 您必須設定報表套裝的「內 [部URL」篩選器](/help/admin/admin/internal-url-filter-admin.md) ，才能使用此維度。 無法設定內部URL篩選器，可能包括內部網域或防止外部網域出現。
+>[!IMPORTANT]
+>
+>您必須設定報表套裝的「內 [部URL」篩選器](/help/admin/admin/internal-url-filter-admin.md) ，才能使用此維度。 無法設定內部URL篩選器，可能包括內部網域或防止外部網域出現。
 
 ## 將資料填入此維度
 
