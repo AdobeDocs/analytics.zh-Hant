@@ -4,8 +4,11 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: 程式庫管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: ht
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,9 @@ Dynamic Tag Management 中「程式庫管理」設定的欄位和選項說明。
 
 **[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;程式庫管理&#x200B;]**
 
->[!NOTE]如果在單一 Web 屬性中使用了超過一個 Adobe Analytics 工具，每個工具必須具有獨特的追蹤器變數名稱。單一 Web 屬性內 Adobe Analytics 工具之間重複的物件變數名稱將造成衝突。
+>[!NOTE]
+>
+>如果在單一 Web 屬性中使用了超過一個 Adobe Analytics 工具，每個工具必須具有獨特的追蹤器變數名稱。單一 Web 屬性內 Adobe Analytics 工具之間重複的物件變數名稱將造成衝突。
 
 <table id="table_2758C770C91B4025AD74009B360D71F7"> 
  <thead> 
