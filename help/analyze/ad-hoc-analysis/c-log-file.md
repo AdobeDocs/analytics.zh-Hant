@@ -4,7 +4,10 @@ title: 記錄檔
 topic: Ad hoc analysis
 uuid: 1e5c0e70-928b-45de-9f5b-0c562909baed
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -20,5 +23,7 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 按一下&#x200B;**[!UICONTROL 「Ad Hoc Analysis」]**&#x200B;標誌。
 1. 按一下&#x200B;**[!UICONTROL 儲存記錄檔]**。
 
->[!NOTE] 以此程序儲存的記錄能供目前的作業階段使用。
+>[!NOTE]
+>
+> 以此程序儲存的記錄能供目前的作業階段使用。
 
