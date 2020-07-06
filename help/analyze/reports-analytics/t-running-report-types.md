@@ -3,8 +3,11 @@ description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+workflow-type: tm+mt
+source-wordcount: '2358'
+ht-degree: 100%
 
 ---
 
@@ -148,7 +151,9 @@ t_anomaly_view.xml
 
 **[!UICONTROL 報表]** > **[!UICONTROL 網站量度]** > **[!UICONTROL 異常偵測]**。
 
->[!NOTE]您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>[!NOTE]
+>
+>您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 如需設定異常偵測的資訊，請參閱[參考指南](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)。
 
