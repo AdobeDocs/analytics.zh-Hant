@@ -2,19 +2,15 @@
 description: Analytics for Target(A4T)面板可讓您分析分析分析工作區中的Adobe Target活動和體驗。
 title: Analytics for Target(A4T)面板
 translation-type: tm+mt
-source-git-commit: fb9e644b4422d67d82fdecac8d876dcd49843ad4
+source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 15%
+source-wordcount: '834'
+ht-degree: 14%
 
 ---
 
 
 # Analytics for Target(A4T)面板
-
->[!IMPORTANT]
->
->**[!UICONTROL Analytics for Target(A4T)]** 面板目前進行有限測試。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中分析 Adobe Target 活動和體驗。此外，您還可以檢視最多3個成功度量的提升度與信賴度。 若要存取A4T面板，請導覽至已啟用A4T元件的報表套裝。 然後，按一下最左側的面板圖示，並將「Analytics for Target」面板拖曳至您的分析工作區專案中。
 
