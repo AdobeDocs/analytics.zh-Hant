@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e7d1a690076d9fbb68797224d7ab53a6350f787d
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 98%
+source-wordcount: '2123'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,12 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代碼管理器](/help/admin/admin/code-manager-admin.md)中下載最新版的 AppMeasurement。
+
+## 2.21.0 版
+
+發行日期：**2020 年 6 月 24 日**
+
+* 修正Firefox的Activity Map linkExclusions篩選器不一律套用的問題。
 
 ## 2.20.0 版
 
