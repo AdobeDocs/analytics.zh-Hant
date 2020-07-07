@@ -1,20 +1,16 @@
 ---
 description: 「快速洞察」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺化
-title: 快速洞察面板
+title: 快速深入分析面板
 translation-type: tm+mt
-source-git-commit: fe2fc0a89f033d78f142ec338db2f160005b4a5b
+source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1048'
 ht-degree: 5%
 
 ---
 
 
-# 快速洞察面板
-
->[!IMPORTANT]
->
->**[!UICONTROL 「快速洞察]** 」面板目前測試有限。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
+# 快速深入分析面板
 
 [!UICONTROL 「快速深入分析」]為 [!UICONTROL Analysis Workspace] 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。對於想要快速回答簡單問題而不需要自行建立表格的進階使用者而言，它也是絕佳的工具。
 
