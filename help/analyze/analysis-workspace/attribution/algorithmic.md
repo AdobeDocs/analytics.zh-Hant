@@ -2,19 +2,15 @@
 title: 演算法歸因
 description: 演算法歸因模型的詳細資訊。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 54063d26875aee57ced7825f3427c6051c4f8686
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '257'
 ht-degree: 1%
 
 ---
 
 
 # 演算法歸因
-
->[!NOTE]
->
->**[!UICONTROL 演算法歸因]** 目前正進行有限的測試。 如需詳 [細資訊，請參閱](/help/landing/an-releases.md) 「Adobe Analytics功能發行」。
 
 「分析工 [作區](models.md) 」中的「演算法歸因」模型與其他模型不同，因為它使用統計技術在報表或自由表格中的維度值間分配評分。 和分析工作區中的所有其他歸因模型一樣，它可用於任何維度或度量，並支援無限制的分段和劃分，並將100%的轉換分發至表格中的維度（也稱為「分數」歸因）。
 
