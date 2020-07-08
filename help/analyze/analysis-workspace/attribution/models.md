@@ -2,10 +2,10 @@
 title: 歸因模型與回顧期間
 description: 不同類型的歸因如何在維度值之間劃分評分。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 92%
+source-wordcount: '1483'
+ht-degree: 93%
 
 ---
 
@@ -42,10 +42,6 @@ Adobe Analytics中歸因的概念需要兩個元件：
 * **訪客回顧期間：**&#x200B;回顧至目前日期範圍當月 1 日以來的所有造訪。訪客回顧期間較寬，因為可計入多次造訪。訪客回顧會考慮報表日期範圍當月開始時的所有值。 舉例來說，如果報表日期範圍為 9 月 15 日 到 9 月 30 日，則訪客回顧日期範圍將是 9 月 1 日 到 9 月 30 日。
 
 * **自訂回顧視窗：** 可讓您將歸因視窗擴展至報告日期範圍以外，最多90天。 自訂回顧視窗會評估在報告時段內的每個轉換。 例如，若是在2月20日發生的轉換，10天的回顧視窗會在歸因模型中評估從2月10日到20日的所有維度觸點。
-
->[!NOTE]
->
->**[!UICONTROL 自訂回顧視窗]** ，目前正在進行有限的測試。 如需詳 [細資訊，請參閱](/help/landing/an-releases.md) 「Adobe Analytics功能發行」。
 
 ## 範例
 
