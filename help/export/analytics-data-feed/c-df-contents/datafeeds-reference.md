@@ -6,10 +6,10 @@ title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e6bff325cdceb2048554b47944567d50d3c8133f
 workflow-type: tm+mt
-source-wordcount: '3650'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 98%
 
 ---
 
@@ -267,7 +267,7 @@ ht-degree: 99%
 | `visid_low` | 與visid_high搭配使用，以唯一識別訪客。 | 不帶正負號的 bigint |
 | `visid_new` | 用於識別點擊是否包含新產生訪客 ID 的旗標。 | char(1) |
 | `visid_timestamp` | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
-| `visid_type` | 此數值 ID 表示用於識別訪客的方法。<br>0：自訂訪客 ID <br>1：IP 和使用者代理備援 <br>2：HTTP 行動訂閱者標題 <br>3：舊版 Cookie 值 (s_vi) <br>4：備援 Cookie 值 (s_fid) <br>5：身分識別服務 | 不帶正負號的 tinyint |
+| `visid_type` | 不供外部使用； Adobe內部用來處理最佳化。 代表用來識別訪客之方法的數值ID。<br>0: 自訂訪客ID或未知／不適用<br>1: IP和用戶代理後 <br>援2: HTTP行動訂閱者標 <br>題3: 舊版Cookie值(s_vi) <br>4: 備援Cookie值(s_fid) <br>5: Identity Service | 不帶正負號的 tinyint |
 | `visit_keywords` | 用於「搜尋關鍵字」維度的變數。此欄使用非標準字元限制來容納 Adobe 使用的後端邏輯。 | varchar(244) |
 | `visit_num` | 用於「造訪數」維度的變數。從 1 開始，每次訪客開始新的造訪時都會遞增。 | 不帶正負號的 int |
 | `visit_page_num` | 用於「點擊深度」維度的變數。對於使用者產生的每次點擊會增加 1。重設每次造訪。 | 不帶正負號的 int |
