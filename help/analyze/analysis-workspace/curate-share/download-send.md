@@ -3,7 +3,10 @@ description: 您可以下載已儲存和未儲存的專案，有 PDF 和 CSV 兩
 title: 下載 PDF 或 CSV 檔案
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 08d564f7fb06b94c2010515ea4a1dcbb2e6e2815
+source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 61%
 
 ---
 
@@ -22,16 +25,17 @@ PDF 或 CSV 檔案的名稱會和專案目前名稱相同。若專案尚未儲�
 * 我們知道，如果您有很長的工作區專案，PDF目前會匯出為一個巨大的頁面，而非編頁檔案。 我們正在改善工作區PDF匯出，以便進行分頁。
 
 1. 建立或開啟專案。
-1. 按一下 **[!UICONTROL Project]** > **[!UICONTROL Download CSV (or Download PDF).]**
+1. 按一下&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 下載 CSV (或下載 PDF)」]**。
 
-2019 年 4 月 11 日起，Analysis Workspace 中的&#x200B;**[!CSV 「下載」]**(和&#x200B;**[!C「複製至剪貼簿」]**) 功能已有諸多變動，以移除匯出資料中的格式設定。
-* 不再使用千分位分隔符號。(The decimal separator will continue to be included, and will adhere to the format defined under **[!UICONTROL Components > Report Settings > Thousands Separator]**).
+On April 11, 2019, several changes were made to **[!UICONTROL CSV downloads]** (and **[!UICONTROL Copy to Clipboard]**) from Analysis Workspace to remove formatting from exported data.
+* The  **[!UICONTROL Thousands Separator]** is no longer included. (系統將繼續納入小數分隔符號，並遵循&#x200B;**[!UICONTROL 「元件 > 報表設定 > 千分位分隔符號」]**&#x200B;中定義的格式。)
 * 不顯示貨幣符號。
 * 不顯示百分比符號。
 * 百分比以小數點形式表示，例如 75% 顯示為 0.75。
 * 時間以秒為單位顯示。
 * 同類群組表格僅顯示原始值；已移除百分比。
 * 如果數字無效，則顯示空白儲存格。
+* 不套用捨入（即使在計算量度中指定）-會顯示原始值。
 
 >[!N注意：]
 >
