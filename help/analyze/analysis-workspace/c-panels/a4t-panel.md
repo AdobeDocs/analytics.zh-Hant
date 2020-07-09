@@ -2,7 +2,7 @@
 description: Analytics for Target(A4T)面板可讓您分析分析分析工作區中的Adobe Target活動和體驗。
 title: Analytics for Target(A4T)面板
 translation-type: tm+mt
-source-git-commit: f9190c15da2d94b3c9006f973fa4aef92162ff04
+source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 14%
@@ -26,7 +26,7 @@ ht-degree: 14%
 | 成功度量 | 從下拉式清單中選取最多3個標準（非計算）成功事件，或從左側導軌拖放度量。 每個量度在轉譯面板中都會有專屬的表格和視覺化。 |
 | 日曆日期範圍 | 這會根據Adobe Target的活動日期範圍自動填入。 如有需要，您可加以變更。 |
 
-![面板產生器](assets/a4t-panel-builder.png)
+![面板產生器](assets/a4t-panel-builder2.png)
 
 ## 面板輸出 {#Output}
 
