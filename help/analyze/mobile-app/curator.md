@@ -2,9 +2,9 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 控制面板組織者指南
 translation-type: tm+mt
-source-git-commit: 3883abc6cc3e8e8e5511af353ad9d88186220acd
+source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2307'
 ht-degree: 78%
 
 ---
@@ -142,12 +142,10 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
    * 提供計分卡的說明
    * 新增相關標籤
    * 指定計分卡的收件者
-   * 選擇&#x200B;**「與收件者共用內嵌元件」**&#x200B;選項，確保執行使用者有權存取計分卡中的所有元件。
 
 3. 按一下&#x200B;**「共用」**。
 
 ![Share_Scorecards](assets/new_share.png)
-
 
 在您共用計分卡後，收件者便可在其 Analytics 控制面板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
 
@@ -192,6 +190,7 @@ If you update the Scorecard by adding new components, you may want to share the 
    * 點選套用至您所共用計分卡的登入公司或 Experience Cloud 組織名稱。接著，計分卡清單會顯示該登入公司與執行使用者共用的所有計分卡。
    * 如果情況適用，請協助他們依&#x200B;**最近修改的項目**&#x200B;將清單排序。
    * 點選計分卡的名稱即可檢視。
+
    ![選擇公司](assets/accesscard.png)
 
    如果執行使用者登入並看見訊息指出未共用任何內容：
