@@ -3,14 +3,19 @@ description: 說明透過整合所實現的行銷效率。
 title: Adobe Analytics 的 Lyris Data Connector
 uuid: db213865-1296-4a93-a0a2-781c026b2be5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1051'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics 的 Lyris Data Connector{#lyris-data-connector-for-adobe-analytics}
 
-說明透過整合所實現的行銷效率。
+>[!IMPORTANT]
+>
+>我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe® Data Connectors™ 電子郵件整合結合 Adobe Analytics 的行為資訊與 Lyris 電子郵件行銷功能，透過更相關的傳訊重新定義成功測量及鎖定受眾。
 
