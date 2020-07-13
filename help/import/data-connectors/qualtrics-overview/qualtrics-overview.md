@@ -5,12 +5,19 @@ title: Adobe Analytics 的 Qualtrics Data Connector
 topic: Data connectors
 uuid: f1fa90b6-1b80-4da4-a39b-efb8bac1692a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '305'
+ht-degree: 95%
 
 ---
 
 
 # Adobe Analytics 的 Qualtrics Data Connector{#qualtrics-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此整合結合了 Qualtrics Research Suite 的客戶研究功能與您在 Adobe Analytics 中收集的豐富資料，能為貴組織創造強大的分析和最佳化機會。
 
