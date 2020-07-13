@@ -3,12 +3,19 @@ description: 此 Adobe® Data Connectors™ 電子郵件整合項目結合 Adobe
 title: Adobe Analytics 的 Aprimo Data Connector
 uuid: 590ded4b-b250-43b4-9cec-68508b853e00
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 98%
 
 ---
 
 
 # Adobe Analytics 的 Aprimo Data Connector{#aprimo-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 電子郵件整合項目結合 Adobe Analytics® 的行為資訊與電子郵件行銷功能，打造出功能強大的工具，透過更相關的傳訊重新定義成功測量及鎖定受眾。
 
