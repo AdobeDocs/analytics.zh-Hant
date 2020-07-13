@@ -3,12 +3,19 @@ description: 'null'
 title: Adobe Analytics 的 ContactLab Data Connector
 uuid: 9e6ed7cd-dce1-4c00-9090-d4306202e3ea
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '204'
+ht-degree: 93%
 
 ---
 
 
 # Adobe Analytics 的 ContactLab Data Connector{#contactlab-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 ContactLab 與 Adobe Analytics 的整合讓目前的 ContactLab 客戶能夠提高電子郵件行銷的回訪。它可讓您從幾乎任何角度瞭解促銷活動的成效，然後根據購物車放棄、產品購買、產品檢視等情況向客戶進行再行銷。
 
