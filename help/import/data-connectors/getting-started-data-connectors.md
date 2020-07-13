@@ -2,10 +2,10 @@
 description: 將協力廠商應用程式的追蹤資料匯入 Analytics。
 title: 開始使用 Analytics Data Connectors
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 100%
+source-wordcount: '977'
+ht-degree: 98%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 100%
 Adobe 針對各組織的數位策略與行銷方案提供可執行的即時資訊。Data Connectors 讓您能夠將來自協力廠商應用程式的追蹤資料匯入分析，因此您可以從某一個中央位置蒐集和使用資料。在使用任一款合作夥伴產品時，您可以建立整合以將應用程式資料匯入行銷報表。整合完成後，您便可以產生含應用程式資料的報表。
 
 例如，電子郵件整合可使用電子郵件合作夥伴來散發電子郵件促銷活動。當訪客造訪您的網站時，您會想知道哪些訪客是響應電子郵件行銷活動而來的。Data Connectors 能將電子郵件合作夥伴的資料整合至行銷報表中，因此您可以藉由這些資訊來判斷電子郵件行銷活動的效果。
+
+>[!IMPORTANT]
+>
+>我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系統要求**
 
