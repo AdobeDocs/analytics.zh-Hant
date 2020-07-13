@@ -5,12 +5,19 @@ title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+workflow-type: tm+mt
+source-wordcount: '1731'
+ht-degree: 99%
 
 ---
 
 
 # Adobe Analytics 的 DFA Data Connectors{#dfa-data-connector-for-adobe-analytics}
+
+>[!IMPORTANT]
+>
+>我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 在現今日趨複雜且競爭激烈的線上市場中，線上廣告主和代理商必須持續增進他們對線上市場環境的瞭解，並瞭解其廣告花費的回報。雖然廣告主、代理商和發佈者都各有其工具可協助他們達成這些目標，但要手動從完全不同的資料系統和程序中彙整資料，可能會嚴重影響到線上行銷活動的效益，而造成促銷活動效益不盡理想、資料不相符和混淆。
 
