@@ -2,9 +2,9 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 控制面板組織者指南
 translation-type: tm+mt
-source-git-commit: 2dfd5d78e66ba1569b285070a152c46922e37daa
+source-git-commit: 8013f767027147b58118dd33c9f207c2b158ca7c
 workflow-type: tm+mt
-source-wordcount: '2307'
+source-wordcount: '2301'
 ht-degree: 78%
 
 ---
@@ -149,7 +149,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 在您共用計分卡後，收件者便可在其 Analytics 控制面板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Automatically Share embedded components with recipients** option) in order to make sure that your executive users have access to these changes.
+If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
 
 ## 透過應用程式設定執行使用者
 
@@ -163,7 +163,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 * 使用者處於 Adobe Analytics 的有效登入狀態
 * 您已為他們正確建立了移動記分卡，並已將這些記分卡與他們共用
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
-* 使用者可存取計分卡中的元件。Note that you can select an option when sharing your Scorecards to **Automatically Share embedded components with recipients**.
+* 使用者可存取計分卡中的元件。Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
 ### 使用應用程式協助主管使用者
 
