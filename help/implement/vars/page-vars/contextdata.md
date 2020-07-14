@@ -2,10 +2,10 @@
 title: contextData
 description: 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 88%
 
 ---
 
@@ -35,9 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 使用處理規則填入分析變數
 
->[!IMPORTANT]
->
-> 處理規則執行後，上下文資料變數便會遭到捨棄。如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
+>[!IMPORTANT] 處理規則執行後，上下文資料變數便會遭到捨棄。如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
 
 1. 請更新您的實施以設定上下文資料變數名稱和值。
 2. 登入 Adobe Analytics 並前往「管理員 > 報表套裝」。
@@ -55,4 +53,19 @@ s.contextData["example_variable"] = "Example value";
 s.contextData["example_variable"] = "Example value";
 s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
+```
+
+## 使用上下文資料變數增加事件
+
+建立處理規則時，您可以指派上下文資料變數至事件。
+
+* 如果上下文資料變數包含任何類型的文字，事件會遞增一。
+* 如果上下文資料變數包含整數，事件會以該整數量為增量。
+
+```js
+// Assigning this context data variable to an event increments it by one
+s.contextData["example_text"] = "Text value";
+
+// Assigning this context data variable to an event increments it by four
+s.contextData["example_number"] = "4";
 ```
