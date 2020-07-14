@@ -3,8 +3,11 @@ description: 如果從現有報表套裝複製設定，會出現系統訊息，�
 title: 並非從來源報表套裝複製的設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+workflow-type: tm+mt
+source-wordcount: '207'
+ht-degree: 100%
 
 ---
 
@@ -55,15 +58,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
      <li id="li_E352211ABD3245EC8C06313221BA4B36"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理員</span> &gt; <span class="uicontrol">報表套裝」</span>，然後選取報表套裝。 </li> 
      <li id="li_B19C4112D57D4D329A0774EBB345473B">按一下<span class="uicontrol">「編輯設定</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量變數」</span> </li> 
      <li id="li_B1CED2EC85FE4A8EB7D95076040B35E1">核選方塊並在<span class="uicontrol">「路徑報表」</span>中選取設定 </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>獨特事件管理員 </p> </td> 
-   <td colname="col2"> 
-    <ol id="ol_4A303E54A155471DA2B91A9504A3EB75"> 
-     <li id="li_A09C8947BD2B4F40ABA039DA9BBA629A"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理員</span> &gt; <span class="uicontrol">報表套裝」</span>，然後選取報表套裝。 </li> 
-     <li id="li_052D8FF2347141F0A50FBCFDC37DB957">按一下<span class="uicontrol">「編輯設定</span> &gt; <span class="uicontrol">轉換</span> &gt; <span class="uicontrol">成功事件」</span> </li> 
-     <li id="li_F224713229D74D9BB5BEEE30BF2C7343">核選方塊並在<span class="uicontrol">「獨特事件記錄」</span>中選取設定 </li> 
     </ol> </td> 
   </tr> 
   <tr> 
