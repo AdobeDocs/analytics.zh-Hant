@@ -2,10 +2,10 @@
 title: 地區資料收集
 description: 地區資料收集相關資訊
 translation-type: tm+mt
-source-git-commit: 91867f379c9f3e0f4e7fdeed572a94ff798653ba
+source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 94%
+source-wordcount: '471'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe Experience Cloud 使用地區資料收集 (RDC) 功能，可讓您的使�
 
 >[!IMPORTANT]
 >
->「中國RDC（中國效能最佳化）附加元件套件」是Adobe Analytics的收費附加元件。 如需詳細資訊，請連絡您的Adobe銷售代表。
+>「中國RDC（中國效能最佳化）附加元件套件」是Adobe Analytics的收費附加元件。 Adobe在中國大陸的效能最佳化可讓中國境內客戶將資料直接傳送至China edge節點，而非全球其他位置。 這可改善頁面載入時間和資料正確性，而非將資料傳送至中國境外的節點。 如需詳細資訊，請連絡您的Adobe銷售代表。
 
 RDC 目前包括下列位置 (可能隨時變更)：
 
