@@ -4,15 +4,17 @@ title: 內部 URL 篩選器
 topic: Admin tools
 uuid: 70868edb-208d-4dad-9401-70967468d40c
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 94%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
 # 內部 URL 篩選器
+
+**[!UICONTROL 管理員>報表套裝>編輯設定>一般>內部URL篩選器>新增篩選器]**
 
 內部 URL 篩選器可識別您認為是屬於網站內部的反向連結。這可協助流量來源報表填入資料並協助篩選內部流量。
 
