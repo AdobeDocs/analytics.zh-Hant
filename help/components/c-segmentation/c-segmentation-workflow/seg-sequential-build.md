@@ -4,10 +4,10 @@ title: 建立循序區段
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3b587a04ec2c0e358fde386ed5e1be4f9b77a881
 workflow-type: tm+mt
-source-wordcount: '3842'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 98%
 
 ---
 
@@ -261,9 +261,9 @@ ht-degree: 100%
 如果要將循序查核點分組，則「容器」為邏輯群組。不過，如果這些循序查核點必須發生在單一點擊或造訪範圍內，則需要「點擊」或「造訪」容器。(當然，「點擊」對於一組循序查核點來說並沒有意義，因為一次點擊最多只會評為一個查核點)。
 
 **邏輯群組是否可簡化建立循序區段的流程？**
-是的，可以。假設您正嘗試回答以下問題：**訪客在查看頁面 A 以後有查看頁面 B、頁面 C 或頁面 D 嗎？**
+是的，可以。假設您正嘗試識別此訪客區段： **檢視頁面A，接著檢視每個頁面B、C和D的訪客**
 
-您可以在不使用邏輯群組容器的情況下建立此區段，但是過程既複雜又費力：
+您可以在不使用邏輯群組容器的情況下建立此區段，但是過程既複雜又費力. 您必須指定訪客可檢視的每個頁面順序：
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
