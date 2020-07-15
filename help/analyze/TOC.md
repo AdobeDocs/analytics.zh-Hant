@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: f87f0fc7de15371dcfac739611ea63c41328303c
+source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 96%
+source-wordcount: '1098'
+ht-degree: 98%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 96%
    + [Analysis Workspace 概述](analysis-workspace/home.md)
    + [Analysis Workspace 的使用案例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace 的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
-   + 建立 Workspace 專案 {#build-workspace-project}
+   + 建立工作區專案 {#build-workspace-project}
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
-      + [建立 Workspace 專案](analysis-workspace/build-workspace-project/t-freeform-project.md)
+      + [建立工作區專案](analysis-workspace/build-workspace-project/t-freeform-project.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [在 Workspace 中使用多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [在工作區中使用多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
@@ -33,7 +33,7 @@ ht-degree: 96%
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [Workspace 總計](analysis-workspace/build-workspace-project/workspace-totals.md)
+      + [工作區總計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 元件 {#components}
       + [元件概觀](analysis-workspace/components/analysis-workspace-components.md)
       + 維度 {#dimensions}
@@ -82,8 +82,8 @@ ht-degree: 96%
       + [Analytics for Target(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [快速洞察面板](analysis-workspace/c-panels/quickinsight.md)
+      + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
+      + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + Segment comparison panel {#segment-comparison}
          + [區段比較概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
@@ -98,7 +98,7 @@ ht-degree: 96%
       + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
-      + [歸因模型與回顧視窗](analysis-workspace/attribution/models.md)
+      + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [常見問題集](analysis-workspace/attribution/faq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
@@ -118,13 +118,13 @@ ht-degree: 96%
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + Workspace 常見問題集 {#workspace-faq}
+   + 工作區常見問題集 {#workspace-faq}
       + [常見問題集](analysis-workspace/workspace-faq/faq.md)
       + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [比較 Analysis Workspace 與 Ad Hoc Analysis](analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)
       + [Analysis Workspace 的限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
-      + [分析工作區中的協助功能](analysis-workspace/workspace-faq/aw-accessibility.md)
+      + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
    + [Report Builder 的新功能](report-builder/whats-new-arb.md)
@@ -300,7 +300,6 @@ ht-degree: 96%
    + [目標](reports-analytics/targets.md)
    + [警報](reports-analytics/alerts.md)
    + [日曆事件](reports-analytics/t-calendar-event.md)
-   + [Data Warehouse 請求](reports-analytics/data-warehouse.md)
    + [常見問題集](reports-analytics/frequently-asked-questions.md)
    + [疑難排解](reports-analytics/report-troubleshooting.md)
 + Ad Hoc Analysis {#ad-hoc-analysis}
