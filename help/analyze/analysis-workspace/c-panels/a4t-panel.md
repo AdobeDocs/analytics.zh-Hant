@@ -2,10 +2,10 @@
 description: Analytics for Target(A4T)面板可讓您分析分析分析工作區中的Adobe Target活動和體驗。
 title: Analytics for Target(A4T)面板
 translation-type: tm+mt
-source-git-commit: fe6202288cfc07575db437f7d0c055f1b40ddcf6
+source-git-commit: efdab27f9449e1aabc9647b0663b02d8fe74cc29
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 14%
+source-wordcount: '912'
+ht-degree: 13%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 14%
 | 標準化量度 | 獨特訪客、瀏覽或活動印象。 |
 | 成功度量 | 產生器中選取的量度 |
 | 轉換率 | 成功度量／標準化度量 |
-| 提升度 | 對照控制體驗來比較每一個體驗的轉換率。<br>**注意：**提升度是Target體驗的「鎖定量度」; 無法劃分或與其他維度搭配使用。 |
+| 提升度 | 對照控制體驗來比較每一個體驗的轉換率。<br>**注意：**提升度是「鎖定的量度」，用於定位體驗； 無法劃分或與其他維度搭配使用。 |
 | 提升度 (下限) | 代表變異數體驗對控制的最差提升度。 |
 | 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是「報告與分析」中的「提升度」。 |
 | 提升度 (上限) | 代表變異數體驗對控制的最佳提升度。 |
@@ -61,5 +61,7 @@ ht-degree: 14%
 | 為什麼Target和Analytics之間會有不同的獨特訪客？ | [進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) ，產品之間的獨特訪客差異。 |
 | 當我在分析中套用特定Target活動的點擊區段時，為什麼會看到傳回的不相關體驗？ | A4T維度是清單變數，這表示它可同時包含許多活動（和體驗）。 [更多詳情](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | 信賴度量是否可計算極端訂單，或套用Bonferroni修正多個選件？ | 不可以，[進一步瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics如何計算信心。 |
+| 提升度和信賴度量是否可與其他維度或劃分搭配使用？ | 提升度和信賴度是「目標體驗」維度的「鎖定量度」，因為它們需要控制項和變數才能跨度計算。 因此，無法將它們劃分或與其他維度搭配使用。 |
+| 何時重新計算提升度和可信度？ | 每當面板執行（或重新執行）、面板日期範圍變更或區段套用至面板或表格時，提升度和可信度都會重新計算。 |
 
 如需Analytics for Target報表的詳細資訊，請造 [訪A4T報表](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/reporting.html)
