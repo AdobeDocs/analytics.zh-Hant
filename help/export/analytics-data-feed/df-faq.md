@@ -3,7 +3,10 @@ description: 與資料摘要相關的常見問題
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 資料摘要常見問答集
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+workflow-type: tm+mt
+source-wordcount: '246'
+ht-degree: 86%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 在 Adobe Analytics 中，為了報表呈現目的，大部分的變數都不區分大小寫。舉例來說，「snow」、「Snow」、「SNOW」和「sNow」都是相同的值。資料摘要則會區分大小寫。
 
 如果您在非後置欄和後置欄中看到同一值的不同大小寫變化形 (例如，前置欄中是「snow」，後置欄中是「Snow」)，表示您實作時在網站中同時使用了同一值的大寫和小寫版本。前置欄中的大小寫變化形是在之前傳入並儲存在虛擬 cookie 中，或是與該報表套裝在大約相同的時間處理。
+
+## 資料饋送中是否包含「管理控制台」機器人規則來篩選機器人？
+
+資料饋送不包含由「管理控制台」機器人規 [則篩選的機器人](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
