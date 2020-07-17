@@ -3,9 +3,9 @@ description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以�
 title: 虛擬報表套裝元件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 4c5dd32b51693d2c0eccd4365cae1ac5a29e6d34
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 100%
 
 ---
@@ -36,6 +36,7 @@ ht-degree: 100%
    * [!UICONTROL Ad Hoc Analysis]
    * [!UICONTROL Data Warehouse]
    * [!UICONTROL Report Builder]
+   * [!UICONTROL Activity Map]
    * Analytics 報表 API
 
    勾選後，只要從「已排除元件」欄將相關的元件拖曳到「已包含元件」欄，即可新增要包含在虛擬報表套裝的元件。可包含和排除的元件有：
