@@ -2,14 +2,20 @@
 description: 使用資料連接器與 Adobe 合作夥伴建立整合時，Adobe 可以推送重新行銷或其他資料至 FTP 帳戶，供您或合作夥伴下載。
 keywords: ftp;sftp
 title: Data Connectors
-uuid: 76edb815-f40d-413d-986f-565b6619648d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d5840838b092eb19165d4b716e808a1d2d1fc4dc
+workflow-type: tm+mt
+source-wordcount: '140'
+ht-degree: 91%
 
 ---
 
 
 # Data Connectors
+
+>[!IMPORTANT]
+>
+>我們將於2021年中後期終止Adobe Data Connector技術。 [深入了解...](/help/import/data-connectors/data-connectors-eol.md)
 
 使用[資料連接器](https://www.adobeexchange.com/experiencecloud.html)與 Adobe 合作夥伴建立整合時，Adobe 可以推送重新行銷或其他資料至 FTP 帳戶，供您或合作夥伴下載。
 
