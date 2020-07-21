@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: 271cffdc32c6063da955ac3fbd7f774a15cac8d2
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 75%
+source-wordcount: '632'
+ht-degree: 73%
 
 ---
 
@@ -205,9 +205,13 @@ ht-degree: 75%
       + [管理虛擬報表套裝](vrs/c-workflow-vrs/vrs-manage.md)
       + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
 + 跨裝置分析 {#cda}
-   + [跨裝置分析概觀](cda/cda-home.md)
-   + [設定跨裝置分析](cda/cda-setup.md)
-   + [跨裝置分析常見問題集](cda/cda-faq.md)
+   + [跨裝置分析概觀](cda/overview.md)
+   + [現場拼接](cda/field-based-stitching.md)
+   + [裝置圖表](cda/device-graph.md)
+   + [設定跨裝置分析](cda/setup.md)
+   + [播放的運作方式](cda/replay.md)
+   + [CDA 工作區範本](cda/workspace-template.md)
+   + [跨裝置分析常見問題集](cda/faq.md)
 + 警報 {#alerts}
    + [智慧型警報](c-alerts/intellligent-alerts.md)
    + [警報產生器](c-alerts/alert-builder.md)
