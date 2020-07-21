@@ -3,10 +3,10 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: de7783174d55c03ac73140e8ab05005284788459
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
+| 2020 年 7 月 21 日 | 跨裝置分析的 [主要更新和修訂](/help/components/cda/overview.md)。 已新 [增欄位式拼接](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](/help/components/c-segmentation/c-segmentation-workflow/seg-publish.md) 新增更新內容。 |
 | 2020 年 3 月 12 日 | 更新 CDA 編結延遲。 |
@@ -31,7 +32,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 25 日 | 新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
 | 2020 年 2 月 18 日 | 新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
 | 2020 年 2 月 12 日 | 更新及重新整理[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文件。 |
-| 2020 年 2 月 7 日 | 更新[設定跨裝置分析](../components/cda/cda-setup.md)及[常見問題集](../components/cda/cda-faq.md) |
+| 2020 年 2 月 7 日 | 更新[設定跨裝置分析](../components/cda/setup.md)及[常見問題集](../components/cda/faq.md) |
 | 2020 年 2 月 4 日 | 徹底重寫[實作使用者指南](../implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新「自由表格」頁面，加入新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table.md)的相關資訊。 |
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](../technotes/cookies.md)。 |
@@ -51,7 +52,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 6 月 10 日 | [中國地區資料收集](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/rdc/rdc-china.html)的相關新文章 |
 | 2019 年 6 月 4 日 | 全新指南撰寫完成，標題為[從協力廠商的分析平台改用 Adobe Analytics](/help/technotes/ga-to-aa/home.md)。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
-| 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
+| 2019 年 4 月 11 日 | 更新[工作區效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 大幅更新[地區資料收集](/help/technotes/rdc/regional-data-collection.md)。 |
 | 2019 年 2 月 7 日 | 微幅更新[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)中的「將 IP 位址的最後八位數字取代為 0 」和「IP 模糊化」設定。 |
 | 2019 年 2 月 1 日 | 大幅更新 [getPercentPageViewed](../implement/vars/plugins/getpercentpageviewed.md) 實作外掛程式。 |
