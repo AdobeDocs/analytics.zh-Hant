@@ -6,7 +6,7 @@ title: 連結跨裝置的使用者
 topic: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '399'
 ht-degree: 100%
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/cda-home.md)。
+>不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/overview.md)。
 
 跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客身分識別會使用 `visitorID` 變數，為使用者建立裝置間的關聯。識別不重複訪客時，`visitorID` 變數優先順序最高。
 
