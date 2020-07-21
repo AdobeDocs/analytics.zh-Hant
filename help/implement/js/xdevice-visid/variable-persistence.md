@@ -5,7 +5,7 @@ title: 歸屬分配和持續性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 9704267cd3ebf480facd68f6cca44167b1d9686d
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/cda-home.md)。
+>不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/overview.md)。
 
 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
 
