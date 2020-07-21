@@ -2,7 +2,10 @@
 title: Journey IQ
 description: 了解在 Adobe Analytics 中組成 Journey IQ 功能集的各項功能。
 translation-type: tm+mt
-source-git-commit: a17acfe103d70666fc05c601f8ff249ef4be6d8c
+source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
+workflow-type: tm+mt
+source-wordcount: '177'
+ht-degree: 100%
 
 ---
 
@@ -19,4 +22,4 @@ Journey IQ 包含下列功能：
 * [內容感知作業：](../../components/vrs/vrs-report-time-processing.md)變更造訪的定義，包括造訪逾時的時機，並避免背景的點擊帶來新的造訪次數。可運用虛擬報表套裝中所屬的「報表時間處理」這項功能。
 * [流量分析](visualizations/c-flow/flow.md)：了解使用者下個前往的位置，以及來自何處。
 * [流失分析](visualizations/fallout/fallout-flow.md)：客戶停止參與互動時擷取該動作，並了解他們前往何處。
-* [跨裝置分析](../../components/cda/cda-home.md)：流暢合併多部裝置的行為，以便更清楚了解每部裝置取得的接觸點為何。
+* [跨裝置分析](../../components/cda/overview.md)：流暢合併多部裝置的行為，以便更清楚了解每部裝置取得的接觸點為何。
