@@ -2,7 +2,7 @@
 title: 上次接觸渠道
 description: 訪客參與有效期內的最近行銷渠道。
 translation-type: tm+mt
-source-git-commit: 2c262e5345c39a71a6a54062c607273528294b24
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 如果要將此維設定為特定值，則需要執行以下步驟：
 
-* 在「報表套裝設定」下的「行銷渠道管理員」中，將所要的維度值設為渠道。
+* 在「報表套裝設定」下的「行銷渠道管理員」中，將所要的維度項目設為渠道。
 * 設定包含所需點擊條件的行銷渠道處理規則。
 * 訪客對您網站的點擊必須符合行銷渠道處理規則中概述的標準。
 
-## 維度值
+## 維度項目
 
-維度值包括行銷渠道管理員中的任何渠道名稱。 預設情況下， `"Paid search"`值包 `"Natural search"`括、、、 `"Display"`、 `"Email"`、和 `"Affiliate"`、 `"Direct"``"Internal"``"Social networks"``"Referring domains"`、 您可以在行銷渠道管理員中新增或刪除渠道，這會影響此維度的值。
+維度項目包含行銷渠道管理員中的任何渠道名稱。 預設情況下， `"Paid search"`值包 `"Natural search"`括、、、 `"Display"`、 `"Email"`、和 `"Affiliate"`、 `"Direct"``"Internal"``"Social networks"``"Referring domains"`、 您可以在行銷渠道管理員中新增或刪除渠道，這會影響此維度的值。
