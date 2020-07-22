@@ -2,7 +2,7 @@
 title: 點擊類型
 description: 判斷點擊是前景還是背景點擊。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 2%
@@ -16,8 +16,8 @@ ht-degree: 2%
 
 ## 將資料填入此維度
 
-此維度適用於4.13.6版或更新版本上的所有行動SDK建置。 如果您不使用行動SDK，則「前景」維度值下的所有點擊清單。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+此維度適用於4.13.6版或更新版本上的所有行動SDK建置。 如果您不使用行動SDK,「前景」維度項目下的所有點擊清單。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
 
-## 維度值
+## 維度項目
 
-維值包括 `"Foreground"` 和 `"Background"`。 未在行動應用程式背景傳送的任何點擊都屬於維 `"Foreground"` 度值。 行動應用程式在背景所傳送的任何點擊都屬於 `"Background"` 維度值。
+維度項目包 `"Foreground"` 括和 `"Background"`。 未在行動應用程式背景傳送的任何點擊都屬於維 `"Foreground"` 度項目。 行動應用程式在背景所傳送的任何點擊都屬於維 `"Background"` 度項目。
