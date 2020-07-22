@@ -2,10 +2,10 @@
 title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -79,7 +79,7 @@ s.tl(true,"e");
 
 ### 連結名稱
 
-連結名稱引數是決定連結追蹤維度值的字串。它與設定 [`linkName`](../config-vars/linkname.md) 變數相同。
+連結名稱引數是決定連結追蹤維度項目的字串。 它與設定 [`linkName`](../config-vars/linkname.md) 變數相同。
 
 ```js
 s.tl(true,"d","Example download link");
