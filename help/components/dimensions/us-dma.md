@@ -2,7 +2,7 @@
 title: US DMA
 description: 點擊的指定市場區域。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 1%
@@ -22,9 +22,9 @@ ht-degree: 1%
 >
 >如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
 
-## 維度值
+## 維度項目
 
-維度值包括訪客的DMA和DMA代碼。 3位數的代碼不是郵遞區號，而是Nielsen的DMA代碼。 範例值 `"Dallas-Ft. Worth (623)"`包括 `"New York (501)"`、或 `"Los Angeles (803)"`。 維度值包 `"No Metro (0)"` 含美國以外的所有國際流量。
+維度項目包括訪客的DMA和DMA代碼。 3位數的代碼不是郵遞區號，而是Nielsen的DMA代碼。 範例值 `"Dallas-Ft. Worth (623)"`包括 `"New York (501)"`、或 `"Los Angeles (803)"`。 維度項目 `"No Metro (0)"` 包含美國境外的所有國際流量。
 
 ## 報告位置與實際位置之間的差異
 
