@@ -5,10 +5,10 @@ title: 劃分維度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 69%
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 69%
 
    ![步驟結果](assets/fa_data_table_actions.png)
 
-   您可以跨所選時段，依維度值或讀者區段來劃分量度。您也可以更深入鑽研至更詳細的層級。
+   您可以依維度項目或對象區段劃分所選時段的量度。 您也可以更深入鑽研至更詳細的層級。
 
    >[!NOTE]表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
