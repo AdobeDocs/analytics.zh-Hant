@@ -4,7 +4,10 @@ title: 特定篩選
 topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 91%
 
 ---
 
@@ -17,22 +20,22 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 **建立特定的篩選**
 
-1. 建立或編輯請求，然後前往 [!UICONTROL Request Wizard: Step 2]。
+1. 建立或編輯請求，然後前往[!UICONTROL 「請求精靈: 步驟 2」]。
 
    ![步驟結果](assets/dimension_filter.png)
 
-1. On the [!UICONTROL Request Wizard: Step 2], click the link next to the dimension in the grid, then choose **[!UICONTROL Filter]**.
+1. 在[!UICONTROL 「請求精靈: 步驟 2」]中，於格線內按一下維度旁的連結，然後選擇&#x200B;**[!UICONTROL 「篩選」]**。
 
    ![步驟結果](assets/choose_page_specific01.png)
 
-1. Enable **[!UICONTROL Specific]**, then enable one of the following options:
+1. 啟用&#x200B;**[!UICONTROL 「特定」]**，然後啟用以下任一選項：
 
    * **從儲存格範圍：**&#x200B;可讓您選擇儲存格中的資料。您可以選擇︰
    * **範圍內的所有儲存格：**&#x200B;可讓您映射範圍內的每一個儲存格。描述文字會說明您必須選擇的儲存格群組數量。若要映射多個儲存格群組，請在選擇儲存格時按住 Ctrl 鍵。如果必須映射的範圍內只含有一個儲存格，這便是唯一可用的選項。
    * **範圍的第一個儲存格：**&#x200B;您只需要選擇範圍左上角的儲存格，然後再選擇資料的方向。此外，如果請求含有多個期間，您可以選擇期間的方向，然後選擇是否要在各個期間當中略過一定數量的儲存格。
    * **從清單：**&#x200B;可讓您從可新增資料的清單選擇資料。
-1. If you enable **[!UICONTROL From List]**, select any available listed items or click **[!UICONTROL Add]**.
+1. 如果您啟用&#x200B;**[!UICONTROL 「從清單」]**，請選擇任何可用的清單項目或按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension values for the current request date range, limited to the first 10,000 items. You can search across these items or click **[!UICONTROL More ...]**, which displays the [!UICONTROL Search Form], so that you can create a more detailed search for dimensions.
-1. 在上， [!UICONTROL Select From List]按一下 **[!UICONTROL OK]**。
-1. On the [!UICONTROL Choose Page] form, save your Specific filter if you want, then click **[!UICONTROL OK]**.
+   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension items for the current request date range, limited to the first 10,000 items. 您可以搜尋這些項目或按一下&#x200B;**[!UICONTROL 更多...]**，此選項會顯示「[!UICONTROL 搜尋表單]」以供您建立更詳細的維度搜尋。
+1. 在[!UICONTROL 「從清單選擇」]中按一下&#x200B;**[!UICONTROL 「確定」]**。
+1. 如果您需要的話，可以在[!UICONTROL 「選擇頁面」]表單中儲存「特定」篩選，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
