@@ -2,7 +2,7 @@
 title: 郵遞區號
 description: 訪客的郵遞區號。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 0%
@@ -27,6 +27,6 @@ ht-degree: 0%
 >
 >如果您想要完全控制填入此維度的方式，報表套裝設定至關重要。
 
-## 維度值
+## 維度項目
 
-維度值包括訪客的郵遞區號。
+維度項目包含訪客的郵遞區號。
