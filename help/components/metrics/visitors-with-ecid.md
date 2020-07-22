@@ -2,7 +2,7 @@
 title: 具有 Experience Cloud ID 的訪客
 description: 使用Adobe Experience Cloud ID服務的獨特訪客數。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 19%
@@ -38,4 +38,4 @@ ht-degree: 19%
 
 ![無ID服務的頁面](assets/metric-mcvid3.png)
 
-請注意，「產品快速檢視」維度值無法與Identity Service正確實作。 您可以與組織內的適當團隊合作，盡快更新這些頁面。 您可以使用任何類型的維度(例如瀏覽器類型、網站區 [段或任何](../dimensions/browser-type.md)eVar [)來建構類似的報表](../dimensions/site-section.md)[](../dimensions/evar.md)。
+請注意，「產品快速檢視」維度項目未正確與Identity Service一起實作。 您可以與組織內的適當團隊合作，盡快更新這些頁面。 您可以使用任何類型的維度(例如瀏覽器類型、網站區 [段或任何](../dimensions/browser-type.md)eVar [)來建構類似的報表](../dimensions/site-section.md)[](../dimensions/evar.md)。
