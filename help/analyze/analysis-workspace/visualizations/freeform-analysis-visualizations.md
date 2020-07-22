@@ -2,15 +2,18 @@
 description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定。
 keywords: Analysis Workspace
 title: 視覺效果概述
-translation-type: ht
-source-git-commit: 6eda9e3e5bd450213253a8181042c24c318c0300
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '1069'
+ht-degree: 98%
 
 ---
 
 
 # 視覺效果概述
 
-Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。每個視覺效果都有各自的設定可供您管理。按一下視覺效果名稱，取得更詳細的資訊。
+工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。每個視覺效果都有各自的設定可供您管理。按一下視覺效果名稱，取得更詳細的資訊。
 
 YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
 
@@ -28,7 +31,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
 | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。僅可在使用時間當作維度時，才使用折線圖。 |
 | [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。 |
-| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度值與最多三個量度之間的關係。 |
+| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多3個量度之間的關係。 |
 | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 此視覺效果會根據選取的儲存格顯示總計和摘要。 |
 | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 此視覺效果會根據選取的儲存格相互比較儲存格。 |
 | [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至「工作區」。 |
@@ -37,7 +40,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 
 ## 視覺效果面板 {#section_DC07F032FBEF4046A40F7B95C28DA018}
 
-若要顯示「視覺效果」面板，請按一下側邊面板中的「**[!UICONTROL Visualizations]**」。
+若要顯示「視覺效果」面板，請按一下側邊面板中的「**[!UICONTROL 視覺效果]**」。
 
 ![步驟結果](assets/visualizations.png)
 
@@ -45,7 +48,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 
 ## 視覺效果設定 {#section_D3BB5042A92245D8BF6BCF072C66624B}
 
-若要存取「[!UICONTROL Visualization Settings]」，請將視覺效果拖曳至「[!UICONTROL Freeform Panel]」，然後按一下「[!UICONTROL Visualization Settings]」齒輪圖示。
+若要存取「[!UICONTROL 視覺效果設定]」，請將視覺效果拖曳至「[!UICONTROL 自由面板]」，接著按一下「[!UICONTROL 視覺效果設定]」齒輪圖示。
 
 >[!IMPORTANT]
 >
@@ -56,7 +59,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 | 設定 | 說明 |
 |--- |--- |
 | 百分比 | 以百分比顯示值。 |
-| 100% 堆疊 | 針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。範例：![](assets/stacked_100_percent.png) |
+| 100% 堆疊 | 針對堆疊區域圖/堆疊長條圖/堆疊橫條圖的設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。範例： ![](assets/stacked_100_percent.png) |
 | 可見圖例 | 可讓您隱藏「摘要編號/摘要變更」視覺效果的篩選器詳細資料文字。 |
 | 項目數上限 | 可讓您限制視覺效果顯示的項目數。 |
 | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
@@ -66,7 +69,7 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 
 ## 「建立視覺效果」圖示{#section_9C11D9DEDC42413AA53E69A71A509DFC}
 
-如果您不確定要挑選哪個視覺效果，請按一下任何表格列中的 **[!UICONTROL Create Visual]** 圖示。當您在表格列上暫留時，會顯示這個圖示。按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取最多 3 個區段，則會建立 Venn 圖表。如果大於 3 個區段，則會建立長條圖。若為其他類型的資料，則會建立線性圖等等。
+如果您不確定要挑選哪個視覺效果，請按一下任何表格列中的&#x200B;**[!UICONTROL 「建立視覺效果」]**&#x200B;圖示。當您在表格列上暫留時，會顯示這個圖示。按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取最多 3 個區段，則會建立 Venn 圖表。如果大於 3 個區段，則會建立長條圖。若為其他類型的資料，則會建立線性圖等等。
 
 ![](assets/create-visual.png)
 
@@ -99,11 +102,11 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 以在折線途中編輯圖例標籤為例說明，
 
 1. 以滑鼠右鍵按一下圖例標籤。
-1. 按一下「**[!UICONTROL Edit Label]**」。
+1. 按一下&#x200B;**[!UICONTROL 「編輯標籤」]**。
 
    ![](assets/edit-label.png)
 
 1. 輸入新的標籤文字。
-1. 按下 **[!UICONTROL Enter]** 鍵儲存。
+1. 按下 **[!UICONTROL Enter]** 以儲存。
 
 以下是此主題的[影片連結](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
