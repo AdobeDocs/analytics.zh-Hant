@@ -1,8 +1,8 @@
 ---
 title: 歸因模型與回顧期間
-description: 不同類型的歸因如何在維度值之間劃分評分。
+description: 不同類型的歸因如何在維度項目之間劃分評分。
 translation-type: tm+mt
-source-git-commit: fdfc07702993510e53b28ccc172a48c5f079e23e
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1483'
 ht-degree: 93%
