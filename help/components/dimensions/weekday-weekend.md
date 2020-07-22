@@ -2,7 +2,7 @@
 title: 平日/週末
 description: 判斷點擊是發生在工作日或週末。
 translation-type: tm+mt
-source-git-commit: 05ea2778cd5cd324c660fd0f1d2ac02373829f0f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 3%
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 此維度適用於所有實作，不需開箱即用。 如果報表套裝包含資料，此維度會運作。
 
-## 維度值
+## 維度項目
 
-此維始終包含兩個維值： `"Weekday"` 和 `"Weekend"`。 維度值會套 `"Weekday"` 用至週一到週五的所有點擊，而維度值則 `"Weekend"` 會套用至週六和週日的所有點擊。
+此維度一律包含兩個維度項目： `"Weekday"` 和 `"Weekend"`。 維度項目 `"Weekday"` 適用於週一到週五的所有點擊，而維度項目 `"Weekend"` 則適用於週六和週日的所有點擊。
