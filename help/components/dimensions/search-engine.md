@@ -2,7 +2,7 @@
 title: 搜尋引擎
 description: 訪客用來存取您網站的搜尋引擎。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '224'
 ht-degree: 1%
@@ -27,6 +27,6 @@ ht-degree: 1%
 
 此維度會參照Adobe內部的多個查閱表格。 每個值都以點擊的反 [向連結](referrer.md) 為基礎，這取決於 [內部URL篩選器](/help/admin/admin/internal-url-filter-admin.md)。 請確定已正確設定反向連結維度和內部URL篩選器。
 
-## 維度值
+## 維度項目
 
-維度值包括用來存取您網站的搜尋引擎。 範例值 `"Google"`包括、 `"Microsoft Bing"`和 `"DuckDuckGo"`。 維 `"Unspecified"` 度值是所有非搜尋流量。
+維度項目包括用來存取您網站的搜尋引擎。 範例值 `"Google"`包括、 `"Microsoft Bing"`和 `"DuckDuckGo"`。 維 `"Unspecified"` 度項目是所有非搜尋流量。
