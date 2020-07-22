@@ -2,7 +2,7 @@
 title: 行動裝置尺寸
 description: 根據裝置的使用者代理字串的維度。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 4%
@@ -24,17 +24,17 @@ ht-degree: 4%
 
 >[!NOTE]
 >
->標示為非 `"None"` 行動裝置的維度值。 如果您想要只包含行動裝置的報表，請將「行動裝置」維度拖曳至「工作區畫布」的區段區域。
+>標示為非 `"None"` 行動裝置的維度項目。 如果您想要只包含行動裝置的報表，請將「行動裝置」維度拖曳至「工作區畫布」的區段區域。
 
-* **行動音訊支援**: 決定裝置可播放的檔案格式。 範例值 `"MP3"`包括、 `"AAC"`和 `"MIDI Monophonic"`。 此維中的值不是互斥的； 單一點擊可歸因於多個維度值。
-* **行動電信業者**: 如果使用者代理包含電信業者專用的裝置，則電信業者為維度值。 範例值 `"Reliance Jio"`包括 `"Airtel"`、 `"Vodafone"`和 `"Verizon"`。
+* **行動音訊支援**: 決定裝置可播放的檔案格式。 範例值 `"MP3"`包括、 `"AAC"`和 `"MIDI Monophonic"`。 此維中的值不是互斥的； 單一點擊可歸因於多個維度項目。
+* **行動電信業者**: 如果使用者代理包含電信業者專用的裝置，則電信業者是維度項目。 範例值 `"Reliance Jio"`包括 `"Airtel"`、 `"Vodafone"`和 `"Verizon"`。
 * **行動裝置色彩深度**: 行動裝置的色深（以位元為單位）。
-* **行動Cookie支援**: 判斷行動裝置是否支援Cookie。 若瀏覽器接受Cookie，則此報告不會狀態。 維值包 `"Supported"`括、 `"Not supported"`和 `"Unknown"`。
+* **行動Cookie支援**: 判斷行動裝置是否支援Cookie。 若瀏覽器接受Cookie，則此報告不會狀態。 維度項目 `"Supported"`包括、 `"Not supported"`和 `"Unknown"`。
 * **行動裝置**: 訪客使用的行動裝置。
-* **行動裝置號碼**: 確定移動設備是否發送其號碼。 維值包 `"Supported"`括、 `"Not supported"`和 `"Unknown"`。
+* **行動裝置號碼**: 確定移動設備是否發送其號碼。 維度項目 `"Supported"`包括、 `"Not supported"`和 `"Unknown"`。
 * **行動裝置類型**: 行動裝置的類型。 範例值 `"Mobile phone"`包括 `"Tablet"`、 `"Media player"`和 `"Gaming console"`。
 * **行動DRM**: 行動裝置支援的DRM類型。 範例值 `"DRM OMA forward"`包括、 `"DRM OMA combined delivery"`和 `"DRM OMA separate delivery"`。
-* **行動影像支援**: 行動裝置支援的影像類型。 範例值 `"PNG"`包括、 `"JPEG"`和 `"GIF 87"`。 此維中的值不是互斥的； 單一點擊可歸因於多個維度值。
+* **行動影像支援**: 行動裝置支援的影像類型。 範例值 `"PNG"`包括、 `"JPEG"`和 `"GIF 87"`。 此維中的值不是互斥的； 單一點擊可歸因於多個維度項目。
 * **行動資訊服務**: 裝置支援的新聞服務類型。 最近使用的裝置通常不會報告此資訊。
 * **Mobile Java VM**: 裝置支援的Java版本。
 * **行動郵件裝飾**: 判斷裝置是否支援日文裝置常用的反編譯功能。
@@ -48,7 +48,7 @@ ht-degree: 4%
 * **行動螢幕高度**: 螢幕高度（以像素為單位）。 請注意，iPhone會因無 `"480"` 法判斷iPhone裝置版本而一律報告。 請參閱以下有關決定iPhone裝置版本的章節。
 * **行動螢幕大小**: 行動裝置的完整尺寸（以像素為單位）。 報告的螢幕大小不指示裝置的方向。不論螢幕方向為何，報告中每個裝置的螢幕解析度都是固定的。這個大小是以決定較可能方向的研究為基礎。You can see sizes such as `"768x1024"` and `"1024x768"` in the same report with each size representing one or more different devices.
 * **行動螢幕寬度**: 螢幕寬度（以像素為單位）。
-* **行動視訊支援**: 行動裝置支援的視訊檔案格式和轉碼器。 MP4和3GPP檔案的不同轉碼器存在多個維度值。 此維中的值不是互斥的； 單一點擊可歸因於多個維度值。
+* **行動視訊支援**: 行動裝置支援的視訊檔案格式和轉碼器。 MP4和3GPP檔案的不同轉碼器中，存在數個維度項目。 此維中的值不是互斥的； 單一點擊可歸因於多個維度項目。
 
 ## 依型號或版本分隔iPhone
 
