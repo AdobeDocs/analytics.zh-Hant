@@ -2,7 +2,7 @@
 title: 網站區段
 description: 網站區段的名稱。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 此維度會從影像請求中的 [`ch` 查詢字串](/help/implement/validate/query-parameters.md) ，擷取資料。 AppMeasurement會使用變數收集此 [`channel`](/help/implement/vars/page-vars/channel.md) 資料。
 
-## 維度值
+## 維度項目
 
-維度值包括網站上網站區域的名稱。 您的組織會決定您要使用的特定維度值。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
+維度項目包含您網站上網站區域的名稱。 您的組織會決定您要使用哪些特定維度項目。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
