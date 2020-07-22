@@ -2,7 +2,7 @@
 title: 收入
 description: 所有訂單中購買產品的貨幣金額。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # 收入
 
-「收入」量度會顯示所有訂單中購買產品的貨幣金額。 此量度對電子商務網站測量轉換至關重要。 您可以將此度量與任何維度結合，以瞭解哪些維度值對收入有貢獻。 例如，您可以看到排名最前的促銷活動(使用 [追蹤代碼維度](../dimensions/tracking-code.md) )或排名最前的內部搜尋詞(使用 [eVar](../dimensions/evar.md))。
+「收入」量度會顯示所有訂單中購買產品的貨幣金額。 此量度對電子商務網站測量轉換至關重要。 您可以將此度量與任何維度結合，以查看哪些維度項目對收入的貢獻。 例如，您可以看到排名最前的促銷活動(使用 [追蹤代碼維度](../dimensions/tracking-code.md) )或排名最前的內部搜尋詞(使用 [eVar](../dimensions/evar.md))。
 
 ## 此度量的計算方式
 
