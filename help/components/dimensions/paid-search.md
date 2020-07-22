@@ -2,7 +2,7 @@
 title: 付費搜尋
 description: 區分量度與付費和免費搜尋。
 translation-type: tm+mt
-source-git-commit: d71edc74644907b47bfb6492e7a6c47c06d5984f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 此維度要正常運作，唯一的要求是在報表套裝設定中 [正確設定付費搜尋偵測](/help/admin/admin/paid-search-detection/paid-search-detection.md) 。 如果付費搜尋偵測已正確設定且報表套裝有資料，此維度一律有效。
 
-## 維度值
+## 維度項目
 
-維度值包含兩個靜態值： `"Natural"` 和 `"Paid"`。 如果瀏覽符合搜尋引擎的條件，也符合付費搜尋偵測，則屬於維 `"Paid"` 度值。 如果瀏覽符合搜尋引擎的條件，但 *不符合* 「付費搜尋偵測」，則屬於 `"Natural"` 維度值。
+維度項目包含兩個靜態值： `"Natural"` 和 `"Paid"`。 如果瀏覽符合搜尋引擎的標準，也符合付費搜尋偵測，則屬於維 `"Paid"` 度項目。 如果瀏覽符合搜尋引擎的條件，但 *不符合* 「付費搜尋偵測」，則屬於維 `"Natural"` 度項目。
