@@ -2,7 +2,10 @@
 title: 比較受事件影響的日期與先前的範圍
 description: 透過與先前趨勢的比較，瞭解事件（例如實施問題或中斷）的影響。
 translation-type: tm+mt
-source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +18,9 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 建立包含事件的日期範圍，以開始探索該事件的影響。
 
-1. 導覽至 **[!UICONTROL Components]** > **[!UICONTROL Date ranges]**。
-2. 按一下 **[!UICONTROL Add]**.
-3. 選擇事件發生的日期範圍。 按一下 **[!UICONTROL Save]**.
+1. 導覽至「 **[!UICONTROL 元件]** >日 **[!UICONTROL 期範圍]**」。
+2. 按一下&#x200B;**[!UICONTROL 「新增」]**。
+3. 選擇事件發生的日期範圍。 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    ![日期範圍產生器](assets/date_range_builder.png)
 
@@ -29,7 +32,7 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![日期範圍量度](assets/date_range_metric.png)
 
-2. 以滑鼠右鍵按一下日期範圍，然後按一 **[!UICONTROL Add time period column]** 下> **[!UICONTROL Custom date range to this date range]**。
+2. 以滑鼠右鍵按一下日期範圍，然 **[!UICONTROL 後按一下「新增時段欄]** >自 **[!UICONTROL 訂日期範圍至此日期範圍」]**。
    * 如需一週比較，請選取事件範圍減去7天。 請確定該事件與此日期範圍之間的一週中的天數一致。
    * 如需月與月的比較，請選取上個月的事件範圍。 如果您想要對齊一週中的天數，也可以選取事件範圍減去28天。
    * 對於年度比較，請選取去年的活動範圍。
@@ -39,13 +42,13 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
 ## 計算事件與相似先前範圍之間的百分比差異
 
-使用自由表格視覺化功能，比較事件日期範圍和類似先前日期範圍之間的維度值。 這些步驟說明您可以遵循的一週比一週的範例。
+使用自由表格視覺化功能，比較事件日期範圍和類似先前日期範圍之間的維度項目。 這些步驟說明您可以遵循的一週比一週的範例。
 
 1. 開啟工作區專案，並新增非 **時間維度至自由表格** 。 例如，您可以使用「行動裝置類型」維度。 套用堆疊在量度上的最近建立日期範圍，例如「發生次數」:
 
    ![受影響日期範圍的行動裝置類型](assets/mobile_device_type.png)
 
-2. 以滑鼠右鍵按一下日期範圍，然後按一 **[!UICONTROL Compare time periods]** 下> **[!UICONTROL Custom date range to this date range]**。 選取事件範圍減去7天。 請確定該事件與此日期範圍之間的一週中的天數一致。
+2. 以滑鼠右鍵按一下日期範圍，然後按 **[!UICONTROL 一下比較時段]** >自 **[!UICONTROL 訂日期範圍至此日期範圍]**。 選取事件範圍減去7天。 請確定該事件與此日期範圍之間的一週中的天數一致。
 
    ![比較時段功能表](assets/compare_time_custom.png)
 
@@ -53,7 +56,7 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![一週比一週](assets/wow_affected_range.png)
 
-4. 重複步驟3和4以進行月與年的比較。 您可以在相同的表格或單獨的表格中執行此操作。
+4. 重複步驟3和4以進行月與年的比較。 您可以在同一個表格或單獨的表格中執行此操作。
 
 ## 將比較日期範圍並排分析為列
 
@@ -68,6 +71,6 @@ source-git-commit: 74a1edadde1899c9e51019cb7e7bb120b6e04d64
 
    ![表格產生器區段](assets/table_builder_segments.png)
 
-4. 按一下 **[!UICONTROL Build]**. 從產生的表格中，您可以檢視任何所需區段的受影響範圍與上一週、月和年的比較。
+4. 按一下&#x200B;**[!UICONTROL 「建立」]**。從產生的表格中，您可以檢視任何所需區段的受影響範圍與上一週、月和年的比較。
 
    ![完成的表格](assets/table_builder_finished.png)
