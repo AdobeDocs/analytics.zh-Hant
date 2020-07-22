@@ -2,7 +2,7 @@
 title: 語言
 description: 瀏覽器中偏好的語言設定。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 1%
@@ -22,6 +22,6 @@ ht-degree: 1%
 
 此維度會參照Adobe內部的查閱表格。 查閱值是以影像請求中 `Accept-Language` 的HTTP標題為基礎。 如果您使用AppMeasurement程式庫（例如透過Adobe Experience Platform Launch），此維度就可立即運作。
 
-## 維度值
+## 維度項目
 
-維度值包含訪客慣用語言的好記名稱。 Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. 如果影像要求在HTTP標題中不包含有效語言，則維度值為 `"None"`。
+維度項目包含訪客慣用語言的好記名稱。 Examples include `"English (United States)"`, `"English (United Kingom)"`, `"Chinese (China)"`, and `"Spanish (Spain)"`. 如果影像要求在HTTP標題中不包含有效語言，則維度項目為 `"None"`。
