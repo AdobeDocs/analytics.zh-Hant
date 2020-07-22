@@ -2,7 +2,7 @@
 title: eVar（銷售）
 description: 與產品維度關聯的自訂變數。
 translation-type: tm+mt
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 25%
@@ -48,7 +48,7 @@ If merchandising is enabled for the eVar in the previous example, the search ter
 不建 [議在銷售變數上使用「例項](../metrics/instances.md) 」量度。
 
 * 對於使用產品語法的銷售變數，例項根本不會增加。
-* 對於使用轉換變數語法的銷售變數，每次設定eVar時都會計算例項。 不過，它會歸因於維度值，除 `"None"` 非下列所有項目都發生在相同的點擊上：
+* 對於使用轉換變數語法的銷售變數，每次設定eVar時都會計算例項。 不過，它會歸因於維度項目，除 `"None"` 非下列所有項目都發生在相同的點擊上：
    * 銷售eVar會以值設定。
    * 變 `products` 數以值定義。
    * 已設定綁定事件。
