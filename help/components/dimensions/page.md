@@ -2,7 +2,7 @@
 title: 頁面
 description: 頁面名稱。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '199'
 ht-degree: 3%
@@ -20,9 +20,9 @@ ht-degree: 3%
 
 此維度會從影像請求中的 [`pageName` 查詢字串](/help/implement/validate/query-parameters.md) ，擷取資料。 AppMeasurement會使用變數收集此 `pageName` 資料。 如果未 `pageName` 定義變數，則會回到使用頁面的URL。
 
-## 維度值
+## 維度項目
 
-維度值包括您網站上的頁面名稱。 您的組織會決定您要使用的特定維度值。 有些組織會直接使 `document.title`用，而有些則會制定自訂的網站導覽路徑標示。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
+維度項目包含您網站上的頁面名稱。 您的組織會決定您要使用哪些特定維度項目。 有些組織會直接使 `document.title`用，而有些則會制定自訂的網站導覽路徑標示。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
 
 >[!NOTE]
 >
