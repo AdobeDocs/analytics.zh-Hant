@@ -2,7 +2,7 @@
 title: 瀏覽器寬度——範圍化
 description: 瀏覽器視窗的寬度（以像素為單位）。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '273'
 ht-degree: 0%
@@ -28,6 +28,6 @@ ht-degree: 0%
 
 Adobe會保留瀏覽的瀏覽器寬度。 如果瀏覽器寬度在瀏覽中間時調整，則不會記錄調整。
 
-## 維度值
+## 維度項目
 
-維度值包含所有收集的瀏覽器寬度，分為100像素的群組。 例如，如果點擊的瀏覽器寬度為 `1280`，則會在維度值中分組 `1200 to 1299`。
+維度項目包括所有收集的瀏覽器寬度，分為100像素的群組。 例如，如果點擊的瀏覽器寬度為 `1280`，則會在維度項目中分組 `1200 to 1299`。
