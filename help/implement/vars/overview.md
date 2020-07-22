@@ -2,8 +2,11 @@
 title: 變數、函數、方法和外掛程式概述
 description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+translation-type: tm+mt
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '318'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的變數分為幾個部分：
 
 * **頁面變數**&#x200B;通常是直接用於報表中的值。常見的頁面變數包括 `props`、`eVars` 和 `events`。
-* **設定變數**&#x200B;是有助於確保將正確資料送達 Adobe 的設定值。常見的設定變數包括 `trackingServerSecure`、`charSet` 和 `linkTrackVars`。設定變數通常不會填入維度值。
+* **設定變數**&#x200B;是有助於確保將正確資料送達 Adobe 的設定值。常見的設定變數包括 `trackingServerSecure`、`charSet` 和 `linkTrackVars`。設定變數通常不會填入維度項目。
 * **函數和方法**&#x200B;是參考時執行特定工作的程式碼片段。常見的函數包括 `t()`、`tl()` 和 `clearVars()`。
 
 ## 變數與實施方法
