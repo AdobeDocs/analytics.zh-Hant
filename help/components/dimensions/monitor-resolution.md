@@ -2,7 +2,7 @@
 title: 監視器解析度
 description: 訪客螢幕的解析度（以像素為單位）。
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 1%
@@ -26,6 +26,6 @@ ht-degree: 1%
 
 此維度會從影像請求中的 [`s` 查詢字串](/help/implement/validate/query-parameters.md) ，擷取資料。 AppMeasurement會使用JavaScript變數在瀏覽器中 `screen.width` 收集 `screen.height` 此資料。 如果您使用AppMeasurement程式庫（例如透過Adobe Experience Platform Launch），此維度就可立即運作。 如果您在AppMeasurement以外使用資料收集方法（例如透過API），請務必在影像請求中包含 `s` 查詢字串參數。
 
-## 維度值
+## 維度項目
 
-維度值包含所有收集的螢幕解析度。 範例值 `1920 x 1080`包括、 `1366 x 768`和 `1280 x 720`。
+維度項目包含所有收集的螢幕解析度。 範例值 `1920 x 1080`包括、 `1366 x 768`和 `1280 x 720`。
