@@ -2,7 +2,7 @@
 title: 上次購買間隔天數
 description: 目前點擊與上次購買間隔的天數。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%
@@ -20,6 +20,6 @@ ht-degree: 0%
 
 Adobe會根據您實作中的事件自 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 動填入此維度。 如果您在網站上實 `purchase` 作事件，此維度一律有效。
 
-## 維度值
+## 維度項目
 
-維度值包括訪客最近一次購買與目前點擊之間的天數。 每個天數是個別的維度值，在同一天發生訪客最近一次購買和目前點擊的「同一天」。
+維度項目包括訪客最近一次購買與目前點擊之間的天數。 每個天數是個別的維度項目，在同一天發生訪客最近一次購買和目前點擊的「同一天」。
