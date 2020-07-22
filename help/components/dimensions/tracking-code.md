@@ -2,7 +2,7 @@
 title: 追蹤程式碼
 description: 追蹤代碼或促銷活動的名稱。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 3%
@@ -18,6 +18,6 @@ ht-degree: 3%
 
 此維度會從影像請求中的 [`v0` 查詢字串](/help/implement/validate/query-parameters.md) ，擷取資料。 AppMeasurement會使用變數收集此 [`campaign`](/help/implement/vars/page-vars/campaign.md) 資料。
 
-## 維度值
+## 維度項目
 
-維度值包括網站上追蹤代碼的名稱。 您的組織會決定您要使用的特定維度值。
+維度項目包含網站上追蹤代碼的名稱。 您的組織會決定您要使用哪些特定維度項目。
