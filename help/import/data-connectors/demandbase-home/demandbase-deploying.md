@@ -3,10 +3,10 @@ description: 部署這項整合是一項簡單的程序，需要執行下列動�
 title: 部署整合
 uuid: 9c116ca8-4dbf-44eb-a832-574527ee88b7
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1310'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -119,7 +119,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> _db._delim </td> 
-   <td colname="col2"> 分隔符號，用於在將 Demandbase 維度值傳送至 Adobe Analytics 時分隔這些值。變更此設定可能會導致預設分類規則無法正確運作。 </td> 
+   <td colname="col2"> 分隔字元，用於在Demandbase維度項目傳送至Adobe Analytics時分隔這些項目。 變更此設定可能會導致預設分類規則無法正確運作。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> _db._setTnt </td> 
