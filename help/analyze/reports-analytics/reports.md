@@ -2,7 +2,7 @@
 title: 報表
 description: 「報告與分析」用於每個報表的維度和量度。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1863'
 ht-degree: 1%
@@ -88,19 +88,19 @@ ht-degree: 1%
 
 包含可讓您查看訪客路徑資料的報表。
 
-* 下一頁流量： 在頂端頁面維度值上使用流量報表。 路徑檢視與例項類 [似](/help/components/metrics/instances.md)。 您可以變更報告的維度值。 「分析工作區」中的類似報表可使用「流量」 [視覺化](../analysis-workspace/visualizations/c-flow/flow.md)。
-* 下一頁： 擷取頂端頁面維度值，並顯示訪客瀏覽的下一頁。
-* 上一頁流量： 在頂端頁面維度值上使用流量報表分析工作區中的類似報表可使用流量 [視覺化](../analysis-workspace/visualizations/c-flow/flow.md)。
-* 上一頁： 擷取頂端頁面維度值，並顯示訪客的上一頁。
-* 流失： 可讓您在步驟中選取頁面維度值，並顯示已遵循和未遵循該路徑的人員比例。 「分析工作區」中的類似報表可使用「流失」 [視覺化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
-* 完整路徑： 將個別路徑顯示為維度值。 在分析工作區中退休； 請改用 [流量視覺化](../analysis-workspace/visualizations/c-flow/flow.md) 。
+* 下一頁流量： 在頂層頁面維度項目上使用流量報表。 路徑檢視與例項類 [似](/help/components/metrics/instances.md)。 您可以變更報告的維度項目。 「分析工作區」中的類似報表可使用「流量」 [視覺化](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 下一頁： 擷取頂端頁面維度項目，並顯示訪客瀏覽的下一頁。
+* 上一頁流量： 使用頂端頁面維度項目上的流量報表分析工作區中的類似報表可使用流量 [視覺化](../analysis-workspace/visualizations/c-flow/flow.md)。
+* 上一頁： 擷取頂端的頁面維度項目，並顯示訪客的上一頁。
+* 流失： 可讓您在步驟中選取頁面維度項目，並顯示遵循該路徑和未遵循該路徑的人數比例。 「分析工作區」中的類似報表可使用「流失」 [視覺化](../analysis-workspace/visualizations/fallout/fallout-flow.md)。
+* 完整路徑： 將個別路徑顯示為維度項目。 在分析工作區中退休； 請改用 [流量視覺化](../analysis-workspace/visualizations/c-flow/flow.md) 。
 * PathFinder: 提供多種報表類型，可讓您分析路徑（在分析工作區中淘汰）。
 * 路徑長度： 使用「瀏 [覽深度](/help/components/dimensions/visit-depth.md) 」維度。
 * 頁面分析
-   * 頁面摘要： 擷取頂端頁面維度值並顯示趨勢檢視。 也會顯示該頂端頁面維度值的登入點、上一頁、退出點和下一頁。
+   * 頁面摘要： 擷取頂端頁面維度項目並顯示趨勢檢視。 也會顯示該頂層頁面維度項目的登入點、上一頁、退出點和下一頁。
    * 重新載入： 將頁面 [維度與](/help/components/dimensions/page.md) 「重新載 [入」度量](/help/components/metrics/reloads.md) 一起使用。
    * 頁面逗留時間： 使用頁 [面逗留時間——範圍化維度](/help/components/dimensions/time-spent-on-page.md) 。
-   * 頁麵點按次數： 擷取頂端頁面維度值，並顯示在指定瀏覽中到達該頁面所花費的點按次數。
+   * 頁麵點按次數： 擷取頂端頁面維度項目，並顯示在指定瀏覽中到達該頁面所花費的點按次數。
 * 登入與退出
    * 登入頁面： 使用「登 [入頁面](/help/components/dimensions/entry-dimensions.md) 」維度。
    * 原始登入頁面： 使用「登 [入」頁原始](/help/components/dimensions/entry-dimensions.md) 維。
@@ -171,7 +171,7 @@ ht-degree: 1%
    * 美國州： 使用美 [國州](/help/components/dimensions/us-states.md) 維。
    * 美國DMA: 使用 [美國DMA](/help/components/dimensions/us-dma.md) 維。
 * 語言： 使用「語 [言](/help/components/dimensions/language.md) 」維。
-* 時區： 使用時區維度（在分析工作區中退役）。 維度值是點擊的GMT偏移。
+* 時區： 使用時區維度（在分析工作區中退役）。 維度項目是點擊的GMT偏移。
 * 網域： 使用 [Domain](/help/components/dimensions/domain.md) 維。
 * 頂層網域： 使用頂層網域維度（在分析工作區中退役）。 它會將網 [域維](/help/components/dimensions/domain.md) 度分組為較高層級的類別，通常依網域的國家／地區而定。
 * 技術： 資料夾包含訪客用來存取您網站的報表。
@@ -184,12 +184,12 @@ ht-degree: 1%
    * 螢幕色彩深度： 使用「顏 [色深度](/help/components/dimensions/color-depth.md) 」尺寸。
    * 螢幕解析度： 使用「監 [視器解析度](/help/components/dimensions/monitor-resolution.md) 」維。
    * Java: 使用啟 [用Java的維](/help/components/dimensions/java-enabled.md) 。
-   * JavaScript: 使用啟用JavaScript的維度（在分析工作區中退役）。 維度值為「已啟用」、「已停用」或「未知」，視瀏覽器是否已啟用JavaScript而定。
-   * JavaScript版本： 使用JavaScript版本維度（在分析工作區中退役）。 維度值顯示瀏覽器使用的JavaScript版本。
+   * JavaScript: 使用啟用JavaScript的維度（在分析工作區中退役）。 維度項目是「已啟用」、「已停用」或「未知」，視瀏覽器是否已啟用JavaScript而定。
+   * JavaScript版本： 使用JavaScript版本維度（在分析工作區中退役）。 維度項目會顯示瀏覽器所使用的JavaScript版本。
    * Cookie: 使用 [Cookie支援維](/help/components/dimensions/cookie-support.md) 。
    * 連線類型： 使用「連 [接類型](/help/components/dimensions/connection-type.md) 」維。
    * 行動電信業者： 使用行 [動電信業者](/help/components/dimensions/mobile-dimensions.md) 維度。
-* 訪客狀態： 使用「狀態」維（在分析工作區中退役）。 維度值源自變 [`state`](../../implement/vars/page-vars/state.md) 數。
+* 訪客狀態： 使用「狀態」維（在分析工作區中退役）。 維度項目源自變 [`state`](../../implement/vars/page-vars/state.md) 數。
 * 訪客郵遞區號： 使用郵 [遞區號](/help/components/dimensions/zip-code.md) 維度。
 
 ## 自訂轉換
@@ -204,7 +204,7 @@ ht-degree: 1%
 
 包含與行銷管道 [有關的報表](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
-* 渠道概述報告： 「報告與分析」專屬的自訂報表。 使用行銷渠道作為維度值，並使用首次接觸或上次接觸歸因的量度。
+* 渠道概述報告： 「報告與分析」專屬的自訂報表。 使用行銷渠道做為維度項目，並使用首次接觸或上次接觸歸因的量度。
 * 首次接觸渠道： 使用「首 [次接觸渠道](/help/components/dimensions/first-touch-channel.md) 」尺寸。
 * 首次接觸渠道的詳細資訊： 使用「首 [次接觸渠道」細節](/help/components/dimensions/first-touch-detail.md) 維度。
 * 上次接觸渠道： 使用「上 [次接觸渠道](/help/components/dimensions/last-touch-channel.md) 」維度。
