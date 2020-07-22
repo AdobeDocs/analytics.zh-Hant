@@ -2,7 +2,7 @@
 title: Prop
 description: 可用於報表的自訂維度。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 26%
@@ -28,9 +28,9 @@ prop 是自訂變數，您可以視需要使用。它們不會持續存留於設
 
 AppMeasurement會將JavaScript變數編譯為影像要求以進行資料收集，它會使用變 `prop1` 數- `prop75`。 如需實 [作指引](/help/implement/vars/page-vars/prop.md) ，請參閱實作使用指南中的prop。
 
-## 維度值
+## 維度項目
 
-由於prop在實作中包含自訂字串，因此您的組織會決定每個prop的維度值。 請務必在解決方案設計檔案中記錄每個prop和典型維 [度值的用途](/help/implement/prepare/solution-design.md)。
+由於prop在實作中包含自訂字串，因此您的組織會決定每個prop的維度項目。 請務必在解決方案設計檔案中記錄每個prop和一般維度 [項目的用途](/help/implement/prepare/solution-design.md)。
 
 ## eVar上的prop值
 
