@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的對象報表
 description: 瞭解如何使用 Analysis Workspace 建立對象型報表。
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1715'
 ht-degree: 97%
@@ -97,7 +97,7 @@ See the [Countries](/help/components/dimensions/countries.md) dimensions in the 
 
 若要建立新造訪與回訪報表：
 
-1. 在元件功能表中，找出&#x200B;**首次造訪次數**&#x200B;區段，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。請注意，**首次造訪次數**&#x200B;是區段，而 Workspace 通常使用維度來表示行。
+1. 在元件功能表中，找出&#x200B;**首次造訪次數**&#x200B;區段，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。請注意，**首次造訪次數**&#x200B;是區段，而工作區通常使用維度來表示行。
 2. 找出&#x200B;**回訪**&#x200B;區段，並將其拖曳至「區段」列標頭上方。這會將區段新增為「首次造訪次數」下方的維度，以方便比較。
 3. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
@@ -185,6 +185,6 @@ See the [Mobile device](/help/components/dimensions/mobile-dimensions.md) dimens
 流量報表適用於兩種平台。若要建立流量報表：
 
 1. 按一下左側的視覺效果圖示，然後將「流量」視覺效果拖曳至自由表格上方的工作區
-2. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。維度值為黃色。
+2. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。尺寸項目為黃色。
 3. 找出所需的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
 4. 此流量報表為互動式。按一下任何值，即可將流量展開至接續或先前的頁。使用右鍵功能表來展開或收合欄。同一流量報表中也可使用不同的維度。
