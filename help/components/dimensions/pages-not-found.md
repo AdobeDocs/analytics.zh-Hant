@@ -2,7 +2,7 @@
 title: 找不到頁面
 description: 在您的網站上傳回錯誤的URL。
 translation-type: tm+mt
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 2%
@@ -23,6 +23,6 @@ ht-degree: 2%
 
 此維度會從影像請求中的 [`pageType` 和 `g` 查詢字串](/help/implement/validate/query-parameters.md) 中擷取資料。 如果查 `pageType` 詢字串等 `errorPage`於，則 `g` 會記錄查詢字串（頁面URL）。 AppMeasurement會使用變數收集此 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 資料。 如果未 `pageType` 定義變數或設定變數為其他變數， `errorPage`則不會收集此維度的資料。
 
-## 維度值
+## 維度項目
 
-維度值包括發生錯誤之網站上頁面的URL。
+維度項目包括發生錯誤之網站上頁面的URL。
