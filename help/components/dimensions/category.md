@@ -2,7 +2,7 @@
 title: 類別
 description: 點擊的產品類別。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 1%
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 此維引用變數中字串的第一部分 [`products`](/help/implement/vars/page-vars/products.md) 。 第一個分號(`;`)前的所有內容都會填入此維度。
 
-## 維度值
+## 維度項目
 
-由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度值。 Adobe建議您使用「產品」和「類別」維度，將個別產品分組為有意義的類別。
+由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe建議您使用「產品」和「類別」維度，將個別產品分組為有意義的類別。
 
 >[!TIP]
 >
