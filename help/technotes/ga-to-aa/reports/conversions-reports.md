@@ -2,10 +2,10 @@
 title: Adobe Analytics 中的轉換報表
 description: 瞭解如何在 Adobe Analytics 中使用轉換報表。
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,7 +30,7 @@ Google Analytics 使用者可透過目標來定義網站的轉換。目標是建
 
 1. 按一下左側的視覺效果圖示，然後將「流失」視覺效果拖曳至自由表格上方的工作區
 2. 按一下左側的元件圖示，然後找出&#x200B;**頁面**&#x200B;維度。
-3. 按一下「頁面」維度旁的箭頭圖示，即可顯示頁面值。維度值為黃色。
+3. 按一下「頁面」維度旁的箭頭圖示，即可顯示頁面值。尺寸項目為黃色。
 4. 找出要當作第一個接觸點的頁面，並拖曳至視覺效果中標示為「新增接觸點」的空間。
 5. 將頁面值拖曳至視覺效果上，繼續新增所需的接觸點。
 
