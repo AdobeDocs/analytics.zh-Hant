@@ -2,7 +2,7 @@
 title: 頁面 URL
 description: 頁面的URL。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 2%
@@ -28,6 +28,6 @@ Adobe建議將eVar設定為串連字串 `window.location.hostname + window.locat
 
 如果您希望eVar與「資料倉庫」中的「頁面URL」維度完全相符，則可使用動 [態變數](/help/implement/vars/page-vars/dynamic-variables.md) ，並將eVar設 `D=g` 定為每個點擊。 請注意，此方法不適用於自訂連結點擊，因為所有呼叫的頁面URL都會被 [`tl()`](/help/implement/vars/functions/tl-method.md) 移除。
 
-## 維度值
+## 維度項目
 
-維度值包含您網站上頁面的URL。
+維度項目包含您網站上頁面的URL。
