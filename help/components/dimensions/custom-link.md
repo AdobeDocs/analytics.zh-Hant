@@ -2,7 +2,7 @@
 title: 自訂連結
 description: 自訂連結的名稱。
 translation-type: tm+mt
-source-git-commit: c9e696201d0e9ec97dcdd6ff797ca72244dcf366
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 2%
@@ -24,6 +24,6 @@ ht-degree: 2%
 * 將 [`linkType`](/help/implement/vars/config-vars/linktype.md) 變數設為 `"o"`.
 * 傳送影 [`tl()`](/help/implement/vars/functions/tl-method.md) 像要求。
 
-## 維度值
+## 維度項目
 
-由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度值。 Adobe建議您根據您的報告需求，將連結分組至有意義的類別。
+由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe建議您根據您的報告需求，將連結分組至有意義的類別。
