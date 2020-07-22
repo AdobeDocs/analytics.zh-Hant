@@ -2,17 +2,17 @@
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 92%
+ht-degree: 87%
 
 ---
 
 
 # products
 
-`products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。其為多值變數，這表示您可以在同一次點擊中傳送多個產品，而 Adobe 會將值解析為個別的維度值。
+`products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。此變數為多值變數，這表示您可以在相同點擊中傳送多個產品，而Adobe會將值剖析為個別的維度項目。
 
 >[!NOTE]
 >
