@@ -2,7 +2,7 @@
 title: 美國各州
 description: 訪客的美國州。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
 
-## 維度值
+## 維度項目
 
-維值包括區域和區域所在的國家。 範例值 `"California"`包括 `"Texas"`、或 `"Virginia"`。 維度值包 `"Unspecified"` 含美國以外的所有國際流量。
+維項包括區域和區域所在的國家。 範例值 `"California"`包括 `"Texas"`、或 `"Virginia"`。 維度項目 `"Unspecified"` 包含美國境外的所有國際流量。
 
 ## 報告位置與實際位置之間的差異
 
