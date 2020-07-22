@@ -2,7 +2,7 @@
 title: 瀏覽器
 description: 使用的瀏覽器名稱和版本。
 translation-type: tm+mt
-source-git-commit: 4a7b3a00bdbf557c219de530e3e692c2b2db4a84
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 1%
@@ -18,8 +18,8 @@ ht-degree: 1%
 
 此維度會參照Adobe內部的查閱表格。 查閱值是以影像請求中 `User-Agent` 的HTTP標題為基礎。 如果您使用AppMeasurement程式庫（例如透過Adobe Experience Platform Launch），此維度就可立即運作。
 
-## 維度值
+## 維度項目
 
-維度值包括使用的瀏覽器名稱和版本。 相同瀏覽器的不同版本是不同的維度值。
+維度項目包括使用的瀏覽器名稱和版本。 相同瀏覽器的不同版本是個別的維度項目。
 
-某些維值包含 `"(unknown version)"` 而不是版本號。 此維度值會參照Adobe尚未新增至其查閱表格的最新瀏覽器版本。 由於瀏覽器經常更新， `"(unknown version)"` 所以特定瀏覽器的更新是常見和暫時的。 Adobe通常會在每月維護髮行期間更新查閱表格。
+有些維度項目包 `"(unknown version)"` 含的不是版本號碼。 此維度項目會參照Adobe尚未新增至其查閱表格的最新瀏覽器版本。 由於瀏覽器經常更新， `"(unknown version)"` 所以特定瀏覽器的更新是常見和暫時的。 Adobe通常會在每月維護髮行期間更新查閱表格。
