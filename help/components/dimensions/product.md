@@ -2,7 +2,7 @@
 title: 產品
 description: 產品名稱。
 translation-type: tm+mt
-source-git-commit: bddfc52d460e87a70e7cff149f197570f405037a
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -18,6 +18,6 @@ ht-degree: 1%
 
 此尺寸引用變數中字串的第二 [`products`](/help/implement/vars/page-vars/products.md) 部分。 第一個和第二個分號(`;`)之間的字元會填入此維度。
 
-## 維度值
+## 維度項目
 
-由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度值。 Adobe建議您為產品建立一致的命名慣例。 [如果您想](../c-classifications2/c-classifications.md) 以不同方式將產品分組，或提供更好記的名稱，則可使用分類。 Adobe建議同時使用「產品」和「類別」維度。
+由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe建議您為產品建立一致的命名慣例。 [如果您想](../c-classifications2/c-classifications.md) 以不同方式將產品分組，或提供更好記的名稱，則可使用分類。 Adobe建議同時使用「產品」和「類別」維度。
