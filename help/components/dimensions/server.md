@@ -2,7 +2,7 @@
 title: 伺服器
 description: 伺服器的名稱。
 translation-type: tm+mt
-source-git-commit: 1869d69566d26aa7d99c520efc2e835901439d48
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 1%
@@ -20,6 +20,6 @@ ht-degree: 1%
 
 此維度會從影像請求中的 [`server` 查詢字串](/help/implement/validate/query-parameters.md) ，擷取資料。 AppMeasurement會使用變數收集此 [`server`](/help/implement/vars/page-vars/server.md) 資料。
 
-## 維度值
+## 維度項目
 
-維度值包括您網站上的伺服器。 您的組織會決定您要使用的特定維度值。 有些組織 `window.location.hostname`會使用，而有些則會制定自訂值。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
+維度項目包含您網站上的伺服器。 您的組織會決定您要使用哪些特定維度項目。 有些組織 `window.location.hostname`會使用，而有些則會制定自訂值。 無論您使用何種方法，請確定其一致性，並將它記錄在解決方案設 [計檔案中](/help/implement/prepare/solution-design.md)。
