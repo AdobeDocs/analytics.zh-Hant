@@ -2,7 +2,7 @@
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 translation-type: tm+mt
-source-git-commit: f8b70ada0a2003e43a841b6721aaa474aa9699f0
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1301'
 ht-degree: 52%
@@ -92,4 +92,4 @@ The [People](/help/components/metrics/people.md) metric is similar to the [Uniqu
 
 ## Adobe如何處理欄位式拼接中使用之eVar的獨特限制？
 
-CDA會先提取eVar維度值，再針對報表進行最佳化。 您不需擔心針對CDA的獨特限制。 不過，如果您在工作區專案中嘗試使用該prop/eVar，仍可以看 [到（低流量）維度值](/help/technotes/low-traffic.md) 。
+CDA會在eVar維度項目針對報告最佳化之前，先提取這些項目。 您不需擔心針對CDA的獨特限制。 不過，如果您在工作區專案中嘗試使用該prop/eVar，您仍可以看 [到（低流量）維度項目](/help/technotes/low-traffic.md) 。
