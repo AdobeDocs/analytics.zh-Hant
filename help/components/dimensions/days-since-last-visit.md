@@ -2,7 +2,7 @@
 title: 上次存取間隔天數
 description: 目前點擊與上次瀏覽間隔的天數。
 translation-type: tm+mt
-source-git-commit: 87d0c7e20594e2e39f55284e8d50d425cc1cdacf
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 14%
@@ -24,6 +24,6 @@ ht-degree: 14%
 
 此維度適用於所有實作，不需開箱即用。 如果報表套裝包含資料，此維度會運作。
 
-## 維度值
+## 維度項目
 
-維度值包括訪客上次瀏覽與目前點擊之間的天數。 每個天數是個別的維度值，發生 `"Same day"` 在訪客的上次瀏覽和目前點擊發生於同一天。
+維度項目包括訪客上次瀏覽與目前點擊之間的天數。 每個天數是個別的維度項目，發生 `"Same day"` 在訪客的上次瀏覽和目前點擊發生在同一天的位置。
