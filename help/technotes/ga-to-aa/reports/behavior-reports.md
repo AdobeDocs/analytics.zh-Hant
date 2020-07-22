@@ -2,7 +2,10 @@
 title: Adobe Analytics 中的行為報表
 description: 瞭解如何在 Adobe Analytics 中建立行為報表
 translation-type: tm+mt
-source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+workflow-type: tm+mt
+source-wordcount: '803'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 行為流量報表可使用「流量」視覺效果重新建立。
 
 1. 按一下左側的視覺效果圖示，然後將「流量」視覺效果拖曳至自由表格上方的工作區
-2. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。維度值為黃色。
+2. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。尺寸項目為黃色。
 3. 找出所需的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
 4. 此流量報表為互動式。按一下任何值，即可將流量展開至接續或先前的頁。使用右鍵功能表來展開或收合欄。同一流量報表中也可使用不同的維度。
 
