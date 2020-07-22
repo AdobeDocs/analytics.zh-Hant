@@ -3,10 +3,10 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: c53580905e6bb22b9cdb2917734a189e1f83d72f
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '1102'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 
 **[Report Builder](/help/analyze/report-builder/home.md)**使用時機：
 
-* 若自訂的 Workspace 佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
+* 若自訂的工作區佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
 * 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
 * 用於合併來自不同維度報表的資料 (例如，將促銷印象報表與促銷一鍵轉換報表合併).
 * 用於跨報表套裝的檢視.
@@ -99,7 +99,7 @@ ht-degree: 100%
 * 若要存取比 UI 更加精細的資料 (非正常的表格檢視)
 * 用若要以樞紐分析表輸入所適用的格式下載資料
 * 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到第三方資料視覺化工具中時
-* 若要在 Adobe Analytics 遇上「低流量」狀態時存取所有不重複維度值
+* 若要在Adobe Analytics中遇到「低流量」時存取所有唯一維度項目
 
 **[Analytics 資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**使用時機：
 
