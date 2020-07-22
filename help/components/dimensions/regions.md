@@ -2,7 +2,7 @@
 title: 地區
 description: 訪客的地理區域。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 7%
@@ -22,9 +22,9 @@ ht-degree: 7%
 >
 >如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
 
-## 維度值
+## 維度項目
 
-維值包括區域和區域所在的國家。 範例值 `"California (United States)"`包括 `"Tokyo (Japan)"`、或 `"Sao Paulo (Brazil)"`。
+維項包括區域和區域所在的國家。 範例值 `"California (United States)"`包括 `"Tokyo (Japan)"`、或 `"Sao Paulo (Brazil)"`。
 
 ## 報告位置與實際位置之間的差異
 
