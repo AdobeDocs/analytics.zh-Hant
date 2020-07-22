@@ -2,7 +2,7 @@
 title: 國家
 description: 點擊的來源國。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '307'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 >
 >如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
 
-## 維度值
+## 維度項目
 
-維度值包括全球各國。 範例值 `"United States"`包括 `"United Kingdom"`、或 `"India"`。
+維度項目包括全球各地的國家。 範例值 `"United States"`包括 `"United Kingdom"`、或 `"India"`。
 
 ## 報告位置與實際位置之間的差異
 
