@@ -1,8 +1,8 @@
 ---
 title: 歸因概觀
-description: 將成功事件之評價歸因於多維度值的概念。
+description: 將成功事件的評分歸因於多個維度項目的概念。
 translation-type: tm+mt
-source-git-commit: 53f5c4273a7621f3b447e36b19010a797e4ddffe
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 52%
@@ -12,7 +12,7 @@ ht-degree: 52%
 
 # 歸因概觀
 
-歸因可讓分析者自訂維度值如何獲得成功事件的評價。 例如：
+歸因可讓分析者自訂維度項目如何獲得成功事件的評分。 例如：
 
 1. 您網站的訪客點按了您其中一個產品頁面的付費搜尋連結。 將產品新增至購物車，但不要購買。
 2. 第二天，您會看到其朋友的社交媒體貼文，按一下連結，然後完成購買。
