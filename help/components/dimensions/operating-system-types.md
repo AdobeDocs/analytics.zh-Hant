@@ -2,7 +2,7 @@
 title: 作業系統類型
 description: 作業系統，不論版本為何。
 translation-type: tm+mt
-source-git-commit: ad206649488a1a2dead717cdfe53f4c630ba3f3b
+source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 0%
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 此維度會參照Adobe內部的查閱表格。 查閱值是以影像請求中 `User-Agent` 的HTTP標題為基礎。 如果您使用AppMeasurement程式庫（例如透過Adobe Experience Platform Launch），此維度就可立即運作。
 
-## 維度值
+## 維度項目
 
-維值包括所用作業系統的類型。 Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
+維度項目包括使用的作業系統類型。 Examples include `"Microsoft Windows"`, `"Apple Macintosh"`, `"Google Android"`, and `"Apple iOS"`.
