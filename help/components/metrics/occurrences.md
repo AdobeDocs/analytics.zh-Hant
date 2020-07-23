@@ -2,9 +2,9 @@
 title: 發生次數
 description: 變數設定或持續存在的點擊數。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '157'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 ## 此度量的計算方式
 
-在報表套裝中的所有點擊中，包含定義或保留維度項目的點擊。 有些維度(例如 [eVar](../dimensions/evar.md))會持續存在超過其設定的點擊。 頁面檢 [視和發生](page-views.md)[次數等度量](occurrences.md) ，會同時計算初始值和持續值。 此量度不會計入持續值。
+在報表套裝中的所有點擊中，包含定義或保留維度項目的點擊。 有些維度(例如 [eVar](../dimensions/evar.md))會持續存在超過其設定的點擊。 頁面檢 [視和發生](page-views.md)[次數等度量](occurrences.md) ，會同時計算初始值和持續值。
 
 ## 與類似度量比較
 
