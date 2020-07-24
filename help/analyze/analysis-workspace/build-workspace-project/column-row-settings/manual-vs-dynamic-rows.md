@@ -1,10 +1,10 @@
 ---
-title: 動態與靜態維度項目
+title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
 translation-type: tm+mt
-source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '483'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 2%
 
 動態維度項目有列篩選選項，且 **沒有** 鎖定和X圖示。
 
+![](assets/dynamic-items.png)
+
 ## 靜態維度項目
 
 靜態維度項目不會隨時間而改變； 它們是固定元件，一律會在自由表格中傳回。 當您想要永遠分析相同項目時，最好使用靜態維度項目，不論該項目是特定促銷活動或一週中的特定天數。
@@ -37,9 +39,13 @@ ht-degree: 2%
 
 靜態維度項目 **沒有** 「列篩選」選項。 而是每個項目都會顯示鎖定和X圖示。 按一下X表徵圖可從表中刪除該維項。
 
+![](assets/static-items.png)
+
 ## 混合維度項目
 
 來自不同維度的維度項目可以新增至相同的表格。 在這些情況下，列標題會顯示「混合維度」。 這些維度項目是靜態的。 例如，從「瀏覽器類型」維度新增特定維度項目，從「瀏覽器」維度新增其他維度項目。
+
+![](assets/mixed-dimensions.png)
 
 ## 自由格式總行數
 
