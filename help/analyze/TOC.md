@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 0fff218b18c17a4a3ee3bf1c01c7036db8d09b77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 98%
@@ -27,7 +27,7 @@ ht-degree: 98%
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [手動與動態列](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [動態項目與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [還原和重做設定](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace 中可用的快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
