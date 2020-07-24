@@ -2,9 +2,9 @@
 title: 動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 1ec0e17e8ca5083ce658603bb623ebc1026ff699
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,6 +46,4 @@ ht-degree: 2%
 動態和靜態行在自由格式總計行中的行為不同。 依預設：
 
 * 動態列會在伺服器端加總，並去除重複度量，例如瀏覽或訪客
-* 靜態列是在用戶端加總， **不** 會去重複化量度。
-
-[進一步瞭解動態和靜態列的](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html) 「工作區」總選項。
+* 靜態列是在用戶端加總， **不** 會去重複化量度。 要計算總行伺服器端，請將「行」設定更改為「顯 **示總計」**。 [深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)
