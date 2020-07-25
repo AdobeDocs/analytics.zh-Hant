@@ -2,9 +2,10 @@
 product: analytics
 audience: all
 user-guide-title: Analytics 實作指南
+user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: 0bd595d8936756cb36fa59ce5e01fb200f99d0de
+source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 98%
