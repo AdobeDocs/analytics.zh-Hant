@@ -2,17 +2,19 @@
 title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 2fd6e3b561d02bdbdd77b0be982614e765c870e2
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 92%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
 
 # events
 
-維度和量度是報表的重要元件。`events` 變數負責收集網站上許多量度的資料。
+維度和量度是報表的重要元件。`events` 變數負責收集網站上許多量度的資料。事件通常會增加 [報表中](/help/components/metrics/overview.md) 的量度。
+
+在實作事件之前，請務必在「報表套裝設定」的「成功 [事件](/help/admin/admin/c-success-events/success-event.md) 」下建立和設定事件。 如果您打算在連結追蹤點擊中使用自訂事件，請確定 [`linkTrackVars`](../../config-vars/linktrackvars.md) 並正 [`linkTrackEvents`](../../config-vars/linktrackevents.md) 確設定。
 
 ## Adobe Experience Platform Launch 中的事件
 
@@ -77,12 +79,14 @@ s.events = "event1=2,event2";
 
 您可以變更自訂事件，使用貨幣來取代整數。如果報表套裝貨幣與 `currencyCode` 變數不符，貨幣事件會自動轉換為報表套裝的貨幣。這些事件有助於計算運費、折扣或退款。如果您想要將事件歸因限制為僅限該產品，可在 `products` 變數中設定貨幣事件。
 
+在實作貨幣事件之前，請務必在「報表套裝設定」的「成功事件」下，將所要的 [事件設為](/help/admin/admin/c-success-events/success-event.md) 「貨幣」。
+
 ```js
-// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the events variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1=9.99";
 
-// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in report suite settings
+// Send $9.99 USD in event1 using the products variable. Make sure the event type for event1 is Currency in Report suite settings
 s.currencyCode = "USD";
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=9.99";
@@ -96,11 +100,13 @@ s.products = "Example category;Example product;1;0;event1=9.99";
 
 您可以變更自訂事件，改為接受小數值而非整數。數值事件的行為與貨幣事件類似，但它們不使用貨幣轉換。如果您想要將事件歸因限制為僅限該產品，可在 `products` 變數中設定數值事件。
 
+在實作數值事件之前，請務必在「報表套裝設定」的「成功事件」下，將所 [要的事件設](/help/admin/admin/c-success-events/success-event.md) 定為「數值」。
+
 ```js
-// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the events variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1=4.5";
 
-// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in report suite settings
+// Send 4.5 in event1 using the products variable. Make sure the event type for event1 is Numeric in Report suite settings
 s.events = "event1";
 s.products = "Example category;Example product;1;0;event1=4.5";
 ```
