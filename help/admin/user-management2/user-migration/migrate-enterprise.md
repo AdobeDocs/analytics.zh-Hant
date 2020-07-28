@@ -3,7 +3,10 @@ description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
 uuid: f90bf78a-5603-4bef-b714-13215301187c
 translation-type: tm+mt
-source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
+source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 100%
 
 ---
 
@@ -60,9 +63,9 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
       準備將 *`Email`*、*`First Name`* 和 *`Last Name`* 等值複製到 [!DNL sample.csv] 檔案 (下個步驟會加以說明)。
 
-      > [!IMPORTANT] CSV 檔案中的值必須以逗號分隔。
+      >[!IMPORTANT] CSV 檔案中的值必須以逗號分隔。
 
-      > [!TIP] 在此步驟中，建議您簡化使用者清單，確保 Enterprise 或 Federated ID 移轉作業中加入的都是具有有效電子郵件 ID 的使用者。
+      >[!TIP] 在此步驟中，建議您簡化使用者清單，確保 Enterprise 或 Federated ID 移轉作業中加入的都是具有有效電子郵件 ID 的使用者。
 
 1. 在 [!UICONTROL Admin Console] 中，下載 Admin Console 使用者清單：
 
@@ -72,7 +75,7 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
    1. 比較這兩個檔案：匯出的 [!DNL .csv] 檔案 (此範例中為 [!DNL sample.csv]) 中的現有 Admin Console 使用者，以及 Analytics [!DNL User Logins List.csv] 檔案中的使用者。
 
-      > [!IMPORTANT] 如果發現重複項目，請刪除 Analytics [!DNL User Logins List.csv] 檔案中的重複項目。這麼做可防止覆寫 Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
+      >[!IMPORTANT] 如果發現重複項目，請刪除 Analytics [!DNL User Logins List.csv] 檔案中的重複項目。這麼做可防止覆寫 Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
 
 1. 從 Admin Console 下載 CSV 範本：
    1. 在「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**，然後按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**。
@@ -130,7 +133,7 @@ source-git-commit: 3db8481434f3db43732f0b54a58c6d4a29bce652
 
 如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/tw/enterprise/using/users.html)。
 
-> [!NOTE] [!UICONTROL 「產品設定」]和[!UICONTROL 「管理員角色」]等其他欄可空白。
+>[!NOTE] [!UICONTROL 「產品設定」]和[!UICONTROL 「管理員角色」]等其他欄可空白。
 
 1. 在 Admin Console 的「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**&#x200B;上傳範本檔案 (如步驟 3 所示)。
 1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/user-management2/user-migration/t-migrate-users.md)所述)。
