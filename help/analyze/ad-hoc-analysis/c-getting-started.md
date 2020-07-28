@@ -3,10 +3,10 @@ description: 開始使用 Ad Hoc Analysis。
 title: 快速入門
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
 workflow-type: tm+mt
-source-wordcount: '1384'
-ht-degree: 100%
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -93,8 +93,8 @@ c_sys_reqs.xml
 * 如果您有權在機器上安裝程式：
 
    1. 請前往 https://www.java.com。
-   1. 按一下「**[!UICONTROL 免費 Java 下載]**」。
-   1. 按一下「**[!UICONTROL 同意並開始免費下載]**」。
+   1. Click **[!UICONTROL Java Download]**.
+   1. Click **[!UICONTROL Agree and Start Download]**.
    1. 安裝您的作業系統專屬的最新 Java 版本。
 
 * 如果您&#x200B;**無權**&#x200B;在機器上安裝程式：
