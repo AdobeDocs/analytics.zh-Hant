@@ -1,11 +1,12 @@
 ---
 title: 封包分析器
 description: 封包分析器可讓您檢視由實施傳送給 Adobe 資料收集伺服器的資料。
+keywords: packet sniffer, http status, 200, 302, charles
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +26,9 @@ ht-degree: 100%
 
 由於 Adobe 不提供官方的資訊包監視器，所以網路上有許多各式各樣的資訊包監視器。以下是其他人覺得很實用的資訊包監視器。
 
->[!NOTE]
+>[!TIP]
 >
->這些並不是完整清單，而是常用監視器的清單。若您有使用成功且覺得很實用的資訊包監視器，請不吝賜教使用本視窗右方的[!UICONTROL 「回饋意見」]按鈕告訴我們。
+>這些並不是完整清單，而是常用監視器的清單。
 
 | Firefox | Internet Explorer | Chrome | 獨立程式 |
 |---|---|---|---|
@@ -39,14 +40,24 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->若您有關於這些資訊包監視器的問題，Adobe「不」提供支援或疑難排解。請向資訊包監視器的來源網站尋求協助。
+>Adobe不支援或疑難排解您在這些資訊包監視器上遇到的任何問題。 請洽詢封包監視器的原始網站以取得協助。
+
+## 典型HTTP響應狀態代碼
+
+當AppMeasurement傳送資料至Adobe資料收集伺服器時，伺服器會以回應狀態代碼回應。
+
+* **200 OK**: 來自資料收集伺服器的最常見回應。 已成功接收影像要求，並傳回透明影像。
+* **302找到**: 收到此回應有幾個可能的理由：
+   * 訪客的第一個影像要求： 如果使用者第一次瀏覽您的網站，就會發生重新導向。 此重新導向是取得訪客Cookie。 它不會影響資料收集。
+   * Comscore與Adobe的整合： 如果您的組織使用Comscore/Analytics整合，每個影像要求一律會產生302回應。
+* **404找不到**: 此回應表示找不到影像要求，且資料不會傳送至Adobe資料收集伺服器。 當硬式編碼影像要求格式不正確時，也可能發生此回應。 與實作Analytics的個人或團隊合作以解決此問題。
 
 ## 回應程式碼中的 NS_BINDING_ABORTED
 
-發生此錯誤的原因是，連結追蹤影像要求依設計會允許瀏覽器直接進入下一頁，而不等候 Adobe 資料收集伺服器的回應。
+出現此訊息是因為連結追蹤影像要求的設計是讓瀏覽器在等待Adobe資料收集伺服器的回應之前，先前往下一頁。
 
-Adobe 對於影像要求的回應會是空白的 1x1 透明影像，與頁面的內容沒有關聯。若您在封包監視器中看見來自 Adobe 的明細項目 (附有 **[!UICONTROL 200 OK]** 回應或 **[!UICONTROL NS_BINDING_ABORTED]** 回應)，表示資料已送達我們的伺服器。此時，頁面即無須再等候。
+Adobe 對於影像要求的回應會是空白的 1x1 透明影像，與頁面的內容沒有關聯。If you see a line item in your packet monitor from Adobe, either with a **[!UICONTROL 200 OK]** response or an **[!UICONTROL NS_BINDING_ABORTED]** response, the data has reached Adobe&#39;s servers. 此時，頁面即無須再等候。
 
 整合為外掛程式的封包監視器很少會看見完整回應。監視器常會因為未收到完整回應，而認為要求已中止。這些監視器也鮮少會區分中止的是要求還是回應。獨立式封包監視器通常就會有較詳細的訊息，並且會報告較精準的狀態。例如，使用者可能會在 *Charles* 中收到一則訊息，指出「用戶端在接收完整回應前即中斷連線」。這表示資料已送達我們的伺服器，但瀏覽器在 1x1 像素送達前即移至下一頁。
 
-若外部封包 Sniffer 回報資料收集要求已中止 (而不是回應中止)，就表示可能會有問題。Adobe [!DNL Customer Care] 可提供疑難排解方面的協助。
+如果外部封包監視器報告資料收集要求已中止，而非回應，這就引起了顧慮。 Adobe [!DNL Customer Care] 可提供疑難排解方面的協助。
