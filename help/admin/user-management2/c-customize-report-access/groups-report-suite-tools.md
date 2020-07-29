@@ -6,7 +6,7 @@ title: 自訂報表套裝工具權限
 topic: Admin tools
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 93%
@@ -60,7 +60,7 @@ ht-degree: 93%
 | [轉換分類](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
 | [不重複訪客](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 授予指定獨特訪客變數的權限。 |
 | [成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html) | 可以追蹤的動作，例如產品檢視、結帳和購買。 |
-| [分類階層](/help/components/c-classifications2/classification-hierarchies.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
+| [分類階層](/help/components/classifications/classification-hierarchies.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
 | [清單變數 ](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) | 也稱為清單變數 (List Var)。清單變數的運作方式與清單 Prop 類似，也允許相同影像要求中可有多個值。 |
 | [預設量度](/help/admin/admin/default-metrics.md) | 若使用者未選取自訂量度集，則「Reports &amp; Analytics」在所有轉換報表中都會顯示預設量度集。所選定量度會顯示給相關報表套裝的所有使用者。 |
 | [處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/processing-rules/processing-rules.html) | 授予對「處理規則」的存取權限，可簡化資料收集，以及管理傳送至報表的內容。 |
