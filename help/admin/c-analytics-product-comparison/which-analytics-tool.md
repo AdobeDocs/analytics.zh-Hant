@@ -3,7 +3,7 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1102'
 ht-degree: 98%
@@ -48,7 +48,7 @@ ht-degree: 98%
 
 ## 將資料匯入 Adobe Analytics 中 {#section_B42B998D6E3E4357B024AEFA4EC69A23}
 
-該使用&#x200B;**[「分類」](/help/components/c-classifications2/c-classifications.md)**的情況：
+該使用&#x200B;**[「分類」](/help/components/classifications/c-classifications.md)**的情況：
 
 * 有您想要建立關聯以收集值的中繼資料 (eVar、prop、行銷通路) 時
 * 選項：
