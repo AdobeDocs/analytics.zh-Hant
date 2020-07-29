@@ -2,10 +2,10 @@
 title: Prop
 description: 可用於報表的自訂維度。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 26%
+source-wordcount: '467'
+ht-degree: 19%
 
 ---
 
@@ -31,6 +31,16 @@ AppMeasurement會將JavaScript變數編譯為影像要求以進行資料收集�
 ## 維度項目
 
 由於prop在實作中包含自訂字串，因此您的組織會決定每個prop的維度項目。 請務必在解決方案設計檔案中記錄每個prop和一般維度 [項目的用途](/help/implement/prepare/solution-design.md)。
+
+## 區分大小寫
+
+Prop預設不區分大小寫。 如果您在不同情況下(例如和 `"DOG"``"Dog"`)傳送相同的值，「分析工作區」會將它們群組在相同的維度項目中。 使用報告月初所見第一個值的大小寫。 「資料倉庫」會顯示在請求期間遇到的第一個值。
+
+您可以將任何prop區分為大小寫。 您也可以在任何prop啟用後，停用其區分大小寫功能。 使用報表套裝ID和所要的變數與Adobe客戶服務聯絡，以切換區分大小寫。
+
+>[!IMPORTANT]
+>
+>切換區分大小寫功能可能會捨棄維度項目、造成區段的非預期結果，以及造成篩選器問題。 Adobe強烈建議在兩個主要時段之間切換此設定，例如一個月或一年的開頭。
 
 ## eVar上的prop值
 
