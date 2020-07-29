@@ -3,10 +3,10 @@ description: 分析報表 API 的比較表。提供支援文件的連結。
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 90%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html"  > 報表介面</a> </td> 
-   <td colname="col2"> Reports &amp; Analytics、Report Builder、API </td> 
-   <td colname="col3"> Reports &amp; Analytics、Report Builder、API 中的即時報表 </td> 
+   <td colname="col2"> 分析工作區、報告與分析、報告建立工具、API </td> 
+   <td colname="col3"> 報告與分析、報告建立工具、1.4 API中的即時報告 </td> 
    <td colname="col4"> 僅 API </td> 
    <td colname="col5"> Data Warehouse 與 API </td> 
   </tr> 
@@ -79,18 +79,11 @@ ht-degree: 100%
    <td colname="col4"> 無 </td> 
    <td colname="col5"> 是 (但僅限 Data Warehouse 相容區段) </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <b>Analytics SKU</b> </td> 
-   <td colname="col2"> 標準+ </td> 
-   <td colname="col3"> 標準+ </td> 
-   <td colname="col4"> Premium Complete 或 Predictive Intelligence </td> 
-   <td colname="col5"> 標準+ </td> 
-  </tr> 
-  <tr> 
+   <tr> 
    <td colname="col1"> <b>文件</b> </td> 
-   <td colname="col2"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/get-started%E2%80%8B"  > 網站服務</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-reporting-1-4/real-time"  > 即時報表</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://marketing.adobe.com/developer/documentation/analytics-live-stream/overview-1%E2%80%8B"  > Livestream 概述</a> </p> </td> 
+   <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
+   <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 即時報表</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Livestream 概述</a> </p> </td> 
    <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
