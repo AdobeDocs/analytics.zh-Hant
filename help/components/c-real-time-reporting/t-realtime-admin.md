@@ -4,7 +4,10 @@ title: 設定即時報表
 topic: Admin tools
 uuid: a2c3c515-55f2-4c64-ac92-a86d75e78a86
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+workflow-type: tm+mt
+source-wordcount: '300'
+ht-degree: 100%
 
 ---
 
@@ -13,11 +16,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 設定即時報表的管理步驟。
 
-在 [!UICONTROL Reports & Analytics] 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
+在 [!UICONTROL Reports &amp; Analytics] 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
 
 1. 選取您要啟用即時報告的報表套裝。
 
-   導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL View All Reports > Site Metrics]****[!UICONTROL Real-Time]** >並從上方的下拉式清單中選取報表套裝：
+   導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL 檢視全部報表 > 網站量度]** > **[!UICONTROL 即時」]**，並從上方的下拉式清單中選取報表套裝：
 
    ![](assets/report_suite_selector.png)
 
@@ -25,11 +28,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. 按一下 **[!UICONTROL Configure]** （齒輪表徵圖）運行 [!UICONTROL Report Suite Manager]。
+1. 按一下&#x200B;**[!UICONTROL 「設定」]** (齒輪圖示)，執行[!UICONTROL 報表套裝管理器]。
 
-   (也可在 **[!UICONTROL Analytics]** > **[!UICONTROL Admin > Report Suites]** > **[!UICONTROL Edit Settings]** >下 **[!UICONTROL Real-Time]**&#x200B;取得)
+   (也可從&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員 > 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 即時」]**&#x200B;中存取。)
 
-1. 開啟設 **[!UICONTROL Enable Real-Time]** 定。
+1. 開啟&#x200B;**[!UICONTROL 啟用即時]**&#x200B;設定。
 1. 設定最多 3 個報告的即時資料收集，每個報告各一個量度和三個維度或分類。
 
    ![](assets/real_time_admin.png)
@@ -44,7 +47,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
    >
    >針對單一即時報表，目前不支援啟用重複維度，即使為每個維度選取了不同的分類亦同。
 
-   如需分類的詳細資訊，請參閱[關於分類](/help/components/c-classifications2/c-classifications.md)。
+   如需分類的詳細資訊，請參閱[關於分類](/help/components/classifications/c-classifications.md)。
 
    >[!NOTE]
    >
@@ -52,8 +55,8 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
    ![](assets/warning_dimensions.png)
 
-1. Click **[!UICONTROL Save]** or **[!UICONTROL Save and View Report]**.
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;或&#x200B;**[!UICONTROL 「儲存並檢視報表」]**。
 
-   初始設定報告後，最多可能需要 20 分鐘，才會開始串流資料。從那時起，資料就立即可用。如需檢視即時報告的詳細資訊，請參閱[執行即時報告](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/t-running-report-types.html)。
+   初始設定報告後，最多可能需要 20 分鐘，才會開始串流資料。從那時起，資料就立即可用。如需檢視即時報告的詳細資訊，請參閱[執行即時報告](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/t-running-report-types.html)。
 
 1. 依預設，所有使用者都能存取即時報告。
