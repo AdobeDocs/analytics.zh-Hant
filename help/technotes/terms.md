@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '2458'
 ht-degree: 95%
@@ -32,7 +32,7 @@ ht-degree: 95%
 * **管道：**&#x200B;可以指：
    * 管道變數，會填入「網站區段」維度。請參閱實作使用手冊中的[頁面變數](/help/implement/vars/page-vars/page-variables.md)。
    * 行銷管道，此元件有助於瞭解使用者如何到達您的網站。請參閱元件使用手冊中的[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **分類：** Adobe Analytics中允許對維度項目進行分組的功能。 請參閱元件使用手冊中的[分類](/help/components/c-classifications2/c-classifications.md)。
+* **分類：** Adobe Analytics中允許對維度項目進行分組的功能。 請參閱元件使用手冊中的[分類](/help/components/classifications/c-classifications.md)。
 * **點按圖：**&#x200B;已停止使用。一種舊版瀏覽器外掛程式，可顯示網站上哪些區域的點按頻率最高。此工具已淘汰，改用 Activity Map。
 * **點按流資料摘要：**&#x200B;請見「資料摘要」。
 * **同類群組：**&#x200B;指定的一段時間內具有共同特徵的一群人。請參閱分析使用手冊中的[同類群組分析是什麼？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
