@@ -2,10 +2,10 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系統要求與比較。
 title: Analytics 產品比較和需求
 translation-type: tm+mt
-source-git-commit: 22d6e88f01868e38e6de4de2efa277d5d16954d5
+source-git-commit: 0885a42ccf79565d2ad55cf84e346926f2328f77
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 55%
+source-wordcount: '672'
+ht-degree: 54%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 55%
 | **可見的列限制（編頁前）** | 400 | 200 | 50000 | 無限制 | 無限制 | 無限制 | 50000 |
 | **多個報表套裝** | [是](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | 是的，但有限制 | 有 | 無 | 是 | 無 | 是 |
 | **劃分數** | 無限制 | 最多 2 | 最多 2 | 無限制 | 無限制 | 無限制 | 無限制，可跨多個查詢執行 |
-| 「區&#x200B;**段**<br>[瞭解詳情](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 是 | 是 | 是 | 是的，但有限 [制](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 有 | 無 | 是 |
+| **細分** 更 <br>[多資訊](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 是 | 是 | 是 | 是的，但有限 [制](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 有 | 無 | 是 |
 | **計算量度** 更 <br>[多資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html) | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 是 | 是 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **行銷渠道**<br>[瞭解](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 是 | 是 | 是 | 是 | 是 | 是- va_finder、va_closer | 是 |
+| **行銷渠道**<br>[瞭解](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 是 | 是 | 是 | 是 | 是 | 是- [va_finder、va_closer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | 是 |
 | **世代分析** | [是](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | 無 | 無 | 無 | 是 | 無 | 無 |
 | **出處** | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 有限 | 有限 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
 | **虛擬分析師功能**<br>[詳細資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | 有 | 無 | 無 | 無 | 無 | 無 | 是 |
