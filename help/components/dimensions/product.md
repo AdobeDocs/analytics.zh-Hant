@@ -2,7 +2,7 @@
 title: 產品
 description: 產品名稱。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -20,4 +20,4 @@ ht-degree: 1%
 
 ## 維度項目
 
-由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe建議您為產品建立一致的命名慣例。 [如果您想](../c-classifications2/c-classifications.md) 以不同方式將產品分組，或提供更好記的名稱，則可使用分類。 Adobe建議同時使用「產品」和「類別」維度。
+由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe建議您為產品建立一致的命名慣例。 [如果您想](../classifications/c-classifications.md) 以不同方式將產品分組，或提供更好記的名稱，則可使用分類。 Adobe建議同時使用「產品」和「類別」維度。
