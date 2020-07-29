@@ -2,10 +2,10 @@
 title: eVar
 description: 可用於報表的自訂維度。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 72%
+source-wordcount: '788'
+ht-degree: 67%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 72%
 eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。依預設，eVar 可存留於其設定的點擊之外。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
 
 可用eVar的數量視您與Adobe的合約而定。 若您與Adobe的合約支援，則最多可使用250個eVar。
+
+eVar不區分大小寫。 如果您在不同情況下(例如和 `"DOG"``"Dog"`)傳送相同的值，「分析工作區」會將它們群組在相同的維度項目中。 使用報告月初所見第一個值的大小寫。 「資料倉庫」會顯示在請求期間遇到的第一個值。
 
 ## 以資料填入eVar
 
