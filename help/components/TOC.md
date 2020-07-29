@@ -5,7 +5,7 @@ user-guide-title: Analytics 元件指南
 user-guide-description: Understand the features that help organize your data. Components include segments, calculated metrics, virtual report suites, alerts, and more. This guide also includes a variable reference, explaining all dimensions and metrics available.
 user-guide-url: /content/help/en/analytics/components/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 73%
@@ -219,33 +219,33 @@ ht-degree: 73%
    + [警報管理器](c-alerts/alert-manager.md)
    + [智慧型警報 - 使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
-   + [關於分類](c-classifications2/c-classifications.md)
-   + [關於子分類](c-classifications2/c-sub-classifications.md)
-   + [轉換分類](c-classifications2/conversion-classifications.md)
-   + [流量分類](c-classifications2/traffic-classifications.md)
-   + [分類階層](c-classifications2/classification-hierarchies.md)
+   + [關於分類](classifications/c-classifications.md)
+   + [關於子分類](classifications/c-sub-classifications.md)
+   + [轉換分類](classifications/conversion-classifications.md)
+   + [流量分類](classifications/traffic-classifications.md)
+   + [分類階層](classifications/classification-hierarchies.md)
    + 分類匯入程式 (上傳) {#classifications-importer}
-      + [分類匯入程式 - 概觀](c-classifications2/c-classifications-importer/c-working-with-saint.md)
-      + [分類資料檔案](c-classifications2/c-classifications-importer/c-saint-data-files.md)
-      + [刪除分類資料](c-classifications2/c-classifications-importer/t-delete-classification-data.md)
-      + [逸出分類資料](c-classifications2/c-classifications-importer/t-classifications-escape-data.md)
-      + [未分類索引鍵](c-classifications2/c-classifications-importer/nonclassified-keys.md)
-      + [分類範本](c-classifications2/c-classifications-importer/c-download-saint-data.md)
-      + [瀏覽器和 FTP 匯入](c-classifications2/c-classifications-importer/import-file.md)
-      + [瀏覽器匯入](c-classifications2/c-classifications-importer/browser-import.md)
-      + [FTP 匯入](c-classifications2/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
+      + [分類匯入程式 - 概觀](classifications/c-classifications-importer/c-working-with-saint.md)
+      + [分類資料檔案](classifications/c-classifications-importer/c-saint-data-files.md)
+      + [刪除分類資料](classifications/c-classifications-importer/t-delete-classification-data.md)
+      + [逸出分類資料](classifications/c-classifications-importer/t-classifications-escape-data.md)
+      + [未分類索引鍵](classifications/c-classifications-importer/nonclassified-keys.md)
+      + [分類範本](classifications/c-classifications-importer/c-download-saint-data.md)
+      + [瀏覽器和 FTP 匯入](classifications/c-classifications-importer/import-file.md)
+      + [瀏覽器匯入](classifications/c-classifications-importer/browser-import.md)
+      + [FTP 匯入](classifications/c-classifications-importer/c-uploading-saint-data-files-via-ftp.md)
    + 分類規則產生器 {#classifications-rulebuilder}
-      + [分類規則產生器工作流程](c-classifications2/crb/classification-rule-builder.md)
-      + [分類規則集](c-classifications2/crb/classification-rule-set.md)
-      + [分類規則](c-classifications2/crb/classification-quickstart-rules.md)
-      + [分類規則 - 定義](c-classifications2/crb/classification-rule-definitions.md)
-      + [子分類和規則產生器](c-classifications2/crb/sub-classification-rule-builder.md)
+      + [分類規則產生器工作流程](classifications/crb/classification-rule-builder.md)
+      + [分類規則集](classifications/crb/classification-rule-set.md)
+      + [分類規則](classifications/crb/classification-quickstart-rules.md)
+      + [分類規則 - 定義](classifications/crb/classification-rule-definitions.md)
+      + [子分類和規則產生器](classifications/crb/sub-classification-rule-builder.md)
    + 數值 2 分類 {#numeric2-classification}
-      + [數值 2 分類概觀](c-classifications2/c-numeric-2/c-numeric-2-classifications.md)
-      + [建立數值 2 分類](c-classifications2/c-numeric-2/t-create-numeric-2-classifications.md)
-      + [匯入數值 2 分類](c-classifications2/c-numeric-2/c-import-numeric-2-classifications.md)
-      + [範例](c-classifications2/c-numeric-2/c-examples.md)
-   + [分類的疑難排解](c-classifications2/c-classifications-troubleshooting.md)
+      + [數值 2 分類概觀](classifications/c-numeric-2/c-numeric-2-classifications.md)
+      + [建立數值 2 分類](classifications/c-numeric-2/t-create-numeric-2-classifications.md)
+      + [匯入數值 2 分類](classifications/c-numeric-2/c-import-numeric-2-classifications.md)
+      + [範例](classifications/c-numeric-2/c-examples.md)
+   + [分類的疑難排解](classifications/c-classifications-troubleshooting.md)
 + [日曆事件](t-calendar-event.md)
 + 即時報表 {#real-time-reporting}
    + [即時報表概觀](c-real-time-reporting/realtime.md)
