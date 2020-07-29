@@ -3,7 +3,7 @@ description: 'null'
 title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
+source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
 workflow-type: tm+mt
 source-wordcount: '1263'
 ht-degree: 100%
@@ -34,7 +34,7 @@ ht-degree: 100%
 * 若使用運算子，「等於」會比「包含」更快，而「等於任何」會比「包含任何」更快。
 * 若使用多個條件，「和」運算子會比一系列「或」運算子更快。此外，請盡可能將多個 OR 陳述式簡化為一個「等於任何」陳述式。
 
-另外，[分類](/help/components/c-classifications2/c-classifications.md)可協助將許多值併入精準的群組中，讓您可從這些群組建立區段。與包含許多 OR 陳述式或「包含」標準的區段相比，針對分類群組而劃分的效能較佳。
+另外，[分類](/help/components/classifications/c-classifications.md)可協助將許多值併入精準的群組中，讓您可從這些群組建立區段。與包含許多 OR 陳述式或「包含」標準的區段相比，針對分類群組而劃分的效能較佳。
 
 ## 要求的資料範圍
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 如果需要更多專案組織方式，記住[直接連結](https://www.youtube.com/watch?v=6IOEewflG2U)到專案也是一個做法。建立內部的專案索引，讓股東更容易找到他們要找的。
 
-如果一個 Workspace 需要許多面板，請先摺疊面板再儲存和共用。載入專案時，Analysis Workspace 只會載入展開面板的內容。直到使用者展開，否則不會載入摺疊的面板。這種做法有兩個優點：
+如果一個工作區需要許多面板，請先摺疊面板再儲存和共用。載入專案時，Analysis Workspace 只會載入展開面板的內容。直到使用者展開，否則不會載入摺疊的面板。這種做法有兩個優點：
 
 * 摺疊的面板可節省專案的整體載入時間
 * 對報表消費者來說，摺疊的面板是以邏輯方式組織專案的好方法
