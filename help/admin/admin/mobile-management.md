@@ -1,19 +1,19 @@
 ---
-description: 啟用應用程式管理會啟動行動解決方案變數，從行動應用程式擷取生命週期和其他度量。
+description: 啟用應用程式管理會啟用行動解決方案變數，於以擷取行動應用程式中的生命週期及其他量度。
 title: 應用程式管理
 topic: Admin tools
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # 應用程式管理
 
-啟用應用程式管理會啟動行動解決方案變數，從行動應用程式擷取生命週期和其他度量。
+啟用應用程式管理會啟用行動解決方案變數，於以擷取行動應用程式中的生命週期及其他量度。
 
 Adobe Analytics 與 Mobile Services 之間的整合:
 
@@ -25,7 +25,7 @@ Adobe Analytics 與 Mobile Services 之間的整合:
 * 增加全新 Adobe Mobile 維度。
 * 每 15 分鐘同步資料至 Analytics
 
-**[!UICONTROL Analytics]** >管理 **[!UICONTROL >報]** 表報表 **[!UICONTROL >]** Suites **[!UICONTROL >編輯管理設定]**********>應用程式報表>應用程式報表。
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 應用程式管理]** > **[!UICONTROL 應用程式報告]**。
 
 ## 步驟 1.啟用應用程式報表 {#section_FBADF80AED2B4978A904ABB770B3B931}
 
@@ -47,16 +47,16 @@ Adobe Analytics 與 Mobile Services 之間的整合:
 
 ## 步驟 3.(可選) 啟用/停用背景點擊數的傳統報表和屬性 {#section_1708BCAA87AA4884986F7532759C5DD4}
 
-啟用背景點擊數 (當應用程式在背景運作時產生的點擊數) 代表這些點擊數被視為一般的前景點擊數。這些點擊數會在一般報表顯示，並會影響屬性。此設定通常僅為了與傳統實作內容保持一致。
+啟用背景點擊數 (當應用程式在背景運作時產生的點擊數) 代表這些點擊數被視為一般的前景點擊數。這些點擊數會在一般報表顯示，並會影響屬性。此設定通常僅為了與傳統實施內容保持一致。
 
-反之，我們建議您將「包含背景點擊次數」加入[虛擬報表套裝](/help/components/vrs/vrs-about.md)。這讓您可以看到點擊數，但不會對瀏覽和訪客數量產生不良影響。Mobile classifications are enabled after you enable **[!UICONTROL App Management]** > **[!UICONTROL App Reporting]**.
+反之，我們建議您將「包含背景點擊次數」加入[虛擬報表套裝](/help/components/vrs/vrs-about.md)。這讓您可以看到點擊數，但不會對瀏覽和訪客數量產生不良影響。在您啟用&#x200B;**[!UICONTROL 應用程式管理]** > **[!UICONTROL 應用程式報告]**&#x200B;後，行動裝置分類便會啟用。
 
-分類用於將值分組，然後依群組級別匯報。例如，您可以將所有付費搜尋促銷活動分類為「流行音樂術語」類別，並報告該類別相對於例項等量度的成功(例如， 點進次數)，以及轉換成功事件。
+分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「付費搜尋」促銷活動歸類為「流行音樂術語」類別，並報告該類別相對於「例項」(即點進次數) 等量度的成功，以及成功事件的轉換。
 
 | 分類 | 定義 |
 |--- |--- |
 | 首次發行日期 | 安裝或重新安裝後首次啟動的日期。MM/DD/YYYY |
-| 應用程式 ID | 以下列格式儲存應用程式名稱和版本：`[AppName] [BundleVersion]`  例如，`myapp 1.1.` |
+| 應用程式 ID | 以下列格式儲存應用程式名稱和版本：   `[AppName] [BundleVersion]`  例如，`myapp 1.1.` |
 | 啟動次數 | 應用程式啟動或在背景執行的次數。 |
 | 首次使用後間隔天數 | 自首次執行起的天數。 |
 | 上次使用後間隔天數 | 距離上次使用的天數。 |
