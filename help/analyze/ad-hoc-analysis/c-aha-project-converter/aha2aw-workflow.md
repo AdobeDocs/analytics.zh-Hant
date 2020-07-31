@@ -2,8 +2,11 @@
 description: 'null'
 title: 在 Ad Hoc Analysis 中轉換專案
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+workflow-type: ht
+source-wordcount: '282'
+ht-degree: 100%
 
 ---
 
@@ -43,6 +46,6 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 **轉換目前的專案**
 
 1. 在 Ad Hoc Analysis 中，開啟您要轉換的專案。
-1. 按一下&#x200B;**[!UICONTROL 「將目前的專案轉換至 Analysis Workspace」]**。 ![](assets/export_current.png)
+1. 按一下&#x200B;**[!UICONTROL 「將目前的專案轉換至 Analysis Workspace」]**。![](assets/export_current.png)
 
 1. 現在[!UICONTROL 「轉換摘要」]會列出所有已轉換的專案，與表示轉換「成功」或「失敗」的狀態欄，以及顯示錯誤代碼。聯絡 Adobe Client Care，進一步診斷「`Error-Id: <Error-Code>`」。
