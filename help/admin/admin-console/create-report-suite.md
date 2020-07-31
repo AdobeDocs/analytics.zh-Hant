@@ -1,11 +1,11 @@
 ---
 title: 建立報表套裝
 description: 在 Adobe Analytics 中建立資料收集的基本容器。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '452'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
-> 您也可以使用舊版管理員在 Adobe Analytics 中建立報表套裝。Adobe 建議您使用本文所說明的報表套裝設定精靈。
+>您也可以使用舊版管理員在 Adobe Analytics 中建立報表套裝。Adobe 建議您使用本文所說明的報表套裝設定精靈。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
@@ -35,7 +35,7 @@ ht-degree: 96%
 1. 在強制回應視窗中，按一下「開始設定」。用相同名稱來命名這個報表套裝，但結尾加上「- DEV」。由於此報表套裝只會接收內部流量，因此預估大小可設為最小。
 1. 按「下一步」即可完成開發報表套裝的建立。
 
-如需此模式視窗中步驟的詳細資訊，請參閱「實 [作使用指南](/help/implement/prepare/implementation-modal.md) 」中的「實作模式」。
+若要深入瞭解此強制回應視窗中的步驟，請參閱「實施使用指南」中的[實施強制回應](/help/implement/prepare/implementation-modal.md)。
 
 ## 疑難排解
 
@@ -49,4 +49,4 @@ ht-degree: 96%
 
 ## 後續步驟
 
-[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md)：建立一個管理 Analytics 實作情形的區域
+[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md)：建立一個管理 Analytics 實施情形的區域
