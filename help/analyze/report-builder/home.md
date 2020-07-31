@@ -2,8 +2,11 @@
 title: Adobe Report Builder 說明
 topic: Report builder
 uuid: 034ae0e4-2a98-4bac-977d-92515960c46e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
 
@@ -41,8 +44,8 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 * [Adobe Analytics 社群](https://helpx.adobe.com/tw/marketing-cloud/analytics.html)
 * [Experience Cloud 發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)
-* [產品文件首頁](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
-* [Developer](https://www.adobe.io/apis/experiencecloud.html)
+* [產品文件首頁](https://docs.adobe.com/content/help/zh-Hant/experience-cloud/user-guides/home.translate.html)
+* [開發人員](https://www.adobe.io/apis/experiencecloud.html)
 * [Idea Exchange](https://ideas.omniture.com/t5/Adobe-Idea-Exchange-for-Omniture/idb-p/IdeaExchange3)
 * [Adobe 培訓和教學課程](https://helpx.adobe.com/tw/learning.html?promoid=KAUDK)
 * [精選解決方案中心](https://www.omniture.com/en/products/online_business_optimization)
@@ -51,6 +54,6 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 ## Reports &amp; Analytics 說明
 
-* [Analysis Workspace 說明](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html)
+* [Analysis Workspace 說明](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)
 * [Reports &amp; Analytics 說明](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html)
 * [Analytics 參考資料](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html)管理工具、報表及量度說明。
