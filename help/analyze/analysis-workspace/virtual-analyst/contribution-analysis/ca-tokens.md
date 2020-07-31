@@ -2,11 +2,11 @@
 description: 'null'
 title: 貢獻分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4ca2e15575e66107ec5947c9903a01565f74e264
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 97%
 
 「貢獻分析」幫助您發展出敘述，描述異常為何發生及如何回應，可擷取相關量度並識別隱藏點，提供您讀者互動與客戶興趣趨勢的總體原因。有時候異常很容易看出來及更正，例如 2,000 艘小艇的錯誤訂購。有時候就很複雜，像是識別某地區某時段只對特定目標促銷活動有反應的新興趨勢。將不同維度之量度及其關聯的貢獻項目組合在一起，可以給您讀者互動的整體概念，並協助提供異常資料點的內容。
 
-以下是一些使用案例：
+以下提供一些使用案例：
 
-* 透過監控產品需求的變化，識別再行銷潛力。
+* 藉由監控產品需求的變化，找出再行銷的潛力。
 * 提升客戶體驗，方式是透過對特定讀者興趣有所反應。
 * 身分假性訂購，和界外報表一樣早。
 * 保護您自己，藉由識別高使用量和下載，防止商業間諜行為。
@@ -55,7 +55,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>為什麼 Adobe 要推出代號？</b> </p> </td> 
-   <td colname="col2"> <p>貢獻分析是Adobe Analytics中最能引起共鳴的功能之一。 您每月皆可執行小量的「完整」分析 (而非只有部分 Analytics 產品的 3 個維度)，因此能夠更加了解完整不受限的「貢獻分析」所能提供的功能。 </p> </td> 
+   <td colname="col2"> <p>「貢獻分析」已成為 Adobe Analytics 中迴響最熱烈的功能之一。您每月皆可執行小量的「完整」分析 (而非只有部分 Analytics 產品的 3 個維度)，因此能夠更加了解完整不受限的「貢獻分析」所能提供的功能。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>代號如何在「貢獻分析」中運作？使用現有的「貢獻分析」載入專案是否要扣除掉一個代號，或是在執行全新的「貢獻分析」時才需要這樣做？</b> </p> </td> 
@@ -87,7 +87,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在 Workspace 中只能存取「每日粒度」的異常偵測功能。
+>「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
