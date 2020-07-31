@@ -2,9 +2,9 @@
 description: 'null'
 title: 執行貢獻分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
    * 顯示當天「**造訪**」數的視覺效果。
    * 上下文的每月「**造訪趨勢線**」。
-   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)排序)，加上相關量度，以及「獨特訪客」量度，以從規模觀點來將量度放在上下文中。
+   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)排序)，加上相關量度，以及「不重複訪客」量度，以從規模觀點來將量度放在上下文中。
 
    * 「[產生的區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
 
