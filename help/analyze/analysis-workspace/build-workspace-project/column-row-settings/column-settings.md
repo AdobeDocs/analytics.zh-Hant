@@ -2,11 +2,11 @@
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 834783e4eae9100233afc164e2fabef96f089874
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,15 +52,15 @@ ht-degree: 96%
 
 ## 使用非預設歸因模式
 
-分析工作區支援 [幾乎任何](../../attribution/overview.md) 度量的歸因。
+Analysis Workspace 支援絕大多數量度的[歸因](../../attribution/overview.md)。
 
 1. 按一下自由表格欄中的「設定」(齒輪) 圖示。
 
    ![歸因核取方塊](assets/attribution-checkbox.png)
 
-2. 在&#x200B;**[!UICONTROL 「資料設定」]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 「使用非預設歸因模型」]**。For more information on different attribution models, see [Attribution models](../../attribution/models.md).
+2. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模型]**。如需不同歸因模型的詳細資訊，請參閱[歸因模型](../../attribution/models.md)。
 
-   ![選擇歸因模型](assets/attribution-select.png)
+   ![選取歸因模型](assets/attribution-select.png)
 
 
 >[!MORELIKETHIS]
