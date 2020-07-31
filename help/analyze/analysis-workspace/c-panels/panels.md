@@ -1,29 +1,29 @@
 ---
 description: 'null'
 title: 面板概述
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8e8a6672b95da56bba4af0fbf66981f85cb36415
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '481'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # 面板概述
 
-面板是表格與視覺效果的集合。您可以透過 Workspace 左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。分析工作區提供下列六種面板：
+面板是表格與視覺效果的集合。您可以透過工作區左上方的圖示存取面板。當您要根據時段、業務單位以及地理位置等組織專案時，面板會非常實用。Analysis Workspace 提供以下六種類型的面板：
 
 * [空白面板](blank-panel.md)
-* [快速洞察面板](quickinsight.md)
-* [Analytics for Target面板](a4t-panel.md) （即將推出）
+* [快速深入分析面板](quickinsight.md)
+* [Analytics for Target 面板](a4t-panel.md) (即將推出)
 * [歸因面板](attribution.md)
-* [自由面板](freeform-panel.md)
+* [自由表格面板](freeform-panel.md)
 * [區段比較面板](c-segment-comparison/segment-comparison.md)
 
-「快速洞察」、「空白」和「自由格式」面板是您開始分析的絕佳場所，而「Analytics for Target」、「歸因IQ」和「區段比較」則適用於更進階的分析。 專案 `"+"` 中有一個按鈕，讓您隨時都可以新增空白麵板。
+「快速深入分析」、「空白」與「自由格式」面板適用於開始分析的階段，而 Analytics for Target、「歸因 IQ」與「區段比較」則適用於更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
-The default starting panel is the Freeform panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+預設的開始面板為「自由格式」面板，但您也可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
 ## 面板中的下拉式篩選器 {#section_D2828EEDD52944528E87F470EAB581CF}
 
@@ -39,12 +39,12 @@ The default starting panel is the Freeform panel, but you can make the [blank pa
 * 您也可以在相同面板上建立多個下拉式清單。
 * 您可以按下拉式清單的標題並加以修改來自訂標題，或按一下標題旁邊的「x」，完全刪除下拉式清單。
 * 您可以下列使用任何元件類型，建立下拉式篩選器：維度、日期範圍、區段以及量度。請注意，下拉式日期範圍一律會覆蓋面板日期範圍。
-* 我們維持左側欄的元件顏色：維度項目下拉式功能表為黃色、量度為綠色、區段為藍色，而日期範圍為紫色。
-* 拖放區域仍會為以區段形式拖入的項目，建立點擊層級的區段。如往常，您可以按一下區段旁邊的資訊圖示 (i) ，然後按一下鉛筆形狀的編輯圖示，在「區段產生器」中編輯這些區段。
+* 我們維持左側邊欄的元件顏色：維度項目下拉式功能表為黃色、量度為綠色、區段為藍色，而日期範圍為紫色。
+* 拖放區域仍會為以區段形式拖入的項目，建立點擊層級的區段。如往常，您可以按一下區段旁邊的資訊圖示 (i)，然後按一下鉛筆形狀的編輯圖示，在「區段產生器」中編輯這些區段。
 
 **若要建立和使用下拉式篩選器：**
 
-1. 從左側欄選取任何項目，並&#x200B;**在按住   鍵**&#x200B;的同時，將其拖放至面板拖放區域。
+1. 從左側邊欄選取任何項目，並&#x200B;**在按住   鍵**&#x200B;的同時，將其拖放至面板拖放區域。
 
    ![](assets/create_dropdown.png)
 
