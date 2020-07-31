@@ -3,11 +3,11 @@ description: 在單一報表套裝中，結合時間戳記與非時間戳記資�
 title: 可選時間戳記
 topic: Admin tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '319'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->If you use Timestamps Optional, do not set [s.visitorID](/help/implement/vars/config-vars/visitorid.md) on data that is already timestamped. 這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
+>如果您使用「可選時間戳記」，請勿在已附上時間戳記的資料上設定 [s.visitorID](/help/implement/vars/config-vars/visitorid.md)。這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 95%
    * **必要時間戳記** (不支援設定 s.visitorID)
    * **可選時間戳記** (支援設定 s.visitorID，但不適用於時間戳記的點擊上)
 
-## 若要將現有的報表套裝變更為可選時間戳記 {#section_40BCD3B4639241DEA716F7640ED33E72}
+## 若要將現有的報表套裝變更為可選時間戳記{#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. 前往&#x200B;**「管理員 > 報表套裝 > 編輯設定 > 一般 > 時間戳記設定」**。
 1. 選取&#x200B;**「將所選的報表套裝轉換為可選時間戳記」**&#x200B;方塊。
@@ -50,5 +50,5 @@ ht-degree: 95%
 
 >[!NOTE]
 >
-> 如果報表套裝設定為&#x200B;**「可選時間戳記」**，若要變更為其他設定，請聯絡 Adobe Client Care。
+> 如果報表套裝設定為&#x200B;**可選時間戳記**，若要變更為其他設定，請聯絡 Adobe Client Care。
 
