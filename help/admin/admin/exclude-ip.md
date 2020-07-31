@@ -3,9 +3,9 @@ description: 您可以從報表中排除特定 IP 位址的資料，例如內部
 title: 依 IP 位址排除
 topic: Admin tools
 uuid: 1ed6105f-e7c5-4c4f-b8f4-e5f66d0824bb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 | 元素 | 說明 |
 |--- |--- |
-| [!UICONTROL 新增 CNAME] | 產生退出連結，讓您用來排除您的網域。如需援助，請聯絡您公司的「支援使用者」部門。<br>您可瀏覽您公司的退出頁面並選擇將您的瀏覽器從測量中排除，即可從報表套裝中排除您的流量，不予以報告。<br>如果您的實作使用第三方 Cookie，您的退出頁面位在[此處](https://democorp.112.2o7.net/optout.html?locale=zh_TW&amp;popup=true)。 |
+| [!UICONTROL 新增 CNAME] | 產生退出連結，讓您用來排除您的網域。如需援助，請聯絡您公司的「支援使用者」部門。<br>您可瀏覽您公司的退出頁面並選擇將您的瀏覽器從測量中排除，即可從報表套裝中排除您的流量，不予以報告。<br>如果您的實施使用第三方 Cookie，您的退出頁面位在[此處](https://democorp.112.2o7.net/optout.html?locale=zh_TW&amp;popup=true)。 |
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ ht-degree: 100%
 > * 您的 cookie 未刪除。如果 cookie 已刪除，您必須再次排除本人的帳戶。
 
 
-## 依 IP 位址排除 {#section_609FB6461529409D840111A32FEF5C3D}
+## 依 IP 位址排除{#section_609FB6461529409D840111A32FEF5C3D}
 
 IP 位址是指網際網路位址。所有 Internet 使用者都擁有數位 IP 位址 (通常由 Internet 服務提供者提供)，作為有效的電子識別碼。
 
@@ -55,7 +55,7 @@ IP 位址是指網際網路位址。所有 Internet 使用者都擁有數位 IP 
 
 請參閱 [Experience Cloud 使用的 IP 位址](https://helpx.adobe.com/tw/analytics/kb/adobe-ip-addresses.html)一文。
 
-## IP 模糊化的影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
+## IP 模糊化的影響{#section_51B7529FFF16449CA016FDC51D87E2CA}
 
 若啟用 IP 模糊化，系統會在將 IP 位址模糊化前即排除 IP，因此客戶在啟用 IP 模糊化至後，不必再進行任何變更。
 
