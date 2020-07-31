@@ -5,23 +5,23 @@ translation-type: tm+mt
 source-git-commit: 810083aad3a096a3d352416480bf48ad8d7b3f2b
 workflow-type: tm+mt
 source-wordcount: '2301'
-ht-degree: 78%
+ht-degree: 97%
 
 ---
 
 
 
-# Adobe Analytics儀表板的策展人指南
+# Adobe Analytics 控制面板的組織者指南
 
-以下資訊會指示Adobe Analytics資料的策展人如何設定並呈現管理使用者的控制面板。 若要觀看示範此資訊的影片，請參 [閱Adobe Analytics儀表板Scorecard Builder](https://youtu.be/tnnl6hrcP94)。
+以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 控制面板計分卡產生器](https://youtu.be/tnnl6hrcP94)。
 
 ## 簡介
 
-Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取您從Adobe Analytics案頭UI建立和共用的直覺式記分卡。 計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
+Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取您從 Adobe Analytics 桌面 UI 建立和共用的直覺式計分卡。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
 
 ## 本指南的詳細資訊
 
-本指南旨在協助Adobe Analytics資料的策展人在控制面板上為其主管使用者設定記分卡。 組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
+本指南旨在協助 Adobe Analytics 資料組織者為控制面板的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
 
 ## 術語表
 
@@ -82,7 +82,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 ### 使用資料設定計分卡並儲存
 
-實作計分卡範本：
+實施計分卡範本：
 
 1. 在右側邊欄的&#x200B;**「屬性」**&#x200B;下方，指定您要使用資料的&#x200B;**專案報表套裝**。
 
@@ -100,7 +100,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![新增維度](assets/layer_dimensions.png)
 
-   您也可以將維拖放到記分卡畫布上，將維添加到所有表徵圖。
+   您也可以將維度拖放到計分卡畫布上，將維度新增至所有圖磚。
 
    按一下計分卡建立程式中的圖磚，右側邊欄會顯示與該圖磚相關聯的屬性和特性。在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
 
@@ -108,9 +108,9 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![Breakdown_view](assets/break_view.png)
 
-   新增至方塊的每個維度都會顯示在應用程式詳細檢視的下拉式清單中。 執行使用者可從下拉式清單中選擇選項。
+   新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式清單中。執行使用者可從下拉式清單中選擇選項。
 
-4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選選單中選取區段，以套用區段。 您可 [以像在Adobe Analytics工作區中一樣，設定並套用記分卡](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) 的篩選器。
+4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 
    ![建立篩選的區段](assets/segment_ui.png)
 
@@ -161,26 +161,26 @@ If you update the Scorecard by adding new components, you may want to share the 
 
 * 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
 * 使用者處於 Adobe Analytics 的有效登入狀態
-* 您已為他們正確建立了移動記分卡，並已將這些記分卡與他們共用
+* 您已為使用者正確建立行動計分卡，並與他們共用這些計分卡。
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
 * 使用者可存取計分卡中的元件。Note that you can select an option when sharing your Scorecards to **Share embedded components**.
 
-### 使用應用程式協助主管使用者
+### 協助執行使用者使用應用程式
 
-要幫助主管用戶：
+若要協助執行使用者：
 
-1. 協助他們下載並安裝應用程式。 方法是提供下列步驟來延伸執行使用者的存取權，步驟會依其使用 iOS 或 Android 裝置而有所不同。
+1. 協助他們下載並安裝應用程式。方法是提供下列步驟來延伸執行使用者的存取權，步驟會依其使用 iOS 或 Android 裝置而有所不同。
 
    **若執行使用者使用 iOS：**
 
-   * 按一下下列連結(也可在「工具 **>控制面板******」下的Analytics中取得)，然後依照提示下載、安裝和開啟應用程式：
+   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**工具** > **控制面板**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
-      [iOS連結](https://apple.co/2zXq0aN)
+      [iOS 連結](https://apple.co/2zXq0aN)
    **若執行使用者使用 Android：**
 
-   * 按一下下列連結(也可在「工具 **>控制面板******」下的Analytics中取得)，然後依照提示下載、安裝和開啟應用程式：
+   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**工具** > **控制面板**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
-      [Android連結](https://bit.ly/2LM38Oo)
+      [Android 連結](https://bit.ly/2LM38Oo)
    下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
 
    ![應用程式歡迎畫面](assets/welcome.png)
@@ -193,7 +193,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    ![選擇公司](assets/accesscard.png)
 
-   如果執行使用者登入並看見訊息指出未共用任何內容：
+   如果執行使用者登入後看到未共用任何內容的訊息：
 
    * 執行使用者可能選擇了錯誤的 Analytics 例項
 
@@ -205,17 +205,17 @@ If you update the Scorecard by adding new components, you may want to share the 
    * 確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
 
-3. 向執行用戶解釋拼貼在您共用的記分卡中的顯示方式(下面第一個記分卡是以暗模式設定的； 如果您認 **為您的主管使用者偏好此檢視選項** ，請參閱下列偏好設定):
+3. 向執行使用者說明圖磚在您共用的計分卡中會如何顯示 (下方第一個計分卡是以深色模式設定的；如果您認為執行使用者偏好此檢視選項，請參閱下方的&#x200B;**偏好設定**)：
 
    ![說明圖磚](assets/newexplain.png)
 
-   ![示例記分卡](assets/intro_scorecard.png)
+   ![計分卡範例](assets/intro_scorecard.png)
 
    圖磚的其他資訊：
 
    * 走勢圖的粒度取決於日期範圍的長度：
       * 若長度為一天，圖表會顯示每小時趨勢
-      * 一天以上一年以下，顯示每日趨勢
+      * 若長度為一天以上、一年以下，則會顯示每日趨勢
       * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
    * 百分比值變更公式為量度合計 (目前日期範圍) - 量度合計 (比較日期範圍) / 量度合計 (比較日期範圍)。
    * 下拉畫面即可重新整理計分卡。
@@ -225,29 +225,29 @@ If you update the Scorecard by adding new components, you may want to share the 
 
    ![劃分檢視](assets/sparkline.png)
 
-   * 點選Sparkline上的任何點，即可查看與線上該點關聯的資料。
+   * 點選走勢圖上的任一點，可查看與線上該點相關聯的資料。
 
-   * 包括表以顯示添加到表徵圖的尺寸的資料。 點選向下箭頭以選取尺寸。 如果未將維度新增至圖格，表格會顯示圖表資料。
+   * 其中包含一個表格，會顯示新增至圖磚的維度資料。點選向下箭頭可選取維度。如果未將任何維度新增至圖磚，表格將會顯示圖表資料。
 
 5. 變更計分卡日期範圍：
 
    ![變更日期](assets/changedate.png)
 
-   * 您也可以以相同方式變更上述「劃分」檢視中的日期範圍。
+   * 您也可以使用相同方式，變更上述「劃分」檢視中的日期範圍。
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
 6. 在此應用程式上提供意見回饋：
 
-   1. 點選應用程式畫面右上角的設定圖示。
-   2. On the **Settings** screen, tap the **Feedback** option.
+   1. 點選應用程式畫面右上方的設定圖示。
+   2. 在&#x200B;**我的帳戶**&#x200B;畫面上，點選&#x200B;**意見反應**&#x200B;選項。
    3. 點選並查看提供意見回饋的選項。
 
       ![設定畫面](assets/settings.png)
 
-7. 若要變更偏好設定，請點選上 **述的** 「偏好設定」選項。 在偏好設定中，您可以開啟生物識別登入，或是將應用程式設定為深色模式，如下所示：
+7. 若要變更偏好設定，請點選上方顯示的&#x200B;**偏好設定**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
 
-   ![暗模式](assets/darkmode.png)
+   ![深色模式](assets/darkmode.png)
 
 **回報錯誤**：
 
