@@ -2,11 +2,11 @@
 description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1383'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 * **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
 * **標準範本**：這些範本是由 Adobe 建立並隨產品提供。
-* **自訂範本**: 這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但必須已授與 [!UICONTROL Analysis工作區： 在管理控制台中] ，儲存為範本權限。 [更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
+* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
 
 ![](assets/start_modal.png)
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 ## 標準範本
 
-第一次開啟工作區時，範本位於左側欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+第一次開啟工作區時，範本位於左側邊欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
