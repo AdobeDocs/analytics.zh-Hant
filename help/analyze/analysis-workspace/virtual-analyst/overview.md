@@ -3,6 +3,9 @@ title: Virtual Analyst
 description: 了解 Adobe Analytics 中的哪些功能對 Virtual Analyst 有幫助。
 translation-type: ht
 source-git-commit: b88376cf27d335bbe76a7a9762b312464f481fab
+workflow-type: ht
+source-wordcount: '115'
+ht-degree: 100%
 
 ---
 
