@@ -1,12 +1,12 @@
 ---
-description: 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送。
+description: 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送作業。
 subtopic: Dashboards
 title: 控制面板管理員
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '807'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>副本抄送我</strong></td> 
-  <td class="chdesc stentry"> 將副本新增至控制面板清單，名稱與原始事件相同。不過，您無法看見控制面板擁有者進行的任何更新/變更。複製舊式控制面板會開啟空白的控制面板，讓您在其中新增舊式內容。 <p>重要：如果您控制面板的共用使用者在控制面板中看不到您所做的變更，請檢查控制面板管理員，查看是否使用者選擇了<span class="uicontrol">「副本抄送我」</span>選項。如果選擇了此選項，他們將看不到您所做的更新/變更。若要查看所有更新/變更，共用使用者必須在控制面板管理員中選取<span class="uicontrol">「功能表中」</span>選項。 </p> </td> 
+  <td class="chdesc stentry"> 將副本新增至控制面板清單，名稱與原始事件相同。不過，您無法看見控制面板擁有者進行的任何更新/變更。複製舊式控制面板會開啟空白的控制面板，讓您在其中新增舊式內容。 <p>重要：如果您控制面板的共用使用者在控制面板中看不到您所做的變更，請檢查控制面板管理員，查看是否使用者選擇了<span class="uicontrol">「副本抄送我」</span>選項。如果您選擇此選項，他們將看不到您所做的更新/變更。若要查看所有更新/變更，共用使用者必須在控制面板管理員中選取<span class="uicontrol">「功能表中」</span>選項。 </p> </td> 
  </tr> 
  <tr class="chrow strow"> 
   <td class="choption"><strong>功能表中</strong></td> 
