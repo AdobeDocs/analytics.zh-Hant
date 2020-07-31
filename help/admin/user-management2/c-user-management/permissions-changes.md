@@ -5,9 +5,9 @@ subtopic: Users and groups
 title: 使用者和群組權限變更
 topic: Admin tools
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1562'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 因為可能的權限組合數量相當多，我們提供的文件無法完整說明可用於每一個權限組合的所有 API 方法。一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
+>因為可能的權限組合數量相當多，我們提供的文件無法完整說明可用於每一個權限組合的所有 API 方法。一般來說，獲得網站服務存取權的非管理員，僅具有 API 方法的「讀取」存取權。他們並沒有該方法的「寫入」存取權。
 
 由於 API 和介面使用相同的權限系統，因此無論管理員是否在介面 (Adobe Admin Console) 中授權給特定非管理員，這些權限都會與使用者在 API 中具有的權限相同。
 
@@ -124,7 +124,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 權限快速參考 {#section_A3FDD8259F524B21A5489833533D1B28}
+## 權限快速參考{#section_A3FDD8259F524B21A5489833533D1B28}
 
 下表列出工作以及工作發生的位置 (視公司的狀態而定)。
 
