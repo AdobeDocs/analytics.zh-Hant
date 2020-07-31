@@ -10,7 +10,7 @@ ht-degree: 54%
 ---
 
 
-# Analytics 產品比較和需求
+# Analytics產品比較和需求
 
 本頁包含各種Adobe Analytics產品的比較： 分析工作區、報告與分析、報告建立工具、資料倉庫、資料工作台、資料饋送和Analytics API 2.0。
 
@@ -18,7 +18,7 @@ ht-degree: 54%
 
 | 產品名稱和說明連結 | [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [資料摘要](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **存取方法** | [瀏覽器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [瀏覽器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.translate.html) | [Windows版MS Excel](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 透過瀏覽器進行設定。 [深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [Windows 64位元](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/install/c-data-workbench-client-install.html) | 透過瀏覽器進行設定。 [深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html) | REST風格的API工具。 使用Adobe I/O認證登入。 [深入了解](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| **存取方法** | [瀏覽器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [瀏覽器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [Windows版MS Excel](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 透過瀏覽器進行設定。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [Windows 64位元](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/install/c-data-workbench-client-install.html) | 透過瀏覽器進行設定。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html) | REST風格的API工具。 使用Adobe I/O認證登入。 [更多詳情](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **資料粒度** | 彙總 | 彙總 | 彙總 | 彙總 | 點擊 | 點擊 | 彙總 |
 | **可用的Expierence Cloud ID(ECID)** | 無 | 無 | 無 | 是 | 是 | 是 | 無 |
 | **可用時間戳記** | 無 | 無 | 無 | 無 | 是 | 是 | 無 |
