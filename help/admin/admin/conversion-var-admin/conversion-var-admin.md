@@ -4,11 +4,11 @@ keywords: eVar
 title: 轉換變數 (eVar)
 topic: Admin tools
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1579'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ eVar 最適合用來測量原因和結果，如：
 
 >[!NOTE]
 >
->影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實作[清單變數 (list vars)](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。
+>影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實施[清單變數 (list vars)](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。
 
 ## 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
@@ -76,7 +76,7 @@ eVar 最適合用來測量原因和結果，如：
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">當月過期：eVar 將於星期一後第 31 天早上 7:15 過期。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定的轉換事件。</b>在指定的特定事件之後引發的任何其他轉換事件，都會關聯至 eVar。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不。</b>只要     <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不。</b>只要      <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,11 +89,11 @@ eVar 最適合用來測量原因和結果，如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售</span> </p> <p>(僅限 eVar) </p> </td> 
-   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法： </p> <p> <b>產品語法</b>：</span>建立 eVar 值與產品的關聯。注意：如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b>轉換變數語法</b>：</span>僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/merchandising-variables/var-merchandising.html">銷售變數</a>。 </p> </td> 
+   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法： </p> <p> <b>產品語法</b>：</span>建立 eVar 值與產品的關聯。注意：如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b>轉換變數語法</b>：</span>僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">銷售變數</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售捆綁事件</span> </p> <p>(僅限 eVar) </p> </td> 
-   <td colname="col2"> <p>如果「銷售」設定為<span class="uicontrol">轉換變數語法</span>，則選定的事件會將產品與目前的 eVar 值捆綁。 </p> <p>若要使用「捆綁事件」，請設定<span class="uicontrol">「配置」至「最近」</span>。如果<span class="uicontrol">「配置」是原始值</span>，則保留第一個 eVar 產品捆綁，直到 eVar 過期。Multiple events can be selected by holding down <code>ctrl</code> (Windows) or <code>cmd</code> (Mac) and clicking on multiple items in the list. 選取「轉換變數語法」時，才能選取事件。</p> </td> 
+   <td colname="col2"> <p>如果「銷售」設定為<span class="uicontrol">轉換變數語法</span>，則選定的事件會將產品與目前的 eVar 值捆綁。 </p> <p>若要使用「捆綁事件」，請設定<span class="uicontrol">「配置」至「最近」</span>。如果<span class="uicontrol">「配置」是原始值</span>，則保留第一個 eVar 產品捆綁，直到 eVar 過期。按住 <code>ctrl</code> 鍵或 <code>cmd</code> (Mac) 鍵並按一下清單中的多個項目，可以選取多個事件。選取「轉換變數語法」時，才能選取事件。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,4 +117,4 @@ eVar 不區分大小寫，但會以第一次出現時的大寫格式顯示。例
 
 **計數器**
 
-eVar 通常會用來放置字串值，但也可設定作為計數器。當您嘗試計算使用者在某個事件之前所執行的動作數時，即可將 eVar 當作計數器使用。例如，您可以使用 eVar 擷取購買之前的內部搜尋次數。每次訪客搜尋時，eVar 中都應會有 &#39;+1&#39; 值。若訪客在購買之前做了四次搜尋，您將會看見各個總計數的例項：1.00、2.00、3.00、4.00。但只有 4.00 會獲得購買事件的評價 (訂購和收入度量)。eVar 計數器的值必須是正數。
+eVar 通常會用來放置字串值，但也可設定作為計數器。當您嘗試計算使用者在某個事件之前所執行的動作數時，即可將 eVar 當作計數器使用。例如，您可以使用 eVar 擷取購買之前的內部搜尋次數。每次訪客搜尋時，eVar 中都應會有 &#39;+1&#39; 值。若訪客在購買之前做了四次搜尋，您將會看見各個總計數的例項：1.00、2.00、3.00、4.00。但只有 4.00 會獲得購買事件的評分 (訂購和收入度量)。eVar 計數器的值必須是正數。
