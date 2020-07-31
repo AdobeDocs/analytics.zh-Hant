@@ -1,11 +1,11 @@
 ---
 title: Analytics 管理說明
 description: Adobe Analytics 管理員的管理說明，包括 Admin Console 的使用者和產品管理、設定報表套裝、變數、分類和資料收集。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 Adobe Analytics 目前有兩個管理員區域：
 
 * Adobe Admin Console：使用此區域來佈建 Experience Cloud 工具，並管理使用者權限。此區域位於 [adminconsole.adobe.com](https://adminconsole.adobe.com)。
-* Analytics Admin Console：此區域用於管理報表套裝和變數。It can be accessed by clicking [!UICONTROL Admin] in the top header of Adobe Analytics.
+* Analytics Admin Console：此區域用於管理報表套裝和變數。您可以按一下 Adobe Analytics 頂端標題中的[!UICONTROL 管理員]來存取該區域。
 
 本指南涵蓋：
 
