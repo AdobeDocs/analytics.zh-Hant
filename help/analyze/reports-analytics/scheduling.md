@@ -4,9 +4,9 @@ subtopic: Schedule
 title: 報表排程和分發
 topic: Reports and analytics
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1661'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
    | 選項 | 說明 |
    |--- |--- |
    | 格式 | 選取 PDF 或 HTML。 |
-   | 傳送至 | 提供接收報表的電子郵件地址. |
+   | 傳送至 | 提供接收報表的電子郵件地址。 |
    | 主旨 | 電子郵件的主旨。 |
    | 排程 | 選取立即發送報表，或以不同間隔發送。 |
 
