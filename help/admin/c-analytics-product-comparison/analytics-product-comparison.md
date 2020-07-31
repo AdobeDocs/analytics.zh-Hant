@@ -2,9 +2,9 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系統要求與比較。
 title: Analytics 產品比較和需求
 translation-type: tm+mt
-source-git-commit: 54d6b4c2993c5b0391b9243c76661db1da4087b8
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '432'
 ht-degree: 54%
 
 ---
@@ -16,26 +16,26 @@ ht-degree: 54%
 
 如需瞭解如何挑選 Adobe Analytics 產品，請前往[此處](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)。
 
-| 產品名稱和說明連結 | [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html) | [Reports &amp; Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html) | [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html) | [Data Warehouse](https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [資料摘要](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-|---|---|---|---|---|---|---|---|
-| **存取方法** | [瀏覽器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [瀏覽器](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [Windows版MS Excel](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/system-requirements.html) | 透過瀏覽器進行設定。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/sys-reqs.html) | [Windows 64位元](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/install/c-data-workbench-client-install.html) | 透過瀏覽器進行設定。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html) | REST風格的API工具。 使用Adobe I/O認證登入。 [更多詳情](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **存取方法** | [瀏覽器](/help/admin/sys-reqs.md) | [瀏覽器](/help/admin/sys-reqs.md) | [Windows版MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。 [更多詳情](/help/admin/sys-reqs.md) | [Windows 64位元](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/install/c-data-workbench-client-install.html) | 透過瀏覽器進行設定。 [更多詳情](/help/export/analytics-data-feed/data-feed-overview.md) | REST風格的API工具。 使用Adobe I/O認證登入。 [更多詳情](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 | **資料粒度** | 彙總 | 彙總 | 彙總 | 彙總 | 點擊 | 點擊 | 彙總 |
 | **可用的Expierence Cloud ID(ECID)** | 無 | 無 | 無 | 是 | 是 | 是 | 無 |
 | **可用時間戳記** | 無 | 無 | 無 | 無 | 是 | 是 | 無 |
-| **處理等級** | 完全處理 | 完全處理，並提供個 [別的即時報表](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 完全處理，並提供個 [別的即時報表](https://docs.adobe.com/content/help/en/analytics/components/real-time-reporting/realtime.html) | 完全處理 | 完全處理 | 完全處理 | 完全處理 |
-| **內含管理機器人篩選資料**<br>[瞭解詳情](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html) | 無 | 是——個別機器人報表 | 是——個別機器人報表 | 無 | 無 | 無 | 無 |
-| **出現低流量（超出唯一客戶數）** 了 <br>[解詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/low-traffic.html) | 是 | 是 | 是 | 無 | 無 | 無 | 是 |
+| **處理等級** | 完全處理 | 完全處理，並提供個 [別的即時報表](/help/components/c-real-time-reporting/realtime.md) | 完全處理，並提供個 [別的即時報表](/help/components/c-real-time-reporting/realtime.md) | 完全處理 | 完全處理 | 完全處理 | 完全處理 |
+| **包含管理機器人篩選資料** <br> [更多詳情](/help/admin/admin/bot-removal/bot-removal.md) | 無 | 是——個別機器人報表 | 是——個別機器人報表 | 無 | 無 | 無 | 無 |
+| **低流量（超出唯一客戶數）出現** <br> [更多詳情](/help/technotes/low-traffic.md) | 是 | 是 | 是 | 無 | 無 | 無 | 是 |
 | **可見的列限制（編頁前）** | 400 | 200 | 50000 | 無限制 | 無限制 | 無限制 | 50000 |
-| **多個報表套裝** | [是](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) | 是的，但有限制 | 有 | 無 | 是 | 無 | 是 |
+| **多個報表套裝** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是的，但有限制 | 有 | 無 | 是 | 無 | 是 |
 | **劃分數** | 無限制 | 最多 2 | 最多 2 | 無限制 | 無限制 | 無限制 | 無限制，可跨多個查詢執行 |
-| **細分** 更 <br>[多資訊](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-workflow.html) | 是 | 是 | 是 | 是的，但有限 [制](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segment-reference/seg-compatibility.html) | 有 | 無 | 是 |
-| **計算量度** 更 <br>[多資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html) | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 是 | 是 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **行銷渠道**<br>[瞭解](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-getting-started-mchannel.html) | 是 | 是 | 是 | 是 | 是 | 是- [va_finder、va_closer](https://docs.adobe.com/content/help/en/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html) | 是 |
-| **世代分析** | [是](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.html) | 無 | 無 | 無 | 是 | 無 | 無 |
-| **出處** | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) | 有限 | 有限 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/overview.html) |
-| **虛擬分析師功能**<br>[詳細資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/overview.html) | 有 | 無 | 無 | 無 | 無 | 無 | 是 |
-| **組織**<br>[詳細資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html) | 是——專案和VRS | 無 | 無 | 無 | 無 | 無 | 是——僅限VRS |
-| **專案共用**<br>[更多資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 是，具有項目角色 | 是 | 是 | 無 | 是 | 無 | 無 |
+| **區段** <br> [更多詳情](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | 是 | 是 | 是 | 是的，但有限 [制](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | 有 | 無 | 是 |
+| **計算量度** <br> [更多詳情](/help/components/c-calcmetrics/cm-overview.md) | 是的，有了 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 是 | 是 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **行銷管道** <br> [更多詳情](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 是 | 是 | 是 | 是 | 是 | 是- [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 是 |
+| **世代分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 無 | 無 | 無 | 是 | 無 | 無 |
+| **出處** | 是的，有了 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 有限 | 有限 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
+| **虛擬分析師功能** <br> [更多詳情](/help/analyze/analysis-workspace/virtual-analyst/overview.md) | 有 | 無 | 無 | 無 | 無 | 無 | 是 |
+| **組織** <br> [更多詳情](/help/analyze/analysis-workspace/curate-share/curate.md) | 是——專案和VRS | 無 | 無 | 無 | 無 | 無 | 是——僅限VRS |
+| **專案共用** <br> [更多詳情](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，具有項目角色 | 是 | 是 | 無 | 是 | 無 | 無 |
 | **排程的傳送** | 是 | 是 | 是 | 是 | 無 | 是 | 無 |
-| **傳送目的地** | 電子郵件 | 電子郵件 | 電子郵件、FTP、SFTP、發 [布至Microsoft PowerBI](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/publish-powerbi/power-bi.html) | 電子郵件、FTP。 聯絡客戶服務以取得其他目的地支援，包括SFTP、Azure Blob、Amazon S3 | - | FTP、SFTP、Azure Blob、Amazon S3 | - |
-| **VRS報告時間處理** 更 <br>[多資訊](https://docs.adobe.com/content/help/zh-Hant/analytics/components/virtual-report-suites/vrs-report-time-processing.html) | 有 | 無 | 無 | 無 | 無 | 無 | 是 |
+| **傳送目的地** | 電子郵件 | 電子郵件 | 電子郵件、FTP、SFTP、發 [布至Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 電子郵件、FTP。 聯絡客戶服務以取得其他目的地支援，包括SFTP、Azure Blob、Amazon S3 | - | FTP、SFTP、Azure Blob、Amazon S3 | - |
+| **VRS報告時間處理** <br> [更多詳情](/help/components/vrs/vrs-report-time-processing.md) | 有 | 無 | 無 | 無 | 無 | 無 | 是 |
