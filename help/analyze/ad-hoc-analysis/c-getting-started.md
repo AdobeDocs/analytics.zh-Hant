@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您在 2018 年 7 月的維護版發行後，選擇在 Java 7 上執行 Ad Hoc Analysis，Adobe 將不再支援您的 Ad Hoc Analysis 實作。
+>自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您在 2018 年 7 月的維護版發行後，選擇在 Java 7 上執行 Ad Hoc Analysis，Adobe 將不再支援您的 Ad Hoc Analysis 實施。
 
 * 支援 OpenGL 2.0 的影片卡
 * Cookie：必要
@@ -78,13 +78,13 @@ c_sys_reqs.xml
 * 監視器解析度：800x600 (建議使用 1024x768)
 * 色彩深度：16 位元或更高
 * JavaScript：啟用
-* Java 版本：Java 1.7 或更高版本   (請參閱上方注意事項)
+* Java 版本：Java 1.7 或更高版本    (請參閱上方注意事項)
 
    若尚未安裝正確版本的 Java，則會為您安裝。若所安裝的 Java 版本不相容，Ad Hoc Analysis 會下載並提示您安裝更新。
 
 ## Java 升級指示 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您選擇在 2018 年 7 月的維護發行後於 Java 7 上執行 Ad Hoc Analysis，Adobe 將不再支援您的 Ad Hoc Analysis 實作。
+自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您在 2018 年 7 月的維護版發行後，選擇在 Java 7 上執行 Ad Hoc Analysis，Adobe 將不再支援您的 Ad Hoc Analysis 實施。
 
 我們的 .jar 檔案已透過 256 位元安全加密技術簽署，而 Java 1.7.0_76 以前的版本不支援此加密技術。此 256 位元憑證可讓我們提供您增強型安全防護。
 
@@ -92,7 +92,7 @@ c_sys_reqs.xml
 
 * 如果您有權在機器上安裝程式：
 
-   1. 請前往 https://www.java.com。
+   1. 請前往 https://www.java.com 。
    1. Click **[!UICONTROL Java Download]**.
    1. Click **[!UICONTROL Agree and Start Download]**.
    1. 安裝您的作業系統專屬的最新 Java 版本。
@@ -264,4 +264,4 @@ t_reports_opening.xml
 
 * 在[!UICONTROL 新增報表]頁面上，搜尋報表或選擇範本。
 * 按一下功能表中的&#x200B;**[!UICONTROL 報告]**，然後選取報表或報表範本。
-* 從維度啟動報表：請在維度名稱上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 執行報表]** >   **`report name`**。
+* 從維度啟動報表：請在維度名稱上按一下滑鼠右鍵，然後選取&#x200B;**[!UICONTROL 執行報表]** >    **`report name`**。
