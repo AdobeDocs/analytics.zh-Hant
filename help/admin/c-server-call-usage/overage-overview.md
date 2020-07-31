@@ -2,9 +2,9 @@
 description: 'null'
 title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1038'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
 
 >[!NOTE]
 >
-> 貴公司可選擇哪些登入公司能存取「伺服器呼叫使用量」。
+>貴公司可選擇哪些登入公司能存取「伺服器呼叫使用量」。
 
 <table id="table_86256AD8B4554F369439A8FDF2F545E1"> 
  <thead> 
