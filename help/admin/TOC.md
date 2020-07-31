@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '694'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 99%
    + [記錄檔](admin/logs.md)
    + [行銷管道](admin/marketing-channels-admin.md)
    + [功能表自訂](admin/customize-menus.md)
-   + [量度可見度](admin/metric-visibility.md)
+   + [量度可見性](admin/metric-visibility.md)
    + [應用程式管理](admin/mobile-management.md)
    + 付費搜尋偵測 {#paid-search-detection}
       + [付費搜尋偵測概觀](admin/paid-search-detection/paid-search-detection.md)
@@ -88,7 +88,7 @@ ht-degree: 99%
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [伺服器端轉送需求](admin/c-server-side-forwarding/ssf-requirements.md)
       + [伺服器端轉送資料和程式碼參考](admin/c-server-side-forwarding/ssf-reference.md)
-      + [如何確認您的伺服器端轉送實作情形](admin/c-server-side-forwarding/ssf-verify.md)
+      + [如何確認您的伺服器端轉送實施情形](admin/c-server-side-forwarding/ssf-verify.md)
       + [伺服器端轉送常見問題集](admin/c-server-side-forwarding/ssf-faq.md)
    + [簡化的報表功能表](admin/t-simplified-menu.md)
    + [社交管理](admin/social-management.md)
