@@ -2,9 +2,9 @@
 description: '您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求) '
 title: ID 擴增
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1354'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂 ID 至 Cookie ID 擴增 </p> </td> 
-   <td colname="col2"> <p>在電子商務網站上，訪客經常會先瀏覽網站的各個頁面，將商品加入購物車，在進入結帳程序後才會登入網站。若用來識別資料隱私權請求使用者的 ID，只會在使用者登入時儲存在自訂變數中，則此預先登入活動不會與此 ID 建立關聯。使用 Analytics Cookie ID 時，由於 Cookie ID 在整個登入過程都會存在，因此客戶可選擇將登入前所進行的瀏覽動作與登入後的購買動作相關聯。 </p> <p>假設您的實作會將登入 ID (CRM ID、使用者名稱、忠誠度編號、電子郵件地址等等，或這些值的任意雜湊) 儲存在自訂變數 (prop 或 eVar) 或自訂訪客 ID 中，然後將此 ID 用於資料隱私權存取請求。資料主體對於系統並未將他們的所有瀏覽資料都隨存取請求傳回，可能會覺得很意外，特別是在您向他們促銷已瀏覽過但尚未購買的商品時。 </p> <p>因此，Analytics 資料隱私權處理程序將僅支援 ID 擴增，Analytics 可在其中找到點擊產生的所有 Cookie ID (這和能產生自訂 ID 的點擊相同)，然後擴增請求以一併納入這些 ID。 </p> <p>在指定 expandIDs 以及 Cookie 命名空間以外的任何命名空間時，系統會擴增請求以納入在包含任何指定 ID 的點擊中找到的任何 Cookie ID (ECID 或 Analytics Cookie)。接著，就會在任何新發現的 Cookie ID 上執行 Cookie ID 擴增 (如上所述)。 </p> <p>在將 expandIDs 選項用於存取請求，而指定的 ID 具有 ID-PERSON 標籤時，將會傳回兩組檔案。第一組 (人員組) 只會納入找到指定 ID 的點擊中的資料。第二組 (裝置組) 則只會納入來自 expanded ID，但沒有指定 ID 的點擊資料。 </p> </td> 
+   <td colname="col2"> <p>在電子商務網站上，訪客經常會先瀏覽網站的各個頁面，將商品加入購物車，在進入結帳程序後才會登入網站。若用來識別資料隱私權請求使用者的 ID，只會在使用者登入時儲存在自訂變數中，則此預先登入活動不會與此 ID 建立關聯。使用 Analytics Cookie ID 時，由於 Cookie ID 在整個登入過程都會存在，因此客戶可選擇將登入前所進行的瀏覽動作與登入後的購買動作相關聯。 </p> <p>假設您的實施會將登入 ID (CRM ID、使用者名稱、忠誠度編號、電子郵件地址等等，或這些值的任意雜湊) 儲存在自訂變數 (prop 或 eVar) 或自訂訪客 ID 中，然後將此 ID 用於資料隱私權存取請求。資料主體對於系統並未將他們的所有瀏覽資料都隨存取請求傳回，可能會覺得很意外，特別是在您向他們促銷已瀏覽過但尚未購買的商品時。 </p> <p>因此，Analytics 資料隱私權處理程序將僅支援 ID 擴增，Analytics 可在其中找到點擊產生的所有 Cookie ID (這和能產生自訂 ID 的點擊相同)，然後擴增請求以一併納入這些 ID。 </p> <p>在指定 expandIDs 以及 Cookie 命名空間以外的任何命名空間時，系統會擴增請求以納入在包含任何指定 ID 的點擊中找到的任何 Cookie ID (ECID 或 Analytics Cookie)。接著，就會在任何新發現的 Cookie ID 上執行 Cookie ID 擴增 (如上所述)。 </p> <p>在將 expandIDs 選項用於存取請求，而指定的 ID 具有 ID-PERSON 標籤時，將會傳回兩組檔案。第一組 (人員組) 只會納入找到指定 ID 的點擊中的資料。第二組 (裝置組) 則只會納入來自 expanded ID，但沒有指定 ID 的點擊資料。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
