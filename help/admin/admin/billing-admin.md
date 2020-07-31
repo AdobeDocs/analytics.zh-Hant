@@ -3,9 +3,9 @@ description: 帳單頁面可讓您存取帳單資訊，包括每個報表套裝�
 title: 帳單
 topic: Admin tools
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 若要取得[!UICONTROL 「每月發票」]報表的工作副本，請將其複製至剪貼簿，然後貼至試算表程式 (例如 Microsoft Excel*)。
+> 若要取得[!UICONTROL 每月發票]報表的工作副本，請將其複製至剪貼簿，然後貼至試算表程式 (例如 Microsoft Excel*)。
 
 ## 報告日期和處理日期比較 {#section_51A48C2F223F4904BE1407C13333C457}
 
