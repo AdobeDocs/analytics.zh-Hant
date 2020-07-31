@@ -2,11 +2,11 @@
 description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 88%
 
 ![比較歸因](assets/compare-attribution.png)
 
-此捷徑可讓您快速輕鬆地比較一個歸因模型與另一個歸因模型，毋需拖曳量度並設定兩次。
+此快速鍵可讓您輕鬆快速地比較不同的歸因模型，而無須再次拖曳量度和進行設定。
