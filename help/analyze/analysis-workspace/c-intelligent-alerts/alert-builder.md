@@ -2,9 +2,9 @@
 description: 'null'
 title: 警報產生器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -80,6 +80,7 @@ ht-degree: 100%
    * 低於或等於
    * 變更者
    * 您可以設定 90%、95%、99%、99.75% 或 99.9% 的臨界值。
+
    請注意您也可以使用計算量度。
 
 *... 包含這些篩選*
