@@ -3,9 +3,9 @@ description: 說明若想啟用 Activity Map 連結收集和使用者下載，An
 title: 啟用 Activity Map
 topic: Activity map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -22,11 +22,11 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 除非更新到 AppMeasurement 的這個版本 (或更高版本)，否則無法收集 Activity Map 資料。
 
-1. 請前往&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 代碼管理器」]**&#x200B;下載最新的 AppMeasurement 代碼，然後[實作代碼](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/overview.html)。
+1. 請前往&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 代碼管理器」]**&#x200B;下載最新的 AppMeasurement 代碼，然後[實施代碼](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/overview.html)。
 
-   我們隨附一些[實作代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
+   我們隨附一些[實施代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
 
-1. 驗證實作：
+1. 驗證實施：
 
    1. 當按下可點按元素，資料就會儲存至名為 s_sq 的 Cookie 中。
    1. 可以在追蹤呼叫的查詢字串中看到 Activity Map 資料。例如：
@@ -60,4 +60,4 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 >[!NOTE]
 >
-> 如果您希望非管理員使用者下載 Activity Map，請建立新的使用者群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map存取」結合，提供下載和使用工具的權限。
+> 如果您希望非管理員使用者下載 Activity Map，請建立新的使用者群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map 存取」結合，提供下載和使用工具的權限。
