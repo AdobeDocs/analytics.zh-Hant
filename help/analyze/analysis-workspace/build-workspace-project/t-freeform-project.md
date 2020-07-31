@@ -1,16 +1,19 @@
 ---
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-title: 建立 Workspace 專案
+title: 建立工作區專案
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
+workflow-type: ht
+source-wordcount: '765'
+ht-degree: 100%
 
 ---
 
 
-# 建立 Workspace 專案
+# 建立工作區專案
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
@@ -20,9 +23,9 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 1. 指定建立和組織專案的使用者權限。
 
-   Before creating or curating an Analysis Workspace project, administrators must add you to a group with the **[!UICONTROL Create / Curate Projects in Analysis Workspace]** permission enabled, or to the **[!UICONTROL All Report Access]** user group. ( **[!UICONTROL Admin]** > **[!UICONTROL User Management]** > [群組](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html)).
+   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > [群組](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html))。
 
-1. In the [!DNL Experience Cloud], click **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**.
+1. 在「[!DNL Experience Cloud]」中，按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 工作區」]**。
 
    ![](assets/analysis_workspace_menu.png)
 
@@ -30,7 +33,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/analysis-app-search.png)
 
-1. 按一下 **[!UICONTROL Create New Project]**.
+1. 按一下&#x200B;**[!UICONTROL 「建立新專案」]**。
 
    您可以選擇從以下來源建立專案
 
@@ -40,10 +43,11 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
    ![](assets/start_modal.png)
 
-1. To create a project from a blank project, click **[!UICONTROL Blank Project]**.
+1. 若要從空白專案建立專案，請按一下&#x200B;**[!UICONTROL 「空白專案」]**。
 
-   * 然後按 **[!UICONTROL Create]**&#x200B;一下，或
-   * 只要按一下 **[!UICONTROL Enter]**&#x200B;即可。
+   * 接著，按一下&#x200B;**[!UICONTROL 「建立」]**，或
+   * 只需按一下 **[!UICONTROL Enter]** 即可。
+
    接著會出現空白專案，其中顯示自由面板和資料表格視覺效果。
 
    ![](assets/fa_project_new.png)
@@ -75,7 +79,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
  </tbody> 
 </table>
 
-1. 儲存您的專案。Name the project, provide a description (optional, but useful) and tag the project (optional), then click **[!UICONTROL Save Project]**.
+1. 儲存您的專案。為專案命名，輸入說明 (選填，但此項目很實用) 並標記專案 (選用)，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
    ![](assets/save_project.png)
 
@@ -105,7 +109,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
  <tbody> 
   <tr> 
    <td colname="col1"> 維度 (橘色) </td> 
-   <td colname="col2"> <p>在專案層級套用 </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>維度名稱後面附加了 Prop#、eVar# 和 event#，您可以依據這些編號來搜尋。範例：「內部促銷活動」會在左側欄中顯示為「內部促銷活動 (evar2)」。 </p> <p> 請注意，prop、eVar 和事件編號不會顯示在表格中 (以保持標題簡潔)。 </p> <p>在被拖曳至自由表格中、或是顯示在左側欄時，部分現有的維度會有預設的排序順序。例如，當「小時」被拖放到表格中，或顯示在左側欄時，會以從上午 12 點至下午 11 點的順序排序。您仍可以選擇依照任何量度欄來排序。 </p> </td> 
+   <td colname="col2"> <p>在專案層級套用 </p> <p><img  src="assets/dimensions.png" id="image_353BAF1A7AC04C7DB5F5CDFDE7614402" align="left" placement="break" width="300px" /> </p> <p>維度名稱後面附加了 Prop#、eVar# 和 event#，您可以依據這些編號來搜尋。範例：「內部促銷活動」會在左側邊欄中顯示為「內部促銷活動 (evar2)」。 </p> <p> 請注意，prop、eVar 和事件編號不會顯示在表格中 (以保持標題簡潔)。 </p> <p>在被拖曳至自由表格中、或是顯示在左側邊欄時，部分現有的維度會有預設的排序順序。例如，當「小時」被拖放到表格中，或顯示在左側邊欄時，會以從上午 12 點至下午 11 點的順序排序。您仍可以選擇依照任何量度欄來排序。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 量度 (綠色) </td> 
@@ -124,7 +128,7 @@ source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
 
 **[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)**
 
-此面 [!UICONTROL Visualizations] 板提供標準的Analytics圖形、圖表、甜圈、資料表 [格](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) 、同類群組表格、文氏圖表等。 您可以拖放多個視覺效果至專案。
+「[!UICONTROL 視覺效果]」面板提供標準的 Analytics 圖形、圖表、環圈圖、資料表格、[同類群組](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)表格、Venn 圖表等等。您可以拖放多個視覺效果至專案。
 
 ![步驟結果](assets/visualizations.png)
 
