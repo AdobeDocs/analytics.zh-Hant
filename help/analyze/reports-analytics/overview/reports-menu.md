@@ -2,11 +2,11 @@
 description: 「Report & Analytics」中的報表功能表概述。
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '785'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-如需個別報表的詳細資訊，請參閱[報表說明](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/c-variables.html)。
+如需個別報表的詳細資訊，請參閱[報表說明](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)。
 
 ## 搜尋報表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -64,7 +64,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">區段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >「區段產生器」</a>和<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >「區段管理員」</a>介面。 </td> 
+   <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >「區段產生器」</a>和<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >「區段管理員」</a>介面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
