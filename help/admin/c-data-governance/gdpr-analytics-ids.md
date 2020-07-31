@@ -2,9 +2,9 @@
 description: 'null'
 title: 標籤最佳作法
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2689'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
+>請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實施行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
 ## 可直接與間接識別身分的 ID {#section_030799AA1397433FBA61A2BC60A7A750}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 * 部分 ID 可能對應到多個人，而您不希望不小心將同個 ID 的其他使用者的資訊傳回。例如：即使您確認某人的姓名就是約翰史密斯，但您並不打算將系統中姓名同為約翰史密斯的所有使用者資料一併傳回。
 * 另一個例子是裝置 ID，例如：Analytics Cookie ID。手機應用程式中產生 ID 時，您也許會將使用該 ID 進行的所有互動判斷為來自這支手機的擁有者。但如果是發生在共用裝置 (如家用電腦、圖書館或網咖的電腦) 時，您可能就無法區分該裝置的使用者，而傳回不同使用者資料的風險太大，因此您不能允許使用這類 ID。
 
-## 適用於 Analytics 支援 ID 的最佳實務 {#section_B6481505FF1949498D4B4B35B780D050}
+## 適用於 Analytics 支援 ID 的最佳實務{#section_B6481505FF1949498D4B4B35B780D050}
 
 請使用下表來判斷將資料隱私權請求提交給 Analytics 時，要使用的 ID 類型。瞭解此資訊能讓您輕鬆地判斷變數應使用的其他標籤。
 
@@ -64,7 +64,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂訪客 ID </p> </td> 
-   <td colname="col2"> <p>雖然自訂訪客 ID 並未廣泛使用，Analytics 仍支援提供此 ID 的實作；如有此 ID，系統就會用來取代舊版 Analytics 追蹤 Cookie。此欄位的標籤有 I2、ID-PERSON 和 DEL-PERSON。 </p> <p>在許多實作中，自訂訪客 ID 會衍生自 CRM ID，因此只有在使用者已登入網站時才會存在此 ID；如此可在不同裝置間使用相同的自訂訪客 ID。而這有一個技術上的缺點，即使用者登入之前的追蹤資料將無法繫結至登入後系統收集的追蹤資料。不過，如果您使用自訂訪客 ID 僅為了能識別裝置，應將 ID-PERSON 和 DEL- PERSON 標籤分別變更為 ID-DEVICE 和 DEL- DEVICE。 </p> </td> 
+   <td colname="col2"> <p>雖然自訂訪客 ID 並未廣泛使用，Analytics 仍支援提供此 ID 的實施；如有此 ID，系統就會用來取代舊版 Analytics 追蹤 Cookie。此欄位的標籤有 I2、ID-PERSON 和 DEL-PERSON。 </p> <p>在許多實施中，自訂訪客 ID 會衍生自 CRM ID，因此只有在使用者已登入網站時才會存在此 ID；如此可在不同裝置間使用相同的自訂訪客 ID。而這有一個技術上的缺點，即使用者登入之前的追蹤資料將無法繫結至登入後系統收集的追蹤資料。不過，如果您使用自訂訪客 ID 僅為了能識別裝置，應將 ID-PERSON 和 DEL- PERSON 標籤分別變更為 ID-DEVICE 和 DEL- DEVICE。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,7 +81,7 @@ ht-degree: 100%
 * DEL-標籤會讓系統為這些變數進行[匿名處理](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels) (ID 將替換為以「Data Privacy-」為首碼的隨機字串)，而在由請求所用 ID 識別出來的所有點擊中，所有原始值的例項都會取代為相同的匿名值。如果此欄位中的原始值是這些 ID 的其中之一，則報表量度將不會變更。
 * 一般而言，如果欄位有 ID-DEVICE 標籤，則您也應指派 DEL-DEVICE 標籤。
 * 同樣地，如果欄位有 ID-PERSON 標籤，則您也應指派 DEL-PERSON 標籤。
-* 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實作採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
+* 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實施採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
 * 如果您在含有 ID-PERSON 標籤的不同欄位中使用自訂 ID，且只想從產生 ID 的資料列中清除值，請使用 DEL-PERSON。
 * 如果您使用 ID 擴增，且想將所有值從全部已識別裝置的所有點擊中清除，則請使用 DEL-DEVICE。您可以在這個案例中偏好同時套用 DEL-DEVICE 和 DEL-PERSON 標籤，只不過 DEL-PERSON 並非必要標籤，因為 ID 擴增意味著所有符合人員 ID 的資料列也符合裝置 ID。
 * 如果您不指定使用 ID 擴增，但會混合使用裝置和人員 ID 來因應不同請求的需求，在使用任一種 ID 的情況下，您可能想要同時為應刪除的變數指定 DEL-DEVICE 和 DEL-PERSON 這兩個標籤。
@@ -107,7 +107,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>沒有 ID 擴增的人員 ID </p> </td> 
-   <td colname="col2"> <p>如果您僅使用含有 ID-PERSON 標籤的自訂 ID 但未實作 ID 擴增，則您應使用 ACC-PERSON 標籤。不過，您不需要變更預設的 ACC-ALL 標籤，這些欄位會自動納入存取請求。 </p> <p>每個存取請求會有一組檔案，其中一個檔案每個匹配的點擊都有一個資料列，並且具有所有指定的 ACC-DEVICE 和 ACC-PERSON 欄位；第二個則含有此資料的摘要。 </p> </td> 
+   <td colname="col2"> <p>如果您僅使用含有 ID-PERSON 標籤的自訂 ID 但未實施 ID 擴增，則您應使用 ACC-PERSON 標籤。不過，您不需要變更預設的 ACC-ALL 標籤，這些欄位會自動納入存取請求。 </p> <p>每個存取請求會有一組檔案，其中一個檔案每個匹配的點擊都有一個資料列，並且具有所有指定的 ACC-DEVICE 和 ACC-PERSON 欄位；第二個則含有此資料的摘要。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>混合 ID 和/或 ID 擴增 </p> </td> 
