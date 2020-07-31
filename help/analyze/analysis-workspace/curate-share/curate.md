@@ -2,9 +2,9 @@
 description: 組織可讓您在共用專案前先限制元件。
 keywords: Analysis Workspace curation
 title: 組織工作區專案
-translation-type: ht
-source-git-commit: 2b4cf53582b746f697c18cb63a1840dfee9b693f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -38,6 +38,7 @@ ht-degree: 100%
 ## 移除專案組織
 
 若要移除專案組織並還原左側邊欄中的完整元件集：
+
 1. 按一下&#x200B;**[!UICONTROL 共用]** > **[!UICONTROL 組織專案資料]**。
 1. 按一下&#x200B;**[!UICONTROL 移除組織]**。
 1. 按一下&#x200B;**[!UICONTROL 完成]**。
