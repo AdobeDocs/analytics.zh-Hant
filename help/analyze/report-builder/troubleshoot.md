@@ -3,9 +3,9 @@ description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而
 title: Report Builder 的疑難排解和最佳作法
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1371'
 ht-degree: 100%
 
@@ -109,7 +109,7 @@ Excel 工作表名稱具有撇號或單引號，會造成 Report Builder 無法�
 
 >[!NOTE]
 >
-> 以下內容只是錯誤訊息的選集，並非完整清單。如需解決錯誤的詳細資訊，請聯絡管理員。
+>以下內容只是錯誤訊息的選集，並非完整清單。如需解決錯誤的詳細資訊，請聯絡管理員。
 
 **此功能只適用於已開啟的活頁簿。**
 
