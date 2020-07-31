@@ -4,9 +4,9 @@ subtopic: Bot rules
 title: 機器人規則概觀
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1351'
 ht-degree: 100%
 
@@ -128,7 +128,7 @@ VISTA 規則是在機器人規則之後套用 (請參閱[處理順序](/help/adm
 
 >[!NOTE]
 >
-> 標示為 *`bots`* 的點擊會在帳單中計為[伺服器呼叫](/help/admin/c-server-call-usage/overage-overview.md)。
+>標示為 *`bots`* 的點擊會在帳單中計為[伺服器呼叫](/help/admin/c-server-call-usage/overage-overview.md)。
 
 ## IP 模糊化對機器人篩選的影響 {#section_92E60B95BE8940D983F28C79E0CD6B12}
 
