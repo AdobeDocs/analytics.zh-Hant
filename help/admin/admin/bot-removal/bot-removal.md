@@ -3,6 +3,9 @@ title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的 3 種方式
 translation-type: ht
 source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
+workflow-type: ht
+source-wordcount: '708'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
-開始之前，建議您在 [People 核心服務](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)中建立新宣告 ID。您必須將訪客的 Experience Cloud ID 傳遞至此新宣告的 ID，這項操作透過 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/zh-Hant/launch/using/implement/solutions/idservice-save.html) 即可快速輕鬆地完成。將已宣告 ID 命名為「ECID」。
+開始之前，建議您在 [People 核心服務](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)中建立新宣告 ID。您必須將訪客的 Experience Cloud ID 傳遞至此新宣告的 ID，這項操作透過 [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) 即可快速輕鬆地完成。將已宣告 ID 命名為「ECID」。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -36,11 +39,11 @@ source-git-commit: e1cbdf87140b915dccbb8f64694797bb903d8ab8
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-設定這個「資料元素」後，請按照[此連結的指示](https://docs.adobe.com/content/help/zh-Hant/launch/using/implement/solutions/idservice-save.html)，將已宣告 ID 傳遞到 Launch 的 ECID 工具中。
+設定這個「資料元素」後，請按照[此連結的指示](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)，將已宣告 ID 傳遞到 Launch 的 ECID 工具中。
 
 ### 步驟 2：使用分段來識別機器人
 
-您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助 Workspace 下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
+您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助工作區下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
 
 ![](assets/bot-filter-seg1.png)
 
