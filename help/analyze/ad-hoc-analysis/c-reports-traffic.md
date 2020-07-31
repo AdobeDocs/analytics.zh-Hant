@@ -3,9 +3,9 @@ description: 流量來源報表能讓您深入了解訪客與您網站的互動�
 title: 流量來源報表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1159'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 **通用持續性**
 
-在[!UICONTROL 「流量來源」]中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行     &quot;DVD&quot; Google 搜尋，並因此前往您的網站進行 $100 購買，則報告會將 $100 評分分配給關鍵字 &quot;DVD&quot; 以及 Google 搜尋引擎。不論 [!DNL Admin Console] 設定為何，該功能皆不可變更。
+在[!UICONTROL 「流量來源」]中，所有報告值均會保留並接收評分，直至被覆寫或瀏覽結束 (以最先發生的為準)。以前，僅保留關鍵字和反向連結網域。例如，如果訪客執行&quot;DVD&quot; Google 搜尋，並因此前往您的網站進行 $100 購買，則報告會將 $100 評分分配給關鍵字 &quot;DVD&quot; 以及 Google 搜尋引擎。不論 [!DNL Admin Console] 設定為何，該功能皆不可變更。
 
 ## 搜尋關鍵字 {#concept_071FDCBD0A3B4242BA00744786D1C59C}
 
@@ -73,7 +73,7 @@ c_reports_ref_domains.xml
 
 顯示對網站的「成功量度」影響最大之客戶的反向連結網域。反向連結分為 2 種主要類別：網域與 URL。「網域」指的是網域名稱，以不含查詢字串或子目錄的基本網域形式出現。URL 包括基本網域名稱，亦包括任意查詢字串或子目錄。
 
-## 原始反向連結網域 {#concept_EB18251DF70343169B46BB59543A579A}
+## 原始反向連結網域{#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
@@ -93,7 +93,7 @@ c_reports_referrers.xml
 
  -->
 
-例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在 Marketing Reports &amp; Analytics 實施中，您的實施顧問會幫助您定義屬於您網站一部分的網域和 URL。(此變更在實作期間後即可完成。) 
+例如，如果訪客從網站 A 點按連結找到您的網站，如果網站 A 沒有定義為您的網域的一部分，它就是反向連結。在 Marketing Reports &amp; Analytics 實施中，您的實施顧問會幫助您定義屬於您網站一部分的網域和 URL。(此變更在實施期間後即可完成。) 
 
 任何非這些已定義網域和 URL 之一部分的網域或 URL，就會被視為反向連結。例如，將網頁 A 和網頁 B 新增至內部 URL 篩選器，但網頁 C 沒有加入。在這種情形下，網頁 C 就會被視為反向連結。
 
@@ -101,7 +101,7 @@ c_reports_referrers.xml
 
 >[!NOTE]
 >
-> 訪客點選內含通訊協定 [!DNL imap://] 或 [!DNL mail://] 的電子郵件連結而進入您的網站時，Marketing Reports &amp; Analytics 會將反向連結網域記錄為電子郵件。例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
+>訪客點選內含通訊協定 [!DNL imap://] 或 [!DNL mail://] 的電子郵件連結而進入您的網站時，Marketing Reports &amp; Analytics 會將反向連結網域記錄為電子郵件。例如，來自 [!DNL https://mail.yahoo.com] 的任何點按不會被計算為電子郵件反向連結，因為通訊協定為 [!DNL https://]。來自 Outlook 的電子郵件會報告到「分類/建立書籤」明細項目，而任何已知搜尋引擎網域處的 HTTP 通訊協定反向連結會報告到「搜尋引擎」明細項目。
 
 ## 反向連結類型 {#concept_689E42D8F96C450DA41C7167C7388198}
 
