@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 89%
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 89%
 
 內部 URL 篩選器可識別您認為是屬於網站內部的反向連結。這可協助流量來源報表填入資料並協助篩選內部流量。
 
-反向連結或反向連結頁面通常是訪客進入您網站的頁面。若要避免造成資料偏差，您可以篩選掉內部反向連結。報告會從以下報告中排除已篩選的反向連結： [反向連結](/help/components/dimensions/referrer.md) 維度、反 [向連結網域維度](/help/components/dimensions/referring-domain.md) ，以及其他流量來源維度。
+反向連結或反向連結頁面通常是訪客進入您網站的頁面。若要避免造成資料偏差，您可以篩選掉內部反向連結。報告會從以下報告中排除已篩選的反向連結：[反向連結](/help/components/dimensions/referrer.md)維度、[反向連結網域](/help/components/dimensions/referring-domain.md)維度，以及其他流量來源維度。
 
 流量來源報表未填入資料的最常見原因是未定義內部 URL 篩選器清單。若要查看報表套裝已設定哪些內部 URL 篩選器，請遵循下列步驟。若要避免此問題，請移除將句號 (.)列為篩選條件的規則，並新增您自己的網站。
 
