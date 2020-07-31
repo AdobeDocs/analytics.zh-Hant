@@ -3,9 +3,9 @@ description: 報表套裝主要定義選定網站、一組網站或網頁子集�
 title: 報表套裝管理器
 topic: Admin tools
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '539'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 虛擬報表套裝可透過&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝」]**&#x200B;來管理。請參閱[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)。
+> 虛擬報表套裝可透過&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**&#x200B;來管理。請參閱[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)。
 
 ## 報表套裝管理器說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
