@@ -2,9 +2,9 @@
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
