@@ -3,9 +3,9 @@ description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
 topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2358'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 若要執行此報表，請選取一個報表 (例如「頁面」報表) (**[!UICONTROL 「報表]** > **[!UICONTROL 促銷活動]** > **[!UICONTROL 追蹤代碼]** > **[!UICONTROL 促銷活動轉換漏斗」]**)。
 
-如需相關說明，請參閱[轉換報表](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-conversion.html)。
+如需相關說明，請參閱[轉換報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)。
 
 ## 執行流失報表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -88,7 +88,7 @@ t_reports_fallout.xml
 
 >[!MORELIKETHIS]
 >
->* [流失報表說明](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [流失報表說明](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 執行頁面流程報表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
@@ -97,7 +97,7 @@ t_reports_fallout.xml
 
 查看 Analysis Workspace 新的[流量視覺化](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
 
-執行[路徑](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-paths.html)報表。
+執行[路徑](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)報表。
 
 例如，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 下一頁流量」]**。
 
@@ -123,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. 按一下「**[!UICONTROL 報表]** > **[!UICONTROL 產品]** > [產品轉換漏斗](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)」。
+1. 按一下「**[!UICONTROL 報表]** > **[!UICONTROL 產品]** > [產品轉換漏斗](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)」。
 
 ## 執行行銷管道報表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
