@@ -4,9 +4,9 @@ keywords: Analysis Workspace
 title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
 ht-degree: 100%
 
@@ -23,9 +23,9 @@ ht-degree: 100%
 
 查詢會直接前往報表引擎，您可進行內嵌變更，無須使用其他報表即可建立您的分析。結果可立即傳回，無須重新整理瀏覽器。
 
-## 工作區專案清單頁面 {#section_39AA007D7C384F4E869F842F1C7B11F8}
+## 工作區專案清單頁面{#section_39AA007D7C384F4E869F842F1C7B11F8}
 
-先前往&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 工作區]**」，此頁面會列出所有您擁有或有權存取的專案。您可以按一下&#x200B;**[!UICONTROL 「設為登陸頁面」]**，將此頁面設定為您的 Adobe Analytics 登陸頁面。(如果您看不到如下方螢幕擷取畫面所示的選項，即表示該頁面已為您的著陸頁面。)
+先前往&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 工作區]**」，此頁面會列出所有您擁有或有權存取的專案。您可以按一下&#x200B;**[!UICONTROL 「設為登陸頁面」]**，將此頁面設定為您的 Adobe Analytics 登陸頁面。(如果您看不到如下方螢幕擷取畫面所示的選項，即表示該頁面已為您的登陸頁面。)
 
 ![](assets/sample-project.png)
 
@@ -55,11 +55,11 @@ ht-degree: 100%
 | 專案名稱 | 提供給專案的名稱。按兩下名稱即可進行編輯。 |
 | 建立者 | 專案擁有者名稱 |
 | 上次修改 | 上次修改專案的日期。 |
-| 標記 | 列出為了方便分類而套用至專案的所有標記。您也可以在儲存專案時標記專案。在[!UICONTROL 「標記」]欄的「工作區著陸頁面」檢視專案標記。 |
+| 標記 | 列出為了方便分類而套用至專案的所有標記。您也可以在儲存專案時標記專案。在[!UICONTROL 「標記」]欄的「工作區登陸頁面」檢視專案標記。 |
 | 說明 | 說明可用於釐清專案的用途。按兩下說明即可進行編輯。 |
 | 計算專案中的重複例項 | 指定是否要將重複例項計入報表。如果相同變數具有多個循序值，則可以將其計為該變數的一個或多個執行個體。 |
 | 視覺效果色彩配置 | 您可以從其他的調色盤中選擇，或者自訂調色盤，來變更用於工作區的色彩配置。此功能會影響工作區許多項目，包括大部分的視覺效果。 |
-| 檢視密度 | 可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 |
+| 檢視密度 | 可減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 |
 
 ## 專案功能表 {#section_850CDFCB86A64EB0A0AD5B9E0FCB7013}
 
@@ -79,16 +79,16 @@ ht-degree: 100%
 | 開啟 | 清除 | 新增自由格式面板 | 新增量度 | 取得專案連結* | 快捷鍵 |
 | 儲存 | 全部清除 | 新增區段比較面板 | 新增日期範圍 | 立即傳送檔案* | 說明論壇 |
 | 另存新檔* |  | 新增自由表格 | 新增警報 | 依排程傳送檔案* |  |
-| 設定為著陸頁面* |  | 新行 | 重新整理元件 | 組織專案資料 |  |
+| 設定為登陸頁面* |  | 新行 | 重新整理元件 | 組織專案資料 |  |
 | 重新整理專案 |  | 新增長條圖 |  |  |  |
 | 下載 CSV |  |  |  |  |  |
 | 下載 PDF* |  |  |  |  |  |
 | 專案資訊和設定 |  |  |  |  |  |
 
-## 左側欄 {#section_271295C26EC840ABB2A8E7EC0498B60E}
+## 左側邊欄{#section_271295C26EC840ABB2A8E7EC0498B60E}
 
-左側欄有 3 個圖示，您只需按一下即可存取「面板」、[「視覺效果」](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和[「元件」](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(維度、量度、區段、資料範圍)：
+左側邊欄有 3 個圖示，您只需按一下即可存取「面板」、[「視覺效果」](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和[「元件」](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(維度、量度、區段、資料範圍)：
 
 ![](assets/panels.png) ![](assets/visualizations.png) ![](assets/components.png)
 
-可從左側欄存取的面板清單會新增&#x200B;**[!UICONTROL 「空白面板」]**。若要建立&#x200B;**「新同類群組面板」**，請拖曳至「空白面板」，並拖曳至「同類群組表格」視覺效果。
+可從左側邊欄存取的面板清單會新增&#x200B;**[!UICONTROL 「空白面板」]**。若要建立&#x200B;**「新同類群組面板」**，請拖曳至「空白面板」，並拖曳至「同類群組表格」視覺效果。
