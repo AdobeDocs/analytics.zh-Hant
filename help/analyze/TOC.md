@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 9758f88439ae550a68ba937ccb56425e2df127cc
 workflow-type: tm+mt
 source-wordcount: '1100'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 + [Analytics 工具指南](home.md)
 + Analysis Workspace {#analysis-workspace}
-   + [Analysis Workspace 概述](analysis-workspace/home.md)
+   + [Analysis Workspace 概觀](analysis-workspace/home.md)
    + [Analysis Workspace 的使用案例](analysis-workspace/freeform-analysis-examples-use-cases.md)
    + [Analysis Workspace 的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
    + 建立工作區專案 {#build-workspace-project}
@@ -28,7 +28,7 @@ ht-degree: 98%
       + 欄和列的設定 {#column-row-settings}
          + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
          + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [動態項目與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
+         + [動態與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
       + [還原和重做設定](analysis-workspace/build-workspace-project/undo-redo.md)
       + [Analysis Workspace 中可用的快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
@@ -70,7 +70,7 @@ ht-degree: 98%
       + [Venn](analysis-workspace/visualizations/venn.md)
       + [區域圖和堆疊區域圖](analysis-workspace/visualizations/area.md)
       + [長條圖和堆疊長條圖](analysis-workspace/visualizations/bar.md)
-      + [項目圖表](analysis-workspace/visualizations/bullet-graph.md)
+      + [項目符號圖表](analysis-workspace/visualizations/bullet-graph.md)
       + [環形圖](analysis-workspace/visualizations/donut.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
       + [折線圖](analysis-workspace/visualizations/line.md)
@@ -80,12 +80,12 @@ ht-degree: 98%
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板概觀](analysis-workspace/c-panels/panels.md)
-      + [Analytics for Target(A4T)面板](analysis-workspace/c-panels/a4t-panel.md)
+      + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
-      + Segment comparison panel {#segment-comparison}
+      + 區段比較面板 {#segment-comparison}
          + [區段比較概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
@@ -239,13 +239,13 @@ ht-degree: 98%
       + [最佳作法](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [疑難排解 Power BI 的整合問題](report-builder/c-publish-power-bi/troubleshooting.md)
       + [適用於 Power BI 的 Adobe Analytics 內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Report Builder 的疑難排解和最佳作法](report-builder/troubleshoot.md)
+   + [Report Builder 的疑難排解和最佳做法](report-builder/troubleshoot.md)
 + Activity Map {#activity-map}
    + [Activity Map 概觀](activity-map/activity-map.md)
    + 快速入門 {#getting-started}
       + 管理員快速入門 {#get-started-admins}
          + [啟用Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [實作代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [實施代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 使用者快速入門 {#get-started-users}
          + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -336,8 +336,8 @@ ht-degree: 98%
    + [時間](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 概觀](tech-previews/overview.md)
-+ Adobe Analytics 儀表板 {#mobapp}
-   + [Adobe Analytics儀表板——概觀](mobile-app/home.md)
++ Adobe Analytics 控制面板 {#mobapp}
+   + [Adobe Analytics 控制面板 - 概觀](mobile-app/home.md)
    + [組織者指南](mobile-app/curator.md)
    + [執行使用者快速入門指南](mobile-app/executive.md)
 + 漸進式網頁應用程式 {#pwa}
