@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '7820'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -27,14 +27,14 @@ ht-degree: 97%
 
 | 功能 | 說明 |
 |--- |--- |
-| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[深入了解...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[深入了解...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白麵板 | 空白麵板現在包含面板和視覺化，提供您更順暢的方式來挑選最適合您的分析工作流程。 |
-| 快速洞察面板（2020年6月25日） | 「快速深入分析」為 Analysis Workspace 的非分析師和新使用者提供指引，了解如何快速輕鬆回答業務問題。[深入了解...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 工作區中Analytics for Target面板（2020年6月25日） | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[深入了解...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 快速洞察面板（2020年6月25日） | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| 工作區中的「Analytics for Target」面板 (2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[更多詳情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 「Workspace 簡介」頁面 | 「Workspace 簡介」頁面提供了 Analysis Workspace 環境和 Adobe Analytics 管理員 (如果您需要協助) 的相關資訊，以及產品內意見反應方法。此頁面位於「Workspace > 說明 > Workspace 簡介」。 |
 
 ## 2020 年 5 月
@@ -44,7 +44,7 @@ ht-degree: 97%
 | 功能 | 說明 |
 |--- |--- |
 | 從空白狀態自動建立自由表格 | 過去，您必須先新增自由表格，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立自由表格。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## 2020 年 4 月
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 | 功能 | 說明 |
 |--- |--- |
-| Automatically build [!UICONTROL Freeform Tables] from a blank state | 以前您無法直接將元件拖放到空白專案或空白面板中，必須先新增自由表格。現在，您可以直接將元件拖放至空白的專案或面板，由系統自動以建議的格式為您建立自由表格。Additionally, improvements were made to how mixed component types (e.g. dimensions &amp; metrics) are handled when dropped into a blank [!UICONTROL Freeform Table] together. |
+| 從空白狀態自動建立[!UICONTROL 自由表格] | 以前您無法直接將元件拖放到空白專案或空白面板中，必須先新增自由表格。現在，您可以直接將元件拖放至空白的專案或面板，由系統自動以建議的格式為您建立自由表格。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白[!UICONTROL 自由表格]時的處理方式。 |
 
 ## 2020 年 3 月
 
@@ -70,7 +70,7 @@ ht-degree: 97%
 | 功能 | 說明 |
 |--- |--- |
 | 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-setup.html)。 |
-| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 工作區其他增強功能 | <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 工作區除錯工具 | 「說明」功能表新增工作區偵錯程式，供您以更順暢的方式啟用，以偵錯工作區請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -116,7 +116,7 @@ ht-degree: 97%
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 新的立即可用濾鏡 | 新增立即可用的篩選器至左側欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
+| 新的立即可用濾鏡 | 新增立即可用的篩選器至左側邊欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
 
 ## 2019 年 5 月
 
@@ -141,7 +141,7 @@ ht-degree: 97%
 | 功能 | 說明 |
 |--- |--- |
 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組分析的重大改善可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
-| [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
+| [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
 | [支援歸因 IQ 中的多值變數](attribution/overview.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將歸因 IQ 套用至這些點擊層級變數。 |
 | 改善效能 | 提升劃分視覺效果的速度，具有大量劃分的專案會更快載入。 |
 
@@ -247,8 +247,8 @@ ht-degree: 97%
    <td colname="col2"> <p>歸因 IQ 可讓您針對行銷績效執行更精細的智慧化分析作業。全新的歸因模式適用於 Analysis Workspace (任何表格或任何劃分) 與計算量度中的量度。全新的歸因面板可提供更理想的視覺化效果和比較功能。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b> 改善左側欄 </b> </p> </td> 
-   <td colname="col2"> <p>對左側欄加以改善，使其更為直覺且易於使用： </p> 
+   <td colname="col1"> <p><b> 改善左側邊欄 </b> </p> </td> 
+   <td colname="col2"> <p>對左側邊欄加以改善，使其更為直覺且易於使用： </p> 
     <ul id="ul_087BEDF4338946DA857CD82CB69F98C2"> 
      <li id="li_C751AACAC60442DC93118F0819F8EEA7"> 將各元件 (量度、區段、日期) 的建立 (+) 功能內嵌在標頭中。 </li> 
      <li id="li_DE2EB184A02D4CE58C23F518DB85EFDD"> 在每個區段清單的最下方新增「+ 查看全部」，以明確表明有超過 5 個選項。 </li> 
@@ -314,7 +314,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >區段範本</a>和<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >計算量度範本</a></b> </p> </td> 
-   <td colname="col2"> <p>現在起，左側欄會顯示區段範本和計算量度範本。 </p> </td> 
+   <td colname="col2"> <p>現在起，左側邊欄會顯示區段範本和計算量度範本。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>拖曳元件時可同時捲動</b> </p> </td> 
@@ -511,7 +511,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>event#、eVar# 和 prop# 的變更 </p> </td> 
-   <td colname="col2"> <p>2017 年新增到左側欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>(亦適用於虛擬報表套裝產生器。) </p> </td> 
+   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>(亦適用於虛擬報表套裝產生器。) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「無/未指定」的變更 </p> </td> 
@@ -568,7 +568,7 @@ ht-degree: 97%
    <td colname="col2"> <p>若有視覺效果連接到自由格式表格或同類群組表格，則左上角的點 (資料來源設定) 會列出已連接的視覺效果。游標暫留時會反白顯示連結的視覺效果，只要按一下，即可進入該視覺效果。 </p> <p>此外還有一個「顯示/隱藏資料表」核取方塊，讓您顯示或隱藏資料表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >新增至左側欄事件名稱的 Event#</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >新增至左側邊欄事件名稱的 Event#</a> </p> </td> 
    <td colname="col2"> <p>在 2017 年 10 月前，我們已將 evar# 和 prop# 附加至維度名稱，您可以搜索這些號碼。現在事件也可使用相同的功能。 </p> <p>範例：「訂閱」現於左側邊欄顯示為「訂閱 (event1)」 </p> <p>請記住： </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">表中不會顯示事件號碼 (以保持標題簡短)。 </li> 
@@ -596,7 +596,7 @@ ht-degree: 97%
    <td colname="col2"> 
     <ul id="ul_645B43AC6F554353B887DD58F0AA86E8"> 
      <li id="li_05B16A84008E4DA3A5DE91AF3C942D55">空白面板：現在開始會強調顯示所有可以新增至面板的視覺效果，例如地圖、流失、流量、色階分布圖、同類群組和 Venn 圖表。您可以選擇將此面板儲存為預設專案啟動狀態。 </li> 
-     <li id="li_9F1ED138DB0E453DA6BD4B4A512492CC">新的左側欄樣式使左側欄上的面板、視覺效果和元件更加清晰可見而實用。 </li> 
+     <li id="li_9F1ED138DB0E453DA6BD4B4A512492CC">新的左側邊欄樣式使左側邊欄上的面板、視覺效果和元件更加清晰可見而實用。 </li> 
      <li id="li_5DF6177F0EFD4D4D9D432768DEA3F37D">自由格式表格：空白的自由格式表格現在會顯示示範 Analysis Workspace 拖放範例的動畫 GIF。 </li> 
     </ul> </td> 
   </tr> 
@@ -883,7 +883,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/curate-share/curate.md"  >自動共用專案元件</a> </p> </td> 
-   <td colname="col2"> <p>您現在可以選擇與所有收件者自動共用專案元件 (區段、計算量度及日期範圍)。共用後，這些元件會出現在收件者的工作區元件下拉式清單中。 </p> </td> 
+   <td colname="col2"> <p>您現在可以選擇與所有收件者自動共用專案元件 (區段、計算量度及日期範圍)。共用後，這些元件會出現在收件者工作區的「元件」下拉式清單中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>CSV 格式的流失視覺效果   </p> </td> 
@@ -1010,7 +1010,7 @@ ht-degree: 97%
 * [新群組權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]** > **[!UICONTROL 工作區]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
 * 行動設定檔案中遺失[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案功能表結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端功能表使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
-* [新的左側欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、視覺效果、元件
+* [新的左側邊欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、視覺效果、元件
 * 新的 [](/help/analyze/analysis-workspace/visualizations/venn.md)Venn 視覺效果類型，可讓您拖曳至最多 3 個區段及量度，並建立 Venn 圖表。
 * 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
 * [「建立視覺效果」圖示](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：按一下此圖示可提供您下一個動作 (長條圖、Venn...) 的智慧猜測
@@ -1179,7 +1179,7 @@ ht-degree: 97%
 
 ## 維度預覽 {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-在「[!UICONTROL 維度]」元件面板中，將滑鼠移至維度旁的資訊圖示上，即可預覽前五大項目。
+在[!UICONTROL 維度]元件面板中，將滑鼠移至維度旁的資訊圖示上，即可預覽前五大項目。
 
 ![](assets/dimension-preview.png)
 
