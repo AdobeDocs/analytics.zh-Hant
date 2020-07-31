@@ -3,11 +3,11 @@ description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe
 title: 管理區段
 topic: Report builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -24,10 +24,10 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!NOTE]
 >
-> 若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
+>若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. 在「請求精靈」步驟 1 的區段面板中，按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需如何建立區段的詳細資訊，請參閱 [Analytics區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
+1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
 1. 在定義及儲存區段之後，返回「請求精靈」。
 1. 按一下「重新整理」圖示以重新整理區段清單。
 
@@ -51,7 +51,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 1. 返回 Report Builder ，按一下「重新整理」圖示以重新整理區段清單。
 1. 現在，您已可套用此區段。
 
-## 搜尋及套用區段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## 搜尋及套用區段{#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
 任何在「報表與分析」、「Ad Hoc Analysis」、Report Builder 或「Data Warehouse」中建立的區段，都會出現在此區段清單中。若要重新整理清單，請按一下「重新整理」圖示 (![](assets/refresh_icon.png)。
 
@@ -65,7 +65,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!NOTE]
 >
-> 無論您是否擔任管理員，都只能在 Report Builder 中查看您擁有的區段以及與您共用的區段(在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段)。
+> 無論您是否擔任管理員，都只能在 Report Builder 中查看您擁有的區段以及與您共用的區段。(在「行銷 Reports &amp; Analytics」使用者介面中，管理員可查看組織中的所有區段)。
 
 ## 篩選區段 {#section_376E986D3E684999A7CDB08E53854159}
 
@@ -83,7 +83,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 | 其他篩選條件 > 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |
 | 其他篩選條件 > 批准 | 顯示所有已正式批准的區段。 |
 
-## 將區段控制項新增至活頁簿 {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 將區段控制項新增至活頁簿{#section_E3E5149A8464441FA5445A98DBD520AC}
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
@@ -102,7 +102,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_control2.png)
 
-## 重新整理區段清單 {#section_22E4A86789444B4A998532396B476EFB}
+## 重新整理區段清單{#section_22E4A86789444B4A998532396B476EFB}
 
 每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 (![](assets/refresh_icon.png)，以重新整理區段的快取清單。
 
