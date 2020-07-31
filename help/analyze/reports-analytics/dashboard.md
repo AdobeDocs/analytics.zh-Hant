@@ -4,9 +4,9 @@ subtopic: Dashboards
 title: 控制面板和報表
 topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1819'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 您可以將大多數行銷報表新增到控制面板，包括以圖形呈現的深入報表，例如[!UICONTROL 流失報表]、[!UICONTROL 轉換漏斗報表]及 [!UICONTROL Pathfinder 報表]。
 
-您也可以將控制面板設定為著陸頁面、將控制面板與其他使用者共用，以及排程控制面板的傳送。如果您未將控制面板 (或書籤) 設定為著陸頁面，則會顯示[!UICONTROL 「我的建議報表」]控制面板。**[!UICONTROL 「我的建議報表」]**&#x200B;會顯示&#x200B;**[!UICONTROL 「關鍵量度」]**&#x200B;報表以及 5 個最常檢視的報表。這些報表並不固定，會根據您最常檢視的實際報表動態顯示。
+您也可以將控制面板設定為登陸頁面、將控制面板與其他使用者共用，以及排程控制面板的傳送。如果您未將控制面板 (或書籤) 設定為登陸頁面，則會顯示[!UICONTROL 「我的建議報表」]控制面板。**[!UICONTROL 「我的建議報表」]**&#x200B;會顯示&#x200B;**[!UICONTROL 「關鍵量度」]**&#x200B;報表以及 5 個最常檢視的報表。這些報表並不固定，會根據您最常檢視的實際報表動態顯示。
 
 請注意，有些經常檢視的報表無法設定為控制面板，因此無法顯示。這些類別包括：
 
@@ -91,7 +91,7 @@ t_dashboard_add.xml
 
    儲存控制面板會讓它顯示在&#x200B;**[!UICONTROL 控制面板]**&#x200B;功能表中。新控制面板也會出現在[!UICONTROL 控制面板管理員]中 (**[!UICONTROL 我的最愛]** > **[!UICONTROL 控制面板]** > **[!UICONTROL 管理器]**)，您可在這裡編輯、組織、共用、計劃、封存控制面板等等。(請參閱[管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md))。
 
-1. (可選) 若要將控制面板設為著陸頁面，請按一下&#x200B;**[!UICONTROL 「更多選項]** > **[!UICONTROL 設定為著陸頁面」]**。
+1. (可選) 若要將控制面板設為登陸頁面，請按一下&#x200B;**[!UICONTROL 「更多選項]** > **[!UICONTROL 設定為登陸頁面」]**。
 
 ## 建立小報表 {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
@@ -200,7 +200,7 @@ t_dashboard_edit.xml
 | 變更報表日期 | 若是控制面板，按一下日曆(該控制面板中的所有小報表都會反映這項變更)。<br>若是小報表，按一下日期連結，然後設定日曆。 |
 | 命名控制面板 | 開啟控制面板，然後按一下[!UICONTROL 「更多] > [!UICONTROL 重新命名」]。 |
 | 檢視控制面板封存檔 | 按一下[!UICONTROL 「更多] > [!UICONTROL  檢視封存」]。 |
-| 將控制面板設為著陸頁面 | 在控制面板中，按一下[!UICONTROL 「更多] > [!UICONTROL 設定為著陸頁面」]。 |
+| 將控制面板設為登陸頁面 | 在控制面板中，按一下[!UICONTROL 「更多] > [!UICONTROL 設定為登陸頁面」]。 |
 | 下載控制面板 | 在控制面板中，按一下[!UICONTROL 「更多] > 下載」。 |
 | 列印控制面板 | 在控制面板中，按一下[!UICONTROL 「更多] > 列印」。 |
 | 儲存控制面板 | 在控制面板中，按一下另存新檔，然後指定名稱。 |
