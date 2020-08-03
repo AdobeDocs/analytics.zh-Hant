@@ -6,10 +6,10 @@ title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: 422e99d9ea70f0192443d7ebc3631c6bf99e7591
+source-git-commit: 93545364fe8c99dd9049eeeac06f2c15367defc0
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 97%
+source-wordcount: '3674'
+ht-degree: 96%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 97%
 | `geo_region` | 根據 IP 的點擊來源州或地區名稱。Adobe 與 Digital Envoy 合作，比對 IP 位址與州/地區。 | char(32) |
 | `geo_zip` | 點擊的來源郵遞區號 (根據 IP)。Adobe 與 Digital Envoy 合作，比對 IP 位址與郵遞區號。 | varchar(16) |
 | `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
-| `hit_source` | 指出點擊來源。<br>1：沒有時間戳記的標準影像請求<br>2：具有時間戳記的標準影像請求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：完整處理資料來源上傳<br>7：TransactionID 資料來源上傳<br>8：不再使用；舊版 Adobe Advertising Cloud 資料來源 <br>9：已不再使用；Adobe Social 摘要量度 <br>10: 使用Audience Manager伺服器端轉送 | 不帶正負號的 tinyint |
+| `hit_source` | 指出點擊來源。Hit_sources 0、1、2和6會計費。 <br>1: 沒有時間戳記 <br>2的標準影像要求： 具有時間戳記 <br>3的標準影像要求： 使用時間戳記 <br>4即時資料來源上傳： 未使用 <br>5: 通用資料來源上 <br>傳6: 完整處理資料來源上 <br>傳7: TransactionID資料來源上 <br>傳8: 不再使用； 舊版Adobe Advertising Cloud資料來源 <br>9: 不再使用； Adobe Social摘要量 <br>度10: 使用Audience Manager伺服器端轉送 | 不帶正負號的 tinyint |
 | `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
 | `hitid_high` | 搭配 hitid_low 使用以專門識別點擊。 | 不帶正負號的 bigint |
 | `hitid_low` | 搭配 hitid_high 使用以專門識別點擊。 | 不帶正負號的 bigint |
