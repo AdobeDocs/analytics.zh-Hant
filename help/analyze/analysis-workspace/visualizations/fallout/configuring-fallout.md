@@ -2,8 +2,11 @@
 description: 'null'
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: 68ff30395daf5cfb26d3e597ec4e6098a856fb51
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +21,9 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
 
-1. 從「視覺效果」下拉式清單將「[!UICONTROL Fallout]」視覺效果拖曳至「[!UICONTROL Freeform Table]」中。
+1. 從「視覺效果」下拉式清單將[!UICONTROL 「流失」]視覺效果拖曳至[!UICONTROL 「自由表格」]中。
 
-1. 將「頁面」維度拖曳至「自由表格」中，然後從那裡將頁面 (在此例中是「首頁 - JJEsquire」) 拖曳至「**[!UICONTROL Add TouchPoint]**」欄位，作為第一個接觸點。
+1. 將「頁面」維度拖曳至「自由表格」中，然後從那裡將頁面 (在此例中是「首頁 - JJEsquire」) 拖曳至&#x200B;**[!UICONTROL 「新增接觸點」]**&#x200B;欄位，作為第一個接觸點。
 
    ![](assets/fallout1.png)
 
@@ -62,7 +65,6 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 | 設定 | 說明 |
 |--- |--- |
 | 流失容器 <ul><li>瀏覽</li><li>訪客</li></ul> | 可讓您切換瀏覽和訪客，分析訪客路徑。預設為「訪客」。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
-| 將「所有訪客」顯示為第一個接觸點 | 如果您不想將「所有訪客」顯示為第一個接觸點，您可以取消選取此項。 |
 
 **以滑鼠右鍵按一下接觸點**，下列選項就會出現：
 
