@@ -2,7 +2,7 @@
 title: contextData
 description: 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。
 translation-type: tm+mt
-source-git-commit: 44ee19e468b9455c8c510421e507dd3f091fbc88
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 88%
@@ -35,7 +35,9 @@ s.contextData["example_variable"] = "Example value";
 
 ## 使用處理規則填入分析變數
 
->[!IMPORTANT] 處理規則執行後，上下文資料變數便會遭到捨棄。如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
+>[!IMPORTANT]
+>
+> 處理規則執行後，上下文資料變數便會遭到捨棄。如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
 
 1. 請更新您的實施以設定上下文資料變數名稱和值。
 2. 登入 Adobe Analytics 並前往「管理員 > 報表套裝」。
