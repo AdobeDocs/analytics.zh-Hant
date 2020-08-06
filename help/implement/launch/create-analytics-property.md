@@ -2,10 +2,10 @@
 title: 在 Launch 中建立 Analytics 屬性
 description: 使用 Adobe Experience Platform Launch 建立空間來自訂資料收集方式。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 100%
+source-wordcount: '549'
+ht-degree: 98%
 
 ---
 
@@ -36,18 +36,21 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 資料元素是網站特定部分的參考，可用來收集變數值。
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
-2. 按一下您預計在網站上實施的 Launch 屬性。
-3. 按一下資料元素標籤，然後按一下「建立新資料元素」。
-4. 為資料元素執行下列設定：
+1. 按一下您預計在網站上實施的 Launch 屬性。
+1. 按一下資料元素標籤，然後按一下「建立新資料元素」。
+1. 為資料元素執行下列設定：
+
    * 名稱：頁面名稱
    * 擴充功能：核心
    * 資料元素類型：JavaScript 變數
    * 變數路徑：`window.document.title`
 
-      >[!NOTE] 注意：此範例值僅供協助您快速上手之用。如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
+      >[!NOTE]
+      >
+      >這是幫助開始使用的示例值。 如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
    * 已勾選簡潔文字
    * 持續時間：Pageview
-5. 按一下「儲存」。
+1. 按一下「儲存」。
 
 ## 為 Adobe Analytics 建立規則
 
