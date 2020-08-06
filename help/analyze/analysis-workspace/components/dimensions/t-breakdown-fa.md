@@ -5,7 +5,7 @@ title: 劃分維度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 93%
@@ -26,7 +26,9 @@ ht-degree: 93%
 
    您可以依維度項目或對象區段劃分所選時段的量度。 您也可以更深入鑽研至更詳細的層級。
 
-   >[!NOTE] 表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
+   >[!NOTE]
+   >
+   >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
 [在 YouTube 觀看「Analysis Workspace 的維度」](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:54)
 
