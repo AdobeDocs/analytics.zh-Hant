@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的全域報表套裝
 description: 瞭解使用全域報表套裝的優點和需求。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 100%
@@ -35,12 +35,15 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
 請使用下列一般準則來瞭解實施全域報表套裝的程序。
 
 1. 在 Adobe Analytics 中建立全域報表套裝。如需詳細資訊，請參閱管理員使用指南中的[建立報表套裝](../../admin/admin-console/create-report-suite.md)。
-2. 與組織中負責每個網域的團隊合作。多數團隊都有其業務領域特定的報表需求。
-3. 您可以在[解決方案設計文件](solution-design.md)中記錄並彙總所有這些需求。如果不同團隊對某個維度有類似需求，就可使用相同的自訂變數。舉例來說，如果網站 A 和網站 B 都需要階層連結維度，則兩個網站的實施都可透過 eVar1 傳送該項資料。
-   >[!IMPORTANT] 請確認您在不同網域間使用任何指定自訂變數的方式都相同。如果不同網站的用途不同，請勿使用相同的 eVar 或事件。
-4. 請確認每個網域都有資料層，以便簡化資料收集。沒有資料層依然可以收集資料，但實施的可靠性和持久性會降低，尤其當您的網站經過重新設計時更是如此。
-5. 使用 Adobe Experience Platform Launch 實施 Analytics。不同的網站可能需要不同的資料元素。使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。請參閱 Adobe Experience Platform Launch 使用指南中的[啟動概述](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)。
-6. 納入 [Adobe Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)，並使用 [appendVisitorIDsTo](https://docs.adobe.com/content/help/zh-Hant/id-service/using/id-service-api/methods/appendvisitorid.html) 函數。使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
+1. 與組織中負責每個網域的團隊合作。多數團隊都有其業務領域特定的報表需求。
+1. 您可以在[解決方案設計文件](solution-design.md)中記錄並彙總所有這些需求。如果不同團隊對某個維度有類似需求，就可使用相同的自訂變數。舉例來說，如果網站 A 和網站 B 都需要階層連結維度，則兩個網站的實施都可透過 eVar1 傳送該項資料。
+
+   >[!IMPORTANT]
+   >
+   > 請確認您在不同網域間使用任何指定自訂變數的方式都相同。如果不同網站的用途不同，請勿使用相同的 eVar 或事件。
+1. 請確認每個網域都有資料層，以便簡化資料收集。沒有資料層依然可以收集資料，但實施的可靠性和持久性會降低，尤其當您的網站經過重新設計時更是如此。
+1. 使用 Adobe Experience Platform Launch 實施 Analytics。不同的網站可能需要不同的資料元素。使用每個網域的特定規則，才能確保每個資料元素皆正確填入，並且這些資料元素能夠指派給各自對應的 eVar 和事件。請參閱 Adobe Experience Platform Launch 使用指南中的[啟動概述](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)。
+1. 納入 [Adobe Experience Cloud ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)，並使用 [appendVisitorIDsTo](https://docs.adobe.com/content/help/zh-Hant/id-service/using/id-service-api/methods/appendvisitorid.html) 函數。使用者從一個網域點點擊前往另一個網域時，此函數會合併這些訪客資料。
 
 ## 使用全域報表套裝修改現有實施
 
