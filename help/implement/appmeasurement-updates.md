@@ -3,7 +3,7 @@ title: JavaScript 適用的 AppMeasurement 發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 97%
@@ -356,7 +356,9 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 * 如果訪客 API 尚未取得需要的值，從連結 onclick 功能呼叫 s.t 時，會導致頁面檢視計數倍增，這個問題已經修正。
 * HTTP POST 支援。
 
-   >[!IMPORTANT]若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實施用於 Experience Cloud。
+   >[!IMPORTANT]
+   >
+   >若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實施用於 Experience Cloud。
 
 ## 1.4 版
 
