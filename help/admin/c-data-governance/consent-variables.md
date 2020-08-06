@@ -3,7 +3,7 @@ description: 資料隱私權中的隱私權報表變數。
 title: 隱私權報表變數
 topic: Admin tools
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 100%
@@ -45,7 +45,9 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 「啟用資料隱私權報表」]**&#x200B;按鈕。
 
-   >[!NOTE] 這些變數一經啟用即無法關閉。
+   >[!NOTE]
+   >
+   > 這些變數一經啟用即無法關閉。
 
    ![](assets/rsm-privacy-enable.png)
 
