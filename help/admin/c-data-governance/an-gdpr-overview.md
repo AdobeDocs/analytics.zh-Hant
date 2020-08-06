@@ -3,7 +3,7 @@ description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作�
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 100%
@@ -50,6 +50,8 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 * 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 GDPR 刪除與存取請求。
 
-   >[!NOTE] 如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
+   >[!NOTE]
+   >
+   >如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
