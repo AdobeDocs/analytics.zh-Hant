@@ -2,7 +2,7 @@
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用CDA。
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 91%
@@ -14,7 +14,9 @@ ht-degree: 91%
 
 滿足所有必要條件後，請依照下列步驟啟用跨裝置分析。您必須屬於「產品設定檔管理員」群組，或在 Adobe Analytics 中擁有管理員權限，才能依照這些步驟操作。
 
->[!IMPORTANT] 執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需先決條件 [和限制](overview.md) ，請參閱總覽頁[面](field-based-stitching.md) ，以及所需的拼接方法(分 [別是以欄位為基礎的拼接或](device-graph.md)裝置圖形)。
+>[!IMPORTANT]
+>
+> 執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需先決條件 [和限制](overview.md) ，請參閱總覽頁[面](field-based-stitching.md) ，以及所需的拼接方法(分 [別是以欄位為基礎的拼接或](device-graph.md)裝置圖形)。
 
 ## 選擇要啟用 CDA 的跨裝置報表套裝
 
