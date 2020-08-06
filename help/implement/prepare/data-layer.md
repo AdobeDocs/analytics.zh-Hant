@@ -2,7 +2,7 @@
 title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -23,10 +23,13 @@ ht-degree: 100%
 使用資料層實施 Adobe Analytics 時，通常會依照下列步驟操作：
 
 1. **與您的網站開發團隊合作實施資料層**：您的網站開發團隊主要負責確保資料層物件填入正確的值。請與您的網站開發團隊一起檢閱此頁面，確保團隊之間的期望相同。
-   >[!NOTE] 可選擇遵循 Adobe 建議的資料層規格。如果您已有資料層，或選擇不遵循 Adobe 的規格，請確定貴組織對於需遵循的規格有共識。
-2. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `digitalData.page.pageInfo.pageID`。
-3. **使用 Adobe Experience Platform Launch 將資料層物件對應至 Launch 資料元素**：在 Launch 中建立資料元素，並將它們對應至資料層中羅列的 JavaScript 屬性。
-4. **在 Launch 中使用 Adobe Analytics 擴充功能，將資料元素對應至 Analytics 變數**：依循解決方案設計文件，將每個資料元素指派給適當的 Analytics 變數。
+
+   >[!NOTE]
+   >
+   > 可選擇遵循 Adobe 建議的資料層規格。如果您已有資料層，或選擇不遵循 Adobe 的規格，請確定貴組織對於需遵循的規格有共識。
+1. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `digitalData.page.pageInfo.pageID`。
+1. **使用 Adobe Experience Platform Launch 將資料層物件對應至 Launch 資料元素**：在 Launch 中建立資料元素，並將它們對應至資料層中羅列的 JavaScript 屬性。
+1. **在 Launch 中使用 Adobe Analytics 擴充功能，將資料元素對應至 Analytics 變數**：依循解決方案設計文件，將每個資料元素指派給適當的 Analytics 變數。
 
 ## 規格
 
