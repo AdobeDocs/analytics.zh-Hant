@@ -3,7 +3,7 @@ description: 'null'
 title: 檢視目前伺服器呼叫使用量
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
@@ -28,7 +28,9 @@ ht-degree: 100%
 
 * 將您目前期間的使用量與去年的使用量 (藍線) 進行比較。很顯然地，只有當貴公司擁有去年的伺服器呼叫使用量資料時，才會出現藍線。
 
-   >[!NOTE] 如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/c-server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
+   >[!NOTE]
+   >
+   > 如果您想要檢視上個時段的使用量，您必須前往[「報表套裝使用量」](/help/admin/c-server-call-usage/report-suite-usage.md)標籤下載上個時段的使用量資料。
 
 * 列出使用的呼叫百分比 (百分比和原始資料)，以及實際使用期間的百分比 (百分比和原始資料)。
 * 預設情況下會每天更新，有 5 天的處理延遲。
