@@ -2,7 +2,7 @@
 title: getTimeBetweenEvents
 description: 測量兩個事件之間的時間長度。
 translation-type: tm+mt
-source-git-commit: a492de4ccbcd6f3f8ca81c9fecbcca4780e0f589
+source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 100%
@@ -70,7 +70,10 @@ s.inList=function(lv,vtc,d,cc){if("string"!==typeof vtc)return!1;if("string"===t
 * **`rt`** (必要，布林值)：重新啟動計時器選項。如果每次 `events` 變數包含啟動計時器事件時都需重新啟動計時器，則設為 `true`。如果您不希望計時器在看到啟動計時器事件時重新啟動，則設為 `false`。
 * **`stp`** (必要，字串)：停止計時器事件。用於「停止計時器」的 Analytics 事件字串 (以逗號分隔)。
 * **`res`** (必要，布林值)：重設計時器選項。如果要記錄計時器啟動後的時間，並在計時器停止後重設計時器，請設為 `true`。如果要記錄時間但不要停止計時器，請設為 `false`。如果設為 `false`，則計時器會在事件變數記錄停止事件後繼續執行。
-   >[!TIP] 如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
+
+   >[!TIP]
+   >
+   > 如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
 * **`cn`** (選用，字串)：儲存第一個事件時間的 Cookie 名稱。預設為 `"s_tbe"`。
 * **`etd`** (選用，整數)：Cookie 的到期時間 (以天為單位)。設為 `0`，在瀏覽器作業階段結束時到期。若未設定，則預設為 1 天。
 * **`fmt`** (選用，字串)：傳回秒數的時間格式 (無預設值)
