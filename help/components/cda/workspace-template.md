@@ -2,7 +2,7 @@
 title: CDA 工作區範本
 description: 說明分析工作區中CDA範本中的每個欄位。
 translation-type: tm+mt
-source-git-commit: 2e7ec3b2e4401b02005b3099dae2bb34c64a6846
+source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 97%
@@ -22,7 +22,7 @@ Adobe 提供可檢視重要跨裝置效能資料的範本。
 
 已建立包含數個面板的 Analysis Workspace 專案。頂端會顯示目錄和簡介，以便檢視報表內容並導覽至個別報表。按一下目錄內的連結，或展開面板的摺疊式功能表，即可檢視那些報表。
 
-<!-->The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md<-->
+<!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
 * **適用於 Co-op 圖表成員的特殊備註**：顯示報表套裝的哪些部分包含來自 Co-op 圖表支援地區的訪客，哪些又包含來自 Co-op 不支援地區的訪客。
 * **使用者身分識別**：顯示使用以跨裝置分析為基礎之方法識別網站訪客的頻率。
