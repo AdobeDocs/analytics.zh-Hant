@@ -2,11 +2,11 @@
 description: 工作區中的專案共用和專案角色
 keywords: Analysis Workspace sharing
 title: 共用工作區專案
-translation-type: ht
-source-git-commit: 192951d794b5e45cbbce22122adff573cb853054
-workflow-type: ht
-source-wordcount: '1073'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+workflow-type: tm+mt
+source-wordcount: '1102'
+ht-degree: 94%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### 未指派任何角色 (專案連結收件者)
 
-收件者若未被指派任何角色，且收到專案的連結 (**[!UICONTROL 共用]>[!UICONTROL 取得專案連結]**)，將會獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
+If a recipient is not assigned a role and receives a [link](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) to the project (**[!UICONTROL Share]>[!UICONTROL Get project link]**), they will be placed into a role by default. 管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
 
 ### 已指派多個角色
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 ## 共用專案連結 {#Links}
 
-您可以在&#x200B;**[!UICONTROL 共用]>[!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。
+您可以在&#x200B;**[!UICONTROL 共用]>[!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[進一步瞭解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) ，如何建立可分享的工作區專案連結。
 
 ## 在專案管理員中共用專案 {#Manager}
 
