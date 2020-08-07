@@ -1,28 +1,60 @@
 ---
-description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
+description: 透過電子郵件傳送分析工作區專案，或排程專案進行傳送。
 keywords: Analysis Workspace
-title: 傳送檔案 - 排程專案進行傳送
+title: 計劃的專案
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 8%
 
 ---
 
 
-# 傳送檔案 - 排程專案進行傳送
+# 計劃的專案
 
-透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
+從「工作區共 **用」功能表**，您可以透過電子郵件將分析工作區專案傳送給選取的收件者。 檔案可以以CSV或PDF格式傳送。
 
-1. [ 建立 Analysis Workspace 專案](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)並儲存。
-1. 按一下 **[!UICONTROL Share]** > **[!UICONTROL Send File On Schedule]**.
+## 立即傳送檔案
 
-   ![步驟結果](assets/send-file.png)
+若要透過電子郵件立即傳送檔案給收件者：
 
-1. On the [!UICONTROL Send File] page, specify the file type (CSV or PDF).
+1. Click **Share > Send File Now**.
+1. 指定檔案類型（CSV或PDF）。
+1. （可選）新增將包含在電子郵件中的說明，以說明所收到的檔案。
+1. 新增收件者或群組。 您也可以輸入電子郵件地址。
+1. 按一下&#x200B;**立即傳送**。
+1. （可選）按一下 **顯示排程選項** ，以指定傳送排程。
 
-   ![步驟結果](assets/send-file-pop-up.png)
+## 依排程傳送檔案
 
-1. Add recipients email addresses or names, the click **[!UICONTROL Send Now]**.
-1. （可選）按一 **[!UICONTROL Show Scheduling Options]** 下以指定傳送排程，然後按一下 **[!UICONTROL Send on Schedule]**。
-1. Manage scheduled projects in **[!UICONTROL Components]** > [Scheduled Projects](/help/analyze/analysis-workspace/curate-share/schedule-projects.md).
+若要透過電子郵件定期傳送檔案給收件者：
+
+1. Click **Share > Send File on Schedule**.
+1. 指定檔案類型（CSV或PDF）。
+1. （可選）新增將包含在電子郵件中的說明，以說明所收到的檔案。
+1. 新增收件者或群組。 您也可以輸入電子郵件地址。
+1. 通過修改輸入的「開始於」和「結束於」來指定應傳送計畫的範圍。 結束日期必須在建立或修改排程當日起的一年內。
+1. 指定傳送頻率。 每個頻率都允許不同的自訂。
+1. 按一 **下「依排程傳送**」。
+
+## 排程專案管理員
+
+「排程分析工作區」專案可在「 **Analytics >元件>排程專案」下管理**。
+
+在「排程專案管理員」中，您可以編輯和刪除循環專案排程。 在搜尋列中或使用左側導軌中的篩選選項來搜尋排程。 您可以依標籤、已核准的排程、擁有者等進行篩選。
+
+以下是「計畫專案」管理員中的常見動作：
+
+| 動作 | 說明 |
+|---|---|
+| **編輯排程** | 按一下排程的標題，以更新其傳送設定。 |
+| **刪除計畫** | 在清單中選取排程的專案，然後從功能表按一下「刪除」。 這將刪除項目的選定時間表；不會刪除專案本身。 |
+| **新增標籤** | 在清單中選取排程的專案，然後選擇「標籤」或「核准」來組織排程，讓搜尋更輕鬆。 |
+| **查看失敗的計畫** | 導覽至左側導軌>其他篩選器>無法查看已失敗的排程。 |
+| **查看過期的計畫** | 導覽至左側導軌>其他篩選器>已到期，以查看已到期的計畫。 按一下排程的標題，以設定新的送貨排程。 |
+| **檢視排程ID** | 導覽至右上方的欄選項，並新增「排程ID」欄至表格。 排程的ID通常對除錯很有用。 |
+
+「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。排程的專案擁有權可 **以在「管理** 」>「Analytics使用者與資產」>「轉移資 **產」下方移轉至新使用者**。
