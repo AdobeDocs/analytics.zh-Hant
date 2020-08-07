@@ -2,10 +2,10 @@
 description: 您可以下載已儲存和未儲存的專案，有 PDF 和 CSV 兩種格式。
 title: 下載 PDF 或 CSV 檔案
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-translation-type: ht
-source-git-commit: 422b69a9f671bbd3c4e8f033916296cbdf7f27d9
-workflow-type: ht
-source-wordcount: '363'
+translation-type: tm+mt
+source-git-commit: 3660806bc25b2a234c4f694cf5e661f4e23d5cac
+workflow-type: tm+mt
+source-wordcount: '362'
 ht-degree: 100%
 
 ---
@@ -37,6 +37,6 @@ PDF 或 CSV 檔案的名稱會和專案目前名稱相同。若專案尚未儲�
 * 如果數字無效，則顯示空白儲存格。
 * 不套用捨入 (即使指定於計算量度中) - 會顯示原始值。
 
->[!N注意：]
+>[!NOTE]
 >
-> 匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。
+>匯出的 CSV 會繼續引用使用逗號作為小數分隔符號的數值。
