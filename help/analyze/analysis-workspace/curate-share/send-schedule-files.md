@@ -1,50 +1,24 @@
 ---
-description: 您可以立即共用及組織專案，並傳送專案檔案 (以 PDF 或 CSV 格式)，或依排程進行。
+description: 您可以組織、共用和排程PDF/CSV專案給組織中的收件者。
 title: 共用功能表
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
-source-git-commit: d1e3daa8b13b148191583e678cd58f415701d407
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 32%
 
 ---
 
 
 # 共用功能表
 
-您可以立即共用及組織專案，並傳送專案檔案 (以 PDF 或 CSV 格式)，或依排程進行。
+您可以在「工作區共用」功能表中組織、共用及排程PDF/CSV專案給組織中的收 **件者**。
 
-**[!UICONTROL 「Workplace]** > **[!UICONTROL 共用」]**
-
-<table id="table_5104A6D817E94A268BBDD47C5C8BB26E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 選項 </th> 
-   <th colname="col2" class="entry"> 做法 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 共用專案 </td> 
-   <td colname="col2"><a href="/help/analyze/analysis-workspace/curate-share/share-projects.md"  > 詳細資訊</a> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 取得專案連結 </td> 
-   <td colname="col2"> <p>複製並共用此連結以直接將其他人傳送至此專案。使用者必須登入。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 立即傳送檔案 </td> 
-   <td colname="col2"> <p>指定檔案類型、說明和收件者。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 依排程傳送檔案 </td> 
-   <td colname="col2"> <p>指定開始日期、間隔和頻率、結束日期。<a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  > 詳細資訊</a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 組織專案資料 </td> 
-   <td colname="col2"> <p><a href="/help/analyze/analysis-workspace/curate-share/curate.md"  > 詳細資訊</a> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 功能表選項 | 說明 |
+|---|---|
+| 共用專案 | 將專案提供給組織中的其他分析工作區使用者使用。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 取得專案連結 | 建立可分享的連結，以快速存取專案。 使用者必須登入。[更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) |
+| 立即傳送檔案 | 將專案立即以CSV或PDF格式傳送給指定的收件者。 |
+| 依排程傳送檔案 | 依排程將專案以CSV或PDF格式傳送給指定的收件者。 [更多詳情](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html) |
+| 組織專案資料 | 限制專案中可用的元件（維度、量度、區段、日期範圍）。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html) |
