@@ -1,8 +1,11 @@
 ---
 title: 疑難排解 JavaScript 實施
 description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務。
-translation-type: ht
-source-git-commit: 8aa6932dcbb6dad88c27ba1cd4f5aad3bafcfc52
+translation-type: tm+mt
+source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 73%
 
 ---
 
@@ -78,3 +81,29 @@ s.pageName = "        Home Page";
 ```
 
 在 Adobe Analytics 中，將這兩個變數值視為獨立個體，但是會自動移除空白字元以利顯示。結果報表會顯示兩個看似相同的「Home Page」行項目。請確定變數值中所需值的前後不含空白字元。
+
+## 截斷的影像要求
+
+將長值填入許多變數的實作有時會遇到截斷的影像要求。 有些較舊的瀏覽器（例如Internet Explorer）會對影像要求URL加上2083個字元的限制。 如果您的組織面臨很長的影像要求，請嘗試下列步驟：
+
+* **使用Experience Cloud ID服務**:AppMeasurement程式庫1.4.1和更新版本會在影像要求過長時，使用HTTP POST自動傳送影像要求。 使用此方法傳送的資料不會截斷，不論長度為何。 See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) for more information.
+* **使用處理規則**: [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) ，可將值從一個變數複製到另一個變數。 此方法可讓您省去在多個變數中設定相同值的麻煩。 例如：
+
+   一律執行：<br>以eVar1覆寫prop1的值以eVar1<br>以eVar1覆寫eVar2的值<br>以eVar1覆寫prop2的值<br>
+
+   然後在您的實作中設定eVar1:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   ```
+
+* **使用動態變數**:如果您的實作會以相同的值填入許多變數，則可以使 [用動態變數](/help/implement/vars/page-vars/dynamic-variables.md) ，來縮短請求URL:
+
+   ```js
+   s.eVar1 = "The quick brown fox jumps over the lazy dog";
+   s.eVar2 = "D=v1";
+   s.prop1 = "D=v1";
+   s.prop2 = "D=v1";
+   ```
+
+* **使用分類**:如果產品或頁面名稱異常長，您可以使用識別值或程式碼，然後使用分 [類](/help/components/classifications/c-classifications.md) ，以顯示更好記的名稱。
