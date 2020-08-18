@@ -2,7 +2,7 @@
 description: Analysis Workspace、Reports & Analytics、Ad Hoc Analysis、Report Builder、Data Warehouse 和 Data Workbench 的系統要求與比較。
 title: Analytics 產品比較和需求
 translation-type: tm+mt
-source-git-commit: 3a822c1c52a072f92a402810ec643a499c81b76d
+source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 54%
@@ -28,7 +28,7 @@ ht-degree: 54%
 | **可見的列限制（編頁前）** | 400 | 200 | 50000 | 無限制 | 無限制 | 無限制 | 50000 |
 | **多個報表套裝** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是的，但有限制 | 有 | 無 | 是 | 無 | 是 |
 | **劃分數** | 無限制 | 最多 2 | 最多 2 | 無限制 | 無限制 | 無限制 | 無限制，可跨多個查詢執行 |
-| **區段** <br> [更多詳情](/help/components/c-segmentation/c-segmentation-workflow/seg-workflow.md) | 是 | 是 | 是 | 是的，但有限 [制](/help/components/c-segmentation/seg-reference/seg-compatibility.md) | 有 | 無 | 是 |
+| **區段** <br> [更多詳情](/help/components/segmentation/segmentation-workflow/seg-workflow.md) | 是 | 是 | 是 | 是的，但有限 [制](/help/components/segmentation/seg-reference/seg-compatibility.md) | 有 | 無 | 是 |
 | **計算量度** <br> [更多詳情](/help/components/c-calcmetrics/cm-overview.md) | 是的，有了 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) | 是 | 是 | 無 | 是 | 無 | 是的，有了 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) |
 | **行銷管道** <br> [更多詳情](/help/components/c-marketing-channels/c-getting-started-mchannel.md) | 是 | 是 | 是 | 是 | 是 | 是- [va_finder、va_closer](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md) | 是 |
 | **世代分析** | [是](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 無 | 無 | 無 | 是 | 無 | 無 |
