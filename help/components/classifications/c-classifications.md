@@ -5,7 +5,7 @@ title: 關於分類
 topic: Admin tools
 uuid: abc1a1be-8e37-4b7e-81fd-3e99ac27fc6a
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 在 2018 年 5 月 10 日的 Analytics 維護發行中，Adobe 已開始限制日期啟用和數值分類的功能。這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
+>2018 年 5 月 10 日的 Analytics 維護發行中，Adobe 已開始限制日期啟用和數值分類的功能。這些分類類型已從「管理員」和「分類匯入工具」介面中移除。無法新增日期啟用和數值分類。但仍可透過標準分類工作流程來管理 (上傳和刪除) 現有分類，並可繼續在報告中使用。
 
 建立分類之後，您可以在整個 Adobe Analytics 中運用新的資料屬性。
 
@@ -45,7 +45,7 @@ Reports &amp; Analytics 包含追蹤程式碼變數預先定義分類，提供�
 
 請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
 
-下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱[一般檔案結構](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)。
+下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱[一般檔案結構](/help/components/classifications/importer/c-saint-data-files.md)。
 
 <table id="table_279728C28D9C40EE832ACC9F211B5F17"> 
  <thead> 
