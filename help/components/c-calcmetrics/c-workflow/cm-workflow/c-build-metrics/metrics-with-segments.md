@@ -3,7 +3,10 @@ description: 對個別量度分段可讓您在同一份報表中比較量度。(
 title: 區段量度
 uuid: 88f9829b-76e4-4598-9494-084a91602bc1
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 100%
 
 ---
 
@@ -28,11 +31,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
    >[!NOTE]
    >
-   >您也可以在[區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)中進行此操作。但我們已藉由在計算量度產生器中提供維度簡化了工作流程。
+   >您也可以在[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)中進行此操作。但我們已藉由在計算量度產生器中提供維度簡化了工作流程。
 
    >[!NOTE]
    >
-   >&quot;Internal&quot; means that the segment is not visible in the **[!UICONTROL Segments]** list in the left rail. You can however, make it public by hovering over the &quot;i&quot; icon next to it and clicking **[!UICONTROL Make public]**.
+   >「內部」表示左側欄的&#x200B;**[!UICONTROL 區段]**&#x200B;清單中不會顯示此區段。但您可以將游標停留在該區段旁的「i」圖示上，並按一下&#x200B;**[!UICONTROL 「設為公開」]**&#x200B;以公開該區段。
 
 1. 如果您沒有可供比較的區段，請先建立一個名為「國際訪客」的區段，其中「國家/地區」不等於「德國」。
 1. 將「德國」區段拖曳至「定義」畫布並將「獨特訪客」量度拖曳至其中，藉此建立並儲存名為「德國訪客」的量度：
@@ -40,11 +43,11 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
    ![](assets/german-visitors.png)
 
 1. 重複步驟 3，使用「國際訪客」區段和「獨特訪客」量度來建立「國際訪客」量度。
-1. In Analysis Workspace, drag the **[!UICONTROL Page]** Dimension into a Freeform Table and drag the 2 new calculated metrics next to each other to the top:
+1. 在 Analysis Workspace 中，將&#x200B;**[!UICONTROL 「頁面]**&#x200B;維度」拖曳至「自由表格」中，並將 2 個相鄰的新計算量度拖曳到最上方：
 
    ![](assets/workspace-pages.png)
 
-1. Or, in [!UICONTROL Reports & Analytics], open the [!UICONTROL Pages] report and click **[!UICONTROL Show Metrics]**, then apply the new US Visitors and International Visitors segmented metrics to see how their content browsing behavior compares.
+1. 或是在 [!UICONTROL Reports &amp; Analytics] 中開啟[!UICONTROL 頁面]報表，按一下&#x200B;**[!UICONTROL 「顯示量度」]**，然後套用新的「美國訪客」和「國際訪客」分段量度，以查看其內容瀏覽行為相較之下的結果。
 
    ![](assets/pages-report.png)
 
@@ -65,7 +68,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 如果您想概略查看美國和國際瀏覽行為的最大差異，則可建立另一個量度，相減兩者的百分比。若要這麼做，您可使用「容器」功能有效做為兩組量度間的括號。
 
-1. In the [!UICONTROL Definition] canvas, click **[!UICONTROL Add]** > **[!UICONTROL Container]**:
+1. 在「[!UICONTROL 定義]」畫布中按一下「**[!UICONTROL 新增]** > **[!UICONTROL 容器]**」：
 
    ![](assets/cm_add_container.png)
 
