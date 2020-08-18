@@ -5,7 +5,7 @@ title: 關於子分類
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 >[!NOTE]
 >
-> 子分類表示在分類中建立分類的能力。然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](classification-hierarchies.md)。
+>子分類表示在分類中建立分類的能力。然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](classification-hierarchies.md)。
 
 例如：
 
@@ -32,7 +32,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 | 123 | ABC | A12B |
 | 456 | DEF | C3D4 |
 
-如需資料檔案的詳細資訊，請參閱[分類資料檔案](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)。
+如需資料檔案的詳細資訊，請參閱[分類資料檔案](/help/components/classifications/importer/c-saint-data-files.md)。
 
 多級分類是由父分類和子分類所組成。例如：
 
@@ -46,7 +46,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 `<parent_name>^<child_name>`
 
-如需資料檔案格式的詳細資訊，請參閱[分類資料檔案](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)。
+如需資料檔案格式的詳細資訊，請參閱[分類資料檔案](/help/components/classifications/importer/c-saint-data-files.md)。
 
 例如：
 
@@ -59,7 +59,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 >[!NOTE]
 >
-> 若資料檔案中的[!UICONTROL 代碼]欄空白，Adobe 會自動為每個資料列產生唯一的代碼。為了避免在上傳含第二級或更高級分類資料的資料檔案時造成檔案毀損，請在「[!UICONTROL 代碼]」欄中的每一行填入星號 (*)。
+>若資料檔案中的[!UICONTROL 代碼]欄空白，Adobe 會自動為每個資料列產生唯一的代碼。為了避免在上傳含第二級或更高級分類資料的資料檔案時造成檔案毀損，請在「[!UICONTROL 代碼]」欄中的每一行填入星號 (*)。
 
 如需疑難排解說明，請參閱「[常見的分類上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)」。
 
@@ -68,7 +68,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 ![](assets/sample-product-classifications.png)
 
 >[!NOTE]
- 產品分類資料限於直接與產品相關的資料屬性。資料不受產品在網站上分類或銷售方式的限制。銷售類別、網站瀏覽節點或銷售項目等資料元素並不是產品分類資料。反之，這些元素是在報告轉換變數中擷取的。
+產品分類資料限於直接與產品相關的資料屬性。資料不受產品在網站上分類或銷售方式的限制。銷售類別、網站瀏覽節點或銷售項目等資料元素並不是產品分類資料。反之，這些元素是在報告轉換變數中擷取的。
 
 上傳這個產品分類的資料檔案時，您可以使用單一的檔案或多個檔案來上傳分類資料 (請參閱下面)。將檔案 1 裡的顏色代碼和檔案 2 裡的顏色名稱分開，則只有在建立新的顏色代碼時，才需要上傳顏色名稱資料 (可能僅有幾列)。這可以免除較常更新之檔案 1 裡的顏色名稱 (代碼&amp;Hat;色彩) 欄位，並減少檔案大小和產生資料檔案時的複雜性。
 
