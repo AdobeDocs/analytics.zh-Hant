@@ -3,7 +3,7 @@ title: 變數、函數、方法和外掛程式概述
 description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '318'
 ht-degree: 97%
@@ -40,4 +40,4 @@ JavaScript 變數不允許使用下列字元和字串。
 * 新行 (`0x0A`)
 * HTML 標籤 (例如 `<b></b>` 或 `&#153`)
 
-有些變數有其他限制或語法要求。例如，`products` 變數會保留分號和逗號來分隔不同的產品和類別。
+有些變數有其他限制或語法要求。例如，[`products`](page-vars/products.md) 變數會保留分號和逗號來分隔不同的產品和類別。
