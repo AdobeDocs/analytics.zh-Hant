@@ -4,7 +4,7 @@ keywords: Troubleshooting Analytics
 title: 常見問題集
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 94%
@@ -46,7 +46,7 @@ Apple 裝置會在使用者代理程式字串中顯示其韌體版本，而非�
 
 **為何加總所有值時，報表底部的總計並不相符？**
 
-維度項目通常可套用至多個位置； 例如，跨午夜的瀏覽或屬於單一訂單的多個產品。 維度項目會報告至所有適用的行項目，但會在報表的總計中去重複化。 如需詳細資訊，請參閱 Analytics 知識庫中的[比較條列項目的總合和報表總計](https://helpx.adobe.com/tw/analytics/kb/sum-line-items-different-from-total.html)。
+維度項目通常可套用至多個位置；例如，跨午夜的瀏覽或屬於單一訂單的多個產品。 維度項目會報告至所有適用的行項目，但會在報表的總計中去重複化。 如需詳細資訊，請參閱 Analytics 知識庫中的[比較條列項目的總合和報表總計](https://helpx.adobe.com/tw/analytics/kb/sum-line-items-different-from-total.html)。
 
 **如何在報表套裝中排除特定 IP 位址的資料？**
 
@@ -58,8 +58,8 @@ Apple 裝置會在使用者代理程式字串中顯示其韌體版本，而非�
 
 **使用區段時，應使用哪個容器？頁面檢視、瀏覽，還是訪客？**
 
-您應使用的區段容器取決於您擷取資料的範圍。頁面檢視容器只會顯示符合區段條件的點擊，此容器適合用來篩選掉不相關的瀏覽。瀏覽容器會鎖定有一或多個點擊符合區段條件的瀏覽，顯示其中包含的所有點擊，此容器適合用來查看一般工作階段的資訊。訪客容器會顯示有一個點擊符合區段條件的所有瀏覽，此容器適合用來查看訪客。您可以選擇以分析人員的身分，判斷最適合使用的區段容器。如需詳細資訊，請參閱「元件」使用指南中的[區段概觀](/help/components/c-segmentation/seg-overview.md)。
+您應使用的區段容器取決於您擷取資料的範圍。頁面檢視容器只會顯示符合區段條件的點擊，此容器適合用來篩選掉不相關的瀏覽。瀏覽容器會鎖定有一或多個點擊符合區段條件的瀏覽，顯示其中包含的所有點擊，此容器適合用來查看一般工作階段的資訊。訪客容器會顯示有一個點擊符合區段條件的所有瀏覽，此容器適合用來查看訪客。您可以選擇以分析人員的身分，判斷最適合使用的區段容器。如需詳細資訊，請參閱「元件」使用指南中的[區段概觀](/help/components/segmentation/seg-overview.md)。
 
 **為何資料倉儲未顯示我的區段？**
 
-由於資料倉儲具有獨特的處理架構，平台無法以最佳方式處理某些類型的資料，例如路徑分析。如需詳細資訊，請參閱「元件」使用指南中的[資料倉儲區段相容性](/help/components/c-segmentation/seg-reference/seg-compatibility.md)。
+由於資料倉儲具有獨特的處理架構，平台無法以最佳方式處理某些類型的資料，例如路徑分析。如需詳細資訊，請參閱「元件」使用指南中的[資料倉儲區段相容性](/help/components/segmentation/seg-reference/seg-compatibility.md)。
