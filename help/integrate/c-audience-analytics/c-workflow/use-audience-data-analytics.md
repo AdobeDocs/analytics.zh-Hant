@@ -3,8 +3,11 @@ description: '您可以在整個 Analytics 中使用 AAM「對象」維度。整
 solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +56,7 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 
 對象也可用於[流失視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)中。
 
-## Analysis Workspace 中的文氏圖表視覺效果{#section_E78AB764FB5047148B51DC1526B0DF89}
+## Analysis Workspace 中的文氏圖表視覺效果 {#section_E78AB764FB5047148B51DC1526B0DF89}
 
 [文氏圖表視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/venn.html)可顯示最多 3 個區段之間的重疊部分。
 
@@ -69,7 +72,7 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 
 ## 區段產生器 {#section_2AA81852A1404AB894472CA8959461B6}
 
-您可以將「對象」維度連同 Analytics 收集的行為資訊整合到 Analytics [區段產生器](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)。
+您可以將「對象」維度連同 Analytics 收集的行為資訊整合到 Analytics [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
 
 1. 前往&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 區段」]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**，建立新區段。
@@ -79,7 +82,7 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 
    ![](assets/aud-segbuilder.png)
 
-## Reports &amp; Analytics 及 Report Builder{#section_04E8FD30F73344D7937AD3C6CD19E34A}
+## Reports &amp; Analytics 及 Report Builder {#section_04E8FD30F73344D7937AD3C6CD19E34A}
 
 1. 若要檢視 Analytics 報表，請前往&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 訪客資料]** > **[!UICONTROL 對象 ID 報表」]**。
 1. 在此資料夾中，您可以同時存取「對象 ID」和「對象名稱」維度。
