@@ -5,7 +5,7 @@ title: 流量分類
 topic: Admin tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 「流量分類」頁面可讓您建立選定報表套裝的分類。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的屬性產生。
 
-啟用分類後，請使用[分類匯入工具](/help/components/classifications/c-classifications-importer/c-working-with-saint.md)，將特定值指派給適當的分類。
+啟用分類後，請使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)，將特定值指派給適當的分類。
 
 ## 新增流量分類 {#task_4DB49CCB1D764483907BC33A5CEB7315}
 
