@@ -1,27 +1,27 @@
 ---
-title: 單頁瀏覽
-description: 表示瀏覽包含單一頁面的旗標。
+title: 單頁造訪次數
+description: 指出造訪包含單一頁面的旗標。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 81%
 
 ---
 
 
-# 單頁瀏覽
+# 單頁造訪次數
 
-*此說明頁面說明「單頁瀏覽」如何當做維度運作。 如需詳細[資訊，請參閱單頁](../metrics/single-page-visits.md)「瀏覽」度量。*
+*此說明頁面說明「單頁造訪次數」作為維度時的運作方式。如需詳細資訊，請參閱[單頁造訪次數](../metrics/single-page-visits.md)量度。*
 
-「單頁瀏覽次數」維度會報告由單一唯一頁面維度項目組成 [的瀏覽](page.md) 次數。 它是「單頁瀏覽」度量 [的維度形式](../metrics/single-page-visits.md) 。
+The &#39;Single page visits&#39; dimension reports the number of visits that consisted of a single unique [Page](page.md) dimension item. 這是維度形式的[單頁造訪次數](../metrics/single-page-visits.md)量度。
 
-此維度最常用作區段中的元 [件](../c-segmentation/seg-home.md)。 它通常不會用作報表中的維度。
+此維度通常會作為[細分](../segmentation/seg-home.md)內的元件。它通常不會作為報表中的維度。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度適用於所有實作，不需開箱即用。 如果報表套裝包含資料，此維度會運作。
+此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
-唯一的維度項目是 `"Enabled"`。 如果瀏覽包含單一頁面，則點擊會設為此值。 所有其他點擊都會從此報表中忽略。
+The only dimension item is `"Enabled"`. 如果造訪包含單一頁面，則點擊會設為此值。此報表會忽略所有其他點擊。
