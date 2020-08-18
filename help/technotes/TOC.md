@@ -5,10 +5,10 @@ user-guide-title: Analytics 技術文件
 user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
 user-guide-url: /content/help/en/analytics/technotes/home.html
 translation-type: tm+mt
-source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,7 @@ ht-degree: 96%
       + [轉換](ga-to-aa/reports/conversions-reports.md)
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
+   + [比較資料與協力廠商產品](ga-to-aa/compare-data.md)
 + 分析受事件影響的資料{#event}
    + [分析受事件影響的資料概述](event/overview.md)
    + [疑難排解資料中的尖峰／下降](event/spikes-drops.md)
