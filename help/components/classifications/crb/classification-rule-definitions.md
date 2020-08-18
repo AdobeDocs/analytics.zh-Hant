@@ -5,10 +5,10 @@ title: 分類規則 - 定義
 topic: Admin tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>選取報表套裝和變數 </p> </td> 
-   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p>例如，若要將 <span class="term">Pages</span> 設為規則集的可用變數，請確定報表套裝已為 <span class="term">Pages</span> 實作<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/traffic-classifications.html"  >流量分類</a>。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/traffic-classifications.html"  >流量分類</a>」和「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >轉換分類</a>」。 </p> </td> 
+   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >流量分類</a>」和「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >轉換分類</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 啟動</span> </p> </td> 
