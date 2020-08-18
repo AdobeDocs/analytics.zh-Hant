@@ -5,7 +5,7 @@ title: 虛擬報表套裝和多套裝標記考量事項
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1735'
 ht-degree: 100%
@@ -89,7 +89,7 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
 
 >[!TIP]
 >
-> 完整的資料來源處理可支援分段，且可用於虛擬報表套裝。
+>完整的資料來源處理可支援分段，且可用於虛擬報表套裝。
 
 ## 決定使用 VRS 時的依循步驟
 
@@ -97,7 +97,7 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
 
 1. 建立與子報表套裝資料相符的虛擬報表套裝。在自訂維度上設定區段，藉此在不同網站之間區隔您的網站。
    * 如果您從目前已完成多套裝標記的實作項目進行移轉，請先比較虛擬報表套裝的區段與現有的子報表套裝。在將使用者移至虛擬報表套裝之前，請先確認資料可互相比較。
-   * 如需參考最佳作法，建議您使用[區段堆疊](/help/components/c-segmentation/c-segmentation-workflow/seg-build.md)，以便在同一位置編輯區段，並將區段套用至所有相依的虛擬報表套裝。
+   * 如需參考最佳作法，建議您使用[區段堆疊](/help/components/segmentation/segmentation-workflow/seg-build.md)，以便在同一位置編輯區段，並將區段套用至所有相依的虛擬報表套裝。
    * 如果您希望維持虛擬報表套裝彼此更加互斥，請使用點擊容器。
 2. 在您確認虛擬報表套裝已正確設定後，請從實作項目中移除次要報表套裝 ID。如何移除次要報表套裝：
    * 在 Adobe Experience Platform Launch 中，針對您不想再使用的任何報表套裝按一下旁邊的「x」。
