@@ -3,10 +3,10 @@ description: 開始使用 Ad Hoc Analysis。
 title: 快速入門
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: b6802e785deadfed17631ade1d9539e578515d7a
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 99%
+source-wordcount: '1330'
+ht-degree: 94%
 
 ---
 
@@ -69,7 +69,7 @@ c_sys_reqs.xml
 
 >[!NOTE]
 >
->自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您在 2018 年 7 月的維護版發行後，選擇在 Java 7 上執行 Ad Hoc Analysis，Adobe 將不再支援您的 Ad Hoc Analysis 實施。
+>自2018年7月起，臨機分析僅支援Java 8或更新版本。 Adobe不支援在Java 7或更低版本上執行臨機分析。
 
 * 支援 OpenGL 2.0 的影片卡
 * Cookie：必要
@@ -80,13 +80,11 @@ c_sys_reqs.xml
 * JavaScript：啟用
 * Java 版本：Java 1.7 或更高版本    (請參閱上方注意事項)
 
-   若尚未安裝正確版本的 Java，則會為您安裝。若所安裝的 Java 版本不相容，Ad Hoc Analysis 會下載並提示您安裝更新。
+   若尚未安裝正確版本的 Java，則會為您安裝。如果您已安裝不相容的Java版本，臨機分析會下載並提示您安裝更新。
 
 ## Java 升級指示 {#section_E4C0C6492FF24636A0FF71A59331111D}
 
-自 2018 年 7 月起，Ad Hoc Analysis 將僅支援 Java 8 或更高版本。如果您在 2018 年 7 月的維護版發行後，選擇在 Java 7 上執行 Ad Hoc Analysis，Adobe 將不再支援您的 Ad Hoc Analysis 實施。
-
-我們的 .jar 檔案已透過 256 位元安全加密技術簽署，而 Java 1.7.0_76 以前的版本不支援此加密技術。此 256 位元憑證可讓我們提供您增強型安全防護。
+Adobe的。jar檔案會以安全的256位元加密方式簽署，低於1.7.0_76的Java版本不支援此加密方式。 此 256 位元憑證可讓我們提供您增強型安全防護。
 
 如果您仍安裝 Java 7，則需在 2018 年 7 月維護版本發行前升級。方法如下：
 
