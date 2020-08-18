@@ -2,8 +2,11 @@
 description: 計算量度產生器提供的畫布可用來拖放維度、量度、區段及函數，讓您根據容器階層邏輯、規則及運算子來建立自訂量度。此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
 title: 建立量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+translation-type: tm+mt
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+workflow-type: tm+mt
+source-wordcount: '968'
+ht-degree: 100%
 
 ---
 
@@ -102,7 +105,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> + 新增 </span> </td> 
-   <td colname="col3"> <p>可讓您建立新元件，例如新區段 (會前往「<a href="/help/components/c-segmentation/c-segmentation-workflow/seg-build.md"  >區段產生器</a>」)。 </p> </td> 
+   <td colname="col3"> <p>可讓您建立新元件，例如新區段 (會前往「<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >區段產生器</a>」)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>搜尋元件 </p> </td> 
