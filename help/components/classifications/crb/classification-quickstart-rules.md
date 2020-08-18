@@ -5,7 +5,7 @@ title: 分類規則
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '2018'
 ht-degree: 100%
@@ -56,7 +56,7 @@ about_classification_rules.xml
 
 >[!NOTE]
 >
-> [!UICONTROL 規則產生器]不支援「數值 2」分類。
+>[!UICONTROL 規則產生器]不支援「數值 2」分類。
 
 ## 關於規則的重要資訊
 
@@ -66,7 +66,7 @@ about_classification_rules.xml
 
 * **報表套裝**：至少要選取一個報表套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報表套裝。
 
-   當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。(此[索引鍵](/help/components/classifications/c-classifications-importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄)。
+   當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。(此[索引鍵](/help/components/classifications/importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄)。
 
 * **規則優先順序**：如果一個索引鍵符合設定同一個分類的多個規則 (在「[!UICONTROL 設定分類]」欄裡)，則會使用符合分類的最後一個規則。請參閱[關於規則優先順序](/help/components/classifications/crb/classification-quickstart-rules.md)。
 
@@ -79,7 +79,7 @@ about_classification_rules.xml
 
 ## 規則什麼時候不會將索引鍵分類？
 
-當您啟動規則時，可以覆寫現有的分類。在下列情況下，分類規則不會將[索引鍵](/help/components/classifications/c-classifications-importer/c-saint-data-files.md) (變數) 分類：
+當您啟動規則時，可以覆寫現有的分類。在下列情況下，分類規則不會將[索引鍵](/help/components/classifications/importer/c-saint-data-files.md) (變數) 分類：
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」。
 
@@ -112,13 +112,13 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
-> 規則運算式最適合使用分隔字元的追蹤程式碼，此為最佳作法。
+>規則運算式最適合使用分隔字元的追蹤程式碼，此為最佳作法。
 
 ## 規則運算式 - 追蹤程式碼範例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
 >[!NOTE]
 >
-> 如果追蹤程式碼為 URL 編碼，將&#x200B;**無法**&#x200B;使用規則產生器來分類。
+>如果追蹤程式碼為 URL 編碼，將&#x200B;**無法**&#x200B;使用規則產生器來分類。
 
 在這個範例中，假設您要將以下的促銷活動 ID 分類：
 
@@ -288,7 +288,7 @@ rule_priority.xml
 | 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
-如果使用者搜尋    *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
+如果使用者搜尋     *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
 
 同樣地，假設您在一個規則集裡面為下列搜尋詞設定兩個規則：
 
@@ -297,7 +297,7 @@ rule_priority.xml
 | 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
-使用者搜尋  *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
+使用者搜尋   *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
 
 ## 將分類規則新增至規則集 {#add-classification-to-rule-set}
 
@@ -328,7 +328,7 @@ t_classification_rule.xml
    *`only`*&#x200B;只有 () 在符合下列條件時，報表套裝才會顯示在此頁面上：>
 
    * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
-   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集[的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
+   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
 
    * 您在&#x200B;**[!UICONTROL 可用報表套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報表套裝。
 
