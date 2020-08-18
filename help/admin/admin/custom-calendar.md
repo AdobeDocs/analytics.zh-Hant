@@ -4,7 +4,10 @@ title: 自訂日曆
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+workflow-type: tm+mt
+source-wordcount: '468'
+ht-degree: 97%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 西曆模式以外的日曆選項。選項包括 4-4-5、4-5-4 和 5-4-4 日曆模式，這三種均用作零售業的標準。此外，報告還提供可以自行設定的完全自訂日曆選項。
 
-**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL [選取報表套裝]]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 自訂日曆」]**
+**[!UICONTROL 管理]** >報 **[!UICONTROL 表套裝]** >選擇報表套裝> **[!UICONTROL 編輯設定]** >一般 **[!UICONTROL >自]****[!UICONTROL 訂日曆]**
 
 >[!CAUTION]
 >
