@@ -2,7 +2,7 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 100%
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 [![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) [Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) – 對音訊或視訊來源實作 Analytics。包含 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/en/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
+[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
 
 [![技術說明](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技術說明](/help/technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
@@ -69,7 +69,7 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
 *   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
-*   [Segmentation](/help/components/c-segmentation/seg-home.md)
+*   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
 *   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)
