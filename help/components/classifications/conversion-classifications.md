@@ -5,7 +5,7 @@ title: 轉換分類
 topic: Admin tools
 uuid: 4c8726c9-f527-44e1-be01-8c7b3b5c20f0
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 轉換分類可讓您歸類轉換變數。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的資料屬性產生。
 
-啟用分類後，請使用[分類匯入工具](/help/components/classifications/c-classifications-importer/c-working-with-saint.md)將特定值指派給適當的分類。
+啟用分類後，請使用[分類匯入工具](/help/components/classifications/importer/c-working-with-saint.md)將特定值指派給適當的分類。
 
 ## 轉換分類說明 {#section_4A98DD5F5C314B9DAEE710AEE4EE51D4}
 
