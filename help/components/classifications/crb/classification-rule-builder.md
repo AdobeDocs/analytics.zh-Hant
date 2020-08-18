@@ -5,10 +5,10 @@ title: 分類規則產生器工作流程
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 | 步驟 4：[將分類規則新增到規則集](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類規則產生器] > &lt;您的規則集> | 匹配條件和分類，然後指定要針對規則採取的動作。請詳閱[規則的處理方式](/help/components/classifications/crb/classification-quickstart-rules.md)中的資訊。 |
 | 步驟 5：[測試分類規則集](/help/components/classifications/crb/classification-quickstart-rules.md) | [!DNL Testing Page] | 您要在「草稿」模式中編輯規則，以測試驗證的規則。無法在「草稿」模式中執行規則。<br>使用[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)時，此步驟很重要。 |
 | 步驟 6：[啟用有效規則](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 一旦規則有效，就啟動規則集。如果有必要，可以覆寫現有的索引鍵。請參閱[規則的處理方式](/help/components/classifications/crb/classification-quickstart-rules.md)。 |
-| 步驟 7 (選用)：[刪除不要的規則](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 刪除規則集裡不要的規則。<br>附註：刪除規則不會刪除已上傳的分類資料。如需刪除已分類的資料，請參閱[刪除分類資料](/help/components/classifications/c-classifications-importer/t-delete-classification-data.md)。 |
+| 步驟 7 (選用)：[刪除不要的規則](/help/components/classifications/crb/classification-rule-definitions.md)。 | [!DNL Rules Page] | 刪除規則集裡不要的規則。<br>附註：刪除規則不會刪除已上傳的分類資料。如需刪除已分類的資料，請參閱[刪除分類資料](/help/components/classifications/importer/t-delete-classification-data.md)。 |
 
 >[!NOTE]
 >
