@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理指南
 user-guide-description: Learn about managing users and products in the Experience Cloud Admin Console, configuring report suites, company settings, data governance, server call usage, traffic management, and more.
 user-guide-url: /content/help/en/analytics/admin/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '696'
 ht-degree: 100%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 100%
       + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [編輯轉換變數](admin/conversion-var-admin/t-conversion-variables-admin.md)
       + [轉換分類](admin/conversion-var-admin/conversion-classifications.md)
+      + [分類階層](admin/conversion-var-admin/classification-hierarchies.md)
       + [清單變數](admin/conversion-var-admin/list-var-admin.md)
    + [貨幣代碼](admin/currency.md)
    + [自訂報表說明](admin/custom-desc-admin.md)
