@@ -3,10 +3,10 @@ description: 使用線條視覺化來描繪趨勢（以時間為基礎的）資�
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 78ed02b7bb7a4dc042c837817d36fc8ce30dce79
+source-git-commit: 34db4e99589827fd41f642788e3409834b96d78a
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 17%
+source-wordcount: '446'
+ht-degree: 16%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
-> 某些「行」視覺化設定（例如「新增趨勢線」）目前處於有限測試中。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html).
+> 某些「行」視覺化設定（例如「顯示趨勢線」）目前只是有限的測試。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html).
 
 按一下「線條」視覺化右上角的齒輪圖示，以存取可用 [**的視覺化設**](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html#section_D3BB5042A92245D8BF6BCF072C66624B) 定。 設定分為：
 
@@ -29,11 +29,15 @@ ht-degree: 17%
 
 ### 變更詳細程度
 
-[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)中的粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。
+[視覺效果設定](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B)中的粒度下拉式清單可讓您將趨勢視覺效果 (例如折線圖、長條圖) 從每日變更為每週、每月等。詳細程度也會在資料來源表格中更新。
 
-### 新增趨勢線覆蓋
+### 顯示最小值或最大值
 
-在「 **視覺化設定>覆蓋圖>新增趨勢線**」下，您可以選擇將回歸趨勢線新增至行系列。 趨勢線有助於描述資料中更清晰的模式。
+在「 **視覺化設定>覆蓋圖>顯示最小值／最大值**」下方，您可以覆蓋最小值和最大值標籤，以快速反白顯示量度中的尖峰和低谷。
+
+### 顯示趨勢線覆蓋
+
+在「 **視覺化設定>覆蓋圖>顯示趨勢線**」下，您可以選擇將回歸趨勢線新增至行系列。 趨勢線有助於描述資料中更清晰的模式。
 
 所有模型都使用普通最小二乘擬合：
 
