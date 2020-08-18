@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的贏取報表
 description: 瞭解如何使用 Analysis Workspace 建立贏取型報表。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 99%
@@ -80,7 +80,7 @@ Adobe 在 Analysis Workspace 中使用名為「Advertising Analytics」(廣告�
 
 社交報表提供與其個別「行為」報表類似的資訊，社交網路的情境除外。透過結合維度與區段，便可在 Analysis Workspace 中存取此資料。
 
-有時候，訪客會透過同一個工作階段中的多個管道造訪您的網站。例如，訪客點按了社交媒體頁面，在數分鐘後又使用搜尋引擎來造訪您的網站。在這些情況下，非社交網域會顯示在此報表中。如果您想要排除非社交網域，請根據造訪次數來排序報表，或建立以點擊次數而非造訪次數為基礎的區段副本。如需詳細資訊，請參閱「元件」使用指南中的[分段容器](/help/components/c-segmentation/seg-overview.md)維度。
+有時候，訪客會透過同一個工作階段中的多個管道造訪您的網站。例如，訪客點按了社交媒體頁面，在數分鐘後又使用搜尋引擎來造訪您的網站。在這些情況下，非社交網域會顯示在此報表中。如果您想要排除非社交網域，請根據造訪次數來排序報表，或建立以點擊次數而非造訪次數為基礎的區段副本。如需詳細資訊，請參閱「元件」使用指南中的[分段容器](/help/components/segmentation/seg-overview.md)維度。
 
 ### 社交 - 網路反向連結
 
