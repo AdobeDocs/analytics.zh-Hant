@@ -4,7 +4,7 @@ title: Data Warehouse 概觀
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
 
 >[!NOTE]
 >
-> Data Warehouse 會報告在報告時段遇到的第一個值。
+>Data Warehouse 會報告在報告時段遇到的第一個值。
 
 >[!IMPORTANT]
 >
@@ -57,7 +57,7 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用區段</span> </td> 
-   <td colname="col2"> <p>可讓您選擇要檢查的部分訪客人口並產生複雜區段。您可以載入預先設定的區段、建立新區段以及將區段元件儲存至建立其他區段時要使用的庫中。 </p> <p>您現在可以堆疊區段。選取多個區段時，預覽區域、「請求管理員」和「請求詳細資訊」彈出式功能表會顯示逗號分隔的名稱清單 (例如 Segment1, Segment2)。 </p> <p>請參閱<a href="/help/components/c-segmentation/seg-home.md">分段指南</a>，瞭解更多資訊。 </p> <p>注意：您不能在同一個 Data Warehouse 的同一個區段上，同時包括區段篩選和劃分。這麼做會導致錯誤。 </p> </td> 
+   <td colname="col2"> <p>可讓您選擇要檢查的部分訪客人口並產生複雜區段。您可以載入預先設定的區段、建立新區段以及將區段元件儲存至建立其他區段時要使用的庫中。 </p> <p>您現在可以堆疊區段。選取多個區段時，預覽區域、「請求管理員」和「請求詳細資訊」彈出式功能表會顯示逗號分隔的名稱清單 (例如 Segment1, Segment2)。 </p> <p>請參閱<a href="/help/components/segmentation/seg-home.md">分段指南</a>，瞭解更多資訊。 </p> <p>注意：您不能在同一個 Data Warehouse 的同一個區段上，同時包括區段篩選和劃分。這麼做會導致錯誤。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 劃分</span> </td> 
