@@ -4,10 +4,10 @@ title: 發佈區段至 Experience Cloud
 topic: Segments
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 627a2b8b35db1bdf08b650de8708c04f2d5718d6
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -132,6 +132,7 @@ ht-degree: 100%
 
 ## 在 [!DNL Adobe Target] 中檢視區段
 
-[!UICONTROL 將此區段發佈至 Experience Cloud] 核取方塊會在 Adobe Analytics 區段建立程序進行期間顯示，勾選後該區段將可供 Adobe Target 的自訂對象庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和受眾區隔來建立行銷活動。]，按一下[!UICONTROL 「對象」]。
-1. 在[!UICONTROL 對象]頁面上，找到來源為 [!DNL Experience Cloud] 的對象。這些對象可在 [!DNL Target] 活動中使用。
+[!UICONTROL 將此區段發佈至 Experience Cloud] 核取方塊會在 Adobe Analytics 區段建立程序進行期間顯示，勾選後該區段將可供 Adobe Target 的自訂對象庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和受眾區隔來建立行銷活動。
 
+1. Click [!UICONTROL Audiences].
+1. 在[!UICONTROL 對象]頁面上，找到來源為 [!DNL Experience Cloud] 的對象。這些對象可在 [!DNL Target] 活動中使用。
