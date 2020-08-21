@@ -1,25 +1,25 @@
 ---
 title: 登入維度
-description: 列出條目維度及其使用。
+description: 列出登入維度及其使用情形。
 keywords: entry page, entry site section, entry server, entry custom insight
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
 
 # 登入維度
 
-*此幫助頁說明條目如何作為維運作。 如需登入點如何當做度量的詳細資訊，請參閱「登[入點](../metrics/entries.md)」度量。*
+*此說明頁面說明登入作為維度時的運作方式。若要瞭解登入作為量度時的運作方式，請參閱[登入](../metrics/entries.md)量度。*
 
-登入維度是以瀏覽為基礎。 他們會記錄第一個維度項目，並將其保存在該次瀏覽的整個期間。 「報表套裝」設定中的「流量變數」下方啟用路徑分析的所 [有變數](/help/admin/admin/c-traffic-variables/traffic-var.md) ，都可使用項目維度。
+登入維度以造訪為基礎。他們會記錄第一個維度項目，並將其保存在該次瀏覽的整個期間。 報表套裝設定中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用登入維度。
 
-## 以資料填入項目維度
+## 將資料填入登入維度中
 
-指定的進入維度是以其關聯的流量變數為基礎。 如果非登入變數有資料，其關聯的登入維度也包含資料。 如果您的流量變數包含資料，則輸入維度不需要實施變更。
+指定的登入維度以其相關聯的流量變數為基礎。如果非登入變數有資料，則其相關聯的登入維度也會包含資料。如果您的流量變數包含資料，即無須對登入維度進行實作變更。
 
 ## 維度項目
 
@@ -27,4 +27,4 @@ ht-degree: 0%
 
 ## 登入頁面原始
 
-「登入頁面原始」維度的運作方式與其他登入維度不同。 它不會保留特定瀏覽的登入頁面，而是會保留該訪客Cookie整個生命週期中的第一個登入頁面。 例如，如果您第一次 `https://example.com/page4` 瀏覽網站，一年後登入，「登入頁面原始」維度會列 `https://example.com/store``https://example.com/page4` 出為維度項目。
+「登入頁面原始」維度的運作方式與其他登入維度不同。此維度不會保存指定造訪的登入頁面，而是會保存該訪客的 Cookie 在整個存留期內的第一個登入頁面。For example, if you land on `https://example.com/page4` for your first visit to the site, then a year later land on `https://example.com/store`, The &#39;Entry page original&#39; dimension lists `https://example.com/page4` as the dimension item.
