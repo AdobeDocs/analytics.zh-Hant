@@ -1,9 +1,9 @@
 ---
 title: 使用 AMP 進行實施
 description: 在 AMP 頁面上實施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1061'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 
 >[!WARNING]
 >
-> 請勿在使用 AMP 的同一頁上同時使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 範本。如果嘗試這麼做，可能會在瀏覽器主控台中產生錯誤，並重複計算訪客。
+>請勿在使用 AMP 的同一頁上同時使用 `"adobeanalytics"` 和 `"adobeanalytics_nativeConfig"` 範本。如果嘗試這麼做，可能會在瀏覽器主控台中產生錯誤，並重複計算訪客。
 
 ## 方法 1：透過「adobeanalytics」範本使用 amp-analytics 標籤
 
@@ -84,13 +84,13 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
 
 >[!NOTE]
 >
-> 使用此方法傳送至 Adobe 的影像要求不包含許多預設報表的資料 (例如瀏覽器、螢幕大小或反向連結)。如果您想在點擊中包含這些資訊，請確定這些資訊包含在影像要求查詢字串中。如需詳細資訊，請參閱[資料彙集查詢參數](../validate/query-parameters.md)。
+>使用此方法傳送至 Adobe 的影像要求不包含許多預設報表的資料 (例如瀏覽器、螢幕大小或反向連結)。如果您想在點擊中包含這些資訊，請確定這些資訊包含在影像要求查詢字串中。如需詳細資訊，請參閱[資料彙集查詢參數](../validate/query-parameters.md)。
 
 Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`。此訪客 ID 與 Adobe Analytics 設定的任何其他 ID 均不重複 (例如 `s_vi` Cookie)。使用此實施方法不支援 Adobe Experience Cloud ID Service。
 
 >[!NOTE]
 >
-> AMP 會使用 CDN 來傳送內容。CDN 的結構化會針對訪客從中擷取內容的每個 CDN 計算不同的不重複訪客，而這會誇大獨特訪客的計數。
+>AMP 會使用 CDN 來傳送內容。CDN 的結構化會針對訪客從中擷取內容的每個 CDN 計算不同的不重複訪客，而這會誇大獨特訪客的計數。
 
 考量到 AMP 識別獨特訪客的方式，建議對 AMP 頁面使用獨立的報表套裝。
 
@@ -158,7 +158,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
 
 >[!IMPORTANT]
 >
-> 您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的  iframe。舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
+>您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的  iframe。舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
 
 使用此方法時，若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 AMP。使用此公用程式頁面也表示 AMP 可支援 Adobe Experience Cloud ID Service。不需要獨立的報表套裝。
 
