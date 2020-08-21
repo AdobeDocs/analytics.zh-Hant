@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 轉換
 topic: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 針對以轉換方式處理的資料類型，資料來源支援下列「轉換」資料維度和量度。
 
-## 轉換 維度與量度 {#section_FA1731B232B246DABEDF5A5D84159084}
+## 轉換維度與量度 {#section_FA1731B232B246DABEDF5A5D84159084}
 
 若您指定「檢視」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 的值。報表套裝支援的自訂事件和 eVar 檢視的數目依合約而定，不同公司有不同限制。
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 | 追蹤程式碼 | 追蹤代碼名稱。 |
 | 日期 | 使用以下日期格式: MM/DD/YYYY/HH/mm/SS (例如 01/01/2015/06/00/00) |
 | 類別 | 類別名稱。若您指定類別，則必須選取產品。 |
-| 管道 | 頻道名稱. |
+| 管道 | 頻道名稱。 |
 | eVarn | eVarn 名稱。n 的有效值是整數 1 - 250。 |
 | 產品 | 產品名稱。 |
 | 州別 | 州/省名。 |
