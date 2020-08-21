@@ -3,9 +3,9 @@ description: 新增日曆事件和管理共用事件的步驟。
 title: 日曆事件
 topic: Reports and analytics
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
 ht-degree: 100%
 
