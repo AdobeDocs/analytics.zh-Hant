@@ -1,8 +1,11 @@
 ---
 title: Adobe Analytics 與瀏覽器 Cookie
 description: 瞭解 Adobe Analytics 如何處理瀏覽器的 Cookie。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
+workflow-type: ht
+source-wordcount: '2286'
+ht-degree: 100%
 
 ---
 
@@ -138,7 +141,7 @@ Adobe 建議客戶在對資料收集作業進行任何變更之前，先衡量�
 
 ## 我的訪客最常使用哪些瀏覽器？
 
-如果您想進一步瞭解訪客使用的瀏覽器，可以使用 Analytics 的[瀏覽器維度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-browsers.html)，判斷哪些瀏覽器最常用於您的網站。您也可以使用 Analytics 維度來查看各地理區域最常使用哪些瀏覽器。如需詳細資訊，請參閱[地域劃分](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
+如果您想進一步瞭解訪客使用的瀏覽器，可以使用 Analytics 的[瀏覽器維度](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html)，判斷哪些瀏覽器最常用於您的網站。您也可以使用 Analytics 維度來查看各地理區域最常使用哪些瀏覽器。如需詳細資訊，請參閱[地域劃分](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
 
 根據 [StatCounter](https://gs.statcounter.com/browser-market-share/all)，2019 年底各瀏覽器的全球市占率如下：
 
