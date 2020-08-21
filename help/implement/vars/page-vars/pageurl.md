@@ -1,9 +1,9 @@
 ---
 title: pageURL
 description: 覆寫在網站上自動收集的頁面 URL。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '299'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ AppMeasurement 會自動收集每次點擊中的頁面 URL。如果您想要覆�
 
 >[!NOTE]
 >
-> 此變數不是 Analysis Workspace 中的可用維度。它僅適用於 Data Warehouse 和資料摘要。如果您想要在 Analysis Workspace 中將頁面 URL 當做維度，請考慮在每次點擊時將 `pageURL` 變數傳入 eVar。
+>此變數不是 Analysis Workspace 中的可用維度。它僅適用於 Data Warehouse 和資料摘要。如果您想要在 Analysis Workspace 中將頁面 URL 當做維度，請考慮在每次點擊時將 `pageURL` 變數傳入 eVar。
 
 有時 URL 的長度會超過 255 個位元組。AppMeasurement 會針對影像要求中 URL 的前 255 個位元組使用 `g` 查詢字串參數。如果 URL 的長度超過 255 個位元組，其餘的 URL 會儲存在 `-g` 查詢字串參數中。此變數包含 URL 中的通訊協定和查詢字串。
 
