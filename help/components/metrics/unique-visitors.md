@@ -1,53 +1,53 @@
 ---
-title: 獨特訪客
-description: 唯一個人（或裝置）的數目。
+title: 不重複訪客
+description: 不重複個人 (或裝置) 的數量。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 10%
+ht-degree: 87%
 
 ---
 
 
-# 獨特訪客
+# 不重複訪客
 
-「獨特訪客」量度顯示維度項目的訪客ID數目。 這是決定流量時最常用的度量之一，因為它提供維度項目人氣的高階概述。 例如，某位訪客可以在一個月內每天瀏覽您的網站，但仍計為單一獨特訪客。
+「獨特訪客」量度顯示維度項目的訪客ID數目。 這是決定流量時最常用的度量之一，因為它提供維度項目人氣的高階概述。 例如，某位訪客可能在一個月內每天造訪您的網站，但這仍會計為單一不重複訪客。
 
-如果您使用 [跨裝置分析](../cda/overview.md)，此度量會重新命名為「唯一裝置」。
+如果您使用[跨裝置分析](../cda/overview.md)，此量度將會重新命名為「不重複裝置」。
 
-## 每日、每週、每月、每季和每年獨特訪客
+## 每日、每週、每月、每季和每年的不重複訪客
 
-「報告與分析」提供每日、每週、每月、每季和每年獨特訪客的選項。 獨特訪客不會計算整個時段的單一獨特訪客，而是會根據選取的量度計算。 例如，您想要查看網站的每日獨特訪客。 如果訪客在早上和晚上再次瀏覽您的網站，則會計為單一每日獨特訪客。 如果訪客在星期一和星期二再次瀏覽您的網站，則會計為兩個每日獨特訪客。
+Reports &amp; Analytics 提供每日、每週、每月、每季和每年不重複訪客的選項。不重複訪客不會計算整個時段的單一不重複訪客，而會根據選取的量度計算數量。例如，假設您想要查看網站上的每日不重複訪客。如果訪客在早上和晚上各造訪您的網站一次，則會計為單一每日不重複訪客。如果訪客分別在星期一和星期二造訪您的網站，則會計為兩個每日不重複訪客。
 
-分析工作區會根據報表的詳細程度來處理獨特訪客。 例如，如果您使用 [Day](../dimensions/day.md) ，則會看到每個維度項目的每日獨特訪客。 不過，對於報表總計，會針對自由表格的日期範圍去重複化獨特訪客。
+Analysis Workspace 會根據報表的詳細程度來處理不重複訪客。For example, if you use the [Day](../dimensions/day.md) dimension, you&#39;ll see daily unique visitors for each dimension item. 但在計算報表總計時，則會針對自由表格的日期範圍刪除不重複訪客的重複項目。
 
-## 此度量的計算方式
+## 此量度的計算方式
 
-此度量會計算指定維度項目的獨特訪客ID數目。 它使用多種進階機制來識別獨特訪客，因為有數種方法可識別獨特訪客。 下表列出訪客的識別方式及其優先順序。 有些點擊可以有多種訪客識別方法； 在這些情況下，會使用較高的優先順序方法。
+此度量會計算指定維度項目的獨特訪客ID數目。 它會使用多種進階機制來識別不重複訪客，因為有數種方法可加以識別。下表列出識別訪客的方式及其優先順序。有些點擊可能有多種訪客識別方法；在這種情況下，將會使用優先順序較高的方法。
 
 | 使用順序 | 查詢參數 (收集方法) | 使用時機 |
 | --- | --- | --- |
-| 1 | `vid` | 變數 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 已設定。 |
-| 2 | `aid` | 訪客有現有 [`s_vi`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。 在實作訪客ID服務之前或未實作時，在實作上設定。 |
-| 3 | `mid` | 訪客有現有 [`s_ecid`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。 在使用 [Adobe Experience Cloud Identity服務的實施上設定](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。 |
-| 4 | `fid` | 訪客有現有 [`s_fid`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或 `aid` 是 `mid` 由於任何原因無法設定。 |
-| 5 | IP 位址、使用者代理、閘道 IP 位址 | 若訪客的瀏覽器不接受Cookie，則最後可識別獨特訪客。 |
+| 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數已設定。 |
+| 2 | `aid` | 訪客有現有的 [`s_vi`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
+| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。使用 [Adobe Experience Cloud Identity Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) 設定於實作上。 |
+| 4 | `fid` | 訪客有現有的 [`s_fid`](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
+| 5 | IP 位址、使用者代理、閘道 IP 位址 | 訪客的瀏覽器不接受 Cookie 時，用來識別不重複訪客的最後方法。 |
 
 >[!NOTE]
 >
->每個Analytics訪客ID都會系結至Adobe伺服器上的描述檔。 無論訪客ID Cookie有效期為何，這些訪客設定檔至少在閒置13個月後會被刪除。
+>每個 Analytics 訪客 ID 都會繫結至 Adobe 伺服器上的設定檔。無論訪客 ID Cookie 過期與否，這些訪客設定檔只要閒置至少 13 個月，就會遭到刪除。
 
-## 影響獨特訪客計數的行為
+## 影響不重複訪客計數的行為
 
-唯一訪客識別碼通常儲存在瀏覽器Cookie中。 如果新的獨特訪客執行下列任一項作業，則會計入該訪客：
+不重複訪客識別碼通常會儲存在瀏覽器 Cookie 中。他們若執行了下列任一作業，則會計為新的不重複訪客：
 
-* 隨時清除其快取
-* 在同一部電腦上開啟不同的瀏覽器。 每個瀏覽器會計算一個獨特訪客。
-* 在不同裝置上瀏覽您網站的同一人。 個別獨特訪客會計入每個裝置。 您可以使用 [跨裝置分析](../cda/overview.md) ，使用「人物」度量將訪客 [結合在一起](people.md) 。
-* 開啟私人瀏覽作業（例如Chrome的Incognito標籤）。
+* 在任何時間清除了其快取
+* 在同一部電腦上開啟不同的瀏覽器。每個瀏覽器各會計算一個不重複訪客。
+* 同一人在不同裝置上瀏覽您的網站。每個裝置各會計算一個不重複訪客。您可以使用[跨裝置分析](../cda/overview.md)，透過[人物](people.md)量度將訪客結合在一起。
+* 開啟私人瀏覽工作階段 (例如 Chrome 的 Incognito 索引標籤)。
 
-只要保留Cookie識 *別碼* ，就不會計算新的獨特訪客：
+只要保留 Cookie 識別碼，就&#x200B;*不會*&#x200B;計算新的不重複訪客：
 
-* 在較長時間內關閉瀏覽器
+* 長時間關閉其瀏覽器
 * 將其瀏覽器升級至最新版本
