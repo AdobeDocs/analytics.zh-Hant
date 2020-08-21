@@ -49,7 +49,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 >[!NOTE]
 >
-> AppMeasurement 會自動針對退出連結啟用 [`useBeacon`](../config-vars/usebeacon.md) 變數，因此現代瀏覽器不再需要該引數。此引數在舊版 AppMeasurement 中較常使用。
+>AppMeasurement 會自動針對退出連結啟用 [`useBeacon`](../config-vars/usebeacon.md) 變數，因此現代瀏覽器不再需要該引數。此引數在舊版 AppMeasurement 中較常使用。
 
 * `this`：等候最多 500 毫秒，讓 AppMeasurement 有時間傳送影像要求。預設值。
 * `true`：請勿等候。
