@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
 workflow-type: tm+mt
 source-wordcount: '3674'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
-> 對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。如果您的實作經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
+>對於所有欄位 (例如定義為 255 個字元的欄位)，資料摘要可能會因為字串中多了字元逸出值而傳送額外的字元。如果您的實作經常會傳送超過字元限制的值，請注意可能是這些可能的額外字元所致。
 
 ## 欄、說明和資料類型
 
 >[!NOTE]
 >
-> 大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問題集](../df-faq.md)。
+>大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問題集](../df-faq.md)。
 
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ ht-degree: 96%
 | `geo_region` | 根據 IP 的點擊來源州或地區名稱。Adobe 與 Digital Envoy 合作，比對 IP 位址與州/地區。 | char(32) |
 | `geo_zip` | 點擊的來源郵遞區號 (根據 IP)。Adobe 與 Digital Envoy 合作，比對 IP 位址與郵遞區號。 | varchar(16) |
 | `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
-| `hit_source` | 指出點擊來源。點擊來源1、2和6會計費。 <br>1: 沒有時間戳記 <br>2的標準影像要求： 具有時間戳記 <br>3的標準影像要求： 使用時間戳記 <br>4即時資料來源上傳： 未使用 <br>5: 通用資料來源上 <br>傳6: 完整處理資料來源上 <br>傳7: TransactionID資料來源上 <br>傳8: 不再使用； 舊版Adobe Advertising Cloud資料來源 <br>9: 不再使用； Adobe Social摘要量 <br>度10: 使用Audience Manager伺服器端轉送 | 不帶正負號的 tinyint |
+| `hit_source` | 指出點擊來源。點擊來源1、2和6會計費。 <br>1:沒有時間戳記 <br>2的標準影像要求：具有時間戳記 <br>3的標準影像要求：使用時間戳記 <br>4即時資料來源上傳：未使用 <br>5:通用資料來源上 <br>傳6:完整處理資料來源上 <br>傳7:TransactionID資料來源上 <br>傳8:不再使用；舊版Adobe Advertising Cloud資料來源 <br>9:不再使用；Adobe Social摘要量 <br>度10:使用Audience Manager伺服器端轉送 | 不帶正負號的 tinyint |
 | `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
 | `hitid_high` | 搭配 hitid_low 使用以專門識別點擊。 | 不帶正負號的 bigint |
 | `hitid_low` | 搭配 hitid_high 使用以專門識別點擊。 | 不帶正負號的 bigint |
@@ -263,11 +263,11 @@ ht-degree: 96%
 | `videoshow` | 視訊節目 | varchar(255) |
 | `videoshowtype` | 視訊節目類型 | varchar(255) |
 | `videostreamtype` | 視訊串流類型 | varchar(255) |
-| `visid_high` | 與visid_low搭配使用，以唯一識別訪客。 | 不帶正負號的 bigint |
-| `visid_low` | 與visid_high搭配使用，以唯一識別訪客。 | 不帶正負號的 bigint |
+| `visid_high` | 與 visid_low 搭配使用以專門識別訪客。 | 不帶正負號的 bigint |
+| `visid_low` | 與 visid_high 搭配使用以專門識別訪客。 | 不帶正負號的 bigint |
 | `visid_new` | 用於識別點擊是否包含新產生訪客 ID 的旗標。 | char(1) |
 | `visid_timestamp` | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
-| `visid_type` | 不供外部使用； Adobe內部用來處理最佳化。 代表用來識別訪客之方法的數值ID。<br>0: 自訂訪客ID或未知／不適用<br>1: IP和用戶代理後 <br>援2: HTTP行動訂閱者標 <br>題3: 舊版Cookie值(s_vi) <br>4: 備援Cookie值(s_fid) <br>5: Identity Service | 不帶正負號的 tinyint |
+| `visid_type` | 不供外部使用；供 Adobe 在內部用來處理最佳化。此數值 ID 代表用來識別訪客的方法。<br>0：自訂訪客 ID 或未知/不適用<br>1：IP 和使用者代理備援 <br>2：HTTP 行動訂閱者標題 <br>3：舊版 Cookie 值 (s_vi) <br>4：備援 Cookie 值 (s_fid) <br>5：Identity Service | 不帶正負號的 tinyint |
 | `visit_keywords` | 用於「搜尋關鍵字」維度的變數。此欄使用非標準字元限制來容納 Adobe 使用的後端邏輯。 | varchar(244) |
 | `visit_num` | 用於「造訪數」維度的變數。從 1 開始，每次訪客開始新的造訪時都會遞增。 | 不帶正負號的 int |
 | `visit_page_num` | 用於「點擊深度」維度的變數。對於使用者產生的每次點擊會增加 1。重設每次造訪。 | 不帶正負號的 int |
