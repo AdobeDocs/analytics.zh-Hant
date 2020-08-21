@@ -1,9 +1,9 @@
 ---
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://docs.adobe.com/content/help/en/id-service/using/implementation/opt-in-service/optin-overview.html)。
+>Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation/opt-in-service/optin-overview.html)。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實施類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](../../admin/admin/privacy-settings.md)。
+>Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](../../admin/admin/privacy-settings.md)。
 
 ## 退出 URL
 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> `en_US` 查詢字串值不是必要值，因為頁面預設會以英文載入。
+>`en_US` 查詢字串值不是必要值，因為頁面預設會以英文載入。
 
 ### 快顯視窗
 
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 在過去，此查詢字串參數會強制顯示快顯視窗。不過現代化的瀏覽器大多將快顯視窗的控制權交給一般使用者。
+>在過去，此查詢字串參數會強制顯示快顯視窗。不過現代化的瀏覽器大多將快顯視窗的控制權交給一般使用者。
 
 ### 單一點擊選擇退出
 
