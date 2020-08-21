@@ -1,38 +1,38 @@
 ---
 title: 點擊深度
-description: 瀏覽的點擊數。
+description: 造訪中的點擊次數。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 7%
+ht-degree: 75%
 
 ---
 
 
 # 點擊深度
 
-「點擊深度」維度會報告指定點擊的瀏覽距離。 此維度對於瞭解訪客在您網站上執行動作的瀏覽時間非常有用。 點擊深度會計算所有類型的點擊，包括頁面檢視([`t()`](/help/implement/vars/functions/t-method.md))和連結追蹤點擊([`tl()`](/help/implement/vars/functions/tl-method.md))。
+「點擊深度」維度會報告指定的點擊在造訪中的深入程度。此維度十分有助於瞭解訪客在您的網站上執行動作時深入造訪的程度。點擊深度會計算所有類型的點擊，包括頁面檢視 ([`t()`](/help/implement/vars/functions/t-method.md)) 和連結追蹤點擊 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度適用於所有實作，不需開箱即用。 如果報表套裝包含資料，此維度會運作。
+此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
-維度項目包含字 `"Hit Depth"` 串，後面接著代表瀏覽點擊數的數字。 維度項目 `"Hit Depth 1"` 代表瀏覽的第一次點擊，而維 `"Hit Depth 8"` 度項目代表瀏覽的第8次點擊。
+Dimension items include the string `"Hit Depth"` followed by a number representing the number of hits into the visit. The dimension item of `"Hit Depth 1"` represents the first hit of the visit, while the dimension item `"Hit Depth 8"` represents the 8th hit of the visit.
 
-## 瀏覽深度比較
+## 與造訪深度比較
 
-點擊深度會計算所有類型的點擊，包括頁面檢視和連結追蹤點擊。 瀏覽深度僅會增加頁 _面檢視點擊_ ，而 [「頁面](page.md) 」維度項目與上一頁的值不同。 瀏覽深度也是以瀏覽為基礎的維度，這表示瀏覽中所有點擊的值相同。 下表概述範例瀏覽，以及它如何考慮點擊深度+瀏覽深度：
+點擊深度會計算所有類型的點擊，包括頁面檢視和連結追蹤點擊。Visit depth only increments for page view hits, _and_ the [Page](page.md) dimension item is not the same as the value on the previous page. 造訪深度也是以造訪為基礎的維度，這表示這是造訪中所有點擊的共同值。下表列出了範例造訪，並概述其考量點擊深度 + 造訪深度的方式：
 
-| 頁面順序 | 點擊深度 | 對瀏覽深度有影響嗎？ | 瀏覽深度 |
+| 頁面順序 | 點擊深度 | 是否計入造訪深度？ | 造訪深度 |
 | --- | --- | --- | --- |
 | 首頁 | 1 | 是 | 4 |
 | 產品頁面 | 2 | 是 | 4 |
 | 首頁 | 3 | 是 | 4 |
-| 自訂連結點按 | 4 | 否（自訂連結） | 4 |
-| 自訂連結點按 | 5 | 否（自訂連結） | 4 |
+| 自訂連結點按 | 4 | 否 (自訂連結) | 4 |
+| 自訂連結點按 | 5 | 否 (自訂連結) | 4 |
 | 產品頁面 | 6 | 是 | 4 |
-| 自訂連結點按 | 7 | 否（自訂連結） | 4 |
-| 產品頁面 | 8 | 否（與上一頁相同） | 4 |
+| 自訂連結點按 | 7 | 否 (自訂連結) | 4 |
+| 產品頁面 | 8 | 否 (與上一頁相同) | 4 |
