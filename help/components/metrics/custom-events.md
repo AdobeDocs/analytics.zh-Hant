@@ -1,29 +1,29 @@
 ---
 title: 自訂事件
-description: 自訂事件存在的點擊數。
-translation-type: tm+mt
+description: 有自訂事件存在的點擊次數。
+translation-type: ht
 source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 19%
+ht-degree: 100%
 
 ---
 
 
 # 自訂事件
 
-*此說明頁面說明自訂事件如何以量度的形式運作。 如需自訂事件如何當做實作變數的詳細資訊，請參閱「實[作使用指南](/help/implement/vars/page-vars/events/events-overview.md)」中的「事件概述」。*
+*此說明頁面說明自訂事件作為量度時的運作方式。若要瞭解自訂事件作為實作變數時的運作方式，請參閱「實作」使用指南中的[事件概觀](/help/implement/vars/page-vars/events/events-overview.md)。*
 
-自訂事件度量顯示在影像請求中設定指定自訂事件的點擊數。 這些量度對許多實作而言至關重要，因為它們可提供每個組織特定事件的分析。
+自訂事件量度會顯示有指定的自訂事件設定於影像要求中的點擊次數。這些量度可用來深入分析每個組織的特定事件，因此對許多實作而言都十分重要。
 
-## 此度量的計算方式
+## 此量度的計算方式
 
-自訂事件的計算方式依其類型而異。 您可以在「報表套裝設定」的「成功 [事件](../../admin/admin/c-success-events/success-event.md) 」下檢查事件類型。
+自訂事件的計算方式依其類型而異。您可以在報表套裝設定中的[成功事件](../../admin/admin/c-success-events/success-event.md)下查看事件的類型。
 
-* **計數器事件**: 預設事件設定。 大部分事件都是計數器事件。 計算相符自訂事件——存在於變數中 `event1` 的 `event1000` 點擊 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 數。
-* **數值事件**: 總和指派給變數中事件的數值 `events` 值。
-* **貨幣事件**: 套用該日的兌換率貨幣兌換，然後加總指派給變數中每個點擊的數值 `events` 值。
+* **計數器事件**：預設的事件設定。大部分事件都是計數器事件。計算有相符的自訂事件 `event1` - `event1000` 存在於 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中的點擊次數。
+* **數值事件**：加總為 `events` 變數中的事件指派的數值。
+* **貨幣事件**：根據當天的匯率套用貨幣轉換，然後加總為 `events` 變數中的每個點擊指派的數值。
 
 可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請聯絡貴組織的客戶經理。
 
-Adobe強烈建議您記錄在組織解決方案設計檔案中使用每個事件 [的方式](/help/implement/prepare/solution-design.md)。
+Adobe 強烈建議您將每個事件的使用方式記錄在組織的[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
