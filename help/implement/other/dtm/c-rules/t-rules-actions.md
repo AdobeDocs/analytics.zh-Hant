@@ -4,9 +4,9 @@ keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third part
 solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
 title: 設定條件要觸發的動作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '231'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 由於 DTM 可讓您將自訂程式碼插入頁面中，請注意不要在當中建立跨網站指令碼 (XSS) 漏洞 (如需詳細資訊，請參閱 [OWASP 的指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)))。在指令碼內使用資料元素需要特別注意。一律假設資料元素值可能來自未受信任的來源。
+>由於 DTM 可讓您將自訂程式碼插入頁面中，請注意不要在當中建立跨網站指令碼 (XSS) 漏洞 (如需詳細資訊，請參閱 [OWASP 的指南](https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)))。在指令碼內使用資料元素需要特別注意。一律假設資料元素值可能來自未受信任的來源。
 
 **設定條件要觸發的動作**
 
