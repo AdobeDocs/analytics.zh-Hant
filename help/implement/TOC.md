@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 98%
       + [contextData](vars/page-vars/contextdata.md)
       + [動態變數](vars/page-vars/dynamic-variables.md)
       + [eVar](vars/page-vars/evar.md)
-      + [eVar（銷售）](vars/page-vars/evar-merchandising.md)
+      + [eVar (銷售)](vars/page-vars/evar-merchandising.md)
       + events {#events}
          + [事件概述](vars/page-vars/events/events-overview.md)
          + [購買事件](vars/page-vars/events/event-purchase.md)
@@ -204,4 +204,4 @@ ht-degree: 98%
 + [常見問題集](faq.md)
 + 透過 Analytics 使用 XDM 資料 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
-   + [手動將XDM資料對應至Analytics](aep-edge/xdm-manual.md)
+   + [手動將 XDM 資料對應至 Analytics](aep-edge/xdm-manual.md)
