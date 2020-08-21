@@ -1,9 +1,9 @@
 ---
 title: dynamicAccountMatch
 description: dynamicAccountMatch 變數決定要在動態帳戶中查看的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '126'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 動態帳戶僅支援使用舊版 JavaScript 實施 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
+> 動態帳戶僅支援使用舊版 JavaScript 實作 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
 
 `dynamicAccountMatch` 變數是 `dynamicAccountList` 查看及比較值的值。如果 `dynamicAccountSelection` 未設定為 `true`，此變數會遭到忽略。
 
@@ -45,4 +45,4 @@ s.dynamicAccountMatch =  location.hostname + location.pathname + location.search
 ## 其他附註
 
 * 儲存至硬碟的頁面有幾個未定義的 `location` 變數 (例如，`location.host` 是空白的)。請確認 `s_account` 包含預設報表套裝。
-* 在透過網頁型翻譯引擎 (例如 Google) 翻譯頁面時，動態帳戶選項無法如預期運作。如需更精確的追蹤，請在伺服器端填入    `s_account` 變數。
+* 在透過網頁型翻譯引擎 (例如 Google) 翻譯頁面時，動態帳戶選項無法如預期運作。如需更精確的追蹤，請在伺服器端填入`s_account` 變數。
