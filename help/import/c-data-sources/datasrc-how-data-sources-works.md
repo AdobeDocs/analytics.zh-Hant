@@ -4,9 +4,9 @@ subtopic: Data sources
 title: 資料來源運作方式
 topic: Developer and implementation
 uuid: ee9e6e74-9b00-4733-9a4b-d9f2b954cc7c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 透過「資料來源」提交後，匯入的資料與您透過其他方法方法 (如 JavaScript、ActionSource、資料插入 API 等) 收集的報表資料就沒有差別。一旦匯入資料便「無法」移除。
+>透過「資料來源」提交後，匯入的資料與您透過其他方法方法 (如 JavaScript、ActionSource、資料插入 API 等) 收集的報表資料就沒有差別。一旦匯入資料便「無法」移除。
 
 ![](assets/data_sources_overview.png)
 
