@@ -1,9 +1,9 @@
 ---
 title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中納入哪些事件。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Launch 會自動偵測介面中定義的事件，並將其納入連結追蹤點�
 
 >[!IMPORTANT]
 >
-> 如果您使用自訂程式碼編輯器在 Launch 中設定事件，也必須使用自訂程式碼在 `linkTrackEvents` 中納入事件。
+>如果您使用自訂程式碼編輯器在 Launch 中設定事件，也必須使用自訂程式碼在 `linkTrackEvents` 中納入事件。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackEvents
 
@@ -40,7 +40,7 @@ s.linkTrackEvents = "event1,event2,event3,purchase";
 
 >[!TIP]
 >
-> 在此變數中指定事件時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackEvents = "event1";` 正確，而 `s.linkTrackEvents = "s.event1";` 不正確。
+>在此變數中指定事件時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackEvents = "event1";` 正確，而 `s.linkTrackEvents = "s.event1";` 不正確。
 
 ## 範例
 
