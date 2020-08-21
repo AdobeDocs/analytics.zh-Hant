@@ -1,9 +1,9 @@
 ---
 title: 使用 AJAX 進行實施
 description: 瞭解如何使用 AJAX 在網站上實施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Analytics 通常需要重新載入頁面才能重設 Analytics 追蹤物�
 
 >[!NOTE]
 >
-> 並非所有互動或點按都需加以記錄。請仔細考慮哪些動作最需要追蹤，並據此將資料傳送至 Adobe。
+>並非所有互動或點按都需加以記錄。請仔細考慮哪些動作最需要追蹤，並據此將資料傳送至 Adobe。
 
 ## 清除每個頁面上的變數
 
@@ -37,7 +37,7 @@ Adobe Analytics 通常需要重新載入頁面才能重設 Analytics 追蹤物�
 
 >[!TIP]
 >
-> `clearVars()` 函數無法在 H Code 中使用。如果您尚未升級至 AppMeasurement，請將每個 Analytics 變數值設為空字串。
+>`clearVars()` 函數無法在 H Code 中使用。如果您尚未升級至 AppMeasurement，請將每個 Analytics 變數值設為空字串。
 
 ## 範例
 
