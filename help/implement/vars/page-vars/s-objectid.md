@@ -1,9 +1,9 @@
 ---
 title: s_objectID
 description: 協助 Activity Map 辨識網站上的獨特連結。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 
 >[!NOTE]
 >
-> 請一律加上 JavaScript 陳述式結尾的分號。Activity Map 必須有分號才能運作。
+>請一律加上 JavaScript 陳述式結尾的分號。Activity Map 必須有分號才能運作。
 
 ## 使用案例
 
