@@ -1,11 +1,11 @@
 ---
 title: 逗留時間
-description: 逗留時間維度和度量的匯總頁面。
-translation-type: tm+mt
+description: 逗留時間維度和量度的彙總頁面。
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 93%
 
 Adobe Analytics 產品提供各種[!UICONTROL 逗留時間]量度和維度。
 
-## 逗留時間量度
+## 「逗留時間」量度
 
 | 量度 | 定義 | 適用於 |
 |---|---|---|
 | [!UICONTROL 花費秒數總計] | 代表訪客與特定維度項目互動的總時間量。包括值的例項和在所有後續點擊中持續的項目。如果是 prop，則會對後續連結事件一併計算逗留時間。 | Analysis Workspace、Reports &amp; Analytics、Report Builder (稱為「總逗留時間」)、Data Warehouse、Ad Hoc Analysis |
-| [!UICONTROL 每次造訪逗留時間] (秒數) | *總逗留秒數/(造訪彈回數)*<br>代表訪客每次造訪時與特定維度項目互動的平均時間量。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
-| [!UICONTROL 每位訪客逗留時間] (秒數) | *總逗留秒數/不重複訪客&#x200B;*<br>代表訪客在訪客期限內 (Cookie 的存留時間長度內期間) 與特定維度項目互動的平均時間量。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
-| [!UICONTROL 網站平均逗留時間] (秒數) | 代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。這並非單單如其名地只限於「網站」的平均逗留時間。如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意&#x200B;**：因為在計算中使用不同的分母，此量度與維度項目層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace、Reports &amp; Analytics (以分鐘數顯示)、Report Builder (以分鐘數顯示)、Ad Hoc Analysis |
+| [!UICONTROL 每次造訪逗留時間] (秒數) | *總逗留秒數/(造訪彈回數)*<br>&#x200B;代表訪客每次造訪時與特定維度項目互動的平均時間量。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
+| [!UICONTROL 每位訪客逗留時間] (秒數) | *總逗留秒數/不重複訪客*<br>&#x200B;代表訪客在訪客期限內 (Cookie 的存留時間長度內期間) 與特定維度項目互動的平均時間量。 | Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis |
+| [!UICONTROL 網站平均逗留時間] (秒數) | 代表訪客與特定維度項目互動的總時間量，每個序列與一個維度項目互動。這並非單單如其名地只限於「網站」的平均逗留時間。如需有關序列的詳細資訊，請參閱「逗留時間計算方式」一節。<br>**注意**：因為在計算中使用不同的分母，此量度與維度項目層級的「每次造訪逗留時間」可能有所差異。 | Analysis Workspace、Reports &amp; Analytics (以分鐘數顯示)、Report Builder (以分鐘數顯示)、Ad Hoc Analysis |
 | [!UICONTROL 平均頁面逗留時間] | 已停用的量度。<br>反之，我們建議您在需要維度項目的平均時間量時，使用「網站平均逗留時間」。 | Report Builder (請求中包含維度時) |
 | [!UICONTROL 工作階段長度總計]，又稱為[!UICONTROL 上一個工作階段長度] | 僅限於行動應用程式 SDK。<br>針對前一個作業，在下一次應用程式啟動時決定。計算單位為秒，當應用程式在背景中執行時不會計算此量度，只有在使用中才會計算。這是作業層級量度。<br>範例：我們安裝了應用程式 ABC，啟動後使用了 2 分鐘，然後關閉應用程式。在此工作階段中，系統不會傳送任何相關資料。下次啟動應用程式時，系統將會傳送值為 120 的[!UICONTROL 上一個工作階段長度]。 | Analysis Workspace、Reports &amp; Analytics、Report Builder、Mobile Services UI |
-| [!UICONTROL 平均工作階段長度] (行動) | *工作階段長度總計/(啟動次數 - 首次啟動)*<br>僅限行動應用程式 SDK。這是作業層級量度。 | Report Builder、Mobile Services UI、Ad Hoc Analysis |
+| [!UICONTROL 平均工作階段長度] (行動) | *工作階段長度總計/(啟動次數 - 首次啟動)*<br>&#x200B;僅限行動應用程式 SDK。這是作業層級量度。 | Report Builder、Mobile Services UI、Ad Hoc Analysis |
 
 ## 「逗留時間」維度
 
@@ -87,19 +87,19 @@ Adobe Analytics 使用明確值 (包括連結事件和視訊檢視) 來計算[!U
 
 因此，這些量度可能會在造訪層級產生類似的結果，但是在點擊層級就會有所差異。
 
-**第5季： 為什麼「網站平均逗留[!UICONTROL 時間」的劃分總計與父行項目]不符？**
+**問題 5：[!UICONTROL 「網站平均逗留時間」]的劃分總計為何與父條列項目不符？**
 
-答： 因為「 [!UICONTROL 網站平均逗留時間] 」取決於維度的未中斷順序，而內部報表在計算這些執行時並不依賴外部報表。
+答：因為[!UICONTROL 「網站平均逗留時間」]取決於維度的連續序列，而內部報表在計算這些執行時並不依賴外部報表。
 
-例如，請考慮下列瀏覽。
+例如，請考量下列造訪。
 
 | 點擊# | 1 | 2 | 3 |
 |---|---|---|---|
 | **花費秒數** | 30 | 100 | 10 |
 | **頁面名稱** | 首頁 | 產品 | 首頁 |
-| **日期** | 1月1日 | 1月1日 | 1月1日 |
+| **日期** | 1 月 1 日 | 1 月 1 日 | 1 月 1 日 |
 
-當計算首頁的逗留時間時，會是(30+10)/2=20，但依日劃分則會提供(30+10)/1=40，因為當天的單次執行是1月1日。
+計算首頁的逗留時間時，算式會是 (30+10)/2=20，但依日劃分時，算式則是 (30+10)/1=40，因為 1 月 1 日當天有單一連續執行。
 
 因此，這些量度可能會在造訪層級產生類似的結果，但是在點擊層級就會有所差異。
 
