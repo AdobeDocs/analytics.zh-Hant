@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 請務必熟悉如何在「分類」中建立[分類](/help/components/classifications/c-classifications.md)。
+>請務必熟悉如何在「分類」中建立[分類](/help/components/classifications/c-classifications.md)。
 
 >[!IMPORTANT]
 >
