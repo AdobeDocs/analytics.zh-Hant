@@ -1,18 +1,18 @@
 ---
 title: 從第三方分析平台轉換成 Adobe Analytics
 description: 以熟悉其他平台 (例如 Google Analytics) 的使用者為對象，說明取得報表的重要概念。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 
 # 從第三方分析平台轉換成 Adobe Analytics
 
-本指南提供常見的報表類型，可協助您瞭解 Adobe Analytics 的核心概念和工作流程，並著重說明 Adobe 與其他常用工具之間的主要相似處和差異。本指南是專為熟悉基本數位分析概念，但剛開始接觸 Adobe Analytics 的分析師所設計，並假設組織具備可將資料傳送至 Adobe 資料收集伺服器的有效實施。如果貴組織尚未設定 Adobe Analytics 實施，請從 [Adobe Analytics 首位管理員指南](/help/admin/admin-console/first-admin-guide.md)開始。
+本指南提供常見的報表類型，可協助您瞭解 Adobe Analytics 的核心概念和工作流程，並著重說明 Adobe 與其他常用工具之間的主要相似處和差異。本指南是專為熟悉基本數位分析概念，但剛開始接觸 Adobe Analytics 的分析師所設計，並假設組織具備可將資料傳送至 Adobe 資料收集伺服器的有效實作。如果貴組織尚未設定 Adobe Analytics 實作，請從 [Adobe Analytics 首位管理員指南](/help/admin/admin-console/first-admin-guide.md)開始。
 
 Google Analytics 和 Adobe Analytics 都是功能強大的平台，可針對您的網站效能提供寶貴分析。各平台都有各自的處理架構和使用者介面，為每個平台提供獨特優勢。本指南旨在協助熟悉 Google Analytics 的使用者適應 Adobe Analytics。
 
@@ -21,7 +21,7 @@ Google Analytics 和 Adobe Analytics 都是功能強大的平台，可針對您�
 * **Reports &amp; Analytics** 是提取基本報表的傳統方法。左側功能表提供預製報表的清單，讓使用者導覽至所需報表，並取得資料。區段和量度可提供額外的自訂。有 Google Analytics 報表使用經驗的使用者可能會發現此版面很熟悉。
 * **Analysis Workspace** 是目前提取大部分報表的建議方法。左側功能表可讓使用者拖放元件，以建立自己專屬的報表。它讓您有更多自由能滿足確切的報表需求。有建立 Google Analytics 控制面板和自訂報表使用經驗的使用者可能會發現此版面很熟悉。
 
-Most reports can be created in both [!UICONTROL Reports &amp; Analytics] and [!UICONTROL Analysis Workspace]. 不過，部分報表只能使用其中一個平台提取。In most cases, Adobe recommends using [!UICONTROL Analysis Workspace], unless a specific feature is only available in [!UICONTROL Reports &amp; Analytics].
+大部分報表都可在 [!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Analysis Workspace] 中建立。不過，部分報表只能使用其中一個平台提取。多數情況下，Adobe 建議使用 [!UICONTROL Analysis Workspace]，除非有特定功能只能在 [!UICONTROL Reports &amp; Analytics] 中使用。
 
 ## 建議的學習路徑
 
@@ -29,7 +29,7 @@ Adobe 建議從取得報表資料的絕對基礎概念開始：
 
 * [為 GA 使用者在 Analysis Workspace 建立基本報表](reports/create-report.md)
 
-Once you are familiar with components in [!UICONTROL Analysis Workspace], you can learn how to recreate most reports using the right components.
+在您熟悉 [!UICONTROL Analysis Workspace] 中的元件後，便可瞭解如何使用正確的元件來重新建立大部分的報表。
 
 * [在 Adobe Analytics 中建立即時報表](reports/realtime-reports.md)
 * [在 Adobe Analytics 中建立對象報表](reports/audience-reports.md)
