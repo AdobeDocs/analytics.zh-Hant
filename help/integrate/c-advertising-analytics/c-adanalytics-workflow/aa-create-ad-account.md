@@ -1,11 +1,11 @@
 ---
 title: 設定 Advertising 帳戶
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
         <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
         <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帳戶 ID。 </li> 
         <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。 </li> 
-        </ul> <p>Refer to <a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  > Locate your Account ID</a> for information on these IDs. </p> <p>成功登入後，「OAuth 代碼」欄位會顯示 
+        </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >尋找您的帳戶 ID</a>。 </p> <p>成功登入後，「OAuth 代碼」欄位會顯示 
         <systemoutput>
           「已擷取」
         </systemoutput>。 </p> </td> 
@@ -61,7 +61,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 
    | 設定 | 說明 |
    |--- |--- |
-   | 類型 | <ul><li>**自動：** 可讓Advertising Cloud引擎決定追蹤參數如何附加至搜尋引擎的追蹤範本／目標URL。 這是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**為了在「自動模式」中設定搜尋引擎帳戶，您需負責執行下列動作：<br>-將「s_kwcid」參數和值新增至要新增帳戶的帳戶追蹤範本或著陸頁面URL。 參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**&#x200B;注意：**進一步瞭解您是否應將此參數新增至您的「內容安[全性政策」](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。<br>-此外，關鍵字可插入著陸URL作為&quot;s_kwcid&quot;值的一部分，因此，如果關鍵字包含特殊字元或符號，請確認您的網頁伺服器可支援這些字元（常見特殊字元的範例是&quot;+&quot;，用於&quot;Broad Match Modified&quot;關鍵字）。</li><li>**手動：** 可讓您管理追蹤參數新增至搜尋引擎的追蹤範本／目標URL的方式。 [如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | 類型 | <ul><li>**自動：**&#x200B;讓 Advertising Cloud 引擎決定如何將追蹤參數附加到搜尋引擎的追蹤範本/目的地 URL。這是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**&#x200B;若要在「自動模式」中設定搜尋引擎帳戶，您必須執行下列動作：<br>-「s_kwcid」參數和值將新增至要新增之帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**注意：**&#x200B;進一步瞭解您是否應將此參數新增至您的[內容安全性原則](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/csp.html)。<br>- 此外，關鍵字可以作為 &quot;S_kwcid&quot; 值的一部分，插入至著陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。</li><li>**手動：**&#x200B;讓您管理如何將追蹤參數新增到搜尋引擎的追蹤範本/目的地 URL。[如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 在&#x200B;**[!UICONTROL 「對應」]**&#x200B;區段，您可以選擇要與這個搜尋引擎帳戶相連結的報表套裝。在儲存 Advertising 帳戶之前，您必須先提供至少一個報表套裝。您可以將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。請注意，系統只會將 AMO 從搜尋引擎提取的資料複製到任何對應的報表套裝，因此資料不會遭到分割。
 
@@ -80,7 +80,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>報表套裝 映射 </p> </td> 
+      <td colname="col1"> <p>報表套裝映射 </p> </td> 
       <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
       </tr> 
     </tbody> 
@@ -93,5 +93,5 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 
 >[!NOTE]
 >
-> 搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。
+>搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。
 
