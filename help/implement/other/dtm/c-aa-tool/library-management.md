@@ -4,9 +4,9 @@ keywords: library management;page code;load library at;managed by adobe;custom;c
 solution: Experience Cloud,Dynamic Tag Management
 title: 程式庫管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '420'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Dynamic Tag Management 中「程式庫管理」設定的欄位和選項說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 自訂 </p> </td> 
-   <td colname="col2"> <p>您可以配置程式庫程式碼。 </p> <p>選取此選項後，便可使用下列選項： </p> <p> <b>使用以下的自訂程式碼設定報表套裝：</b>核取此方塊時，Dynamic Tag Management 會在您的自訂程式碼中尋找名為以下的變數：   <span class="varname"> s_account</span>。此變數應包含您想要傳送資料之以逗號區隔的報表套裝清單。 </p> <p> <b>託管的程式碼：</b> 選擇託管 <span class="filepath">s_code</span> 的選項： </p> 
+   <td colname="col2"> <p>您可以配置程式庫程式碼。 </p> <p>選取此選項後，便可使用下列選項： </p> <p> <b>使用以下的自訂程式碼設定報表套裝：</b>核取此方塊時，Dynamic Tag Management 會在您的自訂程式碼中尋找名為以下的變數：<span class="varname"> s_account</span>。此變數應包含您想要傳送資料之以逗號區隔的報表套裝清單。 </p> <p> <b>託管的程式碼：</b> 選擇託管 <span class="filepath">s_code</span> 的選項： </p> 
     <ul id="ul_FC395283365A4BBAA8A5FE5871D16EC6"> 
      <li id="li_36D733C533CE40F1868309130551D4DE"> <b>位於 DTM</b>：您可以在 Dynamic Tag Management 內託管 <span class="filepath">s_code</span>。按一下<span class="uicontrol">「編輯程式碼」</span>，將檔案剪下並直接貼到編輯器中。 </li> 
      <li id="li_A64734C66D254079A5E16DC8DBEDA3F6"> <b>URL</b>：如果您擁有正確的 <span class="filepath">s_code</span> 檔案，而且不會覺得更新該檔案很麻煩，可以在此處提供該檔案的 URL。然後，動態標籤管理便會其實施的 <span class="filepath">Adobe Analytics</span> 中取用該 <span class="keyword">s_code</span> 檔案。 </li> 
