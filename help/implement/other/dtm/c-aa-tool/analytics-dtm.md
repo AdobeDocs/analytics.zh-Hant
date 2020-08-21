@@ -4,9 +4,9 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 新增 Adobe Analytics 工具
 topic: Developer and implementation
 uuid: 1c54331e-de03-4f44-8002-a19723c585b0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 為改善訪客追蹤，強烈建議您啟用 [Identity Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
+>為改善訪客追蹤，強烈建議您啟用 [Identity Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
 
 ## 新增 Adobe Analytics 工具 {#section_D5066B21581B4F7F811AD0027BF44EA5}
 
