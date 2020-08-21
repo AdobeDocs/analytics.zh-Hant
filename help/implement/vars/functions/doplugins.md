@@ -1,9 +1,9 @@
 ---
 title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ s.doPlugins = function() {/* Desired code */};
 
 >[!NOTE]
 >
-> 實施中的 `doPlugins` 函數只需要設定為變數一次。如果您設定 `doPlugins` 變數多次，只需要使用最新的程式碼就可以了。
+> 實作中的 `doPlugins` 函數只需要設為變數一次。如果您設定 `doPlugins` 變數多次，只需要使用最新的程式碼就可以了。
 
 ## 範例
 
@@ -51,4 +51,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
-> 舊版 AppMeasurement 的 `doPlugins()` 程式碼稍有不同。Adobe 建議您使用上述格式作為最佳實務。
+>舊版 AppMeasurement 的 `doPlugins()` 程式碼稍有不同。Adobe 建議您使用上述格式作為最佳實務。
