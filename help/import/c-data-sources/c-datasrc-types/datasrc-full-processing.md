@@ -4,11 +4,11 @@ subtopic: Data sources
 title: 完全處理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Adobe建議客戶使 [用大量資料插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) ，而非完全處理資料來源。 未來將淘汰完全處理的資料來源。
+>Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。未來將淘汰完全處理資料來源。
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -124,7 +124,7 @@ ht-degree: 93%
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>，即 &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>屬性編號字串 (如  <span class="term"> 體育版 </span>). </p> </td> 
+   <td colname="col3"> <p>屬性編號字串 (如   <span class="term"> 體育版 </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
@@ -174,7 +174,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
+   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
