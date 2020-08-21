@@ -5,8 +5,8 @@ subtopic: Release notes
 translation-type: tm+mt
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
 workflow-type: tm+mt
-source-wordcount: '2123'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,13 +23,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2020 年 6 月 24 日**
 
-* 修正Firefox的Activity Map linkExclusions篩選器不一律套用的問題。
+* 已修正不一定會為 Firefox 套用 Activity Map linkExclusions 篩選器的問題。
 
 ## 2.20.0 版
 
 發行日期：**2020 年 3 月 5 日**
 
-* 已修正安全性相關問題：更新Internet Explorer偵測以抑制JSLint警告。
+* 已更新 Internet Explorer 偵測以抑制 JSLint 警告，而修正安全性相關問題。
 
 ## 2.19.0 版
 
@@ -41,7 +41,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2020 年 2 月 13 日**
 
-* AppMeasurement現在可以透過設定變數，強制Cookie包含「保全」 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 屬性。 此變數的要求是必須安全地提供整個用戶端網站(HTTPS)。 (AN-204604)
+* AppMeasurement 現在可以藉由設定 [`writeSecureCookies`](vars/config-vars/writesecurecookies.md) 變數強制 Cookie 包含 Secure 屬性。此變數的需求是，必須安全地提供整個用戶端網站的服務 (HTTPS)。(AN-204604)
 
 ## 2.17.0 版
 
@@ -325,7 +325,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 發行日期：**2015 年 2 月 19 日**
 
 * 將所有延遲追蹤呼叫的處理改為一致，以修正延遲期間的備份變數問題，例如已點按物件。
-* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定    *`s.referrer`*&#x200B;時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。
+* 第一個追蹤呼叫後不再進行自動反向連結追蹤，以在第一個追蹤呼叫前手動設定&#x200B;*`s.referrer`*&#x200B;時，以免第二個、第三個...追蹤呼叫 (通常是連結追蹤) 重複計算反向連結。
 * 已更新分送 Zip 檔，現在包含 Visitor API 1.3.5。
 
 ## 1.4.2 版
