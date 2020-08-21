@@ -2,9 +2,9 @@
 description: 報表時間處理是一項虛擬報表套裝設定，可讓您以非破壞性的追溯方式處理資料。
 title: 報表時間處理功能
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1426'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 「報表時間處理功能」僅適用於 Analysis Workspace。
+>「報表時間處理功能」僅適用於 Analysis Workspace。
 
 「報表時間處理功能」僅會影響虛擬報表套裝中的資料，不會影響基本報表套裝中的任何資料或資料集合。您可透過下列圖表，詳細瞭解「報表時間處理功能」與傳統 Analytics 處理功能的差異：
 
