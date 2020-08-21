@@ -1,23 +1,23 @@
 ---
-title: 瀏覽次數
-description: 訪客的第n次瀏覽。
+title: 造訪次數
+description: 訪客的第 n 次造訪。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
 
-# 瀏覽次數
+# 造訪次數
 
-訪客目前所在的「瀏覽次數」維度報表。 當新瀏覽開始時，此維度項目會增加1。 當您想要瞭解回訪您網站時，此維度對於瞭解參與訪客的情況很有幫助。 此維度是以瀏覽為基礎的維度，表示其包含的整個瀏覽值相同，且無法變更。 它適用於訪客的存留期，不論專案日期範圍為何。
+「造訪次數」維度會報告訪客目前所在的造訪。當新瀏覽開始時，此維度項目會增加1。 如果您想要瞭解參與的訪客回訪網站時的情況，此維度將有所幫助。這是以造訪為基礎的維度，這表示其中包含整個造訪共同的值，且無法變更。此維度會套用至訪客的存留期，無論專案日期範圍為何。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度適用於所有實作，不需開箱即用。 如果報表套裝包含資料，此維度會運作。
+此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
-維度項目包括字 `"Visit number"` 串，後面接著訪客目前所在瀏覽的數值表示法。 例如，如果訪客以前從未瀏覽過您的網站，則其首次瀏覽屬於維度項目 `"Visit number 1"`。 如果這是訪客對您網站的第13次瀏覽，則屬於維度項目 `"Visit number 13"`。
+Dimension items include the string `"Visit number"` followed by the numeric representation of the visit the visitor is currently on. For example, if the visitor has never been to your site before, their first visit belongs to the dimension item `"Visit number 1"`. If this is the visitor&#39;s 13th visit to your site, they belong to the dimension item `"Visit number 13"`.
