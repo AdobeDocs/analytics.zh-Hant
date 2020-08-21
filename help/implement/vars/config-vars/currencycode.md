@@ -1,11 +1,11 @@
 ---
 title: currencyCode
 desciption: For eCommerce sites, set the currency the page deals in.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
-> 如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。若您會在實施中使用此變數，請確定已正確定義此變數。
+>如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。若您會在實施中使用此變數，請確定已正確定義此變數。
 
 此變數不會在點擊之間持續存在。請確定已在每個涉及收入或貨幣事件的頁面上定義此變數。
 
@@ -37,13 +37,13 @@ ht-degree: 90%
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
-## Adobe Experience Platform Mobile SDK中的貨幣代碼
+## Adobe Experience Platform Mobile SDK 中的貨幣代碼
 
-貨幣代碼會透過Adobe Analytics擴充功能中的上下文資料變數傳遞至Adobe Experience Platform Mobile SDK。
+貨幣代碼會透過 Adobe Analytics 擴充功能中的內容資料變數傳遞至 Adobe Experience Platform Mobile SDK。
 
-1. 在或期間，在上下文資料變數中設定貨幣 `trackState` 代碼 `trackAction`。
-2. 在Adobe Analytics管理控制台中建立報表套裝的處理規則。 設定規則以覆寫貨幣代碼變數。
-3. 在呼叫或時，將貨 `products` 幣代碼傳遞至變 `trackState` 數 `trackAction`。
+1. 在 `trackState` 或 `trackAction` 期間，在內容資料變數中設定貨幣代碼。
+2. 在 Adobe Analytics Admin Console 中建立報表套裝的處理規則。設定覆寫貨幣代碼變數的規則。
+3. 在呼叫 `trackState` 或 `trackAction` 時，將貨幣代碼傳遞至 `products` 變數。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
