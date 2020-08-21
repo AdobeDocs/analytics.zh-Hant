@@ -1,9 +1,9 @@
 ---
 title: linkType
 description: 使用 linkType 變數來判斷點擊所屬的連結追蹤維度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 此變數是 `tl()` 方法的第二個參數，通常不需要設定為獨立變數。但是，如果您不想在 `linkType` 方法中設定引數形式的值，可以使用 `tl()` 變數。
+> 此變數是 `tl()` 方法的第二個參數，通常不需要設為獨立變數。但是，如果您不想在 `linkType` 方法中設定引數形式的值，可以使用 `tl()` 變數。
 
 ```js
 s.linkType = "e";
