@@ -1,27 +1,27 @@
 ---
-title: 瀏覽深度
-description: 報告瀏覽深度的瀏覽型維度。
+title: 造訪深度
+description: 報告造訪深度的造訪相關維度。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '166'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
 
-# 瀏覽深度
+# 造訪深度
 
-「瀏覽深度」維度會報告訪客在整個瀏覽中檢視的頁面檢視次數。 瀏覽深度只會在點擊為頁面檢視，且 [Page](page.md) （頁面）維度與最後一個頁面檢視的維度項目不同時，才會增加。 此維度是以瀏覽為基礎的維度，表示其包含的值與整個瀏覽的值相同。 此變數會針對該次瀏覽結束後的瀏覽中的所有點擊設定。
+「造訪深度」維度會報告訪客在整個造訪中瀏覽的頁面檢視次數。Visit depth increases only if the hit is a page view, and the [Page](page.md) dimension is not the same as the last page view&#39;s dimension item. 這是以造訪為基礎的維度，這表示其中包含整個造訪共同的值。此變數的設定範圍，涵蓋某個造訪結束後的所有點擊。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度適用於所有實作，不需開箱即用。 如果報表套裝包含資料，此維度會運作。
+此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
-維度項目包含字 `"Pages per visit"` 串，後面接著代表瀏覽中頁數的數字。 維度項目代 `"Pages per visit: 1"` 表單頁瀏覽，而維度項目代表具有 `"Pages per visit: 8"` 8個頁面檢視（以及任何數目的連結追蹤呼叫）的瀏覽。
+Dimension items include the string `"Pages per visit"` followed by a number representing the number of pages in the visit. The dimension item of `"Pages per visit: 1"` represents a single-page visit, while the dimension item `"Pages per visit: 8"` represents a visit with 8 page views (and any number of link tracking calls).
 
-## 點擊深度比較
+## 與點擊深度比較
 
-如需 [維度間的比較](hit-depth.md) ，請參閱「點擊深度」。
+如需維度之間的比較，請參閱[點擊深度](hit-depth.md)。
