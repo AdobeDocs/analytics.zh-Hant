@@ -2,9 +2,9 @@
 description: Analysis Workspace 範本的詳細資料，以及在 Reports & Analytics 和 Report Builder 的報告功能。
 title: 報告 Adobe Analytics 的 Advertising 資料
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和
 
 >[!NOTE]
 >
-> 搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。並請注意，Analytics 報表不會傳回每小時精細度的資料，因為 AMO 資料不支援每小時精細度。
+>搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。並請注意，Analytics 報表不會傳回每小時精細度的資料，因為 AMO 資料不支援每小時精細度。
 
 ## Analysis Workspace：搜尋引擎 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
