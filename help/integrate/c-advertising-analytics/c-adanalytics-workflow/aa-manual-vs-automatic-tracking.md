@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 90%
 
 請注意，若要在「自動模式」中設定搜尋引擎帳戶，您必須執行以下動作：
 
-* The `s_kwcid` parameter and value will be added to the account tracking templates or landing page URLs in the account being added. 參數和值會插入 URL 末端。如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**您還是必須負責確認新增的 URL 參數正確無誤，才能順利前往最終的登陸頁面。**
-* In addition, keywords can be inserted into the landing URL as part of the `s_kwcid` value. 若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元。例如：常見的特殊字元為「+」，用於「加上廣泛比對修飾符」的關鍵字中。
+* `s_kwcid` 參數和值會新增至帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**您還是必須負責確認新增的 URL 參數正確無誤，才能順利前往最終的登陸頁面。**
+* 此外，關鍵字可作為 `s_kwcid` 值的一部分插入至登陸 URL 中。若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元。例如：常見的特殊字元為「+」，用於「加上廣泛比對修飾符」的關鍵字中。
 
 >[!IMPORTANT]
 >
->進一步瞭解您是否應將參數新 `s_kwcid` 增至您的內 [容保全政策](https://docs.adobe.com/content/help/en/id-service/using/reference/csp.html)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/csp.html)。
 
 ## 手動模式追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
@@ -60,7 +60,7 @@ s_kwcid=AL!
 {lpurl}?s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
 ```
 
-**`{lpurl}`及其他 URL 參數&#x200B;**
+**`{lpurl}`及其他 URL 參數**
 
 ```
 {lpurl}?campaign=PPC&s_kwcid=AL!9999!3!{creative}!{matchtype}!{placement}!network}!{product_partition_id}!{keyword}
@@ -104,7 +104,7 @@ s_kwcid=AL!<Advertising Analytics ID>!10!{AdId}!{OrderItemId}
 {lpurl}?s_kwcid=AL!9999!10!{AdId}!{OrderItemId}
 ```
 
-**`{lpurl}`及其他 URL 參數&#x200B;**
+**`{lpurl}`及其他 URL 參數**
 
 ```
 {lpurl}?campaign=PPC&
