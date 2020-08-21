@@ -1,30 +1,30 @@
 ---
-title: eVar（銷售）
-description: 與產品維度關聯的自訂變數。
+title: eVar (銷售)
+description: 繫結至產品維度的自訂變數。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 25%
+ht-degree: 95%
 
 ---
 
 
-# eVar（銷售）
+# eVar (銷售)
 
-*此說明頁面說明銷售eVar如何以維度運作。 For information on how to implement merchandising eVars, see[eVars](/help/implement/vars/page-vars/evar.md)in the Implement user guide.*
+*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售 eVar 的相關資訊，請參閱「實作」使用指南中的[eVar](/help/implement/vars/page-vars/evar.md)。*
 
 測量外部促銷活動或外部搜尋詞的成功情形時，通常會想使用單一值來接收發生之任何成功事件的評分。例如，如果客戶按一下促銷活動電子郵件中的連結而前往您的網站，其隨後進行的所有購買都應評給該促銷活動。
 
-當客戶尋找多個項目時，由內部搜尋或類別瀏覽驅動的事件會如何？ For example, a customer searches your site for `"goggles"`, then adds a pair to their cart:
+如果是在客戶尋找多個項目時，由內部搜尋或類別瀏覽驅動的事件呢？例如，客戶在您的網站上搜尋 `"goggles"`，接著新增一組產品至購物車：
 
 ![護目鏡範例](assets/merch-example-goggles.png)
 
-Before checkout, the customer searches for `"winter coat"`, then adds a down jacket to the to their cart:
+結帳前，客戶又搜尋 `"winter coat"`，然後新增了一件羽絨外套至購物車：
 
 ![外套範例](assets/merch-example-coat.png)
 
-當訪客完成此次購買時，您會有購買護目鏡的內部搜尋 `"winter coat"` （假設eVar使用預設的「最近」配置）。 Good for `"winter coat"`, but bad for marketing decisions:
+訪客完成此次購買後，您對 `"winter coat"` 的內部搜尋會獲得購買護目鏡的評分 (假設 eVar 使用預設的「最近」配置)。這樣對 `"winter coat"` 有利，但對行銷決策不利。
 
 | 內部搜尋詞 | 收入 |
 |---|---|
@@ -32,25 +32,25 @@ Before checkout, the customer searches for `"winter coat"`, then adds a down jac
 
 ## 銷售變數如何解決這個問題
 
-銷售eVar可讓您在發生成功事件時，將eVar的目前值指派給產品。 即使稍後對該特定 eVar 設定了一或多個新值，這個值仍維持繫結至該產品。
+銷售 eVar 可讓您在成功事件發生時，將 eVar 的目前值指派給產品。即使稍後對該特定 eVar 設定了一或多個新值，這個值仍維持繫結至該產品。
 
-If merchandising is enabled for the eVar in the previous example, the search term `"goggles"` is tied to the snow goggles, and the search term `"winter coat"` is tied to the down jacket. 銷售eVar會在產品層級分配收入，因此每個期限都會收到與期限相關之產品收入金額的評分：
+如果在上述範例中為 eVar 啟用了銷售，搜尋詞彙 `"goggles"` 就會繫結至滑雪鏡，而搜尋詞彙 `"winter coat"` 會繫結至羽絨外套。銷售 eVar 會在產品層級分配收入，每個詞彙會獲得與其相關聯之產品收入金額的評分：
 
 | 內部搜尋詞 | 收入 |
 |---|---|
 | 冬季大衣 | $119 |
 | 護目鏡 | $38 |
 
-如需實 [施指示](/help/implement/vars/page-vars/evar-merchandising.md) ，請參閱銷售eVar。
+如需實作指示，請參閱[銷售 eVar](/help/implement/vars/page-vars/evar-merchandising.md)。
 
 ## 銷售變數的例項
 
-不建 [議在銷售變數上使用「例項](../metrics/instances.md) 」量度。
+不建議將[例項](../metrics/instances.md)量度用於銷售變數。
 
-* 對於使用產品語法的銷售變數，例項根本不會增加。
-* 對於使用轉換變數語法的銷售變數，每次設定eVar時都會計算例項。 不過，它會歸因於維度項目，除 `"None"` 非下列所有項目都發生在相同的點擊上：
-   * 銷售eVar會以值設定。
-   * 變 `products` 數以值定義。
+* 對於使用產品語法的銷售變數，例項完全不會增加。
+* 對於使用轉換變數語法的銷售變數，在每次設定 eVar 時都會計算例項。However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+   * 銷售 eVar 設定了某個值。
+   * `products` 變數以某個值定義。
    * 已設定綁定事件。
 
 ```js
@@ -62,4 +62,4 @@ s.eVar1 = "Tower defense";
 s.products = "Games;Wizard tower;;;;eVar2=Tower defense";
 ```
 
-由於轉換變數語法的大部分使用案例都需要eVar和產品變數在不同點擊上，因此使用「例項」量度並不現實。
+由於轉換變數語法的使用案例大多需要 eVar 和產品變數位於不同的點擊上，因此使用「例項」量度並無實質效益。
