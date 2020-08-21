@@ -1,38 +1,38 @@
 ---
-description: 說明Adobe Analytics的全新連續功能發行策略
-title: Adobe Analytics功能發行
-translation-type: tm+mt
+description: 說明 Adobe Analytics 的全新持續功能發行策略
+title: Adobe Analytics 功能發行
+translation-type: ht
 source-git-commit: dcca8559c9e730c9e04981d69068786878062561
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics功能發行
+# Adobe Analytics 功能發行
 
-過去，Adobe Analytics功能的發行會遵循固定的每月計畫。 從2020年4月開始，Adobe Analytics改採持續傳送模型，可讓您以更具延展性、更分階段的方式部署功能。
+過去，Adobe Analytics 功能的發行會依循固定的每月排程。從 2020 年 4 月開始，Adobe Analytics 改採持續傳遞模式，讓您以更具延展性的分階段方式部署功能。
 
-## 發佈策略
+## 發行策略
 
-[!UICONTROL 分析工作區] (Analysis Workspace)使用功能標幟（也稱為「切換」）來控制新功能的可見性，允許在完整版發行之前進行受控縮放測試。 此發行策略包含下列階段：
+[!UICONTROL Analysis Workspace] 使用功能旗標 (也稱為「切換」) 來控制新功能的可見性，以在完整版發行之前進行有限度的規模測試。此發行策略包含下列階段：
 
-* **發佈至生產(RTP)**: 程式碼會發佈至生產環境，並在「分析工作區」中關閉功能可見性。 **注意**: 在RTP,2.0 Analytics API中可使用此功能。
+* **發行至生產環境 (RTP)**：程式碼會發行至生產環境，但在 Analysis Workspace 中關閉功能可見性。**注意**：在 RTP 階段，可在 2.0 Analytics API 中使用功能。
 
-* **有限測試**: 階段發行從內部Adobe使用者的測試開始。 然後，在兩個月內，此版本的可用性從0%擴充至100%。 分階段推出會在Experience Cloud組織層級進行，因此組織中所有有權使用的使用者都會獲得相同的體驗。
+* **有限測試**：分階段的發行從內部 Adobe 使用者的測試開始。在隨後的幾個月內，發行的可用性會從 0% 擴充至 100%。分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
 
-* **通用性(GA)**: 此功能可供100%有權使用的Experience Cloud組織使用，功能發行已完成。
+* **正式發行 (GA)**：已獲授權的 Experience Cloud 組織可使用 100% 的功能，功能發行至此即告完成。
 
-在每個功能版本中，從RTP到GA的時間軸可能會有所不同。 其目標是縮短發行時間，以便在發行開始(RTP)後的2個月內，將推出GA功能。
+每個功能發行從 RTP 到 GA 的時程可能不盡相同。共同目標是要縮短發行時程，以期在開始發行 (RTP) 後的 2 個月內，就正式發行功能。
 
 ## 福利
 
-分階段發行可讓Adobe更精確地擴充軟體部署程式，並確保功能在全面推出之前已完全強化。 此外，還可讓功能一推出，就能立即發佈，而不需附加固定的每月發行視窗。
+分階段發行可讓 Adobe 更精確地調整軟體部署程序，並確保功能在正式發行之前已完整強化。此外，還可讓功能在可供使用時立即發行，而無須依循固定的每月發行時程。
 
 ## 常見問題解答
 
 | 問題 | 回答 |
 |---|---|
-| 我是否可要求提早存取功能？ | 不可以，不會授與提早存取權。<br>如果您想要測試早期的Analytics概念，建議您嘗試 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html) ，以提供我們領先業界的創新意見回應。 |
-| 此發行策略是否會影響我存取功能？ | 不可以，功能一旦通過正式登入，您就可以存取該功能（如果該功能已包含在您的Analytics套件中）。<br>您可以在「管理員 [!UICONTROL >公司設定] >功能存取層級」下，檢視Analytics套 [!UICONTROL 件的詳細資訊][](https://docs.adobe.com/content/help/en/analytics/admin/company-settings/feature-access-levels.html)。 |
+| 我是否可要求搶先使用功能？ | 不可以，我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html) 對我們領先業界的創新能力提供意見反應。 |
+| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在[!UICONTROL 「管理員] > [!UICONTROL 公司設定] > [功能存取層級」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/company-settings/feature-access-levels.html)下，檢視 Analytics 套件的詳細資料。 |
