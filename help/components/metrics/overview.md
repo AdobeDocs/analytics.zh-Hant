@@ -4,17 +4,17 @@ description: 查看隨時間變化的維度項目或資料數量。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 量度概觀
 
-量度可讓您量化維度項目，例如查看您網站上哪些頁面的頁面檢視次數最多。 您也可以隨時間趨勢化量度，例如查看訪客每天在您的網站上下多少訂單。 基本報表會針對一欄數值（量度）顯示字串值列（維度）。
+量度可讓您量化維度項目，例如查看您網站上哪些頁面的頁面檢視次數最多。 您也可以分析量度在一段時間內的趨勢，例如，查看訪客每天在您的網站下了多少訂單。基本報表會針對一個數值 (量度) 欄顯示字串值 (維度) 列。
 
-例如，如果您將「頁面」維度與「瀏覽」度量結合，您會看到排名報表，顯示您最常瀏覽的頁面：
+例如，如果您將「頁面」維度與「造訪」量度結合，您將會看到排名報表，其中顯示您最常造訪的頁面：
 
 | `Page` | `Visits` |
 | --- | --- |
@@ -22,7 +22,7 @@ ht-degree: 2%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-如果您找不到指定的量度說明頁面，則可能是自訂 [事件](custom-events.md) 或計算 [量度](../c-calcmetrics/cm-overview.md)。
+如果您找不到特定量度說明頁面，表示那可能是[自訂事件](custom-events.md)或[計算量度](../c-calcmetrics/cm-overview.md)。
 
-* 如果量度是自訂事件，請洽詢您組織內的Analytics管理員或報表套裝的解決方 [案設計檔案](/help/implement/prepare/solution-design.md)。
-* 如果量度是計算量度，請按一下資訊圖示以決定其公式。
+* 如果量度是自訂事件，請洽詢您組織內的 Analytics 管理員，或報表套裝的[解決方案設計文件](/help/implement/prepare/solution-design.md)。
+* 如果量度是計算量度，請按一下資訊圖示以確認其公式。
