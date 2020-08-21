@@ -39,7 +39,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/company-settings/login-restrictions-eol.html)的相關新主題 |
 | 2019 年 11 月 25 日 | [內部 (工作階段重新整理) 行銷管道](https://docs.adobe.com/content/help/en/analytics/components/marketing-channels/session-refresh.html)的相關新主題 |
-| 2019 年 11 月 21 日 | 針對 [}Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/variables-analytics-reporting/configuration-variables.html)的相關新文章 |
 | 2019 年 9 月 12 日 | [歷程 IQ：跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-home.html)的新文件 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/pwa/pwa.html)的相關新文章 |
