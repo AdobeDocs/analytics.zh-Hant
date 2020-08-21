@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 67%
+ht-degree: 88%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 67%
 
 *此說明頁面將說明 eVar 做為維度的運作方式。如需實作 eVar 的相關資訊，請參閱實作使用手冊中的[eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。依預設，eVar 可存留於其設定的點擊之外。You can customize their expiration and allocation under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。依預設，eVar 可存留於其設定的點擊之外。您可以在報表套裝設定中的[「轉換變數」](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自訂其有效期和配置。
 
-可用eVar的數量視您與Adobe的合約而定。 若您與Adobe的合約支援，則最多可使用250個eVar。
+可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
 eVar不區分大小寫。 如果您在不同情況下(例如和 `"DOG"``"Dog"`)傳送相同的值，「分析工作區」會將它們群組在相同的維度項目中。 使用報告月初所見第一個值的大小寫。 「資料倉庫」會顯示在請求期間遇到的第一個值。
 
-## 以資料填入eVar
+## 將資料填入 eVar 中
 
-每個eVar會從影像請求中 [`v1` 的- `v250` 查詢字串](/help/implement/validate/query-parameters.md) 收集資料。 例如，查詢字 `v1` 串參數會收集eVar1的資料，而查詢字串參 `v222` 數則會收集eVar222的資料。
+每個 eVar 會分別從影像要求中的 [`v1` - `v250` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。例如，`v1` 查詢字串參數會收集 eVar1 的資料，而 `v222` 查詢字串參數則會收集 eVar222 的資料。
 
-AppMeasurement會將JavaScript變數編譯為影像要求以進行資料收集，它會使用變 `eVar1` 數- `eVar250`。 請參 [閱實作使](/help/implement/vars/page-vars/evar.md) 用指南中的eVar，以取得實作指南。
+AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收集) 會使用變數 `eVar1` - `eVar250`。如需實作準則，請參閱「實作」使用指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。
 
 ## 維度項目
 
-由於eVar在您的實作中包含自訂字串，您的組織會決定每個eVar的維度項目。 請務必記錄解決方案設計檔案中每個eVar和一般維度項 [目的用途](/help/implement/prepare/solution-design.md)。
+由於eVar在您的實作中包含自訂字串，您的組織會決定每個eVar的維度項目。 Make sure you record the purpose of each eVar and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
 
 ## eVar 的運作方式
 
@@ -44,7 +44,7 @@ AppMeasurement會將JavaScript變數編譯為影像要求以進行資料收集�
 成功事件和 eVar 通常定義在不同的影像要求中。`post_evar` 欄可讓 eVar 值連結至事件，並顯示報表中的資料。以下列造訪為例：
 
 1. 訪客造訪您的網站，首先停留在首頁上。
-2. 他們使用您網站的內部搜尋功能來搜尋「貓」。您的實作使用eVar1進行內部搜尋。
+2. 他們使用您網站的內部搜尋功能來搜尋「貓」。您的實作使用 eVar1 進行內部搜尋。
 3. 他們檢視產品，並完成結帳程序。
 
 原始資料的簡化版本看起來類似下列結果：
@@ -84,14 +84,14 @@ Analysis Workspace 使用下列邏輯提取此報表：
 * 依預設，eVar 會使用最後一個配置。新值會覆寫持續值。
 * 依預設，eVar 會使用造訪的到期日。造訪結束後，值即停止在 `post_evar` 欄中逐列複製。
 
-You can change eVar allocation and expiration under [Conversion variables](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) in Report suite settings.
+您可以在報表套裝設定中的[「轉換變數」](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下變更 eVar 配置和到期日。
 
-## eVar的值高於prop
+## eVar 優於 Prop 之處
 
-Adobe建議在大部分情況下使用eVar，並透過下列方式提供支援：
+Adobe 建議在大部分情況下使用 eVar，其支援基礎如下：
 
-* eVar在報表中有255位元組的限制。 Prop有100位元組限制。
+* eVar 在報表中的長度限制為 255 個位元組。eVar 的長度限制為 100 個位元組。
 * 依預設，prop 不會持續存在超過設定的點擊。eVar 有自訂的過期時間，可讓您判斷 eVar 何時不再獲得後續事件的評分。不過，如果您使用[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)，prop 和 eVar 都可以使用自訂歸因模型。
-* Adobe支援最多250個eVar，僅支援75個prop。
+* Adobe 最多可支援 250 個 eVar，而僅支援 75 個 Prop。
 
-請參 [閱prop](prop.md) ，以取得prop和eVar之間的更多比較。
+如需 Prop 與 eVar 之間的更多比較，請參閱 [Prop](prop.md)。
