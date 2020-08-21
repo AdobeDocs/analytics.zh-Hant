@@ -1,9 +1,9 @@
 ---
 title: zip
 description: 如果報表套裝設定允許，手動填入「郵遞區號」維度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '243'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設定為所要的值。如果您一律使用[!UICONTROL 「geo zip」]，便無法使用此變數。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)。
+> 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 「geo zip」]，便無法使用此變數。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)。
 
 ## Adobe Experience Platform Launch 中的 Zip
 
