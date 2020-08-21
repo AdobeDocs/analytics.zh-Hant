@@ -5,21 +5,21 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 1%
+ht-degree: 87%
 
 ---
 
 
 # 件數
 
-「件數」量度會顯示所有訂單中購買的產品總數。 此量度對電子商務網站測量轉換至關重要。 您可以將此度量與任何維度結合，以查看哪些維度項目對購買多少產品有貢獻。 例如，您可以看到促成購買產品的熱門促銷活動(使用 [追蹤代碼維度](../dimensions/tracking-code.md) )或熱門內部搜尋詞(使用 [eVar](../dimensions/evar.md))。
+「件數」量度會顯示在所有訂單中購買的產品總數。此量度對於電子商務網站的測量轉換至關重要。您可以將此度量與任何維度結合，以查看哪些維度項目對購買多少產品有貢獻。 例如，您可以看到對產品購買最有貢獻的前幾項行銷活動 (使用[追蹤代碼](../dimensions/tracking-code.md)維度)，或前幾名的內部搜尋詞彙 (使用 [eVar](../dimensions/evar.md))。
 
-## 此度量的計算方式
+## 此量度的計算方式
 
-對於變數中存 `purchase` 在的每 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 個點擊，請總和變數中的「數量」 [`products`](/help/implement/vars/page-vars/products.md) 欄位。
+對於 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中有 `purchase` 的每個點擊，加總 [`products`](/help/implement/vars/page-vars/products.md) 變數內的「數量」欄位。
 
-## 比較訂單和件數
+## 比較訂單與件數
 
-「訂 [購](orders.md) 」量度僅記錄購買事件數。 「件數」量度通常高於「訂購」，因為客戶可以購買多個產品。 在這些情況下，單個訂單存在多個單位。
+[訂單](orders.md)量度只會記錄購買事件的數量。「件數」量度通常會高於「訂單」，因為客戶可購買多件產品。在這種情況下，單一訂單可能包含多個件數。
 
-如果您的訂單高於件數，Adobe建議您檢查實作的完整性。 您的變數在購買 `products` 時可能未正確設定，這通常是不想要的行為。
+如果您的訂單數高於件數，Adobe 建議您檢查實作的完整性。有可能是您的 `products` 變數在購買時並未正確設定，這應該不是您要的行為。
