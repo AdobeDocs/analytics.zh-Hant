@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->管理員與非管理員可在已組織的工作區專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
+>管理員與非管理員可在已組織的工作區專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未組織的元件。[更新的組織體驗](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/curate-projects-vrs.html)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理：
 
