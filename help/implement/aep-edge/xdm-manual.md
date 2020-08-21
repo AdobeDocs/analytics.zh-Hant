@@ -1,26 +1,26 @@
 ---
-title: 手動將XDM資料對應至Analytics
-description: '手動將XDM資料從Experience Platform對應至Adobe Analytics '
-translation-type: tm+mt
+title: 手動將 XDM 資料對應至 Analytics
+description: '手動將 XDM 資料從 Experience Platform 對應至 Adobe Analytics '
+translation-type: ht
 source-git-commit: 717c3e23eb2c3fb2477bd77ea92a1dce744f02df
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# 手動將XDM資料對應至Analytics
+# 手動將 XDM 資料對應至 Analytics
 
-Adobe Experience Platform(AEP)Web SDK提供協助，協助您在平台與Analytics之間手動對應資料。
+Adobe Experience Platform (AEP) Web SDK 的輔助工具可協助您在 Platform 與 Analytics 之間手動對應資料。
 
-對於未自動映射至Analytics的XDM資料，您可以新增內容 [資料](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html) ，以符合您 [的架構](https://docs.adobe.com/content/help/en/experience-platform/xdm/schema/composition.html)。 然後，Analytics處理規則可使用它 [來填入](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html) Analytics變數。
+對於未自動對應至 Analytics 的 XDM 資料，您可以新增[內容資料](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/contextdata.html)以比對您的[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)。隨後，Analytics [處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)將可用它來填入 Analytics 變數。
 
-此外，您也可以使用一組預設的動作和產品清單，以透過AEP Web SDK傳送或擷取資料。 若要這麼做，請參閱 [產品](https://docs.adobe.com/content/help/en/experience-platform/edge/implement/commerce.html)。
+此外，您也可以使用一組預設的動作和產品清單，以透過 AEP Web SDK 傳送或擷取資料。若要這麼做，請參閱[產品](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/implement/commerce.html)。
 
 ## 內容資料
 
-若要供Analytics使用，XDM資料會使用點記號平面化，並設為可用 `contextData`。 下列值對清單顯示下列範例 `context data`:
+為了供 Analytics 使用，XDM 資料會使用點標記法扁平化，並成為可用的 `contextData`。下列值配對清單顯示 `context data` 的範例：
 
 ```javascript
 {
@@ -47,18 +47,18 @@ Adobe Experience Platform(AEP)Web SDK提供協助，協助您在平台與Analyti
 
 ## 處理規則
 
-邊緣網路收集的所有資料都可透過處理 [規則存取](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)。 在Analytics中，您可以使用處理規則將上下文資料併入Analytics變數。
+邊緣網路收集的所有資料都可透過[處理規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)來存取。在 Analytics 中，您可以使用處理規則將內容資料併入 Analytics 變數中。
 
-例如，在下列規則中，Analytics會設為將與 **a.x_atag.search.term（上下文資料）關聯的資料填入內部搜尋詞(eVar2)******。
+以下列規則為例，Analytics 設為會在&#x200B;**內部搜尋詞彙 (eVar2)** 中填入與 **a.x_atag.search.term (內容資料)** 相關聯的資料。
 
 ![](assets/examplerule.png)
 
 
-## XDM架構
+## XDM 結構
 
-Experience Platform使用結構描述，以一致且可重複使用的方式來描述資料結構。 透過跨系統一致地定義資料，保留意義並從資料中獲取價值變得更容易。 Analytics上下文資料可與架構定義的結構搭配使用。
+Experience Platform 會使用結構，以一致且可重複使用的方式說明資料結構。藉由定義跨系統的一致資料，將可輕易保留意義，而發揮資料應有的價值。Analytics 內容資料可與結構 (schema) 定義的結構 (structure) 搭配使用。
 
-下列範例說明如何 [`event` 搭配](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html) 「AEP Web SDK `xdm` 」選項使用命令來傳送和擷取資料。 在此範例中，命 `event` 令與 [ExperienceEvent商務詳細資訊結構方案相符](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md) ，以便追蹤productListItems `name` 和 `SKU` 值：
+下列範例說明 [`event` 命令](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/fundamentals/tracking-events.html)如何與 `xdm` 選項搭配使用，以透過 AEP Web SDK 傳送和擷取資料。在此範例中，`event` 命令與 [ExperienceEvent 商務詳細資料結構](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)相符，因此會追蹤 productListItems `name` 和 `SKU` 值：
 
 
 ```
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-如需使用AEP Web SDK追蹤事件的詳細資訊，請參閱追蹤 [事件](https://docs.adobe.com/content/help/en/experience-platform/edge/fundamentals/tracking-events.html)。
+如需使用 AEP Web SDK 追蹤事件的詳細資訊，請參閱[追蹤事件](https://docs.adobe.com/content/help/zh-Hant/experience-platform/edge/fundamentals/tracking-events.html)。
