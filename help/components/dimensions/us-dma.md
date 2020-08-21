@@ -5,32 +5,32 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 1%
+ht-degree: 91%
 
 ---
 
 
 # US DMA
 
-「美國DMA」維度會報告訪客的指定市場區域(DMA)。 它以尼爾森匯編的媒體市場 [為基礎](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/)。
+「美國 DMA」維度會報告訪客的指定市場區域 (DMA)。此維度以 [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/) 彙編的媒體市場為基礎。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度會參照Adobe內部的查閱規則。 查閱值以點擊所傳送的IP位址為基礎。 Adobe與Nielsen合作，維護IP位址與DMA之間的查詢。 此維度適用於所有實作，不需開箱即用。
+此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 Nielsen 合作，共同維護 IP 位址與 DMA 之間的查閱。此維度可直接用於所有實作。
 
 >[!TIP]
 >
->如果貴組織遵守嚴格的隱私 [權法規](/help/admin/admin/general-acct-settings-admin.md) ，但模糊化IP位址不夠，則您可要求完全停用地理位置資料。 請連絡客戶服務以取得報表套裝ID，並要求關閉報表套裝的「地理位置」。
+>如果您的組織遵循嚴格的隱私權法規，但[模糊化 IP 位址](/help/admin/admin/general-acct-settings-admin.md)不夠嚴謹，您可以要求完全停用地理位置資料。請聯絡客戶服務以取得報表套裝 ID，並要求關閉報表套裝的「地理位置」。
 
 ## 維度項目
 
-維度項目包括訪客的DMA和DMA代碼。 3位數的代碼不是郵遞區號，而是Nielsen的DMA代碼。 範例值 `"Dallas-Ft. Worth (623)"`包括 `"New York (501)"`、或 `"Los Angeles (803)"`。 維度項目 `"No Metro (0)"` 包含美國境外的所有國際流量。
+維度項目包括訪客的DMA和DMA代碼。 3 位數的代碼並非郵遞區號，而是 Nielsen 彙編的 DMA 代碼。範例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
 
-## 報告位置與實際位置之間的差異
+## 報告的位置與實際位置之間的差異
 
-由於此維度是以IP位址為基礎，因此某些情況可顯示報告位置與實際位置的差異：
+由於此維度以 IP 位址為基礎，因此在某些情況下，報告的位置與實際位置之間可能會出現差異：
 
-* **代表公司Proxy的IP位址**: 這些訪客可顯示為透過使用者公司網路的流量，如果使用者正在遠端工作，則可能是不同的位置。
-* **行動IP位址**: 行動IP定位的運作層級視位置和網路而定。 許多電信業者會透過集中或地區存在點回傳IP流量。
-* **衛星ISP用戶**: 識別這些使用者的特定位置很困難，因為他們通常似乎源自上行鏈路位置。
-* **軍事和政府IP**: 代表在全球各地旅行並透過其家鄉（而非目前駐在的基地或辦公室）進入的人員。
+* **代表公司 Proxy 的 IP 位址**：這些訪客可能會顯示為來自使用者公司網路的流量，但若使用者正在遠端工作，則可能是不同的位置。
+* **行動 IP 位址**：行動 IP 定位會根據位置與網路而在不同層級運作。許多電信業者會透過集中化或地區性網路節點取回 IP 流量。
+* **衛星 ISP 使用者**：要識別這些使用者的特定位置並不容易，因為他們通常看似源自於上行位置。
+* **軍事和政府 IP**：此類 IP 通常屬於在全球各地旅行、而透過其居住地 (而非其目前駐在基地或辦公室) 進入的工作人員。
