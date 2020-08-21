@@ -5,6 +5,9 @@ title: 計算與進階計算 (衍生) 量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '783'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->2018 年 7 月，Adobe 推出[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
+>2018 年 7 月，Adobe 推出[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型已分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」並未遭到廢止，而是只廢止了出現在計算量度中的兩個配置模型)。
 >* 此外，我們已修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、報表 API、Report Builder 和 Ad Hoc Analysis 都會反映此次計算量度變更。如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
@@ -47,7 +50,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 * 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]內建立量度。
 * [無須變更實作](https://youtu.be/CuQTm9RaUpY)，即可建立衍生自報表執行時間的區段量度。因為這些量度的根據是區段，所以可查看其歷史資料。
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
-* (僅限進階計算量度) 量度上的區段。例如，您可以建立「新訪客」的量度，計算這是他們第一次作業的人員數量。
+* (僅限進階計算量度) 量度上的區段。例如，您可以建立「新訪客」的量度，計算這是他們第一次工作階段的人員數量。
 * (僅限進階計算量度) 納入統計函數以協助您說明資料。例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 * 在其他 [!DNL Analytics] 工具中利用 [!UICONTROL Ad Hoc Analysis] 內建立的量度，反之亦然。
 
@@ -61,7 +64,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 * Reports &amp; Analytics 中的「漏斗」
 * Analysis Workspace 中的「副產品」
-* [!UICONTROL Analysis Workspace 中的「世代分析」]
+* [!UICONTROL Analysis Workspace 中的「同類群組分析」]
 * [!UICONTROL Data Warehouse]
 * [!UICONTROL 區段]
 * [!UICONTROL 即時報表]
