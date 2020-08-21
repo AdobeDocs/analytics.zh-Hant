@@ -1,9 +1,9 @@
 ---
 title: 將 Launch 資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 您可以串連相同變數中的資料元素。舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
+>您可以串連相同變數中的資料元素。舉例來說，如果您有「Hostname」資料元素和「Pathname」資料元素，可使用 `%Hostname%%Pathname%` 將兩者合併成單一變數。
 
 ## 後續步驟
 
