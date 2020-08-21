@@ -18,7 +18,7 @@ Adobe 針對各組織的數位策略與行銷方案提供可執行的即時資�
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期終止Adobe Data Connector技術。 [深入了解...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年中後期終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系統要求**
 
@@ -86,7 +86,7 @@ Adobe Analytics 會透過 Data Warehouse 將這些檔案分為每日檔案，傳
 
 >[!NOTE]
 >
-> 如果定義產品時沒有關聯事件，則會自動引發 prodView 事件。如果上述要求不符合，則對應的再行銷區段無法正確回報。
+>如果定義產品時沒有關聯事件，則會自動引發 prodView 事件。如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
 [!UICONTROL 放棄購買]：當使用者新增產品至購物車時會啟動：
 
@@ -114,4 +114,4 @@ s.events="purchase";
 
 >[!IMPORTANT]
 >
-> 除了您的標準 Data Connectors 整合的再行銷區段檔案外，通常顧問也會設定 Data Warehouse 要求作為每日排程報表。此資料倉儲要求將包含 Data connectors 變數和非 Data connectors 變數，而該要求可僅根據您組織的特定要求進行排程。若要在疑難排解時避免混淆，請指定有問題的檔案是否真的是再行銷區段檔案，或是包含非 Genesis 變數的資料倉儲要求。
+>除了您的標準 Data Connectors 整合的再行銷區段檔案外，通常顧問也會設定 Data Warehouse 要求作為每日排程報表。此資料倉儲要求將包含 Data connectors 變數和非 Data connectors 變數，而該要求可僅根據您組織的特定要求進行排程。若要在疑難排解時避免混淆，請指定有問題的檔案是否真的是再行銷區段檔案，或是包含非 Genesis 變數的資料倉儲要求。
