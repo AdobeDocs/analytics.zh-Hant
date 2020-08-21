@@ -1,9 +1,9 @@
 ---
 title: purchaseID
 description: 根據唯一的購買識別碼去除重複點擊。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
@@ -34,4 +34,4 @@ s.purchaseID = "ABC123";
 
 >[!NOTE]
 >
-> 請勿使用隨機函數來產生購買 ID。Adobe 建議您使用[資料層](../../prepare/data-layer.md)來儲存指定的購買 ID。
+>請勿使用隨機函數來產生購買 ID。Adobe 建議您使用[資料層](../../prepare/data-layer.md)來儲存指定的購買 ID。
