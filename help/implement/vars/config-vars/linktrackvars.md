@@ -1,9 +1,9 @@
 ---
 title: linkTrackVars
 description: 指定要將哪些變數納入連結追蹤影像要求中。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ Launch 會根據介面中設定的變數在後端自動填入此變數，因此�
 
 >[!IMPORTANT]
 >
-> 如果您使用自訂程式碼編輯器在 Launch 中設定變數，也必須使用自訂程式碼在 `linkTrackVars` 中納入變數。
+>如果您使用自訂程式碼編輯器在 Launch 中設定變數，也必須使用自訂程式碼在 `linkTrackVars` 中納入變數。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackVars
 
@@ -42,7 +42,7 @@ s.linkTrackVars = "eVar1,eVar2,events,channel,products";
 
 >[!TIP]
 >
-> 在此變數中指定變數時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackVars = "eVar1";` 正確，而 `s.linkTrackVars = "s.eVar1";` 不正確。
+>在此變數中指定變數時，請避免使用 Analytics 物件識別碼 (`s.`)。例如，`s.linkTrackVars = "eVar1";` 正確，而 `s.linkTrackVars = "s.eVar1";` 不正確。
 
 ## 範例
 
