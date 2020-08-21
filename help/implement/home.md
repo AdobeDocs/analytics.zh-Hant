@@ -3,6 +3,9 @@ title: 實施 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 translation-type: ht
 source-git-commit: 8a090574a6822a76366343ad5c657280bf7475eb
+workflow-type: ht
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +24,7 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 5. Adobe 伺服器會將收集的資料儲存在&#x200B;*報表套裝*&#x200B;中。
 6. 報告套裝資料會填充在您可於網路瀏覽器取得的報表。
 
-   JavaScript 程式碼會快速開始執行，且對頁面載入時間的影響非常有限。訪客為到達特定頁面而按一下「**[!UICONTROL Reload]**」或「**[!UICONTROL Back]**」時，此方法可讓您計算顯示的頁面數量，因為自快取中擷取頁面時，JavaScript 也會執行。
+   JavaScript 程式碼會快速開始執行，且對頁面載入時間的影響非常有限。訪客為到達特定頁面而點擊&#x200B;**[!UICONTROL 「重新載入」]**&#x200B;或&#x200B;**[!UICONTROL 「返回」]**&#x200B;時，此方法可讓您計數頁面，因為頁面自快取中擷取時，JavaScript 也可執行。
 
 Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實施此程式碼的方法有很多種，視平台和您組織的需求而定。
 
