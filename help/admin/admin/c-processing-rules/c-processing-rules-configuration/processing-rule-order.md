@@ -5,7 +5,10 @@ title: 處理順序
 topic: Admin tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 translation-type: tm+mt
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 |--- |--- |
 | 動態變數查閱 | 從 HTTP 標題或其他變數提取資訊，進而動態填入變數。例如，`s.eVar5="D=c1"` 會將 prop1 的值放入 eVar5 中。 |
 | AppMeasurement | AppMeasurement中使用的函式和外掛程式會在瀏覽器或用戶端應用程式中執行。 |
-| Dynamic Tag Management | 「Dynamic Tag Management」中定義的規則會依定義執行。 |
+| 標籤管理 | 在Adobe Launch或動態標籤管理中定義的規則會依定義執行。 |
 | 機器人規則 | [機器人規則](/help/admin/admin/bot-removal/bot-rules.md)可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。 |
 
 ## 處理規則之後
@@ -40,6 +43,6 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## 使用 VISTA 複製點擊時處理規則的套用方式 {#section_576EE8C240A24CBA979BD614E8D5338D}
 
-如果您有設定 VISTA 規則用來複製點擊至其他報表套裝，則會透過該報表套裝上的處理規則來傳送點擊。
+如果您已設定VISTA規則，將點擊複製至其他報表套裝，則會透過其他報表套裝中定義的任何處理規則傳送點擊。
 
 如果原始報表套裝上有定義處理規則，這些處理規則可能會套用也可能不會套用，端視工程技術服務對 VISTA 規則的設定而定。若想得知，請詢問您的實作專家 VISTA 規則是複製「前」或「後」值至其他報表套裝。如果是複製「前」值，則不會套用原始報表套裝上定義的處理規則。如果是複製「後」值，則會在複製點擊之前套用處理規則。
