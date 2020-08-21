@@ -1,25 +1,25 @@
 ---
 title: 退出維度
-description: 列出退出維度及其使用。
+description: 列出退出維度及其使用情形。
 keywords: exit page, exit site section, exit server, exit custom insight
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
 
 # 退出維度
 
-*此說明頁面說明退出作為維度的運作方式。 如需退出作為度量運作的詳細資訊，請參閱退出[度量](../metrics/exits.md)。*
+*此說明頁面說明退出作為維度時的運作方式。若要瞭解退出作為量度時的運作方式，請參閱[退出](../metrics/exits.md)量度。*
 
-退出維度會記錄最後一個維度項目，並追溯套用至瀏覽中的所有點擊。 退出維度適用於所有在「報表套裝」設定中的「流量變數」 [下啟用路徑](/help/admin/admin/c-traffic-variables/traffic-var.md) 的變數。
+退出維度會記錄最後一個維度項目，並追溯套用至瀏覽中的所有點擊。 報表套裝設定中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用退出維度。
 
-## 以資料填入退出維度
+## 將資料填入退出維度中
 
-指定的退出維度是以其關聯的流量變數為基礎。 如果非退出變數有資料，其關聯的退出維度也包含資料。 如果您的流量變數包含資料，退出維度不需要實施變更。
+指定的退出維度以其相關聯的流量變數為基礎。如果非退出變數有資料，則其相關聯的退出維度也會包含資料。如果您的流量變數包含資料，即無須對退出維度進行實作變更。
 
 ## 維度項目
 
