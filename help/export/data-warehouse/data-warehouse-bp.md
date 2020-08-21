@@ -6,6 +6,9 @@ topic: Data warehouse
 uuid: d71c9138-22d9-4f92-885e-593f83f2bb59
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '285'
+ht-degree: 100%
 
 ---
 
@@ -23,4 +26,4 @@ Data Warehouse 提供彈性的介面，可執行自訂報表。遵循這些指�
 | 精細地匹配報表時段 | 報表粒度需要更多的處理時間。如果是報告一整年的每月粒度，若是針對每個月提交一個報告請求，報告的處理速度會快很多。 |
 | 完整資料範圍的報告 | 請求的日期範圍結束後，會產生 Data Warehouse 報表。例如，您若是在星期三請求本週的報告，則要等到下一週的星期日才會產生報告。 |
 | 在 Data Warehouse 中產生路徑分析報表 | 在 Data Warehouse 中無法使用路徑分析量度 (登入點、退出點、彈回數等)。 |
-| 虛擬報表套裝 | 報告虛擬報表套裝的 Data Warehouse 支援虛擬報表套裝上設定的替代時區。 |
+| 虛擬報表套裝 | 虛擬報表套裝的 Data Warehouse 報表功能可支援虛擬報表套裝所設定的替代時區。 |
