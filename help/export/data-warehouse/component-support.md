@@ -1,9 +1,9 @@
 ---
 title: Data Warehouse 中的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Data Warehouse 中不支援某些維度和量度。
 
 >[!NOTE]
 >
-> 如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。建立或編輯區段時，請務必檢查產品相容性。
+>如果 Data Warehouse 不支援該維度或量度，則使用這些元件的區段也不受支援。建立或編輯區段時，請務必檢查產品相容性。
 
 ### 不支援的維度
 
@@ -65,7 +65,7 @@ Data Warehouse 中不支援某些維度和量度。
 * 點擊類型
 * 找不到頁面 (可作為維度使用；不支援分段)
 * 付費搜尋
-* 單頁存取次數
+* 單頁造訪次數
 * 追蹤選擇退出原因
 * 美國各州
 
