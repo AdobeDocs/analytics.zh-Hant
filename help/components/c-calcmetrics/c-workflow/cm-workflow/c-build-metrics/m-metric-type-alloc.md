@@ -2,11 +2,11 @@
 description: '瞭解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '914'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,19 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
+>[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
->* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
+>* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
->* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。Analysis Workspace、Reports &amp; Analytics、Reporting API、Report Builder 和 Ad Hoc Analysis 會反映此次計算量度變更。For more information, see **How Linear Allocation works (as of July 19, 2018**, below.
+>* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。Analysis Workspace、Reports &amp; Analytics、Reporting API、Report Builder 和 Ad Hoc Analysis 會反映此次計算量度變更。如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
+
 >
 
 
 
-## 線性配置的運作方式（自2018年7月19日起）
+## 線性配置自 2018 年 7 月 19 日起的新運作方式
 
-2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和 Reporting API。此變更主要會影響eVar和具有持續性的其他維度。 請注意，這些變更僅適用於計算量度，不會影響使用線性配置的其他報表（例如「報告與分析」中的「頁面」報表）。 其他使用線性配置的報表將繼續使用目前的線性配置方法。
+2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和 Reporting API。此次變更主要影響 eVar 和其他具持續性的維度。請注意，這些變更只會套用至計算量度，不會影響其他使用線性配置的報表 (例如 Reports &amp; Analytics 中的「頁面」報表)。其他使用線性配置的報表將繼續使用目前的線性配置方法。
 
 下列範例將說明具有線性配置的計算量度在報表中將如何變更：
 
@@ -52,14 +53,14 @@ ht-degree: 82%
 
 在本範例中，A、B和 C 值在點擊 1、3、4 和 6 時傳入，然後在點擊 7 時進行 $10 的購物。在第二列中，這些值會持續存在於上次接觸瀏覽的所有點擊間。第三列說明首次接觸瀏覽持續性最後，最後一列說明如何針對不具持續性的 PROP 記錄資料。
 
-## 線性配置在「報告與分析」與「工作區」中的運作方式差異
+## 線性配置在 Reports &amp; Analytics 與工作區中的運作方式差異
 
-線性歸因在這兩種工具之間的運作方式有一些差異：
+線性歸因在這兩種工具中的運作方式有一些差異：
 
-* 在「報告與分析」中，（已處理）線性歸因一律以瀏覽為基礎，而在「工作區」中，線性歸因可以是瀏覽或訪客為基礎。
-* 在「報告與分析」中，如果瀏覽的首次點擊沒有傳遞任何值，則（初始）值會從上次瀏覽持續存在。 Workspace(Attribution IQ)並非如此。 如果瀏覽的首次點擊未傳遞任何值，則「無」是初始值。
+* 在 Reports &amp; Analytics 中，(已處理的) 線性歸因一律以造訪為基礎，而在「工作區」中，線性歸因可以造訪或訪客為基礎。
+* 在 Reports &amp; Analytics 中，如果造訪的首次點擊未傳遞任何值，則會保存上次造訪的 (初始) 值。在工作區 (Attribution IQ) 中則非如此。如果造訪的首次點擊未傳遞任何值，則初始值將是「無」。
 
-## 2018年7月前線性分配如何運作
+## 2018 年 7 月前的線性配置運作方式
 
 2018 年 7 月 19 日前，線性歸因是在首次接觸或上次接觸持續性發生後才開始計算。也就是說，就上述的上次接觸 eVar 而言，$10 將分配如下：A = 10 * (3/6) = $5，B = 10 * (2/6) = $3.33，C = 10 * (1/6) = $1.67。
 
