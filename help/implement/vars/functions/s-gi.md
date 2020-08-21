@@ -1,9 +1,9 @@
 ---
 title: s_gi()
 description: 建立及追蹤 AppMeasurement 的例項。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過�
 
 >[!TIP]
 >
-> Adobe 建議使用 `s` 變數作為追蹤物件。Adobe 在自己的文件、實施範例和外掛程式中都使用 `s`。然而，只要在網站上保持一致，您可以使用任何變數。
+>Adobe 建議使用 `s` 變數作為追蹤物件。Adobe 在自己的文件、實施範例和外掛程式中都使用 `s`。然而，只要在網站上保持一致，您可以使用任何變數。
 
 ```js
 // Instantiate the tracking object with a single report suite
@@ -43,7 +43,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
-> 以下章節和範例包含複雜的實施主題。請徹底測試您的實施，以及追蹤貴組織[解決方案設計文件](../../prepare/solution-design.md)中的重要自訂項目。
+> 以下章節和範例包含複雜的實作主題。請徹底測試您的實施，以及追蹤貴組織[解決方案設計文件](../../prepare/solution-design.md)中的重要自訂項目。
 
 ## 使用不同的追蹤物件來管理多個實施
 
