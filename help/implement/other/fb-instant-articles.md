@@ -1,9 +1,9 @@
 ---
 title: 使用 Facebook 即時文章進行實施
 description: 在 Facebook 即時文章頁面上實施 Adobe Analytics。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -88,7 +88,7 @@ Adobe 建議將您的 `stats.html` 頁面與最新版本的 `AppMeasurement.js` 
 
 >[!NOTE]
 >
-> 由於 iframe 的性質，系統不會自動追蹤「反向連結」維度。如果您想要追蹤此維度，請務必將此維度加入查詢字串中。
+>由於 iframe 的性質，系統不會自動追蹤「反向連結」維度。如果您想要追蹤此維度，請務必將此維度加入查詢字串中。
 
 ## Facebook 即時文章與隱私權
 
