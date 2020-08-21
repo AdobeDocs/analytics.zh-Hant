@@ -1,9 +1,9 @@
 ---
 title: 州別
 description: 在 Reports and Analytics 中填入「訪客州報表」。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '215'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此變數已遭到淘汰，在 Analysis Workspace 中不是可用維度。請改用「美國州」維度；AppMeasurement 會根據訪客的位置自動收集該維度。
+>此變數已遭到淘汰，在 Analysis Workspace 中不是可用維度。請改用「美國州」維度；AppMeasurement 會根據訪客的位置自動收集該維度。
 
 在舊版 Adobe Analytics 中，當訪客在零售網站上填寫運送資訊時，會使用 `state` 變數。它的功能與 prop 相同，不過在 Analysis Workspace 中無法使用。
 
