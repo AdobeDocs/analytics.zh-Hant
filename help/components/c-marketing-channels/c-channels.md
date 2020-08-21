@@ -4,11 +4,11 @@ subtopic: Marketing channels
 title: 管理行銷管道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '789'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 86%
 以下是建立管道的指引：
 
 * 透過設立所有管道的清單來提前計劃，以便將所有訪客點按歸入正確的管道類別。
-* Include channels for the categories of [Internal](/help/components/c-marketing-channels/c-rules.md) hits and [Direct](/help/components/c-marketing-channels/c-rules.md) hits.
-* 納入一個包羅永珍的「其他促銷活動」渠道，以便放在付費渠道之後和有機渠道之前。
+* 納入[內部](/help/components/c-marketing-channels/c-rules.md)點擊和[直接](/help/components/c-marketing-channels/c-rules.md)點擊類別的管道。
+* 納入一個範圍廣泛的「其他行銷活動」管道，並放置在付費管道之後、自然管道之前。
 
 
 ## 必備條件 {#prereqs}
@@ -46,7 +46,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
-> 管道無法刪除。如果不想使用管道，則可停用或重新命名它，並保留以備將來之用。
+>管道無法刪除。如果不想使用管道，則可停用或重新命名它，並保留以備將來之用。
 
 1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 1. 在[!UICONTROL 「報告套裝管理員」]頁面上，選擇一個報告套裝。
@@ -68,18 +68,18 @@ ht-degree: 86%
 
    請參閱[建立行銷管道處理規則](/help/components/c-marketing-channels/c-rules.md)。
 
-## 套用頻道設定 {#mktg-channel-mgr}
+## 套用管道設定 {#mktg-channel-mgr}
 
-「行銷渠道管理員」頁面上的每個渠道都可套 [!UICONTROL 用各種設定] 。
+有多種不同的設定可套用至[!UICONTROL 「行銷管道管理員」]頁面上的每個管道。
 
 | 欄位 | 定義 |
 |--- |--- |
-| 啟用 | 啟用或停用該行銷管道。 |
+| 已啟用 | 啟用或停用該行銷管道。 |
 | 管道名稱 | 行銷管道的友好名稱。 |
 | 覆蓋上次接觸管道 | 可讓您選擇是否使用選取的管道覆蓋現有的永久性上次接觸管道。如果勾選此核取方塊，任何管道 (包括直接和內部) 都會覆蓋現有的上次接觸管道。產生的結果會將轉換歸屬於可能不值得該評價的管道。例如，若之前已透過免費搜尋管道獲得使用者，則此選項可確保直接管道不會接收用於轉換的評價。 |
 | 管道劃分 | 允許您依該值劃分管道。建立[行銷管道分類](/help/components/c-marketing-channels/classifictions-mchannel.md)時，您可新增可能的管道劃分 (子管道)。 |
 | 類型 | 指定使用者前往您網站的方式。您可選擇「線上」或「離線」。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」管道。「離線」管道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線管道通常包括從報告資料來源匯入的資料。請參閱 [Data Sources](https://docs.adobe.com/content/help/zh-Hant/analytics/import/data-sources/datasrc-home.html)。請參閱[新增離線資料](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
-| 色彩 | 僅限報告與分析： 與此行銷渠道關聯的顏色。 該色彩代表行銷管道報表中的管道。 |
+| 色彩 | 僅限 Reports &amp; Analytics：與此行銷管道相關聯的色彩。該色彩代表行銷管道報表中的管道。 |
 
 ### 覆寫最佳實務
 
@@ -87,11 +87,11 @@ ht-degree: 86%
 
 ![](assets/int-channel2.png)
 
-## 定義渠道規則
+## 定義管道規則
 
-報表中要能顯示管道和管道資料，首先須建立管道和處理資料的基本規則。您也可以指定訪客參與期 [間的持續](/help/components/c-marketing-channels/visitor-engagement.md) 時間。
+報表中要能顯示管道和管道資料，首先須建立管道和處理資料的基本規則。您也可以指定要讓[訪客參與期間](/help/components/c-marketing-channels/visitor-engagement.md)持續多久的時間。
 
-Adobe在自動設定期間提供數個預先 [定義的通道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) ，您可依需要加以編輯。 此外，您也可以修改此設定，並在行銷渠道處理規 [則中定義自訂規則](/help/components/c-marketing-channels/c-rules.md)。
+Adobe 在[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)期間提供了數個預先定義的管道，您可依自身需求加以編輯。此外，您也可以修改此設定，並在[行銷管道處理規則](/help/components/c-marketing-channels/c-rules.md)中定義自訂規則。
 
 >[!NOTE]
 >
