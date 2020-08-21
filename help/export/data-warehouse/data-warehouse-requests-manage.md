@@ -3,9 +3,9 @@ description: 「請求管理員」可讓您檢視或複製請求，以及重新�
 title: 管理 Data Warehouse 請求
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '138'
 ht-degree: 100%
 
@@ -33,5 +33,5 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 若要取消 Data Warehouse 請求，[請按照這些步驟執行](https://helpx.adobe.com/tw/analytics/kb/cancel-data-warehouse-requests.html)。
+>若要取消 Data Warehouse 請求，[請按照這些步驟執行](https://helpx.adobe.com/tw/analytics/kb/cancel-data-warehouse-requests.html)。
 
