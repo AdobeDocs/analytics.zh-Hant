@@ -5,22 +5,22 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '985'
-ht-degree: 92%
+ht-degree: 99%
 
 ---
 
 
 # Analytics 維度相容性
 
-此頁面列出各自Analytics功能支援的維度。
+此頁面列出維度的各項 Analytics 功能中支援的維度。
 
 >[!NOTE]
 >
->自訂變數名稱、分類和訪客屬性會在此清單中忽略。 這些維度項目是個別報表套裝專屬的。
+>此清單中省略了自訂變數名稱、分類和訪客屬性。這些維度項目是個別報表套裝專屬的。
 
 >[!NOTE]
 >
->Analytics工具對類似維度使用不同術語時，有些重疊。 例如，「報告與分析」在「分析工作區」 `browserwidth` 使用時會使用 `browserwidthbucketed`。
+>Analytics 工具對類似的維度使用不同詞彙時，有些重疊之處。例如，Reports &amp; Analytics 會使用 `browserwidth`，而 Analysis Workspace 則使用 `browserwidthbucketed`。
 
 ## Reports &amp; Analytics 與 Analysis Workspace 中同時支援的維度
 
@@ -35,10 +35,10 @@ ht-degree: 92%
 | 色彩深度 | `colordepth` |
 | 連線類型 | `connectiontype` |
 | Cookie 支援 | `cookie` |
-| 國家 | `geocountry` |
+| 國家/地區 | `geocountry` |
 | 客戶忠誠度 | `customerloyalty` |
-| 自訂轉換 Var | `evar1`, `evar2`, etc. |
-| 自訂分析 Var | `prop1`, `prop2`, etc. |
+| 自訂轉換 Var | `evar1`、`evar2` 等 |
+| 自訂分析 Var | `prop1`、`prop2` 等 |
 | 自訂連結 | `customlink` |
 | 首次購買間隔天數 | `daysbeforefirstpurchase` |
 | 上次購買間隔天數 | `dayssincelastpurchase` |
@@ -48,11 +48,11 @@ ht-degree: 92%
 | 登入頁面原始 | `entrypageoriginal` |
 | 退出連結 | `exitlink` |
 | 首次接觸管道 | `firsttouchchannel` |
-| 首次接觸管道的詳情 | `firsttouchchanneldetail` |
+| 首次接觸管道詳細資料 | `firsttouchchanneldetail` |
 | Java 已啟用 | `javaenabled` |
 | 語言 | `language` |
 | 上次接觸管道 | `lasttouchchannel` |
-| 上次接觸管道的詳情 | `lasttouchchanneldetail` |
+| 上次接觸管道詳細資料 | `lasttouchchanneldetail` |
 | 清單變數 | `listvariables` |
 | 行銷管道 | `marketingchannel` |
 | 行動音訊支援 | `mobileaudiosupport` |
@@ -80,18 +80,18 @@ ht-degree: 92%
 | 反向連結類型 | `referrertype` |
 | 反向連結網域 | `referringdomain` |
 | 地區 | `georegion` |
-| 回訪頻度 | `returnfrequency` |
+| 回訪頻率 | `returnfrequency` |
 | SC-TnT | `tntbase` |
 | 搜尋引擎 | `searchengine` |
 | 搜尋關鍵字 | `searchenginekeyword` |
-| 搜尋引擎 -自然 | `searchenginenatural` |
+| 搜尋引擎- 免費 | `searchenginenatural` |
 | 搜尋引擎 - 付費 | `searchenginepaid` |
 | 搜尋關鍵字 - 免費 | `searchenginenaturalkeyword` |
 | 搜尋關鍵字 - 付費 | `searchenginepaidkeyword` |
 | 所有搜尋頁面排名 | `searchenginepagerank` |
 | 伺服器 | `server` |
-| 單頁存取次數 | `singlepagevisits` |
-| 網站區域 | `sitesections` |
+| 單頁造訪次數 | `singlepagevisits` |
+| 網站區段 | `sitesections` |
 | 每次造訪逗留時間 - 精細 | `sitetime` |
 | 追蹤程式碼 | `campaign` |
 | US DMA | `geodma` |
@@ -107,8 +107,8 @@ ht-degree: 92%
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
 | 上午/下午 | `timepartampm` |
-| 瀏覽器高度 - 範圍化 | `browserheightbucketed` |
-| 瀏覽器寬度 - 範圍化 | `browserwidthbucketed` |
+| 瀏覽器高度 - 分段 | `browserheightbucketed` |
+| 瀏覽器寬度 - 分段 | `browserwidthbucketed` |
 | 日 | `daterangeday` |
 | 日期 | `timepartdayofmonth` |
 | 星期 | `dayofweek` |
@@ -143,10 +143,10 @@ ht-degree: 92%
 | 作業系統類型 | `operatingsystemgroup` |
 | 付費搜尋 | `paidsearch` |
 | 永久性 Cookie 支援 | `persistentcookie` |
-| 季度 | `daterangequarter` |
+| 季 | `daterangequarter` |
 | 季別 | `timepartquarterofyear` |
 | 調查 | `surveybase` |
-| 頁面逗留時間 - 分組 | `averagepagetime` |
+| 頁面逗留時間 - 分段 | `averagepagetime` |
 | 頁面逗留時間 - 精細 | `pagetimeseconds` |
 | 追蹤選擇退出原因 | `optoutreason` |
 | 平日/週末 | `timepartweekdayweekend` |
@@ -170,16 +170,16 @@ ht-degree: 92%
 |--- |--- |
 | 瀏覽器高度 | `browserheight` |
 | 瀏覽器寬度 | `browserwidth` |
-| 每日獨特客戶 | `dailyuniquecustomers` |
+| 每日不重複客戶 | `dailyuniquecustomers` |
 | JavaScript | `javascriptsupport` |
 | JavaScript 版本 | `javascriptversion` |
-| 每月獨特客戶 | `monthlyuniquecustomers` |
-| 每季獨特客戶 | `quarterlyuniquecustomers` |
+| 每月不重複客戶 | `monthlyuniquecustomers` |
+| 每季不重複客戶 | `quarterlyuniquecustomers` |
 | 時區 | `timezone` |
 | 頂級網域 | `topleveldomain` |
 | 訪客所在州 | `legacystate` |
-| 每週獨特客戶 | `weeklyuniquecustomers` |
-| 每年獨特客戶 | `yearlyuniquecustomers` |
+| 每週不重複客戶 | `weeklyuniquecustomers` |
+| 每年不重複客戶 | `yearlyuniquecustomers` |
 
 ## Reports &amp; Analytics 與 Analysis Workspace 同時支援的內容感知維度
 
@@ -310,7 +310,7 @@ ht-degree: 92%
 
 ### Nielsen 整合
 
-For more information on how to implement this integration, see the [Nielsen Extension](https://exchange.adobe.com/experiencecloud.details.101361.html).
+如需關於如何實作此整合的詳細資訊，請參閱 [Nielsen 擴充功能](https://exchange.adobe.com/experiencecloud.details.101361.html)。
 
 | 維度名稱 (顯示在 Analytics UI 中) | 維度 ID (用於 API 請求) |
 |--- |--- |
