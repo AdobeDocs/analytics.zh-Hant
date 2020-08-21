@@ -1,9 +1,9 @@
 ---
 title: list
 description: 在同一次點擊中容納多個值的自訂變數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '363'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 清單變數能儲存每位訪客最近 250 個值。如果特定訪客擁有超過 250 個獨特值，則最舊的值不會歸入量度。
+>清單變數能儲存每位訪客最近 250 個值。如果特定訪客擁有超過 250 個獨特值，則最舊的值不會歸入量度。
 
 ## 在報表套裝設定中設定清單變數
 
@@ -39,7 +39,7 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 >[!TIP]
 >
-> 如果您在同一次點擊中設定重複值，Adobe 會去除這些值的所有例項。例如，若您設定 `s.list1 = "Example,Example";`，報表只會計入一個例項。
+>如果您在同一次點擊中設定重複值，Adobe 會去除這些值的所有例項。例如，若您設定 `s.list1 = "Example,Example";`，報表只會計入一個例項。
 
 ## 比較清單屬性和清單變數
 
