@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 87%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->If this variable is set in a hit without a shopping cart event in the [`events`](events/events-overview.md) variable, the [Product Views](/help/components/metrics/product-views.md) metric increments by 1. 請確定您使用變數在每次點擊上設定了適當的購物車 `products` 事件。
+>如果您將此變數設定於點擊中，但 [`events`](events/events-overview.md) 變數中沒有購物車事件，則[產品檢視](/help/components/metrics/product-views.md)量度會增加 1。請確實在每個使用 `products` 變數的點擊上設定適當的購物車事件。
 
 ## Adobe Experience Platform Launch 中的產品
 
@@ -54,7 +54,7 @@ s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Exa
 
 >[!IMPORTANT]
 >
-> 請移除產品名稱、類別和銷售 eVar 值中的所有分號、逗號和垂直號。如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
+>請移除產品名稱、類別和銷售 eVar 值中的所有分號、逗號和垂直號。如果產品名稱包含逗號，AppMeasurement 會將其解析為新產品的開頭。這個錯誤的解析會拋出產品字串剩餘的部分，導致維度和報表中的資料不正確。
 
 ## 範例
 
