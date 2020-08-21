@@ -2,9 +2,9 @@
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 表格函數是表格每一列的輸出都相同。列函數則是表格每一列的輸出都不同。
 
-## 「包括零」參數的意義是什麼？ {#section_C7A2B05929584C65B308FD372CB8E8E3}
+## 「包括零」參數的意義是什麼？{#section_C7A2B05929584C65B308FD372CB8E8E3}
 
 此參數指出是否在計算中包括零。有時候零沒有意義，有時候卻很重要。
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 0 (零) 表示 False，其他值表示 True。
+>0 (零) 表示 False，其他值表示 True。
 
 ```
 AND(logical_test1,[logical_test2],...)
@@ -56,7 +56,7 @@ Approximate Count Distinct (dimension)
 |---|---|
 | *維度* | 您希望近似相異項目計數的維度。 |
 
-### 範例使用案例 {#section_424E3FC5092948F0A9D655F6CCBA0312}
+### 範例使用案例{#section_424E3FC5092948F0A9D655F6CCBA0312}
 
 近似相異計數 (客戶 ID eVar) 是此函數的常見使用案例。
 
@@ -68,11 +68,11 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-customers.png)
 
-### 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
+### 超出不重複值{#section_9C583858A9F94FF7BA054D1043194BAA}
 
 就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
-### 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
+### 比較計數函數{#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
 Approximate Count Distinct() 是改良 Count() 和 RowCount() 函數後的成果。其可將建立的量度用於任何維度報表，藉此演算不同維度項目的近似計數。例如，用於「行動裝置類型」報表中的客戶 ID 計數。
 
@@ -211,7 +211,7 @@ CBRT(metric)
 
 >[!NOTE]
 >
-> 如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
+>如果您想使用收入/訪客之類的比率量度，則此函數不適用，因為此函數會平均比率，而非將過去 N 期的收入相加、將過去 N 期的訪客數相加，然後再將兩者相除。請改為使用
 
 ```
 cumul(revenue)/cumul(visitor)
@@ -456,7 +456,7 @@ NOT(logical)
 
 >[!NOTE]
 >
-> 0 (零) 表示 False，其他值表示 True。
+>0 (零) 表示 False，其他值表示 True。
 
 ```
 OR(logical_test1,[logical_test2],...)
@@ -699,7 +699,7 @@ Z 分數的方程式為：
 
 >[!NOTE]
 >
->[!DNL μ]  (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
+>[!DNL μ] (mu) 和 [!DNL σ] (sigma) 會自動從量度中計算得出。
 
 Z 分數 (量度)
 
@@ -726,5 +726,5 @@ Z 分數 (量度)
 
 >[!NOTE]
 >
-> 此處假設值為常態分布。
+>此處假設值為常態分布。
 
