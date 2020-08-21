@@ -1,27 +1,27 @@
 ---
 title: 找不到頁面
-description: 在您的網站上傳回錯誤的URL。
+description: 在您的網站上傳回錯誤的 URL。
 translation-type: tm+mt
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
 workflow-type: tm+mt
 source-wordcount: '214'
-ht-degree: 2%
+ht-degree: 92%
 
 ---
 
 
 # 找不到頁面
 
-*此說明頁面說明「找不到頁面」如何當成維度。 如需詳細[資訊，請參閱](../metrics/pages-not-found.md)「找不到頁面」量度。*
+*此說明頁面說明「找不到頁面」作為維度時的運作方式。如需詳細資訊，請參閱[找不到頁面](../metrics/pages-not-found.md)量度。*
 
-「找不到頁面」維度會顯示包含錯誤的URL。 當您想要降低訪客在您網站上所收到的錯誤數時，此維度很實用。
+「找不到頁面」維度會顯示包含錯誤的 URL。如果您想要減少訪客在您網站上收到的錯誤，此維度就十分實用。
 
-* 您可以在「流量」視覺化中使 [用此維度](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) ，查看訪客點進哪些頁面以達到錯誤。 然後，您可以與組織中的開發團隊合作，以修正每個頁面上的連結。
-* 您可以將此維度與「反向連 [結」維度搭配使用](referrer.md) ，以查看訪客從外部連結到達您網站的位置。 然後，您可以實作重新導向至所需位置，或與第三方合作以修正連結。
+* 您可以在[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)中使用此維度，以查看訪客在點進哪些頁面之後遇到錯誤。然後，您可以與組織中的開發團隊合作，以修正每個頁面上的連結。
+* 您可以將此維度與[反向連結](referrer.md)維度搭配使用，以查看訪客從何處透過外部連結到達您的網站。然後，您可以實作重新導向連至所需的位置，或與第三方合作以修正連結。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度會從影像請求中的 [`pageType` 和 `g` 查詢字串](/help/implement/validate/query-parameters.md) 中擷取資料。 如果查 `pageType` 詢字串等 `errorPage`於，則 `g` 會記錄查詢字串（頁面URL）。 AppMeasurement會使用變數收集此 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 資料。 如果未 `pageType` 定義變數或設定變數為其他變數， `errorPage`則不會收集此維度的資料。
+此維度會從影像要求中的 [`pageType` 和 `g` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。如果 `pageType` 查詢字串等同於 `errorPage`，則會記錄 `g` 查詢字串 (頁面 URL)。AppMeasurement 會使用 [`pageType`](/help/implement/vars/page-vars/pagetype.md) 變數收集這項資料。如果 `pageType` 變數未定義，或設為 `errorPage` 以外的其他項目，則不會收集此維度的資料。
 
 ## 維度項目
 
