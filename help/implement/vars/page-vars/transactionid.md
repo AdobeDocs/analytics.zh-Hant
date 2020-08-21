@@ -1,9 +1,9 @@
 ---
 title: transactionID
 description: 此變數可用來將線上和離線資料連結在一起。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 使用此變數之前，請確認報表套裝中的[!UICONTROL 「交易 ID 儲存」]已啟用。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)。
+>使用此變數之前，請確認報表套裝中的[!UICONTROL 「交易 ID 儲存」]已啟用。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)。
 
 當您在點擊上設定 `transactionID` 時，Adobe 會針對在該時間點設定或留存的所有 Analytics 變數拍攝「快照」。透過 Data Sources 上傳且具有相符交易 ID 的資料會永遠與這些變數值連結。
 
@@ -51,4 +51,4 @@ s.transactionID = "ABC123,XYZ456";
 
 >[!NOTE]
 >
-> 如果您使用此變數整合多個離線頻道，請確認不同頻道之間沒有重疊的交易 ID。例如，如果您的呼叫中心交易 ID 值為 `1234`，潛在客戶交易 ID 值為 `1234`，可能會發生衝突並導致意外結果。請確認每個離線頻道的交易 ID 均包含唯一格式，並視需要加以區分。例如，在 Data Sources 和 AppMeasurement 中，將呼叫中心交易 ID 設定為 `call_1234`，將潛在客戶交易 ID 設定為 `lead_1234`。
+>如果您使用此變數整合多個離線頻道，請確認不同頻道之間沒有重疊的交易 ID。例如，如果您的呼叫中心交易 ID 值為 `1234`，潛在客戶交易 ID 值為 `1234`，可能會發生衝突並導致意外結果。請確認每個離線頻道的交易 ID 均包含唯一格式，並視需要加以區分。例如，在 Data Sources 和 AppMeasurement 中，將呼叫中心交易 ID 設定為 `call_1234`，將潛在客戶交易 ID 設定為 `lead_1234`。
