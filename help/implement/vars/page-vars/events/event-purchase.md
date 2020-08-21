@@ -1,11 +1,11 @@
 ---
 title: 購買事件
 description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->收入不乘以數量欄位。 For example, `s.products="Womens;Socks;5;4.50"` does not pass $22.50 into revenue; it passes $4.50. Make sure your implementation passes the total revenue for the quantity listed. 例如：`s.products="Womens;Socks;5;22.50"`。
+>收入不會乘以數量欄位。以 `s.products="Womens;Socks;5;4.50"` 為例，傳入收入中的並不是 $22.50，而是 $4.50。請確認您的實作傳入的是所列數量的收入總額。例如：`s.products="Womens;Socks;5;22.50"`。
 
 ## 在 Adobe Experience Platform Launch 中設定購買事件
 
