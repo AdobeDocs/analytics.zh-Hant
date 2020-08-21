@@ -1,9 +1,9 @@
 ---
 title: hier
 description: 在 Adobe Analytics 中實施階層變數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
-> 此變數在舊版 Adobe Analytics 中較常見。Adobe 建議改用 [eVar](evar.md) 和分類。
+>此變數在舊版 Adobe Analytics 中較常見。Adobe 建議改用 [eVar](evar.md) 和分類。
 
 此變數對於擁有超過三層結構的網站很實用。例如，媒體網站的「運動」區段可以有 4 個層級：`Sports`、`Local Sports`、`Baseball` 和 `Team name`。若有人瀏覽了「棒球」頁面，則「運動」、「地方運動」和「棒球」等層級全都會反映該次瀏覽。
 
