@@ -1,9 +1,9 @@
 ---
 title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '802'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
 >[!NOTE]
 >
-> 不支援 cn-north-1 區域。
+>不支援 cn-north-1 區域。
 
 ### Azure Blob
 
@@ -74,7 +74,7 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
 >[!NOTE]
 >
-> 您必須實作自己的處理程序，才能管理摘要目的地的磁碟空間。Adobe 不會從伺服器刪除任何資料。
+>您必須實作自己的處理程序，才能管理摘要目的地的磁碟空間。Adobe 不會從伺服器刪除任何資料。
 
 ## 資料欄定義
 
