@@ -3,11 +3,11 @@ description: 並非所有在「區段產生器」中建立的區段都與 Data W
 title: Data Warehouse 區段相容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 96%
      <li>付費搜尋 </li> 
      <li>季別 </li> 
      <li>回訪頻度 </li> 
-     <li>單頁存取次數 </li> 
+     <li>單頁造訪次數 </li> 
      <li>事件之前時間 </li> 
      <li>頁面逗留時間 - 分組 </li> 
      <li>每次瀏覽逗留時間 - 分段 </li> 
@@ -94,7 +94,7 @@ ht-degree: 96%
    <td> 支援 </td> 
   </tr>
   <tr>
-    <td><b>'equals any of'和'Does not equal any of'運算子</b></td>
+    <td><b>「等於任何」和「不等於任何」運算子</b></td>
     <td>支援</td>
     <td>不支援</td>
   </tr>
