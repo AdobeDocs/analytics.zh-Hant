@@ -2,10 +2,10 @@
 title: 平均頁面深度
 description: 維度平均存在於多少頁面的深度中。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 59%
+source-wordcount: '369'
+ht-degree: 55%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 59%
 
 「平均頁面深度」量度會顯示維度項目在指定瀏覽中的距離。 例如，假設您的首頁通常會顯示比購買確認頁面小的平均頁面深度，而購買確認頁面通常會在造訪中的較深之處。當您想要瞭解指定維度項目中平均有多少頁面時，此度量會很有幫助。 如果特定頁面的平均深度較低，您可使用這項資訊為新訪客最佳化這些頁面。
 
->[提示]：將此量度與其他量度 (例如[造訪](visits.md)) 搭配使用，有助於進行深入分析。如果您單獨使用此量度，您會取得包含異常頁面深度的維度項目，這通常不有價值。
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 如果您單獨使用此量度，您會取得包含異常頁面深度的維度項目，這通常不有價值。
 
 ## 此量度的計算方式
 
