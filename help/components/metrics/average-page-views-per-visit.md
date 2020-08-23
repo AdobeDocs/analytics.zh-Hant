@@ -2,10 +2,10 @@
 title: 每次造訪的平均頁面檢視
 description: 指定維度項目在瀏覽中出現的平均次數。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 53%
+source-wordcount: '212'
+ht-degree: 46%
 
 ---
 
@@ -14,7 +14,9 @@ ht-degree: 53%
 
 「每次造訪的平均頁面檢視」維度會顯示對您所需的維度發生的平均頁面檢視次數。對於以時間為基礎的維度，您可以瞭解造訪中的平均頁面檢視次數在一段時間內的趨勢。當您想要瞭解維度項目在瀏覽中的顯示頻率時，此度量很有幫助。
 
->[提示]：將此量度與其他量度 (例如[造訪](visits.md)) 搭配使用，有助於進行深入分析。如果您單獨使用此量度，則會取得包含每次瀏覽異常頁面檢視的維度項目，這通常不有價值。
+>[!TIP]
+>
+>Use this metric alongside another metric (such as [Visits](visits.md)) to obtain better insights. 如果您單獨使用此量度，則會取得包含每次瀏覽異常頁面檢視的維度項目，這通常不有價值。
 
 ## 此量度的計算方式
 
