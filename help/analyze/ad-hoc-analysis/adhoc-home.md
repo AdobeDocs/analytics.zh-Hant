@@ -1,10 +1,10 @@
 ---
 description: Ad Hoc Analysis 簡介
 title: Ad Hoc Analysis 概觀
-translation-type: ht
-source-git-commit: 025ac334f9191b6455eea0530a2a21c01199000a
-workflow-type: ht
-source-wordcount: '176'
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '175'
 ht-degree: 100%
 
 ---
@@ -14,7 +14,8 @@ ht-degree: 100%
 
 Ad Hoc Analysis 可協助您識別高價值的客戶區段，並提供無限制的即時訪客資訊，讓您下鑽研究資料，深入、精確、完整地了解客戶全貌。
 
->[!I重要]
+>[!IMPORTANT]
+>
 >Adobe 於 2018 年 8 月 6 日宣佈有意終止 Ad Hoc Analysis 服務，我們將會在確定後公佈服務終止日期。如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。
 
 ## 新主題和熱門主題
