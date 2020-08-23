@@ -3,10 +3,10 @@ description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
 source-wordcount: '1383'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,9 @@ ht-degree: 100%
 
 ### 商務
 
-* **Magento：行銷與商務**：此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等資料提供深入分析。如需影片概述，請參閱 > [!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
+* **Magento：行銷與商務**：此範本依行銷管道歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等資料提供深入分析。如需影片總覽，請參閱：
+
+>[!VIDEO](https://www.youtube.com/watch?v=AQOViVLEMHw)
 
 ### 媒體
 
