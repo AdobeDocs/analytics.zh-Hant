@@ -3,9 +3,9 @@ description: 開始使用 Ad Hoc Analysis。
 title: 快速入門
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1329'
 ht-degree: 94%
 
 ---
@@ -13,7 +13,8 @@ ht-degree: 94%
 
 # 開始使用 Ad Hoc Analysis{#concept_48936BA28FAE42DB81F1B2CD4726EB17}
 
->[!I重要]
+>[!IMPORTANT]
+>
 >Adobe 於 2018 年 8 月 6 日宣佈有意終止 Ad Hoc Analysis 服務，我們將會在確定後公佈服務終止日期。如需詳細資訊，包括在此期間相容的 Java 版本，請造訪 [https://adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。
 
 您可對網站活動執行即時的進階分析。您可以同時檢視多份報表，將區段套用至多個維度。您可以從巨觀和微觀角度同時分析資料，檢視這些資料對您的重要業務度量有何影響。
