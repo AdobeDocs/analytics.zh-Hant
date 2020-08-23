@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: 測量特定動作發生的時間。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '822'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 226bbce18750825d459056ac2a87549614eb3c2c
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 100%
 
 Analysis Workspace 提供類似且現成可用的維度，其格式與此外掛程式稍有不同。如需詳細資訊，請參閱分析使用手冊中的[時間分段維度](/help/analyze/analysis-workspace/components/dimensions/time-parting-dimensions.md)。有些組織認為 Analysis Workspace 的現成維度已夠用。
 
->[重要] 此外掛程式的 4.0+ 版與舊版有顯著不同。Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
+>[!IMPORTANT]
+>
+>此外掛程式的4.0+版與舊版有顯著不同。 Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
 
 ## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
