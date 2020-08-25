@@ -2,10 +2,10 @@
 description: 'null'
 title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1058'
+translation-type: tm+mt
+source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---
@@ -20,12 +20,6 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 結合 Report Builder 的報表產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。使用 Power BI，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM)，以發掘獨特的客戶分析資料、關聯及商機。
 
 ![](assets/aaplusbi.png)
-
-與 Adobe Report Builder 整合可讓您
-
-* [將已排程的 Report Builder 活頁簿發佈到 Power BI](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [以 Power BI 資料集表格發佈活頁簿中的所有格式化表格](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
-* [以 Power BI 資料集表格發佈所有 Report Builder 請求](/help/analyze/report-builder/whats-new-arb.md#rb-5-5-section)
 
 ## 系統要求 {#section_0B71092D853446F38FA36447DAC0D32B}
 
@@ -58,7 +52,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 您現在可以檢視活頁簿控制面板資料。    ![](assets/view-data-pbi.png)
+1. 您現在可以檢視活頁簿控制面板資料。      ![](assets/view-data-pbi.png)
 
 1. 您可以接著釘選此活頁簿的某個區域，以將其包含在任何 Power BI 控制面板中。
 
