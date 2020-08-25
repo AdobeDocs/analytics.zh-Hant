@@ -5,10 +5,10 @@ user-guide-title: Analytics 實作指南
 user-guide-description: Customize what data is collected to get more out of Adobe Analytics. Includes content on Adobe Experience Platform Launch and JavaScript implementations.
 user-guide-url: /content/help/en/analytics/implementation/home.html
 translation-type: tm+mt
-source-git-commit: ef8c7f83e93ac5ee52856a6bb0978725fa1cc3ff
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '443'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 99%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 100%
    + [在 Facebook 即時文章上實施 Analytics](other/fb-instant-articles.md)
 + [在行動裝置上實施 Analytics](mobile-device-sdk.md)
 + 實施使用案例 {#use-cases}
+   + [搭配iFrames使用AppMeasurement](use-cases/iframe.md)
    + [追蹤不同的實施類型](use-cases/cross-type-implementation.md)
    + [外部電子郵件追蹤](use-cases/email-external.md)
 + 驗證實施 {#validate}
