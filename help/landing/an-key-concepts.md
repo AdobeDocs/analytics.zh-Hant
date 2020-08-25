@@ -2,9 +2,9 @@
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
 translation-type: tm+mt
-source-git-commit: 68826433e028825fc43c948d32456416b9d2a13e
+source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1863'
 ht-degree: 98%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 98%
 | 區段 | 能夠建立、管理、共用並套用功能強大且目標專一的對象區段至 Analytics 報表。區段會在 Analytics 產品間共用，也能在 Experience Cloud 間共用。 | [區段](/help/components/segmentation/seg-home.md) |
 | 時間 (日期範圍) | 能夠將日期篩選為任何時段，並建立可在分析中重複使用的自訂日期範圍。 | [日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | 視覺效果 | 豐富的視覺效果，可讓專案中的資料更加生動。 | [視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| 組織 | 可限制專案或虛擬報表套裝中可存取的元件。 | [VRS組織](/help/components/vrs/vrs-components.md) <br> [專案組織](/help/analyze/analysis-workspace/curate-share/curate.md) <br> [比較](/help/analyze/analysis-workspace/curate-share/curate-projects-vrs.md) |
+| 組織 | 可限制專案或虛擬報表套裝中可存取的元件。 | [VRS組織](/help/components/vrs/vrs-components.md) <br> [專案組織](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## 重要報表
 
