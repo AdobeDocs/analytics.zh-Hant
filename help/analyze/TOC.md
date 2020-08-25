@@ -5,10 +5,10 @@ user-guide-title: Analytics 工具指南
 user-guide-description: Provides access to Analysis Workspace , the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Buidler, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: 8a48a5bd9e7ef38ffc90ecb9c640166bb3ac4405
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 99%
+source-wordcount: '1102'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 99%
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
       + [自由表格](analysis-workspace/visualizations/freeform-table.md)
       + 同類群組表格 {#cohort-table}
-         + [同類群組分析分析是什麼?](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
+         + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
          + [同類群組分析使用案例](analysis-workspace/visualizations/cohort-table/cohort-use-cases.md)
       + 流失 {#fallout}
@@ -131,7 +131,6 @@ ht-degree: 99%
       + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
-   + [Report Builder 的新功能](report-builder/whats-new-arb.md)
    + Report Builder 設定 {#report-builder-setup}
       + [系統要求](report-builder/setup/system-requirements.md)
       + [安裝 Report Builder](report-builder/setup/t-install-arb.md)
@@ -241,8 +240,9 @@ ht-degree: 99%
       + [最佳作法](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [疑難排解 Power BI 的整合問題](report-builder/c-publish-power-bi/troubleshooting.md)
       + [適用於 Power BI 的 Adobe Analytics 內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Report Builder 的疑難排解和最佳做法](report-builder/troubleshoot.md)
    + [Visual Basic宏](report-builder/vba.md)
+   + [報告建立工具疑難排解](report-builder/troubleshoot.md)
+   + [報告建立工具常見問答集](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 概觀](activity-map/activity-map.md)
    + 快速入門 {#getting-started}
