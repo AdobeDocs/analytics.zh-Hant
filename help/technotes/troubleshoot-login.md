@@ -2,10 +2,10 @@
 title: 疑難排解登入Adobe Analytics的問題
 description: 無法登入Adobe Analytics時的步驟。
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 3%
+source-wordcount: '609'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Analytics使用多種驗證方法登入：
 
 ## 舊版Analytics ID
 
-有時，您組織中的使用者登入時會收到下列錯誤訊息：
+您組織中的使用者嘗試登入時，可能會收到下列錯誤：
 
 *為了安全起見，由於登入嘗試失敗太多，此帳戶已遭鎖定。*
 
@@ -53,6 +53,14 @@ Adobe Analytics使用多種驗證方法登入：
 ## 單一登入
 
 請洽詢您組織中的管理員，以解決單一登入問題。
+
+## 過期登入
+
+您組織中的使用者嘗試登入時，可能會收到下列錯誤：
+
+*錯誤：此登錄已過期。*
+
+此錯誤如預期般運作。 Adobe Analytics可讓管理員設定使用者帳戶有效的日期範圍。 如果目前日期位於帳戶的有效日期範圍之外，則無法登入。 與組織中的Analytics管理員合作，以延長登入的有效日期範圍。 Adobe客戶服務無權變更使用者帳戶的有效登入日期範圍。
 
 ## 其他登入問題
 
