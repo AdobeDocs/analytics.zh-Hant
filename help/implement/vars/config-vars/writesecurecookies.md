@@ -2,10 +2,10 @@
 title: writeSecureCookies
 description: 允許 AppMeasurement 以 Secure 屬性設定 Cookie。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: defb701d01747685a421b89a553f47efe40f1432
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,12 @@ ht-degree: 100%
 
 ## 在 Adobe Experience Platform Launch 中撰寫 Secure Cookie
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+[!UICONTROL 設定Adobe Analytics擴充功能時] ,「寫入安全Cookie [!UICONTROL 」是] Cookies accordion下的核取方塊。
+
+1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+2. 按一下所需的屬性。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開 [!UICONTROL Cookies accordion] ，顯示「寫入安全 [!UICONTROL Cookies」核取方塊] 。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.writeSecureCookies
 
