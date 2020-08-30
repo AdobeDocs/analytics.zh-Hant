@@ -1,16 +1,16 @@
 ---
-title: 並行檢視器面板
-description: 如何使用和解譯分析工作區中的「併發檢視器」面板。
+title: 媒體並行檢視器面板
+description: 如何使用和解譯分析工作區中的「媒體併發檢視器」面板。
 translation-type: tm+mt
-source-git-commit: 807c5e31b376799f4494ecc24cebfd9498c39e63
+source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '993'
 ht-degree: 9%
 
 ---
 
 
-# 並行檢視器面板
+# 媒體並行檢視器面板
 
 >[!IMPORTANT]
 >
