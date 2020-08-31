@@ -2,10 +2,10 @@
 title: 媒體並行檢視器面板
 description: 如何使用和解譯分析工作區中的「媒體併發檢視器」面板。
 translation-type: tm+mt
-source-git-commit: c9e60b97d97ddc13fb85c576d0f397bf8a10c6b3
+source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 9%
+source-wordcount: '1002'
+ht-degree: 10%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->此功能是針對Media Analytics客戶分階段推出的。
+>此功能包含在媒體分析客戶的有限測試中。 [深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
 Media Analytics客戶可以分析並行檢視器，瞭解並行檢視器的並行性最高發生位置，或中斷發生位置，以便提供內容品質和檢視器參與度的寶貴洞見，並協助疑難排解或規劃大量或規模。
 
