@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 可用於處理規則的維度
 topic: Admin tools
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
-translation-type: ht
-source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '743'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
 
-## 自訂值和上下文資料{#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## 自訂值和上下文資料 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -62,7 +65,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
    <td colname="col2"> <p> <code> hier1 - hier5</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>網站區域 </p> </td> 
+   <td colname="col1"> <p>網站區段 </p> </td> 
    <td colname="col2"> <p> <code> s.channel </code> </p> </td> 
   </tr> 
   <tr> 
@@ -88,11 +91,11 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面名稱 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>附註：頁面名稱非空白的所有感應區都會計入頁面檢視。系統追蹤連結時，資料收集伺服器會從感應區中移除頁面名稱，如此便不會計算頁面檢視。如果您使用處理規則將頁面名稱重新插入這些呼叫，頁面檢視便會列入計算。我們建議您仔細檢查，確保頁面名稱已經設定後再進行修正。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： 連結追蹤呼叫在達到處 <code>pageName</code> 理規則之前先移除變數。 如果您使用處理規則重新插入頁面名稱值，則點擊會被視為頁面檢視，而非連結追蹤呼叫。 Adobe建議您先檢查，以確定頁面名稱已設定，然後再加以修改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 </td> 
+   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 <p>注意： 連結追蹤呼叫在達到處 <code>pageURL</code> 理規則之前先移除變數。 如果您使用處理規則重新插入頁面URL值，則點擊會被視為頁面檢視，而非連結追蹤呼叫。 Adobe建議您先檢查，以確定頁面URL已設定，然後再加以修改。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查詢字串參數 </p> </td> 
