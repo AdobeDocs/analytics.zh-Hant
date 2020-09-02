@@ -1,11 +1,11 @@
 ---
 title: referrer
 description: 覆寫點擊的自動收集反向連結。
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
-workflow-type: ht
-source-wordcount: '247'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,15 @@ ht-degree: 100%
 s.referrer = "https://example.com";
 ```
 
-請避免將此變數設為非 URL 的值。
+如果使用數 `digitalData` 據 [層](../../prepare/data-layer.md):
+
+```js
+s.referrer = digitalData.page.pageInfo.referringURL;
+```
+
+>[!CAUTION]
+>
+>請避免將此變數設為非 URL 的值。
 
 ## 範例
 
