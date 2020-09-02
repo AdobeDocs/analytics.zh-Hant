@@ -2,9 +2,9 @@
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c206095b8024db0e31586abdf9639fba3401ce3f
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '760'
 ht-degree: 95%
 
 ---
@@ -40,6 +40,7 @@ ht-degree: 95%
 
 歸因面板支援所有維度。不支援的量度包括：
 
+* 所有計算量度
 * 不重複訪客
 * 瀏覽
 * 發生次數
@@ -47,7 +48,7 @@ ht-degree: 95%
 * A4T 量度
 * 逗留時間量度
 * 彈回數
-* 反彈率
+* 跳出率
 * 登入點
 * 退出點
 * 找不到頁面
