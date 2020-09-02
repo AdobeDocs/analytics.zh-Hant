@@ -3,7 +3,7 @@ description: 使用線條視覺化來描繪趨勢（以時間為基礎的）資�
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: 5bb2fc217cb7da3696a7c55ef8d193a93c18c2d8
+source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 12%
@@ -48,7 +48,7 @@ ht-degree: 12%
 所有模型都使用普通最小二乘擬合：
 
 | 模型 | 說明 |
-|---|---|
+| --- | --- |
 | 線性 | 為簡單的線性資料集建立最適合的直線，當資料以穩定速率增加或減少時，該直線非常有用。 等式： `y = a + b * x` |
 | 對數 | 建立最適合的曲線，當資料的變更率快速增加或減少，然後退出等級時，就很有用。 對數趨勢線可使用負值和正值。 等式： `y = a + b * log(x)` |
 | 指數 | 建立曲線，當資料以不斷增加的速率上升或下降時，就很有用。 如果您的資料包含零值或負值，則不應使用此選項。 等式： `y = a + e^(b * x)` |
