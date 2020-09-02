@@ -2,9 +2,9 @@
 description: 瞭解如何將Mobile Services處理規則移轉至Adobe Analytics
 title: 將Mobile Services處理規則移轉至Adobe Analytics
 translation-type: tm+mt
-source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
+source-git-commit: c2610bf25c960039ca8638cecbd05f3a8b28376f
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '700'
 ht-degree: 18%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 18%
 隨著Adobe Mobile Services功能即將落幕（尚未宣佈），本檔案提供您如何將您在Mobile Services UI中建立的任何其他處理規則（生命週期量度以外）移轉至Adobe Analytics的指示。
 
 處理規則用於將上下文資料變數的值移至 prop 和 eVar。例如，您可以將「搜尋詞」上下文資料變數的值放入「商務變數」eVar的值中，並覆寫每次點擊的值。 若沒有處理規則，上下文資料變數就毫無意義，且不會填入 Analytics 的任何報表。
+
+本檔案也說明分析工作區中的行動使用狀況報告，並討論移轉其他行動服務功能的可行性。
 
 ## 移轉處理規則
 
