@@ -2,10 +2,10 @@
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 95%
+source-wordcount: '505'
+ht-degree: 92%
 
 ---
 
@@ -95,4 +95,17 @@ s.products = ";Example product;;;;eVar1=Merchandising value";
 // Multiple products using multiple different events and multiple different merchandising eVars
 s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
+```
+
+如果使用數 `digitalData` 據 [層](../../prepare/data-layer.md)，則可以循環訪問對象 `digitalData.product` 陣列：
+
+```js
+for(var i=0; i<digitalData.product.length; i++) {
+    // Add individual product info to the product string
+    s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
+    // If there are more products, add a comma
+    if(i != digitalData.product.length-1) {
+        s.products += ",";
+    }
+}
 ```
