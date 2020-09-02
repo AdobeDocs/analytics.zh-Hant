@@ -2,10 +2,10 @@
 title: 頁面
 description: 頁面名稱。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 88%
+source-wordcount: '212'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 88%
 
 ## 將資料填入此維度中
 
-此維度會從影像要求中的 [`pageName` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 `pageName` 變數收集這項資料。若未定義 `pageName` 變數，則會回復為使用頁面的 URL。
+此維度會從「頁面檢視」 [`pageName` 呼叫](/help/implement/validate/query-parameters.md) ( [)中的查詢字串擷取資料`t()`](/help/implement/vars/functions/t-method.md)。 [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md) ，即使查詢字串存在，也一律 `pageName` 會移除此維度。
+
+AppMeasurement 會使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 變數收集這項資料。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
 
 ## 維度項目
 
