@@ -2,23 +2,23 @@
 title: 行動裝置屬性查閱
 description: 行動裝置屬性的查閱檔案。
 translation-type: tm+mt
-source-git-commit: b4405f4934ffca5561bb43216a6c3133fd59c0c7
+source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
 
 # 行動裝置屬性查閱
 
-行動屬性會顯示點擊中行動裝置的屬性。 在下列情況下，會顯示此檔案：
+行動屬性會顯示點擊中行動裝置的屬性。在下列情況下，會顯示此檔案：
 
-* 動態查閱已啟用。 組織中的支援委派可以使用所需的摘要ID聯絡客戶服務，以啟用動態查閱。
-* 列 `mobile_id` 隨附。
-* 列 `user_agent` 被排除。 由於與DeviceAtlas簽訂授權合約，因此必須排除此限制。
+* 動態查閱已啟用。組織中的支援委派可使用所需的摘要 ID 聯絡客戶服務，以啟用動態查閱。
+* 已包含 `mobile_id` 欄。
+* 已排除 `user_agent` 欄。基於與 DeviceAtlas 訂定的授權合約，必須要排除此欄。
 
-下載 `mobile_attributes_headers.tsv`或參考下列清單：
+請下載 [`mobile_attributes_headers.tsv`](assets/mobile_attributes.tsv)，或參考下列清單：
 
 * `mobile_id`
 * `Manufacturer`
