@@ -1,6 +1,9 @@
 ---
-source-git-commit: d8f2458e7bae596dbabc8dab33ea5d2881047566
+source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '514'
+ht-degree: 91%
 
 ---
 # Adobe Analytics 的產品設定檔
@@ -13,10 +16,10 @@ translation-type: tm+mt
 
 產品設定檔管理員是一個選用群組，可對該產品設定檔新增或移除使用者。請注意，產品設定檔管理員與產品管理員並不相同：
 
-* 產品設定檔管理員只負責管理產品設定檔的使用者清單。
 * 產品設定檔管理員無法完整存取 Adobe Analytics。Adobe Analytics 的完整存取權會保留給產品管理員。
-* 產品設定檔管理員無法調整產品設定檔中的權限項目，產品管理員則必須執行權限項目的調整工作。
-* 產品設定檔管理員是理想的團隊主管或管理人，只需要授予及管理團隊的 Adobe Analytics 存取權，且不需經由系統管理員或產品管理員即可執行這項操作。
+* 產品設定檔管理員可以調整其產品設定檔中的權限項目。
+* 產品設定檔管理員可以指派或移除產品設定檔給使用者群組。
+* 產品設定檔管理員最適合需要授與及管理其團隊Adobe Analytics存取權的團隊主管或經理。 且不需經由系統管理員或產品管理員即可執行這項操作。
 
 ## Adobe Analytics 權限項目
 
