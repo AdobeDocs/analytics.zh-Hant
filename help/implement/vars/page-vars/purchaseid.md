@@ -1,11 +1,11 @@
 ---
 title: purchaseID
 description: 根據唯一的購買識別碼去除重複點擊。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 98%
 
 ---
 
@@ -32,6 +32,12 @@ Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，
 s.purchaseID = "ABC123";
 ```
 
->[!NOTE]
+如果使用數 `digitalData` 據 [層](../../prepare/data-layer.md):
+
+```js
+s.purchaseID = digitalData.transaction.transactionID;
+```
+
+>[!CAUTION]
 >
->請勿使用隨機函數來產生購買 ID。Adobe 建議您使用[資料層](../../prepare/data-layer.md)來儲存指定的購買 ID。
+>請勿使用隨機函數來產生購買 ID。
