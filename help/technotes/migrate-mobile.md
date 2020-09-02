@@ -2,9 +2,9 @@
 description: 瞭解如何將Mobile Services處理規則移轉至Adobe Analytics
 title: 將Mobile Services處理規則移轉至Adobe Analytics
 translation-type: tm+mt
-source-git-commit: 67c8880e125ca31aa96ecea56a7ef0b85bc3abba
+source-git-commit: bdb6f9ba435513cd1dc3febf35eae0e821c756ca
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '680'
 ht-degree: 18%
 
 ---
@@ -47,6 +47,10 @@ ht-degree: 18%
 * 成效：應用程式的成效如何，以及使用者在哪些階段遭遇問題？
 * 保留率：我的忠實使用者是哪些人，以及他們都進行什麼活動？
 * 歷程：我應用程式中的顯著使用模式為何？
+
+以下是「行動應用程式使用」範本的摘錄：
+
+![行動應用程式使用情形](assets/mobile-app-usage.png)
 
 若要存取範本：
 
