@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 新增頁首與頁尾代碼
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '474'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Dynamic Tag Management 會建立測試和生產內嵌代碼，您可以在將變
 
    ![](assets/dtm-embed.png)
 
-   將程式碼盡量放置在接近 [!DNL  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] 標籤的位置。正式生產網站的每個頁面上都應放置此代碼片段。
+   將程式碼盡量放置在接近 `<head>`  標籤的位置。正式生產網站的每個頁面上都應放置此代碼片段。
 
    >[!NOTE]
    >
