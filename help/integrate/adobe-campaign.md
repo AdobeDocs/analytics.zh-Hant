@@ -2,8 +2,11 @@
 description: 'null'
 title: Adobe Campaign 報表
 uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +19,7 @@ Adobe Analytics 與 Adobe Campaign 之間的整合
 
 * 讓您從 Adobe Campaign Standard 共用您的 KPI (關鍵績效指標) 資料至 Adobe Analytics。
 * 使用 Adobe Analytics 參數充實追蹤公式。
-* 在 **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Adobe Campaign.]** 底下增加新的報表
+* 在&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL Adobe Campaign」]**&#x200B;下方新增報表。
 * 增加 5 個全新 Adobe Campaign 分類。
 * 增加 10 個全新 Adobe Campaign 量度。
 * 增加 6 個全新 Adobe Campaign 維度。
@@ -26,14 +29,14 @@ Adobe Analytics 與 Adobe Campaign 之間的整合
 
 若要在 Analytics 檢視 Campaign 資料，必須先啟用 Campaign 報表。
 
-1. 導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Reporting]**。
-1. 按一下 **[!UICONTROL Enable Campaign Reporting]**.
+1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 報表」]**。
+1. 按一下&#x200B;**[!UICONTROL 啟用 Campaign 報告功能]**。
 
    ![](assets/enable-campaign.png)
 
 ## 步驟 2.檢視 Adobe Campaign 報表 {#section_9C18A29F3CC54BD4AC5EA96417F17B33}
 
-Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** 下新增報表
+Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**&#x200B;下新增報表
 
 <table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
  <thead> 
@@ -52,7 +55,7 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 
 ## 步驟 3.使用 Adobe Campaign 分類 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Report Suites]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL Edit Settings]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign Classifications]**
+**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Adobe Campaign]** > **[!UICONTROL Adobe Campaign 分類」]**
 
 在您針對 Adobe Campaign 啟用報表套裝後，以下分類即可使用：
 
@@ -62,7 +65,7 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 * Campaign 標籤 (Adobe Campaign 中的行銷活動)
 * 已執行的傳送標籤 (個別已執行傳送清單)
 
-## Adobe Analytics 中可用的 Adobe Campaign 維度和量度{#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics 中可用的 Adobe Campaign 維度和量度 {#section_F33385C9660644AF84172EC39601469B}
 
 以下&#x200B;**量度**&#x200B;可透過 Adobe Analytics 報表套裝中的 Campaign 使用：
 
