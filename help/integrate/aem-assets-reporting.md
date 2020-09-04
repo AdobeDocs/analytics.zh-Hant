@@ -4,7 +4,10 @@ title: AEM Assets 報表
 topic: Reports
 uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '114'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
 
-**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL <select report suite>]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 報表」]**
+**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 報表」]**
 
 啟用 Analytics，收集資產的曝光次數與點擊次數 (由 AEM 資產分析提供的資產)。此項整合
 
