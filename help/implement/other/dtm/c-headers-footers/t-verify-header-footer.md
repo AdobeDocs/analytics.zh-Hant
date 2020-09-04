@@ -4,8 +4,11 @@ keywords: Analytics Implementation;implementation method;dynamic tag management;
 title: 驗證頁首與頁尾代碼
 topic: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '134'
+ht-degree: 100%
 
 ---
 
@@ -26,6 +29,6 @@ source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
 
    如果收到此錯誤，請確定：
 
-* 您已在網站每個頁面的 [!DNL HEAD] 區段中包含完整的頁首程式碼，且該程式碼盡量在最接近 [!DNL <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">] 標籤的位置。
+* 您已在網站每個頁面的 [!DNL HEAD] 區段中包含完整的頁首程式碼，且該程式碼盡量在最接近 `<head>` 標籤的位置。
 * 代碼片段中沒有出現非預期字元 (若出現非預期字元，可能是從格式化文件複製並貼過來的緣故)。
 
