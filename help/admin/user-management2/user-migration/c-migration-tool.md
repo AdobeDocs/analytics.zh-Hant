@@ -3,7 +3,10 @@ description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud �
 title: Analytics 使用者移轉至 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '3131'
+ht-degree: 97%
 
 ---
 
@@ -73,7 +76,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>更新 Report Builder </p> </td> 
-   <td colname="col2"> <p> <p>重要：請將您安裝的 <a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
+   <td colname="col2"> <p> <p>重要：請將您安裝的 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html">Report Builder</a> 更新至最新版本。 </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>什麼時候開始移轉？ </p> </td> 
@@ -126,17 +129,12 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以延後移轉開始日期嗎？ </p> </td> 
-   <td colname="col2"> <p>是。請聯絡 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe 客戶服務</a>。 </p> 
-    <draft-comment> 
-     <p>請參閱下方說明，瞭解從開始日期起您目前的 Analytics 使用者與權限管理功能會有哪些變更。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>是。請聯絡 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe 客戶服務</a>。 </p><p>請參閱下方說明，瞭解從開始日期起您目前的 Analytics 使用者與權限管理功能會有哪些變更。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司正要移轉至 Admin Console，我可以在移轉開始日期前於何處建立新的使用者和權限群組？ </p> </td> 
-   <td colname="col2"> <p>在移轉開始日期前，您可以在 Admin Console 或依序前往「Analytics &gt; 使用者管理」建立使用者。 </p> <p>移轉開始後，您便只能在 Admin Console 中建立使用者和權限群組。 </p> 
-    <draft-comment> 
-     <p>請參閱下方的「移轉」章節，深入瞭解從移轉的開始日期起會有哪些變更。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>在移轉開始日期前，您可以在 Admin Console 或依序前往「Analytics &gt; 使用者管理」建立使用者。 </p> <p>移轉開始後，您便只能在 Admin Console 中建立使用者和權限群組。 </p><p>如需移轉開始日期的詳細資訊，請參閱下方的移轉區段。 </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我何時可以使用 Federated ID 實作單一登入？ </p> </td> 
@@ -167,10 +165,8 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以更新未移轉使用者的權限群組成員資格嗎？ </p> </td> 
-   <td colname="col2"> <p>是。您可以在 Analytics「使用者管理」區段中，變更未移轉使用者的群組成員資格。 </p> 
-    <draft-comment> 
-     <p>請靜候 Ashok 說明已完成的部分。 </p> 
-    </draft-comment> </td> 
+   <td colname="col2"> <p>是。您可以在 Analytics「使用者管理」區段中，變更未移轉使用者的群組成員資格。 </p><p>請靜候 Ashok 說明已完成的部分。 </p>
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移轉開始後，我可以在 Analytics 中建立使用者和權限群組，然後使用移轉工具將它們移到 Admin Console 嗎？ </p> </td> 
@@ -314,7 +310,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
 
 請向您目前的使用者主動告知此移轉計劃。您可以自訂以下的範本並傳送給所有目前的 Analytics 使用者：
 
-若要以電子郵件寄送所有使用者，請導覽 **[!UICONTROL Analytics]** 至> **[!UICONTROL Admin]** > **[!UICONTROL User Management]** >以電子郵 [件傳送使用者](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)。
+若要傳送電子郵件給所有使用者，請導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 使用者管理]** > [電子郵件使用者](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)」。
 
 **主旨：**&#x200B;即將推出 – 登入 Adobe Analytics 和 Adobe Experience Cloud 的新方式。
 
