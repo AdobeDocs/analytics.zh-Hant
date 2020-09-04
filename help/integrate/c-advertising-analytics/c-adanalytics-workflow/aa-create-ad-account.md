@@ -1,10 +1,10 @@
 ---
 title: 設定 Advertising 帳戶
 uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '851'
+translation-type: tm+mt
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '850'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,11 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
       </tr> 
       <tr> 
       <td colname="col1"> <p>OAuth 代號 </p> </td> 
-      <td colname="col2"> <p>注意：OAuth 是存取權限委派的開放標準，普遍用來授權給網站或應用程式，以便在不提供密碼的情況下，使其得以存取自身在其他網站上的資訊。 </p> <p>注意：您將發現自己已經重新導向至協力廠商 URL (efrontier.com)。Adobe 使用 efrontier 來推動這三個搜尋引擎的 OAuth 驗證程序。 </p> <p>注意：如果您使用 Internet Explorer 11 (或更早版本)，將無法成功擷取這三個搜尋引擎的 Oauth 代號。請改用其他網頁瀏覽器。 </p> <p>按一下<span class="uicontrol">「擷取代碼」</span>，隨即啟動 OAuth2 驗證程序。也就是說，系統會詢問您是否要使用自己的憑證登入 Google/Bing 搜尋帳戶。依您選擇的搜尋引擎不同，操作程序會有些微差異： </p> 
-        <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
-        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帳戶 ID。 </li> 
-        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。 </li> 
-        </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >尋找您的帳戶 ID</a>。 </p> <p>成功登入後，「OAuth 代碼」欄位會顯示 
-        <systemoutput>
-          「已擷取」
-        </systemoutput>。 </p> </td> 
+      <td colname="col2"> <p>注意：OAuth 是存取權限委派的開放標準，普遍用來授權給網站或應用程式，以便在不提供密碼的情況下，使其得以存取自身在其他網站上的資訊。 </p> <p>注意：您將發現自己已經重新導向至協力廠商 URL (efrontier.com)。Adobe 使用 efrontier 來推動這三個搜尋引擎的 OAuth 驗證程序。 </p> <p>注意：如果您使用 Internet Explorer 11 (或更早版本)，將無法成功擷取這三個搜尋引擎的 Oauth 代號。請改用其他網頁瀏覽器。 </p> <p>按一下<span class="uicontrol">「擷取代碼」</span>，隨即啟動 OAuth2 驗證程序。也就是說，系統會詢問您是否要使用自己的憑證登入 Google/Bing 搜尋帳戶。依您選擇的搜尋引擎不同，操作程序會有些微差異： </p>
+      <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
+       <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帳戶 ID。 </li> 
+       <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。 </li> 
+       </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >尋找您的帳戶 ID</a>。 </p> <p>成功登入後，「OAuth 代碼」欄位會顯示 <code>Retrieved</code>. </p> </td> 
       </tr> 
     </tbody> 
     </table>
