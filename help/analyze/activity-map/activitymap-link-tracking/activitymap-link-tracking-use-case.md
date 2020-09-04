@@ -3,9 +3,9 @@ description: 您可透過使用 s_objectID 變數自訂連結 ID、自訂地區�
 title: 區別參照相同連結 ID 和地區的連結
 topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 應如何自訂網頁和標記，以區別這些連結的值呢？您有三個選擇: 自訂連結 ID、自訂地區，或是自訂 AppMeasurement ActivityMap 模組檔案。
 
-## 使用 s_objectID 自訂連結 ID{#section_01B0D463397B4837B2D46F087A6E5937}
+## 使用 s_objectID 自訂連結 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
 透過為頁面上的連結或連結位置建立唯一的物件 ID，可改善 Activity Map 追蹤，或使用 Activity Map 來報告連結類型或位置，而不是連結 URL。如需 s_objectID 變數的詳細資訊，請按[此處](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。
 
@@ -86,7 +86,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 自訂地區{#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 自訂地區 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 您可透過確定每個「購買」連結都定義自己的地區，來自訂地區。若要這麼做，請在每個 &quot;Buy&quot; 錨記的其中一個父項新增 &quot;id&quot; 參數。
 
@@ -123,7 +123,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 自訂 AppMeasurement ActivityMap 模組檔案{#section_B933BB9F944E4D5389002908A5A881F8}
+## 自訂 AppMeasurement ActivityMap 模組檔案 {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
