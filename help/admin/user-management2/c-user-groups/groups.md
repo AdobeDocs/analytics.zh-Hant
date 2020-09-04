@@ -5,7 +5,10 @@ title: 使用者群組設定
 topic: Admin tools
 uuid: b411032a-7d56-44fd-b676-abee4af756f9
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 說明「定義使用者群組」頁面上的元素。
 
-**[!UICONTROL Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Groups]** > **[!UICONTROL Add New User Group]**
+「**[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL 新增使用者群組]**」
 
 <table id="table_85E9EBF7984545C780631D6C2090BD99"> 
  <thead> 
@@ -57,7 +60,6 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   <tr> 
    <td colname="col1"> <p><b>報表存取</b> </p> </td> 
    <td colname="col2"> 
-    <draft-comment> 
      <p> 
       <ul id="ul_81ABB1701BEC44ECB548F98EB818F83B"> 
        <li id="li_FCE10A56AF904C9CBCE24AC91025639C"><b>流量報表</b>：根據流量授予所有報表的存取權，例如頁面檢視、造訪和不重複訪客。 </li> 
@@ -76,7 +78,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
        <li id="li_DB56BEB8D31A4918B5CCD3CBBC1DF40A"><b>社交</b> (啟用從 Adobe Social 中資料所產生報表的存取權)。 </li> 
        <li id="li_3C2F4F91B92A4CD9BCDD69E6FCE85EEE"><b>資料連接器 </b>(允許使用者建立、更新或刪除資料連接器)。 </li> 
       </ul> </p> 
-    </draft-comment> </td> 
+   </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 
