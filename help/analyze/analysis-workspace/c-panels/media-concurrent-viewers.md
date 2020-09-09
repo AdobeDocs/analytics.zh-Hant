@@ -2,10 +2,10 @@
 title: 媒體並行檢視器面板
 description: 如何使用和解譯分析工作區中的「媒體併發檢視器」面板。
 translation-type: tm+mt
-source-git-commit: 56300b13d30c628d6f2275e6b0aa060ca4549d44
+source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 10%
+source-wordcount: '1068'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Media Analytics客戶可以分析並行檢視器，瞭解並行檢視器的並行性最高發生位置，或中斷發生位置，以便提供內容品質和檢視器參與度的寶貴洞見，並協助疑難排解或規劃大量或規模。
 
-在分析工作區中，「並行檢視器」是指在特定時間點檢視媒體串流的獨特訪客數量，不論作業數目為何。
+在 Analysis Workspace 中，「媒體同時檢閱者」是指在特定時間檢視您媒體串流的訪客數量 (不重複計算)，不考量工作階段數量。
 
 「媒體併發檢視器」面板可讓您分析併發檢視器隨時間的變化，並提供並行檢視器的最高並行性詳細資訊以及劃分和比較的功能。  若要存取「媒體並行檢視器」面板，請導覽至已啟用「媒體分析」元件的報表套裝。 然後，按一下最左側的面板圖示，並將面板拖曳至您的「分析工作區」專案中。
 
@@ -77,6 +77,7 @@ Media Analytics客戶可以分析並行檢視器，瞭解並行檢視器的並�
 | 我可以執行異常偵測嗎？ | 否。此面板無法使用異常偵測。 |
 | 為何使用獨特訪客而非作用中的工作階段？ | 使用獨特訪客可移除顯示邊界（階段作業同時結束和開始的位置）處的不需要尖峰。 |
 | 以高於分鐘的粒度讓並行檢視器有什麼意義？ | 粒度大於一分鐘時，並行檢視器是該時間範圍內所有分鐘內唯一的並行檢視器的總和。  例如，在小時層級精細度的並行檢視器，是該小時內所有分鐘的獨特並行檢視器的總和。 |
-| 如果我想以分鐘層級的詳細程度查看超過1天，該怎麼辦？ | 若要一次以分鐘層級詳細程度存取最多1個月的資料，您可以使用Analytics報表API（2.0或1.4）。 如需Analytics API的詳細資訊，請參閱 [Analytics API報表使用指南](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)。 |
+| 如果我想以分鐘層級的詳細程度查看超過1天，該怎麼辦？ | 若要一次以分鐘級精細度存取最多1個月的資料，您可以使用Analytics 2.0 API。 如需詳細資訊，請 [參閱Analytics 2.0 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)。 |
+| 工作區面板是否顯示與「並行檢視器報表」相同的資訊？ | 否。在分析工作區中，「並行檢視器」的定義為在特定時間點檢視媒體串流的獨特訪客數量，而不論作業數量。<br></br>這與「報表」區段中使用「並行作用中工作階段」的「並行檢視器」報表不同。  使用獨特訪客可移除顯示邊界上不需要的尖峰，作業同時結束和開始。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
