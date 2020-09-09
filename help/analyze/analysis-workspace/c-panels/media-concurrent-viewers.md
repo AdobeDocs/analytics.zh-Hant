@@ -2,9 +2,9 @@
 title: 媒體並行檢視器面板
 description: 如何使用和解譯分析工作區中的「媒體併發檢視器」面板。
 translation-type: tm+mt
-source-git-commit: b55faba0298dffa9df9e45c13c2770fe7ffcdce4
+source-git-commit: d63c9b2e3b8241b8b40f4bb2e440cb1e96add69f
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1080'
 ht-degree: 11%
 
 ---
@@ -77,7 +77,7 @@ Media Analytics客戶可以分析並行檢視器，瞭解並行檢視器的並�
 | 我可以執行異常偵測嗎？ | 否。此面板無法使用異常偵測。 |
 | 為何使用獨特訪客而非作用中的工作階段？ | 使用獨特訪客可移除顯示邊界（階段作業同時結束和開始的位置）處的不需要尖峰。 |
 | 以高於分鐘的粒度讓並行檢視器有什麼意義？ | 粒度大於一分鐘時，並行檢視器是該時間範圍內所有分鐘內唯一的並行檢視器的總和。  例如，在小時層級精細度的並行檢視器，是該小時內所有分鐘的獨特並行檢視器的總和。 |
-| 如果我想以分鐘層級的詳細程度查看超過1天，該怎麼辦？ | 若要一次以分鐘級精細度存取最多1個月的資料，您可以使用Analytics 2.0 API。 如需詳細資訊，請 [參閱Analytics 2.0 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)。 |
-| 工作區面板是否顯示與「並行檢視器報表」相同的資訊？ | 否。在分析工作區中，「並行檢視器」的定義為在特定時間點檢視媒體串流的獨特訪客數量，而不論作業數量。<br></br>這與「報表」區段中使用「並行作用中工作階段」的「並行檢視器」報表不同。  使用獨特訪客可移除顯示邊界上不需要的尖峰，作業同時結束和開始。 |
+| 如果我想以分鐘層級的詳細程度查看超過1天，該怎麼辦？ | 若要一次以分鐘級精細度存取最多1個月的資料，您可以使用Analytics 2.0 API。 如需詳細資訊，請 [參閱「使用Analytics 2.0 API取得併發檢視器JSON報表資料」](https://docs.adobe.com/content/help/en/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)。 |
+| 工作區面板是否顯示與「並行檢視器報表」相同的資訊？ | 否。在分析工作區中，「並行檢視器」的定義為在特定時間點檢視媒體串流的獨特訪客數量，而不論作業數量。<br><br>這與「報表」區段中使用「並行作用中工作階段」的「並行檢視器」報表不同。  使用獨特訪客可移除顯示邊界上不需要的尖峰，作業同時結束和開始。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
