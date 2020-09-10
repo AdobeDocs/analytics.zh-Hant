@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics. Also features all the analysis tools (Report Builder, Reporting API, Data Workbench, and Activity Map) that you can use in Adobe Analytics.
 user-guide-url: /content/help/en/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: ad91f03a510f0d3d796502df77718c3bbd063f99
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1103'
 ht-degree: 98%
 
 ---
@@ -94,12 +94,11 @@ ht-degree: 98%
    + 組織或共用專案 {#curate-share}
       + [組織工作區專案](analysis-workspace/curate-share/curate.md)
       + [共用工作區專案](analysis-workspace/curate-share/share-projects.md)
-      + [建立可分享的連結](analysis-workspace/curate-share/shareable-links.md)
+      + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [僅限檢視的工作區專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
       + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
       + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
-      + [排程專案管理員](analysis-workspace/curate-share/schedule-projects.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
