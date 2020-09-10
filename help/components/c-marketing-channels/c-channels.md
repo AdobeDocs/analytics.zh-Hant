@@ -4,10 +4,10 @@ subtopic: Marketing channels
 title: 管理行銷管道
 topic: Reports and analytics
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '789'
+translation-type: tm+mt
+source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+workflow-type: tm+mt
+source-wordcount: '729'
 ht-degree: 100%
 
 ---
@@ -28,17 +28,9 @@ ht-degree: 100%
 
 ## 必備條件 {#prereqs}
 
-如有必要，請連絡 ClientCare 以協助您釐清這些必要條件：
-
-* 在管理控制台 (一般帳戶設定) 中，啟用報表套裝的&#x200B;**[!UICONTROL 轉換級別]** (電子商務) 選項。
-
-   如需詳細資訊，請參閱 Analytics 說明中的[一般帳戶設定](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/general-acct-settings-admin.html)。
-
 * 設定「行銷管道」維度的存取權。
 
    請參閱[行銷管道權限](/help/components/c-marketing-channels/c-channel-report-access.md)。
-
-* 確認帳戶管理員已為您的報表套裝啟用&#x200B;**[!UICONTROL 管道報表]**。
 
 ## 新增行銷管道 {#add-mktg-channels}
 
