@@ -3,7 +3,7 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
 source-wordcount: '7820'
 ht-degree: 98%
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 |--- |--- |
-| 新的日期範圍預設集 | 新增4個新日期範圍： ([!UICONTROL 本週／月/季／年（不包括今天）])。 這可讓您從不包含今天部分資料的日期範圍中選擇。 |
+| 新的日期範圍預設集 | 新增4個新日期範圍：([!UICONTROL 本週／月/季／年（不包括今天）])。 這可讓您從不包含今天部分資料的日期範圍中選擇。 |
 
 ## 2020 年 6 月
 
@@ -27,14 +27,14 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 |--- |--- |
-| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[深入了解...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[深入了解...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白麵板 | 空白麵板現在包含面板和視覺化，提供您更順暢的方式來挑選最適合您的分析工作流程。 |
 | 快速洞察面板（2020年6月25日） | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 工作區中的「Analytics for Target」面板 (2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[更多詳情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 工作區中的「Analytics for Target」面板 (2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[深入了解...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 「Workspace 簡介」頁面 | 「Workspace 簡介」頁面提供了 Analysis Workspace 環境和 Adobe Analytics 管理員 (如果您需要協助) 的相關資訊，以及產品內意見反應方法。此頁面位於「Workspace > 說明 > Workspace 簡介」。 |
 
 ## 2020 年 5 月
@@ -44,7 +44,7 @@ ht-degree: 98%
 | 功能 | 說明 |
 |--- |--- |
 | 從空白狀態自動建立自由表格 | 過去，您必須先新增自由表格，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立自由表格。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## 2020 年 4 月
 
@@ -736,7 +736,7 @@ ht-degree: 98%
    <td colname="col2"> <p>如果您先前使用 Experience Cloud 憑證登入，並導覽至 Analytics，您可能無法使用<span class="ignoretag">「<span class="uicontrol">共用</span> &gt; <span class="uicontrol">取得專案連結</span>」</span>功能。我們已修正此問題。但您仍須先儲存專案，才可點選此選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/schedule-projects.md"  >排程專案管理員中的「到期專案」篩選器</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/curate-share/t-schedule-report.md"  >排程專案管理員中的「到期專案」篩選器</a></b> </p> </td> 
    <td colname="col2"> <p>現在您可以在排程專案管理員中篩選到期的專案。接著便可以決定是否重新啟動或刪除這些專案。 </p> </td> 
   </tr> 
  </tbody> 
