@@ -3,10 +3,10 @@ description: 計算與進階計算 (或衍生) 量度為您可從現有量度建
 keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
 title: 計算與進階計算 (衍生) 量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
-translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
-workflow-type: ht
-source-wordcount: '783'
+translation-type: tm+mt
+source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+workflow-type: tm+mt
+source-wordcount: '629'
 ht-degree: 100%
 
 ---
@@ -15,14 +15,6 @@ ht-degree: 100%
 # 計算與進階計算 (衍生) 量度
 
 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。
-
->[!IMPORTANT]
->
->2018 年 7 月，Adobe 推出[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
->
->* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型已分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」並未遭到廢止，而是只廢止了出現在計算量度中的兩個配置模型)。
->* 此外，我們已修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。[!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、報表 API、Report Builder 和 Ad Hoc Analysis 都會反映此次計算量度變更。如需更多資訊，請參閱[「線性配置」自 2018 年 7 月 19 日起的新運作方式](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md#section_EDBB2E14A6C248C5A79C0913C02D7CA1)。
-
 
 我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更 [!DNL Analytics] 實作就能詢問資料相關問題。每個 [!DNL Analytics] 套裝中可用的自訂量度為：
 
@@ -43,7 +35,7 @@ ht-degree: 100%
 | [基本函數 (計數、abs 值、平均值等)](/help/components/c-calcmetrics/cm-reference/cm-functions.md) | 無 | 是 |
 | [進階函數 (迴歸、if/then、t 分數等)](/help/components/c-calcmetrics/cm-reference/cm-adv-functions.md) | 無 | 是 |
 
-## 功能{#section_A0A5C275B68A4D628950BBB0B1EE631F}
+## 功能 {#section_A0A5C275B68A4D628950BBB0B1EE631F}
 
 您可以
 
