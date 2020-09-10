@@ -1,11 +1,11 @@
 ---
 title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8454f64604afaea03af8bb4d7cefc3cbab889ec6
+workflow-type: tm+mt
+source-wordcount: '807'
+ht-degree: 99%
 
 ---
 
@@ -48,8 +48,9 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
 ![S3 資訊](assets/dest-s3.jpg)
 
-下列 11 個標準 AWS 區域可受支援 (必要時會使用適當的簽章演算法):
+下列 16 個標準 AWS 區域可受支援 (必要時會使用適當的簽章演算法):
 
+* us-east-2
 * us-east-1
 * us-west-1
 * us-west-2
@@ -58,8 +59,12 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 * ap-southeast-1
 * ap-southeast-2
 * ap-northeast-1
+* ca-central-1
 * eu-central-1
 * eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
 * sa-east-1
 
 >[!NOTE]
