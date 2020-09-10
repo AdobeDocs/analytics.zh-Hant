@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 476f13e80141e67c6e5a416778314a1a41224c80
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2142'
+ht-degree: 99%
 
 ---
 
@@ -18,6 +18,12 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代碼管理器](/help/admin/admin/code-manager-admin.md)中下載最新版的 AppMeasurement。
+
+## 2.22.0 版
+
+發行日期：**2020 年 8 月 4 日**
+
+* 修正因使用者的退出偏好設定而未傳送首次點擊時遺失反向連結的問題。
 
 ## 2.21.0 版
 
