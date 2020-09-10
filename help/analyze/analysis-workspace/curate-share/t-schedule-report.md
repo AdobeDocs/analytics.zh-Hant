@@ -5,9 +5,9 @@ title: 計劃的專案
 topic: Reports and analytics
 uuid: 9244d7b2-1b7e-4323-98ef-cf22de3b666a
 translation-type: tm+mt
-source-git-commit: 04b5c7af0ac0052d059bea86cae13aa7fb05fff3
+source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '468'
 ht-degree: 8%
 
 ---
@@ -28,6 +28,8 @@ ht-degree: 8%
 1. 按一下&#x200B;**立即傳送**。
 1. （可選）按一下 **顯示排程選項** ，以指定傳送排程。
 
+![立即傳送檔案](assets/send-file-now.png)
+
 ## 依排程傳送檔案
 
 若要透過電子郵件定期傳送檔案給收件者：
@@ -40,11 +42,15 @@ ht-degree: 8%
 1. 指定傳送頻率。 每個頻率都允許不同的自訂。
 1. 按一 **下「依排程傳送**」。
 
+![](assets/send-on-schedule.png)
+
 ## 排程專案管理員
 
 「排程分析工作區」專案可在「 **Analytics >元件>排程專案」下管理**。
 
 在「排程專案管理員」中，您可以編輯和刪除循環專案排程。 在搜尋列中或使用左側導軌中的篩選選項來搜尋排程。 您可以依標籤、已核准的排程、擁有者等進行篩選。
+
+![](assets/scheduled-project-manager.png)
 
 以下是「計畫專案」管理員中的常見動作：
 
