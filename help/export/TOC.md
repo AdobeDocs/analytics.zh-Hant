@@ -2,13 +2,14 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 匯出指南
+breadcrumb-title: Export Guide
 user-guide-description: Get data out of Adobe Analytics. Use Data Feeds to receive an hourly or daily export of raw data. Retrieve a spreadsheet output of data using Data Warehouse.
 user-guide-url: /content/help/en/analytics/export/home.html
 translation-type: tm+mt
-source-git-commit: a6eddfc9cd326bfe0b774bf4fcd03614a73490c4
+source-git-commit: 4cfcb8a8c86d86d0a3a5b038406be9e2b1980ab3
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 91%
+ht-degree: 95%
 
 ---
 
@@ -69,6 +70,6 @@ ht-degree: 91%
       + [使用 SFTP 傳送 Adobe 資料至外部 FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [傳送 Data Warehouse 請求至 SFTP 伺服器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [分析工作區下載](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [分析工作區下載](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html)
