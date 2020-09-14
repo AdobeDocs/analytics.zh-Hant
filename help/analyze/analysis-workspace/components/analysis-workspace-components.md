@@ -1,40 +1,62 @@
 ---
-description: Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
+description: '分析工作區中的元件由維度、量度、區段和日期範圍組成，您可以將這些範圍拖放至專案上。 '
 title: 元件概述
 uuid: 1a4e1c35-eac9-4eb4-be2e-ecb2c6728150
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '278'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 08d61f4e41bae8a9a0a4be6a950db4ef093c4b02
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 13%
 
 ---
 
 
 # 元件概述
 
-Analysis Workspace 中的元件包含量度、維度、區段及時間粒度，您可將它們拖放至專案上。您建立的自訂元件會加入至這些面板，例如自訂日期範圍。
+分析工作區中的元件由維度、量度、區段和日期範圍組成，您可以將這些範圍拖放至專案上。
 
-若要存取「元件」面板，請按一下左側邊欄中的&#x200B;**[!UICONTROL 「元件」]**&#x200B;圖示。您可以在各面板 (空白面板、[自由](/help/analyze/analysis-workspace/visualizations/freeform-table.md)面板或[區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)面板)、[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和元件間，透過左欄圖示或使用[快捷鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)進行切換。
+To access the Components menu, click the **Components** icon in the left rail. 您可從左側導 [軌圖示或使](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)用熱鍵，在「面板 [」、「視覺化」和「元件」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)之間切換 [](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)。
 
-![](assets/components.png)
+您也可以調整專案 [的「檢視密度」設定](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html) ，以便一次在左側導軌中檢視更多值，方法是前往「 **專案>專案資訊與設定>檢視密度」**。
 
-請參閱[建立自由分析專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)，以獲得關於在專案中使用元件的詳細資訊。
+## 維度 {#dimensions}
 
-## 元件動作 {#section_B7BB29B89AE04297874CDE2C52EAD516}
+[**維度**](https://docs.adobe.com/content/help/en/analytics/components/dimensions/overview.html) 是描述訪客行為的文字屬性，可在分析中檢視、劃分和比較。 它們可在左側的「元件」邊欄（橘色區段）中找到，通常會套用為表格的列。
 
-您可以透過多種方式管理元件 (個別或選取多個元件)。以滑鼠右鍵按一下元件，或按一下元件清單頂端的&#x200B;**[!UICONTROL 「動作」]**。
+維度的範例包括頁面名稱、行銷渠道、裝置類型和產品。 維度由Adobe提供，並透過您的自訂實作（eVar、Prop、分類等）擷取。
 
->[!NOTE]
->
->此類動作不適用於「時間」元件。
+每個維度也包含 **其中的維度** 項目。 通過按一下任何維名稱（項目為黃色）旁的雪佛龍箭頭，可以在左側的「元件」邊欄中找到維項目。
+
+維度項目的範例包括首頁（在頁面維度中）、付費搜尋（在行銷渠道維度中）、平板電腦（在行動裝置類型維度中）等。
+
+## 量度 {#metrics}
+
+[**量度**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) 是訪客行為的量化度量。 它們可在左側的「元件」邊欄（綠色部分）中找到，通常會套用為表格的欄。
+
+度量的範例包括頁面檢視、瀏覽、訂購、平均逗留時間和收入／訂購。 量度由Adobe提供、透過您的自訂實作（成功事件）擷取，或是使用「計算量度產生器」 [建立](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+
+## 區段 {#segments}
+
+[**區段**](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html) 是套用至分析的對象篩選。 它們可在左側的「元件」邊欄（藍色區段）中找到，通常套用在面板頂端或表格中量度欄上方。
+
+區段的範例包括行動裝置訪客、來自電子郵件的瀏覽和已驗證點擊。 區段是由Adobe提供、在面板下 [落區中建立](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)，或使用區段產 [生器建立](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+
+## 日期範圍 {#date-ranges}
+
+[**日期範圍**](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html) ，是您進行分析的日期範圍。 它們可在左側的「元件」邊欄（紫色部分）中找到，並通常套用至每個面板的日曆中。
+
+日期範圍的範例包括2019年7月、最近4週和本月。 日期範圍由Adobe提供、套用至面板行事 [歷](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)，或使用日期範圍產 [生器建立](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)。
+
+## 元件動作 {#actions}
+
+您可以直接在左側導軌中管理元件（個別或選取多個元件）。 按一下右鍵元件，或按一下元件清單頂部的「操作點」表徵圖。
 
 | 元件動作 | 說明 |
 |--- |--- |
-| 標記 | 以套用標記的方式組織或管理元件。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
-| 我的最愛 | 新增元件至我的最愛清單。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」。 |
-| 核准 | 核准元件使其成為正式項目。接著元件會在相關元件管理員中顯示，例如「分析 > 元件 > 區段」或「分析 > 元件 > 專案」 |
-| 共用 | 僅套用至區段。 |
-| 刪除 | 僅套用至區段。 |
+| 標記 | 以套用標記的方式組織或管理元件。然後，您可以按一下篩選或輸入#，依左側欄中的標籤進行搜尋。 標籤也會當成元件管理員中的篩選器。 |
+| 我的最愛 | 新增元件至我的最愛清單。如同標籤，您可以依左側邊欄的「我的最愛」搜尋，並在元件管理員中依其篩選。 |
+| 核准 | 將元件標示為「已核准」，以向您的使用者指出元件已組織核准。 如同標籤，您可以在左側邊欄中依「已核准」搜尋，並在元件管理員中依其篩選。 |
+| 共用 | 將元件共用給組織中的使用者。 此選項僅適用於自訂元件，例如區段或計算量度。 |
+| 刪除 | 刪除您不再需要的元件。 此選項僅適用於自訂元件，例如區段或計算量度。 |
 
-[在 YouTube 觀看「建立量度、區段和日期」](https://www.youtube.com/watch?v=XXJuNAte8E8&amp;index=25&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(2:51)
+自訂元件也可透過其各自的元件管理員來管理。
