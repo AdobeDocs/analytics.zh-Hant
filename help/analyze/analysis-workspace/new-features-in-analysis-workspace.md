@@ -3,9 +3,9 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 159de461edb07475d295d8c0dddb7c849addc043
+source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
 workflow-type: tm+mt
-source-wordcount: '7820'
+source-wordcount: '7821'
 ht-degree: 98%
 
 ---
@@ -1135,9 +1135,9 @@ ht-degree: 98%
 
 *`Save As`*&#x200B;也適用於「[!UICONTROL 計算量度產生器]」和「[!UICONTROL 日期範圍產生器]」。
 
-## 加入新區段按鈕 {#section_85CC88C02C79456EA2B41F2BFBB64FC4}
+## 新增區段
 
-在您拖放區段至專案的位置上，新增了「**[!UICONTROL 加入新區段]**」按鈕。
+已 **[!UICONTROL 新增「拖曳區段至此處]** 」拖放區域，讓您可以拖放區段至專案。
 
 ![](assets/add-new-segment.png)
 
