@@ -4,7 +4,7 @@ title: 記錄檔
 topic: Admin tools
 uuid: d5d4723d-f4cf-403e-ae9c-76d7faed2be6
 translation-type: tm+mt
-source-git-commit: b7f7fd7511167e70c66c0a2636880234e23bcbd5
+source-git-commit: fff1fb97f9224b7e68f85b24ac440083503df54f
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 72%
@@ -39,7 +39,7 @@ ht-degree: 72%
 ### 事件類型
 
 | 事件類型 | 說明 |
-| --- |--- |
+| --- | --- |
 | 沒有類別 | 可以是任何事件類型。 |
 | 登入失敗 | 用戶登錄過程失敗。 |
 | 登入成功 | 使用者成功登入。 |
