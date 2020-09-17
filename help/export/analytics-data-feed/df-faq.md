@@ -3,10 +3,10 @@ description: 與資料摘要相關的常見問題
 keywords: Data Feed;job;pre column;post column;case sensitivity
 title: 資料摘要常見問答集
 translation-type: tm+mt
-source-git-commit: 966d1e8d47df03f6e4cedfedd62c1d3bc56a3606
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 86%
+source-wordcount: '318'
+ht-degree: 66%
 
 ---
 
@@ -30,3 +30,9 @@ ht-degree: 86%
 ## 資料饋送中是否包含「管理控制台」機器人規則來篩選機器人？
 
 資料饋送不包含由「管理控制台」機器人規 [則篩選的機器人](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
+
+## 為什麼在資料饋送 `000` 欄中會看到 `event_list` 多個 `post_event_list` 值？
+
+有些試算表編輯器，尤其是Microsoft Excel，會自動大量搜尋。 此 `event_list` 欄包含許多逗號分隔的數字，有時會導致Excel將其視為大數字。 它將最後幾位數四捨五入為 `000`。
+
+Adobe建議您不要在Microsoft Excel中 `hit_data.tsv` 自動開啟檔案。 請改用Excel的「匯入資料」對話方塊，並確定所有欄位都視為文字。
