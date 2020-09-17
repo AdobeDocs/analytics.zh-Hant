@@ -3,12 +3,19 @@ description: 顯示您網站中最活躍的網頁與區域，以及最常用的�
 title: 網站內容報表
 uuid: 70317d28-a52e-4660-9f8e-a8fce012836c
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 97%
 
 ---
 
 
 # 網站內容報表
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 顯示您網站中最活躍的網頁與區域，以及最常用的伺服器。
 
