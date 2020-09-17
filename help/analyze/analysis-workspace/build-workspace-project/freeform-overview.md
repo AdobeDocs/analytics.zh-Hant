@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+workflow-type: tm+mt
+source-wordcount: '759'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 查詢會直接前往報表引擎，您可進行內嵌變更，無須使用其他報表即可建立您的分析。結果可立即傳回，無須重新整理瀏覽器。
 
-## 工作區專案清單頁面{#section_39AA007D7C384F4E869F842F1C7B11F8}
+## 工作區專案清單頁面 {#section_39AA007D7C384F4E869F842F1C7B11F8}
 
 先前往&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 工作區]**」，此頁面會列出所有您擁有或有權存取的專案。您可以按一下&#x200B;**[!UICONTROL 「設為登陸頁面」]**，將此頁面設定為您的 Adobe Analytics 登陸頁面。(如果您看不到如下方螢幕擷取畫面所示的選項，即表示該頁面已為您的登陸頁面。)
 
@@ -33,14 +33,18 @@ ht-degree: 100%
 
 | 元素 | 說明 |
 |---|---|
-| 專案[範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) | 您可照原樣使用這些預先填入的專案範本，或是依照您的需求進行調整 (例如，透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。 |
 | [建立新專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 按一下此連結即可從頭開始建立新的專案。 |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
+| 設定為登陸頁面 | 將此頁面轉換為您的工作區登陸頁面。 |
 | 觀看教學課程 | 將您導向 [Analysis Workspace YouTube 影片](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
 | 名稱 | 「工作區」專案名稱。 |
-| 建立者 | 建立此專案的人 (您或與您共用專案的人)。 |
+| 擁有者 | 建立此專案的人 (您或與您共用專案的人)。 |
+| 類型 | 指出這是工作區專案還是 [Mobile Scorecard](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html)。 |
+| 專案角色 | 指出您是「擁有者」、是否可以編輯專案，或此專案是否為「複製」專案。 |
 | 標記 | 套用至專案的標記，位於「專案元件管理員」或&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定]**」。 |
 | 上次修改 | 上次修改專案的日期和時間。 |
+| 我最愛的專案 | 若要將專案標示為我的最愛，請開啟專案，然後按一下其名稱旁的星號。 下次您開啟「工作區」時，它會顯示在此清單中。 |
+| 經常檢視的專案 | 列出您經常開啟的所有專案，以方便存取。 |
 
 ## 專案資訊和設定 {#section_63773D0B9E4543E88068ECECB9EEB4C6}
 
@@ -85,7 +89,7 @@ ht-degree: 100%
 | 下載 PDF* |  |  |  |  |  |
 | 專案資訊和設定 |  |  |  |  |  |
 
-## 左側邊欄{#section_271295C26EC840ABB2A8E7EC0498B60E}
+## 左側邊欄 {#section_271295C26EC840ABB2A8E7EC0498B60E}
 
 左側邊欄有 3 個圖示，您只需按一下即可存取「面板」、[「視覺效果」](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)和[「元件」](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)(維度、量度、區段、資料範圍)：
 
