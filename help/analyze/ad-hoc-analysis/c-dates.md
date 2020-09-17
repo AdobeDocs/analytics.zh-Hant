@@ -3,9 +3,9 @@ description: 在日曆中，您可以指定日期和日期範圍，也可以選�
 title: 日期和日期範圍
 uuid: 8f099db7-e74b-4384-ac46-61a545f1dd62
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '477'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。您可以在專案、工作環境和報表層級選取日曆。專案的日期範圍是預設日期。不過，工作環境日期範圍會覆寫專案的日期範圍。同樣的，報表的日期範圍會覆寫工作環境和專案的日期設定。您不能選取資料可用範圍以外的日期範圍。
 
