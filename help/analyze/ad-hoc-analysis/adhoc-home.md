@@ -2,9 +2,9 @@
 description: Ad Hoc Analysis 簡介
 title: Ad Hoc Analysis 概觀
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '152'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ Ad Hoc Analysis 可協助您識別高價值的客戶區段，並提供無限制�
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 ## 新主題和熱門主題
 
