@@ -4,10 +4,10 @@ title: 報表概觀
 topic: Ad hoc analysis
 uuid: 36722dcd-5dc9-4047-8a17-16de876193bf
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 98%
+source-wordcount: '996'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 標準報表會顯示網站和訪客活動、流量模式、反向連結資料、廣告促銷活動、訪客保留率、產品資料等的相關資料。您可以執行報表，然後存取工具以設定區段、量度和報表比較。
 
