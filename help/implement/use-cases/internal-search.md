@@ -2,7 +2,7 @@
 title: 擷取內部搜尋詞
 description: 使用自訂變數來擷取內部搜尋詞。
 translation-type: tm+mt
-source-git-commit: 091e4b859addc1780d94d90c8b59748277890241
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Follow [Map Launch data elements to Analytics variables](../launch/elements-to-v
 
 Follow [Deploy an Analytics implementation to a development environment](../launch/deploy-dev.md). 一旦您確認它在您的開發環境中運作，您就可以 [驗證開發實作並發佈至生產環境](../launch/validate-publish-prod.md)。
 
-## 在工作區中建立報表。
+## 工作區中的報表功能
 
 為實作提供一些時間來收集資料，然後您就可以開始在分析工作區中使用維度。
 
