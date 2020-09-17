@@ -4,9 +4,9 @@ title: 計劃管理員
 topic: Ad hoc analysis
 uuid: 82a054ef-109d-414d-a6e1-e09ee57c163f
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 98%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 您可以自訂報表的傳送計劃。您可以在特定時間停止傳送，也可以指定某一報表的傳送次數。新排程會使用報表中定義的日期範圍。例如，如果您針對最近 90 天建立了報告，並排程讓其每天執行，則會每天收到最近 90 天的報告。如果您是從日曆的靜態日期範圍建立報告，則每次報告傳送時，您看到的都是相同的報告。
 
