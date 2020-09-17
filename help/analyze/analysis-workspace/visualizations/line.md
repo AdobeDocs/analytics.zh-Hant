@@ -3,10 +3,10 @@ description: 使用線條視覺化來描繪趨勢（以時間為基礎的）資�
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 translation-type: tm+mt
-source-git-commit: e3e67de7c6f3b82198aa8d823c066030f3c3111e
+source-git-commit: e9982ff662396fbdd2f5c9645d768fb373764968
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 10%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 12%
 「行」視覺化會使用行來表示量度，以顯示值在一段時間內的變化。 僅可在使用時間當作維度時，才使用折線圖。
 
 ![線條視覺化](assets/line-viz.png)
-
->[!IMPORTANT]
->
->某些「行」視覺化設定(例如「顯 [!UICONTROL 示趨勢線]」)目前只進行有限的測試。 [更多詳情](/help/landing/an-releases.md)
 
 按一下「線條」視覺化右上角的齒輪圖示，以存取可用 [**的視覺化設**](freeform-analysis-visualizations.md) 定。 設定分為：
 
@@ -42,6 +38,10 @@ ht-degree: 12%
 ## 顯示趨勢線覆蓋
 
 在「 **[!UICONTROL 視覺化設定]** >覆蓋 **[!UICONTROL >]** 顯示趨勢線 ****」下方，您可以選擇將回歸趨勢線新增至行系列。 趨勢線有助於描述資料中更清晰的模式。
+
+>[!TIP]
+>
+>我們建議將趨勢線套用至不包含今天（部分資料）或未來日期的資料，因為這些資料會扭曲趨勢線。 但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。 若要這麼做，請前往視覺化的資料來源表格，並選擇您的量度欄。 然後前往「 [!UICONTROL 欄設定」] ，並勾 **[!UICONTROL 選「解譯零為無值]**」。)
 
 ![線性趨勢線](assets/show-linear-trendline.png)
 
