@@ -3,13 +3,20 @@ description: 顯示訪客存取您網站網頁之順序的相關資訊。您可�
 title: 路徑報表
 topic: Ad hoc analysis
 uuid: 5881cb1c-6d66-49fe-ac84-70b82662acd2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 99%
 
 ---
 
 
 # 路徑報表
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 顯示訪客存取您網站網頁之順序的相關資訊。您可以收集訪客瀏覽您網站任何頁面之前及之後所處位置的相關資訊。
 
