@@ -2,9 +2,9 @@
 title: 記錄檔
 description: 取得記錄檔以進行疑難排解。
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '212'
 ht-degree: 5%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 疑難排解臨機分析問題時，有時需要取得其記錄檔。 Adobe可使用記錄檔找出問題的根本原因並提供解決方法。 檔案 `discover.log` 包含所有作業階段的所有使用者互動、報表載入資訊和Java錯誤訊息。 它會雜湊任何受保護的資訊，例如使用者的密碼。 大型記錄檔會分割為10 MB的增量。 向Adobe提供記錄檔時，請確定已選取所有檔案。
 
