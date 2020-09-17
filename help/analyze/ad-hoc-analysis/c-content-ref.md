@@ -4,9 +4,9 @@ title: 建立區段
 topic: Ad hoc analysis
 uuid: e14fb777-900a-4700-8dc7-56a45c678d29
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 42782779a9b9d5f4795b2663ec78678cd3aada02
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1226'
 ht-degree: 93%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 Ad Hoc Analysis 已與 Analytics Segmentation 環境整合，可讓您在 Adobe 產品間建立、共用、管理和套用訪客區段。Ad Hoc Analysis 為其區段產生器和區段管理員提供 Java 型使用者介面，這些介面與其他 Analytics 工具所用的網路型工具完全相同，能比對伺服器呼叫並提供來自 Java 控制台的相同功能。
 
