@@ -3,12 +3,19 @@ description: 設定使用者並了解資料取樣。
 title: 管理
 uuid: 12f90223-139f-4a8d-bfd3-5cd9af7489d2
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '785'
+ht-degree: 98%
 
 ---
 
 
 # 管理
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 設定使用者並了解資料取樣。
 
@@ -37,14 +44,14 @@ t_user_licenses.xml
  -->
 
 1. 登入 [!DNL Experience Cloud]。
-1. 按一下 **[!UICONTROL Admin]** > **[!UICONTROL User Management]**.
-1. 按一下 **[!UICONTROL Edit Groups]**.
+1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 使用者管理」]**。
+1. 按一下「**[!UICONTROL 編輯群組]**」。
 
-   如果您的公司已購買使用者授權， [!UICONTROL Ad Hoc Analysis License Users] 群組會出現在欄 [!UICONTROL Group Name] 中。 亦會顯示使用者登入的可用授權數量。
+   若您的公司已購買使用者授權，則[!UICONTROL 「Ad Hoc Analysis 授權使用者」]群組會顯示於[!UICONTROL 「群組名稱」]欄。亦會顯示使用者登入的可用授權數量。
 
-1. 按一下 **[!UICONTROL Edit]**.
-1. Under [!UICONTROL Assign User Logins], select the users you want to add to the group, then click **[!UICONTROL Add.]**
-1. 按一下 **[!UICONTROL Save Group]**.
+1. 按一下&#x200B;**[!UICONTROL 編輯]**。
+1. 在[!UICONTROL 指派使用者登入]下，選取想要新增至群組的使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存群組」]**。
 
    授權系統不會限制新增至群組的使用者人數。但所購買使用者授權數目的同時使用量有限制。
 
@@ -58,10 +65,10 @@ t_managing_users.xml
 
  -->
 
-1. 按一 **[!UICONTROL Adobe Analytics]** 下> **[!UICONTROL Admin]** > **[!UICONTROL User Management]**，然後按一下 **[!UICONTROL Manage Users]**。
-1. Locate the user, then click **[!UICONTROL Terminate.]**
+1. 按一下&#x200B;**[!UICONTROL 「Adobe Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理」]**，然後按一下&#x200B;**[!UICONTROL 「管理使用者」]**。
+1. 找到使用者，然後按一下&#x200B;**[!UICONTROL 終止]**。
 
-   On the [!UICONTROL Active Ad Hoc Analysis Sessions] page, the user who has been idle the longest displays at the top of list.
+   在[!UICONTROL 「作用中的 Ad Hoc Analysis 作業」]頁面中，閒置最久的使用者會顯示在清單頂端。
 
 ## 權限 {#concept_A7F2A7600BFF47C38D7C980E08D395B8}
 
@@ -84,10 +91,10 @@ t_permissions.xml
  -->
 
 1. 登入 **[!UICONTROL Experience Cloud]**。
-1. 按一下 **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
-1. 按一下 **[!UICONTROL All Report Access]**.
-1. 在中 [!UICONTROL Available Users]，選取使用者，然後按一下 **[!UICONTROL Add.]**
-1. 按一下 **[!UICONTROL Save Group]**.
+1. 按一下「**[!UICONTROL Adobe Adone Analytics > 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**」。
+1. 按一下&#x200B;**[!UICONTROL 完全報表存取]**。
+1. 在[!UICONTROL 現存使用者]中，選取使用者，然後按一下&#x200B;**[!UICONTROL 新增]**。
+1. 按一下&#x200B;**[!UICONTROL 「儲存群組」]**。
 
 ## 建立權限群組 {#task_65A4C2E58B13475B9B2606CEB93B7CBD}
 
@@ -100,7 +107,7 @@ t_permission_groups.xml
  -->
 
 1. 登入 **[!UICONTROL Experience Cloud]**。
-1. 按一下 **[!UICONTROL Adobe Analytics > Admin]** > **[!UICONTROL User Management]** > **[!UICONTROL Edit Groups]**.
+1. 按一下「**[!UICONTROL Adobe Adone Analytics > 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 編輯群組]**」。
 1. 為非管理員使用者建立權限群組，包括您想讓使用者存取的已啟動 Ad Hoc Analysis 報表套裝。
 
    建立新專案時，使用者可用的報表套裝會顯示在 [!UICONTROL Report Cloud] 功能表中。
@@ -117,10 +124,10 @@ t_proxy_policies.xml
 
 Ad Hoc Analysis 使用 HTTP 來與伺服器通訊。與其他 HTTP 流量相同，它也必須遵守相同的 Proxy 政策。
 
-1. 在中 [!DNL Windows Control Panel]，啟動 [!UICONTROL Java Control Panel]。
-1. 在標籤 **[!UICONTROL General]** 上，按一下 **[!UICONTROL Network Settings]**。
-1. 選擇 **[!UICONTROL Use browser settings]**&#x200B;或手動配置代理設定。
-1. 按一 **[!UICONTROL OK]**&#x200B;下，然 **[!UICONTROL OK]** 後按一下 [!UICONTROL Java Control Panel]。
+1. 在 [!DNL Windows Control Panel] 中，啟動[!UICONTROL 「Java 控制面板」]。
+1. 在&#x200B;**[!UICONTROL 一般]**&#x200B;標籤中，按一下&#x200B;**[!UICONTROL 網路設定]**。
+1. 選取&#x200B;**[!UICONTROL 使用瀏覽器設定]**，或手動設定 Proxy 設定。
+1. 按一下&#x200B;**[!UICONTROL 確定]**，然後按一下 **[!UICONTROL Java 控制面板]**&#x200B;上的[!UICONTROL 確定]。
 
 ## 資料取樣的方式 {#concept_8433CFD38E0243849E92DF4F1E743AC3}
 
