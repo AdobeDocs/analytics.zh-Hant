@@ -4,12 +4,19 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 92%
 
 ---
 
 
 # Adobe Target
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 在 Analytics 報告中檢視和劃分 Adobe Target 流量資料。
 
