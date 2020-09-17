@@ -3,15 +3,19 @@ description: 比較 Analysis Workspace 與 Ad Hoc Analysis 的術語和工作
 title: 比較 Analysis Workspace 與 Ad Hoc Analysis
 uuid: e4b3e40f-2b08-49a0-95f1-384d85c1640d
 translation-type: tm+mt
-source-git-commit: a364d05fc18dbc47d4c9cf4ebd7fed1e284e6066
+source-git-commit: 0c934b0e1d6c1e862094737ad7ac504574c0c0d2
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 87%
+source-wordcount: '930'
+ht-degree: 86%
 
 ---
 
 
 # 比較 Analysis Workspace 與 Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 比較 Analysis Workspace 與 Ad Hoc Analysis 的術語和工作
 
@@ -26,7 +30,7 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
 | 專案 | 工作區或專案 |
 | 工作區 | 面板 |
 | 報表 | 自由表格 |
-| 圖表 | 視覺效果 |
+| 圖表／圖表 | 視覺效果 |
 | 階層：專案 > 工作區> 報表 | 階層：專案 > 面板 > 表格 |
 | 排名、趨勢、總計報表範本 | 自由表格視覺效果 |
 | 流量範本 | 流量視覺效果 |
@@ -57,7 +61,7 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
   </tr> 
   <tr> 
    <td colname="col1"> <p>建立臨時（「臨機」）區段 </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，您可在面板下拉區中新增下拉式篩選，一次建立許多臨時區段，以啟用受控制的專案互動。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 影片：Analysis Workspace 中的臨機區段</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > 影片： 分析工作區中的下拉式篩選</a> </p> </td> 
+   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，您可在面板下拉區中新增下拉式篩選，一次建立許多臨時區段，以啟用受控制的專案互動。 </p> <p><a href="https://www.youtube.com/watch?v=NKm7Rj23TtE"  > 影片：Analysis Workspace 中的臨機區段</a> </p> <p><a href="https://www.youtube.com/watch?v=vpJywtsFVPI"  > 影片：分析工作區中的下拉式篩選</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>選擇日期範圍和精細度 </p> </td> 
@@ -96,11 +100,11 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
   </tr> 
   <tr> 
    <td colname="col1"> <p>選取報表套裝 </p> </td> 
-   <td colname="col2"> <p>可在分析工作區中將多個報表套裝新增至單一專案。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 影片： 工作區中的多個報表套裝</a> </p></td> 
+   <td colname="col2"> <p>可在分析工作區中將多個報表套裝新增至單一專案。  </p> <p><a href="https://www.youtube.com/watch?v=kRPTBDNLJKk"  > 影片：工作區中的多個報表套裝</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>歸因 IQ </p> </td> 
-   <td colname="col2"> <p>您可以使用 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >歸因 IQ</a>，將許多新類型的歸因模型新增至自由表格、視覺效果和計算量度中。它包含10種以上的規則型和演算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 影片： 自由表格中的歸因IQ</a> </p> </td> 
+   <td colname="col2"> <p>您可以使用 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >歸因 IQ</a>，將許多新類型的歸因模型新增至自由表格、視覺效果和計算量度中。它包含10種以上的規則型和演算法模型。 </p>  <p><a href="https://www.youtube.com/watch?v=aYbGcQvAN1E"  > 影片：自由表格中的歸因IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
