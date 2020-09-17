@@ -3,16 +3,20 @@ description: 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度�
 title: 訪客報表
 topic: Ad hoc analysis
 uuid: 3e9b41d1-d6ff-47a8-aa6b-829df1040c34
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '870'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '886'
+ht-degree: 98%
 
 ---
 
 
 # 訪客報表
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 顯示訪客的相關資訊，包括訪客計數、客戶忠誠度和訪客特性等。
 
