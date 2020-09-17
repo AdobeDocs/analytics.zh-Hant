@@ -3,12 +3,19 @@ description: 設定全域行為設定例如，您可以設定自動儲存、圖�
 title: 設定
 uuid: 34444052-479b-4923-b379-a03ca614bf3e
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 98%
 
 ---
 
 
 # 設定
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 設定全域行為設定例如，您可以設定自動儲存、圖表和表格設定，以及指定字型和地區。
 
@@ -16,7 +23,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 設定全域行為設定例如，您可以設定自動儲存、圖表和表格設定，以及指定字型和地區。
 
-按一 **[!UICONTROL Tools]** 下> **[!UICONTROL Settings]** 以存取 [!UICONTROL Global Settings]。
+按一下&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL 設定]**&#x200B;存取[!UICONTROL 全域設定]。
 
 ## 一般設定標籤 - 定義 {#reference_EADAF83466994F89BCC6B0F49A9A53DB}
 
