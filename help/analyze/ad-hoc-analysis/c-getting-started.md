@@ -3,9 +3,9 @@ description: 開始使用 Ad Hoc Analysis。
 title: 快速入門
 uuid: 6a698e18-4e62-405e-b020-b973c9c4008b
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1306'
 ht-degree: 93%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 您可對網站活動執行即時的進階分析。您可以同時檢視多份報表，將區段套用至多個維度。您可以從巨觀和微觀角度同時分析資料，檢視這些資料對您的重要業務度量有何影響。
 
