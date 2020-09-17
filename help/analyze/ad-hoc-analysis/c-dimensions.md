@@ -4,12 +4,19 @@ title: 維度
 topic: Ad hoc analysis
 uuid: a843d3ae-093b-438e-89a9-73312a2ea6f2
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 96%
 
 ---
 
 
 # 維度
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 維度是量度資料的描述或特徵，可以在報表中加以檢視、劃分及比較。它們是非數值和日期，可以關聯、子關聯至原始報表類型度量，或成為原始報表類型度量的分類。
 
