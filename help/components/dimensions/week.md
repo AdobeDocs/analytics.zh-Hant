@@ -2,10 +2,10 @@
 title: 週
 description: 量度發生的週別。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 58%
+source-wordcount: '141'
+ht-degree: 42%
 
 ---
 
@@ -20,4 +20,6 @@ ht-degree: 58%
 
 ## 維度項目
 
-維度項目包括一週中第一天的日期（月、日和年）。
+在分析工作區中，維度項目包括一週中第一天的日期（月、日和年）。
+
+在資料倉庫中，維度項目會根據請求的日期範圍包含編號周。 例如，第一個完整周是 `"Week 1"`。 如果請求包含部分周，資料會分組到維度項目 `"Week 0"`。
