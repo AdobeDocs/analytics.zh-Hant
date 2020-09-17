@@ -3,10 +3,10 @@ description: 時間做為報表維度，可以用於分析經過數小時、數�
 title: 時間
 uuid: a6efbf80-342c-4aeb-80f3-91a3dbdbd33c
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 97%
+source-wordcount: '396'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 時間做為報表維度，可以用於分析經過數小時、數天、數週以及某個日期範圍的趨勢。例如，「產品報表」可顯示在選定的日期範圍內，一項產品產生了多少收入。您可以新增「日」維度，查看報告期間每一天的趨勢。「時間」提供「小時」、「日」、「週」、「月」、「季」和「年」的精細度設定。日期範圍預設集包括「今天」、「昨天」和「最近 7 天」。
 
