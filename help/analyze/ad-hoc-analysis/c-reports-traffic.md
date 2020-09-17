@@ -3,16 +3,20 @@ description: 流量來源報表能讓您深入了解訪客與您網站的互動�
 title: 流量來源報表
 topic: Ad hoc analysis
 uuid: 246afbdc-9f7b-4956-a44a-b7aad948f392
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1159'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1175'
+ht-degree: 99%
 
 ---
 
 
 # 流量來源報表
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 流量來源報表能讓您深入了解訪客與您網站的互動。
 
@@ -73,7 +77,7 @@ c_reports_ref_domains.xml
 
 顯示對網站的「成功量度」影響最大之客戶的反向連結網域。反向連結分為 2 種主要類別：網域與 URL。「網域」指的是網域名稱，以不含查詢字串或子目錄的基本網域形式出現。URL 包括基本網域名稱，亦包括任意查詢字串或子目錄。
 
-## 原始反向連結網域{#concept_EB18251DF70343169B46BB59543A579A}
+## 原始反向連結網域 {#concept_EB18251DF70343169B46BB59543A579A}
 
 <!-- 
 
