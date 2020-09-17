@@ -1,16 +1,20 @@
 ---
 description: 使用 Java 11 執行 Ad Hoc Analysis 相關說明
 title: 使用 Java 11 執行 Ad Hoc Analysis
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '385'
+ht-degree: 97%
 
 ---
 
 
 # 使用 Java 11 執行 Ad Hoc Analysis
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 當您以 Java 11 執行 Ad Hoc Analysis 時，會有 Java 8 所沒有的額外步驟需遵照執行。
 
