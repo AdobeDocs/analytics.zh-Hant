@@ -3,15 +3,19 @@ description: 顯示可從行動裝置存取的網站相關資訊。「行動裝�
 title: 行動報表
 uuid: feb1fc34-3541-4b2d-b9cb-84d2e91d9539
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 98%
+source-wordcount: '1394'
+ht-degree: 97%
 
 ---
 
 
 # 行動裝置報表
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 顯示可從行動裝置存取的網站相關資訊。「行動裝置」報告透過彙集用於檢視網站的行動裝置相關資料來改進訪客識別。「行動裝置」報告可識別裝置的製造商和功能，例如螢幕大小、影片、音訊、Cookie 支援以及其他量度。「行動裝置」報告適用於所有報表套裝。
 
