@@ -5,7 +5,7 @@ title: 分析工作區中可用的快速鍵（快速鍵）
 topic: Reports and analytics
 uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
 translation-type: tm+mt
-source-git-commit: a0ace35eb1e622b5410c1a0a2d0b18245582ef2c
+source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 54%
@@ -24,7 +24,7 @@ ht-degree: 54%
 ## 導覽動作
 
 | 動作 | 快速鍵 |
-|---|---|
+| --- | --- |
 | 建立新專案 | ctrl + shift + p |
 | 開啟現有專案 | ctrl + o |
 | 前往「面板」窗格 | alt + shift + 1 |
@@ -38,7 +38,7 @@ ht-degree: 54%
 ## 分析動作
 
 | 動作 | 快速鍵 |
-|---|---|
+| --- | --- |
 | 搜尋左側邊欄 | ctrl + / |
 | 建立警報 | ctrl + shift + a |
 | 建立計算量度 | ctrl + shift + c |
@@ -55,7 +55,7 @@ ht-degree: 54%
 ## 新增面板和視覺化動作
 
 | 動作 | 快速鍵 |
-|---|---|
+| ---|---|
 | Target新分析面板 | alt + g |
 | 新增歸因面版 | alt + e |
 | 新增空白面板 | alt + b |
@@ -70,7 +70,7 @@ ht-degree: 54%
 ## 民主化行動
 
 | 動作 | 快速鍵 |
-|---|---|
+| --- | --- |
 | 儲存專案 | ctrl + s |
 | 另存專案 | ctrl + shift + s |
 | 另存為範本 | alt + t |
