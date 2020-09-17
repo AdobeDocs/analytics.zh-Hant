@@ -4,12 +4,19 @@ title: 網站度量報表
 topic: Ad hoc analysis
 uuid: 0730747a-216f-4a58-b62b-a9812968cde5
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+workflow-type: tm+mt
+source-wordcount: '1412'
+ht-degree: 99%
 
 ---
 
 
 # 網站度量報表
+
+>[!IMPORTANT]
+>
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
 
 顯示您網站的相關數量資訊，如特定網頁的訪客瀏覽次數、特定網頁中的購買總次數、訪客的來歷，以及類似量化資料。每一個這類報告都是一個量度，您可放置於其他項目型報告中。
 
@@ -19,7 +26,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 度量報表是隨時間的趨勢變化。您可以對這些報表套用時間和一週中的某天精細度。此外，您可以分析在網站上逗留的時間、購買、收入及類似度量。
 
-The following Site Metrics reports are available in the [!UICONTROL Site Metrics] menu.
+下列「網站度量」報表可從[!UICONTROL 網站度量]功能表使用。
 
 ## 頁面檢視報告 {#concept_5331AFB6948547F7B8DF367B49360E6B}
 
@@ -29,7 +36,7 @@ c_reports_pageviews.xml
 
  -->
 
-此為趨勢報告，顯示選取時段 (小時、日、週、月份、季度或年) 內網站頁面的檢視次數。A [!UICONTROL Page View] is a request for a full page document, rather than an element of a page, such as an image or video. 例如，若單個訪客在一次瀏覽期間檢視 15 個頁面，則計為 15 次頁面檢視。若訪客在一次瀏覽期間檢視相同頁面 3 次，則計為 3 次頁面檢視。您可利用此報表來追蹤網站中每個頁面的檢視次數，以及整個網站的頁面檢視次數總和。
+此為趨勢報告，顯示選取時段 (小時、日、週、月份、季度或年) 內網站頁面的檢視次數。[!UICONTROL 「頁面檢視」]是對整頁文件的要求，而不是對頁面的某個元素，例如影像或影片的要求。例如，若單個訪客在一次瀏覽期間檢視 15 個頁面，則計為 15 次頁面檢視。若訪客在一次瀏覽期間檢視相同頁面 3 次，則計為 3 次頁面檢視。您可利用此報表來追蹤網站中每個頁面的檢視次數，以及整個網站的頁面檢視次數總和。
 
 ## 瀏覽報告 {#concept_50CA55CF2A41430CBC754AEEEE6023A9}
 
@@ -41,7 +48,7 @@ c_reports_visits.xml
 
  -->
 
-In marketing reports and analytics, you can run a [!UICONTROL Visits Report] on a selected page. 在 Ad Hoc Analysis 中，您可以將資料分段以檢視特定頁面。
+在 Marketing Reports &amp; Analytics 中，您可以在選定頁面上執行[!UICONTROL 「瀏覽報表」]。在 Ad Hoc Analysis 中，您可以將資料分段以檢視特定頁面。
 
 ## 獨特訪客報表 {#concept_39097C54E46C496CBAD537329DB3C84A}
 
@@ -69,7 +76,7 @@ c_reports_visitors.xml
 
  -->
 
-顯示在表格底部的總計值是特定時段瀏覽次數的總數，並不總是反映獨特訪客的數量。For example, if you run a [!UICONTROL Daily Unique Visitors Report] with a time frame of several days, the total can include repeat visitors, because the same visitor might return on the next day and be counted again. However, if you run a [!UICONTROL Monthly Unique Visitors Report], the value in the Totals column accurately reflects how many unique visitors came during the month.
+顯示在表格底部的總計值是特定時段瀏覽次數的總數，並不總是反映獨特訪客的數量。例如，如果您使用數天的時段執行[!UICONTROL 每日獨特訪客]報告，該總計可包括重複訪客，因為相同訪客可能在下一天回訪並被再次計算。但是，如果您執行[!UICONTROL 每月獨特訪客]報告，「總計」欄位可準確反映本月的獨特訪客數量。
 
 ## 每次瀏覽逗留時間報告 {#concept_5CDB759F9C9B4002A786A71F2BDBB292}
 
@@ -112,7 +119,7 @@ c_reports_shopping_cart.xml
 
  -->
 
-您可以使 [!UICONTROL Carts Report] 用：
+您可將[!UICONTROL 購物車報告]用於：
 
 * 確定網站上已開啟購物車的模式及其數量的最高值或最低值。
 * 檢查特定時段，了解對開啟購物車貢獻突出的量度。
@@ -127,7 +134,7 @@ c_reports_custom_events.xml
 
  -->
 
-由於每個分析報表套裝都略有不同，本組報表針對每個客戶的使用也不同。A [!UICONTROL Custom Event] report can be used as a counter that shows the number of times an event occurs. For example, if **[!UICONTROL event1]** is set to count the number of times a document is downloaded, then the [!UICONTROL Custom Event] report for Event 1 shows the total number of times the event (or download) occurs. 您可以具有多個自訂事件報表。
+由於每個分析報表套裝都略有不同，本組報表針對每個客戶的使用也不同。[!UICONTROL 「自訂事件」]報表可用作顯示事件發生次數的計數器。例如，如果設定 **[!UICONTROL event 1]** 為計算下載某個文件的次數，則 event 1 的自訂事件報告會顯示發生該事件 (或下載) 的總次數。您可以具有多個自訂事件報表。
 
 ## 轉換報告 {#concept_BDD3DD8A46F043BB916C7E346E7C314F}
 
@@ -159,8 +166,8 @@ c_reports_marketing_channel.xml
 
  -->
 
-**[!UICONTROL First or Last Touch Channel Report]**:顯示顯示特定首次接觸或上次接觸渠道相關資料的量度。 在這些報表中，您可以劃分管道並顯示每個管道的詳情。如果您已啟用 AdLens，則會在 Marketing Reports &amp; Analytics 管道報表中看到分類。
+**[!UICONTROL 首次和上次接觸管道報表]**：顯示度量，用以展示特定的首次接觸或上次接觸管道之相關資料。在這些報表中，您可以劃分管道並顯示每個管道的詳情。如果您已啟用 AdLens，則會在 Marketing Reports &amp; Analytics 管道報表中看到分類。
 
-**[!UICONTROL First or Last Touch Channel Detail Reports]**:顯示頁面名稱和反向連結等詳細資訊，這些資訊取自您在設定規則時在選項中設 [!UICONTROL Set the channel's value to] 定的渠道值。 透過管道詳情報表，您能從概述報表中更詳細地了解管道詳細資訊。
+**[!UICONTROL 首次和上次接觸管道詳情報表]**：顯示頁面名稱和反向連結之類的詳細資訊，這些資訊來自於您在設定規則時，在[!UICONTROL 「將管道值設定為」]選項中設定的管道值。透過管道詳情報表，您能從概述報表中更詳細地了解管道詳細資訊。
 
 如需在行銷報告與分析中設定行銷管道的更深入資訊，請參閱[行銷管道說明](/help/components/c-marketing-channels/analyze-mc.md)系統。
