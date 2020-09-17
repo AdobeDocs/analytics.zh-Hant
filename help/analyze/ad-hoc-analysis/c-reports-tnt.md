@@ -4,9 +4,9 @@ title: Adobe Target
 topic: Ad hoc analysis
 uuid: 420da093-9d0d-454e-a193-e0595f36d3b1
 translation-type: tm+mt
-source-git-commit: d4cb2acb4ecaecce3644a2f3cf29913440e5cd6a
+source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '158'
 ht-degree: 92%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
 
 在 Analytics 報告中檢視和劃分 Adobe Target 流量資料。
 
