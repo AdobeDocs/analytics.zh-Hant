@@ -1,11 +1,11 @@
 ---
 title: linkInternalFilters
 description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '340'
+ht-degree: 92%
 
 ---
 
@@ -17,6 +17,8 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 如果此變數包含值，自動退出連結追蹤將會表現出類似封鎖清單的行為。如果連結點擊與任何 `linkInternalFilters` 值不符，則會視為退出連結。系統會針對此變數檢查整個 URL。如果啟用 [`linkLeaveQueryString`](linkleavequerystring.md)，也會檢查查詢字串。
 
 如果您同時使用 `linkInternalFilters` 和 `linkExternalFilters` 兩者，點按的連結必須符合 `linkExternalFilters` **而且**&#x200B;與 `linkInternalFilters` 不符，才會視為退出連結。如果點按的連結符合退出連結和下載連結兩條件，下載連結類型的優先較高。
+
+Activity Map使用此變數可協助判斷您網站的內部連結。 Adobe建議使用Activity Map的實作設定此變數。
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 `s.linkInternalFilters` 變數是字串，其中包含您視為網站內部的篩選器 (如網域)。請使用逗號 (不含空格) 分隔多個篩選器。
 
 ```js
-s.linkInternalFilters = "example.com,example.net,example.org";
+s.linkInternalFilters = "example.com,example.net";
 ```
 
 請將下列實施範例視為在 `adobe.com` 上實施：
@@ -50,5 +52,5 @@ s.linkInternalFilters = "example.com,example.net,example.org";
 </script>
 
 <!-- The following link is an exit link because it does not match the anything under linkInternalFilters -->
-<a href = "example.com">Example link 2</a>
+<a href = "example.org">Example link 2</a>
 ```
