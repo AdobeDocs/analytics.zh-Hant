@@ -3,8 +3,11 @@ description: 在 Activity Map 中安裝、設定和使用功能的常問的問�
 title: Activity Map 常見問題集
 topic: Activity map
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+workflow-type: tm+mt
+source-wordcount: '503'
+ht-degree: 24%
 
 ---
 
@@ -13,137 +16,61 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 在 Activity Map 中安裝、設定和使用功能的常問的問題。
 
-## 實作和 AppMeasurement
+## 所有Analytics客戶都可以存取「管理工具ActivityMap啟用」頁面嗎？
 
-**問：啟用新 Activity Map 的實作步驟為何？**
+擁有Adobe Analytics Standard、Premium和Ultimate合約的組織可以存取Activity Map。
 
-答：請檢閱[啟用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+## Activity Map是否提供「檢視」資料？
 
-**問：所有 Analytics 客戶都有權存取管理工具的「Activity Map 啟用」頁面嗎？**
+否，Adobe不會追蹤已檢視的連結。
 
-答：Adobe SiteCatalyst 客戶無權存取管理控制台的「Activity Map 啟用」頁面。只有簽訂 Adobe Analytics Standard 和 Adobe Analytics Premium 合約的公司有權存取此設定頁面。
+## Activity Map支援哪些瀏覽器和版本？
 
-**問：新的 AppMeasurement 代碼可以透過「Dynamic Tag Management」(DTM) 進行設定嗎？**
+Activity Map支援最新版本的最新瀏覽器。
 
-答：是，您可以[手動實作](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/analytics-dtm.translate.html)新的 AppMeasurement 代碼。
+## Activity Map是否會增加伺服器呼叫？
 
-**問：AppMeasurement v1.6 程式庫有什麼重大變更？**
+Activity Map本身不會傳送伺服器呼叫。 Activity Map上下文資料變數會隨後頁面上的Analytics頁面檢視呼叫一起包含。
 
-答：AppMeasurement v1.6 的唯一變更是 Activity Map 連結追蹤處理方法，此方法需要收集頁面名稱、連結 ID 和地區 ID。
+## 為什麼缺少某些排名項目覆蓋？**
 
-**問：AppMeasurement 是否將在網域層級 (而非特定頁面) 推出？**
+有些排名連結（例如子功能表連結）會隱藏在頁面中。 因此，不會顯示其對應的連結覆蓋。 會計算頁面上所有連結的排名，包括隱藏的連結。
 
-答：AppMeasurement 是在報表套裝層級推出。報表套裝層級通常與網域層級關聯，但這會依每次實作而有所不同。
+## 如何在「所有連結」報表中決定連結排名？**
 
-**問：DTM 會自動載入舊版 (1.3.4) Visitor API，而非 Activity Map 需要的版本 (1.5.1)。這會有問題嗎？**
+* **在漸層和氣泡模式中**:排名由量度欄決定。 對於具有相同量度值的連結，再進一步根據連結 ID 的字母順序來排名。
+* **在「Gainer &amp; Loser」模式下**:排名主要由「增益%」欄決定。 對於具有相同增益的連結，排名會進一步根據連結ID的字母順序。
 
-答：不會。Activity Map 功能不須依賴 VisitorAPI。
+## Activity Map如何處理使用多個報表套裝的頁面？
 
-## Activity Map 應用程式
+依預設，Activity Map會使用與頁面所傳送之第一個標籤相關聯的報表套裝。 但您可透過「**[!UICONTROL Activity Map 設定]** > **[!UICONTROL 其他]**」索引標籤，選取其他已標記報表套裝。
 
-<!--**Q: How does Activity Map support Single-Page Applications (SPA)?**
+## Activity Map會在頁面上掃描Adobe Analytics多久？
 
-A: 
+Activity Map會在頁面完成事件後掃描Adobe Analytics的存在狀態，最長20秒。
 
-* Every few seconds, Activity Map scans the web page, looking for changes to the page. ActivityMap finds new content on the page without needing a new page load, but this new content is always attributed to the first pageName found when the page loaded.
+## Activity Map如何處理動態內容？
 
-* Activity Map checks to see if the visibility of links that it knows about has changed. If a change in visibility is found, then the [Links On Page](/help/analyze/activity-map/activitymap-links-report.md) table's Present column for that link updates with **[!UICONTROL Displayed]** or **[!UICONTROL Hidden]**.
-
-* When user interaction creates new content, any new elements that are found by AppMeasurement to be a link will be added to the **[!UICONTROL Links On Page]** table. Activity Map sends a new data request that includes these new links. The new links should appear in the **[!UICONTROL Links On Page]** table when the data request is handled by the UI.-->
-
-**問：Activity Map 是否提供「檢視次數」的資料？**
-
-答：否，Adobe 不會追蹤已檢視的連結。
-
-**問：我之前沒有在網站上使用 Visitor ClickMap，現在可以使用 Activity Map 嗎？**
-
-答：是否安裝舊版 (現在簡稱為 ClickMap) 並非實作新版本的先決條件。Adobe 還會在一段限定時間內繼續支援舊版。
-
-**問：Activity Map 支援哪些瀏覽器和版本？**
-
-答：我們支援四種主要瀏覽器 (Chrome、Firefox、Safari 和 IE) 的最新版本。
-
-**問：預設覆蓋圖設定是什麼？**
-
-答：依預設，Activity Map 會顯示有收集到資料的「所有」連結。
-
-當客戶網頁頂端顯示彈出式面板時，位於彈出式面板下方之連結所屬的覆蓋圖，就會顯示在彈出式面板的頂端。
-
-**問：為什麼會遺失部分排名項目覆蓋圖？**
-
-答：有些排名連結會在頁面上隱藏 (例如子功能表連結)。因此也不會顯示其對應的連結覆蓋圖。因此您可以預期覆蓋圖排名會遺失部分特定的排名值，因為排名是針對頁面上的所有連結來進行計算 (顯示連結 + 隱藏連結)。
-
-**問：「全部連結」報表中的連結排名是如何決定的？**
-
-* 在&#x200B;**「漸層」**&#x200B;和&#x200B;**「氣泡」**&#x200B;模式中：「排名」是由量度欄決定。對於具有相同量度值的連結，再進一步根據連結 ID 的字母順序來排名。
-* 而在&#x200B;**「獲益者和損失者」**&#x200B;模式中，排名主要是由「獲益 %」欄決定。對於具有相同獲益的連結，再進一步根據連結 ID 的字母順序來排名。
-
-**問：為什麼 Activity Map 執行時，沒有收集連結點擊資料？**
-
-答：使用 Activity Map 時，Analytics 標記不會收集連結點擊資料。此行為會遵循 ClickMap 外掛程式的行為規範。
-
-**問：「Activity Map 全部連結報表」與「Reports &amp; Analytics Activity Map」報表有何差異？**
-
-答：若要提取 Activity Map 中的「全部連結報表」，我們會建立劃分請求，如下所示：Activity M ap 頁面 = &quot;visitedpage&quot;，依據`<list of link&regions present in the page at rendering time>`的 Activity Map 連結和地區來劃分。
-
-若想在「Reports &amp; Analytics」中取得相等報表，您需先導覽至「Activity Map 頁面」報表。並在此處篩選 Activity Map 中的已造訪頁面名稱。已造訪頁面名稱會顯示在「Activity Map 頁面詳細資料底部面板」的左欄中。找到頁面後，即可從該頁面劃分，並選擇「Activity Map 連結和地區」做為第二維度。
-
-不過，請務必注意，在「報告與分析」中取得的報表，會列出為該頁面收集的所有連結和地區。但 Activity Map 只會報告目前呈現在網頁中的連結和地區。所以，如果您擁有新聞網站，則只會顯示當下時間的新聞報導，而不會顯示當天稍早呈現的新聞報導。
-
-**問：Activity Map 如何處理包含多個標記 (因此列出多個報表套裝) 的頁面？**
-
-答：依預設，Activity Map 會使用與頁面所傳送第一個標記相關聯的報表套裝。但您可透過「Activity Map 設定 > 其他」索引標籤，選取其他已標記報表套裝。
-
-**問：Activity Map 會掃描 Analytics 標記多久時間？**
-
-答：在頁面完成事件後，我們最多掃描 Analytics 標記 20 秒。
-
-**問：Activity Map 如何處理動態內容？**
-
-答：Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態變更：
+Activity Map每2秒檢查一次，以查看它是否發現網頁狀態有變更，例如：
 
 * HTML 內容變成可見
 * HTML 內容變成隱藏
 * 插入新的 HTML 內容
 
-如果內容變成隱藏或顯示，應用程式會自動將受影響的連結狀態 (以及覆蓋圖) 從隱藏變更為顯示，或從顯示變更為隱藏。
+如果內容變成隱藏或顯示，應用程式會自動將受影響的連結狀態 (以及覆蓋圖) 從隱藏變更為顯示，或從顯示變更為隱藏。如果插入新內容，應用程式會擷取相關連結、擷取其分析資料，並新增這些連結的覆蓋圖。
 
-如果插入新內容，應用程式會擷取關聯的連結、提取分析資料，並新增這些連結的覆蓋圖。
+## 「頁面流量」報表以什麼度量為基礎？
 
-**問：頁面流量報表是根據哪個量度？**
+所有顯示的資料都以頁面檢視為基礎。
 
-答：所有顯示的資料都是根據頁面檢視。
+## 我是否可透過資料饋送匯出Activity Map上下文資料變數？
 
-**問：可否說明各種頁面類型的 Activity Map 行為？**
+資料饋送中無法使用Activity Map上下文資料變數。
 
-*網頁沒有 Analytics 標記*
+## 區段是否可在即時模式中運作？
 
-會在工具列底下顯示警告訊息，指出沒有標記。
+否，區段無法在即時模式中運作。 此功能等同於「報告與分析」中不支援區段的即時報告。
 
-*網頁具有不相容 Analytics 標記 (AppMeasurement v1.5 或更舊版本)*
+## Activity Map是否與虛擬報表套裝相容？
 
-系統會顯示警告訊息，告知您需要將頁面代碼升級至 v1.6 或更新版本。
-
-*網頁具有相容的 Analytics 標記 (AppMeasurement v1.6 或更新版本)，但未在管理工具中啟用 Activity Map*
-
-系統會顯示警告訊息，指出您需要請管理員\[啟用 Activity Map 報表。\](/home/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md&quot;)
-
-**問：能否透過[Analytics 資料摘要](https://docs.adobe.com/content/help/zh-Hant/analytics/export/analytics-data-feed/data-feed-overview.html)匯出 Activity Map 資料 (contextData)？**
-
-答：否。
-
-## Activity Map 中的分段
-
-**問：區段會與個別使用者區段相關聯嗎？能否在 Activity Map 中使用共用區段？**
-
-Activity Map 會繼承 Analytics  報表區段。
-
-**問：區段可否用於即時模式？**
-
-答：否，區段不適用於即時模式。此功能等同於「Reports &amp; Analytics」中的即時報表。
-
-## 虛擬報表套裝
-
-**問：Activity Map 是否與虛擬報表套裝相容？**
-
-答：是。不過，由於虛擬報表套裝本身限制，Activity Map 的即時模式與虛擬報表套裝不相容。
+是。不過，由於虛擬報表套裝本身限制，Activity Map 的即時模式與虛擬報表套裝不相容。
