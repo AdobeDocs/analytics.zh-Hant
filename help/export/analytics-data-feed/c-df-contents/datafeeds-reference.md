@@ -6,10 +6,10 @@ title: 資料欄參考
 topic: Reports and analytics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 translation-type: tm+mt
-source-git-commit: ca9b77ebf8104a1937d87aba5021e2deeccd6f8b
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '3674'
-ht-degree: 98%
+source-wordcount: '3667'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
 | `ef_id` | ef_id 用於 Adobe Advertising Cloud 整合。 | varchar(255) |
 | `evar1 - evar250` | 自訂變數 1-250。每個組織使用不同的 eVar。如需關於貴組織如何填入各 eVar 的更多資訊，請參閱貴組織專用的解決方案設計文件。 | varchar(255) |
 | `event_list` | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用 event.tsv 查閱。 | text |
-| `exclude_hit` | 此旗標表示點擊已從報表中排除。visit_num 欄不會因為排除的點擊而增加。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。排除使用者代理<br>4：根據 IP 位址排除<br>5：遺失重要點擊資訊，例如 page_url、pagename、page_event 或 event_list<br>6：JavaScript 無法正確處理點擊<br>7：帳戶特定排除，例如在 VISTA 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報表套裝上遺失時間戳記的點擊，或非時間戳記報表套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
+| `exclude_hit` | 此旗標表示點擊已從報表中排除。visit_num 欄不會因為排除的點擊而增加。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。User agent exclusion<br>4: Exclusion based on IP address<br>5: Vital hit info missing, such as `page_url`, `pagename`, `page_event`, or `event_list`<br>6: JavaScript did not correctly process hit<br>7: Account-specific exclusion, such as in a VISTA rules<br>8: Not used. 替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報表套裝上遺失時間戳記的點擊，或非時間戳記報表套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
 | `first_hit_page_url` | 訪客的第一個 URL。 | varchar(255) |
 | `first_hit_pagename` | 用於「登入頁面原始」維度的變數。訪客的原始登入頁面名稱。 | varchar(100) |
 | `first_hit_ref_domain` | 此用於「原始反向連結網域」維度的變數。以 first_hit_referrer 為基礎。訪客的第一個反向連結網域。 | varchar(100) |
