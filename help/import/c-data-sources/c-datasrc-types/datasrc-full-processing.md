@@ -4,20 +4,20 @@ subtopic: Data sources
 title: 完全處理
 topic: Developer and implementation
 uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '712'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '722'
+ht-degree: 96%
 
 ---
 
 
 # 完全處理
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。未來將淘汰完全處理資料來源。
+>Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe計畫日後淘汰完整處理資料來源。
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -114,12 +114,12 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
    <td colname="col2"> <p>pageURL </p> </td> 
-   <td colname="col3"> <p>頁面 URL (如 <code>https://www.mysite.com/index.html)</code>。 </p> </td> 
+   <td colname="col3"> <p>頁面 URL (如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>產品清單 (如 <code> "Sports;Ball;1;5.95") </code>。 </p> </td> 
+   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 每列最大可包含4096個位元組。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
