@@ -2,10 +2,10 @@
 title: 網站平均逗留時間
 description: 指定維度項目在點擊之間存在的平均時間。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 63%
+source-wordcount: '538'
+ht-degree: 60%
 
 ---
 
@@ -45,6 +45,10 @@ If you want average time on site for the dimension item `Product page A`, first 
 `Product page A` 的總逗留時間量為 `00:03:10`。這次造訪中有兩個序列：第一個是兩個連續值的序列，第二個是結帳前的序列。造訪的最後一次點擊不是序列，因此沒有結束時間戳記。
 
 `Product page A` 的網站平均逗留時間為 `00:01:35`。
+
+>[!NOTE]
+>
+>此度量顯示的值是 `"Invalid"` 否維度項目僅包含上次瀏覽的點擊。 此量度需要後續的點擊來追蹤逗留時間。
 
 ## 網站平均逗留時間 (秒數)
 
