@@ -4,10 +4,10 @@ title: Report Builder 的疑難排解和最佳作法
 topic: Report builder
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 71%
+source-wordcount: '1399'
+ht-degree: 67%
 
 ---
 
@@ -86,3 +86,4 @@ Report Builder 需要驗證身分，才能從您的報表套裝中建立資料�
    3. 刪除 `calcChain.xml`.
    4. 重新壓縮內容，並將副檔名變更回 `.xlsx`。
    5. 在Excel中開啟活頁簿，並重新整理所有Report Builder請求。
+* **與輸入篩選或輸出範圍相關聯的Excel儲存格可能已刪除**:報告建立工具使用Excel名稱將資料請求附加至儲存格。 如果從「名稱管理員」刪除Excel名稱，您會看到此錯誤。 如果刪除Excel名稱，則無法復原請求。 如果排程活頁簿，您可以從「排程管理員」下載復本，或開啟先前傳送的活頁簿復本。
