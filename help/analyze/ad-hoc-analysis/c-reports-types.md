@@ -4,7 +4,7 @@ title: 報表類型
 topic: Ad hoc analysis
 uuid: 357102eb-a172-40ec-a302-01c87abaacb5
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
 source-wordcount: '1731'
 ht-degree: 99%
@@ -125,7 +125,7 @@ c_reports_next_server_flow.xml
 
  -->
 
-例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。例如，您可了解從 `https://www.mysite.com` 前往 `https://info.mysite.com` 或 `https://sales.mysite.com` 的使用者數量。
+例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。例如，您可了解從 `https://www.example.com` 前往 `https://info.example.com` 或 `https://sales.example.com` 的使用者數量。
 
 ## 下一區域流量 {#concept_7C9C8567E7DF477DA186E47DD3FD47A4}
 
@@ -176,7 +176,7 @@ c_reports_previous_server_flow.xml
 
  -->
 
-例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。例如，您可了解從 `www.mysite.com` 前往 `info.mysite.com` 或 `sales.mysite.com` 的使用者數量。
+例如，若您在不同伺服器上擁有特定資料，或在獨立伺服器上擁有映射資料，該報告會顯示使用者在各伺服器間的點按路徑。這同樣適用於網站內的網域。例如，您可了解從 `www.example.com` 前往 `info.example.com` 或 `sales.example.com` 的使用者數量。
 
 ## 轉換漏斗報告 {#concept_35A2EB61E84441CBB670C2E02CA26F81}
 
