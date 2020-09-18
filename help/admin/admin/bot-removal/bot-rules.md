@@ -4,11 +4,11 @@ subtopic: Bot rules
 title: 機器人規則概觀
 topic: Admin tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1351'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '1356'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 標準 IAB 機器人規則
 
-勾選[!UICONTROL 「啟用 IAB 機器人篩選規則」]核取方塊，即可開啟標準 IAB 機器人規則 。這個選項會移除 IAB (國際廣告局) 國際編目程式與機器人清單中的機器人，藉此移除機器人流量。IAB 每月都會更新這份清單。
+勾選[!UICONTROL 「啟用 IAB 機器人篩選規則」]核取方塊，即可開啟標準 IAB 機器人規則 。這個選項會移除 IAB (國際廣告局) 國際編目程式與機器人清單中的機器人，藉此移除機器人流量。Adobe每月從IAB更新此清單。
 
 ![](assets/bot-iab-checkbox.png)
 
