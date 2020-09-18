@@ -2,10 +2,10 @@
 title: 實作常見問答集
 description: 實施的相關常見問題，以及可提供更多資訊的連結。
 translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 67%
+source-wordcount: '499'
+ht-degree: 48%
 
 ---
 
@@ -47,5 +47,15 @@ var s = new Object();
 >
 >* 將報表套裝變更為無效值，因為這會在Adobe伺服器上造成不必要的載入。
 >* 完全移 `s_code.js` 除檔案，除非您也移除每個頁面上檔案的所有參照。
->* 變更變 `trackingServer` 數以遠離Adobe。 AppMeasurement仍會傳送影像要求，傳回404個錯誤。
+>* 變更變 `trackingServer` 數以指向遠離Adobe。 AppMeasurement仍會傳送影像要求，傳回404個錯誤。
 
+
+## 我透過程式碼分析器執行AppMeasurement，並指出其使用方式 `Math.random()` 有潛在安全風險。 是否 `Math.random()` 與任何敏感資料搭配使用？
+
+不可以，使用的數字 `Math.random()` 不會用來遮色、傳送或接收任何敏感資料。 傳送至Adobe資料收集伺服器的資料需仰賴基礎HTTPS連線的安全性。 <!-- AN-173590 -->
+
+AppMeasurement在三 `Math.random()` 個關鍵領域使用：
+
+* **取樣**:視您的實作而定，您只能針對一小部分網站訪客收集一些資訊。 `Math.random()` 用來判斷特定訪客是否應傳送資料。 大部分實作都不使用取樣。
+* **備援訪客ID**:如果無法從Cookie擷取訪客ID，則會產生隨機訪客ID。 AppMeasurement的這部分會使用兩個呼叫 `Math.random()`。
+* **快取破壞**:隨機數字會新增至影像要求URL的結尾，以防止瀏覽器快取。
