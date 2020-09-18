@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 需求和上傳限制
 topic: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +29,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 * 每個 FTP 帳戶中所有檔案的資料總限制是 50 MB。如果大小超過 50 MB 就會暫停處理，直到大小總計低於 50 MB 才會繼續。
 
-## 日期{#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
+## 日期 {#section_2B8E69BA1E0B4DEAB4E2034C2B9E16C2}
 
 * 在單一天之中，僅限上傳 90 天不同日期的資料。如果超過此限制，上傳會失敗，並出現錯誤訊息，指出您已超過最大不同日期。
 * 系統僅可匯入包含目前或過去日期的資料。請勿在資料來源資料中使用未來的日期。
@@ -40,7 +43,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 * 上傳資料來源檔案時，資料來源會執行基本資料驗證，確定檔案不包含格式錯誤。若在檔案中發現錯誤，會傳送電子郵件通知並停止處理。
 * 資料欄位不可包含分號。資料來源會略過包含分號的記錄。
-* 來自網站記錄檔、流量的資料以及部分通用資料來源群組，在 Data Warehouse 或 Discover 中無法使用。有關詳細資訊，請參閱[資料類型與類別](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
+* 來自網站記錄檔、流量的資料以及部分通用資料來源群組，在 Data Warehouse 或 Discover 中無法使用。如需詳細資訊，請參 [閱資料類型和類別](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
 * 資料來源不支援序列化事件。
 
 ## 多位元組支援 {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -57,15 +60,15 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援。資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
+   <td colname="col2"> <p>支援. 資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
-   <td colname="col2"> <p>支援。此格式為非標準格式，但許多 Windows 應用程式以此格式儲存。 </p> <p>例如，如果您選擇「UTF-8」，WordPad 會儲存為該格式。 </p> </td> 
+   <td colname="col2"> <p>支援. 此格式為非標準格式，但許多 Windows 應用程式以此格式儲存。 </p> <p>例如，如果您選擇「UTF-8」，WordPad 會儲存為該格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1 (又叫做 Latin-1 或 Windows-1252) </td> 
-   <td colname="col2"> 支援。當您選擇「定位點分隔」匯出時，Microsoft Excel 會儲存為該格式。報表套裝必須使用 ISO-8859-1 地區設定。 </td> 
+   <td colname="col2"> 支援. 當您選擇「定位點分隔」匯出時，Microsoft Excel 會儲存為該格式。報表套裝必須使用 ISO-8859-1 地區設定。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 Little-endian, with Byte Order Mark (FF FE) </td> 
@@ -87,13 +90,13 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 在轉換過程中偵測到錯誤，此時您將得到一則訊息，如「從 UTF-8 轉換到 ISO-8859-1 時在檔案中的位置 18 發現錯誤字元」。
 * 檔案處理過程中未出現錯誤，但您會在報表中發現亂碼。
 
-## 上傳網站記錄檔{#section_DD736FC971FE45C89AB310BEDC1FE707}
+## 上傳網站記錄檔 {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * 檢視網站記錄時，最實用的報表是流量報表，如頁面檢視。
 * 顯示的頁面名稱為整個 URL，包括查詢字串。
 * 每個檔案請求以單獨的頁面檢視出現，包括樣式表和影像檔。
-* 若您附加資訊到 URL，檔案可能會被記錄為單獨的頁面。例如，行銷報表記錄會將下列 URL 記錄為兩個單獨頁面：
+* 若您附加資訊到 URL，檔案可能會被記錄為單獨的頁面。例如，Adobe會將下列URL記錄為兩個不同的頁面：
 
-[!DNL /jokes/misc/snail_joke.html?userid=12345]
+`/jokes/misc/snail_joke.html?userid=12345`
 
-[!DNL /jokes/misc/snail_joke.html?userid=98765]
+`/jokes/misc/snail_joke.html?userid=98765`
