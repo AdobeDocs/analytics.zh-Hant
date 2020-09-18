@@ -3,11 +3,11 @@ description: 「請求管理員」可讓您檢視或複製請求，以及重新�
 title: 管理 Data Warehouse 請求
 topic: Data warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '138'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '155'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 100%
 * 將報表拖放至佇列中的新位置，重新排列報表的優先順序。
 * 若要查看開始處理要求的時間，請按一下計劃的要求 ID，並檢查開啟的快顯視窗。
 
->[!NOTE]
->
->若要取消 Data Warehouse 請求，[請按照這些步驟執行](https://helpx.adobe.com/tw/analytics/kb/cancel-data-warehouse-requests.html)。
+按一下工作，以查看該工作的個別請求。
 
+* 利率有限公司：您的組織執行的資料倉庫請求過多。 請求會暫停，直到其他資料請求完成為止。
