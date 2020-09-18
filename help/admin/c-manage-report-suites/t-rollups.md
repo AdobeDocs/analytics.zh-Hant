@@ -4,7 +4,10 @@ title: 建立統計報表套裝
 topic: Admin tools
 uuid: d4bab32a-2a09-49a7-b280-29f8f33ee021
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 92%
 
 ---
 
@@ -23,3 +26,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    **[!UICONTROL 時區：]**&#x200B;資料報表位置的時區。
 1. 按一下&#x200B;**[!UICONTROL 「建立統計」]**。
+
+>[!NOTE]
+>
+>分析工作區不支援統計。
