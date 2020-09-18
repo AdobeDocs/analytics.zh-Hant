@@ -6,9 +6,9 @@ breadcrumb-title: Tools Guide
 user-guide-description: Provides access to Analysis Workspace, the premier analysis and visualization tool for Analytics.
 breadcrumb-url: /docs/analytics/analyze/home.html
 translation-type: tm+mt
-source-git-commit: c9b9fc1d39e0d042d423003113888a990099fd68
+source-git-commit: 10f93420cbc957bcce51394cd3f399bd51114af7
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1106'
 ht-degree: 98%
 
 ---
@@ -274,7 +274,8 @@ ht-degree: 98%
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
-   + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
+   + [疑難排解瀏覽器擴充功能](activity-map/troubleshooting-browser-extensions.md)
+   + [疑難排解資料收集](activity-map/troubleshoot-data-collection.md)
    + [知識資源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [「Reports and Analytics」快速入門](reports-analytics/getting-started.md)
