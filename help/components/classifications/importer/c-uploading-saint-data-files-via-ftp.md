@@ -5,10 +5,10 @@ title: FTP 匯入
 topic: Admin tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
 
@@ -95,3 +95,7 @@ t_create_an_ftp_account.xml
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 建立 FTP 帳戶後，按一下所需的 FTP 帳戶旁的適當連結可編輯或刪除該帳戶。
+
+>[!NOTE]
+>
+>如果匯入未對分類帶來任何變更，則不會傳送通知。 只有在電子郵件成功並導致變更分類時，才會傳送電子郵件。
