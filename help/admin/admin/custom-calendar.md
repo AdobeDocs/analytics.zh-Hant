@@ -4,10 +4,10 @@ title: 自訂日曆
 topic: Admin tools
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
+source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '477'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 >[!CAUTION]
 >
->若變更日曆，將連帶變更資料的處理方式 (例如每週與每月不重複訪客的定義)。當日曆在週與月的定義上有所變更時，歷史資料仍維持不變。
+>若變更日曆，將連帶變更資料的處理方式 (例如每週與每月不重複訪客的定義)。當日曆在週與月的定義上有所變更時，歷史資料仍維持不變。此設定也會根據日期範圍影響區段。
 
 您可以使用日曆來定義一週和一年的第一天，或使用其他零售日曆類型。日曆格式的作用各異，包括銷售比較和預測標準化，工資成本分析或實地盤存規範。例如，零售業使用 4-5-4 會計日曆來支援零售業的特定銷售季度。以下詳細介紹各種日曆格式。
 
