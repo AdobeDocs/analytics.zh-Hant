@@ -1,11 +1,14 @@
 ---
 description: 使用 Dynamic Tag Management 建立用於部署的 Adobe Analytics 工具。此程序說明手動 (舊版) 實施方式。
 keywords: Dynamic Tag Management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 手動實施 Adobe Analytics (舊版)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '423'
+ht-degree: 100%
 
 ---
 
