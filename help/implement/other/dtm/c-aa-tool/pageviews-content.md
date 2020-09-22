@@ -1,11 +1,14 @@
 ---
 description: 部署 Analytics 時，Dynamic Tag Management 中用於頁面檢視與內容設定的欄位說明。
 keywords: Dynamic Tag Management;page views;content;page name;page url override;channel;site section;hierarchy
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: 頁面檢視與內容
 uuid: 6d019304-5892-475b-9887-00f86983f859
-translation-type: ht
-source-git-commit: 5e47974fcf95625def21a9011ad981197ae39c99
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
