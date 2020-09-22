@@ -1,12 +1,12 @@
 ---
 description: 關於自動配置 Adobe Analytics 部署的常見問題集。自動配置方法可為您管理 AppMeasurement 程式碼。
 keywords: Dynamic Tag Management;plug-ins;staging;effect on current settings;revision history;potential pitfalls;report suite id;currency code;tracking server;ssl tracking server;custom code;library management
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: Adobe Analytics 工具常見問題集
 uuid: 8fcef893-e305-4a95-a033-9066a56b09cd
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
