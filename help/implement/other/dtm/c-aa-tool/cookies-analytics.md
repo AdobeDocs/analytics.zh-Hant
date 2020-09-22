@@ -1,11 +1,14 @@
 ---
 description: 在 Adobe Analytics 中部署 Dynamic Tag Management 時，所用「Cookie」全域設定的欄位說明。
 keywords: Dynamic Tag Management;cookies;visitor id;visitor namespace;domain periods;fp domain periods;transaction id;cookie lifetime
-solution: Experience Cloud,Analytics,Dynamic Tag Management
+solution: Experience Cloud,Analytics
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '164'
+ht-degree: 100%
 
 ---
 
@@ -26,11 +29,11 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
  <tbody> 
   <tr> 
    <td colname="col1"> 訪客 ID </td> 
-   <td colname="col2"> <p>獨特值，代表客戶在線上和離線系統的身分。 </p> </td> 
+   <td colname="col2"> <p>不重複值，代表離線和線上系統的客戶。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 訪客命名空間 </td> 
-   <td colname="col2"> <p>變數用來識別 Cookie 設定所在的網域。 </p> </td>
+   <td colname="col2"> <p>識別 Cookie 設定所在網域的變數。 </p> </td>
   </tr> 
   <tr> 
    <td colname="col1"> 網域句號 </td> 
@@ -46,7 +49,7 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
   </tr> 
   <tr> 
    <td colname="col1"> Cookie 期限 </td> 
-   <td colname="col2"> <p>決定 Cookie 的生命期。 </p> </td> 
+   <td colname="col2"> <p>決定 Cookie 的存留時間。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
