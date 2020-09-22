@@ -1,11 +1,14 @@
 ---
 description: 在 Adobe Analytics 中手動部署 Dynamic Tag Management 時插入 AppMeasurement 程式碼。
 keywords: Dynamic Tag Management;linked accounts;linking accounts;edit code;appmeasurement;appmeasurement code
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 插入核心 AppMeasurement 程式碼
 uuid: 3f83fbb1-3ed5-4e45-888a-0a183aac1a90
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 100%
 
 ---
 
