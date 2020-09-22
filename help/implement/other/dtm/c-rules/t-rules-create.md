@@ -1,11 +1,14 @@
 ---
 description: 說明如何在 Dynamic Tag Management 中建立規則的步驟。
 keywords: Dynamic Tag Management;rule;create rule;new rule;event-based rule;page load rule;direct call rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 建立新規則
 uuid: 2ec14270-b023-4328-b43e-42a250bf92d4
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -24,5 +27,6 @@ source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
    * **事件型規則：**[建立事件型規則的條件](/help/implement/other/dtm/c-rules/t-rules-event-conditions.md)
    * **頁面載入規則：**[建立頁面載入規則的條件](/help/implement/other/dtm/c-rules/t-rules-page-conditions.md)
    * **直接呼叫規則：**[建立直接呼叫規則的條件](/help/implement/other/dtm/c-rules/t-rules-direct-conditions.md)
+
    類別欄位僅供方便您自己進行組織之用，並不是必要欄位。您可以按一下類別中的 x 圖示來刪除類別。
 1. [設定條件要觸發的動作](/help/implement/other/dtm/c-rules/t-rules-actions.md)。
