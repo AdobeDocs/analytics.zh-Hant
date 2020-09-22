@@ -1,11 +1,14 @@
 ---
 description: 建立直接呼叫規則的條件。
 keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
-solution: Experience Cloud,Analytics,Target,Dynamic Tag Management
+solution: Experience Cloud,Analytics,Target
 title: 建立直接呼叫規則的條件
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: ht
-source-git-commit: dfe8409b13fcf67eae6a0c404f83c1209f89ae12
+translation-type: tm+mt
+source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+workflow-type: tm+mt
+source-wordcount: '77'
+ht-degree: 100%
 
 ---
 
