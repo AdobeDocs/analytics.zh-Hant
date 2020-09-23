@@ -2,9 +2,9 @@
 title: 常見機器人簽名
 description: 識別機器人的常用識別碼。
 translation-type: tm+mt
-source-git-commit: 8edfd278fdb4316c304301e5178dc07949127758
+source-git-commit: 2f4c54ec57eeddc03f0b0d12a0a7f391e36ab0fc
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ## 國家／地區+時區不符
 
-原始國家／地區和時區之間會有不相符之處。 例如，美國的某個位置，但有GMT時區。
+您會注意到來源國家／地區與時區之間有不符之處。 例如，地點可能是美國，但時區可能是我的GMT。
 
 ![](assets/bots-country-time-zone.png)
 
