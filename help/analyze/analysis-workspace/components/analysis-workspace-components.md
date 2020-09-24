@@ -2,9 +2,9 @@
 description: '分析工作區中的元件由維度、量度、區段和日期範圍組成，您可以將這些範圍拖放至專案上。 '
 title: 元件概述
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 459d650b30355912f4c9195c05da6728610109e8
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '737'
 ht-degree: 13%
 
 ---
@@ -36,7 +36,7 @@ To access the Components menu, click the **[!UICONTROL Components]** icon in the
 
 [**量度**](https://docs.adobe.com/content/help/en/analytics/components/metrics/overview.html) 是訪客行為的量化度量。 它們可在左側的「元件」邊欄（綠色部分）中找到，通常會套用為表格的欄。
 
-度量的範例包括[!UICONCONTROL頁面檢視、瀏 [!UICONTROL 覽]、訂購、平均 [!UICONTROL 逗留時間], 以及收入／訂單。 量度由Adobe提供，或透過您的自訂實作([!UICONTROL 成功事件])擷取，或使用計算量度產 [生器建立](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+度量的範例包括 [!UICONTROL 頁面檢視]、 [!UICONTROL 瀏覽]、 [!UICONTROL 訂購]、平均 逗留時間、訂購／訂購收入。 量度由Adobe提供，或透過您的自訂實作([!UICONTROL 成功事件])擷取，或使用計算量度產 [生器建立](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
 
 ![](assets/metrics.png)
 
