@@ -1,11 +1,11 @@
 ---
-title: Analytics 匯出說明
-description: 'null'
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
-workflow-type: ht
-source-wordcount: '133'
-ht-degree: 100%
+title: Analytics 匯出指南
+description: 本指南概述使用資料饋送和資料倉庫從Adobe Analytics取得資料的方式。
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 88%
 
 ---
 
