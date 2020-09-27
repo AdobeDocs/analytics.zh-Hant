@@ -5,7 +5,7 @@ user-guide-title: Analytics 匯入指南
 breadcrumb-title: Import Guide
 user-guide-description: Bring data into Analytics from outside sources, either in bulk or real-time.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # Analytics 匯入指南 {#import}
 
-+ [Analytics 匯入說明](home.md)
++ [Analytics 匯入指南](home.md)
 + 資料來源 {#data-sources}
    + [資料來源概觀](c-data-sources/datasrc-home.md)
    + [資料來源運作方式](c-data-sources/datasrc-how-data-sources-works.md)
