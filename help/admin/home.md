@@ -1,9 +1,9 @@
 ---
-title: Analytics 管理說明
+title: Analytics 管理指南
 description: Adobe Analytics 管理員的管理說明，包括 Admin Console 的使用者和產品管理、設定報表套裝、變數、分類和資料收集。
-translation-type: ht
-source-git-commit: fb0833530a9ec67f01226b986d124ab1e441d7e4
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 100%
 
