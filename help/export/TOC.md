@@ -5,7 +5,7 @@ user-guide-title: Analytics 匯出指南
 breadcrumb-title: Export Guide
 user-guide-description: Use Data Feeds to receive an hourly or daily export of raw data. Use Data Warehouse to retrieve a spreadsheet output of data.
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 94%
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 # Analytics 匯出指南 {#export}
 
-+ [Analytics 匯出首頁](home.md)
++ [Analytics 匯出指南](home.md)
 + Analytics 資料摘要 {#analytics-data-feed}
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
    + [建立或編輯資料摘要](analytics-data-feed/create-feed.md)
