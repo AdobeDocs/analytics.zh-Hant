@@ -2,9 +2,9 @@
 description: 面板是表格和視覺化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 0a29fa005c7b86a399ab39f0b499d22b6f86e373
+source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '761'
 ht-degree: 15%
 
 ---
@@ -74,7 +74,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/create-dropdown.png)
 
-1. 若要使用維度項目(例如 [!UICONTROL Marketing Channel]dimension中的值)建立下拉式篩選  ，請按一下左側導軌中維度旁的右箭頭。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同 **時將其拖放至面板拖放區**。 這會將元件轉換為下拉式篩選，而非單一區段。
+1. 若要使用維度項目(例如 [!UICONTROL Marketing Channel]dimension中的值)建立下拉式篩選  ，請按一下左側導軌中維度旁的向右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同 **時將其拖放至面板拖放區**。 這會將元件轉換為下拉式篩選，而非單一區段。
 1. 若要使用其他元件（例如量度、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後在按住Shift鍵的同 **時拖曳至面板下拉區**。
 1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
