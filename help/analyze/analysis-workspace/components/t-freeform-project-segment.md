@@ -2,11 +2,11 @@
 description: 'null'
 title: 區段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '367'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ![](assets/segment_icons.png)
 
-[在 YouTube 觀看「在 Analysis Workspace 中使用區段」](https://www.youtube.com/watch?v=QlUCdQDnni4)(6:46)
+[在 Analysis Workspace 中使用區段](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html) (6:46)
 
 ## 建立區段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 | 從選取項目建立區段 | 建立內嵌區段。選取行、以滑鼠右鍵按一下選取範圍，然後建立內嵌區段。此區段僅套用至開啟的專案，不會儲存為 Analytics 區段。1. 選取所需的列。2. 以滑鼠右鍵按一下選取項目。3. 按一下&#x200B;*「從選取項目建立區段」*。 |
 | 元件 > 新增區段 | 顯示區段產生器。如需分段的詳細資訊，請參閱[區段產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
 | 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[「組織與共用」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的區段可如何供收件者使用於共用分析中。 |
-| 使用區段作為維度 | 影片：[在 Analysis Workspace 中使用區段作為維度](https://www.youtube.com/watch?v=WmSdReKTWto&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=39) |
+| 使用區段作為維度 | 影片：[在 Analysis Workspace 中使用區段作為維度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/using-segments-as-dimensions-in-analysis-workspace.html) |
