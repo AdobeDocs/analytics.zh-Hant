@@ -3,10 +3,10 @@ description: 您可以複製分析工作區或以PDF和CSV格式從其下載資�
 title: 下載 PDF 或 CSV 檔案
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 8%
+source-wordcount: '987'
+ht-degree: 7%
 
 ---
 
@@ -88,5 +88,5 @@ ht-degree: 8%
 | --- | --- |
 | 我下載的PDF為何只有一頁？ | 工作區目前不會將下載的PDF分頁。 |
 | 我可以使用「以CSV格式下載項目」選項匯出超過50,000個項目嗎？ | 雖然每次下載最多可包含50,000個維度項目，但您可以變更表格的類型，以擷取較長的尾部項目，或套用篩選來下載更多特定項目。 |
-| 「複製」視 **[!UICONTROL 覺化功能有]** 哪些用途？ | **[!UICONTROL 複製視覺化]** (Copy visualization)不是匯出選項。 它可讓您將視覺化或面板從工作區的某個位置複製到另一個位置。 例如，在同一個專案中，從一個面板移至另一個面板，或從一個專案移至另一個專案。 [觀看影片](https://www.youtube.com/watch?v=lvmAdKNfWQw) |
+| 「複製」視 **[!UICONTROL 覺化功能有]** 哪些用途？ | **[!UICONTROL 複製視覺化]** (Copy visualization)不是匯出選項。 它可讓您將視覺化或面板從工作區的某個位置複製到另一個位置。 例如，在同一個專案中，從一個面板移至另一個面板，或從一個專案移至另一個專案。 [內部連結視訊](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html) |
 
