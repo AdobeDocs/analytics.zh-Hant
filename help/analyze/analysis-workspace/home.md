@@ -4,10 +4,10 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: a4e50c13ea8f567a38b0912ce7dc06d457c684a1
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 如果您只有幾分鐘的時間，請觀看此簡短的總覽，以瞭解可能性。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266?quality=12)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-overview.html)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -64,5 +64,5 @@ ht-degree: 14%
 
 ## 其他資源 {#resources}
 
-* Adobe Analytics YouTube頻道提供完整的視訊訓練指 [南](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw/playlists?view=50&amp;sort=dd&amp;shelf_id=7)。
+* Adobe提供數百個 [Analytics教學影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html)。
 * 參閱 [Analysis Workspace 新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)，瞭解新功能的相關更新。
