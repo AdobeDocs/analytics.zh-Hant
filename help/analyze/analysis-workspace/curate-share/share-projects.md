@@ -1,17 +1,17 @@
 ---
 description: 工作區中的專案共用和專案角色
 keywords: Analysis Workspace sharing
-title: 共用工作區專案
+title: 共用專案
 translation-type: tm+mt
-source-git-commit: 2189354bc296fa8b39dc646b2ad3aec28ded92cd
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1100'
 ht-degree: 94%
 
 ---
 
 
-# 共用工作區專案
+# 共用專案
 
 共用可讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。收件者開啟專案時，將會顯示您已套用的任何[組織](curate.md)。
 
