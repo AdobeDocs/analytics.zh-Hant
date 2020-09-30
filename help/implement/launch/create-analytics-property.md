@@ -2,10 +2,10 @@
 title: 在 Launch 中建立 Analytics 屬性
 description: 使用 Adobe Experience Platform Launch 建立空間來自訂資料收集方式。
 translation-type: tm+mt
-source-git-commit: dd506bf171c480c880863c03eee55be8fd9e15cb
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 84%
+source-wordcount: '543'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 * [Adobe Analytics 擴充功能文件](https://docs.adobelaunch.com/extension-reference/web/adobe-analytics-extension)：Adobe Experience Platform Launch 中 Adobe Analytics 擴充功能的完整專屬文件。
 * [Launch 快速入門](https://docs.adobelaunch.com/getting-started)：Launch 的完整文件，包括更深入的快速入門手冊
-* [Adobe Experience Platform Launch YouTube 頻道](https://www.youtube.com/channel/UCa84ntcvYhPArOBsZIRE2Jw/videos?view=0&amp;shelf_id=0&amp;sort=dd)：透過影片瞭解如何使用 Launch
+* [Adobe Experience Platform Launch 頻道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：透過影片瞭解如何使用 Launch
 
 ## 後續步驟
 
