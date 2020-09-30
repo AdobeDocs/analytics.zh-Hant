@@ -4,10 +4,10 @@ title: 關於區段與容器
 topic: Segments
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '3709'
-ht-degree: 100%
+source-wordcount: '3697'
+ht-degree: 99%
 
 ---
 
@@ -60,11 +60,7 @@ ht-degree: 100%
 
 ## 作法影片 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-此 YouTube TV 影片提供區段容器的定義以及如何使用的簡短概述。
-
-| 影片名稱 | 影片連結 |
-|---|---|
-| 區段容器 | [Adobe Analytics 中的區段容器](https://www.youtube.com/watch?v=A513j-ej0oc&amp;index=2&amp;list=PL2tCx83mn7GtHqZicFTa--aE6d02BvvTd) |
+此影片提供區段容器的簡短概述，以及如何使用它們： [Adobe Analytics中的區段容器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 關於容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
