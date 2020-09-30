@@ -3,15 +3,15 @@ description: 您可以複製分析工作區或以PDF和CSV格式從其下載資�
 title: 下載 PDF 或 CSV 檔案
 uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
 translation-type: tm+mt
-source-git-commit: c09923a3f946e43f8287d477eb6df928f001b32e
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '983'
 ht-degree: 8%
 
 ---
 
 
-# 下載 PDF 或 CSV 檔案 從工作區
+# 下載 PDF 或 CSV 檔案
 
 您可從分析工作區匯出資料有幾種不同的方式，這取決於您要在工具外部分析的資料集，以及哪些人需要接收資訊。 匯出的資料可以是複製資料、CSV或PDF檔案的形式。 如果您想要將視覺化內容包含在檔案中，通常偏好使用PDF，而如果您只想要純文字資料，則偏好使用CSV（或複製的資料）。
 
