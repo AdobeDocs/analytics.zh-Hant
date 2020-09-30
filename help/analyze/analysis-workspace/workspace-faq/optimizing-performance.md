@@ -3,10 +3,10 @@ description: 'null'
 title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 3cf68f3ba50c7a27a86d37591477812537b8ae1a
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 85%
+source-wordcount: '1313'
+ht-degree: 84%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 85%
 
 **日期範圍的最佳實務**
 
-可能情況下，提取資料時請不要超出所需。將面板日曆縮小為分析的相關日期，或在自由表格中使用日期範圍元件（紫色元件）。 表格中使用的日期範圍會覆寫面板日期範圍。 例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。 如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://www.youtube.com/watch?v=MIkT6FZ5gKk)。
+可能情況下，提取資料時請不要超出所需。將面板日曆縮小為分析的相關日期，或在自由表格中使用日期範圍元件（紫色元件）。 表格中使用的日期範圍會覆寫面板日期範圍。 例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。 如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。
 
 將專案中使用的年與年比較次數減到最低。 當計算年度比較時，會在感興趣的月份中查看整個13個月的資料。 這與將面板日期範圍變更為過去13個月的影響相同。
 
@@ -79,7 +79,7 @@ ht-degree: 85%
 
 請勿在一個專案中加入所有所需項目，盡可能針對特定用途或利害關係人群組建立個別專案。使用標記將專案依主題組織整理，並與股東群組共用相關專案。
 
-如果需要更多專案組織方式，記住[直接連結](https://www.youtube.com/watch?v=6IOEewflG2U)到專案也是一個做法。建立內部的專案索引，讓股東更容易找到他們要找的。
+如果需要更多專案組織方式，記住[直接連結](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/curate-and-share-projects/direct-link-to-a-project.html)到專案也是一個做法。建立內部的專案索引，讓股東更容易找到他們要找的。
 
 如果一個專案需要許多面板，請先收合面板，然後再儲存和共用。 載入專案時，Analysis Workspace 只會載入展開面板的內容。直到使用者展開，否則不會載入摺疊的面板。這種做法有兩個優點：
 
@@ -88,7 +88,7 @@ ht-degree: 85%
 
 ## 報表套裝的大小
 
-報表套裝的大小可能看來是個重大因素，但實際上由於 Adobe 的資料處理方式，它在專案效能上只扮演一個小角色. 本規則可能有例外； 請洽詢您的實作團隊或Adobe專家，以判斷是否可進行實作改進，以改善Adobe Analytics的整體體驗。
+報表套裝的大小可能看來是個重大因素，但實際上由於 Adobe 的資料處理方式，它在專案效能上只扮演一個小角色. 本規則可能有例外；請洽詢您的實作團隊或Adobe專家，以判斷是否可進行實作改進，以改善Adobe Analytics的整體體驗。
 
 ## 同時存取 Analysis Workspace 的人數
 
