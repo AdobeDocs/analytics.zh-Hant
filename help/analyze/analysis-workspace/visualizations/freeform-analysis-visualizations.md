@@ -3,10 +3,10 @@ description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定�
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 98%
+source-wordcount: '1058'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。每個視覺效果都有各自的設定可供您管理。按一下視覺效果名稱，取得更詳細的資訊。
 
-YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtube.com/watch?v=b1zLEywRa6w&amp;index=39&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS) (2:57)
+Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/visualization-types.html) (2:57)
 
 | 視覺效果名稱 | 說明 |
 |---|---|
@@ -109,4 +109,4 @@ YouTube 影片：[Analysis Workspace 中的視覺效果類型](https://www.youtu
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://www.youtube.com/watch?v=mry3vDrTml0&amp;index=61&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+以下是此主題的[影片連結](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
