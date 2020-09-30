@@ -1,10 +1,10 @@
 ---
 title: Adobe Analytics 控制面板 - 概觀
 description: Adobe Analytics 控制面板的產品文件與自助服務資源
-translation-type: ht
-source-git-commit: a905f74dc3d809bbe1542d7547c75ee64c710fb9
-workflow-type: ht
-source-wordcount: '224'
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 * [組織者指南](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/curator.translate.html)：本指南旨在協助資料組織者為[!UICONTROL 控制面板]上的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定計分卡的其他角色。
 
-   若要觀看本指南的影片概觀，請參閱 [Adobe Analytics 控制面板計分卡產生器](https://www.youtube.com/watch?v=tnnl6hrcP94&amp;feature=youtu.be)。
+   若要觀看本指南的影片概觀，請參閱 [Adobe Analytics 控制面板計分卡產生器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html)。
 
 
 * [執行使用者快速入門指南](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/executive.html)：本指南旨在協助執行使用者閱讀及理解[!UICONTROL 控制面板]上的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
-   若要觀看重點說明這項資訊的影片，請參閱 [Adobe Analytics 控制面板程式內動作體驗](https://www.youtube.com/watch?v=QXqQ_PkArbA&amp;feature=youtu.be)。
+   若要觀看重點說明這項資訊的影片，請參閱 [Adobe Analytics 控制面板程式內動作體驗](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-in-app-experience.html)。
