@@ -2,8 +2,11 @@
 description: 'null'
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '515'
+ht-degree: 97%
 
 ---
 
@@ -30,17 +33,17 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[在 YouTube 觀看「流失率視覺效果」](https://www.youtube.com/watch?v=VcrfHSyIoj8&amp;index=52&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:15)
+[流失視覺化影片教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## 區段作為流量和流失的基礎 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-套用至 Workspace 面板的區段，與在 Reports &amp; Analytics 或 Ad Hoc Analysis 中套用至流失和流量報表的區段，二者的執行方式略有不同。大部分時候，它們提供的結果完全相同。主要差異在於 Reports &amp; Analytics 和 Ad Hoc Analysis 可在序列的每一個步驟套用區段。如此一來，可能造成結果稍微不同。
+套用至工作區面板的區段，與在 Reports &amp; Analytics 或 Ad Hoc Analysis 中套用至流失和流量報表的區段，二者的執行方式略有不同。大部分時候，它們提供的結果完全相同。主要差異在於 Reports &amp; Analytics 和 Ad Hoc Analysis 可在序列的每一個步驟套用區段。如此一來，可能造成結果稍微不同。
 
 以兩步驟的流失為例：
 
 ![](assets/fallout_segments1.png)
 
-如果您接著在 Workspace 面板層級套用區段，區段會像這樣與流失結合：
+如果您接著在工作區面板層級套用區段，區段會像這樣與流失結合:
 
 ![](assets/fallout_seg.png)
 
