@@ -2,10 +2,10 @@
 description: 面板是表格和視覺化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 00c8e309a597a733e25c8a43dbffbad517f9a2da
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 15%
+source-wordcount: '803'
+ht-degree: 14%
 
 ---
 
@@ -33,6 +33,8 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 ## 面板報表套裝 {#report-suite}
 
 面板中的表格和視覺化會從面板右 [!UICONTROL 上方] ，選取的報表套裝衍生資料。 報表套裝也會決定左側導軌中可用的元件。 在專案中，您可以根據分析使 [用案例使用一](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) 或多個報表套裝。
+
+報表套裝清單會依相關性排序，Adobe會根據目前使用者最近和經常使用套裝的情形，以及組織內使用套裝的情形，來定義相關性。
 
 ![](assets/panel-report-suite.png)
 
@@ -72,10 +74,11 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 **建立和使用下拉式篩選：**
 
-![](assets/create-dropdown.png)
-
 1. 若要使用維度項目(例如 [!UICONTROL Marketing Channel]dimension中的值)建立下拉式篩選  ，請按一下左側導軌中維度旁的向右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同 **時將其拖放至面板拖放區**。 這會將元件轉換為下拉式篩選，而非單一區段。
 1. 若要使用其他元件（例如量度、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後在按住Shift鍵的同 **時拖曳至面板下拉區**。
 1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
+![](assets/create-dropdown.png)
+
 [觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) ，進一步瞭解如何將下拉式篩選器新增至專案。
+
