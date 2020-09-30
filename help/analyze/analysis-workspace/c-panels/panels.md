@@ -2,9 +2,9 @@
 description: 面板是表格和視覺化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: f772494e6e3f8b5ab186c5b0c891f4f5043470f9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '766'
 ht-degree: 15%
 
 ---
@@ -78,4 +78,4 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 1. 若要使用其他元件（例如量度、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後在按住Shift鍵的同 **時拖曳至面板下拉區**。
 1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
 
-[觀看影片](https://www.youtube.com/watch?v=vpJywtsFVPI) ，進一步瞭解如何將下拉式篩選器新增至專案。
+[觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) ，進一步瞭解如何將下拉式篩選器新增至專案。
