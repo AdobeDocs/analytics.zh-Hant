@@ -5,10 +5,10 @@ title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 68246d319bdfa27a0fabda493b3550085d2e5528
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 88%
+source-wordcount: '758'
+ht-degree: 86%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 88%
 | [建立新專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 按一下此連結即可從頭開始建立新的專案。 |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
 | 設定為登陸頁面 | 將此頁面轉換為您的工作區登陸頁面。 |
-| 觀看教學課程 | 將您導向 [Analysis Workspace YouTube 影片](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。 |
+| 觀看教學課程 | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
 | 名稱 | 「工作區」專案名稱。 |
 | 擁有者 | 建立此專案的人 (您或與您共用專案的人)。 |
 | 類型 | 指出這是工作區專案還是 [Mobile Scorecard](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html)。 |
