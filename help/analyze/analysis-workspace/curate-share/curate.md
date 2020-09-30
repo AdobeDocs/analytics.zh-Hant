@@ -1,17 +1,17 @@
 ---
 description: 組織可讓您在共用專案前先限制元件。
 keywords: Analysis Workspace curation
-title: 組織工作區專案
+title: 組織專案
 translation-type: tm+mt
-source-git-commit: 63a827b4cfa858e503431579755f1b4dba4b5bdf
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 99%
 
 ---
 
 
-# 組織工作區專案
+# 組織專案
 
 組織可讓您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
 
