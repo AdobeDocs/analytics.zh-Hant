@@ -1,11 +1,11 @@
 ---
 title: 分析行銷管道
 description: 了解如何在工作區中使用行銷管道維度。
-translation-type: ht
-source-git-commit: 586dabe8454bb2e6fbd4f3fbdb18d13a18b0417d
-workflow-type: ht
-source-wordcount: '407'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 94%
 
 ---
 
@@ -52,12 +52,10 @@ ht-degree: 100%
 
 請留意在您套用不同歸因模型時，相同的量度 (「線上訂單」) 會如何產生不同結果。
 
-以下影片將詳細說明歸因 IQ：[歸因 IQ 播放清單](https://www.youtube.com/playlist?list=PL2tCx83mn7GuDzYEZ8jQlaScruZr3tBTR)。
-
 ## 跨標籤行銷分析
 
 使用舊版「首次接觸管道」和「最後接觸管道」，即可檢視關於管道互動的實用資訊：
 
 ![](assets/mc-viz6.png)
 
-透過[此影片](https://www.youtube.com/watch?v=M3EOdONa-3E)進一步了解跨標籤行銷分析。
+在此影片中進一步瞭解跨標籤行銷分析： [使用跨標籤分析來探索分析工作區中的基本行銷歸因](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
