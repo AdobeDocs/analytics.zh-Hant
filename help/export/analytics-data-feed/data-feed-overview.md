@@ -4,7 +4,10 @@ keywords: clickstream;data feed;datafeed;Data Feed
 title: Analytics 資料摘要概觀
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 translation-type: tm+mt
-source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
+source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 98%
 
 ---
 
@@ -26,26 +29,26 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
 3. 從頂端導覽列中前導覽至管理員 > 資料摘要。
-4. 按一下 [!UICONTROL Add]. 新頁面會出現，其中包含三個主要類別： [!UICONTROL Feed information]、 [!UICONTROL Destination]和 [!UICONTROL Data Column Definitions]。
-5. 填寫欄 [!UICONTROL Feed Information] 位。
+4. 按一下[!UICONTROL 「新增」]。隨後顯示的新頁面中包含三個主要類別: [!UICONTROL 摘要資訊]、[!UICONTROL 目的地]和[!UICONTROL 資料欄定義]。
+5. 填寫[!UICONTROL 摘要資訊]欄位 。
    * 名稱: 任意所需名稱，例如「測試資料摘要」。
    * 報表套裝: 選取所需報表套裝。
    * 完成時收到通知的電子郵件: 請輸入您的電子郵件。
    * 摘要間隔: 選擇所需間隔 (每小時或每日)。
-   * Delay processing: Can be left as [!UICONTROL No Delay].
+   * 延遲處理: 可保留為[!UICONTROL 無延遲]。
    * 開始和結束日期: 將數天前的日期選為開始日期，然後將今天設為結束日期。
-6. 填寫欄 [!UICONTROL Destination] 位。
+6. 填寫[!UICONTROL 目的地]欄位。
    * 類型: FTP
    * 主機: 輸入所需 FTP 目的地 URL。例如, `ftp://ftp.omniture.com`。
    * 路徑: 可留空
    * 使用者名稱: 輸入要登入 FTP 網站的使用者名稱。
    * 密碼和確認密碼: 輸入要登入 FTP 網站的密碼。
-7. 填寫 [!UICONTROL Data Column Definitions]。
+7. 填寫[!UICONTROL 資料欄定義]。
    * 在下拉式清單中選取最新的「所有 Adobe 欄」範本。
    * 壓縮格式: Gzip
    * 封裝類型: 多個檔案
    * 資訊清單: 無檔案
-8. Click [!UICONTROL Save] in the top right.
+8. 按一下右上方的[!UICONTROL 儲存]。
 9. 儲存後，歷史資料的處理程序就會開始。資料完成一天量的處理作業時，檔案會放在 FTP 網站上。
 10. 請使用 Windows Explorer 或專用的 FTP 用戶端登入 FTP 網站。
 11. 將壓縮的資料摘要檔案下載到您的本機電腦。
@@ -65,4 +68,4 @@ source-git-commit: dabaf6247695bc4f3d9bfe668f3ccfca12a52269
 
 資料摘要介面影片導覽:
 
->[!VIDEO](https://www.youtube.com/watch?v=m_fb--gNtR4)
+>[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
