@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: Tools Guide
 user-guide-description: Provides how-to instructions for Analysis Workspace, the premier analysis and visualization tool for Analytics, as well as tools like Report Builder and Activity Map.
 translation-type: tm+mt
-source-git-commit: a290e5790591d73c397b2eb99f0c070e0ea71b10
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1094'
 ht-degree: 97%
 
 ---
@@ -92,13 +92,13 @@ ht-degree: 97%
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
    + 組織或共用專案 {#curate-share}
-      + [組織工作區專案](analysis-workspace/curate-share/curate.md)
-      + [共用工作區專案](analysis-workspace/curate-share/share-projects.md)
+      + [共用功能表](analysis-workspace/curate-share/send-schedule-files.md)
+      + [組織專案](analysis-workspace/curate-share/curate.md)
+      + [共用專案](analysis-workspace/curate-share/share-projects.md)
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
-      + [僅限檢視的工作區專案](analysis-workspace/curate-share/view-only-projects.md)
+      + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
-      + [共用和排程專案檔案](analysis-workspace/curate-share/send-schedule-files.md)
-      + [傳送檔案 - 排程專案進行傳送](analysis-workspace/curate-share/t-schedule-report.md)
+      + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
