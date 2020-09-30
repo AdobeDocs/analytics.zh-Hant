@@ -3,9 +3,9 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 8529a25cc98293421775207f8ccce77c7388ce6d
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '7821'
+source-wordcount: '7790'
 ht-degree: 98%
 
 ---
@@ -989,9 +989,7 @@ ht-degree: 98%
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->左側導軌中新增了以下動作的「動作」按鈕：標記、收藏、核准、<b>共用 (新功能！)</b>、<b>刪除 (此為新增按鈕！)</b>。 </li> 
      <li id="li_946EC05568D4447193E9307546DF6F9B">在搜尋列中新增一個篩選器，可以對標籤、我的最愛、已核准的項目和元件進行篩選。 </li> 
-     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">新增預覽圖示至手動列 (而不是列出維度項目的動態列)，可讓您預覽區段、量度和日期範圍。 </li> 
-     <li id="li_81D5241EA3FD49CEA0E9F412837D87A8"> 
-      <!--AN-128702: -->將 Analysis Workspace 教學課程的 YouTube 連結更新為：<a href="https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS"  >https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS</a>。 </li> 
+     <li id="li_4EA118ACCD3B4F88B0ECF72717F631FA">新增預覽圖示至手動列 (而不是列出維度項目的動態列)，可讓您預覽區段、量度和日期範圍。 </li>  
      <li id="li_D81DB98C49664D2884CCCC1DB0058CD8"> 
       <!--AN-124004:-->為了視覺效果，我們在操作功能表中新增了一個名為<span class="uicontrol">「重新開始」</span>的滑鼠右鍵選項 (將用於流量、Venn 圖表、長條圖)，該選項會刪除目前視覺效果的配置，並開啟一個新面板，讓您可以在其中重新進行配置。 </li> 
      <li id="li_84632BFCE1794B49A31FF45067FA04B7">一個名為「可見圖例」的新增視覺效果設定，可用於隱藏「摘要編號/摘要變更」視覺效果的篩選器的詳細資訊文字。 </li> 
