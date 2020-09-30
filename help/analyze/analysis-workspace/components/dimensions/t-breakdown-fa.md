@@ -5,10 +5,10 @@ title: 劃分維度
 topic: Reports and analytics
 uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 93%
+source-wordcount: '226'
+ht-degree: 76%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 93%
    >
    >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
-[在 YouTube 觀看「Analysis Workspace 的維度」](https://www.youtube.com/watch?v=P9W0hhIHhCs&amp;index=12&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)(4:54)
+[在分析工作區中新增維度和量度至專案](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[在 YouTube 觀看「維度劃分」](https://www.youtube.com/watch?v=3mQ2HN7-lIc&amp;list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS&amp;index=13)(2:02)
+[在自由表格中使用維度](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
 
 ## 將歸因模型套用到資料劃分
 
