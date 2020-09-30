@@ -2,10 +2,10 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 100%
+source-wordcount: '446'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 | 全新和精選項目 | 重要 Analytics 資源 |
 | --- | --- |
-| <ul><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[工作區效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱：[2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics YouTube 頻道](https://www.youtube.com/channel/UC8I6bqCk7gO6YdoMz6W5fvw)</li><li>[Analytics 教學課程與影片](https://helpx.adobe.com/tw/analytics/kt/index/analytics-videos.html)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
+| <ul><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[工作區效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱：[2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
