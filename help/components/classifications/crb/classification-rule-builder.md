@@ -5,10 +5,10 @@ title: 分類規則產生器工作流程
 topic: Admin tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -52,4 +52,4 @@ ht-degree: 100%
 
 **部落格**：如需此功能的其他相關資訊，請參閱 Digital Marketing Blog 上的[規則型分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
-**影片**：請前往[ YouTube](https://www.youtube.com/watch?v=6laI5SBXY-I) 觀看[!UICONTROL 分類概觀]影片。
+**影片**:檢視「分 [類概述](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 」影片。
