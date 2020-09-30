@@ -2,10 +2,10 @@
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
 translation-type: tm+mt
-source-git-commit: ed7b4de020c2258a4ba95370293ed1cf1dd9a1ed
+source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
 workflow-type: tm+mt
-source-wordcount: '1863'
-ht-degree: 98%
+source-wordcount: '1864'
+ht-degree: 97%
 
 ---
 
@@ -113,5 +113,5 @@ ht-degree: 98%
 | DTM 和 Adobe Launch | 請參閱 Analytics 工具。 |  |
 | VISTA | 可讓您套用伺服器端邏輯，以便在收集資料時變更或分段資料。 | [VISTA 規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 處理規則 | 能夠在 Analytics UI 中設定、修改與複製變數，以便變更所收集的資料。 | [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| 除錯工具選項 | 具備數個除錯程式和封包 Sniffer 可協助驗證您的實作情形，其中包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=tw) |
+| 除錯工具選項 | 有數個除錯程式和封包Sniffer可協助驗證您的實作，包括Adobe Experience Cloud除錯程式。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=tw) |
 | 資料插入 API | 資料插入 API 提供的機制，可用於伺服器端資料收集與將資料提交至 Experience Cloud 伺服器。伺服器端資料收集僅會根據網站瀏覽器的要求和網站伺服器的回應收集資料，不會使用每個網頁上的 JavaScript 信標來將訪客資料傳輸至 Experience Cloud 伺服器。 | [透過 POST 實作 Adobe Analytics 資料插入 API 的步驟](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
