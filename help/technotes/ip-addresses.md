@@ -2,7 +2,7 @@
 title: Adobe Analytics使用的IP和網域
 description: 如果貴組織的防火牆封鎖源自Adobe的IP位址，請使用此清單來更新防火牆設定。
 translation-type: tm+mt
-source-git-commit: 616a6e50e08be831b05f4abdbb3d47f659046d6f
+source-git-commit: 436d0c2706f47a79cc70e4dcdbda6bd2c9a4d98c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 15%
@@ -24,7 +24,7 @@ Adobe Analytics使用下列主機來改善效能和產品體驗。 Adobe建議�
 
 | 技術 | 網域 |
 | --- | --- |
-| Adobe Analytics網域 | `adobe.com` |
+| Adobe Analytics網域 | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Analytics舊網域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
