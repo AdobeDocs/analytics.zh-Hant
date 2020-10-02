@@ -5,10 +5,10 @@ title: 處理規則概觀
 topic: Admin tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
+source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 87%
+source-wordcount: '362'
+ht-degree: 80%
 
 ---
 
@@ -24,20 +24,11 @@ ht-degree: 87%
 * 清除拼寫錯誤的網站區段
 * 從查詢字串提取內部搜尋詞或促銷活動 ID 以填入 eVar
 
->[!VIDEO](https://tv.adobe.com/embed/1181/16506/)
+>[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-*觀看處理規則概述和 Adobe Summit 訓練，瞭解您為何應該使用處理規則。*
+## 處理規則權限 {#section_8A4846688050453784DAE4D89355169A}
 
-## 取得授權以使用處理規則 {#section_8A4846688050453784DAE4D89355169A}
-
-2017 年 4 月 20 日前，所有使用者 (包括管理員) 都必須通過一項檢驗，並且必須取得授權，才可使用 Adobe 客戶服務所提供的處理規則。
-
-即日起，管理員&#x200B;**預設**&#x200B;擁有處理規則的使用權利。不再需要進行檢驗。管理員也可透過「管理工具」介面將這些權限授予非管理員。方法如下:
-
-1. 若您還未這麼做，[請建立有權使用處理規則且僅包含非管理員的群組](/help/admin/user-management2/c-user-groups/groups.md)。
-1. [將非管理員新增至該群組](/help/admin/user-management2/c-user-management/t-add-user-to-group.md)。
-1. 接著，前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL `group name`]** > **[!UICONTROL 編輯]** > **[!UICONTROL 報表存取]** > **[!UICONTROL 報表套裝工具]** > **[!UICONTROL 自訂]** > **[!UICONTROL 報表套裝管理」]**。
-1. 勾選[!UICONTROL 「處理規則」]旁的方塊，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
+Administrators have rights to use processing rules **by default**. 管理員也可透過「管理工具」介面將這些權限授予非管理員。如需指示，請參閱 []
 
 ![](assets/processing-rules.png)
 
