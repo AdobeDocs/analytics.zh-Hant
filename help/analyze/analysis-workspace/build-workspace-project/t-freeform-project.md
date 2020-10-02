@@ -4,11 +4,11 @@ keywords: Analysis Workspace
 title: 建立工作區專案
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: ht
-source-git-commit: ad9a7729924636055e456d0fd7ab928be227034d
-workflow-type: ht
-source-wordcount: '765'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
-本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。如需具體用案例，請參閱 [Analysis Workspace 的使用案例](/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md)。
+本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。
 
 ## 建立 專案
 
@@ -117,7 +117,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 區段 (藍色) </td> 
-   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳細資訊，請參閱 <a href="/help/analyze/analysis-workspace/freeform-analysis-examples-use-cases.md"  >Analysis Workspace 的使用案例</a>。 </p> </td> 
+   <td colname="col2"> <p>僅可在面板層級拖曳，但您可在資料表格中建立內嵌區段。 </p> <p><img  src="assets/segments.png" id="image_5674B18BC3AB47A2B1FEE584E0FBF47C" /> </p> <p>如需詳 <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 細資 </a> 訊，請參閱區段。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 日期範圍和粒度 (紫色) </td> 
