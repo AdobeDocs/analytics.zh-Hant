@@ -2,22 +2,24 @@
 title: 網域
 description: 訪客用來存取網際網路的組織或ISP。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: c2d371cee2821360ab87240b1a81695798af4f9f
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 1%
+source-wordcount: '124'
+ht-degree: 7%
 
 ---
 
 
 # 網域
 
-「網域」維度會報告訪客使用哪些組織或網際網路服務供應商來存取網際網路。
+「網域」維度會報告訪客用來存取網際網路的存取點。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度使用影像要求傳至Adobe資料收集伺服器所採用路徑的相關資訊。 它不需要任何設定，也不需要填入變數。 它可在所有AppMeasurement實施中立即使用。
+Adobe與 [Digital Element合作](https://www.digitalelement.com/) ，以決定存取點網域。 有幾種方法（包括反向DNS查閱）用於確定接入點域。 它不需要任何設定，也不需要填入變數。 它可在所有AppMeasurement實施中立即使用。
 
 ## 維度項目
 
-範例維度項 `comcast.net`目包括 `rr.com`、 `sbcglobal.net`、和 `amazonaws.com`。 請注意，這些是ISP用於引導流量的網域，不一定是代表ISP組織的網域。
+範例維度項 `comcast.net`目包括 `rr.com`、 `sbcglobal.net`、和 `amazonaws.com`。 請注意，這些網域是接入點，不一定是代表ISP或組織的網域。
+
+維值表 `None` 示接入點IP地址的所有者未提供域。
