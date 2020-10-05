@@ -1,11 +1,11 @@
 ---
 title: 不重複訪客
-description: 不重複個人 (或裝置) 的數量。
+description: 獨特訪客ID的數目。
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 87%
+source-wordcount: '564'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 「獨特訪客」量度顯示維度項目的訪客ID數目。 這是決定流量時最常用的度量之一，因為它提供維度項目人氣的高階概述。 例如，某位訪客可能在一個月內每天造訪您的網站，但這仍會計為單一不重複訪客。
 
-如果您使用[跨裝置分析](../cda/overview.md)，此量度將會重新命名為「不重複裝置」。
+如果您使用 [跨裝置分析](../cda/overview.md)，此量度會取代為 [獨特裝置](unique-devices.md) 。
 
 ## 每日、每週、每月、每季和每年的不重複訪客
 
