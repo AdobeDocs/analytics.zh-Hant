@@ -2,10 +2,10 @@
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用CDA。
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 91%
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
-> 執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需先決條件 [和限制](overview.md) ，請參閱總覽頁[面](field-based-stitching.md) ，以及所需的拼接方法(分 [別是以欄位為基礎的拼接或](device-graph.md)裝置圖形)。
+>執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需先決條件 [和限制](overview.md) ，請參閱總覽頁[面](field-based-stitching.md) ，以及所需的拼接方法(分 [別是以欄位為基礎的拼接或](device-graph.md)裝置圖形)。
 
 ## 選擇要啟用 CDA 的跨裝置報表套裝
 
@@ -43,7 +43,7 @@ ht-degree: 91%
 為虛擬報表套裝啟用跨裝置分析時，請留意下列變更：
 
 * 虛擬報表套裝名稱旁會出現新的跨裝置圖示。此圖示是跨裝置虛擬報表套裝的專屬圖示。
-* 有一個標示為「識別的狀態」的新維度可供使用。此維度會決定裝置圖形是否將即時得知該點擊上的 Experience Cloud ID。
-* 新量度「人員」和「不重複裝置」可供使用。
-* 「不重複訪客」量度無法使用，因為它已被「人物」和「不重複裝置」取代。
+* A new dimension labeled [Identified state](../dimensions/identified-state.md) is available. 此維度會決定裝置圖形是否將即時得知該點擊上的 Experience Cloud ID。
+* New metrics labeled [People](../metrics/people.md) and [Unique Devices](../metrics/unique-devices.md) are available.
+* The metric [Unique Visitors](../metrics/unique-visitors.md) is not available, as it is replaced with &#39;People&#39; and &#39;Unique Devices&#39;.
 * 建立區段時，「訪客」區段容器會被「人員」容器取代。
