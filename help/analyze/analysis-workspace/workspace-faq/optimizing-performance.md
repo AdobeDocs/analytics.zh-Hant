@@ -3,10 +3,10 @@ description: 'null'
 title: Analysis Workspace 效能最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 8ac408613d9aae1745cc6b876ef2a4c252f0665d
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 84%
+source-wordcount: '1381'
+ht-degree: 80%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 84%
 * 要求的資料範圍，如前述
 * 套用的區段數；例如，用來作為自由表格列的區段
 * 使用複雜區段
-* [自由表格的靜態項目列或欄](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.html)
+* [自由表格的靜態項目列或欄](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
 * 自由表格列所套用的篩選器
 * 包含的量度數目，尤其是使用了區段的計算量度
 
@@ -99,10 +99,10 @@ ht-degree: 84%
 在與 Analysis Workspace 互動時，您可能會遇到錯誤。錯誤可能的發生原因有很多，以下列出最常見的幾種。
 
 | 錯誤訊息 | 為何發生這項錯誤？ |
-|---|---|
-| `The report suite is experiencing unusually heavy reporting. Please try again later.` | 您的組織針對特定報表套裝同時執行過多請求。造成此錯誤的因素包括 API 請求、已排程專案、已排程報表、已排程警報，以及同時提出報表請求的使用者數量。建議您將要針對報表套裝提出的請求和排程平均分配在一整天時間內。 |
-| `A system error has occurred. Please log a Customer Care request under Help > Submit Support Ticket and include your error code.` | Adobe 遇到需要解決的問題。建議您透過客戶服務請求提交錯誤代碼。 |
-| `The request is too complex.` | 您的報表請求規模過大，無法執行。造成此錯誤的因素包括請求的規模所導致的逾時、區段或搜尋篩選器中有過多相符項目、加入的量度過多、維度和量度組合不相容等。建議您簡化請求。 |
-| `One of the segments or the search in this visualization contains a text search that returned too many results.` | 建議您縮小搜尋文字的條件，並再次嘗試請求。 |
-| `This dimension does not currently support non-default attribution models.` | 建議您使用與[歸因 IQ](../attribution/overview.md) 相容的維度來取代表格中的維度。 |
-| `Your request failed as a result of too many columns or pre-configured rows.` | 建議您移除某些欄或列，或將它們分割為個別的視覺效果。 |
+| --- | --- |
+| [!UICONTROL 報表套裝正處理異常大量報告。請稍後再試。] | 您的組織針對特定報表套裝同時執行過多請求。造成此錯誤的因素包括 API 請求、已排程專案、已排程報表、已排程警報，以及同時提出報表請求的使用者數量。建議您將要針對報表套裝提出的請求和排程平均分配在一整天時間內。 |
+| [!UICONTROL 發生系統錯誤。 請在「說明>提交支援票證」下記錄客戶服務要求，並包含您的錯誤碼。] | Adobe 遇到需要解決的問題。建議您透過客戶服務請求提交錯誤代碼。 |
+| [!UICONTROL 要求太複雜。] | 您的報表請求規模過大，無法執行。造成此錯誤的因素包括請求的規模所導致的逾時、區段或搜尋篩選器中有過多相符項目、加入的量度過多、維度和量度組合不相容等。建議您簡化請求。 |
+| [!UICONTROL 此視覺化中的其中一個區段或搜尋包含傳回太多結果的文字搜尋。] | 建議您縮小搜尋文字的條件，並再次嘗試請求。 |
+| [!UICONTROL 此維度目前不支援非預設的歸因模式。] | 建議您使用與[歸因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 相容的維度來取代表格中的維度。 |
+| [!UICONTROL 由於欄數過多或預先設定的列，您的請求失敗。] | 建議您移除某些欄或列，或將它們分割為個別的視覺效果。 |
