@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: Components Guide
 user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '616'
 ht-degree: 96%
 
 ---
@@ -54,6 +54,7 @@ ht-degree: 96%
    + [點擊類型](dimensions/hit-type.md)
    + [小時](dimensions/hour-of-day.md)
    + [小時](dimensions/hour.md)
+   + [已識別狀態](dimensions/identified-state.md)
    + [Java 已啟用](dimensions/java-enabled.md)
    + [語言](dimensions/language.md)
    + [上次接觸管道](dimensions/last-touch-channel.md)
@@ -136,6 +137,7 @@ ht-degree: 96%
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間概觀](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
+   + [獨特的裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [件數](metrics/units.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
