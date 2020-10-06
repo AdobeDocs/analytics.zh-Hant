@@ -2,7 +2,7 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 控制面板組織者指南
 translation-type: tm+mt
-source-git-commit: 3be37fd47de552e378033ade196538e6d84d31c5
+source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
 ht-degree: 92%
@@ -11,10 +11,6 @@ ht-degree: 92%
 
 
 # Adobe Analytics 控制面板的組織者指南
-
->[!IMPORTANT]
->
->從2020年10月開始，Adobe將逐步推出一系列增強功能，以最佳化「Adobe Analytics儀表板」應用程式的效能。 這些增強功能以快取歷史Analytics資料為中心，用來以日期（不包括當天）填入記分卡。 此資料將在安全的Microsoft Azure公用雲端儲存帳戶中快取最多24小時。 如果您想要退出這些效能增強功能，請連絡您的CSM。
 
 以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。若要觀看示範此資訊的影片，請參閱Adobe Analytics儀表板Scorecard Builder影片：
 
@@ -263,3 +259,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 **提出問題**：
 
 點選需要的選項，在頂端欄位中提供您的電子郵件地址，並在下方欄位中說明問題。螢幕擷取畫面會自動附加至訊息，但如有需要，點選附件影像的 **X** 即可刪除此影像。您也可以選擇錄製螢幕、新增更多螢幕擷取畫面或附加檔案。若要傳送問題，請點選表單右上方的紙飛機圖示。
+
+>[!IMPORTANT]
+>
+>從2020年10月開始，Adobe將逐步推出一系列增強功能，以最佳化「Adobe Analytics儀表板」應用程式的效能。 這些增強功能以快取歷史Analytics資料為中心，用來以日期（不包括當天）填入記分卡。 此資料將在安全的Microsoft Azure公用雲端儲存帳戶中快取最多24小時。 如果您想要退出這些效能增強功能，請連絡您的CSM。
