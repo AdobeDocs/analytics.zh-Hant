@@ -3,9 +3,9 @@ description: 影響Workspace效能的因素及建議的最佳化
 title: 分析工作區效能因素與最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: b57185e21c7c7c32403e8afb36dfd11eac0b5a3e
+source-git-commit: 857c11c3e5d81c4c0bfe081afc09de83f526d6d7
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2144'
 ht-degree: 24%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 24%
 
 各種因素都會影響分析工作區中專案的效能。 在您開始建立專案之前，請務必先瞭解這些貢獻者的身分，以便您能以最佳的方式規劃和建立專案。 本頁包含影響效能的因素清單，以及建議您在分析工作區中進行最佳化以確保最佳效能。
 
->[!IMPORTANT 注意]
+>[!IMPORTANT]
 >
 >分析工作區中的「效能」頁面為有限版本。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
