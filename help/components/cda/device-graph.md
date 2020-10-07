@@ -2,7 +2,7 @@
 title: 裝置圖表
 description: 瞭解使用裝置圖形拼接資料的先決條件和限制。
 translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 41%
@@ -18,8 +18,8 @@ ht-degree: 41%
 
 Adobe在ID服務中提供兩種類型的裝置圖形：
 
-* **合作圖**: 雜湊裝置ID的儲存庫，任何客戶都可以提供並參考。 由於此類裝置圖表是協作式的，因此通常比對的裝置比私人圖表多。
-* **專用圖**: 雜湊裝置ID的儲存庫，僅供您的組織參考。
+* **合作圖**:雜湊裝置ID的儲存庫，任何客戶都可以提供並參考。 由於此類裝置圖表是協作式的，因此通常比對的裝置比私人圖表多。
+* **專用圖**:雜湊裝置ID的儲存庫，僅供您的組織參考。
 
 ## 裝置圖表的特定先決條件
 
@@ -27,7 +27,7 @@ Adobe在ID服務中提供兩種類型的裝置圖形：
 
 >[!IMPORTANT]
 >
-> 若未符合所有必要條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
+>若未符合所有必要條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * 概述頁面上列出的所 [有先決條件](overview.md)。
 * 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)。
