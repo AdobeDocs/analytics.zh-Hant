@@ -3,9 +3,9 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
-source-wordcount: '7790'
+source-wordcount: '7786'
 ht-degree: 98%
 
 ---
@@ -414,8 +414,7 @@ ht-degree: 98%
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自訂工作區範本 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以建立與保存專屬於您的工作區範本，並且供您機構中其他與該範本類似的使用者直接使用您的範本。 </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 新專案啟動模式 </a> </p> </td> 
+  <tr>  
    <td colname="col2"> <p>按一下「新專案」以開啟新視窗，您可以在該視窗選擇您想要的開始方式 </p> 
     <ul id="ul_FE90E6B9AF334A029D66A43901F8FA0B"> 
      <li id="li_F1DFD9AE140C4E5B849D4C522D5968DB">空白專案，或 </li> 
@@ -498,7 +497,7 @@ ht-degree: 98%
    <td colname="col2"> <p>2017 年 10 月推出的地圖視覺效果現在可以 PDF 格式呈現。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 複製/另存為新專案時的</a>相對內部連結 </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 複製/另存為新專案時的</a>相對內部連結 </p> </td> 
    <td colname="col2"> <p>先前複製專案或使用「另存新檔」功能時，儲存在專案中的所有內部連結會指向原專案，而非複製的專案。 </p> <p>現在您複製/另存新檔後，內部連結可反映其所在專案中的相對位置。 </p> </td> 
   </tr> 
   <tr> 
@@ -568,7 +567,7 @@ ht-degree: 98%
    <td colname="col2"> <p>若有視覺效果連接到自由格式表格或同類群組表格，則左上角的點 (資料來源設定) 會列出已連接的視覺效果。游標暫留時會反白顯示連結的視覺效果，只要按一下，即可進入該視覺效果。 </p> <p>此外還有一個「顯示/隱藏資料表」核取方塊，讓您顯示或隱藏資料表。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >新增至左側邊欄事件名稱的 Event#</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  >新增至左側邊欄事件名稱的 Event#</a> </p> </td> 
    <td colname="col2"> <p>在 2017 年 10 月前，我們已將 evar# 和 prop# 附加至維度名稱，您可以搜索這些號碼。現在事件也可使用相同的功能。 </p> <p>範例：「訂閱」現於左側邊欄顯示為「訂閱 (event1)」 </p> <p>請記住： </p> 
     <ul id="ul_5DF85C65F7004539949DDC4F23922296"> 
      <li id="li_A685834B4914460D87568583BB39C474">表中不會顯示事件號碼 (以保持標題簡短)。 </li> 
@@ -576,7 +575,7 @@ ht-degree: 98%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  >依預設現有的維度會按照邏輯順序排序</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  >依預設現有的維度會按照邏輯順序排序</a> </p> </td> 
    <td colname="col2"> <p>對於以下這些情況，部分現有維度的預設排序順序已更新： </p> 
     <ul id="ul_B9C0C761F39E43A4977EC028F4D4525C"> 
      <li id="li_FE72ADDCD32A4FF7907462726D6E7758">將維度拖入自由格式表格時。 </li> 
@@ -677,7 +676,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md"  > 儲存時標記專案 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/home.md"  > 儲存時標記專案 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以在儲存專案時為專案新增標記。 </p> </td> 
   </tr> 
   <tr> 
