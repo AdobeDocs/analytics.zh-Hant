@@ -5,7 +5,7 @@ title: 建立專案 - 概述
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '758'
 ht-degree: 86%
@@ -33,7 +33,7 @@ ht-degree: 86%
 
 | 元素 | 說明 |
 |---|---|
-| [建立新專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md) | 按一下此連結即可從頭開始建立新的專案。 |
+| [建立新專案](/help/analyze/analysis-workspace/home.md) | 按一下此連結即可從頭開始建立新的專案。 |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
 | 設定為登陸頁面 | 將此頁面轉換為您的工作區登陸頁面。 |
 | 觀看教學課程 | Takes you to the [Analysis Workspace video tutorials](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html). |
