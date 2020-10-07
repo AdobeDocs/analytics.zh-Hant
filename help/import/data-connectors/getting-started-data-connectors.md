@@ -2,10 +2,10 @@
 description: 將協力廠商應用程式的追蹤資料匯入 Analytics。
 title: 開始使用 Analytics Data Connectors
 translation-type: tm+mt
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
+source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 98%
+source-wordcount: '975'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe 針對各組織的數位策略與行銷方案提供可執行的即時資�
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年中後期終止Adobe Data Connector技術。 [深入了解...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系統要求**
 
@@ -86,7 +86,9 @@ Adobe Analytics 會透過 Data Warehouse 將這些檔案分為每日檔案，傳
 
 >[!NOTE]
 >
->如果定義產品時沒有關聯事件，則會自動引發 prodView 事件。如果上述要求不符合，則對應的再行銷區段無法正確回報。
+>If the product is defined without an associated event, the `prodView` event automatically fires.
+>
+>如果上述要求不符合，則對應的再行銷區段無法正確回報。
 
 [!UICONTROL 放棄購買]：當使用者新增產品至購物車時會啟動：
 
