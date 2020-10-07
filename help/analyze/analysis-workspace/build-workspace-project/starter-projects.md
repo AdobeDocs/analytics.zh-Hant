@@ -3,7 +3,7 @@ description: 'null'
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 93%
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 您可以選擇從以下來源建立專案：
 
-* **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/build-workspace-project/t-freeform-project.md)。
+* **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/home.md)。
 * **標準範本**：這些範本是由 Adobe 建立並隨產品提供。
 * **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/permissions/product-profile.html)
 
