@@ -4,10 +4,10 @@ title: Analysis Workspace 概述
 topic: Reports and analytics
 uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 13%
+source-wordcount: '525'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 如果您只有幾分鐘的時間，請觀看此簡短的總覽，以瞭解可能性。
 
->[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
 ## Log in to Adobe Analytics {#login}
 
@@ -42,11 +42,11 @@ ht-degree: 13%
 
 ## 建立分析 {#analysis}
 
-在您的工作區專案 **中，面板、表格、視覺化和元件** ，可從左側導軌存取。 這些是您的專案構建區塊。
+在您的「工作區」專 **案中，面板、表格、視覺化和元件** ，可從左側導軌存取。 這些是您的專案構建區塊。
 
 ### 元件
 
-**元件** 是維度、量度、區段或日期範圍，所有這些都可結合在 **[!UICONTROL Freeform表格中]** ，以開始回答您的業務問題。 請務必先熟悉每種元 [件類型](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html) ，再深入分析。 掌握元件術語後，您就可以開始拖放，在自由表格 [中建立分](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) 析 **[!UICONTROL 內容]**。
+**元件** 是維度、量度、區段或日期範圍，所有這些都可結合在 **[!UICONTROL Freeform表格中]** ，以開始回答您的業務問題。 請務必先熟悉每種元 [件類型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) ，再深入分析。 掌握元件術語後，您就可以開始拖放，在自由表格 [中建立分](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html) 析 **[!UICONTROL 內容]**。
 
 ![](assets/build-components.png)
 
