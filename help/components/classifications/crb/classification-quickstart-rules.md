@@ -5,10 +5,10 @@ title: 分類規則
 topic: Admin tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
+source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
 workflow-type: tm+mt
 source-wordcount: '2018'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -326,11 +326,14 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >*`only`*&#x200B;只有 () 在符合下列條件時，報表套裝才會顯示在此頁面上：>
-
-   * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
-   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
-
+   >Report suites display on this page *`only`* when the following conditions are met:
+   >
+   >* 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
+      >
+      >   
+      (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
+      >
+      >
    * 您在&#x200B;**[!UICONTROL 可用報表套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報表套裝。
 
 
