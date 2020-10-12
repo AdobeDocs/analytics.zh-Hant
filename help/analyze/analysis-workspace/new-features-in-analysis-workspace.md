@@ -3,22 +3,48 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 60bc50752c307aa83c11885380e0962243025373
 workflow-type: tm+mt
-source-wordcount: '7786'
-ht-degree: 98%
+source-wordcount: '8103'
+ht-degree: 96%
 
 ---
 
 
 # Analysis Workspace 的新增功能
 
+如需整體Adobe Experience Cloud發行說明的存取權，請前往 [這裡](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
+
+## 2020 年 10 月
+
+2020年10月發行的新功能。
+
+| 功能 | 說明 |
+| --- | --- |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 在「線條」視覺效果趨勢線設定中新增了移動平均。]**&#x200B;移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
+| [「效能幫助」頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。 |
+
+## 2020 年 9 月
+
+2020年9月發行的新功能。
+
+| 功能 | 說明 |
+| --- | --- |
+| [下載單一維度的5萬個項目](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 您現在可以針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
+| [線條視覺化的增強功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何線條視覺效果的 X 軸與 Y 軸。當線條視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| 新的日期範圍 | 我們新增了5個日期範圍，讓您從不包含今天部分日期資料的日期範圍中選擇：最近7個完整天、最近14個完整天、最近30個完整天、最近60個完整天、最近90個完整天 |
+
+
+## 2020 年 8 月
+
+2020年8月未發行新功能。
+
 ## 7 月 2020 日
 
 2020年7月16日發行的新功能。
 
 | 功能 | 說明 |
-|--- |--- |
+| --- | --- |
 | 新的日期範圍預設集 | 新增4個新日期範圍：([!UICONTROL 本週／月/季／年（不包括今天）])。 這可讓您從不包含今天部分資料的日期範圍中選擇。 |
 
 ## 2020 年 6 月
@@ -115,7 +141,7 @@ ht-degree: 98%
 2019 年 6 月 13 日發行的增強功能。
 
 | 增強功能 | 說明 |
-|--- |--- |
+| --- |--- |
 | 新的立即可用濾鏡 | 新增立即可用的篩選器至左側邊欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
 
 ## 2019 年 5 月
@@ -207,6 +233,7 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
+
 ## 2018 年 8 月
 
 2018 年 8 月 9 日發行的新功能與增強功能。
