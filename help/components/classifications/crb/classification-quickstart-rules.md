@@ -325,7 +325,8 @@ t_classification_rule.xml
    接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]**&#x200B;頁面。
 
    >[!NOTE]
-   *`only`*&#x200B;只有 () 在符合下列條件時，報表套裝才會顯示在此頁面上：>
+   >
+   >*`only`*&#x200B;只有 () 在符合下列條件時，報表套裝才會顯示在此頁面上：>
 
    * 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
    (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
