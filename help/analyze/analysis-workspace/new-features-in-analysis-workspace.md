@@ -3,7 +3,7 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 60bc50752c307aa83c11885380e0962243025373
+source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
 ht-degree: 96%
@@ -33,7 +33,6 @@ ht-degree: 96%
 | [下載單一維度的5萬個項目](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 您現在可以針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
 | [線條視覺化的增強功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何線條視覺效果的 X 軸與 Y 軸。當線條視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新的日期範圍 | 我們新增了5個日期範圍，讓您從不包含今天部分日期資料的日期範圍中選擇：最近7個完整天、最近14個完整天、最近30個完整天、最近60個完整天、最近90個完整天 |
-
 
 ## 2020 年 8 月
 
