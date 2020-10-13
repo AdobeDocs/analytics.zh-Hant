@@ -5,14 +5,15 @@ title: 上傳資料來源檔案
 topic: Developer and implementation
 uuid: 5a9dde91-1297-47e5-9393-611b40413c17
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: fb2a63432275c4ab621df263035400051ff6bb32
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 87%
 
 ---
 
 
 # 上傳資料來源檔案
-
-上傳資料來源檔案的步驟。
 
 準備好資料來源的資料檔案後，將其提交給資料來源處理。Adobe 維護數個資料來源 FTP 伺服器，您可以將資料來源檔案上傳到這些位置。關於資料來源 FTP 伺服器，請記住:
 
@@ -31,6 +32,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    [!DNL .fin] 檔案的名稱必須和「資料來源」檔案一模一樣，只有副檔名不同。上傳 [!DNL .fin] 檔案後，Adobe 才會將「資料來源」檔案排入處理佇列。
 
    請等到所有資料來源檔案完成上傳後，才上傳檔案。否則，資料來源可能會嘗試處理不完整的檔案。
+1. 上傳。fin檔案後，請務必登出Data Sources FTP網站。 原因是Analytics會使用登出事件做為觸發器，指出檔案已可供處理。
 1. 在資料來源檔案處理期間，請留意任何出現的訊息。
 
    「資料來源管理員」會顯示檔案處理期間發生的任何錯誤。
