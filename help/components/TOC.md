@@ -2,12 +2,12 @@
 product: analytics
 audience: end-user
 user-guide-title: Analytics 元件指南
-breadcrumb-title: Components Guide
-user-guide-description: Help organize your data using components such as segments, calculated metrics, virtual report suites, and alerts.
+breadcrumb-title: 元件指南
+user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
 translation-type: tm+mt
 source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '640'
 ht-degree: 95%
 
 ---
