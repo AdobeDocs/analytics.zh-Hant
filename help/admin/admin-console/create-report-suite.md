@@ -1,9 +1,9 @@
 ---
 title: 建立報表套裝
 description: 在 Adobe Analytics 中建立資料收集的基本容器。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [Adobe Analytics 的第一個管理指南](first-admin-guide.md)：確保系統層級管理員已透過 Experience Cloud Admin Console 將 Adobe Analytics 的權限授予您
 
-## 建立報表套裝
+## 建立報表套裝 {#create-report-suite}
 
 >[!NOTE]
 >
