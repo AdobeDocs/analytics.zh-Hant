@@ -2,13 +2,13 @@
 product: analytics
 audience: all
 user-guide-title: Analytics 技術文件
-breadcrumb-title: Tech Notes
-user-guide-description: A knowledge base containing helpful articles that don't belong to a specific analytics tool or component.
+breadcrumb-title: 技術注意事項
+user-guide-description: 知識庫包含不屬於特定分析工具或元件的實用文章。
 translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 83%
+source-wordcount: '180'
+ht-degree: 85%
 
 ---
 
