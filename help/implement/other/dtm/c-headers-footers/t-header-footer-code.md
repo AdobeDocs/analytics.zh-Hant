@@ -5,7 +5,7 @@ title: 新增頁首與頁尾代碼
 topic: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%
@@ -41,7 +41,7 @@ Dynamic Tag Management 會建立測試和生產內嵌代碼，您可以在將變
 
 1. 複製生產頁尾代碼，並將它放置在網站 HTML 的 [!DNL BODY] 區段內。
 
-   將程式碼盡量放置在接近 [!DNL </body>] 標籤的位置。
+   將程式碼盡量放置在接近 `</body>` 標籤的位置。
 1. 複製測試頁首與頁尾代碼，然後在您的測試網站上重複上述步驟。
 
    >[!NOTE]
