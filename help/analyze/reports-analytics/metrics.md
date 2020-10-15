@@ -3,10 +3,10 @@ description: 量度是報告的基礎，有助於您檢視和理解資料關係�
 title: 量度
 topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-translation-type: ht
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: ht
-source-wordcount: '370'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '371'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 量度是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 
-## 量度
+## 量度概觀
 
 量度是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 
