@@ -3,7 +3,7 @@ description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 92%
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 [!UICONTROL 「欄設定] 」可讓您設定欄格式，其中有些可以是條件式的。
 
-## 編輯 [!UICONTROL 欄設定] {#column-settings}
+## 編輯 [!UICONTROL 欄設定] {#edit-column-settings}
 
 若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
 
