@@ -3,7 +3,7 @@ description: 影響工作區效能和最佳化的因素
 title: 分析工作區效能因素與最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 93eb4f4c8f2990c8a4485f75ef5c13a00a28f19d
+source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
 workflow-type: tm+mt
 source-wordcount: '2130'
 ht-degree: 24%
@@ -11,7 +11,7 @@ ht-degree: 24%
 ---
 
 
-# Analysis Workspace 效能最佳化
+# Optimize [!UICONTROL Analysis Workspace performance]
 
 各種因素都會影響分析工作區中專案的效能。 在您開始建立專案之前，請務必先瞭解這些貢獻者的身分，以便您能以最佳的方式規劃和建立專案。 本頁包含影響效能的因素清單，以及您可在分析工作區中最佳化以確保最佳效能的因素。
 
@@ -19,9 +19,10 @@ ht-degree: 24%
 >
 >分析工作區中的「效能」頁面為有限版本。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
-## 「說明>分析工作區的效能」
+## [!UICONTROL 「說明] >分析 [!UICONTROL 工作區] 」中的效能
 
-在「 **[!UICONTROL 分析工作區>說明>效能]**」下，您可以看到影響專案效能的因素，包括網路、瀏覽器和專案因素。 為獲得最準確的結果，請允許項目在開啟「效能」頁之前完全載入。
+在「 **分析工作區 [!UICONTROL >說明] > [!UICONTROL 效能]**」下，您可以看到影響專案效能的因素，包括網路、瀏覽器和專案因素。 為獲得最準確的結果，請允許項目在開啟「效能」頁之前完全載入。
+
 * 「目前的專案」欄會顯示您目前專案和使用者環境的結果。
 * 「准則」欄會針對每個因素顯示Adobe的建議臨界值。
 
@@ -35,7 +36,7 @@ ht-degree: 24%
 
 ## 網路因素
 
-幫助>效能網路因素包括：
+[!UICONTROL 幫助] > [!UICONTROL 效能網路] ，包括：
 
 | 因素 | 定義 | 受 | 最佳化 |
 | --- | --- | --- | --- |
@@ -45,7 +46,7 @@ ht-degree: 24%
 
 ## 瀏覽器因素
 
-「說明>效能瀏覽器因素」包括：
+[!UICONTROL 「說明] >效 [!UICONTROL 能] 」瀏覽器因素包括：
 
 | 因素 | 定義 | 受 | 最佳化 |
 | --- | --- | --- | --- |
@@ -56,7 +57,7 @@ ht-degree: 24%
 
 ## 專案因素
 
-「說明>效能專案」因素包括：
+[!UICONTROL 「說明] >效 [!UICONTROL 能] 」專案因素包括：
 
 | 因素 | 定義 | 最佳化 |
 | --- | --- | --- |
@@ -88,5 +89,5 @@ ht-degree: 24%
 | [!UICONTROL 發生系統錯誤。 請在「說明>提交支援票證」下記錄客戶服務要求，並包含您的錯誤碼。] | Adobe 遇到需要解決的問題。 | 將錯誤代碼提交給客戶服務。 |
 | [!UICONTROL 要求太複雜。] | 您的報表請求規模過大，無法執行。造成此錯誤的因素包括請求的規模所導致的逾時、區段或搜尋篩選器中有過多相符項目、加入的量度過多、維度和量度組合不相容等。 | 移除表格中的某些欄或列，或考慮將表格分割為個別請求，以簡化您的請求。 |
 | [!UICONTROL 此視覺化中的其中一個區段或搜尋包含傳回太多結果的文字搜尋。] | 您的區段標準或報表篩選太廣泛。 | 縮小搜尋文字標準並再次嘗試請求。 |
-| [!UICONTROL 此維度目前不支援非預設的歸因模式。] | 您使用的維度不支援非預設歸因。 | Replace the dimension in your table with one that is compatible with [Attribution IQ](../attribution/overview.md). |
+| [!UICONTROL 此維度目前不支援非預設的歸因模式。] | 您使用的維度不支援非預設歸因。 | Replace the dimension in your table with one that is compatible with [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md). |
 | [!UICONTROL 由於欄數過多或預先設定的列，您的請求失敗。] | 表格的自由格式儲存格太多（列*欄）。 | 移除表格中的欄或列，或考慮將表格分割為個別請求。 |
