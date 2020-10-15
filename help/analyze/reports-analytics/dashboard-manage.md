@@ -4,10 +4,10 @@ subtopic: Dashboards
 title: 控制面板管理員
 topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '807'
+translation-type: tm+mt
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+workflow-type: tm+mt
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -20,10 +20,6 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >「控制面板管理員」的最佳使用作法是任何使用者的控制面板都不超過 300 個。此外也請注意，管理員會載入下方所有共用控制面板，因此，請在使用共用控制面板時多加留意。
-
-## 控制面板管理員
-
-使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送作業。
 
 按一下&#x200B;**[!UICONTROL 「Analytics]** >**[!UICONTROL 元件]** > **[!UICONTROL 控制面板」]**。
 
