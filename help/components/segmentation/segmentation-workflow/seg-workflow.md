@@ -4,19 +4,15 @@ title: 區段工作流程概觀
 topic: Segments
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
+source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '248'
 ht-degree: 100%
 
 ---
 
 
 # 區段工作流程概觀
-
-針對以「區段產生器」建立並透過「區段管理員」管理的區段，說明建議的工作流程。
-
-## 區段工作流程概觀
 
 針對以「區段產生器」建立並透過「區段管理員」管理的區段，說明建議的工作流程。
 
