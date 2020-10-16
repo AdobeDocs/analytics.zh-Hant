@@ -1,9 +1,9 @@
 ---
-source-git-commit: f20e0547c00f185659a2eabe0110f43c56c30114
+source-git-commit: 78d9346ec82d802136cbaf2bfed31b6d25af207e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '514'
-ht-degree: 91%
+source-wordcount: '644'
+ht-degree: 72%
 
 ---
 # Adobe Analytics 的產品設定檔
@@ -54,4 +54,6 @@ Analytics 工具權限項目所授予的權限是不受報表套裝設定影響�
 
 ## 產品設定檔開發人員
 
-開發人員與使用者類似，但是他們可以在 Adobe I/O 上使用 Experience Cloud API。如需詳細資訊，請參閱企業版使用手冊中的[管理開發人員](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。
+開發人員與使用者類似，但是他們可以在 Adobe I/O 上使用 Experience Cloud API。如需詳細資訊，請參閱企業版使用手冊中的[管理開發人員](https://helpx.adobe.com/tw/enterprise/using/manage-developers.html)。如果使用者獲得任何設定檔的「開發人員存取權」，則可存取「開發控制台」(console.adobe.io)並編輯Adobe Analytics整合。 為使用者授權的Analytics API呼叫和回應將視該使用者擁有「開發人員存取權」之所有設定檔的淨權限而定。
+
+例如，透過分析工作區存取權、所有量度、所有維度和一個報表套裝的權限，該使用者可針對該套裝內的任何報表成功對／報表端點進行API呼叫。 新增異常偵測後，報表可能會包含更完整的回應，並新增異常資料。 根據經驗，如果描述檔授與Adobe Analytics介面中藍本的存取權，則相同描述檔的「開發人員存取權」將啟用對應的API呼叫和回應。
