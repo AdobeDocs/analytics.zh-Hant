@@ -2,10 +2,10 @@
 title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 99%
+source-wordcount: '2138'
+ht-degree: 90%
 
 ---
 
@@ -32,8 +32,6 @@ ht-degree: 99%
 
 建立行銷管道處理規則，以判定訪客點按是否符合指派給管道的標準。
 
-此程序使用電子郵件規則做為範例。此範例假設您已新增電子郵件管道至「行銷管道管理員」頁面上的管道清單中。
-
 1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
 2. 選取報表套裝。
 
@@ -41,17 +39,15 @@ ht-degree: 99%
 
    請參閱[執行自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 
-3. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道處理規則」]**。
+3. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道處理規則」]**。如果您執行自動設定，系統會自動為您定義一組渠道和規則。
 
    ![步驟結果](assets/marketing_channel_rules.png)
 
-4. 從&#x200B;**[!UICONTROL 新增新規則集]**&#x200B;功能表中選取&#x200B;**[!UICONTROL 「電子郵件」]**。
-
-   您在此處並非選擇管道，而是選擇範本並以數個必要參數填入規則。您可以視需要修改此範本。
+4. 如果要添加新規則，請從「添加新規 **[!UICONTROL 則集」菜單中選擇]** 。 如果您選取渠道，則會提供規則範本，而如果您選取「自訂」，則會從空白的位置開始。 這兩個選項都允許您視需要修改規則集。
 
    ![步驟結果](assets/example_email.png)
 
-5. 若要繼續建立規則，請按一下&#x200B;**[!UICONTROL 「新增規則」]**。
+5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
 6. 若要排列規則優先順序，請將它們拖放至適當位置。
 7. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -59,13 +55,17 @@ ht-degree: 99%
 
 ### 設定行銷管道值
 
-**[!UICONTROL 新增規則]****設定渠道的值** ，定義該渠道可用的行銷渠道詳情維度。 這可讓您劃分行銷管道維度，以及查看更多有關於管道的詳細資訊。
+**[!UICONTROL 設定渠道的值]** ，定義該渠道可用的行銷渠道詳情維度。 這可讓您劃分行銷管道維度，以及查看更多有關於管道的詳細資訊。
 
 建議將管道值設為用來定義管道本身的相同條件。例如，如果使用查詢字串參數來定義管道，請將查詢字串參數也設定為管道值。
 
 ### 規則條件
 
 此參考表格會定義您可以用來「行銷管道處理規則」的欄位、選項和點擊屬性。
+
+>[!NOTE]
+>
+>您定義的任何文字欄位（例如查詢字串參數或要比對的值清單）都會評估為不 **區分大小寫** 。 例如，如果您有查詢字串參數cmp = abc123的規則，則&#39;cmp&#39;和&#39;abc123&#39;的所有版本都將符合該規則。 您不需要列出這些值的多個大小寫版本。
 
 | 詞語 | 定義 |
 |--- |--- |
@@ -88,7 +88,7 @@ ht-degree: 99%
 | 頁面根網域 (TLD+1) | 訪客著陸的頁面根網域，例如 example.co.uk。 |
 | 頁面 URL | 您網站某個網頁的 URL。 |
 | 反向連結網域 | 訪客在瀏覽您的網站前所處的網域，例如，源自 `abcsite.com` 與 `xyzsite.com` 的反向連結。 |
-| 查詢字串參數 | 如果網頁 URL 類似於 `https://example.com/?page=12345&cat=1`，則 page 和 cat 均為查詢字串參數。(如需此工具的其他相關資訊，請參閱 `https://en.wikipedia.org/wiki/Query_string`。)  您可為每個規則集僅指定一個查詢字串參數。若要新增其他查詢字串參數，請使用 `ANY` 作為運算元，然後新增查詢字串參數至此規則。 |
+| 查詢字串參數 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (如需此工具的其他相關資訊，請參閱 `https://en.wikipedia.org/wiki/Query_string`。)  您可為每個規則集僅指定一個查詢字串參數。若要新增其他查詢字串參數，請使用 `ANY` 作為運算元，然後新增查詢字串參數至此規則。查詢字串參數會評估為不區分大小寫；例如，&#39;cat&#39;和&#39;CAT&#39;的評估方式相同。 |
 | 反向連結 | 訪客在來到您網站之前所處的網頁位置 (完整 URL)。反向連結存在於您所定義網域之外。 |
 | 反向連結網域和路徑 | 反向連結網域和 URL 路徑的串連例如：`www.example.com/products/id/12345` 或 `ad.example.com/foo` |
 | 反向連結參數 | 反向連結 URL 上的查詢字串參數。例如，如果訪客來自 `example.com/?page=12345&cat=1`，則 page 和 cat 為反向連結參數。 |
@@ -130,7 +130,7 @@ ht-degree: 99%
 
 ### 顯示 {#display}
 
-該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為   *`Ad_01`*。
+該規則可識別源自橫幅廣告的訪客。透過目標 URL 中的查詢字串參數來識別，本例中為   *`Ad_01`*.查詢字串參數及其尋找的值會評估為不區分大小寫的值。
 
 ![](assets/example_display.png)
 
@@ -154,7 +154,7 @@ ht-degree: 99%
 
 ### 社交網路 {#social-networks}
 
-該規則可識別源自社交網路的訪客，例如 Facebook*。此管道常會重新命名為「自然社交」。設定值如下：
+此規則可識別源自社交網路的訪客，例如Facebook;。 此管道常會重新命名為「自然社交」。設定值如下：
 
 ![](assets/example_social.png)
 
@@ -164,7 +164,7 @@ ht-degree: 99%
 
 ![](assets/int-channel1.png)
 
-若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-faq.html)。
+若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://docs.adobe.com/content/help/zh-Hant/analytics/components/marketing-channels/c-faq.html#internal)。
 
 ### 直接 {#direct}
 
