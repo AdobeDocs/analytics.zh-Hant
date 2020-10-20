@@ -1,12 +1,16 @@
 ---
-source-git-commit: 18d57362af9e0667d26fde67e37671cf6bb6bab6
+source-git-commit: 373d58b67e943b90b39c33d61a9c816bab6e727e
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '435'
-ht-degree: 100%
+source-wordcount: '517'
+ht-degree: 85%
 
 ---
 # 貢獻文章
+
+| EXL-PR | EXL | 預覽 | 啟動 | 已發佈 | 說明 |
+|--- |--- |--- |--- |--- |--- |
+| [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_pr-exl/lastBuild/) | [![建置狀態](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/analytics.en_exl/lastBuild/lastBuild) | [預覽URL](https://experienceleague.corp.adobe.com/docs/analytics/analyze/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [即時URL](https://experienceleague.adobe.com/docs/analytics/analyze/home.html?lang=en) | [Authoring 指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 我們歡迎我們社群及文件團隊以外的 Adobe 員工貢獻心力。
 
