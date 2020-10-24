@@ -1,8 +1,11 @@
 ---
 title: 外部電子郵件追蹤
 description: 使用 Adobe Analytics 追蹤電子郵件內容。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '736'
+ht-degree: 100%
 
 ---
 
@@ -34,6 +37,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
    * sc_cid=A1123A321 > &quot;A&quot; 會標記附屬機構促銷活動
    * sc_cid=EM033007 > &quot;EM&quot; 會標記電子郵件促銷活動
    * sc_cid=GG987123 > &quot;GG&quot; 表示 Google，屬於付費搜尋促銷活動
+
    如需設定及使用追蹤代碼的詳細資訊，請與 Adobe [!DNL Customer Care] 連絡。
 
 1. 新增查詢字串參數至 HTML 電子郵件連結。
@@ -69,7 +73,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
       s.doPlugins=s_doPlugins 
       ```
 
-      每個必須複製到變數中的查詢字串參數，都應有一個 [!UICONTROL getQueryParam] 呼叫。在上述範例中，查詢字串參數 [!UICONTROL sc_cid] 已複製到    *`campaign`*。
+      每個必須複製到變數中的查詢字串參數，都應有一個 [!UICONTROL getQueryParam] 呼叫。在上述範例中，查詢字串參數 [!UICONTROL sc_cid] 已複製到     *`campaign`*。
 
       在擷取點進次數時，只需要第一次的 [!UICONTROL getQueryParam] 呼叫。請連絡 Adobe [!DNL Customer Care] 以實施此函數，並確認您的 JavaScript 檔案版本包含 [!UICONTROL getQueryParam] 外掛程式。
 
@@ -78,7 +82,7 @@ source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
       以下提供在更新 JavaScript 程式庫時務必留意的幾項要點。這些要點列出如下。
 
       * 查詢字串參數 [!UICONTROL sc_cid] 在最終登陸頁面上的 URL 中必須是可見的，否則將不會記錄任何點進次數轉換。
-      * [!UICONTROL sc_cid] 參數是查詢字串參數的範例之一。任何查詢字串參數皆可由 [!UICONTROL getQueryParam] 外掛程式使用及擷取。請確定查詢字串參數僅用於促銷活動追蹤。只要這些參數出現在查詢字串中，其值就會複製到    *`campaign`*。
+      * [!UICONTROL sc_cid] 參數是查詢字串參數的範例之一。任何查詢字串參數皆可由 [!UICONTROL getQueryParam] 外掛程式使用及擷取。請確定查詢字串參數僅用於促銷活動追蹤。只要這些參數出現在查詢字串中，其值就會複製到     *`campaign`*。
 
 1. 使用 [!UICONTROL SAINT] 為促銷活動追蹤代碼進行分類。
 
