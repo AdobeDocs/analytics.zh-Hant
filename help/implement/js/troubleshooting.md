@@ -1,11 +1,11 @@
 ---
 title: 疑難排解 JavaScript 實施
 description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務。
-translation-type: tm+mt
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '694'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -84,20 +84,23 @@ s.pageName = "        Home Page";
 
 ## 截斷的影像要求
 
-將長值填入許多變數的實作有時會遇到截斷的影像要求。 有些較舊的瀏覽器（例如Internet Explorer）會對影像要求URL加上2083個字元的限制。 如果您的組織面臨很長的影像要求，請嘗試下列步驟：
+將很長的值填入許多變數的實作有時會遇到截斷的影像要求。有些較舊的瀏覽器 (例如 Internet Explorer) 會對影像要求 URL 施加 2083 個字元的限制。如果您的組織遇到很長的影像要求，請嘗試下列步驟：
 
-* **使用Experience Cloud ID服務**:AppMeasurement程式庫1.4.1和更新版本會在影像要求過長時，使用HTTP POST自動傳送影像要求。 使用此方法傳送的資料不會截斷，不論長度為何。 See [Adobe Experience Cloud ID service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) for more information.
-* **使用處理規則**: [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) ，可將值從一個變數複製到另一個變數。 此方法可讓您省去在多個變數中設定相同值的麻煩。 例如：
+* **使用 Experience Cloud ID 服務**：AppMeasurement 程式庫 1.4.1和更新版本會在影像要求過長時，使用 HTTP POST 來自動傳送影像要求。不論資料長度為何，使用此方法傳送的資料都不會遭截斷。如需詳細資訊，請參閱 [Adobe Experience Cloud ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
+* **使用處理規則**：[處理規則](/help/admin/admin/c-processing-rules/processing-rules.md)可將值從一個變數複製到另一個變數。此方法可讓您省去在多個變數中設定相同值的繁瑣操作。例如：
 
-   一律執行：<br>以eVar1覆寫prop1的值以eVar1<br>以eVar1覆寫eVar2的值<br>以eVar1覆寫prop2的值<br>
+   一律執行：<br>
+以 eVar1 覆寫 Prop1 的值<br>
+以 eVar1 覆寫 eVar2 的值<br>
+以 eVar1 覆寫 prop2 的值<br>
 
-   然後在您的實作中設定eVar1:
+   然後在您的實作中設定 eVar1：
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
    ```
 
-* **使用動態變數**:如果您的實作會以相同的值填入許多變數，則可以使 [用動態變數](/help/implement/vars/page-vars/dynamic-variables.md) ，來縮短請求URL:
+* **使用動態變數**：如果您的實作會將相同的值填入許多變數中，您可以使用[動態變數](/help/implement/vars/page-vars/dynamic-variables.md)來縮短要求 URL：
 
    ```js
    s.eVar1 = "The quick brown fox jumps over the lazy dog";
@@ -106,4 +109,4 @@ s.pageName = "        Home Page";
    s.prop2 = "D=v1";
    ```
 
-* **使用分類**:如果產品或頁面名稱異常長，您可以使用識別值或程式碼，然後使用分 [類](/help/components/classifications/c-classifications.md) ，以顯示更好記的名稱。
+* **使用分類**：如果產品或頁面名稱異常地長，您可以使用識別值或代碼，然後使用[分類](/help/components/classifications/c-classifications.md)來顯示更好記的名稱。
