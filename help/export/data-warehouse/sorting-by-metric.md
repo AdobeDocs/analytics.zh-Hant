@@ -2,8 +2,11 @@
 description: 在 Data Warehouse 中提供排名劃分報表，可依遞減的量度順序排序。
 title: 依量度排序
 uuid: 07da2607-b3fd-463b-90d4-6884a93c7e25
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '322'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +31,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 依量度排序? | 具有量度? | 具有劃分? | 日期粒度? | 設定最大列數? | 報表配置 |
 |---|---|---|---|---|---|
 | 無 | 是或否 | 是或否 | 是或否 | 是或否 | 1 |
-| 有 | 無 | 是或否 | 是或否 | 是或否 | 1 |
+| 是 | 無 | 是或否 | 是或否 | 是或否 | 1 |
 | 是 | 是 | 無 | 無 | 不適用 | 1 |
 | 是 | 是 | 無 | 是或否 | 無 | 1 |
 | 是 | 是 | 是 | 無 | 無 | 2 |
