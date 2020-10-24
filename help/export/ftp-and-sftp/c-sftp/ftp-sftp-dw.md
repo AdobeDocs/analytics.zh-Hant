@@ -5,6 +5,9 @@ title: 傳送 Data Warehouse 請求至 SFTP 伺服器
 uuid: 393634a1-0643-4d63-bb6e-fb80f1ba76c1
 translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '412'
+ht-degree: 100%
 
 ---
 
