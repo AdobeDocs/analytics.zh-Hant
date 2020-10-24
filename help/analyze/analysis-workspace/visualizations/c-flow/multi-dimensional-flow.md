@@ -2,8 +2,11 @@
 description: 維度間流量可讓您檢查多個維度間的使用者路徑。
 title: 維度間流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
+workflow-type: ht
+source-wordcount: '305'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
 
 ## 使用案例一：應用程式{#section_3D31D37B9C9F4134AE46C96291E41294}
 
-The [!UICONTROL Action Name] dimension was added to the flow, with the top returned item being [!UICONTROL ItemAdded]:
+將「[!UICONTROL 動作名稱]」維度新增至流量，而排名最前的傳回項目是 [!UICONTROL ItemAdded]：
 
 ![](assets/multi-dimensional-flow.png)
 
