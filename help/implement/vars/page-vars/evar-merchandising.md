@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # eVar (銷售)
 
-*此說明頁面說明如何實作銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用指南中的[eVar (銷售)](/help/components/dimensions/evar-merchandising.md)。*
+*此說明頁面說明如何實作銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用指南中的 [eVar (銷售)](/help/components/dimensions/evar-merchandising.md)。*
 
 ## 在報表套裝設定中設定 eVar
 
