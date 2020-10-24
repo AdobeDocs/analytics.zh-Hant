@@ -1,9 +1,9 @@
 ---
 title: 清單變數
 description: 建立並設定清單變數，以供報表使用。
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '496'
 ht-degree: 100%
 
