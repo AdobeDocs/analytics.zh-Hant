@@ -1,11 +1,11 @@
 ---
 title: 類別
 description: 點擊的產品類別。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '155'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 ## 維度項目
 
-由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe 建議您使用「產品」和「類別」維度將個別產品分組為有意義的類別。
+由於此變數以您實作中的自訂字串為基礎，因此您的組織會決定維度項目。Adobe 建議您使用「產品」和「類別」維度將個別產品分組為有意義的類別。
 
 >[!TIP]
 >
