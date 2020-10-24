@@ -4,7 +4,10 @@ title: 連結報表
 topic: Activity map
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 translation-type: ht
-source-git-commit: 6b27755178d156b1eaf159640d466bd84659983d
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
