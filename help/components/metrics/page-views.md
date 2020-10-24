@@ -1,22 +1,22 @@
 ---
 title: 頁面檢視
 description: 頁面被檢視的次數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '153'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 
 # 頁面檢視
 
-「頁面檢視」度量顯示指定維度項目在頁面上被設定或持續存在的次數。 這是報表中最常用且最基本的量度之一。
+「頁面檢視」量度會顯示指定維度項目在頁面上進行設定或保存的次數。這是報表中最常用且最基本的量度之一。
 
 ## 此量度的計算方式
 
-此量度會計入報表套裝中的所有頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))。對於維度，它包含定義或保存維度項目的點擊。 其中不包含連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+此量度會計入報表套裝中的所有頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))。對於維度，其中包含已定義或保存維度項目的點擊。其中不包含連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 與類似量度比較
 
