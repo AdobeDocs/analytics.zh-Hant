@@ -2,8 +2,11 @@
 description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
 title: 伺服器呼叫使用量警報
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '526'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 ## 概觀
 
-A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of the existing [Alert Management](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html) user interface.
+名稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量警報」]**&#x200B;的新警報類別位於現有[「警報管理」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)使用者介面。
 
 這項類別已預先填入 **1 個預設警報**，顯示在任何可存取「伺服器呼叫使用量」功能的登入公司中。如果滿足以下其中一項條件，該警報就會觸發通知，傳送給所有登入公司的管理員：
 
@@ -26,14 +29,14 @@ A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of
 
 您可以透過兩種方式存取伺服器呼叫使用量警報：
 
-* Click **[!UICONTROL Manage Alerts]** in the upper right corner on the Current Usage tab or the Report Suite usage tab, or
-* 導覽至 **[!UICONTROL Components]** Adobe Analytics **[!UICONTROL Alerts]** 中的>。
+* 按一下「目前使用量」標籤或「報表套裝使用量」標籤右上角的&#x200B;**[!UICONTROL 「管理警報」]**，或
+* 導覽至 Adobe Analytics 中的&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 警報」]**。
 
 ## 建立伺服器呼叫使用量警報 {#section_2A2882C6D48D47C1944D52FB7C766BEC}
 
 若要建立其他警報，
 
-1. 按一 **[!UICONTROL + Add]** 下並選取 **[!UICONTROL Server Call Usage Alert]**。
+1. 請按一下&#x200B;**[!UICONTROL 「+ 新增」]**，並選取&#x200B;**[!UICONTROL 「伺服器呼叫使用量警報」]**。
 
    ![](assets/server_call_alert.png)
 
@@ -54,7 +57,7 @@ A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of
       * 採用
 指定「實際使用期間」的臨界值和條件 (高於或等於或低於或等於)。
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 管理伺服器呼叫使用量警報 {#section_8FF98170763C4B5CBEC6DD43F893177A}
 
@@ -67,12 +70,12 @@ A new alert category called **[!UICONTROL Server Calls Usage Alert]** is part of
 
    | 動作 | 定義 |
    |--- |--- |
-   | + 新增 | Access the [Alert Builder](/help/admin/c-server-call-usage/scu-alerts.md) by clicking  [!UICONTROL + Add]. |
+   | + 新增 | 按一下[!UICONTROL 「+ 新增」]以存取[「警報產生器」](/help/admin/c-server-call-usage/scu-alerts.md)。 |
    | 標記 | 標記警報可讓您組織警報以方便使用。 |
    | 刪除 | 您可以刪除預設警報以外的所有警報。 |
    | 重新命名 | 您可以重新命名預設警報以外的所有警報。 |
    | 核准 | 核准警報即可使其成為「正式」警報。 |
    | 啟用/停用 | 您可以啟用或停用所有警報，甚至是預設警報。 |
-   | 續訂 | 選取一或多個警報後，可續訂這些警報。This extends their expiration dates to be 1 year from the day [!UICONTROL Renew] was clicked, regardless of their original expiration date. |
+   | 續訂 | 選取一或多個警報後，即可續訂警報。如此一來，到期日將從按一下[!UICONTROL 「續訂」]之日算起延長 1 年，無論原始到期日為何。 |
    | 匯出至 CSV | 請參閱[下載使用情況報表](/help/admin/c-server-call-usage/report-suite-usage.md) |
 
