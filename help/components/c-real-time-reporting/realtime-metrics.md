@@ -3,8 +3,11 @@ description: 列出即時報告支援的量度和維度。如果您已定義分�
 title: 支援的即時量度和維度
 topic: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -38,7 +41,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 地域劃分 U.S. DMA
 * 產品
 * 伺服器
-* 網站區域
+* 網站區段
 * 追蹤程式碼
 * 自訂連結
 * 檔案下載
