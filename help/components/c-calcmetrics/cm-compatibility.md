@@ -2,8 +2,11 @@
 description: 說明三種產品相容性選項。
 title: 量度相容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '179'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
  <tbody> 
   <tr> 
    <td colname="col1"> 目前的資料 </td> 
-   <td colname="col2"> <p>分析中的「包含目前的資料」選項可讓您檢視最新 Analytics 資料，通常是在資料經過完全處理完並完成之前。<a href="https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/current-data.html"  >目前的資料</a>會在數分鐘內顯示最多的量度，提供可操作的資料以幫助快速決策。 </p> <p>目前的資料僅支援計算量度 (其中包含乘法、除法、加法和減法)。目前的資料不支援進階計算量度 (其中包含區段或函數)。 </p> </td> 
+   <td colname="col2"> <p>分析中的「包含目前的資料」選項可讓您檢視最新 Analytics 資料，通常是在資料經過完全處理完並完成之前。<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/current-data.html"  >目前的資料</a>會在數分鐘內顯示最多的量度，提供可操作的資料以幫助快速決策。 </p> <p>目前的資料僅支援計算量度 (其中包含乘法、除法、加法和減法)。目前的資料不支援進階計算量度 (其中包含區段或函數)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 完全處理的資料 </td> 
