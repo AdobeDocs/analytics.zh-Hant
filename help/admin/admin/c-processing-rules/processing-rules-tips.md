@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 處理規則提示與秘訣
 topic: Admin tools
 uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '490'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 建議您在開發報表套裝上設定處理規則，確保套裝可以正常運作。如果可行，建議在廣泛部署前，先將規則複製至小型生產報表套裝。
 
-## 檢查空白值 {#section_EE84A5525E26415787930723B0CAAE0F}
+## 檢查空白值{#section_EE84A5525E26415787930723B0CAAE0F}
 
 建立規則時，請考慮值為空白的狀況。如果您不增加檢查空白值的條件，可能會不小心以空白值覆寫變數。
 
@@ -40,7 +43,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## 避免覆寫值 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## 避免覆寫值{#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 在下列範例中，網站上使用兩個上下文資料變數來擷取搜尋詞：search_keyword 和 search_term。不過，根據設定，search_keyword 值一律會被覆寫，即使 search_term 空白亦然。
 
@@ -48,13 +51,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ![](assets/tips-search-keyword.png)
 
-## 將搜尋詞編碼為 UTF-8 或 Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## 將搜尋詞編碼為 UTF-8 或 Unicode{#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 從查詢字串提取的搜尋詞必須正確編碼，否則處理規則無法比對。
 
 ![](assets/tips-multibyte.png)
 
-## 開頭為、包含和結尾為 {#section_80CE853244FC435B844A09EA51868D8D}
+## 開頭為、包含和結尾為{#section_80CE853244FC435B844A09EA51868D8D}
 
 選取正確的比對條件，找到可以正確符合的最限縮條件。您可以在建立規則前，先搜尋報告中的值，確保沒有意外的相符項目。例如，您應在啟用規則前，先行搜尋 Prop2 報告，找出所有此條件符合的位置。
 
