@@ -1,18 +1,18 @@
 ---
 title: Prop
 description: 可用於報表的自訂維度。
-translation-type: tm+mt
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
 
 # Prop
 
-*此說明頁面說明 Prop 作為維度時的運作方式。如需如何實作 Prop 的相關資訊，請參閱「實作」使用指南中的[Prop](/help/implement/vars/page-vars/prop.md)。*
+*此說明頁面說明 Prop 作為維度時的運作方式。如需如何實作 Prop 的相關資訊，請參閱「實作」使用指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
 
 Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在的點擊過後即不存在。
 
@@ -30,17 +30,17 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 ## 維度項目
 
-由於prop在實作中包含自訂字串，因此您的組織會決定每個prop的維度項目。 Make sure you record the purpose of each prop and typical dimension items in a [solution design document](/help/implement/prepare/solution-design.md).
+由於 Prop 包含您實作中的自訂字串，因此您的組織會決定每個 Prop 的維度項目。請務必將每個 Prop 的用途和常用的維度項目記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
 
 ## 區分大小寫
 
-Prop預設不區分大小寫。 如果您在不同情況下(例如和 `"DOG"``"Dog"`)傳送相同的值，「分析工作區」會將它們群組在相同的維度項目中。 使用報告月初所見第一個值的大小寫。 「資料倉庫」會顯示在請求期間遇到的第一個值。
+Prop 預設不區分大小寫。如果您以不同大小寫傳送相同的值 (例如 `"DOG"` 和 `"Dog"`)，Analysis Workspace 會將它們分組到相同的維度項目中。系統會使用報告月份開頭所見第一個值的大小寫。Data Warehouse 會顯示在請求期間遇到的第一個值。
 
-您可以將任何prop區分為大小寫。 您也可以在任何prop啟用後，停用其區分大小寫功能。 使用報表套裝ID和所要的變數與Adobe客戶服務聯絡，以切換區分大小寫。
+您可以將任何 prop 設為區分為大小寫。您也可以在任何 prop 啟用後，停用其區分大小寫的功能。聯絡 Adobe客戶服務並提供報表套裝 ID 和所需的變數，以切換區分大小寫功能。
 
 >[!IMPORTANT]
 >
->切換區分大小寫功能可能會捨棄維度項目、造成區段的非預期結果，以及造成篩選器問題。 Adobe強烈建議在兩個主要時段之間切換此設定，例如一個月或一年的開頭。
+>切換區分大小寫功能可能會截斷維度項目、造成區段產生非預期結果，以及導致篩選器問題。Adobe 強烈建議在兩個主要時段之間切換此設定，例如月初或年初。
 
 ## Prop 優於 eVar 之處
 
