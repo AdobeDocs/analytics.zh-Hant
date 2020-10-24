@@ -3,8 +3,11 @@ description: 本節含有常見問題的相關資訊。
 keywords: Data Feed;troubleshooting
 title: 資料摘要的疑難排解
 uuid: 4be981ab-3a61-4099-9b0d-785d2ac2492a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '938'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 本節含有常見問題的相關資訊。
 
-## 儲存摘要時發生錯誤 {#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## 儲存摘要時發生錯誤{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 資料摘要檔案名稱由報表套裝 ID 和日期所組成。任兩個針對相同 RSID 和日期所設定的摘要會擁有相同的檔案名稱。如果將這些摘要提交到相同的位置，其中一個檔案會覆寫另一個檔案。若要避免檔案覆寫，建立的摘要不能有覆寫同一位置中現有摘要的可能。
 
@@ -25,7 +28,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 變更日期 (可能的話)
 * 變更報表套裝 (可能的話)
 
-## Amazon S3 資料摘要的 BucketOwnerFullControl 設定 {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## Amazon S3 資料摘要的 BucketOwnerFullControl 設定{#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Amazon S3 的常見使用案例是 Amazon Web Services (AWS) 帳戶擁有者建立儲存貯體、接著建立具有在該儲存貯體中建立物件之權限的使用者，然後提供該使用者的憑證。在此案例中，使用者的物件屬於相同帳戶，而該帳戶擁有者隱含地具備物件的完整控制權 (讀取、刪除等)。其運作方式類似於 FTP 傳送的運作方式。
 
@@ -51,7 +54,7 @@ STD -> DST 時間轉換期間 (「前進」)，客戶只會收到 23 個檔案�
 
 DST -> STD 轉換期間 (「後退」)，客戶會收到 24 個檔案。不過，轉換該小時實際包含 2 小時的資料量。例如，如果轉換發生在 2:00 am，1:00 的檔案將延遲一個小時，但包含兩個小時的資料，其中包含從 1:00 DST 到 2:00 STD (原本是 3:00 DST) 的資料。下一個檔案將從 2:00 STD 開始。
 
-## 某個時間期間無資料 {#section_72510794694D42A9A75C966B812AEB0F}
+## 某個時間期間無資料{#section_72510794694D42A9A75C966B812AEB0F}
 
 您可選擇設定資料摘要，當特定期間未收集到任何資料時傳送資訊清單檔案。如果啟用此選項，您會收到類似下列的資訊清單檔案:
 
@@ -62,7 +65,7 @@ Datafeed-Manifest-Version: 1.0
  Total-Records: 0
 ```
 
-## 網域報告沒有網域資訊 {#section_B7508D65370442C7A314EAED711A2C75}
+## 網域報告沒有網域資訊{#section_B7508D65370442C7A314EAED711A2C75}
 
 某些行動電信業者 (如 T-Mobile 和 O1) 不再提供反向 DNS 查閱所需的網域資訊。因此，網域報告將無法取得這些資料。
 
