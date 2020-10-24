@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 使用上下文資料變數設定事件
 topic: Admin tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
  s.contextData['search_term']
 ```
 
-The [!UICONTROL Context Variables] list contains all variables that were sent to the report suite in the previous 30 days. If you know the context data variable name but have not sent it into the current report suite, you can add a value by typing the variable name and clicking **[!UICONTROL Add variable name context data]**:
+[!UICONTROL 「上下文變數」]清單包含在最近 30 天內，傳送至報表套裝的所有變數。如果您知道上下文資料變數的名稱但尚未將它傳送至目前的報表套裝，則可輸入變數名稱並按一下&#x200B;**[!UICONTROL 「新增變數名稱上下文資料」]**：
 
 ![](assets/add-context-variable.png)
 
@@ -35,4 +38,4 @@ The [!UICONTROL Context Variables] list contains all variables that were sent to
 
 ![](assets/processing_rule_set_event.png)
 
-請參閱實作說明中的[上下文資料變數](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/contextdata.html)。
+請參閱實作說明中的[上下文資料變數](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/contextdata.html)。
