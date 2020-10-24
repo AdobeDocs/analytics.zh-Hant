@@ -1,11 +1,11 @@
 ---
 title: 上次造訪間隔天數
 description: 目前點擊與上次造訪的間隔天數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '167'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 74%
 
 ## 維度項目
 
-維度項目包括訪客上次瀏覽與目前點擊之間的天數。 Each number of days is a separate dimension item, with `"Same day"` occurring where a visitor&#39;s last visit and the current hit happened on the same day.
+維度項目包含訪客上次造訪與目前點擊的間隔天數。每個天數都是個別的維度項目，若訪客的上次造訪與目前點擊發生於同一天，則會出現 `"Same day"`。
