@@ -3,9 +3,9 @@ description: 並非所有在「區段產生器」中建立的區段都與 Data W
 title: Data Warehouse 區段相容性
 topic: Segments
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr> 
    <td> <b>AND 和 OR 可無限結合</b> </td> 
    <td> 支援 </td> 
-   <td> 部分限制. 請參閱下表中的*附註*。 </td> 
+   <td> 部分限制.請參閱下表中的*附註*。 </td> 
   </tr> 
   <tr> 
    <td> <b>巢狀內嵌的容器</b> </td> 
@@ -73,7 +73,7 @@ ht-degree: 100%
      <li>階層 (以階層開頭的所有維度) </li> 
      <li>點擊深度 </li> 
      <li>點擊類型 </li> 
-     <li>小時 日 </li> 
+     <li>小時日 </li> 
      <li>月份 </li> 
      <li>找不到頁面 </li> 
      <li>付費搜尋 </li> 
@@ -101,4 +101,4 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*注意：使用`AND/OR`時，Data Warehouse 不支援所有使用`exclusion`或`without`容器的情況。如果使用上述組合，Data Warehouse 只支援可重新寫入為`A AND NOT B`(或&#x200B;**包含此特徵**和&#x200B;**排除此特徵**) 的區段。*
+*注意：使用 `AND/OR` 時，Data Warehouse 不支援所有使用 `exclusion` 或 `without` 容器的情況。如果使用上述組合，Data Warehouse 只支援可重新寫入為 `A AND NOT B` (或&#x200B;**包含此特徵**和&#x200B;**排除此特徵**) 的區段。*
