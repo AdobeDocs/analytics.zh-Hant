@@ -2,7 +2,10 @@
 title: JavaScript 適用的 AppMeasurement
 description: 瞭解如何在不使用標籤管理系統的情況下使用 JavaScript 實施 Adobe Analytics。
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '149'
+ht-degree: 100%
 
 ---
 
