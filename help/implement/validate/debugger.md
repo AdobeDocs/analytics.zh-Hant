@@ -1,9 +1,9 @@
 ---
 title: 舊版 Adobe Experience Cloud Debugger
 description: 安裝舊版 Adobe Experience Cloud Debugger。此除錯工具會檢查 Analytics、Target、Advertising Cloud、Identity Service、DTM 和 Launch 的標籤。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
