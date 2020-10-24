@@ -1,18 +1,18 @@
 ---
 title: 歸因概觀
 description: 將成功事件的評分歸因於多個維度項目的概念。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # 歸因概觀
 
-歸因可讓分析者自訂維度項目如何獲得成功事件的評分。 例如：
+歸因可讓分析人員自訂維度項目獲得成功事件評分的方式。例如：
 
 1. 您的網站訪客按了一下您其中一個產品頁面的付費搜尋連結。他們將產品新增至購物車，但並未購買。
 2. 隔天，他們看到了朋友的社交媒體貼文，就按下連結，並完成購買。
