@@ -1,11 +1,11 @@
 ---
 title: US DMA
 description: 點擊的指定市場區域。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 ## 維度項目
 
-維度項目包括訪客的DMA和DMA代碼。 3 位數的代碼並非郵遞區號，而是 Nielsen 彙編的 DMA 代碼。範例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。The dimension item `"No Metro (0)"` includes all international traffic outside of the United States.
+維度項目包含訪客的 DMA 和 DMA 代碼。3 位數的代碼並非郵遞區號，而是 Nielsen 彙編的 DMA 代碼。範例值包括 `"Dallas-Ft. Worth (623)"`、`"New York (501)"` 或 `"Los Angeles (803)"`。維度項目 `"No Metro (0)"` 包含美國以外的所有國際流量。
 
 ## 報告的位置與實際位置之間的差異
 
