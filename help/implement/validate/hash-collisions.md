@@ -1,8 +1,11 @@
 ---
 title: 雜湊碰撞
 description: 描述雜湊碰撞為何及其出現方式。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '443'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +29,7 @@ Adobe 會將 prop 及 eVar 值視為字串，即便數值為數字亦同。有�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> eVar62 串數值 </th> 
-   <th colname="col2" class="entry"> 雜湊 </th> 
+   <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -51,7 +54,7 @@ Adobe 會將 prop 及 eVar 值視為字串，即便數值為數字亦同。有�
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> eVar62 串數值 </th> 
-   <th colname="col2" class="entry"> 雜湊 </th> 
+   <th colname="col2" class="entry"> Hash </th> 
   </tr> 
  </thead>
  <tbody> 
