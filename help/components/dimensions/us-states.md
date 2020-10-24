@@ -1,11 +1,11 @@
 ---
 title: 美國各州
 description: 訪客所在的美國州別。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 79%
 
 ## 維度項目
 
-維項包括區域和區域所在的國家。 範例值包括 `"California"`、`"Texas"` 或 `"Virginia"`。The dimension item `"Unspecified"` includes all international traffic outside of the United States.
+維度項目包含地區和地區所在的國家/地區。範例值包括 `"California"`、`"Texas"` 或 `"Virginia"`。維度項目 `"Unspecified"` 包含美國以外的所有國際流量。
 
-此維度可以包 `"AOL"`括撥號網際網路服務提供商。 此服務的訂閱者會獲派一個存取點。 AOL使用者使用此存取點的IP位址。 由於此維度是以IP位址為基礎，因此會使用存取點的地理位置，而非訪客的實際位置。
+此維度可能包括 `"AOL"` 撥接網際網路服務供應商。此服務的訂閱者會獲得存取點。AOL 使用者可使用此存取點的 IP 位址。由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
 
 ## 報告的位置與實際位置之間的差異
 
