@@ -1,25 +1,25 @@
 ---
-title: 首次購買前幾天
-description: 訪客首次瀏覽與首次購買之間的天數。
-translation-type: tm+mt
+title: 首次購買間隔天數
+description: 訪客首次造訪與首次購買之間的天數。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 首次購買前幾天
+# 首次購買間隔天數
 
-「首次購買前的天數」維度會報告訪客首次瀏覽您網站和進行購買之間的間隔天數。 例如，如果訪客在第一次瀏覽後一天進行購買，則任何後續瀏覽或事件都屬於「1天」維度項目。
+「首次購買間隔天數」維度報告訪客首次瀏覽網站和購買之間的間隔天數。舉例來說，如果訪客在首次造訪一天後購買，則所有後續造訪或事件都屬於「1 天」維度項目。
 
-訪客進行首次購買後，在訪客的Cookie存留期剩餘時間內，他們屬於相同的維度項目。
+訪客首次購買後，就會在訪客的 Cookie 期限剩餘時間內屬於相同的維度項目。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-Adobe會根據您實作中的事件自 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 動填入此維度。 如果您在網站上實 `purchase` 作事件，此維度一律有效。
+Adobe 會根據您實作中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。如果您在網站上實作 `purchase` 事件，此維度一律有效。
 
 ## 維度項目
 
-維度項目包括訪客首次瀏覽網站與首次購買之間的天數。 每個天數是個別的維度項目，在訪客第一次瀏覽及第一次購買發生在同一天的「同一天」中。
+維度項目包括訪客首次造訪網站與首次購買之間的天數。每個天數都是個別的維度項目，若訪客的首次造訪與首次購買發生於同一天，則會出現「同一天」。
