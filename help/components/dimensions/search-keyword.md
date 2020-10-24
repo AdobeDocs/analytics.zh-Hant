@@ -1,11 +1,11 @@
 ---
 title: 搜尋關鍵字
 description: 訪客用來存取您的網站的搜尋關鍵字。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 78%
 
 >[!IMPORTANT]
 >
->隨著隱私權實務趨於嚴謹，大部分的搜尋引擎不再傳遞搜尋關鍵字。Hits where Adobe recognizes a search engine but is missing a keyword groups under the dimension item `"Keyword unavailable"`.
+>隨著隱私權實務趨於嚴謹，大部分的搜尋引擎不再傳遞搜尋關鍵字。Adobe 已辨識出搜尋引擎但缺少關鍵字的點擊，會歸類到維度項目 `"Keyword unavailable"` 下。
 
 反向連結必須符合下列兩個條件，才能分類為搜尋關鍵字：
 
 * 反向連結網域經 Adobe 認可為有效的[搜尋引擎](search-engine.md)；
-* 反向連結 URL 中有關鍵字查詢字串參數存在。If the keyword query string exists but does not contain a value, it groups under the dimension item `"Keyword unavailable"`.
+* 反向連結 URL 中有關鍵字查詢字串參數存在。如果關鍵字查詢字串存在，但不含任何值，則會歸類到維度項目 `"Keyword unavailable"` 下。
 
 如果您想要區分付費和免費搜尋，必須使用[付費搜尋偵測](/help/admin/admin/paid-search-detection/paid-search-detection.md)。搜尋關鍵字可使用多個維度：
 
@@ -35,4 +35,4 @@ ht-degree: 78%
 
 ## 維度項目
 
-維度項目包括用來存取您網站的搜尋關鍵字。 The `"Unspecified"` dimension item is all non-search traffic.
+維度項目包含用來存取您的網站的搜尋關鍵字。`"Unspecified"` 維度項目是所有非搜尋流量。
