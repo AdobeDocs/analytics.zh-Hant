@@ -3,9 +3,9 @@ description: 列出在刪除區段之前，您應注意的一些事項。
 title: 刪除區段
 topic: Segments
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
