@@ -1,16 +1,16 @@
 ---
-title: 連接類型
+title: 連線類型
 description: 訪客如何連線至網際網路。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fcaee113f2c15bfc5a1ce0a7cd31a456ba98929
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '14'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
 
-# 連接類型
+# 連線類型
 
 內容即將推出！
 
