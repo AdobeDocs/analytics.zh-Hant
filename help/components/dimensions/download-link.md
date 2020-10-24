@@ -1,11 +1,11 @@
 ---
 title: 下載連結
 description: 下載連結的名稱。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ ht-degree: 87%
 
 ## 維度項目
 
-由於此變數是以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 Adobe 建議您根據報告需求，將連結分組成有意義的類別。
+由於此變數以您實作中的自訂字串為基礎，因此您的組織會決定維度項目。Adobe 建議您根據報告需求，將連結分組成有意義的類別。
