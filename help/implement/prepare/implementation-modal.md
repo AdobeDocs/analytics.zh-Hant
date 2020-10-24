@@ -1,18 +1,18 @@
 ---
 title: 實施強制回應視窗
 description: 瞭解首次客戶實施 Adobe Analytics 的體驗。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '30'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
 
 # 實施強制回應視窗
 
-請參閱 [建立報表套裝](https://docs.adobe.com/content/help/en/analytics/admin/admin-console/create-report-suite.html)。
+請參閱[建立報表套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-console/create-report-suite.html)。
 
 <!-- https://activation.adobedtm.com/index.php?redirected=1 
 
