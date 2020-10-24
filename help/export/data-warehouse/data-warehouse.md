@@ -3,9 +3,9 @@ description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資�
 title: Data Warehouse 概觀
 topic: Data warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
 ht-degree: 100%
 
