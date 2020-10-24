@@ -2,11 +2,11 @@
 title: 變數、函數、方法和外掛程式概述
 description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
 keywords: appmeasurement,variables,vars,configuration,page,implementation
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '318'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
