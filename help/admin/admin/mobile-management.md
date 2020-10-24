@@ -3,7 +3,7 @@ description: 啟用應用程式管理會啟用行動解決方案變數，於以�
 title: 應用程式管理
 topic: Admin tools
 translation-type: ht
-source-git-commit: a28a05047e95d12343fd94f7b11e5cabf7fac070
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '623'
 ht-degree: 100%
@@ -56,7 +56,7 @@ Adobe Analytics 與 Mobile Services 之間的整合:
 | 分類 | 定義 |
 |--- |--- |
 | 首次發行日期 | 安裝或重新安裝後首次啟動的日期。MM/DD/YYYY |
-| 應用程式 ID | 以下列格式儲存應用程式名稱和版本：   `[AppName] [BundleVersion]`  例如，`myapp 1.1.` |
+| 應用程式 ID | 以下列格式儲存應用程式名稱和版本：      `[AppName] [BundleVersion]`  例如，`myapp 1.1.` |
 | 啟動次數 | 應用程式啟動或在背景執行的次數。 |
 | 首次使用後間隔天數 | 自首次執行起的天數。 |
 | 上次使用後間隔天數 | 距離上次使用的天數。 |
