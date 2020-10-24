@@ -1,18 +1,18 @@
 ---
 title: 件數
 description: 所有訂單中購買的產品總數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # 件數
 
-「件數」量度會顯示在所有訂單中購買的產品總數。此量度對於電子商務網站的測量轉換至關重要。您可以將此度量與任何維度結合，以查看哪些維度項目對購買多少產品有貢獻。 例如，您可以看到對產品購買最有貢獻的前幾項行銷活動 (使用[追蹤代碼](../dimensions/tracking-code.md)維度)，或前幾名的內部搜尋詞彙 (使用 [eVar](../dimensions/evar.md))。
+「件數」量度會顯示在所有訂單中購買的產品總數。此量度對於電子商務網站的測量轉換至關重要。您可以將此量度與任何維度結合，了解哪些維度項目促成了多少項產品的購買。例如，您可以看到對產品購買最有貢獻的前幾項行銷活動 (使用[追蹤代碼](../dimensions/tracking-code.md)維度)，或前幾名的內部搜尋詞彙 (使用 [eVar](../dimensions/evar.md))。
 
 ## 此量度的計算方式
 
