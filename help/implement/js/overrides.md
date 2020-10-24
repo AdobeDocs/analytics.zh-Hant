@@ -3,6 +3,9 @@ title: 變數覆寫
 description: 「變數覆寫」可讓您變更單一追蹤或追蹤連結呼叫的變數值。
 translation-type: ht
 source-git-commit: 1f0fd2dcb0454ad9bc2e0c2141b5e17470c6a5de
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
