@@ -1,11 +1,11 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1301'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -27,41 +27,41 @@ ht-degree: 52%
 
 ## CDA 可連結多久以前的訪客？
 
-Adobe 讓裝置資料連結約 30 天。如果裝置最初未識別，但稍後在30天內識別，CDA會返回並重新聲明裝置為屬於已識別人員，最多30天。 如果某位使用者的某些未識別行為落在 30 天回顧時限之外，該使用者的那段歷程將不會連結。
+Adobe 讓裝置資料連結約 30 天。如果最初沒有識別裝置，但之後在 30 天內識別，CDA 會回頭重新將最多 30 天以前的裝置認定為屬於已識別的使用者。如果某位使用者的某些未識別行為落在 30 天回顧時限之外，該使用者的那段歷程將不會連結。
 
-* **如果使用裝置圖表**,Adobe會在Co-op圖表和私用圖表中保留裝置對應約6個月。 系統會移除圖形中超過六個月無活動的 ECID。已在CDA中銜接的資料不受影響，但該ECID的後續點擊會視為新人。
+* **如果使用裝置圖表**，Adobe 會保留合用圖表和專用圖中的裝置對應約 6 個月。系統會移除圖形中超過六個月無活動的 ECID。CDA 中已連結的資料不會受影響，但該 ECID 的後續點擊會視為新的人員。
 
 ## CDA 如何處理時間戳記點擊？
 
-Adobe 將時間戳記點擊視為收到時間戳記時的時間，而非 Adobe 收到點擊的時間。超過1個月的時間戳記點擊絕不會進行拼接，因為它們超出Adobe用於拼接的範圍。
+Adobe 將時間戳記點擊視為收到時間戳記時的時間，而非 Adobe 收到點擊的時間。不會彙整超過 1 個月的時間戳記點擊，因為這些點擊超出 Adobe 用來彙整的範圍。
 
 ## CDA 與自訂訪客 ID 有何不同？
 
-Using a custom visitor ID is a legacy method to [connect users across devices](/help/implement/js/xdevice-visid/xdevice-connecting.md). 若使用自訂訪客 ID，需使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數明確設定用於訪客邏輯的 ID。`visitorID` 變數會覆寫任何存在的 Cookie 式 ID。
+使用自訂訪客 ID 是[跨裝置連結使用者](/help/implement/js/xdevice-visid/xdevice-connecting.md)的傳統方法。若使用自訂訪客 ID，需使用 [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數明確設定用於訪客邏輯的 ID。`visitorID` 變數會覆寫任何存在的 Cookie 式 ID。
 
-CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用。For example, the custom visitor ID methodology has no [replay](replay.md) capabilities. 如果使用者在造訪期間進行驗證，則造訪的前半部和後半部會與不同的訪客 ID 建立關聯。不同的訪客 ID 會導致造訪和訪客數膨脹。CDA會重新設定歷史資料，因此未經過驗證的點擊會屬於正確的人。
+CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用。例如，自訂訪客 ID 方法沒有[重播](replay.md)功能。如果使用者在造訪期間進行驗證，則造訪的前半部和後半部會與不同的訪客 ID 建立關聯。不同的訪客 ID 會導致造訪和訪客數膨脹。CDA 會重新認定歷史資料，因此未經驗證的點擊會屬於正確的人員。
 
 ## 是否可從自訂訪客 ID 升級至 CDA？
 
-已使用自訂訪客ID的客戶可升級至CDA，而不需進行任何實作變更。 此變 `visitorID` 數仍用於來源報表套裝中。 但是，如果使用者進行 `visitorID` 驗證，CDA會忽略虛擬報表套裝中的變數。
+原使用自訂訪客 ID 的客戶可升級至 CDA，不須變更實作。`visitorID` 變數仍用於來源報表套裝中。但如果使用者驗證，CDA 會忽略虛擬報表套裝中的 `visitorID` 變數。
 
 ## 裝置圖表如何處理共用裝置？
 
 在某些情況下，可能有多人從同一部裝置登入。例如家中的共用裝置、資料庫中的共用 PC 或零售門市的資訊站。
 
-* **如果使用裝置圖表**，則處理共用裝置的能力有限。 裝置圖形使用演算法來判斷「叢集」的所有權，而且每次發佈叢集時都可以變更。 共用設備的用戶受其所屬群集的約束。
-* **如果使用欄位式聯繫**，您選擇用來協助識別登入使用者的prop或eVar會覆寫其他識別碼。 共用裝置會被視為個別人員，即使它們源自相同裝置亦然。
+* **如果使用裝置圖表**，處理共用裝置的能力有限。裝置圖表會使用演算法來判斷「叢集」的所有權，且每次發佈叢集時都可以變更。共用裝置的使用者受限於所屬叢集。
+* **如果使用依欄位彙整**，您選擇用來協助識別登入使用者的 prop 或 eVar 會覆寫其他識別碼。共用裝置會視為是個別人員，即使來自相同裝置亦然。
 
-## CDA如何處理單人擁有多種裝置/ECID的情況？
+## CDA 如何處理單一人員擁有多部裝置/ECID 的情況？
 
 在某些情況下，個別使用者可與大量 ECID 建立關聯。如果個人使用許多瀏覽器或應用程式，就可能發生這種情況，如果他們經常清除 Cookie 或使用瀏覽器的私人或無痕瀏覽模式，更會加劇此情形。
 
-* **如果使用裝置圖表**,CDA會將連結至特定使用者ID的ECID數上限設為50。 如果用戶ID與太多ECID關聯，則設備圖表會假設用戶ID無效，並刪除與該用戶ID關聯的群集。 然後，用戶ID被添加到塊清單中，以防止其將來添加到任何群集。 產生報告的結果是，使用者ID未在各裝置間銜接。
-* **如果使用欄位式拼接**，則裝置數量與您選擇的prop/eVar無關，可協助識別登入的使用者。 單一使用者可屬於任何數量的裝置，而不會影響CDA跨裝置接合的能力。
+* **如果使用裝置圖表**，CDA 將綁定一個特定使用者 ID 的 ECID 數量上限設為 50。如果使用者 ID 與太多 ECID 建立關聯，裝置圖表就會假設該使用者 ID 無效，並刪除與該使用者 ID 相關聯的叢集。接著，使用者 ID 會新增至封鎖清單中，以防止該 ID 在日後新增至叢集中。報表中的結果為使用者 ID 不會跨裝置彙整。
+* **如果使用依欄位彙整**，裝置數量與您選擇用來識別登入使用者的 prop/eVar 無關。單一使用者可屬於任意數量裝置，不會影響 CDA 跨裝置彙整的能力。
 
-## CDA中的「人員」量度與CDA以外的「獨特訪客」量度有何差異？
+## CDA 內的「人物」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
-The [People](/help/components/metrics/people.md) metric is similar to the [Unique Visitors](/help/components/metrics/unique-visitors.md) metric in that it reports on the number of unique individuals. 不過，在使用跨裝置分析時，當不重複訪客在其他情況下，被記錄為 CDA 外的兩個個別不重複訪客時，這些不重複訪客將被合併。啟用跨裝置分析時，「人物」量度會取代「不重複訪客」量度。
+[「人物」](/help/components/metrics/people.md)量度類似[「不重複訪客」](/help/components/metrics/unique-visitors.md)量度，因為它會回報不重複個人的數量。不過，在使用跨裝置分析時，當不重複訪客在其他情況下，被記錄為 CDA 外的兩個個別不重複訪客時，這些不重複訪客將被合併。啟用跨裝置分析時，「人物」量度會取代「不重複訪客」量度。
 
 ## CDA 內的「不重複裝置」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
@@ -71,7 +71,7 @@ The [People](/help/components/metrics/people.md) metric is similar to the [Uniqu
 
 是。Analysis Workspace 使用 2.0 API 向 Adobe 伺服器要求資料，您可以檢視 Adobe 使用的 API 呼叫來建立您自己的報表：
 
-1. 登入分析工作區時，請前往「說明 [!UICONTROL >啟] 用除錯程式 」。
+1. 登入 Analysis Workspace 時，請前往[!UICONTROL 「說明] > [!UICONTROL 啟用除錯工具」]。
 2. 按一下所需面板中的除錯圖示，然後選取所需的視覺效果和要求的時間。
 3. 找出可用於向 Adobe 傳送 API 呼叫的 JSON 要求。
 
@@ -81,15 +81,15 @@ The [People](/help/components/metrics/people.md) metric is similar to the [Uniqu
 
 ## CDA 使用的最終訪客 ID 為何？我可以將它從 Adobe Analytics 匯出嗎?
 
-* **如果使用裝置圖表**，則以其叢集為基礎的自訂ID是主要識別碼。
-* **如果使用欄位式拼接**，則您選擇的prop/eVar自訂ID是主要識別碼。
+* **如果使用裝置圖表**，根據叢集的自訂 ID 是主要識別碼。
+* **如果使用依欄位彙整**，根據所選 prop/eVar 的自訂 ID 是主要識別碼。
 
-這兩個識別碼都由Adobe在執行報表時計算，也稱為報 [表時處理](../vrs/vrs-report-time-processing.md)。 報表時間處理的性質表示它與Adobe提供的資料倉庫、資料饋送或其他匯出功能不相容。
+這兩個識別碼由 Adobe 在執行報表時計算，也稱為[「報表時間處理」](../vrs/vrs-report-time-processing.md)功能。由於「報表時間處理」的性質，表示其與 Data Warehouse、資料摘要或 Adobe 提供的其他匯出功能並不相容。
 
-## 我要如何從裝置圖形移至以欄位為基礎的裝訂，反之亦然？
+## 如何從裝置圖表改為依欄位彙整？反之又該怎麼做？
 
-如果您想要切換CDA識別方法，請洽詢您組織的客戶經理。 帳戶管理員可以將您的報表套裝布建至所需的方法，以識別人員。 *來自上一個方法的歷史銜接資料將丟失。*
+如果想要切換 CDA 識別方法，請洽詢組織的客戶經理。客戶經理可將您的報表套裝佈建至所需的識別人員方法。*前一個方法的歷史彙整資料會遺失。*
 
-## Adobe如何處理欄位式拼接中使用之eVar的獨特限制？
+## Adobe 如何處理依欄位彙整中使用之 eVar 的特殊限制？
 
-CDA會在eVar維度項目針對報告最佳化之前，先提取這些項目。 您不需擔心針對CDA的獨特限制。 不過，如果您在工作區專案中嘗試使用該prop/eVar，您仍可以看 [到（低流量）維度項目](/help/technotes/low-traffic.md) 。
+CDA 會提取 eVar 維度項目，再針對報表最佳化。您不須擔心針對 CDA 的特殊限制。不過，如果您嘗試在工作區專案中使用該 prop/eVar，您仍可看到 [(低流量)](/help/technotes/low-traffic.md) 維度項目。
