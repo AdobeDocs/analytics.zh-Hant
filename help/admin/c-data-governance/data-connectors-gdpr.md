@@ -3,7 +3,7 @@ description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能
 title: 資料隱私權與 Data Connectors (Genesis)
 uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '436'
 ht-degree: 100%
