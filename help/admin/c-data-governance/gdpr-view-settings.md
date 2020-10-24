@@ -4,6 +4,9 @@ title: 檢視/管理報表套裝資料控管設定
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 translation-type: ht
 source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+workflow-type: ht
+source-wordcount: '555'
+ht-degree: 100%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 「管理工具」中的資料控管對話方塊提供概述，讓您瞭解已針對資料控管設定哪些報表套裝、是否已對應至 Experience Cloud 組織，以及此報表套裝是否已制定資料保留政策。
 
 1. 登入 Adobe Experience Cloud。
-1. 導覽至「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]**」。
+1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 資料控管」]**。
 
    您將看到屬於您登入公司的所有報表套裝：
 
