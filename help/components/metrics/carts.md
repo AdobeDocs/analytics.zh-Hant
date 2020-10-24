@@ -2,7 +2,7 @@
 title: 購物車
 description: 訪客在購物車中新增其第一項產品的點擊次數。
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '157'
 ht-degree: 100%
