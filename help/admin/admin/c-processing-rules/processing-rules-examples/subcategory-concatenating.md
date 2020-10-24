@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 串連類別和頁面名稱以新增子類別
 topic: Admin tools
 uuid: 45e5b004-690f-4d66-98f1-29baf9a954d0
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '66'
+ht-degree: 100%
 
 ---
 
