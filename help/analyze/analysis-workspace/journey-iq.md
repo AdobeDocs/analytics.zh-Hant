@@ -1,9 +1,9 @@
 ---
 title: Journey IQ
 description: 了解在 Adobe Analytics 中組成 Journey IQ 功能集的各項功能。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4a987a16be74e3a990294664179778fd2e9fcea7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
 ht-degree: 100%
 
