@@ -3,13 +3,16 @@ title: 工作區中有多個報表套裝
 description: 了解在有多個報表套裝的工作區中建立專案的方法及原因
 translation-type: ht
 source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
+workflow-type: ht
+source-wordcount: '527'
+ht-degree: 100%
 
 ---
 
 
 # 工作區中有多個報表套裝
 
-您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同 Workspace 專案內的每個面板，選擇不同的報表套裝。
+您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同工作區專案內的每個面板，選擇不同的報表套裝。
 
 此功能相當實用。舉例來說，如果您想
 
@@ -19,7 +22,7 @@ source-git-commit: 03ab0edc60f4e858acd98f14390d058387af67fa
 
 ## 將報表套裝套用至所有面板
 
-您可以對任何面板標題按滑鼠右鍵並選取「**[!UICONTROL Apply Report Suite to All Panels]**」，一次將一個報表套裝套用至所有面板。
+您可以對任何面板標題按滑鼠右鍵並選取&#x200B;**[!UICONTROL 「將報表套裝套用至所有面板」]**，一次將一個報表套裝套用至所有面板。
 
 ![](assets/apply-rs-all-panels.png)
 
