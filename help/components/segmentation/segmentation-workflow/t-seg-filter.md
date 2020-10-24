@@ -3,9 +3,9 @@ description: 依標記、擁有者和其他篩選器 (「全部顯示」、「�
 title: 篩選區段
 topic: Segments
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
 ht-degree: 100%
 
