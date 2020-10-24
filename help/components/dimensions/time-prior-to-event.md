@@ -1,11 +1,11 @@
 ---
 title: 事件之前時間
 description: 量度與造訪的首次點擊之間相隔的時間量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 78%
 
 ## 維度項目
 
-Dimension items include time-based buckets ranging from `"Less than 1 minute"` to `"More than 15 hours"`. For example, if it took a visitor 23 minutes from their first hit to a purchase, it would belong under the `"10 to 30 minutes"` dimension item.
+維度項目包含以時間為基礎的貯體，範圍介於 `"Less than 1 minute"` 到 `"More than 15 hours"` 之間。例如，如果某個訪客從首次點擊到購買花了 23 分鐘，則會歸類於 `"10 to 30 minutes"` 維度項目下。
