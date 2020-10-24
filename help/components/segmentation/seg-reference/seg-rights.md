@@ -3,9 +3,9 @@ description: 區段的功能現在主要是以管理員級使用者與非管理�
 title: 不同角色的區段權限
 topic: Segments
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
 ht-degree: 100%
 
