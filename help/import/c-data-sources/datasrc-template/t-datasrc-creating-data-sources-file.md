@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 產生匯入檔案範本
 topic: Developer and implementation
 uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '596'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 重要範本檔案是用來讓您開始匯入。
 
-不限使用範本中定義的欄。您可以視需要新增任何其他欄，只要選取的資料處理類型支援量度或定義。您可以在下列各節查閱各類型支援的量度和維度: [網站記錄檔](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)、[流量](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md)、[轉換](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)、[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)、[訪客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)、[完整處理](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md))。例如，針對流量資料類型，可以替列在[流量](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md)中的任何量度或維度新增欄。
+不限使用範本中定義的欄。您可以視需要新增任何其他欄，只要選取的資料處理類型支援量度或定義。您可以在下列各節查閱各類型支援的量度和維度:  [網站記錄檔](/help/import/c-data-sources/c-datasrc-types/datasrc-web-log.md)、[流量](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md)、[轉換](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)、[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)、[訪客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)、[完整處理](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md))。例如，針對流量資料類型，可以替列在[流量](/help/import/c-data-sources/c-datasrc-types/datasrc-traffic.md)中的任何量度或維度新增欄。
 
 建立後，可下載範本，將您的資料輸入範本，然後上傳資料到資料來源 FTP 站台。「資料來源」伺服器處理後，您的 Analytics 報表就可以使用匯入的資料。
 
