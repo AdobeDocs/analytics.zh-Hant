@@ -6,7 +6,7 @@ title: 自訂 Analytics 工具權限
 topic: Admin tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '673'
 ht-degree: 100%
@@ -53,7 +53,7 @@ ht-degree: 100%
 | [安全性](/help/admin/company/security-manager.md) | 授予安全管理員頁面的權限，以控制對報表資料的存取。選項包括增強式密碼、密碼過期、IP 登入限制及電子郵件網域限制。 |
 | 支援資訊 | 授予公司設定中的支援資訊的權限。 |
 | [網站服務](/help/admin/company/web-services-admin.md) | 允許存取管理工具介面中的「網站服務」頁面 ([!UICONTROL 公司設定] > [!UICONTROL 網站服務])。<br>「網站服務 API」提供對 Adobe Analytics 服務可程式化的存取，可讓您透過使用者介面複製並增強可用功能。 |
-| 單一登入 (舊版) | 授予對管理工具中單一登入頁面的存取。<br>**注意：**Adobe Experience Cloud 中的單一登入是使用 Experience Cloud 與解決方案之間的[帳戶連結](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/organizations.html)實施。 |
+| 單一登入 (舊版) | 授予對管理工具中單一登入頁面的存取。<br>**注意：** Adobe Experience Cloud 中的單一登入是使用 Experience Cloud 與解決方案之間的[帳戶連結](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/organizations.html)實施。 |
 | [待定動作](/help/admin/company/pending-actions-admin.md) | 授予在[!UICONTROL 公司設定]中管理待定動作的權限。 |
 | [品牌結合](/help/admin/company/co-branding-admin.md) | 授予與 Analytics 品牌結合的權限。 |
 | [偏好設定](/help/admin/admin/preferences-manager.md) | 授予[!UICONTROL 偏好設定管理器]的權限。 |
