@@ -76,7 +76,7 @@ eVar 最適合用來測量原因和結果，如：
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">當月過期：eVar 將於星期一後第 31 天早上 7:15 過期。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定的轉換事件。</b>在指定的特定事件之後引發的任何其他轉換事件，都會關聯至 eVar。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不。</b>只要      <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不。</b>只要       <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
