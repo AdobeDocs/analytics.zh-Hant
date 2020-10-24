@@ -4,7 +4,10 @@ title: 連結追蹤方法
 topic: Activity map
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '1000'
+ht-degree: 100%
 
 ---
 
