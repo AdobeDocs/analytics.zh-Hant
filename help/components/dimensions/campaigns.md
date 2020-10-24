@@ -1,9 +1,9 @@
 ---
 title: 行銷活動
 description: 「去除混淆」頁面。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '37'
 ht-degree: 100%
 
