@@ -1,11 +1,11 @@
 ---
 title: 國家/地區
 description: 點擊的來源國家/地區。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## 維度項目
 
-維度項目包括全球各地的國家。 範例值包括 `"United States"`、`"United Kingdom"` 或 `"India"`。
+維度項目包含全球各個國家/地區。範例值包括 `"United States"`、`"United Kingdom"` 或 `"India"`。
 
 ## 報告的位置與實際位置之間的差異
 
