@@ -3,11 +3,11 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 topic: Segments
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3857'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 | 符合 | A 然後 B<br>A 然後 (在不同次造訪中) B<br>A 然後 D 然後 B |
 | 不符合 | B 然後 A |
 
-## 「僅限序列之前」與「僅限序列之後」 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## 「僅限序列之前」與「僅限序列之後」{#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 **[!UICONTROL 「僅限序列之前」]**&#x200B;與&#x200B;**[!UICONTROL 「僅限序列之後」選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
 
@@ -261,9 +261,9 @@ ht-degree: 98%
 如果要將循序查核點分組，則「容器」為邏輯群組。不過，如果這些循序查核點必須發生在單一點擊或造訪範圍內，則需要「點擊」或「造訪」容器。(當然，「點擊」對於一組循序查核點來說並沒有意義，因為一次點擊最多只會評為一個查核點)。
 
 **邏輯群組是否可簡化建立循序區段的流程？**
-是的，可以。假設您正嘗試識別此訪客區段： **檢視頁面A，接著檢視每個頁面B、C和D的訪客**
+是的，可以。假設您正嘗試識別此訪客區段：**檢視了頁面 A，接著分別檢視頁面 B、C 和 D 的訪客**
 
-您可以在不使用邏輯群組容器的情況下建立此區段，但是過程既複雜又費力. 您必須指定訪客可檢視的每個頁面順序：
+您可以在不使用邏輯群組容器的情況下建立此區段，但是過程既複雜又費力.您必須指定訪客可檢視的每個頁面順序：
 * `Visitor Container [Page A THEN Page B THEN Page C THEN Page D] or`
 * `Visitor Container [Page A THEN Page B THEN Page D THEN Page C] or`
 * `Visitor Container [Page A THEN Page C THEN Page B THEN Page D] or`
@@ -355,7 +355,7 @@ ht-degree: 98%
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器並指定精細度和計數，將符合限制至指定的持續時間。[!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。[!UICONTROL After] 運算子用來指定兩個查核點之間時間量的下限。
 
-### After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 運算子{#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持續時間的指定方式是使用代表精細度的單一大寫字母，後接代表精細度重複計數的數字。
 
