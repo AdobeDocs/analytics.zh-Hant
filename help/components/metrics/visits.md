@@ -1,11 +1,11 @@
 ---
 title: 瀏覽
 description: 某一段時間的頁面檢視順序。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '589'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -52,6 +52,6 @@ ht-degree: 90%
 
 每個相關時段會分別計入一次造訪。例如，如果訪客在星期一晚上 11:45 開始導覽您的網站，然後在星期二凌晨 12:10 傳送其最後一個影像要求，您將會看到歸因於星期一和星期二的造訪。不過，總造訪量度會刪除重複項目，而在專案日期範圍內顯示單次造訪。
 
-## 維度的瀏覽次數與總瀏覽次數
+## 維度的造訪次數與總造訪次數
 
-維度內容中的瀏覽次數(例如 [Marketing Channel](../dimensions/marketing-channel.md))會顯示隨時包含特定維度項目的瀏覽次數。 在同一次瀏覽中，多個維度項目通常存在於不同的點擊上。 嘗試匯總維度項目上的瀏覽次數通常沒有意義。
+維度內容中的造訪次數 (例如[行銷管道](../dimensions/marketing-channel.md)) 會顯示任何時候包含特定維度項目的造訪。在同一次造訪中，多個維度項目經常存在於不同的點擊上。嘗試加總維度項目報告的造訪次數通常沒有意義。
