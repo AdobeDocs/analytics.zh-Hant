@@ -1,11 +1,11 @@
 ---
 title: 找不到頁面
 description: 在您的網站上傳回錯誤的 URL。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 92%
 
 ## 維度項目
 
-維度項目包括發生錯誤之網站上頁面的URL。
+維度項目包含您的網站上發生錯誤之頁面的 URL。
