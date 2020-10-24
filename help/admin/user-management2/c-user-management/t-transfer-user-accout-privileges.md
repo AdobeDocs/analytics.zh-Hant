@@ -4,8 +4,11 @@ subtopic: Users and groups
 title: 轉移使用者帳戶項目
 topic: Admin tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: tm+mt
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '233'
+ht-degree: 100%
 
 ---
 
@@ -20,8 +23,8 @@ source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
 
 1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理」]**。
 1. 按一下&#x200B;**[!UICONTROL 「編輯使用者」]**。
-1. 尋找您要從中轉移資產的使用者，並選取此使用者列旁的核取方塊。
-1. 從上 **[!UICONTROL 方的動作列選取]** 「轉移資產」。
+1. 尋找您要轉移哪個使用者的資產，並選取此使用者列旁的核取方塊。
+1. 在上方的動作列中選取&#x200B;**[!UICONTROL 「轉移資產」]**。
 1. 在&#x200B;**[!UICONTROL 轉移]**&#x200B;頁面上，選取要接收轉移使用者帳戶的使用者帳戶。
 1. 選取要轉移的帳戶項目，然後按一下&#x200B;**[!UICONTROL 「轉移」]**。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**，確認您要轉移所選帳戶資源。
