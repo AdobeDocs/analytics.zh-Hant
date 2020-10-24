@@ -2,7 +2,7 @@
 title: 函數與方法
 description: 瞭解如何在實施中使用 Adobe 提供的函數和方法。
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
