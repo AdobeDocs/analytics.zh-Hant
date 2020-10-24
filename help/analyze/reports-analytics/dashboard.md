@@ -43,11 +43,11 @@ ht-degree: 100%
 
 除了您建立的控制面板外，使用者也可使用下列預先封裝的控制面板︰
 
-**[!UICONTROL 元件]>[!UICONTROL 控制面板]>[!UICONTROL 共用控制面板]>[!UICONTROL 本機網站]**
+**[!UICONTROL 元件] > [!UICONTROL 控制面板] > [!UICONTROL 共用控制面板] > [!UICONTROL 本機網站]**
 
 這個可自訂的控制面板提供將小報表放至所提供範本的方法。
 
-**[!UICONTROL 元件]>[!UICONTROL 控制面板]>[!UICONTROL 共用控制面板]>[!UICONTROL 網站作業控制面板]**
+**[!UICONTROL 元件] > [!UICONTROL 控制面板] > [!UICONTROL 共用控制面板] > [!UICONTROL 網站作業控制面板]**
 
 這個控制面板提供與網站作業相關之關鍵度量的概述。該控制面板上的報表包括︰
 
