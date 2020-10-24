@@ -1,11 +1,11 @@
 ---
 title: 色彩深度
 description: 裝置的色彩深度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '220'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## 維度項目
 
-維度項目包括裝置支援的色彩數目。 範例值包括 `"16 million (24-bit)"`、`"16 million (32-bit)"` 和 `"65,536 (16-bit)"`。如果 AppMeasurement 無法判斷色彩深度，則會顯示為 `"None"`。
+維度項目包含裝置支援的色彩數量。範例值包括 `"16 million (24-bit)"`、`"16 million (32-bit)"` 和 `"65,536 (16-bit)"`。如果 AppMeasurement 無法判斷色彩深度，則會顯示為 `"None"`。
 
 >[!TIP]
 >
