@@ -3,6 +3,9 @@ title: 使用 Launch 進行實施概述
 description: 瞭解如何使用 Adobe Experience Platform Launch 實施 Adobe Analytics
 translation-type: ht
 source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
+workflow-type: ht
+source-wordcount: '302'
+ht-degree: 100%
 
 ---
 
