@@ -1,11 +1,11 @@
 ---
 title: contextData
 description: 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,12 +57,12 @@ s.linkTrackVars = "contextData.example_variable";
 s.tl(true,"o","Example context data link");
 ```
 
-## 使用上下文資料變數增加事件
+## 使用內容資料變數的增加事件
 
-建立處理規則時，您可以指派上下文資料變數至事件。
+建立處理規則時，您可以為事件指派內容資料變數。
 
-* 如果上下文資料變數包含任何類型的文字，事件會遞增一。
-* 如果上下文資料變數包含整數，事件會以該整數量為增量。
+* 如果內容資料變數包含任何類型的文字，事件會增加 1。
+* 如果內容資料變數包含整數，事件會增加該整數的數量。
 
 ```js
 // Assigning this context data variable to an event increments it by one
