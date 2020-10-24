@@ -1,9 +1,9 @@
 ---
 description: 您不能結合「分類規則產生器」和子分類。
 title: 子分類和規則產生器
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
 ht-degree: 100%
 
