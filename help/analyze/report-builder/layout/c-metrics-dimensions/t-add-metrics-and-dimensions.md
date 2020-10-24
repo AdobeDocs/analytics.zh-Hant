@@ -3,8 +3,11 @@ description: 將度量和維度新增至請求的步驟。
 title: 新增度量和維度
 topic: Report builder
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '515'
+ht-degree: 100%
 
 ---
 
@@ -13,14 +16,14 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 將度量和維度新增至請求的步驟。
 
-1. [在上建立資料請求](/help/analyze/report-builder/data-requests/data-requests.md) , [!UICONTROL Request Wizard: Step 1]然後按一下 **[!UICONTROL Next]**。
-1. On the [!UICONTROL Request Wizard: Step 2], double-click metrics, or drag them to the desired position.
+1. 在[!UICONTROL 「請求精靈: 步驟 1」]中[建立資料請求](/help/analyze/report-builder/data-requests/data-requests.md)，然後按&#x200B;**[!UICONTROL 「下一步」]**。
+1. 在[!UICONTROL 「請求精靈: 步驟 2」]中按兩下度量，或將度量拖曳到需要的位置。
 
    ![步驟資訊](assets/adding_metrics.png)
 
-   When you add metrics, they are not removed from the [!UICONTROL Metrics] tab, because you can display metrics multiple times within a request. 例如，您可以顯示小計度量以指出每個值相加的結果。然而，可用度量的清單會在您每次新增或移除維度時改變。
+   由於您可以在請求中顯示度量多次，因此在新增度量時，系統不會移除「[!UICONTROL 度量]」索引標籤中的度量。例如，您可以顯示小計度量以指出每個值相加的結果。然而，可用度量的清單會在您每次新增或移除維度時改變。
 
-   You can add only metrics to the [!UICONTROL Metrics] layout section. 量度會新增至 [!UICONTROL Column Label] 版面中 [!UICONTROL Metric Header]。 If you move a [!UICONTROL Metric Header] from [!UICONTROL Column Layout] to [!UICONTROL Row Layout], it is displayed there and is used as a metric as a breakdown.
+   您只能將度量新增至「[!UICONTROL 度量]」配置區段。會在「[!UICONTROL 欄標籤]」配置中新增度量為「[!UICONTROL 度量標題]」。如果您將「[!UICONTROL 度量標題]」從「[!UICONTROL 欄配置]」移動到「[!UICONTROL 列配置]」，度量標題會顯示在該處，並作為劃分度量使用。
 
    請注意，搜尋列會顯示在「度量」標籤上，位在「度量」清單正上方。
 
@@ -50,9 +53,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. (選用項目) 若要依度量排序請求，只要按一下度量標籤即可。
 1. 以新增度量的方法新增維度。
 
-On the [!UICONTROL Dimensions] tab, the system displays dimensions that break down or are a classification of any base report you select on Step 1, and on the configuration of the report suite. 將維度拖放在配置格線時，系統會將配置格線從樹狀檢視中移除，然後重新計算剩餘可用的維度的清單。
+在[!UICONTROL 「維度」]索引標籤中，系統會顯示在「步驟 1」和報表套裝組態中劃分的維度，或者屬於所選之任何基礎報表分類的維度。將維度拖放在配置格線時，系統會將配置格線從樹狀檢視中移除，然後重新計算剩餘可用的維度的清單。
 
-The [!UICONTROL Date] dimension is added automatically. Available date dimensions change depending on the selected granularity from the [!UICONTROL Request Wizard: Step 1]. (有效值為：
+系統會自動新增[!UICONTROL 「日期」]維度。可用的日期維度會隨著在[!UICONTROL 「請求精靈: 步驟 1」]中選擇的粒度而改變。(有效值為：
 
     * Hour
     * Day
@@ -62,7 +65,6 @@ The [!UICONTROL Date] dimension is added automatically. Available date dimension
     * Date range (若未指定粒度)
 
 1. 設定[格式選項](/help/analyze/report-builder/layout/t-format-display-headers.md)和篩選器，修改量度和維度。
-1. 按一下 **[!UICONTROL Finish]**.
-In the following example, dimensions relate to the [!UICONTROL Page] metric. 在這裡，維 [!UICONTROL Referring Domain] 度會建立和之間的劃分 [!UICONTROL Page] 報表 [!UICONTROL Referring Domain]。 The [!UICONTROL Dimension] tab is updated with only dimensions that you can add to a breakdown report.
+1. 按一下&#x200B;**[!UICONTROL 完成]**。在以下範例中，維度與[!UICONTROL 「頁面」]度量相關。在此範例中，[!UICONTROL 「反向連結網域」]維度建立了[!UICONTROL 「頁面」]和[!UICONTROL 「反向連結網域]」間的劃分報表。只會針對您可以新增至劃分報表的維度更新[!UICONTROL 「維度」]索引標籤。
 
 ![](assets/page_pageview_02.png)
