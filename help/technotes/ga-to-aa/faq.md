@@ -1,11 +1,11 @@
 ---
 title: 常見問題集
 description: 取得從協力廠商平台移轉至 Adobe 時的常見問題解答。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '403'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe 不建議移植歷史資料，因為這是一個複雜的程序，而且對貴組織而言成本太高。訪客身分識別也不可能流暢移植至 Adobe，因為各平台上的訪客資訊會以不同的 Cookie 和不同格式儲存。
 
-**因為經常在報表中看到分段下拉式清單，我已經習慣了。如何在[!UICONTROL Analysis Workspace]中加以重新建立？**
+**因為經常在報表中看到分段下拉式清單，我已經習慣了。如何在 [!UICONTROL Analysis Workspace] 中加以重新建立？**
 
 下拉式篩選器是 [!UICONTROL Analysis Workspace] 中一項彈性且強大的功能，可支援細分下拉式清單。在工作區專案中：
 
@@ -29,6 +29,6 @@ Adobe 不建議移植歷史資料，因為這是一個複雜的程序，而且�
 
 現在，存取此[!UICONTROL 工作區]專案的使用者可以使用此下拉式清單，將區段或其他元件套用至專案。如需詳細資訊，請參閱 Adobe Analytics 工具指南中的[面板概觀](/help/analyze/analysis-workspace/c-panels/panels.md)。
 
-**我習慣按一下維度項目來檢視深入檢視。 我該如何在 Analysis Workspace 中重現這樣簡單的工作流程？**
+**我習慣按一下維度項目來查看深入分析。我該如何在 Analysis Workspace 中重現這樣簡單的工作流程？**
 
-Dimension items in [!UICONTROL Analysis Workspace] also have an easy breakdown workflow. 使用滑鼠右鍵 (而非滑鼠左鍵) 加以存取。Right-click on a dimension item, click **[!UICONTROL Breakdown], then select the desired component. 您可以對每個值使用ctrl+click(Windows)或cmd+click(Mac)，將相同的劃分套用至多個維度項目。
+[!UICONTROL Analysis Workspace] 中的維度項目也有簡單的劃分工作流程。使用滑鼠右鍵 (而非滑鼠左鍵) 加以存取。以滑鼠右鍵按一下維度項目，按一下 **[!UICONTROL 「劃分」]，然後選取所需元件。您可以對每個值按住 Ctrl 鍵並按一下 (Windows) 或按住 Cmd 鍵並按一下 (Mac OS)，將相同的劃分套用至多個維度項目。
