@@ -4,11 +4,11 @@ keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event
 title: 計算量度
 topic: Reports and analytics
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe 用來識別獨特訪客的所有方法 (自訂訪客 ID、Experience Clou
 1. 串連 `post_visid_high`、`post_visid_low`、`visit_num` 和 `visit_start_time_gmt`。
 2. 依此串連值排序，然後依 `visit_page_num` 套用次要排序。
 3. 如果點擊不是瀏覽中的最後一個，請從後續點擊的 `post_cust_hit_time` 值中減去該 `post_cust_hit_time` 值。
-4. 此數字是點擊的逗留時間 (以秒為單位)。篩選可套用至維度項目或事件。
+4. 此數字是點擊的逗留時間 (以秒為單位)。可套用篩選條件，以著重在維度項目或事件。
 
 ## 訂購、件數和收入
 
