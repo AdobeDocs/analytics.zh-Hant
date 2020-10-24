@@ -3,8 +3,11 @@ description: Adobe Report Builder 現在提供類似於 Analytics 管理工具�
 title: 維度與度量的使用者存取權限
 topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '204'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +26,7 @@ Adobe Report Builder 現在提供類似於 Analytics 管理工具中的權限設
 
 1. 開啟活頁簿。
 1. 重新整理所有請求。
-1. If you get prompted with a User Access Permission error, click **[!UICONTROL Open CSV File]** to get access to the list of restricted permissions errors.
+1. 如果出現「使用者存取權限」錯誤提示，請按一下「**[!UICONTROL 開啟 CSV 檔案]**」，以存取限制權限錯誤清單。
 1. 建立「AllRestrictedPermissionErrors.xlsx」檔案，並將 CSV 檔案中的限制權限錯誤清單複製/貼上至此檔案。
 1. 關閉 Report Builder 活頁簿。
 
