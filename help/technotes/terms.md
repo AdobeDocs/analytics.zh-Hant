@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2458'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 98%
 * **管道：**&#x200B;可以指：
    * 管道變數，會填入「網站區段」維度。請參閱實作使用手冊中的[頁面變數](/help/implement/vars/page-vars/page-variables.md)。
    * 行銷管道，此元件有助於瞭解使用者如何到達您的網站。請參閱元件使用手冊中的[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **分類：** Adobe Analytics中允許對維度項目進行分組的功能。 請參閱元件使用手冊中的[分類](/help/components/classifications/c-classifications.md)。
+* **分類：** Adobe Analytics 的一項功能，用於將維度項目分組。請參閱元件使用手冊中的[分類](/help/components/classifications/c-classifications.md)。
 * **點按圖：**&#x200B;已停止使用。一種舊版瀏覽器外掛程式，可顯示網站上哪些區域的點按頻率最高。此工具已淘汰，改用 Activity Map。
 * **點按流資料摘要：**&#x200B;請見「資料摘要」。
 * **同類群組：**&#x200B;指定的一段時間內具有共同特徵的一群人。請參閱分析使用手冊中的[同類群組分析是什麼？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
@@ -75,7 +75,7 @@ ht-degree: 98%
 * **量度：**&#x200B;包含量化資料的元件類型。度量值通常包含數字，例如頁面檢視次數、造訪次數和營收。維度通常是其對應項目。
 * **多套裝標記：**&#x200B;將相同點擊傳送至多個報表套裝的作法。隨著虛擬報表套裝的推出，此作法基本上已失去必要性。大部分的多套裝標記作業都有助於調整全域報表套裝。
 * **正規化：**&#x200B;整理視覺化效果的方式，可納入所有量度並將其強制為等比例，以便更輕鬆進行趨勢比較。
-* **發生次數：** 一種量度，顯示維度項目已設定或持續的點擊數。 請參閱「元件」使用指南中的[發生次數](/help/components/metrics/occurrences.md)量度。
+* **發生次數：**&#x200B;一種量度類型，可顯示多少點擊已設定或存在某個維度項目。請參閱「元件」使用指南中的[發生次數](/help/components/metrics/occurrences.md)量度。
 * **Omniture：**&#x200B;不再作為詞彙使用。2009 年 Adobe 收購 Adobe Analytics 之前擁有 Adobe Analytics 的組織。
 * **路徑：**&#x200B;請見「流量」。
 * **頁面檢視：**&#x200B;會增加頁面檢視次數的點擊類型。請參閱「元件」使用指南中的[頁面檢視](/help/components/metrics/page-views.md)量度。另請見「點擊」。
