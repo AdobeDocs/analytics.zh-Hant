@@ -1,11 +1,11 @@
 ---
 title: 語言
 description: 瀏覽器中的慣用語言設定。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 80%
 
 ## 維度項目
 
-維度項目包含訪客慣用語言的好記名稱。 範例包括 `"English (United States)"`、`"English (United Kingom)"`、`"Chinese (China)"` 和 `"Spanish (Spain)"`。If an image request does not contain a valid language in the HTTP header, the dimension item is `"None"`.
+維度項目包含訪客慣用語言的好記名稱。範例包括 `"English (United States)"`、`"English (United Kingom)"`、`"Chinese (China)"` 和 `"Spanish (Spain)"`。如果影像要求在 HTTP 標題中未包含有效語言，則維度項目為 `"None"`。
