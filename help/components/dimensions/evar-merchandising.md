@@ -1,18 +1,18 @@
 ---
 title: eVar (銷售)
 description: 繫結至產品維度的自訂變數。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
 # eVar (銷售)
 
-*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售 eVar 的相關資訊，請參閱「實作」使用指南中的[eVar](/help/implement/vars/page-vars/evar.md)。*
+*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售 eVar 的相關資訊，請參閱「實作」使用指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
 測量外部促銷活動或外部搜尋詞的成功情形時，通常會想使用單一值來接收發生之任何成功事件的評分。例如，如果客戶按一下促銷活動電子郵件中的連結而前往您的網站，其隨後進行的所有購買都應評給該促銷活動。
 
@@ -48,7 +48,7 @@ ht-degree: 95%
 不建議將[例項](../metrics/instances.md)量度用於銷售變數。
 
 * 對於使用產品語法的銷售變數，例項完全不會增加。
-* 對於使用轉換變數語法的銷售變數，在每次設定 eVar 時都會計算例項。However, it attributes to the dimension item `"None"` unless all of the following happen on the same hit:
+* 對於使用轉換變數語法的銷售變數，在每次設定 eVar 時都會計算例項。不過，它會歸因於維度項目 `"None"`，除非相同的點擊上發生了以下所有情況：
    * 銷售 eVar 設定了某個值。
    * `products` 變數以某個值定義。
    * 已設定綁定事件。
