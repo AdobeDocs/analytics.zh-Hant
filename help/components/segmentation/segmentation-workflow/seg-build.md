@@ -3,11 +3,11 @@ description: 「區段產生器」提供畫布來拖放「量度維度」、「�
 title: 建立區段
 topic: Segments
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: tm+mt
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '2051'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
    * **[!UICONTROL + 新增容器]**：可讓您新增新的容器 (在頂層容器下) 至區段定義。
    * **[!UICONTROL 排除]**：可讓您透過排除一或多個維度、區段或量度來定義區段。
 
-1. **[!UICONTROL 維度]**:元件會從「維度」清單中拖放（橘色側欄）。
+1. **[!UICONTROL 維度]**：從維度清單拖放過來的元件 (橘色側欄)。
 1. **[!UICONTROL 運算子]**：您可以使用選取的運算子來比較和限制值。
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL 歸因模型]**：這些模型僅適用於維度，可決定要分段的維度值。維度模型在循序細分中特別有用。
@@ -63,13 +63,13 @@ ht-degree: 96%
 1. **[!UICONTROL 比較]**&#x200B;運算子：可使用選取的運算子來比較和限制值。
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL X]**：(刪除) 可用來刪除這個部分的區段定義。
-1. **[!UICONTROL Experience Cloud發佈]**:將Adobe Analytics區段發佈至Experience Cloud可讓您在其他啟動通道中使用該區 [!DNL Audience Manager] 段進行行銷活動。 [更多詳情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 觀眾程式庫]**:Adobe的觀眾服務可管理將訪客資料轉譯為觀眾區隔。 因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL Experience Cloud 發佈]**：將 Adobe Analytics 區段發佈至 Experience Cloud，可讓您在 [!DNL Audience Manager] 和其他啟用管道中，使用該區段進行行銷活動。[更多詳情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
+1. **[!UICONTROL 受眾庫]**：Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 搜尋]**：搜尋維度、區段或量度清單。
 1. **[!UICONTROL 維度]**：(清單) 按一下標題可展開。
 1. **[!UICONTROL 量度]**：按一下標題可展開。
 1. **[!UICONTROL 區段]**：按一下標題可展開。
-1. **[!UICONTROL 報表套裝選擇器]**:可讓您選取此區段將儲存在下方的報表套裝。 您仍可以使用所有報表套裝中的區段。
+1. **[!UICONTROL 報表套裝選取器]**：可讓您選取要將此區段儲存哪個報表套裝底下。您仍可以使用所有報表套裝中的區段。
 1. **[!UICONTROL 區段預覽]**：可讓您預覽關鍵量度，以查看您是否具備有效的區段及區段的廣度。代表如果您套用此區段，可以預期看到的資料集劃分。顯示 3 個同心圓以及一個清單，以顯示對資料集執行之區段的[!UICONTROL 點擊]、[!UICONTROL 瀏覽]和[!UICONTROL 訪客]符合項目的數目和百分比。在您建立或對區段定義進行變更之後，此圖表會立即更新。
 1. **[!UICONTROL 產品相容性]**：提供與您所建立區段相容的 Adobe Analytics 產品 (Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse) 清單。大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在您對區段定義進行變更之後，此圖表會立即更新。
 1. **[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：儲存或取消區段。按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;之後會進入「區段管理器」，您可在此管理區段。
