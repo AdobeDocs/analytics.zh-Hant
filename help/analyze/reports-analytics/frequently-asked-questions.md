@@ -3,11 +3,11 @@ description: 針對 Analytics 的最常問問題提供解答和疑難排解建�
 keywords: Troubleshooting Analytics
 title: 常見問題集
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Apple 裝置會在使用者代理程式字串中顯示其韌體版本，而非�
 
 **為何加總所有值時，報表底部的總計並不相符？**
 
-維度項目通常可套用至多個位置；例如，跨午夜的瀏覽或屬於單一訂單的多個產品。 維度項目會報告至所有適用的行項目，但會在報表的總計中去重複化。 如需詳細資訊，請參閱 Analytics 知識庫中的[比較條列項目的總合和報表總計](https://helpx.adobe.com/tw/analytics/kb/sum-line-items-different-from-total.html)。
+維度項目常會套用至多個位置，例如跨夜的瀏覽活動，或同一訂單的多項產品。維度項目會統計所有適用條列項目的數據，但報表的總計欄會刪除重複的值。如需詳細資訊，請參閱 Analytics 知識庫中的[比較條列項目的總合和報表總計](https://helpx.adobe.com/tw/analytics/kb/sum-line-items-different-from-total.html)。
 
 **如何在報表套裝中排除特定 IP 位址的資料？**
 
