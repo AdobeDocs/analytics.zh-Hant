@@ -1,11 +1,11 @@
 ---
 title: 城市
 description: 點擊的來源城市。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 80%
 
 ## 維度項目
 
-維度項目包括全球各地的城市。 範例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
+維度項目包含全球各個城市。範例值包括 `"New York (New York, United States)"`、`"Bangalore (Karnataka, India)"` 或 `"London (London, United Kingdom)"`。
 
-某些維度項目可 `"AOL"`以包括撥號網際網路服務提供商。 此服務的訂閱者會根據其帳號建立所在的國家／地區，獲派一個存取點。 AOL使用者使用此存取點的IP位址。 由於此維度是以IP位址為基礎，因此會使用存取點的地理位置，而非訪客的實際位置。
+某些維度項目可能包括 `"AOL"` (撥號網際網路服務提供者)。此服務的訂閱者會根據其帳號建立時所在的國家/地區，獲得一個指定的存取點。AOL 使用者可使用此存取點的 IP 位址。由於此維度是以 IP 位址為根據，因此系統會使用存取點的地理位置，而非訪客的實際位置。
 
 ## 報告的位置與實際位置之間的差異
 
