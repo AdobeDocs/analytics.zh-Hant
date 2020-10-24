@@ -2,7 +2,7 @@
 title: getPreviousValue
 description: 取得最後一個傳至變數的值。
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '888'
 ht-degree: 100%
