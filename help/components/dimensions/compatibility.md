@@ -1,11 +1,11 @@
 ---
 title: Analytics 維度相容性
 description: Analytics 維度與報表的參考資料。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '985'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->此清單中省略了自訂變數名稱、分類和訪客屬性。這些維度項目是個別報表套裝專屬的。
+>此清單中省略了自訂變數名稱、分類和訪客屬性。這些維度項目是個別報表套裝專用。
 
 >[!NOTE]
 >
