@@ -1,11 +1,11 @@
 ---
 title: 動態變數
 description: 複製變數而不增加影像要求長度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '359'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ ht-degree: 94%
 
 ## Adobe Experience Platform Launch 中的動態變數
 
-您可以在任何接受字串的維度欄位中使用動態變數。維度項目通常會在設定Analytics擴充功能（全域變數）時或在規則下設定。
+您可以在任何接受字串的維度欄位中使用動態變數。維度項目通常會在設定 Analytics 擴充功能 (全域變數) 時設定，或依據規則進行設定。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
-6. 找出所要的維度項目。
+6. 找出所需的維度項目。
 
 將動態變數首碼放置在文字欄位中，隨後加上您要參考的查詢字串參數或 HTTP 標題。依預設，動態變數首碼為 `D=`。
 
