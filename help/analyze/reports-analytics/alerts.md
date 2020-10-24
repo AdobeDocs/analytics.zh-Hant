@@ -4,8 +4,11 @@ subtopic: Alerts
 title: 警報
 topic: Reports and analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '881'
+ht-degree: 100%
 
 ---
 
@@ -21,9 +24,9 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
 * 建立在單一警報中擷取多個量度的「堆疊」警報。
 
-You can access this new Alerts system from **[!UICONTROL More]** > **[!UICONTROL Alerts]** in any report in Reports &amp; Analytics.
+您可以在 Report &amp; Analytics 中任何報告內的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
 
-若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
+若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
 
 ## 新增警報 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 
@@ -35,17 +38,17 @@ t_add_an_alert.xml
 
  -->
 
-Navigate to the new Alert Builder in the **[!UICONTROL Analytics]** > **[!UICONTROL Components]** menu. 不過，您仍可從「Report &amp; Analytics」內的報表存取：
+導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件」]**&#x200B;功能表中新版的「警報產生器」。不過，您仍可從「Report &amp; Analytics」內的報表存取：
 
 1. 在「Report &amp; Analytics」內，開啟您要設定警報的報告。
-1. 按一下 **[!UICONTROL More]** > **[!UICONTROL Add Alert]**.
-1. 這步驟能帶您進入[新版警報產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)。
+1. 按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 新增警報」]**。
+1. 這步驟能帶您進入[新版警報產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-builder.html)。
 
 ## 檢視或編輯現有警報 {#task_2ADF2A05EB784B8BBAFE293AC8243C46}
 
 工作內容
 
-1. Go to **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Alerts]**. 這步驟能帶您進入新版[警報產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)。
+1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報」]**。這步驟能帶您進入新版[警報產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/alert-manager.html)。
 
 ## 舊式警報遷移 {#concept_7E8179F5EF6E4913B0CE5CF4FF186911}
 
@@ -110,7 +113,7 @@ deprecated_alerts.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂日曆報表套裝的每月警報 </p> </td> 
-   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
+   <td colname="col2"> <p>這只會影響有為報表套裝設定警報，而該報表又有<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/data-requests/date-ranges/custom-calendar.html"  >自訂月開始日期</a>之客戶。(全美零售商聯合會/NRF 和自訂日曆類型)。 </p> <p>這並不影響西曆或已修改的西曆報表套裝。這些警報以往是在西曆每月第一天傳送 (例如 1 月 1 日、2 月 1 日等)。這無法與警報新的「異常偵測」功能一起運作，因為此功能會在偵測異常時會以前幾個月的資料作考慮依據。未來，我們會於自訂日曆計劃系統新增支援，讓警報和計劃的專案能在自訂日曆月的第一天傳送，而非只在西曆月的第一天傳送。 </p> <p> </p> </td> 
    <td colname="col3"> <p>尚未可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
