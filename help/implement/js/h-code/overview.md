@@ -1,9 +1,9 @@
 ---
 title: H 程式碼 JavaScript 實施概述
 description: 瞭解在網站上實施 H 程式碼的工作流程。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
@@ -14,19 +14,19 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 不再支援此版本的資料彙集。請升級為 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [JavaScript 適用的 AppMeasurement](../overview.md)。
+>不再支援此版本的資料彙集。請升級為 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [JavaScript 適用的 AppMeasurement](../overview.md)。
 
 您必須擁有托管伺服器的存取權限，才能成功實施包含資料收集程式碼的頁面。下列步驟將帶領您進行基本的 Analytics H 程式碼實施。
 
 >[!NOTE]
 >
-> 若要遵循這些指示，您必須擁有一份 `s_code.js` 的現有副本。Adobe 不再提供在「代碼管理器」中下載 H 程式碼的選項。
+>若要遵循這些指示，您必須擁有一份 `s_code.js` 的現有副本。Adobe 不再提供在「代碼管理器」中下載 H 程式碼的選項。
 
 1. **更新核心 JS 檔案變數**：編輯 `s_code.js` 檔案並確認下列變數已更新：
    * `s_account` 包含您要傳送資料的目的地報表套裝 ID。如需此工具的其他相關資訊，請參閱
    * `s.trackingServer` 包含 Cookie 的儲存位置。請參閱 [trackingServer](../../vars/config-vars/trackingserver.md)。
-1. **在您的網站上托管`s_code.js`檔案**：此檔案通常與 Web 伺服器上的其他指令碼共存。
-1. **在所有頁面上參考`s_code.js`**：確認所有個別頁面都會呼叫核心 JavaScript 檔案，並在 HTML `<body>` 標記 (非 `<head>` 標記) 中執行。
+1. **在您的網站上托管 `s_code.js` 檔案**：此檔案通常與 Web 伺服器上的其他指令碼共存。
+1. **在所有頁面上參考 `s_code.js`**：確認所有個別頁面都會呼叫核心 JavaScript 檔案，並在 HTML `<body>` 標記 (非 `<head>` 標記) 中執行。
 
    >[!TIP]
    >
