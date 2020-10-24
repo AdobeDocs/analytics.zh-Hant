@@ -3,8 +3,11 @@ description: 說明定義所有報表顯示方式的設定，以及將預設功�
 title: 報表顯示設定和導覽
 topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '1468'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +18,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 ## 報表顯示設定和導覽 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Report Settings]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 報表設定]**
 
 | 元素 | 說明 |
 |--- |--- |
