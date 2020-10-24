@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 訪客 ID
 topic: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 日期 | 使用以下日期格式: MM/DD/YYYY/hh/mm/ss (例如 07/14/2017/06/00/00) |
 | 追蹤程式碼 | 追蹤代碼名稱。 |
 | 類別 | 類別名稱。若您指定類別，則必須選取產品。 |
-| 管道 | 管道名稱。 |
+| 管道 | 頻道名稱。 |
 | eVarn | eVarn 名稱。n 的有效值是整數 1 - 75。 |
 | 產品 | 產品名稱。 |
 | 州別 | 州/省名。 |
