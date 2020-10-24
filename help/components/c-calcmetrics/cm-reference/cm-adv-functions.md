@@ -3,7 +3,7 @@ description: 勾選函數下拉式清單中的顯示進階即可存取這些函�
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '2911'
 ht-degree: 100%
