@@ -1,23 +1,23 @@
 ---
 title: 點擊類型
-description: 判斷點擊是前景還是背景點擊。
-translation-type: tm+mt
+description: 判斷點擊是前景或背景點擊。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
 # 點擊類型
 
-「點擊類型」維度會決定當點擊傳送至Adobe資料收集伺服器時，行動應用程式是在前景還是背景。 此維度僅與包含行動應用程式資料的報表套裝相關。 透過AppMeasurement收集的瀏覽器資料一律會將點擊報告為「前景」。
+「點擊類型」維度會判斷點擊傳送至 Adobe 資料收集伺服器時，行動應用程式在前景或背景。此維度僅與包含行動應用程式資料的報表套裝相關。透過 AppMeasurement 收集的瀏覽器資料一律會將點擊回報為「前景」。
 
-## 將資料填入此維度
+## 將資料填入此維度中
 
-此維度適用於4.13.6版或更新版本上的所有行動SDK建置。 如果您不使用行動SDK,「前景」維度項目下的所有點擊清單。 If &quot;Disable Legacy Reporting and Attribution for Background Hits&quot; is checked, then background hits will show up only in [Virtual report suites](../vrs/vrs-mobile-visit-processing.md).
+此維度可立即用於 4.13.6 版或更新版本上的所有行動 SDK 實作。如果您不使用行動 SDK，所有點擊會列於「前景」維度項目中。如果勾選「停用背景點擊數的舊式報告和歸因」，則背景點擊數僅會顯示在[「虛擬報表套裝」](../vrs/vrs-mobile-visit-processing.md)中。
 
 ## 維度項目
 
-維度項目包 `"Foreground"` 括和 `"Background"`。 未在行動應用程式背景傳送的任何點擊都屬於維 `"Foreground"` 度項目。 行動應用程式在背景所傳送的任何點擊都屬於維 `"Background"` 度項目。
+維度項目包含 `"Foreground"` 和 `"Background"`未在行動應用程式背景傳送的所有點擊都屬於 `"Foreground"` 維度項目。行動應用程式在背景時傳送的所有點擊都屬於 `"Background"` 維度項目。
