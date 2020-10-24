@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 處理規則的運作方式
 topic: Admin tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
@@ -91,7 +94,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 處理規則條件 {#section_387390EEE9BA4DA98698522A84326DB4}
+## 處理規則條件{#section_387390EEE9BA4DA98698522A84326DB4}
 
 條件會檢查頁面變數是否有符合值或值是否存在。可以加入多個條件，您也可以選取是否須符合所有條件。
 
@@ -99,7 +102,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 在發生動作前，並不會自動檢查變數的值。例如，Prop1 包含 &quot;something&quot; 值，而 eVar1 空白。如果您設定 Prop1 等於 eVar1，則兩個值都會變成空白。如果您想避免這種情形，請加入一個條件來檢查是否存在值。
 
-## 處理規則動作 {#section_E2285C9D008442C7BF136E52A9A4CC06}
+## 處理規則動作{#section_E2285C9D008442C7BF136E52A9A4CC06}
 
 動作可以設定頁面變數、刪除頁面變數或觸發事件。動作也能串連值以顯示在報告中
 
