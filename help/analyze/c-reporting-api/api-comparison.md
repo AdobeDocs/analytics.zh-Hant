@@ -2,11 +2,11 @@
 description: 分析報表 API 的比較表。提供支援文件的連結。
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 49875f086be6fe47552f50b41d8111179039f7c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -53,8 +53,8 @@ ht-degree: 90%
   </tr> 
   <tr> 
    <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html"  > 報表介面</a> </td> 
-   <td colname="col2"> 分析工作區、報告與分析、報告建立工具、API </td> 
-   <td colname="col3"> 報告與分析、報告建立工具、1.4 API中的即時報告 </td> 
+   <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
+   <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API 中的即時報表 </td> 
    <td colname="col4"> 僅 API </td> 
    <td colname="col5"> Data Warehouse 與 API </td> 
   </tr> 
