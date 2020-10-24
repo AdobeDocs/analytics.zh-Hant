@@ -4,11 +4,11 @@ keywords: Virtual Report Suite,VRS
 title: 虛擬報表套裝和多套裝標記考量事項
 topic: Adobe Analytics
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '1735'
+ht-degree: 100%
 
 ---
 
