@@ -1,18 +1,18 @@
 ---
 title: 總逗留秒數
-description: 維度項目的總花費秒數。
-translation-type: tm+mt
+description: 維度項目的彙總逗留秒數。
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 
 # 總逗留秒數
 
-「逗留秒數總計」量度顯示訪客在指定維度項目上逗留的秒數總和。 當您想要指定維度項目的原始逗留時間，而非像其他逗留時間度量提供的平均值時，此度量很有用。
+「總逗留秒數」量度會顯示訪客在指定的維度項目上逗留的彙總秒數。如果您想要了解指定維度項目的原始逗留時間量，而不是其他逗留時間量度提供的那種平均值，此量度就十分實用。
 
 在 Report Builder 中，此量度名為「總逗留時間」。
 
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 1. 對於指定的點擊，查看時間戳記。
 2. 將此點擊與造訪的下次點擊時間戳記進行比較。頁面檢視和連結追蹤點擊都會計入。
-3. 兩個點擊之間經過的秒數對維度項目有貢獻。
+3. 兩次點擊之間經過的秒數計為維度項目。
 
 持續存在的變數 (例如 [eVar](../dimensions/evar.md)) 會計為總逗留秒數。流量變數 (例如 [Prop](../dimensions/prop.md)) 包含後續連結追蹤呼叫所花費的秒數。
 
