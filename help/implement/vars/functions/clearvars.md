@@ -2,7 +2,10 @@
 title: clearVars
 description: 會清除例項物件中的下列值。此函數會移除元素 (即將其設為「未定義」)。
 translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
