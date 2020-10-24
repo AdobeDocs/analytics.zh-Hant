@@ -3,8 +3,11 @@ description: 您必須符合這些 Experience Cloud 解決方案、服務及程�
 solution: Audience Manager
 title: 伺服器端轉送需求
 uuid: e52c9292-b2ed-4782-9594-c813e4f894e1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '321'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +36,5 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 任何可監控瀏覽器發出之 HTTP 請求的工具，均可顯示 AppMeasurement 和訪客 API 程式碼的版本號碼。`AppMeasurement_Module_AudienceManagement.js` 不會包含或傳回版本 ID。下列範例說明版本 ID 在 `AppMeasurement.js` 和 `VisitorAPI.js` 程式碼中的表示方式。
 
-* `AppMeasurement.js`：[Adobe 除錯程式](https://docs.adobe.com/content/help/en/analytics/implementation/validate/debugger.html)傳回的 AppMeasurement 版本如下： `Version of Code | JS-1.5.1`。其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
+* `AppMeasurement.js`：[Adobe 除錯程式](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/validate/debugger.html)傳回的 AppMeasurement 版本如下： `Version of Code | JS-1.5.1`。其他工具可能會使用不同標籤，但數值一律按照 `JS-X.X.X` 的模式，其中 `X` 為版本號碼。
 * `VisitorAPI.js`：搜尋 `d_visid_ver` 參數。此參數會以下列方式顯示訪客 ID 服務：`d_visid_ver: 1.5.5`。早於 1.5.2 版的訪客 API 程式碼不包含版本號碼。如果您的監控結果沒有傳回版本號碼，則您可能是使用舊版程式碼庫 (且必須升級)。
