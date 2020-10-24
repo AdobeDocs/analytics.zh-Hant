@@ -1,11 +1,11 @@
 ---
 title: 搜尋引擎
 description: 訪客用來存取您的網站的搜尋引擎。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '224'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 91%
 
 ## 維度項目
 
-維度項目包括用來存取您網站的搜尋引擎。 範例值包括 `"Google"`、`"Microsoft Bing"` 和 `"DuckDuckGo"`。The `"Unspecified"` dimension item is all non-search traffic.
+維度項目包含用來存取您的網站的搜尋引擎。範例值包括 `"Google"`、`"Microsoft Bing"` 和 `"DuckDuckGo"`。`"Unspecified"` 維度項目是所有非搜尋流量。
