@@ -4,11 +4,11 @@ subtopic: Classifications
 title: 關於子分類
 topic: Admin tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 ![](assets/Multi-Level-Class-popup.png)
 
-**父分類：**&#x200B;父分類是指任何具有相關聯子分類的分類。任何分類都可以是父分類和子分類。頂層父分類對應至單層分類。
+**父分類：**&#x200B;父分類是指任何具有相關聯子分類的分類。任何分類都可以是父分類和子分類。與最上層父分類對應的是單級分類。
 
 **子分類：**&#x200B;子分類是指任何具有其他作為父分類 (而非變數) 的分類。子分類能提供其他有關父分類的資訊。例如，[!UICONTROL 促銷活動]分類可能會有一個促銷活動擁有人子分類。[!UICONTROL 數值]分類還可以作為分類報告中的量度。
 
@@ -79,7 +79,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 | 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 | 冷色 |
 | 410390015 | Polo-LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 | 青色 |
 
-### 產品分類 - 多重檔案 (檔案 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
+### 產品分類 - 多重檔案 (檔案 1){#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 |
 |---|---|---|---|---|---|
@@ -87,7 +87,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 | 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 |
 | 410390015 | Polo-LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 |
 
-### 產品分類 - 多重檔案 (檔案 2) {#section_19ED95C33B174A9687E81714568D56A3}
+### 產品分類 - 多重檔案 (檔案 2){#section_19ED95C33B174A9687E81714568D56A3}
 
 | 代碼 | 代碼 | CODE^COLOR |
 |---|---|---|
