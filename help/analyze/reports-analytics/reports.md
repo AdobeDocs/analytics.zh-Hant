@@ -1,11 +1,11 @@
 ---
 title: 報表
 description: Reports & Analytics 用於每個報表的維度和量度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1863'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -88,19 +88,19 @@ Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量�
 
 包含可讓您查看訪客路徑資料的報表。
 
-* 下一頁流量： 在頂層頁面維度項目上使用流量報表。 路徑檢視與[例項](/help/components/metrics/instances.md)類似。您可以變更報告的維度項目。 Analysis Workspace 中使用[流量視覺效果](../analysis-workspace/visualizations/c-flow/flow.md)提供了類似報表。
-* 下一頁： 擷取頂端頁面維度項目，並顯示訪客瀏覽的下一頁。
-* Previous page flow: Uses a flow report on the top page dimension item A similar report in Analysis Workspace is available using a [Flow visualization](../analysis-workspace/visualizations/c-flow/flow.md).
-* 上一頁： 擷取頂端的頁面維度項目，並顯示訪客的上一頁。
-* 流失： 可讓您在步驟中選取頁面維度項目，並顯示遵循該路徑和未遵循該路徑的人數比例。 Analysis Workspace 中使用[流失視覺效果](../analysis-workspace/visualizations/fallout/fallout-flow.md)提供了類似報表。
-* 完整路徑： 將個別路徑顯示為維度項目。 Analysis Workspace 已淘汰此功能；請改用[流量視覺效果](../analysis-workspace/visualizations/c-flow/flow.md) 。
+* 下一頁流量：使用上層頁面維度項目的流量報表。路徑檢視與[例項](/help/components/metrics/instances.md)類似。您可以變更報告的維度項目。Analysis Workspace 中使用[流量視覺效果](../analysis-workspace/visualizations/c-flow/flow.md)提供了類似報表。
+* 下一頁：取用上層頁面維度項目，並顯示訪客瀏覽的後續頁面。
+* 上一頁流量：使用上層頁面維度項目的流量報表。Analysis Workspace 中使用[流量視覺效果](../analysis-workspace/visualizations/c-flow/flow.md)提供了類似報表。
+* 上一頁：取用上層頁面維度項目，並顯示訪客先前瀏覽過的頁面。
+* 流失：可讓您選取步驟中的頁面維度項目，且會顯示依照和未依照該路徑瀏覽的訪客比例。Analysis Workspace 中使用[流失視覺效果](../analysis-workspace/visualizations/fallout/fallout-flow.md)提供了類似報表。
+* 完整路徑：將個別路徑顯示為維度項目。Analysis Workspace 已淘汰此功能；請改用[流量視覺效果](../analysis-workspace/visualizations/c-flow/flow.md) 。
 * PathFinder：提供多種報表類型讓您分析路徑 (Analysis Workspace 已淘汰此功能)。
 * 路徑長度：使用[造訪深度](/help/components/dimensions/visit-depth.md)維度。
 * 頁面分析
-   * 頁面摘要： 擷取頂端頁面維度項目並顯示趨勢檢視。 也會顯示該頂層頁面維度項目的登入點、上一頁、退出點和下一頁。
+   * 頁面摘要：取用上層頁面維度項目，並顯示趨勢檢視。此外也會顯示該上層頁面維度項目的登入點、先前的頁面、退出點和後續頁面。
    * 重新載入：搭配使用[頁面](/help/components/dimensions/page.md)維度和[重新載入](/help/components/metrics/reloads.md)量度。
    * 頁面逗留時間：使用[頁面逗留時間 - 分段](/help/components/dimensions/time-spent-on-page.md)維度。
-   * 頁麵點按次數： 擷取頂端頁面維度項目，並顯示在指定瀏覽中到達該頁面所花費的點按次數。
+   * 進入頁面點按次數：取用上層頁面維度項目，並顯示在指定造訪中到達該頁面所花費的點按次數。
 * 登入與退出
    * 登入頁面：使用[登入頁面](/help/components/dimensions/entry-dimensions.md)維度。
    * 原始登入頁面：使用[原始登入頁面](/help/components/dimensions/entry-dimensions.md)維度。
@@ -171,7 +171,7 @@ Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量�
    * 美國州：使用[美國州](/help/components/dimensions/us-states.md)維度。
    * 美國 DMA：使用[美國 DMA](/help/components/dimensions/us-dma.md) 維度。
 * 語言：使用[語言](/help/components/dimensions/language.md)維度。
-* 時區：使用時區維度 (Analysis Workspace 已淘汰此功能)。維度項目是點擊的GMT偏移。
+* 時區：使用時區維度 (Analysis Workspace 已淘汰此功能)。維度項目是點擊時的時間 (以 GMT 時差表示)。
 * 網域：使用[網域](/help/components/dimensions/domain.md)維度。
 * 上層網域：使用上層網域維度 (Analysis Workspace 已淘汰此功能)。這會將[網域](/help/components/dimensions/domain.md)維度分組為較高層級的類別，通常依網域的所在國家/地區分組。
 * 技術：包含報表的資料夾，這類報表說明訪客用哪些方式存取您的網站。
@@ -184,12 +184,12 @@ Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量�
    * 監視器色彩深度：使用[色彩深度](/help/components/dimensions/color-depth.md)維度。
    * 監視器解析度：使用[監視器解析度](/help/components/dimensions/monitor-resolution.md)維度。
    * Java：使用 [Java 已啟用](/help/components/dimensions/java-enabled.md)維度。
-   * JavaScript：使用「JavaScript 已啟用」維度 (Analysis Workspace 已淘汰此功能)。維度項目是「已啟用」、「已停用」或「未知」，視瀏覽器是否已啟用JavaScript而定。
-   * JavaScript 版本：使用「JavaScript 版本」維度 (Analysis Workspace 已淘汰此功能)。維度項目會顯示瀏覽器所使用的JavaScript版本。
+   * JavaScript：使用「JavaScript 已啟用」維度 (Analysis Workspace 已淘汰此功能)。維度項目為「已啟用」、「已停用」或「未知」，端視瀏覽器是否已啟用 JavaScript。
+   * JavaScript 版本：使用「JavaScript 版本」維度 (Analysis Workspace 已淘汰此功能)。維度項目會顯示瀏覽器使用的 JavaScript 版本。
    * Cookie：使用 [Cookie 支援](/help/components/dimensions/cookie-support.md)維度。
    * 連線類型：使用[連線類型](/help/components/dimensions/connection-type.md)維度。
    * 行動電信業者：使用[行動電信業者](/help/components/dimensions/mobile-dimensions.md)維度。
-* 訪客狀態：使用「狀態」維度 (Analysis Workspace 已淘汰此功能)。Dimension items originate from the [`state`](../../implement/vars/page-vars/state.md) variable.
+* 訪客狀態：使用「狀態」維度 (Analysis Workspace 已淘汰此功能)。維度項目來自 [`state`](../../implement/vars/page-vars/state.md) 變數。
 * 訪客郵遞區號：使用[郵遞區號](/help/components/dimensions/zip-code.md)維度。
 
 ## 自訂轉換
@@ -204,7 +204,7 @@ Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量�
 
 包含與[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)有關的報表。
 
-* 管道概觀報表：Reports &amp; Analytics 特有的自訂報表。使用行銷渠道做為維度項目，並使用首次接觸或上次接觸歸因的量度。
+* 管道概觀報表：Reports &amp; Analytics 特有的自訂報表。以行銷管道作為維度項目，且量度使用首次接觸或最後接觸歸因。
 * 首次接觸管道：使用[首次接觸管道](/help/components/dimensions/first-touch-channel.md)維度。
 * 首次接觸管道詳細資料：使用[首次接觸管道詳細資料](/help/components/dimensions/first-touch-detail.md)維度。
 * 最後接觸管道：使用[最後接觸管道](/help/components/dimensions/last-touch-channel.md)維度。
