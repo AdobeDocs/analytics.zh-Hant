@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 報告最佳作法和疑難排解
 
-*此說明頁面說明 Reports &amp; Analytics 的最佳作法。如需 Analysis Workspace 的相關資訊，請參閱[Analysis Workspace 效能最佳化](../analysis-workspace/workspace-faq/optimizing-performance.md)。如需 Data Warehouse 的相關資訊，請參閱[Data Warehouse 最佳作法](/help/export/data-warehouse/data-warehouse-bp.md)。*
+*此說明頁面說明 Reports &amp; Analytics 的最佳作法。如需 Analysis Workspace 的相關資訊，請參閱 [Analysis Workspace 效能最佳化](../analysis-workspace/workspace-faq/optimizing-performance.md)。如需 Data Warehouse 的相關資訊，請參閱 [Data Warehouse 最佳作法](/help/export/data-warehouse/data-warehouse-bp.md)。*
 
 Adobe Analytics 提供彈性的報告介面，供您產生多種複雜的報告。雖然大部分的報表都能迅速產生，但您仍可能遇到報表逾時或無法產生的問題。此頁面說明會對報表產生速度造成影響的因素。瞭解這些資訊有助於建構更有可能成功產生的報表。
 
