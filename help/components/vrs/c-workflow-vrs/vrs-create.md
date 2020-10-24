@@ -4,8 +4,11 @@ keywords: Virtual Report Suite
 title: 建立虛擬報表套裝
 topic: Reports and analytics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+workflow-type: ht
+source-wordcount: '360'
+ht-degree: 100%
 
 ---
 
@@ -18,8 +21,8 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 * 虛擬報表套裝無法共用。「共用」是透過群組/權限達成。
 * 在「虛擬報表套裝管理器」中，您只看得到您自己的虛擬報表套裝。必須按一下「全部顯示」才能查看其他人的虛擬報表套裝。
 
-1. 導覽至 **[!UICONTROL Components]** > **[!UICONTROL Virtual Report Suites]**。
-1. 按一下 **[!UICONTROL Add +]**.
+1. 導覽至「**[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**」。
+1. 按一下&#x200B;**[!UICONTROL 「新增 +」]**。
 
    ![](assets/new_vrs.png)
 
