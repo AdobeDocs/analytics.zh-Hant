@@ -3,9 +3,9 @@ description: 如果從現有報表套裝複製設定，會出現系統訊息，�
 title: 並非從來源報表套裝複製的設定
 topic: Admin tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '207'
 ht-degree: 100%
 
