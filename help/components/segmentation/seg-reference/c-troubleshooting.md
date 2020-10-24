@@ -2,9 +2,9 @@
 description: 'null'
 title: 區段疑難排解
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * 將區段儲存至其他資料夾
 * 移除或變更區段不相容的部分。
 
-## 為什麼我的區段完全沒有傳回資料？ {#section_999749CBBE984142AEA49A6E68E6730A}
+## 為什麼我的區段完全沒有傳回資料？{#section_999749CBBE984142AEA49A6E68E6730A}
 
 可能的原因包括：
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 * 報表不支援分段。
 * 沒有與分段標準相符的資料。
 
-## 為什麼我在區段管理員中看不到我建立的區段？ {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 為什麼我在區段管理員中看不到我建立的區段？{#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 可能的原因包括：
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 * 區段未儲存。
 * 可能在使用者端封鎖了 IP 位址。
 
-## 為什麼在套用區段後顯示的頁面資料不正確？ {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 為什麼在套用區段後顯示的頁面資料不正確？{#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 可能的原因包括：
 
