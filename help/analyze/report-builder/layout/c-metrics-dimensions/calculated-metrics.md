@@ -3,7 +3,7 @@ description: Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除�
 title: 計算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
