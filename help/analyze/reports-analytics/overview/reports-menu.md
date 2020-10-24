@@ -2,9 +2,9 @@
 description: 「Report & Analytics」中的報表功能表概述。
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '785'
 ht-degree: 100%
 
