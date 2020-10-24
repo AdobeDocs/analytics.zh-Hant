@@ -2,8 +2,11 @@
 description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊號的完整清單和說明。
 title: 伺服器端轉送資料和程式碼參考
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
+workflow-type: ht
+source-wordcount: '610'
+ht-degree: 100%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## 設定變數 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 參數 | 說明 |
 |--- |--- |
@@ -40,7 +43,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 
 ## 客戶定義的訊號 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
-前置詞為 `c_` 的參數可識別客戶定義的變數。另請參閱 [DCS API 呼叫的支援屬性](https://docs.adobe.com/content/help/en/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+前置詞為 `c_` 的參數可識別客戶定義的變數。另請參閱 [DCS API 呼叫的支援屬性](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
 
 | 訊號 | 說明 |
 |--- |--- |
@@ -51,12 +54,12 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 | c_colorDepth | 指定為 16 or 32 位元色彩。 |
 | c_connectionType | 指定連線類型。選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
 | c_contextData.* | 範例：<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>訊號：c_contextData.category=news</li></ul> |
-| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括:是、否、未知 |
+| c_cookiesEnabled | 指定 Cookie 是否可啟用。選項包括: 是、否、未知 |
 | c_currencyCode | 用於交易的貨幣類型。 |
 | c_evar# | 自訂 eVar。 |
 | c_events | 由 s.events 設定。 |
 | c_hier# | 自訂階層變數。 |
-| c_javaEnabled | 指定 Java 是否可啟用。選項包括:是、否、未知 |
+| c_javaEnabled | 指定 Java 是否可啟用。選項包括: 是、否、未知 |
 | c_javaScriptVersion | 瀏覽器支援的 JavaScript 版本。 |
 | c_latitude | 數值緯度。 |
 | c_linkClick | 選項包括：自訂，下載退出 |
@@ -65,7 +68,7 @@ source-git-commit: 327fdfd6a6d6bfe1c7bae9825fc8812b5ac7d095
 | c_linkExitURL | 退出連結 URL。 |
 | c_list# | 自訂清單變數。 |
 | c_longitude | 數值經度。 |
-| c_mediaPlayerType | 適用於媒體串流追蹤請求。選項包括：  其他，Primetime |
+| c_mediaPlayerType | 適用於媒體串流追蹤請求。選項包括：    其他，Primetime |
 | c_pageName | 頁面名稱 (若有設定)。 |
 | c_pageURL | 瀏覽器網址列中的頁面位址。 |
 | c_products | 產品字串 (由 s.products 設定)。 |
