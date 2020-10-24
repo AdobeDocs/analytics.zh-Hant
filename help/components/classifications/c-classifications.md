@@ -1,11 +1,11 @@
 ---
 title: 分類概觀
-description: 自訂維度項目的群組。
-translation-type: tm+mt
+description: 自訂維度項目的分組。
+translation-type: ht
 source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
