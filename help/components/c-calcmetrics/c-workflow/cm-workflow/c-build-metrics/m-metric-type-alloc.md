@@ -3,7 +3,7 @@ description: '瞭解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 translation-type: ht
-source-git-commit: a5ab9f3c0a82a5a37a6507b697c641c66075b848
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
 workflow-type: ht
 source-wordcount: '914'
 ht-degree: 100%
