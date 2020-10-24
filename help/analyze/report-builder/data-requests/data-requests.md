@@ -2,11 +2,11 @@
 description: 'null'
 title: 資料請求 - 請求精靈步驟 1
 uuid: 717542c3-e4aa-4e00-b0ca-cadecd219d13
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -31,20 +31,20 @@ ht-degree: 72%
 
 1. **日期範圍**：定義請求涵蓋的時間間隔。有幾種請求期間類型可使用，如預置、固定及遞延。期間的最大值為 366。您也可以選擇由儲存格指定的日期範圍，然後再將日期範圍儲存為範本以供日後使用。請參閱[設定報表日期](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 
-1. **套用粒度**：指定報表所包含之時間詳細資料的等級。請參 [閱詳細程度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
+1. **套用粒度**：指定報表所包含之時間詳細資料的等級。請參閱[粒度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
 
 ## 疑難排解
 
-有時候，請求精靈會出現在螢幕外，尤其是在監視程式設定之間移動的使用者。 例如，您在辦公室使用塢站，在家中使用筆記型電腦螢幕。 如果您在請求精靈已開啟時再次按一下「建立」，會出現下列錯誤：
+請求精靈有時會出現在畫面外，尤其是針對在螢幕設定之間移動的使用者。例如，您工作時使用桌上型電腦，在家中使用筆記型電腦螢幕。如果您在已開啟請求精靈時再次按一下「建立」，會出現下列錯誤：
 
-「您必須先完成請求精靈程式，才能開始新的程式。」
+「您必須先完成請求精靈程序，才能開始新的程序。」
 
-將請求精靈移回畫面上可解決此問題。
+將請求精靈移回畫面上即可解決此問題。
 
-1. 開啟Microsoft Excel並登入報告建立工具。
-2. 按一 [!UICONTROL 下「建立]」，即會在螢幕外開啟請求精靈。
+1. 開啟 Microsoft Excel 並登入 Report Builder。
+2. 按一下[!UICONTROL 「建立」]就會在畫面外開啟請求精靈。
 3. 按下 `[Alt]` + `[Space]`.
 4. 按下 `[M]`.
 5. 按任意方向鍵。
-6. 移動滑鼠，滑鼠會將請求嚮導附加到游標上
-7. 按一下滑鼠，在螢幕上釋放請求精靈。
+6. 移動滑鼠，這會將請求精靈加到游標上
+7. 按一下滑鼠即可將請求精靈放到螢幕上。
