@@ -1,9 +1,9 @@
 ---
 title: 行銷管道中的分類
 description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
 ht-degree: 100%
 
