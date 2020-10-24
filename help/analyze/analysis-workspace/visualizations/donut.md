@@ -1,8 +1,11 @@
 ---
 description: 'null'
 title: 環形圖
-translation-type: tm+mt
-source-git-commit: 77b126b2add78113c266265f413240f27f89bced
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
+source-wordcount: '36'
+ht-degree: 100%
 
 ---
 
