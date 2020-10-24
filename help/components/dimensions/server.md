@@ -1,11 +1,11 @@
 ---
 title: 伺服器
 description: 伺服器的名稱。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '136'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 85%
 
 ## 維度項目
 
-維度項目包含您網站上的伺服器。 您的組織會決定您要使用哪些特定維度項目。 有些組織會使用 `window.location.hostname`，有些則會制定自訂值。無論您使用何種方法，請確保其一致性，並確實將其記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
+維度項目包含您網站上的伺服器。您的組織會決定您要使用的特定維度項目。有些組織會使用 `window.location.hostname`，有些則會制定自訂值。無論您使用何種方法，請確保其一致性，並確實將其記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
