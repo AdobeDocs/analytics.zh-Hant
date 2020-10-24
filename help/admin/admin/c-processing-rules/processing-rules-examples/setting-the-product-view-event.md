@@ -4,8 +4,11 @@ subtopic: Processing rules
 title: 從產品概觀頁面設定產品檢視事件
 topic: Admin tools
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '74'
+ht-degree: 100%
 
 ---
 
