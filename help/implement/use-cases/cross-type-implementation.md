@@ -1,8 +1,11 @@
 ---
 title: 追蹤不同的實施類型
 description: 使用不同的實施類型，順暢地在不同的實施間追蹤訪客。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 819f719c4ce131c04916f3b668bcbda1a1b03651
+workflow-type: ht
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
 
