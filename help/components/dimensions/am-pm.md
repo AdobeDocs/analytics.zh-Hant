@@ -1,11 +1,11 @@
 ---
 title: 上午/下午
 description: 判斷點擊發生在上午還是下午。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+translation-type: ht
+source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+workflow-type: ht
 source-wordcount: '117'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 70%
 
 ## 維度項目
 
-This dimension always contains exactly two dimension items: `"AM"` and `"PM"`. The dimension item `"AM"` applies to all hits from 12:00 AM to 11:59 AM, while the dimension item `"PM"` applies to all hits from 12:00 PM to 11:59 PM.
+此維度一律包含剛好兩個維度項目：`"AM"` 和 `"PM"`。維度項目 `"AM"` 會套用至凌晨 12:00 到中午 11:59 的所有點擊，而維度項目 `"PM"` 則會套用至中午 12:00 到晚上 11:59 的所有點擊。
