@@ -2,11 +2,11 @@
 title: 退出維度
 description: 列出退出維度及其使用情形。
 keywords: exit page, exit site section, exit server, exit custom insight
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 *此說明頁面說明退出作為維度時的運作方式。若要瞭解退出作為量度時的運作方式，請參閱[退出](../metrics/exits.md)量度。*
 
-退出維度會記錄最後一個維度項目，並追溯套用至瀏覽中的所有點擊。 報表套裝設定中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用退出維度。
+退出維度會記錄最後一個維度項目，並將其回溯套用至造訪中所有的點擊。報表套裝設定中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用退出維度。
 
 ## 將資料填入退出維度中
 
@@ -23,4 +23,4 @@ ht-degree: 57%
 
 ## 維度項目
 
-由於退出變數通常以實作中的自訂字串為基礎，因此您的組織會決定維度項目。 給定退出維中的值與關聯的非退出維中的維項匹配。 例如，「退出頁面」維度中的維度項目在「頁面」維度中包含類似的維度項目。
+由於退出變數通常以您實作中的自訂字串為基礎，因此您的組織會決定維度項目。指定退出維度中的值會與其相關聯的非退出維度中的維度項目相符。例如，「退出頁面」維度中的維度項目，會與「頁面」維度中的維度項目相似。
