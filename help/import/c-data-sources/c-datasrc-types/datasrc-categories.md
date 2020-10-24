@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 資料類型和類別的概觀
 topic: Developer and implementation
 uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '907'
+ht-degree: 100%
 
 ---
 
@@ -79,7 +82,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 客戶關係管理 (CRM) {#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
+## 客戶關係管理 (CRM){#section_013A1C5D3CAD4CCEAD22C2FDD26715A0}
 
 <table id="table_5895659CAB2C415AB2AA59A2E6C75AD1"> 
  <thead> 
@@ -103,7 +106,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 客戶滿意度 {#section_1058CA3860044630B0B06EEDA261DBA2}
+## 客戶滿意度{#section_1058CA3860044630B0B06EEDA261DBA2}
 
 <table id="table_3811CA1E2B7C45D7A0CBEC5CE44C11A8"> 
  <thead> 
@@ -122,7 +125,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 網站績效 {#section_3A7BECB0B4B247FB991DC59237ECFE1F}
+## 網站績效{#section_3A7BECB0B4B247FB991DC59237ECFE1F}
 
 <table id="table_7B623D08275E4FDEADDD85EA89A2B7C7"> 
  <thead> 
@@ -141,7 +144,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 通用 {#section_9B9A2A9871894B6491032AE1E961629A}
+## 通用{#section_9B9A2A9871894B6491032AE1E961629A}
 
 <table id="table_D63A6A00C93A4CD48FEBE7BC24E5DA9F"> 
  <thead> 
@@ -199,7 +202,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 銷售機會和報價 {#section_0B3EAA59BEC94244BE3EB3825D719DF6}
+## 銷售機會和報價{#section_0B3EAA59BEC94244BE3EB3825D719DF6}
 
 <table id="table_85B095414F6C4644A191A94AC0CAD13D"> 
  <thead> 
