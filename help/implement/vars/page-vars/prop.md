@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # prop
 
-*此說明頁面說明如何實作 Prop。若要瞭解 Prop 作為維度時的運作方式，請參閱「元件」使用指南中的[Prop](/help/components/dimensions/prop.md)。*
+*此說明頁面說明如何實作 Prop。若要瞭解 Prop 作為維度時的運作方式，請參閱「元件」使用指南中的 [Prop](/help/components/dimensions/prop.md)。*
 
 Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在的點擊過後即不存在。
 
@@ -20,7 +20,7 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 >
 >Adobe 建議在大部分情況下使用 [eVar](evar.md)。在舊版 Adobe Analytics 中，prop 和 eVar 各有其優缺點。不過 Adobe 已改良 eVar，現在它們幾乎能完成 prop 的所有使用案例。
 
-如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。可用的 Prop 數目取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
+如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。可用的 Prop 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
 
 ## Adobe Experience Platform Launch 中的 prop
 
