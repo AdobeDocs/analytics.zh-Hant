@@ -4,8 +4,11 @@ subtopic: Data sources
 title: 資料來源管理員
 topic: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '471'
+ht-degree: 100%
 
 ---
 
@@ -74,6 +77,6 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </tbody> 
 </table>
 
-## 檔案記錄標籤 {#section_B7AC7EE8CAD740A59DD53CF1919373F0}
+## 檔案記錄標籤{#section_B7AC7EE8CAD740A59DD53CF1919373F0}
 
 檔案記錄有搜尋功能，可讓您依資料來源名稱、資料來源類型、檔案名稱、接收日期或狀態搜尋資訊。
