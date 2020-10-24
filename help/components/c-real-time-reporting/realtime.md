@@ -3,8 +3,11 @@ description: 即時顯示網頁流量和排名頁面檢視。提供可操作的�
 title: 即時報表概觀
 topic: Reports
 uuid: ff832952-c507-4c63-9437-25d9c44c44d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+workflow-type: ht
+source-wordcount: '566'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +48,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 
-## 因為 A4T 設定造成的資料延遲 {#section_806CE36354FC4C539A0DED9266A5C704}
+## 因為 A4T 設定造成的資料延遲{#section_806CE36354FC4C539A0DED9266A5C704}
 
 Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中遇到 5 至 10 分鐘的額外延遲。增加此延遲可使 Analytics 和 [!DNL Target] 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
 
