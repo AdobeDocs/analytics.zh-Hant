@@ -3,6 +3,9 @@ title: 將 Adobe Analytics 部署至開發環境
 description: 瞭解如何使用 Adobe Experience Platform Launch 來將 Adobe Analytics 部署至開發環境。
 translation-type: ht
 source-git-commit: 365944140bb1dfc9bc8669ae530c631e8ff1629b
+workflow-type: ht
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
