@@ -1,11 +1,11 @@
 ---
 title: 網站區段
 description: 網站區段的名稱。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
@@ -22,4 +22,4 @@ ht-degree: 0%
 
 ## 維度項目
 
-維度項目包含您網站上網站區域的名稱。 您的組織會決定您要使用哪些特定維度項目。 無論您使用何種方法，請確保其一致性，並確實將其記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
+維度項目包含您網站上的網站區段名稱。您的組織會決定您要使用的特定維度項目。無論您使用何種方法，請確保其一致性，並確實將其記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
