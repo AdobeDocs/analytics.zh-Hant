@@ -1,11 +1,11 @@
 ---
 title: 平日/週末
 description: 判斷點擊是發生在工作日還是週末。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '105'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 68%
 
 ## 維度項目
 
-This dimension always contains exactly two dimension items: `"Weekday"` and `"Weekend"`. The dimension item `"Weekday"` applies to all hits Monday through Friday, while the dimension item `"Weekend"` applies to all hits on Saturday and Sunday.
+此維度一律包含剛好兩個維度項目：`"Weekday"` 和 `"Weekend"`。維度項目 `"Weekday"` 會套用至星期一到星期五的所有點擊，而維度項目 `"Weekend"` 則套用至星期六和星期日的所有點擊。
