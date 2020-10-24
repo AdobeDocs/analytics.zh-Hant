@@ -3,9 +3,9 @@ description: 要組織區段以方便使用，將區段標記為我的最愛是�
 title: 將區段標示為最愛
 topic: Segments
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
 ht-degree: 100%
 
