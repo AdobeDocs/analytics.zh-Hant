@@ -3,10 +3,10 @@ description: 影響工作區效能和最佳化的因素
 title: 分析工作區效能因素與最佳化
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 translation-type: tm+mt
-source-git-commit: 5d1046a4e24c21b33d804d1ec06c05e28e77a031
+source-git-commit: 89036b44ed0e8d300e9bbadb5be2f64ae3c5d284
 workflow-type: tm+mt
 source-wordcount: '2130'
-ht-degree: 24%
+ht-degree: 27%
 
 ---
 
@@ -14,10 +14,6 @@ ht-degree: 24%
 # Optimize [!UICONTROL Analysis Workspace performance]
 
 各種因素都會影響分析工作區中專案的效能。 在您開始建立專案之前，請務必先瞭解這些貢獻者的身分，以便您能以最佳的方式規劃和建立專案。 本頁包含影響效能的因素清單，以及您可在分析工作區中最佳化以確保最佳效能的因素。
-
->[!IMPORTANT]
->
->分析工作區中的「效能」頁面為有限版本。 [更多詳情](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/an-releases.html)
 
 ## [!UICONTROL 「說明] >分析 [!UICONTROL 工作區] 」中的效能
 
@@ -61,13 +57,13 @@ ht-degree: 24%
 
 | 因素 | 定義 | 最佳化 |
 | --- | --- | --- |
-| 查詢數 | 向Adobe提出以擷取專案中顯示之資料的查詢（請求）總數。 查詢包括表格的排名請求、異常偵測、Sparkline、左側導軌中顯示的元件等。 排除收合的面板和視覺化。 准則是100。 | 將資料分割為多個專案，以符合特定目的或利益相關者群組，盡可能簡化您的專案。 使用標籤將專案組織成主題，並使 [用直接連結](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) ，建立內部目錄，讓利益相關者更輕鬆地找到所需項目。 |
+| 查詢數 | 向Adobe提出以擷取專案中顯示之資料的查詢（請求）總數。 查詢包括表格的排名請求、異常偵測、Sparkline、左側導軌中顯示的元件等。 排除收合的面板和視覺化。 准則是100。 | 將資料分割為多個專案，以符合特定目的或利益相關者群組，盡可能簡化您的專案。 使用標籤將專案組織成主題，並使 [用直接連結](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/shareable-links.html) ，建立內部目錄，讓利益相關者更輕鬆地找到所需項目。 |
 | 擴充的面板（總面板數） | 在專案中的面板總數中，擴充的面板數目。 准則是5。 | 在採取步驟簡化專案後，收合專案中不需要載入時檢視的面板。 當專案開啟時，只會處理展開的面板。 收合的面板在使用者展開之前不會處理。 |
 | 擴充的視覺化（總視覺化數） | 專案中總計中的擴充表格和視覺化數目，包括隱藏的資料來源。 准則是15。 | 在採取步驟簡化專案後，收合專案中不需要載入時檢視的視覺化效果。 排定對報告使用者最重要的視覺效果優先順序，並視需要將支援視覺效果區隔成個別、更詳細的面板或專案。 |
 | 自由格式儲存格數目 | 專案中自由表格儲存格的總數，依所有表格的列*欄計算。 排除隱藏的資料來源。 准則是4000。 | 將表格中的欄數減少為最相關的資料點。 透過調整顯示的列數、套用表格篩選或套用區段，減少表格中的列數。 |
-| 可用元件 | 在專案左側導軌中，跨專案中所有報表套裝擷取的元件總數。 指導方針是2000年。 | 請洽詢您的產品管理員，以建立包含更量身打造之元件集的精選虛擬報表套裝。 |
+| 可用元件 | 在專案左側導軌中，跨專案中所有報表套裝擷取的元件總數。 這會影響左側導軌載入的速度，以及其中傳回搜尋結果的速度。 指導方針是2000年。 | 請洽詢您的產品管理員，以建立包含更量身打造之元件集的精選虛擬報表套裝。 |
 | 已使用的元件 | 項目中使用的元件總數。 准則是100。 | 使用的元件數量並不直接影響效能。 但是，這些元件的複雜性將有助於項目的執行。 請參閱下方「其他因素」一節的最佳化。 |
-| 最大日期範圍  | 此系數會顯示專案使用的最長日期範圍。 准則是1年。 | 可能情況下，提取資料時請不要超出所需。將面板日曆縮小為分析的相關日期，或在自由表格中使用日期範圍元件（紫色元件）。 表格中使用的日期範圍會覆寫面板日期範圍。 例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。 如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。<br><br>此外，將專案中使用的年與年比較次數減到最低。 當計算年度比較時，會在感興趣的月份中查看整個13個月的資料。 這與將面板日期範圍變更為過去13個月的影響相同。 |
+| 最大日期範圍  | 此系數會顯示專案使用的最長日期範圍。 准則是1年。 | 可能情況下，提取資料時請不要超出所需。將面板日曆縮小為分析的相關日期，或在自由表格中使用日期範圍元件（紫色元件）。 表格中使用的日期範圍會覆寫面板日期範圍。例如，您可以將上個月、上週和昨天新增至表格欄，以請求這些特定的資料範圍。如需在 Analysis Workspace 中使用日期範圍的相關資訊，請看[這段影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/calendar-and-date-ranges/date-ranges-and-calendar-in-analysis-workspace.html)。<br><br>此外，將專案中使用的年與年比較次數減到最低。 計算出逐年比較時，系統會在感興趣的月份間查看完整 13 個月的資料。這與將面板日期範圍變更為過去 13 個月的影響相同。 |
 
 ## 其他因素
 
