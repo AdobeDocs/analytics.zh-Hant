@@ -2,10 +2,10 @@
 title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 >[!IMPORTANT]
 >
-> 變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的不重複訪客計數可能會暫時激增。
+>變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的不重複訪客計數可能會暫時激增。
 
 ## Adobe Experience Platform Launch 中的 SSL 追蹤伺服器
 
@@ -41,4 +41,4 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME 記錄通常會指向 `ssl.d1.sc.omtrdc.net` 上的子網域。
+CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.omtrdc.net` or `2o7.net`.
