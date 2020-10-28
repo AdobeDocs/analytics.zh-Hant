@@ -1,11 +1,11 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -75,7 +75,7 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 2. 按一下所需面板中的除錯圖示，然後選取所需的視覺效果和要求的時間。
 3. 找出可用於向 Adobe 傳送 API 呼叫的 JSON 要求。
 
-## 跨裝置分析能將不重複訪客結合在一起。那它能將造訪結合在一起嗎？
+## 跨裝置分析能將不重複訪客結合在一起。它能把訪客聯繫在一起嗎？
 
 是。如果個人在虛擬報表套裝的造訪逾時 (預設為 30 分鐘) 內，從兩個獨立裝置傳送點擊，便會結合成同次造訪。
 
