@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 匯出指南
 breadcrumb-title: 匯出指南
-user-guide-description: 使用資料摘要來接收每小時或每天的原始資料轉存。使用資料倉儲來擷取資料的試算表輸出。
+user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 94%
+source-wordcount: '283'
+ht-degree: 98%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 94%
       + [計算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [頁面事件查閱](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
-      + [行動裝置屬性查閱](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [行動屬性查閱](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [資料摘要常見問答集](analytics-data-feed/df-faq.md)
@@ -43,7 +43,6 @@ ht-degree: 94%
    + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援元件](data-warehouse/component-support.md)
-   + [與 Data Warehouse 區段不相容的維度](data-warehouse/dw-dimensions-incompatible-dwsegments.md)
    + [資料倉庫常見問答集](data-warehouse/faq.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
@@ -70,6 +69,6 @@ ht-degree: 94%
       + [使用 SFTP 傳送 Adobe 資料至外部 FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [傳送 Data Warehouse 請求至 SFTP 伺服器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [分析工作區下載](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace 下載](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
 + [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html)
