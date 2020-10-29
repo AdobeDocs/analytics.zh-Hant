@@ -5,10 +5,10 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
 translation-type: tm+mt
-source-git-commit: c337f43e13849e5162c3447962f30cff822ad74d
+source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 95%
+source-wordcount: '643'
+ht-degree: 97%
 
 ---
 
@@ -60,6 +60,7 @@ ht-degree: 95%
    + [上次接觸管道](dimensions/last-touch-channel.md)
    + [上次接觸管道詳細資料](dimensions/last-touch-detail.md)
    + [行銷管道](dimensions/marketing-channel.md)
+   + [行銷渠道詳情](dimensions/marketing-detail.md)
    + [分鐘](dimensions/minute.md)
    + [行動維度](dimensions/mobile-dimensions.md)
    + [監視器解析度](dimensions/monitor-resolution.md)
@@ -209,10 +210,10 @@ ht-degree: 95%
       + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
 + 跨裝置分析 {#cda}
    + [跨裝置分析概觀](cda/overview.md)
-   + [現場拼接](cda/field-based-stitching.md)
+   + [依欄位彙整](cda/field-based-stitching.md)
    + [裝置圖表](cda/device-graph.md)
    + [設定跨裝置分析](cda/setup.md)
-   + [播放的運作方式](cda/replay.md)
+   + [重播的運作方式](cda/replay.md)
    + [CDA 工作區範本](cda/workspace-template.md)
    + [將VRS限制為特定日期](cda/limit-vrs-date.md)
    + [跨裝置分析常見問題集](cda/faq.md)
@@ -223,7 +224,7 @@ ht-degree: 95%
    + [智慧型警報 - 使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類概觀](classifications/c-classifications.md)
-   + Classifications importer {#classifications-importer}
+   + 分類匯入工具{#classifications-importer}
       + [分類匯入程式 - 概觀](classifications/importer/c-working-with-saint.md)
       + [分類資料檔案](classifications/importer/c-saint-data-files.md)
       + [刪除分類資料](classifications/importer/t-delete-classification-data.md)
@@ -242,7 +243,7 @@ ht-degree: 95%
       + [分類規則 - 定義](classifications/crb/classification-rule-definitions.md)
       + [子分類和規則產生器](classifications/crb/sub-classification-rule-builder.md)
    + [子分類](classifications/c-sub-classifications.md)
-   + [分類常見問答集](classifications/faq.md)
+   + [分類常見問題集](classifications/faq.md)
 + [日曆事件](t-calendar-event.md)
 + 即時報表 {#real-time-reporting}
    + [即時報表概觀](c-real-time-reporting/realtime.md)
