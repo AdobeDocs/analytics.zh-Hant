@@ -1,11 +1,11 @@
 ---
 title: 設定跨裝置分析
-description: 設定虛擬報表套裝以啟用CDA。
+description: 設定虛擬報表套裝以啟用 CDA。
 translation-type: tm+mt
 source-git-commit: 60fe85adaebee8ca390e59727dda949c12c1ee26
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 83%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需先決條件 [和限制](overview.md) ，請參閱總覽頁[面](field-based-stitching.md) ，以及所需的拼接方法(分 [別是以欄位為基礎的拼接或](device-graph.md)裝置圖形)。
+>執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)及所需的彙整方法 (分別是[依欄位彙整](field-based-stitching.md)或[裝置圖表](device-graph.md))。
 
 ## 選擇要啟用 CDA 的跨裝置報表套裝
 
