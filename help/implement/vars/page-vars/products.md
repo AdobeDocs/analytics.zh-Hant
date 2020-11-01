@@ -5,14 +5,14 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '505'
-ht-degree: 92%
+ht-degree: 97%
 
 ---
 
 
 # products
 
-`products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。此變數為多值變數，這表示您可以在相同點擊中傳送多個產品，而Adobe會將值剖析為個別的維度項目。
+`products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。其為多值變數，這表示您可以在同一次點擊中傳送多個產品，而 Adobe 會將值解析為個別的維度項目。
 
 >[!NOTE]
 >
