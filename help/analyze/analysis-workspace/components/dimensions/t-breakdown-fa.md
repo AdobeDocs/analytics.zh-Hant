@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
 workflow-type: tm+mt
 source-wordcount: '226'
-ht-degree: 76%
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 76%
 
    ![步驟結果](assets/fa_data_table_actions.png)
 
-   您可以依維度項目或對象區段劃分所選時段的量度。 您也可以更深入鑽研至更詳細的層級。
+   您可以跨所選時段，依維度項目或受眾區段來劃分量度。您也可以更深入鑽研至更詳細的層級。
 
    >[!NOTE]
    >
