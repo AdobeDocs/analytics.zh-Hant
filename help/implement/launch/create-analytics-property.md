@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 82%
+ht-degree: 84%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
       >[!NOTE]
       >
-      >這是幫助開始使用的示例值。 如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
+      >此範例值僅供協助您快速上手之用。如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
    * 已勾選簡潔文字
    * 持續時間：Pageview
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
