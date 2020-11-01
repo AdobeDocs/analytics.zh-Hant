@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: f3b227e7d2f239076f7c38abd42af6e1a86b0069
 workflow-type: tm+mt
 source-wordcount: '3403'
-ht-degree: 80%
+ht-degree: 82%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 80%
 | `geo_region` | 根據 IP 的點擊來源州或地區名稱。Used in the [Regions](/help/components/dimensions/regions.md) dimension. | char(32) |
 | `geo_zip` | 點擊的來源郵遞區號 (根據 IP)。協助填入 [郵遞區號](/help/components/dimensions/zip-code.md) 。 另請參閱 `zip`. | varchar(16) |
 | `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
-| `hit_source` | 指出點擊來源。點擊來源1、2和6會計費。 <br>1:沒有時間戳記 <br>2的標準影像要求：具有時間戳記 <br>3的標準影像要求：使用時間戳記 <br>4即時資料來源上傳：未使用 <br>5:通用資料來源上 <br>傳6:完整處理資料來源上 <br>傳7:TransactionID資料來源上 <br>傳8:不再使用；舊版Adobe Advertising Cloud資料來源 <br>9:不再使用；Adobe Social摘要量 <br>度10:使用Audience Manager伺服器端轉送 | 不帶正負號的 tinyint |
+| `hit_source` | 指出點擊來源。點擊來源 1、2 和 6 需計費。<br>1：沒有時間戳記的標準影像要求<br>2：具有時間戳記的標準影像要求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：完整處理資料來源上傳<br>7：TransactionID 資料來源上傳<br>8：不再使用；舊版 Adobe Advertising Cloud 資料來源 <br>9：已不再使用；Adobe Social 摘要量度<br>10：使用 Audience Manager 伺服器端轉送 | 不帶正負號的 tinyint |
 | `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
 | `hitid_high` | Used in combination with `hitid_low` to uniquely identify a hit. | 不帶正負號的 bigint |
 | `hitid_low` | Used in combination with `hitid_high` to uniquely identify a hit. | 不帶正負號的 bigint |
@@ -114,11 +114,11 @@ ht-degree: 80%
 | `mobilebeaconminor` | 行動服務次要信標 | varchar(100) |
 | `mobilebeaconproximity` | 行動服務鄰近地區信標 | varchar(255) |
 | `mobilebeaconuuid` | 行動服務信標 UUID | varchar(100) |
-| `mobilecampaigncontent` | 顯示連結的內容名稱或 ID。由「行動應用程式贏取」填入。 | varchar(255) |
+| `mobilecampaigncontent` | 顯示連結之內容的名稱或 ID。由「行動應用程式贏取」填入。 | varchar(255) |
 | `mobilecampaignmedium` | 行銷媒體，例如橫幅或電子郵件。由「行動應用程式贏取」填入。 | varchar(255) |
 | `mobilecampaignname` | 行銷活動名稱，亦儲存於行銷活動變數中。由「行動應用程式贏取」填入。 | varchar(255) |
-| `mobilecampaignsource` | 原始轉介來源，例如電子報或社交媒體網路。由「行動應用程式贏取」填入。 | varchar(255) |
-| `mobilecampaignterm` | 您想要以此贏取追蹤的付費關鍵字或其他詞語。由「行動應用程式贏取」填入。 | varchar(255) |
+| `mobilecampaignsource` | 原始反向連結，例如電子報或社交媒體網路。由「行動應用程式贏取」填入。 | varchar(255) |
+| `mobilecampaignterm` | 您要對此贏取追蹤的付費關鍵字或其他詞語。由「行動應用程式贏取」填入。 | varchar(255) |
 | `mobiledayofweek` | 應用程式啟動的工作日數。 | varchar(255) |
 | `mobiledayssincefirstuse` | 自應用程式初次執行以來的天數。 | varchar(255) |
 | `mobiledayssincelastupgrade` | 從內容資料變數 a.DaysSinceLastUpgrade 收集。自上次作業階段以來已經過的天數。 | varchar(255) |
