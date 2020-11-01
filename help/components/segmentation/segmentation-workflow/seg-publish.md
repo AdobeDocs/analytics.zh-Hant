@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 * **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
 * **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的對象不能超過 2,000 萬名不重複成員。
 * **資料隱私權**：系統不會根據訪客的驗證狀態篩選對象。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解對象共享的完整隱私權意涵。
-* 有關 **[!DNL Adobe Analytics]和[!DNL Audience Manager]** 中區段之間差異的探討，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
+* 有關 **[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中區段之間差異的探討，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
 
 ## 區段發佈時間軸
 
@@ -51,7 +51,7 @@ ht-degree: 99%
 
 ## 在[!UICONTROL 區段產生器]中發佈區段
 
-1. 導覽至 **[!UICONTROL Analytics >工作區> 元件 > 區段]> +**
+1. 導覽至 **[!UICONTROL Analytics >工作區> 元件 > 區段] > +**
 1. 在[!UICONTROL 區段產生器]中建立區段。
 1. 提供區段的標題和說明 (如未提供便無法儲存)。
 1. 請參閱&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*報表套裝*)]**。
@@ -65,7 +65,7 @@ ht-degree: 99%
 
 | 元素 | 說明 |
 |---|---|
-| **[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*`<report suite>`*)]** | 此選項啟用時，區段標題和定義 (即廣告平台中常用的殼層對象) 會立即與 Experience Cloud 共用，而系統每 4 小時會評估和共用區段成員資格一次。<br>例如，將對象與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 對象資格的訪客。此時，Experience Cloud 對象頁面上會開始顯示對象名稱和相應的資料。</br> |
+| **[!UICONTROL 將此區段發佈至 Experience Cloud (適用於 *`<report suite>`*)]** | 此選項啟用時，區段標題和定義 (即廣告平台中常用的殼層對象) 會立即與 Experience Cloud 共用，而系統每 4 小時會評估和共用區段成員資格一次。<br>例如，將對象與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 對象資格的訪客。此時，Experience Cloud 對象頁面上會開始顯示對象名稱和相應的資料。</br> |
 | **[!UICONTROL 建立對象視窗]** | 您選取的時間範圍會用於依時序建立對象。例如，「最近 30 天」(預設值) 包含自當天 (並非建立區段的原始日期) 起的過去 30 天內符合對象資格的訪客。 |
 | **[!UICONTROL 在對象庫中建立]** | 您所建立和發佈的區段可在 Experience Cloud 對象庫中無延遲提供使用，這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
 | **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至 Experience Cloud 的區段數。按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
@@ -134,5 +134,5 @@ ht-degree: 99%
 
 [!UICONTROL 將此區段發佈至 Experience Cloud] 核取方塊會在 Adobe Analytics 區段建立程序進行期間顯示，勾選後該區段將可供 Adobe Target 的自訂對象庫使用。在 Analytics 或 Audience Manager 中建立的區隔皆適用於 Target 中的活動。例如，您可以根據 Analytics 中建立的 Analytics 轉換量度和受眾區隔來建立行銷活動。
 
-1. Click [!UICONTROL Audiences].
+1. 按一下[!UICONTROL 「對象」]。
 1. 在[!UICONTROL 對象]頁面上，找到來源為 [!DNL Experience Cloud] 的對象。這些對象可在 [!DNL Target] 活動中使用。
