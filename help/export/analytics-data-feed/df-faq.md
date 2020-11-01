@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 66%
+ht-degree: 77%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 66%
 
 如果您在非後置欄和後置欄中看到同一值的不同大小寫變化形 (例如，前置欄中是「snow」，後置欄中是「Snow」)，表示您實作時在網站中同時使用了同一值的大寫和小寫版本。前置欄中的大小寫變化形是在之前傳入並儲存在虛擬 cookie 中，或是與該報表套裝在大約相同的時間處理。
 
-## 資料饋送中是否包含「管理控制台」機器人規則來篩選機器人？
+## 是否會將 Admin Console 機器人規則篩選的機器人加入資料摘要中？
 
-資料饋送不包含由「管理控制台」機器人規 [則篩選的機器人](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/bot-removal/bot-removal.html)。
+資料摘要不會加入 [Admin Console 機器人規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/bot-removal/bot-removal.html)篩選的機器人。
 
 ## 為什麼在資料饋送 `000` 欄中會看到 `event_list` 多個 `post_event_list` 值？
 
