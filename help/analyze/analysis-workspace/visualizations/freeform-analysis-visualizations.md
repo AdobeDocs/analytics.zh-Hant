@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.c
 | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
 | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。僅可在使用時間當作維度時，才使用折線圖。 |
 | [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。 |
-| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多3個量度之間的關係。 |
+| [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
 | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 此視覺效果會根據選取的儲存格顯示總計和摘要。 |
 | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 此視覺效果會根據選取的儲存格相互比較儲存格。 |
 | [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至「工作區」。 |
