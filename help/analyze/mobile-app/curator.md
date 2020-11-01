@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
 workflow-type: tm+mt
 source-wordcount: '2376'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -145,7 +145,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 在您共用計分卡後，收件者便可在其 Analytics 控制面板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
 
-If you update the Scorecard by adding new components, you may want to share the scorecard again (and check the **Share embedded components** option) in order to make sure that your executive users have access to these changes.
+如果是以新增新元件的方式更新計分卡，您可再次共用計分卡 (並勾選&#x200B;**共用內嵌元件**&#x200B;選項)，以確保您的執行使用者有權存取這些變更。
 
 ## 使用應用程式設定主管使用者
 
@@ -159,7 +159,7 @@ If you update the Scorecard by adding new components, you may want to share the 
 * 使用者處於 Adobe Analytics 的有效登入狀態
 * 您已為使用者正確建立行動計分卡，並與他們共用這些計分卡。
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
-* 使用者可存取計分卡中的元件。Note that you can select an option when sharing your Scorecards to **Share embedded components**.
+* 使用者可存取計分卡中的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**共用內嵌元件**。
 
 ### 協助執行使用者使用應用程式
 
