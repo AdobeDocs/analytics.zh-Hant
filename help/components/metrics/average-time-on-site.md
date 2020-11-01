@@ -1,24 +1,24 @@
 ---
 title: 網站平均逗留時間
-description: 指定維度項目在點擊之間存在的平均時間。
+description: 指定的維度項目存在於兩次點擊之間的平均時間量。
 translation-type: tm+mt
 source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 60%
+ht-degree: 94%
 
 ---
 
 
 # 網站平均逗留時間
 
-「網站平均逗留時間」量度顯示指定維度項目在點擊之間傳遞的時間量。 當您想要查看特定維度項目的平均逗留時間時，此度量會很有幫助。 您也可以分析此量度在一段時間內的趨勢，瞭解整體逗留時間的變化。此量度會以 `HH:MM:SS` 格式顯示。
+「網站平均逗留時間」量度會顯示指定的維度項目在兩次點擊之間經過的時間量。如果您想要查看特定維度項目的平均逗留時間，此量度有所幫助。您也可以分析此量度在一段時間內的趨勢，瞭解整體逗留時間的變化。此量度會以 `HH:MM:SS` 格式顯示。
 
 此量度與[每次造訪逗留時間](../dimensions/time-spent-per-visit.md)維度有關。
 
 ## 此量度的計算方式
 
-對於指定的維度項目，請擷取該維度項目所在之每個點擊的時間戳記。 將其與造訪中下次點擊的時間戳記進行比較。如果該點擊沒有後續的點擊，請勿將其納入此量度中。在維度項目的所有逗留時間中，將所有時間除以該維度項目的「序列」數。 「序列」是指維度項目對於一或多個連續點擊都相同的位置。 產生的數量即為報表中顯示的量度。
+對於指定的維度項目，取用該維度項目所在之每次點擊的時間戳記。將其與造訪中下次點擊的時間戳記進行比較。如果該點擊沒有後續的點擊，請勿將其納入此量度中。將維度項目的所有逗留時間，除以該維度項目的「序列」數量。「序列」是指一或多次連續點擊的維度項目相同之處。產生的數量即為報表中顯示的量度。
 
 例如，請考量下列造訪：
 
@@ -35,7 +35,7 @@ ht-degree: 60%
 | `12:25:40` | `Product page A` |
 
 
-If you want average time on site for the dimension item `Product page A`, first take the amount of time lapsed between hits for that dimension:
+如果您想要知道維度項目 `Product page A` 的網站平均逗留時間，請先取用該維度在兩次點擊之間經過的時間量：
 
 * **12:04:20 - 12:05:30** - 1 分 10 秒
 * **12:05:30 - 12:07:00** - 1 分 30 秒
@@ -65,7 +65,7 @@ If you want average time on site for the dimension item `Product page A`, first 
 | `12:02:10` | `Home` | `Foxes` |
 | `12:02:20` | `(None; exit link click)` | `(None; exit link click)` |
 
-Calculating average time on site for the dimension item `Home` would use the following calculation:
+計算維度項目 `Home` 的網站平均逗留時間時，會使用下列計算：
 
 ```text
 (30 + 10) / 2 = 20 seconds average time on site
@@ -81,6 +81,6 @@ Calculating average time on site for the dimension item `Home` would use the fol
 
 ## 高於 100% 的百分比
 
-此量度常包含高於 100% 的百分比。分母是整個維度的平均站點時間，分子是維度項目的平均站點時間。 如果整個維度的平均網站逗留時間低於指定維度項目的平均網站逗留時間，您會看到超過100%的百分比。 依此量度排序的排名報表，會顯示異常的網站平均逗留時間值，而這類值通常沒有價值。Adobe 建議在排名報表中依其他量度　(例如[造訪](visits.md)) 進行排序。
+此量度常包含高於 100% 的百分比。分母是整個維度的網站平均逗留時間，分子是維度項目的網站平均逗留時間。如果整個維度的網站平均逗留時間低於指定維度項目的網站平均逗留時間，您就會看到高於 100% 的百分比。依此量度排序的排名報表，會顯示異常的網站平均逗留時間值，而這類值通常沒有價值。Adobe 建議在排名報表中依其他量度　(例如[造訪](visits.md)) 進行排序。
 
 如需更多關於逗留時間的一般資訊，請參閱[逗留時間概觀](time-spent.md)。
