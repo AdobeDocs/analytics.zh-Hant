@@ -52,7 +52,7 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 您現在可以檢視活頁簿控制面板資料。      ![](assets/view-data-pbi.png)
+1. 您現在可以檢視活頁簿控制面板資料。        ![](assets/view-data-pbi.png)
 
 1. 您可以接著釘選此活頁簿的某個區域，以將其包含在任何 Power BI 控制面板中。
 
