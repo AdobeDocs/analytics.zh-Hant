@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 71%
+ht-degree: 82%
 
 ---
 
@@ -24,7 +24,7 @@ AppMeasurement 會使用 [`pageName`](/help/implement/vars/page-vars/pagename.md
 
 ## 維度項目
 
-維度項目包含您網站上的頁面名稱。 您的組織會決定您要使用哪些特定維度項目。 有些組織會直接使用 `document.title`，有些則會制定自訂的階層連結。無論您使用何種方法，請確保其一致性，並確實將其記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
+維度項目包含網站上頁面的名稱。您的組織會決定您要使用的特定維度項目。有些組織會直接使用 `document.title`，有些則會制定自訂的階層連結。無論您使用何種方法，請確保其一致性，並確實將其記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
 
 >[!NOTE]
 >
