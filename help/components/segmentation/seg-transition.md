@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
 workflow-type: tm+mt
 source-wordcount: '2179'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 99%
 
    * 您可以[比較區段](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
    * 在比較時使用[區段作為維度](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)。
-   * 在[流失分析](https://docs.adobe.com/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
+   * 在[流失分析](https://docs.adobe.com/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
 
 * 您可以[將多個區段套用至報表或專案](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 區段在所有報表套裝中都通用。
