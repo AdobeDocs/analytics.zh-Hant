@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 部署 Analytics 時，請在 Dynamic Tag Management 中使用欄位說明來自訂頁面程式碼。
 
-**[!UICONTROL `Property`]** >編 **[!UICONTROL 輯工具]** >自 ![](assets/settings_gear.png)**[!UICONTROL 訂頁面代碼]**
+「**[!UICONTROL `Property`]** > **[!UICONTROL 編輯工具]** ![](assets/settings_gear.png) > **[!UICONTROL 自訂頁面程式碼」]**
 
 <table id="table_A4676A5FEE814DF9A05DA0E56F8B4C6D"> 
  <thead> 
