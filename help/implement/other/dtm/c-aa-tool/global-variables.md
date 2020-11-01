@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## 全域變數 - 欄位描述 {#section_2917F62FCC8D43F982B2612A702DEF81}
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;全域變數&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;全域變數&#x200B;]**
 
 | 元素 | 說明 |
 |--- |--- |
