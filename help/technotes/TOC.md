@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 85%
+ht-degree: 90%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 85%
       + [轉換](ga-to-aa/reports/conversions-reports.md)
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
-   + [比較資料與協力廠商產品](ga-to-aa/compare-data.md)
+   + [比較資料與第三方產品](ga-to-aa/compare-data.md)
 + 分析受事件影響的資料{#event}
    + [分析受事件影響的資料概述](event/overview.md)
-   + [疑難排解資料中的尖峰／下降](event/spikes-drops.md)
+   + [疑難排解資料的尖峰/下降](event/spikes-drops.md)
    + [在分析中排除特定日期](event/segments.md)
    + [比較日期與原日期範圍](event/compare-dates.md)
    + [衍生受事件影響的資料](event/calcmetrics.md)
