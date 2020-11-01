@@ -6,16 +6,16 @@ translation-type: tm+mt
 source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
 
 # [!UICONTROL 欄設定]
 
-[!UICONTROL 「欄設定] 」可讓您設定欄格式，其中有些可以是條件式的。
+[!UICONTROL 欄設定]可供設定欄的格式，部分可設為條件式。
 
-## 編輯 [!UICONTROL 欄設定] {#edit-column-settings}
+## 編輯[!UICONTROL 「欄設定」] {#edit-column-settings}
 
 若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
 
@@ -27,7 +27,7 @@ ht-degree: 92%
 | --- | --- |
 | **總計儲存格** |  |
 | 顯示總計 | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. 它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
-| 顯示總量 | 此總計代表所有已收集的點擊，有時稱為「報表套裝總計」。 在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
+| 顯示全部總量 | 此總計代表所有已收集的點擊，有時稱為「報表套裝總計」。 在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/build-workspace-project/workspace-totals.md). |
 | **表格儲存格** |  |
 | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則該數值為列項目的頁面檢視數量。 |
 | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，如果量度為「頁面檢視」，則該百分比數值為欄頁面檢視總數除以列項目的頁面檢視次數。附註：為了比例更精確，我們可以顯示超過 100% 的數值。我們也將上限提高為 1000%，以確保欄位的寬度夠大。 |
@@ -48,9 +48,9 @@ ht-degree: 92%
 | 元素 | 說明 |
 | --- | --- |
 | 條件式格式 | 根據資料值，套用下列顏色至儲存格： <ul><li>綠：高數值</li><li>黃：中間值</li><li>紅：低數值</li></ul> <br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
-| 使用百分比限制 | 變更限制範圍，從絕對值改為以百分比為基礎. 此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
-| 自動產生 | 根據資料自動計算上/中/下限. 上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
-| 自訂 | 手動對齊上/中/下限. 這可提供由您決定欄的值是好、中等或壞的彈性。 |
+| 使用百分比限制 | 變更限制範圍，從絕對值改為以百分比為基礎.此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
+| 自動產生 | 根據資料自動計算上/中/下限.上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
+| 自訂 | 手動對齊上/中/下限.這可提供由您決定欄的值是好、中等或壞的彈性。 |
 
 ## 使用非預設歸因模式 {#attribution}
 
