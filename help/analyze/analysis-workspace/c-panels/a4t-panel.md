@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
 workflow-type: tm+mt
 source-wordcount: '912'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,11 +44,11 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 標準化量度 | 不重複訪客、造訪，或活動曝光數。 |
 | 成功量度 | 在產生器中選取的量度 |
 | 轉換率 | 成功量度/標準化量度 |
-| 提升度 | 對照控制體驗來比較每一個體驗的轉換率。<br>**注意：** 提升度是「鎖定的量度」，用於定位體驗；無法劃分或與其他維度搭配使用。 |
+| 提升度 | 對照控制體驗來比較每一個體驗的轉換率。<br>**注意：**&#x200B;提升度是 Target 體驗的「鎖定量度」；您無法加以劃分，也無法與其他維度搭配使用。 |
 | 提升度 (下限) | 代表變異數體驗對控制的最差提升度。 |
 | 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。 |
 | 提升度 (上限) | 代表變異數體驗對控制的最佳提升度。 |
-| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。<br>**注意：** 信賴度是Target體驗的「鎖定量度」;無法劃分或與其他維度搭配使用。 |
+| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。<br>**注意：**&#x200B;可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。 |
 
 和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，以繼續進行分析。
 
@@ -61,7 +61,7 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 為何 Target 與 Analytics 的不重複訪客會有差異？ | [深入瞭解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)產品之間的不重複訪客差異。 |
 | 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | A4T 維度是清單變數，這表示有可能同時包含許多活動 (和體驗)。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
 | 可信度量度是否可計算極端順序，或對多個優惠方案套用 Bonferroni 校正？ | 不可以，[深入瞭解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
-| 提升度和信賴度量是否可與其他維度或劃分搭配使用？ | 提升度和信賴度是「目標體驗」維度的「鎖定量度」，因為它們需要控制項和變數才能跨度計算。 因此，無法將它們劃分或與其他維度搭配使用。 |
-| 何時重新計算提升度和可信度？ | 每當面板執行（或重新執行）、面板日期範圍變更或區段套用至面板或表格時，提升度和可信度都會重新計算。 |
+| 提升度和可信度量度是否可搭配其他維度或劃分使用？ | 提升度和可信度是「目標體驗」維度的「鎖定量度」，因為它們需有控制項和變數才能計算。因此，無法劃分或搭配其他維度使用。 |
+| 何時會重新計算提升度和可信度？ | 執行 (或重新執行) 面板、面板日期範圍變更或將區段套用至面板或表格時，提升度和可信度就會重新計算。 |
 
 如需 Analytics for Target 報告的詳細資訊，請造訪 [A4T 報告](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/reporting.html)
