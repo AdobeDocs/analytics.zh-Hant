@@ -288,7 +288,7 @@ rule_priority.xml
 | 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
-如果使用者搜尋     *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
+如果使用者搜尋      *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
 
 同樣地，假設您在一個規則集裡面為下列搜尋詞設定兩個規則：
 
@@ -297,7 +297,7 @@ rule_priority.xml
 | 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
-使用者搜尋   *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
+使用者搜尋    *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
 
 ## 將分類規則新增至規則集 {#add-classification-to-rule-set}
 
