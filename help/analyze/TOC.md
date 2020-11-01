@@ -238,14 +238,14 @@ ht-degree: 97%
       + [最佳作法](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [疑難排解 Power BI 的整合問題](report-builder/c-publish-power-bi/troubleshooting.md)
       + [適用於 Power BI 的 Adobe Analytics 內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
-   + [Visual Basic宏](report-builder/vba.md)
+   + [Visual Basic 巨集](report-builder/vba.md)
    + [報告建立工具疑難排解](report-builder/troubleshoot.md)
    + [報告建立工具常見問答集](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 概觀](activity-map/activity-map.md)
    + 快速入門 {#getting-started}
       + 管理員快速入門 {#get-started-admins}
-         + [啟用Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
+         + [啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
          + [實施代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 使用者快速入門 {#get-started-users}
          + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
