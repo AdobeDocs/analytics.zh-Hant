@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
@@ -34,4 +34,4 @@ Adobe 建議將 eVar 設為串連字串 `window.location.hostname + window.locat
 
 ## 維度項目
 
-維度項目包含您網站上頁面的URL。
+維度項目包含您網站上的頁面 URL。
