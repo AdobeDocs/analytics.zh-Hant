@@ -1,16 +1,16 @@
 ---
-title: 行動裝置屬性查閱
-description: 行動裝置屬性的查閱檔案。
+title: 行動屬性查閱
+description: 查閱行動屬性的檔案。
 translation-type: tm+mt
 source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 
-# 行動裝置屬性查閱
+# 行動屬性查閱
 
 行動屬性會顯示點擊中行動裝置的屬性。在下列情況下，會顯示此檔案：
 
