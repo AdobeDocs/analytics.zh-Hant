@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 99%
 + [資料插入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
    + [開始使用 Analytics Data Connector](data-connectors/getting-started-data-connectors.md)
-   + [Analytics資料連接器的生命週期結束](data-connectors/data-connectors-eol.md)
+   + [Analytics Data Connectors 終止服務](data-connectors/data-connectors-eol.md)
    + Adobe Analytics 的 appFigures Data Connector {#appfigures}
       + [appFigures 概觀](data-connectors/appfigures-overview/appfigures-overview.md)
       + [啟動這項整合的事前準備](data-connectors/appfigures-overview/appfigures-before-activation.md)
