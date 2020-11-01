@@ -1,11 +1,11 @@
 ---
-title: 實作常見問答集
+title: 實作常見問題集
 description: 實施的相關常見問題，以及可提供更多資訊的連結。
 translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 48%
+ht-degree: 71%
 
 ---
 
@@ -30,12 +30,12 @@ Identity Service 會指派不重複的持續性識別碼，以便在 Experience 
 
 AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再向 Adobe 資料收集伺服器要求該影像物件。如果資料收集伺服器效能緩慢或無反應，處理該要求的執行緒會延遲，直到傳回影像或逾時。因為瀏覽器使用多個執行緒來處理影像，Adobe 中斷對頁面載入時間的影響極小，最多只會佔用一個執行緒，而其他執行緒仍持續運作。
 
-## 如何使Analytics實作無效或移除？
+## 如何使 Analytics 實作無效或加以移除？
 
-有時，組織會因為合約到期而想要移除實施，或是減少伺服器呼叫數。
+有時組織會因為合約到期，或是需減少伺服器呼叫數而想要移除實作。
 
-* **使用Launch的實作**:在「延伸功能」標籤中停用或解除安裝Adobe Analytics [!UICONTROL 延伸功能] ，然後發佈。
-* **舊版AppMeasurement實作**:使用下列程式碼 `s_code.js` 行取代檔案的整個內容：
+* **使用 Launch 的實作**：在[!UICONTROL 「擴充功能」]標籤中停用或解除安裝 Adobe Analytics 擴充功能，然後進行發佈。
+* **舊版 AppMeasurement 實作**：使用下列程式碼行取代 `s_code.js` 檔案的整個內容：
 
 ```js
 var s = new Object();
@@ -43,11 +43,11 @@ var s = new Object();
 
 >[!WARNING]
 >
->不要：
+>請勿：
 >
->* 將報表套裝變更為無效值，因為這會在Adobe伺服器上造成不必要的載入。
->* 完全移 `s_code.js` 除檔案，除非您也移除每個頁面上檔案的所有參照。
->* 變更變 `trackingServer` 數以指向遠離Adobe。 AppMeasurement仍會傳送影像要求，傳回404個錯誤。
+>* 將報表套裝變更為無效值，因為這會在 Adobe 伺服器上造成不必要的負載。
+>* 完全移除 `s_code.js` 檔案，除非您同時移除每個頁面上該檔案的所有參照。
+>* 變更 `trackingServer` 變數以遠離 Adobe。AppMeasurement 仍會傳送影像要求，而要求會傳回 404 錯誤。
 
 
 ## 我透過程式碼分析器執行AppMeasurement，並指出其使用方式 `Math.random()` 有潛在安全風險。 是否 `Math.random()` 與任何敏感資料搭配使用？
