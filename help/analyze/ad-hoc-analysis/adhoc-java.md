@@ -14,7 +14,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日的終止狀態。 [深入了解...](https://adobe.ly/discoverworkspace).
+>Adobe將臨機分析移至2021年3月1日的終止狀態。 [更多詳情...](https://adobe.ly/discoverworkspace).
 
 當您以 Java 11 執行 Ad Hoc Analysis 時，會有 Java 8 所沒有的額外步驟需遵照執行。
 
