@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
 workflow-type: tm+mt
 source-wordcount: '8103'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 | 功能 | 說明 |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | **[!UICONTROL 在「線條」視覺效果趨勢線設定中新增了移動平均。]**&#x200B;移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
+| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
 | [「效能幫助」頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。 |
 
 ## 2020 年 9 月
@@ -40,11 +40,11 @@ ht-degree: 96%
 
 ## 7 月 2020 日
 
-2020年7月16日發行的新功能。
+2020 年 7 月 16 日發行的新功能。
 
 | 功能 | 說明 |
 | --- | --- |
-| 新的日期範圍預設集 | 新增4個新日期範圍：([!UICONTROL 本週／月/季／年（不包括今天）])。 這可讓您從不包含今天部分資料的日期範圍中選擇。 |
+| 新日期範圍預設集 | 新增 4 個日期範圍：([!UICONTROL 本週/本月/本季/今年 [不包括今天]])。這可讓您選擇不包括今天部分資料的日期範圍。 |
 
 ## 2020 年 6 月
 
@@ -52,24 +52,24 @@ ht-degree: 96%
 
 | 功能 | 說明 |
 |--- |--- |
-| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[深入了解...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
-| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[深入了解...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
-| 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 更新的空白麵板 | 空白麵板現在包含面板和視覺化，提供您更順暢的方式來挑選最適合您的分析工作流程。 |
-| 快速洞察面板（2020年6月25日） | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 工作區中的「Analytics for Target」面板 (2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[深入了解...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
+| 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
+| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 更新的空白面板 | 空白面板現增設多種面板和視覺效果，為您提供更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
+| 快速深入分析面板 (2020 年 6 月 25 日) | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
+| 工作區中的「Analytics for Target」面板(2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[更多詳情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
 | 「Workspace 簡介」頁面 | 「Workspace 簡介」頁面提供了 Analysis Workspace 環境和 Adobe Analytics 管理員 (如果您需要協助) 的相關資訊，以及產品內意見反應方法。此頁面位於「Workspace > 說明 > Workspace 簡介」。 |
 
 ## 2020 年 5 月
 
-2020年5月21日發行的新功能。
+2020 年 5 月 21 日發行的新功能。
 
 | 功能 | 說明 |
 |--- |--- |
 | 從空白狀態自動建立自由表格 | 過去，您必須先新增自由表格，無法直接將元件放入空白專案或空白面板中。現在，您可以直接將元件放入空白的專案或面板中，由系統自動以建議的格式為您建立自由表格。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白自由表格時的處理方式。 |
-| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[深入了解...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
+| 改善協助工具 | Adobe Analytics 團隊改善 Analysis Workspace 的幾項協助工具，包括改善鍵盤瀏覽、顏色對比和螢幕助讀程式支援。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html) |
 
 ## 2020 年 4 月
 
@@ -95,7 +95,7 @@ ht-degree: 96%
 | 功能 | 說明 |
 |--- |--- |
 | 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-setup.html)。 |
-| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板: `alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板: `alt + Right Key`</li><li>移至上一個面板: `alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 工作區其他增強功能 | <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 工作區除錯工具 | 「說明」功能表新增工作區偵錯程式，供您以更順暢的方式啟用，以偵錯工作區請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -371,7 +371,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新的列設定 </a> </p> </td> 
-   <td colname="col2"> <p>新增<span class="uicontrol">「按列計算百分比」</span>的列設定，強制自由格式表格計算跨列的儲存格百分比，而非整欄計算。這對於趨勢百分比特別有用，例如一維項目在一段時間內與其他項目的趨勢比較。 按一下<span class="uicontrol">「視覺化」</span>圖示時，此功能就會預設為啟用。 </p> </td> 
+   <td colname="col2"> <p>新增<span class="uicontrol">「按列計算百分比」</span>的列設定，強制自由格式表格計算跨列的儲存格百分比，而非整欄計算。此設定在計算趨勢百分比時特別實用，例如分析一個維度項目是如何隨著時間而在剩餘的部分當中好轉的趨勢。按一下<span class="uicontrol">「視覺化」</span>圖示時，此功能就會預設為啟用。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md#section_D3BB5042A92245D8BF6BCF072C66624B"  >「100% 堆疊」的視覺效果設定 </a> </p> </td> 
@@ -540,7 +540,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>「無/未指定」的變更 </p> </td> 
-   <td colname="col2"> <p>變更「無／未指定」在分析工作區中的運作方式，使其與「報告與分析」、「區段產生器」和「分析工作區」中的維度項目選單一致。 </p> <p>這表示在 Analysis Workspace 的大部分專案中，值將會顯示為「未指定」而非「無」。 </p> </td> 
+   <td colname="col2"> <p>變更「無/未指定」在 Analysis Workspace 中的運作方式，使其與 Reports &amp; Analytics、區段產生器，以及 Analysis Workspace 中的維度項目功能表一致。 </p> <p>這表示在 Analysis Workspace 的大部分專案中，值將會顯示為「未指定」而非「無」。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
