@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 7c825eabaa5c1c43ef11bc1654a8af7a1d27d709
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 |---|---|
-| 2020 年 7 月 21 日 | 跨裝置分析的 [主要更新和修訂](/help/components/cda/overview.md)。 已新 [增欄位式拼接](/help/components/cda/field-based-stitching.md)。 |
+| 2020 年 7 月 21 日 | [跨裝置分析](/help/components/cda/overview.md)的主要更新和修訂項目。新增[依欄位彙整](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) 新增更新內容。 |
 | 2020 年 3 月 12 日 | 更新 CDA 編結延遲。 |
@@ -38,7 +38,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
-| 2019 年 11 月 21 日 | 針對 [}Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
 | 2019 年 9 月 12 日 | [歷程 IQ：跨裝置分析](/help/components/cda/overview.md)的新文件 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/analyze/pwa/pwa.md)的相關新文章 |
