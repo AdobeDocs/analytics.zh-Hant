@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 96%
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
    * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
 
-**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)(原稱為 Genesis)** 使用時機：
+**[Data Connectors ](https://www.adobeexchange.com/experiencecloud.html)(原稱為 Genesis)** 使用時機：
 
 * 當您與第三方提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。Data Connectors 通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
 
@@ -102,7 +102,7 @@ ht-degree: 96%
 * 若要存取比 UI 更加精細的資料 (非正常的表格檢視)
 * 用若要以樞紐分析表輸入所適用的格式下載資料
 * 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到第三方資料視覺化工具中時
-* 若要在Adobe Analytics中遇到「低流量」時存取所有唯一維度項目
+* 若要在 Adobe Analytics 遇上「低流量」狀態時存取所有不重複維度項目
 
 **[Analytics 資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;使用時機：
 
