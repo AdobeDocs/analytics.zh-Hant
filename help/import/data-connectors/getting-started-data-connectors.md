@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe 針對各組織的數位策略與行銷方案提供可執行的即時資�
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期終止Adobe Data Connector技術。 [深入了解...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於 2021 年中到年底終止 Adobe Data Connector 技術。[更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 **系統要求**
 
