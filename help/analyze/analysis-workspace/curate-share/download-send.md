@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 對於專案下載，請記住：
 
-* 當您要求下載專案時，可以儲存或儲存專案。 不過，只能排程儲存的 [專案](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
+* 當您要求下載專案時，可以儲存或儲存專案。 不過，只能排程儲存的 [專案](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html)。
 * 在瀏覽器中下載的PDF匯出可能需要幾分鐘的時間，因為專案會在Adobe伺服器上重新執行，然後再以PDF格式轉譯。 建議您在 PDF 下載到瀏覽器之前不要退出專案。不過，您可以在等待時繼續變更專案。如果PDF的轉譯時間超過5分鐘，則會提示您以電子郵件傳送。
 * PDF下載會呈現為單一頁面，不會套用分頁。
 * 當專案轉譯為PDF時，我們會轉譯頁面上的內容。 如果專案有自訂視覺效果和面板，您必須將其變更為自動縮放 (右上角按鈕)，內容才不會遭截斷。
