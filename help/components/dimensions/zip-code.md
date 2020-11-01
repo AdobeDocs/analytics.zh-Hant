@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 71%
+ht-degree: 78%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 71%
 * 希臘
 * 格瑞那達
 * 瓜地馬拉
-* 香港
+* 中國香港特別行政區
 * 匈牙利
 * 印度
 * 印尼
