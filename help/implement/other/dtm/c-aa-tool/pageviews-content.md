@@ -17,7 +17,7 @@ ht-degree: 100%
 
 部署 Analytics 時，Dynamic Tag Management 中用於頁面檢視與內容設定的欄位說明。
 
-**[!UICONTROL *`Property`*]**>![齒輪圖示](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;頁面檢視與內容&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![齒輪圖示](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;頁面檢視與內容&#x200B;]**
 
 <table id="table_654149A8A66B404BBF9BAF8EC67F5F8F">
  <thead>
