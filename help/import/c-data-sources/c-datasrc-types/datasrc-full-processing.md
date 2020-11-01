@@ -124,7 +124,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
    <td colname="col2"> <p>prop<i>N</i>，即 &lt;prop2&gt;…&lt;/prop2&gt; </p> </td> 
-   <td colname="col3"> <p>屬性編號字串 (如   <span class="term"> 體育版 </span>). </p> </td> 
+   <td colname="col3"> <p>屬性編號字串 (如    <span class="term"> 體育版 </span>). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
