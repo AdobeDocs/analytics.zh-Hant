@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 70%
+ht-degree: 80%
 
 ---
 
@@ -60,8 +60,8 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
     </ol> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/applying-segments-to-your-analysis-workspace-project.html"  > 影片：在工作區中使用區段</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/panel-level-segments.html"  > 影片：將區段套用至面板</a> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>建立臨時（「臨機」）區段 </p> </td> 
-   <td colname="col2"> <p>You can <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > create instant, temporary ("ad-hoc") segments</a> in Analysis Workspace by dragging dimension items into the segment drop zone at the top of the panel. 此外，您可在面板下拉區中新增下拉式篩選，一次建立許多臨時區段，以啟用受控制的專案互動。 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html"  > 影片：分析工作區中的臨機區段</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > 影片：分析工作區中的下拉式篩選</a> </p> </td> 
+   <td colname="col1"> <p>建立暫時 (「臨機」) 區段 </p> </td> 
+   <td colname="col2"> <p>您可以在 Analysis Workspace 中<a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >建立立即的暫時 (「臨機」) 區段</a>，做法是將維度項目拖放至面板頂端的區段拖放區域。此外，您可在面板拖放區域中新增下拉式篩選器，一次建立許多暫時區段，這會啟用控制的專案互動。 </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/ad-hoc-temporary-segments.html"  > 影片：分析工作區中的臨機區段</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/applying-segments/using-drop-down-filters.html"  > 影片：Analysis Workspace 中的下拉式篩選器</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>選擇日期範圍和精細度 </p> </td> 
@@ -87,7 +87,7 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
     <ul id="ul_42D259310823496499F7D1474E1639AF"> 
      <li id="li_5DE6980EF66A49E58B8946A0422BC02C">流量可跨越造訪或訪客。 </li> 
      <li id="li_70A692266D32416BA3D70C1F8999F837">重要統計資料是以 % 路徑視圖顯示。 </li> 
-    </ul> <p>此外，流量允許使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合維度</a>及以滑鼠右鍵按一下並建立區段，這是 Ad Hoc Analysis 的改進項目。 </p> <p>目前，分析工作區中的 <b>流量</b> ，無法讓使用者選擇成功事件。 </li> 
+    </ul> <p>此外，流量允許使用<a href="/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md"  >混合維度</a>及以滑鼠右鍵按一下並建立區段，這是 Ad Hoc Analysis 的改進項目。 </p> <p>目前，Analysis Workspace 中的「流量」<b>無法</b>讓使用者選擇成功事件。 </li> 
     </ul> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html"  > 影片：流量視覺效果概述</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/text-wrapping-and-multi-dimensional-flow.html"  > 影片：多維度流量</a> </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/expanding-on-flow-visualization.html"  > 影片：從流量建立區段</a> </p> </td> 
   </tr> 
   <tr> 
@@ -100,11 +100,11 @@ Analysis Workspace 將 Ad Hoc Analysis 的許多功能帶入瀏覽器工作流�
   </tr> 
   <tr> 
    <td colname="col1"> <p>選取報表套裝 </p> </td> 
-   <td colname="col2"> <p>可在分析工作區中將多個報表套裝新增至單一專案。  </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html"  > 影片：工作區中的多個報表套裝</a> </p></td> 
+   <td colname="col2"> <p>可在 Analysis Workspace 中將多個報表套裝新增至單一專案。  </p> <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/multiple-report-suites-in-analysis-workspace.html"  > 影片：工作區中的多個報表套裝</a> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>歸因 IQ </p> </td> 
-   <td colname="col2"> <p>您可以使用 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >歸因 IQ</a>，將許多新類型的歸因模型新增至自由表格、視覺效果和計算量度中。它包含10種以上的規則型和演算法模型。 </p>  <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables.html"  > 影片：自由表格中的歸因IQ</a> </p> </td> 
+   <td colname="col2"> <p>您可以使用 Analysis Workspace 中的<a href="/help/analyze/analysis-workspace/attribution/overview.md"  >歸因 IQ</a>，將許多新類型的歸因模型新增至自由表格、視覺效果和計算量度中。包含 10 種以上規則型和演算法模型。 </p>  <p><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-attribution-iq-in-freeform-tables.html"  > 影片：自由表格的歸因 IQ</a> </p> </td> 
   </tr>  
  </tbody> 
 </table>
