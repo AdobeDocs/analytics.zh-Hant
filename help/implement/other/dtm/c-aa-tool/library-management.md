@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Dynamic Tag Management 中「程式庫管理」設定的欄位和選項說明。
 
-**[!UICONTROL *`Property`*]**>![](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;程式庫管理&#x200B;]**
+**[!UICONTROL *`Property`*]**> ![](assets/settings_gear.png)**[!UICONTROL &#x200B;編輯工具&#x200B;]**>**[!UICONTROL &#x200B;程式庫管理&#x200B;]**
 
 >[!NOTE]
 >
