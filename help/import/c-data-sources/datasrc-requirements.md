@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 * 上傳資料來源檔案時，資料來源會執行基本資料驗證，確定檔案不包含格式錯誤。若在檔案中發現錯誤，會傳送電子郵件通知並停止處理。
 * 資料欄位不可包含分號。資料來源會略過包含分號的記錄。
-* 來自網站記錄檔、流量的資料以及部分通用資料來源群組，在 Data Warehouse 或 Discover 中無法使用。如需詳細資訊，請參 [閱資料類型和類別](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
+* 來自網站記錄檔、流量的資料以及部分通用資料來源群組，在 Data Warehouse 或 Discover 中無法使用。如需詳細資訊，請參閱[資料類型和類別](/help/import/c-data-sources/c-datasrc-types/datasrc-categories.md)。
 * 資料來源不支援序列化事件。
 
 ## 多位元組支援 {#section_96C8D26B21184C3E839865DB6F23EA22}
@@ -60,15 +60,15 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援. 資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
+   <td colname="col2"> <p>支援.資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
-   <td colname="col2"> <p>支援. 此格式為非標準格式，但許多 Windows 應用程式以此格式儲存。 </p> <p>例如，如果您選擇「UTF-8」，WordPad 會儲存為該格式。 </p> </td> 
+   <td colname="col2"> <p>支援.此格式為非標準格式，但許多 Windows 應用程式以此格式儲存。 </p> <p>例如，如果您選擇「UTF-8」，WordPad 會儲存為該格式。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> ISO-8859-1 (又叫做 Latin-1 或 Windows-1252) </td> 
-   <td colname="col2"> 支援. 當您選擇「定位點分隔」匯出時，Microsoft Excel 會儲存為該格式。報表套裝必須使用 ISO-8859-1 地區設定。 </td> 
+   <td colname="col2"> 支援.當您選擇「定位點分隔」匯出時，Microsoft Excel 會儲存為該格式。報表套裝必須使用 ISO-8859-1 地區設定。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-16 Little-endian, with Byte Order Mark (FF FE) </td> 
