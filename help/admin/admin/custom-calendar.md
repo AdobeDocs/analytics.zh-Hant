@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 西曆模式以外的日曆選項。選項包括 4-4-5、4-5-4 和 5-4-4 日曆模式，這三種均用作零售業的標準。此外，報告還提供可以自行設定的完全自訂日曆選項。
 
-**[!UICONTROL 管理]** >報 **[!UICONTROL 表套裝]** >選擇報表套裝> **[!UICONTROL 編輯設定]** >一般 **[!UICONTROL >自]****[!UICONTROL 訂日曆]**
+**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝]** > 選取報表套裝 > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 自訂日曆」]**
 
 >[!CAUTION]
 >
