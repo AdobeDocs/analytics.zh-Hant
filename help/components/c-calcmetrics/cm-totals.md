@@ -2,7 +2,10 @@
 title: 計算量度總計
 description: 瞭解 Analytics 工具中計算量度總計的差異
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 100%
 
 ---
 
@@ -35,5 +38,5 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 顯示總計時，通常會在伺服器端計算，這表示總計會去除重複的量度，例如造訪或訪客。在特定情況下，計算量度是透過表格各列的總和來於用戶端產生，這表示總計不會去除重複的量度，例如造訪或訪客。以下情境中會發生此情況：
 
-* 當自由表格中使用[靜態列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)，且選取&#x200B;**[!UICONTROL 顯示為目前列的總和]**&#x200B;選項 (預設值) 時。
+* 當自由表格中使用[靜態列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)，且選取&#x200B;**[!UICONTROL 顯示為目前列的總和]**&#x200B;選項 (預設值) 時。
 * 在[環形圖視覺效果](/help/analyze/analysis-workspace/visualizations/donut.md)中，因此數字加起來為 100%。
