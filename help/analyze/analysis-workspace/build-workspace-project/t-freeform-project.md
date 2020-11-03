@@ -5,7 +5,7 @@ title: 建立工作區專案
 topic: Reports and analytics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
-source-git-commit: cf88e73a67db9ba55ba6721df57e3c2db649b31d
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 99%
@@ -73,7 +73,7 @@ ht-degree: 99%
    <td colname="col2"> <p>您可拖曳至介面的面板或專案區域的項目。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  > 自由面板 </a> </td> 
+   <td colname="col1"><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  > 自由面板 </a> </td> 
    <td colname="col2"> <p>您與「Analysis Workspace」互動的畫布或工作區。 </p> </td> 
   </tr> 
  </tbody> 
