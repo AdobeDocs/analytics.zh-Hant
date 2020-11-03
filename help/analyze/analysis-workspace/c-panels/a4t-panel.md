@@ -2,10 +2,10 @@
 description: Analytics for Target (A4T) 面板可讓您在 Analysis Workspace 中分析 Adobe Target 活動和體驗。
 title: Analytics for Target (A4T) 面板
 translation-type: tm+mt
-source-git-commit: 677539632878655a6e573176321b59b531e1ab2c
+source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 86%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 | 設定 | 說明 |
 |---|---|
-| 目標活動 | 從「Target 活動」清單中選取活動，或從左側邊欄拖放活動。<br>**注意：**&#x200B;清單會填入近 6 個月內至少點擊過 1 次的活動。如果您在清單中未看到某個活動，表示其存留期可能已超過 6 個月。您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
+| 目標活動 | 從「Target 活動」清單中選取活動，或從左側邊欄拖放活動。注意：清單會填入近 6 個月內至少點擊過 1 次的活動。如果您在清單中未看到某個活動，表示其存留期可能已超過 6 個月。您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
 | 控制體驗 | 選取您的控制體驗。如有需要，您可以在下拉式清單中加以變更。 |
 | 標準化量度 | 從「不重複訪客」、「造訪」或「活動曝光數」中選擇。在大多數的分析使用案例中，均建議使用不重複訪客。此量度 (也稱為計數方法) 會成為提升度計算的分母。也會影響在套用可信度計算前彙總資料的方式。 |
 | 成功量度 | 從下拉式清單中選取最多 3 個標準 (非計算) 成功事件，或從左側邊欄中拖放量度。每個量度在呈現的面板中都會有專屬的表格和視覺效果。 |
@@ -44,11 +44,11 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 標準化量度 | 不重複訪客、造訪，或活動曝光數。 |
 | 成功量度 | 在產生器中選取的量度 |
 | 轉換率 | 成功量度/標準化量度 |
-| 提升度 | 對照控制體驗來比較每一個體驗的轉換率。<br>**注意：**&#x200B;提升度是 Target 體驗的「鎖定量度」；您無法加以劃分，也無法與其他維度搭配使用。 |
-| 提升度 (下限) | 代表變異數體驗對控制的最差提升度。 |
-| 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。 |
-| 提升度 (上限) | 代表變異數體驗對控制的最佳提升度。 |
-| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。<br>**注意：**&#x200B;可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。 |
+| 提升度 | 對照控制體驗來比較每一個體驗的轉換率。注意：提升度是 Target 體驗的「鎖定量度」；您無法加以劃分，也無法與其他維度搭配使用。 |
+| 提升度 (下限) | 代表變體體驗在95%信賴區間內對控制項的最差提升度。<br>計算：(x/y ± 1.96 std_err(x,y))/(x_control/y_control ∓ 1.96 std_err(x_control,y_control))。 這裡std_err(x,y)是sqrt(xx/y -(x/y)^2)，其中xx表示平方和。 |
+| 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。<br>計算：(x/y)/(x_control/y_control)- 1 |
+| 提升度 (上限) | 以95%的信賴區間，代表變體體驗對控制項可擁有的最佳提升度。<br>計算：請參閱提升度（下方）。 |
+| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>計算：套用2尾t-test，具有y+y_control-2自由度，以尋找x/y等於x_control/y_control的p值。 計算t分數，其中stderr為sqrt((xx/y-(x/y)^2)/y +(xx_control/y_control-(x_control/y_control)^2)/y_control)。 回報1-p，以確信兩者不同。 |
 
 和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，以繼續進行分析。
 
