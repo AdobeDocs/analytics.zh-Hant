@@ -1,9 +1,9 @@
 ---
 title: 歸因概觀
 description: 將成功事件的評分歸因於多個維度項目的概念。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 
@@ -41,6 +41,6 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 歸因 IQ 包含下列功能:
 
 * [歸因面板](../c-panels/attribution.md)：取用任何維度和量度，並將其與不同的歸因模型快速比較。
-* [將歸因套用至量度](../build-workspace-project/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
+* [將歸因套用至量度](../visualizations/freeform-table/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
 * [將歸因套用至劃分](../components/dimensions/t-breakdown-fa.md)：對劃分使用非預設歸因。
 * [比較歸因模型](../components/apply-create-metrics.md)：快速瞭解不同歸因模型與任何量度的比較情形。
