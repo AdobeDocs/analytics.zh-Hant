@@ -1,21 +1,19 @@
 ---
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和指向與按下行為。
 keywords: Analysis Workspace
-title: Analysis Workspace 中可用的快捷鍵 (快速鍵)
-topic: Reports and analytics
-uuid: 1ee93ce3-acab-44f8-abdc-9a68ced35d32
+title: 快速鍵（快速鍵）
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 82%
+source-wordcount: '282'
+ht-degree: 74%
 
 ---
 
 
-# Analysis Workspace 中可用的快捷鍵 (快速鍵)
+# 快速鍵（快速鍵）
 
-Analysis Workspace 中提供快捷鍵 (鍵盤快速鍵)，以順暢導覽、分析和加速。
+分析工作區中提供快速鍵（鍵盤快速鍵），以順暢導覽、分析、新增面板和視覺化，以及民主化（共用）。
 
 注意:
 * `Ctrl` = Windows和 `Command` = Mac
