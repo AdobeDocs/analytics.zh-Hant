@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
 translation-type: tm+mt
-source-git-commit: 6b191170130018fd9c3555f4470962c702e52cd7
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1107'
 ht-degree: 97%
 
 ---
@@ -23,17 +23,10 @@ ht-degree: 97%
       + [建立專案 - 概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [在工作區中使用多個報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + 欄和列的設定 {#column-row-settings}
-         + [欄設定](analysis-workspace/build-workspace-project/column-row-settings/column-settings.md)
-         + [列設定](analysis-workspace/build-workspace-project/column-row-settings/table-settings.md)
-         + [動態與靜態項目](analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)
-      + [還原和重做設定](analysis-workspace/build-workspace-project/undo-redo.md)
-      + [Analysis Workspace 中可用的快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
-      + [分頁、篩選及分類表格](analysis-workspace/build-workspace-project/pagination-filtering-sorting.md)
+      + [多報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [快速鍵（快速鍵）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
-      + [工作區總計](analysis-workspace/build-workspace-project/workspace-totals.md)
    + 元件 {#components}
       + [元件概觀](analysis-workspace/components/analysis-workspace-components.md)
       + 維度 {#dimensions}
@@ -49,7 +42,14 @@ ht-degree: 97%
    + 視覺效果 {#visualizations}
       + [視覺效果概觀](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
-      + [自由表格](analysis-workspace/visualizations/freeform-table.md)
+      + 自由表格 {#freeform-table}
+         + [自由表格](analysis-workspace/visualizations/freeform-table/freeform-table.md)
+         + 欄和列的設定 {#column-row-settings}
+            + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
+            + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
+            + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
+         + [分頁、篩選及分類表格](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
