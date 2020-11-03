@@ -3,7 +3,7 @@ description: 了解 Analysis Workspace 中的視覺效果和視覺效果設定�
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 97%
@@ -26,7 +26,7 @@ Video tutorial: [Visualization Types in Analysis Workspace](https://docs.adobe.c
 | [環形圖](/help/analyze/analysis-workspace/visualizations/donut.md) | 此視覺效果類似圓餅圖，以整體的部分或區段顯示資料。 |
 | [流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) | 流失報表可顯示在一系列預先定義的連續頁面中，訪客在哪個位置離開 (流失) 和繼續通過 (流過)。 |
 | [流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) | 顯示客戶使用您網站和應用程式的路徑。 |
-| [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table.md) | 自由表格不僅僅是資料表格，也是互動式視覺效果。 |
+| [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格不僅僅是資料表格，也是互動式視覺效果。 |
 | [色階分佈圖](/help/analyze/analysis-workspace/visualizations/histogram.md) | 色階分佈圖類似於長條圖，但前者將數字分組為範圍 (貯體)。 |
 | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
 | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。僅可在使用時間當作維度時，才使用折線圖。 |
