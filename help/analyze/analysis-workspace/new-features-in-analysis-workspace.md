@@ -3,9 +3,9 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
 workflow-type: tm+mt
-source-wordcount: '8103'
+source-wordcount: '8106'
 ht-degree: 98%
 
 ---
@@ -105,7 +105,7 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 |--- |--- |
-| [自由表格產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
+| [自由表格產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -113,7 +113,7 @@ ht-degree: 98%
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 更新為自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
+| 更新為自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
 | 移除「未指定/無」的選項 | 可輕鬆移除「未指定 (無)」的功能已新增為報表篩選器的選項。 |
 | 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
 
@@ -366,11 +366,11 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「繞排標頭文字」預設為啟用</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >「繞排標頭文字」預設為啟用</a> </p> </td> 
    <td colname="col2"> <p>自由格式表格現已預設啟用<span class="uicontrol">「繞排標頭文字」</span>欄設定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 新的列設定 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 新的列設定 </a> </p> </td> 
    <td colname="col2"> <p>新增<span class="uicontrol">「按列計算百分比」</span>的列設定，強制自由格式表格計算跨列的儲存格百分比，而非整欄計算。此設定在計算趨勢百分比時特別實用，例如分析一個維度項目是如何隨著時間而在剩餘的部分當中好轉的趨勢。按一下<span class="uicontrol">「視覺化」</span>圖示時，此功能就會預設為啟用。 </p> </td> 
   </tr> 
   <tr> 
@@ -397,7 +397,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 標頭文字繞排 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 標頭文字繞排 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以在自由表格中繞排標頭文字，讓標頭更容易閱讀，表格也更便於分享。我們已在欄設定中新增「繞排標頭文字」選項。這項設定特別是對 PDF 的轉譯還有較長名稱的量度來說，非常實用。 </p> </td> 
   </tr> 
   <tr> 
@@ -453,11 +453,11 @@ ht-degree: 98%
    <td colname="col2"> <p>我們新增了按一下滑鼠右鍵「複製至剪貼簿」選項，讓您能夠不間斷地複製儲存格/表格。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >欄百分比改善</a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >欄百分比改善</a> </p> </td> 
    <td colname="col2"> <p>即使在某些情況下，列會超過總數的 100% (例如平均值)，欄中顯示的「總數的百分比」上限還是 100%。 </p> <p>為了比例更精確，現在開始我們可以顯示超過 100% 的數值。我們也將上限提高為 1000％，以確保欄位的寬度夠大。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 在「劃分」上啟用條件格式 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md#section_3DD847151DA14914888A70FC4FD7BDFB"  > 在「劃分」上啟用條件格式 </a> </p> </td> 
    <td colname="col2"> <p>除非選取「自訂」限制，否則現在都能自動在自由表格中套用顏色等條件格式。 </p> </td> 
   </tr> 
   <tr> 
@@ -484,7 +484,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>自由表格中多個維度項目的<a href="/help/analyze/analysis-workspace/build-workspace-project/pagination-filtering-sorting.md"  >篩選選項</a> </p> </td> 
+   <td colname="col1"> <p>自由表格中多個維度項目的<a href="/help/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md"  >篩選選項</a> </p> </td> 
    <td colname="col2"> <p>已新增多個維度項目的進階篩選選項 (除了現有的「包含」與「不包含」選項以外)： </p> 
     <ul id="ul_869B3E943E304C0282D56AD96BB79E18"> 
      <li id="li_81A49BA0CA3041C7AB892FAD2D129E5A">包含所有字詞 </li> 
@@ -515,7 +515,7 @@ ht-degree: 98%
    <td colname="col2"> <p>現在重新調整最左邊欄的大小時，工作區可以維持其他欄的寬度百分比 (而非只是調整右側相鄰欄的寬度)。這項變更加快了建立表格以用於分析和共用的速度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>在一個表格中顯示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table.md"  >400 列</a> </p> </td> 
+   <td colname="col1"> <p>在一個表格中顯示 <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md"  >400 列</a> </p> </td> 
    <td colname="col2"> <p>您現可於一個表格中顯示 400 列 (至少顯示 200 列)，還可顯示 365 天的趨勢。 </p> </td> 
   </tr> 
   <tr> 
@@ -655,7 +655,7 @@ ht-degree: 98%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  > 在自由表格中同時管理多個欄 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  > 在自由表格中同時管理多個欄 </a> </p> </td> 
    <td colname="col2"> <p>您現在可以同時變更多個欄中的設定。只要選取多個欄，然後在任一欄中按一下設定圖示。您所做的任何變更都會套用在所有欄，以及您在其中選定的儲存格。 </p> </td> 
   </tr> 
   <tr> 
@@ -814,7 +814,7 @@ ht-degree: 98%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.md"  >「使用百分比限制」核取方塊</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md"  >「使用百分比限制」核取方塊</a></b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_7B6B794EDF874A4D87770AB9BAB42F33"> 
      <li id="li_0B403D892320434FBAD9A7F7B808947C"> 特別為使用百分比的量度新增核取方塊，以表示百分比截點 (也可與非百分比量度搭配使用)。 </li> 
@@ -866,7 +866,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>改善還原/重做選項 </p> </td> 
-   <td colname="col2"> <p>以下清單顯示您可進行與不可進行之項目<a href="/help/analyze/analysis-workspace/build-workspace-project/undo-redo.md"  >在 Analysis Workspace 中還原/重做</a>。 </p> </td> 
+   <td colname="col2"> <p>以下清單顯示您可進行與不可進行之項目在 Analysis Workspace 中還原/重做</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -884,7 +884,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/table-settings.md"  > 依位置劃分 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md"  > 依位置劃分 </a> </p> </td> 
    <td colname="col2"> <p>允許依表格位置劃分。例如：「我一律要劃分自由表格的前 7 列。」現在，當您建立自由表格時，有一個核取方塊可讓您啟用「依位置劃分」。此設定預設為停用。 </p> <p>之前，劃分中的值清單設為「鎖定」。這會導致一種情況 - 舉例來說 - 您執行「<span class="wintitle">依頁面</span>劃分<span class="wintitle">日期</span>」，會得到選取日期範圍內的前 50 頁清單。 </p> <p>如果儲存該報表，並在一個月後執行，前 50 頁可能會有所變更。然而，Analysis Workspace 會「信任」原始劃分的結果，並傳回相同的頁面，但以當前月份為日期範圍。 </p> </td> 
   </tr> 
  </tbody> 
@@ -1037,7 +1037,7 @@ ht-degree: 98%
 * 新的 [](/help/analyze/analysis-workspace/visualizations/venn.md)Venn 視覺效果類型，可讓您拖曳至最多 3 個區段及量度，並建立 Venn 圖表。
 * 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
 * [「建立視覺效果」圖示](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：按一下此圖示可提供您下一個動作 (長條圖、Venn...) 的智慧猜測
-* 展開的「[手動列](/help/analyze/analysis-workspace/build-workspace-project/column-row-settings/manual-vs-dynamic-rows.md)」功能
+* 展開的「[手動列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)」功能
 * 「[新增區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」拖放區域
 * 小幅更新：
 
