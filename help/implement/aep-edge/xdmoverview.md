@@ -2,7 +2,7 @@
 title: 透過 Analytics 使用 XDM 資料
 description: '在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料概觀 '
 translation-type: tm+mt
-source-git-commit: 0a570f52c3eb62ca517770fa12f2272f6ccc978d
+source-git-commit: 01e9a456dece2a7c3f96bb2c6c9625f654a05059
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 96%
@@ -21,11 +21,11 @@ Analytics 透過兩種方法收集 XDM 資料：
 
 ## 自動對應
 
-[自動對應](xdm-manual.md)仰賴 XDM 中的預設[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)，該結構會自動填入典型 Analytics 資料收集所包含的 JSON 物件。自動從 XDM 對應至您設定之報表套裝的 Analytics 變數，不需要開發人員支援即可整合。
+自動對應仰賴 XDM 中的預設[結構](https://docs.adobe.com/content/help/zh-Hant/experience-platform/xdm/schema/composition.html)，會自動填入典型 Analytics 資料收集所包含的 JSON 物件。自動從 XDM 對應至您設定之報表套裝的 Analytics 變數，不需要開發人員支援即可整合。
 
 ## 手動對應
 
-手動將 XDM 資料對應至 Analytics 仰賴 [Analytics 內容資料](../vars/page-vars/contextdata.md)變數。這些變數會放入符合適用結構的 JSON 物件中。您的開發團隊一般會在實施時新增內容資料，然後管理員會設定[處理規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)，將該資料套用至指定的報表套裝。
+[](xdm-manual.md)手動將 XDM 資料對應至 Analytics 仰賴 [Analytics 內容資料](../vars/page-vars/contextdata.md)變數。這些變數會放入符合適用結構的 JSON 物件中。您的開發團隊一般會在實施時新增內容資料，然後管理員會設定[處理規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)，將該資料套用至指定的報表套裝。
 
 ## 設定
 
