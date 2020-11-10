@@ -2,41 +2,41 @@
 description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8106'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Analysis Workspace 的新增功能
 
-如需整體Adobe Experience Cloud發行說明的存取權，請前往 [這裡](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
+如需完整存取 Adobe Experience Cloud 發行說明，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 
 ## 2020 年 10 月
 
-2020年10月發行的新功能。
+2020 年 10 月發行的新功能。
 
 | 功能 | 說明 |
 | --- | --- |
-| Line visualization: [Moving average trendline option](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
-| [「效能幫助」頁](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。 |
+| 線條視覺效果：[移動平均趨勢線選項](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | ****&#x200B;在「線條」視覺效果趨勢線設定中新增了移動平均。移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
+| [效能說明頁面](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。 |
 
 ## 2020 年 9 月
 
-2020年9月發行的新功能。
+2020 年 9 月發行的新功能。
 
 | 功能 | 說明 |
 | --- | --- |
-| [下載單一維度的5萬個項目](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 您現在可以針對自由表格中的單一維度下載50,000個項目，並套用區段和篩選器。 如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
-| [線條視覺化的增強功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何線條視覺效果的 X 軸與 Y 軸。當線條視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
-| 新的日期範圍 | 我們新增了5個日期範圍，讓您從不包含今天部分日期資料的日期範圍中選擇：最近7個完整天、最近14個完整天、最近30個完整天、最近60個完整天、最近90個完整天 |
+| [下載單一維度的 50,000 個項目](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 您現在能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
+| [線條視覺效果的增強功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何線條視覺效果的 X 軸與 Y 軸。當線條視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| 新日期範圍 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
 
 ## 2020 年 8 月
 
-2020年8月未發行新功能。
+2020 年 8 月未發行新功能。
 
 ## 7 月 2020 日
 
@@ -95,7 +95,7 @@ ht-degree: 98%
 | 功能 | 說明 |
 |--- |--- |
 | 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://docs.adobe.com/content/help/zh-Hant/analytics/components/cda/cda-setup.html)。 |
-| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板: `alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板: `alt + Right Key`</li><li>移至上一個面板: `alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
+| 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 工作區其他增強功能 | <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 工作區除錯工具 | 「說明」功能表新增工作區偵錯程式，供您以更順暢的方式啟用，以偵錯工作區請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 
@@ -105,7 +105,7 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 |--- |--- |
-| [自由表格產生器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
+| [自由表格產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) | 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 
 ## 2019 年 10 月
 
@@ -113,7 +113,7 @@ ht-degree: 98%
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 更新為自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
+| 更新為自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
 | 移除「未指定/無」的選項 | 可輕鬆移除「未指定 (無)」的功能已新增為報表篩選器的選項。 |
 | 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
 
@@ -220,7 +220,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>面板下拉式清單</b> </p> </td> 
-   <td colname="col2"> <p>面板拖放區域現在具有下拉式清單功能。下拉式清單可讓使用者以有限方式與專案中資料互動。舉例來說，假設您的專案有多種版本，提供特定國家/地區報表。您現在可以將這些專案匯集成單一專案，並將其加入國家/地區下拉式清單中。 </p> </td> 
+   <td colname="col2"> <p>面板放置區現在具有下拉式清單功能。下拉式清單可讓使用者以有限方式與專案中資料互動。舉例來說，假設您的專案有多種版本，提供特定國家/地區報表。您現在可以將這些專案匯集成單一專案，並將其加入國家/地區下拉式清單中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>調色盤</b> </p> </td> 
@@ -246,7 +246,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>拖放區域參考線</b> </p> </td> 
+   <td colname="col1"> <p><b>放置區參考線</b> </p> </td> 
    <td colname="col2"> <p>這些參考線能讓您更容易了解每個拖放操作的作用。例如，當您將游標停留在欄上時，會顯示如「新增」、「取代」、「篩選依據」以及「劃分」等。 </p> <p>我們也新增了黃/紅參考線，系統會在您採取不建議或禁止使用的操作時提醒您，例如將兩個量度堆疊在一起 (這會導致資料無效)。 </p> </td> 
   </tr> 
   <tr> 
@@ -668,7 +668,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> 「區段比較」和「貢獻分析」設定的<span class="uicontrol">「全部清除」</span>按鈕 </p> </td> 
-   <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列工作區區域中的所有元素，而不必手動刪除每個元素: </p> 
+   <td colname="col2"> <p>現在您可以使用「全部清除」來清除下列工作區區域中的所有元素，而不必手動刪除每個元素： </p> 
     <ul id="ul_73E06D64CDCA4E83B9FEC2FD99D41CD3"> 
      <li id="li_A51EF8FADFA04CC19FD79C1675597659"> <a href="/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/run-contribution-analysis.md#section_F6932F4BF74544B5872164E7B1E0C6FC"  > 貢獻分析的已排除元件 </a> </li> 
      <li id="li_30E612D5A7584484967260931DB9E30E"> <a href="/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md"> 區段比較的已排除元件 </a> </li> 
@@ -1038,7 +1038,7 @@ ht-degree: 98%
 * 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
 * [「建立視覺效果」圖示](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：按一下此圖示可提供您下一個動作 (長條圖、Venn...) 的智慧猜測
 * 展開的「[手動列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)」功能
-* 「[新增區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」拖放區域
+* 「[新增區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」放置區
 * 小幅更新：
 
    * 可刪除面板中所有的視覺效果和專案中的所有面板。(先前，您必須保留至少一個視覺效果或一個面板。)
@@ -1097,7 +1097,7 @@ ht-degree: 98%
 
 *`Undo`*&#x200B;尤其適合用來還原表格中的劃分。
 
-非&#x200B;*`not`*&#x200B;不可還原的動作:
+非&#x200B;*`not`*&#x200B;不可還原的動作：
 
 * 變更[!UICONTROL 同類群組表格]的設定 (例如拖曳量度、變更值)。不過，您可在按一下&#x200B;**[!UICONTROL 「執行」]**&#x200B;後按&#x200B;**[!UICONTROL 「還原」]**。
 
@@ -1148,7 +1148,7 @@ ht-degree: 98%
 
 當顏色和大小維度以某種方式關連至樹狀結構時，例如假設某個顏色的關連性特別明顯，使用者通常就能輕鬆觀察出 (換作其他方法很難察覺的) 模式。樹狀圖還有一個優點是，透過結構可以有效地利用空間。
 
-## 區段、量度和日期的另存新檔功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## 區段、量度和日期的另存新檔功能{#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 在「Analysis Workspace 區段產生器」中編輯現有 (已儲存的) 區段時，按一下「**[!UICONTROL 另存新檔]**」即可產生副本。
 
@@ -1160,7 +1160,7 @@ ht-degree: 98%
 
 ## 新增區段
 
-已 **[!UICONTROL 新增「拖曳區段至此處]** 」拖放區域，讓您可以拖放區段至專案。
+已新增&#x200B;**[!UICONTROL 「將區段放置在此處」]**&#x200B;放置區，讓您可將區段拖放至專案。
 
 ![](assets/add-new-segment.png)
 
@@ -1224,11 +1224,11 @@ ht-degree: 98%
 
 ![](assets/anchor_Y_axis.png)
 
-## 標籤標題顯示專案名稱 {#section_497C61A030984BCCA2CEA553312C3226}
+## 標籤標題顯示專案名稱{#section_497C61A030984BCCA2CEA553312C3226}
 
 儲存專案時，瀏覽器標籤上的標題會顯示為「`<Project Name>` - Analysis Workspace」。如果您在多個瀏覽器標籤中開啟了多個專案，這個改良功能會很有用。
 
-## 轉讓專案所有權 {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## 轉讓專案所有權{#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
