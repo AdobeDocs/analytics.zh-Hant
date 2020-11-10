@@ -5,10 +5,10 @@ user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: '從外部來源大量或即時將資料讀入 Analytics。 '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '525'
+ht-degree: 98%
 
 ---
 
@@ -128,3 +128,5 @@ ht-degree: 100%
       + [Analytics 整合變數](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 整合](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 外掛程式程式碼](data-connectors/silverpop-overview/silverpop-analytics-code.md)
++ 匯入使用案例 {#use-cases}
+   + [使用Data Sources匯入付費搜尋量度](use-cases/paid-search-metrics.md)
