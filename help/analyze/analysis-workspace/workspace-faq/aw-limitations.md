@@ -1,11 +1,11 @@
 ---
 description: Adobe Analysis Workspace 及其相關元件的已知限制清單：
 title: Analysis Workspace 的已知限制
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 87%
 ## 元件 > 區段
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法設為區段。
-* 在面板下拉區中建 [立的臨機區段](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html) ，將不會顯示在「工作區」或「區段」元件管理員的左側邊欄中，除非將它們設為公開。 您可以編輯區段並選取「將此區段設為公 **[!UICONTROL 用」來完成此作業]**。
+* 在[面板放置區](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/panels.html)中建立的臨機區段，不會顯示在 Workspace 的左側邊欄或「區段」元件管理員中，除非將它們設為公開。您可以編輯區段並選取&#x200B;**[!UICONTROL 「將此區段設為公開」]**&#x200B;來完成此操作。
 
 ## 元件 > 計算量度
 
