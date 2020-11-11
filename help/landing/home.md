@@ -2,10 +2,10 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 13fefcf8f743d1890044e2ac6b5864846d2c8cb7
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 99%
+source-wordcount: '447'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 
 [![整合](assets/integrate_50px.png)](/help/integrate/home.md) [整合指南](/help/integrate/home.md) – 完成與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 和 Target) 的整合設定。
 
-[![Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) [Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) – 對音訊或視訊來源實作 Analytics。包含 Media SDK 和 Media Collection API。
+[![串流媒體分析](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)[串流媒體分析指南](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) -實作Adobe Analytics for Streaming Media。 包含 Media SDK 和 Media Collection API。
 
 [![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
 
