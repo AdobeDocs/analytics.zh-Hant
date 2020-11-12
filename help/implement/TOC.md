@@ -5,10 +5,10 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '469'
+ht-degree: 97%
 
 ---
 
@@ -131,6 +131,7 @@ ht-degree: 99%
    + [全域報表套裝考量事項](prepare/global-rs.md)
    + [實施強制回應視窗](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
+   + [負責現有的Adobe Analytics實作](prepare/existing-implementation.md)
 + 使用 JavaScript 實施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
    + [實施退出連結](js/opt-out.md)
