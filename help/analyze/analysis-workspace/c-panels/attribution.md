@@ -2,22 +2,22 @@
 title: 歸因面板
 description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 translation-type: tm+mt
-source-git-commit: e1cfaea079f69daeec639c6d43ef4fa442cfaa97
+source-git-commit: 7962e7dbb8003103ceb6fd1f9ccd11c110e59ad3
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 72%
+ht-degree: 66%
 
 ---
 
 
 # 歸因面板
 
-您可以使用歸因面板輕鬆建立比較不同歸因模型的分析。這是[歸因 IQ](../attribution/overview.md) 中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
+The [!UICONTROL Attribution] panel is an easy way to build an analysis comparing various attribution models. 這是[歸因 IQ](../attribution/overview.md) 中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
 
 ## 建立歸因面板
 
 1. 按一下左側的面板圖示。
-1. 將歸因面版拖曳到您的 Analysis Workspace 專案中。
+1. Drag the [!UICONTROL Attribution] panel into your Analysis Workspace Project.
 
    ![新增歸因面板](assets/Attribution_Panel_1.png)
 
@@ -40,3 +40,4 @@ ht-degree: 72%
 * **效能詳細資訊**:可讓您使用散布圖以視覺化方式比較最多3個歸因模型。
 * **趨勢效能**:顯示排名最前的維度項目的歸屬轉換趨勢。 選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。
 * **流量**:可讓您查看哪些頻道最常互動，以及訪客歷程中的順序。
+
