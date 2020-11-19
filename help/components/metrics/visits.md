@@ -1,11 +1,11 @@
 ---
 title: 瀏覽
 description: 某一段時間的頁面檢視順序。
-translation-type: ht
-source-git-commit: 178e372e63c436268a1f7028d986504983430b2f
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ee9868b53b93c1ffabdd48e83e38d3cafc9a4c2a
+workflow-type: tm+mt
+source-wordcount: '656'
+ht-degree: 89%
 
 ---
 
@@ -55,3 +55,7 @@ ht-degree: 100%
 ## 維度的造訪次數與總造訪次數
 
 維度內容中的造訪次數 (例如[行銷管道](../dimensions/marketing-channel.md)) 會顯示任何時候包含特定維度項目的造訪。在同一次造訪中，多個維度項目經常存在於不同的點擊上。嘗試加總維度項目報告的造訪次數通常沒有意義。
+
+## 瀏覽資料倉庫中的所有訪客
+
+除了「瀏覽」量度外，「資料倉庫」中還提供「瀏覽——所有訪客」量度。 「瀏覽次數——所有訪客」量度可與其他Analytics工具中的「瀏覽次數」量度比較。 資料倉庫中的「瀏覽」度量會排除沒有永久性Cookie的訪客。 Adobe建議在需要存取作為量度的資料倉庫請求中使用「瀏覽——所有訪客」。
