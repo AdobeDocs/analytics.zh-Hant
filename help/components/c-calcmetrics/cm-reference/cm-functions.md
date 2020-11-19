@@ -3,7 +3,7 @@ description: 計算量度產生器可讓您套用統計和數學函數，以建�
 title: 參考資料  基本函數
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
 workflow-type: ht
 source-wordcount: '1056'
 ht-degree: 100%
