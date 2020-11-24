@@ -5,10 +5,10 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: 57cc9cdbec8a0ebd28d3087fc1b203e8044878d6
+source-git-commit: 145b31d01b7ec52ae3c65035774a5be54abbc51a
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 97%
+source-wordcount: '488'
+ht-degree: 93%
 
 ---
 
@@ -204,6 +204,10 @@ ht-degree: 97%
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
++ 檢視您的實作 {#review}
+   + [次要實作審查（在每個網站發行後）](review/minor-review.md)
+   + [主要實施審查（每6個月一次）](review/major-review.md)
+   + [定義您的前5大KPI](review/define-kpis.md)
 + 透過 Analytics 使用 XDM 資料 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
    + [手動將 XDM 資料對應至 Analytics](aep-edge/xdm-manual.md)
