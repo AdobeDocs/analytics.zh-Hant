@@ -3,9 +3,9 @@ description: 以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概述
 translation-type: tm+mt
-source-git-commit: 71cf46157917c77a815b8474bc635c01d6d13a25
+source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1089'
 ht-degree: 42%
 
 ---
@@ -15,7 +15,11 @@ ht-degree: 42%
 
 工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用Adobe Analytics，大部分的視覺化類型都會讓您熟悉。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從工作區的左上角圖示、空白麵板 [中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)，或透過工作流程中的按滑鼠右鍵選單來存取視覺化。 分析工作區中提供下列視覺化類型：
+您可以從工作區的左上角圖示、空白麵板 [中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)，或透過工作流程中的按滑鼠右鍵選單來存取視覺化。
+
+![](assets/viz-rail.png)
+
+分析工作區中提供下列視覺化類型：
 
 | 視覺效果名稱 | 說明 |
 | --- | --- |
@@ -40,20 +44,22 @@ ht-degree: 42%
 
 ## 設定 {#settings}
 
-每個視覺效果都有各自的設定可供您管理。若要存取「 [!UICONTROL 視覺化設定]」，請按一下「 [!UICONTROL 視覺化設定] 」齒輪圖示。 部分設定包括：
+每個視覺效果都有各自的設定可供您管理。若要存取「 [!UICONTROL 視覺化設定]」，請按一下「 [!UICONTROL 視覺化設定] 」齒輪圖示。
+
+![](assets/settings.png)
 
 | 設定 | 說明 |
 | --- | --- |
 | 視覺化類型 | 變更用來描述資料的視覺類型。 |
-| 粒度 | 若是趨勢視覺化，您可以變更時間詳細程度（日、周、月等） 從此下拉式清單。 此變更也適用於資料來源表格。 |
+| 粒度 | 對於趨勢視覺化，您可以變更時間詳細程度（日、周、月等） 從此下拉式清單。 此更改也適用於資料源表。 |
 | 百分比 | 以百分比顯示值。 |
-| 100% 堆疊 | 此設定在堆疊區域、堆疊長條或堆疊水準長條視覺化上，可將圖表變成「100%堆疊」視覺化。 範例：![](assets/stacked_100_percent.png) |
+| 100% 堆疊 | 此設定在堆疊區域、堆疊長條或堆疊水準長條視覺化上，可將圖表變成「100%堆疊」視覺化。 範例： ![100%堆疊](assets/stacked_100_percent.png) |
 | 可見圖例 | 可讓您隱藏「摘要編號／摘要變更」視覺化的詳細圖例文字。 |
 | 項目數上限 | 可讓您限制視覺效果顯示的項目數。 |
 | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 | 標準化 | 強制量度為相同比例。當繪製的量度大小相差甚遠時，這會有所幫助。 |
 | 顯示雙軸 | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小相差甚遠時，這會有所幫助。 |
-| 顯示異常 | 顯示異常決定，以增強折線圖和自由表格。 線形視覺化中的異常偵測包括預期值（虛線）和預期範圍（著色帶）。 |
+| 顯示異常 | 顯示異常偵測，以增強折線圖和自由表格。 線形視覺化中的異常偵測包括預期值（虛線）和預期範圍（著色帶）。 |
 
 ## 圖例 {#legend}
 
@@ -77,7 +83,7 @@ ht-degree: 42%
 
 以滑鼠右鍵按一下視覺化標題，即可使用其他視覺化功能。 設定會依視覺化而有所不同。 部分可用設定包括：
 
-![](assets/right-click_menu.png)
+![](assets/right-click.png)
 
 | 設定 | 說明 |
 | --- | --- |
@@ -94,4 +100,4 @@ ht-degree: 42%
 
 If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). 這是新增視覺化的最快方式。 按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您已選取1列，則會建立趨勢線圖。 如果已選取3個區段行，則會建立文氏圖。
 
-![](assets/create-visual.png)
+![](assets/quick-viz.png)
