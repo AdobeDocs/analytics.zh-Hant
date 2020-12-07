@@ -1,9 +1,9 @@
 ---
 title: cookieDomain
 description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 只有在同時符合下列&#x200B;**兩個**&#x200B;條件時，才需要使用此變數：
 
-* 如果您的實施使用第一方 Cookie。若實施使用包含 `sc.omtrdc.net` 的 [`trackingServer`](trackingserver.md) 值，則不需要此變數。
+* 如果您的實施使用第一方 Cookie。若實施使用包含 `sc.adobedc.net` 的 [`trackingServer`](trackingserver.md) 值，則不需要此變數。
 * 如果您的網域尾碼含有句號。例如，`example.co.uk` 可以使用 `cookieDomain` 變數明確指出 Cookie 網域為 `example.co.uk` 而非 `co.uk`。
 
 只有少數實施需要用到 `cookieDomain` 變數，即使發生此情況，也可改用 [`cookieDomainPeriods`](cookiedomainperiods.md) 這類變數替代。
