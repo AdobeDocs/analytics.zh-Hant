@@ -1,9 +1,9 @@
 ---
 title: 使用硬式編碼影像要求進行實施
 description: 使用 HTML 影像標籤實施 Adobe Analytics (硬式編碼影像要求)
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -25,11 +25,11 @@ Adobe 提供的 AppMeasurement 程式庫會編譯出現在頁面上的變數，�
 以下是使用 HTML 的硬式編碼影像要求範例：
 
 ```html
-<img src="https://example.sc.omtrdc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.sc.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` 指定通訊協定。比對影像要求中使用的通訊協定與您網站其他部分使用的通訊協定。
-* `example.sc.omtrdc.net` 是 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 變數中包含的值。
+* `example.sc.adobedc.net` 是 [`trackingServer`](/help/implement/vars/config-vars/trackingserver.md) 變數中包含的值。
 * `/b/ss/` 包含在所有影像要求中。它屬於 Adobe 資料收集伺服器上所儲存影像的檔案結構的一部分。
 * `examplersid` 是您傳送資料的目的地報表套裝 ID。
 * `/1/` 是點擊來源。請參閱匯出使用手冊中[資料欄參考](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)底下的 `hit_source`。控制用來識別訪客的 Cookie 和其他方法之順序。
