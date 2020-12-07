@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 與瀏覽器 Cookie
 description: 瞭解 Adobe Analytics 如何處理瀏覽器的 Cookie。
-translation-type: ht
-source-git-commit: 3566960f546d847ed4f6ca8ecbb9c759460f4fb0
-workflow-type: ht
-source-wordcount: '2286'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
+workflow-type: tm+mt
+source-wordcount: '2285'
+ht-degree: 93%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe 建議您確保所有網頁都採用 HTTPS。
 * 由 ECID (Experience Cloud ID) 服務程式庫設定的 AMCV Cookie
 * Analytics 舊版備援 Cookie `s_fid`
 
-作為協力廠商 Cookie 的 Analytics 舊版 `s_vi` Cookie (包括 2o7.net 或 omtrdc.net 的收集目標) 會繼續根據舊版 ITP 遭到封鎖。
+Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of adobedc.net, 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
 
 總結：
 
@@ -111,7 +111,7 @@ Adobe 建議您確保所有網頁都採用 HTTPS。
 
 * 如果您在第一方內容中使用第一方 CNAME，且沒有使用訪客 ID 服務：您的實施將不會受影響。
 
-* 如果您在協力廠商內容中使用第一方 Cookie 網域，或搭配使用標準協力廠商網域名稱 (例如 2o7.net、omtrdc.net 等)，Safari 會繼續依原有方式加以封鎖。
+* If you use a first party cookie domain in the third party context, or with the standard third-party domain names (e.g `adobedc.net`, `2o7.net`, `omtrdc.net`, etc), Safari will continue to block it as it has.
 
 * 如果您使用自訂訪客 ID：視您訪客 ID 的儲存方式而定。如果您將 ID 儲存在第一方「用戶端」Cookie 中，則會受到七天有效期限的約束。如果您使用其他方式來儲存自訂 ID，則需要評估您是否受到影響。
 
@@ -133,11 +133,11 @@ Adobe 建議客戶在對資料收集作業進行任何變更之前，先衡量�
 
 * 在最新版 Safari 瀏覽器中開啟開發人員主控台。如果您在第一方網域中看到已設定上述任何 Cookie，表示這些變更可能會對您造成影響。
 
-* 如果您在 CNAME 內容中看到 `s_vi` Cookie 但未設定 `AMCV` Cookie，表示您正使用 CNAME 來識別訪客，而且您使用 Analytics 的方式不會受到這些變更影響。如果您在 CNAME 內容中看到 `s_vi` Cookie 且已設定 `AMCV` Cookie，表示您最近或目前正在使用寬限期，而您的部分 Analytics 流量可能會受到影響。
+* 如果您在 CNAME 內容中看到 `s_vi` Cookie 但未設定 `AMCV` Cookie，表示您正使用 CNAME 來識別訪客，而且您使用 Analytics 的方式不會受到這些變更影響。If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Adobe Analytics traffic may be impacted.
 
-* 使用 Analytics 測量沒有在七天內回訪的訪客百分比。如果訪客在七天內重複回訪，您的流量可能不會受到重大影響。如需使用 Analtyics 來瞭解此資訊的指示，請參閱 [Safari ITP 2.1 對 Adobe Experience Cloud 和 Experience Platform 客戶的影響](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+* 使用 Analytics 測量沒有在七天內回訪的訪客百分比。如果訪客在七天內重複回訪，您的流量可能不會受到重大影響。For instructions on using Adobe Analytics to figure this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
-* 測量來自 Safari 瀏覽器的流量百分比，以判斷進行任何變更是否可獲得充足的保證。如需使用 Analtyics 來瞭解您網站 Safari 流量百分比的指示，請參閱 [Safari ITP 2.1 對 Adobe Experience Cloud 和 Experience Platform 客戶的影響](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
+* 測量來自 Safari 瀏覽器的流量百分比，以判斷進行任何變更是否可獲得充足的保證。For instructions on using Analytics to figure out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
 
 ## 我的訪客最常使用哪些瀏覽器？
 
