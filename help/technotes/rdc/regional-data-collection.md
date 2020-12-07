@@ -2,10 +2,10 @@
 title: 地區資料收集
 description: 地區資料收集相關資訊
 translation-type: tm+mt
-source-git-commit: 058516ed9fb6cf7e73df4001404da45fb527e568
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 86%
+ht-degree: 82%
 
 ---
 
@@ -26,7 +26,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 |---------------------|-------------------|
 | 預設 | 奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨 |
 
-請注意：如果您的 Analytics 影像請求是傳送至 `2o7.net` 或 `omtdrc.net` 端點，表示您使用的是協力廠商資料收集。如果您在請求的 URL 中看到任一端點，即可判定出此結論。
+Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 如果您在請求的 URL 中看到任一端點，即可判定出此結論。
 
 ## 第一方 HTTPS 資料收集
 
