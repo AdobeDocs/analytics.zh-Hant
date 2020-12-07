@@ -5,10 +5,10 @@ solution: Experience Cloud,Analytics
 title: Cookie
 uuid: 9c81ecbb-0f02-4c1a-a5a5-426cdea57f38
 translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
+source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 80%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> FP 網域句號 </td> 
-   <td colname="col2"> <p>此<span class="term"> fpCookieDomainPeriods</span> 變數會用於由 JavaScript (<code> s_sq</code>、<code> s_cc</code>、外掛程式) 設定、原本即為第一方 Cookie 的 Cookie，即使您的實施使用第三方 <span class="filepath"> 2o7.net</span> 或 <span class="filepath"> omtrdc.net</span> 網域亦然。 </p> <p>請參閱 <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
+   <td colname="col2"> <p>此 <span class="term"> fpCookieDomainPeriods</span> variable is for cookies set by JavaScript (<code> s_sq</code>, <code> s_cc</code>, plug-ins) that are inherently first-party cookies, even if your implementation uses the third-party <span class="filepath"> adobedc.net</span> domain, or the legacy (but still valid) <span class="filepath"> 2o7.net</span> or <span class="filepath"> omtrdc.net</span> domains. </p> <p>請參閱 <a href="/help/implement/vars/config-vars/fpcookiedomainperiods.md"  >s.fpCookieDomainPeriods</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 交易 ID </td> 
