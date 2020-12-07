@@ -5,7 +5,10 @@ title: 訪客移轉
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+workflow-type: tm+mt
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -16,11 +19,11 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
 
 訪客移轉可讓您在變更資料收集網域時保留訪客識別 Cookie。資料收集網域可能因下列原因而變動:
 
-* 從 `2o7.net` 移至 `omtrdc.net` ([區域資料收集](hhttps://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))。
+* 從 `2o7.net` 移至 `adobedc.net` ([區域資料收集](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/rdc/regional-data-collection.html))。
 
-* 您正在實作 [Experience Cloud 訪客 ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)，且正在從 CNAME/第一方資料收集網域移轉至 `2o7.net` 或 `omtrdc.net` ([地區資料收集](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/rdc/regional-data-collection.html))
 
-* 從 `2o7.net` 或 `omtrdc.net` 移轉至 cname/第一方資料收集 ([第一方 Cookie)](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
+* 從 `2o7.net` 或 `adobedc.net` 移轉至 cname/第一方資料收集 ([第一方 Cookie)](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 * 從一個 CNAME 移至另一個 CNAME (變更網域)。
 
@@ -48,7 +51,7 @@ source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>組態變更後 6 小時以上</b>: 更新 Analytics JavaScript 程式碼中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 變數，以使用新的資料收集伺服器。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analtyics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>緊接在更新 Analytics 程式碼後</b>: 測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 </p> </td> 
