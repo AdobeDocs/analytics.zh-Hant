@@ -2,7 +2,7 @@
 title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 translation-type: tm+mt
-source-git-commit: d9fa9fa6afb6b76ae37a92c86d9ca21a9c3fb22e
+source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 96%
@@ -41,4 +41,4 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.omtrdc.net` or `2o7.net`.
+CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
