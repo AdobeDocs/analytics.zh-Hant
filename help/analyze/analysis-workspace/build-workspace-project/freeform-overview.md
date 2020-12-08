@@ -5,7 +5,7 @@ title: 專案概觀
 topic: Reports and analytics
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 translation-type: tm+mt
-source-git-commit: 87cd6c3ceb404361be163845899015a43ec0fb14
+source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
 workflow-type: tm+mt
 source-wordcount: '1358'
 ht-degree: 21%
@@ -44,6 +44,8 @@ When you first go to **[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**, th
 
 在專案中，功能表提供管理專案、新增元件、尋找說明等選項。 您也可以透過鍵盤快速鍵存取每個選單 [選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)。
 
+![](assets/menu.png)
+
 | 功能表項目 | 說明 |
 |---|---|
 | 專案 | 包含專案管理的常用動作，包括「新增」、「開啟」、「儲存」、「另存新檔」和「另 [存新檔」範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)。 您也可以按一下「重新整理專案」，重新整理整個專案，以擷取最新的資料和定義。 [下載CSV和PDF選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html) ，可讓您從工作區匯出資料。 [「專案資訊與設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?#info-settings) 」提供許多管理專案的選項。 |
@@ -81,6 +83,8 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 左側導軌中的元件（維度、量度、區段、日期範圍）與作用中的面板報表套裝相關。 作用中面板周圍會有藍色邊框，而作用中報表套裝會列在元件邊欄的頂端。
 
+![](assets/left-rail.png)
+
 ## 專案畫布 {#canvas}
 
 專案畫布是您匯整面板、表格、視覺化和元件以建立分析的地方。 專案可包含許多面板，而每個面板可包含許多表格和視覺化。
@@ -89,11 +93,15 @@ Within a project, [panels](https://experienceleague.adobe.com/docs/analytics/ana
 
 視您為專案選擇的起點而定，畫布中會有 [自由表格](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)[或空白麵](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html) 板，以開頭開始。 開始分析的最快方式是選取一或多個元件，並將它們拖放至專案畫布中。 系統會自動為您呈現資料表格。 [進一步瞭解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html) ，建立表格的不同選項，或運用我們的訓練教學 [課程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?#training-tutorial) ，以取得有關建立第一個專案的更多指引。
 
+![](assets/canvas.png)
+
 ## 專案經理 {#manager}
 
 Analysis Workspace projects can be managed under **Analytics > Components >  Projects**. 「專案管理員」會顯示特定使用者已建立的項目。 專案擁有權可在「管理員> Analytics使用者與資產>轉移資產」下移轉至新使用者。
 
 在「專案管理員」中，您可以新增、標籤、共用、複製／複製等。 在搜尋列中或使用左側導軌中的篩選選項來搜尋專案。 您可以依標籤、擁有者、專案類型等進行篩選。
+
+![](assets/project-manager.png)
 
 以下是「專案」管理員中常見的動作，可一次對一或多個專案執行：
 
