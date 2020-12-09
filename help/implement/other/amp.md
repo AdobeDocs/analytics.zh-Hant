@@ -2,7 +2,7 @@
 title: 使用 AMP 進行實施
 description: 在 AMP 頁面上實施 Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
         "myClick": "${click}&v1=${eVar1}",
       },
       "vars": {
-        "host": "example.sc.adobedc.net",
+        "host": "example.data.adobedc.net",
         "reportSuites": "reportSuiteID",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
@@ -109,7 +109,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
         "iframeMessage": "${base}/stats.html?campaign=${queryParam(campaign)}&pageURL=${ampdocUrl}&ref=${documentReferrer}"
       },
       "vars": {
-        "host": "example.sc.adobedc.net"
+        "host": "example.data.adobedc.net"
       },
       "extraUrlParams": {
       "pageName": "Example AMP page",
@@ -133,7 +133,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
       var s_account = "examplersid";
-      var s_trackingServer = "example.sc.adobedc.net";
+      var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
       var s = s_gi(s_account);
