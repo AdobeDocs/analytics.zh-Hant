@@ -2,9 +2,9 @@
 title: 移轉至 JavaScript 適用的 AppMeasurement
 description: 決定將實施從 H 程式碼移出時所需的項目。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 * 現有的頁面層級 H 程式碼與 AppMeasurement 相容。
 * 程式庫提供原生公用程式，用以取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
 * 程式庫不支援動態帳戶設定變數 (包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`)。
-* 「調查」模組不受支援。
 
 下列步驟概述典型的移轉工作流程。
 
@@ -62,7 +61,7 @@ s.doPlugins = s_doPlugins;
 /* WARNING: Changing any of the below variables will cause drastic
 changes to how your visitor data is collected.  Changes should only be
 made when instructed to do so by your account manager.*/
-s.trackingServer="example.sc.adobedc.net";
+s.trackingServer="example.data.adobedc.net";
 
 /************************** PLUGINS SECTION *************************/
 
