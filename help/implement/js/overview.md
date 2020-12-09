@@ -2,7 +2,7 @@
 title: JavaScript 適用的 AppMeasurement
 description: 瞭解如何在不使用標籤管理系統的情況下使用 JavaScript 實施 Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -29,7 +29,7 @@ JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方
    var s_account = "examplersid";
    var s=s_gi(s_account);
    // Make sure data is sent to the correct location
-   s.trackingServer = "example.adobedc.net";
+   s.trackingServer = "example.data.adobedc.net";
    ```
 
 3. 在網站的頁面程式碼中定義頁面層級變數。這些變數會決定傳送至 Adobe 的特定維度和量度。如需可定義變數的完整清單，請參閱[頁面變數](../vars/page-vars/page-variables.md)。
