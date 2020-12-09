@@ -2,10 +2,10 @@
 title: 地區資料收集
 description: 地區資料收集相關資訊
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 82%
+source-wordcount: '362'
+ht-degree: 77%
 
 ---
 
@@ -46,18 +46,3 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 1. DNS 會自動將收集主機名稱解析為最接近訪客的資料收集中心的 IP 位址。
 1. 訪客將資料傳送至該位置。
 1. 系統會透過安全連線立即將資料轉送到資料處理中心，資料經過處理後，便可供 Adobe Experience Cloud 的產品使用。
-
-## RDC 的優點
-
-| 好處 | 說明 |
-|---------|-----------|
-| 效能 | 透過 RDC，您的訪客可以連線至最近的 DCC。這表示您網頁的回應時間可以降低 (越低越好)，導致更精確的追蹤與更快的載入時間。 |
-| 備援 | 萬一與 DCC 的通訊中斷，資料收集會自動轉至下一個最接近的 DCC，確保服務持續不間斷。 |
-| 備援 | 萬一 DCC 與 DPC 之間的通訊發生中斷，Adobe 的 RDC 基礎結構會在本機儲存資料，然後在通訊還原時將資料轉送至 DPC。 |
-
-## 文件修訂記錄
-
-| 更新 | 說明 |
-|--------|---------|
-| 2020 年 2 月 4 日 | 更新 RDC 位置 |
-| 2019 年 2 月 20 日 | 全面重寫。新增 RDC 網路資訊。 |
