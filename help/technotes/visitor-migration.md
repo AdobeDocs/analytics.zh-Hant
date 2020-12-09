@@ -5,10 +5,10 @@ title: 訪客移轉
 topic: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 translation-type: tm+mt
-source-git-commit: 4910c19f4471e8c79516747c7e69f1cdfda54d72
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 84%
+source-wordcount: '443'
+ht-degree: 78%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 84%
 
 訪客移轉可讓您在變更資料收集網域時保留訪客識別 Cookie。資料收集網域可能因下列原因而變動:
 
-* 從 `2o7.net` 移至 `adobedc.net` ([區域資料收集](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/rdc/regional-data-collection.html))。
+* 從前 `2o7.net` 往 `adobedc.net`。
 
-* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net1`, `2o7.net` or `omtrdc.net` ( [Regional Data Collection](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/rdc/regional-data-collection.html))
+* You are implementing the [Experience Cloud Visitor ID Service](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html) and are moving from a CNAME/first-party data collection domain to `adobedc.net`, `2o7.net` or `omtrdc.net`
 
-* 從 `2o7.net` 或 `adobedc.net` 移轉至 cname/第一方資料收集 ([第一方 Cookie)](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
+* Moving to a cname/first-party data collection ( [First-Party Cookies)](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html).
 
 * 從一個 CNAME 移至另一個 CNAME (變更網域)。
 
@@ -51,7 +51,7 @@ ht-degree: 84%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>組態變更後 6 小時以上</b>: 更新 Analytics JavaScript 程式碼中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 變數，以使用新的資料收集伺服器。 </p> </td> 
-   <td colname="col3"> <p>After you make this change, use a <a href="../implement/validate/packet-monitor.md"> packet monitor</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
+   <td colname="col3"> <p>After you make this change, use the <a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en"> Experience Cloud debugger</a> to verify that the Analytics image request is going to the updated data collection server. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>緊接在更新 Analytics 程式碼後</b>: 測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 </p> </td> 
@@ -63,7 +63,3 @@ ht-degree: 84%
   </tr> 
  </tbody> 
 </table>
-
-## 已遭取代的 visitorMigrationKey 和 visitorMigrationServer 變數 {#section_32FCEE2575944D039EA0FEBFB5814259}
-
-從 2013 年 3 月開始，`visitorMigrationKey`、`visitorMigrationServer` 和 `visitorMigrationServerSecure` 資料收集變數已遭取代，不再使用。以前這些變數包含的資料現在儲存在 Adobe 伺服器上，提供更高的安全性。
