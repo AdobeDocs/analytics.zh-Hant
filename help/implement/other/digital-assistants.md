@@ -2,10 +2,10 @@
 title: 對數位助理實施 Analytics
 description: 在數位助理 (例如 Amazon Alexa 或 Google首頁) 上實施 Adobe Analytics。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '1266'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 數位體驗架構概述
 
-![數位助理工作流程](assets/Digital-Assitants.png)
+![Digital Assistant工作流程](assets/Digital-Assitants.png)
 
 當今大多數的數位助理都按照類似的高階架構：
 
@@ -50,8 +50,8 @@ GET
 /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=2017-04-24&c.a.AppID=Spoofify1.0&c.OSType=Alexa&pageName=install
 HTTP/1.1
 Host:
-<xref href="https://sc.adobedc.net">
-  sc.adobedc.net
+<xref href="https://example.data.adobedc.net">
+  example.data.adobedc.net
  Cache-Control: no-cache
 </xref href="https:>
 ```
@@ -62,13 +62,13 @@ Host:
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.Launches=1&c.Product=AmazonEcho&c.OSType=Alexa&pageName=install  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify2.0&c.a.Launches=1&c.Product=GoogleHome&c.OSType=Android&pageName=install  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -80,7 +80,7 @@ Adobe Analytics 使用 [Adobe Experience Cloud Identity Service](https://docs.ad
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -103,7 +103,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.LaunchEvent=1&c.Intent=[intent]&pageName=[intent]  HTTP/1.1
-Host: sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -113,7 +113,7 @@ Cache-Control: no-cache
 
 舉例來說，若使用者說「從我的銀行應用程式轉給小明 20 美元，付昨晚的晚餐錢」，則意圖可能會表示為&#x200B;*sendMoney*。
 
-以 eVar 形式傳入各個要求，便能為對話型應用程式產生各個意圖的路徑報表。請確認您的應用程式也能處理不具意圖的要求。Adobe 建議您將「未指定意圖」傳遞到意圖上下文資料變數，不要移除變數。
+以 eVar 形式傳入各個要求，便能為對話型應用程式產生各個意圖的路徑報表。請確認您的應用程式也能處理不具意圖的要求。Adobe建議將「未指定意圖」傳入目的上下文資料變數，而非省略變數。
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
@@ -125,7 +125,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=No_Intent_Specified&pageName=[intent]  HTTP/1.1
-Host: sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -141,7 +141,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0=1&c.a.LaunchEvent=1&c.Intent=SendPayment&c.Amount=20.00&c.Reason=Dinner&c.ReceivingPerson=John&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -153,7 +153,7 @@ Cache-Control: no-cache
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.Error=1&c.ErrorName=InvalidCurrency&pageName=[intent]  HTTP/1.1
-Host: example.sc.adobedc.net
+Host: example.data.adobedc.net
 Cache-Control: no-cache
 ```
 
@@ -172,10 +172,10 @@ Cache-Control: no-cache
 
 | 「人」 | 裝置回應 | 動作/意圖 | GET 要求 |
 |---|---|---|---|
-| 安裝 Spoofify | 無回應 | 安裝 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放 Spoofify | 「OK，播放 Spoofify」 | 播放 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| 變換曲目 | 「OK，您要聽哪首歌？」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放《Baby Shark》 | 「好的，播放 PinkFong 的《Baby Shark》」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| 變換播放清單 | 「OK，您要聽哪個播放清單？」 | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| 播放我最愛的歌曲播放清單 | 「好的，播放您最愛的歌曲播放清單」 | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
-| 關閉音樂 | 無回應，音樂關閉 | 關閉 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.sc.adobedc.net`<br>`Cache-Control: no-cache` |
+| 安裝 Spoofify | 無回應 | 安裝 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.InstallEvent=1&c.a.InstallDate=[currentDate]&c.a.AppID=Spoofify1.0&c.OSType=Alexa&c.Intent=Install&pageName=Install  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 播放 Spoofify | 「OK，播放 Spoofify」 | 播放 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.a.LaunchEvent=1&c.Intent=Play&pageName=PlayApp  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 變換曲目 | 「OK，您要聽哪首歌？」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName= Ask%20For%20Song  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 播放《Baby Shark》 | 「好的，播放 PinkFong 的《Baby Shark》」 | ChangeSong | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangeSong&pageName=Action%20Play%20Song&c.SongID=[012345]  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 變換播放清單 | 「OK，您要聽哪個播放清單？」 | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Ask%20For%20Playlist  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 播放我最愛的歌曲播放清單 | 「好的，播放您最愛的歌曲播放清單」 | ChangePlaylist | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=ChangePlaylist&pageName=Action%20Play%20Playlist&c.Playlist=My%20Favorite%20Songs  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
+| 關閉音樂 | 無回應，音樂關閉 | 關閉 | `GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Spoofify1.0&c.Intent=Off&pageName=Music%20Off  HTTP/1.1`<br>`Host: example.data.adobedc.net`<br>`Cache-Control: no-cache` |
