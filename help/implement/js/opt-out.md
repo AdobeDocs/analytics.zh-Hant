@@ -2,7 +2,7 @@
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
+source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 100%
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 找出實施的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
 
-* 第三方 Cookie：`https://example.sc.adobedc.net/optout.html`
+* 第三方 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie：`https://stats.example.com/optout.html`
 
 ## 選擇退出查詢字串參數
@@ -78,7 +78,7 @@ ht-degree: 100%
 * sk_SK (斯洛伐克文)
 * es_ES (西班牙文)
 
-例如，`https://example.sc.adobedc.net/optout.html?locale=ko_KR` 會以韓文載入選擇退出頁面。
+例如，`https://example.data.adobedc.net/optout.html?locale=ko_KR` 會以韓文載入選擇退出頁面。
 
 >[!TIP]
 >
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 在頁面中新增「關閉視窗」按鈕，保留將選擇退出頁面變成快顯視窗的可能。使用 `popup` 查詢字串參數，並指定 `1` 值。
 
-例如，`https://example.sc.adobedc.net/optout.html?popup=1` 會載入包含「關閉視窗」按鈕的選擇退出頁面。
+例如，`https://example.data.adobedc.net/optout.html?popup=1` 會載入包含「關閉視窗」按鈕的選擇退出頁面。
 
 >[!NOTE]
 >
@@ -98,10 +98,10 @@ ht-degree: 100%
 
 允許使用者立即選擇退出追蹤。新增 `opt_out` 和 `confirm_change` 兩個查詢字串參數，並為每個參數指定 `1` 值。
 
-例如，`https://example.sc.adobedc.net/optout.html?opt_out=1&confirm_change=1` 會立即將選擇退出 Cookie 安裝在訪客頁面上。
+例如，`https://example.data.adobedc.net/optout.html?opt_out=1&confirm_change=1` 會立即將選擇退出 Cookie 安裝在訪客頁面上。
 
 ### 單一點擊選擇加入
 
 透過刪除選擇退出 Cookie，讓使用者立即選擇重新加入追蹤。新增 `opt_in` 和 `confirm_change` 兩個查詢字串參數，並為每個參數指定 `1` 值。
 
-例如，`https://example.sc.adobedc.net/optout.html?opt_in=1&confirm_change=1` 會立即刪除訪客的選擇退出 Cookie。
+例如，`https://example.data.adobedc.net/optout.html?opt_in=1&confirm_change=1` 會立即刪除訪客的選擇退出 Cookie。
