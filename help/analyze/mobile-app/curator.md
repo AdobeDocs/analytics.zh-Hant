@@ -2,10 +2,10 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 控制面板組織者指南
 translation-type: tm+mt
-source-git-commit: 7ec56bb72638f157b6a501d73495b91ae52d7de9
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
 workflow-type: tm+mt
-source-wordcount: '2376'
-ht-degree: 94%
+source-wordcount: '2380'
+ht-degree: 83%
 
 ---
 
@@ -51,40 +51,40 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 若要建立計分卡，請執行以下操作：
 
-1. 存取空白行動計分卡範本。
+1. Access the [!UICONTROL Blank Mobile Scorecard] template.
 2. 使用資料設定計分卡並儲存。
 
-### 存取空白行動計分卡範本
+### Access the [!UICONTROL Blank Mobile Scorecard] template
 
-您可以透過以下其中一種方式來存取空白行動計分卡範本：
+You can access the [!UICONTROL Blank Mobile Scorecard] template in one of the following ways:
 
 **建立新專案**
 
-1. 開啟 Adobe Analytics，然後按一下&#x200B;**「工作區」**&#x200B;標籤。
-2. 按一下&#x200B;**「建立新專案」**&#x200B;按鈕，然後選擇&#x200B;**「空白行動計分卡」**&#x200B;專案範本。
-3. 按一下&#x200B;**「建立」**&#x200B;按鈕。
+1. 開啟 Adobe Analytics，然後按一下&#x200B;**[!UICONTROL 「工作區」]**&#x200B;標籤。
+2. 按一下&#x200B;**[!UICONTROL 「建立新專案」]**&#x200B;按鈕，然後選擇&#x200B;**[!UICONTROL 「空白行動計分卡」]**&#x200B;專案範本。
+3. 按一下&#x200B;**[!UICONTROL 「建立」]**&#x200B;按鈕。
 
 ![計分卡範本](assets/new_template.png)
 
 **新增專案**
 
-在&#x200B;**專案**&#x200B;畫面的&#x200B;**「元件」**&#x200B;標籤底下，按一下&#x200B;**「新增」**&#x200B;按鈕並選取&#x200B;**「行動計分卡」**。
+在&#x200B;**[!UICONTROL 專案]**&#x200B;畫面的&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤底下，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL 「行動計分卡」]**。
 
 ![新增專案](assets/add_project.png)
 
-**使用 Analytics 工具**
+**使用工 [!DNL Analytics] 具**
 
-進入 Analytics，按一下&#x200B;**「工具」**&#x200B;功能表，然後選取&#x200B;**「控制面板」**。在隨即顯示的畫面上，按一下&#x200B;**「建立計分卡」**&#x200B;按鈕。
+In [!DNL Analytics], click the **[!UICONTROL Tools]** menu and select **[!UICONTROL Analytics dashboards (Mobile App)]**. On the subsequent screen, click the **[!UICONTROL Create new scorecard]** button.
 
 ### 使用資料設定計分卡並儲存
 
 實施計分卡範本：
 
-1. 在右側邊欄的&#x200B;**「屬性」**&#x200B;下方，指定您要使用資料的&#x200B;**專案報表套裝**。
+1. Under **[!UICONTROL Properties]** (in the right-hand rail), specify a **[!UICONTROL Project report suite]** from which you want to use data.
 
    ![選取報表套裝](assets/properties_save.png)
 
-2. 若要為計分卡新增圖磚，請從左側面板拖曳量度，放置到顯示&#x200B;**「將量度拖放至此」**&#x200B;的區域。您也可以使用類似的工作流程，跨圖磚插入量度。
+2. To add a new tile to your Scorecard, drag a metric from the left panel and drop it into the **[!UICONTROL Drag and Drop Metrics Here]** zone. 您也可以使用類似的工作流程，跨圖磚插入量度。
 
    ![新增圖磚](assets/build_list.png)
 
@@ -92,13 +92,13 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
    *您可以從每個圖磚存取顯示該量度其他資訊的詳細檢視畫面，例如前幾名相關維度的清單。*
 
 
-3. 若要為量度新增相關維度，請從左側面板將維度拖曳至圖磚上。例如，將適當的維度 (像是此範例中的 **DMA 地區**) 拖曳至圖磚上，即可將其新增至&#x200B;**不重複訪客**&#x200B;量度；新增的維度會顯示在圖磚專用&#x200B;**「屬性」**&#x200B;的劃分區段底下。每個圖磚可新增多個維度。
+3. 若要為量度新增相關維度，請從左側面板將維度拖曳至圖磚上。For example, you can add appropriate dimensions (like **[!DNL DMA Region]**, in this example) to the **[!UICONTROL Unique Visitors]** metric by dragging and dropping it onto the tile; dimensions you add will appear under the breakdown section of the tile-specific **[!UICONTROL Properties]**. 每個圖磚可新增多個維度。
 
    ![新增維度](assets/layer_dimensions.png)
 
    您也可以將維度拖放到計分卡畫布上，將維度新增至所有圖磚。
 
-   按一下計分卡建立程式中的圖磚，右側邊欄會顯示與該圖磚相關聯的屬性和特性。在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
+   按一下計分卡建立程式中的圖磚，右側邊欄會顯示與該圖磚相關聯的屬性和特性。在此邊欄中，您可以為該圖磚提供新的&#x200B;**[!UICONTROL 標題]**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
 
    此外，如果按一下圖磚，動態快顯視窗會顯示應用程式向執行使用者呈現劃分檢視畫面的方式。如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
@@ -106,21 +106,21 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式清單中。執行使用者可從下拉式清單中選擇選項。
 
-4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 
    ![建立篩選的區段](assets/segment_ui.png)
 
-5. 同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下將游標停留在元件上時顯示的 **x**，即可將其移除，如下方&#x200B;**「行動客戶」**&#x200B;區段所示：
+5. Similarly, to remove a component that is applied to the entire Scorecard, click anywhere on the Scorecard outside of the tiles and then remove it by clicking the **x** that appears when you hover over the component, as shown below for the **[!DNL Mobile Customers]** segment:
 
    ![Remove_components](assets/new_remove.png)
 
-6. 在計分卡&#x200B;**「屬性」**&#x200B;底下，還可以自行選擇指定以下項目：
+6. 在計分卡&#x200B;**[!UICONTROL 「屬性」]**&#x200B;底下，還可以自行選擇指定以下項目：
 
-   * **預設日期範圍**。在此處指定的範圍，會與執行使用者在應用程式中首次存取計分卡時所套用的範圍相同。
+   * A **[!UICONTROL Default date range]**. 在此處指定的範圍，會與執行使用者在應用程式中首次存取計分卡時所套用的範圍相同。
 
-   * **比較日期範圍**
+   * A **[!UICONTROL Comparison date range]**
 
-   * 預計要套用至整個計分卡的任何&#x200B;**區段**
+   * 預計要套用至整個計分卡的任何&#x200B;**[!UICONTROL 區段]**
 
 7. 若要為計分卡命名，請按一下畫面左上角的命名空間，並輸入新名稱。
 
@@ -130,22 +130,22 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 與執行使用者共用計分卡：
 
-1. 按一下&#x200B;**「共用」**&#x200B;功能表，然後選擇&#x200B;**「共用計分卡」**。
+1. Click the **[!UICONTROL Share]** menu and select **[!UICONTROL Share scorecard]**.
 
-2. 在&#x200B;**「共用」**&#x200B;表單中，依照以下說明填寫欄位：
+2. In the **[!UICONTROL Share mobile scorecard]** form, complete the fields by:
 
    * 提供計分卡的名稱
    * 提供計分卡的說明
    * 新增相關標籤
    * 指定計分卡的收件者
 
-3. 按一下&#x200B;**「共用」**。
+3. 按一下&#x200B;**[!UICONTROL 「共用」]**。
 
 ![Share_Scorecards](assets/new_share.png)
 
 在您共用計分卡後，收件者便可在其 Analytics 控制面板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
 
-如果是以新增新元件的方式更新計分卡，您可再次共用計分卡 (並勾選&#x200B;**共用內嵌元件**&#x200B;選項)，以確保您的執行使用者有權存取這些變更。
+如果是以新增新元件的方式更新計分卡，您可再次共用計分卡 (並勾選&#x200B;**[!UICONTROL 共用內嵌元件]**&#x200B;選項)，以確保您的執行使用者有權存取這些變更。
 
 ## 使用應用程式設定主管使用者
 
@@ -159,7 +159,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 * 使用者處於 Adobe Analytics 的有效登入狀態
 * 您已為使用者正確建立行動計分卡，並與他們共用這些計分卡。
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
-* 使用者可存取計分卡中的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**共用內嵌元件**。
+* 使用者可存取計分卡中的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**[!UICONTROL 共用內嵌元件]**。
 
 ### 協助執行使用者使用應用程式
 
@@ -169,22 +169,22 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    **若執行使用者使用 iOS：**
 
-   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**工具** > **控制面板**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [iOS 連結](https://apple.co/2zXq0aN)
    **若執行使用者使用 Android：**
 
-   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**工具** > **控制面板**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+   * Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
       [Android 連結](https://bit.ly/2LM38Oo)
    下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
 
    ![應用程式歡迎畫面](assets/welcome.png)
 
-2. 協助使用者存取您的計分卡。執行使用者登入應用程式後，**選擇公司**&#x200B;畫面會隨即顯示。此畫面會列出執行使用者所屬的登入公司。協助使用者前往計分卡：
+2. 協助使用者存取您的計分卡。執行使用者登入應用程式後，**[!UICONTROL 選擇公司]**&#x200B;畫面會隨即顯示。此畫面會列出執行使用者所屬的登入公司。協助使用者前往計分卡：
 
    * 點選套用至您所共用計分卡的登入公司或 Experience Cloud 組織名稱。接著，計分卡清單會顯示該登入公司與執行使用者共用的所有計分卡。
-   * 如果情況適用，請協助他們依&#x200B;**最近修改的項目**&#x200B;將清單排序。
+   * 如果情況適用，請協助他們依&#x200B;**[!UICONTROL 最近修改的項目]**&#x200B;將清單排序。
    * 點選計分卡的名稱即可檢視。
 
    ![選擇公司](assets/accesscard.png)
@@ -201,7 +201,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
    * 確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
 
-3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **Preferences** below if you think your executive user prefers this viewing opt-on):
+3. Explain to the executive user how tiles appear in the Scorecards you share (the first Scorecard below is set in dark mode; see **[!UICONTROL Preferences]** below if you think your executive user prefers this viewing opt-on):
 
    ![說明圖磚](assets/newexplain.png)
 
@@ -231,17 +231,17 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    * 您也可以使用相同方式，變更上述「劃分」檢視中的日期範圍。
 
-   * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
+   * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
 6. 在此應用程式上提供意見回饋：
 
    1. 點選應用程式畫面右上方的設定圖示。
-   2. 在&#x200B;**我的帳戶**&#x200B;畫面上，點選&#x200B;**意見反應**&#x200B;選項。
+   2. 在&#x200B;**[!UICONTROL 我的帳戶]**&#x200B;畫面上，點選&#x200B;**[!UICONTROL 意見反應]**&#x200B;選項。
    3. 點選並查看提供意見回饋的選項。
 
       ![設定畫面](assets/settings.png)
 
-7. 若要變更偏好設定，請點選上方顯示的&#x200B;**偏好設定**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
+7. 若要變更偏好設定，請點選上方顯示的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
