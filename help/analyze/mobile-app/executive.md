@@ -1,11 +1,11 @@
 ---
 description: 控制面板計分卡的使用說明。
 title: Adobe Analytics 控制面板執行指南
-translation-type: ht
-source-git-commit: a388a66b431d9652a4bc436a9b923157e129b02c
-workflow-type: ht
-source-wordcount: '1287'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 27a923ec3acb9a0343ba71e395e565a0f9ede251
+workflow-type: tm+mt
+source-wordcount: '1293'
+ht-degree: 95%
 
 ---
 
@@ -53,13 +53,13 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 **若執行使用者使用 iOS：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**工具** > **控制面板**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若執行使用者使用 Android：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**工具** > **控制面板**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+Click the following link (it is also available in Analytics under **[!UICONTROL Tools]** > **[!UICONTROL Analytics dashboards (Mobile App)]**) and follow the prompts to download, install, and open the app:
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
@@ -75,7 +75,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![登入程序](assets/signseq.png)
 
-2. 選擇公司。登入控制面板後，**「選擇公司」**&#x200B;畫面會隨即顯示。此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
+2. 選擇公司。登入控制面板後，**[!UICONTROL 「選擇公司」]**&#x200B;畫面會隨即顯示。此畫面會列出您所屬的登入公司。點選與您所共用計分卡相關聯的公司名稱。
 
 3. 接著，計分卡清單會顯示已與您共用的所有計分卡。點選要檢視的計分卡。
 
@@ -88,7 +88,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    ![無共用項目](assets/nothing.png)
 
-4. 檢查圖磚在計分卡中的顯示情形 (第一個計分卡會以深色模式顯示；請參閱下方的&#x200B;**偏好設定**&#x200B;以取得詳細資訊)。
+4. 檢查圖磚在計分卡中的顯示情形 (第一個計分卡會以深色模式顯示；請參閱下方的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;以取得詳細資訊)。
 
    ![圖磚說明](assets/newexplain.png)
 
@@ -118,7 +118,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    * 您也可以使用相同方式，變更上述「劃分」檢視中的日期範圍。
 
-   * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**比較對象**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**「完成」**。**「日期範圍」**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
+   * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
 7. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。應用程式中的[篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
 
@@ -129,12 +129,12 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 9. 在此應用程式上提供意見回饋：
 
    1. 點選應用程式畫面右上方的設定圖示。
-   2. 在&#x200B;**我的帳戶**&#x200B;畫面上，點選&#x200B;**意見反應**&#x200B;選項。
+   2. 在&#x200B;**[!UICONTROL 我的帳戶]**&#x200B;畫面上，點選&#x200B;**[!UICONTROL 意見反應]**&#x200B;選項。
    3. 點選並查看提供意見回饋的選項。
 
       ![設定畫面](assets/settings.png)
 
-10. 若要變更偏好設定，請點選上方顯示的&#x200B;**偏好設定**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
+10. 若要變更偏好設定，請點選上方顯示的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
 
    ![深色模式](assets/darkmode.png)
 
