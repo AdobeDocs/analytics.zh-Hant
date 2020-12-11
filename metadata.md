@@ -12,9 +12,9 @@ tutorials-url: https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutor
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.zh-Hant
 type: Documentation
 index: true
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 
