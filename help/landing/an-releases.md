@@ -1,18 +1,18 @@
 ---
 description: 說明 Adobe Analytics 的全新持續功能發行策略
 title: Adobe Analytics 功能發行
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Analytics 功能發行
 
-過去，Adobe Analytics 功能的發行會依循固定的每月排程。從2020年4月開始，Adobe Analytics改採持續傳送模型，可讓您以更具延展性、分階段的方式部署功能。
+過去，Adobe Analytics 功能的發行會依循固定的每月排程。從 2020 年 4 月開始，Adobe Analytics 改採持續傳遞模式，讓您以更具延展性的分階段方式部署功能。
 
 ## 發行策略
 
@@ -26,11 +26,11 @@ ht-degree: 79%
 
 每個功能發行從 RTP 到 GA 的時程可能不盡相同。共同目標是要縮短發行時程，以期在開始發行 (RTP) 後的 2 個月內，就正式發行功能。
 
-## 功能標幟
+## 功能旗標
 
-功能標幟可用來控制新功能在發行期間的可見度。 Adobe建議將app.launchdarkly.com新增至防火牆的允許清 [單](https://docs.adobe.com/content/help/en/analytics/technotes/ip-addresses.html) ，以在發行期間提供最佳體驗。 到達正常狀態後不久，會移除標幟。
+功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 app.launchdarkly.com 新增至防火牆的[允許清單](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/ip-addresses.html)，以便在發行期間提供最佳體驗。正式發行後不久，旗標將會移除。
 
-您可以隨時在「說明>關於工作區>作用中功 **能標幟」下檢視作用中的功能標幟**。
+您可以隨時在&#x200B;**「說明 > 關於 Workspace > 有效功能旗標」**&#x200B;檢視有效的功能旗標。
 
 ## 福利
 
