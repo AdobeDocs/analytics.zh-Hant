@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics 控制面板 - 概觀
 description: Adobe Analytics 控制面板的產品文件與自助服務資源
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3612800349243ed4ce7a137a6c2eaf12e5abb4a2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '206'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics [!UICONTROL dashboards] - Overview
+# Adobe Analytics [!UICONTROL 控制面板] - 概觀
 
-**[!UICONTROL Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。]**&#x200B;此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
+**Adobe Analytics[!UICONTROL  控制面板]**&#x200B;可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援行動應用程式。
 
 若要進一步瞭解 Adobe Analytics [!UICONTROL 控制面板]，請參閱下列資源：
 
