@@ -2,11 +2,11 @@
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 title: 參考資料  基本函數
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1056'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits).]
+>此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits)].
 
 ## 表格函數和列函數 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -101,9 +101,9 @@ EXP(metric)
 
 乘冪運算元
 
-<pre>
-pow(x,y) = x<sup>y</sup> = x*x*x*… (乘以 y 次)
-</pre>
+```
+pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
+```
 
 ## 平均值 (表格) {#concept_F4FF950580304D0B99DA7FBB5DB8730A}
 
@@ -161,24 +161,10 @@ modulo(modulo(x,y)+y,y)
 PERCENTILE(metric,k)
 ```
 
-<table id="table_35CD840ACFB44CD9979881DB8823CC53"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 引數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>量度</i> </td> 
-   <td colname="col2"> 定義相對位置的量度欄。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>k </p> </td> 
-   <td colname="col2"> 0 至 100 (含) 範圍內的百分位數值。 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 引數 | 說明 |
+| --- | --- |
+| *量度* | 定義相對位置的量度欄。 |
+| *k* | 0 至 100 (含) 範圍內的百分位數值。 |
 
 ## 四分位數 (表格) {#concept_BFD37F0F23A24AD181407142233FA151}
 
@@ -188,24 +174,10 @@ PERCENTILE(metric,k)
 QUARTILE(metric,quart)
 ```
 
-<table id="table_64EA3DAAE77541439D59FAF0353F83A2"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 引數 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <i>量度</i> </td> 
-   <td colname="col2"> 您要擷取四分位數值的量度。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>quart </p> </td> 
-   <td colname="col2"> 指出傳回哪個值*。 </td> 
-  </tr> 
- </tbody> 
-</table>
+| 引數 | 說明 |
+| --- | --- |
+| *量度* | 您要擷取四分位數值的量度。 |
+| *quart* | 指出傳回哪個值*。 |
 
 *如果 *quart* = 0，QUARTILE 會傳回最小值。如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
 
@@ -224,9 +196,9 @@ ROUND(metric)
 沒有小數參數的四捨五入值等於小數參數為 0 的四捨五入值，也就是四捨五入到最接近的整數。具有小數參數時，則會在小數點右側傳回與此值一樣多的小數位數。如果小數參數為負，則會在小數點左側傳回 0。
 
 ```
-round( 314.15, 0) = 314 
-round( 314.15, 1) = 314.1 
-round( 314.15, -1) = 310 
+round( 314.15, 0) = 314
+round( 314.15, 1) = 314.1
+round( 314.15, -1) = 310
 round( 314.15, -2) = 300
 ```
 
@@ -255,7 +227,7 @@ SQRT(metric)
 ```
 
 | 引數 | 說明 |
-|---|---|
+| --- | --- |
 | *數字* | 您要擷取平方根的量度。 |
 
 ## 標準差 (表格) {#concept_A383A8BCC6FA42D7B73F7C83997D782A}
@@ -266,24 +238,15 @@ STDEV 的方程式為：
 
 ![](assets/std_dev.png)
 
-其中 x 是樣本平均值 (*量度*) 而 *n* 是樣本大小。
+其中，*x*&#x200B;是每個樣本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
 
 ```
 STDEV(metric)
 ```
 
-<table id="table_8BCF2E4B02434AABAAD026FB3C4E8B2F"> 
- <tbody> 
-  <tr> 
-   <td> <b> 引數</b> </td> 
-   <td> <b> 說明</b> </td> 
-  </tr> 
-  <tr> 
-   <td> <b> <i> 量度</i> </b> </td> 
-   <td> <p> 您要擷取標準差的量度。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 引數 | 說明 |
+| --- | --- |
+| *量度* | 您要擷取標準差的量度。 |
 
 ## 變異數 (表格) {#concept_269751EDC5A34E689112AE16E04A11B0}
 
@@ -293,23 +256,21 @@ VARIANCE 的方程式為：
 
 ![](assets/variance_eq.png)
 
-其中 x 是樣本平均值 MEAN(*量度*)，而 *n* 是樣本大小。
+其中，*x*&#x200B;是每個樣本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
 
 ```
 VARIANCE(metric)
 ```
 
 | 引數 | 說明 |
-|---|---|
+| --- | --- |
 | *量度* | 您要擷取變異數的量度。 |
 
 為了計算變數，請查看整欄的數字。請先從那列數字計算平均值。取得平均值後，請陸續處理每個項目，然後進行下列步驟：
 
 1. 將數字減去平均值。
-
-2. 取結果的平方。
-
-3. 將其加入總計。
+1. 取結果的平方。
+1. 將其加入總計。
 
 反覆運算整欄之後，會得到單一合計。接著將合計除以欄中的項目數。該數字會是欄的變數。一個單一的數字。但是，它會顯示為一欄數字。
 
@@ -321,10 +282,4 @@ VARIANCE(metric)
 
 3
 
-欄平均值為 2。欄的變數將會是 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。在 Ad Hoc Analysis 中，這會看起來像這樣：
-
-1 2/3
-
-2 2/3
-
-3 2/3
+欄平均值為 2。欄的變數將會是 ((1 - 2)² + (2 - 2)² + (3 - 2)²/3 = 2/3。
