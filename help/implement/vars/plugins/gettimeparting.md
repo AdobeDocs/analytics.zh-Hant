@@ -2,10 +2,10 @@
 title: getTimeParting
 description: 測量特定動作發生的時間。
 translation-type: tm+mt
-source-git-commit: c56891495b610ae14b0341e6a8e64edd115ae105
+source-git-commit: 01dce7813d60801f5c7826a903bb97d0db5d2617
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 82%
+source-wordcount: '814'
+ht-degree: 84%
 
 ---
 
@@ -23,10 +23,6 @@ Analysis Workspace 提供類似且現成可用的維度，其格式與此外掛�
 >[!IMPORTANT]
 >
 >此外掛程式的4.0+版與舊版有顯著不同。 Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
-
->[!IMPORTANT]
->
->此外掛程式的舊版未來版本，未來將不能容納所有年份。 如果您使用此外掛程式的舊版，Adobe強烈建議升級至最新版本，以避免JavaScript錯誤和資料遺失。 如果升級此外掛程式不可行，請確定外掛程式程式碼中的`s._tpdst`變數包含未來適當的年份。 此變數在最新版外掛程式中不存在或不必要。
 
 ## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
@@ -157,6 +153,10 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 * 單點發行 (程式碼經重新編譯且大小較小)
 * 移除 `tpDST` 參數的必要性，因為現在會自動偵測日光節約時間的開始/結束日期
+
+>[!CAUTION]
+>
+>此外掛程式的舊版未來版本，未來將不能容納所有年份。 如果您使用此外掛程式的舊版，Adobe強烈建議升級至最新版本，以避免JavaScript錯誤和資料遺失。 如果升級此外掛程式不可行，請確定外掛程式程式碼中的`s._tpdst`變數包含未來適當的年份。
 
 ### 4.0 (2016 年 8 月 22 日)
 
