@@ -2,11 +2,11 @@
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 title: 參考資料  基本函數
 uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits)].
+>此處將 [!DNL metric] 視為函數中的引數，也允許使用其他的量度運算式。例如，[!DNL MAXV(metrics)] 也允許用於 [!DNL MAXV(PageViews + Visits)]。
 
 ## 表格函數和列函數 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -238,7 +238,7 @@ STDEV 的方程式為：
 
 ![](assets/std_dev.png)
 
-其中，*x*&#x200B;是每個樣本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
+其中 *x* 是每個樣本的值 (*metric*)，*x̄* 是族群平均值，*n* 是族群規模。
 
 ```
 STDEV(metric)
@@ -256,7 +256,7 @@ VARIANCE 的方程式為：
 
 ![](assets/variance_eq.png)
 
-其中，*x*&#x200B;是每個樣本(*metric*)的值，*x̄*&#x200B;是人口平均值，*n*&#x200B;是人口大小。
+其中 *x* 是每個樣本的值 (*metric*)，*x̄* 是族群平均值，*n* 是族群規模。
 
 ```
 VARIANCE(metric)
