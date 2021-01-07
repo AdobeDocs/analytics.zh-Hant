@@ -2,9 +2,9 @@
 description: 面板是表格和視覺化的集合
 title: 面板概述
 translation-type: tm+mt
-source-git-commit: 6b9d3395e1c11f56452694229b9b8eb12b4ed8c0
+source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1004'
 ht-degree: 11%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 11%
 
 # 面板概述
 
-A [!UICONTROL panel] is a collection of tables and visualizations. 您可以從工作區的左上角圖示或空白麵板中存取 [面板](blank-panel.md)。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。 「分析工作區」中提供下列面板類型：
+[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。 「分析工作區」中提供下列面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
@@ -21,18 +21,18 @@ A [!UICONTROL panel] is a collection of tables and visualizations. 您可以從�
 | [Analytics for Target 面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
 | [歸因面板](attribution.md) | 使用任何維度和轉換度量，快速比較和視覺化任何數量的歸因模型。 |
 | [自由表格面板](freeform-panel.md) | 執行不限次數的比較和劃分，然後新增視覺化來呈現豐富的資料故事。 |
-| [媒體並行檢視器面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
+| [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找出相關差異。 |
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights]、 [!UICONTROL Blank] 和 [!UICONTROL Freeform] Arytics是您開始分析的絕佳場所，而  Analytics for Analytics、Iq IQ Attribution、Viewers和Target Comparison Cleaming Panels則可讓您同時進行更高級分析。 專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+[!UICONTROL Quick Insights]、  Blank和  Freepanels是您開始分析的絕佳場所，而 [!UICONTROL Analytics for Target]、 [!UICONTROL Attribution IQform]    、Concurrent Viewmedia Concurrent Erermedia和Comparnaling Signment Isonlend Advanced And And And Advanced。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
-The default starting panel is the [!UICONTROL Freeform] panel, but you can make the [blank panel](/help/analyze/analysis-workspace/c-panels/blank-panel.md) your default as well.
+預設的起始面板是[!UICONTROL Freeform]面板，但您也可以將[空白麵板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
 ## 報表套裝 {#report-suite}
 
-面板中的表格和視覺化會從面板右 [!UICONTROL 上方] ，選取的報表套裝衍生資料。 報表套裝也會決定左側導軌中可用的元件。 在專案中，您可以根據分析使 [用案例使用一](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) 或多個報表套裝。 若要將單一報表套裝套用至專案中的所有面板，請以滑鼠右鍵按 **一下面板標題>將報表套裝套用至所有面板**。
+面板內的表格和視覺化會從面板右上角選取的[!UICONTROL 報表套裝]衍生資料。 報表套裝也會決定左側導軌中可用的元件。 在專案中，您可以根據分析使用案例，使用一或多個報表套裝[。 ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)若要將單一報表套裝套用至專案中的所有面板，請&#x200B;**按一下滑鼠右鍵的面板標題>將報表套裝套用至所有面板**。
 
 報表套裝清單會依相關性排序，Adobe會根據目前使用者最近和經常使用套裝的情形，以及組織內使用套裝的情形，來定義相關性。
 
@@ -64,7 +64,7 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 ![](assets/adhoc-segment-filter.png)
 
-### 下拉式篩選 {#dropdown-filter}
+### 下拉式篩選器{#dropdown-filter}
 
 除了區段篩選外，下拉式篩選還可讓您以控制方式與資料互動。 例如，您可以新增「行動裝置類型」的下拉式篩選，以便依平板電腦、行動電話或案頭來劃分面板。
 
@@ -74,15 +74,15 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 
 若要建立下拉式篩選：
 
-1. 若要使用維度項目(例如 [!UICONTROL Marketing Channel]dimension中的值)建立下拉式篩選  ，請按一下左側導軌中維度旁的向右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同 **時將其拖放至面板拖放區**。 這會將元件轉換為下拉式篩選，而非單一區段。
-1. 若要使用其他元件（例如量度、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後在按住Shift鍵的同 **時拖曳至面板下拉區**。
-1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 You can also choose to not filter any of the panel data by selecting **[!UICONTROL No filter]**.
+1. 若要使用[!UICONTROL 維度項目]建立下拉式篩選，例如[!UICONTROL 行銷管道]維度中的值，請按一下左側導軌中維度旁的右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同時將其拖放至面板拖放區域&#x200B;**。**&#x200B;這會將元件轉換為下拉式篩選，而非單一區段。
+1. 若要使用其他元件（例如度量、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後拖曳至面板下拉區&#x200B;**，同時按住Shift鍵**。
+1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 您也可以選擇&#x200B;**[!UICONTROL 無篩選器]**，選擇不篩選任何面板資料。
 
 ![](assets/create-dropdown.png)
 
-[觀看影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) ，進一步瞭解如何將下拉式篩選器新增至專案。
+[觀看影](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 片，進一步瞭解如何將下拉式篩選器新增至專案。
 
-## 右鍵功能表 {#right-click}
+## 按一下右鍵菜單{#right-click}
 
 以滑鼠右鍵按一下面板標題，即可使用面板的其他功能。
 
@@ -97,6 +97,6 @@ The default starting panel is the [!UICONTROL Freeform] panel, but you can make 
 | 套用報表套裝至所有面板 | 可讓您將作用中的面板報表套裝套用至專案中的所有面板。 |
 | 複製面板 | 請精確複製目前的面板，然後您可加以修改。 |
 | 收合／展開所有面板 | 折疊並展開所有專案面板。 |
-| 收合／展開面板中的所有視覺化 | 折疊和展開目前面板中的視覺化。 |
+| 收合／展開面板中的所有視覺化 | 折疊並展開目前面板中的所有視覺化。 |
 | 編輯描述 | 新增（或編輯）面板的文字說明。 |
 | 取得面板連結 | 讓您可將使用者直接導向專案中的特定面板。點按連結時，收件者必須先登入，才能被導向到連結的確切面板。 |
