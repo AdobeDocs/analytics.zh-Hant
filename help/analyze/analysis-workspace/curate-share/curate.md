@@ -3,10 +3,10 @@ description: 組織可讓您在共用專案前先限制元件。
 keywords: Analysis Workspace curation
 title: 組織專案
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '542'
+ht-degree: 88%
 
 ---
 
@@ -57,8 +57,11 @@ ht-degree: 99%
 * 使用者的權限層級 (管理員或非管理員)
 * 專案角色 (是否為擁有者/編輯者)
 * 套用的組織類型 (VRS 或專案)
+* 由使用者擁有或共用的元件。 擁有／共用元件包括區段、計算量度和日期範圍。 它們不包含實作的元件，例如eVar、prop和自訂事件。
 
-| 組織類型 | 管理員 | 非管理員專案擁有者或編輯角色 | 非管理員複製或檢視角色 |
+注意：非管理員檢視角色無權存取專案中的左側導軌，因此已從下表中忽略這些角色。
+
+| 組織類型 | 管理員 | 非管理員專案擁有者或編輯角色 | 非管理員重複角色 |
 |---|---|---|---|
 | 已組織的 VRS | 所有未經組織的 VRS 元件 | 此角色擁有或已與其共享之未經組織的 VRS 元件 | 此角色擁有或已與其共享之未經組織的 VRS 元件 |
 | 已組織的專案 | 所有未經組織的專案元件 | 所有未經組織的專案元件 | 此角色擁有或已與其共享之未經組織的專案元件 |
