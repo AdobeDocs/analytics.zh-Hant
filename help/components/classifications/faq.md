@@ -1,11 +1,11 @@
 ---
 title: 分類常見問題集
 description: 使用分類時的常見問題。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 88%
 
 ## 如何分類包含特殊字元的值？
 
-通常不建議在報告中使用特殊字元，例如逗號或雙引號。 但是在某些情況下，這些字元是必要的。如果您的報表值包含您選擇分類的字元，請使用下列步驟：
+一般不建議在報表中使用逗號或雙引號這類特殊字元。但是在某些情況下，這些字元是必要的。如果報表值包含您選擇要分類的字元，請使用下列步驟：
 
 1. 登入 Adobe Analytics，然後導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 2. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]**&#x200B;索引標籤。
@@ -46,4 +46,4 @@ ht-degree: 88%
 
 ## 什麼是數值 2 分類？
 
-數值 2 分類可讓您將維度項目分類為時間型量度。他們已於2019年7月從Adobe Analytics UI退出。
+數值 2 分類可讓您將維度項目分類為時間型量度。這些分類已於 2019 年 7 月從 Adobe Analytics UI 中淘汰。
