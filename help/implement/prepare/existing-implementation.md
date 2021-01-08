@@ -2,7 +2,7 @@
 title: 負責現有的Adobe Analytics實作
 description: 適用於剛接觸現有Adobe Analytics實作的管理員的指示。
 translation-type: tm+mt
-source-git-commit: d77bb01d96ab0df2465927afc08739a3ce8c5c5f
+source-git-commit: 159d40fc224c53d6295ad0f441e7c694f51d4961
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 1%
@@ -18,12 +18,12 @@ ht-degree: 1%
 
 ![劇本](assets/inherited-impl-playbook.png)
 
-查看技術擁有者Sarah Owen提供的這些秘訣。 Sarah是 [Adobe Analytics Champion](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p) ，她分享如何使用「繼承的實作劇本」來負責現有實作的想法：
+查看技術擁有者Sarah Owen提供的這些秘訣。 Sarah是[Adobe Analytics Champion](https://blog.adobe.com/en/publish/2020/10/27/adobe-analytics-champion-program.html#gs.ldf97p)，她分享如何使用繼承的實施劇本來負責現有實施的想法：
 
 >[!VIDEO](https://video.tv.adobe.com/v/327314/?quality=12&learn=on)
 
 另請參閱：
 
-* [每次發佈網站後，檢查實作的「次要檢視」檢查清單](/help/implement/review/minor-review.md)
-* [每6個月檢視一次實施的「主要檢視」檢查清單](/help/implement/review/major-review.md)
+* [「重點審查」檢查清單，以檢視每個網站發行後的實作](/help/implement/review/focused-review.md)
+* [完整審查」檢查清單，每6個月檢查一次您的實作](/help/implement/review/full-review.md)
 * [定義您的前5大KPI](/help/implement/review/define-kpis.md)
