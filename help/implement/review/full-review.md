@@ -2,9 +2,9 @@
 title: 完整評論
 description: 每6個月檢閱一次實施，以確保與業務需求和KPI保持一致。
 translation-type: tm+mt
-source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
+source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 完整審查（用於每年檢閱兩次實施）
 
-您為何應每6個月檢閱一次實作？ 因為您需要確保您的實作符合您的業務需求！ 您也希望在資料品質較小時，在資料成長為可能削弱利益相關者信心的重大資料問題之前，先解決資料品質的任何問題。 除了每6個月進行一次完整審核外，在每個網站發行後，您也應該執行[重點審核](/help/implement/review/focused-review.md)。
+您為何應每6個月檢閱一次實作？ 因為您需要確保您的實作符合您的業務需求！ 您也希望在資料品質較小時，在資料成長為可能削弱利益相關者信心的重大資料問題之前，先解決這些資料品質問題。 除了每6個月進行一次完整審核外，在每個網站發行後，您也應該執行[重點審核](/help/implement/review/focused-review.md)。
 
 ## 1.請確定您的實作仍完全符合我們的業務需求。
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 為了對業務有重要性，請簡略地檢閱所有量度和變數，以確保資料的收集正確。 從您最重要的度量和變數開始——與[前5個KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review)關聯的度量和變數。 要執行此操作：
 
-* 建立控制面板，以查看量度和變數的每月趨勢檢視（或為每個量度和變數設定智慧提醒），以確保您獲得預期的資料，且資料正確無誤。 如果您發現任何不一致之處，請檢查資料層、標籤管理器規則和處理規則，以找出原因。
+* 建立控制面板，以查看量度和變數的每月趨勢檢視（或為每個量度和變數設定[智慧提醒](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)），以確保您取得預期的資料，且資料正確無誤。 如果您發現任何不一致之處，請檢查資料層、標籤管理器規則和處理規則，以找出原因。
 * 重新執行[Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以監控量度和變數的廣泛趨勢。
 
 不要讓實作過多地使用您不需要的量度和變數。 停用企業不再需要或使用的量度或變數。 您稍後可能想要刪除或重新利用這些項目。
