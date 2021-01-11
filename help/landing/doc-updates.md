@@ -2,11 +2,11 @@
 title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4fdab23700659e68d5c577369dd005b94eef56b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 * 如需新功能的詳細資訊，請參閱工具使用者指南中的 [Analysis Workspace 新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 如需 Adobe Analytics for Audio and Video 的相關資訊，請參閱[在 Analytics 測量音訊和視訊](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)。
 
-## 主要更新詳細資訊
+## 重大更新詳細資訊
 
 | 日期 | 說明 |
 |---|---|
-| 2020年11月 | 新的實施審查檔案： <ul><li>[完整實作審查](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html)</li><li>[重點實作審查](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html)</li></ul> |
+| 2020 年11月 | 新實作審核文件： <ul><li>[完整實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li></ul> |
 | 2020 年 7 月 21 日 | [跨裝置分析](/help/components/cda/overview.md)的主要更新和修訂項目。新增[依欄位彙整](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) 新增更新內容。 |
@@ -39,7 +39,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies.md)。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
-| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
 | 2019 年 9 月 12 日 | [歷程 IQ：跨裝置分析](/help/components/cda/overview.md)的新文件 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/analyze/pwa/pwa.md)的相關新文章 |
