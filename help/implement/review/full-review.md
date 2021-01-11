@@ -2,9 +2,9 @@
 title: 完整評論
 description: 每6個月檢閱一次實施，以確保與業務需求和KPI保持一致。
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 769e29e08871d2da704aa4eabe22371148d486bf
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 2.請確定您的量度和變數仍正常運作。
 
-為了對業務有重要性，請簡略地檢閱所有量度和變數，以確保資料的收集正確。 從您最重要的量度和變數開始，這些量度和變數與您的前5個KPI相關聯。 要執行此操作：
+為了對業務有重要性，請簡略地檢閱所有量度和變數，以確保資料的收集正確。 從您最重要的度量和變數開始——與[前5個KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=en#review)關聯的度量和變數。 要執行此操作：
 
 * 建立控制面板，以查看量度和變數的每月趨勢檢視（或為每個量度和變數設定智慧提醒），以確保您獲得預期的資料，且資料正確無誤。 如果您發現任何不一致之處，請檢查資料層、標籤管理器規則和處理規則，以找出原因。
 * 重新執行[Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以監控量度和變數的廣泛趨勢。
