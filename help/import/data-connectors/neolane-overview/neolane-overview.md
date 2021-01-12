@@ -3,9 +3,9 @@ description: 此 Adobe® Data Connectors™ 電子郵件整合項目結合 Adobe
 title: Adobe Analytics 的 Neolane Ozon Data Connector
 uuid: a0415fc2-9bf3-445d-92a3-705895ff740c
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '776'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 電子郵件整合項目結合 Adobe Analytics® 的行為資訊與電子郵件行銷功能，打造出功能強大的工具，透過更相關的傳訊重新定義成功測量及鎖定受眾。
 
@@ -50,7 +50,7 @@ ht-degree: 98%
 * **可用和已設定的 Adobe Analytics 變數：**&#x200B;此整合需要自訂事件和自訂 eVar，以及選用的其他事件和其他 eVar。
 * **授權代表：**&#x200B;請注意，啟用此項整合可能會使貴公司根據您與 Adobe, Inc. 的服務合約或您與 Adobe 信任合作夥伴之一 (如適用) 的服務合約產生費用。啟用這項整合，即表示您是貴公司的授權代表；因此，貴公司同意支付上述服務合約所載之費用 (若有的話)。
 * **Data Warehouse™：**&#x200B;這項整合需要啟用 Data Warehouse，才能產生再行銷區段。如果您尚未啟用 Data Warehouse，請聯絡 Adobe 瞭解詳情。
-* **`[~Partner~]`：**此整合需要我們在 Adobe Analytics 變數 (eVar) 中擷取並儲存「`[~Partner~]`」。此 ID 是來自`[~Partner~]`系統之電子郵件地址的編碼或數值表示。此「[!DNL ~合作夥伴~]」與網站上的下游訪客行為 (放棄購買、購買等) 相關聯，此項目會被拉入`[~Partner~]`系統，且可用於再行銷用途。作為設定程序的一部分，當精靈提示時，您必須識別用於此目的的 eVar 。
+* **`[~Partner~]`：**&#x200B;此整合需要我們在 Adobe Analytics 變數 (eVar) 中擷取並儲存「`[~Partner~]`」。此 ID 是來自 `[~Partner~]` 系統之電子郵件地址的編碼或數值表示。此「[!DNL ~合作夥伴~]」與網站上的下游訪客行為 (放棄購買、購買等) 相關聯，此項目會被拉入 `[~Partner~]` 系統，且可用於再行銷用途。作為設定程序的一部分，當精靈提示時，您必須識別用於此目的的 eVar 。
 * **外部追蹤：**&#x200B;如果您目前未遵循針對您傳送之每個電子郵件促銷活動啟用外部追蹤的最佳實務，您必須這麼做以確保成功整合。如需詳細資訊，請參閱下文的 `[~Partner~]` 一節。
 * **隱私權法規遵循：**&#x200B;您應瞭解，一旦啟用收件者或訪客 ID 追蹤功能，此功能便可追蹤您網站訪客的個人識別資訊。這隱含隱私權問題，需要您的組織實施適當的程序，例如向您的網站訪客提供通知並授予同意。
 
