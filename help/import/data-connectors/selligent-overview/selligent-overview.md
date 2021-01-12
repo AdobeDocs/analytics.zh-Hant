@@ -3,9 +3,9 @@ description: 'null'
 title: Adobe Analytics 的 Selligent Data Connector
 uuid: e16c3ca6-b131-44b1-a36c-e39697677a96
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '895'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 這項整合包含下列主要優點：
 
@@ -89,25 +89,25 @@ ht-degree: 98%
    <td colname="col4"> <p><b>類型</b>：數值 </p> <p><b>參與率</b>：已啟用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Event </td> 
+   <td colname="col1"> 事件 </td> 
    <td colname="col2"> 已傳遞 </td> 
    <td colname="col3"> 儲存已遞送的電子郵件數量。 </td> 
    <td colname="col4"> <p><b>類型</b>：數值 </p> <p><b>參與率</b>：已啟用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Event </td> 
+   <td colname="col1"> 事件 </td> 
    <td colname="col2"> 檢視 </td> 
    <td colname="col3"> 儲存被檢視的不重複電子郵件數量。 </td> 
    <td colname="col4"> <p><b>類型</b>：數值 </p> <p><b>參與率</b>：已啟用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Event </td> 
+   <td colname="col1"> 事件 </td> 
    <td colname="col2"> 點擊次數 </td> 
    <td colname="col3"> 儲存任何電子郵件被點按的次數。 </td> 
    <td colname="col4"> <p><b>類型</b>：數值 </p> <p><b>參與率</b>：已啟用 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> Event </td> 
+   <td colname="col1"> 事件 </td> 
    <td colname="col2"> 已跳出 </td> 
    <td colname="col3"> 儲存跳出的電子郵件數量。 </td> 
    <td colname="col4"> <p><b>類型</b>：數值 </p> <p><b>參與率</b>：已啟用 </p> </td> 
