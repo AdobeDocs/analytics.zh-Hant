@@ -2,11 +2,11 @@
 description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
-translation-type: ht
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
-workflow-type: ht
-source-wordcount: '8106'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 6e4c40c7d6c1713f624a9562da3e49a3ee5d67de
+workflow-type: tm+mt
+source-wordcount: '8204'
+ht-degree: 99%
 
 ---
 
@@ -15,9 +15,21 @@ ht-degree: 100%
 
 如需完整存取 Adobe Experience Cloud 發行說明，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 
-## 2020 年 10 月
+## 2021 年 2 月
 
-2020 年 10 月發行的新功能。
+| 功能 | 目標日期 | 說明 |
+| --- | --- | --- |
+| 元件選擇 | 2021 年 2 月 4 日 | 「快速分析」中找到的下拉式／下拉式區域元件將新增至「工作區」中的所有下拉式區域。 此增強功能可讓您從相容元件的下拉式清單中挑選，或繼續將空間當做下拉區域使用。 |
+
+
+## 2021 年 1 月
+
+| 功能 | 目標日期 | 說明 |
+| --- | --- | --- |
+| 影像URL | 2021 年 1 月 14 日 | 您可以參照公用影像URL，將影像新增至工作區專案。 |
+| 視覺化的合併來源與設定管理員 | 2021 年 1 月 14 日 | 視覺化的資料來源管理員（點）和設定管理員（齒輪）已合併為單一快顯視窗，因此您可以從相同位置輕鬆管理來源和設定。 |
+
+## 2020 年 10 月
 
 | 功能 | 說明 |
 | --- | --- |
@@ -26,12 +38,10 @@ ht-degree: 100%
 
 ## 2020 年 9 月
 
-2020 年 9 月發行的新功能。
-
 | 功能 | 說明 |
 | --- | --- |
 | [下載單一維度的 50,000 個項目](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 您現在能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
-| [線條視覺效果的增強功能](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何線條視覺效果的 X 軸與 Y 軸。當線條視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| [線條視覺效果的增強功能](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何線條視覺效果的 X 軸與 Y 軸。當線條視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新日期範圍 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
 
 ## 2020 年 8 月
@@ -56,7 +66,7 @@ ht-degree: 100%
 | 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 可共同編輯工作區專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白面板 | 空白面板現增設多種面板和視覺效果，為您提供更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
 | 快速深入分析面板 (2020 年 6 月 25 日) | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[更多詳情...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | 工作區中的「Analytics for Target」面板(2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[更多詳情...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -1148,7 +1158,7 @@ ht-degree: 100%
 
 當顏色和大小維度以某種方式關連至樹狀結構時，例如假設某個顏色的關連性特別明顯，使用者通常就能輕鬆觀察出 (換作其他方法很難察覺的) 模式。樹狀圖還有一個優點是，透過結構可以有效地利用空間。
 
-## 區段、量度和日期的另存新檔功能{#section_04C8B10A0751453AAE5F1BC35938C6CE}
+## 區段、量度和日期的另存新檔功能 {#section_04C8B10A0751453AAE5F1BC35938C6CE}
 
 在「Analysis Workspace 區段產生器」中編輯現有 (已儲存的) 區段時，按一下「**[!UICONTROL 另存新檔]**」即可產生副本。
 
@@ -1224,11 +1234,11 @@ ht-degree: 100%
 
 ![](assets/anchor_Y_axis.png)
 
-## 標籤標題顯示專案名稱{#section_497C61A030984BCCA2CEA553312C3226}
+## 標籤標題顯示專案名稱  {#section_497C61A030984BCCA2CEA553312C3226}
 
 儲存專案時，瀏覽器標籤上的標題會顯示為「`<Project Name>` - Analysis Workspace」。如果您在多個瀏覽器標籤中開啟了多個專案，這個改良功能會很有用。
 
-## 轉讓專案所有權{#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## 轉讓專案所有權  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
