@@ -3,9 +3,9 @@ description: 此 Adobe® Data Connectors™ 電子郵件整合結合 Analytics®
 title: Adobe Analytics 的 Silverpop Data Connector
 uuid: 579d3100-4c34-48ff-a181-1465fa32b250
 translation-type: tm+mt
-source-git-commit: 6967ed62ced07cf817bdfd7137c5659831ae3520
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '488'
 ht-degree: 97%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期終止Adobe Data Connector技術。 [深入了解...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 電子郵件整合結合 Analytics® 的行為資訊與 Silverpop 電子郵件行銷功能，打造出功能強大的工具，透過更相關的傳訊重新定義成功測量及鎖定受眾。
 
