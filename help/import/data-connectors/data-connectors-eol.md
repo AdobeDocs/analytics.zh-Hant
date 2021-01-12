@@ -2,9 +2,9 @@
 description: 了解 Analytics Data Connectors 何時終止及終止原因。
 title: Analytics Data Connectors 終止服務預先公告
 translation-type: tm+mt
-source-git-commit: 5eb3aba2032118036808edbdab5f411b5f327949
+source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '595'
 ht-degree: 22%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 十多年來，Adobe Analytics致力於提供同級最佳的網路與行銷分析解決方案，以滿足客戶的需求。 隨著技術和業務需求的發展，我們致力持續提供並符合最高標準。  遺憾的是，支援此項整合的API已不再符合這些標準，而且在現代Adobe Analytics技術基礎架構中無法成立。
 
-自2021年8月1日起，Adobe打算停止「資料連接器」整合。 生命週期結束是任何技術產品生命週期的一部分，Adobe希望讓過渡過程盡可能順暢，讓客戶和合作夥伴都能順利完成。 其中許多整合都可透過Adobe Exchange取得，並可繼續使用。
+**自2021年8月1日起**,Adobe打算停止「資料連接器」整合。生命週期結束是任何技術產品生命週期的一部分，Adobe致力於讓客戶和合作夥伴盡可能順暢地進行過渡。 其中許多整合都可透過Adobe Exchange取得，並可繼續使用。
 
 ## 我們為什麼要終止此功能？
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 | Appfigures | 移轉至Adobe Exchange |
 | 應用程式 | 在Adobe Exchange上提供 |
 | AppsFlyer | 移轉至Adobe Exchange |
-| Aprimo企業行銷參與 |
+| Aprimo企業行銷參與 | 淘汰 |
 | Apteligent | 在Exchange上提供 |
 | BlueHornet eMarketing Suite | 淘汰 |
 | 分支 | 遷移到Exchange |
