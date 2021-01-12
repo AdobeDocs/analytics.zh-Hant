@@ -3,9 +3,9 @@ description: 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 An
 title: Adobe Analytics 的 DreamMail Data Connector
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '805'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 Analytics® 與電子郵件行銷的行為資訊，成為一項功能強大的工具，可重新定義成功測量，並透過更具相關性的訊息鎖定對象。
 
@@ -51,7 +51,7 @@ ht-degree: 98%
 
 * **授權代表：**&#x200B;請注意，啟用此項整合可能會使貴公司根據您與 Adobe, Inc. 的服務合約或您與 Adobe 信任合作夥伴之一 (如適用) 的服務合約產生費用。啟用這項整合，即表示您是貴公司的授權代表；因此，貴公司同意支付上述服務合約所載之費用 (若有的話)。
 * **Data Warehouse™：**&#x200B;這項整合需要啟用 Data Warehouse，才能產生再行銷區段。如果您尚未啟用 Data Warehouse，請聯絡 Adobe 瞭解詳情。
-* **[!DNL ~合作夥伴~]：**整合需要我們在 Analytics 變數 (eVar) 中擷取並儲存「電子郵件地址」。「[!DNL ~合作夥伴~]」與網站上的下游訪客行為 (購物車放棄、購買等等) 相關聯這些資料會被提取至[!DNL ~合作夥伴~]系統中，並可用於再行銷目的。作為設定程序的一部分，當精靈提示時，您必須識別用於此目的的 eVar 。
+* **[!DNL ~合作夥伴~]：**&#x200B;整合需要我們在 Analytics 變數 (eVar) 中擷取並儲存「電子郵件地址」。「[!DNL ~合作夥伴~]」與網站上的下游訪客行為 (購物車放棄、購買等等) 相關聯這些資料會被提取至[!DNL ~合作夥伴~]系統中，並可用於再行銷目的。作為設定程序的一部分，當精靈提示時，您必須識別用於此目的的 eVar 。
 * **外部追蹤：**&#x200B;如果您目前未遵循針對您傳送之每個電子郵件促銷活動啟用外部追蹤的最佳實務，您必須這麼做以確保成功整合。如需詳細資訊，請參閱下方的[!DNL ~合作夥伴~]區段。
 * **隱私權法規遵循：**&#x200B;您應瞭解，一旦啟用收件者或訪客 ID 追蹤功能，此功能便可追蹤您網站訪客的個人識別資訊。這隱含隱私權問題，需要您的組織實施適當的程序，例如向您的網站訪客提供通知並授予同意。
 
