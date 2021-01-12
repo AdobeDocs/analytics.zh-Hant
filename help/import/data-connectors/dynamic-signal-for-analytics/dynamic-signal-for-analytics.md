@@ -3,10 +3,10 @@ description: 'null'
 title: Adobe Analytics 的 Dynamic Signal VoiceStorm Data Connector
 uuid: 270b33f5-ea9f-4ab3-ba3e-de41a9e6ff7a
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 94%
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 這項 Adobe® Data Connectors 整合將 Dynamic Signal VoiceStorm Platform 的人力行銷功能結合了 Adobe Analytics 的數位體驗深入分析。這造就了強大的全新分析功能和最佳化機會。
 
