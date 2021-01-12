@@ -3,9 +3,9 @@ description: 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 An
 title: Adobe Analytics 的 Delivra Data Connector
 uuid: 9d56d39c-98e6-4e9b-b00d-515df02ea879
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '982'
 ht-degree: 98%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 Analytics® 與 Delivra 電子郵件行銷的行為資訊，成為一項功能強大的工具，可重新定義成功測量，並透過更具相關性的訊息鎖定對象。
 
