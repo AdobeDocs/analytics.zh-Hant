@@ -3,9 +3,9 @@ description: 'null'
 title: Adobe Analytics 的 Responsys Data Connector
 uuid: 1181ae49-59c4-4c6a-a5cf-f7a0ec956850
 translation-type: tm+mt
-source-git-commit: 0fed9fd179feadae26a364a2ca79ac396251e8f6
+source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '270'
 ht-degree: 95%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->我們將於2021年中後期推出Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 Adobe Analytics 為使用 Responsys Interact 的電子郵件行銷人員提供大量的新目標鎖定機會。將相關的電子郵件訊息及時傳送至 Adobe Analytics (前身為 SiteCatalyst) 所識別的動態行銷區段，可增提高潛在客戶和目前客戶的轉換數和收入。
 
