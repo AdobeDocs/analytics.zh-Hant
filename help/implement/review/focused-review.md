@@ -2,7 +2,7 @@
 title: 重點審查（在每次發佈網站後）
 description: 請遵循下列步驟，以確保您的實作不會出錯，並符合您的KPI。
 translation-type: tm+mt
-source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
+source-git-commit: 8c4ea92523f5e969b9ffe462ea6fb4c21c176141
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 0%
@@ -24,7 +24,8 @@ ht-degree: 0%
 
 * 建立控制面板以檢視這些重要度量和變數的每小時趨勢檢視（或為每個度量設定[智慧提醒](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)）。 然後監視一兩天，以確保您獲得所需的資料，而且資料正確無誤。 尋找轉折點。 準備立即修正任何重大問題。 如果您發現任何不一致之處，請在資料層、標籤管理規則和處理規則中查找原因。
 * 重新執行[Analytics Health Dashboard](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，以監控KPI量度和變數的廣泛趨勢。
-   *如需如何確保量度和變數正常運作的詳細資訊，請閱 [讀Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 冠軍Sarah Owen的這些資訊。*
+
+*如需如何確保量度和變數正常運作的詳細資訊，請閱 [讀Adobe Analytics](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 冠軍Sarah Owen的這些資訊。*
 
 ## 3.徹底檢查網站更新區段的資料。
 
