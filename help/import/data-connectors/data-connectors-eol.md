@@ -2,10 +2,10 @@
 description: 了解 Analytics Data Connectors 何時終止及終止原因。
 title: Analytics Data Connectors 終止服務預先公告
 translation-type: tm+mt
-source-git-commit: ab23222ffbfe2e98a4186f16db4942504d4d6fa4
+source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 22%
+source-wordcount: '536'
+ht-degree: 25%
 
 ---
 
@@ -34,68 +34,68 @@ ht-degree: 22%
 
 | 合作夥伴 | 狀態 |
 | --- | --- |
-| Acxiom | 在Adobe Exchange上提供 |
-| Adform | 在Adobe Exchange上提供 |
+| Acxiom | 淘汰 |
+| Adform | 淘汰 |
 | 調整 | 移轉至Adobe Exchange |
 | Adobe Campaign | 移轉至Adobe Exchange |
 | Appfigures | 移轉至Adobe Exchange |
-| 應用程式 | 在Adobe Exchange上提供 |
+| 應用程式 | 淘汰 |
 | AppsFlyer | 移轉至Adobe Exchange |
 | Aprimo企業行銷參與 | 淘汰 |
-| Apteligent | 在Exchange上提供 |
+| Apteligent | 淘汰 |
 | BlueHornet eMarketing Suite | 淘汰 |
 | 分支 | 遷移到Exchange |
-| BrightEdge 2.0 | 在Exchange上提供 |
+| BrightEdge 2.0 | 淘汰 |
 | Bronto Software | 淘汰 |
 | CheetahMail by Experian | 遷移到Exchange |
-| ClickTale | 在Exchange上提供 |
+| ClickTale | 淘汰 |
 | Clicktale CA | 淘汰 |
-| 導線2.0 | 在Exchange上提供 |
-| ContactLab 2.0(Contact Send Connector) | 在Exchange上提供 |
-| Coradiant TrueSight | 在Exchange上提供 |
-| D&amp;B訪客智慧 | 在Exchange上提供 |
+| 導線2.0 | 淘汰 |
+| ContactLab 2.0(Contact Send Connector) | 淘汰 |
+| Coradiant TrueSight | 淘汰 |
+| D&amp;B訪客智慧 | 淘汰 |
 | Datran Media | 淘汰 |
-| Decibel Insight | 在Exchange上提供 |
-| 解密 | 在Exchange上提供 |
+| Decibel Insight | 淘汰 |
+| 解密 | 淘汰 |
 | Delivra | 淘汰 |
-| Demandbase CA | 在Exchange上提供 |
+| Demandbase CA | 淘汰 |
 | Demandbase v3 | 淘汰 |
-| DialogTech | 在Exchange上提供 |
+| DialogTech | 淘汰 |
 | 廣告商的DoubleClick(DFA) | 淘汰（此處有更多資訊&#x200B;**連結至DFA EOL PAGE**） |
 | DREAM | 淘汰 |
 | DREAMmail 2.0 | 淘汰 |
 | 動態信號(Nigital Vora) | 遷移到Exchange |
 | eDialog Precision Central | 淘汰 |
 | eC-messenger | 淘汰 |
-| Emailvision Campaign Commander | 在Exchange上提供 |
+| Emailvision Campaign Commander | 淘汰 |
 | emarsys xpress | 淘汰 |
 | Epsilon Harmony | 遷移到Exchange |
-| EveryoneSocial for Adobe Analytics | 在Exchange上提供 |
+| EveryoneSocial for Adobe Analytics | 淘汰 |
 | 菲克蘇 | 淘汰 |
 | Foresee(v2.0) | 淘汰 |
-| Foresee Feedback | 在Exchange上提供 |
-| 吉吉亞 | 在Exchange上提供 |
+| Foresee Feedback | 淘汰 |
+| 吉吉亞 | 淘汰 |
 | 竹 | 淘汰 |
 | Kampyle（現為Medallia）意見分析(1.1) | 淘汰 |
 | Listrak | 遷移到Exchange |
 | Lyris HQ | 淘汰 |
-| MaritzCX(V 2.0) | 在Exchange上提供 |
-| 梅爾克爾 | 在Exchange上提供 |
+| MaritzCX(V 2.0) | 淘汰 |
+| 梅爾克爾 | 淘汰 |
 | Oracle Exola Oracle正式整合 | 淘汰 |
 | optivo broadmail(Episerver) | 遷移到Exchange |
 | Qualtrics v2 | 遷移到Exchange |
 | Responsys 2.0 | 淘汰 |
-| Selligent | 在Exchange上提供 |
-| seoClarity 2.0 | 在Exchange上提供 |
+| Selligent | 淘汰 |
+| seoClarity 2.0 | 淘汰 |
 | Silverpop Engage (v2.0) | 淘汰 |
-| 西茲梅克 | 在Exchange上提供 |
-| SpotEffects | 在Exchange上提供 |
+| 西茲梅克 | 淘汰 |
+| SpotEffects | 淘汰 |
 | StrongMail Systems, Inc | 淘汰 |
 | 合成！360 | 淘汰 |
 | ThinData EMS | 淘汰 |
-| TUNE | 在Exchange上提供 |
+| TUNE | 淘汰 |
 | 城市飛艇 | 淘汰 |
-| UserZoom調查工具 | 在Exchange上提供 |
-| WhatCounts Email | 在Exchange上提供 |
+| UserZoom調查工具 | 淘汰 |
+| WhatCounts Email | 淘汰 |
 | wywy | 淘汰 |
-| Yesmail Enterprise | 在Exchange上提供 |
+| Yesmail Enterprise | 淘汰 |
