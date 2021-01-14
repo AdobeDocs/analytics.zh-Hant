@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
 translation-type: tm+mt
-source-git-commit: f6d8c52845f6949954f5b961d75edfeeeef2e151
+source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 97%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 97%
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [媒體並行檢視器面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
          + [區段比較概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -135,7 +135,6 @@ ht-degree: 97%
       + [安裝 Report Builder](report-builder/setup/t-install-arb.md)
       + [升級 Report Builder](report-builder/setup/upgrade-arb.md)
       + [登入 Report Builder](report-builder/setup/login.md)
-      + [登入 Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [解除安裝 Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [從 Microsoft Excel 函數叫用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具列](report-builder/reportbuilder-toolbar.md)
