@@ -2,9 +2,9 @@
 description: 了解 Analytics Data Connectors 何時終止及終止原因。
 title: Analytics Data Connectors 終止服務預先公告
 translation-type: tm+mt
-source-git-commit: 58127bc9482ae4889a295e6c11112d3842510f4d
+source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '528'
 ht-degree: 25%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 25%
 | Demandbase CA | 淘汰 |
 | Demandbase v3 | 淘汰 |
 | DialogTech | 淘汰 |
-| 廣告商的DoubleClick(DFA) | 淘汰（此處有更多資訊&#x200B;**連結至DFA EOL PAGE**） |
+| 廣告商的DoubleClick(DFA) | 淘汰 |
 | DREAM | 淘汰 |
 | DREAMmail 2.0 | 淘汰 |
 | 動態信號(Nigital Vora) | 遷移到Exchange |
