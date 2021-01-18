@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1099'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 97%
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [快速鍵（快速鍵）](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [熱鍵 (快速鍵)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
    + 元件 {#components}
@@ -239,14 +239,14 @@ ht-degree: 97%
       + [疑難排解 Power BI 的整合問題](report-builder/c-publish-power-bi/troubleshooting.md)
       + [適用於 Power BI 的 Adobe Analytics 內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic 巨集](report-builder/vba.md)
-   + [報告建立工具疑難排解](report-builder/troubleshoot.md)
-   + [報告建立工具常見問答集](report-builder/faq.md)
+   + [Report Builder 疑難排解](report-builder/troubleshoot.md)
+   + [Report Builder 常見問題集](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 概觀](activity-map/activity-map.md)
    + 快速入門 {#getting-started}
       + 管理員快速入門 {#get-started-admins}
          + [啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [實施代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [實作代碼範例](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 使用者快速入門 {#get-started-users}
          + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -271,8 +271,8 @@ ht-degree: 97%
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
-   + [疑難排解瀏覽器擴充功能](activity-map/troubleshooting-browser-extensions.md)
-   + [疑難排解資料收集](activity-map/troubleshoot-data-collection.md)
+   + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
+   + [資料收集作業疑難排解](activity-map/troubleshoot-data-collection.md)
    + [知識資源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [「Reports and Analytics」快速入門](reports-analytics/getting-started.md)
