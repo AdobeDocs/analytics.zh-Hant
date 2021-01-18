@@ -5,16 +5,16 @@ translation-type: tm+mt
 source-git-commit: 90ff77f548149333da34d19e3da672cc2dccf383
 workflow-type: tm+mt
 source-wordcount: '528'
-ht-degree: 25%
+ht-degree: 100%
 
 ---
 
 
 # Adobe Data Connectors 終止服務
 
-十多年來，Adobe Analytics致力於提供同級最佳的網路與行銷分析解決方案，以滿足客戶的需求。 隨著技術和業務需求的發展，我們致力持續提供並符合最高標準。  遺憾的是，支援此項整合的API已不再符合這些標準，而且在現代Adobe Analytics技術基礎架構中無法成立。
+十多年來，Adobe Analytics 致力於提供同級最佳的網頁與行銷分析解決方案，以符合客戶的需求。隨著技術和企業需求不斷演變，我們努力繼續提供符合最高標準的服務。很遺憾的是，支援這些整合作業的 API 不再符合標準，且不再適用於如今的 Adobe Analytics 技術基礎架構。
 
-**自2021年8月1日起**,Adobe打算停止「資料連接器」整合。生命週期結束是任何技術產品生命週期的一部分，Adobe致力於讓客戶和合作夥伴盡可能順暢地進行過渡。 其中許多整合都可透過Adobe Exchange取得，並可繼續使用。
+**Adobe 計畫自 2021 年 8 月 1 日起**&#x200B;終止 Data Connector 整合服務。終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
 
 ## 我們為什麼要終止此功能？
 
@@ -22,80 +22,80 @@ ht-degree: 25%
 
 ## 移除此功能對您有何影響？
 
-如果您是Adobe合作夥伴，有關將整合移轉至我們新Adobe Exchange計畫的詳細資訊，請參閱我們檔案中的[此處](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools)。
+若您是 Adobe 合作夥伴，請到[這裡](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools)查看我們的文件，了解將整合服務移轉到全新 Adobe Exchange 計畫的詳細資訊。
 
-如果您是Data Connector客戶，並想要要求您使用的整合應進行移轉，您應&#x200B;*將所有請求直接路由至整合合作夥伴*。 透過客戶服務傳送申請給 Adobe 的效果將不如預期。
+如果您是 Data Connector 客戶，且想申請移轉您所使用的整合服務，請&#x200B;*直接向整合合作夥伴提出所有申請*。透過客戶服務人員傳送申請給 Adobe 的效果將不如預期。
 
-每家提供整合的公司都可以選擇將整合移轉至Adobe Exchange或中止整合。 以下是每項目前整合的摘要及其隨附的決定。
+每家提供整合服務的公司都可選擇將整合功能移轉至 Adobe Exchange 或終止整合服務。目前每種整合服務及其相應決策的摘要如下。
 
-如需其他問題或支援，請聯絡Adobe客戶服務。
+如有其他問題或需要額外支援，請連絡 Adobe 客戶服務。
 
-## 資料連接器合作夥伴狀態
+## Data Connector 合作夥伴狀態
 
 | 合作夥伴 | 狀態 |
 | --- | --- |
-| Acxiom | 淘汰 |
-| Adform | 淘汰 |
-| 調整 | 移轉至Adobe Exchange |
-| Adobe Campaign | 移轉至Adobe Exchange |
-| Appfigures | 移轉至Adobe Exchange |
-| 應用程式 | 淘汰 |
-| AppsFlyer | 移轉至Adobe Exchange |
-| Aprimo企業行銷參與 | 淘汰 |
-| Apteligent | 淘汰 |
-| BlueHornet eMarketing Suite | 淘汰 |
-| 分支 | 遷移到Exchange |
-| BrightEdge 2.0 | 淘汰 |
-| Bronto Software | 淘汰 |
-| CheetahMail by Experian | 遷移到Exchange |
-| ClickTale | 淘汰 |
-| Clicktale CA | 淘汰 |
-| 導線2.0 | 淘汰 |
-| ContactLab 2.0(Contact Send Connector) | 淘汰 |
-| Coradiant TrueSight | 淘汰 |
-| D&amp;B訪客智慧 | 淘汰 |
-| Datran Media | 淘汰 |
-| Decibel Insight | 淘汰 |
-| 解密 | 淘汰 |
-| Delivra | 淘汰 |
-| Demandbase CA | 淘汰 |
-| Demandbase v3 | 淘汰 |
-| DialogTech | 淘汰 |
-| 廣告商的DoubleClick(DFA) | 淘汰 |
-| DREAM | 淘汰 |
-| DREAMmail 2.0 | 淘汰 |
-| 動態信號(Nigital Vora) | 遷移到Exchange |
-| eDialog Precision Central | 淘汰 |
-| eC-messenger | 淘汰 |
-| Emailvision Campaign Commander | 淘汰 |
-| emarsys xpress | 淘汰 |
-| Epsilon Harmony | 遷移到Exchange |
-| EveryoneSocial for Adobe Analytics | 淘汰 |
-| 菲克蘇 | 淘汰 |
-| Foresee(v2.0) | 淘汰 |
-| Foresee Feedback | 淘汰 |
-| 吉吉亞 | 淘汰 |
-| 竹 | 淘汰 |
-| Kampyle（現為Medallia）意見分析(1.1) | 淘汰 |
-| Listrak | 遷移到Exchange |
-| Lyris HQ | 淘汰 |
-| MaritzCX(V 2.0) | 淘汰 |
-| 梅爾克爾 | 淘汰 |
-| Oracle Exola Oracle正式整合 | 淘汰 |
-| optivo broadmail(Episerver) | 遷移到Exchange |
-| Qualtrics v2 | 遷移到Exchange |
-| Responsys 2.0 | 淘汰 |
-| Selligent | 淘汰 |
-| seoClarity 2.0 | 淘汰 |
-| Silverpop Engage (v2.0) | 淘汰 |
-| 西茲梅克 | 淘汰 |
-| SpotEffects | 淘汰 |
-| StrongMail Systems, Inc | 淘汰 |
-| 合成！360 | 淘汰 |
-| ThinData EMS | 淘汰 |
-| TUNE | 淘汰 |
-| 城市飛艇 | 淘汰 |
-| UserZoom調查工具 | 淘汰 |
-| WhatCounts Email | 淘汰 |
-| wywy | 淘汰 |
-| Yesmail Enterprise | 淘汰 |
+| Acxiom | 即將停止使用 |
+| Adform | 即將停止使用 |
+| Adjust | 正移轉至 Adobe Exchange |
+| Adobe Campaign | 正移轉至 Adobe Exchange |
+| Appfigures | 正移轉至 Adobe Exchange |
+| Appsee | 即將停止使用 |
+| AppsFlyer | 正移轉至 Adobe Exchange |
+| Aprimo Enterprise Marketing Engagement | 即將停止使用 |
+| Apteligent | 即將停止使用 |
+| BlueHornet eMarketing Suite | 即將停止使用 |
+| Branch | 正移轉至 Exchange |
+| BrightEdge 2.0 | 即將停止使用 |
+| Bronto Software | 即將停止使用 |
+| CheetahMail by Experian | 正移轉至 Exchange |
+| ClickTale | 即將停止使用 |
+| Clicktale CA | 即將停止使用 |
+| Conductor 2.0 | 即將停止使用 |
+| ContactLab 2.0 (Contact Send Connector) | 即將停止使用 |
+| Coradiant TrueSight | 即將停止使用 |
+| D&amp;B Visitor Intelligence | 即將停止使用 |
+| Datran Media | 即將停止使用 |
+| Decibel Insight | 即將停止使用 |
+| Decipher | 即將停止使用 |
+| Delivra | 即將停止使用 |
+| Demandbase CA | 即將停止使用 |
+| Demandbase v3 | 即將停止使用 |
+| DialogTech | 即將停止使用 |
+| DoubleClick for Advertisers (DFA) | 即將停止使用 |
+| DREAM | 即將停止使用 |
+| DREAMmail 2.0 | 即將停止使用 |
+| Dynamic Signal (Nital Vora) | 正移轉至 Exchange |
+| eDialog Precision Central | 即將停止使用 |
+| eC-messenger | 即將停止使用 |
+| Emailvision Campaign Commander | 即將停止使用 |
+| Emarsys Xpress | 即將停止使用 |
+| Epsilon Harmony | 正移轉至 Exchange |
+| EveryoneSocial for Adobe Analytics | 即將停止使用 |
+| Fiksu | 即將停止使用 |
+| Foresee (v2.0) | 即將停止使用 |
+| Foresee Feedback | 即將停止使用 |
+| Gigya | 即將停止使用 |
+| hybris | 即將停止使用 |
+| Kampyle (現為 Medallia) Feedback Analytics (1.1) | 即將停止使用 |
+| Listrak | 正移轉至 Exchange |
+| Lyris HQ | 即將停止使用 |
+| MaritzCX (V 2.0) | 即將停止使用 |
+| Merkle | 即將停止使用 |
+| Official Oracle Eloqua Integration | 即將停止使用 |
+| optivo broadmail (Episerver) | 正移轉至 Exchange |
+| Qualtrics v2 | 正移轉至 Exchange |
+| Responsys 2.0 | 即將停止使用 |
+| Selligent | 即將停止使用 |
+| seoClarity 2.0 | 即將停止使用 |
+| Silverpop Engage (v2.0) | 即將停止使用 |
+| Sizmek | 即將停止使用 |
+| SpotEffects | 即將停止使用 |
+| StrongMail Systems, Inc | 即將停止使用 |
+| Syngergy! 360 | 即將停止使用 |
+| ThinData EMS | 即將停止使用 |
+| TUNE | 即將停止使用 |
+| Urban Airship | 即將停止使用 |
+| UserZoom Survey tool | 即將停止使用 |
+| WhatCounts Email | 即將停止使用 |
+| wywy | 即將停止使用 |
+| Yesmail Enterprise | 即將停止使用 |
