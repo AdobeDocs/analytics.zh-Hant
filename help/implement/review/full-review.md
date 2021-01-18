@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: ad7274dbed3b85ca24cd92bf3a0d36d1f2e3597b
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 按照對業務的重要程度，快速審視所有量度和變數，確認其能正確收集資料。從您最重要的度量和變數開始，也就是與 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=zh-Hant#review) 相關的度量和變數。執行方法：
 
-* 建立控制面板，以查看量度和變數的每月趨勢檢視（或為每個量度和變數設定[智慧提醒](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace)），以確保您取得預期的資料，且資料正確無誤。 如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
+* 建立控制面板，檢視量度和變數的每月趨勢 (或為每個量度和變數設定[智慧型提醒](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace))，以確保獲得的資料符合預期，而且資料正確無誤。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，監控量度和變數的主要趨勢。
 
 避免實作牽涉太多不需要的量度和變數。停用業務不再需要或使用的量度或變數。建議您刪除這些項目或之後再重新利用。
