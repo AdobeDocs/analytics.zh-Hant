@@ -2,9 +2,9 @@
 description: 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 管理資料來源
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
 ht-degree: 100%
 
