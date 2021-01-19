@@ -3,7 +3,7 @@ description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作�
 title: Adobe Analytics 和 CCPA
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
 workflow-type: ht
 source-wordcount: '641'
 ht-degree: 100%
@@ -37,7 +37,7 @@ Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資�
 
 Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定義資料控管設定和偏好設定。為此，Adobe Analytics 提供資料控管使用者介面，可讓您以資料控管者的身分，在 Analytics 報表套裝上設定[隱私標籤](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)，並在這些報表套裝中設定所有維度和量度。您可以識別資料集中包含直接可識別資料或間接可識別資料的欄，以便您提交存取和刪除請求以處理該資料。對於每個請求，系統會針對對應至該請求的特定識別碼，接受在 Analytics 資料控管使用者介面中定義的標籤。
 
-請參閱[標籤報表套裝資料](/help//admin/c-data-governance/gdpr-setup-reportsuite.md)，以瞭解如何設定標籤的詳細資訊。
+請參閱[標籤報表套裝資料](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)，以瞭解如何設定標籤的詳細資訊。
 
 ## 必備條件
 
