@@ -3,7 +3,7 @@ description: 同步視覺效果可讓您控制哪些資料表或資料來源會�
 keywords: Analysis Workspace;Synchronize visualization with data source
 title: 管理資料來源
 translation-type: tm+mt
-source-git-commit: 519cb7e83e5f49ecacc9c4bd0c12bc59088c662c
+source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 管理資料來源可讓您顯示資料來源或鎖定選取項目。這些設定會決定當新資料進入時視覺效果的變更方式 (或不變更)。
 
-1. [建立專案](//help/analyze/analysis-workspace/home.md)，內含資料表和[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+1. [建立專案](/help/analyze/analysis-workspace/home.md)，內含資料表和[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 1. 在資料表中，選取您想關聯至視覺效果的儲存格 (資料來源)。
 1. 在視覺效果中，按一下標題旁的點可開啟&#x200B;**[!UICONTROL 「資料來源」]**&#x200B;對話方塊。選取&#x200B;**[!UICONTROL 「顯示資料來源」]**&#x200B;或&#x200B;**[!UICONTROL 「鎖定選取項目」]**。
 
