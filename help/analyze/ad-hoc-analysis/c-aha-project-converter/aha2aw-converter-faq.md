@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 臨機分析至分析工作區專案轉換程式常見問答集
 title: 專案轉換工具常見問題集
 uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
 translation-type: tm+mt
-source-git-commit: 6a964f9ed9dcba6e4bf9eab8868ed325bc5e3560
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 93%
+source-wordcount: '941'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
+>Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
 
 ## 專案轉換工具常見問題集 {#topic_8231595303AD403E9322645A63632D57}
 
@@ -81,7 +81,7 @@ ht-degree: 93%
    <td colname="col1"> <p><b>問：如何轉換日期範圍？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_A24AB597F3CE4847AF00D49A9A72A395"> 
-     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的「最近 X 天」日期範圍會<i>排除</i>今天， 而 Analysis Workspace 會<i>包含</i>今天。因此，「過去90天」等日期範圍可能不會完全符合工具之間。 請改為在「分析工作區」 <b>中套 </b> 用「最近X整天」範圍。 </li> 
+     <li id="li_24FD18AF64114445939C4FBC03F2D406">Ad Hoc Analysis 中的「最近 X 天」日期範圍會<i>排除</i>今天， 而 Analysis Workspace 會<i>包含</i>今天。因此，「過去90天」等日期範圍可能不會完全符合工具之間。 請改為在「分析工作區」中套用「最後X <b>完整</b>天數」範圍。 </li> 
      <li id="li_AA4390470C494748B4B12030B1226720">Ad Hoc Analysis 工作區層級的日期範圍會套用在工作區中的專案/工作區層級。 </li> 
      <li id="li_B8F0CDD413154856A315D087FEC4D418">Ad Hoc Analysis 報表層級的日期範圍會套用在工作區中的表格欄層級。 </li> 
     </ul> <p>您可以在<span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">元件</span> &gt; <span class="uicontrol">日期範圍」</span>下編輯自訂日期範圍。 </p> </td> 
