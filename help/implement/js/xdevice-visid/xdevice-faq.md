@@ -1,11 +1,11 @@
 ---
 title: 跨裝置訪客身分識別常見問題集
 description: 跨裝置訪客身分識別的常見問題
-translation-type: ht
-source-git-commit: ebf149df7974f9f2889b6fe938088eda90c84051
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 跨裝置訪客身分識別使用 `visitorID` 變數將裝置繫結在一起，但有幾項主要限制。此識別方法的最大限制之一，就是除非已識別裝置，否則會隔離未驗證的點擊。這些未驗證的點擊可能會誇大您的不重複訪客計數。
 
-跨裝置分析是 Adobe 最新的跨裝置訪客身分識別方法。它使用 Experience Cloud ID Service和裝置圖表，以回溯方式將不同裝置的造訪拼接在一起。CDA 需要使用 `setCustomerIDs` 函數來判斷同一訪客使用的裝置。
+跨裝置分析是Adobe最新的跨裝置訪客識別方法。 它使用 Experience Cloud ID Service和裝置圖表，以回溯方式將不同裝置的造訪拼接在一起。CDA 需要使用 `setCustomerIDs` 函數來判斷同一訪客使用的裝置。
 
 **跨裝置訪客身分識別如何處理區段？**
 
