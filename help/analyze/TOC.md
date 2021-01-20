@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
-translation-type: ht
-source-git-commit: 5b130de23d7826a266f34ed1830540c8c0865560
-workflow-type: ht
-source-wordcount: '1099'
+translation-type: tm+mt
+source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+workflow-type: tm+mt
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -135,6 +135,7 @@ ht-degree: 100%
       + [安裝 Report Builder](report-builder/setup/t-install-arb.md)
       + [升級 Report Builder](report-builder/setup/upgrade-arb.md)
       + [登入 Report Builder](report-builder/setup/login.md)
+      + [登入 Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [解除安裝 Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [從 Microsoft Excel 函數叫用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具列](report-builder/reportbuilder-toolbar.md)
