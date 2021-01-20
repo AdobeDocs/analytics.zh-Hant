@@ -1,12 +1,11 @@
 ---
-description: 'null'
+description: 如何在分析工作區中檢視轉換的專案
 title: 在 Analysis Workspace 中檢視轉換的專案
-uuid: 5f8b6d0a-1a2c-42da-b51d-ecb355f470af
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 88%
+source-wordcount: '107'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
+>Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
 
 在工作區中檢視專案之前，請參閱[常見問題集](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)，並檢閱 Ad Hoc Analysis 與工作區之間的[術語差異](/help/analyze/ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md#topic_8231595303AD403E9322645A63632D57)。
 
