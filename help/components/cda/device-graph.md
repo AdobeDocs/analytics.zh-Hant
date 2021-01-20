@@ -2,17 +2,17 @@
 title: 裝置圖表
 description: 了解使用裝置圖表彙整資料的必要條件和限制。
 translation-type: tm+mt
-source-git-commit: 954927359420cfdb3d0e908758fc36464e15fee5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 
 # 裝置圖表
 
-跨裝置分析提供將資料彙整在一起的兩種不同方法。此方法使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表將資料彙整在一起。CDA 會定期與裝置圖表通訊，以將裝置連結在一起。
+跨裝置分析提供兩種不同的方法，將資料結合在一起。 此方法使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表將資料彙整在一起。CDA 會定期與裝置圖表通訊，以將裝置連結在一起。
 
 ## 合用圖表與專用圖表的差異
 
