@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 中的全域報表套裝
 description: 瞭解使用全域報表套裝的優點和需求。
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Adobe 建議您在多數情況下都實施全域報表套裝。
 
 * **匯整資料：**&#x200B;全域報表套裝可讓您查看自家網站中的 KPI 和成功事件。區段和虛擬報表套裝可用來檢視網站特定資料。
-* **支援跨裝置分析：** CDA 需要採用從多個位置 (例如您的網站和行動應用程式) 收集資料的報表套裝。只要實施正確，個別裝置的資料就能串連起來。如需詳細資訊，請參閱元件使用指南中的[跨裝置分析](../../components/cda/overview.md)。
+* **跨裝置分析支援：** CDA需要從多個位置收集資料的報表套裝，例如您的網站和行動應用程式。只要實施正確，個別裝置的資料就能串連起來。如需詳細資訊，請參閱元件使用指南中的[跨裝置分析](../../components/cda/overview.md)。
 * **不需要多個報表套裝：**&#x200B;所有資料都可在單一報表套裝中收集，因此得以降低開發人員誤將資料傳送至錯誤報表套裝的機率。
 * **無需統計：**&#x200B;統計是推出相當久的功能，每日都會彙總個別報表套裝的資料。統計功能不會去除重複的造訪或訪客資料，因此可能導致數據膨脹。如需詳細資訊 ，請參閱管理員使用指南中的[統計](../../admin/c-manage-report-suites/rollup-report-suite.md)。
 * **節省時間:** 工作區專案、分類、區段和計算量度都與相同的全域報表套裝連結。管理員管理這些元件和資料控管的時間得以減少。
