@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 顯示如何為點擊資料、存取請求、刪除請求加上標籤的範例
 title: 標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '802'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '815'
+ht-degree: 98%
 
 ---
 
@@ -23,14 +23,14 @@ ht-degree: 100%
 
 | 標籤 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**<br> **(xyz)** |
+| **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 點擊資料 | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
+|  | 瑪麗 | 88 | B | N | Y |
+|  | 瑪麗 | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
+|  | 約翰 | 88 | E | N | U |
+|  | 約翰 | 44 | F | Q | V |
+|  | 約翰 | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 範例存取請求
@@ -42,10 +42,10 @@ ht-degree: 100%
 | **命名空間/ID** | **expandIDs** |  | **MyProp1** | **訪客 ID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | AAID=77 | false | 裝置 | 變數不存在 | 77 | 變數不存在 | M、P | X、W |
 | AAID=77 | true | 裝置 | 變數不存在 | 77 | 變數不存在 | M、P | X、W |
-| user=Mary | false | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
-| user=Mary | true | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=Mary | false | 人員 | 瑪麗 | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=Mary | true | 人員 | 瑪麗 | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
 | user=Mary | true | 裝置 | 不存在 | 77、88 | 不存在 | N、P | U、W |
-| user=MaryAAID=66 | true | 人員 | Mary | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
+| user=MaryAAID=66 | true | 人員 | 瑪麗 | 77、88、99 | A、B、C | M、N、O | X、Y、Z |
 | user=MaryAAID=66 | true | 裝置 | 不存在 | 66、77、88 | 不存在 | N、P | U、W、Z |
 | xyz=X | false | 裝置 | 不存在 | 55、77 | 不存在 | M、R | X |
 | xyz=X | true | 裝置 | 不存在 | 55、77 | 不存在 | M、P、R | W、X |
@@ -59,14 +59,14 @@ ht-degree: 100%
 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 | AAID=77 expandIDs 值<br>不重要 |
 |---|---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
-| Mary | 42 | A | Privacy-7398 | Privacy-9152 |
-| Mary | 88 | B | N | Y |
-| Mary | 99 | C | O | Z |
-| John | 42 | D | Privacy-1866 | Privacy-8216 |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| 瑪麗 | 42 | A | Privacy-7398 | Privacy-9152 |
+| 瑪麗 | 88 | B | N | Y |
+| 瑪麗 | 99 | C | O | Z |
+| 約翰 | 42 | D | Privacy-1866 | Privacy-8216 |
+| 約翰 | 88 | E | N | U |
+| 約翰 | 44 | F | Q | V |
+| 約翰 | 55 | G | R | X |
+| 愛麗絲 | 66 | A | N | W |
 
 >[!NOTE]
 >
@@ -76,13 +76,13 @@ ht-degree: 100%
 |--- |---|---|---|---|
 | **MyProp1** | **AAID** | **MyEvar1** | **MyEvar2** | **MyEvar3** |
 | Privacy-0523 | 77 | Privacy-1866 | Privacy-3681 | X |
-| Privacy-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
-| Privacy-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
-| John | 77 | D | P | W |
-| John | 88 | E | N | U |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| 隱私權-0523 | 88 | Privacy-2178 | Privacy-1975 | Y |
+| 隱私權-0523 | 99 | Privacy-9045 | Privacy-2864 | Z |
+| 約翰 | 77 | D | P | W |
+| 約翰 | 88 | E | N | U |
+| 約翰 | 44 | F | Q | V |
+| 約翰 | 55 | G | R | X |
+| 愛麗絲 | 66 | A | N | W |
 
 >[!NOTE]
 >
@@ -94,11 +94,11 @@ ht-degree: 100%
 | Privacy-5782 | 09 | Privacy-0859 | Privacy-8183 | Privacy-9152 |
 | Privacy-5782 | 16 | Privacy-6104 | Privacy-2911 | Privacy-6821 |
 | Privacy-5782 | 83 | Privacy-2714 | Privacy-0219 | Privacy-4395 |
-| John | 09 | D | Privacy-8454 | Privacy-8216 |
-| John | 16 | E | Privacy-2911 | Privacy-2930 |
-| John | 44 | F | Q | V |
-| John | 55 | G | R | X |
-| Alice | 66 | A | N | W |
+| 約翰 | 09 | D | Privacy-8454 | Privacy-8216 |
+| 約翰 | 16 | E | Privacy-2911 | Privacy-2930 |
+| 約翰 | 44 | F | Q | V |
+| 約翰 | 55 | G | R | X |
+| 愛麗絲 | 66 | A | N | W |
 
 請注意下列事項：
 
