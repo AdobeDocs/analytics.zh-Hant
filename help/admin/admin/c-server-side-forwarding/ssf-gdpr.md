@@ -1,20 +1,23 @@
 ---
-description: 'null'
+description: 說明EU Cookie合規性法規提示的伺服器端轉送增強功能。
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 91%
 
 ---
 
 
 # GDPR/ePrivacy 法規遵循與伺服器端轉送
 
-本節內容說明，根據[歐盟 Cookie 法規規範](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm) (已於 2017 年 9 月 30 日生效) 近期內推動之伺服器端轉送的增強功能。
+本節說明由於[EU Cookie相容性規則](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)（於2017年9月30日生效）所提示的伺服器端轉送增強功能。
 
 伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
 
-直到最近，伺服器端轉送仍無法在同意與預先同意的事件/點擊間描述。自 2018 年 11 月 1 日起，您做為資料控管單位 (Adobe Analytics 客戶)，可選擇將預先同意的資料限制在 Adobe Analytics，並防止其轉送至 AAM。如此一來，實作環境變數有別於以往，可讓您標記未獲許可的點擊。設定變數時，可防止這些點擊在收到許可前傳送至 AAM。
+以前，伺服器端轉送無法區分同意與預先同意事件／點擊。 自 2018 年 11 月 1 日起，您做為資料控管單位 (Adobe Analytics 客戶)，可選擇將預先同意的資料限制在 Adobe Analytics，並防止其轉送至 AAM。如此一來，實施環境變數有別於以往，可讓您標記未獲許可的點擊。設定變數時，可防止這些點擊在收到許可前傳送至 AAM。
 
 這個新的上下文變數「`cm.ssf=1`」存在於點擊時，系統會標記該點擊，且不會將其從伺服器端轉送至 AAM。反之，若此字串並未出現在點擊，系統會將該點擊轉送至 AAM。
 
