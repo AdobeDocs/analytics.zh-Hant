@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 如何在Adobe Analytics中檢視目前伺服器呼叫的使用情形。
 title: 檢視目前伺服器呼叫使用量
 uuid: 1a42a45f-4bbc-4b5a-9706-c8937265de2b
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 ![](assets/server_call_dashboard.png)
 
 | 使用者介面術語 | 定義 |
-|---|---|
+| --- | --- |
 | 目前期間使用量 (綠色) | 目前期間是以[使用期間](/help/admin/c-server-call-usage/overage-overview.md)為基礎。 |
 | 先前期間使用情形 (藍色) | 先前期間定義為目前使用期間減去 1 年。 |
 | 使用量限制 (紅色) | 此使用期間的合約使用量限制。 |
