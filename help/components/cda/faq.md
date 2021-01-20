@@ -2,10 +2,10 @@
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +61,7 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 
 ## CDA 內的「人物」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
-[「人物」](/help/components/metrics/people.md)量度類似[「不重複訪客」](/help/components/metrics/unique-visitors.md)量度，因為它會回報不重複個人的數量。不過，在使用跨裝置分析時，當不重複訪客在其他情況下，被記錄為 CDA 外的兩個個別不重複訪客時，這些不重複訪客將被合併。啟用跨裝置分析時，「人物」量度會取代「不重複訪客」量度。
+[「人物」](/help/components/metrics/people.md)量度類似[「不重複訪客」](/help/components/metrics/unique-visitors.md)量度，因為它會回報不重複個人的數量。不過，在使用跨裝置分析時，當不重複訪客在其他情況下，被記錄為 CDA 外的兩個個別不重複訪客時，這些不重複訪客將被合併。啟用跨裝置分析時，「人員」量度會取代「獨特訪客」量度。 有新的量度[獨特裝置](/help/components/metrics/unique-devices.md)，大約等於跨裝置分析以外的獨特訪客。
 
 ## CDA 內的「不重複裝置」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
