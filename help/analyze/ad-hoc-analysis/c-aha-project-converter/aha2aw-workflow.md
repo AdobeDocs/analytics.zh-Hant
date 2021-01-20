@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 臨機分析專案轉換程式工作流程
 title: 在 Ad Hoc Analysis 中轉換專案
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
 translation-type: tm+mt
-source-git-commit: 5d96a2868bee48e2294ec2fb27e0340a3bcc50ae
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 94%
+source-wordcount: '300'
+ht-degree: 97%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
+>Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
 
-## 轉換您的專案 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## 轉換您的專案{#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 轉換專案之前，請注意下列事項：
 
