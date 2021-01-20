@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 設定套用至您組織管理之所有報表套裝的設定的「概述」頁面。
 title: 公司設定概觀
 uuid: 175de01f-02ae-44e2-ae94-fa49733e2703
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+workflow-type: tm+mt
+source-wordcount: '61'
+ht-degree: 75%
 
 ---
 
