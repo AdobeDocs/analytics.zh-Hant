@@ -1,13 +1,13 @@
 ---
-description: 'null'
+description: AppMeasurement程式庫與Activity Map模組結合的範例
 title: 實作代碼範例
 topic: Activity map
 uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '30'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+workflow-type: tm+mt
+source-wordcount: '42'
+ht-degree: 69%
 
 ---
 
