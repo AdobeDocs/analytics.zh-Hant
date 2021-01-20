@@ -1,16 +1,17 @@
 ---
-description: 'null'
-title: 受移轉影響的 API
+description: 列出受使用者移轉影響的API
+title: 受使用者移轉影響的API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 92%
 
 ---
 
 
-# 受移轉影響的 API{#apis-affected-by-the-migration}
-
-## 受移轉影響的 API {#topic-8d34296a67d74b1081c3f7e8f650f3ce}
+# 受使用者移轉影響的API{#apis-affected-by-the-migration}
 
 Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.omniture.com] 登入，改成透過 Adobe Experience Cloud 驗證。一旦開始移轉作業，原本的 Analytics 專用權限，以及 Analytics Admin API 1.3 和 1.4 等版本所提供的 `GetLoginKey` 方法都將停用，屆時系統將不支援以這些方法建立及管理程式使用者。Experience Cloud 中的所有此類動作，現在都將透過 [!DNL adobe.io] 啟用。
 
