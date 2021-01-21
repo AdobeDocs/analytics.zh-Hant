@@ -1,17 +1,16 @@
 ---
-description: 'null'
-title: 調色盤
-uuid: 18252889-8dc0-48fa-820f-df534156c22f
+description: 如何在分析工作區中使用視覺化色盤
+title: 什麼是視覺化色盤，以及它們的運作方式？
 translation-type: tm+mt
-source-git-commit: f0bb68488bbd987203a1abf0f4fbc0fdb3d4824e
+source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 100%
+source-wordcount: '214'
+ht-degree: 89%
 
 ---
 
 
-# 視覺效果調色盤
+# 視覺化顏色浮動視窗
 
 您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能會影響工作區大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
 
