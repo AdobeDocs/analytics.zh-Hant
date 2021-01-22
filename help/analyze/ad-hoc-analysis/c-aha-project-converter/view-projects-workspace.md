@@ -1,11 +1,11 @@
 ---
-description: 如何在分析工作區中檢視轉換的專案
+description: 如何在 Analysis Workspace 中檢視轉換的專案
 title: 在 Analysis Workspace 中檢視轉換的專案
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '107'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
