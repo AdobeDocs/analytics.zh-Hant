@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics中管理工具的索引。
+description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '159'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
