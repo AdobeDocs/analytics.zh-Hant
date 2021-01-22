@@ -1,12 +1,12 @@
 ---
-description: 臨機分析專案轉換程式工作流程
+description: Ad Hoc Analysis 專案轉換器工作流程
 title: 在 Ad Hoc Analysis 中轉換專案
 uuid: 20bd9974-209e-457c-9e52-d50f90078af6
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 >
 >Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
 
-## 轉換您的專案{#topic_5A55F73488704C5D8E42CDD04B5984DE}
+## 轉換您的專案 {#topic_5A55F73488704C5D8E42CDD04B5984DE}
 
 轉換專案之前，請注意下列事項：
 
@@ -50,6 +50,6 @@ ht-degree: 97%
 ### 轉換目前的專案
 
 1. 在 Ad Hoc Analysis 中，開啟您要轉換的專案。
-1. 按一下&#x200B;**[!UICONTROL 「將目前的專案轉換至 Analysis Workspace」]**。 ![](assets/export_current.png)
+1. 按一下&#x200B;**[!UICONTROL 「將目前的專案轉換至 Analysis Workspace」]**。![](assets/export_current.png)
 
 1. 現在[!UICONTROL 「轉換摘要」]會列出所有已轉換的專案，與表示轉換「成功」或「失敗」的狀態欄，以及顯示錯誤代碼。聯絡 Adobe Client Care，進一步診斷「`Error-Id: <Error-Code>`」。
