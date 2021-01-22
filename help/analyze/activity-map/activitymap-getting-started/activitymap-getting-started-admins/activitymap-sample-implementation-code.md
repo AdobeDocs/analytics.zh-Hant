@@ -1,13 +1,12 @@
 ---
-description: AppMeasurement 程式庫和 Activity Map 模組結合示範
-title: 實作代碼範例
+description: AppMeasurement程式庫和Activity Map模組如何結合至Adobe Analytics實作程式碼的範例
+title: 檢視Activity Map實作程式碼範例
 topic: Activity map
-uuid: 73879252-5ce1-42a5-ad0e-dcee73244b28
-translation-type: ht
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: ht
-source-wordcount: '42'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+workflow-type: tm+mt
+source-wordcount: '51'
+ht-degree: 50%
 
 ---
 
