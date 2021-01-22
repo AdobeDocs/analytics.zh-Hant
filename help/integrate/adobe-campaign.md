@@ -1,12 +1,11 @@
 ---
-description: 'null'
-title: Adobe Campaign 報表
-uuid: 0919ae9f-84eb-43a5-8282-6cd6dec63dc1
+description: 瞭解如何在Adobe Analytics中啟用Adobe Campaign報表
+title: 如何將Adobe Campaign Reporting整合至Adobe Analytics?
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 95%
 
 ---
 
@@ -38,20 +37,9 @@ Adobe Analytics 與 Adobe Campaign 之間的整合
 
 Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**&#x200B;下新增報表
 
-<table id="table_3627F40DC90646A7B5E217A88B6FD630"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 報表 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Adobe Campaign 執行的傳送 ID </p> </td> 
-   <td colname="col2"> <p>顯示從 Adobe Campaign 匯入之由 Adobe Campaign 傳送的電子郵件的相關資料。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 報表 | 定義 |
+|--- |--- |
+| Adobe Campaign 執行的傳送 ID | 顯示從 Adobe Campaign 匯入之由 Adobe Campaign 傳送的電子郵件的相關資料。 |
 
 ## 步驟 3.使用 Adobe Campaign 分類 {#section_74A28AF3F4CA4091943789DE4D8B2B63}
 
