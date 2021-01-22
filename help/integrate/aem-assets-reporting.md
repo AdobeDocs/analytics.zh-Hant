@@ -1,13 +1,11 @@
 ---
 description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
-title: AEM Assets 報表
-topic: Reports
-uuid: 242f5ea0-146c-4edb-928e-35b4c084934d
+title: 如何在Adobe Analytics中報告AEM資產
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 92%
 
 ---
 
