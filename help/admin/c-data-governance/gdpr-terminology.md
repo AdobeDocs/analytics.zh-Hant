@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics的資料治理辭彙表
+description: Adobe Analytics 的資料控管辭彙表
 title: GDPR 術語
 uuid: a3e44f08-6f9c-4b23-874c-51c6e4be9af9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
