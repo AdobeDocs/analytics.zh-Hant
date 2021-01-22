@@ -1,12 +1,12 @@
 ---
-description: 瞭解Analytics資料中擷取的ID，並決定您要用於「資料隱私權」要求。
+description: 了解在 Analytics 資料中擷取的 ID，並決定您要用於資料隱私權請求的 ID。
 title: 標籤最佳作法
 uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2706'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 99%
 * 部分 ID 可能對應到多個人，而您不希望不小心將同個 ID 的其他使用者的資訊傳回。例如：即使您確認某人的姓名就是約翰史密斯，但您並不打算將系統中姓名同為約翰史密斯的所有使用者資料一併傳回。
 * 另一個例子是裝置 ID，例如：Analytics Cookie ID。手機應用程式中產生 ID 時，您也許會將使用該 ID 進行的所有互動判斷為來自這支手機的擁有者。但如果是發生在共用裝置 (如家用電腦、圖書館或網咖的電腦) 時，您可能就無法區分該裝置的使用者，而傳回不同使用者資料的風險太大，因此您不能允許使用這類 ID。
 
-## 適用於 Analytics 支援 ID 的最佳實務 {#section_B6481505FF1949498D4B4B35B780D050}
+## 適用於 Analytics 支援 ID 的最佳實務{#section_B6481505FF1949498D4B4B35B780D050}
 
 請使用下表來判斷將資料隱私權請求提交給 Analytics 時，要使用的 ID 類型。瞭解此資訊能讓您輕鬆地判斷變數應使用的其他標籤。
 
