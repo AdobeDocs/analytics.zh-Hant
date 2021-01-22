@@ -1,12 +1,11 @@
 ---
-description: Ad Hoc Analysis 轉 Analysis Workspace 專案轉換工具常見問題集
-title: 專案轉換工具常見問題集
-uuid: 8e1bf0e9-ce0f-443a-bcfe-45d3e2c82b1c
-translation-type: ht
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
-workflow-type: ht
-source-wordcount: '941'
-ht-degree: 100%
+description: 關於臨機分析至分析工作區專案轉換程式的常見問題
+title: 臨機分析至分析工作區專案轉換器的常見問題
+translation-type: tm+mt
+source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
+workflow-type: tm+mt
+source-wordcount: '951'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
 ## 已知的轉換問題 {#section_39C922A58B2E49C9877B363042801361}
 
 | 問題 | 說明 |
-|--- |--- |
+| --- | --- |
 | 提供劃分或以欄顯示的分鐘詳細程度 | 當分鐘詳細程度已套用劃分，或如果分鐘詳細程度以欄顯示，則專案無法轉換為 Analysis Workspace。因應措施是移除分鐘詳細程度的劃分，並從欄中移除劃分，然後轉換專案。然後，您可以在 Analysis Workspace 中將劃分套用在分鐘詳細程度。 |
 | 與欄區段一起使用的內部計算量度 | 如果您使用內部計算量度與欄區段，則專案無法轉換至 Analysis Workspace。若要解決此問題，請在轉換前先從專案移除內部計算量度，然後在 Analysis Workspace 中重新新增這些量度。 |
 
