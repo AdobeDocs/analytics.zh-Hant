@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics資料治理常見問答集
+description: Adobe Analytics 資料控管常見問題集
 title: 常見問題集
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
