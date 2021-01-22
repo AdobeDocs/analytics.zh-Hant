@@ -1,12 +1,12 @@
 ---
-description: Adobe Analytics伺服器呼叫使用功能概觀。
+description: Adobe Analytics 伺服器呼叫使用量功能概觀。
 title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1045'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
