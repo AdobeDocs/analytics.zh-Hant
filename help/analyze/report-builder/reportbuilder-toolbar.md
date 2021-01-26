@@ -4,10 +4,10 @@ title: Report Builder 工具列
 topic: Report builder
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 translation-type: tm+mt
-source-git-commit: 67108d1d51a75ae6f015b8808254cd88b6308fbf
+source-git-commit: 846a6a2d08f2f0a97ed44d724d16c852f5d8088c
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 96%
+source-wordcount: '301'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 ![](assets/report_builder_toolbar.png)
 
-**登入：**&#x200B;顯示[!UICONTROL 「登入」]表單，以使用您的憑證登入，或以其他使用者的身分登入。同時在登入後部署您的公司名稱。請參閱[登入報告建立工具](/help/analyze/report-builder/setup/t-loggin-in-to-reportbuilder.md)。
+**登入：顯** 示「登  入資訊」，以便您使用認證或以其他使用者身分登入。同時在登入後部署您的公司名稱。請參閱 [登入 Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **建立：**&#x200B;啟動[!UICONTROL 「請求精靈」]。如果您尚未登入，系統會提示您登入。請參閱[資料請求](/help/analyze/report-builder/data-requests/data-requests.md)。
 
