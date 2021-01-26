@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
 translation-type: tm+mt
-source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
+source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1099'
 ht-degree: 100%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 100%
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [分頁、篩選及分類表格](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [Analysis Workspace 總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -96,7 +96,7 @@ ht-degree: 100%
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
-      + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
+      + [為專案排程](analysis-workspace/curate-share/t-schedule-report.md)
    + 歸因 IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
@@ -135,7 +135,6 @@ ht-degree: 100%
       + [安裝 Report Builder](report-builder/setup/t-install-arb.md)
       + [升級 Report Builder](report-builder/setup/upgrade-arb.md)
       + [登入 Report Builder](report-builder/setup/login.md)
-      + [登入 Report Builder](report-builder/setup/t-loggin-in-to-reportbuilder.md)
       + [解除安裝 Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [從 Microsoft Excel 函數叫用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具列](report-builder/reportbuilder-toolbar.md)
