@@ -5,10 +5,10 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: a7f1da79bd5a6f78ed1a706ccae01b03a2f5665c
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 94%
+source-wordcount: '483'
+ht-degree: 95%
 
 ---
 
@@ -34,10 +34,8 @@ ht-degree: 94%
       + [linkExternalFilters](vars/config-vars/linkexternalfilters.md)
       + [linkInternalFilters](vars/config-vars/linkinternalfilters.md)
       + [linkLeaveQueryString](vars/config-vars/linkleavequerystring.md)
-      + [linkName](vars/config-vars/linkname.md)
       + [linkTrackEvents](vars/config-vars/linktrackevents.md)
       + [linkTrackVars](vars/config-vars/linktrackvars.md)
-      + [linkType](vars/config-vars/linktype.md)
       + [linkURL](vars/config-vars/linkurl.md)
       + [offlineHitLimit](vars/config-vars/offlinehitlimit.md)
       + [offlineThrottleDelay](vars/config-vars/offlinethrottledelay.md)
@@ -204,7 +202,7 @@ ht-degree: 94%
    + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
 + 檢視您的實作{#review}
-   + [重點審查（在每次發佈網站後）](review/focused-review.md)
+   + [重點審視 (每次網站發佈後)](review/focused-review.md)
    + [完整審查（每6個月）](review/full-review.md)
    + [定義您的前5大KPI](review/define-kpis.md)
 + 透過 Analytics 使用 XDM 資料 {#aep-edge}
