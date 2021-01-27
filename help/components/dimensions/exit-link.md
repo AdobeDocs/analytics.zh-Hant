@@ -1,11 +1,11 @@
 ---
 title: 退出連結
 description: 退出連結的名稱。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 80%
 
 ---
 
@@ -18,11 +18,7 @@ ht-degree: 100%
 
 此維度會針對同時具有 `pe` 查詢字串且字串值為 `lnk_e` 的點擊，從影像要求中的 [`pev2` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。如果 `pe` 查詢字串在點擊中有不同的值，則此維度不會收集資料。
 
-如果您想要使用 AppMeasurement 將資料傳送至此維度：
-
-* 將所需 [`linkName`](/help/implement/vars/config-vars/linkname.md) 的值填入變數中。
-* 將 [`linkType`](/help/implement/vars/config-vars/linktype.md) 變數設為 `"e"`。
-* 傳送 [`tl()`](/help/implement/vars/functions/tl-method.md) 影像要求。
+如果您想使用AppMeasurement將資料傳送至此維度，請傳送連結類型引數為`"e"`的[`tl()`](/help/implement/vars/functions/tl-method.md)影像要求。 將所需值填入連結名稱引數。
 
 ## 維度項目
 
