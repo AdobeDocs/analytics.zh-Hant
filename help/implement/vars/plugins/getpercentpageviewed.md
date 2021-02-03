@@ -1,10 +1,10 @@
 ---
 title: getPercentPageViewed
 description: 擷取訪客所檢視的頁面比例。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '798'
+translation-type: tm+mt
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+workflow-type: tm+mt
+source-wordcount: '781'
 ht-degree: 100%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 100%
 `getPercentPageViewed` 外掛程式可測量訪客的捲動活動，以查看訪客在前往其他頁面前所檢視的頁面比例。如果您的頁面高度較小或不想測量捲動活動，就不需要此外掛程式。
 
 ## 使用 Launch 自訂程式碼編輯器安裝外掛程式
-
-如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 1. 按一下所需的屬性。
