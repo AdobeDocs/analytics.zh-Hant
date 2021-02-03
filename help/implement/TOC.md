@@ -5,10 +5,10 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
+source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 95%
+source-wordcount: '484'
+ht-degree: 94%
 
 ---
 
@@ -118,10 +118,11 @@ ht-degree: 95%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [Numbers Suite](vars/plugins/numberssuite.md)
+      + [數字套裝](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
+      + [websiteBot](vars/plugins/websitebot.md)
    + [整合模組](vars/integrate.md)
 + 準備實施 Analytics {#prepare}
    + [建立資料層](prepare/data-layer.md)
