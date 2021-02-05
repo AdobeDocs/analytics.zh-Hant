@@ -1,23 +1,29 @@
 ---
-description: 說明如何建立報表套裝以及將報表套裝設定複製到新報表套裝的步驟。
+description: 在Adobe Analytics中建立資料收集的基本容器
 title: 建立報表套裝
 topic: Admin tools
-uuid: fada5b10-f574-4c3f-8704-679c9992fc88
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 87%
+source-wordcount: '375'
+ht-degree: 75%
 
 ---
 
 
 # 建立報表套裝
 
-說明如何建立報表套裝以及將報表套裝設定複製到新報表套裝的步驟。
+報表套裝是 Adobe Analytics 用來提取報表的獨立資料單位。組織可以有許多報表套裝，每個報表套裝都包含不同的資料集。雖然過去使用者較重視個別產生報表，但如今使用單一報表套裝已變得更具優勢了。[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和報表時間處理功能可讓管理員建立您自己的資料子集，讓管理員可靈活取得全域和網站特定資料。
+
+本文的對象為系統層級管理員或 Analytics 管理員，目的在方便這些人員開始資料收集。
+
+## 必備條件
+
+[Adobe Analytics第一份管理指南](/help/admin/admin-console/first-admin-guide.md):請確定系統層級管理員已授與您透過Experience Cloud管理控制台存取Adobe Analytics的權限。
+
+## 建立報表套裝 {#create-report-suite}
 
 1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
-1. 選取報表套裝。
 1. 按一下&#x200B;**[!UICONTROL 「新增]** > **[!UICONTROL 報表套裝」]**。
 1. 若要複製報表套裝設定，請在範本清單中選取預先定義的範本，或將現有報表套裝當作[範本](/help/admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)使用。
 
@@ -29,3 +35,17 @@ ht-degree: 87%
 1. 按一下&#x200B;**[!UICONTROL 「建立報表套裝」]**。
 
 報表套裝ID的長度上限為40位元組。 報表套裝友好名稱的長度上限為255位元組。
+
+## 疑難排解
+
+**登入 Experience Cloud 後，Analytics 圖示會變灰。**
+
+這表示您的帳戶尚未取得 Analytics 的正確權限。請與您組織的系統層級管理員合作，確保您所屬的設定檔具備存取 Adobe Analytics 的足夠權限。
+
+**登入 Adobe Analytics 後，「歡迎使用 Adobe Analytics」快顯視窗和下拉式清單已經消失。**
+
+請確認您是透過 Experience Cloud 登入，而非透過 my.omniture.com 登入。透過 my.omniture.com 登入的使用者無法使用報表套裝設定精靈。
+
+## 後續步驟
+
+[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md)：建立一個管理 Analytics 實施情形的區域
