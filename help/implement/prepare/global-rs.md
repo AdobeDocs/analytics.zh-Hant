@@ -2,7 +2,7 @@
 title: Adobe Analytics 中的全域報表套裝
 description: 瞭解使用全域報表套裝的優點和需求。
 translation-type: tm+mt
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
+source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 96%
@@ -34,7 +34,7 @@ Adobe 建議您在多數情況下都實施全域報表套裝。
 
 請使用下列一般準則來瞭解實施全域報表套裝的程序。
 
-1. 在 Adobe Analytics 中建立全域報表套裝。如需詳細資訊，請參閱管理員使用指南中的[建立報表套裝](../../admin/admin-console/create-report-suite.md)。
+1. 在 Adobe Analytics 中建立全域報表套裝。如需詳細資訊，請參閱管理員使用指南中的[建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)。
 1. 與組織中負責每個網域的團隊合作。多數團隊都有其業務領域特定的報表需求。
 1. 您可以在[解決方案設計文件](solution-design.md)中記錄並彙總所有這些需求。如果不同團隊對某個維度有類似需求，就可使用相同的自訂變數。舉例來說，如果網站 A 和網站 B 都需要階層連結維度，則兩個網站的實施都可透過 eVar1 傳送該項資料。
 
