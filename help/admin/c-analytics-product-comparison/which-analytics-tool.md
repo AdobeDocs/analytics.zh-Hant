@@ -3,10 +3,10 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 translation-type: tm+mt
-source-git-commit: 885c0f379d7b7119ffdd953f55148f0178a15864
+source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1186'
+ht-degree: 93%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->Adobe將臨機分析移至2021年3月1日終止。 [更多詳情](https://adobe.ly/discoverworkspace)
+>Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
 
 * 若希望以標籤來組織專案工作.
 * 使用「網站分析」報表 (3D 路徑報表) 時
@@ -68,13 +68,17 @@ ht-degree: 97%
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
    * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
 
-**[Data Connectors ](https://www.adobeexchange.com/experiencecloud.html)(原稱為 Genesis)** 使用時機：
+該使用「**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)**」的情況:
 
 * 當您與第三方提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。Data Connectors 通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 使用時機：
 
 * 當您必須將資料上傳到 Adobe Analytics，且無法使用 Adobe AppMeasurement 或行動 SDK 程式碼時。
+
+**[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
+
+* 資料插入API和大量資料插入API都是將伺服器端收集資料送出至Adobe Analytics的兩種方法。 「資料插入API」呼叫一次只會發生一個事件。 大量資料插入API接受包含事件資料的CSV格式檔案，每列一個事件。 如果您正在處理伺服器端收集的新實作，建議使用大量資料插入API。
 
 **[「客戶屬性」](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)**&#x200B;使用時機：
 
@@ -86,7 +90,7 @@ ht-degree: 97%
 * 如果您想要納入 Adobe Audience Manager (AAM) 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料或廣告曝光資料時。
 * 如果您想要根據時間上傳 CRM 資料時 (因為此整合會以逐次點擊的方式將新資訊傳送至 Analytics)。
 
-## 從 Adobe Analytics 中匯出資料 {#section_901C06ABF2014E92B2952906723DF235}
+## 從 Adobe Analytics 中匯出資料  {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
