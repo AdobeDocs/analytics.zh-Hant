@@ -1,14 +1,14 @@
 ---
-source-git-commit: 81f351588ef25b0ee0376f471c947391387afb6e
+source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '643'
-ht-degree: 72%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
-# Adobe Analytics 的產品設定檔
+# Adobe Analytics的產品設定檔
 
-產品設定檔是產品管理員可指派給組織內使用者的權限預設集。如果您建立產品設定檔，並將將 Experience Cloud 使用者指派到該產品設定檔，對方會繼承產品設定檔中包含的權限項目。
+產品設定檔是產品管理員可指派給組織內使用者的權限預設集。 如果您建立產品設定檔，並將將 Experience Cloud 使用者指派到該產品設定檔，對方會繼承產品設定檔中包含的權限項目。
 
 如需瞭解產品設定檔的一般資訊 ，請參閱企業使用者指南中的[管理產品和設定檔](https://helpx.adobe.com/tw/enterprise/using/manage-products-and-profiles.html)。
 
@@ -50,7 +50,7 @@ ht-degree: 72%
 
 ### Analytics 工具
 
-Analytics 工具權限項目所授予的權限是不受報表套裝設定影響的功能。如需權限項目完整清單和說明，請參閱 [Analytics 工具](analytics-tools.md)。
+Analytics 工具權限項目所授予的權限是不受報表套裝設定影響的功能。如需權限項目和說明的完整清單，請參閱[Analytics工具的產品設定檔權限](analytics-tools.md)。
 
 ## 產品設定檔開發人員
 
