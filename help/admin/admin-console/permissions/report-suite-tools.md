@@ -1,12 +1,12 @@
 ---
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-translation-type: ht
-source-wordcount: '650'
-ht-degree: 100%
+source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
-# 產品設定檔權限中列出的報表套裝工具
+# 報表套裝工具的產品設定檔權限
 
 請利用本頁瞭解「報表套裝工具」下的每個權限項目。
 
