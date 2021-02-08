@@ -4,11 +4,11 @@ keywords: Analytics Implementation
 title: 歸屬分配和持續性
 topic: Developer and implementation
 uuid: 5dd706be-83f6-498a-a856-e3c5af995348
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->不建議您繼續使用這種跨裝置識別訪客的方法。請參閱「元件」使用指南中的「跨裝置分析」。[](/help/components/cda/overview.md)
+>不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/overview.md)。
 
 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸屬分配並不會變更。
 
