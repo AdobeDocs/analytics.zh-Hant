@@ -1,11 +1,11 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1319'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 
 ## CDA 內的「人物」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
-[「人物」](/help/components/metrics/people.md)量度類似[「不重複訪客」](/help/components/metrics/unique-visitors.md)量度，因為它會回報不重複個人的數量。不過，在使用跨裝置分析時，當不重複訪客在其他情況下，被記錄為 CDA 外的兩個個別不重複訪客時，這些不重複訪客將被合併。啟用跨裝置分析時，「人員」量度會取代「獨特訪客」量度。 有新的量度[獨特裝置](/help/components/metrics/unique-devices.md)，大約等於跨裝置分析以外的獨特訪客。
+[「人物」](/help/components/metrics/people.md)量度類似[「不重複訪客」](/help/components/metrics/unique-visitors.md)量度，因為它會回報不重複個人的數量。不過，在使用跨裝置分析時，當不重複訪客在其他情況下，被記錄為 CDA 外的兩個個別不重複訪客時，這些不重複訪客將被合併。啟用跨裝置分析時，「人物」量度會取代「不重複訪客」量度。可使用[「不重複裝置」](/help/components/metrics/unique-devices.md)新量度，大致上等同於跨裝置分析以外的「不重複訪客」。
 
 ## CDA 內的「不重複裝置」量度，與 CDA 外的「不重複訪客」量度有何不同？
 
@@ -75,11 +75,11 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 2. 按一下所需面板中的除錯圖示，然後選取所需的視覺效果和要求的時間。
 3. 找出可用於向 Adobe 傳送 API 呼叫的 JSON 要求。
 
-## 跨裝置分析能將不重複訪客結合在一起。它能把訪客聯繫在一起嗎？
+## 跨裝置分析能將不重複訪客結合在一起。那它能將造訪結合在一起嗎？
 
 是。如果個人在虛擬報表套裝的造訪逾時 (預設為 30 分鐘) 內，從兩個獨立裝置傳送點擊，便會結合成同次造訪。
 
-## CDA 使用的最終訪客 ID 為何？我可以將它從 Adobe Analytics 匯出嗎?
+## CDA 使用的最終訪客 ID 為何？我可以將它從 Adobe Analytics 匯出嗎？
 
 * **如果使用裝置圖表**，根據叢集的自訂 ID 是主要識別碼。
 * **如果使用依欄位彙整**，根據所選 prop/eVar 的自訂 ID 是主要識別碼。
