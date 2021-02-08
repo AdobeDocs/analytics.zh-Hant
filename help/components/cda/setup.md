@@ -1,11 +1,11 @@
 ---
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 68%
 >
 >執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)及所需的彙整方法 (分別是[依欄位彙整](field-based-stitching.md)或[裝置圖表](device-graph.md))。
 
-## 請連絡您的客戶成功經理，以便在跨裝置報表套裝上布建CDA
+## 請聯絡您的客戶成功案例經理，以便將 CDA 佈建至您的跨裝置報表套裝
 
-CDA是由Adobe工程師在跨裝置報表套裝上布建的。 請連絡您的客戶成功經理，以取得下列資訊：
+Adobe Engineering 會將 CDA 佈建至您的跨裝置報表套裝。請聯絡您的客戶成功案例經理，以便取得下列資訊：
 
-* 您的Adobe Experience Cloud組織ID（以@AdobeOrg結尾的英數字串）
-* 您要透過CDA啟用的跨裝置報表套裝的報表套裝ID
-* 您要使用哪種CDA方法（欄位式拼接、Adobe私用圖或Adobe合作圖）
-* 如果您要使用欄位式拼接，則包含使用者ID的prop或eVar
+* 您的 Adobe Experience Cloud 組織 ID (以 @AdobeOrg 結尾的英數字串)
+* 您要透過 CDA 啟用跨裝置報表套裝的報表套裝 ID
+* 您要使用哪種 CDA 方法 (依欄位彙整、Adobe 專用圖表或 Adobe 合用圖表)
+* 如果使用依欄位彙整，則需使用包含使用者 ID 的 prop/eVar
 
-一旦您提供此資訊給您的CSM，他們就會與Adobe Engineering合作，讓您選擇的報表套裝能夠進行CDA處理。
+向 CSM 提供這項資訊後，他們就會與 Adobe Engineering 合作，讓您選擇的報表套裝進行 CDA 處理。
 
 ## 建立跨裝置虛擬報表套裝以查看跨裝置檢視
 
@@ -50,7 +50,7 @@ CDA是由Adobe工程師在跨裝置報表套裝上布建的。 請連絡您的�
 為虛擬報表套裝啟用跨裝置分析時，請留意下列變更：
 
 * 虛擬報表套裝名稱旁會出現新的跨裝置圖示。此圖示是跨裝置虛擬報表套裝的專屬圖示。
-* 有一個標為[Identified state](../dimensions/identified-state.md)的新維。 此維度會決定裝置圖形是否將即時得知該點擊上的 Experience Cloud ID。
-* 有新的度量標示為[People](../metrics/people.md)和[ Unique Devices](../metrics/unique-devices.md)。
-* 量度[獨特訪客](../metrics/unique-visitors.md)不可用，因為量度已取代為「人員」和「獨特裝置」。
+* 有一個標示為[「識別的狀態」](../dimensions/identified-state.md)的新維度可供使用。此維度會決定裝置圖形是否將即時得知該點擊上的 Experience Cloud ID。
+* 新量度[「人員」](../metrics/people.md)和[「不重複裝置」](../metrics/unique-devices.md)可供使用。
+* [「不重複訪客」](../metrics/unique-visitors.md)量度無法使用，因為它已被「人物」和「不重複裝置」取代。
 * 建立區段時，「訪客」區段容器會被「人員」容器取代。
