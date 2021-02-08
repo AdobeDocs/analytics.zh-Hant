@@ -1,16 +1,16 @@
 ---
-description: 如何在分析工作區中使用視覺化色盤
-title: 什麼是視覺化色盤，以及它們的運作方式？
-translation-type: tm+mt
+description: 如何在 Analysis Workspace 中使用視覺化調色盤
+title: 視覺化調色盤是什麼以及如何運作？
+translation-type: ht
 source-git-commit: ff0608b809b6471fc59097370e9acbf0bb7dc94f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 
-# 視覺化顏色浮動視窗
+# 視覺化調色盤
 
 您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能會影響工作區大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
 
