@@ -1,9 +1,9 @@
 ---
 title: Adobe Analytics 的第一個管理指南
 description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪些，以及如何登入 UI。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
