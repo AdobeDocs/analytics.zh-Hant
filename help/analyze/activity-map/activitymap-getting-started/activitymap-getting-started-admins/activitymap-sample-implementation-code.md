@@ -1,12 +1,12 @@
 ---
-description: AppMeasurement程式庫和Activity Map模組如何結合至Adobe Analytics實作程式碼的範例
-title: 檢視Activity Map實作程式碼範例
+description: 如何在 Adobe Analytics 實作程式碼中合併 AppMeasurement 程式庫和 Activity Map 模組的範例
+title: 檢視 Activity Map 實作程式碼的範例
 topic: Activity map
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '51'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
