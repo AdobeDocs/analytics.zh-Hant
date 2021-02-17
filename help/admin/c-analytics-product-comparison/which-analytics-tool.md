@@ -2,11 +2,11 @@
 description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1186'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 * 用於設定日曆事件。
 * 用於設定目標。
 * 用於檢視 Bot 報告。
-* 存取「視訊日期部分」和「檢視器下拉」的獨特視訊視覺化。
+* 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
 * 用於利用排程報告中的「發佈清單」。
 
 該使用 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** 的情況：
@@ -37,7 +37,7 @@ ht-degree: 93%
 >
 >Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
 
-* 若希望以標籤來組織專案工作.
+* 若希望以標籤來組織專案工作。
 * 使用「網站分析」報表 (3D 路徑報表) 時
 
 該使用 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的情況：
@@ -68,7 +68,7 @@ ht-degree: 93%
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
    * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
 
-該使用「**[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)**」的情況:
+該使用 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** 的情況：
 
 * 當您與第三方提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。Data Connectors 通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
 
@@ -78,7 +78,7 @@ ht-degree: 93%
 
 **[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)**
 
-* 資料插入API和大量資料插入API都是將伺服器端收集資料送出至Adobe Analytics的兩種方法。 「資料插入API」呼叫一次只會發生一個事件。 大量資料插入API接受包含事件資料的CSV格式檔案，每列一個事件。 如果您正在處理伺服器端收集的新實作，建議使用大量資料插入API。
+* 「資料插入 API」和「大量資料插入 API」都是將伺服器端的蒐集資料送至 Adobe Analytics 的方法。每發生一個事件時，「資料插入 API」都會被呼叫。「大量資料插入 API」接受含有事件資料的 CSV 格式檔案 (其中每一行儲存一個事件)。 若您正在實施新的伺服器端蒐集作業，建議採用「大量資料插入 API」。
 
 **[「客戶屬性」](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/customer-attributes/attributes.html)**&#x200B;使用時機：
 
@@ -90,7 +90,7 @@ ht-degree: 93%
 * 如果您想要納入 Adobe Audience Manager (AAM) 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料或廣告曝光資料時。
 * 如果您想要根據時間上傳 CRM 資料時 (因為此整合會以逐次點擊的方式將新資訊傳送至 Analytics)。
 
-## 從 Adobe Analytics 中匯出資料  {#section_901C06ABF2014E92B2952906723DF235}
+## 從 Adobe Analytics 中匯出資料 {#section_901C06ABF2014E92B2952906723DF235}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
