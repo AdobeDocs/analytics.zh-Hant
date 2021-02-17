@@ -1,9 +1,9 @@
 ---
 source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '649'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # 報表套裝工具的產品設定檔權限
