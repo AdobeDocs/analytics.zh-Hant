@@ -1,12 +1,12 @@
 ---
 source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '559'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
-# Analytics工具的產品設定檔權限
+# Analytics 工具的產品設定檔權限
 
 Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能。Analytics 工具權限項目的適用對象不是報表套裝，而是整個 Adobe Analytics。
 
@@ -39,7 +39,7 @@ Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能�
 | Analysis Workspace 存取 | 授予 Analysis Workspace 的存取權限。使用者必須屬於此群組 (偏好設定) 或 Reports &amp; Analytics 存取，才能使用 Adobe Analytics。 |
 | Reports &amp; Analytics 存取 | 授予 Reports &amp; Analytics 的存取權。使用者必須屬於此群組或 Analysis Workspace 存取 (偏好設定)，才能使用 Adobe Analytics。 |
 | Analysis Workspace：儲存為範本 | 授予 Analysis Workspace 中「專案 > 另存為範本」的存取權。 |
-| Labs 存取權限 | 讓使用者存取實驗室和實驗室中的原型。 |
+| Labs 存取權限 | 授予使用者存取 Labs 和 Labs 中原型的能力。 |
 | 建立計算量度 | 授予在所有 Analytics 功能中建立計算量度的能力。 |
 | 區段建立 | 授予在所有 Analytics 功能中建立與共用計算量度的能力。 |
 | Advertising Analytics 管理 | 未使用。 |
