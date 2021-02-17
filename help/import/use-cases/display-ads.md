@@ -2,9 +2,9 @@
 title: 將Google Display廣告資料整合至Adobe Analytics
 description: null
 translation-type: tm+mt
-source-git-commit: b3fa13990807294f22414acb2e0eb44c08202b43
+source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 此整合可讓您將客戶行為與Google AdWords的促銷活動和成本資料建立關聯。
 
 
-1. 請進入Google Campaign Manager。
+1. 開啟Google促銷活動管理員。
 1. 設定顯示廣告資料的週期性匯出，以便上傳顯示量度的增量（印象、點按、成本），依最精細的ID（廣告ID）劃分。
 1. 上傳完整的廣告ID中繼資料集，例如促銷活動、網站等。
 1. 使用所有中繼資料來分類廣告ID。
