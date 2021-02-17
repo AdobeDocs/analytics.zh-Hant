@@ -1,11 +1,11 @@
 ---
-description: 瞭解如何在Adobe Analytics中啟用Adobe Campaign報表
-title: 如何將Adobe Campaign Reporting整合至Adobe Analytics?
-translation-type: tm+mt
+description: 瞭解如何啟用 Adobe Analytics 中的 Adobe Campaign 報表
+title: 如何將 Adobe Campaign 報表整合至 Adobe Analytics？
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
