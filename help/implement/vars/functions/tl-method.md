@@ -1,11 +1,11 @@
 ---
 title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5bdd07b147d1ea5ef80336a893c02057e7bf5785
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Launch 有設定連結追蹤呼叫的專用位置。
 s.tl([Link object],[Link type],[Link name],[Override variable]);
 ```
 
-### 連結物件（必要）
+### 連結物件 (必要)
 
 連結物件引數決定在離開頁面進行導覽前，瀏覽器是否最多等候 500 毫秒。如果影像要求在 500 毫秒內傳送，頁面會立即導覽至點按的連結。
 
@@ -58,11 +58,11 @@ s.tl(true,"e","Example exit link");
 
 ### 連結類型 (必填)
 
-連結類型引數是決定連結追蹤呼叫類型的單一字元字串。 有三個有效值。
+連結類型引數是個單一字元的字串，用於判斷連結追蹤呼叫的類型。 有三個有效值。
 
-* `o`:連結是自訂 [連結](/help/components/dimensions/custom-link.md)。
-* `d`:連結是「下 [載」連結](/help/components/dimensions/download-link.md)。
-* `e`:連結是退出 [連結](/help/components/dimensions/exit-link.md)。
+* `o`：連結是[自訂連結](/help/components/dimensions/custom-link.md)。
+* `d`：連結是[下載連結](/help/components/dimensions/download-link.md)。
+* `e`：連結是[退出連結](/help/components/dimensions/exit-link.md)。
 
 ```js
 // Send a custom link
@@ -77,14 +77,14 @@ s.tl(true,"e","Example exit link");
 
 ### 連結名稱（建議）
 
-連結名稱引數是決定連結追蹤維度項目的字串。在報告中使用[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)或[退出連結](/help/components/dimensions/exit-link.md)維度時，此字串包含維度項目。 如果未設定此引數，則會使用[linkURL](../config-vars/linkurl.md)變數。
+連結名稱引數是決定連結追蹤維度項目的字串。在報告中使用[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)、或[退出連結](/help/components/dimensions/exit-link.md)維度時，該字串包含維度項目。如果此引數未經設定，則會使用 [linkURL](../config-vars/linkurl.md) 變數。
 
 ```js
 // When using the Download link dimension, this method call increases the occurrences metric for "Sea turtle PDF report" by 1.
 s.tl(true,"d","Sea turtle PDF report");
 ```
 
-### 變數覆寫（選用）
+### 變數覆寫（可選擇使用）
 
 可讓您變更單一呼叫的變數值。如需詳細資訊，請參閱[變數覆寫](../../js/overrides.md)。
 
