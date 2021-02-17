@@ -1,11 +1,11 @@
 ---
-description: 關於臨機分析至分析工作區專案轉換程式的常見問題
-title: 臨機分析至分析工作區專案轉換器的常見問題
-translation-type: tm+mt
+description: 關於 Ad Hoc Analysis 以至於 Analysis Workspace 專案轉換工具的常見問題
+title: 關於 Ad Hoc Analysis 以至於 Analysis Workspace 專案轉換工具的常見問題
+translation-type: ht
 source-git-commit: 59d89f7678310aea71191849735f9a61d77249a0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '951'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
