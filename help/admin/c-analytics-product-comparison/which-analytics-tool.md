@@ -2,11 +2,11 @@
 description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: ht
-source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: ht
-source-wordcount: '1186'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+workflow-type: tm+mt
+source-wordcount: '1162'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如需 Adobe Analytics 產品比較的相關資訊，請前往[此處](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)取得。
 
-## Adobe Analytics 報告使用者介面 {#section_8265460EBB47405AB19A3B2B0729C8A4}
+## Adobe Analytics 報告使用者介面 {#user-interfaces}
 
 **[Analysis Workspace](/help/analyze/analysis-workspace/home.md)** 應該是滿足您所有報告和分析需求的首選使用者介面。Adobe 繼續投資該產品並發行每月更新。如果在 Analysis Workspace 中有無法執行的任務，請考慮以下其他介面。**
 
@@ -31,15 +31,6 @@ ht-degree: 100%
 * 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
 * 用於利用排程報告中的「發佈清單」。
 
-該使用 **[Ad Hoc Analysis](/help/analyze/ad-hoc-analysis/adhoc-home.md)** 的情況：
-
->[!IMPORTANT]
->
->Adobe 將於 2021 年 3 月 1 日終止 Ad Hoc Analysis。[更多詳情](https://adobe.ly/discoverworkspace)
-
-* 若希望以標籤來組織專案工作。
-* 使用「網站分析」報表 (3D 路徑報表) 時
-
 該使用 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的情況：
 
 * 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
@@ -49,7 +40,7 @@ ht-degree: 100%
 * 用於延遲分析 (事件發生前/後的時間).
 * 用於識別並匯出整個 Adobe Experience Cloud 的複雜區段。
 
-## 將資料匯入 Adobe Analytics 中 {#section_B42B998D6E3E4357B024AEFA4EC69A23}
+## 將資料匯入 Adobe Analytics 中  {#import}
 
 該使用&#x200B;**[「分類」](/help/components/classifications/c-classifications.md)**&#x200B;的情況：
 
@@ -90,14 +81,14 @@ ht-degree: 100%
 * 如果您想要納入 Adobe Audience Manager (AAM) 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料或廣告曝光資料時。
 * 如果您想要根據時間上傳 CRM 資料時 (因為此整合會以逐次點擊的方式將新資訊傳送至 Analytics)。
 
-## 從 Adobe Analytics 中匯出資料 {#section_901C06ABF2014E92B2952906723DF235}
+## 從 Adobe Analytics 中匯出資料   {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
 * 若自訂的工作區佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
 * 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
 * 用於合併來自不同維度報表的資料 (例如，將促銷印象報表與促銷一鍵轉換報表合併).
-* 用於跨報表套裝的檢視.
+* 若要合併來自不同報表套裝的資料，請透過並排匯總或顯示在同一表格中。
 * 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT).
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 使用時機：
@@ -120,7 +111,7 @@ ht-degree: 100%
 * **即時**：只想要檢視數個量度和維度，而不希望延遲超過數秒時。這是有限而只經過部分處理的摘要資料，只要約 30 秒以內就可供使用。包括獨特的演算法，可針對「最受歡迎」、「獲益者」和「損失者」。可以透過「Report Builder」來使用。
 * **[!UICONTROL 即時資料流]**：想要經過部分處理的點擊層級 Analytics 資料，而希望收集時間只花費數秒時。這是經過部分處理的資料，只要約 30 秒以內就可供使用。只有 Analytics Premium 才提供此 API。需要某種方法才能視覺化資料，通常會涉及工程技術服務。
 
-## 自訂解決方案 {#section_4A212F26A15947599DFB0399A0440CB6}
+## 自訂解決方案 {#custom-solutions}
 
 工程技術服務使用時機：
 
