@@ -4,11 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理使用者和產品，設定報表套裝等。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 96%
    + 移除機器人 {#bot-removal}
       + [移除機器人](admin/bot-removal/bot-removal.md)
       + [機器人規則概觀](admin/bot-removal/bot-rules.md)
-      + [常見機器人簽名](admin/bot-removal/bot-signatures.md)
-      + [機器人排除方法](admin/bot-removal/bot-exclusion-methods.md)
+      + [常見的機器人簽名](admin/bot-removal/bot-signatures.md)
+      + [排除機器人的方法](admin/bot-removal/bot-exclusion-methods.md)
    + [代碼管理器](admin/code-manager-admin.md)
    + 轉換變數 {#conversion-variables}
       + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
@@ -111,9 +111,9 @@ ht-degree: 96%
 + Admin Console 中的 Adobe Analytics {#admin-console}
    + [Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 權限 {#permissions}
-      + [Adobe Analytics的產品設定檔](admin-console/permissions/product-profile.md)
+      + [Adobe Analytics 的產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
-      + [Analytics工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
+      + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
 + 公司設定 {#company-settings}
    + [公司設定概觀](company/c-company-settings.md)
