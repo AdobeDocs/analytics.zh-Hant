@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 整合指南
 breadcrumb-title: 整合指南
 user-guide-description: 設定與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 和 Target) 的整合作業。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 41d3cfb510fb7cac77abbe0a80046c96042d0946
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 93%
       + [設定 Advertising 帳戶](c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)
       + [找出您的帳戶 ID](c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)
       + [追蹤：手動模式和自動模式](c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)
-      + [報告 Adobe Analytics 的 Advertising 資料](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
+      + [Adobe Analytics 中的廣告資料報表](c-advertising-analytics/c-adanalytics-workflow/aa-report-ad-data-an.md)
       + [管理 Advertising 帳戶](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [疑難排解 Advertising Analytics](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常見問題集](c-advertising-analytics/aa-faq.md)
 + [Analytics for Target - A4T](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t.html)
-+ [Analytics中的Adobe Campaign報表](adobe-campaign.md)
-+ [將Analytics資料與Campaign Classic整合](analytics-to-campaign-classic.md)
++ [Analytics 中的 Adobe Campaign 報表](adobe-campaign.md)
++ [整合 Analytics 資料與 Campaign Classic](analytics-to-campaign-classic.md)
 + [AEM Assets 報表](aem-assets-reporting.md)
 + [Activity Map 報表](activitmap-reporting.md)
 + [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
