@@ -1,36 +1,36 @@
 ---
 title: websiteBot
-description: 使用滑鼠移動動態識別機器人。
-translation-type: tm+mt
+description: 利用滑鼠的移動動態地辨認出機器人。
+translation-type: ht
 source-git-commit: 7c130a1b79c9ab1b60773f51f1679249bfa338be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '393'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
 
-# Adobe外掛程式：websiteBot
+# Adobe 外掛程式：websiteBot
 
 >[!IMPORTANT]
 >
 >此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-`websiteBot`外掛程式可讓您動態識別案頭訪客是否為機器人。 您可以使用這些資料來提高所有報告類型的正確性，這可讓您以更好的方式測量合法網站流量。
+此`websiteBot`外掛程式可讓您動態地辨認出桌上電腦使用者是否為機器人。 您可以使用這些資料來提高所有報告類型的正確性，這可讓您以更好的方式測量合理的網站流量。
 
 此外掛程式會執行兩項檢查：
 
-* 首先，它會使用`navigator.UserAgent`變數來判斷裝置是桌上型或行動裝置。 行動裝置會被忽略。
-* 如果它是案頭設備，它將添加用於滑鼠移動的事件偵聽器。
+* 首先，此外掛程式會使用 `navigator.UserAgent` 變數來判斷該裝置是桌上型電腦或行動裝置。若是行動裝置則不列入考慮。
+* 若是桌上型電腦，此外掛程式會新增一個滑鼠移動事件監聽程式。
 
-如果使用者代理位於案頭且未偵測到滑鼠移動，外掛程式會將`websiteBot`變數設為`true`。 如果使用者代理是行動裝置，或是偵測到滑鼠移動，外掛程式會將`websiteBot`變數設為`false`。
+如果桌上型電腦的代理使用者使用此電腦時，該外掛程式並未偵測到任何滑鼠移動情形，則會將 `websiteBot` 變數設定為 `true`。如果代理使用者是行動裝置，或是偵測到滑鼠的移動，該外掛程式會將 `websiteBot` 變數設定為 `false`。
 
 ## 先決條件
 
-Adobe建議在使用此外掛程式之前，先執行下列動作：
+使用此外掛程式之前，Adobe 建議先執行下列動作：
 
-* **設定eVar設定**:在「報表套裝設定」的「 [轉換](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 變數」下設定eVar。將過期時間設為&#x200B;**「訪客」**，並將配置設為&#x200B;**「原始值（第一個）」**。
-* **在個別變數中收集使用者代理**:在個別變數中收集使用者代理字串，以監控此外掛程式的效能。在每次點擊上將eVar設為`navigator.UserAgent`以收集此資料。
+* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。設定&#x200B;**訪客**&#x200B;終止時間，並配置為&#x200B;**原始值（首次）**。
+* **蒐集個別變數內的代理使用者**：蒐集個別變數內的代理使用者字串，以監視此外掛程式的功效。在每次點擊時，設定一個 eVar 為 `navigator.UserAgent` 用以蒐集此資料。
 
 ## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
@@ -54,7 +54,7 @@ websiteBot=true;if(!/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|bla
 
 ## 使用外掛程式
 
-`websiteBot` 變數是布林值。如果外掛程式偵測到機器人，則會傳回`true`;否則，它返回`false`。
+`websiteBot` 變數是布林值。如果外掛程式偵測到機器人，則其會傳回 `true`；否則，會傳回 `false`。
 
 ## 範例
 
@@ -68,6 +68,6 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ## 版本記錄
 
-### 0.1（2021年1月19日）
+### 0.1 (2021 年 1 月 19 日)
 
 * 測試版本。
