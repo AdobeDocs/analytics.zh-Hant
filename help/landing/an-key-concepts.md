@@ -1,11 +1,11 @@
 ---
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 12d2391e2429f80648ca674540e65ecd224b1b02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1876'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 | Analysis Workspace | 用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。提供比 Reports and Analytics 更高的報表靈活性。 | [Analysis Workspace 首頁](/help/analyze/analysis-workspace/home.md) |
 | Reports and Analytics (原 SiteCatalyst) | 用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。 | [Reports and Analytics 首頁](/help/analyze/reports-analytics/getting-started.md) |
 | Report Builder | 可讓您從 Adobe Analytics 資料建立自訂請求，並使用 Microsoft Excel 加以視覺化的 Excel 增益集。 | [Report Builder 首頁](/help/analyze/report-builder/home.md) |
-| Ad Hoc Analysis (前稱為 Discover) | 進階數位分析的 Java 型工具。EOL日期：2021年3月1日。 | [Ad Hoc Analysis 首頁](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
+| Ad Hoc Analysis (前稱為 Discover) | 進階數位分析的 Java 型工具。EOL 日期：2021 年 3 月 1 日。 | [Ad Hoc Analysis 首頁](/help/analyze/ad-hoc-analysis/adhoc-home.md) |
 | Data Workbench (前稱為 Insight) | 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動情形。 | [Data Workbench 用戶端](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/client/t-open-ins.html) |
 | Data Warehouse | 用於儲存和自訂報表的原始、未處理資料複本，可供您透過篩選資料的方式來執行。非點擊層級。 | [Data Warehouse 首頁](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | 將整個 Adobe Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與應用程式的互動。 | [Mobile Services 首頁](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html) |
@@ -61,7 +61,7 @@ ht-degree: 99%
 | 客戶歷程報表 | 顯示使用者瀏覽您的網站或應用程式時所採取路徑的相關資訊。Prop、eVar 和事件可在 Analysis Workspace 中使用這項分析。 | [Analysis Workspace 流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 路徑分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 行銷管道 | 這些報表可協助您理解哪些外部管道將使用者引入您的網站，以及在促進轉換方面哪些管道最有效。並提供首次接觸和上次接觸歸因檢視。這是 Adobe Analytics 慣用的外部流量來源報表 (優先於促銷活動或流量來源)，因為這可同時提供付費和自然管道的最全面資訊。 | [行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 行動 | 顯示從行動裝置或平板電腦存取的網站相關資訊。 | [行動報表](/help/components/dimensions/mobile-dimensions.md) |
-| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實作並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。請[在此](https://mobilemarketing.adobe.com)存取介面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
+| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實作並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。請[在此](https://mobilemarketing.adobe.com)存取介面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html) |
 | 產品 | 識別個別產品和產品群組 (類別) 對各種轉換量度 (如收入或結帳) 的貢獻度。 | [產品報表](/help/components/dimensions/product.md) |
 | 區段比較 | 透過自動分析您可以存取的每個單一量度和維度，找出不同區段之間在統計上最顯著的差異。 | [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 網站內容報表 | 顯示您網站中最活躍的網頁與區域，以及最常用的伺服器。 | [網站內容報表](/help/components/dimensions/page.md) |
@@ -97,9 +97,9 @@ ht-degree: 99%
 | 選項 | 說明 | 文件連結 |
 | --- | --- | --- |
 | UI 下載與排程 | 從 Analysis Workspace 將資料匯出為 CSV 或 PDF | [下載 PDF 或 CSV 檔案](/help/analyze/analysis-workspace/curate-share/download-send.md) |
-| 報告建立工具 | 請參閱 Analytics 工具。 |  |
+| Report Builder | 請參閱 Analytics 工具。 |  |
 | Analytics API | 建立對 Analytics 資料的自訂查詢。 | <ul><li>[API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)</li><li>[API 1.4](https://github.com/AdobeDocs/analytics-1.4-apis)</li></ul> |
-| 資料倉庫 | 請參閱 Analytics 工具。 |  |
+| Data Warehouse | 請參閱 Analytics 工具。 |  |
 | Analytics 資料摘要 | 從 Analytics 取得資料的最詳細方式。設定 Analytics 的點擊層級回饋。 | [Analytics 資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) |
 
 ## 資料收集與驗證 {#concept_E07350D4CA5047DAA7D81F762F29606A}
