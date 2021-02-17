@@ -4,11 +4,11 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 94%
       + [getVisitNum](vars/plugins/getvisitnum.md)
       + [inList](vars/plugins/inlist.md)
       + [manageVars](vars/plugins/managevars.md)
-      + [數字套裝](vars/plugins/numberssuite.md)
+      + [Numbers suite](vars/plugins/numberssuite.md)
       + [p_fo](vars/plugins/p-fo.md)
       + [pt](vars/plugins/pt-plugin.md)
       + [removeFromList](vars/plugins/removefromlist.md)
@@ -129,7 +129,7 @@ ht-degree: 94%
    + [全域報表套裝考量事項](prepare/global-rs.md)
    + [實施強制回應視窗](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
-   + [負責現有的Adobe Analytics實作](prepare/existing-implementation.md)
+   + [負責現有的 Adobe Analytics 實施](prepare/existing-implementation.md)
 + 使用 JavaScript 實施 Analytics {#js}
    + [JavaScript 概述](js/overview.md)
    + [實施退出連結](js/opt-out.md)
@@ -193,7 +193,7 @@ ht-degree: 94%
    + [在 Facebook 即時文章上實施 Analytics](other/fb-instant-articles.md)
 + [在行動裝置上實施 Analytics](mobile-device-sdk.md)
 + 實施使用案例 {#use-cases}
-   + [搭配iFrames使用AppMeasurement](use-cases/iframe.md)
+   + [搭配 iFrames 使用 AppMeasurement](use-cases/iframe.md)
    + [追蹤不同的實施類型](use-cases/cross-type-implementation.md)
    + [外部電子郵件追蹤](use-cases/email-external.md)
 + 驗證實施 {#validate}
@@ -202,10 +202,10 @@ ht-degree: 94%
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
-+ 檢視您的實作{#review}
++ 審視您的實施{#review}
    + [重點審視 (每次網站發佈後)](review/focused-review.md)
-   + [完整審查（每6個月）](review/full-review.md)
-   + [定義您的前5大KPI](review/define-kpis.md)
+   + [完整審視（每 6 個月）](review/full-review.md)
+   + [定義您的前 5 大 KPI](review/define-kpis.md)
 + 透過 Analytics 使用 XDM 資料 {#aep-edge}
    + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
    + [手動將 XDM 資料對應至 Analytics](aep-edge/xdm-manual.md)
