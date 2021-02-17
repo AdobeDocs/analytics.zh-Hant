@@ -1,11 +1,11 @@
 ---
 description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
-title: 如何在Adobe Analytics中報告AEM資產
-translation-type: tm+mt
+title: 如何在 Adobe Analytics 中製作 AEM Assets 報表
+translation-type: ht
 source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '120'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
