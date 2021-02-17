@@ -1,11 +1,11 @@
 ---
 title: 在 Launch 中建立 Analytics 屬性
 description: 使用 Adobe Experience Platform Launch 建立空間來自訂資料收集方式。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 屬性是用來管理標籤的普遍容器。擴充功能可讓您安裝產品專屬標籤並加以設定。
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
-1. 按一下&#x200B;**[!UICONTROL 新建屬性]**。
+1. 按一下 **[!UICONTROL 新增屬性]**。
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實施 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的屬性以輸入其設定。
-1. 按一下&#x200B;**[!UICONTROL 擴展]**&#x200B;頁籤，然後按一下&#x200B;**[!UICONTROL 目錄]**。
-1. 找到Identity Service，然後按一下&#x200B;**[!UICONTROL Install]**。
+1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 目錄]**。
+1. 找到 Identity Service，然後按一下 **[!UICONTROL 安裝]**。
 1. 所有設定 (包括 Experience Cloud 組織 ID) 皆應已填寫。按一下&#x200B;**[!UICONTROL 「儲存」]**。
-1. 回到擴充功能目錄中，找到Adobe Analytics，然後按一下「安裝」。****
+1. 返回擴充功能目錄，找到 Adobe Analytics 並按一下&#x200B;**[!UICONTROL 安裝]**。
 
 ## 為 Adobe Analytics 建立資料元素
 
@@ -37,7 +37,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下您預計在網站上實施的 Launch 屬性。
-1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;頁籤，然後按一下&#x200B;**[!UICONTROL 建立新資料元素]**。
+1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立新資料元素]**。
 1. 為資料元素執行下列設定：
 
    * 名稱：頁面名稱
@@ -58,26 +58,26 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下您預計在網站上實施的 Launch 屬性。
-1. 按一下「建立新規則&#x200B;**[!UICONTROL 」，並將其命名為`Global Rule`。]**
-1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入下列設定：
+1. 按一下&#x200B;**[!UICONTROL 建立新規則]**&#x200B;並命名這新規則`Global Rule`。
+1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：核心
    * 事件類型：已載入程式庫 (頁面頂端)
    * 名稱：核心 - 已載入程式庫 (頁面頂端)
    * 訂購：50
-1. 按一下&#x200B;**[!UICONTROL 保留變更]**.
-1. 在&#x200B;**[!UICONTROL Actions]**&#x200B;下，按一下&#x200B;**[!UICONTROL Add]**，然後輸入以下設定：
+1. 按一下&#x200B;**[!UICONTROL 保留變更]**。
+1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;項下，按一下&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：Adobe Analytics
    * 動作類型：設定變數
    * 頁面名稱：按一下容器圖示，然後選取 `Page Name` 資料元素。
    * 促銷活動：具有 `cid` 值的查詢參數
-1. 按一下&#x200B;**[!UICONTROL 保留變更]**.
+1. 按一下&#x200B;**[!UICONTROL 保留變更]**。
 1. 按一下動作旁邊的加號以新增其他動作，然後輸入下列設定：
    * 擴充功能：Adobe Analytics
    * 動作類型：傳送信標
    * 名稱：Adobe Analytics - 傳送信標
    * 追蹤：s.t()
-1. 按一下&#x200B;**[!UICONTROL 保留變更]**.
-1. 確認您已設定事件和兩個動作，然後按一下「儲存」。****
+1. 按一下&#x200B;**[!UICONTROL 保留變更]**。
+1. 確認已設定好該事件以及兩個動作，然後按一下&#x200B;**[!UICONTROL 儲存]**。
 
 ## 文件和其他資源
 
