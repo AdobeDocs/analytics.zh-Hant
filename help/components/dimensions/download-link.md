@@ -1,11 +1,11 @@
 ---
 title: 下載連結
 description: 下載連結的名稱。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '184'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 83%
 
 此維度會針對同時具有 `pe` 查詢字串且字串值為 `lnk_d` 的點擊，從影像要求中的 [`pev2` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。如果 `pe` 查詢字串在點擊中有不同的值，則此維度不會收集資料。
 
-如果您想使用AppMeasurement將資料傳送至此維度，請傳送連結類型引數為`"d"`的[`tl()`](/help/implement/vars/functions/tl-method.md)影像要求。 將所需值填入連結名稱引數。
+如果您想使用 AppMeasurement 將資料傳送至此維度，請傳送連結類型引數為 `"d"` 的 [`tl()`](/help/implement/vars/functions/tl-method.md) 影像要求。將所需的值填入連結名稱引數。
 
 ## 維度項目
 
