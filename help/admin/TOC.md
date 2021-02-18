@@ -4,11 +4,11 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理使用者和產品，設定報表套裝等。
-translation-type: ht
-source-git-commit: 445cf81cd157bb311cbd4df6e9e2b0b052a64f96
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: ae75341a1fcf15044c385d9d8ea2048190b9c1c3
+workflow-type: tm+mt
+source-wordcount: '731'
+ht-degree: 99%
 
 ---
 
@@ -111,6 +111,7 @@ ht-degree: 100%
 + Admin Console 中的 Adobe Analytics {#admin-console}
    + [Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 權限 {#permissions}
+      + [Admin Console中的分析權限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
