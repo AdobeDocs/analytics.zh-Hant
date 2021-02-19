@@ -2,11 +2,11 @@
 description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1162'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -81,15 +81,15 @@ ht-degree: 98%
 * 如果您想要納入 Adobe Audience Manager (AAM) 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料或廣告曝光資料時。
 * 如果您想要根據時間上傳 CRM 資料時 (因為此整合會以逐次點擊的方式將新資訊傳送至 Analytics)。
 
-## 從 Adobe Analytics 中匯出資料   {#export}
+## 從 Adobe Analytics 中匯出資料  {#export}
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
 * 若自訂的工作區佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
 * 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
 * 用於合併來自不同維度報表的資料 (例如，將促銷印象報表與促銷一鍵轉換報表合併).
-* 若要合併來自不同報表套裝的資料，請透過並排匯總或顯示在同一表格中。
-* 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT).
+* 若要合併不同報表套裝的資料，可在同一表格中併排匯總或顯示。
+* 若希望透過排程來自動化 (XLSX、XLSM、CSV、PDF、TXT、XML、MHT)。
 
 **[Data Warehouse](/help/export/data-warehouse/data-warehouse.md)** 使用時機：
 
