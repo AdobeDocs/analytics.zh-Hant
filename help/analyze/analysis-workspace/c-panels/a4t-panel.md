@@ -2,10 +2,10 @@
 description: Analytics for Target (A4T) 面板可讓您在 Analysis Workspace 中分析 Adobe Target 活動和體驗。
 title: Analytics for Target (A4T) 面板
 translation-type: tm+mt
-source-git-commit: c93520f7a3dacfbfb05c79809bf58c0cc0f34a9f
+source-git-commit: 284d8237091fbf7c341fc0f577c023cfe7e536d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 86%
+source-wordcount: '1072'
+ht-degree: 82%
 
 ---
 
@@ -45,12 +45,12 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 成功量度 | 在產生器中選取的量度 |
 | 轉換率 | 成功量度/標準化量度 |
 | 提升度 | 對照控制體驗來比較每一個體驗的轉換率。注意：提升度是 Target 體驗的「鎖定量度」；您無法加以劃分，也無法與其他維度搭配使用。 |
-| 提升度 (下限) | 代表變體體驗在95%信賴區間內對控制項的最差提升度。<br>計算：(x/y ± 1.96 std_err(x,y))/(x_control/y_control ∓ 1.96 std_err(x_control,y_control))。 這裡std_err(x,y)是sqrt(xx/y -(x/y)^2)，其中xx表示平方和。 |
+| 提升度 (下限) | 代表變體體驗在95%信賴區間內對控制項的最差提升度。<br>計算：(x/y ± 1.96 std_err(x,y))/(x_control/y_control ∓ 1.96 std_err(x_control,y_control))。這裡std_err(x,y)是sqrt(xx/y -(x/y)^2)，其中xx表示平方和。 |
 | 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。<br>計算：(x/y)/(x_control/y_control)- 1 |
 | 提升度 (上限) | 以95%的信賴區間，代表變體體驗對控制項可擁有的最佳提升度。<br>計算：請參閱提升度（下方）。 |
-| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>計算：套用2尾t-test，具有y+y_control-2自由度，以尋找x/y等於x_control/y_control的p值。 計算t分數，其中stderr為sqrt((xx/y-(x/y)^2)/y +(xx_control/y_control-(x_control/y_control)^2)/y_control)。 回報1-p，以確信兩者不同。 |
+| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>計算：套用2尾t-test，具有y+y_control-2自由度，以尋找x/y等於x_control/y_control的p值。計算t分數，其中stderr為sqrt((xx/y-(x/y)^2)/y +(xx_control/y_control-(x_control/y_control)^2)/y_control)。 回報1-p，以確信兩者不同。 |
 
-和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，以繼續進行分析。
+和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，以繼續進行分析。您也可以在面板層級或自由表格中套用區段。 請注意，如果您在自由表格中新增它，則必須將它覆蓋整個表格，以保留提升度和可信度計算。 目前不支援欄層級區段。
 
 ## 常見問題集 {#FAQ}
 
@@ -59,8 +59,8 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | A4T 支援哪些活動類型？ | [深入瞭解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)受支援的活動類型。 |
 | 提升度和可信度計算是否支援計算量度？ | 不可以，[深入瞭解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和可信度不支援計算量度的原因。不過，計算量度可用於這些量度以外的 A4T 報告。 |
 | 為何 Target 與 Analytics 的不重複訪客會有差異？ | [深入瞭解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)產品之間的不重複訪客差異。 |
-| 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | A4T 維度是清單變數，這表示有可能同時包含許多活動 (和體驗)。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 可信度量度是否可計算極端順序，或對多個優惠方案套用 Bonferroni 校正？ | 不可以，[深入瞭解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
+| 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | A4T 維度是清單變數，這表示有可能同時包含許多活動 (和體驗)。[更多詳情](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 可信度量度是否可計算極端順序，或對多個優惠方案套用 Bonferroni 校正？ | 不可以，[深入瞭解](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
 | 提升度和可信度量度是否可搭配其他維度或劃分使用？ | 提升度和可信度是「目標體驗」維度的「鎖定量度」，因為它們需有控制項和變數才能計算。因此，無法劃分或搭配其他維度使用。 |
 | 何時會重新計算提升度和可信度？ | 執行 (或重新執行) 面板、面板日期範圍變更或將區段套用至面板或表格時，提升度和可信度就會重新計算。 |
 
