@@ -1,9 +1,11 @@
 ---
-description: Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判斷是否應將某個觀察值視為異常。
+description: 資料不一致可能會造成重大問題。 瞭解如何透過Adobe的異常偵測技術識別統計異常。 立即開始使用。
 title: 異常偵測所使用的統計技術
-uuid: b6ef6a2e-0836-4c9a-bf7e-01910199bb92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '792'
+ht-degree: 97%
 
 ---
 
