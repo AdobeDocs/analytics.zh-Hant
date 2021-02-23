@@ -1,16 +1,16 @@
 ---
-title: 頁面檢視
-description: 頁面被檢視的次數。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+title: '說明頁面檢視量度 | Adobe Analytics '
+description: 瞭解Adobe Analytics中如何設計頁面檢視度量，並瞭解頁面檢視與瀏覽之間的差異。
+translation-type: tm+mt
+source-git-commit: c588087b949093152435967f62e43758e9e86208
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 80%
 
 ---
 
 
-# 頁面檢視
+# 瞭解使用Adobe Analytics進行頁面檢視
 
 「頁面檢視」量度會顯示指定維度項目在頁面上進行設定或保存的次數。這是報表中最常用且最基本的量度之一。
 
