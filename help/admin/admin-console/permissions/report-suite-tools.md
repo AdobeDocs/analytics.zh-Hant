@@ -1,9 +1,9 @@
 ---
-source-git-commit: 45edc5eacde90dc5b5da140ad50561f0f32bb41d
-workflow-type: ht
-translation-type: ht
-source-wordcount: '649'
-ht-degree: 100%
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '647'
+ht-degree: 98%
 
 ---
 # 報表套裝工具的產品設定檔權限
@@ -62,4 +62,4 @@ ht-degree: 100%
 | 使用摘要報表 | 未使用。 |
 | 網站資源 | 未使用。 |
 | 社交 | 未使用。 |
-| 資料修復 API | 授與資料修復 API 的存取權 (未來版本) |
+| 資料修復 API | 授予資料修復API的存取權 |
