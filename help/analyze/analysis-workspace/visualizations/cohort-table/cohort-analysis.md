@@ -1,16 +1,16 @@
 ---
-title: 同類群組分析是什麼？
-description: 瞭解 Analysis Workspace 中的同類群組分析
+title: 什麼是世代分析，其運作方式為何？
+description: 透過世代分析，深入探究受眾相關資料，並深入瞭解相關群組。 瞭解 Analysis Workspace 中的同類群組分析.
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 97%
+source-wordcount: '492'
+ht-degree: 90%
 
 ---
 
 
-# 什麼是[!UICONTROL 同類群組分析]？
+# 瞭解Adobe Analytics中的[!UICONTROL 世代分析]
 
 *`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
 
@@ -26,7 +26,7 @@ ht-degree: 97%
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
-[世代分析教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[世代分析教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
