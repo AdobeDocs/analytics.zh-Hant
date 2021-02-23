@@ -2,9 +2,9 @@
 title: Adobe Analytics權限——摘要表格
 description: 匯總Admin Console中可用Adobe Analytics權限的表格。
 translation-type: tm+mt
-source-git-commit: 5c300548b9677c7ffe21fa66b4b7c9859179ff8e
+source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1255'
 ht-degree: 94%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 94%
 | 成本 | x |  |  |  | 授予「報表套裝管理器」中「行銷管道 > 行銷管道成本」的權限。 |
 | 自訂日曆 | x |  |  |  | 授予「報表套裝管理器」中「一般 > 自訂日曆」的存取權。 |
 | 資料摘要管理員 | x |  |  |  | 授予 Analytics 頂端導列中「管理員 > 資料摘要」的存取權。 |
-| 資料修復 API | x |  |  |  | 新增（測試版）-授與資料修復API的存取權 |
+| 資料修復 API | x |  |  |  | 授予資料修復API的存取權 |
 | 資料來源管理員 | x |  |  |  | 授予 Analytics 頂端導列中「管理員 > 資料來源」的存取權。需要權限項目「報表套裝管理」。 |
 | 預設量度 | x |  |  |  | 授予「報表套裝管理器」中「個別報表套裝設定 > 預設量度」的存取權。 |
 | 依 IP 位址排除 | x |  |  |  | 授予 Analytics 頂端導列中「管理員 > 依 IP 排除」的存取權。 |
