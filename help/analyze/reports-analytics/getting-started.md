@@ -1,23 +1,20 @@
 ---
 description: 開始使用 Reports & Analytics 前，請先了解這些基本的登入和設定工作，以及如何存取帳戶資訊。
-subtopic: Get started
 title: Reports & Analytics 快速入門
-topic: Reports and analytics
-uuid: ea76ec40-6025-4ee5-8f75-855b5b823737
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: c588087b949093152435967f62e43758e9e86208
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 100%
+source-wordcount: '701'
+ht-degree: 97%
 
 ---
 
 
-# Reports &amp; Analytics 快速入門
+# 開始使用報告與分析
 
 開始使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
 
-「報表」可提供傳統網頁型通路及創新型通路 (例如行動、視訊及社交網路) 的分析。行銷報表的一些範例包括：
+「報表」可提供傳統網頁型通路及創新型通路 (例如行動、視訊及社交網路) 的分析。報表的一些範例包括：
 
 * 多少訪客瀏覽您的網站
 * 多少訪客是獨特訪客 (僅計算一次)
@@ -91,39 +88,12 @@ ht-degree: 100%
 
 所有使用者都能存取[!UICONTROL 帳戶資訊]頁面。下列資訊可供檢視或編輯：
 
-<table id="table_58F5D292485F45F9902B372E4E1E3103"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 資訊類型 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td> <p>聯絡 </p> </td> 
-   <td> <p>提供您帳戶的下列個人資訊： </p> 
-    <ul id="ul_7925E35904EB47E3AC648FA80A09EF91"> 
-     <li id="li_CDD8D7B73A1D4C78A41FF02BD0E5E788">名字 (必要) </li> 
-     <li id="li_7255F50ABFFA4EE8A0A9D04F92BE432D">姓氏 (必要) </li> 
-     <li id="li_3DF6107291CC4D46AAA0E4A13D59128F">標題 </li> 
-     <li id="li_B5BE95E0FE594939A2D4C6680A6B8BDD">電子郵件地址 (必要) </li> 
-     <li id="li_B764239241CE4F1CA74F77D796E7AB1D">電話號碼 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> 登入 </p> </td> 
-   <td> <p>顯示帳戶使用者名稱，並讓您變更帳戶密碼。 </p> <p>另請參閱：<a href="https://helpx.adobe.com/tw/analytics/kb/How-to-Reset-Report-and-analytics-password.html"  >如何重設 Reports &amp; Analytics 帳戶密碼</a>。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>網站服務 </p> </td> 
-   <td> <p>顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 <a href="https://marketing.adobe.com/developer"  >Developer Connection</a>。 </p> <p> <p>附註：只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p> 排除此電腦 </p> </td> 
-   <td> <p>套用 Cookie 至目前電腦，排除它不進行資料蒐集。如果您不希望您的線上活動影響您網域內的「頁面檢視」和「訪客」計數，此選項會很有用。 </p> <p> <p>附註：若要使用此功能，您的瀏覽器必須啟用 Cookie。如果您刪除電腦上的 Cookie，就必須重設排除 Cookie。 </p> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 資訊類型 | 定義 |
+| --- | --- |
+| 聯絡 | 提供您帳戶的下列個人資訊：<ul><li>名字 (必要)</li><li>姓氏 (必要)</li><li>標題</li><li>電子郵件地址 (必要)</li><li>電話號碼</li></ul> |
+| 登入 | 顯示帳戶使用者名稱，並讓您變更帳戶密碼。另請參閱：[如何重設 Reports &amp; Analytics 帳戶密碼](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en)。 |
+| 網站服務 | 顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 Developer Connection。**附註:** 只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 |
+| 排除此電腦 | 套用 Cookie 至目前電腦，排除它不進行資料蒐集。如果您不希望您的線上活動影響您網域內的「頁面檢視」和「訪客」計數，此選項會很有用。**附註:** 若要使用此功能，您的瀏覽器必須啟用 Cookie。如果您刪除電腦上的 Cookie，就必須重設排除 Cookie。 |
 
 ## 變更介面語言
 
