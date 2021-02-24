@@ -5,7 +5,7 @@ title: 處理規則概觀
 topic: 管理工具
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
+source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
@@ -62,4 +62,4 @@ s.contextData['genre'] = "Youth";
 
 在實作中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱[將上下文資料變數複製至eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用上下文資料變數](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)設定事件。
+如需詳細資訊，請參閱[將上下文資料變數複製至eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用上下文資料變數](processing-rules-examples/processing-rules-copy-context-data-event.md)設定事件。
