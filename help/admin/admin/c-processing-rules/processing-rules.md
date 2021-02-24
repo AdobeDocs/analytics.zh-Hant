@@ -2,13 +2,13 @@
 description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
 subtopic: Processing rules
 title: 處理規則概觀
-topic: Admin tools
+topic: 管理工具
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 translation-type: tm+mt
-source-git-commit: 4cacd06d268c501ade05487c594bc68aa22e9f4c
+source-git-commit: a42fdbf2938f08ab09f9be7e0e3e89bab4f50eae
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 68%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 80%
 
 >[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-## 處理規則權限 {#section_8A4846688050453784DAE4D89355169A}
+## 處理規則權限{#section_8A4846688050453784DAE4D89355169A}
 
-Administrators have rights to use processing rules **by default**. 管理員也可透過「管理工具」介面將這些權限授予非管理員。如需指示，請參閱 []
+管理員依預設有權使用處理規則&#x200B;**。**&#x200B;管理員也可透過「管理工具」介面將這些權限授予非管理員。如需指示，請參閱 []
 
 ![](assets/processing-rules.png)
 
@@ -40,16 +40,26 @@ Administrators have rights to use processing rules **by default**. 管理員也�
 
 上下文資料變數是一種變數，僅適用於處理規則。 若要使用內容資料變數，需透過實作傳入重要/值資料配對，並使用處理規則擷取標準分析變數中的這些數值。如此可省去程式設計師花時間瞭解哪些 prop 和/或 eVar 應包含哪些值。
 
-![](assets/evar-context-map.png)
+```js
+s.contextData['author'] = "Robert Munch";
+s.contextData['section'] = "Books";
+s.contextData['genre'] = "Youth";
+```
 
-請參閱實施說明中的[上下文資料變數](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/contextdata.html)。
+在程式碼中設定後，您就可以設定處理規則來指派值給變數。 例如：
+
+1. 將`author`映射至`eVar2`
+2. 將`section`映射至`prop1`和`eVar3`
+3. 如果`author`和`section`存在，請設定`event5`
+
+如需詳細資訊，請參閱實作使用指南中的[contextData](/help/implement/vars/page-vars/contextdata.md)。
 
 ## 使用處理規則來轉換點擊資料和觸發事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
 處理規則可以監控傳入值，轉換常見的打字錯誤並根據報告資料設定事件。可以複製 prop 至 eVar、可以串連值以用於報告，並可設定事件。
 
-## 在報告中使用上下文資料變數 {#section_BD098BC503024A0B8703596628071134}
+## 在報告中使用上下文資料變數  {#section_BD098BC503024A0B8703596628071134}
 
 在實作中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱[這裡](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)和[這裡](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)。
+如需詳細資訊，請參閱[將上下文資料變數複製至eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用上下文資料變數](/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)設定事件。
