@@ -3,12 +3,12 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
-user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理使用者和產品，設定報表套裝等。
+user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用戶和產品，設定報表套裝等。
 translation-type: tm+mt
-source-git-commit: 6dcdbf7d49000e4e04d590b83da47d49f8e53ebf
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 98%
+source-wordcount: '727'
+ht-degree: 99%
 
 ---
 
@@ -43,7 +43,6 @@ ht-degree: 98%
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [尋找方法](admin/finding-methods.md)
    + [一般帳戶設定](admin/general-acct-settings-admin.md)
-   + [群組管理](admin/group.md)
    + [內部 URL 篩選器](admin/internal-url-filter-admin.md)
    + [記錄檔](admin/logs.md)
    + [行銷管道](admin/marketing-channels-admin.md)
@@ -111,7 +110,7 @@ ht-degree: 98%
 + Admin Console 中的 Adobe Analytics {#admin-console}
    + [Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 權限 {#permissions}
-      + [Admin Console中的分析權限](admin-console/permissions/summary-tables.md)
+      + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 的產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
@@ -125,7 +124,7 @@ ht-degree: 98%
    + [待定動作](company/pending-actions-admin.md)
    + [品牌結合](company/co-branding-admin.md)
    + [隱藏報表套裝](company/c-hide-report-suites.md)
-   + [安全管理員](company/security-manager.md)
+   + [安全管理器](company/security-manager.md)
    + [「強制 IP 登入限制」服務終止](company/login-restrictions-eol.md)
 + 管理報表套裝 {#manage-report-suites}
    + [報表套裝管理器](c-manage-report-suites/report-suites-admin.md)
@@ -149,32 +148,31 @@ ht-degree: 98%
       + [新的報表套裝 - 設定](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [並非從來源報表套裝複製的設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [建立報表套裝群組](c-manage-report-suites/t-create-rs-group.md)
-+ 使用者和產品管理 (舊版) {#user-product-management}
-   + [使用者和產品管理](user-management2/user-management.md)
-   + [指派使用者群組至報表套裝](user-management2/t-group-access-report-suite.md)
-   + 使用者管理 {#user-management}
-      + [使用者管理概觀](user-management2/c-user-management/users.md)
-      + [新增使用者帳戶](user-management2/c-user-management/t-add-user-account.md)
-      + [使用者和群組權限變更](user-management2/c-user-management/permissions-changes.md)
-      + [轉移使用者帳戶項目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [新增使用者至群組](user-management2/c-user-management/t-add-user-to-group.md)
-      + 將使用者移轉至 Adobe Admin Console {#migrate-users}
-         + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
-         + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
++ 用戶和產品管理 (舊版) {#user-product-management}
+   + [用戶和產品管理](user-management2/user-management.md)
+   + [指派用戶群組至報表套裝](user-management2/t-group-access-report-suite.md)
+   + 用戶管理 {#user-management}
+      + [用戶管理概觀](user-management2/c-user-management/users.md)
+      + [新增用戶帳戶](user-management2/c-user-management/t-add-user-account.md)
+      + [用戶和群組權限變更](user-management2/c-user-management/permissions-changes.md)
+      + [轉移用戶帳戶項目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
+      + [新增用戶至群組](user-management2/c-user-management/t-add-user-to-group.md)
+      + 將用戶移轉至 Adobe Admin Console {#migrate-users}
+         + [Analytics 用戶移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [移轉 Adobe ID 的 Analytics 用戶帳戶](user-management2/user-migration/t-migrate-users.md)
+         + [移轉 Enterprise 與 Federated ID 的 Analytics 用戶帳戶](user-management2/user-migration/migrate-enterprise.md)
          + [停用舊版登入](user-management2/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](user-management2/user-migration/developer.md)
-      + [管理 Ad Hoc Analysis 使用者](user-management2/c-user-management/t-manage-dsc-users-admin.md)
-   + 使用者群組 {#user-groups}
-      + [新增使用者群組](user-management2/c-user-groups/t-user-group.md)
-      + [使用者群組設定](user-management2/c-user-groups/groups.md)
+   + 用戶群組 {#user-groups}
+      + [新增用戶群組](user-management2/c-user-groups/t-user-group.md)
+      + [用戶群組設定](user-management2/c-user-groups/groups.md)
    + 自訂報表存取 {#customize-report-access}
       + [自訂報表存取 - 概觀](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [自訂 Analytics 工具權限](user-management2/c-customize-report-access/groups-analytics-tools.md)
       + [自訂報表套裝工具權限](user-management2/c-customize-report-access/groups-report-suite-tools.md)
       + [自訂量度權限](user-management2/c-customize-report-access/groups-metrics.md)
       + [自訂維度權限](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [電子郵件使用者](user-management2/t-email-users.md)
+   + [電子郵件用戶](user-management2/t-email-users.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
