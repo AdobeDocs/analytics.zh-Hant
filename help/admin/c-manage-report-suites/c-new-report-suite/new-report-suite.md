@@ -1,13 +1,13 @@
 ---
 description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
 title: 新的報表套裝 - 設定
-topic: Admin tools
+topic: 管理工具
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 預設頁面</span> </td> 
-   <td colname="col2"> <p>(可選) 從遇到的 URL 中移除<span class="wintitle">預設頁面</span>值的發生次數。若您的<span class="wintitle">人氣最高的頁面</span>報表包含 URL 而非頁面名稱，此設定可防止同一網頁出現多個 URL。 </p> <p>For example, the URLs<span class="filepath"> https://example.com</span> and <span class="filepath"> https://example.com/index.html</span> are typically the same page. You can remove extraneous filenames so that both these URLs show up as <span class="filepath"> https://example.com</span> in your reports. </p> <p>若您未設定此值，則 Analytics 會從 URL 中自動移除下列檔案名稱：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 與 <span class="filepath">home.asp</span>。 </p> <p>若要停用檔案名稱移除，請指定一個 URL 中永遠不會出現的「預設頁面」值， </p> </td> 
+   <td colname="col2"> <p>(可選) 從遇到的 URL 中移除<span class="wintitle">預設頁面</span>值的發生次數。若您的<span class="wintitle">人氣最高的頁面</span>報表包含 URL 而非頁面名稱，此設定可防止同一網頁出現多個 URL。 </p> <p>例如，URL<span class="filepath"> https://example.com</span>和<span class="filepath"> https://example.com/index.html</span>通常是相同的頁面。 您可以移除無關的檔案名稱，讓這兩個URL在報表中都顯示為<span class="filepath"> https://example.com</span>。 </p> <p>若您未設定此值，則 Analytics 會從 URL 中自動移除下列檔案名稱：<span class="filepath">index.htm</span>、<span class="filepath">index.html</span>、<span class="filepath">index.cgi</span>、<span class="filepath">index.asp</span>、<span class="filepath">default.htm</span>、<span class="filepath">default.html</span>、<span class="filepath">default.cgi</span>、<span class="filepath">default.asp</span>、<span class="filepath">home.htm</span>、<span class="filepath">home.html</span>、<span class="filepath">home.cgi</span> 與 <span class="filepath">home.asp</span>。 </p> <p>若要停用檔案名稱移除，請指定一個 URL 中永遠不會出現的「預設頁面」值， </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>上線日期 </p> </td> 
@@ -65,11 +65,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <span class="wintitle">停用多位元組字元支援</span> </td> 
    <td colname="col2"> <p>停用報表套裝的多位元組字元支援。若您停用多位元組字元支援，系統會假設資料採用 ISO-8859-1 格式。網頁必須在<span class="varname"> charSet</span> 這個 JavaScript 變數中指定字元集。 </p> <p>多位元組字元支援可使用 UTF-8 儲存報表套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。 </p> <p>聯絡您的帳戶管理員或客戶服務，以變更現有報表套裝的多位元組字元支援。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <span class="wintitle"> 針對此套裝啟動 Ad Hoc Analysis</span> </td> 
-   <td colname="col2"> 可在執行 Ad Hoc Analysis 時檢視此報表套裝。 </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
