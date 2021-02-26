@@ -1,12 +1,12 @@
 ---
 description: 「區段產生器」提供畫布來拖放「量度維度」、「區段」和「事件」，以根據容器階層邏輯、規則和運算子來分段訪客。此一整合式開發工具可讓您建立並儲存簡單或複雜區段，用以識別跨瀏覽及頁面點擊的訪客屬性和動作。
 title: 建立區段
-topic: Segments
+topic: 區段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '2051'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '2040'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 * **Analytics 頂端導覽**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段」]**。
 * **[!UICONTROL Analysis Workspace]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Workspace」]**，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立區段」]**。
 * **[!UICONTROL Reports &amp; Analytics]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟現有報表並按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
-* **[!UICONTROL Ad Hoc Analysis]**：[在 Ad Hoc Analysis 中建立區段](/help/components/segmentation/segmentation-workflow/seg-build.md#build-segments)。
 * **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/data-requests/segmentation.html)。
 
 ## 產生器條件 {#section_F61C4268A5974C788629399ADE1E6E7C}
@@ -71,7 +70,7 @@ ht-degree: 100%
 1. **[!UICONTROL 區段]**：按一下標題可展開。
 1. **[!UICONTROL 報表套裝選取器]**：可讓您選取要將此區段儲存哪個報表套裝底下。您仍可以使用所有報表套裝中的區段。
 1. **[!UICONTROL 區段預覽]**：可讓您預覽關鍵量度，以查看您是否具備有效的區段及區段的廣度。代表如果您套用此區段，可以預期看到的資料集劃分。顯示 3 個同心圓以及一個清單，以顯示對資料集執行之區段的[!UICONTROL 點擊]、[!UICONTROL 瀏覽]和[!UICONTROL 訪客]符合項目的數目和百分比。在您建立或對區段定義進行變更之後，此圖表會立即更新。
-1. **[!UICONTROL 產品相容性]**：提供與您所建立區段相容的 Adobe Analytics 產品 (Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse) 清單。大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在您對區段定義進行變更之後，此圖表會立即更新。
+1. **[!UICONTROL 產品相容性]**：提供與您所建立區段相容的 Adobe Analytics 產品 (Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Data Warehouse) 清單。大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在您對區段定義進行變更之後，此圖表會立即更新。
 1. **[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：儲存或取消區段。按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;之後會進入「區段管理器」，您可在此管理區段。
 
 含有內嵌日期範圍的區段在 Analysis Workspace 和 [!UICONTROL Reports &amp; Analytics] 中持續以不同方式運作。在 Workspace 中，包含內嵌日期範圍的區段會覆寫面板日期範圍。相較之下，[!UICONTROL Reports &amp; Analytics] 則提供報表日期範圍及區段內嵌日期範圍的交集。
@@ -205,7 +204,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
+   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>然後 </p> <p> 購物車新增等於 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
