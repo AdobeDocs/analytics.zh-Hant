@@ -1,10 +1,10 @@
 ---
 description: 工作區常見問答集
 title: 常見問題集和疑難排解工作區
-translation-type: ht
-source-git-commit: 7fbeac0488fbe9b3d10d7c1242f31250f1c7dc16
-workflow-type: ht
-source-wordcount: '541'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 100%
 | Analysis Workspace 會改變 Adobe Analytics 中預先設定的報表嗎？ | 不會。因為這是單獨的環境，所以不會改變 Adobe Analytics 中您現有或預先設定的報表。您仍可應用採用 Analysis Workspace 的標準「Reports &amp; Analytics」和「Report Builder」報表。 |
 | 可以將 Analysis Workspace 用於 Data Warehouse 嗎？ | 不建議將 Analysis Workspace 用於大量資料匯出。它是視覺效果工作區，用於建立類似控制面板的分析專案。 |
 | 如何最佳化 Analysis Workspace 的效能？ | 請參閱[效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
-| Analysis Workspace 的功能與 Ad Hoc Analysis 相比如何？ | 請參閱[比較 Analysis Workspace 與 Ad Hoc Analysis](/help/analyze/analysis-workspace/workspace-faq/adhocanalysis-vs-analysisworkspace.md)。 |
 
 ## 疑難排解
 
