@@ -2,12 +2,12 @@
 description: 步驟說明如何從一個使用者帳戶將使用者帳戶項目 (控制面板、計算量度、日曆事件、警報、書籤、區段、Analysis Workspace 專案及已排程專案) 指派到另一個使用者的帳戶。
 subtopic: Users and groups
 title: 轉移使用者帳戶項目
-topic: Admin tools
+topic: 管理工具
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '233'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -30,8 +30,3 @@ ht-degree: 100%
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**，確認您要轉移所選帳戶資源。
 
    接收的使用者會收到原始使用者擁有之選定帳戶資源的所有權利，惟對已排程報表的權利除外。
-
-   >[!NOTE]
-   >
-   >Ad Hoc Analysis 資源無法轉移。如果貴組織使用多間登入公司，便無法在各登入公司之間轉移任何事物。
-
