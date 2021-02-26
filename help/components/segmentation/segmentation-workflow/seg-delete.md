@@ -1,12 +1,12 @@
 ---
 description: 列出在刪除區段之前，您應注意的一些事項。
 title: 刪除區段
-topic: Segments
+topic: 區段
 uuid: cb6db6ad-f400-4633-900a-8a02dcfccf2c
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '259'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '204'
 ht-degree: 100%
 
 ---
@@ -24,9 +24,3 @@ ht-degree: 100%
    ![](assets/duplicate_seg_names.png)
 
    您有個書籤是引用 mainprod 報表套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將剩下那個區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或已計劃報表是否正在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否正使用剩下那個區段。
-
-## 在 Ad Hoc Analysis 中編輯內嵌的已刪除區段 {#section_976D601DBD2244E38B0A0222E31D2610}
-
-現在，Ad Hoc Analysis 可讓您在[計算量度產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)中編輯內嵌的已刪除區段，並針對該區段執行「另存新檔」作業。
-
-不過，參照已刪除區段的其他已刪除區段仍維持不變。
