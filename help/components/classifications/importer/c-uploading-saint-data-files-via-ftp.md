@@ -2,13 +2,13 @@
 description: 說明如何透過 FTP 上傳 資料檔案的步驟。
 subtopic: Classifications
 title: FTP 匯入
-topic: Admin tools
+topic: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '723'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 每個上傳的新代碼是以當月份該變數的唯一項目為計算基準。
 
-當超過該月份的唯一客戶數上限時，您將無法在報告中看到超過唯一客戶數值的對應分類資料。您可以在 Data Warehouse 或 Ad Hoc Analysis 中查看這些分類。
+當超過該月份的唯一客戶數上限時，您將無法在報告中看到超過唯一客戶數值的對應分類資料。您可以在Data Warehouse中看到這些分類。
 
 >[!NOTE]
 >
