@@ -1,12 +1,12 @@
 ---
 description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe Analytics 區段。
 title: 管理區段
-topic: Report builder
+topic: Report Builder
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '919'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '918'
 ht-degree: 100%
 
 ---
@@ -44,16 +44,16 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_in_context.png)
 
-   如需容器的詳細資訊，請參閱[劃分指南](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
+   如需容器的詳細資訊，請參閱[劃分指南](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)。
 
 1. 區段產生器使用者介面將立即在 Internet Explorer 中啟動。區段產生器使用者介面將會依您指定的容器與篩選條件進行起始化。
 1. 將名稱與說明新增至區段後，請儲存。
 1. 返回 Report Builder ，按一下「重新整理」圖示以重新整理區段清單。
 1. 現在，您已可套用此區段。
 
-## 搜尋及套用區段{#section_CACA269B48E94CFD91C2D5A15E9C77B7}
+## 搜尋及套用區段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-任何在「報表與分析」、「Ad Hoc Analysis」、Report Builder 或「Data Warehouse」中建立的區段，都會出現在此區段清單中。若要重新整理清單，請按一下「重新整理」圖示 (![](assets/refresh_icon.png)。
+任何在「報表與分析」、「」、Report Builder 或「Data Warehouse」中建立的區段，都會出現在此區段清單中。若要重新整理清單，請按一下「重新整理」圖示 (![](assets/refresh_icon.png)。
 
 您可以套用一或多個區段至任何指定的請求。這包含依序排列的區段。
 
@@ -83,7 +83,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 | 其他篩選條件 > 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |
 | 其他篩選條件 > 批准 | 顯示所有已正式批准的區段。 |
 
-## 將區段控制項新增至活頁簿{#section_E3E5149A8464441FA5445A98DBD520AC}
+## 將區段控制項新增至活頁簿  {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
@@ -102,7 +102,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_control2.png)
 
-## 重新整理區段清單{#section_22E4A86789444B4A998532396B476EFB}
+## 重新整理區段清單  {#section_22E4A86789444B4A998532396B476EFB}
 
 每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 (![](assets/refresh_icon.png)，以重新整理區段的快取清單。
 
