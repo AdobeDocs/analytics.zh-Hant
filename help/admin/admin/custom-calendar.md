@@ -1,13 +1,13 @@
 ---
 description: 西曆模式以外的日曆選項。選項包括 4-4-5、4-5-4 和 5-4-4 日曆模式，這三種均用作零售業的標準。此外，報告還提供可以自行設定的完全自訂日曆選項。
 title: 自訂日曆
-topic: Admin tools
+topic: 管理工具
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 98%
+source-wordcount: '476'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 98%
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月有四週，二月有五週，三月有四週，以此類推。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月有四週，二月有四週，三月有五週，以此類推。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>：一月有五週，二月有四週，三月有四週，以此類推。 </li> 
-    </ul> <p>注意：除了不支援自訂日曆的 Data Warehouse 外，其他所有 Adobe Analytics 工具 (Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map、Ad Hoc Analysis) 皆支援此日曆選項。 </p> </td> 
+    </ul> <p>注意： 除了不支援自訂日曆的Data Warehouse外，所有Adobe Analytics工具(Analysis Workspace、報告與分析、Report Builder、Activity Map)都支援此日曆選項。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
