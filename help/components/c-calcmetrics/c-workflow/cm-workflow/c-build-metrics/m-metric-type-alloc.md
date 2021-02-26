@@ -2,11 +2,11 @@
 description: '瞭解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '908'
+ht-degree: 97%
 
 ---
 
@@ -32,14 +32,15 @@ ht-degree: 100%
 >
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
->* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。Analysis Workspace、Reports &amp; Analytics、Reporting API、Report Builder 和 Ad Hoc Analysis 會反映此次計算量度變更。如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
+>* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。此計算量度變更將反映在Analysis Workspace、報告與分析、報告API和Report Builder中。 如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
+
 >
 
 
 
 ## 線性配置自 2018 年 7 月 19 日起的新運作方式
 
-2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Ad Hoc Analysis、Reports &amp; Analytics、Report Builder、Activity Map 和 Reporting API。此次變更主要影響 eVar 和其他具持續性的維度。請注意，這些變更只會套用至計算量度，不會影響其他使用線性配置的報表 (例如 Reports &amp; Analytics 中的「頁面」報表)。其他使用線性配置的報表將繼續使用目前的線性配置方法。
+2018 年 7 月，Adobe 已變更線性配置在計算量度中的呈報方式。此變更會影響 Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map 和 Reporting API。此次變更主要影響 eVar 和其他具持續性的維度。請注意，這些變更只會套用至計算量度，不會影響其他使用線性配置的報表 (例如 Reports &amp; Analytics 中的「頁面」報表)。其他使用線性配置的報表將繼續使用目前的線性配置方法。
 
 下列範例將說明具有線性配置的計算量度在報表中將如何變更：
 
