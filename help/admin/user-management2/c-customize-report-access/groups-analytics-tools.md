@@ -1,14 +1,14 @@
 ---
 description: 啟用「一般」項目 (帳單、日誌等)、公司管理、工具、網站服務存取、Report Builder 和 Data Connectors 整合的使用者權限。
-keywords: groups;permissions
+keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂 Analytics 工具權限
-topic: Admin tools
+topic: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '673'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '656'
 ht-degree: 100%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 100%
 | [隱藏報表套裝](/help/admin/company/c-hide-report-suites.md) | 授予在 Adobe Analytics 使用者介面中隱藏報表套裝的權限。 |
 | **工具** | 這些設定可授予分析工具 (介面和應用程式) 和分段和計算量度之類進階功能的存取。 |
 | [目前的資料](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/current-data.html) | 授予在報告中使用「目前的資料」功能的權限。 |
-| [ Ad Hoc Analysis 授權使用者](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/ad-hoc-analysis/adhoc-home.html) | 授予存取 [!UICONTROL Ad Hoc Analysis] 的權限。 |
 | 網站服務存取 | 為非管理員啟用網站服務存取。產生網站服務憑證。 |
 | [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 授予此群組的成員對 [!UICONTROL Report Builder] 授權的存取。 |
 | [Analysis Workspace 存取](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html) | 授予對 Analysis Workspace 的使用者存取，即 [!DNL Adobe Analytics] 建議的報告介面。 |
