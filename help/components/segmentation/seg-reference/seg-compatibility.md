@@ -1,13 +1,13 @@
 ---
 description: 並非所有在「區段產生器」中建立的區段都與 Data Warehouse 相容。下表列出支援的功能。
 title: Data Warehouse 區段相容性
-topic: Segments
+topic: 區段
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '349'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace、Reports &amp; Analytics、Ad Hoc Analysis </th> 
+   <th> Analysis Workspace，報告與分析 </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,7 +47,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td> <b>維度</b> </td> 
-   <td>將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，只有 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 支援以下維度： 
+   <td>將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，這些維度僅在「Analysis Workspace報告與分析」中受支援： 
     <ul> 
      <li>進入伺服器 </li> 
      <li>進入類別 </li> 
