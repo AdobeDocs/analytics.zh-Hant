@@ -3,10 +3,10 @@ description: 'null'
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 97%
+source-wordcount: '495'
+ht-degree: 84%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 97%
 * 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[流失視覺化影片教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失視覺化影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## 區段作為流量和流失的基礎 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
-套用至工作區面板的區段，與在 Reports &amp; Analytics 或 Ad Hoc Analysis 中套用至流失和流量報表的區段，二者的執行方式略有不同。大部分時候，它們提供的結果完全相同。主要差異在於 Reports &amp; Analytics 和 Ad Hoc Analysis 可在序列的每一個步驟套用區段。如此一來，可能造成結果稍微不同。
+套用至「工作區」面板的區段與套用至「報告與分析」中流失和流量報表的區段運作略有不同。 大部分時候，它們提供的結果完全相同。主要的差異是「報告與分析」會在序列的每個步驟套用區段。 如此一來，可能造成結果稍微不同。
 
 以兩步驟的流失為例：
 
@@ -47,13 +47,13 @@ ht-degree: 97%
 
 ![](assets/fallout_seg.png)
 
-相較之下，在 Reports &amp; Analytics 和 Ad Hoc Analysis 計算區段時，會以此方式結合區段：
+相反地，當「報告與分析」計算區段時，區段會以下列方式組合：
 
 ![](assets/fallout_segments3.png)
 
-Reports &amp; Analytics 和 Ad Hoc Analysis 會透過每個步驟結合區段。當容器與流失在同一層級 (例如在瀏覽或訪客層級) 時，這會導致瀏覽或訪客數量相符。
+「報告與分析」將區段與每個步驟結合。 當容器與流失在同一層級 (例如在瀏覽或訪客層級) 時，這會導致瀏覽或訪客數量相符。
 
-然而，如果套用至面板的區段小於流失層級 (例如點擊層級)，則區段會因為報表結合區段的方式而顯示不同結果。再次重申，大部分情況下在 Analysis Workspace 的數量與在 Reports &amp; Analytics 和 Ad Hoc Analysis 的數量相符。只有在以下這些情況皆為真時才&#x200B;**不**&#x200B;相符：
+然而，如果套用至面板的區段小於流失層級 (例如點擊層級)，則區段會因為報表結合區段的方式而顯示不同結果。重申，在大多數情況下，Analysis Workspace的數字與「報告與分析」中的數字相符。 只有在以下這些情況皆為真時才&#x200B;**不**&#x200B;相符：
 
 * 區段與流失不在同一層級。
 * 區段所含的變數中，訪客數/造訪次數在瀏覽/訪客期間可有多個值。
