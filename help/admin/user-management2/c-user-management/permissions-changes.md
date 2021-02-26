@@ -1,15 +1,15 @@
 ---
 description: 舊版權限內容
-keywords: groups;permissions
+keywords: 群組;權限
 subtopic: Users and groups
 title: 使用者和群組權限變更
-topic: Admin tools
+topic: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->使用者和產品管理已移至[管理控制台](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理已移至[Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 ## 變更為何？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -50,7 +50,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>對預先定義的群組的變更 </p> </td> 
-   <td colname="col2"> <p> <b>管理員存取：</b>管理員不再需要預先定義的群組。管理員現在可以存取所有項目 (工具、量度和維度)，以及網站服務存取、Report Builder、Activity Map 和 Ad Hoc Analysis。 </p> <p>在此之後，群組的目的是授予或限制對非管理使用者的存取。 </p> <p> <b>自訂群組：</b>自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自訂分析工具</a>。 </p> <p> 屬於<span class="term">「全部報表存取權」</span>的使用者已移轉至具有下列存取權的自訂群組： </p> 
+   <td colname="col2"> <p> <b>管理員存取：</b>管理員不再需要預先定義的群組。管理員現在可以存取所有項目（工具、量度、維度），以及網站服務存取、Report Builder和Activity Map。 </p> <p>在此之後，群組的目的是授予或限制對非管理使用者的存取。 </p> <p> <b>自訂群組：</b>自訂群組已取代預先定義的群組。現有預先定義的群組將使用相同群組名稱移轉至自訂群組。將保留您所建立的任何自訂群組，包括其設定。不過，您將注意到設定的位置將會移動。例如，公司設定 (自訂管理控制台中) 現在位於<a href="/help/admin/user-management2/c-customize-report-access/groups-analytics-tools.md">自訂分析工具</a>。 </p> <p> 屬於<span class="term">「全部報表存取權」</span>的使用者已移轉至具有下列存取權的自訂群組： </p> 
     <ul id="ul_696A9243F5FD4AF187352C2F4B1CFDC2"> 
      <li id="li_683A0A3BB7214CFFBC61D5A4CD237F48">所有維度 </li> 
      <li id="li_D8FDBF6A32224731AB706315DEA0A03E">所有量度 </li> 
@@ -146,25 +146,25 @@ ht-degree: 99%
    <td colname="col1"> 建立使用者 </td> 
    <td colname="col2"> <p>Admin Console (建立使用者，並將對方新增至 Analytics <a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html">產品設定</a>後，也會在 Analytics 中建立該使用者的帳戶)。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 編輯使用者 </td> 
    <td colname="col2"> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
-   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> <p> 管理工具 - 在管理工具中針對移轉的使用者進行編輯，受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
-   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> 管理控制台</a> </p> <p> 管理工具 - 編輯受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
+   <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具 - 在管理工具中針對移轉的使用者進行編輯，受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
+   <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> <p> 管理工具 - 編輯受限於 API 金鑰管理，以及刪除/傳送資產。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 刪除使用者 </td> 
    <td colname="col2"> <p>Admin Console - 適用於 Experience Cloud 使用者 </p> <p>管理工具 - 適用所有使用者，但對於 Experience Cloud 使用者，只會刪除對應的 Analytics 使用者，而不是 Experience Cloud 帳戶。 </p> </td> 
    <td colname="col3"> <p>Admin Console - 適用於移轉的使用者。 </p> <p>管理工具 - 僅適用 Analytics 使用者。 </p> </td> 
-   <td colname="col4"> <p>管理控制台 </p> <p> 管理工具 - 在 Admin Console 中刪除 Experience Cloud 使用者或取消連結其帳戶之後，您可以從管理工具刪除 Analytics 登入。 </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> <p> 管理工具 - 在 Admin Console 中刪除 Experience Cloud 使用者或取消連結其帳戶之後，您可以從管理工具刪除 Analytics 登入。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 登入 Analytics </td> 
    <td colname="col2"> <p> <b>Experience Cloud：</b><span class="filepath">marketing.adobe.com</span>。僅適用 Experience Cloud 使用者。 </p> <p> <b>Analytics (舊版)：</b><span class="filepath">sc.omniture.com</span>。僅適用 Analytics 使用者，並且適用具有其 Analytics 憑證的 Experience Cloud 使用者 </p> </td> 
    <td colname="col3"> <p> <span class="filepath">marketing.adobe.com</span> - 僅適用 Experience Cloud 使用者。 </p> <p> <span class="filepath">sc.omniture.com</span> - 僅適用 Analytics 使用者，並且適用具有其 Analytics 憑證的 Experience Cloud 使用者。 </p> <p>在移轉期間，管理員可以對特定使用者關閉 <span class="filepath">omniture.com</span> 登入功能。 </p> </td> 
-   <td colname="col4"> <p>管理控制台 </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 建立群組 </td> 
@@ -176,25 +176,25 @@ ht-degree: 99%
    <td colname="col1"> 編輯群組中的使用者 </td> 
    <td colname="col2"> <p>Admin Console - 僅適用於 Experience Cloud 使用者 </p> <p>管理工具 - 可以從管理工具同時編輯群組的僅 Analytics 使用者和 Experience Cloud 使用者成員資格。不過，如果 Experience Cloud 使用者屬於 Admin Console 中的群組，則無法在管理工具中將他們從群組中移除。 </p> </td> 
    <td colname="col3"> <p>Admin Console - 僅限 Experience Cloud 使用者 </p> <p> 管理工具 - 僅 Analytics 登入仍可在管理工具中新增至群組/從群組移除。 </p> </td> 
-   <td colname="col4"> <p>管理控制台 </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 編輯群組的權限 </td> 
    <td colname="col2"> <p>Admin Console - 您可以編輯在 Admin Console 中建立的群組。 </p> <p>管理工具 - 您可以編輯任何群組的權限。 </p> </td> 
-   <td colname="col3"> <p>管理控制台 </p> </td> 
-   <td colname="col4"> <p>管理控制台 </p> </td> 
+   <td colname="col3"> <p>Admin Console </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 刪除群組 </td> 
    <td colname="col2"> <p>Admin Console - 您只能刪除在 Admin Console 中建立的群組。 </p> <p>管理工具 - 您僅可以刪除從管理工具建立的群組。 </p> </td> 
-   <td colname="col3"> <p>管理控制台 </p> </td> 
-   <td colname="col4"> <p>管理控制台 </p> </td> 
+   <td colname="col3"> <p>Admin Console </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 變更使用者的管理狀態 </td> 
    <td colname="col2"> <p>Admin Console - 僅適用於 Experience Cloud 使用者。 </p> <p>管理工具 </p> </td> 
    <td colname="col3"> <p>Admin Console - 僅適用於 Experience Cloud 使用者。 </p> <p>管理工具 - 僅適用 Analytics 使用者。 </p> </td> 
-   <td colname="col4"> <p>管理控制台 </p> </td> 
+   <td colname="col4"> <p>Admin Console </p> </td> 
   </tr> 
  </tbody> 
 </table>
