@@ -1,13 +1,13 @@
 ---
 description: 'null'
 title: 常見問題集
-topic: Segments
+topic: 區段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 100%
+source-wordcount: '2074'
+ht-degree: 97%
 
 ---
 
@@ -28,10 +28,8 @@ ht-degree: 100%
 * 區段在所有報表套裝中都通用。
 * [區段生產器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)簡化了區段的建立流程。
 * [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-
-* 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。之前，您是使用資料夾 (在 [!DNL Ad Hoc Analysis] 中) 來組織區段。
-
-* 您可以在 Ad Hoc Analysis 外建立[循序區段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
+* 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。
+* 您可以建立[循序區段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
 
 如需詳細資訊，請參閱 Digital Marketing 部落格上的[改進 Adobe Analytics 中的劃分](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)文章。
@@ -88,11 +86,11 @@ ht-degree: 100%
 
 **我是否可以在區段管理員中管理所有 Analytics 區段？**
 
-是的，所有區段都可以在 Analysis Workspace、Reports &amp; Analytics 和 Ad Hoc Analysis 的「區段管理員」中進行管理。「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
+是的，所有區段都可在區段管理員中管理。 「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
 
 管理員可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
 
-「Ad Hoc Analysis」和「Report Builder」只會顯示您建立的區段或專門與您共用的區段。
+Report Builder僅顯示您建立的區段或專門與您共用的區段。
 
 **我為何刪除不了區段？**
 
@@ -125,10 +123,6 @@ ht-degree: 100%
 
 ![](assets/seg_templates.png)
 
-**我現有的區段資料夾有什麼改變?**
-
-「區段管理員」不使用 (Ad Hoc Analysis) 資料夾，而是使用標記之間。您的資料夾名稱會自動轉換成標記，而這些標記會套用至對應的區段。
-
 **已套用區段的已計劃報表有什麼改變？**
 
 已計劃的報表會繼續使用您定義的區段正常運作。
@@ -143,15 +137,9 @@ ht-degree: 100%
 
 **Data Warehouse 區段有何變化？**
 
-所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分 Data Warehouse 區段也可繼續在 Analysis Workspace、Ad Hoc Analysis 和 Reports &amp; Analytics 等其他元件中運作。
+所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分的Data Warehouse區段也適用於其他元件，例如Analysis Workspace和報告與分析。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
-
-**Ad Hoc Analysis 中的我的最愛區段有什麼變化？**
-
-這些 Ad Hoc Analysis 區段在 Adobe Analytics 中會顯示為一般區段。
-
-不應將它們與「區段管理員」中可讓您將區段標記為我的最愛的「我的最愛」功能混淆。
 
 **預先建立的區段有何變化？**
 
@@ -161,9 +149,7 @@ ht-degree: 100%
 * **來自付費搜尋的瀏覽次數**
 * **具有訪客 ID Cookie 的瀏覽次數**
 
-這些區段會以區段範本的形式移轉至「區段產生器」。
-
-已套用這些區段的現有報表將可繼續正常運作。
+這些區段會以區段範本的形式移轉至「區段產生器」。已套用這些區段的現有報表將可繼續正常運作。
 
 **Experience Cloud (套裝) 區段有何變化：**
 
@@ -350,7 +336,7 @@ seg_definition.xml
 | 行動書籤長度 | Java 已啟用 | 付費搜尋 |
 | 行動 URL 長度 | 語言 |  |
 
-## 對於具有已知值之整數式維度的變更 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 對於具有已知值之整數式維度的變更  {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式：
 
