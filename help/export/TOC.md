@@ -5,9 +5,9 @@ user-guide-title: Analytics 匯出指南
 breadcrumb-title: 匯出指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
 translation-type: tm+mt
-source-git-commit: 6ff39a73a6e0bcbfb38d2e7264e48191af97f12d
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '278'
 ht-degree: 98%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 98%
    + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援元件](data-warehouse/component-support.md)
-   + [資料倉庫常見問答集](data-warehouse/faq.md)
+   + [Data Warehouse常見問答集](data-warehouse/faq.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [透過 Adobe Experience Cloud 使用 FTP 和 SFTP](ftp-and-sftp/ftp-overview.md)
@@ -53,7 +53,6 @@ ht-degree: 98%
       + [資料來源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
       + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [資料摘要](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
-      + [Ad Hoc Analysis 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-discover-reports.md)
       + [Data Warehouse 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
       + [工程技術服務參與 FTP](ftp-and-sftp/c-set-up-ftp-accounts/ftp-eng-services.md)
