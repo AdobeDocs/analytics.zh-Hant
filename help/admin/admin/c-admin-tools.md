@@ -2,10 +2,10 @@
 description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
 uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
-translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
-workflow-type: ht
-source-wordcount: '159'
+translation-type: tm+mt
+source-git-commit: 78f67c6a58395fb9520384094c13514ef29669d2
+workflow-type: tm+mt
+source-wordcount: '157'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 100%
 + [依 IP 位址排除](exclude-ip.md)
 + [尋找方法](finding-methods.md)
 + [一般帳戶設定](general-acct-settings-admin.md)
-+ [群組管理](group.md)
 + [內部 URL 篩選器](internal-url-filter-admin.md)
 + [記錄檔](logs.md)
 + [行銷管道](marketing-channels-admin.md)
