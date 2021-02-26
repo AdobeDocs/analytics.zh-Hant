@@ -2,8 +2,11 @@
 description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。
 title: 虛擬報表套裝概觀
 uuid: 51c63c56-dd58-4c23-a997-ea6942480d22
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '789'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 報表套裝名稱
 * 權限群組 (虛擬報表套裝可以指派給自己的權限群組)
 
-## 虛擬報表套裝的優點{#section_3420422FE6DF46EAB151FD9442AAFDC4}
+## 虛擬報表套裝的優點 {#section_3420422FE6DF46EAB151FD9442AAFDC4}
 
 客戶需支付次要伺服器呼叫的費用，因此排除這些呼叫可大幅節省費用。此外，虛擬報表套裝可完全回溯。如果全域報表套裝已包含資料，則新的虛擬報表套裝便會自動包含相關資料。新的次要報表套裝只會在建立後才開始收集資料，因此不會包含任何歷史資料。實作 Analytics 時，您只需要將資料傳送到單一報表套裝，並不需要為全域報表套裝和每個次要報表套裝建立實作。
 
@@ -38,7 +41,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 單一客戶資料檢視 (未來推出)
 * 可建立數量不受限制的虛擬報表套裝，藉此以區段劃分資料
 
-## 虛擬報表套裝的限制{#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
+## 虛擬報表套裝的限制  {#section_F22A6DEBDC9848429E446F4CC2C4EEDE}
 
 虛擬報表套裝有下列限制：
 
@@ -48,12 +51,12 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 * 即時報表
 * 無法如完整報表套裝般自訂設定和變數名稱
 
-## 虛擬報表套裝與多套裝標記之比較{#section_317E4D21CCD74BC38166D2F57D214F78}
+## 虛擬報表套裝與多套裝標記之比較  {#section_317E4D21CCD74BC38166D2F57D214F78}
 
 | 功能 | 虛擬報表套裝 | 多套裝標記 |
 |--- |--- |--- |
 | 提供即時或「目前的資料」報告 | 無 | 是 |
-| 在所有 Analytics 工具 (Analysis Workspace、Report Builder、Ad Hoc Analysis 等) 中皆可用 | 是。注意：您只能在「Reports &amp; Analytics」中進行編輯並將它們識別為虛擬報表套裝。不過，您可在其他工具中的報表套裝下拉式清單中選取它們。 | 是 |
+| 適用於所有Analytics工具(Analysis Workspace、Report Builder等) | 可以。**注意:** 您只能在「Reports &amp; Analytics」中進行編輯並將它們識別為虛擬報表套裝。不過，您可在其他工具中的報表套裝下拉式清單中選取它們。 | 是 |
 | 可以上傳資料上去 (透過分類、資料摘要等) | 無 | 是 |
 | 支援建立 DL 報表、書籤、控制面板、目標、警報、區段、計算量度... | 是 | 是 |
 | 可個別新增至權限群組 | 是 | 是 |
