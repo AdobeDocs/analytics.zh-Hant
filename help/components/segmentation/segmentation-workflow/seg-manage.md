@@ -1,13 +1,13 @@
 ---
 description: 「區段管理器」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標示為我的最愛。
 title: 管理區段
-topic: Segments
+topic: 區段
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 97%
 
 ---
 
@@ -45,15 +45,3 @@ ht-degree: 98%
 | 12 | 共用圖示    | 指出此區段已由您共用或與您共用。 |
 | 13 | 批准圖示    | 指出管理員已批准此區段。 |
 | 14 | 篩選條件 | 可讓您在「標記」、「報表套裝」、「擁有者」及「其他」(「全部顯示」、「我的」、「已共用給我」、「已核准」、「我的最愛」) 底下，看見並選取篩選器。 |
-
-## Ad Hoc Analysis 中的區段管理器 {#section_CC8BDC968EBC4BC1919870869D8443A9}
-
-Ad Hoc Analysis 中的「區段管理器」會顯示所有您所擁有和已共用給您的區段。
-
-若要存取 [!DNL ad hoc analysis] 中的「區段管理器」：
-
-* 前往左側面板中的「**[!UICONTROL 區段]**」標籤，然後按一下扳手圖示 ![](assets/wrench_icon.png)，再從功能表選取「整理區段&#x200B;**[!UICONTROL 」。]**
-
-![](assets/ad_hoc_organize_segments.png)
-
-如同 Web 使用者介面中的「區段管理器」，此主控台提供多項功能，包括區段共用、篩選、標記、核准、複製、刪除和標示為我的最愛。
