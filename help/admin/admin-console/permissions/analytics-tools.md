@@ -1,9 +1,9 @@
 ---
-source-git-commit: 9f1b7f13a35a4c5c9fc82a2d71cbdb544396f82e
-workflow-type: ht
-translation-type: ht
-source-wordcount: '559'
-ht-degree: 100%
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '547'
+ht-degree: 98%
 
 ---
 # Analytics 工具的產品設定檔權限
@@ -18,9 +18,9 @@ Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能�
 | 記錄檔 | 授予「管理員 > 記錄檔」的存取權。 |
 | 記錄檔 - 網站服務 | 透過 1.4 API 授予提取記錄檔的存取權。 |
 | 流量管理 | 授予「管理員 > 流量管理」的存取權。 |
-| 權限管理 | 已不再使用。授予「管理員 > 使用者管理」中舊版使用者管理介面的存取權。 |
-| 權限 (讀取) - 網站服務 | 已不再使用。允許使用者使用管理 API 檢視舊版 Analytics 權限。請改用 Adobe Admin Console。 |
-| 權限 (寫入) - 網站服務 | 已不再使用。允許使用者使用管理 API 編輯舊版 Analytics 權限。請改用 Adobe Admin Console。 |
+| 權限管理 | 已不再使用。授予「管理員 > 用戶管理」中舊版用戶管理介面的存取權。 |
+| 權限 (讀取) - 網站服務 | 已不再使用。允許用戶使用管理 API 檢視舊版 Analytics 權限。請改用 Adobe Admin Console。 |
+| 權限 (寫入) - 網站服務 | 已不再使用。允許用戶使用管理 API 編輯舊版 Analytics 權限。請改用 Adobe Admin Console。 |
 | 安全性 | 授予「管理員 > 公司設定 > 安全管理員」的存取權。 |
 | 支援 | 授予「管理員 > 公司設定 > 支援資訊」的存取權。 |
 | 網站服務 | 授予「管理員 > 公司設定 > 網站服務」的存取權。 |
@@ -32,7 +32,7 @@ Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能�
 | Excel 授權使用者 | 未使用。 |
 | Activity Map | 授予「工具 > Activity Map」的存取權。允許使用者使用 Activity Map 擴充功能。 |
 | 目前的資料 | 啟用在「Reports &amp; Analytics」報表中查看目前資料的選項。 |
-|  Ad Hoc Analysis 授權使用者 | 啟用「工具 > Ad Hoc Analysis」的下載按鈕，並允許使用者使用這項工具進行驗證。請參閱 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。 |
+|  Ad Hoc Analysis 授權使用者 | 臨機分析已停止運作。 請參閱 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。 |
 | 行動應用程式管理員 | 未使用。 |
 | 網站服務存取 | 授予使用 API 的能力，包括驗證第三方網站與傳送 API 呼叫的能力。 |
 | Report Builder | 啟用「工具 > Report Builder」的下載按鈕，並允許使用者使用 Microsoft Excel 進行驗證。 |
