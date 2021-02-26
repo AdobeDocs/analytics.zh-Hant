@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
 translation-type: tm+mt
-source-git-commit: 9538934c409ab4f2b089d0df748d8cfc5295656b
+source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -313,29 +313,6 @@ ht-degree: 100%
       + [在 Analysis Workspace 中檢視轉換的專案](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
       + [專案轉換工具常見問題集](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
    + [Ad Hoc Analysis 概觀](ad-hoc-analysis/adhoc-home.md)
-   + [快速入門](ad-hoc-analysis/c-getting-started.md)
-   + [管理](ad-hoc-analysis/c-administration.md)
-   + [使用 Java 11 執行 Ad Hoc Analysis](ad-hoc-analysis/adhoc-java.md)
-   + [設定現有報表](ad-hoc-analysis/c-reports-configure.md)
-   + [日期和日期範圍](ad-hoc-analysis/c-dates.md)
-   + [維度](ad-hoc-analysis/c-dimensions.md)
-   + [記錄檔](ad-hoc-analysis/c-log-file.md)
-   + [量度](ad-hoc-analysis/c-metrics.md)
-   + [報表概觀](ad-hoc-analysis/c-overview-standard-reports.md)
-   + [報表類型](ad-hoc-analysis/c-reports-types.md)
-   + [網站度量報表](ad-hoc-analysis/c-reports-site-metrics.md)
-   + [網站內容報表](ad-hoc-analysis/c-reports-site-content.md)
-   + [行動裝置報表](ad-hoc-analysis/c-reports-mobile.md)
-   + [流量來源報表](ad-hoc-analysis/c-reports-traffic.md)
-   + [路徑報表](ad-hoc-analysis/c-reports-paths.md)
-   + [產品報表](ad-hoc-analysis/c-reports-product.md)
-   + [訪客報表](ad-hoc-analysis/c-reports-visitor.md)
-   + [Adobe Target](ad-hoc-analysis/c-reports-tnt.md)
-   + [建立區段](ad-hoc-analysis/c-content-ref.md)
-   + [設定](ad-hoc-analysis/c-global-settings.md)
-   + [計劃管理員](ad-hoc-analysis/c-schedule.md)
-   + [表格產生器](ad-hoc-analysis/c-tablebuilder.md)
-   + [時間](ad-hoc-analysis/c-time.md)
 + Labs {#tech-previews}
    + [Labs 概觀](tech-previews/overview.md)
 + Adobe Analytics 控制面板 {#mobapp}
