@@ -1,12 +1,12 @@
 ---
 description: 針對以「區段產生器」建立並透過「區段管理員」管理的區段，說明建議的工作流程。
 title: 區段工作流程概觀
-topic: Segments
+topic: 區段
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '241'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ seg_workflow.xml
 
 ![](assets/step3_icon.png) [ 標記區段](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
-標記區段以方便進行組織和共用。標記會取代 Ad Hoc Analysis 中的資料夾階層。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。
+標記區段以方便進行組織和共用。請參閱如何規劃和指派標記來進行簡易與進階的搜尋及組織。
 
 ![](assets/step4_icon.png) [ 核准區段](/help/components/segmentation/segmentation-workflow/seg-approve.md)
 
