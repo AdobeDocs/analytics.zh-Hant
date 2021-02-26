@@ -5,10 +5,10 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
 translation-type: tm+mt
-source-git-commit: 7d102d7625e61de962836e866f0863168abcbaa6
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 97%
+source-wordcount: '637'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 97%
    + [點擊類型](dimensions/hit-type.md)
    + [小時](dimensions/hour-of-day.md)
    + [小時](dimensions/hour.md)
-   + [已識別狀態](dimensions/identified-state.md)
+   + [識別的狀態](dimensions/identified-state.md)
    + [Java 已啟用](dimensions/java-enabled.md)
    + [語言](dimensions/language.md)
    + [上次接觸管道](dimensions/last-touch-channel.md)
@@ -138,7 +138,7 @@ ht-degree: 97%
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間概觀](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
-   + [獨特的裝置](metrics/unique-devices.md)
+   + [不重複裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [件數](metrics/units.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
@@ -168,7 +168,6 @@ ht-degree: 97%
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
    + [常見問題集](segmentation/seg-transition.md)
    + [最佳作法](segmentation/best-practices.md)
-   + [Ad Hoc Analysis 的轉換指南](segmentation/seg-transition-ad-hoc.md)
 + 計算量度 {#calculated-metrics}
    + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
    + [常見問題集](c-calcmetrics/cm-transition.md)
