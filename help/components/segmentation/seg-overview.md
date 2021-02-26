@@ -1,13 +1,13 @@
 ---
 description: 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 title: 關於區段與容器
-topic: Segments
+topic: 區段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 99%
+source-wordcount: '3700'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 區段是根據使用巢狀容器模型的[!UICONTROL 訪客]、[!UICONTROL 瀏覽]和[!UICONTROL 點擊]層級階層。巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
 
-您可以在「區段產生器」中建立並儲存區段，或從流失報表 (在 [!DNL ad hoc analysis] 中) 產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+您可以在「區段產生器」中建立和儲存區段，或從「流失」報表產生區段(位於Analysis Workspace)。 您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
 ## 區段 {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -60,7 +60,7 @@ ht-degree: 99%
 
 ## 作法影片 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-此影片提供區段容器的簡短概述，以及如何使用它們： [Adobe Analytics中的區段容器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+此影片提供區段容器的簡短概述，以及如何使用它們：[Adobe Analytics的區段容器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 關於容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
