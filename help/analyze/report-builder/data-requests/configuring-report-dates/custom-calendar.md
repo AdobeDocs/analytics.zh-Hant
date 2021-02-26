@@ -1,10 +1,13 @@
 ---
 description: Report Builder 使用 Analytics 自訂日曆。您可以使用日曆來定義一週和一年的第一天，或使用其他零售日曆類型。日曆格式的作用各異，包括銷售比較和預測標準化，工資成本分析或實地盤存規範。
 title: 自訂日曆
-topic: Report builder
+topic: Report Builder
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -42,7 +45,7 @@ Report Builder 使用 Analytics 自訂日曆。您可以使用日曆來定義一
      <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月有四週，二月有五週，三月有四週，以此類推。 </li> 
      <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月有四週，二月有四週，三月有五週，以此類推。 </li> 
      <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-5-4</b>：一月有五週，二月有五週，三月有四週，以此類推。 </li> 
-    </ul> <p>注意：除了不支援自訂日曆的 Data Warehouse 外，其他所有 Adobe Analytics 工具 (Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map、Ad Hoc Analysis) 皆支援此日曆選項。 </p> </td> 
+    </ul> <p>注意： 所有Adobe Analytics工具(Analysis Workspace、報告與分析、Report Builder和Activity Map)都支援此日曆選項。 例外是Data Warehouse，它不支援自訂日曆。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
