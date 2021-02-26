@@ -2,13 +2,13 @@
 description: 資料來源提供另外兩種方式，將離線發生的事件整合到您的線上資料中。
 subtopic: Data sources
 title: 交易與客戶整合
-topic: Developer and implementation
+topic: 開發人員和實作
 uuid: 71f73a47-3436-4314-a182-36de4bd935ba
-translation-type: ht
-source-git-commit: aea3b4448b61e8b1b217b4f74b0b80c9fbedd070
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '316'
+ht-degree: 84%
 
 ---
 
@@ -64,8 +64,6 @@ ht-degree: 100%
 
 從線上變為離線的客戶通常是匿名。
 
-交易 ID 事件不納入「造訪參與」量度 (顯示在行銷報表中的量度)，但是會納入「訪客參與」量度 (僅用於特定分析)。
+交易ID事件不包含在「瀏覽參與率」量度中（顯示於行銷報表中的量度）。 這是因為交易ID資料與瀏覽無關（因為離線事件通常不屬於線上事件），但與訪客相關。
 
-這是因為交易 ID 資料未與造訪關聯 (因為離線事件通常不屬於線上事件)，但與訪客關聯。
-
-請參閱[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
+請參閱[交易ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
