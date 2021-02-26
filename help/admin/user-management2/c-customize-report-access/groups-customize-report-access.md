@@ -1,12 +1,15 @@
 ---
 description: 自訂分析工具、報表套裝工具、量度和維度的群組權限。
-keywords: groups;permissions
+keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂報表存取 - 概觀
-topic: Admin tools
+topic: 管理工具
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '590'
+ht-degree: 96%
 
 ---
 
@@ -15,17 +18,17 @@ source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。After all customers have migrated, help content for **[!UICONTROL Analytics]** > **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** will be retired.
+>使用者和產品管理功能已移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
 
 自訂分析工具、報表套裝工具、量度和維度的群組權限。
 
-**[!UICONTROL Add New Group]** > **[!UICONTROL Report Access]**
+**[!UICONTROL 新增群組]** > **[!UICONTROL 報表存取]**
 
-The [!UICONTROL Report Access] section on the [!UICONTROL Define User Group] page provides access categories that enable you to customize permissions at a granular level.
+[!UICONTROL 定義使用者群組]頁面上的[!UICONTROL 報表存取]區段提供可讓您在精細層次自訂權限的存取。
 
 ![](assets/report-access.png)
 
-For example, you can create a group with access to multiple Analytics tools ( [!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], and [!UICONTROL Report Builder]), with permission to specific metrics and dimensions (including eVars), and capabilities like segment or calculated metrics creation.
+例如，您可以建立群組，使其可取得多項 Analytics 工具 ([!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics] 及 [!UICONTROL Report Builder])、具有特定量度和維度 (包括 eVar) 之權限，並具有區段或計算量度建立等功能。
 
 ## 關於權限應該知道的事項 {#section_3D25D4A5BD044008870C5B98F696244E}
 
@@ -39,7 +42,7 @@ For example, you can create a group with access to multiple Analytics tools ( [!
  <tbody> 
   <tr> 
    <td colname="col1"> <p>管理員存取/預先定義的群組 </p> </td> 
-   <td colname="col2"> <p> 管理員不再需要預先定義的群組。管理員現在可以存取所有項目 (工具、量度和維度)，以及網站服務存取、Report Builder、Activity Map 和 Ad Hoc Analysis。 </p> <p>群組的目的是授予或限制對非管理使用者的存取。 </p> </td> 
+   <td colname="col2"> <p> 管理員不再需要預先定義的群組。管理員現在可以存取所有項目（工具、量度、維度），以及網站服務存取、Report Builder和Activity Map。 </p> <p>群組的目的是授予或限制對非管理使用者的存取。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂群組 </p> </td> 
@@ -59,11 +62,11 @@ For example, you can create a group with access to multiple Analytics tools ( [!
    <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
     </ul> <p>請參閱<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自訂維度權限</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://helpx.adobe.com/tw/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
    <td colname="col2"> <p>僅新客戶或已在 <a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Analytics 使用者移轉至 Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
