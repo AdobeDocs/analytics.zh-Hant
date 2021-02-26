@@ -2,10 +2,10 @@
 description: 報表時間處理是一項虛擬報表套裝設定，可讓您以非破壞性的追溯方式處理資料。
 title: 報表時間處理功能
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1426'
+translation-type: tm+mt
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+workflow-type: tm+mt
+source-wordcount: '1423'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
 * **每次應用程式啟動後開始新的造訪**：除造訪逾時設定外，您也可以在 Mobile SDK 記錄應用程式啟動事件時強制開始造訪，而不考量閒置視窗。此設定會影響造訪量度與造訪區段容器，以及 eVar 的造訪過期時間邏輯。
 * **透過事件開始新的造訪**：不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定將會影響您的造訪計數、造訪區段容器以及 eVar 的造訪過期時間邏輯。
 
-「報表時間處理功能」不支援傳統 Analytics 報告中提供的所有量度與維度。您僅可在 Analysis Workspace 中存取運用「報表時間處理」功能的虛擬報表套裝，無法在 [!UICONTROL Reports &amp; Analytics]、Ad Hoc Analysis、Data Warehouse、Report Builder、資料摘要或 Reporting API 中存取。
+「報表時間處理功能」不支援傳統 Analytics 報告中提供的所有量度與維度。您僅可在 Analysis Workspace 中存取運用「報表時間處理」功能的虛擬報表套裝，無法在 [!UICONTROL Reports &amp; Analytics]、Data Warehouse、Report Builder、資料摘要或 Reporting API 中存取。
 
 此外，「報表時間處理功能」僅會處理來自報告日期範圍內 (以下稱為「日期時段」) 的資料。這表示在報告日期範圍前，針對訪客設定為「永不過期」的 eVar 值不會保存至報告視窗，也不會出現在報表中。另外，這也表示客戶忠誠度測量均僅以顯示於報告日期範圍內的資料為根據，而非報告日期範圍前的完整記錄。
 
