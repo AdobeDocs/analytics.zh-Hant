@@ -1,13 +1,13 @@
 ---
 description: 統計報表套裝從多個子報表套裝中收集資料，然後將它們顯示在簡化的資料集合中。
 title: 統計和全域報表套裝
-topic: Admin tools
+topic: 管理工具
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 98%
 
 ---
 
@@ -53,6 +53,6 @@ ht-degree: 100%
 
 **報表**：全域報表套裝會針對所有維度提供資訊；統計只提供高階報表的彙整資料。
 
-**支援的產品**：統計只能用於 Reports &amp; Analytics，在 Analysis Workspace、Data Warehouse 或 Ad Hoc Analysis 則不受支援。全域報表套裝可用於所有產品。
+**支援的產品**：統計只能用於 Reports &amp; Analytics，在Analysis Workspace或Data Warehouse，不支援這些項目。 全域報表套裝可用於所有產品。
 
 **彙總報表套裝數量**：統計最多只支援 40 個子報表套裝。無論您擁有多少網域或應用程式，皆可實作全域報表套裝。
