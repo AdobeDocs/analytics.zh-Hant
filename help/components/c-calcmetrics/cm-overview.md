@@ -1,13 +1,13 @@
 ---
 description: 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。
-keywords: Calculated Metrics;Derived Metrics;Advanced Calculated Metrics
+keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 translation-type: tm+mt
-source-git-commit: e659c6ee0a503c01f7603a0fecf99a093e876caa
+source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '595'
+ht-degree: 97%
 
 ---
 
@@ -39,16 +39,11 @@ ht-degree: 100%
 
 您可以
 
-* 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Ad Hoc Analysis]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]內建立量度。
+* 建立跨[!UICONTROL Analysis Workspace]、[!UICONTROL 報告與分析]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]的量度。
 * [無須變更實作](https://youtu.be/CuQTm9RaUpY)，即可建立衍生自報表執行時間的區段量度。因為這些量度的根據是區段，所以可查看其歷史資料。
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
 * (僅限進階計算量度) 量度上的區段。例如，您可以建立「新訪客」的量度，計算這是他們第一次工作階段的人員數量。
 * (僅限進階計算量度) 納入統計函數以協助您說明資料。例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
-* 在其他 [!DNL Analytics] 工具中利用 [!UICONTROL Ad Hoc Analysis] 內建立的量度，反之亦然。
-
-   >[!NOTE]
-   >
-   >您可繼續在 Ad Hoc Analysis 中建立量度。其計算量度產生器使用者介面現在類似於新的量度產生器。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
