@@ -128,5 +128,5 @@ ht-degree: 98%
       + [Analytics 整合變數](data-connectors/silverpop-overview/silverpop-variables.md)
       + [Silverpop 整合](data-connectors/silverpop-overview/silverpop-wizard.md)
       + [Analytics 外掛程式程式碼](data-connectors/silverpop-overview/silverpop-analytics-code.md)
-+ 匯入使用案例 {#use-cases}
++ 導入使用案例{#use-cases}
    + [使用Data Sources匯入付費搜尋量度](use-cases/paid-search-metrics.md)
