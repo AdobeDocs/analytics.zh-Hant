@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的作法指示，以及 Report Builder 和 Activity Map 之類工具。
+user-guide-description: 提供Analysis Workspace的操作說明（Analytics的主要分析和視覺化工具），以及Adobe Analytics儀表板、Report Builder和Activity Map等工具。
 translation-type: tm+mt
-source-git-commit: 29df2b4ee8ebf671b8ac7b97dbc8e31ddb765f2b
+source-git-commit: a52f2f916db322ddb6226a5d3aa1f5585bf09539
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 100%
+source-wordcount: '1017'
+ht-degree: 97%
 
 ---
 
@@ -306,15 +306,6 @@ ht-degree: 100%
    + [日曆事件](reports-analytics/t-calendar-event.md)
    + [常見問題集](reports-analytics/frequently-asked-questions.md)
    + [疑難排解](reports-analytics/report-troubleshooting.md)
-+ Ad Hoc Analysis {#ad-hoc-analysis}
-   + Ad Hoc Analysis 專案轉換器 {#aha-project-converter}
-      + [Ad Hoc Analysis 專案轉換器概觀](ad-hoc-analysis/c-aha-project-converter/aha2aw-overview.md)
-      + [在 Ad Hoc Analysis 中轉換專案](ad-hoc-analysis/c-aha-project-converter/aha2aw-workflow.md)
-      + [在 Analysis Workspace 中檢視轉換的專案](ad-hoc-analysis/c-aha-project-converter/view-projects-workspace.md)
-      + [專案轉換工具常見問題集](ad-hoc-analysis/c-aha-project-converter/aha2aw-converter-faq.md)
-   + [Ad Hoc Analysis 概觀](ad-hoc-analysis/adhoc-home.md)
-+ Labs {#tech-previews}
-   + [Labs 概觀](tech-previews/overview.md)
 + Adobe Analytics 控制面板 {#mobapp}
    + [Adobe Analytics 控制面板 - 概觀](mobile-app/home.md)
    + [組織者指南](mobile-app/curator.md)
@@ -325,3 +316,5 @@ ht-degree: 100%
    + [Analytics 報表 API 概觀](c-reporting-api/c-reporting-api.md)
    + [Analytics 報表 API 比較](c-reporting-api/api-comparison.md)
    + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
++ Labs {#tech-previews}
+   + [Labs 概觀](tech-previews/overview.md)
