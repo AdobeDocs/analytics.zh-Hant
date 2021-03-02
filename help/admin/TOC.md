@@ -121,7 +121,7 @@ ht-degree: 99%
    + [網站服務](company/web-services-admin.md)
    + [Report Builder 報表](company/report-builder-reports-admin.md)
    + [單一登入](company/single-signon-admin.md)
-   + [待定動作](company/pending-actions-admin.md)
+   + [擱置中的動作](company/pending-actions-admin.md)
    + [品牌結合](company/co-branding-admin.md)
    + [隱藏報表套裝](company/c-hide-report-suites.md)
    + [安全管理器](company/security-manager.md)
