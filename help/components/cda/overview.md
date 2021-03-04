@@ -2,10 +2,10 @@
 title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 translation-type: tm+mt
-source-git-commit: a46b68c7e4ea82b31ed400bf3e6180a7358bb3b5
+source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 95%
+source-wordcount: '667'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,7 @@ ht-degree: 95%
 * 跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
 * Adobe Analytics 報表套裝無法對應至多個 IMS 組織。由於 CDA 會連結一個指定報表套裝中的裝置，因此 CDA 無法用於連結跨多個 IMS 組織的資料。
 * CDA 目前與客戶屬性不相容。這兩個功能可在參考相同來源報表套裝的獨立虛擬報表套裝中保持一致。
+* CDA目前與A4T不相容。
 * 跨裝置分析使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](../vrs/vrs-about.md)和[報表時間處理](../vrs/vrs-report-time-processing.md)。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。來源報表套裝中的資料不會變更。
