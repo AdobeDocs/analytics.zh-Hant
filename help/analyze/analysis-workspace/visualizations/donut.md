@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: 在工作區專案中使用環圈圖視覺化。
 title: 環形圖
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '36'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '43'
+ht-degree: 81%
 
 ---
 
