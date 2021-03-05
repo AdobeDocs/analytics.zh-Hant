@@ -1,21 +1,21 @@
 ---
-description: 'null'
+description: 討論分頁、篩選和排序的影片。
 title: 表格分頁、篩選及分類
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 82%
+source-wordcount: '96'
+ht-degree: 93%
 
 ---
 
 
 # 表格分頁、篩選及分類
 
-若需總覽，請觀看本教學課程影片：
+如需概略了解相關資訊，請觀看此教學課程影片：
 
-[Analysis Workspace 的表格分頁、篩選及分類功能](https://docs.adobe.com/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
+[Analysis Workspace 的表格分頁、篩選及分類功能](https://docs.adobe.com/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/pagination-filtering-sorting-tables.html)
 
 ## 進階篩選選項 {#section_36E92E31442B4EBCB052073590C1F025}
 
