@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 在工作區專案中使用地圖視覺化。
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 98%
 
 ---
 
@@ -22,18 +25,18 @@ Analysis Workspace 中的地圖視覺效果
 
 ## 建立地圖視覺效果 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
-1. From the list of visualizations, drag **[!UICONTROL Map]** into a Freeform panel:
+1. 從視覺效果清單中，將&#x200B;**[!UICONTROL 「地圖」]**&#x200B;拖曳至自由面板：
 
    ![](assets/map-viz1.png)
 
 1. 從量度清單拖曳量度 (包括計算量度)。
-1. 指定您要提取的資料來源。(只有當您已為行動應用程式資料啟用「位置追蹤」時，才會顯示此對話方塊。)
+1. 指定您要提取的資料來源(只有為行動應用程式資料啟用「位置追蹤」後，系統才會顯示此對話方塊)。
 
 <table id="table_CD54B433464B4282A7524FB187016C47"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>行動裝置緯度/經度</b> </p> </td> 
-   <td colname="col2"> <p>此選項代表行動應用程式資料。 </p> <p>只有當您在<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">&lt;選取報表套裝&gt;</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">行動管理</span> &gt; <span class="uicontrol">啟用位置追蹤」</span></span>為您的報表套裝啟用此選項時，才會顯示此選項。 </p> <p>這是預設設定 (如果已啟用位置追蹤)。 </p> </td> 
+   <td colname="col2"> <p>此選項代表行動應用程式資料。 </p> <p>唯有在<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">&lt;選取報表套裝&gt;</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">行動管理</span> &gt; <span class="uicontrol">啟用位置追蹤」</span></span>為報表套裝啟用此選項，系統才會顯示此選項。 </p> <p>這是預設設定 (如果已啟用位置追蹤)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>地理維度</b> </p> </td> 
@@ -42,7 +45,7 @@ Analysis Workspace 中的地圖視覺效果
  </tbody> 
 </table>
 
-1. 按一下 **[!UICONTROL Build]**.
+1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
    您看到的第一張檢視會是「世界視圖」以及與此類似的泡泡圖地圖。
 
@@ -57,7 +60,7 @@ Analysis Workspace 中的地圖視覺效果
       * 顯示負數：舉例來說，如果您繪製的是逐年比較量度，則地圖可以在紐約上顯示 -33％。
       * 對於類型為「百分比」的量度，叢集會一併平均分配百分比。
       * 綠/紅色彩配置：正值/負值
-   * 按住 **鍵並移動地圖，以**&#x200B;旋轉[!UICONTROL Ctrl] 2D 或 3D 地圖。
+   * 按住 [!UICONTROL Ctrl] 鍵並移動地圖，以&#x200B;**旋轉** 2D 或 3D 地圖。
 
    * 使用下述[設定](/help/analyze/analysis-workspace/visualizations/map-visualization.md#section_5F89C620A6AA42BC8E0955478B3A427E)，**切換**&#x200B;至不同的檢視 (例如熱度圖)。請注意，泡泡圖檢視是預設設定。
 
