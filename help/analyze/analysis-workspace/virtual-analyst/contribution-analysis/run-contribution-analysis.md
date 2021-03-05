@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 在工作區專案中執行貢獻分析報表。
 title: 執行貢獻分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '593'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '601'
+ht-degree: 98%
 
 ---
 
