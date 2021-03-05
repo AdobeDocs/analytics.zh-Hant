@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 智慧提醒的使用案例。
 title: 智慧型警報 - 使用案例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +25,7 @@ Update screenshots for better readability.
 
 ## 從表格選取範圍建立警報 {#section_AE6D42E1255D498D908A2FA60370A419}
 
-In Freeform Tables, you can now create in-context alerts by right-clicking a table row and selecting **[!UICONTROL Create Alert from Selection]**.
+在自由表格中，此時可以用滑鼠右鍵按一下表格列並選取&#x200B;**[!UICONTROL 「從選取範圍建立警報」]**，建立內容感知警報。
 
 ![](assets/alert_selection.png)
 
