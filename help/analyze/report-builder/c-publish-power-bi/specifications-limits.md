@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 使用Report Builder和MicrosoftPower BI時的限制。
 title: 限制與規格
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 translation-type: tm+mt
-source-git-commit: 0f362008f0041a6ac31437ce4da934064c3fa134
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 98%
+source-wordcount: '624'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 98%
    **以下是視覺效果「將會」中斷的範例：**
 
    1. 在 Report Builder 中，使用「頁面」維度和「頁面檢視」量度建立含有一個請求的活頁簿。
-   2. 將此請求排程為發佈至Power BI。
+   2. 排程要發佈至Power BI的此請求。
    3. 在 Power BI 中，針對「頁面」與「頁面檢視」建立視覺效果。
    4. 現在，移除請求中的「頁面檢視」以編輯活頁簿。
    5. 使用更新的活頁簿編輯排程，然後將請求重新發佈至 Power BI。
