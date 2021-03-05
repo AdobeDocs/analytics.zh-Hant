@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: DFA資料連接器的常見問題。
 keywords: DFA
 title: 常見問題集
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 100%
+source-wordcount: '889'
+ht-degree: 99%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 >
 > CSID 不會在 2.0 版的整合中使用，因此 CSID 交涉程序並不適用。
 
-## 我使用 2.0 版的整合，但並未出現我的 DFA 廣告的成本量度。為什麼會這樣?  {#section-805748111bbe4bbf918d6dbbb2641fff}
+## 我使用 2.0 版的整合，但並未出現我的 DFA 廣告的成本量度。為什麼會這樣?   {#section-805748111bbe4bbf918d6dbbb2641fff}
 
 成本量度必須在 Google DFA 端開啟並提供於 DFA 介面中，同時也須在 Data connectors 精靈中開啟。首先應確認的是，您已對應 DFA 媒體成本的 Analytics 事件，並提供貨幣代碼。如果您已對應媒體成本事件，並且完成並儲存精靈，則 DFA API 將會開啟 DFA omnitureCostData 旗標。這會告知 Google 這些量度應在夜間檔案中傳送。您可以透過 DFA 介面查看已整合之 Floodlight 的屬性，以進一步確認 omnitureCostData 已啟用。在檢查過這兩處後，最後請確定屬於已整合之 Floodlight 一部分的廣告是否指定了成本資料和成本結構。成本資料若未提供在 DFA 介面中，則不會顯示在 Analytics 中。
 
-## 為何有某些廣告不會顯示任何 DFA 曝光數或閱覽，但會顯示點按和點進?  {#section-39b2eeeefd7f43d1a373df0b987bacef}
+## 為何有某些廣告不會顯示任何 DFA 曝光數或閱覽，但會顯示點按和點進?   {#section-39b2eeeefd7f43d1a373df0b987bacef}
 
 有些廣告只會記錄點按資料，我們稱之為點按追蹤。這些類型的廣告不會傳回自查詢 Floodlight 伺服器起的最後一個曝光數資料。若要確認某個廣告是點按追蹤廣告還是純點按廣告，請連絡您的 DFA 代理商或 Google 支援人員。
 
