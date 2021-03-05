@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: 在「報告與分析」中使用警報。
 subtopic: Alerts
 title: 警報
-topic: Reports and analytics
+topic: Reports and Analytics
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '881'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '888'
+ht-degree: 99%
 
 ---
 
