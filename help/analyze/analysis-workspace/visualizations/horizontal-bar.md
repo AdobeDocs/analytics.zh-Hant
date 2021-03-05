@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 在工作區專案中使用水準橫條視覺化。
 title: 橫條圖和堆疊橫條圖
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '70'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +21,11 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 ## 堆疊橫條圖 {#section_50C08E9E20A94024A6553BC352ADB597}
 
-This visualization is like the [!UICONTROL Horizontal Bar Chart], but the series bars appear stacked.
+此視覺效果類似[!UICONTROL 橫條圖]，但數列橫條互相堆疊。
 
 ![](assets/horizontal-bar-stacked.png)
 
-The [!UICONTROL Horizontal Bar Stacked] visualization setting on bar stacked visualizations turns the chart into a &quot;100% stacked&quot; visualization:
+「堆疊長條圖」視覺效果中的[!UICONTROL 「堆疊橫條圖」]視覺效果設定可將圖表顯示為「100% 堆疊」的視覺效果：
 
 ![](assets/horizstacked100.png)
 
