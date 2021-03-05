@@ -1,9 +1,12 @@
 ---
-description: 'null'
+description: 在工作區專案中使用流量視覺化。
 title: 流量設定
 uuid: 99822765-1d4f-4c23-a787-b089089cb8d7
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 96%
 
 ---
 
