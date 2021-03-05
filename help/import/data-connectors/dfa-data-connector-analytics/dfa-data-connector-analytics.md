@@ -1,14 +1,14 @@
 ---
-description: 'null'
+description: 使用與Adobe Analytics整合的DoubleClick for Advertisers。
 keywords: DFA
 title: Adobe Analytics 的 DFA Data Connectors
 topic: Data connectors
 uuid: 8d04909f-6f17-4b7d-a199-99c923253474
 translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 99%
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止Adobe資料連接器技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 在現今日趨複雜且競爭激烈的線上市場中，線上廣告主和代理商必須持續增進他們對線上市場環境的瞭解，並瞭解其廣告花費的回報。雖然廣告主、代理商和發佈者都各有其工具可協助他們達成這些目標，但要手動從完全不同的資料系統和程序中彙整資料，可能會嚴重影響到線上行銷活動的效益，而造成促銷活動效益不盡理想、資料不相符和混淆。
 
