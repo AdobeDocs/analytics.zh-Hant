@@ -1,12 +1,12 @@
 ---
-description: 'null'
+description: 在專案中使用維度前，先檢視維度的頂端值。
 title: 預覽維度
 uuid: dd1f87de-2d83-4c6b-b8cd-ce81c741d7a3
-translation-type: ht
-source-git-commit: b36505c9fd7bf1d2da4d076d6b49298f01ad1cfc
-workflow-type: ht
-source-wordcount: '180'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 93%
 
 ---
 
