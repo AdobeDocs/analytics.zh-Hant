@@ -1,11 +1,11 @@
 ---
-description: 'null'
+description: 設定流失視覺效果.
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '679'
+translation-type: tm+mt
+source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+workflow-type: tm+mt
+source-wordcount: '682'
 ht-degree: 100%
 
 ---
