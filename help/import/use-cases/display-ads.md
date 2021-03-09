@@ -1,10 +1,10 @@
 ---
 title: 將Google Display廣告資料整合至Adobe Analytics
-description: null
+description: 此整合可讓您將客戶行為與Google AdWords的促銷活動和成本資料建立關聯。
 translation-type: tm+mt
-source-git-commit: caa4042cbef2f588452f9fdd70c5f4bca976ca83
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '122'
 ht-degree: 0%
 
 ---
