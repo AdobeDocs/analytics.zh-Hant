@@ -1,11 +1,11 @@
 ---
-title: 設定 Advertising 帳戶
-uuid: 4e37caa3-e4a5-43ad-97c0-12db62ad5283
+title: 如何在Advertising Analytics建立廣告帳戶
+description: 可讓您建立新的廣告帳戶，並將多個帳戶對應至多個報表套裝。
 translation-type: tm+mt
-source-git-commit: 82cf5ddfd4d18af09c2dbedba20514e4b643a94b
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 100%
+source-wordcount: '869'
+ht-degree: 97%
 
 ---
 
@@ -78,7 +78,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>報表套裝映射 </p> </td> 
-      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
+      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
