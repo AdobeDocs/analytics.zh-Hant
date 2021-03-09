@@ -1,13 +1,11 @@
 ---
-keywords: Analysis Workspace
-title: Analysis Workspace 概述
-topic: Reports and analytics
-uuid: 4df6be48-2c88-4b9d-9536-ed64ffbb6ee4
+title: 什麼是Analysis Workspace，我要如何使用它？
+description: Analysis Workspace是Adobe Analytics的主要分析工具。 它可讓您使用面板、表格、視覺化和其他元件，讓資料更生動、組織資料集、共用和排程專案等功能。
 translation-type: tm+mt
-source-git-commit: e70cd7056a88f58a905c5a3cb9a173b31a7b53be
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 95%
+source-wordcount: '567'
+ht-degree: 89%
 
 ---
 
@@ -28,7 +26,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 使用培訓教學課程 {#training-tutorial}
 
-登入後，系統會先提供 Analysis Workspace 培訓教學課程，逐步引導您了解常用術語，並為您說明首次在 Workspace 建立分析的步驟。若要開始瀏覽教學課程，請按一下&#x200B;**[!UICONTROL 「建立新專案」]**，接著在新專案模式中選取&#x200B;**「培訓教學課程」**。
+登入後，系統會先提供 Analysis Workspace 培訓教學課程，逐步引導您了解常用術語，並為您說明首次在 Analysis Workspace 建立分析的步驟。若要開始瀏覽教學課程，請按一下&#x200B;**[!UICONTROL 「建立新專案」]**，接著在新專案模式中選取&#x200B;**「培訓教學課程」**。
 
 ![](assets/training-tutorial.png)
 
@@ -58,11 +56,11 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ### 面板
 
-**面板**&#x200B;可供在專案中組織可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂端的&#x200B;**[!UICONTROL 「面板」]**&#x200B;圖示，即可檢視完整的可用[面板](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/panels.html)清單。
+**面板**&#x200B;可供在專案中組織可能包含許多表格和視覺效果的分析。Analysis Workspace 中提供的許多面板皆可根據使用者輸入的少量內容，產生完整的分析集。在左側邊欄中，選取頂端的&#x200B;**[!UICONTROL 「面板」]**&#x200B;圖示，即可檢視完整的可用[面板](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/panels.html)清單。
 
 ![](assets/build-panels.png)
 
 ## 其他資源 {#resources}
 
-* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html)。
+* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html)。
 * 參閱 [Analysis Workspace 新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)，瞭解新功能的相關更新。
