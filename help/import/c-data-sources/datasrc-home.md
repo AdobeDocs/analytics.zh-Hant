@@ -1,14 +1,11 @@
 ---
 description: Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線資料以用於報表。
-subtopic: Data sources
-title: 資料來源概觀
-topic: Developer and implementation
-uuid: 8014e97d-2f1b-4cc6-ad8f-885f85bec8b8
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '248'
-ht-degree: 100%
+title: 什麼是Data Sources，它們對我有何好處？
+translation-type: tm+mt
+source-git-commit: a653fe3ad1056d5a40217d1481e8d2c5c7f849b2
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 90%
 
 ---
 
@@ -39,4 +36,4 @@ Adobe Analytics 資料來源可讓您手動匯入更多重要的線上或離線�
 >
 >對於交易 ID 資料來源，若想將離線資料關聯至線上事件，必須先由客戶服務啟用交易 ID 記錄。如需詳細資訊，請參閱[交易 ID 記錄](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_30D6D47AEC0F4A36B87EBFE4C858F20C)。
 
-匯入後，在 Digital Marketing Suite 中可使用大部分的資料來源資料。
+匯入後，大部分Data Sources資料都可在Adobe Experience Cloud地區使用。
