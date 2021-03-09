@@ -1,12 +1,10 @@
 ---
 description: 統計報表套裝從多個子報表套裝中收集資料，然後將它們顯示在簡化的資料集合中。
 title: 統計和全域報表套裝
-topic: 管理工具
-uuid: c90b8e38-2c95-4318-8165-a362106b6142
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 98%
 
 ---
