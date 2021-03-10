@@ -5,10 +5,10 @@ user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: '從外部來源大量或即時將資料讀入 Analytics。 '
 translation-type: tm+mt
-source-git-commit: a6b12b7a343318186b5672dbabd8b7c56d09e653
+source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 98%
+source-wordcount: '529'
+ht-degree: 97%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 98%
       + [Demandbase 標準維度](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
       + [Demandbase 自訂維度](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
    + Adobe Analytics 的 DFA Data Connectors {#dfa}
+      + [DFA整合生命週期結束資訊](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
       + [Adobe Analytics 的 DFA Data Connectors](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
       + [必備條件](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
       + [整合功能](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
