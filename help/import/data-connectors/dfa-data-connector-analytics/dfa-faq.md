@@ -5,10 +5,10 @@ title: 常見問題集
 topic: Data connectors
 uuid: 59d187e9-1ec1-4cf3-8831-b981f87c9372
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 6669f678c1327b6af4a5b67c8033a9b7d8c9dbcf
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 95%
 
 ---
 
@@ -47,6 +47,6 @@ ht-degree: 99%
 
 其次，請依照[確認成功的 DFA 整合](../dfa-data-connector-analytics/dfa-integration.md)中的步驟，確認您具備有效的整合。如果您在著陸頁面上看見具有 Adobe 點擊的 DFA 追蹤代碼，則應該會在 DFA 促銷活動報表中看見點進。如果您未看到報表套裝傳入，請確認報表套裝符合登陸頁面的 *`s.account`* 變數，以及「報表與分析」中正在檢視的報表套裝。如果相符，請在閱覽 eVar 報表中檢查顯示如下的追蹤代碼: DFA:XXX:XXX:XXX:llXXX:XXX:XXX:XXX:XXX。
 
-這些代碼表示 DFA VISTA 規則無法從 DFA 摘錄原始資料。此問題是可以修正的；請透過 Adobe 帳戶代表開立支援票證。
+這些代碼表示 DFA VISTA 規則無法從 DFA 摘錄原始資料。通過通過Adobe帳戶代表開啟支援票證可以解決此問題。
 
-如果前述解決方案都未涵蓋您的問題，請參閱[協調量度差異](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以探索其他可能性。
+如果上述所有解決方案都未說明問題，請參閱[協調量度差異](../dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)以探索其他可能性。
