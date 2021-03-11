@@ -1,11 +1,11 @@
 ---
 title: 依欄位彙整
 description: 了解使用依欄位彙整方式來結合資料的先決條件和限制。
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '226'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+workflow-type: tm+mt
+source-wordcount: '303'
+ht-degree: 68%
 
 ---
 
@@ -28,7 +28,8 @@ ht-degree: 100%
 ## 依欄位彙整的專屬限制
 
 * 依欄位彙整在使用者識別率高的報表套裝上效果最佳。如果您的報表套裝識別率或登入率很低，請考慮使用 [Co-op 圖表](device-graph.md)。
+* 雖然prop和eVar都有處理大小寫字元以用於報告用途的規則，但欄位式拼接不會以任何方式轉換用於拼接的prop或eVar。 欄位式拼接會使用指定欄位中的值，因為它存在於後VISTA規則和後置處理規則。 例如，如果prop/eVar中有時出現「Bob」一詞，有時出現「BOB」一詞，這些詞會被視為兩個不同的人。
 
 ## 後續步驟
 
-您的組織達到所有要求並了解相關限制後，就可以開始[設定跨裝置分析](setup.md)。
+一旦貴組織符合所有要求並瞭解限制後，您就可以開始「設定跨裝置分析」([ Setting up Cross-Device Analytics)](setup.md)。
