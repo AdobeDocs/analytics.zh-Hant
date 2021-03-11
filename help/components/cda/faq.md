@@ -1,11 +1,11 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '1319'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
+workflow-type: tm+mt
+source-wordcount: '1377'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,11 @@ ht-degree: 100%
 
 ## CDA 可連結多久以前的訪客？
 
-Adobe 讓裝置資料連結約 30 天。如果最初沒有識別裝置，但之後在 30 天內識別，CDA 會回頭重新將最多 30 天以前的裝置認定為屬於已識別的使用者。如果某位使用者的某些未識別行為落在 30 天回顧時限之外，該使用者的那段歷程將不會連結。
+CDA的跨設備拼接在兩個併發進程中進行。
+
+* 第一個程式稱為「即時拼接」，當資料流進入Adobe Analytics時即發生。 在即時拼接期間，CDA會盡其所能地在個人層級重新陳述資料。 不過，如果人員在即時聯繫時為未知，則CDA會返回訪客ID來代表該人員。
+
+* 第二個程式稱為「重播」。 在重播期間，CDA會在時間上倒退，並盡可能在指定的回顧視窗內重新陳述歷史資料。 此回顧視窗為1天或7天，視您要求CDA的設定方式而定。 在重播期間，CDA會嘗試重新陳述先前未知的訪客點擊。
 
 * **如果使用裝置圖表**，Adobe 會保留合用圖表和專用圖中的裝置對應約 6 個月。系統會移除圖形中超過六個月無活動的 ECID。CDA 中已連結的資料不會受影響，但該 ECID 的後續點擊會視為新的人員。
 
