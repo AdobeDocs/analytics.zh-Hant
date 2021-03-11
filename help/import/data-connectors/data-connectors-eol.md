@@ -1,9 +1,9 @@
 ---
 description: 了解 Analytics Data Connectors 何時終止及終止原因。
 title: Analytics Data Connectors 終止服務預先公告
-translation-type: ht
-source-git-commit: 0a7dad7108359b465fe64a110b38624a64fd2ab7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 | Demandbase CA | 即將停止使用 |
 | Demandbase v3 | 即將停止使用 |
 | DialogTech | 可於 Adobe Exchange 取得 |
-| DoubleClick for Advertisers (DFA) | 即將停止使用 |
+| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 即將停止使用 |
 | DREAM | 即將停止使用 |
 | DREAMmail 2.0 | 即將停止使用 |
 | Dynamic Signal (Nital Vora) | 正移轉至 Exchange |
