@@ -2,10 +2,10 @@
 title: 依欄位彙整
 description: 了解使用依欄位彙整方式來結合資料的先決條件和限制。
 translation-type: tm+mt
-source-git-commit: 7b43c4ebbf9446507ab90a90e26c51635303dcc6
+source-git-commit: beed7ffcc39b9b2628b1487b5e2eac42fa3a94d0
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 68%
+source-wordcount: '499'
+ht-degree: 35%
 
 ---
 
@@ -27,8 +27,14 @@ ht-degree: 68%
 
 ## 依欄位彙整的專屬限制
 
-* 依欄位彙整在使用者識別率高的報表套裝上效果最佳。如果您的報表套裝識別率或登入率很低，請考慮使用 [Co-op 圖表](device-graph.md)。
-* 雖然prop和eVar都有處理大小寫字元以用於報告用途的規則，但欄位式拼接不會以任何方式轉換用於拼接的prop或eVar。 欄位式拼接會使用指定欄位中的值，因為它存在於後VISTA規則和後置處理規則。 例如，如果prop/eVar中有時出現「Bob」一詞，有時出現「BOB」一詞，這些詞會被視為兩個不同的人。
+* 以欄位為基礎的拼接功能最適合具有高使用者識別／驗證率的報表套裝。
+* 雖然prop和eVar都有處理大小寫字元以用於報告用途的規則，但欄位式拼接不會以任何方式轉換用於拼接的prop或eVar。 欄位式拼接會使用指定欄位中的值，因為它存在於後VISTA規則和後置處理規則。 縫合過程區分大小寫。 例如，如果prop/eVar中有時出現「Bob」一詞，有時出現「BOB」一詞，則縫合程式會將這些人視為兩個不同的人。
+* 鑑於欄位式拼接區分大小寫，Adobe建議檢閱適用於欄位式拼接之prop或eVar的任何VISTA規則或處理規則。 需要審查這些規則，以確保這些規則都未引入相同ID的新形式。 例如，您應確定沒有VISTA或處理規則將小寫引入只有部分點擊的prop或eVar。
+* 現場拼接不支援使用多個prop或eVar進行拼接。 例如，如果eVar12包含登入ID，而eVar20包含電子郵件ID，您必須選擇其中一個。
+* 欄位式拼接不會合併或串連欄位(例如，eVar10 + prop5)。
+* prop或eVar應包含單一類型的ID。 例如，prop或eVar不應包含登入ID和電子郵件ID的組合。
+* 如果同一位訪客的時間戳記相同，但拼接prop或eVar中的值不同，則CDA會根據字母順序進行選擇。 因此，如果訪客A有兩個點擊，且其中一個點擊指定Bob，而另一個點擊指定Ann,CDA會選擇Ann。
+
 
 ## 後續步驟
 
