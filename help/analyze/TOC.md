@@ -3,12 +3,12 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: 提供Analysis Workspace的操作說明（Analytics的主要分析和視覺化工具），以及Adobe Analytics儀表板、Report Builder和Activity Map等工具。
+user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
 translation-type: tm+mt
 source-git-commit: 9964a512e05191b8baad631076adb6fe02a23134
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
