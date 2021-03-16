@@ -3,11 +3,11 @@ description: 並非所有在「區段產生器」中建立的區段都與 Data W
 title: Data Warehouse 區段相容性
 topic: 區段
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
  <thead> 
   <tr> 
    <th> </th> 
-   <th> Analysis Workspace，報告與分析 </th> 
+   <th> Analysis Workspace、Reports &amp; Analytics </th> 
    <th> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -47,14 +47,14 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td> <b>維度</b> </td> 
-   <td>將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，這些維度僅在「Analysis Workspace報告與分析」中受支援： 
+   <td>將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來了解其產品相容性。例如，只有 Analysis Workspace、Reports＆Analytics 支援這些維度： 
     <ul> 
      <li>進入伺服器 </li> 
      <li>進入類別 </li> 
      <li>進入日期 </li> 
      <li>所有搜尋頁面排名 </li> 
     </ul> </td> 
-   <td> 將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來瞭解其產品相容性。例如，以下維度僅在「Data Warehouse」中才受支援： 
+   <td> 將維度拖放至「區段產生器」的「<span class="uicontrol">定義</span>」欄位，來了解其產品相容性。例如，以下維度僅在「Data Warehouse」中才受支援： 
     <ul> 
      <li>IP 位址 </li> 
      <li>頁面 URL </li> 
