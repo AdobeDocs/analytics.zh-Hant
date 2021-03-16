@@ -1,21 +1,21 @@
 ---
 product: analytics
 audience: end-user
-user-guide-title: Analytics 匯出指南
-breadcrumb-title: 匯出指南
+user-guide-title: Analytics 轉存指南
+breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '278'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Analytics 匯出指南 {#export}
+# Analytics 轉存指南{#export}
 
-+ [Analytics 匯出指南](home.md)
++ [Analytics 轉存指南](home.md)
 + Analytics 資料摘要 {#analytics-data-feed}
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
    + [建立或編輯資料摘要](analytics-data-feed/create-feed.md)
@@ -43,7 +43,7 @@ ht-degree: 98%
    + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援元件](data-warehouse/component-support.md)
-   + [Data Warehouse常見問答集](data-warehouse/faq.md)
+   + [Data Warehouse 常見問答](data-warehouse/faq.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [透過 Adobe Experience Cloud 使用 FTP 和 SFTP](ftp-and-sftp/ftp-overview.md)
