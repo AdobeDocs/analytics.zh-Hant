@@ -1,9 +1,9 @@
 ---
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '547'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # Analytics 工具的產品設定檔權限
@@ -32,7 +32,7 @@ Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能�
 | Excel 授權使用者 | 未使用。 |
 | Activity Map | 授予「工具 > Activity Map」的存取權。允許使用者使用 Activity Map 擴充功能。 |
 | 目前的資料 | 啟用在「Reports &amp; Analytics」報表中查看目前資料的選項。 |
-|  Ad Hoc Analysis 授權使用者 | 臨機分析已停止運作。 請參閱 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。 |
+|  Ad Hoc Analysis 授權使用者 | Ad Hoc Analysis 生命週期已結束。請參閱 [adobe.ly/discoverworkspace](https://adobe.ly/discoverworkspace)。 |
 | 行動應用程式管理員 | 未使用。 |
 | 網站服務存取 | 授予使用 API 的能力，包括驗證第三方網站與傳送 API 呼叫的能力。 |
 | Report Builder | 啟用「工具 > Report Builder」的下載按鈕，並允許使用者使用 Microsoft Excel 進行驗證。 |
