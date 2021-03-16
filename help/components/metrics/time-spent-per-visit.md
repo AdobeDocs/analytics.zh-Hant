@@ -1,11 +1,11 @@
 ---
 title: 每次造訪逗留時間
 description: 維度項目的每次造訪逗留時間。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: dc5c51f68ab22bd4f1368aa0656c66ee53d99103
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 ## 此量度的計算方式
 
-此度量使用公式[`[Total seconds spent]`](total-seconds-spent.md) `divided by (`[`[Visits]`](visits.md) `minus` [`[Bounces]`](bounces.md)`)`。
+此量度使用公式[`[Total seconds spent]`](total-seconds-spent.md)`divided by (`[`[Visits]`](visits.md)`minus`[`[Bounces]`](bounces.md)`)`。
 
 ## 與網站平均逗留時間比較
 
