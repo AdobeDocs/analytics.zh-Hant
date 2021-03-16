@@ -16,16 +16,16 @@ ht-degree: 83%
 
 本指南對同意要求提供了有限的豁免 (以下簡稱「同意豁免」)。同意豁免適用於 Analytics Cookie，其目的僅限於代表 Web 發行者測量網站或應用程式的對象。該指南規定，若要套用同意豁免，必須滿足以下條件：
 
-* 最多保留 25 個月的資料。您可以在「Analytics > 管理員 > 資料管控」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html)
+* 最多保留 25 個月的資料。您可以在「Analytics > 管理員 > 資料管控」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hant)
 * 在ECID中停用第三方Cookie。 [disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=en#id-service-api)、disableThirdPartyCookies [, and ](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=en#id-service-api) [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=en#id-service-api)
-* 13個月的Cookie限制設定為靜態日期，而非滾動。  您可以使用`cookieLifetime`變數覆寫 Analytics Cookie 效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html)
+* 13個月的Cookie限制設定為靜態日期，而非滾動。  您可以使用`cookieLifetime`變數覆寫 Analytics Cookie 效期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hant)
 * 有限的範圍。Cookie 的範圍必須限於單一網站或應用程式。[瀏覽器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hant&quot;\l&quot;third-party-cookie-implementations)
-* 匿名。將 IP 位址的最後一個八位元匿名。[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
+* 匿名。將 IP 位址的最後一個八位元匿名。[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hant)
 * 隱藏報表中的訪客 ID。預設情況下，無法在 Adobe Workspace 和 Adobe Reports and Analytics 中看見訪客 ID。訪客 ID 可在「資料摘要」和 Data Warehouse 中取得。對資料摘要和 Data Warehouse 的存取權可透過 [Admin Console 中的存取權限](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)加以限制
 * 地理位置參數。和郵遞區號層級比起來，地理位置可能比較不精確。[郵遞區號選項](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=zh-Hant&quot;\l&quot;zip-in-adobe-experience-platform-launch)和[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hant&quot;\l&quot;admin-tools)
-* 設定「選擇加入」選項。「選擇加入」服務讓您可以設定訪客通訊協定，以確定是否能在用戶造訪您的網站時，在他們的裝置或瀏覽器上設定 Cookie。[「選擇加入」服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
+* 設定「選擇加入」選項。「選擇加入」服務讓您可以設定訪客通訊協定，以確定是否能在用戶造訪您的網站時，在他們的裝置或瀏覽器上設定 Cookie。[「選擇加入」服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)
 * 防止資料共用。若要防止與 Adobe Audience Manager 共用資料，請使用[隱私報告](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hant&quot;\l&quot;variables)的`opt.dmp`內容變數，以封鎖點擊共用。
-* 存取和刪除能力。利用隱私服務存取和刪除請求。[Analytics 及隱私服務](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html)
+* 存取和刪除能力。利用隱私服務存取和刪除請求。[Analytics 及隱私服務](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=zh-Hant)
 
 ## 資料收集的其他注意事項
 
