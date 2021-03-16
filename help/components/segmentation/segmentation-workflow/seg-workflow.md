@@ -3,9 +3,9 @@ description: 針對以「區段產生器」建立並透過「區段管理員」�
 title: 區段工作流程概觀
 topic: 區段
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ seg_workflow.xml
 
 建立和編輯區段，以用於所有 Analytics 功能中。
 
-請參閱[建立循序區段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)，以瞭解如何使用 THEN 運算子建立區段。
+請參閱[建立循序區段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)，以了解如何使用 THEN 運算子建立區段。
 
 ![](assets/step3_icon.png) [ 標記區段](/help/components/segmentation/segmentation-workflow/seg-tag.md)
 
