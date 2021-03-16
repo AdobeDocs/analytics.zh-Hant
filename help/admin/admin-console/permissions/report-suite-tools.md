@@ -1,14 +1,14 @@
 ---
 source-git-commit: ef0a917c10959e59ad4e7ea1a4e9a019558f7325
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 # 報表套裝工具的產品設定檔權限
 
-請利用本頁瞭解「報表套裝工具」下的每個權限項目。
+請利用本頁了解「報表套裝工具」下的每個權限項目。
 
 | 報表套裝工具權限項目 | 說明 |
 |------|------|
@@ -62,4 +62,4 @@ ht-degree: 98%
 | 使用摘要報表 | 未使用。 |
 | 網站資源 | 未使用。 |
 | 社交 | 未使用。 |
-| 資料修復 API | 授予資料修復API的存取權 |
+| 資料修復 API | 授予資料修復 API 的權限 |
