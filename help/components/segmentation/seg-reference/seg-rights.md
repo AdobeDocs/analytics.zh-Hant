@@ -3,11 +3,11 @@ description: 區段的功能現在主要是以管理員級使用者與非管理�
 title: 不同角色的區段權限
 topic: 區段
 uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 88%
   <tr> 
    <td colname="col1"> <b>管理員級使用者</b> </td> 
    <td colname="col2"> 可以將區段共用給整個公司、使用者群組以及個別使用者。 </td> 
-   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：可以檢視/編輯/刪除自己所擁有和其他使用者的區段。 <p> <span class="keyword"> Report Builder </span>:可檢視／編輯／刪除……它自己的區段，以及與其共用的區段。 </p> </td> 
+   <td colname="col3"> <span class="keyword">Analysis Workspace、Reports &amp; Analytics</span>：可以檢視/編輯/刪除自己所擁有和其他使用者的區段。 <p> <span class="keyword">Report Builder</span>：可檢視/編輯/刪除/等自己的區段以及與之共用的區段。 </p> </td> 
    <td colname="col4"> 可以核准區段做為標準區段。 </td> 
    <td colname="col5"> 可以套用整個組織內的任何區段。 </td> 
   </tr> 
