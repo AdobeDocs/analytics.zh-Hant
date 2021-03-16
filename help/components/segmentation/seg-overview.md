@@ -3,11 +3,11 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段與容器
 topic: 區段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3700'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 
 區段是根據使用巢狀容器模型的[!UICONTROL 訪客]、[!UICONTROL 瀏覽]和[!UICONTROL 點擊]層級階層。巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
 
-您可以在「區段產生器」中建立和儲存區段，或從「流失」報表產生區段(位於Analysis Workspace)。 您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+您可以在區段產生器中建立並儲存區段，或從流失報表 (在 Analysis Workspace 中）產生區段。您也可以根據巢狀內嵌的容器之間的特定規則，運用並擴充預先建立的區段，讓您可以篩選結果並套用至報表。此外，區段可合起來使用成為[堆疊區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
 ## 區段 {#section_CC4EBA2A6CCB4F8BBB8437052A880657}
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ## 作法影片 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-此影片提供區段容器的簡短概述，以及如何使用它們：[Adobe Analytics的區段容器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+該影片簡要概述了什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 關於容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
@@ -212,11 +212,11 @@ Country = United States + Order = True
 
 ![](assets/container_report_Visitor.png)
 
-總而言之，瞭解劃分對各種資料劃分的作用方式，是正確解讀所傳回資料的關鍵。
+總而言之，了解劃分對各種資料劃分的作用方式，是正確解讀所傳回資料的關鍵。
 
 ## 根據容器建立報表 {#section_D0604748F2794327B8C668617A31EC18}
 
-每個區段資料劃分皆各自有套用的範圍。多數的劃分是以&#x200B;*頁面檢視*&#x200B;為基礎，但許多寶貴區段是以&#x200B;*造訪*&#x200B;容器為基礎，有些則是以&#x200B;*訪客*&#x200B;容器為基礎。根據容器的範圍來瞭解報表很重要。
+每個區段資料劃分皆各自有套用的範圍。多數的劃分是以&#x200B;*頁面檢視*&#x200B;為基礎，但許多寶貴區段是以&#x200B;*造訪*&#x200B;容器為基礎，有些則是以&#x200B;*訪客*&#x200B;容器為基礎。根據容器的範圍來了解報表很重要。
 
 以先前的 *頁面 = 冬季外套*&#x200B;區段為例，以下列出的議題會根據套用容器資料的方式，以及資料範圍應如何符合區段類型，來定義您區段的其他層面。
 
@@ -247,7 +247,7 @@ Country = United States + Order = True
 
 ## 跨容器的持續存在性 {#concept_E579D72B1C644AE9A4C4EAF6B47A4DCB}
 
-依跨某個範圍的頁面上持續存在的維度 (例如「促銷活動」eVar 或「反向連結」維度) 進行篩選，將會影響在容器層級收集的資料；須先瞭解這點，才能獲得準確的報表。
+依跨某個範圍的頁面上持續存在的維度 (例如「促銷活動」eVar 或「反向連結」維度) 進行篩選，將會影響在容器層級收集的資料；須先了解這點，才能獲得準確的報表。
 
 區段資料可能因維度或所套用的變數在所有所選頁面上的持續存在性而有所不同。有些維度 (例如「頁面」維度) 會在頁面層級提供唯一值，而且會根據「點擊」容器中的資料受到篩選。(請參閱[以容器資料為基礎的報表](/help/components/segmentation/seg-overview.md)範例)。其他維度 (例如「反向連結網域」維度) 則會在同次瀏覽的多個頁面上持續存在。有些維度或套用的變數 (例如「瀏覽期間」) 則會跨訪客的整個歷史記錄。
 
