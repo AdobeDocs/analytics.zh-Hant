@@ -1,18 +1,18 @@
 ---
-title: 什麼是世代分析，其運作方式為何？
-description: 透過世代分析，深入探究受眾相關資料，並深入瞭解相關群組。 瞭解 Analysis Workspace 中的同類群組分析.
-translation-type: tm+mt
+title: 什麼是「同類群組分析」？這又是如何運作的？
+description: 透過「同類群組分析」，深入了解使用對象資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 
-# 瞭解Adobe Analytics中的[!UICONTROL 世代分析]
+# 了解 Adobe Analytics 中的「[!UICONTROL 同類群組分析]」
 
-*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
+*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://zh.wikipedia.org/wiki/Cohort_analysis)。)
 
 建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參閱[組織與共用](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
@@ -26,7 +26,7 @@ ht-degree: 90%
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
-[世代分析教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[「同類群組分析」影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
