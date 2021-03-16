@@ -1,20 +1,20 @@
 ---
 description: 開始使用 Reports & Analytics 前，請先了解這些基本的登入和設定工作，以及如何存取帳戶資訊。
 title: Reports & Analytics 快速入門
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 
-# 開始使用報告與分析
+# 開始使用 Reports &amp; Analytics
 
-開始使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
+使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
 
-「報表」可提供傳統網頁型通路及創新型通路 (例如行動、視訊及社交網路) 的分析。報表的一些範例包括：
+「報表」可提供對傳統網頁型通路及創新型通路 (例如行動、視訊及社交網路) 的分析。報表的一些範例包括：
 
 * 多少訪客瀏覽您的網站
 * 多少訪客是獨特訪客 (僅計算一次)
@@ -60,7 +60,7 @@ ht-degree: 97%
    **[!UICONTROL 使用者名稱]**：指定您的 帳戶 ID。
 
    **[!UICONTROL 密碼]**：指定您的 帳戶密碼。
-1. 從 Experience Cloud 首頁，前往&#x200B;**「Analytics >報表」**。
+1. 從 Experience Cloud 首頁，前往&#x200B;**「Analytics > 報表」**。
 
    Experience Cloud 會在您閒置 30 分鐘後自動將您登出。
 
@@ -91,8 +91,8 @@ ht-degree: 97%
 | 資訊類型 | 定義 |
 | --- | --- |
 | 聯絡 | 提供您帳戶的下列個人資訊：<ul><li>名字 (必要)</li><li>姓氏 (必要)</li><li>標題</li><li>電子郵件地址 (必要)</li><li>電話號碼</li></ul> |
-| 登入 | 顯示帳戶使用者名稱，並讓您變更帳戶密碼。另請參閱：[如何重設 Reports &amp; Analytics 帳戶密碼](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=en)。 |
-| 網站服務 | 顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 Developer Connection。**附註:** 只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 |
+| 登入 | 顯示帳戶用戶名稱，並讓您變更帳戶密碼。另請參閱：[如何重設 Reports &amp; Analytics 帳戶密碼](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=zh-Hant)。 |
+| Web 服務 | 顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 Developer Connection。**附註:** 只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 |
 | 排除此電腦 | 套用 Cookie 至目前電腦，排除它不進行資料蒐集。如果您不希望您的線上活動影響您網域內的「頁面檢視」和「訪客」計數，此選項會很有用。**附註:** 若要使用此功能，您的瀏覽器必須啟用 Cookie。如果您刪除電腦上的 Cookie，就必須重設排除 Cookie。 |
 
 ## 變更介面語言
