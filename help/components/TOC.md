@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,13 +54,13 @@ ht-degree: 98%
    + [點擊類型](dimensions/hit-type.md)
    + [小時](dimensions/hour-of-day.md)
    + [小時](dimensions/hour.md)
-   + [識別的狀態](dimensions/identified-state.md)
+   + [識別狀態](dimensions/identified-state.md)
    + [Java 已啟用](dimensions/java-enabled.md)
    + [語言](dimensions/language.md)
    + [上次接觸管道](dimensions/last-touch-channel.md)
    + [上次接觸管道詳細資料](dimensions/last-touch-detail.md)
    + [行銷管道](dimensions/marketing-channel.md)
-   + [行銷渠道詳情](dimensions/marketing-detail.md)
+   + [行銷通道詳細資料](dimensions/marketing-detail.md)
    + [分鐘](dimensions/minute.md)
    + [行動維度](dimensions/mobile-dimensions.md)
    + [監視器解析度](dimensions/monitor-resolution.md)
@@ -138,7 +138,7 @@ ht-degree: 98%
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間概觀](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
-   + [不重複裝置](metrics/unique-devices.md)
+   + [唯一裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [件數](metrics/units.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
@@ -214,7 +214,7 @@ ht-degree: 98%
    + [設定跨裝置分析](cda/setup.md)
    + [重播的運作方式](cda/replay.md)
    + [CDA 工作區範本](cda/workspace-template.md)
-   + [將VRS限制為特定日期](cda/limit-vrs-date.md)
+   + [將 VRS 限制為特定日期](cda/limit-vrs-date.md)
    + [跨裝置分析常見問題集](cda/faq.md)
 + 警報 {#alerts}
    + [智慧型警報](c-alerts/intellligent-alerts.md)
