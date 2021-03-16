@@ -2,11 +2,11 @@
 description: 以下 Analytics 中計算量度運作方式的變更可能會影響到您。
 title: 常見問題集
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -118,7 +118,7 @@ ht-degree: 98%
 
 現在，具有數值或數值 2 分類的計算量度仍會顯示在 [!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder] 與 API 中。但套用了區段的報表將不支援這些量度。
 
-此外，下列元件不支援具有數值或數值2分類的計算量度：[!UICONTROL Analysis Workspace]、[!UICONTROL 即時]報告、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]。 當您建立或編輯具有數值或數值 2 分類的計算量度時，會出現相容性警告，指出計算量度和產品的某些區域不相容。
+此外，以下元件將不支援具有 Numeric 或 Numeric2 分類的計算量度：[!UICONTROL Analysis Workspace]、[!UICONTROL 即時]報表、[!UICONTROL 異常偵測]和[!UICONTROL 貢獻分析]。當您建立或編輯具有數值或數值 2 分類的計算量度時，會出現相容性警告，指出計算量度和產品的某些區域不相容。
 
 **您需要執行的操作**
 
@@ -142,7 +142,7 @@ ht-degree: 98%
 
 以往，使用 (1.3 或 1.4) API 方法 ReportSuite.SaveCalculatedMetrics 儲存計算量度，與在管理控制台中建立或更新計算量度的方式相同。ReportSuite.DeleteCalculatedMetrics 也一樣。此外，管理控制台中顯示的計算量度清單或呼叫 ReportSuite.GetCalculatedMetrics 時產生的清單相同。
 
-目前 ReportSuite CalculatedMetrics API 方法 (1.3 或 1.4 版) 仍可使用舊商店儲存、刪除和擷取計算量度。現有的計算量度則會移轉並顯示在新的計算量度產生器中。**使用 API 方法建立的新計算量度只會顯示在 API 中。仍可在報告 API 中使用。**
+目前 ReportSuite CalculatedMetrics API 方法 (1.3 或 1.4 版) 仍可使用舊商店儲存、刪除和擷取計算量度。現有的計算量度則會移轉並顯示在新的計算量度產生器中。**使用 API 方法建立的新計算量度只會顯示在 API 中。仍可在 Reporting API 中使用。**
 
 **您需要執行的操作**
 
