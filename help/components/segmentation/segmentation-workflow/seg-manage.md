@@ -3,11 +3,11 @@ description: 「區段管理器」提供許多管理區段的方式，例如共�
 title: 管理區段
 topic: 區段
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 97%
 * 前往左側導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段]**」。
 * 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按一下&#x200B;**[!UICONTROL 「管理」]**。
 
-## 作法影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
+## 操作說明影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
-此 [Adobe Analytics 影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)提供如何使用區段管理器的簡短概述。
+此 [Adobe Analytics 影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)提供如何使用區段管理器的簡短概覽。
 
 ## 區段管理器使用者介面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
