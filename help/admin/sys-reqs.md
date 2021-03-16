@@ -1,9 +1,9 @@
 ---
 title: 系統要求
 description: 使用 Adobe Analytics 的系統需求。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 564263be46b8c4fef996381819b4b13abb865b7a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 ## 非瀏覽器解決方案的系統需求
 
-請參閱連結的解決方案頁面，以瞭解該解決方案的系統需求。
+請參閱連結的解決方案頁面，以了解該解決方案的系統需求。
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
 * [Data Workbench](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/install/c-data-workbench-client-install.html)
