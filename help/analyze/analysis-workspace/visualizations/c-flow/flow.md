@@ -6,7 +6,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 81%
+ht-degree: 96%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->如需將區段套用至「流量」的結果在Analysis Workspace和「報告與分析」之間可能有何不同的詳細資訊，請參閱「區段作為流量與流失的基礎」](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。[
+>如需了解對「流量」套用區段後，Analysis Workspace 和 Reports＆Analytics 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-[流量視覺化教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html)(4:56)
+[流量視覺效果教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
