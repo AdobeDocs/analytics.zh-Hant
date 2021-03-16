@@ -1,11 +1,11 @@
 ---
 title: Adobe Analytics 權限 - 摘要表
 description: 摘要說明 Admin Console 中可用 Adobe Analytics 權限的表格
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1243'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 | 成本 | x |  |  |  | 授予「報表套裝管理器」中「行銷頻道 > 行銷頻道成本」的存取權。 |
 | 自訂日曆 | x |  |  |  | 授予「報表套裝管理器」中「一般 > 自訂日曆」的存取權。 |
 | 資料摘要管理器 | x |  |  |  | 授予 Analytics 頂端導覽列中「管理員 > 資料摘要」的存取權。 |
-| 資料修復 API | x |  |  |  | 授予資料修復API的存取權 |
+| 資料修復 API | x |  |  |  | 授予資料修復 API 的權限 |
 | 資料來源管理器 | x |  |  |  | 授予 Analytics 頂端導覽列中「管理員 > 資料來源」的存取權。需要權限項目「報表套裝管理」。 |
 | 預設量度 | x |  |  |  | 授予「報表套裝管理器」中「個別報表套裝設定 > 預設量度」的存取權。 |
 | 依 IP 位址排除 | x |  |  |  | 授予 Analytics 頂端導覽列中「管理員 > 依 IP 排除」的存取權。 |
@@ -89,7 +89,7 @@ ht-degree: 98%
 | 流量管理 | x |  |  |  | 授予「管理員 > 流量管理」的存取權。 |
 | 網路服務 | x |  |  |  | 授予「管理員 > 公司設定 > 網路服務」的存取權。 |
 | Activity Map |  | x |  |  | 授予「工具 > Activity Map」的存取權。允許用戶使用 Activity Map 擴充功能。 |
-| Ad Hoc Analysis 授權用戶 |  | x |  |  | 臨機分析已停止運作。 [更多資訊](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
+| Ad Hoc Analysis 授權用戶 |  | x |  |  | Ad Hoc Analysis 生命週期已結束。[更多資訊](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace 存取 |  | x |  |  | 授予 Analysis Workspace 的存取權限。用戶必須屬於此群組 (偏好設定) 或 Reports &amp; Analytics 存取，才能使用 Adobe Analytics。 |
 | Analysis Workspace：另存範本 |  | x |  |  | 授予 Analysis Workspace 中「專案 > 另存範本」的存取權。 |
 | 建立計算量度 |  | x |  |  | 授予在所有 Analytics 功能中建立計算量度的能力。 |
