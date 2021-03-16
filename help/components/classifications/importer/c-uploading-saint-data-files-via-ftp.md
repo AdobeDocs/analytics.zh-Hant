@@ -4,11 +4,11 @@ subtopic: Classifications
 title: FTP 匯入
 topic: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '723'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 每個上傳的新代碼是以當月份該變數的唯一項目為計算基準。
 
-當超過該月份的唯一客戶數上限時，您將無法在報告中看到超過唯一客戶數值的對應分類資料。您可以在Data Warehouse中看到這些分類。
+當超過該月份的唯一客戶數上限時，您將無法在報告中看到超過唯一客戶數值的對應分類資料。您可以在 Data Warehouse 中看到這些分類。
 
 >[!NOTE]
 >
@@ -98,4 +98,4 @@ t_create_an_ftp_account.xml
 
 >[!NOTE]
 >
->如果匯入未對分類帶來任何變更，則不會傳送通知。 只有在電子郵件成功並導致變更分類時，才會傳送電子郵件。
+>如果匯入未對分類造成任何變更，則不會發送通知。只有在成功並導致分類變更時，才會發送電子郵件。
