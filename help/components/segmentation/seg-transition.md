@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 97%
 * 區段在所有報表套裝中都通用。
 * [區段生產器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)簡化了區段的建立流程。
 * [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-* 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用資料夾的方式。
-* 您可以建立[循序區段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
+* 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用檔案夾的方式。
+* 您可以建立[循序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
 
 如需詳細資訊，請參閱 Digital Marketing 部落格上的[改進 Adobe Analytics 中的劃分](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)文章。
@@ -86,11 +86,11 @@ ht-degree: 97%
 
 **我是否可以在區段管理員中管理所有 Analytics 區段？**
 
-是的，所有區段都可在區段管理員中管理。 「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
+是的，在「循序分段」中可管理所有區段。「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
 
 管理員可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
 
-Report Builder僅顯示您建立的區段或專門與您共用的區段。
+Report Builder 只會顯示由您所建置的區段或特定與您共用的區段。
 
 **我為何刪除不了區段？**
 
@@ -137,7 +137,7 @@ Report Builder僅顯示您建立的區段或專門與您共用的區段。
 
 **Data Warehouse 區段有何變化？**
 
-所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大部分的Data Warehouse區段也適用於其他元件，例如Analysis Workspace和報告與分析。
+所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大多數的 Data Warehouse 區段也將在其他元件中運作，例如 Analysis Workspace 以及 Reports &amp; Analytics。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
 
