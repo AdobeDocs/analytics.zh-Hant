@@ -1,9 +1,9 @@
 ---
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 | 客戶歷程報表 | 顯示使用者瀏覽您的網站或應用程式時所採取路徑的相關資訊。Prop、eVar 和事件可在 Analysis Workspace 中使用這項分析。 | [Analysis Workspace 流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 路徑分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 行銷管道 | 這些報表可協助您理解哪些外部管道將使用者引入您的網站，以及在促進轉換方面哪些管道最有效。並提供首次接觸和上次接觸歸因檢視。這是 Adobe Analytics 慣用的外部流量來源報表 (優先於促銷活動或流量來源)，因為這可同時提供付費和自然管道的最全面資訊。 | [行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 行動 | 顯示從行動裝置或平板電腦存取的網站相關資訊。 | [行動報表](/help/components/dimensions/mobile-dimensions.md) |
-| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實作並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。請[在此](https://mobilemarketing.adobe.com)存取介面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/zh-Hant/mobile-services/using/home.html) |
+| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實作並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。請[在此](https://mobilemarketing.adobe.com)存取介面。 | [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) |
 | 產品 | 識別個別產品和產品群組 (類別) 對各種轉換量度 (如收入或結帳) 的貢獻度。 | [產品報表](/help/components/dimensions/product.md) |
 | 區段比較 | 透過自動分析您可以存取的每個單一量度和維度，找出不同區段之間在統計上最顯著的差異。 | [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 網站內容報表 | 顯示您網站中最活躍的網頁與區域，以及最常用的伺服器。 | [網站內容報表](/help/components/dimensions/page.md) |
@@ -113,4 +113,4 @@ ht-degree: 100%
 | VISTA | 可讓您套用伺服器端邏輯，以便在收集資料時變更或分段資料。 | [VISTA 規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 處理規則 | 能夠在 Analytics UI 中設定、修改與複製變數，以便變更所收集的資料。 | [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | 除錯工具選項 | 具備數個除錯程式和封包 Sniffer 可協助驗證您的實作情形，其中包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=tw) |
-| 資料插入 API | 資料插入 API 提供的機制，可用於伺服器端資料收集與將資料提交至 Experience Cloud 伺服器。伺服器端資料收集僅會根據網站瀏覽器的要求和網站伺服器的回應收集資料，不會使用每個網頁上的 JavaScript 信標來將訪客資料傳輸至 Experience Cloud 伺服器。 | [透過 POST 實作 Adobe Analytics 資料插入 API 的步驟](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
+| 資料插入 API | 資料插入 API 提供的機制，可用於伺服器端資料收集與將資料提交至 Experience Cloud 伺服器。伺服器端資料收集僅會根據網站瀏覽器的要求和網站伺服器的回應收集資料，不會使用每個網頁上的 JavaScript 信標來將訪客資料傳輸至 Experience Cloud 伺服器。 | [透過 POST 實作 Adobe Analytics 資料插入 API 的步驟](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
