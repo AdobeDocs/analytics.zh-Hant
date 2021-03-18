@@ -1,11 +1,11 @@
 ---
 title: 行動維度
-description: 以裝置的使用者代理字串為基礎的維度。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '892'
-ht-degree: 100%
+description: Dimension基於設備的IP地址。
+translation-type: tm+mt
+source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 將資料填入這些維度中
 
-這些維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 `User-Agent` HTTP 標題為基礎。Adobe 與 [DeviceAtlas](https://deviceatlas.com/) 合作，共同維護使用者代理與行動維度之間的查閱。如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform Launch)，所有行動維度都將可立即運作。
+這些維度會參考 Adobe 內部的查閱規則。[!UICONTROL 行動] 電信業者查閱是使用我們從NetAcuity（數位元素產品）取得的資料，由IP位址決定。如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform Launch)，所有行動維度都將可立即運作。
 
 ## 行動維度說明
 
