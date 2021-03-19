@@ -2,10 +2,10 @@
 title: 行動維度
 description: Dimension基於設備的IP地址。
 translation-type: tm+mt
-source-git-commit: 5e196b34d4fc689d5fd36f669670f3d9b085f00d
+source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '891'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 將資料填入這些維度中
 
-這些維度會參考 Adobe 內部的查閱規則。[!UICONTROL 行動] 電信業者查閱是使用我們從NetAcuity（數位元素產品）取得的資料，由IP位址決定。如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform Launch)，所有行動維度都將可立即運作。
+這些維度會參考Adobe內部的查閱規則。 [!UICONTROL 行動] 電信業者查閱是使用我們從NetAcuity（數位元素產品）獲得的資料，由IP位址決定。如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform Launch)，所有行動維度都將可立即運作。
 
 ## 行動維度說明
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 >標示為 `"None"` 的維度項目為非行動裝置。如果您要讓報表僅包含行動裝置，請將「行動裝置」維度拖曳至「工作區」畫布的區段區域中。
 
 * **行動音訊支援**：決定裝置可播放的檔案格式。範例值包括 `"MP3"`、`"AAC"` 和 `"MIDI Monophonic"`。此維度中的值不互斥；單一點擊可歸因於多個維度項目。
-* **行動電信業者**：如果使用者代理包含電信業者專用的裝置，該電信業者就會成為維度項目。範例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
+* **行動電信業者**:此維度的值會根據Analytics擷取的IP位址來尋找第三方（數位元素）資料，以填入。範例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **行動色彩深度**：行動裝置的色彩深度 (以位元為單位)。
 * **行動 Cookie 支援**：決定行動裝置是否支援 Cookie。此報表不會指出瀏覽器是否接受 Cookie。維度項目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **行動裝置**：訪客使用的行動裝置。
