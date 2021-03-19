@@ -1,14 +1,11 @@
 ---
 description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
-subtopic: Data sources
-title: 完全處理
-topic: Developer and implementation
-uuid: 590ae89c-6e17-453b-b701-ce1adbea6fa4
+title: Data Sources的完整處理選項
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 96%
+source-wordcount: '728'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe計畫日後淘汰完整處理資料來源。
+>Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe 計劃未來淘汰「全部處理資料來源」。[深入了解](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -45,12 +42,12 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col2"> <p>促銷活動 </p> </td> 
    <td colname="col3"> <p>轉換促銷活動追蹤代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>頻道 </p> </td> 
    <td colname="col3"> <p>渠道字串 (如體育版)。 </p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>事件 </p> </td> 
    <td colname="col3"> <p>事件字串，格式語法與 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
@@ -118,8 +115,8 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
-   <td colname="col3"> <p>Product list (for example, <code> "Sports;Ball;1;5.95"</code>). 每列最大可包含4096個位元組。</p> </td> 
+   <td colname="col2"> <p>產品 </p> </td> 
+   <td colname="col3"> <p>產品清單（例如<code> "Sports;Ball;1;5.95"</code>）。 每列最大可包含4096個位元組。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -138,7 +135,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col2"> <p>伺服器 </p> </td> 
    <td colname="col3"> <p>伺服器字串。 </p> </td> 
   </tr> 
   <tr> 
