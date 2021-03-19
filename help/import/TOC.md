@@ -5,10 +5,10 @@ user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: '從外部來源大量或即時將資料讀入 Analytics。 '
 translation-type: tm+mt
-source-git-commit: 946be738843a691a711cf6a84fd5556abbfb532d
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 97%
+source-wordcount: '535'
+ht-degree: 96%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 97%
       + [交易 ID](c-data-sources/c-datasrc-types/datasrc-transactionid.md)
       + [訪客 ID](c-data-sources/c-datasrc-types/datasrc-visitorid.md)
       + [完全處理](c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+      + [完全處理的生命週期結束](c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
    + [交易與客戶整合](c-data-sources/datasrc-integrating-offline-data.md)
    + [交易 ID 和訪客資料](c-data-sources/datasrc-tid-visitor-profile.md)
    + [資料來源常見問題集](c-data-sources/datasrc-faq.md)
