@@ -2,10 +2,10 @@
 title: 如何在Analysis Workspace設定用戶首選項
 description: null
 translation-type: tm+mt
-source-git-commit: 2c55fed7655b4985234b09bfb6884d227bdfb02e
+source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
 workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 16%
 
 ## 專案偏好設定
 
-專案偏好設定適用於在Analysis Workspace建立的新專案和新面板。您也可以在「工作區>專案>專案資訊與設定」下，依個別專案來管理偏好設定。
+專案偏好設定適用於在Analysis Workspace建立的新專案和新面板。您也可以在[!UICONTROL Workspace] > [!UICONTROL Project] > [!UICONTROL Project Info &amp; Settings]下，依專案管理偏好設定。
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
