@@ -1,10 +1,10 @@
 ---
-title: null
-description: null
+title: 完全處理資料來源的生命週期結束
+description: 批量資料插入API和完全處理資料源之間連結終止和比較的原因。
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '732'
 ht-degree: 9%
 
 ---
