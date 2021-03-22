@@ -10,13 +10,14 @@ getting-started-url: https://helpx.adobe.com/tw/analytics/get-started.html
 tutorials-title: 教學課程
 tutorials-url: https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.zh-Hant
-type: Documentation
+type: 文件
 index: true
-translation-type: ht
-source-git-commit: 92bb5e7fe675ddd78da05ffb63cb5da0692e55bb
-workflow-type: ht
-source-wordcount: '135'
-ht-degree: 100%
+description: 包含傳遞至回購中使用者指南TOC.md檔案的回購層級中繼資料。
+translation-type: tm+mt
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 90%
 
 ---
 
