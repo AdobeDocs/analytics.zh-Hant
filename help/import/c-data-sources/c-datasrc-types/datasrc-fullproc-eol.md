@@ -2,10 +2,10 @@
 title: 完全處理資料來源的生命週期結束
 description: 批量資料插入API和完全處理資料源之間連結終止和比較的原因。
 translation-type: tm+mt
-source-git-commit: 2e077db74b7719f49aec513fc99dad33a4d5b831
+source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 9%
+source-wordcount: '1221'
+ht-degree: 29%
 
 ---
 
@@ -39,18 +39,59 @@ ht-degree: 9%
 
 ## BDIA和FPDS中可用欄位值的比較
 
-| BDIA、FPDS、兩者 | BDIA變數 | 完全處理欄變數 | 說明 |
-| --- | --- | --- | --- |
-| BDIA | aamlh | 不支援 | Adobe Audience Manager位置提示。 請參閱下方地區清單AAM表格中的有效ID值。 |
-|   | browserHeight | browserHeight | 瀏覽器高度（以像素為單位，例如768） |
-|   | browserWidth | browserWidth | 瀏覽器寬度（以像素為單位，例如1024） |
-|   | campaign | 促銷活動 | 轉換促銷活動追蹤代碼 |
-|   | channel | 頻道 | 頻道字串（例如「運動區域」） |
-|   | colorDepth | colorDepth | 以位元表示的螢幕色深（例如24） |
-|   | connectionType | connectionType | 訪客的連線類型（LAN或資料機） |
-| BDIA | contextData.key | 不支援 | 索引鍵值配對是透過命名標題&quot;contextData.product&quot;或&quot;contextData.color&quot;來指定 |
-|   | cookiesEnabled | cookiesEnabled | `Y` 或 `N` 若訪客支援第一方作業Cookie |
-|   | currencyCode | currencyCode | 收入貨幣代碼（例如`USD`） |
-| BDIA | customerID。[customerIDType].authState | 不支援 | 訪客的已驗證狀態。 支援的值有： 0、1、2、未知、已驗證、LOGGED_OUT或「（不區分大小寫）。 兩個連續的單引號(&quot;)會使查詢字串中的值被省略，在進行點擊時，此值會轉換為0。 請注意，支援的authState數值表示： 0 =未知， 1 =已驗證， 2 = LOGGED_OUT。 customerIDType可以是任何英數字串，但應視為區分大小寫。 |
-| BDIA | customerID。[customerIDType].id | 不支援 | 要使用的客戶ID。 customerIDType可以是任何英數字串，但應視為區分大小寫。 |
-| BDIA | customerID。[customerIDType].isMCSeed | 不支援 | 這是否為Marketing Cloud訪客ID的種子。 支援的值有： 0、1、TRUE、FALSE、「（不區分大小寫）。 使用0、FALSE或兩個連續的單引號(&quot;)會使查詢字串中遺漏該值。 customerIDType可以是任何英數字串，但應視為區分大小寫。 |
+| BDIA變數 | 完全處理欄變數 | 說明 |
+| --- | --- | --- |
+| aamlh | 不支援 | Adobe Audience Manager位置提示。 |
+| browserHeight | browserHeight | 瀏覽器高度（以像素為單位，例如768） |
+| browserWidth | browserWidth | 瀏覽器寬度（以像素為單位，例如1024） |
+| campaign | 促銷活動 | 轉換促銷活動追蹤代碼 |
+| channel | 頻道 | 頻道字串（例如「運動區域」） |
+| colorDepth | colorDepth | 以位元表示的螢幕色深（例如24） |
+| connectionType | connectionType | 訪客的連線類型（LAN或資料機） |
+| contextData.key | 不支援 | 索引鍵值配對是透過命名標題&quot;contextData.product&quot;或&quot;contextData.color&quot;來指定 |
+| cookiesEnabled | cookiesEnabled | `Y` 或 `N` 若訪客支援第一方作業Cookie |
+| currencyCode | currencyCode | 收入貨幣代碼（例如`USD`） |
+| customerID。[customerIDType].authState | 不支援 | 訪客的已驗證狀態。 支援的值有： 0、1、2、未知、已驗證、LOGGED_OUT或「（不區分大小寫）。 兩個連續的單引號(&quot;)會使查詢字串中的值被省略，在進行點擊時，此值會轉換為0。 請注意，支援的authState數值表示： 0 =未知， 1 =已驗證， 2 = LOGGED_OUT。 customerIDType可以是任何英數字串，但應視為區分大小寫。 |
+| customerID。[customerIDType].id | 不支援 | 要使用的客戶ID。 customerIDType可以是任何英數字串，但應視為區分大小寫。 |
+| customerID。[customerIDType].isMCSeed | 不支援 | 這是否為Marketing Cloud訪客ID的種子。 支援的值有： 0、1、TRUE、FALSE、「（不區分大小寫）。 使用0、FALSE或兩個連續的單引號(&quot;)會使查詢字串中遺漏該值。 customerIDType可以是任何英數字串，但應視為區分大小寫。 |
+| eVarN | eVarN，即`<eVar2>`...`<eVar>` | 轉換 eVar 名稱。您最多可以有 75 個 eVar ( eVar1 -eVar75)您可以指定eVar名稱(eVar12)或好記名稱（廣告促銷活動3）。 |
+| events | 事件 | [事件字串](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=en#vars)，格式與s.events變數使用相同的語法。例如：scAdd,event1,event7 |
+| hierN。 | hierN，即`<hier2>`..`</hier2>` | 階層名稱。您最多可以有 5 個階層 ( hier1 - hier5)。 您可以指定預設階層名稱`hier2`或好記名稱（洋基）。 |
+| homePage | homePage | Y 或 N -- 目前頁面是否為訪客的首頁。 |
+| ipaddress | 不支援 | 訪客的IP位址。 |
+| javaEnabled | javaEnabled | Y 或 N -- 訪客是否已啟用 Java。 |
+| javaScriptVersion | javaScriptVersion | JavaScript 版本 (如 1.3)。 |
+| language | 不支援 | 瀏覽器支援的語言。 例如：`en-us`。 |
+| linkName | linkName | 連結名稱。 |
+| linkType | linkType | 連結的類型。支援的值包括： `d: Download link`, `e: Exit link`, `o: Custom link`. |
+| linkURL | linkURL | 連結的 HREF。 |
+| listn例如list2。 | 不支援 | 使用分隔字元的值清單，在傳給變數之後，會報告為個別的行項目以供製作報告。 |
+| marketingCloudVisitorID | 不支援 | Marketing Cloud ID. 請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)和Marketing Cloud訪客ID服務。 |
+| 不支援 | charSet | 網站的支援字元集。 如 UTF-8、ISO-8859-1 等等。 |
+| 不支援 | clickAction | 訪客點擊地圖的物件識別碼 (OID) |
+| 不支援 | clickActionType | 訪客點擊地圖的物件識別碼類型 (OIDT) |
+| 不支援 | clickContext | 訪客點擊地圖的頁面識別碼 (PID) |
+| 不支援 | clickContextType | 訪客點擊地圖的頁面識別碼類型 (PIDT) |
+| 不支援 | clickSourceID | 訪客點擊地圖的來源索引 (OI) |
+| 不支援 | clickTag | 訪客點擊地圖的物件標記名稱 (OT) |
+| 不支援 | scXmlVer | 行銷報表 XML 請求版本編號 (如 1.0)。 |
+| 不支援 | timezone | 訪客所在時區與格林威治時間的小時差 (如 -8)。 |
+| pageName | pageName | 頁面名稱。 |
+| pageType | pageType | 頁面類型（例如「錯誤頁面」）。 |
+| pageURL | pageURL | 頁面URL(例如https://www.example.com/index.html)。 |
+| plugins | 外掛程式 | 瀏覽器外掛程式名稱清單（以分號分隔）。 |
+| products | 產品 | 頁面上所有產品的清單。 以逗號分隔產品。 例如：運動；球； 1; 5.95，玩具；Top;1:1.99。 |
+| prop1 - prop75 | propN，即`<prop2>`..`</prop2>` | 屬性#字串（例如，運動區）。 |
+| propN | propN | 您的屬性的屬性值。 |
+| purchaseID | purchaseID | 購買 ID 號碼。 |
+| referrer | 反向連結 | 頁面反向連結的 URL。 |
+| reportSuiteID | s_account  | 指定您要提交資料的報表套裝。您應以逗號分隔多個報表套裝ID。 |
+| resolution | 解析度 | 螢幕解析度 (如 1024x768)。 |
+| server | 伺服器 | 伺服器字串。 |
+| state | state | 轉換州字串。 |
+| timestamp | 日期 | 使用YYYY-MM-DDThh:mm:ss±UTC_offset的ISO 8601日期格式（例如2021-09-01T12:00:00-07:00）或Unix時間格式（自1月1日起的秒數，1970）。 |
+| trackingServer | 不支援 | 只能透過欄標題提供。 |
+| transactionID | 不支援 | 用於將多個管道使用者活動繫結在一起以便進行報告的通用值。如需詳細資訊，請參閱[資料來源使用指南](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=en#data-sources)。 |
+| userAgent | 不支援 | 使用者代理字串 |
+| visitorID | visitorID | 訪客的Analytics ID。 請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)。 |
+| zip | zip | 轉換郵遞區號。 |
