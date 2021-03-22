@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: 決定目前檢視的網站配置。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getResponsiveLayout` 外掛程式可讓您追蹤訪客目前正在檢視的回應式設計網站版本。如果您的網站使用回應式設計，而您想要追蹤訪客檢視的網站版本，Adobe 建議使用此外掛程式。如果您的網站並非使用回應式設計，就不需要此外掛程式。
 
@@ -51,8 +51,8 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getResponsiveLayout v1.0 */
-var getResponsiveLayout=function(ppw,plw,tw){if(!(isNaN(ppw)||isNaN(plw)||isNaN(tw)||plw<ppw||tw<plw)){var b=window.innerWidth|| document.documentElement.clientWidth||document.body.clientWidth;return(ppw<plw&&b<=plw?b<=ppw?"phone portrait layout":"phone landscape layout":b<=plw?"phone layout":b<=tw?"tablet layout":"desktop layout")+":"+b+"x"+(window.innerHeight|| document.documentElement.clientHeight||document.body.clientHeight)}};
+/* Adobe Consulting Plugin: getResponsiveLayout v1.1 (Requires AppMeasurement) */
+var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)return{plugin:"getResponsiveLayout",version:"1.1"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var d;a<window.s_c_il.length;a++)if(d=window.s_c_il[a],d._c&&"s_c"===d._c){a=d;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.getResponsiveLayout="1.1");if(!(isNaN(c)||isNaN(b)||isNaN(e)||b<c||e<b))return a=window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth,(c<b&&a<=b?a<=c?"phone portrait layout":"phone landscape layout":a<=b?"phone layout":a<=e?"tablet layout":"desktop layout")+":"+a+"x"+(window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight)};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -105,6 +105,10 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 ```
 
 ## 版本記錄
+
+### 1.1（2021年3月19日）
+
+* 已新增版本號碼作為內容資料。
 
 ### 1.0 (2018 年 5 月 2 日)
 
