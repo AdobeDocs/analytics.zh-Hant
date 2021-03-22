@@ -2,10 +2,10 @@
 title: p_fo (僅限頁面優先)
 description: 確保每頁只引發一次特定常式。
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 3c9e656d2f5bb9393826f31803d7b6f11a26ce0e
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `p_fo` 外掛程式是公用程式，可檢查特定 JavaScript 物件是否存在。如果物件不存在，外掛程式將會建立該物件並傳回 `true`。如果頁面上已存在 JavaScript 物件，則會傳回 `false`。若要在頁面上執行一次程式碼，此外掛程式很實用。其他多個外掛程式依賴此程式碼才能運作。如果您不擔心某個頁面上程式碼執行的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
 
@@ -51,8 +51,8 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v2.0 */
-s.p_fo=function(on){var s=this;s.__fo||(s.__fo={});if(s.__fo[on])return!1;s.__fo[on]={};return!0};
+/* Adobe Consulting Plugin: p_fo (pageFirstOnly) v3.0 (Requires AppMeasurement) */
+function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefined"!==typeof window.s_c_il){var a=0;for(var b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c){a=b;break a}}a=void 0}"undefined"!==typeof a&&(a.contextData.p_fo="3.0");window.__fo||(window.__fo={});if(window.__fo[c])return!1;window.__fo[c]={};return!0};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -82,6 +82,10 @@ if(s.p_fo("myobject"))
 **注意：**&#x200B;每當新頁面物件/DOM 載入 (或目前頁面重新載入) 時，on 引數中指定的物件就不再存在，因此在頁面載入完成後 p_fo 外掛程式第一次執行時，會再次傳回 true。
 
 ## 版本記錄
+
+### 3.0（2021年3月19日）
+
+* 已新增版本號碼作為內容資料。
 
 ### 2.0
 
