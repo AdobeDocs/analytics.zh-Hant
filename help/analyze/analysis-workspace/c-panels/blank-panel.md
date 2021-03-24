@@ -1,11 +1,11 @@
 ---
-description: 建立空白麵板做為任何視覺化的起點。
+description: 針對任何視覺效果建立空白面板當做起點。
 title: 空白面板
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '57'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
