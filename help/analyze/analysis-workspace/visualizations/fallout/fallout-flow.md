@@ -1,12 +1,12 @@
 ---
-description: 在工作區專案中使用流失視覺化。
+description: 在 Workspace 專案中使用「流失」視覺效果。
 title: 流失概述
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 translation-type: tm+mt
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
 workflow-type: tm+mt
 source-wordcount: '502'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
