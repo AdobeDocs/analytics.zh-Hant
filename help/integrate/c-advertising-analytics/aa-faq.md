@@ -1,12 +1,12 @@
 ---
-description: 關於Advertising Analytics的常問問題。
+description: 有關 Advertising Analytics 的常見問題集。
 title: 常見問題集
 uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-## 自動與手動追蹤  {#section_7437C4698A6D482EB7ED94A948390119}
+## 自動與手動追蹤 {#section_7437C4698A6D482EB7ED94A948390119}
 
 <table id="table_9738FF8459574ED2937A860A665BE739"> 
  <thead> 
