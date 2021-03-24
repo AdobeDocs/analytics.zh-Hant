@@ -1,18 +1,18 @@
 ---
 title: 每位訪客逗留時間 (秒)
 description: 「每位訪客逗留時間 (秒)」量度會顯示訪客在其整個期限內與指定維度項目互動的平均時間量。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '179'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 
 # 每位訪客逗留時間 (秒)
 
-[!UICONTROL 每位訪客逗留時間（秒）]量度顯示訪客在整個存留期內與指定維度項目互動的平均時間。
+「[!UICONTROL 每位訪客逗留時間 (秒)]」量度會顯示訪客在其整個造訪期間與指定維度項目互動的平均時間量。
 
 由於處理架構不同，此量度在 Data Warehouse 中無法使用。
 
