@@ -1,11 +1,11 @@
 ---
-description: 在工作區專案中使用環圈圖視覺化。
+description: 在 Workspace 專案中使用同心圓視覺效果。
 title: 環形圖
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '43'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
