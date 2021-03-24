@@ -1,12 +1,12 @@
 ---
-description: 根據標準或自訂範本建立工作區專案。
+description: 根據標準或自訂範本建立 Workspace 專案。
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1397'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 92%
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
-以下是有關Analysis Workspace[標準範本的教學課程影片(2:46)](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)
+以下是有關 [Analysis Workspace 中的標準範本](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)的教學影片 (2:46)
 
 以下為可用的範本，以及可透過個別範本找到答案的問題.
 
@@ -65,7 +65,7 @@ ht-degree: 92%
 
 * **培訓教學課程 - 內部搜尋分析**：內部搜尋教學課程可協助您了解訪客想在網站或應用程式上尋找但沒有找到的內容。分析這類資料可以找出內容最佳化機會。
 
-* **訓練教學課程——行銷分析**:本教學課程將說明如何為主管建立行銷分析，包括哪些自訂維度和量度很重要。
+* **訓練教學課程 - 行銷分析**：此教學課程將為您示範如何為主管建立行銷分析，包括重要的自訂維度和量度有哪些。
 
 ### 廣告
 
@@ -77,9 +77,9 @@ ht-degree: 92%
 
 ### 商務
 
-* **Magento:行銷與商務**:此範本依行銷管道歸因來劃分您的電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等提供見解。如需影片總覽，請參閱：
+* **Magento：行銷與商務**：此範本依行銷通路歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等條件提供深入分析。如需影片簡介，請參閱：
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
 
 ### 媒體
 
