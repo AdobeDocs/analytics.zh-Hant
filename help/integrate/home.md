@@ -1,11 +1,11 @@
 ---
 title: Analytics 整合
-description: 瞭解如何將其他地點的資料整合至Adobe Analytics。
-translation-type: tm+mt
+description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
