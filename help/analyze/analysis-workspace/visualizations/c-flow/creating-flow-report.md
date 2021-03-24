@@ -1,12 +1,12 @@
 ---
-description: 在工作區專案中使用流量視覺化。
+description: 在 Workspace 專案中使用流量視覺效果。
 title: 設定流量視覺效果
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
