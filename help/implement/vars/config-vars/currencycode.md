@@ -1,11 +1,11 @@
 ---
-title: currencyCode變數是什麼，我要如何使用它？
-description: 對於電子商務網站，請設定頁面交易的貨幣。
-translation-type: tm+mt
+title: 什麼是 currencyCode 變數以及該如何使用它？
+description: 針對電子商務網站，設定頁面交易所使用的貨幣。
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '830'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
