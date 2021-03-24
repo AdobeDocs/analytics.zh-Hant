@@ -1,20 +1,20 @@
 ---
-title: Analytics 元件指南
-description: 瞭解Adobe Analytics提供的不同元件。
-translation-type: tm+mt
+title: Analytics Components 指南
+description: 了解 Adobe Analytics 提供的不同元件。
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Analytics 元件指南
+# Analytics Components 指南
 
 ![橫幅](../../assets/doc_banner_components.png)
 
-Analytics 元件可協助您微調及啟用資料分析。元件包括：
+Analytics Components 可協助您微調及啟用資料分析。元件包括：
 
 * **維度：** Adobe Analytics 中可用維度的參考。
 * **量度：** Adobe Analytics 中可用量度的參考。
@@ -27,7 +27,7 @@ Analytics 元件可協助您微調及啟用資料分析。元件包括：
 * **即時報告：**&#x200B;隨時取得最新的報表和趨勢。
 * **行銷管道：**&#x200B;瞭解訪客如何抵達您的網站，並判斷哪些管道最成功。
 
-## 重要 Analytics 元件文章
+## 重要 Analytics Components 文章
 
 * [維度](dimensions/overview.md)
 * [量度](metrics/overview.md)
