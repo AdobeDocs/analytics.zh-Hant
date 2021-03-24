@@ -1,14 +1,14 @@
 ---
-description: 使用動態標籤管理實作Adobe Analytics。
-keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM
+description: 使用動態標籤管理實作 Adobe Analytics。
+keywords: Analytics 實作;實作方法;動態標籤管理;dtm
 title: DTM 實施概覽
 topic: 開發人員和實作
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '225'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
