@@ -1,13 +1,13 @@
 ---
-description: 區段的常見問題。
+description: 有關分段的常見問題集。
 title: 常見問題集
 topic: 區段
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2078'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -336,7 +336,7 @@ seg_definition.xml
 | 行動書籤長度 | Java 已啟用 | 付費搜尋 |
 | 行動 URL 長度 | 語言 |  |
 
-## 對於具有已知值之整數式維度的變更  {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 對於具有已知值之整數式維度的變更 {#section_84A8AAD0344148AD9F9211D3EB271903}
 
 具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式：
 
