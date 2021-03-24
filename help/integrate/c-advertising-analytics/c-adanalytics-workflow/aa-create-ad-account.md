@@ -1,11 +1,11 @@
 ---
-title: 如何在Advertising Analytics建立廣告帳戶
-description: 可讓您建立新的廣告帳戶，並將多個帳戶對應至多個報表套裝。
-translation-type: tm+mt
+title: 如何在 Advertising Analytics 中設定 Advertising 帳戶
+description: 可讓您建立新的 Advertising 帳戶，並將多個帳戶對應到多個報表套裝。
+translation-type: ht
 source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '869'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
       <ul id="ul_FC9B5612F6554495B04C357CB0AB72EB"> 
        <li id="li_CD54231BFF134F83B3B5B14B34A0E1D2">Google Adwords：提供 Google 帳戶 ID。 </li> 
        <li id="li_89B9D54BAA914E5DB2959B193489582E">Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。 </li> 
-       </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >尋找您的帳戶 ID</a>。 </p> <p>成功登入後，「OAuth 代碼」欄位會顯示 <code>Retrieved</code>. </p> </td> 
+       </ul> <p>如需這些 ID 的相關資訊，請參閱<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md"  >尋找您的帳戶 ID</a>。 </p> <p>當您成功登入後，「OAuth 代碼」欄位將會顯示 <code>Retrieved</code>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
@@ -78,7 +78,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     <tbody> 
       <tr> 
       <td colname="col1"> <p>報表套裝映射 </p> </td> 
-      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
+      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
