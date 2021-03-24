@@ -1,9 +1,9 @@
 ---
 description: 了解 Analytics Data Connectors 何時終止及終止原因。
 title: Analytics Data Connectors 終止服務預先公告
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
 ht-degree: 100%
 
