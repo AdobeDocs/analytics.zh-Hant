@@ -1,12 +1,12 @@
 ---
-description: 在工作區專案中使用地圖視覺化。
+description: 在 Workspace 專案中使用地圖視覺效果。
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '625'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace 中的地圖視覺效果
 
 * 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。
 * 相當實用，可辨識和比較不同地理區域之間的量度資料。
-* 可支援 2 項資料來源：行動裝置使用的經緯度、或網頁使用的地理維度。
+* 可支援 2 項資料來源：行動裝置使用的經緯度，或網頁使用的地理維度。
 * 支援 PDF 匯出。
 * 針對圖形顯示使用 WebGL。如果您的顯示卡驅動程式不支援 WebGL 轉譯，您可能需要更新驅動程式。
 
