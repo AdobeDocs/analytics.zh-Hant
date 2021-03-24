@@ -1,12 +1,12 @@
 ---
-description: 疑難排解並修正與Advertising Analytics有關的問題。
+description: Advertising Analytics 相關問題的疑難排解與修正。
 title: 疑難排解 Advertising Analytics
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 原因 </th> 
-   <th colname="col2" class="entry"> 解決方法 </th> 
+   <th colname="col2" class="entry"> 解決方案 </th> 
   </tr>
  </thead>
  <tbody> 
@@ -45,7 +45,7 @@ ht-degree: 95%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 原因 </th> 
-   <th colname="col2" class="entry"> 解決方法 </th> 
+   <th colname="col2" class="entry"> 解決方案 </th> 
   </tr>
  </thead>
  <tbody> 
