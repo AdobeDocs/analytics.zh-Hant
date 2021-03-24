@@ -1,12 +1,12 @@
 ---
-description: 設定Experience Cloud對應的報表套裝，以便用於Advertising Analytics。
+description: 設定 Experience Cloud 對應的報表套裝，以供 Advertising Analytics 使用。
 title: 啟用 Advertising Analytics 的報表套裝
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '283'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 1. 導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**。
 
 1. 選取已對應至您 Experience Cloud 組織的報表套裝。
-1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**。
+1. 按一下 **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定]**。
 
    ![報表](assets/aa_reporting.png)
 
