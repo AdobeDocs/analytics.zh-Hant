@@ -1,12 +1,12 @@
 ---
-description: 疑難排解並修正與區段相關的問題。
+description: 區段相關問題的疑難排解與修正。
 title: 區段疑難排解
 uuid: 8476d617-4b44-4ff2-9b3a-02685f666afc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 96%
 * 報表不支援分段。
 * 沒有與分段標準相符的資料。
 
-## 為什麼我在區段管理員中看不到我建立的區段？  {#section_BE0A0930A2694A23BB32DA71696D52CE}
+## 為什麼我在區段管理員中看不到我建立的區段？ {#section_BE0A0930A2694A23BB32DA71696D52CE}
 
 可能的原因包括：
 
@@ -40,7 +40,7 @@ ht-degree: 96%
 * 區段未儲存。
 * 可能在使用者端封鎖了 IP 位址。
 
-## 為什麼在套用區段後顯示的頁面資料不正確？  {#section_B226AF69FE06463A8BC5337FDA8D4949}
+## 為什麼在套用區段後顯示的頁面資料不正確？ {#section_B226AF69FE06463A8BC5337FDA8D4949}
 
 可能的原因包括：
 
