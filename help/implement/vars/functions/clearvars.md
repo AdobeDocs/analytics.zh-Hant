@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: 會清除例項物件中的下列值。此函數會移除元素 (即將其設為「未定義」)。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+description: 從追蹤物件清除變數值。
+translation-type: tm+mt
+source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 95%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 此方法不採用任何引數，也不會傳回任何值。其唯一用途是清除例項物件的變數值。此方法將下列元素設為 `undefined`：
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
