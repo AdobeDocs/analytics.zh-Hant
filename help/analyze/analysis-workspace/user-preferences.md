@@ -2,9 +2,9 @@
 title: 如何在Analysis Workspace設定用戶首選項
 description: 您可以在一個集中位置設定著陸頁面和專案參考。
 translation-type: tm+mt
-source-git-commit: cbfe63bcb620bbd089d8d6a795662f50643a0109
+source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '224'
 ht-degree: 27%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 27%
 
 # 用戶偏好設定
 
-「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面可讓您管理使用者的Analysis Workspace設定及其相關元件。 使用者偏好設定會套用至所有&#x200B;*new*&#x200B;專案或面板。
+「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面可讓您管理使用者層級的Analysis Workspace及其相關元件設定。 使用者偏好設定會套用至所有&#x200B;*new*&#x200B;專案或面板。
 
 ![用戶偏好設定](assets/user-preferences.png)
 
