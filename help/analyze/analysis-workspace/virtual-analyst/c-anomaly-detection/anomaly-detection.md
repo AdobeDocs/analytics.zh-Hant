@@ -2,11 +2,13 @@
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
+feature: AI工具
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 90%
+source-wordcount: '291'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +19,7 @@ ht-degree: 90%
 
 [異常偵測教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[貢獻分析教學課程影片](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
+[貢獻分析教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)影片
 
 >[!IMPORTANT]
 >
