@@ -1,13 +1,14 @@
 ---
 description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
-topic: Reports,Reports and analytics
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '2358'
-ht-degree: 100%
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 99%
 
 ---
 
@@ -95,7 +96,7 @@ t_reports_fallout.xml
 
 「頁面流程報表」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報表可協助解答
 
-查看 Analysis Workspace 新的[流量視覺化](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
+查看 Analysis Workspace 新的[流量視覺化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
 
 執行[路徑](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)報表。
 
@@ -153,7 +154,7 @@ t_anomaly_view.xml
 
 >[!NOTE]
 >
->您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
 如需設定異常偵測的資訊，請參閱[參考指南](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)。
 
@@ -182,7 +183,7 @@ t_anomaly_view.xml
         <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和預期值相同，則偏差百分比為 -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">若不同，偏差百分比是 ((下限值 - 實際值) / (預期值 - 下限值)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下<span class="uicontrol">「顯示區段」</span>會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html"  >深入了解</a>區段。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下<span class="uicontrol">「顯示區段」</span>會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >深入了解</a>區段。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下<span class="uicontrol">「編輯量度」</span>可讓您選取和取消選取您要偵測異常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
