@@ -1,10 +1,14 @@
 ---
 description: 您可以篩選新增至「列標籤」格線的維度。篩選能減少請求傳回的資料數量，您可以從「樞紐配置」或「自訂配置」套用篩選。在「樞紐配置」中設定維度篩選時，您可以額外指定來自儲存格的項目數量。
 title: 篩選維度概觀
-topic: Report builder
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 定義篩選 – 值與特殊字元 {#section_15840216A4044C40974945FAA435AD93}
 
-關於「 >」面板中篩 **[!UICONTROL Most Popular Filter]** 選器 **[!UICONTROL Define Filter]** 的資訊。
+在&#x200B;**[!UICONTROL 「熱門篩選]** > **[!UICONTROL 定義篩選」]**&#x200B;面板中的篩選相關資訊。
 
 ![](assets/define_filter.png)
 
@@ -85,7 +89,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    <td colname="col1"> <p>終止於 </p> </td> 
    <td colname="col02"> <p>傳回以特定值作為結尾的結果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>Matches <span class="term"> wxyz</span> but not <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>匹配<span class="term"> wxyz</span>但不匹配<span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>進階 (特殊字元) </p> </td> 
