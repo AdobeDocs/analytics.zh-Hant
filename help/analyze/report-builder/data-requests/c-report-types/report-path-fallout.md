@@ -1,10 +1,14 @@
 ---
 description: 說明 Report Builder 如何支援路徑分析與流失報表，以及實作和行銷 Reports & Analytics 有何不同。
 title: Report Builder 中的路徑與路徑流失報表
-topic: Report builder
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 完整路徑 | 不支援. |
 | PathFinder | 不供作為獨立報表使用。可使用篩選條件重新產生作為路徑報表。 |
 | 路徑長度 | 僅支援「頁面」維度。 |
-| 頁面分析 >  維度摘要 | 不供作為獨立報表使用。可以數個請求、路徑維度或使用篩選條件重新產生。 |
+| 頁面分析>維度摘要 | 不供作為獨立報表使用。可以數個請求、路徑維度或使用篩選條件重新產生。 |
 | 頁面分析 > 重新載入 | 不供作為獨立報表使用。可以維度報表使用「重新載入」度量重新產生。 |
 | 頁面分析 > 維度深度 | 僅支援「頁面」維度。 |
 | 頁面分析 >維度逗留時間 | 不支援. |
