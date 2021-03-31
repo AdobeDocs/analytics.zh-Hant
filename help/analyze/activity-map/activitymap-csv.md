@@ -1,13 +1,14 @@
 ---
 description: 在標準模式中，可從 Activity Map 匯出 Analytics 資料至逗號分隔值 (CSV) 檔案。
 title: 匯出至 CSV 檔案
-topic: Activity map
 uuid: dc6c50c0-57f7-45b8-a4cb-2092a21da529
-translation-type: ht
-source-git-commit: ee5489798f8c82c563b49b6c96acd1e63a0aa920
-workflow-type: ht
-source-wordcount: '237'
-ht-degree: 100%
+feature: Activity Map
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 98%
 
 ---
 
