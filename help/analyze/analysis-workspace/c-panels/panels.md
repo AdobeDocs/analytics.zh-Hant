@@ -1,18 +1,20 @@
 ---
 description: 面板是表格和視覺化的集合
 title: 面板概述
+feature: 面板
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 272c50040a009d2b69885924e7b1f402636e8889
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 11%
+source-wordcount: '1008'
+ht-degree: 13%
 
 ---
 
 
 # 面板概述
 
-[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。 「分析工作區」中提供下列面板類型：
+[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。Analysis Workspace提供下列面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
@@ -26,15 +28,15 @@ ht-degree: 11%
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights]、  Blank和  Freepanels是您開始分析的絕佳場所，而 [!UICONTROL Analytics for Target]、 [!UICONTROL Attribution IQform]    、Concurrent Viewmedia Concurrent Erermedia和Comparnaling Signment Isonlend Advanced And And And Advanced。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+[!UICONTROL Quick Insights]、  Blank和  Freeformpanels是您開始分析的絕佳場所，而 [!UICONTROL Target]、     Attribution IQ、Concurrent Media Percomparonon Comparon Accorpont Acceron Views Isisand Segment本身則有助於進行更深入的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
 預設的起始面板是[!UICONTROL Freeform]面板，但您也可以將[空白麵板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
 ## 報表套裝 {#report-suite}
 
-面板內的表格和視覺化會從面板右上角選取的[!UICONTROL 報表套裝]衍生資料。 報表套裝也會決定左側導軌中可用的元件。 在專案中，您可以根據分析使用案例，使用一或多個報表套裝[。 ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)若要將單一報表套裝套用至專案中的所有面板，請&#x200B;**按一下滑鼠右鍵的面板標題>將報表套裝套用至所有面板**。
+面板內的表格和視覺化會從面板右上角選取的[!UICONTROL 報表套裝]衍生資料。 報表套裝也會決定左側導軌中可用的元件。 在專案中，您可以根據分析使用案例，使用一或多個報表套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)。 [若要將單一報表套裝套用至專案中的所有面板，請&#x200B;**按一下滑鼠右鍵的面板標題>將報表套裝套用至所有面板**。
 
-報表套裝清單會依相關性排序，Adobe會根據目前使用者最近和經常使用套裝的情形，以及組織內使用套裝的情形，來定義相關性。
+報表套裝的清單會依相關性排序，Adobe會根據目前使用者最近和經常使用套裝，以及組織內使用套裝的頻率來定義該套裝。
 
 ![](assets/panel-report-suite.png)
 
@@ -74,7 +76,7 @@ ht-degree: 11%
 
 若要建立下拉式篩選：
 
-1. 若要使用[!UICONTROL 維度項目]建立下拉式篩選，例如[!UICONTROL 行銷管道]維度中的值，請按一下左側導軌中維度旁的右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同時將其拖放至面板拖放區域&#x200B;**。**&#x200B;這會將元件轉換為下拉式篩選，而非單一區段。
+1. 若要使用[!UICONTROL Dimension項目]建立下拉式篩選，例如[!UICONTROL 行銷管道]維度中的值，請按一下左側導軌中維度旁的右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同時將其拖放至面板拖放區域&#x200B;**。**&#x200B;這會將元件轉換為下拉式篩選，而非單一區段。
 1. 若要使用其他元件（例如度量、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後拖曳至面板下拉區&#x200B;**，同時按住Shift鍵**。
 1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 您也可以選擇&#x200B;**[!UICONTROL 無篩選器]**，選擇不篩選任何面板資料。
 
