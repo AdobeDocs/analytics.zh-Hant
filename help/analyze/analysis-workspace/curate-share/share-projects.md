@@ -1,11 +1,13 @@
 ---
 description: 工作區中的專案共用和專案角色
-keywords: Analysis Workspace sharing
+keywords: Analysis Workspace共用
 title: 共用專案
+feature: 組織與分享
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1109'
 ht-degree: 99%
 
 ---
@@ -57,14 +59,14 @@ ht-degree: 99%
 
 ## 與收件者群組共用 {#Groups}
 
-所有使用者都可與群組共用專案；群組是收件者的集合。在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的產品設定檔所定義。
+所有使用者都可與群組共用專案；群組是收件者的集合。在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的產品設定檔所定義。
 
 * 管理員可將任何群組當作共用對象，包括「全部」。
 * 非管理員則可與其所屬的群組共用，但「全部」除外。
 
 ## 共用專案連結 {#Links}
 
-您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)如何建立工作區專案分享連結。
+您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)如何建立工作區專案分享連結。
 
 ## 在專案管理員中共用專案 {#Manager}
 
