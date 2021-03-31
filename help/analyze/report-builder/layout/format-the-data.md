@@ -1,10 +1,14 @@
 ---
 description: 除了 Excel「格式 > 儲存格」(Ctrl+1) 功能提供的標準儲存格格式選擇之外，您還可以透過 Report Builder 將有限的格式套用至儲存格範圍。這些格式選擇取決於您選擇的度量。
 title: 日期格式
-topic: Report builder
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 
@@ -13,11 +17,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 除了 Excel「格式 > 儲存格」(Ctrl+1) 功能提供的標準儲存格格式選擇之外，您還可以透過 Report Builder 將有限的格式套用至儲存格範圍。這些格式選擇取決於您選擇的度量。
 
-After you [add dimensions](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) to the Row Labels grid, click **[!UICONTROL Format]**.
+[新增維度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)至「列標籤」格線後，請按一下&#x200B;**[!UICONTROL 「格式」]**。
 
-In the **[!UICONTROL Format]** menu, click **[!UICONTROL Custom Format]** to apply customized formats for dates similar to the prepend and postpend feature. 例如，您可以輸入一律要出現日期後的文字 (如 A.D. B.C.E. A.H. 等)。您可以在日期之前新增文字，例如 [!UICONTROL Start Date] 和 [!UICONTROL Start and End Date]。 除此之外，您還可以利用日、月、年等縮寫建構自訂日期運算式，以及在日期的各個部分間使用自訂分隔符號。所有日期格式都只能由三個以方括號包覆的縮寫組成。
+在「**[!UICONTROL 格式]**」功能表中按一下「**[!UICONTROL 自訂格式]**」以套用日期的自訂格式，其形式與在開頭和結尾附加文字的功能相似。例如，您可以輸入一律要出現日期後的文字 (如 A.D. B.C.E. A.H. 等)。您可以在日期前加上文字，如「[!UICONTROL 開始日期]」和「[!UICONTROL 開始與結束日期]」。除此之外，您還可以利用日、月、年等縮寫建構自訂日期運算式，以及在日期的各個部分間使用自訂分隔符號。所有日期格式都只能由三個以方括號包覆的縮寫組成。
 
-The following table describes how you can use date abbreviations in the [!UICONTROL Custom Format] field:
+下表說明如何在[!UICONTROL 「自訂格式」]欄位中使用日期縮寫：
 
 | 縮寫 | 含義 | 範例使用 2012 年 3 月 14 日星期三 |
 |--- |--- |--- |
