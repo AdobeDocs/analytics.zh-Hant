@@ -2,11 +2,13 @@
 description: 在 Workspace 專案中使用地圖視覺效果。
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+feature: 視覺效果
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 99%
 
 ---
 
