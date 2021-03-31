@@ -1,12 +1,14 @@
 ---
 description: 工作區中僅限檢視的專案
-keywords: View-only projects
+keywords: 僅供檢視的專案
 title: 僅供檢視的專案
+feature: 組織與分享
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 98%
+source-wordcount: '254'
+ht-degree: 97%
 
 ---
 
