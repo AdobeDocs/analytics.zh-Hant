@@ -2,11 +2,13 @@
 description: 此工作區視覺效果類似折線圖，但折線下方有一塊上色區域。
 title: 區域圖和堆疊區域圖
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-translation-type: ht
-source-git-commit: 1835f9063809cc780350b04dd018eb8cb6800152
-workflow-type: ht
-source-wordcount: '99'
-ht-degree: 100%
+feature: 視覺效果
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
