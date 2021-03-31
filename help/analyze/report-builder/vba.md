@@ -1,11 +1,13 @@
 ---
 title: Report Builder 中的 Visual Basic 巨集
 description: 使用 VBA 擴展 Excel 活頁簿和 Report Builder 的功能。
-translation-type: ht
-source-git-commit: b569f87dde3b9a8b323e0664d6c4d1578d410bb7
-workflow-type: ht
-source-wordcount: '196'
-ht-degree: 100%
+feature: Report Builder
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '201'
+ht-degree: 98%
 
 ---
 
