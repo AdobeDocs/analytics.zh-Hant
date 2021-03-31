@@ -1,17 +1,21 @@
 ---
 description: Report Builder 中遞延日期的欄位定義。
 title: 請求精靈定義 - 遞延日期
-topic: Report builder
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 86%
 
 ---
 
 
 # 請求精靈定義 - 遞延日期
 
-報告建立工具中遞延日期的欄位定義。
+Report Builder中遞延日期的欄位定義。
 
 <table id="table_620F3BD3FD1B4C85A0319107EC03D54F"> 
  <thead> 
