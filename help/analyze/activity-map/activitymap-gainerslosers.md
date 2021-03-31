@@ -1,13 +1,14 @@
 ---
 description: 覆蓋圖提供多種設定資料視覺效果的方式，讓您輕鬆查看並了解頁面上連結的人氣高低。
 title: 可自訂覆蓋圖
-topic: Activity map
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
+feature: Activity Map
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '359'
+ht-degree: 99%
 
 ---
 
