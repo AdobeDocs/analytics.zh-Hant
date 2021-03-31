@@ -1,17 +1,18 @@
 ---
-title: 搭配Activity Map使用tl()方法
+title: 使用tl()方法與Activity Map
 description: 您可以使用tl()方法來追蹤自訂元素，並設定動態內容的覆蓋呈現。
-topic: Activity Map
+feature: Activity Map
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 65cb0a49ef74156f0b8adf4a11c6fec6394d306f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '486'
 ht-degree: 43%
 
 ---
 
 
-# 將`tl()`方法與Activity Map搭配使用
+# 使用`tl()`方法與Activity Map
 
 您可使用 `tl()` 方法追蹤自訂元素，並設定動態內容的覆蓋圖演算作業。
 
@@ -29,7 +30,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 
 ## 動態內容的覆蓋圖演算
 
-當直接從HTML元素的點按上事件呼叫`tl()`方法時，Activity Map會在載入網頁時顯示該元素的覆蓋圖。 範例：
+當直接從HTML元素的點按上事件呼叫`tl()`方法時，載入網頁時，Activity Map可顯示該元素的覆蓋。 範例：
 
 ```html
 <a href="javascript:" onclick="s.tl(this,'o','Example custom link');">Example link text</a>
@@ -48,7 +49,7 @@ s.tl([Link object],[Link type],[Link name],[Override variable]);
 </script>
 ```
 
-Activity Map覆蓋動態內容連結的最佳方式，是設定自訂的`ActivityMap.link`函式，以呼叫傳回值至`tl()`的相同函式。 例如：
+Activity Map覆蓋動態內容連結的最佳方式是設定自訂的`ActivityMap.link`函式，以呼叫傳回值至`tl()`的相同函式。 例如：
 
 ```js
 var originalLinkFunction = s.ActivityMap.link;
@@ -70,5 +71,5 @@ s.ActivityMap.link = function(element,linkName)
 在此，我們覆寫了`ActivityMap.link`函式，以便在呼叫時執行下列三項之一：
 
 1. 如果傳遞`linkName`，則此變數會由`tl()`呼叫，因此請傳回`tl()`作為`linkName`傳入的項目。
-2. 當Activity Map在報告時呼叫時，不會傳遞`linkName`，因此會使用連結元素呼叫`makeLinkName()`。 這是關鍵步驟- `makeLinkName(element)`呼叫應與`<button>`標籤中`tl()`呼叫的第3個引數相同。 這表示呼叫`tl()`時，我們會追蹤`makeLinkName()`傳回的字串。 當Activity Map報告頁面上的連結時，會使用相同的呼叫來建立連結。
+2. 在報告時由Activity Map呼叫時，不會傳遞`linkName`，因此會使用連結元素呼叫`makeLinkName()`。 這是關鍵步驟- `makeLinkName(element)`呼叫應與`<button>`標籤中`tl()`呼叫的第3個引數相同。 這表示呼叫`tl()`時，我們會追蹤`makeLinkName()`傳回的字串。 當Activity Map報告頁面上的連結時，會使用相同的呼叫來建立連結。
 3. 最終解決方案是僅傳回預設 ActivityMap 連結函數的原始傳回值。在預設情況下，保留此參考以呼叫，可協助您只需覆寫或寫入`makeLinkName()`的自訂程式碼，而不需為頁面上的所有連結提供連結傳回值。
