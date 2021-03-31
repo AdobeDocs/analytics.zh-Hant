@@ -1,13 +1,14 @@
 ---
 description: 上傳要共用的 Report Builder Excel 活頁簿。
 title: 上傳活頁簿
-topic: Report builder
 uuid: fe0424ae-7c68-407c-9b75-e7ef53a44a4f
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '148'
+ht-degree: 97%
 
 ---
 
