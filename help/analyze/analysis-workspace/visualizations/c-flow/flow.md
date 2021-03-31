@@ -2,11 +2,13 @@
 description: 在 Workspace 專案中使用流量視覺效果。
 title: 流量概述
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '211'
-ht-degree: 100%
+feature: 視覺效果
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '215'
+ht-degree: 98%
 
 ---
 
