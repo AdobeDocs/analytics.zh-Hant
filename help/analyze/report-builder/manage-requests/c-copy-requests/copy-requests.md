@@ -1,10 +1,14 @@
 ---
 description: 您可以複製與多個請求相互映射的儲存格，然後再將內容貼到試算表內空白的選定區域中。
 title: 複製請求概觀
-topic: Report builder
 uuid: 1e0274a3-2038-45c7-87c8-bd949538d4e1
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 98%
 
 ---
 
