@@ -1,13 +1,14 @@
 ---
 description: 異常偵測使用統計模型來自動尋找資料中的意外趨勢。此模型會分析量度並決定上下界限和值的預期範圍。當發生意外的尖峰或下降時，系統會在報表中警報。
 title: 異常偵測
-topic: Report builder
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '518'
-ht-degree: 100%
+feature: Report Builder
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '523'
+ht-degree: 99%
 
 ---
 
