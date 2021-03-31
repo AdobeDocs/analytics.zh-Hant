@@ -1,10 +1,14 @@
 ---
 description: 「互動式控制項」可讓您直接從工作表編輯一或多個請求的區段與日期範圍。這樣可讓您在更新 Report Builder 請求時，享有更多彈性。
 title: 互動式控制項
-topic: Report builder
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 99%
 
 ---
 
@@ -23,6 +27,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 >您必須先安裝 Report Builder v5.0，互動式控制項才能正常運作。>
 >* 如果您在 Windows 上執行 Microsoft Excel，但執行較舊版本的 Report Builder，或如果您未安裝 Report Builder：您可以變更互動式控制項中的值，但控制項不會重新整理相關請求，也不會更新請求的相關參數。
 >* 如果您在 Mac 上執行 Excel，變更控制項中的值後，畫面會顯示以下訊息：「找不到巨集 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。」
+
 >
 
 
@@ -33,8 +38,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## 實作互動式日期範圍控制項 {#section_39B228F2D2C44985863D31424C953280}
 
-1. In Step 1 of the Request Wizard select, for example, the **[!UICONTROL Page]** report.
-1. 在下拉式清 **[!UICONTROL Commonly Used Dates]** 單旁，按一下 **[!UICONTROL Control Settings]** 圖示：
+1. 在請求精靈的步驟 1 選取項目，例如&#x200B;**[!UICONTROL 「頁面」]**&#x200B;報表。
+1. 在&#x200B;**[!UICONTROL 「常用的日期」]**&#x200B;下拉式清單旁，按一下&#x200B;**[!UICONTROL 「控制設定」]**&#x200B;圖示：
 
    ![](assets/date_range_control.png)
 
@@ -47,16 +52,16 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    * 如果勾選此選項，所有使用該控制項的請求都會重新整理。
    * 如果未勾選此選項，則會更新相關的請求參數，但不會重新整理請求。
 
-1. 按一下 **[!UICONTROL OK]**. 控制項會出現在您指定的儲存格位置：
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。控制項會出現在您指定的儲存格位置：
 
    ![](assets/date_range_control_interactive.png)
 
 1. 您現在可以變更日期範圍，請求會依據該日期範圍重新整理。
 1. 您也可以複製請求，然後按一下滑鼠右鍵，使用下列其中一個「貼上請求」選項：
 
-   * **[!UICONTROL Paste Request]** > **[!UICONTROL Use Absolute Input Cell]**. 這表示複製的請求會指向與原始請求相同的互動式日期範圍控制項。
+   * **[!UICONTROL 「貼上請求]** > **[!UICONTROL 使用絕對輸入儲存格」]**。這表示複製的請求會指向與原始請求相同的互動式日期範圍控制項。
 
-   * **[!UICONTROL Paste Request]**> **[!UICONTROL Use Relative input Cell]**. 這表示複製的請求會指向自身的控制項。
+   * **[!UICONTROL 「貼上請求]** > **[!UICONTROL 使用相對輸入儲存格」]**。這表示複製的請求會指向自身的控制項。
 
       >[!NOTE]
       >
@@ -66,7 +71,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 實作互動式區段控制項與實作日期範圍控制項大同小異。
 
-1. In Step 1 of the Request Wizard, next to the **[!UICONTROL Segment]** drop-down list, select the Segment Control Settings icon:
+1. 在請求精靈的步驟 1 中，在&#x200B;**[!UICONTROL 「區段」]**&#x200B;下拉式清單旁，選取「區段控制設定」圖示：
 
    ![](assets/segment_interactive_1.png)
 
