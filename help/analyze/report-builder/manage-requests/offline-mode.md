@@ -1,10 +1,14 @@
 ---
 description: 離線模式會傳回預留位置資料，以加速建立及編輯請求的處理程序。
 title: 以離線模式建立及編輯請求
-topic: Report builder
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 98%
 
 ---
 
@@ -17,13 +21,13 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 若要啟用離線模式，請執行下列動作：
 
-1. Click **[!UICONTROL Options]** in the Report Builder menu.
+1. 按一下 Report Builder 功能表中的&#x200B;**[!UICONTROL 「選項」]**。
 
    ![](assets/offline_mode.png)
 
-1. 勾選旁邊的核取方塊 **[!UICONTROL Turn on offline mode for creating and editing requests]**。
-1. In the **[!UICONTROL Display Metric Data as]** field, enter the placeholder data that you want returned in your request. 例如，您可以輸入「1」。
-1. 按一下 **[!UICONTROL OK]**.
+1. 勾選「**[!UICONTROL 開啟離線模式以建立和編輯請求]**」旁的核取方塊。
+1. 在「**[!UICONTROL 將度量資料顯示為]**」欄位中，輸入您想要在請求中傳回的預留位置資料。例如，您可以輸入「1」。
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 1. 接著，在「請求精靈」中以離線模式建立並執行請求。
 1. 帶有預留位置資料「1」的請求如下所示：
 
@@ -31,5 +35,5 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
    >[!IMPORTANT]
    >
-   >以真實資料執行請求前，請務必確認您已停用「離線模式」。To do so, just go back to **[!UICONTROL Options]** and remove the checkmark.
+   >以真實資料執行請求前，請務必確認您已停用「離線模式」。若要停用「離線模式」，只要返回&#x200B;**[!UICONTROL 「選項」]**&#x200B;清除勾選記號即可。
 
