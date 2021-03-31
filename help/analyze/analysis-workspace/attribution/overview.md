@@ -1,11 +1,13 @@
 ---
 title: 歸因概觀
 description: 將成功事件的評分歸因於多個維度項目的概念。
+feature: 出處
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: b952ea84a63cdb73684e8765dde6551785c0d6c1
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 99%
 
 ---
 
