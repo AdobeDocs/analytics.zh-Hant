@@ -1,13 +1,14 @@
 ---
 description: 說明權限設定方式以及 Analytics 提供的維度。
 title: Analytics 中的 Activity Map 報表
-topic: Activity map
 uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+feature: Activity Map
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 98%
 
 ---
 
