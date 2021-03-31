@@ -1,13 +1,13 @@
 ---
 description: 說明定義所有報表顯示方式的設定，以及將預設功能表選項對應至其簡化功能表中各個位置的資訊。
 title: 報表顯示設定和導覽
-topic: Reports,Reports and analytics
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '1468'
-ht-degree: 100%
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1471'
+ht-degree: 99%
 
 ---
 
