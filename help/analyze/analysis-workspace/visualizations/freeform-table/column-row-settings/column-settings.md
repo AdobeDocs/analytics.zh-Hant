@@ -2,11 +2,13 @@
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
+feature: 自由表格
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: f2c6cda9743094cf198b4449b9163e3004d9e151
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 94%
+source-wordcount: '725'
+ht-degree: 93%
 
 ---
 
@@ -26,8 +28,8 @@ ht-degree: 94%
 | 元素 | 說明 |
 | --- | --- |
 | **總計儲存格** |  |
-| 顯示總計 | This total is typically equal to or a subset of the [!UICONTROL Grand Total]. 它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
-| 顯示全部總量 | 此總計代表所有已收集的點擊，有時稱為「報表套裝總計」。 在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。Grand total is not supported for tables or breakdowns with [static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md). |
+| 顯示總計 | 此總計通常等於或[!UICONTROL 總計]的子集。 它反映的是在自由表格中套用的任何表格篩選條件，包括[!UICONTROL 「不包含任何項目」]選項。 |
+| 顯示全部總量 | 此總計代表所有已收集的點擊，有時稱為「報表套裝總計」。 在面板層級或自由表格內套用區段時，這項總計會經過調整，藉此反映所有符合區段條件的點擊。[static rows](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md)的表格或劃分不支援總計。 |
 | **表格儲存格** |  |
 | 數字 | 決定儲存格是否要顯示/隱藏量度數值。例如，如果量度為「頁面檢視」，則該數值為列項目的頁面檢視數量。 |
 | 百分比 | 決定儲存格是否要顯示/隱藏量度百分比值。例如，如果量度為「頁面檢視」，則該百分比數值為欄頁面檢視總數除以列項目的頁面檢視次數。附註：為了比例更精確，我們可以顯示超過 100% 的數值。我們也將上限提高為 1000%，以確保欄位的寬度夠大。 |
@@ -49,10 +51,10 @@ ht-degree: 94%
 | --- | --- |
 | 條件式格式 | 根據資料值，套用下列顏色至儲存格： <ul><li>綠：高數值</li><li>黃：中間值</li><li>紅：低數值</li></ul> <br>取代表格中的維度會重設條件式格式限制。取代量度會重新計算該欄的限制 (其中量度位在 X 軸，維度位在 Y 軸)。 |
 | 使用百分比限制 | 變更限制範圍，從絕對值改為以百分比為基礎.此設定適用於僅有百分比的量度 (例如反彈率)，以及含有計數和百分比的量度 (例如頁面檢視)。 |
-| 自動產生 | 根據資料自動計算上/中/下限.上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
-| 自訂 | 手動對齊上/中/下限.這可提供由您決定欄的值是好、中等或壞的彈性。 |
+| 自動產生 | 根據資料自動計算上/中/下限。上限是此欄中的最大值。下限是最小值，而中點是上限和下限的平均。 |
+| 自訂 | 手動對齊上/中/下限。這可提供由您決定欄的值是好、中等或壞的彈性。 |
 
-## 使用非預設歸因模式 {#attribution}
+## 使用非預設歸因模型 {#attribution}
 
 Analysis Workspace 支援絕大多數量度的[歸因](/help/analyze/analysis-workspace/attribution/overview.md)。
 
