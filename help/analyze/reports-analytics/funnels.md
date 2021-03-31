@@ -1,13 +1,14 @@
 ---
 description: 轉換比率通常會測量轉換程序中的開始、結束與里程碑事件或點之間的轉換情形。當您在網站上編寫成功事件的代碼後，報告即會建立這些不同成功事件之間的比率，並將其顯示在「轉換漏斗報告」中。
 title: 轉換漏斗
-topic: Reports
 uuid: a67ce302-fae1-434a-b662-91672e85cab3
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 98%
 
 ---
 
