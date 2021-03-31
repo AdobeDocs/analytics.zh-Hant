@@ -2,11 +2,13 @@
 description: 使用貢獻分析來找出資料中的統計異常和關聯。
 title: 貢獻分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '1156'
-ht-degree: 100%
+feature: AI工具
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1161'
+ht-degree: 99%
 
 ---
 
