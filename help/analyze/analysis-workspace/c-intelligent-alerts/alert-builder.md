@@ -2,11 +2,13 @@
 description: 當專案元件達到特定臨界值時，收到警報。
 title: 警報產生器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+feature: AI工具
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 98%
 
 ---
 
