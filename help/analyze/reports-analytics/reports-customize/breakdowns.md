@@ -1,10 +1,14 @@
 ---
 description: 當您想要詳細瞭解報告項目或區段如何與其他報告產生關聯時，請使用劃分。這通常稱為依據某一報表「劃分」另一報表。
 title: 劃分
-topic: Reports and analytics
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '299'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: 65fc2a790db1833f3f89ec9cfd5cb3517d7706e5
 
 如果報告的細分依據是&#x200B;*`Referrer Type`*，您可能會看到 *`Inside Your Site`* 的資料點。這個值代表位於「內部 URL 篩選器」清單上的反向連結頁面。請參閱「管理參考」中的[內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)。
 
-您可以透過任何其他變數來細分任何 Analytics 變數 (eVar 或 prop)。The **[!UICONTROL Breakdown By]** menu in the report table matches the standard Analytics reporting menu, keeping selections consistent
+您可以透過任何其他變數來細分任何 Analytics 變數 (eVar 或 prop)。報告表格中的&#x200B;**[!UICONTROL 劃分依據]**&#x200B;功能表與標準的 Analytics 報告功能表相同，讓選擇能夠保持一致。
 
 ## 執行劃分報告 {#task_F685624830E64C829C8BE6435A107F69}
 
@@ -29,11 +33,11 @@ t_reports_breakdown.xml
 
  -->
 
-1. 開啟報表，例如 **[!UICONTROL Analytics]** > **[!UICONTROL Reports]** > **[!UICONTROL Site Content]** > **[!UICONTROL Pages]**。
-1. In the report table, click the **[!UICONTROL Breakdown By]** icon.
+1. 打開報告，例如 **[!UICONTROL 「Analytics]** > **[!UICONTROL 報告]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面」]**。
+1. 在報告表格中，按一下&#x200B;**[!UICONTROL 「劃分依據」]**&#x200B;圖示。
 
-   If the **[!UICONTROL Breakdown By]** icon is not visible, the feature is either not available or not enabled.
+   如果看不到&#x200B;**[!UICONTROL 「劃分依據」]**&#x200B;圖示，表示此功能無法使用或未啟用。
 
    ![](assets/breakdown.png)
 
-   The **[!UICONTROL Breakdown By]** menu displays all available breakdown options available for the current report.
+   **[!UICONTROL 「劃分依據」]**&#x200B;功能表會顯示目前報表可用的所有劃分選項。
