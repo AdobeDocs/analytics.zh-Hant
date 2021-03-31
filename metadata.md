@@ -2,22 +2,15 @@
 cloud: experience-cloud
 product: analytics
 solution: Analytics
-solution-title: 學習與支援
-solution-hub-url: https://helpx.adobe.com/tw/support/analytics.html
-solution-image: assets/analytics-icon-24.png
-getting-started-title: 快速入門
-getting-started-url: https://helpx.adobe.com/tw/analytics/get-started.html
-tutorials-title: 教學課程
-tutorials-url: https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.zh-Hant
 type: 文件
 index: true
-description: 包含傳遞至回購中使用者指南TOC.md檔案的回購層級中繼資料。
+feature-set: Analytics
 translation-type: tm+mt
-source-git-commit: 97e60e4c3a593405f92f47e5aa79ece70e0b3d60
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 90%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
 
