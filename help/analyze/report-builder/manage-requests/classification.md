@@ -1,13 +1,14 @@
 ---
 description: 分類劃分是用於映射可回報資料的分析到相關屬性。分類的用途廣泛，但最常用來分類促銷活動追蹤程式碼 (內部和外部) 和產品 ID。
 title: 分類
-topic: Report builder
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 6778dd290424651dc959224daa0eef8ebd8196e5
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '184'
+ht-degree: 98%
 
 ---
 
