@@ -1,13 +1,14 @@
 ---
 description: 量度是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 title: 量度
-topic: Reports and analytics
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 98%
 
 ---
 
