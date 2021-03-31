@@ -1,13 +1,14 @@
 ---
 description: 篩選條件可以縮小報表的範圍來包含或排除符合篩選條件的行項目。
 title: 篩選報表資料
-topic: Reports and analytics
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 100%
+source-wordcount: '682'
+ht-degree: 99%
 
 ---
 
