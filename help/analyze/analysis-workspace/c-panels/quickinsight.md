@@ -1,11 +1,13 @@
 ---
 description: 「快速深入分析」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺效果
 title: 快速深入分析面板
-translation-type: ht
-source-git-commit: 19e10ddd43d3a3317e6dadef789b3038e13fdb8f
-workflow-type: ht
-source-wordcount: '1048'
-ht-degree: 100%
+feature: 面板
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1052'
+ht-degree: 99%
 
 ---
 
