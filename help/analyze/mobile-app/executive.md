@@ -1,11 +1,13 @@
 ---
 description: 控制面板計分卡的使用說明。
 title: Adobe Analytics 控制面板執行指南
+feature: Analytics儀表板
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 2a1d3234444dbacb9cb68d85bd00527b2609d1c7
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1293'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 99%
 
 ---
 
