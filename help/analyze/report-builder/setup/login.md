@@ -1,12 +1,13 @@
 ---
-description: 瞭解如何使用您的Experience Cloud登入帳戶登入Report Builder。
-title: 如何登入報告建立工具
-topic: Report builder
+description: 瞭解如何使用您的Report Builder登入帳戶登入Experience Cloud。
+title: 如何登入Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 7e659a0c2b2e5c9ba30b3875bc5d19b5309bfe38
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '214'
 ht-degree: 48%
 
 ---
@@ -16,9 +17,9 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->報告建立工具5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如Site Catalyst單一登入或標準登入。 到2021年4月30日，所有Report Builder使用者都必須將Report Builder增益集更新至5.6.47版或更新版本，其中包含登入程式的重要更新。
+>Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如Site Catalyst單一登入或標準登入。 到2021年4月30日，所有Report Builder使用者都必須將Report Builder增益集更新至5.6.47版或更新版本，其中包含登入程式的重要更新。
 
-若要登入報告建立工具，請使用您的Experience Cloud登入帳戶。
+若要登入Report Builder，請使用您的Experience Cloud登入帳戶。
 
 ## Experience Cloud {#section_1FA230F35AB54021A874A7A28DE4C850}
 
@@ -32,7 +33,7 @@ Experience Cloud 登入可讓您使用 Enterprise ID (電子郵件與密碼) 來
 
 ## 登入 Report Builder
 
-若要登入報告建立工具
+要登入Report Builder
 
 1. 在 Excel 中按一下&#x200B;**[!UICONTROL 「增益集」]**。
 1. 按一下&#x200B;**[!UICONTROL 登入]**。其他讓您登入的動作包括：
