@@ -1,12 +1,14 @@
 ---
 title: 區段 IQ 概述
-description: 了解何為 Adobe Analytics 區段 IQ，以及此 IQ 可為您的組織提供的協助。
-keywords: Analysis Workspace;Segment IQ
-translation-type: ht
-source-git-commit: 6e4eff57aa58cf4ad3535780614bdce5fa3c666f
-workflow-type: ht
-source-wordcount: '153'
-ht-degree: 100%
+description: 瞭解何為 Adobe Analytics 區段 IQ，以及此 IQ 可為您的組織提供的協助。
+keywords: Analysis Workspace, 區段 IQ
+feature: AI工具
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 96%
 
 ---
 
