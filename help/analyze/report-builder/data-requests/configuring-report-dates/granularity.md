@@ -1,10 +1,14 @@
 ---
 description: '在「請求精靈: 步驟 1」中，您可以將粒度等級套用至資料請求。「粒度」能指定報表所包含之時間詳細資料的等級。'
 title: 粒度
-topic: Report builder
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 98%
 
 ---
 
@@ -17,4 +21,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 ## Report Builder 的粒度處理方式
 
-Suppose you choose a date range for a month with [!UICONTROL Month] granularity. 請求會顯示以整整一個月之資料量為度量的總計。如果請求的日期範圍跨越一季，報表會顯示三張圖表：每個月份一張圖表，或部分圖表。如果今天是 3 月 18 日，選擇上一季會傳回一張 1 月 1 日到 1 月 31 日的圖表、一張 2 月 1 日到 2 月 28 日的圖表，以及一張 3 月 1 日到 3 月 17 日的圖表。
+假設您選擇[!UICONTROL 「月」]粒度，將日期範圍指定為某個月。請求會顯示以整整一個月之資料量為度量的總計。如果請求的日期範圍跨越一季，報表會顯示三張圖表：每個月份一張圖表，或部分圖表。如果今天是 3 月 18 日，選擇上一季會傳回一張 1 月 1 日到 1 月 31 日的圖表、一張 2 月 1 日到 2 月 28 日的圖表，以及一張 3 月 1 日到 3 月 17 日的圖表。
