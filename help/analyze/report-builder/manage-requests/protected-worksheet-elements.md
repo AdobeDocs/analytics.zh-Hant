@@ -1,10 +1,14 @@
 ---
 description: 如果工作表受到保護 (藉由鎖定儲存格)，您便無法建立、編輯或重新整理請求。因此在使用「請求管理員」之前，請解除工作表中的所有保護。
 title: 受保護的工作表元素
-topic: Report builder
 uuid: 4b632862-4943-4567-a458-46a6548952fa
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '108'
+ht-degree: 97%
 
 ---
 
