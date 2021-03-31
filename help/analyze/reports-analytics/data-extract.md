@@ -2,11 +2,13 @@
 description: 透過資料擷取，您可以選擇要在報表的 X 和 Y 軸上檢視的參數，以及篩選報表所依據的項目。
 subtopic: Schedule
 title: 資料擷取
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 19c5713e7ddedd943746534878200b1339f217a2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 95%
 
 ---
 
