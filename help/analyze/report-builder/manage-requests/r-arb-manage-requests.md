@@ -1,13 +1,14 @@
 ---
 description: Report Builder 中「管理請求」的欄位說明。
 title: 管理請求 - 定義
-topic: Report builder
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 99%
+source-wordcount: '550'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +38,7 @@ Report Builder 中「管理請求」的欄位說明。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>所有工作表 </p> </td> 
+   <td colname="col1"> <p>全部 工作表 </p> </td> 
    <td colname="col2"> <p>顯示作用中活頁簿內所有工作表的請求。若要檢視特定工作表的請求，請關閉此選項。當此選項關閉時，您必須按一下 Excel 報表底部的「工作表」索引標籤，才能在「<span class="wintitle">請求管理員</span>」中顯示與該工作表相關的請求。核取方塊旁的標籤表示目前正在活頁簿中使用的工作表。 </p> </td> 
   </tr> 
   <tr> 
@@ -82,7 +83,7 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 重新整理 </p> </td> 
-   <td colname="col2"> <p>重新整理單一請求或選擇的請求(See <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > Refresh a Request</a>.) </p> </td> 
+   <td colname="col2"> <p>重新整理單一請求或選擇的請求（請參閱<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >重新整理請求</a>。） </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新整理清單 </p> </td> 
