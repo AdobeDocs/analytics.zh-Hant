@@ -2,10 +2,12 @@
 description: 使用線條圖視覺效果來描繪資料集的趨勢 (以時間為基礎)
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
+feature: 視覺效果
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: ac3a859a7ee54eb772b7cd947f3cdaad861b1078
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '515'
 ht-degree: 65%
 
 ---
@@ -37,11 +39,11 @@ ht-degree: 65%
 
 ## 顯示趨勢線覆蓋
 
-Under **[!UICONTROL Visualization Settings]** > **[!UICONTROL Overlays]** > **[!UICONTROL Show trendline]**, you can choose to add a regression or moving average trendline to your line series. 趨勢線有助於描繪出資料中更清晰的模式。
+在「視覺化設定&#x200B;**** > **[!UICONTROL 覆蓋]** > **[!UICONTROL 顯示趨勢線]**」下方，您可以選擇將回歸或移動平均趨勢線新增至行系列。 趨勢線有助於描繪出資料中更清晰的模式。
 
 >[!TIP]
 >
->建議將趨勢線套用至不包含今天（部分資料）或未來日期的資料，因為這些資料會扭曲趨勢線。 但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。 若要這麼做，請前往視覺化的資料來源表格，選擇您的量度欄，然後啟用「欄設定 **[!UICONTROL >]** 解譯零」為無值 ****。
+>建議將趨勢線套用至不包含今天（部分資料）或未來日期的資料，因為這些資料會扭曲趨勢線。 但是，如果您需要包含未來日期，請從資料中移除零，以防止這些日期出現偏差。 若要這麼做，請前往視覺化的資料來源表格，選擇您的量度欄，然後啟用「欄設定」**[!UICONTROL >**[!UICONTROL &#x200B;將零解譯為無值&#x200B;]**。]**
 
 ![線性趨勢線](assets/show-linear-trendline.png)
 
