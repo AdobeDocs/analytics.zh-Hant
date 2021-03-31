@@ -1,10 +1,14 @@
 ---
 description: Adobe Report Builder 支援 .xlsm 格式，可讓您排程已啟用巨集的活頁簿。
 title: 排程已啟用巨集的活頁簿
-topic: Report builder
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 97%
 
 ---
 
