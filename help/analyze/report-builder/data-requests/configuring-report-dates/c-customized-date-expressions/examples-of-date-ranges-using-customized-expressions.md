@@ -1,10 +1,14 @@
 ---
 description: 提供在自訂運算式中使用日期範圍的範例、附註及語法附註。
 title: 使用自訂運算式的日期範圍範例
-topic: Report builder
 uuid: 3f46816d-9eee-4b2d-83be-bf1c9fb97fcf
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 52b4a48ad8f2424978fd882efedeb002e20acbd6
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 99%
 
 ---
 
