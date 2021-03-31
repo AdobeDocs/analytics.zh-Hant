@@ -1,10 +1,14 @@
 ---
 description: 您可以依照遞增或遞減順序來排序「請求管理員」中列出的請求。
 title: 遞增排序或遞減排序
-topic: Report builder
 uuid: 81199890-c183-4e42-a343-dc33a9e9ed46
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 97%
 
 ---
 
