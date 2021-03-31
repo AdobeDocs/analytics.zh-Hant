@@ -1,13 +1,14 @@
 ---
 description: 相依請求是與現有請求相依的請求。
 title: 新增相依請求
-topic: Report builder
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 97%
 
 ---
 
