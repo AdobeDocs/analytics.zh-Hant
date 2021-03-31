@@ -1,13 +1,14 @@
 ---
 description: 現在，您可以將這兩種度量類型合併為同一個請求，而不須分別建立請求。
 title: 將流量與商務度量合併為同一請求
-topic: Report builder
 uuid: 2813d594-f4ec-4f6a-8539-ec7d954a392f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '98'
-ht-degree: 100%
+feature: Report Builder
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '103'
+ht-degree: 97%
 
 ---
 
