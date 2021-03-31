@@ -1,10 +1,14 @@
 ---
 description: 目標可讓您測量網站績效並追蹤預設目標的進度。例如，您可能希望增加來自某一地理區域之訪客的數目、每個訂單的收入，或特定反向連結的點按次數。
 title: 目標
-topic: Reports and analytics
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -21,11 +25,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 例如，您可測量網站的獨特訪客數目，並將其用作目標。此時，請選擇整個網站。然而，若您希望瞄準從芝加哥瀏覽您網站的獨特訪額數目，可指定該 eVar 而非查看整個網站。
 
-## 目標欄位說明 {#section_44DFFB4A7AC54D65BC2345411686B2AD}
+## 目標欄位說明  {#section_44DFFB4A7AC54D65BC2345411686B2AD}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
+**[!UICONTROL Analytics]** >**[!UICONTROL 元件]** > **[!UICONTROL 目標]**。
 
-頁面上欄位和選項的說 [!UICONTROL Add/Edit Target] 明。
+[!UICONTROL 新增/編輯目標]頁面上欄位和選項的說明。
 
 <table id="table_E08728BECC204DF59F0AC99957A68CAE"> 
  <thead> 
@@ -36,7 +40,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Target 名稱 </td> 
+   <td colname="col1"> Target名稱 </td> 
    <td colname="col2">提供目標名稱，此名稱會顯示在<span class="wintitle">目標管理器</span>頁面上。 </td> 
   </tr> 
   <tr> 
@@ -72,14 +76,14 @@ t_add_a_target.xml
 
  -->
 
-1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. 在頁面上 [!UICONTROL Target Manager] ，按一下 **[!UICONTROL Add New]**。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 目標」]**。
+1. 在[!UICONTROL 目標管理器]頁面上，按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. 設定[目標欄位說明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的選項。
-1. 按一下 **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 ## 編輯目標 {#task_946C558D2ECC4922ABD4A5A6183A095A}
 
-1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL Components]** > **[!UICONTROL Targets]**.
-1. In the **[!UICONTROL Manage]** column, click the **[!UICONTROL Edit]** icon.
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 目標」]**。
+1. 在&#x200B;**[!UICONTROL 「管理」]**&#x200B;欄中按一下&#x200B;**[!UICONTROL 編輯]**&#x200B;圖示。
 1. 設定[目標欄位說明](/help/analyze/reports-analytics/targets.md#section_44DFFB4A7AC54D65BC2345411686B2AD)中所述的選項。
-1. 按一下 **[!UICONTROL OK]**.
+1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
