@@ -2,8 +2,13 @@
 description: 您可以在表格或線性圖中檢視異常。
 title: 在 Analysis Workspace 中檢視異常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
+feature: AI工具
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +42,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 異常偵測信賴區間不會自動縮放視覺效果中的 Y 軸，如此可能會使圖表更清晰。
 
-您可以選擇允許信賴區間縮放圖表。只要按一下「設定（齒輪）」圖示並勾選即可 **[!UICONTROL Allow Anomaly Detection to Scale Y Axis]**。
+您可以選擇允許信賴區間縮放圖表。只需按一下「設定」(「齒輪」) 圖示，並勾選&#x200B;**[!UICONTROL 「允許異常偵測縮放 Y 軸」]**&#x200B;即可。
 
 ![](assets/scale-y-axis.png)
 
