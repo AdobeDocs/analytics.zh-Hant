@@ -1,12 +1,13 @@
 ---
 title: 報告最佳作法和疑難排解
 description: 產生報表時的最佳作法和疑難排解提示。
-keywords: best practices;failure;timeout;troubleshooting;slow
-translation-type: ht
-source-git-commit: 1968162d856b6a74bc61f22f2e5a6b1599d04c79
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+keywords: 最佳實務;失敗;逾時;疑難排解;緩慢
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '576'
+ht-degree: 99%
 
 ---
 
