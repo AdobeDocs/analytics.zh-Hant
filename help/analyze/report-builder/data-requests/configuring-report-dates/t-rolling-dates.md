@@ -1,10 +1,14 @@
 ---
 description: 說明為請求自訂遞延日期的步驟。
 title: 遞延日期
-topic: Report builder
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '93'
+ht-degree: 96%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 說明為請求自訂遞延日期的步驟。
 
-1. 在上， [!UICONTROL Request Wizard: Step 1]選擇 **[!UICONTROL Rolling Dates]**。
-1. Click the **[!UICONTROL Rolling]** link to choose the rolling type, then use the date links to configure rolling dates.
+1. 在[!UICONTROL 「請求精靈: 步驟 1」]中選擇&#x200B;**[!UICONTROL 「遞延日期」]**。
+1. 按一下&#x200B;**[!UICONTROL 「遞延」]**&#x200B;連結以選擇遞延類型，然後使用日期連結來設定遞延日期。
 
-   The settings for [!UICONTROL Rolling Dates] change depending on your selections. For example, when you select [!UICONTROL Rolling Weekly], report builder provides week-specific settings you can select as the rolling pattern.
+   [!UICONTROL 「遞延日期」]的設定會隨著您的選擇而改變。例如，當您選擇「[!UICONTROL 循週遞延]」時，Report Builder 會提供週專用的設定讓您選為遞延模式。
 
 1. 視需要設定進階選項。
