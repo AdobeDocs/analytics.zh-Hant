@@ -2,11 +2,12 @@
 description: Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 title: 計算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '362'
-ht-degree: 100%
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +28,7 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 
 若要&#x200B;**篩選**&#x200B;計算量度，請按一下「篩選」圖示：![](assets/segment_filter.png)。
 
-「進階篩選器」對話方塊會同時填入標準和計算量度。
+. 「進階篩選器」對話方塊會同時填入標準和計算量度。
 
 可用的篩選條件包括：
 
@@ -43,7 +44,7 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 | 其他篩選器 > 我的 | 顯示您擁有的所有量度。 |
 | 其他篩選器 > 與我共用 | 顯示其他人與您共用的所有量度。 |
 
-## 套用計算量度{#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
+## 套用計算量度 {#section_DF5CF349460A45FDA4B6E6BB8B52F18E}
 
 選取篩選器後，按一下「**[!UICONTROL 套用]**」可將量度套用至您的請求。選取的量度現在會新增至報表配置。
 
