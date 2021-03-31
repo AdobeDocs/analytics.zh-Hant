@@ -1,10 +1,14 @@
 ---
 description: 複製簡單請求而非參考請求。簡單請求是不含其他請求或儲存格內容之參考的請求。
 title: 複製簡單請求
-topic: Report builder
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '543'
+ht-degree: 99%
 
 ---
 
@@ -18,11 +22,11 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 以滑鼠右鍵按一下任一個已映射請求的儲存格，或選擇含請求的儲存格區域。
 
    在請求涵蓋的儲存格群組中選擇要複製的儲存格時，請採用一致的方法。比較適當的選擇是請求涵蓋之儲存格集合中最上方和最左側的儲存格，並且由左向右選擇。這是因為 Excel 試算表中有數百欄和數千列可供向右和向下擴張。如果您決定從請求的相關儲存格集合中最右側或最下方的儲存格開始複製請求，倘若要貼上的儲存格超出試算表左側或上方的邊界，系統將不允許您貼上請求。
-1. 選擇 **[!UICONTROL Copy Request]**.
+1. 選擇&#x200B;**[!UICONTROL 「複製請求」]**。
 1. 在試算表的其他部分中，以滑鼠右鍵按一下空白的儲存格 (不含請求的儲存格)。
 
-   為了避免遺失或毀損已建立的請求，您無法將含有請求的儲存格貼上目前與請求映射的儲存格。If you copy or cut cells containing requests, the shortcut menu does not make the [!UICONTROL Paste Requests] option available when right clicking on cells (or the set of cells) containing requests. 您必須為貼上作業選擇其他目標儲存格，以避免請求重疊。不論您選擇單一要貼上請求的儲存格或含有請求的儲存格區域，都應採行此做法。
-1. 按一下 **[!UICONTROL Paste Request]**.
+   為了避免遺失或毀損已建立的請求，您無法將含有請求的儲存格貼上目前與請求映射的儲存格。如果您複製或剪下含有請求的儲存格，當以滑鼠右鍵按一下含請求的儲存格 (或儲存格集合) 時，捷徑功能表將不提供「[!UICONTROL 貼上請求]」選項。您必須為貼上作業選擇其他目標儲存格，以避免請求重疊。不論您選擇單一要貼上請求的儲存格或含有請求的儲存格區域，都應採行此做法。
+1. 按一下&#x200B;**[!UICONTROL 「貼上請求」]**。
 
    系統會將原始請求的副本放置在位置與原始請求相對的儲存格內。
 
