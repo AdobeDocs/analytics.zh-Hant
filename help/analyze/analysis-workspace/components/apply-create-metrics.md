@@ -2,10 +2,12 @@
 description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
+feature: Workspace 基本知識
+role: 業務從業人員, 管理員
 translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '257'
 ht-degree: 85%
 
 ---
@@ -33,7 +35,7 @@ ht-degree: 85%
 
 ## 比較不同歸因模型的量度
 
-If you&#39;d like to quickly and easily compare one attribution model to another, right click a metric and select **[!UICONTROL Compare Attribution Models]**:
+如果您想要快速輕鬆地比較一個歸因模型與另一個歸因模型，請以滑鼠右鍵按一下量度，然後選取「比較歸因模型」]**:**[!UICONTROL 
 
 ![比較歸因](assets/compare-attribution.png)
 
