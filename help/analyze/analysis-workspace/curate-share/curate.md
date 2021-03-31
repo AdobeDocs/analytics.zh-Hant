@@ -1,12 +1,14 @@
 ---
 description: 組織可讓您在共用專案前先限制元件。
-keywords: Analysis Workspace curation
+keywords: Analysis Workspace組織
 title: 組織專案
+feature: 組織與分享
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 1c482bdd84b230731c4b72bf7cacf4a92f2f9fe3
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 88%
+source-wordcount: '551'
+ht-degree: 87%
 
 ---
 
