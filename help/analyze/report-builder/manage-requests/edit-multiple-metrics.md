@@ -2,8 +2,12 @@
 description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
 title: 編輯多個請求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 99%
 
 ---
 
@@ -17,14 +21,14 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 請記住：
 
 * 量度僅會新增至「樞紐配置」請求。如果某些選取的請求為「自訂配置」，則無法新增量度。這是因為您已自訂配置，Report Builder 並不知道新量度放置於試算表中的位置。
-* Accordingly, if you have selected only Custom Layout requests, the **[!UICONTROL Add Metric/s]** option is not available.
+* 因此，如果您僅選取「自訂配置」請求，就無法使用&#x200B;**[!UICONTROL 「新增量度」]**&#x200B;選項。
 * 新增量度會增加請求的大小，並可能造成與其他請求重疊。請確定您的請求周圍有足夠的空間可以新增量度。
 * 如果新增的量度已存在於其中一個選取的請求當中，就不會新增量度至該請求。
 
 若要新增一或多個量度：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (或者，按一 **[!UICONTROL Manage]** 下> **[!UICONTROL Edit Multiple]** > `<choose metric>` >以選 **[!UICONTROL Edit Group]** 取要修改的請求群組。)
-1. 選取**[!UICONTROL Add Metric(s)]**並選取要新增的量度。
+1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」(或者，您也能按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 編輯多項]** > `<choose metric>` > **[!UICONTROL 編輯群組」]**，選取要修正的一組請求)。
+1. 選取[!UICONTROL 「新增量度」]，並選取要新增的量度。
 
    ![](assets/add_metric.png)
 
@@ -45,9 +49,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 若要更換量度
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (或者，按一 **[!UICONTROL Manage]** 下> **[!UICONTROL Edit Multiple]** > **`<choose metric>`** >以選 **[!UICONTROL Edit Group]** 取要修改的請求群組。)
+1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」(或者，您也能按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 編輯多項]** > **`<choose metric>`** > **[!UICONTROL 編輯群組」]**，選取要修正的一組請求)。
 
-1. 選擇 **[!UICONTROL Replace Metric]**.
+1. 選取&#x200B;**[!UICONTROL 「更換量度」]**。
 
    ![](assets/replace_metric.png)
 
@@ -65,9 +69,9 @@ source-git-commit: 52cc111c0f28b099f038e4b6c69a9431fe506111
 
 若要移除量度：
 
-1. Select one or more requests in Excel and right-click to select **[!UICONTROL Edit Metrics]**. (或者，按一 **[!UICONTROL Manage]** 下> **[!UICONTROL Edit Multiple]** > **`<choose metric>`** >以選 **[!UICONTROL Edit Group]** 取要修改的請求群組。)
+1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」(或者，您也能按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 編輯多項]** > **`<choose metric>`** > **[!UICONTROL 編輯群組」]**，選取要修正的一組請求)。
 
-1. 選擇 **[!UICONTROL Remove Metric(s)]**.
+1. 選取&#x200B;**[!UICONTROL 「移除量度」]**。
 
    ![](assets/remove_metric.png)
 
