@@ -2,11 +2,13 @@
 description: 在 Workspace 專案中使用橫條圖視覺效果。
 title: 長條圖和堆疊長條圖
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '88'
-ht-degree: 100%
+feature: 視覺效果
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
