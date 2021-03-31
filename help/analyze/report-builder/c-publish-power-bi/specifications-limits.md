@@ -2,11 +2,13 @@
 description: 使用Report Builder和MicrosoftPower BI時的限制。
 title: 限制與規格
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 97%
+source-wordcount: '629'
+ht-degree: 96%
 
 ---
 
