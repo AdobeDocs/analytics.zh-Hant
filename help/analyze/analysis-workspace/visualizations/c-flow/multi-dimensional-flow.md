@@ -2,11 +2,13 @@
 description: 維度間流量可讓您檢查多個維度間的使用者路徑。
 title: 維度間流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-translation-type: ht
-source-git-commit: 87bfd1124e7f467e741f13deddd5770296f23827
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+feature: 視覺效果
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 99%
 
 ---
 
