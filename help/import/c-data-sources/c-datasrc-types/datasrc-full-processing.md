@@ -1,11 +1,12 @@
 ---
 description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
-title: Data Sources的完整處理選項
+title: 完全處理
+topic: 開發人員和實作
 translation-type: tm+mt
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 97%
+source-wordcount: '727'
+ht-degree: 98%
 
 ---
 
