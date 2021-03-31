@@ -2,13 +2,14 @@
 description: 了解 Adobe Analytics 如何收集資料。
 subtopic: Get started
 title: 關於資料蒐集
-topic: Reports and analytics
 uuid: 4dd9a23d-ad49-4841-8f4c-32c3993851f2
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '173'
-ht-degree: 100%
+feature: 報告與分析基礎
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 96%
 
 ---
 
