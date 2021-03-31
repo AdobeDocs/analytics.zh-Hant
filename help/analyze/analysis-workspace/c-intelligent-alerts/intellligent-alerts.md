@@ -2,11 +2,13 @@
 description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
 title: 智慧型警報概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
+feature: AI工具
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 95%
+source-wordcount: '370'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +17,7 @@ ht-degree: 95%
 
 智慧型警報可提供更細緻的警報控制能力，並整合警報系統與異常偵測功能。
 
-以下是智慧提醒( [Intelligent Alerts](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html) ,5:34)的教學課程影片
+以下是有關[智慧提醒](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html)(5:34)的教學課程影片
 
 ## 概述
 
