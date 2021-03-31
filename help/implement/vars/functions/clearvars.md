@@ -1,11 +1,11 @@
 ---
 title: clearVars
-description: 從追蹤物件清除變數值。
+description: 會清除例項物件中的下列值。此函數會移除元素 (即將其設為「未定義」)。
 translation-type: tm+mt
-source-git-commit: f19be69832b0a2b723d825472e0eec1e44f89440
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 95%
+source-wordcount: '168'
+ht-degree: 100%
 
 ---
 
