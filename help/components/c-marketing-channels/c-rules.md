@@ -2,7 +2,7 @@
 title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 translation-type: tm+mt
-source-git-commit: 91009f0c184987726e9e7e6714f14f56ae831576
+source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt
 source-wordcount: '2138'
 ht-degree: 90%
@@ -43,11 +43,11 @@ ht-degree: 90%
 
    ![步驟結果](assets/marketing_channel_rules.png)
 
-4. 如果要添加新規則，請從「添加新規 **[!UICONTROL 則集」菜單中選擇]** 。 如果您選取渠道，則會提供規則範本，而如果您選取「自訂」，則會從空白的位置開始。 這兩個選項都允許您視需要修改規則集。
+4. 如果要添加新規則，請從&#x200B;**[!UICONTROL 添加新規則集]**&#x200B;菜單中選擇。 如果您選取渠道，則會提供規則範本，而如果您選取「自訂」，則會從空白的位置開始。 這兩個選項都允許您視需要修改規則集。
 
    ![步驟結果](assets/example_email.png)
 
-5. To continue creating rules, click **[!UICONTROL Add New Rule SetRule]**.
+5. 若要繼續建立規則，請按一下「新增規則集規則」。****
 6. 若要排列規則優先順序，請將它們拖放至適當位置。
 7. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
@@ -55,7 +55,7 @@ ht-degree: 90%
 
 ### 設定行銷管道值
 
-**[!UICONTROL 設定渠道的值]** ，定義該渠道可用的行銷渠道詳情維度。 這可讓您劃分行銷管道維度，以及查看更多有關於管道的詳細資訊。
+**[!UICONTROL 設定渠道的值]** 會定義該渠道可用的行銷渠道詳情維度。這可讓您劃分行銷管道維度，以及查看更多有關於管道的詳細資訊。
 
 建議將管道值設為用來定義管道本身的相同條件。例如，如果使用查詢字串參數來定義管道，請將查詢字串參數也設定為管道值。
 
@@ -65,7 +65,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->您定義的任何文字欄位（例如查詢字串參數或要比對的值清單）都會評估為不 **區分大小寫** 。 例如，如果您有查詢字串參數cmp = abc123的規則，則&#39;cmp&#39;和&#39;abc123&#39;的所有版本都將符合該規則。 您不需要列出這些值的多個大小寫版本。
+>您定義的任何文字欄位（例如查詢字串參數或要比對的值清單）都會評估為&#x200B;**不區分大小寫**&#x200B;的值。 例如，如果您有查詢字串參數cmp = abc123的規則，則&#39;cmp&#39;和&#39;abc123&#39;的所有版本都將符合該規則。 您不需要列出這些值的多個大小寫版本。
 
 | 詞語 | 定義 |
 |--- |--- |
@@ -88,7 +88,7 @@ ht-degree: 90%
 | 頁面根網域 (TLD+1) | 訪客著陸的頁面根網域，例如 example.co.uk。 |
 | 頁面 URL | 您網站某個網頁的 URL。 |
 | 反向連結網域 | 訪客在瀏覽您的網站前所處的網域，例如，源自 `abcsite.com` 與 `xyzsite.com` 的反向連結。 |
-| 查詢字串參數 | If a page URL on your site looks like `https://example.com/?page=12345&cat=1`, then &#39;page&#39; and &#39;cat&#39; are both query string parameters. (如需此工具的其他相關資訊，請參閱 `https://en.wikipedia.org/wiki/Query_string`。)  您可為每個規則集僅指定一個查詢字串參數。若要新增其他查詢字串參數，請使用 `ANY` 作為運算元，然後新增查詢字串參數至此規則。查詢字串參數會評估為不區分大小寫；例如，&#39;cat&#39;和&#39;CAT&#39;的評估方式相同。 |
+| 查詢字串參數 | 如果您網站上的頁面URL看起來像`https://example.com/?page=12345&cat=1`，則&#39;page&#39;和&#39;cat&#39;都是查詢字串參數。 (如需此工具的其他相關資訊，請參閱 `https://en.wikipedia.org/wiki/Query_string`。)  您可為每個規則集僅指定一個查詢字串參數。若要新增其他查詢字串參數，請使用 `ANY` 作為運算元，然後新增查詢字串參數至此規則。查詢字串參數會評估為不區分大小寫；例如，&#39;cat&#39;和&#39;CAT&#39;的評估方式相同。 |
 | 反向連結 | 訪客在來到您網站之前所處的網頁位置 (完整 URL)。反向連結存在於您所定義網域之外。 |
 | 反向連結網域和路徑 | 反向連結網域和 URL 路徑的串連例如：    `www.example.com/products/id/12345` 或 `ad.example.com/foo` |
 | 反向連結參數 | 反向連結 URL 上的查詢字串參數。例如，如果訪客來自 `example.com/?page=12345&cat=1`，則 page 和 cat 為反向連結參數。 |
@@ -122,7 +122,7 @@ ht-degree: 90%
 
 訪客經由某個網站搜尋找到您的網站 (您不須支付排名費用，即由該搜尋引擎排名您的網站)，則為「免費」搜尋。
 
-分析不會偵測免費搜尋。在您設定付費搜尋偵測後，系統會知道如果某個搜尋反向連結不是付費搜尋反向連結，它一定是免費搜尋反向連結。如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+分析不會偵測免費搜尋。在您設定付費搜尋偵測後，系統會知道如果某個搜尋反向連結不是付費搜尋反向連結，它一定是免費搜尋反向連結。如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
 對於行銷管道規則，免費搜尋設定如下：
 
