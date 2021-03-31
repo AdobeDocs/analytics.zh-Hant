@@ -1,10 +1,12 @@
 ---
 description: Adobe Analysis Workspace 及其相關元件的已知限制清單：
 title: Analysis Workspace 的已知限制
-translation-type: ht
-source-git-commit: 00f36d8583ec9224337404cfd7fa020502d89c2d
-workflow-type: ht
-source-wordcount: '415'
+feature: Workspace 基本知識
+role: 業務從業人員, 管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '420'
 ht-degree: 100%
 
 ---
