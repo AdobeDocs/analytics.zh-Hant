@@ -2,13 +2,14 @@
 description: 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送作業。
 subtopic: Dashboards
 title: 控制面板管理員
-topic: Reports and analytics
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
+feature: 報表
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 100%
+source-wordcount: '796'
+ht-degree: 99%
 
 ---
 
