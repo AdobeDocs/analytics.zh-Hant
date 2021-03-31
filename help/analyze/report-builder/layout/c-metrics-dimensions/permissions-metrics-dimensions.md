@@ -1,13 +1,14 @@
 ---
 description: Adobe Report Builder 現在提供類似於 Analytics 管理工具中的權限設定。
 title: 維度與度量的使用者存取權限
-topic: Report builder
 uuid: b561407d-c4fa-4f1e-8b16-5ca46fcbf36f
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+feature: Report Builder
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 98%
 
 ---
 
