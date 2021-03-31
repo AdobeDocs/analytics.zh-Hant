@@ -2,10 +2,12 @@
 description: 可讓您將使用者定義文字新增至「工作區」。
 title: 文字
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
+feature: 視覺效果
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 19cdf2b854dabf8c21ccdacc3de0aff05b31af9c
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '172'
 ht-degree: 7%
 
 ---
