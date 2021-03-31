@@ -1,10 +1,14 @@
 ---
 description: 'Activity Map UI 由兩部分組成 '
 title: Activity Map 使用者介面
-topic: Activity map
 uuid: f6734b60-0b77-4f50-a45a-6a6936d1524e
+feature: Activity Map
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 98%
 
 ---
 
