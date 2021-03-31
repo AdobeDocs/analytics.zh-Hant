@@ -1,11 +1,13 @@
 ---
 description: 資料不一致會導致大問題。了解如何使用 Adobe 的異常偵測技術來識別統計異常。立即開始使用。
 title: 異常偵測所使用的統計技術
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+feature: AI工具
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 99%
 
 ---
 
