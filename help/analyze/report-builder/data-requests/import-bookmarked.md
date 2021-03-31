@@ -1,13 +1,14 @@
 ---
 description: 現在，所有書籤化報表與控制面板報表都已列為「請求精靈步驟 1」中的維度，並且可匯入作為 Report Builder 請求。
 title: 匯入書籤化報表與控制面板報表
-topic: Report builder
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 99%
 
 ---
 
