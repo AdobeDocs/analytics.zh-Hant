@@ -1,11 +1,13 @@
 ---
 description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
+feature: Workspace 基本知識
+role: 業務從業人員, 管理員
 translation-type: tm+mt
-source-git-commit: 97309a5be19912432ca75c7029999085c45ba353
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 82%
+source-wordcount: '666'
+ht-degree: 83%
 
 ---
 
@@ -22,9 +24,9 @@ ht-degree: 82%
 
 [!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。以下是可輔助協助工具的導覽元素：
 
-* `Tab` 鍵可讓您找出快速鍵，在工作區中的較大區段之間移動。 在左側導軌中， `Tab` 也可讓您從一個拖曳選項移至下一個。
-* 在加 `left/right arrows` 亮個別元素後，在各個元 `Tab` 素之間移動。
-* 導 `F6` 覽至專案中的第一個面板，並在該面板中的視覺化之間移動。 然後，它會移至專案中的下一個面板並重複。
+* `Tab` 鍵可讓您找出快速鍵，在工作區中的較大區段之間移動。 在左側導軌中，`Tab`也可讓您從一個可拖曳選項移至下一個。
+* `left/right arrows`在`Tab`反白顯示後，會在個別元素之間移動。
+* `F6`會導覽至專案中的第一個面板，並在該面板中的視覺化之間移動。 然後，它會移至專案中的下一個面板並重複。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
    ![焦點指標](assets/focus-indicator.png)
@@ -33,9 +35,9 @@ ht-degree: 82%
 
 1. 頁籤，直到您到達菜單欄。
 1. 使用向左／向右方向鍵導覽至您想要的功能表。
-1. 按 `Enter` 以選取功能表並顯示其選項。
+1. 按`Enter`選擇菜單並顯示其選項。
 1. 使用向上／向下鍵導覽至您想要的功能表選項。
-1. 按 `Enter` 以選取選項。
+1. 按`Enter`選擇選項。
 
 ### 拖放互動的鍵盤導覽
 
