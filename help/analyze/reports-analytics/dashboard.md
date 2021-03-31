@@ -2,13 +2,13 @@
 description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
 subtopic: Dashboards
 title: 控制面板和報表
-topic: Reports and analytics
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1819'
-ht-degree: 100%
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1822'
+ht-degree: 99%
 
 ---
 
