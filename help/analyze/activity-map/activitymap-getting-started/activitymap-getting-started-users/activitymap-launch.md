@@ -1,13 +1,14 @@
 ---
 description: 如果已安裝正確的瀏覽器外掛程式，您可從網頁直接啟動 Activity Map。
 title: 啟動 Activity Map
-topic: Activity map
 uuid: f617fbc3-a577-4bd2-a316-578959219874
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '75'
-ht-degree: 100%
+feature: Activity Map
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '80'
+ht-degree: 96%
 
 ---
 
