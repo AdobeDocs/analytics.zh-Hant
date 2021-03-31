@@ -2,13 +2,14 @@
 description: 在 Analysis Workspace 中建立同類群組並執行同類群組分析報表。
 keywords: Analysis Workspace
 title: 執行同類群組分析報表
-topic: Reports and analytics
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: ht
-source-wordcount: '950'
-ht-degree: 100%
+feature: 視覺效果
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '956'
+ht-degree: 99%
 
 ---
 
