@@ -2,11 +2,13 @@
 description: 您可以組織、共用和排定 PDF/CSV 專案給組織中的收件者。
 title: 共用功能表
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-translation-type: ht
-source-git-commit: 63efd2f046ac43640a9dd0fe2b3ee9fa3f182a8f
-workflow-type: ht
-source-wordcount: '170'
-ht-degree: 100%
+feature: 組織與分享
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '176'
+ht-degree: 96%
 
 ---
 
