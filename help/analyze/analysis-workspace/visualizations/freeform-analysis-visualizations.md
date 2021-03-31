@@ -2,10 +2,12 @@
 description: 以視覺化方式呈現您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概述
+feature: 視覺效果
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 60aacc2d2d5f7f66c08d270a41d2f6c86ee34a6b
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1095'
 ht-degree: 42%
 
 ---
@@ -13,13 +15,13 @@ ht-degree: 42%
 
 # 視覺效果概述
 
-工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用Adobe Analytics，大部分的視覺化類型都會讓您熟悉。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
+工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用Adobe Analytics，大部分的視覺化類型都會很熟悉。 不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從工作區的左上角圖示、空白麵板 [中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)，或透過工作流程中的按滑鼠右鍵選單來存取視覺化。
+您可以從「工作區」的左上角圖示、[空白麵板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按滑鼠右鍵功能表，存取視覺化。
 
 ![](assets/viz-rail.png)
 
-分析工作區中提供下列視覺化類型：
+Analysis Workspace提供下列視覺化類型：
 
 | 視覺效果名稱 | 說明 |
 | --- | --- |
@@ -44,7 +46,7 @@ ht-degree: 42%
 
 ## 設定 {#settings}
 
-每個視覺效果都有各自的設定可供您管理。若要存取「 [!UICONTROL 視覺化設定]」，請按一下「 [!UICONTROL 視覺化設定] 」齒輪圖示。
+每個視覺效果都有各自的設定可供您管理。若要存取「視覺化設定」[!UICONTROL ，請按一下「視覺化設定」圖示。]
 
 ![](assets/settings.png)
 
@@ -53,7 +55,7 @@ ht-degree: 42%
 | 視覺化類型 | 變更用來描述資料的視覺類型。 |
 | 粒度 | 對於趨勢視覺化，您可以變更時間詳細程度（日、周、月等） 從此下拉式清單。 此更改也適用於資料源表。 |
 | 百分比 | 以百分比顯示值。 |
-| 100% 堆疊 | 此設定在堆疊區域、堆疊長條或堆疊水準長條視覺化上，可將圖表變成「100%堆疊」視覺化。 範例： ![100%堆疊](assets/stacked_100_percent.png) |
+| 100% 堆疊 | 此設定在堆疊區域、堆疊長條或堆疊水準長條視覺化上，可將圖表變成「100%堆疊」視覺化。 範例：![堆疊100%](assets/stacked_100_percent.png) |
 | 可見圖例 | 可讓您隱藏「摘要編號／摘要變更」視覺化的詳細圖例文字。 |
 | 項目數上限 | 可讓您限制視覺效果顯示的項目數。 |
 | 將 Y 軸固定於零 | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
@@ -65,7 +67,7 @@ ht-degree: 42%
 
 視覺化圖例可協助您將來源表格中的日期與視覺化中繪製的系列建立關聯。 圖例是互動式的——您可以按一下圖例項目，在視覺化中顯示／隱藏系列。 如果您想要簡化要視覺化的資料，這會很有幫助。
 
-此外，您可以重新命名圖例標籤，協助您讓視覺效果更易於使用。 Note: legend editing does **not** apply to: Treemap, Bullet, Summary Change/Number, Text, Freeform, Histogram, Cohort or Flow visualizations.
+此外，您可以重新命名圖例標籤，協助您讓視覺效果更易於使用。 注意：圖例編輯&#x200B;**not**&#x200B;適用於：樹狀圖、項目符號、摘要變更／數字、文字、自由格式、色階分佈圖、世代或流量視覺化。
 
 要編輯圖例標籤：
 
@@ -79,7 +81,7 @@ ht-degree: 42%
 
 以下是此主題的[影片連結](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
 
-## 右鍵功能表 {#right-click}
+## 按一下右鍵菜單{#right-click}
 
 以滑鼠右鍵按一下視覺化標題，即可使用其他視覺化功能。 設定會依視覺化而有所不同。 部分可用設定包括：
 
@@ -98,6 +100,6 @@ ht-degree: 42%
 
 ## 「建立視覺效果」圖示{#quick-viz}
 
-If you are not sure which visualization to pick, click the **[!UICONTROL Create Visual]** icon in any table row (available on hover). 這是新增視覺化的最快方式。 按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您已選取1列，則會建立趨勢線圖。 如果已選取3個區段行，則會建立文氏圖。
+如果您不確定要選擇哪個視覺化，請按一下任何表格列（暫留時可用）中的&#x200B;**[!UICONTROL 「建立視覺化]**」圖示。 這是新增視覺化的最快方式。 按一下它會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您已選取1列，則會建立趨勢線圖。 如果已選取3個區段行，則會建立文氏圖。
 
 ![](assets/quick-viz.png)
