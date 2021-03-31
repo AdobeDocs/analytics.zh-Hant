@@ -1,12 +1,14 @@
 ---
 description: 同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。
-keywords: Analysis Workspace;Synchronize visualization with data source
+keywords: Analysis Workspace, 將視覺效果同步至資料來源
 title: 管理資料來源
+feature: 視覺效果
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 8315770adbe49474dcf8b74345a45d88b05d35ce
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 99%
 
 ---
 
