@@ -1,17 +1,19 @@
 ---
 description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 keywords: Analysis Workspace
-title: 排程專案
+title: 為專案排程
+feature: 組織與分享
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 99%
+source-wordcount: '476'
+ht-degree: 98%
 
 ---
 
 
-# 排程專案
+# 為專案排程
 
 您可以從工作區的&#x200B;**「共用」功能表**，透過電子郵件將 Analysis Workspace 專案傳送給選取的收件者。能以 CSV 或 PDF 格式傳送檔案。
 
