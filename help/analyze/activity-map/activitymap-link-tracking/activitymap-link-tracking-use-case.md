@@ -1,13 +1,14 @@
 ---
 description: 您可透過使用 s_objectID 變數自訂連結 ID、自訂地區，以及自訂 AppMeasurement ActivityMap 模組檔案，來區別連結。
 title: 區別參照相同連結 ID 和地區的連結
-topic: Activity map
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
+feature: Activity Map
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 370d81bafc523b00a38b0064ad4ca3e6bb655d9f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -41,7 +42,7 @@ ht-degree: 100%
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p> </p>Buy <p> </p> <p> </p> <p>購買 </p> <p> </p> <p> </p> <p>購買 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p> <p> </p>recommendation Panel (建議面板) <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> <p> </p> <p> </p> <p>recommendation Panel (建議面板) </p> </td> 
   </tr> 
  </tbody> 
@@ -86,7 +87,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 自訂地區 {#section_6B1EF302573B445DBAF44176D0A12DB9}
+## 自訂地區  {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
 您可透過確定每個「購買」連結都定義自己的地區，來自訂地區。若要這麼做，請在每個 &quot;Buy&quot; 錨記的其中一個父項新增 &quot;id&quot; 參數。
 
@@ -117,13 +118,13 @@ ht-degree: 100%
      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;a&nbsp;href="product3.html"&gt;Buy&lt;/a&gt; 
      &nbsp;&nbsp;&nbsp;&lt;/div&gt; 
     </code> </td> 
-   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> <p> </p> <p> </p> <p>Buy </p> </td> 
+   <td colname="col2"> <p> </p> <p> </p> <p> </p> <p>購買 </p> <p> </p> <p> </p> <p>購買 </p> <p> </p> <p> </p> <p>購買 </p> </td> 
    <td colname="col3"> <p> </p> <p> </p> <p> </p>region a <p> </p> <p> </p> <p>region b </p> <p> </p> <p> </p> <p>region c </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 自訂 AppMeasurement ActivityMap 模組檔案 {#section_B933BB9F944E4D5389002908A5A881F8}
+## 自訂 AppMeasurement ActivityMap 模組檔案  {#section_B933BB9F944E4D5389002908A5A881F8}
 
 >[!CAUTION]
 >
