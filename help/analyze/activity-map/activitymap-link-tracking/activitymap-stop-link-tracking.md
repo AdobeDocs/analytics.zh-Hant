@@ -1,13 +1,14 @@
 ---
 description: 在 Activity Map 或舊版 ClickMap 中停止連結追蹤的步驟。
 title: 停止連結追蹤
-topic: Activity map
 uuid: e17fb7bd-d6ed-45c3-a006-9150d5718cff
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '74'
-ht-degree: 100%
+feature: Activity Map
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 96%
 
 ---
 
@@ -27,6 +28,7 @@ ht-degree: 100%
   <tr> 
    <td colname="col1"> Activity Map </td> 
    <td colname="col2"> 移除 Appmeasurement.js 檔案中的下列內容： 
+     
      
      
     <code>
