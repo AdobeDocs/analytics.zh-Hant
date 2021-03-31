@@ -1,13 +1,14 @@
 ---
 description: 您可以排程報表以按照定義的時間和檔案格式傳送。
 title: 排程資料請求
-topic: Report builder
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1025'
-ht-degree: 100%
+feature: Report Builder
+role: 業務從業人員、管理員
+translation-type: tm+mt
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 99%
 
 ---
 
