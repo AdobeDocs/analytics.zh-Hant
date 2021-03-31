@@ -1,10 +1,14 @@
 ---
 description: 對於「樞紐配置」或「自訂配置」請求中的數值或字串值，您可以在儲存格的開頭或結尾附加字串或字元。
 title: 在儲存格的開頭或結尾附加文字
-topic: Report builder
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+workflow-type: tm+mt
+source-wordcount: '92'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 對於「樞紐配置」或「自訂配置」請求中的數值或字串值，您可以在儲存格的開頭或結尾附加字串或字元。
 
-此選項可在中使用 [!UICONTROL Request Wizard: Step 2]。
+您可以在「[!UICONTROL 請求精靈: 步驟 2]」中使用此選項。
 
 **附加文字於開頭：**&#x200B;在儲存格中加入數值或字串值形式的前置詞。
 
