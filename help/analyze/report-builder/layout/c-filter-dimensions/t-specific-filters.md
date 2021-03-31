@@ -1,13 +1,14 @@
 ---
 description: 套用特定維度字詞的篩選。
 title: 特定篩選
-topic: Report builder
 uuid: b3a8187a-3d59-4da0-abca-e933664332e3
+feature: Report Builder
+role: 業務從業人員、管理員
 translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 91%
+source-wordcount: '321'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +37,6 @@ ht-degree: 91%
    * **從清單：**&#x200B;可讓您從可新增資料的清單選擇資料。
 1. 如果您啟用&#x200B;**[!UICONTROL 「從清單」]**，請選擇任何可用的清單項目或按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-   When you click **[!UICONTROL Add]**, the [!UICONTROL Select From List] form displays a list of available dimension items for the current request date range, limited to the first 10,000 items. 您可以搜尋這些項目或按一下&#x200B;**[!UICONTROL 更多...]**，此選項會顯示「[!UICONTROL 搜尋表單]」以供您建立更詳細的維度搜尋。
+   當您按一下「新增&#x200B;****」時，「從清單中選取」表單會顯示目前請求日期範圍的可用維度項目清單，限制為前10,000個項目。 您可以搜尋這些項目或按一下&#x200B;**[!UICONTROL 更多...]**，此選項會顯示「[!UICONTROL 搜尋表單]」以供您建立更詳細的維度搜尋。
 1. 在[!UICONTROL 「從清單選擇」]中按一下&#x200B;**[!UICONTROL 「確定」]**。
 1. 如果您需要的話，可以在[!UICONTROL 「選擇頁面」]表單中儲存「特定」篩選，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
