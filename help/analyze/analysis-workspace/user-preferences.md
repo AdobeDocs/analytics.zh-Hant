@@ -1,11 +1,12 @@
 ---
 title: 如何在Analysis Workspace設定用戶首選項
-description: 您可以在一個集中位置設定著陸頁面和專案參考。
+feature: Workspace 基本知識
+role: 業務從業人員, 管理員
 translation-type: tm+mt
-source-git-commit: e4ab66f078588ce594cebd9109924a7efadffc14
+source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 27%
+source-wordcount: '217'
+ht-degree: 30%
 
 ---
 
