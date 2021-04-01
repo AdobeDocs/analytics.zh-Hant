@@ -1,11 +1,11 @@
 ---
 title: pt
 description: 對變數清單執行函數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fc7e6953e69cdff7b326705a906687be634d9b5f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '602'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -92,9 +92,9 @@ for(var i = 0; i < parametersLength; i++)
 
 ## 版本記錄
 
-### 3.0（2021年3月19日）
+### 3.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 2.01 (2019 年 9 月 24 日)
 
