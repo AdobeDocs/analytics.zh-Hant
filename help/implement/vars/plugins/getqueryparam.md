@@ -1,11 +1,11 @@
 ---
 title: getQueryParam
 description: 擷取 URL 查詢字串參數的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '896'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,10 +185,10 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ## 版本記錄
 
-### 4.0（2021年3月19日）
+### 4.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
-* 已移除`pt`外掛程式的相依性。
+* 將版本編號加入為內容資料。
+* `pt` 外掛程式上已移除的相依性
 
 ### 3.3 (2019 年 9 月 24 日)
 
