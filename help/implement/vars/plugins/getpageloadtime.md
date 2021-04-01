@@ -1,11 +1,11 @@
 ---
 title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b3c5fa41194d74725f48e12a546d8ce1c08b9b7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,9 +94,9 @@ if(s._pltPreviousPage)
 
 ## 版本記錄
 
-### 2.0（2021年3月19日）
+### 2.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 1.0 (2018 年 5 月 22 日)
 
