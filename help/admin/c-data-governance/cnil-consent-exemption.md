@@ -1,11 +1,11 @@
 ---
 description: 了解有關用戶同意在裝置或瀏覽器上儲存或讀取非必要 Cookie 的準則和建議。
 title: CNIL 關於用戶同意和 Cookie 的準則是什麼？
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '637'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 95%
 * 設定為靜態日期 (而非滾動) 的 13 個月 Cookie 限制。您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 到期日期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hant)
 * 有限的範圍。Cookie 的範圍必須限於單一網站或應用程式。[瀏覽器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hant&quot;\l&quot;third-party-cookie-implementations)
 * 匿名。將 IP 位址的最後一個八位元匿名。[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hant)
-* 隱藏報表中的訪客 ID。預設情況下，無法在 Adobe Workspace 和 Adobe Reports and Analytics 中看見訪客 ID。訪客 ID 可在「資料摘要」和 Data Warehouse 中取得。對資料摘要和 Data Warehouse 的存取權可透過 [Admin Console 中的存取權限](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)加以限制 和[資料饋送欄參考](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
+* 隱藏報表中的訪客 ID。預設情況下，無法在 Adobe Workspace 和 Adobe Reports and Analytics 中看見訪客 ID。訪客 ID 可在「資料摘要」和 Data Warehouse 中取得。對資料摘要和 Data Warehouse 的存取權可透過 [Admin Console 中的存取權限](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)加以限制 和[資料摘要欄位參考資料](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
 * 地理位置參數。和郵遞區號層級比起來，地理位置可能比較不精確。[郵遞區號選項](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html?lang=zh-Hant&quot;\l&quot;zip-in-adobe-experience-platform-launch)和[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hant&quot;\l&quot;admin-tools)
 * 設定「選擇加入」選項。「選擇加入」服務讓您可以設定訪客通訊協定，以確定是否能在用戶造訪您的網站時，在他們的裝置或瀏覽器上設定 Cookie。[「選擇加入」服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)
 * 防止資料共用。若要防止與 Adobe Audience Manager 共用資料，請使用[隱私報告](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hant&quot;\l&quot;variables)的`opt.dmp`內容變數，以封鎖點擊共用。
@@ -33,7 +33,7 @@ ht-degree: 95%
 
 * 請考慮收集 Analytics 變數中的選擇加入狀態，以便針對分段、虛擬報表套裝或路由傳送到個別端點來區分選擇加入的資料與選擇退出的資料。
 * 未經事先同意，不得在網站或應用程式外部進行任何測量，例如，不進行場外活動、電子郵件活動或 iFrame。
-* 未經同意，不允許收集變數中的個人資訊。[根據使用者同意控制 Experience Cloud 活動](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22實作#實作)
+* 未經同意，不允許收集變數中的個人資訊。[根據使用者同意控制 Experience Cloud 活動](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en%22%20\l%20%22implementation#implementation)
 * 資料僅用於產生匿名統計資料，而不能與其他資料合併使用。
 * 資料不用於交互參照的動作。
 * 未收集 GPS 地理位置資料。
