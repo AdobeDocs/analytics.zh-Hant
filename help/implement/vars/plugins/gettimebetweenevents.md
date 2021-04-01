@@ -1,11 +1,11 @@
 ---
 title: getTimeBetweenEvents
 description: 測量兩個事件之間的時間長度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: e8c6f4bbc72f7edfd966d698b8e4678e5eaa739e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
    >[!TIP]
    >
-   > 如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
+   >如果將此引數設為 `false`，強烈建議設定下方的 `rte` 引數。
 * **`cn`** (選用，字串)：儲存第一個事件時間的 Cookie 名稱。預設為 `"s_tbe"`。
 * **`etd`** (選用，整數)：Cookie 的到期時間 (以天為單位)。設為 `0`，在瀏覽器作業階段結束時到期。若未設定，則預設為 1 天。
 * **`fmt`** (選用，字串)：傳回秒數的時間格式 (無預設值)
@@ -133,9 +133,9 @@ s.eVar1 = getTimeBetweenEvents("event1", true, "event2", true);
 
 ## 版本記錄
 
-### 3.0（2021年3月19日）
+### 3.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 2.1 (2018 年 5 月 26 日)
 
