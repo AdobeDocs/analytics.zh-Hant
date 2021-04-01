@@ -1,11 +1,11 @@
 ---
 title: manageVars
 description: 一次變更多個 Analytics 變數的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 93a2dc1b265c92468722ebc2e3656db55d63547c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '697'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -142,9 +142,9 @@ s.manageVars("cleanStr");
 
 ## 版本記錄
 
-### 3.0（2021年3月19日）
+### 3.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 2.1 (2019 年 1 月 14 日)
 
