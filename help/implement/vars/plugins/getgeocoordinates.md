@@ -1,11 +1,11 @@
 ---
 title: getGeoCoordinates
 description: 追蹤訪客的 geoLocation。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d0947b075923956a4a48e09f8eeffc38e7fc0672
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '536'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 >[!NOTE]
 >
-> 座標值會四捨五入到小數點後第四位最接近的值。例如，`"40.438635333"` 值會四捨五入為 `"40.4386"`，藉此限制要擷取的獨特值數目。這些值足以精準定位 20 英尺內裝置的確切位置。
+>座標值會四捨五入到小數點後第四位最接近的值。例如，`"40.438635333"` 值會四捨五入為 `"40.4386"`，藉此限制要擷取的獨特值數目。這些值足以精準定位 20 英尺內裝置的確切位置。
 
 需要的話，此外掛程式會使用名為　`"s_ggc"`　的 Cookie 來儲存點擊之間的座標。
 
@@ -106,9 +106,9 @@ else
 
 ## 版本記錄
 
-### 2.0（2021年3月19日）
+### 2.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 1.0 (2015 年 5 月 25 日)
 
