@@ -1,11 +1,11 @@
 ---
 title: getTimeSinceLastVisit
 description: 測量兩次造訪之間經過的時間長度。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 15e7ebe21413d6a56dac2c95dbdaf73efde3991e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '582'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 >[!NOTE]
 >
-> 此外掛程式只會傳回造訪首次點擊時的值。
+>此外掛程式只會傳回造訪首次點擊時的值。
 
 此外掛程式會建立名為 `"s_tslv"` 的第一方 Cookie，並設為目前時間的 Unix 時間戳記。閒置兩年後 Cookie 便會到期。
 
@@ -90,9 +90,9 @@ s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be i
 
 ## 版本記錄
 
-### 2.0（2021年3月19日）
+### 2.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 1.0 (2018 年 4 月 16 日)
 
