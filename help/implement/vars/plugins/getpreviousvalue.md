@@ -1,11 +1,11 @@
 ---
 title: getPreviousValue
 description: 取得最後一個傳至變數的值。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -131,9 +131,9 @@ s.t() 呼叫函數執行時會建立影像要求，要求中 s.pageName =&quot;p
 
 ## 版本記錄
 
-### 3.0（2021年3月19日）
+### 3.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### v2.0 (2019 年 10 月 7 日)
 
