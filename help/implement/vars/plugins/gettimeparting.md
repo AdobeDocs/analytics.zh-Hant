@@ -1,11 +1,11 @@
 ---
 title: getTimeParting
 description: 測量特定動作發生的時間。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Analysis Workspace 提供類似且現成可用的維度，其格式與此外掛�
 
 >[!IMPORTANT]
 >
->此外掛程式的4.0+版與舊版有顯著不同。 Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
+>此外掛程式 4.0+版本與先前版本有顯著的差別。Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
 
 ## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
 
@@ -105,11 +105,11 @@ s.eVarX = getTimeParting("America/Los_Angeles");
 s.eVarX = getTimeParting();
 ```
 
-迦納位於 UTC/GMT 時區內。此示例顯示UTC/GMT不需要插件參數。
+迦納位於 UTC/GMT 時區內。此範例顯示 UTC/GMT 不需要外掛程式引數。
 
 ### 針對 Internet Explorer 瀏覽器說明
 
-如果您想從Internet Explorer訪客中排除時間分段資料，請使用下列範例。 從IE瀏覽器傳回的值僅位於訪客的當地時間。
+如果要排除 Internet Explorer 訪客的時間分界資料，請使用以下範例。IE 瀏覽器傳回的值只會以訪客本地時間顯示。
 
 ```js
 if(!document.documentMode) s.eVarX = getTimeParting("America/New_York");
@@ -118,7 +118,7 @@ else s.eVarX = "Internet Explorer Visitors";
 
 ### 呼叫結果
 
-假設2020年8月31日9:15 AM有來自丹佛科羅拉多州的訪客瀏覽網站。
+考慮這個情況：來自科羅拉多州丹佛市的訪客於 2020 年 8 月 31 日上午 9:15 造訪網站。
 
 ```js
 s.eVar10 = getTimeParting("Europe/Athens");
@@ -136,9 +136,9 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 ## 版本記錄
 
-### 6.3（2021年3月19日）
+### 6.3 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 6.2 (2019 年 11 月 5 日)
 
@@ -160,7 +160,7 @@ s.eVar13 = getTimeParting("Australia/Sydney");
 
 >[!CAUTION]
 >
->此外掛程式的舊版未來版本，未來將不能容納所有年份。 如果您使用此外掛程式的舊版，Adobe強烈建議升級至最新版本，以避免JavaScript錯誤和資料遺失。 如果升級此外掛程式不可行，請確定外掛程式程式碼中的`s._tpdst`變數包含未來適當的年份。
+>此外掛程式的先前版本無法適用未來的所有年份。如果您使用此外掛程式的先前版本，Adobe 強烈建議您升級到最新版本，以避免發生 JavaScript 錯誤和遺失資料。如果升級此外掛程式不可行，請確保外掛程式代碼中的 `s._tpdst` 變數包含未來的適當年份。
 
 ### 4.0 (2016 年 8 月 22 日)
 
