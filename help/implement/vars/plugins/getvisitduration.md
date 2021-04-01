@@ -1,11 +1,11 @@
 ---
 title: getVisitDuration
 description: 追蹤訪客目前為止在網站上逗留的時間。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ca8e563118dcc74dfa718bd203db295faf4e9aa6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,9 +101,9 @@ s.prop10 = s.getVisitDuration();
 
 ## 版本記錄
 
-### 2.1（2021年3月19日）
+### 2.1 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 2.0 (2018 年 5 月 2 日)
 
