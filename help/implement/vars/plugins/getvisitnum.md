@@ -1,11 +1,11 @@
 ---
 title: getVisitNum
 description: 追蹤訪客的目前造訪次數。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: fb1cdcb53732be46037a79587fc2541e629496e3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1048'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -152,9 +152,9 @@ s.prop3=s.getVisitNum("y");
 
 ## 版本記錄
 
-### 4.2（2021年3月19日）
+### 4.2 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 4.11 (2019 年 9 月 30 日)
 
