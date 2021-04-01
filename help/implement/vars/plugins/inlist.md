@@ -1,11 +1,11 @@
 ---
 title: inList
 description: 檢查某值是否包含在另一個以字元分隔的值中。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 27d151abe9bdf52c6eabdc3e9c785a99d08f971e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -151,9 +151,9 @@ if(s.inList(s.linkTrackVars,"eVar1","|"))
 
 ## 版本記錄
 
-### 3.0（2021年3月19日）
+### 3.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### v2.1 (2019 年 9 月 26 日)
 
