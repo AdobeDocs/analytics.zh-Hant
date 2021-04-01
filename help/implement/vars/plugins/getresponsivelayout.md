@@ -1,11 +1,11 @@
 ---
 title: getResponsiveLayout
 description: 決定目前檢視的網站配置。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16d2bc13a71dfe0b9106dea03da5eaa9da4d704c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -106,9 +106,9 @@ s.eVar10 = getResponsiveLayout(500, 500, 1100);
 
 ## 版本記錄
 
-### 1.1（2021年3月19日）
+### 1.1 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### 1.0 (2018 年 5 月 2 日)
 
