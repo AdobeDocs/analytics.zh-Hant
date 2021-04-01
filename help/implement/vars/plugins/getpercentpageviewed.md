@@ -1,11 +1,11 @@
 ---
 title: getPercentPageViewed
 description: 擷取訪客所檢視的頁面比例。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f11ad012756b5d42b1b53483c8688e30b4b79c83
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '892'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
    * 事件：核心 - 已載入程式庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
-   * 動作類型：初始化getPercentPageViewed
+   * 動作類型：初始化 getPercentPageViewed
 1. 儲存並發佈規則的變更。
 
 ## 使用 Launch 自訂程式碼編輯器安裝外掛程式
@@ -114,9 +114,9 @@ if(s._ppvPreviousPage)
 
 ## 版本記錄
 
-### 5.0（2021年3月19日）
+### 5.0 (2021 年 3 月 19 日)
 
-* 已新增版本號碼作為內容資料。
+* 將版本編號加入為內容資料。
 
 ### v4.0 (2019 年 10 月 7 日)
 
