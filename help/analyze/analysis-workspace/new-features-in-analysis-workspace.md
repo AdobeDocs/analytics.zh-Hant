@@ -4,24 +4,32 @@ keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 feature: Workspace 基本知識
 role: 業務從業人員, 管理員
+exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8211'
+source-wordcount: '8326'
 ht-degree: 99%
 
 ---
-
 
 # Analysis Workspace 的新增功能
 
 如需完整存取 Adobe Experience Cloud 發行說明，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)。
 
+## 2021 年 3 月
+
+| 功能 | 目標日期 | 說明 |
+| --- | --- | --- |
+| [!UICONTROL 元件] >使用 [!UICONTROL 者偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
+| [!UICONTROL 直方圖智慧桶預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
+
+
 ## 2021 年 2 月
 
 | 功能 | 目標日期 | 說明 |
 | --- | --- | --- |
-| 元件選擇 | 2021 年 2 月 4 日 | 在[!UICONTROL Quick Insights]中找到的下拉／下拉區元件將新增至[!UICONTROL Workspace]的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選元件，或繼續將該空間作為下拉區域使用。 |
+| 元件選擇 | 2021 年 2 月 4 日 | 在 [!UICONTROL 快速 Insights] 找到的下拉清單/下拉區域元件將新增至[!UICONTROL Workspace] 中的所有下拉區域。此增強功能可讓您從相容元件的下拉式清單中挑選元件，或繼續將該空間作為下拉區域使用。 |
 
 
 ## 2021 年 1 月
@@ -29,13 +37,13 @@ ht-degree: 99%
 | 功能 | 目標日期 | 說明 |
 | --- | --- | --- |
 | 影像 URL | 2021 年 1 月 14 日 | 您可以參照公用影像 URL，將影像新增至 Workspace 專案。 |
-| 結合視覺效果的來源與設定管理器 | 2021 年 1 月 14 日 | 視覺化的[!UICONTROL 資料來源]管理員（點）和設定管理員（齒輪）已合併為單一快顯視窗，因此您可以從相同位置輕鬆管理來源和設定。 |
+| 結合視覺效果的來源與設定管理器 | 2021 年 1 月 14 日 | 視覺效果的[!UICONTROL 資料來源]管理員 (圓點) 和設定管理員 (齒輪) 已合併為單一彈出視窗，以便您能在同一位置輕鬆管理來源和設定。 |
 
 ## 2020 年 10 月
 
 | 功能 | 說明 |
 | --- | --- |
-| 線條視覺效果：[移動平均趨勢線選項](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | ****[!UICONTROL 在「線條」視覺效果趨勢線設定中新增了移動平均。]移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
+| 線條視覺效果：[移動平均趨勢線選項](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/line.html) | 在「[!UICONTROL 線條]」視覺效果趨勢線設定中新增了&#x200B;**[!UICONTROL 移動平均]**。移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
 | [效能說明頁面](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html) | Analysis Workspace 效能說明頁面會顯示對專案效能造成影響的不同因素，以及最佳化秘訣的連結。 |
 
 ## 2020 年 9 月
@@ -43,7 +51,7 @@ ht-degree: 99%
 | 功能 | 說明 |
 | --- | --- |
 | [下載單一維度的 50,000 個項目](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html#download-items) | 您現在能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
-| [線條視覺效果的增強功能](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。當[!UICONTROL 線條]視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| [線條視覺效果的增強功能](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新日期範圍 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
 
 ## 2020 年 8 月
@@ -64,7 +72,7 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
+| 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。Adobe Analytics Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows) |
 | 共用工作區專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 僅限檢視的工作區專案 | 工作區專案能僅以「可供檢視」狀態與使用者共用。「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
