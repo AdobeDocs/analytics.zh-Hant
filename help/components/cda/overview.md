@@ -1,14 +1,14 @@
 ---
 title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
-translation-type: ht
-source-git-commit: 16dd381909b3a49087b244f11881000401155a0a
-workflow-type: ht
-source-wordcount: '667'
-ht-degree: 100%
+exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
+translation-type: tm+mt
+source-git-commit: 20ba12a4af4c73bfc981692ab630d9a5f648dc84
+workflow-type: tm+mt
+source-wordcount: '728'
+ht-degree: 86%
 
 ---
-
 
 # 跨裝置分析
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 使用 CDA 需具備下列所有條件。[依欄位彙整](field-based-stitching.md)和[裝置圖表](device-graph.md)方法也有各自的具體必要條件。
 
 * 必須與 Adobe 簽署包含 Adobe Analytics Ultimate 的合約。
-* 系統會根據報表套裝啟用跨裝置分析功能。Adobe 建議報表套裝中包含跨裝置資料，也就是來自多種裝置類型 (網頁、應用程式等) 的資料。某些組織將此概念稱為「全域」報表套裝，但從地理角度來說 CDA 不見得須為全域。
+* 跨裝置分析是依每個報表套裝啟用。 Adobe 建議報表套裝中包含跨裝置資料，也就是來自多種裝置類型 (網頁、應用程式等) 的資料。某些組織將此概念稱為「全域」報表套裝，但從地理角度來說 CDA 不見得須為全域。
 
 ## 限制
 
@@ -45,8 +45,9 @@ ht-degree: 100%
 * CDA 只能透過 Analysis Workspace 使用。
 * 跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
 * Adobe Analytics 報表套裝無法對應至多個 IMS 組織。由於 CDA 會連結一個指定報表套裝中的裝置，因此 CDA 無法用於連結跨多個 IMS 組織的資料。
-* CDA 目前與客戶屬性不相容。這兩個功能可在參考相同來源報表套裝的獨立虛擬報表套裝中保持一致。
+* 專用圖表使用與[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=en#customer-attributes)功能在Experience Cloud和Adobe Analytics中使用的相同ID同步。 不過，CDA虛擬報表套裝（不論是根據私用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 也就是說，CDA虛擬報表套裝中無法使用以客戶屬性為基礎的維度。
 * CDA 目前與 A4T 不相容。
 * 跨裝置分析使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](../vrs/vrs-about.md)和[報表時間處理](../vrs/vrs-report-time-processing.md)。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。來源報表套裝中的資料不會變更。
+* 依Adobe主動監控CDA拼接程式僅限生產報表套裝。
