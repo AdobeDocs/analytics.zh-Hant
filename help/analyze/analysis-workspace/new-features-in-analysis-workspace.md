@@ -3,12 +3,12 @@ description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
 feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt
 source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
 workflow-type: tm+mt
-source-wordcount: '8326'
+source-wordcount: '8323'
 ht-degree: 99%
 
 ---
