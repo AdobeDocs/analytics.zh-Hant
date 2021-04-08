@@ -3,21 +3,21 @@ description: 瞭解如何使用您的Report Builder登入帳戶登入Experience 
 title: 如何登入Report Builder
 uuid: 9a21b791-e323-46d2-b850-2d67babe964b
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
+exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 29eb20e5af815779aa3af5b7205e410b7165818b
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 48%
+source-wordcount: '211'
+ht-degree: 49%
 
 ---
-
 
 # 登入 Report Builder
 
 >[!IMPORTANT]
 >
->Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如Site Catalyst單一登入或標準登入。 到2021年4月30日，所有Report Builder使用者都必須將Report Builder增益集更新至5.6.47版或更新版本，其中包含登入程式的重要更新。
+>Report Builder5.6.47版及更新版本僅支援Experience Cloud登入，不支援舊版登入，例如Site Catalyst單一登入或標準登入。 **到2021年7月22日，所有Report Builder使用者都必須將Report Builder增益集更新至5.6.47版或更新版本，其中包含登入程式的重要更新。**
 
 若要登入Report Builder，請使用您的Experience Cloud登入帳戶。
 
@@ -38,9 +38,8 @@ Experience Cloud 登入可讓您使用 Enterprise ID (電子郵件與密碼) 來
 1. 在 Excel 中按一下&#x200B;**[!UICONTROL 「增益集」]**。
 1. 按一下&#x200B;**[!UICONTROL 登入]**。其他讓您登入的動作包括：
 
-   * 按一下 **[!UICONTROL 建立]**。
+   * 按一下&#x200B;**[!UICONTROL 「建立」]**。
    * [在「請求管理員」中選取請求](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)，然後按一下「 **** 新增 **[!UICONTROL 管理」]**。
    * 在Excel中按兩下請求。
 
 1. 填寫[!UICONTROL 「登入」]頁面中的欄位，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
-
