@@ -1,18 +1,18 @@
 ---
 description: 在此詳細指南中探索您可以使用 Advertising Analytics 進行的所有功能，包括所需的權限以及可用的維度和量度。
 title: Advertising Analytics 指南
-translation-type: ht
-source-git-commit: c588087b949093152435967f62e43758e9e86208
-workflow-type: ht
-source-wordcount: '1282'
-ht-degree: 100%
+exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
+translation-type: tm+mt
+source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 96%
 
 ---
 
-
 # Advertising Analytics 指南
 
-Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。現在，您可以在 Adobe Analytics 中直接利用搜尋引擎及 AMO ID 實例 (按一下實例)，取得以下資料：曝光數、點選次數、成本、品質分數和平均位置。
+Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。您現在將在Adobe Analytics內取得下列資料：直接從搜尋引擎以及AMO ID例項（按一下例項）中取得印象、點按、成本資料。 Google已於2019年9月取消這些量度的權限，因此將不再收集品質分數和平均位置。
 
 >[!NOTE]
 >
@@ -117,5 +117,3 @@ Advertising Analytics 將以下維度和量度新增至 Analysis Workspace、Rep
 | AMO 曝光數 | 根據搜尋引擎報告的廣告曝光次數。 |
 | AMO 點選次數 | 根據搜尋引擎報告的廣告點選次數。 |
 | AMO 成本 | 根據搜尋引擎報告，所獲悉之您為每個關鍵字/廣告支付的成本。 |
-| 平均位置 | 根據搜尋引擎報告，反映廣告平均位置的計算量度。 |
-| 平均品質分數 | 根據搜尋引擎報告，反映平均品質分數的計算量度。 |
