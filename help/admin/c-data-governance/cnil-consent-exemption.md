@@ -1,14 +1,14 @@
 ---
 description: 了解有關用戶同意在裝置或瀏覽器上儲存或讀取非必要 Cookie 的準則和建議。
 title: CNIL 關於用戶同意和 Cookie 的準則是什麼？
-translation-type: ht
-source-git-commit: fefc2433ef42bae232a9a9afc1040be8d04b2bbe
-workflow-type: ht
-source-wordcount: '637'
-ht-degree: 100%
+exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
+translation-type: tm+mt
+source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
+workflow-type: tm+mt
+source-wordcount: '694'
+ht-degree: 90%
 
 ---
-
 
 # CNIL 同意豁免
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 * 最多保留 25 個月的資料。您可以在「Analytics > 管理員 > 資料管控」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hant)
 * 在 ECID 中停用第三方 Cookie。[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html?lang=zh-Hant#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html?lang=zh-Hant#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html?lang=zh-Hant#id-service-api)
-* 設定為靜態日期 (而非滾動) 的 13 個月 Cookie 限制。您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 到期日期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hant)
+* 13 個月的 Cookie 限制。您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 到期日期。Experience CloudCookie（包括Analytics和ECID）會隨著每次瀏覽延長Cookie到期日。  若要設定靜態、非滾動的Cookie有效期，您可以：(1)編寫自訂程式碼以設定刪除Cookie的日期，或(2)使用您的CMP控制Cookie重設的日期。   [](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hant) cookieLifetime和 [Experience CloudCookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=en#ec-cookies)
 * 有限的範圍。Cookie 的範圍必須限於單一網站或應用程式。[瀏覽器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html?lang=zh-Hant&quot;\l&quot;third-party-cookie-implementations)
 * 匿名。將 IP 位址的最後一個八位元匿名。[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html?lang=zh-Hant)
 * 隱藏報表中的訪客 ID。預設情況下，無法在 Adobe Workspace 和 Adobe Reports and Analytics 中看見訪客 ID。訪客 ID 可在「資料摘要」和 Data Warehouse 中取得。對資料摘要和 Data Warehouse 的存取權可透過 [Admin Console 中的存取權限](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)加以限制 和[資料摘要欄位參考資料](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=en#columns%2C-descriptions%2C-and-data-types)
