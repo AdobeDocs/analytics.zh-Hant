@@ -1,14 +1,14 @@
 ---
 title: getQueryParam
 description: 擷取 URL 查詢字串參數的值。
-translation-type: ht
-source-git-commit: 03c3a954c40d17f11f4f80ee3a378fd43948cc5c
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
+translation-type: tm+mt
+source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
+workflow-type: tm+mt
+source-wordcount: '918'
+ht-degree: 97%
 
 ---
-
 
 # Adobe 外掛程式：getQueryParam
 
@@ -49,8 +49,8 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
-/* Adobe Consulting Plugin: getQueryParam v4.0 */
-function getQueryParam(b,c,d){function h(b,a){a=a.split("?").join("&");a=a.split("#").join("&");var c=a.indexOf("&");if(b&&(-1<c||a.indexOf("=")>c)){c=a.substring(c+1);c=c.split("&");for(var d=0,k=c.length;d<k;d++){var f=c[d].split("="),e=f[1];if(f[0].toLowerCase()===b.toLowerCase())return decodeURIComponent(e||!0)}}}if("-v"===b)return{plugin:"getQueryParam",version:"4.0"};var a=function(){if("undefined"!==typeof window.s_c_il)for(var a=0,b;a<window.s_c_il.length;a++)if(b=window.s_c_il[a],b._c&&"s_c"===b._c)return b}();"undefined"!==typeof a&&(a.contextData.getQueryParam="4.0");if(b){c=c||"";d=(d||"undefined"!==typeof a&&a.pageURL||location.href)+"";(4<c.length||-1<c.indexOf("="))&&d&&4>d.length&&(a=c,c=d,d=a);a="";for(var g=b.split(","),l=g.length,e=0;e<l;e++)b=h(g[e],d),"string"===typeof b?(b=-1<b.indexOf("#")?b.substring(0,b.indexOf("#")):b,a+=a?c+b:b):a=""===a?b:a+(c+b);return a}};
+/* Adobe Consulting Plugin: getQueryParam v4.0.1  */
+function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split("#").join("&");var e=c.indexOf("&");if(g&&(-1<e||c.indexOf("=")>e)){e=c.substring(e+1);e=e.split("&");for(var h=0,p=e.length;h<p;h++){var l=e[h].split("="),q=l[1];if(l[0].toLowerCase()===g.toLowerCase())return decodeURIComponent(q||!0)}}return""}if("-v"===a)return{plugin:"getQueryParam",version:"4.0.1"};var b=function(){if("undefined"!==typeof window.s_c_il)for(var g=0,c;g<window.s_c_il.length;g++)if(c=window.s_c_il[g],c._c&&"s_c"===c._c)return c}();"undefined"!==typeof b&&(b.contextData.getQueryParam="4.0");if(a){d=d||"";f=(f||"undefined"!==typeof b&&b.pageURL||location.href)+"";(4<d.length||-1<d.indexOf("="))&&f&&4>f.length&&(b=d,d=f,f=b);b="";for(var m=a.split(","),r=m.length,k=0;k<r;k++)a=n(m[k],f),"string"===typeof a?(a=-1<a.indexOf("#")?a.substring(0,a.indexOf("#")):a,b+=b?d+a:a):b=""===b?a:b+(d+a);return b}};
 /******************************************** END CODE TO DEPLOY ********************************************/
 ```
 
@@ -185,10 +185,14 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ## 版本記錄
 
+### 4.0.1（2021年3月26日）
+
+* 更新如果查詢字串中未顯示查詢參數，則傳回undefined而非&quot;&quot;的問題。
+
 ### 4.0 (2021 年 3 月 19 日)
 
 * 將版本編號加入為內容資料。
-* `pt` 外掛程式上已移除的相依性
+* 已移除pt外掛程式的相依性。
 
 ### 3.3 (2019 年 9 月 24 日)
 
