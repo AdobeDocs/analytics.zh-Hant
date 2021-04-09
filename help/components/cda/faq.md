@@ -1,14 +1,14 @@
 ---
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
-translation-type: ht
-source-git-commit: 087ea279f55d4828d68b1ec16a5505855b34055d
-workflow-type: ht
-source-wordcount: '1377'
-ht-degree: 100%
+exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
+translation-type: tm+mt
+source-git-commit: 510fe26c51391c040527e646ea0a8f131daa6f2d
+workflow-type: tm+mt
+source-wordcount: '1480'
+ht-degree: 93%
 
 ---
-
 
 # 常見問題集
 
@@ -97,3 +97,11 @@ CDA 可以解決或減少自訂訪客 ID 中若干令人不樂見的連帶作用
 ## Adobe 如何處理依欄位彙整中使用之 eVar 的特殊限制？
 
 CDA 會提取 eVar 維度項目，再針對報表最佳化。您不須擔心針對 CDA 的特殊限制。不過，如果您嘗試在工作區專案中使用該 prop/eVar，您仍可看到 [(低流量)](/help/technotes/low-traffic.md) 維度項目。
+
+## 我公司的報表套裝中，有多少可以啟用CDA?
+
+可能會啟用多個報表套裝，但若同時請求多個報表套裝，則每個額外的報表套裝都會增加整體布建時間。 CDA不會合併報表套裝。 每個啟用CDA的報表套裝都必須是跨裝置的性質（包含來自多個表面的資料，例如案頭網頁、行動網頁、行動應用程式等）
+
+## 如果我的Experience Cloud組織（亦即IMS組織）在不同地區有多家公司，我是否可為所有公司啟用CDA?
+
+不可以，對於同一組織，只有一個地區可以啟用CDA。
