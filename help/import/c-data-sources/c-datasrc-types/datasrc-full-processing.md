@@ -2,20 +2,20 @@
 description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 title: 完全處理
 topic: 開發人員和實作
+exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 4e8a79648b0573e68d9059c518f6ec8fb3d9a694
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 98%
+source-wordcount: '726'
+ht-degree: 96%
 
 ---
-
 
 # 完全處理
 
 >[!IMPORTANT]
 >
->Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe 計劃未來淘汰「全部處理資料來源」。[深入了解](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe計畫於2021年7月31日取消完整處理資料來源。 [深入了解](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -256,4 +256,3 @@ ht-degree: 98%
   </tr> 
  </tbody> 
 </table>
-
