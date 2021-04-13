@@ -3,10 +3,10 @@ title: 完全處理資料來源的生命週期結束
 description: 批量資料插入API和完全處理資料源之間連結終止和比較的原因。
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 translation-type: tm+mt
-source-git-commit: 03a2b346dc6940bc7471de454f73c58f5462a0bb
+source-git-commit: 53b15f9c5895e856ff627fbc520d4743fbc57eba
 workflow-type: tm+mt
 source-wordcount: '1208'
-ht-degree: 29%
+ht-degree: 27%
 
 ---
 
@@ -65,8 +65,8 @@ ht-degree: 29%
 | linkName | linkName | 連結名稱。 |
 | linkType | linkType | 連結的類型。支援的值包括： `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | 連結的 HREF。 |
-| listn例如list2。 | 不支援 | 使用分隔字元的值清單，在傳給變數之後，會報告為個別的行項目以供製作報告。 |
-| marketingCloudVisitorID | 不支援 | Marketing Cloud ID. 請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)和Marketing Cloud訪客ID服務。 |
+| listn例如list2。 | 不支援 | 傳入變數，然後報告為個別行項目的分隔值清單 |
+| marketingCloudVisitorID | 不支援 | Marketing Cloud ID. 請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en#id-service-api)和Marketing Cloud訪客ID服務 |
 | 不支援 | charSet | 網站的支援字元集。 如 UTF-8、ISO-8859-1 等等。 |
 | 不支援 | clickAction | 訪客點擊地圖的物件識別碼 (OID) |
 | 不支援 | clickActionType | 訪客點擊地圖的物件識別碼類型 (OIDT) |
@@ -76,7 +76,7 @@ ht-degree: 29%
 | 不支援 | clickTag | 訪客點擊地圖的物件標記名稱 (OT) |
 | 不支援 | scXmlVer | 行銷報表 XML 請求版本編號 (如 1.0)。 |
 | 不支援 | timezone | 訪客所在時區與格林威治時間的小時差 (如 -8)。 |
-| pageName | pageName | 頁面名稱。 |
+| pageName | pageName | 頁面名稱 |
 | pageType | pageType | 頁面類型（例如「錯誤頁面」）。 |
 | pageURL | pageURL | 頁面URL(例如https://www.example.com/index.html)。 |
 | plugins | 外掛程式 | 瀏覽器外掛程式名稱清單（以分號分隔）。 |
