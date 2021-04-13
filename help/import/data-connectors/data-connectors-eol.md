@@ -1,14 +1,14 @@
 ---
 description: 了解 Analytics Data Connectors 何時終止及終止原因。
 title: Analytics Data Connectors 終止服務預先公告
-translation-type: ht
-source-git-commit: 5a9f3d32964dddd9df2728449d2d388a155e64a9
-workflow-type: ht
-source-wordcount: '531'
+exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
+translation-type: tm+mt
+source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
+workflow-type: tm+mt
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Data Connectors 終止服務
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 | Lyris HQ | 即將停止使用 |
 | MaritzCX (V 2.0) | 即將停止使用 |
 | Merkle | 即將停止使用 |
-| Official Oracle Eloqua Integration | 即將停止使用 |
+| Official Oracle Eloqua Integration | 正移轉至 Exchange |
 | optivo broadmail (Episerver) | 正移轉至 Exchange |
 | Qualtrics v2 | 正移轉至 Exchange |
 | Responsys 2.0 | 即將停止使用 |
