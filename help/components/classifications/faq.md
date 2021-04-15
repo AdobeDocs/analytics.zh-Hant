@@ -1,14 +1,14 @@
 ---
 title: 分類常見問題集
 description: 使用分類時的常見問題。
-translation-type: ht
-source-git-commit: a63b8ae3948ffd9a37058696aa1b1d4c923709ba
-workflow-type: ht
-source-wordcount: '345'
-ht-degree: 100%
+exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
+translation-type: tm+mt
+source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
+workflow-type: tm+mt
+source-wordcount: '372'
+ht-degree: 92%
 
 ---
-
 
 # 分類常見問題集
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 * 使用分類規則產生器不會將不存在的項目分類，因此不會產生任何額外費用。
 
 ## 如何分類包含特殊字元的值？
+
+不支援在任何分類資料和點擊資料中使用前導和尾隨空白字元，因為Adobe Analytics會從這些資料中截斷空白字元。
 
 一般不建議在報表中使用逗號或雙引號這類特殊字元。但是在某些情況下，這些字元是必要的。如果報表值包含您選擇要分類的字元，請使用下列步驟：
 
