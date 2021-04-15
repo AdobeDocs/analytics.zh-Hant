@@ -5,10 +5,10 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
+source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 70%
+source-wordcount: '465'
+ht-degree: 69%
 
 ---
 
@@ -57,9 +57,14 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 
 ## 開啟先前版本 {#previous-version}
 
+>[!NOTE]
+>
+>先前的專案版本目前為有限版本。
+
 要開啟項目的舊版：
 
-1. 前往「專案>開啟舊版」
-1. 檢視舊版可用的清單。 除了在編輯器保存時添加註釋外，還提供了時間戳和編輯器。 沒有備注的版本會儲存90天；含備注的版本會儲存1年。
-1. 選取舊版，然後按一下「載入」。
-1. 舊版將會載入通知。 在您按一下「儲存」後，舊版將不會成為專案的目前儲存版本。 如果您從載入的版本導覽，當您返回時，將會看到專案的上一個儲存版本。
+1. 前往&#x200B;**[!UICONTROL Project]** > **[!UICONTROL 開啟舊版]**
+1. 檢視舊版可用的清單。
+   [!UICONTROL 除了「注] 釋」外，還顯示「時間戳記」  和「編輯器」(Editor)  在「編輯器」(  Saved)時添加了它們。沒有備注的版本會儲存90天；含備注的版本會儲存1年。
+1. 選擇舊版，然後按一下&#x200B;**[!UICONTROL Load]**。
+然後載入舊版並附上通知。 在您按一下**[!UICONTROL Save]**&#x200B;之前，舊版不會成為項目的當前保存版本。 如果您從載入的版本導覽，當您返回時，將會看到專案的上一個儲存版本。
