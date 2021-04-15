@@ -1,20 +1,20 @@
 ---
-description: 了解不同的儲存選項，包括自動儲存、另存新檔和另存為範本。
+description: 瞭解不同的儲存選項，包括自動儲存、另存新檔、另存為範本，以及開啟舊版。
 title: 儲存專案
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: b199eb9b5eea1a6a0f336dbc0898114102f58348
+source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 69%
+ht-degree: 54%
 
 ---
 
 # 儲存專案
 
-若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。此外，Adobe 會在某些情況下自動儲存專案。
+若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。工作區也會在某些情況下自動儲存專案。
 
 ## 儲存專案選項 {#Save}
 
@@ -22,8 +22,8 @@ ht-degree: 69%
 
 | 動作 | 說明 |
 |---|---| 
-| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果專案已共用，專案的收件者也會看到變更項目。第一次儲存專案時，系統會提示您為專案命名、(選用) 說明和 (選用) 新增標籤。 |
-| **[!UICONTROL 一併儲存附註]** | 在您的專案儲存之前，請新增專案中變更的附註。 備注將與項目版本一起儲存，可供「項目」>「開啟舊版」下的所有編輯器使用。 |
+| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果專案已共用，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您為專案提供名稱、（選用）說明和新增（選用）標籤。 |
+| **[!UICONTROL 一併儲存附註]** | 在您的專案儲存之前，請新增專案中變更的附註。 備注與項目版本一起儲存，可供[!UICONTROL Project] > [!UICONTROL 開啟舊版]下的所有編輯器使用。 |
 | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
 | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
 
@@ -49,7 +49,7 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 
 ### 瀏覽器當機或工作階段逾時
 
-若為&#x200B;**現有**&#x200B;專案，返回 Analysis Workspace 後，使用者會看到&#x200B;**專案復原**&#x200B;強制回應視窗。若選擇「是」，將會從自動儲存的本機副本復原項目。若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次使用者儲存的專案版本。
+對於&#x200B;**現有**&#x200B;項目，返回工作區後，您將看到&#x200B;**項目恢復**&#x200B;模式。 選取「是」會從自動儲存的本機復本中還原專案。 若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次使用者儲存的專案版本。
 
 ![](assets/project-recovery.png)
 
