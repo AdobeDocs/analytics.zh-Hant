@@ -2,12 +2,13 @@
 description: 了解不同的儲存選項，包括自動儲存、另存新檔和另存為範本。
 title: 儲存專案
 feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+role: Business Practitioner, Administrator
+exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: b6bf9e97c2eada3b9510d50c4c9196d7b09b5a65
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +23,7 @@ ht-degree: 100%
 | 動作 | 說明 |
 |---|---| 
 | **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果專案已共用，專案的收件者也會看到變更項目。第一次儲存專案時，系統會提示您為專案命名、(選用) 說明和 (選用) 新增標籤。 |
+| **[!UICONTROL 一併儲存附註]** | 在您的專案儲存之前，請新增專案中變更的附註。 備注將與項目版本一起儲存，可供「項目」>「開啟舊版」下的所有編輯器使用。 |
 | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
 | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
 
@@ -52,3 +54,12 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 ![](assets/project-recovery.png)
 
 若為從未儲存的&#x200B;**新**&#x200B;專案，未儲存的變更無法復原。
+
+## 開啟先前版本 {#previous-version}
+
+要開啟項目的舊版：
+
+1. 前往「專案>開啟舊版」
+1. 檢視舊版可用的清單。 除了在編輯器保存時添加註釋外，還提供了時間戳和編輯器。 沒有備注的版本會儲存90天；含備注的版本會儲存1年。
+1. 選取舊版，然後按一下「載入」。
+1. 舊版將會載入通知。 在您按一下「儲存」後，舊版將不會成為專案的目前儲存版本。 如果您從載入的版本導覽，當您返回時，將會看到專案的上一個儲存版本。
