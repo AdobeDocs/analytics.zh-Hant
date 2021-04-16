@@ -1,17 +1,17 @@
 ---
 description: 「虛擬報表套裝管理器」可以讓管理員編輯、新增、標記、刪除、重新命名、批准、複製、匯出以及篩選虛擬報表套裝。但不會顯示給非管理員使用者。
-keywords: Virtual Report Suite
+keywords: 虛擬報表套裝
 title: 管理虛擬報表套裝
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 99%
 
 ---
-
 
 # 管理虛擬報表套裝
 
