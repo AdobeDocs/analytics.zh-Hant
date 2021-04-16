@@ -1,16 +1,16 @@
 ---
 description: 當報表中有大量不重複值時，Adobe 提供的功能可確保最重要的值出現在您的報表中。
 title: Adobe Analytics 中的低流量值
-topic: Metrics
+feature: 量度
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
+exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '516'
 ht-degree: 94%
 
 ---
-
 
 # Adobe Analytics 中的低流量值
 
@@ -50,5 +50,5 @@ Analytics 使用者介面中不會顯示低流量臨界值。如果您想取得�
    * 在某些有限的情況下，低流量值仍可能顯示。範例包括清單變數、清單 prop、銷售 eVar 和行銷管道詳細資訊維度。
 * **分段：**&#x200B;如果區段準則包含具有大量不重複值的變數，則不會包含低流量底下擷取的值。
 * **分類：**&#x200B;分類報表也受到不重複限制的約束。如果分類的上層變數值包含在低流量底下，則不會分類該值。
-   * 透過匯入工具取得的低流量分類值可在「資料倉儲」中檢視。 <!-- AN-115871 -->
-   * 透過規則產生器取得的低流量分類值 *無法* 在「資料倉庫」中檢視。 <!-- AN-122872 -->
+   * 透過匯入工具取得的低流量分類值，可以以Data Warehouse檢視。<!-- AN-115871 -->
+   * 透過規則產生器&#x200B;*取得的低流量分類值無法*&#x200B;以Data Warehouse檢視。<!-- AN-122872 -->
