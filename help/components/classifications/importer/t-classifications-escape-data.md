@@ -2,16 +2,16 @@
 description: 說明如何在分類檔案中逸出分類資料的步驟。
 subtopic: Classifications
 title: 逸出分類資料
-topic: Admin tools
+feature: 管理工具
 uuid: 724edcc5-4990-4f24-afbb-9aef301791a7
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '104'
+exl-id: 0d3a0e91-5537-43ee-bd28-9907ee6eb331
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # 逸出分類資料
 
