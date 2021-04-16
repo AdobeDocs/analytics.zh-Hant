@@ -2,16 +2,16 @@
 description: 可以根據頁面值或根據變數中的特定值來設定事件。
 subtopic: Processing rules
 title: 從產品概觀頁面設定產品檢視事件
-topic: Admin tools
+feature: 管理工具
 uuid: caa7a077-dd47-460e-b14d-fe10c4e61f97
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '74'
+exl-id: 63e139e1-d325-4650-9d2a-19ab3f91818e
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '76'
 ht-degree: 100%
 
 ---
-
 
 # 從產品概觀頁面設定產品檢視事件
 
@@ -25,4 +25,3 @@ ht-degree: 100%
 例如：
 
 ![](assets/set-product-view-event.png)
-
