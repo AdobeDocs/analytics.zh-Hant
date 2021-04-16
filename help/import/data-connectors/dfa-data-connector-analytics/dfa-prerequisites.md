@@ -2,16 +2,16 @@
 description: 搭配Adobe Analytics使用DFA資料連接器的先決條件。
 keywords: DFA
 title: 先決條件
-topic: Data connectors
+feature: Data Connectors
 uuid: b5f5e30c-e269-41a4-9236-5ddc404bfd94
+exl-id: aa47c54f-d98a-47cb-806f-3f16d783c207
 translation-type: tm+mt
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 97%
 
 ---
-
 
 # 必備條件{#prerequisites}
 
@@ -31,4 +31,3 @@ ht-degree: 97%
 * (可選) 識別將會存放 DFA 成本資料的「報告與分析」事件。您可以適當地為這些事件重新命名。
 * (可選) 識別將會存放 DFA 錯誤和逾時資料的報告與分析自訂變數和成功事件。這些變數有助於診斷因整合而引起的問題。
 * (可選) 建立特殊的電子郵件帳戶，用以接收與 DFA 的 Data connectors 整合有關的資訊和通知。
-
