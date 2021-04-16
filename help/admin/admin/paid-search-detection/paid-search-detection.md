@@ -1,16 +1,16 @@
 ---
 description: 「付費搜尋偵測」可區分「搜尋引擎」與「搜尋關鍵字」報表中的付費與免費搜尋。您可以指定您在其中使用付費廣告的搜尋引擎，並指定可在付費廣告瀏覽的 URL 中找到的字元字串。
 title: 付費搜尋偵測
-topic: Admin tools
+feature: 管理工具
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '217'
+exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # 付費搜尋偵測
 
