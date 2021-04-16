@@ -1,13 +1,16 @@
 ---
 description: 透過「偏好設定管理器」頁面，您可以設定如何轉譯 Excel 和逗號分隔值 (CSV) 報告輸出。
 title: 偏好設定管理器
-topic: Admin tools
+feature: 管理工具
 uuid: 46488e24-57a5-4f99-997c-0cfb61625008
+exl-id: 9ead47e3-ab43-4789-ba8e-a6b7be7f750e
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 100%
 
 ---
-
 
 # 偏好設定管理器
 
@@ -17,4 +20,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 * 使用 CSV 適用的 Deprecated 日期格式 (2013 年 8 月 30 日)
 * 使用 CSV 適用的 ISO 30 日期格式 (2013-08-30)
-
