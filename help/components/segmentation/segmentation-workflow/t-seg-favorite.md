@@ -1,16 +1,16 @@
 ---
 description: 要組織區段以方便使用，將區段標記為我的最愛是另一種方法。
 title: 將區段標示為最愛
-topic: Segments
+feature: 區段
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '74'
+exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
-
 
 # 將區段標示為最愛
 
