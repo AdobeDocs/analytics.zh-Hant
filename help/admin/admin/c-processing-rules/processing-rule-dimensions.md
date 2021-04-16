@@ -2,16 +2,16 @@
 description: 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
 subtopic: Processing rules
 title: 可用於處理規則的維度
-topic: Admin tools
+feature: 管理工具
 uuid: ba73ab59-a8cf-491c-8757-5fb03d6b0745
+exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '745'
 ht-degree: 86%
 
 ---
-
 
 # 可用於處理規則的維度
 
@@ -91,11 +91,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面名稱 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： 連結追蹤呼叫在達到處 <code>pageName</code> 理規則之前先移除變數。 如果您使用處理規則重新插入頁面名稱值，則點擊會被視為頁面檢視，而非連結追蹤呼叫。 Adobe建議您先檢查，以確定頁面名稱已設定，然後再加以修改。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意： 連結追蹤呼叫會在<code>pageName</code>變數達到處理規則之前先加以移除。 如果您使用處理規則重新插入頁面名稱值，則點擊會被視為頁面檢視，而非連結追蹤呼叫。 Adobe建議在修改頁面名稱之前，先檢查以確定已設定頁面名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 <p>注意： 連結追蹤呼叫在達到處 <code>pageURL</code> 理規則之前先移除變數。 如果您使用處理規則重新插入頁面URL值，則點擊會被視為頁面檢視，而非連結追蹤呼叫。 Adobe建議您先檢查，以確定頁面URL已設定，然後再加以修改。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 <p>注意： 連結追蹤呼叫會在<code>pageURL</code>變數達到處理規則之前先加以移除。 如果您使用處理規則重新插入頁面URL值，則點擊會被視為頁面檢視，而非連結追蹤呼叫。 Adobe建議勾選以確認頁面URL已設定，然後再加以修改。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查詢字串參數 </p> </td> 
@@ -135,7 +135,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結查詢字串 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
+   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP 位址 (唯讀) </p> </td> 
@@ -176,7 +176,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>清單變數 1-3 </p> </td> 
-   <td colname="col2"> <p> <code> s.list1</code> - <code> s.list3</code> </p> </td> 
+   <td colname="col2"> <p> <code> s.list1</code> -  <code> s.list3</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>購買 ID </p> </td> 
@@ -210,8 +210,8 @@ ht-degree: 86%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Event1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
-   <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
+   <td colname="col1"> <p>事件1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
+   <td colname="col2"> <p> <code> event1</code> -  <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchase、scView、scAdd 和其他購物車事件 </p> </td> 
@@ -219,4 +219,3 @@ ht-degree: 86%
   </tr> 
  </tbody> 
 </table>
-
