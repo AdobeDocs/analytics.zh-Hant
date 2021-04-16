@@ -2,16 +2,16 @@
 description: 「分類規則產生器」裡頁面上之介面元素的定義。
 subtopic: Classifications
 title: 分類規則 - 定義
-topic: Admin tools
+feature: 管理工具
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '878'
+exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '880'
 ht-degree: 100%
 
 ---
-
 
 # 分類規則 - 定義
 
@@ -144,4 +144,3 @@ ht-degree: 100%
 |---|---|
 | 執行測試 | 當您測試規則集時，使用報告中的索引鍵查看規則集對它們有何影響。 |
 | 篩選 | 篩選「[!UICONTROL 結果]」面板裡的值。 |
-
