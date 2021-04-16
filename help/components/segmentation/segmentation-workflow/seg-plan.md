@@ -1,16 +1,16 @@
 ---
 description: 概述規劃區段時應遵循的步驟和最佳實務。
 title: 計劃區段
-topic: Segments
+feature: 區段
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '208'
+exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
 
 ---
-
 
 # 計劃區段
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 
 1. 考慮您想要有的&#x200B;**核准程序**&#x200B;形式。是要讓單一人員檢閱並核准區段，還是要讓一群人員決定？
 1. 在看見&#x200B;**區段庫**&#x200B;的情況下定義區段，該檢視能讓商務使用者以模組化的方式堆疊和重複使用區段片段或元件。[](/help/components/segmentation/segmentation-workflow/seg-build.md)您需要定義哪些「模組」才能讓此區段庫成真？
-
