@@ -1,15 +1,15 @@
 ---
 description: 與資料摘要相關的常見問題
-keywords: Data Feed;job;pre column;post column;case sensitivity
+keywords: Data Feed;job;pre column;post column；區分大小寫
 title: 資料摘要常見問答集
+exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 77%
+source-wordcount: '420'
+ht-degree: 58%
 
 ---
-
 
 # 資料摘要常見問答集
 
@@ -31,8 +31,14 @@ ht-degree: 77%
 
 資料摘要不會加入 [Admin Console 機器人規則](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/bot-removal/bot-removal.html)篩選的機器人。
 
-## 為什麼在資料饋送 `000` 欄中會看到 `event_list` 多個 `post_event_list` 值？
+## 為什麼在`event_list`或`post_event_list`資料饋送欄中會看到多個`000`值？
 
-有些試算表編輯器，尤其是Microsoft Excel，會自動大量搜尋。 此 `event_list` 欄包含許多逗號分隔的數字，有時會導致Excel將其視為大數字。 它將最後幾位數四捨五入為 `000`。
+有些試算表編輯器，尤其是Microsoft Excel，會自動大量搜尋。 `event_list`欄包含許多逗號分隔的數字，有時會導致Excel將其視為大數字。 它將最後幾位數四捨五入為`000`。
 
-Adobe建議您不要在Microsoft Excel中 `hit_data.tsv` 自動開啟檔案。 請改用Excel的「匯入資料」對話方塊，並確定所有欄位都視為文字。
+Adobe建議不要在Microsoft Excel中自動開啟`hit_data.tsv`檔案。 請改用Excel的「匯入資料」對話方塊，並確定所有欄位都視為文字。
+
+## 為什麼我無法從超過7天的資料擷取「每小時」檔案？
+
+對於7天以上的資料，一天的「每小時」檔案會合併為單一「每日」檔案。
+
+範例：2021年3月9日會建立新的資料饋送，2021年1月1日至3月9日的資料會以「每小時」的形式傳送。 不過，2021年3月2日之前的「每小時」檔案會合併為單一「每日」檔案。 您只能從建立日期少於7天的資料擷取「每小時」檔案。 在本例中，從3月2日到3月9日。
