@@ -2,16 +2,16 @@
 description: 說明如何新增使用者帳戶的步驟。
 subtopic: Users and groups
 title: 新增使用者帳戶
-topic: Admin tools
+feature: 管理工具
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '85'
+exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
-
 
 # 新增使用者帳戶
 
