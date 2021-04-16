@@ -2,16 +2,16 @@
 description: 在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷管道的報表套裝，自動設定可為您建立多個管道及其規則。您可視需要編輯預定義管道或建立自己的管道 (最多總共 25 個)。
 subtopic: Marketing channels
 title: 管理行銷管道
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: 9d367bb6-a17b-49b8-9cd5-24fac35ae982
+exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 translation-type: tm+mt
-source-git-commit: f96be5fb0ba50b9b06aa65da7eff51c869e2a6f4
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 100%
+source-wordcount: '732'
+ht-degree: 99%
 
 ---
-
 
 # 管理行銷管道
 
@@ -90,4 +90,3 @@ Adobe 在[自動設定](/help/components/c-marketing-channels/c-getting-started-
 >Adobe 建議在您能作為測試範本使用的報表套裝中設定報表。您可使用範本將管道和規則設定總體套用至一個或多個生產報表套裝。
 >
 >請參閱[套用範本報表套裝設定至多個報表套裝](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-
