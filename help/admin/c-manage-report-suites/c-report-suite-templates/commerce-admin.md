@@ -1,13 +1,16 @@
 ---
 description: 定義電子商務網站的一般設定。
 title: 商務
-topic: Admin tools
+feature: 管理工具
 uuid: 85fc235d-0180-4245-b831-0243ebe3c40c
+exl-id: 90e5d446-10b8-4d40-8bd0-8b13e1c2f603
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '183'
+ht-degree: 100%
 
 ---
-
 
 # 商務
 
@@ -47,4 +50,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 頁面檢視 | 計數器 (無子關聯) | 不適用 |
 | 每日不重複訪客 | 計數器 (無子關聯) | 不適用 |
 | 不重複訪客 | 計數器 (無子關聯) | 不適用 |
-
