@@ -1,16 +1,16 @@
 ---
 description: 此功能可讓您自訂使用者在「Reports & Analytics」中所見的報表功能表。您可以顯示或隱藏報表，並可在各個使用者的不同資料夾間移動這些報表。若您的組織只使用特定報告，又不想讓左側功能表充斥著未使用或不相關的資料，就非常適合使用這項功能。
 title: 功能表自訂
-topic: 管理工具
+feature: 管理工具
 uuid: 31e335e7-c91a-4669-a9b7-00f9e385375a
+exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 92%
 
 ---
-
 
 # 功能表自訂
 
@@ -58,4 +58,3 @@ ht-degree: 92%
   </tr> 
  </tbody> 
 </table>
-
