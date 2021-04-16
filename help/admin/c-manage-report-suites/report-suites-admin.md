@@ -1,16 +1,16 @@
 ---
 description: 報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理器」可讓您定義用以控管如何在報表套裝中處理資料的規則。
 title: 報表套裝管理器
-topic: Admin tools
+feature: 管理工具
 uuid: 018c4f63-4d87-4a2e-8c71-1ba7f5dd9446
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '539'
+exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
-
 
 # 報表套裝管理器
 
@@ -84,4 +84,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
