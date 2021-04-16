@@ -1,13 +1,16 @@
 ---
 description: 定義開發原始內容並顯示文章和影片之網站的一般設定。
 title: 內容與媒體
-topic: Admin tools
+feature: 管理工具
 uuid: 281b0bf8-59dc-46dc-b5d5-5e42827b785d
+exl-id: 9983ff86-9341-4b01-b4f3-41042874a9fb
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '214'
+ht-degree: 100%
 
 ---
-
 
 # 內容與媒體
 
@@ -50,4 +53,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 頁面檢視 | 計數器 (無子關聯) | 不適用 |
 | 每日不重複訪客 | 計數器 (無子關聯) | 不適用 |
 | 不重複訪客 | 計數器 (無子關聯) | 不適用 |
-
