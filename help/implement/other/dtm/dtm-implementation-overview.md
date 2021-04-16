@@ -2,16 +2,16 @@
 description: 使用動態標籤管理實作 Adobe Analytics。
 keywords: Analytics 實作;實作方法;動態標籤管理;dtm
 title: DTM 實施概覽
-topic: 開發人員和實作
+topic-fix: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '225'
+exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '222'
 ht-degree: 100%
 
 ---
-
 
 # DTM 實施概覽
 
@@ -32,4 +32,3 @@ ht-degree: 100%
 1. 建立[資料元素](/help/implement/other/dtm/t-data-element.md)、[規則和條件](/help/implement/other/dtm/c-rules/t-rules-create.md)以及[動作](/help/implement/other/dtm/c-rules/t-rules-actions.md)。
 
 1. 將工具和規則發佈至生產伺服器。
-
