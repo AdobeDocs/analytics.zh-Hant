@@ -1,13 +1,16 @@
 ---
 description: 管理指派給 Report Builder 使用者的授權。
 title: Report Builder 報表
-topic: Admin tools
+feature: 管理工具
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
+exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 98%
 
 ---
-
 
 # Report Builder 報表
 
@@ -19,4 +22,4 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 
 「[!UICONTROL 排程工作使用情形]」資訊表格會顯示所有具有 Report Builder 存取權限的使用者。
 
-請參閱 [群組](/help/admin/user-management2/c-user-groups/groups.md)。
+請參閱[群組](/help/admin/user-management2/c-user-groups/groups.md)。
