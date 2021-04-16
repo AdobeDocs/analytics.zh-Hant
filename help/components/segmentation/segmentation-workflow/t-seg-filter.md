@@ -1,16 +1,16 @@
 ---
 description: 依標記、擁有者和其他篩選器 (「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」) 進行篩選。
 title: 篩選區段
-topic: Segments
+feature: 區段
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '154'
+exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '155'
 ht-degree: 100%
 
 ---
-
 
 # 篩選區段
 
@@ -34,4 +34,3 @@ ht-degree: 100%
    | 其他篩選器 > 我的最愛 | 顯示的區段全都已被您標記為[我的最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)。 |
    | 其他篩選條件 > 批准 | 顯示所有已正式[核准](/help/components/segmentation/segmentation-workflow/seg-approve.md)的區段。 |
    | 搜尋區段 | 可讓您依名稱來搜尋區段。 |
-
