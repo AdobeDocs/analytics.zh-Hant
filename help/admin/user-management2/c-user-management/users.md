@@ -2,16 +2,16 @@
 description: 「使用者管理」頁面上的「管理報表使用者和群組」可讓您管理使用者和群組，以及控制對報表、工具和報表套裝的存取。
 subtopic: Users and groups
 title: 使用者管理概觀
-topic: Admin tools
+feature: 管理工具
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '407'
+exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '409'
 ht-degree: 100%
 
 ---
-
 
 # 使用者管理概觀
 
@@ -95,4 +95,3 @@ ht-degree: 100%
 | [!UICONTROL 自訂訊息] | 在歡迎郵件中新增其他內容。自訂訊息欄位支援 HTML，但不能包含附件。 |
 | [!UICONTROL 預覽電子郵件] | 在個別瀏覽器視窗中顯示歡迎電子郵件。 |
 | [!UICONTROL 設為預設歡迎郵件] | 修改預設歡迎郵件，使其納入「自訂訊息」窗格中指定的自訂內容。 |
-
