@@ -1,18 +1,18 @@
 ---
 description: 跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客識別會使用訪客 ID 變數 s.visitorID，為使用者建立裝置間的關聯。
-keywords: Analytics Implementation
+keywords: Analytics 實作
 subtopic: Visitors
 title: 連結跨裝置的使用者
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 6243957b-5cc1-49ef-aa94-5b5ec4eac313
-translation-type: ht
-source-git-commit: 12c026fec44f2e66e2997e8b338823f2c7d790e4
-workflow-type: ht
-source-wordcount: '399'
+exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
-
 
 # 連結跨裝置的使用者
 
