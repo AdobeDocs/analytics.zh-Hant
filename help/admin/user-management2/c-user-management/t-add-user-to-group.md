@@ -2,16 +2,16 @@
 description: 說明如何新增使用者至群組的步驟。
 subtopic: Users and groups
 title: 新增使用者至群組
-topic: Admin tools
+feature: 管理工具
 uuid: 032245b3-848d-4727-9b7d-6c5956c5f06a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '110'
+exl-id: f15696a9-3475-4ef6-8d23-3e4e12732b31
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '112'
 ht-degree: 100%
 
 ---
-
 
 # 新增使用者至群組
 
