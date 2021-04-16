@@ -2,16 +2,16 @@
 description: 處理規則是在報告套裝中設定。
 subtopic: Processing rules
 title: 建立處理規則
-topic: Admin tools
+feature: 管理工具
 uuid: fd92e6c9-8ef0-4604-8fd4-4225527b4fa9
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '150'
+exl-id: e28380da-e499-4b73-8ae8-b62f847d10e1
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '152'
 ht-degree: 100%
 
 ---
-
 
 # 建立處理規則
 
