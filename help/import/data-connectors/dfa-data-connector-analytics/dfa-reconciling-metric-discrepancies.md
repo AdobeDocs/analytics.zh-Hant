@@ -2,13 +2,16 @@
 description: 在比較 Adobe Analytics 量度與 DFA 量度時，有些量度可能會超出可接受的差異範圍。以下列出量度定義以及可能的變異原因。
 keywords: DFA
 title: 協調量度差異
-topic: Data connectors
+feature: Data Connectors
 uuid: aa3ca006-d3cf-410e-a000-781ab17fb9e3
+exl-id: bfe0f9cb-1bbc-40f9-b996-0002d5143889
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1270'
+ht-degree: 100%
 
 ---
-
 
 # 協調量度差異{#reconciling-metric-discrepancies}
 
@@ -40,7 +43,7 @@ Analytics 15 測試版客戶的資料範例顯示，不到 0.5% 的使用者通�
 
 這種不一致的狀況，可能會導致 Analytics 與 DFA 所收集的資料出現很大的差異。
 
-### 為何在 DFA 中報告的曝光數可能會高於在 Adobe Analytics 中報告的曝光數?  {#section-db0ad070a65a4985bcc589b2d0d30b90}
+### 為何在 DFA 中報告的曝光數可能會高於在 Adobe Analytics 中報告的曝光數?   {#section-db0ad070a65a4985bcc589b2d0d30b90}
 
 * DFA 會以夜間批次將資料傳送至 Adobe 資料收集伺服器，因此，Analytics 中的數數資料最多可能會比 DFA 報表落後 2 天。
 * Adobe 會使用 SAINT 分類功能，將匯入的 DFA 追蹤代碼分類為不同層級的彙整 (促銷活動名稱、版面名稱、廣告名稱等)。如果在執行分類報表時出現不一致的狀況，請執行簡易測試，確認分類是否仍落後於匯入的量度:
@@ -50,7 +53,7 @@ Analytics 15 測試版客戶的資料範例顯示，不到 0.5% 的使用者通�
    * 在此報表中，記下任何未分類的 DFA 追蹤代碼，其形式會是 `DFA:XXXXX:XXXXX`。
    * 若有許多這類的追蹤代碼存在，請調查夜間 SAINT 分類程序。
 
-### 為何 DFA 點按次數可能高於 Adobe Analytics 點進次數?  {#section-2fce4608ed044bdc9cf812cb719d5d35}
+### 為何 DFA 點按次數可能高於 Adobe Analytics 點進次數?   {#section-2fce4608ed044bdc9cf812cb719d5d35}
 
 * 在訪客到達客戶網站時，DFA 即會記錄一次點按。Analytics 則是等到著陸頁面載入且執行 Adobe JavaScript 信標時，才記錄點進。一般通常會有差異存在，因為訪客在 DFA 追蹤點按之後可能並未進入著陸頁面，或是`s.maxDelay`計時器可能到期。
 * 請確定 Floodlight 設定中的所有版面和創作，都在登陸頁面 URL 中納入 clickThroughParam (例如 &quot;`?CID=1`&quot;)。若未設定此參數，將導致 Adobe Analytics JavaScript 遺漏任何在第一次造訪點擊之後發生的點進。
@@ -62,12 +65,12 @@ Analytics 15 測試版客戶的資料範例顯示，不到 0.5% 的使用者通�
 * Analytics 會嘗試識別並移除重複的點進，使每個活動的每次造訪只會計算一次點進。DFA 會將點按「上一頁」而經過廣告重新導向多次的訪客計為額外的 ACM 點按，而 Analytics 則不會將此類訪客計為多次點進。
 * DFA Floodlight 標記不需要啟用 JavaScript 即可使用，但 Analytics 則需要。因此，在某些情況下，當 DFA 紀錄點擊時，Analytics 並未記錄。若要確認這是否會造成問題，請使用「訪客資料」功能表中的 Analytics JavaScript 報表。
 
-### 為何 DFA 曝光後活動數可能高於 Adobe Analytics 閱覽次數?  {#section-5daa91039c404df48b6a3447c20406f7}
+### 為何 DFA 曝光後活動數可能高於 Adobe Analytics 閱覽次數?   {#section-5daa91039c404df48b6a3447c20406f7}
 
 * Analytics 會嘗試識別並移除重複的點進，使每個活動的每次造訪只會計算一次點進。DFA 會將點按「上一頁」而經過廣告重新導向多次的訪客計為額外的 ACM 點按，而 Analytics 則不會將此類訪客計為多次點進。
 * DFA Floodlight 標記不需要停用 JavaScript 即可使用，但 Analytics 則需要。因此，在某些情況下，當 DFA 紀錄點擊時，Analytics 並未記錄。
 * DFA 會在使用 Floodlight 標記 (可能放在客戶網站上) 時計算曝光後活動數。Analytics 會在 JavaScript 信標 (影像要求) 執行後計算閱覽次數。網頁上的代碼版面，可判斷是否要將中止的頁面載入計為曝光後活動或閱覽。
 
-### 如果不一致的程度遠超過可接受的範圍，且前述的可能原因並不適用，應該如何?  {#section-ca50eb75dd5d4d0396f4668b44d7547c}
+### 如果不一致的程度遠超過可接受的範圍，且前述的可能原因並不適用，應該如何?   {#section-ca50eb75dd5d4d0396f4668b44d7547c}
 
 請洽詢您的整合顧問或 Adobe Client Care，以記下不一致的狀況並將其回報給 Data connectors 工程團隊。為了加快要求的處理速度，請就有問題的量度，備妥 2 - 3 天份的量度比較資料 (在促銷活動代碼層級上)。在您的要求中，請指出您為了消除不一致所執行的所有動作。
