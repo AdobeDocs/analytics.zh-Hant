@@ -1,16 +1,16 @@
 ---
 description: 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 title: 關於區段與容器
-topic: 區段
+feature: 區段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '3700'
 ht-degree: 100%
 
 ---
-
 
 # 關於區段與容器
 
@@ -297,4 +297,3 @@ Country = United States + Order = True
 
 * 「瀏覽」容器會針對至少有一個頁面符合準則的瀏覽，傳回該次瀏覽中查看的所有頁面。因此，如果只有在第 1 天的第 1 次瀏覽查看某個頁面，則在該整次瀏覽中檢視的所有頁面都會加到資料中。
 * 當劃分條件是使用 eVar 或其他類型的永久性變數時，請小心。例如，您可能會使用「where campaign contains email」條件，而此條件將在 7 天後到期。因此，促銷活動如果是設在第一次瀏覽上，則還會再持續存在 7 天。雖然促銷活動只是設定在第一次瀏覽上，但每次瀏覽都會被納入。其他瀏覽也會被納入 (只要它們是在報表的日期範圍中)。如果您不想納入永久性值，請使用「instance of」事件或同等的 Prop 變數 (如有)。
-
