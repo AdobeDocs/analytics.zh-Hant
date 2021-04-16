@@ -2,16 +2,16 @@
 description: 瞭解如何在行銷管道中指定訪客參與有效期。
 subtopic: Marketing channels
 title: 行銷管道有效期
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
-translation-type: ht
-source-git-commit: 46dae8ee28b202578f5ad0c2446b1fd63e5144cc
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
-
 
 # 行銷管道有效期
 
@@ -48,4 +48,3 @@ ht-degree: 100%
 
 3. 設定訪客參與期間欄位。
 4. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-
