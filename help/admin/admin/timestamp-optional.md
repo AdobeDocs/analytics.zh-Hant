@@ -1,16 +1,16 @@
 ---
 description: 在單一報表套裝中，結合時間戳記與非時間戳記資料。
 title: 可選時間戳記
-topic: Admin tools
+feature: 管理工具
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '319'
+exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
-
 
 # 可選時間戳記
 
@@ -41,7 +41,7 @@ ht-degree: 100%
    * **必要時間戳記** (不支援設定 s.visitorID)
    * **可選時間戳記** (支援設定 s.visitorID，但不適用於時間戳記的點擊上)
 
-## 若要將現有的報表套裝變更為可選時間戳記{#section_40BCD3B4639241DEA716F7640ED33E72}
+## 若要將現有的報表套裝變更為可選時間戳記 {#section_40BCD3B4639241DEA716F7640ED33E72}
 
 1. 前往&#x200B;**「管理員 > 報表套裝 > 編輯設定 > 一般 > 時間戳記設定」**。
 1. 選取&#x200B;**「將所選的報表套裝轉換為可選時間戳記」**&#x200B;方塊。
@@ -51,4 +51,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 > 如果報表套裝設定為&#x200B;**可選時間戳記**，若要變更為其他設定，請聯絡 Adobe Client Care。
-
