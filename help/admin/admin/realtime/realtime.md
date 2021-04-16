@@ -1,16 +1,16 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 title: 即時報表
-topic: Reports
+topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 100%
 
 ---
-
 
 # 即時報表
 
