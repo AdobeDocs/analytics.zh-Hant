@@ -1,13 +1,16 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
 title: 支援的即時量度和維度
-topic: Reports
+topic-fix: Reports
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
+exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
-
 
 # 支援的即時量度和維度
 
@@ -38,10 +41,9 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 * 地域劃分 U.S. DMA
 * 產品
 * 伺服器
-* 網站區域
+* 網站區段
 * 追蹤程式碼
 * 自訂連結
 * 檔案下載
 * 退出連結
 * Custom Insight 變數 (prop) 1-75 (若已在報告套裝中啟用)
-
