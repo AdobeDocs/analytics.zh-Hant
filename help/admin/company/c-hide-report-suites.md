@@ -1,14 +1,17 @@
 ---
 description: 可讓您在 Adobe Analytics 使用者介面中隱藏報表套裝。
-keywords: delete report suite
+keywords: 刪除報表套裝
 title: 隱藏報表套裝
-topic: Admin tools
+feature: 管理工具
 uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 100%
 
 ---
-
 
 # 隱藏報表套裝
 
