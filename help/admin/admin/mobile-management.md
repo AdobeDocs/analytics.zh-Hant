@@ -1,15 +1,15 @@
 ---
 description: 啟用應用程式管理會啟用行動解決方案變數，於以擷取行動應用程式中的生命週期及其他量度。
 title: 應用程式管理
-topic: Admin tools
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '623'
+feature: 管理工具
+exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '625'
 ht-degree: 100%
 
 ---
-
 
 # 應用程式管理
 
@@ -60,9 +60,9 @@ Adobe Analytics 與 Mobile Services 之間的整合:
 | 啟動次數 | 應用程式啟動或在背景執行的次數。 |
 | 首次使用後間隔天數 | 自首次執行起的天數。 |
 | 上次使用後間隔天數 | 距離上次使用的天數。 |
-| 小時 | 測量應用程式的啟動時數，並使用 24 小時數字格式。用於時間分界，以判斷尖峰使用時間。 |
+| 小時 | 計算應用程式啟動的時間 (小時)，採用 24 小時制。用於時間分界，以判斷尖峰使用時間。 |
 | 星期 | 應用程式啟動的工作日數。 |
-| 裝置名稱 | 儲存裝置名稱。以逗號分隔的兩位數字串，用以識別裝置。第一個數字通常代表裝置代別，第二個數字通常提供裝置系列的不同成員版本。 |
+| 裝置名稱 | 儲存裝置名稱。以逗號分隔的雙位數字串，用以識別 裝置。第一個數字通常代表裝置代別，第二個數字通常提供裝置系列的不同成員版本。 |
 | 作業系統版本 | OS 版本。 |
 | 解析度 | 寬 x 高 (以實際像素表示)。 |
 | 期限值 (eVar) | 由 trackLifetimeValue 方法填入。 |
@@ -80,4 +80,3 @@ Adobe Analytics 與 Mobile Services 之間的整合:
 | 線上應用程式內訊息 |  |
 | 推送選擇加入 |  |
 | 裝載 ID |  |
-
