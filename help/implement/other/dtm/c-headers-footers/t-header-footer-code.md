@@ -1,17 +1,17 @@
 ---
 description: 使用 Dynamic Tag Management 來新增頁首與頁尾代碼，以決定網站上 JavaScript 和頁面內容的載入方式。無論使用哪個託管選項，您都必須在網站的每個頁面上安裝頁首與頁尾代碼。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;code;page code;header code;footer code;embed code;embed tab;embed
+keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;程式碼;頁面程式碼;頁首程式碼;頁尾程式碼;內嵌程式碼;內嵌標籤;內嵌
 title: 新增頁首與頁尾代碼
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 23d89ae0-340a-4b12-91d1-953b4613c98e
+exl-id: 170c28fb-8884-4c44-b586-f88a7583083e
 translation-type: tm+mt
-source-git-commit: 6efb60ae2f565e67426c78bf830ada655e29b3af
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
-
 
 # 新增頁首與頁尾代碼
 
@@ -47,4 +47,3 @@ Dynamic Tag Management 會建立測試和生產內嵌代碼，您可以在將變
    >[!NOTE]
    >
    >生產環境與測試環境程式碼片段之間的差異，在於測試環境版本的檔案名稱多了 [!DNL -staging]。頁尾代碼在測試與生產版本中維持不變。
-
