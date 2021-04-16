@@ -2,16 +2,16 @@
 description: 您可以使用瀏覽器匯入 (上傳) 分類資料。這種方法限制您的分類資料上傳只能上傳單一的報表套裝
 subtopic: Classifications
 title: 瀏覽器匯入
-topic: Admin tools
+feature: 管理工具
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
-translation-type: ht
-source-git-commit: 0870ace3fea8e3ef650d2de2960006a0d655cf9f
-workflow-type: ht
-source-wordcount: '305'
+exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # 瀏覽器匯入
 
@@ -71,4 +71,3 @@ t_upload_a_saint_data_file_via_web_browser.xml
 1. 觀察狀態視窗中的處理訊息。
 1. (條件性) 若您選取&#x200B;**[!UICONTROL 上傳完成時自動下載分類檔案]**，需指定處理完成時要將產生的檔案儲存於何處。
 >成功的匯入作業會立即顯示匯出內容中的正確變更。然而，報告中的資料變更需花費 4 小時 (使用瀏覽器匯入) 到 24 小時 (使用 FTP 匯入) 的時間。
-
