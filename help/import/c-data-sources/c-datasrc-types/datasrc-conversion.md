@@ -2,16 +2,16 @@
 description: 針對以轉換方式處理的資料類型，資料來源支援下列「轉換」資料維度和量度。
 subtopic: Data sources
 title: 轉換
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 100%
 
 ---
-
 
 # 轉換
 
