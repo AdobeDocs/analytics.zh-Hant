@@ -1,13 +1,16 @@
 ---
 description: 「持久流量」區段可讓您變更預期的流量級別，讓 Adobe 可以重新分派資源以處理新的流量級別。
 title: 指定永久性流量增加
-topic: Admin tools
+feature: 管理工具
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
+exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 100%
 
 ---
-
 
 # 指定永久性流量增加
 
@@ -26,4 +29,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >[!NOTE]
    >
    >若要安排永久性流量增加的時間，請在使用者聯絡資訊中加入電話號碼，以便讓 Adobe 在有需要時可以聯絡您。
-
