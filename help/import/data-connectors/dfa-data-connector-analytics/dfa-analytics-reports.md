@@ -2,13 +2,16 @@
 description: 在 DFA 與 Adobe® 收集伺服器可相互通訊後，您即可在「報告與分析」中產生包含 DFA 資料的報表。
 keywords: DFA
 title: 使用 DFA 資料的分析報表
-topic: Data connectors
+feature: Data Connectors
 uuid: a4fe4a6c-f4a4-431d-bce9-9eedbcafedd6
+exl-id: e8b2dc3d-0360-4232-9a24-aa14e52f25d5
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
-
 
 # 使用 DFA 資料的分析報表{#analytics-reports-using-dfa-data}
 
