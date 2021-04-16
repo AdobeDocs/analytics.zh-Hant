@@ -1,16 +1,16 @@
 ---
 description: 內部 URL 篩選器可識別您認為是屬於網站內部的反向連結。這可協助流量來源報表填入資料並協助篩選內部流量。
 title: 內部 URL 篩選器
-topic: Admin tools
+feature: 管理工具
 uuid: 70868edb-208d-4dad-9401-70967468d40c
-translation-type: ht
-source-git-commit: 9237315927b769aaf454a7e81932fdf63572295f
-workflow-type: ht
-source-wordcount: '214'
+exl-id: fa387da2-e9be-47c0-9c4e-edd75af1f05a
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 內部 URL 篩選器
 
