@@ -2,16 +2,16 @@
 description: 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。eVar 可以瀏覽為準，其功能類似於 Cookie。傳送到 eVar 變數的值，會在預定的期間內跟隨使用者。
 keywords: eVar
 title: 轉換變數 (eVar)
-topic: Admin tools
+feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '1579'
+exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1582'
 ht-degree: 100%
 
 ---
-
 
 # 轉換變數 (eVar)
 
@@ -76,7 +76,7 @@ eVar 最適合用來測量原因和結果，如：
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">當月過期：eVar 將於星期一後第 31 天早上 7:15 過期。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定的轉換事件。</b>在指定的特定事件之後引發的任何其他轉換事件，都會關聯至 eVar。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不。</b>只要       <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不.</b>只要       <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
