@@ -2,13 +2,16 @@
 description: DFA 的 Data connectors 整合會使用 Analytics 變數來追蹤 DFA 促銷活動結果。
 keywords: DFA
 title: Analytics 變數和事件
-topic: Data connectors
+feature: Data Connectors
 uuid: 8996cb58-c793-4600-99ef-af3064642b29
+exl-id: 8c3df2e8-84cd-4a14-b15b-42233d874c19
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 100%
 
 ---
-
 
 # Analytics 變數和事件{#analytics-variables-and-events}
 
