@@ -1,15 +1,15 @@
 ---
-description: 在Adobe Analytics中建立資料收集的基本容器
+description: 在Adobe Analytics建立基本的資料收集容器
 title: 建立報表套裝
-topic: Admin tools
+feature: 管理工具
+exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
-source-git-commit: 8ddd49ad894547d888efc513983e615d138ed13c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 75%
 
 ---
-
 
 # 建立報表套裝
 
@@ -19,7 +19,7 @@ ht-degree: 75%
 
 ## 必備條件
 
-[Adobe Analytics第一份管理指南](/help/admin/admin-console/first-admin-guide.md):請確定系統層級管理員已授與您透過Experience Cloud管理控制台存取Adobe Analytics的權限。
+[Adobe Analytics第一管理指南](/help/admin/admin-console/first-admin-guide.md):確保系統級管理員已授予您通過Experience CloudAdmin Console訪問Adobe Analytics的權限。
 
 ## 建立報表套裝 {#create-report-suite}
 
