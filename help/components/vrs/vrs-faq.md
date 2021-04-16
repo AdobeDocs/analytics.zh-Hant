@@ -1,17 +1,17 @@
 ---
 description: 虛擬報表套裝新使用者適用的提示和最佳實務。
-keywords: Virtual Report Suite
+keywords: 虛擬報表套裝
 title: VRS 常見問題集
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
-translation-type: ht
-source-git-commit: 444a2b93a39cad0d2f62a4bf8d889b71ba726092
-workflow-type: ht
-source-wordcount: '898'
-ht-degree: 100%
+exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '904'
+ht-degree: 99%
 
 ---
-
 
 # VRS 常見問題集
 
@@ -75,4 +75,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
