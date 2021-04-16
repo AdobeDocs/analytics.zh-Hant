@@ -1,16 +1,16 @@
 ---
 description: 帳單頁面可讓您存取帳單資訊，包括每個報表套裝的流量細節。只有獲授權的管理員可存取此頁面。
 title: 帳單
-topic: Admin tools
+feature: 管理工具
 uuid: ad6ee1c4-d317-4320-a36e-ee966c8f145e
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '503'
+exl-id: cea802e4-99c4-491e-99c2-8476870001f7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '505'
 ht-degree: 100%
 
 ---
-
 
 # 帳單
 
