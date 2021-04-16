@@ -2,16 +2,16 @@
 description: 選取「通用 (交易ID)」類別，可整合訪客 ID。
 subtopic: Data sources
 title: 訪客 ID
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 4e9ce675-72c2-42a4-8f2e-25140df19539
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
+exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 100%
 
 ---
-
 
 # 訪客 ID
 
