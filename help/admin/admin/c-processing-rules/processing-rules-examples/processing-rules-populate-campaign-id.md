@@ -2,16 +2,16 @@
 description: 您可以使用查詢字串參數填入變數。
 subtopic: Processing rules
 title: 從查詢字串參數填入促銷活動 ID
-topic: Admin tools
+feature: 管理工具
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
-translation-type: ht
-source-git-commit: 2ffa989156dd9bc4f6ef9a216e8c06425cc39440
-workflow-type: ht
-source-wordcount: '112'
+exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
 
 ---
-
 
 # 從查詢字串參數填入促銷活動 ID
 
@@ -29,4 +29,3 @@ ht-degree: 100%
 例如：
 
 ![](assets/set-campaign-conditionally.png)
-
