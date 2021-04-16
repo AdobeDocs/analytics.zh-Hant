@@ -1,17 +1,17 @@
 ---
 description: Web 屬性可為一或多個具備規則資料庫 (包含在內嵌代碼中) 之網域和子網域的任意分組。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;web property;property
+keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;Web 屬性;屬性
 title: 建立 Web 屬性
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '466'
+exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '477'
 ht-degree: 100%
 
 ---
-
 
 # 建立 Web 屬性
 
