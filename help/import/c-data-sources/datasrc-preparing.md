@@ -2,16 +2,16 @@
 description: 使用資料來源的準備步驟
 subtopic: Data sources
 title: 準備使用資料來源
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 100%
 
 ---
-
 
 # 準備使用「資料來源」
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 * [交易 ID](/help/import/c-data-sources/datasrc-preparing.md#section_D9513C1204B7496C9B738C5B12CCCFC7)
 * [識別「資料來源」資料的有效日期範圍](/help/import/c-data-sources/datasrc-preparing.md#section_03AAB1291BDC4403BDC50905A78FDB71)
 
-## 識別及命名量度{#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
+## 識別及命名量度 {#section_0D1DA6D7768E4C4CB6E9A2F4639C0135}
 
 重要的是，要瞭解您的資料來源中的量度和測量，例如 *`Off-line Sales Revenue by Product`*、*`Returns by Product`* 或 *`Ad Impressions by Campaign`*。這些是可以用報表量度關聯的名稱 (event、prop 及 eVar)。
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 若是 eVar，您可使用現存 eVar 或新的 eVar 做為資料維度。選取接受資料來源資料維度的 eVar 後，確定您將 eVar 正確命名。
 
-請參閱「分析說明」中的「[成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)」。
+請參閱「分析說明」中的「[成功事件](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)」。
 
 ## 促銷活動追蹤程式碼 {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 交易 ID 是用於將線上事件連結到離線事件。
 
-## 識別「資料來源」資料的有效日期範圍{#section_03AAB1291BDC4403BDC50905A78FDB71}
+## 識別「資料來源」資料的有效日期範圍  {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 定義您的資料來源量度 (自訂事件) 和資料維度 (eVar) 後，檢查您要匯入之資料來源資料的日期範圍。您無法匯入現存報表資料範圍以外的資料來源。
 
