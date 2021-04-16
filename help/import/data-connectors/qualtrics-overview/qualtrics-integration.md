@@ -2,16 +2,16 @@
 description: 部署完成後，您就可以開始使用此整合提供的其他功能。
 subtopic: Qualtrics
 title: 使用整合
-topic: Data connectors
+feature: Data Connectors
 uuid: a1d5045b-4c38-4984-8c71-27e86ebe8b23
+exl-id: 11fc6382-da83-4320-9f2f-bf6ca096f0ae
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '163'
 ht-degree: 100%
 
 ---
-
 
 # 使用整合{#using-the-integration}
 
@@ -31,4 +31,3 @@ ht-degree: 100%
 以下案例說明分析人員如何使用調查回應資料來定義 Adobe Analytics 區段。此案例假設使用類似「您對今天的造訪滿意度多高？」的調查問題我們可以使用這個問題來建立一個區段，用於識別「不滿意」的訪客。這類區段可用於切入任何 Adobe Analytics 報表，以購買轉換漏斗為例，如下所示。
 
 ![](assets/using-1.png) ![](assets/using-2.png)
-
