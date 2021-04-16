@@ -2,16 +2,16 @@
 description: 您可以建立自動的規則型分類並套用至多個報表套裝，如此就無須在每次追蹤程式碼變更時維護和上傳分類。視您的分類相關流量大小而定，會以頻繁間隔處理規則。
 subtopic: Classifications
 title: 分類規則產生器工作流程
-topic: Admin tools
+feature: 管理工具
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
+exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
 translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '576'
 ht-degree: 97%
 
 ---
-
 
 # 分類規則產生器工作流程
 
@@ -52,4 +52,4 @@ ht-degree: 97%
 
 **部落格**：如需此功能的其他相關資訊，請參閱 Digital Marketing Blog 上的[規則型分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
-**影片**:檢視「分 [類概述](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 」影片。
+**影片**:檢視分 [類](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/components/classifications/overview-of-classifications.html) 概觀影片。
