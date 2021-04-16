@@ -7,7 +7,7 @@ feature: 報告與分析基礎
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 98%
@@ -116,7 +116,7 @@ Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。�
 
 收集一小時的資料後，您會收到單一壓縮資料檔案和資訊清單檔案。資料檔案的名稱為：
 
-`[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 擷取後，資料檔案會包含單一 `hit_data.tsv` 檔案 (其中包含該小時的所有資料)，以及任何必要欄的查閱檔案。
 
@@ -124,7 +124,7 @@ Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。�
 
 收集一小時的資料後，您會收到一或多個壓縮資料檔案和資訊清單檔案。資料檔案的名稱為：
 
-`[index]-[rsid]_[YYYY-mm-dd]-[HHMMSS].[compression_suffix]`
+`[index]-[rsid]_[YYYYmmdd]-[HHMMSS].[compression_suffix]`
 
 擷取後，每個資料檔案都包含單一 `hit_data.tsv` (內含約 2GB 解壓縮資料)，以及任何必要欄的查閱檔案。
 
