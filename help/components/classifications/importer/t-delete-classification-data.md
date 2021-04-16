@@ -2,16 +2,16 @@
 description: 說明如何刪除或移除分類資料的步驟。
 subtopic: Classifications
 title: 刪除分類資料
-topic: Admin tools
+feature: 管理工具
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '363'
+exl-id: 2b156e66-3090-4048-8192-a412320e3be3
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '365'
 ht-degree: 100%
 
 ---
-
 
 # 刪除分類資料
 
@@ -47,9 +47,9 @@ ht-degree: 100%
 
 | 庫存 SKU (eVar8) | 庫存名稱 | 庫存類別 |
 | --- | --- | --- |
-| 857467 | V 領毛衣 | 女裝 |
-| 948203 | 腳踝鏈 | 珠寶 |
-| 174391 | 白色燈芯絨褲 | `~deletekey~` |
+| 郵編：857467 | V 領毛衣 | 女裝 |
+| 郵編：948203 | 腳踝鏈 | 珠寶 |
+| 郵編：174391 | 白色燈芯絨褲 | `~deletekey~` |
 
 在庫存類別分類下使用 `~deletekey~` 會刪除關鍵值 `174391` 的所有分類資料，就像資料列從未經過分類一樣。
 
