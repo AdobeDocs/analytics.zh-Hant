@@ -1,16 +1,16 @@
 ---
 description: 說明如何新增或編輯轉換變數的步驟。
 title: 編輯轉換變數
-topic: Admin tools
+feature: 管理工具
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '107'
+exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # 編輯轉換變數
 
