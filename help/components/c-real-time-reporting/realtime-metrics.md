@@ -1,16 +1,16 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
 title: 支援的即時量度和維度
-topic: Reports
+topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # 支援的即時量度和維度
 
@@ -47,4 +47,3 @@ ht-degree: 100%
 * 檔案下載
 * 退出連結
 * Custom Insight 變數 (prop) 1-75 (若已在報告套裝中啟用)
-
