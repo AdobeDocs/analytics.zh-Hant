@@ -1,18 +1,18 @@
 ---
 description: 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。
-keywords: groups;permissions
+keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂維度權限
-topic: Admin tools
+feature: 管理工具
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
+exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 98%
 
 ---
-
 
 # 自訂維度權限
 
@@ -43,7 +43,7 @@ ht-degree: 98%
 * 自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。
 * Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的[變數](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html)所決定。
 
-如需詳細資訊，請參 [閱使用者和群組權限變更](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/permissions-changes.html)。
+如需詳細資訊，請參閱[使用者和群組權限變更](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/permissions-changes.html)。
 
 **自訂維度**
 
@@ -63,14 +63,14 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/evar.html"> Prop </a> </p> </td> 
-   <td colname="col2"> <p>Prop 為自訂流量變數。 </p> <p>請參閱 Analytics 實作中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/evar.html">流量 Prop 和轉換 eVar</a>。 </p> </td> 
+   <td colname="col2"> <p>Prop 為自訂流量變數。 </p> <p>請參閱 Analytics 實作中的<a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/evar.html">流量 Prop 和轉換 eVar</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html"> 階層 </a> </p> </td> 
    <td colname="col2"> <p> 階層 (hierN) 變數會決定某個頁面在您的網站階層或頁面結構中的所在位置。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/page-variables.html"> Listvar </a> </p> </td> 
    <td colname="col2"> <p> 清單變數的運作方式與清單 Prop 函數類似，也允許相同影像要求中可有多個值。 </p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ ht-degree: 98%
    <td colname="col2"> <p>這項合作夥伴整合已不再進行。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Nielsen </a> </p> </td> 
    <td colname="col2"> <p>這項合作夥伴整合已不再進行。 </p> </td> 
   </tr> 
   <tr> 
