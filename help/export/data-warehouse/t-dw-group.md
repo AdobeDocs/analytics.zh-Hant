@@ -1,16 +1,16 @@
 ---
 description: 說明管理員如何為一組使用者啟用 Data Warehouse 報告存取權的步驟。
 title: 新增 Data Warehouse 使用者群組
-topic: Data warehouse
+feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '205'
+exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
-
 
 # 新增 Data Warehouse 使用者群組
 
