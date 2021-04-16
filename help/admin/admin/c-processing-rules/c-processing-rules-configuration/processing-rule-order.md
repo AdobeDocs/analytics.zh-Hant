@@ -2,16 +2,16 @@
 description: 若要有效使用處理規則，請務必瞭解它們在資料收集期間的套用時機。
 subtopic: Processing rules
 title: 處理順序
-topic: Admin tools
+feature: 管理工具
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
+exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt
-source-git-commit: 31506d4d3fa26a3012cce2c6a8fdeb7af52c2537
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '507'
 ht-degree: 91%
 
 ---
-
 
 # 處理順序
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 |--- |--- |
 | 動態變數查閱 | 從 HTTP 標題或其他變數提取資訊，進而動態填入變數。例如，`s.eVar5="D=c1"` 會將 prop1 的值放入 eVar5 中。 |
 | AppMeasurement | AppMeasurement 中使用的函數和外掛程式會在瀏覽器或用戶端應用程式中執行。 |
-| 標籤管理 | 在Adobe Launch或動態標籤管理中定義的規則會依定義執行。 |
+| 標籤管理 | 在「Adobe啟動」或「動態標籤管理」中定義的規則會依定義執行。 |
 | 機器人規則 | [機器人規則](/help/admin/admin/bot-removal/bot-rules.md)可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。 |
 
 ## 處理規則之後
