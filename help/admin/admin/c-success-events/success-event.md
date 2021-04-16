@@ -1,17 +1,17 @@
 ---
-description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
+description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
 keywords: event
 title: 成功事件概觀
-topic: Admin tools
+feature: 管理工具
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '715'
+exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '718'
 ht-degree: 100%
 
 ---
-
 
 # 成功事件概觀
 
@@ -53,4 +53,3 @@ ht-degree: 100%
 | 獨特事件記錄 | **每次造訪記錄一次**：繫結特定事件和訪客的工作階段。同一次瀏覽中，特定事件的後續計數會被忽略。就這類事件序列化而言，實施上不需任何變更。<br>**使用事件 ID**：繫結特定事件和自訂 ID。擁有相同事件 ID 之特定事件的後續計數會被忽略。在這類事件序列化作業中，需使用點擊中的自訂 ID 刪除重複數值。請參閱實施使用手冊中的[事件 ID 序列化](../../../implement/vars/page-vars/events/event-serialization.md)。 |
 | 參與率 | 為造訪的所有維度項目給予滿分的歸因評分。 |
 | 警告 (貨幣事件) | 將事件類型變更為貨幣事件或改為不使用貨幣事件時，會顯示訊息，告知歷史資料無法用於報表。不同的事件類型使用不同的資料表格，且無法同時使用。如果使用者回復事件類型，部分歷史資料可加以還原。不過，在初次變更後收集的資料都無法使用。變更事件類型時請謹慎。 |
-
