@@ -2,16 +2,16 @@
 description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
 subtopic: Classifications
 title: 流量分類
-topic: Admin tools
+feature: 管理工具
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
-translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
-workflow-type: ht
-source-wordcount: '192'
+exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '194'
 ht-degree: 100%
 
 ---
-
 
 # 流量分類
 
