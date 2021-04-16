@@ -1,18 +1,18 @@
 ---
 description: 為 API 存取、報表套裝管理、工具和報表與控制面板項目啟用使用者權限。
-keywords: groups;permissions
+keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂報表套裝工具權限
-topic: Admin tools
+feature: 管理工具
 uuid: 3c95d296-ffd0-4971-9c5f-110ddbe042ce
+exl-id: 8b776055-66a5-4ada-8d92-391c50a1d4f1
 translation-type: tm+mt
-source-git-commit: 89a5524ac0e96d63acd54c2ef3e22c17314f332d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1166'
 ht-degree: 93%
 
 ---
-
 
 # 自訂報表套裝工具權限
 
@@ -59,7 +59,7 @@ ht-degree: 93%
 | [尋找方法](/help/admin/admin/finding-methods.md) | 可讓您識別不同的尋找方法報表如何接收網站上轉換成功事件的評分。 |
 | [轉換分類](/help/admin/admin/conversion-var-admin/conversion-classifications.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
 | [不重複訪客](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/unique-visitor-variable/t-unique-visitor-variable.html) | 授予指定獨特訪客變數的權限。 |
-| [成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html) | 可以追蹤的動作，例如產品檢視、結帳和購買。 |
+| [成功事件](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html) | 可以追蹤的動作，例如產品檢視、結帳和購買。 |
 | [分類階層](/help/admin/admin/conversion-var-admin/classification-hierarchies.md) | 合併在「分類」中 (在「工具」和「報表」之下)。 |
 | [清單變數 ](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) | 也稱為清單變數 (List Var)。清單變數的運作方式與清單 Prop 類似，也允許相同影像要求中可有多個值。 |
 | [預設量度](/help/admin/admin/default-metrics.md) | 若使用者未選取自訂量度集，則「Reports &amp; Analytics」在所有轉換報表中都會顯示預設量度集。所選定量度會顯示給相關報表套裝的所有使用者。 |
@@ -68,14 +68,14 @@ ht-degree: 93%
 | [異常偵測](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html) | 授予對異常偵測的權限，其提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 |
 | [頻道報表](/help/components/c-marketing-channels/analyze-mc.md) | 授予對可以在「報表 > 行銷管道報表」中找到的行銷管道報表的權限。 |
 | [即時報表](/help/admin/admin/realtime/t-realtime-admin.md) | 授予對即時報表的存取。 |
-| [機器人頁面](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人頁面是用於特定的「報告與分析」報表，而非用於管理機器人規則。 目前，沒有允許編輯機器人規則的權限。**&#x200B;機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
-| [機器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人適用於特定的「報告與分析」報表，而非用於管理機器人規則。 目前，沒有允許編輯機器人規則的權限。** 機器人程式可讓您移除報表套裝中由已知編目程式和機器人程式產生的流量。 移除機器人流量可以提供網站上更準確的使用者活動測量。 |
+| [機器人頁面](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人頁面是用於特定的「報告與分析」報表，而非用於管理機器人規則。目前，沒有允許編輯機器人規則的權限。**&#x200B;機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
+| [機器人](/help/admin/admin/bot-removal/bot-rules.md) | **注意：機器人適用於特定的「報告與分析」報表，而非用於管理機器人規則。目前，沒有允許編輯機器人規則的權限。** 機器人程式可讓您移除報表套裝中由已知編目程式和機器人程式產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。 |
 | [自訂 Data Warehouse 報表](/help/export/data-warehouse/data-warehouse.md) | Data Warehouse 是指用於儲存和自訂報告的原始、未處理資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。 |
 | 每日回訪 | (舊版) 該報告顯示在指定某天曾多次瀏覽網站的訪客數量。一天指過去的 24 個小時。 |
 | [資料來源管理員](/help/admin/admin/data-sources.md) | 「資料來源」功能可讓您從離線來源將資料匯入至 Analytics。 |
 | [依 IP 位址排除](/help/admin/admin/exclude-ip.md) | 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。 |
 | 舊版 ClickMap | 授予對舊版 ClickMap 覆蓋工具功能表的存取。 |
-| 舊版 Clickmap 安裝 | 授予對舊版 ClickMap 工具的安裝權限。 |
+| 舊版 ClickMap 安裝 | 授予對舊版 ClickMap 工具的安裝權限。 |
 | 回訪 | 此報告會顯示瀏覽次數大於 1 的瀏覽數。「回訪報告」會包含非 Cookie 訪客。 |
 | [分類匯入程式](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/classifications-importer/c-working-with-saint.html)/匯出程式和[規則產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html) | 合併在「分類」中 (請參閱以下內容)。 |
 | 資料摘要管理員 | 授予權限至Analytics 資料摘要。 |
