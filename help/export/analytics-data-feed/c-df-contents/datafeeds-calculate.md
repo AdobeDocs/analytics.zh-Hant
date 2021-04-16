@@ -1,17 +1,17 @@
 ---
 description: 說明如何使用資料摘要來計算通用量度。
-keywords: Data Feed;job;metrics;pre column;post column;bots;date filtering;event string;common;formulas
+keywords: 資料饋送；job;metrics;pre column;post column;bots；日期篩選；事件字串；common；公式
 title: 計算量度
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
-source-wordcount: '442'
-ht-degree: 100%
+exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '460'
+ht-degree: 96%
 
 ---
-
 
 # 使用資料摘要來計算常用量度
 
