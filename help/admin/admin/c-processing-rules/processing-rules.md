@@ -2,16 +2,16 @@
 description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
 subtopic: Processing rules
 title: 處理規則概觀
-topic: 管理工具
+feature: 管理工具
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt
-source-git-commit: 7f34aa3b5056c56516daea6144723a1751ef9051
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 68%
 
 ---
-
 
 # 處理規則概觀
 
@@ -34,7 +34,7 @@ ht-degree: 68%
 
 >[!IMPORTANT]
 >
->由於處理規則會永久影響Analytics資料，Adobe強烈建議處理規則管理員在Adobe Analytics中接受認證訓練，並熟悉您報表套裝的所有資料來源（標準網站、行動網站、行動應用程式、資料插入API等）。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
+>由於處理規則會永久影響Analytics資料，因此Adobe強烈建議處理規則管理員在Adobe Analytics接受認證訓練，並熟悉報表套裝的所有資料來源（標準網站、行動網站、行動應用程式、資料插入API等）。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
 
 ## 使用上下文資料簡化資料收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
@@ -62,4 +62,4 @@ s.contextData['genre'] = "Youth";
 
 在實作中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱[將上下文資料變數複製至eVar](processing-rules-examples/processing-rules-copy-context-data.md)和[使用上下文資料變數](processing-rules-examples/processing-rules-copy-context-data-event.md)設定事件。
+如需詳細資訊，請參閱[將上下文資料變數複製至](processing-rules-examples/processing-rules-copy-context-data.md)eVar和[使用上下文資料變數](processing-rules-examples/processing-rules-copy-context-data-event.md)設定事件。
