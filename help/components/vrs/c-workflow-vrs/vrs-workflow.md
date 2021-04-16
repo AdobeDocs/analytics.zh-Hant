@@ -1,17 +1,17 @@
 ---
 description: 計劃實作虛擬報表套裝所需步驟的概觀。
-keywords: Virtual Report Suite
+keywords: 虛擬報表套裝
 title: 虛擬報表套裝工作流程
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '260'
-ht-degree: 100%
+exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '266'
+ht-degree: 98%
 
 ---
-
 
 # 虛擬報表套裝工作流程
 
