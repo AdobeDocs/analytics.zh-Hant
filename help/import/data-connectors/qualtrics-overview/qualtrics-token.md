@@ -2,13 +2,16 @@
 description: 完成整合精靈需使用代號。若要尋找此 ID，請完成下列操作。
 subtopic: Qualtrics
 title: 產生您的 Qualtrics Adobe Analytics 代號
-topic: Data connectors
+feature: Data Connectors
 uuid: 6038279e-c399-4e10-9afc-9c4305dc36d5
+exl-id: 66bafeef-d0cd-4cce-ba18-df22d3d14995
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '102'
+ht-degree: 100%
 
 ---
-
 
 # 產生您的 Qualtrics Adobe Analytics 代號{#generating-your-qualtrics-adobe-analytics-token}
 
@@ -30,4 +33,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >[!NOTE]
    >
    >如果您看不到產生 Adobe Analytics 代號的選項，請聯絡您的 Qualtrics 帳戶管理員，為您的帳戶啟用適當權限。
-
