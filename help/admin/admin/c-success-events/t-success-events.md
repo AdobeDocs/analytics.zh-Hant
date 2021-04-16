@@ -1,16 +1,16 @@
 ---
 description: 說明如何設定成功事件的步驟。
 title: 設定成功事件
-topic: Admin tools
+feature: 管理工具
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
-translation-type: ht
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
-workflow-type: ht
-source-wordcount: '201'
+exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
-
 
 # 設定成功事件
 
@@ -44,4 +44,3 @@ ht-degree: 100%
    >您可以啟用的參與率最多可達 100 個自訂事件。除此之外，您還可在[計算量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)產生器中建立參與率量度。
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-
