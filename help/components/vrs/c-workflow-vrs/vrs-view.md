@@ -1,23 +1,23 @@
 ---
 description: 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相關資訊。
-keywords: Virtual Report Suite
+keywords: 虛擬報表套裝
 title: 檢視虛擬報表套裝資訊
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '95'
-ht-degree: 100%
+exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 97%
 
 ---
-
 
 # 檢視虛擬報表套裝資訊
 
 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相關資訊。
 
-## 在報表套裝選取器中{#section_74E43B60C1CA4180B5ACA57574C1FA0F}
+## 在報表套裝選取器中 {#section_74E43B60C1CA4180B5ACA57574C1FA0F}
 
 按一下報表套裝選取器中虛擬報表套裝旁的「資訊」圖示，可提供下列資訊：
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 * 獨特訪客總數計數。
 
 ![](assets/vrs-info.png)
-
