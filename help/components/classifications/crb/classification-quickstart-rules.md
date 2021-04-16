@@ -2,12 +2,12 @@
 description: 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
 subtopic: Classifications
 title: 分類規則
-topic: Admin tools
+feature: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
 translation-type: tm+mt
-source-git-commit: 4c3af6b91e264bd23e6765e99bf640dac284c75d
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2020'
 ht-degree: 99%
 
 ---
@@ -37,8 +37,8 @@ ht-degree: 99%
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
 | 開頭為 | em: | 管道 | 電子郵件 |
-| 結尾為 | Sale | 類型 | Sale |
-| 包含 | 2013 | 年 | 2013 |
+| 結尾為 | Sale | 類型 | 銷售 |
+| 包含 | 2013 | 年 | 2013年 |
 
 ## 規則的處理方式 {#how-rules-are-processed}
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜尋類型 | Team |
-| 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
+| 2 | 包含 | Fantasy | 搜尋類型 | 幻想 |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
 如果使用者搜尋      *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
@@ -326,7 +326,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >Report suites display on this page *`only`* when the following conditions are met:
+   >當符合下列條件時，報表套裝會顯示在此頁面&#x200B;*`only`*:
    >
    >* 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
       >
