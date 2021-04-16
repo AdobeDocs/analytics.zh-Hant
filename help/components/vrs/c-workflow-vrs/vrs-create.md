@@ -1,17 +1,17 @@
 ---
 description: 開始建立虛擬報表套裝前，請謹記以下一些注意事項。
-keywords: Virtual Report Suite
+keywords: 虛擬報表套裝
 title: 建立虛擬報表套裝
-topic: Reports and analytics
+feature: 報告與分析基礎
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 99%
 
 ---
-
 
 # 建立虛擬報表套裝
 
@@ -66,4 +66,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
