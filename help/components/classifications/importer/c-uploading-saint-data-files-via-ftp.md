@@ -2,16 +2,16 @@
 description: 說明如何透過 FTP 上傳 資料檔案的步驟。
 subtopic: Classifications
 title: FTP 匯入
-topic: 管理工具
+feature: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
+exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%
 
 ---
-
 
 # FTP 匯入
 
