@@ -1,16 +1,16 @@
 ---
 description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有相符的資料，並顯示「包括所有使用者」篩選條件。可使用「僅限序列之前」和「僅限序列之後」選項，將循序區段進一步篩選成相符點擊的子集。
 title: 建立循序區段
-topic: Segments
+feature: 區段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
-translation-type: ht
-source-git-commit: 9e70cd51f8828cdcb698175a2b4c0150610d14d0
-workflow-type: ht
-source-wordcount: '3857'
+exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '3858'
 ht-degree: 100%
 
 ---
-
 
 # 建立循序區段
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 | 符合 | A 然後 B<br>A 然後 (在不同次造訪中) B<br>A 然後 D 然後 B |
 | 不符合 | B 然後 A |
 
-## 「僅限序列之前」與「僅限序列之後」{#section_736E255C8CFF43C2A2CAAA6D312ED574}
+## 「僅限序列之前」與「僅限序列之後」 {#section_736E255C8CFF43C2A2CAAA6D312ED574}
 
 **[!UICONTROL 「僅限序列之前」]**&#x200B;與&#x200B;**[!UICONTROL 「僅限序列之後」選項可讓您在指定的序列之前或之後，將區段篩選為資料子集。]**
 
@@ -355,7 +355,7 @@ ht-degree: 100%
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器並指定精細度和計數，將符合限制至指定的持續時間。[!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。[!UICONTROL After] 運算子用來指定兩個查核點之間時間量的下限。
 
-### After 和 Within 運算子{#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 運算子  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持續時間的指定方式是使用代表精細度的單一大寫字母，後接代表精細度重複計數的數字。
 
