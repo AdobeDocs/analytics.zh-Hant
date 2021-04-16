@@ -2,16 +2,16 @@
 description: 'Data connectors DFA 整合在啟動之後，將可為您的 Adobe Analytics 報表提供下列量度 '
 keywords: DFA
 title: 整合功能
-topic: Data connectors
+feature: Data Connectors
 uuid: 4ad8e6e8-3449-498a-8596-37c0ac1657cd
+exl-id: a0eb2196-5f6a-4dbb-98b0-c96c30601bc5
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
-
 
 # 整合功能{#integration-features}
 
@@ -63,4 +63,3 @@ Adobe SearchCenter 現在已可辨識 DFA 整合。透過 Data Connectors 精靈
 >[!NOTE]
 >
 > 如果啟用了「SearchCenter」>「DFA 重複資料刪除」，並設定了 SearchCenter 查詢字串參數，在進行 DFA 處理時將不會考量造訪。這表示，SearchCenter 查詢字串參數應不同於 DFA 點進參數，且不應有「顯示」廣告設定 SearchCenter 查詢字串參數。
-
