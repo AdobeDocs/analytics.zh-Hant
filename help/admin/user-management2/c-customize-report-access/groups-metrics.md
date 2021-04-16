@@ -1,18 +1,18 @@
 ---
 description: 為流量量度、轉換量度、自訂事件、解決方案事件和內容感知啟用權限。
-keywords: groups;permissions
+keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂量度權限
-topic: Admin tools
+feature: 管理工具
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
+exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
 translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # 自訂量度權限
 
