@@ -7,9 +7,9 @@ feature: 報告與分析基礎
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: c6d4095fdf86be52c7921aed84b9229ac3b27f82
 workflow-type: tm+mt
-source-wordcount: '3396'
+source-wordcount: '3405'
 ht-degree: 99%
 
 ---
@@ -157,7 +157,7 @@ ht-degree: 99%
 | `page_event_var2` | 僅用於連結追蹤影像要求。連結的自訂名稱 (若有)。 | varchar(100) |
 | `page_event_var3` | 已不再使用。包含調查和媒體模組資料。使用舊版 Adobe Analytics 填入的舊版影片報告。 | 文字 |
 | `page_type` | 用於填入[找不到頁面](/help/components/dimensions/pages-not-found.md)維度。專用於 404 頁。此變數應該為空白或包含值`ErrorPage`。 | char(20) |
-| `page_url` | 點擊的 URL。從連結追踪影像請求中刪除。 | varchar(255) |
+| `page_url` | 點擊的 URL。在其後變數(post_page_url)中，會移除連結追蹤影像要求的值。 | varchar(255) |
 | `pagename` | 用於填入[頁面](/help/components/dimensions/page.md)維度。如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
 | `paid_search` | 如果點擊符合付費搜尋偵測，則會設定此旗標。 | 不帶正負號的 tinyint |
 | `partner_plugins` | 未使用。屬於已報廢功能。 | varchar(255) |
