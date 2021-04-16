@@ -2,16 +2,16 @@
 description: 您可複製 eVar 的值至 prop，以啟用路徑。
 subtopic: Processing rules
 title: 將 eVar 值複製至 Prop 以判斷路徑
-topic: Admin tools
+feature: 管理工具
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '128'
+exl-id: 23c978b9-a159-4364-9214-561a255d23e4
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '130'
 ht-degree: 100%
 
 ---
-
 
 # 將 eVar 值複製至 Prop 以判斷路徑
 
@@ -34,4 +34,3 @@ ht-degree: 100%
 例如：
 
 ![](assets/overwrite-empty-prop.png)
-
