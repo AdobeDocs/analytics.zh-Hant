@@ -1,15 +1,15 @@
 ---
 description: 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
 title: 記錄檔
-topic: Admin tools
+feature: 管理工具
+exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
-source-git-commit: 9b56730548975435c5607428e4c71efda1d6a8d0
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 72%
 
 ---
-
 
 # 記錄檔
 
@@ -49,7 +49,7 @@ ht-degree: 72%
 | 警報已傳送 | 已傳送警報。 |
 | 使用者操作 | 已編輯用戶資訊。 |
 | 工具已檢視 | 已檢視工具。 |
-| Omniture 操作 | Adobe已執行動作。 |
+| Omniture 操作 | 操作由Adobe執行。 |
 | 密碼恢復 | 已恢復密碼。 |
 | 書籤 | 已管理書籤。 |
 | 控制面板 | 控制面板已管理。 |
@@ -60,9 +60,9 @@ ht-degree: 72%
 | 排程報告 | 已管理計畫報表。 |
 | 依 IP 排除 | IP設定已變更。 |
 | 命名頁面 | 已遭取代。 |
-| Classifications | 已管理分類。 |
+| 分類 | 已管理分類。 |
 | 資料來源 | 已管理資料來源。 |
-| Workspace 專案 | 已檢視或編輯工作區專案。 |
+| 工作區專案 | 已檢視或編輯工作區專案。 |
 | 區段 | 已建立／編輯區段。 |
 | 計算度量 | 已建立／編輯計算量度。 |
 | 日期範圍 | 已建立／編輯日期範圍。 |
@@ -87,6 +87,5 @@ ht-degree: 72%
 | 公司 | 依公司名稱篩選記錄檔。 |
 | 登入 | 依使用者名稱篩選記錄檔。 |
 | IP | 依 IP 位址篩選記錄檔。 |
-| Event | 依事件說明中的文字或片語篩選記錄檔。 |
+| 事件 | 依事件說明中的文字或片語篩選記錄檔。 |
 | 下載報表 | 將[!UICONTROL 「使用與存取記錄檔」]的內容匯出至以 Tab 分隔的檔案。 |
-
