@@ -1,17 +1,17 @@
 ---
-description: 您可使用一或多個可用的託管選項來部署 Dynamic Tag Management。
-keywords: Analytics Implementation;implementation method;dynamic tag management;dtm;hosting;hosting options;akamai;self hosting;self-hosting;ftp delivery;ftp hosting;library download
+description: 您可使用一或多個可用的託管選項來部署動態標籤管理。
+keywords: Analytics 實施;實施方法;Dynamic Tag Management;DTM;託管;託管選項;Akamai;自家託管;自家託管;FTP 傳送;FTP 託管;程式庫下載
 title: 設定託管選項
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 04268f2d-e76f-4fe4-8fcc-f0db3a016502
-translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
-workflow-type: ht
-source-wordcount: '515'
+exl-id: cef5205e-bb21-4d8d-862b-33dc800e1118
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '536'
 ht-degree: 100%
 
 ---
-
 
 # 設定託管選項
 
