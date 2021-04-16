@@ -1,17 +1,17 @@
 ---
 description: 瞭解使用「可選時間戳記」設定的好處與限制。
-keywords: Analytics Implementation
+keywords: Analytics 實作
 title: 使用可選時間戳記
-topic: Developer and implementation
+topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
+exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
 translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '618'
 ht-degree: 100%
 
 ---
-
 
 # 使用可選時間戳記
 
