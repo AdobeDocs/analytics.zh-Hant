@@ -1,16 +1,16 @@
 ---
 description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
 title: 新的報表套裝 - 設定
-topic: 管理工具
+feature: 管理工具
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
+exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 93%
 
 ---
-
 
 # 新的報表套裝 - 設定
 
@@ -68,4 +68,3 @@ ht-degree: 93%
   </tr>  
  </tbody> 
 </table>
-
