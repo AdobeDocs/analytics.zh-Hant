@@ -2,16 +2,16 @@
 description: 您可以比對值是否有常見的拼寫錯誤，並加以更新以便在報告中正確顯示。
 subtopic: Processing rules
 title: 清除報表中的值
-topic: Admin tools
+feature: 管理工具
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
-translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
-workflow-type: ht
-source-wordcount: '113'
+exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '115'
 ht-degree: 100%
 
 ---
-
 
 # 清除報表中的值
 
@@ -27,4 +27,3 @@ ht-degree: 100%
 例如：
 
 ![](assets/clean-up-values-in-report.png)
-
