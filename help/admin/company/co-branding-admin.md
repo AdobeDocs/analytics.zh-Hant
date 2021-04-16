@@ -1,13 +1,16 @@
 ---
 description: 「管理品牌結合影像」頁面可讓您在下載的報告中顯示自己公司的標誌。
 title: 品牌結合
-topic: Admin tools
+feature: 管理工具
 uuid: 918db633-44bb-4502-bd04-98a6337a166c
+exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '73'
+ht-degree: 100%
 
 ---
-
 
 # 品牌結合
 
