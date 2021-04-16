@@ -1,13 +1,16 @@
 ---
 description: 定義提供服務和產品 (這些服務和產品通常透過未來參與而售出) 相關資訊之網站的一般設定。
 title: 銷售機會開發
-topic: Admin tools
+feature: 管理工具
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
+exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 100%
 
 ---
-
 
 # 銷售機會開發
 
@@ -43,4 +46,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 | 頁面檢視 | 計數器 (無子關聯) | 不適用 |
 | 每日不重複訪客 | 計數器 (無子關聯) | 不適用 |
 | 不重複訪客 | 計數器 (無子關聯) | 不適用 |
-
