@@ -2,13 +2,16 @@
 description: 部署這項整合是一項簡單的程序，需要執行下列動作。
 subtopic: Qualtrics
 title: 部署整合
-topic: Data connectors
+feature: Data Connectors
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
+exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 98%
 
 ---
-
 
 # 部署整合{#deploying-the-integration}
 
@@ -33,7 +36,8 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 |  Qualtrics 回應清單  | 從報表套裝中選取可用的清單變數。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
 |---|---|
 |  Qualtrics 回應 ID  | 從報表套裝中選取可用的 eVar 或 Prop。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
-|  追蹤伺服器  | 提供您用來追蹤 Adobe Analytics 資料的追蹤伺服器 (網域) 設定。如果 `trackingServerSecure` 追蹤伺服器與標準追蹤伺服器設定不同，請使用該追蹤伺服器。|
+|  追蹤伺服器  | 提供您用來追蹤 Adobe Analytics 資料的追蹤伺服器 (網域) 設定。使用 
+`trackingServerSecure` 追蹤伺服器（如果它與標準追蹤伺服器設定不同）。|
 |  Qualtrics 調查提交  | 從報表套裝中選取可用事件 (您可能需要從報表套裝管理器中啟用新事件)。  |
 
 1. **精靈步驟 3**：不需要任何操作，僅提供資訊。
@@ -61,6 +65,7 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
 1. 選取「Adobe Analytics 設定」，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。如果沒有可用的設定，表示您可能尚未完成 Adobe 整合精靈。
    1. **[!UICONTROL 包含部分回應]**&#x200B;核取方塊可用來指定您希望在每個部分調查畫面完成後，將資料擷取至 Adobe Analytics 中。如果沒有勾選此方塊，則只會為全部完成的調查傳送資料。
    1. 只有在與已設為接收時間戳記資料的報表套裝 (不常見) 整合時，才應使用&#x200B;**[!UICONTROL 傳送含信標的時間戳記]**&#x200B;核取方塊。
+
    ![](assets/integration_config.png)
 
 ## 驗證整合{#verifying-the-integration}
@@ -82,5 +87,3 @@ source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
    >假設整合式調查正在主動接收回應，此資料應會在部署成功後 24-48 小時內顯示。
 
    ![](assets/verify-2.png) ![](assets/verify-3.png)
-
-
