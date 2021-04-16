@@ -1,17 +1,17 @@
 ---
 description: 虛擬報表套裝和多套裝標記各有不同優勢。請多加瞭解哪一種最適合您的組織。
-keywords: Virtual Report Suite,VRS
+keywords: 虛擬報表套裝，VRS
 title: 虛擬報表套裝和多套裝標記考量事項
-topic: Adobe Analytics
+feature: 報表套裝設定
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '1735'
-ht-degree: 100%
+exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
+translation-type: tm+mt
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '1742'
+ht-degree: 99%
 
 ---
-
 
 # 虛擬報表套裝和多套裝標記考量事項
 
