@@ -1,13 +1,16 @@
 ---
 description: Experience Cloud 中使用的貨幣代碼。
 title: 貨幣代碼
-topic: Admin tools
+feature: 管理工具
 uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
+exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
 translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+workflow-type: tm+mt
+source-wordcount: '635'
+ht-degree: 100%
 
 ---
-
 
 # 貨幣代碼
 
@@ -199,4 +202,3 @@ Experience Cloud 中使用的貨幣代碼。
 | SDG | 蘇丹鎊 |
 | VEF | 委內瑞拉強勢博利瓦 |
 | TMT | 土庫曼新馬納特 |
-
