@@ -1,16 +1,16 @@
 ---
 description: 「發佈清單」可讓您輕鬆地傳送您的組織內不同群組所專用的各種報告，而無須個別建立數個排程報告。若您具有區位性的報表套裝，而想為每個部門分別提供一份特定的控制面板，「發佈清單」將可派上用場。或者，若您處理的是單一報表套裝，您可以使用發佈清單將資料傳送給多人，而無須個別鍵入其電子郵件地址。
 title: 發佈清單
-topic: Admin tools
+feature: 管理工具
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
+exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
 translation-type: tm+mt
-source-git-commit: 4b6107fe57787e639fb06ef957d6230d1bc45bd1
+source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
-
 
 # 發佈清單
 
