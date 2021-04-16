@@ -5,7 +5,7 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
-source-git-commit: e4bfa3c523efc10d8ae7a32dc59861894ef0e1bf
+source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 54%
@@ -64,6 +64,9 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 要開啟項目的舊版：
 
 1. 前往&#x200B;**[!UICONTROL Project]** > **[!UICONTROL 開啟舊版]**
+
+   ![](assets/previous-versions.png)
+
 1. 檢視舊版可用的清單。
    [!UICONTROL 除了「注] 釋」外，還顯示「時間戳記」  和「編輯器」(Editor)  在「編輯器」(  Saved)時添加了它們。沒有備注的版本會儲存90天；含備注的版本會儲存1年。
 1. 選擇舊版，然後按一下&#x200B;**[!UICONTROL Load]**。
