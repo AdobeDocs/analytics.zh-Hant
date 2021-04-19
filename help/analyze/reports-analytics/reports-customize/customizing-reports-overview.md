@@ -2,16 +2,16 @@
 description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報表資料、變更以圖形呈現資料的方式、變更日期精細度等等。
 title: 自訂報表概觀
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: 報告與分析基礎
-role: 業務從業人員、管理員
+feature: 報告與分析基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '932'
 ht-degree: 99%
 
 ---
-
 
 # 自訂報表概觀
 
