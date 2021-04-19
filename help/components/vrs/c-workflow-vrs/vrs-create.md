@@ -2,14 +2,14 @@
 description: 開始建立虛擬報表套裝前，請謹記以下一些注意事項。
 keywords: 虛擬報表套裝
 title: 建立虛擬報表套裝
-feature: 報告與分析基礎
+feature: 報告與分析基礎與分析基礎
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 99%
+source-wordcount: '368'
+ht-degree: 98%
 
 ---
 
