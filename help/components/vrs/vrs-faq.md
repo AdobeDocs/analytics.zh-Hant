@@ -2,13 +2,13 @@
 description: 虛擬報表套裝新使用者適用的提示和最佳實務。
 keywords: 虛擬報表套裝
 title: VRS 常見問題集
-feature: 報告與分析基礎
+feature: 報告與分析基礎與分析基礎
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '906'
 ht-degree: 99%
 
 ---
