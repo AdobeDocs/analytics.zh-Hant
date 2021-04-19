@@ -1,16 +1,16 @@
 ---
 title: 報表
 description: Reports & Analytics 用於每個報表的維度和量度。
-feature: 報表 & Analytics 基本知識
-role: 業務從業人員、管理員
+feature: 報表 & Analytics基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 99%
 
 ---
-
 
 # 報表
 
