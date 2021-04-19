@@ -1,11 +1,15 @@
 ---
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-translation-type: ht
-source-wordcount: '547'
-ht-degree: 100%
+title: Analytics 工具的產品設定檔權限
+description: 使用Analytics工具權限項目來授與對Adobe Analytics內功能的存取權。
+exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 97%
 
 ---
+
 # Analytics 工具的產品設定檔權限
 
 Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能。Analytics 工具權限項目的適用對象不是報表套裝，而是整個 Adobe Analytics。
