@@ -2,14 +2,14 @@
 description: 瞭解如何在行銷管道中指定訪客參與有效期。
 subtopic: Marketing channels
 title: 行銷管道有效期
-feature: 報告與分析基礎
+feature: 報告與分析基礎與分析基礎
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 99%
+source-wordcount: '343'
+ht-degree: 98%
 
 ---
 
