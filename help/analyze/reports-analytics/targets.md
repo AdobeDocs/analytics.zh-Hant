@@ -2,16 +2,16 @@
 description: 目標可讓您測量網站績效並追蹤預設目標的進度。例如，您可能希望增加來自某一地理區域之訪客的數目、每個訂單的收入，或特定反向連結的點按次數。
 title: 目標
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: 報告與分析基礎
-role: 業務從業人員、管理員
+feature: 報告與分析基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '607'
 ht-degree: 99%
 
 ---
-
 
 # 目標
 
