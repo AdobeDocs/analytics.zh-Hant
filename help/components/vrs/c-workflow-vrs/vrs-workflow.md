@@ -2,13 +2,13 @@
 description: 計劃實作虛擬報表套裝所需步驟的概觀。
 keywords: 虛擬報表套裝
 title: 虛擬報表套裝工作流程
-feature: 報告與分析基礎
+feature: 報告與分析基礎與分析基礎
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 98%
 
 ---
