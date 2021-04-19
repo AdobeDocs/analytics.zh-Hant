@@ -33,12 +33,11 @@ ht-degree: 98%
    | Adobe SiteCatalyst 代號 | [產生您的 Qualtrics Adobe Analytics 代號](../qualtrics-overview/qualtrics-token.md) |
 
 1. **精靈步驟2 - 變數對應**
-|  Qualtrics 回應清單  | 從報表套裝中選取可用的清單變數。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
-|---|---|
-|  Qualtrics 回應 ID  | 從報表套裝中選取可用的 eVar 或 Prop。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
-|  追蹤伺服器  | 提供您用來追蹤 Adobe Analytics 資料的追蹤伺服器 (網域) 設定。使用 
-`trackingServerSecure` 追蹤伺服器（如果它與標準追蹤伺服器設定不同）。|
-|  Qualtrics 調查提交  | 從報表套裝中選取可用事件 (您可能需要從報表套裝管理器中啟用新事件)。  |
+   |  Qualtrics 回應清單  | 從報表套裝中選取可用的清單變數。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
+   |---|---|
+   |  Qualtrics 回應 ID  | 從報表套裝中選取可用的 eVar 或 Prop。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
+   |  追蹤伺服器  | 提供您用來追蹤 Adobe Analytics 資料的追蹤伺服器 (網域) 設定。使用 `trackingServerSecure` 追蹤伺服器（如果它與標準追蹤伺服器設定不同）。|
+   |  Qualtrics 調查提交  | 從報表套裝中選取可用事件 (您可能需要從報表套裝管理器中啟用新事件)。  |
 
 1. **精靈步驟 3**：不需要任何操作，僅提供資訊。
 
