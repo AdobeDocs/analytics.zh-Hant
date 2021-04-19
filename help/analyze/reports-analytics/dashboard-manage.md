@@ -3,16 +3,16 @@ description: 使用「控制面板管理員」可以複製、共用、封存和�
 subtopic: Dashboards
 title: 控制面板管理員
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: 報表
-role: 業務從業人員、管理員
+feature: 報告與分析基礎
+role: Business Practitioner, Administrator
+exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '795'
 ht-degree: 99%
 
 ---
-
 
 # 控制面板管理員
 
