@@ -2,12 +2,12 @@
 description: 如何在「Analysis Workspace」中使用資料表格、區段以及使用案例的範例。
 keywords: Analysis Workspace
 title: Analysis Workspace 的使用案例
-feature: 報告與分析基礎
+feature: 報告與分析基礎與分析基礎
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
 translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '523'
 ht-degree: 99%
 
 ---
