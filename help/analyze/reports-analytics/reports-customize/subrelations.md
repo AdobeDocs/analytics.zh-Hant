@@ -2,16 +2,16 @@
 description: 所有轉換報告都會啟用完全子關聯，因此您可以依據任何 eVar 劃分另一個 eVar。報告表格中的「劃分依據」功能表與標準的 Analytics 報告功能表相同，讓選擇能夠保持一致
 title: 子關聯
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: 報告與分析基礎
-role: 業務從業人員、管理員
+feature: 報告與分析基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '400'
 ht-degree: 98%
 
 ---
-
 
 # 子關聯
 
@@ -56,4 +56,3 @@ ht-degree: 98%
 * 隔離包含您於報表中檢視之成功事件的影像請求。
 * 從子關聯中使用的每個轉換變數傳回持續值。
 * 根據子關聯順序排列值。如果變數不具有持續值 (例如假設 eVar 從未定義或過期)，則會分類至「無」下方。
-
