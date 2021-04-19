@@ -2,16 +2,16 @@
 description: 說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
 title: 變更報表圖表
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: 報告與分析基礎
-role: 業務從業人員、管理員
+feature: 報告與分析基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 98%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
-
 
 # 變更報表圖表
 
@@ -68,4 +68,3 @@ ht-degree: 98%
    **[!UICONTROL 泡泡圖]**：泡泡圖顯示所選度量彼此相對的泡泡圖形。泡泡的位置顯示水平軸和垂直軸上度量之間的關係，而泡泡大小表示報告度量的重要程度。泡泡圖以兩維方式形象化資料，藉此您可識別那些無關的項目。
 
    ![](assets/graph_bubble.png)
-
