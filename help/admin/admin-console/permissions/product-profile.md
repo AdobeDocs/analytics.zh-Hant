@@ -1,11 +1,15 @@
 ---
-source-git-commit: 03b1195225b97f3ea151eb5b4f39fbed746b3654
-workflow-type: ht
-translation-type: ht
-source-wordcount: '646'
-ht-degree: 100%
+title: Adobe Analytics 產品設定檔
+description: 瞭解如何將產品設定檔當做權限預設集使用，讓產品管理員可指派給組織內的使用者。
+exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
+translation-type: tm+mt
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 97%
 
 ---
+
 # Adobe Analytics 產品設定檔
 
 產品設定檔是產品管理員指派組織內各使用者的權限預設集。如果您建立產品設定檔，並將將 Experience Cloud 使用者指派到該產品設定檔，對方會繼承產品設定檔中包含的權限項目。
