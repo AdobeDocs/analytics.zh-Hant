@@ -3,14 +3,14 @@ description: 本節說明資料摘要傳送中所含的檔案。
 keywords: 資料饋送；job;contents;manifest;file;lookup;hit data;delivery contents
 subtopic: data feeds
 title: 資料摘要內容 - 概觀
-feature: 報告與分析基礎
+feature: 報告與分析基礎與分析基礎
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
-source-git-commit: 05c85e0eee25a04be154d8bcae9b133791667d75
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 98%
+source-wordcount: '748'
+ht-degree: 97%
 
 ---
 
