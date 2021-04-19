@@ -2,16 +2,16 @@
 description: 量度是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 title: 量度
 uuid: ae2021eb-8b26-4a98-b7a0-ce36bca46753
-feature: 報告與分析基礎
-role: 業務從業人員、管理員
+feature: 報告與分析基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '376'
 ht-degree: 98%
 
 ---
-
 
 # 量度
 
@@ -47,4 +47,3 @@ t_metrics_set_default.xml
 * 如果您在報告之間切換，則沿用的會是在最近檢視過的報告中顯示的度量。若要在該新報告中顯示預設度量，請按一下[!UICONTROL 新增度量]下拉式清單，然後按一下[!UICONTROL 顯示預設值]。
 
 * 按一下[!UICONTROL 清除預設]會移除該報告的預設度量，並將它們回復成該報告的原始預設度量 (如果是 Prop，即為[!UICONTROL 頁面檢視]，如果是 eVar，則為您在「管理工具」中設定的任何度量)。
-
