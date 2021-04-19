@@ -1,16 +1,16 @@
 ---
 description: 開始使用 Reports & Analytics 前，請先了解這些基本的登入和設定工作，以及如何存取帳戶資訊。
 title: Reports & Analytics 快速入門
-feature: 報告與分析基礎
-role: 業務從業人員、管理員
+feature: 報告與分析基礎與分析基礎
+role: Business Practitioner, Administrator
+exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 99%
 
 ---
-
 
 # 開始使用 Reports &amp; Analytics
 
