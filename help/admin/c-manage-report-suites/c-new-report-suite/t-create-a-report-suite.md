@@ -1,7 +1,7 @@
 ---
 description: 在Adobe Analytics建立基本的資料收集容器
 title: 建立報表套裝
-feature: 管理工具
+feature: Admin Tools
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

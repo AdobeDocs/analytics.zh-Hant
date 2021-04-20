@@ -3,7 +3,7 @@ description: '使用「自訂運算式」設定日期範圍時，有兩項重要
 title: 自訂日期考量事項
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

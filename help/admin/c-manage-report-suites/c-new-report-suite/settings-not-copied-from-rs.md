@@ -1,7 +1,7 @@
 ---
 description: 如果從現有報表套裝複製設定，會出現系統訊息，指出不會複製至新報表套裝的設定。
 title: 並非從來源報表套裝複製的設定
-feature: 管理工具
+feature: Admin Tools
 uuid: 5176c561-a278-43e4-837f-a17759985d52
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
 translation-type: tm+mt

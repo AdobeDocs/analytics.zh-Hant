@@ -3,7 +3,7 @@ description: 連結報表會報告在目前頁面上找到的連結。並不會�
 title: 連結報表
 uuid: 1e7ca5d8-d144-4a21-a2f9-e05bd3232c59
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

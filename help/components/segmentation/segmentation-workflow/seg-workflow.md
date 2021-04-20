@@ -1,7 +1,7 @@
 ---
 description: 針對以「區段產生器」建立並透過「區段管理員」管理的區段，說明建議的工作流程。
 title: 區段工作流程概觀
-feature: 區段
+feature: Segmentation
 uuid: e15aaa2f-a604-46dd-9bdd-e2a340c74927
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 translation-type: tm+mt

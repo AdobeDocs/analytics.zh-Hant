@@ -3,7 +3,7 @@ description: 您可以為報表命名，以及設定列和欄標題的顯示方�
 title: 顯示標題格式
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

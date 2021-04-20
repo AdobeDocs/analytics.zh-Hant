@@ -3,7 +3,7 @@ description: 您可以排程報表以按照定義的時間和檔案格式傳送�
 title: 排程資料請求
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

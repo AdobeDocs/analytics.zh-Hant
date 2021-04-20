@@ -3,7 +3,7 @@ description: 建立基本 Report Builder 資料請求的步驟。
 title: 建立資料請求
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

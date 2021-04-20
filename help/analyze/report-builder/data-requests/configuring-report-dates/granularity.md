@@ -3,7 +3,7 @@ description: '在「請求精靈: 步驟 1」中，您可以將粒度等級套�
 title: 粒度
 uuid: 948b3ff2-fcff-45fc-9e8c-8a025ac562b1
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

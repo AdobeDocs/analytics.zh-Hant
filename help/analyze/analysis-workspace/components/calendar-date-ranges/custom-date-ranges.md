@@ -3,8 +3,8 @@ description: 在 Analysis Workspace 中建立自訂日期範圍，並將其儲�
 keywords: Analysis Workspace
 title: 建立自訂日期範圍
 uuid: c8873d41-454d-4f22-ad1f-38cacec5a3bc
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

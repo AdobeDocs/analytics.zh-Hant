@@ -3,7 +3,7 @@ description: '「請求精靈: 步驟 2」視窗能讓您設定報表配置、�
 title: 配置 - 請求精靈步驟 2
 uuid: 92409e22-8b21-4827-af2f-bfef8368e0f7
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

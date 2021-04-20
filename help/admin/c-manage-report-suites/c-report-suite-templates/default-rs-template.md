@@ -1,7 +1,7 @@
 ---
 description: 設定典型網站的數個一般變數和成功事件。
 title: 預設範本
-feature: 管理工具
+feature: Admin Tools
 uuid: edcf1b97-4ff2-4e98-b84c-199af2181d68
 exl-id: 36aaded4-5c46-41af-a5c6-216bd2fcadb2
 translation-type: tm+mt

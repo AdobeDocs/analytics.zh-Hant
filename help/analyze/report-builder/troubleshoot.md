@@ -3,7 +3,7 @@ description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而
 title: Report Builder 的疑難排解和最佳作法
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

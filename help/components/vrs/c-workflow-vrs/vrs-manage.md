@@ -2,7 +2,7 @@
 description: 「虛擬報表套裝管理器」可以讓管理員編輯、新增、標記、刪除、重新命名、批准、複製、匯出以及篩選虛擬報表套裝。但不會顯示給非管理員使用者。
 keywords: 虛擬報表套裝
 title: 管理虛擬報表套裝
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: ce683c01-2d7d-4f2a-98db-946f68eda99b
 exl-id: b6d58456-bd07-4d97-aff8-216e8440fdc0
 translation-type: tm+mt

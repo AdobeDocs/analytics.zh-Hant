@@ -2,7 +2,7 @@
 description: 步驟說明如何從一個使用者帳戶將使用者帳戶項目 (控制面板、計算量度、日曆事件、警報、書籤、區段、Analysis Workspace 專案及已排程專案) 指派到另一個使用者的帳戶。
 subtopic: Users and groups
 title: 轉移使用者帳戶項目
-feature: 管理工具
+feature: Admin Tools
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
 translation-type: tm+mt

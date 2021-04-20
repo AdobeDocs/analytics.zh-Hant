@@ -3,7 +3,7 @@ description: 安裝程序視您使用的瀏覽器種類而異。
 title: 安裝 Activity Map 瀏覽器外掛程式
 uuid: b5c07718-e25c-4ba9-885d-3a2a47dd9f60
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

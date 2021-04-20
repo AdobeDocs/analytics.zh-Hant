@@ -2,8 +2,8 @@
 description: 您可以組織、共用和排定 PDF/CSV 專案給組織中的收件者。
 title: 共用功能表
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: 組織與分享
-role: 業務從業人員、管理員
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

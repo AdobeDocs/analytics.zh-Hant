@@ -2,7 +2,7 @@
 description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 translation-type: tm+mt

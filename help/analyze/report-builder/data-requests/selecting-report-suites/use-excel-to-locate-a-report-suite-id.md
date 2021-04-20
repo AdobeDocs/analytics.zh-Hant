@@ -3,7 +3,7 @@ description: 如果您不知道報表套裝的 ID，可以將「報表套裝」�
 title: 使用 Excel 來找出報表套裝 ID
 uuid: 087d5720-f438-4db3-bebb-e6452f1f2ba6
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

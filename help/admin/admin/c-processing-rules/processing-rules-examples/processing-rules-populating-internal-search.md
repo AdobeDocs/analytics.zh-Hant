@@ -2,7 +2,7 @@
 description: 如果要使用通用變數 (例如 q) 填入搜尋詞，您可使用處理規則來以這些值填入內部搜尋詞 eVar。
 subtopic: Processing rules
 title: 使用查詢字串參數填入內部搜尋詞
-feature: 管理工具
+feature: Admin Tools
 uuid: 05ae2b0a-8797-468c-8f59-643beac614c5
 exl-id: bc7cc712-0f2a-4260-a82c-ad0e48149e73
 translation-type: tm+mt

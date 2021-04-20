@@ -3,7 +3,7 @@ description: 在「選項」面板，您可以指定日期設定、延遲設定 
 title: Report Builder 選項
 uuid: f2920dee-4245-4617-a02e-03726dde2bb5
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

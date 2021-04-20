@@ -3,7 +3,7 @@ description: 協助您了解 Report Builder 工具列之按鈕功能的資訊。
 title: Report Builder 工具列
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

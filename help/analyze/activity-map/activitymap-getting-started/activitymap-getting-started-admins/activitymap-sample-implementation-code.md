@@ -2,7 +2,7 @@
 description: 如何在 Adobe Analytics 實作程式碼中合併 AppMeasurement 程式庫和 Activity Map 模組的範例
 title: 檢視 Activity Map 實作程式碼的範例
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

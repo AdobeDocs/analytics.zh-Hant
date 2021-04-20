@@ -3,7 +3,7 @@ description: 下載及編輯共用的活頁簿。
 title: 下載活頁簿
 uuid: 8b69254f-4769-433a-9957-fad788447aa6
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

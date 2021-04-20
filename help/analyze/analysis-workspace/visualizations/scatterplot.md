@@ -1,8 +1,8 @@
 ---
 title: 散點圖
 description: 顯示與最多三個量度之間關係的視覺效果。
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 'Activity Map 使用更強大的演算法來追蹤連結，具有�
 title: 強大的連結追蹤
 uuid: a72b1652-2e69-41c7-8cf2-d39e9c705302
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

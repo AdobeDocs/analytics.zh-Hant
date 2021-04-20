@@ -2,7 +2,7 @@
 description: 說明如何傳送電子郵件訊息給公司中所有使用者的步驟。
 subtopic: Users and groups
 title: 電子郵件使用者
-feature: 管理工具
+feature: Admin Tools
 uuid: c44a1398-dba4-4edc-9b90-b0ceb9da395c
 exl-id: 4f3abfa1-d652-4cda-b68f-a21fff4f62c4
 translation-type: tm+mt

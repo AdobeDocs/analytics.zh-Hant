@@ -3,7 +3,7 @@ description: 資料摘要中所使用之特殊字元的相關資訊。
 keywords: 資料饋送；job；特殊字元；hit_data；多值變數；events_list;products_list;mvvars
 subtopic: data feeds
 title: 資料摘要中的特殊字元
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 5efe019b-39e6-4226-a936-88202a02f5e6
 exl-id: b816ebc5-0b23-4420-aa8c-b88953d031e6
 translation-type: tm+mt

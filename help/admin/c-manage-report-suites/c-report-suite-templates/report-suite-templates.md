@@ -1,7 +1,7 @@
 ---
 description: 報表套裝範本會設定數種報表套裝最常用的設定。
 title: 報表套裝範本概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: 5717863f-208d-44b5-8bc5-c286beccf8ff
 exl-id: c329f73f-af91-4f0a-9e9e-ae17fcf2899f
 translation-type: tm+mt

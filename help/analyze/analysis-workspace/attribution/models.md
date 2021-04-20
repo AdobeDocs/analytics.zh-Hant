@@ -1,8 +1,8 @@
 ---
 title: 歸因模型與回顧期間
 description: 不同類型的歸因將評分分配給維度項目的方式。
-feature: 出處
-role: 業務從業人員、管理員
+feature: Attribution
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

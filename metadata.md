@@ -3,7 +3,7 @@ cloud: Experience Cloud
 product: analytics
 solution: Analytics
 git-repo: https://git.corp.adobe.com/AdobeDocs/analytics.zh-Hant
-type: 文件
+type: Documentation
 index: true
 feature-set: Analytics
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 title: 區段比較面板概述
 description: 瞭解如何使用 Analysis Workspace 中區段 IQ 的區段比較面板。
 keywords: Analysis Workspace, 區段 IQ
-feature: 面板
-role: 業務從業人員、管理員
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

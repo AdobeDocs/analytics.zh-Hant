@@ -1,7 +1,7 @@
 ---
 description: 報表套裝類型說明以及全域報表套裝和統計報表套裝的比較。
 title: 報表套裝方法
-feature: 管理工具
+feature: Admin Tools
 uuid: c90b8e38-2c95-4318-8165-a362106b6142
 exl-id: 97bdc9bd-2212-436b-b3b4-ec518624f9e6
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: 說明將篩選條件套用至路徑報表的步驟。
 title: 使用請求精靈篩選路徑報表
 uuid: 9b22d5b5-7ae8-49a2-90ae-0c1075562bbe
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

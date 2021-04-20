@@ -1,7 +1,7 @@
 ---
 description: 說明如何設定「付費搜尋偵測」的步驟。
 title: 設定付費搜尋偵測
-feature: 管理工具
+feature: Admin Tools
 uuid: adfce60d-a762-46bd-8314-f876baf02a25
 exl-id: a602a84c-f12f-4c98-a477-f59ea993e662
 translation-type: tm+mt

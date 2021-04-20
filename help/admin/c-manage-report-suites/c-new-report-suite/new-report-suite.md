@@ -1,7 +1,7 @@
 ---
 description: 您可以選取預先定義的範本，或使用其中一個現有的報表套裝作為模型，來建立新的報表套裝。
 title: 新的報表套裝 - 設定
-feature: 管理工具
+feature: Admin Tools
 uuid: 3508f684-11a3-4c8f-a233-bea6bafd57c0
 exl-id: ea5f8543-058d-4e08-bc66-575e3a7460c2
 translation-type: tm+mt

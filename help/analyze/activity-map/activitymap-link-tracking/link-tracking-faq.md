@@ -3,7 +3,7 @@ description: 關於 Activity Map 中連結追蹤的常問問題。
 title: 連結追蹤常見問題集
 uuid: 10172073-b98b-4950-8397-67a18b37b3b4
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

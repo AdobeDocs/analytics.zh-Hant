@@ -2,7 +2,7 @@
 description: Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓您將分類套用到分類。
 subtopic: Classifications
 title: 關於子分類
-feature: 管理工具
+feature: Admin Tools
 uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
 translation-type: tm+mt

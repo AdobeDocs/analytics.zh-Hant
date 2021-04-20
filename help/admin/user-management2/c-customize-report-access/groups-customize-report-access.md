@@ -3,7 +3,7 @@ description: 自訂分析工具、報表套裝工具、量度和維度的群組�
 keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂報表存取 - 概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
 translation-type: tm+mt

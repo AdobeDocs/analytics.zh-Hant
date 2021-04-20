@@ -2,8 +2,8 @@
 title: 區段 IQ 概述
 description: 瞭解何為 Adobe Analytics 區段 IQ，以及此 IQ 可為您的組織提供的協助。
 keywords: Analysis Workspace, 區段 IQ
-feature: AI工具
-role: 業務從業人員、管理員
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 說明資料摘要中欄的表格資料。
 keywords: 資料摘要；欄
 subtopic: data feeds
 title: 資料欄參考
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 translation-type: tm+mt

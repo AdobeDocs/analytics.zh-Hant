@@ -2,7 +2,7 @@
 description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
 title: 編輯多個請求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

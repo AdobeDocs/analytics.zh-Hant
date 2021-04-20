@@ -3,7 +3,7 @@ description: 對於「樞紐配置」或「自訂配置」請求中的數值或�
 title: 在儲存格的開頭或結尾附加文字
 uuid: d31af8a7-67fb-435f-80d1-dee7acb3411e
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

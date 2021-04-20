@@ -2,8 +2,8 @@
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: 自由表格
-role: 業務從業人員、管理員
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

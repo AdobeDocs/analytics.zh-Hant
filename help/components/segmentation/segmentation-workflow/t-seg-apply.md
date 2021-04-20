@@ -1,7 +1,7 @@
 ---
 description: 如何從區段邊欄套用一或多個區段至報表。
 title: 選擇與套用區段
-feature: 區段
+feature: Segmentation
 uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
 translation-type: tm+mt

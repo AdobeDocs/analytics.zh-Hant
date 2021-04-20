@@ -1,7 +1,7 @@
 ---
 description: 「持久流量」區段可讓您變更預期的流量級別，讓 Adobe 可以重新分派資源以處理新的流量級別。
 title: 指定永久性流量增加
-feature: 管理工具
+feature: Admin Tools
 uuid: 53acbe97-7f63-4608-b2f3-bd885eae7e6d
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 translation-type: tm+mt

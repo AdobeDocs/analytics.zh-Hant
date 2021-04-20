@@ -1,7 +1,7 @@
 ---
 description: 依標記、擁有者和其他篩選器 (「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」) 進行篩選。
 title: 篩選區段
-feature: 區段
+feature: Segmentation
 uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
 translation-type: tm+mt

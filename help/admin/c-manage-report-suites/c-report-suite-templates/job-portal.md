@@ -1,7 +1,7 @@
 ---
 description: 定義工作入口網站或職位搜尋網站的一般設定。
 title: 工作入口網站
-feature: 管理工具
+feature: Admin Tools
 uuid: c33a8e30-eea6-45f5-9568-d64c6753855e
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 translation-type: tm+mt

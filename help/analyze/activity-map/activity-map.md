@@ -3,7 +3,7 @@ description: Activity Map 是一種 Adobe Analytics 應用程式，專門設定�
 title: Activity Map 概觀
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 在「區段管理器」內，您可以設立工作流程來核准適合各種應用層級、適合特定的部門或群組、且符合報表原則的區段。
 title: 核准區段
-feature: 區段
+feature: Segmentation
 uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
 translation-type: tm+mt

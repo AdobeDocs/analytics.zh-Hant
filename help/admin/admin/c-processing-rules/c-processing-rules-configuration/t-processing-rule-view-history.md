@@ -2,7 +2,7 @@
 description: 可在「歷史」中檢視處理規則的各項變動。
 subtopic: Processing rules
 title: 檢視處理規則歷史記錄
-feature: 管理工具
+feature: Admin Tools
 uuid: 8020d27b-8c9d-4caf-92c2-03adba76a94b
 exl-id: 29587190-9243-4480-a7dc-6293cbcb2007
 translation-type: tm+mt

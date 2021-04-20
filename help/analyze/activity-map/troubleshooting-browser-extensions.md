@@ -3,7 +3,7 @@ description: 列出與使用 Activity Map 不相容的瀏覽器參數。請停�
 title: 疑難排解瀏覽器延伸模組
 uuid: ae7acb98-4728-45af-8cb4-62a1e9622543
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

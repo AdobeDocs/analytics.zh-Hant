@@ -1,7 +1,7 @@
 ---
 description: 您可以指定一組要用來追蹤及報告影片相關資料的自訂轉換變數 (eVar) 與自訂事件。
 title: 影片管理
-feature: 管理工具
+feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 translation-type: tm+mt

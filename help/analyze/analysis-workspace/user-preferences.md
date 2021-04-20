@@ -1,7 +1,7 @@
 ---
 title: 如何設定 Analysis Workspace 內的用戶偏好設定
 description: 您可以設定用戶的一般和專案偏好設定。
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 translation-type: tm+mt

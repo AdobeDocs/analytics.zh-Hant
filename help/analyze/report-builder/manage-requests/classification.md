@@ -3,7 +3,7 @@ description: 分類劃分是用於映射可回報資料的分析到相關屬性�
 title: 分類
 uuid: c64ede6e-ce11-48c0-944d-dc365809d673
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 在經由編輯或篩選來更新請求後，或需要檢視最新�
 title: 重新整理請求
 uuid: bb94fcc6-027b-4134-adc8-56a1ea7cc56b
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

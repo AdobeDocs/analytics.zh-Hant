@@ -3,7 +3,7 @@ description: 開始日期和結束日期的縮寫。
 title: 個別的開始日期或結束日期
 uuid: b161948c-c71c-4757-8348-15577fc61042
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

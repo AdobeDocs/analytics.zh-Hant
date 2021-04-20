@@ -2,7 +2,7 @@
 description: 「使用者管理」頁面上的「管理報表使用者和群組」可讓您管理使用者和群組，以及控制對報表、工具和報表套裝的存取。
 subtopic: Users and groups
 title: 使用者管理概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: 6f1d67cd-e169-461b-9f08-eec2c6b4e6df
 exl-id: 0c722098-4888-4827-b3b1-2eb45c7d43f3
 translation-type: tm+mt

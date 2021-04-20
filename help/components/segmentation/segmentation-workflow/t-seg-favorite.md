@@ -1,7 +1,7 @@
 ---
 description: 要組織區段以方便使用，將區段標記為我的最愛是另一種方法。
 title: 將區段標示為最愛
-feature: 區段
+feature: Segmentation
 uuid: 0bc1f19c-4ab1-47a2-8dd4-9aa0015846ed
 exl-id: 7586066c-b6bc-4e24-9946-0983bb34dc3f
 translation-type: tm+mt

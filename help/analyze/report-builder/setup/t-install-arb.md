@@ -3,7 +3,7 @@ description: 說明 Report Builder 的安裝步驟。
 title: 安裝 Report Builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

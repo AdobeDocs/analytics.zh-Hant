@@ -1,7 +1,7 @@
 ---
 description: 在單一報表套裝中，結合時間戳記與非時間戳記資料。
 title: 可選時間戳記
-feature: 管理工具
+feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
 translation-type: tm+mt

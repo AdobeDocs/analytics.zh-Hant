@@ -3,7 +3,7 @@ description: 在建立含內嵌請求的報表後，您可以將格式化的條�
 title: 指定格式化的條件
 uuid: 13ac12f1-3498-4bf9-a6d0-c5d84e0125dc
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

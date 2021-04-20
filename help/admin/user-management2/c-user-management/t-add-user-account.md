@@ -2,7 +2,7 @@
 description: 說明如何新增使用者帳戶的步驟。
 subtopic: Users and groups
 title: 新增使用者帳戶
-feature: 管理工具
+feature: Admin Tools
 uuid: 7ce9408b-d934-40df-ada4-55d98e36aa6e
 exl-id: b81f175d-5684-4eb4-b63b-9ee889fe76f1
 translation-type: tm+mt

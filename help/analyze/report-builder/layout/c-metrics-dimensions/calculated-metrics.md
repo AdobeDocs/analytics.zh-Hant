@@ -2,7 +2,7 @@
 description: Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 title: 計算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

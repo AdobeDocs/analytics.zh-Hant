@@ -3,7 +3,7 @@ description: 將度量和維度新增至請求的步驟。
 title: 新增度量和維度
 uuid: 588ce96b-3a2d-42b7-8a8e-7e6f448a0115
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

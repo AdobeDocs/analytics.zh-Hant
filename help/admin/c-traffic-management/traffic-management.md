@@ -1,7 +1,7 @@
 ---
 description: 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。
 title: 管理流量
-feature: 管理工具
+feature: Admin Tools
 uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 translation-type: tm+mt

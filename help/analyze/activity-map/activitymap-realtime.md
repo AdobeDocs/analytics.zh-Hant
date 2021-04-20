@@ -2,7 +2,7 @@
 description: 即時頁面分析 (即時模式) 可讓您即時取得分鐘粒度的結果。
 title: 即時頁面分析
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

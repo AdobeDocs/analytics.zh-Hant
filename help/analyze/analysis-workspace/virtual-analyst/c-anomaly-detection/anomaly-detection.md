@@ -2,8 +2,8 @@
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI工具
-role: 業務從業人員、管理員
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

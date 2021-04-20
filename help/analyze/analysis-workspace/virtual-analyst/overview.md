@@ -1,8 +1,8 @@
 ---
 title: Virtual Analyst
 description: 了解 Adobe Analytics 中的哪些功能對 Virtual Analyst 有幫助。
-feature: AI工具
-role: 業務從業人員、管理員
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

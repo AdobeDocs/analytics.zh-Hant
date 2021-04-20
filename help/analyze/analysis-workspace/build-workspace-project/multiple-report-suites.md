@@ -1,8 +1,8 @@
 ---
 title: 多報表套裝
 description: 了解在有多個報表套裝的工作區中建立專案的方法及原因
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

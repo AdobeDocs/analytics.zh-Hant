@@ -2,7 +2,7 @@
 description: 說明定義所有報表顯示方式的設定，以及將預設功能表選項對應至其簡化功能表中各個位置的資訊。
 title: 報表顯示設定和導覽
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

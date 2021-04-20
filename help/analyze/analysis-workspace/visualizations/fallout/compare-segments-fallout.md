@@ -3,8 +3,8 @@ description: 您可以從接觸點建立區段、新增區段做為接觸點，�
 keywords: 流失和分段, 流失分析中的區段, 比較流失中的區段
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

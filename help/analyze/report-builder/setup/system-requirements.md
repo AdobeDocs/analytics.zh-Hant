@@ -3,7 +3,7 @@ description: 系統建議與必要條件。
 title: 系統要求
 uuid: b86e728a-1b9d-4a3f-9c0e-1e248fd1979d
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

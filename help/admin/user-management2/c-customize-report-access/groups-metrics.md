@@ -3,7 +3,7 @@ description: 為流量量度、轉換量度、自訂事件、解決方案事件�
 keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂量度權限
-feature: 管理工具
+feature: Admin Tools
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 description: 可在管理中檢視作用中的處理規則。
 subtopic: Processing rules
 title: 檢視作用中的處理規則
-feature: 管理工具
+feature: Admin Tools
 uuid: be85c0a8-574e-448f-9bcc-7e9b81de5e4a
 exl-id: 04a845b4-939c-4d62-9dc5-855d4fe38370
 translation-type: tm+mt

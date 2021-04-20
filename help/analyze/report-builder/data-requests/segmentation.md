@@ -3,7 +3,7 @@ description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe
 title: 管理區段
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 「排程任務管理員」的欄位說明。
 title: 排程任務管理員
 uuid: dec259f0-2a04-4c94-abbc-5008cf2f1cb8
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

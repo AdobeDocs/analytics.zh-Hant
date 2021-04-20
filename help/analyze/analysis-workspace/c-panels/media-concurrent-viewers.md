@@ -1,8 +1,8 @@
 ---
 title: 媒體同時檢閱者面板
 description: 如何使用和解譯Analysis Workspace的「媒體併發檢視器」面板。
-feature: 面板
-role: 業務從業人員、管理員
+feature: Panels
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

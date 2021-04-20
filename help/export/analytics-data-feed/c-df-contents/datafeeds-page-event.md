@@ -2,7 +2,7 @@
 description: 查閱表格以根據 page_event 值來判斷點擊的類型。
 keywords: 資料饋送；page;event;page_event;post_page_event
 title: 頁面事件查閱
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt

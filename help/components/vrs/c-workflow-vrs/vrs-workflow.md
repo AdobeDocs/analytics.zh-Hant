@@ -2,7 +2,7 @@
 description: 計劃實作虛擬報表套裝所需步驟的概觀。
 keywords: 虛擬報表套裝
 title: 虛擬報表套裝工作流程
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 translation-type: tm+mt

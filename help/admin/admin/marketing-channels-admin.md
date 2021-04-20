@@ -1,7 +1,7 @@
 ---
 description: 「行銷管道」一般主要是針對訪客進入您網站的情形，提供深入分析。您可以根據要追蹤的管道及追蹤方式，建立及自訂行銷管道處理規則。
 title: 行銷管道
-feature: 管理工具
+feature: Admin Tools
 uuid: 05a74391-b694-4ed3-9793-5538d6373db2
 exl-id: d9721fb9-2aa4-4db0-8030-cc7907bd953c
 translation-type: tm+mt

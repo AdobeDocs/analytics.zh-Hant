@@ -3,7 +3,7 @@ description: 協助您從現有請求選擇報表套裝的步驟。
 title: 從 Excel 中的現有請求選擇報表套裝
 uuid: 92fe4823-6b8a-4178-9c94-fb4f5e03e4a5
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 啟用應用程式管理會啟用行動解決方案變數，於以擷取行動應用程式中的生命週期及其他量度。
 title: 應用程式管理
-feature: 管理工具
+feature: Admin Tools
 exl-id: ec19695a-2961-45e4-bf44-434f0ff9e3c9
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

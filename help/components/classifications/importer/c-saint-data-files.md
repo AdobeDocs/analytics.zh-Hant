@@ -2,7 +2,7 @@
 description: 匯入工具可讓您大量上傳分類資料至檔案中的分析報告。匯入功能須有特定的檔案格式才能成功上傳資料。
 subtopic: Classifications
 title: 分類資料檔案
-feature: 管理工具
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

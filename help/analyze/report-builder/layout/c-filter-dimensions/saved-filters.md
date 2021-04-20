@@ -3,7 +3,7 @@ description: 您可以將篩選或其他參數儲存在 Report Builder 中，然
 title: 儲存的篩選
 uuid: 78702a7e-7b52-4390-a35e-fd332e52c31c
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

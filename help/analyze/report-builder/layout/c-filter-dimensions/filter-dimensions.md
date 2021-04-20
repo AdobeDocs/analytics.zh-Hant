@@ -3,7 +3,7 @@ description: 您可以篩選新增至「列標籤」格線的維度。篩選能�
 title: 篩選維度概觀
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

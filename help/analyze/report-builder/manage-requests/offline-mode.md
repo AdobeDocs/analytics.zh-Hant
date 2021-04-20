@@ -3,7 +3,7 @@ description: 離線模式會傳回預留位置資料，以加速建立及編輯�
 title: 以離線模式建立及編輯請求
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

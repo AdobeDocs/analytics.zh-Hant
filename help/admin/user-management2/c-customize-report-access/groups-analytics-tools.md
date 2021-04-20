@@ -3,7 +3,7 @@ description: 啟用「一般」項目 (帳單、日誌等)、公司管理、工�
 keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂 Analytics 工具權限
-feature: 管理工具
+feature: Admin Tools
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
 translation-type: tm+mt

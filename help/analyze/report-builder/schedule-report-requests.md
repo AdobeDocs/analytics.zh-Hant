@@ -3,7 +3,7 @@ description: 您可以排程報表請求、指定進階傳送選項、指定收�
 title: 排程報表請求
 uuid: d9b65b82-1975-403b-bc50-f22cfea6019f
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,8 +2,8 @@
 description: 討論分頁、篩選及排序的影片。
 title: 表格分頁、篩選及分類
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: 自由表格
-role: 業務從業人員、管理員
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

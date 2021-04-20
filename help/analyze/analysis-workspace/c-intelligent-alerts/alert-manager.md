@@ -2,8 +2,8 @@
 description: 建立、編輯或刪除警報。
 title: 警報管理器
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI工具
-role: 業務從業人員、管理員
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

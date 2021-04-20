@@ -3,7 +3,7 @@ description: 現在，所有書籤化報表與控制面板報表都已列為「�
 title: 匯入書籤化報表與控制面板報表
 uuid: 0fdbdb2e-5db7-4f64-b571-23482ba3606d
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

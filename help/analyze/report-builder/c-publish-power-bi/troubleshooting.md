@@ -3,7 +3,7 @@ description: 使用Report Builder與Power BI時的常見問題。
 title: 疑難排解 Power BI 的整合問題
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 description: 機器人規則可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。
 subtopic: Bot rules
 title: 機器人規則概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
 translation-type: tm+mt

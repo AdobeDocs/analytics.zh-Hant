@@ -1,7 +1,7 @@
 ---
 description: 「尋找方法」頁面可識別不同的尋找方法報告如何接收網站上轉換成功事件的評價。例如，如果某個訪客透過搜尋引擎進入您的網站並進行購買，則由「尋找方法」指定搜尋引擎接收反向連結評價的方式。
 title: 尋找方法
-feature: 管理工具
+feature: Admin Tools
 uuid: 1053993e-7fc4-4874-84fa-367ecdcd7b45
 exl-id: 58c4510c-2343-4b0a-9c09-5583f6d4250f
 translation-type: tm+mt

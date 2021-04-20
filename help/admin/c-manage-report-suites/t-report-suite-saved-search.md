@@ -1,7 +1,7 @@
 ---
 description: 說明如何定義一組準則，用以決定報表套裝搜尋成員的步驟。
 title: 儲存報表套裝搜尋
-feature: 管理工具
+feature: Admin Tools
 uuid: dd83eed6-1374-429c-9fc3-709055698a44
 exl-id: 67744e7f-7f78-46c6-9faf-4d410f2deec8
 translation-type: tm+mt

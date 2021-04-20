@@ -2,8 +2,8 @@
 description: 列設定依您拖放至表格中的元件而異。
 title: 列設定
 uuid: f30c31d5-1fd4-4b93-94c3-ca441099fe2e
-feature: 自由表格
-role: 業務從業人員、管理員
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Report Builder 中遞延日期的欄位定義。
 title: 請求精靈定義 - 遞延日期
 uuid: 19e25900-96a3-4f6c-9551-9f7af8cc6963
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

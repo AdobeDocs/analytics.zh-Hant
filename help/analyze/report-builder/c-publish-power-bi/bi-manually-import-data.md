@@ -3,7 +3,7 @@ description: 如果您要透過 Power BI 手動匯入 Analytics 資料，請依�
 title: 手動將資料匯入 Power BI
 uuid: c84f7a90-7b40-4065-9fe7-5eb19e5e2473
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

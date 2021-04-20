@@ -3,7 +3,7 @@ description: 在將項目映射至試算表之前，請確認試算表的保護�
 title: 將度量和維度映射至儲存格
 uuid: 50893e1c-5f2c-4558-8001-41e70d74d6e7
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -1,7 +1,7 @@
 ---
 description: 說明如何設定成功事件的步驟。
 title: 設定成功事件
-feature: 管理工具
+feature: Admin Tools
 uuid: ca3d3f46-5fad-4481-aef6-04cad6bc6e2d
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
 translation-type: tm+mt

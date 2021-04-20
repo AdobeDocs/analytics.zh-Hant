@@ -1,7 +1,7 @@
 ---
 description: 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
 title: 記錄檔
-feature: 管理工具
+feature: Admin Tools
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

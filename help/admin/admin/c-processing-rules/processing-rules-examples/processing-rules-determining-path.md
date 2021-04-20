@@ -2,7 +2,7 @@
 description: 您可複製 eVar 的值至 prop，以啟用路徑。
 subtopic: Processing rules
 title: 將 eVar 值複製至 Prop 以判斷路徑
-feature: 管理工具
+feature: Admin Tools
 uuid: 8d7647c7-aa91-466b-8d31-fb4dce83f04a
 exl-id: 23c978b9-a159-4364-9214-561a255d23e4
 translation-type: tm+mt

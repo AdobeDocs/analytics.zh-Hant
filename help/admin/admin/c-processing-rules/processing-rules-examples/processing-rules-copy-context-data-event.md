@@ -2,7 +2,7 @@
 description: 處理規則可以根據上下文資料變數觸發事件。
 subtopic: Processing rules
 title: 使用上下文資料變數設定事件
-feature: 管理工具
+feature: Admin Tools
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
 translation-type: tm+mt

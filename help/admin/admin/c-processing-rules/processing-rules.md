@@ -2,7 +2,7 @@
 description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
 subtopic: Processing rules
 title: 處理規則概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 translation-type: tm+mt

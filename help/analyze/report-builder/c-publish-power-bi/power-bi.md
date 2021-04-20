@@ -3,7 +3,7 @@ description: 搭配 Microsoft Power BI 使用 Report Builder。
 title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

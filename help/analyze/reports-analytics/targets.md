@@ -2,7 +2,7 @@
 description: 目標可讓您測量網站績效並追蹤預設目標的進度。例如，您可能希望增加來自某一地理區域之訪客的數目、每個訂單的收入，或特定反向連結的點按次數。
 title: 目標
 uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
 translation-type: tm+mt

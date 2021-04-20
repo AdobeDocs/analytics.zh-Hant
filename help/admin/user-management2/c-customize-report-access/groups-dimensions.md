@@ -3,7 +3,7 @@ description: 在粒度層級自訂使用者存取，包括 eVar、流量報表�
 keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂維度權限
-feature: 管理工具
+feature: Admin Tools
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
 translation-type: tm+mt

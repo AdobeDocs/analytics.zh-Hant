@@ -2,7 +2,7 @@
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
 title: 建立 Analysis Workspace 專案
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

@@ -3,7 +3,7 @@ description: 協助您在 Excel 中選擇報表套裝的步驟。
 title: 選擇報表套裝
 uuid: e9fb6e20-217c-4b36-aaec-19ccf407da93
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

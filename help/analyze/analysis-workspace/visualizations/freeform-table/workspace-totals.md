@@ -1,8 +1,8 @@
 ---
 description: Analysis Workspace 總計的計算方式。
 title: Analysis Workspace 總計
-feature: 自由表格
-role: 業務從業人員、管理員
+feature: Freeform Tables
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

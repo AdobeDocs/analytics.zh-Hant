@@ -3,7 +3,7 @@ description: 將來源活頁簿中的整份試算表複製到一或多份目標�
 title: 在活頁簿之間複製請求和工作表
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

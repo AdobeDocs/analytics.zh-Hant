@@ -2,7 +2,7 @@
 description: 若要有效使用處理規則，請務必瞭解它們在資料收集期間的套用時機。
 subtopic: Processing rules
 title: 處理順序
-feature: 管理工具
+feature: Admin Tools
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
 translation-type: tm+mt

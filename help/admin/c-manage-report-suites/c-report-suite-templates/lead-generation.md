@@ -1,7 +1,7 @@
 ---
 description: 定義提供服務和產品 (這些服務和產品通常透過未來參與而售出) 相關資訊之網站的一般設定。
 title: 銷售機會開發
-feature: 管理工具
+feature: Admin Tools
 uuid: e7d3cc4a-1bee-4722-92c1-4454f7613d39
 exl-id: 4a629908-2bb4-4d61-a934-42906edff9df
 translation-type: tm+mt

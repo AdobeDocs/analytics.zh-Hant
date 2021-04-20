@@ -1,8 +1,8 @@
 ---
 description: 'Analysis Workspace地區的元件由維度、量度、區段和日期範圍組成，您可以將這些範圍拖放至專案上。 '
 title: 元件概觀
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

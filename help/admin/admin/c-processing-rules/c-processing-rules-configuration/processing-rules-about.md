@@ -2,7 +2,7 @@
 description: 處理規則可讓您根據已定義條件來對資料進行變更。當屬性或值符合定義條件時，可以設定或刪除值，以及設定事件。
 subtopic: Processing rules
 title: 處理規則的運作方式
-feature: 管理工具
+feature: Admin Tools
 uuid: 19c31f94-c8d8-47b1-97fa-29ed98c94e87
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 translation-type: tm+mt

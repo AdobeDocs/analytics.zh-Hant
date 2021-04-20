@@ -3,7 +3,7 @@ description: 將試算表複製到同一個活頁簿內的試算表。
 title: 複製工作表
 uuid: 817b8c7e-26bd-41a0-a5bb-ff12e5246e03
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

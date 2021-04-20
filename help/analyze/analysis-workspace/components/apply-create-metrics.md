@@ -2,8 +2,8 @@
 description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

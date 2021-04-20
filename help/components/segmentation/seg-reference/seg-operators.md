@@ -1,7 +1,7 @@
 ---
 description: 「區段產生器」可讓您使用選取的運算子來比較和限制值。
 title: 區段的比較運算子
-feature: 區段
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 translation-type: tm+mt

@@ -2,8 +2,8 @@
 description: Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件」) 及一個量度來建立 Venn 圖表。
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

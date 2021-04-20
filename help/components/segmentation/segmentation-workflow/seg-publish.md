@@ -1,7 +1,7 @@
 ---
 description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段進行促銷活動。
 title: 發佈區段至 Experience Cloud
-feature: 區段
+feature: Segmentation
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 translation-type: tm+mt

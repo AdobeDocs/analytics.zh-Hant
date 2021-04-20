@@ -3,7 +3,7 @@ description: 您可以在選定區域內填入符合區域且滿足所需數量�
 title: 建立多個請求副本
 uuid: aa8442f3-28c7-4665-b0ff-e81fcdb79f6c
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

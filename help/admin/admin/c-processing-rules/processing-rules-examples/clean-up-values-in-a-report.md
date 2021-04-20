@@ -2,7 +2,7 @@
 description: 您可以比對值是否有常見的拼寫錯誤，並加以更新以便在報告中正確顯示。
 subtopic: Processing rules
 title: 清除報表中的值
-feature: 管理工具
+feature: Admin Tools
 uuid: fcd72afc-3a3c-47a9-a5e4-53389dba7d83
 exl-id: 109005a3-2ea4-4b61-a733-d1019218ec56
 translation-type: tm+mt

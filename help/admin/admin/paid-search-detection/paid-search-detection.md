@@ -1,7 +1,7 @@
 ---
 description: 「付費搜尋偵測」可區分「搜尋引擎」與「搜尋關鍵字」報表中的付費與免費搜尋。您可以指定您在其中使用付費廣告的搜尋引擎，並指定可在付費廣告瀏覽的 URL 中找到的字元字串。
 title: 付費搜尋偵測
-feature: 管理工具
+feature: Admin Tools
 uuid: 41aadf17-7b8b-49ce-84ca-dc3293660205
 exl-id: 6b513ad2-f955-4a34-92f8-57a141e44801
 translation-type: tm+mt

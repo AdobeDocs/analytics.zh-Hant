@@ -1,7 +1,7 @@
 ---
 description: 說明如何新增或編輯轉換變數的步驟。
 title: 編輯轉換變數
-feature: 管理工具
+feature: Admin Tools
 uuid: 12a49e74-036f-4109-b306-4302bf3b8aa1
 exl-id: 0688eebd-7042-4a43-bc97-a484408b5018
 translation-type: tm+mt

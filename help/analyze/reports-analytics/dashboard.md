@@ -3,7 +3,7 @@ description: 控制面板是稱為小報表的報表縮圖集合。控制面板�
 subtopic: Dashboards
 title: 控制面板和報表
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

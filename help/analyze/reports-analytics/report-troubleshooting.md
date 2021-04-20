@@ -2,7 +2,7 @@
 title: 報告最佳作法和疑難排解
 description: 產生報表時的最佳作法和疑難排解提示。
 keywords: 最佳實務;失敗;逾時;疑難排解;緩慢
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

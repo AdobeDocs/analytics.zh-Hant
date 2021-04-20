@@ -2,7 +2,7 @@
 description: 您可以使用查詢字串參數填入變數。
 subtopic: Processing rules
 title: 從查詢字串參數填入促銷活動 ID
-feature: 管理工具
+feature: Admin Tools
 uuid: 2bc61f9f-d8d2-41b7-bd39-4a9df30ff013
 exl-id: 526d2727-b7f6-4b41-be86-e5f5bc5e6c2b
 translation-type: tm+mt

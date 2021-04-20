@@ -3,7 +3,7 @@ description: 排程、下載和發佈報表的相關資訊。
 subtopic: Schedule
 title: 報表排程和分發
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: 報告與分析基礎知識、報告與分析
+feature: Reports & Analytics Basics,Reports and analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
 translation-type: tm+mt

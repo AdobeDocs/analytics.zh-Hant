@@ -3,7 +3,7 @@ description: Adobe Analytics 內容套件提供預先建置的 Power BI 控制�
 title: 適用於 Power BI 的 Adobe Analytics 內容套件
 uuid: 4711e135-a4b2-4761-ba6c-728bfe0ca84d
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

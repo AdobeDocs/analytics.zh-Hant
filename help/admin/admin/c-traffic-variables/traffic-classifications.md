@@ -2,7 +2,7 @@
 description: 流量分類可讓您對流量變數 (屬性) 進行分類。流量分類只能使用文字分類。
 subtopic: Classifications
 title: 流量分類
-feature: 管理工具
+feature: Admin Tools
 uuid: 091bec9b-98ff-4d67-b789-e51c2712839f
 exl-id: 320d7dcb-7fb7-4360-96dd-d2d5bd0bfdd5
 translation-type: tm+mt

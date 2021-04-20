@@ -3,7 +3,7 @@ description: 可讓您在 Activity Map 中套用多區段篩選。
 title: 客戶分段
 uuid: 5723c302-5744-4127-9f8e-41db66dc6dfb
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

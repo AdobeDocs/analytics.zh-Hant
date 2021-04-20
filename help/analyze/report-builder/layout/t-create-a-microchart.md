@@ -3,7 +3,7 @@ description: 在「自訂配置」中，您可以將度量欄變成含有對應�
 title: 建立 Microchart
 uuid: 778ef184-9946-4958-b08f-6ee8c86a0f69
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

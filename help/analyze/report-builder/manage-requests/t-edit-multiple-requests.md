@@ -3,7 +3,7 @@ description: 您可以根據請求的報表套裝、粒度及日期範圍，同�
 title: 編輯多個請求
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

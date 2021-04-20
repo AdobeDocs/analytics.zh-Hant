@@ -3,7 +3,7 @@ description: 您可以建立自訂運算式來指定複雜的日期範圍。
 title: 自訂日期運算式 - 概觀
 uuid: 7d6d7c03-a3f4-4dec-8343-de2e6478bf06
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

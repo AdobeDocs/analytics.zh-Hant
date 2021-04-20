@@ -2,7 +2,7 @@
 description: 您可以使用瀏覽器匯入 (上傳) 分類資料。這種方法限制您的分類資料上傳只能上傳單一的報表套裝
 subtopic: Classifications
 title: 瀏覽器匯入
-feature: 管理工具
+feature: Admin Tools
 uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
 translation-type: tm+mt

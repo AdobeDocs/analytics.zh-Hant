@@ -2,8 +2,8 @@
 description: 使用線條圖視覺效果來描繪資料集的趨勢 (以時間為基礎)
 title: 折線圖
 uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

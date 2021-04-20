@@ -2,7 +2,7 @@
 description: 透過資料擷取，您可以選擇要在報表的 X 和 Y 軸上檢視的參數，以及篩選報表所依據的項目。
 subtopic: Schedule
 title: 資料擷取
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
 translation-type: tm+mt

@@ -3,7 +3,7 @@ description: Activity Map 提供兩個基本模式，用以為頁面活動提供
 title: 標準模式和即時模式的比較
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

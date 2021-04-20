@@ -1,7 +1,7 @@
 ---
 description: 說明如何產生 Excel 試算表 (包含選定報表套裝之所有設定值) 的步驟。
 title: 下載報表套裝設定值
-feature: 管理工具
+feature: Admin Tools
 uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 translation-type: tm+mt

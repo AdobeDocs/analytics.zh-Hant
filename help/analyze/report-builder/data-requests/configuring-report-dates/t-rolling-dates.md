@@ -3,7 +3,7 @@ description: 說明為請求自訂遞延日期的步驟。
 title: 遞延日期
 uuid: 28319f02-2a4a-408d-a7d1-545247ad6178
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

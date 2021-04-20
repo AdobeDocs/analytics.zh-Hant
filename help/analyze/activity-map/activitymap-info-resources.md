@@ -3,7 +3,7 @@ description: 存取 Adobe Activity Map 的其他資訊資源。
 title: 知識資源
 uuid: 7ac780f6-b37f-4c96-93c0-67988798e318
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

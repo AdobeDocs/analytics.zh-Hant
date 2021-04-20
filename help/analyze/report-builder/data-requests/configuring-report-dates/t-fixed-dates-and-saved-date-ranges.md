@@ -3,7 +3,7 @@ description: 當您指定固定日期或日期範圍時，Report Builder 會顯�
 title: 固定日期和儲存的日期範圍
 uuid: f00218c0-07f3-4505-98b0-de05187401fd
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

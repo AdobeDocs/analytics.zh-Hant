@@ -3,7 +3,7 @@ description: 針對 Analytics 的最常問問題提供解答和疑難排解建�
 keywords: Analytics 疑難排解
 title: 常見問題集
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

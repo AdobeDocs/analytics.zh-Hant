@@ -2,7 +2,7 @@
 description: 「分類規則產生器」裡頁面上之介面元素的定義。
 subtopic: Classifications
 title: 分類規則 - 定義
-feature: 管理工具
+feature: Admin Tools
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 translation-type: tm+mt

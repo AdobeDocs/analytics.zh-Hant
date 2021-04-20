@@ -3,7 +3,7 @@ description: 在編輯活頁簿時，如果您想要騰出一些空間給新請�
 title: 刪除輸出對映
 uuid: a6805800-4cb9-4ccc-aada-198a15def643
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

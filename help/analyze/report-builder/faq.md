@@ -2,7 +2,7 @@
 title: Report Builder 常見問題集
 description: 關於Report Builder的常見問題。
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

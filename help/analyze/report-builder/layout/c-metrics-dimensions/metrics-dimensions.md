@@ -3,7 +3,7 @@ description: '您可以在「請求精靈: 步驟 2」中新增度量和維度�
 title: 度量和維度概觀
 uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

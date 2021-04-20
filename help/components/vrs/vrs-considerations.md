@@ -2,7 +2,7 @@
 description: 虛擬報表套裝和多套裝標記各有不同優勢。請多加瞭解哪一種最適合您的組織。
 keywords: 虛擬報表套裝，VRS
 title: 虛擬報表套裝和多套裝標記考量事項
-feature: 報表套裝設定
+feature: Report Suite Settings
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 translation-type: tm+mt

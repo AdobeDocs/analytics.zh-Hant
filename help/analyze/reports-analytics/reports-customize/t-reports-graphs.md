@@ -2,7 +2,7 @@
 description: 說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
 title: 變更報表圖表
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt

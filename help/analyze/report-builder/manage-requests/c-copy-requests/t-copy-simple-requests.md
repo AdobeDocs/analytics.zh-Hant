@@ -3,7 +3,7 @@ description: 複製簡單請求而非參考請求。簡單請求是不含其他�
 title: 複製簡單請求
 uuid: ff20560a-01ee-47e7-8bd1-b73edb010456
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

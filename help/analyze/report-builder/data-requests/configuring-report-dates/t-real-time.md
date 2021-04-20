@@ -3,7 +3,7 @@ description: 關於如何設定即時報表請求日期的步驟。
 title: 設定即時報表請求
 uuid: 9ea1b790-9c3d-4511-8580-bb11d9003d50
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

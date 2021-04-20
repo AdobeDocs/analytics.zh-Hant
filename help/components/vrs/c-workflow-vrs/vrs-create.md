@@ -2,7 +2,7 @@
 description: 開始建立虛擬報表套裝前，請謹記以下一些注意事項。
 keywords: 虛擬報表套裝
 title: 建立虛擬報表套裝
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 022a6656-808e-4c92-b7ec-4d2a42e84fa8
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
 translation-type: tm+mt

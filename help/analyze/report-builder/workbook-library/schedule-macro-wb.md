@@ -3,7 +3,7 @@ description: Adobe Report Builder 支援 .xlsm 格式，可讓您排程已啟用
 title: 排程已啟用巨集的活頁簿
 uuid: 874cfac8-ca63-4dec-b2aa-a3dcd037c5c5
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

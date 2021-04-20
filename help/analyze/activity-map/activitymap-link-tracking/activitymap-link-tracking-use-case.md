@@ -3,7 +3,7 @@ description: 您可透過使用 s_objectID 變數自訂連結 ID、自訂地區�
 title: 區別參照相同連結 ID 和地區的連結
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 「互動式控制項」可讓您直接從工作表編輯一或多�
 title: 互動式控制項
 uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

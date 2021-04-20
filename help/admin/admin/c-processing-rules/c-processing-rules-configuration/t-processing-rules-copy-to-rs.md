@@ -2,7 +2,7 @@
 description: 說明如何複製一個報表套裝的處理規則，並將這些規則取代或附加至另一個報表套裝的步驟。
 subtopic: Processing rules
 title: 複製處理規則至其他報表套裝
-feature: 管理工具
+feature: Admin Tools
 uuid: e6aa50b9-a46b-4332-b4e1-6df0f828077d
 exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 translation-type: tm+mt

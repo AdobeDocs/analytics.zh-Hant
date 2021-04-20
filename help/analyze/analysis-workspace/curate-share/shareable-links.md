@@ -2,8 +2,8 @@
 description: 了解如何建立專案或視覺效果的分享連結
 keywords: Analysis Workspace共用
 title: 建立分享連結
-feature: 組織與分享
-role: 業務從業人員、管理員
+feature: Curate and Share
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

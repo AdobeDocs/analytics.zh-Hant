@@ -3,7 +3,7 @@ description: 為資料請求選擇基礎報表類型的步驟。
 title: 選擇報表類型
 uuid: ebb682b8-590e-4484-9c29-5c4db2f5edd1
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

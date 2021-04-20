@@ -1,7 +1,7 @@
 ---
 description: 「管理待定動作」頁面可讓您檢視 Analytics 環境中的待定動作清單。待定動作是需要 Adobe 核准才能實作的系統變更。
 title: 待定動作
-feature: 管理工具
+feature: Admin Tools
 uuid: 63efbf6d-22d6-4ffe-af25-69e10bed7989
 exl-id: c1526937-99c8-4647-b7e0-da0ebb0c1116
 translation-type: tm+mt

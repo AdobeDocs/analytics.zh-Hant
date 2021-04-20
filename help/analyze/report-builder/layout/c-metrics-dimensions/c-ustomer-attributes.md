@@ -2,7 +2,7 @@
 description: 客戶屬性儲存在稱為 VisAttr 的新元素類型中，可以設定為維度或量度。
 title: 客戶屬性
 uuid: a8340b83-d7ba-46fe-bb20-b546cdf375b8
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

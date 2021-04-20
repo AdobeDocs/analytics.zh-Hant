@@ -3,7 +3,7 @@ description: 下列網頁瀏覽器支援 Activity Map。
 title: 支援的系統和需求
 uuid: 0c1f0698-0148-46f6-81e9-fc5051289d9f
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

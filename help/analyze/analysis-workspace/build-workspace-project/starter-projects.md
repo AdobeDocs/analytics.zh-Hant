@@ -2,8 +2,8 @@
 description: 根據標準或自訂範本建立 Workspace 專案。
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

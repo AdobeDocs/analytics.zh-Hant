@@ -2,8 +2,8 @@
 description: 可讓您查看您感興趣的值與其他效能範圍 (目標) 相比較或進行測量的結果。
 title: 項目符號圖表
 uuid: 2f133189-2a50-45af-b225-7d2b433fbef5
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

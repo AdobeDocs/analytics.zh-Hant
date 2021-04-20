@@ -1,8 +1,8 @@
 ---
 title: Analytics 工具指南
 description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Report Builder、Reporting API 以及 Reports & Analytics 的產品文件和自助服務。
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

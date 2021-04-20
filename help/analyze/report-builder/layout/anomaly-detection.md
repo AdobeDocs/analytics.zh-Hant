@@ -3,7 +3,7 @@ description: 異常偵測使用統計模型來自動尋找資料中的意外趨�
 title: 異常偵測
 uuid: 02da21b4-3394-471b-97b5-aa1bddf1f445
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

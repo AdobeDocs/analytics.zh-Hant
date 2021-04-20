@@ -3,7 +3,7 @@ description: 說明 Report Builder 如何支援路徑分析與流失報表，以
 title: Report Builder 中的路徑與路徑流失報表
 uuid: 9ca6cb97-8f31-46f6-977a-e81a89a176d1
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

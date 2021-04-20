@@ -1,7 +1,7 @@
 ---
 title: 報表
 description: Reports & Analytics 用於每個報表的維度和量度。
-feature: 報表 & Analytics基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
 translation-type: tm+mt

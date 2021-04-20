@@ -2,7 +2,7 @@
 title: 疑難排解Activity Map資料收集
 description: 確定在影像請求中看不到Activity Map資料的原因
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: Report Builder 使用 Analytics 自訂日曆。您可以使用日�
 title: 自訂日曆
 uuid: 88d24bf9-de46-41e0-937e-b8a1fe36c55d
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

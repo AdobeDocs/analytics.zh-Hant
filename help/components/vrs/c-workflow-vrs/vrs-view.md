@@ -2,7 +2,7 @@
 description: 按一下報表套裝名稱旁的 i (資訊) 圖示可取得相關資訊。
 keywords: 虛擬報表套裝
 title: 檢視虛擬報表套裝資訊
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 7aa9da77-604e-473d-a914-6c0bc558548a
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 translation-type: tm+mt

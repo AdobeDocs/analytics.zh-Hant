@@ -3,7 +3,7 @@ description: 您可以從含有請求的工作表選擇儲存格，藉此指定�
 title: 來自儲存格的日期
 uuid: 0d9bf08d-d39d-4f37-94f1-232da0813245
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

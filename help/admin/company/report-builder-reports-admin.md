@@ -1,7 +1,7 @@
 ---
 description: 管理指派給 Report Builder 使用者的授權。
 title: Report Builder 報表
-feature: 管理工具
+feature: Admin Tools
 uuid: 41f98b99-9a78-430a-8a42-101eddd3d2ef
 exl-id: 1ac574a1-ea64-4fee-8ede-87260f512623
 translation-type: tm+mt

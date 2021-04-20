@@ -2,8 +2,8 @@
 description: 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
 title: 時間分段維度
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

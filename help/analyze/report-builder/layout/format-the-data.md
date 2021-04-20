@@ -3,7 +3,7 @@ description: 除了 Excel「格式 > 儲存格」(Ctrl+1) 功能提供的標準�
 title: 日期格式
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

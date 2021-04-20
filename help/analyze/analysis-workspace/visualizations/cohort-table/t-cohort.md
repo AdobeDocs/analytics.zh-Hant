@@ -3,8 +3,8 @@ description: 在 Analysis Workspace 中建立同類群組並執行同類群組�
 keywords: Analysis Workspace
 title: 執行同類群組分析報表
 uuid: 5574230f-8f35-43ea-88d6-cb4960ff0bf4
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

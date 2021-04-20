@@ -2,7 +2,7 @@
 description: 說明如何透過 FTP 上傳 資料檔案的步驟。
 subtopic: Classifications
 title: FTP 匯入
-feature: 管理工具
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 translation-type: tm+mt

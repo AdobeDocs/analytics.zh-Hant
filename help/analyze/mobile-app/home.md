@@ -1,8 +1,8 @@
 ---
 title: Adobe Analytics 控制面板 - 概觀
 description: Adobe Analytics 控制面板的產品文件與自助服務資源
-feature: Analytics儀表板
-role: 業務從業人員、管理員
+feature: Analytics Dashboards
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

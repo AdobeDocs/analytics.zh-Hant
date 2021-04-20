@@ -1,8 +1,8 @@
 ---
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
-feature: 出處
-role: 業務從業人員、管理員
+feature: Attribution
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 建立含內嵌請求的報表後，您可以按一下 Excel 中的
 title: 儲存含請求的活頁簿
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

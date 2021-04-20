@@ -1,7 +1,7 @@
 ---
 description: 您可以啟用瀏覽器 Cookie 的隱私權設定。
 title: 隱私權設定
-feature: 管理工具
+feature: Admin Tools
 uuid: 517b1d9c-d36e-43c1-a796-1787785a8747
 exl-id: cbc0d0e3-9765-4942-9179-d8f023a75258
 translation-type: tm+mt

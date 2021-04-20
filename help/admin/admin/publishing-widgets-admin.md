@@ -1,7 +1,7 @@
 ---
 description: 「發佈 Widget」是一個容器，可在網頁上嵌入行銷報表 (書籤和控制面板)。您組織中無權存取行銷報告的人員將可以檢視相關資料。
 title: 發佈 Widget
-feature: 管理工具
+feature: Admin Tools
 uuid: 4ecf6a5a-8a4e-4707-b282-39890eba3c5d
 exl-id: 97ec07d8-29ad-4ef3-9227-bfdc14a59b97
 translation-type: tm+mt

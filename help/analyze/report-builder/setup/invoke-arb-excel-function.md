@@ -3,7 +3,7 @@ description: 此功能進一步整合 Report Builder 在一般 Excel 工作流�
 title: 從 Microsoft Excel 函數叫用 Report Builder 功能
 uuid: 5342cc4f-085d-4a2d-a498-38b00a3ef4d3
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

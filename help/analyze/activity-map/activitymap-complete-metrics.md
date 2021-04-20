@@ -3,7 +3,7 @@ description: 可讓您在 Activity Map 工具列中存取 Adobe Analytics 的完
 title: 完整的量度集
 uuid: e8d73671-4e96-49e7-9b47-711cfe186821
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

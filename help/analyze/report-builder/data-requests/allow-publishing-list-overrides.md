@@ -3,7 +3,7 @@ description: 在排程報表時，您可以選擇要用於散佈的發佈清單�
 title: 允許發佈清單覆蓋
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

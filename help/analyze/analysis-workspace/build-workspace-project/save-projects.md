@@ -1,7 +1,7 @@
 ---
 description: 瞭解不同的儲存選項，包括自動儲存、另存新檔、另存為範本，以及開啟舊版。
 title: 儲存專案
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt

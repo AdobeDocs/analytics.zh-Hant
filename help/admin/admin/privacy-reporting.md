@@ -1,7 +1,7 @@
 ---
 description: 您可以啟用隱私權報告。
 title: 隱私權報告
-feature: 管理工具
+feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
 translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2

@@ -3,7 +3,7 @@ description: 分析報表 API 的比較表。提供支援文件的連結。
 title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
-role: 開發人員
+role: Developer
 translation-type: tm+mt
 source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
 workflow-type: tm+mt

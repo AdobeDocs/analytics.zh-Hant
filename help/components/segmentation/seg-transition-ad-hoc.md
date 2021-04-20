@@ -2,7 +2,7 @@
 description: 如果您習慣使用「Ad Hoc Analysis」中的「區段產生器」，本 FAQ 將說明現有區段和資料夾的變更，以及您需要採取的行動。
 keywords: 劃分;區段
 title: Ad Hoc Analysis 的轉換指南
-feature: 區段
+feature: Segmentation
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
 translation-type: tm+mt
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48

@@ -3,7 +3,7 @@ description: 說明如何使用預先定義的篩選條件建立路徑報表。
 title: 新增相依請求以篩選路徑報表
 uuid: dd1294f8-a26b-4254-a9f6-1365b2912adf
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

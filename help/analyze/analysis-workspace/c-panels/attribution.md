@@ -1,8 +1,8 @@
 ---
 title: 歸因面板
 description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
-feature: 出處
-role: 業務從業人員、管理員
+feature: Attribution
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

@@ -3,7 +3,7 @@ description: 如果工作表受到保護 (藉由鎖定儲存格)，您便無法�
 title: 受保護的工作表元素
 uuid: 4b632862-4943-4567-a458-46a6548952fa
 feature: Report Builder
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

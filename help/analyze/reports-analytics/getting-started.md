@@ -1,7 +1,7 @@
 ---
 description: 開始使用 Reports & Analytics 前，請先了解這些基本的登入和設定工作，以及如何存取帳戶資訊。
 title: Reports & Analytics 快速入門
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 role: Business Practitioner, Administrator
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 translation-type: tm+mt

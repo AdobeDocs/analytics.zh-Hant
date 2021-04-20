@@ -2,8 +2,8 @@
 description: 智慧型警報的使用案例。
 title: 智慧型警報 - 使用案例
 uuid: e848f004-c044-4c7e-a0ac-9f3ea2df9a05
-feature: AI工具
-role: 業務從業人員、管理員
+feature: AI Tools
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

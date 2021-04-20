@@ -1,7 +1,7 @@
 ---
 description: 當報表中有大量不重複值時，Adobe 提供的功能可確保最重要的值出現在您的報表中。
 title: Adobe Analytics 中的低流量值
-feature: 量度
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 translation-type: tm+mt

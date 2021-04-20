@@ -3,8 +3,8 @@ description: 同類群組分析的使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: 視覺效果
-role: 業務從業人員、管理員
+feature: Visualizations
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

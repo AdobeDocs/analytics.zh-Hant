@@ -2,7 +2,7 @@
 description: 瞭解如何在行銷管道中指定訪客參與有效期。
 subtopic: Marketing channels
 title: 行銷管道有效期
-feature: 報告與分析基礎與分析基礎
+feature: Reports & Analytics Basics & Analytics Basics
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt

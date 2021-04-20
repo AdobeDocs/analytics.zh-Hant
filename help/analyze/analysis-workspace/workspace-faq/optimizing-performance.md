@@ -2,8 +2,8 @@
 description: 影響 Workspace 效能的因素和可採取的最佳化措施
 title: Analysis Workspace 效能因素和最佳化措施
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Workspace 基本知識
-role: 業務從業人員, 管理員
+feature: Workspace Basics
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt

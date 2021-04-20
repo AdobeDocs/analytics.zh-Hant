@@ -3,7 +3,7 @@ description: 將滑鼠暫留在連結覆蓋圖上方時，會顯示覆蓋圖詳�
 title: 覆蓋圖詳細資料
 uuid: e813ea7b-1b56-4ea3-9345-78bffa66115f
 feature: Activity Map
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
 translation-type: tm+mt
 source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
 workflow-type: tm+mt
