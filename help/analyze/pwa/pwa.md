@@ -1,15 +1,15 @@
 ---
 title: Analytics 專用 PWA
 description: Adobe Analytics 專用漸進式網頁應用程式
-role: 業務從業人員、管理員
+role: Business Practitioner, Administrator
+exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 960274fde798287568ada9e6d8ec96783449dd99
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 99%
+source-wordcount: '291'
+ht-degree: 88%
 
 ---
-
 
 # Adobe Analytics 專用 PWA
 
@@ -27,7 +27,7 @@ Adobe Analytics 與 PWA 搭配運作的順暢程度，與傳統網站如出一�
 
 ## 新增離線追蹤功能以提高 PWA 效益
 
-PWA 可與 Adobe Analytics [離線追蹤功能](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/offline-tracking.html)搭配使用，提高使用效益。此功能預設為關閉，但只要將下列屬性新增至 AppMeasurement.js 檔案即可開啟：`s.trackOffline=true;`。
+PWA 可與 Adobe Analytics [離線追蹤功能](/help/implement/vars/config-vars/trackoffline.md)搭配使用，提高使用效益。此功能預設為關閉，但只要將下列屬性新增至 AppMeasurement.js 檔案即可開啟：`s.trackOffline=true;`。
 
 例如，下列 AppMeasurement.js 檔案中，將該屬性新增至 `CONFIG SECTION` 的結尾處：
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-如需編輯 AppMeasurement.js 檔案的詳細資訊，請參閱[在 AppMeasurement.js 檔案中插入程式碼](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
+如需編輯AppMeasurement.js檔案的詳細資訊，請參閱「插入核心AppMeasurement代碼](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)」。[
 
-如需 AppMeasurement.js 檔案的設定範例，請參閱[設定 AppMeasurement.js 檔案](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasure-mjs-pagecode.html#section_042412C29CC249E298F19B2BC2F43CE7)。
+如需設定AppMeasurement.js檔案的詳細資訊，請參閱[設定變數概述](/help/implement/vars/config-vars/configuration-variables.md)以及相同子章節中個別變數專屬頁面。
 
-如需 AppMeasurement.js 檔案特性的詳細資訊，請參閱 [Javascript 實施概述](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs.html)。
+如需 AppMeasurement.js 檔案特性的詳細資訊，請參閱 [Javascript 實施概述](/help/implement/js/overview.md)。
