@@ -3,14 +3,14 @@ description: 書籤可讓您存取自己最常用的報告。您建立的書籤�
 subtopic: Bookmarks
 title: 書籤管理器
 uuid: 7a1287da-8a39-4dad-90b0-f311b5e83722
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports and analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 98%
+source-wordcount: '327'
+ht-degree: 100%
 
 ---
 
