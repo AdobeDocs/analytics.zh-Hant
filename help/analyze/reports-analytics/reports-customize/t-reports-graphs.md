@@ -2,14 +2,14 @@
 description: 說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
 title: 變更報表圖表
 uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports and analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 99%
+source-wordcount: '595'
+ht-degree: 100%
 
 ---
 
