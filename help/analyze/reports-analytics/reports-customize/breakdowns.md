@@ -2,14 +2,14 @@
 description: 當您想要詳細瞭解報告項目或區段如何與其他報告產生關聯時，請使用劃分。這通常稱為依據某一報表「劃分」另一報表。
 title: 劃分
 uuid: a49fa18b-f518-4d1a-a4db-793451b427cc
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports and analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: bc695b30-c5ac-4bb4-90f4-db6dd83c2f30
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 98%
+source-wordcount: '296'
+ht-degree: 100%
 
 ---
 
