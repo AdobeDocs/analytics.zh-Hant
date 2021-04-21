@@ -2,14 +2,14 @@
 description: 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 title: 報表功能
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports and analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 98%
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
 
