@@ -1,15 +1,15 @@
 ---
-description: 虛擬報表套裝新使用者適用的提示和最佳實務。
-keywords: 虛擬報表套裝
+description: 虛擬報告套裝新使用者適用的提示和最佳實務。
+keywords: 虛擬報告套裝
 title: VRS 常見問題集
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports and analytics 基本需知
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 99%
+source-wordcount: '904'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <b>我應該將多個報表套裝的實作合併成單一的「全域」報表套裝，然後使用虛擬報表套裝來公開不同的資料區段給使用者嗎？</b> </td> 
+   <td colname="col1"> <b>我應該將多個報表套裝的實施作業合併成單一的「全域」報表套裝，然後使用虛擬報表套裝來公開不同的資料區段給使用者嗎？</b> </td> 
    <td colname="col2"> <p>看情形。以下是一些您應<b>考慮繼續使用個別報表套裝</b>的情形： </p> 
     <ul> 
      <li>如果您的變數/維度具有大量獨特值，將它們合併成單一報表套裝，可能會使您在此全域套裝中超過每月的獨特值限制，繼而造成截斷 (在報表中顯示為「低流量」行項目)。 </li> 
