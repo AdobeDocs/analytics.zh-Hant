@@ -1,15 +1,15 @@
 ---
 description: 查閱表格以根據 page_event 值來判斷點擊的類型。
-keywords: 資料饋送；page;event;page_event;post_page_event
+keywords: 資料摘要;頁面;活動;頁面活動;公佈頁面活動
 title: 頁面事件查閱
-feature: Reports & Analytics Basics & Analytics Basics
+feature: Reports and analytics 基本需知
 uuid: 73af597c-5560-466e-94b2-ddd1d64797c8
 exl-id: ef0467df-b94b-4cec-b312-96d8f42c23b0
 translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 93%
+source-wordcount: '209'
+ht-degree: 100%
 
 ---
 
