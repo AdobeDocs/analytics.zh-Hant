@@ -1,14 +1,14 @@
 ---
 title: 結帳
 description: 訪客開始進行結帳程序的點擊次數。
+exl-id: 747f2244-efc6-473f-bc0c-a5898cc8a717
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '72'
 ht-degree: 100%
 
 ---
-
 
 # 結帳
 
