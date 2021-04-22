@@ -2,16 +2,16 @@
 description: 根據標準或自訂範本建立 Workspace 專案。
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1402'
+exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
-
 
 # 範本
 
@@ -144,7 +144,7 @@ ht-degree: 100%
    * **登入率**：登入您網站的使用者越多，Adobe 就能越有效跨裝置識別並結合訪客。登入率低的網站壓縮率也會很低。
    * **Experience Cloud ID 涵蓋範圍**：系統只會結合具有 ECID 的訪客。使用 ECID 造訪您網站的訪客比例較低，與壓縮率較低有關。
    * **使用多部裝置**：若您網站的訪客沒有使用多部裝置，壓縮率便會較低。
-   * **報表粒度**：依日計算的壓縮率通常比依月或年計算的壓縮率還低。依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
+   * **報表詳細程度**：依日計算的壓縮率通常比依月或年計算的壓縮率還低。依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
 * **以人物為基礎的區段**：包含區段下拉式清單，可讓您檢視裝置特定資料。此面板鼓勵您試用區段，以便了解納入或排除裝置類型對報表有何影響。
 * **分析跨裝置歷程**：根據裝置類型提供流量和流失報表。
 * **跨裝置歸因**：結合歷程 IQ 和歸因 IQ 的功能。
