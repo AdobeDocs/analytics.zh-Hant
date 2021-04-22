@@ -1,16 +1,16 @@
 ---
 description: Analysis Workspace 總計的計算方式。
 title: Analysis Workspace 總計
-feature: Freeform Tables
+feature: 自由表格
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 99%
+exl-id: 883c3e44-4139-46a1-a261-e11841312465
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '516'
+ht-degree: 100%
 
 ---
-
 
 # 工作區總計
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 ![](assets/column-settings-total.png)
 
-## 靜態列總計設定  {#static-row-total}
+## 靜態列總計設定 {#static-row-total}
 
 [靜態列](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html)總計的行為方式不同，且須經由&#x200B;**[!UICONTROL 「列設定」]**&#x200B;控制。
 
@@ -45,4 +45,3 @@ ht-degree: 99%
 | 如果在自由表格套用自訂表格篩選器，篩選器是否會採計我的所有計算量度和條件式格式？ | 目前不會。篩選器會採計&#x200B;**[!UICONTROL 「包含未指定 (無)」]** ，但自訂表格篩選器不會影響下列項目:<ul><li>條件式格式使用的欄最大值/最小值範圍會檢查所有資料。</li><li>使用&#x200B;**[!UICONTROL 「總量」]**&#x200B;量度類型的計算量度 。</li><li>內含的函數可計算自由表格中所有列的計算量度，例如「欄加總」、「欄最大值」、「欄最小值」、「計數」、「平均值」、「中位數」、「百分位數」、「四分位數」、「列計數」、「標準差」、「變數」、「累積」、「累積平均值」、「迴歸變數」、「T 分數」、「T 檢定」、「Z 分數」、「Z 檢定」。</li></ul> |
 | 在計算量度中，**[!UICONTROL 「總量」]**&#x200B;量度類型會反映什麼？ | **[!UICONTROL 「總量」]**&#x200B;只會持續參考&#x200B;**[!UICONTROL 「總量」]**，不會反映套用至表格或&#x200B;**[!UICONTROL 「表格總計」]**&#x200B;的篩選器。 |
 | 如果資料經由自由表格複製貼上或透過 CSV 下載，系統會顯示哪項總計？ | 總列數只會反映&#x200B;**[!UICONTROL 「表格總計」]**，並遵從欄的&#x200B;**[!UICONTROL 「顯示總計」]**&#x200B;設定。 |
-
