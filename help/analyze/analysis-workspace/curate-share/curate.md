@@ -1,21 +1,21 @@
 ---
 description: 組織可讓您在共用專案前先限制元件。
-keywords: Analysis Workspace組織
+keywords: Analysis Workspace 組織
 title: 組織專案
-feature: Curate and Share
+feature: 監管與共用
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 87%
+exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '548'
+ht-degree: 100%
 
 ---
 
-
 # 組織專案
 
-組織可讓您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
+管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
 
 >[!NOTE]
 > 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 Adobe Experience Cloud Admin Console 來管理。組織為次要的篩選器。
@@ -59,9 +59,12 @@ ht-degree: 87%
 * 使用者的權限層級 (管理員或非管理員)
 * 專案角色 (是否為擁有者/編輯者)
 * 套用的組織類型 (VRS 或專案)
-* 由使用者擁有或共用的元件。 擁有／共用元件包括區段、計算量度和日期範圍。 它們不包含實作的元件，例如eVar、prop和自訂事件。
+* 用戶擁有或讓其共用的元件。擁有/共用元件包括區段、計算量度和日期範圍。這些元件不包括實現的組件，例如evars，道具和自定義事件。\
 
-注意：非管理員檢視角色無權存取專案中的左側導軌，因此已從下表中忽略這些角色。
+
+這些元件不包括實施元件，例如 eVars、props 和自訂事件。
+
+注意：非管理員檢視角色無法存取專案中的左側邊欄，這樣他們便會在下表中省略。
 
 | 組織類型 | 管理員 | 非管理員專案擁有者或編輯角色 | 非管理員重複角色 |
 |---|---|---|---|
