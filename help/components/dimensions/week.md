@@ -1,14 +1,14 @@
 ---
 title: 週
 description: 量度發生的週別。
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+exl-id: 944ec843-998c-473f-b8e6-16cf126745b4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '141'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
-
 
 # 週
 
@@ -16,10 +16,10 @@ ht-degree: 61%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
-在分析工作區中，維度項目包括一週中第一天的日期（月、日和年）。
+在 Analysis Workspace 中，維度項目包括一週中第一天的日期 (月、日和年)。
 
-在資料倉庫中，維度項目會根據請求的日期範圍包含編號周。 例如，第一個完整周是 `"Week 1"`。 如果請求包含部分周，資料會分組到維度項目 `"Week 0"`。
+在 Data Warehouse，維度項目會根據請求的日期範圍納入有編號的週。例如，第一個完整週是 `"Week 1"`。如果請求包含一週的一部分，資料會分組到維度項目 `"Week 0"`。
