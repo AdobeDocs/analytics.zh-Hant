@@ -1,11 +1,14 @@
 ---
 title: 管理資料摘要作業
 description: 瞭解如何管理資料摘要中的個別作業。
-translation-type: tm+mt
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+exl-id: b17e333e-290f-42e4-b304-1e34282237a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '495'
+ht-degree: 100%
 
 ---
-
 
 # 管理資料摘要作業
 
@@ -15,7 +18,7 @@ source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
 
 1. 登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下右上方的 9 格線圖示，然後按一下 [!UICONTROL Analytics]。
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. 在上方功能表中按一下[!UICONTROL 管理員] > [!UICONTROL 資料摘要]。
 4. 按一下頂端附近的作業標籤。
 
 ![資料摘要功能表](assets/AdminMenu.png)
