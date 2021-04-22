@@ -1,18 +1,18 @@
 ---
 title: 重點審視 (每次網站發佈後)
-description: 請按照下列步驟，確認您的實作沒有任何錯誤，並且符合您的 KPI。
-translation-type: tm+mt
-source-git-commit: 912e5077889a02c3bf0dea9b079d213bb20f9424
-workflow-type: tm+mt
+description: 請按照下列步驟，確認您的實施作業沒有任何錯誤，並且符合您的 KPI。
+exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
 ---
 
-
 # 重點審視 (每次網站發佈後)
 
-為何應每幾個月審視實作一次？您可把關資料品質，趁問題還不嚴重時儘早解決。如果能在每次網站發佈後重點審視一番，您會發現兩年一次的[完整審視](/help/implement/review/full-review.md)比較輕鬆。這麼做也能防止小問題惡化，進而影響相關人員的信心。
+為何應每幾個月審視實施作業一次？您可把關資料品質，趁問題還不嚴重時儘早解決。如果能在每次網站發佈後重點審視一番，您會發現兩年一次的[完整審視](/help/implement/review/full-review.md)比較輕鬆。這麼做也能防止小問題惡化，進而影響相關人員的信心。
 
 ## 1. 從您的 5 大 KPI 開始
 
@@ -35,12 +35,12 @@ ht-degree: 100%
 
 如果您最近曾新增或變更任何量度或變數，請務必更新業務需求文件 (BRD) 和解決方案設計參考資料 (SDR)。
 
-如果您沒有這些實作文件，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation)建立 BRD 或 SDR。
+如果您沒有這些實施作業文件，請先匯出變數清單，再使用[此範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation)建立 BRD 或 SDR。
 
 ## 5. 立即解決資料品質不如預期的問題
 
 評估情況並制定資料修復計畫。執行所需的變更、更新文件，並告知相關人員您所做的變更。
 
-*觀看 Adobe Analytics Champion 專家 Sarah Owen 的這部 2 分鐘影片，了解如何在繁忙的工作中安排審視實作項目的時間：*
+*觀看 Adobe Analytics Champion 專家 Sarah Owen 的這部 2 分鐘影片，了解如何在繁忙的工作中安排審視實施作業項目的時間：*
 
 >[!VIDEO](https://video.tv.adobe.com/v/328340/?quality=12&learn=on)
