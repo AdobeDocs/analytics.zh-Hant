@@ -1,14 +1,14 @@
 ---
 title: 購物車新增
 description: 訪客在購物車中新增產品的點擊次數。
+exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
 translation-type: ht
-source-git-commit: 554ced510600a4d5866e89806b058b5d2d9a3edf
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '79'
 ht-degree: 100%
 
 ---
-
 
 # 購物車新增
 
