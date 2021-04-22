@@ -1,14 +1,14 @@
 ---
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '590'
 ht-degree: 100%
 
 ---
-
 
 # 實施選擇退出連結
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 找出實施的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
 
-* 第三方 Cookie：`https://example.data.adobedc.net/optout.html`
+* 協力廠商 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie：`https://stats.example.com/optout.html`
 
 ## 選擇退出查詢字串參數
