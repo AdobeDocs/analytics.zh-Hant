@@ -2,14 +2,14 @@
 description: Adobe Analytics 伺服器呼叫使用量功能概觀。
 title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
+exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1045'
 ht-degree: 100%
 
 ---
-
 
 # 伺服器呼叫使用量概觀
 
@@ -114,4 +114,3 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
   </tr> 
  </tbody> 
 </table>
-
