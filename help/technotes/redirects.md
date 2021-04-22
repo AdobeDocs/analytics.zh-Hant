@@ -1,6 +1,6 @@
 ---
 description: 重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
-keywords: Analytics 實作
+keywords: Analytics 實施作業
 subtopic: Redirects
 title: 重新導向與別名
 topic-fix: Developer and implementation
@@ -47,7 +47,7 @@ ht-degree: 100%
 1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
 1. 使用者點按連結 `https://www.flytohawaiiforfree.com/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
 
-## 實作重新導向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## 實施作業重新導向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
 若要透過重新導向擷取 [!DNL Analytics][!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
 
