@@ -1,14 +1,14 @@
 ---
 title: s_gi()
 description: 建立及追蹤 AppMeasurement 的例項。
+exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '341'
 ht-degree: 100%
 
 ---
-
 
 # s_gi
 
@@ -21,7 +21,7 @@ Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過�
 1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 「程式庫管理」]設定追蹤器，接著選取[!UICONTROL 「為我管理程式庫」]以外的任何選擇鈕。
+4. 展開[!UICONTROL 「程式庫管理」]設定追蹤器，接著選取[!UICONTROL 「為我管理資料庫」]以外的任何選擇鈕。
 
 全域變數文字欄位可讓您設定自訂追蹤物件。其預設值為 `s`。
 
@@ -43,7 +43,7 @@ var s = s_gi("examplersid1,examplersid2");
 
 >[!CAUTION]
 >
-> 以下章節和範例包含複雜的實作主題。請徹底測試您的實施，以及追蹤貴組織[解決方案設計文件](../../prepare/solution-design.md)中的重要自訂項目。
+> 以下章節和範例包含複雜的實施作業主題。請徹底測試您的實施，以及追蹤貴組織[解決方案設計文件](../../prepare/solution-design.md)中的重要自訂項目。
 
 ## 使用不同的追蹤物件來管理多個實施
 
@@ -67,7 +67,7 @@ z.t();
 
 ## 覆寫 s 物件後還原 AppMeasurement 變數
 
-某些第三方工具可能也會使用 JavaScript `s` 物件。如果您不小心覆寫網站上的 `s` 物件，可以呼叫 `s_gi` 並搭配相同的 RSID 字串引數，還原所有遭到覆寫的變數和方法。
+某些協力廠商工具可能也會使用 JavaScript `s` 物件。如果您不小心覆寫網站上的 `s` 物件，可以呼叫 `s_gi` 並搭配相同的 RSID 字串引數，還原所有遭到覆寫的變數和方法。
 
 ```js
 // Step 1: Instantiate the tracking object
