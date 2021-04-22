@@ -2,16 +2,16 @@
 description: 工作區中僅限檢視的專案
 keywords: 僅供檢視的專案
 title: 僅供檢視的專案
-feature: Curate and Share
+feature: 監管與共用
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 97%
+exl-id: 53372247-6902-4c7f-9132-38a1d453186c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '251'
+ht-degree: 100%
 
 ---
-
 
 # 僅供檢視的專案
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 * 隱藏左側邊欄
 * 報表套裝
-* 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+* 面板日曆日期範圍。注意：如果您想要將日曆控制授權給收件者，請[將其新增至包含日期範圍的下拉式篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
 * 自由格式篩選
 * 可見列的自由格式編號
 * 自由格式列、欄或視覺效果設定
