@@ -1,18 +1,18 @@
 ---
 title: 行動維度
 description: 根據裝置 IP 位址的維度
+exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 translation-type: ht
-source-git-commit: 76605232c180fb6a3d4c181614f43b75e1d06cd5
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '891'
 ht-degree: 100%
 
 ---
 
-
 # 行動維度
 
-*此頁面會參考對您的網站進行存取之行動裝置的屬性。如果您想要在行動應用程式上追蹤裝置，請參閱「實作」使用指南中的[對行動裝置實作 Analytics](/help/implement/mobile-device-sdk.md)。*
+*此頁面會參考對您的網站進行存取之行動裝置的屬性。如果您想要在行動應用程式上追蹤裝置，請參閱「實施作業」使用指南中的[對行動裝置實施作業 Analytics](/help/implement/mobile-device-sdk.md)。*
 
 行動維度可讓您深入分析造訪網站之行動裝置的屬性。您可以利用這些維度來瞭解行動裝置支援哪些功能。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >標示為 `"None"` 的維度項目為非行動裝置。如果您要讓報表僅包含行動裝置，請將「行動裝置」維度拖曳至「工作區」畫布的區段區域中。
 
 * **行動音訊支援**：決定裝置可播放的檔案格式。範例值包括 `"MP3"`、`"AAC"` 和 `"MIDI Monophonic"`。此維度中的值不互斥；單一點擊可歸因於多個維度項目。
-* **行動電信業者**：此維度值是透過根據 Analytics 擷取的 IP 位址查詢第三方 (數位元素) 資料來填入。範例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
+* **行動電信業者**：此維度值是透過根據 Analytics 擷取的 IP 位址查詢協力廠商 (數位元素) 資料來填入。範例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **行動色彩深度**：行動裝置的色彩深度 (以位元為單位)。
 * **行動 Cookie 支援**：決定行動裝置是否支援 Cookie。此報表不會指出瀏覽器是否接受 Cookie。維度項目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **行動裝置**：訪客使用的行動裝置。
