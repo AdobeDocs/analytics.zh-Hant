@@ -1,14 +1,14 @@
 ---
 title: 地區
 description: 訪客的地理區域。
+exl-id: 95ab4c7e-71e8-490f-88a4-25201331d848
 translation-type: ht
-source-git-commit: fdc77997c8aea07cc7db1d06c5c0c2cd2f2abbd9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '381'
 ht-degree: 100%
 
 ---
-
 
 # 地區
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，共同維護 IP 位址與國家/地區之間的查閱。此維度可直接用於所有實作。
+此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，共同維護 IP 位址與國家/地區之間的查閱。此維度可直接用於所有實施作業。
 
 >[!TIP]
 >
