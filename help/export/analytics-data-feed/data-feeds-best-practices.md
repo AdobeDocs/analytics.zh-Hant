@@ -1,16 +1,16 @@
 ---
 description: '以下是資料摘要處理和提交的幾點最佳應用。建議您 '
-keywords: Data Feed;best practices;traffic spike;hourly;ftp
+keywords: 資料摘要；最佳實務；流量尖峰；每小時；ftp
 title: 最佳作法和一般資訊
 uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
+exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
 translation-type: ht
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '211'
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
-
 
 # 最佳實務
 
