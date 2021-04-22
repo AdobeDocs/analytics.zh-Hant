@@ -1,23 +1,23 @@
 ---
 description: 設定您要條件觸發的動作。
-keywords: Dynamic Tag Management;rule;create rule;new rule;javascript/third party tags;set up actions for condition;add new script;non-sequential javascript;sequential javascript;non-sequential html
+keywords: Dynamic Tag Management;規則;建立規則;新規則;JavaScript/協力廠商標籤;設定條件的動作;新增指令檔;非循序 JavaScript;循序 JavaScript;非循序 HTML
 solution: Experience Cloud,Analytics,Target
 title: 設定條件要觸發的動作
 uuid: 2e892f0b-7261-41ee-b849-6e3054a38de0
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '231'
+exl-id: e88cf3a7-3de3-45e7-b3af-44795864f36a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # 設定條件要觸發的動作
 
 設定您要條件觸發的動作。
 
-設定條件之後，您必須設定要條件觸發的動作。這些動作包括 [!DNL Analytics] 事件、第三方標籤及自訂指令碼。此範例說明如何設定指令碼或第三方標籤。
+設定條件之後，您必須設定要條件觸發的動作。這些動作包括 [!DNL Analytics] 事件、協力廠商標籤及自訂指令碼。此範例說明如何設定指令碼或協力廠商標籤。
 
 除了已整合的工具 (如 [!DNL Adobe Analytics] 和 Google Analytics)，Dynamic Tag Management 還可以在選取頁面或特定藍本中，觸發任何類型的 JavaScript 或將 HTML 插入網站。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 **設定條件要觸發的動作**
 
-1. 按一下 **[!UICONTROL JavaScript / 第三方標籤]**，以將指令碼新增至規則。
+1. 按一下 **[!UICONTROL JavaScript / 協力廠商標籤]**，以將指令碼新增至規則。
 
    ![](assets/scripts-actions.png)
 
@@ -41,4 +41,3 @@ ht-degree: 100%
 1. 指定您要如何觸發指令碼，並將所需內容貼到文字區域中。![](assets/scripts-actions3.png)
 
 1. 按一下&#x200B;**[!UICONTROL 儲存程式碼]**，如此便會將指令碼新增至規則的佇列中。![](assets/scripts-actions4.png)
-
