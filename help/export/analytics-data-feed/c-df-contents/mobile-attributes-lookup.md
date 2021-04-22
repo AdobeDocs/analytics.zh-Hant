@@ -1,14 +1,14 @@
 ---
 title: 行動屬性查閱
 description: 查閱行動屬性的檔案。
-translation-type: tm+mt
-source-git-commit: 33fd282e6aefa3408574f43ccccbc8a1bb141c37
-workflow-type: tm+mt
+exl-id: d5130716-2bf2-42ce-811e-26a5081efc18
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
 
 ---
-
 
 # 行動屬性查閱
 
