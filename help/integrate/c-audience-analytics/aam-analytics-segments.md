@@ -2,14 +2,14 @@
 description: Analytics 和 Audience Manager 均會使用區段。但是，Analytics 區段與 Audience Manager 區段並非完全相同。這些不同促成了您在 Analytics 和 Audience Manager 報表中看到的差異。因此，當您開始使用這兩個解決方案中的區段時，請務必試用並了解這些差異之處，這是十分有用的。
 title: 了解 Analytics 和 Audience Manager 中的區段
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
+exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '741'
 ht-degree: 100%
 
 ---
-
 
 # 了解 Analytics 和 Audience Manager 中的區段
 
