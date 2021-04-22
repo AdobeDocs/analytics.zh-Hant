@@ -1,14 +1,14 @@
 ---
 title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
+exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '182'
 ht-degree: 100%
 
 ---
-
 
 # doPlugins
 
@@ -33,7 +33,7 @@ s.doPlugins = function() {/* Desired code */};
 
 >[!NOTE]
 >
-> 實作中的 `doPlugins` 函數只需要設為變數一次。如果您設定 `doPlugins` 變數多次，只需要使用最新的程式碼就可以了。
+> 實施作業中的 `doPlugins` 函數只需要設為變數一次。如果您設定 `doPlugins` 變數多次，只需要使用最新的程式碼就可以了。
 
 ## 範例
 
