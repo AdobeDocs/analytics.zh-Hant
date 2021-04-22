@@ -1,104 +1,104 @@
 ---
-description: 面板是表格和視覺化的集合
+description: 面板是表格與視覺效果的集合。
 title: 面板概述
-feature: Panels
+feature: 面板
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 13%
+exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1005'
+ht-degree: 100%
 
 ---
 
-
 # 面板概述
 
-[!UICONTROL 面板]是表格和視覺化的集合。 您可以從工作區的左上角圖示或[空白麵板](blank-panel.md)存取面板。 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。Analysis Workspace提供下列面板類型：
+[!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角圖示、[空白面板](blank-panel.md)來存取面板。當您想要根據時段、報告套裝或分析使用案例來組織專案時，面板會很有幫助。Analysis Workspace 中有以下面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
-| [空白面板](blank-panel.md) | 從可用的面板和視覺化中選擇，以開始分析。 |
+| [空白面板](blank-panel.md) | 從可用面板和視覺效果中選擇以開始分析。 |
 | [快速深入分析面板](quickinsight.md) | 快速建立自由格式表格和隨附的視覺效果，以更快速分析及揭秘深入分析。 |
 | [Analytics for Target 面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
-| [歸因面板](attribution.md) | 使用任何維度和轉換度量，快速比較和視覺化任何數量的歸因模型。 |
-| [自由表格面板](freeform-panel.md) | 執行不限次數的比較和劃分，然後新增視覺化來呈現豐富的資料故事。 |
+| [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。 |
+| [自由表格面板](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現一個有豐富資料的故事。 |
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
-| [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找出相關差異。 |
+| [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關的差異。 |
 
 ![](assets/panel-overview.png)
 
-[!UICONTROL Quick Insights]、  Blank和  Freeformpanels是您開始分析的絕佳場所，而 [!UICONTROL Target]、     Attribution IQ、Concurrent Media Percomparonon Comparon Accorpont Acceron Views Isisand Segment本身則有助於進行更深入的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+「[!UICONTROL 快速深入分析]」、「[!UICONTROL 空白]」與「[!UICONTROL 自由圖形]」面板適用於開始分析的階段，而 [!UICONTROL Analytics for Target]、「[!UICONTROL 歸因 IQ]」、「[!UICONTROL 媒體同時檢閱者]」與「[!UICONTROL 區段比較]」則適用於更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
-預設的起始面板是[!UICONTROL Freeform]面板，但您也可以將[空白麵板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
+預設的開始面板為「[!UICONTROL 自由格式]」面板，但您也可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
-## 報表套裝 {#report-suite}
+## 報告套裝 {#report-suite}
 
-面板內的表格和視覺化會從面板右上角選取的[!UICONTROL 報表套裝]衍生資料。 報表套裝也會決定左側導軌中可用的元件。 在專案中，您可以根據分析使用案例，使用一或多個報表套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)。 [若要將單一報表套裝套用至專案中的所有面板，請&#x200B;**按一下滑鼠右鍵的面板標題>將報表套裝套用至所有面板**。
+面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報告套裝]衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報告套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
 
-報表套裝的清單會依相關性排序，Adobe會根據目前使用者最近和經常使用套裝，以及組織內使用套裝的頻率來定義該套裝。
+報告套裝清單是依關聯性來分類；Adobe 是根據目前用戶最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。
 
 ![](assets/panel-report-suite.png)
 
-## 日曆 {#calendar}
+## 行事曆 {#calendar}
 
-面板日曆控制面板中表格和視覺化的報告範圍。
+面板行事曆會控制面板內表格和視覺效果的報告範圍。
 
-注意：如果在表格、視覺化或面板Dropzone中使用（紫色）日期範圍元件，則會覆寫面板日曆。
+注意：如果表格、視覺效果或下拉區域內使用 (紫色) 日期範圍元件，此日期範圍將覆蓋面板行事曆。
 
 ![](assets/panel-calendar.png)
 
-## Dropzone {#dropzone}
+## 下拉區域 {#dropzone}
 
-面板下拉區可讓您將區段和下拉式篩選套用至面板內的所有表格和視覺化。 您可以套用一或多個篩選器至面板。 您可以按一下編輯鉛筆來修改每個濾鏡上方的標題，或以滑鼠右鍵按一下以完全移除。
+面板下拉區域可讓您將區段和下拉篩選器套用至面板內所有表格和視覺效果。您可以將一個或多個篩選器套用至面板。每個篩選器上方標題都可編輯，方法是按一下編輯鉛筆圖示；或者，按一下右鍵可完全移除篩選單。
 
-### 群體篩選
+### 區段篩選
 
-從左側導軌拖放任何區段至面板拖放區域，開始篩選面板。
+將任何區域從左側邊欄拖放至面板下拉區域，即可開始篩選您的面板。
 
 ![](assets/segment-filter.png)
 
-### 臨機群體篩選
+### 臨機區段篩選
 
-您也可以將非區段元件直接拖曳至Dropzone以建立臨機區段，為您省下前往區段產生器的時間和心力。 以此方式建立的區段會自動定義為點擊層級區段。 此定義可修改，方法是按一下區段旁的資訊圖示(i)，然後是鉛筆形編輯圖示，並在區段產生器中加以編輯。
+非區段元件也可以直接拖動到下拉區域以建立臨機區段，為您節省了進入區段產生器的時間和作業。以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
 
-臨機區段是專案的本機區段，除非您將其公開，否則不會顯示在左側導軌中。
+臨機區段是屬於專案的本機部分，除非您將這類區段公開，否則這類區段不會顯示在您的左側邊欄內。
 
 ![](assets/adhoc-segment-filter.png)
 
-### 下拉式篩選器{#dropdown-filter}
+### 下拉篩選器{#dropdown-filter}
 
-除了區段篩選外，下拉式篩選還可讓您以控制方式與資料互動。 例如，您可以新增「行動裝置類型」的下拉式篩選，以便依平板電腦、行動電話或案頭來劃分面板。
+除了區段篩選器外，下拉篩選器還可讓您以可控制方法進行資訊互動。例如，您可新增行動裝置類型的下拉篩選器，因此您就可以將面板區分為平板電腦、手機或桌面電腦等區段。
 
-下拉式篩選器也可用來將許多專案合併為一個專案。 例如，如果您有許多版本的相同專案已套用不同的國家／地區區段，則可以將所有版本合併為單一專案，並新增國家／地區下拉式篩選。
+下拉篩選器也可用來將許多專案整合為一。例如，如果您的一個專案擁有套用不同國家區段的許多版本，您可以將所有版本整合為單一專案並新增一個國家/地區的下拉篩選器。
 
 ![](assets/dropdown-filter-intro.png)
 
-若要建立下拉式篩選：
+若要建立下拉篩選器：
 
-1. 若要使用[!UICONTROL Dimension項目]建立下拉式篩選，例如[!UICONTROL 行銷管道]維度中的值，請按一下左側導軌中維度旁的右箭頭圖示。 這會公開所有可用項目。 從左側導軌中選取一或多個元件項目，並在按住Shift鍵的同時將其拖放至面板拖放區域&#x200B;**。**&#x200B;這會將元件轉換為下拉式篩選，而非單一區段。
-1. 若要使用其他元件（例如度量、區段或日期範圍）建立下拉式篩選，請從左側導軌中的一個元件類型中選取，然後拖曳至面板下拉區&#x200B;**，同時按住Shift鍵**。
-1. 從下拉式清單中選取其中一個選項，以變更面板中的資料。 您也可以選擇&#x200B;**[!UICONTROL 無篩選器]**，選擇不篩選任何面板資料。
+1. 若要使用[!UICONTROL 維度項目] (例如[!UICONTROL 行銷管道]維度內的值) 建立下拉篩選單，在左側邊欄內您的維度旁邊，按一下向右的箭頭。如此即可使用所有適用項目。在左側邊欄中選取一個或多個元件項目，然後&#x200B;**按住 Shift 鍵**，將元件放至面板的下拉區域中。這樣便可將這些元件轉變為下拉篩選器，而不會成為單一的區段。
+1. 若要使用其他元件 (如量度、區段或日期範圍) 建立下拉篩選器，在左側邊欄中選取一個元件類型，然後&#x200B;**按住 Shift 鍵**，將元件放至面板的下拉區域中。
+1. 從下拉選單中選取一個選項，即可變更面板中的資料。您也可選擇不要篩選任何面板中的資料，只要選取「**[!UICONTROL 不要篩選]**」即可。
 
 ![](assets/create-dropdown.png)
 
-[觀看影](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html) 片，進一步瞭解如何將下拉式篩選器新增至專案。
+[觀看影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
 
-## 按一下右鍵菜單{#right-click}
+## 在功能表上按一下右鍵{#right-click}
 
-以滑鼠右鍵按一下面板標題，即可使用面板的其他功能。
+在面板標題按一下右鍵，可以使用面板的其他功能。
 
 ![](assets/right-click-menu.png)
 
-可使用下列設定：
+有以下設定可使用：
 
 | 設定 | 說明 |
 | --- | --- |
-| 插入複製的面板／視覺化 | 可讓您將複製的面板或視覺化貼到（「插入」）專案內的其他位置，或貼到完全不同的專案中。 |
-| 複製面板 | 可讓您按一下滑鼠右鍵並複製面板，以便將面板插入專案內的其他位置，或插入完全不同的專案。 |
-| 套用報表套裝至所有面板 | 可讓您將作用中的面板報表套裝套用至專案中的所有面板。 |
-| 複製面板 | 請精確複製目前的面板，然後您可加以修改。 |
-| 收合／展開所有面板 | 折疊並展開所有專案面板。 |
-| 收合／展開面板中的所有視覺化 | 折疊並展開目前面板中的所有視覺化。 |
-| 編輯描述 | 新增（或編輯）面板的文字說明。 |
-| 取得面板連結 | 讓您可將使用者直接導向專案中的特定面板。點按連結時，收件者必須先登入，才能被導向到連結的確切面板。 |
+| 插入複製的面板/視覺效果 | 允許您將複製的面板或視覺效果貼至 (「插入」) 專案內另一個位置或完全不同的專案中。 |
+| 複製面板 | 允許您按一下右鍵並複製面板，這樣您便可插入專案內另一個位置或完全不同的專案中。 |
+| 套用報告套裝至所有面板 | 允許您將主要面板報告套裝套用至專案中的所有面板。 |
+| 複製面板 | 將目前的面板依樣複製，然後再修改資料。 |
+| 摺疊/展開所有面板 | 摺疊和展開所有專案面板。 |
+| 摺疊/展開面板中的所有視覺效果 | 摺疊和展開目前面板中的所有視覺效果。 |
+| 編輯描述 | 新增 (或編輯) 面板的文字說明。 |
+| 取得面板連結 | 讓您可將使用者直接導向專案中的特定面板。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確面板。 |
