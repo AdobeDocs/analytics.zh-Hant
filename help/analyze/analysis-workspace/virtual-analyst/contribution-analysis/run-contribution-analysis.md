@@ -2,16 +2,16 @@
 description: 在 Workspace 專案中執行貢獻分析報表。
 title: 執行貢獻分析
 uuid: 5282a5f9-0771-4974-93cb-335204bde114
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 99%
+exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '603'
+ht-degree: 100%
 
 ---
-
 
 # 執行貢獻分析
 
@@ -21,11 +21,11 @@ ht-degree: 99%
 
 在專案中叫用貢獻分析有兩個分法：
 
-* 在設有每日粒度的自由表格中，以滑鼠右鍵按一下任一列並選取&#x200B;**[!UICONTROL 「執行貢獻分析」]**。您甚至可以在未顯示異常的列上執行貢獻分析。
+* 在設有每日詳細程度的自由表格中，以滑鼠右鍵按一下任一列並選取&#x200B;**[!UICONTROL 「執行貢獻分析」]**。您甚至可以在未顯示異常的列上執行貢獻分析。
 
    >[!NOTE]
    >
-   >我們目前僅支援設有每日粒度的貢獻分析。
+   >我們目前僅支援設有每日詳細程度的貢獻分析。
 
    ![](assets/run_ca.png)
 
@@ -74,4 +74,3 @@ ht-degree: 99%
    ![](assets/excluded-dimensions.png)
 
 1. 按一下維度旁邊的 x 以刪除任何不想要的維度，然後按一下&#x200B;**[!UICONTROL 「設定為預設」]**&#x200B;以儲存清單。
-
