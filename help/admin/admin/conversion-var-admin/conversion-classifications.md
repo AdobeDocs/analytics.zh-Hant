@@ -1,14 +1,14 @@
 ---
 description: 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「付費搜尋」促銷活動歸類為「流行音樂術語」類別，並報告該類別相對於「例項」(點進次數) 等量度的成功，以及成功事件的轉換。
 title: 轉換分類
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: b4855000-adf3-4e3b-af36-f4803383126d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # 轉換分類
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!WARNING]
 >
->重新命名分類可能會導致「分類規則產生器」中建立的現有 [規則發生問題](/help/components/classifications/crb/classification-rule-builder.md)。 如果您重新命名具有分類規則的分類，請確定您修正每個規則，使其指向已重新命名的分類。
+>重新命名分類可能會導致「[分類規則生產器](/help/components/classifications/crb/classification-rule-builder.md)」中建立的現有規則發生問題。如果您重新命名的分類訂有分類規則，請確定您修正每個規則；這樣才能讓這些規則指向已重新命名的分類。
 
 ## 轉換分類說明
 
