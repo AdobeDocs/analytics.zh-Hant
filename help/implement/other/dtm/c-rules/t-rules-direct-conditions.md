@@ -1,17 +1,17 @@
 ---
-description: 建立直接呼叫規則的條件。
-keywords: Dynamic Tag Management;rule;create rule;new rule;direct call rule
+description: 建立直接呼叫規則的條件.
+keywords: Dynamic Tag Management;規則;建立規則;新規則;直接呼叫規則
 solution: Experience Cloud,Analytics,Target
 title: 建立直接呼叫規則的條件
 uuid: bab0e058-a5b8-4039-8333-5e8f3d06ade4
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '77'
+exl-id: f913a000-cdc1-4e6f-a56f-26c4d73d2299
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '88'
 ht-degree: 100%
 
 ---
-
 
 # 建立直接呼叫規則的條件
 
@@ -24,4 +24,3 @@ ht-degree: 100%
    >[!NOTE]
    >
    >如果您使用 UI 在直接呼叫中指定要傳遞至 `_satellite.track()` 的字串 (如上所述)，則請勿使用引號。如果您使用編輯器插入[自訂頁面程式碼](/help/implement/other/dtm/c-aa-tool/customize-page-code.md)，則必須使用引號。
-
