@@ -1,20 +1,20 @@
 ---
 title: linkExternalFilters
 description: 使用 linkExternalFilters 變數來協助自動退出連結追蹤。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7d4e8d96-17ee-4a04-9a57-37d2056ee9a7
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
-
 
 # linkExternalFilters
 
 AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外部的連結。如果啟用 [`trackExternalLinks`](trackexternallinks.md)，當訪客按一下連結離開您的網站時，系統會將影像要求立即傳送給 Adobe。`linkExternalFilters` 和 [`linkInternalFilters`](linkinternalfilters.md) 變數決定要將哪些連結視為內部/外部連結。
 
-如果此變數包含值，自動退出連結追蹤的運作方式就像允許清單。 如果連結點擊與任何 `linkExternalFilters` 值不符，則不視為退出連結。系統會針對此變數檢查整個 URL。如果啟用 [`linkLeaveQueryString`](linkleavequerystring.md)，也會檢查查詢字串。
+如果此變數包含數值，自動退出連結追蹤將會表現出類似加入允許清單的行為。如果連結點擊與任何 `linkExternalFilters` 值不符，則不視為退出連結。系統會針對此變數檢查整個 URL。如果啟用 [`linkLeaveQueryString`](linkleavequerystring.md)，也會檢查查詢字串。
 
 >[!TIP]
 >
