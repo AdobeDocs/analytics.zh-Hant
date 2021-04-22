@@ -1,28 +1,28 @@
 ---
 title: eVar (銷售)
 description: 繫結至個別產品的自訂變數。
+exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '355'
 ht-degree: 100%
 
 ---
 
-
 # eVar (銷售)
 
-*此說明頁面說明如何實作銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用指南中的 [eVar (銷售)](/help/components/dimensions/evar-merchandising.md)。*
+*此說明頁面說明如何實施作業銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用指南中的 [eVar (銷售)](/help/components/dimensions/evar-merchandising.md)。*
 
 ## 在報表套裝設定中設定 eVar
 
-在實作中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在實施作業中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 >[!IMPORTANT]
 >
->若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。請確定您的實作已正確加以設定。
+>若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。請確定您的實施作業已正確加以設定。
 
-## 使用產品語法進行實作
+## 使用產品語法進行實施作業
 
 「產品語法」啟用時，銷售類別會直接填入 `products` 變數中，因此不需要選取和設定捆綁事件。這是建議使用的方法，您也應使用此方法，除非在發生成功事件時無法將值用於設定 `products`。
 
@@ -39,7 +39,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1` 的值會指派給產品。所有與此產品相關的後續成功事件都會計入 eVar 值中。
 
-## 使用轉換變數語法進行實作
+## 使用轉換變數語法進行實施作業
 
 無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。在這種情況下，您可在到達產品頁面前先設定銷售變數，而值需持續到綑綁事件發生為止。
 
