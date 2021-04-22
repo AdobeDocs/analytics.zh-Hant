@@ -1,14 +1,14 @@
 ---
 title: 重新載入
 description: 重新載入頁面的次數。
+exl-id: 9539a733-9e9f-48b3-b8ab-8d969de27f87
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '63'
 ht-degree: 100%
 
 ---
-
 
 # 重新載入
 
