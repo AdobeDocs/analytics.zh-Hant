@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 中的贏取報表
 description: 瞭解如何使用 Analysis Workspace 建立贏取型報表。
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
-workflow-type: tm+mt
+exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # 贏取報表
 
@@ -112,7 +112,7 @@ Adobe 在 Analysis Workspace 中使用名為「Advertising Analytics」(廣告�
 
 1. 按一下左側的視覺效果圖示，然後將「流量」視覺效果拖曳至自由表格上方的工作區
 2. 按一下左側的「元件」圖示，然後將&#x200B;**來自社交網站的造訪次數**&#x200B;區段拖曳至流量視覺效果上方標示為「將區段放置在此處」的小區域。
-3. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。尺寸項目為黃色。
+3. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。維度項目是黃顏色。
 4. 找出所需的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
 5. 此流量報表為互動式。按一下任何值，即可將流量展開至接續或先前的頁。使用右鍵功能表來展開或收合欄。同一流量報表中也可使用不同的維度。
 
