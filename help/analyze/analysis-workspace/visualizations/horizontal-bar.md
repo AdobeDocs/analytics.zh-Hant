@@ -2,16 +2,16 @@
 description: 在 Workspace 專案中使用水平軸視覺效果。
 title: 橫條圖和堆疊橫條圖
 uuid: 3730929d-42e6-4543-b12a-d002f86ac82d
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 95%
+exl-id: c50cc849-ca9b-4d13-85b4-2bab740ac65a
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '71'
+ht-degree: 100%
 
 ---
-
 
 # 橫條圖和堆疊橫條圖
 
@@ -30,4 +30,3 @@ ht-degree: 95%
 「堆疊長條圖」視覺效果中的[!UICONTROL 「堆疊橫條圖」]視覺效果設定可將圖表顯示為「100% 堆疊」的視覺效果：
 
 ![](assets/horizstacked100.png)
-
