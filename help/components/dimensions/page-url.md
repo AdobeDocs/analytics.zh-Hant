@@ -1,14 +1,14 @@
 ---
 title: 頁面 URL
 description: 頁面的 URL。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 7c0ec494-d79b-4b65-9161-bdc48485af84
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
-
 
 # 頁面 URL
 
@@ -16,15 +16,15 @@ ht-degree: 69%
 
 >[!IMPORTANT]
 >
->此維度僅適用於 Data Warehouse。如果您想要在其他Analytics解決方案中使用URL維度，請考慮在每次點擊時將值復 [制到eVar](evar.md) 。
+>此維度僅適用於 Data Warehouse。如果您想要在其他 Analytics 解決方案中使用 URL 維度，請考慮在每次點擊時將數值複製到 [eVar](evar.md)。
 
 ## 將資料填入此維度中
 
-This dimension retrieves data from the [`g` and `-g` query strings](/help/implement/validate/query-parameters.md) in [Page view calls (`t()`)](/help/implement/vars/functions/t-method.md). [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md) ，即使查詢字串存在，也一律 `g` 會移除此維度。
+此維度會擷取在[頁面檢視呼叫 (`t()`)](/help/implement/vars/functions/t-method.md)來自 [`g` 和 `-g` 查詢字串](/help/implement/validate/query-parameters.md)的資料。[連結追蹤呼叫 (`tl()`)](/help/implement/vars/functions/tl-method.md) 一律會移除此維度，即使 `g` 查詢字串存在也一樣。
 
 有時 URL 的長度會超過 255 個位元組。AppMeasurement 會針對影像要求中 URL 的前 255 個位元組使用 `g` 查詢字串參數。如果 URL 的長度超過 255 個位元組，其餘的 URL 會儲存在 `-g` 查詢字串參數中。此變數包含 URL 中的通訊協定和查詢字串。
 
-AppMeasurement會根據頁面的URL自動收集此資料。 您可以使用變數覆寫收集的 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 值。
+AppMeasurement 會根據頁面的 URL 自動收集此資料。您可以覆寫使用 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 變數收集的數值。
 
 ## 將 URL 填入 eVar 中
 
