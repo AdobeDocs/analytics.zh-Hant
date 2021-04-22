@@ -1,14 +1,14 @@
 ---
 title: 一年當中的第幾天
 description: 當年的數值日，無論年份為何。
+exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '108'
 ht-degree: 100%
 
 ---
-
 
 # 一年當中的第幾天
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
