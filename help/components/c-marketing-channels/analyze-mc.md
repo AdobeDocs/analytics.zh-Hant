@@ -1,14 +1,14 @@
 ---
 title: 分析行銷管道
 description: 了解如何在工作區中使用行銷管道維度。
-translation-type: tm+mt
-source-git-commit: 56ca9fa36db9d7dd126808280ba17f29f4b787d9
-workflow-type: tm+mt
+exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # 分析行銷管道
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 
 ## 套用歸因模型
 
-您可以使用[歸因 IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即時套用不同的歸因模型：
+您可以使用[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即時套用不同的歸因模型：
 
 ![](assets/mc-viz5.png)
 
@@ -58,4 +58,4 @@ ht-degree: 94%
 
 ![](assets/mc-viz6.png)
 
-在此影片中進一步瞭解跨標籤行銷分析： [使用跨標籤分析來探索分析工作區中的基本行銷歸因](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
+了解更多關於視訊中的交叉標籤的行銷分析：[使用交叉標籤分析，探索 Analysis Workspace 內的基本行銷屬性](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/attribution-iq/using-cross-tab-analysis-to-explore-basic-marketing-attribution-in-analysis-workspace.html)。
