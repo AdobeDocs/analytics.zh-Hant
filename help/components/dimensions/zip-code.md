@@ -1,14 +1,14 @@
 ---
 title: 郵遞區號
 description: 訪客的郵遞區號。
-translation-type: tm+mt
-source-git-commit: 6e7464f07fd95dd1840a2d8baa8337b0d1867d73
-workflow-type: tm+mt
+exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '257'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
-
 
 # 郵遞區號
 
@@ -31,9 +31,9 @@ ht-degree: 78%
 
 維度項目包含訪客的郵遞區號。
 
-## 您可在Adobe Analytics中報告哪些國家的郵遞區號？
+## 您可以在 Adobe Analytics 報告哪些國家的郵遞區號？
 
-* 亞蘭群島
+* 奧蘭群島
 * 阿爾巴尼亞
 * 阿爾及利亞
 * 阿根廷
@@ -50,7 +50,7 @@ ht-degree: 78%
 * 中國
 * 哥倫比亞
 * 哥斯大黎加
-* 克羅地亞
+* 克羅埃西亞
 * 捷克共和國
 * 丹麥
 * 厄瓜多爾
@@ -84,10 +84,10 @@ ht-degree: 78%
 * 模里西斯
 * 墨西哥
 * 摩洛哥
-* 莫桑比克
+* 莫三比克
 * 尼泊爾
 * 荷蘭
-* 新西蘭
+* 紐西蘭
 * 挪威
 * 巴基斯坦
 * 巴拿馬
@@ -103,9 +103,9 @@ ht-degree: 78%
 * 塞內加爾
 * 塞爾維亞
 * 新加坡
-* 斯洛文尼亞
+* 斯洛維尼亞
 * 南非
-* 韓國
+* 南韓
 * 西班牙
 * 斯里蘭卡
 * 瑞典
