@@ -2,16 +2,16 @@
 description: Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：逐年比較、逐季比較、逐月比較等。
 title: 日期比較
 uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '643'
+exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '640'
 ht-degree: 100%
 
 ---
-
 
 # 日期比較
 
@@ -101,4 +101,3 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 <p>See Jonny Moon's email from November 3. </p>
 
  -->
-
