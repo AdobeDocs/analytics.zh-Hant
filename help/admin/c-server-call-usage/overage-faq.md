@@ -2,14 +2,14 @@
 description: Adobe Analytics 伺服器呼叫使用量常見問題集
 title: 伺服器呼叫使用量常見問題集
 uuid: 43340481-2e49-446b-bec7-86fcadeb4233
+exl-id: a660542c-9389-4608-bc25-49831c21ceb7
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '720'
 ht-degree: 100%
 
 ---
-
 
 # 伺服器呼叫使用量常見問題集
 
@@ -35,7 +35,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：目前登入的公司有些報表套裝無法提供報表資料，但是我在「報表套裝使用量」標籤下仍會看到這些報表套裝的耗用量。這是錯誤嗎？</b> </p> </td> 
-   <td colname="col2"> <p>答：否。就像您的伺服器呼叫耗用量和承諾使用量詳細資料一樣，報表套裝清單涵蓋依 Google Analytics 合約實作的所有登入公司。 </p> </td> 
+   <td colname="col2"> <p>答：否。就像您的伺服器呼叫耗用量和承諾使用量詳細資料一樣，報表套裝清單涵蓋依 Google Analytics 合約實施作業的所有登入公司。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：使用期間是否一律與我的 Analytics 合約或計費週期的期間相同？</b> </p> </td> 
@@ -47,7 +47,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：我的合約未包含次要伺服器呼叫的佈建，但我仍可在「目前使用量」和「報表套裝使用量」標籤下看到這些呼叫。這是錯誤嗎？</b> </p> </td> 
-   <td colname="col2"> <p>答：否。雖然您的合約未明確佈建次要伺服器呼叫，但如果您要將 Analytics 資料傳送到多個報表套裝，仍會產生這些呼叫。您可以重新造訪您的實作，以確保您沒有傳送此類呼叫，或聯絡您的客戶成功案例經理以更新您的合約，以便其包含此類呼叫的佈建。 </p> </td> 
+   <td colname="col2"> <p>答：否。雖然您的合約未明確佈建次要伺服器呼叫，但如果您要將 Analytics 資料傳送到多個報表套裝，仍會產生這些呼叫。您可以重新造訪您的實施作業，以確保您沒有傳送此類呼叫，或聯絡您的客戶成功案例經理以更新您的合約，以便其包含此類呼叫的佈建。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：我的合約未包含次要伺服器呼叫的佈建，但我仍可在「目前使用量」和「報表套裝使用量」標籤下看到這些呼叫。這是否表示我開始發生使用過量？</b> </p> </td> 
