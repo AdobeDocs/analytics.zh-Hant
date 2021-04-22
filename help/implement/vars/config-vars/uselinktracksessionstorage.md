@@ -1,14 +1,14 @@
 ---
 title: useLinkTrackSessionStorage
 description: 將連結追蹤資料存放在工作階段存放區中，而非 Cookie。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '261'
 ht-degree: 100%
 
 ---
-
 
 # useLinkTrackSessionStorage
 
