@@ -1,17 +1,17 @@
 ---
-description: 在 Dynamic Tag Management 中建立資料元素。
-keywords: Dynamic Tag Management;data element;create new data element;name;type;default value;force lowercase value;remember this value for
+description: 在動態標籤管理中建立資料元素。
+keywords: Dynamic Tag Management;資料元素;建立新資料元素;名稱;類型;預設值;強制小寫值;記住此值
 solution: Experience Cloud,Analytics,Target
 title: 建立資料元素
 uuid: eacd5c60-6197-4129-a9e1-a39e9a58b38a
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '331'
+exl-id: 6831c2a3-226c-4dd1-93c2-221983c07694
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '351'
 ht-degree: 100%
 
 ---
-
 
 # 建立資料元素
 
@@ -40,7 +40,7 @@ ht-degree: 100%
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>預設值</strong></td> 
-      <td class="chdesc stentry"> <p>預設元素。即使 URL 參數不存在或 Dynamic Tag Management 找不到 URL 參數，此值可確保資料元素總是有值。 </p> <p> <p>注意：如果沒有值和沒有預設值，則不會傳回任何項目。不會設定參考該資料元素的任何變數。也請注意，如果它是「自訂代碼」資料元素，即會忽略預設值欄位。 </p> </p> </td> 
+      <td class="chdesc stentry"> <p>一個預設元素。即使 URL 參數不存在或 Dynamic Tag Management 找不到 URL 參數，此值可確保資料元素總是有值。 </p> <p> <p>注意：如果沒有值和沒有預設值，則不會傳回任何項目。任何參照該資料元素的變數都無法設定。另外請注意，如果預設值欄位是「自訂代碼」資料元素，則會忽略此欄位。 </p> </p> </td> 
     </tr> 
     <tr class="chrow strow"> 
       <td class="choption"><strong>強制小寫值</strong></td> 
@@ -50,8 +50,8 @@ ht-degree: 100%
       <td class="choption"><strong>記住此值</strong></td> 
       <td class="chdesc stentry"> <p>您想要 Dynamic Tag Management 記住此值多久的時間。 </p> <p> 有效值包括： </p> 
       <ul id="ul_52F6CD8FC22942208F3F45492E914104"> 
-        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>作業階段：以作業階段為基礎的計時會依實施而有所差異。作業階段資料元素會設為作業階段 Cookie。不過，此設定會視網站伺服器或瀏覽器而定。它和行銷報表與分析中所用的作業階段無關。 </p> </li> 
-        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>頁面檢視 </p> </li> 
+        <li id="li_32E4366C5B2E46D788CD8478620FE3E0"> <p>作業階段：以作業階段為基礎的計時會依實施而有所差異。作業階段資料元素會設定為作業階段 Cookie。然而，此設定能夠以網頁伺服器或瀏覽器為基礎。此與 Marketing Reports and Analytics 中使用的作業階段無關。 </p> </li> 
+        <li id="li_8A944564BF7643E4B21F0EF2394B3FE8"> <p>Pageview </p> </li> 
         <li id="li_5C8A2F2392FD475AA89DDA7D5B5CF88B"> <p>訪客 </p> </li> 
       </ul> </td> 
     </tr> 
