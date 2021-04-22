@@ -2,11 +2,14 @@
 description: 顯示篩選和加權量度的範例。
 title: 篩選和加權量度
 uuid: 8c4ed912-68a3-4896-91c8-aa7daffae6a9
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: bea46e03-7d05-44c8-b654-c61b1e32becc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '143'
+ht-degree: 100%
 
 ---
-
 
 # 篩選和加權量度
 
@@ -31,4 +34,3 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 假設您想在一般情形下依反彈率排序，但瀏覽次數較高的頁面應排在清單中較前面的位置。那麼您應建立加權的反彈率，如下所示：
 
 ![](assets/cm_wbr.png)
-
