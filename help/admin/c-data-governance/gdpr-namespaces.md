@@ -2,14 +2,14 @@
 description: 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
 title: 命名空間
 uuid: cab61844-3209-4980-b14c-6859de777606
+exl-id: 421572c2-2789-48bc-b530-d48216799724
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '903'
 ht-degree: 100%
 
 ---
-
 
 # 命名空間
 
