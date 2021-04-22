@@ -4,14 +4,14 @@ title: Activity Map 概觀
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 98%
+exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '284'
+ht-degree: 100%
 
 ---
-
 
 # Activity Map 概觀
 
@@ -28,7 +28,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 **管理員快速入門**
 
 * [啟用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [實作代碼範例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+* [實施作業代碼範例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
 **使用者快速入門**
 
@@ -55,4 +55,3 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [Analytics 中的 Activity Map 報表](activitymap-reporting-analytics.md)
 * [疑難排解瀏覽器延伸模組](troubleshooting-browser-extensions.md)
 * [知識資源](activitymap-info-resources.md)
-
