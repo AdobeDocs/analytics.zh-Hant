@@ -1,6 +1,6 @@
 ---
 description: 瞭解使用「可選時間戳記」設定的好處與限制。
-keywords: Analytics 實作
+keywords: Analytics 實施作業
 title: 使用可選時間戳記
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
