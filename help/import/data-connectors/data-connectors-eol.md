@@ -1,6 +1,6 @@
 ---
-description: 了解 Analytics Data Connectors 何時終止及終止原因。
-title: Analytics Data Connectors 終止服務預先公告
+description: 了解 Analytics資料連接器何時終止及終止原因。
+title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
 source-git-commit: b1d4425a81fe4b3ee3ff7516ca7505698fe2ea3a
@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Adobe Data Connectors 終止服務
+# Adobe資料連接器終止服務
 
 十多年來，Adobe Analytics 致力於提供同級最佳的網頁與行銷分析解決方案，以符合客戶的需求。隨著技術和企業需求不斷演變，我們努力繼續提供符合最高標準的服務。很遺憾的是，支援這些整合作業的 API 不再符合標準，且不再適用於如今的 Adobe Analytics 技術基礎架構。
 
