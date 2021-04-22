@@ -2,7 +2,7 @@
 description: 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。eVar 可以瀏覽為準，其功能類似於 Cookie。傳送到 eVar 變數的值，會在預定的期間內跟隨使用者。
 keywords: eVar
 title: 轉換變數 (eVar)
-feature: Admin Tools
+feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 translation-type: tm+mt
@@ -76,7 +76,7 @@ eVar 最適合用來測量原因和結果，如：
        <li id="li_82DB2D7F53304623A5E1241D75C7DF94">當月過期：eVar 將於星期一後第 31 天早上 7:15 過期。 </li> 
       </ul> </li> 
      <li id="li_C132C5C5A5344B91BDF5EB6A1C717C37"><b>特定的轉換事件。</b>在指定的特定事件之後引發的任何其他轉換事件，都會關聯至 eVar。 </li> 
-     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不.</b>只要       <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
+     <li id="li_5A782D743FB940649E6CB3E4BEA9B8B6"><b>從不。</b>只要       <span class="varname">visitorID</span> Cookie 完整，在 eVar 和事件之間可間隔任何時間量。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ eVar 最適合用來測量原因和結果，如：
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售</span> </p> <p>(僅限 eVar) </p> </td> 
-   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法： </p> <p> <b>產品語法</b>：</span>建立 eVar 值與產品的關聯。注意：如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b>轉換變數語法</b>：</span>僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://docs.adobe.com/content/help/en/analytics/components/variables/merchandising-variables/var-merchandising.html">銷售變數</a>。 </p> </td> 
+   <td colname="col2"> <p>銷售變數可遵循下列其中一種語法： </p> <p> <b>產品語法</b>：</span>建立 eVar 值與產品的關聯。注意：如果選取了「產品語法」，便會停用「銷售捆綁事件」區段，且無法選取並編輯。對於此語法，捆綁事件並不適用。 </p> </p> <p> <b>轉換變數語法</b>：</span>僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在這種情況下，您要選取作為捆綁事件的事件。 </p> <p>如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/merchandising-variables/var-merchandising.html">銷售變數</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="uicontrol"> 銷售捆綁事件</span> </p> <p>(僅限 eVar) </p> </td> 
