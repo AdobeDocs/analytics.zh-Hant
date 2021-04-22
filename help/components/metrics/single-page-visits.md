@@ -1,14 +1,14 @@
 ---
 title: 單頁造訪次數
 description: 「頁面」維度項目在造訪中未變更的次數。
+exl-id: 086235d0-4542-4e82-96ab-28c47c842ecf
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 單頁造訪次數
 
