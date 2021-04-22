@@ -2,14 +2,14 @@
 description: 為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。請務必先熟悉標籤及其定義。
 title: 標籤報表套裝資料
 uuid: a694851c-8933-496e-9118-113cc38cba8a
+exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
 ---
-
 
 # 標籤報表套裝資料
 
@@ -93,4 +93,3 @@ ht-degree: 100%
    >每次都應該檢查目標報表套裝，確認您所複製的標籤正確無誤。這點對於含有 ID 或 DEL 標籤的變數來說尤其重要。
 
 1. 按一下&#x200B;**[!UICONTROL 「套用」]**。
-
