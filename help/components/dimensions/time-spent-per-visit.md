@@ -1,14 +1,14 @@
 ---
 title: 每次造訪逗留時間
 description: 造訪花費的總時間。
+exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '302'
 ht-degree: 100%
 
 ---
-
 
 # 每次造訪逗留時間
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-這些維度可直接用於所有實作。如果報表套裝包含資料，這些維度即會運作。
+這些維度可直接用於所有實施作業。如果報表套裝包含資料，這些維度即會運作。
 
 ## 維度項目
 
