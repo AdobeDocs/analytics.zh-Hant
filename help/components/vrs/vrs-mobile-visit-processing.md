@@ -2,14 +2,14 @@
 description: 虛擬報表套裝中的內容感知作業變更了 Adobe Analytics 計算行動造訪次數的方式。本文針對行動造訪次數定義的方式，說明背景點擊數與應用程式啟動事件數 (兩者均由行動 SDK 設定) 的處理含意。
 title: 內容感知作業
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
+exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 translation-type: ht
-source-git-commit: 3997889ae72920d719203edbb159b55b983158e7
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1556'
 ht-degree: 100%
 
 ---
-
 
 # 內容感知作業
 
