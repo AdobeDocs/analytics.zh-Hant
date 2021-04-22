@@ -2,14 +2,14 @@
 description: 有關 Advertising Analytics 的使用案例。
 title: Audience Analytics 使用案例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
+exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '218'
 ht-degree: 100%
 
 ---
-
 
 # Audience Analytics 使用案例
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 外觀類似塑型 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-身為多媒體發佈商，您可以使用[區段 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) 來比較您的第三方對象，以了解關鍵的差異特徵。這有助您建立高價值的第一方區段並作為目標定位。
+身為多媒體發佈商，您可以使用[區段 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) 來比較您的協力廠商對象，以了解關鍵的差異特徵。這有助您建立高價值的第一方區段並作為目標定位。
 
 ## 潛在客戶分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
