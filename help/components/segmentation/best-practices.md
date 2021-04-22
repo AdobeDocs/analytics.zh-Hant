@@ -1,14 +1,14 @@
 ---
 title: 細分最佳實務
 description: 建立可有效傳回資料的最佳區段。
+exl-id: 4115a804-5063-430a-b9d3-2b64b26ca4d8
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
 ---
-
 
 # 細分最佳實務
 
