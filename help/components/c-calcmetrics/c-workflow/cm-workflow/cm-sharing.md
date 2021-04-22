@@ -2,11 +2,14 @@
 description: 您可以將量度共用給整個組織、群組或個別使用者 (視您的權限而定)。
 title: 共用計算量度
 uuid: 7e2a3c16-3650-42ca-842b-2575e904e82c
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '275'
+ht-degree: 100%
 
 ---
-
 
 # 共用計算量度
 
@@ -38,4 +41,3 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
    「共用」圖示會出現在量度旁：![](assets/share_icon.png)
 
 1. 您可以依已共用給您的量度來篩選，方法是前往「**[!UICONTROL 篩選]** > **[!UICONTROL 其他篩選器]** > **[!UICONTROL 與我共用]**」。
-
