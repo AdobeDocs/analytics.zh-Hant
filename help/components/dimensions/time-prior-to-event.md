@@ -1,14 +1,14 @@
 ---
 title: 事件之前時間
 description: 量度與造訪的首次點擊之間相隔的時間量。
+exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 
 ---
-
 
 # 事件之前時間
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-雖然此維度在技術上可立即用於所有實作，但對於自訂和購買事件最能發揮效用。Adobe 建議在您的網站上實作自訂事件。如果您實作自訂事件，即無須對此維度進行額外的實作。
+雖然此維度在技術上可立即用於所有實施作業，但對於自訂和購買事件最能發揮效用。Adobe 建議在您的網站上實施作業自訂事件。如果您實施作業自訂事件，即無須對此維度進行額外的實施作業。
 
 ## 維度項目
 
