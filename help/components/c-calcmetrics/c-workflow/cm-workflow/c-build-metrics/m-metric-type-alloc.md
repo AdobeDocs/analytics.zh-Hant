@@ -2,14 +2,14 @@
 description: '了解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
+exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '908'
 ht-degree: 100%
 
 ---
-
 
 # 量度類型和歸因
 
@@ -33,6 +33,7 @@ ht-degree: 100%
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
 >* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。對計算量度的這一變更將反映在 Analysis Workspace、Reports＆Analytics、Reporting API 和 Report Builder 中。如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
+
 >
 
 
@@ -82,4 +83,3 @@ ht-degree: 100%
 | 促銷活動 B | $2.50 | $2.50 | $2.50 |
 | 促銷活動 C | $2.50 | $2.50 | $2.50 |
 | 總計 | $10.00 | $10.00 | $10.00 |
-
