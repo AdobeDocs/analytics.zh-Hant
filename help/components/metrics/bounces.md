@@ -1,14 +1,14 @@
 ---
 title: 跳出數
 description: 只有一次點擊的造訪次數。
+exl-id: fb83957c-9955-4b32-bc0f-53de92e2ba2c
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # 跳出數
 
