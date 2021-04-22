@@ -2,7 +2,7 @@
 description: 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。
 subtopic: Classifications
 title: 分類匯入程式 - 概觀
-feature: Admin Tools
+feature: 管理工具
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 translation-type: tm+mt
