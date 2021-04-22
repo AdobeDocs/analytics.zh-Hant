@@ -1,17 +1,17 @@
 ---
-description: 部署 Analytics 時，Dynamic Tag Management 中用於連結追蹤的欄位說明。
-keywords: Dynamic Tag Management;link tracking;enable clickmap;track download links;download extensions;track outbound links;keep url parameters
+description: 部署 Analytics 時，動態標籤管理中用於連結追蹤的欄位說明。
+keywords: Dynamic Tag Management;連結追蹤;啟用 Clickmap;追蹤下載連結;下載副檔名;追蹤對外連結;保留 URL 參數
 solution: Experience Cloud,Analytics
 title: 連結追蹤
 uuid: 982b744b-5696-4c31-b1d1-410486b0eedd
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '268'
+exl-id: cdce5e3f-bc36-47ab-9c96-f2faaa2c40b4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '286'
 ht-degree: 100%
 
 ---
-
 
 # 連結追蹤
 
