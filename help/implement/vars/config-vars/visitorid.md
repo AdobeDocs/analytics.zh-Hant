@@ -1,14 +1,14 @@
 ---
 title: visitorID
 description: 使用自訂訪客 ID。
+exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
-
 
 # visitorID
 
@@ -43,4 +43,4 @@ s.visitorID = "abc123";
 
 >[!CAUTION]
 >
->自訂訪客 ID 的無效實作可能導致資料不正確，並造成報告效能不佳。如果此變數包含預設值 (例如 `"0"` 或 `"NULL"`)，則 Adobe 會將這些點擊視為相同的訪客。此情況會導致資料不正確、訪客計數偏低，以及訪客層級區段的運作不如預期。不當實作的自訂訪客 ID 也會對處理伺服器造成大量負載、增加[延遲](/help/technotes/latency.md)，並降低報表效能。
+>自訂訪客 ID 的無效實施作業可能導致資料不正確，並造成報告效能不佳。如果此變數包含預設值 (例如 `"0"` 或 `"NULL"`)，則 Adobe 會將這些點擊視為相同的訪客。此情況會導致資料不正確、訪客計數偏低，以及訪客層級區段的運作不如預期。不當實施作業的自訂訪客 ID 也會對處理伺服器造成大量負載、增加[延遲](/help/technotes/latency.md)，並降低報表效能。
