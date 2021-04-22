@@ -1,6 +1,6 @@
 ---
 description: 訪客移轉是將訪客 ID Cookie 從一個網域移轉至另一個網域的程序。
-keywords: Analytics 實作
+keywords: Analytics 實施作業
 title: 訪客移轉
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
@@ -9,7 +9,7 @@ translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 78%
 
 訪客移轉可讓您在變更資料收集網域時保留訪客識別 Cookie。資料收集網域可能因下列原因而變動:
 
-* 從`2o7.net`移至`adobedc.net`。
+* 從 `2o7.net` 移至 `adobedc.net`。
 
-* 您正在實作[Experience Cloud訪客ID服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)，並正從CNAME/第一方資料收集網域移至`adobedc.net`、`2o7.net`或`omtrdc.net`
+* 您正在實施 [Experience Cloud 訪客 ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)，且正從 CNAME/第一方資料收集網域移至 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
 
-* 移至cname/第一方資料收集（[第一方Cookie）](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
+* 移至 cname/第一方資料收集 ( [第一方 Cookie)](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 * 從一個 CNAME 移至另一個 CNAME (變更網域)。
 
@@ -51,11 +51,12 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>組態變更後 6 小時以上</b>: 更新 Analytics JavaScript 程式碼中的 <code> s.trackingServer</code> 和 <code> s.trackingServerSecure</code> 變數，以使用新的資料收集伺服器。 </p> </td> 
-   <td colname="col3"> <p>進行此變更後，請使用<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en">Experience Cloud除錯程式</a>來驗證Analytics影像要求是否前往更新的資料收集伺服器。 </p> </td> 
+   <td colname="col3"> <p>進行此變更後，請使用<a href="https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant"> Experience Cloud debugger</a> 驗證，確認 Analytics 影像要求正在前往更新的資料收集伺服器。
+ </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>緊接在更新 Analytics 程式碼後</b>: 測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 </p> </td> 
-   <td colname="col3"> <p>使用  <a href="../implement/validate/packet-monitor.md"> 封</a> 包監控器確認當您第一次存取您的網站或清除Cookie後，在200（確定）HTTP狀態碼之前會看到兩個302（重新導向）HTTP狀態碼。如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 </p> </td> 
+   <td colname="col3"> <p>使用 <a href="../implement/validate/packet-monitor.md"> 封包監視器</a>，驗證第一次存取您的網站或是清除 Cookie 後，您會先看到兩個 302 (重新導向) HTTP 狀態碼，接著才是 200 (確定) HTTP 狀態碼。如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在整個移轉期間</b>: 保留 DNS 記錄，讓先前的主機名稱作用中。 </p> </td> 
