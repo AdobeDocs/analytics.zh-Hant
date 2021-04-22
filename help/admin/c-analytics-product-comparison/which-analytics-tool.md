@@ -2,14 +2,14 @@
 description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 translation-type: ht
-source-git-commit: f2db5f611952ee315c84f925d038c539da110e38
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1162'
 ht-degree: 100%
 
 ---
-
 
 # 我該使用哪種 Adobe Analytics 工具呢？
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
 * 用於利用排程報告中的「發佈清單」。
 
-該使用 **[Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)** 的情況：
+該使用 **[Data Workbench](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html)** 的情況：
 
 * 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
 * 用於從 CRM 到 POS 到 Web，建立線上和離線互動的多頻道資料集。
@@ -59,9 +59,9 @@ ht-degree: 100%
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
    * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
 
-該使用 **[Data Connectors](https://www.adobeexchange.com/experiencecloud.html)** 的情況：
+該使用 **[資料連接器](https://www.adobeexchange.com/experiencecloud.html)** 的情況：
 
-* 當您與第三方提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。Data Connectors 通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
+* 當您與協力廠商提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。資料連接器通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 使用時機：
 
@@ -96,14 +96,14 @@ ht-degree: 100%
 * 若要存取隱藏在其他 UI 中的變數 (IP 位址、Experience Cloud ID、Analytics 訪客 ID、頁面 URL)
 * 若要存取比 UI 更加精細的資料 (非正常的表格檢視)
 * 用若要以樞紐分析表輸入所適用的格式下載資料
-* 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到第三方資料視覺化工具中時
+* 若客戶想要將 (稍微摘要過，而不是點擊層級的) Adobe 資料，輸入到協力廠商資料視覺化工具中時
 * 若要在 Adobe Analytics 遇上「低流量」狀態時存取所有不重複維度項目
 
 **[Analytics 資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-contents.md)**&#x200B;使用時機：
 
 * 要利用我們所能提供最精細的資料摘要 (訪客 ID、點擊數) 時。
 * 若客戶希望 Adobe 資料能以我們所能傳送最精細的層級，存放在客戶端的資料庫中時.
-* 客戶希望開發商務智慧 (BI) 工具，或將點擊層級的 Adobe 資料輸入到第三方工具中時。
+* 客戶希望開發商務智慧 (BI) 工具，或將點擊層級的 Adobe 資料輸入到協力廠商工具中時。
 
 當其他視覺化選項都不符合您的需求時，才應該使用&#x200B;**[「報告 API」](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-guide.md)**。有 3 種 API 選項，包括：
 
