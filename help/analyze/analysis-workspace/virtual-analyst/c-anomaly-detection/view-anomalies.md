@@ -2,16 +2,16 @@
 description: 您可以在表格或線性圖中檢視異常。
 title: 在 Analysis Workspace 中檢視異常
 uuid: 270a7ea9-6485-4c83-8220-5a2200bd7200
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 98%
+exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '249'
+ht-degree: 100%
 
 ---
-
 
 # 在 Analysis Workspace 中檢視異常
 
@@ -45,4 +45,3 @@ ht-degree: 98%
 您可以選擇允許信賴區間縮放圖表。只需按一下「設定」(「齒輪」) 圖示，並勾選&#x200B;**[!UICONTROL 「允許異常偵測縮放 Y 軸」]**&#x200B;即可。
 
 ![](assets/scale-y-axis.png)
-
