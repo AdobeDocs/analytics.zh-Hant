@@ -1,14 +1,14 @@
 ---
 title: 單頁造訪次數
 description: 指出造訪包含單一頁面的旗標。
+exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # 單頁造訪次數
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
