@@ -1,19 +1,19 @@
 ---
-title: 獨特的裝置
-description: 唯一裝置的數目。
-translation-type: tm+mt
-source-git-commit: 31e97d3797697aa581f96c7429c728e055ab492a
-workflow-type: tm+mt
+title: 不重複裝置
+description: 不重複裝置數量。
+exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '78'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
+# 不重複裝置
 
-# 獨特的裝置
-
-「唯一裝置」量度是跨裝 [置分析量度](../cda/overview.md) ，會計算銜接後裝置的數量。
+「不重複裝置」量度是[跨裝置分析](../cda/overview.md)量度，用來計算銜接後裝置的數量。
 
 ## 此量度的計算方式
 
-對於所 [有人](people.md)，請計算每個人的裝置數。 此量度通常與非CDA報 [表套裝中](unique-visitors.md) 「獨特訪客」緊密相符。 當共用裝置對應至多個人時，可能會發生差異。 在此案例中，會計算一個獨特訪客，同時計算多個獨特裝置。
+對所有[人](people.md)來說，可計算每個人的裝置數量。此量度一般非常符合非 CDA 報告套裝中的[不重複訪客](unique-visitors.md)。當共用裝置對應到多個人時，可能會發生差異。在這種情況下，計算一位不重複訪客的同時會計算多個不重複裝置。
