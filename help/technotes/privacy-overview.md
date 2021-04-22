@@ -1,22 +1,22 @@
 ---
 description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
-keywords: privacy
+keywords: 隱私權
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 100%
 
 ---
-
 
 # 隱私權概觀
 
 Adobe 建議您提供關於選擇退出不讓 Adobe 產品或服務收集其瀏覽資訊的容易找到且容易了解的相關資訊給網站訪客。
 
-訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實作 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
+訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實施作業 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
 
 ## 資料收集劃分 {#section_F59D958D7AE44747846993E643CD4BF2}
 
@@ -52,7 +52,7 @@ Adobe Analytics 收集下列資料：
 
 *前提是 Adobe 客戶未選擇移除 IP。
 
-## 其他隱私權考量事項{#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+## 其他隱私權考量事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
 <table id="table_247B425E774F403288233824870D070E"> 
  <thead> 
@@ -109,7 +109,7 @@ Adobe Analytics 收集下列資料：
  </tbody> 
 </table>
 
-## EMEA 資料中心位置{#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA 資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
 下列 EMEA 資料中心目前代管 Adobe Analytics 資料：
 
