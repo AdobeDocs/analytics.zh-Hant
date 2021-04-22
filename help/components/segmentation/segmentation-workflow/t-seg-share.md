@@ -1,7 +1,7 @@
 ---
 description: 您可以將區段共用給整個組織、群組或個別使用者 (視您的權限而定)。
 title: 共用區段
-feature: Segmentation
+feature: 區段
 uuid: 48736078-85a7-49bd-b8b8-562818798c5e
 exl-id: f51a0d1b-d293-4b41-b1dd-a79da841d94a
 translation-type: tm+mt
