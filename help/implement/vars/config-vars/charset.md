@@ -1,20 +1,20 @@
 ---
 title: charSet
 description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
-translation-type: tm+mt
-source-git-commit: 70410af433f540764b71bd29a81ff9d8210cb95c
-workflow-type: tm+mt
+exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '196'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
-
 # charSet
 
-Adobe 會使用 charSet 變數將傳入的資料轉換為 UTF-8，以便供 Analytics 儲存和列入報表。大部分網站都不需要設定此變數。
+Adobe 會使用 charSet 變數將傳入的資料轉換為 UTF-8，以便供 Analytics 儲存和列入報表。大多數網站不需要設定此變數。
 
-只有在報表中看到亂碼值([mojibake](https://en.wikipedia.org/wiki/Mojibake))時，才設定此變數。 如果您的網站在不同頁面上使用不同的編碼，您可以逐頁設定此變數。
+只有在報告中看到亂碼值 ([mojibake](https://en.wikipedia.org/wiki/Mojibake)) 時，才設定此變數。如果您的網站在不同頁面上使用不同的編碼，您可以逐頁設定此變數。
 
 ## Adobe Experience Platform Launch 中的字元集
 
@@ -25,11 +25,11 @@ Adobe 會使用 charSet 變數將傳入的資料轉換為 UTF-8，以便供 Anal
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 字元集]欄位。
 
-您可使用預設字元集或自訂字元集。請避免將值從中變更， `UTF-8` 除非您在報表中看到亂碼值。
+您可使用預設字元集或自訂字元集。避免變更 `UTF-8` 的數值，除非在報告中看到亂碼值。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.charSet
 
-`charSet` 變數為字串。如果您在Adobe Analytics中有亂碼值，請將此變數設定為與網站上的 `<meta charset="">` HTML標籤相同的值。
+`charSet` 變數為字串。如果您的 Adobe Analytics 中有亂碼值，請將此變數設定為與網站上的 `<meta charset="">` HTML 標籤相同的數值。
 
 ```js
 s.charSet = "UTF-8";
