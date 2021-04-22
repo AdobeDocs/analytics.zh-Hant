@@ -1,20 +1,20 @@
 ---
-description: 回答實作 Audience Analytics 時可能遇到的問題。
+description: 回答實施作業 Audience Analytics 時可能遇到的問題。
 solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 translation-type: ht
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
 
 ---
 
-
 # 常見問題集
 
-回答實作 Audience Analytics 時可能遇到的問題。
+回答實施作業 Audience Analytics 時可能遇到的問題。
 
 ## 法律常見問題 {#section_B51CFC961C0B45A2BE5F4A4404620764}
 
@@ -42,7 +42,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## AAM 專屬常見問題{#section_6BDF746BA6464359A6A89A64EB025D12}
+## AAM 專屬常見問題 {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
@@ -77,7 +77,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## Analytics 專屬常見問題{#section_67BFB1B1E48D4113A38B075C020931BA}
+## Analytics 專屬常見問題 {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -98,7 +98,7 @@ ht-degree: 100%
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
      <li id="li_50A9BDF612304062913370F16BC882EF">目的地和區段資料來源中的 AAM 資料匯出控制可能有衝突，使得某個區段無法傳送。 </li> 
-     <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">若您在區段中使用了第三方資料特徵，則這些區段無法與包含個人資料的目的地 (一組報表套裝) 共用。 </li> 
+     <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">若您在區段中使用了協力廠商資料特徵，則這些區段無法與包含個人資料的目的地 (一組報表套裝) 共用。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -116,12 +116,12 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## 伺服器端轉送 (SSF) 常見問題{#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## 伺服器端轉送 (SSF) 常見問題 {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
   <tr> 
-   <td colname="col1"> <p><b>問：如果我已實作舊式 SSF，我是否還需要前往 Analytics「管理控制台」並開啟報表套裝 SSF？</b> </p> </td> 
+   <td colname="col1"> <p><b>問：如果我已實施作業舊式 SSF，我是否還需要前往 Analytics「管理控制台」並開啟報表套裝 SSF？</b> </p> </td> 
    <td colname="col2"> <p>是。在 AAM 目的地設定中，您只會看見已開啟 SSF 的報表套裝。 </p> </td> 
   </tr> 
   <tr> 
@@ -151,8 +151,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：有何針對此問題的舊版方法，例如舊的測試版或「諮詢」外掛程式 Cookie 目的地？</b> </p> </td> 
-   <td colname="col2"> <p>我們建議您實作新的整合，並刪除舊目的地。 </p> </td> 
+   <td colname="col2"> <p>我們建議您實施作業新的整合，並刪除舊目的地。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
-
