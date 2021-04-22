@@ -2,14 +2,14 @@
 description: Analysis Workspace 範本的詳細資料，以及在 Reports & Analytics 和 Report Builder 的報告功能。
 title: 報告 Adobe Analytics 的 Advertising 資料
 uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
+exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 
 ---
-
 
 # 報告 Adobe Analytics 的 Advertising 資料
 
@@ -21,11 +21,11 @@ Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和
 
 ## Analysis Workspace：搜尋引擎 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
-透過此範本，任何實作此搜尋引擎整合作業的使用者得以存取 Analytics 豐富的搜尋引擎資料。您可以依序選擇&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 範本]** > **[!UICONTROL 廣告]** > **[!UICONTROL 搜尋引擎」]**，加以存取。
+透過此範本，任何實施作業此搜尋引擎整合作業的使用者得以存取 Analytics 豐富的搜尋引擎資料。您可以依序選擇&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 範本]** > **[!UICONTROL 廣告]** > **[!UICONTROL 搜尋引擎」]**，加以存取。
 
 >[!NOTE]
 >
->即使您並未實作任何廣告帳戶，所有客戶仍可看見「廣告範本」類別。然而，如果嘗試開啟尚未針對特定公司佈建的「搜尋引擎」範本，系統便會顯示錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。在此情況下，按一下&#x200B;**[!UICONTROL 「立即設定」]**&#x200B;即可前往[「Advertising 帳戶設定」](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)畫面。
+>即使您並未實施作業任何廣告帳戶，所有客戶仍可看見「廣告範本」類別。然而，如果嘗試開啟尚未針對特定公司佈建的「搜尋引擎」範本，系統便會顯示錯誤訊息，說明您尚未設定任何搜尋引擎帳戶。在此情況下，按一下&#x200B;**[!UICONTROL 「立即設定」]**&#x200B;即可前往[「Advertising 帳戶設定」](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)畫面。
 
 ![](assets/aa_aw.png)  ![](assets/aa_aw2.png) ![](assets/aa_aw3.png) ![](assets/aa_aw4.png)  ![](assets/aa_aw5.png) ![](assets/aa_aw6.png)
 
