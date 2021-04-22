@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 與瀏覽器 Cookie
 description: 瞭解 Adobe Analytics 如何處理瀏覽器的 Cookie。
-translation-type: tm+mt
-source-git-commit: 1ff9c892670e7b120bf727e556ff70f76c6751be
-workflow-type: tm+mt
+exl-id: d802854c-1a52-4f45-9b86-c5f8955a90c2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2285'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 與瀏覽器 Cookie
 
@@ -103,7 +103,7 @@ Adobe 建議您確保所有網頁都採用 HTTPS。
 * 由 ECID (Experience Cloud ID) 服務程式庫設定的 AMCV Cookie
 * Analytics 舊版備援 Cookie `s_fid`
 
-Analytics legacy `s_vi` cookie as a third party cookie, including collection targets of adobedc.net, 2o7.net or omtrdc.net, continues to be blocked based on earlier versions of ITP.
+作為協力廠商 Cookie 的 Analytics 舊版 `s_vi` Cookie (包括 adobedc.net、2o7.net 或 omtrdc.net 的收集目標) 會繼續根據舊版 ITP 遭到封鎖。
 
 總結：
 
@@ -111,7 +111,7 @@ Analytics legacy `s_vi` cookie as a third party cookie, including collection tar
 
 * 如果您在第一方內容中使用第一方 CNAME，且沒有使用訪客 ID 服務：您的實施將不會受影響。
 
-* If you use a first party cookie domain in the third party context, or with the standard third-party domain names (e.g `adobedc.net`, `2o7.net`, `omtrdc.net`, etc), Safari will continue to block it as it has.
+* 如果您在協力廠商內容中使用第一方 Cookie 網域，或搭配使用標準協力廠商網域名稱 (例如 `adobedc.net`、`2o7.net`、`omtrdc.net` 等)，Safari 會繼續依原有方式加以封鎖。
 
 * 如果您使用自訂訪客 ID：視您訪客 ID 的儲存方式而定。如果您將 ID 儲存在第一方「用戶端」Cookie 中，則會受到七天有效期限的約束。如果您使用其他方式來儲存自訂 ID，則需要評估您是否受到影響。
 
@@ -133,15 +133,15 @@ Adobe 建議客戶在對資料收集作業進行任何變更之前，先衡量�
 
 * 在最新版 Safari 瀏覽器中開啟開發人員主控台。如果您在第一方網域中看到已設定上述任何 Cookie，表示這些變更可能會對您造成影響。
 
-* 如果您在 CNAME 內容中看到 `s_vi` Cookie 但未設定 `AMCV` Cookie，表示您正使用 CNAME 來識別訪客，而且您使用 Analytics 的方式不會受到這些變更影響。If you see both an `s_vi` cookie and an `AMCV` cookie set in the context of a CNAME, you have recently or currently are using Grace Period and some of your Adobe Analytics traffic may be impacted.
+* 如果您在 CNAME 內容中看到 `s_vi` Cookie 但未設定 `AMCV` Cookie，表示您正使用 CNAME 來識別訪客，而且您使用 Analytics 的方式不會受到這些變更影響。如果您在 CNAME 內容中看到 `s_vi` Cookie 且已設定 `AMCV` Cookie，表示您最近或目前正在使用寬限期，而您的部分 Adobe Analytics 流量可能會受到影響。
 
-* 使用 Analytics 測量沒有在七天內回訪的訪客百分比。如果訪客在七天內重複回訪，您的流量可能不會受到重大影響。For instructions on using Adobe Analytics to figure this out, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* 使用 Analytics 測量沒有在七天內回訪的訪客百分比。如果訪客在七天內重複回訪，您的流量可能不會受到重大影響。如需使用 Adobe Analytics 來瞭解此資訊的指示，請參閱 [Safari ITP 2.1 對 Adobe Experience Cloud 和 Experience Platform 客戶的影響](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
 
-* 測量來自 Safari 瀏覽器的流量百分比，以判斷進行任何變更是否可獲得充足的保證。For instructions on using Analytics to figure out the percentage of Safari traffic to your sites, see [Safari ITP 2.1 Impact on Adobe Experience Cloud and Experience Platform Customers](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
+* 測量來自 Safari 瀏覽器的流量百分比，以判斷進行任何變更是否可獲得充足的保證。如需使用 Adobe Analytics 來瞭解您網站 Safari 流量百分比的指示，請參閱 [Safari ITP 2.1 對 Adobe Experience Cloud 和 Experience Platform 客戶的影響](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)。
 
 ## 我的訪客最常使用哪些瀏覽器？
 
-如果您想進一步瞭解訪客使用的瀏覽器，可以使用 Analytics 的[瀏覽器維度](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-browsers.html)，判斷哪些瀏覽器最常用於您的網站。您也可以使用 Analytics 維度來查看各地理區域最常使用哪些瀏覽器。如需詳細資訊，請參閱[地域劃分](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
+如果您想進一步瞭解訪客使用的瀏覽器，可以使用 Analytics 的[瀏覽器維度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-browsers.html)，判斷哪些瀏覽器最常用於您的網站。您也可以使用 Analytics 維度來查看各地理區域最常使用哪些瀏覽器。如需詳細資訊，請參閱[地域劃分](https://docs.adobe.com/content/help/zh-Hant/analytics/components/variables/dimensions-reports/reports-geosegmentation.html)。
 
 根據 [StatCounter](https://gs.statcounter.com/browser-market-share/all)，2019 年底各瀏覽器的全球市占率如下：
 
@@ -154,7 +154,7 @@ Adobe 建議客戶在對資料收集作業進行任何變更之前，先衡量�
 
 ## 如何在短期內最有效運用 Safari 的 ITP 2.1 變更？
 
-我們正使用 Adobe 的 CNAME 和 Managed Certificate Program 處理 ITP 變更。Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實作新的第一方 憑證。目前 Adobe 提供數種 CNAME 服務 (依解決方案區分)，並期望在短期內運用 Analytics 認證計畫。
+我們正使用 Adobe 的 CNAME 和 Managed Certificate Program 處理 ITP 變更。Adobe Managed Certificate Program 可讓您免費對第一方 Cookie 實施作業新的第一方 憑證。目前 Adobe 提供數種 CNAME 服務 (依解決方案區分)，並期望在短期內運用 Analytics 認證計畫。
 
 任何目前已設定 CNAME 且同時使用 Experience Cloud Identity Service 進行訪客身分識別的 Analytics 客戶，都可以利用未來的 ECID 程式庫更新。這項變更將允許經 CNAME 認證的追蹤伺服器維護 ECID，並作為訪客識別的參照使用。ECID 程式庫的後續發行版本將提供更多資訊。
 
