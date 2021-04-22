@@ -4,14 +4,14 @@ title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 99%
+exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1028'
+ht-degree: 100%
 
 ---
-
 
 # 發佈至 Power BI - 概觀
 
@@ -137,4 +137,3 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 1. 另請注意，其中有一個名為&#x200B;**[!UICONTROL 「圖例」]**&#x200B;的額外表格。如果您從 Report Builder 上下文擷取請求，可能很難記住每個請求各代表什麼。而「圖例」表格的作用就是可讓您看到「表格 ID」中每個請求的名稱。您也可以新增其他「圖例」欄，以便完整檢視請求。
 
    ![](assets/legend-table.png)
-
