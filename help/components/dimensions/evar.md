@@ -1,18 +1,18 @@
 ---
 title: eVar
 description: 可用於報表的自訂維度。
+exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 translation-type: ht
-source-git-commit: 7c722e361978a3d7517e95c23442b703e7e25270
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '788'
 ht-degree: 100%
 
 ---
 
-
 # eVar
 
-*此說明頁面將說明 eVar 做為維度的運作方式。如需實作 eVar 的相關資訊，請參閱實作使用手冊中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
+*此說明頁面將說明 eVar 做為維度的運作方式。如需實施作業 eVar 的相關資訊，請參閱實施作業使用手冊中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
 eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織的大部分特定維度最終都會變成 eVar。依預設，eVar 可存留於其設定的點擊之外。您可以在報表套裝設定中的[「轉換變數」](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下自訂其有效期和配置。
 
@@ -24,11 +24,11 @@ eVar 不區分大小寫。如果您以不同大小寫傳送相同的值 (例如 
 
 每個 eVar 會分別從影像要求中的 [`v1` - `v250` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。例如，`v1` 查詢字串參數會收集 eVar1 的資料，而 `v222` 查詢字串參數則會收集 eVar222 的資料。
 
-AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收集) 會使用變數 `eVar1` - `eVar250`。如需實作準則，請參閱「實作」使用指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。
+AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收集) 會使用變數 `eVar1` - `eVar250`。如需實施作業準則，請參閱「實施作業」使用指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。
 
 ## 維度項目
 
-由於 eVar 包含您實作中的自訂字串，因此您的組織會決定每個 eVar 的維度項目。請務必將每個 eVar 的用途和常用的維度項目記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
+由於 eVar 包含您實施作業中的自訂字串，因此您的組織會決定每個 eVar 的維度項目。請務必將每個 eVar 的用途和常用的維度項目記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
 
 ## eVar 的運作方式
 
@@ -44,7 +44,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 成功事件和 eVar 通常定義在不同的影像要求中。`post_evar` 欄可讓 eVar 值連結至事件，並顯示報表中的資料。以下列造訪為例：
 
 1. 訪客造訪您的網站，首先停留在首頁上。
-2. 他們使用您網站的內部搜尋功能來搜尋「貓」。您的實作使用 eVar1 進行內部搜尋。
+2. 他們使用您網站的內部搜尋功能來搜尋「貓」。您的實施作業使用 eVar1 進行內部搜尋。
 3. 他們檢視產品，並完成結帳程序。
 
 原始資料的簡化版本看起來類似下列結果：
