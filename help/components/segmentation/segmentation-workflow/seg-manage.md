@@ -1,7 +1,7 @@
 ---
 description: 「區段管理器」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標示為我的最愛。
 title: 管理區段
-feature: Segmentation
+feature: 區段
 uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
 translation-type: tm+mt
