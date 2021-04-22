@@ -1,18 +1,18 @@
 ---
-description: 同類群組分析的使用案例範例。
+description: 同類群組 (cohort) 分析的使用案例範例。
 keywords: Analysis Workspace
 title: 同類群組分析使用案例
 uuid: 5ec46f84-5702-4bc1-a796-874a3abe87c9
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 99%
+exl-id: fc7e7bad-ab57-4bb8-a448-60b9397ef5af
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '929'
+ht-degree: 100%
 
 ---
-
 
 # [!UICONTROL 同類群組分析]使用案例
 
@@ -24,7 +24,7 @@ ht-degree: 99%
 
 您可以建立六個月的[!UICONTROL 同類群組分析]：
 
-**粒度**: 每月，從 2015 年 1 月到 2015 年 6 月。
+**詳細程度**: 每月，從 2015 年 1 月到 2015 年 6 月。
 
 **包含量度**：應用程式安裝。
 
@@ -36,7 +36,7 @@ ht-degree: 99%
 
 您在 Adobe.com 工作並提供免費 Creative Cloud 訂閱。您的目標是讓使用者從免費版本升級至 30 天試用版，最終升級至付費版本。
 
-**粒度**：每月
+**詳細程度**：每月
 
 **包含量度**：下載連結
 
