@@ -4,14 +4,14 @@ keywords: Dynamic Tag Management
 solution: Experience Cloud,Analytics,Target
 title: 手動實施 Adobe Analytics (舊版)
 uuid: d3ad2035-393d-4a77-81f6-e749ee717c09
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '423'
+exl-id: 7a9b3a67-64c1-42c9-94d4-ab86b9dfd038
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '426'
 ht-degree: 100%
 
 ---
-
 
 # 手動實施 Adobe Analytics (舊版)
 
@@ -66,4 +66,3 @@ ht-degree: 100%
    >[!NOTE]
    >
    >[!UICONTROL Adobe Analytics] 頁面上的設定 (一般、Cookie 等等) 會覆寫您在 `s_code` 中的設定。如果您的 `s_code` 中已有這些設定存在，則無需在此處重申。
-
