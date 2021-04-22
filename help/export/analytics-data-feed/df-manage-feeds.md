@@ -1,11 +1,14 @@
 ---
 title: 資料摘要 UI
 description: 瞭解如何使用資料摘要介面。
-translation-type: tm+mt
-source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
+exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '637'
+ht-degree: 100%
 
 ---
-
 
 # 管理資料摘要
 
@@ -15,7 +18,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 1. 登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下右上方的 9 格線圖示，然後按一下 [!UICONTROL Analytics]。
-3. In the top menu, click [!UICONTROL Admin] > [!UICONTROL Data Feeds].
+3. 在上方功能表中按一下[!UICONTROL 管理員] > [!UICONTROL 資料摘要]。
 
 ![資料摘要功能表](assets/AdminMenu.png)
 
@@ -25,7 +28,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ![資料摘要](assets/feeds.png)
 
-如果未設定動態消息，頁面會顯示按 [!UICONTROL Create New Data Feed] 鈕。
+如果尚未設定摘要，頁面會顯示[!UICONTROL 「建立新的資料摘要」]按鈕。
 
 ### 篩選與搜尋
 
@@ -45,7 +48,7 @@ source-git-commit: c9b3471b138c2e056a5abadb4ace6bb4eccd1d72
 
 ### 新增
 
-Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a new feed. 如需詳細資訊，請參閱[新增摘要](create-feed.md)。
+在動態消息和作業標籤附近按一下 + [!UICONTROL 新增]按鈕以建立新的摘要。如需詳細資訊，請參閱[新增摘要](create-feed.md)。
 
 ### 「欄」
 
@@ -78,7 +81,7 @@ Near the feeds and jobs tabs, click the + [!UICONTROL Add] button to create a ne
 按一下資料摘要旁的核取方塊，就會顯示可用的動作。
 
 * **作業記錄**: 檢視與此資料摘要相關聯的所有作業。您會自動前往[管理作業介面](df-manage-jobs.md)。
-* **刪除**:刪除資料饋送，將其狀態設為 [!UICONTROL Deleted]。
+* **刪除**: 刪除資料摘要，並將其狀態設為[!UICONTROL 已刪除]。
 * **複製**: 以現有摘要的所有設定來[建立新的摘要](create-feed.md)。您無法選取多筆資料摘要並複製為同一筆。
-* **暫停**:停止動態消息的處理，將其狀態設為 [!UICONTROL Inactive]。
+* **暫停**: 停止摘要的處理，並將其狀態設為[!UICONTROL 非作用中]。
 * **啟用**: 僅適用於非作用中的摘要。從上次中斷的地方繼續處理資料，如有需要則會回填任何日期。
