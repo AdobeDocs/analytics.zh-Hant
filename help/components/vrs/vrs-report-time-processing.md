@@ -2,14 +2,14 @@
 description: 報表時間處理是一項虛擬報表套裝設定，可讓您以非破壞性的追溯方式處理資料。
 title: 報表時間處理功能
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
+exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1423'
 ht-degree: 100%
 
 ---
-
 
 # 報表時間處理功能
 
