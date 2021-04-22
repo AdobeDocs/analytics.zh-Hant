@@ -1,20 +1,20 @@
 ---
 title: 分類概觀
 description: 自訂維度項目的分組。
+exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 translation-type: ht
-source-git-commit: 3c39b43866f8adc7b08c67a28f93f85f91128ab8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '605'
 ht-degree: 100%
 
 ---
 
-
 # 分類概觀
 
 分類是將 Analytics 變數資料分類，然後在您產生報表時以不同方式顯示資料的方式。
 
-「[Analytics 分類](https://video.tv.adobe.com/v/16853/?captions=chi_hant)」的影片概述。
+「[Analytics 分類](https://video.tv.adobe.com/v/16853/)」的影片概述。
 
 **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > *`<Traffic or Conversion>`*
 
@@ -62,4 +62,3 @@ Reports &amp; Analytics 包含追蹤程式碼變數預先定義分類，提供�
   </tr> 
  </tbody> 
 </table>
-
