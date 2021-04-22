@@ -1,20 +1,20 @@
 ---
 title: 動態帳戶概述
 description: 瞭解如何使用 H 程式碼動態選取報表套裝的工作流程。
+exl-id: 6f35dd71-29ad-4923-b1f7-9c7d6ca45bd8
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '239'
 ht-degree: 100%
 
 ---
 
-
 # 動態帳戶概述
 
 >[!IMPORTANT]
 >
-> 動態帳戶僅支援使用舊版 JavaScript 實作 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
+> 動態帳戶僅支援使用舊版 JavaScript 實施作業 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
 
 動態帳戶是一種實施功能，可讓您根據定義的條件決定要使用的報表套裝。如果您的組織需要多個報表套裝，但想要在網站之間使用相同的實施，動態帳戶是個不錯的解決方案。
 
