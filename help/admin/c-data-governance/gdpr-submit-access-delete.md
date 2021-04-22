@@ -2,14 +2,14 @@
 description: 如何在 Adobe Analytics 中提交資料存取與刪除請求。
 title: 提交存取與刪除請求
 uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 translation-type: ht
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1312'
 ht-degree: 100%
 
 ---
-
 
 # 提交存取與刪除請求
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 建議您確保行動應用程式和網站會針對資料主體對於可直接或間接識別資料以及您所收集之其他資料的權利，向其顯示適切的快顯通知及支援材料。
 
-## 管理消費者許可{#section_3012015E7E8942519FB9279CF7057EAB}
+## 管理消費者許可 {#section_3012015E7E8942519FB9279CF7057EAB}
 
 身為資料控管單位，在收集有關資料主體的資料 (可能包括 Adobe Analytics 資料) 之前，您有責任取得他們的明確同意，也必須負責在網站上[實行退出機制](https://docs.adobe.com/content/help/zh-Hant/dtm/using/tools/opt-in.html)。這可讓您的資料主體退出未來的 Adobe Experience Cloud 資料收集。
 
-## 驗證使用者和其資料{#section_AFB2CC225AA94AF6A3CE9F24EF788358}
+## 驗證使用者和其資料 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
 您做為資料控管單位應負責驗證資料主體的真實身分，以及確認其有權存取所請求的資料。另外，您也應負責確保將正確的資料傳回資料主體，以及避免他們不慎收到其他資料主體的資料。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 >
 >資料隱私權 API 支援以單一請求為多名使用者批次提交請求。目前的支援上限是單一請求 JSON 檔案可提交 1000 名個別使用者 (每位使用者可能有多個 ID)。
 
-## 範例 JSON 請求{#sample-json-request}
+## 範例 JSON 請求 {#sample-json-request}
 
 以下是可透過資料隱私權 API 或 UI 提交的 JSON，用於為三位使用者請求處理資料隱私權。
 
