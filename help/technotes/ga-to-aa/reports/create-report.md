@@ -1,14 +1,14 @@
 ---
 title: 在 Analysis Workspace 中建立基本報表
 description: 瞭解如何在 Analysis Workspace 中建立以熟悉 Google Analytics 等協力廠商工具的使用者為對象之格式的基本報表。
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
-workflow-type: tm+mt
+exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '854'
 ht-degree: 100%
 
 ---
-
 
 # 在 Analysis Workspace 中建立基本報表 (Google Analytics 使用者適用)
 
@@ -19,7 +19,7 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
 
 由於 Analysis Workspace 的運作方式更像畫布，而非預製報表，因此從 Google Analytics 重新建立報表時，只需使用正確的視覺效果和元件即可。
 
-## Workspace 中使用的主要詞彙
+## 工作區中使用的主要詞彙
 
 * **面板**&#x200B;是工作區的首要組成部分。在幾乎所有情況下，都會使用自由面板。
 * 所有自由面板都是由&#x200B;**視覺效果**&#x200B;組成。其目的是以不同格式呈現資料。絕大部分的情況下，該格式是表格，但有時候也可以是環圈圖或線條圖。Google Analytics 中的許多報表都是由兩種視覺效果組成：線條圖和自由表格。
@@ -29,13 +29,13 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
    * **區段**&#x200B;是您資料的子集，其行為與 Google Analytics 中的區段類似。它們可讓您建立自訂的篩選器，讓您專注在資料的特定部分。
    * **日期範圍**&#x200B;可讓您依事件發生時間來整理資料。它們是隨時間變化之檢視趨勢的骨幹，通常與量度搭配使用。
 
-## 在 Workspace 中建立基本報表
+## 在工作區中建立基本報表
 
 將正確的元件拖曳至工作區畫布，以建立「所有頁面」報表 (類似 Google Analytics 中的報表)。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-1. 在上方的導覽列按一下「Workspace」。
+1. 在上方的導覽列按一下「工作區」。
 1. 按一下「建立新專案」按鈕。
 1. 在模組快顯視窗中，確認已選取「空白專案」，然後按一下「建立」。
 1. 左側會顯示含有維度、量度、區段和日期範圍的清單。找出「頁面」維度 (顯示為橙色)，將該維度拖曳至畫布上標示「將維度放置在此處」的位置。
@@ -45,7 +45,7 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
 
    ![新增量度](/help/technotes/ga-to-aa/assets/new_metric.png)
 
-## 從在 Workspace 中預先建立的報表範本開始
+## 從在工作區中預先建立的報表範本開始
 
 存取專案範本，以建立「內容使用」範本 (類似 Google Analytics 中的「所有頁面」報表)。
 
@@ -57,9 +57,9 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
 
 ## 透過工具進行實驗
 
-Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。
+Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到工作區專案中，瞭解哪一種組合適合自己。
 
-如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案]>[!UICONTROL 新專案」]*，以空白顯示窗開始操作。
+如果您意外將無效的元件拖曳到工作區專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案] > [!UICONTROL 新專案」]*，以空白顯示窗開始操作。
 
 Adobe 已將許多功能放入 Analysis Workspace 的滑鼠右鍵內容功能表中。大部份的視覺效果和元件都可以按一下滑鼠右鍵，以取得更詳細的分析和互動功能。請考慮在工作區中以滑鼠右鍵按一下元件，以查看有哪些可用選項。
 
