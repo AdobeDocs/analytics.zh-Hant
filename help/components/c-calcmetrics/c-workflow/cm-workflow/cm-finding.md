@@ -2,11 +2,14 @@
 description: 說明尋找量度的兩種主要方法：排序和篩選。
 title: 尋找量度
 uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '238'
+ht-degree: 100%
 
 ---
-
 
 # 尋找量度
 
@@ -61,4 +64,3 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
   </tr> 
  </tbody> 
 </table>
-
