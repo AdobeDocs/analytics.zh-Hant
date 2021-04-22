@@ -1,14 +1,14 @@
 ---
 title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '479'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
-
 
 # 建立資料層
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 ## 必要條件
 
-[建立解決方案設計文件](solution-design.md) - 貴組織必須符合追蹤要求。在與組織中的開發團隊接洽之前，請務必準備好解決方案設計檔案。
+[建立解決方案設計文件](solution-design.md) - 貴組織必須符合追蹤要求。確保在前往找組織內的開發團隊之前，先使用解決方案設計文件做好準備。
 
 ## 工作流程
 
@@ -167,7 +167,7 @@ digitalData = {
 }
 ```
 
-使用[客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)報表，取得每個物件和子物件的詳細資訊。Not all sites use all objects; for example, if you host a news site, it is unlikely that you have use for the `digitalData.product` object array.
+使用[客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)報表，取得每個物件和子物件的詳細資訊。並非所有網站都使用全部物件，例如，如果您托管一個新聞網站，您就不可能使用 `digitalData.product` 物件陣列。
 
 資料層可擴展；如果貴組織有特定的需求，您可以在資料層中加入物件以符合這些需求。
 
