@@ -1,14 +1,14 @@
 ---
 title: 分鐘
 description: 量度發生的分鐘。
+exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # 分鐘
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
