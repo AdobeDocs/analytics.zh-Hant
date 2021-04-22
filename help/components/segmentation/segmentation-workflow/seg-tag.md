@@ -1,7 +1,7 @@
 ---
 description: 在「區段管理員」中，您可透過將區段進行標記來組織區段。
 title: 標記區段
-feature: Segmentation
+feature: 區段
 uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
 translation-type: tm+mt
