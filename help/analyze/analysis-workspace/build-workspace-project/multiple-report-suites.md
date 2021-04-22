@@ -1,18 +1,18 @@
 ---
-title: 多報表套裝
-description: 了解在有多個報表套裝的工作區中建立專案的方法及原因
-feature: Workspace Basics
+title: 多報告套裝
+description: 了解在有多個報告套裝的 Workspace 中建立專案的方法及原因
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '528'
+exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
 
-
-# 多報表套裝
+# 多報告套裝
 
 您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同工作區專案內的每個面板，選擇不同的報表套裝。
 
