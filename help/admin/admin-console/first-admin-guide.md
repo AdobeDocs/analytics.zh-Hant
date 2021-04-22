@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 的第一個管理指南
 description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪些，以及如何登入 UI。
+exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 translation-type: ht
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '943'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 的第一個管理指南
 
@@ -18,10 +18,10 @@ ht-degree: 100%
 
 如果您的組織已購買 Adobe Analytics，請考量以下幾種關鍵角色的指派：
 
-* **Adobe Analytics 管理員**：這類使用者可完整存取 Adobe Analytics 中的所有項目，包括報表套裝設定和使用者權限。根據組織結構而定，Analytics 管理的不同層面可能會交由不同的人員或團隊負責。例如，某人負責指定要在實作過程中使用哪些變數，另一人則可負責確認每個人都擁有正確的權限，以便讓使用者能夠正確提取報表。請至少指定一名使用者負責 Analytics 報表套裝設定和使用者權限，該人員可再從 Analytics 中邀請其他人成為管理員。
-* **Adobe Experience Platform Launch 管理員**：這類使用者可完整存取 Experience Platform Launch 的所有功能，包括發佈權限、建立容器和使用者權限。這類使用者不必非程式設計人員不可，但如果至少具備 HTML、CSS 和 JavaScript 的新手知識，則會很有幫助。他們負責與組織的網站擁有者合作，在網站上實作 Experience Platform Launch 程式碼。請至少指定一名使用者負責組織的實作工作，該人員可再從 Experience Platform Launch 中邀請其他人成為管理員。
+* **Adobe Analytics 管理員**：這類使用者可完整存取 Adobe Analytics 中的所有項目，包括報表套裝設定和使用者權限。根據組織結構而定，Analytics 管理的不同層面可能會交由不同的人員或團隊負責。例如，某人負責指定要在實施作業過程中使用哪些變數，另一人則可負責確認每個人都擁有正確的權限，以便讓使用者能夠正確提取報表。請至少指定一名使用者負責 Analytics 報表套裝設定和使用者權限，該人員可再從 Analytics 中邀請其他人成為管理員。
+* **Adobe Experience Platform Launch 管理員**：這類使用者可完整存取 Experience Platform Launch 的所有功能，包括發佈權限、建立容器和使用者權限。這類使用者不必非程式設計人員不可，但如果至少具備 HTML、CSS 和 JavaScript 的新手知識，則會很有幫助。他們負責與組織的網站擁有者合作，在網站上實施作業 Experience Platform Launch 程式碼。請至少指定一名使用者負責組織的實施作業工作，該人員可再從 Experience Platform Launch 中邀請其他人成為管理員。
 * **支援委派**：也稱為受支援使用者，他們在 Analytics 介面中沒有額外的權限。而是當他們與 Adobe 客戶服務溝通時，會獲得額外的權限。這些使用者幾乎永遠都是 Analytics 管理員，因為可協助客戶服務疑難排解他們的問題。請至少找出一位負責協助使用者與 Adobe 客戶服務互動的 Analytics 管理員。
-* **網站擁有者**：這類人員或團隊負責網站的編碼和開發。他們不需要帳戶，但是必須與 Experience Platform Launch 管理員合作取得 Experience Platform Launch 程式碼，並在網站上實作。
+* **網站擁有者**：這類人員或團隊負責網站的編碼和開發。他們不需要帳戶，但是必須與 Experience Platform Launch 管理員合作取得 Experience Platform Launch 程式碼，並在網站上實施作業。
 * **一般使用者**：這類使用者通常只需要檢視報表，並針對業務問題尋求解答。Analytics 管理員可向這些使用者授予在產品中進行操作的權限。
 
 身為第一位管理員，您的角色可與上述一或多個角色重疊。一旦分配好上述基本職責，您就可以授予權限，讓組織中的其他人開始運作。
@@ -60,4 +60,4 @@ Experience Platform Launch 的產品管理員存取權與 Analytics 產品管理
 
 [建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：請 Analytics 管理員登入工具並建立資料收集的報表套裝
 
-[在 Experience Platform Launch 中建立屬性](/help/implement/launch/create-analytics-property.md)：請 Experience Platform Launch 管理員登入工具並建立要在網站上實作的屬性
+[在 Experience Platform Launch 中建立屬性](/help/implement/launch/create-analytics-property.md)：請 Experience Platform Launch 管理員登入工具並建立要在網站上實施作業的屬性
