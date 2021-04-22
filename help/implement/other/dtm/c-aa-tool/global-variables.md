@@ -1,17 +1,17 @@
 ---
-description: 使用 Dynamic Tag Management 來部署 Adobe Analytics 時的欄位說明和變數相關資訊。
-keywords: Dynamic Tag Management;global variables;server variable;evar;props;dynamic variable prefix;dynamic variable
+description: 使用動態標籤管理來部署 Adobe Analytics 時的欄位說明和變數相關資訊。
+keywords: Dynamic Tag Management;全域變數;伺服器變數;eVar;Prop;動態變數首碼;動態變數
 solution: Experience Cloud,Analytics
 title: 全域變數
 uuid: d759320a-96ee-4073-b5fd-5257b7033003
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '136'
+exl-id: e78e9ff4-bfce-4fa0-8d53-fd33ed3052fd
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '150'
 ht-degree: 100%
 
 ---
-
 
 # 全域變數
 
