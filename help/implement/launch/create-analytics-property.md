@@ -1,14 +1,14 @@
 ---
 title: 在 Launch 中建立 Analytics 屬性
 description: 使用 Adobe Experience Platform Launch 建立空間來自訂資料收集方式。
+exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 translation-type: ht
-source-git-commit: 632fa007fecadf01e2cef67fd3c2519799636e46
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '543'
 ht-degree: 100%
 
 ---
-
 
 # 在 Adobe Experience Platform Launch 中建立 Analytics 屬性
 
