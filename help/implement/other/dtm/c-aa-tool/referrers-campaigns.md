@@ -1,17 +1,17 @@
 ---
-description: 在 Adobe Analytics 中部署 Dynamic Tag Management 時，Dynamic Tag Management 中用於反向連結與促銷活動選項的欄位說明。
-keywords: Dynamic Tag Management;referrers;campaigns;referrer override;campaign variable;query param
+description: 在 Adobe Analytics 中部署動態標籤管理時，動態標籤管理中用於反向連結與促銷活動選項的欄位說明。
+keywords: Dynamic Tag Management;反向連結;促銷活動;反向連結覆寫;促銷活動變數;查詢參數
 solution: Experience Cloud,Analytics
 title: 反向連結與促銷活動
 uuid: 56580206-a382-4993-9bba-a488da65cf89
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '155'
+exl-id: cced5e00-ba8e-4bf4-b475-ed8ab08ab427
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
-
 
 # 反向連結與促銷活動
 
