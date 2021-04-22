@@ -2,16 +2,16 @@
 description: 使用「摘要數字」和「摘要變更」視覺效果來呈現專案中的重要資料點。
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 99%
+exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '463'
+ht-degree: 100%
 
 ---
-
 
 # 摘要數字和摘要變更
 
