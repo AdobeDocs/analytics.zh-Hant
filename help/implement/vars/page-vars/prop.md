@@ -1,18 +1,18 @@
 ---
 title: prop
 description: 可在實施中使用的自訂變數。
+exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '484'
 ht-degree: 100%
 
 ---
 
-
 # prop
 
-*此說明頁面說明如何實作 Prop。若要瞭解 Prop 作為維度時的運作方式，請參閱「元件」使用指南中的 [Prop](/help/components/dimensions/prop.md)。*
+*此說明頁面說明如何實施作業 Prop。若要瞭解 Prop 作為維度時的運作方式，請參閱「元件」使用指南中的 [Prop](/help/components/dimensions/prop.md)。*
 
 Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在的點擊過後即不存在。
 
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 >[!TIP]
 >
-> 實作中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的分隔字元。
+> 實施作業中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的分隔字元。
 
 ### 設定清單屬性
 
