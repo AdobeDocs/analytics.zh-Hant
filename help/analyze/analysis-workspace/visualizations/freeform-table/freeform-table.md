@@ -1,16 +1,16 @@
 ---
 title: 自由表格
 description: 自由表格是 Analysis Workspace 中資料分析的基礎
-feature: Freeform Tables
+feature: 自由表格
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 99%
+exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '533'
+ht-degree: 100%
 
 ---
-
 
 # 自由表格
 
@@ -43,7 +43,7 @@ ht-degree: 99%
 * **欄**
    * 元件可堆疊在欄內，以建立分段量度、跨標籤分析等等。
    * [欄設定](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)底下可調整每個欄的檢視方式。
-   * 您可善用[滑鼠右鍵功能表](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)執行數個動作。無論是在表格標頭、列或欄上按一下，功能表都會提供不同動作。
+   * 您可善用[滑鼠右鍵功能表](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/using-the-right-click-menu.html)執行數個動作。無論是在表格標頭、列或欄上按一下，功能表都會提供不同動作。
 
 ## 匯出自由表格資料
 
