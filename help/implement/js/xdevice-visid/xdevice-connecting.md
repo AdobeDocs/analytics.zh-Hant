@@ -1,6 +1,6 @@
 ---
-description: 跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客識別會使用訪客 ID 變數 s.visitorID，為使用者建立裝置間的關聯。
-keywords: Analytics 實作
+description: 跨裝置訪客身份識別可協助您連結多個裝置之間的訪客。跨裝置訪客識別會使用訪客 ID 變數 s.visitorID，為使用者建立裝置間的關聯。
+keywords: Analytics 實施作業
 subtopic: Visitors
 title: 連結跨裝置的使用者
 topic-fix: Developer and implementation
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >不建議您繼續使用這種跨裝置識別訪客的方法。請參閱元件使用指南中的[跨裝置分析](/help/components/cda/overview.md)。
 
-跨裝置訪客身分識別可協助您連結多個裝置間的訪客。跨裝置訪客身分識別會使用 `visitorID` 變數，為使用者建立裝置間的關聯。識別不重複訪客時，`visitorID` 變數優先順序最高。
+跨裝置訪客身份識別可協助您連結多個裝置間的訪客。跨裝置訪客身份識別會使用 `visitorID` 變數，為使用者建立裝置間的關聯。識別不重複訪客時，`visitorID` 變數優先順序最高。
 
 使用自訂訪客 ID 傳送點擊時，Adobe 會檢查是否有任何具有相符訪客 ID 的訪客資料。若有的話，自此之後都會使用系統中已存在的訪客資料，而不再使用先前的訪客資料。
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 使用您自己的自訂訪客 ID，可讓您更深入控制訪客的識別方式，不過有其限制。
 
 * **訪客重複資料刪除不具可回溯性**：如果訪客首次存取您的網站然後進行驗證，則會計為兩個不重複訪客。系統會自動產生一個一般 Analytics ID 的不重複訪客計數，另外會在其登入時計為另一個自訂訪客 ID 計數。每當訪客使用新裝置或清除其 Cookie 時，都會出現這種不重複訪客的重複資料。
-* **與 Experience Cloud ID Service 不相容**：自從跨裝置訪客身分識別功能問世以來，Adobe 已推出功能更強大、更可靠的方式來跨裝置追蹤訪客。這些新的身分識別方法與自訂訪客 ID 覆寫不相容。如果您打算使用 ID Service、跨裝置分析 (CDA) 或 Device co-op，Adobe 強烈建議不要使用 `visitorID` 變數。
+* **與 Experience Cloud ID Service 不相容**：自從跨裝置訪客身份識別功能問世以來，Adobe 已推出功能更強大、更可靠的方式來跨裝置追蹤訪客。這些新的身分識別方法與自訂訪客 ID 覆寫不相容。如果您打算使用 ID Service、跨裝置分析 (CDA) 或 Device co-op，Adobe 強烈建議不要使用 `visitorID` 變數。
