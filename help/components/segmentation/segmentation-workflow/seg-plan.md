@@ -1,7 +1,7 @@
 ---
 description: 概述規劃區段時應遵循的步驟和最佳實務。
 title: 計劃區段
-feature: Segmentation
+feature: 區段
 uuid: bc522834-123c-457d-bde7-db7c5c97077f
 exl-id: ad4c6078-6f77-428e-b1f1-168f80d02668
 translation-type: tm+mt
