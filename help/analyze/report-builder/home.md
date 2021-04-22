@@ -1,16 +1,16 @@
 ---
 title: 適用於 Adobe Analytics 的 Report Builder
 description: 使用 Report Builder 將 Adobe Analytics 資料直接導入 Microsoft Excel。了解安裝和使用 Report Builder 能如何促進您的業務發展。
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '138'
+exl-id: a3d3fcdb-c526-42eb-8ac7-260946305760
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
-
 
 # 什麼是 Report Builder？
 
