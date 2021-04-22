@@ -1,6 +1,6 @@
 ---
 description: 下列資訊有助於排解 Analytics 資料中的報表套裝延遲問題。
-keywords: 丟失資料；慢速
+keywords: 遺失資料;慢
 subtopic: Current data
 title: 資料可用性與延遲
 topic-fix: Reports
@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
