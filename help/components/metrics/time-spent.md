@@ -1,14 +1,14 @@
 ---
 title: 如何在 Adobe Analytics 中計算逗留時間
 description: 逗留時間維度和量度的彙總頁面。
+exl-id: 71e9b856-8a0a-47be-a73f-4dc7d639a5de
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 
 ---
-
 
 # 逗留時間概觀
 
@@ -31,9 +31,9 @@ Adobe Analytics 產品提供各種[!UICONTROL 逗留時間]量度和維度。
 | 維度 | 定義 | 適用於 |
 | --- | --- | --- |
 | [!UICONTROL 每次造訪逗留時間 - 精細] | 將瀏覽時的總逗留時間去除尾數後的為最接近的秒數，適用於可套用至屬於瀏覽一部分的每一次點擊。這是造訪層級維度。 | Analysis Workspace |
-| [!UICONTROL 每次瀏覽逗留時間 - 分組] | 粒度維度分成 9 個不同的範圍。這是造訪層級維度。這些範圍包括：<ul><li>少於 1 分鐘</li><li>1-5 分鐘</li><li>5-10 分鐘</li><li>10-30 分鐘</li><li>30-60 分鐘</li><li>1-2 小時</li><li>2-5 小時</li><li>5-10 小時</li><li>10-15 小時</li></ul>**注意**：時間區間不可高於此設定，因為一次造訪在經過 12 小時的活動後就會到期。 | Analysis Workspace、Reports &amp; Analytics、Report Builder |
+| [!UICONTROL 每次瀏覽逗留時間 - 分組] | 詳細程度維度分成 9 個不同的範圍。這是造訪層級維度。這些範圍包括：<ul><li>少於 1 分鐘</li><li>1-5 分鐘</li><li>5-10 分鐘</li><li>10-30 分鐘</li><li>30-60 分鐘</li><li>1-2 小時</li><li>2-5 小時</li><li>5-10 小時</li><li>10-15 小時</li></ul>**注意**：時間區間不可高於此設定，因為一次造訪在經過 12 小時的活動後就會到期。 | Analysis Workspace、Reports &amp; Analytics、Report Builder |
 | [!UICONTROL 頁面逗留時間 - 精細] | 每次點擊的總逗留時間，去除尾數後為最接近的秒數。這個項目是點擊層級維度，且包含頁面檢視和連結事件。不同於名稱，此維度並不限於「頁面」。 | Analysis Workspace |
-| [!UICONTROL 頁面逗留時間 – 分段] | 粒度維度分成 10 個不同範圍；不過分段的維度只會計算頁面檢視次數 (而排除連結事件)。這是點擊層級維度。這些範圍包括：<ul><li>少於 15 秒</li><li>15 至 29 秒</li><li>30 至 59 秒</li><li>1 至 3 分鐘</li><li>3 至 5 分鐘</li><li>5 至 10 分鐘</li><li>10 至 15 分鐘</li><li>15 至 20 分鐘</li><li>20 至 30 分鐘</li><li>超過 30 分鐘</li></ul> | Analysis Workspace、Reports &amp; Analytics |
+| [!UICONTROL 頁面逗留時間 – 分段] | 詳細程度維度分成 10 個不同範圍；不過分段的維度只會計算頁面檢視次數 (而排除連結事件)。這是點擊層級維度。這些範圍包括：<ul><li>少於 15 秒</li><li>15 至 29 秒</li><li>30 至 59 秒</li><li>1 至 3 分鐘</li><li>3 至 5 分鐘</li><li>5 至 10 分鐘</li><li>10 至 15 分鐘</li><li>15 至 20 分鐘</li><li>20 至 30 分鐘</li><li>超過 30 分鐘</li></ul> | Analysis Workspace、Reports &amp; Analytics |
 
 ## 「逗留時間」的計算方式
 
