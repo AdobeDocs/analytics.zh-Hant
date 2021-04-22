@@ -1,7 +1,7 @@
 ---
 description: 瞭解不同的儲存選項，包括自動儲存、另存新檔、另存為範本，以及開啟舊版。
 title: 儲存專案
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 translation-type: tm+mt
@@ -22,7 +22,7 @@ ht-degree: 54%
 
 | 動作 | 說明 |
 |---|---| 
-| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果專案已共用，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您為專案提供名稱、（選用）說明和新增（選用）標籤。 |
+| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您為專案提供名稱、（選用）說明和新增（選用）標籤。 |
 | **[!UICONTROL 一併儲存附註]** | 在您的專案儲存之前，請新增專案中變更的附註。 備注與項目版本一起儲存，可供[!UICONTROL Project] > [!UICONTROL 開啟舊版]下的所有編輯器使用。 |
 | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
 | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
