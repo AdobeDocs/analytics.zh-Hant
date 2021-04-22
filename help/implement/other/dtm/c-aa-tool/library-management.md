@@ -1,17 +1,17 @@
 ---
-description: Dynamic Tag Management 中「程式庫管理」設定的欄位和選項說明。
-keywords: library management;page code;load library at;managed by adobe;custom;code hosted;s_code hosted
+description: 動態標籤管理中「程式庫管理」設定的欄位和選項說明。
+keywords: 程式庫管理;頁面程式碼;載入程式庫於;由 Adobe 管理;自訂;託管的代碼;託管的 s_code
 solution: Experience Cloud
 title: 程式庫管理
 uuid: 4cfa47f9-ae98-4feb-a58d-a3a6e45f8d5b
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '420'
+exl-id: ea662014-0b25-48cc-ac0e-6695514e00fa
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '436'
 ht-degree: 100%
 
 ---
-
 
 # 程式庫管理
 
@@ -53,4 +53,3 @@ Dynamic Tag Management 中「程式庫管理」設定的欄位和選項說明。
   </tr> 
  </tbody> 
 </table>
-
