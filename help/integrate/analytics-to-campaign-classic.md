@@ -1,14 +1,14 @@
 ---
 description: 於整合 Adobe Analytics 與 Adobe Campaign 時，實施人員應依循的參考架構、指導原則、設定步驟與測試等方面的相關資料。
 title: 如何整合 Analytics 與 Adobe Campaign
+exl-id: 7079bbaf-5110-4068-bf66-c4a5a625c9ee
 translation-type: ht
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '68'
 ht-degree: 100%
 
 ---
-
 
 # 整合 Adobe Analytics 與 Campaign Classic
 
