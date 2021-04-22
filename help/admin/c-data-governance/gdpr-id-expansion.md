@@ -2,14 +2,14 @@
 description: '您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求) '
 title: ID 擴增
 uuid: 2672d17d-c957-4e08-8dd9-16d54bf2be18
+exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '1354'
 ht-degree: 100%
 
 ---
-
 
 # ID 擴增
 
@@ -67,4 +67,3 @@ ht-degree: 100%
 另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的連帶作用，這也突顯出隱私權服務 API 不適合此用途的原因。
 
 請連絡您的客戶經理 (CSM) 來協調工程架構顧問團隊，以進一步檢視及著手移除所有 PII 或資料問題。
-
