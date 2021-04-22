@@ -1,14 +1,14 @@
 ---
 title: 國家/地區
 description: 點擊的來源國家/地區。
+exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '307'
 ht-degree: 100%
 
 ---
-
 
 # 國家/地區
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，共同維護 IP 位址與國家/地區之間的查閱。此維度可直接用於所有實作。
+此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，共同維護 IP 位址與國家/地區之間的查閱。此維度可直接用於所有實施作業。
 
 >[!TIP]
 >
