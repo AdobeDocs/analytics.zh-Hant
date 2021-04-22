@@ -2,16 +2,16 @@
 description: 色階分佈圖是 Analysis Workspace 中的新視覺效果類型。
 title: 色階分佈圖
 uuid: 8a6bd2c4-da15-4f64-b889-ab9add685046
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 99%
+exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '372'
+ht-degree: 100%
 
 ---
-
 
 # 色階分佈圖
 
