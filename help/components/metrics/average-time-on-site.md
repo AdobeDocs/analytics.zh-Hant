@@ -1,14 +1,14 @@
 ---
 title: 網站平均逗留時間
 description: 指定的維度項目存在於兩次點擊之間的平均時間量。
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '538'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
-
 
 # 網站平均逗留時間
 
@@ -48,7 +48,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->此度量顯示的值是 `"Invalid"` 否維度項目僅包含上次瀏覽的點擊。 此量度需要後續的點擊來追蹤逗留時間。
+>如果維度項目僅包含上次瀏覽的點擊，此度量會顯示 `"Invalid"` 值。此量度需要後續的點擊來追蹤逗留時間。
 
 ## 網站平均逗留時間 (秒數)
 
