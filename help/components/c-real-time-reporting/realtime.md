@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實作或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/components/c-real-time-reporting/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/components/c-real-time-reporting/t-realtime-admin.md)。
 
 **[!UICONTROL 網站量度]** > **[!UICONTROL 即時]**
 
@@ -57,4 +57,4 @@ Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中�
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完全實作該整合，該延遲增加現象也會在您實作身份服務後開始。
+請注意，即使您尚未完全實施作業該整合，該延遲增加現象也會在您實施作業身份服務後開始。
