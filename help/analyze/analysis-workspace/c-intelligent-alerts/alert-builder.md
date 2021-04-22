@@ -2,16 +2,16 @@
 description: 當專案元件達到特定臨界值時，收到警報。
 title: 警報產生器
 uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 98%
+exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
-
 
 # 警報產生器
 
@@ -42,13 +42,13 @@ ht-degree: 98%
 
 指定警報的名稱。警報名稱中可以包含報表的名稱或量度臨界值。
 
-**時間粒度**
+**時間詳細程度**
 
 指定您希望檢查量度的時間：每小時、每日、每週或每月。
 
 >[!NOTE]
 >
->對於使用自訂日曆的報表套裝，警報產生器不支援每月粒度。
+>對於使用自訂日曆的報表套裝，警報產生器不支援每月詳細程度。
 
 **收件者**
 
@@ -98,7 +98,7 @@ ht-degree: 98%
 
 互動式警報預覽會根據過去經驗，顯示觸發警報的大約頻率。
 
-例如，如果您將時間粒度設為每日，則預覽可告訴您在過去 30 或 31 天裡，針對某個量度觸發了 x 次警報。
+例如，如果您將時間詳細程度設為每日，則預覽可告訴您在過去 30 或 31 天裡，針對某個量度觸發了 x 次警報。
 
 如果您覺得觸發的警報次數過多，可在「[警報管理器](/help/components/c-alerts/alert-manager.md)」中調整臨界值。
 
