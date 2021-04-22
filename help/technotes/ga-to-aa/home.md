@@ -1,25 +1,25 @@
 ---
-title: 從第三方分析平台轉換成 Adobe Analytics
+title: 從協力廠商分析平台轉換成 Adobe Analytics
 description: 以熟悉其他平台 (例如 Google Analytics) 的使用者為對象，說明取得報表的重要概念。
+exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 translation-type: ht
-source-git-commit: 3211598c2ff43493b329a9be4fb6877ae29cf08b
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
 ---
 
+# 從協力廠商分析平台轉換成 Adobe Analytics
 
-# 從第三方分析平台轉換成 Adobe Analytics
-
-本指南提供常見的報表類型，可協助您瞭解 Adobe Analytics 的核心概念和工作流程，並著重說明 Adobe 與其他常用工具之間的主要相似處和差異。本指南是專為熟悉基本數位分析概念，但剛開始接觸 Adobe Analytics 的分析師所設計，並假設組織具備可將資料傳送至 Adobe 資料收集伺服器的有效實作。如果貴組織尚未設定 Adobe Analytics 實作，請從 [Adobe Analytics 首位管理員指南](/help/admin/admin-console/first-admin-guide.md)開始。
+本指南提供常見的報表類型，可協助您瞭解 Adobe Analytics 的核心概念和工作流程，並著重說明 Adobe 與其他常用工具之間的主要相似處和差異。本指南是專為熟悉基本數位分析概念，但剛開始接觸 Adobe Analytics 的分析師所設計，並假設組織具備可將資料傳送至 Adobe 資料收集伺服器的有效實施作業。如果貴組織尚未設定 Adobe Analytics 實施作業，請從 [Adobe Analytics 首位管理員指南](/help/admin/admin-console/first-admin-guide.md)開始。
 
 Google Analytics 和 Adobe Analytics 都是功能強大的平台，可針對您的網站效能提供寶貴分析。各平台都有各自的處理架構和使用者介面，為每個平台提供獨特優勢。本指南旨在協助熟悉 Google Analytics 的使用者適應 Adobe Analytics。
 
 在 Adobe Analytics 中，登入 Adobe Experience Cloud 後，主要可透過兩種方式提取基本報表：
 
 * **Reports &amp; Analytics** 是提取基本報表的傳統方法。左側功能表提供預製報表的清單，讓使用者導覽至所需報表，並取得資料。區段和量度可提供額外的自訂。有 Google Analytics 報表使用經驗的使用者可能會發現此版面很熟悉。
-* **Analysis Workspace** 是目前提取大部分報表的建議方法。左側功能表可讓使用者拖放元件，以建立自己專屬的報表。它讓您有更多自由能滿足確切的報表需求。有建立 Google Analytics 控制面板和自訂報表使用經驗的使用者可能會發現此版面很熟悉。
+* **Analysis Workspace** 是目前提取大部分報表的建議方法。左側功能表可讓使用者拖放元件，以建立自己專屬的報表。它讓您有更多自由能滿足確切的報表需求。有建立 Google Analytics 儀表板和自訂報表使用經驗的使用者可能會發現此版面很熟悉。
 
 大部分報表都可在 [!UICONTROL Reports &amp; Analytics] 和 [!UICONTROL Analysis Workspace] 中建立。不過，部分報表只能使用其中一個平台提取。多數情況下，Adobe 建議使用 [!UICONTROL Analysis Workspace]，除非有特定功能只能在 [!UICONTROL Reports &amp; Analytics] 中使用。
 
