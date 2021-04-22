@@ -1,25 +1,25 @@
 ---
 title: Numbers Suite
 description: 產生並操控數字以用於其他 JavaScript 變數。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '638'
 ht-degree: 100%
 
 ---
 
-
 # Adobe 外掛程式：Numbers Suite
 
 >[!IMPORTANT]
 >
-> 此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 Numbers Suite 提供一系列 JavaScript 函數。其中包含下列外掛程式：
 
 * **`zeroPad`**：在數字的開頭加上特定數量的零。如果變數需要特定位數，此外掛程式非常實用；例如當您使用 JavaScript 日期物件，且想要以兩位數 (而非僅一位數) 來格式化日期的月和日時。例如 `01/09/2020` 而非 `1/9/2020`。
-* **`randomNumber`**：產生具有特定位數的隨機數。如果您部署第三方標籤，而且想要防快取的隨機數，此外掛程式就相當實用。
+* **`randomNumber`**：產生具有特定位數的隨機數。如果您部署協力廠商標籤，而且想要防快取的隨機數，此外掛程式就相當實用。
 * **`twoDecimals`**：將數字捨入至最接近的百位數。此外掛程式適用於貨幣用途，可讓您將數字捨入至有效的貨幣值。
 
 ## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
