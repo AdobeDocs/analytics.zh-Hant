@@ -1,14 +1,14 @@
 ---
 title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
+exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '878'
 ht-degree: 100%
 
 ---
-
 
 # 整合模組
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 在實作中要求提供合作夥伴資料可增加頁面載入與傳送至 Adobe 資料收集伺服器之資料間的延遲時間。如果訪客在傳送資料前載入新頁面，則不會記錄該頁面。
+> 在實施作業中要求提供合作夥伴資料可增加頁面載入與傳送至 Adobe 資料收集伺服器之資料間的延遲時間。如果訪客在傳送資料前載入新頁面，則不會記錄該頁面。
 
 ## 整合模組工作流程
 
