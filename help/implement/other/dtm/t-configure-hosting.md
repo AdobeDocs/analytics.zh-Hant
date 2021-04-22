@@ -34,7 +34,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Akamai </p> </td> 
-   <td colname="col2"> <p> 實施起來最簡單的代管選項。 </p> <p>遍佈全球的傳送網路。 </p> <p>新增額外第三方基礎架構相依性 (DNS 查閱、Akamai 可用性)。 </p> <p>如需詳細資訊，請參閱 Dynamic Tag Management 產品文件中的 <a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/deployment.html#concept_722B01555D0441ACBB052BC34DC5B67D">Akamai</a>。 </p> </td> 
+   <td colname="col2"> <p> 實施起來最簡單的代管選項。 </p> <p>遍佈全球的傳送網路。 </p> <p>新增額外協力廠商基礎架構相依性 (DNS 查閱、Akamai 可用性)。 </p> <p>如需詳細資訊，請參閱 Dynamic Tag Management 產品文件中的 <a href="https://docs.adobe.com/content/help/zh-Hant/dtm/using/client-side/deployment.html#concept_722B01555D0441ACBB052BC34DC5B67D">Akamai</a>。 </p> </td> 
    <td colname="col3"> 
     <ol id="ol_EF148EF091A645B3962B084963B3C0B0"> 
      <li id="li_7ECE0C331EEE4907A563D581DF1DFEFE">Dynamic Tag Management 會產生自訂 JavaScript 程式庫。 </li> 
