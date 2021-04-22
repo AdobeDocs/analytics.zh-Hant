@@ -1,34 +1,34 @@
 ---
 description: 控制面板計分卡的設定說明。
-title: Adobe Analytics 控制面板組織者指南
-feature: Analytics Dashboards
+title: Adobe Analytics 儀表板組織者指南
+feature: Analytics 儀表板
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 87%
+exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '2401'
+ht-degree: 100%
 
 ---
 
+# Adobe Analytics 儀表板的組織者指南
 
-# Adobe Analytics 控制面板的組織者指南
-
-以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。若要觀看講解這項資訊的影片，請參閱 Adobe Analytics 控制面板計分卡建立程式影片：
+以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。若要觀看講解這項資訊的影片，請參閱 Adobe Analytics 儀表板計分卡建立程式影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
 ## 簡介
 
-Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取您從 Adobe Analytics 桌面 UI 建立和共用的直覺式計分卡。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 控制面板。
+Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取您從 Adobe Analytics 桌面 UI 建立和共用的直覺式計分卡。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。您可以考量哪些資料對您最為重要，量身打造專屬計分卡。iOS 和 Android 作業系統均支援 Analytics 儀表板。
 
 ## 本指南的詳細資訊
 
-本指南旨在協助 Adobe Analytics 資料組織者為控制面板的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 控制面板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
+本指南旨在協助 Adobe Analytics 資料組織者為控制面板的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定應用程式計分卡的其他角色；計分卡可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視以概要形式呈現的重要摘要資料。雖然執行使用者是 Analytics 儀表板的一般使用者，不過本指南的重點在於協助資料組織者為這些使用者有效設定應用程式。
 
 ## 術語表
 
-下表解釋各個術語，協助使用者了解 Analytics 控制面板的對象、功能和操作方式。
+下表解釋各個術語，協助使用者了解 Analytics 儀表板的對象、功能和操作方式。
 
 | 詞語 | 定義 |
 |--- |--- |
@@ -76,7 +76,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 **或**
 
-從&#x200B;**[!UICONTROL 工具]**&#x200B;選單中，選擇&#x200B;**[!UICONTROL 分析控制面板（行動應用程式）]**。 在隨即顯示的畫面上，按一下&#x200B;**[!UICONTROL 「建立新計分卡」]**&#x200B;按鈕。
+在「**[!UICONTROL 工具]**」選單中，選取「**[!UICONTROL Analytics 儀表板 (行動應用程式)]**」。在隨即顯示的畫面上，按一下&#x200B;**[!UICONTROL 「建立新計分卡」]**&#x200B;按鈕。
 
 ### 使用資料設定計分卡並儲存
 
@@ -100,7 +100,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    按一下計分卡建立程式中的圖磚，右側邊欄會顯示與該圖磚相關聯的屬性和特性。在此邊欄中，您可以為該圖磚提供新的&#x200B;**[!UICONTROL 標題]**，或是透過指定元件來設定圖磚，而不必從左側邊欄拖放元件。
 
-   ![屬性圖格](assets/properties_tile.png)
+   ![「屬性」圖磚](assets/properties_tile.png)
 
    此外，如果按一下圖磚，動態快顯視窗會顯示應用程式向執行使用者呈現劃分檢視畫面的方式。如果沒有將任何維度套用至圖磚，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
@@ -108,35 +108,35 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    新增至圖磚的每個維度，都會顯示在應用程式詳細檢視的下拉式清單中。執行使用者可從下拉式清單中選擇選項。
 
-4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+4. 若要將區段套用至個別圖磚，請從左側面板將區段直接拖曳至圖磚上。如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 
    ![建立篩選的區段](assets/segment_ui.png)
 
-5. 同樣地，要刪除應用於整個記分卡的元件，請按一下拼貼外部記分卡上的任意位置，然後按一下將滑鼠懸停在元件上時顯示的&#x200B;**x**&#x200B;將其刪除，如&#x200B;**首次訪問**&#x200B;段所示：
+5. 同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下將游標停留在元件上時顯示的 **x**，即可將其移除，如下方「**初次瀏覽**」區段所示：
 
    ![Remove_components](assets/new_remove.png)
 
-6. 通過選擇日期範圍下拉式清單，添加和刪除可以在記分卡中選擇的日期範圍組合。
+6. 新增和移除日期範圍組合，該組合可在計分卡中從日期範圍下拉式清單中選取。
 
-   ![新的分數卡](assets/new_score_card.png)
+   ![新計分卡](assets/new_score_card.png)
 
-   每個新記分卡都以6個日期範圍組合開始，以今天和昨天的資料為重點。 您可以按一下x來移除不必要的日期範圍，或按一下鉛筆來編輯每個日期範圍組合。
+   每個新計分卡都始於 6 個以今日和昨日的資料為主日期範圍組合。您可以按一下 x 來移除不必要的日期範圍，也可以按一下鉛筆來編輯每個日期範圍組合。
 
-   ![新的分數卡2](assets/new_score_card2.png)
+   ![新計分卡 2](assets/new_score_card2.png)
 
-   若要建立或變更主要日期，請使用下拉式選單從可用的日期範圍中選取，或從右側導軌拖放日期元件至拖放區。
+   若要建立或變更主要日期，使用下拉式選單並選擇可用的日期範圍，或將右側邊欄的日期組合拖放至下拉區。
 
-   ![全新分數卡3](assets/new_score_card3.png)
+   ![新計分卡 3](assets/new_score_card3.png)
 
-   若要建立比較日期，您可從下拉式功能表中，從方便的預先設定中選取常見時間比較。 您也可以從右側導軌拖放日期元件。
+   若要建立比較日期，可以在下拉式選單中選擇方便的預設集以便進行共同時間比較。您還可以從右側邊欄拖放一個日期元件。
 
-   ![全新分數卡4](assets/new_score_card4.png)
+   ![新計分卡 4](assets/new_score_card4.png)
 
-   如果您想要的日期範圍尚未建立，您可以按一下日曆圖示來建立新的日期範圍。
+   如果您想要的日期範圍還沒有建立，可以按一下日曆圖示建立一個新的。
 
-   ![全新分數卡4](assets/new_score_card5.png)
+   ![新計分卡 4](assets/new_score_card5.png)
 
-7. 這會帶您前往日期範圍產生器，您可在其中建立並儲存新的日期範圍元件。 若要為計分卡命名，請按一下畫面左上角的命名空間，並輸入新名稱。
+7. 這會帶您到日期範圍產生器，在其中可以建立和儲存新的日期範圍元件。若要為計分卡命名，請按一下畫面左上角的命名空間，並輸入新名稱。
 
    ![Naming_Scorecards](assets/new_name.png)
 
@@ -157,7 +157,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 ![Share_Scorecards](assets/new_share.png)
 
-在您共用計分卡後，收件者便可在其 Analytics 控制面板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
+在您共用計分卡後，收件者便可在其 Analytics 儀表板中存取該計分卡。如果您之後在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。到時，執行使用者在應用程式中重新整理計分卡後，就能看見變更。
 
 如果是以新增新元件的方式更新計分卡，您可再次共用計分卡 (並勾選&#x200B;**[!UICONTROL 共用內嵌元件]**&#x200B;選項)，以確保您的執行使用者有權存取這些變更。
 
@@ -183,12 +183,12 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    **若執行使用者使用 iOS：**
 
-   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
       [iOS 連結](https://apple.co/2zXq0aN)
    **若執行使用者使用 Android：**
 
-   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+   * 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
       [Android 連結](https://bit.ly/2LM38Oo)
    下載並安裝完畢後，執行使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
@@ -215,7 +215,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
    * 確認執行使用者能否登入正確的 Analytics 例項，以及是否已共用計分卡。
 
 
-3. 向執行用戶解釋拼貼在您共用的記分卡中的顯示方式(下面第一個記分卡是以暗模式設定的；如果您認為您的主管使用者偏好此檢視選項，請參閱以下的&#x200B;**[!UICONTROL 偏好設定]**:
+3. 向執行使用者解釋圖磚如何出現在您共用的計分卡 (下方第一個計分卡設定在黑暗模式；如果您認為執行用者偏好此檢視選項，請參閱下方的「**[!UICONTROL 偏好設定]**」)：
 
    ![說明圖磚](assets/newexplain.png)
 
@@ -223,7 +223,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    圖磚的其他資訊：
 
-   * 走勢圖的粒度取決於日期範圍的長度：
+   * 走勢圖的詳細程度取決於日期範圍的長度：
       * 若長度為一天，圖表會顯示每小時趨勢
       * 若長度為一天以上、一年以下，則會顯示每日趨勢
       * 若長度為一年 (含) 以上，圖表會顯示每週趨勢
@@ -239,7 +239,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    * 其中包含一個表格，會顯示新增至圖磚的維度資料。點選向下箭頭可選取維度。如果未將任何維度新增至圖磚，表格將會顯示圖表資料。
 
-5. 要更改記分卡的日期範圍，請點選「日期」標題，然後選擇要查看的主要和比較日期範圍組合。
+5. 若要變更計分卡的日期範圍，點選日期標題並選取想要檢視的主要和比較日期範圍組合。
 
    ![變更日期](assets/changedate.png)
 
@@ -272,4 +272,4 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 >[!IMPORTANT]
 >
->自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 控制面板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請連絡您的 CSM。
+>自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請連絡您的 CSM。
