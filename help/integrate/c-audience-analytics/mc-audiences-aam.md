@@ -1,20 +1,20 @@
 ---
-description: Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與第三方資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
+description: Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與協力廠商資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
 solution: Experience Cloud
 title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
+exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '464'
 ht-degree: 100%
 
 ---
 
-
 # Audience Analytics 概觀
 
-Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與第三方資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
+Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與協力廠商資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
 
 有了 Audiences Analytics 整合後，您可以將 AAM 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料與廣告曝光資料，整合至 Analytics 工作流程。
 
@@ -48,6 +48,6 @@ Audience Analytics 整合具有以下主要優點：
 * 您是 Audience Manager 管理員。
 * 您使用 Identity Service v1.5 或更新版本。
 * AAM 及 Adobe Analytics 報表套裝[對應至同一個 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
-* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實作[對象管理模組](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
+* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實施作業[對象管理模組](https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
 
 [對象分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些必備條件。
