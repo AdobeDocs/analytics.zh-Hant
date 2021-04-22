@@ -1,14 +1,14 @@
 ---
 title: 驗證開發實施並發佈至生產環境
-description: 瞭解如何使用Adobe Experience Platform Launch將Adobe Analytics部署至您的生產環境。
-translation-type: tm+mt
-source-git-commit: a94b8e090b9a3c75a57fd396cac8486bba2e5d79
-workflow-type: tm+mt
+description: 了解如何使用 Adobe Experience Platform Launch，將 Adobe Analytics 部署至您的生產環境中。
+exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
-
 
 # 驗證開發實施並發佈至生產環境
 
@@ -64,7 +64,7 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 
 ## 後續步驟
 
-現在已設定基本實作，您在組織中的角色可影響您想要進一步瞭解的路徑：
+現在基本實施作業已設定，您在組織中的角色可影響您想要進一步了解的路徑：
 
 * [建立解決方案設計文件](../prepare/solution-design.md)：建立要如何使用自訂變數的規劃，然後將其納入您的實施
 * [Analysis Workspace 快速入門](/help/analyze/analysis-workspace/home.md)：透過工具的旗艦功能，直接開始使用 Adobe Analytics。
