@@ -1,36 +1,36 @@
 ---
-description: 可讓您將使用者定義文字新增至「工作區」。
+description: 可讓您將使用者定義文字新增至您的 Workspace。
 title: 文字
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 7%
+exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '169'
+ht-degree: 100%
 
 ---
 
-
 # 文字
 
-您可以使用文字視覺化或面板／視覺化說明（按一下滑鼠右鍵標題> **[!UICONTROL 編輯說明]**），將使用者定義的文字新增至您的工作區專案。 您也可以變更文字的格式、新增超連結和新增影像。
+您可以將用戶定義的文字新增至您的 Workspace 專案，方法是使用文字視覺效果或面板/視覺效果說明 (在標題按一下右鍵 > **[!UICONTROL 編輯說明]**)。您還可以變更文字格式、新增超連結，並新增影像。
 
-## 調整格式{#format}
+## 調整格式 {#format}
 
-編輯文字方塊或說明時，您可以調整選取文字的字型大小（標題層級）、顏色、樣式（粗體、斜體、底線）和對齊方式。 您也可以新增項目符號和編號清單。
+編輯文字方框或說明時，您可以調整字體大小 (標題層級)、顏色、樣式 (粗體、斜體、下底線)，以及對齊所選的文字。您還可新增項目符號和自動編號清單。
 
 ![](assets/format.png)
 
 ## 新增超連結 {#hyperlinks}
 
-若要新增超連結，請反白標示文字，然後按一下功能表中的超連結圖示。 超連結可以連結至外部網站、檔案頁面、[工作區專案／面板／視覺化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)等，以進一步協助專案收件者。
+若要新增超連結，請醒目顯示文字並按一下選單中的超連結圖示。超連結可連結到外部網站、文件頁面、[Workspace 專案/面板/視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)以及其他等，進一步協助您的項目收件者。
 
 ![](assets/hyperlink.png)
 
-## 新增影像{#images}
+## 新增影像 {#images}
 
-若要將影像新增至專案，請按一下功能表中的影像圖示，然後插入公用影像URL。 影像URL必須可公開存取，以`https`開頭，且格式為`.png`、`.jpeg`、`.jpg`或`.gif`。 支援靜態和動畫影像。
+若要在專案中新增影像，請按一下選單中的影像圖示並插入公開的影像 URL。影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
 
 ![](assets/image.png)
