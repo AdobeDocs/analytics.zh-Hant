@@ -1,14 +1,14 @@
 ---
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
+exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 translation-type: ht
-source-git-commit: 97e1c0ac5fbf7f932c3f772c33e7fa8880c653a6
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '507'
 ht-degree: 100%
 
 ---
-
 
 # 設定跨裝置分析
 
