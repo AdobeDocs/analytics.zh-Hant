@@ -2,14 +2,14 @@
 title: JavaScript 適用的 AppMeasurement 發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
-translation-type: tm+mt
-source-git-commit: 31ccee8681f2a5b51f1d773d80aa89b70e4d3b65
-workflow-type: tm+mt
+exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '2142'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
-
 
 # JavaScript 適用的 AppMeasurement 發行說明
 
@@ -23,7 +23,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2020 年 8 月 4 日**
 
-* 修正因使用者的退出偏好設定而未傳送首次點擊時遺失反向連結的問題。
+* 用戶選擇退出偏好設定而造成第一個點擊未傳送，此時要修復缺少的推薦者。
 
 ## 2.21.0 版
 
