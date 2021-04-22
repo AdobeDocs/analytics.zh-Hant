@@ -3,11 +3,14 @@ description: Adobe FTP 政策針對連續 90 天無活動的 FTP 帳戶，會自
 keywords: ftp;sftp
 title: 刪除 FTP 資料和 FTP 帳戶
 uuid: 1cbd3add-3561-492a-9ed4-aedbd3d5b257
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+exl-id: accf2f8d-c22c-4684-ba85-73a286325d0c
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '218'
+ht-degree: 100%
 
 ---
-
 
 # 刪除 FTP 資料和 FTP 帳戶
 
@@ -25,4 +28,3 @@ Adobe FTP 政策針對連續 90 天無活動的 FTP 帳戶，會自動停用對�
 
 * 在傳出資料已成功傳輸至您的內部環境後，從 FTP 系統移除該筆資料。Adobe 會找出並移除停留在系統中超過 90 天的檔案。
 * 不再需要 FTP 帳戶時，請通知 Adobe 以將其停用並移除。
-
