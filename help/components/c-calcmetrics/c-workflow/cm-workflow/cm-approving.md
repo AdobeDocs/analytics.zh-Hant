@@ -2,11 +2,14 @@
 description: 在計算量度管理員中，您可以設定包含各應用程式級別以及特定部門或群組之核准量度的工作流程。
 title: 核准計算量度
 uuid: df51252c-3121-4030-8a8c-566d557f28b2
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '144'
+ht-degree: 100%
 
 ---
-
 
 # 核准計算量度
 
@@ -22,4 +25,3 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 
 1. 您也可以按一下「**[!UICONTROL 取消核准]**」，將此量度從核准清單中取下。
 1. 您也可以透過按一下「**[!UICONTROL 顯示篩選器]** > **[!UICONTROL 其他篩選器]** > **[!UICONTROL 已核准]**」來篩選已核准的量度。
-
