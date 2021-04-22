@@ -1,11 +1,14 @@
 ---
 title: SSL 憑證授權
 description: 由客戶管理的憑證之憑證程序
-translation-type: tm+mt
-source-git-commit: 3fe3442eae1bdd8b90acffc9c25d184714613c16
+exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
-
 
 # SSL/TLS 憑證授權
 
