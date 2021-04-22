@@ -2,14 +2,14 @@
 description: 以下 Analytics 中計算量度運作方式的變更可能會影響到您。
 title: 常見問題集
 uuid: 9b7f1cd1-b969-4b15-8af1-969d816b65b8
+exl-id: a7c075c2-c9d3-41be-a27c-cb63ee573674
 translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '2055'
 ht-degree: 100%
 
 ---
-
 
 # 常見問題集
 
