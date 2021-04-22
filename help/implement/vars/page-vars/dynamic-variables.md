@@ -1,14 +1,14 @@
 ---
 title: 動態變數
 description: 複製變數而不增加影像要求長度。
+exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '359'
 ht-degree: 100%
 
 ---
-
 
 # 動態變數
 
@@ -55,4 +55,4 @@ s.eVar1 = "D=g";
 
 >[!NOTE]
 >
-> 在為實作除錯時，動態變數會顯示為字串。值由 Adobe 資料收集伺服器從伺服器端複製。
+> 在為實施作業除錯時，動態變數會顯示為字串。值由 Adobe 資料收集伺服器從伺服器端複製。
