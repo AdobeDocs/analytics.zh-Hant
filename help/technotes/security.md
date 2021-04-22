@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 安全性資源
 description: Adobe 安全性實務與復原計畫的相關資源連結。
+exl-id: 276285f3-349b-4261-bea1-25bdc0996fbf
 translation-type: ht
-source-git-commit: 4062baa150aa991bd017a8d639ac2a56cc88dbcd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '102'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 安全性資源
 
