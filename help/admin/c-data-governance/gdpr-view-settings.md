@@ -2,14 +2,14 @@
 description: 「管理工具」中的資料控管對話方塊提供概述，讓您瞭解已針對資料控管設定哪些報表套裝、是否已對應至 Experience Cloud 組織，以及此報表套裝是否已制定資料保留政策。
 title: 檢視/管理報表套裝資料控管設定
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
+exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '555'
 ht-degree: 100%
 
 ---
-
 
 # 檢視/管理報表套裝資料控管設定
 
@@ -45,7 +45,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料保留政策 </p> </td> 
-   <td colname="col2"> <p>Analytics 資料隱私權實作需要您制定資料保留政策。 </p> <p>此設定會顯示： </p> 
+   <td colname="col2"> <p>Analytics 資料隱私權實施作業需要您制定資料保留政策。 </p> <p>此設定會顯示： </p> 
     <ul> 
      <li>是否已針對此報表套裝制定資料保留政策。 </li> 
      <li>刪除資料之前 Adobe 要保留資料的時間。預設的資料保留時間為 25 個月。 </li> 
@@ -65,4 +65,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
