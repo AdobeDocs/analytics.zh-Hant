@@ -1,14 +1,14 @@
 ---
 title: 將 Launch 資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
+exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
 ---
-
 
 # 將 Launch 資料元素對應至 Analytics 變數
 
