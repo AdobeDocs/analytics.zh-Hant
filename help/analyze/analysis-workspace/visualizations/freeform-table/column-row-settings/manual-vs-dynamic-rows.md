@@ -1,16 +1,16 @@
 ---
 title: 自由表格中的動態與靜態維度項目
 description: 如何與表格中的動態和靜態維度項目互動。
-feature: Freeform Tables
+feature: 自由表格
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '486'
+ht-degree: 100%
 
 ---
-
 
 # 自由表格中的動態與靜態維度項目
 
