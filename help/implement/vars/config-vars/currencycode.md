@@ -1,14 +1,14 @@
 ---
 title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
+exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '830'
 ht-degree: 100%
 
 ---
-
 
 # currencyCode
 
@@ -85,7 +85,7 @@ s.currencyCode = "USD";
 | `BYR` | 白俄羅斯盧布 |
 | `BZD` | 貝里斯元 |
 | `CAD` | 加拿大元 |
-| `CDF` | 剛果／金夏沙法郎 |
+| `CDF` | 剛果/金夏沙法郎 |
 | `CHF` | 瑞士法郎 |
 | `CLP` | 智利披索 |
 | `CNY` | 中國人民幣 |
