@@ -2,14 +2,14 @@
 description: 管理警報。
 title: 警報管理器
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
+exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
 ---
-
 
 # 警報管理器
 
@@ -34,4 +34,3 @@ ht-degree: 100%
 * 指定/變更警報的擁有者。
 * 新增其他篩選器
 * 定義警報&#x200B;**到期日**。
-
