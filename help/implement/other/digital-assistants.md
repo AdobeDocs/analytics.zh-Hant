@@ -1,14 +1,14 @@
 ---
 title: 對數位助理實施 Analytics
 description: 在數位助理 (例如 Amazon Alexa 或 Google首頁) 上實施 Adobe Analytics。
-translation-type: tm+mt
-source-git-commit: 09b453c1b4cd8555c5d1718759003945f5c230c5
-workflow-type: tm+mt
+exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '1266'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
-
 
 # 對數位助理實施 Analytics
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 ## 數位體驗架構概述
 
-![Digital Assistant工作流程](assets/Digital-Assitants.png)
+![數位助理工作流程](assets/Digital-Assitants.png)
 
 當今大多數的數位助理都按照類似的高階架構：
 
@@ -113,7 +113,7 @@ Cache-Control: no-cache
 
 舉例來說，若使用者說「從我的銀行應用程式轉給小明 20 美元，付昨晚的晚餐錢」，則意圖可能會表示為&#x200B;*sendMoney*。
 
-以 eVar 形式傳入各個要求，便能為對話型應用程式產生各個意圖的路徑報表。請確認您的應用程式也能處理不具意圖的要求。Adobe建議將「未指定意圖」傳入目的上下文資料變數，而非省略變數。
+以 eVar 形式傳入各個要求，便能為對話型應用程式產生各個意圖的路徑報表。請確認您的應用程式也能處理不具意圖的要求。Adobe 建議您將「未指定意圖」傳遞至意圖內文資料變數，不要移除變數。
 
 ```text
 GET /b/ss/examplersid/1?vid=[UserID]&c.a.AppID=Penmo1.0&c.a.LaunchEvent=1&c.Intent=SendPayment&pageName=[intent]  HTTP/1.1
