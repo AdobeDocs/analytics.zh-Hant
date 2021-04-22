@@ -1,29 +1,29 @@
 ---
 description: 控制面板計分卡的使用說明。
-title: Adobe Analytics 控制面板執行指南
-feature: Analytics Dashboards
+title: Adobe Analytics 儀表板執行指南
+feature: Analytics 儀表板
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 99%
+exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '1295'
+ht-degree: 100%
 
 ---
 
+# Adobe Analytics 儀表板：執行使用者快速入門手冊
 
-# Adobe Analytics 控制面板：執行使用者快速入門手冊
-
-下列資訊可讓執行使用者瞭解使用和檢視 Adobe Analytics 控制面板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 控制面板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
+下列資訊可讓執行使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
 
 ## 簡介
 
-Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
+Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
 
 ## 本指南的詳細資訊
 
-本指南旨在協助執行使用者閱讀和理解 Analytics 控制面板的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+本指南旨在協助執行使用者閱讀和理解 Analytics 儀表板的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 術語表
 
@@ -55,13 +55,13 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
 **若執行使用者使用 iOS：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 [iOS 連結](https://apple.co/2zXq0aN)
 
 **若執行使用者使用 Android：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 控制面板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 [Android 連結](https://bit.ly/2LM38Oo)
 
@@ -96,7 +96,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    圖磚的其他資訊：
 
-   * 走勢圖的粒度取決於日期範圍的長度：
+   * 走勢圖的詳細程度取決於日期範圍的長度：
 
       * 若長度為一天，圖表會顯示每小時趨勢
       * 若長度為一天以上、一年以下，則會顯示每日趨勢
@@ -122,7 +122,7 @@ Adobe Analytics 控制面板可隨時隨地提供 Adobe Analytics 的深入分�
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-7. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。應用程式中的[篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
+7. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。應用程式中的[篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
 
    ![區段篩選](assets/segment_filter.png)
 
