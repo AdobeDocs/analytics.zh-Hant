@@ -1,14 +1,14 @@
 ---
 title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
-translation-type: tm+mt
-source-git-commit: dfe2b09b2ee287219d18099c51b6fbd7c86bab21
-workflow-type: tm+mt
+exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
-
 
 # trackingServerSecure
 
@@ -31,7 +31,7 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.trackingServerSecure
 
-`s.trackingServerSecure` 變數是包含影像要求傳送位置的字串。它幾乎永遠是您網站的子網域。瀏覽器中的現代化隱私實務通常會使第三方 Cookie 變得不可靠。如果此變數留空，其會使用 `s.trackingServer` 變數中的值。
+`s.trackingServerSecure` 變數是包含影像要求傳送位置的字串。它幾乎永遠是您網站的子網域。瀏覽器中的現代化隱私實務通常會使協力廠商 Cookie 變得不可靠。如果此變數留空，其會使用 `s.trackingServer` 變數中的值。
 
 此變數的值幾乎永遠是第一方網域，例如 `data.example.com`。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
 
@@ -41,4 +41,4 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 s.trackingServerSecure = "data.example.com";
 ```
 
-CNAME records usually point to a subdomain on `data.adobedc.net`, `sc.adobedc.net` or `2o7.net`.
+CNAME 記錄通常會指向 `data.adobedc.net`、`sc.adobedc.net` 或 `2o7.net` 上的子網域。
