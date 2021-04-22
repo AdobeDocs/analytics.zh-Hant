@@ -1,22 +1,22 @@
 ---
 title: visitorNameSpace
 description: 決定 Cookie 網域的淘汰變數。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: tm+mt
+exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '213'
 ht-degree: 100%
 
 ---
 
-
 # visitorNamespace
 
 >[!IMPORTANT]
 >
-> 此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
+>此變數已淘汰。請改用 [`trackingServer`](trackingserver.md)。
 
-在舊版 Adobe Analytics 中，AppMeasurement 使用 `visitorNameSpace` 變數來協助判斷儲存訪客 Cookie 的 `2o7.net` 子網域。近代瀏覽器中逐漸增強的隱私權實務會降低第三方 Cookie 的可靠性。隨著 `trackingServer` 和 [`trackingServerSecure`](trackingserversecure.md) 變數的引入，您不再需要 `visitorNameSpace`。
+在舊版 Adobe Analytics 中，AppMeasurement 使用 `visitorNameSpace` 變數來協助判斷儲存訪客 Cookie 的 `2o7.net` 子網域。近代瀏覽器中逐漸增強的隱私權實務會降低協力廠商 Cookie 的可靠性。隨著 `trackingServer` 和 [`trackingServerSecure`](trackingserversecure.md) 變數的引入，您不再需要 `visitorNameSpace`。
 
 >[!TIP]
 >
