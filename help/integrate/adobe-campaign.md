@@ -1,14 +1,14 @@
 ---
 description: 瞭解如何啟用 Adobe Analytics 中的 Adobe Campaign 報表
 title: 如何將 Adobe Campaign 報表整合至 Adobe Analytics？
+exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
 translation-type: ht
-source-git-commit: 84337e8112b63859927d31568010ef0f0d604333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '478'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Campaign 報表
 
@@ -53,7 +53,7 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 * Campaign 標籤 (Adobe Campaign 中的行銷活動)
 * 已執行的傳送標籤 (個別已執行傳送清單)
 
-## Adobe Analytics 中可用的 Adobe Campaign 維度和量度 {#section_F33385C9660644AF84172EC39601469B}
+## Adobe Analytics 中可用的 Adobe Campaign 維度和量度  {#section_F33385C9660644AF84172EC39601469B}
 
 以下&#x200B;**量度**&#x200B;可透過 Adobe Analytics 報表套裝中的 Campaign 使用：
 
