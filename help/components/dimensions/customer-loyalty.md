@@ -1,14 +1,14 @@
 ---
 title: 客戶忠誠度
 description: 根據訪客先前購買次數分類的類別。
+exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # 客戶忠誠度
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-Adobe 會根據您實作中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。如果您在網站上實作 `purchase` 事件，此維度一律有效。
+Adobe 會根據您實施作業中的 [`purchase`](/help/implement/vars/page-vars/events/event-purchase.md) 事件自動填入此維度。如果您在網站上實施作業 `purchase` 事件，此維度一律有效。
 
 ## 維度項目
 
