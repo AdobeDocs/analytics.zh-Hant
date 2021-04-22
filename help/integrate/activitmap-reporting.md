@@ -30,4 +30,4 @@ ht-degree: 100%
    | Activity Map 連結 | 列出整個網站上所有收集的連結。 |
    | Activity Map 連結和地區 | 列出整個網站上所有收集的連結及其地區。 |
 
-對於要填入的資料，請參閱 [Activity Map 文件](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/activity-map.html)以了解完整的實作指示。
+對於要填入的資料，請參閱 [Activity Map 文件](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/activity-map.html)以了解完整的實施作業指示。
