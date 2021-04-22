@@ -1,14 +1,14 @@
 ---
 title: 頁面事件
 description: 連結追蹤動作的觸發次數。
+exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
 translation-type: ht
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '143'
 ht-degree: 100%
 
 ---
-
 
 # 頁面事件
 
