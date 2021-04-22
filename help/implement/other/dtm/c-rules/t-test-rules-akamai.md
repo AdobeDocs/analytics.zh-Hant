@@ -1,17 +1,17 @@
 ---
 description: 如果您使用 Akamai 託管，請自主控台測試取消發佈規則。
-keywords: Dynamic Tag Management;rule;switcher plug-in;akamai;test akamai;unpublished rules;test unpublished rules;debug rule
+keywords: 動態標籤管理;規則;切換器外掛程式;akamai;test akamai;未發佈的規則;測試未發佈的規則;偵錯規則
 solution: Experience Cloud,Analytics,Target
 title: 測試 Akamai 託管未發佈的規則
 uuid: 979e3d74-8d96-47d0-b581-cf5371248434
-translation-type: tm+mt
-source-git-commit: a4542164031fc9f181dfdc471a1d54b5056b1223
-workflow-type: tm+mt
-source-wordcount: '132'
+exl-id: 0fea044f-38fc-45e3-81ec-4765469fdf08
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '148'
 ht-degree: 100%
 
 ---
-
 
 # 測試 Akamai 託管未發佈的規則
 
