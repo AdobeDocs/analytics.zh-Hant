@@ -2,14 +2,14 @@
 description: 說明三種產品相容性選項。
 title: 量度相容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
+exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '179'
 ht-degree: 100%
 
 ---
-
 
 # 量度相容性
 
@@ -39,4 +39,3 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
-
