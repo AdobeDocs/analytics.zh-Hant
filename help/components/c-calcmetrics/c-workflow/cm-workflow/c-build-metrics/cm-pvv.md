@@ -2,14 +2,14 @@
 description: 顯示如何建立簡易的「每次瀏覽頁面檢視次數」量度。
 title: 建立簡單的「每次造訪頁面檢視次數」量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
+exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 translation-type: ht
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '251'
 ht-degree: 100%
 
 ---
-
 
 # 建立簡單的「每次造訪頁面檢視次數」量度
 
@@ -33,4 +33,3 @@ ht-degree: 100%
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 注意「**[!UICONTROL 摘要]**」公式會隨著您變更量度定義而更新。
 1. 此時您會自動進入[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) (類似「區段管理器」)。您可在此共用、核准、(重新) 標記、重新命名或刪除量度。
-
