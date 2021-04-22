@@ -1,24 +1,24 @@
 ---
 title: pageName
 description: 網站上各個頁面的名稱。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
-workflow-type: tm+mt
+exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
-
 # pageName
 
-`pageName` 變數通常會儲存指定頁面的名稱。這個變數有助於判斷哪些個別頁面最受歡迎。This variable populates the [Page](/help/components/dimensions/page.md) dimension.
+`pageName` 變數通常會儲存指定頁面的名稱。這個變數有助於判斷哪些個別頁面最受歡迎。此變數會填入「[頁面](/help/components/dimensions/page.md)」維度。
 
 如果您未在指定頁面追蹤呼叫上設定此變數，系統會改用 [`pageURL`](pageurl.md) 變數。
 
 >[!NOTE]
 >
->Adobe資料收集伺服器會從所有連結追蹤影像要求中 [移除此](/help/implement/vars/functions/tl-method.md) 維度。 如果您希望此維度出現在連結追蹤點擊中，請考慮將此維度複製到 [eVar](evar.md)。
+>Adobe 資料收集伺服器會從所有 [連結追蹤](/help/implement/vars/functions/tl-method.md) 影像要求中移除此維度。如果您想要此點擊出現在連結追蹤點擊中，請考慮將維度複製到 [eVar](evar.md)。
 
 ## Adobe Experience Platform Launch 中的頁面名稱
 
@@ -45,7 +45,7 @@ s.pageName = "Example page name";
 s.pageName = window.document.title;
 ```
 
-如果使用數 `digitalData` 據 [層](../../prepare/data-layer.md):
+如果使用`digitalData` [資料層](../../prepare/data-layer.md)：
 
 ```js
 s.pageName = digitalData.page.pageInfo.pageName;
