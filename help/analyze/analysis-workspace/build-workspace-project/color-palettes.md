@@ -1,16 +1,16 @@
 ---
 description: 如何在 Analysis Workspace 中使用視覺化調色盤
 title: 視覺化調色盤是什麼以及如何運作？
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '219'
+exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '216'
 ht-degree: 100%
 
 ---
-
 
 # 視覺化調色盤
 
@@ -36,4 +36,3 @@ ht-degree: 100%
 
 1. 若要自訂調色盤，請選取預先設定選項下方的&#x200B;**[!UICONTROL 「自訂調色盤」]**。
 1. 指定最多 16 個由逗號分隔的十六進位值 (例如，#00a4e4) 作為要使用的顏色。舉例來說，如果您只想使用 4 個值，則這些顏色會在包含更多顏色的視覺效果中自動重複。
-
