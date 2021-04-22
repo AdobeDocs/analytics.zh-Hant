@@ -1,14 +1,14 @@
 ---
 title: linkInternalFilters
 description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤。
-translation-type: tm+mt
-source-git-commit: ec93137d0b5334e312fe0ec42953457243117d4a
-workflow-type: tm+mt
+exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '340'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
-
 
 # linkInternalFilters
 
@@ -18,7 +18,7 @@ AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外�
 
 如果您同時使用 `linkInternalFilters` 和 `linkExternalFilters` 兩者，點按的連結必須符合 `linkExternalFilters` **而且**&#x200B;與 `linkInternalFilters` 不符，才會視為退出連結。如果點按的連結符合退出連結和下載連結兩條件，下載連結類型的優先較高。
 
-Activity Map使用此變數可協助判斷您網站的內部連結。 Adobe建議使用Activity Map的實作設定此變數。
+Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。Adobe 建議將此變數設定為使用 Activity Map 的實施作業。
 
 >[!NOTE]
 >
