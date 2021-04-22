@@ -1,14 +1,14 @@
 ---
 title: 所有搜尋頁面排名
 description: 判斷訪客在搜尋引擎的哪一頁上點進您的網站。
+exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
 ---
-
 
 # 所有搜尋頁面排名
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-報表套裝必須正確設定[內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)，此維度才能運作。AppMeasurement 會自動填入此維度，而不會變更任何實作程式碼。
+報表套裝必須正確設定[內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)，此維度才能運作。AppMeasurement 會自動填入此維度，而不會變更任何實施作業程式碼。
 
 ## 維度項目
 
