@@ -1,11 +1,14 @@
 ---
 title: 延遲送達點擊
 description: 了解資料摘要如何處理延遲送達點擊。
+exl-id: c99a702b-2aaa-47a6-958a-1e5ab66961ba
 translation-type: ht
-source-git-commit: 7db88bce7b3d0f90fa5b50664d7c0c23904348c0
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '331'
+ht-degree: 100%
 
 ---
-
 
 # 延遲送達點擊
 
