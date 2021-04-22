@@ -1,14 +1,14 @@
 ---
 title: 小時
 description: 量度發生的小時。
+exl-id: 323c46dd-87d0-487a-b954-e5ccbc1b919d
 translation-type: ht
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
 workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
 ---
-
 
 # 小時
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 
