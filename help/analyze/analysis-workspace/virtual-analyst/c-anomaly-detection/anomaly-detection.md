@@ -2,28 +2,28 @@
 description: 您可以在 Analysis Workspace 中根據內容檢視和分析資料異常。
 title: 異常偵測概述
 uuid: 991fde08-198c-4410-9606-d5a4f3dd8339
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
-workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 89%
+exl-id: b1625206-c774-40ef-9d92-25ee8ff1478d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
+source-wordcount: '288'
+ht-degree: 100%
 
 ---
-
 
 # 異常偵測概述
 
 您可以根據 Analysis Workspace 中的內容檢視和分析資料異常。
 
-[異常偵測教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
+[「異常偵測」教學影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/data-science/anomaly-detection-in-analysis-workspace.html) (4:53)
 
-[貢獻分析教學課程](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)影片
+[「貢獻分析」教學影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/data-science/contribution-analysis-workspace.html) (3:20)
 
 >[!IMPORTANT]
 >
->異常偵測功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
+>異常偵測功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日詳細程度」的異常偵測功能。如需更多資訊，請參閱[異常偵測和貢獻分析使用權限](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md#section_9278D58F21A840AA9B1ED1BD07A1EF0A)。
 
 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。
 
@@ -42,5 +42,5 @@ ht-degree: 89%
 
 Analysis Workspace 異常偵測的演算法包含
 
-* 除了現有的每日粒度，另支援對每小時、每週和每月的粒度。
+* 除了現有的每日詳細程度，另支援對每小時、每週和每月的詳細程度。
 * 感知季節性 (例如「黑色星期五」) 和假日。
