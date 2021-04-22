@@ -2,14 +2,14 @@
 description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 title: 虛擬報表套裝元件管理
 uuid: 6c6a4071-22ad-4e8c-b1ed-140b2aa04f76
-translation-type: tm+mt
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: tm+mt
+exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
+translation-type: ht
+source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+workflow-type: ht
 source-wordcount: '419'
 ht-degree: 100%
 
 ---
-
 
 # 虛擬報表套裝元件管理
 
