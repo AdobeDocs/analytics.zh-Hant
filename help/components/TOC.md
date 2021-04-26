@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '637'
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '634'
 ht-degree: 100%
 
 ---
@@ -170,7 +170,6 @@ ht-degree: 100%
    + [最佳作法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
    + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
-   + [常見問題集](c-calcmetrics/cm-transition.md)
    + [作法影片](c-calcmetrics/cm-videos.md)
    + 計算量度工作流程 {#calcmetric-workflow}
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
