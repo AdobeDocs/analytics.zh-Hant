@@ -3,10 +3,10 @@ title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 60856c2c410d7b45ba54d1ae7bdd659d181965ff
 workflow-type: tm+mt
-source-wordcount: '1605'
-ht-degree: 85%
+source-wordcount: '1672'
+ht-degree: 81%
 
 ---
 
@@ -111,3 +111,7 @@ CDA 會提取 eVar 維度項目，再針對報表最佳化。您不須擔心針�
 7天重播回顧視窗的優點是，CDA能夠及時返回，嘗試將先前匿名的事件與稍後在7天內登入的人建立關聯。 7天回顧視窗的缺點是： 1)每週只執行一次重播，以及2)最近7天的重播可能會有所變更。
 
 使用1天重播回顧窗口的優勢是：1)每天運行重放；2)只有昨天才能更改重放窗口。 1天回顧視窗的缺點是，CDA只能返回1天，以嘗試將先前匿名的事件與昨天登入的人員建立關聯。
+
+## 如果我的公司決定從Analytics Ultimate降級，CDA虛擬報表套裝中的銜接資料會如何？
+
+如果客戶從Ultimate降級，他們將無法再訪問銜接資料。 所有先前銜接的資料都會移除。 這表示CDA虛擬報表套裝現在不會反映跨裝置聯繫。 資料看起來會類似於原始未連結的報表套裝。
