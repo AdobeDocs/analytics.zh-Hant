@@ -3,11 +3,11 @@ description: 說明三種產品相容性選項。
 title: 量度相容性
 uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '179'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 60%
 
 ---
 
@@ -17,25 +17,8 @@ ht-degree: 100%
 
 在計算量度產生器中建立計算量度或進階計算量度後，您的量度會顯示為與一或多個選項相容：目前的資料、完全處理的資料或行銷管道報表。
 
-<table id="table_DF7F6D55467B4B76AC34026465D44F7A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 相容 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 目前的資料 </td> 
-   <td colname="col2"> <p>分析中的「包含目前的資料」選項可讓您檢視最新 Analytics 資料，通常是在資料經過完全處理完並完成之前。<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/current-data.html"  >目前的資料</a>會在數分鐘內顯示最多的量度，提供可操作的資料以幫助快速決策。 </p> <p>目前的資料僅支援計算量度 (其中包含乘法、除法、加法和減法)。目前的資料不支援進階計算量度 (其中包含區段或函數)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 完全處理的資料 </td> 
-   <td colname="col2"> <p>已完全處理並包含區段和分類的資料。若您想在資料完全處理後檢視所有量度，則可將使用者從「目前的資料使用者」中移除，以停用「目前的資料」群組。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行銷管道報表 </td> 
-   <td colname="col2"> <p>具有首次接觸配置的量度只與行銷管道報表相容。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 相容 | 說明 |
+| --- | --- |
+| [目前的資料](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html) | Adobe Analytics的[!UICONTROL 包含目前的資料]選項可讓您檢視最新的Analytics資料，通常是在資料完全處理和完成之前。 [!UICONTROL 目前的] 資料會在幾分鐘內播放大部分量度，提供可操作的資料，以便快速決策。[!UICONTROL 目前的資料僅支援計算量度 (其中包含乘法、除法、加法和減法)。][!UICONTROL 目前的資料不支援進階計算量度 (其中包含區段或函數)。] |
+| 完全處理的資料 | 已完全處理並包含區段和分類的資料。如果您想在資料完全處理後檢視所有量度，可從「目前的資料使用者」群組移除使用者，以停用[!UICONTROL 目前的資料]。 |
+| 行銷管道報表 | 具有首次接觸配置的量度只與行銷管道報表相容。 |
