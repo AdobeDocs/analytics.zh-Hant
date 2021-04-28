@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics使用的IP和網域
 description: 如果您組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新防火牆設定。
+exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
 translation-type: tm+mt
-source-git-commit: 80eab18fd133875c90ca72532867a8839938364f
+source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '393'
 ht-degree: 86%
 
 ---
-
 
 # Adobe Analytics使用的IP和網域
 
@@ -24,7 +24,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 
 | 技術 | 網域 |
 | --- | --- |
-| Adobe Analytics網域 | `adobe.com`, `adobe.net`, `adobe.io` |
+| Adobe Analytics域 | `adobe.com`, `adobe.net`, `adobe.io` |
 | Adobe Analytics 舊網域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -33,9 +33,9 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | Microsoft Azure Blob 儲存體 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## 所有Adobe Analytics IP位址區塊
+## 所有Adobe Analytics資料收集IP地址塊
 
-下表涵蓋Adobe Analytics的所有標準資料收集伺服器和地區資料收集伺服器。 不包含個別 AWS 主機。
+下表涵蓋Adobe Analytics的所有標準資料收集伺服器和區域資料收集伺服器。 不包含個別 AWS 主機。
 
 | IP 區塊 (CIDR 標記法) |
 | --- |
@@ -58,10 +58,10 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | --- | --- |
 | 阿姆斯特丹 | `66.117.28.0/23` |
 | Dallas | `205.219.231.0/24` |
-| Dallas | `66.235.152.0/22` |
-| Dallas | `66.235.140.0/22` |
-| Dallas | `63.140.32.0/21` |
-| Dallas | `172.82.208.0/22` |
+| 達拉斯 | `66.235.152.0/22` |
+| 達拉斯 | `66.235.140.0/22` |
+| 達拉斯 | `63.140.32.0/21` |
+| 達拉斯 | `172.82.208.0/22` |
 | 中國香港特別行政區 | `66.117.24.0/22` |
 | 倫敦 | `66.235.156.0/24` |
 | 倫敦 | `66.235.148.0/23` |
@@ -89,14 +89,14 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | 新加坡 | `172.82.246.0/23` |
 | 新加坡 | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
-| San Jose | `66.235.132.0/22` |
-| San Jose | `130.248.128.0/22` |
-| San Jose | `192.243.248.0/23` |
-| San Jose | `172.82.200.0/22` |
-| San Jose | `66.235.136.0/22` |
-| San Jose | `208.91.175.0/24` |
-| San Jose | `208.91.174.0/24` |
-| San Jose | `208.91.169.0/24` |
+| 聖荷西 | `66.235.132.0/22` |
+| 聖荷西 | `130.248.128.0/22` |
+| 聖荷西 | `192.243.248.0/23` |
+| 聖荷西 | `172.82.200.0/22` |
+| 聖荷西 | `66.235.136.0/22` |
+| 聖荷西 | `208.91.175.0/24` |
+| 聖荷西 | `208.91.174.0/24` |
+| 聖荷西 | `208.91.169.0/24` |
 | 雪梨 | `216.104.216.0/23` |
 | 東京 | `66.235.159.0/24` |
 | 東京 | `66.117.21.0/24` |
@@ -113,7 +113,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 
 ## AWS 主機
 
-Adobe Analytics會將Amazon Web Services作為其資料收集程式的一部分。 下表包括為 Adobe 保留的 AWS 主機。下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
+Adobe Analytics使用Amazon網站服務作為其資料收集程式的一部分。 下表包括為 Adobe 保留的 AWS 主機。下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
 
 | 位置 | 主機 |
 | --- | --- |
