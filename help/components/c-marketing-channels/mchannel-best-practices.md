@@ -2,10 +2,10 @@
 title: 實作Adobe Analytics行銷渠道的最佳實務
 description: 更新搭配Attribution IQ和Customer Journey Analytics使用行銷渠道的最佳實務
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '633'
+ht-degree: 3%
 
 ---
 
@@ -24,19 +24,31 @@ ht-degree: 4%
 
 我們建議使用[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)來取代現有行銷渠道屬性，以微調您的行銷渠道分析。 遵循其他最佳實務，確保分析的一致性與強穩控制，並提供Attribution IQ。
 
+![](assets/attribution.png)
+
+* 「行銷渠道」和「行銷渠道詳情」維度的設定會建立與每個「行銷渠道例項」對應的要評估觸點。
+* 對於量度分析，您的組織應依據一或多個歸因模型進行對齊。使用此模型儲存自訂量度，以方便重複使用。
+* 依預設，資料會使用「上次接觸」和「訪客參與期間」的設定來分配。 Attribution IQ量度模型可提供更佳的回顧視窗控制能力，並提供更多種類，包括[演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace)。
+
 ## 最佳實踐#2:無直接和會話刷新渠道定義
 
 不建議直接和內部／工作階段重新整理頻道用於自訂歸因模型(Attribution IQ)。
 
 如果您的組織已設定「直接重新整理」和「工作階段重新整理」，該怎麼辦？ 在此情況下，我們建議您為行銷渠道建立分類，並保留這兩個渠道未分類。 分類的維度會產生與從未設定過的相同Attribution IQ結果。
 
+![](assets/direct-session-refresh.png)
+
 ## 最佳實踐#3:啟用覆寫所有渠道的上次接觸渠道
 
 啟用此設定時，與「工作區」中的「行銷管道」維度搭配使用的自訂歸因模型最能運作。 啟用此設定會在遇到新渠道／詳細資料時，計算行銷渠道例項。 除了直接或內部／工作階段重新整理（我們不再建議與自訂歸因模型搭配使用）外，您應對所有渠道啟用此功能。
 
+![](assets/override.png)
+
 ## 最佳實踐#4:將訪客參與時間減至最少
 
 將「訪客參與」期間設為「1天」最低值，可將持續值的可能性降至最低。 由於自訂歸因模型(AIQ)允許有彈性的回顧視窗，因此我們建議設定最小值，以盡量降低此設定的影響。
+
+![](assets/expiration.png)
 
 ## 最佳實踐#5:行銷渠道處理規則應僅適用於已啟用的渠道
 
