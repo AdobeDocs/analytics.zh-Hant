@@ -1,22 +1,26 @@
 ---
 title: 行銷管道常見問題集
 description: 行銷管道的常見問題。
-translation-type: ht
-source-git-commit: 89c91aa7620eaba3d24e3d5de4055609c472f9f7
-workflow-type: ht
-source-wordcount: '1465'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
+workflow-type: tm+mt
+source-wordcount: '1485'
+ht-degree: 98%
 
 ---
 
 
 # 行銷管道常見問題集
 
+>[!NOTE]
+>
+>為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+
 行銷管道的常見問題。
 
 ## 我的追蹤代碼不遵從模式，而我必須為我的「附屬機構」管道指定上千個模式。
 
-* 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用&#x200B;*`affiliates.`*
+* 使用消除過程。如果「電子郵件」和「附屬機構」渠道使用相同的查詢字串參數，但您只有很少的電子郵件追蹤代碼，則可以在定義電子郵件的規則集中指定電子郵件追蹤代碼。然後使用 *`affiliates.`*
 * 在您的電子郵件系統中，新增查詢字串參數至所有著陸頁面 URL，例如 *`&ch=eml`*。建立一個規則集，用於偵測 ch 查詢參數是否等於 *`eml`*。如果不包含 *`eml`*，則為附屬機構。
 
 ## 反向連結網域包含的資料多於我的預期。
