@@ -3,14 +3,18 @@ title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 88%
+source-wordcount: '2169'
+ht-degree: 87%
 
 ---
 
 # 行銷管道的處理規則
+
+>[!NOTE]
+>
+>為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 行銷管道處理規則會藉由處理訪客在您的網站上進行的每次點擊，來判斷訪客點擊是否符合指派給管道的標準。系統會以您指定的順序來處理規則，在符合規則時，即停止處理剩餘規則。
 
