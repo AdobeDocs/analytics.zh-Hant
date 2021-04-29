@@ -2,7 +2,7 @@
 title: 實作Adobe Analytics行銷渠道的最佳實務
 description: 更新搭配Attribution IQ和Customer Journey Analytics使用行銷渠道的最佳實務
 translation-type: tm+mt
-source-git-commit: 5422a051be1c55f394cf3f7fc5bb4f8822a7fb90
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 4%
@@ -10,7 +10,7 @@ ht-degree: 4%
 ---
 
 
-# 與行銷管道搭配使用Attribution IQ-最佳實務
+# Attribution IQ行銷渠道——最佳實務
 
 [行銷](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 渠道是Adobe Analytics的重要且強大功能。目前關於行銷渠道實作的指引是在[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)和[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)不存在時制定的。
 
@@ -38,6 +38,6 @@ ht-degree: 4%
 
 將「訪客參與」期間設為「1天」最低值，可將持續值的可能性降至最低。 由於自訂歸因模型(AIQ)允許有彈性的回顧視窗，因此我們建議設定最小值，以盡量降低此設定的影響。
 
-## 最佳實踐#5:行銷渠道處理規則僅適用於已啟用的渠道
+## 最佳實踐#5:行銷渠道處理規則應僅適用於已啟用的渠道
 
 請確定您移除已停用渠道的任何行銷渠道處理規則。 只有已勾選為啟用的行銷渠道才應有規則。
