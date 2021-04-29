@@ -3,14 +3,18 @@ title: 分析行銷管道
 description: 了解如何在工作區中使用行銷管道維度。
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 90%
+source-wordcount: '414'
+ht-degree: 86%
 
 ---
 
 # 分析行銷管道
+
+>[!NOTE]
+>
+>為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 您可能想知道哪些行銷管道對什麼對象最有效，藉此讓行銷目標更為明確，並使付出的行銷資金獲得更高回報。在 Adobe Analytics 中，工作區裡的「行銷管道」維度和量度是能協助您追蹤不同管道對訂單、收入等之影響的其中一項工具，並能為您提供實用的管道分析。以下是您可使用的行銷管道相關維度與量度：
 
