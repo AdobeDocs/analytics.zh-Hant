@@ -5,10 +5,10 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
 translation-type: tm+mt
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
+source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 99%
 
 ---
 
@@ -249,6 +249,7 @@ ht-degree: 100%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
+   + [Attribution IQ行銷渠道](c-marketing-channels/mchannel-best-practices.md)
    + [管理行銷渠道](c-marketing-channels/c-channels.md)
    + [行銷渠道的處理規則](c-marketing-channels/c-rules.md)
    + [行銷管道中的分類](c-marketing-channels/classifictions-mchannel.md)
