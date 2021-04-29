@@ -1,14 +1,14 @@
 ---
 title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
+exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 90%
+source-wordcount: '2149'
+ht-degree: 88%
 
 ---
-
 
 # 行銷管道的處理規則
 
@@ -17,7 +17,8 @@ ht-degree: 90%
 ![](assets/buckets_2.png)
 
 關於處理的其他注意事項：
-* 使用這些規則收集的資料一律是永久性的，而在收集資料後更改的規則無法溯及以往。強烈建議您在儲存[!UICONTROL 行銷管道處理規則]前，檢閱並考慮所有的情況，移轉將在錯誤管道中收集的資料。
+
+* 使用這些規則收集的資料一律是永久性的，而在收集資料後更改的規則無法溯及以往。我們強烈建議您在儲存[!UICONTROL 行銷渠道處理規則]之前，先檢閱並考量所有情況，以減輕在錯誤渠道中收集的資料。
 * 報表一次最多可處理 25 個管道。
 * 規則可以存取 VISTA 已設定的變數，但無法存取 VISTA 已刪除的資料。
 * 兩個行銷管道絕不接收同一事件 (例如購買或點按) 的評分。這將行銷管道與 eVars (兩個 eVars 可接收同一事件的評分) 區分開來。
@@ -27,13 +28,14 @@ ht-degree: 90%
 
 * 檢視[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念資訊。
 * 建立一個或多個管道，以便為它們指定規則。請參閱[新增行銷管道](/help/components/c-marketing-channels/c-channels.md)。
+* 檢閱將[!UICONTROL 行銷管道]與[!UICONTROL Attribution IQ]搭配使用的最佳實務。
 
 ## 建立行銷管道處理規則
 
 建立行銷管道處理規則，以判定訪客點按是否符合指派給管道的標準。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
-2. 選取報表套裝。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報告套裝」]**。
+2. 選取報告套裝。
 
    如果報表套裝尚未定義管道，則會顯示[!UICONTROL 「自動設定」頁面]。
 
