@@ -2,22 +2,26 @@
 description: 瞭解如何在行銷管道中指定訪客參與有效期。
 subtopic: Marketing channels
 title: 行銷管道有效期
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 94%
 
 ---
 
 # 行銷管道有效期
 
+>[!NOTE]
+>
+>為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+
 瞭解如何指定行銷管道的有效期或訪客參與期間。
 
-訪客參與是指允許將訪客的之前網站活動歸屬為首次接觸管道的時間。預設有效期為 30 天。
+訪客參與是指允許將訪客的之前網站活動歸因為首次接觸管道的時間。預設有效期為 30 天。
 
 如果訪客經常使用該網站，則參與回溯期會計入這些管道。管道必須閒置達 30 天，該期間才會過期，且管道才會重設。訪客的首次和上次接觸管道在該瀏覽器上閒置 30 天後，都將進行重設。
 
@@ -41,8 +45,8 @@ ht-degree: 100%
 
 指定訪客參與期間。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
-2. 在[!UICONTROL 報表套裝管理器]中，按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道有效期」]**。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報告套裝」]**。
+2. 在[!UICONTROL 報告套裝管理器]中，按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道有效期」]**。
 
    ![](assets/mchannel_expiration.png)
 
