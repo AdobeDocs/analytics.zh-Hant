@@ -3,9 +3,9 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
+workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
 
@@ -36,10 +36,10 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 7 日 | 更新[設定跨裝置分析](/help/components/cda/setup.md)及[常見問題集](/help/components/cda/faq.md) |
 | 2020 年 2 月 4 日 | 徹底重寫[實施作業使用者指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新「自由表格」頁面，加入新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的相關資訊。 |
-| 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies.md)。 |
+| 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
-| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://docs.adobe.com/content/help/zh-Hant/analytics-platform/using/cja-landing.html) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 9 月 28 日 | [Javascript 實施作業的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
 | 2019 年 9 月 12 日 | [歷程 IQ：跨裝置分析](/help/components/cda/overview.md)的新文件 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/analyze/pwa/pwa.md)的相關新文章 |
