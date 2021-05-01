@@ -5,9 +5,9 @@ user-guide-title: Analytics 技術文件
 breadcrumb-title: 技術注意事項
 user-guide-description: 知識庫包含不屬於特定分析工具或元件的實用文章。
 translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+source-git-commit: 07c76cea1f6fd64957fd4fd20bc5187976f3c14c
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '190'
 ht-degree: 90%
 
 ---
@@ -38,13 +38,15 @@ ht-degree: 90%
    + [比較日期與原日期範圍](event/compare-dates.md)
    + [衍生受事件影響的資料](event/calcmetrics.md)
    + [向使用者傳達事件](event/communicate.md)
-+ [瀏覽器 Cookie](cookies.md)
++ [Cookie] {#cookies}
+   + [瀏覽器 Cookie](cookies/cookies.md)
+   + [可降低瀏覽器Cookie限制影響的選項](cookies/cookieless.md)
 + [資料保留](data-retention.md)
 + [排除資料](exclude-data.md)
 + [Adobe Analytics使用的IP和網域](ip-addresses.md)
 + [延遲性](latency.md)
 + [低流量值](low-traffic.md)
-+ [將Mobile Services處理規則移轉至Adobe Analytics](migrate-mobile.md)
++ [移轉行動服務處理規則至 Adobe Analytics](migrate-mobile.md)
 + [多貨幣支援](multicurrency.md)
 + [隱私權概觀](privacy-overview.md)
 + [重新導向與別名](redirects.md)
