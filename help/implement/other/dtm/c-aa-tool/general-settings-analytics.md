@@ -55,7 +55,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>SSL 追蹤伺服器 </p> </td> 
-   <td colname="col2"> <p>在其中寫入影像要求和 Cookie 的網域。用於安全頁面。若未定義，則 SSL 資料會傳送至<span class="term"> trackingServer </span>. </p> </td> 
+   <td colname="col2"> <p>在其中寫入影像要求和 Cookie 的網域。用於安全頁面。若未定義，則 SSL 資料會傳送至<span class="term"> trackingServer </span>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>資料中心 </p> </td> 
