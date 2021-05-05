@@ -4,9 +4,9 @@ title: Data Warehouse 區段相容性
 feature: 區段
 uuid: 370258c5-8614-4434-871c-41753ed77f5c
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr> 
    <td> <b>AND 和 OR 可無限結合</b> </td> 
    <td> 支援 </td> 
-   <td> 部分限制.請參閱下表中的*附註*。 </td> 
+   <td> 部分限制。請參閱下表中的*附註*。 </td> 
   </tr> 
   <tr> 
    <td> <b>巢狀內嵌的容器</b> </td> 
