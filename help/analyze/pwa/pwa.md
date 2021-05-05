@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: 3f3a9b7f81ce671a94b7fe71c3ef7e4ae206b875
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 78%
 
 PWA 可為網站提供原生應用程式體驗及離線功能。PWA 通常會包含服務程式、快取佈建和資訊清單檔案，這些都有助於實現更短的載入時間、更輕鬆的導覽操作，以及快速回應。
 
-Adobe Analytics與PWA的合作與傳統網站一樣順暢。 雖然要讓 PWA 本身和內部以漸進方式運作，必須額外符合幾項要求，但 PWA 不會造成任何阻礙或限制，而導致 Analytics 收集或回報資料的方式與傳統網站有所不同。事實上，由於 Analytics 已具備離線追蹤功能，PWA 可協助您運用這項內建功能，且過程比傳統網站更為輕鬆。
+Adobe Analytics 與 PWA 搭配運作的順暢程度，與傳統網站如出一轍。雖然要讓 PWA 本身和內部以漸進方式運作，必須額外符合幾項要求，但 PWA 不會造成任何阻礙或限制，而導致 Analytics 收集或回報資料的方式與傳統網站有所不同。事實上，由於 Analytics 已具備離線追蹤功能，PWA 可協助您運用這項內建功能，且過程比傳統網站更為輕鬆。
 
 ## 取得 PWA Analytics 資料
 
@@ -47,8 +47,8 @@ s.trackOffline=true
 *** 
 ```
 
-如需編輯AppMeasurement.js檔案的詳細資訊，請參閱「插入核心AppMeasurement代碼](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)」。[
+若要了解更多關於編輯 AppMeasurement.js 檔案，請參閱 [插入核心 AppMeasurement 碼](/help/implement/other/dtm/c-aa-tool/t-appmeasurement-code.md)。
 
-如需設定AppMeasurement.js檔案的詳細資訊，請參閱[設定變數概述](/help/implement/vars/config-vars/configuration-variables.md)以及相同子章節中個別變數專屬頁面。
+若要了解更多關於設定 AppMeasurement.js 檔案，請參閱 [設定變數概覽](/help/implement/vars/config-vars/configuration-variables.md) 以及相同子章節內的個別變數特定頁面。
 
-如需AppMeasurement.js檔案特性的詳細資訊，請參閱[JavaScript實作概觀](/help/implement/js/overview.md)。
+若要了解更多關於編輯 AppMeasurement.js 檔案特性，請參閱 [Javascript 實施概覽](/help/implement/js/overview.md)。
