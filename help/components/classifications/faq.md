@@ -2,11 +2,11 @@
 title: 分類常見問題集
 description: 使用分類時的常見問題。
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: ecef181e0d2ab06c68a5af2b50f14f4c7dd7c285
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '372'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 * **實作替代值**：使用 `"0"` 以外的文字值是解決此問題的最佳且最簡單的方式。例如，將您實作中的 `s.campaign = "0";` 變更為 `s.campaign = "Zero";`。
 
-* **使用處理規則**：您可以在資料收集與其在報表套裝中的儲存體之間修改維度項目。建立下列處理規則：
+* **使用處理規則**：您可以在資料收集與其在報告套裝中的儲存體之間修改維度項目。建立下列處理規則：
 
    *如果[維度]等於 `0`，請以自訂值 `Zero` 覆寫[維度]的值。*
 
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 ## 如何分類包含特殊字元的值？
 
-不支援在任何分類資料和點擊資料中使用前導和尾隨空白字元，因為Adobe Analytics會從這些資料中截斷空白字元。
+不支援在分類資料和點擊資料中使用開頭和尾端的空格，因為 Adobe Analytics 會截斷這些資料的空白字元。
 
 一般不建議在報表中使用逗號或雙引號這類特殊字元。但是在某些情況下，這些字元是必要的。如果報表值包含您選擇要分類的字元，請使用下列步驟：
 
