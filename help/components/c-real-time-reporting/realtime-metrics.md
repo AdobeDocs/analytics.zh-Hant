@@ -4,9 +4,9 @@ title: 支援的即時量度和維度
 topic-fix: Reports
 uuid: a3a869ef-0f4a-44b5-a386-2746cc0822c4
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 * 購物車新增
 * 購物車移除
 * 例項
-* 自訂事件 1-100 (若已在報表套裝中啟用)
+* 自訂事件 1-100 (若已在報告套裝中啟用)
 
 ## 支援的維度 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
