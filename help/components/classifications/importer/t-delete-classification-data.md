@@ -2,12 +2,12 @@
 description: 說明如何刪除或移除分類資料的步驟。
 subtopic: Classifications
 title: 刪除分類資料
-feature: Admin Tools
+feature: 管理工具
 uuid: 5b1b0ac7-ee52-4fd8-b98e-25283595cf0c
 exl-id: 2b156e66-3090-4048-8192-a412320e3be3
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]**。
-1. 選取您要移除其中之分類資料的報表套裝和資料集。
+1. 選取您要移除其中之分類資料的報告套裝和資料集。
 1. 調整任何可選的設定，以篩選您在尋找的特定資料，然後按一下&#x200B;**[!UICONTROL 「匯出檔案」]**。
 1. 下載檔案後，請開啟檔案並以 `~empty~` 或 `~deletekey~` 取代任何分類值。
 1. 將檔案儲存為以定位點分隔的文字檔案。
@@ -47,9 +47,9 @@ ht-degree: 100%
 
 | 庫存 SKU (eVar8) | 庫存名稱 | 庫存類別 |
 | --- | --- | --- |
-| 郵編：857467 | V 領毛衣 | 女裝 |
-| 郵編：948203 | 腳踝鏈 | 珠寶 |
-| 郵編：174391 | 白色燈芯絨褲 | `~deletekey~` |
+| 857467 | V 領毛衣 | 女裝 |
+| 948203 | 腳踝鏈 | 珠寶 |
+| 174391 | 白色燈芯絨褲 | `~deletekey~` |
 
 在庫存類別分類下使用 `~deletekey~` 會刪除關鍵值 `174391` 的所有分類資料，就像資料列從未經過分類一樣。
 
