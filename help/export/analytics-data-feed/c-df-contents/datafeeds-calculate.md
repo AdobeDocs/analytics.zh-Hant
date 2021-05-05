@@ -2,12 +2,12 @@
 description: 說明如何使用資料摘要來計算通用量度。
 keywords: 資料摘要；量度；預先欄位；後置欄位；bots；日期篩選器；事件字串；一般；公式
 title: 計算量度
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 uuid: a45ea5bb-7c83-468f-b94a-63add78931d7
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Adobe 用來識別獨特訪客的所有方法 (自訂訪客 ID、Experience Clou
 
 ## 訂購、件數和收入
 
-如果點擊的 `currency` 值不符合報表套裝的貨幣，則會使用當天的匯率來轉換。`post_product_list` 欄使用轉換的幣值，因此此欄中的所有點擊都使用相同的貨幣。
+如果點擊的 `currency` 值不符合報告套裝的貨幣，則會使用當天的匯率來轉換。`post_product_list` 欄使用轉換的幣值，因此此欄中的所有點擊都使用相同的貨幣。
 
 1. 排除 `duplicate_purchase = 1` 的所有行。
 2. 僅包含 `event_list` 包含購買事件的列。
