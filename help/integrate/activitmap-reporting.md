@@ -16,7 +16,7 @@ ht-degree: 100%
 
 在 Analytics 中啟用 Activity Map 報告的管理步驟。
 
-**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 報表」]**
+**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 報表」]**
 
 讓 Analytics 從 Activity Map (舊稱 ClickMap) 收集使用者活動。此項整合
 
