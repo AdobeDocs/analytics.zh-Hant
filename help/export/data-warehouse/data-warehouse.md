@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 
-Adobe 僅針對管理員層級使用者，在特定報表套裝上啟用 Data Warehouse(DataWarehouse 可在全域及子報表套裝上啟用，但不可用於統計報表套裝)。管理員可建立存取 Data Warehouse 的群組，然後將非管理員級別的使用者與該群組關聯。
+Adobe 僅針對管理員層級使用者，在特定報告套裝上啟用 Data Warehouse(DataWarehouse 可在全域及子報告套裝上啟用，但不可用於統計報告套裝)。管理員可建立存取 Data Warehouse 的群組，然後將非管理員級別的使用者與該群組關聯。
 
 Data Warehouse 會自動壓縮大小超過 1 MB 的檔案。電子郵件附件大小上限是 10 MB。
 
@@ -53,7 +53,7 @@ Data Warehouse 針對個別已排程和已下載報表，可處理單一請求�
      <li id="li_4D7C26812DF94ED7B64F985309541F46"> <span class="wintitle">自訂</span>：您在日曆中設定的日期範圍。 </li> 
      <li id="li_2B272087006847148A936350D1B2D523"> <span class="wintitle">預設</span>：預設範圍。預設範圍是相對於報表日期。 </li> 
      <li id="li_745989965BB94D489FF7046587E13C42"> <span class="wintitle">詳細程度</span>：時間詳細程度。有效值為無、小時、日、週、月份、季度或年。 </li> 
-    </ul> <p>虛擬報表套裝的 Data Warehouse 報表功能可支援虛擬報表套裝所設定的替代時區。 </p> </td> 
+    </ul> <p>虛擬報告套裝的 Data Warehouse 報表功能可支援虛擬報告套裝所設定的替代時區。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 可用區段</span> </td> 
