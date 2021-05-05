@@ -30,7 +30,7 @@ ht-degree: 100%
 
 [!DNL Analytics] 會從瀏覽器收集一些資料，因此需仰賴特定瀏覽器屬性來運作。其中「反向連結 URL」(或 referrer) 與「目前 URL」兩項屬性可透過伺服器端重新導向來變更。瀏覽器由於會辨識出請求的是某個 URL，但傳回的卻是不同的 URL，因此會清除「反向連結 URL」。結果，反向連結 URL 會空白，而 [!DNL Analytics] 可能會報告該頁面沒有反向連結存在。
 
-## 範例: 沒有重新導向的瀏覽 {#section_5C835A4D665A4625A23333C2C21F152D}
+## 範例：沒有重新導向的瀏覽 {#section_5C835A4D665A4625A23333C2C21F152D}
 
 假設有下面這種使用者未遇到重新導向的情況:
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ## 範例: 有重新導向的瀏覽 {#section_921DDD32932847848C4A901ACEF06248}
 
-重新導向可能會使瀏覽器忘掉真正的反向連結 URL。假設有下列情況:
+重新導向可能會使瀏覽器忘掉真正的反向連結 URL。假設有下列情況：
 
 1. 使用者在瀏覽器中前往 `https://www.google.com`，並在搜尋欄位中輸入 *discount airline tickets*，然後按一下&#x200B;**[!UICONTROL 搜尋]**&#x200B;按鈕。
 1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
