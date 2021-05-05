@@ -5,9 +5,9 @@ title: 建立 Web 屬性
 topic-fix: Developer and implementation
 uuid: f19d5504-eb44-4d93-a387-7470ab4b3a3a
 exl-id: f89381d0-bdf7-4e01-96a3-2ea160da2b44
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '477'
 ht-degree: 100%
 
