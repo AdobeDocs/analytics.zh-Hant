@@ -4,9 +4,9 @@ title: 建立循序區段
 feature: 區段
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3858'
 ht-degree: 100%
 
@@ -355,7 +355,7 @@ ht-degree: 100%
 
 您可以使用 [!UICONTROL Within] 和 [!UICONTROL After] 容器並指定精細度和計數，將符合限制至指定的持續時間。[!UICONTROL Within] 運算子用來指定兩個查核點之間時間量的上限。[!UICONTROL After] 運算子用來指定兩個查核點之間時間量的下限。
 
-### After 和 Within 運算子  {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
+### After 和 Within 運算子 {#section_CCAF5E44719447CFA7DF8DA4192DA6F8}
 
 持續時間的指定方式是使用代表精細度的單一大寫字母，後接代表精細度重複計數的數字。
 
