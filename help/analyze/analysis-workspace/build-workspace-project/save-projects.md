@@ -1,20 +1,20 @@
 ---
-description: 瞭解不同的儲存選項，包括自動儲存、另存新檔、另存為範本，以及開啟舊版。
+description: 了解不同的儲存選項 (包括 AutoSave、另存為、另存為範本)，以及開啟先前的版本。
 title: 儲存專案
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cfeb681805108c9d9422d88b6d7146d0eb186204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 # 儲存專案
 
-若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。工作區也會在某些情況下自動儲存專案。
+若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。在特定情況下，Workspace 也會自動儲存專案。
 
 ## 儲存專案選項 {#Save}
 
@@ -22,8 +22,8 @@ ht-degree: 54%
 
 | 動作 | 說明 |
 |---|---| 
-| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您為專案提供名稱、（選用）說明和新增（選用）標籤。 |
-| **[!UICONTROL 一併儲存附註]** | 在您的專案儲存之前，請新增專案中變更的附註。 備注與項目版本一起儲存，可供[!UICONTROL Project] > [!UICONTROL 開啟舊版]下的所有編輯器使用。 |
+| **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您提供專案名稱、(選用) 說明和新增 (選用) 標籤。  |
+| **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
 | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
 | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
 
@@ -49,7 +49,7 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 
 ### 瀏覽器當機或工作階段逾時
 
-對於&#x200B;**現有**&#x200B;項目，返回工作區後，您將看到&#x200B;**項目恢復**&#x200B;模式。 選取「是」會從自動儲存的本機復本中還原專案。 若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次使用者儲存的專案版本。
+若為&#x200B;**現有**&#x200B;專案，返回 Workspace 後，您將會看到&#x200B;**專案復原**&#x200B;強制回應視窗。選取「是」，會從自動儲存的本機版本復原專案。若選擇「否」，則會刪除自動儲存的本機副本，並開啟上次使用者儲存的專案版本。
 
 ![](assets/project-recovery.png)
 
@@ -59,15 +59,14 @@ Adobe 提供在離開頁面前儲存的選項。離開現有專案後，自動�
 
 >[!NOTE]
 >
->先前的專案版本目前為有限版本。
+>先前專案版本目前為限時提供。
 
-要開啟項目的舊版：
+若要開啟專案的先前版本：
 
-1. 前往&#x200B;**[!UICONTROL Project]** > **[!UICONTROL 開啟舊版]**
+1. 前往「**[!UICONTROL 專案]** > **[!UICONTROL 開啟先前版本]**」
 
    ![](assets/previous-versions.png)
 
-1. 檢視舊版可用的清單。
-   [!UICONTROL 除了「注] 釋」外，還顯示「時間戳記」  和「編輯器」(Editor)  在「編輯器」(  Saved)時添加了它們。沒有備注的版本會儲存90天；含備注的版本會儲存1年。
-1. 選擇舊版，然後按一下&#x200B;**[!UICONTROL Load]**。
-然後載入舊版並附上通知。 在您按一下**[!UICONTROL Save]**&#x200B;之前，舊版不會成為項目的當前保存版本。 如果您從載入的版本導覽，當您返回時，將會看到專案的上一個儲存版本。
+1. 檢視現有的先前版本清單。
+   除了顯示[!UICONTROL 註釋]外，也會顯示[!UICONTROL 時間戳記]和 [!UICONTROL 編輯者] (如果[!UICONTROL 編輯者]儲存時都加入這些內容)。未附註釋的版本會儲存達 90 天；附註釋的版本會儲存達 1 年。
+1. 選取先前版本並按一下「**[!UICONTROL 載入]**」。先前版本然後載入通知。在按一下「**[!UICONTROL 儲存]**」以前，先前版本不會成為專案的目前儲存版本。如果您瀏覽時離開載入的版本，當您回來時，您將看到專案最後儲存的版本。
