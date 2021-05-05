@@ -5,9 +5,9 @@ title: 驗證頁首與頁尾代碼
 topic-fix: Developer and implementation
 uuid: d395a417-0c61-41a6-a124-d2f400f4626f
 exl-id: bed44ba7-8e0e-49e2-bedc-fb1ba66e5b18
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
 ht-degree: 100%
 
