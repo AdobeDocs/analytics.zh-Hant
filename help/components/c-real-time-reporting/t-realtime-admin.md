@@ -16,21 +16,21 @@ ht-degree: 100%
 
 設定即時報表的管理步驟。
 
-在 [!UICONTROL Reports &amp; Analytics] 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
+在 [!UICONTROL Reports &amp; Analytics] 中設定即時報表，包括選取報告套裝，以及為其選取最多 3 個報表。
 
-1. 選取您要啟用即時報告的報表套裝。
+1. 選取您要啟用即時報告的報告套裝。
 
-   導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL 檢視全部報表 > 網站量度]** > **[!UICONTROL 即時」]**，並從上方的下拉式清單中選取報表套裝：
+   導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL 檢視全部報表 > 網站量度]** > **[!UICONTROL 即時」]**，並從上方的下拉式清單中選取報告套裝：
 
    ![](assets/report_suite_selector.png)
 
-   如果您嘗試對尚未設定即時報表的報表套裝檢視即時報表，會出現一則訊息，供您設定報表套裝。
+   如果您嘗試對尚未設定即時報表的報告套裝檢視即時報表，會出現一則訊息，供您設定報告套裝。
 
    ![](assets/rep_suite_not_set_up.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「設定」]** (齒輪圖示)，執行[!UICONTROL 報表套裝管理器]。
+1. 按一下&#x200B;**[!UICONTROL 「設定」]** (齒輪圖示)，執行[!UICONTROL 報告套裝管理器]。
 
-   (也可從&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員 > 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 即時」]**&#x200B;中存取。)
+   (也可從&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員 > 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 即時」]**&#x200B;中存取。)
 
 1. 開啟&#x200B;**[!UICONTROL 啟用即時]**&#x200B;設定。
 1. 設定最多 3 個報告的即時資料收集，每個報告各一個量度和三個維度或分類。
