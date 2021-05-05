@@ -2,11 +2,11 @@
 title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: c814c023fe909b5e78d6dd46de8c27213a4d92be
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '580'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -94,9 +94,9 @@ if(s._pltPreviousPage)
 
 ## 版本記錄
 
-### 2.0.1（2021年3月26日）
+### 2.0.1 (2021 年 3 月 26 日)
 
-* 修正外掛程式無法正確設定s物件值的問題。
+* 已修復外掛程式未在 S 物件上正確設定值的問題。
 
 ### 2.0 (2021 年 3 月 19 日)
 
