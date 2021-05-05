@@ -3,7 +3,7 @@ description: 本節說明資料摘要傳送中所含的檔案。
 keywords: 資料摘要;工作;內容;文件;查詢;點擊資料;交付內容
 subtopic: data feeds
 title: 資料摘要內容 - 概觀
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 translation-type: tm+mt
@@ -61,7 +61,7 @@ Datafeed-Manifest-Version: 1.0
 
 有些資料摘要欄會輸出對應到實際值的數字。查閱檔案是用來找出資料摘要欄中的數字，並將其比對實際值。例如，`browser` 點擊資料欄中的值為「497」，表示如果您檢視 `browser.tsv`，點擊來自「Microsoft Internet Explorer 8」。
 
-請注意，`column_headers.tsv` 和 `event_list.tsv` 是資料摘要和報表套裝專屬檔案。`browser.tsv` 等其他檔案則是一般檔案。
+請注意，`column_headers.tsv` 和 `event_list.tsv` 是資料摘要和報告套裝專屬檔案。`browser.tsv` 等其他檔案則是一般檔案。
 
 查閱檔案會以壓縮的 zip 檔案一起傳送，命名方式如下：
 
@@ -90,7 +90,7 @@ Datafeed-Manifest-Version: 1.0
 
 Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。所有檔案都使用 ISO-8859-1 編碼。
 
-* `[rsid]` 是指資料摘要所在的報表套裝 ID。
+* `[rsid]` 是指資料摘要所在的報告套裝 ID。
 * `[index]` 僅用於多個檔案摘要，且是指已編頁檔案的正確順序。
 * `[YYYY-mm-dd]` 指資料摘要的開始日期。
 * `[HHMMSS]` 僅用於每小時摘要，且是指資料摘要的開始小時。
@@ -130,4 +130,4 @@ Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。�
 
 ## 資料檔案大小
 
-點擊資料檔案大小不一，主要取決於目前使用的變數數目以及傳送到報表套裝的流量總量。不過，平均而言，一行資料約為 500B (壓縮) 或 2KB (解壓縮)。將此值乘以伺服器呼叫數目，可提供資料摘要檔案的大小粗估。您的組織開始接收資料摘要檔案後，您就可以將 `hit_data.tsv` 中的列數除以檔案總大小，來找到更精確的數字。
+點擊資料檔案大小不一，主要取決於目前使用的變數數目以及傳送到報告套裝的流量總量。不過，平均而言，一行資料約為 500B (壓縮) 或 2KB (解壓縮)。將此值乘以伺服器呼叫數目，可提供資料摘要檔案的大小粗估。您的組織開始接收資料摘要檔案後，您就可以將 `hit_data.tsv` 中的列數除以檔案總大小，來找到更精確的數字。
