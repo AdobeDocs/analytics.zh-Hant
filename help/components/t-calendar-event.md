@@ -1,12 +1,12 @@
 ---
 description: 新增日曆事件和管理共用事件的步驟。
 title: 日曆事件
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
    1. 在&#x200B;**[!UICONTROL 「標題」]**&#x200B;底下，為日曆事件命名。
    1. 指定&#x200B;**[!UICONTROL 「事件日期」]**。
-   1. 選擇此事件要套用的&#x200B;**[!UICONTROL 「報表套裝」]**。
+   1. 選擇此事件要套用的&#x200B;**[!UICONTROL 「報告套裝」]**。
    1. (選用) 為此事件新增&#x200B;**[!UICONTROL 「附註文字」]**。
    1. 選取顯示圖示和色彩。
    1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
