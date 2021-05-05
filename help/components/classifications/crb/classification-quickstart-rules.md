@@ -2,13 +2,13 @@
 description: 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
 subtopic: Classifications
 title: 分類規則
-feature: Admin Tools
+feature: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 99%
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
 | 開頭為 | em: | 管道 | 電子郵件 |
-| 結尾為 | Sale | 類型 | 銷售 |
-| 包含 | 2013 | 年 | 2013年 |
+| 結尾為 | Sale | 類型 | Sale |
+| 包含 | 2013 | 年 | 2013 |
 
 ## 規則的處理方式 {#how-rules-are-processed}
 
@@ -64,7 +64,7 @@ about_classification_rules.xml
 
 * **規則運算式**：[分類規則中的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)底下提供說明。
 
-* **報表套裝**：至少要選取一個報表套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報表套裝。
+* **報告套裝**：至少要選取一個報告套裝後，才能選擇分類。您必須先建立規則集並指派變數後，才能套用報告套裝。
 
    當您測試規則集時，使用報告中的索引鍵 (要分類的變數) 查看規則集對它們有何影響。(此[索引鍵](/help/components/classifications/importer/c-saint-data-files.md)是要分類的變數，或分類上傳表格中的第一欄)。
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜尋類型 | Team |
-| 2 | 包含 | Fantasy | 搜尋類型 | 幻想 |
+| 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
 如果使用者搜尋      *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
@@ -313,28 +313,28 @@ t_classification_rule.xml
 
 >[!NOTE]
 >
->在這個程序中，您必須套用規則到一個或多個報表套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](/help/components/classifications/c-sub-classifications.md)簡化您的規則集。
+>在這個程序中，您必須套用規則到一個或多個報告套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](/help/components/classifications/c-sub-classifications.md)簡化您的規則集。
 
 1. [建立分類規則集](/help/components/classifications/crb/classification-rule-set.md)。
 1. 在規則集頁面上，按一下&#x200B;**[!UICONTROL 「新增規則」]**。
 
    ![](assets/add_rule.png)
 
-1. 在&#x200B;**[!UICONTROL 報表套裝]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL 「新增套裝」]**&#x200B;以指定要指派到這個規則集的一個或多個報表套裝。
+1. 在&#x200B;**[!UICONTROL 報告套裝]**&#x200B;旁邊，按一下&#x200B;**[!UICONTROL 「新增套裝」]**&#x200B;以指定要指派到這個規則集的一個或多個報告套裝。
 
-   接著會顯示&#x200B;**[!UICONTROL 「選取報表套裝」]**&#x200B;頁面。
+   接著會顯示&#x200B;**[!UICONTROL 「選取報告套裝」]**&#x200B;頁面。
 
    >[!NOTE]
    >
-   >當符合下列條件時，報表套裝會顯示在此頁面&#x200B;*`only`*:
+   >只有 *`only`* 在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
-   >* 報表套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
+   >* 報告套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
       >
       >   
       (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
       >
       >
-   * 您在&#x200B;**[!UICONTROL 可用報表套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報表套裝。
+   * 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
 
 1. 指定是否覆寫現有規則：
@@ -372,7 +372,7 @@ t_classifications_test_rule.xml
 
 1. [建立分類規則集](/help/components/classifications/crb/classification-rule-set.md)。
 1. 在「[!UICONTROL 分類規則產生器]」上，按一下規則集名稱。
-1. 確定規則集已和一個報表套裝關聯。
+1. 確定規則集已和一個報告套裝關聯。
 1. 在規則編輯器上，按一下&#x200B;**[!UICONTROL 「測試規則集」]**。
 
    ![步驟結果](assets/classification_test_rule_set.png)
