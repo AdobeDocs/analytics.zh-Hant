@@ -1,12 +1,12 @@
 ---
 title: Admin Console 中的 Adobe Analytics
-description: 瞭解如何使用Adobe Admin Console來管理Analytics產品和使用者。
+description: 了解如何使用 Adobe Admin Console 來管理 Analytics 的產品和使用者。
 exl-id: 6e2c5ad4-2761-4ccb-8c76-ea9e1df9437a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '88'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,5 +19,5 @@ ht-degree: 85%
 * 權限
 
    * [Adobe Analytics 的產品設定檔](/help/admin/admin-console/permissions/product-profile.md)
-   * [報表套裝工具的產品設定檔權限](/help/admin/admin-console/permissions/report-suite-tools.md)
+   * [報告套裝工具的產品設定檔權限](/help/admin/admin-console/permissions/report-suite-tools.md)
    * [Analytics 工具的產品設定檔權限](/help/admin/admin-console/permissions/analytics-tools.md)
