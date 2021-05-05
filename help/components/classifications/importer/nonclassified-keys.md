@@ -2,12 +2,12 @@
 description: 未分類索引鍵在分類報告中會群組為單一行項目，標籤為「無」。將「無」重新命名為其他較清楚描述的名稱會很實用。
 subtopic: Classifications
 title: 未分類索引鍵
-feature: Admin Tools
+feature: 管理工具
 uuid: b73a9161-0c6f-4c8d-900b-54ab2c36147c
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
