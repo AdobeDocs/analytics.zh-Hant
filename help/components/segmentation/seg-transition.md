@@ -25,7 +25,7 @@ ht-degree: 100%
    * 在[流失分析](https://docs.adobe.com/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
 
 * 您可以[將多個區段套用至報表或專案](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-* 區段在所有報表套裝中都通用。
+* 區段在所有報告套裝中都通用。
 * [區段生產器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)簡化了區段的建立流程。
 * [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用檔案夾的方式。
@@ -60,13 +60,13 @@ ht-degree: 100%
 
 **舊式區段下拉式清單移至何處?**
 
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，
+「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報告套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，
 
 區段欄隨即顯示。
 
-**舊式報表套裝下拉式清單移至何處？**
+**舊式報告套裝下拉式清單移至何處？**
 
-報表套裝下拉式清單已移至到每個報表或控制面板右上角的日期選擇器旁邊。
+報告套裝下拉式清單已移至到每個報表或控制面板右上角的日期選擇器旁邊。
 
 ![](assets/report_suite_selector.png)
 
@@ -98,7 +98,7 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 
 ## 最佳實務 {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
-**有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
+**有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報告套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
 
 * 重新命名具有相同名稱、但不同定義的區段，或是
 * 刪除不再需要的區段。
@@ -129,11 +129,11 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 
 當您刪除區段時，已套用此區段的已計劃報表和控制面板會繼續正常運作，亦即區段或控制面板會繼續使用刪除的區段。
 
-當您編輯同名區段時，已計劃的報表不會更新。以下是範例：假設您有 2 個同名區段分別位在不同報表套裝中：
+當您編輯同名區段時，已計劃的報表不會更新。以下是範例：假設您有 2 個同名區段分別位在不同報告套裝中：
 
 ![](assets/duplicate_seg_names.png)
 
-您有個書籤是引用 mainprod 報表套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將 maindev 區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或已計劃報表是否正在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否正使用剩下那個區段。
+您有個書籤是引用 mainprod 報告套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將 maindev 區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、控制面板或已計劃報表是否正在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否正使用剩下那個區段。
 
 **Data Warehouse 區段有何變化？**
 
@@ -244,7 +244,7 @@ seg_definition.xml
   <tr> 
    <td colname="col1"> - </td> 
    <td colname="col2"> "應用程式 - *" </td> 
-   <td colname="col3"> "應用程式 -" 字首已從一些維度類型中移除。因為行動應用程式資料通常是擷取到不含網站資料的報表套裝中，所以這些字首不再有存在的必要。 </td> 
+   <td colname="col3"> "應用程式 -" 字首已從一些維度類型中移除。因為行動應用程式資料通常是擷取到不含網站資料的報告套裝中，所以這些字首不再有存在的必要。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 登入頁面原始 </td> 
