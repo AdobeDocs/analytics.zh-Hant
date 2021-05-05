@@ -1,12 +1,12 @@
 ---
-description: 如何在「Analysis Workspace」中使用資料表格、區段以及使用案例的範例。
+description: 如何在 Analysis Workspace 中使用資料表格、區段以及使用案例的範例。
 keywords: Analysis Workspace
 title: Analysis Workspace 的使用案例
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 假設您是一家戶外用品零售商的市場分析人員，您的任務是檢視最近的感恩節促銷活動的成效，並對現場促銷活動提出建議。此範例說明如何比較不同區段的促銷活動收入資料，並新增劃分以更深入鑽研促銷活動。
 
-1. 選擇正確的報表套裝。
+1. 選擇正確的報告套裝。
 1. 舉例來說，您可以搜尋「內部促銷活動位置」維度，將其拖曳至表格畫布的左側區域 (此資料將組成表格行)。
 
    ![](assets/drag_dimension.png)
