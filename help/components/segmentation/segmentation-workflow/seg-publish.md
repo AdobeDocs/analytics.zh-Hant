@@ -1,12 +1,12 @@
 ---
 description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段進行促銷活動。
 title: 發佈區段至 Experience Cloud
-feature: Segmentation
+feature: 區段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1346'
 ht-degree: 100%
 
@@ -25,15 +25,15 @@ ht-degree: 100%
 
 ## 必備條件
 
-* 請確認您要儲存此區段的目標報表套裝[已在 Experience Cloud 上啟用](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/t-publish-audience-segment.html)，否則無法將它發佈至 Experience Cloud。
-* 請確認您使用的報表套裝已對應至您的 [Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 請確認您要儲存此區段的目標報告套裝[已在 Experience Cloud 上啟用](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/t-publish-audience-segment.html)，否則無法將它發佈至 Experience Cloud。
+* 請確認您使用的報告套裝已對應至您的 [Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 請確認貴組織使用 Experience Cloud ID。
 * 管理員必須先在[管理控制台](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html)中將[!UICONTROL 區段發佈]權限指派給產品設定檔，然後將您新增至該產品設定檔，您才能發佈區段。
 
 
 ## 考量事項
 
-* **報表套裝限制**：每個報表套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
+* **報告套裝限制**：每個報告套裝最多可發佈 75 個區段。此限制會強制執行。如果已發佈 75 個區段，則必須取消發佈足夠的區段，讓區段數少於 75 個區段的臨界值，才能發佈其他任何區段。
 * **成員限制**：透過 Adobe Analytics 與 [!DNL Experience Cloud] 共用的對象不能超過 2,000 萬名不重複成員。
 * **資料隱私權**：系統不會根據訪客的驗證狀態篩選對象。如果訪客可在未驗證和已驗證狀態下瀏覽您的網站，當訪客未驗證時發生的動作仍會使系統將訪客納入受眾。請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/experience-cloud.html)以瞭解對象共享的完整隱私權意涵。
 * 有關 **[!DNL Adobe Analytics] 和[!DNL Audience Manager]** 中區段之間差異的探討，請前往[這裡](https://docs.adobe.com/content/help/zh-Hant/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html)。
@@ -54,7 +54,7 @@ ht-degree: 100%
 1. 導覽至 **[!UICONTROL Analytics >工作區> 元件 > 區段] > +**
 1. 在[!UICONTROL 區段產生器]中建立區段。
 1. 提供區段的標題和說明 (如未提供便無法儲存)。
-1. 請參閱&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*報表套裝*)]**。
+1. 請參閱&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*報告套裝*)]**。
 
 ![](assets/publish-ec.png)
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 | **[!UICONTROL 將此區段發佈至 Experience Cloud (適用於 *`<report suite>`*)]** | 此選項啟用時，區段標題和定義 (即廣告平台中常用的殼層對象) 會立即與 Experience Cloud 共用，而系統每 4 小時會評估和共用區段成員資格一次。<br>例如，將對象與 [!DNL Target] 中的活動建立關聯後，[!DNL Analytics] 會開始傳送 ID 給符合 Experience Cloud 和 [!DNL Target] 對象資格的訪客。此時，Experience Cloud 對象頁面上會開始顯示對象名稱和相應的資料。</br> |
 | **[!UICONTROL 建立對象視窗]** | 您選取的時間範圍會用於依時序建立對象。例如，「最近 30 天」(預設值) 包含自當天 (並非建立區段的原始日期) 起的過去 30 天內符合對象資格的訪客。 |
 | **[!UICONTROL 在對象庫中建立]** | 您所建立和發佈的區段可在 Experience Cloud 對象庫中無延遲提供使用，這些區段不依賴 Analytics 更新。這些區段不會計入 75 個已發佈區段的限制中。 |
-| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至 Experience Cloud 的區段數。按一下連結，可檢視已發佈區段及其關聯報表套裝和擁有者的清單。 |
+| **[!UICONTROL 已發佈 x 個 (共 75 個)]** | 顯示您已發佈至 Experience Cloud 的區段數。按一下連結，可檢視已發佈區段及其關聯報告套裝和擁有者的清單。 |
 | **[!UICONTROL 儲存]** | 儲存此區段。 |
 
 ## 取消發佈或刪除區段
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 **方法 1：使用 Adobe Experience Cloud Debugger**
 
-1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/analytics/implementation/testing-and-validation/debugger.html)。
+1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/testing-and-validation/debugger.html)。
 1. 載入頁面時啟動除錯程式。
 1. 捲動至 Audience Manager 區段，並尋找目前瀏覽器頁面上設定的 AAM UUID
 (以下範例中為 `50814298273775797762943354787774730612`)
@@ -121,13 +121,13 @@ ht-degree: 100%
 
 在 AAM 中，當 Analytics 與 Experience Cloud 共用區段時，會以串流方式評估指定區段的訪客清單 (含 ECID)。
 
-1. 在 [!DNL Audience Manager] 中，前往[!UICONTROL 對象資料 > 特徵 > Analytics 特徵]。您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報表套裝的資料夾。當設定檔和對象/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、區段和資料來源)。
-1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報表套裝資料夾。這時會看到您建立的區段/對象。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
+1. 在 [!DNL Audience Manager] 中，前往[!UICONTROL 對象資料 > 特徵 > Analytics 特徵]。您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報告套裝的資料夾。當設定檔和對象/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、區段和資料來源)。
+1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報告套裝資料夾。這時會看到您建立的區段/對象。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
 * 系統會建立一個特徵，一開始不含任何資料。大約在區段發佈 8 小時後，[!DNL Analytics] ECID 清單就會上線並與 [!DNL Audience Manager] 及其他 Experience Cloud 解決方案共用。
 
 ![](assets/aam-traits.png)
 
-* 系統會建立一個單一特徵區段。這個區段使用的資料來源與您發佈該區段的報表套裝相關聯。
+* 系統會建立一個單一特徵區段。這個區段使用的資料來源與您發佈該區段的報告套裝相關聯。
 * 特徵過期時間已設為 16 天 (之前為 2 天)。
 
 ## 在 [!DNL Adobe Target] 中檢視區段
