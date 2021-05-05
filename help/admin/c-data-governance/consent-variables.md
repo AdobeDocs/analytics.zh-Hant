@@ -1,11 +1,11 @@
 ---
 description: 資料隱私權中的隱私權報表變數。
 title: 隱私權報表變數
-feature: Admin Tools
+feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 
 您可透過 Analytics Admin Console 中提供的新「隱私權」設定來啟用隱私權報表變數。
 
-每個報表套裝皆可依照以下步驟設定：
-1. 在 Reports &amp; Analytics 中，按一下&#x200B;**[!UICONTROL 「管理員 > 報表套裝」]**。
-1. 選取您要收集媒體資料的報表套裝，然後按一下&#x200B;**[!UICONTROL 「編輯設定 > 隱私權管理」]**。
+每個報告套裝皆可依照以下步驟設定：
+1. 在 Reports &amp; Analytics 中，按一下&#x200B;**[!UICONTROL 「管理員 > 報告套裝」]**。
+1. 選取您要收集媒體資料的報告套裝，然後按一下&#x200B;**[!UICONTROL 「編輯設定 > 隱私權管理」]**。
 
    ![](assets/rsm-privacy-select.png)
 
