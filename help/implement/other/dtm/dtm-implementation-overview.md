@@ -5,9 +5,9 @@ title: DTM 實施概覽
 topic-fix: Developer and implementation
 uuid: 2d40cb7a-5c69-4f41-81a7-c48373c2d720
 exl-id: 0198422b-af3a-45ce-a41c-bbc9242580bc
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '222'
 ht-degree: 100%
 
