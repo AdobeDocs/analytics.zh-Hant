@@ -2,11 +2,11 @@
 description: 如果您習慣使用「Ad Hoc Analysis」中的「區段產生器」，本 FAQ 將說明現有區段和資料夾的變更，以及您需要採取的行動。
 keywords: 劃分;區段
 title: Ad Hoc Analysis 的轉換指南
-feature: Segmentation
+feature: 區段
 uuid: d409d71a-f8d9-42a2-add2-37d426cd40d1
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 ## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
 
-* 區段在所有報表套裝中都通用。之前，不同的報表套裝使用不同的區段。
+* 區段在所有報告套裝中都通用。之前，不同的報告套裝使用不同的區段。
 * Ad Hoc Analysis 包含對區段產生器的更新，以及區段管理員的完整更新。
 * 您現在可以標記區段來進行組織和供稍後搜尋，而不是透過使用資料夾的方式。之前，您是使用資料夾 (在 [!DNL Ad Hoc Analysis] 中) 來組織區段。
 
@@ -35,51 +35,51 @@ ht-degree: 100%
 
 「區段管理員」不再使用 Ad Hoc Analysis 資料夾，而是使用標記。您的資料夾名稱會自動轉換成標記，而這些標記會套用至對應的區段。
 
-## 已套用區段的已計劃報表有什麼改變？  {#section_81D1B215533C46E99E17BAE7A3376FDF}
+## 已套用區段的已計劃報表有什麼改變？ {#section_81D1B215533C46E99E17BAE7A3376FDF}
 
 已計劃的報表會繼續使用您定義的區段正常運作。
 
 當您刪除區段時，已套用此區段的已計劃報表和控制面板會繼續正常運作，亦即區段或控制面板會繼續使用刪除的區段。
 
-## 點擊容器是什麼？它是否與頁面檢視容器不同？  {#section_65BBE60A836C4001938830DDA15DC256}
+## 點擊容器是什麼？它是否與頁面檢視容器不同？ {#section_65BBE60A836C4001938830DDA15DC256}
 
 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。
 
 請注意，此容器的運作方式並無改變，只是名稱有變而已。
 
-## 要使用、建立和管理區段需要有什麼權限？  {#section_648DFA3A882146C485A84ED014EEC707}
+## 要使用、建立和管理區段需要有什麼權限？ {#section_648DFA3A882146C485A84ED014EEC707}
 
 所有使用者均可建立和編輯個人區段。這些區段可直接共用給任何其他 Analytics 使用者。Ad Hoc Analysis 使用者可以看到他們建立的區段以及直接與其共用的區段。
 
 在「統一劃分」Web 主控台中，管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。
 
-## 我是否可以看見公司中的所有區段？  {#section_AC2D328C7410419E80C7C17971CD95B3}
+## 我是否可以看見公司中的所有區段？ {#section_AC2D328C7410419E80C7C17971CD95B3}
 
 會顯示您擁有的所有 Ad Hoc Analysis 區段以及專門與您共用的區段。
 
-## 我是否可以在區段管理員中管理所有 Analytics 區段？  {#section_AF5EDD72C74A4739BD40C4AF125CE489}
+## 我是否可以在區段管理員中管理所有 Analytics 區段？ {#section_AF5EDD72C74A4739BD40C4AF125CE489}
 
 Ad Hoc Analysis 只會顯示您建立的區段或專門與您共用的區段。僅限 Ad Hoc Analysis：您可以使用區段管理員 (組織區段) 來管理臨機分析區段。使用「統一劃分」中的「區段管理員」可以管理所有 Analytics 的區段。
 
-## 有具有相同名稱、但不同定義的重複區段時該怎麼辦？  {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
+## 有具有相同名稱、但不同定義的重複區段時該怎麼辦？ {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
 
-現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
+現在，由於區段可在多個報告套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
 
 * 重新命名具有相同名稱、但不同定義的區段，或是
 * 刪除不再需要的區段。
 
-## Adobe 建議我該如何清理區段？  {#section_3AC2D265F9084557A24C6FB39DC6EE49}
+## Adobe 建議我該如何清理區段？ {#section_3AC2D265F9084557A24C6FB39DC6EE49}
 
 * 以 legacy 標記標記所有區段。
 * 檢閱您現有的區段。
 * 適時將這些區段新增至區段庫。
 * 核准要做為標準區段的區段。
 
-## 我為何刪除不了區段？  {#section_0FEB6711031A4ABCA915CDA745ECF38D}
+## 我為何刪除不了區段？ {#section_0FEB6711031A4ABCA915CDA745ECF38D}
 
 如果區段已發佈至 Experience Cloud，則您無法加以刪除或編輯。不過，您可以加以複製再編輯複製的版本。
 
-## 更多關於現有區段會有什麼改變的資訊  {#section_83ACAB256F394DCD8B424D8920BDD853}
+## 更多關於現有區段會有什麼改變的資訊 {#section_83ACAB256F394DCD8B424D8920BDD853}
 
 <table id="table_0AE814A64D2A48ABB28402C4303F420E"> 
  <thead> 
