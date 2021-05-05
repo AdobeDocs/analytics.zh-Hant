@@ -2,11 +2,11 @@
 description: (可選) 將分類匯入行銷報告之前，可以下載能幫助您建立分類資料檔案的範本。資料檔案使用您所要的分類當做欄標題，然後將報告資料集組織在適當的分類標題下。
 subtopic: Classifications
 title: 分類範本
-feature: Admin Tools
+feature: 管理工具
 uuid: 4edd411b-164c-4b4d-a872-b57a3163ca72
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
 ht-degree: 100%
 
@@ -25,8 +25,8 @@ ht-degree: 100%
 
 | 元素 | 說明 |
 |---|---|
-| 選取報表套裝 | 在範本中選取要使用的報表套裝。報表套裝和資料集必須相符。 |
-| 要分類的資料集 | 選取資料檔案的資料類型。功能表含有報表套裝中所有已針對分類設定的報告。 |
+| 選取報告套裝 | 在範本中選取要使用的報告套裝。報告套裝和資料集必須相符。 |
+| 要分類的資料集 | 選取資料檔案的資料類型。功能表含有報告套裝中所有已針對分類設定的報告。 |
 | 編碼 | 選取資料檔案的字元編碼。預設的編碼格式為 UTF-8。 |
 | 下載 | 下載範本檔案。 |
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->範本方法限制將分類資料下載至單一報表套裝中。
+>範本方法限制將分類資料下載至單一報告套裝中。
 
 如需資料檔案結構的詳細資訊，請參閱[關於分類資料檔案](/help/components/classifications/importer/c-saint-data-files.md)。
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->範本方法限制將資料下載至單一報表套裝中。
+>範本方法限制將資料下載至單一報告套裝中。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 在「**[!UICONTROL 下載範本]**」索引標籤中指定[資料範本設定](/help/components/classifications/importer/c-download-saint-data.md)。
