@@ -1,19 +1,19 @@
 ---
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-title: 建立 Analysis Workspace 專案
-feature: Reports and analytics 基本需知
+title: 建立 Workspace 專案
+feature: Reports and Analytics 基本需知
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
 ht-degree: 100%
 
 ---
 
 
-# 建立 Analysis Workspace 專案
+# 建立 Workspace 專案
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >有時，系統在載入專案 (或切換到報表套裝) 時會顯示「不相容的報表套裝」訊息，這是因為並非所有元件 (量度/維度) 都包含在報表套裝中。您可以看到不相容的元件清單，得知收到這類訊息的原因。
+   >有時，系統在載入專案 (或切換到報告套裝) 時會顯示「不相容的報告套裝」訊息，這是因為並非所有元件 (量度/維度) 都包含在報告套裝中。您可以看到不相容的元件清單，得知收到這類訊息的原因。
 
 <table id="table_3989E45D9D4241CBB2E58B29DA257B2F"> 
  <thead> 
