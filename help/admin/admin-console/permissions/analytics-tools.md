@@ -1,18 +1,18 @@
 ---
 title: Analytics 工具的產品設定檔權限
-description: 使用Analytics工具權限項目來授與對Adobe Analytics內功能的存取權。
+description: 使用 Analytics 工具權限項目，以授予權限來存取 Adobe Analytics 中的功能。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Analytics 工具的產品設定檔權限
 
-Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能。Analytics 工具權限項目的適用對象不是報表套裝，而是整個 Adobe Analytics。
+Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能。Analytics 工具權限項目的適用對象不是報告套裝，而是整個 Adobe Analytics。
 
 | Analytics 工具權限項目 | 說明 |
 |----|----|
@@ -32,7 +32,7 @@ Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能�
 | 待定動作 | 授予「管理員 > 公司設定 > 待定動作」的存取權。 |
 | 品牌結合 | 已不再使用。授予「管理員 > 公司設定 > 品牌結合」的存取權。 |
 | 偏好設定 | 未使用。 |
-| 隱藏報表套裝 | 授予「管理員 > 公司設定 > 隱藏報表套裝」的存取權。授予隱藏組織中任何報表套裝的能力，不論組織對報表套裝是否具備存取權。 |
+| 隱藏報告套裝 | 授予「管理員 > 公司設定 > 隱藏報告套裝」的存取權。授予隱藏組織中任何報告套裝的能力，不論組織對報告套裝是否具備存取權。 |
 | Excel 授權使用者 | 未使用。 |
 | Activity Map | 授予「工具 > Activity Map」的存取權。允許使用者使用 Activity Map 擴充功能。 |
 | 目前的資料 | 啟用在「Reports &amp; Analytics」報表中查看目前資料的選項。 |
