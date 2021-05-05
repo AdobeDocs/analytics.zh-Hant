@@ -2,11 +2,11 @@
 title: getQueryParam
 description: 擷取 URL 查詢字串參數的值。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '918'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -185,14 +185,14 @@ s.eVar2=s.getQueryParam('ecid,cid,location,pos','|',s.testURL);
 
 ## 版本記錄
 
-### 4.0.1（2021年3月26日）
+### 4.0.1 (2021 年 3 月 26 日)
 
-* 更新如果查詢字串中未顯示查詢參數，則傳回undefined而非&quot;&quot;的問題。
+* 已更新後述情況的問題：如果查詢字串中未顯示查詢參數，則傳回 undefined 而非 &quot;&quot;。
 
 ### 4.0 (2021 年 3 月 19 日)
 
 * 將版本編號加入為內容資料。
-* 已移除pt外掛程式的相依性。
+* 已移除 pt 外掛程式上的相依性。
 
 ### 3.3 (2019 年 9 月 24 日)
 
