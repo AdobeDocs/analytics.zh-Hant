@@ -2,17 +2,17 @@
 description: 在此詳細指南中探索您可以使用 Advertising Analytics 進行的所有功能，包括所需的權限以及可用的維度和量度。
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 797dd2c700cd6e11db91e3b5e6bf4b7bfbefdabe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1259'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Advertising Analytics 指南
 
-Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。您現在將在Adobe Analytics內取得下列資料：直接從搜尋引擎以及AMO ID例項（按一下例項）中取得印象、點按、成本資料。 Google已於2019年9月取消這些量度的權限，因此將不再收集品質分數和平均位置。
+Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。現在，您可以在 Adobe Analytics 中直接利用搜尋引擎及 AMO ID 實例 (按一下實例)，取得以下資料：曝光數、點選次數、成本。Google 已於 2019 年 9 月取消這些量度的權限，因此將不再收集品質分數和平均位置。
 
 >[!NOTE]
 >
@@ -33,8 +33,8 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
 * 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
-* 無論您要在任何 Analytics 報表套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
-* 針對您要檢視 Google/Bing 搜尋資料的任何報表套裝，請[啟用 Advertising Analytics 報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL 「管理員]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**)。
+* 無論您要在任何 Analytics 報告套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 針對您要檢視 Google/Bing 搜尋資料的任何報告套裝，請[啟用 Advertising Analytics 報告套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL 「管理員]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**)。
 
 * 若要將搜尋帳戶整合至 Adobe Analytics，您需要擁有具備編輯權限之帳戶的使用者登入憑證，例如 Google 帳戶 ID 和密碼。
 * 若是 Bing 廣告，則需要使用 Bing 客戶 ID。
@@ -62,9 +62,9 @@ Analytics 會自動授予 Analytics 管理員兩項權限。之後，管理員�
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 設定 </p> </td> 
-   <td colname="col2"> <p>可讓使用者設定要為 Advertising Analytics 佈建的報表套裝。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">使用者管理 </span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">報表套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
+   <td colname="col2"> <p>可讓使用者設定要為 Advertising Analytics 佈建的報告套裝。 </p> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">使用者管理 </span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報告套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
+   <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">報告套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
   </tr> 
  </tbody> 
 </table>
