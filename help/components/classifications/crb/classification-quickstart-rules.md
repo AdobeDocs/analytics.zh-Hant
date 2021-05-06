@@ -329,12 +329,10 @@ t_classification_rule.xml
    >只有 *`only`* 在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
    >* 報告套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
-      >
-      >   
-      (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
-      >
-      >
-   * 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
+   >
+   >   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
+   >
+   >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
 
 1. 指定是否覆寫現有規則：
