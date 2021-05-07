@@ -2,11 +2,11 @@
 title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的 3 種方式
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '708'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: b78e8303277b08a4c693283e45416f2e104268b7
+workflow-type: tm+mt
+source-wordcount: '809'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,17 @@ ht-degree: 100%
 
 如需詳細資訊，請參閱[機器人規則概觀](/help/admin/admin/bot-removal/bot-rules.md)。
 
+## 使用[!UICONTROL websiteBot]外掛程式來識別bot
+
+websiteBot外掛程式可讓您動態識別案頭訪客是否為機器人。 您可以使用這些資料來提高所有報告類型的正確性，這可讓您以更好的方式測量合理的網站流量。
+
+此外掛程式會執行兩項檢查：
+
+* 首先，它使用navigator.UserAgent變數來判斷裝置是桌上型或行動裝置。 若是行動裝置則不列入考慮。
+* 若是桌上型電腦，此外掛程式會新增一個滑鼠移動事件監聽程式。
+
+如需詳細資訊，請參閱《Adobe Analytics實施指南》](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html)。[
+
 ## 使用 Adobe 工具組合
 
 此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID 服務、分段、Data Warehouse、客戶屬性和虛擬報表套裝。以下為工具運用方式概觀。
@@ -39,7 +50,7 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-設定這個「資料元素」後，請按照[此連結的指示](https://docs.adobe.com/content/help/zh-Hant/launch/using/implement/solutions/idservice-save.html)，將已宣告 ID 傳遞到 Launch 的 ECID 工具中。
+設定這個「資料元素」後，請按照[此連結的指示](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html)，將已宣告 ID 傳遞到 Launch 的 ECID 工具中。
 
 ### 步驟 2：使用分段來識別機器人
 
