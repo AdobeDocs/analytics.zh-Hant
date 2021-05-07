@@ -2,16 +2,16 @@
 description: 使用貢獻分析來找出資料中的統計異常和關聯。
 title: 貢獻分析概述
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
+exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
 translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '1161'
-ht-degree: 99%
+source-wordcount: '1164'
+ht-degree: 91%
 
 ---
-
 
 # 貢獻分析概述
 
@@ -47,41 +47,14 @@ ht-degree: 99%
 
 ## 常見問題集 {#section_11D0431AD2014B96AB9561CA66A367CE}
 
-<table id="table_357775E5058644099E26B15A6790E8AF"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 問題 </th> 
-   <th colname="col2" class="entry"> 回答 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>為什麼 Adobe 要推出代號？</b> </p> </td> 
-   <td colname="col2"> <p>「貢獻分析」已成為 Adobe Analytics 中迴響最熱烈的功能之一。您每月皆可執行小量的「完整」分析 (而非只有部分 Analytics 產品的 3 個維度)，因此能夠更加了解完整不受限的「貢獻分析」所能提供的功能。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>代號如何在「貢獻分析」中運作？使用現有的「貢獻分析」載入專案是否要扣除掉一個代號，或是在執行全新的「貢獻分析」時才需要這樣做？</b> </p> </td> 
-   <td colname="col2"> <p>每間登入公司 (非每位使用者) 每月都能取得特定數量的代號，讓您在 Analysis Workspace 中執行「完整」的貢獻分析。 </p> <p>您每次產生一個新的貢獻分析，就要支付一個代號。使用預先執行的「貢獻分析」載入專案並不需要扣除代號。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>代號適用於 Reports &amp; Analytics 中的「貢獻分析」嗎？</b> </p> </td> 
-   <td colname="col2"> <p>不適用。Reports &amp; Analytics 2018 年 4 月版將不再繼續提供「貢獻分析」。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>如果我的公司用完代號，但想要執行更多「貢獻分析」，該怎麼做？</b> </p> </td> 
-   <td colname="col2"> <p>您可以升級至其他 Adobe Analytics 產品，例如從 Standard (每月 2 個代號) 升級為 Ultimate (每月 20 個代號)。您無法單純購買更多代號，您必須在現有的包裝架構內升級。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>我該如何限制對「貢獻分析」的存取權？</b> </p> </td> 
-   <td colname="col2"> <p>依預設，僅管理員有權執行貢獻分析，但管理員可以在<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html"  > Admin Console</a> 中建立權限群組，藉此將存取權授與其他使用者 。您必須確認使用者具備正當理由，且不會濫用存取權，才可將使用貢獻分析的權限授予對方。 </p> <p>此權限稱為「貢獻分析」，其位於<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span></span>當中。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>我該如何得知敝公司每個月有權使用多少代號，以及在當月中已使用的數量？</b> </p> </td> 
-   <td colname="col2"> <p>請前往<span class="ignoretag"><span class="uicontrol">「管理</span> &gt; <span class="uicontrol">公司設定</span> &gt; <span class="uicontrol">查看功能存取層級」</span></span>。此頁面中有 2 個新項目： </p> <p><img placement="break"  src="assets/ca_access_level.png" id="image_16012FE1162C485EA768D175F43D7563" width="500px" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
+| 問題 | 回答 |
+| --- | --- |
+| 為什麼 Adobe 要推出代號？ | 「貢獻分析」已成為 Adobe Analytics 中迴響最熱烈的功能之一。您每月皆可執行小量的「完整」分析 (而非只有部分 Analytics 產品的 3 個維度)，因此能夠更加了解完整不受限的「貢獻分析」所能提供的功能。 |
+| 代號如何在「貢獻分析」中運作？使用現有的「貢獻分析」載入專案是否要扣除掉一個代號，或是在執行全新的「貢獻分析」時才需要這樣做？ | 每間登入公司 (非每位使用者) 每月都能取得特定數量的代號，讓您在 Analysis Workspace 中執行「完整」的貢獻分析。您每次產生一個新的貢獻分析，就要支付一個代號。使用預先執行的「貢獻分析」載入專案並不需要扣除代號。 |
+| 代號適用於 Reports &amp; Analytics 中的「貢獻分析」嗎？ | 不可以，自2018年4月起，「報告與分析」不再提供貢獻分析。 |
+| 如果我的公司用完代號，但想要執行更多「貢獻分析」，該怎麼做？ | 您可以升級至其他 Adobe Analytics 產品，例如從 Standard (每月 2 個代號) 升級為 Ultimate (每月 20 個代號)。您無法單純購買更多代號，您必須在現有的包裝架構內升級。 |
+| 我該如何限制對「貢獻分析」的存取權？ | 依預設，只有管理員可存取執行貢獻分析。 不過，管理員可在[Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html)中建立權限群組，以授與其他使用者的存取權。 您必須確認使用者具備正當理由，且不會濫用存取權，才可將使用貢獻分析的權限授予對方。此權限在[!UICONTROL 報表套裝工具]下稱為[!UICONTROL 貢獻分析]。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html) |
+| 我該如何得知敝公司每個月有權使用多少代號，以及在當月中已使用的數量？ | 前往[!UICONTROL 管理員] > [!UICONTROL 所有管理員] >[!UICONTROL 公司設定首頁] >[!UICONTROL 檢視功能存取層級]。 在下面查看<ul><li>貢獻分析: 每月使用代號數量</li><li>貢獻分析: 本月使用代號數量</li></ul> |
 
 ## 異常偵測和貢獻分析使用權限 {#section_9278D58F21A840AA9B1ED1BD07A1EF0A}
 
@@ -89,7 +62,7 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->「異常偵測」和「貢獻分析」這兩項功能已從 Reports &amp; Analytics 功能集中移除，現在只能透過 Analysis Workspace 使用。請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。
+>「異常偵測」和「貢獻分析」已從「報告與分析」功能集中移除，現在僅能透過Analysis Workspace取得。 請注意，Adobe Analytics Select 與 Adobe Analytics Foundation 客戶在工作區中只能存取「每日粒度」的異常偵測功能。
 
 <table id="table_5C9B7E4AE82640B5A913519E576889B5"> 
  <thead> 
