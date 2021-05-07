@@ -5,10 +5,10 @@ user-guide-title: Analytics 技術文件
 breadcrumb-title: 技術注意事項
 user-guide-description: 知識庫包含不屬於特定分析工具或元件的實用文章。
 translation-type: tm+mt
-source-git-commit: ebed6c96d82a5a93e53e015f1e89431d2d8abae4
+source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 90%
+source-wordcount: '193'
+ht-degree: 89%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 90%
    + [比較日期與原日期範圍](event/compare-dates.md)
    + [衍生受事件影響的資料](event/calcmetrics.md)
    + [向使用者傳達事件](event/communicate.md)
+   + [智慧型資料平滑](event/intelligent-data-smoothing.md)
 + Cookie {#cookies}
    + [瀏覽器 Cookie](cookies/cookies.md)
    + [可降低瀏覽器Cookie限制影響的選項](cookies/cookieless.md)
