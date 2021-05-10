@@ -6,10 +6,10 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 65c9c690-81e0-4f0f-989d-586d247ed380
 translation-type: tm+mt
-source-git-commit: d4296a721e01e37c57a8fb44b67599a3cc9e4758
+source-git-commit: 700d3b21a238af23719b291fe60df207e916bb87
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 60%
+source-wordcount: '652'
+ht-degree: 50%
 
 ---
 
@@ -43,8 +43,8 @@ ht-degree: 60%
 
 | 設定 | 說明 |
 | --- | --- |
-| **[!UICONTROL 動態資料篩選]** |  |
-| **[!UICONTROL 隱藏未收到點擊之連結的覆蓋圖]**。 | 此核取方塊可讓您隱藏未收到點擊之連結的覆蓋圖，以降低介面中的雜訊。 |
+| **[!UICONTROL 動態資料篩選]** | 此下拉式清單可讓您顯示<ul><li>（預設）頁面上的所有連結</li><li>頁面上排名連結的頂端（最高）或底端（最低）#，其中#可以是1、10、50或100的選項。</li></ul> |
+| **[!UICONTROL 隱藏未收到點擊之連結的覆蓋圖]**。 | 核取方塊，可切換無資料連結的覆蓋圖可見度。<ul><li>（預設）如果核取核取核取方塊，當連結沒有ActivityMap連結資料時，就不會顯示覆蓋圖。</li><li>如果核取方塊，則如果連結沒有ActivityMap連結資料，則會顯示覆蓋圖，其標籤為「-」，這表示N/A（不適用）。 |
 
 ## 即時設定{#section_D30F6E62FB5D404090B588F396A460AF}
 
