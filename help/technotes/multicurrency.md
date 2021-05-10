@@ -2,14 +2,14 @@
 description: 說明如何定義目標貨幣代碼以便讓多貨幣支援運作。
 title: 多貨幣支援
 uuid: null
+exl-id: b67f459c-0636-4eac-af52-51846bb583b5
 translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1358'
 ht-degree: 100%
 
 ---
-
 
 # 多貨幣支援
 
@@ -429,8 +429,6 @@ s.linkTrackEvents="None"
 ***
     
 ```
-
-如需有關編輯 AppMeasurement.js 檔案的詳細資訊，請參閱[將程式碼插入 AppMeasurement.js 檔案中](https://docs.adobe.com/content/help/en/analytics/implementation/implement-analytics-with-dtm/analytics-tool/t-appmeasurement-code.html)。
 
 ## 其他實施注意事項
 
