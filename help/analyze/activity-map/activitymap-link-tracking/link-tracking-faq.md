@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
+source-git-commit: 7ba73d75dde80571125c83efb3265441b8d3278a
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 44%
 
 ---
@@ -79,10 +79,25 @@ b.透過`s_objectID`變數。 範例：
 
 ## 您能提供一些將會追蹤的連結範例嗎？
 
-* `<a hef="/home?lang=en>Home</a>`
-* `<input type="submit" value="Submit"/>`
-* `<input type="image" src="submit-button.png"/>`
-* 
+### 範例 1
+
+```
+  <a hef="/home?lang=en>Home</a>
+```
+
+### 範例 2
+
+```
+ <input type="submit" value="Submit"/>
+```
+
+### 範例 3
+
+```
+  <input type="image" src="submit-button.png"/>
+```
+
+### 範例4
 
 ```
     <p onclick="var s_objectID='custom link id';">
@@ -91,7 +106,7 @@ b.透過`s_objectID`變數。 範例：
     </p>
 ```
 
-* 
+### 範例5
 
 ```
     <div onclick="s.tl(true,'o','custom link id')">
