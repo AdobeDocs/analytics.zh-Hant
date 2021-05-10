@@ -2,14 +2,14 @@
 description: 說明EU Cookie合規性法規提示的伺服器端轉送增強功能。
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
+exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 translation-type: tm+mt
-source-git-commit: b3ea538d0d6e6ebbbbd17871aacaed7527cf3976
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 91%
+source-wordcount: '539'
+ht-degree: 90%
 
 ---
-
 
 # GDPR/ePrivacy 法規遵循與伺服器端轉送
 
@@ -30,7 +30,6 @@ ht-degree: 91%
 | 實作方法 | 步驟 |
 |--- |--- |
 | Adobe Experience Platform Launch | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的上下文資料變數定義加到自訂程式碼編輯器： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/> 注意： 若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。如果客戶同意目標式行銷，請將 `contextdata` 變數設為&#x200B;*「0」*。 |
-| DTM | 將內容變數定義新增至自訂頁面程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 | AppMeasurement | 將內容資料變數定義新增至 AppMeasurement.js 檔案：    <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
 ## 報表 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
@@ -48,4 +47,3 @@ ht-degree: 91%
    1. 按一下&#x200B;**[!UICONTROL 「新增規則」]**。
    1. 在&#x200B;**[!UICONTROL 「一律執行」]**&#x200B;下，以上下文變數「cm.ssf(Context Data)」覆寫已啟用的 prop 值。
    1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
-
