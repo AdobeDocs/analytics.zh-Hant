@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2458'
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '2433'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,6 @@ ht-degree: 100%
 * **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。通常會從 FTP 網站提取檔案。請參閱匯入使用手冊中的[資料來源](/help/import/c-data-sources/datasrc-home.md)。
 * **Data Warehouse：** Adobe Analytics 的一項功能，可用來請求較大型的報表。請參閱匯出使用手冊中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
 * **維度：**&#x200B;包含變數值 (如文字) 的元件類型。範例包括頁面名稱、追蹤代碼或反向連結網域。量度通常是其對應項目。
-* **Dynamic Tag Management：** Adobe 之前的標記管理解決方案。請參閱實施作業使用手冊中的 [DTM 實施作業概觀](/help/implement/other/dtm/dtm-implementation-overview.md)。Adobe 建議改用 Adobe Experience Platform Launch。
 * **事件序列化：**&#x200B;防止收集重複事件的實施作業措施程序。請參閱實施作業使用手冊中的[事件序列化](../implement/vars/page-vars/events/event-serialization.md)。
 * **eVar：**&#x200B;請見「轉換變數」。
 * **事件**：請見「成功事件」。
