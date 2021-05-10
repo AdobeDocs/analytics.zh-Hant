@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 translation-type: tm+mt
-source-git-commit: 69c1daa9dbf3bbf39072cc7104f2dd32fb95eb79
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '376'
 ht-degree: 100%
 
 ---
@@ -158,35 +158,7 @@ ht-degree: 100%
    + [將 Launch 資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 在其他平台上實施 Analytics {#other}
    + [使用硬式編碼影像要求實施 Analytics](other/hardcoded.md)
-   + 使用 DTM 實施 Analytics {#dtm}
-      + [Dynamic Tag Management 實施概述](other/dtm/dtm-implementation-overview.md)
-      + [建立 Web 屬性](other/dtm/t-create-web-property.md)
-      + [設定託管選項](other/dtm/t-configure-hosting.md)
-      + 頁首與頁尾 {#headers-footers}
-         + [新增頁首與頁尾代碼](other/dtm/c-headers-footers/t-header-footer-code.md)
-         + [驗證頁首與頁尾代碼](other/dtm/c-headers-footers/t-verify-header-footer.md)
-      + Adobe Analytics 工具 {#analytics-tool}
-         + [新增 Adobe Analytics 工具](other/dtm/c-aa-tool/analytics-dtm.md)
-         + [一般](other/dtm/c-aa-tool/general-settings-analytics.md)
-         + [程式庫管理](other/dtm/c-aa-tool/library-management.md)
-         + [插入核心 AppMeasurement 程式碼](other/dtm/c-aa-tool/t-appmeasurement-code.md)
-         + [全域變數](other/dtm/c-aa-tool/global-variables.md)
-         + [頁面檢視與內容](other/dtm/c-aa-tool/pageviews-content.md)
-         + [連結追蹤](other/dtm/c-aa-tool/link-tracking.md)
-         + [反向連結與促銷活動](other/dtm/c-aa-tool/referrers-campaigns.md)
-         + [Cookie](other/dtm/c-aa-tool/cookies-analytics.md)
-         + [自訂頁面程式碼](other/dtm/c-aa-tool/customize-page-code.md)
-         + [Adobe Analytics 工具常見問題集](other/dtm/c-aa-tool/dtm-faq.md)
-      + [建立資料元素](other/dtm/t-data-element.md)
-      + [手動實施 Adobe Analytics (舊版)](other/dtm/t-analytics-deploy.md)
-      + 規則 {#rules}
-         + [建立新規則](other/dtm/c-rules/t-rules-create.md)
-         + [建立事件型規則的條件](other/dtm/c-rules/t-rules-event-conditions.md)
-         + [建立頁面載入規則的條件](other/dtm/c-rules/t-rules-page-conditions.md)
-         + [建立直接呼叫規則的條件](other/dtm/c-rules/t-rules-direct-conditions.md)
-         + [設定條件要觸發的動作](other/dtm/c-rules/t-rules-actions.md)
-         + [測試 Akamai 託管的取消發佈規則](other/dtm/c-rules/t-test-rules-akamai.md)
-         + [程式庫下載或 FTP 的測試規則](other/dtm/c-rules/t-test-rules-ftp.md)
+   + [使用 DTM 實施 Analytics](other/dtm-implementation-overview.md)
    + [在 Ajax 上實施 Analytics](other/ajax.md)
    + [在 AMP 上實施 Analytics](other/amp.md)
    + [在數位助理上實施 Analytics](other/digital-assistants.md)
