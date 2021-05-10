@@ -5,10 +5,10 @@ title: 虛擬報告套裝和多套裝標記考量事項
 feature: 報告套裝設定
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1742'
+translation-type: tm+mt
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
+workflow-type: tm+mt
+source-wordcount: '1712'
 ht-degree: 100%
 
 ---
@@ -101,7 +101,6 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
    * 如果您希望維持虛擬報告套裝彼此更加互斥，請使用點擊容器。
 2. 在您確認虛擬報告套裝已正確設定後，請從實作項目中移除次要報告套裝 ID。如何移除次要報告套裝：
    * 在 Adobe Experience Platform Launch 中，針對您不想再使用的任何報告套裝按一下旁邊的「x」。
-   * 在 DTM 中，找出所需屬性和 Analytics 工具。在生產帳戶 ID 和暫存帳戶 ID 欄位中，移除您不想再使用的任何報告套裝 ID。
    * 在舊的 JavaScript 實作項目中，找到 `s.account` 變數並移除您不想再使用的任何報告套裝 ID。
    * 在所有情況下，僅需保留您的全域/父項報告套裝 ID，以便收集網站和應用程式的資料。
    * 導覽至管理 > 報告套裝，並隱藏任何不再使用的次要報告套裝。
