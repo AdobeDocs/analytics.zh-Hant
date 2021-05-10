@@ -2,7 +2,7 @@
 title: 實作Adobe Analytics行銷渠道的最佳實務
 description: 更新搭配Attribution IQ和Customer Journey Analytics使用行銷渠道的最佳實務
 translation-type: tm+mt
-source-git-commit: 402546c3110e78240e9379ea28957b070f22e697
+source-git-commit: 9e274e54b7ce494dc5a21961a842e4365cb2a084
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Attribution IQ行銷渠道——最佳實務
 
-[行銷](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 渠道是Adobe Analytics的重要且強大功能。目前關於行銷渠道實作的指引是在[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)和[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)不存在時制定的。
+[行銷](/help/components/c-marketing-channels/c-getting-started-mchannel.md) 渠道是Adobe Analytics的重要且強大功能。目前關於行銷渠道實作的指引是在[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)和[Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-usecases/marketing-channels.html?lang=zh-Hant#cja-usecases)不存在時制定的。
 
 為了讓行銷管道的實作能夠在日後得到證實，並確保與Attribution IQ及Customer Journey Analytics一致地建立報告，我們推出一套更新的最佳實務。 如果您已使用行銷渠道，則可從這些新准則中選擇最佳選項。 如果您是行銷渠道的新手，我們建議您遵守所有新的最佳實務。
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 
 ## 最佳實踐#1:利用Attribution IQ進行受控分析
 
-我們建議使用[Attribution IQ](https://experienceleague.corp.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)來取代現有行銷渠道屬性，以微調您的行銷渠道分析。 遵循其他最佳實務，確保分析的一致性與強穩控制，並提供Attribution IQ。
+我們建議使用[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace)來取代現有行銷渠道屬性，以微調您的行銷渠道分析。 遵循其他最佳實務，確保分析的一致性與強穩控制，並提供Attribution IQ。
 
 ![](assets/attribution.png)
 
