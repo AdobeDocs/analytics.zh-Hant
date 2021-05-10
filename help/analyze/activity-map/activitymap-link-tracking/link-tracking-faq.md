@@ -6,9 +6,9 @@ feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 translation-type: tm+mt
-source-git-commit: 56d272b72d3274057668d3b45c416cb7487d56a2
+source-git-commit: af3e4fc64085e94ec5616b8b6851a823e4954b36
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '513'
 ht-degree: 44%
 
 ---
@@ -42,10 +42,15 @@ Activity Map連結和地區識別會在使用者點按頁面時發生。
 * 這是`INPUT`標籤，類型為`IMAGE`和`src`屬性嗎？
 * 這是`BUTTON`嗎？
 
-如果以上任一問題的答案為是，則會將該元素視為連結，並進行追蹤。 
-重要： AppMeasurement不會將屬性為type=&quot;button&quot;的Button標籤視為連結。 請考慮移除按鈕標籤上的type=&quot;button&quot;，並改為新增role=&quot;button&quot;或submit=&quot;button&quot;。
- 
-重要：以&quot;#&quot;開頭的「href」為錨記，AppMeasurement會視為內部目標位置，而非連結（因為您未離開頁面）。 依預設，Activity Map 不會追蹤這些內部目標位置。它只會追蹤將使用者導覽至新頁面的連結。
+如果以上任一問題的答案為是，則會將該元素視為連結，並進行追蹤。
+
+>[!IMPORTANT]
+>
+>AppMeasurement不會將屬性為type=&quot;button&quot;的Button標籤視為連結。 請考慮移除按鈕標籤上的type=&quot;button&quot;，並改為新增role=&quot;button&quot;或submit=&quot;button&quot;。
+
+>[!IMPORTANT]
+>
+>以&quot;#&quot;開頭的錨記，AppMeasurement會視為內部目標位置，而非連結（因為您未離開頁面）。 依預設，Activity Map 不會追蹤這些內部目標位置。它只會追蹤將使用者導覽至新頁面的連結。
 
 ## Activity Map如何追蹤其他視覺化HTML元素？
 
@@ -54,7 +59,6 @@ a.透過`s.tl()`函式。
 如果點按是透過`s.tl()`呼叫進行，Activity Map也會收到此點按事件，並判斷是否找到`linkName`字串變數。 在執行`s.tl()`期間，該linkName將被設為Activity Map連結ID。 產生`s.tl()`呼叫的點按元素將用於判斷地區。 範例：
 
 ```
-    
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
@@ -69,7 +73,9 @@ b.透過`s_objectID`變數。 範例：
     
     &quot;
 
-重要： 請注意，在Activity Map中使用`s_objectID`時，需要結尾分號(;)。
+>[!IMPORTANT]
+>
+>在Activity Map中使用`s_objectID`時，需要結尾分號(;)。
 
 ## 您能提供一些將會追蹤的連結範例嗎？
 
