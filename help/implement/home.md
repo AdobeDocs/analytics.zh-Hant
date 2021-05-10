@@ -1,14 +1,14 @@
 ---
 title: 實施 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
+exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 translation-type: tm+mt
-source-git-commit: 34ccd89d0ac4223af87b36a48e778fb678d5cd59
+source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '366'
 ht-degree: 97%
 
 ---
-
 
 # 實施 Adobe Analytics
 
@@ -29,13 +29,13 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實施此程式碼的方法有很多種，視平台和您組織的需求而定。
 
 * **Adobe Experience Platform Launch：** 標準化且建議的 Adobe Analytics 實施方法。在每個頁面上放置載入器標記，並使用 Launch 的介面來決定每個變數的定義方式。
-* **Dynamic Tag Management：** Launch 的前身。DTM 使用類似介面來實施 Analytics，但已不再更新，而且也不是那麼有彈性。Adobe 建議使用 Launch 來實施 Adobe Analytics。
+* **動態標籤管理**:動態標籤管理已停止運作。
 * **舊版 JavaScript：**&#x200B;舊版手動實施 Adobe Analytics 的方法。概述實施中使用的變數和設定，這對使用自訂程式碼規則的 Launch 實施來說很有用。
 * **行動 SDK**：專用的程式庫，可輕鬆將資料從行動應用程式傳送至 Adobe。
 
 ## 重要 Analytics 實施文章
 
-* [負責現有的Adobe Analytics實作](/help/implement/prepare/existing-implementation.md)
+* [負責現有的 Adobe Analytics 實施](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform Launch 中建立屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
