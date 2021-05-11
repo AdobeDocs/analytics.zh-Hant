@@ -3,10 +3,10 @@ description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 translation-type: tm+mt
-source-git-commit: 9f978ecaa86eed450c80ab5a864f321b6223ba8c
+source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 82%
+source-wordcount: '648'
+ht-degree: 81%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 82%
 | MaritzCX (V 2.0) | 即將停止使用 |
 | Merkle | 即將停止使用 |
 | Official Oracle Eloqua Integration | 正移轉至 Exchange |
-| optivo broadmail (Episerver) | 正移轉至 Exchange |
+| optivo broadmail (Episerver) | 即將停止使用 |
 | Qualtrics v2 | 正移轉至 Exchange |
 | Responsys 2.0 | 即將停止使用 |
 | Selligent | 即將停止使用 |
