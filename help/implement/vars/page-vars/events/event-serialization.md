@@ -1,14 +1,14 @@
 ---
 title: 事件序列化
 description: 協助您去除網站上重複的量度。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '318'
-ht-degree: 100%
+exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
+translation-type: tm+mt
+source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 94%
 
 ---
-
 
 # 事件 ID 序列化
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段，其中每個事件都包含[!UICONTROL 「事件 ID」]欄位。
 
-有效值是長度最多 20 個位元組的英數字元。
+有效值是長度最多 20 個位元組的英數字元。如果您輸入的值長於20個位元組，則系統會將其截斷為前20個位元組。
 
 ## AppMeasurement 和 Launch 自訂程式碼編輯器中的使用事件 ID
 
