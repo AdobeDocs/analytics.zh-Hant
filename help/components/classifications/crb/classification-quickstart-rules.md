@@ -4,11 +4,11 @@ subtopic: Classifications
 title: 分類規則
 feature: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '2020'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+workflow-type: tm+mt
+source-wordcount: '2030'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 **[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 分類規則產生器]**
 
-規則產生器可用來建立 *`classification rule set`*，也就是 *`classification rules`* 的清單。規則會匹配您指定的準則，然後執行動作。
+規則產生器可讓您建立&#x200B;*分類規則集*，此為&#x200B;*分類規則*&#x200B;的清單。 規則會匹配您指定的準則，然後執行動作。
 
 分類規則可方便執行下列作業：
 
@@ -37,8 +37,8 @@ ht-degree: 100%
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
 | 開頭為 | em: | 管道 | 電子郵件 |
-| 結尾為 | Sale | 類型 | Sale |
-| 包含 | 2013 | 年 | 2013 |
+| 結尾為 | Sale | 類型 | 銷售 |
+| 包含 | 2013 | 年 | 2013年 |
 
 ## 規則的處理方式 {#how-rules-are-processed}
 
@@ -266,7 +266,7 @@ c:d:yoyo
 | `a{3,}` | 3 個或更多 a |
 | `a{3,6}` | 介於 3 到 6 個 a |
 
-測試規則運算式有效性的實用資源為 https://rubular.com/ 。
+測試規則運算式有效性的好資源是[https://rubular.com/](https://rubular.com/)。
 
 ## 關於規則優先順序
 
@@ -285,7 +285,7 @@ rule_priority.xml
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜尋類型 | Team |
-| 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
+| 2 | 包含 | Fantasy | 搜尋類型 | 幻想 |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
 如果使用者搜尋      *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
@@ -326,13 +326,15 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >只有 *`only`* 在符合下列條件時，報告套裝才會顯示在此頁面上：
+   >當符合下列條件時，報表套裝只會顯示在此頁面&#x200B;**:
    >
    >* 報告套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
-   >
-   >   (請參閱&#x200B;*`Variable`*&#x200B;分類規則集 [的 ](/help/components/classifications/crb/classification-rule-set.md)，取得此必要條件的說明。)
-   >
-   >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
+      >
+      >   
+      (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
+      >
+      >
+   * 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
 
 1. 指定是否覆寫現有規則：
@@ -405,7 +407,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. (選用) 若要覆寫分類，請為  啟用&#x200B;**[!UICONTROL 覆寫分類]***`<selection>`*。
+1. （可選）若要覆寫分類，請啟用&#x200B;**[!UICONTROL 覆寫]** &lt;*選擇*&#x200B;的分類。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 
