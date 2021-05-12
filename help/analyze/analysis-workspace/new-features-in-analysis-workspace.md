@@ -2,11 +2,10 @@
 description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-translation-type: tm+mt
-source-git-commit: 896e5a868f42c3bd76c3a2c3c92e7b9bd54f40ac
+source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
 workflow-type: tm+mt
 source-wordcount: '8323'
 ht-degree: 99%
@@ -24,13 +23,11 @@ ht-degree: 99%
 | [!UICONTROL 元件] >使用 [!UICONTROL 者偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
 | [!UICONTROL 直方圖智慧桶預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
 
-
 ## 2021 年 2 月
 
 | 功能 | 目標日期 | 說明 |
 | --- | --- | --- |
 | 元件選擇 | 2021 年 2 月 4 日 | 在 [!UICONTROL 快速 Insights] 找到的下拉清單/下拉區域元件將新增至[!UICONTROL Workspace] 中的所有下拉區域。此增強功能可讓您從相容元件的下拉式清單中挑選元件，或繼續將該空間作為下拉區域使用。 |
-
 
 ## 2021 年 1 月
 
@@ -1244,11 +1241,11 @@ ht-degree: 99%
 
 ![](assets/anchor_Y_axis.png)
 
-## 標籤標題顯示專案名稱  {#section_497C61A030984BCCA2CEA553312C3226}
+## 標籤標題顯示專案名稱 {#section_497C61A030984BCCA2CEA553312C3226}
 
 儲存專案時，瀏覽器標籤上的標題會顯示為「`<Project Name>` - Analysis Workspace」。如果您在多個瀏覽器標籤中開啟了多個專案，這個改良功能會很有用。
 
-## 轉讓專案所有權  {#section_989C2CCB80B5408EB85E6B12C8D943E3}
+## 轉讓專案所有權 {#section_989C2CCB80B5408EB85E6B12C8D943E3}
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
