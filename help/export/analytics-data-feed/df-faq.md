@@ -3,11 +3,10 @@ description: 資料饋送的常見問題
 keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
 title: 資料摘要常見問答集
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 62%
+source-wordcount: '1324'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 62%
 
 資料饋送的常見問題。
 
-## 摘要名稱必須是唯一的？{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
+## 摘要名稱必須是唯一的嗎？{#section_EF38BB51A7E240D69DAD4C07A34D9AD5}
 
 資料摘要檔案名稱由報告套裝 ID 和日期所組成。任兩個針對相同 RSID 和日期所設定的摘要會擁有相同的檔案名稱。如果將這些摘要提交到相同的位置，其中一個檔案會覆寫另一個檔案。若要避免檔案覆寫，建立的摘要不能有覆寫同一位置中現有摘要的可能。
 
@@ -27,7 +26,7 @@ ht-degree: 62%
 * 變更日期 (可能的話)
 * 變更報告套裝 (可能的話)
 
-## 何時處理資料？{#section_6346328F8D8848A7B81474229481D404}
+## 何時處理資料？ {#section_6346328F8D8848A7B81474229481D404}
 
 在處理每小時或每日資料前，資料摘要會先等候在該時間範圍內 (日或小時) 進入資料收集的所有點擊寫入至 Data Warehouse。上述動作完成後，資料摘要會收集時間戳記符合該時間範圍的資料、壓縮這些資料，然後透過 FTP 傳送。若是每小時饋送，檔案通常在該小時後的 15-30 分鐘內寫入至 Data Warehouse ，但沒有固定的時間期間。如果沒有時間戳記符合該時間範圍的資料，則處理程序會在下一個時間範圍再度嘗試。目前的資料摘要程序使用 `date_time` 欄位來判斷哪些點擊屬於該小時。此欄位是以表套裝的時區為基礎。
 
@@ -53,7 +52,7 @@ ht-degree: 62%
 
 Adobe 不建議自動開啟 Microsoft Excel 中的 `hit_data.tsv` 檔案；另外改用 Excel 的匯入資料對話框，並確定所有欄位會被視為文字。
 
-## 為什麼某些電信業者的網域欄中會遺失資訊？{#section_B7508D65370442C7A314EAED711A2C75}
+## 為什麼某些電信業者的網域欄中會遺失資訊？ {#section_B7508D65370442C7A314EAED711A2C75}
 
 某些行動電信業者 (如 T-Mobile 和 O1) 不再提供反向 DNS 查閱所需的網域資訊。因此，網域報告將無法取得這些資料。
 
@@ -63,7 +62,7 @@ Adobe 不建議自動開啟 Microsoft Excel 中的 `hit_data.tsv` 檔案；另�
 
 範例：新資料摘要是在 3 月 9 日建立，且以「每小時」檔案傳遞 2021 年 1 月 1 日至 3 月 9 日期間的資料。但是，2021 年 3 月 2 日以前的「每小時」檔案會合併至單一「每日」檔案中。您只可擷取從建立日期算起前 7 天內的資料。在這種範例中，是指從 3 月 2 日至 3 月 9 日。
 
-## 日光節約對每小時資料饋送有何影響？{#section_70E867D942054DD09048E027A9474FFD}
+## 日光節約對每小時資料饋送有何影響？ {#section_70E867D942054DD09048E027A9474FFD}
 
 對於某些時區，時間每年會因日光節約時間(DST)定義而變更兩次。 資料摘要會遵循報告套裝所設定的時區。如果報表套裝的時區不使用DST，則檔案傳送通常會像其他日子一樣持續。 如果報表套裝的時區是使用DST的時區，則檔案傳送會依發生時間變更的小時（通常為2:00 am）而變更。
 
@@ -71,18 +70,7 @@ Adobe 不建議自動開啟 Microsoft Excel 中的 `hit_data.tsv` 檔案；另�
 
 進行DST -> STD轉換時（「後退」），客戶會收到24個檔案。 不過，轉換時間實際上包含了兩小時的資料。 例如，如果轉換發生在2:00 am,1:00的檔案會延遲1小時，但包含2小時的資料。 它包含1:00 DST至2:00 STD（原本是3:00 DST）的資料。 下一個檔案從2:00 STD開始。
 
-## 當未收集任何資料時，我是否會收到資訊清單檔案？{#section_72510794694D42A9A75C966B812AEB0F}
-
-您可選擇設定資料摘要，當特定期間未收集到任何資料時傳送資訊清單檔案。如果啟用此選項，您會收到類似下列的資訊清單檔案:
-
-```text
-Datafeed-Manifest-Version: 1.0
- Lookup-Files: 0
- Data-Files: 0
- Total-Records: 0
-```
-
-## Analytics如何處理FTP傳輸失敗？{#section_4BD44E9167F0494FB2B379D2BA132AD8}
+## Analytics如何處理FTP傳輸失敗？ {#section_4BD44E9167F0494FB2B379D2BA132AD8}
 
 發生FTP傳輸失敗（登入被拒絕、連線中斷、配額不足等）時，Adobe會嘗試自動連線並傳送資料，最多三次。 如果持續失敗，饋送會標記為失敗並寄出電子郵件通知。
 
@@ -90,11 +78,11 @@ Datafeed-Manifest-Version: 1.0
 
 如果您無法讓資料饋送顯示在FTP網站上，請參閱[疑難排解工作](jobs-troubleshooting.md)。
 
-## 如何重新傳送工作？{#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
+## 如何重新傳送工作？ {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
 在您驗證/修正傳送問題後，請重新執行工作以取得檔案。
 
-## AmazonS3資料饋送的BucketOwnerFullControl設定為何？{#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
+## AmazonS3資料饋送的BucketOwnerFullControl設定為何？ {#section_6797EBBB7E6D44D4B00C7AEDF4C2EE1D}
 
 Amazon S3 的常見使用案例是 Amazon Web Services (AWS) 帳戶擁有者建立儲存貯體、接著建立具有在該儲存貯體中建立物件之權限的使用者，然後提供該使用者的憑證。在這種情況下，用戶的對象屬於同一帳戶，而帳戶所有者隱含地對對象（讀取、刪除等）具有完全控制權。 此程式類似於FTP傳送的運作方式。
 
