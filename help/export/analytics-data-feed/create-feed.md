@@ -2,11 +2,10 @@
 title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-translation-type: tm+mt
-source-git-commit: 769f8cf2dc726df5b71b453f5bbcfb9f0e78e6d7
+source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 95%
+source-wordcount: '874'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +87,15 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 * **移除逸出字元**: 在收集資料時，有些字元 (例如新的行) 可能會造成問題。如果您想要從摘要檔案中移除這些字元，請勾選此方塊。
 * **壓縮格式**: 使用的壓縮類型。Gzip 會輸出 `.tar.gz` 格式的檔案。Zip 會輸出 `.zip` 格式的檔案。
 * **封裝類型**: 單一檔案會以單一形式輸出 `hit_data.tsv` 檔案，且可能會成為大型檔案。多個檔案會將您的資料分頁為 2GB 的大檔案 (未壓縮)。如果您選取了多個檔案，且報表回溯期的未壓縮資料少於 2GB，系統只會傳送一個檔案。Adobe 建議您在大部分資料摘要中都使用多個檔案。
+* **資訊清單**:當在饋送間隔內未收集任 [何資](c-df-contents/datafeeds-contents.md#feed-manifest) 料時，Adobe是否應將資訊清單檔案傳送至目的地。如果您選取「資訊清單檔案」，當未收集任何資料時，將會收到類似下列的資訊清單檔案：
+
+```text
+   Datafeed-Manifest-Version: 1.0
+    Lookup-Files: 0
+    Data-Files: 0
+    Total-Records: 0
+```
+
 * **欄範本**: 建立多個資料摘要時，Adobe 建議您建立欄範本。選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。
 * **可用欄**: Adobe Analytics 中所有可用的資料欄。按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。
 * **已包括的欄**: 要包括在資料摘要中的欄。按一下[!UICONTROL 全部移除]，從資料摘要中移除所有欄。
