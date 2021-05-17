@@ -5,10 +5,10 @@ title: VRS 常見問題集
 feature: Reports and Analytics 基本需知
 uuid: 91225743-765a-4145-9ce5-4268e80ea7e8
 exl-id: ab961bec-5719-4b90-bc10-c929b63dc923
-source-git-commit: 3f8c9d0309c7d4c023e0c936e0a713b24e1482f6
+source-git-commit: c93cd1b14cd6b8e803c4e06209153c8e69af077a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 78%
+source-wordcount: '965'
+ht-degree: 75%
 
 ---
 
@@ -25,4 +25,4 @@ ht-degree: 78%
 | 我已勾選「啟動後開始新的造訪」。為什麼我看到的造訪次數還是遠高於啟動次數？ | 即使勾選「啟動後開始新的造訪」選項，逾時仍然適用。因此，如果使用者使用某應用程式 10 分鐘，且在執行各動作間休息 1 分鐘，新的造訪就會在啟動後開始，且當發生造訪逾時，系統會額外建立 9 個造訪次數。若要在使用「啟動後開始新的造訪」選項後，使啟動次數和造訪次數盡可能保持接近，使用的逾時時間應比 SDK 中設定的作業逾時時間長。 |
 | 我已設定「啟動後開始新的造訪」且設定的逾時時間較 SDK 的長。為什麼我的啟動次數仍遠低於造訪次數？ | 如果逾時時間比 SDK 中設定的值來得長，則您的應用程式很可能會在背景時就傳入點擊，而這些點擊會登錄為新的造訪。請透過父報告套裝中的點擊類型維度查看，檢視是否有任何背景點擊。<br>**注意**:SDK 4.13.6版及更新版本中，背景和前景點擊只有區別。如果您使用較低版本，則所有點擊都會顯示為前景。如果您使用正確的 SDK 版本，應啟用「避免背景點選計數開始新的造訪」設定。注意：如果您已在管理控制台中停用背景點擊的舊版處理功能，則此類點擊將不會在父報告套裝中顯示，而會在虛擬報告套裝中出現。 |
 | 如果我必須追蹤背景點擊，需要使用哪個 SDK 版本？ | 您必須使用 SDK 4.13.6 版或更高版本。 |
-| 如何找出虛擬報表套裝的ID? | 在[虛擬報表套裝API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md)中。 |
+| 如何找出虛擬報表套裝的ID? | <ul><li>開啟工作區專案後，按一下報表套裝選擇器，並在搜尋方塊中搜尋虛擬報表套裝的名稱。 ID會出現在搜尋結果中名稱的下方：<br>![](assets/vrs-id.png)</li><li> 或者，在[虛擬報表套裝API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/vrs.md)中以程式設計方式。</li></ul> |
