@@ -1,20 +1,19 @@
 ---
 title: 依 IP 位址排除
 description: 防止某些IP位址產生的資料出現在報表中。
-translation-type: tm+mt
-source-git-commit: 47b14bde1bb1217bcb172c6d4f01d68f917d44db
+exl-id: 315a3000-f043-434b-a677-d111aeed7971
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 85%
+source-wordcount: '223'
+ht-degree: 82%
 
 ---
-
 
 # 依 IP 位址排除
 
 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 依 IP 排除]**
+**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** >所 **[!UICONTROL 有管理]** >依 **[!UICONTROL IP排除]**
 
 >[!NOTE]
 >
@@ -24,7 +23,7 @@ ht-degree: 85%
 
 >[!TIP]
 >
->私用IP位址不需要排除。 只有外部IP位址可送達Adobe資料收集伺服器。 私人地 `10.*.*.*`址包 `192.168.*.*`括、 `172.[16-31].*.*`和 `169.254.*.*`。
+>私用IP位址不需要排除。 僅外部IP位址可到達Adobe資料收集伺服器。 私有地址包括`10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*`和`169.254.*.*`。
 
 ## IP 模糊化的影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
