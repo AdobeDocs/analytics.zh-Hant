@@ -4,14 +4,13 @@ subtopic: Dashboards
 title: 控制面板和報表
 uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1822'
-ht-degree: 99%
+source-wordcount: '1827'
+ht-degree: 98%
 
 ---
-
 
 # 控制面板和報表
 
@@ -43,11 +42,11 @@ ht-degree: 99%
 
 除了您建立的控制面板外，使用者也可使用下列預先封裝的控制面板︰
 
-**[!UICONTROL 元件] > [!UICONTROL 控制面板] > [!UICONTROL 共用控制面板] > [!UICONTROL 本機網站]**
+**[!UICONTROL 元件] All components [!UICONTROL > ] Dashboards [!UICONTROL > ] Shared Dashboards [!UICONTROL >本]  [!UICONTROL 地站點]**
 
 這個可自訂的控制面板提供將小報表放至所提供範本的方法。
 
-**[!UICONTROL 元件] > [!UICONTROL 控制面板] > [!UICONTROL 共用控制面板] > [!UICONTROL 網站作業控制面板]**
+**[!UICONTROL 元件] 「所有組 [!UICONTROL 件」>] 「控制面板 [!UICONTROL 」] >「共用控制面板   [!UICONTROL 」>「站點工序」控制面板]**
 
 這個控制面板提供與網站作業相關之關鍵度量的概述。該控制面板上的報表包括︰
 
@@ -187,7 +186,7 @@ t_dashboard_edit.xml
 
 **若要編輯控制面板和小報表資料**
 
-1. 按一下&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 控制面板]** > *控制面板名稱」*，開啟控制面板。
+1. 按一下「**[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]** > *控制面板名稱*」以開啟控制面板。
 1. 按一下&#x200B;**[!UICONTROL 「配置」]**。
 
 | 結束日期 | 執行動作 |
@@ -215,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 公司設定]**。
+1. **[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** > **[!UICONTROL 所有管理]** > **[!UICONTROL 公司設定]**。
 1. 在[!UICONTROL 「公司設定」]頁面中，按一下&#x200B;**[!UICONTROL 「品牌結合 Adobe Experience Cloud」]**。
 1. 按一下&#x200B;**[!UICONTROL 啟用品牌結合]**。
 1. 瀏覽以上傳影像，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
