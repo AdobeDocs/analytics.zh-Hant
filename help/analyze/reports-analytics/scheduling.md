@@ -6,11 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports and Analytics 基本需知, Reports and Analytics
 role: Business Practitioner, Administrator
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 100%
+source-wordcount: '1669'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +108,7 @@ ht-degree: 100%
 
 [!UICONTROL 排程報表管理器]會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
 
-1. 若要存取管理器，請按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 排程報表」]**。
+1. 若要存取管理員，請按一下「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 排程報表]**」。
 
 ## 共用報表連結 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
