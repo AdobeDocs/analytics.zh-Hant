@@ -5,11 +5,10 @@ title: 資料來源管理員
 topic-fix: Developer and implementation
 uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 在報表套裝中建立、管理、檢視資料來源的使用。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 資料來源]**。
+**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** > **[!UICONTROL 所有管理]** > **[!UICONTROL 資料來源]**。
 
 ## 建立標籤 {#section_74603FDA3D8842E49F1A51624A06DE20}
 
