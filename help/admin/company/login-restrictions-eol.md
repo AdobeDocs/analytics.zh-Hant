@@ -1,18 +1,17 @@
 ---
 title: '[!UICONTROL 強制 IP 登入限制]服務終止'
 description: 瞭解[!UICONTROL 強制 IP 登入限制]的終止時間及實作
-translation-type: tm+mt
-source-git-commit: 649a33253f7520b4d8e210043ceedd6345a49be7
+exl-id: 67d822ee-005b-46cf-80b4-a5aa4412d746
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '546'
 ht-degree: 80%
 
 ---
 
-
 # [!UICONTROL 強制 IP 登入限制]服務終止
 
-The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)** feature in Adobe Analytics lets you add specific IP addresses (that are deemed secure) to an allowlist, so as to allow successful logins and access to your Adobe Analytics environment. 在許多情況下，此功能可用於將公司 IP 位址設為使用者唯一可登入的安全 IP 位址。因此，若要使用 Adobe Analytics，使用者必須位於公司辦公室或透過 VPN 登入網路。
+Adobe Analytics的&#x200B;**[強制IP登入限制](/help/admin/company/security-manager.md)**&#x200B;功能可讓您將特定IP位址（視為安全）新增至允許清單，以便允許成功登入並存取您的Adobe Analytics環境。 在許多情況下，此功能可用於將公司 IP 位址設為使用者唯一可登入的安全 IP 位址。因此，若要使用 Adobe Analytics，使用者必須位於公司辦公室或透過 VPN 登入網路。
 
 我們計畫在2021年1月終止此功能。
 
@@ -26,9 +25,9 @@ The **[Enforce IP login restrictions](/help/admin/company/security-manager.md)**
 
 ## 移除此功能對您有何影響？
 
-For any customer who has **[!UICONTROL Enforce IP login restrictions]** set up, this feature will be removed in January, 2021. 屆時，任何已設定的 IP 登入限制將無法再執行。如果您仍需依 IP 位址限制登入，請考量並實作我們建議的單一登入與 Federated ID 解決方案 (下方提供更多資訊與資源)。
+對於任何已設定&#x200B;**[!UICONTROL 強制IP登入限制]**&#x200B;的客戶，此功能將於2021年1月移除。 屆時，任何已設定的 IP 登入限制將無法再執行。如果您仍需依 IP 位址限制登入，請考量並實作我們建議的單一登入與 Federated ID 解決方案 (下方提供更多資訊與資源)。
 
-Additionally, the **[!UICONTROL Enforce IP login restrictions]** setting will be removed from the **[!UICONTROL Admin]>[!UICONTROL Company Settings]>[!UICONTROL Security Manager]** in the Analytics UI (as shown below).
+此外，**[!UICONTROL 強制IP登入限制]**&#x200B;設定將從Analytics UI的&#x200B;**[!UICONTROL 管理員] > [!UICONTROL 所有管理員] > [!UICONTROL 公司設定] > [!UICONTROL 安全管理員]**&#x200B;中移除（如下所示）。
 
 ![](assets/sec-manager2.png)
 
