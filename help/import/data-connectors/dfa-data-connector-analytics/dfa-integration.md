@@ -5,11 +5,10 @@ title: DFA 整合
 feature: Data Connectors
 uuid: 972a9d62-24fd-4463-a34c-5ec0b926e81e
 exl-id: 27eb7789-30a5-4f4a-8b23-06e3625996ec
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '2601'
-ht-degree: 100%
+source-wordcount: '2602'
+ht-degree: 99%
 
 ---
 
@@ -23,8 +22,8 @@ ht-degree: 100%
 
 設定頁面會提供整合的概述，以及實用的相關資訊連結。此整合會同時產生 Adobe 和 DoubleClick 的相關費用。請連絡這兩個組織的適當銷售代表，並確定您瞭解費用結構。
 
-1. 登入 [!DNL Adobe Analytics]。
-1. 按一下&#x200B;**[!UICONTROL 「管理員」]**>**[!UICONTROL 「Data connectors」]**。
+1. 登入 [!DNL Adobe Analytics].
+1. 按一下「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料連接器]**」。
 
    ![](assets/data_connectors.png)
 
@@ -49,7 +48,7 @@ ht-degree: 100%
    <td colname="col3"> Genesis 在報表套裝的「作用中的整合清單」中顯示的整合名稱。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 3 </td> 
+   <td colname="col1"> 1 </td> 
    <td colname="col2"> 整合電子郵件地址 </td> 
    <td colname="col3"> 接收此整合之所有相關通知的電子郵件地址。 </td> 
   </tr> 
