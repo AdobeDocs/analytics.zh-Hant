@@ -1,13 +1,12 @@
 ---
 description: 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
 title: 記錄檔
-feature: Admin Tools
+feature: 管理工具
 exl-id: 43f79e2a-2cb9-47eb-982a-54714c9cbafc
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 72%
+source-wordcount: '601'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 72%
 
 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。
 
-**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 記錄檔」]**
+**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** >所 **[!UICONTROL 有管理]** >記 **[!UICONTROL 錄]**
 
 ## 管理記錄檔 {#section_8ADE8A7204A8401C968ABC20AECA381D}
 
@@ -66,7 +65,7 @@ ht-degree: 72%
 | 區段 | 已建立／編輯區段。 |
 | 計算度量 | 已建立／編輯計算量度。 |
 | 日期範圍 | 已建立／編輯日期範圍。 |
-| 虛擬報表套裝 | 已建立／編輯虛擬報表套裝。 |
+| 虛擬報告套裝 | 已建立／編輯虛擬報表套裝。 |
 | 貢獻分析 | 已執行貢獻分析工作。 |
 | API 方法 | 已進行API呼叫。 |
 
