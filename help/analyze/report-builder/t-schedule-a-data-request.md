@@ -4,14 +4,13 @@ title: 排程資料請求
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 99%
+source-wordcount: '1029'
+ht-degree: 98%
 
 ---
-
 
 # 排程活頁簿
 
@@ -23,7 +22,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->您必須安裝 Excel 2007 或相容性套件，才能排程活頁簿。每一個 Report Builder 授權最多可建立 10 個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。若要這麼做，請前往&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL Report Builder 報表」]**。活頁簿排程 (或上傳至活頁簿庫) 後，若超過 28 個月從未更動 (更新、更換)，系統將加以刪除。
+>您必須安裝 Excel 2007 或相容性套件，才能排程活頁簿。每一個 Report Builder 授權最多可建立 10 個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。若要這麼做，請前往「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL Report Builder報表]**」。 活頁簿排程 (或上傳至活頁簿庫) 後，若超過 28 個月從未更動 (更新、更換)，系統將加以刪除。
 
 >[!NOTE]
 >
@@ -83,4 +82,3 @@ ht-degree: 99%
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**，然後按一下&#x200B;**[!UICONTROL 「退出」]**。
 
    Report Builder 會在[「排程任務管理員」](/help/analyze/report-builder/r-arb-scheduled-reports.md)中顯示排程活頁簿。
-
