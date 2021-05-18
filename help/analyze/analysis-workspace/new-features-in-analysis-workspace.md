@@ -5,9 +5,9 @@ title: Analysis Workspace 的新增功能
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 9f15dccf3fb994898f51cbccdc5ee37e35870575
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '8323'
+source-wordcount: '8329'
 ht-degree: 99%
 
 ---
@@ -435,7 +435,7 @@ ht-degree: 99%
    <td colname="col2"> <p>在最新發行的自訂範本中，我們已 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">在專案的上方(標題旁邊)新增範本圖示，以幫助您在使用範本開始一個專案的同時，區分與編輯範本模式。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允許非管理員建立(另存新檔)並編輯 Workspace 專案範本，並假設他們已獲得在 Analysis Workspace 中建立/組織專案的權限。(<span class="ignoretag"><span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">使用者管理 </span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂 Analytics 工具</span> &gt; <span class="uicontrol">在 Analysis Workspace 中建立/組織專案」</span></span>)。 </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允許非管理員建立(另存新檔)並編輯 Workspace 專案範本，並假設他們已獲得在 Analysis Workspace 中建立/組織專案的權限。(<span class="ignoretag"> <span class="uicontrol"> 管理員</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取</span> &gt; <span class="uicontrol">自訂分析工具</span> &gt; <span class="uicontrol">在Analysis Workspace建立／組織專案</span> </span>)。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -545,7 +545,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢獻分析：<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >代號通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻度分析」，其位於<span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具和報表」</span>當中。 </p> </td> 
+   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻分析」，位於「<span class="uicontrol">分析</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span>&gt; <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表」下存取</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; <span class="uicontrol">工具與報表</span>。)  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>含有多位元組字元的 CSV 檔案 </p> </td> 
@@ -1249,4 +1249,4 @@ ht-degree: 99%
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
-導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 轉讓」]**，即可轉讓專案。
+導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 轉讓]**」以轉讓專案。
