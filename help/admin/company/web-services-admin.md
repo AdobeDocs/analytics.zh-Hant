@@ -1,14 +1,13 @@
 ---
 description: 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
 title: 網站服務
-feature: Admin Tools
+feature: 管理工具
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '240'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
 
-**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 網站服務」]**
+**[!UICONTROL Analytics]** 管 **[!UICONTROL 理員]** >  **[!UICONTROL All admin]** > **[!UICONTROL 公司設定]**  **[!UICONTROL >網站服務]**
 
 ## 管理網站服務
 
