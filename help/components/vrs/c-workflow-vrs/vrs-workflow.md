@@ -5,10 +5,9 @@ title: 虛擬報告套裝工作流程
 feature: Reports and Analytics 基本需知
 uuid: 7039029d-f776-4491-a8d7-f1425894eb85
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-translation-type: ht
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
-workflow-type: ht
-source-wordcount: '266'
+source-git-commit: cfdab79225f1025805652b2dee074fa49318bfc0
+workflow-type: tm+mt
+source-wordcount: '207'
 ht-degree: 100%
 
 ---
@@ -29,17 +28,8 @@ ht-degree: 100%
 
 按一下報告套裝名稱旁的「資訊」圖示可[檢視其相關資訊](/help/components/vrs/c-workflow-vrs/vrs-view.md)。
 
-![](assets/step3_icon.png)為其設定[群組權限](/help/components/vrs/c-workflow-vrs/vrs-create.md)。
+![](assets/step3_icon.png) 開啟一個專案或報表，然後選取虛擬報告套裝以提供分段的資料檢視。
 
-您在建立虛擬報告套裝時新增群組權限。
-
-編輯群組權限有兩個方法：
-
-* 在「虛擬報告套裝管理器」中編輯虛擬報告套裝。
-* 前往「管理員 > 使用者管理 > 群組」，然後選取具有虛擬報告套裝權限的群組，並按一下「編輯」。
-
-![](assets/step4_icon.png) 開啟一個專案或報表，然後選取虛擬報告套裝以提供分段的資料檢視。
-
-![](assets/step5_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虛擬報告套裝。
+![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虛擬報告套裝。
 
 「虛擬報告套裝管理器」可以讓您編輯、新增、標記、刪除、重新命名、批准、複製、匯出以及篩選虛擬報告套裝。但不會顯示給非管理員使用者。
