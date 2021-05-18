@@ -2,11 +2,10 @@
 title: 報告套裝工具的產品設定檔權限
 description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '662'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '664'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +48,7 @@ ht-degree: 100%
 | 資料摘要管理員 | 授予 Analytics 頂端導列中「管理員 > 資料摘要」的存取權。 |
 | 自訂 Data Warehouse 報表 | 授予 Analytics 頂端導列中「工具 > Data Warehouse」的存取權。 |
 | 每日回訪 | 授予「Reports &amp; Analytics」中「訪客保留率 > 每日回訪」的存取權。 |
-| 資料來源管理員 | 授予 Analytics 頂端導列中「管理員 > 資料來源」的存取權。需要權限項目「報告套裝管理」。 |
+| 資料來源管理員 | 授與Analytics頂端導覽中「管理員>所有管理員>資料來源」的存取權。 需要權限項目「報告套裝管理」。 |
 | 依 IP 位址排除 | 授予 Analytics 頂端導列中「管理員 > 依 IP 排除」的存取權。 |
 | 最近 100 位訪客 | 未使用。 |
 | 舊版 ClickMap | 未使用。請改用「Analytics 工具」下方的「Activity Map」。 |
