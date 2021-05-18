@@ -4,11 +4,10 @@ title: 新增 Data Warehouse 使用者群組
 feature: Data Warehouse
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 說明管理員如何為一組使用者啟用 Data Warehouse 報告存取權的步驟。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理」]**。
+1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**」。
 1. 按一下「**[!UICONTROL 編輯群組]**」。
 1. 按一下&#x200B;**[!UICONTROL 「新增使用者群組」]**。
 1. 在「**[!UICONTROL 定義使用者群組]**」區域中，於「群組名稱」欄位中鍵入名稱。提供下列群組資訊:
