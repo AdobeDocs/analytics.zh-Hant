@@ -2,14 +2,13 @@
 description: 步驟說明如何從一個使用者帳戶將使用者帳戶項目 (控制面板、計算量度、日曆事件、警報、書籤、區段、Analysis Workspace 專案及已排程專案) 指派到另一個使用者的帳戶。
 subtopic: Users and groups
 title: 轉移使用者帳戶項目
-feature: Admin Tools
+feature: 管理工具
 uuid: b083c622-1397-45ab-8796-f7cdc7043ec6
 exl-id: 13e2e412-14ea-4a9a-8f68-c914125d551e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 88%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
 步驟說明如何從一個使用者帳戶將使用者帳戶項目 (控制面板、計算量度、日曆事件、警報、書籤、區段、Analysis Workspace 專案及已排程專案) 指派到另一個使用者的帳戶。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 使用者管理」]**。
+1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**」。
 1. 按一下&#x200B;**[!UICONTROL 「編輯使用者」]**。
 1. 尋找您要轉移哪個使用者的資產，並選取此使用者列旁的核取方塊。
 1. 在上方的動作列中選取&#x200B;**[!UICONTROL 「轉移資產」]**。
