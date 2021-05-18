@@ -1,14 +1,13 @@
 ---
 description: 可讓您控制報告資料的存取權。選項包括增強式密碼、密碼過期、IP 登入限制及電子郵件網域限制。
 title: 安全管理員
-feature: Admin Tools
+feature: 管理工具
 uuid: b3fbdba0-e2bf-4d67-92e3-ef05711141d4
 exl-id: 6dcf0354-4b4a-4bd5-ba6c-ae42c7b9e4df
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 ## 設定
 
-**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 安全性」]**
+**[!UICONTROL Analytics]** 管 **[!UICONTROL 理員]** >  **[!UICONTROL All admin]** >公司設 **[!UICONTROL 定]**  **[!UICONTROL >安全性]**
 
 | 設定 | 說明 |
 |--- |--- |
