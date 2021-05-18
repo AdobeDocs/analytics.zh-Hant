@@ -3,13 +3,12 @@ description: 舊版權限內容
 keywords: 群組;權限
 subtopic: Users and groups
 title: 使用者和群組權限變更
-feature: Admin Tools
+feature: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 97%
+source-wordcount: '1566'
+ht-degree: 96%
 
 ---
 
@@ -18,9 +17,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->使用者和產品管理已移至[Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理已移至[Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
-## 變更為何？{#section_2C205DE94155441B9E9D3E4C46CCF2EE}
+## 變更為何？ {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
 **[!UICONTROL 「管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組」]**
 
