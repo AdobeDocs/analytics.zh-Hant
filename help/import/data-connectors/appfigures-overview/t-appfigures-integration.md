@@ -2,11 +2,13 @@
 description: Data Connectors 整合精靈會引導您完成 Data Connectors 整合程序。
 title: 設定整合
 uuid: 7d82d343-ce68-4048-b21e-449c30118672
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+exl-id: 5036e577-611e-4fa1-9a80-dde9753aea53
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 90%
 
 ---
-
 
 # 設定整合{#configure-the-integration}
 
@@ -15,7 +17,7 @@ Data Connectors 整合精靈會引導您完成 Data Connectors 整合程序。
 若要設定整合：
 
 1. 從 AppFigures [產生](https://appfigures.com/support/faq/523/connecting-to-adobes-marketing-cloud)整合帳戶金鑰。
-1. 以管理員使用者身分前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Data Connectors」]**，然後按一下&#x200B;**[!UICONTROL 「+ 新增」]**&#x200B;以新增整合。
+1. 以管理員使用者身分前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料連接器]**，然後按一下&#x200B;**[!UICONTROL +新增]**&#x200B;以新增整合。
 1. 在&#x200B;**[!UICONTROL 顯示]**&#x200B;清單中，依名稱選取 **appFigures** 整合並拖曳至空的外掛程式槽。
 1. 在 AppFigures 整合簡介頁面上檢閱文字，然後選取核取方塊以接受與整合相關的費用，然後按&#x200B;**下一步**。
 1. 選取您要用於此整合的報表套裝。
