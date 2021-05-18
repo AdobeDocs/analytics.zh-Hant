@@ -1,14 +1,13 @@
 ---
 description: 說明 Adobe Analytics 的全新持續功能發行策略
 title: Adobe Analytics 功能發行
-translation-type: ht
-source-git-commit: bbbe6dccfee81ae5111f295906aa3a23d68ad39e
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
-
 
 # Adobe Analytics 功能發行
 
@@ -41,4 +40,4 @@ ht-degree: 100%
 | 問題 | 回答 |
 |---|---|
 | 我是否可要求搶先使用功能？ | 不可以，我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html) 對我們領先業界的創新能力提供意見反應。 |
-| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在[!UICONTROL 「管理員] > [!UICONTROL 公司設定] > [功能存取層級」](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/company-settings/feature-access-levels.html)下，檢視 Analytics 套件的詳細資料。 |
+| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「管理員 [!UICONTROL >所有管理員] >公司設定 [!UICONTROL >存取層級」下，檢]    [](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/company-settings/feature-access-levels.html)視Analytics套件的詳細資訊。 |
