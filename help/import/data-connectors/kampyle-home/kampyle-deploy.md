@@ -3,10 +3,10 @@ description: 在Adobe Analytics部署Kampyle資料連接器。
 title: 部署整合
 uuid: ebb385ca-7bfb-4cd3-9ff6-a5f5a52db5c9
 exl-id: ac8e1f30-cefe-448a-bec6-cda58ee51025
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 4078d0be92c8ccd639e408e7372a5636938cad00
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 46%
+source-wordcount: '446'
+ht-degree: 45%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 46%
 
 若要啟動整合，請完成「資料連接器」介面中的設定精靈。
 
-1. 登入 Adobe Experience Cloud。
+1. 登入 [!DNL Adobe Experience Cloud].
 1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料連接器]**」。
 1. 啟動 Kampyle 整合精靈。
 1. 選取所需的報表套裝，並提供整合的名稱。
