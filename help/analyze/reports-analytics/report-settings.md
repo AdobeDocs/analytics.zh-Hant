@@ -3,14 +3,13 @@ description: 說明定義所有報表顯示方式的設定，以及將預設功�
 title: 報表顯示設定和導覽
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1470'
 ht-degree: 99%
 
 ---
-
 
 # 報表顯示設定和導覽
 
@@ -18,7 +17,7 @@ ht-degree: 99%
 
 ## 報表顯示設定和導覽 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 報表設定]**
+**[!UICONTROL Analytics]** >元 **[!UICONTROL 件]** >所 **[!UICONTROL 有元件]** >報 **[!UICONTROL 表設定]**
 
 | 元素 | 說明 |
 |--- |--- |
@@ -149,4 +148,3 @@ nav_menu.xml
 | **自訂報表** |  |  |
 |  | 只有您進行任何設定的自訂報告才會顯示。 | 自訂報表 |
 |  |  |  |
-
