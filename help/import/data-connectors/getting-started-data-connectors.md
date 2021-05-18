@@ -2,11 +2,10 @@
 description: 將協力廠商應用程式的追蹤資料匯入 Analytics。
 title: 開始使用 Analytics資料連接器
 exl-id: 2ad117ba-1ef1-4808-a546-de9833dfa49d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '973'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '975'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +47,7 @@ Adobe 針對各組織的數位策略與行銷方案提供可執行的即時資�
 您必須使用有效的帳戶才能存取 [!UICONTROL 資料連接器] 登陸頁面 (主控台)。此外，建議您先熟悉 Adobe Analytics 的操作。
 
 1. 登入 Adobe Experience Cloud。
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 資料連接器」]**。
+1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料連接器]**」。
 1. 按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. 在&#x200B;**[!UICONTROL 新增整合]**&#x200B;介面上逐步操作。
 
