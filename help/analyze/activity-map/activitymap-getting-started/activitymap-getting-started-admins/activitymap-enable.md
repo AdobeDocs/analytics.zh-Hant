@@ -4,14 +4,13 @@ title: 啟用 Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
-
 
 # 啟用 Activity Map{#enable-activity-map}
 
@@ -23,7 +22,7 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 除非更新到 AppMeasurement 的這個版本 (或更高版本)，否則無法收集 Activity Map 資料。
 
-1. 請前往&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 代碼管理器」]**&#x200B;下載最新的 AppMeasurement 代碼，然後[實施代碼](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/overview.html)。
+1. 前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**&#x200B;和[實作，以下載最新的AppMeasurement代碼(AppMeasurement_Javascript-1.6.zip)。](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/js/overview.html)
 
    我們隨附一些[實施代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
 
