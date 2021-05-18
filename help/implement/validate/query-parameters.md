@@ -1,14 +1,13 @@
 ---
 title: 資料彙集查詢參數
 description: 列出影像要求中使用的所有查詢字串參數。
-translation-type: ht
-source-git-commit: 423e9b753a3b7b1e0a8e8b9748f9694d718abd18
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
+source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
-
 
 # 資料彙集查詢參數
 
@@ -26,7 +25,7 @@ ht-degree: 100%
 | `c` | 無 | 色彩品質 (位元)用於[色彩深度](/help/components/dimensions/color-depth.md)維度。 |
 | `c.` | [`contextData`](../vars/page-vars/contextdata.md) | 指出上下文資料變數的開頭。絕不包含值。 |
 | `.c` | [`contextData`](../vars/page-vars/contextdata.md) | 指出上下文資料變數的結尾。絕不包含值。 |
-| `c1` - `c75` | [`prop1` - `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) (或自訂流量變數)。 |
+| `c1` - `c75` | [`prop1` -  `prop75`](../vars/page-vars/prop.md) | [Prop](/help/components/dimensions/prop.md) (或自訂流量變數)。 |
 | `cc` | [`currencyCode`](../vars/config-vars/currencycode.md) | 點擊中使用的貨幣類型。 |
 | `cdp` | [`cookieDomainPeriods`](../vars/config-vars/cookiedomainperiods.md) | 網域中的句點數。用於協助正確儲存 Cookie。 |
 | `ce` | [`charSet`](../vars/config-vars/charset.md) | 影像要求的字元編碼。 |
@@ -41,11 +40,12 @@ ht-degree: 100%
 | `-g` | [`pageURL`](../../components/dimensions/page-url.md) | 系統會分割長度超過 255 個位元組的 URL。前 255 個位元組會出現在 `g` 參數中，其餘的所有位元組則會出現在 `-g` 參數中。 |
 | `gn` | [`pageName`](../vars/page-vars/pagename.md) | `pageName` 查詢字串的簡稱。 |
 | `gt` | [`pageType`](../vars/page-vars/pagetype.md) | `pageType` 查詢字串的簡稱。 |
-| `h1` - `h5` | [`hier1` - `hier5`](../vars/page-vars/hier.md) | 階層維度。 |
+| `h1` -  `h5` | [`hier1` -  `hier5`](../vars/page-vars/hier.md) | 階層維度。 |
 | `hp` | 無 | 已不再使用。在舊版 Adobe Analytics 中，會判斷目前的 URL 是否為瀏覽器首頁。 |
 | `j` | 無 | 瀏覽器中安裝的 JavaScript 版本。 |
 | `k` | 無 | 用於 [Cookie 支援](/help/components/dimensions/cookie-support.md)維度。 |
-| `l1` - `l3` | [`list1` - `list3`](../vars/page-vars/list.md) | 清單變數。 |
+| `l1` -  `l3` | [`list1` -  `list3`](../vars/page-vars/list.md) | 清單變數。 |
+| `lrt` | 無 | 「上次請求時間」，即上次請求的往返時間，單位為毫秒。 它只會在從頁面傳出多個請求或頁面為單頁應用程式(SPA)時傳送。 |
 | `mid` | 無 | Experience Cloud 訪客 ID。 |
 | `ndh` | 無 | 指出影像要求是否源自 AppMeasurement 的標幟。 |
 | `ns` | [`visitorNameSpace`](../vars/config-vars/visitornamespace.md) | 協助判斷設定 Cookie 的位置。 |
@@ -74,7 +74,7 @@ ht-degree: 100%
 | `ts` | [`timestamp`](../vars/page-vars/timestamp.md) | 隨點擊設定的自訂時間戳記。通常用於離線追蹤。 |
 | `v` | 無 | 用於 [Java 已啟用](/help/components/dimensions/java-enabled.md)維度。 |
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [「追蹤代碼」維度。](/help/components/dimensions/tracking-code.md) |
-| `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) (或自訂轉換維度)。 |
+| `v1` -  `v250` | [`evar1` -  `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) (或自訂轉換維度)。 |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪客 ID 變數。 |
 | `vmk` | `vmk` | 已不再使用。訪客移轉金鑰，有助於將實作從第三方移轉至第一方 Cookie。 |
 | `vvp` | `variableProvider` | 用於 Data Connectors。 |
