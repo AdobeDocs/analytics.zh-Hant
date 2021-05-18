@@ -3,17 +3,16 @@ description: Adobe Analytics 伺服器呼叫使用量功能概觀。
 title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1045'
-ht-degree: 100%
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+workflow-type: tm+mt
+source-wordcount: '1047'
+ht-degree: 98%
 
 ---
 
 # 伺服器呼叫使用量概觀
 
-## 為何要對伺服器呼叫使用量進行監控和傳送警報？{#section_060C29BF1D00444B85892AD1FCF55290}
+## 為何要對伺服器呼叫使用量進行監控和傳送警報？ {#section_060C29BF1D00444B85892AD1FCF55290}
 
 Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服器呼叫使用量資料透明化的請求。其可讓您存取：
 
@@ -27,7 +26,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
 
 以往，雖然您可以在&#x200B;**[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 帳單」]**&#x200B;下存取每月伺服器呼叫耗用量資料，但該資料僅在該月結算後 6 天更新。此外，該資料未包含行動耗用量。此功能也會取代 **[!UICONTROL 「分析]** > **[!UICONTROL 報表」]**&#x200B;下的目前&#x200B;**[!UICONTROL 「計費資訊」]**&#x200B;報表。
 
-## 必備條件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
+## 先決條件 {#section_49AE590FFC7C4E8A83C640C4AAA581AA}
 
 * **權限：**&#x200B;若要存取「伺服器呼叫使用量」控制面板和「警報產生器/管理器」，您必須是 Adobe Analytics 管理員。
 * **權限：**&#x200B;管理員可以向非管理員授予存取權： 該權限稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量」]**。請參閱[伺服器呼叫使用量權限](/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369)。
@@ -103,7 +102,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">透過 sc.omniture.com 登入 Analytics。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">導覽至<span class="ignoretag"><span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">自訂</span> &gt; <span class="uicontrol">伺服器呼叫使用量」</span></span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">導覽至<span class="ignoretag"> <span class="uicontrol">管理</span> &gt; <span class="uicontrol">所有管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">自訂</span> &gt; <span class="uicontrol">伺服器呼叫使用</span> </span> </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
