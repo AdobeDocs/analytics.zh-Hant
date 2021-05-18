@@ -3,14 +3,13 @@ description: 在粒度層級自訂使用者存取，包括 eVar、流量報表�
 keywords: 群組;權限
 subtopic: Users and groups
 title: 自訂維度權限
-feature: Admin Tools
+feature: 管理工具
 uuid: aaf164ad-3863-4129-864e-39ec71c6a8eb
 exl-id: 51c4193a-426e-46a0-8494-163b58588157
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 98%
+source-wordcount: '517'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理工具]** > **[!UICONTROL 使用者管理」]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
 在粒度層級自訂使用者存取，包括 eVar、流量報表、解決方案報表和路徑報表。
 
