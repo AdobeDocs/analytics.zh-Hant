@@ -1,18 +1,17 @@
 ---
-title: Adobe Analytics使用的IP和網域
-description: 如果您組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新防火牆設定。
+title: Adobe Analytics 使用的 IP 和網域
+description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-translation-type: tm+mt
-source-git-commit: 8986b30ca08224e2b992e8ed238e74e40e9a7b41
+source-git-commit: 9e013f484c9f417a1e2ac2c2a59d2e918cedf787
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics使用的IP和網域
+# Adobe Analytics 使用的 IP 和網域
 
-有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。
+有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。
 
 >[!IMPORTANT]
 >
@@ -24,7 +23,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 
 | 技術 | 網域 |
 | --- | --- |
-| Adobe Analytics域 | `adobe.com`, `adobe.net`, `adobe.io` |
+| Adobe Analytics 網域 | `adobe.com`、`adobe.net`、`adobe.io` |
 | Adobe Analytics 舊網域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
@@ -33,9 +32,9 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | Microsoft Azure Blob 儲存體 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## 所有Adobe Analytics資料收集IP地址塊
+## 所有 Adobe Analytics 資料收集 IP 位址區塊
 
-下表涵蓋Adobe Analytics的所有標準資料收集伺服器和區域資料收集伺服器。 不包含個別 AWS 主機。
+下表涵蓋 Adobe Analytics 的所有標準資料收集伺服器及區域資料收集伺服器。 不包含個別 AWS 主機。
 
 | IP 區塊 (CIDR 標記法) |
 | --- |
@@ -58,10 +57,10 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | --- | --- |
 | 阿姆斯特丹 | `66.117.28.0/23` |
 | Dallas | `205.219.231.0/24` |
-| 達拉斯 | `66.235.152.0/22` |
-| 達拉斯 | `66.235.140.0/22` |
-| 達拉斯 | `63.140.32.0/21` |
-| 達拉斯 | `172.82.208.0/22` |
+| Dallas | `66.235.152.0/22` |
+| Dallas | `66.235.140.0/22` |
+| Dallas | `63.140.32.0/21` |
+| Dallas | `172.82.208.0/22` |
 | 中國香港特別行政區 | `66.117.24.0/22` |
 | 倫敦 | `66.235.156.0/24` |
 | 倫敦 | `66.235.148.0/23` |
@@ -113,13 +112,13 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 
 ## AWS 主機
 
-Adobe Analytics使用Amazon網站服務作為其資料收集程式的一部分。 下表包括為 Adobe 保留的 AWS 主機。下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
+Adobe Analytics 在其資料收集過程中會使用 Amazon Web Services。 下表包括為 Adobe 保留的 AWS 主機。下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
 
 | 位置 | 主機 |
 | --- | --- |
-| 澳大利亞 | `13.238.77.77` |
-| 澳大利亞 | `52.62.21.192` |
-| 澳大利亞 | `54.66.152.159` |
+| 澳大利亞 | `13.54.219.183` |
+| 澳大利亞 | `52.62.137.88` |
+| 澳大利亞 | `54.79.162.112` |
 | 中國 | `52.81.111.133` |
 | 中國 | `140.179.22.22` |
 | 法國 | `15.237.76.117` |
