@@ -2,16 +2,15 @@
 description: 設定流失視覺效果。
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
+source-git-commit: d2edb8921afa2aeb7ce4b932f1e1320acac7de70
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
-
 
 # 設定流失視覺效果
 
@@ -53,7 +52,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終路徑 </p> <p>(預設) </p> </td> 
-   <td colname="col2"> <p>列入計數的訪客「最終」會著陸至路徑的下個頁面，但不一定會至下一次點擊。 </p> </td> 
+   <td colname="col2"> <p>會計入「最終」登陸至該工作階段中路徑之下一頁的訪客，但不一定會登陸到下次點擊。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次點擊 </p> </td> 
