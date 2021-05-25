@@ -2,11 +2,10 @@
 title: eVar
 description: 可用於報表的自訂維度。
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '788'
-ht-degree: 100%
+source-git-commit: f811651dd86786a081bef25942dbb4bece54befa
+workflow-type: tm+mt
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -18,7 +17,7 @@ eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設�
 
 可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
-eVar 不區分大小寫。如果您以不同大小寫傳送相同的值 (例如 `"DOG"` 和 `"Dog"`)，Analysis Workspace 會將它們分組到相同的維度項目中。系統會使用報告月份開頭所見第一個值的大小寫。Data Warehouse 會顯示在請求期間遇到的第一個值。
+報表中使用的（上或下）大小寫是以後端系統註冊的第一個值為基礎。 此值可以是第一個出現的例項，或依某個時段（例如每月）而有所不同，視與報表套裝關聯的資料種類和數量而定。
 
 ## 將資料填入 eVar 中
 
