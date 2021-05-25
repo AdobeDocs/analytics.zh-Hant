@@ -4,18 +4,17 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-translation-type: tm+mt
-source-git-commit: e9969fbcc2adb58fba8d2bd293580181a05d1bac
+source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 97%
 
 ---
 
 
-# Analytics 轉存指南{#export}
+# Analytics 匯出指南 {#export}
 
-+ [Analytics 轉存指南](home.md)
++ [Analytics 匯出指南](home.md)
 + Analytics 資料摘要 {#analytics-data-feed}
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
    + [建立或編輯資料摘要](analytics-data-feed/create-feed.md)
@@ -27,6 +26,7 @@ ht-degree: 100%
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [頁面事件查閱](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [行動屬性查閱](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
+      + [post_product_list中的銷售eVar例項查閱](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [資料摘要常見問答集](analytics-data-feed/df-faq.md)
