@@ -1,23 +1,22 @@
 ---
 description: 瞭解如何在行銷管道中指定訪客參與有效期。
 subtopic: Marketing channels
-title: 行銷管道有效期
+title: 行銷管道到期日
 feature: Reports and Analytics 基本需知
 uuid: 47f1ccaf-3ce7-494d-b456-956a3a3c6c9a
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
-translation-type: tm+mt
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
 workflow-type: tm+mt
 source-wordcount: '361'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 行銷管道有效期
+# 行銷管道到期日
 
 >[!NOTE]
 >
->為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 瞭解如何指定行銷管道的有效期或訪客參與期間。
 
@@ -31,7 +30,7 @@ ht-degree: 94%
 * 第 2 天：使用者因免費搜尋而造訪網站。首次接觸仍會維持為顯示，而上次接觸則設為免費搜尋。
 * 第 35 天：使用者未造訪網站達 33 天，而且使用在瀏覽器中開啟的分頁返回。在具有 30 天參與回溯期的前提下，該回溯期將已關閉，且行銷管道 Cookie 將會過期。系統會重設首次接觸和上次接觸管道，且由於使用者來自內部 URL，因而會設為工作階段重新整理。
 
-## 行銷管道有效期設定
+## 行銷管道到期日設定
 
 有效期設定包含下列項目：
 
@@ -45,8 +44,8 @@ ht-degree: 94%
 
 指定訪客參與期間。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報告套裝」]**。
-2. 在[!UICONTROL 報告套裝管理器]中，按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道有效期」]**。
+1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
+2. 在「[!UICONTROL 報表套裝管理器]」中，按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道到期日]**」。
 
    ![](assets/mchannel_expiration.png)
 
