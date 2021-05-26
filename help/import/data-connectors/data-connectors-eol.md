@@ -2,11 +2,10 @@
 description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-translation-type: tm+mt
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 81%
 
 ## 我們為什麼要終止此功能？
 
-這項功能由舊有技術提供支援，這些技術已不再可行或受支援。[Adobe Exchange 合作夥伴計畫已推出一項新標準](https://partners.adobe.com/tw/exchangeprogram/experiencecloud)，任何希望能繼續使用服務及取得支援的整合項目，都應採用此標準。
+這項功能由舊有技術提供支援，這些技術已不再可行或受支援。[Adobe Exchange 合作夥伴計畫已推出一項新標準](https://partners.adobe.com/exchangeprogram/experiencecloud)，任何希望能繼續使用服務及取得支援的整合項目，都應採用此標準。
 
 ## 移除此功能對您有何影響？
 
@@ -37,7 +36,7 @@ ht-degree: 81%
 | Acxiom | 即將停止使用 |
 | Adform | 即將停止使用 |
 | Adjust | 正移轉至 Adobe Exchange |
-| Adobe Campaign | 正移轉至 Adobe Exchange （請參閱下方附註） |
+| Adobe Campaign | 正移轉至 Adobe Exchange (請參閱下面的「附註」) |
 | Appfigures | 正移轉至 Adobe Exchange |
 | Appsee | 即將停止使用 |
 | AppsFlyer | 正移轉至 Adobe Exchange |
@@ -102,6 +101,6 @@ ht-degree: 81%
 
 ## 例外：Adobe Campaign Classic
 
-2021年8月1日的一個例外是Adobe Campaign Classic一體化。 此整合將於2022年3月1日正式廢止。
+2021 年 8 月 1 日當天的唯一例外為 Adobe Campaign Classic 整合。 這項整合將於 2022 年 3 月 1 日正式淘汰。
 
-在2021年8月1日，Adobe Campaign Classic將從「資料連接器UI」以及所有其他整合中移除；不過，現有的Campaign整合將繼續收集資料並傳遞至Adobe Analytics，直到2022年3月1日。 2022年3月1日，整合將停止收集資料並傳遞至Adobe Analytics。 Adobe Campaign正在建立Adobe交換的新整合，以取代目前的資料連接器整合。 Adobe Campaign公司預計能及時完成此項新整合，讓客戶在2022年3月淘汰日期之前移轉至新整合。
+在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 Adobe Campaign 正在 Adobe Exchange 上建立新的整合，以取代目前的資料連接器整合。 Adobe Campaign 預計將及時完成這項新整合，好讓客戶可以在 2022 年 3 月淘汰日之前遷移到新整合。
