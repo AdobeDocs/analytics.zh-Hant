@@ -4,11 +4,11 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '639'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 99%
    + [上次接觸管道](dimensions/last-touch-channel.md)
    + [上次接觸管道詳細資料](dimensions/last-touch-detail.md)
    + [行銷管道](dimensions/marketing-channel.md)
-   + [行銷通道詳細資料](dimensions/marketing-detail.md)
+   + [行銷管道詳細資料](dimensions/marketing-detail.md)
    + [分鐘](dimensions/minute.md)
    + [行動維度](dimensions/mobile-dimensions.md)
    + [監視器解析度](dimensions/monitor-resolution.md)
@@ -73,7 +73,7 @@ ht-degree: 99%
    + [頁面](dimensions/page.md)
    + [找不到頁面](dimensions/pages-not-found.md)
    + [付費搜尋](dimensions/paid-search.md)
-   + [永久性 Cookie 支援](dimensions/persistent-cookie-support.md)
+   + [永續性 Cookie 支援](dimensions/persistent-cookie-support.md)
    + [產品](dimensions/product.md)
    + [Prop](dimensions/prop.md)
    + [季別](dimensions/quarter-of-year.md)
@@ -249,7 +249,7 @@ ht-degree: 99%
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
-   + [Attribution IQ行銷渠道](c-marketing-channels/mchannel-best-practices.md)
+   + [搭配行銷管道使用 Attribution IQ](c-marketing-channels/mchannel-best-practices.md)
    + [管理行銷渠道](c-marketing-channels/c-channels.md)
    + [行銷渠道的處理規則](c-marketing-channels/c-rules.md)
    + [行銷管道中的分類](c-marketing-channels/classifictions-mchannel.md)
