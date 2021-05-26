@@ -2,11 +2,11 @@
 title: 行銷管道中的分類
 description: 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋促銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 
