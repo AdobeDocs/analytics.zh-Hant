@@ -1,11 +1,11 @@
 ---
 title: 行銷管道常見問題集
 description: 行銷管道的常見問題。
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7202a49dda7c3ef4f4b535476d3cf637b9e9f7f6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1485'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->為了將行銷管道的Attribution IQ和Customer Journey Analytics效能提升到最高，我們已發佈了一些[修訂的最佳實務](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
 行銷管道的常見問題。
 
