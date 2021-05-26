@@ -5,11 +5,11 @@ uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '655'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 77%
 
 在 Activity Map 中安裝、設定和使用功能的常問的問題。
 
-## 所有 Analytics 客戶都可以存取「管理工具 ActivityMap 啟用」頁面嗎？
+## 所有 Analytics 客戶都可以存取「管理工具 Activity Map 互動」頁面嗎？
 
 凡是擁有 Adobe Analytics Standard、Premium 和 Ultimate 合約的組織，都可以存取 Activity Map。
 
-## Activity Map如何支援單頁應用程式(SPA)?
+## Activity Map 如何支援單頁應用程式 (SPA)？
 
-每隔幾秒，Activity Map就會掃描網頁，尋找頁面的變更。 ActivityMap在頁面上尋找新內容，而不需要載入新頁面，但此新內容一律會歸因於載入頁面時找到的第一個pageName。
+Activity Map 每隔幾秒鐘會掃描網頁一次，查看頁面是否有變更。 Activity Map 會尋找頁面上的新內容，而不需要載入新頁面，但這個新內容始終歸因於頁面載入時所找到的第一個 pageName。
 
-* Activity Map會檢查其所知連結的可見度是否已變更。 如果發現可見度的變化，則該連結的「頁面上的連結」(Links On Page)表格的「現在」(Present)列將以[!UICONTROL Displayed]或[!UICONTROL Hidden]更新。
+* Activity Map 會查看它所知道的連結的可見度是否已變更。 如果發現可見度有變更，則該連結的「頁面上連結」表格的「存在」欄會以[!UICONTROL 已顯示]或[!UICONTROL 已隱藏]來更新。
 
-* 當使用者互動建立新內容時，AppMeasurement發現的任何新元素都會新增至「頁面上的連結」([!UICONTROL  Links On Page])表格。 Activity Map會傳送包含這些新連結的新資料請求。 當UI處理資料請求時，新連結應出現在[!UICONTROL 頁面上的連結]表格中。
+* 當用戶互動建立新內容時，AppMeasurement 找到的任何新元素如果是連結，則會新增到[!UICONTROL 頁面上連結]表格中。 Activity Map 會傳送包含這些新連結的新資料要求。 當資料要求是由 UI 進行處理時，新連結應該會出現在[!UICONTROL 頁面上連結]表格中。
 
 
 ## Activity Map 是否提供「檢視次數」的資料？
@@ -51,9 +51,9 @@ Activity Map 本身不會傳送伺服器呼叫。Activity Map 內文資料變數
 * **在「漸層」和「氣泡」模式中**：「排名」是由量度欄決定。對於具有相同量度值的連結，再進一步根據連結 ID 的字母順序來排名。
 * **在「獲益者和損失者」模式中**：排名主要是由「獲益 %」欄決定。對於具有相同獲益的連結，再進一步根據連結 ID 的字母順序來排名。
 
-## Activity Map 如何處理使用多個報告套裝的頁面？
+## Activity Map 如何處理使用多個報表套裝的頁面？
 
-依預設，Activity Map 會使用與頁面所傳送第一個標記相關聯的報告套裝。但您可透過「**[!UICONTROL Activity Map 設定]** > **[!UICONTROL 其他]**」索引標籤，選取其他已標記報告套裝。
+依預設，Activity Map 會使用與頁面所傳送第一個標記相關聯的報表套裝。但您可透過「**[!UICONTROL Activity Map 設定]** > **[!UICONTROL 其他]**」索引標籤，選取其他已標記報表套裝。
 
 ## Activity Map 在頁面上掃描 Adobe Analytics 多久了？
 
@@ -81,6 +81,6 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 否，區段不適用於即時模式。此功能等同於 Reports &amp; Analytics 中不支援區段的即時報告。
 
-## Activity Map 是否可與虛擬報告套裝相容？
+## Activity Map 是否可與虛擬報表套裝相容？
 
-可以。不過，由於虛擬報告套裝本身限制，Activity Map 的即時模式與虛擬報告套裝不相容。
+可以。不過，由於虛擬報表套裝本身限制，Activity Map 的即時模式與虛擬報表套裝不相容。
