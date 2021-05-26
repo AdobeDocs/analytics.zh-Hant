@@ -1,24 +1,23 @@
 ---
 product: analytics
 audience: all
-user-guide-title: Analytics 技術文件
-breadcrumb-title: 技術注意事項
-user-guide-description: 知識庫包含不屬於特定分析工具或元件的實用文章。
-translation-type: tm+mt
+user-guide-title: Analytics 技術備忘稿
+breadcrumb-title: 技術備忘稿
+user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
 source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 89%
+ht-degree: 98%
 
 ---
 
 
-# Analytics 技術註解 {#technotes}
+# Analytics 技術備忘稿 {#technotes}
 
-+ [Analytics 技術文件](home.md)
++ [Analytics 技術備忘稿](home.md)
 + Google Analytics 使用者適用的 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 使用者適用的 Adobe Analytics 說明](ga-to-aa/home.md)
-   + [帳戶與報表套裝](ga-to-aa/accounts.md)
+   + [帳戶與報告套裝](ga-to-aa/accounts.md)
    + [自訂報表檢視](ga-to-aa/customization.md)
    + Google Analytics 報表 {#reports}
       + [為 GA 使用者在 Analysis Workspace 建立基本報表](ga-to-aa/reports/create-report.md)
@@ -38,13 +37,13 @@ ht-degree: 89%
    + [比較日期與原日期範圍](event/compare-dates.md)
    + [衍生受事件影響的資料](event/calcmetrics.md)
    + [向使用者傳達事件](event/communicate.md)
-   + [智慧型資料平滑](event/intelligent-data-smoothing.md)
+   + [智慧資料平滑](event/intelligent-data-smoothing.md)
 + Cookie {#cookies}
    + [瀏覽器 Cookie](cookies/cookies.md)
-   + [可降低瀏覽器Cookie限制影響的選項](cookies/cookieless.md)
+   + [可減輕瀏覽器 Cookie 限制之影響的選項](cookies/cookieless.md)
 + [資料保留](data-retention.md)
 + [排除資料](exclude-data.md)
-+ [Adobe Analytics使用的IP和網域](ip-addresses.md)
++ [Adobe Analytics 使用的 IP 和網域](ip-addresses.md)
 + [延遲性](latency.md)
 + [低流量值](low-traffic.md)
 + [移轉行動服務處理規則至 Adobe Analytics](migrate-mobile.md)
