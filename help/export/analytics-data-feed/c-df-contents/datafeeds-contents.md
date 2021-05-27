@@ -7,7 +7,7 @@ feature: Reports and Analytics 基本需知
 uuid: 82a86314-4841-4133-a0dc-4e7c6cd14fc1
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
 source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '746'
 ht-degree: 100%
 
