@@ -2,10 +2,9 @@
 title: trackingServer
 description: 決定影像要求的傳送位置。
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '398'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -39,7 +38,7 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 ### 第一方 Cookie
 
-如果您使用第一方 Cookie 實施，貴組織中可能已經有人完成第一方 Cookie 處理。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)。
+如果您使用第一方 Cookie 實施，貴組織中可能已經有人完成第一方 Cookie 處理。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)。
 
 最初設定第一方 Cookie 實施的個人，也會定義使用的網域和子網域。例如：
 
