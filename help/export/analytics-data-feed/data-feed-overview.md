@@ -1,16 +1,15 @@
 ---
 description: 從網站、行動應用程式收集或使用網站服務 API 或資料來源上傳的資料會儲存在 Adobe 的 Data Warehouse。這些原始點按流資料形成 Adobe Analytics 所使用的資料集。
-keywords: clickstream;data feed;datafeed;Data Feed
+keywords: 點按資料流；資料摘要；資料摘要
 title: Analytics 資料摘要概觀
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
-translation-type: tm+mt
-source-git-commit: f6f638bcd6a9630d857996a44312dbb739a0c2a8
+exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 98%
+source-wordcount: '575'
+ht-degree: 97%
 
 ---
-
 
 # Analytics 資料摘要概觀
 
@@ -68,4 +67,4 @@ ht-degree: 98%
 
 資料摘要介面影片導覽:
 
->[!VIDEO](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
