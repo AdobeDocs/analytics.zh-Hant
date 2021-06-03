@@ -5,11 +5,10 @@ title: 需求和上傳限制
 topic-fix: Developer and implementation
 uuid: d79fca77-fa0e-4171-b978-cdee5c67d9df
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 98%
+source-wordcount: '634'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援.資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
+   <td colname="col2"> <p>支援.資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
@@ -90,7 +89,7 @@ ht-degree: 98%
 * 在轉換過程中偵測到錯誤，此時您將得到一則訊息，如「從 UTF-8 轉換到 ISO-8859-1 時在檔案中的位置 18 發現錯誤字元」。
 * 檔案處理過程中未出現錯誤，但您會在報表中發現亂碼。
 
-## 上傳網站記錄檔  {#section_DD736FC971FE45C89AB310BEDC1FE707}
+## 上傳網站記錄檔 {#section_DD736FC971FE45C89AB310BEDC1FE707}
 
 * 檢視網站記錄時，最實用的報表是流量報表，如頁面檢視。
 * 顯示的頁面名稱為整個 URL，包括查詢字串。
