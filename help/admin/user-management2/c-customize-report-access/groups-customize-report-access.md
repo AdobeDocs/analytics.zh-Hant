@@ -6,10 +6,10 @@ title: 自訂報表存取 - 概觀
 feature: 管理工具
 uuid: 818a7196-8b43-4654-8d5f-800b3122aad3
 exl-id: f70b53b5-1399-4b9b-ad09-df8425baeca4
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 93%
+source-wordcount: '585'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能已移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能已移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。所有客戶都完成移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
 自訂分析工具、報表套裝工具、量度和維度的群組權限。
 
@@ -61,12 +61,12 @@ ht-degree: 93%
    <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
     </ul> <p>請參閱<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自訂維度權限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><a href="https://helpx.adobe.com/enterprise/using/admin-console.html"> Adobe Admin Console</a> </p> </td> 
-   <td colname="col2"> <p>僅新客戶或已在 <a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Analytics 使用者移轉至 Admin Console</a>。 </p> </td> 
+   <td colname="col2"> <p>僅新客戶或已在 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱 <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Analytics 使用者移轉至 Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>內容感知 </p> </td> 
