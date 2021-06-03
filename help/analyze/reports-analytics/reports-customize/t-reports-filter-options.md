@@ -2,20 +2,19 @@
 description: 篩選條件可以縮小報表的範圍來包含或排除符合篩選條件的行項目。
 title: 篩選報表資料
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 99%
 
 ---
 
 # 篩選報表資料 {#concept_09DC5B986A644738B12204DAC76A90E1}
 
-篩選條件可以縮小報告的範圍來包含或排除符合篩選條件的行項目。
+篩選條件可以縮小報表的範圍來包含或排除符合篩選條件的行項目。
 
 ## 簡單篩選 {#section_5C4DE873F8D5484BB77F38A4AEB57B4A}
 
@@ -55,7 +54,7 @@ help:Internal Search Term
 
 **不包含**
 
-如果詞語未出現在行項目的任何地方即相符。您可以使用「不包含」來篩選報表中的「未指定」、「無」、「沒有關鍵字」和其他[特殊值](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/unspecified.html)。
+如果詞語未出現在行項目的任何地方即相符。您可以使用「不包含」來篩選報表中的「未指定」、「無」、「沒有關鍵字」和其他[特殊值](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html)。
 
 不包含： `none`
 
