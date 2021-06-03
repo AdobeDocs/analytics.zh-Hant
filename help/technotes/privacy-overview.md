@@ -4,11 +4,10 @@ keywords: 隱私權
 title: 隱私權概觀
 uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '844'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +91,7 @@ Adobe Analytics 收集下列資料：
   </tr> 
   <tr> 
    <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings"  > https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#General_Account_Settings </a> </p> </td> 
+   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings"  > https://experienceleague.adobe.com/docs/analytics/landing/home.html#General_Account_Settings  </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 全球 </td> 
@@ -134,8 +133,8 @@ Adobe Analytics 收集下列資料：
   <tr> 
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
-   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col3"> <p>協作設施 </p> <p>(Gyron) </p> </td> 
+   <td colname="col4"> <p>多頻道分析、 </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
