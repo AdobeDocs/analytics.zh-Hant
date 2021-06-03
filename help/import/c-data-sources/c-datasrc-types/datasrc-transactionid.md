@@ -1,14 +1,13 @@
 ---
 title: 交易 ID 資料來源
 description: 了解使用交易 ID 資料來源的一般工作流程。
-translation-type: ht
-source-git-commit: c6f84f470dcf97f49ce7dc9d2c5dd8c65cc6cf67
-workflow-type: ht
+exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
+source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
-
 
 # 交易 ID 資料來源
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 使用以下一般工作流程開始使用交易 ID 資料來源：
 
 1. 建立資料來源 (「一般」類別和「一般資料來源 (交易 ID)」類型)。
-1. 依資料摘要設定精靈的指示取得 FTP 位置，以上傳資料並下載資料來源範本檔案。
+1. 請依照資料來源設定精靈的指示取得FTP位置，以上傳資料和下載資料來源範本檔案。
 1. 更新您的實作，加入 `transactionID` 變數。
 1. 使用 `.fin` 檔案將資料來源檔案上傳至 FTP 站台。
 
