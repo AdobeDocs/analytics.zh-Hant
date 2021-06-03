@@ -2,10 +2,10 @@
 title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: c4b44b573732e7bcdafdac539dec8ee7b680aa92
+source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 52%
 
 ---
 
@@ -19,16 +19,19 @@ ht-degree: 73%
 
 此外掛程式會執行兩項檢查：
 
-* 首先，此外掛程式會使用 `navigator.UserAgent` 變數來判斷該裝置是桌上型電腦或行動裝置。若是行動裝置則不列入考慮。
-* 若是桌上型電腦，此外掛程式會新增一個滑鼠移動事件監聽程式。
+* 首先，若是案頭裝置，它會新增事件監聽器以用於滑鼠移動。
+* 接下來，會使用`navigator.UserAgent`變數判斷裝置是桌上型電腦還是行動裝置。 若是行動裝置則不列入考慮。
 
-如果桌上型電腦的代理使用者使用此電腦時，該外掛程式並未偵測到任何滑鼠移動情形，則會將 `websiteBot` 變數設定為 `true`。如果代理使用者是行動裝置，或是偵測到滑鼠的移動，該外掛程式會將 `websiteBot` 變數設定為 `false`。
+如果用戶代理位於案頭上，並且未檢測到滑鼠移動，則插件可以
+
+* 進行[!UICONTROL 直接呼叫]規則呼叫(適用於Adobe Experience Platform Launch)，或
+* 進行`s.tl`呼叫以指出訪客不是機器人。
 
 ## 先決條件
 
 使用此外掛程式之前，Adobe 建議先執行下列動作：
 
-* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將過期設定為&#x200B;**Never**&#x200B;並將配置設定為&#x200B;**&quot;Original Value(First)&quot;**。
+* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將過期設定為&#x200B;**Never**&#x200B;並將配置設定為&#x200B;**&quot;Original Value(First)&quot;**。 應在以下兩種情況下設定此eVar:觸發[!UICONTROL 直接呼叫]規則或`s.tl`呼叫時。
 * **蒐集個別變數內的代理使用者**：蒐集個別變數內的代理使用者字串，以監視此外掛程式的功效。在每次點擊時，設定一個 eVar 為 `navigator.UserAgent` 用以蒐集此資料。
 
 ## 使用 Launch 自訂程式碼編輯器安裝外掛程式
