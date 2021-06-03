@@ -3,16 +3,15 @@ description: 學習在 Workspace 專案中工作的基礎知識。
 keywords: Analysis Workspace
 title: 專案概觀
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 75c551de-297e-4c45-95e6-77472be6628a
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 100%
+source-wordcount: '1366'
+ht-degree: 98%
 
 ---
-
 
 # 專案概觀
 
@@ -31,10 +30,10 @@ Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行�
 | [建立新專案](/help/analyze/analysis-workspace/home.md) | 按一下這個連結，即可從頭開始新專案，或是根據為您建立的[範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant#analysis-workspace)開始新專案。 |
 | 管理專案 | 按一下此連結即可將您導向「專案元件管理員」(**[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 專案]**」)，它會列出您的所有專案，並讓您標記、共用、刪除、重新命名、核准、複製，以及將專案匯出為 CSV。 |
 | 設定為登陸頁面 | 將此頁面變成您的 Workspace 登陸頁面。 |
-| [觀看教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | 帶您前往 Analysis Workspace 教學影片。 |
+| [觀看教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/analysis-workspace-introduction.html) | 帶您前往 Analysis Workspace 教學影片。 |
 | 名稱 | 「工作區」專案名稱。 |
 | 擁有者 | 建立此專案的人 (您或與您共用專案的人)。 |
-| 類型 | 指示這是 Workspace 專案還是[行動計分卡](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/mobapp/home.html)。 |
+| 類型 | 指示這是 Workspace 專案還是[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)。 |
 | [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 指示您在專案中的角色 - 擁有者、編輯、複製、檢視。 |
 | 標籤 | 已套用到專案中的標籤。 |
 | 上次修改 | 上次修改專案的日期和時間。 |
