@@ -2,11 +2,10 @@
 title: 裝置圖表
 description: 了解使用裝置圖表彙整資料的必要條件和限制。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 95%
 
 ---
 
@@ -30,9 +29,9 @@ Adobe 在 ID 服務中提供兩種裝置圖表：
 >若未符合所有必要條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * [概觀頁面](overview.md)上列出的所有必要條件。
-* 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://docs.adobe.com/content/help/zh-Hant/device-co-op/using/home.html)。
-* 您的實施作業必須使用最新版本 Experience Cloud ID 服務。請參閱 Experience Cloud Identity Sservice 使用指南中的[首頁](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。大部分使用 Adobe Experience Platform Launch 的實施作業可能都已部署 ECID。
-* 您的實施作業必須在可識別個人身分時 (例如使用者登入或開啟電子郵件)，呼叫 `setCustomerIDs` 函式 (或相等 SDK 項目)。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 Experience Cloud Identity Service 使用指南中的 [`setCustomerIDs`](https://docs.adobe.com/content/help/zh-Hant/id-service/using/id-service-api/methods/setcustomerids.html)。
+* 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)。
+* 您的實施作業必須使用最新版本 Experience Cloud ID 服務。請參閱 Experience Cloud Identity Sservice 使用指南中的[首頁](https://experienceleague.adobe.com/docs/id-service/using/home.html)。大部分使用 Adobe Experience Platform Launch 的實施作業可能都已部署 ECID。
+* 您的實施作業必須在可識別個人身分時 (例如使用者登入或開啟電子郵件)，呼叫 `setCustomerIDs` 函式 (或相等 SDK 項目)。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 Experience Cloud Identity Service 使用指南中的 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html)。
 
 ## 裝置圖表專屬限制
 
