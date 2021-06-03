@@ -5,10 +5,10 @@ uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: 視覺效果
 role: Business Practitioner, Administrator
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 2d30969652991564379c37801b353803e73e5f8c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 95%
+source-wordcount: '689'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 對於可新增的步驟數或是可使用的維度數並沒有限制。
 
-您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
+您可對 eVar 進行路徑分析，包括銷售 eVar 和 [listVar](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) (可在每個點擊擁有多個值的變數，例如產品、listVar、銷售 eVar 和清單屬性)。舉例來說，假設某人正在同一頁面上查看鞋子和上衣，而在下一頁改為查看上衣和襪子。來自鞋子的下一個產品流量報表會是上衣和襪子，「而非」上衣。
 
 1. 從「視覺效果」下拉式清單將[!UICONTROL 「流失」]視覺效果拖曳至[!UICONTROL 「自由表格」]中。
 
