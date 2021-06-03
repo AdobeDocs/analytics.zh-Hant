@@ -1,14 +1,13 @@
 ---
 title: 使用 Launch 進行實施概述
 description: 瞭解如何使用 Adobe Experience Platform Launch 實施 Adobe Analytics
-translation-type: ht
-source-git-commit: d1db8da65faac1bf09fa2a290a2645092b542a35
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 96%
 
 ---
-
 
 # 使用 Launch 進行實施概述
 
@@ -33,6 +32,6 @@ Launch 為標籤管理解決方案，可讓您部署 Analytics 程式碼及滿�
 
 您可充分自訂 Launch。進一步瞭解如何在實施中加入適當的資料，以充分運用 Adobe Analytics。
 
-* [Launch 文件](https://docs.adobe.com/content/help/zh-Hant/launch/using/overview.html)：瞭解介面的運作方式，以及有哪些擴充功能可用。
-* [Adobe Analytics 擴充功能](https://docs.adobe.com/content/help/zh-Hant/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)：使用 Analytics 擴充功能將資料傳送至 Adobe Analytics。
+* [Launch 文件](https://experienceleague.adobe.com/docs/launch/using/overview.html)：瞭解介面的運作方式，以及有哪些擴充功能可用。
+* [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html)：使用 Analytics 擴充功能將資料傳送至 Adobe Analytics。
 * [實施變數](../vars/overview.md)：決定您要將哪些變數傳送至資料收集伺服器。
