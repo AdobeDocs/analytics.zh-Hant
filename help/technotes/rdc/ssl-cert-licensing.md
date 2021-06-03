@@ -2,19 +2,18 @@
 title: SSL 憑證授權
 description: 由客戶管理的憑證之憑證程序
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '260'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '256'
 ht-degree: 100%
 
 ---
 
 # SSL/TLS 憑證授權
 
-Adobe 建議您透過 [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
+Adobe 建議您透過 [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
 
-如果您選擇不使用 [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/ec-cookies/cookies-first-party.html)，便需自行負責提供用於第一方 Cookie 的 SSL/TLS 憑證。
+如果您選擇不使用 [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)，便需自行負責提供用於第一方 Cookie 的 SSL/TLS 憑證。
 
 如果您要自行提供憑證，則您需自行負責購買和維護該憑證。您的 SSL/TLS 憑證必須包含不限數量的伺服器授權。
 
