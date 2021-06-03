@@ -4,11 +4,10 @@ solution: Experience Cloud
 title: 常見問題集
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1098'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1094'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +24,7 @@ ht-degree: 100%
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">如果您的 prop 或 eVar 中有電子郵件/地址等資訊，請考慮在收集時將這些資訊進行雜湊處理。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/exclude-ip.html"  >開啟 IP 模糊化</a>功能。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  >開啟 IP 模糊化</a>功能。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">請與您的 Analytics 管理員討論，了解您正在收集哪些資訊。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">與您的法律部門討論，了解他們認為哪些資訊屬於 PII。 </li> 
     </ul> </td> 
@@ -36,7 +35,7 @@ ht-degree: 100%
     <ul id="ul_F0984CEF80DB4B589716BC55549E32B8"> 
      <li id="li_9BC3819784A9408F846D60FF0F20AAF9">這不適用於將 Adobe Analytics 資料傳送至 Adobe Audience Manager。 </li> 
      <li id="li_050A1BF9978E436895B5C7E33A82527D">請自問：您是否會將 Analytics 共用區段與 Experience Cloud 中的 MCA 維度共用？ </li> 
-     <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統? </li> 
+     <li id="li_C52D969681B94F4AAA18FDEB21EC5B49">您是否匯出 (例如透過資料饋送) 至用於這些目的的商業智慧 (BI) 系統？ </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -48,7 +47,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問：如何在 Audience Manager 中建立 Analytics 目的地？</b> </p> </td> 
-   <td colname="col2"> 請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
+   <td colname="col2"> 請參閱<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：建立並儲存 Analytics 目的地後，需要多久才會在我選取的表套裝中顯示資料？</b> </p> </td> 
@@ -72,7 +71,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：如果我的某些報表套裝載有個人資料，而其他沒有，該怎麼辦？</b> </p> </td> 
-   <td colname="col2"> <p>提示: 建立兩個目標──將個人資料報表套裝新增至一個目標，並將沒有個人資料的報表套裝新增至另一個目標。 </p> </td> 
+   <td colname="col2"> <p>提示：建立兩個目標──將個人資料報表套裝新增至一個目標，並將沒有個人資料的報表套裝新增至另一個目標。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
