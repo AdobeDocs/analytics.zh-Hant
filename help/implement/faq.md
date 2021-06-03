@@ -1,14 +1,13 @@
 ---
 title: 實作常見問題集
 description: 實施的相關常見問題，以及可提供更多資訊的連結。
-translation-type: tm+mt
-source-git-commit: dbcdabdfd53b9d65d72e6269fcd25ac7118586e7
+exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '497'
 ht-degree: 71%
 
 ---
-
 
 # Analytics 實施常見問題集
 
@@ -20,7 +19,7 @@ Identity Service 會指派不重複的持續性識別碼，以便在 Experience 
 
 ## 如何實施心率視訊追蹤？
 
-請參閱[在 Adobe Analytics 測量音訊和視訊](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)。
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 ## Adobe 的服務中斷會影響效能嗎？
 
@@ -50,12 +49,12 @@ var s = new Object();
 >* 變更 `trackingServer` 變數以遠離 Adobe。AppMeasurement 仍會傳送影像要求，而要求會傳回 404 錯誤。
 
 
-## 我透過程式碼分析器執行AppMeasurement，並指出其使用方式 `Math.random()` 有潛在安全風險。 是否 `Math.random()` 與任何敏感資料搭配使用？
+## 我透過程式碼分析器執行AppMeasurement，並標示其使用`Math.random()`為潛在安全風險。 `Math.random()`是否用於任何敏感資料？
 
-不可以，使用的數字 `Math.random()` 不會用來遮色、傳送或接收任何敏感資料。 傳送至Adobe資料收集伺服器的資料需仰賴基礎HTTPS連線的安全性。 <!-- AN-173590 -->
+不可以，使用`Math.random()`的數字不用於掩碼、發送或接收任何敏感資料。 傳送至Adobe資料收集伺服器的資料需仰賴基礎HTTPS連線的安全性。<!-- AN-173590 -->
 
-AppMeasurement在三 `Math.random()` 個關鍵領域使用：
+AppMeasurement在三個關鍵區域中使用`Math.random()` :
 
-* **取樣**:視您的實作而定，您只能針對一小部分網站訪客收集一些資訊。 `Math.random()` 用來判斷特定訪客是否應傳送資料。 大部分實作都不使用取樣。
-* **備援訪客ID**:如果無法從Cookie擷取訪客ID，則會產生隨機訪客ID。 AppMeasurement的這部分會使用兩個呼叫 `Math.random()`。
-* **快取破壞**:隨機數字會新增至影像要求URL的結尾，以防止瀏覽器快取。
+* **取樣**:根據您的實作，您只能為網站的一小部分訪客收集某些資訊。`Math.random()` 用來判斷特定訪客是否應該傳送資料。大部分實作都不使用取樣。
+* **備援訪客ID**:如果無法從Cookie擷取訪客ID，則會產生隨機訪客ID。AppMeasurement的這部分會使用對`Math.random()`的兩個呼叫。
+* **快取破壞**:影像要求URL的結尾會新增隨機數字，以協助防止瀏覽器快取。
