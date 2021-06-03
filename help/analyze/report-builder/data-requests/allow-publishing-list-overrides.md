@@ -4,14 +4,13 @@ title: 允許發佈清單覆蓋
 uuid: f2cc9878-ab54-4c6f-8a88-3f3b579955e3
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 92%
+source-wordcount: '164'
+ht-degree: 95%
 
 ---
-
 
 # 允許發佈清單覆蓋
 
@@ -19,7 +18,7 @@ ht-degree: 92%
 
 會在 Analytics 管理工具中設定發佈清單。
 
-請參閱「Analytics 參考」中的[發佈清單管理員](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/publishing-list.html)。
+請參閱「Analytics 參考」中的[發佈清單管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/publishing-list.html)。
 
 若要啟用此功能，請導覽至[!UICONTROL 請求精靈: 步驟 1] 視窗。
 
@@ -30,4 +29,3 @@ ht-degree: 92%
 >[!NOTE]
 >
 >如果將排程報表傳送給多份發佈清單，報表會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。
-
