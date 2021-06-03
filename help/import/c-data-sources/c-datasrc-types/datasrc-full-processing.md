@@ -3,11 +3,10 @@ description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理
 title: 完全處理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 96%
+source-wordcount: '719'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe計畫於2021年7月31日取消完整處理資料來源。 [深入了解](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe 計劃在 2021 年 7 月 31 日淘汰完整處理資料來源。[了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -43,7 +42,7 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>促銷活動 </p> </td> 
+   <td colname="col2"> <p>行銷活動 </p> </td> 
    <td colname="col3"> <p>轉換促銷活動追蹤代碼。 </p> </td> 
   </tr> 
   <tr> 
@@ -69,7 +68,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>事件 </p> </td> 
-   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
+   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -117,7 +116,7 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>產品 </p> </td> 
-   <td colname="col3"> <p>產品清單（例如<code> "Sports;Ball;1;5.95"</code>）。 每列最大可包含4096個位元組。</p> </td> 
+   <td colname="col3"> <p>產品清單（例如<code> "Sports;Ball;1;5.95"</code>）。 每列最大可容納4096個位元組。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -172,7 +171,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
+   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
