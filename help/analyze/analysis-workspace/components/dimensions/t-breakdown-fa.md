@@ -6,11 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '230'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '226'
+ht-degree: 96%
 
 ---
 
@@ -31,9 +30,9 @@ ht-degree: 100%
    >
    >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
-[在 Analysis Workspace 中新增維度和量度至您的專案](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[在 Analysis Workspace 中新增維度和量度至您的專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
 
-[在自由格式表格中使用維度](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html) (15:35)
+[在自由格式表格中使用維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=zh-Hant) (15:35)
 
 ## 將歸因模型套用到資料劃分
 
