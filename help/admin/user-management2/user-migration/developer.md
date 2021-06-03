@@ -2,14 +2,13 @@
 description: 列出受使用者移轉影響的API
 title: 受使用者移轉影響的API
 uuid: 9a5d43be-e146-476b-961e-49ea0a30b500
-translation-type: tm+mt
-source-git-commit: f2fe11eeafc7b188ff7a886847b33a82ab80e47a
+exl-id: 82d0a1cd-1e25-4157-9bb9-bba1049fdc48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 92%
+source-wordcount: '243'
+ht-degree: 88%
 
 ---
-
 
 # 受使用者移轉影響的API{#apis-affected-by-the-migration}
 
@@ -34,7 +33,7 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 * Permissions.SaveLogin
 * Permissions.GetLoginSegment
 
-## 可執行的動作 {#section-8b0b89a862614f729ebdbe092ce99027}
+## 可執行的動作  {#section-8b0b89a862614f729ebdbe092ce99027}
 
 如果貴公司目前仍在使用以上方法，請尋找最早於 2018 年 3 月 31 日發送的預先移轉通知。系統會在貴公司開始改用 Experience Cloud 驗證的至少 30 天前傳送通知，屆時這些方法將停止支援。
 
@@ -45,5 +44,4 @@ Adobe 正在移轉所有透過 Analytics 登入的企業，使其從 [!DNL my.om
 * [一般使用者管理資訊](https://helpx.adobe.com/tw/enterprise/help/users.html)
 * [透過 adobe.io 執行使用者管理 API](https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html)
 * [使用者管理 API 論壇](https://forums.adobe.com/community/umapi/overview)
-* [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
-
+* [將 Analytics 使用者存取和管理移轉至 Experience Cloud](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
