@@ -2,14 +2,13 @@
 description: 處理規則可以根據上下文資料變數觸發事件。
 subtopic: Processing rules
 title: 使用上下文資料變數設定事件
-feature: Admin Tools
+feature: 管理工具
 uuid: 4a6018eb-03e2-4ec8-874b-e48bf716e103
 exl-id: f0af0e23-c08a-4f82-85b4-25064eeaa3c6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 100%
+source-wordcount: '165'
+ht-degree: 95%
 
 ---
 
@@ -38,4 +37,4 @@ ht-degree: 100%
 
 ![](assets/processing_rule_set_event.png)
 
-請參閱實作說明中的[上下文資料變數](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/contextdata.html)。
+請參閱實作說明中的[上下文資料變數](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)。
