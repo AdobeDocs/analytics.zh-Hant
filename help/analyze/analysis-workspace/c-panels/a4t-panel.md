@@ -4,11 +4,10 @@ title: Analytics for Target (A4T) 面板
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1104'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 93%
 
 ---
 
@@ -52,18 +51,18 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 提升度 (上限) | 表示 95％ 信賴區間中，變異數體驗對控制的最佳提升度。<br>算式：請參見提升度 (下限)。 |
 | 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>算式：套用 y+y_control-2 自由度的 2-tailed t-test 來確定 x / y 是否等於 x_control/y_control 的 p 值。計算 t-score，其中 stderr 代表 sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control)。返回 1-p 作為它們不同的可信度。 |
 
-和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，以繼續進行分析。您也可以在面板級別或自由格式表中套用區段。請注意，如果將其新增到自由格式表中，則必須將其覆蓋在整個表中，以保留提升度和可信度計算。目前不支援欄級區段。
+和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)，以繼續進行分析。您也可以在面板級別或自由格式表中套用區段。請注意，如果將其新增到自由格式表中，則必須將其覆蓋在整個表中，以保留提升度和可信度計算。目前不支援欄級區段。
 
 ## 常見問題集 {#FAQ}
 
 | 問題 | 回答 |
 |---|---|
-| A4T 支援哪些活動類型？ | [深入了解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)受支援的活動類型。 |
-| 提升度和可信度計算是否支援計算量度？ | 不可以，[深入了解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和可信度不支援計算量度的原因。不過，計算量度可用於這些量度以外的 A4T 報告。 |
-| 為何 Target 與 Analytics 的不重複訪客會有差異？ | [深入了解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)產品之間的不重複訪客差異。 |
-| 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | A4T 維度是清單變數，這表示有可能同時包含許多活動 (和體驗)。[更多詳情](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
-| 可信度量度是否可計算極端順序，或對多個優惠方案套用 Bonferroni 校正？ | 不可以，[深入了解](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
+| A4T 支援哪些活動類型？ | [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-activity-setup.html)受支援的活動類型。 |
+| 提升度和可信度計算是否支援計算量度？ | 不可以，[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html)提升度和可信度不支援計算量度的原因。不過，計算量度可用於這些量度以外的 A4T 報告。 |
+| 為何 Target 與 Analytics 的不重複訪客會有差異？ | [深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html)產品之間的不重複訪客差異。 |
+| 當我在分析中為特定 Target 活動套用點擊區段時，為何會看到有不相關的體驗傳回？ | A4T 維度是清單變數，這表示有可能同時包含許多活動 (和體驗)。[更多詳情](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html) |
+| 可信度量度是否可計算極端順序，或對多個優惠方案套用 Bonferroni 校正？ | 不可以，[深入了解](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-lift-and-confidence.html) Analytics 計算可信度的方式。 |
 | 提升度和可信度量度是否可搭配其他維度或劃分使用？ | 提升度和可信度是「目標體驗」維度的「鎖定量度」，因為它們需有控制項和變數才能計算。因此，無法劃分或搭配其他維度使用。 |
 | 何時會重新計算提升度和可信度？ | 每當執行 (或重新運行) 面板、面板日期範圍變更或將區段套用至面板或表格時，就會重新計算提升度和可信度。將區段過濾器套用至自由格式表時，必須將其套用於所有欄或提升度，否則可信度將無法正確更新。目前不支援欄級區段。 |
 
-如需 Analytics for Target 報告的詳細資訊，請造訪 [A4T 報告](https://docs.adobe.com/content/help/zh-Hant/target/using/integrate/a4t/reporting.html)
+如需 Analytics for Target 報告的詳細資訊，請造訪 [A4T 報告](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/reporting.html)
