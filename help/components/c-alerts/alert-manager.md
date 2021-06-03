@@ -3,11 +3,10 @@ description: 管理警報。
 title: 警報管理器
 uuid: 6c228754-af8b-4ff2-ae88-9ca7ddbee242
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '152'
+ht-degree: 89%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 ![](assets/alert-manager.png)
 
-「警報管理器」(「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報]**」) 的結構相當類似於「[區段管理員](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-manage.html)」和「[量度管理員](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)」，並可讓您
+「警報管理器」(「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報]**」) 的結構相當類似於「[區段管理員](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html)」和「[量度管理員](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)」，並可讓您
 
 ![](assets/alert-manager-tasks.png)
 
