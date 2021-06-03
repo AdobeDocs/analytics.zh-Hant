@@ -2,10 +2,10 @@
 description: 說明 Adobe Analytics 的全新持續功能發行策略
 title: Adobe Analytics 功能發行
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 92%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 功能旗標
 
-功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 app.launchdarkly.com 新增至防火牆的[允許清單](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/ip-addresses.html)，以便在發行期間提供最佳體驗。正式發行後不久，旗標將會移除。
+功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 app.launchdarkly.com 新增至防火牆的[允許清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant)，以便在發行期間提供最佳體驗。正式發行後不久，旗標將會移除。
 
 您可以隨時在&#x200B;**「說明 > 關於 Workspace > 有效功能旗標」**&#x200B;檢視有效的功能旗標。
 
@@ -39,5 +39,5 @@ ht-degree: 95%
 
 | 問題 | 回答 |
 |---|---|
-| 我是否可要求搶先使用功能？ | 不可以，我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/tech-previews/overview.html) 對我們領先業界的創新能力提供意見反應。 |
-| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「管理員 [!UICONTROL >所有管理員] >公司設定 [!UICONTROL >存取層級」下，檢]    [](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/company-settings/feature-access-levels.html)視Analytics套件的詳細資訊。 |
+| 我是否可要求搶先使用功能？ | 不可以，我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) 對我們領先業界的創新能力提供意見反應。 |
+| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「管理員 [!UICONTROL  > ] 所有管理員 [!UICONTROL  > ] 公司設定 [!UICONTROL  >功能存取層級] 」下檢視Analytics套件 [](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)的詳細資訊。 |
