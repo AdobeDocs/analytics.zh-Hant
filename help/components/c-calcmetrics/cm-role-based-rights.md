@@ -3,11 +3,10 @@ description: 管理員級使用者和非管理員之間的計算量度權限不�
 title: 計算量度  角色型權限
 uuid: 7c14d32d-370c-4afa-8f80-5bbd8fc12ec7
 exl-id: 018d9ef5-5a6f-4ebc-a241-c1291ba6b561
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <b>管理員級使用者</b> </td> 
-   <td colname="col02"> 管理員可以建立計算量度，也可以建立<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html"  >群組</a>來限制使用者建立計算量度的權限。 </td> 
+   <td colname="col02"> 管理員可以建立計算量度，也可以建立<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html"  >群組</a>來限制使用者建立計算量度的權限。 </td> 
    <td colname="col2"> 可以將區段共用給整個公司、使用者群組以及個別使用者。 </td> 
    <td colname="col3"> <span class="keyword">Reports &amp; Analytics</span>：可以檢視/編輯/刪除...他們自己的以及其他用戶的計算量度。 <p> <span class="keyword"> Report Builder</span>：可檢視/編輯/刪除/等。其所擁有的計算量度以及與其共用的計算量度。 </p> </td> 
    <td colname="col4"> 可以核准計算量度做為標準。 </td> 
