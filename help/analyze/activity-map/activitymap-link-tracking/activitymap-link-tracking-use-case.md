@@ -4,14 +4,13 @@ title: 區別參照相同連結 ID 和地區的連結
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 61%
+source-wordcount: '364'
+ht-degree: 59%
 
 ---
-
 
 # 區別參照相同連結 ID 和地區的連結
 
@@ -45,13 +44,13 @@ ht-degree: 61%
    <td colname="col2">
      <br/>
      <br/>
-    購買<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購買<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購買<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -72,15 +71,15 @@ ht-degree: 61%
  </tbody>
 </table>
 
-應如何自訂網頁和標記，以區別這些連結的值呢？您有三個選擇: 自訂連結 ID、自訂地區，或是自訂 AppMeasurement ActivityMap 模組檔案。
+應如何自訂網頁和標記，以區別這些連結的值呢？您有三個選擇：自訂連結 ID、自訂地區，或是自訂 AppMeasurement ActivityMap 模組檔案。
 
 ## 使用 s_objectID 自訂連結 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-透過為頁面上的連結或連結位置建立唯一的物件ID `s_objectID`，您可以改善Activity Map追蹤或使用Activity Map來報告連結類型或位置，而非連結URL。 如需 變數的詳細資訊，請按[此處](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html)。`s_objectID`
+透過為頁面上的連結或連結位置建立唯一的物件ID `s_objectID`，您可以改善Activity Map追蹤，或使用Activity Map來報告連結類型或位置，而非連結URL。 如需 變數的詳細資訊，請按[此處](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)。`s_objectID`
 
 >[!IMPORTANT]
 >
->請注意，在Activity Map中使用`s_objectID`時，需要結尾分號(`;`)。
+>請注意，在Activity Map中使用`s_objectID`時，必須在結尾加上分號(`;`)。
 <table id="table_9439A5F320304E439A19842CF3EBA456">
  <thead>
   <tr>
@@ -136,10 +135,10 @@ ht-degree: 61%
 
 ## 自訂地區 {#section_6B1EF302573B445DBAF44176D0A12DB9}
 
-您可以自訂地區，方法是確保每個「購買」連結都已定義自己的地區。 若要這麼做，請將`"id"`參數新增至每個&quot;Buy&quot;錨記的其中一個父項。
+您可以自訂地區，確保每個「購買」連結都定義自己的地區。 若要這麼做，請將`"id"`參數新增至每個「Buy」錨點標籤的其中一個父項。
 
 >[!NOTE]
->您不會嚴格限制使用`"id"`參數做為地區識別碼。 您也可以使用JavaScript變數`"s.ActivityMap.regionIDAttribute"`來設定您自己的識別碼。
+>並未嚴格限制一定要使用`"id"`參數作為區域標識符。 您也可以使用JavaScript變數`"s.ActivityMap.regionIDAttribute"`來設定自己的識別碼。
 >
 >
 ><table id="table_250DB52A869C466B942517BABA1C287B">
@@ -168,13 +167,13 @@ ht-degree: 61%
    <td colname="col2">
      <br/>
      <br/>
-    購買<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購買<br/>
+    Buy<br/>
      <br/>
      <br/>
-    購買<br/>
+    Buy<br/>
      <br/>
      <br/>
    </td> 
@@ -184,12 +183,12 @@ ht-degree: 61%
     區域a<br/>
      <br/>
      <br/>
-    區域b&lt;a5/
+    區域b<br/>
      <br/>
      <br/>
     區域c&lt;a8/
      <br/>
-     <br/><br/><br/>
+     <br/><br/>
    </td>
   </tr>
  </tbody>
