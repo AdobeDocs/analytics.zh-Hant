@@ -4,11 +4,10 @@ title: 關於區段與容器
 feature: 區段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '3700'
-ht-degree: 100%
+source-wordcount: '3698'
+ht-degree: 99%
 
 ---
 
@@ -58,9 +57,9 @@ ht-degree: 100%
 
 循序區段會根據使用 [!UICONTROL THEN] 運算子的使用者動作來篩選資料集。
 
-## 作法影片 {#section_89D6184890AF4086A8056BFBB0B68C29}
+## 操作說明影片 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-該影片簡要概述了什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+該影片簡要概述了什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
 
 ## 關於容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
