@@ -5,11 +5,10 @@ title: 組織專案
 feature: 監管與共用
 role: Business Practitioner, Administrator
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '548'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -47,7 +46,7 @@ ht-degree: 100%
 
 ## 虛擬報表套裝 (VRS) 組織
 
-若要在報表套裝層級套用組織，以便將其同時套用至多個專案，您可以[在虛擬報表套裝 (VRS) 中組織元件](https://docs.adobe.com/content/help/zh-Hant/analytics/components/virtual-report-suites/vrs-components.html)。
+若要在報表套裝層級套用組織，以便將其同時套用至多個專案，您可以[在虛擬報表套裝 (VRS) 中組織元件](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html)。
 
 >[!NOTE]
 > 系統會一律先套用 VRS 組織，再套用專案組織。換句話說，即使經組織的專案中含有特定元件，但只要經組織的 VRS 並未包含那些元件，系統便會將其篩除。
