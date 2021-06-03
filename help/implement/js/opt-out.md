@@ -2,10 +2,9 @@
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '590'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '586'
 ht-degree: 100%
 
 ---
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://docs.adobe.com/content/help/zh-Hant/id-service/using/implementation/opt-in-service/optin-overview.html)。
+>Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實施類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
 
@@ -37,7 +36,7 @@ ht-degree: 100%
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
    2. 記下 `trackingServer` 變數值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
    2. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標籤。
    3. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
