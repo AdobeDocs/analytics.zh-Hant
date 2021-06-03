@@ -5,11 +5,10 @@ title: 分類規則產生器工作流程
 feature: 管理工具
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +35,7 @@ ht-degree: 100%
 
 | 步驟 | 執行位置 | 說明 |
 |--- |--- |--- |
-| 步驟 1 (必要條件)：[設定分類結構](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html)。 | [!UICONTROL 管理員] > [!UICONTROL 報告套裝] > [!UICONTROL 編輯設定] > &lt;流量分類或轉換分類> | 選擇變數並定義用於該變數的分類。<br>變數至少必須先建立一個分類欄，才能夠在規則中使用。<br>啟用分類後，您可使用匯入工具和規則產生器來分類特定值。 |
+| 步驟 1 (必要條件)：[設定分類結構](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)。 | [!UICONTROL 管理員] > [!UICONTROL 報告套裝] > [!UICONTROL 編輯設定] > &lt;流量分類或轉換分類> | 選擇變數並定義用於該變數的分類。<br>變數至少必須先建立一個分類欄，才能夠在規則中使用。<br>啟用分類後，您可使用匯入工具和規則產生器來分類特定值。 |
 | 步驟 2：[建立規則集](/help/components/classifications/crb/classification-rule-set.md)。 | [!UICONTROL 管理員] > [!UICONTROL 分類規則產生器] > [!UICONTROL 新增規則集] | 規則集是一組特定變數的分類規則。 |
 | 步驟 3：設定報告套裝與變數。 | [!UICONTROL 分類規則產生器] > &lt;您的規則集> | 套用規則集至報告套裝和變數。 |
 | 步驟 4：[將分類規則新增到規則集](/help/components/classifications/crb/classification-quickstart-rules.md)。 | [!UICONTROL 分類規則產生器] > &lt;您的規則集> | 匹配條件和分類，然後指定要針對規則採取的動作。請詳閱[規則的處理方式](/help/components/classifications/crb/classification-quickstart-rules.md)中的資訊。 |
@@ -52,4 +51,4 @@ ht-degree: 100%
 
 **部落格**：如需此功能的其他相關資訊，請參閱 Digital Marketing Blog 上的[規則型分類](https://theblog.adobe.com/rule-based-classifications-part-1-making-classifications-easier/)。
 
-**視訊**：觀看「[分類概覽](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)」視訊。
+**視訊**：觀看「[分類概覽](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/classifications/overview-of-classifications.html)」視訊。
