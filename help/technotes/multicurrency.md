@@ -3,10 +3,10 @@ description: 說明如何定義目標貨幣代碼以便讓多貨幣支援運作�
 title: 多貨幣支援
 uuid: null
 exl-id: b67f459c-0636-4eac-af52-51846bb583b5
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1354'
+ht-degree: 98%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 ## 頁面層級
 
-您可以在頁面層級設定目標貨幣的 JavaScript 變數。網站擁有者需使用適當的三字母 ISO 4217 貨幣代碼 (如本文件下文所列) 設定此變數。若未在此層級設定 [currencyCode](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/config-vars/currencycode.html) 變數，預設貨幣將與報表套裝中指定的貨幣相同。如果頁面層級的變數與報表套裝中指定的變數衝突，則以報表套裝中的變數優先。
+您可以在頁面層級設定目標貨幣的 JavaScript 變數。網站擁有者需使用適當的三字母 ISO 4217 貨幣代碼 (如本文件下文所列) 設定此變數。若未在此層級設定 [currencyCode](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html) 變數，預設貨幣將與報表套裝中指定的貨幣相同。如果頁面層級的變數與報表套裝中指定的變數衝突，則以報表套裝中的變數優先。
 
 
 ## 報表套裝層級
 
-[建立報表套裝時](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)，會指定&#x200B;**基本貨幣**。這是貨幣的預設設定，優先於頁面層級所設定的貨幣代碼。因此，若一個報表套裝含有接受美元、歐元和英鎊的訂單，而該報表套裝的預設貨幣代碼設定為「美元」，那麼報表後端資料庫會將所有交易都轉換為「美元」。
+[建立報表套裝時](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html)，會指定&#x200B;**基本貨幣**。這是貨幣的預設設定，優先於頁面層級所設定的貨幣代碼。因此，若一個報表套裝含有接受美元、歐元和英鎊的訂單，而該報表套裝的預設貨幣代碼設定為「美元」，那麼報表後端資料庫會將所有交易都轉換為「美元」。
 
 市場報表會使用在影像請求發生時的匯率，將頁面層級貨幣值轉換為預設報表套裝貨幣值。報表套裝會使用「美元」作為預設貨幣。
 
