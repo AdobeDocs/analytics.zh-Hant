@@ -2,11 +2,10 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '455'
+ht-degree: 97%
 
 ---
 
@@ -28,15 +27,15 @@ ht-degree: 100%
 
 [![整合](assets/integrate_50px.png)](/help/integrate/home.md) [整合指南](/help/integrate/home.md) – 完成與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 和 Target) 的整合設定。
 
-[![串流 Media Analytics](assets/media_50px.png)](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) [串流 Media Analytics 指南](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html) – 實施作業適用於串流媒體的 Adobe Analytics。包含 Media SDK 和 Media Collection API。
+[![串流 Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) [串流 Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) – 實施作業適用於串流媒體的 Adobe Analytics。包含 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html) [Data Workbench 指南](https://docs.adobe.com/content/help/zh-Hant/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
 
 [![技術說明](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技術說明](/help/technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
 | 全新和精選項目 | 重要 Analytics 資源 |
 | --- | --- |
-| <ul><li>[完整實施作業審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實施作業審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[工作區效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱：[2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://docs.adobe.com/content/help/zh-Hant/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/overview.html)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
+| <ul><li>[完整實施作業審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實施作業審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[工作區效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱：[2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
@@ -47,8 +46,8 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 * [Analysis Workspace](/help/analyze/analysis-workspace/home.md)
 * [Report Builder](/help/analyze/report-builder/home.md)
 * [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)
-* [Mobile Services UI](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Data Workbench](https://docs.adobe.com/content/help/en/data-workbench/using/home.html)
+* [Mobile Services UI](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)
+* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)
 * [Reports & Analytics](/help/analyze/reports-analytics/getting-started.md)
 
 ### Analytics feature list
@@ -66,11 +65,11 @@ Here is a comprehensive list of and links to all the reporting capabilities in A
 *   [Fallout](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)
 *   [Flow](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 *   [Intelligent Alerts](/help/components/c-alerts/intellligent-alerts.md)
-*   [Mobile App SDK](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)  
+*   [Mobile App SDK](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)  
 *   [Real-time reporting](/help/components/c-real-time-reporting/realtime.md)
 *   [Segmentation](/help/components/segmentation/seg-home.md)
 *   [Segment Comparison](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
-*   [Video Tracking](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)
+*   [Video Tracking](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)
 *   [Virtual Report Suites](/help/components/vrs/vrs-about.md)
 
 ## Contact options
