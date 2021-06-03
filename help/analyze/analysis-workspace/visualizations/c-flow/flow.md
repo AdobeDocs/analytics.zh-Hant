@@ -5,11 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: 視覺效果
 role: Business Practitioner, Administrator
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 >
 >如需了解對「流量」套用區段後，Analysis Workspace 和 Reports＆Analytics 之間會產生什麼不同結果，請參閱[區段作為流量和流失的基礎](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md)。
 
-[流量視覺效果教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
+[流量視覺效果教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/flow-visualization.html) (4:56)
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
