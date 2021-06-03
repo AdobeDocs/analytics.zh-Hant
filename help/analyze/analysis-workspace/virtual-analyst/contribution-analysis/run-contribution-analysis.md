@@ -5,11 +5,10 @@ uuid: 5282a5f9-0771-4974-93cb-335204bde114
 feature: AI 工具
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '599'
+ht-degree: 97%
 
 ---
 
@@ -40,9 +39,9 @@ ht-degree: 100%
 
    * 顯示當天「**造訪**」數的視覺效果。
    * 上下文的每月「**造訪趨勢線**」。
-   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)排序)，加上相關量度，以及「不重複訪客」量度，以從規模觀點來將量度放在上下文中。
+   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)排序)，加上相關量度，以及「不重複訪客」量度，以從規模觀點來將量度放在上下文中。
 
-   * 「[產生的區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
+   * 「[產生的區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
 
       ![](assets/auto_segment.png)
 
