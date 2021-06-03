@@ -2,14 +2,13 @@
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 title: 參考資料  進階函數
 uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '2911'
-ht-degree: 100%
+exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2909'
+ht-degree: 99%
 
 ---
-
 
 # 參考資料：進階函數
 
@@ -64,13 +63,13 @@ Approximate Count Distinct (dimension)
 
 ![](assets/approx-count-distinct.png)
 
-這是可以在報表中使用「近似客戶」量度的方式:
+這是可以在報表中使用「近似客戶」量度的方式：
 
 ![](assets/approx-customers.png)
 
 ### 超出不重複值 {#section_9C583858A9F94FF7BA054D1043194BAA}
 
-就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
+就如同 Count() 和 RowCount()，Approximate Count Distinct() 必須隨著[「超出不重複值」限制](https://experienceleague.adobe.com/docs/analytics/technotes/low-traffic.html)變動。如果某維度的特定月份已達「超出不重複值」限制，此值將計為 1 個維度項目。
 
 ### 比較計數函數 {#section_440FB8FB44374459B2C6AE2DA504FC0B}
 
@@ -727,4 +726,3 @@ Z 分數 (量度)
 >[!NOTE]
 >
 >此處假設值為常態分布。
-
