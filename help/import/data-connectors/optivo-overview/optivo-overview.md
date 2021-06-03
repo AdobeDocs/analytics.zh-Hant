@@ -2,20 +2,19 @@
 description: 此整合結合了電子郵件行銷軟體整合式意見系統的強大功能及 Adobe Analytics 的行為報告功能，能為貴組織創造強大的分析和最佳化機會。
 title: Adobe Analytics 的 optivo® broadmail Data Connector
 uuid: bd713080-9d1a-49ee-aad0-86dd5c37c34a
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: fff63047-afa6-420d-9188-ec8ebe407a46
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1082'
 ht-degree: 98%
 
 ---
-
 
 # Adobe Analytics 的 optivo® broadmail Data Connector{#optivo-broadmail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止AdobeData Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此整合結合了電子郵件行銷軟體整合式意見系統的強大功能及 Adobe Analytics 的行為報告功能，能為貴組織創造強大的分析和最佳化機會。
 
@@ -90,4 +89,4 @@ Adobe Analytics 解決方案的現有客戶不需額外付費即可使用此 Dat
 
 此整合需要使用 Adobe Analytics 變數來追蹤量度。
 
-在識別要與這項整合搭配使用的事件和 eVar 後，必須在 Analytics Admin Console 中啟用它們 (如需指示，請參閱[報表套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/report-suites-admin.html))。
+在識別要與這項整合搭配使用的事件和 eVar 後，必須在 Analytics Admin Console 中啟用它們 (如需指示，請參閱[報表套裝](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html))。
