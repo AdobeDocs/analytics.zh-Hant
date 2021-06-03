@@ -4,10 +4,9 @@ title: Adobe Analytics 儀表板執行指南
 feature: Analytics 儀表板
 role: Business Practitioner, Administrator
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1295'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1293'
 ht-degree: 100%
 
 ---
@@ -122,7 +121,7 @@ Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析�
 
    * 根據您點選的時間間隔 (**日**、**週**、**月**&#x200B;或&#x200B;**年**)，畫面會顯示兩個日期範圍選項：目前的時間範圍和上一個日期範圍。點選其中一個選項，並選取第一個範圍。在&#x200B;**[!UICONTROL 比較對象]**&#x200B;清單底下，點選顯示的任何一個選項，比較此時段的資料與您選取的第一個日期範圍。點選畫面右上方的&#x200B;**[!UICONTROL 「完成」]**。**[!UICONTROL 「日期範圍」]**&#x200B;欄位和計分卡圖磚會隨著您所選取新範圍的新比較資料而更新。
 
-7. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。應用程式中的[篩選器](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)運作方式與 Analytics Workspace 中相同。
+7. 若要將區段篩選套用至您的計分卡，請點選篩選下拉式清單，然後選取組織者已設定的區段。應用程式中的[篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)運作方式與 Analytics Workspace 中相同。
 
    ![區段篩選](assets/segment_filter.png)
 
