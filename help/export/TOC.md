@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-source-git-commit: 61f0327c8f443ffb2bc8845c0145c9c574e4e777
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 98%
+source-wordcount: '274'
+ht-degree: 96%
 
 ---
 
@@ -67,6 +67,6 @@ ht-degree: 98%
       + [使用 SFTP 傳送 Adobe 資料至外部 FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
       + [傳送 Data Warehouse 請求至 SFTP 伺服器](ftp-and-sftp/c-sftp/ftp-sftp-dw.md)
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
-+ [Analysis Workspace 下載](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/curate-share/download-send.html)
++ [Analysis Workspace 下載](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
