@@ -2,22 +2,21 @@
 description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
 title: 智慧型警報概述
 uuid: b9bf75ad-bb6f-49fe-8c55-355ea3c50a71
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 49d47896-bf93-4960-b647-2765c935eb25
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 94%
+source-wordcount: '365'
+ht-degree: 95%
 
 ---
-
 
 # 智慧型警報概述
 
 智慧型警報可提供更細緻的警報控制能力，並整合警報系統與異常偵測功能。
 
-以下是有關[智慧提醒](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/data-science/intelligent-alerts.html)(5:34)的教學課程影片
+以下是[智慧型警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html) (5:34)的影片教學課程
 
 ## 概述
 
@@ -40,7 +39,7 @@ Analysis Workspace 中的新「警報產生器」和「警報管理器」取代�
 
    ![新增警報](assets/add-alert.png)
 
-百分比臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。依您選擇的時間粒度而定，[不同模式](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
+百分比臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。依您選擇的時間詳細程度而定，[不同模式](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
 
 >[!IMPORTANT]
 >
