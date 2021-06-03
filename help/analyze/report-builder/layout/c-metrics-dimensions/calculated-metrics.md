@@ -3,14 +3,13 @@ description: Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除�
 title: 計算量度
 uuid: c9814894-cda6-40ff-8ec4-3ab2c1908ebc
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 99%
+source-wordcount: '360'
+ht-degree: 98%
 
 ---
-
 
 # 計算量度
 
@@ -20,7 +19,7 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 >
 >現有活頁簿可能會指向使用舊式量度 ID 的請求。當您使用 Report Builder 5.2 時，這些舊式量度 ID 會轉換為新的全域 ID。如果將此活頁簿與使用 Report Builder 5.1 或更舊版本的使用者共用，該名使用者將看不到計算量度。
 
-若想深入了解如何使用新的計算量度產生器和計算量度管理員來建立和管理計算量度，請參閱[計算量度](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/cm-overview.html)指南。
+若想深入了解如何使用新的計算量度產生器和計算量度管理員來建立和管理計算量度，請參閱[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html)指南。
 
 在請求精靈的步驟 2 中，您可以篩選和套用計算量度。
 
@@ -49,4 +48,3 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 選取篩選器後，按一下「**[!UICONTROL 套用]**」可將量度套用至您的請求。選取的量度現在會新增至報表配置。
 
 ![](assets/filtering_for_metric.png)
-
