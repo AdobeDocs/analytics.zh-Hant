@@ -2,14 +2,13 @@
 description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報表資料、變更以圖形呈現資料的方式、變更日期精細度等等。
 title: 自訂報表概觀
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 100%
+source-wordcount: '924'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +38,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [功能表自訂](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/customize-menus.html)
+>* [功能表自訂](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
 
 
 ## 選擇日期或日期範圍 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -87,7 +86,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
->如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/home.html)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
+>如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
 
 若要比較「Report &amp; Analytics」中排名報表之間的日期：
 
@@ -210,7 +209,7 @@ t_reports_day_of_week.xml
 1. 在指定日期範圍執行趨勢報表。
 1. 按一下&#x200B;**[!UICONTROL 一週中的某天]**&#x200B;連結，然後按一下某一天。
 
-## 「在工作區中試用」按鈕{#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
+## 「在工作區中試用」按鈕 {#concept_DA41E22460B94BD9ADF63B1CEE2714A7}
 
 按一下在報表頂端的&#x200B;**[!UICONTROL 「在工作區中試用」]**&#x200B;按鈕會載入與 Analysis Workspace 相同的報表。
 
@@ -224,4 +223,4 @@ try_in_workspace.xml
 
 目前，此按鈕僅限擁有 Analysis Workspace 完整權限的使用者名稱可以使用。
 
-如需自訂報表所有方式的詳細資訊，請參閱 [Analysis Workspace](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html) 指南。
+如需自訂報表所有方式的詳細資訊，請參閱 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 指南。
