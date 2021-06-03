@@ -4,11 +4,10 @@ subtopic: Classifications
 title: 分類規則集
 feature: 管理工具
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '399'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '397'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +59,7 @@ ht-degree: 100%
 
 1. (先決條件) 在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報告套裝」]**&#x200B;中定義分類結構。
 
-   (請參閱「管理工具」說明中的[「分類」](https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html)，了解如何新增分類。)
+   (請參閱「管理工具」說明中的[「分類」](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)，了解如何新增分類。)
 
    必須先為變數定義至少一個分類，變數才會顯示在[!UICONTROL 「新的規則集」]面板中。
 
