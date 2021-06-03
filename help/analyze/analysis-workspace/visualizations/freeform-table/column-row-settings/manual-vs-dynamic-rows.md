@@ -4,11 +4,10 @@ description: 如何與表格中的動態和靜態維度項目互動。
 feature: 自由表格
 role: Business Practitioner, Administrator
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '486'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '484'
+ht-degree: 98%
 
 ---
 
@@ -54,4 +53,4 @@ ht-degree: 100%
 自由表格總計列中動態和靜態列的行為不相同。根據預設：
 
 * 動態列會在伺服器端加總，並去除重複量度，例如造訪或訪客
-* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[深入了解](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
+* 靜態列則在用戶端加總，且&#x200B;**不會**&#x200B;去除重複量度。若要在伺服器端計算總計列，請將「列」設定更改為&#x200B;**「顯示總計」**。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)
