@@ -5,11 +5,10 @@ title: 準備使用資料來源
 topic-fix: Developer and implementation
 uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '567'
+ht-degree: 97%
 
 ---
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 為資料來源的資料決定適當的量度-事件映射後，針對關聯的資料來源量度，以適當的描述名稱重新命名事件。
 
-請參閱「管理工具」說明中的「[成功事件](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)」。
+請參閱「管理工具」說明中的「[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」。
 
 >[!NOTE]
 >
@@ -51,7 +50,7 @@ ht-degree: 100%
 
 若是 eVar，您可使用現存 eVar 或新的 eVar 做為資料維度。選取接受資料來源資料維度的 eVar 後，確定您將 eVar 正確命名。
 
-請參閱「分析說明」中的「[成功事件](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/success-events/success-event.html)」。
+請參閱「分析說明」中的「[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」。
 
 ## 促銷活動追蹤程式碼 {#section_468222796FF449ABAA90D88EB3264CB1}
 
@@ -63,7 +62,7 @@ ht-degree: 100%
 
 交易 ID 是用於將線上事件連結到離線事件。
 
-## 識別「資料來源」資料的有效日期範圍  {#section_03AAB1291BDC4403BDC50905A78FDB71}
+## 識別「資料來源」資料的有效日期範圍 {#section_03AAB1291BDC4403BDC50905A78FDB71}
 
 定義您的資料來源量度 (自訂事件) 和資料維度 (eVar) 後，檢查您要匯入之資料來源資料的日期範圍。您無法匯入現存報表資料範圍以外的資料來源。
 
