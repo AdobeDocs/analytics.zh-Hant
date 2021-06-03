@@ -1,16 +1,15 @@
 ---
 description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
-feature: Workspace Basics
+feature: Workspace 基本知識
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 83%
+source-wordcount: '657'
+ht-degree: 82%
 
 ---
-
 
 # Analysis Workspace 的協助工具
 
@@ -24,20 +23,20 @@ ht-degree: 83%
 
 [!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。以下是可輔助協助工具的導覽元素：
 
-* `Tab` 鍵可讓您找出快速鍵，在工作區中的較大區段之間移動。 在左側導軌中，`Tab`也可讓您從一個可拖曳選項移至下一個。
-* `left/right arrows`在`Tab`反白顯示後，會在個別元素之間移動。
-* `F6`會導覽至專案中的第一個面板，並在該面板中的視覺化之間移動。 然後，它會移至專案中的下一個面板並重複。
+* `Tab` 鍵可讓您找出快速鍵，可在工作區中的較大區段之間移動。 在左側邊欄中，`Tab`也可讓您從一個可拖曳選項移至下一個。
+* `Tab`強調顯示後， `left/right arrows`會在個別元素之間移動。
+* `F6`會導覽至專案中的第一個面板，並在該面板內的視覺效果之間移動。 接著，它會移至專案中的下一個面板並重複。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
    ![焦點指標](assets/focus-indicator.png)
 
-### 選單列的鍵盤導覽
+### 菜單欄的鍵盤導航
 
-1. 頁籤，直到您到達菜單欄。
-1. 使用向左／向右方向鍵導覽至您想要的功能表。
-1. 按`Enter`選擇菜單並顯示其選項。
-1. 使用向上／向下鍵導覽至您想要的功能表選項。
-1. 按`Enter`選擇選項。
+1. 頁簽，直到到達菜單欄。
+1. 使用左/右方向鍵導覽至您想要的功能表。
+1. 按下`Enter`以選取功能表並顯示其選項。
+1. 使用向上/向下方向鍵導覽至您想要的功能表選項。
+1. 按下`Enter`以選取選項。
 
 ### 拖放互動的鍵盤導覽
 
@@ -50,7 +49,7 @@ ht-degree: 83%
 
 ### 鍵盤快速鍵 (熱鍵)
 
-[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
+[!UICONTROL Analysis Workspace] 提供了一組豐富的[鍵盤快速鍵](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant)，讓工作流程更加順暢。以下列出導覽、建立分析和加速深入分析的常用捷徑。
 
 #### 導覽
 
@@ -71,7 +70,7 @@ ht-degree: 83%
 | Ctrl + Shift + D | 新增日期範圍 |
 | Ctrl + Shift + E | 新增區段 |
 | Ctrl + Z | 還原 |
-| 按住 Shift 鍵 (在面板區段放置區中) | 建立[下拉式篩選器](https://docs.adobe.com/content/help/en/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html) |
+| 按住 Shift 鍵 (在面板區段放置區中) | 建立[下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) |
 
 #### 加速
 
@@ -92,7 +91,7 @@ ht-degree: 83%
 
 [!UICONTROL Analysis Workspace] 致力於達到 WCAG 2.1 AA 的要求，包括色彩對比的要求。
 
-此外，使用者可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案設定]** > [專案調色盤](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html)下，針對專案設定自己偏好的調色盤。
+此外，使用者可在&#x200B;**[!UICONTROL 專案]** > **[!UICONTROL 專案設定]** > [專案調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant)下，針對專案設定自己偏好的調色盤。
 
 ## 元件產生器中的必要欄位驗證
 
