@@ -5,11 +5,10 @@ uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 feature: 視覺效果
 role: Business Practitioner, Administrator
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '501'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 100%
 * 更廣泛的一般流量流程：此流量可顯示在瀏覽過首頁的人當中，有多少人接下來執行了搜尋操作，接著又有多少人最終瀏覽至某一特定項目。
 * 網站上事件之間的關聯。關聯顯示在瀏覽過隱私政策的人當中，有百分之幾的人接下來執行了購買操作。
 
-[流失視覺化教學課程影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
+[流失視覺化教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analyzing-customer-journeys/fallout-visualization.html) (4:15)
 
 ## 區段作為流量和流失的基礎 {#section_654F37A398C24DDDB1552A543EE29AA9}
 
