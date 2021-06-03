@@ -2,20 +2,19 @@
 description: 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 Analytics® 與電子郵件行銷的行為資訊，成為一項功能強大的工具，可重新定義成功測量，並透過更具相關性的訊息鎖定對象。
 title: Adobe Analytics 的 DreamMail Data Connector
 uuid: f6c01bf8-4e6a-4163-9d41-f24fb5f06bdc
-translation-type: tm+mt
-source-git-commit: 3850dc3503ca57ba4f13f0de63e8420e484db501
+exl-id: a37bf616-0f2a-4009-825f-92c30e79336f
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 98%
+source-wordcount: '803'
+ht-degree: 97%
 
 ---
-
 
 # Adobe Analytics 的 DreamMail Data Connector{#dreammail-data-connector-for-adobe-analytics}
 
 >[!IMPORTANT]
 >
->我們將於2021年8月1日終止Adobe Data Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
+>我們將於2021年8月1日終止AdobeData Connector技術。 [更多詳情...](/help/import/data-connectors/data-connectors-eol.md)
 
 此 Adobe® Data Connectors™ 電子郵件整合功能結合了 Analytics® 與電子郵件行銷的行為資訊，成為一項功能強大的工具，可重新定義成功測量，並透過更具相關性的訊息鎖定對象。
 
@@ -73,4 +72,4 @@ ht-degree: 98%
 
 這項整合需要 Analytics 變數來追蹤量度。
 
-在識別要與這項整合搭配使用的事件和 eVar 後，必須在 Analytics Admin Console 中啟用它們 (如需指示，請參閱[報表套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/report-suites-admin.html))。
+在識別要與這項整合搭配使用的事件和 eVar 後，必須在 Analytics Admin Console 中啟用它們 (如需指示，請參閱[報表套裝](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html))。
