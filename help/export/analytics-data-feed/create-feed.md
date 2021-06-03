@@ -2,10 +2,10 @@
 title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 7312b61b8d73f45afa3eb9aac73cc4d5fd39bc82
+source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 95%
+source-wordcount: '948'
+ht-degree: 86%
 
 ---
 
@@ -43,9 +43,19 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
 ### S3
 
-您可以直接傳送摘要至 Amazon S3 貯體。貯體名稱、存取金鑰 ID 和機密金鑰為必填。如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+您可以直接傳送摘要至 Amazon S3 貯體。此目的地類型需有貯體名稱、存取金鑰ID和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
 
 ![S3 資訊](assets/dest-s3.jpg)
+
+您為上傳資料摘要提供的使用者必須具備下列[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+   >[!NOTE]
+   >
+   >對於每個上傳至Amazon S3儲存貯體， [!DNL Analytics]會將儲存貯體擁有者新增至BucketOwnerFullControl ACL，無論該儲存貯體是否有需要的原則。 如需詳細資訊，請參閱「[Amazon S3資料饋送的BucketOwnerFullControl設定是什麼？](df-faq.md#BucketOwnerFullControl)」
 
 下列 16 個標準 AWS 區域有受到支援 (必要時會使用適當的簽章演算法)：
 
