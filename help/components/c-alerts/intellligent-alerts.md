@@ -3,11 +3,10 @@ description: 新的智慧型警報系統可提供更細微的警報控制能力�
 title: 智慧型警報
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
 
-## 概述 {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
+## 概觀 {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
 >[!IMPORTANT]
 >
@@ -28,7 +27,7 @@ ht-degree: 100%
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
 * 建立在單一警報中擷取多個量度的「堆疊」警報.
 
-新警報系統的元件包括：警報產生器、警報管理器、警報預覽和更理想的內容感知存取建立警報方式。舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊型警報功能[不再提供使用](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/alerts.html)。
+新警報系統的元件包括：警報產生器、警報管理器、警報預覽和更理想的內容感知存取建立警報方式。舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊型警報功能[不再提供使用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html)。
 
 取得「警報產生器」有四種方式：
 
@@ -76,7 +75,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：我能否取得包含虛線的「預期值」表格 (或某種顯示相關數值的輸出資料)？</b> </p> </td> 
-   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請觀看此影片：<a href="https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。此方式是使用固定 30 天培訓期，固定 95％ 間隔。 </p> </td> 
+   <td colname="col2"> <p>使用 Workspace 時不行。但您可以使用 Report Builder 做到這點 (請觀看此影片：<a href="https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/report-builder/anomaly-detection-in-report-builder.html"  >Report Builder 中的異常偵測</a>)。 </p> <p>請留意，Report Builder 使用的是較簡單的異常偵測方式。此方式是使用固定 30 天培訓期，固定 95％ 間隔。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
