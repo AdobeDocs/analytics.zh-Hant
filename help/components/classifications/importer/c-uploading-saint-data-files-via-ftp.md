@@ -5,11 +5,10 @@ title: FTP 匯入
 feature: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '723'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '721'
+ht-degree: 99%
 
 ---
 
@@ -75,7 +74,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://docs.adobe.com/content/help/zh-Hant/analytics/export/ftp-and-sftp/ftp-overview.html)。
+如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
