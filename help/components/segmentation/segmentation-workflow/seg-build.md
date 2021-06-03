@@ -4,11 +4,10 @@ title: 建立區段
 feature: 區段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '2040'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 99%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 100%
 * **Analytics 頂端導覽**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段」]**。
 * **[!UICONTROL Analysis Workspace]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Workspace」]**，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立區段」]**。
 * **[!UICONTROL Reports &amp; Analytics]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟現有報表並按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/report-builder/data-requests/segmentation.html)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html)。
 
 ## 產生器條件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -63,7 +62,7 @@ ht-degree: 100%
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL X]**：(刪除) 可用來刪除這個部分的區段定義。
 1. **[!UICONTROL Experience Cloud 發佈]**：將 Adobe Analytics 區段發佈至 Experience Cloud，可讓您在 [!DNL Audience Manager] 和其他啟用管道中，使用該區段進行行銷活動。[更多詳情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 受眾庫]**：Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL 受眾庫]**：Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
 1. **[!UICONTROL 搜尋]**：搜尋維度、區段或量度清單。
 1. **[!UICONTROL 維度]**：(清單) 按一下標題可展開。
 1. **[!UICONTROL 量度]**：按一下標題可展開。
@@ -204,7 +203,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
+   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>然後 </p> <p> 購物車新增等於 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
