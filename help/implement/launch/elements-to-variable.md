@@ -2,11 +2,10 @@
 title: 將 Launch 資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +34,7 @@ ht-degree: 100%
 
 ### 在規則中設定變數
 
-不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform Launch 使用手冊中的[規則](https://docs.adobe.com/content/help/zh-Hant/launch/using/reference/manage-resources/rules.html)。
+不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform Launch 使用手冊中的[規則](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html)。
 
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下所需的 Launch 屬性。
