@@ -1,14 +1,13 @@
 ---
 description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
 title: 追蹤手動模式和自動模式
-translation-type: ht
-source-git-commit: 69db61bdfd9375df4d090add7d8ed08135d1f087
-workflow-type: ht
-source-wordcount: '594'
-ht-degree: 100%
+exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '592'
+ht-degree: 98%
 
 ---
-
 
 # 追蹤：手動模式和自動模式
 
@@ -29,7 +28,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/csp.html)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)。
 
 ## 手動模式追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
