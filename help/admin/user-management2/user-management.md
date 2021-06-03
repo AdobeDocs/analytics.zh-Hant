@@ -5,10 +5,10 @@ title: 使用者和產品管理
 feature: 管理工具
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 96%
+source-wordcount: '559'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
 ## Admin Console 管理員的說明資源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
@@ -32,11 +32,11 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>將 Analytics 使用者 ID 移轉至 Admin Console </p> </td> 
-   <td colname="col2"> <p> Adobe 會協助 Analytics 管理員將使用者 ID 移轉至 Adobe Admin Console。此移轉作業會分批進行。輪到移轉您的使用者時，Adobe 會以含有相關說明的電子郵件通知 Analytics 管理員。屆時，Analytics 使用者管理中將會提供<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">移轉工具</a>以簡化作業。 </p> <p>重要：使用者移轉當天，系統會將您先前的權限群組自動複製到 Admin Console。您將無法在 Analytics「管理工具」中邀請新的使用者或建立新群組。如需如何準備移轉作業以及受影響之管理功能的相關資訊，請檢閱 <a href="https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Analytics 使用者移轉至 Admin Console</a> 的常見問題集和說明。 </p> </td> 
+   <td colname="col2"> <p> Adobe 會協助 Analytics 管理員將使用者 ID 移轉至 Adobe Admin Console。此移轉作業會分批進行。輪到移轉您的使用者時，Adobe 會以含有相關說明的電子郵件通知 Analytics 管理員。屆時，Analytics 使用者管理中將會提供<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">移轉工具</a>以簡化作業。 </p> <p>重要：使用者移轉當天，系統會將您先前的權限群組自動複製到 Admin Console。您將無法在 Analytics「管理工具」中邀請新的使用者或建立新群組。如需如何準備移轉作業以及受影響之管理功能的相關資訊，請檢閱 <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html">Analytics 使用者移轉至 Admin Console</a> 的常見問題集和說明。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>啟動 Admin Console </p> </td> 
-   <td colname="col2"> <p>您的使用者帳戶移轉後，就可以在 Admin Console 中管理所有解決方案中的使用者和產品 </p> <p>導覽至：<a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>如需說明，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html">管理 Experience Cloud 使用者和產品</a>，以瞭解 Admin Console 中 Experience Cloud 使用者和產品管理的更新。 </p> </td> 
+   <td colname="col2"> <p>您的使用者帳戶移轉後，就可以在 Admin Console 中管理所有解決方案中的使用者和產品 </p> <p>導覽至：<a href="https://adminconsole.adobe.com/enterprise/#">https://adminconsole.adobe.com/enterprise/</a>。 </p> <p>如需說明，請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">管理 Experience Cloud 使用者和產品</a>，以瞭解 Admin Console 中 Experience Cloud 使用者和產品管理的更新。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
