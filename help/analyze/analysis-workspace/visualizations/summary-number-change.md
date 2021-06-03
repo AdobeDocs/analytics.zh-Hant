@@ -5,17 +5,16 @@ uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: 視覺效果
 role: Business Practitioner, Administrator
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '463'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 96%
 
 ---
 
 # 摘要數字和摘要變更
 
-## 摘要數字視覺效果 {#summary-number}
+## 摘要數字視覺效果  {#summary-number}
 
 使用「摘要數字」視覺效果來強調專案中重要的大數字。此視覺效果的運作方式如下：
 
@@ -46,7 +45,7 @@ ht-degree: 100%
 
 ## 摘要變更視覺效果 {#summary-change}
 
-使用「摘要變更」視覺效果以顯示兩個數字間的差異 (變更)。可透過[自訂事件極性](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/success-events/success-event.html)，或計算量度的[「顯示上升趨勢的方式」](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)選項，控制「摘要變更」的綠色和紅色。
+使用「摘要變更」視覺效果以顯示兩個數字間的差異 (變更)。可透過[自訂事件極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)，或計算量度的[「顯示上升趨勢的方式」](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)選項，控制「摘要變更」的綠色和紅色。
 
 此視覺效果的運作方式如下：
 
