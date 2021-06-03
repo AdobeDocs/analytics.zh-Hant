@@ -6,10 +6,10 @@ title: 自訂量度權限
 feature: 管理工具
 uuid: 7bfff68a-2add-4068-a07d-87a4f624634c
 exl-id: 84382ff1-845c-442a-9882-7eb9afcdec9a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 93%
+source-wordcount: '241'
+ht-degree: 89%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
 為流量量度、轉換量度、自訂事件、解決方案事件和內容感知啟用權限。
 
@@ -29,7 +29,7 @@ ht-degree: 93%
 
 ## 解決方案事件
 
-除了[自訂事件](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/events/event-serialization.html)，此類別也包含 Analytics 解決方案事件，包括 Experience Manager (AEM)、Advertising Cloud (AMO)、行動裝置、視訊和 Social。具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。
+除了[自訂事件](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html)，此類別也包含 Analytics 解決方案事件，包括 Experience Manager (AEM)、Advertising Cloud (AMO)、行動裝置、視訊和 Social。具有任何量度的每個自訂群組，會將所有 Analytics 解決方案事件新增為新量度。
 
 您可以對自訂事件和 Analytics 解決方案事件 (AEM、AMO、設定權限) 設定權限。
 
