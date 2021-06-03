@@ -2,10 +2,10 @@
 description: 在此詳細指南中探索您可以使用 Advertising Analytics 進行的所有功能，包括所需的權限以及可用的維度和量度。
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 97%
+source-wordcount: '1261'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
 * 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。
-* 無論您要在任何 Analytics 報告套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 無論您要在任何 Analytics 報告套裝中檢視 Google/Bing 搜尋資料，該套裝報表都必須[對應至您的 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 針對您要檢視 Google/Bing 搜尋資料的任何報告套裝，請[啟用 Advertising Analytics 報告套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md) (**[!UICONTROL 「管理員]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定」]**)。
 
 * 若要將搜尋帳戶整合至 Adobe Analytics，您需要擁有具備編輯權限之帳戶的使用者登入憑證，例如 Google 帳戶 ID 和密碼。
@@ -56,13 +56,13 @@ Analytics 會自動授予 Analytics 管理員兩項權限。之後，管理員�
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
    <td colname="col2"> <p>可讓使用者設定/編輯/檢視廣告搜尋帳戶。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理</span> &gt;所 <span class="uicontrol"> 有管理員 </span>  &gt;使用者管理 <span class="uicontrol"> &gt;編輯存取報表</span> &gt;所有報表&gt;自訂Analytics Analytics Management Groups <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> &gt;自訂Analytics</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理員</span>  &gt;  <span class="uicontrol"> 所有管 </span>  理員&gt;  <span class="uicontrol"> 使用者管理</span>  &gt;  <span class="uicontrol"> 群組</span>  &gt;  <span class="uicontrol"> 編輯所有報表存取權</span>  &gt;  <span class="uicontrol"> 自訂Analytics工具</span>  &gt;  <span class="uicontrol"> Advertising Analytics管理</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理」</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 設定 </p> </td> 
    <td colname="col2"> <p>可讓使用者設定要為 Advertising Analytics 佈建的報告套裝。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理員</span> &gt;所有管 <span class="uicontrol"> 理員 </span>  &gt;使用者管理組 <span class="uicontrol"> &gt;編輯存取所有報表</span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> </span>  <span class="uicontrol"> &gt;自訂報表工具&gt;自訂報表套裝&gt;Advertising Analytics組態設定</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理</span>  &gt;  <span class="uicontrol"> 所有管 </span>  理員&gt;  <span class="uicontrol"> 使用者管理</span>  &gt;  <span class="uicontrol"> 群組</span>  &gt;  <span class="uicontrol"> 編輯所有報表存取權</span>  &gt;  <span class="uicontrol"> 自訂報表套裝工具</span>  &gt;  <span class="uicontrol"> Advertising Analytics設定</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">報告套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
   </tr> 
  </tbody> 
