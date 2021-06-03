@@ -2,14 +2,13 @@
 description: 「Report & Analytics」中的報表功能表概述。
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '780'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-如需個別報表的詳細資訊，請參閱[報表說明](https://docs.adobe.com/content/help/en/analytics/components/variables/c-variables.html)。
+如需個別報表的詳細資訊，請參閱[報表說明](https://experienceleague.adobe.com/docs/analytics/components/variables/c-variables.html)。
 
 ## 搜尋報表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 
@@ -66,7 +65,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">區段 <img placement="inline"  src="assets/segment_icon.png" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
-   <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >「區段產生器」</a>和<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >「區段管理員」</a>介面。 </td> 
+   <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >「區段產生器」</a>和<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html"  >「區段管理員」</a>介面。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
@@ -114,7 +113,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1">報表套裝選擇器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">讓您選取<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本報表套裝</a>或<a href="https://docs.adobe.com/help/zh-Hant/analytics/components/virtual-report-suites/vrs-about.html"  >虛擬報表套裝</a>。 </td> 
+   <td colname="col2">讓您選取<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本報表套裝</a>或<a href="https://docs.adobe.com/help/zh-Hant/analytics/components/virtual-report-suites/vrs-about.html"  >虛擬報表套裝</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日曆 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
@@ -125,4 +124,4 @@ ht-degree: 100%
 
 ## 自訂全部報表功能表 {#section_7E47312747564FBE8A55EE5726B7DFF4}
 
-管理員可以變更「報表」功能表中所含的報表。請參閱「管理說明」中的[功能表自訂](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/customize-menus.html)。
+管理員可以變更「報表」功能表中所含的報表。請參閱「管理說明」中的[功能表自訂](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)。
