@@ -5,11 +5,10 @@ title: 視覺效果概述
 feature: 視覺效果
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1092'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 99%
 
 ---
 
@@ -79,7 +78,7 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
+以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
 
 ## 在功能表上按一下右鍵{#right-click}
 
