@@ -4,14 +4,13 @@ title: Analytics 報表 API 比較
 uuid: fa533a8e-33c0-42f4-a294-cabee0258c8f
 feature: API
 role: Developer
-translation-type: tm+mt
-source-git-commit: 4359f451692b86087efe27d4b3ec49ca85b7addc
+exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 93%
 
 ---
-
 
 # Analytics 報表 API 比較
 
@@ -40,7 +39,7 @@ ht-degree: 100%
    <td colname="col5"> 用於提取大型資料匯出的完整處理、已完成的資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/latency.html"  > 延遲性</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > 延遲性</a> </p> </td> 
    <td colname="col2"> 30-90 分鐘 </td> 
    <td colname="col3"> * 秒 -10 分鐘 </td> 
    <td colname="col4"> 秒 -10 分鐘 </td> 
@@ -54,7 +53,7 @@ ht-degree: 100%
    <td colname="col5"> 全螢幕 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html"  > 報表介面</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > 報表介面</a> </td> 
    <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API 中的即時報表 </td> 
    <td colname="col4"> 僅 API </td> 
@@ -86,7 +85,7 @@ ht-degree: 100%
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 即時報表</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Livestream 概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://docs.adobe.com/content/help/zh-Hant/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,4 +94,3 @@ ht-degree: 100%
 
 * [Adobe/IO](https://www.adobe.io/) - 將 Adobe 技術整合至您的應用程式所需的技術文件和工具的廣泛來源。
 * [Data Workbench 查詢 API](https://marketing.adobe.com/developer/documentation/data-workbench-query-api/c-ins-qry-api)
-
