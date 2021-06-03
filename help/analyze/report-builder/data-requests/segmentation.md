@@ -4,14 +4,13 @@ title: 管理區段
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 99%
+source-wordcount: '914'
+ht-degree: 98%
 
 ---
-
 
 # 管理區段
 
@@ -28,7 +27,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 >若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. 在「請求精靈」步驟 1 的區段面板中，按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。
+1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 1. 在定義及儲存區段之後，返回「請求精靈」。
 1. 按一下「重新整理」圖示以重新整理區段清單。
 
@@ -45,7 +44,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_in_context.png)
 
-   如需容器的詳細資訊，請參閱[劃分指南](https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html)。
+   如需容器的詳細資訊，請參閱[劃分指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
 1. 區段產生器使用者介面將立即在 Internet Explorer 中啟動。區段產生器使用者介面將會依您指定的容器與篩選條件進行起始化。
 1. 將名稱與說明新增至區段後，請儲存。
@@ -84,7 +83,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 | 其他篩選條件 > 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |
 | 其他篩選條件 > 批准 | 顯示所有已正式批准的區段。 |
 
-## 將區段控制項新增至活頁簿  {#section_E3E5149A8464441FA5445A98DBD520AC}
+## 將區段控制項新增至活頁簿 {#section_E3E5149A8464441FA5445A98DBD520AC}
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
@@ -103,7 +102,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_control2.png)
 
-## 重新整理區段清單  {#section_22E4A86789444B4A998532396B476EFB}
+## 重新整理區段清單 {#section_22E4A86789444B4A998532396B476EFB}
 
 每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 (![](assets/refresh_icon.png)，以重新整理區段的快取清單。
 
@@ -126,4 +125,3 @@ Report Builder 5.4 可讓您在多個目標請求當中新增、移除、取代�
    | 「取代區段」 | 可讓您選擇要以一個或多個區段來取代的區段。 |
    | 「取代所有區段依據」 | 可讓您選擇要以一個或多個區段來取代的一個或多個區段。 |
    | 「移除區段」 | 可讓您從請求中移除區段。 |
-
