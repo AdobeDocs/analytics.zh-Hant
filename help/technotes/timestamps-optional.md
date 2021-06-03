@@ -5,11 +5,10 @@ title: 使用可選時間戳記
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 100%
+source-wordcount: '614'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 >
 >針對所有從範本產生的新報告套裝，選擇式時間戳記皆為預設設定。由現有報告套裝複製的新報告套裝，將繼承原始報告套裝的時間戳記設定。
 
-如需其他的設定資訊，請參閱[可選時間戳記](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/timestamp-optional.html)。
+如需其他的設定資訊，請參閱[可選時間戳記](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/timestamp-optional.html)。
 
 ## 可選時間戳記：整合了時間戳記與非時間戳記資料 {#section_BF17CB593044462B993FD0D28EA56518}
 
@@ -69,7 +68,7 @@ ht-degree: 100%
 
    順序錯誤的資料包括來自離線資料收集的遲到資料和遲到點擊，或離線行動裝置上的不同步時鐘。順序錯誤的資料會影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
-* 不建議在設定 [s.visitorID](https://docs.adobe.com/content/help/zh-Hant/analytics/technotes/visitor-identification.html) 時使用時間戳記。這可能會造成資料順序錯誤。
+* 不建議在設定 [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) 時使用時間戳記。這可能會造成資料順序錯誤。
 
 * 由應用程式 (有時間戳記的離線資料) 開啟網路瀏覽器 (非時間戳記的即時資料) 組成的混合應用程式不應使用時間戳記。這會導致錯誤報告作業階段。
 
