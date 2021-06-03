@@ -2,14 +2,13 @@
 description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports and analytics 基本需知
+feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 100%
+source-wordcount: '2335'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +62,7 @@ t_reports_conversion_funnel.xml
 
 若要執行此報表，請選取一個報表 (例如「頁面」報表) (**[!UICONTROL 「報表]** > **[!UICONTROL 促銷活動]** > **[!UICONTROL 追蹤代碼]** > **[!UICONTROL 促銷活動轉換漏斗」]**)。
 
-如需相關說明，請參閱[轉換報表](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion.html)。
+如需相關說明，請參閱[轉換報表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html)。
 
 ## 執行流失報表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
@@ -75,7 +74,7 @@ t_reports_fallout.xml
 
  -->
 
-查看 Analysis Workspace 新的[流失分析](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
+查看 Analysis Workspace 新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
 
 1. 在 [!UICONTROL Adobe Analytics] 中，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 流失」]**。
 1. 在[!UICONTROL 流失報表]頁面上，按一下&#x200B;**[!UICONTROL 啟動流失 Report Builder]**。
@@ -89,16 +88,16 @@ t_reports_fallout.xml
 
 >[!MORELIKETHIS]
 >
->* [流失報表說明](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-fallout.html)
+>* [流失報表說明](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
 
 
 ## 執行頁面流程報表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
 「頁面流程報表」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報表可協助解答
 
-查看 Analysis Workspace 新的[流量視覺化](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
+查看 Analysis Workspace 新的[流量視覺化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
 
-執行[路徑](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-paths.html)報表。
+執行[路徑](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html)報表。
 
 例如，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 下一頁流量」]**。
 
@@ -124,7 +123,7 @@ t_reports_funnel.xml
 
  -->
 
-1. 按一下「**[!UICONTROL 報表]** > **[!UICONTROL 產品]** > [產品轉換漏斗](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)」。
+1. 按一下「**[!UICONTROL 報表]** > **[!UICONTROL 產品]** > [產品轉換漏斗](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)」。
 
 ## 執行行銷管道報表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -148,15 +147,15 @@ t_anomaly_view.xml
 
  -->
 
-查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
+查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
 
 **[!UICONTROL 報表]** > **[!UICONTROL 網站量度]** > **[!UICONTROL 異常偵測]**。
 
 >[!NOTE]
 >
->您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
+>您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
 
-如需設定異常偵測的資訊，請參閱[參考指南](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)。
+如需設定異常偵測的資訊，請參閱[參考指南](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)。
 
 異常偵測顯示兩種圖表：摘要圖表和個別度量圖表。只有在至少對於度量偵測到一個異常時，個別度量圖表才會顯示。
 
@@ -183,7 +182,7 @@ t_anomaly_view.xml
         <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和預期值相同，則偏差百分比為 -100% </li> 
         <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">若不同，偏差百分比是 ((下限值 - 實際值) / (預期值 - 下限值)) * -100 </li> 
        </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下<span class="uicontrol">「顯示區段」</span>會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://docs.adobe.com/content/help/en/analytics/components/segmentation/seg-home.html"  >深入了解</a>區段。 </li> 
+      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下<span class="uicontrol">「顯示區段」</span>會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >深入了解</a>區段。 </li> 
       <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下<span class="uicontrol">「編輯量度」</span>可讓您選取和取消選取您要偵測異常的量度。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -236,7 +235,7 @@ t_anomaly_config.xml
 
    ![](assets/ad_top_menu.png)
 
-   如需建立和管理區段的詳細資訊，請參閱[分析分段指南](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/seg-home.html)。1.(可選) 收藏報表或將報表設為書籤。
+   如需建立和管理區段的詳細資訊，請參閱[分析分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。1.(可選) 收藏報表或將報表設為書籤。
 1. (選用) 變更視圖時段的結束日期。預設值為昨日。
 1. 您現在可以開始解讀報表。[檢視異常偵測圖表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
 
@@ -254,7 +253,7 @@ reports_realtime.xml
 
 即時報表提供兩個主要報表 - 概述報表和詳細報表。這些分別包含許多小報表。
 
-如需設定即時報表的資訊，請參閱[分析參考指南](https://docs.adobe.com/content/help/zh-Hant/analytics/landing/home.html#RealTime_Reports_Configuration)。
+如需設定即時報表的資訊，請參閱[分析參考指南](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)。
 
 1. 檢視&#x200B;**[!UICONTROL 概述]**&#x200B;報表及其元件：![](assets/rtr_overview_report.png)
 
@@ -264,8 +263,8 @@ reports_realtime.xml
    <th class="chdeschd"> 說明 </th> 
    </thead> 
    <tr class="chrow strow"> 
-   <td class="choption"><strong>選取報表套裝</strong></td> 
-   <td class="chdesc stentry"> 顯示此即時報表涵蓋的報表套裝。若要變更報表套裝，請參閱<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >即時報表組態</a>。 </td> 
+   <td class="choption"><strong>選取報告套裝</strong></td> 
+   <td class="chdesc stentry"> 顯示此即時報表涵蓋的報表套裝。若要變更報表套裝，請參閱<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >即時報表組態</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切換報表</strong></td> 
