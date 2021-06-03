@@ -3,14 +3,13 @@ description: '您可以在整個 Analytics 中使用 AAM「對象」維度。整
 solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 uuid: 203925fb-f070-441c-813a-43099cb9b2b9
-translation-type: tm+mt
-source-git-commit: e758c070f402113b6d8a9069437b53633974a3e9
+exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '632'
+ht-degree: 93%
 
 ---
-
 
 # 在 Analytics 中使用對象資料
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 ## 區段比較 {#section_E72B80B6470C42D4B9B19BE90E6070A2}
 
-[區段比較](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)會找出兩個區段之間在統計上最顯著的差異。您可以兩種方式在「區段比較」中使用對象資料：1) 作為要比較的兩個區段，2) 作為「排名最前的維度項目」表格中的項目。
+[區段比較](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)會找出兩個區段之間在統計上最顯著的差異。您可以兩種方式在「區段比較」中使用對象資料：1) 作為要比較的兩個區段，2) 作為「排名最前的維度項目」表格中的項目。
 
 1. 前往&#x200B;**[!UICONTROL 「工作區」]**，然後從左欄選取&#x200B;**[!UICONTROL 「區段比較」]**&#x200B;面板。
 
@@ -42,23 +41,23 @@ ht-degree: 100%
 
    ![](assets/aud-segcompare.png)
 
-## Analysis Workspace 中的客戶歷程 (流量){#section_FC30E5795C9D4539838E30FE11FAEA6E}
+## Analysis Workspace 中的客戶歷程 (流量) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間點即時表示訪客的對象成員資格。也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
+AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間點即時表示訪客的對象成員資格。也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
 
 1. 前往&#x200B;**[!UICONTROL 「工作區」]**，然後從左欄選取&#x200B;**[!UICONTROL 「流量」]**&#x200B;視覺效果。
 
 1. 將[!UICONTROL 「對象名稱」]維度拖曳至「流量」產生器。
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
-1. (選用)：將任何其他維度拖曳至「流量」視覺效果可建立[維度間流量](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html)。
+1. (選用)：將任何其他維度拖曳至「流量」視覺效果可建立[維度間流量](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/multi-dimensional-flow.html)。
 
 ![](assets/flow-aamaudiences.png)
 
-對象也可用於[流失視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)中。
+對象也可用於[流失視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)中。
 
 ## Analysis Workspace 中的文氏圖表視覺效果 {#section_E78AB764FB5047148B51DC1526B0DF89}
 
-[文氏圖表視覺效果](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/visualizations/venn.html)可顯示最多 3 個區段之間的重疊部分。
+[文氏圖表視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/venn.html)可顯示最多 3 個區段之間的重疊部分。
 
 1. 前往&#x200B;**[!UICONTROL 「工作區」]**，然後從左欄選取&#x200B;**[!UICONTROL 「文氏圖表」]**&#x200B;視覺效果。
 
@@ -88,4 +87,3 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 1. 在此資料夾中，您可以同時存取「對象 ID」和「對象名稱」維度。
 
    ![](assets/mc-audiences.png)
-
