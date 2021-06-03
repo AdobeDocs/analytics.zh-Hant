@@ -4,11 +4,10 @@ title: Activity Map 報表
 feature: Activity Map
 uuid: 7636c670-bb6c-4a25-823a-7bbbba0b747b
 exl-id: e1d3f894-b769-4294-b550-f46869b812be
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 95%
 
 ---
 
@@ -30,4 +29,4 @@ ht-degree: 100%
    | Activity Map 連結 | 列出整個網站上所有收集的連結。 |
    | Activity Map 連結和地區 | 列出整個網站上所有收集的連結及其地區。 |
 
-對於要填入的資料，請參閱 [Activity Map 文件](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/activity-map/activity-map.html)以了解完整的實施作業指示。
+對於要填入的資料，請參閱 [Activity Map 文件](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)以了解完整的實施作業指示。
