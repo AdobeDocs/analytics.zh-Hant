@@ -5,10 +5,10 @@ subtopic: Users and groups
 title: 使用者和群組權限變更
 feature: 管理工具
 uuid: 94f2727b-17e4-4003-a222-35c821d6959e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 96%
+source-wordcount: '1556'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->使用者和產品管理已移至[Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。在所有客戶都移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理已移至[Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。 輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
 
 ## 變更為何？ {#section_2C205DE94155441B9E9D3E4C46CCF2EE}
 
@@ -65,12 +65,12 @@ ht-degree: 96%
    <td colname="col2"> <p>您可以自訂權限來加入或排除對維度的存取 (除了量度以外)。 </p> 
     <ul id="ul_DA5A54223673474E9151AF979DA50659"> 
      <li id="li_C3E82F7BC07A4F2F83A85D3D511292CC"> <p>自訂群組中的所有目前的維度和量度已自動遷移至新類別。如果現有群組已啟用量度，則將依預設為其指定所有新近獲得權限的維度 (eVars 和內容感知) 和量度。 </p> </li> 
-     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://docs.adobe.com/content/help/zh-Hant/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
+     <li id="li_CC56F9181CC14AB59318628E72F2E8C9"> Classifications Importer (即原 SAINT) 權限：存取類別是由存取類別基準的<a href="https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html">變數</a>所決定。 </li> 
     </ul> <p>請參閱<a href="/help/admin/user-management2/c-customize-report-access/groups-dimensions.md">自訂維度權限</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Admin Console </p> </td> 
-   <td colname="col2"> <p>僅新客戶或已在 <a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/core-services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html">在 Admin Console 中管理產品權限</a>。 </p> </td> 
+   <td colname="col2"> <p>僅新客戶或已在 <a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/core-services.html">Experience Cloud</a> 中佈建公司的客戶才建議使用。已計劃將現有 <span class="keyword">Analytics</span> 客戶移轉至 <span class="keyword">Experience Cloud</span> 識別管理系統。 </p> <p>如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html">在 Admin Console 中管理產品權限</a>。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,7 +143,7 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> 建立使用者 </td> 
-   <td colname="col2"> <p>Admin Console (建立使用者，並將對方新增至 Analytics <a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/admin-getting-started.html">產品設定</a>後，也會在 Analytics 中建立該使用者的帳戶)。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
+   <td colname="col2"> <p>Admin Console (建立使用者，並將對方新增至 Analytics <a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html">產品設定</a>後，也會在 Analytics 中建立該使用者的帳戶)。 </p> <p> <a href="/help/admin/user-management2/c-user-management/t-add-user-account.md"> 管理工具</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
    <td colname="col4"> <p> <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a> </p> </td> 
   </tr> 
@@ -168,8 +168,8 @@ ht-degree: 96%
   <tr> 
    <td colname="col1"> 建立群組 </td> 
    <td colname="col2"> <p>Admin Console - 在 Admin Console 中建立群組時，管理工具中會顯示 Analytics 中對應的群組，但不能從管理工具變更此對應的群組的名稱，或是從管理工具刪除該群組。 </p> <p>管理工具。 </p> </td> 
-   <td colname="col3"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> 建立產品設定</a>) </p> </td> 
-   <td colname="col4"> <p>Admin Console (<a href="https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html"> 建立產品設定</a>) </p> </td> 
+   <td colname="col3"> <p>Admin Console (<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> 建立產品設定</a>) </p> </td> 
+   <td colname="col4"> <p>Admin Console (<a href="https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html"> 建立產品設定</a>) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 編輯群組中的使用者 </td> 
