@@ -3,11 +3,10 @@ title: JavaScript 適用的 AppMeasurement 發行說明
 description: JavaScript 適用的 AppMeasurement 累積發行說明。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '2142'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '2132'
+ht-degree: 98%
 
 ---
 
@@ -309,8 +308,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2015 年 5 月 21 日**
 
-* 從 iOS SDK 4.5 版開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實施](https://docs.adobe.com/content/help/zh-Hant/mobile-services/ios/ios-ext/ios-ext.html)。
-* 從 Android SDK 4.5 版開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://docs.adobe.com/content/help/zh-Hant/mobile-services/android/wearables-android/android-wearable.html)。
+* 從 iOS SDK 4.5 版開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實施](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)。
+* 從 Android SDK 4.5 版開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版。
 
@@ -395,7 +394,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2014 年 4 月 17 日**
 
-* 支援 [Experience Cloud 訪客 ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
+* 支援 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 1.2.4 版
 
@@ -425,8 +424,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2013 年 11 月 14 日**
 
-* 新增對[心率視訊測量](https://docs.adobe.com/content/help/zh-Hant/media-analytics/using/media-overview.html)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://docs.adobe.com/content/help/zh-Hant/id-service/using/home.html)。
+* 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)的支援。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 1.1.1 版
 
