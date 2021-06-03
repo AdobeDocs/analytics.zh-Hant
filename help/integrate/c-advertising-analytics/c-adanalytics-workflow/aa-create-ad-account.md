@@ -2,11 +2,10 @@
 title: 如何在 Advertising Analytics 中設定 Advertising 帳戶
 description: 可讓您建立新的 Advertising 帳戶，並將多個帳戶對應到多個報表套裝。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '869'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '863'
+ht-degree: 97%
 
 ---
 
@@ -58,13 +57,13 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 
    | 設定 | 說明 |
    |--- |--- |
-   | 類型 | <ul><li>**自動：**&#x200B;讓 Advertising Cloud 引擎決定如何將追蹤參數附加到搜尋引擎的追蹤範本/目的地 URL。這是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**&#x200B;若要在「自動模式」中設定搜尋引擎帳戶，您必須執行下列動作：<br>-「s_kwcid」參數和值將新增至要新增之帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**注意：**&#x200B;進一步瞭解您是否應將此參數新增至您的[內容安全性原則](https://docs.adobe.com/content/help/zh-Hant/id-service/using/reference/csp.html)。<br>- 此外，關鍵字可以作為 &quot;S_kwcid&quot; 值的一部分，插入至著陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。</li><li>**手動：**&#x200B;讓您管理如何將追蹤參數新增到搜尋引擎的追蹤範本/目的地 URL。[如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
+   | 類型 | <ul><li>**自動：**&#x200B;讓 Advertising Cloud 引擎決定如何將追蹤參數附加到搜尋引擎的追蹤範本/目的地 URL。這是最簡單的方法，但可能不會產生最佳的整合資料集。<br>**重要：**&#x200B;若要在「自動模式」中設定搜尋引擎帳戶，您必須執行下列動作：<br>-「s_kwcid」參數和值將新增至要新增之帳戶中的帳戶追蹤範本或登陸頁面 URL。參數和值會插入 URL 末端。因此，如果您的網站伺服器在 URL 末端需要某個索引鍵/值組，或是需要更新以支援 URL 中的任何新索引鍵/值組，您可能需要執行額外的動作。**注意：**&#x200B;進一步瞭解您是否應將此參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)。<br>- 此外，關鍵字可以作為 &quot;S_kwcid&quot; 值的一部分，插入至著陸 URL 中，因此若關鍵字中包含特殊字元或符號，請確認您的網站伺服器可以支援這些字元 (常見特殊字元的範例為「+」，用於「加上廣泛比對修飾符」的關鍵字中)。</li><li>**手動：**&#x200B;讓您管理如何將追蹤參數新增到搜尋引擎的追蹤範本/目的地 URL。[如需各個搜尋引擎的相關資訊，請參閱這些手動追蹤範例](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-manual-vs-automatic-tracking.md)。</li></ul> |
 
 1. 在&#x200B;**[!UICONTROL 「對應」]**&#x200B;區段，您可以選擇要與這個搜尋引擎帳戶相連結的報表套裝。在儲存 Advertising 帳戶之前，您必須先提供至少一個報表套裝。您可以將多個帳戶對應到多個報表套裝 (1 對 1、1 對多、多對多)。請注意，系統只會將 AMO 從搜尋引擎提取的資料複製到任何對應的報表套裝，因此資料不會遭到分割。
 
    >[!IMPORTANT]
    >
-   >僅限[對應至 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)的報表套裝可供選取。如果畫面並未列出您的報表套裝，請參閱[疑難排解 Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
+   >僅限[對應至 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)的報表套裝可供選取。如果畫面並未列出您的報表套裝，請參閱[疑難排解 Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
    依照以下準則進行&#x200B;**[!UICONTROL 「對應設定」]**：
 
@@ -77,8 +76,8 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
     </thead>
     <tbody> 
       <tr> 
-      <td colname="col1"> <p>報表套裝映射 </p> </td> 
-      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
+      <td colname="col1"> <p>報表套裝對應 </p> </td> 
+      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
       </tr> 
     </tbody> 
     </table>
