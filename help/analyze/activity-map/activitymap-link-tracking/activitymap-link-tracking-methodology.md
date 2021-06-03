@@ -4,14 +4,13 @@ title: 連結追蹤方法
 uuid: 67864bf9-33cd-46fa-89a8-4d83d3b81152
 feature: Activity Map
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: f9d9c7dbaf5fde5bd51c929d927d4cd3f61cb63b
+exl-id: 6aef3a0f-d0dd-4c84-ad44-07b286edbe18
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1000'
 ht-degree: 96%
 
 ---
-
 
 # 連結追蹤方法
 
@@ -19,7 +18,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->任何可能含有 PII (個人識別資訊) 之文字的連結，都應使用 [s_objectID](https://docs.adobe.com/content/help/zh-Hant/analytics/implementation/vars/page-vars/page-variables.html) 明確實作，或是使用 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 連結集合。如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](/help/analyze/activity-map/lnk-tracking-overview.md)。
+>任何可能含有 PII (個人識別資訊) 之文字的連結，都應使用 [s_objectID](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html) 明確實作，或是使用 [s.ActivityMap.linkExclusions 或 s.ActivityMap.regionExclusions](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md#configuration-vars) 排除 ActivityMap 連結集合。如需進一步瞭解 Activity Map 收集 PII 資料的可能方式，請前往[這裡](/help/analyze/activity-map/lnk-tracking-overview.md)。
 
 Activity Map 的連結追蹤是根據下列兩個 ID：
 
@@ -34,9 +33,9 @@ Activity Map 的連結追蹤是根據下列兩個 ID：
 * Alttext
 * 標題
 * Src
-* Action
+* 動作
 
-## 使用 InnerText 和使用連結動作 (URL) 的比較  {#section_70C3573E22274522A8CC035BF18EC468}
+## 使用 InnerText 和使用連結動作 (URL) 的比較 {#section_70C3573E22274522A8CC035BF18EC468}
 
 「連結動作」是當連結被點按時，網頁所採取的動作 - 通常是連結點按後造訪的 URL。使用連結動作時可能會遇到的問題包括：
 
@@ -144,7 +143,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
     <code>}</code> </td>
    <td colname="col3"> 函數，接受被點按的 HTMLElement，且應傳回代表<b>被點按的連結</b>的字串值。<br/>
       <br/>
-     如果傳回值為false（null、undefined、empty字串、0），則不會追蹤任何連結。 </td>
+     如果傳回值為false（null、未定義、空字串、0），則不會追蹤任何連結。 </td>
   </tr>
   <tr>
    <td colname="col1"> s.ActivityMap.region </td> 
@@ -161,7 +160,7 @@ s.ActivityMap.regionIDAttribute = "lpos";
     <code>}</code> </td> 
    <td colname="col3"> 函數，接受被點按的 HTMLElement，且應傳回代表<b>在點按時連結所在地區</b>的字串值。<br/>
       <br/>
-     如果傳回值為false（null、undefined、empty字串、0），則不會追蹤任何連結。 </td>
+     如果傳回值為false（null、未定義、空字串、0），則不會追蹤任何連結。 </td>
   </tr>
   <tr>
    <td colname="col1"> s.ActivityMap.linkExclusions </td> 
