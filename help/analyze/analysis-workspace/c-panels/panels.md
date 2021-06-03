@@ -4,11 +4,10 @@ title: 面板概述
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1005'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '1001'
+ht-degree: 98%
 
 ---
 
@@ -34,13 +33,13 @@ ht-degree: 100%
 
 ## 報告套裝 {#report-suite}
 
-面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報告套裝]衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報告套裝](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
+面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報告套裝]衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報告套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
 
 報告套裝清單是依關聯性來分類；Adobe 是根據目前用戶最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。
 
 ![](assets/panel-report-suite.png)
 
-## 行事曆 {#calendar}
+## 日曆 {#calendar}
 
 面板行事曆會控制面板內表格和視覺效果的報告範圍。
 
@@ -82,7 +81,7 @@ ht-degree: 100%
 
 ![](assets/create-dropdown.png)
 
-[觀看影片](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
 
 ## 在功能表上按一下右鍵{#right-click}
 
