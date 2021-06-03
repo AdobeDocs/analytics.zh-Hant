@@ -2,22 +2,21 @@
 description: 建立、編輯或刪除警報。
 title: 警報管理器
 uuid: 4c7afadc-61c5-4239-ab8e-88b8f87438ef
-feature: AI Tools
+feature: AI 工具
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 96%
+source-wordcount: '157'
+ht-degree: 89%
 
 ---
-
 
 # 警報管理器
 
 ![](assets/alert-manager.png)
 
-「警報管理器」(「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報]**」) 的結構相當類似於「[區段管理員](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-manage.html)」和「[量度管理員](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)」，並可讓您
+「警報管理器」(「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 警報]**」) 的結構相當類似於「[區段管理員](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html)」和「[量度管理員](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html)」，並可讓您
 
 ![](assets/alert-manager-tasks.png)
 
@@ -36,4 +35,3 @@ ht-degree: 96%
 * 指定/變更警報的擁有者。
 * 新增其他篩選器
 * 定義警報&#x200B;**到期日**。
-
