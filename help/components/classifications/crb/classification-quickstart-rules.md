@@ -4,10 +4,9 @@ subtopic: Classifications
 title: 分類規則
 feature: 管理工具
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-translation-type: tm+mt
-source-git-commit: 8deec1546bc0c7ef7419eb733e54c2fffe90e252
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '2030'
+source-wordcount: '2028'
 ht-degree: 97%
 
 ---
@@ -60,7 +59,7 @@ about_classification_rules.xml
 
 ## 關於規則的重要資訊
 
-* 指定分類的[群組權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/user-groups/groups.html) (於[!UICONTROL  管理工具]中)。
+* 指定分類的[群組權限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html) (於[!UICONTROL  管理工具]中)。
 
 * **規則運算式**：[分類規則中的規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)底下提供說明。
 
@@ -294,7 +293,7 @@ rule_priority.xml
 
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
-| 1 | 包含 | Cowboys | 城市 | Dallas |
+| 3 | 包含 | 牛仔隊 | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
 使用者搜尋    *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
@@ -326,7 +325,7 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >當符合下列條件時，報表套裝只會顯示在此頁面&#x200B;**:
+   >只有&#x200B;*在符合下列條件時，報表套裝才會顯示在此頁面上：*
    >
    >* 報告套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
       >
@@ -407,7 +406,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. （可選）若要覆寫分類，請啟用&#x200B;**[!UICONTROL 覆寫]** &lt;*選擇*&#x200B;的分類。
+1. （可選）若要覆寫分類，請啟用&#x200B;**[!UICONTROL 覆寫]** &lt;*selection*>的分類。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 
