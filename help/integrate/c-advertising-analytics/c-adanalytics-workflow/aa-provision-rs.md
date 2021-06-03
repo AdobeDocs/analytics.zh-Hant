@@ -2,20 +2,19 @@
 description: 設定 Experience Cloud 對應的報表套裝，以供 Advertising Analytics 使用。
 title: 啟用 Advertising Analytics 的報表套裝
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
-translation-type: ht
-source-git-commit: 5d8032a9806836e7d0ecbd7fa3652ed1fd137e89
-workflow-type: ht
-source-wordcount: '283'
-ht-degree: 100%
+exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '281'
+ht-degree: 97%
 
 ---
-
 
 # 啟用 Advertising Analytics 的報表套裝
 
 若要在 Analytics 檢視任何 Advertising Analytics 搜尋資料，您需要為 Advertising Analytics 報表設定每一個已與 Experience Cloud 對應的報表套裝。
 
-1. [將報表套裝對應至組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+1. [將報表套裝對應至組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
 1. 導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**。
 
 1. 選取已對應至您 Experience Cloud 組織的報表套裝。
@@ -36,4 +35,3 @@ ht-degree: 100%
    | 過期時間 | 可讓您指定時段或事件，在經過此時段或事件發生後 eVar 值就會過期 (即不再接收成功事件的評價)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「啟用 Advertising Analytics 報表」]**(首次)，或&#x200B;**[!UICONTROL 「更新 Advertising Analytics 報表」]**(後續)。您的報表套裝現在已準備就緒，可以接收 Advertising Analytics 搜尋資料。您現在已經準備就緒，可以[建立 Advertising 帳戶](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-create-ad-account.md)了。
-
