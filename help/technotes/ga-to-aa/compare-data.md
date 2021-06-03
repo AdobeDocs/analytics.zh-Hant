@@ -2,10 +2,9 @@
 title: 比較 Adobe Analytics 資料與協力廠商產品
 description: 了解直接比較 Adobe Analytics 中的資料與其他 Analytics 解決方案所收集資料時的選項。
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '252'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '250'
 ht-degree: 100%
 
 ---
@@ -18,6 +17,6 @@ ht-degree: 100%
 
 如果您發現 Adobe Analytics 和協力廠商分析工具之間相當不一致，可使用下列資源：
 
-* **使用除錯工具自我稽核**：您可以使用 [Adobe 的除錯工具](https://docs.adobe.com/content/help/zh-Hant/debugger/using/experience-cloud-debugger.html)或其他封包監視器，查看網站上的頁面。使用除錯工具可讓您驗證實施作業，確保影像要求正確觸發並有正確變數。
+* **使用除錯工具自我稽核**：您可以使用 [Adobe 的除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)或其他封包監視器，查看網站上的頁面。使用除錯工具可讓您驗證實施作業，確保影像要求正確觸發並有正確變數。
 * **使用資料摘要自我稽核**：Adobe 讓您的組織可選擇接收包含每天所有原始資料的[「資料摘要」](/help/export/analytics-data-feed/data-feed-overview.md)。您的組織就可以使用這些資料，並與協力廠商分析工具加以比較，以判斷不一致之處。
 * **使用 Adobe Consulting 進行輔助稽核和資料驗證**：如果想要 Adobe 官方代表在您的網站上執行完整實施作業稽核，請聯絡組織的客戶經理。他們可以安排與實施作業顧問會面，顧問可以根據您公司的合約稽核您的網站。
