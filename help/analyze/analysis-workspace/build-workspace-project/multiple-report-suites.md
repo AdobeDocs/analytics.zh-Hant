@@ -4,11 +4,10 @@ description: 了解在有多個報告套裝的 Workspace 中建立專案的方�
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '525'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 95%
 
 ---
 
@@ -66,6 +65,6 @@ ht-degree: 100%
 
 1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報表套裝標籤，指出
 
-   * 建立區段的位置：[區段產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
-   * 建立計算量度的位置：[計算量度產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
-   * 建立警報的位置：[警報產生器](https://docs.adobe.com/content/help/zh-Hant/analytics/components/alerts/alert-builder.html)。
+   * 建立區段的位置：[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
+   * 建立計算量度的位置：[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
+   * 建立警報的位置：[警報產生器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html)。
