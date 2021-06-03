@@ -6,9 +6,9 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '797'
 ht-degree: 98%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 說明如何使用共用控制面板管理選項的步驟。
 
-1. 前往「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**」。
+1. 前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**。
 1. 在[!UICONTROL 共用控制面板]下，找出要管理的共用控制面板 (或舊版控制面板)，並選擇下列一個或多個選項：
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 
@@ -71,7 +71,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->日後請考慮使用 [Analysis Workspace 專案](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/home.html)及其下載和排程功能。
+>日後請考慮使用 [Analysis Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)及其下載和排程功能。
 
 複製舊控制面板時，系統會開啟舊控制面板以供編輯，您可新增舊內容或新內容。複製舊控制面板時，其原型會保留在舊控制面板的清單中。
 
