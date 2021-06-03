@@ -2,14 +2,13 @@
 description: 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
 title: 檢視報表套裝使用量
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
-
 
 # 檢視報表套裝使用量
 
@@ -19,7 +18,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->如果報表套裝未[連結至 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)，則其使用量資料不會反映在此控制面板上。此外，計費 ID 可以綁定多個 Experience Cloud 組織；組織與計費 ID 之間並非總是 1:1 的關係。
+>如果報表套裝未[連結至 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)，則其使用量資料不會反映在此控制面板上。此外，計費 ID 可以綁定多個 Experience Cloud 組織；組織與計費 ID 之間並非總是 1:1 的關係。
 
 報表套裝使用量控制面板
 
@@ -41,7 +40,7 @@ ht-degree: 100%
 | 次要行動裝置 (%) | 目前使用期間內發生的所有行動次要伺服器呼叫次數 (及其總計百分比)。 |
 
 
-## 下載使用情況報表{#section_D7345660B5E043CD8850954216509A3D}
+## 下載使用情況報表 {#section_D7345660B5E043CD8850954216509A3D}
 
 此選項可讓您下載目前使用資料，以及目前使用期間之前時段的資料 (可追溯至 2015 年 1 月)。該報表將下載為 .csv 檔案。
 
