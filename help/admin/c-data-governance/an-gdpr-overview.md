@@ -3,11 +3,10 @@ description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作�
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '629'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 本文件說明您需要在 Adobe Analytics 中執行哪些操作，以支援資料主體的 GDPR 存取和刪除權限。
 
-## Adobe 概觀 {#section_E582A1D77583410EBB790BB646854A2C}
+## Adobe 概述 {#section_E582A1D77583410EBB790BB646854A2C}
 
 >[!IMPORTANT]
 >
@@ -46,8 +45,8 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 ## 必備條件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * 熟悉 [GDPR 術語](/help/admin/c-data-governance/gdpr-terminology.md)。
-* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/manage-users-and-products/organizations.html)。
-* 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html)。
+* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)。
+* 將您想要為資料控管設定的任何 Adobe Analytics 報表套裝對應到[您的 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 GDPR 刪除與存取請求。
 
    >[!NOTE]
