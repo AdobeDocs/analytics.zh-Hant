@@ -2,18 +2,20 @@
 description: 使用 Adobe Data Connectors 設定精靈來設定整合。
 title: 啟用整合
 uuid: 0a5d2d45-5133-4259-96ce-c992a1e314ee
-translation-type: tm+mt
-source-git-commit: 8d6685d241443798be46c19d70d8150d222ab9e8
+exl-id: 520a2b59-5595-4337-b71c-ea0448bf9267
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 97%
 
 ---
-
 
 # 啟用整合 {#activate-the-integration}
 
 使用 Adobe Data Connectors 設定精靈來設定整合。
 
-1. Start [Data Connectors](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html) and click **[!UICONTROL + Add New]** to [add a new integration](https://docs.adobe.com/content/help/en/analytics/import/dataconnectors/getting-started-data-connectors.html).
-1. In the **[!UICONTROL Show]** list, select **[!UICONTROL By Name]** and drag the [!DNL ~Partner~] integration to an empty plug-in slot.
+1. 啟動 [ Data Connectors ](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)，然後按一下&#x200B;**[!UICONTROL 「+ 新增」]**&#x200B;以[新增整合](https://experienceleague.adobe.com/docs/analytics/import/dataconnectors/getting-started-data-connectors.html)。
+1. 在&#x200B;**[!UICONTROL 「顯示」]**&#x200B;清單中，選取&#x200B;**[!UICONTROL 「依名稱」]**，並將[!DNL ~合作夥伴~]整合拖曳至空的外掛程式插槽。
 1. 使用下表中的資訊完成整合精靈：
 
 | 欄位 | 說明 |
