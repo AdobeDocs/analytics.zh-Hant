@@ -1,16 +1,15 @@
 ---
 title: 什麼是「同類群組分析」？這又是如何運作的？
 description: 透過「同類群組分析」，深入了解使用對象資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
-feature: Visualizations
+feature: 視覺效果
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 99%
+source-wordcount: '491'
+ht-degree: 98%
 
 ---
-
 
 # 了解 Adobe Analytics 中的「[!UICONTROL 同類群組分析]」
 
@@ -28,7 +27,7 @@ ht-degree: 99%
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
-[「同類群組分析」影片教學課程](https://docs.adobe.com/content/help/zh-Hant/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
+[「同類群組分析」影片教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html) (4:36)
 
 >[!IMPORTANT]
 >
@@ -72,4 +71,3 @@ ht-degree: 99%
 ![](assets/cohort-customizable-cohort-row.png)
 
 如需如何設定和執行同類群組報表的指示，請前往[設定同類群組分析報表](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。
-
