@@ -3,11 +3,10 @@ description: 「管理工具」中的資料控管對話方塊提供概述，讓�
 title: 檢視/管理報表套裝資料控管設定
 uuid: f3b83e8e-00af-4a60-a5de-29b5c43f6788
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '553'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +38,7 @@ ht-degree: 100%
    <td colname="col2"> 
     <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
      <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>已對應</b>：此報表套裝與您目前登入的 Analytics 登入公司已對應至同一個 Experience Cloud 組織。只有套用此設定的報表套裝才能加上標籤。 </li> 
-     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>：按一下此連結可讓您<a href="https://docs.adobe.com/content/help/zh-Hant/core-services/interface/about-core-services/report-suite-mapping.html">將報表套裝對應至</a> Experience Cloud 組織。 <p>換句話說，您會重新導向至 Experience Cloud 組織 – 報表套裝對應管理頁面，您可在該處找到報表套裝，並指派給適當的組織。完成之後，導覽返回此資料控管 UI。 </p> </li> 
+     <li id="li_4E800BF80CFF477BAA091EF272D9071C"><b>對應報表套裝</b>：按一下此連結可讓您<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html">將報表套裝對應至</a> Experience Cloud 組織。 <p>換句話說，您會重新導向至 Experience Cloud 組織 – 報表套裝對應管理頁面，您可在該處找到報表套裝，並指派給適當的組織。完成之後，導覽返回此資料控管 UI。 </p> </li> 
      <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>已對應至其他組織</b>：其他 Experience Cloud 組織已將此報表套裝套用至其組織。 </li> 
     </ul> </td> 
   </tr> 
