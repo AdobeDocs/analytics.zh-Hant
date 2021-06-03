@@ -3,10 +3,9 @@ description: 顯示如何建立簡易的「每次瀏覽頁面檢視次數」量�
 title: 建立簡單的「每次造訪頁面檢視次數」量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '251'
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+workflow-type: tm+mt
+source-wordcount: '249'
 ht-degree: 100%
 
 ---
@@ -29,7 +28,7 @@ ht-degree: 100%
 1. 對於此量度，請先拖曳「頁面檢視」至畫布，接著拖曳「瀏覽」至下方 (等候藍線出現再放下)。
 1. 選取「除」運算元。(除是預設運算元。)
 1. 您現在可以在建立期間，於右上角看到該量度的「**[!UICONTROL 預覽]**」。
-1. 產品相容性會顯示量度是否與「[目前的資料](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/reports-analytics/current-data.html)」相容，或是只與「完全處理的資料」相容。
+1. 產品相容性會顯示量度是否與「[目前的資料](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hant)」相容，或是只與「完全處理的資料」相容。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 注意「**[!UICONTROL 摘要]**」公式會隨著您變更量度定義而更新。
 1. 此時您會自動進入[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) (類似「區段管理器」)。您可在此共用、核准、(重新) 標記、重新命名或刪除量度。
