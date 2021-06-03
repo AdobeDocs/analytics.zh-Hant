@@ -4,14 +4,13 @@ title: 即時報表
 uuid: eb39b4a5-fb6f-476d-9383-e5323afcc51d
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 1d46b77c-1649-4bde-a7d6-0e57a2eca1c3
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 95%
+source-wordcount: '261'
+ht-degree: 94%
 
 ---
-
 
 # 即時報表
 
@@ -26,8 +25,8 @@ ht-degree: 95%
 * 使用任何自訂事件、購物車事件或是例項。
 * 檢視達 20 小時的歷史、即時資料。
 
-使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)啟用即時權限。
+使用者及群組的即時方面權限。例如，若您無檢閱收益的權利，您便無法檢視包含收益資料的即時報表。不支援 eVars (轉換度量)。可在[管理工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html)啟用即時權限。
 
 >[!NOTE]
 >
->[!UICONTROL  「即時報表」]與之前發行的[「包含目前的資料」](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/options.html)(「資料時近」) 功能不同，該功能會在完成之前顯示資料，以減少標準報表的延遲。
+>[!UICONTROL  「即時報表」]與之前發行的[「包含目前的資料」](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/options.html)(「資料時近」) 功能不同，該功能會在完成之前顯示資料，以減少標準報表的延遲。
