@@ -5,10 +5,10 @@ uuid: 057c6ab2-aa06-4779-ac16-f9b367d9ea43
 feature: Activity Map
 role: Business Practitioner, Administrator
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 95%
+source-wordcount: '267'
+ht-degree: 92%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 95%
 在使用者可以報告 Activity Map 維度前，您必須先以管理員身分
 
 * [新增使用者至 Activity Map 存取群組](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 將您希望存取的報表套裝新增至此群組。導覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL Activity Map存取]** > **[!UICONTROL 編輯]**」。
+* 將您希望存取的報表套裝新增至此群組。導覽至&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL Activity Map存取]** > **[!UICONTROL 編輯]**。
 * 自訂使用者存取維度的權限。請參閱以下小節。
 
 ## Analytics Activity Map 維度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}
 
-您可以精細地[自訂使用者存取維度的權限](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)。Analytics 中可供使用的 Activity Map 維度如下：
+您可以精細地[自訂使用者存取維度的權限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/customize-report-access/groups-dimensions.html)。Analytics 中可供使用的 Activity Map 維度如下：
 
 | 維度 | 說明 |
 |---|---|
