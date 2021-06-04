@@ -3,11 +3,10 @@ description: 資料隱私權中的隱私權報表變數。
 title: 隱私權報表變數
 feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '435'
-ht-degree: 100%
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+workflow-type: tm+mt
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -63,13 +62,13 @@ ht-degree: 100%
 
 已預先定義三個上下文資料變數，用於搭配隱私權報表管理保留變數使用。如何管理並保留這些變數的設定取決於每位實作工程師。
 
-如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](https://docs.adobe.com/help/zh-Hant/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
+如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
 
 ### SSF
 
 * 上下文資料：`contextData.['cm.ssf']`
 * 接受的值：
-   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。請參閱[ AAM ePrivacy 合規性](https://docs.adobe.com/help/zh-Hant/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
+   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。請參閱[ AAM ePrivacy 合規性](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
    * 0 - 選用。對於同意目標行銷的客戶，請使用「0」值。未設定變數也會產生相同的結果。
 
 ### DMP
