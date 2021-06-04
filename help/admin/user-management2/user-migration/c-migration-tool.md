@@ -2,9 +2,9 @@
 description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud 的 Admin Console，您必須瞭解的事項。
 title: Analytics 使用者移轉至 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '3123'
+source-wordcount: '3122'
 ht-degree: 96%
 
 ---
@@ -309,7 +309,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
 
 請向您目前的使用者主動告知此移轉計劃。您可以自訂以下的範本並傳送給所有目前的 Analytics 使用者：
 
-若要傳送電子郵件給所有使用者，請導覽至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL 使用者管理]** > [電子郵件使用者](https://docs.adobe.com/help/en/analytics/admin/user-product-management/t-email-users.html)。
+若要傳送電子郵件給所有使用者，請導覽至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL 使用者管理]** > [電子郵件使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html)。
 
 **主旨：**&#x200B;即將推出 – 登入 Adobe Analytics 和 Adobe Experience Cloud 的新方式。
 
