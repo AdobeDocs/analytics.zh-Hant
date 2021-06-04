@@ -2,9 +2,9 @@
 title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 03584622a570281474d6f6e0a580d453b8ad8fec
+source-git-commit: 7b77e023e9328cd029c326d29a30f9c80b8fbcbd
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '429'
 ht-degree: 52%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 52%
 
 使用此外掛程式之前，Adobe 建議先執行下列動作：
 
-* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將過期設定為&#x200B;**Never**&#x200B;並將配置設定為&#x200B;**&quot;Original Value(First)&quot;**。 應在以下兩種情況下設定此eVar:觸發[!UICONTROL 直接呼叫]規則或`s.tl`呼叫時。
+* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將過期時間設定為&#x200B;**Never**&#x200B;或&#x200B;**Visit**&#x200B;並分配到&#x200B;**&quot;Original Value(First)&quot;**。 應在以下兩種情況下設定此eVar:觸發[!UICONTROL 直接呼叫]規則或`s.tl`呼叫時。
 * **蒐集個別變數內的代理使用者**：蒐集個別變數內的代理使用者字串，以監視此外掛程式的功效。在每次點擊時，設定一個 eVar 為 `navigator.UserAgent` 用以蒐集此資料。
 
 ## 使用 Launch 自訂程式碼編輯器安裝外掛程式
