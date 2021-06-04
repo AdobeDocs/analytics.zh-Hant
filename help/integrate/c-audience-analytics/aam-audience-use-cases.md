@@ -3,10 +3,10 @@ description: 有關 Advertising Analytics 的使用案例。
 title: Audience Analytics 使用案例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 92%
+source-wordcount: '213'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 
 ## 潛在客戶分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-身為 B2B 零售商，您現在可以使用[依序分段](https://docs.adobe.com/help/zh-Hant/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)，在潛在客戶對象購買之前深入分析其行為，進而協助您了解促成轉換的動作。
+身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)，在潛在客戶對象購買之前深入分析其行為，進而協助您了解促成轉換的動作。
 
 ## 人口統計目標定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
