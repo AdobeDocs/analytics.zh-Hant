@@ -5,10 +5,10 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 96%
+source-wordcount: '779'
+ht-degree: 95%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td colname="col1">報表套裝選擇器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
-   <td colname="col2">讓您選取<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本報表套裝</a>或<a href="https://docs.adobe.com/help/zh-Hant/analytics/components/virtual-report-suites/vrs-about.html"  >虛擬報表套裝</a>。 </td> 
+   <td colname="col2">讓您選取<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html"  >基本報表套裝</a>或<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >虛擬報表套裝</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1">日曆 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
