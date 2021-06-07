@@ -2,11 +2,10 @@
 title: 城市
 description: 點擊的來源城市。
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: 9770f8e04089ff339d912d1787679257c87c7caa
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,10 +16,6 @@ ht-degree: 100%
 ## 將資料填入此維度中
 
 此維度會參考 Adobe 內部的查閱規則。查閱值以隨著點擊傳送的 IP 位址為基礎。Adobe 與 [Digital Element](https://www.digitalelement.com/) 合作，共同維護 IP 位址與城市之間的查閱。此維度可直接用於所有實施作業。
-
->[!TIP]
->
->如果您的組織遵循嚴格的隱私權法規，但[模糊化 IP 位址](/help/admin/admin/general-acct-settings-admin.md)不夠嚴謹，您可以要求完全停用地理位置資料。請聯絡客戶服務以取得報表套裝 ID，並要求關閉報表套裝的「地理位置」。
 
 ## 維度項目
 
