@@ -5,11 +5,10 @@ uuid: ef18f9d9-b6ad-4859-b7c9-9750ca0df519
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '640'
-ht-degree: 100%
+source-git-commit: baea0f33276b07a93144d2225935013ab7007005
+workflow-type: tm+mt
+source-wordcount: '663'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +17,9 @@ ht-degree: 100%
 Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍的欄，然後建立常用的日期比較，例如：年與年、季與季、月與月等。
 
 ## 比較時段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
+
+>[!NOTE]
+>[!UICONTROL 比較時段]採用進階計算量度。 因此，它僅適用於具有Analytics Select、Prime和Ultimate SKU的客戶。
 
 分析需要內容，而通常這個內容是由先前的時段提供。例如，「我們的表現比去年的這個時候好/壞多少？」是您的公司要了解的基本問題。「日期比較」會自動加入「差異」欄，在當中顯示與特定時段相較之下的百分比變化。
 
