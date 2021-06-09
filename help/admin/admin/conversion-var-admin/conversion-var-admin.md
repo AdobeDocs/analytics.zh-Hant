@@ -5,9 +5,9 @@ title: 轉換變數 (eVar)
 feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 2501d0a7b9e11569dc9feb3da378d445f72bef3d
+source-git-commit: 212f9c66e2916e629693bf4bf61e767af164900a
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1587'
 ht-degree: 84%
 
 ---
@@ -62,7 +62,7 @@ eVar 最適合用來測量原因和結果，如：
 
 **區分大小寫**
 
-報表中使用的上或下大小寫是根據後端系統註冊的第一個值。 此值可能是第一次出現，也可能在某個時段（例如，每月）發生變化，具體取決於與報告套裝關聯的資料種類和數量。
+eVar不區分大小寫。 報表中使用的上或下大小寫是根據後端系統註冊的第一個值。 此值可能是第一次出現，也可能在某個時段（例如，每月）發生變化，具體取決於與報告套裝關聯的資料種類和數量。
 
 **計數器**
 
