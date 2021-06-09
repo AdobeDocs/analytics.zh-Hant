@@ -1,25 +1,24 @@
 ---
-description: 在Adobe Analytics建立基本的資料收集容器
+description: 在Adobe Analytics中建立資料收集的基本容器
 title: 建立報表套裝
-feature: Admin Tools
+feature: 管理工具
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 75%
+source-wordcount: '383'
+ht-degree: 62%
 
 ---
 
 # 建立報表套裝
 
-報表套裝是 Adobe Analytics 用來提取報表的獨立資料單位。組織可以有許多報表套裝，每個報表套裝都包含不同的資料集。雖然過去使用者較重視個別產生報表，但如今使用單一報表套裝已變得更具優勢了。[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和報表時間處理功能可讓管理員建立您自己的資料子集，讓管理員可靈活取得全域和網站特定資料。
+報表套裝是 Adobe Analytics 用來提取報表的獨立資料單位。組織可以有許多報表套裝，每個報表套裝都包含不同的資料集。雖然過去使用者較重視個別產生報表，但如今使用單一報表套裝已變得更具優勢了。[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=en#virtual-report-suites)和報表時間處理的推出，讓管理員能建立您自己的資料子集，以便靈活地取得全域和網站特定資料。
 
-本文的對象為系統層級管理員或 Analytics 管理員，目的在方便這些人員開始資料收集。
+本文的設計對象為系統層級管理員或Adobe Analytics管理員，以準備資料收集作業。
 
-## 必備條件
+## 先決條件
 
-[Adobe Analytics第一管理指南](/help/admin/admin-console/first-admin-guide.md):確保系統級管理員已授予您通過Experience CloudAdmin Console訪問Adobe Analytics的權限。
+[Adobe Analytics第一個管理指南](/help/admin/admin-console/first-admin-guide.md):確認系統層級管理員已透過Experience CloudAdmin Console授予您Adobe Analytics的存取權。
 
 ## 建立報表套裝 {#create-report-suite}
 
@@ -34,7 +33,7 @@ ht-degree: 75%
 1. 填寫[「新報表套裝」](/help/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)中所述的欄位。
 1. 按一下&#x200B;**[!UICONTROL 「建立報表套裝」]**。
 
-報表套裝ID的長度上限為40位元組。 報表套裝友好名稱的長度上限為255位元組。
+報表套裝ID的長度上限為40個位元組。 報表套裝的好記名稱長度上限為255個位元組。
 
 ## 疑難排解
 
@@ -44,8 +43,8 @@ ht-degree: 75%
 
 **登入 Adobe Analytics 後，「歡迎使用 Adobe Analytics」快顯視窗和下拉式清單已經消失。**
 
-請確認您是透過 Experience Cloud 登入，而非透過 my.omniture.com 登入。透過 my.omniture.com 登入的使用者無法使用報表套裝設定精靈。
+請確定您是透過[Experience Cloud](https://experience.adobe.com)登入，而非透過my.omniture.com登入。 透過 my.omniture.com 登入的使用者無法使用報表套裝設定精靈。
 
 ## 後續步驟
 
-[在啟動時建立並設定 Adobe Analytics 的屬性](/help/implement/launch/create-analytics-property.md)：建立一個管理 Analytics 實施情形的區域
+[在Adobe Experience Platform Launch中建立並設定Adobe Analytics的屬性](/help/implement/launch/create-analytics-property.md):建立管理Analytics實作的區域
