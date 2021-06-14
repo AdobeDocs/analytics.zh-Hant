@@ -2,9 +2,8 @@
 title: 使用 Facebook 即時文章進行實施
 description: 在 Facebook 即時文章頁面上實施 Adobe Analytics。
 exl-id: 2189f70d-32f0-4137-9d53-7acab0f15e6c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -39,7 +38,7 @@ Facebook 即時文章可讓發佈者於 Facebook 上快速建立互動式文章�
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
