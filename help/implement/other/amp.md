@@ -1,14 +1,13 @@
 ---
 title: 使用 AMP 進行實施
 description: 在 AMP 頁面上實施 Adobe Analytics。
-translation-type: ht
-source-git-commit: c3c581eab8a4677831968574c9fb8d6f6eadd7e9
-workflow-type: ht
+exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
+source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
+workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 100%
 
 ---
-
 
 # 使用 AMP 進行實施
 
@@ -56,7 +55,7 @@ Adobe建立的兩種方法可使用 AMP 在頁面上實施 Adobe Analytics。兩
       },
       "vars": {
         "host": "example.data.adobedc.net",
-        "reportSuites": "reportSuiteID",
+        "reportSuites": "reportSuiteID1,reportSuiteID2",
         "pageName": "Adobe Analytics Using amp-analytics tag"
       },
       "triggers": {
@@ -132,7 +131,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
   <body>
     <script>
       var v_orgId = "INSERT-ORG-ID-HERE";
-      var s_account = "examplersid";
+      var s_account = "examplersid1,examplersid2";
       var s_trackingServer = "example.data.adobedc.net";
       var visitor = Visitor.getInstance(v_orgId);
       visitor.trackingServer = s_trackingServer;
