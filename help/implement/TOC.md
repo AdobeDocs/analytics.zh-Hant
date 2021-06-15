@@ -12,10 +12,10 @@ ht-degree: 99%
 ---
 
 
-# Analytics 實施指南 {#implementation}
+# Analytics 實作指南 {#implementation}
 
-+ [實施 Adobe Analytics](home.md)
-+ [AppMeasurement 發行說明](appmeasurement-updates.md)
++ [實作 Adobe Analytics](home.md)
++ [AppMeasurement 版本注意事項](appmeasurement-updates.md)
 + Analytics 變數、函數和方法 {#vars}
    + [概觀](vars/overview.md)
    + 設定變數 {#config-vars}
@@ -123,16 +123,16 @@ ht-degree: 99%
       + [removeFromList](vars/plugins/removefromlist.md)
       + [websiteBot](vars/plugins/websitebot.md)
    + [整合模組](vars/integrate.md)
-+ 準備實施 Adobe Analytics {#prepare}
++ 準備實作 Adobe Analytics {#prepare}
    + [建立資料層](prepare/data-layer.md)
    + [全域報告套裝考量事項](prepare/global-rs.md)
    + [實作多套裝標籤](prepare/multi-suite-tagging.md)
-   + [實施強制回應視窗](prepare/implementation-modal.md)
+   + [實作模組](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
-   + [負責現有的 Adobe Analytics 實施](prepare/existing-implementation.md)
-+ 使用 JavaScript 實施 Analytics {#js}
+   + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
++ 使用 JavaScript 實作 Analytics {#js}
    + [JavaScript 概觀](js/overview.md)
-   + [實施選擇退出連結](js/opt-out.md)
+   + [實作選擇退出連結](js/opt-out.md)
    + [變數覆寫](js/overrides.md)
    + [從 H 程式碼移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}
@@ -149,32 +149,32 @@ ht-degree: 99%
       + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
-+ 使用 Adobe Experience Platform Launch 實施 Analytics {#launch}
++ 使用 Adobe Experience Platform Launch 實作 Analytics {#launch}
    + [Launch 概觀](launch/overview.md)
    + [建立 Analytics 屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
    + [將 Launch 資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
-+ 在其他平台上實施 Analytics {#other}
-   + [使用硬式編碼影像要求實施 Analytics](other/hardcoded.md)
-   + [使用 DTM 實施 Analytics](other/dtm-implementation-overview.md)
-   + [在 Ajax 上實施 Analytics](other/ajax.md)
-   + [在 AMP 上實施 Analytics](other/amp.md)
-   + [在數位助理上實施 Analytics](other/digital-assistants.md)
-   + [在 Facebook 即時文章上實施 Analytics](other/fb-instant-articles.md)
-+ [在行動裝置上實施 Analytics](mobile-device-sdk.md)
-+ 實施使用案例 {#use-cases}
++ 在其他平台上實作 Analytics {#other}
+   + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
+   + [使用 DTM 實作 Analytics](other/dtm-implementation-overview.md)
+   + [在 Ajax 上實作 Analytics](other/ajax.md)
+   + [在 AMP 上實作 Analytics](other/amp.md)
+   + [在數位助理上實作 Analytics](other/digital-assistants.md)
+   + [在 Facebook 即時文章上實作 Analytics](other/fb-instant-articles.md)
++ [在行動裝置上實作 Analytics](mobile-device-sdk.md)
++ 實作使用案例 {#use-cases}
    + [搭配 iFrames 使用 AppMeasurement](use-cases/iframe.md)
-   + [追蹤不同的實施類型](use-cases/cross-type-implementation.md)
+   + [追蹤不同的實作類型](use-cases/cross-type-implementation.md)
    + [外部電子郵件追蹤](use-cases/email-external.md)
-+ 驗證實施 {#validate}
++ 驗證實作 {#validate}
    + [舊版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
 + [常見問題集](faq.md)
-+ 審視您的實施 {#review}
++ 審視您的實作 {#review}
    + [重點審視 (每次網站發佈後)](review/focused-review.md)
    + [完整審視（每 6 個月）](review/full-review.md)
    + [定義您的前 5 大 KPI](review/define-kpis.md)
