@@ -1,17 +1,17 @@
 ---
 title: 移轉至 JavaScript 適用的 AppMeasurement
-description: 決定將實施從 H 程式碼移出時所需的項目。
+description: 決定將實作從 H 程式碼移出時所需的項目。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 移轉至 JavaScript 適用的 AppMeasurement
 
-如果您的實施仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。我們建議您透過 [Adobe Experience Platform Launch](../launch/overview.md) 實施 Analytics，不過也可以使用更新的 JavaScript 實施。
+如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。我們建議您透過 [Adobe Experience Platform Launch](../launch/overview.md) 實施 Analytics，不過也可以使用更新的 JavaScript 實施。
 
 與 H 程式碼相比，AppMeasurement 有下列顯著變更：
 
@@ -24,7 +24,7 @@ ht-degree: 92%
 
 下列步驟概述典型的移轉工作流程。
 
-1. **下載新的AppMeasurement檔案**:登入Adobe Analytics，然後導覽至「管理員>所有管理員>代碼管理員」，以存取新檔案。下載的壓縮檔包含精簡的 `AppMeasurement.js` 檔案，以及媒體和整合模組。
+1. **下載新的 AppMeasurement 檔案**：登入 Adobe Analytics，然後導覽至「管理員 > 代碼管理器」存取新檔案。 下載的壓縮檔包含精簡的 `AppMeasurement.js` 檔案，以及媒體和整合模組。
 1. **將您的 `s_code.js` 自訂內容複製到`AppMeasurement.js`**：將 `s_code.js` 中 `DO NOT ALTER ANYTHING BELOW THIS LINE` 區段之前的所有程式碼複製到 `AppMeasurement.js` 的開頭。
 1. **更新所有外掛程式**：請務必使用 `s_code.js` 檔案所列的每個外掛程式，而且請務必使用最新版本，包括媒體和整合模組。
 1. **部署 AppMeasurement.js 檔案**：將 `AppMeasurement.js` 檔案上傳至網頁伺服器。
@@ -87,4 +87,4 @@ s.t();
 </script>
 ```
 
-也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。如需詳細資訊，請參閱 [JavaScript 實施](/help/implement/js/overview.md)。
+也務必在每一頁上加入對 `AppMeasurement.js` 和 `VisitorAPI.js` 的參考。如需詳細資訊，請參閱 [JavaScript 實作](/help/implement/js/overview.md)。
