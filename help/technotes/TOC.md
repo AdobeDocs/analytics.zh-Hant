@@ -5,9 +5,9 @@ user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
 source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 98%
    + [常見問題集](ga-to-aa/faq.md)
    + [處理平台間的差異](ga-to-aa/processing-differences.md)
    + [比較資料與第三方產品](ga-to-aa/compare-data.md)
-+ 分析受事件影響的資料{#event}
-   + [分析受事件影響的資料概述](event/overview.md)
++ 分析受事件影響的資料 {#event}
+   + [分析受事件影響的資料概觀](event/overview.md)
    + [疑難排解資料的尖峰/下降](event/spikes-drops.md)
    + [在分析中排除特定日期](event/segments.md)
    + [比較日期與原日期範圍](event/compare-dates.md)
    + [衍生受事件影響的資料](event/calcmetrics.md)
    + [向使用者傳達事件](event/communicate.md)
-   + [智慧資料平滑](event/intelligent-data-smoothing.md)
+   + [智慧型資料平滑](event/intelligent-data-smoothing.md)
 + Cookie {#cookies}
    + [瀏覽器 Cookie](cookies/cookies.md)
    + [可減輕瀏覽器 Cookie 限制之影響的選項](cookies/cookieless.md)
@@ -50,12 +50,12 @@ ht-degree: 98%
 + [多貨幣支援](multicurrency.md)
 + [隱私權概觀](privacy-overview.md)
 + [重新導向與別名](redirects.md)
-+ 地區資料收集 {#rdc}
-   + [地區資料收集說明](rdc/regional-data-collection.md)
++ 地區資料彙集 {#rdc}
+   + [地區資料彙集說明](rdc/regional-data-collection.md)
    + [SSL 認證授權](rdc/ssl-cert-licensing.md)
 + [安全性資源](security.md)
 + [使用詞彙 (字彙表)](terms.md)
-+ [選擇式時間戳記](timestamps-optional.md)
++ [可選時間戳記](timestamps-optional.md)
 + [疑難排解登入](troubleshoot-login.md)
 + [疑難排解被登出](troubleshoot-sessions.md)
 + [未指定、其他和未知](unspecified.md)
