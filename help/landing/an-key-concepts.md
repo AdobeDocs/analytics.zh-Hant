@@ -24,7 +24,7 @@ ht-degree: 97%
 | Data Warehouse | 用於儲存和自訂報表的原始、未處理資料複本，可供您透過篩選資料的方式來執行。非點擊層級。 | [Data Warehouse 首頁](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | 將整個 Adobe Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您了解並改進使用者與應用程式的互動。 | [Mobile Services 首頁](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | Adobe Exchange資料連接器(前身為 Genesis) | 從協力廠商應用程式匯入追蹤資料至 Analytics，以便在同一中央位置呈現端對端的效能資訊。Adobe 計畫自 2021 年 8 月 1 日起終止 Data Connector 整合服務。 | [資料連接器首頁](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Adobe 推出的下一代網站標籤與行動 SDK 管理功能。 | [Adobe Experience Platform Launch首頁](https://experienceleague.adobe.com/docs/launch/using/home.html) |
+| Adobe Experience Platform Launch | Adobe 推出的下一代網站標籤與行動 SDK 管理功能。 | [Adobe Experience Platform Launch 首頁](https://experienceleague.adobe.com/docs/launch/using/home.html) |
 
 ## 重要術語 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -37,12 +37,12 @@ ht-degree: 97%
 | 事件/量度 (s.events) | 用於測量訪客在網站上採取所需關鍵動作的量度。有 3 種事件類型：計數器、數值和貨幣。事件新增至轉換變數 (eVar) 報表時最為有用。eVar 可提供關於所發生情形的質化資訊，事件則可提供關於所發生情形的量化資訊。<br> eVar 和事件之間的主要差異： <ul> <li>eVar 有助於了解影響轉換的人、事、物資訊</li> <li>事件用於測量發生的轉換次數</li> </ul> <br> 轉換事件範例：訂購、應用程式啟動、銷售機會、收入。 | [事件](/help/admin/admin/c-success-events/success-event.md) |
 | 元件 | 您可以拖放至專案上的維度、量度、區段和時間詳細程度 (日期範圍)。 | [元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) |
 | 維度 | eVar、prop、分類和標準 Adobe 收集值的集合。 | [維度](/help/components/dimensions/overview.md) |
-| 量度 | 實施作業事件和計算量度的集合。 | [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) |
-| 計算量度 | 能夠透過您的實施作業項目所擷取的現有量度中衍生出自訂量度。 | [計算量度](/help/components/c-calcmetrics/cm-overview.md) |
+| 量度 | 實作事件和計算量度的集合。 | [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md) |
+| 計算量度 | 能夠透過您的實作項目所擷取的現有量度中衍生出自訂量度。 | [計算量度](/help/components/c-calcmetrics/cm-overview.md) |
 | 區段 | 能夠建立、管理、共用並套用功能強大且目標專一的對象區段至 Analytics 報表。區段會在 Analytics 產品間共用，也能在 Experience Cloud 間共用。 | [區段](/help/components/segmentation/seg-home.md) |
 | 時間 (日期範圍) | 能夠將日期篩選為任何時段，並建立可在分析中重複使用的自訂日期範圍。 | [日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md) |
 | 視覺效果 | 豐富的視覺效果，可讓專案中的資料更加生動。 | [視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) |
-| 組織 | 可限制專案或虛擬報表套裝中可存取的元件。 | [VRS 策劃](/help/components/vrs/vrs-components.md) <br> [專案策劃](/help/analyze/analysis-workspace/curate-share/curate.md) |
+| 組織 | 可限制專案或虛擬報告套裝中可存取的元件。 | [VRS 策劃](/help/components/vrs/vrs-components.md) <br> [專案策劃](/help/analyze/analysis-workspace/curate-share/curate.md) |
 
 ## 重要報表
 
@@ -58,7 +58,7 @@ ht-degree: 97%
 | 客戶歷程報表 | 顯示使用者瀏覽您的網站或應用程式時所採取路徑的相關資訊。Prop、eVar 和事件可在 Analysis Workspace 中使用這項分析。 | [Analysis Workspace 流失](/help/analyze/analysis-workspace/visualizations/fallout/fallout-flow.md) <br> [Analysis Workspace 流量](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) <br> [Reports and Analytics 路徑分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md) |
 | 行銷管道 | 這些報表可協助您理解哪些外部管道將使用者引入您的網站，以及在促進轉換方面哪些管道最有效。並提供首次接觸和上次接觸歸因檢視。這是 Adobe Analytics 慣用的外部流量來源報表 (優先於促銷活動或流量來源)，因為這可同時提供付費和自然管道的最全面資訊。 | [行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md) |
 | 行動 | 顯示從行動裝置或平板電腦存取的網站相關資訊。 | [行動報表](/help/components/dimensions/mobile-dimensions.md) |
-| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實施作業並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。請[在此](https://mobilemarketing.adobe.com)存取介面。 | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
+| 行動應用程式 | 顯示行動應用程式的相關基本使用資訊。我們的 SDK 一經實作並開啟報告功能後，這些報表就可供使用。此外，Adobe Mobile Services 已建立單獨的行動應用程式介面，可提供更完整的應用程式資料，讓您了解並改進使用者對您應用程式的互動程度。請[在此](https://mobilemarketing.adobe.com)存取介面。 | [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html) |
 | 產品 | 識別個別產品和產品群組 (類別) 對各種轉換量度 (如收入或結帳) 的貢獻度。 | [產品報表](/help/components/dimensions/product.md) |
 | 區段比較 | 透過自動分析您可以存取的每個單一量度和維度，找出不同區段之間在統計上最顯著的差異。 | [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md) |
 | 網站內容報表 | 顯示您網站中最活躍的網頁與區域，以及最常用的伺服器。 | [網站內容報表](/help/components/dimensions/page.md) |
@@ -99,16 +99,16 @@ ht-degree: 97%
 | Data Warehouse | 請參閱 Analytics 工具。 |  |
 | Analytics 資料摘要 | 從 Analytics 取得資料的最詳細方式。設定 Analytics 的點擊層級回饋。 | [Analytics 資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) |
 
-## 資料收集與驗證 {#concept_E07350D4CA5047DAA7D81F762F29606A}
+## 資料彙集與驗證 {#concept_E07350D4CA5047DAA7D81F762F29606A}
 
 | 方法/資源 | 說明 | 文件連結 |
 | --- | --- | --- |
 | 開發人員資源 | 概述可用於收集所有可用平台 (網路、行動應用程式、視訊、Flash 等) 之 Analytics 資料之程式庫的文件 | [開發人員文件](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
-| 實施作業指南 | 說明資料收集變數，並詳述如何在 JavaScript 中實施作業資料收集程式碼。 | [實施作業指南](/help/implement/home.md) |
+| 實作指南 | 說明資料收集變數，並詳述如何在 JavaScript 中實作資料收集程式碼。 | [實作指南](/help/implement/home.md) |
 | App Measurement (s_code) | 全域變數管理 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | 應用程式 SDK | 可自訂套裝，包含應用程式設定檔的預先填入版本。 | <ul><li>[iOS 應用程式](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html)</li></ul> |
 | Adobe Experience Platform Launch | 請參閱 Analytics 工具。 |  |
 | VISTA | 可讓您套用伺服器端邏輯，以便在收集資料時變更或分段資料。 | [VISTA 規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 處理規則 | 能夠在 Analytics UI 中設定、修改與複製變數，以便變更所收集的資料。 | [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) |
-| 除錯工具選項 | 具備數個除錯程式和封包 Sniffer 可協助驗證您的實施作業情形，其中包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=tw) |
-| 資料插入 API | 資料插入 API 提供的機制，可用於伺服器端資料收集與將資料提交至 Experience Cloud 伺服器。伺服器端資料收集僅會根據網站瀏覽器的要求和網站伺服器的回應收集資料，不會使用每個網頁上的 JavaScript 信標來將訪客資料傳輸至 Experience Cloud 伺服器。 | [透過 POST 實施作業 Adobe Analytics 資料插入 API 的步驟](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
+| 除錯工具選項 | 具備數個除錯程式和封包 Sniffer 可協助驗證您的實作情形，其中包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=tw) |
+| 資料插入 API | 資料插入 API 提供的機制，可用於伺服器端資料收集與將資料提交至 Experience Cloud 伺服器。伺服器端資料收集僅會根據網站瀏覽器的要求和網站伺服器的回應收集資料，不會使用每個網頁上的 JavaScript 信標來將訪客資料傳輸至 Experience Cloud 伺服器。 | [透過 POST 實作 Adobe Analytics 資料插入 API 的步驟](https://helpx.adobe.com/tw/analytics/kb/data-insertion-api-post-method-adobe-analytics.html) |
