@@ -1,19 +1,19 @@
 ---
-title: post_product_list中的銷售eVar例項查閱
-description: 在資料摘要的post_product_list欄中，找到每個查閱值的銷售eVar例項。
+title: post_product_list 中的銷售 eVar 例項查閱
+description: 為資料摘要的 post_product_list 欄中的每個查閱值，尋找 Merchandising eVar 例項。
 exl-id: null
 source-git-commit: dd2ac690e4c5ed4337ab29302500079f72bed448
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
-# post_product_list中的銷售eVar例項查閱
+# post_product_list 中的銷售 eVar 例項查閱
 
-在資料摘要中，[post_product_list](datafeeds-reference.md)欄可能包含銷售eVar例項。 每個eVar都由數字表示。
+在資料摘要中，[post_product_list](datafeeds-reference.md) 欄可能包含銷售 eVar 例項。每個 eVar 由一個數字表示。
 
-post_product_list的銷售eVar例項查閱與資料摘要中的event_list查閱欄不同。
+post_product_list 的銷售 eVar 例項查閱，與資料摘要中的 event_list 查閱欄不同。
 
 | 查閱值 | 銷售例項 |
 |--- |--- |
@@ -49,7 +49,7 @@ post_product_list的銷售eVar例項查閱與資料摘要中的event_list查閱�
 | 130 | eVar30 |
 | 131 | eVar31 |
 | 132 | eVar32 |
-| 133 | eVar13 |
+| 133 | eVar33 |
 | 134 | eVar34 |
 | 135 | eVar35 |
 | 136 | eVar36 |
@@ -89,7 +89,7 @@ post_product_list的銷售eVar例項查閱與資料摘要中的event_list查閱�
 | 170 | eVar70 |
 | 171 | eVar71 |
 | 172 | eVar72 |
-| 173 | eVar53 |
+| 173 | eVar73 |
 | 174 | eVar74 |
 | 175 | eVar75 |
 | 275 | eVar76 |
