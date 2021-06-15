@@ -5,7 +5,7 @@ exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '418'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -40,4 +40,4 @@ ht-degree: 92%
 | 問題 | 回答 |
 |---|---|
 | 我是否可要求搶先使用功能？ | 不可以，我們不授與搶先使用的權限。<br>如果您想要搶先體驗 Analytics 的概念，建議您嘗試透過 [Adobe Analytics Labs](https://experienceleague.adobe.com/docs/analytics/analyze/tech-previews/overview.html) 對我們領先業界的創新能力提供意見反應。 |
-| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「管理員 [!UICONTROL  > ] 所有管理員 [!UICONTROL  > ] 公司設定 [!UICONTROL  >功能存取層級] 」下檢視Analytics套件 [](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)的詳細資訊。 |
+| 此發行策略是否會影響我使用功能？ | 不可以，功能一旦達到正式發行階段，只要功能包含在您的 Analytics 套件中，即可供您使用。<br>您可以在「[!UICONTROL 管理員] > [!UICONTROL 所有管理員] > [!UICONTROL 公司設定] > [功能存取層級](https://experienceleague.adobe.com/docs/analytics/admin/company-settings/feature-access-levels.html)」下，檢視 Analytics 套件的詳細資料。 |
