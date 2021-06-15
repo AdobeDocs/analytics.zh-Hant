@@ -8,7 +8,7 @@ exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '403'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -22,11 +22,11 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 除非更新到 AppMeasurement 的這個版本 (或更高版本)，否則無法收集 Activity Map 資料。
 
-1. 請前往「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**&#x200B;和[實作」，下載最新的AppMeasurement代碼(AppMeasurement_Javascript-1.6.zip)。](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)
+1. 請前往「**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**」下載最新的 AppMeasurement 程式碼 (AppMeasurement_Javascript-1.6.zip)，然後[實施程式碼](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)。
 
    我們隨附一些[實施代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
 
-1. 驗證實施：
+1. 驗證實作：
 
    1. 當按下可點按元素，資料就會儲存至名為 s_sq 的 Cookie 中。
    1. 可以在追蹤呼叫的查詢字串中看到 Activity Map 資料。例如：
@@ -37,11 +37,11 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
 1. 依照&#x200B;**[!UICONTROL 「各地區的 Activity Map 連結」]**&#x200B;劃分此報表，查看該頁面的連結/地區：![](assets/am_breakdown.png){width=&quot;400px&quot;}
 
-## 步驟 2.啟用 Activity Map 報表 {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
+## 步驟 2. 啟用 Activity Map 報表 {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 
-首先，您必須在報表套裝層級啟用 Activity Map 報表。
+首先，您必須在報告套裝層級啟用 Activity Map 報表。
 
-1. 登入 Adobe Analytics，並依序導覽至&#x200B;**[!UICONTROL 「Analytics]** > ****&#x200B;管理員 > **[!UICONTROL 報表套裝]** > 選取報表套裝 > **[!UICONTROL 編輯設定]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 報表」]**。
+1. 登入 Adobe Analytics，並依序導覽至&#x200B;**[!UICONTROL 「Analytics]** > ****&#x200B;管理員 > **[!UICONTROL 報告套裝]** > 選取報告套裝 > **[!UICONTROL 編輯設定]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 報表」]**。
 1. Activity Map 會將連結資料收集至 Activity Map 報表中。您必須先按一下&#x200B;**[!UICONTROL 「啟用 Activity Map 報表」]**&#x200B;啟動變數，才能真正啟動。
 
    此步驟會新增收集資料所需的所有 Analytics 維度。
