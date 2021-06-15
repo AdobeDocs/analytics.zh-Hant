@@ -7,7 +7,7 @@ uuid: 08685919-216d-448b-b886-3adf5ff5405e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '2028'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 **[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 分類規則產生器]**
 
-規則產生器可讓您建立&#x200B;*分類規則集*，此為&#x200B;*分類規則*&#x200B;的清單。 規則會匹配您指定的準則，然後執行動作。
+規則產生器可讓您建立&#x200B;*分類規則集*，這是一份&#x200B;*分類規則*&#x200B;清單。規則會匹配您指定的準則，然後執行動作。
 
 分類規則可方便執行下列作業：
 
@@ -111,7 +111,7 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->規則運算式最適合使用分隔字元的追蹤程式碼，此為最佳作法。
+>最佳實務是，規則運算式最適合使用分隔字元的追蹤程式碼。
 
 ## 規則運算式 - 追蹤程式碼範例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
@@ -178,7 +178,7 @@ regex_classification_rules.xml
 | 規則運算式 | `^.(s).*$` | 品牌和引擎 | `$0` (擷取品牌名稱和搜尋引擎的前兩個字元。) |
 | 規則運算式 | `^.(s).*$` | 搜尋引擎 | `$1` (擷取 Google 的第 2 個字元。) |
 
-## 規則運算式 - 匹配各種長度的追蹤程式碼 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
+## 規則運算式 - 比對各種長度的追蹤程式碼 {#section_E86F5BF5C2F44ABC8FFCE3EA67EE3BB2}
 
 這個範例顯示如果有各種長度的追蹤程式碼，要如何識別冒號分隔字元間的特定字元。Adobe 建議針對每個追蹤程式碼使用一個規則運算式。
 
@@ -265,7 +265,7 @@ c:d:yoyo
 | `a{3,}` | 3 個或更多 a |
 | `a{3,6}` | 介於 3 到 6 個 a |
 
-測試規則運算式有效性的好資源是[https://rubular.com/](https://rubular.com/)。
+測試規則運算式有效性的實用資源為 [https://rubular.com/](https://rubular.com/)。
 
 ## 關於規則優先順序
 
@@ -293,7 +293,7 @@ rule_priority.xml
 
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
-| 3 | 包含 | 牛仔隊 | 城市 | Dallas |
+| 1 | 包含 | 牛仔隊 | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
 使用者搜尋    *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
@@ -325,9 +325,9 @@ t_classification_rule.xml
 
    >[!NOTE]
    >
-   >只有&#x200B;*在符合下列條件時，報表套裝才會顯示在此頁面上：*
+   >*只有*&#x200B;在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
-   >* 報告套裝的[!UICONTROL 「管理工具」]中，至少為該變數定義了一個分類。
+   >* 報告套裝的「[!UICONTROL 管理工具]」中，至少為該變數定義了一個分類。
       >
       >   
       (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
@@ -406,7 +406,7 @@ t_validate_rules.xml
 
    ![](assets/overwrite_keys.png)
 
-1. （可選）若要覆寫分類，請啟用&#x200B;**[!UICONTROL 覆寫]** &lt;*selection*>的分類。
+1.  (選用) 若要覆寫分類，請啟用「&lt;*選取項目*> 的&#x200B;**[!UICONTROL 覆寫分類]**」。
 
    此選項可讓您覆寫受影響索引鍵的現有分類。
 
