@@ -3,19 +3,19 @@ title: 在 Launch 中建立 Analytics 屬性
 description: 使用 Adobe Experience Platform Launch 建立空間來自訂資料收集方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: c46feec3f08b78ca7882193ab86914db49617c1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # 在 Adobe Experience Platform Launch 中建立 Analytics 屬性
 
-Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud 解決方案 (包括 Analytics) 的工具。本頁具體說明 Launch 管理員如何正確設定基本 Adobe Analytics 實施。
+Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud 解決方案 (包括 Analytics) 的工具。本頁具體說明 Launch 管理員如何正確設定基本 Adobe Analytics 實作。
 
 ## 必要條件
 
-[建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：建立可供 Analytics 收集資料的獨立單位
+[建立報告套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：建立可供 Analytics 收集資料的獨立單位
 
 ## 建立屬性並安裝重要的擴充功能
 
@@ -23,7 +23,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下 **[!UICONTROL 新增屬性]**。
-1. 為屬性命名 (例如您的網站標題)，然後輸入預計實施 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的屬性以輸入其設定。
 1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 目錄]**。
 1. 找到 Identity Service，然後按一下 **[!UICONTROL 安裝]**。
@@ -35,7 +35,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 資料元素是網站特定部分的參考，可用來收集變數值。
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
-1. 按一下您預計在網站上實施的 Launch 屬性。
+1. 按一下您預計在網站上實作的 Launch 屬性。
 1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立新資料元素]**。
 1. 為資料元素執行下列設定：
 
@@ -56,7 +56,7 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 規則會將資料元素對映至 Analytics 變數值，並決定要在何時將這些值傳送至 Adobe 的伺服器。
 
 1. 前往 [launch.adobe.com](https://launch.adobe.com)，然後在出現提示時登入。
-1. 按一下您預計在網站上實施的 Launch 屬性。
+1. 按一下您預計在網站上實作的 Launch 屬性。
 1. 按一下&#x200B;**[!UICONTROL 建立新規則]**&#x200B;並命名這新規則`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：核心
@@ -80,10 +80,10 @@ Adobe Experience Platform Launch 是可用來整合網站上的 Experience Cloud
 
 ## 文件和其他資源
 
-* [Adobe Analytics 擴充功能文件](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en#extensions-ref)：Adobe Experience Platform Launch 中 Adobe Analytics 擴充功能的完整專屬文件。
-* [Launch 快速入門](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en#get-started)：Launch 的完整文件，包括更深入的快速入門手冊
+* [Adobe Analytics 擴充功能文件](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=zh-Hant#extensions-ref)：Adobe Experience Platform Launch 中 Adobe Analytics 擴充功能的完整專屬文件。
+* [Launch 快速入門](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=zh-Hant#get-started)：Launch 的完整文件，包括更深入的快速入門手冊
 * [Adobe Experience Platform Launch 頻道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：透過影片瞭解如何使用 Launch
 
 ## 後續步驟
 
-[將 Analytics 實施部署至開發環境](deploy-dev.md)：讓 Analytics 程式碼在測試環境中正常運作。
+[將 Analytics 實作部署至開發環境](deploy-dev.md)：讓 Analytics 程式碼在測試環境中正常運作。
