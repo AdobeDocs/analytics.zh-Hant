@@ -4,11 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-translation-type: tm+mt
 source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,8 +22,8 @@ ht-degree: 99%
       + [專案概觀](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [多報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
-      + [熱鍵 (快速鍵)](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
+      + [多報告套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
    + 元件 {#components}
@@ -32,7 +31,7 @@ ht-degree: 99%
       + 維度 {#dimensions}
          + [預覽維度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [劃分維度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
-         + [時間分段維度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
+         + [時間分隔維度](analysis-workspace/components/dimensions/time-parting-dimensions.md)
       + [量度](analysis-workspace/components/apply-create-metrics.md)
       + [區段](analysis-workspace/components/t-freeform-project-segment.md)
       + 日曆和日期範圍 {#calendar-date-ranges}
@@ -48,8 +47,8 @@ ht-degree: 99%
             + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [分頁、篩選及分類表格](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Analysis Workspace 總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [表格分頁、篩選及分類](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [Workspace 總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -64,16 +63,16 @@ ht-degree: 99%
          + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
          + [流量設定](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [維度間流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [色階分佈圖](analysis-workspace/visualizations/histogram.md)
+      + [長條圖](analysis-workspace/visualizations/histogram.md)
       + [地圖](analysis-workspace/visualizations/map-visualization.md)
-      + [Venn](analysis-workspace/visualizations/venn.md)
+      + [文氏](analysis-workspace/visualizations/venn.md)
       + [區域圖和堆疊區域圖](analysis-workspace/visualizations/area.md)
       + [長條圖和堆疊長條圖](analysis-workspace/visualizations/bar.md)
       + [項目符號圖表](analysis-workspace/visualizations/bullet-graph.md)
       + [環形圖](analysis-workspace/visualizations/donut.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
-      + [折線圖](analysis-workspace/visualizations/line.md)
-      + [散點圖](analysis-workspace/visualizations/scatterplot.md)
+      + [線圖](analysis-workspace/visualizations/line.md)
+      + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
       + [文字](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
@@ -82,7 +81,7 @@ ht-degree: 99%
       + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
-      + [自由表格面板](analysis-workspace/c-panels/freeform-panel.md)
+      + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
@@ -96,13 +95,13 @@ ht-degree: 99%
       + [建立分享連結](analysis-workspace/curate-share/shareable-links.md)
       + [僅供檢視的專案](analysis-workspace/curate-share/view-only-projects.md)
       + [下載 PDF 或 CSV 檔案](analysis-workspace/curate-share/download-send.md)
-      + [為專案排程](analysis-workspace/curate-share/t-schedule-report.md)
-   + 歸因 IQ {#attribution}
+      + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
+   + Attribution IQ {#attribution}
       + [歸因概觀](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [常見問題集](analysis-workspace/attribution/faq.md)
-   + [Journey IQ](analysis-workspace/journey-iq.md)
+   + [歷程 IQ](analysis-workspace/journey-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + 虛擬分析人員 {#virtual-analyst}
       + [虛擬分析人員概觀](analysis-workspace/virtual-analyst/overview.md)
@@ -120,12 +119,12 @@ ht-degree: 99%
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
          + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
-   + [用戶偏好設定](analysis-workspace/user-preferences.md)
-   + Analysis Workspace 常見問題集 {#workspace-faq}
+   + [使用者偏好設定](analysis-workspace/user-preferences.md)
+   + Workspace 常見問題集 {#workspace-faq}
       + [常見問題集](analysis-workspace/workspace-faq/faq.md)
-      + [Analysis Workspace 效能最佳化](analysis-workspace/workspace-faq/optimizing-performance.md)
+      + [最佳化 Analysis Workspace 效能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)
-      + [Analysis Workspace 的限制](analysis-workspace/workspace-faq/aw-limitations.md)
+      + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
       + [管理需求](analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)
       + [Analysis Workspace 的協助工具](analysis-workspace/workspace-faq/aw-accessibility.md)
 + Report Builder {#report-builder}
@@ -134,27 +133,27 @@ ht-degree: 99%
       + [系統要求](report-builder/setup/system-requirements.md)
       + [安裝 Report Builder](report-builder/setup/t-install-arb.md)
       + [升級 Report Builder](report-builder/setup/upgrade-arb.md)
-      + [登入 Report Builder](report-builder/setup/login.md)
+      + [Report Builder 登入](report-builder/setup/login.md)
       + [解除安裝 Report Builder](report-builder/setup/t-uninstall-arb.md)
       + [從 Microsoft Excel 函數叫用 Report Builder 功能](report-builder/setup/invoke-arb-excel-function.md)
    + [Report Builder 工具列](report-builder/reportbuilder-toolbar.md)
    + 資料請求 {#data-requests}
       + [資料請求 - 請求精靈步驟 1](report-builder/data-requests/data-requests.md)
       + [建立資料請求](report-builder/data-requests/t-create-a-data-request.md)
-      + 報表套裝 {#report-suites}
-         + [選擇報表套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [從 Excel 中的現有請求選擇報表套裝](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
-         + [使用 Excel 來找出報表套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
+      + 報告套裝 {#report-suites}
+         + [選擇報告套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [選擇報告套裝來自 Excel 中的現有請求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [使用 Excel 來找出報告套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理區段](report-builder/data-requests/segmentation.md)
       + [允許發佈清單覆蓋](report-builder/data-requests/allow-publishing-list-overrides.md)
       + 報表類型 {#report-types}
          + [報表類型概觀](report-builder/data-requests/c-report-types/select-report-types.md)
          + [Report Builder 中的路徑與路徑流失報表](report-builder/data-requests/c-report-types/report-path-fallout.md)
          + [使用請求精靈篩選路徑報表](report-builder/data-requests/c-report-types/path-filter.md)
-         + [使用請求精靈篩選路徑流失報表](report-builder/data-requests/c-report-types/fallout-filter.md)
+         + [使用請求精靈篩選流失報表](report-builder/data-requests/c-report-types/fallout-filter.md)
          + [新增相依請求以篩選路徑報表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [選擇報表類型](report-builder/data-requests/c-report-types/t-select-report-type.md)
-      + [匯入書籤化報表與儀表板報表](report-builder/data-requests/import-bookmarked.md)
+      + [匯入書籤化報表與控制面板小報告](report-builder/data-requests/import-bookmarked.md)
       + 日期範圍 {#date-ranges}
          + [請求精靈定義 - 預設日期](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [固定日期和儲存的日期範圍](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
@@ -170,29 +169,29 @@ ht-degree: 99%
             + [使用自訂運算式的日期範圍範例](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
             + [考量事項](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [來自儲存格的日期](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
-         + [粒度](report-builder/data-requests/configuring-report-dates/granularity.md)
+         + [詳細程度](report-builder/data-requests/configuring-report-dates/granularity.md)
          + [自訂日曆](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [互動式控制項](report-builder/data-requests/interactive-controls.md)
-   + 配置 - 請求精靈步驟 2 {#layout}
-      + [配置概觀](report-builder/layout/layout.md)
-      + 度量和維度 {#metrics-dimension}
-         + [度量和維度概觀](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
-         + [新增度量和維度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
+   + 版面 - 請求精靈步驟 2 {#layout}
+      + [版面概觀](report-builder/layout/layout.md)
+      + 量度和維度 {#metrics-dimension}
+         + [量度和維度概觀](report-builder/layout/c-metrics-dimensions/metrics-dimensions.md)
+         + [新增量度和維度](report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)
          + [計算量度](report-builder/layout/c-metrics-dimensions/calculated-metrics.md)
-         + [將流量與商務度量合併為同一請求](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
-         + [維度與度量的使用者存取權限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
+         + [將流量與商務量度合併為同一請求](report-builder/layout/c-metrics-dimensions/grouped-metrics.md)
+         + [維度與量度的使用者存取權限](report-builder/layout/c-metrics-dimensions/permissions-metrics-dimensions.md)
          + [修改量度 - 欄位定義](report-builder/layout/c-metrics-dimensions/r-arb-modify-metrics.md)
          + [客戶屬性](report-builder/layout/c-metrics-dimensions/c-ustomer-attributes.md)
       + [異常偵測](report-builder/layout/anomaly-detection.md)
       + [設定異常偵測請求](report-builder/layout/t-anomaly.md)
-      + [日期格式](report-builder/layout/format-the-data.md)
-      + [顯示標題格式](report-builder/layout/t-format-display-headers.md)
+      + [格式化日期](report-builder/layout/format-the-data.md)
+      + [格式化顯示標題](report-builder/layout/t-format-display-headers.md)
       + [隱藏或顯示標題](report-builder/layout/hide-or-show-headers.md)
       + [刪除輸出對映](report-builder/layout/delete-output-mapping.md)
       + [為請求命名](report-builder/layout/name-a-request.md)
       + [在儲存格的開頭或結尾附加文字](report-builder/layout/prepend-and-postpend-text-to-cells.md)
-      + [設定自訂配置](report-builder/layout/configure-the-custom-layout.md)
-      + [將度量和維度映射至儲存格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+      + [設定自訂版面](report-builder/layout/configure-the-custom-layout.md)
+      + [將量度和維度映射至儲存格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [建立 Microchart](report-builder/layout/t-create-a-microchart.md)
       + 篩選維度 {#filter-dimenson}
          + [篩選維度概觀](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
@@ -219,13 +218,13 @@ ht-degree: 99%
          + [建立多個請求副本](report-builder/manage-requests/c-copy-requests/t-create-more-than-one-copy-of-a-request.md)
          + [複製參考請求](report-builder/manage-requests/c-copy-requests/t-copy-referential-requests.md)
       + [儲存含請求的活頁簿](report-builder/manage-requests/save-a-workbook-with-requests.md)
-      + [指定格式化的條件](report-builder/manage-requests/specify-conditional-formatting.md)
-      + [以離線模式建立及編輯請求](report-builder/manage-requests/offline-mode.md)
+      + [指定條件式格式](report-builder/manage-requests/specify-conditional-formatting.md)
+      + [建立及編輯請求的離線模式](report-builder/manage-requests/offline-mode.md)
    + [Report Builder 選項](report-builder/options.md)
    + [排程報表請求](report-builder/schedule-report-requests.md)
    + [排程活頁簿](report-builder/t-schedule-a-data-request.md)
-   + [排程任務管理員](report-builder/r-arb-scheduled-reports.md)
-   + 活頁簿庫 {#workbook-library}
+   + [排程的工作管理員](report-builder/r-arb-scheduled-reports.md)
+   + 活頁簿資料庫 {#workbook-library}
       + [上傳活頁簿](report-builder/workbook-library/t-upload-a-workbook.md)
       + [下載活頁簿](report-builder/workbook-library/t-download-a-workbook.md)
       + [鎖定/解除鎖定活頁簿](report-builder/workbook-library/protect-wb.md)
@@ -235,7 +234,7 @@ ht-degree: 99%
       + [限制與規格](report-builder/c-publish-power-bi/specifications-limits.md)
       + [手動將資料匯入 Power BI](report-builder/c-publish-power-bi/bi-manually-import-data.md)
       + [將已發佈的資產帶入 Power BI Desktop](report-builder/c-publish-power-bi/bi-publish-to-desktop.md)
-      + [最佳作法](report-builder/c-publish-power-bi/bi-best-practices.md)
+      + [最佳實務](report-builder/c-publish-power-bi/bi-best-practices.md)
       + [疑難排解 Power BI 的整合問題](report-builder/c-publish-power-bi/troubleshooting.md)
       + [適用於 Power BI 的 Adobe Analytics 內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic 巨集](report-builder/vba.md)
@@ -246,7 +245,7 @@ ht-degree: 99%
    + 快速入門 {#getting-started}
       + 管理員快速入門 {#get-started-admins}
          + [啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [實施Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [實作 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 使用者快速入門 {#get-started-users}
          + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -272,16 +271,16 @@ ht-degree: 99%
    + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
    + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
-   + [資料收集作業疑難排解](activity-map/troubleshoot-data-collection.md)
+   + [疑難排解資料彙集](activity-map/troubleshoot-data-collection.md)
    + [知識資源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
-   + [「Reports and Analytics」快速入門](reports-analytics/getting-started.md)
+   + [Reports and Analytics 快速入門](reports-analytics/getting-started.md)
    + [Adobe Analytics - 重要概念](reports-analytics/key-concepts.md)
    + 報表介面的概觀 {#reporting-interface}
-      + [關於資料蒐集](reports-analytics/overview/overview-data-collection.md)
+      + [關於資料彙集](reports-analytics/overview/overview-data-collection.md)
       + [報表功能表](reports-analytics/overview/reports-menu.md)
       + [報表功能](reports-analytics/overview/report-overview.md)
-      + [常用詞語](reports-analytics/overview/overview-common-terms.md)
+      + [常用詞彙](reports-analytics/overview/overview-common-terms.md)
       + [iOS 適用的 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [報表顯示設定和導覽](reports-analytics/report-settings.md)
    + [報表排程和分發](reports-analytics/scheduling.md)
@@ -293,13 +292,13 @@ ht-degree: 99%
       + [劃分](reports-analytics/reports-customize/breakdowns.md)
       + [子關聯](reports-analytics/reports-customize/subrelations.md)
       + [篩選報表資料](reports-analytics/reports-customize/t-reports-filter-options.md)
-   + [Analytics 區段](reports-analytics/segmentation.md)
+   + [Analytics 分段](reports-analytics/segmentation.md)
    + [書籤管理器](reports-analytics/bookmarks.md)
    + [目前的資料](reports-analytics/current-data.md)
-   + [控制面板和報表](reports-analytics/dashboard.md)
+   + [控制面板和小報告](reports-analytics/dashboard.md)
    + [控制面板管理員](reports-analytics/dashboard-manage.md)
    + [資料擷取](reports-analytics/data-extract.md)
-   + [漏斗報表](reports-analytics/funnels.md)
+   + [漏斗報告](reports-analytics/funnels.md)
    + [量度](reports-analytics/metrics.md)
    + [目標](reports-analytics/targets.md)
    + [警報](reports-analytics/alerts.md)
