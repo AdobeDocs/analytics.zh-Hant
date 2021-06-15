@@ -1,11 +1,11 @@
 ---
 title: 舊版 Adobe Experience Cloud Debugger
-description: 安裝舊版 Adobe Experience Cloud Debugger。此除錯工具會檢查Analytics、Target、Advertising Cloud、Identity Service和Launch的標籤。
+description: 安裝舊版 Adobe Experience Cloud Debugger。 此除錯工具會檢查 Analytics、Target、Advertising Cloud、Identity Service 和 Launch 的標籤。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 >
 > 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
 
-[!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標籤。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實施項目進行疑難排解或驗證。
+[!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標籤。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實作項目進行疑難排解或驗證。
 
 ## 安裝舊版 Debugger
 
