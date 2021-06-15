@@ -5,9 +5,9 @@ feature: Reports and Analytics 基本需知
 uuid: 15d4f0c8-b566-43b0-b914-4ea35b7fac7f
 exl-id: 5765b377-bdad-41a7-8277-b9fd521c12bd
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 95%
 
    如此可讓日曆事件有更多用處。分析師現在可以強制覆蓋其使用者的報表，以提供更多上下文內容。
 1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 日曆事件]**」。
-1. 在&#x200B;**[!UICONTROL 「共用日曆事件」]**&#x200B;底下，指定以下任一選項：
+1. 在「**[!UICONTROL 共用日曆事件]**」底下，指定以下任一選項：
 
    | **副本抄送我** | 將副本新增至事件清單，名稱與原始事件相同。不過，您無法看見事件擁有者所做的任何更新/變更。 |
    |---|---|
