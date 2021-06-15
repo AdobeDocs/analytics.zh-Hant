@@ -5,10 +5,10 @@ title: 使用可選時間戳記
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 97%
+source-wordcount: '608'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 97%
 
    順序錯誤的資料包括來自離線資料收集的遲到資料和遲到點擊，或離線行動裝置上的不同步時鐘。順序錯誤的資料會影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 
-* 不建議在設定 [s.visitorID](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-identification.html) 時使用時間戳記。這可能會造成資料順序錯誤。
+* 不建議在設定 [s.visitorID](/help/implement/vars/config-vars/visitorid.md) 時使用時間戳記。這可能會造成資料順序錯誤。
 
 * 由應用程式 (有時間戳記的離線資料) 開啟網路瀏覽器 (非時間戳記的即時資料) 組成的混合應用程式不應使用時間戳記。這會導致錯誤報告作業階段。
 
