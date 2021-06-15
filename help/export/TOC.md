@@ -7,7 +7,7 @@ user-guide-description: 透過資料摘要每小時或每天接收原始資料�
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 96%
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
    + [建立或編輯資料摘要](analytics-data-feed/create-feed.md)
    + [管理資料摘要](analytics-data-feed/df-manage-feeds.md)
-   + [管理資料摘要作業](analytics-data-feed/df-manage-jobs.md)
+   + [管理資料摘要工作](analytics-data-feed/df-manage-jobs.md)
    + 資料摘要內容 {#data-feed-contents}
       + [資料摘要內容概觀](analytics-data-feed/c-df-contents/datafeeds-contents.md)
       + [計算量度](analytics-data-feed/c-df-contents/datafeeds-calculate.md)
       + [資料欄參考](analytics-data-feed/c-df-contents/datafeeds-reference.md)
       + [頁面事件查閱](analytics-data-feed/c-df-contents/datafeeds-page-event.md)
       + [行動屬性查閱](analytics-data-feed/c-df-contents/mobile-attributes-lookup.md)
-      + [銷售eVar查閱](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
+      + [銷售 eVar 查閱](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [資料摘要常見問答集](analytics-data-feed/df-faq.md)
-   + [資料摘要最佳作法](analytics-data-feed/data-feeds-best-practices.md)
-   + [工作的疑難排解](analytics-data-feed/jobs-troubleshooting.md)
+   + [資料摘要常見問題集](analytics-data-feed/df-faq.md)
+   + [資料摘要最佳實務](analytics-data-feed/data-feeds-best-practices.md)
+   + [疑難排解工作](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)
@@ -41,8 +41,8 @@ ht-degree: 96%
    + [依量度排序](data-warehouse/sorting-by-metric.md)
    + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
-   + [Data Warehouse 支援元件](data-warehouse/component-support.md)
-   + [Data Warehouse 常見問答](data-warehouse/faq.md)
+   + [Data Warehouse 支援的元件](data-warehouse/component-support.md)
+   + [Data Warehouse 常見問題集](data-warehouse/faq.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [透過 Adobe Experience Cloud 使用 FTP 和 SFTP](ftp-and-sftp/ftp-overview.md)
@@ -50,7 +50,7 @@ ht-degree: 96%
       + [設定 FTP 帳戶 - 概觀](ftp-and-sftp/c-set-up-ftp-accounts/ftp-accounts.md)
       + [分類](ftp-and-sftp/c-set-up-ftp-accounts/ftp-saint.md)
       + [資料來源](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datasources.md)
-      + [Data Connectors](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
+      + [資料連接器](ftp-and-sftp/c-set-up-ftp-accounts/ftp-genesis.md)
       + [資料摘要](ftp-and-sftp/c-set-up-ftp-accounts/ftp-datafeeds.md)
       + [Data Warehouse 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-dw-reports.md)
       + [Report Builder 傳遞的報表](ftp-and-sftp/c-set-up-ftp-accounts/ftp-arb-reports.md)
