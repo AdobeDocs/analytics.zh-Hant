@@ -7,7 +7,7 @@ exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '417'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -48,11 +48,11 @@ ht-degree: 98%
 
 * 自訂日期範圍不支援[!UICONTROL 「去年的今天」]、[!UICONTROL 「上個月的今天」]等。
 
-## 元件 > 虛擬報表套裝
+## 元件 > 虛擬報告套裝
 
 * 啟用報表時間處理功能時，系統不支援某些元件。如需完整清單，請參閱[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 
-## 元件>所有元件>報表設定
+## 元件 > 所有元件 > 報告設定
 
 * [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
 
