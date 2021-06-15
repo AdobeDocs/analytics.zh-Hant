@@ -3,9 +3,9 @@ title: 報告套裝工具的產品設定檔權限
 description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 8d409f27024a8c58bc875555ad5aa980815d1fc9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '623'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 87%
 | 成本 | 授予「報告套裝管理器」中「行銷管道 > 行銷管道成本」的權限。 |
 | 轉換變數 | 授予「報告套裝管理器」中「轉換 > 轉換變數」的存取權。 |
 | 尋找方法 | 授予「報告套裝管理器」中「轉換 > 尋找方法」的存取權。 |
-| 不重複訪客 | 授予「轉換 > 不重複訪客變數」的存取權。通常不會用於新版的實施中。 |
+| 不重複訪客 | 授予「轉換 > 不重複訪客變數」的存取權。通常不會用於新版的實作中。 |
 | 成功事件 | 授予「報告套裝管理器」中「轉換 > 成功事件」的存取權。 |
 | 清單變數 | 授予「報告套裝管理器」中「轉換 > 清單變數」的存取權。 |
 | 預設量度 | 授予「報告套裝管理器」中「個別報告套裝設定 > 預設量度」的存取權。 |
@@ -42,15 +42,15 @@ ht-degree: 87%
 | 資料摘要管理員 | 授予 Analytics 頂端導列中「管理員 > 資料摘要」的存取權。 |
 | 自訂 Data Warehouse 報表 | 授予 Analytics 頂端導列中「工具 > Data Warehouse」的存取權。 |
 | 每日回訪 | 授予「Reports &amp; Analytics」中「訪客保留率 > 每日回訪」的存取權。 |
-| 資料來源管理員 | 授予Analytics頂端導列中「管理員>所有管理員>資料來源」的存取權。 需要權限項目「報告套裝管理」。 |
+| 資料來源管理員 | 授予 Analytics 頂端導覽列中「管理員 > 所有管理員 > 資料來源」的存取權。 需要權限項目「報告套裝管理」。 |
 | 依 IP 位址排除 | 授予 Analytics 頂端導列中「管理員 > 依 IP 排除」的存取權。 |
 | 回訪 | 授予「Reports &amp; Analytics」中「訪客保留率 > 回訪」的存取權。 |
 | 分類 | 授予「報告套裝管理器」中所有分類設定的存取權。此權限項目包括：<br>流量 > 流量分類<br>轉換 > 轉換分類<br>轉換 > 分類階層<br>行銷管道 > 行銷管道分類<br>應用程式管理 > 應用程式分類<br>媒體管理 > 媒體分類<br>AEM > AEM Assets 分類<br>Adobe Campaign > Adobe 分類 |
 | 我的建議報表 | 授予「Reports &amp; Analytics」中「網站量度 > 我的建議報表」的存取權。 |
-| Reports &amp; Analytics控制面板影像小報表 | 授予控制面板報表的存取權。 |
-| Reports &amp; Analytics控制面板量規小報表 | 授予控制面板報表的存取權。 |
-| Reports &amp; Analytics控制面板報表套裝摘要小報表 | 授予控制面板報表的存取權。 |
-| Reports &amp; Analytics控制面板文字小報表 | 授予控制面板報表的存取權。 |
-| Reports &amp; Analytics控制面板報表套裝摘要小報表 | 授予控制面板報表的存取權。 |
-| Reports &amp; Analytics控制面板外部小報表 | 授予控制面板報表的存取權。 |
+| Reports &amp; Analytics 控制面板影像小報告 | 授予控制面板小報告的存取權。 |
+| Reports &amp; Analytics 控制面板量規小報告 | 授予控制面板小報告的存取權。 |
+| Reports &amp; Analytics 控制面板報告套裝摘要小報告 | 授予控制面板小報告的存取權。 |
+| Reports &amp; Analytics DashboardText 小報告 | 授予控制面板小報告的存取權。 |
+| Reports &amp; Analytics 控制面板報告套裝摘要小報告 | 授予控制面板小報告的存取權。 |
+| Reports &amp; Analytics 控制面板外部小報告 | 授予控制面板小報告的存取權。 |
 | 資料修復 API | 授予資料修復 API 的權限 |
