@@ -3,7 +3,7 @@ description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '648'
 ht-degree: 100%
 
