@@ -5,7 +5,7 @@ exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '1261'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -56,14 +56,14 @@ Analytics 會自動授予 Analytics 管理員兩項權限。之後，管理員�
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 管理 </p> </td> 
    <td colname="col2"> <p>可讓使用者設定/編輯/檢視廣告搜尋帳戶。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理員</span>  &gt;  <span class="uicontrol"> 所有管 </span>  理員&gt;  <span class="uicontrol"> 使用者管理</span>  &gt;  <span class="uicontrol"> 群組</span>  &gt;  <span class="uicontrol"> 編輯所有報表存取權</span>  &gt;  <span class="uicontrol"> 自訂Analytics工具</span>  &gt;  <span class="uicontrol"> Advertising Analytics管理</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理員</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂 Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理</span></span> </td> 
    <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">Analytics 工具</span> &gt; <span class="uicontrol">Advertising Analytics 管理」</span></span> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Advertising Analytics 設定 </p> </td> 
    <td colname="col2"> <p>可讓使用者設定要為 Advertising Analytics 佈建的報告套裝。 </p> </td> 
-   <td colname="col3"><span class="ignoretag"><span class="uicontrol"> 管理</span>  &gt;  <span class="uicontrol"> 所有管 </span>  理員&gt;  <span class="uicontrol"> 使用者管理</span>  &gt;  <span class="uicontrol"> 群組</span>  &gt;  <span class="uicontrol"> 編輯所有報表存取權</span>  &gt;  <span class="uicontrol"> 自訂報表套裝工具</span>  &gt;  <span class="uicontrol"> Advertising Analytics設定</span></span> </td> 
-   <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品設定檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">報告套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
+   <td colname="col3"><span class="ignoretag"><span class="uicontrol">管理員</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取權</span> &gt; <span class="uicontrol">自訂報告套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定</span></span> </td> 
+   <td colname="col4"><span class="ignoretag"><span class="uicontrol">登入 adminconsole.adobe.com</span> &gt; <span class="uicontrol">「產品</span> &gt; <span class="uicontrol">產品描述檔</span> &gt; <span class="uicontrol">權限標籤</span> &gt; <span class="uicontrol">報告套裝工具</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span> </td> 
   </tr> 
  </tbody> 
 </table>
