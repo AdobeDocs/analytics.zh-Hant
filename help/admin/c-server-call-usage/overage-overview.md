@@ -4,9 +4,9 @@ title: 伺服器呼叫使用量概觀
 uuid: 6e014364-efc1-4769-a0b5-cf105c0ed9b1
 exl-id: d3d64f1e-f01b-4b9e-9aee-c14e574fc40b
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>伺服器呼叫 </p> </td> 
-   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。伺服器呼叫最常見的類型是頁面檢視。訪客在您的網站上檢視頁面，因此系統向 Adobe 產生伺服器呼叫，要求 Adobe 收集與處理資料，這次檢視就會在報表量度中計為一次頁面檢視。 </p> <p>另外還有其他類型的伺服器呼叫，包括退出連結與檔案下載；在此處資料會傳送至 Adobe 進行處理，但這些呼叫不會記錄為新的頁面檢視。即使是「已排除的」頁面檢視 (例如，被您所設定的 IP 位址範圍排除在報告外) 也是伺服器呼叫，因為這些檢視都會由 Adobe 接收並處理，但一律不會在您的報告中顯示。 </p> <p><b>主要伺服器呼叫</b>：從網站訪客瀏覽器或「資料插入 API」直接收到的請求。包含主要點擊 (頁面檢視)、主要自訂事件、主要下載事件，以及主要退出事件。 </p> <p><b>次要伺服器呼叫</b>：多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動 SDK 收到的請求。包含 trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報表套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意：如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
+   <td colname="col2"> <p>伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。伺服器呼叫最常見的類型是頁面檢視。訪客在您的網站上檢視頁面，因此系統向 Adobe 產生伺服器呼叫，要求 Adobe 收集與處理資料，這次檢視就會在報表量度中計為一次頁面檢視。 </p> <p>另外還有其他類型的伺服器呼叫，包括退出連結與檔案下載；在此處資料會傳送至 Adobe 進行處理，但這些呼叫不會記錄為新的頁面檢視。即使是「已排除的」頁面檢視 (例如，被您所設定的 IP 位址範圍排除在報告外) 也是伺服器呼叫，因為這些檢視都會由 Adobe 接收並處理，但一律不會在您的報告中顯示。 </p> <p><b>主要伺服器呼叫</b>：從網站訪客瀏覽器或「資料插入 API」直接收到的請求。包含主要點擊 (頁面檢視)、主要自訂事件、主要下載事件，以及主要退出事件。 </p> <p><b>次要伺服器呼叫</b>：多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報告套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p><b>行動主要伺服器呼叫</b> </p> <p>直接從其中一個行動 SDK 收到的請求。包含 trackAction、trackState、trackApp Crashes、trackActionFromBackground、trackLocation、trackBeacon、trackPushMessageClickThrough、trackTimedActionBacklog、trackLifetimeValueIncrease。</p> <p><b>行動次要伺服器呼叫</b> </p> <p>多套裝標記所建立或按照 VISTA 規則複製/移動之主要伺服器呼叫次數的重複份數。如果次要伺服器呼叫次數已按照 VISTA 規則移動 (非複製) 至其他報告套裝，累積的次要伺服器呼叫次數將從主要伺服器呼叫次數中扣除。 </p> <p>注意：如果貴公司在合約上僅有權使用行動伺服器呼叫 (主要或次要)，則您的 Web 和行動專屬使用量將會以您的行動專屬承諾使用量為計算基準。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>帳單公司 (計費 ID) </p> </td> 
@@ -53,13 +53,13 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
   </tr> 
   <tr> 
    <td colname="col1"> <p>登入公司 </p> </td> 
-   <td colname="col2"> <p>一間帳單公司可以擁有<a href="https://helpx.adobe.com/tw/analytics/kb/multiple-login-companies.html">多家登入公司</a>。登入公司是您的組織使用的報表套裝集合。某些組織擁有多個登入公司，適用於組織內的不同部門。在需要處理不同業務單位的大型組織中，有許多報表套裝不適用於公司內其他人時，這特別有用。 </p> <p>通常會是公司的地區子公司。此範例顯示登入公司及其相關的報表套裝： </p> 
+   <td colname="col2"> <p>一間帳單公司可以擁有<a href="https://helpx.adobe.com/tw/analytics/kb/multiple-login-companies.html">多家登入公司</a>。登入公司是您的組織使用的報告套裝集合。某些組織擁有多個登入公司，適用於組織內的不同部門。在需要處理不同業務單位的大型組織中，有許多報告套裝不適用於公司內其他人時，這特別有用。 </p> <p>通常會是公司的地區子公司。此範例顯示登入公司及其相關的報告套裝： </p> 
     <ul id="ul_8C756C7972D04F5E89D6E32BB06D26C3"> 
      <li id="li_EA6257FED7854B6FAA071926D0F8A07C">adobe.worldwide：RS1、RS2、RS3、RS4 </li> 
      <li id="li_3EAFB556849E4CCC9D96D5A3492EC898">adobe.us：RS1、RS2 </li> 
      <li id="li_572FFB3F4BF545BDB13102D82CE5E50C">adobe.in：RS3 </li> 
      <li id="li_B6ACBA35E18A427AA83F76BD38E502D7">adobe.de：RS4 </li> 
-    </ul> <p>注意：具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">所有</a>報表套裝的伺服器呼叫使用量資料。 </p> </td> 
+    </ul> <p>注意：具有相關<u>權限</u>之所有使用者皆可看到帳單公司內<a href="/help/admin/c-server-call-usage/overage-overview.md#section_FCC58EB635954A32990D4E67B52B4369">所有</a>報告套裝的伺服器呼叫使用量資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud 組織 </p> </td> 
@@ -102,7 +102,7 @@ Adobe Analytics 伺服器呼叫使用量可滿足您對瀏覽器和行動伺服�
    <td colname="col3"> 
     <ol id="ol_13A984328D264488B7045DC7521A5F55"> 
      <li id="li_ACDA518C7D184084AC1DFA7B38C67314">透過 sc.omniture.com 登入 Analytics。 </li> 
-     <li id="li_066D90AB071941C3869EDAFCE981707A">導覽至<span class="ignoretag"> <span class="uicontrol">管理</span> &gt; <span class="uicontrol">所有管理</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取</span> &gt; <span class="uicontrol">分析工具</span> &gt; <span class="uicontrol">自訂</span> &gt; <span class="uicontrol">伺服器呼叫使用</span> </span> </li> 
+     <li id="li_066D90AB071941C3869EDAFCE981707A">瀏覽至「<span class="ignoretag"> <span class="uicontrol"> 管理員 </span> &gt; <span class="uicontrol"> 所有管理員 </span> &gt; <span class="uicontrol"> 使用者管理 </span> &gt; <span class="uicontrol"> 群組 </span> &gt; <span class="uicontrol"> 編輯所有報表存取權 </span> &gt; <span class="uicontrol"> Analytics 工具 </span> &gt; <span class="uicontrol"> 自訂 </span> &gt; <span class="uicontrol"> 伺服器呼叫使用量 </span> </span>」 </li> 
     </ol> </td> 
    <td colname="col4"> 
     <ol id="ol_518673ED323A4C5993A3B9F4BA09E405"> 
