@@ -3,9 +3,9 @@ title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '880'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
-> 在實施作業中要求提供合作夥伴資料可增加頁面載入與傳送至 Adobe 資料收集伺服器之資料間的延遲時間。如果訪客在傳送資料前載入新頁面，則不會記錄該頁面。
+> 在實作中要求提供合作夥伴資料可增加頁面載入與傳送至 Adobe 資料收集伺服器之資料間的延遲時間。如果訪客在傳送資料前載入新頁面，則不會記錄該頁面。
 
 ## 整合模組工作流程
 
@@ -24,23 +24,23 @@ ht-degree: 98%
 3. 網站會收到 JSON 物件，並呼叫 `setVars` 以將 JSON 物件中所包含的資訊指派給 Adobe Analytics 變數
 4. 傳送影像要求給 Adobe 資料收集伺服器。
 
-## 整合模組實施
+## 整合模組實作
 
 與 Adobe 合作夥伴合作的組織可利用這些步驟，成功開始使用整合模組。
 
 ### 取得整合模組程式碼
 
-若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。取得模組程式碼的方法與所有實施方法相同，包括 Adobe Experience Platform Launch。
+若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。取得模組程式碼的方法與所有實作方法相同，包括 Adobe Experience Platform Launch。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
-1. 在頂端導覽中，按一下「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**」。
+1. 在頂端導覽區域中，按一下「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**」。
 1. 下載最新 JavaScript AppMeasurement 程式庫。
 1. 下載後，將檔案解壓縮，然後找出 `AppMeasurement_Module_Integrate.js`。
 
-### 將整合模組放置在實施中
+### 將整合模組放置在實作中
 
-若要在網站上實施整合模組，您必須擁有 Adobe Experience Platform Launch 的存取權。如果您使用舊版 JavaScript 實施，則需要您組織的網站原始碼的存取權。
+若要在網站上實作整合模組，您必須擁有 Adobe Experience Platform Launch 的存取權。如果您使用舊版 JavaScript 實作，則需要您組織的網站原始碼的存取權。
 
 1. 使用您的 Adobe ID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
 2. 按一下您要編輯的 Launch 屬性。
@@ -50,11 +50,11 @@ ht-degree: 98%
 
 ## 整合模組方法
 
-實施整合模組後，請使用這些方法設定該模組，以從您想要的 Adobe 合作夥伴傳送及接收資料。
+實作整合模組後，請使用這些方法設定該模組，以從您想要的 Adobe 合作夥伴傳送及接收資料。
 
 ### add
 
-`add` 方法可具現化合作夥伴物件，可在合作夥伴系統與實施之間分享資料時，做為變數資料的中繼儲存。所有整合都必須採用此方法。若在單一實施中使用多個合作夥伴，則必須針對每個唯一合作夥伴使用個別的合作夥伴物件。
+`add` 方法可具現化合作夥伴物件，可在合作夥伴系統與實作之間分享資料時，做為變數資料的中繼儲存。所有整合都必須採用此方法。若在單一實作中使用多個合作夥伴，則必須針對每個唯一合作夥伴使用個別的合作夥伴物件。
 
 ```JavaScript
 s.Integrate.add("<partner_name>");
