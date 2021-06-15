@@ -8,20 +8,20 @@ exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '8283'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
 # Analysis Workspace 的新增功能
 
-如需完整存取 Adobe Experience Cloud 發行說明，請前往[這裡](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。
+如需完整存取 Adobe Experience Cloud 版本注意事項，請前往[這裡](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。
 
 ## 2021 年 3 月
 
 | 功能 | 目標日期 | 說明 |
 | --- | --- | --- |
-| [!UICONTROL 元件] >使用者 [!UICONTROL 偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
-| [!UICONTROL 色階分佈圖智慧貯體預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
+| [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。<br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
+| [!UICONTROL 長條圖智慧值區預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。對於低基數度量，此視覺化效果的行為模式與先前相同。 |
 
 ## 2021 年 2 月
 
@@ -102,7 +102,7 @@ ht-degree: 97%
 
 | 功能 | 說明 |
 |--- |--- |
-| 對工作區中多個報表套裝的支援 | 您現在可以將多個報表套裝的資料匯入同一個專案以並排檢視。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
+| 對工作區中多個報告套裝的支援 | 您現在可以將多個報告套裝的資料匯入同一個專案以並排檢視。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html) |
 | 培訓教學課程範本 | 這個全新的標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。[更多詳情...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
@@ -111,7 +111,7 @@ ht-degree: 97%
 
 | 功能 | 說明 |
 |--- |--- |
-| 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html)。 |
+| 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html)。 |
 | 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 工作區其他增強功能 | <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 工作區除錯工具 | 「說明」功能表新增工作區偵錯程式，供您以更順暢的方式啟用，以偵錯工作區請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -193,7 +193,7 @@ ht-degree: 97%
 
 | 功能 | 說明 |
 |--- |--- |
-| [VRS 與專案組織 - 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已組織的工作區專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。<br>過去，只要按一下「顯示所有元件」，任何人都能查看未組織的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
+| [VRS 與專案組織 - 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已組織的工作區專案和虛擬報告套裝 (VRS) 中查看的元件有所變動。<br>過去，只要按一下「顯示所有元件」，任何人都能查看未組織的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -435,7 +435,7 @@ ht-degree: 97%
    <td colname="col2"> <p>在最新發行的自訂範本中，我們已 </p> 
     <ul id="ul_787F48253F454163B99F6DD50F199FE2"> 
      <li id="li_828DD547DDB54A81B9FFB9FE92790F6C">在專案的上方(標題旁邊)新增範本圖示，以幫助您在使用範本開始一個專案的同時，區分與編輯範本模式。 </li> 
-     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允許非管理員建立(另存新檔)並編輯 Workspace 專案範本，並假設他們已獲得在 Analysis Workspace 中建立/組織專案的權限。(<span class="ignoretag"> <span class="uicontrol">管理員</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span> &gt; <span class="uicontrol">群組</span> &gt; <span class="uicontrol">編輯所有報表存取</span> &gt; <span class="uicontrol">自訂Analytics工具</span> &gt; <span class="uicontrol">在Analysis Workspace &lt;a14/</span>中建立/組織專案)。</span> </li> 
+     <li id="li_EEAA4D115CB74A57BABD524B2561E0CC">允許非管理員建立(另存新檔)並編輯 Workspace 專案範本，並假設他們已獲得在 Analysis Workspace 中建立/組織專案的權限。(「<span class="ignoretag"> <span class="uicontrol">管理員 </span>  &gt; <span class="uicontrol"> 所有管理員 </span>  &gt; <span class="uicontrol"> 使用者管理 </span>  &gt; <span class="uicontrol"> 群組 </span>  &gt; <span class="uicontrol"> 編輯所有報表存取權 </span>  &gt; <span class="uicontrol"> 自訂 Analytics 工具 </span>  &gt; <span class="uicontrol"> 在 Analysis Workspace 中建立/組織專案</span> </span>」)。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -455,7 +455,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md#create-custom-template"  > 自訂工作區範本 </a> </p> </td> 
-   <td colname="col2"> <p>您現在可以建立與保存專屬於您的工作區範本，並且供您機構中其他與該範本類似的使用者直接使用您的範本。 </p> </td> 
+   <td colname="col2"> <p>您現在可以建立與儲存專屬於您的工作區範本，並且供您機構中其他與該範本類似的使用者直接使用您的範本。 </p> </td> 
   </tr> 
   <tr>  
    <td colname="col2"> <p>按一下「新專案」以開啟新視窗，您可以在該視窗選擇您想要的開始方式 </p> 
@@ -545,7 +545,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢獻分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >代號通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻分析」，其位於「<span class="uicontrol"> Analytics </span> &gt; <span class="uicontrol">管理員</span> &gt; <span class="uicontrol">所有管理員</span> &gt; <span class="uicontrol">使用者管理</span> <span class="uicontrol">編輯群組</span> &gt; <span class="uicontrol">編輯所有報表存取</span> &gt; <span class="uicontrol">自訂報表套裝工具</span> &gt; &lt;a14/工具」</span>.) <span class="uicontrol"> </span></p> </td> 
+   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻度分析」，其位於「<span class="uicontrol">Analytics </span> &gt; <span class="uicontrol"> 管理員 </span> &gt; <span class="uicontrol"> 所有管理員 </span> &gt; <span class="uicontrol"> 使用者管理 </span> &gt; <span class="uicontrol"> 編輯群組 </span> &gt; <span class="uicontrol"> 編輯所有報表存取權 </span> &gt; <span class="uicontrol"> 自訂報告套裝工具 </span> &gt; <span class="uicontrol"> 工具和報表 </span>」當中)。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>含有多位元組字元的 CSV 檔案 </p> </td> 
@@ -553,7 +553,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p>event#、eVar# 和 prop# 的變更 </p> </td> 
-   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>(亦適用於虛擬報表套裝產生器。) </p> </td> 
+   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>(亦適用於虛擬報告套裝產生器。) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>「無/未指定」的變更 </p> </td> 
@@ -576,7 +576,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>不相容的元件清單 </p> </td> 
-   <td colname="col2"> <p>有時候，報表套裝不一定會包含專案中隨附的所有元件。現在載入專案或切換至報表套裝時，顯示的「不相容的報表套裝」訊息會列出不相容的元件。 </p> </td> 
+   <td colname="col2"> <p>有時候，報告套裝不一定會包含專案中隨附的所有元件。現在載入專案或切換至報告套裝時，顯示的「不相容的報告套裝」訊息會列出不相容的元件。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1104,7 +1104,7 @@ ht-degree: 97%
 
 ## 還原動作 {#section_12890C393D5E4FC8A3CF050318BD8482}
 
-現在您可以還原在「Analysis Workspace」中執行的大多數動作。
+現在您可以還原在 Analysis Workspace 中執行的大多數動作。
 
 若要還原，請按一下動作功能表中的&#x200B;**[!UICONTROL 「還原」]**。
 
@@ -1123,7 +1123,7 @@ ht-degree: 97%
 以下動作會清除您的還原歷史記錄：
 
 * 儲存專案。
-* 變更報表套裝。
+* 變更報告套裝。
 
 ## 連結至本專案 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
@@ -1135,7 +1135,7 @@ ht-degree: 97%
 >
 >如果貴公司使用單一登入 (包括舊式單一登入和透過 Experience Cloud 登入)，將無法使用共用專案連結。
 
-## 項目符號圖表、散點圖和樹狀圖視覺效果 {#section_B19EA50EBF5546E99D3A142827153FD6}
+## 項目符號圖表、散佈圖和樹狀圖視覺效果 {#section_B19EA50EBF5546E99D3A142827153FD6}
 
 2016 年 1 月發行版提供下列新視覺效果。
 
@@ -1219,13 +1219,13 @@ ht-degree: 97%
 
 ## 維度預覽 {#section_F519EBF889B244E8B25BB6BA2833325A}
 
-在[!UICONTROL 維度]元件面板中，將滑鼠移至維度旁的資訊圖示上，即可預覽前五大項目。
+在「[!UICONTROL 維度]」元件面板中，將滑鼠移至維度旁的資訊圖示上，即可預覽前五大項目。
 
 ![](assets/dimension-preview.png)
 
 ## 可見圖例 {#section_28D10D86CAE343AB838808C1DD2E7983}
 
-在[!UICONTROL 「視覺效果設定」]中，**[!UICONTROL 「可見圖例」]**&#x200B;選項會顯示或隱藏視覺效果的圖例。
+在「[!UICONTROL 視覺效果設定]」中，「**[!UICONTROL 可見圖例]**」選項會顯示或隱藏視覺效果的圖例。
 
 ![](assets/legend-visible.png)
 
@@ -1249,4 +1249,4 @@ ht-degree: 97%
 
 管理員可將 [!UICONTROL Analysis Workspace] 專案從一個使用者轉讓給另一個使用者。
 
-導覽至&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 轉移]**&#x200B;以轉移專案。
+瀏覽至「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 轉讓]**」，即可轉讓專案。
