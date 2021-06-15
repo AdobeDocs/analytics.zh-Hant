@@ -22,7 +22,7 @@ ht-degree: 98%
 
 1. 指定建立和組織專案的使用者權限。
 
-   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。（**[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 用戶管理]** > [組](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)）。
+   在建立或組織 Analysis Workspace 專案前，管理員必須先將您新增至已啟用「**[!UICONTROL 在 Analysis Workspace 中建立 / 組織專案]**」權限的群組，或新增至「**[!UICONTROL 完全報表存取]**」使用者群組。(**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > [群組](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html))。
 
 1. 在「[!DNL Experience Cloud]」中，按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 工作區」]**。
 
