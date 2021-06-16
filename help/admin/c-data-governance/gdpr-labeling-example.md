@@ -3,10 +3,10 @@ description: 顯示如何為點擊資料、存取請求、刪除請求加上標�
 title: 標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: fe277bea867dc67e8693673a547adecccf169332
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 87%
+source-wordcount: '770'
+ht-degree: 69%
 
 ---
 
@@ -289,7 +289,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
-> 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。另外，包含 A_ID 的變數實際上可能會是 prop 或 eVar，所以它的取代值可能會是開頭為「Privacy-」再加上隨機號碼 (GUID) 的字串，而不是將數值取代為其他隨機數值。
+> 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。此外，實際上，包含A_ID的變數可能是prop或eVar。 其取代值會是開頭為「Privacy — 」、後接隨機數字(GUID)的字串，而非將數值取代為其他隨機數值。
 
 <table>
   <tr>
@@ -364,6 +364,6 @@ ht-degree: 87%
 
 * 包含`user=Mary`和`DEL-DEVICE`或`DEL-PERSON`標籤的資料列儲存格會受到影響，如果包含`user=Mary`的資料列上，包含任何訪客ID(AAID)的資料列上，則會包含`DEL-DEVICE`標籤的儲存格。
 * expandIDs設定不會展開至呼叫以納入當`user=Mary`時MyEvar3中存在的值，MyEvar3中有ID-DEVICE標籤。 ExpandIDs只會展開並在`user=Mary`的列上包含訪客ID（此範例中為AAID，也包括ECID）。
-* `MyEvar2`第四和第五行的 會更新，因為這些兩行包含的 Visitor ID 值與第一和第二行的值相同，因此 ID 擴增會將其納入裝置層級的刪除作業。
-* 第二和第五行的 `MyEvar2` 值在刪除前後相符，不過在刪除後就不再符合最後一行的值 N，因為該資料列並未隨著刪除請求而更新。
-* `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五個資料列的 `AAID` 均相符。
+* `MyEvar2` 第四和第五行的會更新，因為這些兩行包含的Visitor ID值與第一和第二行的值相同。因此，ID擴增會將其納入裝置層級的刪除作業。
+* 第二和第五行中的`MyEvar2`值在刪除前後相符。 不過，在刪除後，它們不再符合最後一列的值N，因為該列並未隨著刪除請求而更新。
+* `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五列的`AAID`相符。
