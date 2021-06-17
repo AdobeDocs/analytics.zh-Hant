@@ -2,10 +2,10 @@
 title: 手動將 XDM 資料對應至 Analytics
 description: 手動將 XDM 資料從 Experience Platform 對應至 Adobe Analytics
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 84%
+source-wordcount: '353'
+ht-degree: 80%
 
 ---
 
@@ -15,7 +15,7 @@ Adobe Experience Platform (AEP) Web SDK 的輔助工具可協助您在 Platform 
 
 對於未自動對應至 Analytics 的 XDM 資料，您可以新增[內容資料](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)以比對您的[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)。隨後，Analytics [處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)將可用它來填入 Analytics 變數。
 
-此外，您也可以使用一組預設的動作和產品清單，以透過 AEP Web SDK 傳送或擷取資料。若要這麼做，請參閱[產品](https://experienceleague.adobe.com/docs/experience-platform/edge/implement/commerce.html)。
+此外，您也可以使用一組預設的動作和產品清單，以透過[AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)傳送或擷取資料。
 
 ## 內容資料
 
