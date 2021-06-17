@@ -3,10 +3,10 @@ description: '了解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 98%
+source-wordcount: '888'
+ht-degree: 95%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 於 2018 年 7 月推出了[歸因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html)，修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
+>[歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
@@ -72,9 +72,9 @@ ht-degree: 98%
 | 促銷活動 C | $1.67 | $0 | US$2.50 |
 | 總計 | US$10.00 | US$10.00 | US$10.00 |
 
-**自 2018 年 7 月 19 日起的線性配置運作方式摘要**
+**線性配置現在運作方式摘要**
 
-自 7 月 19 日起，我們在計算量度中修正了這種行為。[!DNL Analytics] 不再使用以上次接觸或首次接觸為基礎的持續值，現在只會使用傳入的值 (上表的第一列)。同樣地，維度配置設定不再影響線性配置的計算方式 (亦即會以同樣的方式處理 prop 和 eVar)，且結果會反映原本傳入的內容，而非可能持續存在的首次或上次接觸值。因此，在三個案例中，A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
+[!DNL Analytics] 不再使用以上次接觸或首次接觸為基礎的持續值，現在只會使用傳入的值 (上表的第一列)。同樣地，維度配置設定不再影響線性配置的計算方式 (亦即會以同樣的方式處理 prop 和 eVar)，且結果會反映原本傳入的內容，而非可能持續存在的首次或上次接觸值。因此，在三個案例中，A = 10 * (2/4) = $5，B = 10 * (1/4) = $2.50，C = 10 * (1/4) = $2.50。
 
 | 值 | 新的上次接觸 eVar | 新的首次接觸 eVar | 新的 Prop |
 |---|---|---|---|
