@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '2335'
-ht-degree: 95%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
@@ -16,16 +16,9 @@ ht-degree: 95%
 
 執行不同報表類型的步驟。
 
-
 ## 執行排名報表 {#task_C570BA4A213F4F2EB7B30E012934BE7D}
 
 在排名報表中，表格會根據數量或百分比，顯示與度量相關的報表頁面排名。排名報表可在一個報表中顯示多個量度。
-
-<!-- 
-
-t_reports_ranked.xml
-
- -->
 
 1. 產生報表，例如[!UICONTROL 頁面報表] (**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面」]**)。
 1. 在報表標題中，按一下&#x200B;**[!UICONTROL 「排名」]**。
@@ -37,12 +30,6 @@ t_reports_ranked.xml
 
 趨勢報表會隨時間變化顯示度量。當您想瞭解區段在不同期間的表現，即可使用此報表類型。
 
-<!-- 
-
-t_reports_trended.xml
-
- -->
-
 大多數轉換報表和流量報表具有可用的趨勢檢視。使用[!UICONTROL 日曆]，您可顯示任何時段劃分的改進，包括一個月中的某些天、一年中的某些週、一個季度中的某些週、一年中的某些月等等。趨勢報表會顯示單個度量 (收入、訂購、檢視等等) 的趨勢，可多達五個項目 (例如產品、類別、網頁等等) 的趨勢。
 
 **執行趨勢報表**
@@ -50,29 +37,9 @@ t_reports_trended.xml
 1. 執行轉換或流量報表，例如&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 網站內容]** > **[!UICONTROL 頁面」]**。
 1. 在&#x200B;**[!UICONTROL 「報表類型」]**&#x200B;下，按一下&#x200B;**[!UICONTROL 「趨勢」]**。
 
-## 執行轉換漏斗報表 {#task_B926A74AA6A641138C2986C1635120CB}
-
-「轉換漏斗」報表會顯示訪客完成一組事件，以執行所需動作的百分比。例如，您可以看到有多少訪客從瀏覽網站逐漸發展為向購物車新增物品，然後再到購買。此報表亦顯示中途放棄的數量。
-
-<!-- 
-
-t_reports_conversion_funnel.xml
-
- -->
-
-若要執行此報表，請選取一個報表 (例如「頁面」報表) (**[!UICONTROL 「報表]** > **[!UICONTROL 促銷活動]** > **[!UICONTROL 追蹤代碼]** > **[!UICONTROL 促銷活動轉換漏斗」]**)。
-
-如需相關說明，請參閱[轉換報表](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion.html)。
-
 ## 執行流失報表 {#task_8FD97C8260464F9DA731A93DB8F80184}
 
 [!UICONTROL 流失報表]會顯示瀏覽預先指定之頁面順序的訪客人數。也會顯示每個步驟之間的轉換率和流失率。
-
-<!-- 
-
-t_reports_fallout.xml
-
- -->
 
 查看 Analysis Workspace 新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
 
@@ -85,11 +52,6 @@ t_reports_fallout.xml
 1. 按一下&#x200B;**[!UICONTROL 「執行報表」]**。
 
    ![步驟結果](assets/fallout_report.png)
-
->[!MORELIKETHIS]
->
->* [流失報表說明](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-fallout.html)
-
 
 ## 執行頁面流程報表 {#task_133E8B87C3F04DA0A42D10CBA499305B}
 
@@ -113,39 +75,15 @@ t_reports_fallout.xml
 
 線條的相對寬度可說明相對百分比。依照預設，此報表顯示 5 個 2 級分支和 5 個 3 級分支。您可以將要檢視的分支數量增加到 10 個 2 級分支和 5 個 3 級分支。這會增加報表的高度，並很可能需要透過捲動來檢視整個圖形。
 
-## 執行漏斗報表 {#task_2BBF6FACD48F479E8B2EE458919941CB}
-
-您可以選取成功事件並將其新增至[!UICONTROL 購買轉換漏斗]報表或[!UICONTROL 產品轉換漏斗]報表。
-
-<!-- 
-
-t_reports_funnel.xml
-
- -->
-
-1. 按一下「**[!UICONTROL 報表]** > **[!UICONTROL 產品]** > [產品轉換漏斗](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-conversion-funnel.html)」。
-
 ## 執行行銷管道報表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
 「行銷管道」報表可提供第一個接觸和最後一個接觸之管道配置的概述報表，並且搭配了標準的報表度量 (例如收入、訂購及成本)。這些報表可讓您分析每個頻道產生多少收入。
-
-<!-- 
-
-t_reports_marketing_channel.xml
-
- -->
 
 請參閱[行銷渠道](/help/components/c-marketing-channels/analyze-mc.md)說明系統，瞭解更多資訊。
 
 ## 執行異常偵測報表 {#task_4808C96327354D789C075823F5C3A049}
 
 說明如何解讀異常偵測中的摘要和個別度量表。
-
-<!-- 
-
-t_anomaly_view.xml
-
- -->
 
 查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
 
