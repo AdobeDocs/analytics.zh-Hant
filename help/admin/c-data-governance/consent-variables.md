@@ -3,10 +3,10 @@ description: 資料隱私權中的隱私權報表變數。
 title: 隱私權報表變數
 feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 96%
+source-wordcount: '435'
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 96%
 
 * 上下文資料：`contextData.['cm.ssf']`
 * 接受的值：
-   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。請參閱[ AAM ePrivacy 合規性](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/ssf-gdpr.html)。
+   * 1 - 傳送「1」值時，表示伺服器端轉送處於選擇退出狀態。值「1」與此變數搭配使用，將會封鎖此點擊與 Adobe Audience Manager 間的共用。請參閱[ AAM ePrivacy 合規性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html?lang=en)。
    * 0 - 選用。對於同意目標行銷的客戶，請使用「0」值。未設定變數也會產生相同的結果。
 
 ### DMP
