@@ -2,10 +2,10 @@
 title: 分析行銷管道
 description: 了解如何在工作區中使用行銷管道維度。
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 95%
+source-wordcount: '401'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 95%
 
 ## 套用歸因模型
 
-您可以使用[歸因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/use-attribution.html)，即時套用不同的歸因模型：
+您可以使用[歸因 IQ](/help/analyze/analysis-workspace/attribution/overview.md)，即時套用不同的歸因模型：
 
 ![](assets/mc-viz5.png)
 
