@@ -6,10 +6,10 @@ uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
 feature: 警報
 role: Business Practitioner, Administrator
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 94%
+source-wordcount: '838'
+ht-degree: 95%
 
 ---
 
@@ -104,11 +104,6 @@ deprecated_alerts.xml
   <tr> 
    <td colname="col1"> <p>參照報表套裝包含 ASI 槽的警報 </p> </td> 
    <td colname="col2"> <p>您將無法再建立或編輯 ASI 槽，同時 ASI 槽將無法在 Analysis Workspace 使用。因此，新的警報將不再支援它們。 </p> <p> </p> </td> 
-   <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>使用參與率量度的警報 </p> </td> 
-   <td colname="col2"> <p> <a href="https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metrics-participation.html"  >參與率量度</a>可用於「Report &amp; Analytics」，但目前不可用於Analysis Workspace 內的新警報系統。 </p> <p> </p> </td> 
    <td colname="col3"> <p>不可用於新的警報管理器。 </p> </td> 
   </tr> 
   <tr> 
