@@ -5,10 +5,10 @@ title: 轉換變數 (eVar)
 feature: 管理工具
 uuid: 1eed0cb1-0735-4142-be21-43f264216b50
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 84%
+source-wordcount: '1579'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,7 @@ eVar 最適合用來測量原因和結果，如：
 | [!UICONTROL 過期時間] | 指定時段或事件，在此時段或事件後 eVar 值就過期 (不再接收成功事件的評分)。如果成功事件發生在 eVar 過期後，「無」值會接收事件的評分 (沒有作用中的 eVar 值)。如果您選取事件作為過期值，則變數在事件發生時才會過期。如果事件未發生，變數永遠不會過期。可用的過期選項分為 4 種主要類別：<ul><li>**在頁面檢視或瀏覽層級。**&#x200B;在頁面檢視或瀏覽以外轉換事件並不會關聯至 eVar。</li><li>**根據時段，如日、週、月或年。**&#x200B;在指定的時段以外轉換事件並不會關聯至 eVar。過期期間從設定變數時開始。eVar 的過期期限依其設定時間為準，計算至秒 (分鐘、小時、天、月等)： <ul><li>MINUTE=60 秒</li><li>HOUR=3600 秒 (60 分鐘)</li><li>DAY=86400 秒 (24 小時)</li><li>WEEK=604800 秒 (7 天)</li><li>MONTH=2678400 秒 (31 天)</li><li>QUARTER=8035200 秒 (93 天 - 3 個 31 天的月份)</li><li>YEAR=31536000 秒 (365 天)</li><br>如果某個造訪從星期一早上 7:00 開始，且在早上 7:15 於該造訪中設定 eVar，則其過期時間如下所示：<li>當天過期：eVar 將於星期二早上 7:15 過期。</li><li>當週過期：eVar 將於下星期一早上 7:15 過期。</li><li>當月過期：eVar 將於星期一後第 31 天早上 7:15 過期。</li></ul><li>**特定的轉換事件。**&#x200B;在指定的特定事件之後引發的任何其他轉換事件，都會關聯至 eVar。</li><li>**從不。**&#x200B;只要       visitorID Cookie 完整，在 eVar 和事件之間可間隔任何時間量。</li></ul> |
 | [!UICONTROL 狀態]  (僅限eVar) | 定義[!UICONTROL eVar]狀態：<ul><li>**已停用**:停用 [!UICONTROL eVar]。從轉換變數清單中移除[!UICONTROL eVar]。</li><li>**無子關聯**:防止您依維  劃分eVar。</li><li>**基本子關聯**:可讓您依任何完整維度（例如「產品」或「促銷活動」）劃分eVar。</li></ul> |
 | [!UICONTROL 重設] | 重設 eVar 中的任何現有值。重新準備 eVar 時使用此設定，這樣您可以將舊值混合到新報告中。重設並不會清除歷史資料。 |
-| [!UICONTROL 銷售]  (僅限 eVar) | 銷售變數可遵循下列其中一種語法：<ul><li>**[!UICONTROL 產品語法]**：建立 eVar 值與產品的關聯。**注意**:如果 [!UICONTROL 選取] 了「產品同步」，則會停 [!UICONTROL 用「銷售系] 結事件」區段，且無法選取以進行編輯。對於此語法，[!UICONTROL 捆綁事件]不適用。</li><li>**[!UICONTROL 轉換變數語法]**：僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在此情況下，您可以選取作為[!UICONTROL 捆綁事件]的事件。  如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱[銷售變數](https://experienceleague.adobe.com/docs/analytics/components/variables/merchandising-variables/var-merchandising.html)。</li></ul> |
+| [!UICONTROL 銷售]  (僅限 eVar) | 銷售變數可遵循下列其中一種語法：<ul><li>**[!UICONTROL 產品語法]**：建立 eVar 值與產品的關聯。**注意**:如果 [!UICONTROL 選取] 了「產品同步」，則會停 [!UICONTROL 用「銷售系] 結事件」區段，且無法選取以進行編輯。對於此語法，[!UICONTROL 捆綁事件]不適用。</li><li>**[!UICONTROL 轉換變數語法]**：僅在發生捆綁事件時才會建立 eVar 與產品的關聯。在此情況下，您可以選取作為[!UICONTROL 捆綁事件]的事件。  如果變更此設定但沒有相應地更新 JavaScript 程式碼，會導致資料遺失。請參閱[銷售變數](/help/components/dimensions/evar-merchandising.md)。</li></ul> |
 | [!UICONTROL 銷售捆綁事件] (僅限 eVar) | 如果「銷售」設定為[!UICONTROL 轉換變數語法]，則選定的事件會將產品與目前的 eVar 值捆綁。若要使用[!UICONTROL 捆綁事件]，請將[!UICONTROL Allocation]設定為[!UICONTROL Most Rence]。 如果將[!UICONTROL Allocation]設定為[!UICONTROL Original Value]，則保留第一個eVar產品綁定，直到eVar過期。 按住ctrl鍵(Windows)或cmd鍵(Mac OS)並按一下清單中的多個項目，可以選取多個事件。 只有在選取[!UICONTROL 轉換變數語法]時，才能選取事件。 |
 
 **過期**
