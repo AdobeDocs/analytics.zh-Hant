@@ -6,10 +6,10 @@ uuid: 0b888e26-f201-4405-99f9-755b3ee6cd18
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 96%
+source-wordcount: '228'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 96%
    >
    >表格中顯示的劃分數目上限為 200。匯出劃分時，此限制會提高。
 
-[在 Analysis Workspace 中新增維度和量度至您的專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/metrics/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html) (11:39)
+[在 Analysis Workspace 中新增維度和量度至您的專案](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/dimensions/adding-dimensions-and-metrics-to-your-project-in-analysis-workspace.html?lang=en) (11:39)
 
 [在自由格式表格中使用維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/building-freeform-tables/working-with-dimensions-in-a-freeform-table.html?lang=zh-Hant) (15:35)
 
