@@ -2,7 +2,7 @@
 description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud 的 Admin Console，您必須瞭解的事項。
 title: Analytics 使用者移轉至 Admin Console
 uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '3122'
 ht-degree: 96%
@@ -321,7 +321,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
 
 **實用資源：**
 
-[登入及管理個人資料設定](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html)。
+[登入及管理個人資料設定](https://helpx.adobe.com/tw/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)。
 
 如有任何問題或疑慮，請聯絡您的 Analytics 管理員。
 
