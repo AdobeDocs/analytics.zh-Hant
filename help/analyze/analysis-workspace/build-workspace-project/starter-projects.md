@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1389'
+source-wordcount: '1391'
 ht-degree: 97%
 
 ---
@@ -134,7 +134,7 @@ ht-degree: 97%
 
 <!--This content is mirrored in the CDA doc.-->
 
-此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-home.html) (CDA) 的客戶使用。
+此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA) 的客戶使用。
 
 * **Co-op 圖表成員的特別注意事項**：顯示報表套裝中的哪些部分所包含的訪客，來自支援和不支援 Co-op 圖表的地區。
 * **使用者身分識別**：顯示使用以跨裝置分析為基礎之方法識別網站訪客的頻率。
