@@ -5,9 +5,9 @@ title: Analysis Workspace 的新增功能
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '8283'
+source-wordcount: '8276'
 ht-degree: 98%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 |--- |--- |
-| 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱[設定跨裝置分析](https://experienceleague.adobe.com/docs/analytics/components/cda/cda-setup.html)。 |
+| 使用 Cross-Device Analytics 的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱[設定跨裝置分析](/help/components/cda/setup.md) 。 |
 | 工作區的全新快捷鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 工作區其他增強功能 | <ul><li>現在於工作區中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 工作區除錯工具 | 「說明」功能表新增工作區偵錯程式，供您以更順暢的方式啟用，以偵錯工作區請求。[更多詳情...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
