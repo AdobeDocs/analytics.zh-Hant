@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢�
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+source-wordcount: '1005'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,6 @@ Media Analytics 客戶可分析同時檢閱者，以了解人數高峰或趨勢�
 | 我是否可執行異常偵測？ | 否。異常偵測不適用於此面板。 |
 | 為什麼使用不重複訪客而不使用作用中的工作階段？ | 使用不重複訪客會移除顯示邊界 (工作階段同時結束和開始所在處) 不想要的「尖峰」。 |
 | 讓同時檢閱者檢閱的詳細程度高於分鐘是什麼意思？ | 以大於一分鐘為詳細程度的單位時，同時檢閱者人數是指該時間範圍內所有分鐘數的不重複同時檢閱者的總和。例如，以一小時層級為詳細程度的同時檢閱者，其人數是指這小時所有分鐘數的不重複同時檢閱者的總和。 |
-| 如果我想以分鐘層級的詳細程度來查看超過 1 天的情形，該怎麼辦？ | 若要一次以分鐘層級的詳細程度來存取最多 1 個月的資料，您可以使用 Analytics 2.0 API。如需詳細資訊，請參閱「[使用 Analytics 2.0 API 取同時檢閱者 JSON 報告資料](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-default-reports/get-concurrent-json20.html)」。 |
 | Workspace 面板是否會顯示與「同時檢閱者報告」相同的資訊？ | 否。在 Analysis Workspace 中，「同時檢閱者」的定義是在特定時間點檢視您媒體流的不重複訪客數量，而不計工作階段數量。<br><br>這與「報告」部分中使用「同時作用中工階段」的「同時檢閱者」報告不同。使用不重複訪客可移除顯示邊界 (工作階段同時結束和開始所在處) 不需要的「尖峰」。 |
 
 <!-- For more information about Media Concurrent Viewers, visit [MA doc page]( https://url). -->
