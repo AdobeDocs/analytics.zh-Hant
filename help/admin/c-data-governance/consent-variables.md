@@ -3,10 +3,10 @@ description: 資料隱私權中的隱私權報表變數。
 title: 隱私權報表變數
 feature: 管理工具
 exl-id: 3f7980a4-d826-4554-a9a0-673fd5b79653
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 95%
+source-wordcount: '427'
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 95%
 
 已預先定義三個上下文資料變數，用於搭配隱私權報表管理保留變數使用。如何管理並保留這些變數的設定取決於每位實作工程師。
 
-如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/variables-analytics-reporting/context-data-variables.html)。
+如需實作上下文資料變數的通用指引，請參閱[上下文資料變數](/help/implement/vars/page-vars/contextdata.md)。
 
 ### SSF
 
