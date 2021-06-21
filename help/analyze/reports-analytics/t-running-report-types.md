@@ -5,10 +5,10 @@ uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports and Analytics 基本需知
 role: Business Practitioner, Administrator
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
+source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
-source-wordcount: '2188'
-ht-degree: 96%
+source-wordcount: '1299'
+ht-degree: 95%
 
 ---
 
@@ -57,23 +57,9 @@ ht-degree: 96%
 
 「頁面流程報表」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報表可協助解答
 
-查看 Analysis Workspace 新的[流量視覺化](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)！
-
-執行[路徑](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-paths.html)報表。
+查看Analysis Workspace中的[流量視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)!
 
 例如，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 下一頁流量」]**。
-
-![](assets/page_flow.png)
-
-請從左至右閱讀此報表，並從選定頁面開始。在選取頁面後檢視的頁面將圖示為延伸到右側的分支。
-
-檢視每個後續頁面的百分比顯示在頁面名稱的旁邊。連接到每個下一頁的線條寬度描繪了該相關百分比。
-
-**[!UICONTROL 路徑檢視]**：指出以顯示的路徑檢視某個頁面的次數。
-
-例如，「隱私權原則」頁面的頁面檢視總次數可能為 10,000 次，但有 500 次是在進入「首頁」前直接檢視的。這樣，就可使用術語路徑檢視。
-
-線條的相對寬度可說明相對百分比。依照預設，此報表顯示 5 個 2 級分支和 5 個 3 級分支。您可以將要檢視的分支數量增加到 10 個 2 級分支和 5 個 3 級分支。這會增加報表的高度，並很可能需要透過捲動來檢視整個圖形。
 
 ## 執行行銷管道報表 {#task_64ADED5CC75248319E06E3E029B47F78}
 
@@ -83,109 +69,11 @@ ht-degree: 96%
 
 ## 執行異常偵測報表 {#task_4808C96327354D789C075823F5C3A049}
 
-說明如何解讀異常偵測中的摘要和個別度量表。
-
-查看 Analysis Workspace 內新的[「異常偵測」和「貢獻邊際分析」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)功能！
-
-**[!UICONTROL 報表]** > **[!UICONTROL 網站量度]** > **[!UICONTROL 異常偵測]**。
-
->[!NOTE]
->
->您也可以在 Analysis Workspace 專案內執行「異常偵測」。[更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)
-
-如需設定異常偵測的資訊，請參閱[參考指南](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/getting-started.html#Setting_up_Anomaly_Detection)。
-
-異常偵測顯示兩種圖表：摘要圖表和個別度量圖表。只有在至少對於度量偵測到一個異常時，個別度量圖表才會顯示。
-
-<table id="table_88163CD8FC164342855D90D01F9C581A"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> <p>圖表類型 </p> </th> 
-   <th colname="col2" class="entry"> <p>用途 </p> </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>摘要圖表 </p> <p><img placement="break"  src="assets/ad_summary_chart.png" width="570px" id="image_1CD4C4770BAA43C4AD7CBB824AD41338" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_D26DA3024CD7468291369F549557B28A"> 
-      <li id="li_1C22B6E02FFB479FB71EFAD89EB37A4E">各個方塊代表一個每天追蹤的異常，這對應於下方的度量。 </li> 
-      <li id="li_8FC587D3FF4E452D83263CC7A10B6675">綠色表示高於趨勢線的異常，藍色表示低於趨勢線的異常。 </li> 
-      <li id="li_25135AB691BF443599AF2A3A60E2E71A">指出異常的強度：異常愈大，資料點的顏色愈深，而且愈遠離趨勢線。 </li> 
-      <li id="li_0C42AFA8897D420D8AB1A5D0F65B3B3A">按一下個別異常，會將該異常的個別量度圖表顯示於頂端 (位在摘要圖表下方)。 </li> 
-      <li id="li_85C0F426952547B5A75D6BD31DE19CA5">偏差百分比值 (圖表左邊) 的計算方式如下： 
-       <ul id="ul_BEC0A88BFFAC4CF78BC9885FEB749694"> 
-        <li id="li_1BAB2F50482745B69937DFAF1E09982E">如果上限和預期值相同，則偏差百分比為 100% </li> 
-        <li id="li_CA48064F5788448C8646CCE196161237">若不同，偏差百分比是 ((實際值 - 上限值) / (上限值 - 預期值)) * 100 </li> 
-        <li id="li_4090357A0D214BC7B1C3DE0615875554">如果下限和預期值相同，則偏差百分比為 -100% </li> 
-        <li id="li_EF694E1A4E874ECD94E1E8F7302E494F">若不同，偏差百分比是 ((下限值 - 實際值) / (預期值 - 下限值)) * -100 </li> 
-       </ul> </li> 
-      <li id="li_5C05EF7023484CC993E96D63E842B65C">按一下<span class="uicontrol">「顯示區段」</span>會開啟區段邊欄，供您套用區段至異常偵測報表。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html"  >深入了解</a>區段。 </li> 
-      <li id="li_1B41CABF13D1407886C68EE3BC201E60">按一下<span class="uicontrol">「編輯量度」</span>可讓您選取和取消選取您要偵測異常的量度。 </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>個別度量圖表 </p> <p><img placement="break"  src="assets/metric_report.png" width="570px" id="image_5BBECFD91CF14478AA4761E6256BBCB9" /> </p> </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_739C5687013743A29B63089FDA763F45"> 
-      <li id="li_456A0BDA4D4E46CE9CC1C3DBAA1E2220">將個別趨勢度量的異常資料點 (包括計算的度量) 顯示為點。 </li> 
-      <li id="li_89FD847C65F04F48BCA7CD38D0EC51CD">在頂端顯示最近的異常，然後按照異常數排序。 </li> 
-      <li id="li_98B97A9706DE4455B8D8850904CBDE03">顯示實線指出目前收集的實際資料。這會與預測和誤差限度相比，判斷資料點是否異常。 </li> 
-      <li id="li_0EEA38DDDC344BF3879430E67D74EB72">顯示虛線，表示按照歷史資料 (也就是訓練時段) 進行的預測。 </li> 
-      <li id="li_035BD2725D004AEDB630BF8DFF4DA4F3">以灰色陰影顯示上下 95% 容限/限度。 </li> 
-      <li id="li_021A3D1F2EDB4319B9B39620EF1C038A">讓您按一下度量名稱旁邊的向上或向下箭頭，收合和展開個別報表。 </li> 
-      <li id="li_722E4B9FC21047AC96D7B143197E293D">回應概述報表 (見上文) 中的向下切分，變更度量報表出現的順序 </li> 
-      <li id="li_A2441169B185475AA68A64F81E6E40B8">讓您使用搜尋詞篩選圖表，例如「頁面」顯示所有頁面相關度量。 </li> 
-      <li id="li_F1BBBFCA8E2A43C29658E4FCAA36C904">讓您顯示您定義的所有度量或僅顯示有異常的度量。 </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## 設定異常偵測 {#task_AF347B34F56E44A6AE70E019B6EB2F08}
-
-對於異常偵測選取報表套裝、度量和訓練/檢視期間。
-
-<!-- 
-
-t_anomaly_config.xml
-
- -->
-
-您可以分別設定各個報表套裝的異常偵測。
-
-1. 導覽至「**[!UICONTROL Analytics > 報表 > 網站量度 > 異常偵測]**。
-1. 選擇您要每日追蹤異常偵測的報表套組。若要顯示報表套裝，請按一下報表套裝選取器下拉式功能表。
-1. 若要選取量度並/或定義篩選的量度，請按一下畫面右上角的&#x200B;**[!UICONTROL 「編輯量度」]**：![](assets/metrics_icon.png)。
-
-   您可以從所有度量的清單或追蹤度量的清單選取度量 (包括計算的度量)。您也可以篩選特定詞彙以縮小清單。1. 報表產生後，定義異常偵測的&#x200B;**[!UICONTROL 「培訓時段」]**&#x200B;和&#x200B;**[!UICONTROL 「檢視時段」]**(訓練時段可視為演算法的「學習時段」)。
-
-   ![](assets/view_training_periods.png)
-
-   請記住：
-
-* 訓練時段將在視圖時段開始後立即結束。
-* 兩者的預設值為 30 天，您可以將兩者延長到 60 或 90 天。
-* 延長訓練時段可以讓擴大資料的範圍，而且可以減少異常的大小。
-
-   每次您變更參數，異常偵測度量報表都會重新整理。
-1. (可選) 按一下&#x200B;**[!UICONTROL 「顯示區段」]**&#x200B;並選取一或多個現有區段或建立新區段並套用該區段，以套用區段至報表。
-
-   ![](assets/ad_top_menu.png)
-
-   如需建立和管理區段的詳細資訊，請參閱[分析分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。1.(可選) 收藏報表或將報表設為書籤。
-1. (選用) 變更視圖時段的結束日期。預設值為昨日。
-1. 您現在可以開始解讀報表。[檢視異常偵測圖表](/help/analyze/reports-analytics/t-running-report-types.md#task_4808C96327354D789C075823F5C3A049)。
+您只能在Analysis Workspace中執行[異常偵測和貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)。
 
 ## 執行即時報表 {#task_5D25929C918E40B18965222FA94176B0}
 
 說明如何檢視和解讀即時報表。
-
-<!-- 
-
-reports_realtime.xml
-
- -->
 
 **[!UICONTROL 報表 > 網站量度 > 即時]**。
 
