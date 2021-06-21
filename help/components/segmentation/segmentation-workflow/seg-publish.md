@@ -4,7 +4,7 @@ title: 發佈區段至 Experience Cloud
 feature: 區段
 uuid: e5ce20c0-ce43-423b-a29f-ba66e9e24d27
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: f9a5b1ae08209260b4e4694b743932627a0c2019
+source-git-commit: 190c05f7c0bf8c8ae0524a5635ff468a053abedd
 workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 97%
@@ -94,7 +94,7 @@ ht-degree: 97%
 
 下列螢幕擷取畫面顯示如何在瀏覽器上擷取 AAM UUID，並在 Audience Manager 訪客資料檢視器中用它來驗證特徵和區段成員資格。
 
-**方法 1：使用 Adobe Experience Cloud Debugger**
+**方法1:使用Adobe Experience Cloud Debugger**
 
 1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md)。
 1. 載入頁面時啟動除錯程式。
