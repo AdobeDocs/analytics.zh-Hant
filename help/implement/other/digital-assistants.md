@@ -3,9 +3,9 @@ title: 對數位助理實施 Analytics
 description: 在數位助理 (例如 Amazon Alexa 或 Google首頁) 上實施 Adobe Analytics。
 exl-id: ebe29bc7-db34-4526-a3a5-43ed8704cfe9
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Cache-Control: no-cache
 
 ## 使用者/訪客身分識別
 
-Adobe Analytics 使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html) 來將使用時間內的互動連結在同一人身上。大部分數位助理都會傳回 `userID`，供您為不同使用者保留活動資訊。多數情況下，此值就是您當作唯一識別碼所傳遞的值。有些平台傳回的識別碼會超出允許的 100 個字元。在這些情況下，Adobe 建議您使用 MD5 或 Sha1 等標準雜湊演算法，將唯一識別碼雜湊成固定長度的值。
+Adobe Analytics 使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 來將使用時間內的互動連結在同一人身上。大部分數位助理都會傳回 `userID`，供您為不同使用者保留活動資訊。多數情況下，此值就是您當作唯一識別碼所傳遞的值。有些平台傳回的識別碼會超出允許的 100 個字元。在這些情況下，Adobe 建議您使用 MD5 或 Sha1 等標準雜湊演算法，將唯一識別碼雜湊成固定長度的值。
 
 使用 ID 服務，您就能在對應不同裝置上的 ECID 時 (例如從網路對應到數位助理) 獲得最大的價值。如果您的應用程式是行動應用程式，請按照原樣使用 Experience Platform SDK，並使用 `setCustomerID` 方法傳送使用者 ID。不過，如果應用程式為服務，請使用服務提供的使用者 ID 做為 ECID，並在 `setCustomerID` 中進行設定。
 
