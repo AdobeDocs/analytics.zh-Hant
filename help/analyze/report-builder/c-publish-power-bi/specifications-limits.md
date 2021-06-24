@@ -4,14 +4,13 @@ title: 限制與規格
 uuid: 6717b6ea-7e01-49b8-8f6e-fb733a03b687
 feature: Report Builder
 role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+exl-id: 4bbeec5b-64bc-4285-9f13-33b223b88834
+source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 96%
+source-wordcount: '626'
+ht-degree: 94%
 
 ---
-
 
 # 限制與規格
 
@@ -38,7 +37,7 @@ ht-degree: 96%
    **以下是視覺效果「將會」中斷的範例：**
 
    1. 在 Report Builder 中，使用「頁面」維度和「頁面檢視」量度建立含有一個請求的活頁簿。
-   2. 排程要發佈至Power BI的此請求。
+   2. 排程此請求以發佈至Power BI。
    3. 在 Power BI 中，針對「頁面」與「頁面檢視」建立視覺效果。
    4. 現在，移除請求中的「頁面檢視」以編輯活頁簿。
    5. 使用更新的活頁簿編輯排程，然後將請求重新發佈至 Power BI。
@@ -71,6 +70,5 @@ ht-degree: 96%
 請記住：
 
 * 標籤不能是字母和數字的組合，因為系統可能會將其誤認為列或欄的位址。例如，A100 不能作為標籤，因為其為活頁簿中儲存格的位址。
-* 以下字元為無效的標籤字元：「#」、「@」、「!」、「$」、「^」、「&amp;」、「*」、「`」、「~」、「 」。這些字元將會替換成底線字元。
+* 以下字元是無效的標籤字元：`'#', '@', '!', '$', '^', '&', '&#42;', '`&#39;和`'~', ' '`。 它們會被底線字元取代。
 * 輸入無效的名稱時，畫面將會顯示警告訊息，並建議自動產生的名稱。如果您按一下&#x200B;**[!UICONTROL 「是」]**，系統將會使用此名稱。如果您按一下&#x200B;**[!UICONTROL 「否」]**，「進階精靈」使用者介面將會讓您輸入新名稱。
-
