@@ -4,9 +4,9 @@ title: 啟用 Advertising Analytics 的報表套裝
 uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '281'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 97%
 
 若要在 Analytics 檢視任何 Advertising Analytics 搜尋資料，您需要為 Advertising Analytics 報表設定每一個已與 Experience Cloud 對應的報表套裝。
 
-1. [將報表套裝對應至組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
+1. [將報表套裝對應至組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hant)。
 1. 導覽至&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**。
 
 1. 選取已對應至您 Experience Cloud 組織的報表套裝。
