@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 + 準備實作 Adobe Analytics {#prepare}
    + [建立資料層](prepare/data-layer.md)
    + [全域報告套裝考量事項](prepare/global-rs.md)
-   + [實作多套裝標籤](prepare/multi-suite-tagging.md)
+   + [實作多套裝標記](prepare/multi-suite-tagging.md)
    + [實作模組](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
