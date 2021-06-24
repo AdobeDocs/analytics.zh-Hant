@@ -3,9 +3,9 @@ title: 疑難排解 JavaScript 實施
 description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務。
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '692'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,7 +85,7 @@ s.pageName = "        Home Page";
 
 將很長的值填入許多變數的實作有時會遇到截斷的影像要求。有些較舊的瀏覽器 (例如 Internet Explorer) 會對影像要求 URL 施加 2083 個字元的限制。如果您的組織遇到很長的影像要求，請嘗試下列步驟：
 
-* **使用 Experience Cloud ID 服務**：AppMeasurement 程式庫 1.4.1和更新版本會在影像要求過長時，使用 HTTP POST 來自動傳送影像要求。不論資料長度為何，使用此方法傳送的資料都不會遭截斷。如需詳細資訊，請參閱 [Adobe Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* **使用 Experience Cloud ID 服務**：AppMeasurement 程式庫 1.4.1和更新版本會在影像要求過長時，使用 HTTP POST 來自動傳送影像要求。不論資料長度為何，使用此方法傳送的資料都不會遭截斷。如需詳細資訊，請參閱 [Adobe Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 * **使用處理規則**：[處理規則](/help/admin/admin/c-processing-rules/processing-rules.md)可將值從一個變數複製到另一個變數。此方法可讓您省去在多個變數中設定相同值的繁瑣操作。例如：
 
    一律執行：<br>
