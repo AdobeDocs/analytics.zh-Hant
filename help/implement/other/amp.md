@@ -3,7 +3,7 @@ title: 使用 AMP 進行實施
 description: 在 AMP 頁面上實施 Adobe Analytics。
 exl-id: 51a2662e-2a24-48f1-b17a-d1e1a57a394b
 source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
 ht-degree: 100%
 
@@ -157,7 +157,7 @@ Adobe 使用內建 AMP 函數來識別訪客，並設定 Cookie `adobe_amp_id`�
 
 >[!IMPORTANT]
 >
->您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的  iframe。舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
+>您的 `stats.html` 頁面應託管於 AMP 本身託管網域的獨立子網域上。AMP 架構不允許來自與 AMP 本身存在網域相同之子網域的 iframe。舉例說明，若您的 AMP 託管於 `amp.example.com`，請將您的 `stats.html` 頁面託管於獨立的子網域上，例如 `ampmetrics.example.com`。
 
 使用此方法時，若使用者選擇不追蹤您的主要網站，也會同時選擇不追蹤您所有的 AMP。使用此公用程式頁面也表示 AMP 可支援 Adobe Experience Cloud ID Service。不需要獨立的報表套裝。
 
