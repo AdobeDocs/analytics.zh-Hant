@@ -3,9 +3,9 @@ title: 分類概觀
 description: 自訂維度項目的分組。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 Reports &amp; Analytics 包含追蹤程式碼變數預先定義分類，提供以分類為基礎的報告，名為「創作元素與促銷活動」。您必須以手動方式為其他所有轉換和流量變數設定分類。
 
-請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
+請參閱「[流量分類](/help/admin/admin/c-traffic-variables/traffic-classifications.md)」和「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hant)」。
 
 下表描述多種可用的分類，以及各種支援類別的變數。上傳資料檔案之前，請先檢閱[一般檔案結構](/help/components/classifications/importer/c-saint-data-files.md)。
 
