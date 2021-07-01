@@ -5,9 +5,9 @@ title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,12 +41,12 @@ Audience Analytics 整合具有以下主要優點：
 
 ## 先決條件 {#section_A345DC31F7D44EAE9DC1AB53E824C0CC}
 
-確定已具備下列必要條件：
+確定已具備下列先決條件：
 
 * 您同時是 Audience Manager 和 Adobe Analytics 的客戶。
 * 您是 Audience Manager 管理員。
 * 您使用 Identity Service v1.5 或更新版本。
-* AAM 及 Adobe Analytics 報表套裝[對應至同一個 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)。
-* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實施作業[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
+* AAM 及 Adobe Analytics 報表套裝[對應至同一個 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hant)。
+* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實施作業[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
 
-[對象分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些必備條件。
+[對象分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些先決條件。
