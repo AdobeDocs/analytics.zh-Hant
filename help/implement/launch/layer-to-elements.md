@@ -3,9 +3,9 @@ title: 將資料層物件對應至資料元素
 description: 設定 Launch 以從資料層讀取。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,13 +13,13 @@ ht-degree: 97%
 
 您的組織在網站上建立並實施資料層後，您就可以將資料層物件對應至 Launch 中的資料元素。
 
-## 必要條件
+## 先決條件
 
 [建立資料層](../prepare/data-layer.md)：請確定您的網站上有資料層。雖然技術上，您可以對應任何 JavaScript 物件或直接從頁面上消除 CSS 元素，但 Adobe 建議您最後再採取此作法。如果您的網站版面有所變更，Launch 中使用的 CSS 選擇器會停止運作，造成資料遺失。
 
 ## 使用 Adobe Experience Platform Launch 建立資料元素
 
-[資料元素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html#create-a-data-element)是 Launch 中的元件，可在該工具中使用。您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
+[資料元素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=zh-Hant#create-a-data-element)是 Launch 中的元件，可在該工具中使用。您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下所需的 Launch 屬性。
