@@ -1,19 +1,19 @@
 ---
-title: 多報告套裝
-description: 了解在有多個報告套裝的 Workspace 中建立專案的方法及原因
+title: 多報表套裝
+description: 了解在有多個報表套裝的 Workspace 中建立專案的方法及原因
 feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '519'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# 多報告套裝
+# 多報表套裝
 
-您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同工作區專案內的每個面板，選擇不同的報表套裝。
+您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同 Workspace 專案內的每個面板，選擇不同的報表套裝。
 
 此功能相當實用。舉例來說，如果您想
 
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 | 任務 | 使用中面板 | 非使用中面板 |
 |---|---|---|
-| 變更報表套裝 | 有 | 無 |
+| 變更報表套裝 | 有 | 否 |
 | 拖放元件 | 有 | 可以，適用於與使用中面板位於相同報表套裝中的任何面板。 |
 | 拖放視覺效果 | 有 | 可以，適用於與使用中面板位於相同報表套裝中的任何面板。 |
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 
 ![](assets/mrs-ui.png)
 
-1. 在工作區中建立具有 2 個或更多面板的新專案。
+1. 在 Workspace 中建立具有 2 個或更多面板的新專案。
 
 1. 將元件 (量度、維度、區段、日期範圍) 拖放至面板中。確認面板擁有專屬於其報表套裝的資料和視覺效果。
 
@@ -65,6 +65,6 @@ ht-degree: 95%
 
 1. (選用) 您也可以前往其他 Analytics 元件產生器，並確定其是否顯示報表套裝標籤，指出
 
-   * 建立區段的位置：[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。
-   * 建立計算量度的位置：[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)。
-   * 建立警報的位置：[警報產生器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html)。
+   * 建立區段的位置：[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。
+   * 建立計算量度的位置：[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)。
+   * 建立警報的位置：[警報產生器](https://experienceleague.adobe.com/docs/analytics/components/alerts/alert-builder.html?lang=zh-Hant)。
