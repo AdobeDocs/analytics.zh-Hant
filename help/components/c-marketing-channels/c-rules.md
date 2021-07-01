@@ -3,9 +3,9 @@ title: 行銷管道的處理規則
 description: 行銷管道處理規則確定了訪客點按是否符合要指定給管道的標準。規則會處理訪客在您網站的每次點按。當規則不符合管道標準，或如果未正確設定規則，系統會將點按指派給「未識別管道」。
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 * 兩個行銷管道絕不接收同一事件 (例如購買或點按) 的評分。這將行銷管道與 eVars (兩個 eVars 可接收同一事件的評分) 區分開來。
 * 如果規則的涵蓋範圍有間隙，您可能會看到[未識別管道](/help/components/c-marketing-channels/c-faq.md)。
 
-## 必要條件
+## 先決條件
 
 * 檢視[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)中的概念資訊。
 * 建立一個或多個管道，以便為它們指定規則。請參閱[新增行銷管道](/help/components/c-marketing-channels/c-channels.md)。
@@ -121,13 +121,13 @@ ht-degree: 98%
 
 ![](assets/example_paid_search.png)
 
-如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=zh-Hant)。
 
 ### 免費搜尋 {#natural-search}
 
 訪客經由某個網站搜尋找到您的網站 (您不須支付排名費用，即由該搜尋引擎排名您的網站)，則為「免費」搜尋。
 
-分析不會偵測免費搜尋。在您設定付費搜尋偵測後，系統會知道如果某個搜尋反向連結不是付費搜尋反向連結，它一定是免費搜尋反向連結。如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
+分析不會偵測免費搜尋。在您設定付費搜尋偵測後，系統會知道如果某個搜尋反向連結不是付費搜尋反向連結，它一定是免費搜尋反向連結。如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=zh-Hant)。
 
 對於行銷管道規則，免費搜尋設定如下：
 
@@ -145,7 +145,7 @@ ht-degree: 98%
 
 ![](assets/example_email.png)
 
-### 附加產品 {#afilliates}
+### 聯盟 {#afilliates}
 
 此規則可識別源自一組指定的反向連結網域的訪客。透過該規則，您可列出想要追蹤的附屬機構網域，如下所示：
 
@@ -169,7 +169,7 @@ ht-degree: 98%
 
 ![](assets/int-channel1.png)
 
-若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)。
+若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=zh-Hant#internal)。
 
 ### 直接 {#direct}
 
