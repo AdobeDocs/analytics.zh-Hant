@@ -5,9 +5,9 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 
 Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；您可將這些元件拖放至專案上。
 
-若要存取「元件」功能表，請在左側邊欄按一下「**[!UICONTROL 元件]**」圖示。您可以從左側邊欄圖示或使用[熱鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)在[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)、[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)和元件之間切換。
+若要存取「元件」選單，請在左側邊欄按一下「**[!UICONTROL 元件]**」圖示。您可以從左側邊欄圖示或使用[熱鍵](/help/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.md)在[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)、[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)和元件之間切換。
 
 ![](assets/component-overview.png)
 
@@ -23,9 +23,9 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 ## 維度 {#dimensions}
 
-[**維度**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html)是描述訪客行為的文字屬性，可在您的分析中供檢視、劃分和比較。這些維度可在左側「元件」邊欄 (橘色區段) 中找到，通常可作為表格列套用。
+[**維度**](https://experienceleague.adobe.com/docs/analytics/components/dimensions/overview.html?lang=zh-Hant)是描述訪客行為的文字屬性，可在您的分析中供檢視、劃分和比較。這些維度可在左側「元件」邊欄 (橘色區段) 中找到，通常可作為表格列套用。
 
-維度的範例包括[!UICONTROL 頁面名稱]、[!UICONTROL 行銷管道]、[!UICONTROL 裝置類型]和[!UICONTROL 產品]。維度是由 Adobe 提供，並透過您的自訂實施作業 (eVar、Prop、分類等) 擷取。
+維度的範例包括[!UICONTROL 頁面名稱]、[!UICONTROL 行銷管道]、[!UICONTROL 裝置類型]和[!UICONTROL 產品]。維度是由 Adobe 提供，並透過您的自訂實作 (eVar、Prop、分類等) 擷取。
 
 每個維度也包含&#x200B;**維度項目**&#x200B;在內。維度項目可在左側的「元件」邊欄中找到，只要按一下任何維度名稱旁的右箭頭 (項目為黃色) 即可。
 
@@ -35,25 +35,25 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 ## 量度 {#metrics}
 
-[**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html)是訪客行為的量化度量。這些量度可在左側「元件」邊欄 (綠色區段) 中找到，通常可作為表格欄套用。
+[**量度**](https://experienceleague.adobe.com/docs/analytics/components/metrics/overview.html?lang=zh-Hant)是訪客行為的量化度量。這些量度可在左側「元件」邊欄 (綠色區段) 中找到，通常可作為表格欄套用。
 
-度量的範例包括[!UICONTROL 頁面檢視次數]、[!UICONTROL 瀏覽次數]、[!UICONTROL 訂購]、[!UICONTROL 平均逗留時間]和[!UICONTROL 收入/訂購]。維度是由 Adobe 提供，或是透過您的自訂實施作業 ([!UICONTROL 成功事件]) 擷取，或是使用[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html)建立。
+度量的範例包括[!UICONTROL 頁面檢視次數]、[!UICONTROL 瀏覽次數]、[!UICONTROL 訂購]、[!UICONTROL 平均逗留時間]和[!UICONTROL 收入/訂購]。維度是由 Adobe 提供，或是透過您的自訂實作 ([!UICONTROL 成功事件]) 擷取，或是使用[計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)建立。
 
 ![](assets/metrics.png)
 
 ## 區段 {#segments}
 
-[**區段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)是套用至分析的對象篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
+[**區段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=zh-Hant)是套用至分析的對象篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
 
-區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的瀏覽次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)建立。
+區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的瀏覽次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)建立。
 
 ![](assets/segments.png)
 
 ## 日期範圍 {#date-ranges}
 
-[**日期範圍**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html)是您進行分析的日期範圍。這些日期範圍可在左側「元件」邊欄 (紫色區段) 中找到，通常可套用在每個面板的行事曆中。
+[**日期範圍**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hant)是您進行分析的日期範圍。這些日期範圍可在左側「元件」邊欄 (紫色區段) 中找到，通常可套用在每個面板的行事曆中。
 
-日期範圍的範例包括 2019 年 7 月、[!UICONTROL 最近 4 週]和[!UICONTROL 本月]。日期範圍是由 Adobe 提供，或在[面板行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中套用，或使用[日期範圍產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)建立。
+日期範圍的範例包括 2019 年 7 月、[!UICONTROL 最近 4 週]和[!UICONTROL 本月]。日期範圍是由 Adobe 提供，或在[面板行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中套用，或使用[日期範圍產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant)建立。
 
 ![](assets/date-ranges.png)
 
