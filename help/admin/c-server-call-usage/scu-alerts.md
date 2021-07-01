@@ -3,9 +3,9 @@ description: 新增或管理伺服器所有使用量警報。當您設定警報�
 title: 伺服器呼叫使用量警報
 uuid: 701fd542-5b24-42df-97a0-08e10929fa48
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 ## 概觀
 
-名稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量警報」]**&#x200B;的新警報類別位於現有[「警報管理」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)使用者介面。
+名稱為&#x200B;**[!UICONTROL 「伺服器呼叫使用量警報」]**&#x200B;的新警報類別位於現有[「警報管理」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=zh-Hant)使用者介面。
 
 這項類別已預先填入 **1 個預設警報**，顯示在任何可存取「伺服器呼叫使用量」功能的登入公司中。如果滿足以下其中一項條件，該警報就會觸發通知，傳送給所有登入公司的管理員：
 
