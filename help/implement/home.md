@@ -3,9 +3,9 @@ title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,8 +20,8 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 3. 頁面會載入，Analytics JavaScript 程式碼會運作。JavaScript 程式碼會將影像要求傳送至 Adobe 資料收集伺服器。您在實作中定義的頁面資料，會作為此影像要求中查詢字串的一部分傳送。
 
 4. Adobe 回報空白像素影像。
-5. Adobe伺服器將收集的資料儲存在一或多個&#x200B;*報表套裝*&#x200B;中。
-6. 報告套裝資料會填充在您可於網路瀏覽器取得的報表。
+5. Adobe 伺服器會將收集而來的資料儲存在一個或多個&#x200B;*報表套裝*&#x200B;中。
+6. 報表套裝資料會填充在您可於網路瀏覽器取得的報表。
 
    JavaScript 程式碼會快速開始執行，且對頁面載入時間的影響非常有限。訪客為到達特定頁面而點擊&#x200B;**[!UICONTROL 「重新載入」]**&#x200B;或&#x200B;**[!UICONTROL 「返回」]**&#x200B;時，此方法可讓您計數頁面，因為頁面自快取中擷取時，JavaScript 也可執行。
 
