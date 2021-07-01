@@ -1,19 +1,19 @@
 ---
 description: 面板是表格與視覺效果的集合。
-title: 面板概述
+title: 面板概觀
 feature: 面板
 role: Business Practitioner, Administrator
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1001'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 面板概述
+# 面板概觀
 
-[!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角圖示、[空白面板](blank-panel.md)來存取面板。當您想要根據時段、報告套裝或分析使用案例來組織專案時，面板會很有幫助。Analysis Workspace 中有以下面板類型：
+[!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角圖示、[空白面板](blank-panel.md)來存取面板。當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。Analysis Workspace 中有以下面板類型：
 
 | 面板名稱 | 說明 |
 | --- | --- |
@@ -31,17 +31,17 @@ ht-degree: 98%
 
 預設的開始面板為「[!UICONTROL 自由格式]」面板，但您也可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
-## 報告套裝 {#report-suite}
+## 報表套裝 {#report-suite}
 
-面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報告套裝]衍生而得。該報告套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報告套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
+面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報表套裝]衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
 
-報告套裝清單是依關聯性來分類；Adobe 是根據目前用戶最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。
+報表套裝清單是依關聯性來分類；Adobe 是根據目前用戶最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。
 
 ![](assets/panel-report-suite.png)
 
-## 日曆 {#calendar}
+## 行事曆 {#calendar}
 
-面板行事曆會控制面板內表格和視覺效果的報告範圍。
+行事曆面板會控制面板內表格和視覺效果的報告範圍。
 
 注意：如果表格、視覺效果或下拉區域內使用 (紫色) 日期範圍元件，此日期範圍將覆蓋面板行事曆。
 
@@ -81,9 +81,9 @@ ht-degree: 98%
 
 ![](assets/create-dropdown.png)
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
 
-## 在功能表上按一下右鍵{#right-click}
+## 在選單上按一下右鍵{#right-click}
 
 在面板標題按一下右鍵，可以使用面板的其他功能。
 
@@ -95,9 +95,9 @@ ht-degree: 98%
 | --- | --- |
 | 插入複製的面板/視覺效果 | 允許您將複製的面板或視覺效果貼至 (「插入」) 專案內另一個位置或完全不同的專案中。 |
 | 複製面板 | 允許您按一下右鍵並複製面板，這樣您便可插入專案內另一個位置或完全不同的專案中。 |
-| 套用報告套裝至所有面板 | 允許您將主要面板報告套裝套用至專案中的所有面板。 |
+| 套用報表套裝至所有面板 | 允許您將主要面板報表套裝套用至專案中的所有面板。 |
 | 複製面板 | 將目前的面板依樣複製，然後再修改資料。 |
 | 摺疊/展開所有面板 | 摺疊和展開所有專案面板。 |
 | 摺疊/展開面板中的所有視覺效果 | 摺疊和展開目前面板中的所有視覺效果。 |
-| 編輯描述 | 新增 (或編輯) 面板的文字說明。 |
+| 編輯說明 | 新增 (或編輯) 面板的文字說明。 |
 | 取得面板連結 | 讓您可將使用者直接導向專案中的特定面板。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確面板。 |
