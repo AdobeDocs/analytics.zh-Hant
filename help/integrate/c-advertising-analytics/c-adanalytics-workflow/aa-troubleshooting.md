@@ -1,16 +1,16 @@
 ---
 description: Advertising Analytics 相關問題的疑難排解與修正。
-title: 疑難排解 Advertising Analytics
+title: Advertising Analytics 疑難排解
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 疑難排解 Advertising Analytics
+# Advertising Analytics 疑難排解
 
 * [我在「對應」區段中看不到我的報表套裝](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_9CAACDE6445C492DBAE542BA74DE6316)
 * [我在驗證 Google Adwords 帳戶時發生錯誤...](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md#section_C99EA9A1946E4908B36778A331142B84)
@@ -29,7 +29,7 @@ ht-degree: 96%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 報表套裝並未對應至登入使用者的 Experience Cloud 組織 ID。 </p> </td> 
-   <td colname="col2"> <p>如需指示，請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html"  >將報表套裝對應至組織</a>。 </p> </td> 
+   <td colname="col2"> <p>如需指示，請參閱<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hant"  >將報表套裝對應至組織</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 尚未針對 Advertising Analytics 報表佈建報表套裝。 </p> </td> 
