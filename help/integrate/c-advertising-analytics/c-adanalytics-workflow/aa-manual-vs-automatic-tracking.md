@@ -3,9 +3,9 @@ description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資�
 title: 追蹤手動模式和自動模式
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=zh-Hant)。
 
 ## 手動模式追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
