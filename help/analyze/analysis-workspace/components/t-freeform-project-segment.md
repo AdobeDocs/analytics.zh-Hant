@@ -8,7 +8,7 @@ exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '366'
-ht-degree: 90%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 ## 區段欄 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-元件功能表底下的區段欄會顯示區段及區段範本，並附有下列圖示：
+「元件」功能表底下的區段欄會顯示區段及區段範本，並附有下列圖示：
 
 ![](assets/segment_icons.png)
 
@@ -54,6 +54,6 @@ ht-degree: 90%
 | 動作 | 說明 |
 |--- |--- |
 | 從選取項目建立區段 | 建立內嵌區段。選取行、以滑鼠右鍵按一下選取範圍，然後建立內嵌區段。此區段僅套用至開啟的專案，不會儲存為 Analytics 區段。1. 選取所需的列。2. 以滑鼠右鍵按一下選取項目。3. 按一下&#x200B;*「從選取項目建立區段」*。 |
-| 元件 > 新增區段 | 顯示區段產生器。如需分段的詳細資訊，請參閱[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
-| 「共用 > 共用專案」或「共用 > 組織專案資料」 | 在[「組織與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的區段可如何供收件者使用於共用分析中。 |
+| 元件 > 新增區段 | 顯示區段產生器。如需分段的詳細資訊，請參閱[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。 |
+| 「共用 > 共用專案」或「共用 > 監管專案資料」 | 在[「監管與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的區段可如何供收件者使用於共用分析中。 |
 | 使用區段作為維度 | 影片：[在 Analysis Workspace 中使用區段作為維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
