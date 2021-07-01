@@ -5,7 +5,7 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '463'
 ht-degree: 100%
 
@@ -13,11 +13,11 @@ ht-degree: 100%
 
 # 儲存專案
 
-若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表。在特定情況下，Workspace 也會自動儲存專案。
+若要儲存您對專案所做的變更，請前往 Analysis Workspace 的&#x200B;**[!UICONTROL 「專案」]**&#x200B;選單。在特定情況下，Workspace 也會自動儲存專案。
 
 ## 儲存專案選項 {#Save}
 
-您可以在&#x200B;**[!UICONTROL 「專案」]**&#x200B;功能表底下執行不同的儲存操作，取決於您日後要如何存取分析。
+您可以在&#x200B;**[!UICONTROL 「專案」]**&#x200B;選單底下執行不同的儲存操作，取決於您日後要如何存取分析。
 
 | 動作 | 說明 |
 |---|---| 
