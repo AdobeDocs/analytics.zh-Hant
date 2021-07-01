@@ -6,9 +6,9 @@ feature: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 初始設定會將大量的原始資料填入分類資料庫，或者重建分類，而不是只將幾列重新分類或新增列。
 
-報告套裝中執行初始上傳後 (對於給定的變數/報告)，Adobe 建議，後續報告中僅上傳新的和更新的列。未來上傳時，應忽略未變更的列。
+報表套裝中執行初始上傳後 (對於給定的變數/報告)，Adobe 建議，後續報告中僅上傳新的和更新的列。未來上傳時，應忽略未變更的列。
 
 每個上傳的新代碼是以當月份該變數的唯一項目為計算基準。
 
@@ -62,7 +62,7 @@ t_upload_a_saint_data_file_via_ftp.xml
 
    FIN 檔案是空白的檔案，其名稱與您的資料檔案相同，副檔名為 [!DNL .fin]。例如，若您的資料檔案是 [!DNL classdata1.tab]，則 檔案名稱為 [!DNL classdata1.fin].fin。
 
-Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料檔案。Adode 會將其匯入於 FTP 帳戶設定中指定的報告套裝和資料集。
+Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料檔案。Adode 會將其匯入於 FTP 帳戶設定中指定的報表套裝和資料集。
 
 ## 建立 FTP 帳戶 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
@@ -74,7 +74,7 @@ t_create_an_ftp_account.xml
 
  -->
 
-如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)。
+如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hant)。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
@@ -85,7 +85,7 @@ t_create_an_ftp_account.xml
    |---|---|
    | 名稱 | FTP 帳戶名稱。 |
    | 要分類的資料集 | 從下拉式清單中選取您要分類的資料集 (行銷報告變數)。 |
-   | 選取報告套裝 | 選取您要分類選取之資料集的報告套裝。若要選擇多個報告套裝，每個所選報告套裝的分類必須相同。 |
+   | 選取報表套裝 | 選取您要分類選取之資料集的報表套裝。若要選擇多個報表套裝，每個所選報表套裝的分類必須相同。 |
    | 覆寫衝突的資料 | 選取這個選項以覆寫重複資料。在上傳現有的分類時，這個選項非常有用。如果您要新增額外的分類，我們不建議您使用此選項。 |
    | 匯入完成之後 | 選取這個選項，自動將更新的資料集匯出到同一個 FTP 帳戶一次。指定在匯入完成後接收關於此 FTP 帳戶之通知的電子郵件地址。 |
    | 通知收件者 | 指定要接收關於這個 FTP 帳戶之通知的電子郵件地址。 |
