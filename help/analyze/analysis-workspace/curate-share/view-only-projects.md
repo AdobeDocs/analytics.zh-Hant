@@ -1,12 +1,12 @@
 ---
-description: 工作區中僅限檢視的專案
+description: Workspace 中僅供檢視的專案
 keywords: 僅供檢視的專案
 title: 僅供檢視的專案
 feature: 監管與共用
 role: Business Practitioner, Administrator
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
 ht-degree: 100%
 
@@ -29,8 +29,8 @@ ht-degree: 100%
 * 可見列的自由格式編號
 * 自由格式列、欄或視覺效果設定
 * 面板區段
-* 編輯、插入和元件功能表
-* 工作區提示
+* 編輯、插入和元件選單
+* Workspace 提示
 
 ## 啟用的互動功能
 
@@ -41,4 +41,4 @@ ht-degree: 100%
 | 自由表格 | <ul><li>分頁與排序</li><li>暫留</li><li>可更新連結視覺效果的儲存格選項</li><li>按一下滑鼠右鍵 > 取得視覺效果連結</li><li>按一下滑鼠右鍵 > 複製到剪貼簿</li></ul> |
 | 視覺效果 | <ul><li>按一下以開啟/關閉圖例</li><li>暫留</li><li>按一下滑鼠右鍵 > 取得視覺效果連結</li><li>摺疊/展開</li><li>流量 - 展開流量節點</li><li>地圖 - 縮放</li></ul> |
 | 面板 | <ul><li>互動式下拉式篩選器</li><li>按一下滑鼠右鍵 > 取得面板連結</li><li>摺疊/展開</li></ul> |
-| 專案 | <ul><li>檢查所有資訊圖示</li><li>專案功能表 - 新增、開啟、設定為登陸頁面、重新整理、下載 CSV/PDF、有限的專案資訊和設定</li><li>共用功能表 - 取得專案連結，立即傳送檔案</li><li>說明功能表 - 提示與除錯工具選項以外的所有動作</li></ul> |
+| 專案 | <ul><li>檢查所有資訊圖示</li><li>專案選單 - 新增、開啟、設定為登陸頁面、重新整理、下載 CSV/PDF、有限的專案資訊和設定</li><li>共用選單 - 取得專案連結，立即傳送檔案</li><li>說明選單 - 提示與除錯工具選項以外的所有動作</li></ul> |
