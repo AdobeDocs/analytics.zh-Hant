@@ -4,7 +4,7 @@ title: 建立簡單的「每次造訪頁面檢視次數」量度
 uuid: 0730e51c-1f8f-473b-8825-d72911f2944c
 exl-id: 2d1c4677-b07c-4eca-97b7-e5e4594daee1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '249'
 ht-degree: 100%
 
