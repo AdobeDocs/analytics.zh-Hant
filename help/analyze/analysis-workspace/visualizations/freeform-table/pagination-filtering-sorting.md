@@ -1,6 +1,6 @@
 ---
 description: 討論分頁、篩選及排序的影片。
-title: 表格分頁、篩選及分類
+title: 表格分頁、篩選及排序
 uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
 feature: 自由表格
 role: Business Practitioner, Administrator
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 ---
 
-# 表格分頁、篩選及分類
+# 表格分頁、篩選及排序
 
 按一下篩選條件圖示，然後按一下自由表格資料表中維度旁的「顯示進階選項」，即可讓您使用下列標準加以篩選：
 
