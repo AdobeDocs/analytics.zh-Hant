@@ -1,13 +1,13 @@
 ---
 description: 重新導向無須使用者互動便可將瀏覽器指向新位置。重新導向會在網頁瀏覽器 (用戶端重新導向) 或網頁伺服器 (伺服器端重新導向) 上執行。
-keywords: Analytics 實施作業
+keywords: Analytics 實作
 subtopic: Redirects
 title: 重新導向與別名
 topic-fix: Developer and implementation
 uuid: 11f9ad7a-5c45-410f-86dd-b7d2cec2aae3
 exl-id: 0ed2aa9b-ab42-415d-985b-2ce782b6ab51
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1123'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 1. 使用者按一下您的假設網站的連結 [!DNL https://www.example.com/] 。當使用者點按此連結並開啟了 [!DNL example.com] 網站時，[!DNL Analytics] 會使用 JavaScript 收集反向連結 URL (`https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 和目前的 URL (`https://www.example.com/`)。
 1. [!DNL Analytics] 會在不同的報表中報告在此互動期間收集到的資訊，例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]和[!DNL Search Keywords]。
 
-## 範例: 有重新導向的瀏覽 {#section_921DDD32932847848C4A901ACEF06248}
+## 範例：有重新導向的瀏覽 {#section_921DDD32932847848C4A901ACEF06248}
 
 重新導向可能會使瀏覽器忘掉真正的反向連結 URL。假設有下列情況：
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 1. 瀏覽器視窗的網址列顯示了使用者在搜尋欄位 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets` 中輸入的搜尋詞彙。請注意，搜尋詞彙已納入到緊接在 `https://www.google.com/search?`。瀏覽器也會顯示一個包含搜尋結果的頁面，內含您其中一個網域名稱的連結: [!DNL https://www.flytohawaiiforfree.com/] 。此&#x200B;*虛名*&#x200B;網域已設定成將使用者重新導向至 `https://www.example.com/`。
 1. 使用者點按連結 `https://www.flytohawaiiforfree.com/` 後，即會被伺服器重新導向至您的主要網站 `https://www.example.com`。進行重新導向時，對 [!DNL Analytics] 資料收集具有重要性的資料會遺失，因為瀏覽器會清除反向連結 URL。因此，[!DNL Analytics] 報表 (例如[!UICONTROL 反向連結網域]、[!UICONTROL 搜尋引擎]、[!UICONTROL 搜尋關鍵字]) 中所使用的原始搜尋資訊將會遺失。
 
-## 實施作業重新導向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
+## 實作重新導向 {#concept_5EC2EE9677A44CC5B90A38ECF28152E7}
 
 若要透過重新導向擷取 [!DNL Analytics][!DNL AppMeasurement] 資料，必須對程式碼進行四項小幅度變更，以建立重新導向與「JavaScript 適用的 」檔案。
 
@@ -58,7 +58,7 @@ redirects_implement.xml
 
 完成下列步驟，可保留原始反向連結 (例如前述案例中的 `https://www.google.com/search?hl=en&ie=UTF-8&q=discount+airline+tickets`) 傳至您網站的資訊:
 
-## 設定反向連結覆蓋 JavaScript 程式碼 {#section_87BB1D47D9C345C18339078824645CC4}
+## 設定反向連結覆寫 JavaScript 程式碼 {#section_87BB1D47D9C345C18339078824645CC4}
 
 <!-- 
 
@@ -82,9 +82,9 @@ s.pageURL=""
 
 >[!IMPORTANT]
 >
->請僅在頁面上設定 *`s.referrer`* 一次。若設定次數超過一次，且一併設定受追蹤的每個追蹤呼叫或每個連結點擊，會使反向連結及例如搜尋引擎及關鍵字的相關維度，重複計算為兩次。
+>請僅在頁面上設定 *`s.referrer`* 一次。若設定次數超過一次，且一併設定受追蹤的每個追蹤呼叫或每個連結點擊，則會使反向連結及相關維度 (例如搜尋引擎和關鍵字) 重複計算為兩次。
 
-## 使用 getQueryParam 進行重新導向 {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
+## 使用 getQueryParam 重新導向 {#section_EE924E399F7A431C8FC8E8A2BEF84DEC}
 
 使用 [!UICONTROL getQueryParam] 雖然可讓您輕鬆在 [!DNL Analytics] 變數中填入查詢字串值，但它必須與暫存變數一起實施，才不會在查詢字串為空時覆寫合法的反向連結。使用 [!UICONTROL getQueryParam] 的最佳方式是以下列假程式碼的方法連結 [!UICONTROL getValue] 外掛程式。
 
@@ -112,7 +112,7 @@ redirects_modify_mechanism.xml
 
 由於瀏覽器會移除反向連結 URL，因此您必須設定可處理重新導向的機制 (例如網站伺服器、伺服器端程式碼、用戶端程式碼)，以傳送原始反向連結資訊。如果您也想記錄別名連結 URL，則這項資訊也必須傳送至最終登陸頁面。使用&#x200B;*`s_pageURL`*&#x200B;變數覆蓋目前的 URL。
 
-由於有許多方式可實施重新導向，因此您應向網頁營運團隊或線上廣告合作夥伴確認，以找出您網站上執行重新導向的特定機制。
+由於有許多方式可實作重新導向，因此您應向網頁營運團隊或線上廣告合作夥伴確認，以找出您網站上執行重新導向的特定機制。
 
 ## 擷取原始反向連結 {#section_7F1A77F447CF485385B456A64B174050}
 
@@ -122,7 +122,7 @@ redirects_referrer.xml
 
  -->
 
-正常情況下，[!DNL Analytics] 會從瀏覽器的 [!UICONTROL document.referrer] 屬性取得反向連結 URL，並從 [!UICONTROL document.location] 屬性取得目前的 URL。您可以將值傳遞至 *`referrer`* 和 *`pageURL`* 變數，藉此覆寫預設處理作業。藉由將值傳至反向連結變數，您可以指示 [!DNL Analytics] 應忽略 [!UICONTROL document.referrer] 屬性中的反向連結資訊，而使用您所定義的替代值。
+在正常情況下，[!DNL Analytics] 將會從瀏覽器的 [!UICONTROL document.referrer] 屬性取得反向連結 URL，並從 [!UICONTROL document.location] 屬性取得目前的 URL。 您可以將值傳遞至 *`referrer`* 和 *`pageURL`* 變數，藉此覆寫預設處理作業。藉由將值傳至反向連結變數，您可以指示 [!DNL Analytics] 應忽略 [!UICONTROL document.referrer] 屬性中的反向連結資訊，而使用您所定義的替代值。
 
 因此，登陸頁面的最終版本將必須包含下列程式碼，以更正「折扣機票」情境所產生的問題。
 
@@ -149,7 +149,7 @@ redirects_verify_referrer.xml
 
 執行測試，以確認正在擷取反向連結、原始 URL (*`s_server`*) 和促銷活動變數。
 
-在 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) 中，這些變數將以下列參數的形式表示。
+在 [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant) 中，這些變數將以下列參數的形式表示。
 
 <table id="table_5F3B987D4D514CA283F7B9F52EBC2301"> 
  <thead> 
