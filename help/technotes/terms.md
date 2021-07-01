@@ -3,9 +3,9 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2429'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 99%
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **目前資料：**&#x200B;某些報表中的選項，可用來納入最近收集但尚未完全處理的資料。請參閱分析使用手冊中的[目前資料](/help/analyze/reports-analytics/current-data.md)。
 * **自訂連結：**&#x200B;包含非頁面檢視資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
-* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
+* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)。
 * **客戶支援委派：**&#x200B;經授權可直接與 Adobe 客戶服務互動的指定使用者。請參閱 Experience Cloud 知識庫中的[客戶支援委派](https://helpx.adobe.com/tw/experience-cloud/supported-users.html)。
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。影像請求會傳送至 Adobe 的資料收集伺服器，以用於報表。
 * **資料連接器：**&#x200B;完整的開發解決方案，可讓協力廠商將資料上傳至 Adobe Analytics 的作業自動化。該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。大部分的資料連接器都使用與「資料來源」中所使用的類似工作流程。請參閱匯入使用手冊中的「資料連接器」。
@@ -65,7 +65,7 @@ ht-degree: 99%
    * 自訂分析是自訂流量變數過去的名稱。
 * **KPI：**&#x200B;關鍵績效指標的縮寫。可協助企業瞭解其網站成效的量度。每個組織都有不同的 KPI，可衡量其不同方面業務的成效。請參閱實施作業使用手冊中的[建立解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * **延遲：**&#x200B;收集到資料的時間和資料可在報表中使用的時間之間的延後情況。一般報表套裝的延遲為 30-90 分鐘。請參閱技術說明使用手冊中的[延遲](/help/technotes/latency.md)。
-* **Launch：** Adobe 目前的實施作業解決方案 Adobe Experience Platform Launch 的簡稱。請參閱 Adobe Experience Platform Launch 使用手冊中的[概觀](https://experienceleague.adobe.com/docs/launch/using/overview.html)。
+* **Launch：** Adobe 目前的實作解決方案 Adobe Experience Platform Launch 的簡稱。請參閱 Adobe Experience Platform Launch 使用手冊中的[概觀](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hant)。
 * **清單 prop：**&#x200B;一種設定，可轉換一般流量變數以支援相同點擊中的多個值。如果已啟用此設定，任何自訂流量變數都可成為清單 prop。請參閱實施作業使用手冊中的 [prop](../implement/vars/page-vars/prop.md)。
 * **清單變數：**&#x200B;與轉換變數區分開的不同變數。清單變數支援相同點擊中的多個值，而變數值會保留在造訪中，類似於轉換變數。一個組織只能使用三個清單變數。請參閱實施作業使用手冊中的[清單](/help/implement/vars/page-vars/list.md)。
 * **登入公司**：貴組織所使用報表套裝的集合。某些組織擁有多個登入公司，適用於組織內的不同部門。
