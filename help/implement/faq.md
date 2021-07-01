@@ -1,29 +1,29 @@
 ---
-title: 實作常見問題集
-description: 實施的相關常見問題，以及可提供更多資訊的連結。
+title: 實作常見問答
+description: 實作的相關常見問答，以及可提供更多資訊的連結。
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
-# Analytics 實施常見問題集
+# Analytics 實作常見問答
 
-實施的相關常見問題，以及可提供更多資訊的連結。
+實作的相關常見問答，以及可提供更多資訊的連結。
 
 ## Experience Cloud 訪客 ID 與 Analytics 訪客 ID 有何不同？
 
-Identity Service 會指派不重複的持續性識別碼，以便在 Experience Cloud 的其他解決方案之間共用。Analytics 訪客 ID 僅供 Analytics 使用。Adobe 建議您在實施中使用 Experience Cloud 訪客 ID 服務。
+Identity Service 會指派不重複的持續性識別碼，以便在 Experience Cloud 的其他解決方案之間共用。Analytics 訪客 ID 僅供 Analytics 使用。Adobe 建議您在實作中使用 Experience Cloud 訪客 ID 服務。
 
 ## 如何實施心率視訊追蹤？
 
-請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
 
-## Adobe 的服務中斷會影響效能嗎？
+## Adobe 的服務中斷是否會影響效能？
 
-不可以。JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 AppMeasurement 程式庫。如果您使用 Adobe Experience Platform Launch，JavaScript 檔案會由 Akamai 託管，或於貴組織所決定的伺服器位置託管。
+否。 JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 AppMeasurement 程式庫。如果您使用 Adobe Experience Platform Launch，JavaScript 檔案會由 Akamai 託管，或於貴組織所決定的伺服器位置託管。
 
 ## 從瀏覽器傳送資料給 Adobe 服務會降低效能嗎？
 
@@ -49,12 +49,12 @@ var s = new Object();
 >* 變更 `trackingServer` 變數以遠離 Adobe。AppMeasurement 仍會傳送影像要求，而要求會傳回 404 錯誤。
 
 
-## 我透過程式碼分析器執行AppMeasurement，並標示其使用`Math.random()`為潛在安全風險。 `Math.random()`是否用於任何敏感資料？
+## 我透過程式碼分析器執行了 AppMeasurement，而且它將 `Math.random()` 的使用標記為可能有安全性風險。 `Math.random()` 是否會與任何敏感資料一起使用？
 
-不可以，使用`Math.random()`的數字不用於掩碼、發送或接收任何敏感資料。 傳送至Adobe資料收集伺服器的資料需仰賴基礎HTTPS連線的安全性。<!-- AN-173590 -->
+否。 使用 `Math.random()` 的數字不會用於遮蔽、傳送或接收任何敏感資料。 傳送給 Adobe 資料收集伺服器的資料仰賴基本 HTTPS 連線的安全性。 <!-- AN-173590 -->
 
-AppMeasurement在三個關鍵區域中使用`Math.random()` :
+AppMeasurement 會在三個主要方面使用 `Math.random()`：
 
-* **取樣**:根據您的實作，您只能為網站的一小部分訪客收集某些資訊。`Math.random()` 用來判斷特定訪客是否應該傳送資料。大部分實作都不使用取樣。
-* **備援訪客ID**:如果無法從Cookie擷取訪客ID，則會產生隨機訪客ID。AppMeasurement的這部分會使用對`Math.random()`的兩個呼叫。
-* **快取破壞**:影像要求URL的結尾會新增隨機數字，以協助防止瀏覽器快取。
+* **取樣**：根據您的實作，可能只會針對您網站的一小部分訪客收集某些資訊。 `Math.random()` 是用來判斷特定訪客是否應該傳送資料。 大多數實作不使用取樣。
+* **遞補訪客 ID**：如果無法從 Cookie 中擷取訪客 ID，則會產生隨機訪客 ID。 這部分的 AppMeasurement 會使用兩個 `Math.random()` 呼叫。
+* **防止快取**：將一個隨機數字新增到影像要求 URL 的結尾，以防止瀏覽器快取。
