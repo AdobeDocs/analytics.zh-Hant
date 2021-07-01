@@ -3,9 +3,9 @@ title: 將 Launch 資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 在 Adobe Experience Platform Launch 中有資料元素存放庫後，您就可以將資料元素指派給 Analytics 維度。
 
-## 必要條件
+## 先決條件
 
 [將資料層物件對應至資料元素](layer-to-elements.md)：請確定您了解 Launch 中的資料元素，以及您有數個可使用的資料元素。
 
@@ -30,11 +30,11 @@ ht-degree: 98%
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下所需的 Launch 屬性。
 1. 按一下[!UICONTROL 「擴充功能」標籤]，然後按一下 Adobe Analytics 擴充功能下方的[!UICONTROL 「設定」]。
-1. 按一下[!UICONTROL 「全域變數」]摺疊式功能表，這會顯示指派全域變數的介面。
+1. 按一下[!UICONTROL 「全域變數」]摺疊式選單，這會顯示指派全域變數的介面。
 
 ### 在規則中設定變數
 
-不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform Launch 使用手冊中的[規則](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html)。
+不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform Launch 使用手冊中的[規則](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/rules.html?lang=zh-Hant)。
 
 1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
 1. 按一下所需的 Launch 屬性。
@@ -51,6 +51,6 @@ ht-degree: 98%
 
 ## 後續步驟
 
-[頁面變數](../vars/page-vars/page-variables.md)：了解您可在實施中使用的頁面層級變數，以便在 Analysis Workspace 中進一步運用維度。
+[頁面變數](../vars/page-vars/page-variables.md)：了解您可在實作中使用的頁面層級變數，以便在 Analysis Workspace 中進一步運用維度。
 
-[設定變數](../vars/config-vars/configuration-variables.md)：了解您可在實施中使用的設定變數，以解鎖 Adobe Analytics 的更多功能。
+[設定變數](../vars/config-vars/configuration-variables.md)：了解您可在實作中使用的設定變數，以解鎖 Adobe Analytics 的更多功能。
