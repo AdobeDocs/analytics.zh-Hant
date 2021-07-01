@@ -5,7 +5,7 @@ exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '353'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 80%
 
 Adobe Experience Platform (AEP) Web SDK 的輔助工具可協助您在 Platform 與 Analytics 之間手動對應資料。
 
-對於未自動對應至 Analytics 的 XDM 資料，您可以新增[內容資料](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html)以比對您的[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)。隨後，Analytics [處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)將可用它來填入 Analytics 變數。
+對於未自動對應至 Analytics 的 XDM 資料，您可以新增[內容資料](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/contextdata.html?lang=zh-Hant)以比對您的[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)。隨後，Analytics [處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=zh-Hant)將可用它來填入 Analytics 變數。
 
 此外，您也可以使用一組預設的動作和產品清單，以透過[AEP Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=zh-Hant)傳送或擷取資料。
 
@@ -57,7 +57,7 @@ Adobe Experience Platform (AEP) Web SDK 的輔助工具可協助您在 Platform 
 
 Experience Platform 會使用結構，以一致且可重複使用的方式說明資料結構。藉由定義跨系統的一致資料，將可輕易保留意義，而發揮資料應有的價值。Analytics 內容資料可與結構 (schema) 定義的結構 (structure) 搭配使用。
 
-下列範例說明 [`event` 命令](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html)如何與 `xdm` 選項搭配使用，以透過 AEP Web SDK 傳送和擷取資料。在此範例中，`event` 命令與 [ExperienceEvent 商務詳細資料結構](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)相符，因此會追蹤 productListItems `name` 和 `SKU` 值：
+下列範例說明 [`event` 命令](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant)如何與 `xdm` 選項搭配使用，以透過 AEP Web SDK 傳送和擷取資料。在此範例中，`event` 命令與 [ExperienceEvent 商務詳細資料結構](https://github.com/adobe/xdm/blob/1c22180490558e3c13352fe3e0540cb7e93c69ca/docs/reference/context/experienceevent-commerce.schema.md)相符，因此會追蹤 productListItems `name` 和 `SKU` 值：
 
 
 ```
