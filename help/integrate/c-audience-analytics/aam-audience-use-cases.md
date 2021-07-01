@@ -4,9 +4,9 @@ title: Audience Analytics 使用案例
 uuid: 51c0576c-ce8a-4a87-9c8f-be193e50279d
 exl-id: 5e03e78f-225b-4634-8a4c-f89d17603182
 source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,12 +22,12 @@ ht-degree: 88%
 
 ## 外觀類似塑型 {#section_E2E2DD1495BC4FE9A3E26541962BFF3F}
 
-身為多媒體發佈商，您可以使用[區段 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html) 來比較您的協力廠商對象，以了解關鍵的差異特徵。這有助您建立高價值的第一方區段並作為目標定位。
+身為多媒體發佈商，您可以使用[區段 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hant) 來比較您的協力廠商對象，以了解關鍵的差異特徵。這有助您建立高價值的第一方區段並作為目標定位。
 
 ## 潛在客戶分析 {#section_7DB1D045DD3F417CBA48C68E9E81E6C0}
 
-身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html)，在潛在客戶對象購買之前深入分析其行為，進而協助您了解促成轉換的動作。
+身為 B2B 零售商，您現在可以使用[依序分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=zh-Hant)，在潛在客戶對象購買之前深入分析其行為，進而協助您了解促成轉換的動作。
 
 ## 人口統計目標定位 {#section_F034DB721A06419283DBD29D4A1B444B}
 
-景點度假村可以使用 [Analysis Workspace 中的色階分佈圖](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html)，按年齡分配查看購買項目。這有助您找到適合每個度假村屬性的目標對象。
+景點度假村可以使用 [Analysis Workspace 中的長條圖](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/histogram.html?lang=zh-Hant)，按年齡分配查看購買項目。這有助您找到適合每個度假村屬性的目標對象。
