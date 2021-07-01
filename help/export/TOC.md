@@ -5,9 +5,9 @@ user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ ht-degree: 97%
       + [銷售 eVar 查閱](analytics-data-feed/c-df-contents/merchandising-evar-lookup.md)
       + [特殊字元](analytics-data-feed/c-df-contents/datafeeds-spec-chars.md)
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
-   + [資料摘要常見問題集](analytics-data-feed/df-faq.md)
-   + [資料摘要最佳實務](analytics-data-feed/data-feeds-best-practices.md)
-   + [疑難排解工作](analytics-data-feed/jobs-troubleshooting.md)
+   + [資料摘要常見問答](analytics-data-feed/df-faq.md)
+   + [資料摘要最佳做法](analytics-data-feed/data-feeds-best-practices.md)
+   + [工作疑難排解](analytics-data-feed/jobs-troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)
@@ -42,7 +42,7 @@ ht-degree: 97%
    + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援的元件](data-warehouse/component-support.md)
-   + [Data Warehouse 常見問題集](data-warehouse/faq.md)
+   + [Data Warehouse 常見問答](data-warehouse/faq.md)
    + [Data Warehouse 最佳作法](data-warehouse/data-warehouse-bp.md)
 + FTP 和 SFTP {#ftp-and-sftp}
    + [透過 Adobe Experience Cloud 使用 FTP 和 SFTP](ftp-and-sftp/ftp-overview.md)
@@ -69,4 +69,4 @@ ht-degree: 97%
       + [不使用密碼透過 SFTP 連線至 Adobe](ftp-and-sftp/c-sftp/ftp-sftp-cert-auth.md)
 + [Analysis Workspace 下載](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)
 + [Adobe Analytics API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)
-+ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)
++ [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant)
