@@ -1,20 +1,20 @@
 ---
-description: 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報告套裝。
+description: 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
 subtopic: Classifications
 title: 分類規則集
 feature: 管理工具
 uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # 分類規則集
 
-規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報告套裝。
+規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
 
 ## 分類規則產生器頁面 {#section_C60B0888C76D49C596EF19F11808B718}
 
@@ -48,7 +48,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p>複製 </p> </td> 
-   <td colname="col2"> 複製 (拷貝) 規則集，以便將規則集套用到其他變數，或套用到不同報告套裝裡的同一個變數。 </td> 
+   <td colname="col2"> 複製 (拷貝) 規則集，以便將規則集套用到其他變數，或套用到不同報表套裝裡的同一個變數。 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,13 +57,13 @@ ht-degree: 98%
 
 命名分類規則集、套用變數及指定覆寫設定。
 
-1. (先決條件) 在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報告套裝」]**&#x200B;中定義分類結構。
+1. (先決條件) 在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**&#x200B;中定義分類結構。
 
-   (請參閱「管理工具」說明中的[「分類」](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)，了解如何新增分類。)
+   (請參閱「管理工具」說明中的[「分類」](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)，了解如何新增分類。)
 
    必須先為變數定義至少一個分類，變數才會顯示在[!UICONTROL 「新的規則集」]面板中。
 
-   您可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分類」]**(或&#x200B;**[!UICONTROL 「轉換]** > **[!UICONTROL 轉換分類」]**) 中建立變數的分類。然後選取變數，再按一下&#x200B;**[!UICONTROL 「新增分類」]**。
+   您可以在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 流量]** > **[!UICONTROL 流量分類」]**(或&#x200B;**[!UICONTROL 「轉換]** > **[!UICONTROL 轉換分類」]**) 中建立變數的分類。然後選取變數，再按一下&#x200B;**[!UICONTROL 「新增分類」]**。
 
 1. 若要建立規則集，請按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類規則產生器]** > **[!UICONTROL 新增規則集」]**。
 
@@ -74,10 +74,10 @@ ht-degree: 98%
 
    ![](assets/classification_rules_page.png)
 
-1. 按一下&#x200B;**[!UICONTROL 「選取報告套裝和變數」]**。
+1. 按一下&#x200B;**[!UICONTROL 「選取報表套裝和變數」]**。
 
-   報告套裝和變數清單會填入您的登入公司裡所有報告套裝中可用的所有分類變數。報告套裝中單一的變數只能屬於一個規則集。
+   報表套裝和變數清單會填入您的登入公司裡所有報表套裝中可用的所有分類變數。報表套裝中單一的變數只能屬於一個規則集。
 
    請參閱&#x200B;*`Variable`*&#x200B;分類規則產生器[頁面所列定義中的](/help/components/classifications/crb/classification-rule-definitions.md)以取得詳細資訊。
-1. 指定要使用的報告套裝和變數，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
+1. 指定要使用的報表套裝和變數，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. [將分類規則新增](/help/components/classifications/crb/classification-rule-set.md)到規則集以繼續執行。
