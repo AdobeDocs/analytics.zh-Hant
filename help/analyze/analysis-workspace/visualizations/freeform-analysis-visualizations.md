@@ -1,20 +1,20 @@
 ---
 description: 透過視覺效果，以視覺化方式來表示您的資料。
 keywords: Analysis Workspace
-title: 視覺效果概述
+title: 視覺效果概觀
 feature: 視覺效果
 role: Business Practitioner, Administrator
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# 視覺效果概述
+# 視覺效果概觀
 
-工作區提供許多視覺效果，可產生資料的視覺化表示法，例如長條圖、環圈圖、直方圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
+Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
 您可以從 Workspace 左上角圖示、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按一下右鍵選單來存取視覺效果。
 
@@ -78,9 +78,9 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html)。
+以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hant)。
 
-## 在功能表上按一下右鍵{#right-click}
+## 在選單上按一下右鍵{#right-click}
 
 在視覺效果標題按一下右鍵，可以使用視覺效果的其他功能。設定將依視覺效果而異。一些可用設定為：
 
@@ -90,10 +90,10 @@ Analysis Workspace 中有以下視覺效果類型：
 | --- | --- |
 | 插入複製的面板/視覺效果 | 允許您將複製的面板或視覺效果貼至 (「插入」) 專案內另一個位置或完全不同的專案中。 |
 | 複製視覺效果 | 允許您按一下右鍵並複製視覺效果，這樣您便可插入專案內另一個位置或完全不同的專案中。 |
-| [將項目下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
-| [將資料下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | 將視覺效果資料來源下載為 CSV 檔。 |
+| [將項目下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant?#download-items) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
+| [將資料下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant?#download-data) | 將視覺效果資料來源下載為 CSV 檔。 |
 | 複製視覺效果 | 完全複製目前的視覺效果，接著可供進行修改。 |
-| 編輯描述 | 新增 (或編輯) 視覺效果的文字說明。 |
+| 編輯說明 | 新增 (或編輯) 視覺效果的文字說明。 |
 | 取得視覺效果連結 | 允許您將他人導向專案中的特定視覺效果。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確視覺效果。 |
 | 重新開始 | (適用於流量圖、文氏圖表 Venn、長條圖) 可刪除目前視覺效果的設定，這樣您便可從頭開始再設定。 |
 
