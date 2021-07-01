@@ -8,7 +8,7 @@ exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 * **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/home.md)。
 * **標準範本**：這些範本是由 Adobe 建立並隨產品提供。
-* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html)
+* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)
 
 ![](assets/start_modal.png)
 
@@ -43,7 +43,7 @@ ht-degree: 97%
 
 | 動作 | 說明 |
 |--- |--- |
-| 編輯範本 | 可讓管理員透過變更資料來源、修改元件、視覺效果和日期範圍等方式編輯範本。若要編輯自訂範本，您可以<ul><li>開啟 Analysis Workspace 中的自訂範本清單、選取一個範本，然後按一下「編輯範本」，或</li><li>在 Analytics 中，導覽至「元件 > 專案」，然後篩選「範本」。按一下您想要編輯的範本名稱。</li></ul>**附註:** 視情況而定，您在編輯範本後有兩個選項:「儲存」、「另存新檔」。兩者的差異如下：<ul><li>**儲存**：會更新所有使用者的自訂範本。其他人從這個自訂範本建立專案時，就會看到您變更的內容。</li><li>**另存新檔**：會建立含有您變更內容的自訂範本副本。(「共用 > 共用專案」的功能表項目停用時，您就可以得知目前處於編輯模式。)</li></ul> |
+| 編輯範本 | 可讓管理員透過變更資料來源、修改元件、視覺效果和日期範圍等方式編輯範本。若要編輯自訂範本，您可以<ul><li>開啟 Analysis Workspace 中的自訂範本清單、選取一個範本，然後按一下「編輯範本」，或</li><li>在 Analytics 中，導覽至「元件 > 專案」，然後篩選「範本」。按一下您想要編輯的範本名稱。</li></ul>**附註:** 視情況而定，您在編輯範本後有兩個選項:「儲存」、「另存新檔」。兩者的差異如下：<ul><li>**儲存**：會更新所有使用者的自訂範本。其他人從這個自訂範本建立專案時，就會看到您變更的內容。</li><li>**另存新檔**：會建立含有您變更內容的自訂範本副本。(「共用 > 共用專案」的選單項目停用時，您就可以得知目前處於編輯模式。)</li></ul> |
 | 搜尋範本 | 在「自訂範本」對話方塊中，按一下「搜尋範本」。 |
 | 將範本排序 | 您可以依字母順序、關聯性以及建立日期等將範本排序。在「自訂範本」對話方塊中，按一下「排序：」。 |
 | 套用標記至範本 | 開啟範本，然後前往「專案 > 專案資訊和設定」。按一下「新增標記」。 |
@@ -52,17 +52,17 @@ ht-degree: 97%
 
 ## 標準範本
 
-第一次開啟工作區時，範本位於左側邊欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
+第一次開啟 Workspace 時，範本位於左側邊欄中。Analysis Workspace 範本涵蓋常見的使用案例。這些專案依據其所屬垂直產業而分組，並根據您選取的報表套裝，填入不同的維度、區段、量度和視覺效果。
 
 您可照原樣使用這些預先填入的範本，或是依照您的需求據以調整 (例如透過新增或更換量度或視覺效果)，然後以新名稱儲存這些範本。
 
-以下是有關 [Analysis Workspace 中的標準範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html)的教學影片 (2:46)
+以下是有關 [Analysis Workspace 中的標準範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/analysis-workspace-basics/standard-templates-in-analysis-workspace.html?lang=zh-Hant)的教學影片 (2:46)
 
 以下為可用的範本，以及可透過個別範本找到答案的問題.
 
 ### 培訓
 
-這個標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
+這個標準範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
 
 * **培訓教學課程 - 內部搜尋分析**：內部搜尋教學課程可協助您了解訪客想在網站或應用程式上尋找但沒有找到的內容。分析這類資料可以找出內容最佳化機會。
 
@@ -80,7 +80,7 @@ ht-degree: 97%
 
 * **Magento：行銷與商務**：此範本依行銷通路歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等條件提供深入分析。如需影片簡介，請參閱：
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hant)
 
 ### 媒體
 
@@ -118,7 +118,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html) 的一部分使用。
+>「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hant) 的一部分使用。
 
 此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
