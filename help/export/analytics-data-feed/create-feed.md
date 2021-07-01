@@ -3,9 +3,9 @@ title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
 source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '948'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,12 +17,12 @@ ht-degree: 90%
 
 ## 摘要資訊欄位
 
-* **名稱**: 資料摘要的名稱。在選取的報告套裝內不可重複，長度上限為 255 個字元。
-* **報告套裝**: 資料摘要所在的報告套裝。如果相同報告套裝中建立了多個資料摘要，它們必須各有不同的欄定義。只有來源報告套裝支援資料摘要，虛擬報告套裝並不受支援。
+* **名稱**: 資料摘要的名稱。在選取的報表套裝內不可重複，長度上限為 255 個字元。
+* **報表套裝**: 資料摘要所在的報表套裝。如果相同報表套裝中建立了多個資料摘要，它們必須各有不同的欄定義。只有來源報表套裝支援資料摘要，虛擬報表套裝並不受支援。
 * **完成時收到通知的電子郵件**: 要在摘要處理完畢時收到通知的電子郵件地址。電子郵件地址的格式必須正確。
-* **摘要間隔**: 每小時的摘要包含一個小時內的資料量，每日摘要包含一整天的資料；其中包含報告套裝時區的兩個午夜之間的資料。
+* **摘要間隔**: 每小時的摘要包含一個小時內的資料量，每日摘要包含一整天的資料；其中包含報表套裝時區的兩個午夜之間的資料。
 * **延遲處理**: 在處理資料摘要檔案之前，必須等候一段特定時間。延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。多數情況下延遲並不會發生。摘要最多可延遲 120 分鐘。
-* **開始和結束日期**: 開始日期指的是您想要取得資料摘要的初始日期。將此日期設為過去，系統就會立即開始處理歷史資料的資料摘要。摘要會一直處理到結束日期為止。 開始和結束日期取決於報告套裝的時區。
+* **開始和結束日期**: 開始日期指的是您想要取得資料摘要的初始日期。將此日期設為過去，系統就會立即開始處理歷史資料的資料摘要。摘要會一直處理到結束日期為止。 開始和結束日期取決於報表套裝的時區。
 * **持續摘要**: 這個核取方塊會移除結束日期，使摘要無限期進行處理。當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。一旦當前的小時或當天結束，處理程序就會在指定的延遲後開始。
 
 ## 目的地欄位
@@ -43,11 +43,11 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
 ### S3
 
-您可以直接傳送摘要至 Amazon S3 貯體。此目的地類型需有貯體名稱、存取金鑰ID和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+您可以直接傳送摘要至 Amazon S3 貯體。此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
 
 ![S3 資訊](assets/dest-s3.jpg)
 
-您為上傳資料摘要提供的使用者必須具備下列[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html):
+您提供來上傳資料摘要的使用者必須具備以下[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 
 * s3:GetObject
 * s3:PutObject
@@ -55,7 +55,7 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 
    >[!NOTE]
    >
-   >對於每個上傳至Amazon S3儲存貯體， [!DNL Analytics]會將儲存貯體擁有者新增至BucketOwnerFullControl ACL，無論該儲存貯體是否有需要的原則。 如需詳細資訊，請參閱「[Amazon S3資料饋送的BucketOwnerFullControl設定是什麼？](df-faq.md#BucketOwnerFullControl)」
+   >對於要上傳到 Amazon S3 貯體的每一項作業，[!DNL Analytics] 都會新增貯體所有者到 BucketOwnerFullControl ACL，無論該貯體是否有需要它的原則。 如需詳細資訊，請參閱「[什麼是 Amazon S3 資料摘要適用的 BucketOwnerFullControl 設定？](df-faq.md#BucketOwnerFullControl)」
 
 下列 16 個標準 AWS 區域有受到支援 (必要時會使用適當的簽章演算法)：
 
