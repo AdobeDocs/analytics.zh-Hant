@@ -6,9 +6,9 @@ feature: AI 工具
 role: Business Practitioner, Administrator
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ ht-degree: 97%
 
    * 顯示當天「**造訪**」數的視覺效果。
    * 上下文的每月「**造訪趨勢線**」。
-   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)排序)，加上相關量度，以及「不重複訪客」量度，以從規模觀點來將量度放在上下文中。
+   * 造成此異常的「**排名最前的項目**」(依據[貢獻積分](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant)排序)，加上相關量度，以及「不重複訪客」量度，以從規模觀點來將量度放在上下文中。
 
-   * 「[產生的區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
+   * 「[產生的區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
 
       ![](assets/auto_segment.png)
 
-1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵功能表運用它的多個功能，讓您的分析結果更具意義，例如：
+1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵選單運用它的多個功能，讓您的分析結果更具意義，例如：
 
    * [依據另一個維度劃分每個維度項目。](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)
    * [顯示一或多列的趨勢。](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A)
@@ -57,7 +57,7 @@ ht-degree: 97%
 >
 >我們會在「貢獻分析」及與其連結的「智慧型警報」專案內，以藍點標示出正在接受分析的異常項目。如此即可以更清楚的方式指明分析所得的異常項目。
 
-## 排出貢獻分析中的維度 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
+## 排除貢獻分析中的維度 {#section_F6932F4BF74544B5872164E7B1E0C6FC}
 
 有時候，您可能會想要從「貢獻分析」排除部分維度。例如，您可能不在意任何與瀏覽器或硬體相關的維度，因此希望藉由移除這些項目來加快分析速度。
 
