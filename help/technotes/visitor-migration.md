@@ -1,14 +1,14 @@
 ---
 description: 訪客移轉是將訪客 ID Cookie 從一個網域移轉至另一個網域的程序。
-keywords: Analytics 實施作業
+keywords: Analytics 實作
 title: 訪客移轉
 topic-fix: Developer and implementation
 uuid: af31928c-85d7-407f-a583-0c8f2852ceb3
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '441'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 91%
 
 * 從 `2o7.net` 移至 `adobedc.net`。
 
-* 您正在實施 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)，且正從 CNAME/第一方資料收集網域移至 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
+* 您正在實施 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)，且正從 CNAME/第一方資料收集網域移至 `adobedc.net`、`2o7.net` 或 `omtrdc.net`
 
 * 移至 cname/第一方資料收集 ( [第一方 Cookie)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)。
 
@@ -55,7 +55,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>緊接在更新 Analytics 程式碼後</b>：測試您的網站，驗證重新導向至先前的資料收集網域正在發生。 </p> </td> 
-   <td colname="col3"> <p>使用<a href="../implement/validate/packet-monitor.md">封包監視器</a>來確認當您首次存取網站或清除Cookie後，在200(OK)HTTP狀態碼之前會看到兩個302（重新導向）HTTP狀態碼。 如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 </p> </td> 
+   <td colname="col3"> <p>使用 <a href="../implement/validate/packet-monitor.md"> 封包監視器</a>，驗證第一次存取您的網站或是清除 Cookie 後，您會先看到兩個 302 (重新導向) HTTP 狀態碼，接著才是 200 (確定) HTTP 狀態碼。 如果任何重新導向失敗，請立即聯絡客戶服務，確認移轉是否有正確設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>在整個移轉期間</b>：保留 DNS 記錄，讓先前的主機名稱作用中。 </p> </td> 
