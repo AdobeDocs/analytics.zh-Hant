@@ -6,9 +6,9 @@ feature: 監管與共用
 role: Business Practitioner, Administrator
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace 提供許多與使用者共用專案的方式，包括取得�
 * 在面板的任一標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得面板連結」]**
 * 在任一表格或視覺效果的標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得視覺效果連結」]**
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
 
 ![](assets/get-viz-link.png)
 
@@ -37,6 +37,6 @@ Analysis Workspace 提供許多與使用者共用專案的方式，包括取得�
 
 運用各種連結選項的秘訣之一，就是一律在 Analysis Workspace 專案的頂端加入目錄。您可以透過目錄連結至其他相關專案、特定面板，以及特定的視覺效果。如此有助於專案的收件者輕鬆導覽。
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html)以了解如何使用連結和 Analysis Workspace 功能齊全的文字編輯器，輕鬆建立目錄。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/navigating-workspace-projects/create-a-toc-in-analysis-workspace.html?lang=zh-Hant)以了解如何使用連結和 Analysis Workspace 功能齊全的文字編輯器，輕鬆建立目錄。
 
 ![](assets/toc.png)
