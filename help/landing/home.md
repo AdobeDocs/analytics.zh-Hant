@@ -3,21 +3,21 @@ title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 文件
 
-歡迎使用 Adobe Analytics 產品與技術文件首頁。您可在這裡找到 [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、報表 API、[!UICONTROL Data Workbench] 以及 [!UICONTROL Activity Map] 等報表工具的自助和支援資訊。您也可以存取產品與使用者管理、實施作業方面的文件，以及 Adobe Analytics 有提供支援的所有功能。
+歡迎使用 Adobe Analytics 產品與技術文件首頁。您可在這裡找到 [!UICONTROL Analysis Workspace]、[!UICONTROL Report Builder]、報表 API、[!UICONTROL Data Workbench] 以及 [!UICONTROL Activity Map] 等報表工具的自助和支援資訊。您也可以存取產品與使用者管理、實作方面的文件，以及 Adobe Analytics 有提供支援的所有功能。
 
 [![工具](assets/analyze_50px.png)](/help/analyze/home.md) [分析工具指南](/help/analyze/home.md) – 存取 Analytics 的主要分析和視覺化工具 [Analysis Workspace](/help/analyze/analysis-workspace/home.md)。此外，還提供您能在 Adobe Analytics 中使用的所有分析工具 ([!UICONTROL Report Buidler]、報表 API、[!UICONTROL Data Workbench] 和 [!UICONTROL Activity Map])。
 
 [![管理員](assets/admin_50px.png)](/help/admin/home.md) [管理指南](/help/admin/home.md) - 了解如何在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝、調整公司設定、執行資料控管、管理伺服器呼叫使用量，以及執行流量管理等功能。
 
-[![實施作業](assets/implement_50px.png)](/help/implement/home.md) [實施作業指南](/help/implement/home.md) – 自訂要收集的資料項目，發揮 Adobe Analytics 的最大效益。包括 [!UICONTROL Adobe Experience Platform Launch] 和 JavaScript 實施作業的相關內容。
+[![實作](assets/implement_50px.png)](/help/implement/home.md) [實作指南](/help/implement/home.md) – 自訂要收集的資料項目，發揮 Adobe Analytics 的最大效益。包括 [!UICONTROL Adobe Experience Platform Launch] 和 JavaScript 實作的相關內容。
 
 [![元件](assets/components_50px.png)](/help/components/home.md) [元件指南](/help/components/home.md) – 說明有助於彙整資料的實用功能。元件包括區段、計算量度、虛擬報表套裝、警報等。本指南也包含變數參考資訊，說明可使用的所有維度和度量。
 
@@ -27,15 +27,15 @@ ht-degree: 97%
 
 [![整合](assets/integrate_50px.png)](/help/integrate/home.md) [整合指南](/help/integrate/home.md) – 完成與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 和 Target) 的整合設定。
 
-[![串流 Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) [串流 Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) – 實施作業適用於串流媒體的 Adobe Analytics。包含 Media SDK 和 Media Collection API。
+[![串流 Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant) [串流 Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant) – 實施作業適用於串流媒體的 Adobe Analytics。包含 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
 
 [![技術說明](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技術說明](/help/technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
 | 全新和精選項目 | 重要 Analytics 資源 |
 | --- | --- |
-| <ul><li>[完整實施作業審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實施作業審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[工作區效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱：[2019 年文件更新](doc-updates.md) | <ul><li> [發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li> [Adobe Analytics 教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
+| <ul><li>[完整實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li><li>[地區資料收集](/help/technotes/rdc/regional-data-collection.md)</li><li>[Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)</li><li>[Analytics 產品比較](/help/admin/c-analytics-product-comparison/analytics-product-comparison.md)</li><li>[我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)</li></ul><br> 另請參閱：[2019 年文件更新](doc-updates.md) | <ul><li> [版本注意事項](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)</li><li> [Adobe Analytics 教學課程影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hant)</li><li>[Analytics 社群論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)</li><li>[面對面訓練和虛擬課程](https://training.adobe.com/training/courses.html#solution=adobeAnalytics)</li><li>[Experience League](https://landing.adobe.com/experience-league/)</li><li>[連絡客戶服務](https://helpx.adobe.com/tw/support/analytics.html)</li></ul> |
 
 <!-- Keep around for now
 
