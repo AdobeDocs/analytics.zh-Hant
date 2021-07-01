@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: 924f591d-b6ed-4dae-aa69-72d72217e7bd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 93%
    <th colname="col1" class="entry"> API 類型 </th> 
    <th colname="col2" class="entry"> 完整處理 </th> 
    <th colname="col3" class="entry"> 即時 </th> 
-   <th colname="col4" class="entry"> Livestream </th> 
+   <th colname="col4" class="entry"> 直播串流 </th> 
    <th colname="col5" class="entry"> Data Warehouse </th> 
   </tr> 
  </thead>
@@ -39,7 +39,7 @@ ht-degree: 93%
    <td colname="col5"> 用於提取大型資料匯出的完整處理、已完成的資料。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html"  > 延遲性</a> </p> </td> 
+   <td colname="col1"> <p><a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=zh-Hant"  > 延遲性</a> </p> </td> 
    <td colname="col2"> 30-90 分鐘 </td> 
    <td colname="col3"> * 秒 -10 分鐘 </td> 
    <td colname="col4"> 秒 -10 分鐘 </td> 
@@ -53,7 +53,7 @@ ht-degree: 93%
    <td colname="col5"> 全螢幕 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html"  > 報表介面</a> </td> 
+   <td colname="col1"> <a href="https://experienceleague.adobe.com/docs/analytics/landing/home.html?lang=zh-Hant"  > 報告介面</a> </td> 
    <td colname="col2"> Analysis Workspace、Reports &amp; Analytics、Report Builder、API </td> 
    <td colname="col3"> Reports &amp; Analytics、Report Builder、1.4 API 中的即時報表 </td> 
    <td colname="col4"> 僅 API </td> 
@@ -69,23 +69,23 @@ ht-degree: 93%
   <tr> 
    <td colname="col1"> <b>訪客資料處理</b> </td> 
    <td colname="col2"> 是 </td> 
-   <td colname="col3"> 無 </td> 
-   <td colname="col4"> 無 </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 否 </td> 
    <td colname="col5"> 是 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <b>支援區段</b> </td> 
    <td colname="col2"> 是 </td> 
-   <td colname="col3"> 無 </td> 
-   <td colname="col4"> 無 </td> 
+   <td colname="col3"> 否 </td> 
+   <td colname="col4"> 否 </td> 
    <td colname="col5"> 是 (但僅限 Data Warehouse 相容區段) </td> 
   </tr> 
    <tr> 
    <td colname="col1"> <b>文件</b> </td> 
    <td colname="col2"> <p> <a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"  > Analytics API</a> </p> </td> 
    <td colname="col3"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis"  > 即時報表</a> </p> </td> 
-   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  > Livestream 概述</a> </p> </td> 
-   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html"  > Data Warehouse</a> </p> </td> 
+   <td colname="col4"> <p> <a href="https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md"  >直播串流概觀</a> </p> </td> 
+   <td colname="col5"> <p><a href="https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=zh-Hant"  > Data Warehouse</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
