@@ -3,9 +3,9 @@ title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
 source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 52%
 
 此外掛程式會執行兩項檢查：
 
-* 首先，若是案頭裝置，它會新增事件監聽器以用於滑鼠移動。
-* 接下來，會使用`navigator.UserAgent`變數判斷裝置是桌上型電腦還是行動裝置。 若是行動裝置則不列入考慮。
+* 首先，如果是桌上型電腦裝置，它會為每個滑鼠動作新增事件接聽程式。
+* 接下來，它會使用 `navigator.UserAgent` 變數來判斷該裝置是桌上型電腦還是行動裝置。 若是行動裝置則不列入考慮。
 
-如果用戶代理位於案頭上，並且未檢測到滑鼠移動，則插件可以
+如果使用者代理程式位在桌上型電腦上，而且未偵測到任何滑鼠動作，則外掛程式可以
 
-* 進行[!UICONTROL 直接呼叫]規則呼叫(適用於Adobe Experience Platform Launch)，或
-* 進行`s.tl`呼叫以指出訪客不是機器人。
+* 發出[!UICONTROL 直接呼叫]規則呼叫 (針對 Adobe Experience Platform Launch)，或是
+* 發出 `s.tl` 呼叫來指示訪客不是機器人。
 
 ## 先決條件
 
 使用此外掛程式之前，Adobe 建議先執行下列動作：
 
-* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將過期時間設定為&#x200B;**Never**&#x200B;或&#x200B;**Visit**&#x200B;並分配到&#x200B;**&quot;Original Value(First)&quot;**。 應在以下兩種情況下設定此eVar:觸發[!UICONTROL 直接呼叫]規則或`s.tl`呼叫時。
+* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將到期時間設定為「**永不過期**」或「**造訪**」，並將配置設定為「**原始值 (優先)**」。 在以下兩個情況下都應該設定此 eVar：在引發[!UICONTROL 直接呼叫]規則或 `s.tl` 呼叫時。
 * **蒐集個別變數內的代理使用者**：蒐集個別變數內的代理使用者字串，以監視此外掛程式的功效。在每次點擊時，設定一個 eVar 為 `navigator.UserAgent` 用以蒐集此資料。
 
 ## 使用 Launch 自訂程式碼編輯器安裝外掛程式
 
-1. 新增新的`websiteBot`規則。
-1. 將&#x200B;**滑鼠移動監聽器**&#x200B;事件添加到`websiteBot`規則，並使用以下自定義代碼：
+1. 新增 `websiteBot` 規則。
+1. 使用此自訂程式碼將&#x200B;**滑鼠移動接聽程式**&#x200B;事件新增到 `websiteBot` 規則中：
 
    ```
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
@@ -72,18 +72,18 @@ ht-degree: 52%
       }))
    ```
 
-1. 新增[!UICONTROL 直接呼叫]規則，此規則會以`websiteBot`作為識別碼，引發Analytics信標。 在此範例中，它使用`s.tl`呼叫：
+1. 新增[!UICONTROL 直接呼叫]規則，使用 `websiteBot` 當做識別碼引發 Analytics 指標。 在此範例中，它會使用 `s.tl` 呼叫：
 
-   ![websiteBot識別碼](assets/websitebot.png)
+   ![websiteBot 識別碼](assets/websitebot.png)
 
-1. 在[!UICONTROL 直接呼叫]規則中引發Adobe Analytics — 設定變數和Adobe Analytics — 傳送信標動作。  其中一種方法如下列範例所示：
+1. 引發 Adobe Analytics – 設定變數與 Adobe Analytics – 在[!UICONTROL 直接呼叫]規則中傳送指標動作。 以下範例顯示執行此操作的一個方式：
 
-   ![傳送信標動作](assets/websitebot2.png)
+   ![傳送指標動作](assets/websitebot2.png)
 
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -94,7 +94,7 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 ## 使用外掛程式
 
-如果偵測到非機器人流量， `websiteBot`外掛程式會觸發`s.tl`呼叫。
+如果偵測到非機器人流量，`websiteBot` 外掛程式會引發 `s.tl` 呼叫。
 
 ## 範例
 
@@ -110,10 +110,10 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 
 ### 0.1 (2021 年 1 月 19 日)
 
-* 測試版
+* Beta 版本
 
-### 0.11（2021年6月3日）
+### 0.11 (2021 年 6 月 3 日)
 
-* 更新AppMeasurement外掛程式程式碼
-* 更新Launch章節，提供擴充的指示。
-* 更新「使用外掛程式」章節。
+* 已更新 AppMeasurement 外掛程式碼
+* 已使用擴充說明更新 Launch 章節。
+* 已更新「使用外掛程式」章節。
