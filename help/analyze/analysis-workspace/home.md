@@ -5,17 +5,17 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Analysis Workspace 概述
+# Analysis Workspace 概觀
 
 Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享見解。您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。
 
-如果您只有幾分鐘的時間，請觀看此簡短概述，以了解各項功能。
+如果您只有幾分鐘的時間，請觀看此簡短概觀，以了解各項功能。
 
 >[!VIDEO](https://video.tv.adobe.com/v/26266/?quality=12)
 
@@ -33,7 +33,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 建立新專案 {#new-project}
 
-結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 儀表板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)。
+結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 儀表板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)。
 
 ![](assets/create-new-project.png)
 
@@ -45,7 +45,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ### 元件
 
-**元件**&#x200B;包括維度、量度、區段或日期範圍，您可以在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中結合這些元件，開始回應客戶對業務的相關問題。請務必熟悉各種[元件類型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，再開始建立分析。熟悉元件術語後，即可開始在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中以拖放方式[建立分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html)。
+**元件**&#x200B;包括維度、量度、區段或日期範圍，您可以在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中結合這些元件，開始回應客戶對業務的相關問題。請務必熟悉各種[元件類型](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)，再開始建立分析。熟悉元件術語後，即可開始在&#x200B;**[!UICONTROL 自由表格]**&#x200B;中以拖放方式[建立分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/t-freeform-project.html?lang=zh-Hant)。
 
 ![](assets/build-components.png)
 
@@ -63,5 +63,5 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 其他資源 {#resources}
 
-* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)。
+* Adobe 提供數百項 [Analytics 影片培訓教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html?lang=zh-Hant)。
 * 請參閱「[Analysis Workspace 新增功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)」，以取得新功能的更新資訊。
