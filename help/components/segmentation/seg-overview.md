@@ -5,9 +5,9 @@ feature: 區段
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3698'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 99%
 
 ## 操作說明影片 {#section_89D6184890AF4086A8056BFBB0B68C29}
 
-該影片簡要概述了什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html)
+此影片簡要概述什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hant)
 
 ## 關於容器 {#section_AF2A28BE92474DB386AE85743C71B2D6}
 
