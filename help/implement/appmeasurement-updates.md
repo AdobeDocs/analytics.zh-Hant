@@ -1,18 +1,18 @@
 ---
-title: JavaScript 適用的 AppMeasurement 發行說明
-description: JavaScript 適用的 AppMeasurement 累積發行說明。
+title: JavaScript 適用的 AppMeasurement 版本注意事項
+description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2132'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# JavaScript 適用的 AppMeasurement 發行說明
+# JavaScript 適用的 AppMeasurement 版本注意事項
 
-JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
+JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
@@ -234,7 +234,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 >[!NOTE]
 >
->另請參閱下列 [!DNL JavaScript] 1.6.3 版的發行說明中，對 Experience Cloud ID 服務的更新要求。
+>另請參閱下列 [!DNL JavaScript] 1.6.3 版的版本注意事項中，對 Experience Cloud ID 服務的更新要求。
 
 ## 1.6.3 版
 
@@ -308,8 +308,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2015 年 5 月 21 日**
 
-* 從 iOS SDK 4.5 版開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實施](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)。
-* 從 Android SDK 4.5 版開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)。
+* 從 iOS SDK 4.5 版開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實作](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=zh-Hant)。
+* 從 Android SDK 4.5 版開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=zh-Hant)。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版。
 
@@ -344,7 +344,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2014 年 9 月 18 日**
 
-* 新增 `tagContainerMarker` 變數，讓實施可指定最多 4 個字元附加至版本字串與其他破折號分隔字元。此功能可用於動態標籤管理。
+* 新增 `tagContainerMarker` 變數，讓實作可指定最多 4 個字元附加至版本字串與其他破折號分隔字元。此功能可用於動態標籤管理。
 
    ```js
    // JavaScript
@@ -363,7 +363,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
    >[!IMPORTANT]
    >
-   >若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實施用於 Experience Cloud。
+   >若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實作用於 Experience Cloud。
 
 ## 1.4 版
 
@@ -388,13 +388,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2014 年 5 月 22 日**
 
-* [!DNL JavaScript] `s_gi` 適用的 [!DNL AppMeasurement] 功能無法正確地找到使用 H-Code `s_gi` 所建立的例項。請注意，此問題只有影響到某些雙重標籤實施，意即 [!DNL JavaScript] 適用的 [!DNL AppMeasurement] 和 H-Code 出現在具備個別例項的相同頁面，而報表套裝也使用 `s_gi` 尋找例項。
+* [!DNL JavaScript] `s_gi` 適用的 [!DNL AppMeasurement] 功能無法正確地找到使用 H-Code `s_gi` 所建立的例項。請注意，此問題只有影響到某些雙重標籤實作，意即 [!DNL JavaScript] 適用的 [!DNL AppMeasurement] 和 H-Code 出現在具備個別例項的相同頁面，而報表套裝也使用 `s_gi` 尋找例項。
 
 ## 1.3 版
 
 發行日期：**2014 年 4 月 17 日**
 
-* 支援 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 支援 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## 1.2.4 版
 
@@ -424,8 +424,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積發行說明。
 
 發行日期：**2013 年 11 月 14 日**
 
-* 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)的支援。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## 1.1.1 版
 
