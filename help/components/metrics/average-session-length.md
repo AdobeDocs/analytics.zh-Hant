@@ -3,9 +3,9 @@ title: 平均工作階段長度 (行動)
 description: 行動裝置的平均工作階段長度。
 exl-id: e33ac9ca-f1be-4d9c-9247-c5db8fb0102e
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '81'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,4 +15,4 @@ ht-degree: 90%
 
 ## 此量度的計算方式
 
-此量度使用[行動量度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html)進行計算`'Total session length' / ('Launches' - 'First launches'`。
+此量度使用[行動量度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant)進行計算`'Total session length' / ('Launches' - 'First launches'`。
