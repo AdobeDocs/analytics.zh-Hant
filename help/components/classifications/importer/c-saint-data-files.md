@@ -5,9 +5,9 @@ title: 分類資料檔案
 feature: 管理工具
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1771'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ ht-degree: 99%
 
 促銷活動日期通常是與個別促銷活動相關的範圍 (開始日期和結束日期)。日期的顯示格式應為 YYYY/MM/DD。例如：2013/06/15-2013/06/30。
 
-有關詳細資訊，請參閱「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
+有關詳細資訊，請參閱「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hant)」。
 
 >[!NOTE]
 >
@@ -202,5 +202,5 @@ ht-degree: 99%
 
 ## 分類的疑難排解
 
-* [常見的 上傳問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：說明因錯誤的檔案格式和檔案內容所引起問題的知識庫文章。
+* [常見的 上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)：說明因錯誤的檔案格式和檔案內容所引起問題的知識庫文章。
 
