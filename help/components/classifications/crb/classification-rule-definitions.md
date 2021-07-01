@@ -6,9 +6,9 @@ feature: 管理工具
 uuid: 77af8669-6e11-435c-9cc3-b03eb627c855
 exl-id: 514501d1-7e1b-45da-b8fe-c68331e59dab
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '876'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>選取報告套裝和變數 </p> </td> 
-   <td colname="col2"> <p><b>報告套裝</b> </p> <p>要套用規則集的報告套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報告套裝。 </p> <p>注意：您只能在報告套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報告套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html"  >流量分類</a>」和「<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html"  >轉換分類</a>」。 </p> </td> 
+   <td colname="col1"> <p>選取報表套裝和變數 </p> </td> 
+   <td colname="col2"> <p><b>報表套裝</b> </p> <p>要套用規則集的報表套裝。 </p> <p><b>變數</b> </p> <p>建立分類規則集時，只能套用一個變數。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。 </p> <p>注意：您只能在報表套裝中使用您有權存取的變數。必須先為變數定義至少一個分類，變數才會顯示在<span class="wintitle">「新的規則集」</span>面板中。 </p> <p> 您可以在<span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">流量</span> &gt; <span class="uicontrol">流量分類」</span>(或<span class="uicontrol">「轉換</span> &gt; <span class="uicontrol">轉換分類」</span>) 中建立變數的分類。然後選取變數，再按一下<span class="uicontrol">「新增分類」</span>。 </p> <p>請參閱「管理說明」裡的「<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/traffic-variables/traffic-classifications.html?lang=zh-Hant"  >流量分類</a>」和「<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hant"  >轉換分類</a>」。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><span class="wintitle"> 啟動</span> </p> </td> 
@@ -45,8 +45,8 @@ ht-degree: 98%
    <td colname="col2"> <p>停用規則，讓您能夠編輯和測試規則。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>設定報告套裝和變數 </p> </td> 
-   <td colname="col2"> <p>顯示<span class="wintitle">「可用報告套裝」</span>頁面，您可在其中選取要用於所有規則集的一或多個可用報告套裝。(當您首次執行<span class="wintitle">「分類規則產生器」</span>時，也會顯示此頁面)。 </p> <p>此功能的用意是在您有數百個可用報告套裝時，降低報告套裝的載入時間。 </p> <p>建立規則時若按一下<span class="uicontrol">「新增套裝」</span>，您在此選取的報告套裝就可在規則層級使用。 </p> <p>注意：<span class="term">只有</span>當已在<span class="wintitle">管理工具</span>中為該變數定義至少一個分類時，報告套裝才可供使用。 <p>(請參閱<a href="/help/components/classifications/crb/classification-rule-set.md"  >分類規則集</a>中的<span class="term">變數</span>，取得此先決條件的說明。) </p> </p> </td> 
+   <td colname="col1"> <p>設定報表套裝和變數 </p> </td> 
+   <td colname="col2"> <p>顯示<span class="wintitle">「可用報表套裝」</span>頁面，您可在其中選取要用於所有規則集的一或多個可用報表套裝。(當您首次執行<span class="wintitle">「分類規則產生器」</span>時，也會顯示此頁面)。 </p> <p>此功能的用意是在您有數百個可用報表套裝時，降低報表套裝的載入時間。 </p> <p>建立規則時若按一下<span class="uicontrol">「新增套裝」</span>，您在此選取的報表套裝就可在規則層級使用。 </p> <p>注意：<span class="term">只有</span>當已在<span class="wintitle">管理工具</span>中為該變數定義至少一個分類時，報表套裝才可供使用。 <p>(請參閱<a href="/help/components/classifications/crb/classification-rule-set.md"  >分類規則集</a>中的<span class="term">變數</span>，取得此先決條件的說明。) </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>規則會覆寫任何現有的值 </p> </td> 
@@ -70,7 +70,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 複製</span> </td> 
-   <td colname="col2"> 複製 (拷貝) 規則集，以便將規則集套用到其他變數，或套用到不同報告套裝裡的同一個變數。 </td> 
+   <td colname="col2"> 複製 (拷貝) 規則集，以便將規則集套用到其他變數，或套用到不同報表套裝裡的同一個變數。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/components/classifications/crb/classification-quickstart-rules.md"  > 測試規則集 </a> </p> </td> 
