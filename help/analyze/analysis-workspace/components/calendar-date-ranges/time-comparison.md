@@ -6,9 +6,9 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
 source-git-commit: baea0f33276b07a93144d2225935013ab7007005
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 ## 比較時段 {#section_C4E36BFE0F5C4378A74E705747C9DEE4}
 
 >[!NOTE]
->[!UICONTROL 比較時段]採用進階計算量度。 因此，它僅適用於具有Analytics Select、Prime和Ultimate SKU的客戶。
+>[!UICONTROL 比較時段]會利用進階計算量度。 因此，它僅適用於擁有 Analytics Select、Prime 和 Ultimate SKU 的客戶。
 
 分析需要內容，而通常這個內容是由先前的時段提供。例如，「我們的表現比去年的這個時候好/壞多少？」是您的公司要了解的基本問題。「日期比較」會自動加入「差異」欄，在當中顯示與特定時段相較之下的百分比變化。
 
@@ -50,11 +50,11 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
    「變化百分比」欄中的列呈紅色表示負值，綠色表示正值。
 
-1. (選用) 如同任何其他工作區專案，您可以根據這些時間比較建立視覺效果。例如，這張長條圖：
+1. (選用) 如同任何其他 Workspace 專案，您可以根據這些時間比較建立視覺效果。例如，這張長條圖：
 
    ![](assets/compare-time-barchart.png)
 
-   請注意，為了在長條圖中顯示變化百分比，您必須選取「[!UICONTROL 視覺效果設定]」中的「[!UICONTROL 百分比]」設定。
+   請注意，為了在橫條圖中顯示變化百分比，您必須選取「[!UICONTROL 視覺效果設定]」中的「[!UICONTROL 百分比]」設定。
 
 ## 新增時段欄以進行比較 {#section_93CC2B4F48504125BEC104046A32EB93}
 
