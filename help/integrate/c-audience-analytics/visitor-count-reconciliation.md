@@ -4,9 +4,9 @@ title: 訪客計數差異
 uuid: c3bbb887-bd02-4c1c-9a2b-64811c0ef56a
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '288'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 94%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：總區段人口數</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > AAM：總區段人口數</a> </p> </td> 
    <td colname="col3"> <p>回顧期間，屬於區段成員的裝置計數 (Experience Cloud ID)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html"  > AAM：即時區段人口數</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > AAM：即時區段人口數</a> </p> </td> 
    <td colname="col3"> <p>回顧期間，屬於區段成員且達到所設屬性的裝置計數 (Experience Cloud ID)。 </p> </td> 
   </tr> 
   <tr> 
@@ -61,12 +61,12 @@ Audience Analytics 報表中的 AAM「即時區段人口數」和 Analytics 的�
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂篩選器 </p> </td> 
-   <td colname="col2"> <p>無 </p> </td> 
+   <td colname="col2"> <p>否 </p> </td> 
    <td colname="col3"> <p>有，例如 IP 篩選器、機器人篩選器 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>150 個區段上限 </p> </td> 
-   <td colname="col2"> <p>無 </p> </td> 
+   <td colname="col2"> <p>否 </p> </td> 
    <td colname="col3"> <p>有，150 個區段整合上限可能會影響 Analytics 計數最高達 5%。若發生截斷情況，「對象名稱」維度中會顯示「已達對象上限」。 </p> </td> 
   </tr> 
  </tbody> 
