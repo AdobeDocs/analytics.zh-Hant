@@ -4,9 +4,9 @@ title: 了解 Analytics 和 Audience Manager 中的區段
 uuid: 13f7d1d7-6a3f-42f1-822e-8d3523999efa
 exl-id: 2bc662e7-7552-41e1-9d4a-bc7aa81b8c1d
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Audience Manager 的區段成員資格並非固定。使用者可以根據當前
 
 Audience Manager 區段在 Analytics 被表示為對象。
 
-如需詳細資訊，請參閱[區段產生器中的特徵和區段人口資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html)以及[訊號、特徵及區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html)。
+如需詳細資訊，請參閱[區段產生器中的特徵和區段人口資料](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant)以及[訊號、特徵及區段](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/signal-trait-segment.html?lang=zh-Hant)。
 
 ## Analytics 區段 {#section_62EC584BB7134E10923BCBA7F9BD89A8}
 
@@ -44,4 +44,4 @@ Analytics 區段是報表中的資料篩選機制。您可以在訪客、造訪�
 
    相反地，Analytics 會根據報表日期範圍，將訪客納入區段中或排除在外。例如，某位訪客在上個月購買過一次。在 AAM 中，無論日期範圍如何，該訪客都會包含在「購買者」區段中。而在 Analytics 中，此月份報表的區段中不會包含該訪客。但是，根據本月和上月的報表會將該訪客包含在區段中。
 
-請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)，了解更多資訊。
+請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)，了解更多資訊。
