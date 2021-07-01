@@ -5,7 +5,7 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ## 視覺效果
 
-* 運用[!UICONTROL 「流失」]、[!UICONTROL 「流量」]、[!UICONTROL 「同類群組」]、[!UICONTROL 「色階分佈圖」]等區段的視覺效果，無法將計算量度設為輸入項目。
+* 運用[!UICONTROL 「流失」]、[!UICONTROL 「流量」]、[!UICONTROL 「同類群組」]、[!UICONTROL 「長條圖」]等區段的視覺效果，無法將計算量度設為輸入項目。
 * [!UICONTROL 流量]：「登入/退出」維度 (例如[!UICONTROL 「登入頁面」]) 無法用於「流量」。
 * [!UICONTROL 同類群組]：非整數無法當作同類群組條件使用。
 
@@ -42,13 +42,13 @@ ht-degree: 100%
 
 * 計算量度無法使用於特定視覺效果中。請參閱上方的「視覺效果」。
 * 計算量度無法用於[!UICONTROL 「歸因」]面板，因為計算量度本身就可包含個別的歸因模型。
-* 如果從工作區中建立計算量度，而非經由[!UICONTROL 「元件 > 區段」]建立，則某些元件和運算子將無法使用，例如 [!UICONTROL IP 位址]。
+* 如果從 Workspace 中建立計算量度，而非經由[!UICONTROL 「元件 > 區段」]建立，則某些元件和運算子將無法使用，例如 [!UICONTROL IP 位址]。
 
 ## 元件 > 日期範圍
 
 * 自訂日期範圍不支援[!UICONTROL 「去年的今天」]、[!UICONTROL 「上個月的今天」]等。
 
-## 元件 > 虛擬報告套裝
+## 元件 > 虛擬報表套裝
 
 * 啟用報表時間處理功能時，系統不支援某些元件。如需完整清單，請參閱[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)。
 
@@ -58,4 +58,4 @@ ht-degree: 100%
 
 ## 歸因 IQ
 
-* 有一組量度子集不受[!UICONTROL 歸因 IQ] 支援。如需完整清單，請參閱[歸因 IQ 常見問題集](../attribution/faq.md)。
+* 有一組量度子集不受[!UICONTROL 歸因 IQ] 支援。如需完整清單，請參閱[歸因 IQ 常見問答](../attribution/faq.md)。
