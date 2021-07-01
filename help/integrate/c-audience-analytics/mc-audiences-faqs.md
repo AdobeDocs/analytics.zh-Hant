@@ -1,21 +1,21 @@
 ---
 description: 回答實施作業 Audience Analytics 時可能遇到的問題。
 solution: Experience Cloud
-title: 常見問題集
+title: 常見問答
 uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1094'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# 常見問題集
+# 常見問答
 
 回答實施作業 Audience Analytics 時可能遇到的問題。
 
-## 法律常見問題 {#section_B51CFC961C0B45A2BE5F4A4404620764}
+## 法律常見問答 {#section_B51CFC961C0B45A2BE5F4A4404620764}
 
 <table id="table_22037CCB516C4231BF5820004FBB351A"> 
  <tbody> 
@@ -24,7 +24,7 @@ ht-degree: 98%
    <td colname="col2"> 
     <ul id="ul_71E0ECD5981D4B65BCDA065BE07A43AA"> 
      <li id="li_F8FF61A4D7B54BA39DAA6F28DB51D749">如果您的 prop 或 eVar 中有電子郵件/地址等資訊，請考慮在收集時將這些資訊進行雜湊處理。 </li> 
-     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html"  >開啟 IP 模糊化</a>功能。 </li> 
+     <li id="li_57A8B4C7BB784FFCBC1DC363B35D9FF7">如果您的國家/地區認為 IP 位址是 PII，請<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=zh-Hant"  >開啟 IP 模糊化</a>功能。 </li> 
      <li id="li_C7AA02B831AE47A59E783623126A7789">請與您的 Analytics 管理員討論，了解您正在收集哪些資訊。 </li> 
      <li id="li_F6AAE868141E486AB8CAB291BD8EDB71">與您的法律部門討論，了解他們認為哪些資訊屬於 PII。 </li> 
     </ul> </td> 
@@ -41,13 +41,13 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-## AAM 專屬常見問題 {#section_6BDF746BA6464359A6A89A64EB025D12}
+## AAM 專屬常見問答 {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問：如何在 Audience Manager 中建立 Analytics 目的地？</b> </p> </td> 
-   <td colname="col2"> 請參閱<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
+   <td colname="col2"> 請參閱<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=zh-Hant"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：建立並儲存 Analytics 目的地後，需要多久才會在我選取的表套裝中顯示資料？</b> </p> </td> 
@@ -76,7 +76,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-## Analytics 專屬常見問題 {#section_67BFB1B1E48D4113A38B075C020931BA}
+## Analytics 專屬常見問答 {#section_67BFB1B1E48D4113A38B075C020931BA}
 
 <table id="table_19AEAE0A3575423CB4F5F164DB5626D5"> 
  <tbody> 
@@ -110,12 +110,12 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為了進行整合，Analytics 是否需要為額外的伺服器呼叫付費？</b> </p> </td> 
-   <td colname="col2"> <p>不可以。AAM Audiences 已納入 Analytics 點擊伺服器端。這不會導致 Analytics (主要或次要) 的額外伺服器呼叫。 </p> </td> 
+   <td colname="col2"> <p>否。 AAM Audiences 已納入 Analytics 點擊伺服器端。這不會導致 Analytics (主要或次要) 的額外伺服器呼叫。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 伺服器端轉送 (SSF) 常見問題 {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
+## 伺服器端轉送 (SSF) 常見問答 {#section_ADDE84ABCA0D4906B6235E92D185E0C6}
 
 <table id="table_B7067B70FF85498896801F58D716202F"> 
  <tbody> 
@@ -130,9 +130,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-如需更多此主題的常見問答集，請參閱[伺服器端轉送常見問答集](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)。
+如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)。
 
-## 一般常見問題 {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
+## 一般常見問答 {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 
 <table id="table_1F7C0C785F9C472286A96F8C25E8440B"> 
  <tbody> 
