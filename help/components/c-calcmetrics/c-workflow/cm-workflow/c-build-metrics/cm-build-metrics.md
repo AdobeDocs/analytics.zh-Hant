@@ -4,9 +4,9 @@ title: 建立量度
 uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 99%
       <li id="li_A8815F2D8D284874AD701A7B103D82A3">以<b>團隊名稱</b>為基礎的標記，例如「社交行銷」、「手機行銷」。 </li> 
       <li id="li_A51A4515A541488E9D90296A955E9F4F"><b>專案</b>標記 (分析標記)，例如「登入頁面分析」。 </li> 
       <li id="li_B4605470A7094026AC168420B64BBCC3"><b>類別</b>標記：「男性」、地理區。 </li> 
-      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>工作流程</b>標記：「待核准」、策劃 (特定的業務單位) </li> 
+      <li id="li_B6EAB0F2A96C41209C4EC97B9E64390B"><b>工作流程</b>標記：「待核准」、監管 (特定的業務單位) </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -130,7 +130,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col2"> <p>區段清單 </p> </td> 
-   <td colname="col3"> <p>(僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有區段。如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> </p> </td> 
+   <td colname="col3"> <p>(僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有區段。如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=zh-Hant"  > 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函數清單 </p> </td> 
