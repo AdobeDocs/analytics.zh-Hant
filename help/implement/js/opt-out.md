@@ -3,7 +3,7 @@ title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '586'
 ht-degree: 100%
 
@@ -13,9 +13,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概述](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。
+>Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概觀](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。
 
-網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實施類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
+網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實作類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
 
 當訪客到達選擇退出 URL 時，系統會提示他們安裝選擇退出 Cookie。如果使用者選擇不進行追蹤且設定選擇退出 Cookie，您的 JavaScript 檔案會繼續將資料傳送至 Adobe 伺服器。不過這些資料不會經過處理，也不會納入報表。
 
@@ -25,23 +25,23 @@ ht-degree: 100%
 
 ## 退出 URL
 
-貴組織的退出頁面取決於實施中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 變數值。
+貴組織的退出頁面取決於實作中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 變數值。
 
 * 在 Adobe Experience Platform Launch 中：
    1. 登入 [launch.adobe.com](https://launch.adobe.com)，然後按一下所需的屬性。
    2. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
    3. 按一下[!UICONTROL 「一般」]設定追蹤器，接著記下[!UICONTROL 「追蹤伺服器」]值。
 
-* 在 JavaScript 實施中：
+* 在 JavaScript 實作中：
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
    2. 記下 `trackingServer` 變數值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
    2. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標籤。
    3. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
 
-找出實施的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
+找出實作的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
 
 * 協力廠商 Cookie：`https://example.data.adobedc.net/optout.html`
 * 第一方 Cookie：`https://stats.example.com/optout.html`
