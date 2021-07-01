@@ -5,9 +5,9 @@ feature: Workspace 基本知識
 role: Business Practitioner, Administrator
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '657'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -23,20 +23,20 @@ ht-degree: 82%
 
 [!UICONTROL Analysis Workspace] 中的導覽可由上至下、由左至右運作。以下是可輔助協助工具的導覽元素：
 
-* `Tab` 鍵可讓您找出快速鍵，可在工作區中的較大區段之間移動。 在左側邊欄中，`Tab`也可讓您從一個可拖曳選項移至下一個。
-* `Tab`強調顯示後， `left/right arrows`會在個別元素之間移動。
-* `F6`會導覽至專案中的第一個面板，並在該面板內的視覺效果之間移動。 接著，它會移至專案中的下一個面板並重複。
+* `Tab` 鍵可讓您找出快速鍵，在 Workspace 內的較大區段之間移動。 在左側欄中，`Tab` 也可讓您在不同的可拖曳選項之間移動。
+* 在 `Tab` 標示 `left/right arrows` 之後，它就會在個別元素之間移動。
+* `F6` 會瀏覽至專案中的第一個面板，並在該面板內的視覺化效果之間移動。 然後它會移到專案中的下一個面板，然後重複此程序。
 * 我們套用了焦點指標，讓視力不佳的鍵盤使用者能夠清楚看出目前取得焦點的 UI 元素。此指標是選定元素周圍的藍色邊框。
 
    ![焦點指標](assets/focus-indicator.png)
 
-### 菜單欄的鍵盤導航
+### 功能表列的鍵盤導覽
 
-1. 頁簽，直到到達菜單欄。
-1. 使用左/右方向鍵導覽至您想要的功能表。
-1. 按下`Enter`以選取功能表並顯示其選項。
-1. 使用向上/向下方向鍵導覽至您想要的功能表選項。
-1. 按下`Enter`以選取選項。
+1. 按 Tab 鍵，直到抵達功能表列為止。
+1. 使用左/右方向鍵，瀏覽至您想要的功能表。
+1. 按 `Enter` 可選取功能表並顯示其選項。
+1. 使用上/下方向鍵，瀏覽至您想要的功能表選項。
+1. 按 `Enter` 可選取選項。
 
 ### 拖放互動的鍵盤導覽
 
@@ -58,7 +58,7 @@ ht-degree: 82%
 | Alt + Shift + 1 / 2 / 3 | 跳至不同的側邊欄：[!UICONTROL 面板]、[!UICONTROL 視覺效果]或[!UICONTROL 元件] |
 | Alt + 向左鍵/向右鍵 | 在面板之間導覽 |
 | Alt + M | 摺疊/展開所有面板 |
-| Alt+  Ctrl + M | 摺疊/展開作用中的面板 |
+| Alt+ Ctrl + M | 摺疊/展開作用中的面板 |
 | Ctrl + / | 搜尋左側邊欄 |
 
 #### 分析建立
@@ -77,7 +77,7 @@ ht-degree: 82%
 | 快速鍵 | 動作 |
 |---|---|
 | Ctrl + S | 儲存 |
-| Ctrl + Shift + G | 組織 |
+| Ctrl + Shift + G | 監管 |
 | Ctrl + G | 共用 |
 | Alt + Shift + S | 排程 |
 | Alt + L | 取得專案的連結 |
