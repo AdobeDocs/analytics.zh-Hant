@@ -6,7 +6,7 @@ exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
 workflow-type: tm+mt
 source-wordcount: '888'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->[歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) IQ修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
+>[歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html?lang=zh-Hant) IQ修訂計算量度中配置模型的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
 >* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
->* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。對計算量度的這一變更將反映在 Analysis Workspace、Reports＆Analytics、Reporting API 和 Report Builder 中。如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
+>* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。對計算量度的這一變更將反映在 Analysis Workspace、Reports &amp; Analytics、Reporting API 和 Report Builder 中。如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
 
 >
 
@@ -52,12 +52,12 @@ ht-degree: 95%
 
 在本範例中，A、B和 C 值在點擊 1、3、4 和 6 時傳入，然後在點擊 7 時進行 $10 的購物。在第二列中，這些值會持續存在於上次接觸瀏覽的所有點擊間。第三列說明首次接觸瀏覽持續性最後，最後一列說明如何針對不具持續性的 PROP 記錄資料。
 
-## 線性配置在 Reports &amp; Analytics 與工作區中的運作方式差異
+## 線性配置在 Reports &amp; Analytics 與 Workspace 中的運作方式差異
 
 線性歸因在這兩種工具中的運作方式有一些差異：
 
-* 在 Reports &amp; Analytics 中，(已處理的) 線性歸因一律以造訪為基礎，而在「工作區」中，線性歸因可以造訪或訪客為基礎。
-* 在 Reports &amp; Analytics 中，如果造訪的首次點擊未傳遞任何值，則會保存上次造訪的 (初始) 值。在工作區 (Attribution IQ) 中則非如此。如果造訪的首次點擊未傳遞任何值，則初始值將是「無」。
+* 在 Reports &amp; Analytics 中，(已處理的) 線性歸因一律以造訪為基礎，而在 Workspace 中，線性歸因可以造訪或訪客為基礎。
+* 在 Reports &amp; Analytics 中，如果造訪的首次點擊未傳遞任何值，則會保存上次造訪的 (初始) 值。在 Workspace (Attribution IQ) 中則非如此。如果造訪的首次點擊未傳遞任何值，則初始值將是「無」。
 
 ## 2018 年 7 月前的線性配置運作方式
 
