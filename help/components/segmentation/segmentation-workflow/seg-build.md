@@ -5,9 +5,9 @@ feature: 區段
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 * **Analytics 頂端導覽**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段」]**。
 * **[!UICONTROL Analysis Workspace]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL Workspace」]**，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立區段」]**。
 * **[!UICONTROL Reports &amp; Analytics]**：按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟現有報表並按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
-* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html)。
+* **[!UICONTROL Report Builder]**：[在 Report Builder 中新增或編輯區段](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/data-requests/segmentation.html?lang=zh-Hant)。
 
 ## 產生器條件 {#section_F61C4268A5974C788629399ADE1E6E7C}
 
@@ -62,12 +62,12 @@ ht-degree: 99%
 1. **[!UICONTROL 值]**：您針對維度、區段或量度所輸入或選取的值。
 1. **[!UICONTROL X]**：(刪除) 可用來刪除這個部分的區段定義。
 1. **[!UICONTROL Experience Cloud 發佈]**：將 Adobe Analytics 區段發佈至 Experience Cloud，可讓您在 [!DNL Audience Manager] 和其他啟用管道中，使用該區段進行行銷活動。[更多詳情...](/help/components/segmentation/segmentation-workflow/seg-publish.md)
-1. **[!UICONTROL 受眾庫]**：Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)
+1. **[!UICONTROL 受眾庫]**：Adobe 的受眾服務可管理將訪客資料轉譯為受眾細分的過程。因此，建立和管理受眾類似於建立和使用區隔，再加上可與 Experience Cloud 共用受眾區隔的能力。[更多詳情...](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)
 1. **[!UICONTROL 搜尋]**：搜尋維度、區段或量度清單。
 1. **[!UICONTROL 維度]**：(清單) 按一下標題可展開。
 1. **[!UICONTROL 量度]**：按一下標題可展開。
 1. **[!UICONTROL 區段]**：按一下標題可展開。
-1. **[!UICONTROL 報告套裝選取器]**：可讓您選取要將此區段儲存哪個報告套裝底下。您仍可以使用所有報告套裝中的區段。
+1. **[!UICONTROL 報表套裝選取器]**：可讓您選取要將此區段儲存哪個報表套裝底下。您仍可以使用所有報表套裝中的區段。
 1. **[!UICONTROL 區段預覽]**：可讓您預覽關鍵量度，以查看您是否具備有效的區段及區段的廣度。代表如果您套用此區段，可以預期看到的資料集劃分。顯示 3 個同心圓以及一個清單，以顯示對資料集執行之區段的[!UICONTROL 點擊]、[!UICONTROL 瀏覽]和[!UICONTROL 訪客]符合項目的數目和百分比。在您建立或對區段定義進行變更之後，此圖表會立即更新。
 1. **[!UICONTROL 產品相容性]**：提供與您所建立區段相容的 Adobe Analytics 產品 (Analysis Workspace、[!UICONTROL Reports &amp; Analytics]、Data Warehouse) 清單。大多數區段與所有產品都相容。不過，並非所有運算子和維度均與所有 Analytics 產品相容，特別是 [Data Warehouse](/help/components/segmentation/seg-reference/seg-compatibility.md)。在您對區段定義進行變更之後，此圖表會立即更新。
 1. **[!UICONTROL 儲存]**&#x200B;或&#x200B;**[!UICONTROL 取消]**：儲存或取消區段。按一下&#x200B;**[!UICONTROL 「儲存」]**&#x200B;之後會進入「區段管理器」，您可在此管理區段。
@@ -80,9 +80,9 @@ ht-degree: 99%
 
    ![](assets/drag_n_drop_dimension.png)
 
-   將元素拖曳到「[!UICONTROL 定義]」之後，預設的最上層「[!UICONTROL 點擊]」容器隨即顯示。您可以透過「**[!UICONTROL 顯示]**」下拉式功能表，將容器類型變更為「瀏覽」或「訪客」。
+   將元素拖曳到「[!UICONTROL 定義]」之後，預設的最上層「[!UICONTROL 點擊]」容器隨即顯示。您可以透過「**[!UICONTROL 顯示]**」下拉式選單，將容器類型變更為「瀏覽」或「訪客」。
 
-1. 從下拉式功能表中設定[運算子](/help/components/segmentation/seg-reference/seg-operators.md)。
+1. 從下拉式選單中設定[運算子](/help/components/segmentation/seg-reference/seg-operators.md)。
 1. 針對選取的項目輸入或選取值。
 1. 必要時使用 **[!UICONTROL And]**、**[!UICONTROL Or]** 或 **[!UICONTROL Then]** 規則新增額外的限制。
 1. 放置好容器且設定規則後，請在右上方的驗證圖表中查看區段的結果。驗證器會指出與您所建立區段相符之頁面檢視、造訪次數和獨特訪客的百分比與絕對數量。
@@ -123,7 +123,7 @@ ht-degree: 99%
 
 ## 堆疊區段 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
-堆疊區段的運作方式是使用 &#39;and&#39; 運算子結合每個區段中的準則，然後套用結合後的準則。您可以直接在工作區專案中或在區段產生器中完成此作業。
+堆疊區段的運作方式是使用 &#39;and&#39; 運算子結合每個區段中的準則，然後套用結合後的準則。您可以直接在 Workspace 專案中或在區段產生器中完成此作業。
 
 例如，將「行動電話使用者」區段和「美國地區」區段堆疊在一起，只會傳回美國地區行動電話使用者的資料。
 
@@ -140,7 +140,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->將兩個區段堆疊在一起時，預設會使用 AND 陳述式加以連結。無法變更為 OR 陳述式。
+>將兩個區段堆疊在一起時，預設會使用 AND 陳述式加以連結。無法將其變更為 OR 陳述式。
 
 1. 前往「區段產生器」。
 1. 提供區段的標題和說明。
@@ -157,7 +157,7 @@ ht-degree: 99%
 
 ## 區段範本 {#concept_5098446CC78D441E93B8E4D1D1EA6558}
 
-區段範本是針對常見的細分使用案例而提供的，例如「首次造訪」或「來自行動裝置的造訪」。這些範本可在工作區專案中和區段產生器中作為新區段的組成要素。
+區段範本是針對常見的細分使用案例而提供的，例如「首次造訪」或「來自行動裝置的造訪」。這些範本可在 Workspace 專案中和區段產生器中作為新區段的組成要素。
 
 範本會以 Adobe 的「A」標誌表示。以下列出範本的範例：
 
@@ -203,7 +203,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>然後 </p> <p> 購物車新增等於 0。 </p> </td> 
+   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
