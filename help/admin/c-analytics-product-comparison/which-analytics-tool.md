@@ -4,9 +4,9 @@ title: 我該使用哪種 Adobe Analytics 工具呢？
 uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1158'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
 * 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
 * 用於利用排程報告中的「發佈清單」。
 
-該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** 的情況：
+該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant)** 的情況：
 
 * 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
 * 用於從 CRM 到 POS 到 Web，建立線上和離線互動的多頻道資料集。
@@ -70,7 +70,7 @@ ht-degree: 98%
 
 * 「資料插入 API」和「大量資料插入 API」都是將伺服器端的蒐集資料送至 Adobe Analytics 的方法。每發生一個事件時，「資料插入 API」都會被呼叫。「大量資料插入 API」接受含有事件資料的 CSV 格式檔案 (其中每一行儲存一個事件)。 若您正在實施新的伺服器端蒐集作業，建議採用「大量資料插入 API」。
 
-**[「客戶屬性」](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**&#x200B;使用時機：
+**[「客戶屬性」](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)**&#x200B;使用時機：
 
 * 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，並且想要將該資料上傳至 Experience Cloud 時。
 * 如果您想要使用 CRM 資料在 Analytics 中進行較為深入的分析時，或是將 CRM 資料作為 Adobe Target 中的目標準則時。
@@ -84,7 +84,7 @@ ht-degree: 98%
 
 **[Report Builder](/help/analyze/report-builder/home.md)** 使用時機：
 
-* 若自訂的工作區佈局選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
+* 若自訂的 Workspace 配置選項受限時 (在「Report Builder」中，可進行任何操作，只要沒有超過 Excel 的限制即可)。
 * 用於將使用者輸入或離線資料來源，鬆散地與 Adobe 資料聯繫起來。希望有更加永久的解決方案，能將資料與資料來源聯繫起來時 (請參閱〈將資料匯入 Adobe Analytics 中〉)。
 * 用於合併來自不同維度報表的資料 (例如，將促銷印象報表與促銷一鍵轉換報表合併).
 * 若要合併不同報表套裝的資料，可在同一表格中併排匯總或顯示。
