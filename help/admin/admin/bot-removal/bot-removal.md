@@ -5,7 +5,7 @@ exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
 workflow-type: tm+mt
 source-wordcount: '788'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 ## 使用機器人規則
 
-前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 機器人規則」]**，即可設定標準與自訂的機器人篩選方式：
+前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 機器人規則」]**，即可設定標準與自訂的機器人篩選方式：
 
 | 規則類型 | 說明 |
 |--- |--- |
@@ -37,7 +37,7 @@ ht-degree: 98%
 
 ## 使用 Adobe 工具組合
 
-此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID 服務、分段、Data Warehouse、客戶屬性和虛擬報告套裝。 以下為工具運用方式概觀。
+此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID 服務、分段、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式概觀。
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
@@ -53,7 +53,7 @@ ht-degree: 98%
 
 ### 步驟 2：使用分段來識別機器人
 
-您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助工作區下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報告套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
+您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=zh-Hant)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助 Workspace 下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
 
 ![](assets/bot-filter-seg1.png)
 
@@ -72,7 +72,7 @@ ht-degree: 98%
 * **ECID**：此欄的標題務須符合您為上述新宣告 ID 所設的名稱。
 * **機器人標幟**：新增「機器人標幟」為「客戶屬性」結構維度。
 
-將這份 .CSV 檔案匯入為「客戶屬性」，然後依照這篇[部落格文章](https://theblog.adobe.com/link-digital-behavior-customers)所述，使報告套裝訂閱「客戶屬性」。
+將這份 .CSV 檔案匯入為「客戶屬性」，然後依照這篇[部落格文章](https://theblog.adobe.com/link-digital-behavior-customers)所述，使報表套裝訂閱「客戶屬性」。
 
 ![](assets/bot-csv-4.png)
 
@@ -82,13 +82,13 @@ ht-degree: 98%
 
 ![](assets/bot-filter-seg2.png)
 
-### 步驟 6：將此區段設為虛擬報告套裝篩選條件
+### 步驟 6：將此區段設為虛擬報表套裝篩選條件
 
-最後，建立[虛擬報告套裝](/help/components/vrs/vrs-about.md)，並使用此區段來篩選掉已識別的機器人：
+最後，建立[虛擬報表套裝](/help/components/vrs/vrs-about.md)，並使用此區段來篩選掉已識別的機器人：
 
 ![](assets/bot-vrs.png)
 
-這個新分段的虛擬報告套裝所產生的資料集已完全移除已識別的機器人，會乾淨不少。
+這個新分段的虛擬報表套裝所產生的資料集已完全移除已識別的機器人，會乾淨不少。
 
 ### 步驟 7：定期重複步驟 2、3 和 4
 
