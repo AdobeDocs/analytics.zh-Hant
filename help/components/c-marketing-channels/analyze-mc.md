@@ -3,7 +3,7 @@ title: 分析行銷管道
 description: 了解如何在 Workspace 中使用行銷管道維度。
 exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
 ht-degree: 100%
 
