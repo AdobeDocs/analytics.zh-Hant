@@ -6,7 +6,7 @@ feature: 自由表格
 role: Business Practitioner, Administrator
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
 source-git-commit: 2b5c7702d31d451ca4d42dc256c338567b17b8de
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
 ht-degree: 100%
 
