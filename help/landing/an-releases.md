@@ -3,7 +3,7 @@ description: 說明 Adobe Analytics 的全新持續功能發行策略
 title: Adobe Analytics 功能發行
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
