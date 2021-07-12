@@ -3,15 +3,14 @@ description: 離線模式會傳回預留位置資料，以加速建立及編輯�
 title: 以離線模式建立及編輯請求
 uuid: 4eb1f754-b6da-4896-a64f-b737563925b8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: f18859e3-19e4-48af-963f-0bb4d1b46380
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 98%
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
-
 
 # 以離線模式建立及編輯請求
 
@@ -36,4 +35,3 @@ ht-degree: 98%
    >[!IMPORTANT]
    >
    >以真實資料執行請求前，請務必確認您已停用「離線模式」。若要停用「離線模式」，只要返回&#x200B;**[!UICONTROL 「選項」]**&#x200B;清除勾選記號即可。
-
