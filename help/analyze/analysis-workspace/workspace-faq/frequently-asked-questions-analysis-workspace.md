@@ -3,16 +3,15 @@ description: Analysis Workspace 的系統需求。
 keywords: Analysis Workspace
 title: 管理需求
 uuid: 6c8bfeaa-0cf8-435d-a4d1-67e2cb55da4c
-feature: Workspace Basics
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Workspace 基本知識
+role: User, Admin
+exl-id: 89737128-8a99-4f63-8409-9b97af723bce
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '147'
 ht-degree: 100%
 
 ---
-
 
 # 管理需求
 
