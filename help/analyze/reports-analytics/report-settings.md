@@ -2,9 +2,9 @@
 description: 說明定義所有報表顯示方式的設定，以及將預設功能表選項對應至其簡化功能表中各個位置的資訊。
 title: 報表顯示設定和導覽
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 99%
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 ## 報表顯示設定和導覽 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]** >元 **[!UICONTROL 件]** >所 **[!UICONTROL 有元件]** >報 **[!UICONTROL 表設定]**
+**[!UICONTROL Analytics]**  >  **[!UICONTROL 元件]**  >  **[!UICONTROL 所有元件]**  >  **[!UICONTROL 報表設定]**
 
 | 元素 | 說明 |
 |--- |--- |
