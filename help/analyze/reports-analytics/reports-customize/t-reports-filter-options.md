@@ -3,9 +3,9 @@ description: 篩選條件可以縮小報表的範圍來包含或排除符合篩�
 title: 篩選報表資料
 uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports and Analytics 基本需知
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 99%
