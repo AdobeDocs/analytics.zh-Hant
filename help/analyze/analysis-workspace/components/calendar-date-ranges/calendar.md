@@ -3,10 +3,10 @@ description: 在日曆中，您可以指定日期和日期範圍，也可以選�
 title: 日曆和日期範圍概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
 feature: Workspace 基本知識
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 100%
 
