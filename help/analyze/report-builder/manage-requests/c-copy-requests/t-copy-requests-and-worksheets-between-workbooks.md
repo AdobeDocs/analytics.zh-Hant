@@ -3,21 +3,20 @@ description: 將來源活頁簿中的整份試算表複製到一或多份目標�
 title: 在活頁簿之間複製請求和工作表
 uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '348'
 ht-degree: 92%
 
 ---
-
 
 # 在活頁簿之間複製請求和工作表
 
 將來源活頁簿中的整份試算表複製到一或多份目標活頁簿中。
 
-若要進行這項作業，您必須在同一個的 Excel 例項中至少開啟兩個活頁簿：第一個來源活頁簿包含的試算表 (工作表) 其請求已映射儲存格，另一個目標活頁簿則是作為目標。對於每個新的目標活頁簿，您應先登入與來源活頁簿相同的報表套裝，然後再貼上包含請求的試算表。
+若要進行這項作業，您必須在同一個的 Excel 例項中至少開啟兩個活頁簿：第一個來源活頁簿包含的試算表 (工作表) 其請求已映射儲存格，另一個目標活頁簿則是作為目標。對於每個新的目標活頁簿，您應先登入與來源活頁簿相同的報表套裝，再貼上含請求的試算表。
 1. 在來源活頁簿的試算表中按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL 「複製工作表 (包含請求)」]**。
 1. 在目標活頁簿的試算表中按一下滑鼠右鍵，然後選擇「**[!UICONTROL 複製包含請求的工作表」]**。
 
