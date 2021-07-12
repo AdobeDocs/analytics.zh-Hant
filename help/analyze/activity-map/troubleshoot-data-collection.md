@@ -2,9 +2,9 @@
 title: 疑難排解Activity Map資料收集
 description: 判斷影像要求中為何看不到Activity Map資料
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 3%
@@ -19,7 +19,7 @@ ht-degree: 3%
 
 首先，請確定AppMeasurement正確收集Activity Map資料。
 
-1. 下載並安裝[Adobe Experience Cloud Debugger Chrome擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
+1. 下載並安裝[Adobe Experience Cloud Debugger Chrome擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)。
 2. 導覽至您的網頁，然後按一下連結。
 3. 後續頁面載入時，請開啟除錯工具。 驗證您是否看見夾在`activitymap.`和`.activitymap`之間的Activity Map內容資料變數：
 
