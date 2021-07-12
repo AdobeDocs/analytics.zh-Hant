@@ -3,12 +3,12 @@ description: 建立基本 Report Builder 資料請求的步驟。
 title: 建立資料請求
 uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 1. 在[!UICONTROL 「請求精靈: 步驟 1」]視窗中選擇[報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 1. (選用項目) 選取套用至請求的區段。選取一個或多個區段後，它們就會移動到清單頂部。
 
-   Report Builder 使用區段的方式，與 Adobe Analytics 使用區段的方式相同。請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。1.(選用) 選取要用於分配的[發佈清單](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
+   Report Builder 使用區段的方式，與 Adobe Analytics 使用區段的方式相同。請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)。1.(選用) 選取要用於分配的[發佈清單](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
 1. 選擇[報表類型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
 1. 指定[日期範圍](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)和報表[粒度](/help/analyze/report-builder/data-requests/configuring-report-dates/granularity.md)。
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
