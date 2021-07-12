@@ -2,10 +2,10 @@
 title: 多報表套裝
 description: 了解在有多個報表套裝的 Workspace 中建立專案的方法及原因
 feature: Workspace 基本知識
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
