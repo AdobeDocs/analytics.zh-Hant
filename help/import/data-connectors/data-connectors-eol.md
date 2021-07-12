@@ -2,10 +2,10 @@
 description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 06baca24c0cba70fd8c413fae7fe2763fe791359
-workflow-type: ht
-source-wordcount: '648'
-ht-degree: 100%
+source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 95%
 
 ---
 
@@ -103,4 +103,4 @@ ht-degree: 100%
 
 2021 年 8 月 1 日當天的唯一例外為 Adobe Campaign Classic 整合。 這項整合將於 2022 年 3 月 1 日正式淘汰。
 
-在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 Adobe Campaign 正在 Adobe Exchange 上建立新的整合，以取代目前的資料連接器整合。 Adobe Campaign 預計將及時完成這項新整合，好讓客戶可以在 2022 年 3 月淘汰日之前遷移到新整合。
+在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 如果您使用此整合，則需在2022年3月1日前移至新的Campaign-Analytics連接器。 進一步了解[Adobe Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html)。
