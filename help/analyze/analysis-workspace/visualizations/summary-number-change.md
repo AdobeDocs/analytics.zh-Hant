@@ -3,10 +3,10 @@ description: 使用「摘要數字」和「摘要變更」視覺效果來呈現�
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
 feature: 視覺效果
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
 
