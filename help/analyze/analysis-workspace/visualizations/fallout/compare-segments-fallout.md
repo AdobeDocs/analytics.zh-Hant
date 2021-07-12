@@ -4,11 +4,10 @@ keywords: 流失和分段, 流失分析中的區段, 比較流失中的區段
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
 feature: 視覺效果
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 100%
 
