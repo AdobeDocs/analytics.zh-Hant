@@ -2,11 +2,10 @@
 title: Analytics 工具指南
 description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Report Builder、Reporting API 以及 Reports & Analytics 的產品文件和自助服務。
 feature: Workspace 基本知識
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 100%
 
@@ -27,7 +26,7 @@ ht-degree: 100%
 
 ## 重要 Analytics 工具文章
 
-* [Adobe Analytics 儀表板 - 概覽](/help/analyze/mobile-app/home.md)
+* [Adobe Analytics 控制面板 - 概觀](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 快速入門](analysis-workspace/home.md)
 * [適用於 Adobe Analytics 的漸進式網頁應用程式](/help/analyze/pwa/pwa.md)
 * [我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
