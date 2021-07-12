@@ -3,11 +3,10 @@ description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而
 title: Report Builder 的疑難排解和最佳作法
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 100%
 
