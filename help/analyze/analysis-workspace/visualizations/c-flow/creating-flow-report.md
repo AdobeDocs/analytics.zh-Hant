@@ -2,16 +2,15 @@
 description: 在 Workspace 專案中使用流量視覺效果。
 title: 設定流量視覺效果
 uuid: ff36dc09-6175-43ed-a82a-630d28bca806
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 視覺效果
+role: User, Admin
+exl-id: a4617647-237f-4178-bb87-f5321c600ca0
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+source-wordcount: '352'
+ht-degree: 100%
 
 ---
-
 
 # 設定流量視覺效果
 
