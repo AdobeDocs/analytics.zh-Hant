@@ -2,11 +2,10 @@
 description: 資料不一致會導致大問題。了解如何使用 Adobe 的異常偵測技術來識別統計異常。立即開始使用。
 title: 異常偵測所使用的統計技術
 feature: AI 工具
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e9868296-e453-45ec-b874-b2aa1b37a1bf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -18,7 +17,7 @@ Analysis Workspace 中的異常偵測使用一系列先進的統計技術來判�
 
 根據報表中使用的日期詳細程度，我們採用 3 種不同統計技術，分別進行每小時、每日、每週/每月異常偵測。各種統計技術概述如下。
 
-## 每日詳細程度的異常偵測{#section_758ACA3C0A6B4D399563ECABFB8316FA}
+## 每日詳細程度的異常偵測 {#section_758ACA3C0A6B4D399563ECABFB8316FA}
 
 對於每日詳細程度報表，演算法會考量數個重要因素，盡可能提供最準確的結果。首先，演算法會根據我們在時間序列模型和極端值偵測模型 (稱為功能篩選) 這兩種類別其一當中所選的可用資料，決定使用哪種模型。
 
