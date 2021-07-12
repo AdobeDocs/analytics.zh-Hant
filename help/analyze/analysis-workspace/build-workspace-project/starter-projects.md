@@ -3,12 +3,12 @@ description: 根據標準或自訂範本建立 Workspace 專案。
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace 基本知識
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 * **空白專案 (預設)**：如需操作說明，請參閱[建立 Analysis Workspace 專案](/help/analyze/analysis-workspace/home.md)。
 * **標準範本**：這些範本是由 Adobe 建立並隨產品提供。
-* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)
+* **自訂範本**：這些範本可由具有管理員權限的使用者或非管理員建立、共用或刪除，但前提是他們已在 Admin Console 中獲得 [!UICONTROL Analysis Workspace：儲存為範本]權限。[進一步了解...](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)
 
 ![](assets/start_modal.png)
 
