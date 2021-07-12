@@ -1,16 +1,15 @@
 ---
 description: 了解如何調整檢視密度。
 title: 檢視密度
-feature: Workspace Basics
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Workspace 基本知識
+role: User, Admin
+exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
-
 
 # 檢視密度
 
