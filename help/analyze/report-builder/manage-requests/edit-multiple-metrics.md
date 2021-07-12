@@ -2,15 +2,14 @@
 description: 在多個請求之間編輯量度的功能，讓您輕鬆地在預先存在的請求或一組請求中新增、移除或更換量度。
 title: 編輯多個請求的量度
 uuid: 50fba4e7-ca7d-4a5c-98a9-c9725b436e4a
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 99%
+source-wordcount: '567'
+ht-degree: 100%
 
 ---
-
 
 # 編輯多個請求的量度
 
@@ -77,4 +76,3 @@ ht-degree: 99%
 
 1. 選取一或多個量度，將其自請求移除。
 1. 重新整理請求。除非重新整理，否則無法查看離線資料。
-
