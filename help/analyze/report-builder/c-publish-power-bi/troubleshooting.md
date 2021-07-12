@@ -1,21 +1,20 @@
 ---
-description: 使用Report Builder與Power BI時的常見問題。
+description: 搭配Power BI使用Report Builder時的常見問題。
 title: 疑難排解 Power BI 的整合問題
 uuid: c1e7e164-4bc6-4513-9332-92c53be021cc
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 50%
+source-wordcount: '372'
+ht-degree: 51%
 
 ---
 
-
 # 疑難排解 Power BI 的整合問題
 
-研究並解決與Power BI搭配使用Report Builder時的常見問題。
+研究並解決搭配Power BI使用Report Builder時的常見問題。
 
 ## 無法發佈至 Power BI
 
@@ -37,10 +36,10 @@ ht-degree: 50%
 * 您在 Report Builder 中編輯請求，例如變更量度或維度，然後重新發佈至 Power BI。編輯請求可能會中斷視覺效果。
 * 您刪除了視覺效果中使用的請求。
 
-## Report Builder必須獲得授權才能存取您的組織資源。 此存取權只能由管理員授予。 要求管理員授予您權限。
+## Report Builder需要獲得授權才能存取您的組織資源。 此存取權僅能由管理員授予。 要求管理員授予您權限。
 
-請Microsoft管理員檢閱下方的「使用者可註冊應用程式」設定：**[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 用戶設定允許選項]**。 如果此選項設為「否」，則該管理員可註冊這些類型的應用程式。
+請Microsoft管理員查看下面的「用戶可以註冊應用程式」設定：**[!UICONTROL Microsoft Azure]** > **[!UICONTROL Azure Active Directory]** > **[!UICONTROL 用戶設定允許選項]**。 如果此選項設為「否」，則管理員可以註冊這些類型的應用程式。
 
-使用者可使用下列[link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)來授與存取權。
+使用者可透過下列[link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=logint&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)授予存取權。
 
-管理員使用下列[link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)授予每個管理員的存取權。
+管理員可透過下列[link](https://login.microsoftonline.com/common/oauth2/authorize?response_type=code&amp;prompt=admin_consent&amp;client_id=8d84f6d8-29a4-4484-a670-589b32400278&amp;redirect_uri=https%3a%2f%2fmy.omniture.com%2fsc15%2farb%2flogin.html&amp;resource=https%3a%2f%2fanalysis.windows.net%2fpowerbi%2fapi&amp;locale=en_US)取得每個使用者的存取權。
