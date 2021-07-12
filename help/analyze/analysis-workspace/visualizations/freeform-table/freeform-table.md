@@ -2,10 +2,10 @@
 title: 自由表格
 description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: 自由表格
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 100%
 
@@ -52,6 +52,6 @@ ht-degree: 100%
 * 按一下右鍵 >**[!UICONTROL 「以 CSV 格式下載資料」]**，將顯示的表格資料下載為 CSV 檔案。如果已選取表格，此選項會顯示&#x200B;**[!UICONTROL 「以 CSV 格式下載選取項目」]**。
 * 按一下右鍵 >**[!UICONTROL 「專案 > 以 CSV 格式下載項目」]**，最多可從選取的維度中匯出 50,000 個維度項目。
 
-深入了解 Analysis Workspace 的所有資料[匯出選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)。
+深入了解 Analysis Workspace 的所有資料[匯出選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)。
 
 ![](assets/export-options.png)
