@@ -2,13 +2,13 @@
 description: 新增日曆事件和管理共用事件的步驟。
 title: 日曆事件
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
-feature: 日曆
-role: Business Practitioner, Administrator
+feature: 行事曆
+role: User, Admin
 exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
