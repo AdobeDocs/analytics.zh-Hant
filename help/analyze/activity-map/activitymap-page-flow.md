@@ -3,15 +3,14 @@ description: 「頁面細節」索引標籤會以表格顯示頁面報表，並�
 title: 頁面細節
 uuid: f527b454-7920-4907-869b-4e1d9ab2c606
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: abad0feb-1a9f-47c6-a275-6c40fcd59116
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 98%
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
-
 
 # 頁面細節
 
@@ -39,4 +38,3 @@ ht-degree: 98%
 | 先前頁面 | 在目前頁面之前的報表套裝內部頁面名稱。 |
 | 後續頁面 | 離開目前頁面後所造訪的頁面。 |
 | 網站退出次數 | 檢視該頁面後完全離開網站的人數。 |
-
