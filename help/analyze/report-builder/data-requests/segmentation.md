@@ -3,12 +3,12 @@ description: 如何在 Report Builder 中新增、編輯、套用及篩選 Adobe
 title: 管理區段
 uuid: 4e4edc39-ed93-498f-913d-7b231b10e7a0
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 >若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. 在「請求精靈」步驟 1 的區段面板中，按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
+1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)。
 1. 在定義及儲存區段之後，返回「請求精靈」。
 1. 按一下「重新整理」圖示以重新整理區段清單。
 
