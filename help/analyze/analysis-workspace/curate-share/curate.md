@@ -3,10 +3,10 @@ description: 監管可讓您在共用專案前先限制元件。
 keywords: Analysis Workspace 監管
 title: 監管專案
 feature: 監管與共用
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 100%
 
