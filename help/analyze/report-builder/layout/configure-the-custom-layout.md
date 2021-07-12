@@ -3,15 +3,14 @@ description: 「自訂配置」提供「樞紐配置」的大部分功能，而�
 title: 設定自訂配置
 uuid: 4c1404b1-f20e-4343-be97-0b4c03500d52
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 97%
+source-wordcount: '112'
+ht-degree: 100%
 
 ---
-
 
 # 設定自訂配置
 
@@ -19,5 +18,5 @@ ht-degree: 97%
 
 以下主題是[!UICONTROL 「自訂配置」]特有的主題：
 
-* [將度量和維度映射至儲存格](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+* [將量度和維度映射至儲存格](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
 * [建立 Microchart](/help/analyze/report-builder/layout/t-create-a-microchart.md)
