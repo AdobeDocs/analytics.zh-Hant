@@ -1,16 +1,15 @@
 ---
 title: 歸因模型與回顧期間
 description: 不同類型的歸因將評分分配給維度項目的方式。
-feature: Attribution
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 歸因
+role: User, Admin
+exl-id: f36de41e-1c53-477d-b326-528fbd4ec9ec
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 99%
+source-wordcount: '1485'
+ht-degree: 100%
 
 ---
-
 
 # 歸因模型與回顧期間
 
