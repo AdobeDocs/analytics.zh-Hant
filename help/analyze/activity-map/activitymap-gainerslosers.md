@@ -3,15 +3,14 @@ description: 覆蓋圖提供多種設定資料視覺效果的方式，讓您輕�
 title: 可自訂覆蓋圖
 uuid: c1e56480-c1df-4a81-8a2a-42ea1362175c
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1e83d470-36e4-47bb-a262-ac12472b21c3
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 99%
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
-
 
 # 可自訂覆蓋圖
 
@@ -64,4 +63,3 @@ Activity Map 提供下列三種覆蓋圖：
 此即時覆蓋圖會根據前一個和目前時段之間的量度值變更，來排名點按。
 
 ![](assets/gainers_losers.png)
-
