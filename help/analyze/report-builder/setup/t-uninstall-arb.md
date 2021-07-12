@@ -3,15 +3,14 @@ description: 說明解除安裝 Adobe Report Builder 的步驟。
 title: 解除安裝 Report Builder
 uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 89%
+source-wordcount: '122'
+ht-degree: 91%
 
 ---
-
 
 # 解除安裝 Report Builder
 
@@ -25,5 +24,5 @@ ht-degree: 89%
 
    如果您想從 Program Files 目錄完全移除所有檔案與資料夾，請在解除安裝 Report Builder 後執行下列步驟：
 1. 按一下&#x200B;**[!UICONTROL 「開始]** > **[!UICONTROL 電腦」]**。
-1. 導覽至 [!DNL C:\Program Files\Adobe\]或（若使用64位元版本的Windows）[!DNL C:\Program Files (x86)\Adobe.]
+1. 導覽至 [!DNL C:\Program Files\Adobe\]，如果是64位版本的Windows，則導覽至[!DNL C:\Program Files (x86)\Adobe.]
 1. 如果此目錄中仍有 Report Builder 資料夾，將其刪除。
