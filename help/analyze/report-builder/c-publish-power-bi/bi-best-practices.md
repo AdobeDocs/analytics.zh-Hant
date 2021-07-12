@@ -1,19 +1,18 @@
 ---
 description: Power BI最佳實務。
-title: 最佳作法
+title: 最佳實務
 uuid: 6d55a9aa-030e-4e4d-963c-ec9cc38e1731
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2d9447f4-77ac-465b-af93-206dc3ea80f7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '140'
+ht-degree: 97%
 
 ---
 
-
-# 最佳作法
+# 最佳實務
 
 ## 在 Power BI 視覺效果中保留參考 {#section_7ED14FE64D974681A57EB91EF1B47CB6}
 
@@ -24,4 +23,3 @@ ht-degree: 95%
 * 如果可以，請勿刪除您在 Report Builder 中建立的請求。
 * 請確認如果您確實刪除 Report Builder 中的請求，也會一併刪除 Power BI 中對應的視覺效果。
 * 如果無法確定：請刪除您不再需要的請求，然後重新發佈，並前往 Power BI 以查看哪些視覺效果已中斷。
-
