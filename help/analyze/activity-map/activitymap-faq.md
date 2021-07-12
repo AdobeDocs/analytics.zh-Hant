@@ -3,11 +3,10 @@ description: 在 Activity Map 中安裝、設定和使用功能的常問的問�
 title: Activity Map 常見問題集
 uuid: e4f6d4e2-55d1-4e32-bf70-a334178af370
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
-translation-type: ht
-source-git-commit: a283ba5d5678498cde9d0065a4f9f6b8a98558dd
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
