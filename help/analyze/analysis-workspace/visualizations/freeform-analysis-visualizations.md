@@ -3,10 +3,10 @@ description: 透過視覺效果，以視覺化方式來表示您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概觀
 feature: 視覺效果
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -80,7 +80,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hant)。
 
-## 在選單上按一下右鍵{#right-click}
+## 在選單上按一下右鍵 {#right-click}
 
 在視覺效果標題按一下右鍵，可以使用視覺效果的其他功能。設定將依視覺效果而異。一些可用設定為：
 
@@ -97,7 +97,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | 取得視覺效果連結 | 允許您將他人導向專案中的特定視覺效果。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確視覺效果。 |
 | 重新開始 | (適用於流量圖、文氏圖表 Venn、長條圖) 可刪除目前視覺效果的設定，這樣您便可從頭開始再設定。 |
 
-## 「建立視覺效果」圖示{#quick-viz}
+## 「建立視覺效果」圖示 {#quick-viz}
 
 如果您不確定要挑選哪個視覺效果，請按一下任何表格列 (停留時適用) 的「**[!UICONTROL 建立視覺效果]**」圖示。這是新增視覺效果的最快方式。按一下圖示會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取了 1 列，即會建立一個最新式的線圖。例如，如果您選取了 3 個區段列，即會建立一個文氏圖表。
 
