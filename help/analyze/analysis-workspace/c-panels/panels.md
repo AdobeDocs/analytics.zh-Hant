@@ -2,10 +2,10 @@
 description: 面板是表格與視覺效果的集合。
 title: 面板概觀
 feature: 面板
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1001'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ![](assets/adhoc-segment-filter.png)
 
-### 下拉篩選器{#dropdown-filter}
+### 下拉篩選器 {#dropdown-filter}
 
 除了區段篩選器外，下拉篩選器還可讓您以可控制方法進行資訊互動。例如，您可新增行動裝置類型的下拉篩選器，因此您就可以將面板區分為平板電腦、手機或桌面電腦等區段。
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
 
-## 在選單上按一下右鍵{#right-click}
+## 在選單上按一下右鍵 {#right-click}
 
 在面板標題按一下右鍵，可以使用面板的其他功能。
 
