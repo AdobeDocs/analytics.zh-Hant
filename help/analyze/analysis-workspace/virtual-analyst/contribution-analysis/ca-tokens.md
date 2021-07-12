@@ -3,10 +3,10 @@ description: 使用貢獻分析來找出資料中的統計異常和關聯。
 title: 貢獻分析概觀
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
 feature: AI 工具
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 每間公司的執行次數，會根據貴公司購買的 Adobe Analytics 產品所授予的權限，受到每月代號數的限制。此外還包括是否能限制「貢獻分析」的存取權，避免他人誤用代號。
 
-## 常見問題集 {#section_11D0431AD2014B96AB9561CA66A367CE}
+## 常見問答 {#section_11D0431AD2014B96AB9561CA66A367CE}
 
 | 問題 | 回答 |
 | --- | --- |
