@@ -3,10 +3,10 @@ description: 在 Workspace 專案中使用「流失」視覺效果。
 title: 流失概觀
 uuid: 2d98899e-e401-4d7a-8af0-de0002f84178
 feature: 視覺效果
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 85d0c88e-d159-4870-aaf6-51899d87ff77
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%
 
