@@ -1,16 +1,15 @@
 ---
 title: Adobe Analytics 控制面板 - 概觀
 description: Adobe Analytics 控制面板的產品文件與自助服務資源
-feature: Analytics Dashboards
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: Analytics 儀表板
+role: User, Admin
+exl-id: 7c5fa374-fa39-4bbc-9bd7-0ef17914d593
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 97%
+source-wordcount: '208'
+ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics [!UICONTROL 控制面板] - 概觀
 
@@ -20,7 +19,7 @@ ht-degree: 97%
 
 * [組織者指南](/help/analyze/mobile-app/curator.md)：本指南旨在協助資料組織者為[!UICONTROL 控制面板]上的執行使用者設定計分卡。組織者可以是組織管理員，也可以是負責設定計分卡的其他角色。
 
-   若要觀看本指南的影片概觀，請參閱 [Adobe Analytics 控制面板計分卡產生器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html)。
+   若要觀看本指南的影片概觀，請參閱 [Adobe Analytics 控制面板計分卡產生器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/additional-tools/analytics-dashboards/adobe-analytics-dashboards-scorecard-builder.html?lang=zh-Hant)。
 
 
 * [執行使用者快速入門指南](/help/analyze/mobile-app/executive.md)：本指南旨在協助執行使用者閱讀及理解[!UICONTROL 控制面板]上的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
