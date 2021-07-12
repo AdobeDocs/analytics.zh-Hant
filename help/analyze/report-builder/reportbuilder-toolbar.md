@@ -3,15 +3,14 @@ description: 協助您了解 Report Builder 工具列之按鈕功能的資訊。
 title: Report Builder 工具列
 uuid: 9f340fb0-f99a-4dd4-bcca-19c54e5499e6
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 6dbf94f1-f70e-40d3-a76f-fef298be19f5
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 89%
+source-wordcount: '303'
+ht-degree: 90%
 
 ---
-
 
 # Report Builder 工具列
 
@@ -21,7 +20,7 @@ ht-degree: 89%
 
 ![](assets/report_builder_toolbar.png)
 
-**登入：顯** 示「登  入資訊」，以便您使用認證或以其他使用者身分登入。同時在登入後部署您的公司名稱。請參閱 [登入 Report Builder](/help/analyze/report-builder/setup/login.md).
+**登入：** 顯示Loginform,  以便使用您的憑證登入，或以其他使用者的身分登入。同時在登入後部署您的公司名稱。請參閱 [登入 Report Builder](/help/analyze/report-builder/setup/login.md).
 
 **建立：**&#x200B;啟動[!UICONTROL 「請求精靈」]。如果您尚未登入，系統會提示您登入。請參閱[資料請求](/help/analyze/report-builder/data-requests/data-requests.md)。
 
@@ -29,7 +28,7 @@ ht-degree: 89%
 
 **重新整理：**&#x200B;針對內嵌於 Excel 活頁簿中所有請求重新整理資料。請參閱[重新整理請求](/help/analyze/report-builder/manage-requests/t-refresh-a-request.md)。
 
-**格式：**&#x200B;可讓您設定試算表儲存格的格式化條件。請參閱[指定條件格式](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md)。
+**格式：**&#x200B;可讓您設定試算表儲存格的格式化條件。請參閱[指定格式化的條件](/help/analyze/report-builder/manage-requests/specify-conditional-formatting.md)。
 
 **排程：**&#x200B;可讓您排程報表，以按照定義的時間和檔案格式傳送。請參閱[排程報表請求](/help/analyze/report-builder/schedule-report-requests.md)。
 
