@@ -3,15 +3,14 @@ description: 您可以為報表命名，以及設定列和欄標題的顯示方�
 title: 顯示標題格式
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 98%
+source-wordcount: '410'
+ht-degree: 99%
 
 ---
-
 
 # 顯示標題格式
 
@@ -46,4 +45,4 @@ ht-degree: 98%
 
    **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。請參閱[命名請求](/help/analyze/report-builder/layout/name-a-request.md)。
 
-1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
+1. 按一下「**[!UICONTROL 確定]**」。
