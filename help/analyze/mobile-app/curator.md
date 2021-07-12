@@ -2,11 +2,10 @@
 description: 控制面板計分卡的設定說明。
 title: Adobe Analytics 儀表板組織者指南
 feature: Analytics 儀表板
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3538361d-68bf-4d67-ae14-55691909db6f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '2401'
 ht-degree: 100%
 
@@ -70,7 +69,7 @@ Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析�
 
 **新增專案**
 
-在&#x200B;**[!UICONTROL 專案]**&#x200B;畫面的&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤底下，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL 「行動計分卡」]**。
+在&#x200B;**[!UICONTROL 專案]**&#x200B;畫面的&#x200B;**[!UICONTROL 「元件」]**&#x200B;索引標籤底下，按一下&#x200B;**[!UICONTROL 「新增」]**&#x200B;按鈕並選取&#x200B;**[!UICONTROL 「行動計分卡」]**。
 
 ![新增專案](assets/add_project.png)
 
@@ -173,7 +172,7 @@ Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析�
 * 使用者處於 Adobe Analytics 的有效登入狀態
 * 您已為使用者正確建立行動計分卡，並與他們共用這些計分卡。
 * 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
-* 使用者可存取計分卡中的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**[!UICONTROL 共用內嵌元件]**。
+* 使用者可存取計分卡包含的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**[!UICONTROL 共用內嵌元件]**。
 
 ### 協助執行使用者使用應用程式
 
