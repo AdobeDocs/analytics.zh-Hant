@@ -3,15 +3,14 @@ description: 升級 Report Builder 的相關步驟和考量事項
 title: 升級 Report Builder
 uuid: 19cfae11-0b40-498b-89ca-5e854e7b164f
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 4ec876e2-bd8e-443e-8faf-135698d635eb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 98%
+source-wordcount: '245'
+ht-degree: 100%
 
 ---
-
 
 # 升級 Report Builder
 
@@ -59,4 +58,3 @@ ht-degree: 98%
 1. 按一下&#x200B;**[!UICONTROL 「Report Builder」]**。
 1. 在&#x200B;**[!UICONTROL 「概述」]**&#x200B;畫面上，選取 32 位元或 64 位元版本。
 1. 按一下&#x200B;**[!UICONTROL 「立即下載！」]**。
-
