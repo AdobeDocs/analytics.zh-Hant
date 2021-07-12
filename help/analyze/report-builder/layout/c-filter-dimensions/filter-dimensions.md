@@ -3,15 +3,14 @@ description: 您可以篩選新增至「列標籤」格線的維度。篩選能�
 title: 篩選維度概觀
 uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '436'
 ht-degree: 98%
 
 ---
-
 
 # 篩選維度概觀
 
@@ -118,7 +117,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " " </td> 
+   <td colname="col1"> " </td> 
    <td colname="col2"> 等於 </td> 
    <td colname="col3"> <p>除非未與另一個引號成對，否則不會予以逸出。例如，<span class="term">17" Display</span> 不是片語。 </p> </td> 
   </tr> 
