@@ -2,11 +2,10 @@
 description: 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 title: 報表功能
 uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
-feature: Reports and analytics 基本需知
-role: Business Practitioner, Administrator
+feature: Reports and Analytics 基本需知
+role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
@@ -41,7 +40,7 @@ ht-degree: 100%
 
 如需詳細資訊，請參閱[自訂報表](/help/analyze/reports-analytics/reports-customize/customizing-reports-overview.md)。
 
-## 日曆 {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
+## 行事曆 {#section_8C6C4AD84D9043E8ABD53FF8F645AAB1}
 
 只要按一下「日曆」按鈕並選擇日期範圍，即可指定日期。您亦可選擇兩個時間範圍來比較效能。
 
