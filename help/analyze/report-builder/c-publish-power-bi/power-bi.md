@@ -3,11 +3,10 @@ description: 搭配 Microsoft Power BI 使用 Report Builder。
 title: 發佈至 Power BI - 概觀
 uuid: ad688817-6e3c-45da-983d-48c123465309
 feature: Report Builder
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -54,11 +53,11 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 您現在可以檢視活頁簿控制面板資料。        ![](assets/view-data-pbi.png)
+1. 您現在可以檢視活頁簿控制面板資料。         ![](assets/view-data-pbi.png)
 
 1. 您可以接著釘選此活頁簿的某個區域，以將其包含在任何 Power BI 控制面板中。
 
-## 將活頁簿中所有格式化表格以 Power BI 資料集表格形式發佈。{#section_7C54A54E75184DD6BAEF4ACCE241239A}
+## 將活頁簿中所有格式化表格以 Power BI 資料集表格形式發佈。 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
 >[!NOTE]
 >
