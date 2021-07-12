@@ -3,15 +3,14 @@ description: '使用「自訂運算式」設定日期範圍時，有兩項重要
 title: 自訂日期考量事項
 uuid: a3bb3a63-0f15-4292-ade7-4ea852fe68c8
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 66b817b3-7e9e-4030-92f3-797e730f9661
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 98%
+source-wordcount: '389'
+ht-degree: 99%
 
 ---
-
 
 # 自訂日期考量事項
 
@@ -52,4 +51,4 @@ ht-degree: 98%
 
 目前這週的開始 (11 月 23 日星期日) 減去一天 = 11 月 22 日星期六
 
-在歐洲和其他某些國家/地區，一週的開始為星期一，而非星期日。在這種情況下，您可以自訂日曆來變更開始日期（請參閱[自訂日曆](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)）。
+在歐洲和其他某些國家/地區，一週的開始為星期一，而非星期日。在這種情況下，您可以自訂日曆來變更開始日期（請參閱[自訂日曆](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。）
