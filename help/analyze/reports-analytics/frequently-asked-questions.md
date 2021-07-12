@@ -1,19 +1,18 @@
 ---
 description: 針對 Analytics 的最常問問題提供解答和疑難排解建議。
 keywords: Analytics 疑難排解
-title: 常見問題集
+title: 常見問答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 
 ---
 
-# 常見問題集
+# 常見問答
 
 針對 Reports &amp; Analytics 的部分常見問題提供解答和疑難排解建議。如需了解實施作業方面有哪些常見問題，請參閱「實施作業」使用指南中的[常見問題集](/help/implement/faq.md)。
 
