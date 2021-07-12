@@ -2,16 +2,15 @@
 description: 此工作區視覺效果類似折線圖，但折線下方有一塊上色區域。
 title: 區域圖和堆疊區域圖
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: Visualizations
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 視覺效果
+role: User, Admin
+exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 97%
+source-wordcount: '100'
+ht-degree: 100%
 
 ---
-
 
 # 區域圖和堆疊區域圖
 
@@ -30,4 +29,3 @@ ht-degree: 97%
 針對堆疊區域圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。
 
 ![](assets/areastacked100.png)
-
