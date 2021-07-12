@@ -2,16 +2,15 @@
 title: 區段比較使用案例
 description: 透過實際使用案例瞭解如何運用區段比較面板來深入分析行銷策略。
 keywords: 區段 IQ
-feature: Panels
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+feature: 面板
+role: User, Admin
+exl-id: d7c02e5c-5313-4e12-86cb-d483644ccbc7
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 99%
+source-wordcount: '827'
+ht-degree: 100%
 
 ---
-
 
 # 區段 IQ 使用案例
 
