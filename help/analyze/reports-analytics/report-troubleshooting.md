@@ -2,15 +2,14 @@
 title: 報告最佳作法和疑難排解
 description: 產生報表時的最佳作法和疑難排解提示。
 keywords: 最佳實務;失敗;逾時;疑難排解;緩慢
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 99%
+source-wordcount: '573'
+ht-degree: 100%
 
 ---
-
 
 # 報告最佳作法和疑難排解
 
