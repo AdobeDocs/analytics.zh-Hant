@@ -3,10 +3,10 @@ description: 在 Analysis Workspace 中使用量度有兩種方式。
 title: 量度
 uuid: 9927491a-ca0b-4e1a-9069-8736149d051b
 feature: Workspace 基本知識
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 
