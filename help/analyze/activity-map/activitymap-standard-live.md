@@ -3,15 +3,14 @@ description: Activity Map 提供兩個基本模式，用以為頁面活動提供
 title: 標準模式和即時模式的比較
 uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: 2364e7b0-443a-49a8-b084-403501f52360
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '392'
+ht-degree: 100%
 
 ---
-
 
 # 標準模式和即時模式的比較
 
@@ -45,4 +44,3 @@ Activity Map 提供兩個基本模式，用以為頁面活動提供補充報告�
 >虛擬報表套裝與即時模式不相容，只與標準模式相容。
 
 ![](assets/live_mode.png)
-
