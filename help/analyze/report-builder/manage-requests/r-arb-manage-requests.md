@@ -3,21 +3,20 @@ description: Report Builder 中「管理請求」的欄位說明。
 title: 管理請求 - 定義
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
-role: Business Practitioner, Administrator
-translation-type: tm+mt
-source-git-commit: 894ee7a8f761f7aa2590e06708be82e7ecfa3f6d
+role: User, Admin
+exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 98%
+source-wordcount: '547'
+ht-degree: 99%
 
 ---
-
 
 # 管理請求 - 定義
 
 Report Builder 中「管理請求」的欄位說明。
 
-## 概述 {#section_75C288C945FA4781A4EDF806711A5660}
+## 概觀 {#section_75C288C945FA4781A4EDF806711A5660}
 
 「[!UICONTROL 請求管理員]」能針對您為所有工作表建立的所有請求，提供詳細狀態檢視，或只提供使用中活頁簿內一份工作表的詳細狀態檢視。您也可以針對含有舊有請求的 Excel 試算表，在可用的儲存格內按一下滑鼠右鍵來新增、編輯、重新整理及刪除請求 (通常是與「[!UICONTROL 請求精靈]」和「[!UICONTROL 請求管理員]」相關的功能)。
 
@@ -38,7 +37,7 @@ Report Builder 中「管理請求」的欄位說明。
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>全部 工作表 </p> </td> 
+   <td colname="col1"> <p>所有工作表 </p> </td> 
    <td colname="col2"> <p>顯示作用中活頁簿內所有工作表的請求。若要檢視特定工作表的請求，請關閉此選項。當此選項關閉時，您必須按一下 Excel 報表底部的「工作表」索引標籤，才能在「<span class="wintitle">請求管理員</span>」中顯示與該工作表相關的請求。核取方塊旁的標籤表示目前正在活頁簿中使用的工作表。 </p> </td> 
   </tr> 
   <tr> 
@@ -91,4 +90,3 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
  </tbody> 
 </table>
-
