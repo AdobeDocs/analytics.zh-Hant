@@ -3,12 +3,12 @@ description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
 feature: Reports and Analytics 基本需知
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1299'
-ht-degree: 95%
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 95%
 
 [!UICONTROL 流失報表]會顯示瀏覽預先指定之頁面順序的訪客人數。也會顯示每個步驟之間的轉換率和流失率。
 
-查看 Analysis Workspace 新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)面板！
+查看 Analysis Workspace 新的[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)面板！
 
 1. 在 [!UICONTROL Adobe Analytics] 中，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 流失」]**。
 1. 在[!UICONTROL 流失報表]頁面上，按一下&#x200B;**[!UICONTROL 啟動流失 Report Builder]**。
@@ -69,7 +69,7 @@ ht-degree: 95%
 
 ## 執行異常偵測報表 {#task_4808C96327354D789C075823F5C3A049}
 
-您只能在Analysis Workspace中執行[異常偵測和貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html)。
+您只能在Analysis Workspace中執行[異常偵測和貢獻分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hant)。
 
 ## 執行即時報表 {#task_5D25929C918E40B18965222FA94176B0}
 
