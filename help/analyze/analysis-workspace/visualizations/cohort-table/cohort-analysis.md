@@ -2,10 +2,10 @@
 title: 什麼是「同類群組分析」？這又是如何運作的？
 description: 透過「同類群組分析」，深入了解使用對象資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
 feature: 視覺效果
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 100%
 
