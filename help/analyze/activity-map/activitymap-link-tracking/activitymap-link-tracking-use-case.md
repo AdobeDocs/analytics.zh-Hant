@@ -3,12 +3,12 @@ description: 您可透過使用 s_objectID 變數自訂連結 ID、自訂地區�
 title: 區別參照相同連結 ID 和地區的連結
 uuid: f2da0cda-a33b-4a12-8d99-1f58386d6d30
 feature: Activity Map
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 43fe4eb9-08fe-4e20-bc02-3f712c3dec1d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 59%
 
 ## 使用 s_objectID 自訂連結 ID {#section_01B0D463397B4837B2D46F087A6E5937}
 
-透過為頁面上的連結或連結位置建立唯一的物件ID `s_objectID`，您可以改善Activity Map追蹤，或使用Activity Map來報告連結類型或位置，而非連結URL。 如需 變數的詳細資訊，請按[此處](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html)。`s_objectID`
+透過為頁面上的連結或連結位置建立唯一的物件ID `s_objectID`，您可以改善Activity Map追蹤，或使用Activity Map來報告連結類型或位置，而非連結URL。 如需 變數的詳細資訊，請按[此處](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hant)。`s_objectID`
 
 >[!IMPORTANT]
 >
