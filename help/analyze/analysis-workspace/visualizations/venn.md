@@ -3,11 +3,10 @@ description: Venn 視覺效果可讓您拖曳至最多 3 個區段 (從「元件
 title: Venn
 uuid: 0a743378-f588-417f-9108-4a1313d6bfeb
 feature: 視覺效果
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: b5d6a822-e569-433e-990a-16e6cae12bbb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
