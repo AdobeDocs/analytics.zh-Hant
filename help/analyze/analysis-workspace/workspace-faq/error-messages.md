@@ -2,10 +2,10 @@
 description: Adobe Analysis Workspace 及其相關元件的錯誤訊息清單
 title: Analysis Workspace 的常見錯誤訊息
 feature: Workspace 基本知識
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: e5c6f710-a205-48db-aeee-ee5b83c42795
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 100%
 
