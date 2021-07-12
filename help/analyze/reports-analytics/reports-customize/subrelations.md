@@ -2,11 +2,10 @@
 description: 所有轉換報告都會啟用完全子關聯，因此您可以依據任何 eVar 劃分另一個 eVar。報告表格中的「劃分依據」功能表與標準的 Analytics 報告功能表相同，讓選擇能夠保持一致
 title: 子關聯
 uuid: ca6df50f-5d4c-4f91-bf27-86ccd01391a2
-feature: Reports and analytics 基本需知
-role: Business Practitioner, Administrator
+feature: Reports and Analytics 基本需知
+role: User, Admin
 exl-id: 615ed00e-91cd-45de-ae1f-e0d09ff01d26
-translation-type: tm+mt
-source-git-commit: cddf2a76ca36914f133379959b7cbb5246bdd695
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 100%
