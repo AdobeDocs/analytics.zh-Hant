@@ -2,9 +2,9 @@
 title: 媒體同時檢閱者面板
 description: 如何使用和解讀 Analysis Workspace 中的「媒體同時檢閱者」面板。
 feature: 面板
-role: Business Practitioner, Administrator
+role: User, Admin
 exl-id: 29575b51-e319-4156-9834-aa0b671afb31
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 100%
