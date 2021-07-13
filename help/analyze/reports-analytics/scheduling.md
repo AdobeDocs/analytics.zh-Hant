@@ -3,12 +3,12 @@ description: 排程、下載和發佈報表的相關資訊。
 subtopic: Schedule
 title: 報表排程和分發
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports and Analytics 基本需知, Reports and Analytics
+feature: Reports and Analytics 基本需知
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
 workflow-type: tm+mt
-source-wordcount: '1669'
+source-wordcount: '1666'
 ht-degree: 100%
 
 ---
