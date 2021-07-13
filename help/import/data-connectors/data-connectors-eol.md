@@ -2,10 +2,10 @@
 description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: ce3f795b71f1fba6385c9a5005f1ffaac5c2fe6e
+source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 95%
+source-wordcount: '662'
+ht-degree: 91%
 
 ---
 
@@ -44,12 +44,12 @@ ht-degree: 95%
 | Apteligent | 即將停止使用 |
 | BlueHornet eMarketing Suite | 即將停止使用 |
 | Branch | 正移轉至 Exchange |
-| BrightEdge 2.0 | 即將停止使用 |
+| BrightEdge 2.0, BrightEdge, BrightEdge Express | 即將停止使用 |
 | Bronto Software | 即將停止使用 |
 | CheetahMail by Experian | 正移轉至 Exchange |
 | ClickTale | 即將停止使用 |
 | Clicktale CA | 即將停止使用 |
-| Conductor 2.0 | 即將停止使用 |
+| Conductor 2.0，導體，導體有機量度 | 即將停止使用 |
 | ContactLab 2.0 (Contact Send Connector) | 即將停止使用 |
 | Coradiant TrueSight | 即將停止使用 |
 | D&amp;B Visitor Intelligence | 即將停止使用 |
@@ -62,7 +62,7 @@ ht-degree: 95%
 | DialogTech | 可於 Adobe Exchange 取得 |
 | [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 即將停止使用 |
 | DREAM | 即將停止使用 |
-| DREAMmail 2.0 | 即將停止使用 |
+| DREAMmail 1.0、DREAMmail 2.0 | 即將停止使用 |
 | Dynamic Signal (Nital Vora) | 正移轉至 Exchange |
 | eDialog Precision Central | 即將停止使用 |
 | eC-messenger | 即將停止使用 |
@@ -70,10 +70,11 @@ ht-degree: 95%
 | Emarsys Xpress | 即將停止使用 |
 | Epsilon Harmony | 正移轉至 Exchange |
 | EveryoneSocial for Adobe Analytics | 即將停止使用 |
+| ExactTarget, ExactTarget 2.0 | 即將停止使用 |
 | Fiksu | 即將停止使用 |
-| Foresee (v2.0) | 即將停止使用 |
-| Foresee Feedback | 即將停止使用 |
+| Foresee (v2.0), Foresee Feedback, Foresee Results | 即將停止使用 |
 | Gigya | 即將停止使用 |
+| Hootsuite | 即將停止使用 |
 | hybris | 即將停止使用 |
 | Kampyle (現為 Medallia) Feedback Analytics (1.1) | 即將停止使用 |
 | Listrak | 正移轉至 Exchange |
@@ -83,11 +84,13 @@ ht-degree: 95%
 | Official Oracle Eloqua Integration | 正移轉至 Exchange |
 | optivo broadmail (Episerver) | 即將停止使用 |
 | Qualtrics v2 | 正移轉至 Exchange |
-| Responsys 2.0 | 即將停止使用 |
+| Responsys 1.0、Responsys 2.0 | 即將停止使用 |
+| Salesforce.com | 即將停止使用 |
 | Selligent | 即將停止使用 |
-| seoClarity 2.0 | 即將停止使用 |
+| seoClarity、seoClarity 2.0 | 即將停止使用 |
 | Silverpop Engage (v2.0) | 即將停止使用 |
 | Sizmek | 即將停止使用 |
+| SmartFOCUS Digital | 即將停止使用 |
 | SpotEffects | 即將停止使用 |
 | StrongMail Systems, Inc | 即將停止使用 |
 | Syngergy! 360 | 即將停止使用 |
@@ -98,6 +101,7 @@ ht-degree: 95%
 | WhatCounts Email | 即將停止使用 |
 | wywy | 即將停止使用 |
 | Yesmail Enterprise | 即將停止使用 |
+| 澤塔互動 | 即將停止使用 |
 
 ## 例外：Adobe Campaign Classic
 
