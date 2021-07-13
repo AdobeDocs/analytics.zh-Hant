@@ -2,14 +2,13 @@
 description: 部署這項整合是一項簡單的程序，需要執行下列動作。
 subtopic: Qualtrics
 title: 部署整合
-feature: Data Connectors
+feature: 資料連接器
 uuid: 9bdc233d-63f6-456d-8c26-b5736dfdef09
 exl-id: 8637f13d-a07e-412e-9ad7-8a0836301dd6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 85d199e71fb65e9026156b146201da2e5be37111
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 98%
+ht-degree: 88%
 
 ---
 
@@ -32,12 +31,13 @@ ht-degree: 98%
    | Qualtrics 組織 ID | [查詢您的 Qualtrics 組織 ID](../qualtrics-overview/qualtrics-org-id.md) |
    | Adobe SiteCatalyst 代號 | [產生您的 Qualtrics Adobe Analytics 代號](../qualtrics-overview/qualtrics-token.md) |
 
-1. **精靈步驟2 - 變數對應**
-   |  Qualtrics 回應清單  | 從報表套裝中選取可用的清單變數。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
+1. **精靈步驟2 — 變數對應**
+
+   | Qualtrics回應清單 | 從報表套裝中選取可用的清單變數。 (您可能需要在報表套裝管理器中啟用新的 listVar。) |
    |---|---|
-   |  Qualtrics 回應 ID  | 從報表套裝中選取可用的 eVar 或 Prop。(您可能需要在報表套裝管理器中啟用新的 listVar。)|
-   |  追蹤伺服器  | 提供您用來追蹤 Adobe Analytics 資料的追蹤伺服器 (網域) 設定。使用 `trackingServerSecure` 追蹤伺服器（如果它與標準追蹤伺服器設定不同）。|
-   |  Qualtrics 調查提交  | 從報表套裝中選取可用事件 (您可能需要從報表套裝管理器中啟用新事件)。  |
+   | Qualtrics回應ID | 從報表套裝中選取可用的eVar或Prop。 (您可能需要在報表套裝管理器中啟用新的 listVar。) |
+   | Tracking Server | 提供您用來追蹤Adobe Analytics資料的追蹤伺服器（網域）設定。 如果 `trackingServerSecure` 追蹤伺服器與標準追蹤伺服器設定不同，請使用該追蹤伺服器。 |
+   | Qualtrics調查提交 | 從報表套裝中選取可用事件（您可能需要在報表套裝管理器內啟用新事件）。 |
 
 1. **精靈步驟 3**：不需要任何操作，僅提供資訊。
 
