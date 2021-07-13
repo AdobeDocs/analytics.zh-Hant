@@ -2,10 +2,10 @@
 title: getPercentPageViewed
 description: 擷取訪客所檢視的頁面比例。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: 633ba0b9a3fe40bfd1b36820949810c631597397
+source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
@@ -84,7 +84,7 @@ if(s.pageName) s.getPercentPageViewed();
 if(s._ppvPreviousPage)
 {
   s.prop1 = s._ppvPreviousPage;
-  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " + | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
+  s.prop2 = "highestPercentViewed=" + s._ppvHighestPercentViewed + " | initialPercentViewed=" + s._ppvInitialPercentViewed + " | foldsSeen=" + s._ppvFoldsSeen + " | foldsAvailable=" + s._ppvFoldsAvailable;
 }
 ```
 
@@ -113,9 +113,9 @@ if(s._ppvPreviousPage)
 
 ## 版本記錄
 
-### 5.0.1（2021年6月22日）
+### 5.0.1 (2021 年 6 月 22 日)
 
-* 修正某些特殊字元會導致外掛程式中斷的問題
+* 已修復部分特殊字元會導致外掛程式中斷的問題
 
 ### 5.0 (2021 年 3 月 19 日)
 
