@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace 基本知識
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 100%
+source-wordcount: '1405'
+ht-degree: 96%
 
 ---
 
@@ -71,7 +71,7 @@ Workspace 專案清單頁面內含下列資訊：
 | 上次修改 | 上次修改專案的日期。 |
 | 標籤 | 列出為了方便分類而套用至專案的所有標籤。 |
 | 說明 | 說明可用於釐清專案的用途。按兩下說明即可進行編輯。 |
-| 計算專案中的重複例項 | 指定是否要將重複例項計入報表。注意，此設定不適用於「流量」或「流失」視覺效果。 |
+| 計算專案中的重複例項 | 指定是否要將重複例項計入報表。例如，此設定（啟動時）會將多個連續頁面檢視視為多個頁面檢視，視為同一個頁面。 若關閉，則會計為單頁檢視（這只會影響特定量度，例如單頁造訪次數）。 **注意**:此設定不適用於「流量」或「流失」視覺效果。 |
 | [專案調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 您可以變更用於 Workspace 的分類調色盤，其方式為選擇已針對色盲人士最佳化的立即可用調色盤或指定您的自訂調色盤。此功能會影響 Workspace 中的許多項目，包括大部分的視覺效果。 |
 | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 可減少左側欄、自由格式表格和同類群組表格的垂直邊框間距，讓您在畫面上看到更多資料。 |
 
