@@ -26,7 +26,6 @@ ht-degree: 100%
 >您必須先安裝 Report Builder v5.0，互動式控制項才能正常運作。>
 >* 如果您在 Windows 上執行 Microsoft Excel，但執行較舊版本的 Report Builder，或如果您未安裝 Report Builder：您可以變更互動式控制項中的值，但控制項不會重新整理相關請求，也不會更新請求的相關參數。
 >* 如果您在 Mac 上執行 Excel，變更控制項中的值後，畫面會顯示以下訊息：「找不到巨集 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。」
-
 >
 
 
