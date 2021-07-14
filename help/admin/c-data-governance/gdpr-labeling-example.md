@@ -1,16 +1,16 @@
 ---
-description: 顯示如何為點擊資料、存取請求、刪除請求加上標籤的範例
-title: 標籤範例
+description: 顯示如何為點擊資料、存取請求、刪除請求的資料加上標籤的範例
+title: 加上標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# 標籤範例
+# 加上標籤範例
 
 ## 範例點擊資料
 
@@ -22,31 +22,31 @@ ht-degree: 69%
 
 | 標籤 | I2<br>ID-PERSON<br>DEL-PERSON<br>ACC-PERSON | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL | I2<br>DEL-PERSON<br>ACC-PERSON | I2<br>DEL-DEVICE<br>DEL-PERSON<br>ACC-ALL | I2<br>ID-DEVICE<br>DEL-DEVICE<br>ACC-ALL |
 |---|---|---|---|---|---|
-| **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3**  <br> **(xyz)** |
+| **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 點擊資料 | Mary | 77 | A | M | X |
-|  | 瑪麗 | 88 | B | N | Y |
-|  | 瑪麗 | 99 | C | O | Z |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | 約翰 | 88 | E | N | U |
-|  | 約翰 | 44 | F | Q | V |
-|  | 約翰 | 55 | G | R | X |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 範例存取請求
 
-如果我提交了訪問請求，摘要檔案將包含下表中所示的值。 請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。唯有使用人員 ID 且 expandIds 設為 true 時，系統才會傳回兩個摘要檔案。
+如果我提交存取請求，摘要檔案將會含有下表指出的值。請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。唯有使用人員 ID 且 expandIds 設為 true 時，系統才會傳回兩個摘要檔案。
 
 <table>
   <tr>
     <th colspan="2" style="text-align:center">API 值</th>
-    <th rowspan="2">傳回<br>檔案類型</th>
+    <th rowspan="2">傳回的<br>檔案類型</th>
     <th colspan="5" style="text-align:center">摘要存取檔案中的資料</th>
   </tr>
   <tr>
     <th>命名空間/ID</th>
     <th>expandIDs</th>
     <th>MyProp1</th>
-    <th>Visitor ID</th>
+    <th>訪客 ID</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3</th>
@@ -75,7 +75,7 @@ ht-degree: 69%
     <td>user=Mary</td>
     <td>false</td>
     <td>人員</td>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -85,7 +85,7 @@ ht-degree: 69%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>人員</td>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -103,7 +103,7 @@ ht-degree: 69%
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>人員</td>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -141,13 +141,13 @@ ht-degree: 69%
 
 請注意，使用 cookie ID 時，expandIDs 的設定不會影響輸出。
 
-## 刪除請求範例
+## 樣本刪除要求
 
-將使用 API 值的刪除請求列示在表格的第一行，點擊表格的內容將會更新並看起來像這樣：
+由於表格第一列中有使用 API 值的刪除請求，點擊表格的內容將會更新並看起來像這樣：
 
 <table>
   <tr>
-    <th colspan="5" style="text-align:center">AAID=77 <br>（expandIDs值不重要）</th>
+    <th colspan="5" style="text-align:center">AAID=77 <br>(expandIDs 值不重要)</th>
   </tr>
   <tr>
     <th>MyProp1</th>
@@ -157,56 +157,56 @@ ht-degree: 69%
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>42</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>愛麗絲</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -251,35 +251,35 @@ ht-degree: 69%
     <td>Z</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>愛麗絲</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -289,7 +289,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
-> 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。此外，實際上，包含A_ID的變數可能是prop或eVar。 其取代值會是開頭為「Privacy — 」、後接隨機數字(GUID)的字串，而非將數值取代為其他隨機數值。
+> 只有包含 user=Mary 和 DEL-PERSON 標籤的資料列儲存格會受到影響。此外，實際上，包含 A_ID 的變數可能是 prop 或 eVar。 其取代值會是開頭為「Privacy-」、後接隨機數字 (GUID) 的字串，而非將數值取代為不同的隨機數值。
 
 <table>
   <tr>
@@ -324,35 +324,35 @@ ht-degree: 69%
     <td>Privacy-4395</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>09</td>
     <td>D</td>
     <td>Privacy-8454</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>16</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>愛麗絲</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -362,8 +362,8 @@ ht-degree: 69%
 
 請注意下列事項：
 
-* 包含`user=Mary`和`DEL-DEVICE`或`DEL-PERSON`標籤的資料列儲存格會受到影響，如果包含`user=Mary`的資料列上，包含任何訪客ID(AAID)的資料列上，則會包含`DEL-DEVICE`標籤的儲存格。
-* expandIDs設定不會展開至呼叫以納入當`user=Mary`時MyEvar3中存在的值，MyEvar3中有ID-DEVICE標籤。 ExpandIDs只會展開並在`user=Mary`的列上包含訪客ID（此範例中為AAID，也包括ECID）。
-* `MyEvar2` 第四和第五行的會更新，因為這些兩行包含的Visitor ID值與第一和第二行的值相同。因此，ID擴增會將其納入裝置層級的刪除作業。
-* 第二和第五行中的`MyEvar2`值在刪除前後相符。 不過，在刪除後，它們不再符合最後一列的值N，因為該列並未隨著刪除請求而更新。
-* `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五列的`AAID`相符。
+* 包含 `user=Mary` 和 `DEL-DEVICE` 或 `DEL-PERSON` 標籤的資料列儲存格會受到影響，如果包含 `user=Mary` 的資料列上，包含任何訪客 ID 的資料列有加上 `DEL-DEVICE` 標籤的儲存格，也會受到影響。
+* expandIDs 設定不會展開至呼叫以納入當 `user=Mary` 時 MyEvar3 中存在的值 (MyEvar3 中有 ID-DEVICE 標籤)。ExpandIDs 只會展開並在 `user=Mary` 的列上包含訪客 ID (此範例中為 AAID，也包括 ECID)。
+* 第四和第五列的 `MyEvar2` 會更新，因為這些兩列包含的訪客 ID 值與第一和第二列的值相同因此，ID 擴增會將其納入裝置層級的刪除作業。
+* 第二列和第五列的 `MyEvar2` 值符合刪除前和刪除後的值。 不過，在刪除後，這些不再符合最後一列的 N 值，因為該列並未隨著刪除請求而更新。
+* `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五個資料列的 `AAID` 均相符。
