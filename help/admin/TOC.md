@@ -4,11 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解如何在 Experience Cloud Admin Console 中管理用戶和產品，設定報表套裝等。
-translation-type: ht
-source-git-commit: d0fe97b9368cbc4c9e79f9e56adf9786b58dce1a
-workflow-type: ht
-source-wordcount: '727'
-ht-degree: 100%
+source-git-commit: 746c2cfd3236df7ec7498749015ddf75c1e558f5
+workflow-type: tm+mt
+source-wordcount: '729'
+ht-degree: 99%
 
 ---
 
@@ -35,6 +34,7 @@ ht-degree: 100%
       + [轉換分類](admin/conversion-var-admin/conversion-classifications.md)
       + [分類階層](admin/conversion-var-admin/classification-hierarchies.md)
       + [清單變數](admin/conversion-var-admin/list-var-admin.md)
+      + [銷售 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [貨幣代碼](admin/currency.md)
    + [自訂報表說明](admin/custom-desc-admin.md)
    + [自訂日曆](admin/custom-calendar.md)
@@ -53,7 +53,7 @@ ht-degree: 100%
       + [付費搜尋偵測概觀](admin/paid-search-detection/paid-search-detection.md)
       + [設定付費搜尋偵測](admin/paid-search-detection/t-paid-search-detection.md)
    + [發佈清單](admin/publishing-list.md)
-   + [發佈介面工具集](admin/publishing-widgets-admin.md)
+   + [發佈 Widget](admin/publishing-widgets-admin.md)
    + [偏好設定管理器](admin/preferences-manager.md)
    + [隱私權設定](admin/privacy-settings.md)
    + [隱私權設定](admin/privacy-reporting.md)
@@ -90,7 +90,7 @@ ht-degree: 100%
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
       + [伺服器端轉送需求](admin/c-server-side-forwarding/ssf-requirements.md)
       + [伺服器端轉送資料和程式碼參考](admin/c-server-side-forwarding/ssf-reference.md)
-      + [如何確認您的伺服器端轉送實施情形](admin/c-server-side-forwarding/ssf-verify.md)
+      + [如何確認您的伺服器端轉送實作情形](admin/c-server-side-forwarding/ssf-verify.md)
       + [伺服器端轉送常見問題集](admin/c-server-side-forwarding/ssf-faq.md)
    + [簡化的報表功能表](admin/t-simplified-menu.md)
    + [社交管理](admin/social-management.md)
@@ -100,31 +100,31 @@ ht-degree: 100%
       + [關於變更事件類型](admin/c-success-events/event-type.md)
    + [可選時間戳記](admin/timestamp-optional.md)
    + 流量變數 {#traffic-variables}
-      + [流量變數 (Prop) 概觀](admin/c-traffic-variables/traffic-var.md)
+      + [流量變數 (prop) 概觀](admin/c-traffic-variables/traffic-var.md)
       + [啟用流量變數報表](admin/c-traffic-variables/t-traffic-variable.md)
       + [流量分類](admin/c-traffic-variables/traffic-classifications.md)
    + 不重複訪客變數 {#unique-visitor-variable}
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
-+ Admin Console 中的 Adobe Analytics {#admin-console}
++ AnalyticsAdmin Console 中的 Adobe {#admin-console}
    + [Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 權限 {#permissions}
       + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
-      + [Adobe Analytics 的產品設定檔](admin-console/permissions/product-profile.md)
-      + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
+      + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
+      + [報告套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
 + 公司設定 {#company-settings}
    + [公司設定概觀](company/c-company-settings.md)
    + [功能存取層級](company/feature-access-levels.md)
-   + [網站服務](company/web-services-admin.md)
+   + [網路服務](company/web-services-admin.md)
    + [Report Builder 報表](company/report-builder-reports-admin.md)
    + [單一登入](company/single-signon-admin.md)
-   + [擱置中的動作](company/pending-actions-admin.md)
+   + [待定動作](company/pending-actions-admin.md)
    + [品牌結合](company/co-branding-admin.md)
    + [隱藏報表套裝](company/c-hide-report-suites.md)
-   + [安全管理器](company/security-manager.md)
+   + [安全管理員](company/security-manager.md)
    + [「強制 IP 登入限制」服務終止](company/login-restrictions-eol.md)
 + 管理報表套裝 {#manage-report-suites}
    + [報表套裝管理器](c-manage-report-suites/report-suites-admin.md)
@@ -149,35 +149,35 @@ ht-degree: 100%
       + [並非從來源報表套裝複製的設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [建立報表套裝群組](c-manage-report-suites/t-create-rs-group.md)
 + 用戶和產品管理 (舊版) {#user-product-management}
-   + [用戶和產品管理](user-management2/user-management.md)
-   + [指派用戶群組至報表套裝](user-management2/t-group-access-report-suite.md)
+   + [使用者和產品管理](user-management2/user-management.md)
+   + [指派使用者群組至報表套裝](user-management2/t-group-access-report-suite.md)
    + 用戶管理 {#user-management}
-      + [用戶管理概觀](user-management2/c-user-management/users.md)
-      + [新增用戶帳戶](user-management2/c-user-management/t-add-user-account.md)
-      + [用戶和群組權限變更](user-management2/c-user-management/permissions-changes.md)
-      + [轉移用戶帳戶項目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
-      + [新增用戶至群組](user-management2/c-user-management/t-add-user-to-group.md)
+      + [使用者管理概觀](user-management2/c-user-management/users.md)
+      + [新增使用者帳戶](user-management2/c-user-management/t-add-user-account.md)
+      + [使用者和群組權限變更](user-management2/c-user-management/permissions-changes.md)
+      + [轉移使用者帳戶項目](user-management2/c-user-management/t-transfer-user-accout-privileges.md)
+      + [新增使用者至群組](user-management2/c-user-management/t-add-user-to-group.md)
       + 將用戶移轉至 Adobe Admin Console {#migrate-users}
-         + [Analytics 用戶移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
-         + [移轉 Adobe ID 的 Analytics 用戶帳戶](user-management2/user-migration/t-migrate-users.md)
-         + [移轉 Enterprise 與 Federated ID 的 Analytics 用戶帳戶](user-management2/user-migration/migrate-enterprise.md)
+         + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
+         + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
+         + [移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
          + [停用舊版登入](user-management2/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](user-management2/user-migration/developer.md)
    + 用戶群組 {#user-groups}
-      + [新增用戶群組](user-management2/c-user-groups/t-user-group.md)
-      + [用戶群組設定](user-management2/c-user-groups/groups.md)
+      + [新增使用者群組](user-management2/c-user-groups/t-user-group.md)
+      + [使用者群組設定](user-management2/c-user-groups/groups.md)
    + 自訂報表存取 {#customize-report-access}
       + [自訂報表存取 - 概觀](user-management2/c-customize-report-access/groups-customize-report-access.md)
       + [自訂 Analytics 工具權限](user-management2/c-customize-report-access/groups-analytics-tools.md)
       + [自訂報表套裝工具權限](user-management2/c-customize-report-access/groups-report-suite-tools.md)
       + [自訂量度權限](user-management2/c-customize-report-access/groups-metrics.md)
       + [自訂維度權限](user-management2/c-customize-report-access/groups-dimensions.md)
-   + [電子郵件用戶](user-management2/t-email-users.md)
+   + [電子郵件使用者](user-management2/t-email-users.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
    + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
-   + [常見問題集](c-data-governance/gdpr-faq.md)
+   + [常見問答](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
    + [檢視/管理報表套裝資料控管設定](c-data-governance/gdpr-view-settings.md)
    + [標籤報表套裝資料](c-data-governance/gdpr-setup-reportsuite.md)
