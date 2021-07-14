@@ -2,10 +2,10 @@
 title: 交易 ID 資料來源
 description: 了解使用交易 ID 資料來源的一般工作流程。
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
-source-git-commit: 1ee6a1e69a277f0d3c0ffd1defca0d4cb098cc6c
+source-git-commit: 4497ca252c4ee05175141e58d784ca2df215cb94
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 92%
+source-wordcount: '531'
+ht-degree: 45%
 
 ---
 
@@ -13,7 +13,19 @@ ht-degree: 92%
 
 交易 ID 資料來源不僅可讓您並排檢視線上和離線資料，還可將資料關聯在一起。若要使用此功能，請在 Analytics 實作中使用 [`transactionID`](/help/implement/vars/page-vars/transactionid.md) 變數。
 
-當您傳送包含 `transactionID` 值的線上點擊時，Adobe 會對當時所有已設定或持續存在的變數拍攝「快照」。如果找到透過 Data Sources 上傳的相符交易 ID，離線和線上資料就會繫結在一起。先看到哪個資料來源並不重要。
+當您傳送包含 `transactionID` 值的線上點擊時，Adobe 會對當時所有已設定或持續存在的變數拍攝「快照」。如果找到透過 Data Sources 上傳的相符交易 ID，離線和線上資料就會繫結在一起。
+
+若要使用交易，必須先傳送具有交易ID的線上點擊，然後再傳送具有該交易ID的任何交易資料來源資料至該交易ID。 線上點擊包含的變數（eVar等），但不包含隨交易ID資訊儲存的線上點擊上的事件。
+
+傳入交易資料來源點擊時，資料來源交易點擊上的交易ID會查找變數等。 與原始線上點擊相關聯的（非事件）。 如果資料來源交易點擊上沒有傳入變數的值，則會在資料來源交易點擊上使用這些變數。
+
+## 範例
+
+如果傳入具有交易ID 1256的線上點擊，並在其上`evar1=blue`、`evar2=water`和`event1`設定，則交易ID 1256的交易資料將以`evar1=blue`、`evar2=water`保存。 不會將任何事件值儲存為交易資訊的一部分。
+
+現在，假設接著資料源事務點擊傳入系統，並設定了事務ID 1256和`evar1=yellow`、`evar3=mountain`和`event2`。 系統會找到儲存的交易資料，並在資料源交易點擊集`evar2=water`中（因為這是原始點擊上設定的）。 它未設定`evar1=blue`（如同在原始點擊上），因為資料來源交易點擊上已設定`evar1`（黃色）的值。  因此，資料源事務點擊會導致`evar1=yellow`、`evar2=water`（來自原始線上點擊）和`evar3=mountain`。 這3個eVar值已設定`event2` — 來自資料來源交易點擊的事件。
+
+處理資料來源交易點擊時，系統不會設定資料來源交易點擊的值`event1`。
 
 ## 交易 ID 資料來源的整體工作流程
 
