@@ -4,8 +4,8 @@ description: 擷取訪客所檢視的頁面比例。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: 77192bdec509fed0b2a7c49112b7b430ff677a3c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '906'
+ht-degree: 100%
 
 ---
 
