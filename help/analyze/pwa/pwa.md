@@ -4,7 +4,7 @@ description: Adobe Analytics 專用漸進式網頁應用程式
 role: User, Admin
 exl-id: f28e0bfc-0e3e-4f28-9533-6788a36d37fe
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
 ht-degree: 100%
 
