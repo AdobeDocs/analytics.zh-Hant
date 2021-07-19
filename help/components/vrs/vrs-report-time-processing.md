@@ -3,11 +3,10 @@ description: 報表時間處理是一項虛擬報表套裝設定，可讓您以�
 title: 報表時間處理功能
 uuid: 1a1d82ea-8c93-43cc-8689-cdcf59c309b1
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '1423'
-ht-degree: 100%
+source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+workflow-type: tm+mt
+source-wordcount: '1421'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 此處理架構可提供更具彈性的報告選項。例如，您可採用非破壞性的方式，將造訪逾時期間變更為您想要的任何時間長度，而這些變更將會以回溯方式反映在 eVar 持續性和區段容器，如同您已在資料收集前所套用的這些設定。此外，您可以建立任意數量的虛擬報表套裝，並根據相同的基本報表套裝，讓每個套裝使用不同的「報表時間處理功能」選項，而不變更基本報表套裝中的任何資料。
 
-「報表時間處理功能」還能使 Analytics 防止背景點擊開始新的造訪，並可讓[行動 SDK](https://marketing.adobe.com/developer/get-started/mobile/c-measuring-mobile-applications) 在每次應用程式啟動事件觸發時，指示報告開始一個新的造訪。
+「報表時間處理功能」還能使 Analytics 防止背景點擊開始新的造訪，並可讓[行動 SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) 在每次應用程式啟動事件觸發時，指示報告開始一個新的造訪。
 
 下列為啟用「報表時間處理功能」時，目前可供虛擬報表套裝使用的設定選項：
 
@@ -41,7 +40,7 @@ ht-degree: 100%
 * **每次應用程式啟動後開始新的造訪**：除造訪逾時設定外，您也可以在 Mobile SDK 記錄應用程式啟動事件時強制開始造訪，而不考量閒置視窗。此設定會影響造訪量度與造訪區段容器，以及 eVar 的造訪過期時間邏輯。
 * **透過事件開始新的造訪**：不論作業階段是否已逾期，事件觸發時就會開始新的工作階段。新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定將會影響您的造訪計數、造訪區段容器以及 eVar 的造訪過期時間邏輯。
 
-「報表時間處理功能」不支援傳統 Analytics 報告中提供的所有量度與維度。您只能在 Analysis Workspace 中存取運用「報表時間處理」功能的虛擬報表套裝，無法在 [!UICONTROL Reports &amp; Analytics]、Data Warehouse、Report Builder、資料摘要或 Reporting API 中存取。
+「報表時間處理功能」不支援傳統 Analytics 報告中提供的所有量度與維度。您只能在Analysis Workspace中存取運用「報表時間處理」功能的虛擬報表套裝，且無法在[!UICONTROL Reports &amp; Analytics]、Data Warehouse、Report Builder、資料摘要或報表API中存取。
 
 此外，「報表時間處理功能」僅會處理來自報告日期範圍內 (以下稱為「日期時段」) 的資料。這表示在報告日期範圍前，針對訪客設定為「永不過期」的 eVar 值不會保存至報告視窗，也不會出現在報表中。另外，這也表示客戶忠誠度測量均僅以顯示於報告日期範圍內的資料為根據，而非報告日期範圍前的完整記錄。
 
