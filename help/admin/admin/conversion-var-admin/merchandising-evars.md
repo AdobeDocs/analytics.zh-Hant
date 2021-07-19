@@ -1,7 +1,7 @@
 ---
 title: 銷售eVar和產品尋找方法
 description: 深入探討銷售eVar背後的概念，以及其處理和配置資料的方式。
-source-git-commit: cbc3fe2be4f2bca604a218cfd5dfbb121e6a7a5c
+source-git-commit: 9c71c9e94177c9510ca6af050c9de6fb54c8dc6f
 workflow-type: tm+mt
 source-wordcount: '5337'
 ht-degree: 0%
@@ -383,6 +383,6 @@ post_products欄中的值可能很熟悉。 向上捲動本檔案，並比較此
 
 總之，若沒有其他設定，銷售eVar的現成可用例項量度將會不實用。 幸好，Adobe釋放了[Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en)。 它可讓您為Adobe Analytics收集的任何自訂量度套用多個歸因模型。 套用這些歸因模型的量度不會使用post_evar欄中包含的值，或系結至任何特定產品的值。 相反地，這些量度只會使用透過影像要求本身傳遞的值(或透過Adobe Analytics處理規則擷取的值)。 您可以使用Attribution IQ中的功能，為所有使用轉換變數語法的銷售eVar取得準確的歸因例項量度。
 
-![](assets/merch-evars3.png)
+![](assets/attribution-select.png)
 
 將銷售eVar的例項量度新增至報表時，正確的Attribution IQ模型會是「上次接觸」模型。 在此情況下，模型的「回顧期間」設定並不重要。 原因在於，「強制」的上次接觸歸因模型一律會將執行個體評分給予透過請求傳入的每個個別值。 無論eVar的實際歸因/系結設定是否設為「最近（最後）」或「原始值（第一個）」，都是如此。
