@@ -1,18 +1,19 @@
 ---
 title: eVar (銷售)
 description: 繫結至產品維度的自訂變數。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
+source-git-commit: 2e3f078500b80eefa2ca7c4a67de5bd0e91e764f
+workflow-type: tm+mt
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
-
 # eVar (銷售)
 
-*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售 eVar 的相關資訊，請參閱「實作」使用指南中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
+*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售eVar的相關資訊，請參閱實作使用手冊中的[eVar](/help/implement/vars/page-vars/evar.md) 。*
+
+如需銷售eVar如何運作的詳細討論，請參閱[銷售eVar和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)。
 
 測量外部促銷活動或外部搜尋詞的成功情形時，通常會想使用單一值來接收發生之任何成功事件的評分。例如，如果客戶按一下促銷活動電子郵件中的連結而前往您的網站，其隨後進行的所有購買都應評給該促銷活動。
 
