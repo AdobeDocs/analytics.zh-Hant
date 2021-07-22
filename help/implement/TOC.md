@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '379'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 94%
 
 ---
 
@@ -149,13 +149,13 @@ ht-degree: 100%
       + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
-+ 使用 Adobe Experience Platform Launch 實作 Analytics {#launch}
-   + [Launch 概觀](launch/overview.md)
-   + [建立 Analytics 屬性](launch/create-analytics-property.md)
++ 在Adobe Experience Platform {#launch}中使用標籤實作Analytics
+   + [標籤概述](launch/overview.md)
+   + [建立Analytics標籤屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
-   + [將 Launch 資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
+   + [將標籤資料元素對應至Analytics變數](launch/elements-to-variable.md)
 + 在其他平台上實作 Analytics {#other}
    + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
    + [使用 DTM 實作 Analytics](other/dtm-implementation-overview.md)
