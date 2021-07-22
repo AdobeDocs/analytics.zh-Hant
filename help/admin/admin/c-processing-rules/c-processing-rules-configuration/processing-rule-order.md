@@ -5,9 +5,9 @@ title: 處理順序
 feature: 管理工具
 uuid: cea01d13-dfd5-40f7-8b2f-b6e2fe8354df
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '503'
 ht-degree: 90%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 90%
 |--- |--- |
 | 動態變數查閱 | 從 HTTP 標題或其他變數提取資訊，進而動態填入變數。例如，`s.eVar5="D=c1"` 會將 prop1 的值放入 eVar5 中。 |
 | AppMeasurement | AppMeasurement 中使用的函數和外掛程式會在瀏覽器或用戶端應用程式中執行。 |
-| 標籤管理 | 在Adobe啟動或動態標籤管理中定義的規則會依定義執行。 |
+| 標籤管理 | 資料收集UI中定義的規則會依定義執行。 |
 | 機器人規則 | [機器人規則](/help/admin/admin/bot-removal/bot-rules.md)可讓您移除報表套裝中，由已知編目程式和機器人產生的流量。 |
 
 ## 處理規則之後
