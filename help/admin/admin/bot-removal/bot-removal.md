@@ -2,10 +2,10 @@
 title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的方式
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 100%
+source-wordcount: '796'
+ht-degree: 91%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
-開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)中建立新宣告 ID。 您必須將訪客的 Experience Cloud ID 傳遞至此新宣告的 ID，這項操作透過 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=zh-Hant) 即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
+開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)中建立新宣告 ID。 將訪客的Experience CloudID傳遞至此新宣告的ID，這項操作可透過Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)中的[標籤快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-設定這個「資料元素」後，請按照[這些指示](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html)，將已宣告 ID 傳遞到 Adobe Launch 的 ECID 工具中。
+設定此資料元素後，請依照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，使用Adobe Experience Platform中的標籤，將宣告ID傳遞至ECID工具。
 
 ### 步驟 2：使用分段來識別機器人
 
