@@ -1,28 +1,33 @@
 ---
 title: 將資料層物件對應至資料元素
-description: 設定 Launch 以從資料層讀取。
+description: 設定要從資料層讀取的標籤。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '304'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 57%
 
 ---
 
 # 將資料層物件對應至資料元素
 
-您的組織在網站上建立並實施資料層後，您就可以將資料層物件對應至 Launch 中的資料元素。
+在您的組織建立並實作網站上的資料層後，您就可以將資料層物件對應至標籤內的資料元素。
+
+>[!NOTE]
+>Adobe Experience Platform Launch已重新命名為Experience Platform中的資料收集技術套件。 因此，產品檔案中已推出數個術語變更。 有關術語更改的綜合參考，請參閱以下[document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
 
 ## 先決條件
 
-[建立資料層](../prepare/data-layer.md)：請確定您的網站上有資料層。雖然技術上，您可以對應任何 JavaScript 物件或直接從頁面上消除 CSS 元素，但 Adobe 建議您最後再採取此作法。如果您的網站版面有所變更，Launch 中使用的 CSS 選擇器會停止運作，造成資料遺失。
+[建立資料層](../prepare/data-layer.md)：請確定您的網站上有資料層。雖然技術上，您可以對應任何 JavaScript 物件或直接從頁面上消除 CSS 元素，但 Adobe 建議您最後再採取此作法。如果您的網站版面有所變更，標籤中使用的CSS選取器將停止運作，造成資料遺失。
 
-## 使用 Adobe Experience Platform Launch 建立資料元素
+## 使用標籤建立資料元素
 
-[資料元素](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/data-elements.html?lang=zh-Hant#create-a-data-element)是 Launch 中的元件，可在該工具中使用。您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
+[資](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 料元素是資料收集UI中的元件，可在整個工具中使用。您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
-1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
-1. 按一下所需的 Launch 屬性。
+1. 前往[experience.adobe.com](https://experience.adobe.com)，然後在出現提示時登入。
+1. 選擇&#x200B;**[!UICONTROL 啟動/資料收集]**。
+1. 按一下「**[!UICONTROL 前往Launch /資料收集]**」，然後選取「**[!UICONTROL 標籤]**」。
+1. 按一下所需的標籤屬性。
 1. 按一下&#x200B;**[!UICONTROL 「資料元素」]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 「新增資料元素」]**。
 
    ![建立資料元素](assets/createelement.png)
