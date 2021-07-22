@@ -2,10 +2,10 @@
 title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
-source-wordcount: '368'
-ht-degree: 100%
+source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+workflow-type: tm+mt
+source-wordcount: '361'
+ht-degree: 83%
 
 ---
 
@@ -27,16 +27,15 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 
 Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實作此程式碼的方法有很多種，視平台和您組織的需求而定。
 
-* **Adobe Experience Platform Launch：** 標準化且建議的 Adobe Analytics 實作方法。在每個頁面上放置載入器標記，並使用 Launch 的介面來決定每個變數的定義方式。
-* **動態標籤管理**：動態標籤管理的生命週期已結束。
-* **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。概述實作中使用的變數和設定，這對使用自訂程式碼規則的 Launch 實作來說很有用。
+* **標籤Adobe Experience Platform**:標準化且建議的實作Adobe Analytics方法。在每個頁面上放置載入器標籤，並使用資料收集UI來判斷每個變數的定義方式。
+* **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。概述實作中使用的變數和設定，這對使用自訂程式碼規則的實作相當實用。
 * **行動 SDK**：專用的程式庫，可輕鬆將資料從行動應用程式傳送至 Adobe。
 
 ## 重要 Analytics 實作文章
 
 * [負責現有的 Adobe Analytics 實作](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [在 Experience Platform Launch 中建立屬性](launch/create-analytics-property.md)
+* [在Experience Platform中建立標籤屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
 
 ## 更多 Analytics 使用手冊
