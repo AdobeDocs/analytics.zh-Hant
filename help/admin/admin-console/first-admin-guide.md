@@ -2,10 +2,10 @@
 title: Adobe Analytics 的第一個管理指南
 description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪些，以及如何登入 UI。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,23 +40,23 @@ ht-degree: 91%
 1. 輸入您要授予 Analytics 完整存取權的電子郵件地址，並將新建的完整管理員存取設定檔指派給對方。按一下「儲存」。
 1. 使用者此時就可以完整存取 Adobe Analytics 了。
 
-## 授予Experience Platform中資料收集的產品管理員存取權（先前稱為Launch）
+## 授予產品管理員在Experience Platform中資料收集的存取權
 
-Experience Platform中標籤的產品管理員存取權與授予Analytics的產品管理員存取權幾乎相同。
+Experience Platform中「資料收集」的產品管理員存取權與授予Analytics的產品管理員存取權幾乎相同。
 
 1. 使用您的 Adobe ID 憑證登入 Admin Console。
-1. 按一下頂端的「產品」標籤。您的組織購買的所有產品都位於左側。按一下「Experience Platform Launch by Adobe」，然後按一下「新增設定檔」按鈕。
-1. 將此設定檔命名為「Experience Platform Launch 完整管理員存取權」，然後按一下「完成」。
-1. 返回「產品設定檔」頁面，按一下新建立的設定檔，然後按一下「權限」標籤。
-1. 按一下其中一個權限細項。如果「自動包含」可用，請啟用此項目。如果「自動包含」不可用，請按一下「全部新增」。這兩個選項都會將所有權限項目移至右欄。
-1. 按一下「儲存」。對所有權限類別重複上述步驟。
-1. 所有權限類別都取得設定檔後，按一下頂端的「概觀」返回「概觀」頁面。
-1. 在「Experience Platform Launch by Adobe」圖磚下，按一下「指派使用者」。
-1. 輸入您要授予 Analytics 完整存取權的電子郵件地址，並將新建的完整管理員存取設定檔指派給對方。按一下「儲存」。
-1. 使用者此時就可以完整存取 Experience Platform Launch 了。
+1. 按一下頂端的&#x200B;**[!UICONTROL Products]**&#x200B;標籤。 您的組織購買的所有產品都位於左側。按一下「按Adobe ]**Experience Platform Launch」，然後按一下「**[!UICONTROL &#x200B;新建配置檔案&#x200B;]**」。**[!UICONTROL 
+1. 將此設定檔命名為「Experience Platform Launch完全管理員存取」，然後按一下&#x200B;**[!UICONTROL Done]**。
+1. 返回&#x200B;**[!UICONTROL 產品設定檔]**&#x200B;頁面，按一下新建立的設定檔，然後按一下&#x200B;**[!UICONTROL 權限]**&#x200B;標籤。
+1. 按一下其中一個權限細項。如果&#x200B;**[!UICONTROL Auto-include]**&#x200B;可用，請啟用它。 如果「自動包含」不可用，請按一下「全部添加」**[!UICONTROL 。]**&#x200B;這兩個選項都會將所有權限項目移至右欄。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。對所有權限類別重複上述步驟。
+1. 將所有權限類別授予設定檔後，按一下頂端的&#x200B;**[!UICONTROL 概述]**&#x200B;返回「概述」頁面。
+1. 在[!UICONTROL 「按Adobe分配Experience Platform Launch」表徵圖]下，按一下&#x200B;**[!UICONTROL 「分配用戶」]**。
+1. 輸入您要授予 Analytics 完整存取權的電子郵件地址，並將新建的完整管理員存取設定檔指派給對方。按一下「**[!UICONTROL 儲存]**」。
+1. 使用者現在擁有Experience Platform資料收集的完整存取權。
 
 ## 後續步驟
 
 [建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：請 Analytics 管理員登入工具並建立資料收集的報表套裝
 
-[在 Experience Platform Launch 中建立屬性](/help/implement/launch/create-analytics-property.md)：請 Experience Platform Launch 管理員登入工具並建立要在網站上實施作業的屬性
+[建立Analytics標籤屬性](/help/implement/launch/create-analytics-property.md):請您的資料收集管理員登入工具並建立要在網站上實作的屬性
