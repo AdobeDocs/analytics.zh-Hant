@@ -2,10 +2,10 @@
 description: 了解如何實作多套裝標記，以傳送影像要求給多個報表套裝。
 title: 實作多套裝標記
 exl-id: null
-source-git-commit: 81da9ff9b00a69c49c028fc7f006c161d8ff21d4
-workflow-type: ht
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 若要實作多套裝標記，您必須在您網頁和應用程式的追蹤程式碼中，加入全域報表套裝的報表套裝 ID (RSID)，也要加入適用的子報表套裝的 RSID。
 
-* 針對 Adobe Experience Platform Launch 實作，請為[[!DNL Analytics] 擴充功能](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=zh-Hant)指定每個報表套裝。
+* 針對Adobe Experience Platform標籤實作，請指定[[!DNL Analytics] extension](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)的每個報表套裝。
 
 * 若要舊版 JavaScript 和行動 SDK 實作，請用逗號且不含空格來區隔 RSID (`rsid1,rsid2,rsid3` 等)。
 
