@@ -2,11 +2,10 @@
 title: cookieLifetime
 description: 覆寫 AppMeasurement 所建立 Cookie 的有效期。
 exl-id: 2cd64301-9f12-4e77-abae-af431e4b499d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 85%
 
 ---
 
@@ -18,14 +17,16 @@ AppMeasurement 所設定的 Cookie 通常有效期為 2 年。可使用 `cookieL
 >
 >此變數會影響不重複訪客計數和歸因。設定此變數時請小心。
 
-## Adobe Experience Platform Launch 中的 Cookie 期限
+## Adobe Experience Platform標籤中的Cookie期限
 
 「Cookie 期限」是設定 Adobe Analytics 擴充功能時[!UICONTROL 一般]摺疊式功能表底下的下拉式清單。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
-2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開 [!UICONTROL Cookies] 摺疊式功能表，便會顯示 [!UICONTROL Cookie 期限]下拉式清單。
+1. 前往`experience.adobe.com`，然後在出現提示時登入。
+1. 選擇[!UICONTROL 啟動/資料收集]。
+1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 按一下所需的屬性。
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+1. 展開 [!UICONTROL Cookies] 摺疊式功能表，便會顯示 [!UICONTROL Cookie 期限]下拉式清單。
 
 此下拉式清單包含下列值：
 
@@ -34,7 +35,7 @@ AppMeasurement 所設定的 Cookie 通常有效期為 2 年。可使用 `cookieL
 * **作業階段**：Cookie 會在訪客的作業階段結束時到期。
 * **秒**：Cookie 會在指定的秒數過後到期。例如，將此下拉式清單設定為[!UICONTROL 秒]，並將 `86400` 放入自訂欄位中，便會強制 Cookie 在 24 小時後到期。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.cookieLifetime
+## AppMeasurement和資料收集自訂程式碼編輯器中的s.cookieLifetime
 
 `s.cookieLifetime` 變數為字串，可決定 AppMeasurement 所設定 Cookie 的到期日。
 
