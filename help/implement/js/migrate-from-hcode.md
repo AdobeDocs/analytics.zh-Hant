@@ -2,16 +2,16 @@
 title: 移轉至 JavaScript 適用的 AppMeasurement
 description: 決定將實作從 H 程式碼移出時所需的項目。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '291'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 93%
 
 ---
 
 # 移轉至 JavaScript 適用的 AppMeasurement
 
-如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。我們建議您透過 [Adobe Experience Platform Launch](../launch/overview.md) 實施 Analytics，不過也可以使用更新的 JavaScript 實施。
+如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。建議在Adobe Experience Platform](../launch/overview.md)中透過[標籤實作Analytics，但可使用更新的JavaScript實作。
 
 與 H 程式碼相比，AppMeasurement 有下列顯著變更：
 
