@@ -2,11 +2,10 @@
 title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '830'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 95%
 
 ---
 
@@ -26,14 +25,16 @@ ht-degree: 100%
 
 此變數不會在點擊之間持續存在。請確定已在每個涉及收入或貨幣事件的頁面上定義此變數。
 
-## Adobe Experience Platform Launch 中的貨幣代碼
+## Adobe Experience Platform標籤中的貨幣代碼
 
 「貨幣代碼」是設定 Adobe Analytics 擴充功能時[!UICONTROL 一般]摺疊式功能表底下的欄位。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
-2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 貨幣代碼]欄位。
+1. 前往`experience.adobe.com`，然後在出現提示時登入。
+1. 選擇[!UICONTROL 啟動/資料收集]。
+1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 按一下所需的屬性。
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+1. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 貨幣代碼]欄位。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
@@ -42,12 +43,12 @@ ht-degree: 100%
 貨幣代碼會透過 Adobe Analytics 擴充功能中的內容資料變數傳遞至 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期間，在內容資料變數中設定貨幣代碼。
-2. 在 Adobe Analytics Admin Console 中建立報表套裝的處理規則。設定覆寫貨幣代碼變數的規則。
-3. 在呼叫 `trackState` 或 `trackAction` 時，將貨幣代碼傳遞至 `products` 變數。
+1. 在 Adobe Analytics Admin Console 中建立報表套裝的處理規則。設定覆寫貨幣代碼變數的規則。
+1. 在呼叫 `trackState` 或 `trackAction` 時，將貨幣代碼傳遞至 `products` 變數。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.currencyCode
+## AppMeasurement和資料收集自訂程式碼編輯器中的s.currencyCode
 
 `s.currencyCode` 變數為字串，包含代表頁面上貨幣的 3 個大寫字母代碼。
 
