@@ -2,11 +2,10 @@
 title: 瀏覽器寬度 - 分段
 description: 瀏覽器視窗的寬度 (像素)。
 exl-id: f0cb28b6-260b-4c3d-bbf8-17fae7ef22a0
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度會從影像要求中的 [`bw` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `window.innerWidth` 在瀏覽器中收集這項資料。如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform Launch)，此維度將可立即運作。如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在每次造訪的第一次點擊上包含 `bw` 查詢字串參數。
+此維度會從影像要求中的 [`bw` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `window.innerWidth` 在瀏覽器中收集這項資料。如果您使用AppMeasurement程式庫(例如透過Adobe Experience Platform中的標籤)，此維度會立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在每次造訪的第一次點擊上包含 `bw` 查詢字串參數。
 
 Adobe 會在造訪期間保存瀏覽器寬度。如果瀏覽器寬度在造訪期間有所調整，將不會記錄該調整。
 
