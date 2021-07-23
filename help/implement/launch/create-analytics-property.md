@@ -2,14 +2,14 @@
 title: 在標籤中建立Analytics屬性
 description: 使用標籤建立空間來自訂資料收集方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 56%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 建立Analytics標籤屬性
+# 建立Adobe Analytics標籤屬性
 
 Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud解決方案（包括Analytics）。 本頁面具體說明標籤管理員如何正確設定基本Adobe Analytics實作。
 
