@@ -5,10 +5,10 @@ uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace 基本知識
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '2014'
-ht-degree: 100%
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 | 因素 | 定義 | 影響因素 | 最佳化 |
 | --- | --- | --- | --- |
 | 區段複雜性 | 複雜的區段可能對專案效能造成重大影響。 | 會使區段增加複雜度的因素 (按影響程度由上往下排序) 包括： <ul><li>「包含」、「包含任何」、「符合」、「開始於」或「終止於」運算子 </li><li>連續區段，特別是使用維度限制 (「之內」/「之後」) 時 </li><li>區段使用的維度內不重複維度項目數量 (例如：具有 10 個不重複項目的頁面 =「A」，其速度會比具有 100000 個不重複項目的頁面 =「A」更快) </li><li>使用的不同維度數量 (例如：頁面 =「首頁」和頁面 =「搜尋結果」，其速度會比 eVar 1 =「紅色」和 eVar 2 =「藍色」更快)</li><li>多個「或」運算子 (而非「和」)</li><li>範圍各異的巢狀容器 (例如：「訪客」當中「造訪」內的「點擊」)</li></ul> | 雖然有些複雜度因素無法避免，但您可以尋找有哪些機會可降低您區段的複雜度。一般而言，區段條件越明確越好。例如：<ul><li>若使用容器，在區段頂端使用單一容器，其速度會比一系列巢狀容器更快。</li><li>若使用運算子，「等於」會比「包含」更快，而「等於任何」會比「包含任何」更快。</li><li>若使用多個條件，「和」運算子會比一系列「或」運算子更快。</li></ul> 盡可能將多個 OR 陳述式簡化為一個「等於任何」陳述式。<br><br>[分類](/help/components/classifications/c-classifications.md)也可協助將許多值併入精準的群組中，讓您可從這些群組建立區段。與包含許多 OR 陳述式或「包含」標準的區段相比，針對分類群組而劃分的效能較佳。 |
-| 視覺效果複雜度 (區段、量度、篩選條件) | 專案本身新增的視覺效果類型 (例如，流失率與自由表格對比) 對專案效能的影響不大。視覺效果的複雜度會增加處理時間。 | 增加視覺效果複雜度的因素包括：<ul><li>要求的資料範圍</li><li>套用的區段數；例如，用來作為自由表格列的區段</li><li>使用複雜區段</li><li>[自由表格的靜態項目列或欄](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=zh-Hant)</li><li>自由表格列所套用的篩選器</li><li>包含的量度數目，尤其是使用了區段的計算量度</li></ul> | 如果您注意到您的專案載入速度不如預期，可以的話，試著將一些區段取代為 eVar 和篩選器。<br><br>如果您發現自己持續使用公司重要資料點的區段和計算量度，請考慮改良實作，用更直接的方式擷取這些資料點。使用 Adobe Experience Platform Launch 之類的標記管理器和 Adobe 的處理規則，可以快速輕鬆地執行實作變更。 |
+| 視覺效果複雜度 (區段、量度、篩選條件) | 專案本身新增的視覺效果類型 (例如，流失率與自由表格對比) 對專案效能的影響不大。視覺效果的複雜度會增加處理時間。 | 增加視覺效果複雜度的因素包括：<ul><li>要求的資料範圍</li><li>套用的區段數；例如，用來作為自由表格列的區段</li><li>使用複雜區段</li><li>[自由表格的靜態項目列或欄](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=zh-Hant)</li><li>自由表格列所套用的篩選器</li><li>包含的量度數目，尤其是使用了區段的計算量度</li></ul> | 如果您注意到您的專案載入速度不如預期，可以的話，試著將一些區段取代為 eVar 和篩選器。<br><br>如果您發現自己持續使用公司重要資料點的區段和計算量度，請考慮改良實作，用更直接的方式擷取這些資料點。在Adobe Experience Platform中使用標籤和Adobe的處理規則，可讓實作變更快速而輕鬆地實作。 |
 | 報表套裝的大小 | 收集到報表套裝中的資料量。 | - | 洽詢您的實作團隊或 Adobe 專家，判斷是否有可行的實作改善項目能改善 Adobe Analytics 的整體使用體驗。 |
 | 同時查詢 | 貴組織同時間向 Adobe 要求的查詢數量。 每個組織同時間有權發出至少 5 個查詢。 | 如果報表所花的時間很長，通常是因為該報表與其他報表一起在佇列中。 這表示，貴組織針對特定報表套裝同時執行過多要求。 查詢可以來自 API 要求、報表 UI (Analysis Workspace、Reports &amp; Analytics、Report Builder 等)、已排程的專案、已排程的報表、已排程的警報以及同時發出報表要求的使用者。 | 在一天中更平均地分佈報表套裝的要求和排程。 此外，盡可能將您的要求轉移到非高峰時段。 星期一早上、星期二早上及每個月的第一天都是尖峰報告時間。 |
 | 資料中心容量 | 您和其他客戶在 Adobe 資料中心內共用的報告容量。 | 這會受到貴組織和其他組織在您的資料中心內同時發出的查詢數量所影響。 | 貴組織有權設定容量，而如果系統負載較輕，Adobe 會將更多容量轉移給您，這會超出您的權利限額。 |
