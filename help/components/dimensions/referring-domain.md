@@ -2,11 +2,10 @@
 title: 反向連結網域
 description: 訪客點進您的網站前所在的上層網域。
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '492'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '493'
+ht-degree: 95%
 
 ---
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 要使用此維度，必須在 Analytics 介面中進行設定，且需要影像要求中的資料。
 
-* 在您的實施作業中，此維度會從影像要求中的 [`r` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `document.referrer` 在瀏覽器中收集這項資料。如果您使用 AppMeasurement 程式庫 (例如，透過 Adobe Experience Platform Launch)，此維度將可立即運作。如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `r` 查詢字串參數。
+* 在您的實施作業中，此維度會從影像要求中的 [`r` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `document.referrer` 在瀏覽器中收集這項資料。如果您使用AppMeasurement程式庫(例如透過Adobe Experience Platform中的標籤)，此維度會立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `r` 查詢字串參數。
 * 在 Analytics 介面中，您必須設定報表套裝的[內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)。若未設定內部 URL 篩選器，則可能納入內部網域，或使外部網域無法顯示。
 
 Adobe 會在造訪期間保存反向連結網域。如果訪客在單次造訪中離開並點進了不同網域的連結，新值將會更新，並持續存在於剩餘的造訪中。如果您只想查看原始值，請參閱[原始反向連結網域](original-referring-domain.md)。
