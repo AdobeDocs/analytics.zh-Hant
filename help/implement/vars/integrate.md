@@ -2,10 +2,10 @@
 title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
-workflow-type: ht
-source-wordcount: '880'
-ht-degree: 100%
+source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 92%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ### 取得整合模組程式碼
 
-若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。取得模組程式碼的方法與所有實作方法相同，包括 Adobe Experience Platform Launch。
+若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。取得模組程式碼的方法與所有實施方法相同，包括Adobe Experience Platform中的標籤。
 
 1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
@@ -40,13 +40,15 @@ ht-degree: 100%
 
 ### 將整合模組放置在實作中
 
-若要在網站上實作整合模組，您必須擁有 Adobe Experience Platform Launch 的存取權。如果您使用舊版 JavaScript 實作，則需要您組織的網站原始碼的存取權。
+在您的網站上實作整合模組需要存取Adobe Experience Platform中的資料收集UI。 如果您使用舊版 JavaScript 實作，則需要您組織的網站原始碼的存取權。
 
-1. 使用您的 Adobe ID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
-2. 按一下您要編輯的 Launch 屬性。
-3. 按一下「擴充功能」標籤，然後按一下 Adobe Analytics 下方的設定。
-4. 開啟「使用自訂程式碼設定追蹤器」可摺疊功能表，然後按一下「&lt;/> 開啟編輯器」。
-5. 將整合模組程式碼貼到程式碼模組視窗中。完成後，請按一下儲存。
+1. 前往`experience.adobe.com`，然後在出現提示時登入。
+1. 選擇[!UICONTROL 啟動/資料收集]。
+1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 按一下您要編輯的標籤屬性。
+1. 按一下「擴充功能」標籤，然後按一下 Adobe Analytics 下方的設定。
+1. 開啟「使用自訂程式碼設定追蹤器」可摺疊功能表，然後按一下「&lt;/> 開啟編輯器」。
+1. 將整合模組程式碼貼到程式碼模組視窗中。完成後，請按一下儲存。
 
 ## 整合模組方法
 
