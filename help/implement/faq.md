@@ -2,10 +2,10 @@
 title: 實作常見問答
 description: 實作的相關常見問答，以及可提供更多資訊的連結。
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '502'
+ht-degree: 91%
 
 ---
 
@@ -23,7 +23,7 @@ Identity Service 會指派不重複的持續性識別碼，以便在 Experience 
 
 ## Adobe 的服務中斷是否會影響效能？
 
-否。 JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 AppMeasurement 程式庫。如果您使用 Adobe Experience Platform Launch，JavaScript 檔案會由 Akamai 託管，或於貴組織所決定的伺服器位置託管。
+否。 JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 AppMeasurement 程式庫。如果您在Adobe Experience Platform中使用標籤，則JavaScript檔案會由Akamai托管，或位於貴組織所決定的伺服器位置。
 
 ## 從瀏覽器傳送資料給 Adobe 服務會降低效能嗎？
 
@@ -33,7 +33,7 @@ AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再�
 
 有時組織會因為合約到期，或是需減少伺服器呼叫數而想要移除實作。
 
-* **使用 Launch 的實作**：在[!UICONTROL 「擴充功能」]標籤中停用或解除安裝 Adobe Analytics 擴充功能，然後進行發佈。
+* **在Adobe Experience Platform中使用標籤的實作**:在「擴充功能」標籤中停用或解除安裝Adobe Analytics  擴充功能，然後進行發佈。
 * **舊版 AppMeasurement 實作**：使用下列程式碼行取代 `s_code.js` 檔案的整個內容：
 
 ```js
