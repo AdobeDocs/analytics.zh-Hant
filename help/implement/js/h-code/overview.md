@@ -2,11 +2,10 @@
 title: H 程式碼 JavaScript 實施概述
 description: 瞭解在網站上實施 H 程式碼的工作流程。
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->不再支援此版本的資料彙集。請升級為 [Adobe Experience Platform Launch](../../launch/overview.md) 或 [JavaScript 適用的 AppMeasurement](../overview.md)。
+>不再支援此版本的資料彙集。升級至Adobe Experience Platform](../../launch/overview.md)或[JavaScript適用的AppMeasurement](../overview.md)中的[標籤。
 
 您必須擁有托管伺服器的存取權限，才能成功實施包含資料收集程式碼的頁面。下列步驟將帶領您進行基本的 Analytics H 程式碼實施。
 
