@@ -2,11 +2,10 @@
 title: dynamicAccountMatch
 description: dynamicAccountMatch 變數決定要在動態帳戶中查看的值。
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '126'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +13,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
-> 動態帳戶僅支援使用舊版 JavaScript 實施作業 (H Code)。目前的 AppMeasurement 程式庫或 Adobe Experience Platform Launch 不支援這些變數。
+> 動態帳戶僅支援使用舊版 JavaScript 實施作業 (H Code)。目前的AppMeasurement程式庫或Adobe Experience Platform中的標籤不支援這些變數。
 
 `dynamicAccountMatch` 變數是 `dynamicAccountList` 查看及比較值的值。如果 `dynamicAccountSelection` 未設定為 `true`，此變數會遭到忽略。
 
