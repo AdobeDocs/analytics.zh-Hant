@@ -2,11 +2,10 @@
 title: 疑難排解 H 程式碼實施
 description: 瞭解舊版 JavaScript 實施的一些常見問題。
 exl-id: 51d6e286-7008-4736-a196-bd8ac4e3e9cb
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '244'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '245'
+ht-degree: 88%
 
 ---
 
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> H 程式碼實施作業需要在 `<body>` 標記中參考程式碼，其他實施作業 (例如使用 Adobe Experience Platform Launch) 則需要在 `<head>` 標記中參考程式碼。
+>H程式碼實作需要在`<body>`標籤中參考程式碼，其他實作(例如在Adobe Experience Platform中使用標籤)則需要在`<head>`標籤中參考程式碼。
 
 Analytics 程式碼會建立不可見的 1x1 像素影像。以前，常見的實施做法是將 `s_code.js` 參考放在 `<head>` 標記中。將程式碼放在這裡，可避免影像以任何方式影響頁面配置。這樣還可以及早執行代碼，讓您更有效地計算部分頁面載入的頁面檢視數。
 
