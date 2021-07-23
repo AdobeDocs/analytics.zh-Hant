@@ -4,10 +4,10 @@ keywords: 點按資料流；資料摘要；資料摘要；資料摘要
 title: Analytics 資料摘要概觀
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 在使用資料摘要之前，請確認您符合下列所有需求。
 
 * 具備可用的 FTP 網站和憑證。資料摘要只能傳送至伺服器目的地。您的組織通常會提供 FTP 憑證。Adobe 可按照您的要求，以少量的儲存空間提供 FTP 位置。如想要求資料摘要的 FTP 目的地，請聯絡客戶服務。
-* 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱「實作使用指南」中的[在 Launch 中驗證和發佈實作](/help/implement/launch/validate-publish-prod.md)。
+* 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱實作使用手冊中的[驗證並發佈實作](/help/implement/launch/validate-publish-prod.md) 。
 * 您的帳戶為 Analytics 產品管理員，或者屬於具有資料摘要存取權的產品設定檔。
 
 ## 開始步驟
