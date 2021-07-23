@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 94%
+source-wordcount: '382'
+ht-degree: 91%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 94%
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
 + 在Adobe Experience Platform {#launch}中使用標籤實作Analytics
    + [標籤概述](launch/overview.md)
-   + [建立Analytics標籤屬性](launch/create-analytics-property.md)
+   + [建立Adobe Analytics標籤屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
