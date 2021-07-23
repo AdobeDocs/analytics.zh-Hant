@@ -2,17 +2,16 @@
 title: JavaScript 適用的 AppMeasurement
 description: 瞭解如何在不使用標籤管理系統的情況下使用 JavaScript 實施 Adobe Analytics。
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 89%
 
 ---
 
 # JavaScript 適用的 AppMeasurement
 
-JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方法。不過，隨著標籤管理系統日益普及，建議使用 [Adobe Experience Platform Launch](../launch/overview.md)。
+JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方法。不過，隨著標籤管理系統日益普及，建議在Adobe Experience Platform](../launch/overview.md)中使用[標籤。
 
 ## 使用 JavaScript 將資料傳送至 Adobe 的整體工作流程
 
