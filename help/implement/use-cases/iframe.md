@@ -2,10 +2,10 @@
 title: 搭配 iframe 使用 AppMeasurement
 description: 在 iframe 內時，存取 iframe 或上層頁面內的 Adobe Analytics 變數。
 exl-id: 59b9cd4f-8599-41ee-8b54-a6a556198ecd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '323'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 您可以參照來自下層和上層 iframe 的 AppMeasurement 變數。 您必須在 AppMeasurement 程式庫存在的相同位置定義所有變數。 以下範例說明如何在 iframe 內外設定基本 AppMeasurement 變數和方法。
 
-如果您使用 Adobe Experience Platform Launch，請確定追蹤器物件可在全域範圍存取。 請參閱 Launch 使用手冊中的「[Adobe Analytics 擴充功能概觀](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=zh-Hant)」。
+如果您在Adobe Experience Platform中使用標籤，請確定追蹤器物件可供全域存取。 請參閱[Adobe Analytics擴充功能概述](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html)。
 
 >[!CAUTION]
 >
