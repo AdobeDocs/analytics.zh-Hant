@@ -3,10 +3,10 @@ description: 在Adobe Analytics中建立資料收集的基本容器
 title: 建立報表套裝
 feature: 管理工具
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
-source-git-commit: b7d71e89c427f1f8ffe68beb1e83646c54e92825
+source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,4 +47,4 @@ ht-degree: 62%
 
 ## 後續步驟
 
-[在Adobe Experience Platform Launch中建立並設定Adobe Analytics的屬性](/help/implement/launch/create-analytics-property.md):建立管理Analytics實作的區域
+[建立Adobe Analytics標籤屬 ](/help/implement/launch/create-analytics-property.md)性：建立管理Analytics實作的區域
