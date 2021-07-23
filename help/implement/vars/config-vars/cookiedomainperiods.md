@@ -1,14 +1,13 @@
 ---
 title: cookieDomainPeriods
 description: 如果您的網域尾碼有句號，AppMeasurement 便可瞭解要儲存 Cookie 的網域。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 93%
 
 ---
-
 
 # cookieDomainPeriods
 
@@ -27,14 +26,16 @@ AppMeasurement 會查看網域和網域尾碼來判斷其 Cookie 位置。針對
 
 「網域週期」是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「Cookie」]設定追蹤器下方的欄位。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
-2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開 [!UICONTROL Cookies] 摺疊式功能表，便會顯示[!UICONTROL 網域句號]欄位。
+1. 前往`experience.adobe.com`，然後在出現提示時登入。
+1. 選擇[!UICONTROL 啟動/資料收集]。
+1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 按一下所需的屬性。
+1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+1. 展開 [!UICONTROL Cookies] 摺疊式功能表，便會顯示[!UICONTROL 網域句號]欄位。
 
 僅針對尾碼中包含句號的網域將此欄位設為 `3`。其他網域可將此欄位保留空白。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.cookieDomainPeriods
+## AppMeasurement 和 自訂程式碼編輯器中的 s.cookieDomainPeriods
 
 `cookieDomainPeriods` 變數為字串，通常僅針對尾碼中包含句號的網域設為 `"3"`。其預設值為 `"2"`，適用於大部分網域。
 
