@@ -1,11 +1,11 @@
 ---
 title: 舊版 Adobe Experience Cloud Debugger
-description: 安裝舊版 Adobe Experience Cloud Debugger。 此除錯工具會檢查 Analytics、Target、Advertising Cloud、Identity Service 和 Launch 的標籤。
+description: 安裝舊版 Adobe Experience Cloud Debugger。 此除錯工具會檢查Analytics、Target、Advertising Cloud、Identity Service和資料收集標籤的標籤。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '684'
-ht-degree: 100%
+source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 97%
 
 ---
 
@@ -35,7 +35,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 #### Chrome
 
-如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)，則可改用舊版除錯工具書籤小工具。
+如果您堅持不使用 [Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)，則可改用舊版除錯工具書籤小工具。
 
 1. 按一下右上方的三點圖示，然後前往書籤 > 書籤管理員。您也可以按下 `Ctrl` + `Shift` + `O` (Windows) 或 `Cmd` + `Shift` + `O` (Mac)。
 2. 在書籤管理員的右上方，按一下三點圖示，然後按一下「新增書籤」。
