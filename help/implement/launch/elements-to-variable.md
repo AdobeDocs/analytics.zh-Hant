@@ -2,10 +2,10 @@
 title: 將標籤資料元素對應至Analytics變數
 description: 將資料元素指派給 Analytics 變數，以便在 Analysis Workspace 中將它們當成維度使用。
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 62%
+source-wordcount: '492'
+ht-degree: 64%
 
 ---
 
@@ -30,20 +30,16 @@ ht-degree: 62%
 
 想在有資料元素的所有頁面上設定變數值，適合使用全域變數。
 
-1. 前往`experience.adobe.com`，然後在出現提示時登入。
-1. 選擇[!UICONTROL 啟動/資料收集]。
-1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 按一下[!UICONTROL 「擴充功能」標籤]，然後按一下 Adobe Analytics 擴充功能下方的[!UICONTROL 「設定」]。
 1. 按一下[!UICONTROL 「全域變數」]摺疊式選單，這會顯示指派全域變數的介面。
 
 ### 在規則中設定變數
 
-不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱Adobe Experience Platform資料收集檔案中的[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
+不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱Adobe Experience Platform標籤檔案中的[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)。
 
-1. 前往`experience.adobe.com`，然後在出現提示時登入。
-1. 選擇[!UICONTROL 啟動/資料收集]。
-1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 按一下[!UICONTROL 「規則」]標籤，然後按一下所需的規則 (或建立規則)。
 1. 按一下[!UICONTROL 「動作」]中的[!UICONTROL 「新增」]按鈕。
