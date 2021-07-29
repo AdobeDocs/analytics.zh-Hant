@@ -2,10 +2,10 @@
 title: trackingServer
 description: 決定影像要求的傳送位置。
 exl-id: bcc23286-4dd5-45ac-ac6f-7b60e95cb798
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 94%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 >
 >變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的不重複訪客計數可能會暫時激增。
 
-## Adobe Experience Platform Launch 中的追蹤伺服器
+## 在Adobe Experience Platform中使用標籤追蹤伺服器
 
 「追蹤伺服器」是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「一般」]設定追蹤器下方的欄位。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開[!UICONTROL 「一般」]設定追蹤器，如此可顯示[!UICONTROL 「追蹤伺服器」]欄位。
 
 如果此欄位留空，其預設值為 `[rsid].data.adobedc.net`。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.trackingServer
+## AppMeasurement 和 自訂程式碼編輯器中的 s.trackingServer
 
 `s.trackingServer` 變數是包含資料傳送位置的字串。
 
