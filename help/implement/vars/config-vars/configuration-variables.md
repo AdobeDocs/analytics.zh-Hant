@@ -2,10 +2,10 @@
 title: 設定變數
 description: 使用設定變數協助判斷資料的收集方式。
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 64%
+source-wordcount: '125'
+ht-degree: 68%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 64%
 
 在使用Adobe Experience Platform標籤的實作中，設定變數通常可透過設定Adobe Analytics擴充功能找到：
 
-1. 前往`experience.adobe.com`，然後在出現提示時登入。
-1. 選擇[!UICONTROL 啟動/資料收集]。
-1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下您要編輯的屬性。
 1. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
 
