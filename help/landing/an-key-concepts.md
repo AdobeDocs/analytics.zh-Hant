@@ -2,10 +2,10 @@
 description: 本節包含 Adobe Analytics 的重要概念、概念的簡短說明，以及主題其他詳細資訊的特定文件連結。
 title: Adobe Analytics - 重要概念
 exl-id: 359c6663-33fd-4491-8ea0-55cd9ae31859
-source-git-commit: 3867573780a791ec4cf2b2ceda33707d972f3f5c
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 100%
+source-wordcount: '1815'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | Data Warehouse | 用於儲存和自訂報表的原始、未處理資料複本，可供您透過篩選資料的方式來執行。非點擊層級。 | [Data Warehouse 首頁](/help/export/data-warehouse/data-warehouse.md) |
 | Adobe Mobile Services | 將整個 Adobe Experience Cloud 上行動應用程式的行動行銷功能集合在一起，讓您了解並改進使用者與應用程式的互動。 | [Mobile Services 首頁](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hant) |
 | Adobe Exchange資料連接器(前身為 Genesis) | 從協力廠商應用程式匯入追蹤資料至 Analytics，以便在同一中央位置呈現端對端的效能資訊。Adobe 計畫自 2021 年 8 月 1 日起終止 Data Connector 整合服務。 | [資料連接器首頁](/help/import/data-connectors/data-connectors-eol.md) |
-| Adobe Experience Platform Launch | Adobe 推出的下一代網站標籤與行動 SDK 管理功能。 | [Adobe Experience Platform Launch 首頁](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=zh-Hant) |
+| Adobe Experience Platform中的標籤 | Adobe 推出的下一代網站標籤與行動 SDK 管理功能。 | [標籤概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) |
 
 ## 重要術語 {#concept_E473ACBB8E4A42B4AC005538AC12F154}
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 | 實作指南 | 說明資料收集變數，並詳述如何在 JavaScript 中實作資料收集程式碼。 | [實作指南](/help/implement/home.md) |
 | App Measurement (s_code) | 全域變數管理 | [AppMeasurement](/help/implement/js/migrate-from-hcode.md) |
 | 應用程式 SDK | 可自訂套裝，包含應用程式設定檔的預先填入版本。 | <ul><li>[iOS 應用程式](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=zh-Hant)</li><li>[Android](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=zh-Hant)</li></ul> |
-| Adobe Experience Platform Launch | 請參閱 Analytics 工具。 |  |
+| Adobe Experience Platform中的標籤 | 請參閱 Analytics 工具。 |  |
 | VISTA | 可讓您套用伺服器端邏輯，以便在收集資料時變更或分段資料。 | [VISTA 規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md) |
 | 處理規則 | 能夠在 Analytics UI 中設定、修改與複製變數，以便變更所收集的資料。 | [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) |
 | 除錯工具選項 | 具備數個除錯程式和封包 Sniffer 可協助驗證您的實作情形，其中包括 Adobe Experience Cloud Debugger。 | [Adobe Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en) |
