@@ -1,14 +1,13 @@
 ---
 title: transactionID
 description: 此變數可用來將線上和離線資料連結在一起。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 94%
 
 ---
-
 
 # transactionID
 
@@ -22,11 +21,11 @@ ht-degree: 100%
 
 依預設，Adobe 會記住所有交易 ID 值 (連結和未連結) 達 90 天。如果您的離線互動程序超過 90 天，請聯絡客戶服務以要求延長期限。
 
-## Adobe Experience Platform Launch 中的交易 ID
+## 交易ID(在Adobe Experience Platform中使用標籤)
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定交易 ID，或依據規則進行設定。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -35,7 +34,7 @@ ht-degree: 100%
 
 您可以將交易 ID 設為任何字串值，包括資料元素。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.transactionID
+## AppMeasurement 和 自訂程式碼編輯器中的 s.transactionID
 
 `s.transactionID` 變數是包含交易唯一識別碼的字串。有效值包括長度最多 100 個位元組的英數字元。其預設值為空字串。
 
