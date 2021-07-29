@@ -2,11 +2,10 @@
 title: Numbers Suite
 description: 產生並操控數字以用於其他 JavaScript 變數。
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '638'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 94%
 
 ---
 
@@ -22,11 +21,11 @@ Numbers Suite 提供一系列 JavaScript 函數。其中包含下列外掛程式
 * **`randomNumber`**：產生具有特定位數的隨機數。如果您部署協力廠商標籤，而且想要防快取的隨機數，此外掛程式就相當實用。
 * **`twoDecimals`**：將數字捨入至最接近的百位數。此外掛程式適用於貨幣用途，可讓您將數字捨入至有效的貨幣值。
 
-## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
+## 在Adobe Experience Platform中使用標籤安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
@@ -38,11 +37,11 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
    * 動作類型：初始化 Numbers Suite
 1. 儲存並發佈規則的變更。
 
-## 使用 Launch 自訂程式碼編輯器安裝外掛程式
+## 使用 自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
