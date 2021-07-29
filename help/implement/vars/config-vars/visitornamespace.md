@@ -2,11 +2,10 @@
 title: visitorNameSpace
 description: 決定 Cookie 網域的淘汰變數。
 exl-id: 4fea35c0-9998-4438-a2ca-af65a35a449e
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '213'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 89%
 
 ---
 
@@ -22,18 +21,18 @@ ht-degree: 100%
 >
 > Adobe 建議您在網站上使用第一方 Cookie。第一方 Cookie 不使用此變數。
 
-## Adobe Experience Platform Launch 中的訪客命名空間
+## 使用Adobe Experience Platform中標籤的訪客命名空間
 
 [!UICONTROL 「訪客命名空間」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「Cookie」]設定追蹤器下方的欄位。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開[!UICONTROL 「Cookie」]設定追蹤器，如此可顯示[!UICONTROL 「訪客命名空間」]欄位。
 
 Adobe 建議您不要使用此欄位。請改用 `trackingServer` 和 `trackingServerSecure`。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.visitorNamespace
+## AppMeasurement 和 自訂程式碼編輯器中的 s.visitorNamespace
 
 `s.visitorNamespace` 變數是字串，其中包含每個組織特有的獨特值。從舊版 Adobe Analytics 下載舊版 AppMeasurement 程式庫時，此獨特值會自動包含在內。除非 `trackingServer` 和 `trackingServerSecure` 未設定，否則目前的 AppMeasurement 程式庫不會使用此變數。
 
