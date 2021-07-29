@@ -2,10 +2,10 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2429'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '2439'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
    * 自訂分析是自訂流量變數過去的名稱。
 * **KPI：**&#x200B;關鍵績效指標的縮寫。可協助企業瞭解其網站成效的量度。每個組織都有不同的 KPI，可衡量其不同方面業務的成效。請參閱實施作業使用手冊中的[建立解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * **延遲：**&#x200B;收集到資料的時間和資料可在報表中使用的時間之間的延後情況。一般報表套裝的延遲為 30-90 分鐘。請參閱技術說明使用手冊中的[延遲](/help/technotes/latency.md)。
-* **Launch：** Adobe 目前的實作解決方案 Adobe Experience Platform Launch 的簡稱。請參閱 Adobe Experience Platform Launch 使用手冊中的[概觀](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=zh-Hant)。
+* **Launch:** 不再作為辭彙使用。Adobe目前實作解決方案Adobe Experience Platform中舊版標籤名稱的縮短。 請參閱Adobe Experience Platform使用手冊中的[標籤概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
 * **清單 prop：**&#x200B;一種設定，可轉換一般流量變數以支援相同點擊中的多個值。如果已啟用此設定，任何自訂流量變數都可成為清單 prop。請參閱實施作業使用手冊中的 [prop](../implement/vars/page-vars/prop.md)。
 * **清單變數：**&#x200B;與轉換變數區分開的不同變數。清單變數支援相同點擊中的多個值，而變數值會保留在造訪中，類似於轉換變數。一個組織只能使用三個清單變數。請參閱實施作業使用手冊中的[清單](/help/implement/vars/page-vars/list.md)。
 * **登入公司**：貴組織所使用報表套裝的集合。某些組織擁有多個登入公司，適用於組織內的不同部門。
