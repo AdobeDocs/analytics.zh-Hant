@@ -1,11 +1,13 @@
 ---
 title: offlineThrottleDelay
 description: 建立裝置重新上線時的點擊頻率。
-translation-type: ht
-source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
+exl-id: fa484638-bb1f-4df9-9ba1-e9763fa6ad27
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '178'
+ht-degree: 86%
 
 ---
-
 
 # offlineThrottleDelay
 
@@ -13,11 +15,11 @@ source-git-commit: f313fd0c9ffda054a18ad1d457a74602b08e51fa
 
 當裝置重新上線時，儲存在裝置上的所有點擊都會傳送至 Adobe 資料收集伺服器。大量佇列的點擊可能會影響舊裝置的效能。使用 `offlineThrottleDelay` 變數來建立佇列點擊傳送至 Adobe 的頻率。
 
-## Adobe Experience Platform Launch 中的離線節流延遲
+## 在Adobe Experience Platform中使用標籤的離線節流延遲
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.offlineThrottleDelay
+## AppMeasurement 和 自訂程式碼編輯器中的 s.offlineThrottleDelay
 
 `s.offlineThrottleDelay` 變數是整數，代表 AppMeasurement 在多次傳送佇列點擊之間等待的毫秒數。其預設值為 `0`，表示所有佇列點擊會一次傳送。如果 `trackOffline` 是 `false`，此變數不會產生任何效用。
 
