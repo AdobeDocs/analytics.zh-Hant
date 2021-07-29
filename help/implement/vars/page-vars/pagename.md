@@ -2,11 +2,10 @@
 title: pageName
 description: 網站上各個頁面的名稱。
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 90%
 
 ---
 
@@ -20,11 +19,11 @@ ht-degree: 100%
 >
 >Adobe 資料收集伺服器會從所有 [連結追蹤](/help/implement/vars/functions/tl-method.md) 影像要求中移除此維度。如果您想要此點擊出現在連結追蹤點擊中，請考慮將維度複製到 [eVar](evar.md)。
 
-## Adobe Experience Platform Launch 中的頁面名稱
+## 在Adobe Experience Platform中使用標籤的頁面名稱
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定頁面名稱，或依據規則進行設定。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -33,7 +32,7 @@ ht-degree: 100%
 
 您可以將頁面名稱設為任何字串值，包括資料元素。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.pageName
+## AppMeasurement 和 自訂程式碼編輯器中的 s.pageName
 
 `s.pageName` 變數是字串，通常包含頁面的名稱。其最大值為 100 個位元組；超過上限的值會遭到截斷。此處的截斷包含當此變數為空白時回溯為 `pageURL` 的情況。
 
