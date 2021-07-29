@@ -2,11 +2,10 @@
 title: useLinkTrackSessionStorage
 description: 將連結追蹤資料存放在工作階段存放區中，而非 Cookie。
 exl-id: 3295195d-bfd6-4af9-9487-dc1ea6c3da23
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 90%
 
 ---
 
@@ -25,11 +24,11 @@ ht-degree: 100%
 
 AppMeasurement 會在傳送點擊至 Adobe 後，移除工作階段存放區連結追蹤資料。關閉瀏覽器標籤時，此資料也會自動過期。
 
-## 在 Adobe Experience Platform Launch 中使用連結追蹤工作階段存放區
+## 使用Adobe Experience Platform中的標籤來使用連結追蹤工作階段儲存
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.useLinkTrackSessionStorage
+## AppMeasurement 和 自訂程式碼編輯器中的 s.useLinkTrackSessionStorage
 
 `s.useLinkTrackSessionStorage` 變數是布林值，可判斷 AppMeasurement 是否將工作階段存放區用於連結追蹤資料，而非 `s_sq` Cookie。其預設值為 `false`。如果您想要 AppMeasurement 將工作階段存放區，而非 `true` Cookie，用於連結追蹤和 Activity Map，請將此變數設為 `s_sq`。
 
