@@ -2,10 +2,10 @@
 title: Adobe Analytics 技術文件指南
 description: Analytics 使用者指南和資源
 exl-id: f7a06f92-2144-4178-9080-7cb2f3e0e8e1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [![管理員](assets/admin_50px.png)](/help/admin/home.md) [管理指南](/help/admin/home.md) - 了解如何在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝、調整公司設定、執行資料控管、管理伺服器呼叫使用量，以及執行流量管理等功能。
 
-[![實作](assets/implement_50px.png)](/help/implement/home.md) [實作指南](/help/implement/home.md) – 自訂要收集的資料項目，發揮 Adobe Analytics 的最大效益。包括 [!UICONTROL Adobe Experience Platform Launch] 和 JavaScript 實作的相關內容。
+[![實作](assets/implement_50px.png)](/help/implement/home.md) [實作指南](/help/implement/home.md) – 自訂要收集的資料項目，發揮 Adobe Analytics 的最大效益。包括在Adobe Experience Platform和JavaScript實作中使用標籤。
 
 [![元件](assets/components_50px.png)](/help/components/home.md) [元件指南](/help/components/home.md) – 說明有助於彙整資料的實用功能。元件包括區段、計算量度、虛擬報表套裝、警報等。本指南也包含變數參考資訊，說明可使用的所有維度和度量。
 
@@ -27,9 +27,9 @@ ht-degree: 100%
 
 [![整合](assets/integrate_50px.png)](/help/integrate/home.md) [整合指南](/help/integrate/home.md) – 完成與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 和 Target) 的整合設定。
 
-[![串流 Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant) [串流 Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant) – 實施作業適用於串流媒體的 Adobe Analytics。包含 Media SDK 和 Media Collection API。
+[![串流 Media Analytics](assets/media_50px.png)](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant) [串流 Media Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html) – 實施作業適用於串流媒體的 Adobe Analytics。包含 Media SDK 和 Media Collection API。
 
-[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
+[![DWB](assets/workbench_50px.png)](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant) [Data Workbench 指南](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) – 了解 [!UICONTROL Data Workbench] 極富彈性的多通道強大功能。包含 [!UICONTROL Data Workbench 用戶端]、安裝、[!UICONTROL 資料集設定指南]，以及更多功能。
 
 [![技術說明](assets/technotes_50px.png)](/help/technotes/home.md) [Analytics 技術說明](/help/technotes/home.md) – 此知識庫包含不屬於特定分析工具或元件的實用文章。
 
