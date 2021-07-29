@@ -4,10 +4,10 @@ description: 判斷影像要求中為何看不到Activity Map資料
 feature: Activity Map
 role: User, Admin
 exl-id: 7f9e06ba-4040-483b-b18b-cdfe85bca486
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '266'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 檢查下列各項，確認有Activity Map元件：
 
 * **AppMeasurement版本**:Activity Map支援v1.6及更高版本。升級至最新穩定版的AppMeasurement時，可解決許多邊緣案例問題。
-* **Activity Map模組**:檢查檔 `AppMeasurement_Module_Activity_Map` 案中是否有模 `AppMeasurement.js` 組。如果您的實作使用Adobe Experience Platform資料收集(Launch)，請務必在&#x200B;**[!UICONTROL 連結追蹤]**&#x200B;下設定Analytics擴充功能時勾選&#x200B;**[!UICONTROL 啟用ClickMap]**。
+* **Activity Map模組**:檢查檔 `AppMeasurement_Module_Activity_Map` 案中是否有模 `AppMeasurement.js` 組。如果您的實作使用Adobe Experience Platform來收集資料，請確定在&#x200B;**[!UICONTROL 連結追蹤]**&#x200B;下設定Analytics擴充功能時已勾選&#x200B;**[!UICONTROL 啟用ClickMap]**。
 * **`s_sq` Cookie**:Activity Map取決於 `s_sq` 資料收集的Cookie。
    * 請確定`cookieDomainPeriods`變數已正確設定，尤其是針對`*.co.uk`或`*.co.jp`等區域網域。
    * 請確定`linkInternalFilters`變數已設為所需值。 如果點按的連結與內部篩選器不符，Activity Map會將其視為退出連結，而不會收集資料。
