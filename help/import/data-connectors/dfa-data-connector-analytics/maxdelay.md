@@ -1,14 +1,13 @@
 ---
 title: maxDelay
 description: 決定 AppMeasurement 在傳送影像要求之前，等待 DFA 回應的時間上限。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 154f7e34-39e7-4390-ae36-d4fbc998787f
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 92%
 
 ---
-
 
 # maxDelay
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 此變數僅用於使用 DFA Data Connector 的實施。即使是使用 DFA 的實施，此變數也是選用的。
 
-## 在 Adobe Experience Platform Launch 中的最大延遲
+## 在Adobe Experience Platform中使用標籤的最大延遲
 
-Launch 中沒有專用欄位可使用此變數。依照 AppMeasurement 語法，使用自訂代碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂代碼編輯器中的 s.maxDelay
+## AppMeasurement 和 自訂代碼編輯器中的 s.maxDelay
 
 `s.maxDelay` 變數是一個整數，代表 AppMeasurement 等待 DFA 回應的毫秒數。如果 AppMeasurement 未及時收到 DFA 的回應，則會在沒有 DFA 資料的情況下，將影像要求傳送至 Adobe。
 
