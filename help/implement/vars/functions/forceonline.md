@@ -1,14 +1,13 @@
 ---
 title: forceOnline
 description: 手動設定 AppMeasurement 的線上狀態。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 83%
 
 ---
-
 
 # forceOnline
 
@@ -20,11 +19,11 @@ ht-degree: 100%
 
 AppMeasurement 會自動偵測裝置的線上狀態。您可以使用 `forceOnline()` 方法強迫 AppMeasurement 將點擊視為裝置上線。此方法不採用任何引數，也不會傳回任何值。其唯一用途是覆寫 AppMeasurement 中的線上狀態。
 
-## Adobe Experience Platform Launch 中的強制上線
+## 在Adobe Experience Platform中使用標籤強制上線
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.forceOnline()
+## AppMeasurement 和 自訂程式碼編輯器中的 s.forceOnline()
 
 將 Analytics 物件實例化之後，您就可以在實施中的任何地方呼叫 `s.forceOnline()` 方法。
 
