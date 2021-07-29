@@ -2,9 +2,9 @@
 title: 在Adobe Experience Platform中使用標籤實作
 description: 了解如何使用標籤實作Adobe Analytics
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '360'
 ht-degree: 43%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 43%
 
 在 Adobe Analytics 的期限內，Adobe 提供數種不同的方式，可在您的網站上實施用於資料彙集的程式碼。Adobe目前的建議方法是透過Adobe Experience Platform中的標籤。
 
-Adobe Experience Platform資料收集中的標籤是標籤管理解決方案，可讓您部署Analytics程式碼及滿足其他標籤需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
+Adobe Experience Platform中的標籤是標籤管理解決方案，可讓您部署Analytics程式碼及滿足其他標籤需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
 具有有效Adobe Experience Cloud合約的所有客戶都可使用標籤。 如果您不確定您是否擁有存取權，請聯絡貴組織的任一位 Experience Cloud 系統管理員。
 
