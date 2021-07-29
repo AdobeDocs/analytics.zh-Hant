@@ -2,11 +2,10 @@
 title: pageType
 description: 判斷目前頁面是否為 404 錯誤。
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '135'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 83%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 >
 >請勿在非錯誤頁面上設定此變數。
 
-## Adobe Experience Platform Launch 中的頁面類型
+## 在Adobe Experience Platform中使用標籤的頁面類型
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.pageType
+## AppMeasurement 和 自訂程式碼編輯器中的 s.pageType
 
 `s.pageType` 變數是字串，而 `errorPage` 值是唯一的有效值。在網站上的任何錯誤頁面 (如 404 頁面) 上，將此變數設為此值。
 
