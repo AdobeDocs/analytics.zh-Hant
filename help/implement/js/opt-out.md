@@ -2,10 +2,10 @@
 title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 95%
+source-wordcount: '593'
+ht-degree: 96%
 
 ---
 
@@ -27,10 +27,8 @@ ht-degree: 95%
 
 貴組織的退出頁面取決於實作中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 變數值。
 
-* 在Adobe Experience Platform資料收集UI中：
-   1. 前往`experience.adobe.com`，然後在出現提示時登入。
-   1. 選擇[!UICONTROL 啟動/資料收集]。
-   1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+* 在資料收集UI中：
+   1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
    1. 按一下所需的屬性。
    1. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
    1. 按一下[!UICONTROL 「一般」]設定追蹤器，接著記下[!UICONTROL 「追蹤伺服器」]值。
