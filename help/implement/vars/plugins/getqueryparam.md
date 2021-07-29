@@ -2,11 +2,10 @@
 title: getQueryParam
 description: 擷取 URL 查詢字串參數的值。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
-translation-type: ht
-source-git-commit: 5a087087c8f54650173391bd7766bfdfd12ccb7e
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '928'
+ht-degree: 92%
 
 ---
 
@@ -18,13 +17,13 @@ ht-degree: 100%
 
 `getQueryParam` 外掛程式讓您可擷取 URL 中所含任何查詢字串參數的值。如需從登陸頁面 URL 擷取內部和外部促銷活動程式碼，此外掛程式非常有用。擷取搜尋詞或其他查詢字串參數時，它也很有用。
 
-此外掛程式提供完善的功能，可剖析複雜的 URL，包括雜湊和包含多個查詢字串參數的 URL。如果您的查詢字串參數需求很簡單，Adobe 建議使用 Launch 中的 URL 參數功能，或是 AppMeasurement 中包含的 [`Util.getQueryParam()`](../functions/util-getqueryparam.md) 方法。
+此外掛程式提供完善的功能，可剖析複雜的 URL，包括雜湊和包含多個查詢字串參數的 URL。如果您的查詢字串參數需求很簡單，Adobe建議使用Adobe Experience Platform中的標籤或AppMeasurement中包含的[`Util.getQueryParam()`](../functions/util-getqueryparam.md)方法，來使用URL參數功能。
 
-## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
+## 在Adobe Experience Platform中使用標籤安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
@@ -36,11 +35,11 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
    * 動作類型：初始化 getQueryParam
 1. 儲存並發佈規則的變更。
 
-## 使用 Launch 自訂程式碼編輯器安裝外掛程式
+## 使用 自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
