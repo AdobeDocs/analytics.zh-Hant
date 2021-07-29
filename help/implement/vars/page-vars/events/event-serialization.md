@@ -2,10 +2,10 @@
 title: 事件序列化
 description: 協助您去除網站上重複的量度。
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
-source-git-commit: 71581f49eb7ef13577a05c05daee737eeb9e6218
-workflow-type: ht
-source-wordcount: '337'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 93%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 100%
 >
 >如果您想要將 [`purchase`](event-purchase.md) 事件去重複化，請改用 [`purchaseID`](../purchaseid.md) 變數。
 
-## 在 Adobe Experience Platform Launch 中使用事件 ID
+## 在Adobe Experience Platform中使用標籤的事件ID
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件 ID 欄位，或依據規則進行設定。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 有效值是長度最多 20 個位元組的英數字元。 如果輸入的值超過 20 個位元組，系統會截斷至前 20 個位元組。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的使用事件 ID
+## AppMeasurement 和 自訂程式碼編輯器中的使用事件 ID
 
 事件序列化是 `s.events` 變數的一部分。在字串中使用冒號為每個事件指派 ID。
 
