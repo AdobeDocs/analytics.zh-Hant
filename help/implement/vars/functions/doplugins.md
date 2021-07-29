@@ -2,11 +2,10 @@
 title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '182'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 88%
 
 ---
 
@@ -19,11 +18,11 @@ ht-degree: 100%
 
 使用 `doPlugins` 變數來呼叫外掛程式程式碼，並在影像要求編譯並傳送至 Adobe 之前設定最終變數值。
 
-## Adobe Experience Platform Launch 中的外掛程式
+## 在Adobe Experience Platform中使用標籤的外掛程式
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼中的 s.doPlugins
+## AppMeasurement 和 自訂程式碼中的 s.doPlugins
 
 將變數 `s.doPlugins` 設為包含所需程式碼的函數。當您進行追蹤呼叫時，函數會自動執行。
 
