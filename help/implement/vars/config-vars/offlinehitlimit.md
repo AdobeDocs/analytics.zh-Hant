@@ -1,11 +1,13 @@
 ---
 title: offlineHitLimit
 description: 決定離線追蹤佇列的點擊數上限。
-translation-type: ht
-source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
+exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '158'
+ht-degree: 84%
 
 ---
-
 
 # offlineHitLimit
 
@@ -13,11 +15,11 @@ source-git-commit: 468f97ee61f5d573d07475836df8d2c313b29fb3
 
 `offlineHitLimit` 變數會將裝置本機儲存的點擊數加上上限。此變數僅適用於啟用 [`trackOffline`](trackoffline.md) 的情況。
 
-## Adobe Experience Platform Launch 中的離線點擊限制
+## 在Adobe Experience Platform中使用標籤的離線點擊限制
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.offlineHitLimit
+## AppMeasurement 和 自訂程式碼編輯器中的 s.offlineHitLimit
 
 `s.offlineHitLimit` 變數是整數，代表裝置離線時儲存的最大點擊數。如果未定義此變數，裝置離線時儲存的點擊數將沒有限制。
 
