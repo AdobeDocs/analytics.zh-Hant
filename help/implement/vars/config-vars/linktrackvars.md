@@ -2,11 +2,10 @@
 title: linkTrackVars
 description: 指定要將哪些變數納入連結追蹤影像要求中。
 exl-id: b884f6e9-45d9-49f0-ac74-ea6f4f01020a
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 77%
 
 ---
 
@@ -16,15 +15,15 @@ ht-degree: 100%
 
 此變數不適用於頁面檢視呼叫 ([`t()`](../functions/t-method.md) 方法)。
 
-## 使用 Adobe Experience Platform Launch 時連結追蹤呼叫中的變數
+## 在連結追蹤呼叫中使用Adobe Experience Platform中標籤的變數
 
-Launch 會根據介面中設定的變數在後端自動填入此變數，因此在使用 Launch 的實施中一律會設定。
+Adobe Experience Platform會根據介面中設定的變數，自動填入此變數，因此在使用Adobe Experience Platform中標籤的實施中一律會設定。
 
 >[!IMPORTANT]
 >
->如果您使用自訂程式碼編輯器在 Launch 中設定變數，也必須使用自訂程式碼在 `linkTrackVars` 中納入變數。
+>如果您使用自訂程式碼編輯器設定變數，也必須使用自訂程式碼在`linkTrackVars`中納入變數。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkTrackVars
+## AppMeasurement 和 自訂程式碼編輯器中的 s.linkTrackVars
 
 `s.linkTrackVars` 變數是字串，其中包含您要納入連結追蹤影像要求 (`tl()` 方法) 中的逗號分隔變數清單。若要在連結追蹤點擊中納入維度，以下兩個條件必須滿足：
 
