@@ -2,10 +2,10 @@
 title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 92%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 >
 >變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的不重複訪客計數可能會暫時激增。
 
-## Adobe Experience Platform Launch 中的 SSL 追蹤伺服器
+## 在Adobe Experience Platform中使用標籤的SSL追蹤伺服器
 
 [!UICONTROL 「SSL 追蹤伺服器」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「一般」]設定追蹤器下方的欄位。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開[!UICONTROL 「一般」]設定追蹤器，如此可顯示[!UICONTROL 「SSL 追蹤伺服器」]欄位。
 
 如果此欄位留空，其預設值為 [`trackingServer`](trackingserver.md) 變數中的值。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.trackingServerSecure
+## AppMeasurement 和 自訂程式碼編輯器中的 s.trackingServerSecure
 
 `s.trackingServerSecure` 變數是包含影像要求傳送位置的字串。它幾乎永遠是您網站的子網域。瀏覽器中的現代化隱私實務通常會使協力廠商 Cookie 變得不可靠。如果此變數留空，其會使用 `s.trackingServer` 變數中的值。
 
