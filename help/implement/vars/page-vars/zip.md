@@ -2,11 +2,10 @@
 title: zip
 description: 如果報表套裝設定允許，手動填入「郵遞區號」維度。
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '243'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 91%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 >
 > 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 「geo zip」]，便無法使用此變數。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)。
 
-## Adobe Experience Platform Launch 中的 Zip
+## 在Adobe Experience Platform中使用標籤進行Zip
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定郵遞區號，或依據規則進行設定。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 您可以將郵遞區號設為任何字串值，包括資料元素。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.zip
+## AppMeasurement 和 自訂程式碼編輯器中的 s.zip
 
 `s.zip` 變數是一個字串，通常包含郵遞區號，不過可以包含任何需要的值，長度最多 50 個位元組。
 
