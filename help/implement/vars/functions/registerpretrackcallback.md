@@ -1,14 +1,13 @@
 ---
 title: registerPreTrackCallback
 description: 將點擊傳送至 Adobe 前建立回呼函數。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '265'
+ht-degree: 90%
 
 ---
-
 
 # registerPreTrackCallback
 
@@ -24,11 +23,11 @@ ht-degree: 100%
 >
 > 對於在 `registerPreTrackCallback` 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。請避免這兩個函數之間的依賴關係。
 
-## Adobe Experience Platform Launch 中的註冊前置追蹤回呼
+## 在Adobe Experience Platform中使用標籤註冊前置追蹤回呼
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.registerPreTrackCallback
+## AppMeasurement 和 自訂程式碼編輯器中的 s.registerPreTrackCallback
 
 `s.registerPreTrackCallback` 是能將函數當作唯一引數的函數。巢狀函數會在影像要求傳送之前執行。
 
