@@ -2,10 +2,10 @@
 title: charSet
 description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 90%
+source-wordcount: '198'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,7 @@ Adobe 會使用 charSet 變數將傳入的資料轉換為 UTF-8，以便供 Anal
 
 「字元集」是設定 Adobe Analytics 擴充功能時[!UICONTROL 一般]摺疊式功能表底下的欄位。
 
-1. 前往`experience.adobe.com`，然後在出現提示時登入。
-1. 選擇[!UICONTROL 啟動/資料收集]。
-1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 字元集]欄位。
