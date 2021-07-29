@@ -1,14 +1,13 @@
 ---
 title: getTimeParting
 description: 測量特定動作發生的時間。
-translation-type: ht
-source-git-commit: 97778ee83cd44eaf2d14dd3e6891612eb99744a9
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '827'
+ht-degree: 95%
 
 ---
-
 
 # Adobe 外掛程式：getTimeParting
 
@@ -24,11 +23,11 @@ Analysis Workspace 提供類似且現成可用的維度，其格式與此外掛�
 >
 >此外掛程式 4.0+版本與先前版本有顯著的差別。Adobe 強烈建議您「從頭開始」實施此外掛程式。參考 4.0 版之前外掛程式的程式碼與此外掛程式的目前版本不相容。
 
-## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
+## 在Adobe Experience Platform中使用標籤安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
@@ -40,11 +39,11 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
    * 動作類型：初始化 getTimeParting
 1. 儲存並發佈規則的變更。
 
-## 使用 Launch 自訂程式碼編輯器安裝外掛程式
+## 使用 自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
@@ -53,7 +52,7 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
