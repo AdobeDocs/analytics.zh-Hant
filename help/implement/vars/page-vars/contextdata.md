@@ -1,14 +1,13 @@
 ---
 title: contextData
 description: 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '431'
-ht-degree: 100%
+exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 94%
 
 ---
-
 
 # contextData
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 上下文資料變數有助於開發團隊收集命名元素中的資料，而非編號變數。例如，與其要求開發團隊將頁面的作者指派給 `eVar10`，不如要求將頁面作者指派給 `s.contextData["author"]`。接下來，貴組織中的 Analytics 管理員就可以建立處理規則，將上下文資料變數與分析變數對應，以便進行報告。開發團隊最終只需擔心上下文資料變數，不必擔心 Adobe 提供的許多頁面變數。
 
-## Adobe Experience Platform Launch 中的上下文資料變數
+## 在Adobe Experience Platform中使用標籤的上下文資料變數
 
-Launch 沒有設定上下文資料變數的專屬位置。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI沒有設定上下文資料變數的專用位置。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.contextData
+## AppMeasurement 和 自訂程式碼編輯器中的 s.contextData
 
 `s.contextData` 變數不會直接取用值。請改為將此變數的屬性設為字串。
 
