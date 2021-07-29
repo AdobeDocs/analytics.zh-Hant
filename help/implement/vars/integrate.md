@@ -2,10 +2,10 @@
 title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 92%
+source-wordcount: '888'
+ht-degree: 93%
 
 ---
 
@@ -42,9 +42,7 @@ ht-degree: 92%
 
 在您的網站上實作整合模組需要存取Adobe Experience Platform中的資料收集UI。 如果您使用舊版 JavaScript 實作，則需要您組織的網站原始碼的存取權。
 
-1. 前往`experience.adobe.com`，然後在出現提示時登入。
-1. 選擇[!UICONTROL 啟動/資料收集]。
-1. 按一下「[!UICONTROL 前往Launch /資料收集]」，然後選取「[!UICONTROL 標籤]」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下您要編輯的標籤屬性。
 1. 按一下「擴充功能」標籤，然後按一下 Adobe Analytics 下方的設定。
 1. 開啟「使用自訂程式碼設定追蹤器」可摺疊功能表，然後按一下「&lt;/> 開啟編輯器」。
