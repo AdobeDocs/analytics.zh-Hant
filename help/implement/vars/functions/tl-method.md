@@ -2,11 +2,10 @@
 title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '606'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '616'
+ht-degree: 92%
 
 ---
 
@@ -16,20 +15,20 @@ ht-degree: 100%
 
 如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 已啟用，AppMeasurement 會自動呼叫 `tl()` 方法，以便傳送下載連結和退出連結追蹤資料。如果您的組織想進一步控制要追蹤的連結與其行為，可以手動呼叫 `tl()` 方法。自訂連結只能手動追蹤。
 
-## Adobe Experience Platform Launch 中的連結追蹤呼叫
+## 在Adobe Experience Platform中使用標籤的連結追蹤呼叫
 
-Launch 有設定連結追蹤呼叫的專用位置。
+資料收集UI有設定連結追蹤呼叫的專用位置。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 1. 在[!UICONTROL 「動作」]下方按一下「+」圖示
 1. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為「傳送信標」。
 1. 按一下 `s.tl()` 選擇鈕。
 
-您不能在 Launch 中設定任何選用引數。
+您無法在資料收集UI中設定任何選用引數。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.tl() 方法
+## AppMeasurement 和 自訂程式碼編輯器中的 s.tl() 方法
 
 當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.tl()` 方法。
 
