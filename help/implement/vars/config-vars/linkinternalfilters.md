@@ -2,11 +2,10 @@
 title: linkInternalFilters
 description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤。
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '340'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 93%
 
 ---
 
@@ -24,18 +23,18 @@ Activity Map 使用此變數來幫助確定哪些是您網站內部連結。。A
 >
 >`linkInternalFilters` 和[內部 URL 篩選器](/help/admin/admin/internal-url-filter-admin.md)是不同的功能，其目的也不同。`linkInternalFilters` 變數專門用於退出連結追蹤。內部 URL 篩選器是管理員設定，能協助處理反向連結網域之類的流量來源維度。
 
-## 對外連結 - Adobe Experience Platform Launch 中的永不追蹤
+## 對外連結 — 在Adobe Experience Platform中使用標籤永不追蹤
 
 「永不追蹤」欄位是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「連結追蹤」]設定追蹤器下方的逗號分隔篩選器清單 (通常是網域)。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]設定追蹤器，如此可顯示[!UICONTROL 「對外連結 - 永不追蹤」]欄位。
 
 針對您永遠不想以退出連結形式追蹤的篩選器，請將篩選器置入此欄位中請使用逗號 (不含空格) 分隔多個網域。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.linkInternalFilters
+## AppMeasurement 和 自訂程式碼編輯器中的 s.linkInternalFilters
 
 `s.linkInternalFilters` 變數是字串，其中包含您視為網站內部的篩選器 (如網域)。請使用逗號 (不含空格) 分隔多個篩選器。
 
