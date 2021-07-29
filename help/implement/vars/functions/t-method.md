@@ -2,11 +2,10 @@
 title: t
 description: 傳送頁面檢視追蹤呼叫給 Adobe。
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '269'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 86%
 
 ---
 
@@ -36,18 +35,18 @@ https://data.example.com/b/ss/examplersid/1/?v1=Example%20dimension%20value
 
 Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參數。接下來，資料收集伺服器會傳回透明的 1x1 像素影像，利用不可見的方式顯示在您的網站上。
 
-## Adobe Experience Platform Launch 中的頁面檢視追蹤呼叫
+## 在Adobe Experience Platform中使用標籤的頁面檢視追蹤呼叫
 
-Launch 有設定頁面檢視追蹤呼叫的專用位置。
+資料收集UI有設定頁面檢視追蹤呼叫的專用位置。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下「+」圖示
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為「傳送信標」。
 6. 按一下 `s.t()` 選擇鈕。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.t() 方法
+## AppMeasurement 和 自訂程式碼編輯器中的 s.t() 方法
 
 當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.t()` 方法。
 
