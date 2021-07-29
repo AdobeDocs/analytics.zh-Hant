@@ -2,11 +2,10 @@
 title: trackOffline
 description: 啟用或停用離線追蹤，變更 AppMeasurement 收集資料的方式。
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '264'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 91%
 
 ---
 
@@ -28,11 +27,11 @@ ht-degree: 100%
    * 如果無法連接 Adobe 資料收集伺服器，點擊會新增到裝置上的佇列。
    * 如果它可以連接 Adobe 資料收集伺服器，便會傳送裝置離線時的點擊和點擊佇列。
 
-## Adobe Experience Platform Launch 中的離線追蹤
+## 在Adobe Experience Platform中使用標籤進行離線追蹤
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.trackOffline
+## AppMeasurement 和 自訂程式碼編輯器中的 s.trackOffline
 
 `s.trackOffline` 是布林值，可啟用或停用離線追蹤。其預設值為 `false`。如果您要啟用離線追蹤，請將此值設定為 `true`。
 
