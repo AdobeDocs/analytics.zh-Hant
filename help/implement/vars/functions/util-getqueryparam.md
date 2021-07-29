@@ -2,11 +2,10 @@
 title: Util.getQueryParam
 description: 傳回查詢字串參數的值。
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '256'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -14,11 +13,11 @@ ht-degree: 100%
 
 瀏覽器 URL 中的查詢字串參數常包含 Analytics 的重要資料。使用 `Util.getQueryParam()` 方法可擷取查詢字串中的資料。
 
-## 在 Adobe Experience Platform Launch 中取得查詢字串參數資料
+## 在Adobe Experience Platform中使用標籤取得查詢字串參數資料
 
 您可以在資料元素中設定值，藉此取得查詢字串參數資料。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 資料元素]標籤，然後按一下所需的資料元素 (或建立資料元素)。
 4. 將 [!UICONTROL 「擴充功能」]下拉式清單設定為[!UICONTROL 「核心」]，並將[!UICONTROL 「資料元素類型」]設定為[!UICONTROL 「查詢字串參數」]。
@@ -26,7 +25,7 @@ ht-degree: 100%
 
 查詢字串參數值會儲存在資料元素中。接著，您可以參考規則中的資料元素來指派 Analytics 變數。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.Util.getQueryParam()
+## AppMeasurement 和 自訂程式碼編輯器中的 s.Util.getQueryParam()
 
 呼叫 `s.Util.getQueryParam()` 方法，從瀏覽器 URL 擷取查詢字串值。包含查詢字串參數的字串引數為必要項目。此方法會傳回字串，您可將其指派給 Analytics 變數：
 
