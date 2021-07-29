@@ -2,9 +2,9 @@
 title: 將資料層物件對應至資料元素
 description: 設定要從資料層讀取的標籤。
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '357'
 ht-degree: 57%
 
 ---
@@ -24,9 +24,7 @@ ht-degree: 57%
 
 [資](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 料元素是資料收集UI中的元件，可在整個工具中使用。您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
-1. 前往[experience.adobe.com](https://experience.adobe.com)，然後在出現提示時登入。
-1. 選擇&#x200B;**[!UICONTROL 啟動/資料收集]**。
-1. 按一下「**[!UICONTROL 前往Launch /資料收集]**」，然後選取「**[!UICONTROL 標籤]**」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
 1. 按一下&#x200B;**[!UICONTROL 「資料元素」]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 「新增資料元素」]**。
 
