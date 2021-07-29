@@ -2,9 +2,9 @@
 title: 驗證開發實施並發佈至生產環境
 description: 了解如何使用Adobe Experience Platform標籤將Adobe Analytics部署至生產環境。
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '692'
 ht-degree: 62%
 
 ---
@@ -35,9 +35,7 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 
 在驗證您可看到資料後，您可以將實施推送至網站的使用中版本。
 
-1. 前往[experience.adobe.com](https://experience.adobe.com)，然後在出現提示時登入。
-1. 選擇&#x200B;**[!UICONTROL 啟動/資料收集]**。
-1. 按一下「**[!UICONTROL 前往Launch /資料收集]**」，然後選取「**[!UICONTROL 標籤]**」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下您要在網站上實作的標籤屬性。
 1. 按一下&#x200B;**[!UICONTROL Publishing]**&#x200B;標籤，然後在開發欄中找到您的程式庫。
 1. 按一下程式庫上的下拉式清單，然後選取&#x200B;**[!UICONTROL 提交以進行核准]**。 在強制回應視窗上，按一下「**[!UICONTROL 提交]**」。
