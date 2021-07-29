@@ -2,10 +2,10 @@
 title: 將 Adobe Analytics 部署至開發環境
 description: 了解如何使用標籤將Adobe Analytics部署至開發環境。
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
-source-git-commit: 9b9a338e3652c85ae0f8ce79b98a2babf427ab4c
+source-git-commit: ea6812c8e596773abb8a05bbdb37bc641967c9b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 63%
+source-wordcount: '594'
+ht-degree: 59%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 63%
 
 標籤可在部署程式碼時配合許多組織工作流程。 請按照下列步驟，為 Analytics 實作建立最低必要元件。身為標籤管理員，您可以在組織內工作，為部署Adobe解決方案建立正確的工作流程。
 
-1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下您要在網站上實作的標籤屬性。
 3. 按一下轉接器標籤，然後按一下「新增轉接器」。
 4. 將其命名為「Akamai」，然後在類型下拉式選單中選取 Akamai。按一下「儲存」。
@@ -37,7 +37,7 @@ ht-degree: 63%
 
 儘管目前所做的所有變更和設定，但其實尚未發佈任何程式碼。建立程式庫 (大略轉譯為變更集合) 可讓您發佈要用於網站上的程式碼。
 
-1. 前往 [Adobe Experience Platform Launch](https://launch.adobe.com)，然後在出現提示時登入。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下您要在網站上實作的標籤屬性。
 3. 按一下發佈標籤，然後按一下「新增程式庫」。
 4. 將程式庫命名為「初始變更」，然後選取開發環境。
