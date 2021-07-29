@@ -2,7 +2,7 @@
 title: cookieDomain
 description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 87%
@@ -24,7 +24,7 @@ ht-degree: 87%
 
 只有少數實施需要用到 `cookieDomain` 變數，即使發生此情況，也可改用 [`cookieDomainPeriods`](cookiedomainperiods.md) 這類變數替代。
 
-## Adobe Experience Platform資料收集中的Cookie網域
+## 使用Adobe Experience Platform中標籤的Cookie網域
 
 資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
