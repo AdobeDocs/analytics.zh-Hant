@@ -2,11 +2,10 @@
 title: inList
 description: 檢查某值是否包含在另一個以字元分隔的值中。
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '743'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 95%
 
 ---
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 `inList` 外掛程式可讓您檢查某值是否已存在於分隔字串或 JavaScript 陣列物件中。有其他多種外掛程式依賴 `inList` 外掛程式才能運作。此外掛程式可提供比 JavaScript 方法 `indexOf()` 更明顯的優點，其不會比對字串的一部分。例如，如果您使用此外掛程式來檢查 `"event2"`，它將不會比對包含 `"event25"` 的字串。如果您不需要檢查分隔字串或陣列中的值，或您想要使用自己的 `indexOf()` 邏輯，就不需要此外掛程式。
 
-## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
+## 在Adobe Experience Platform中使用標籤安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
@@ -34,11 +33,11 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
    * 動作類型：初始化 inList
 1. 儲存並發佈規則的變更。
 
-## 使用 Launch 自訂程式碼編輯器安裝外掛程式
+## 使用 自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
@@ -47,7 +46,7 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /******************************************* BEGIN CODE TO DEPLOY *******************************************/
