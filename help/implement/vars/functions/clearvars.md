@@ -2,11 +2,10 @@
 title: clearVars
 description: 會清除例項物件中的下列值。此函數會移除元素 (即將其設為「未定義」)。
 exl-id: 8ecb2b2d-7b66-4232-b0ea-b8c6cdcc1515
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '172'
+ht-degree: 87%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 100%
 此方法不採用任何引數，也不會傳回任何值。其唯一用途是清除例項物件的變數值。此方法將下列元素設為 `undefined`：
 
 * `prop1` - `prop75`
-* `eVar` - `eVar250`
-* `hier1` - `hier5`
-* `list1` - `list3`
+* `eVar` -  `eVar250`
+* `hier1` -  `hier5`
+* `list1` -  `list3`
 * `events`
 * `products`
 * `channel`
@@ -29,17 +28,17 @@ ht-degree: 100%
 * `zip`
 * `campaign`
 
-## Adobe Experience Platform Launch 中的清除變數
+## 在Adobe Experience Platform中使用標籤清除變數
 
 設定規則時設定「清除變數」動作。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下「+」圖示
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「清除變數」]。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s.clearVars()
+## AppMeasurement 和 自訂程式碼編輯器中的 s.clearVars()
 
 將 Analytics 物件例項實例化之後，您就可以在實施中的任何地方呼叫 `s.clearVars()` 方法。
 
