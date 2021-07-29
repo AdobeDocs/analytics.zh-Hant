@@ -2,10 +2,10 @@
 title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: e76cf660bb14b8a69e44d300afcc4e712147de5b
-workflow-type: ht
-source-wordcount: '429'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 91%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 如果使用者代理程式位在桌上型電腦上，而且未偵測到任何滑鼠動作，則外掛程式可以
 
-* 發出[!UICONTROL 直接呼叫]規則呼叫 (針對 Adobe Experience Platform Launch)，或是
-* 發出 `s.tl` 呼叫來指示訪客不是機器人。
+* 在Adobe Experience Platform中使用標籤進行直接呼叫規則呼叫，或
+* 進行連結追蹤呼叫以指出訪客不是機器人。
 
 ## 先決條件
 
@@ -34,12 +34,12 @@ ht-degree: 100%
 * **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將到期時間設定為「**永不過期**」或「**造訪**」，並將配置設定為「**原始值 (優先)**」。 在以下兩個情況下都應該設定此 eVar：在引發[!UICONTROL 直接呼叫]規則或 `s.tl` 呼叫時。
 * **蒐集個別變數內的代理使用者**：蒐集個別變數內的代理使用者字串，以監視此外掛程式的功效。在每次點擊時，設定一個 eVar 為 `navigator.UserAgent` 用以蒐集此資料。
 
-## 使用 Launch 自訂程式碼編輯器安裝外掛程式
+## 使用 自訂程式碼編輯器安裝外掛程式
 
 1. 新增 `websiteBot` 規則。
 1. 使用此自訂程式碼將&#x200B;**滑鼠移動接聽程式**&#x200B;事件新增到 `websiteBot` 規則中：
 
-   ```
+   ```js
    trigger(document.addEventListener('mousemove', function detectMouseMove() {   
     document.removeEventListener('mousemove', detectMouseMove, false);   
     if (!
@@ -115,5 +115,5 @@ s.eVar1 = websiteBot ? "Bot detected" : "Not a bot";
 ### 0.11 (2021 年 6 月 3 日)
 
 * 已更新 AppMeasurement 外掛程式碼
-* 已使用擴充說明更新 Launch 章節。
+* 更新自訂程式碼編輯器章節，其中包含展開的指示。
 * 已更新「使用外掛程式」章節。
