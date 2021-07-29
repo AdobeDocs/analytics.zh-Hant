@@ -1,14 +1,13 @@
 ---
 title: getPreviousValue
 description: 取得最後一個傳至變數的值。
-translation-type: ht
-source-git-commit: a58e57438fdbac6f2e84c5f85388dff3a43dbd3b
-workflow-type: ht
-source-wordcount: '895'
-ht-degree: 100%
+exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '901'
+ht-degree: 95%
 
 ---
-
 
 # Adobe 外掛程式：getPreviousValue
 
@@ -18,11 +17,11 @@ ht-degree: 100%
 
 `getPreviousValue` 外掛程式可讓您將變數設定為先前點擊上設定的值。如果您的實施包含目前點擊中的所有所需值，就不需要此外掛程式。
 
-## 使用 Adobe Experience Platform Launch 擴充功能安裝外掛程式
+## 在Adobe Experience Platform中使用標籤安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
@@ -34,11 +33,11 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
    * 動作類型：初始化 getPreviousValue
 1. 儲存並發佈規則的變更。
 
-## 使用 Launch 自訂程式碼編輯器安裝外掛程式
+## 使用 自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 AdobeID 憑證登入 [launch.adobe.com](https://launch.adobe.com)。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
@@ -47,7 +46,7 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 ## 使用 AppMeasurement 安裝外掛程式
 
-Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實施中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
+Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，將下列程式碼複製並貼到 AppMeasurement 檔案中的任何位置。保留您實作中的程式碼備註和版本號碼，有助於 Adobe 疑難排解任何可能問題。
 
 ```js
 /* Adobe Consulting Plugin: getPreviousValue v3.0 */
