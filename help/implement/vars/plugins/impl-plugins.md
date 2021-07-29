@@ -2,11 +2,10 @@
 title: 外掛程式概述
 description: 將程式碼貼在您的網站上以引入新功能。
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '400'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '408'
+ht-degree: 84%
 
 ---
 
@@ -20,21 +19,21 @@ ht-degree: 100%
 
 Adobe 提供多種安裝指定外掛程式的方式：
 
-1. 使用 Adobe Experience Platform Launch 的「常用 Analytics 外掛程式」擴充功能
-2. 使用 Launch 自訂程式碼編輯器貼上外掛程式的程式碼
+1. 使用Adobe Experience Platform中的標籤，使用「常見Analytics外掛程式」擴充功能
+2. 使用 自訂程式碼編輯器貼上外掛程式的程式碼
 3. 將外掛程式的程式碼貼入您的 `AppMeasurement.js` 檔案中
 
 每個組織的實施需求均不同，您可以決定要如何將外掛程式納入實施中。在網站上加入程式碼時，請務必符合下列條件：
 
 1. 第一步為實例化 Analytics 追蹤物件 (使用 [`s_gi`](../functions/s-gi.md))。
-   * Adobe Analytics 載入時，Launch 會自動實例化追蹤物件。
+   * Adobe Analytics載入時，您的啟用標籤的網站會自動實例化追蹤物件。
    * 使用 `AppMeasurement.js` 的實施通常會在 JavaScript 檔案最上方初始化追蹤物件。
 2. 第二步為加入外掛程式的程式碼。
    * 「常用 Analytics 外掛程式」擴充功能具有動作設定，您可在其中初始化外掛程式。
    * 如果您不想使用擴充功能，可在設定 Analytics 擴充功能時，在自訂程式碼編輯器中貼上外掛程式程式碼。
-   * 如果您的實施不使用 Launch，可在實例化追蹤物件後，將外掛程式的程式碼貼入 `AppMeasurement.js` 中的任何位置。
+   * 如果您的實作未在Adobe Experience Platform中使用標籤，可在實例化追蹤物件後，將外掛程式的程式碼貼入`AppMeasurement.js`中的任何位置。
 3. 第三步為呼叫外掛程式。
-   * 所有實施 (包括 Launch 內部和外部) 都使用 JavaScript 來呼叫外掛程式。請使用該外掛程式頁面上記錄的格式呼叫外掛程式。
+   * 所有實施（包括啟用標籤的網站內外）都會使用JavaScript來呼叫外掛程式。 請使用該外掛程式頁面上記錄的格式呼叫外掛程式。
 4. 驗證您的實施並發佈。
 
 許多組織都使用 [`doPlugins`](../functions/doplugins.md) 函數呼叫外掛程式。雖然此函數並非必要項目，但 Adobe 認為使用此函數是最佳實務。AppMeasurement 會在編譯和傳送影像要求之前呼叫此函數，這是最理想的作法，因為有多個外掛程式相依於其他 Analytics 變數。
