@@ -2,10 +2,10 @@
 description: 說明 Adobe Analytics 的全新持續功能發行策略
 title: Adobe Analytics 功能發行
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
-workflow-type: ht
-source-wordcount: '418'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 ## 功能旗標
 
-功能旗標可用於控制新功能在發行期間的可見度。Adobe 建議將 app.launchdarkly.com 新增至防火牆的[允許清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant)，以便在發行期間提供最佳體驗。正式發行後不久，旗標將會移除。
+功能旗標可用於控制新功能在發行期間的可見度。Adobe建議將`app.launchdarkly.com`新增至防火牆的[允許清單](https://experienceleague.adobe.com/docs/analytics/technotes/ip-addresses.html?lang=zh-Hant)，以便在發行期間提供最佳體驗。 正式發行後不久，旗標將會移除。
 
 您可以隨時在&#x200B;**「說明 > 關於 Workspace > 有效功能旗標」**&#x200B;檢視有效的功能旗標。
 
