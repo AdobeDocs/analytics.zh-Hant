@@ -2,10 +2,10 @@
 title: Analytics 工具的產品設定檔權限
 description: 使用 Analytics 工具權限項目，以授予權限來存取 Adobe Analytics 中的功能。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ Analytics 工具權限項目會將存取權授予 Adobe Analytics 中的功能�
 | Analytics 工具權限項目 | 說明 |
 |----|----|
 | [!UICONTROL 伺服器呼叫使用量] | 授予「管理員 > 伺服器呼叫使用量」的存取權。 |
-| [!UICONTROL 代碼管理器] | 保留供舊版使用。 授予「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用Adobe Experience Platform資料收集中包含的程式庫。 |
+| [!UICONTROL 代碼管理器] | 保留供舊版使用。 授予「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用資料收集UI中包含的程式庫。 |
 | [!UICONTROL 代碼管理器 - 網站服務] | 透過 1.4 API 授予代碼管理器的存取權。 |
 | [!UICONTROL 記錄檔] | 授予「管理員 > 所有管理員 > 記錄檔」的存取權。  |
 | [!UICONTROL 記錄檔 - 網站服務] | 透過 1.4 API 授予提取記錄檔的存取權。 |
