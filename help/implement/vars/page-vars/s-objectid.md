@@ -2,11 +2,10 @@
 title: s_objectID
 description: 協助 Activity Map 辨識網站上的獨特連結。
 exl-id: 7c0cb750-2bfe-41ca-ab27-30dda4b3a7fa
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 94%
 
 ---
 
@@ -16,11 +15,11 @@ ht-degree: 100%
 
 如果 Activity Map 的正確性對貴組織至關重要，Adobe 建議您在網站上於連結的 `onClick` 事件中加入 `s_objectID` 變數。如需詳細資訊，請參閱「Analyze 使用指南」中的 [Activity Map 連結追蹤使用案例](/help/analyze/activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)。
 
-## Adobe Experience Platform Launch 中的物件 ID
+## 物件ID在Adobe Experience Platform中使用標籤
 
-Launch 中沒有使用此變數的專用欄位。依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## AppMeasurement 和 Launch 自訂程式碼編輯器中的 s_objectID
+## AppMeasurement 和 自訂程式碼編輯器中的 s_objectID
 
 `s_objectID` 變數是全域變數，表示它能獨立於 Analytics 追蹤物件 (預設為 `s`) 之外運作。此變數的有效值可以是任何字串，長度最多 100 個位元組。如果此變數未定義，Activity Map 會將連結 URL 當做連結的識別碼。
 
