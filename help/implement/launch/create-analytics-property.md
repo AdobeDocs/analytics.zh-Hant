@@ -2,10 +2,10 @@
 title: 在標籤中建立Analytics屬性
 description: 使用標籤建立空間來自訂資料收集方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
+source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 58%
 
 ---
 
@@ -24,9 +24,7 @@ Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud
 
 屬性是用來管理標籤的普遍容器。擴充功能可讓您安裝產品專屬標籤並加以設定。
 
-1. 前往[experience.adobe.com](https://experience.adobe.com)，然後在出現提示時登入。
-1. 選擇&#x200B;**[!UICONTROL 啟動/資料收集]**。
-1. 按一下「**[!UICONTROL 前往Launch /資料收集]**」，然後選取「**[!UICONTROL 標籤]**」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下 **[!UICONTROL 新增屬性]**。
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的標籤屬性以輸入其設定。
@@ -39,9 +37,7 @@ Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud
 
 資料元素是網站特定部分的參考，可用來收集變數值。
 
-1. 前往[experience.adobe.com](https://experience.adobe.com)，然後在出現提示時登入。
-1. 選擇&#x200B;**[!UICONTROL 啟動/資料收集]**。
-1. 按一下「**[!UICONTROL 前往Launch /資料收集]**」，然後選取「**[!UICONTROL 標籤]**」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下您要在網站上實作的標籤屬性。
 1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立新資料元素]**。
 1. 為資料元素執行下列設定：
@@ -62,9 +58,7 @@ Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud
 
 規則會將資料元素對映至 Analytics 變數值，並決定要在何時將這些值傳送至 Adobe 的伺服器。
 
-1. 前往[experience.adobe.com](https://experience.adobe.com)，然後在出現提示時登入。
-1. 選擇&#x200B;**[!UICONTROL 啟動/資料收集]**。
-1. 按一下「**[!UICONTROL 前往Launch /資料收集]**」，然後選取「**[!UICONTROL 標籤]**」。
+1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
 1. 按一下您要在網站上實作的標籤屬性。
 1. 按一下&#x200B;**[!UICONTROL 建立新規則]**&#x200B;並命名這新規則`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
