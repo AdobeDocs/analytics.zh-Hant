@@ -2,10 +2,10 @@
 description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 5238ea3393deb6bc1089460b44b46a8e5cd7ffd0
+source-git-commit: 711020fc00aaaf546b2daf343c28634f7a693b50
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 91%
+source-wordcount: '667'
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 十多年來，Adobe Analytics 致力於提供同級最佳的網頁與行銷分析解決方案，以符合客戶的需求。隨著技術和企業需求不斷演變，我們努力繼續提供符合最高標準的服務。很遺憾的是，支援這些整合作業的 API 不再符合標準，且不再適用於如今的 Adobe Analytics 技術基礎架構。
 
-**Adobe 計畫自 2021 年 8 月 1 日起**&#x200B;終止 Data Connector 整合服務。終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
+**自2021年8月1日起**,Adobe已停止Data Connectors整合。終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
 
 ## 我們為什麼要終止此功能？
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 ## 移除此功能對您有何影響？
 
-若您是 Adobe 合作夥伴，請到[這裡](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools)查看我們的文件，了解將整合服務移轉到全新 Adobe Exchange 計畫的詳細資訊。
+若您是 Adobe 合作夥伴，請到[這裡](https://adobeexchangeec.zendesk.com/hc/zh-tw/articles/360003867071-Adobe-Analytics-Integration-Tools)查看我們的文件，了解將整合服務移轉到全新 Adobe Exchange 計畫的詳細資訊。
 
 如果您是 Data Connector 客戶，且想申請移轉您所使用的整合服務，請&#x200B;*直接向整合合作夥伴提出所有申請*。透過客戶服務人員傳送申請給 Adobe 的效果將不如預期。
 
@@ -30,6 +30,8 @@ ht-degree: 91%
 如有其他問題或需要額外支援，請連絡 Adobe 客戶服務。
 
 ## Data Connector 合作夥伴狀態
+
+*最新更新：2021年8月2日(Hootsuite)*
 
 | 合作夥伴 | 狀態 |
 | --- | --- |
@@ -44,12 +46,12 @@ ht-degree: 91%
 | Apteligent | 即將停止使用 |
 | BlueHornet eMarketing Suite | 即將停止使用 |
 | Branch | 正移轉至 Exchange |
-| BrightEdge 2.0, BrightEdge, BrightEdge Express | 即將停止使用 |
+| BrightEdge 2.0、BrightEdge、BrightEdge Express | 即將停止使用 |
 | Bronto Software | 即將停止使用 |
 | CheetahMail by Experian | 正移轉至 Exchange |
 | ClickTale | 即將停止使用 |
 | Clicktale CA | 即將停止使用 |
-| Conductor 2.0，導體，導體有機量度 | 即將停止使用 |
+| Conductor 2.0、Conductor、Conductor Organic Metrics | 即將停止使用 |
 | ContactLab 2.0 (Contact Send Connector) | 即將停止使用 |
 | Coradiant TrueSight | 即將停止使用 |
 | D&amp;B Visitor Intelligence | 即將停止使用 |
@@ -70,11 +72,11 @@ ht-degree: 91%
 | Emarsys Xpress | 即將停止使用 |
 | Epsilon Harmony | 正移轉至 Exchange |
 | EveryoneSocial for Adobe Analytics | 即將停止使用 |
-| ExactTarget, ExactTarget 2.0 | 即將停止使用 |
+| ExactTarget、ExactTarget 2.0 | 即將停止使用 |
 | Fiksu | 即將停止使用 |
-| Foresee (v2.0), Foresee Feedback, Foresee Results | 即將停止使用 |
+| Foresee (v2.0)、Foresee Feedback、Foresee Results | 即將停止使用 |
 | Gigya | 即將停止使用 |
-| Hootsuite | 即將停止使用 |
+| Hootsuite | 正移轉至 Exchange |
 | hybris | 即將停止使用 |
 | Kampyle (現為 Medallia) Feedback Analytics (1.1) | 即將停止使用 |
 | Listrak | 正移轉至 Exchange |
@@ -101,10 +103,10 @@ ht-degree: 91%
 | WhatCounts Email | 即將停止使用 |
 | wywy | 即將停止使用 |
 | Yesmail Enterprise | 即將停止使用 |
-| 澤塔互動 | 即將停止使用 |
+| Zeta Interactive | 即將停止使用 |
 
 ## 例外：Adobe Campaign Classic
 
 2021 年 8 月 1 日當天的唯一例外為 Adobe Campaign Classic 整合。 這項整合將於 2022 年 3 月 1 日正式淘汰。
 
-在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 如果您使用此整合，則需在2022年3月1日前移至新的Campaign-Analytics連接器。 進一步了解[Adobe Campaign Classic檔案](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html)。
+在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 如果您在使用此整合服務，則需在 2022 年 3 月 1 日前移至新的 Campaign-Analytics 連接器。閱讀 [Adobe Campaign Classic 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=zh-Hant)並深入瞭解。
