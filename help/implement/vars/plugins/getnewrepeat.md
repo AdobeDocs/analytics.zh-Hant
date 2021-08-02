@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 追蹤新訪客與重複訪客的活動。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 95%
+source-wordcount: '788'
+ht-degree: 66%
 
 ---
 
@@ -69,42 +69,42 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ### 範例 #1
 
-下列程式碼會為新訪客將 s.eVar1 設為等於「New」值，並在訪客造訪網站的其餘時間內，持續將 s.eVar1 設為等於「New」值 (每次新呼叫)。
+下列程式碼會為新訪客將`eVar1`設為`"New"`值，並在訪客造訪網站的其餘時間內，持續將`eVar1`設為`"New"`值（每次新呼叫）。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 範例 #2
 
-如果訪客自上次呼叫 s.getNewRepeat() 以來的 31 分鐘到 30 天內回訪，下列程式碼會在訪客造訪網站的其餘時間內，將 s.eVar1 設為等於「Repeat」值，並繼續將 s.eVar1 設為等於「Repeat」的值 (每次新呼叫)。
+如果訪客自上次呼叫`getNewRepeat()`以來的31分鐘到30天內回訪，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"Repeat"`值，並持續將`eVar1`設為`"Repeat"`值（每次新呼叫）。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 範例 #3
 
-如果訪客自上次呼叫 s.getNewRepeat() 以來至少 30 天未造訪網站，下列程式碼會在訪客造訪網站的其餘時間內，將 s.eVar1 設為等於「New」值，並持續將 s.eVar1 設為等於「New」值 (每次新呼叫)。
+如果訪客自上次呼叫`getNewRepeat()`以來至少30天未造訪網站，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"New"`值，並持續將`eVar1`設為`"New"`值（每次新呼叫）。
 
 ```js
-s.eVar1=s.getNewRepeat();
+s.eVar1 = getNewRepeat();
 ```
 
 ### 範例 #4
 
-如果訪客自上次呼叫 s.getNewRepeat() 以來的 31 分鐘到 365 天 (即 1 年) 內回訪，下列程式碼會在訪客造訪網站的其餘時間內，將 s.eVar1 設為等於「Repeat」值，並繼續將 s.eVar1 設為等於「Repeat」的值 (每次新呼叫)。
+如果訪客自上次呼叫`getNewRepeat()`以來的31分鐘到365天（即1年）內回訪，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"Repeat"`值，並持續將`eVar1`設為`"Repeat"`值（每次新呼叫）。
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ### 範例 #5
 
-如果訪客自上次呼叫 s.getNewRepeat() 以來至少 365 天 (即 1 年) 未造訪網站，下列程式碼會在訪客造訪網站的其餘時間內，將 s.eVar1 設為等於「New」值，並持續將 s.eVar1 設為等於「New」值 (每次新呼叫)。
+如果訪客自上次呼叫`getNewRepeat()`以來至少365天（即1年）未造訪網站，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"New"`值，並持續將`eVar1`設為`"New"`值（每次新呼叫）。
 
 ```js
-s.eVar1=s.getNewRepeat(365);
+s.eVar1 = getNewRepeat(365);
 ```
 
 ## 版本記錄
