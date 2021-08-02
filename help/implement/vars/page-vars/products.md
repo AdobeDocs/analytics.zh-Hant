@@ -2,10 +2,10 @@
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 89%
+source-wordcount: '505'
+ht-degree: 82%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->如果您將此變數設定於點擊中，但 [`events`](events/events-overview.md) 變數中沒有購物車事件，則[產品檢視](/help/components/metrics/product-views.md)量度會增加 1。請確實在每個使用 `products` 變數的點擊上設定適當的購物車事件。
+>如果此變數設定於點擊中，但沒有[`events`](events/events-overview.md)變數，則[產品檢視](/help/components/metrics/product-views.md)量度會增加1。 請務必在每個點擊上使用`products`變數設定適當的事件。
 
 ## 在Adobe Experience Platform中使用標籤的產品
 
