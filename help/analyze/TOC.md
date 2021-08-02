@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-source-git-commit: 20e57f1bef787329d7b871edd9e337b57feeb4e9
-workflow-type: ht
-source-wordcount: '1012'
-ht-degree: 100%
+source-git-commit: 064674c3fa19f485850c4af6298c134d640d17bd
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 99%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 100%
          + [區段比較概觀](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
          + [區段比較使用案例](analysis-workspace/c-panels/c-segment-comparison/segment-compare-use-cases.md)
          + [區段比較中所使用的統計測試](analysis-workspace/c-panels/c-segment-comparison/statistical-test.md)
-   + 組織或共用專案 {#curate-share}
+   + 組織、共用和排程專案{#curate-share}
       + [共用功能表](analysis-workspace/curate-share/send-schedule-files.md)
       + [組織專案](analysis-workspace/curate-share/curate.md)
       + [共用專案](analysis-workspace/curate-share/share-projects.md)
@@ -268,7 +268,7 @@ ht-degree: 100%
    + [支援的系統和需求](activity-map/activitymap-sysreqs.md)
    + [Activity Map 常見問題集](activity-map/activitymap-faq.md)
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
-   + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
+   + [Activity Map 用戶介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
    + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
    + [疑難排解資料彙集](activity-map/troubleshoot-data-collection.md)
