@@ -4,10 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-translation-type: ht
-source-git-commit: 3fab253cb7c9aad0f0b1e82fee48a69822305099
-workflow-type: ht
-source-wordcount: '639'
+source-git-commit: 98463103e6e2ba19d11629d40dacc0c02f5b33c9
+workflow-type: tm+mt
+source-wordcount: '642'
 ht-degree: 100%
 
 ---
@@ -15,7 +14,7 @@ ht-degree: 100%
 
 # [!DNL Analytics] 元件指南 {#components}
 
-+ [Analytics 元件指南](home.md)
++ [Analytics Components 指南](home.md)
 + 維度 {#dimensions}
    + [維度概觀](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)
@@ -40,7 +39,7 @@ ht-degree: 100%
    + [日](dimensions/day.md)
    + [首次購買間隔天數](dimensions/days-before-first-purchase.md)
    + [上次購買間隔天數](dimensions/days-since-last-purchase.md)
-   + [上次存取間隔天數](dimensions/days-since-last-visit.md)
+   + [上次造訪間隔天數](dimensions/days-since-last-visit.md)
    + [網域](dimensions/domain.md)
    + [下載連結](dimensions/download-link.md)
    + [登入維度](dimensions/entry-dimensions.md)
@@ -54,7 +53,7 @@ ht-degree: 100%
    + [點擊類型](dimensions/hit-type.md)
    + [小時](dimensions/hour-of-day.md)
    + [小時](dimensions/hour.md)
-   + [識別狀態](dimensions/identified-state.md)
+   + [識別的狀態](dimensions/identified-state.md)
    + [Java 已啟用](dimensions/java-enabled.md)
    + [語言](dimensions/language.md)
    + [上次接觸管道](dimensions/last-touch-channel.md)
@@ -73,11 +72,11 @@ ht-degree: 100%
    + [頁面](dimensions/page.md)
    + [找不到頁面](dimensions/pages-not-found.md)
    + [付費搜尋](dimensions/paid-search.md)
-   + [永續性 Cookie 支援](dimensions/persistent-cookie-support.md)
+   + [永久性 Cookie 支援](dimensions/persistent-cookie-support.md)
    + [產品](dimensions/product.md)
    + [Prop](dimensions/prop.md)
    + [季別](dimensions/quarter-of-year.md)
-   + [季度](dimensions/quarter.md)
+   + [季](dimensions/quarter.md)
    + [反向連結類型](dimensions/referrer-type.md)
    + [反向連結](dimensions/referrer.md)
    + [反向連結網域](dimensions/referring-domain.md)
@@ -86,7 +85,7 @@ ht-degree: 100%
    + [搜尋引擎](dimensions/search-engine.md)
    + [搜尋關鍵字](dimensions/search-keyword.md)
    + [伺服器](dimensions/server.md)
-   + [單頁造訪次數](dimensions/single-page-visits.md)
+   + [單頁存取次數](dimensions/single-page-visits.md)
    + [網站區段](dimensions/site-section.md)
    + [事件之前時間](dimensions/time-prior-to-event.md)
    + [頁面逗留時間](dimensions/time-spent-on-page.md)
@@ -96,13 +95,14 @@ ht-degree: 100%
    + [US DMA](dimensions/us-dma.md)
    + [美國各州](dimensions/us-states.md)
    + [造訪深度](dimensions/visit-depth.md)
-   + [訪問次數](dimensions/visit-number.md)
+   + [造訪次數](dimensions/visit-number.md)
    + [週](dimensions/week.md)
    + [平日/週末](dimensions/weekday-weekend.md)
    + [年](dimensions/year.md)
    + [郵遞區號](dimensions/zip-code.md)
 + 量度 {#metrics}
    + [量度概觀](metrics/overview.md)
+   + [計算重複例項](metrics/count-repeat-instances.md)
    + [平均頁面深度](metrics/average-page-depth.md)
    + [每次造訪的平均頁面檢視](metrics/average-page-views-per-visit.md)
    + [平均工作階段長度](metrics/average-session-length.md)
@@ -133,12 +133,12 @@ ht-degree: 100%
    + [收入](metrics/revenue.md)
    + [搜尋](metrics/searches.md)
    + [單次存取](metrics/single-access.md)
-   + [單頁造訪次數](metrics/single-page-visits.md)
+   + [單頁存取次數](metrics/single-page-visits.md)
    + [每次造訪逗留時間](metrics/time-spent-per-visit.md)
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間概觀](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
-   + [唯一裝置](metrics/unique-devices.md)
+   + [不重複裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [件數](metrics/units.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
@@ -166,8 +166,8 @@ ht-degree: 100%
       + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
-   + [常見問題集](segmentation/seg-transition.md)
-   + [最佳作法](segmentation/best-practices.md)
+   + [常見問答](segmentation/seg-transition.md)
+   + [最佳實務](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
    + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
    + [作法影片](c-calcmetrics/cm-videos.md)
@@ -194,7 +194,7 @@ ht-degree: 100%
       + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
 + 虛擬報表套裝 {#virtual-report-suites}
-   + [虛擬報表套裝概觀](vrs/vrs-about.md)
+   + [虛擬報告套裝概觀](vrs/vrs-about.md)
    + [虛擬報表套裝元件管理](vrs/vrs-components.md)
    + [行動服務中的 VRS 支援](vrs/vrs-mobile-services.md)
    + [內容感知作業](vrs/vrs-mobile-visit-processing.md)
@@ -202,10 +202,10 @@ ht-degree: 100%
    + [VRS 常見問題集](vrs/vrs-faq.md)
    + [VRSS 和全域/多套裝標記考量事項](vrs/vrs-considerations.md)
    + VRS 工作流程 {#vrs-workflow}
-      + [虛擬報表套裝工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
-      + [建立虛擬報表套裝](vrs/c-workflow-vrs/vrs-create.md)
-      + [管理虛擬報表套裝](vrs/c-workflow-vrs/vrs-manage.md)
-      + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
+      + [虛擬報告套裝工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
+      + [建立虛擬報告套裝](vrs/c-workflow-vrs/vrs-create.md)
+      + [管理虛擬報告套裝](vrs/c-workflow-vrs/vrs-manage.md)
+      + [檢視虛擬報告套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
 + 跨裝置分析 {#cda}
    + [跨裝置分析概觀](cda/overview.md)
    + [依欄位彙整](cda/field-based-stitching.md)
@@ -250,8 +250,8 @@ ht-degree: 100%
 + 行銷管道 {#marketing-channels}
    + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
    + [搭配行銷管道使用 Attribution IQ](c-marketing-channels/mchannel-best-practices.md)
-   + [管理行銷渠道](c-marketing-channels/c-channels.md)
-   + [行銷渠道的處理規則](c-marketing-channels/c-rules.md)
+   + [管理行銷管道](c-marketing-channels/c-channels.md)
+   + [行銷管道的處理規則](c-marketing-channels/c-rules.md)
    + [行銷管道中的分類](c-marketing-channels/classifictions-mchannel.md)
    + [訪客參與有效期](c-marketing-channels/visitor-engagement.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
