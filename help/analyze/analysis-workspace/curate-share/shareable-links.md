@@ -6,7 +6,7 @@ feature: 監管與共用
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '296'
 ht-degree: 100%
 
@@ -14,17 +14,17 @@ ht-degree: 100%
 
 # 建立分享連結
 
-Analysis Workspace 提供許多與使用者共用專案的方式，包括取得專案連結或專案特定部分的功能。使用者收到連結後須先登入 Adobe Analytics，才能進入專案。
+Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專案連結或專案特定部分的功能。用戶收到連結後須先登入 Adobe Analytics，才能進入專案。
 
 ## 取得專案連結 {#project-link}
 
-若要分享完整專案的連結，請前往 **[!UICONTROL 「共用 > 取得專案連結」]**。如果連結收件者仍未獲指派[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員與非管理員使用者會分別收到&#x200B;**[!UICONTROL 「可編輯」]**&#x200B;和&#x200B;**[!UICONTROL 「可複製」]**&#x200B;的體驗。
+若要分享完整專案的連結，請前往 **[!UICONTROL 「共用 > 取得專案連結」]**。如果連結收件者仍未獲指派[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員與非管理員用戶會分別收到&#x200B;**[!UICONTROL 「可編輯」]**&#x200B;和&#x200B;**[!UICONTROL 「可複製」]**&#x200B;的體驗。
 
 ![](assets/get-project-link.png)
 
 ## 取得面板或視覺效果連結 {#panel-link}
 
-您也可以分享專案特定部分的連結，例如面板或個別視覺效果，有時也稱為內部連結。此功能有助於讓使用者專注於專案中重要的深入分析。
+您也可以分享專案特定部分的連結，例如面板或個別視覺效果，有時也稱為內部連結。此功能有助於讓用戶專注於專案中重要的深入分析。
 
 * 在面板的任一標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得面板連結」]**
 * 在任一表格或視覺效果的標題上按一下右鍵，並選取&#x200B;**[!UICONTROL 「取得視覺效果連結」]**
