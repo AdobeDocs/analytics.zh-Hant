@@ -6,7 +6,7 @@ feature: AI 工具
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
 ht-degree: 100%
 
@@ -51,13 +51,13 @@ ht-degree: 100%
 
 **收件者**
 
-指定可傳送警報的位置。警報可以傳送給 Analytics 使用者、Analytics 群組、原始電子郵件地址或電話號碼。
+指定可傳送警報的位置。警報可以傳送給 Analytics 用戶、Analytics 群組、原始電子郵件地址或電話號碼。
 
 >[!IMPORTANT]
 >
 >電話號碼前面必須加上「+」號和[國家/地區代碼](https://countrycode.org/)。
 
-一旦觸發警報，使用者收到的電子郵件顯示如下：
+一旦觸發警報，用戶收到的電子郵件顯示如下：
 
 ![](assets/alerts-email.PNG)
 
