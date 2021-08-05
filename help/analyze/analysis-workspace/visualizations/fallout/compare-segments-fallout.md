@@ -7,7 +7,7 @@ feature: 視覺效果
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
 ht-degree: 100%
 
@@ -41,17 +41,17 @@ ht-degree: 100%
 
 ## 將區段新增為接觸點 {#section_17611C1A07444BE891DC21EE8FC03EFC}
 
-如果您想查看美國使用者 (舉例來說) 的趨勢以及如何影響流失，只需將美國使用者區段拖曳至流失中：
+如果您想查看美國用戶 (舉例來說) 的趨勢以及如何影響流失，只需將美國用戶區段拖曳至流失中：
 
 ![](assets/segment-touchpoint.png)
 
-或者，您也可以將美國使用者區段拖曳至其他檢查點尚，用以建立 AND 接觸點。
+或者，您也可以將美國用戶區段拖曳至其他檢查點尚，用以建立 AND 接觸點。
 
 ## 比較流失率中的區段 {#section_E0B761A69B1545908B52E05379277B56}
 
 您可以在「流失」視覺效果中比較無數區段。
 
-1. 從左側的[!UICONTROL 「區段」]欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國使用者和非美國使用者。
+1. 從左側的[!UICONTROL 「區段」]欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國用戶和非美國用戶。
 1. 將這些區段拖曳至頂端的「區段」拖放區域。
 
    ![](assets/segment-drop.png)
