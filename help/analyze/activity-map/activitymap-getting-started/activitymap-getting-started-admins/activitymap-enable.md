@@ -1,12 +1,12 @@
 ---
-description: 說明若想啟用 Activity Map 連結收集和使用者下載，Analytics 管理員需要完成的步驟。
+description: 說明若想啟用 Activity Map 連結收集和用戶下載，Analytics 管理員需要完成的步驟。
 title: 啟用 Activity Map
 uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '403'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # 啟用 Activity Map{#enable-activity-map}
 
-說明若想啟用 Activity Map 連結收集和使用者下載，Analytics 管理員需要完成的步驟。
+說明若想啟用 Activity Map 連結收集和用戶下載，Analytics 管理員需要完成的步驟。
 
 ## 步驟 1.將 AppMeasurement (Javascript) 代碼更新至 v1.6 (或更高版本) {#section_5D1586289DF2489289B1B6C1C80C300D}
 
@@ -46,18 +46,18 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
 
    此步驟會新增收集資料所需的所有 Analytics 維度。
 
-1. 大約一小時後，查看[「Activity Map 頁面報表」](/help/analyze/activity-map/activitymap-reporting-analytics.md)，當中就會顯示使用者有點按連結的所有頁面。
+1. 大約一小時後，查看[「Activity Map 頁面報表」](/help/analyze/activity-map/activitymap-reporting-analytics.md)，當中就會顯示用戶有點按連結的所有頁面。
 
-## 步驟 3.新增使用者至 Activity Map 存取群組 {#section_4C7A47BB7DEF4AFFBC276392467F9675}
+## 步驟 3.新增用戶至 Activity Map 存取群組 {#section_4C7A47BB7DEF4AFFBC276392467F9675}
 
-1. 按一下&#x200B;**[!UICONTROL 「新增使用者至群組」]**。
+1. 按一下&#x200B;**[!UICONTROL 「新增用戶至群組」]**。
 
    這會將您帶往管理控制台中的群組管理頁面。
 
-1. [新增使用者到此群組](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hant)，然後&#x200B;**[!UICONTROL 儲存群組]**。
+1. [新增用戶到此群組](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hant)，然後&#x200B;**[!UICONTROL 儲存群組]**。
 
-1. 如此可讓您的管理員使用者從&#x200B;**[!UICONTROL 「Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Activity Map」]**&#x200B;下載 Activity Map。
+1. 如此可讓您的管理員用戶從&#x200B;**[!UICONTROL 「Adobe Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Activity Map」]**&#x200B;下載 Activity Map。
 
 >[!NOTE]
 >
-> 如果您希望非管理員使用者下載 Activity Map，請建立新的使用者群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map 存取」結合，提供下載和使用工具的權限。
+> 如果您希望非管理員用戶下載 Activity Map，請建立新的用戶群組，以提供「工具」和「舊版 ClickMap 安裝程式」的權限。此權限層級與「Activity Map 存取」結合，提供下載和使用工具的權限。
