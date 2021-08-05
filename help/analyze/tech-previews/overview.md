@@ -5,7 +5,7 @@ feature: Labs
 role: Admin
 exl-id: e5eafa04-f508-4330-b62a-113a60c5c4bb
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '435'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # [!UICONTROL Labs 使用指南]
 
-[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。]此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。它讓使用者運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。透過 Labs，您可以搶先使用 Adobe Analytics 創新功能，並根據您自己的業務使用案例和資料的內容評估即將推出的功能。
+[!UICONTROL Labs 可讓您更快速地建立早期構想的原型。]此功能結合了工具和程序，能夠以透明方式加速開發，並且以客戶為中心。它讓用戶運用新興技術參與互動、發掘有價值的深入分析資料，並影響未來的功能開發與優先項目。透過 Labs，您可以搶先使用 Adobe Analytics 創新功能，並根據您自己的業務使用案例和資料的內容評估即將推出的功能。
 
 ## 要求
 
