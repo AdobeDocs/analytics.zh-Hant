@@ -6,7 +6,7 @@ feature: 視覺效果
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從 Workspace 左上角圖示、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按一下右鍵選單來存取視覺效果。
+您可以從 Workspace 左上角圖示、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按一下右鍵功能表來存取視覺效果。
 
 ![](assets/viz-rail.png)
 
@@ -39,9 +39,9 @@ Analysis Workspace 中有以下視覺效果類型：
 | [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
 | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字來顯示選取的儲存格。 |
 | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字/百分比來顯示選取儲存格之間的變化。 |
-| [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將用戶定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
-| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個區段的度量重疊。 |
+| [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個區段的量度重疊。 |
 
 ## 設定 {#settings}
 
@@ -52,7 +52,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | 設定 | 說明 |
 | --- | --- |
 | 視覺效果類型 | 變更用來描繪資料的視覺類型。 |
-| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉選單中變更時間的詳細程度 (日、週、月等)。這項變更也適用於資料來源表。 |
+| 詳細程度 | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的詳細程度 (日、週、月等)。這項變更也適用於資料來源表。 |
 | 百分比 | 以百分比顯示值。 |
 | 100% 堆疊 | 區域圖堆疊、橫條圖堆疊、水平橫條圖堆疊等視覺效果的這項設定，會將圖表轉變為「100％ 堆疊」視覺效果。例如：![堆疊 100%](assets/stacked_100_percent.png) |
 | 可見圖例 | 允許您隱藏詳細的圖例文字，以顯示累加數/累加變化的視覺效果。 |
@@ -80,7 +80,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hant)。
 
-## 在選單上按一下右鍵 {#right-click}
+## 在功能表上按一下右鍵 {#right-click}
 
 在視覺效果標題按一下右鍵，可以使用視覺效果的其他功能。設定將依視覺效果而異。一些可用設定為：
 
