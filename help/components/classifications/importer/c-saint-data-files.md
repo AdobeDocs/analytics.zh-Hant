@@ -4,10 +4,10 @@ subtopic: Classifications
 title: 分類資料檔案
 feature: 管理工具
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1771'
-ht-degree: 100%
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
+workflow-type: tm+mt
+source-wordcount: '1785'
+ht-degree: 99%
 
 ---
 
@@ -179,6 +179,9 @@ ht-degree: 100%
 
 若要根據日期範圍來分類促銷活動：
 
+>[!IMPORTANT]
+>此選項無法用於為新分類架構啟用的報表套裝。
+
 1. 登入 [!DNL Analytics] 並前往「管理員 > 分類」。
 1. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]**&#x200B;標籤，確定啟用日期的分類設定正確，然後按一下「匯出檔案」。
 1. 在 Microsoft Excel 或您熟悉的其他試算表編輯器中開啟檔案。
@@ -202,5 +205,5 @@ ht-degree: 100%
 
 ## 分類的疑難排解
 
-* [常見的 上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)：說明因錯誤的檔案格式和檔案內容所引起問題的知識庫文章。
+* [常見的 上傳問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：說明因錯誤的檔案格式和檔案內容所引起問題的知識庫文章。
 
