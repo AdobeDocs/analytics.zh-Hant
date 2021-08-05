@@ -6,7 +6,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 3464c153-2db5-41af-9e83-da081ec64ad3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1028'
 ht-degree: 100%
 
@@ -14,9 +14,9 @@ ht-degree: 100%
 
 # 發佈至 Power BI - 概觀
 
-Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用分析結果。Adobe Analytics 與 Power BI 整合可讓您將 Microsoft Power BI 內的 Report Builder 分析資料視覺化，並在整個組織中輕鬆共用該資料。
+Microsoft Power BI 是一套商業分析儀表板，可分析資料及共用分析結果。Adobe Analytics 與 Power BI 整合可讓您將 Microsoft Power BI 內的 Report Builder 分析資料視覺化，並在整個組織中輕鬆共用該資料。
 
-以前，身為分析師的您會將 Report Builder 活頁簿建立排程，以透過電子郵件 (或 FTP) 散佈。現在，您可以讓企業使用者相關人士在各種平台與裝置皆可使用的網頁式環境中，存取 (從其 Power BI 帳戶內部) 精確且最新的資料。
+以前，身為分析師的您會將 Report Builder 活頁簿建立排程，以透過電子郵件 (或 FTP) 散佈。現在，您可以讓企業用戶相關人士在各種平台與裝置皆可使用的網頁式環境中，存取 (從其 Power BI 帳戶內部) 精確且最新的資料。
 
 結合 Report Builder 的報表產生功能與 Power BI 的視覺效果功能後，組織中的所有人便能更容易取得資訊。使用 Power BI，您還可以將 Adobe Analytics 與其他資料來源整合 (例如銷售點、CRM)，以發掘獨特的客戶分析資料、關聯及商機。
 
@@ -53,9 +53,9 @@ Microsoft Power BI 是一套商業分析控制面板，可分析資料及共用�
 
    ![](assets/workbooks-power-bi.png)
 
-1. 您現在可以檢視活頁簿控制面板資料。         ![](assets/view-data-pbi.png)
+1. 您現在可以檢視活頁簿儀表板資料。        ![](assets/view-data-pbi.png)
 
-1. 您可以接著釘選此活頁簿的某個區域，以將其包含在任何 Power BI 控制面板中。
+1. 您可以接著釘選此活頁簿的某個區域，以將其包含在任何 Power BI 儀表板中。
 
 ## 將活頁簿中所有格式化表格以 Power BI 資料集表格形式發佈。 {#section_7C54A54E75184DD6BAEF4ACCE241239A}
 
