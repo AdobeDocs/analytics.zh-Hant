@@ -5,8 +5,8 @@ title: FTP 匯入
 feature: 管理工具
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -43,12 +43,6 @@ ht-degree: 100%
 
 ## 透過 FTP 匯入分類 {#task_132C36830B69418B8C929E39838EF01D}
 
-<!-- 
-
-t_upload_a_saint_data_file_via_ftp.xml
-
- -->
-
 說明如何使用 FTP 帳戶將分類匯入 Adobe Analytics 的步驟。
 
 如需建立 FTP 帳戶的詳細資訊，請參閱[建立 FTP 帳戶](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
@@ -67,12 +61,6 @@ Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料
 ## 建立 FTP 帳戶 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。>
-
-<!-- 
-
-t_create_an_ftp_account.xml
-
- -->
 
 如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hant)。
 
