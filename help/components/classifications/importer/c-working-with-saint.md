@@ -5,11 +5,10 @@ title: 分類匯入程式 - 概觀
 feature: 管理工具
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '139'
+ht-degree: 88%
 
 ---
 
@@ -25,4 +24,4 @@ ht-degree: 100%
 >
 >Adobe 建議您將匯入和匯出上限設為 30 欄。
 
-請參閱[常見的 Saint 上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)：說明因不正確的檔案格式和檔案內容所引起問題的知識庫文章。
+請參閱[分類匯入工具疑難排解](/help/components/classifications/importer/troubleshooting.md)。 本主題說明因錯誤的檔案格式和檔案內容所引起的問題。
