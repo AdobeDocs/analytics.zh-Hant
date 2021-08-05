@@ -1,12 +1,12 @@
 ---
-description: 可讓您將使用者定義文字新增至您的 Workspace。
+description: 可讓您將用戶定義文字新增至您的 Workspace。
 title: 文字
 uuid: 904b7170-073f-44ea-9fcb-4019befcaf8a
 feature: 視覺效果
 role: User, Admin
 exl-id: ce6dc211-b705-4315-90f3-4c6f5586c00f
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
 ht-degree: 100%
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 
 ## 新增超連結 {#hyperlinks}
 
-若要新增超連結，請醒目顯示文字並按一下選單中的超連結圖示。超連結可連結到外部網站、文件頁面、[Workspace 專案/面板/視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)以及其他等，進一步協助您的項目收件者。
+若要新增超連結，請醒目顯示文字並按一下功能表中的超連結圖示。超連結可連結到外部網站、文件頁面、[Workspace 專案/面板/視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)以及其他等，進一步協助您的項目收件者。
 
 ![](assets/hyperlink.png)
 
 ## 新增影像 {#images}
 
-若要在專案中新增影像，請按一下選單中的影像圖示並插入公開的影像 URL。影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
+若要在專案中新增影像，請按一下功能表中的影像圖示並插入公開的影像 URL。影像 URL 必須可公開存取、以 `https` 開頭，且格式為 `.png`、`.jpeg`、`.jpg` 或 `.gif`。支持靜態和動畫影像。
 
 ![](assets/image.png)
