@@ -1,34 +1,34 @@
 ---
 title: Report Builder 常見問題集
-description: Report Builder的常見問題。
+description: Report Builder 常見問題。
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '423'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 # Report Builder 常見問題集
 
-關於Report Builder的常見問題。
+Report Builder 相關的常見問題。
 
-## 我可以在活頁簿中使用`TODAY()`或`DATERANGE()`函式嗎？
+## 我是否可以在活頁簿中使用 `TODAY()` 或 `DATERANGE()` 函數。
 
-Excel中的[`TODAY()`函式](https://support.microsoft.com/en-us/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9)會傳回當天。 [`DATEVALUE()`函式](https://support.microsoft.com/en-us/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252)將日期字串轉換為序列值。 雖然這對Excel中的許多功能很有幫助，但Adobe強烈建議不要將這些函式用於Report Builder排程請求。 Adobe客戶服務不支援使用上述任一功能來疑難排解請求。
+Excel 中的 [`TODAY()` 函數](https://support.microsoft.com/zh-tw/office/today-function-5eb3078d-a82c-4736-8930-2f51a028fdd9) 會傳回現在的日子。[`DATEVALUE()` 函數](https://support.microsoft.com/zh-tw/office/datevalue-function-df8b07d4-7761-4a93-bc33-b7471bbff252) 將日期字串轉換為序列值。雖然這對 Excel 許多功能很有幫助，但 Adobe 強烈建議不要將這些函數用於 Report Builder 排程請求。 Adobe 客戶服務不支援使用上述任何一項功能的疑難排解請求。
 
-排程報表會在可能不會將時區作為報表套裝的伺服器上處理。 使用者預期的`TODAY()`和處理伺服器使用的`TODAY()`通常可能不同。 此外，使用的日期是根據處理開始的時間。 如果同時執行許多報表，則請求日期與因延遲而開始處理日期之間可能會變更。 如果排程時間接近午夜，則會發生此問題。
+排程報表會在可能不會以報表套裝分享時區的伺服器上處理。 用戶預期的 `TODAY()` 與處理伺服器使用的 `TODAY()` 通常可能不同。 此外，使用的日期是根據處理開始的時間。如果同時執行許多報表，則請求日期與因延遲而開始處理日期之間可能會變更。 如果排程時間接近午夜，則會發生此問題。
 
-排程報表也會在可能不會共用日期語法的伺服器上處理。 例如，根據您的國家/地區，`7/1/YYYY`可以指7月1日或1月7日。 在此日期使用`DATEVALUE()`函式會根據執行該函式的電腦產生不同的序列值。
+排程報表也會在可能不會共用日期語法的伺服器上處理。 例如，根據您所在的國家/地區，`7/1/YYYY` 可能指 7 月 1 日或 1 月 7 日。 在此日期使用 `DATEVALUE()` 函數會根據執行該函數的電腦產生不同的序列值。
 
-除了使用這些Excel函式，Adobe強烈建議在Report Builder請求中使用日期範圍。 在請求精靈的第一頁，在下拉式清單中選取&#x200B;**[!UICONTROL 預設日期]**，然後在「常用日期」下方，選取&#x200B;**[!UICONTROL Today]**&#x200B;或其他需要的日期範圍。 此設定需要的是報表套裝執行時的時間，而非伺服器處理請求的時間。
+除了使用這些 Excel 函數外，Adobe 還強烈建議在 Report Builder 請求中使用日期範圍。在請求精靈的第一頁，在下拉式清單中選取&#x200B;**[!UICONTROL &#x200B;預設日期]**，然後在「常用日期」下方，選取 **[!UICONTROL &#x200B;Today]** &#x200B;或其他需要的日期範圍。 此設定會花時間在執行報表套裝，而不是花時間在伺服器處理請求上。
 
-## 我可以建立多大和複雜的活頁簿？
+## 我可以建立多大和多複雜的活頁簿？
 
-Report Builder支援的活頁簿最多達下列限制：
+Report Builder 支援的活頁簿的上限如下：
 
-* **1000個請求**:活頁簿在單一活頁簿中最多可包含1000個資料請求。如果您的報表或專案需要超過1000個請求，Adobe建議將它們分隔成多個活頁簿。
-* **每公司每小時2萬個請求**:Report Builder使用Analytics報表API來擷取資料。每個個別請求在建立或重新整理時都會使用API呼叫。 如果貴組織在指定小時內累積超過20,000個API呼叫，您必須等到下一小時再擷取資料。
-* **4小時處理時間**:排程報表在處理過去4小時後逾時。如果您的活頁簿含有許多使用大型資料集的複雜請求，排程報表可能會失敗。
+* **1000 個請求**：活頁簿在單一活頁簿中最多可包含 1000 個資料請求。如果您的報表或專案需要超過 1000 個請求，Adobe 建議將其分隔成多個活頁簿。
+* **每家公司每小時 2 萬個請求**： Report Builder 會使用 Analytics 報表 API 來擷取資料。每個個別請求在建立或重新整理時都會使用 API 呼叫。 如果您的組織在指定小時內累積超過 20,000 個 API 呼叫，您必須等到下一小時再擷取資料。
+* **4 小時處理時間**&#x200B;排程報表在處理經過 4 小時後逾時。如果您的活頁簿含有許多使用大型資料集的複雜請求，排程報表可能會失敗。
