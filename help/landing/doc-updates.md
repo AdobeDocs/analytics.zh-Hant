@@ -3,10 +3,10 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '415'
-ht-degree: 100%
+source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 71%
 
 ---
 
@@ -19,12 +19,30 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 * 如需新功能的詳細資訊，請參閱工具使用者指南中的 [Analysis Workspace 新功能](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md)。
 * 如需 Adobe Analytics for Audio and Video 的相關資訊，請參閱[在 Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
 
-## 重大更新詳細資訊
+## 重要檔案更新的詳細資訊
 
 | 日期 | 說明 |
 |---|---|
+| 2021 年 8 月 5 日 | [計算重複例項](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)的新主題 |
+| 2021 年 7 月 23 日 | [銷售eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入討論 |
+| 2021 年 7 月 15 日 | 在[Adobe Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hant)上新增檔案 |
+| 2021 年 6 月 15 日 | 更新[行銷管道最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
+| 2021 年 6 月 3 日 | 更新說明檔案，以便更妥善說明[資料摘要實施](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)和[此處](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)。  |
+| 2021年5月25日 | 更新報告 [ 中 ](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html?lang=zh-Hant)eVar 區分大小寫的說明檔案。  |
+| 2021 年 5 月 13 日 | [Data WarehouseAPI請求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)的更新。 他們現在支援「小時」。 |
+| 2021年3月4日 | 更新Adobe Analytics控制面板[執行指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html)和[組織者指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) |
+| 2021 年 3 月 25 日 | [資料修](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 復API更新（篩選URL、查詢字串、符號等） |
+| 2021 年 3 月 25 日 | 新[使用記錄API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)檔案 |
+| 2021 年 1 月 14 日 | 新增Analytics控制面板語言選取選項。 |
 | 2020 年11月 | 新的實作審核文件： <ul><li>[完整實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li></ul> |
+| 2020 年 10 月 23 日 | 新增Adobe Analytics控制面板檔案的增強功能。 現在，工作區中的行動計分卡樣式會與應用程式相符。 |
+| 2020 年 9 月 17 日 | 工作區[「媒體同時檢閱者」面板的新檔案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=zh-Hant) |
+| 2020 年 8 月 31 日 | 針對跨裝置分析中的[欄位匯整檔案](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html)新增增強功能。 |
 | 2020 年 7 月 21 日 | [跨裝置分析](/help/components/cda/overview.md)的主要更新和修訂項目。新增[依欄位彙整](/help/components/cda/field-based-stitching.md)。 |
+| 2021 年 6 月 18 日 | [的新檔案Attribution IQ:演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hant) |
+| 2021 年 6 月 18 日 | [的新檔案Attribution IQ:自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
+| 2020 年 5 月 31 日 | [大量資料插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)的新檔案 |
+| 2020 年 5 月 21 日 | [Adobe Analytics控制面板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)的新檔案 |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 3 月 12 日 | 為[將區段發佈至 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-publish.md) 新增更新內容。 |
 | 2020 年 3 月 12 日 | 更新 CDA 編結延遲。 |
@@ -38,7 +56,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
-| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
 | 2019 年 9 月 12 日 | [歷程 IQ：跨裝置分析](/help/components/cda/overview.md)的新文件 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/analyze/pwa/pwa.md)的相關新文章 |
