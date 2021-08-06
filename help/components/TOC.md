@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-source-git-commit: 17973777196ef101320f3d91e5b8e416a69721a6
+source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '646'
 ht-degree: 99%
 
 ---
@@ -233,6 +233,7 @@ ht-degree: 99%
       + [瀏覽器匯入](classifications/importer/browser-import.md)
       + [瀏覽器匯出](classifications/importer/browser-export.md)
       + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
+      + [FTP匯出](classifications/importer/ftp-export.md)
       + [處理時間](classifications/importer/processing-time.md)
       + [疑難排解](classifications/importer/troubleshooting.md)
    + 分類規則產生器 {#classifications-rulebuilder}
