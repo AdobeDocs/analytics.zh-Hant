@@ -1,14 +1,13 @@
 ---
 title: 地區資料收集
 description: 地區資料收集相關資訊
-translation-type: tm+mt
-source-git-commit: 731209e28dab9f17e06948614149a4c99938fdae
+exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
+source-git-commit: f3622023c6c86dd340dc5ce81f81f628da9fbe38
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 57%
+source-wordcount: '451'
+ht-degree: 60%
 
 ---
-
 
 # 地區資料收集
 
@@ -16,7 +15,7 @@ Adobe Experience Cloud 使用地區資料收集 (RDC) 功能，可讓您的使�
 
 >[!IMPORTANT]
 >
->「中國RDC（中國效能最佳化）附加元件套件」是Adobe Analytics的收費附加元件。 Adobe在中國大陸的效能最佳化可讓中國境內客戶將資料直接傳送至China edge節點，而非全球其他位置。 這可改善頁面載入時間和資料正確性，而非將資料傳送至中國境外的節點。 如需詳細資訊，請連絡您的Adobe銷售代表。
+>中國RDC（中國效能最佳化）附加元件套件是Adobe Analytics的收費附加元件。 Adobe在中國大陸的效能最佳化可讓中國境內的客戶直接將資料傳送至中國邊緣節點，而非傳送至全球其他位置。 這比將資料傳送至中國境外的節點，可改善頁面載入時間和資料準確度。 如需詳細資訊，請連絡您的Adobe銷售代表。
 
 RDC 目前包括下列位置 (可能隨時變更)：
 
@@ -26,9 +25,9 @@ RDC 目前包括下列位置 (可能隨時變更)：
 |---------------------|-------------------|
 | 預設 | 奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨, 中國* |
 
-Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `omtrdc.net` endpoints, then you have third-party data collection. 如果您在請求的 URL 中看到任一端點，即可判定出此結論。
+注意：如果您的Analytics影像要求傳送至`adobedc`、`2o7.net`或`omtrdc.net`端點，表示您有第三方資料收集。 如果您在請求的 URL 中看到任一端點，即可判定出此結論。
 
-*中國RDC需要China Add-On套件。 請參閱上述「重要」附註。
+*中國RDC需要中國附加元件套件。 請參閱上方的「重要」備注。
 
 ## 第一方 HTTPS 資料收集
 
@@ -40,17 +39,16 @@ Note: If your Analytics image request is sent to the `adobedc`, `2o7.net` or `om
 | 僅限亞太地區 | 孟買、新加坡、東京、雪梨 |
 | 僅限中國* | 北京 |
 
-*中國RDC需要China Add-On套件。 請參閱上述「重要」附註。
+*中國RDC需要中國附加元件套件。 請參閱上方的「重要」備注。
 
-請注意：Experience Edge Global 可為您的使用者提供最佳效能。如果您想要使用替代的RDC類型，請聯絡Adobe客戶服務以取得協助。
+請注意：Experience Edge Global 可為您的使用者提供最佳效能。如果您想使用替代的RDC類型，請聯絡Adobe客戶服務以取得協助。
 
 ## RDC 的優點
 
-| 好處 | 說明 |
+| 優點 | 說明 |
 | --- | --- |
-| 效能 | 透過RDC，您的訪客將連線至最接近的DCC。 如此可提供最快的回應時間，進而產生更精確的追蹤和更快的載入時間。 |
-| 備援 | 如果與DCC的通訊中斷，資料收集會自動路由至最近的DCC，以確保服務的連續性。 |
-| 備援 | 如果DCC與DPC之間的通訊中斷，Adobe的RDC基礎架構會將資料儲存在本機，然後在通訊恢復時將其轉送至DPC。 |
+| 效能 | 透過RDC，您的訪客將連線至最接近的DCC。 這可提供最快的回應時間，進而產生更精確的追蹤和更快的載入時間。 |
+| 備援 | 如果DCC和您的DPC之間的通訊中斷，Adobe的RDC基礎架構會將資料儲存在本機，然後在通訊還原時將資料轉送至DPC。 |
 
 ## RDC 的運作方式
 
