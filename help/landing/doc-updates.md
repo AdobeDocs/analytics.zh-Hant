@@ -3,7 +3,7 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 22f82125b5a0bb14c4446cb89b43889a3e4d8b5a
+source-git-commit: 185ea7f120d918db52233a321dfa629c6bc1c8ee
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 71%
@@ -22,7 +22,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 ## 重要檔案更新的詳細資訊
 
 | 日期 | 說明 |
-|---|---|
+| --- | --- |
 | 2021 年 8 月 5 日 | [計算重複例項](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)的新主題 |
 | 2021 年 7 月 23 日 | [銷售eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入討論 |
 | 2021 年 7 月 15 日 | 在[Adobe Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hant)上新增檔案 |
