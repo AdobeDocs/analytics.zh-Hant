@@ -2,10 +2,10 @@
 title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f8f81f034cf29151a705a0238d0055c72e7bc7b8
+source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 82%
+source-wordcount: '503'
+ht-degree: 77%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 82%
 
 ## AppMeasurement 和 自訂程式碼編輯器中的 s.products
 
-`s.products` 變數是字串，其中包含每個產品個別擁有的多個分隔欄位。每個產品在所有欄位中最多可包含 100 個位元組。在字串中以分號 (`;`) 分隔每個欄位。
+`s.products` 變數是字串，其中包含每個產品個別擁有的多個分隔欄位。在字串中以分號 (`;`) 分隔每個欄位。
 
-* **類別** (選用)：包羅萬象的產品類別。產品的分門別類由貴組織決定。
-* **產品名稱** (必要)：產品的名稱。
+* **類別** (選用)：包羅萬象的產品類別。產品的分門別類由貴組織決定。此欄位的最大長度為100個位元組。
+* **產品名稱** (必要)：產品的名稱。此欄位的最大長度為100個位元組。
 * **數量** (選用)：此產品在購物車內的數量有多少。此欄位僅適用於購買事件的點擊。
 * **價格** (選用)：小數形式的產品總價。如果數量超過一個，請將價格設定為總價，而非個別產品價格。調整此值的貨幣，使其與 [`currencyCode`](../config-vars/currencycode.md) 變數相符。請勿在此欄位中加入貨幣符號。此欄位僅適用於購買事件的點擊。
 * **事件** (選用)：與產品相連結的事件。請使用垂直號 (`|`) 分隔多個事件。如需詳細資訊，請參閱[事件](events/events-overview.md)。
@@ -44,11 +44,11 @@ ht-degree: 82%
 s.products = "Example category;Example product;1;3.50;event1=4.99|event2=5.99;eVar1=Example merchandising value 1|eVar2=Example merchandising value 2";
 ```
 
-此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。雖然每項產品有 100 個位元組的限制，但 `products` 變數的總長度為 64K。請在字串中以逗號 (`,`) 分隔每項產品。
+此變數支援同一個點擊中的多個產品，因此對於購物車和包含多種產品的購買活動非常有價值。整個`products`字串的最大長度為64K。 請在字串中以逗號 (`,`) 分隔每項產品。
 
 ```js
 // Set multiple products - useful for when a visitor views their shopping cart
-s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2,1,5.99";
+s.products = "Example category 1;Example product 1;1;3.50,Example category 2;Example product 2;1;5.99";
 ```
 
 >[!IMPORTANT]
@@ -99,11 +99,11 @@ s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;e
 如果使用`digitalData` [資料層](../../prepare/data-layer.md)，則可以迭代查看`digitalData.product`對象陣列：
 
 ```js
-for(var i=0; i<digitalData.product.length; i++) {
+for(var i = 0; i < digitalData.product.length; i++) {
     // Add individual product info to the product string
     s.products += digitalData.product[i].category.primaryCategory + ";" + digitalData.product[i].productInfo.productName;
     // If there are more products, add a comma
-    if(i != digitalData.product.length-1) {
+    if(i != digitalData.product.length - 1) {
         s.products += ",";
     }
 }
