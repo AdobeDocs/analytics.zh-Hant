@@ -3,10 +3,10 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 27b04baf5fff026261468678f4b1c49756b4636c
+source-git-commit: 784a2ab3bf825473c9ced7a1d79f2cc7bfc8f8e7
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 71%
+source-wordcount: '2859'
+ht-degree: 69%
 
 ---
 
@@ -47,8 +47,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 1 月 14 日 | 新增Analytics控制面板語言選取選項。 |
 | 2021 年 1 月 14 日 | 說明如何透過參考公用影像URL將影像新增至Workspace專案的檔案。 |
 | 2021 年 1 月 14 日 | 結合工作區視覺效果的來源與設定管理器：視覺效果的[!UICONTROL 資料來源]管理器（圓點）和設定管理器（齒輪）已整合至同一個彈出式視窗中，以便您在同一位置輕鬆管理來源和設定。 |
+| **2020年12月** |  |
+| 2020 年 12 月 7 日 | 修訂所有相關頁面，加入或取代「adobedc.net」端點。 |
+| 2020 年 12 月 8 日 | 更新工作區中的[建立新專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hant)頁面。 |
 | **2020 年11月** |  |
-| 2020 年11月 | 新的實作審核文件： <ul><li>[完整實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li></ul> |
+| 2020 年 11 月 24 日 | 更新工作區的[面板概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)頁面。 |
+| 2020 年 11 月 24 日 | 新的實作審核文件： <ul><li>[完整實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li></ul> |
+| 2020 年 11 月 24 日 | 更新Analysis Workspace [視覺效果概述](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)頁面。 |
+| 2020 年 11 月 12 日 | [繼承的Adobe Analytics實作](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=en)上的新頁面。 |
+| 2020 年 11 月 2 日 | 更新分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=en)的[FTP相關檔案。 |
 | **2020 年 10 月** |  |
 | 2020 年 10 月 23 日 | 工作區線條視覺效果：[移動平均趨勢線選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hant):已將此設定新增至[!UICONTROL Line]視覺效果趨勢線設定。 移動平均也稱為滾動平均，會使用特定數量的資料點 (由&#x200B;**[!UICONTROL 期間]**&#x200B;選項決定)、求取其平均值，並將平均值作為線條中的點。 |
 | 2020 年 10 月 23 日 | 工作區[效能說明頁面](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/optimizing-performance.html?lang=zh-Hant)顯示影響專案效能的不同因素，以及最佳化秘訣的連結。 |
@@ -94,12 +101,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 20 日 | 「說明」功能表新增Workspace偵錯工具，供您以更順暢的方式啟用，以偵錯Workspace請求。 [進一步了解...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 18 日 | 新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
 | 2020 年 2 月 12 日 | 更新及重新整理[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文件。 |
+| 2020 年 2 月 12 日 | 新增快捷鍵至[此Workspace頁面](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html) |
 | 2020 年 2 月 7 日 | 更新[設定跨裝置分析](/help/components/cda/setup.md)及[常見問答](/help/components/cda/faq.md) |
 | 2020 年 2 月 4 日 | 徹底重寫[實作使用者指南](/help/implement/home.md)。 |
 | 2020 年 1 月 22 日 | 更新「自由表格」頁面，加入新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的相關資訊。 |
 | **2020 年 1 月** |  |
+| 2020 年 1 月 24 日 | 更新工作區的[列設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en)頁面。 |
 | 2020 年 1 月 16 日 | [自由表格產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hant)上的新實作。 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
+| 2020 年 1 月 13 日 | 已修改[我應該使用](https://docs.adobe.com/content/help/zh-Hant/analytics/admin/admin-overview/which-analytics-tool.html)頁面的工具。 |
 | **2019年** |  |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
