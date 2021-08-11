@@ -2,22 +2,24 @@
 description: 說明全新登陸頁面如何在 Workspace 傘狀結構下的單一介面和接入點中，整合 Analysis Workspace 和 Reports & Analytics。
 title: 全新 Adobe Analytics 預設登陸頁面
 role: User, Admin
-source-git-commit: eda2a34d2431d01d4301d47e547b4aa9955f12a5
+source-git-commit: ebf11e981da25ab154968acda49456862f38874f
 workflow-type: tm+mt
 source-wordcount: '3046'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 # 全新 Adobe Analytics 預設登陸頁面
 
-Adobe Analytics的新登陸頁面將Analysis Workspace和Reports &amp; Analytics整合在「工作區」傘下的單一介面和存取點中。 此頁面特色是有一個全新的項目經理首頁、更新的報告功能表、現代化報告，以及一個全新學習區段，可幫助您更有效地快速入門。
+Adobe Analytics 全新登陸頁面將在 Workspace 傘狀結構下的單一介面和存取點中，整合 Analysis Workspace 和 Reports &amp; Analytics。 此頁面特色是有一個全新的項目經理首頁、更新的報告功能表、現代化報告，以及一個全新學習區段，可幫助您更有效地快速入門。
 
 新頁面能改善可發現性並引導 Reports &amp; Analytics 用戶，讓他們在 Workspace 獲得更好的報告體驗。
 
 >[!IMPORTANT]
 >
 >自2021年7月21日起，此登錄頁面將為公開測試版。 這是起始點選項。您也可以選擇使用原有的登陸頁面，無論是 Workspace 或 Reports 都可以。如果您確實決定選擇加入 Beta 版計劃，請瀏覽頁面並在螢幕上方按一下「**[!UICONTROL 提供回饋意見]**」，即可記錄您的回饋意見以及您發現的錯誤。您可以隨時選擇退出並返回 Beta 計劃。在 Beta 版用戶介面中完成的任何工作都會延續進入現有/目前的 Workspace 體驗中。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 ## 存取全新登陸頁面 {#access-landing}
 
