@@ -1,12 +1,12 @@
 ---
 title: Adobe Analytics 技術文件更新
-description: Adobe Analytics 文件存放庫的重大更新。
+description: Adobe Analytics檔案集的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
+source-git-commit: 75f83491c448df2e2f6b2083fcb533d86c1f215d
 workflow-type: tm+mt
-source-wordcount: '2930'
-ht-degree: 65%
+source-wordcount: '2886'
+ht-degree: 64%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 8 月 5 日 | 更新[範本](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[瀏覽器匯入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[瀏覽器匯出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分類檔案，指出新分類架構所啟用之報表套裝無法使用的選項。 |
 | 2021 年 8 月 2 日 | 更新多個頁面，以反映[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)的品牌重塑 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | [銷售eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入討論 |
+| 2021 年 7 月 23 日 | [銷售eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入探討 |
 | 2021 年 7 月 15 日 | 新增有關新[Adobe Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hant)的檔案 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 更新[行銷管道最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
@@ -70,19 +70,18 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 7 月 21 日 | [跨裝置分析](/help/components/cda/overview.md)的主要更新和修訂項目。新增[依欄位彙整](/help/components/cda/field-based-stitching.md)。 |
 | 2020 年 7 月 16 日 | 工作區中的新日期範圍預設集。 新增 4 個日期範圍：([!UICONTROL 本週/本月/本季/今年 [不包括今天]])。這可讓您選擇不包括今天部分資料的日期範圍。 |
 | **2020 年 6 月** |  |
-| 2020 年 6 月 25 日 | 工作區中的「快速深入分析」面板可為Analysis Workspace的非分析師和新使用者提供指引，了解如何快速輕鬆回答業務問題。 [進一步了解...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
-| 2020 年 6 月 25 日 | 工作區中的「Analytics for Target」面板可讓您輕鬆分析Adobe Target活動和體驗。 [進一步了解...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
+| 2020 年 6 月 25 日 | 工作區中[快速深入分析面板](/help/analyze/analysis-workspace/c-panels/quickinsight.md)的新檔案。 它為Analysis Workspace的非分析師和新使用者提供指引，協助他們了解如何快速輕鬆回答業務問題。 |
+| 2020 年 6 月 25 日 | 工作區中[Analytics for Target面板](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)的新檔案。 它可讓您提升度和自信地分析Adobe Target活動和體驗。 |
 | 2020 年 6 月 18 日 | [的新檔案Attribution IQ:演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hant) |
 | 2020 年 6 月 18 日 | [的新檔案Attribution IQ:自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows) |
-| 2020 年 6 月 18 日 | 共用 Workspace 專案的專案角色. 共用 Workspace 專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) |
-| 2020 年 6 月 18 日 | 關於如何只以「可檢視」形式與使用者共用工作區專案的檔案。 「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant) |
-| 2020 年 6 月 18 日 | 共用工作區專案專案角色的新檔案。 共用 Workspace 專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
-| 2020 年 6 月 18 日 | 僅限檢視的工作區專案：工作區專案只能以「可檢視」的形式與使用者共用。 「檢視」收件者開啟共用專案時，能獲得限制較嚴格的專案體驗，除了沒有左側邊欄，互動也會受限。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html) |
-| 2020 年 6 月 18 日 | 可共同編輯 Workspace 專案. 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
+| 2020 年 6 月 18 日 | 共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)新檔案。 共用 Workspace 專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
+| 2020 年 6 月 18 日 | [「僅限檢視」Workspace專案的新檔案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant)。 專案只能以「可檢視」的形式與使用者共用。 「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側邊欄，互動也會受限。 |
+| 2020 年 6 月 18 日 | 有關共用工作區專案[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新檔案。 共用 Workspace 專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
+| 2020 年 6 月 18 日 | [共同編輯工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新檔案。 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。無論管理員或非管理人員均可適用。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | [大量資料插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)的新檔案 |
 | 2020 年 5 月 21 日 | [Adobe Analytics控制面板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)的新檔案 |
-| 2020 年 5 月 21 日 | Analysis Workspace協助工具改善說明檔案，包括改善鍵盤導覽、顏色對比和螢幕助讀程式支援。 [進一步了解...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-Hant) |
+| 2020 年 5 月 21 日 | [協助工具改善](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/workspace-faq/aw-accessibility.html?lang=zh-Hant)至Analysis Workspace的新檔案，包括改善鍵盤導覽、顏色對比和螢幕助讀程式支援。 |
 | **2020 年 4 月** |  |
 | 2020 年 4 月 28 日 | 新增[「內容速度」](/help/components/metrics/content-velocity.md)量度的文件。 |
 | 2020 年 4 月 16 日 | 說明如何從空白狀態自動建立[!UICONTROL 自由表格]的檔案。 以前您必須先新增自由表格，無法直接將元件拖放到空白專案或空白面板中。現在，您可以直接將元件拖放至空白的專案或面板，由系統自動以建議的格式為您建立自由表格。此外，新版也已改善混合元件類型 (例如維度和量度) 一併放入空白[!UICONTROL 自由表格]時的處理方式。 |
