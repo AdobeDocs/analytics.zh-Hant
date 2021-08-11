@@ -3,10 +3,10 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件存放庫的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 5d10cf7728d63f7d772061b2e917ba6332bacf3c
+source-git-commit: 925435a475be13103c5b26255bb7910d259ff7e7
 workflow-type: tm+mt
-source-wordcount: '2845'
-ht-degree: 68%
+source-wordcount: '2930'
+ht-degree: 65%
 
 ---
 
@@ -41,10 +41,10 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 3 月 25 日 | [資料修](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 復API更新（篩選URL、查詢字串、符號等） |
 | 2021 年 3 月 25 日 | 新[使用記錄API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md)檔案 |
 | **2021 年 2 月** |  |
-| 2021 年 2 月 4 日 | 元件選擇：在[!UICONTROL Quick Insights]中找到的下拉/下拉區元件將新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選元件，或繼續將該空間作為下拉區域使用。 |
+| 2021 年 2 月 4 日 | 元件選擇：在[!UICONTROL Quick Insights]中找到的下拉/下拉區元件已新增至[!UICONTROL Workspace]中的所有下拉區。 此增強功能可讓您從相容元件的下拉式清單中挑選元件，或繼續將空間作為下拉區域使用。 |
 | **2021 年 1 月** |  |
-| 2021 年 1 月 14 日 | 新增Analytics控制面板語言選取選項。 |
-| 2021 年 1 月 14 日 | 說明如何透過參考公用影像URL將影像新增至Workspace專案的檔案。 |
+| 2021 年 1 月 14 日 | 在Analytics控制面板檔案中新增語言選取選項。 |
+| 2021 年 1 月 14 日 | 已新增檔案，說明如何透過參考公用影像URL將影像新增至Workspace專案。 |
 | 2021 年 1 月 14 日 | 結合工作區視覺效果的來源與設定管理器：視覺效果的[!UICONTROL 資料來源]管理器（圓點）和設定管理器（齒輪）已整合至同一個彈出式視窗中，以便您在同一位置輕鬆管理來源和設定。 |
 | **2020年12月** |  |
 | 2020 年 12 月 7 日 | 修訂所有相關頁面，加入或取代「adobedc.net」端點。 |
@@ -106,18 +106,24 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 1 月 22 日 | 更新「自由表格」頁面，加入新[自由表格產生器](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)的相關資訊。 |
 | **2020 年 1 月** |  |
 | 2020 年 1 月 24 日 | 更新工作區的[列設定](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/table-settings.html#cja-workspace?lang=en)頁面。 |
-| 2020 年 1 月 16 日 | [自由表格產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hant)上的新實作。 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
+| 2020 年 1 月 16 日 | [自由表格產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hant)的新檔案。 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 已修改[我應該使用哪個Adobe Analytics工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=en)頁面。 |
 | **2019年** |  |
+| 2020 年 12 月 19 日 | 將預設的[FTP資料儲存限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)變更為10 GB。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
 | 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 建立的文件 |
+| 2019 年 11 月 21 日 | 更新[Audience Analytics工作流程常見問題集](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)以指出LiveStream中的可用性。 |
+| 2019 年 10 月 25 日 | 更新[Adobe Analytics重要概念](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html?lang=en)頁面。 |
 | 2019 年 10 月 10 日 | 更新為自由表格總計：現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總計]**。 表格總計列計入套用的[報表篩選器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hant)。以前只有區段會影響總計。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
-| 10,2019 年 10 月 | 在工作區中，可輕鬆移除「未指定（無）」的功能已新增為報表篩選器的選項。 |
-| 10,2019 年 10 月 | 在工作區中，紫色粒度元件（分鐘、小時、日、周、月、季、年）已遭取代。 紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
+| 10,2019 年 10 月 | 在工作區中，輕鬆移除「未指定（無）」的功能已新增為報表篩選器的選項。 |
+| 10,2019 年 10 月 | 在工作區中，紫色粒度元件（分鐘、小時、日、周、月、季、年）已遭取代。 如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
+| 2019 年 10 月 1 日 | [工作區總計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=en)的新文章。 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
+| 2019 年 9 月 19 日 | 修訂區段檔案，說明[邏輯群組容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-sequential-build.html?lang=en#logic-group-containers)。 |
 | 2019 年 9 月 12 日 | [歷程 IQ：跨裝置分析](/help/components/cda/overview.md)的新文件 |
+| 2019 年 9 月 12 日 | 更新[計算量度總計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=en)檔案。 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/analyze/pwa/pwa.md)的相關新文章 |
 | 2019 年 8 月 8 日 | 新增[計算量度總計](/help/components/c-calcmetrics/cm-totals.md)文章 |
 | 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/timestamp-optional.md) | 2019 年 8 月 8 日 | 在工作區中，Adobe將下拉式篩選器中可放置的項目上限從50個提高至200個。 此增強功能適合多種使用案例，例如將所有國家 (195) 新增至篩選器，或新增所有美國州和省 (52)。 |
