@@ -6,9 +6,9 @@ title: 資料欄參考
 feature: Reports and Analytics 基本需知
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: f7cdf0f407c5299072784336c252f6c466e3099b
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
 workflow-type: tm+mt
-source-wordcount: '3409'
+source-wordcount: '3407'
 ht-degree: 99%
 
 ---
@@ -85,8 +85,8 @@ ht-degree: 99%
 | `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報告套裝設定下選擇分隔符號。 | varchar(255) |
 | `hit_source` | 指出點擊來源。點擊來源 1、2 和 6 需計費。<br>1：沒有時間戳記的標準影像要求<br>2：具有時間戳記的標準影像要求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：完整處理資料來源上傳<br>7：TransactionID 資料來源上傳<br>8：不再使用；舊版 Adobe Advertising Cloud 資料來源 <br>9：已不再使用；Adobe Social 摘要量度<br>10：使用 Audience Manager 伺服器端轉送 | 不帶正負號的 tinyint |
 | `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
-| `hitid_high` | 和`hitid_low`搭配使用以專門識別點擊。 | 不帶正負號的 bigint |
-| `hitid_low` | 和`hitid_high`搭配使用以專門識別點擊。 | 不帶正負號的 bigint |
+| `hitid_high` | 與`hitid_low`搭配使用以識別點擊。 | 不帶正負號的 bigint |
+| `hitid_low` | 與`hitid_high`搭配使用以識別點擊。 | 不帶正負號的 bigint |
 | `homepage` | 已不再使用。指出目前 URL 是否為瀏覽器的首頁。 | char(1) |
 | `hourly_visitor` | 此旗標可確定點擊是否為每小時的新訪客。 | 不帶正負號的 tinyint |
 | `ip` | IP 位址，根據影像要求的 HTTP 標頭。 | char(20) |
