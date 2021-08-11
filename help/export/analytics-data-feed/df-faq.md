@@ -3,10 +3,10 @@ description: 與資料摘要有關的常見問答
 keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
 title: 資料摘要常見問答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: 46ba345247c6a2553cd30b446d87eeb7b15ee94b
-workflow-type: ht
-source-wordcount: '1375'
-ht-degree: 100%
+source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+workflow-type: tm+mt
+source-wordcount: '1440'
+ht-degree: 95%
 
 ---
 
@@ -51,6 +51,10 @@ ht-degree: 100%
 有些試算表編輯器 (尤其是 Microsoft Excel) 會自動為大的數字進行四捨五入。 `event_list` 欄含有許多以逗號分隔的數字，有時候會導致 Excel 將其視為一個大數字。這會捨去末尾多個位數至 `000`。
 
 Adobe 不建議自動開啟 Microsoft Excel 中的 `hit_data.tsv` 檔案；另外改用 Excel 的匯入資料對話框，並確定所有欄位會被視為文字。
+
+## `hitid_high`、`hitid_low`、`visid_high`和`visid_low`等欄必定是點擊或造訪的唯一欄嗎？
+
+在幾乎所有情況下，`hitid_high`和`hitid_low`的串連都會唯一識別點擊。 瀏覽的`visid_high`和`visid_low`串連也適用相同的概念。 不過，處理異常很少會導致兩個點擊共用相同的點擊ID。 Adobe建議您不要建立不靈活依賴每個點擊都是唯一的資料摘要工作流程。
 
 ## 為何某些電信業者的網域欄中遺漏資訊？  {#section_B7508D65370442C7A314EAED711A2C75}
 
