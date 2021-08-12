@@ -2,11 +2,10 @@
 title: 量度概觀
 description: 檢視一段時間內的量度項目或資料數量。
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '149'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '168'
+ht-degree: 88%
 
 ---
 
@@ -26,3 +25,9 @@ ht-degree: 100%
 
 * 如果量度是自訂事件，請洽詢您組織內的 Analytics 管理員，或報表套裝的[解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * 如果量度是計算量度，請按一下資訊圖示以確認其公式。
+
+## 新增量度說明
+
+以下影片說明如何在Adobe Analytics中新增量度（和維度）說明：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
