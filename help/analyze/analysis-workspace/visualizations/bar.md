@@ -5,10 +5,10 @@ uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
 feature: 視覺效果
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '89'
-ht-degree: 100%
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+workflow-type: tm+mt
+source-wordcount: '96'
+ht-degree: 92%
 
 ---
 
@@ -31,3 +31,7 @@ ht-degree: 100%
 針對堆疊橫條圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。
 
 ![](assets/stacked_100_percent.png)
+
+以下是「100%堆疊視覺效果」的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
