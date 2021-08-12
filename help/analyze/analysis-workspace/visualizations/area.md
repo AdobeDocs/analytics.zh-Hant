@@ -5,10 +5,10 @@ uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: 視覺效果
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '100'
-ht-degree: 100%
+source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+workflow-type: tm+mt
+source-wordcount: '107'
+ht-degree: 93%
 
 ---
 
@@ -29,3 +29,7 @@ ht-degree: 100%
 針對堆疊區域圖的全新視覺效果設定可讓圖表以「100% 堆疊」的視覺效果方式呈現。
 
 ![](assets/areastacked100.png)
+
+以下是「100%堆疊視覺效果」的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
