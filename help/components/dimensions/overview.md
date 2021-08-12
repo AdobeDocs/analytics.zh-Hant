@@ -2,11 +2,10 @@
 title: 維度概觀
 description: 包含字串值的變數。
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '108'
-ht-degree: 100%
+source-git-commit: 482817636e82a40c274d549c4190d0b11d27c183
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 85%
 
 ---
 
@@ -23,3 +22,9 @@ ht-degree: 100%
 | `Purchase page` | `100` |
 
 每個維度分別代表您的網站不同的部分或面向。您可以將其中的一或多個維度與一或多個量度結合，以建立所需的報表。
+
+## 新增維度說明
+
+以下影片說明如何在Adobe Analytics中新增維度（和量度）說明：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
