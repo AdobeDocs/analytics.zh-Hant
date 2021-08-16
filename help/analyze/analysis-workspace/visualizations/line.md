@@ -5,20 +5,20 @@ uuid: 0508ff29-43fe-4f3a-a5f7-051869271b55
 feature: 視覺效果
 role: User, Admin
 exl-id: d177b39f-add7-4011-977a-1bdf3a9368cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '512'
-ht-degree: 100%
+source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
+workflow-type: tm+mt
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
 # 線圖
 
-線條圖視覺效果使用線條圖表示量度，以顯示一段時間中值的變化。僅可在使用時間當作維度時，才使用折線圖。
+[!UICONTROL 線條]視覺效果使用線條呈現量度，以顯示一段時間內值的變化。 [!UICONTROL 線條]圖表僅可在將時間用作維度時使用。
 
 ![線條圖視覺效果](assets/line-viz.png)
 
-按一下線條圖視覺效果右上角的齒輪圖示，即可存取可用的&#x200B;[**視覺效果設定**](freeform-analysis-visualizations.md)。設定可歸類為：
+按一下[!UICONTROL 線條]視覺效果右上角的齒輪圖示，存取可用的&#x200B;[**視覺效果設定**](freeform-analysis-visualizations.md)。 設定可歸類為：
 
 * **一般**：在各種視覺效果類型中都很常見的設定
 * **軸**：影響線條圖視覺效果 X 或 Y 軸的設定
@@ -39,6 +39,10 @@ ht-degree: 100%
 ## 顯示趨勢線覆蓋
 
 在「**[!UICONTROL 視覺效果設定]** > **[!UICONTROL 覆蓋圖]** > **[!UICONTROL 顯示趨勢線]**」中，您可以選擇新增迴歸或移動平均趨勢線到您的線圖序列。趨勢線有助於描繪出資料中更清晰的模式。
+
+以下是將趨勢線新增至線條視覺效果的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/330176/?quality=12)
 
 >[!TIP]
 >
