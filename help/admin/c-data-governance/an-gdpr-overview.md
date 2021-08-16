@@ -3,10 +3,10 @@ description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作�
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '640'
+ht-degree: 97%
 
 ---
 
@@ -54,3 +54,9 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
    >如果您尚未在 Adobe Analytics 中設定資料保留時間，Adobe Analytics 將無法協助您處理 GDPR API 的相關請求，例如處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
+
+## AdobePrivacyJS:GDPR請求的用戶端身分解決
+
+以下是此主題的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
