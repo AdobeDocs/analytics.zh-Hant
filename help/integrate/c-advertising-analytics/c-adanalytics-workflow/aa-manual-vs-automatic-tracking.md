@@ -2,16 +2,20 @@
 description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
 title: 追蹤手動模式和自動模式
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
+workflow-type: tm+mt
+source-wordcount: '606'
+ht-degree: 97%
 
 ---
 
 # 追蹤：手動模式和自動模式
 
 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
+
+以下是如何實作Advertising Analytics追蹤範本的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
 支援兩種追蹤模式：自動模式和手動模式。
 
