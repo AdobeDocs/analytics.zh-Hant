@@ -2,8 +2,8 @@
 title: Adobe Analytics 使用的 IP 和網域
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: f93ad7ec87c045956a3764c9a558bc193fa999d7
-workflow-type: ht
+source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | Adobe Analytics 舊網域 | `omniture.com` |
 | Amazon AWS | `aaui-879784980514.s3.us-east-2.amazonaws.com` |
 | Amazon CloudFront | `d30ln29764hddd.cloudfront.net` |
-| Gainsight | `esp.aptrinsic.com` |
+| Gainsight | `esp.aptrinsic.com`, `esp-m.aptrinsic.com` |
 | LaunchDarkly | `app.launchdarkly.com` |
 | Microsoft Azure Blob 儲存體 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
@@ -88,14 +88,14 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 | 新加坡 | `172.82.246.0/23` |
 | 新加坡 | `172.82.248.0/21` |
 | San Jose | `66.117.20.0/24` |
-| San Jose | `66.235.132.0/22` |
-| San Jose | `130.248.128.0/22` |
-| San Jose | `192.243.248.0/23` |
-| San Jose | `172.82.200.0/22` |
-| San Jose | `66.235.136.0/22` |
-| San Jose | `208.91.175.0/24` |
-| San Jose | `208.91.174.0/24` |
-| San Jose | `208.91.169.0/24` |
+| 聖荷西 | `66.235.132.0/22` |
+| 聖荷西 | `130.248.128.0/22` |
+| 聖荷西 | `192.243.248.0/23` |
+| 聖荷西 | `172.82.200.0/22` |
+| 聖荷西 | `66.235.136.0/22` |
+| 聖荷西 | `208.91.175.0/24` |
+| 聖荷西 | `208.91.174.0/24` |
+| 聖荷西 | `208.91.169.0/24` |
 | 雪梨 | `216.104.216.0/23` |
 | 東京 | `66.235.159.0/24` |
 | 東京 | `66.117.21.0/24` |
