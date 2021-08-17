@@ -3,7 +3,7 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 376b577211f927be5a896c2a20c8a2fc55437b85
 workflow-type: tm+mt
 source-wordcount: '2171'
 ht-degree: 98%
@@ -20,7 +20,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 ## 2.22.1 版
 
-發行日期：**2021 年 8 月 12 日**
+發行日期：**2021 年 8 月 17 日**
 
 * 使用選擇退出的客戶可能會看到追蹤連結時未遵循的伺服器端轉送選擇退出參數。 此版本中的修正會導致在追蹤連結時若有選擇退出標幟，就會加以傳送。
 
