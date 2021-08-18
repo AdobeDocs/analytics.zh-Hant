@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
+source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 99%
+source-wordcount: '649'
+ht-degree: 98%
 
 ---
 
@@ -195,10 +195,11 @@ ht-degree: 99%
       + [計算量度總計](c-calcmetrics/cm-totals.md)
 + 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報告套裝概觀](vrs/vrs-about.md)
-   + [虛擬報表套裝元件管理](vrs/vrs-components.md)
+   + [虛擬報表套裝 — 元件管理](vrs/vrs-components.md)
    + [行動服務中的 VRS 支援](vrs/vrs-mobile-services.md)
    + [內容感知作業](vrs/vrs-mobile-visit-processing.md)
    + [報表時間處理功能](vrs/vrs-report-time-processing.md)
+   + [A4T考量事項](vrs/vrs-a4t.md)
    + [VRS 常見問題集](vrs/vrs-faq.md)
    + [VRSS 和全域/多套裝標記考量事項](vrs/vrs-considerations.md)
    + VRS 工作流程 {#vrs-workflow}
