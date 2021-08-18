@@ -1,14 +1,13 @@
 ---
 description: 西曆模式以外的日曆選項。選項包括 4-4-5、4-5-4 和 5-4-4 日曆模式，這三種均用作零售業的標準。此外，報告還提供可以自行設定的完全自訂日曆選項。
 title: 自訂日曆
-feature: Admin Tools
+feature: 管理工具
 uuid: 4e5e538b-54c9-4c2f-8b6c-9f91b6c7bcc7
 exl-id: 2196c7b7-7183-43a8-bb91-5a1e479819d4
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 16d762e9d327153737ab25a4a56cf4830c777479
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 92%
+source-wordcount: '516'
+ht-degree: 84%
 
 ---
 
@@ -26,34 +25,12 @@ ht-degree: 92%
 
 ## 自訂日曆說明 {#section_B0D224DACB914A378902A4E0E1234889}
 
-<table id="table_E609632569EB499184E56618C2CEF742"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 日曆 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>西曆 </p> </td> 
-   <td colname="col2"> <p> 使用傳統的日曆格式 (一月到十二月，每月 30 或 31 天，以及每月不同的週數)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>已修改的西曆 </p> </td> 
-   <td colname="col2"> <p> 使用傳統西曆，但可讓您選擇每年的第一個月，以及每週的第一天。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>4-5-4 零售日曆 </p> </td> 
-   <td colname="col2"> <p> 將每月按當月的週數劃分。亦即一月有四週，依此類推。全美零售商聯合會使用的就是 4-5-4 日曆格式。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>自訂日曆 </p> </td> 
-   <td colname="col2"> <p> 根據每個月的週數提供三種格式。每月週數視乎當年所選的第一天而定。 </p> <p>一年有 52 週。將總週數分為 4 季，則每季有 13 週。但每季有 3 個月。13 週無法平均分配到三個月中，所以多出來的那一週會放到其中一個月，如此便能總是維持週數的一致性。5/4/4 指的是多出來的那一週放到該季的第 1 個月。4/5/4 指的是多出來的那一週放到該季的第 2 個月，以此類推。在 5-4-4 日曆中，第 53 週會新增至該年的最後一季中。 </p> 
-    <ul id="ul_1579FD106A47419486B03E248A5E6ED5"> 
-     <li id="li_E9B9E8F03E324DBDA9139C2D0D599092"><b>4-5-4</b>：一月有四週，二月有五週，三月有四週，以此類推。 </li> 
-     <li id="li_D0675DBDEC4641D2A8645B5CDFC565AB"><b>4-4-5</b>：一月有四週，二月有四週，三月有五週，以此類推。 </li> 
-     <li id="li_6743BBB9AC9A4CFEAA0CBCE51052BC29"><b>5-4-4</b>：一月有五週，二月有四週，三月有四週，以此類推。 </li> 
-    </ul> <p>注意： 除了不支援自訂日曆的Data Warehouse外，所有Adobe Analytics工具(Analysis Workspace、報告與分析、Report Builder、Activity Map)都支援此日曆選項。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 日曆 | 說明 |
+|--- |--- |
+| 西曆 | 使用傳統的日曆格式 (一月到十二月，每月 30 或 31 天，以及每月不同的週數)。 |
+| 已修改的西曆 | 使用傳統西曆，但可讓您選擇每年的第一個月，以及每週的第一天。 |
+| 4-5-4 零售日曆 | 將每月按當月的週數劃分。亦即一月有四週，依此類推。全美零售商聯合會使用的就是 4-5-4 日曆格式。 |
+| 自訂日曆 | 根據每個月的週數提供三種格式。每月週數視乎當年所選的第一天而定。一年有 52 週。將總週數分為 4 季，則每季有 13 週。但每季有 3 個月。13 週無法平均分配到三個月中，所以多出來的那一週會放到其中一個月，如此便能總是維持週數的一致性。<ul><li>5/4/4 指的是多出來的那一週放到該季的第 1 個月。4/5/4 指的是多出來的那一週放到該季的第 2 個月，以此類推。在 5-4-4 日曆中，第 53 週會新增至該年的最後一季中。</li><li>4-5-4：一月有四週，二月有五週，三月有四週，以此類推。</li><li>4-4-5：一月有四週，二月有四週，三月有五週，以此類推。</li><li>5-4-4：一月有五週，二月有四週，三月有四週，以此類推。</li></ul> |
+
+>[!NOTE]
+>所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、Report Builder、Activity Map)均支援這些日曆選項，但Data Warehouse除外。 Data Warehouse僅完全支援西曆。 選擇非西歷時，Data Warehouse會使用非西曆的預期日期範圍，但報表列中的日/周/月劃分可能不是非西曆的預期日期範圍。
