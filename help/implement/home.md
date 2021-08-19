@@ -2,9 +2,9 @@
 title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 5368e808a862a3e320f5d079433db96ab79b45c8
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '365'
 ht-degree: 83%
 
 ---
@@ -40,7 +40,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](/help/landing/home.md)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
