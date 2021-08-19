@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-source-git-commit: fcecd58f75425f31d7807f38cf9cbf0f3f276f5e
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '985'
 ht-degree: 99%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 99%
 # Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
++ [登陸頁面](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 概觀](analysis-workspace/home.md)
    + [Analysis Workspace 的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
@@ -273,10 +274,8 @@ ht-degree: 99%
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
    + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
    + [疑難排解資料彙集](activity-map/troubleshoot-data-collection.md)
-   + [知識資源](activity-map/activitymap-info-resources.md)
 + Reports and Analytics {#reports-analytics}
    + [Reports and Analytics 快速入門](reports-analytics/getting-started.md)
-   + [Adobe Analytics - 重要概念](reports-analytics/key-concepts.md)
    + 報表介面的概觀 {#reporting-interface}
       + [關於資料彙集](reports-analytics/overview/overview-data-collection.md)
       + [報表功能表](reports-analytics/overview/reports-menu.md)
@@ -310,11 +309,5 @@ ht-degree: 99%
    + [Adobe Analytics 控制面板 - 概觀](mobile-app/home.md)
    + [組織者指南](mobile-app/curator.md)
    + [執行使用者快速入門指南](mobile-app/executive.md)
-+ 漸進式網頁應用程式 {#pwa}
-   + [漸進式網頁應用程式](pwa/pwa.md)
-+ Analytics 報表 API {#analytics-reporting-api}
-   + [Analytics 報表 API 概觀](c-reporting-api/c-reporting-api.md)
-   + [Analytics 報表 API 比較](c-reporting-api/api-comparison.md)
-   + [https://github.com/AdobeDocs/analytics-2.0-apis](https://github.com/AdobeDocs/analytics-2.0-apis)
-+ Labs {#tech-previews}
-   + [Labs 概觀](tech-previews/overview.md)
++ [報告 API](reporting-api.md)
++ [Labs](labs.md)
