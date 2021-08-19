@@ -3,9 +3,9 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics檔案集的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
+source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2905'
 ht-degree: 63%
 
 ---
@@ -23,6 +23,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 日期 | 說明 |
 | --- | --- |
 | **2021 年 8 月** |  |
+| 2021 年 8 月 18 日 | 修訂頂層結構並整合至單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant) |
 | 2021 年 8 月 18 日 | [A4T和虛擬報表套裝的新主題](/help/components/vrs/vrs-a4t.md) |
 | 2021 年 8 月 18 日 | [歸因最佳實務](/help/analyze/analysis-workspace/attribution/best-practices.md)的相關新主題 |
 | 2021 年 8 月 5 日 | [計算重複例項](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)的新主題 |
