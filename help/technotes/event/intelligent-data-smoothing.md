@@ -3,7 +3,7 @@ title: 智慧型資料平滑
 description: 了解「智慧型資料平滑化」如何分析歷史趨勢，以預測受影響時段內任何量度的值。
 feature: AI 工具
 role: User, Admin
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 5%
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 在某些罕見情況下，某些因素可能會影響資料品質。 機器人流量、實作變更或服務中斷都可能影響收集到資料的完整性。 這也會使有關事件如何影響資料完整性的分析變得複雜。
 
-智慧型資料平穩化是[Analytics Labs](/help/analyze/tech-previews/overview.md)中的原型，可分析歷史趨勢以預測受影響時段內任何量度的值，協助您完成此檢視。 原型會套用進階機器學習演算法，以繪製所分析時段內量度的預期值。
+智慧型資料平穩化是[Analytics Labs](/help/analyze/labs.md)中的原型，可分析歷史趨勢以預測受影響時段內任何量度的值，協助您完成此檢視。 原型會套用進階機器學習演算法，以繪製所分析時段內量度的預期值。
 
 ## 執行智慧資料平穩化
 
