@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
-source-git-commit: 6588896cd47e15127b1b1d0a2d229e0ed2dbaaaa
-workflow-type: ht
-source-wordcount: '193'
-ht-degree: 100%
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+workflow-type: tm+mt
+source-wordcount: '200'
+ht-degree: 99%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 100%
 # Analytics 技術備忘稿 {#technotes}
 
 + [Analytics 技術備忘稿](home.md)
++ [文件更新](doc-updates.md)
 + Google Analytics 使用者適用的 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 使用者適用的 Adobe Analytics 說明](ga-to-aa/home.md)
    + [帳戶與報告套裝](ga-to-aa/accounts.md)
@@ -43,12 +44,14 @@ ht-degree: 100%
    + [可減輕瀏覽器 Cookie 限制之影響的選項](cookies/cookieless.md)
 + [資料保留](data-retention.md)
 + [排除資料](exclude-data.md)
++ [功能發行](releases.md)
 + [Adobe Analytics 使用的 IP 和網域](ip-addresses.md)
 + [延遲性](latency.md)
 + [低流量值](low-traffic.md)
 + [移轉行動服務處理規則至 Adobe Analytics](migrate-mobile.md)
 + [多貨幣支援](multicurrency.md)
 + [隱私權概觀](privacy-overview.md)
++ [漸進式網頁應用程式](pwa.md)
 + [重新導向與別名](redirects.md)
 + 地區資料彙集 {#rdc}
    + [地區資料彙集說明](rdc/regional-data-collection.md)
