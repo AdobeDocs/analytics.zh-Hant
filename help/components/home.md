@@ -2,10 +2,9 @@
 title: Analytics Components 指南
 description: 了解 Adobe Analytics 提供的不同元件。
 exl-id: 172f816a-b90e-4a5a-8c92-f92f2b1663f3
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
@@ -34,7 +33,7 @@ Analytics Components 可協助您微調及啟用資料分析。元件包括：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](/help/landing/home.md)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
