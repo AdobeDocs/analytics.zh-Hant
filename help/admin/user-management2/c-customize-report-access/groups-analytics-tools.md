@@ -6,10 +6,10 @@ title: 自訂 Analytics 工具權限
 feature: 管理工具
 uuid: 8e86bc17-46d3-4c5e-ac25-9f3bfc29b8fa
 exl-id: fe3a9f65-f121-438f-91d0-45cfaea94416
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 91%
+source-wordcount: '638'
+ht-degree: 94%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 91%
 | [安全性](/help/admin/company/security-manager.md) | 授予安全管理員頁面的權限，以控制對報表資料的存取。選項包括增強式密碼、密碼過期、IP 登入限制及電子郵件網域限制。 |
 | 支援資訊 | 授予公司設定中的支援資訊的權限。 |
 | [網站服務](/help/admin/company/web-services-admin.md) | 允許存取管理工具介面中的「網站服務」頁面 ([!UICONTROL 公司設定] > [!UICONTROL 網站服務])。<br>「網站服務 API」提供對 Adobe Analytics 服務可程式化的存取，可讓您透過使用者介面複製並增強可用功能。 |
-| 單一登入 (舊版) | 授予對管理工具中單一登入頁面的存取。<br>**注意：** Adobe Experience Cloud 中的單一登入是使用 Experience Cloud 與解決方案之間的[帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)實施。 |
+| 單一登入 (舊版) | 授予對管理工具中單一登入頁面的存取。<br>**注意：** Adobe Experience Cloud 中的單一登入是使用 Experience Cloud 與解決方案之間的[帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant)實施。 |
 | [待定動作](/help/admin/company/pending-actions-admin.md) | 授予在[!UICONTROL 公司設定]中管理待定動作的權限。 |
 | [品牌結合](/help/admin/company/co-branding-admin.md) | 授予與 Analytics 品牌結合的權限。 |
 | [偏好設定](/help/admin/admin/preferences-manager.md) | 授予[!UICONTROL 偏好設定管理器]的權限。 |
@@ -62,8 +62,8 @@ ht-degree: 91%
 | 網站服務存取 | 為非管理員啟用網站服務存取。產生網站服務憑證。 |
 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/t-install-arb.html) | 授予此群組的成員對 [!UICONTROL Report Builder] 授權的存取。 |
 | [Analysis Workspace 存取](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) | 授予對 Analysis Workspace 的使用者存取，即 [!DNL Adobe Analytics] 建議的報告介面。 |
-| [Reports &amp; Analytics](https://experienceleague.adobe.com/docs/analytics/landing/an-key-concepts.html) | 授予對 Reports &amp; Analytics 的使用者存取。 |
+| [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | 授予對 Reports &amp; Analytics 的使用者存取。 |
 | [建立計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html) | 授予建立計算量度的使用者權限。 |
-| [區段建立](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) | 授予建立區段的使用者權限。 |
+| [區段建立](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant) | 授予建立區段的使用者權限。 |
 | **Data Connectors** |  |
 | 整合 (建立、更新或刪除) | 授予建立、更新和刪除 Data Connector 整合的權限。 |
