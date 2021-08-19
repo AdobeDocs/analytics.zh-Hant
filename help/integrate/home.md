@@ -2,10 +2,9 @@
 title: Analytics 整合
 description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '167'
 ht-degree: 100%
 
 ---
@@ -31,7 +30,7 @@ ht-degree: 100%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](/help/landing/home.md)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
