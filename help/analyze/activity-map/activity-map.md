@@ -5,9 +5,9 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
+source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '290'
 ht-degree: 97%
 
 ---
@@ -57,4 +57,3 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [Activity Map 用戶介面](activitymap-user-interface.md)
 * [Analytics 中的 Activity Map 報表](activitymap-reporting-analytics.md)
 * [疑難排解瀏覽器延伸模組](troubleshooting-browser-extensions.md)
-* [知識資源](activitymap-info-resources.md)
