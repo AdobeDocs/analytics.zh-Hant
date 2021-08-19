@@ -1,27 +1,26 @@
 ---
-title: Analytics 技術註解
+title: Analytics 技術備忘稿
 description: 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
-translation-type: tm+mt
-source-git-commit: d0a5094865ae6f21d710eb57689201828b89cc03
+exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '96'
 ht-degree: 100%
 
 ---
 
-
-# Analytics 技術註解
+# Analytics 技術備忘稿
 
 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 
 ## 重要技術說明文章
 
-* [從第三方分析平台轉換成 Adobe Analytics](ga-to-aa/home.md)
+* [從協力廠商分析平台轉換成 Adobe Analytics](ga-to-aa/home.md)
 * [地區資料收集](/help/technotes/rdc/regional-data-collection.md)
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](/help/landing/home.md)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 其他 Analytics 資源
 
