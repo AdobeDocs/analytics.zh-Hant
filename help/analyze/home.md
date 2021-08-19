@@ -4,9 +4,9 @@ description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Rep
 feature: Workspace 基本知識
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '237'
+source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
+workflow-type: tm+mt
+source-wordcount: '235'
 ht-degree: 100%
 
 ---
@@ -28,14 +28,13 @@ ht-degree: 100%
 
 * [Adobe Analytics 儀表板 - 概觀](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 快速入門](analysis-workspace/home.md)
-* [適用於 Adobe Analytics 的漸進式網頁應用程式](/help/analyze/pwa/pwa.md)
 * [我該使用哪種 Adobe Analytics 工具呢？](/help/admin/c-analytics-product-comparison/which-analytics-tool.md)
 * [Report Builder 快速入門](report-builder/home.md)
 * [Activity Map 快速入門](activity-map/activity-map.md)
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](/help/landing/home.md)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
