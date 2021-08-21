@@ -2,10 +2,10 @@
 title: getPreviousValue
 description: 取得最後一個傳至變數的值。
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 95%
+source-wordcount: '664'
+ht-degree: 68%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 95%
 
 `getPreviousValue` 外掛程式可讓您將變數設定為先前點擊上設定的值。如果您的實施包含目前點擊中的所有所需值，就不需要此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getPreviousValue
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -56,77 +56,58 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## 使用外掛程式
 
-`getPreviousValue` 方法使用以下引數：
+`getPreviousValue`函式使用下列引數：
 
 * **`v`** (字串，必要)：具有您要傳遞至下一個影像要求之值的變數。用來擷取上一頁值的通用變數為 `s.pageName`。
 * **`c`** (字串，選用)：儲存值的 Cookie 名稱。如果未設定此引數，其預設值為 `"s_gpv"`。
 
-呼叫此方法時，它會傳回 Cookie 中包含的字串值。此外掛程式會重設 Cookie 有效期，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
+呼叫此函式時，會傳回Cookie中包含的字串值。 此外掛程式會重設 Cookie 有效期，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
 
-## 呼叫範例
-
-### 範例 #1
-
-下列程式碼...
+## 範例
 
 ```js
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
-```
+// 1. Sets prop7 to the cookie value contained in gpv_Page
+// 2. Resets the gpv_Page cookie value to the page variable
+// 3. If the page variable is not set, reset the gpv_Page cookie expiration
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-* 首先，將 s.prop7 設為等於先前影像要求中傳入 s.pageName 的值 (即儲存在「gpv_Page」Cookie 中的值)
-* 然後程式碼會重設「gpv_Page」Cookie，使其等於 s.pageName 的目前值
-* 如果此程式碼執行時未設定 s.pageName，則程式碼會重設 Cookie 目前值的有效期
+// Sets prop7 to the cookie value contained in gpv_Page, but only if event1 is in the events variable.
+if(inList(s.events,"event1")) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-### 範例 #2
+// Sets prop7 to the cookie value contained in gpv_Page, but only if the page variable is currently set on the page
+if(s.pageName) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 
-下列程式碼會將 s.prop7 設為等於傳入 s.pageName 的最後一個值，但僅限於 s.events 中也包含 event1 時的情況下 (呼叫發生時透過 inList 外掛程式所判斷)。
-
-```js
-if(s.inList(s.events,"event1")) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### 範例 #3
-
-下列程式碼會將 s.prop7 設為等於傳入 s.pageName 的最後一個值，但僅限於目前同時在頁面上設定 s.pageName 的情況下。
-
-```js
-if(s.pageName) s.prop7=s.getPreviousValue(s.pageName,"gpv_Page");
-```
-
-### 範例 #4
-
-下列程式碼會將 s.eVar10 設為等於先前影像要求中傳入 s.eVar1 的值。先前的 eVar1 值原本包含在「s_gpv」Cookie 中。然後程式碼會將「s_gpv」Cookie 設為等於 s.eVar1 的目前值。
-
-```js
-s.eVar10 = s.getPreviousValue(s.eVar1)
+// Sets eVar10 equal to the cookie value contained in s_gpv, then sets the s_gpv cookie to the current value of eVar1.
+s.eVar10 = getPreviousValue(s.eVar1);
 ```
 
 ## 不太可能發生的巧合情況
 
-如果將與 v 引數相關聯的變數設為新值，且 getPreviousValue 外掛程式執行中，但 Analytics 伺服器呼叫沒有同時傳送，則下次外掛程式執行時新的 v 引數值仍會被視為「上一個值」。例如，假設下列程式碼會在造訪的第一頁上執行：
+如果與`v`引數相關聯的變數設為新值，而`getPreviousValue`外掛程式執行中，但Analytics伺服器呼叫未同時傳送，則下次外掛程式執行時新的`v`引數值仍會視為「上一個值」。
+例如，假設下列程式碼會在造訪的第一頁上執行：
 
 ```js
-s.pageName="home"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Home";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-此程式碼會產生一個伺服器呼叫，其中 pageName 引數等於「home」，且 p7 (prop7) 引數未設定。但是，對 s.getPreviousValue 發出的呼叫會儲存 s.pageName 的值 (即「home」) 中指定的 Cookie (亦即「gpv_Page」Cookie)。現在，假設緊接著在同一頁上執行下列程式碼 (基於任何原因)：
+此程式碼會產生一個伺服器呼叫，其中`pageName`為「Home」且未設定prop7。  不過，對`getPreviousValue`的呼叫會將`pageName`的值儲存在`gpv_Page` Cookie中。 假設緊接著在相同頁面上執行下列程式碼：
 
 ```js
-s.pageName="happy value"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "New value";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-由於 s.t() 函數沒有在此程式碼區塊中執行，因此將不會建立其他影像要求。不過，這次 s.getPreviousValue() 函數程式碼執行時，s.prop7 會設為等於 s.pageName 的先前值 (即「home」)，然後儲存 s.pageName 的新值 (即「happy value」)。假設訪客導覽至不同頁面，且在此頁面上執行下列程式碼：
+由於`t()`函式未在此程式碼區塊中執行，因此不會傳送其他影像要求。  不過，這次`getPreviousValue`函式程式碼執行時，會將`prop7`設為先前的`pageName`值(&quot;Home&quot;)，然後在`gpv_Page` Cookie中儲存新的`pageName`值(&quot;New value&quot;)。 接下來，假設訪客導覽至不同頁面，並在此頁面上執行下列程式碼：
 
 ```js
-s.pageName="page 2"
-s.prop7=s.getPreviousValue(s.pageName,"gpv_Page")
+s.pageName = "Page 2";
+s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-s.t() 呼叫函數執行時會建立影像要求，要求中 s.pageName =&quot;page 2&quot; 而 s.prop7 等於 &quot;happy value&quot;，這是上次呼叫 getPreviousValue 時的 s.pageName 值。雖然 &quot;home&quot;是傳入 s.pageName 的第一個值，但任何實際影像要求中都未曾包含 &quot;home&quot; 的 s.prop7 值。
+當`t()`函式執行時，會建立影像要求，其中`pageName`為「Page 2」，而`prop7`為「New value」，這是上次呼叫`getPreviousValue`時的`pageName`值。 影像要求中從未包含`"Home"`的`prop7`值，即使「Home」是傳遞至`pageName`的第一個值。
 
 ## 版本記錄
 
