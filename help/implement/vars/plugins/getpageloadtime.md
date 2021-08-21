@@ -2,10 +2,10 @@
 title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 93%
+source-wordcount: '478'
+ht-degree: 96%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 93%
 
 `getPageLoadTime` 外掛程式使用 JavaScript 效能物件，可讓您測量頁面完全載入所花的時間。如果您想要測量頁面載入所需的時間，Adobe 建議使用此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getPageLoadTime
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## 使用外掛程式
 
-`getPageLoadTime` 方法不使用任何引數。呼叫此方法時，它不會傳回任何內容。而是會設定下列變數：
+`getPageLoadTime`函式不使用任何引數。 呼叫此函式時，不會傳回任何內容。 而是會設定下列變數：
 
 * `s._pltPreviousPage`：上一頁，讓您可將載入時間與上一頁建立關聯
 * `s._pltLoadTime`：上一頁載入所花費的秒數
@@ -67,29 +67,22 @@ getPageLoadTime 外掛程式會建立兩個第一方 Cookie：
 * `s_plt`：上一頁載入所花費的秒數。瀏覽器作業階段結束時會到期。
 * `s_pltp` `s.pageName` 變數的值，如先前 Adobe Analytics 影像要求中所記錄。瀏覽器作業階段結束時會到期。
 
-## 呼叫範例
-
-### 範例 #1
-
-執行以下程式碼...
+## 範例
 
 ```js
+// 1. Run the getPageLoadTime function if the pageName variable is set
+// 2. Set prop10 to the load time of the previous page
+// 3. Set eVar10 to the name of the previous page
+// 4. Set event100 to the load time (in seconds) of the previous page. A numeric event is required to capture this value.
+// You can then use event100 in calculated metrics to obtain the average page load time per page.
 if(s.pageName) s.getPageLoadTime();
 if(s._pltPreviousPage)
 {
   s.prop10 = s._pltLoadTime;
-  s.prop11 = s._pltPreviousPage
-  s.eVar10 = prop11;
+  s.eVar10 = s._pltPreviousPage
   s.events = "event100=" + s._pltLoadTime;
 }
 ```
-
-...將執行下列作業：
-
-* 設定 s.pageName 時執行 getPageLoadTime 外掛程式
-* 將 s.prop10 設為等於上一頁的載入時間
-* 將 s.prop11 和 s.eVar10 設為等於上一頁的名稱 (如 s.pageName 中所記錄)
-* 將 event100 (自訂數值事件) 設為等於上一頁的載入時間。在此情況下，使用自訂事件可讓您取得上一頁所有頁面載入的總時間量 (來自所有訪客/造訪)，進而使用計算量度來取得每個頁面的平均頁面載入時間
 
 ## 版本記錄
 
