@@ -2,10 +2,10 @@
 title: getAndPersistValue
 description: 儲存值以便稍後隨時擷取。
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 90%
+source-wordcount: '583'
+ht-degree: 92%
 
 ---
 
@@ -15,31 +15,31 @@ ht-degree: 90%
 >
 >此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其角色與使用Adobe Experience Platform中標籤的[!UICONTROL 儲存期間]功能類似。 設定變數後，如果您想在後續的點擊中自動讓 Analytics 變數保留相同的值，Adobe 建議您使用此外掛程式。如果Adobe Experience Platform中的[!UICONTROL 儲存期間]功能已足夠，則不需要此外掛程式。 如果您不需要在後續點擊中將變數設定及保留相同的值，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為這些變數由 Adobe 保留在伺服器端。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與使用 Adobe Experience Platform 中的標記[!UICONTROL 儲存持續時間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果資料收集UI中的[!UICONTROL 儲存期間]功能已足夠，則不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar的內建持續性不需要使用此外掛程式，因為eVar會依Adobe在伺服器端持續存在。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getAndPersistValue
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 使用外掛程式
 
-`getAndPersist` 方法使用以下引數：
+`getAndPersist`函式使用下列引數：
 
 * **`vtp`** (必要)：要在頁面之間保留的值
 * **`cn`** (選用)：要儲存值的 Cookie 名稱。如果此引數未設定，系統會將 Cookie 命名為 `"s_gapv"`
@@ -67,64 +67,27 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 範例
 
-### 範例 #1
-
-下列程式碼會將 eVar21 設定為等於「hello」的值。接著，程式碼會將 ev21gapv Cookie (將於 28 天後過期) 設定為等於 eVar21 的值 (即「hello」)。最後，程式碼會將 eVar21 設定 (重設) 為等於 ev21gapv Cookie 的值。
-
 ```js
-s.eVar21 = "hello";
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "raccoon", and sets the ev21gapv cookie to "raccoon" (which expires in 28 days).
+s.eVar21 = "raccoon";
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-### 範例 #2
+// Checks the "ev21gapv" cookie for a value and assigns it to eVar21. It does not set a cookie value or reset an existing cookie's expiration since the value is not set on the page.
+// If there is a cookie, assigns eVar21 to that value. Otherwise, eVar21 is blank.
+s.eVar21 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-假設 eVar21 尚未在目前頁面上設定，但是在過去 28 天內曾在先前的頁面上設定為等於「hello」的值。下列程式碼只會將 eVar21 設定為等於 ev21gapv Cookie 的值 (即「hello」)。它不會重設 ev21gapv Cookie，因為在呼叫函數之前，eVar21 尚未在目前頁面上設定。
+// Checks the "ev21gapv" cookie for a value and assigns it to prop35. It does not set a cookie value or reset an existing cookie's expiration since eVar21 is not set on the page.
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",28);
 
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
+// Sets eVar21 to "panda", and sets the ev21gapv cookie to "panda" (which expires in 14 days). It then sets prop35 to the value contained in the ev21gapv cookie.
+// Ultimately both eVar21 and prop35 contain the value "panda".
+s.eVar21 = "panda";
+s.prop35 = getAndPersistValue(s.eVar21,"ev21gapv",14);
 
-### 範例 #3
-
-假設 eVar21 尚未在目前頁面上設定，但是在過去 28 天內曾在先前的頁面上設定為等於「hello」的值。下列程式碼只會將 prop35 設定為等於 ev21gapv Cookie 的值 (即「hello」)。它不會設定 eVar21。
-
-```js
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 範例 #4
-
-下列程式碼會將 eVar21 設定為等於「howdy」的值。接著，程式碼會將 ev21gapv Cookie (將於 28 天後過期) 設定 (重設) 為等於 eVar21 的值 (即「howdy」)。最後，程式碼會將 prop35 設定為等於 ev21gapv Cookie 的值 (即「howdy」)。
-
-```js
-s.eVar21 = "howdy";
-s.prop35 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 範例 #5
-
-假設 s.eVar21 在過去 28 天內未曾在任何頁面上設定。下列程式碼會將 s.eVar21 設定為無值，因為 ev21gapv Cookie 自從上次設定後已過期 28 天。
-
-```js
-s.eVar21 = s.getAndPersistValue(s.eVar21,"ev21gapv",28);
-```
-
-### 範例 #6
-
-下列程式碼會將 eVar30 設定為等於「shopping」的值。接著，代碼會將 s_gapv Cookie (將於瀏覽器工作階段結束後過期) 設定為等於 s.eVar30 的值 (即「shopping」)。最後，它會將 s.eVar30 設定為等於 s_gapv Cookie 的值 (也就是說 getAndPersistValue 呼叫會傳回 s_gapv Cookie的值，即此例中的「shopping」)。
-
-```js
+// Sets eVar30 to "shopping", and sets the s_gapv cookie to "shopping" (which expires at the end of the browser session).
 s.eVar30 = "shopping";
-s.eVar30 = s.getAndPersistValue(s.eVar30);
+s.eVar30 = getAndPersistValue(s.eVar30);
 ```
-
-在工作階段期間內，如果 s.eVar30 未於其他任何顯示的頁面上設定為明確的值，但是透過下列程式碼設定 (在 doPlugins 中)...
-
-```js
-s.eVar30 = s.getAndPersistValue(s.eVar30);
-```
-
-...s.eVar30 將設為等於「shopping」的值 (即 s_gapv cookie 留存的值)
 
 ## 版本記錄
 
