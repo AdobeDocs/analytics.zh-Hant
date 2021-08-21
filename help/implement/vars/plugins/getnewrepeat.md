@@ -2,10 +2,10 @@
 title: getNewRepeat
 description: 追蹤新訪客與重複訪客的活動。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: 13060d08c8ffff01d8dae379e090c53e61fa6476
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 66%
+source-wordcount: '552'
+ht-degree: 93%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 66%
 
 `getNewRepeat` 外掛程式可讓您判斷網站訪客是新訪客還是在指定天數內回訪的重複訪客。如果您想要使用自訂天數將訪客識別為「new」，Adobe 建議使用此外掛程式。如果 Analysis Workspace 中的「新增/重複」訪客維度符合您組織的需求，就不需要此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getNewRepeat
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,54 +57,22 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## 使用外掛程式
 
-`getNewRepeat` 方法使用以下引數：
+`getNewRepeat`函式使用下列引數：
 
 * **`d`** (整數，選用)：將訪客重設回 `"New"` 的訪客距離上次造訪需間隔的最小天數。如果未設定此引數，其預設值為 30 天。
 
-如果外掛程式設定的 Cookie 不存在或已過期，此方法會傳回 `"New"` 值。如果外掛程式設定的 Cookie 存在，且自目前點擊以來的時間量及 Cookie 中設定的時間超過 30 分鐘，則會傳回 `"Repeat"` 值。此方法會為整個造訪傳回相同值。
+如果外掛程式設定的Cookie不存在或已過期，此函式會傳回`"New"`值。 如果外掛程式設定的 Cookie 存在，且自目前點擊以來的時間量及 Cookie 中設定的時間超過 30 分鐘，則會傳回 `"Repeat"` 值。此函式會傳回整個造訪的相同值。
 
 此外掛程式使用 `"s_nr[LENGTH]"` Cookie，其中的 `[LENGTH]` 等於 `d` 引數。Cookie 包含代表訪客 (`"New"` 或 `"Repeat"`) 目前時間和狀態的 Unix 時間戳記。
 
-## 呼叫範例
-
-### 範例 #1
-
-下列程式碼會為新訪客將`eVar1`設為`"New"`值，並在訪客造訪網站的其餘時間內，持續將`eVar1`設為`"New"`值（每次新呼叫）。
+## 範例
 
 ```js
+// Sets eVar1 to "New" if it is the visitor's first visit to the site, or they have not visited in at least 30 days. Otherwise, sets eVar1 to "Repeat".
 s.eVar1 = getNewRepeat();
-```
 
-### 範例 #2
-
-如果訪客自上次呼叫`getNewRepeat()`以來的31分鐘到30天內回訪，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"Repeat"`值，並持續將`eVar1`設為`"Repeat"`值（每次新呼叫）。
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### 範例 #3
-
-如果訪客自上次呼叫`getNewRepeat()`以來至少30天未造訪網站，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"New"`值，並持續將`eVar1`設為`"New"`值（每次新呼叫）。
-
-```js
-s.eVar1 = getNewRepeat();
-```
-
-### 範例 #4
-
-如果訪客自上次呼叫`getNewRepeat()`以來的31分鐘到365天（即1年）內回訪，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"Repeat"`值，並持續將`eVar1`設為`"Repeat"`值（每次新呼叫）。
-
-```js
-s.eVar1 = getNewRepeat(365);
-```
-
-### 範例 #5
-
-如果訪客自上次呼叫`getNewRepeat()`以來至少365天（即1年）未造訪網站，下列程式碼會在訪客造訪網站的其餘時間內，將`eVar1`設為`"New"`值，並持續將`eVar1`設為`"New"`值（每次新呼叫）。
-
-```js
-s.eVar1 = getNewRepeat(365);
+// Sets eVar2 to "New" if it is the visitor's first visit to the site, or they have not visited in at least a year (365 days). Otherwise, sets eVar2 to "Repeat".
+s.eVar2 = getNewRepeat(365);
 ```
 
 ## 版本記錄
