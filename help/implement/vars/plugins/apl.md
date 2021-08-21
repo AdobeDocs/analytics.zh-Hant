@@ -2,10 +2,10 @@
 title: apl (appendToList)
 description: 將值附加至支援多個值的變數。
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 96%
+source-wordcount: '695'
+ht-degree: 95%
 
 ---
 
@@ -23,29 +23,29 @@ ht-degree: 96%
 
 如果您想要將新值新增至現有變數，而且該變數包含由分隔值組成的字串，Adobe 建議您使用此外掛程式。如果您偏好將包含分隔值之變數的字串串連起來，則不需要使用此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 APL (附加至清單)
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## 使用外掛程式
 
-`apl` 方法使用以下引數：
+`apl`函式使用下列引數：
 
 * **`lv`** (必要，字串)：為變數，其中包含要新增新值的目的地項目分隔清單
 * **`vta`** (必要，字串)：為逗號分隔的新值清單，可新增至 `lv` 引數的值。
@@ -71,231 +71,59 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`** (可選，字串)：輸出分隔字元。若未設定，預設值與 `d1` 相同。
 * **`cc`** (可選，布林)：指出是否使用區分大小寫檢查的標幟。如果是 `true`，複製檢查會區分大小寫。如果是 `false` 或未設定，複製檢查將不區分大小寫。預設為 `false`。
 
-`apl` 方法會傳回 `lv` 引數的值，再加上 `vta` 引數中任何非重複的值。
+`apl`函式返回`lv`引數的值，以及`vta`引數中任何非重複的值。
 
-## 呼叫範例
-
-### 範例 #1
-
-若...
+## 範例
 
 ```js
+// Set the events variable to "event22,event24,event23".
 s.events = "event22,event24";
-```
+s.events = apl(s.events,"event23");
 
-...且下列程式碼執行...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... s.events 的最終值將會是：
-
-```js
-s.events = "event22,event24,event23";
-```
-
-### 範例 #2
-
-若...
-
-```js
+// The events variable remains unchanged because the apl function does not add duplicate values
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"event23");
 
-...且下列程式碼執行...
+// Set the events variable to "event23" if the events variable is blank
+s.events = "";
+s.events = apl(s.events,"event23");
 
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... s.events 的最終值依然會是：
-
-```js
-s.events = "event22,event23";
-```
-
-在此範例中，由於 s.events 已包含「event23」，因此 apl 呼叫不會變更 s.events
-
-### 範例 #3
-
-若...
-
-```js
-s.events = ""; //blank value
-```
-
-...且下列程式碼執行...
-
-```js
-s.events = s.apl(s.events, "event23");
-```
-
-... s.events 的最終值將會是...
-
-```js
-s.events = "event23";
-```
-
-### 範例 #4
-
-若...
-
-```js
+// Append a value to eVar5. The value of prop4 remains unchanged.
+// The value of eVar5 is "hello|people|today".
 s.prop4 = "hello|people";
-```
+s.eVar5 = apl(s.prop4, "today", "|");
 
-...且下列程式碼執行...
-
-```js
-s.eVar5 = s.apl(s.prop4, "today", "|");
-```
-
-... s.prop4 的最終值依然會是...
-
-```js
+// Sets prop4 to "hello|people,today". Be mindful of correct delimiters!
 s.prop4 = "hello|people";
-```
+s.prop4 = apl(s.prop4, "today");
 
-...但 s.eVar5 的最終值將會是
-
-```js
-s.eVar5 = "hello|people|today";
-```
-
-請記住，外掛程式只會傳回值，不一定會「重設」透過 lv 引數傳入的變數。
-
-### 範例 #5
-
-若...
-
-```js
-s.prop4 = "hello|people";
-```
-
-...且下列程式碼執行...
-
-```js
-s.prop4 = s.apl(s.prop4, "today");
-```
-
-... s.prop4 的最終值將會是...
-
-```js
-s.prop4 = "hello|people,today";
-```
-
-請務必維持一致的分隔字元，亦即 lv 引數值中的分隔字元與 d1/d2 引數中的分隔字元必須一致
-
-### 範例 #6
-
-若...
-
-```js
+// Sets the events variable to "event22,event23,EVentT23". Be mindful of capitalization when using the cc argument!
 s.events = "event22,event23";
-```
+s.events = apl(s.events,"EVenT23", ",", ",", true);
 
-...且下列程式碼執行...
-
-```js
-s.events = s.apl(s.events,"EVenT23", ",", ",", true);
-```
-
-... s.events 的最終值將會是：
-
-```js
-s.events = "event22,event23,EVentT23";
-```
-
-雖然此範例並不實際，但呈現出使用區分大小寫的標幟時需謹慎的必要性。
-
-### 範例 #7
-
-若...
-
-```js
+// Sets the events variable to "event22,event23,event24,event25".
 s.events = "event22,event23";
-```
+s.events = apl(s.events, "event23,event24,event25");
 
-...且下列程式碼執行...
-
-```js
-s.events = s.apl(s.events, "event23,event24,event25");
-```
-
-... s.events 的最終值將會是：
-
-```js
-s.events = "event22,event23,event24,event25");
-```
-
-外掛程式不會將「event23」新增至 s.events，因為它已存在於 s.events 中。然而，它會將 event24 和 event25 新增至 s.events，因為兩者先前都未包含在 s.events 中。
-
-### 範例 #8
-
-若...
-
-```js
+// Sets linkTrackVars to "events,eVar1,campaign".
+// The last three arguments at the end of this apl call are not necessary because they match the default argument values.
 s.linkTrackVars = "events,eVar1";
-```
+s.linkTrackVars = apl(s.linkTrackVars, "campaign", ",", ",", false);
 
-...且下列程式碼執行...
-
-```js
-s.linkTrackVars = s.apl(s.linkTrackVars, "campaign", ",", ",", false);
-```
-
-...s.linkTrackVars 的最終值將會是：
-
-```js
-s.linkTrackVars = "events,eVar1,campaign";
-```
-
-此 apl 呼叫結尾的最後三個引數 (即「,」、「,」、false) 並非必要，不過也不會因為設定而造成任何影響，因為它們與預設引數值相符。
-
-### 範例 #9
-
-若...
-
-```js
+// This apl call does not do anything because the code does not assign the returned value to a variable.
 s.events = "event22,event24";
+apl(s.events, "event23");
+
+// Sets the list2 variable to "apple-APPLE-Apple".
+// Since the two delimiter arguments are different, the value passed in is delimited by "|", then joined together by "-".
+s.list2 = "apple|APPLE";
+s.list2 = apl(s.list2, "Apple", "|", "-", true);
+
+// Sets the list3 variable to "value1,value1,value1" (unchanged).
+// Only new values are deduplicated. Existing duplicate values remain.
+s.list3 = "value1,value1,value1";
+s.list3 = apl(s.list3,"value1");
 ```
-
-...且下列程式碼執行...
-
-```js
-s.apl(s.events, "event23");
-```
-
-... s.events 的最終值依然會是：
-
-```js
-s.events = "event22,event24";
-```
-
-自動執行外掛程式 (未將傳回值指派給變數) 並不會實際「重設」透過 lv 引數傳入的變數。
-
-### 範例 #10
-
-若...
-
-```js
-s.list2 = "casesensitivevalue|casesensitiveValue"
-```
-
-...且下列程式碼執行...
-
-```js
-s.list2 = s.apl(s.list2, "CasESensiTiveValuE", "|", "-", true);
-```
-
-...s.list2 的最終值將會是：
-
-```js
-s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
-```
-
-由於兩個分隔字元引數不同，傳入的值將由第一個分隔字元引數 (「|」) 分隔，再由第二個分隔字元引數 (「-」) 連結在一起
 
 ## 版本記錄
 
@@ -323,7 +151,7 @@ s.list2 = "casesensitivevalue-casesensitiveValue-CasESensiTiveValuE"
 
 ### 2.5（2016 年 2 月 18 日）
 
-* 現在使用 `inList` 方法來處理比較作業
+* 現在使用`inList`函式來處理比較作業
 
 ### 2.0（2016 年 1 月 26 日）
 
