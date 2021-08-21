@@ -2,10 +2,10 @@
 title: getResponsiveLayout
 description: 決定目前檢視的網站配置。
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 94%
+source-wordcount: '528'
+ht-degree: 87%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 94%
 
 `getResponsiveLayout` 外掛程式可讓您追蹤訪客目前正在檢視的回應式設計網站版本。如果您的網站使用回應式設計，而您想要追蹤訪客檢視的網站版本，Adobe 建議使用此外掛程式。如果您的網站並非使用回應式設計，就不需要此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getResponsiveLayout
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## 使用外掛程式
 
-`getResponsiveLayout` 方法使用以下引數：
+`getResponsiveLayout`函式使用下列引數：
 
 * **`ppw`** (必要，整數)：頁面從手機直向配置切換為手機橫向配置之前，瀏覽器視窗的最大像素寬度
 * **`plw`** (必要，整數)：頁面從手機橫向配置切換為平板電腦配置之前，瀏覽器視窗的最大像素寬度
-* **`tw`** (必要，布林值)：頁面從平板電腦配置切換為桌上型電腦配置之前，瀏覽器視窗的最大像素寬度
+* **`tw`** （必要，整數）:頁面從平板電腦配置切換為桌上型電腦配置之前，瀏覽器視窗的最大像素寬度
 
-呼叫此方法會傳回包含兩個部分的字串。第一部分使用下列值，視瀏覽器寬度和上述引數而定：
+呼叫此函式會傳回包含兩個部分的字串，分隔為冒號(`:`)。 字串的第一部分包含下列其中一個值，視瀏覽器寬度和上述引數而定：
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
@@ -73,34 +73,22 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 傳回字串的第二部分是瀏覽器的寬度和高度維度。例如：`"desktop layout:1243x700"`。
 
-## 呼叫範例
-
-### 範例 #1
-
-若...
-
-* 瀏覽器寬度大於 500 像素時，網站會從手機直向模式切換為手機橫向模式
-* 瀏覽器寬度大於 700 像素時，網站會從手機橫向模式切換為平板電腦模式
-* 瀏覽器寬度大於 1000 像素時，網站會從平板電腦模式切換為桌上型電腦模式
-
-...下列程式碼會將 eVar10 設為等於目前的回應式設計配置，做為訪客的體驗以及瀏覽器的寬度和維度
+## 範例
 
 ```js
+// A visitor accesses your site on their laptop. The browser window is maximized.
+// * Your site switches from phone portrait mode to phone landscape mode when the browser width is greater than 500 pixels
+// * Your site switches from phone landscape mode to tablet mode when the browser width is greater than 700 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1000 pixels
+// Sets eVar10 to "desktop layout:1920x937".
 s.eVar10 = getResponsiveLayout(500, 700, 1000);
-```
 
-### 範例 #2
-
-若...
-
-* 您的網站只有手機模式、平板電腦模式和桌上型電腦模式
-* 瀏覽器寬度大於 500 像素時，網站會從手機模式切換為平板電腦模式
-* 瀏覽器寬度大於 1,100 像素時，網站會從平板電腦模式切換為桌上型電腦模式
-
-...下列程式碼會將 eVar10 設為等於目前的回應式設計配置，做為訪客的體驗以及瀏覽器的寬度和維度
-
-```js
-s.eVar10 = getResponsiveLayout(500, 500, 1100);
+// A visitor accesses your site on their phone.
+// * Your site has only a phone mode, a tablet mode, and a desktop mode
+// * Your site switches from phone mode to tablet mode when the browser width is greater than 800 pixels
+// * Your site switches from tablet mode to desktop mode when the browser width is greater than 1,100 pixels
+// Sets eVar10 to "phone portrait layout:720x1280"
+s.eVar10 = getResponsiveLayout(800, 800, 1100);
 ```
 
 ## 版本記錄
