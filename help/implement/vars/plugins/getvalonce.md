@@ -2,10 +2,10 @@
 title: getValOnce
 description: 防止 Analytics 變數連續設為相同值兩次。
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 94%
+source-wordcount: '577'
+ht-degree: 93%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 94%
 
 `getValOnce` 外掛程式可防止變數多次設為等於相同值。Adobe 建議您在訪客重新整理頁面或多次造訪指定頁面時，使用此外掛程式來移除重複發生次數。如果您不擔心 Analysis Workspace 中的「發生次數」量度，就不需要此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getValOnce
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -59,36 +59,27 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## 使用外掛程式
 
-`getValOnce` 方法使用以下引數：
+`getValOnce`函式使用下列引數：
 
 * **`vtc`** (必要，字串)：要檢查的變數，查看它之前是否設為相同值
 * **`cn`** (選用，字串)：包含要檢查之值的 Cookie 名稱。預設為 `"s_gvo"`
 * **`et`** (選用，整數)：Cookie 的有效期，單位為天 (或分鐘，視 `ep` 引數而定)。預設為 `0`，在瀏覽器作業階段結束時到期
 * **`ep`** (選用，字串)：只有在也設定了 `et` 引數時才設定此引數。如果您希望 `et` 引數在幾分鐘內而不是幾天內到期，請將此引數設為 `"m"`。預設為 `"d"`，以天為單位設定 `et` 引數。
 
-如果 `vtc` 引數與 Cookie 值相符，此方法會傳回空字串。如果 `vtc` 引數與 Cookie 值不相符，則方法會將 `vtc` 引數傳回為字串。
+如果`vtc`引數與Cookie值相符，此函式會傳回空字串。 如果`vtc`引數與Cookie值不相符，函式會將`vtc`引數傳回為字串。
 
-## 呼叫範例
-
-### 範例 #1
-
-使用此呼叫可防止接下來 30 天內相同值連續傳入 s.campaign 多次：
+## 範例
 
 ```js
-s.campaign=s.getValOnce(s.campaign,"s_campaign",30);
+// Prevent the same value from being passed in to the campaign variable more than once in a row for next 30 days
+s.campaign = getValOnce(s.campaign,"s_campaign",30);
+
+// Prevent the same value from being passed in to eVar2 more than once in a row for the browser session
+s.eVar2 = getValOnce(s.eVar2,"s_ev2");
+
+// Prevent the same value from being passed in to eVar8 more than once in a row for 10 minutes
+s.eVar8 = getValOnce(s.eVar8,"s_ev8",10,"m");
 ```
-
-在上述呼叫中，外掛程式會先比較 s_campaign Cookie 中已包含的值與來自目前 s.campaign 變數的值。如果不相符，外掛程式會將 s_campaign Cookie 設為等於來自 s.campaign 的新值，然後傳回新值。接下來 30 天都會進行這項比較
-
-### 範例 #2
-
-使用此呼叫可防止在整個作業階段中設定相同的值：
-
-```js
-s.eVar2=s.getValOnce(s.eVar2,"s_ev2",0,"m");
-```
-
-此程式碼可防止使用者作業階段期間將相同的值連續傳入 s.eVar2 多次。它也會忽略 epargument (呼叫結尾處) 中的「m」值，因為到期時間設為 0。此程式碼也會將比較值儲存在 s_ev2 Cookie 中。
 
 ## 版本記錄
 
