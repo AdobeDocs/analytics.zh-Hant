@@ -2,10 +2,10 @@
 title: inList
 description: 檢查某值是否包含在另一個以字元分隔的值中。
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 95%
+source-wordcount: '557'
+ht-degree: 92%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 95%
 
 `inList` 外掛程式可讓您檢查某值是否已存在於分隔字串或 JavaScript 陣列物件中。有其他多種外掛程式依賴 `inList` 外掛程式才能運作。此外掛程式可提供比 JavaScript 方法 `indexOf()` 更明顯的優點，其不會比對字串的一部分。例如，如果您使用此外掛程式來檢查 `"event2"`，它將不會比對包含 `"event25"` 的字串。如果您不需要檢查分隔字串或陣列中的值，或您想要使用自己的 `indexOf()` 邏輯，就不需要此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 inList
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,96 +57,48 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## 使用外掛程式
 
-`inList` 方法使用以下引數：
+`inList`函式根據其輸入返回布爾值。 它使用下列引數：
 
 * **`lv`** (必要，字串或陣列)：要搜尋的分隔值清單或 JavaScript 陣列物件
 * **`vtc`** (必要，字串)：要搜尋的值
 * **`d`** (選用，字串)：用於分隔 `lv` 引數中個別值的分隔字元。若未設定，則預設為逗號 (`,`)。
-* **`cc`** (選用，布林值)：如果設為 `true`，則會進行區分大小寫的檢查。如果設為 `false` 或省略，則會進行不區分大小寫的檢查。預設為 `false`。
+* **`cc`** （選用，布林值）:若設為 `true` 或 `1`，則會進行區分大小寫的檢查。如果設為 `false` 或省略，則會進行不區分大小寫的檢查。預設為 `false`。
 
-如果找到相符項目，呼叫此方法會傳回 `true`，若找不到相符項目則會傳回 `false`。
+如果找到相符項目，呼叫此函式會傳回`true`；如果找不到相符項目，則會傳回`false`。
 
-## 呼叫範例
-
-### 範例 #1
-
-若...
+## 範例
 
 ```js
-s.events="event22,event24";
-```
+// Returns true
+s.events = "event22,event24";
+if(inList(s.events,"event22")) {
+    // Code will execute
+}
 
-...且下列程式碼執行...
+// Returns false because event2 is not an exact match in the string
+s.events = "event22,event24";
+if(inList(s.events,"event2")) {
+    // Code will not execute
+}
 
-```js
-if(s.inList(s.events,"event22"))
-```
+// Returns true because of the NOT operator
+s.events = "event22,event24";
+if(!inList(s.events,"event23")) {
+    // Code will execute
+}
 
-...條件 if 陳述式將為 true
-
-### 範例 #2
-
-若...
-
-```js
-s.events="event22,event24";
-```
-
-...且下列程式碼執行...
-
-```js
-if(s.inList(s.events,"event2"))
-```
-
-...條件 if 陳述式將為 false，因為 inList 呼叫未在 event2 和 s.events 中任一分隔值之間找到完全相符的項目
-
-### 範例 #3
-
-若...
-
-```js
-s.events="event22,event24";
-```
-
-...且下列程式碼執行...
-
-```js
-if(!s.inList(s.events,"event23"))
-```
-
-...條件 if 陳述式將為 true，因為 inList 呼叫未在 event23 和 s.events 中任一分隔值之間找到完全相符的項目 (請留意 inList 變數呼叫開頭的「NOT」運算子)。
-
-### 範例 #4
-
-若...
-
-```js
+// Returns false because of the case-sensitive check
 s.events = "event22,event23";
-```
+if(inList(s.events,"EVenT23","",true)) {
+    // Code will not execute
+}
 
-...且下列程式碼執行...
-
-```js
-if(s.inList(s.events,"EVenT23","",1))
-```
-
-...條件 if 陳述式將為 false。雖然此範例並不實際，但呈現出使用區分大小寫的標幟時需謹慎的必要性。
-
-### 範例 #5
-
-若...
-
-```js
+// Returns false because of a mismatched delimiter, treating "events,eVar1" as a single value
 s.linkTrackVars = "events,eVar1";
+if(inList(s.linkTrackVars,"eVar1","|")) {
+    // Code will not execute
+}
 ```
-
-...且下列程式碼執行...
-
-```js
-if(s.inList(s.linkTrackVars,"eVar1","|"))
-```
-
-...條件 if 陳述式將為 false。傳入呼叫的 d 引數值 (即「|」) 假設 s.linkTrackVars 中的個別值是以縱線字元分隔，但實際上值是以逗號分隔。在此情況下，外掛程式會嘗試在 s.linkTrackVars 的整個值 (即 &quot;events,eVar1&quot;) 和要尋找的值 (即 &quot;eVar1&quot;) 之間尋找相符項目。
 
 ## 版本記錄
 
