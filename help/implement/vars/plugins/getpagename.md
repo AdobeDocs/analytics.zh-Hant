@@ -2,10 +2,10 @@
 title: getPageName
 description: 從目前的網站路徑建立易讀的 pageName。
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 95%
+source-wordcount: '596'
+ht-degree: 89%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 95%
 
 `getPageName` 外掛程式可為目前的 URL 建立易讀、好記的格式化版本。如果您想要在報表中輕鬆設定且理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建議使用此外掛程式。如果您已有 `pageName` 變數的命名結構 (例如透過資料層)，就不需要此外掛程式。若您沒有其他解決方案可設定 `pageName` 變數，最好使用此外掛程式。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getPageName
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,144 +57,43 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## 使用外掛程式
 
-`getPageName` 方法使用以下引數：
+`getPageName`函式使用下列引數：
 
 * **`si`** (選用，字串)：在代表網站 ID 的字串開頭插入的 ID。此值可以是數值 ID 或好記的名稱。未設定時，其預設值為目前的網域。
 * **`qv`** (選用，字串)：以逗號分隔的查詢字串參數清單，若在 URL 中找到，便會新增至字串
 * **`hv`** (選用，字串)：在 URL 雜湊中找到的逗號分隔參數清單，若在 URL 中找到，則會新增至字串
 * **`de`** (選用，字串)：分割字串個別部分的分隔字元。預設為縱線字元 (`|`)。
 
-此方法會傳回包含易記格式化版 URL 的字串。此字串通常會指派給 `pageName` 變數，但也可用於其他變數。
+函式會傳回包含易記格式化版URL的字串。 此字串通常會指派給 `pageName` 變數，但也可用於其他變數。
 
-## 呼叫範例
-
-### 範例 #1
-
-如果目前的 URL 是...
+## 範例
 
 ```js
-https://mail.google.com/mail/u/0/#inbox
-```
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "mail.example.com|mail|u|0".
+s.pageName = getPageName();
 
-...且下列程式碼執行...
+// Given the URL https://mail.example.com/mail/u/0/#inbox, sets the page variable to "example|mail|u|0".
+s.pageName = getPageName("example");
 
-```js
-s.pageName = getPageName()
-```
+// Given the URL https://www.example.com/, sets the page variable to "www.example.com|home".
+// When the code runs on a URL that does not contain a path, it always adds the value of "home" to the end of the return value.
+s.pageName = getPageName();
 
-...s.pageName 的最終值將為：
+// Given the URL https://www.example.com/, sets the page variable to "example|home".
+s.pageName = getPageName("example","","","|");
 
-```js
-s.pageName = "mail.google.com|mail|u|0";
-```
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "www.example.com|en|booking|room-booking.html".
+s.pageName = getPageName();
 
-### 範例 #2
-
-如果目前的 URL 是...
-
-```js
-https://mail.google.com/mail/u/0/#inbox
-```
-
-...且下列程式碼執行...
-
-```js
-s.pageName = getPageName("gmail")
-```
-
-...s.pageName 的最終值將為：
-
-```js
-s.pageName = "gmail|mail|u|0";
-```
-
-### 範例 #3
-
-如果目前的 URL 是...
-
-```js
-https://www.google.com/
-```
-
-...且下列程式碼執行...
-
-```js
-s.pageName = getPageName()
-```
-
-...s.pageName 的最終值將為：
-
-```js
-s.pageName = "www.google.com|home"
-```
-
-**注意**：程式碼在不含路徑的 URL 上執行時，一律會將 &quot;home&quot; 值新增至傳回值的結尾
-
-### 範例 #4
-
-如果目前的 URL 是...
-
-```js
-https://www.google.com/
-```
-
-...且下列程式碼執行...
-
-```js
-s.pageName = getPageName("google","","","|")
-```
-
-...s.pageName 的最終值將為：
-
-```js
-s.pageName = "google|home"
-```
-
-### 範例 #5
-
-如果目前的 URL 是...
-
-```js
-https://www.hotelrooms.com/en/booking/room-booking.html?cid=1235#/step2&arrive=2018-05-26&depart=2018-05-27&numGuests=2
-```
-
-...且下列程式碼執行...
-
-```js
-s.pageName = getPageName()
-```
-
-...s.pageName 的最終值將為：
-
-```js
-s.pageName = "www.hotelrooms.com|en|booking|room-booking.html"
-```
-
-不過，如果改成下列程式碼執行...
-
-```js
-s.pageName = getPageName("hotelrooms","cid","arrive,numGuests",": ")
-```
-
-...s.pageName 的最終值將為：
-
-```js
-s.pageName = "hotelrooms: en: booking: room-booking.html: cid=1235: arrive=2018-05-26: numGuests=2"
+// Given the URL https://www.example.com/en/booking/room-booking.html?cid=1235#/step2&arrive=05-26&depart=05-27&numGuests=2
+// Sets the page variable to "example: en: booking: room-booking.html: cid=1235: arrive=05-26: numGuests=2"
+s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 ```
 
 ## 從舊版升級
 
-getPageName 外掛程式的 4.0+ 版不依存於要執行的 Adobe Analytics AppMeasurement 物件 (即「s」物件) 之存在。如果您選擇升級為此版本，請務必移除呼叫中「s」物件的任何例項，以變更呼叫該外掛程式的程式碼。例如，請變更下列項目：
-
-```js
-s.pageName = s.getPageName();
-```
-
-...變更為這個：
-
-```js
-s.pageName = getPageName();
-```
+`getPageName`外掛程式的4.0+版不取決於Adobe Analytics的AppMeasurement物件（即`s`物件）是否存在。 如果您升級至此版本，請移除呼叫中`s`物件的任何例項，以變更呼叫外掛程式的程式碼。 例如，將`s.getPageName();`變更為`getPageName();`。
 
 ## 版本記錄
 
