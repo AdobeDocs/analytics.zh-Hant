@@ -2,10 +2,10 @@
 title: getTimeSinceLastVisit
 description: 測量兩次造訪之間經過的時間長度。
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
+source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '508'
+ht-degree: 98%
 
 ---
 
@@ -17,29 +17,29 @@ ht-degree: 93%
 
 `getTimeSinceLastVisit` 外掛程式可用來追蹤訪客從上次造訪到下次回訪您網站經過的時間長度。
 
-## 在Adobe Experience Platform中使用標籤安裝外掛程式
+## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
    * 條件：無
-   * 事件：核心 - 已載入程式庫 (頁面頂端)
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
 1. 使用下列設定將動作新增至上述規則：
    * 擴充功能：常用 Analytics 外掛程式
    * 動作類型：初始化 getTimeSinceLastVisit
 1. 儲存並發佈規則的變更。
 
-## 使用 自訂程式碼編輯器安裝外掛程式
+## 使用自訂程式碼編輯器安裝外掛程式
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## 使用外掛程式
 
-`getTimeSinceLastVisit` 方法不使用任何引數。它會傳回自訪客上次造訪網站以來經過的時間長度，並以下列格式分組：
+`getTimeSinceLastVisit`函式不使用任何引數。 它會傳回自訪客上次造訪網站以來經過的時間長度，並以下列格式分組：
 
 * 自上次造訪後 30 分鐘至 1 小時之間的時間設為最接近的半分鐘基準。例如：`"30.5 minutes"`、`"53 minutes"`
 * 一小時至一天之間的時間會捨入至最接近的四分之一小時基準。例如：`"2.25 hours"`、`"7.5 hours"`
@@ -70,22 +70,21 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 此外掛程式會建立名為 `"s_tslv"` 的第一方 Cookie，並設為目前時間的 Unix 時間戳記。閒置兩年後 Cookie 便會到期。
 
-## 呼叫範例
+## 範例
 
-### 範例 #1
+```js
+// Given a visitor's first visit to the site
+// Sets prop1 to "New Visitor"
+s.prop1 = getTimeSinceLastVisit();
 
-如果新訪客造訪網站，而下列程式碼在造訪的第一頁上執行...
+// 35 minutes later, the same visitor returns
+// Sets prop1 to "35 minutes"
+s.prop1 = getTimeSinceLastVisit();
 
-```javascript
-s.prop1 = s.getTimeSinceLastVisit();
-s.linkTrackVars = s.apl(s.linkTrackVars, "prop1") //ensures that prop1 will be included on the first hit of the visit
+// 4 days later, the same visitor returns
+// Sets prop1 to "4 days"
+s.prop1 = getTimeSinceLastVisit();
 ```
-
-...s.prop1 的值將設為等於「New Visitor」。
-
-如果閒置 35 分鐘後在相同網域上執行相同的程式碼，s.prop1 的值將設為等於「35 分鐘」。
-
-如果閒置 4 天後在相同網域上執行相同的程式碼，s.prop1 的值將設為等於「4 天」。
 
 ## 版本記錄
 
