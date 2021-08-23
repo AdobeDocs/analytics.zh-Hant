@@ -6,9 +6,9 @@ title: 資料欄參考
 feature: Reports and Analytics 基本需知
 uuid: 9042a274-7124-4323-8cd6-5c84ab3eef6d
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
+source-git-commit: b50982f17d226c8efaec6ff4ae4e6ff9140d8299
 workflow-type: tm+mt
-source-wordcount: '3407'
+source-wordcount: '3422'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問題集](../df-faq.md)。
+>大多數欄包含類似的欄，其前置詞為 `post_`。後置欄包含伺服器端邏輯、處理規則和 VISTA 規則之後的值。Adobe 建議在大多數情況下使用後置欄。如需詳細資訊，請參閱[資料摘要常見問答](../df-faq.md)。
 
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
@@ -50,7 +50,7 @@ ht-degree: 99%
 | `clickmaplinkbyregion` | Activity Map 連結 (依地區) | varchar(255) |
 | `clickmappage` | Activity Map 頁面 | varchar(255) |
 | `clickmapregion` | Activity Map 地區 | varchar(255) |
-| `code_ver` | 用於編譯及傳送影像要求的 AppMeasurement 程式庫版本。 | char(16) |
+| `code_ver` | 用於編譯及傳送影像要求的 AppMeasurement 資料庫版本。 | char(16) |
 | `color` | 以`c_color`欄的值為基礎的色階 ID。請參考`color_depth.tsv`查詢表。 | 不帶正負號的 smallint |
 | `connection_type` | 表示連線類型的數值 ID。用於[連線類型](/help/components/dimensions/connection-type.md)維度的變數。請參考`connection_type.tsv`查詢表。 | 不帶正負號的 tinyint |
 | `cookies` | 用於 [Cookie 支援](/help/components/dimensions/cookie-support.md)維度的變數。<br>Y：啟用<br>N：停用<br>U：未知 | char(1) |
@@ -199,8 +199,8 @@ ht-degree: 99%
 | `state` | State 變數。 | varchar(50) |
 | `stats_server` | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
 | `t_time_info` | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 用於 Adobe Target 整合。 | 文字 |
-| `tnt_action` | 用於 Adobe Target 整合。 | 文字 |
+| `tnt` | 用於 Adobe Target 整合。代表目前符合資格的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文字 |
+| `tnt_action` | 用於 Adobe Target 整合。代表符合點擊資格的所有測試。 | 文字 |
 | `tnt_post_vista` | 已不再使用。請改用 `post_tnt`。 | 文字 |
 | `transactionid` | 唯一識別碼，日後可透過資料來源上傳各種資料點。使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | 文字 |
 | `truncated_hit` | 此旗標代表影像要求已截斷。表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
@@ -230,7 +230,7 @@ ht-degree: 99%
 | `videoaudioalbum` | 影音相簿 | varchar(255) |
 | `videoaudioartist` | 影音藝人 | varchar(255) |
 | `videoaudioauthor` | 影音作者 | varchar(255) |
-| `videoaudiolabel` | 影音標籤 | varchar(255) |
+| `videoaudiolabel` | 影音標記 | varchar(255) |
 | `videoaudiopublisher` | 影音發佈者 | varchar(255) |
 | `videoaudiostation` | 影音電台 | varchar(255) |
 | `videocampaign` | 影音促銷活動 | varchar(255) |
@@ -274,7 +274,7 @@ ht-degree: 99%
 | `visit_referrer` | 造訪的第一個反向連結。 | varchar(255) |
 | `visit_search_engine` | 造訪的第一個搜尋引擎數值 ID。使用`search_engines.tsv`查詢。 | 不帶正負號的 smallint |
 | `visit_start_page_url` | 造訪的第一個 URL。 | varchar(255) |
-| `visit_start_pagename` | 造訪的第一次點擊中的「頁面名稱」值。 | varchar(100) |
+| `visit_start_pagename` | 造訪首次點擊時的頁面名稱值。 | varchar(100) |
 | `visit_start_time_gmt` | 造訪之第一次點擊的時間戳記 (單位為 Unix 時間)。 | int |
 | `weekly_visitor` | 此旗標可確定點擊是否為每週新訪客。 | 不帶正負號的 tinyint |
 | `yearly_visitor` | 此旗標可確定點擊是否為每年新訪客。 | 不帶正負號的 tinyint |
