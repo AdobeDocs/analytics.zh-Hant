@@ -2,10 +2,10 @@
 title: 透過 Analytics 使用 XDM 資料
 description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料概觀
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
-source-git-commit: 501b64c7704c234b21a5ccb428883bc6fcaf166a
+source-git-commit: 3def20b348713b580429e342ad3319963cae6549
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 96%
+source-wordcount: '270'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Analytics 透過兩種方法收集 XDM 資料：
 
 ## 自動對應
 
-自動對應仰賴 XDM 中的預設[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)，會自動填入典型 Analytics 資料收集所包含的 JSON 物件。自動從 XDM 對應至您設定之報表套裝的 Analytics 變數，不需要開發人員支援即可整合。
+自動對應仰賴 XDM 中的預設[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)，會自動填入典型 Analytics 資料收集所包含的 JSON 物件。自動從 XDM 對應至您設定之報表套裝的 Analytics 變數，不需要開發人員支援即可整合。請參閱平台網頁SDK使用指南中的[在Analytics中自動對應的變數](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) 。
 
 ## 手動對應
 
