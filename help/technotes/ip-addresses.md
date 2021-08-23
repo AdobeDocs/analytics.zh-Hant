@@ -2,10 +2,10 @@
 title: Adobe Analytics 使用的 IP 和網域
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: d941e4308352d6228e73bc7f7443a36ffd374b0c
+source-git-commit: 881d78ef8f6ca5422e286f8cc472ea03a52b1068
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe 建�
 
 ## 資料收集和 FTP IP 位址區塊
 
-若您的組織想要允許特定 IP 位址範圍，您可以使用下表。上表包含本節中所有範圍。
+若您的組織想要允許特定 IP 位址範圍，您可以使用下表。上表包含本節中所有範圍。Data Warehouse和資料摘要的FTP連線僅源自倫敦、奧勒岡和新加坡的位置。
 
 | 位置 | IP 範圍 (CIDR 標記法) |
 | --- | --- |
