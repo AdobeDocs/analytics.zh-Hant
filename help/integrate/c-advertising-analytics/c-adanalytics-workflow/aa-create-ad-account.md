@@ -2,10 +2,10 @@
 title: 如何在 Advertising Analytics 中設定 Advertising 帳戶
 description: 可讓您建立新的 Advertising 帳戶，並將多個帳戶對應到多個報表套裝。
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '863'
-ht-degree: 100%
+source-git-commit: 98c04c6553f6f18bb69a29ac2af0f622928b0b31
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -63,24 +63,24 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
 
    >[!IMPORTANT]
    >
-   >僅限[對應至 Experience Cloud 組織](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hant)的報表套裝可供選取。如果畫面並未列出您的報表套裝，請參閱[疑難排解 Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
+   >只有對應至Experience Cloud組織的報表套裝可供選取。 如果畫面並未列出您的報表套裝，請參閱[疑難排解 Advertising Analytics](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)。
 
    依照以下準則進行&#x200B;**[!UICONTROL 「對應設定」]**：
 
    <table id="table_AF876DC40F97403882C0AA528BD204FF"> 
-    <thead> 
-      <tr> 
-      <th colname="col1" class="entry"> 設定 </th> 
-      <th colname="col2" class="entry"> 說明 </th> 
-      </tr>
-    </thead>
-    <tbody> 
-      <tr> 
-      <td colname="col1"> <p>報表套裝對應 </p> </td> 
-      <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> <p>如果您的報表套裝並未列出，可以使用這個工具<a href="https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html?lang=zh-Hant"  >將報表套裝對應到 Experience Cloud 組織</a>。 </p> </td> 
-      </tr> 
-    </tbody> 
-    </table>
+   <thead> 
+   <tr> 
+   <th colname="col1" class="entry"> 設定 </th> 
+   <th colname="col2" class="entry"> 說明 </th> 
+   </tr>
+   </thead>
+   <tbody> 
+   <tr> 
+   <td colname="col1"> <p>報表套裝映射 </p> </td> 
+   <td colname="col2"> <p>報表套裝對應決定與此搜尋引擎帳戶相連結的報表套裝。換句話說，這會決定要將搜尋引擎資料傳送到哪些報表套裝中。 </p> </td>
+   </tr> 
+   </tbody> 
+   </table>
 
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 儲存後，免責聲明會顯示一系列警語。系統會要求確認您已閱讀合約並了解其中的條款。按一下核取方塊，再按一下&#x200B;**[!UICONTROL 「確定」]**。

@@ -3,10 +3,10 @@ description: '了解 '
 title: 量度類型和歸因
 uuid: 64649698-df2a-42c3-bb31-938f766e1d1f
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 73161e10a2f70cd0e874d2c1de6d4f418b25aefb
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 97%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[歸因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html?lang=zh-Hant) 修訂計算量度中配置模式的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
+>[歸因 IQ](/help/analyze/analysis-workspace/attribution/overview.md) 修訂計算量度中配置模式的評估方式。這次變更中，使用非預設配置模型的計算量度已改為新的改良版歸因模型：
 >
->* 如需非預設歸因模型的完整清單及支援的回溯時段，請參閱[歸因 IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) 文件。
+>* 如需非預設歸因模型和支援回顧期間的完整清單，請參閱[歸因模型和回顧期間](/help/analyze/analysis-workspace/attribution/models.md)。
 >* 「行銷管道上次接觸」和「行銷管道首次接觸」配置模型將分別移轉至新的「上次接觸」和「首次接觸」屬性模型 (注意：「行銷管道」將不會遭到廢止，而是只會廢止出現在計算量度中的兩個配置模型)。
 >* 此外，我們將修正「線性配置」的計算方式。如果客戶使用的是包含「線性」配置模型的計算量度，報表會稍微變更以反映修正後新的屬性模型。對計算量度的這一變更將反映在 Analysis Workspace、Reports &amp; Analytics、Reporting API 和 Report Builder 中。如需詳細資訊，請參閱下方的&#x200B;**「線性配置」自 2018 年 7 月 19 日起的新運作方式**。
->
-
 
 
 ## 線性配置自 2018 年 7 月 19 日起的新運作方式

@@ -4,10 +4,10 @@ solution: Audience Manager
 title: 伺服器端轉送概觀
 uuid: 22ddbde5-6805-4eba-8f82-62772644dcaa
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 94%
+source-wordcount: '821'
+ht-degree: 93%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 94%
 
    * **具有 DIL 的 AAM 客戶**：密切協調下列兩個項目：
 
-      1. 移除 DIL 程式碼，並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼。
+      1. 移除 DIL 程式碼，並安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html?lang=zh-Hant)頁面程式碼。
       1. 在 Analytics「Admin Console」UI 中，依照步驟 3 所述的方式啟用伺服器端轉送。未移除 DIL 程式碼即啟用此設定將會使資料重複，並建立對 Audience Manager 的其他計費伺服器呼叫。
    * **新 AAM 客戶**：安裝[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html)頁面程式碼，並繼續進行步驟 3。在步驟 3 中開啟伺服器端轉送前，資料將不會傳送至 Audience Manager。
 
@@ -64,10 +64,10 @@ ht-degree: 94%
 
 前往&#x200B;**「Analytics** > **管理員** > **報表套裝** > (選取&#x200B;**「報表套裝」**) > **編輯設定** > **一般** > **伺服器端轉送」**。如果核取方塊為：
 
-* **非作用中** (功能表不存在或無法選取)：您未將選定的報表套裝對應至您的 IMS 組織。請使用[報表套裝對應 UI](https://experienceleague.adobe.com/docs/core-services/interface/about-core-services/report-suite-mapping.html)，確認適用的報表套裝已對應至正確的 Experience Cloud 組織。
+* **非作用中** （您無法選取或功能表不存在）:您未將選取的報表套裝對應至IMS組織。請連絡客戶服務，確認報表套裝已正確對應。
 * **已停用**：您未開啟新的伺服器端轉送。閱讀頁面中的內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。您也可以設定此 Audience Analytics 整合。
 
 >[!NOTE]
 >
->您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) 或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。
+>您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant) 或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。

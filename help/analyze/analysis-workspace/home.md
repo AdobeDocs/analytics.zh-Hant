@@ -1,17 +1,17 @@
 ---
 title: 什麼是 Analysis Workspace 以及該如何使用它？
 description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。它可讓您使用面板、表格、視覺效果和其他元件好讓資料栩栩如生、組織資料集、共用及排程專案，還有其他功能。
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '557'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '555'
 ht-degree: 100%
 
 ---
 
-# Analysis Workspace 概觀
+# Analysis Workspace 概述
 
 Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析及分享見解。您可以使用拖放式操作介面建立分析、新增視覺效果以生動呈現資料、組織資料集、與組織中的任何人共用及排程專案。
 
@@ -21,7 +21,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 登入 Adobe Analytics {#login}
 
-若要開始使用 Analysis Workspace，請前往 [experience.adobe.com/analytics](http://experience.adobe.com/analytics) 登入 Adobe Analytics。如果先前未選取特定專案，您的登陸頁面就會是 Analysis Workspace 專案清單首頁。
+若要開始使用 Analysis Workspace，請前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics) 登入 Adobe Analytics。如果系統之前沒有為您選取特定專案，您的登陸頁面就會是 Workspace 專案清單首頁。
 
 ![](assets/login-analytics.png)
 

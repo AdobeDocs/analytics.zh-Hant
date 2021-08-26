@@ -2,7 +2,7 @@
 title: 完全處理資料來源終止服務
 description: 大量資料插入API和完全處理資料來源之間終止連結和比較的原因。
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: f120c189228892e57e38e4d0e106eb3190326ff1
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 27%
@@ -13,7 +13,7 @@ ht-degree: 27%
 
 數年來，「完全處理資料來源」可讓您提交點擊層級的資料至Adobe Analytics。 此資料的處理方式與透過JavaScript程式庫和行動應用程式SDK收集的資料相同。 2020年，Adobe發佈了[大量資料插入API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，該API執行的功能與完全處理資料源相同，但具有其他功能。 本主題提供大量資料插入API所提供其他功能的詳細資訊，並概述檔案格式的差異。
 
-自2021年3月25日起，Adobe將無法建立新的「完全處理資料來源」連線。 在2021年7月31日完全廢止服務之前，我們仍會支援現有連線。 除了標準檔案，我們還提供透過大量資料插入API](http://adobe.ly/aabdia)提交資料所需的[步驟逐步說明。
+自2021年3月25日起，Adobe將無法建立新的「完全處理資料來源」連線。 在2021年7月31日完全廢止服務之前，我們仍會支援現有連線。 除了標準檔案，我們還提供透過大量資料插入API](https://adobe.ly/aabdia)提交資料所需的[步驟逐步說明。
 
 ## 我們為什麼要終止此功能？
 

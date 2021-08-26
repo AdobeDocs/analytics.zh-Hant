@@ -1,13 +1,13 @@
 ---
 description: 有關分段的常見問答。
 title: 常見問答
-feature: 區段
+feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '2071'
-ht-degree: 100%
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '2080'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 您可以建立[循序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
 
-如需詳細資訊，請參閱 Digital Marketing 部落格上的[改進 Adobe Analytics 中的劃分](https://blogs.adobe.com/digitalmarketing/analytics/improving-segmentation-adobe-analytics/)文章。
+如需詳細資訊，請參閱Adobe部落格上的[改善Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html)貼文。
 
 ## 存取區段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
 存取「區段產生器」的方法有：
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
+* 顯示現有報表並按一下左側導覽中的區段圖示![區段圖示](assets/segment_icon.png)。 在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
 
-* 在「區段管理員」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![](assets/add_button.png)
+* 在「區段管理員」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![添加按鈕](assets/add_button.png)
 
    或
 
@@ -53,13 +53,13 @@ ht-degree: 100%
 
 * 前往頂端導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
+* 顯示現有報表並按一下左側導覽中的區段圖示![區段圖示](assets/segment_icon.png)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
 * 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
 **舊式區段下拉式清單移至何處?**
 
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![](assets/segment_icon.png)，
+「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![，區段圖示](assets/segment_icon.png)
 
 區段欄隨即顯示。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 報表套裝下拉式清單已移至到每個報表或控制面板右上角的日期選擇器旁邊。
 
-![](assets/report_suite_selector.png)
+![報表套裝選擇器](assets/report_suite_selector.png)
 
 ## 權限 {#section_648DFA3A882146C485A84ED014EEC707}
 

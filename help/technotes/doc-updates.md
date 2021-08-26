@@ -3,9 +3,9 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics檔案集的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 9bbbba053946d2d4c2a0e45dc4c70fe398e3fa3b
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2899'
 ht-degree: 63%
 
 ---
@@ -30,8 +30,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 8 月 5 日 | 更新[範本](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=en)、[瀏覽器匯入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en)和[瀏覽器匯出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=en)的分類檔案，指出新分類架構所啟用之報表套裝無法使用的選項。 |
 | 2021 年 8 月 2 日 | 更新多個頁面，以反映[Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=en)的品牌重塑 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | [銷售eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en)的深入探討 |
-| 2021 年 7 月 15 日 | 新增有關新[Adobe Analytics登陸頁面](https://experienceleague.adobe.com/docs/analytics/landing/an-landing.html?lang=zh-Hant)的檔案 |
+| 2021 年 7 月 23 日 | [銷售eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)的深入探討 |
+| 2021 年 7 月 15 日 | 新增有關新[Adobe Analytics登陸頁面](/help/analyze/landing.md)的檔案 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 更新[行銷管道最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 2021 年 6 月 3 日 | 更新說明檔案，以便更妥善說明[資料摘要實施](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=en)和[此處](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=en#BucketOwnerFullControl)。  |
@@ -99,7 +99,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新 Workspace 範本. 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱「[設定跨裝置分析](/help/components/cda/setup.md)」。 |
 | 2020 年 2 月 20 日 | Workspace 的全新快速鍵:<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[更多詳情...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant) |
 | 2020 年 2 月 20 日 | 工作區增強功能： <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
-| 2020 年 2 月 20 日 | 「說明」功能表新增Workspace偵錯工具，供您以更順暢的方式啟用，以偵錯Workspace請求。 [進一步了解...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
+| 2020 年 2 月 20 日 | 「說明」功能表新增Workspace偵錯工具，供您以更順暢的方式啟用，以偵錯Workspace請求。 [了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
 | 2020 年 2 月 18 日 | 新增 [`writeSecureCookies`](/help/implement/vars/config-vars/writesecurecookies.md) 變數。 |
 | 2020 年 2 月 12 日 | 更新及重新整理[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)文件。 |
 | 2020 年 2 月 12 日 | 新增快捷鍵至[此Workspace頁面](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=en) |
@@ -114,7 +114,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2019年** |  |
 | 2020 年 12 月 19 日 | 將預設的[FTP資料儲存限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=en)變更為10 GB。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
-| 2019 年 11 月 25 日 | [「強制 IP 登入限制」服務終止](/help/admin/company/login-restrictions-eol.md)的相關新主題 |
+| 2019 年 11 月 25 日 | 強制IP登入限制服務終止的相關新主題。 |
 | 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 11 月 21 日 | 更新[Audience Analytics工作流程常見問題集](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=en)以指出LiveStream中的可用性。 |
 | 2019 年 10 月 25 日 | 更新[Adobe Analytics重要概念](/help/technotes/terms.md)頁面。 |

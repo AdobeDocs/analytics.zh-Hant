@@ -3,7 +3,7 @@ description: 說明根據歐盟Cookie法規規範所促成之伺服器端轉送�
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 uuid: 1b90c567-3321-4dbd-a699-38c04e809fa4
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 80%
@@ -12,7 +12,7 @@ ht-degree: 80%
 
 # GDPR/ePrivacy 法規遵循與伺服器端轉送
 
-本節說明2017年9月30日生效的[EU Cookie法規遵循規範](https://ec.europa.eu/ipg/basics/legal/cookies/index_en.htm)所促成的伺服器端轉送增強功能。
+本節說明2017年9月30日生效的[EU Cookie法規遵循規範](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookie+和+類似+技術)所促成的伺服器端轉送增強功能。
 
 伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
 
@@ -28,7 +28,7 @@ ht-degree: 80%
 
 | 實作方法 | 步驟 |
 |--- |--- |
-| Adobe Experience Platform中的標籤 | 假設您已安裝Adobe Analytics擴充功能，請在「規則」的「動作」設定中，將下列內容資料變數定義新增至自訂程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意： 若客戶不同意目標式行銷，請定義contextdata變數，並將其設為「1」。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為&#x200B;*「0」*。 |
+| Adobe Experience Platform 中的標記 | 假設您已安裝Adobe Analytics擴充功能，請在「規則」的「動作」設定中，將下列內容資料變數定義新增至自訂程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意： 若客戶不同意目標式行銷，請定義contextdata變數，並將其設為「1」。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為&#x200B;*「0」*。 |
 | AppMeasurement | 將內容資料變數定義新增至 AppMeasurement.js 檔案：    <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
 ## 報表 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}

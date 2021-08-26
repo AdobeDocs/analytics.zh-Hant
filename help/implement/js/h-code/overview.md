@@ -2,10 +2,10 @@
 title: H 程式碼 JavaScript 實施概述
 description: 瞭解在網站上實施 H 程式碼的工作流程。
 exl-id: cf83d8fe-a3b1-4e65-a86a-7eeaf555651b
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '389'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->不再支援此版本的資料彙集。升級至Adobe Experience Platform](../../launch/overview.md)或[JavaScript適用的AppMeasurement](../overview.md)中的[標籤。
+>不再支援此版本的資料彙集。請升級為 [Adobe Experience Platform 中的標記](../../launch/overview.md)或 [JavaScript 適用的 AppMeasurement](../overview.md)。
 
 您必須擁有托管伺服器的存取權限，才能成功實施包含資料收集程式碼的頁面。下列步驟將帶領您進行基本的 Analytics H 程式碼實施。
 
@@ -35,8 +35,8 @@ ht-degree: 96%
 
 ## 快取
 
-JavaScript 檔案初始載入後會置於訪客瀏覽器的快取中，通常一個工作階段不會下載超過一次。此檔案即使用於網站上的每個頁面，也不會下載至每個頁面上。大部分網站上的使用者每個工作階段會進行多次頁面檢視，所以將多次使用的 JavaScript 傳輸至此檔案可以減少整體下載資料量。
+JavaScript 檔案初始載入後會置於訪客瀏覽器的快取中，通常一個工作階段不會下載超過一次。此檔案即使用於網站上的每個頁面，也不會下載至每個頁面上。大部分網站上的使用者每個工作階段會進行多次頁面瀏覽，所以將多次使用的 JavaScript 傳輸至此檔案可以減少整體下載資料量。
 
 ## H 程式碼壓縮
 
-如果您擔心 `s_code.js` 檔案的下載大小，Adobe 建議使用 GZIP 壓縮 `s_code.js` 檔案。GZIP 受到所有主要瀏覽器支援，而且效能比 JavaScript 壓縮更好。請參閱 Apache 文件中的 [Apache 模組 mod_deflate](http://httpd.apache.org/docs/current/mod/mod_deflate.html)。
+如果您擔心 `s_code.js` 檔案的下載大小，Adobe 建議使用 GZIP 壓縮 `s_code.js` 檔案。GZIP 受到所有主要瀏覽器支援，而且效能比 JavaScript 壓縮更好。請參閱 Apache 文件中的 [Apache 模組 mod_deflate](https://httpd.apache.org/docs/current/mod/mod_deflate.html)。

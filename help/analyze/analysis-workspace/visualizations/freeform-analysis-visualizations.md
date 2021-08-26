@@ -2,17 +2,17 @@
 description: 透過視覺效果，以視覺化方式來表示您的資料。
 keywords: Analysis Workspace
 title: 視覺效果概觀
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1090'
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+workflow-type: tm+mt
+source-wordcount: '1071'
 ht-degree: 100%
 
 ---
 
-# 視覺效果概觀
+# 視覺效果概述
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
@@ -77,8 +77,6 @@ Analysis Workspace 中有以下視覺效果類型：
 
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
-
-以下是此主題的[影片連結](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/series-label-editing.html?lang=zh-Hant)。
 
 ## 在功能表上按一下右鍵 {#right-click}
 

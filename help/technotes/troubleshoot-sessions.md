@@ -1,14 +1,13 @@
 ---
 title: 排解 Adobe Analytics 中工作階段的疑難問題
 description: 瞭解如何解決登出 Adobe Analytics 時遇到的相關問題。
-translation-type: tm+mt
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
+exl-id: 191250ef-8313-47be-9717-046cce870998
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 100%
+source-wordcount: '347'
+ht-degree: 88%
 
 ---
-
 
 # 排解 Adobe Analytics 中工作階段的疑難問題
 
@@ -24,7 +23,7 @@ ht-degree: 100%
 
 ## Proxy 造成的問題
 
-向 Adobe 提出請求時，Adobe 會使用授權標頭。有些 Proxy (例如現屬於 Symantec 的 Bluecoat) 會移除 Adobe Analytics 所使用的重要授權標頭資訊。當 Adobe 沒有看到授權標題，工作階段便會過期。
+向 Adobe 提出請求時，Adobe 會使用授權標頭。有些Proxy(例如Edge Secure Web Gateway（前身為Bluecoat）)會移除Adobe Analytics使用的重要授權標頭資訊。 當 Adobe 沒有看到授權標題，工作階段便會過期。
 
 為解決此問題，Adobe 建議與貴組織的 IT 團隊合作，允許授權標頭通過貴組織的 Proxy。
 
@@ -32,7 +31,7 @@ ht-degree: 100%
 >
 > 雖然 Analytics 社群的會員已發現下列實用連結，但 Adobe 並非這些連結的擁有者。檢視其內容時，請將此備註列入考量。
 
-如需 Symantec Proxy 和授權標頭的資訊，請參閱：
+如需 Proxy 和授權標頭的資訊，請參閱：
 
-* [在 ProxySG 或 ASG 設備上的 Proxy 鏈部署中設定上游 Proxy 驗證](https://support.symantec.com/en_US/article.TECH246122.html)
-* [允許 ProxySG 一律向上游轉送伺服器授權](https://support.symantec.com/en_US/article.TECH244708.html)
+* [在 ProxySG 或 ASG 設備上的 Proxy 鏈部署中設定上游 Proxy 驗證](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [如何將用戶憑據轉發到ProxySG設備後面的伺服器](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)

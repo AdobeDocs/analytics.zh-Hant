@@ -2,10 +2,10 @@
 title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 99fea634dafc5d0992898f8f9f89471b51191fc6
+source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
 workflow-type: tm+mt
 source-wordcount: '751'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 我們秉持尊重合作夥伴和追求透明的精神，希望客戶了解我們的跨裝置分析會使用 Microsoft Azure。Adobe 會使用 Azure 來儲存裝置圖表資料，及執行跨裝置連結。因此，Adobe Analytics 資料會在 Adobe 的資料處理中心與 Adobe 佈建的 Microsoft Azure 例項之間來回傳遞。
 
-請參閱[歷程 IQ：跨裝置分析 Spark 頁面](http://adobe.ly/aacda)，進一步了解跨裝置分析的功能和特色。
+請參閱[歷程 IQ：跨裝置分析 Spark 頁面](https://adobe.ly/aacda)，進一步了解跨裝置分析的功能和特色。
 
 ## 必要條件
 
