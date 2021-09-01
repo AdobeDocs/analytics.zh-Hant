@@ -1,14 +1,13 @@
 ---
 title: 重播的運作方式
 description: 了解跨裝置分析中「重播」的概念
-translation-type: ht
-source-git-commit: f3f5f82a236d376eda07d4d39e7effa60e929499
-workflow-type: ht
-source-wordcount: '589'
-ht-degree: 100%
+exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
+source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
+workflow-type: tm+mt
+source-wordcount: '619'
+ht-degree: 95%
 
 ---
-
 
 # 重播的運作方式
 
@@ -48,6 +47,10 @@ ht-degree: 100%
 * **如果使用依欄位彙整**，則已識別裝置上未驗證的點擊會從該時間點開始即時結合。
 
    識別出自訂變數繫結至裝置時，歸因功能就會立即運作。在上述範例中，除了點擊 1 和 3 之外的所有點擊都經過即時結合 (都使用 `Bob` 識別碼)。重播結合後，便可對點擊 1 和 3 執行歸因功能。
+
+>[!NOTE]
+>
+>即時流量中不會結合超過12小時的時間戳記點擊。 不過，只要這些點擊落在重播回顧期間，重播結合就會納入這些點擊。
 
 ### 重播結合
 

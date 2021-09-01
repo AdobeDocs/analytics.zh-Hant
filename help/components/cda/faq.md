@@ -2,10 +2,10 @@
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 50ffeac17a07478e98e8d83bd3a87db0d9a1145d
+source-git-commit: 966e013cb6119696cbd058368c90f2bbef0bc9ae
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 100%
+source-wordcount: '1780'
+ht-degree: 94%
 
 ---
 
@@ -114,3 +114,11 @@ CDA 會提取 eVar 維度項目，再針對報表最佳化。您不須擔心針�
 ## 如果我的公司決定從 Analytics Ultimate 降級，我的 CDA 虛擬報表套裝中的銜接資料會出現什麼狀況？
 
 如果客戶從 Ultimate 降級，他們將無法再存取銜接資料。 先前的所有銜接資料都會被移除。 這表示，CDA 虛擬報表套裝現在不會反映任何跨裝置銜接。 資料看起來將會類似於未銜接的原始報表套裝。
+
+## 為什麼我的來源報表套裝和CDA虛擬報表套裝之間的點擊總數不同？
+
+CDA使用複雜的平行處理管道，具有多個相依元件。 原始報表套裝和CDA虛擬報表套裝之間的點擊總數，預期會有約1%的資料不符。 對跨裝置功能的影響極小。
+
+## 為何「已識別人員」量度被誇大？
+
+如果計數稍高於預期，則eVar值可能因[雜湊衝突](/help/implement/validate/hash-collisions.md)而屬於多個已識別的人員。 如果計數遠高於預期值，請聯絡客戶服務以取得其他疑難排解步驟。

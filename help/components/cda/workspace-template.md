@@ -1,14 +1,13 @@
 ---
 title: CDA 工作區範本
 description: 說明 Analysis Workspace 中 CDA 範本的各個欄位。
-translation-type: ht
-source-git-commit: be842d1ca4080171dbec7fd8b5966d8861f79487
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
+source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
+workflow-type: tm+mt
+source-wordcount: '439'
+ht-degree: 98%
 
 ---
-
 
 # CDA 工作區範本
 
@@ -17,7 +16,7 @@ Adobe 提供可檢視重要跨裝置效能資料的範本。
 1. 導覽至 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 並使用您的 AdobeID 憑證登入。
 1. 按一下頂端的 9 格線圖示，然後按一下「Analytics」。
 1. 按一下頂端的 [!UICONTROL 「工作區」]，然後按一下[!UICONTROL 「建立新專案」]。
-1. 找出「歷程 IQ：跨裝置分析」範本，然後按一下[!UICONTROL 「建立」]。
+1. 找出「跨裝置分析」範本，然後按一下「[!UICONTROL 建立]」。
 1. 如果出現提示，請變更為支援 CDA 的報表套裝。
 
 已建立包含數個面板的 Analysis Workspace 專案。頂端會顯示目錄和簡介，以便檢視報表內容並導覽至個別報表。按一下目錄內的連結，或展開面板的摺疊式功能表，即可檢視那些報表。

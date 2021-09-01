@@ -2,11 +2,10 @@
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-translation-type: ht
-source-git-commit: 005cb590f4f7d31d3de801437a0ba6fa25b2ea64
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+workflow-type: tm+mt
+source-wordcount: '533'
+ht-degree: 91%
 
 ---
 
@@ -26,7 +25,7 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 * 您要透過 CDA 啟用跨裝置報表套裝的報表套裝 ID
 * 您要使用哪種 CDA 方法 (依欄位彙整、Adobe 專用圖表或 Adobe 合用圖表)
 * 如果使用依欄位彙整，則需使用包含使用者 ID 的 prop/eVar
-* 您的重播頻率和回顧時間長度偏好設定。包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。
+* 您的重播頻率和回顧時間長度偏好設定。包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。預設為每週重播，回顧期間為7天。 在此情況下，上週內的資料可能會有所變更（隨著資料逐漸匯整和更新）。
 
 向客戶服務提供此資訊後，他們就會與 Adobe 工程部門合作，好讓您選擇的報表套裝進行 CDA 處理。
 
@@ -51,7 +50,7 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 為虛擬報表套裝啟用跨裝置分析時，請留意下列變更：
 
 * 虛擬報表套裝名稱旁會出現新的跨裝置圖示。此圖示是跨裝置虛擬報表套裝的專屬圖示。
-* 有一個標示為[「識別的狀態」](../dimensions/identified-state.md)的新維度可供使用。此維度會決定裝置圖形是否將即時得知該點擊上的 Experience Cloud ID。
-* 新量度[「人員」](../metrics/people.md)和[「不重複裝置」](../metrics/unique-devices.md)可供使用。
+* 有一個標示為[「識別的狀態」](../dimensions/identified-state.md)的新維度可供使用。
+* 提供標示為[People](../metrics/people.md)、[不重複裝置](../metrics/unique-devices.md)、已識別人員、未識別人員，以及具有Experience CloudID的人員的新量度。
 * [「不重複訪客」](../metrics/unique-visitors.md)量度無法使用，因為它已被「人物」和「不重複裝置」取代。
 * 建立區段時，「訪客」區段容器會被「人員」容器取代。
