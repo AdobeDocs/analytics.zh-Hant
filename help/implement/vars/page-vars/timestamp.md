@@ -3,9 +3,9 @@ title: timestamp
 description: 手動設定點擊的時間戳記。
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '246'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 91%
 >
 >如果您的報表套裝未明確設定為接受時間戳記點擊，請勿使用此變數。對於不支援時間戳記點擊的報表套裝，AppMeasurement 會自動設定點擊時間。如果您將包含此變數的點擊傳送到不支援時間戳記的報表套裝，該資料會永久遺失。
 
-## 在Adobe Experience Platform中使用標籤的時間戳記
+## 使用 Adobe Experience Platform 中的標記的時間戳記
 
-資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.timestamp
+## AppMeasurement 和自訂程式碼編輯器中的 s.timestamp
 
 `s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix 時間](https://en.wikipedia.org/wiki/Unix_time)。
 
