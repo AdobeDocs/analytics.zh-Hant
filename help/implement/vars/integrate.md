@@ -3,9 +3,9 @@ title: 整合模組
 description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您的組織加以整合。
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,22 +30,22 @@ ht-degree: 93%
 
 ### 取得整合模組程式碼
 
-若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。取得模組程式碼的方法與所有實施方法相同，包括Adobe Experience Platform中的標籤。
+若要取得模組程式碼，使用者必須有產品管理員存取權，或屬於某個可存取代碼管理器的產品設定檔。對於所有實作方法 (包括 Adobe Experience Platform 中的標記)，取得模組程式碼的方法都是相同的。
 
-1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
 1. 在頂端導覽區域中，按一下「**[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**」。
-1. 下載最新 JavaScript AppMeasurement 程式庫。
+1. 下載最新 JavaScript AppMeasurement 資料庫。
 1. 下載後，將檔案解壓縮，然後找出 `AppMeasurement_Module_Integrate.js`。
 
 ### 將整合模組放置在實作中
 
-在您的網站上實作整合模組需要存取Adobe Experience Platform中的資料收集UI。 如果您使用舊版 JavaScript 實作，則需要您組織的網站原始碼的存取權。
+在您網站上實作整合模組需要存取 Adobe Experience Platform 中的資料收集 UI。 如果您使用舊版 JavaScript 實作，則需要存取貴組織的網站原始碼。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
-1. 按一下您要編輯的標籤屬性。
-1. 按一下「擴充功能」標籤，然後按一下 Adobe Analytics 下方的設定。
-1. 開啟「使用自訂程式碼設定追蹤器」可摺疊功能表，然後按一下「&lt;/> 開啟編輯器」。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 按一下您要編輯的標記屬性。
+1. 按一下「擴充功能」標記，然後按一下 Adobe Analytics 下方的設定。
+1. 開啟「使用自訂程式碼設定追蹤器」摺疊式功能表，然後按一下「&lt;/> 開啟編輯器」。
 1. 將整合模組程式碼貼到程式碼模組視窗中。完成後，請按一下儲存。
 
 ## 整合模組方法
