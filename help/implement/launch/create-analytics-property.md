@@ -1,34 +1,34 @@
 ---
-title: 在標籤中建立Analytics屬性
-description: 使用標籤建立空間來自訂資料收集方式。
+title: 在標記中建立 Analytics 屬性
+description: 使用標記建立空間來自訂資料收集的方式。
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-# 建立Adobe Analytics標籤屬性
+# 建立 Adobe Analytics 標記屬性
 
-Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud解決方案（包括Analytics）。 本頁面具體說明標籤管理員如何正確設定基本Adobe Analytics實作。
+Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Cloud 解決方案 (包括 Analytics)。 此頁面會具體說明標記管理員要如何正確地設定基本 Adobe Analytics 實作。
 
 >[!NOTE]
->Adobe Experience Platform Launch已重新命名為Experience Platform中的資料收集技術套件。 因此，產品檔案中已推出數個術語變更。 有關術語更改的綜合參考，請參閱以下[document](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
+>Adobe Experience Platform Launch 已經過品牌重塑，現在是 Experience Platform 中的一套資料收集技術。 因此，所有產品文件中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱以下[文件](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
 
 ## 先決條件
 
-[建立報告套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：建立可供 Analytics 收集資料的獨立單位.
+[建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：為要收集的 Analytics 資料建立一個獨立單位。
 
-## 建立標籤屬性並安裝重要的擴充功能
+## 建立標記屬性，並安裝重要擴充功能
 
-屬性是用來管理標籤的普遍容器。擴充功能可讓您安裝產品專屬標籤並加以設定。
+屬性是用來管理標記的普遍容器。擴充功能可讓您安裝產品專屬標記並加以設定。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下 **[!UICONTROL 新增屬性]**。
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
-1. 按一下您新建立的標籤屬性以輸入其設定。
-1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 目錄]**。
+1. 按一下您新建立的標記屬性以輸入其設定。
+1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 目錄]**。
 1. 找到 Identity Service，然後按一下 **[!UICONTROL 安裝]**。
 1. 所有設定 (包括 Experience Cloud 組織 ID) 皆應已填寫。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 返回擴充功能目錄，找到 Adobe Analytics 並按一下&#x200B;**[!UICONTROL 安裝]**。
@@ -37,9 +37,9 @@ Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud
 
 資料元素是網站特定部分的參考，可用來收集變數值。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
-1. 按一下您要在網站上實作的標籤屬性。
-1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;標籤，然後按一下&#x200B;**[!UICONTROL 建立新資料元素]**。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 按一下您打算在您的網站上實作的標記屬性。
+1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 建立新資料元素]**。
 1. 為資料元素執行下列設定：
 
    * 名稱：頁面名稱
@@ -58,13 +58,13 @@ Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud
 
 規則會將資料元素對映至 Analytics 變數值，並決定要在何時將這些值傳送至 Adobe 的伺服器。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
-1. 按一下您要在網站上實作的標籤屬性。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 按一下您打算在您的網站上實作的標記屬性。
 1. 按一下&#x200B;**[!UICONTROL 建立新規則]**&#x200B;並命名這新規則`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：核心
-   * 事件類型：已載入程式庫 (頁面頂端)
-   * 名稱：核心 - 已載入程式庫 (頁面頂端)
+   * 事件類型：已載入資料庫 (頁面頂端)
+   * 名稱：核心 - 已載入資料庫 (頁面頂端)
    * 訂購：50
 1. 按一下&#x200B;**[!UICONTROL 保留變更]**。
 1. 在&#x200B;**[!UICONTROL 動作]**&#x200B;項下，按一下&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
@@ -83,9 +83,9 @@ Adobe Experience Platform中的標籤可讓您整合網站上的Experience Cloud
 
 ## 文件和其他資源
 
-* [Adobe Analytics擴充功能檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en):標籤中Adobe Analytics擴充功能的完整專屬檔案。
-* [標籤快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en):標籤的完整檔案，包括更深入的快速入門手冊
-* [Adobe Experience Platform Launch頻道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform):透過影片了解如何使用標籤
+* [Adobe Analytics 擴充功能文件](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en)：標記中 Adobe Analytics 擴充功能的完整專屬文件。
+* [標記快速入門](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en)：標記的完整文件，包括更深入的快速入門手冊
+* [Adobe Experience Platform Launch 管道](https://experienceleague.adobe.com/?tag=Launch#recommended/solutions/experience-platform)：透過影片了解如何使用標記
 
 ## 後續步驟
 
