@@ -3,9 +3,9 @@ title: 行動維度
 description: 根據裝置 IP 位址的維度
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '892'
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## 將資料填入這些維度中
 
 這些維度會參考 Adobe 內部的查詢規則。[!UICONTROL 行動電信業者] 查詢是以 IP 位址來確定，並使用我們從 NetAcuity (一種數位元素產品) 取得的資料。
-如果您使用AppMeasurement程式庫(例如透過Adobe Experience Platform中的標籤)，所有行動維度都可立即運作。
+如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，所有行動維度將可立即運作。
 
 ## 行動維度說明
 
