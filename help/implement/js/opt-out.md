@@ -3,9 +3,9 @@ title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
 source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務概觀](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html?lang=zh-Hant)。
+>Adobe 建議使用選擇加入服務，尤其是針對涉及 GDPR 法規的組織。請參閱 Experience Cloud Identity Service 使用指南中的[選擇加入服務總覽](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)。
 
 網站的某些訪客不希望您的資料集內含有他們的瀏覽資訊。Adobe 提供的功能，讓您得以提供網站訪客選擇退出的方法，拒絕他人收集個人資訊。所有實作類型都能獲得滿足；貴組織需自行負責隱私權原則，以及遵守您簽署的條款。
 
@@ -27,19 +27,19 @@ ht-degree: 96%
 
 貴組織的退出頁面取決於實作中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 變數值。
 
-* 在資料收集UI中：
-   1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+* 在資料收集 UI 中：
+   1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
    1. 按一下所需的屬性。
-   1. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
-   1. 按一下[!UICONTROL 「一般」]設定追蹤器，接著記下[!UICONTROL 「追蹤伺服器」]值。
+   1. 按一下「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 下方的「[!UICONTROL 設定]」。
+   1. 按一下[!UICONTROL 「一般」]摺疊式功能表，接著記下[!UICONTROL 「追蹤伺服器」]值。
 
 * 在 JavaScript 實作中：
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
    1. 記下 `trackingServer` 變數值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
-   1. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標籤。
+   1. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標記。
    1. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
 
 找出實作的 `trackingServer` 網域後，將路徑 `/optout.html` 附加至結尾。例如：
