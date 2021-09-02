@@ -3,9 +3,9 @@ title: charSet
 description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,18 +17,18 @@ Adobe 會使用 charSet 變數將傳入的資料轉換為 UTF-8，以便供 Anal
 
 ## Adobe Experience Platform 中的字元集
 
-「字元集」是設定 Adobe Analytics 擴充功能時[!UICONTROL 一般]摺疊式功能表底下的欄位。
+「字元集」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 一般]」摺疊式功能表底下的欄位。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 1. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 字元集]欄位。
 
 您可使用預設字元集或自訂字元集。避免變更 `UTF-8` 的數值，除非在報告中看到亂碼值。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.charSet
+## AppMeasurement 和自訂程式碼編輯器中的 s.charSet
 
-`charSet` 變數為字串。如果您的 Adobe Analytics 中有亂碼值，請將此變數設定為與網站上的 `<meta charset="">` HTML 標籤相同的數值。
+`charSet` 變數為字串。 如果您的 Adobe Analytics 中有亂碼值，請將此變數設定為與網站上的 `<meta charset="">` HTML 標記相同的數值。
 
 ```js
 s.charSet = "UTF-8";
