@@ -3,9 +3,9 @@ title: useBeacon
 description: useBeacon 可強制 AppMeasurement 使用瀏覽器 sendBeacon API
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 90%
 
 >[!TIP]
 >
-> AppMeasurement 會自動啟用 `useBeacon` 來處理退出連結影像要求。
+>AppMeasurement 會自動啟用 `useBeacon` 來處理退出連結影像要求。
 
 當訪客使用不支援 `useBeacon` 的瀏覽器時，`navigator.sendBeacon()` 變數會遭到忽略。使用此變數需有 AppMeasurement 2.16.0 或更新版本。
 
-## 在Adobe Experience Platform中使用標籤使用信標
+## 使用 Adobe Experience Platform 中的標記的「使用指標」
 
-資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.useBeacon
+## AppMeasurement 和自訂程式碼編輯器中的 s.useBeacon
 
 `s.useBeacon` 變數是布林值，可決定 AppMeasurement 是否要使用瀏覽器的 `navigator.sendBeacon()` 方法。其預設值為 `false`。如果您要使用 `navigator.sendBeacon()` 的非同步性，請在呼叫追蹤函數之前將此變數設為 `true`。
 
@@ -35,4 +35,4 @@ s.useBeacon = true;
 
 >[!NOTE]
 >
-> 追蹤呼叫執行後，此變數會重設為 `false`。如果您的實施在相同的頁面載入中傳送多個影像要求 (如單頁應用程式)，請在每次追蹤呼叫前將此變數設定為 `true`。
+>在執行追蹤呼叫後，此變數會重設為 `false`。 如果您的實作在相同頁面載入中傳送多個影像要求 (像是單頁應用程式)，請在每次追蹤呼叫前將此變數設定為 `true`。
