@@ -3,9 +3,9 @@ title: 實作常見問答
 description: 實作的相關常見問答，以及可提供更多資訊的連結。
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '502'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ Identity Service 會指派不重複的持續性識別碼，以便在 Experience 
 
 ## 如何實施心率視訊追蹤？
 
-請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
+請參閱[在 Adobe Analytics 測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 ## Adobe 的服務中斷是否會影響效能？
 
-否。 JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 AppMeasurement 程式庫。如果您在Adobe Experience Platform中使用標籤，則JavaScript檔案會由Akamai托管，或位於貴組織所決定的伺服器位置。
+否。 JavaScript 檔案並非由 Adobe 伺服器託管，所以 Adobe 中斷不會影響 AppMeasurement 資料庫。如果您使用 Adobe Experience Platform 中的標記，則 JavaScript 檔案會由 Akamai 代管，或是在貴組織決定的伺服器位置上代管。
 
 ## 從瀏覽器傳送資料給 Adobe 服務會降低效能嗎？
 
@@ -33,7 +33,7 @@ AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再�
 
 有時組織會因為合約到期，或是需減少伺服器呼叫數而想要移除實作。
 
-* **在Adobe Experience Platform中使用標籤的實作**:在「擴充功能」標籤中停用或解除安裝Adobe Analytics  擴充功能，然後進行發佈。
+* **使用 Adobe Experience Platform 中的標記的實作**：停用或解除安裝「[!UICONTROL 擴充功能]」索引標籤上的 Adobe Analytics 擴充功能，然後發佈。
 * **舊版 AppMeasurement 實作**：使用下列程式碼行取代 `s_code.js` 檔案的整個內容：
 
 ```js
