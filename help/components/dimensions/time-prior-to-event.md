@@ -3,9 +3,9 @@ title: 事件之前時間
 description: 量度與造訪的首次點擊之間相隔的時間量。
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
 source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 94%
 
 ## 維度項目
 
-維度項目包含以時間為基礎的貯體，範圍介於 `"Less than 1 minute"` 到 `"More than 15 hours"` 之間。例如，如果某個訪客從首次點擊到購買花了 23 分鐘，則會歸類於 `"10 to 30 minutes"` 維度項目下。無法針對此量度自訂貯體。
+維度項目包含以時間為基礎的貯體，範圍介於 `"Less than 1 minute"` 到 `"More than 15 hours"` 之間。例如，如果某個訪客從首次點擊到購買花了 23 分鐘，則會歸類於 `"10 to 30 minutes"` 維度項目下。 無法為此量度自訂值區。
