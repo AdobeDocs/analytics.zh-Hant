@@ -3,9 +3,9 @@ title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,24 +15,24 @@ Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料�
 
 >[!IMPORTANT]
 >
->變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報表中的不重複訪客計數可能會暫時激增。
+>變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報告中的不重複訪客計數可能會暫時激增。
 
-## 在Adobe Experience Platform中使用標籤的SSL追蹤伺服器
+## 使用 Adobe Experience Platform 中的標記的 SSL 追蹤伺服器
 
-[!UICONTROL 「SSL 追蹤伺服器」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「一般」]設定追蹤器下方的欄位。
+「[!UICONTROL SSL 追蹤伺服器]」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 一般]」摺疊式功能表下方的欄位。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 「一般」]設定追蹤器，如此可顯示[!UICONTROL 「SSL 追蹤伺服器」]欄位。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「一般」]摺疊式功能表，如此可顯示[!UICONTROL 「SSL 追蹤伺服器」]欄位。
 
 如果此欄位留空，其預設值為 [`trackingServer`](trackingserver.md) 變數中的值。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.trackingServerSecure
+## AppMeasurement 和自訂程式碼編輯器中的 s.trackingServerSecure
 
 `s.trackingServerSecure` 變數是包含影像要求傳送位置的字串。它幾乎永遠是您網站的子網域。瀏覽器中的現代化隱私實務通常會使協力廠商 Cookie 變得不可靠。如果此變數留空，其會使用 `s.trackingServer` 變數中的值。
 
-此變數的值幾乎永遠是第一方網域，例如 `data.example.com`。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant)。
+此變數的值幾乎永遠是第一方網域，例如 `data.example.com`。如需第一方 Cookie 處理的詳細資訊，請參閱「核心服務」使用指南中的 [Experience Cloud 中的第一方 Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)。
 
 最初設定第一方 Cookie 實作的個人，也會定義使用的網域和子網域。例如：
 
