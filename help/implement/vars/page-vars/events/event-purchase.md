@@ -3,9 +3,9 @@ title: 購買事件
 description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '394'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 90%
 >
 >收入不會乘以數量欄位。以 `s.products="Womens;Socks;5;4.50"` 為例，傳入收入中的並不是 $22.50，而是 $4.50。請確認您的實施作業傳入的是所列數量的收入總額。例如：`s.products="Womens;Socks;5;22.50"`。
 
-## 在Adobe Experience Platform中使用標籤設定購買事件
+## 使用 Adobe Experience Platform 中的標記設定購買事件
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段，再將事件下拉式清單設定為[!UICONTROL 「購買」]。
 
-其他相依變數（例如`products`和`purchaseID`）在資料收集UI中沒有專用欄位。 請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
+其他相依變數 (例如 `products` 和 `purchaseID`) 在資料收集 UI 中並沒有專用欄位。 請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## 在 AppMeasurement 和 自訂程式碼編輯器中設定購買事件
+## 在 AppMeasurement 和自訂程式碼編輯器中設定購買事件
 
 購買事件是連同事件變數一起設定的字串。
 
