@@ -3,9 +3,9 @@ title: linkLeaveQueryString
 description: 允許保留連結追蹤維度中的查詢字串。
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,18 +23,18 @@ ht-degree: 92%
 >
 > 此變數不會影響連結追蹤以外的維度。它只會影響自訂連結、退出連結和下載連結。
 
-## 在Adobe Experience Platform中使用標籤保留URL參數
+## 使用 Adobe Experience Platform 中的標記保留 URL 參數
 
-[!UICONTROL 「保留 URL 參數」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「連結追蹤」]設定追蹤器下方的核取方塊。
+「[!UICONTROL 保留 URL 參數]」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 連結追蹤]」摺疊式功能表下方的勾選方塊。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 「連結追蹤」]設定追蹤器，如此可顯示[!UICONTROL 「保留 URL 參數」]核取方塊。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示[!UICONTROL 「保留 URL 參數」]勾選方塊。
 
 如果您想在連結追蹤維度中納入查詢字串，請勾選此方塊。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.linkLeaveQueryString
+## AppMeasurement 和自訂程式碼編輯器中的 s.linkLeaveQueryString
 
 `s.linkLeaveQueryString` 變數是布林值。其預設值為 `false`。
 
