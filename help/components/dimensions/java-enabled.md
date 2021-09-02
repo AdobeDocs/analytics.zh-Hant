@@ -3,9 +3,9 @@ title: Java 已啟用
 description: 判斷瀏覽器中是否啟用 Java。
 exl-id: 2d4b4ea2-65ba-4d39-a040-f989b5eddc6e
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '217'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 將資料填入此維度中
 
-此維度會從影像要求中的 [`v` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會偵測瀏覽器中是否啟用 Java，以收集此資料。如果您使用AppMeasurement程式庫(例如透過Adobe Experience Platform中的標籤)，此維度會立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，且想要使用此維度，請務必加入包含「Y」或「N」的 `v` 查詢字串參數。
+此維度會從影像要求中的 [`v` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會偵測瀏覽器中是否啟用 Java，以收集此資料。如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，且想要使用此維度，請務必加入包含「Y」或「N」的 `v` 查詢字串參數。
 
 ## 維度項目
 
