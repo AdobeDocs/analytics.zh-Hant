@@ -3,9 +3,9 @@ title: 語言
 description: 瀏覽器中的慣用語言設定。
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '158'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱表格。查閱值以影像要求中 `Accept-Language` 的 HTTP 標題為基礎。如果您使用AppMeasurement程式庫(例如透過Adobe Experience Platform中的標籤)，此維度會立即運作。
+此維度會參考 Adobe 內部的查閱表格。查閱值以影像要求中 `Accept-Language` 的 HTTP 標題為基礎。如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。
 
 ## 維度項目
 
