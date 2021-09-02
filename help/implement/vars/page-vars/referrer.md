@@ -3,30 +3,30 @@ title: referrer
 description: 覆寫點擊的自動收集反向連結。
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# 反向連結
+# referrer
 
 `referrer` 變數會覆寫報表中自動收集的反向連結。在反向連結可能遺失的情況下 (如重新導向期間或將訪客暫時轉送至付款處理者)，此變數很有幫助。此變數有助於填入「反向連結」和「反向連結網域」維度。
 
-## 在Adobe Experience Platform中使用標籤的反向連結
+## 使用 Adobe Experience Platform 中的標記的反向連結
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定反向連結，或依據規則進行設定。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「反向連結」]區段。
 
 您可以將反向連結設為任何字串值，包括資料元素。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.referrer
+## AppMeasurement 和自訂程式碼編輯器中的 s.referrer
 
 `s.referrer` 變數是包含上一頁 URL 的字串。此變數最多可儲存 255 個位元組；長度超過 255 個位元組的值會遭到截斷。AppMeasurement 會自動將此變數設為 `document.referrer`。除非您想要覆寫自動收集的值，否則不需要設定此變數。
 
