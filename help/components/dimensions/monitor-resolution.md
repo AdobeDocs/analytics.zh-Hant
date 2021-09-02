@@ -3,9 +3,9 @@ title: 監視器解析度
 description: 訪客螢幕的解析度 (以像素為單位)。
 exl-id: 6bae65eb-4546-4d07-877d-6e257fbe6cfa
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '240'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 將資料填入此維度中
 
-此維度會從影像要求中的 [`s` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `screen.width` 和 `screen.height` 在瀏覽器中收集這項資料。如果您使用AppMeasurement程式庫(例如透過Adobe Experience Platform中的標籤)，此維度會立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `s` 查詢字串參數。
+此維度會從影像要求中的 [`s` 查詢字串](/help/implement/validate/query-parameters.md)擷取資料。AppMeasurement 會使用 JavaScript 變數 `screen.width` 和 `screen.height` 在瀏覽器中收集這項資料。如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在影像要求中包含 `s` 查詢字串參數。
 
 ## 維度項目
 
