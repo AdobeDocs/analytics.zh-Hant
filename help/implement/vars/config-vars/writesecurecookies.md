@@ -3,9 +3,9 @@ title: writeSecureCookies
 description: 允許 AppMeasurement 以 Secure 屬性設定 Cookie。
 exl-id: 0e03d621-5770-4c25-981d-e4af1431ec69
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,18 +19,18 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
-> 如果您啟用 `writeSecureCookies` 變數，請確認網站上的所有內容都是安全地透過 HTTPS 提供。如果啟用此變數，而您的頁面上有不安全的內容，AppMeasurement 就不會運作。
+> 如果您啟用 `writeSecureCookies` 變數，請確認網站上的所有內容都是安全地透過 HTTPS 提供。如果啟用此變數，而且您的頁面上有不安全的內容，AppMeasurement 就沒有作用。
 
-## 使用Adobe Experience Platform中的標籤撰寫Secure Cookie
+## 使用 Adobe Experience Platform 中的標記撰寫 Secure Cookie
 
 「[!UICONTROL 撰寫 Secure Cookie]」是設定 Adobe Analytics 擴充功能時，在 [!UICONTROL Cookies] 摺疊式功能表底下的勾選方塊。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
 4. 展開 [!UICONTROL Cookies] 摺疊式功能表，會顯示 [!UICONTROL 撰寫 Secure Cookie] 勾選方塊。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.writeSecureCookies
+## AppMeasurement 和自訂程式碼編輯器中的 s.writeSecureCookies
 
 `s.writeSecureCookies` 變數是布林值，可判斷 AppMeasurement 在建立 Cookie 時是否設定 Secure 屬性。其預設值為 `false`。如果您網站上的所有內容都安全，且您希望 AppMeasurement 設定的 Cookie 有 Secure 屬性，請將此變數設為 `true`。
 
