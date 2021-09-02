@@ -3,9 +3,9 @@ title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的方式
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '796'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 91%
 | 標準 IAB 機器人規則 | 選取&#x200B;**[!UICONTROL 「啟用 IAB 機器人篩選規則」]**，系統會使用 [IAB](https://www.iab.com/) (國際廣告局) 的「國際編目程式與機器人清單」來移除機器人流量。多數客戶至少都會選取此選項。 |
 | 自訂機器人規則 | 您可以根據使用者代理、IP 位址或 IP 範圍來定義與新增自訂機器人規則。 |
 
-如需詳細資訊，請參閱[機器人規則概觀](/help/admin/admin/bot-removal/bot-rules.md)。
+如需詳細資訊，請參閱[機器人規則總覽](/help/admin/admin/bot-removal/bot-rules.md)。
 
 ## 使用 [!UICONTROL websiteBot] 外掛程式來識別機器人
 
@@ -33,15 +33,15 @@ ht-degree: 91%
 * 首先，它會使用 navigator.UserAgent 變數來判斷該裝置是桌上型電腦或行動裝置。若是行動裝置則不列入考慮。
 * 若是桌上型電腦，此外掛程式會新增一個滑鼠移動事件監聽程式。
 
-如需詳細資訊，請參閱 [Adobe Analytics 實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html?lang=zh-Hant)。
+如需詳細資訊，請參閱 [Adobe Analytics 實作指南](https://experienceleague.adobe.com/docs/analytics/implementation/vars/plugins/websitebot.html)。
 
 ## 使用 Adobe 工具組合
 
-此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID 服務、分段、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式概觀。
+此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID 服務、分段、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式總覽。
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
-開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)中建立新宣告 ID。 將訪客的Experience CloudID傳遞至此新宣告的ID，這項操作可透過Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)中的[標籤快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
+開始之前，建議您在[「人員」核心服務](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)中建立新宣告 ID。 您必須將訪客的 Experience Cloud ID 傳遞至這個新宣告的 ID，這項操作透過 [Adobe Experience Platform 中的標記](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)即可快速輕鬆地完成。 將已宣告 ID 命名為「ECID」。
 
 ![](assets/bot-cust-attr-setup.png)
 
@@ -49,11 +49,11 @@ ht-degree: 91%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-設定此資料元素後，請依照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，使用Adobe Experience Platform中的標籤，將宣告ID傳遞至ECID工具。
+設定這個「資料元素」後，請按照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en)，使用 Adobe Experience Platform 中的標記將已宣告的 ID 傳遞到 ECID 工具中。
 
 ### 步驟 2：使用分段來識別機器人
 
-您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=zh-Hant)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助 Workspace 下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
+您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助 Workspace 下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
 
 ![](assets/bot-filter-seg1.png)
 
