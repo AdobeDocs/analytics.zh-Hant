@@ -6,9 +6,9 @@ feature: 報告套裝設定
 uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1756'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
    * 如需參考最佳做法，建議您使用[區段堆疊](/help/components/segmentation/segmentation-workflow/seg-build.md)，以便在同一位置編輯區段，並將區段套用至所有相依的虛擬報告套裝。
    * 如果您希望維持虛擬報告套裝彼此更加互斥，請使用點擊容器。
 2. 在您確認虛擬報告套裝已正確設定後，請從實作項目中移除次要報告套裝 ID。如何移除次要報告套裝：
-   * 在Adobe Experience Platform的資料收集UI中，按一下您不想再使用的任何報表套裝旁的「x」。
+   * 在 Adobe Experience Platform 的資料收集 UI 中，針對您不想再使用的任何報表套裝按一下其旁邊的「x」。
    * 在舊的 JavaScript 實作項目中，找到 `s.account` 變數並移除您不想再使用的任何報告套裝 ID。
    * 在所有情況下，僅需保留您的全域/父項報告套裝 ID，以便收集網站和應用程式的資料。
    * 導覽至管理 > 報告套裝，並隱藏任何不再使用的次要報告套裝。
