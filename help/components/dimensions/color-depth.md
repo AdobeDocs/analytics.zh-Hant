@@ -3,9 +3,9 @@ title: 色彩深度
 description: 裝置的色彩深度。
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
 source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 將資料填入此維度中
 
-此維度會參考查閱表格，將位元值轉換為更易讀的格式。它會從影像要求中的 [`c` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。AppMeasurement 會使用 `screen.colorDepth` 變數填入影像要求查詢字串。如果您使用AppMeasurement(例如透過Adobe Experience Platform中的標籤)，此維度會立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在具有有效位元值的每次點擊上包含 `c` 查詢字串參數。
+此維度會參考查閱表格，將位元值轉換為更易讀的格式。它會從影像要求中的 [`c` 查詢字串](/help/implement/validate/query-parameters.md)收集資料。AppMeasurement 會使用 `screen.colorDepth` 變數填入影像要求查詢字串。如果您使用 AppMeasurement (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。 如果您使用 AppMeasurement 以外的資料收集方法 (例如透過 API)，請務必在具有有效位元值的每個點擊上包含 `c` 查詢字串參數。
 
 ## 維度項目
 
