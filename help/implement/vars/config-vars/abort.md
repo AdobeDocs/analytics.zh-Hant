@@ -3,9 +3,9 @@ title: abort
 description: abort 變數是布林值，可防止將點擊傳送至 Adobe 資料收集伺服器。
 exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -13,11 +13,11 @@ ht-degree: 79%
 
 `abort` 變數是布林值，可防止將下個追蹤呼叫傳送至 Adobe。
 
-## 在Adobe Experience Platform的資料收集UI中使用abort變數
+## 使用 Adobe Experience Platform 中資料收集 UI 內的 abort 變數
 
-資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## 資料收集UI中的AppMeasurement語法和自訂程式碼編輯器
+## 資料收集 UI 中的 AppMeasurement 語法和自訂程式碼編輯器
 
 `abort` 變數是布林值。其預設值為 `false`。
 
