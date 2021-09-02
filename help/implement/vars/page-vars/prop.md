@@ -3,9 +3,9 @@ title: prop
 description: 可在實施中使用的自訂變數。
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,20 +21,20 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 
 如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。可用的 Prop 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
 
-## 在Adobe Experience Platform中使用標籤的Prop
+## 使用 Adobe Experience Platform 中的標記的 Prop
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定 prop，或依據規則進行設定。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「prop」]區段。
 
 您可以將 Prop 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.prop1 - s.prop75
+## AppMeasurement 和自訂程式碼編輯器中的 s.prop1 - s.prop75
 
 每個 prop 變數都是字串，其中包含貴組織專屬的自訂值。它們的最大長度為 100 個位元組；超過 100 個位元組的值會在傳送至 Adobe 時自動截斷。
 
