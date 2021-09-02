@@ -3,9 +3,9 @@ title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,21 +15,21 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
-> 請勿在 [`t()`](t-method.md) 變數內呼叫 [`tl()`](tl-method.md) 或 `registerPostTrackCallback` 之類的追蹤呼叫。此變數中的追蹤函數會導致影像要求發生無限循環！
+>請勿在 `registerPostTrackCallback` 變數內呼叫 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 之類的追蹤呼叫。 此變數中的追蹤函數會導致影像要求發生無限循環！
 
 每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
 >[!NOTE]
 >
-> 對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。請避免這兩個函數之間的依賴關係。
+>對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 在Adobe Experience Platform中使用標籤註冊後續追蹤回呼
+## 使用 Adobe Experience Platform 中的標記登錄後續追蹤回呼
 
-資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.registerPostTrackCallback
+## AppMeasurement 和自訂程式碼編輯器中的 s.registerPostTrackCallback
 
-`s.registerPostTrackCallback` 是能將函數當作唯一引數的函數。成功傳送影像要求後，巢狀函式會立即執行。
+`s.registerPostTrackCallback` 是能將函數當成其唯一引數的函數。 巢狀函數會在成功傳送影像要求之後立即執行。
 
 ```js
 s.registerPostTrackCallback(function(){/* Desired code */});
