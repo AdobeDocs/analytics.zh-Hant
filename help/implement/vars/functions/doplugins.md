@@ -3,9 +3,9 @@ title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -13,16 +13,16 @@ ht-degree: 88%
 
 `doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
 
-* 所有頁面檢視 ([`t()`](t-method.md)) 呼叫
+* 所有頁面瀏覽 ([`t()`](t-method.md)) 呼叫
 * 所有連結追蹤 ([`tl()`](tl-method.md)) 呼叫，包括自動下載連結和退出連結
 
 使用 `doPlugins` 變數來呼叫外掛程式程式碼，並在影像要求編譯並傳送至 Adobe 之前設定最終變數值。
 
-## 在Adobe Experience Platform中使用標籤的外掛程式
+## 使用 Adobe Experience Platform 中的標記的外掛程式
 
-資料收集UI中沒有專用欄位可使用此變數。 依照 AppMeasurement 語法，使用自訂程式碼編輯器。
+資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和 自訂程式碼中的 s.doPlugins
+## AppMeasurement 和自訂程式碼中的 s.doPlugins
 
 將變數 `s.doPlugins` 設為包含所需程式碼的函數。當您進行追蹤呼叫時，函數會自動執行。
 
@@ -50,4 +50,4 @@ s.doPlugins = function() {
 
 >[!NOTE]
 >
->舊版 AppMeasurement 的 `doPlugins()` 程式碼稍有不同。Adobe 建議您使用上述格式作為最佳實務。
+>舊版 AppMeasurement 的 `doPlugins()` 程式碼稍有不同。Adobe 建議您使用上述格式作為最佳做法。
