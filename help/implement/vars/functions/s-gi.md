@@ -3,9 +3,9 @@ title: s_gi()
 description: 建立及追蹤 AppMeasurement 的例項。
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -13,18 +13,18 @@ ht-degree: 93%
 
 `s_gi()` 函數會依據報表套裝 ID 將 AppMeasurement 的例項實例化或尋找例項。AppMeasurement 可追蹤已建立的所有例項，而 `s_gi()` 會傳回報表套裝的現有例項 (若存在)。如果例項不存在，則會建立新例項。
 
-## s_gi()在Adobe Experience Platform中使用標籤
+## 使用 Adobe Experience Platform 中的標記的 s_gi()
 
-Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過，在設定 Adobe Analytics 擴充功能時，您也可以在[!UICONTROL 「程式庫管理」]設定追蹤器中設定全域追蹤物件。
+Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過，在設定 Adobe Analytics 擴充功能時，您也可以在[!UICONTROL 「資料庫管理」]摺疊式功能表中設定全域追蹤物件。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 「程式庫管理」]設定追蹤器，接著選取[!UICONTROL 「為我管理資料庫」]以外的任何選擇鈕。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「資料庫管理」]摺疊式功能表，接著選取[!UICONTROL 「為我管理資料庫」]以外的任何選擇鈕。
 
 全域變數文字欄位可讓您設定自訂追蹤物件。其預設值為 `s`。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s_gi()
+## AppMeasurement 和自訂程式碼編輯器中的 s_gi()
 
 呼叫 `s_gi()` 函數將追蹤物件實例化。其唯一引數包含以逗號分隔的報表套裝 ID 字串。報表套裝 ID 引數為必要項目。
 
