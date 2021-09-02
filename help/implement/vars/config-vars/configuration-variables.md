@@ -3,9 +3,9 @@ title: 設定變數
 description: 使用設定變數協助判斷資料的收集方式。
 exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '125'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 68%
 
 在使用 `AppMeasurement.js` 的 JavaScript 實施中，通常會在 JS 檔案的頂端對配置設定變數。
 
-在使用Adobe Experience Platform標籤的實作中，設定變數通常可透過設定Adobe Analytics擴充功能找到：
+在使用 Adobe Experience Platform 標記的實作中，通常是藉由設定 Adobe Analytics 擴充功能來尋找設定變數：
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下您要編輯的屬性。
-1. 按一下[!UICONTROL 「擴充功能」]標籤，然後按一下 Adobe Analytics 下方的[!UICONTROL 「設定」]。
+1. 按一下「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 下方的「[!UICONTROL 設定]」。
 
 >[!IMPORTANT]
 >
