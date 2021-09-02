@@ -1,17 +1,17 @@
 ---
 description: 從網站、行動應用程式收集或使用網站服務 API 或資料來源上傳的資料會儲存在 Adobe 的 Data Warehouse。這些原始點按流資料形成 Adobe Analytics 所使用的資料集。
 keywords: 點按資料流；資料摘要；資料摘要；資料摘要
-title: Analytics 資料摘要概觀
+title: Analytics 資料摘要總覽
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '573'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Analytics 資料摘要概觀
+# Analytics 資料摘要總覽
 
 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。資料會在每小時結束時以小時的批量傳送，或在每天結束時以當天的批量傳送。
 
@@ -20,12 +20,12 @@ ht-degree: 98%
 在使用資料摘要之前，請確認您符合下列所有需求。
 
 * 具備可用的 FTP 網站和憑證。資料摘要只能傳送至伺服器目的地。您的組織通常會提供 FTP 憑證。Adobe 可按照您的要求，以少量的儲存空間提供 FTP 位置。如想要求資料摘要的 FTP 目的地，請聯絡客戶服務。
-* 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱實作使用手冊中的[驗證並發佈實作](/help/implement/launch/validate-publish-prod.md) 。
+* 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱實作使用手冊中的「[驗證和發佈實作](/help/implement/launch/validate-publish-prod.md)」。
 * 您的帳戶為 Analytics 產品管理員，或者屬於具有資料摘要存取權的產品設定檔。
 
 ## 開始步驟
 
-1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
 3. 從頂端導覽列中前導覽至管理員 > 資料摘要。
 4. 按一下[!UICONTROL 「新增」]。隨後顯示的新頁面中包含三個主要類別: [!UICONTROL 摘要資訊]、[!UICONTROL 目的地]和[!UICONTROL 資料欄定義]。
@@ -67,4 +67,4 @@ ht-degree: 98%
 
 資料摘要介面影片導覽:
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html?lang=zh-Hant)
+>[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/exporting/data-feeds/data-feeds-management-ui.html)
