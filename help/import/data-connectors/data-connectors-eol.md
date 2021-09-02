@@ -3,9 +3,9 @@ description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
 source-git-commit: 831d86317633466b5b6ceb9bfc49e36caaf62855
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '667'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 十多年來，Adobe Analytics 致力於提供同級最佳的網頁與行銷分析解決方案，以符合客戶的需求。隨著技術和企業需求不斷演變，我們努力繼續提供符合最高標準的服務。很遺憾的是，支援這些整合作業的 API 不再符合標準，且不再適用於如今的 Adobe Analytics 技術基礎架構。
 
-**自2021年8月19日起**,Adobe將停止Data Connector整合服務。終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
+**自 2021 年 8 月 19 日起**，Adobe 將終止資料連接器整合服務。 終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
 
 ## 我們為什麼要終止此功能？
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## 移除此功能對您有何影響？
 
-若您是 Adobe 合作夥伴，請到[這裡](https://adobeexchangeec.zendesk.com/hc/zh-tw/articles/360003867071-Adobe-Analytics-Integration-Tools)查看我們的文件，了解將整合服務移轉到全新 Adobe Exchange 計畫的詳細資訊。
+若您是 Adobe 合作夥伴，請到[這裡](https://adobeexchangeec.zendesk.com/hc/en-us/articles/360003867071-Adobe-Analytics-Integration-Tools)查看我們的文件，了解將整合服務移轉到全新 Adobe Exchange 計畫的詳細資訊。
 
 如果您是 Data Connector 客戶，且想申請移轉您所使用的整合服務，請&#x200B;*直接向整合合作夥伴提出所有申請*。透過客戶服務人員傳送申請給 Adobe 的效果將不如預期。
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 
 ## Data Connector 合作夥伴狀態
 
-*最新更新：2021年8月2日(Hootsuite)*
+*最新更新：2021 年 8 月 2 日 (Hootsuite)*
 
 | 合作夥伴 | 狀態 |
 | --- | --- |
@@ -109,4 +109,4 @@ ht-degree: 98%
 
 2021 年 8 月 1 日當天的唯一例外為 Adobe Campaign Classic 整合。 這項整合將於 2022 年 3 月 1 日正式淘汰。
 
-在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 如果您在使用此整合服務，則需在 2022 年 3 月 1 日前移至新的 Campaign-Analytics 連接器。閱讀 [Adobe Campaign Classic 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html?lang=zh-Hant)並深入瞭解。
+在 2021 年 8 月 1 日，Adobe Campaign Classic 將會從資料連接器 UI 和其他所有整合中移除；但在 2022 年 3 月 1 日之前，現有的 Campaign 整合將會持續收集資料並傳遞給 Adobe Analytics。 在 2022 年 3 月 1 日，該整合將會停止收集及傳遞資料給 Adobe Analytics。 如果您在使用此整合服務，則需在 2022 年 3 月 1 日前移至新的 Campaign-Analytics 連接器。閱讀 [Adobe Campaign Classic 文件](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/aa-connector-migration.html)並深入瞭解。
