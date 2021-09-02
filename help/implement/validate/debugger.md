@@ -1,11 +1,11 @@
 ---
 title: 舊版 Adobe Experience Cloud Debugger
-description: 安裝舊版 Adobe Experience Cloud Debugger。 此除錯工具會檢查Analytics、Target、Advertising Cloud、Identity Service和資料收集標籤的標籤。
+description: 安裝舊版 Adobe Experience Cloud Debugger。 此偵錯工具會檢查 Analytics、Target、Advertising Cloud、Identity Service 和資料收集的標記。
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,9 +13,9 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
-> 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=zh-Hant)。
+> 這個除錯工具已不再更新。Adobe 建議改用 [Adobe Experience Cloud Debugger Chrome 擴充功能](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)。
 
-[!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標籤。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實作項目進行疑難排解或驗證。
+[!UICONTROL 舊版 Debugger] 會檢查大部分 Adobe Experience Cloud 服務的標記。使用除錯工具，可讓您查看網站上任何指定頁面傳送到 Adobe 的資料。運用這類資訊，您就能針對組織的實作項目進行疑難排解或驗證。
 
 ## 安裝舊版 Debugger
 
@@ -46,7 +46,7 @@ javascript:void(window.open("","stats_debugger","width=800,height=800,location=0
 
 1. 按一下右上方的三行圖示，然後前往資料庫 > 書籤 > 顯示所有書籤。您也可以按下 `Ctrl` + `Shift` + `B` (Windows) 或 `Cmd` + `Shift` + `B` (Mac)。
 2. 按一下整理 > 新書籤。
-3. 在名稱欄位中標示「Adobe Experience Cloud Debugger」，然後將程式碼片段貼入位置欄位。標籤和關鍵字欄位不是必填欄位。
+3. 在名稱欄位中標示「Adobe Experience Cloud Debugger」，然後將程式碼片段貼入位置欄位。標記和關鍵字欄位不是必填欄位。
 4. 使用資料庫視窗將新的書籤小程式置於所需位置。
 
 #### Edge
@@ -81,6 +81,6 @@ Safari 不提供手動建立書籤小程式的功能，但可將書籤 URL 編�
 * **顯示的 Experience Cloud 產品**：顯示或隱藏每個 Experience Cloud 產品的影像要求。
 * **URL 解碼**：URL 會解碼影像要求，以便符合報表中顯示的內容。Adobe 建議您維持此方塊的勾選狀態。
 * **自動重新整理**：每隔幾秒自動重新整理快顯視窗，藉此檢查頁面上是否有其他影像要求。如果您需要在除錯工具中複製/貼上內容，請停用自動重新整理，以便保留您的選項。
-* **易記格式**：將顯示格式切換為實用標籤或影像要求的原始查詢字串。如需詳細資訊，請參閱[資料彙集查詢參數](query-parameters.md)。
+* **易記格式**：將顯示格式切換為實用標記或影像要求的原始查詢字串。如需詳細資訊，請參閱[資料彙集查詢參數](query-parameters.md)。
 
 若要儲存除錯工具的預設顯示選項，請在右上角的「Adobe 除錯工具」連結上按一下滑鼠右鍵，然後複製連結位址。編輯您目前的除錯工具書籤小程式，並將更新後的程式碼片段貼到 URL 欄位。
