@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 + [實作 Adobe Analytics](home.md)
 + [AppMeasurement 版本注意事項](appmeasurement-updates.md)
 + Analytics 變數、函數和方法 {#vars}
-   + [概觀](vars/overview.md)
+   + [總覽](vars/overview.md)
    + 設定變數 {#config-vars}
-      + [設定變數概觀](vars/config-vars/configuration-variables.md)
+      + [設定變數總覽](vars/config-vars/configuration-variables.md)
       + [abort](vars/config-vars/abort.md)
       + [account](vars/config-vars/account.md)
       + [charSet](vars/config-vars/charset.md)
@@ -51,7 +51,7 @@ ht-degree: 91%
       + [visitorNamespace](vars/config-vars/visitornamespace.md)
       + [writeSecureCookies](vars/config-vars/writesecurecookies.md)
    + 頁面變數 {#page-vars}
-      + [頁面變數概觀](vars/page-vars/page-variables.md)
+      + [頁面變數總覽](vars/page-vars/page-variables.md)
       + [campaign](vars/page-vars/campaign.md)
       + [channel](vars/page-vars/channel.md)
       + [contextData](vars/page-vars/contextdata.md)
@@ -59,7 +59,7 @@ ht-degree: 91%
       + [eVar](vars/page-vars/evar.md)
       + [eVar (銷售)](vars/page-vars/evar-merchandising.md)
       + events {#events}
-         + [事件概觀](vars/page-vars/events/events-overview.md)
+         + [事件總覽](vars/page-vars/events/events-overview.md)
          + [購買事件](vars/page-vars/events/event-purchase.md)
          + [事件序列化](vars/page-vars/events/event-serialization.md)
       + [hier](vars/page-vars/hier.md)
@@ -78,7 +78,7 @@ ht-degree: 91%
       + [transactionID](vars/page-vars/transactionid.md)
       + [zip](vars/page-vars/zip.md)
    + 函數與方法 {#functions}
-      + [函數概觀](vars/functions/overview.md)
+      + [函數總覽](vars/functions/overview.md)
       + [s_gi](vars/functions/s-gi.md)
       + [t](vars/functions/t-method.md)
       + [tl](vars/functions/tl-method.md)
@@ -93,7 +93,7 @@ ht-degree: 91%
       + [Util.cookieWrite](vars/functions/util-cookiewrite.md)
       + [Util.getQueryParam](vars/functions/util-getqueryparam.md)
    + 外掛程式 {#plugins}
-      + [外掛程式概觀](vars/plugins/impl-plugins.md)
+      + [外掛程式總覽](vars/plugins/impl-plugins.md)
       + [addProductEvar](vars/plugins/addproductevar.md)
       + [addProductEvent](vars/plugins/addproductevent.md)
       + [apl](vars/plugins/apl.md)
@@ -131,31 +131,31 @@ ht-degree: 91%
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
 + 使用 JavaScript 實作 Analytics {#js}
-   + [JavaScript 概觀](js/overview.md)
+   + [JavaScript 總覽](js/overview.md)
    + [實作選擇退出連結](js/opt-out.md)
    + [變數覆寫](js/overrides.md)
    + [從 H 程式碼移轉](js/migrate-from-hcode.md)
    + H 程式碼 {#h-code}
-      + [H 程式碼概觀](js/h-code/overview.md)
+      + [H 程式碼總覽](js/h-code/overview.md)
       + 動態帳戶 {#dynamicaccount}
-         + [動態帳戶概觀](js/h-code/dynamicaccount/overview.md)
+         + [動態帳戶總覽](js/h-code/dynamicaccount/overview.md)
          + [dynamicAccountList](js/h-code/dynamicaccount/dynamicaccountlist.md)
          + [dynamicAccountMatch](js/h-code/dynamicaccount/dynamicaccountmatch.md)
          + [dynamicAccountSelection](js/h-code/dynamicaccount/dynamicaccountselection.md)
       + [疑難排解 H 程式碼](js/h-code/troubleshooting.md)
    + 舊版跨裝置身分識別 {#xdevice-visid}
-      + [跨裝置連結使用者概觀](js/xdevice-visid/xdevice-connecting.md)
+      + [跨裝置連結使用者總覽](js/xdevice-visid/xdevice-connecting.md)
       + [變數持續性](js/xdevice-visid/variable-persistence.md)
       + [造訪範例](js/xdevice-visid/visit-example.md)
-      + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)
+      + [舊版跨裝置常見問答](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
-+ 在Adobe Experience Platform {#launch}中使用標籤實作Analytics
-   + [標籤概述](launch/overview.md)
-   + [建立Adobe Analytics標籤屬性](launch/create-analytics-property.md)
++ 使用 Adobe Experience Platform 中的標記來實作 Analytics {#launch}
+   + [標記總覽](launch/overview.md)
+   + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
    + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
    + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
-   + [將標籤資料元素對應至Analytics變數](launch/elements-to-variable.md)
+   + [將標記資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 在其他平台上實作 Analytics {#other}
    + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
    + [使用 DTM 實作 Analytics](other/dtm-implementation-overview.md)
@@ -173,7 +173,7 @@ ht-degree: 91%
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
-+ [常見問題集](faq.md)
++ [常見問答](faq.md)
 + 審視您的實作 {#review}
    + [重點審視 (每次網站發佈後)](review/focused-review.md)
    + [完整審視（每 6 個月）](review/full-review.md)
