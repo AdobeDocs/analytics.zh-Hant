@@ -3,9 +3,9 @@ title: 事件序列化
 description: 協助您去除網站上重複的量度。
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,20 +31,20 @@ ht-degree: 93%
 >
 >如果您想要將 [`purchase`](event-purchase.md) 事件去重複化，請改用 [`purchaseID`](../purchaseid.md) 變數。
 
-## 在Adobe Experience Platform中使用標籤的事件ID
+## 使用 Adobe Experience Platform 中的標記來使用事件 ID
 
-您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件 ID 欄位，或依據規則進行設定。
+您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件 ID 欄位，或是在規則中將其設定為動作。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段，其中每個事件都包含[!UICONTROL 「事件 ID」]欄位。
 
 有效值是長度最多 20 個位元組的英數字元。 如果輸入的值超過 20 個位元組，系統會截斷至前 20 個位元組。
 
-## AppMeasurement 和 自訂程式碼編輯器中的使用事件 ID
+## 在 AppMeasurement 和自訂程式碼編輯器中使用事件 ID
 
 事件序列化是 `s.events` 變數的一部分。在字串中使用冒號為每個事件指派 ID。
 
