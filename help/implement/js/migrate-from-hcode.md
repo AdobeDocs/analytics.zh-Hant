@@ -3,24 +3,24 @@ title: 移轉至 JavaScript 適用的 AppMeasurement
 description: 決定將實作從 H 程式碼移出時所需的項目。
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
 source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '292'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 移轉至 JavaScript 適用的 AppMeasurement
 
-如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。建議在Adobe Experience Platform](../launch/overview.md)中透過[標籤實作Analytics，但可使用更新的JavaScript實作。
+如果您的實作仍使用 H 程式碼，Adobe 強烈建議您移轉至最新版的 AppMeasurement。我們建議您透過 [Adobe Experience Platform 中的標記](../launch/overview.md)實作 Analytics，不過也可以使用更新的 JavaScript 實作。
 
 與 H 程式碼相比，AppMeasurement 有下列顯著變更：
 
 * 較 H 程式碼快 3 到 7 倍。
 * 較 H 程式碼輕巧 - 未壓縮 21kb；H 程式碼則是未壓縮為 33kb。
-* 程式庫和頁面程式碼可部署在 `<head>` 標籤中。
+* 資料庫和頁面代碼可部署在 `<head>` 標記中。
 * 現有的頁面層級 H 程式碼與 AppMeasurement 相容。
-* 程式庫提供原生公用程式，用以取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
-* 程式庫不支援動態帳戶設定變數 (包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`)。
+* 資料庫提供原生公用程式，用以取得查詢參數、讀取和寫入 Cookie，以及執行進階連結追蹤。
+* 資料庫不支援動態帳戶設定變數 (包括 `dynamicAccountSelection`、`dynamicAccountMatch` 和 `dynamicAccountList`)。
 
 下列步驟概述典型的移轉工作流程。
 
@@ -73,7 +73,7 @@ s.trackingServer="example.data.adobedc.net";
 /* ============== DO NOT ALTER ANYTHING BELOW THIS LINE ! ===============  */
 ```
 
-## 範例頁面程式碼
+## 範例頁面代碼
 
 在每個頁面上載入的典型程式碼。
 
