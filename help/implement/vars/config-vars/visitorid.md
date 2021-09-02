@@ -3,9 +3,9 @@ title: visitorID
 description: 使用自訂訪客 ID。
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ Adobe 使用數種不同的方法來識別您網站上的訪客。`visitorID` �
 
 >[!IMPORTANT]
 >
->Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+>Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
-## 在Adobe Experience Platform中使用標籤的訪客ID
+## 使用 Adobe Experience Platform 中的標記的訪客 ID
 
-[!UICONTROL 「訪客 ID」]是在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「Cookie」]設定追蹤器下方的欄位。
+「[!UICONTROL 訪客 ID]」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL Cookie]」摺疊式功能表下方的欄位。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 「Cookie」]設定追蹤器，如此可顯示[!UICONTROL 「訪客 ID」]欄位。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「Cookie」]摺疊式功能表，如此可顯示[!UICONTROL 「訪客 ID」]欄位。
 
 將此欄位指派給包含自訂訪客 ID 的資料元素。請勿將此欄位設為靜態值。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.visitorID
+## AppMeasurement 和自訂程式碼編輯器中的 s.visitorID
 
 `s.visitorID` 變數是包含訪客自訂唯一識別碼的字串。有效值包括最多 100 個位元組的英數字元。請避免在此變數中使用虛線、空格、底線或符號。
 
