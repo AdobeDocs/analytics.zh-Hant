@@ -5,7 +5,7 @@ exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: e7d8c716547cdedabf095bb8d6712d0f8b5ad647
 workflow-type: tm+mt
 source-wordcount: '503'
-ht-degree: 77%
+ht-degree: 95%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->如果此變數設定於點擊中，但沒有[`events`](events/events-overview.md)變數，則[產品檢視](/help/components/metrics/product-views.md)量度會增加1。 請務必在每個點擊上使用`products`變數設定適當的事件。
+>如果此變數設定於點擊中，但沒有 [`events`](events/events-overview.md) 變數，則[產品檢視](/help/components/metrics/product-views.md)量度會增加 1。 請務必每個使用 `products` 變數的點擊上設定適當的事件。
 
-## 在Adobe Experience Platform中使用標籤的產品
+## 使用 Adobe Experience Platform 中的標記的產品
 
-資料收集UI中沒有專用欄位可設定此變數；不過，有多個協力廠商擴充功能可提供協助。
+資料收集 UI 中沒有專用欄位可設定這個變數；但有多個協力廠商擴充功能可提供協助。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下[!UICONTROL 「目錄」]檢視所有可用的擴充功能。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]檢視所有可用的擴充功能。
 4. 搜尋 &quot;product&quot; 一字，幾個可用來協助設定此變數的擴充功能隨即會顯示。
 
 您可以使用其中一個擴充功能，或依照下方的 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.products
+## AppMeasurement 和自訂程式碼編輯器中的 s.products
 
 `s.products` 變數是字串，其中包含每個產品個別擁有的多個分隔欄位。在字串中以分號 (`;`) 分隔每個欄位。
 
@@ -96,7 +96,7 @@ s.events = "event1,event2,event3,event4,purchase";
 s.products = "Example category 1;Example product 1;3;12.60;event1=1.4|event2=9;eVar1=Merchandising value|eVar2=Another merchandising value,Example category 2;Example product 2;1;59.99;event3=6.99|event4=1;eVar3=Merchandising value 3|eVar4=Example value four";
 ```
 
-如果使用`digitalData` [資料層](../../prepare/data-layer.md)，則可以迭代查看`digitalData.product`對象陣列：
+如果使用`digitalData` [資料層](../../prepare/data-layer.md)，您可以逐一查看 `digitalData.product` 物件陣列：
 
 ```js
 for(var i = 0; i < digitalData.product.length; i++) {

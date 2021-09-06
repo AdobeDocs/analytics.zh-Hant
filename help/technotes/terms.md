@@ -5,7 +5,7 @@ exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
 workflow-type: tm+mt
 source-wordcount: '2554'
-ht-degree: 94%
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 94%
 * **促銷活動：**&#x200B;可以指：
    * 促銷活動變數，會填入「追蹤代碼」維度。請參閱實施作業使用手冊中的[促銷活動](../implement/vars/page-vars/campaign.md)。
    * 「追蹤代碼」維度的預設分類；會自動為所有報表套裝建立。
-   * Adobe Campaign，Adobe Experience Cloud 的一部分。請前往 [Adobe.com](https://www.adobe.com/tw/marketing/campaign.html) 取得更多資訊。
+   * Adobe Campaign，Adobe Experience Cloud 的一部分。請前往 [Adobe.com](https://www.adobe.com/marketing/campaign.html) 取得更多資訊。
 * **管道：**&#x200B;可以指：
    * 管道變數，會填入「網站區段」維度。請參閱實施作業使用手冊中的[頁面變數](/help/implement/vars/page-vars/page-variables.md)。
    * 行銷管道，此元件有助於瞭解使用者如何到達您的網站。請參閱元件使用手冊中的[行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
@@ -41,9 +41,9 @@ ht-degree: 94%
 * **轉換變數：**&#x200B;也稱為 eVar。用於儲存自訂值及保留變數值，直到變數值過期為止。請參閱「元件」使用指南中的 [eVar](/help/components/dimensions/evar.md) 維度。
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
 * **目前資料：**&#x200B;某些報表中的選項，可用來納入最近收集但尚未完全處理的資料。請參閱分析使用手冊中的[目前資料](/help/analyze/reports-analytics/current-data.md)。
-* **自訂連結：**&#x200B;包含非頁面檢視資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
-* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)。
-* **客戶支援委派：**&#x200B;經授權可直接與 Adobe 客戶服務互動的指定使用者。請參閱 Experience Cloud 知識庫中的[客戶支援委派](https://helpx.adobe.com/tw/experience-cloud/supported-users.html)。
+* **自訂連結：**&#x200B;包含非頁面瀏覽數資料的點擊類型。請參閱實施作業使用手冊中的 [s.tl() 函數](../implement/vars/functions/tl-method.md)。另請見「點擊」。
+* **客戶屬性：**&#x200B;允許上傳屬性資料的 Experience Cloud 功能。請參閱核心服務使用手冊中的[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)。
+* **客戶支援委派：**&#x200B;經授權可直接與 Adobe 客戶服務互動的指定使用者。請參閱 Experience Cloud 知識庫中的[客戶支援委派](https://helpx.adobe.com/experience-cloud/supported-users.html)。
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。影像請求會傳送至 Adobe 的資料收集伺服器，以用於報表。
 * **資料連接器：**&#x200B;完整的開發解決方案，可讓協力廠商將資料上傳至 Adobe Analytics 的作業自動化。該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。大部分的資料連接器都使用與「資料來源」中所使用的類似工作流程。請參閱匯入使用手冊中的[Data Connectors](/help/import/data-connectors/data-connectors-eol.md)。
 * **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。最常用於將 Adobe Analytics 資料匯出至協力廠商資料庫。請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
@@ -60,28 +60,28 @@ ht-degree: 94%
 * **Genesis：**&#x200B;不再作為詞彙使用。資料連接器先前的名稱。
 * **全域報表套裝：**&#x200B;為報表套裝指定的非正式詞彙，用於收集來自多個網站的點擊。
 * **H 代碼：** AppMeasurement 的前身。在舊版 Adobe Analytics 中，程式碼版本是以「H 版本」(例如 H.27.5、H.26 等) 測量。
-* **點擊：**&#x200B;傳送至 Adobe 資料收集伺服器的單一影像請求。頁面檢視和自訂連結都可稱為點擊。
+* **點擊：**&#x200B;傳送至 Adobe 資料收集伺服器的單一影像請求。頁面瀏覽數和自訂連結都可稱為點擊。
 * **影像請求：**&#x200B;透明的 1x1 像素影像，用於與 Adobe 資料收集伺服器通訊。網站透過包含資料的長查詢字串請求這個不可見的影像，接著 Adobe 會傳回不可見的影像，並剖析所收到的查詢字串。
 * **Insight (分析)：**&#x200B;可以指：
    * Data Workbench 的前稱。
    * 自訂分析是自訂流量變數過去的名稱。
 * **KPI：**&#x200B;關鍵績效指標的縮寫。可協助企業瞭解其網站成效的量度。每個組織都有不同的 KPI，可衡量其不同方面業務的成效。請參閱實施作業使用手冊中的[建立解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * **延遲：**&#x200B;收集到資料的時間和資料可在報表中使用的時間之間的延後情況。一般報表套裝的延遲為 30-90 分鐘。請參閱技術說明使用手冊中的[延遲](/help/technotes/latency.md)。
-* **Launch:** 不再作為辭彙使用。Adobe目前實作解決方案Adobe Experience Platform中舊版標籤名稱的縮短。 請參閱Adobe Experience Platform使用手冊中的[標籤概述](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)。
+* **Launch：**&#x200B;不再當做詞彙使用。 Adobe Experience Platform 中的標記 (Adobe 目前的實作解決方案) 先前的簡稱。 請參閱 Adobe Experience Platform 使用手冊中的「[標記總覽](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)」。
 * **清單 prop：**&#x200B;一種設定，可轉換一般流量變數以支援相同點擊中的多個值。如果已啟用此設定，任何自訂流量變數都可成為清單 prop。請參閱實施作業使用手冊中的 [prop](../implement/vars/page-vars/prop.md)。
 * **清單變數：**&#x200B;與轉換變數區分開的不同變數。清單變數支援相同點擊中的多個值，而變數值會保留在造訪中，類似於轉換變數。一個組織只能使用三個清單變數。請參閱實施作業使用手冊中的[清單](/help/implement/vars/page-vars/list.md)。
 * **登入公司**：貴組織所使用報表套裝的集合。某些組織擁有多個登入公司，適用於組織內的不同部門。
 * **行銷管道：** Adobe Analytics 的一項功能，可依點擊到達您網站的方式分類點擊。可使用行銷管道處理規則來自訂用於分類點擊的邏輯。請參閱元件使用手冊中的[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
-* **量度：**&#x200B;包含量化資料的元件類型。度量值通常包含數字，例如頁面檢視次數、造訪次數和營收。維度通常是其對應項目。
-* **Mobile Services:** 將整個Adobe Experience Cloud上行動應用程式的行動行銷功能集合在一起，讓您了解並改進使用者與應用程式的互動。請參閱[Mobile Services概述](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=zh-Hant)。
+* **量度：**&#x200B;包含量化資料的元件類型。度量值通常包含數字，例如頁面瀏覽數、造訪數和營收。維度通常是其對應項目。
+* **Mobile Services:** 將整個Adobe Experience Cloud上行動應用程式的行動行銷功能集合在一起，讓您了解並改進使用者與應用程式的互動。請參閱[Mobile Services概述](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)。
 * **多套裝標記：**&#x200B;將相同點擊傳送至多個報表套裝的作法。隨著虛擬報表套裝的推出，此作法基本上已失去必要性。大部分的多套裝標記作業都有助於調整全域報表套裝。
 * **正規化：**&#x200B;整理視覺化效果的方式，可納入所有量度並將其強制為等比例，以便更輕鬆進行趨勢比較。
 * **發生次數：**&#x200B;一種量度類型，可顯示多少點擊已設定或存在某個維度項目。請參閱「元件」使用指南中的[發生次數](/help/components/metrics/occurrences.md)量度。
 * **Omniture：**&#x200B;不再作為詞彙使用。2009 年 Adobe 收購 Adobe Analytics 之前擁有 Adobe Analytics 的組織。
 * **路徑：**&#x200B;請見「流量」。
-* **頁面檢視：**&#x200B;會增加頁面檢視次數的點擊類型。請參閱「元件」使用指南中的[頁面檢視](/help/components/metrics/page-views.md)量度。另請見「點擊」。
+* **頁面瀏覽：**&#x200B;會增加頁面瀏覽次數的點擊類型。請參閱「元件」使用指南中的[頁面瀏覽數](/help/components/metrics/page-views.md)量度。另請見「點擊」。
 * **持續性：**&#x200B;轉換變數的抽象概念，可連結在不同點擊上發生的變數值和事件。另請見「有效期限」。
-* **主要伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，主要用於多套裝標記和計費的情境下。將相同點擊傳送至多個報表套裝時，第一個報表套裝為主要伺服器呼叫，其餘則為次要伺服器呼叫。此規則適用於所有點擊類型，包括頁面檢視和連結追蹤。另請見「次要伺服器呼叫」。
+* **主要伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，主要用於多套裝標記和計費的情境下。將相同點擊傳送至多個報表套裝時，第一個報表套裝為主要伺服器呼叫，其餘則為次要伺服器呼叫。此規則適用於所有點擊類型，包括頁面瀏覽和連結追蹤。另請見「次要伺服器呼叫」。
 * **處理規則：**&#x200B;可以指：
    * 處理規則，使用 Admin Console 中特定規則變更資料收集的一種方式。請參閱管理員使用手冊中的[處理規則](/help/admin/admin/c-processing-rules/processing-rules.md)。
    * 行銷管道處理規則，判斷點擊所屬行銷管道的一組規則。請參閱管理員使用手冊中的[行銷管道處理規則](/help/admin/admin/marketing-channels-admin.md)。
@@ -93,13 +93,13 @@ ht-degree: 94%
 * **Reports &amp; Analytics:** 先前稱為SiteCatalyst。用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。
 * **滾動式日期範圍：**&#x200B;隨時間推移而變更的相對日期範圍類型。例如，顯示過去 7 天的報表可視為滾動式日期範圍。另請見「靜態日期範圍」。
 * **RSID：**&#x200B;報表套裝 ID 的縮寫。報表套裝同時具有好記的名稱和報表套裝 ID。
-* **s.t()：**&#x200B;傳送頁面檢視影像請求的 AppMeasurement 程式庫中函數的名稱。有些 AppMeasurement 程式庫會改用 `s.track()`。請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。
-* **s<span>.</span>** tl()：傳送連結追蹤影像請求的 AppMeasurement 程式庫中函數的名稱。有些 AppMeasurement 程式庫會改用 `s.trackLink()`。請參閱實施作業使用手冊中的 [tl](../implement/vars/functions/tl-method.md)。
+* **s.t()：**&#x200B;傳送頁面瀏覽影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.track()`。請參閱實施作業使用手冊中的 [t](../implement/vars/functions/t-method.md)。
+* **s<span>.</span>** tl()：傳送連結追蹤影像請求的 AppMeasurement 資料庫中函數的名稱。有些 AppMeasurement 資料庫會改用 `s.trackLink()`。請參閱實施作業使用手冊中的 [tl](../implement/vars/functions/tl-method.md)。
 * **s_code.js：** Adobe Analytics 舊版本中使用的 JavaScript 檔案名稱。目前使用的 JavaScript 檔案名稱為 AppMeasurement.js。
 * **Satellite：**&#x200B;不再作為詞彙使用。Dynamic Tag Management 的舊產品名稱。
 * **次要伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，主要用於多套裝標記和計費的情境下。將相同點擊傳送至多個報表套裝時，所列出第一個報表套裝之後的所有報表套裝都是次要伺服器呼叫。另請見「主要伺服器呼叫」。
 * **區段：**&#x200B;可讓您專注在特定資料子集上。請參閱元件使用手冊中的[分段](/help/components/segmentation/seg-overview.md)。
-* **區段容器：**&#x200B;決定要傳入多少資料的區段部分。容器能以頁面檢視、造訪或訪客為依據。請參閱元件使用手冊中的[分段](/help/components/segmentation/seg-overview.md)。
+* **區段容器：**&#x200B;決定要傳入多少資料的區段部分。容器能以頁面瀏覽、造訪或訪客為依據。請參閱元件使用手冊中的[分段](/help/components/segmentation/seg-overview.md)。
 * **序列化：**&#x200B;請見「事件序列化」。
 * **伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，大多用於計費情境。
 * **單次存取：**&#x200B;維度只有單一不重複值的造訪。只要沒有多個不重複值，該次造訪便可以有多個點擊。請參閱「元件」使用指南中的[單次存取](/help/components/metrics/single-access.md)量度。另請見「反彈」。
@@ -112,6 +112,6 @@ ht-degree: 94%
 * **趨勢報表：**&#x200B;一種報表格式，通常會以量度顯示多個日期範圍。這類型的報表可用來查看量度隨時間的表現。另請見「排名報表」。
 * **獨特訪客**：代表造訪過您網站的不重複個人人數量。一個獨特訪客可以有多次造訪。請參閱「元件」使用指南中的[不重複訪客](/help/components/metrics/unique-visitors.md)量度。
 * **虛擬報表套裝：**&#x200B;一種虛擬資料容器，會參照一般的報表套裝且允許調整資料。資料不會傳送至虛擬報表套裝，而是會傳送至一般報表套裝，而虛擬報表套裝是以收集到的資料為基礎所建立。請參閱元件使用手冊中的[虛擬報表套裝](/help/components/vrs/vrs-about.md)。
-* **造訪：**&#x200B;代表網站上發生的不重複工作階段數。請參閱「元件」使用指南中的[造訪](/help/components/metrics/visits.md)量度。
+* **造訪：**&#x200B;代表網站上發生的不重複工作階段數。請參閱「元件」使用指南中的[造訪數](/help/components/metrics/visits.md)量度。
 * **VISTA 規則：** Adobe 在客戶請求複製、剖析或篩選資料伺服器端時建立的自訂邏輯。VISTA 規則通常會產生額外費用。另請見「處理規則」。
 * **Web 信標：**&#x200B;請見「影像請求」。
