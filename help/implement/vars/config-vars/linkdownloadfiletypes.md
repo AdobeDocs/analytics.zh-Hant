@@ -3,9 +3,9 @@ title: linkDownloadFileTypes
 description: 判斷要以下載連結形式自動追蹤的副檔名。
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> 系統只會自動追蹤實際點按，不會自動追蹤以下類型的連結：
+>系統只會自動追蹤實際點擊， 不會自動追蹤以下類型的連結：
 >
 > * 在頁面載入時自動開始的檔案下載
 > * 在重新導向後觸發的下載
@@ -28,20 +28,20 @@ ht-degree: 91%
 > 
 對於這些下載類型，您可以手動呼叫 [`tl()`](../functions/tl-method.md) 方法。
 
-如果點按的連結符合退出連結和下載連結兩條件，下載連結類型的優先較高。
+如果點擊的連結符合退出連結和下載連結這兩個條件，則下載連結類型優先。
 
-## 使用Adobe Experience Platform中的標籤下載擴充功能
+## 使用 Adobe Experience Platform 中的標記下載擴充功能
 
-「下載擴充功能」是含有欄位的副檔名清單，可在設定 Adobe Analytics 擴充功能時，於[!UICONTROL 「連結追蹤」]設定追蹤器下方新增更多副檔名。
+「下載擴充功能」是副檔名清單，其中包含的欄位可在設定 Adobe Analytics 擴充功能時，於「[!UICONTROL 連結追蹤]」摺疊式功能表下方新增更多副檔名。
 
-1. 使用您的AdobeID憑證登入[資料收集UI](https://experience.adobe.com/data-collection)。
+1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下所需的屬性。
-3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
-4. 展開[!UICONTROL 「連結追蹤」]設定追蹤器，如此可顯示[!UICONTROL 「下載擴充功能」]欄位。
+3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示[!UICONTROL 「下載擴充功能」]欄位。
 
 在欄位中輸入文字並按一下[!UICONTROL 「新增」]，將副檔名新增至清單。按一下各個項目的「X」圖示，可將副檔名從清單中移除。
 
-## AppMeasurement 和 自訂程式碼編輯器中的 s.linkDownloadFileTypes
+## AppMeasurement 和自訂程式碼編輯器中的 s.linkDownloadFileTypes
 
 `s.linkDownloadFileTypes` 變數是以逗號分隔的副檔名字串，因此請勿使用空格。
 
