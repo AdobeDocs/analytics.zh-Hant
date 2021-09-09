@@ -1,18 +1,17 @@
 ---
 title: 購物車
 description: 訪客在購物車中新增其第一項產品的點擊次數。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '157'
-ht-degree: 100%
+exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
+source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
+workflow-type: tm+mt
+source-wordcount: '135'
+ht-degree: 86%
 
 ---
 
-
 # 購物車
 
-「購物車移除」量度會顯示訪客從購物車中移除品項的次數。如果您想要瞭解客戶對產品已不感興趣的轉換漏斗部分，此量度將有所幫助。
+「購物車」量度會顯示訪客將其第一項產品新增至購物車的點擊次數。
 
 ## 此量度的計算方式
 
