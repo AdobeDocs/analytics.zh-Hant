@@ -3,7 +3,7 @@ title: 外掛程式概述
 description: 將程式碼貼在您的網站上以引入新功能。
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '366'
 ht-degree: 100%
 
