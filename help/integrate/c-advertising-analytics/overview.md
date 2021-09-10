@@ -3,7 +3,7 @@ description: 在此詳細指南中探索您可以使用 Advertising Analytics �
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
 ht-degree: 100%
 
