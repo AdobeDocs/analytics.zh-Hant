@@ -2,12 +2,12 @@
 description: 使用貢獻分析來找出資料中的統計異常和關聯。
 title: 貢獻分析概觀
 uuid: 2bd295b0-c5ce-4443-86af-024efd20c021
-feature: AI 工具
+feature: AI Tools
 role: User, Admin
 exl-id: 86fc8696-90a8-4626-b1c7-6413d3f8a648
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1164'
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
+workflow-type: tm+mt
+source-wordcount: '1162'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 100%
 # 貢獻分析概觀
 
 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合讀者區段間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25443/?quality=12)
 
 發生異常。原因為何？異常偵測報表顯示訂購中有不尋常的尖峰，您想知道為什麼。發生什麼反常的事？誰正在回應哪個促銷活動或轉接？中毒了嗎？什麼特定因素造成這個異常現象？而最重要的可能是：我如何獲取有關客戶的重要資訊，並重複這表現？(或者，如果發生量度下降或是負量度上升，我日後要如何避免？)
 

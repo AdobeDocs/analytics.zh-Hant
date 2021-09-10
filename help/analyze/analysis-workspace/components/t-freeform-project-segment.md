@@ -2,12 +2,12 @@
 description: 在 Analysis Workspace 中使用區段。
 title: 區段
 uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 96%
 
 ---
@@ -48,6 +48,8 @@ ht-degree: 96%
    ![](assets/segment-info.png)
 
 ## 套用區段的其他方法 {#section_10FF2E309BA84618990EA5B473015894}
+
+>[!VIDEO](https://video.tv.adobe.com/v/30994/?quality=12)
 
 另有數個可套用區段至自由格式專案的方法。
 
