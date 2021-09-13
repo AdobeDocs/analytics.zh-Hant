@@ -4,10 +4,10 @@ description: 透過「同類群組分析」，深入了解使用對象資料，�
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 98%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,10 @@ ht-degree: 98%
 [!UICONTROL 流失率]同類群組與保留率表格相反，會顯示在一段時間內離開或從未符合同類群組回傳條件的訪客。您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/churn-report.png)
+
+以下是流失分析的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
 ### [!UICONTROL 滾動式計算]
 

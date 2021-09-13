@@ -3,13 +3,13 @@ description: 您可以從接觸點建立區段、新增區段做為接觸點，�
 keywords: 流失和分段, 流失分析中的區段, 比較流失中的區段
 title: 在流失分析中套用區段
 uuid: e87a33df-160e-4943-8d02-4d6609ae3bb1
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: 2177cd09-5a27-4295-8414-580cf53062cb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '406'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '414'
+ht-degree: 97%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 100%
 ## 比較流失率中的區段 {#section_E0B761A69B1545908B52E05379277B56}
 
 您可以在「流失」視覺效果中比較無數區段。
+
+以下是比較流失中區段的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24046/?quality=12)
 
 1. 從左側的[!UICONTROL 「區段」]欄選取您想要比較的區段。在我們的範例中，已選取 2 個區段：美國用戶和非美國用戶。
 1. 將這些區段拖曳至頂端的「區段」拖放區域。

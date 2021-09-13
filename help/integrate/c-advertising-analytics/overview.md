@@ -2,16 +2,16 @@
 description: 在此詳細指南中探索您可以使用 Advertising Analytics 進行的所有功能，包括所需的權限以及可用的維度和量度。
 title: Advertising Analytics 指南
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '1232'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '1230'
+ht-degree: 96%
 
 ---
 
 # Advertising Analytics 指南
 
-Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。現在，您可以在 Adobe Analytics 中直接利用搜尋引擎及 AMO ID 實例 (按一下實例)，取得以下資料：曝光數、點選次數、成本。Google 已於 2019 年 9 月取消這些量度的權限，因此將不再收集品質分數和平均位置。
+Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所有 Google 和 Bing 付費搜尋資料。以往，您只能在 Adobe Advertising Cloud (AMO) 或 Google/Bing 檢視 Google AdWords/DFA 或 Microsoft Bing Ads 資料。您現在可以在Adobe Analytics中取得下列資料：曝光數、點按次數、直接從搜尋引擎及AMO ID例項（點按例項）產生的資料成本。 Google在2019年9月汰除這些量度，因此不再收集品質分數和平均位置。
 
 >[!NOTE]
 >

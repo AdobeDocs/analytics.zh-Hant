@@ -3,10 +3,10 @@ title: 變數、函數、方法和外掛程式總覽
 description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進而改善報表。
 keywords: appmeasurement, 變數, vars, 設定, 頁面, 實作
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
-source-wordcount: '324'
-ht-degree: 100%
+source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,10 @@ Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的�
 ## 變數與實作方法
 
 Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用 Adobe Experience Platform 中的標記及適用於 JavaScript 的 AppMeasurement 來實作此變數的相關章節。
+
+以下影片說明如何在Adobe Analytics中設定變數：
+
+>[!VIDEO](https://video.tv.adobe.com/v/28755/?quality=12)
 
 ## 操作順序
 
