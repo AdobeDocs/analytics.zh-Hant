@@ -5,10 +5,10 @@ title: 視覺效果概觀
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 100%
+source-wordcount: '1082'
+ht-degree: 98%
 
 ---
 
@@ -100,3 +100,9 @@ Analysis Workspace 中有以下視覺效果類型：
 如果您不確定要挑選哪個視覺效果，請按一下任何表格列 (停留時適用) 的「**[!UICONTROL 建立視覺效果]**」圖示。這是新增視覺效果的最快方式。按一下圖示會提示 Analysis Workspace 教育性猜測哪個視覺效果最適合您的資料。例如，如果您選取了 1 列，即會建立一個最新式的線圖。例如，如果您選取了 3 個區段列，即會建立一個文氏圖表。
 
 ![](assets/quick-viz.png)
+
+## 變更視覺效果上的縮放軸
+
+以下是影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24708/?quality=12)

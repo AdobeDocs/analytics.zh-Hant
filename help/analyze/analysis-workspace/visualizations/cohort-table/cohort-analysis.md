@@ -1,13 +1,13 @@
 ---
 title: 什麼是「同類群組分析」？這又是如何運作的？
 description: 透過「同類群組分析」，深入了解使用對象資料，並分成相關的群組。了解 Analysis Workspace 中的「同類群組分析」。
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
+workflow-type: tm+mt
+source-wordcount: '498'
+ht-degree: 98%
 
 ---
 
@@ -45,6 +45,10 @@ ht-degree: 100%
 [!UICONTROL 保留率]同類群組報表會回傳訪客人數：每個資料儲存格分別顯示該同類群組中，在該時段內執行了動作的原始訪客數目和百分比。您可以包含最多 3 個量度和最多 10 個區段。
 
 ![](assets/retention-report.png)
+
+以下是計算滾動保留率的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
 ### [!UICONTROL 流失率表格]
 
