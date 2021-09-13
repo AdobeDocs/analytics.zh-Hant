@@ -1,12 +1,12 @@
 ---
 title: 歸因面板
 description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
-feature: 歸因
+feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '442'
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '441'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,8 @@ ht-degree: 100%
 # 歸因面板
 
 建立比較各種歸因模型的分析時，[!UICONTROL 歸因]面板是可採用的簡單方式。這是[歸因 IQ](../attribution/overview.md) 中的一項功能，可讓您在專屬的工作區中使用和比較歸因模型。
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
 ## 建立歸因面板
 

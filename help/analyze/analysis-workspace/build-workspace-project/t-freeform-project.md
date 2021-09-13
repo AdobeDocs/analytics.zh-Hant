@@ -1,20 +1,22 @@
 ---
 description: 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
 keywords: Analysis Workspace
-title: 建立 Workspace 專案
-feature: Reports and Analytics 基本需知
+title: 建立 Analysis Workspace 專案
+feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '756'
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '753'
 ht-degree: 100%
 
 ---
 
 
-# 建立 Workspace 專案
+# 建立 Analysis Workspace 專案
 
 建立專案並新增元件 (維度、量度、區段和日期範圍) 至自由面板。
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 本文將帶您了解「Analysis Workspace」介面元素，並說明如何建立專案。
 

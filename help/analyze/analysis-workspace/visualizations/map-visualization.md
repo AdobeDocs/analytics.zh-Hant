@@ -2,13 +2,13 @@
 description: 在 Workspace 專案中使用地圖視覺效果。
 title: 地圖
 uuid: 6038f336-62a3-4efa-8316-4d7792468db3
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '626'
-ht-degree: 100%
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 98%
 
 ---
 
@@ -89,3 +89,9 @@ Analysis Workspace 中的地圖視覺效果
 | 樣式：地圖樣式 | 您可以選擇基本、街道、明亮、淺色、深色和衛星。 |
 | 叢集半徑 | 將指定像素數內的資料點分組在一起。預設為 50。 |
 | 自訂最大值 | 可用於變更地圖最大值的臨界值。調整此數值可以調整泡泡圖/熱度圖的值 (顏色和大小) 相對於自訂最大值的比例。 |
+
+## 建立時間分段熱度圖
+
+以下是主題的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)

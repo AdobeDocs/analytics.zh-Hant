@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Audience Analytics 概觀
 uuid: 86ef9391-dd6a-495f-a10e-e98bc069dde4
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
@@ -16,6 +16,8 @@ ht-degree: 100%
 Adobe Audience Manager (AAM) 是一個功能強大的資料管理平台，可協助您從第一方、第二方/合作夥伴與協力廠商資料整合建立獨一無二的對象個人資料。對廣告商來說，這些對象個人資料有助於定義可用於任何數位通路的最有價值區段。
 
 有了 Audiences Analytics 整合後，您可以將 AAM 對象資料，如人口資訊 (例如性別或收入等級)、心理變數資訊 (例如興趣及嗜好)、CRM 資料與廣告曝光資料，整合至 Analytics 工作流程。
+
+>[!VIDEO](https://video.tv.adobe.com/v/25450/?quality=12)
 
 ## 主要優點 {#section_94816D17283349E0BA28521BE55BB868}
 
