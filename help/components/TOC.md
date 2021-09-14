@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 98%
+source-wordcount: '658'
+ht-degree: 97%
 
 ---
 
@@ -118,6 +118,7 @@ ht-degree: 98%
    + [自訂事件](metrics/custom-events.md)
    + [登入點](metrics/entries.md)
    + [退出點](metrics/exits.md)
+   + [已識別人員](metrics/identified-people.md)
    + [例項](metrics/instances.md)
    + [行動瀏覽數](metrics/mobile-views.md)
    + [新參與](metrics/new-engagements.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
    + [頁面事件](metrics/page-events.md)
    + [頁面瀏覽數](metrics/page-views.md)
    + [找不到頁面](metrics/pages-not-found.md)
+   + [人物 與Experience CloudID](metrics/people-with-exp-cloud-id.md)
    + [人物](metrics/people.md)
    + [產品瀏覽數](metrics/product-views.md)
    + [重新載入](metrics/reloads.md)
@@ -138,6 +140,7 @@ ht-degree: 98%
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間總覽](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
+   + [無法識別的使用者](metrics/unidentified-people.md)
    + [不重複裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [單位數](metrics/units.md)

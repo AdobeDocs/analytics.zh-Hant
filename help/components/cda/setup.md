@@ -2,7 +2,7 @@
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: 040805039c04f4ae8d9d13b764f9f72355eb36e7
+source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 91%
@@ -51,6 +51,6 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 * 虛擬報表套裝名稱旁會出現新的跨裝置圖示。此圖示是跨裝置虛擬報表套裝的專屬圖示。
 * 有一個標示為[「識別的狀態」](../dimensions/identified-state.md)的新維度可供使用。
-* 提供標示為[People](../metrics/people.md)、[不重複裝置](../metrics/unique-devices.md)、已識別人員、未識別人員，以及具有Experience CloudID的人員的新量度。
+* 提供標示為[People](../metrics/people.md)、[獨特裝置](../metrics/unique-devices.md)、[已識別人員](../metrics/identified-people.md)、[未識別人員](../metrics/unidentified-people.md)和[具有Experience CloudID](../metrics/people-with-exp-cloud-id.md)的人員的新量度。
 * [「不重複訪客」](../metrics/unique-visitors.md)量度無法使用，因為它已被「人物」和「不重複裝置」取代。
 * 建立區段時，「訪客」區段容器會被「人員」容器取代。
