@@ -2,10 +2,10 @@
 title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 844df9d632f9e9cceb6c882f81360a83891e2143
+source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 86%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 95%
 
 跨裝置分析功能將 Analytics 從裝置導向檢視轉變為以人為導向的檢視。因此分析師可以瞭解跨瀏覽器、裝置或應用程式的使用者行為。Adobe 支援將裝置資料連結在一起的兩個重要工作流程：
 
-* [**依欄位彙整**](field-based-stitching.md)：您可選擇 Analytics 變數，作為虛擬報表套裝中跨裝置結合的基礎。使用確定性比對來將裝置連結在一起。Adobe 建議針對大部分的確定性比對使用案例使用依欄位彙整。
+* [**依欄位匯整**](field-based-stitching.md):建議的拼接選項，因為它只使用確定性比對來將裝置連結在一起。可讓您選擇Analytics變數，作為虛擬報表套裝中跨裝置結合的基礎。
 * [**裝置圖表**](device-graph.md)：CDA 會與裝置圖表通訊，以將裝置彙整在一起。Co-op 圖表同時使用確定性比對和概率比對。
 
 >[!NOTE]
@@ -56,3 +56,5 @@ ht-degree: 95%
 * CDA 目前與 Adobe Analytics [資料修復 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) 不相容。
 * 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。來源報表套裝中的資料不會變更。
 * 匯整的資料會延遲8到12小時。
+* 指定設備的映射歷史資料最多儲存1年。
+* 如果一個設備在一年內達到非常多的映射歷史記錄條目，則映射歷史記錄將被截斷。 確切限制取決於使用的匯整選項。

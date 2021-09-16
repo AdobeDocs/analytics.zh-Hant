@@ -2,16 +2,16 @@
 title: 具有 Experience Cloud ID 的訪客
 description: 使用 Adobe Experience Cloud ID 服務的不重複訪客數量。
 exl-id: 16c170d0-3546-4e0a-8f3c-c141b8a0e4fe
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: d16128491569b93f4c470e21b84742cda13b3d2f
+workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 具有 Experience Cloud ID 的訪客
 
-「具有 Experience Cloud ID 的訪客」量度會顯示 Adobe 使用 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)識別的不重複訪客數量。此維度有助於與[不重複訪客](unique-visitors.md)量度進行比較，以確保您的網站上大部分的訪客都使用 ID 服務。若大部分的訪客都未使用 ID 服務 Cookie，此維度將可指出您實作中的問題。
+「具有 Experience Cloud ID 的訪客」量度會顯示 Adobe 使用 [Experience Cloud ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)識別的不重複訪客數量。此量度有助於與[不重複訪客](unique-visitors.md)量度進行比較，以確保您網站的大部分訪客都使用ID服務。 若大部分的訪客都未使用 ID 服務 Cookie，此維度將可指出您實作中的問題。
 
 >[!NOTE]
 >

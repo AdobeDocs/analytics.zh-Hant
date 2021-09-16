@@ -2,16 +2,16 @@
 title: 欄位式銜接
 description: 了解使用欄位式銜接方式來結合資料的先決條件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 71148b13e3fb72dfe09f5f25f11d5e12f30e0bc0
+source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 98%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
 # 欄位式銜接
 
-跨裝置分析提供將資料銜接在一起的兩種不同方法。此方法依賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含人員識別碼。使用該變數當作將裝置連結在一起的基礎。
+跨裝置分析提供將資料銜接在一起的兩種不同方法。此方法依賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含人員識別碼。使用該變數當作將裝置連結在一起的基礎。Adobe建議使用此拼接選項，以提高訪客追蹤的透明度和可預測性。
 
 ## 欄位式銜接的專屬先決條件
 
