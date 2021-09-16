@@ -2,12 +2,12 @@
 description: 執行不同報表類型的步驟。
 title: 執行不同的報表類型
 uuid: f59ab2a1-e916-46e8-bb5b-e6361ba00dda
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 2e8cac1b-d133-4095-b5db-886ce0566b82
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1283'
 ht-degree: 97%
 
 ---
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 即時報表提供兩個主要報表 - 概述報表和詳細報表。這些分別包含許多小報表。
 
-如需設定即時報表的資訊，請參閱[分析參考指南](https://experienceleague.adobe.com/docs/analytics/landing/home.html#RealTime_Reports_Configuration)。
+如需詳細資訊，請參閱[即時報表概述](/help/components/c-real-time-reporting/realtime.md) 。
 
 1. 檢視&#x200B;**[!UICONTROL 概述]**&#x200B;報表及其元件：![](assets/rtr_overview_report.png)
 
@@ -145,7 +145,7 @@ ht-degree: 97%
    </tr> 
    </table>
 
-1. 按一下主要小報表中的清單項目將啟動該清單項目的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;檢視：![](assets/rtr_detail_report.png)
+2. 按一下主要小報表中的清單項目將啟動該清單項目的&#x200B;**[!UICONTROL 詳細資料]**&#x200B;檢視：![](assets/rtr_detail_report.png)
 
    | **項目趨勢小報表** | 對於最後 N 分鐘在概述報表中選取的項目顯現趨勢線。透過時間範圍選擇器即可設定 N。 |
    |---|---|
