@@ -1,13 +1,13 @@
 ---
 description: 當報表中有大量不重複值時，Adobe 提供的功能可確保最重要的值出現在您的報表中。
 title: Adobe Analytics 中的低流量值
-feature: 量度
+feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 65190776da25437e854e0226cd349e3ba13fc8c9
-workflow-type: ht
-source-wordcount: '641'
-ht-degree: 100%
+source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,9 @@ ht-degree: 100%
    * 如果報表中尚未看到某個值，它將出現在「[!UICONTROL 低流量]」條列項目中。如果已包含在「[!UICONTROL 低流量]」條列項目中的值在短時間內被多次查看，它將開始被識別為自己的條列項目。項目必須被查看的大量次數具有許多相依性，例如處理該特定報告套裝的資料的處理伺服器和精靈的數量。
 
 為什麼 Adobe 將項目從「[!UICONTROL 低流量]」條列項目移動到其自己的條列項目？舉例來說，這項移動可能用於識別當月份稍晚新增的熱門新頁面或新項目（超過唯一值後），並且獲得了大量點擊/檢視次數。這項移動的用意並非捕捉每天或每月獲得一定點擊/檢視次數的所有內容。
+
+>[!NOTE]
+>頁面查閱計數不僅包含[!UICONTROL pagename]/[!UICONTROL page_url]的值。 頁面查閱表格包含數個欄/欄位，例如[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]以及點按內容（舊的Clickmap資料）。
 
 ## 變更不重複限制臨界值
 
