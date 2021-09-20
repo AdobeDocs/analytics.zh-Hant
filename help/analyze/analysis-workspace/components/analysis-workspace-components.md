@@ -1,13 +1,13 @@
 ---
 description: 'Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；您可將這些元件拖放至專案上。 '
 title: 元件概觀
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '715'
-ht-degree: 100%
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+workflow-type: tm+mt
+source-wordcount: '714'
+ht-degree: 98%
 
 ---
 
@@ -43,17 +43,17 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 ## 區段 {#segments}
 
-[**區段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html?lang=zh-Hant)是套用至分析的對象篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
+[**區段**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)是套用至分析的對象篩選器。這些區段可在左側「元件」邊欄 (藍色區段) 中找到，通常套用在面板頂端或表格中量度欄的上方。
 
-區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的瀏覽次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)建立。
+區段的範例包括[!UICONTROL 行動裝置訪客人數]、[!UICONTROL 電子郵件的瀏覽次數]和[!UICONTROL 已驗證點擊次數]。區段是由 Adobe 提供，或在[面板下拉區域](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中建立，或使用[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)建立。
 
 ![](assets/segments.png)
 
 ## 日期範圍 {#date-ranges}
 
-[**日期範圍**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html?lang=zh-Hant)是您進行分析的日期範圍。這些日期範圍可在左側「元件」邊欄 (紫色區段) 中找到，通常可套用在每個面板的行事曆中。
+[**日期範圍**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html)是您進行分析的日期範圍。這些日期範圍可在左側「元件」邊欄 (紫色區段) 中找到，通常可套用在每個面板的行事曆中。
 
-日期範圍的範例包括 2019 年 7 月、[!UICONTROL 最近 4 週]和[!UICONTROL 本月]。日期範圍是由 Adobe 提供，或在[面板行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中套用，或使用[日期範圍產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant)建立。
+日期範圍的範例包括 2019 年 7 月、[!UICONTROL 最近 4 週]和[!UICONTROL 本月]。日期範圍是由 Adobe 提供，或在[面板行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中套用，或使用[日期範圍產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)建立。
 
 ![](assets/date-ranges.png)
 

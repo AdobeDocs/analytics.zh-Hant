@@ -2,12 +2,12 @@
 description: Analysis Workspace 的新功能。
 keywords: Analysis Workspace
 title: Analysis Workspace 的新增功能
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
+source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
 workflow-type: tm+mt
-source-wordcount: '8288'
+source-wordcount: '8286'
 ht-degree: 99%
 
 ---
@@ -359,7 +359,7 @@ ht-degree: 99%
    <td colname="col2"> <p>介面右下角會提供每日祕訣 (並附上短片)。這麼做的目的，是要協助您儘快熟悉 Analysis Workspace 的眾多功能。您可以選擇關閉這些秘訣，需要時可隨時前往<span class="uicontrol">「說明</span> &gt; <span class="uicontrol">秘訣」</span>查看。 </p> <p><img  src="assets/tip_of_day.png" width="300px" id="image_44A2AA712E4242EC92A180380E66AD7D" /> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  >區段範本</a>和<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >計算量度範本</a></b> </p> </td> 
+   <td colname="col1"> <p><b><a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  >區段範本</a>和<a href="/help/analyze/analysis-workspace/components/apply-create-metrics.md"  >計算量度範本</a></b> </p> </td> 
    <td colname="col2"> <p>現在起，左側邊欄會顯示區段範本和計算量度範本。 </p> </td> 
   </tr> 
   <tr> 
@@ -605,7 +605,7 @@ ht-degree: 99%
    <td colname="col2"> <p>若資料來源的維度是時間維度，現在您可以輕鬆地切換不同的時間粒度。您可以透過視覺效果設定中的下拉式選單切換粒度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 區段放置區的完整維度和事件 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 區段放置區的完整維度和事件 </a> </p> </td> 
    <td colname="col2"> <p>先前，您只能將維度項目、日期範圍或區段放置到區段放置區。您現在可以將完整維度或事件放置到區段放置區。在這兩種情況下，Analysis Workspace 會建立「存在」點擊區段。 </p> <p>例子：「點撃 eVar1 存在的位置」或「點撃 event1 存在的位置」。 </p> <p>注意：您不可將計算量度放入區段區。只有您可以建立區段的維度/量度才可放入區段區域。 </p> </td> 
   </tr> 
   <tr> 
@@ -935,7 +935,7 @@ ht-degree: 99%
    <td colname="col2"> <p>新增 CSV 格式的「流失」視覺效果支援。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/t-freeform-project-segment.md"  > 區段中的日期範圍 </a> </p> </td> 
+   <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md"  > 區段中的日期範圍 </a> </p> </td> 
    <td colname="col2"> <p>您可以在區段放置區域中放置日期範圍 (例如，面板區段放置區域、「流失」視覺效果區段放置區域等)。日期範圍會自動轉換為區段。日期範圍可以是自訂和非自訂，但不可是粒度，如小時/天/週/月/季/年。 </p> </td> 
   </tr> 
   <tr> 
@@ -1029,7 +1029,7 @@ ht-degree: 99%
    <td colname="col2"> 
     <ul id="ul_2585F74DC7754C819017F280E16BF06F"> 
      <li id="li_412446013E7F42DBB1BF50F9E2C4D92F"> 
-      <!--AN-124610: -->將「計算重複例項」新增到專案層級的設定中 (「<span class="uicontrol">專案</span> &gt; <span class="uicontrol">專案資訊和設定」</span>)。此設定指定是否要將重複執行個體計入報表。如果相同變數具有多個循序值，則可以將其計為該變數的一個或多個執行個體。 </li> 
+      <!--AN-124610: -->將「計算重複例項」新增到專案層級的設定中 (「<span class="uicontrol">專案</span> &gt; <span class="uicontrol">專案資訊和設定」</span>)。此設定指定是否要將重複實例計入報表中。 如果相同變數具有多個循序值，則可以將其計為該變數的一個或多個執行個體。 </li> 
      <li id="li_480E1B307C62418CBC2F50ADE32B9EE9">在行事曆中「取消」和「執行」指令旁新增了一個名為「套用至所有面板」的新按鈕。將「執行」變更為「套用」。如果您按一下新按鈕，不僅會更改當前面板的選定日期範圍，也會更改專案中的所有其他面板。 </li> 
      <li id="li_4D10DFE307344D06AA60792FABE5B57E"> 
       <!--AN-124168: -->左側導軌中新增了以下動作的「動作」按鈕：標記、收藏、核准、<b>共用 (新功能！)</b>、<b>刪除 (此為新增按鈕！)</b>。 </li> 
@@ -1058,7 +1058,7 @@ ht-degree: 99%
 * 排名表格中的[「趨勢選取範圍」](/help/analyze/analysis-workspace/home.md#section_34930C967C104C2B9092BA8DCF2BF81A) (線條圖表) 現在提供連結功能。
 * [「建立視覺效果」圖示](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)：按一下此圖示可提供您下一個動作 (橫條圖、Venn...) 的智慧猜測
 * 展開的「[手動列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)」功能
-* 「[新增區段](/help/analyze/analysis-workspace/components/t-freeform-project-segment.md)」放置區
+* 「[新增區段](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)」放置區
 * 小幅更新：
 
    * 可刪除面板中所有的視覺效果和專案中的所有面板。(先前，您必須保留至少一個視覺效果或一個面板。)

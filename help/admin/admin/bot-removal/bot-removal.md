@@ -2,10 +2,10 @@
 title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的方式
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a77fba68de543b51eda8cf4f9a16a0a15271b496
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 98%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 100%
 
 ### 步驟 2：使用分段來識別機器人
 
-您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/t-freeform-project-segment.html)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助 Workspace 下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
+您已將訪客的 ECID 傳到宣告的 ID 中了，接下來您可以使用 [Analysis Workspace 的分段功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/t-freeform-project-segment.html)來識別疑似機器人的訪客。機器人經常會有下列行為：單次存取造訪、異常使用者代理、未知的裝置/瀏覽器資訊、無反向連結、新訪客、異常登陸頁面等。借助 Workspace 下鑽和分段功能的力量，即可識別逃過 IAB 篩選及報表套裝機器人規則的機器人。舉例來說，您可以參考以下螢幕擷圖使用區段：
 
 ![](assets/bot-filter-seg1.png)
 
