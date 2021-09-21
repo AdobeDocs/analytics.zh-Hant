@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 57%
 
 ---
 
@@ -56,4 +56,9 @@ ht-degree: 51%
 | 「共用 > 共用專案」或「共用 > 監管專案資料」 | 在[「監管與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的區段可如何供收件者使用於共用分析中。 |
 | 使用區段作為維度 | 影片：[在 Analysis Workspace 中使用區段作為維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
 
+## 區段 IQ
 
+區段 IQ 包含下列功能：
+
+* [區段比較面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)區段 IQ 的核心功能。將兩個區段拖曳至面板中，並透過資料全面的報表，檢視兩種目標對象之間在統計數據上的顯著差異和重疊之處。
+* [比較區段的流失：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)透過流失率視覺效果，互相比較不同目標對象的流失情況。
