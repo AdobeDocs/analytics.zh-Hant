@@ -1,0 +1,47 @@
+---
+description: 在Analysis Workspace中使用臨機區段。
+title: 臨機區段
+feature: Workspace Basics
+role: User, Admin
+source-git-commit: 9622131ebd4a856cb7756e6844d7d7979029e70e
+workflow-type: tm+mt
+source-wordcount: '253'
+ht-degree: 45%
+
+---
+
+
+# 臨機區段
+
+以下是關於建立臨機區段的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
+
+如果您想要快速探索區段對專案可能有何影響，可以建立臨機區段，而不需前往區段產生器。 將這些區段視為暫時的專案層級區段。 它們通常不會是區段「程式庫」的一部分，例如左側邊欄中的元件區段。 不過，您可將其設為公開，如下所示。
+
+1. 將任何元件類型（維度、維度項目、事件、量度、區段、區段範本、日期範圍）拖曳至面板頂端的區段拖放區域。 元件類型會自動轉換成區段。以下是如何為Twitter反向連結網域建立區段的範例：
+
+   ![](assets/ad-hoc1.png)
+
+   您的面板會自動套用此區段，您就能立即查看結果。
+
+1. 結束日期
+
+請記住：
+
+* 下列元件類型&#x200B;**無法**&#x200B;拖曳至區段拖放區域：計算量度以及無法建立區段的維度/量度。
+* 為了完整的維度和事件，Analysis Workspace 建立了「存在」點擊區段。範例：`Hit where eVar1 exists`或`Hit where event1 exists`。
+* 如將「未指定」或「無」拖曳至區段拖放區，就會自動轉換成「不存在」區段，以便系統正確處理區段。
+
+>[!NOTE]
+>
+>此為專案內部專用的區段建立方式。
+
+## 將臨機區段設為公用 {#ad-hoc-public}
+
+您可以遵循下列步驟將這些區段設為公用 (全域)：
+
+1. 在拖放區域中的區段上暫留並按一下「i」圖示。
+1. 在顯示的資訊面板中，按一下&#x200B;**[!UICONTROL 「設為公用」]**。
+
+   ![](assets/segment-info.png)
