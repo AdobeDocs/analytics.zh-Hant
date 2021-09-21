@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速區段。
 title: 快速區段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 8cd5d5ec1525e29779a13330dfeaeae120dfdd56
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -39,3 +39,11 @@ ht-degree: 0%
 
    以下是結合維度和量度的區段範例：
 
+   ![](assets/quick-seg2.png)
+
+1. 按一下「**[!UICONTROL 套用]**」，將此區段套用至面板。
+區段會顯示在頂端。 請注意其灰色列，而非左側元件層級區段的藍色列。
+
+   ![](assets/quick-seg3.png)
+
+1. 在快速區段中

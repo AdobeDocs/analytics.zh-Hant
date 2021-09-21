@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 0aee84be83b2e5916ecf6ffdd4171ed4ef612b5b
+source-git-commit: 713b6b892e420dbae4ce4c41fd6400e199ed0633
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 75%
+source-wordcount: '496'
+ht-degree: 76%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 75%
 
 您可以建立不同類型的區段，視其需要的複雜程度、是否應僅套用至此專案等而定。 以下是區段類型的摘要：
 
-| 區段類型 | 建立位置？ | 適用於何處？ | 多個容器？ | UI顏色 |
-| --- | --- | --- | --- |
-| 元件清單區段 | [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 從左側邊欄至所有專案 | 是 | 藍色 |
-| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案層級 | 無 | 灰色? |
-| 臨機區段： | 請參閱下方 | 僅限專案層級 | 無 | ? |
-|  — 臨機工作區專案區段 | 拖放至區段？ 在新項目中 |  |  |  |
-|  — 計算量度型區段 | 計算量度產生器 |  |  |  |
-|  — 以VRS為基礎的區段 | 虛擬報表套裝產生器 |  |  |  |
-|  — 區段產生器「套用」 | 區段產生器 |  |  |  |
+| 區段類型 | 建立位置？ | 適用於何處？ | 多個容器？ |
+| --- | --- | --- | 
+| 元件清單區段 | [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 所有專案，位於左側邊欄 | 是 | 藍色 |
+| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案層級 | 無 |
+| 臨機區段： | 請參閱下方 | 僅限專案層級 | 無 |
+|  — 臨機工作區專案區段 | 拖放至區段？ 在新項目中 |  |  |
+|  — 計算量度型區段 | 計算量度產生器 |  |  |
+|  — 以VRS為基礎的區段 | 虛擬報表套裝產生器 |  |  |
+|  — 區段產生器「套用」 | 區段產生器 |  |  |
 
 如需Adobe Analytics中分段的深入討論，請前往[此處](/help/components/segmentation/seg-overview.md)。
 
