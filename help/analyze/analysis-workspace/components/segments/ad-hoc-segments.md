@@ -3,10 +3,10 @@ description: 在Analysis Workspace中使用臨機區段。
 title: 臨機區段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 27c9a3f8f8faeda934827eac6797dd39ba7dd2ca
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 41%
+source-wordcount: '287'
+ht-degree: 32%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 41%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-如果您想要快速探索區段對專案可能有何影響，可以建立臨機區段，而不需前往區段產生器。 將這些區段視為暫時的專案層級區段。 它們通常不會是區段「程式庫」的一部分，例如左側邊欄中的元件區段。 不過，您可將其設為公開，如下所示。
+如果您想要快速探索區段對專案可能有何影響，可以建立臨機區段，而不需前往區段產生器。 將這些區段視為暫時的專案層級區段。 它們通常不會是區段「程式庫」的一部分，例如左側邊欄中的元件區段。 不過，您可以儲存它們，如下所示。
+
+若要比較臨機區段可以執行的動作與完整的元件層級區段，請前往[此處](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
 1. 將任何元件類型（維度、維度項目、事件、量度、區段、區段範本、日期範圍）拖曳至面板頂端的區段拖放區域。 元件類型會自動轉換成區段。以下是如何為Twitter反向連結網域建立區段的範例：
 
@@ -25,8 +27,8 @@ ht-degree: 41%
 
    您的面板會自動套用此區段，您就能立即查看結果。
 
-1. 最多新增3個臨機區段至面板。
-1. 如果您決定要儲存此區段，請參閱「將臨機區段設為公用」區段。
+1. 您可以新增不限數量的元件至面板。
+1. 如果您決定要儲存此區段，請參閱下方的區段。
 
 請記住：
 
@@ -38,12 +40,12 @@ ht-degree: 41%
 >
 >此為專案內部專用的區段建立方式。
 
-## 將臨機區段設為公用 {#ad-hoc-public}
+## 儲存臨機區段 {#ad-hoc-save}
 
-您可以遵循下列步驟將這些區段設為公用 (全域)：
+您可以依照下列步驟來選擇儲存這些區段：
 
 1. 在拖放區域中的區段上暫留並按一下「i」圖示。
-1. 在顯示的資訊面板中，按一下&#x200B;**[!UICONTROL 「設為公用」]**。
+1. 在顯示的資訊面板中，按一下&#x200B;**[!UICONTROL Save]**。
 
    ![](assets/segment-info.png)
 

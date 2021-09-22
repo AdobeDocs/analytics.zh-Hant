@@ -5,12 +5,13 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 65c955e25714591b8c4b2359969717d13626b322
+source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 57%
+source-wordcount: '501'
+ht-degree: 42%
 
 ---
+
 
 # 區段 {#topic_DC2917A2E8FD4B62816572F3F6EDA58A}
 
@@ -18,14 +19,16 @@ ht-degree: 57%
 
 | 區段類型 | 建立位置？ | 適用於何處？ | 使用時機 |
 | --- | --- | --- | --- |
-| 元件清單區段 | [區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 全球/公共 | 對於複雜區段，循序區段 |
-| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 專案層級，但可公開 | 新增/編輯規則、名稱及多個規則的彈性與控制 |
+| 元件清單區段 | 按一下+，接著便會前往[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 所有工作區專案 | 對於更複雜的區段，循序區段 |
+| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 專案層級，但可儲存並新增至區段清單。 | 可彈性新增/編輯一或多個規則 |
 | 臨機區段： |  |  |  |
-|  — 臨機工作區專案區段 | [拖放至專案中的區段拖放區域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 專案層級，但可公開 | 針對預設，使用單一規則區段 |
+|  — 臨機工作區專案區段 | [拖放至專案中的區段拖放區域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 專案層級，但可儲存並新增至區段清單。 | 針對預設，單一規則區段（無限制） |
 |  — 計算量度型區段 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 至個別計算量度 | 在量度定義中套用區段 |
 |  — 以VRS為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 至個別虛擬報表套裝 | 在VRS定義中套用區段 |
 
-如需Adobe Analytics中分段的深入討論，請前往[此處](/help/components/segmentation/seg-overview.md)。
+以下是有關在Analysis Workspace中使用區段的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
 ## 建立區段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 
@@ -37,11 +40,22 @@ ht-degree: 57%
 
 ### 建立元件清單區段 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
-「元件」功能表底下的區段欄會顯示區段及區段範本，並附有下列圖示：
+「元件」功能表下的區段邊欄會顯示
+* 您或您公司建立的區段
+* 區段範本，如Adobe圖示所指示：
 
 ![](assets/segment_icons.png)
 
-[在 Analysis Workspace 中使用區段](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-in-analysis-workspace.html?lang=zh-Hant) (6:46)
+若要建立此類型的區段，有2個選項。 這兩個變數都會帶您前往Adobe Analytics的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+
+* 在左側邊欄中，按一下[!UICONTROL Segments]旁的加號(+):
+
+![](assets/create-seg.png)
+
+或
+
+* 前往「[!UICONTROL 元件] > [!UICONTROL 區段]」，然後按一下「[!UICONTROL +新增]」。
+
 
 ### 套用區段的其他方法 {#section_10FF2E309BA84618990EA5B473015894}
 
@@ -58,7 +72,11 @@ ht-degree: 57%
 
 ## 區段 IQ
 
-區段 IQ 包含下列功能：
+區段IQ（也稱為區段比較）包含下列功能：
 
 * [區段比較面板：](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)區段 IQ 的核心功能。將兩個區段拖曳至面板中，並透過資料全面的報表，檢視兩種目標對象之間在統計數據上的顯著差異和重疊之處。
 * [比較區段的流失：](/help/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.md)透過流失率視覺效果，互相比較不同目標對象的流失情況。
+
+## 更多資訊
+
+如需Adobe Analytics中分段的深入討論，請前往[此處](/help/components/segmentation/seg-overview.md)。
