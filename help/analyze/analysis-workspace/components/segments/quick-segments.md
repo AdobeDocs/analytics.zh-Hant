@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速區段。
 title: 快速區段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 快速區段
 
-您可以在專案內建立快速區段，以略過完整[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)的複雜度。 如需快速區段可以執行哪些動作與完整元件層級區段的比較，請前往[此處](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
+您可以在專案內建立快速區段，以略過完整[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)的複雜度。 如需快速區段可以執行哪些動作與完整元件清單區段的比較，請前往[此處](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
 >[!IMPORTANT]
 > 快速區段目前正在進行有限測試，目前尚未正式提供。
@@ -56,7 +56,7 @@ ht-degree: 0%
 您可以依照下列步驟選擇儲存快速區段。
 
 >[!IMPORTANT]
->儲存區段後，您就無法在「快速區段產生器」中編輯區段，只能在一般的區段產生器中編輯。
+>儲存或套用區段後，您就無法在「快速區段產生器」中編輯區段，只能在一般的區段產生器中編輯。
 
 1. 將滑鼠指標暫留在快速區段上，並選取資訊(「i」)圖示。
 1. 選擇&#x200B;**[!UICONTROL 保存段]**
@@ -65,13 +65,11 @@ ht-degree: 0%
 
 1. 保留名稱原樣，或重新命名區段。
 
-1. 返回工作區，注意區段現在如何有藍色側欄，表示它是元件程式庫的一部分。
+   返回「工作區」，注意區段現在有藍色側欄的方式。 這表示您無法再在快速區段產生器中編輯/開啟區段。 儲存後就會成為元件清單的一部分。
 
    ![](assets/quick-seg4.png)
 
-## 讓區段可供所有專案使用
-
-儲存區段後，您可以選取將其新增至區段元件清單，並供所有專案使用。
+套用區段後，您可以選取將其新增至區段元件清單，並供所有專案使用。
 
 1. 將滑鼠指標暫留在儲存的區段上，並選取鉛筆圖示。
 
@@ -82,12 +80,8 @@ ht-degree: 0%
 1. 選取&#x200B;**[!UICONTROL 讓此區段可供所有專案使用並新增至元件清單旁的核取方塊。]**
 1. 按一下「**[!UICONTROL 儲存]**」。
 1. 區段現在會顯示在您所有專案的區段元件清單中。
-1. 您也可以[共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)。
+1. 您也可以[與組織中的其他人員共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)。
 
-## 將快速區段轉換為臨機區段
+## 什麼是僅限專案的區段？
 
-1. 將滑鼠指標暫留在儲存的區段上，並選取鉛筆圖示。
-
-1. 在「區段產生器」頂端，按一下「**[!UICONTROL 套用]**」。
-
-如需臨機區段的詳細資訊，請前往[此處](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
+僅限專案的區段是快速區段或臨機工作區專案區段。 在區段產生器中編輯/開啟這些區段時，將會顯示僅限專案方塊。 如果他們在產生器中套用快速區段，但未勾選「可用」方塊，則它仍是僅限專案的區段，但無法在QS產生器中開啟它。 如果他們勾選方塊並儲存，現在就會是元件清單區段。

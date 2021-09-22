@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: 31507092e659fa08a50e00f91bd36411e354cb21
+source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 42%
+source-wordcount: '499'
+ht-degree: 43%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 42%
 | 區段類型 | 建立位置？ | 適用於何處？ | 使用時機 |
 | --- | --- | --- | --- |
 | 元件清單區段 | 按一下+，接著便會前往[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 所有工作區專案 | 對於更複雜的區段，循序區段 |
-| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 專案層級，但可儲存並新增至區段清單。 | 可彈性新增/編輯一或多個規則 |
+| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可儲存並新增至區段清單。 | 可彈性新增/編輯一或多個規則 |
 | 臨機區段： |  |  |  |
-|  — 臨機工作區專案區段 | [拖放至專案中的區段拖放區域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 專案層級，但可儲存並新增至區段清單。 | 針對預設，單一規則區段（無限制） |
+|  — 臨機工作區專案區段 | [拖放至專案中的區段拖放區域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 僅限專案，但可儲存並新增至區段清單。 | 針對預設，單一規則區段（無限制） |
 |  — 計算量度型區段 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 至個別計算量度 | 在量度定義中套用區段 |
 |  — 以VRS為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 至個別虛擬報表套裝 | 在VRS定義中套用區段 |
 
