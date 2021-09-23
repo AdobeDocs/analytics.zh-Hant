@@ -3,9 +3,9 @@ title: addProductEvent
 description: 將自訂事件新增至產品和事件變數。
 exl-id: 74f4cb93-714a-4d2b-88f3-408d032f6811
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,17 +57,17 @@ function addProductEvent(en,ev,ap){var f=en,g=ev,c=ap;if("-v"===f)return{plugin:
 
 ## 使用外掛程式
 
-`addProductEvent`函式使用下列引數：
+`addProductEvent` 函數會使用以下引數：
 
 * **`en`** (必要，字串)：要新增至 `products` 變數中最後一個項目的事件。如果 `products` 變數為空，系統會建立「空白」產品項目並附加事件 (與事件值)。
-* **`ev`** (必要，字串)：`en` 引數中指派給數值或貨幣事件的值。若未設定，則預設為 `1`。未包含在字串引號中的數字也有效。
+* **`ev`** (必要，字串)：`en` 引數中指派給數值或貨幣事件的值。若未設定，則預設為 `1`。 未包含在字串引號中的數字也是有效的。
 * **`ap`** (可選，布林)：如果產品變數目前包含多個產品項目，`true` 值 (或 `1`) 會將事件新增至所有產品項目。若未設定，則預設為 `false`。
 
 `addProductEvent` 不傳回任何內容，而是將事件與事件值新增至 `products` 變數。此外掛程式也會自動將事件新增至 [`events`](../page-vars/events/events-overview.md) 變數，因為此處也需要它。
 
 ## Cookie
 
-`addProductEvent`函式不建立或使用任何Cookie。
+`addProductEvent` 函數不會建立或使用任何 Cookie。
 
 ## 範例
 
