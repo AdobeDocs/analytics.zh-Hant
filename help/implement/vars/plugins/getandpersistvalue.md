@@ -3,9 +3,9 @@ title: getAndPersistValue
 description: 儲存值以便稍後隨時擷取。
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '583'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 92%
 >
 >此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與使用 Adobe Experience Platform 中的標記[!UICONTROL 儲存持續時間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果資料收集UI中的[!UICONTROL 儲存期間]功能已足夠，則不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar的內建持續性不需要使用此外掛程式，因為eVar會依Adobe在伺服器端持續存在。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與使用 Adobe Experience Platform 中的標記[!UICONTROL 儲存持續時間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果資料收集 UI 中的[!UICONTROL 儲存持續時間]功能已足夠，就不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
 
 ## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
@@ -57,7 +57,7 @@ function getAndPersistValue(vtp,cn,ex){var d=vtp,k=cn,l=ex;if("undefined"!==type
 
 ## 使用外掛程式
 
-`getAndPersist`函式使用下列引數：
+`getAndPersist` 函數會使用以下引數：
 
 * **`vtp`** (必要)：要在頁面之間保留的值
 * **`cn`** (選用)：要儲存值的 Cookie 名稱。如果此引數未設定，系統會將 Cookie 命名為 `"s_gapv"`
