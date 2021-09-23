@@ -9,7 +9,7 @@ exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 220d92f8826b8d25e2da975db728e30a1051c4b5
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -59,18 +59,18 @@ ht-degree: 98%
 | `curr_factor` | 決定貨幣小數位數，並用於貨幣轉換。例如，USD 使用兩個小數位數，因此該欄值為 2。 | tinyint |
 | `curr_rate` | 交易發生當時的匯率。Adobe 與 XE 合作，以決定當日匯率。 | decimal(24,12) |
 | `currency` | 交易期間使用的貨幣代碼。 | char(8) |
-| `cust_hit_time_gmt` | 僅限啟用時間戳記的報告套裝。時間戳記根據 Unix 時間隨點擊傳送。 | int |
+| `cust_hit_time_gmt` | 僅限啟用時間戳記的報表套裝。時間戳記根據 Unix 時間隨點擊傳送。 | int |
 | `cust_visid` | 如果已設定自訂訪客 ID，則會填入此欄。 | varchar(255) |
 | `daily_visitor` | 確定點擊是否為新每日訪客的旗標。 | 不帶正負號的 tinyint |
-| `date_time` | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
+| `date_time` | 可讀格式的點擊時間，根據報表套裝的時區而定。 | 日期時間 |
 | `domain` | 用於[網域](/help/components/dimensions/domain.md)維度的變數。根據訪客的網際網路存取點而定。 | varchar(100) |
 | `duplicate_events` | 列出每個計為重複項目的事件。 | varchar(255) |
 | `duplicate_purchase` | 此旗標可指出此點擊的購買事件因為重複而應被忽略。 | 不帶正負號的 tinyint |
-| `duplicated_from` | 僅用於包含點擊複製 VISTA 規則的報告套裝。指出從中複製點擊的報告套裝。 | varchar(40) |
+| `duplicated_from` | 僅用於包含點擊複製 VISTA 規則的報表套裝。指出從中複製點擊的報表套裝。 | varchar(40) |
 | `ef_id` | `ef_id`用於 Adobe Advertising Cloud 整合。 | varchar(255) |
 | `evar1 - evar250` | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用不同的 eVar。如需關於貴組織如何填入各 eVar 的更多資訊，請參閱貴組織專用的解決方案設計文件。 | varchar(255) |
 | `event_list` | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用`event.tsv`查詢。 | 文字 |
-| `exclude_hit` | 表示該點擊已從報表中排除的旗標。此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報告套裝上遺失時間戳記的點擊，或非時間戳記報告套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
+| `exclude_hit` | 表示該點擊已從報表中排除的旗標。此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報表套裝上遺失時間戳記的點擊，或非時間戳記報表套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
 | `first_hit_page_url` | 訪客的第一個 URL。 | varchar(255) |
 | `first_hit_pagename` | 用於[登入頁面原始](/help/components/dimensions/entry-dimensions.md)維度的變數。訪客的原始登入頁面名稱。 | varchar(100) |
 | `first_hit_ref_domain` | 用於[原始反向連結網域](/help/components/dimensions/original-referring-domain.md)維度的變數。根據`first_hit_referrer`而定。訪客的第一個反向連結網域。 | varchar(100) |
@@ -82,15 +82,15 @@ ht-degree: 98%
 | `geo_dma` | 根據 IP 的點擊來源地理區域數值 ID。用於 [美國 DMA](/help/components/dimensions/us-dma.md) 維度。 | 不帶正負號的 int |
 | `geo_region` | 根據 IP 的點擊來源州或地區名稱。用於[地區](/help/components/dimensions/regions.md)維度。 | char(32) |
 | `geo_zip` | 根據 IP 的點擊來源郵遞區號。協助填入[郵遞區號](/help/components/dimensions/zip-code.md)維度。另請參閱`zip`。 | varchar(16) |
-| `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報告套裝設定下選擇分隔符號。 | varchar(255) |
+| `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
 | `hit_source` | 指出點擊來源。點擊來源 1、2 和 6 需計費。<br>1：沒有時間戳記的標準影像要求<br>2：具有時間戳記的標準影像要求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：完整處理資料來源上傳<br>7：TransactionID 資料來源上傳<br>8：不再使用；舊版 Adobe Advertising Cloud 資料來源 <br>9：已不再使用；Adobe Social 摘要量度<br>10：使用 Audience Manager 伺服器端轉送 | 不帶正負號的 tinyint |
 | `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
-| `hitid_high` | 與`hitid_low`搭配使用以識別點擊。 | 不帶正負號的 bigint |
-| `hitid_low` | 與`hitid_high`搭配使用以識別點擊。 | 不帶正負號的 bigint |
+| `hitid_high` | 搭配 `hitid_low` 使用可識別點擊。 | 不帶正負號的 bigint |
+| `hitid_low` | 搭配 `hitid_high` 使用可識別點擊。 | 不帶正負號的 bigint |
 | `homepage` | 已不再使用。指出目前 URL 是否為瀏覽器的首頁。 | char(1) |
 | `hourly_visitor` | 此旗標可確定點擊是否為每小時的新訪客。 | 不帶正負號的 tinyint |
 | `ip` | IP 位址，根據影像要求的 HTTP 標頭。 | char(20) |
-| `ip2` | 未使用。報告套裝的後端參考變數，包含以 IP 位址為基礎的 VISTA 規則。 | char(20) |
+| `ip2` | 未使用。報表套裝的後端參考變數，包含以 IP 位址為基礎的 VISTA 規則。 | char(20) |
 | `j_jscript` | 瀏覽器支援的 JavaScript 版本。 | char(5) |
 | `java_enabled` | 此旗標可指出是否已啟用 Java。<br>Y：啟用 <br>N：停用 <br>U：未知 | char(1) |
 | `javascript` | 依據`j_jscript` JavaScript 版的查詢 ID。使用查詢表。 | 不帶正負號的 tinyint |
@@ -199,8 +199,8 @@ ht-degree: 98%
 | `state` | State 變數。 | varchar(50) |
 | `stats_server` | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
 | `t_time_info` | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 用於 Adobe Target 整合。代表目前符合資格的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文字 |
-| `tnt_action` | 用於 Adobe Target 整合。代表符合點擊資格的所有測試。 | 文字 |
+| `tnt` | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType|Event/Action`。 | 文字 |
+| `tnt_action` | 用於 Adobe Target 整合。 代表點擊合格的所有測試。 | 文字 |
 | `tnt_post_vista` | 已不再使用。請改用 `post_tnt`。 | 文字 |
 | `transactionid` | 唯一識別碼，日後可透過資料來源上傳各種資料點。使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | 文字 |
 | `truncated_hit` | 此旗標代表影像要求已截斷。表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
@@ -208,10 +208,10 @@ ht-degree: 98%
 | `ua_os` | 已不再使用。先前作為作業系統的後援。 | char(80) |
 | `ua_pixels` | 已不再使用。先前作為瀏覽器高度和寬度的後援。 | char(20) |
 | `user_agent` | 傳入影像要求之 HTTP 標頭的使用者代理字串。 | 文字 |
-| `user_hash` | 未使用。報告套裝 ID 上的雜湊.請改用 `username`。 | 不帶正負號的 int |
+| `user_hash` | 未使用。報表套裝 ID 上的雜湊.請改用 `username`。 | 不帶正負號的 int |
 | `user_server` | 用於[伺服器](/help/components/dimensions/server.md)維度。 | varchar(100) |
-| `userid` | 未使用。報告套裝 ID 的數值 ID。請改用 `username`。 | 不帶正負號的 int |
-| `username` | 點擊的報告套裝 ID。 | char(40) |
+| `userid` | 未使用。報表套裝 ID 的數值 ID。請改用 `username`。 | 不帶正負號的 int |
+| `username` | 點擊的報表套裝 ID。 | char(40) |
 | `va_closer_detail` | 用於[上次接觸詳情](/help/components/dimensions/last-touch-detail.md)維度的變數。 | varchar(255) |
 | `va_closer_id` | 可識別[上次接觸通路](/help/components/dimensions/last-touch-channel.md)維度的數值 ID。可以在「行銷通路管理員」中找到此 ID 的查閱。 | 不帶正負號的 tinyint |
 | `va_finder_detail` | 用於[首次接觸詳情](/help/components/dimensions/first-touch-detail.md)維度的變數。 | varchar(255) |

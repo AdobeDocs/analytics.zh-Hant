@@ -23,7 +23,7 @@ ht-degree: 99%
       + [專案總覽](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
-      + [多報告套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
+      + [多報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)
       + [調色盤](analysis-workspace/build-workspace-project/color-palettes.md)
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
@@ -145,10 +145,10 @@ ht-degree: 99%
    + 資料請求 {#data-requests}
       + [資料請求 - 請求精靈步驟 1](report-builder/data-requests/data-requests.md)
       + [建立資料請求](report-builder/data-requests/t-create-a-data-request.md)
-      + 報告套裝 {#report-suites}
-         + [選擇報告套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [選擇報告套裝來自 Excel 中的現有請求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
-         + [使用 Excel 來找出報告套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
+      + 報表套裝 {#report-suites}
+         + [選擇報表套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [選擇報表套裝來自 Excel 中的現有請求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [使用 Excel 來找出報表套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理區段](report-builder/data-requests/segmentation.md)
       + [允許發佈清單覆蓋](report-builder/data-requests/allow-publishing-list-overrides.md)
       + 報表類型 {#report-types}

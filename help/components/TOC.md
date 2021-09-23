@@ -7,7 +7,7 @@ user-guide-description: 使用區段、計算量度、虛擬報表套裝和警�
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -198,11 +198,11 @@ ht-degree: 97%
       + [計算量度總計](c-calcmetrics/cm-totals.md)
 + 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報表套裝總覽](vrs/vrs-about.md)
-   + [虛擬報表套裝 — 元件管理](vrs/vrs-components.md)
+   + [虛擬報表套裝 - 元件管理](vrs/vrs-components.md)
    + [行動服務中的 VRS 支援](vrs/vrs-mobile-services.md)
    + [內容感知作業](vrs/vrs-mobile-visit-processing.md)
    + [報表時間處理功能](vrs/vrs-report-time-processing.md)
-   + [A4T考量事項](vrs/vrs-a4t.md)
+   + [A4T 考量事項](vrs/vrs-a4t.md)
    + [VRS 常見問答](vrs/vrs-faq.md)
    + [VRS 和全域/多套裝標記考量事項](vrs/vrs-considerations.md)
    + VRS 工作流程 {#vrs-workflow}
@@ -237,7 +237,7 @@ ht-degree: 97%
       + [瀏覽器匯入](classifications/importer/browser-import.md)
       + [瀏覽器匯出](classifications/importer/browser-export.md)
       + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
-      + [FTP匯出](classifications/importer/ftp-export.md)
+      + [FTP 匯出](classifications/importer/ftp-export.md)
       + [處理時間](classifications/importer/processing-time.md)
       + [疑難排解](classifications/importer/troubleshooting.md)
    + 分類規則產生器 {#classifications-rulebuilder}

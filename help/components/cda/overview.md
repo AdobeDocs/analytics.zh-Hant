@@ -5,7 +5,7 @@ exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
 workflow-type: tm+mt
 source-wordcount: '808'
-ht-degree: 86%
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 86%
 
 >[!NOTE]
 >
->深入了解[Device Co-op服務終止](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html)。
+>進一步了解 [Device Co-op 生命週期結束](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html)。
 
 使用 CDA，您可以回答下列問題：
 
@@ -28,7 +28,7 @@ ht-degree: 86%
 * 使用者在裝置間移動最常採取的路徑為何？他們在哪裡退出？他們在哪裡獲得成功？
 * 多部裝置使用者的行為與單一裝置使用者的行為有何不同？
 
-當裝置連結時，變數的永續性會跨裝置傳遞。例如，某位使用者先透過桌上型電腦上的廣告造訪您的網站。該使用者找到您的行動應用程式並安裝，最終在其行動裝置上進行購買。當使用 Cross-Device Analytics 時，您可以將行動裝置上的收入歸因於在其桌上型電腦上點擊的廣告。
+當裝置連結時，變數的永續性會跨裝置傳遞。例如，某位使用者先透過桌上型電腦上的廣告造訪您的網站。該使用者找到您的行動應用程式並安裝，最終在其行動裝置上進行購買。當使用跨裝置分析時，您可以將行動裝置上的收入歸因於在其桌上型電腦上點擊的廣告。
 
 我們秉持尊重合作夥伴和追求透明的精神，希望客戶了解我們的跨裝置分析會使用 Microsoft Azure。Adobe 會使用 Azure 來儲存裝置圖表資料，及執行跨裝置連結。因此，Adobe Analytics 資料會在 Adobe 的資料處理中心與 Adobe 佈建的 Microsoft Azure 例項之間來回傳遞。
 
@@ -55,6 +55,6 @@ ht-degree: 86%
 * Adobe 的主動監控 CDA 銜接程序僅限於生產報表套裝。
 * CDA 目前與 Adobe Analytics [資料修復 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) 不相容。
 * 虛擬報表套裝中的歷史資料會隨著 Adobe 識別和連結裝置而改變。來源報表套裝中的資料不會變更。
-* 匯整的資料會延遲8到12小時。
+* 拼接資料會遵循 8 到 12 小時的延遲時間。
 * 指定設備的映射歷史資料最多儲存1年。
 * 如果一個設備在一年內達到非常多的映射歷史記錄條目，則映射歷史記錄將被截斷。 確切限制取決於使用的匯整選項。
