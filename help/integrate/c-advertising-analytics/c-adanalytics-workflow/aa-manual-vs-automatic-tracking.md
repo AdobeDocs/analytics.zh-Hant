@@ -3,9 +3,9 @@ description: 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資�
 title: 追蹤手動模式和自動模式
 exl-id: 3e2ed26f-dfb2-43ea-8eb6-e332cd10fb29
 source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 「追蹤」可決定 Adobe Analytics 實作追蹤搜尋引擎資料的方式。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。
 
-以下是如何實作Advertising Analytics追蹤範本的影片概觀：
+以下是有關如何實作 Advertising Analytics 追蹤範本的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23120/?quality=12)
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html?lang=zh-Hant)。
+>請進一步瞭解您是否應將 `s_kwcid` 參數新增至您的[內容安全性原則](https://experienceleague.adobe.com/docs/id-service/using/reference/csp.html)。
 
 ## 手動模式追蹤 {#concept_87B28BA9E7F84BA5972F69E6F3482A33}
 
