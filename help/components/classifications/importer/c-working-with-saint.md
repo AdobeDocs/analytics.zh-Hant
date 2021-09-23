@@ -2,13 +2,13 @@
 description: 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。
 subtopic: Classifications
 title: 分類匯入程式 - 概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 88%
+workflow-type: ht
+source-wordcount: '137'
+ht-degree: 100%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 88%
 >
 >Adobe 建議您將匯入和匯出上限設為 30 欄。
 
-請參閱[分類匯入工具疑難排解](/help/components/classifications/importer/troubleshooting.md)。 本主題說明因錯誤的檔案格式和檔案內容所引起的問題。
+請參閱[分類匯入工具疑難排解](/help/components/classifications/importer/troubleshooting.md)。 這個主題會說明不正確的檔案格式與檔案內容所造成的問題。
