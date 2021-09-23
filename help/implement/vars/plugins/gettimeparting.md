@@ -3,9 +3,9 @@ title: getTimeParting
 description: 測量特定動作發生的時間。
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 
 ## 使用外掛程式
 
-`getTimeParting`函式使用下列引數：
+`getTimeParting` 函數會使用以下引數：
 
 **`t`** (選用但建議使用，字串)：將訪客的當地時間轉換為該時區的時區名稱。預設為 UTC/GMT 時間。如需有效值的完整清單，請參閱 Wikipedia 上的 [TZ 資料庫時區清單](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)。
 
@@ -74,7 +74,7 @@ function getTimeParting(t){var c=t;if("-v"===t)return{plugin:"getTimeParting",ve
 * `"America/Denver"` 為美國山區時間
 * `"America/Los_Angeles"` 為美國太平洋時間
 
-呼叫此函式會傳回包含下列內容的字串，並以縱線字元(`|`)分隔：
+呼叫此函數會傳回包含下列內容的字串，並以直立線符號 (`|`) 分隔：
 
 * 當年
 * 當月
