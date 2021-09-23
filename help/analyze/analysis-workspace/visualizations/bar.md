@@ -2,13 +2,13 @@
 description: 在 Workspace 專案中使用橫條圖視覺效果。
 title: 長條圖和堆疊長條圖
 uuid: 45d2d9f3-3fb3-460f-bc87-7d6e3cc44494
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: c78ea74b-a57f-411b-a44e-5c9902e159a6
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
@@ -32,6 +32,6 @@ ht-degree: 92%
 
 ![](assets/stacked_100_percent.png)
 
-以下是「100%堆疊視覺效果」的影片：
+以下是有關「100% 堆疊視覺效果」的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
