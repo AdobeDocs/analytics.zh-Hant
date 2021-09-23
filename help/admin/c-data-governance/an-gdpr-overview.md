@@ -4,9 +4,9 @@ title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 97%
 >
 >本文件的內容不是法律建議，且用意並非取代法律建議。請諮詢貴公司的法律部門，以獲取有關 GDPR 的建議。
 
-歐盟通用資料保護規範 (GDPR) 已於 2018 年 5 月 25 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [GDPR 和您的業務](https://www.adobe.com/tw/privacy/general-data-protection-regulation.html)。
+歐盟通用資料保護規範 (GDPR) 已於 2018 年 5 月 25 日生效。如需有關 Adobe 回應以及這對於您身為 Adobe 客戶所代表之意義的詳細資訊，請參閱 [GDPR 和您的業務](https://www.adobe.com/privacy/general-data-protection-regulation.html)。
 
 當 Adobe 向企業提供軟體和服務時， Adobe 對於其收到和儲存的任何個人資料，會代表客戶扮演資料處理者的角色，做為提供服務的一部分。身為資料處理者，Adobe 會根據貴公司的權限和指示 (例如依照您與 Adobe 的合約中達成的協議) 處理個人資料。
 
-身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。如需範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/tw/privacy/marketing-cloud.html#collect)。
+身為資料控管方，您可以決定要由 Adobe 代表您處理和儲存哪些個人資料。如果使用 Adobe Experience Cloud 解決方案，則 Adobe 可能會根據您使用的解決方案，以及您選擇傳送到 Adobe Experience Cloud 帳戶的資訊，為您託管個人資料。如需範例清單，請參閱 [Adobe Experience Cloud 隱私權](https://www.adobe.com/privacy/marketing-cloud.html#collect)。
 
 ![](assets/privacy_ready.png)
 
@@ -32,7 +32,7 @@ ht-degree: 97%
 
 Adobe Cloud Platform (ACP) 提供整合式的解決方案，可將品牌的資料控管基礎結構連接其用於建立和管理消費者體驗的 Adobe 工具。Adobe Cloud Platform 的資料控管功能，可啟用資料控管策略與資料使用情況之間直接關聯。
 
-請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/tw/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解 GDPR 整備步驟，以及如何與 Adobe Experience Cloud GDPR API 整合。
+請熟悉 [Adobe 如何處理 GDPR](https://www.adobe.com/data-analytics-cloud/analytics/general-data-protection-regulation.html) 的內容，瞭解 GDPR 整備步驟，以及如何與 Adobe Experience Cloud GDPR API 整合。
 
 ## GDPR 整備與您的 Adobe Analytics 資料 {#section_9A47CDCD614C42238F6E05CFF0180195}
 
@@ -45,7 +45,7 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 ## 先決條件 {#section_3C766371CE0641C0821FE8E750E5AE0C}
 
 * 熟悉 [GDPR 術語](/help/admin/c-data-governance/gdpr-terminology.md)。
-* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=zh-Hant)。
+* 將您的登入公司連結至 Experience Cloud 組織 (如果尚未連結)。請聯絡 Adobe 客戶服務，並參閱[組織與帳戶連結](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html)。
 * 為每個報表套裝設定資料保留政策，以便接受 GDPR 刪除與存取請求。
 
    >[!NOTE]
@@ -54,8 +54,8 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
 
-## AdobePrivacyJS:GDPR請求的用戶端身分解決
+## AdobePrivacyJS：GDPR 要求的用戶端身分解析
 
-以下是此主題的影片概觀：
+以下是有關這個主題的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
