@@ -3,9 +3,9 @@ title: getTimeToComplete
 description: 測量完成任務所花費的時間。
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 ## 使用外掛程式
 
-`getTimeToComplete`函式使用下列引數：
+`getTimeToComplete` 函數會使用以下引數：
 
 * **`sos`** (選用，字串)：要啟動計時器時請設為 `"start"`。要停止計時器時設為 `"stop"`。預設為 `"start"`。
 * **`cn`** (選用，字串)：儲存開始時間的 Cookie 名稱。預設為 `"s_gttc"`。
 * **`exp`** (選用，整數)：Cookie (和計時器) 到期的天數。預設為 `0`，代表瀏覽器作業階段結束。
 
-呼叫此函式會傳回字串，其中包含`"start"`和`"stop"`動作之間所花費的天數、小時數、分鐘數和/或秒數。
+呼叫此函數會傳回一個字串，其中包含 `"start"` 和 `"stop"` 動作之間所花費的天數、小時數、分鐘數和/或秒數。
 
 ## 範例
 
