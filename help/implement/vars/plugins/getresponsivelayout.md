@@ -3,9 +3,9 @@ title: getResponsiveLayout
 description: 決定目前檢視的網站配置。
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -57,13 +57,13 @@ var getResponsiveLayout=function(ppw,plw,tw){var c=ppw,b=plw,e=tw;if("-v"===c)re
 
 ## 使用外掛程式
 
-`getResponsiveLayout`函式使用下列引數：
+`getResponsiveLayout` 函數會使用以下引數：
 
 * **`ppw`** (必要，整數)：頁面從手機直向配置切換為手機橫向配置之前，瀏覽器視窗的最大像素寬度
 * **`plw`** (必要，整數)：頁面從手機橫向配置切換為平板電腦配置之前，瀏覽器視窗的最大像素寬度
-* **`tw`** （必要，整數）:頁面從平板電腦配置切換為桌上型電腦配置之前，瀏覽器視窗的最大像素寬度
+* **`tw`** (必要，整數)：頁面從平板電腦版面切換為桌上型電腦版面之前，瀏覽器視窗的最大像素寬度
 
-呼叫此函式會傳回包含兩個部分的字串，分隔為冒號(`:`)。 字串的第一部分包含下列其中一個值，視瀏覽器寬度和上述引數而定：
+呼叫此函數所傳回的字串會包含冒號 (`:`) 分隔的兩個部分。 此字串的第一個部分包含下列其中一個值，視瀏覽器的寬度和上述引數而定：
 
 * `"phone portrait layout"`
 * `"phone landscape layout"`
