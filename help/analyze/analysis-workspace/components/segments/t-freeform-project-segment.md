@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f3185f1ee341348fb7bdbaab8b68d421e7c79076
+source-git-commit: 63f833ffb3578614d7148bfcc6c786d4ddc8a2a8
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 43%
+source-wordcount: '511'
+ht-degree: 42%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 43%
 | 元件清單區段 | 按一下+，接著便會前往[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md) | 所有工作區專案 | 對於更複雜的區段，循序區段 |
 | 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可儲存並新增至區段清單。 | 可彈性新增/編輯一或多個規則 |
 | 臨機區段： |  |  |  |
-|  — 臨機工作區專案區段 | [拖放至專案中的區段拖放區域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 僅限專案，但可儲存並新增至區段清單。 | 針對預設，單一規則區段（無限制） |
+|  — 臨機工作區專案區段 | [拖放至專案中的區段拖放區域](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md) | 僅限專案，但可儲存並新增至區段清單。 | 單一規則區段（無限制） |
 |  — 計算量度型區段 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html) | 至個別計算量度 | 在量度定義中套用區段 |
 |  — 以VRS為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) | 至個別虛擬報表套裝 | 在VRS定義中套用區段 |
 
@@ -36,7 +36,7 @@ ht-degree: 43%
 
 * [快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)
 * [臨機區段](/help/analyze/analysis-workspace/components/segments/ad-hoc-segments.md)
-* 最後出現在區段程式庫的一般元件清單區段（請參閱下方）
+* 您在「區段產生器」中建立且最終出現在區段程式庫（請參閱下方）的一般元件清單區段
 
 ### 建立元件清單區段 {#section_3B07D458C43E42FDAF242BB3ACAF3E90}
 
@@ -46,7 +46,7 @@ ht-degree: 43%
 
 ![](assets/segment_icons.png)
 
-若要建立此類型的區段，有2個選項。 這兩個變數都會帶您前往Adobe Analytics的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)。
+若要建立此類型的區段，有2個選項。 這兩個參數都會帶您前往Adobe Analytics的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)，您可在此處找到進一步指示。
 
 * 在左側邊欄中，按一下[!UICONTROL Segments]旁的加號(+):
 
@@ -66,8 +66,8 @@ ht-degree: 43%
 | 動作 | 說明 |
 |--- |--- |
 | 從選取項目建立區段 | 建立內嵌區段。此區段僅套用至開啟的專案，不會儲存為 Analytics 區段。1. 選取所需的列。2. 以滑鼠右鍵按一下選取項目。3. 按一下&#x200B;*「從選取項目建立區段」*。 |
-| 元件 > 新增區段 | 顯示區段產生器。如需分段的詳細資訊，請參閱[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)。 |
-| 「共用 > 共用專案」或「共用 > 監管專案資料」 | 在[「監管與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的區段可如何供收件者使用於共用分析中。 |
+| 元件 > 新增區段 | 顯示區段產生器。如需分段的詳細資訊，請參閱[區段產生器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html)。 |
+| 「共用 > 共用專案」或「共用 > 監管專案資料」 | 在[「監管與共用」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html#concept_4A9726927E7C44AFA260E2BB2721AFC6)中，您可以了解套用至專案的區段可如何供收件者使用於共用分析中。 |
 | 使用區段作為維度 | 影片：[在 Analysis Workspace 中使用區段作為維度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/applying-segments/using-segments-as-dimensions-in-analysis-workspace.html?lang=en) |
 
 ## 區段 IQ
