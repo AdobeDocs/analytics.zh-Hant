@@ -2,12 +2,12 @@
 description: 在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷管道的報表套裝，自動設定可為您建立多個管道及其規則。您可視需要編輯預定義管道或建立自己的管道 (最多總共 25 個)。
 subtopic: Marketing channels
 title: 管理行銷管道
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '747'
+ht-degree: 100%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 98%
 
    請參閱[行銷管道權限](/help/components/c-marketing-channels/c-channel-report-access.md)。
 
-## 新增行銷管道 {#add-mktg-channels}
+## 新增行銷通路 {#add-mktg-channels}
 
-在行銷管道管理員中新增行銷管道。
+在行銷通路管理員中新增行銷通路。
 
 >[!NOTE]
 >
@@ -72,7 +72,7 @@ ht-degree: 98%
 | 管道名稱 | 行銷管道的友好名稱。 |
 | 覆蓋上次接觸管道 | 可讓您選擇是否使用選取的管道覆蓋現有的永續性上次接觸管道。如果勾選此核取方塊，任何管道 (包括直接和內部) 都會覆蓋現有的上次接觸管道。產生的結果會將轉換歸因於可能不值得該評價的管道。例如，若之前已透過免費搜尋管道獲得使用者，則此選項可確保直接管道不會接收用於轉換的評價。 |
 | 管道劃分 | 允許您依該值劃分管道。建立[行銷管道分類](/help/components/c-marketing-channels/classifictions-mchannel.md)時，您可新增可能的管道劃分 (子管道)。 |
-| 類型 | 指定使用者前往您網站的方式。您可選擇「線上」或「離線」。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」管道。「離線」管道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線管道通常包括從報告資料來源匯入的資料。請參閱 [Data Sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=zh-Hant)。請參閱[新增離線資料](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
+| 類型 | 指定使用者前往您網站的方式。您可選擇「線上」或「離線」。對於透過搜尋引擎或電子郵件促銷活動到來的訪客，您可使用「線上」管道。「離線」管道適用於透過報章廣告或雜誌廣告找到您網站的訪客。離線管道通常包括從報告資料來源匯入的資料。請參閱 [Data Sources](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html)。請參閱[新增離線資料](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。 |
 | 色彩 | 僅限 Reports &amp; Analytics：與此行銷管道相關聯的色彩。該色彩代表行銷管道報表中的管道。 |
 
 ### 覆寫最佳做法
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 報表中要能顯示管道和管道資料，首先須建立管道和處理資料的基本規則。您也可以指定要讓[訪客參與期間](/help/components/c-marketing-channels/visitor-engagement.md)持續多久的時間。
 
-Adobe 在[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)期間提供了數個預先定義的管道，您可依自身需求加以編輯。此外，您也可以修改此設定，並在[行銷管道處理規則](/help/components/c-marketing-channels/c-rules.md)中定義自訂規則。
+Adobe 在[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)期間提供了數個預先定義的管道，您可依自身需求加以編輯。此外，您也可以修改此設定，並在[行銷通路處理規則](/help/components/c-marketing-channels/c-rules.md)中定義自訂規則。
 
 >[!NOTE]
 >
