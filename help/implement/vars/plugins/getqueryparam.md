@@ -3,9 +3,9 @@ title: getQueryParam
 description: 擷取 URL 查詢字串參數的值。
 exl-id: d2d542d1-3a18-43d9-a50d-c06d8bd473b8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '666'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -55,18 +55,18 @@ function getQueryParam(a,d,f){function n(g,c){c=c.split("?").join("&");c=c.split
 
 ## 使用外掛程式
 
-`getQueryParam`函式使用下列引數：
+`getQueryParam` 函數會使用以下引數：
 
 * **`qsp`** (必要)：要在 URL 中尋找的查詢字串參數清單 (以逗號分隔)。不區分大小寫。
 * **`de`** (選用)：有多個查詢字串參數相符時要使用的分隔字元。預設為空字串。
 * **`url`** (選用)：自訂 URL、字串或變數，系統會從其中擷取查詢字串參數值。預設為 `window.location`。
 
-呼叫此函式會根據上述引數和URL傳回值：
+若呼叫此函數，系統會根據上述引數和 URL 傳回值：
 
-* 如果找不到相符的查詢字串參數，函式會傳回空字串。
-* 如果找到相符的查詢字串參數，函式會傳回查詢字串參數值。
-* 如果找到相符的查詢字串參數但值為空，則函式會傳回`true`。
-* 如果找到多個相符的查詢字串參數，函式會傳回一個字串，每個參數值都由`de`引數中的字串分隔。
+* 如果找不到相符的查詢字串參數，此函數會傳回空白字串。
+* 如果找到相符的查詢字串參數，此函數會傳回查詢字串參數值。
+* 如果找到相符的查詢字串參數但值為空白，此函數會傳回 `true`。
+* 如果找到多個相符的查詢字串參數，此函數會傳回一個字串，其中每個參數值都由 `de` 引數中的字串分隔開。
 
 ## 範例
 
