@@ -3,9 +3,9 @@ title: getVisitNum
 description: 追蹤訪客的目前造訪次數。
 exl-id: 05b3f57c-7268-4585-a01e-583f462ff8df
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '684'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
 
 ## 使用外掛程式
 
-`getVisitNum`函式使用下列引數：
+`getVisitNum` 函數會使用以下引數：
 
 * **`rp`** (選用，整數或字串)：造訪次數計數器重設前的天數。若未設定，則預設為 `365`。
    * 此引數為 `"w"` 時，計數器會在當週結束時 (本週六晚上 11:59) 重設
@@ -65,7 +65,7 @@ function getVisitNum(rp,erp){var a=rp,l=erp;function m(c){return isNaN(c)?!1:(pa
    * 此引數為 `"y"` 時，計數器會在當年結束時 (12 月 31 日) 重設
 * **`erp`** (選用，布林值)：`rp` 引數為數字時，此引數會決定是否應延長造訪次數的有效期。若設為 `true`，您網站的後續點擊會重設造訪次數計數器。若設為 `false`，造訪次數計數器重設時，您網站的後續點擊不會延長。預設為 `true`。`rp` 引數為字串時，此引數無效。
 
-訪客閒置 30 分鐘後再返回您的網站時，造訪次數會增加。呼叫此函式會傳回一個整數，代表訪客目前的造訪次數。
+訪客閒置 30 分鐘後再返回您的網站時，造訪次數會增加。呼叫此函數會傳回一個整數，該整數代表訪客目前的造訪次數。
 
 此外掛程式會設定名為 `"s_vnc[LENGTH]"` 的第一方 Cookie，其中的 `[LENGTH]` 是傳入 `rp` 引數的值。例如 `"s_vncw"`、`"s_vncm"` 或 `"s_vnc365"`。Cookie 的值是 Unix 時間戳記的組合，代表造訪計數器重設的時間，例如當週結束時、當月結束時或閒置 365 天後。其中也包含目前的造訪次數。此外掛程式會設定另一個名為 `"s_ivc"` 的 Cookie，該 Cookie 設為 `true` 且閒置 30 分鐘後會到期。
 
