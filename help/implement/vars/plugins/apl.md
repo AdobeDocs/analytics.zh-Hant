@@ -3,9 +3,9 @@ title: apl (appendToList)
 description: 將值附加至支援多個值的變數。
 exl-id: 08ca43f4-f2cc-43fb-a8eb-7c9dd237dfba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '695'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +63,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 
 ## 使用外掛程式
 
-`apl`函式使用下列引數：
+`apl` 函數會使用以下引數：
 
 * **`lv`** (必要，字串)：為變數，其中包含要新增新值的目的地項目分隔清單
 * **`vta`** (必要，字串)：為逗號分隔的新值清單，可新增至 `lv` 引數的值。
@@ -71,7 +71,7 @@ function apl(lv,va,d1,d2,cc){var b=lv,d=va,e=d1,c=d2,g=cc;if("-v"===b)return{plu
 * **`d2`** (可選，字串)：輸出分隔字元。若未設定，預設值與 `d1` 相同。
 * **`cc`** (可選，布林)：指出是否使用區分大小寫檢查的標幟。如果是 `true`，複製檢查會區分大小寫。如果是 `false` 或未設定，複製檢查將不區分大小寫。預設為 `false`。
 
-`apl`函式返回`lv`引數的值，以及`vta`引數中任何非重複的值。
+`apl` 函數會傳回 `lv` 引數的值，再加上 `vta` 引數中任何非重複的值。
 
 ## 範例
 
@@ -151,7 +151,7 @@ s.list3 = apl(s.list3,"value1");
 
 ### 2.5（2016 年 2 月 18 日）
 
-* 現在使用`inList`函式來處理比較作業
+* 現在會使用 `inList` 函數來處理比較作業
 
 ### 2.0（2016 年 1 月 26 日）
 
