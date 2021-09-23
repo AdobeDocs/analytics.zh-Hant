@@ -3,9 +3,9 @@ title: getPageName
 description: 從目前的網站路徑建立易讀的 pageName。
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '596'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ var getPageName=function(si,qv,hv,de){var a=si,b=qv,f=hv,e=de;if("-v"===a)return
 
 ## 使用外掛程式
 
-`getPageName`函式使用下列引數：
+`getPageName` 函數會使用以下引數：
 
 * **`si`** (選用，字串)：在代表網站 ID 的字串開頭插入的 ID。此值可以是數值 ID 或好記的名稱。未設定時，其預設值為目前的網域。
 * **`qv`** (選用，字串)：以逗號分隔的查詢字串參數清單，若在 URL 中找到，便會新增至字串
 * **`hv`** (選用，字串)：在 URL 雜湊中找到的逗號分隔參數清單，若在 URL 中找到，則會新增至字串
 * **`de`** (選用，字串)：分割字串個別部分的分隔字元。預設為縱線字元 (`|`)。
 
-函式會傳回包含易記格式化版URL的字串。 此字串通常會指派給 `pageName` 變數，但也可用於其他變數。
+此函數所傳回的字串會包含易用格式版本的 URL。 此字串通常會指派給 `pageName` 變數，但也可用於其他變數。
 
 ## 範例
 
@@ -93,7 +93,7 @@ s.pageName = getPageName("example","cid","arrive,numGuests",": ");
 
 ## 從舊版升級
 
-`getPageName`外掛程式的4.0+版不取決於Adobe Analytics的AppMeasurement物件（即`s`物件）是否存在。 如果您升級至此版本，請移除呼叫中`s`物件的任何例項，以變更呼叫外掛程式的程式碼。 例如，將`s.getPageName();`變更為`getPageName();`。
+`getPageName` 外掛程式的 4.0+ 版不取決於 Adobe Analytics AppMeasurement 物件 (即「`s`」物件) 的存在。 如果您升級至此版本，請務必移除呼叫中 `s` 物件的任何實例，以變更呼叫該外掛程式的程式碼。 例如，將 `s.getPageName();` 變更為 `getPageName();`。
 
 ## 版本記錄
 
