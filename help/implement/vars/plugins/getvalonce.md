@@ -3,9 +3,9 @@ title: getValOnce
 description: 防止 Analytics 變數連續設為相同值兩次。
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,14 +59,14 @@ typeof b)b=encodeURIComponent(b);else return"";var a=" "+document.cookie,d=a.ind
 
 ## 使用外掛程式
 
-`getValOnce`函式使用下列引數：
+`getValOnce` 函數會使用以下引數：
 
 * **`vtc`** (必要，字串)：要檢查的變數，查看它之前是否設為相同值
 * **`cn`** (選用，字串)：包含要檢查之值的 Cookie 名稱。預設為 `"s_gvo"`
 * **`et`** (選用，整數)：Cookie 的有效期，單位為天 (或分鐘，視 `ep` 引數而定)。預設為 `0`，在瀏覽器作業階段結束時到期
 * **`ep`** (選用，字串)：只有在也設定了 `et` 引數時才設定此引數。如果您希望 `et` 引數在幾分鐘內而不是幾天內到期，請將此引數設為 `"m"`。預設為 `"d"`，以天為單位設定 `et` 引數。
 
-如果`vtc`引數與Cookie值相符，此函式會傳回空字串。 如果`vtc`引數與Cookie值不相符，函式會將`vtc`引數傳回為字串。
+如果 `vtc` 引數與 Cookie 值相符，此函數會傳回空字串。 如果 `vtc` 引數與 Cookie 值不符，此函數會將 `vtc` 引數傳回為字串。
 
 ## 範例
 
