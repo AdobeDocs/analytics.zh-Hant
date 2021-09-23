@@ -1,18 +1,18 @@
 ---
-description: '使用A4T和Adobe Analytics虛擬報表套裝時的特殊考量 '
-title: 虛擬報表套裝和Analytics for Target(A4T)
-source-git-commit: 6a47ebc58cb36079940cfc4e5cdc80cf99c18a50
-workflow-type: tm+mt
+description: 使用 A4T 和 Adobe Analytics 虛擬報表套裝時的特殊考量事項
+title: 虛擬報表套裝和 Analytics for Target (A4T)
+exl-id: b81e5100-f512-4219-a8ab-5d7f6219d206
+source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
+workflow-type: ht
 source-wordcount: '143'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
+# 虛擬報表套裝和 Analytics for Target (A4T)
 
-# 虛擬報表套裝和Analytics for Target(A4T)
+在 Adobe Target 的環境中使用虛擬報表套裝，請考量以下注意事項：
 
-在Adobe Target中使用虛擬報表套裝時，請注意以下幾點：
-
-* 您無法直接將資料從Target傳送至虛擬報表套裝，而只傳送至真實的報表套裝。
-* 您可以報告虛擬報表套裝中的A4T活動。 不過，A4T資料僅限於符合虛擬報表套裝區段（以及套用的任何其他區段）的列。 例如，如果您為EMEA客戶建立虛擬報表套裝，則該虛擬報表套裝中的A4T資料只會反映EMEA客戶的Target資料。
-* 您無法將虛擬報表套裝中的區段發佈回Target以進行啟用。
+* 您無法直接將 Target 中的資料傳送到虛擬報表套裝，只能傳送到真實的報表套裝。
+* 您可以在虛擬報表套裝中報告 A4T 活動。 然而，A4T 資料僅限於符合虛擬報表套裝區段 (以及其他任何套用的區段) 的資料列。 例如，如果您為 EMEA 客戶建立了虛擬報表套裝，則該虛擬報表套裝中的 A4T 資料只會反映您的 EMEA 客戶的 Target 資料。
+* 您無法將虛擬報表套裝中的區段發佈回 Target 來進行啟用。
