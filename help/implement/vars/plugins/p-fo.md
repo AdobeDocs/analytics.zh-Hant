@@ -3,9 +3,9 @@ title: p_fo (僅限頁面優先)
 description: 確保每頁只引發一次特定常式。
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '635'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function p_fo(c){if("-v"===c)return{plugin:"p_fo",version:"3.0"};a:{if("undefine
 
 ## 使用外掛程式
 
-`p_fo`函式使用下列引數：
+`p_fo` 函數會使用以下引數：
 
-* **on** (必要，字串)：頁面上尚未存在物件時，外掛程式所建立的 JavaScript 物件之名稱。
+* **on** (必要，字串)：外掛程式所建立的 JavaScript 物件名稱 (如果頁面上尚未存在此物件)。
 
-如果物件尚不存在，此函式會傳回`true`並建立該物件。 如果對象已存在，則此函式返回`false`。
+如果此物件尚未存在，則此函數會傳回 `true` 並建立該物件。 如果此物件已存在，則此函數會傳回 `false`。
 
 ## 呼叫範例
 
@@ -78,7 +78,7 @@ if(p_fo("myobject"))
 }
 ```
 
-**注意：** 每次新頁面物件/DOM載入（或目前頁面重新載入）時，on引數中指定的物件將不再存在，因此p_fo外掛程式在頁面載入完成後首次執行時，會再次傳回true。
+**注意：**&#x200B;每當新頁面物件/DOM 載入 (或目前頁面重新載入) 時，on 引數中指定的物件就不再存在，因此在頁面載入完成後 p_fo 外掛程式初次執行時，會再次傳回 true。
 
 ## 版本記錄
 
