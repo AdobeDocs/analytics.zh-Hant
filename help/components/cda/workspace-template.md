@@ -3,9 +3,9 @@ title: CDA 工作區範本
 description: 說明 Analysis Workspace 中 CDA 範本的各個欄位。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
 source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
