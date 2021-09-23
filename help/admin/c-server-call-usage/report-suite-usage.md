@@ -4,9 +4,9 @@ title: 檢視報表套裝使用量
 uuid: c609ed99-9acc-4023-905a-81a40dd07a79
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '431'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 >[!IMPORTANT]
 >
->如果報表套裝未連結至Experience Cloud組織，其使用量資料不會反映在此控制面板中。 此外，計費 ID 可以綁定多個 Experience Cloud 組織；組織與計費 ID 之間並非總是 1:1 的關係。
+>如果報表套裝未與 Experience Cloud 組織綁定，則其使用資料不會反映在此儀表板上。 此外，計費 ID 可以綁定多個 Experience Cloud 組織；組織與計費 ID 之間並非總是 1:1 的關係。
 
 報表套裝使用量控制面板
 
