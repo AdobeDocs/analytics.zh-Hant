@@ -3,9 +3,9 @@ title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '478'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getPageLoadTime(){function l(){var a=performance.timing;if(0<a.loadEven
 
 ## 使用外掛程式
 
-`getPageLoadTime`函式不使用任何引數。 呼叫此函式時，不會傳回任何內容。 而是會設定下列變數：
+`getPageLoadTime` 函數不使用任何引數。 在呼叫此函數時，它不會傳回任何內容。 而是會設定下列變數：
 
 * `s._pltPreviousPage`：上一頁，讓您可將載入時間與上一頁建立關聯
 * `s._pltLoadTime`：上一頁載入所花費的秒數
