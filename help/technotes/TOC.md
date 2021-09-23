@@ -5,9 +5,9 @@ user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
 source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [文件更新](doc-updates.md)
 + Google Analytics 使用者適用的 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 使用者適用的 Adobe Analytics 說明](ga-to-aa/home.md)
-   + [帳戶與報告套裝](ga-to-aa/accounts.md)
+   + [帳戶與報表套裝](ga-to-aa/accounts.md)
    + [自訂報表檢視](ga-to-aa/customization.md)
    + Google Analytics 報表 {#reports}
       + [為 GA 使用者在 Analysis Workspace 建立基本報表](ga-to-aa/reports/create-report.md)
