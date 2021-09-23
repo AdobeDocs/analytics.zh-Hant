@@ -3,9 +3,9 @@ title: Numbers Suite
 description: 產生並操控數字以用於其他 JavaScript 變數。
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -67,24 +67,24 @@ function twoDecimals(v){return"undefined"===typeof v||void 0===v||isNaN(v)?0:Num
 
 ## 使用外掛程式
 
-`zeroPad`函式使用下列引數：
+`zeroPad` 函數會使用以下引數：
 
-* **num** (必要，整數)：要填補的數字。如果此引數包含小數，則函式會向下捨入其值。
+* **num** (必要，整數)：要填補的數字。 如果此引數包含小數，該函數會將其值四拾五入。
 * **nod** (必要，整數)：最終傳回值的位數。如果要填補的數字位數小於要填補的位數，則外掛程式會將零加到 `num` 引數的開頭。
 
-`randomNumber`函式使用下列引數：
+`randomNumber` 函數會使用以下引數：
 
 * **nod** (選用，整數)：要產生的隨機數字位數。最大值為 17 位數。預設值為 10 位數。
 
-`twoDecimals`函式使用下列引數：
+`twoDecimals` 函數會使用以下引數：
 
 * **val** (必要，數字)：要捨入到最接近百位數的數字 (以字串或數字物件表示)。
 
 ## 傳回
 
-* **zeroPad**&#x200B;函式返回的字串等於`num`參數，但在其值的開頭添加了特定數量的零，這可確保返回值具有正確的位數。
-* **randomNumber**&#x200B;函式返回的字串等於具有所需位數的隨機數。
-* **twoDecimals**&#x200B;函式會傳回捨入到最接近百位數的數字物件。
+* **zeroPad** 函數傳回的字串等於 `num` 引數，但會在其值的開頭加上特定數量的零，以確保傳回值具有正確的位數。
+* **randomNumber** 函數傳回的字串等於具有指定位數的隨機數。
+* **twoDecimals** 函數會傳回捨入到最接近百位數的數字物件。
 
 ## 呼叫範例
 
