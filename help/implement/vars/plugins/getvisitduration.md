@@ -3,9 +3,9 @@ title: getVisitDuration
 description: 追蹤訪客目前為止在網站上逗留的時間。
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getVisitDuration(){if(arguments&&"-v"===arguments[0])return{plugin:"get
 
 ## 使用外掛程式
 
-`getVisitDuration`函式不使用任何引數。 它會傳回以下其中一個值：
+`getVisitDuration` 函數不使用任何引數。 它會傳回以下其中一個值：
 
 * `"first hit of visit"`
 * `"less than a minute"`
