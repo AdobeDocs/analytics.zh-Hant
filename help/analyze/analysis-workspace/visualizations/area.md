@@ -2,13 +2,13 @@
 description: 此工作區視覺效果類似折線圖，但折線下方有一塊上色區域。
 title: 區域圖和堆疊區域圖
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: edbcd290-843d-453a-a02d-b3ad06f092e1
 source-git-commit: 5c235ecbf348af86e8f195f99f8e721dd97946b8
-workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 93%
+workflow-type: ht
+source-wordcount: '106'
+ht-degree: 100%
 
 ---
 
@@ -30,6 +30,6 @@ ht-degree: 93%
 
 ![](assets/areastacked100.png)
 
-以下是「100%堆疊視覺效果」的影片：
+以下是有關「100% 堆疊視覺效果」的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23131/?quality=12)
