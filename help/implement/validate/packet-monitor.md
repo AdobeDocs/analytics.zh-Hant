@@ -1,12 +1,12 @@
 ---
 title: 封包分析器
 description: 封包分析器可讓您檢視由實施傳送給 Adobe 資料收集伺服器的資料。
-keywords: 封包Sniffer, http狀態， 200, 302, charles
+keywords: 封包 Sniffer、http 狀態、200、302、charles
 exl-id: db077293-f72c-4933-8a30-f1e1963f332e
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '665'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
