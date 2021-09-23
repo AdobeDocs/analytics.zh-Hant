@@ -3,9 +3,9 @@ title: 重播的運作方式
 description: 了解跨裝置分析中「重播」的概念
 exl-id: 0b7252ff-3986-4fcf-810a-438d9a51e01f
 source-git-commit: d4a70859027508cdd64affbb506fc64a3c4806cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '619'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -50,9 +50,9 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->即時流量中不會結合超過12小時的時間戳記點擊。 不過，只要這些點擊落在重播回顧期間，重播結合就會納入這些點擊。
+>超過 12 小時的時間戳記點擊不會拼接在即時資料流中。 但如果這些點擊位在重播回顧期間內，則會包含在重播拼接中。
 
-### 重播結合
+### 重播拼接
 
 根據您要求設定 CDA 的方式，重播會在每天或每週進行。在重播期間，CDA 會嘗試在定義的回顧期間重述歷史資料：
 
