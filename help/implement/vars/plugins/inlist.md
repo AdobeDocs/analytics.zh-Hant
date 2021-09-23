@@ -3,9 +3,9 @@ title: inList
 description: 檢查某值是否包含在另一個以字元分隔的值中。
 exl-id: 7eedfd01-2b9a-4fae-a35b-433ca6900f27
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '557'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -57,14 +57,14 @@ function inList(lv,vtc,d,cc){var b=lv,e=vtc,c=d,f=cc;if("-v"===b)return{plugin:"
 
 ## 使用外掛程式
 
-`inList`函式根據其輸入返回布爾值。 它使用下列引數：
+`inList` 函數會依據其輸入傳回布林值。 它會使用以下引數：
 
 * **`lv`** (必要，字串或陣列)：要搜尋的分隔值清單或 JavaScript 陣列物件
 * **`vtc`** (必要，字串)：要搜尋的值
 * **`d`** (選用，字串)：用於分隔 `lv` 引數中個別值的分隔字元。若未設定，則預設為逗號 (`,`)。
-* **`cc`** （選用，布林值）:若設為 `true` 或 `1`，則會進行區分大小寫的檢查。如果設為 `false` 或省略，則會進行不區分大小寫的檢查。預設為 `false`。
+* **`cc`** (選用，布林值)：如果設為 `true` 或 `1`，則會進行區分大小寫的檢查。 如果設為 `false` 或省略，則會進行不區分大小寫的檢查。預設為 `false`。
 
-如果找到相符項目，呼叫此函式會傳回`true`；如果找不到相符項目，則會傳回`false`。
+如果找到相符項目，呼叫此函數會傳回 `true`，若找不到相符項目則會傳回 `false`。
 
 ## 範例
 
