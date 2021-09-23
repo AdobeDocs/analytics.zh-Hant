@@ -4,9 +4,9 @@ keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
 title: 資料摘要常見問答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b895b082d624aa3a680284ce7a760629e9fafb3e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1440'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 95%
 
 ## 是否會將 Admin Console 機器人規則篩選的機器人加入資料摘要中？
 
-資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=zh-Hant)篩選的機器人。
+資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html)篩選的機器人。
 
 ## 我為什麼在 `event_list` 或 `post_event_list` 資料摘要欄內看到多個 `000` 值？
 
@@ -52,9 +52,9 @@ ht-degree: 95%
 
 Adobe 不建議自動開啟 Microsoft Excel 中的 `hit_data.tsv` 檔案；另外改用 Excel 的匯入資料對話框，並確定所有欄位會被視為文字。
 
-## `hitid_high`、`hitid_low`、`visid_high`和`visid_low`等欄必定是點擊或造訪的唯一欄嗎？
+## 是否可保證類似 `hitid_high`、`hitid_low`、`visid_high` 和 `visid_low` 等欄對於每個點擊或造訪都是唯一的？
 
-在幾乎所有情況下，`hitid_high`和`hitid_low`的串連都會唯一識別點擊。 瀏覽的`visid_high`和`visid_low`串連也適用相同的概念。 不過，處理異常很少會導致兩個點擊共用相同的點擊ID。 Adobe建議您不要建立不靈活依賴每個點擊都是唯一的資料摘要工作流程。
+在大多數情況下，聯結 `hitid_high` 和 `hitid_low` 能以唯一方式識別點擊。 聯結造訪的 `visid_high` 和 `visid_low` 也是同樣的概念。 然而，處理異常很少會導致兩個點擊共用相同的點擊 ID。 Adobe 建議您不要建立硬性要求每次點擊都是唯一的資料摘要工作流程。
 
 ## 為何某些電信業者的網域欄中遺漏資訊？  {#section_B7508D65370442C7A314EAED711A2C75}
 
