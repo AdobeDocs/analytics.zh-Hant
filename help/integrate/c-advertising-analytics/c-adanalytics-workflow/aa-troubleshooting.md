@@ -4,9 +4,9 @@ title: Advertising Analytics 疑難排解
 uuid: d0abe7cc-ed13-4d3d-87a6-f0d649c7ad2d
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '171'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 報表套裝並未對應至登入使用者的 Experience Cloud 組織 ID。 </p> </td> 
-   <td colname="col2"> <p>請連絡客戶服務以將報表套裝對應至IMS組織。</p> </td> 
+   <td colname="col2"> <p>請聯絡客戶服務，以將報表套裝對應到 IMS 組織。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 尚未針對 Advertising Analytics 報表佈建報表套裝。 </p> </td> 
