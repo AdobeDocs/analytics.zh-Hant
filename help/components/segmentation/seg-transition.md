@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2080'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 97%
 
 * Analysis Workspace 的區段功能
 
-   * 您可以[比較區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html?lang=zh-Hant)。
-   * 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant)。
-   * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html?lang=zh-Hant)中使用區段。
+   * 您可以[比較區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
+   * 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
+   * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
 
 * 您可以[將多個區段套用至報表或專案](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 區段在所有報表套裝中都通用。
@@ -31,7 +31,7 @@ ht-degree: 97%
 * 您可以建立[循序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
 * 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
 
-如需詳細資訊，請參閱Adobe部落格上的[改善Adobe Analytics](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html)貼文。
+如需詳細資訊，請參閱 Adobe 部落格上的[改良 Adobe Analytics 中的分段](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html)文章。
 
 ## 存取區段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
 
@@ -39,9 +39,9 @@ ht-degree: 97%
 
 存取「區段產生器」的方法有：
 
-* 顯示現有報表並按一下左側導覽中的區段圖示![區段圖示](assets/segment_icon.png)。 在顯示的區段欄中，按一下&#x200B;**[!UICONTROL 「新增」]**，或
+* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 在顯示的區段欄中，按一下「**[!UICONTROL 新增]**」，或
 
-* 在「區段管理員」頂端按一下&#x200B;**[!UICONTROL 「+ 新增」]**。![添加按鈕](assets/add_button.png)
+* 在「區段管理員」最上方，按一下「**[!UICONTROL + 新增]**」。 ![「新增」按鈕](assets/add_button.png)
 
    或
 
@@ -53,13 +53,13 @@ ht-degree: 97%
 
 * 前往頂端導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
-* 顯示現有報表並按一下左側導覽中的區段圖示![區段圖示](assets/segment_icon.png)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
+* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
 * 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
 **舊式區段下拉式清單移至何處?**
 
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![，區段圖示](assets/segment_icon.png)
+「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![，「區段」圖示](assets/segment_icon.png)
 
 區段欄隨即顯示。
 
@@ -73,7 +73,7 @@ ht-degree: 97%
 
 **要使用、建立和管理區段需要有什麼權限？**
 
-依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html?lang=zh-Hant)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
+依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
 
 管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](/help/components/segmentation/seg-reference/seg-rights.md)
 
