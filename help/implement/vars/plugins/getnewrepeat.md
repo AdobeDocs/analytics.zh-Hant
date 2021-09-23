@@ -3,9 +3,9 @@ title: getNewRepeat
 description: 追蹤新訪客與重複訪客的活動。
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function getNewRepeat(d){var a=d;if("-v"===a)return{plugin:"getNewRepeat",versio
 
 ## 使用外掛程式
 
-`getNewRepeat`函式使用下列引數：
+`getNewRepeat` 函數會使用以下引數：
 
 * **`d`** (整數，選用)：將訪客重設回 `"New"` 的訪客距離上次造訪需間隔的最小天數。如果未設定此引數，其預設值為 30 天。
 
-如果外掛程式設定的Cookie不存在或已過期，此函式會傳回`"New"`值。 如果外掛程式設定的 Cookie 存在，且自目前點擊以來的時間量及 Cookie 中設定的時間超過 30 分鐘，則會傳回 `"Repeat"` 值。此函式會傳回整個造訪的相同值。
+如果外掛程式設定的 Cookie 不存在或已過期，此函數會傳回 `"New"` 值。 如果外掛程式設定的 Cookie 存在，且自目前點擊以來的時間量及 Cookie 中設定的時間超過 30 分鐘，則會傳回 `"Repeat"` 值。 此函數會為整個造訪傳回相同的值。
 
 此外掛程式使用 `"s_nr[LENGTH]"` Cookie，其中的 `[LENGTH]` 等於 `d` 引數。Cookie 包含代表訪客 (`"New"` 或 `"Repeat"`) 目前時間和狀態的 Unix 時間戳記。
 
