@@ -3,9 +3,9 @@ title: getPercentPageViewed
 description: 擷取訪客所檢視的頁面比例。
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '689'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -55,19 +55,19 @@ function getPercentPageViewed(pid,ch){var n=pid,r=ch;function p(){if(window.ppvI
 
 ## 使用外掛程式
 
-`getPercentPageViewed`函式使用下列引數：
+`getPercentPageViewed` 函數會使用以下引數：
 
 * **`pid`** (選用，字串)：頁面型識別碼，可與外掛程式測量結果提供的比例建立關聯。預設為 `pageName` 變數。
 * **`ch`** (選用，布林值)：如果您不希望外掛程式考慮頁面初次載入後對頁面大小所做的任何變更，請將此項設為 `false` (或 `0`)。如果省略，此引數會預設為 `true`。Adobe 建議在大多數情況下省略此引數。
 
-呼叫此函式不會傳回任何內容；而是會設定下列變數：
+呼叫此函數不會傳回任何內容，而是會設定以下變數：
 
 * `s._ppvPreviousPage`：已檢視的上一頁名稱。載入新頁面後才可對目前頁面進行最終捲動測量。
-* `s._ppvHighestPercentViewed`：訪客已檢視的上一個頁面的最高比例 (以高度計)。訪客在上一個頁面向下捲動至最遠的點。如果首次載入時顯示整個頁面，則此值為`100`。
-* `s._ppvInitialPercentViewed`：前一個頁面首次載入時的頁面可見比例。如果首次載入時顯示整個頁面，則此值為`100`。
+* `s._ppvHighestPercentViewed`：訪客已檢視的上一個頁面的最高比例 (以高度計)。訪客在上一個頁面向下捲動至最遠的點。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `100`。
+* `s._ppvInitialPercentViewed`：上一個頁面初次載入時的頁面可見百分比。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `100`。
 * `s._ppvHighestPixelsSeen`：當訪客向下捲動前一個頁面時已查看之總畫素的最高數量 (以高度計)。
-* `s._ppvFoldsSeen`：當訪客向下捲動前一個頁面時達到的「折頁」最高數量。此變數包含「頁面頂端」折頁。如果首次載入時顯示整個頁面，則此值為`1`。
-* `s._ppvFoldsAvailable`：可在上一個頁面向下捲動的「折頁」總數。如果首次載入時顯示整個頁面，則此值為`1`。
+* `s._ppvFoldsSeen`：當訪客向下捲動前一個頁面時達到的「折頁」最高數量。此變數包含「頁面頂端」摺頁。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
+* `s._ppvFoldsAvailable`：可在上一個頁面向下捲動的「摺頁」總數。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
 
 將上述一或多個變數指派給 eVar，便可在報表中查看維度資料。
 
