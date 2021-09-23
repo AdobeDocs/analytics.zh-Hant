@@ -1,14 +1,14 @@
 ---
-description: 如何透過FTP上傳資料檔案。
+description: 如何透過 FTP 上傳資料檔案。
 subtopic: Classifications
 title: FTP 匯入
-feature: 管理工具
+feature: Admin Tools
 uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '716'
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料
 
 在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。>
 
-如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hant)。
+如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
