@@ -3,9 +3,9 @@ title: manageVars
 description: 一次變更多個 Analytics 變數的值。
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '703'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
 
 ## 使用外掛程式
 
-`manageVars`函式使用下列引數：
+`manageVars` 函數會使用以下引數：
 
 * **`cb`** (必要，字串)：外掛程式用來操控 Analytics 變數的回呼函數名稱。您可以使用類似 `cleanStr` 的 Adobe 函數或您自己的自訂函數。
 * **`l`** (選用，字串)：您要操控之 Analytics 變數的逗號分隔清單。若未設定，則預設為所有 Adobe Analytics 變數，包括：
@@ -79,7 +79,7 @@ function manageVars(cb,l,il){var g=cb,c=l,d=il;if("-v"===g)return{plugin:"manage
    * 所有上下文資料變數
 * **`Il`** (選用，布林值)：如果要&#x200B;*排除* `l` 引數中宣告的變數清單而非包括，則設為 `false`。預設為 `true`。
 
-呼叫此函式不會傳回任何內容。 而是根據所需的回呼函數變更 Analytics 變數的值。
+呼叫此函數不會傳回任何內容。 而是根據所需的回呼函數變更 Analytics 變數的值。
 
 ## 呼叫範例
 
