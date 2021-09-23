@@ -3,9 +3,9 @@ title: pt
 description: 對變數清單執行函數。
 exl-id: 2ab24a8e-ced3-43ea-bdb5-7c39810e4102
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '608'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 >
 >此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-`pt` 外掛程式會對 Analytics 變數清單執行函數或方法。例如，您可以選擇性地對多個變數執行[`clearVars`](../functions/clearvars.md)函式，而不需每次都手動呼叫函式。 其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
+`pt` 外掛程式會對 Analytics 變數清單執行函數或方法。例如，您可以選擇性地對多個變數執行 [`clearVars`](../functions/clearvars.md) 函數，而不需每次都手動呼叫該函數。 其他多個外掛程式依賴此程式碼才能正確運作。如果您不需要一次對多個 Analytics 變數執行特定函數，或者您未使用任何相依外掛程式，就不需要此外掛程式。
 
 ## 使用 Adobe Experience Platform 中的標記安裝外掛程式
 
@@ -57,14 +57,14 @@ function pt(l,de,cf,fa){var b=l,d=de,f=cf,g=fa;if("-v"===b)return{plugin:"pt",ve
 
 ## 使用外掛程式
 
-`pt`函式使用下列引數：
+`pt` 函數會使用以下引數：
 
 * **`l`** (必要，字串)：變數清單，包含 `cf` 引數的函數可針對此清單執行。
 * **`de`** (選用，字串)：區分 `l` 引數中變數清單的分隔字元。預設為逗號 (`,`)。
 * **`cf`** (必要，字串)：要針對 `l` 引數中包含的每個變數呼叫的 AppMeasurement 物件中，所包含的回呼函數名稱。
 * **`fa`** (選用，字串)：如果 `cf` 引數中的函數會在執行時呼叫其他引數，請在此處納入它們。預設為 `undefined`。
 
-如果回呼函式（在`cf`引數中）傳回值，呼叫此函式會傳回值。
+如果回呼函數 (在 `cf` 引數中) 傳回值，呼叫此函數便會傳回值。
 
 ## 呼叫範例
 
