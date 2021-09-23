@@ -2,12 +2,12 @@
 description: 匯入工具可讓您大量上傳分類資料至檔案中的分析報告。匯入功能須有特定的檔案格式才能成功上傳資料。
 subtopic: Classifications
 title: 分類資料檔案
-feature: 管理工具
+feature: Admin Tools
 uuid: f27bb812-56e0-472a-9993-d869f0fea700
 source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1783'
+ht-degree: 100%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 99%
 
 >[!MORELIKETHIS]
 >
->* [常見的 上傳問題](https://helpx.adobe.com/tw/analytics/kb/common-saint-upload-issues.html)
+>* [常見的 上傳問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)
 
 
 ## 欄標題格式
@@ -163,7 +163,7 @@ ht-degree: 99%
 
 促銷活動日期通常是與個別促銷活動相關的範圍 (開始日期和結束日期)。日期的顯示格式應為 YYYY/MM/DD。例如：2013/06/15-2013/06/30。
 
-有關詳細資訊，請參閱「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html?lang=zh-Hant)」。
+有關詳細資訊，請參閱「[轉換分類](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-classifications.html)」。
 
 >[!NOTE]
 >
@@ -180,7 +180,7 @@ ht-degree: 99%
 若要根據日期範圍來分類促銷活動：
 
 >[!IMPORTANT]
->此選項無法用於為新分類架構啟用的報表套裝。
+>此選項不適用於已啟用「新分類架構」的報表套裝。
 
 1. 登入 [!DNL Analytics] 並前往「管理員 > 分類」。
 1. 按一下&#x200B;**[!UICONTROL 「瀏覽器匯出」]**&#x200B;標籤，確定啟用日期的分類設定正確，然後按一下「匯出檔案」。
