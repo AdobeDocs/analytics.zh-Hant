@@ -3,15 +3,15 @@ title: 透過 Analytics 使用 XDM 資料
 description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料概觀
 exl-id: 6f1282fb-8d4a-4d88-9be0-1c939c22cb92
 source-git-commit: 3def20b348713b580429e342ad3319963cae6549
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 透過 Analytics 使用 Adobe Experience Platform Edge 資料
 
-您可以使用 [Adobe Experience Platform (AEP) Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html)，將資料傳送至 Adobe Analytics。將 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=zh-Hant) 轉譯為 Analytics 使用的格式即可。
+您可以使用 [Adobe Experience Platform (AEP) Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html)，將資料傳送至 Adobe Analytics。將 [Experience Data Model (XDM)](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html) 轉譯為 Analytics 使用的格式即可。
 
 Analytics 透過兩種方法收集 XDM 資料：
 
@@ -20,7 +20,7 @@ Analytics 透過兩種方法收集 XDM 資料：
 
 ## 自動對應
 
-自動對應仰賴 XDM 中的預設[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=zh-Hant)，會自動填入典型 Analytics 資料收集所包含的 JSON 物件。自動從 XDM 對應至您設定之報表套裝的 Analytics 變數，不需要開發人員支援即可整合。請參閱平台網頁SDK使用指南中的[在Analytics中自動對應的變數](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html) 。
+自動對應仰賴 XDM 中的預設[結構](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)，會自動填入典型 Analytics 資料收集所包含的 JSON 物件。自動從 XDM 對應至您設定之報表套裝的 Analytics 變數，不需要開發人員支援即可整合。 請參閱 Platform Web SDK 使用手冊中的[在 Analytics 中自動對應的變數](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/automatically-mapped-vars.html)。
 
 ## 手動對應
 
@@ -30,6 +30,6 @@ Analytics 透過兩種方法收集 XDM 資料：
 
 若要將 Analytics 設定為可接受 XDM 資料：
 
-1. 安裝及[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)。
+1. 安裝及[設定](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)。
 
 2. 請確定適用的報表套裝已對應至您想要的資料。XDM 資料會自動從 Adobe Experience Platform 進入報表套裝。
