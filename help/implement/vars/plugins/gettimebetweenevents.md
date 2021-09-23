@@ -3,9 +3,9 @@ title: getTimeBetweenEvents
 description: 測量兩個事件之間的時間長度。
 exl-id: 15887796-4fe4-4b3a-9a65-a4672c5ecb34
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 
 ## 使用外掛程式
 
-`getTimeBetweenEvents`函式使用下列引數：
+`getTimeBetweenEvents` 函數會使用以下引數：
 
 * **`ste`** (必要，字串)：啟動計時器事件。用於「啟動計時器」的 Analytics 事件字串 (以逗號分隔)。
 * **`rt`** (必要，布林值)：重新啟動計時器選項。如果每次 `events` 變數包含啟動計時器事件時都需重新啟動計時器，則設為 `true`。如果您不希望計時器在看到啟動計時器事件時重新啟動，則設為 `false`。
@@ -81,7 +81,7 @@ function getTimeBetweenEvents(ste,rt,stp,res,cn,etd,fmt,bml,rte){var v=ste,B=rt,
 * **`bml`** (選用，數字)：根據 `fmt` 引數格式的捨入基準長度。例如，如果 `fmt` 引數為 `"s"` 且此引數為 `2`，則傳回值會捨入至最接近的 2 秒基準。如果 `fmt` 引數為 `"m"` 且此引數為 `0.5`，則傳回值會捨入至最接近的半分鐘基準。
 * **`rte`** (選用，字串)：移除或刪除計時器的 Analytics 事件字串 (以逗號分隔)。無預設值。
 
-呼叫此函式會傳回一個整數，以所需格式表示啟動計時器事件與停止計時器事件之間的時間長度。
+呼叫此函數會傳回一個整數，該整數代表啟動計時器事件和停止計時器事件之間的時間長度 (以所需格式表示)。
 
 ## 呼叫範例
 
