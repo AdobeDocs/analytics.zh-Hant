@@ -3,9 +3,9 @@ title: cleanStr
 description: 移除或取代字串中所有不必要的字元。
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '459'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -57,11 +57,11 @@ function cleanStr(str){var a=str;if("-v"===a)return{plugin:"cleanStr",version:"2
 
 ## 使用外掛程式
 
-`cleanStr`函式使用下列引數：
+`cleanStr` 函數會使用以下引數：
 
-* **`str`** (必要，字串)：您要清除 HTML 編碼、額外空格、定位字元或其他不必要字元的值。
+* **`str`** (必要，字串)：您想要清除 HTML 編碼、額外空格、定位字元或其他不必要字元的值。
 
-此函式返回`str`參數的值，並刪除所有不必要的字元。
+此函數會傳回 `str` 引數的值，並移除所有不必要的字元。
 
 ## 範例
 
