@@ -3,9 +3,9 @@ title: getPreviousValue
 description: 取得最後一個傳至變數的值。
 exl-id: 235c504b-ba97-4399-a07b-b0bfc764f1ba
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '664'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -56,12 +56,12 @@ function getPreviousValue(v,c){var k=v,d=c;if("-v"===k)return{plugin:"getPreviou
 
 ## 使用外掛程式
 
-`getPreviousValue`函式使用下列引數：
+`getPreviousValue` 函數會使用以下引數：
 
 * **`v`** (字串，必要)：具有您要傳遞至下一個影像要求之值的變數。用來擷取上一頁值的通用變數為 `s.pageName`。
 * **`c`** (字串，選用)：儲存值的 Cookie 名稱。如果未設定此引數，其預設值為 `"s_gpv"`。
 
-呼叫此函式時，會傳回Cookie中包含的字串值。 此外掛程式會重設 Cookie 有效期，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
+當您呼叫此方法時，它會傳回 Cookie 中包含的字串值。 此外掛程式會重設 Cookie 有效期，並從 `v` 引數指派變數值。閒置 30 分鐘後，Cookie 便會到期。
 
 ## 範例
 
@@ -81,9 +81,9 @@ if(s.pageName) s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.eVar10 = getPreviousValue(s.eVar1);
 ```
 
-## 不太可能發生的巧合情況
+## 不太可能發生的巧合
 
-如果與`v`引數相關聯的變數設為新值，而`getPreviousValue`外掛程式執行中，但Analytics伺服器呼叫未同時傳送，則下次外掛程式執行時新的`v`引數值仍會視為「上一個值」。
+如果將與 `v` 引數相關聯的變數設為新值，且 `getPreviousValue` 外掛程式執行中，但未同時傳送 Analytics 伺服器呼叫，則下次外掛程式執行時，新的 `v` 引數值仍會被視為「上一個值」。
 例如，假設下列程式碼會在造訪的第一頁上執行：
 
 ```js
@@ -92,14 +92,14 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-此程式碼會產生一個伺服器呼叫，其中`pageName`為「Home」且未設定prop7。  不過，對`getPreviousValue`的呼叫會將`pageName`的值儲存在`gpv_Page` Cookie中。 假設緊接著在相同頁面上執行下列程式碼：
+此程式碼會產生伺服器呼叫，其中 `pageName` 為「Home」且未設定 prop7。 然而，`getPreviousValue` 的呼叫會將 `pageName` 的值儲存在 `gpv_Page` Cookie 中。 假設下列程式碼緊接著在相同頁面上執行：
 
 ```js
 s.pageName = "New value";
 s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 ```
 
-由於`t()`函式未在此程式碼區塊中執行，因此不會傳送其他影像要求。  不過，這次`getPreviousValue`函式程式碼執行時，會將`prop7`設為先前的`pageName`值(&quot;Home&quot;)，然後在`gpv_Page` Cookie中儲存新的`pageName`值(&quot;New value&quot;)。 接下來，假設訪客導覽至不同頁面，並在此頁面上執行下列程式碼：
+由於 `t()` 函數並未在此程式碼區塊中執行，因此不會傳送另一個影像要求。 然而，這次執行 `getPreviousValue` 函數程式碼時，`prop7` 設定為 `pageName` 的上一個值 (「Home」)，然後將 `pageName` 的新值 (「New value」) 儲存在 `gpv_Page` Cookie 中。 接下來，假設訪客導覽至另一個頁面，且在此頁面上執行下列程式碼：
 
 ```js
 s.pageName = "Page 2";
@@ -107,7 +107,7 @@ s.prop7 = getPreviousValue(s.pageName,"gpv_Page");
 s.t();
 ```
 
-當`t()`函式執行時，會建立影像要求，其中`pageName`為「Page 2」，而`prop7`為「New value」，這是上次呼叫`getPreviousValue`時的`pageName`值。 影像要求中從未包含`"Home"`的`prop7`值，即使「Home」是傳遞至`pageName`的第一個值。
+當 `t()` 函數執行時，它會建立影像要求，其中 `pageName` 為「Page 2」，且 `prop7` 為「New value」，也就是上次呼叫 `getPreviousValue` 時的 `pageName` 值。 雖然「Home」是傳遞給 `pageName` 的第一個值，但是影像要求中從未包含 `"Home"` 的 `prop7` 值。
 
 ## 版本記錄
 
