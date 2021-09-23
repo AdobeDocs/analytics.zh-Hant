@@ -3,9 +3,9 @@ title: getTimeSinceLastVisit
 description: 測量兩次造訪之間經過的時間長度。
 exl-id: c5cef219-8a8a-4e57-a372-f2e063325a67
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getTimeSinceLastVisit(){if(arguments&&"-v"===arguments[0])return{plugin
 
 ## 使用外掛程式
 
-`getTimeSinceLastVisit`函式不使用任何引數。 它會傳回自訪客上次造訪網站以來經過的時間長度，並以下列格式分組：
+`getTimeSinceLastVisit` 函數不使用任何引數。 它會傳回自訪客上次造訪網站以來經過的時間長度，並以下列格式分組：
 
 * 自上次造訪後 30 分鐘至 1 小時之間的時間設為最接近的半分鐘基準。例如：`"30.5 minutes"`、`"53 minutes"`
 * 一小時至一天之間的時間會捨入至最接近的四分之一小時基準。例如：`"2.25 hours"`、`"7.5 hours"`
