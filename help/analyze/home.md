@@ -1,12 +1,12 @@
 ---
 title: Analytics 工具指南
 description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Report Builder、Reporting API 以及 Reports & Analytics 的產品文件和自助服務。
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: tm+mt
-source-wordcount: '235'
+workflow-type: ht
+source-wordcount: '233'
 ht-degree: 100%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
