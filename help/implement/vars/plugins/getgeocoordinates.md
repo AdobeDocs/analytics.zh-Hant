@@ -3,9 +3,9 @@ title: getGeoCoordinates
 description: 追蹤訪客的 geoLocation。
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ function getGeoCoordinates(){if(arguments&&"-v"===arguments[0])return{plugin:"ge
 
 ## 使用外掛程式
 
-`getGeoCoordinates`函式不使用任何引數。 它會傳回以下其中一個值：
+`getGeoCoordinates` 函數不使用任何引數。 它會傳回以下其中一個值：
 
 * `"geo coordinates not available"`：針對外掛程式執行時沒有地理位置資料的裝置。此值在造訪的第一次點擊時很常見，尤其是當訪客需要先同意追蹤其位置的情況下。
 * `"error retrieving geo coordinates"`：當外掛程式嘗試擷取裝置位置時遇到任何錯誤時
