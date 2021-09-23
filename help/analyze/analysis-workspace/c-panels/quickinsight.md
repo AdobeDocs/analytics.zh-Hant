@@ -1,13 +1,13 @@
 ---
 description: 「快速深入分析」是適用於新工作區使用者的工具，可引導他們建立資料表格和視覺效果
 title: 快速深入分析面板
-feature: 面板
+feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '1058'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 99%
 * 在[!UICONTROL 自由表格]中輕鬆進行維度的簡單劃分、新增多個量度或比較區段。
 * 變更或試用各種視覺效果類型，以快速且直覺地找出您的分析適用的尋找工具。
 
-以下是[!UICONTROL 快速深入分析]面板的影片概觀：
+以下是 [!UICONTROL Quick Insights] 面板的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/37248/?quality=12)
 
