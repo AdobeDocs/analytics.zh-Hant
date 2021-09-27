@@ -3,9 +3,9 @@ description: 在Analysis Workspace中使用快速區段。
 title: 快速區段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 5ac3b11c559b03df2c08efc5a1a64c76ee1cf28e
+source-git-commit: 1cfdb29dcc49c57b23189bf07f55b85e4166fb8d
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '932'
 ht-degree: 1%
 
 ---
@@ -107,4 +107,4 @@ ht-degree: 1%
 
 ## 什麼是僅限專案的區段？
 
-僅限專案的區段是快速區段或臨機工作區專案區段。 在「區段產生器」中編輯/開啟這些區段時，會顯示僅限專案的方塊。 如果您在產生器中套用快速區段，但未勾選「可用」方塊，則該區段仍為僅限專案的區段，但無法在快速區段產生器中開啟。 如果勾選方塊並儲存，現在就是元件清單區段。
+僅限專案的區段是快速區段或臨機工作區專案區段。 在[!UICONTROL 區段產生器]中編輯/開啟這些量度時，將會顯示僅限專案方塊。 如果您在產生器中套用快速區段，但未勾選「可用」方塊，則該區段仍為僅限專案的區段，但無法在[!UICONTROL 快速區段產生器]中開啟。 如果勾選該方塊並按一下&#x200B;**[!UICONTROL SAVE]**，它現在就是元件清單區段。
