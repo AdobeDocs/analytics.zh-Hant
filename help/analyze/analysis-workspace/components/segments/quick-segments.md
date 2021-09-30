@@ -3,10 +3,10 @@ description: 在Analysis Workspace中使用快速區段。
 title: 快速區段
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 34824daca188119bfe366fea101053f2547a2f6d
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 1%
+source-wordcount: '774'
+ht-degree: 2%
 
 ---
 
@@ -61,16 +61,13 @@ ht-degree: 1%
 ## 編輯快速區段
 
 1. 將滑鼠指標暫留在快速區段上，並選取鉛筆圖示。
-1. 編輯區段定義或區段名稱。
+1. 編輯區段定義和/或區段名稱。
+1. 按一下[!UICONTROL 「套用」]。
 
 ## 儲存快速區段
 
-您可以選擇在[!UICONTROL 快速區段產生器]或[!UICONTROL 區段產生器]中儲存快速區段。
-
 >[!IMPORTANT]
 >儲存或套用區段後，您就無法在「快速區段產生器」中編輯區段，只能在一般的區段產生器中編輯。
-
-### 儲存至快速區段產生器
 
 1. 套用快速區段後，將滑鼠指標暫留在該區段上並選取資訊(「i」)圖示。
 
@@ -81,20 +78,6 @@ ht-degree: 1%
 1. 按一下「**[!UICONTROL 儲存]**」。
 
 請注意區段的側邊欄如何從藍色條狀變更為藍色。 它現在會顯示在左側邊欄的元件清單中。
-
-
-套用區段後，您可以選取將其新增至區段元件清單，並供所有專案使用。
-
-1. 將滑鼠指標暫留在儲存的區段上，並選取鉛筆圖示。
-
-1. 在「區段產生器」頂端，注意此對話方塊：
-
-   ![](assets/project-only.png)
-
-1. 選取&#x200B;**[!UICONTROL 讓此區段可供所有專案使用並新增至元件清單旁的核取方塊。]**
-1. 按一下「**[!UICONTROL 儲存]**」。
-1. 區段現在會顯示在您所有專案的區段元件清單中。
-1. 您也可以[與組織中的其他人員共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)。
 
 ## 什麼是僅限專案的區段？
 
