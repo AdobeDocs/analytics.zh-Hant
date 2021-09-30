@@ -3,10 +3,10 @@ description: 如何建立Analytics控制面板計分卡
 title: 建立計分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 012bbfa54d97ffcaf4cd0de380c196df06a03bfe
+source-git-commit: 38bb36db0e7f2fc032f0531fa40cfec29b7e926e
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 81%
+source-wordcount: '1037'
+ht-degree: 74%
 
 ---
 
@@ -15,15 +15,20 @@ ht-degree: 81%
 
 某些情況下，執行使用者可能需要額外的協助，才能存取及使用應用程式。本節提供相關資訊，幫助您提供這類協助。
 
-## 執行使用者的系統必要條件
+## 確認應用程式使用者能夠存取 Adobe Analytics
+
+1. 在[Experience CloudAdmin Console](/help/admin/admin-console/permissions/product-profile.md)中設定新用戶。
+
+1. 若要共用計分卡，您必須授予應用程式使用者存取計分卡元件的權限，例如Analysis Workspace、計分卡所依據的報表套裝，以及區段、量度和維度。
+
+## 應用程式使用者的系統必要條件
 
 若要確保執行使用者在應用程式上擁有您計分卡的存取權，請確定：
 
 * 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
-* 使用者處於 Adobe Analytics 的有效登入狀態
+* 使用者處於 Adobe Analytics 的有效登入狀態。
 * 您已為使用者正確建立行動計分卡，並與他們共用這些計分卡。
-* 使用者可存取 Analysis Workspace 和計分卡所依據的報表套裝
-* 使用者可存取計分卡包含的元件。請注意，您可以在共用計分卡時選取選項以&#x200B;**[!UICONTROL 共用內嵌元件]**。
+* 他們可存取計分卡所包含的元件。 請注意，您可以在共用計分卡至&#x200B;**[!UICONTROL 共用內嵌元件]**&#x200B;時選取選項。
 
 ## 協助主管下載並安裝應用程式
 
