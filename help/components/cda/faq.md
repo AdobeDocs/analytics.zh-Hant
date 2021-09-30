@@ -2,9 +2,9 @@
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: 080c5e35e7ffd253ac07e1158fb7c4bede238199
+source-git-commit: 639897682c9a28df7dc642dd7c68ad992fde40a9
 workflow-type: tm+mt
-source-wordcount: '1961'
+source-wordcount: '1949'
 ht-degree: 76%
 
 ---
@@ -128,8 +128,8 @@ CDA 使用複雜的並行處理管道，其中包含多個相依元件。 所以
 
 如果識別碼prop/eVar值發生[雜湊碰撞](/help/implement/validate/hash-collisions.md)，「已識別人員」量度的數量可能會稍高。
 
-如果識別碼prop/eVar區分大小寫，則「已識別人員」量度的數量可能會高得多。 例如，`bob`和`Bob`應為同一人，但區分大小寫會強迫這兩個值相異。
+針對依欄位匯整，識別碼自訂變數會區分大小寫。 如果識別碼值不符合大小寫，「已識別人員」量度的數量可能會高得多。 例如，如果傳送`bob`和`Bob`，且預期為相同人員，CDA會將這兩個值解譯為不同的值。
 
-## 使用「未識別的人員」量度檢視識別碼prop/eVar時，為何會看到值？
+## 檢視識別碼prop/eVar時，為何會看到「未識別人員」量度的非零值？
 
-當訪客在報表視窗中產生已驗證和未驗證的點擊，且[重播](replay.md)尚未執行時，通常會發生此情況。 重播前，訪客在[已識別狀態](/help/components/dimensions/identified-state.md)維度中同時屬於「未識別」和「已識別」，導致部分訪客將未識別的點擊歸因於識別碼。 訪客會保持此狀態，直到重播執行（每日或每週，視您的組織設定CDA的方式而定）為止。 僅在重播後執行報表可緩解此情況。
+當訪客在報表視窗中產生已驗證和未驗證的點擊時，通常會發生此情況。 該訪客同時屬於[已識別狀態](/help/components/dimensions/identified-state.md)維度中的「未識別」和「已識別」，導致識別碼的未識別點擊歸因。 根據重播頻率和成功率，在[重播](replay.md)運行後，此情景可能會更改。

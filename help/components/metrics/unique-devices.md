@@ -2,10 +2,10 @@
 title: 不重複裝置
 description: 不重複裝置數量。
 exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
-source-git-commit: 407111f6016fe8595f1d5c3464e36dfd4d314630
+source-git-commit: db88bd439c036e97cca641f31f4fc3101a368636
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 6%
+source-wordcount: '252'
+ht-degree: 5%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 6%
 
 ![不重複裝置計數](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-在[重播](/help/components/cda/replay.md)之前在CDA虛擬報表套裝中檢視此資料，會顯示：
+在[Replay](/help/components/cda/replay.md)之前在CDA虛擬報表套裝中檢視此資料，可能會拼接未驗證的點擊：
 
 * **5個不重複裝置**:1個代表未驗證的Bob + 2個代表Bob + 1個代表Alice + 1個代表Charles
 * **4 [人](people.md)**:1名 [未識別](unidentified-people.md) 者+ 3 [名已識別人員](identified-people.md)。
-
