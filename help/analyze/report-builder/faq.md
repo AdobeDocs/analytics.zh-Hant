@@ -4,10 +4,10 @@ description: Report Builder 常見問題。
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+workflow-type: tm+mt
+source-wordcount: '420'
+ht-degree: 94%
 
 ---
 
@@ -29,6 +29,6 @@ Excel 中的 [`TODAY()` 函數](https://support.microsoft.com/zh-tw/office/today
 
 Report Builder 支援的活頁簿的上限如下：
 
-* **1000 個請求**：活頁簿在單一活頁簿中最多可包含 1000 個資料請求。如果您的報表或專案需要超過 1000 個請求，Adobe 建議將其分隔成多個活頁簿。
+* **1000個請求**:單一活頁簿最多可包含1000個資料請求。如果您的報表或專案需要超過 1000 個請求，Adobe 建議將其分隔成多個活頁簿。
 * **每家公司每小時 2 萬個請求**： Report Builder 會使用 Analytics 報表 API 來擷取資料。每個個別請求在建立或重新整理時都會使用 API 呼叫。 如果您的組織在指定小時內累積超過 20,000 個 API 呼叫，您必須等到下一小時再擷取資料。
-* **4 小時處理時間**&#x200B;排程報表在處理經過 4 小時後逾時。如果您的活頁簿含有許多使用大型資料集的複雜請求，排程報表可能會失敗。
+* **4小時處理時間**:排程報表在處理後逾時4小時。如果您的活頁簿含有許多使用大型資料集的複雜請求，排程報表可能會失敗。
