@@ -23,7 +23,6 @@ ht-degree: 100%
 >* 在重新導向後觸發的下載
 >* 按一下右鍵並選擇「另存目標...」
 >* 使用 JavaScript 的連結，如 `javascript:openLink()`
-
 >
 >對於這些下載類型，您可以手動呼叫 [`tl()`](../functions/tl-method.md) 方法。
 
