@@ -3,7 +3,7 @@ title: linkDownloadFileTypes
 description: 判斷要以下載連結形式自動追蹤的副檔名。
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
 source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '270'
 ht-degree: 100%
 
@@ -23,6 +23,7 @@ ht-degree: 100%
 >* 在重新導向後觸發的下載
 >* 按一下右鍵並選擇「另存目標...」
 >* 使用 JavaScript 的連結，如 `javascript:openLink()`
+
 >
 >對於這些下載類型，您可以手動呼叫 [`tl()`](../functions/tl-method.md) 方法。
 
