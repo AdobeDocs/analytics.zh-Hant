@@ -5,7 +5,7 @@ title: 建立 Analysis Workspace 專案
 feature: Reports & Analytics Basics
 uuid: c1def77a-a76e-4699-9feb-1ede5b70b7ba
 source-git-commit: 28e8ad7a71cbd8f034fa5fc8ec39a6db537da6f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
 ht-degree: 100%
 
