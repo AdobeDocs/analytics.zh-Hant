@@ -1,28 +1,25 @@
 ---
 description: 控制面板計分卡的使用說明。
 title: Adobe Analytics 儀表板執行指南
-feature: Analytics 儀表板
+feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1293'
-ht-degree: 100%
+source-git-commit: 5c9502536c96bc43288adfa259f1b60e6fd078c0
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Adobe Analytics 儀表板：執行使用者快速入門手冊
+# Adobe Analytics 控制面板：執行使用者快速入門手冊
 
 下列資訊可讓執行使用者瞭解使用和檢視 Adobe Analytics 儀表板的最佳作法。若要觀看講解這項資訊的影片，請參閱 [Adobe Analytics 儀表板程式內動作體驗](https://youtu.be/QXqQ_PkArbA)。
 
-
 ## 簡介
 
-Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓使用者透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
+Adobe Analytics 儀表板可隨時隨地提供 Adobe Analytics 的深入分析。此應用程式可讓用戶透過行動裝置存取計分卡，享有符合直覺的操作方式。計分卡是關鍵量度和其他元件的集合，以圖磚式版面配置呈現，點選上面的項目即可取得詳細劃分資料和趨勢報表。iOS 和 Android 作業系統均支援控制面板。
 
-## 本指南的詳細資訊
-
-本指南旨在協助執行使用者閱讀和理解 Analytics 儀表板的計分卡。此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
+本指南旨在協助執行使用者閱讀和理解Analytics控制面板上的計分卡。 此應用程式可讓執行使用者在自己的行動裝置上，輕鬆快速地檢視廣泛演算的重要摘要資料。
 
 ## 術語表
 
