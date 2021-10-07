@@ -1,19 +1,19 @@
 ---
 description: 如何建立Adobe Analytics控制面板計分卡
-title: 建立計分卡
+title: 建立行動計分卡
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 7136b601c3e912ef66209c79adfb04fd11297b50
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 54%
+source-wordcount: '1349'
+ht-degree: 53%
 
 ---
 
 
-# 建立計分卡
+# 建立行動計分卡
 
-以下資訊可為 Adobe Analytics 資料的組織者說明如何設定控制面板並將其對執行使用者呈現。首先，您可以檢視Adobe Analytics控制面板計分卡產生器影片：
+下列資訊可指示Adobe Analytics資料的組織者如何設定並為執行使用者呈現行動計分卡。 首先，您可以檢視Adobe Analytics控制面板計分卡產生器影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
@@ -103,6 +103,10 @@ Adobe Analytics計分卡以圖磚式版面配置呈現，為執行使用者顯�
 這會帶您到日期範圍產生器，在其中可以建立和儲存新的日期範圍元件。
 
 ## 套用視覺效果
+
+檢視行動計分卡的視覺效果影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/337570/?quality=12&learn=on)
 
 Analytics控制面板提供四個視覺效果，讓您能夠深入分析維度項目和量度。 變更圖磚[!UICONTROL 屬性]的[!UICONTROL 圖表類型]，以變更為不同的視覺效果。 只要選取正確的圖磚，然後變更圖表類型即可。
 

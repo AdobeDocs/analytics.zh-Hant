@@ -3,10 +3,10 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '2899'
-ht-degree: 100%
+source-git-commit: fca73532a83756062583d750b1727b5f2558718f
+workflow-type: tm+mt
+source-wordcount: '2918'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 | --- | --- |
+| **2021 年 10 月** |  |
+| 2021 年 10 月 7 日 | 有關行動計分卡[視覺化的新檔案](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#apply-visualizations) |
 | **2021 年 8 月** |  |
 | 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html) |
 | 2021 年 8 月 18 日 | 有關 [A4T 和虛擬報表套裝](/help/components/vrs/vrs-a4t.md)的新主題 |
