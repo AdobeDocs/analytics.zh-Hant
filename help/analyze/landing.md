@@ -3,9 +3,9 @@ description: 說明此登陸頁面如何在工作區傘狀結構下的單一介�
 title: Adobe Analytics 登陸頁面
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+source-git-commit: 99e8c0ca05a319a5dd196293a6538b7cba4a5896
 workflow-type: tm+mt
-source-wordcount: '3235'
+source-wordcount: '3236'
 ht-degree: 92%
 
 ---
@@ -162,7 +162,7 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
 
 1. 將所有需要的欄位新增至強制回應視窗並儲存。
 
-   該報表會新增至「公司報表」清單，供您公司中的人員使用。
+   該報表會新增至「公司報表」清單，供登入公司的人員使用。
 
 更多學習選項：
 
