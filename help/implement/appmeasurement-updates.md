@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 6624105e45f02a803fd39fcbd63d5560c9a12968
-workflow-type: ht
-source-wordcount: '2201'
-ht-degree: 100%
+source-git-commit: 7f27e92b1fc378516423bc971b05e34880897ec9
+workflow-type: tm+mt
+source-wordcount: '2218'
+ht-degree: 99%
 
 ---
 
@@ -17,6 +17,12 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代碼管理器](/help/admin/admin/code-manager-admin.md)中下載最新版的 AppMeasurement。
+
+## 2.22.3 版
+
+發行日期: **2021 年 10 月 11 日**
+
+* 更新參考說明檔案指向目前說明位置的檔案。
 
 ## 2.22.2 版
 
