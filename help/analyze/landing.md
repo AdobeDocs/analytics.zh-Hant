@@ -3,10 +3,10 @@ description: 說明此登陸頁面如何在工作區傘狀結構下的單一介�
 title: Adobe Analytics 登陸頁面
 role: User, Admin
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
-source-wordcount: '2982'
-ht-degree: 100%
+source-git-commit: 59b4099efaf477e9cdffeeebc0068b33f9de62c7
+workflow-type: tm+mt
+source-wordcount: '3235'
+ht-degree: 92%
 
 ---
 
@@ -91,6 +91,8 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
 
 如前面所提，此處只提供先前在 Reports &amp; Analytics 中分類的最常用報告。一小部分很少使用或不再相關的報表未移轉過來。如需詳細資訊，請參閱以下的常見問題。
 
+### 功能表和子功能表
+
 以下是選單及其子選單。 如果找不到特定報表，請執行「搜尋頁面」後尋找。
 
 | 功能表項目 | 在此功能表項目下的報表 |
@@ -100,7 +102,34 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
 | **[!UICONTROL 轉換]** | <ul><li>產品 > 產品 (哪些產品可驅動我的關鍵量度？)</li><li>產品 > 產品績效 (哪些產品績效最好？)</li><li>產品 ＞ 類別 (哪些是我的最佳績效產品類別？)</li><li>購物車 ＞ 購物車 (有多少用戶會將產品加入購物車？)</li><li>購物車 > 購物車檢視 (我的訪客會檢視幾次他們的購物車？)</li><li>購物車 > 購物車產品加入 (用戶會多常將產品加入購物車？)</li><li>購物車 > 購物車產品移除 (用戶會多常從購物車移除產品？)</li><li>購買 > 收入 (我的收入表現如何？)</li><li>購買 > 訂單 (我的訂單表現如何？)</li><li>購買 > 單位 (我售出多少單位？)</li><li>[Magento：行銷和商務](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#commerce)</li></ul> |
 | **[!UICONTROL 對象]** | <ul><li>人數量度 (有多少人正與我的品牌互動？)</li><li>訪客資料 > 地點概覽 (哪些地點會促使用戶的最多使用量)</li><li>訪客資料 > 地理區段 > 地理國家、地理美國、地理區域、地理城市、地理美國 DMA (我的訪客來自哪些地理位置？)</li><li>訪客資料 > 語言 (我的用戶偏好哪種語言？)</li><li>訪客資料 > 時區 (造訪我網站的用戶來自哪些時區？)</li><li>訪客資料 > 網域 (我的訪客使用哪些 ISP 來存取我的網站？)</li><li>訪客資料 > 頂層網域 (哪些網域在驅動流量存取我的網站？)</li><li>訪客資料 > 技術 > 技術概覽 (人們使用哪些技術來存取我的網站？)</li><li>訪客資料 > 技術 > 瀏覽器、瀏覽器類型、瀏覽器寬度、瀏覽器高度 (人們使用哪家公司的瀏覽器、哪個瀏覽器版本、哪個瀏覽器寬度和高度來存取我的網站？)</li><li>訪客資料 > 技術 ＞ 作業系統、作業系統類型 (我的訪客使用哪個作業系統和哪個作業系統版本？)</li><li>訪客資料 > 技術 > 行動電信業者 (我的訪客使用哪些行動電信業者來存取我的網站？)</li><li>訪客保留率 > 回訪頻率 (我的用戶在最近造訪和上次造訪之間相隔多久時間？)</li><li>訪客保留率 > 回訪造訪 (我的網站有多少回訪用戶？)</li><li>訪客保留率 > 造訪次數 (哪個造訪次數貯體可驅動我的大部分關鍵量度？)</li><li>訪客保留率 > 銷售週期 > 客戶忠誠度 (我的用戶屬於哪種忠誠度等級？)</li><li>訪客保留率 > 銷售週期 > 第一次購買以前的天數 (我的用戶在首次造訪和首次購買之間相隔多少天？)</li><li>訪客保留率 > 銷售週期 > 自上次購買以來的天數 (我的用戶在最近造訪和上次購買之間相隔多少天？))</li><li>訪客保留率 > 行動 > 裝置和裝置類型 (我的訪客使用哪些裝置和裝置類型？)</li><li>訪客保留率 > 行動 > 製造商 (我的訪客使用哪些行動裝置廠商？)</li><li>訪客保留率 > 行動 > 螢幕尺寸、螢幕高度、螢幕寬度 (我的訪客使用哪種行動螢幕尺寸/高度/寬度？)</li><li>訪客保留率 > 行動 > [行動應用程式使用情形](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>訪客保留率 > 行動 > [行動應用程式旅程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>訪客保留率 > 行動 > [行動應用程式量度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>訪客保留率 > 行動 > [行動應用程式傳送訊息](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>訪客保留率 > 行動 > [行動應用程式效能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>訪客保留率 > 行動 > [行動應用程式保留率](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li></ul> |
 | **[!UICONTROL 贏取]** | <ul><li>行銷管道 > 首次接觸管道、首次接觸管道詳細資料 (首次接觸管道，以及哪個特定的首次接觸管道表現最好？)</li><li>行銷管道 > 首次的上次接觸管道、首次的上次接觸管道詳細資料 (哪個上次接觸管道，以及哪個特定的上次接觸管道表現最好？)</li><li>行銷活動 > 行銷活動 (哪些行銷活動在驅動我的關鍵量度？)</li><li>行銷活動 > 行銷活動績效 (哪些行銷活動帶來最多收入？)</li><li>行銷活動 > 追蹤程式碼 (哪些行銷活動追蹤程式碼表現最好？)</li><li>[網頁收購](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#web)</li><li>[行動收購](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics：付費搜尋](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#advertising)</li><li>搜尋關鍵字 - 全部、付費、免費 (哪個搜尋關鍵字和付費/免費搜尋關鍵字可讓我的關鍵量度效果最好？)</li><li>搜尋引擎 - 全部、付費、免費 (哪個搜尋引擎和付費/免費搜尋引擎可讓我的關鍵量度效果最好？)</li><li>全部搜尋頁面排名 (我的用戶從哪個搜尋頁面造訪我的網站？)</li><li>反向連結網域 (哪些網域會增進我的網站流量？)</li><li>原始反向連結網域 (用戶造訪我的網站前會去的第一個網域是哪裡？)</li><li>反向連結 (用戶從哪些網址點進我的網站？)</li><li>反向連結類型 (我的參照 URL 屬於哪個類別？)</li></ul> |
-| **[!UICONTROL 公司報表]** | 您的公司建立供您使用的報表。 |
+| **[!UICONTROL 公司報表]** | 您的公司建立供您使用的報表。請參閱下方的「建立公司報表」。 |
+
+### 範本的位置（現在稱為報表）
+
+| 報表（範本）名稱 | 報表位置 |
+| --- | --- |
+| 培訓教學課程 | 最受歡迎>培訓教學課程 |
+| 網路內容使用量 | 參與>網路內容耗用量 |
+| 媒體內容耗用量 | 參與>媒體內容耗用量 |
+| 跨裝置分析 | 參與>跨裝置分析 |
+| Web保留 | 參與> Web保留 |
+| 媒體音訊消耗 | 參與>媒體音訊消耗 |
+| 媒體造訪間隔、頻率、忠誠度 | 參與>媒體造訪間隔、頻率、忠誠度 |
+| ITP 影響 | 參與> ITP影響 |
+| 產品效能 | 轉換>產品>產品效能 |
+| Magento:行銷與商務 | 轉換>Magento:行銷與商務 |
+| 人員量度 | 受眾>人員量度 |
+| 位置概述 | 讀者>訪客資料>位置概述 |
+| 技術概述 | 讀者>訪客資料>技術>技術概觀 |
+| 行動應用程式使用情形 | 對象>行動>行動應用程式使用量 |
+| 行動應用程式歷程 | 受眾>行動>行動應用程式歷程 |
+| 行動應用程式量度 | 對象>行動>行動應用程式傳訊 |
+| 行動應用程式效能 | 受眾>行動>行動應用程式效能 |
+| 行動應用程式保留率 | 受眾>行動>行動應用程式保留率 |
+| 促銷活動績效 | 贏取>促銷活動>促銷活動績效 |
+| 行動贏取 | 贏取>行動贏取 |
+| 網站贏取 | 贏取>網路贏取 |
+| Advertising Analytics:付費搜尋 | 贏取> Advertising Analytics:付費搜尋 |
 
 ### 使用「報表」標記。
 
@@ -119,6 +148,21 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
    * 您可以將一個或多個區段拖到上方的區段放置區。例如，拖動[!UICONTROL 行動客戶]區段，然後查看最後會如何變化。
    * 您可以前往右上方的行事暦並變更日期範圍。
    * 您可以新增維度劃分、在其他量度中拖動，並且通常可以您希望的方式自訂報表。
+
+### 建立（自訂）公司報表
+
+自訂報表稱為公司報表，可在公司報表功能表中找到（請參閱下方）。 此處會列出先前建立的任何項目和任何新項目。
+
+若要建立新公司報表，
+
+1. 將工作區建置到您想要的狀態。
+1. 開啟[!UICONTROL Project]菜單，然後按一下&#x200B;**[!UICONTROL 另存為公司報告……]**。
+
+   ![公司報表](assets/company-report.png)
+
+1. 將所有需要的欄位新增至強制回應視窗並儲存。
+
+   該報表會新增至「公司報表」清單，供您公司中的人員使用。
 
 更多學習選項：
 
