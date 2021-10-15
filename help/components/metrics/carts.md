@@ -3,15 +3,15 @@ title: 購物車
 description: 訪客在購物車中新增其第一項產品的點擊次數。
 exl-id: 890bbaba-0140-4995-bbd2-c69aedc801e5
 source-git-commit: e804907aa6655b4cfac146a34fb6a3774631818e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 購物車
 
-「購物車」量度會顯示訪客將其第一項產品新增至購物車的點擊次數。
+「購物車」量度會顯示訪客在購物車中新增他們的第一個產品時的點擊次數。
 
 ## 此量度的計算方式
 
