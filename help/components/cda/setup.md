@@ -3,9 +3,9 @@ title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)及所需的彙整方法 (分別是[依欄位彙整](field-based-stitching.md)或[裝置圖表](device-graph.md))。
+>執行這些步驟之前，必須先滿足所有必要條件。如果未滿足所有必要條件，則無法使用該功能或無法順利運作。如需必要條件和限制，請參閱[概觀頁面](overview.md)及所需的拚接方法 (分別是[依欄位拚接](field-based-stitching.md)或[裝置圖表](device-graph.md))。
 
 ## 向客戶服務提交票證，以便在跨裝置報表套裝上佈建 CDA
 
@@ -23,8 +23,8 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 * 您的 Adobe Experience Cloud 組織 ID (以 @AdobeOrg 結尾的英數字串)
 * 您要透過 CDA 啟用跨裝置報表套裝的報表套裝 ID
-* 您要使用哪種 CDA 方法 (依欄位彙整、Adobe 專用圖表或 Adobe 合用圖表)
-* 如果使用依欄位彙整，則需使用包含使用者 ID 的 prop/eVar
+* 您要使用哪種 CDA 方法 (依欄位拚接、Adobe 專用圖表或 Adobe 合用圖表)
+* 如果使用依欄位拚接，則需使用包含使用者 ID 的 prop/eVar
 * 您的重播頻率和回顧時間長度偏好設定。包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。
 預設值為每週重播一次且回顧期間為 7 天。 在此情況下，上一週的資料可能會有變動 (因為該資料正在逐步拼接和更新)。
 
@@ -52,6 +52,6 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 * 虛擬報表套裝名稱旁會出現新的跨裝置圖示。此圖示是跨裝置虛擬報表套裝的專屬圖示。
 * 可以使用一個標記為[已識別的狀態](../dimensions/identified-state.md)的新維度。
-* 提供標示為[People](../metrics/people.md)、[獨特裝置](../metrics/unique-devices.md)、[已識別人員](../metrics/identified-people.md)、[未識別人員](../metrics/unidentified-people.md)和[具有Experience CloudID](../metrics/people-with-exp-cloud-id.md)的人員的新量度。
-* [「不重複訪客」](../metrics/unique-visitors.md)量度無法使用，因為它已被「人物」和「不重複裝置」取代。
+* 可使用標記為「[使用者](../metrics/people.md)」、「[不重複裝置](../metrics/unique-devices.md)」、「[已識別的使用者](../metrics/identified-people.md)」、「[未識別的使用者](../metrics/unidentified-people.md)」和「[具有 Experience Cloud ID 的使用者](../metrics/people-with-exp-cloud-id.md)」的新量度。
+* [「不重複訪客」](../metrics/unique-visitors.md)量度無法使用，因為它已被「使用者」和「不重複裝置」取代。
 * 建立區段時，「訪客」區段容器會被「人員」容器取代。
