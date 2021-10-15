@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1082'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從 Workspace 左上角圖示、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)，或透過工作流程中的按一下右鍵功能表來存取視覺效果。
+您可以從 Workspace 左上角圖示、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按一下右鍵功能表來存取視覺效果。
 
 ![](assets/viz-rail.png)
 
@@ -39,7 +39,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
 | [摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字來顯示選取的儲存格。 |
 | [摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md) | 以 1 個大數字/百分比來顯示選取儲存格之間的變化。 |
-| [文字](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將用戶定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
+| [Text](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將用戶定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個區段的量度重疊。 |
 
@@ -88,8 +88,8 @@ Analysis Workspace 中有以下視覺效果類型：
 | --- | --- |
 | 插入複製的面板/視覺效果 | 允許您將複製的面板或視覺效果貼至 (「插入」) 專案內另一個位置或完全不同的專案中。 |
 | 複製視覺效果 | 允許您按一下右鍵並複製視覺效果，這樣您便可插入專案內另一個位置或完全不同的專案中。 |
-| [將項目下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-items) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
-| [將資料下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?#download-data) | 將視覺效果資料來源下載為 CSV 檔。 |
+| [將項目下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant?#download-items) | 將所選維度下載為 CSV 檔，最多可下載 50,000 個維度項目。 |
+| [將資料下載為 CSV 檔](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant?#download-data) | 將視覺效果資料來源下載為 CSV 檔。 |
 | 複製視覺效果 | 完全複製目前的視覺效果，接著可供進行修改。 |
 | 編輯說明 | 新增 (或編輯) 視覺效果的文字說明。 |
 | 取得視覺效果連結 | 允許您將他人導向專案中的特定視覺效果。收件者按一下連結後必須先登入系統，然後才會被導向所連結的正確視覺效果。 |
@@ -101,7 +101,7 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ![](assets/quick-viz.png)
 
-## 變更視覺效果上的縮放軸
+## 變更視覺效果的比例軸
 
 以下是影片概觀：
 
