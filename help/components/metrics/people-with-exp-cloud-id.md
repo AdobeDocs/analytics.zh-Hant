@@ -1,21 +1,21 @@
 ---
-title: 擁有 Experience Cloud ID 的使用者
-description: 跨裝置分析中擁有Experience CloudID的人數。
+title: 具有 Experience Cloud ID 的使用者
+description: 跨裝置分析中具有 Experience Cloud ID 的使用者數量。
 source-git-commit: eaf0c3b751a5fbdc70ad6bef501dbf9e8400339c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '130'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
-# 擁有 Experience Cloud ID 的使用者
+# 具有 Experience Cloud ID 的使用者
 
-「具有Experience CloudID的人」是[跨裝置分析](../cda/overview.md)量度，可顯示使用[Experience CloudID服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)Adobe識別的[人員](people.md)數量。
+「具有 Experience Cloud ID 的訪客」指會顯示 Adobe 使用 [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 服務識別的[使用者](people.md)數量的「[跨裝置分析](../cda/overview.md)」量度。
 
 ## 此量度的計算方式
 
-考量到每個[People](people.md)（已識別或未識別），如果點擊包含`mid`查詢字串（根據[`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie），此量度會增加。
+在考慮每個[使用者](people.md) (含已識別或未識別) 的情況下，如果點擊包含`mid`查詢字串 (根據 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie)，則此量度會增加。
 
-您可以建立計算量度`[People with ECID] ÷ [People]`，以使用ID服務取得您網站的訪客百分比。
+您可以使用 ID 服務建立計算量度 `[People with ECID] ÷ [People]`，以獲取您網站的訪客百分比。
 
-如需有關Experience CloudID重要性及除錯設定的詳細資訊，請參閱等同的非CDA量度[具有Experience CloudID](visitors-with-ecid.md)的訪客。
+如需有關 Experience Cloud ID 的重要性以及對設定進行偵錯的更多資訊，請查看等同於非 CDA 量度的「[具有 Experience Cloud ID 的訪客](visitors-with-ecid.md)」。
