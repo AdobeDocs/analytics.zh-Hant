@@ -5,9 +5,9 @@ feature: Metrics
 uuid: 56f723f8-94e8-478f-8ea3-16dad21dfa1f
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
 source-git-commit: 7036c6d3bc15c2cb7bd62af79229052cd772f8f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '682'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 93%
 為什麼 Adobe 將項目從「[!UICONTROL 低流量]」條列項目移動到其自己的條列項目？舉例來說，這項移動可能用於識別當月份稍晚新增的熱門新頁面或新項目（超過唯一值後），並且獲得了大量點擊/檢視次數。這項移動的用意並非捕捉每天或每月獲得一定點擊/檢視次數的所有內容。
 
 >[!NOTE]
->頁面查閱計數不僅包含[!UICONTROL pagename]/[!UICONTROL page_url]的值。 頁面查閱表格包含數個欄/欄位，例如[!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url]以及點按內容（舊的Clickmap資料）。
+>頁面查找計數不只包括 [!UICONTROL pagename]/[!UICONTROL page_url] 的值。頁面查找表包括好幾個列/欄位，例如 [!UICONTROL pagename]、[!UICONTROL first_hit_pagename]/[!UICONTROL page_url]、[!UICONTROL visit_pagename]/[!UICONTROL page_url] 以及點擊內容 (舊的 Clickmap 資料)。
 
 ## 變更不重複限制臨界值
 
