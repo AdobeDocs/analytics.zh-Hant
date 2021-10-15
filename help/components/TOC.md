@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
 source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '658'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -118,8 +118,8 @@ ht-degree: 99%
    + [自訂事件](metrics/custom-events.md)
    + [登入點](metrics/entries.md)
    + [退出點](metrics/exits.md)
-   + [已識別人員](metrics/identified-people.md)
-   + [例項](metrics/instances.md)
+   + [已識別的使用者](metrics/identified-people.md)
+   + [實例](metrics/instances.md)
    + [行動瀏覽數](metrics/mobile-views.md)
    + [新參與](metrics/new-engagements.md)
    + [發生次數](metrics/occurrences.md)
@@ -128,8 +128,8 @@ ht-degree: 99%
    + [頁面事件](metrics/page-events.md)
    + [頁面瀏覽數](metrics/page-views.md)
    + [找不到頁面](metrics/pages-not-found.md)
-   + [人物 與Experience CloudID](metrics/people-with-exp-cloud-id.md)
-   + [人物](metrics/people.md)
+   + [使用者 具有 Experience Cloud ID](metrics/people-with-exp-cloud-id.md)
+   + [使用者](metrics/people.md)
    + [產品瀏覽數](metrics/product-views.md)
    + [重新載入](metrics/reloads.md)
    + [收入](metrics/revenue.md)
@@ -140,7 +140,7 @@ ht-degree: 99%
    + [每位訪客逗留時間](metrics/time-spent-per-visitor.md)
    + [逗留時間總覽](metrics/time-spent.md)
    + [總逗留秒數](metrics/total-seconds-spent.md)
-   + [無法識別的使用者](metrics/unidentified-people.md)
+   + [未識別的使用者](metrics/unidentified-people.md)
    + [不重複裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [單位數](metrics/units.md)
@@ -212,7 +212,7 @@ ht-degree: 99%
       + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
 + 跨裝置分析 {#cda}
    + [跨裝置分析總覽](cda/overview.md)
-   + [欄位式銜接](cda/field-based-stitching.md)
+   + [欄位式拚接](cda/field-based-stitching.md)
    + [裝置圖表](cda/device-graph.md)
    + [設定跨裝置分析](cda/setup.md)
    + [重播的運作方式](cda/replay.md)
