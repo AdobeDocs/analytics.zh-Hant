@@ -5,15 +5,15 @@ feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 了解 Adobe Analytics 中的「[!UICONTROL 同類群組分析]」
 
-*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://en.wikipedia.org/wiki/Cohort_analysis)。)
+*`cohort`* 是指一段指定時間內，共享相同特徵的一組人。[!UICONTROL 例如當您想知道一個同類群組與某個品牌的互動關係時，就很適合使用同類群組分析。]您可輕易看出趨勢中的變化，然後據以做出回應。(網路上有[!UICONTROL 同類群組分析]的解釋可供參考，例如 [Cohort Analysis 101](https://zh.wikipedia.org/wiki/Cohort_analysis)。)
 
 建立同類群組報表後，您可以組織其元件 (特定的維度、量度和區段)，接著將同類群組報表與他人共用。請參閱[監管與共用](/help/analyze/analysis-workspace/curate-share/curate.md)。
 
@@ -46,7 +46,7 @@ ht-degree: 97%
 
 ![](assets/retention-report.png)
 
-以下是計算滾動保留率的影片：
+以下是有關計算滾動保留率的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25962/?quality=12)
 
@@ -56,7 +56,7 @@ ht-degree: 97%
 
 ![](assets/churn-report.png)
 
-以下是流失分析的影片：
+以下是有關流失分析的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25966/?quality=12)
 
