@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '636'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -90,8 +90,8 @@ Analysis Workspace 中的地圖視覺效果
 | 叢集半徑 | 將指定像素數內的資料點分組在一起。預設為 50。 |
 | 自訂最大值 | 可用於變更地圖最大值的臨界值。調整此數值可以調整泡泡圖/熱度圖的值 (顏色和大小) 相對於自訂最大值的比例。 |
 
-## 建立時間分段熱度圖
+## 建立時間分隔的熱度圖
 
-以下是主題的影片：
+以下是有關該主題的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/26991/?quality=12)
