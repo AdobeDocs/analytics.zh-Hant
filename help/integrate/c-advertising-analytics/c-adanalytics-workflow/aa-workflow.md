@@ -3,15 +3,15 @@ description: Advertising Analytics 工作流程概覽
 title: 工作流程概觀
 exl-id: 00993c19-1e74-4a97-b16a-967feab13b32
 source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # 工作流程概觀
 
-以下是設定Advertising Analytics的影片概觀：
+以下是設定 Advertising Analytics 的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23119/?quality=12)
 
