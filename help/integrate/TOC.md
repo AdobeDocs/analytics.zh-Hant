@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 整合指南
 breadcrumb-title: 整合指南
 user-guide-description: 設定與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 和 Target) 的整合作業。
-source-git-commit: 286e42feca0d87ef08b9c1d6be6a6987db9de4d0
-workflow-type: ht
-source-wordcount: '159'
-ht-degree: 100%
+source-git-commit: caecae51d7921ecec63d3922bc5902b94379a7fb
+workflow-type: tm+mt
+source-wordcount: '170'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,7 @@ ht-degree: 100%
       + [管理 Advertising 帳戶](c-advertising-analytics/c-adanalytics-workflow/aa-manage-ad-accounts.md)
       + [Advertising Analytics 疑難排解](c-advertising-analytics/c-adanalytics-workflow/aa-troubleshooting.md)
    + [常見問答](c-advertising-analytics/aa-faq.md)
++ [Analytics for Advertising Cloud](https://experienceleague.adobe.com/docs/advertising-cloud/integrations/analytics/overview.html)
 + [Analytics for Target - A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)
 + [Analytics 中的 Adobe Campaign 報表](adobe-campaign.md)
 + [整合 Analytics 資料與 Campaign Classic](analytics-to-campaign-classic.md)
