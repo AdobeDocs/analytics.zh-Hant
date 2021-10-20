@@ -2,13 +2,13 @@
 description: 指定接觸點來建立多維度流失序列。
 title: 設定流失視覺效果
 uuid: fc117745-baf3-46fb-873d-9307092cc337
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '689'
-ht-degree: 100%
+source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
+workflow-type: tm+mt
+source-wordcount: '700'
+ht-degree: 92%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終路徑 </p> <p>(預設) </p> </td> 
-   <td colname="col2"> <p>列入計數的訪客「最終」會著陸至該工作階段中路徑的下一個頁面，但不一定會至下一次點擊。 </p> </td> 
+   <td colname="col2"> <p>訪客（或瀏覽）最終登陸路徑中的下一個接觸點時，即會被計算在內。 可在接觸點之間繞行。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次點擊 </p> </td> 
-   <td colname="col2"> <p>列入計數的訪客會著陸至該下一次點擊路徑的下個頁面。 </p> </td> 
+   <td colname="col2"> <p>訪客（或瀏覽）會在立即登陸路徑中的下一個接觸點時被計算。 下次點擊包含任何點擊類型（頁面檢視或連結）。 接觸點之間不允許繞行。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
