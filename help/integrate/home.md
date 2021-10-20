@@ -2,10 +2,10 @@
 title: Analytics 整合
 description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 877bb63cd96cd2d91094f7c2b39b3046c2255b81
+source-git-commit: 4324a4911337db6299563f31cc50dc4da220ee45
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 89%
+source-wordcount: '188'
+ht-degree: 84%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 89%
 
 ![橫幅](../../assets/doc_banner_integrate.png)
 
-本指南內容著重於整合多個 Experience Cloud 解決方案。若想了解 Analytics Data Connector，請參閱匯入使用者指南中的 [Data Connector](/help/import/data-connectors/getting-started-data-connectors.md) 頁面。
+本指南著重於整合多個Adobe Experience Cloud解決方案。 若想了解 Analytics Data Connector，請參閱匯入使用者指南中的 [Data Connector](/help/import/data-connectors/getting-started-data-connectors.md) 頁面。
 
 完成與 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 或 Target) 的整合設定。其功能包括：
 
