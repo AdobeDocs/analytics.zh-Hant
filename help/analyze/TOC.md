@@ -7,7 +7,7 @@ user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analy
 source-git-commit: fca73532a83756062583d750b1727b5f2558718f
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
       + 區段 {#segments}
          + [建立區段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速區段](analysis-workspace/components/segments/quick-segments.md)
-         + [臨機區段](analysis-workspace/components/segments/ad-hoc-segments.md)
+         + [臨時區段](analysis-workspace/components/segments/ad-hoc-segments.md)
       + 日曆和日期範圍 {#calendar-date-ranges}
          + [日曆和日期範圍總覽](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
@@ -78,7 +78,7 @@ ht-degree: 97%
       + [線圖](analysis-workspace/visualizations/line.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
-      + [文字](analysis-workspace/visualizations/text.md)
+      + [Text](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
    + 面板 {#panels}
       + [面板總覽](analysis-workspace/c-panels/panels.md)
@@ -87,7 +87,7 @@ ht-degree: 97%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [媒體播放逗留時間面板](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + [「媒體播放時間」面板](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
          + [區段比較總覽](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
