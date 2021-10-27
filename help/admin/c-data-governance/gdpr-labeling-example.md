@@ -3,10 +3,10 @@ description: 顯示如何為點擊資料、存取請求、刪除請求的資料�
 title: 加上標籤範例
 uuid: a9a5b937-dbde-4f0f-a171-005ef4c79df9
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: fe277bea867dc67e8693673a547adecccf169332
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+source-git-commit: 91864a15bda5022dbbd9b9b312bc6c042078b6a5
+workflow-type: tm+mt
+source-wordcount: '814'
+ht-degree: 81%
 
 ---
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **Visitor ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 點擊資料 | Mary | 77 | A | M | X |
-|  | Mary | 88 | B | N | Y |
-|  | Mary | 99 | C | O | Z |
+|  | 瑪麗 | 88 | B | N | Y |
+|  | 瑪麗 | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | John | 88 | E | N | U |
-|  | John | 44 | F | Q | V |
-|  | John | 55 | G | R | X |
+|  | 約翰 | 88 | E | N | U |
+|  | 約翰 | 44 | F | Q | V |
+|  | 約翰 | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 範例存取請求
@@ -75,7 +75,7 @@ ht-degree: 100%
     <td>user=Mary</td>
     <td>false</td>
     <td>人員</td>
-    <td>Mary</td>
+    <td>瑪麗</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -85,7 +85,7 @@ ht-degree: 100%
     <td rowspan="2">user=Mary</td>
     <td rowspan="2">true</td>
     <td>人員</td>
-    <td>Mary</td>
+    <td>瑪麗</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -103,7 +103,7 @@ ht-degree: 100%
     <td rowspan="2">user=Mary<br>AAID=66</td>
     <td rowspan="2">true</td>
     <td>人員</td>
-    <td>Mary</td>
+    <td>瑪麗</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -157,56 +157,56 @@ ht-degree: 100%
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>瑪麗</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>瑪麗</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>Mary</td>
+    <td>瑪麗</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>42</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>愛麗絲</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -251,35 +251,35 @@ ht-degree: 100%
     <td>Z</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>愛麗絲</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -324,35 +324,35 @@ ht-degree: 100%
     <td>Privacy-4395</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>09</td>
     <td>D</td>
     <td>Privacy-8454</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>16</td>
     <td>E</td>
     <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>44</td>
     <td>F</td>
     <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>John</td>
+    <td>約翰</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>Alice</td>
+    <td>愛麗絲</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -362,8 +362,9 @@ ht-degree: 100%
 
 請注意下列事項：
 
-* 包含 `user=Mary` 和 `DEL-DEVICE` 或 `DEL-PERSON` 標籤的資料列儲存格會受到影響，如果包含 `user=Mary` 的資料列上，包含任何訪客 ID 的資料列有加上 `DEL-DEVICE` 標籤的儲存格，也會受到影響。
-* expandIDs 設定不會展開至呼叫以納入當 `user=Mary` 時 MyEvar3 中存在的值 (MyEvar3 中有 ID-DEVICE 標籤)。ExpandIDs 只會展開並在 `user=Mary` 的列上包含訪客 ID (此範例中為 AAID，也包括 ECID)。
-* 第四和第五列的 `MyEvar2` 會更新，因為這些兩列包含的訪客 ID 值與第一和第二列的值相同因此，ID 擴增會將其納入裝置層級的刪除作業。
-* 第二列和第五列的 `MyEvar2` 值符合刪除前和刪除後的值。 不過，在刪除後，這些不再符合最後一列的 N 值，因為該列並未隨著刪除請求而更新。
+* 包含 `user=Mary` 和 `DEL-PERSON` 標籤會受到影響。
+* 由於ID擴增，包含 `AAID=77`, `AAID=88` 或 `AAID=99` (即包含 `user=Mary`)和 `DEL-DEVICE` 標籤會受到影響。 這包括含有 `DEL-DEVICE` 在 `user=Mary`. 這會導致第4和第5行（以及第1-3行）中的儲存格，使用 `DEL-DEVICE` 標籤（AAID、MyEvar2和MyEvar3）進行模糊化。
+* expandIDs設定不會展開至呼叫以包含MyEvar3中存在的值(`X`, `Y` 和 `Z`)，其具有ID-DEVICE標籤，時機 `user=Mary`. ExpandIDs 只會展開並在 `user=Mary` 的列上包含訪客 ID (此範例中為 AAID，也包括 ECID)。因此，最後兩列包含的MyEvar3值為 `X` 和 `Z` 不會受到影響。
+* `MyEvar2` 第四和第五行中的會更新，因為這些兩行包含相同的訪客ID值(`77` 和 `88`)，與第一和第二列的相同。 因此，ID 擴增會將其納入裝置層級的刪除作業。
+* 第二列和第五列的 `MyEvar2` 值符合刪除前和刪除後的值。不過，在刪除後，它們不再符合值 `N` 這會發生在最後一列，因為該列並未隨著刪除請求而更新。
 * `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五個資料列的 `AAID` 均相符。
