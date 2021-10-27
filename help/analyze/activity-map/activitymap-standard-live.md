@@ -5,10 +5,10 @@ uuid: 8b97b56e-ff20-4a8b-8c37-7f7b45c9a86b
 feature: Activity Map
 role: User, Admin
 exl-id: 2364e7b0-443a-49a8-b084-403501f52360
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '391'
+ht-degree: 97%
 
 ---
 
@@ -27,7 +27,7 @@ Activity Map 提供兩個基本模式，用以為頁面活動提供補充報告�
 
 ![](assets/standard_mode.png)
 
-在此模式中，系統會線性分配未啟用「參與率」的商務量度。舉例來說，假設某位使用者在點按首頁的「iPod mini」連結後，又再繼續瀏覽了 3 個頁面。在第 4 個頁面時，他購買了一台 200 美元的 iPod mini。「iPod mini」連結會收到 200 美元的參與率收入和 50 美元 (200/4) 的收入 (線性分配收入)。
+在此模式中，系統會線性分配未啟用「參與率」的商務量度。舉例來說，假設某位使用者在點按首頁的「iPod mini」連結後，又再繼續瀏覽了 3 個頁面。在第4頁上，使用者以200美元購買IPod mini。 「iPod mini」連結會收到 200 美元的參與率收入和 50 美元 (200/4) 的收入 (線性分配收入)。
 
 問：假如不同地區的頁面中有相同連結名稱的連結呢？又既然這兩個連結分屬不同地區，但頁面中的連結名稱卻相同，那它們會分別收到評價嗎？
 
