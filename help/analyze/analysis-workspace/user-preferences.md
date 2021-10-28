@@ -1,13 +1,13 @@
 ---
 title: 如何設定 Analysis Workspace 內的用戶偏好設定
-description: 您可以設定用戶的一般和專案偏好設定。
-feature: Workspace 基本知識
+description: 您可以為使用者設定一般和專案偏好設定，以及深色主題偏好設定。
+feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '223'
-ht-degree: 100%
+source-git-commit: 50aa39ec6566e615b2a7c30bae0ffe7940120e9a
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 78%
 
 ---
 
@@ -41,3 +41,13 @@ ht-degree: 100%
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符號 字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
+
+## [!UICONTROL 深色主題]
+
+如果您偏好使用Adobe Analytics使用者介面的深色背景，可以切換為 [!UICONTROL 深色主題].
+
+1. 按一下右上角的Experience Cloud使用者圖示。
+
+   ![暗主題](assets/dark-theme.png)
+
+1. 移動 **[!UICONTROL 深色主題]** 切換至右側。
