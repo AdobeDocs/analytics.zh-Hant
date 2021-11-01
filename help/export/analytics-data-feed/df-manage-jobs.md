@@ -2,11 +2,10 @@
 title: 管理資料摘要作業
 description: 瞭解如何管理資料摘要中的個別作業。
 exl-id: b17e333e-290f-42e4-b304-1e34282237a7
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '495'
-ht-degree: 100%
+source-git-commit: 963e66b05cc401956211c28b9ffeb9aad6bed604
+workflow-type: tm+mt
+source-wordcount: '496'
+ht-degree: 97%
 
 ---
 
@@ -61,7 +60,7 @@ ht-degree: 100%
    * 等待資料中: 作業正在運作，且正在收集報表回溯期的資料。
    * 處理中: 作業正在建立資料檔案及準備進行傳送。
    * 已完成: 作業完成，且無產生問題。
-   * 失敗: 作業未完成。請參閱[作業的疑難排解](jobs-troubleshooting.md)，以便判斷失敗的原因。
+   * 失敗: 作業未完成。請參閱 [資料摘要的疑難排解](troubleshooting.md) 以幫助確定故障原因。
    * 等待匯出中: 報表回溯期的資料尚未完全處理。
    * 無資料: 報表套裝中沒有所求報表回溯期的資料。
 * **完成時間**: 作業完成的時間。日期和時間會以報表套裝的時區顯示，並計入 GMT 時差。

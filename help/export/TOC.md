@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
       + [延遲送達點擊](analytics-data-feed/c-df-contents/late-arriving-hits.md)
    + [資料摘要常見問答](analytics-data-feed/df-faq.md)
    + [資料摘要最佳做法](analytics-data-feed/data-feeds-best-practices.md)
-   + [工作疑難排解](analytics-data-feed/jobs-troubleshooting.md)
+   + [資料摘要的疑難排解](analytics-data-feed/troubleshooting.md)
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)

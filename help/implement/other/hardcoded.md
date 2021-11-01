@@ -2,10 +2,10 @@
 title: 使用硬式編碼影像要求進行實施
 description: 使用 HTML 影像標籤實施 Adobe Analytics (硬式編碼影像要求)
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
-source-git-commit: de0424db27f9d1a3ce07632df8fd5e76b4d7bb4c
-workflow-type: ht
-source-wordcount: '672'
-ht-degree: 100%
+source-git-commit: a97043caa9b6d2dc24f52c599fd0caa9241af62f
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe 提供的 AppMeasurement 程式庫會編譯出現在頁面上的變數，�
 以下是使用 HTML 的硬式編碼影像要求範例：
 
 ```html
-<img src="https://example.data.adobedc.net/b/ss/examplersid/1?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
+<img src="https://example.data.adobedc.net/b/ss/examplersid/1/s234234238479?AQB=1&g=http%3A%2F%2Fexample.com&pageName=Example%20hardcoded%20hit&v1=Example%20value&AQE=1"/>
 ```
 
 * `https://` 指定通訊協定。比對影像要求中使用的通訊協定與您網站其他部分使用的通訊協定。
@@ -32,6 +32,7 @@ Adobe 提供的 AppMeasurement 程式庫會編譯出現在頁面上的變數，�
 * `/b/ss/` 包含在所有影像要求中。它屬於 Adobe 資料收集伺服器上所儲存影像的檔案結構的一部分。
 * `examplersid` 是您傳送資料的目的地報表套裝 ID。 如果有多個報表套裝，請用逗號且不含空格來區隔 ID (`examplersid1,examplersid2` 等)。
 * `/1/` 是點擊來源。請參閱匯出使用手冊中[資料欄參考](../../export/analytics-data-feed/c-df-contents/datafeeds-reference.md)底下的 `hit_source`。控制用來識別訪客的 Cookie 和其他方法之順序。
+* `/s234234238479` (`"s"` +隨機數字)可防止瀏覽器快取影像要求。
 * 查詢字串分隔字元 (`?`) 後面的所有項目，都是您要納入報表的資料。如需影像要求中可包含參數的完整清單，請參閱[資料彙集查詢參數](../validate/query-parameters.md)。
 
 ## Microsoft Outlook 中的硬式編碼影像要求
