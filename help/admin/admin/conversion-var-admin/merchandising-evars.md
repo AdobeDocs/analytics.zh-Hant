@@ -1,10 +1,11 @@
 ---
 title: 銷售 eVar 和產品尋找方法
 description: 深入了解銷售 eVar 背後的概念，以及這些方法如何處理和分配資料。
-source-git-commit: 0caff2caec9cf840e7a232c22497b61f009d8b36
-workflow-type: ht
-source-wordcount: '5324'
-ht-degree: 100%
+exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
+source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
+workflow-type: tm+mt
+source-wordcount: '5319'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +87,7 @@ ht-degree: 100%
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL 類別]是一項過時的功能，我們不再建議您使用它當做追蹤產品類別績效的可行選項。 其存在目的只是為了說明為什麼在產品變數的大多數實作中，變數值的產品 ID 部分的前面會有一個分號。
+* [!UICONTROL 類別] 不再建議您作為追蹤產品類別效能的可行選項。  其存在目的只是為了說明為什麼在產品變數的大多數實作中，變數值的產品 ID 部分的前面會有一個分號。
 * [!UICONTROL 品質]和[!UICONTROL 收入]在追蹤產品購買時非常實用。
 * [!UICONTROL 事件]可用於記錄不應計入收入的自訂增量或貨幣事件值 (例如運費、折扣等)
 
