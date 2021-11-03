@@ -1,17 +1,20 @@
 ---
 description: 開始使用 Reports & Analytics 前，請先了解這些基本的登入和設定工作，以及如何存取帳戶資訊。
 title: Reports & Analytics 快速入門
-feature: Reports and analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '704'
-ht-degree: 100%
+source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
 # 開始使用 Reports &amp; Analytics
+
+>[!NOTE]
+>本產品經授權在北美和實際銷售產品的其他地區銷售，可能不符合在其他國家或地區銷售的要求。
 
 使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
 
@@ -31,15 +34,10 @@ ht-degree: 100%
 
 登入「Report &amp; Analytics」介面的瀏覽器和系統需求。
 
-* 瀏覽器：
+>[!NOTE]
+>Adobe Analytics 已於 2018 年 11 月 13 日停止支援 Internet Explorer 11。請及早改用 Microsoft Edge 或其他支援的瀏覽器。
 
-   * 建議使用：最新版本的 Firefox、Chrome、Safari 或 Edge。
-   * 最新版本的 Microsoft Internet Explorer 11
-
-      >[!NOTE]
-      >
-      >Adobe Analytics 已於 2018 年 11 月 13 日停止支援 Internet Explorer 11。請及早改用 Microsoft Edge 或其他支援的瀏覽器。
-
+* 慣用瀏覽器：最新版本的Firefox、Chrome、Safari或Edge。
 * 必須啟用 Cookie 和 JavaScript。
 * 1024 x 768 監視器解析度，使用 16 位元色彩深度 (或更高)。
 
