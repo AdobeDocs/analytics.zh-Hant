@@ -2,13 +2,13 @@
 description: 監管可讓您在共用專案前先限制元件。
 keywords: Analysis Workspace 監管
 title: 監管專案
-feature: 監管與共用
+feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '546'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 100%
 
 >[!NOTE]
 > 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 Adobe Experience Cloud Admin Console 來管理。組織為次要的篩選器。
+
+以下是專案組織與共用的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
 ## 套用專案組織
 

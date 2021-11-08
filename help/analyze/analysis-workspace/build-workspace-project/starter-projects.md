@@ -2,13 +2,13 @@
 description: 根據標準或自訂範本建立 Workspace 專案。
 title: 範本
 uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1391'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1399'
+ht-degree: 99%
 
 ---
 
@@ -36,6 +36,10 @@ ht-degree: 100%
    >[!NOTE]
    >
    >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊和設定」]**&#x200B;即可編輯標記和說明)。
+
+以下是關於建立和管理自訂範本的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
 ### 您可以在自訂範本執行的動作
 

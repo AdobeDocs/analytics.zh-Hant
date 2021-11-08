@@ -3,19 +3,23 @@ description: 學習在 Workspace 專案中工作的基礎知識。
 keywords: Analysis Workspace
 title: 專案概觀
 uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: ht
-source-wordcount: '1405'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1414'
+ht-degree: 99%
 
 ---
 
 # 專案概觀
 
 Workspace 專案可讓您合併資料元件、表格和視覺效果，以進行分析並與貴組織的任何人分享。在開始第一個專案之前，請先了解如何存取、瀏覽及管理您的專案。
+
+以下影片說明如何建立Workspace專案：
+
+>[!VIDEO](https://video.tv.adobe.com/v/334076/?quality=12)
 
 ## 專案清單 {#project-list}
 
@@ -36,7 +40,7 @@ Workspace 專案清單頁面內含下列資訊：
 | 類型 | 指示這是 Workspace 專案還是[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant)。 |
 | [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 指示您在專案中的角色 - 所有者、編輯、複製、檢視。 |
 | 標籤 | 已套用到專案中的標籤。 |
-| 上次修改 | 上次修改專案的日期和時間。 |
+| 上次修改日期 | 上次修改專案的日期和時間。 |
 | 我的最愛專案 | 若要將專案標示為我的最愛，請開啟該專案，然後按一下專案名稱旁邊的星號。下次當您開啟 Workspace 時，它就會顯示在這份清單中。 |
 | 經常檢視的專案 | 列出您經常開啟的所有專案，以方便您存取。 |
 
@@ -68,7 +72,7 @@ Workspace 專案清單頁面內含下列資訊：
 |---|---|
 | 專案名稱 | 提供給專案的名稱。按兩下名稱即可進行編輯。 |
 | 建立者 | 專案所有者名稱 |
-| 上次修改 | 上次修改專案的日期。 |
+| 上次修改日期 | 上次修改專案的日期。 |
 | 標籤 | 列出為了方便分類而套用至專案的所有標籤。 |
 | 說明 | 說明可用於釐清專案的用途。按兩下說明即可進行編輯。 |
 | 計算專案中的重複例項 | 指定是否要將重複例項計入報表。例如，此設定 (啟動時) 會將多個連續頁面檢視視為同一個頁面的多次頁面檢視。 若關閉，則會計為單頁檢視 (這只會影響特定量度，例如單次頁面造訪次數)。 **注意**，此設定不適用於「流量」或「流失」視覺效果。 |
@@ -77,7 +81,7 @@ Workspace 專案清單頁面內含下列資訊：
 
 ## 左側欄 {#left-rail}
 
-在專案中，可以從左側欄存取[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)、表格、[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)和[元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hant)。這些都是專案的組成要素。
+在專案中，可以從左側欄存取[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)、表格、[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)和[元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html)。這些都是專案的組成要素。
 
 您也可以從[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)存取視覺效果和面板。
 
@@ -91,7 +95,7 @@ Workspace 專案清單頁面內含下列資訊：
 
 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。作用中面板的周圍有藍色邊框，而且可決定左側欄中有哪些元件可用。
 
-根據您為專案選擇的起點，您一開始可以在畫布中使用[自由格式表格](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hant)或[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)。開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統將會自動為您呈現資料表格。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hant)建立表格的不同選項，或利用我們的[訓練教學課程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant?#training-tutorial)以取得建立您的第一個專案的更多指南。
+根據您為專案選擇的起點，您一開始可以在畫布中使用[自由格式表格](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html?lang=zh-Hant)或[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html)。開始分析的最快速方法是選取一個或多個元件，然後將其拖放到專案畫布上。系統將會自動為您呈現資料表格。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)建立表格的不同選項，或利用我們的[訓練教學課程](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant?#training-tutorial)以取得建立您的第一個專案的更多指南。
 
 ![](assets/canvas.png)
 
@@ -107,9 +111,9 @@ Workspace 專案清單頁面內含下列資訊：
 
 | 動作 | 說明 |
 |---|---|
-| 新增 | 從頭開始建立新專案，或是從[範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)開始新專案。 |
+| 新增 | 從頭開始建立新專案，或是從[範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)開始新專案。 |
 | 標記或核准 | 選擇「標記」或「核准」來組織您的專案，並使其更容易搜尋。 |
-| [共用](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) | 將專案提供給貴組織中的其他 Analysis Workspace 用戶使用。 |
+| [共用](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) | 將專案提供給貴組織中的其他 Analysis Workspace 用戶使用。 |
 | 刪除 | 刪除您的專案。 |
 | 重新命名 | 編輯您的專案名稱。 |
 | 複製 | 建立專案的重複複本。這會建立新專案和專案 ID。將不會複製與原始專案綁定的任何共用或排程。 |

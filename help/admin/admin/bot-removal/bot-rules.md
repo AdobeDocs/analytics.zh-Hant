@@ -1,23 +1,26 @@
 ---
-description: 機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。
+description: '機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可針對用戶在您網站上的活動提供更準確的測量。 '
 subtopic: Bot rules
 title: 機器人規則概觀
-feature: 管理工具
+feature: Admin Tools
 uuid: 3cb9e29d-1c37-43de-b7ac-34441093a60e
 exl-id: 1c0009f6-2746-4ef1-8dcb-e2693617e91e
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '1358'
-ht-degree: 100%
+source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+workflow-type: tm+mt
+source-wordcount: '1364'
+ht-degree: 99%
 
 ---
 
 # 機器人規則概觀
 
-機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可以提供網站上更準確的使用者活動測量。
+機器人規則可讓您移除報告套裝中，由已知編目程式和機器人產生的流量。移除機器人流量可針對用戶在您網站上的活動提供更準確的測量。 
 
-定義機器人規則後，系統會將所有傳入流量與已定義規則做比較。符合任一規則的流量不會在報告套裝中加以收集，也不會納入流量量度。
+以下是有關設定機器人規則的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/335738/?quality=12)
+
+定義機器人規則後，所有連入流量都將與定義的規則做比較。 符合任一規則的流量不會在報告套裝中加以收集，也不會納入流量量度。
 
 若要更新或上傳機器人規則，請導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝」]**。選取正確的報告套裝，然後前往「**[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 機器人規則]**」。
 
