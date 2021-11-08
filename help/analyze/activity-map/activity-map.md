@@ -5,10 +5,10 @@ uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 0de07d1822b28c7ad3b784a4d53dff098aeb55c6
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '292'
+ht-degree: 95%
 
 ---
 
@@ -24,21 +24,17 @@ Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視�
 
 Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷活動，以及就觀眾需求和行為採取行動。
 
-以下是 Activity Map 的影片概觀：
-
->[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
-
-**管理員快速入門**
+## 管理員快速入門
 
 * [啟用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [實施作業代碼範例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-**用戶快速入門**
+## 用戶快速入門
 
 * [安裝 Activity Map 瀏覽器外掛程式](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [啟動 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
 
-**Activity Map 功能**
+## Activity Map 功能
 
 * [強大的連結追蹤](lnk-tracking-overview.md)
 * [標準模式和即時模式的比較](activitymap-standard-live.md)
@@ -57,3 +53,13 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [Activity Map 用戶介面](activitymap-user-interface.md)
 * [Analytics 中的 Activity Map 報表](activitymap-reporting-analytics.md)
 * [疑難排解瀏覽器延伸模組](troubleshooting-browser-extensions.md)
+
+## 影片
+
+Activity Map影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
+
+啟用、禁用和自定義Activity Map:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)

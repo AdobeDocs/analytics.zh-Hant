@@ -5,10 +5,10 @@ uuid: 677f6030-5b3e-4dfa-bb79-9f27f3382fb1
 feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f107cc32bb42dbc2cde84225867c39bacdbecd9d
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
 source-wordcount: '509'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -26,9 +26,15 @@ ht-degree: 91%
 | - 以計算量度為基礎的區段 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hant) | 至個別計算量度 | 在您的量度定義中套用區段 |
 | - 以 VRS 為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant) | 至個別虛擬報表套裝 | 在您的 VRS 定義中套用區段 |
 
-以下是有關在 Analysis Workspace 中使用區段的影片：
+## 影片
+
+在Analysis Workspace中使用區段：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
+
+尋找和建立區段:
+
+>[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
 ## 建立區段 {#section_693CFADA668B4542B982446C2B4CF0F5}
 

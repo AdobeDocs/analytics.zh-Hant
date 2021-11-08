@@ -5,9 +5,9 @@ title: 使用可選時間戳記
 topic-fix: Developer and implementation
 uuid: 956aaa16-6ffa-4b63-b022-a659f5143e00
 exl-id: c6a232d1-d7ce-4f21-9e8a-45703992bc6e
-source-git-commit: 3ff221b8715ecde6923310b6818904c697a2b003
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '615'
 ht-degree: 100%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 100%
 # 使用可選時間戳記
 
 瞭解使用「可選時間戳記」設定的好處與限制。
+
+以下是有關該主題的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/335740/?quality=12)
 
 「可選時間戳記」是所有新報表套裝的預設設定。
 
@@ -34,7 +38,6 @@ ht-degree: 100%
 
 * **時間戳記資料**。用戶端時間戳記資料是使用用戶端時間戳記變數 (網頁上的 Javascript) 或使用行動應用程式中的行動 SDK 呼叫 ([!DNL offlineEnabled=true]) 加以擷取，並與裝置資料一起直接傳送。
 * **非時間戳記資料**。當資料點擊收集伺服器時，Adobe 會在報表套裝中的非時間戳記資料上設定時間戳記。
-
 
 報表套裝可以有下列其中一個時間戳記設定:
 

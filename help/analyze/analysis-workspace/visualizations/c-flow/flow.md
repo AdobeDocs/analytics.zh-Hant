@@ -2,12 +2,12 @@
 description: 在 Workspace 專案中使用流量視覺效果。
 title: 流量概觀
 uuid: fc22b573-2d18-4c29-866c-f317c920d27a
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '210'
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '213'
 ht-degree: 100%
 
 ---
@@ -37,3 +37,7 @@ ht-degree: 100%
 ## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 
 專案的 .CSV 檔案包含流量圖表，您可以前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 下載 CSV]**」，建立 .CSV 檔案。這可讓您在 Microsoft Excel 內分析 (以視覺化呈現表格) 或其他地方分析「流量」結果。
+
+## 展開流量視覺效果
+
+>[!VIDEO](https://video.tv.adobe.com/v/24044/?quality=12)

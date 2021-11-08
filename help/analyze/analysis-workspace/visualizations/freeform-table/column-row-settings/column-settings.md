@@ -2,13 +2,13 @@
 description: 欄設定可供設定欄的格式，部分可設為條件式。
 title: 欄設定
 uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
-feature: 自由表格
+feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '722'
-ht-degree: 100%
+source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -69,3 +69,9 @@ Analysis Workspace 支援絕大多數量度的[歸因](/help/analyze/analysis-wo
 >
 >* [管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)
 
+
+## 動態欄
+
+以下影片說明如何在Analysis Workspace中使用動態欄：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
