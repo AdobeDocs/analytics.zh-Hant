@@ -4,10 +4,10 @@ description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Rep
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 70368b8b6302c1cfc1fe6503f777de13d884477a
-workflow-type: ht
-source-wordcount: '233'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '241'
+ht-degree: 96%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 * **[!UICONTROL Report Builder]：**&#x200B;此 Excel 增益集可讓您擷取 Analytics 資料，並將其直接放入活頁簿中。
 * **[!UICONTROL Reporting API]：**&#x200B;直接向 Adobe 的伺服器提出報表查詢並取得回應，以便在您自己的客戶報告工具中使用。
 * **[!UICONTROL Reports &amp; Analytics]：**&#x200B;此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。
+
+以下是Adobe Analytics的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
 ## 重要 Analytics 工具文章
 

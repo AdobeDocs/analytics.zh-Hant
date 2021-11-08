@@ -1,18 +1,22 @@
 ---
-description: 新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
+description: 智慧型警報系統可更精細地控制警報，並整合異常偵測與警報系統。
 title: 智慧型警報
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '577'
-ht-degree: 100%
+source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+workflow-type: tm+mt
+source-wordcount: '564'
+ht-degree: 88%
 
 ---
 
 # 智慧型警報
 
-新的智慧型警報系統可提供更細微的警報控制能力，並可與警報系統的異常偵測整合。
+智慧型警報系統可更精細地控制警報，並整合異常偵測與警報系統。
+
+以下是影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25446/?quality=12)
 
 ## 概觀 {#section_6AC8CA81DEA94E99B0F192B60D0FDF03}
 
@@ -20,14 +24,14 @@ ht-degree: 100%
 >
 >智慧型警報僅供 Adobe [!DNL Analytics] Prime 與 Adobe [!DNL Analytics] Ultimate 的客戶使用。
 
-新的警報產生器和警報管理器取代了Adobe [!DNL Analytics] 中現有的警報功能。智慧型警報可讓您
+智慧型警報可讓您
 
 * 根據異常 (90％、95％、99%、99.75% 或 99.9% 臨界值；％ 變化；以上/以下) 建立警報。
 * 預覽警報觸發的頻率.
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
-* 建立在單一警報中擷取多個量度的「堆疊」警報.
+* 建立在單一警報中擷取多個量度的「堆疊」警報。
 
-新警報系統的元件包括：警報產生器、警報管理器、警報預覽和更理想的內容感知存取建立警報方式。舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊型警報功能[不再提供使用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hant)。
+警報系統的元件包括：警報產生器、警報管理器、警報預覽和更好的內容感知存取，以建立警報。 舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊式警報功能 [不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hant).
 
 取得「警報產生器」有四種方式：
 
@@ -45,7 +49,7 @@ ht-degree: 100%
 
 ## 常見問答：系統如何計算及觸發警報 {#section_1F3B1DAF21784306953B49AAD4C3DCAB}
 
-% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。依您選擇的時間詳細程度而定，[不同模式](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
+% 臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 依您選擇的時間詳細程度而定，[不同模式](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99%) 時多。我們特別導入 99.75% 與 99.99% 以用於每小時詳細程度的臨界值，因此不會觸發那麼多的異常警報。
 
 <table id="table_B3AA85E1DE3543DCA34966A52E3CE4AB"> 
  <thead> 
