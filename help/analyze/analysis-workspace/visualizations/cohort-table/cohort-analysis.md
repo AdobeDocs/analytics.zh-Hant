@@ -4,10 +4,10 @@ description: 透過「同類群組分析」，深入了解使用對象資料，�
 feature: Visualizations
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: f52623f4885063d080c95ef275808a3d051895e5
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+source-git-commit: 447f03c240580462b92b04254ca682cef69b6ffc
+workflow-type: tm+mt
+source-wordcount: '500'
+ht-degree: 90%
 
 ---
 
@@ -27,14 +27,13 @@ ht-degree: 100%
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
-[「同類群組分析」影片教學課程](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/cohort-analysis/cohort-analysis-workspace.html?lang=zh-Hant) (4:36)
+Analysis Workspace同類群組表格相關影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析]
->
->不支援無法設為區段的量度 (包括計算量度)、非整數量度 (例如收入) 或發生次數。只有可在區段中使用的量度，才可用於
->[!UICONTROL 同類群組分析]，且只能以 1 為單位遞增。
+>[!UICONTROL 同類群組分析] 不支援無法設為區段的量度（包括計算量度）、非整數量度（例如收入、發生次數）。 只有可在區段中使用的量度，才可用於 [!UICONTROL 同類群組分析]，且只能以>1為單位遞增。
 
 ## 同類群組分析功能
 

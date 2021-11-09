@@ -4,10 +4,9 @@ title: 即時報表
 topic-fix: Reports
 uuid: c09cc605-0b3b-41ab-9b46-8c2a26f579a3
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -18,7 +17,11 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->即時報表不需要進行額外的實作或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md)。
+>即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/realtime/t-realtime-admin.md)。
+
+以下是影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL 網站量度]** > **[!UICONTROL 即時]**
 
@@ -32,7 +35,7 @@ ht-degree: 100%
 
 身為管理員，您可以
 
-* 使用現有的維度 (或分類) 與量度，為每個報表套裝建立最多 3 個即時報告。使用次要維度關連至 (或劃分) 主要維度。
+* 使用現有的維度 (或分類) 與量度，為每個報告套裝建立最多 3 個即時報告。使用次要維度關連至 (或劃分) 主要維度。
 * 每個報告新增 3 個維度 (或分類) (一個主要和兩個次要)，以及新增 1 個全網站量度。
 * 可使用任何自訂事件、購物車事件或是例項。
 * 檢視高達 2 小時的歷史即時資料，並修改此設定：
@@ -57,4 +60,4 @@ Adobe Target 中的 A4T 整合啟用後，您就會在 Adobe Analytics 中遇到
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完全實作該整合，該延遲增加現象也會在您實作身份服務後開始。
+請注意，即使您尚未完全實施作業該整合，該延遲增加現象也會在您實施作業身份服務後開始。

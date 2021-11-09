@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
 workflow-type: tm+mt
-source-wordcount: '1399'
-ht-degree: 99%
+source-wordcount: '1405'
+ht-degree: 98%
 
 ---
 
@@ -123,6 +123,10 @@ ht-degree: 99%
 >[!NOTE]
 >
 >「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hant) 的一部分使用。
+
+「人物」範本的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 

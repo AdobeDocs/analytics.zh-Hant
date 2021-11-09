@@ -1,13 +1,13 @@
 ---
 description: 「區段產生器」提供畫布來拖放「量度維度」、「區段」和「事件」，以根據容器階層邏輯、規則和運算子來分段訪客。此一整合式開發工具可讓您建立並儲存簡單或複雜區段，用以識別跨瀏覽及頁面點擊的訪客屬性和動作。
 title: 建立區段
-feature: 區段
+feature: Segmentation
 uuid: c01393df-ccdd-431c-83a6-3c2700bd4999
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2036'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '2046'
+ht-degree: 99%
 
 ---
 
@@ -121,6 +121,10 @@ ht-degree: 100%
 
 ![](assets/date-ranges.png)
 
+以下影片說明如何在區段中使用滾動日期範圍：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
+
 ## 堆疊區段 {#task_58140F17FFD64FF1BC30DC7B0A1B0E6D}
 
 堆疊區段的運作方式是使用 &#39;and&#39; 運算子結合每個區段中的準則，然後套用結合後的準則。您可以直接在 Workspace 專案中或在區段產生器中完成此作業。
@@ -203,7 +207,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
+   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>然後 </p> <p> 購物車新增等於 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 

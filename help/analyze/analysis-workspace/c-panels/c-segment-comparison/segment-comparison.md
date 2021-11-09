@@ -2,19 +2,23 @@
 title: 區段比較面板概述
 description: 瞭解如何使用 Analysis Workspace 中區段 IQ 的區段比較面板。
 keywords: Analysis Workspace, 區段 IQ
-feature: 面板
+feature: Panels
 role: User, Admin
 exl-id: 1f5df6fb-1e9f-4b8f-885c-bf9e68d88c89
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+workflow-type: tm+mt
+source-wordcount: '1148'
+ht-degree: 99%
 
 ---
 
 # 區段比較面板概述
 
 「區段比較」面板是[「區段 IQ」](../../segment-iq.md)中的工具，可從不限數量的區段中找出統計數據上最顯著的差異。此功能會針對您存取的所有維度和量度進行反覆自動分析。它會從提升公司 KPI 的受眾區段當中找出關鍵特性，讓您查看任何區段重疊的程度。
+
+以下是區段比較的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23976/?quality=12)
 
 ## 建立區段比較面板
 

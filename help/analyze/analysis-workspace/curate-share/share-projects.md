@@ -2,19 +2,23 @@
 description: Workspace 中的專案共用和專案角色
 keywords: Analysis Workspace 共用
 title: 共用專案
-feature: 監管與共用
+feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1096'
-ht-degree: 100%
+source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 99%
 
 ---
 
 # 共用專案
 
 共用可讓您組織中的其他 Analysis Workspace 使用者也能使用相同專案。收件者開啟專案時，將會顯示您已套用的任何[組織](curate.md)。
+
+以下是專案共用的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
 
 ## 專案角色 {#Roles}
 
@@ -58,14 +62,14 @@ ht-degree: 100%
 
 ## 與收件者群組共用 {#Groups}
 
-所有使用者都可與群組共用專案；群組是收件者的集合。在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中的產品設定檔所定義。
+所有使用者都可與群組共用專案；群組是收件者的集合。在 Adobe Analytics 中，群組由 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 中的產品設定檔所定義。
 
 * 管理員可將任何群組當作共用對象，包括「全部」。
 * 非管理員則可與其所屬的群組共用，但「全部」除外。
 
 ## 共用專案連結 {#Links}
 
-您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html?lang=zh-Hant)如何建立 Workspace 專案分享連結。
+您可以在&#x200B;**[!UICONTROL 共用] > [!UICONTROL 取得專案連結]**&#x200B;下取得專案連結。點選後，收件者必須先登入，才能登入專案。如果收件者未設置於角色中，則將獲得預設角色。管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/shareable-links.html)如何建立 Workspace 專案分享連結。
 
 ## 在 Project Manager 中共用專案 {#Manager}
 
@@ -86,7 +90,7 @@ ht-degree: 100%
 ## 常見問答 {#FAQs}
 
 | 問題 | 回答 |
-|---|---|
+| --- | --- |
 | 如果兩個編輯者同時儲存專案，會發生什麼情況？ | 不會合併變更，而會保留最後儲存的專案版本。Analysis Workspace 目前不支援即時共同作業。 |
 | 身為管理員，我會有何種專案體驗？ | 設為&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時將獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。 |
 | 如果某個收件者以個人身分設置於某個角色，又以群組成員身分設置於另一個角色，會發生什麼情況？ | 如果收件者獲得多個角色，將一律會有較高的體驗。例如，如果收件者以個人身分獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色，則將獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;專案體驗。 |
