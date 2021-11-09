@@ -1,20 +1,24 @@
 ---
 description: Analysis Workspace 中的「流失」可讓您混合搭配維度和量度，作為漏斗和工作流程中的接觸點。如此可讓您在定義想調查的用戶步驟時，擁有更多彈性。
-title: 維度間流失
+title: 多維度流失
 uuid: 17520727-2d06-4dc2-a66d-66e3350bdda3
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: 12de8e52-02c1-4e11-b530-48294f201fe0
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 93%
 
 ---
 
-# 維度間流失
+# 多維度流失
 
 Analysis Workspace 中的「流失」可讓您混合搭配維度和量度，作為漏斗和工作流程中的接觸點。如此可讓您在定義想調查的用戶步驟時，擁有更多彈性。
+
+以下是有關此主題的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24043/?quality=12)
 
 **範例**：除了「頁面」維度，您也可以新增動作型維度至「流失」視覺效果。如此可用視覺方式呈現頁面和特定動作在客戶路徑中的相互作用。
 

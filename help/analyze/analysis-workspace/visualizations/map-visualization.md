@@ -5,10 +5,10 @@ uuid: 6038f336-62a3-4efa-8316-4d7792468db3
 feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '636'
-ht-degree: 100%
+source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
+workflow-type: tm+mt
+source-wordcount: '642'
+ht-degree: 94%
 
 ---
 
@@ -24,6 +24,10 @@ Analysis Workspace 中的地圖視覺效果
 * 支援 PDF 匯出。
 * 針對圖形顯示使用 WebGL。如果您的顯示卡驅動程式不支援 WebGL 轉譯，您可能需要更新驅動程式。
 
+以下是影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23559/?quality=12)
+
 ## 建立地圖視覺效果 {#section_61BBFA3A7BFD48DA8D305A69D9416299}
 
 1. 從視覺效果清單中，將&#x200B;**[!UICONTROL 「地圖」]**&#x200B;拖曳至自由面板：
@@ -33,18 +37,10 @@ Analysis Workspace 中的地圖視覺效果
 1. 從量度清單拖曳量度 (包括計算量度)。
 1. 指定您要提取的資料來源(只有為行動應用程式資料啟用「位置追蹤」後，系統才會顯示此對話方塊)。
 
-<table id="table_CD54B433464B4282A7524FB187016C47"> 
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p><b>行動裝置緯度/經度</b> </p> </td> 
-   <td colname="col2"> <p>此選項代表行動應用程式資料。 </p> <p>唯有在<span class="ignoretag"><span class="uicontrol">「Analytics</span> &gt; <span class="uicontrol">管理</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">&lt;選取報表套裝&gt;</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">行動管理</span> &gt; <span class="uicontrol">啟用位置追蹤」</span></span>為報表套裝啟用此選項，系統才會顯示此選項。 </p> <p>這是預設設定 (如果已啟用位置追蹤)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p><b>地理維度</b> </p> </td> 
-   <td colname="col2"> <p>此選項代表有關訪客位置的地域劃分資料 (根據訪客 IP 位址)。此資料可轉換為國家、地區和城市。請注意，此資料不會深入至 DMA 或郵遞區號的層級。 </p> <p>幾乎所有報表套裝都會啟用這個維度。如果您尚未啟用，請聯絡 Adobe 客戶服務，以啟用地理報表。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 設定 | 說明 |
+| --- | --- |
+| [!UICONTROL 行動裝置緯度/經度] | 此選項代表行動應用程式資料。只有在您已在 [!UICONTROL Analytics] > [!UICONTROL 管理] > [!UICONTROL 報表套裝] >（選取報表套裝）> [!UICONTROL 編輯設定] >  [!UICONTROL 行動管理] > [!UICONTROL 啟用位置追蹤]. 這是預設設定 (如果已啟用位置追蹤)。 |
+| [!UICONTROL 地理維度] | 此選項代表有關訪客位置的地域劃分資料 (根據訪客 IP 位址)。此資料會轉換為 [!UICONTROL 國家/地區], [!UICONTROL 地區]，和 [!UICONTROL 城市]. 請注意，此資料不會深入至 DMA 或郵遞區號的層級。幾乎所有報表套裝都會啟用這個維度。如果您尚未啟用，請聯絡 Adobe 客戶服務，以啟用地理報表。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 

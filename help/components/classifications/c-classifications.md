@@ -2,10 +2,10 @@
 title: 分類概觀
 description: 自訂維度項目的分組。
 exl-id: 0d2c77ea-610f-48e0-b6a2-6e91794783b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '603'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,10 @@ ht-degree: 100%
 分類後，透過代碼資料產生的任何報告，亦可透過相關聯的屬性產生。例如，您可以使用其他的產品屬性將「[!UICONTROL 產品 ID]」分類，例如產品名稱、顏色、大小、說明和 SKU。利用其他屬性加強 Reports &amp; Analytics 資料可提供更深和更複雜的報告機會。
 
 建立分類之後，您可以在整個 Adobe Analytics 中運用新的資料屬性。
+
+以下是Adobe Analytics分類的概觀影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/16853/?quality=12)
 
 ## 追蹤程式碼範例
 

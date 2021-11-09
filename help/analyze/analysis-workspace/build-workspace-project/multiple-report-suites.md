@@ -1,13 +1,13 @@
 ---
 title: 多報表套裝
 description: 了解在有多個報表套裝的 Workspace 中建立專案的方法及原因
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '519'
-ht-degree: 100%
+source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+workflow-type: tm+mt
+source-wordcount: '524'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 100%
 * 比較兩個不同地區的資料，而這些資料位於兩個不同的報表套裝時，您可以建立表格和視覺效果，以便並排比較資料。
 
 * 建立量度和視覺效果的控制面板，以便向其他組織提交報告。您現在可以將各種報表套裝的資料提取到同一個專案中。
+
+以下是有關此主題的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
 ## 將報表套裝套用至所有面板
 
@@ -35,7 +39,7 @@ ht-degree: 100%
 >您可以拖放至與使用中面板位於相同報表套裝中的任何面板。若拖曳至相同報表套裝的非使用中面板，該面板就會變成使用中。
 
 | 任務 | 使用中面板 | 非使用中面板 |
-|---|---|---|
+| --- | --- | --- |
 | 變更報表套裝 | 有 | 否 |
 | 拖放元件 | 有 | 可以，適用於與使用中面板位於相同報表套裝中的任何面板。 |
 | 拖放視覺效果 | 有 | 可以，適用於與使用中面板位於相同報表套裝中的任何面板。 |
