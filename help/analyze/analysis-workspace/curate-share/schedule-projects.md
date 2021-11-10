@@ -1,13 +1,12 @@
 ---
-description: 管理排程分析工作區專案
+description: 管理已排程的Analysis Workspace專案
 keywords: Analysis Workspace
 title: 排程專案管理員
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-translation-type: tm+mt
-source-git-commit: 232a8376d605fc2345b16fc6579b77dbe2eb7709
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 96%
+source-wordcount: '164'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +18,10 @@ ht-degree: 96%
 **[!UICONTROL 「分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 計劃的專案」]**。
 
 ![](assets/components-scheduled-projects.png)
+
+以下是Analysis Workspace中已排程且可下載專案的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24709/?quality=12)
 
 在「已排程專案管理員」中，您可以編輯和刪除循環的專案交付項目。您可以建立傳送計劃，透過電子郵件將報表傳送至指定地址。您可以設定這些計劃，依特定時間間隔或無限制自動傳送報表，或停止傳送週期性專案。
 
@@ -32,6 +35,5 @@ ht-degree: 96%
 * 標記已排程專案。
 * 指定/變更已排程專案的擁有者。
 * 新增其他篩選條件，例如「核准」、「失敗」、「我的最愛」、「我的」、「全部顯示」和「到期專案」。
-
 * 定義已排程專案的到期日。
 

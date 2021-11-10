@@ -1,14 +1,13 @@
 ---
 description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR 運算子。THEN 表示某個區段標準發生，然後接著另一個標準。依預設，循序區段會識別所有相符的資料，並顯示「包括所有使用者」篩選條件。可使用「僅限序列之前」和「僅限序列之後」選項，將循序區段進一步篩選成相符點擊的子集。
 title: 建立循序區段
-feature: 區段
+feature: Segmentation
 uuid: 7fb9f1c7-a738-416a-aaa2-d77e40fa7e61
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '3858'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3864'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +18,10 @@ ht-degree: 100%
 ![](assets/before-after-sequence.png)
 
 此外，您可以使用 [After 和 Within 運算子](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)，將查核點之間的循序區段限制為特定時段、詳細程度和計數。
+
+以下是關於循序細分的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25405/?quality=12)
 
 ## 包括所有使用者 {#section_75ADDD5D41F04800A09E592BB2940B35}
 
@@ -363,7 +366,7 @@ ht-degree: 100%
 
 **[!UICONTROL After]** 不包含端點 (大於)。
 
-| 運算子 | 說明 |
+| 操作者 | 說明 |
 |--- |--- |
 | AFTER | After 運算子用來指定兩個查核點之間時間量的下限。設定 After 值時，在套用區段後開始時間限制。例如，如果在容器上設定 After 運算子，以便識別造訪了頁面 A 但直到一天後才返回造訪頁面 B 的訪客，則該日將從訪客離開頁面 A 開始。若要將訪客納入區段中，在離開頁面 A 至檢視頁面 B 期間，至少須經過 1440 分鐘 (一天)。 |
 | WITHIN | Within 運算子用來指定兩個查核點之間時間量的上限。例如，如果在容器上設定 Within 運算子，以便識別在一天內造訪了頁面 A 然後返回造訪頁面 B 的訪客，則當訪客離開頁面 A 時，該日即開始。若要納入區段中，訪客在開啟頁面 B 前最多有一天的時間。若要將訪客納入區段中，造訪頁面 B 的時間必須落在離開頁面 A 至檢視頁面 B 的 1440 分鐘 (一天) 之內。 |

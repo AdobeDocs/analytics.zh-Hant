@@ -1,13 +1,13 @@
 ---
 description: 「區段產生器」可讓您使用選取的運算子來比較和限制值。
 title: 區段的比較運算子
-feature: 區段
+feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
-source-git-commit: 8559437fc16a8cddc8ce5cf738993d147b522a05
-workflow-type: ht
-source-wordcount: '1086'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 99%
 
 ---
 
@@ -63,3 +63,7 @@ ht-degree: 100%
 | 小於 | 傳回唯一計數小於輸入值的維度項目。 |
 | 大於或等於 | 傳回唯一計數大於或等於輸入值的維度項目。 |
 | 小於或等於 | 傳回唯一計數小於或等於輸入值的維度項目。 |
+
+以下是關於不重複維度計數的分段影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)

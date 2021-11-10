@@ -5,9 +5,9 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1111'
 ht-degree: 99%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 99%
 您可以將收件者新增至三個專案角色的其中之一。專案角色會繫結至使用者和特定專案 ID。專案角色不受 [Adobe Experience Cloud Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=zh-Hant) 中管理的使用者權限影響。
 
 | 角色 | 專案控制 |
-|---|---|
+| --- | --- |
 | 可編輯 | 收件者可&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同擁有者的身分操作。如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。<br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。如果同時儲存專案，將會保留最後一個版本。 |
 | 可複製 | 收件者可以&#x200B;**[!UICONTROL 另存新檔]**，且具有左側邊欄的存取權。此角色的專案互動不受限制。如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。 |
 | 可檢視 | 收件者無法另存新檔及存取左側邊欄。專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。。<br>深入瞭解[可檢視專案體驗](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
@@ -86,6 +86,12 @@ ht-degree: 99%
 * 專案 B：4、5、6、7
 
 ![](assets/mult-proj-sharing.png)
+
+## 共用內嵌元件
+
+以下是有關該主題的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24713/?quality=12)
 
 ## 常見問答 {#FAQs}
 

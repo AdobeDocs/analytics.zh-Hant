@@ -1,13 +1,13 @@
 ---
 description: 區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成代碼化對象分析，您可針對自己的獨特需求加以建立，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 title: 關於區段與容器
-feature: 區段
+feature: Segmentation
 uuid: e8b1edd1-5d6c-4213-994b-fed789ad30a4
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '3698'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '3705'
+ht-degree: 99%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 100%
 「區段產生器」中採用的容器架構將&#x200B;**[!UICONTROL 訪客]**&#x200B;定義為最外層的容器，內含各瀏覽和頁面檢視的訪客特定整體資料。巢狀內嵌的&#x200B;**[!UICONTROL 瀏覽]**&#x200B;容器可讓您設定規則，以根據瀏覽來劃分訪客的資料，而巢狀內嵌的&#x200B;**[!UICONTROL 點擊]**&#x200B;容器則可讓您依據個別頁面檢視來劃分訪客資訊。每個容器均可讓您根據訪客的歷史記錄、依瀏覽劃分的互動來進行報告，或將個別點擊進行劃分。
 
 ![](assets/sequential_segmentation_container_hierarchy.png)
+
+以下是區段容器的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25401/?quality=12)
 
 **訪客容器**
 

@@ -2,21 +2,25 @@
 description: 使用「摘要數字」和「摘要變更」視覺效果來呈現專案中的重要資料點。
 title: 摘要數字和摘要變更
 uuid: 177c1b89-6d98-473d-8447-6b4cdc479565
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: d6a08201-ca3a-48ff-983a-3ec6b989deda
-source-git-commit: 5027c17f1b0efc2fe22915e39aca901ee2beb34a
-workflow-type: ht
-source-wordcount: '396'
-ht-degree: 100%
+source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+workflow-type: tm+mt
+source-wordcount: '403'
+ht-degree: 84%
 
 ---
 
 # 摘要數字和摘要變更
 
-## 摘要數字視覺效果 {#summary-number}
+以下是這兩個視覺效果的影片：
 
-使用「摘要數字」視覺效果來強調專案中重要的大數字。此視覺效果的運作方式如下：
+>[!VIDEO](https://video.tv.adobe.com/v/335564/?quality=12)
+
+## [!UICONTROL 摘要數字視覺效果] {#summary-number}
+
+使用 [!UICONTROL 摘要數字] 視覺效果，突顯專案中重要的大數字。 此視覺效果的運作方式如下：
 
 * 如果未選取儲存格，則會選取該欄的總計。
 * 如果選取單一儲存格，則會顯示該儲存格的摘要。
@@ -27,14 +31,14 @@ ht-degree: 100%
 
 | 設定 | 定義 |
 |--- |--- |
-| 百分比 | 顯示百分比而非原始數據。 |
-| 可見圖例 | 顯示所顯示量度的相關資訊。 |
-| 縮簡值 | 選擇以縮簡值，顯示最多小數點後 3 位。 |
-| 值摘要依據: | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
+| [!UICONTROL 百分比] | 顯示百分比而非原始數據。 |
+| [!UICONTROL 可見圖例] | 顯示所顯示量度的相關資訊。 |
+| [!UICONTROL 縮簡值] | 選擇以縮簡值，顯示最多小數點後 3 位。 |
+| [!UICONTROL 值摘要依據:] | 選擇以顯示一系列資料的最大值、最小值、平均值、中間值或總計。 |
 
-## 摘要變更視覺效果 {#summary-change}
+## [!UICONTROL 摘要變更視覺效果] {#summary-change}
 
-使用「摘要變更」視覺效果以顯示兩個數字間的差異 (變更)。可透過[自訂事件極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hant)，或計算量度的[「顯示上升趨勢的方式」](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant)選項，控制「摘要變更」的綠色和紅色。
+使用 [!UICONTROL 摘要變更] 視覺效果以顯示兩個數字之間的差異（變更）。 綠色和紅色 [!UICONTROL 摘要變更] 可通過 [自訂事件極性](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hant) 或計算量度的 [將上升趨勢顯示為](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-Hant) 選項。
 
 此視覺效果的運作方式如下：
 
@@ -52,8 +56,8 @@ ht-degree: 100%
 按一下右上角的&#x200B;**「視覺效果設定」**&#x200B;齒輪，設定「摘要變更」設定：
 
 | 設定 | 定義 |
-|--- |--- |
-| 百分比 | 顯示百分比而非原始數據。 |
-| 可見圖例 | 顯示所顯示量度的相關資訊。 |
-| 顯示百分比變化 | 顯示 2 個數字之間的百分比變化。 |
-| 顯示原始資料差異 | 顯示 2 個數字之間的原始差異。您也可以縮簡值，使用此選項顯示最多小數點後 3 位。 |
+| --- | --- |
+| [!UICONTROL 百分比] | 顯示百分比而非原始數據。 |
+| [!UICONTROL 可見圖例] | 顯示所顯示量度的相關資訊。 |
+| [!UICONTROL 顯示百分比變化] | 顯示 2 個數字之間的百分比變化。 |
+| [!UICONTROL 顯示原始資料差異] | 顯示 2 個數字之間的原始差異。您也可以縮簡值，使用此選項顯示最多小數點後 3 位。 |
