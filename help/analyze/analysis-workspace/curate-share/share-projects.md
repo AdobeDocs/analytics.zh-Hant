@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 99%
+source-wordcount: '1121'
+ht-degree: 98%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 99%
 | 可編輯 | 收件者可&#x200B;**[!UICONTROL 儲存]**&#x200B;對專案的變更，並以共同擁有者的身分操作。如果您想要與其他同事共同管理專案，此角色將有其效用；包括編輯、刪除和修改共用專案的收件者清單。<br>注意：Analysis Workspace 目前不支援即時共同作業，因此我們建議不要有多名使用者同時編輯一個專案。如果同時儲存專案，將會保留最後一個版本。 |
 | 可複製 | 收件者可以&#x200B;**[!UICONTROL 另存新檔]**，且具有左側邊欄的存取權。此角色的專案互動不受限制。如果您想要與瞭解組織資料，且知道如何使用 Analysis Workspace 的使用者共用專案，但不想讓專案遭到變更，就可以使用此角色。 |
 | 可檢視 | 收件者無法另存新檔及存取左側邊欄。專案互動也有所限制。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以使用此角色。。<br>深入瞭解[可檢視專案體驗](/help/analyze/analysis-workspace/curate-share/view-only-projects.md)。 |
+
+以下是Analysis Workspace中僅限檢視專案的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 >[!IMPORTANT]
 > 在 2020 年 6 月 18 日之前新增的專案收件者，已移轉至專案角色。管理員使用者已移轉至&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員使用者已移轉至&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。這些角色提供的專案體驗與先前相同。此外，所有群組 (包括「全部」) 皆已移轉至&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。

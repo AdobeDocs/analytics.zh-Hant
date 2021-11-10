@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: Analysis Workspace 的使用案例
 feature: Analysis Workspace basics
 uuid: 09e20b76-8c31-4d20-920b-bebc877b3b70
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '592'
+ht-degree: 93%
 
 ---
 
@@ -66,3 +66,15 @@ ht-degree: 97%
 以下是此主題的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25864/?quality=12)
+
+## 使用跨索引標籤分析進行基本行銷歸因
+
+想透過 Adobe Analytics 將歸因方法提升到全新層次，其實有許多方式。這部影片的重點，在於介紹如何使用工作區中的跨索引標籤分析，從行銷管道報表獲取更深入的寶貴見解。
+
+>[!VIDEO](https://video.tv.adobe.com/v/39237/?quality=12)
+
+## 在Analysis Workspace中使用參與率量度
+
+此影片說明如何使用計算量度取得參與率量度：
+
+>[!VIDEO](https://video.tv.adobe.com/v/41266/?quality=12)

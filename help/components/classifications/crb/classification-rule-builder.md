@@ -2,19 +2,23 @@
 description: 您可以建立自動的規則型分類並套用至多個報表套裝，如此就無須在每次追蹤程式碼變更時維護和上傳分類。視您的分類相關流量大小而定，會以頻繁間隔處理規則。
 subtopic: Classifications
 title: 分類規則產生器工作流程
-feature: 管理工具
+feature: Admin Tools
 uuid: edb1f07e-fa86-4055-8f4b-cce2d370edbb
 exl-id: cdb20dcc-0635-4d5e-9c54-f102d17a0a3d
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
 # 分類規則產生器工作流程
 
 您可以建立自動的規則型分類並套用至多個報表套裝，如此就無須在每次追蹤程式碼變更時維護和上傳分類。視您的分類相關流量大小而定，會以頻繁間隔處理規則。
+
+以下是分類規則產生器的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25884/?quality=12)
 
 ## 開始使用前的重要注意事項
 

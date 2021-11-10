@@ -1,13 +1,13 @@
 ---
 description: 如何在 Analysis Workspace 中使用視覺化調色盤
 title: 視覺化調色盤是什麼以及如何運作？
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '216'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '223'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,10 @@ ht-degree: 100%
 * 在上方兩個調色盤之下的第三到第五個調色盤，則是針對顏色和諧度進行最佳化。
 
 ## 若要變更調色盤：
+
+以下是使用自訂調色盤的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
 1. 導覽至&#x200B;**[!UICONTROL 「工作區]** > **[!UICONTROL 專案]** > **[!UICONTROL 專案資訊和設定」]**。
 1. 在&#x200B;**[!UICONTROL 「專案調色盤」]**&#x200B;下拉式功能表中，您可以從五個預先設定的色彩配置中選擇其一。

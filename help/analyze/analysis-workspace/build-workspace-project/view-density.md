@@ -1,19 +1,19 @@
 ---
 description: 了解如何調整檢視密度。
 title: 檢視密度
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: ddb9bab2-cf92-41ad-b8d1-86c626024ed6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '112'
+ht-degree: 69%
 
 ---
 
-# 檢視密度
+# [!UICONTROL 檢視密度]
 
-調整檢視密度可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。透過選項按鈕切換檢視密度時，有 3 個選項可以選擇：
+調整 [!UICONTROL 檢視密度] 可減少左側欄、自由表格和同類群組表格的垂直邊框間距，讓您在畫面上查看更多資料。 透過選項按鈕切換檢視密度時，有 3 個選項可以選擇：
 
 - **[!UICONTROL 緊密]**：此版本提供最密集的檢視畫面。
 - **[!UICONTROL 舒適]**：此版本比「緊密」版本有更多邊框間距。
@@ -26,3 +26,7 @@ ht-degree: 100%
 1. 導覽至工作區中的&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊與設定」]**。
 
 1. 從上述的 3 個選項中選取，接著按一下&#x200B;**[!UICONTROL 「儲存」]**。
+
+以下影片說明如何使用 [!UICONTROL 檢視密度]:
+
+>[!VIDEO](https://video.tv.adobe.com/v/25963/?quality=12)

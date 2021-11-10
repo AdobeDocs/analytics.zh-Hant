@@ -2,19 +2,23 @@
 description: 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
 title: 日曆和日期範圍概述
 uuid: 3d7727ba-9070-4f7c-815f-c98baa4e3a2d
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: fbf4bc18-65ba-4e39-96c1-4c41a8e3baa9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 96%
 
 ---
 
 # 日曆和日期範圍概述
 
 在日曆中，您可以指定日期和日期範圍，也可以選取預設集。
+
+以下是在Analysis Workspace中使用日期範圍和日曆的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23973/?quality=12)
 
 日曆選取範圍套用至面板層級，但您也可以選擇將其套用至所有面板。按一下工作區中的日期範圍時，介面會顯示目前的日曆月份和上一個日曆月份。按一下這兩個日曆各自上方角落的向右和向左箭頭，即可進行調整。
 

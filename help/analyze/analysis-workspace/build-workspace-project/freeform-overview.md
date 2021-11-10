@@ -6,10 +6,10 @@ uuid: a68be05d-f31e-4e6d-ad04-c784ecb0eb00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 75c551de-297e-4c45-95e6-77472be6628a
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 99%
+source-wordcount: '1428'
+ht-degree: 96%
 
 ---
 
@@ -89,6 +89,12 @@ Workspace 專案清單頁面內含下列資訊：
 
 ![](assets/left-rail.png)
 
+## 在功能表上按一下右鍵
+
+以下影片說明如何在Analysis Workspace中使用滑鼠右鍵功能表：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23981/?quality=12)
+
 ## 專案畫布 {#canvas}
 
 專案畫布是您整合面板、表格、視覺效果和元件以建立分析的地方。專案可以包含許多面板，每個面板都可以有許多表格和視覺效果。
@@ -101,7 +107,9 @@ Workspace 專案清單頁面內含下列資訊：
 
 ## Project Manager {#manager}
 
-您可以在 **Analytics > 元件 > 專案** 底下管理 Analysis Workspace 專案。Project Manager 會顯示特定用戶已建立的項目。您可以在「管理員 > Analytics 用戶和資產 > 轉移資產」底下將專案所有權轉移給新用戶。
+Analysis Workspace專案可在 **[!UICONTROL Analytics] > [!UICONTROL 元件] >  [!UICONTROL 專案]**. Project Manager 會顯示特定用戶已建立的項目。
+
+項目所有權可在以下項下轉移給新用戶 [!UICONTROL 管理] > [!UICONTROL Analytics使用者與資產] > [!UICONTROL 轉移資產].
 
 在 Projects Manager 中，您可以新增、標記、共用、複製及進行更多操作。在搜尋列中搜尋專案，或使用左側欄中的篩選選項進行搜尋。您可以依標籤、所有者、專案類型等條件進行篩選。
 

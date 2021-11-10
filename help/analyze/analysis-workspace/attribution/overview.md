@@ -1,13 +1,13 @@
 ---
 title: 歸因概觀
 description: 將成功事件的評分歸因於多個維度項目的概念。
-feature: 歸因
+feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+workflow-type: tm+mt
+source-wordcount: '435'
+ht-degree: 96%
 
 ---
 
@@ -45,3 +45,9 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 * [將歸因套用至量度](../visualizations/freeform-table/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
 * [將歸因套用至劃分](../components/dimensions/t-breakdown-fa.md)：對劃分使用非預設歸因。
 * [比較歸因模型](../components/apply-create-metrics.md)：快速瞭解不同歸因模型與任何量度的比較情形。
+
+## 影片
+
+以下影片說明如何在Analysis Workspace中搭配區段使用不同Attribution IQ模型：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23743/?quality=12)
