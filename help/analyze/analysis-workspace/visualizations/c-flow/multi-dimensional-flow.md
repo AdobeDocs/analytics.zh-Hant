@@ -2,19 +2,23 @@
 description: 維度間流量可讓您檢查多個維度間的用戶路徑。
 title: 維度間流量
 uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
-feature: 視覺效果
+feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '306'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 96%
 
 ---
 
 # 維度間流量
 
 維度間流量可讓您檢查多個維度間的用戶路徑。
+
+以下是Analysis Workspace中繞排文字和多維度流量的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
 每個「流量」欄頂端的量度標籤，可讓您在流量視覺效果中使用多維度時更符合使用直覺：
 

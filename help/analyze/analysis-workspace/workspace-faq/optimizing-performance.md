@@ -2,13 +2,13 @@
 description: 影響 Workspace 效能的因素和可採取的最佳化措施
 title: Analysis Workspace 效能因素和最佳化措施
 uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '2012'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '2024'
+ht-degree: 99%
 
 ---
 
@@ -77,3 +77,9 @@ ht-degree: 100%
 | 報表套裝的大小 | 收集到報表套裝中的資料量。 | - | 洽詢您的實作團隊或 Adobe 專家，判斷是否有可行的實作改善項目能改善 Adobe Analytics 的整體使用體驗。 |
 | 同時查詢 | 貴組織同時間向 Adobe 要求的查詢數量。 每個組織同時間有權發出至少 5 個查詢。 | 如果報表所花的時間很長，通常是因為該報表與其他報表一起在佇列中。 這表示，貴組織針對特定報表套裝同時執行過多要求。 查詢可以來自 API 要求、報表 UI (Analysis Workspace、Reports &amp; Analytics、Report Builder 等)、已排程的專案、已排程的報表、已排程的警報以及同時發出報表要求的使用者。 | 在一天中更平均地分佈報表套裝的要求和排程。 此外，盡可能將您的要求轉移到非高峰時段。 星期一早上、星期二早上及每個月的第一天都是尖峰報告時間。 |
 | 資料中心容量 | 您和其他客戶在 Adobe 資料中心內共用的報告容量。 | 這會受到貴組織和其他組織在您的資料中心內同時發出的查詢數量所影響。 | 貴組織有權設定容量，而如果系統負載較輕，Adobe 會將更多容量轉移給您，這會超出您的權利限額。 |
+
+## 提高Analysis Workspace生產力的秘訣
+
+以下是有關該主題的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/31157/?quality=12)

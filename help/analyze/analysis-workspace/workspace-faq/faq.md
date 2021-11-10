@@ -1,13 +1,13 @@
 ---
 description: Workspace 常見問答
-title: 常見問答和 Workspace 疑難排解
-feature: Workspace 基本知識
+title: 常見問題集和疑難排解工作區
+feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
-source-git-commit: e6f3beadfba340cea07f5fd2694105ad31de9751
-workflow-type: ht
-source-wordcount: '520'
-ht-degree: 100%
+source-git-commit: e9b917a60e31b63d8350d4023fa803605d86e050
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 100%
 | 可以將 Analysis Workspace 用於 Data Warehouse 嗎？ | 不建議將 Analysis Workspace 用於大量資料匯出。它是視覺效果 Workspace，用於建立類似控制面板的分析專案。 |
 | 如何最佳化 Analysis Workspace 的效能？ | 請參閱[效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 
+## 資料如何進入您的Analysis Workspace專案？
+
+觀看此影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/31072/?quality=12)
+
 ## 疑難排解
 
 **我將量度拖曳到專案後，系統顯示「資料無效」。**
@@ -38,3 +44,4 @@ ht-degree: 100%
 * 如果您在報表中套用了區段，則可能是區段標準與任何資料皆不符。請嘗試移除區段或調整區段定義。
 * 檢查右上角的日期範圍，確認已設為您預期的值。
 * 導覽至您的網站，使用[除錯工具](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)驗證資料正在收集中。
+

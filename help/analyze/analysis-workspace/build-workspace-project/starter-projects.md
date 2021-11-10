@@ -5,9 +5,9 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: f448377e070e9ed8ce492c22eca5fd7eb9fc5713
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
 workflow-type: tm+mt
-source-wordcount: '1405'
+source-wordcount: '1414'
 ht-degree: 98%
 
 ---
@@ -71,6 +71,10 @@ ht-degree: 98%
 * **培訓教學課程 - 內部搜尋分析**：內部搜尋教學課程可協助您了解訪客想在網站或應用程式上尋找但沒有找到的內容。分析這類資料可以找出內容最佳化機會。
 
 * **訓練教學課程 - 行銷分析**：此教學課程將為您示範如何為主管建立行銷分析，包括重要的自訂維度和量度有哪些。
+
+以下是 [!UICONTROL 訓練教學課程] 範本：
+
+>[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
 ### 廣告
 

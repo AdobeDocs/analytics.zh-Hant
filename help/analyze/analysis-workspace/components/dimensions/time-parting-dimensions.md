@@ -2,19 +2,23 @@
 description: 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
 title: 時間分段維度
 uuid: c9fa7921-aa57-483c-b2f9-da55013ada17
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 92fbcc1e-1f7f-405a-8ad1-199fb7ba505e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 97%
 
 ---
 
 # 時間分段維度
 
 「時間分段」功能會擷取所收集的點擊的時間戳記，並採用更有意義的維度加以分段，例如「小時」或「星期」。
+
+以下是時間分段維度的影片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23727/?quality=12)
 
 時間分段維度是以報表套裝或虛擬報表套裝的時區為基礎。這類維度是由 Analysis Workspace 所提供，並且可以協助回答以下問題：
 
@@ -30,7 +34,7 @@ ht-degree: 100%
 Analysis Workspace 中的時間分段維度包括：
 
 | 維度 | 範例值 |
-|--- |--- |
+| --- | --- |
 | 小時 | 0-23 |
 | 上午/下午 | 上午、下午 |
 | 星期 | 星期一、星期二、星期三、星期四、星期五、星期六、星期日 |
