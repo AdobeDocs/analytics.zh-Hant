@@ -2,12 +2,12 @@
 description: 分類規則會經常尋找未分類的詞語。如果找到符合規則的結果，規則會自動將詞語新增到您的分類資料表格中。您也可以使用分類規則覆寫現有的索引鍵。
 subtopic: Classifications
 title: 分類規則
-feature: 管理工具
+feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '2028'
-ht-degree: 100%
+source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+workflow-type: tm+mt
+source-wordcount: '2020'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 分類規則可方便執行下列作業：
 
-* **電子郵件**&#x200B;和&#x200B;**顯示廣告**：建立分類規則以便將個別顯示廣告促銷活動分組，讓您能瞭解針對電子郵件促銷活動執行顯示促銷活動的成果。
+* **電子郵件** 和 **顯示廣告**:建立分類規則將個別顯示廣告促銷活動分組，以便您了解針對電子郵件促銷活動執行顯示促銷活動的方式。
 
 * **追蹤程式碼**：建立分類規則將衍生自追蹤程式碼內之字串的索引鍵值分類，並和您定義的特定準則比對。
 * **搜尋詞**：使用[規則運算式](/help/components/classifications/crb/classification-quickstart-rules.md)和萬用字元來簡化分類搜尋詞的程序。例如，如果搜尋詞包含 *`baseball`*，您可將分類 *`Sports League`* 設定為 *`MLB`*。
@@ -36,8 +36,8 @@ ht-degree: 100%
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
 | 開頭為 | em: | 管道 | 電子郵件 |
-| 結尾為 | Sale | 類型 | Sale |
-| 包含 | 2013 | 年 | 2013 |
+| 結尾為 | Sale | 類型 | 銷售 |
+| 包含 | 2013 | 年 | 2013年 |
 
 ## 規則的處理方式 {#how-rules-are-processed}
 
@@ -153,7 +153,7 @@ regex_classification_rules.xml
 
 | 規則運算式 | 字串或匹配結果 | 對應的匹配群組 |
 |--- |--- |--- |
-| `^(.+)\:(.+)\:(.+)$` | em:JuneSale：20130601 | `$0`: em:JuneSale:20130601  `$1`: em  `$2`: JuneSale  `$3`: 20130601 |
+| `^(.+)\:(.+)\:(.+)$` | em:JuneSale:20130601 | `$0`:em:JuneSale:20130601  `$1`:em  `$2`:6月銷售  `$3`:20130601 |
 | 建立語法 | `^` = 以該行開始 () = 將字元分組，並且讓您以括號擷取相符字元。`(.+)` = 擷取一個 ( .) 字元和 ( + ) 任何其他項目 \ = 字串的開始。`$` = 指示前面的字元 (或字元群組) 是行裡面最後一個。 |
 
 關於規則運算式中的字元代表意義的詳細資訊，請參閱[規則運算式 - 參考表格](/help/components/classifications/crb/classification-quickstart-rules.md#section_0211DCB1760042099CCD3ED7A665D716)。
@@ -202,10 +202,10 @@ regex_classification_rules.xml
 |--- |--- |--- |--- |
 | 比對字串 a:b 的規則運算式 | `^([^\:]+)\:([^\:]+)$` | a | `$1` |
 | 比對字串 a:b 的規則運算式 | `^([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 比對字串 a:b:c 的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
-| 比對字串 a:b:c 的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
-| 比對字串 a:b:c 的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
-| 比對字串 a:b:c:d 的規則運算式 | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
+| 匹配字串a的規則運算式:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | a | `$1` |
+| 匹配字串a的規則運算式:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | b | `$2` |
+| 匹配字串a的規則運算式:b:c | `^([^\:]+)\:([^\:]+)\:([^\:]+)$` | c | `$3` |
+| 匹配字串a的規則運算式:b:c:d | `^([^\:]+)\:([^\:]+)\:([^\:]+)\:([^\:])$` | d | `$4` |
 
 ## 規則運算式 - &quot;Does Not Contain&quot; 範例 {#section_FCA88A612A4E4B099458E3EF7B60B59C}
 
@@ -284,7 +284,7 @@ rule_priority.xml
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜尋類型 | Team |
-| 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
+| 2 | 包含 | Fantasy | 搜尋類型 | 幻想 |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
 如果使用者搜尋      *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
@@ -293,7 +293,7 @@ rule_priority.xml
 
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
-| 1 | 包含 | Cowboys | 城市 | Dallas |
+| 1 | 包含 | 牛仔隊 | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
 使用者搜尋    *`Cowboys vs. Broncos`*。如果規則產生器在規則匹配中發現衝突，會套用第二個規則的分類 (Denver) 到這個搜尋。
@@ -328,8 +328,8 @@ t_classification_rule.xml
    >*只有*&#x200B;在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
    >* 報告套裝的「[!UICONTROL 管理工具]」中，至少為該變數定義了一個分類。
-   >
-   >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
+      >
+      >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
    >
    >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
