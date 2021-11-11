@@ -2,10 +2,10 @@
 description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: f034baca23980ae70d83bc6488e13fc610a43ab1
-workflow-type: ht
+source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+workflow-type: tm+mt
 source-wordcount: '685'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 我們為什麼要終止此功能？
 
-這項功能由舊有技術提供支援，這些技術已不再可行或受支援。[Adobe Exchange Marketplace](https://partners.adobe.com/exchangeprogram/experiencecloud) 現在是尋找 Adobe 解決方案的現行整合服務的地方。
+這項功能由舊有技術提供支援，這些技術已不再可行或受支援。[Adobe Exchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product) 現在是尋找 Adobe 解決方案的現行整合服務的地方。
 
 ## 移除此功能對您有何影響？
 
