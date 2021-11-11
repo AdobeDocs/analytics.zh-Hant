@@ -2,10 +2,10 @@
 title: Analytics 整合
 description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
+source-git-commit: 80698e880e2fe218525854d4ccc8dba341b1da5d
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 80%
+source-wordcount: '177'
+ht-degree: 73%
 
 ---
 
@@ -13,9 +13,7 @@ ht-degree: 80%
 
 ![橫幅](../../assets/doc_banner_integrate.png)
 
-本指南著重於整合多個Adobe Experience Cloud解決方案。 若想了解 Analytics Data Connector，請參閱匯入使用者指南中的 [Data Connector](/help/import/data-connectors/getting-started-data-connectors.md) 頁面。
-
-完成與 Adobe Experience Cloud 解決方案 (例如 Audience Manager、Advertising Cloud 或 Target) 的整合設定。其功能包括：
+本指南著重於整合多個Adobe Experience Cloud解決方案，例如Audience Manager、Advertising Cloud或Target。 其功能包括：
 
 * **Audience Analytics：**&#x200B;整合 Adobe Audience Manager 與 Adobe Analytics。
 * **Advertising Analytics：**&#x200B;並排顯示付費搜尋資料與 Adobe Analytics 資料。
@@ -25,7 +23,7 @@ ht-degree: 80%
 * **Adobe Campaign 報告：**&#x200B;整合 Adobe Analytics 與 Adobe Campaign。
 * **AEM Assets 報告：**&#x200B;可讓您收集 Adobe Experience Manager 所提供資產的曝光次數與點擊次數。
 
-以下是Adobe Analytics的影片概觀：
+Here is a video overview of Adobe Analytics:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
