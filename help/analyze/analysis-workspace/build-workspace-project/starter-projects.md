@@ -5,10 +5,10 @@ uuid: d6d1b745-a684-41c1-879b-9f9a9503fe00
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
+source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 97%
+source-wordcount: '1410'
+ht-degree: 88%
 
 ---
 
@@ -41,9 +41,7 @@ ht-degree: 97%
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
-### 您可以在自訂範本執行的動作
-
-![](assets/custom_templates.png)
+### 管理自訂範本 {#manage-custom-template}
 
 | 動作 | 說明 |
 |--- |--- |
@@ -66,11 +64,7 @@ ht-degree: 97%
 
 ### 培訓
 
-這個標準範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這些範本會在「新增專案」模組中作為標準範本提供使用，取代目前現有的範例專案。
-
-* **培訓教學課程 - 內部搜尋分析**：內部搜尋教學課程可協助您了解訪客想在網站或應用程式上尋找但沒有找到的內容。分析這類資料可以找出內容最佳化機會。
-
-* **訓練教學課程 - 行銷分析**：此教學課程將為您示範如何為主管建立行銷分析，包括重要的自訂維度和量度有哪些。
+此標準範本會逐步引導您了解常用術語，以及在工作區中首次建立分析的步驟。 若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。
 
 以下是 [!UICONTROL 訓練教學課程] 範本：
 
@@ -80,38 +74,40 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->您必須在 Advertising Cloud 啟用報表套裝，才可使用廣告範本。
+>只有在您的報表套裝已啟用 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
 
 * **付費搜尋引擎**：此範本可劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等項目。
 
 ### 商務
 
-* **Magento：行銷與商務**：此範本依行銷通路歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等條件提供深入分析。如需影片簡介，請參閱：
+* **Magento：行銷與商務**：此範本依行銷通路歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等條件提供深入分析。以下是以下的教學課程影片： [Magento:行銷與商務範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hant).
 
->[!VIDEO](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hant)
+### 資料彙集
+
+* **ITP影響**:了解Apple的ITP如何影響您的資料，以及如何據此調整報表。
 
 ### 媒體
 
-* **音訊使用量**：使用者最常使用且受到哪些內容吸引？以下是「音訊使用情況」範本的影片：
+* **內容使用量**:誰是我的忠實讀者
+* **造訪間隔 — 頻率 — 忠誠度**:哪些內容最常使用且吸引使用者？
+* **串流媒體耗用量**:提供所有數位裝置的媒體耗用量趨勢和排名在前的量度。 以下是串流媒體使用範本上的影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
-* **使用間隔 - 頻率 - 忠誠度**：誰是我的忠實讀者？
-
-### 行動
+### 行動裝置
 
 >[!IMPORTANT]
 >
->您的報表套裝必須為行動裝置啟用，才能使用行動範本。
+>只有在您的報表套裝已啟用行動應用程式分析時，行動範本才可供使用。
 
-* **傳送訊息**：著重於應用程式內及推播訊息的效能。
-* **位置**：當中的地圖可呈現位置資料。
-* **關鍵量度：**&#x200B;掌握您應用程式的關鍵量度。
-* **應用程式使用情形：**&#x200B;應用程式擁有多少使用者和首次啟動次數，而平均工作階段時間長度又如何？
 * **贏取：**&#x200B;了解行動裝置客戶贏取連結的成效。
+* **應用程式使用情形：**&#x200B;應用程式擁有多少使用者和首次啟動次數，而平均工作階段時間長度又如何？
+* **歷程：**&#x200B;我應用程式中的顯著使用模式為何？
+* **關鍵量度：**&#x200B;掌握您應用程式的關鍵量度。
+* **位置**：當中的地圖可呈現位置資料。
+* **傳送訊息**：著重於應用程式內及推播訊息的效能。
 * **成效：**&#x200B;應用程式的成效如何，以及使用者在哪些階段遭遇問題？
 * **保留率：**&#x200B;我的忠實使用者是哪些人，以及他們都進行什麼活動？
-* **歷程：**&#x200B;我應用程式中的顯著使用模式為何？
 
 ### 零售
 
@@ -121,6 +117,7 @@ ht-degree: 97%
 ### Web
 
 * **贏取：**&#x200B;為我的網站帶來最多流量的因素是什麼？
+* **AEM網站效能概述：** 我的Adobe Experience Manager網站成效如何？
 * **內容消耗：**&#x200B;使用者最常前往我網站的哪些位置？
 * **保留率：**&#x200B;什麼類型的使用者可能成為我網站的忠實使用者？
 * **技術：**&#x200B;使用者使用哪些技術來存取我的網站？
@@ -130,10 +127,6 @@ ht-degree: 97%
 >[!NOTE]
 >
 >「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hant) 的一部分使用。
-
-「人物」範本的影片概觀：
-
->[!VIDEO](https://video.tv.adobe.com/v/24037/?quality=12)
 
 此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
 
@@ -145,7 +138,7 @@ ht-degree: 97%
 * 了解如何搭配「人物」量度使用區段堆疊。
 * 了解如何透過環境中的 Experience Cloud ID 增強「人物」量度的效益。
 
-### 歷程 IQ：Cross-Device Analysis 範本
+### 歷程IQ:跨裝置分析範本
 
 <!--This content is mirrored in the CDA doc.-->
 
