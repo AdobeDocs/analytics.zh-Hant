@@ -4,10 +4,10 @@ description: 您可以為使用者設定一般和專案偏好設定，以及深�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 78%
+source-wordcount: '277'
+ht-degree: 76%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 78%
 「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面可讓您從使用者層級管理 Analysis Workspace 設定及其相關元件。用戶偏好設定適用於所有&#x200B;**&#x200B;新專案或面板。
 
 ![用戶偏好設定](assets/user-preferences.png)
+
+以下是使用者偏好設定的短片：
+
+>[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## 一般偏好設定
 

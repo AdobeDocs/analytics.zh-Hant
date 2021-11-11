@@ -2,13 +2,13 @@
 description: Workspace 中僅供檢視的專案
 keywords: 僅供檢視的專案
 title: 僅供檢視的專案
-feature: 監管與共用
+feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '249'
-ht-degree: 100%
+source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+workflow-type: tm+mt
+source-wordcount: '254'
+ht-degree: 96%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 100%
 您可以透過[專案共用工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設置於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以採取此做法。
 
 ![](assets/view-only-project.png)
+
+以下是僅限檢視專案的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36206/?quality=12)
 
 ## 停用的互動功能
 
