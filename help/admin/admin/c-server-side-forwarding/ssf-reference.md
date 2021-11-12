@@ -3,10 +3,10 @@ description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊�
 title: 伺服器端轉送資料和程式碼參考
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: 47026c5256039cf3fd9ff5d9a301778160ada9b6
+source-git-commit: 4f29245a80e54f3fbc5a830075d066b31d23c628
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 92%
 
 ---
 
@@ -36,7 +36,8 @@ ht-degree: 93%
 | Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 | `h_accept-language` |
 | Referer | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referer` 標題收集。 | `h_referer` |
 | 反向連結 | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referrer` 標題收集。 | `h_referrer` |
-| IP | 從傳送要求至DCS之主機的IP產生的訊號。 | `h_ip` |
+
+此外， `h_ip` 訊號是從傳送要求至DCS之主機的IP產生。
 
 ## 客戶定義的訊號 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
