@@ -3,10 +3,10 @@ description: 伺服器端轉送呼叫之設定變數、HTTP 標題及資料訊�
 title: 伺服器端轉送資料和程式碼參考
 uuid: 3eb3ea0f-a530-448d-bba5-6408b2490dc8
 exl-id: 6ab7bbb6-0709-427b-b9fa-a179dbe55fc9
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f1e1a30e29faab66995b683acbf6748aeeec91fc
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 95%
+source-wordcount: '611'
+ht-degree: 94%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 95%
 
 ## 設定變數 {#section_AD402B5EB9B24BF3B2039DA80FCA901E}
 
-前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html)。
+前置詞為 `d_*` 的參數可識別[資料收集伺服器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/system-components/components-data-collection.html?lang=zh-Hant) (DCS) 所使用的特殊系統層級索引鍵值組。另請參閱 [DCS API 呼叫的支援屬性](https://experienceleague.adobe.com/docs/audience-manager/user-guide/api-and-sdk-code/dcs/dcs-api-reference/dcs-keys.html?lang=zh-Hant)。
 
 | 參數 | 說明 |
 |--- |--- |
@@ -29,16 +29,14 @@ ht-degree: 95%
 
 這些標題為包含資訊的欄位，例如 HTTP 呼叫中的資料請求和回應。
 
-<!-- Meike, missing link in table below: "See Understanding Calls to the Demdex Domain" -->
-
-| HTTP 標題 | 說明 |
-|--- |--- |
-| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。其顯示為  `host name .demdex.net`。請參閱瞭解向 Demdex 網域進行的呼叫。 |
-| User-Agent | 設為傳入 Analytics 的 User-Agent 標題。 |
-| X-Original-User-Agent | 只有當替代的使用者代理是由以下其中一個標題指定時，才會設定：</br>`X-Device-User-Agent\ `  </br>`X-Original-User-Agent\`   </br>`X-OperaMini-Phone-UA\`   </br>`X-Skyfire-Phone\`    </br>`X-Bolt-Phone-UA\` |
-| X-Forwarded-For | 設為提出請求之用戶端的 IP 位址。Analytics 會剖析好傳入的 `X-Forwarded-For` 標題，並判別要使用的正確 IP 位址。 |
-| Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 |
-| Referer | 設為傳入 Analytics 或從傳入 Analytics 的 Referer 標題所收集的頁面 URL。 |
+| HTTP 標題 | 說明 | h_鍵被Audience Manager接受 |
+| --- | --- | --- |
+| 主機 | 這會設為在 Analytics 主機設定檔案中指定之用戶端的特定資料收集主機名稱。其顯示為  `host name .demdex.net`。請參閱[了解向 Demdex 網域進行的呼叫](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)。 | `h_host` |
+| User-Agent | 設為傳入 Analytics 的 User-Agent 標題。 | `h_user-agent` |
+| Accept-Language | 設為傳入 Analytics 的 `Accept-Language` 標題。 | `h_accept-language` |
+| Referer | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referer` 標題收集。 | `h_referer` |
+| 反向連結 | 設定為傳入 Analytics 的頁面 URL 或透過傳入 Analytics 的 `Referrer` 標題收集。 | `h_referrer` |
+| IP | 從傳送要求至DCS之主機的IP產生的訊號。 | `h_ip` |
 
 ## 客戶定義的訊號 {#section_8F8C39E87BDE48BAA59E25CB7E86215D}
 
@@ -49,7 +47,7 @@ ht-degree: 95%
 | c_browserWidth 和 c_browserHeight | 瀏覽器視窗寬度和高度。 |
 | c_campaign | 由 s.campaign 設定。 |
 | c_channel | 由 s.channel 設定。 |
-| c_clientDateTime | 時間戳記格式為 dd/mm/yyy hh:mm:ss W TZ。TZ 的單位為分鐘，且符合 Date.getTimezoneOffset 方法的回傳。 |
+| c_clientDateTime | 時間戳，格式為dd/mm/yyy hh:mm:ss W TZ 。    TZ 的單位為分鐘，且符合 Date.getTimezoneOffset 方法的回傳。 |
 | c_colorDepth | 指定為 16 or 32 位元色彩。 |
 | c_connectionType | 指定連線類型。選項包括：<ul><li>數據機</li><li>LAN</li></ul> |
 | c_contextData.* | 範例：<ul><li>AppMeasurement: s.contextData</li><li>[&quot;category&quot;] = &quot;news&quot;;</li><li>訊號：c_contextData.category=news</li></ul> |
