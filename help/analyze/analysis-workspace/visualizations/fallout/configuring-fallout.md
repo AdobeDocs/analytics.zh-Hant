@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
 source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '700'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,11 +52,11 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>最終路徑 </p> <p>(預設) </p> </td> 
-   <td colname="col2"> <p>訪客（或瀏覽）最終登陸路徑中的下一個接觸點時，即會被計算在內。 可在接觸點之間繞行。 </p> </td> 
+   <td colname="col2"> <p>當訪客 (或造訪) 最後登陸路徑中的下一個接觸點時會被計入。接觸點之間允許繞道。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下一次點擊 </p> </td> 
-   <td colname="col2"> <p>訪客（或瀏覽）會在立即登陸路徑中的下一個接觸點時被計算。 下次點擊包含任何點擊類型（頁面檢視或連結）。 接觸點之間不允許繞行。 </p> </td> 
+   <td colname="col2"> <p>當訪客 (或造訪) 即刻登陸路徑中的下一個接觸點時會被計入。下一個點擊包括任何點擊類型 (頁面檢視或連結)。接觸點之間不允許繞道。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
