@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: b6ccdf91-98ce-413f-842d-c5423598ed49
 source-git-commit: 2a20ce50f773c82856da59154bb212f1fca2b7ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -29,54 +29,54 @@ ht-degree: 44%
 
 ## 什麼時候會發生連結追蹤？
 
-Activity Map點按頁面時，就會發生連結和地區識別。
+當使用者點選頁面時，就會進行 Activity Map 連結和區域識別。
 
 ## 預設會追蹤哪些項目？
 
-如果點按事件發生在元素上，元素必須傳遞一些檢查以判斷AppMeasurement是否會將其視為連結。 所進行的檢查如下：
+如果點選事件發生在元素上，該元素必須傳遞一些檢查以判斷 AppMeasurement 是否將其視為連結。所進行的檢查如下:
 
-* 這是 `A` 或 `AREA` 標籤 `href` 屬性？
-* 是否有 `onclick` 屬性 `s_objectID` 變數？
-* 這是 `INPUT` 標籤或 `SUBMIT` 按鈕（帶有值或子文本）?
-* 這是 `INPUT` 標籤類型 `IMAGE` 和 `src` 屬性？
-* 這是 `BUTTON`?
+* 這是否為具有 `href` 屬性的 `A` 或 `AREA` 標記？
+* 是否有 `onclick` 屬性且設定 `s_objectID` 變數？
+* 這是否為 `INPUT` 標記或具有值或子文字的 `SUBMIT` 按鈕？
+* 這是否為具有類型 `IMAGE` 和 `src` 屬性的 `INPUT` 標記？
+* 這是否為 `BUTTON`？
 
-如果以上任一問題的答案為是，則會將該元素視為連結，並進行追蹤。
-
->[!IMPORTANT]
->
->AppMeasurement不會將具有屬性type=&quot;button&quot;的按鈕標籤視為連結。 請考慮移除按鈕標籤上的type=&quot;button&quot;，改為新增role=&quot;button&quot;或submit=&quot;button&quot;。
+如果以上任一問題的答案為「是」，則會將該元素視為連結，並進行追蹤。
 
 >[!IMPORTANT]
 >
->AppMeasurement會將以「#」開頭之「href」的錨點標籤視為內部目標位置，而非連結（因為您並未離開頁面）。 依預設，Activity Map 不會追蹤這些內部目標位置。它只會追蹤將使用者導覽至新頁面的連結。
+>AppMeasurement 不會將具有屬性 type=&quot;button&quot; 的按鈕標記視為連結。請考慮移除按鈕標記上的 type=&quot;button&quot;，改為新增 role=&quot;button&quot; 或 submit=&quot;button&quot;。
 
-## Activity Map如何追蹤其他視覺HTML元素？
+>[!IMPORTANT]
+>
+>AppMeasurement 會將包含以「#」開頭的「href」的錨點標記視為內部目標位置，而非連結 (因為您並沒有離開頁面)。 依預設，Activity Map 不會追蹤這些內部目標位置。它只會追蹤將使用者導覽至新頁面的連結。
 
-a.透過 `s.tl()` 函式。
+## Activity Map 如何追蹤其他視覺化 HTML 元素？
 
-如果點按是透過 `s.tl()` 呼叫，則Activity Map也會收到此點按事件，並判斷 `linkName` 找到字串變數。 期間 `s.tl()` 執行時，該linkName會設為Activity Map連結ID。 產生 `s.tl()` 會使用呼叫來判斷地區。 範例：
+a. 透過 `s.tl()` 功能。
+
+如果透過 `s.tl()` 引動而發生點選，則 Activity Map 也將收到此點選事件並判斷是否找到 `linkName` 字串變數。在 `s.tl()` 執行期間，該 linkName 將設為 Activity Map 連結 ID。 引起 `s.tl()` 呼叫的已點選元素將用於判斷區域。範例:
 
 ```
 <img onclick="s.tl(true,'o','abc')" src="someimageurl.png"/>
 ```
 
-b.透過 `s_objectID` 變數。 範例：
+b. 透過 `s_objectID` 變數。範例:
 
-    &quot; 
+    ``` 
     
-    &lt;img onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot; src=&quot;someimageurl.png&quot; />
-    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&amp;#39;abc&amp;#39;;&quot;>
-    將文本連結到此處
+    &lt;img onclick=&quot;s_objectID=&#39;abc&#39;;&quot; src=&quot;someimageurl.png&quot;/>
+    &lt;a href=&quot;some-url.html&quot; onclick=&quot;s_objectID=&#39;abc&#39;;&quot; >
+    此處為連結文字
     &lt;/a>
     
-    &quot;
+    ```
 
 >[!IMPORTANT]
 >
->使用 `s_objectID` Activity Map。
+>在 Activity Map 中使用 `s_objectID` 時，需要在結尾加上分號 (;)。
 
-## 能提供一些會被追蹤的連結範例嗎？
+## 您可以提供一些會被追蹤的連結範例嗎？
 
 ### 範例 1
 
@@ -96,7 +96,7 @@ b.透過 `s_objectID` 變數。 範例：
   <input type="image" src="submit-button.png"/>
 ```
 
-### 範例4
+### 範例 4
 
 ```
     <p onclick="var s_objectID='custom link id';">
@@ -105,7 +105,7 @@ b.透過 `s_objectID` 變數。 範例：
     </p>
 ```
 
-### 範例5
+### 範例 5
 
 ```
     <div onclick="s.tl(true,'o','custom link id')">
@@ -114,12 +114,12 @@ b.透過 `s_objectID` 變數。 範例：
     </div>
 ```
 
-## 可以提供一些「不會」被追蹤的連結範例嗎？
+## 您可以提供一些「不會」被追蹤的連結範例嗎？
 
-1. 原因：錨記沒有有效的 `href`:
+1. 原因: 錨點標記沒有有效的 `href`:
    `<a name="innerAnchor">Section header</a>`
 
-1. 原因：兩者皆不 `s_ObjectID` no `s.tl()` 目前：
+1. 原因: 不存在 `s_ObjectID` 或 `s.tl()`:
 
    ```
    <p onclick="showPanel('market rates')">
@@ -128,7 +128,7 @@ b.透過 `s_objectID` 變數。 範例：
    </p>
    ```
 
-1. 原因：兩者皆不 `s_ObjectID` no `s.tl()` 目前：
+1. 原因: 不存在 `s_ObjectID` 或 `s.tl()`:
 
    ``` 
    <input type="radio" onclick="changeState(this)" name="group1" value="A"/>
@@ -137,7 +137,7 @@ b.透過 `s_objectID` 變數。 範例：
    
    ```  
    
-1. 原因：&quot;src&quot;屬性缺少表單輸入元素：
+1. 原因:「src」屬性遺漏表單輸入元素:
 
    `<input type="image"/>`
 
