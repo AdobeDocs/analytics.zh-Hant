@@ -6,9 +6,9 @@ feature: Activity Map
 role: User, Admin
 exl-id: 6b2767cb-6c2c-4bf3-b9a9-a23418624650
 source-git-commit: 7b093860dfd0c355780269a3d155ade2d153edfe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Activity Map 每隔幾秒鐘會掃描網頁一次，查看頁面是否有變更�
 
 * Activity Map 會查看它所知道的連結的可見度是否已變更。 如果發現可見度有變更，則該連結的「頁面上連結」表格的「存在」欄會以[!UICONTROL 已顯示]或[!UICONTROL 已隱藏]來更新。
 
-* 當用戶互動建立新內容時，AppMeasurement 找到的任何新元素如果是連結，則會新增到[!UICONTROL 頁面上連結]表格中。 Activity Map 會傳送包含這些新連結的新資料要求。 當資料要求是由 UI 進行處理時，新連結應該會出現在[!UICONTROL 頁面上連結]表格中。
+* 當使用者互動建立新內容時，AppMeasurement 找到的任何新元素如果是連結，則會新增到[!UICONTROL 頁面上連結]表格中。 Activity Map 會傳送包含這些新連結的新資料要求。 當資料要求是由 UI 進行處理時，新連結應該會出現在[!UICONTROL 頁面上連結]表格中。
 
 
 ## Activity Map 是否提供「檢視次數」的資料？
@@ -41,7 +41,7 @@ Activity Map 支援最新版本的最新瀏覽器。
 
 Activity Map 本身不會傳送伺服器呼叫。Activity Map 內文資料變數會隨 Analytics 頁面檢視呼叫包含在後續頁面上。
 
-## 為什麼會遺失部分排名項目覆蓋圖？
+## 為什麼缺少部分排名項目覆蓋圖？
 
 有些排名連結 (例如子功能表連結) 會隱藏在頁面中。因此也不會顯示其對應的連結覆蓋圖。排名會計算頁面上所有連結，包括隱藏的連結。
 
@@ -84,15 +84,15 @@ Activity Map 每 2 秒檢查一次，查看是否有如下所示的網頁狀態�
 
 可以。不過，由於虛擬報表套裝本身限制，Activity Map 的即時模式與虛擬報表套裝不相容。
 
-## 如何停用Activity Map?
+## 我如何才能停用 Activity Map？
 
-您有三個選項：
+您有三種選項:
 
-* 刪除 `AppMeasurement_Module_ActivityMap` 函式
-* 新增自訂程式碼，以使用空白內文重寫上述函式，例如：
+* 從 JS 檔刪除 `AppMeasurement_Module_ActivityMap` 功能
+* 例如，透過空白內文新增重寫上述函數的自訂程式碼:
 
    ```
    function AppMeasurement_Module_ActivityMap() {}
    ```
 
-* 設定AppMeasurement，方法是： `s.trackClickMap` 和 `s.trackInlineStats` to `false`
+* 透過設定 `s.trackClickMap` 和 `s.trackInlineStats` 到 `false` 來設定 AppMeasurement 
