@@ -2,13 +2,13 @@
 description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
 keywords: Analysis Workspace
 title: 為專案排程
-feature: 監管與共用
+feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,22 @@ ht-degree: 100%
 
 在「排程專案管理員」中，您可以編輯和刪除周期性專案排程。在搜尋列中或使用左側邊欄中的篩選選項來搜尋排程。您可以依標籤、核准的排程、擁有者等篩選。
 
-![](assets/scheduled-project-manager.png)
+![](assets/scheduled-project-manager2.png)
+
+| 欄位 | 說明 |
+| --- | --- |
+| 我的最愛 | 選擇星形表徵圖可使此計畫成為收藏夾。 |
+| 排程 ID | 此ID主要用於偵錯。 |
+| 標題和說明 | 此專案的標題和說明。 |
+| 所有者 | 建立和擁有專案的人員。 |
+| 標記 | （選用）標籤是組織專案的好方法。 所有使用者都可以建立標籤，並套用一或多個標籤至專案。 不過，您只能看見自己所擁有或已共用給您之專案的標籤。 |
+| 傳送至 | 此排程專案的收件者。 |
+| 到期日 | 預設到期日是從建立日期開始的一年。 |
+| 頻率 | 您希望將此排程專案傳送給收件者的頻率。 |
+| 執行時間 | 此排程的專案會在一天的何時傳送。 |
+| 查詢數 | 針對此項目的查詢數。 |
+
+## 常見動作
 
 下列是「排程專案管理員」中的常見動作：
 

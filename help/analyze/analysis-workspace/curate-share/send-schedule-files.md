@@ -2,19 +2,19 @@
 description: 您可以組織、共用和排定 PDF/CSV 專案給組織中的收件者。
 title: 共用選單
 uuid: d8539e0b-eaa5-4a3d-8282-a37d47e2fe96
-feature: 監管與共用
+feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
+workflow-type: tm+mt
+source-wordcount: '162'
+ht-degree: 88%
 
 ---
 
-# 共用選單
+# 共用功能表
 
-您可以在 Workspace **「共用」選單**&#x200B;中，組織、共用及排定 PDF/CSV 專案給組織中的收件者。
+您可以在工作區中組織、共用及排程PDF/CSV專案給組織中的收件者 **共用功能表**.
 
 | 選單選項 | 說明 |
 |---|---|

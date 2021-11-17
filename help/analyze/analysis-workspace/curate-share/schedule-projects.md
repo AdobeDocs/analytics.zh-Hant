@@ -3,15 +3,15 @@ description: 管理已排程的Analysis Workspace專案
 keywords: Analysis Workspace
 title: 排程專案管理員
 uuid: 28e3e0de-3cca-40b1-a9de-93a10bd31646
-source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
+source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 89%
+source-wordcount: '175'
+ht-degree: 84%
 
 ---
 
 
-# 排程專案管理員
+# 已排程專案管理器
 
 管理已排程 Analysis Workspace 專案。
 
@@ -28,6 +28,10 @@ ht-degree: 89%
 「排程專案管理員」會顯示特定使用者建立的項目。若應用程式內的使用者帳戶已被停用，所有已安排的傳送將停止。
 
 ![](assets/scheduled-projects.png)
+
+## 排程專案管理員任務
+
+在 [!UICONTROL 排程專案] UI，您可以：
 
 * 編輯已排程專案。
 * 檢視專案的排程 ID (主要用於除錯)。
