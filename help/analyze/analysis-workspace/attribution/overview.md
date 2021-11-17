@@ -4,10 +4,10 @@ description: 將成功事件的評分歸因於多個維度項目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
+source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 97%
+source-wordcount: '442'
+ht-degree: 96%
 
 ---
 
@@ -48,6 +48,19 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 
 ## 影片
 
-以下是自由表格中Attribution IQ的影片：
+Attribution IQ:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
+
+計算量度的歸因 IQ
+
+>[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
+
+使用「Attribution IQ」面板：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
+
+新增Attribution IQ模型的並排比較：
+
+>[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
+
