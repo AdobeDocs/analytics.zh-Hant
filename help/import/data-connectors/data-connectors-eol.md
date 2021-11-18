@@ -2,7 +2,7 @@
 description: 了解 Analytics資料連接器何時終止及終止原因。
 title: Analytics資料連接器終止服務預先公告
 exl-id: b407675a-9fcf-4f24-bc88-69ccdb5b3658
-source-git-commit: 82e1c1d75db53f97b2f1858e26f6b369d157f834
+source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 99%
@@ -11,9 +11,9 @@ ht-degree: 99%
 
 # Adobe資料連接器終止服務
 
-十多年來，Adobe Analytics 致力於提供同級最佳的網頁與行銷分析解決方案，以符合客戶的需求。隨著技術和企業需求不斷演變，我們努力繼續提供符合最高標準的服務。很遺憾的是，支援這些整合作業的 API 不再符合標準，且不再適用於如今的 Adobe Analytics 技術基礎架構。
-
 **自 2021 年 8 月 19 日起**，Adobe 已終止資料連接器整合服務。 終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
+
+十多年來，Adobe Analytics 致力於提供同級最佳的網頁與行銷分析解決方案，以符合客戶的需求。隨著技術和企業需求不斷演變，我們努力繼續提供符合最高標準的服務。很遺憾的是，支援這些整合作業的 API 不再符合標準，且不再適用於如今的 Adobe Analytics 技術基礎架構。
 
 ## 我們為什麼要終止此功能？
 
@@ -62,7 +62,7 @@ ht-degree: 99%
 | Demandbase CA | 即將停止使用 |
 | Demandbase v3 | 即將停止使用 |
 | DialogTech | 遷移到最新的 API |
-| [DoubleClick for Advertisers (DFA)](/help/import/data-connectors/dfa-data-connector-analytics/dfa-eol.md) | 即將停止使用 |
+| [DoubleClick for Advertisers (DFA)] | 即將停止使用 |
 | DREAM | 即將停止使用 |
 | DREAMmail 1.0、DREAMmail 2.0 | 即將停止使用 |
 | Dynamic Signal (Nital Vora) | 遷移到最新的 API |

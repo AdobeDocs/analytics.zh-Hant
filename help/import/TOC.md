@@ -4,10 +4,9 @@ audience: end-user
 user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
 user-guide-description: '從外部來源大量或即時將資料讀入 Analytics。 '
-translation-type: ht
-source-git-commit: 537b41ee45cfa21bdf2e282fabc43a17fd90e327
-workflow-type: ht
-source-wordcount: '535'
+source-git-commit: a9d0cc251e8902f3c9c3cd9c31cbc71ae6ee20e9
+workflow-type: tm+mt
+source-wordcount: '126'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 100%
    + [需求和上傳限制](c-data-sources/datasrc-requirements.md)
    + [資料來源處理時間](c-data-sources/datasrc-processing-time.md)
    + [準備使用資料來源](c-data-sources/datasrc-preparing.md)
-   + [資料來源管理員](c-data-sources/datasrc-manager.md)
+   + [資料來源管理器](c-data-sources/datasrc-manager.md)
    + 資料來源範本 {#data-sources-template}
       + [資料來源範本概觀](c-data-sources/datasrc-template/datasrc-template-file.md)
       + [產生匯入檔案範本](c-data-sources/datasrc-template/t-datasrc-creating-data-sources-file.md)
@@ -42,93 +41,6 @@ ht-degree: 100%
    + [資料來源常見問題集](c-data-sources/datasrc-faq.md)
 + [資料插入 API](c-data-insertion-api/c-data-insertion-api.md)
 + Data Connectors {#dataconnectors}
-   + [開始使用 Analytics Data Connector](data-connectors/getting-started-data-connectors.md)
    + [Analytics Data Connectors 終止服務](data-connectors/data-connectors-eol.md)
-   + Adobe Analytics 的 appFigures Data Connector {#appfigures}
-      + [appFigures 概觀](data-connectors/appfigures-overview/appfigures-overview.md)
-      + [啟動這項整合的事前準備](data-connectors/appfigures-overview/appfigures-before-activation.md)
-      + [設定整合](data-connectors/appfigures-overview/t-appfigures-integration.md)
-      + [度量和維度](data-connectors/appfigures-overview/appfigures-metrics.md)
-      + [將應用程式資料分段](data-connectors/appfigures-overview/appfigures-segment-filter.md)
-   + Adobe Analytics 的 Aprimo Data Connector {#aprimo}
-      + [Adobe Analytics 的 Aprimo Data Connector](data-connectors/aprimo-overview/aprimo-overview.md)
-      + [啟用整合](data-connectors/aprimo-overview/t-aprimo-activate.md)
-      + [Adobe Analytics 外掛程式程式碼](data-connectors/aprimo-overview/aprimo-sitecatalyst-code.md)
-   + Adobe Analytics 的 ContactLab Data Connector {#contactlab}
-      + [Adobe Analytics 的 ContactLab Data Connector](data-connectors/c-contactlab-data-connector-for-adobe-analytics/c-contactlab-data-connector-for-adobe-analytics.md)
-      + [部署整合](data-connectors/c-contactlab-data-connector-for-adobe-analytics/contactlab-deploying-the-integration.md)
-   + Adobe Analytics 的 Datran Data Connector {#datran}
-      + [Adobe Analytics 的 Datran Data Connector](data-connectors/datran-integration-overview/datran-integration-overview.md)
-      + [資料連接器電子郵件整合的準備事項](data-connectors/datran-integration-overview/datran-configuring-integration.md)
-      + [執行 Data Connectors 整合精靈](data-connectors/datran-integration-overview/t-datran-wizard.md)
-   + Adobe Analytics 的 Delivra Data Connector {#delivra}
-      + [Adobe Analytics 的 Delivra Data Connector](data-connectors/delivra-integration-overview/delivra-integration-overview.md)
-      + [資料連接器電子郵件整合的準備事項](data-connectors/delivra-integration-overview/delivra-configuring-the-genesis-delivra-integration.md)
-      + [執行 Data Connectors 整合精靈](data-connectors/delivra-integration-overview/t-delivra-running-the-genesis-integration-wizard.md)
-   + Adobe Analytics 的 Demandbase Data Connector {#demandbase}
-      + [Adobe Analytics 的 Demandbase Data Connector](data-connectors/demandbase-home/demandbase-home.md)
-      + [部署整合](data-connectors/demandbase-home/demandbase-deploying.md)
-      + [使用整合](data-connectors/demandbase-home/demandbase-using-integration.md)
-      + [Demandbase 標準維度](data-connectors/demandbase-home/demandbase-standard-dimensions.md)
-      + [Demandbase 自訂維度](data-connectors/demandbase-home/demandbase-custom-dimensions.md)
-   + Adobe Analytics 的 DFA Data Connectors {#dfa}
-      + [DFA 整合生命週期結束資訊](data-connectors/dfa-data-connector-analytics/dfa-eol.md)
-      + [Adobe Analytics 的 DFA Data Connectors](data-connectors/dfa-data-connector-analytics/dfa-data-connector-analytics.md)
-      + [必備條件](data-connectors/dfa-data-connector-analytics/dfa-prerequisites.md)
-      + [整合功能](data-connectors/dfa-data-connector-analytics/dfa-integration-features.md)
-      + [Analytics 變數和事件](data-connectors/dfa-data-connector-analytics/dfa-analytics-variables-and-events.md)
-      + [DFA 整合](data-connectors/dfa-data-connector-analytics/dfa-integration.md)
-      + [使用 DFA 資料的分析報表](data-connectors/dfa-data-connector-analytics/dfa-analytics-reports.md)
-      + [協調量度差異](data-connectors/dfa-data-connector-analytics/dfa-reconciling-metric-discrepancies.md)
-      + [常見問題集](data-connectors/dfa-data-connector-analytics/dfa-faq.md)
-      + [延遲上限](data-connectors/dfa-data-connector-analytics/maxdelay.md)
-   + Adobe Analytics 的 DreamMail Data Connector {#dreammail}
-      + [Adobe Analytics 的 DreamMail Data Connector](data-connectors/dreammail-overview/dreammail-overview.md)
-      + [啟用整合](data-connectors/dreammail-overview/t-dreammail-activate.md)
-      + [Analytics 外掛程式程式碼](data-connectors/dreammail-overview/dreammail-analytics-code.md)
-   + Adobe Analytics 的 Dynamic Signal VoiceStorm Data Connector {#dynamicsignal}
-      + [Adobe Analytics 的 Dynamic Signal VoiceStorm Data Connector](data-connectors/dynamic-signal-for-analytics/dynamic-signal-for-analytics.md)
-      + [部署整合](data-connectors/dynamic-signal-for-analytics/dynamic-signal-deploy-integration.md)
-      + [使用整合](data-connectors/dynamic-signal-for-analytics/dynamic-signal-use-integration.md)
-   + Adobe Analytics 的 Emarsys Data Connector {#emarsys}
-      + [Adobe Analytics 的 Emarsys Data Connector](data-connectors/emarsys-overview/emarsys-overview.md)
-      + [資料連接器電子郵件整合的準備事項](data-connectors/emarsys-overview/emarsys-configure-integration.md)
-      + [Analytics 變數](data-connectors/emarsys-overview/emarsys-variables.md)
-      + [執行 Data Connectors 整合精靈](data-connectors/emarsys-overview/emarsys-wizard.md)
-   + Adobe Analytics 的 Kampyle Data Connector {#kampyle}
-      + [Adobe Analytics 的 Kampyle Data Connector](data-connectors/kampyle-home/kampyle-home.md)
-      + [部署整合](data-connectors/kampyle-home/kampyle-deploy.md)
-      + [使用整合](data-connectors/kampyle-home/kampyle-integration.md)
-   + Adobe Analytics 的 Lyris Data Connector {#lyris}
-      + [Adobe Analytics 的 Lyris Data Connector](data-connectors/lyris-overview/lyris-overview.md)
-      + [部署整合](data-connectors/lyris-overview/lyris-deploy-integration.md)
-   + Adobe Analytics 的 Neolane Ozon Data Connector {#neolane}
-      + [Adobe Analytics 的 Neolane Ozon Data Connector](data-connectors/neolane-overview/neolane-overview.md)
-      + [啟用整合](data-connectors/neolane-overview/neolane-activate.md)
-      + [Adobe Analytics 外掛程式程式碼](data-connectors/neolane-overview/neolane-plugin-code.md)
-   + Adobe Analytics 的 optivo broadmail Data Connector {#optivo}
-      + [Adobe Analytics 的 optivo broadmail Data Connector](data-connectors/optivo-overview/optivo-overview.md)
-      + [啟用整合](data-connectors/optivo-overview/optivo-activate.md)
-      + [Adobe Analytics 外掛程式程式碼](data-connectors/optivo-overview/optivo-plugin-code.md)
-   + Adobe Analytics 的 Qualtrics Data Connector {#qualtrics}
-      + [Adobe Analytics 的 Qualtrics Data Connector](data-connectors/qualtrics-overview/qualtrics-overview.md)
-      + [部署整合](data-connectors/qualtrics-overview/qualtrics-deploying.md)
-      + [使用整合](data-connectors/qualtrics-overview/qualtrics-integration.md)
-      + [查詢您的 Qualtrics 組織 ID](data-connectors/qualtrics-overview/qualtrics-org-id.md)
-      + [產生您的 Qualtrics Adobe Analytics 代號](data-connectors/qualtrics-overview/qualtrics-token.md)
-   + Adobe Analytics 的 Responsys Data Connector {#responsys}
-      + [Adobe Analytics 的 Responsys Data Connector](data-connectors/responsys-home/responsys-home.md)
-      + [部署整合](data-connectors/responsys-home/responsys-deploy/responsys-deploy.md)
-      + [驗證整合](data-connectors/responsys-home/responsys-verify.md)
-   + Adobe Analytics 的 Selligent Data Connector {#selligent}
-      + [Adobe Analytics 的 Selligent Data Connector](data-connectors/selligent-overview/selligent-overview.md)
-      + [部署整合](data-connectors/selligent-overview/selligent-deploy-integration.md)
-      + [查詢字串參數外掛程式代碼](data-connectors/selligent-overview/selligent-plugin-code.md)
-   + Adobe Analytics 的 Silverpop Data Connector {#silverpop}
-      + [Adobe Analytics 的 Silverpop Data Connector](data-connectors/silverpop-overview/silverpop-overview.md)
-      + [啟動這項整合的事前準備](data-connectors/silverpop-overview/silverpop-before-activation/silverpop-before-activation.md)
-      + [Analytics 整合變數](data-connectors/silverpop-overview/silverpop-variables.md)
-      + [Silverpop 整合](data-connectors/silverpop-overview/silverpop-wizard.md)
-      + [Analytics 外掛程式程式碼](data-connectors/silverpop-overview/silverpop-analytics-code.md)
 + 匯入使用案例 {#use-cases}
    + [使用資料來源匯入付費搜尋量度](use-cases/paid-search-metrics.md)
