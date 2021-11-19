@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
+source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 98%
+source-wordcount: '1011'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,10 @@ ht-degree: 98%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + [「媒體播放時間」面板](analysis-workspace/c-panels/media-playback-time-spent.md)
+      + 媒體播放時間 {#media-playback-timespent}
+         + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
+         + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
+         + [常見問答](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
          + [區段比較總覽](analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
@@ -175,7 +178,7 @@ ht-degree: 98%
             + [使用自訂運算式的日期範圍範例](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/examples-of-date-ranges-using-customized-expressions.md)
             + [考量事項](report-builder/data-requests/configuring-report-dates/c-customized-date-expressions/considerations.md)
          + [來自儲存格的日期](report-builder/data-requests/configuring-report-dates/t-dates-from-a-cell.md)
-         + [詳細程度](report-builder/data-requests/configuring-report-dates/granularity.md)
+         + [粒度](report-builder/data-requests/configuring-report-dates/granularity.md)
          + [自訂日曆](report-builder/data-requests/configuring-report-dates/custom-calendar.md)
       + [互動式控制項](report-builder/data-requests/interactive-controls.md)
    + 版面 - 請求精靈步驟 2 {#layout}
@@ -227,7 +230,7 @@ ht-degree: 98%
       + [指定條件式格式](report-builder/manage-requests/specify-conditional-formatting.md)
       + [建立及編輯請求的離線模式](report-builder/manage-requests/offline-mode.md)
    + [Report Builder 選項](report-builder/options.md)
-   + [排程報表請求](report-builder/schedule-report-requests.md)
+   + [排程報告請求](report-builder/schedule-report-requests.md)
    + [排程活頁簿](report-builder/t-schedule-a-data-request.md)
    + [排程的工作管理員](report-builder/r-arb-scheduled-reports.md)
    + 活頁簿資料庫 {#workbook-library}
@@ -259,7 +262,7 @@ ht-degree: 98%
    + 連結追蹤 {#link-tracking}
       + [連結追蹤方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
       + [連結追蹤常見問答](activity-map/activitymap-link-tracking/link-tracking-faq.md)
-      + [區別參照相同連結 ID 和地區的連結](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
+      + [區別參照相同連結 ID 和區域的連結](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
       + [停止連結追蹤](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [使用 s.tl() 函數](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
    + [標準模式和即時模式的比較](activity-map/activitymap-standard-live.md)
@@ -274,7 +277,7 @@ ht-degree: 98%
    + [支援的系統和需求](activity-map/activitymap-sysreqs.md)
    + [Activity Map 常見問答](activity-map/activitymap-faq.md)
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
-   + [Activity Map 用戶介面](activity-map/activitymap-user-interface.md)
+   + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
    + [疑難排解瀏覽器延伸模組](activity-map/troubleshooting-browser-extensions.md)
    + [疑難排解資料彙集](activity-map/troubleshoot-data-collection.md)
@@ -309,11 +312,11 @@ ht-degree: 98%
    + [行事曆事件](reports-analytics/t-calendar-event.md)
    + [常見問答](reports-analytics/frequently-asked-questions.md)
    + [疑難排解](reports-analytics/report-troubleshooting.md)
-+ Adobe Analytics 控制面板 {#mobapp}
-   + [Adobe Analytics 控制面板 - 總覽](mobile-app/home.md)
-   + [組織者簡介](mobile-app/curator.md)
++ Adobe Analytics 儀表板 {#mobapp}
+   + [Adobe Analytics 儀表板 - 總覽](mobile-app/home.md)
+   + [組織者介紹](mobile-app/curator.md)
    + [建立行動計分卡](mobile-app/create-scorecard.md)
-   + [設定執行官以使用控制面板](mobile-app/set-up-execs.md)
-   + [執行使用者快速入門指南](mobile-app/executive.md)
+   + [設定使用控制面板的主管](mobile-app/set-up-execs.md)
+   + [主管使用者快速入門指南](mobile-app/executive.md)
 + [報告 API](reporting-api.md)
 + [Labs](labs.md)
