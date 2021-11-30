@@ -3,10 +3,10 @@ title: Adobe Analytics 技術文件更新
 description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7a8a4d6c7a7addc1e5432d0f8d092caa64feb1eb
-workflow-type: ht
-source-wordcount: '2957'
-ht-degree: 100%
+source-git-commit: 579279798d67536fde182386ec0cf8db36785cc2
+workflow-type: tm+mt
+source-wordcount: '2958'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2021 年 10 月** |  |
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[快速區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant)的新文件。 |
-| 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[花費的媒體播放時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-time-spent.html?lang=zh-Hant)面板的新文件。 |
+| 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[花費的媒體播放時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html)面板的新文件。 |
 | 2021 年 10 月 7 日 | 有關[行動計分卡視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#apply-visualizations)的新文件 |
 | **2021 年 8 月** |  |
 | 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant) |
@@ -57,7 +57,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 12 月 7 日 | 已修改所有相關頁面，以包含或替代 &quot;adobedc.net&quot; 端點。 |
 | 2020 年 12 月 8 日 | 工作區中「[建立新專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html?lang=zh-Hant)」頁面的更新。 |
 | **2020 年 11 月** |  |
-| 2020 年 11 月 24 日 | 工作區中「[面板概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)」頁面的更新。 |
+| 2020 年 11 月 24 日 | 工作區中「[面板概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)」頁面的更新。 |
 | 2020 年 11 月 24 日 | 新的實作審核文件： <ul><li>[完整實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/full-review.html?lang=zh-Hant)</li><li>[重點實作審核](https://experienceleague.adobe.com/docs/analytics/implementation/review/focused-review.html?lang=zh-Hant)</li></ul> |
 | 2020 年 11 月 24 日 | 已更新 Analysis Workspace 的「[視覺效果概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)」頁面。 |
 | 2020 年 11 月 12 日 | 有關[繼承的 Adobe Analytics 實作](https://experienceleague.adobe.com/docs/analytics/implementation/prepare/existing-implementation.html?lang=zh-Hant)的新頁面。 |
@@ -68,9 +68,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 10 月 23 日 | 已在 Adobe Analytics 儀表板文件中新增增強功能。 現在，在工作區中建立行動計分卡時，計分卡的樣式會與應用程式相符。 |
 | **2020 年 9 月** |  |
 | 2020 年 9 月 17 日 | [下載單一維度的 50K 個項目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant#download-items)：您現在可以在自由表格中下載單一維度的 50,000 個項目，並套用區段和篩選條件。 如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
-| 2020 年 9 月 17 日 | [線條視覺效果的增強功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hant)： <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| 2020 年 9 月 17 日 | [線條視覺效果的增強功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html)： <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
 | 2020 年 9 月 17 日 | 已在工作區中新增日期範圍：我們已新增 5 個日期範圍，好讓您可以選擇以下日期範圍，並排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
-| 2020 年 9 月 17 日 | 有關[工作區中媒體同時檢閱者面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html?lang=zh-Hant)的新文件 |
+| 2020 年 9 月 17 日 | 有關[工作區中媒體同時檢閱者面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-concurrent-viewers.html)的新文件 |
 | **2020 年 8 月** |  |
 | 2020 年 8 月 31 日 | 已在跨裝置分析中的[欄位式銜接文件](https://experienceleague.adobe.com/docs/analytics/components/cda/field-based-stitching.html?lang=zh-Hant)中新增增強功能。 |
 | **2020 年 7 月** |  |
@@ -83,8 +83,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 6 月 18 日 | 有關 [Attribution IQ：自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows)的新文件 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
 | 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant)的新文件。 專案能以「可供檢視」狀態與使用者共用。 當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
-| 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
-| 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)的新文件。 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。 無論管理員或非管理人員均適用。 |
+| 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
+| 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文件。 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。 無論管理員或非管理人員均適用。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 有關[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的新文件 |
 | 2020 年 5 月 21 日 | 有關 [Adobe Analytics 儀表板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html?lang=zh-Hant)的新文件 |
@@ -119,7 +119,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 12 月 19 日 | 已將預設 [FTP 資料儲存空間限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=zh-Hant)變更為 10 GB。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 有關「強制 IP 登入限制」服務終止的新主題。 |
-| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html?lang=zh-Hant) 建立的文件 |
+| 2019 年 11 月 21 日 | 針對 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html) 建立的文件 |
 | 2019 年 11 月 21 日 | 已更新 [Audience Analytics 工作流程常見問答](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=zh-Hant)來指示直播串流中的可用性。 |
 | 2019 年 10 月 25 日 | 已更新「[Adobe Analytics 重要概念](/help/technotes/terms.md)」頁面。 |
 | 2019 年 10 月 10 日 | 自由格式表格總計的更新：這類表格現在包含兩個總計：**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總和]**。 表格總計列計入套用的[報表篩選器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html?lang=zh-Hant)。以前只有區段會影響總計。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html?lang=zh-Hant)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
