@@ -1,14 +1,14 @@
 ---
 description: Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視覺化覆蓋圖排行連結活動，並提供即時分析儀表板，用來監控您網頁的觀眾參與情形。
-title: Activity Map 概觀
+title: 什麼是Activity Map?
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
+source-git-commit: 9d0d8bc3fbba2ef83416f8230b5ed5fa9b03d019
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 95%
+source-wordcount: '293'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [Activity Map 常見問答](activitymap-faq.md)
 * [連結追蹤方法](activitymap-link-tracking/activitymap-link-tracking-methodology.md)
 * [設定 Activity Map](activitymap-overlay-settings.md)
-* [Activity Map 用戶介面](activitymap-user-interface.md)
+* [Activity Map 使用者介面](activitymap-user-interface.md)
 * [Analytics 中的 Activity Map 報表](activitymap-reporting-analytics.md)
 * [疑難排解瀏覽器延伸模組](troubleshooting-browser-extensions.md)
 
