@@ -1,42 +1,18 @@
 ---
-description: 說明管理員如何為一組使用者啟用 Data Warehouse 報告存取權的步驟。
-title: 新增 Data Warehouse 使用者群組
+description: 說明管理員如何為使用者啟用Data Warehouse報表存取權的步驟。
+title: 管理Data Warehouse權限
 feature: Data Warehouse
+solution: Analytics
 uuid: d89294db-caa3-4044-b70d-65b512b0dc1c
 exl-id: 8737ab60-2ad1-4795-808b-d0200078a333
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 96%
+source-wordcount: '43'
+ht-degree: 0%
 
 ---
 
-# 新增 Data Warehouse 使用者群組
+# 管理Data Warehouse權限
 
-說明管理員如何為一組使用者啟用 Data Warehouse 報告存取權的步驟。
-
-1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**」。
-1. 按一下「**[!UICONTROL 編輯群組]**」。
-1. 按一下&#x200B;**[!UICONTROL 「新增使用者群組」]**。
-1. 在「**[!UICONTROL 定義使用者群組]**」區域中，於「群組名稱」欄位中鍵入名稱。提供下列群組資訊:
-
-   例如, `Data Warehouse Access`.
-1. 在「**[!UICONTROL 群組說明]**」欄位中鍵入說明。
-1. 在「**[!UICONTROL 報表套裝存取]**」區域中，選取您要讓群組成員有權存取的報表套裝。
-1. 在「[!UICONTROL 工具]」下方，啟用「**[!UICONTROL 所有工具]**」。
-
-   或者，按一下「**[!UICONTROL 自訂]**」，然後啟用「**[!UICONTROL 自訂 Data Warehouse 報告]**」。
-
-1. 在「[!UICONTROL 指定使用者登入]」下方，新增所需的使用者登入。
-1. 按一下&#x200B;**[!UICONTROL 「儲存群組」]**。
-
-   新增至此群組的使用者下次登入時，就會看到 Data Warehouse 選項已新增至[!UICONTROL 「Reports &amp; Analytics」]功能表。
-
-   >[!NOTE]
-   >
-   >萬一發生權限衝突 (例如一位使用者被指派給兩個群組，其中一個拒絕存取某項功能，但另一個授予該功能的存取權)，則系統會限制權限。屬於拒絕 Data Warehouse 存取之群組的使用者，可能需從該群組中移除。
-
->[!MORELIKETHIS]
->
->* [群組 ](/help/admin/user-management2/c-user-groups/groups.md)
+請參閱 [Adobe Admin Console](/help/admin/admin-console/home.md) 說明如何為Data Warehouse使用者設定權限的檔案。 權限已列出 [此處](/help/admin/admin-console/permissions/report-suite-tools.md).
 
