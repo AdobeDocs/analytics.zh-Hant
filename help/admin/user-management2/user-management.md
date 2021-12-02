@@ -2,13 +2,13 @@
 description: 在 Admin Console 中管理 Analytics 使用者、群組和產品。
 subtopic: Users and groups
 title: 使用者和產品管理
-feature: 管理工具
+feature: Admin Tools
 uuid: 891a8cb3-b77d-46f6-ab23-cbed49f215b5
 exl-id: c0fbbb3a-0011-49d2-89a2-70fce11e0fb2
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: f184cc7a98f0b15e2b96d5132e2a35b12d0f3556
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 92%
+source-wordcount: '557'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->使用者和產品管理功能即將移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]**&#x200B;的說明內容將會淘汰。
+>使用者和產品管理功能已移至 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。輪到您移轉使用者時，Adobe 會通知您。所有客戶都完成移轉後，請為 **[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** 會退休的。
 
 ## Admin Console 管理員的說明資源 {#section_C13BBB89E4F248F193358BB3A59DD502}
 
