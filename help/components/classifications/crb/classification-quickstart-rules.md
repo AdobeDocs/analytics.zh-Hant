@@ -4,7 +4,7 @@ subtopic: Classifications
 title: 分類規則
 feature: Admin Tools
 uuid: 08685919-216d-448b-b886-3adf5ff5405e
-source-git-commit: c04e749f7db6971572701e839de0829777b8c58e
+source-git-commit: 010712cce4de0bfa65c961052a6131fa20055bd2
 workflow-type: tm+mt
 source-wordcount: '2020'
 ht-degree: 97%
@@ -257,7 +257,7 @@ c:d:yoyo
 | `\W` | 任何非單詞字元 |
 | `\b` | 任何單詞邊界 |
 | `(...)` | 擷取括住的所有內容 |
-| `(a|b)` | a 或 b |
+| `(a\b)` | a 或 b |
 | `a?` | 零個或一個 a |
 | `a*` | 零個或更多 a |
 | `a+` | 一或多個 a |
