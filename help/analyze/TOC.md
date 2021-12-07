@@ -52,7 +52,7 @@ ht-degree: 99%
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
          + [表格分頁、篩選及分類](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
-         + [Workspace 總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
+         + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
          + [設定同類群組分析報表](analysis-workspace/visualizations/cohort-table/t-cohort.md)
@@ -106,7 +106,7 @@ ht-degree: 99%
       + [排程專案](analysis-workspace/curate-share/t-schedule-report.md)
    + Attribution IQ {#attribution}
       + [歸因總覽](analysis-workspace/attribution/overview.md)
-      + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
+      + [歸因模式與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [歸因最佳實務](analysis-workspace/attribution/best-practices.md)
       + [常見問答](analysis-workspace/attribution/faq.md)
@@ -129,7 +129,7 @@ ht-degree: 99%
          + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
-   + Workspace 常見問答 {#workspace-faq}
+   + 「工作區」常見問答 {#workspace-faq}
       + [常見問答](analysis-workspace/workspace-faq/faq.md)
       + [最佳化 Analysis Workspace 效能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)

@@ -5,7 +5,7 @@ exl-id: fa5c860f-bea7-4d03-9632-fa6e025647bf
 source-git-commit: 99a6144be155e17a8252e5461b2d6a96e5be641d
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 69%
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 69%
 
 ![不重複裝置計數](/help/components/metrics/assets/Unique_Devices_Count.png)
 
-先前在CDA虛擬報表套裝中檢視此資料 [重播](/help/components/cda/replay.md) 未驗證的點擊可能會顯示：
+在[重播](/help/components/cda/replay.md)可能拼接前，若在 CDA 虛擬報表套裝中檢視此資料，未經驗證的點擊將會顯示:
 
 * **5 個不重複裝置**：1 個來自未經驗證的 Bob + 2 個來自 Bob + 1 個來自 Alice + 1 個來自 Charles
 * **4 個[使用者](people.md)**：1 個[未識別的使用者](unidentified-people.md) + 3 個[已識別的使用者](identified-people.md)。

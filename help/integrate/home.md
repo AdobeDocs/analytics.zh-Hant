@@ -23,7 +23,7 @@ ht-degree: 73%
 * **Adobe Campaign 報告：**&#x200B;整合 Adobe Analytics 與 Adobe Campaign。
 * **AEM Assets 報告：**&#x200B;可讓您收集 Adobe Experience Manager 所提供資產的曝光次數與點擊次數。
 
-Here is a video overview of Adobe Analytics:
+以下是Adobe Analytics的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -34,11 +34,11 @@ Here is a video overview of Adobe Analytics:
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
