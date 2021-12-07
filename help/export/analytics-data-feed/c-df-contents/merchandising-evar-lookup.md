@@ -2,7 +2,7 @@
 title: post_product_list 中的銷售 eVar 例項查閱
 description: 為資料摘要的 post_product_list 欄中的每個查閱值，尋找 Merchandising eVar 例項。
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
 ht-degree: 100%
 
