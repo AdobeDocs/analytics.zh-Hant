@@ -1,11 +1,10 @@
 ---
 description: 了解如何實作多套裝標記，以傳送影像要求給多個報表套裝。
 title: 實作多套裝標記
-exl-id: null
-source-git-commit: 3986084eaab81842b6ea0dbabc7bdb78e39f887a
-workflow-type: ht
-source-wordcount: '290'
-ht-degree: 100%
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

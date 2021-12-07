@@ -3,8 +3,7 @@ title: 媒體播放逗留時間常見問題集
 description: 媒體播放逗留時間常見問題集為何？
 feature: Panels
 role: User, Admin
-exl-id: null
-source-git-commit: 912501a9f9d3208735286dcef8c187e071b65535
+source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 92%
