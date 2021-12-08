@@ -2,10 +2,10 @@
 title: Analytics 匯入指南
 description: 本指南會說明如何透過資料來源、資料插入 API 或資料連接器，將資料匯入 Analytics。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: 451b359ae969b542116d4a564febf7fb8d044eab
+source-git-commit: aca7a89449cb8d1dfb8420f4ac9c0f331940690f
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 75%
+source-wordcount: '138'
+ht-degree: 81%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 75%
 
 * **[資料來源](c-data-sources/datasrc-home.md)**：將檔案上傳至指定的 Adobe FTP 站台。Adobe 會擷取檔案，並將資料加入報表套裝中。
 * **[資料插入 API](c-data-insertion-api/c-data-insertion-api.md)**：透過 API 直接將資料傳送至 Adobe 的資料收集處。
-* **Data Connectors**:自2021年8月19日起，Adobe已停止Data Connectors整合。 許多整合功能皆可透過 [AdobeExchange](https://exchange.adobe.com/experiencecloud.analytics.html#product) 可繼續使用。
+* **[AdobeExchange Marketplace](https://exchange.adobe.com/experiencecloud.analytics.html#product)**:尋找目前的整合功能，讓您的Adobe Analytics報表套裝更加豐富。
 
 以下是Adobe Analytics的影片概觀：
 
