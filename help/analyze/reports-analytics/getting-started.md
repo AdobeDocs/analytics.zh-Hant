@@ -4,17 +4,14 @@ title: Reports & Analytics 快速入門
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: baceae144480bc93634c35ce1bdea5d2ceec56e8
+source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '727'
 ht-degree: 94%
 
 ---
 
 # 開始使用 Reports &amp; Analytics
-
->[!NOTE]
->本產品經授權在北美和實際銷售產品的其他地區銷售，可能不符合在其他國家或地區銷售的要求。
 
 使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
 
@@ -102,3 +99,6 @@ ht-degree: 94%
 1. 在頁尾中，按一下&#x200B;**[!UICONTROL 「語言」]**&#x200B;功能表所提供的語言，然後選取您偏好的語言。
 
 您可以從 Adobe Experience Cloud 存取文件和首頁(**[!UICONTROL 「說明]** > **[!UICONTROL 說明首頁」]**)。
+
+>[!NOTE]
+>本產品經授權可在北美和實際銷售產品的其他地區銷售。 不得符合當地在其他國家或者地區銷售的要求。
