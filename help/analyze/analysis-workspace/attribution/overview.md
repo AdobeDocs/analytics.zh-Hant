@@ -5,9 +5,9 @@ feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
 source-git-commit: 639449ea27721a15e29ca1b3085788d764b14909
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 96%
 
 在某些報表中，您可能想要將訂單歸因於「付費」搜尋。在其他報表中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與 Adobe 的合約類型，請聯絡貴組織的客戶經理。
 
-## 歸因 IQ 的價值
+## Attribution IQ 的價值
 
 客戶歷程並非線性，且經常無法預測。每位客戶都以自己的步調前進，常常會流連往返、停滯不動、重新開始，或以其他非線性行為進行互動。這些非機械性的行為使得我們很難掌握行銷活動在客戶歷程中的影響，也會阻礙我們將多個資料管道聯繫在一起的努力。
 
-![歸因 IQ 問題](assets/attribution_iq_problem.png)
+![Attribution IQ 問題](assets/attribution_iq_problem.png)
 
 Adobe Analytics 強化了歸因功能，讓您可以：
 
@@ -33,13 +33,13 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 * 避免實施變更：透過報表時間處理功能和內容感知工作階段，可以建置客戶歷程內容並套用在執行階段中。
 * 建構與您的歸因狀況最相符的工作階段。
 * 按區段劃分歸因：輕鬆比較行銷管道在任何重要區段中的效能 (例如，新客戶與回頭客戶、產品 X 與產品 Y、忠誠度或 CLV)。
-* 跨管道檢查和多點接觸分析：使用 Venn 圖表和色階分佈圖，並計算歸因結果趨勢。
+* 跨管道檢查和多點接觸分析：使用文氏圖表和色階分佈圖，並計算歸因結果趨勢。
 * 以視覺化方式分析關鍵行銷序列活動：透過多節點流量和流失視覺效果，以視覺效果方式探究帶來轉換的路徑。
 * 建立計算量度：使用任何數量的歸因配置方法。
 
 ## 功能
 
-歸因 IQ 包含下列功能:
+Attribution IQ 包含下列功能:
 
 * [歸因面板](../c-panels/attribution.md)：取用任何維度和量度，並將其與不同的歸因模型快速比較。
 * [將歸因套用至量度](../visualizations/freeform-table/column-row-settings/column-settings.md)：對專案中的任何量度使用非預設歸因。
@@ -48,19 +48,19 @@ Adobe Analytics 強化了歸因功能，讓您可以：
 
 ## 影片
 
-Attribution IQ:
+自由格式表格中的 Attribution IQ：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23136/?quality=12)
 
-計算量度的歸因 IQ
+計算量度中的 Attribution IQ
 
 >[!VIDEO](https://video.tv.adobe.com/v/23140/?quality=12)
 
-使用「Attribution IQ」面板：
+使用 Attribution IQ 面板：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23139/?quality=12)
 
-新增Attribution IQ模型的並排比較：
+新增 Attribution IQ 模型的並排比較：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23651/?quality=12)
 
