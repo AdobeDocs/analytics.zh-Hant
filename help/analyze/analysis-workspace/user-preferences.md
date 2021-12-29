@@ -1,13 +1,13 @@
 ---
 title: 如何設定 Analysis Workspace 內的用戶偏好設定
-description: 您可以為使用者設定一般和專案偏好設定，以及深色主題偏好設定。
+description: 您可以設定使用者的一般和專案偏好設定，以及深色佈景主題偏好設定。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 76%
 
 「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面可讓您從使用者層級管理 Analysis Workspace 設定及其相關元件。用戶偏好設定適用於所有&#x200B;**&#x200B;新專案或面板。
 
-![用戶偏好設定](assets/user-preferences.png)
+![使用者偏好設定](assets/user-preferences.png)
 
-以下是使用者偏好設定的短片：
+以下是有關使用者偏好設定的短片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
@@ -40,18 +40,18 @@ ht-degree: 76%
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
 |  | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | <ul><li>Adobe 提供的調色盤 (預設)</li><li>自訂界定的調色盤</li></ul> |
 | **資料** |  |  |
-|  | [報告套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=?#report-suite) | <ul><li>最近使用 (預設)</li><li>從清單中選取的特定報告套裝</li></ul> |
-|  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
+|  | [報告套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | <ul><li>最近使用 (預設)</li><li>從清單中選取的特定報告套裝</li></ul> |
+|  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符號 字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
 
-## [!UICONTROL 深色主題]
+## [!UICONTROL 深色佈景主題]
 
-如果您偏好使用Adobe Analytics使用者介面的深色背景，可以切換為 [!UICONTROL 深色主題].
+如果您偏好將您的 Adobe Analytics 使用者介面設定為深色背景，您可切換至[!UICONTROL 深色佈景主題]。
 
-1. 按一下右上角的Experience Cloud使用者圖示。
+1. 按一下右上方的「Experience Cloud」使用者圖示。
 
-   ![暗主題](assets/dark-theme.png)
+   ![dark-theme](assets/dark-theme.png)
 
-1. 移動 **[!UICONTROL 深色主題]** 切換至右側。
+1. 將&#x200B;**[!UICONTROL 深色佈景主題]**&#x200B;切換移動至右邊。
