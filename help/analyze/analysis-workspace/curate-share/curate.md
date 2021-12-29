@@ -6,9 +6,9 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!NOTE]
 > 產品設定檔為管理哪些元件可向使用者顯示的主要機制。這項機制可透過 Adobe Experience Cloud Admin Console 來管理。組織為次要的篩選器。
 
-以下是專案組織與共用的影片：
+以下是有關專案策畫和共用的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24711/?quality=12)
 
