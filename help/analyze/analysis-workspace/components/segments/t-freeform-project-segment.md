@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
 source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +28,15 @@ ht-degree: 98%
 
 ## 影片
 
-在Analysis Workspace中使用區段：
+在 Analysis Workspace 中使用區段：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23977/?quality=12)
 
-尋找和建立區段:
+尋找和建立區段：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334092/?quality=12)
 
-區段中的滾動日期範圍：
+區段中的滾動式日期範圍：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25403/?quality=12)
 
