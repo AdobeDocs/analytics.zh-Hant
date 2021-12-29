@@ -5,9 +5,9 @@ feature: Segmentation
 uuid: 02ad814c-2c7c-4833-9bb2-4113dcf9475d
 exl-id: 1ec1ff05-03a9-4151-8fcb-a72ebbce87dd
 source-git-commit: c4f6a7a3d81160a1c86ebfa70d1e376882ccfee2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,6 +64,6 @@ ht-degree: 99%
 | 大於或等於 | 傳回唯一計數大於或等於輸入值的維度項目。 |
 | 小於或等於 | 傳回唯一計數小於或等於輸入值的維度項目。 |
 
-以下是關於不重複維度計數的分段影片：
+以下是有關不同維度數分段的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27257/?quality=12)
