@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 95%
 
 ## 若要變更調色盤：
 
-以下是使用自訂調色盤的影片：
+以下是有關使用自訂調色盤的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 
