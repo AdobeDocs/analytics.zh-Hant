@@ -1,14 +1,14 @@
 ---
-description: Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視覺化覆蓋圖排行連結活動，並提供即時分析儀表板，用來監控您網頁的觀眾參與情形。
-title: 什麼是Activity Map?
+description: Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。
+title: 什麼是 Activity Map？
 uuid: 7232b875-6907-4b53-b466-5e9157a22ef0
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
 source-git-commit: 9d0d8bc3fbba2ef83416f8230b5ed5fa9b03d019
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >[!IMPORTANT]
 >Adobe Analytics 已於 2020 年 1 月 16 日開始移至新的網域：https://experience.adobe.com/analytics. 這次變更可能會導致 Activity Map 在部分特定情況下停止運作。如您所知，Activity Map 會以 iframe 形式插入客戶頁面 (Activity Map 工具列和 Activity Map 底部面板分別插入一個 iframe)。您可能已在不含「.adobe.com」的「frame-src」網頁上，設定內容安全性原則指令。這種情況下，Activity Map 會停止在此類網頁上運作。
 
-Activity Map 是一種 Adobe Analytics 應用程式，專門設定來使用視覺化覆蓋圖排行連結活動，並提供即時分析儀表板，用來監控您網頁的觀眾參與情形。
+Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。
 
 Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷活動，以及就觀眾需求和行為採取行動。
 
@@ -29,7 +29,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [啟用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
 * [實施作業代碼範例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
 
-## 用戶快速入門
+## 使用者快速入門
 
 * [安裝 Activity Map 瀏覽器外掛程式](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
 * [啟動 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
@@ -56,10 +56,10 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 
 ## 影片
 
-Activity Map影片概觀：
+Activity Map 影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25451/?quality=12)
 
-啟用、禁用和自定義Activity Map:
+啟用、停用及自訂 Activity Map：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25878/?quality=12)
