@@ -1,20 +1,20 @@
 ---
 description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
 keywords: event
-title: 成功事件總覽
+title: 成功事件概觀
 feature: Admin Tools
 uuid: 410eee44-8960-462c-a9c3-07b44d0b1df0
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
-# 成功事件總覽
+# 成功事件概觀
 
-成功事件（也稱為轉換事件或自訂事件）是可追蹤的動作。 成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
+成功事件 (也稱為轉換事件或自訂事件) 是可以被追蹤的行動。 成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件。
 
 以下是影片概觀：
 
@@ -38,7 +38,7 @@ ht-degree: 96%
 * **高科技**：白皮書下載、RFP、表單填寫、支援要求
 * **汽車**：銷售機會提交、要求報價、手冊下載
 
-[s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html) 變數會定義成功事件。
+[s.events](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hant) 變數會定義成功事件。
 
 ## 成功事件頁面 - 說明 {#section_681ECEC981694CABBDBF00E18165B447}
 
