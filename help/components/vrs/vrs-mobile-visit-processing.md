@@ -4,9 +4,9 @@ title: 內容感知作業
 uuid: d354864a-9163-4970-a3a0-f2e9729bdbe3
 exl-id: 5e969256-3389-434e-a989-ebfb126858ef
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1563'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 
 您可在不變更基礎資料的情況下，依需要的任何方式定義造訪，以符合訪客與數位體驗互動的方式。
 
-以下是內容感知作業的影片：
+以下是有關內容感知工作階段的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23545/?quality=12)
 
