@@ -3,9 +3,9 @@ title: 資料摘要 UI
 description: 瞭解如何使用資料摘要介面。
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 資料摘要管理員可讓您建立、編輯和刪除組織的資料摘要。如果您有存取資料摘要管理員的權限，就能管理所有可見報表套裝的資料摘要。
 
-以下是資料摘要管理UI的影片：
+以下是有關「資料摘要管理」UI 的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
