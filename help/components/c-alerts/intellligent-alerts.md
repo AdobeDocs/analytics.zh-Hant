@@ -1,18 +1,18 @@
 ---
-description: 智慧型警報系統可更精細地控制警報，並整合異常偵測與警報系統。
+description: 新的智慧型警報系統可提供更細微的警報控制能力，並可將異常偵測功能與警報系統整合。
 title: 智慧型警報
 uuid: ac8c9710-d245-46e9-b906-32d3bb0013c0
 exl-id: 1b23211e-7632-4b33-a27d-c58b3bbbbab1
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '564'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 智慧型警報
 
-智慧型警報系統可更精細地控制警報，並整合異常偵測與警報系統。
+新的智慧型警報系統可提供更細微的警報控制能力，並可將異常偵測功能與警報系統整合。
 
 以下是影片概觀：
 
@@ -31,7 +31,7 @@ ht-degree: 88%
 * 透過電子郵件或簡訊傳送警報，當中附有可自動產生 Analysis Workspace 專案的連結。
 * 建立在單一警報中擷取多個量度的「堆疊」警報。
 
-警報系統的元件包括：警報產生器、警報管理器、警報預覽和更好的內容感知存取，以建立警報。 舊的警報系統使用者介面不再可用，但我們會移轉警報。部分舊式警報功能 [不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hant).
+警報系統的元件包括：警報產生器、警報管理器、警報預覽，以及更出色的內容感知存取權 (可用來建立警報)。 舊的警報系統使用者介面將會停用，而警報則會遷移。 部分舊型警報功能[將不再可用](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/alerts.html?lang=zh-Hant)。
 
 取得「警報產生器」有四種方式：
 
