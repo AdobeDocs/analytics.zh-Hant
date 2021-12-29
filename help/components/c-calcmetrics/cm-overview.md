@@ -5,9 +5,9 @@ title: 計算與進階計算 (衍生) 量度
 uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,12 +39,12 @@ ht-degree: 97%
 您可以
 
 * 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]以及[!UICONTROL 貢獻分析]。
-* 無須變更實施作業，即可建立衍生自報表執行時間的區段量度。因為這些量度的根據是區段，所以可查看其歷史資料。以下是無實作量度的影片：
+* 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度是根據區段，所以可查看其歷史資料。 以下是有關無實作量度的影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
-* (僅限進階計算量度) 量度上的區段。例如，您可以建立「新訪客」的量度，計算這是他們第一次工作階段的人員數量。以下是此主題的影片：
+* (僅限進階計算量度) 量度上的區段。 例如，您可以建立「新訪客」的量度，計算初次參與工作階段的人員數量。 以下是有關這個主題的影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
