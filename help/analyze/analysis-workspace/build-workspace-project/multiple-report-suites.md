@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
 source-git-commit: 76af5908fd65cae26106ca9c1a71978624a77320
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 * 建立量度和視覺效果的控制面板，以便向其他組織提交報告。您現在可以將各種報表套裝的資料提取到同一個專案中。
 
-以下是有關此主題的影片：
+以下是有關該主題的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/32843/?quality=12)
 
