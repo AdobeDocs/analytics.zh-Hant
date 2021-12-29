@@ -1,18 +1,18 @@
 ---
-title: 媒體播放逗留時間常見問題集
-description: 媒體播放逗留時間常見問題集為何？
+title: 媒體播放時間常見問答
+description: 什麼是媒體播放時間常見問答？
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '248'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
 
-# 媒體播放逗留時間常見問題集
+# 媒體播放時間常見問答
 
 
 | 問題 | 回答 |
