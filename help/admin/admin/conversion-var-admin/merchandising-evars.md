@@ -3,9 +3,9 @@ title: 銷售 eVar 和產品尋找方法
 description: 深入了解銷售 eVar 背後的概念，以及這些方法如何處理和分配資料。
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
 source-git-commit: b78604e675a371894b1839d1751d44a1e8b2c5c1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 99%
 
 這份非常詳細的文件旨在說明銷售 eVar 背後的概念；銷售 eVar 以有別於標準 eVar 的方式來處理和分配資料。 本文件也會說明銷售 eVar 所用的相關產品尋找方法。
 
-## 總覽
+## 概觀
 
 使用銷售 eVars 可讓您將任何成功的活動分配到從&#x200B;*每個產品*&#x200B;層級上的 eVar 所擷取的數值，而不是從&#x200B;*每次造訪/每次訂購*&#x200B;的層級上所擷取的數值。
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
 `s.products="[category];[productID];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL 類別] 不再建議您作為追蹤產品類別效能的可行選項。  其存在目的只是為了說明為什麼在產品變數的大多數實作中，變數值的產品 ID 部分的前面會有一個分號。
+* [!UICONTROL 類別]：我們不再建議您使用它當作追蹤產品類別績效的可行選項。 其存在目的只是為了說明為什麼在產品變數的大多數實作中，變數值的產品 ID 部分的前面會有一個分號。
 * [!UICONTROL 品質]和[!UICONTROL 收入]在追蹤產品購買時非常實用。
 * [!UICONTROL 事件]可用於記錄不應計入收入的自訂增量或貨幣事件值 (例如運費、折扣等)
 
@@ -387,7 +387,7 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 例如，自行設定 `s.eVar1="Internal Keyword Search"` 並不會將任何實例量度點數提供給「內部關鍵字搜尋」的 eVar1 值。 此時會記錄一個實例。 然而，除非產品在設定 `eVar1` 的同時與該「內部關鍵字搜尋」值綁定，否則此實例會歸因於未指定的貯體。 換言之，「內部關鍵字搜尋」的 `eVar1` 值可以取得實例。 但是只有當與「內部關鍵字搜尋」值綁定的產品出現在相同影像要求中的產品變數內時，才會發生這個情形。
 
-總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe 發行了 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en)。 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用 Attribution IQ 中的功能來針對所有使用轉換變數語法的銷售 eVar 取得正確歸因的實例量度。
+總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe 發行了 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)。 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用 Attribution IQ 中的功能來針對所有使用轉換變數語法的銷售 eVar 取得正確歸因的實例量度。
 
 ![](assets/attribution-select.png)
 
