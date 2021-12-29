@@ -1,19 +1,19 @@
 ---
-title: 「媒體播放逗留時間」面板輸入和輸出
-description: 「媒體播放逗留時間」的輸入和輸出設定是什麼？
+title: 「媒體播放時間」面板的輸入和輸出
+description: 「媒體播放時間」面板的輸入和輸出設定有哪些？
 feature: Panels
 role: User, Admin
 source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 
-# 媒體播放逗留時間面板輸入和輸出 {#Inputs-and-outputs}
+# 「媒體播放時間」面板的輸入和輸出 {#Inputs-and-outputs}
 
-您可以使用下列輸入和輸出設定來自訂「媒體播放逗留時間」面板。
+您可使用以下輸入和輸出設定來自訂您的「媒體播放時間」面板。
 
 ## 面板輸入 {#Input}
 
