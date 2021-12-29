@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 * **[!UICONTROL Reporting API]：**&#x200B;直接向 Adobe 的伺服器提出報表查詢並取得回應，以便在您自己的客戶報告工具中使用。
 * **[!UICONTROL Reports &amp; Analytics]：**&#x200B;此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。
 
-以下是Adobe Analytics的影片概觀：
+以下是 Adobe Analytics 的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -38,11 +38,11 @@ ht-degree: 96%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
