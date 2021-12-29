@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: a60544b4-27b6-413a-96ce-ab9487594422
 source-git-commit: f7853f81c6f7d036b35e1d88ac8b5eb2bf84646d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '642'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,8 +39,8 @@ Analysis Workspace 中的地圖視覺效果
 
 | 設定 | 說明 |
 | --- | --- |
-| [!UICONTROL 行動裝置緯度/經度] | 此選項代表行動應用程式資料。只有在您已在 [!UICONTROL Analytics] > [!UICONTROL 管理] > [!UICONTROL 報表套裝] >（選取報表套裝）> [!UICONTROL 編輯設定] >  [!UICONTROL 行動管理] > [!UICONTROL 啟用位置追蹤]. 這是預設設定 (如果已啟用位置追蹤)。 |
-| [!UICONTROL 地理維度] | 此選項代表有關訪客位置的地域劃分資料 (根據訪客 IP 位址)。此資料會轉換為 [!UICONTROL 國家/地區], [!UICONTROL 地區]，和 [!UICONTROL 城市]. 請注意，此資料不會深入至 DMA 或郵遞區號的層級。幾乎所有報表套裝都會啟用這個維度。如果您尚未啟用，請聯絡 Adobe 客戶服務，以啟用地理報表。 |
+| [!UICONTROL 行動裝置緯度/經度] | 此選項代表行動應用程式資料。 只有當您在「[!UICONTROL Analytics] > [!UICONTROL 管理員] > [!UICONTROL 報表套裝] > (選取報表套裝) > [!UICONTROL 編輯設定] >  [!UICONTROL 行動管理] > [!UICONTROL 啟用位置追蹤]」中為您的報表套裝啟用此選項時，才會顯示此選項。 這是預設設定 (如果已啟用位置追蹤)。 |
+| [!UICONTROL 地理維度] | 此選項代表有關訪客位置 (根據訪客 IP 位址) 的地理劃分資料。 此資料可轉換為[!UICONTROL 國家]、[!UICONTROL 地區]和[!UICONTROL 城市]。 請注意，此資料不會深入至 DMA 或郵遞區號層級。 幾乎所有報表套裝都會啟用這個維度。如果您尚未啟用，請聯絡 Adobe 客戶服務，以啟用地理報表。 |
 
 1. 按一下&#x200B;**[!UICONTROL 「建立」]**。
 
