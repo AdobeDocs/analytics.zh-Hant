@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '280'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 
 * 或者，您可以按一下「**[!UICONTROL 元件]** > **[!UICONTROL 新增量度]**」。這會將您帶往「[計算量度產生器](/help/components/c-calcmetrics/cm-overview.md)」，讓您從現有的量度建立自訂量度。
 
-以下是在自由表格中使用量度的影片：
+以下是有關使用自由格式表格中的量度的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
@@ -46,7 +46,7 @@ ht-degree: 92%
 
 此快速鍵可讓您輕鬆快速地比較不同的歸因模型，而無須再次拖曳量度和進行設定。
 
-## 使用 [!UICONTROL 累積平均值] 套用量度平滑的函式
+## 使用[!UICONTROL 累積平均]函數以套用量度平滑處理
 
 以下是有關該主題的影片：
 
