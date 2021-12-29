@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: f3dd7507-db2c-495c-b6b9-6c770c7c7ddc
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '378'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 長條圖類似於橫條圖，但前者將數字分組為範圍 (貯體)。Analytics 會自動將數字分組至範圍貯體，但您可以在[進階設定](#section_09D774C584864D4CA6B5672DC2927477)中變更設定。
 
-以下是如何使用色階分佈圖的影片：
+以下是有關如何使用長條圖的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23725/?quality=12)
 
