@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
 source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 99%
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
       + [歸因最佳實務](analysis-workspace/attribution/best-practices.md)
       + [常見問答](analysis-workspace/attribution/faq.md)
-   + [歷程 IQ](analysis-workspace/journey-iq.md)
+   + [Journey IQ](analysis-workspace/journey-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + 虛擬分析人員 {#virtual-analyst}
       + [虛擬分析人員總覽](analysis-workspace/virtual-analyst/overview.md)
