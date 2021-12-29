@@ -5,9 +5,9 @@ user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
 source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
