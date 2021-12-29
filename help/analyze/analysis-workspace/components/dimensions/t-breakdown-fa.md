@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -38,14 +38,14 @@ ht-degree: 88%
 
 ## 影片
 
-將維度和量度新增至您在Analysis Workspace中的專案：
+在 Analysis Workspace 中新增維度和量度至您的專案：
 
 >[!VIDEO](https://video.tv.adobe.com/v/30606/?quality=12)
 
-在自由表格中使用維度：
+在自由格式表格中使用維度：
 
 >[!VIDEO](https://video.tv.adobe.com/v/40179/?quality=12)
 
-以下是依位置劃分維度的影片：
+以下是有關依位置的維度劃分的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24033/?quality=12)
