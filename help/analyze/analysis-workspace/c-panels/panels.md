@@ -5,33 +5,33 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1049'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # 面板概觀
 
-[!UICONTROL 面板]是表格與視覺效果的集合。您可以從 Workspace 左上角圖示、[空白面板](blank-panel.md)來存取面板。當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。
+[!UICONTROL 面板]是表格與視覺效果的集合。您可以從「工作區」左上角圖示或[空白面板](blank-panel.md)來存取面板。當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。
 
 ## 面板類型
 
-Analysis Workspace 中有以下面板類型：
+Analysis Workspace 中有以下面板類型:
 
 | 面板名稱 | 說明 |
 | --- | --- |
 | [空白面板](blank-panel.md) | 從可用面板和視覺效果中選擇以開始分析。 |
 | [快速深入分析面板](quickinsight.md) | 快速建立自由格式表格和隨附的視覺效果，以更快速分析及揭秘深入分析。 |
 | [Analytics for Target 面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
-| [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模型。 |
+| [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。 |
 | [自由表格面板](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現一個有豐富資料的故事。 |
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關的差異。 |
 
 ![](assets/panel-overview.png)
 
-「[!UICONTROL 快速深入分析]」、「[!UICONTROL 空白]」與「[!UICONTROL 自由圖形]」面板適用於開始分析的階段，而 [!UICONTROL Analytics for Target]、「[!UICONTROL 歸因 IQ]」、「[!UICONTROL 媒體同時檢閱者]」與「[!UICONTROL 區段比較]」則適用於更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
+「[!UICONTROL 快速深入分析]」、「[!UICONTROL 空白]」與「[!UICONTROL 自由圖形]」面板適用於開始分析的階段，而 [!UICONTROL Analytics for Target]、「[!UICONTROL Attribution IQ]」、「[!UICONTROL 媒體同時檢閱者]」與「[!UICONTROL 區段比較]」則適用於更進階的分析。專案中也有 `"+"` 按鈕可供使用，讓您隨時都可以新增空白面板。
 
 預設的開始面板為「[!UICONTROL 自由格式]」面板，但您也可以將[空白面板](/help/analyze/analysis-workspace/c-panels/blank-panel.md)設為預設面板。
 
@@ -48,15 +48,15 @@ Analysis Workspace 中有以下面板類型：
 行事曆面板會儀表板內表格和視覺效果的報告範圍。
 
 >[!NOTE]
->如果在表格、視覺效果或面板放置區中使用（紫色）日期範圍元件，則會覆寫面板日曆。
+>如果表格、視覺效果或面板下拉區域內使用了 (紫色) 日期範圍元件，它會覆蓋面板行事曆。
 
 ![](assets/panel-calendar.png)
 
-您可以在面板日曆的進階設定下套用分鐘層級日期範圍。 如果您報告的日期範圍跨越多天，則開始時間會套用至第一天，而結束時間則套用至範圍中的最後一天。
+您可在面板行事曆的進階設定下套用以分鐘為單位的日期範圍。如果您的報表涵蓋許多天的日期範圍，則開始時間會套用在您的範圍中的第一天，而結束時間則會套用在最後一天。
 
-## 拖放區域 {#dropzone}
+## 下拉區域 {#dropzone}
 
-面板放置區可讓您將區段和下拉式篩選器套用至面板內的所有表格和視覺效果。 您可以將一個或多個篩選器套用至面板。每個篩選器上方標題都可編輯，方法是按一下編輯鉛筆圖示；或者，按一下右鍵可完全移除篩功能表。
+面板下拉區域可讓您將區段和下拉篩選器套用至面板內的所有表格和視覺效果。 您可以將一個或多個篩選器套用至面板。每個篩選器上方標題都可編輯，方法是按一下編輯鉛筆圖示；或者，按一下右鍵可完全移除篩功能表。
 
 ### 區段篩選
 
@@ -90,7 +90,7 @@ Analysis Workspace 中有以下面板類型：
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
 
-## 在功能表上按一下右鍵 {#right-click}
+## 按右鍵選單 {#right-click}
 
 在面板標題按一下右鍵，可以使用面板的其他功能。
 
@@ -102,7 +102,7 @@ Analysis Workspace 中有以下面板類型：
 | --- | --- |
 | 插入複製的面板/視覺效果 | 允許您將複製的面板或視覺效果貼至 (「插入」) 專案內另一個位置或完全不同的專案中。 |
 | 複製面板 | 允許您按一下右鍵並複製面板，這樣您便可插入專案內另一個位置或完全不同的專案中。 |
-| 套用報表套裝至所有面板 | 允許您將主要面板報表套裝套用至專案中的所有面板。 |
+| 將報表套裝套用至所有面板 | 允許您將主要面板報表套裝套用至專案中的所有面板。 |
 | 複製面板 | 將目前的面板依樣複製，然後再修改資料。 |
 | 摺疊/展開所有面板 | 摺疊和展開所有專案面板。 |
 | 摺疊/展開面板中的所有視覺效果 | 摺疊和展開目前面板中的所有視覺效果。 |
