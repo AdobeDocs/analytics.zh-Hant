@@ -5,9 +5,9 @@ title: Analytics 資料摘要總覽
 uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,6 +69,6 @@ ht-degree: 98%
 
 >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-有關如何尋找資料摘要ID的影片：
+有關如何尋找您的資料摘要 ID 的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
