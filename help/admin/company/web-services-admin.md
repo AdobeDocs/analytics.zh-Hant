@@ -5,9 +5,9 @@ feature: Admin Tools
 uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 
 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 網站服務]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 網頁服務]**
 
-## 管理網站服務
+## 管理網頁服務
 
-在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 您可以更新權限，納入需要存取網站服務API的使用者。
+在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中，您可以更新權限，以納入那些需要存取網頁服務 API 的使用者。
 
 ## WSDL：下載網站服務開發商的網站服務 API WSDL。
 
