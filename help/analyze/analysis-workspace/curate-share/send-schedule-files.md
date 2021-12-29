@@ -6,15 +6,15 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 38b92af3-646d-4c30-84ab-a0007c0a39e8
 source-git-commit: 9b0b62691600a682bc53a3aa3b50b8addad32a41
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 共用功能表
 
-您可以在工作區中組織、共用及排程PDF/CSV專案給組織中的收件者 **共用功能表**.
+您可以在工作區的&#x200B;**「共用」功能表**&#x200B;中，策劃、共用及排定 PDF/CSV 專案給貴組織的收件者。
 
 | 選單選項 | 說明 |
 |---|---|
