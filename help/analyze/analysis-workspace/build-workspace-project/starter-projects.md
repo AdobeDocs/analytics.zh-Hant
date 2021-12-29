@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
 source-git-commit: 76235e80ad5e2104d0ad3a262b8f805f34fa99a3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1410'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
    >
    >預設狀況下，您組織中的所有人都可以檢視專案範本。您可以透過套用標記的方式組織範本。(前往&#x200B;**[!UICONTROL 「專案]** > **[!UICONTROL 專案資訊和設定」]**&#x200B;即可編輯標記和說明)。
 
-以下是關於建立和管理自訂範本的影片：
+以下是有關建立及管理自訂範本的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23231/?quality=12)
 
@@ -64,9 +64,9 @@ ht-degree: 88%
 
 ### 培訓
 
-此標準範本會逐步引導您了解常用術語，以及在工作區中首次建立分析的步驟。 若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。
+這個標準範本會逐步引導您了解常用術語，以及在工作區中初次建立分析的步驟。 若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。
 
-以下是 [!UICONTROL 訓練教學課程] 範本：
+以下是有關[!UICONTROL 訓練教學課程]範本的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/33773/?quality=12)
 
@@ -74,38 +74,38 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->只有在您的報表套裝已啟用 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html).
+>您必須在 [Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/integration/advertising-analytics/overview.html?lang=zh-Hant) 中啟用報表套裝，才可使用廣告範本。
 
 * **付費搜尋引擎**：此範本可劃分廣告趨勢、廣告平台、關鍵字、帳戶、促銷活動等項目。
 
 ### 商務
 
-* **Magento：行銷與商務**：此範本依行銷通路歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等條件提供深入分析。以下是以下的教學課程影片： [Magento:行銷與商務範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hant).
+* **Magento：行銷與商務**：此範本依行銷通路歸因來劃分電子商務轉換，並依搜尋關鍵字、登陸頁面、地理位置等條件提供深入分析。以下是有關 [Magento：行銷和商務範本](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/integrations/magento/magento-analysis-workspace-template.html?lang=zh-Hant)的影片教學。
 
-### 資料彙集
+### 資料收集
 
-* **ITP影響**:了解Apple的ITP如何影響您的資料，以及如何據此調整報表。
+* **ITP 影響**：了解 Apple 的 ITP 如何影響您的資料以及如何相應地調整報表。
 
 ### 媒體
 
-* **內容使用量**:誰是我的忠實讀者
-* **造訪間隔 — 頻率 — 忠誠度**:哪些內容最常使用且吸引使用者？
-* **串流媒體耗用量**:提供所有數位裝置的媒體耗用量趨勢和排名在前的量度。 以下是串流媒體使用範本上的影片：
+* **內容使用**：我的忠實讀者是哪些人
+* **造訪間隔 - 頻率 - 忠誠度**：哪一項內容最常被使用且吸引使用者？
+* **串流媒體使用**：提供所有數位裝置上媒體使用的趨勢和排名在前的量度。 以下是有關串流媒體使用範本的影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/23901/?quality=12)
 
-### 行動裝置
+### 行動
 
 >[!IMPORTANT]
 >
->只有在您的報表套裝已啟用行動應用程式分析時，行動範本才可供使用。
+>您必須在行動應用程式分析中啟用報表套裝，才可使用行動範本。
 
-* **贏取：**&#x200B;了解行動裝置客戶贏取連結的成效。
-* **應用程式使用情形：**&#x200B;應用程式擁有多少使用者和首次啟動次數，而平均工作階段時間長度又如何？
-* **歷程：**&#x200B;我應用程式中的顯著使用模式為何？
+* **獲取：**&#x200B;了解行動裝置獲取連結的成效。
+* **應用程式使用情形：**&#x200B;應用程式擁有多少使用者和首次啟動次數，以及平均工作階段時間長度為何？
+* **歷程：**&#x200B;我的應用程式的顯著使用模式為何？
 * **關鍵量度：**&#x200B;掌握您應用程式的關鍵量度。
-* **位置**：當中的地圖可呈現位置資料。
-* **傳送訊息**：著重於應用程式內及推播訊息的效能。
+* **位置：**&#x200B;包含可呈現位置資料的地圖。
+* **傳送訊息：**&#x200B;著重於應用程式內及推播訊息的效能。
 * **成效：**&#x200B;應用程式的成效如何，以及使用者在哪些階段遭遇問題？
 * **保留率：**&#x200B;我的忠實使用者是哪些人，以及他們都進行什麼活動？
 
@@ -117,7 +117,7 @@ ht-degree: 88%
 ### Web
 
 * **贏取：**&#x200B;為我的網站帶來最多流量的因素是什麼？
-* **AEM網站效能概述：** 我的Adobe Experience Manager網站成效如何？
+* **AEM 網站績效概觀：**&#x200B;我的 Adobe Experience Manager 網站的表現如何？
 * **內容消耗：**&#x200B;使用者最常前往我網站的哪些位置？
 * **保留率：**&#x200B;什麼類型的使用者可能成為我網站的忠實使用者？
 * **技術：**&#x200B;使用者使用哪些技術來存取我的網站？
@@ -138,14 +138,14 @@ ht-degree: 88%
 * 了解如何搭配「人物」量度使用區段堆疊。
 * 了解如何透過環境中的 Experience Cloud ID 增強「人物」量度的效益。
 
-### 歷程IQ:跨裝置分析範本
+### Journey IQ：Cross-Device Analytics 範本
 
 <!--This content is mirrored in the CDA doc.-->
 
-此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en) (CDA) 的客戶使用。
+此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant) (CDA) 的客戶使用。
 
 * **Co-op 圖表成員的特別注意事項**：顯示報表套裝中的哪些部分所包含的訪客，來自支援和不支援 Co-op 圖表的地區。
-* **使用者身分識別**：顯示使用以跨裝置分析為基礎之方法識別網站訪客的頻率。
+* **使用者身分識別**：顯示使用以 Cross-Device Analytics 為基礎之方法識別網站訪客的頻率。
 * **衡量對象規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此壓縮量度取決於廣泛的因素：
    * **使用 Co-op 圖表或私密圖表**：一般而言，使用 Device Co-op 的組織之壓縮率，會比使用私密圖表的組織來得高。
    * **登入率**：登入您網站的使用者越多，Adobe 就能越有效跨裝置識別並結合訪客。登入率低的網站壓縮率也會很低。
@@ -154,5 +154,5 @@ ht-degree: 88%
    * **報表詳細程度**：依日計算的壓縮率通常比依月或年計算的壓縮率還低。依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
 * **以人物為基礎的區段**：包含區段下拉式清單，可讓您檢視裝置特定資料。此面板鼓勵您試用區段，以便了解納入或排除裝置類型對報表有何影響。
 * **分析跨裝置歷程**：根據裝置類型提供流量和流失報表。
-* **跨裝置歸因**：結合歷程 IQ 和歸因 IQ 的功能。
+* **跨裝置歸因**：結合 Journey IQ 和 Attribution IQ 的功能。
 * **其他秘訣與技巧**：可協助您更順利使用 CDA 的實用主題。
