@@ -6,9 +6,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '735'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,9 +61,9 @@ Analysis Workspace 支援絕大多數量度的[歸因](/help/analyze/analysis-wo
 
    ![歸因核取方塊](assets/attribution-checkbox.png)
 
-1. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模型]**。如需不同歸因模型的詳細資訊，請參閱[歸因模型](/help/analyze/analysis-workspace/attribution/models.md)。
+1. 在&#x200B;**[!UICONTROL 資料設定]**&#x200B;底下，勾選&#x200B;**[!UICONTROL 使用非預設歸因模式]**。如需不同歸因模式的詳細資訊，請參閱[歸因模式](/help/analyze/analysis-workspace/attribution/models.md)。
 
-   ![選取歸因模型](assets/attribution-select.png)
+   ![選取歸因模式](assets/attribution-select.png)
 
 >[!MORELIKETHIS]
 >
@@ -72,6 +72,6 @@ Analysis Workspace 支援絕大多數量度的[歸因](/help/analyze/analysis-wo
 
 ## 動態欄
 
-以下影片說明如何在Analysis Workspace中使用動態欄：
+以下是有關如何在 Analysis Workspace 中使用動態欄的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23138/?quality=12)
