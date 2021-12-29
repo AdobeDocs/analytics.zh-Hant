@@ -5,9 +5,9 @@ feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
 source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,20 +52,20 @@ ht-degree: 98%
 * 按一下右鍵 >**[!UICONTROL 「以 CSV 格式下載資料」]**，將顯示的表格資料下載為 CSV 檔案。如果已選取表格，此選項會顯示&#x200B;**[!UICONTROL 「以 CSV 格式下載選取項目」]**。
 * 按一下右鍵 >**[!UICONTROL 「專案 > 以 CSV 格式下載項目」]**，最多可從選取的維度中匯出 50,000 個維度項目。
 
-深入了解 Analysis Workspace 的所有資料[匯出選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html)。
+深入了解 Analysis Workspace 的所有資料[匯出選項](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant)。
 
 ![](assets/export-options.png)
 
 ## 影片
 
-自由表格產生器概觀：
+自由格式表格建立器概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/31318/?quality=12)
 
-自由表格篩選器：
+自由格式表格篩選器：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23232/?quality=12)
 
-自由表格總計：
+自由格式表格總計：
 
 >[!VIDEO](https://video.tv.adobe.com/v/29273/?quality=12)
