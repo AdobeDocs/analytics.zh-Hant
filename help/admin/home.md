@@ -3,9 +3,9 @@ title: Analytics 管理員指南
 description: Adobe Analytics 管理員的管理說明，包括 Admin Console 的使用者和產品管理、設定報表套裝、變數、分類和資料收集。
 exl-id: d1491139-592b-44ec-aa45-dfdd00f416af
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '328'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 本說明適用於 Adobe Analytics 的管理員。內容包括 Admin Console 的使用者和產品管理、設定報表套裝、變數、分類和資料收集的相關說明。
 
-以下是Adobe Analytics的影片概觀：
+以下是 Adobe Analytics 的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -29,7 +29,7 @@ Adobe Analytics 目前有兩個管理員區域：
 * 在 Analytics Admin Console 中完成的所有工作。此區域包括設定報表套裝、變數、分類或資料控管。如需可用報表套裝和公司設定的清單，請參閱[管理員工具](admin/c-admin-tools.md)。
 * 在 Adobe Admin Console 中完成的所有 Analytics 專屬工作。此區域包含產品佈建和使用者權限管理。如需可在 Adobe Admin Console 中完成之動作的清單，請參閱 [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)。
 
-本指南不涵蓋 Adobe Admin Console 提供的許多一般功能。請改為參閱企業版使用手冊中的 [Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html)。
+本指南不涵蓋 Adobe Admin Console 提供的許多一般功能。請改為參閱企業版使用手冊中的 [Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)。
 
 ## 重要文章
 
@@ -38,11 +38,11 @@ Adobe Analytics 目前有兩個管理員區域：
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
