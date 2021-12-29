@@ -3,9 +3,9 @@ title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 98%
 
 資料層是網站上 JavaScript 物件的架構，包含實施內的所有變數值。可讓您在實作中更進一步精細控制，並讓維護工作更簡單輕鬆。
 
-以下是使用資料層的影片：
+以下是有關使用資料層的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
 
