@@ -4,9 +4,9 @@ keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
 title: 資料摘要常見問答
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 ## 是否會將 Admin Console 機器人規則篩選的機器人加入資料摘要中？
 
-資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html)篩選的機器人。
+資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=zh-Hant)篩選的機器人。
 
 ## 我為什麼在 `event_list` 或 `post_event_list` 資料摘要欄內看到多個 `000` 值？
 
@@ -80,7 +80,7 @@ DST -> STD 時間轉換期間 (「入秋調回時間」)，客戶會收到 24 �
 
 如果傳輸失敗，您可以重新執行工作，直到成功為止。
 
-若您在讓資料摘要顯示在FTP站台上時遇到問題，請參閱 [資料摘要的疑難排解](troubleshooting.md).
+如果您無法讓資料摘要出現在您的 FTP 網站上，請參閱[資料摘要的疑難排解](troubleshooting.md)。
 
 ## 該如何重新傳送工作？  {#section_BFD4447B0B5946CAAEE4F0F03D42EDFD}
 
