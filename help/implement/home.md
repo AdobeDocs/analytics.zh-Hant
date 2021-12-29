@@ -3,9 +3,9 @@ title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: 38fb7ec39495b2b8cde4955bd1b3c1d3487632c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 97%
 
 ![橫幅](../../assets/doc_banner_implement.png)
 
-以下是Adobe Analytics的影片概觀：
+以下是 Adobe Analytics 的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/27429/?quality=12)
 
@@ -44,11 +44,11 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
