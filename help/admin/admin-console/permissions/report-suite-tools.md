@@ -1,17 +1,17 @@
 ---
-title: Adobe Admin Console中報表套裝工具的產品設定檔權限
+title: Adobe Admin Console 中報表套裝工具的產品描述檔權限
 description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '631'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 報告套裝工具的產品設定檔權限
 
-請透過本頁面了解Adobe Admin Console中「報表套裝工具」底下的每個權限項目。
+使用此頁面來了解 Adobe Admin Console 中報表套裝工具底下的每個權限項目。
 
 | 報告套裝工具權限項目 | 說明 |
 |------|------|
