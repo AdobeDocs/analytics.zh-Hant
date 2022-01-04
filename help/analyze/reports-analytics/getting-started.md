@@ -7,7 +7,7 @@ exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
 source-git-commit: 1d5cb1c2b9ab2414d42d18f6395b1857786c8da0
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -101,4 +101,4 @@ ht-degree: 95%
 您可以從 Adobe Experience Cloud 存取文件和首頁(**[!UICONTROL 「說明]** > **[!UICONTROL 說明首頁」]**)。
 
 >[!NOTE]
->本產品經授權可在北美和實際銷售產品的其他地區銷售。 不得符合當地在其他國家或者地區銷售的要求。
+>此產品已獲得在北美及其他實際銷售地區的銷售授權。但可能不符合其他國家或地區的當地銷售要求。
