@@ -3,19 +3,22 @@ description: 排程、下載和發佈報表的相關資訊。
 subtopic: Schedule
 title: 報表排程和分發
 uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: a589e2dffd52749ec3e243815451fe3ed2396509
-workflow-type: ht
-source-wordcount: '1666'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '1750'
+ht-degree: 95%
 
 ---
 
 # 報表排程和分發
 
 排程、下載和發佈報表的相關資訊。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算終止Reports &amp; Analytics及其隨附的報表和功能。 屆時，Reports &amp; Analytics及其所有報表和排程將停止運作。 支援「Reports &amp; Analytics」的報表、視覺效果和基礎技術已不符合Adobe的技術標準。 大部分的Reports &amp; Analytics功能都可在Analysis Workspace中使用。 自2015年發行Analysis Workspace以來，Reports &amp; Analytics的功能已移至Analysis Workspace，並達到工作流程對等臨界值。 本通知說明生命週期結束的過程。
 
 在 Adobe Analytics 應用程式內排程要傳送的報表時，您可以使用「排程和分送」工具檢視已自動傳送的檔案，以及修改或終止傳送。
 

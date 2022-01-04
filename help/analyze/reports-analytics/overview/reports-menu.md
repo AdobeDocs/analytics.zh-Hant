@@ -2,19 +2,22 @@
 description: 「Report & Analytics」中的報表功能表概述。
 title: 報表功能表
 uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 87%
 
 ---
 
 # 報表功能表{#reports-menu}
 
 「Report &amp; Analytics」中的報表功能表概述。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算終止Reports &amp; Analytics及其隨附的報表和功能。 屆時，Reports &amp; Analytics及其所有報表和排程將停止運作。 支援「Reports &amp; Analytics」的報表、視覺效果和基礎技術已不符合Adobe的技術標準。 大部分的Reports &amp; Analytics功能都可在Analysis Workspace中使用。 自2015年發行Analysis Workspace以來，Reports &amp; Analytics的功能已移至Analysis Workspace，並達到工作流程對等臨界值。 本通知說明生命週期結束的過程。
 
 報表功能表提供下列功能：
 
@@ -31,7 +34,7 @@ ht-degree: 97%
 
 ![](assets/reports-landing.png){width=&quot;672px&quot;}
 
-如需個別報表的詳細資訊，請參閱[Dimension](/help/components/dimensions/overview.md)。
+如需個別報表的詳細資訊，請參閱 [Dimension](/help/components/dimensions/overview.md).
 
 ## 搜尋報表 {#section_E5EF11E36CB9451AA7B079E585CA7DB6}
 

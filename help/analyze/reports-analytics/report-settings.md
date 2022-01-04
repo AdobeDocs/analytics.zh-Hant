@@ -4,10 +4,10 @@ title: 報表顯示設定和導覽
 uuid: e7e571ce-a1cf-4714-b400-9571805ceeac
 role: User, Admin
 exl-id: 2c2d4d59-b189-42e0-887e-77dc7a48721a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 99%
+source-wordcount: '1557'
+ht-degree: 94%
 
 ---
 
@@ -15,9 +15,12 @@ ht-degree: 99%
 
 說明定義所有報表顯示方式的設定，以及將預設功能表選項對應至其簡化功能表中各個位置的資訊。
 
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算終止Reports &amp; Analytics及其隨附的報表和功能。 屆時，Reports &amp; Analytics及其所有報表和排程將停止運作。 支援「Reports &amp; Analytics」的報表、視覺效果和基礎技術已不符合Adobe的技術標準。 大部分的Reports &amp; Analytics功能都可在Analysis Workspace中使用。 自2015年發行Analysis Workspace以來，Reports &amp; Analytics的功能已移至Analysis Workspace，並達到工作流程對等臨界值。 本通知說明生命週期結束的過程。
+
 ## 報表顯示設定和導覽 {#concept_09832A2CA0FF4982B1AA37C1B635220B}
 
-**[!UICONTROL Analytics]**  >  **[!UICONTROL 元件]**  >  **[!UICONTROL 所有元件]**  >  **[!UICONTROL 報表設定]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 報表設定]**
 
 | 元素 | 說明 |
 |--- |--- |

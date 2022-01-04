@@ -5,16 +5,19 @@ title: 常見問答
 uuid: 285b0ea4-aa07-4d39-a74f-37b1d02d19f1
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '753'
-ht-degree: 100%
+source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 89%
 
 ---
 
 # 常見問答
 
 針對 Reports &amp; Analytics 的部分常見問題提供解答和疑難排解建議。如需了解實施作業方面有哪些常見問題，請參閱「實施作業」使用指南中的[常見問題集](/help/implement/faq.md)。
+
+>[!IMPORTANT]
+>有效 **2023年12月31日**,Adobe打算終止Reports &amp; Analytics及其隨附的報表和功能。 屆時，Reports &amp; Analytics及其所有報表和排程將停止運作。 支援「Reports &amp; Analytics」的報表、視覺效果和基礎技術已不符合Adobe的技術標準。 大部分的Reports &amp; Analytics功能都可在Analysis Workspace中使用。 自2015年發行Analysis Workspace以來，Reports &amp; Analytics的功能已移至Analysis Workspace，並達到工作流程對等臨界值。 本通知說明生命週期結束的過程。
 
 **我的帳戶遭到鎖定，該如何解鎖？**
 
