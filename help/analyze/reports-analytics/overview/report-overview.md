@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
 source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 79%
 此範例顯示[!UICONTROL 頁面報告]。視您執行的報告而定，設定選項會跟著改變。例如，您可以不從網站內容報告中選取趨勢或[!UICONTROL 排名]，改為在[!UICONTROL 網站度量]報告中指定精細度和頁面名稱。
 
 >[!IMPORTANT]
->有效 **2023年12月31日**,Adobe打算終止Reports &amp; Analytics及其隨附的報表和功能。 屆時，Reports &amp; Analytics及其所有報表和排程將停止運作。 支援「Reports &amp; Analytics」的報表、視覺效果和基礎技術已不符合Adobe的技術標準。 大部分的Reports &amp; Analytics功能都可在Analysis Workspace中使用。 自2015年發行Analysis Workspace以來，Reports &amp; Analytics的功能已移至Analysis Workspace，並達到工作流程對等臨界值。 本通知說明生命週期結束的過程。
+>自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。 大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。 本通知說明生命週期結束程序。
 
 ## 範例頁面報告 {#section_288CC85536684C2DB184141358481EF0}
 
