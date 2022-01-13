@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-source-git-commit: fd0641778fb46b7775ee02517a1f8e267ca37f3b
-workflow-type: ht
-source-wordcount: '275'
-ht-degree: 100%
+source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
+workflow-type: tm+mt
+source-wordcount: '279'
+ht-degree: 98%
 
 ---
 
@@ -62,6 +62,7 @@ ht-degree: 100%
    + [使用被動式 FTP 模式](ftp-and-sftp/ftp-passive.md)
    + [FTP 處理時間](ftp-and-sftp/ftp-processing.md)
    + 安全檔案傳輸通訊協定 {#secure-file-transfer-protocol}
+      + [SFTP服務升級 — 常見問題集](ftp-and-sftp/c-sftp/sftp-upgrade.md)
       + [安全檔案傳輸通訊協定 - 概觀](ftp-and-sftp/c-sftp/ftp-sftp.md)
       + [使用 SFTP 連線至 Adobe FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-connect.md)
       + [使用 SFTP 傳送 Adobe 資料至外部 FTP 帳戶](ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)
