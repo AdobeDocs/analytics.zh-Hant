@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 subtopic: Release notes
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: f06f067d3273883cea4f5d6b4e2b0da303a0d5d2
+source-git-commit: d9999d45476a70cee49f83d009ce95b9b4931529
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 99%
+source-wordcount: '2267'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2022 年 1 月 11 日**
 
-* 修正s.tl()，適度忽略具有href物件而非href字串的物件。
+* 連結追蹤呼叫 `s.tl()` 現在會驗證傳遞至的物件是否包含 `href` 類型屬性 `string`. 如果不是 `string`，則會大方忽略 `href` 屬性，而非失敗。 傳遞時可能會發生此情況 `svg` 物件。
 
 ## 2.22.3 版本
 
