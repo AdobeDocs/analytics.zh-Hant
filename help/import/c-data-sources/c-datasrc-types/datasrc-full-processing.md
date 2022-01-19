@@ -3,10 +3,10 @@ description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理
 title: 完全處理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 94%
+source-wordcount: '718'
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Adobe 建議客戶使用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html)，而非完全處理資料來源。Adobe 計劃在 2021 年 7 月 31 日淘汰完整處理資料來源。[了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe建議您使用 [批量資料插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 而不是完全處理資料源。 Adobe2022年1月31日不建議使用完全處理資料源。 [了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -42,12 +42,12 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>行銷活動 </p> </td> 
+   <td colname="col2"> <p>活動 </p> </td> 
    <td colname="col3"> <p>轉換促銷活動追蹤代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>頻道 </p> </td> 
+   <td colname="col2"> <p>通道 </p> </td> 
    <td colname="col3"> <p>渠道字串 (如體育版)。 </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ ht-degree: 94%
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
    <td colname="col2"> <p>事件 </p> </td> 
-   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
+   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hant"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -80,12 +80,12 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
-   <td colname="col2"> <p>linkName </p> </td> 
+   <td colname="col2"> <p>連結名稱 </p> </td> 
    <td colname="col3"> <p>連結名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkType </p> </td> 
-   <td colname="col2"> <p>linkType </p> </td> 
+   <td colname="col2"> <p>連結類型 </p> </td> 
    <td colname="col3"> <p>連結的類型。支援的值包括： </p> 
     <ul id="ul_E441013055A9447AB6C3FB05B6099F7D"> 
      <li id="li_A33F66F30B60479284F72AE3AD4BF499"> <b>d</b>: 下載連結 </li> 
@@ -95,12 +95,12 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkURL </p> </td> 
-   <td colname="col2"> <p>linkURL </p> </td> 
+   <td colname="col2"> <p>連結URL </p> </td> 
    <td colname="col3"> <p>連結的 HREF。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageName </p> </td> 
-   <td colname="col2"> <p>pageName </p> </td> 
+   <td colname="col2"> <p>頁名 </p> </td> 
    <td colname="col3"> <p>頁面名稱 </p> </td> 
   </tr> 
   <tr> 
@@ -110,13 +110,13 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
-   <td colname="col2"> <p>pageURL </p> </td> 
+   <td colname="col2"> <p>頁面URL </p> </td> 
    <td colname="col3"> <p>頁面 URL (如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
    <td colname="col2"> <p>產品 </p> </td> 
-   <td colname="col3"> <p>產品清單（例如<code> "Sports;Ball;1;5.95"</code>）。 每列最大可容納4096個位元組。</p> </td> 
+   <td colname="col3"> <p>產品清單(例如， <code> "Sports;Ball;1;5.95"</code>)。 每行最多可以包含4096位元組。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -125,7 +125,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
-   <td colname="col2"> <p>purchaseID </p> </td> 
+   <td colname="col2"> <p>採購ID </p> </td> 
    <td colname="col3"> <p>購買 ID 號碼。 </p> </td> 
   </tr> 
   <tr> 
@@ -140,12 +140,12 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>state </p> </td> 
+   <td colname="col2"> <p>狀態 </p> </td> 
    <td colname="col3"> <p>轉換州字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>zip </p> </td> 
-   <td colname="col2"> <p>zip </p> </td> 
+   <td colname="col2"> <p>郵遞區號 </p> </td> 
    <td colname="col3"> <p>轉換郵遞區號。 </p> </td> 
   </tr> 
  </tbody> 
