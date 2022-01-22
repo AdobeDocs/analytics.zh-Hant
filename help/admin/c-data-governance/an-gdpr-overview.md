@@ -3,9 +3,9 @@ description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作�
 title: Adobe Analytics 和 GDPR
 uuid: 16fd5af8-9148-4e09-ad54-9e3cdd2b3c6d
 exl-id: 4cb19f63-119f-4853-84bf-5c1e8f9af9f0
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '613'
+source-git-commit: 879a51fd03c97316591639889d3fff4d22a9eb4c
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,3 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
 
-## AdobePrivacyJS：GDPR 要求的用戶端身分解析
-
-以下是有關這個主題的影片概觀：
-
->[!VIDEO](https://video.tv.adobe.com/v/23488/?quality=12)
