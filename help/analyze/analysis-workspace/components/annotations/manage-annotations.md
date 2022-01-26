@@ -2,15 +2,19 @@
 title: 管理注釋
 description: 如何管理Workspace中的注釋。
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 0%
+source-wordcount: '99'
+ht-degree: 11%
 
 ---
 
 
 # 管理注釋
+
+>[!NOTE]
+>
+>此功能當前正在有限的測試中。
 
 的 [!UICONTROL 元件] > [!UICONTROL 注釋] manager提供了多種管理注釋的方法，如共用、篩選、標籤、批准、複製、刪除和標籤為收藏夾。
 
@@ -22,5 +26,12 @@ ht-degree: 0%
 
 ## 注釋管理器用戶介面
 
-插入影像
+| UI元素 | 說明 |
+| --- | --- | 
+| 標題和說明 |  |
+| 報表套裝 |  |
+| 所有者 |  |
+| 應用日期範圍 |  |
+| 共用對象 |  |
+| 修改日期 |  |
 

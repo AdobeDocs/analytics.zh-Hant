@@ -1,35 +1,38 @@
 ---
 title: 註解概述
-description: How to use annotations in Workspace.
+description: 如何在工作區中使用注釋。
 role: User, Admin
-source-git-commit: 6c1727ddc57de5767409462cdf1293f8ff2d94df
+source-git-commit: f8f2b5eed5124724b7889c9f1656e4a524dc37c7
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 4%
+source-wordcount: '138'
+ht-degree: 3%
 
 ---
 
 # 註解概述
 
-Annotations enable you to effectively communicate data nuances and insights about your data to your organization. [!DNL Reports & Analytics]
+>[!NOTE]
+>
+>此功能當前正在有限的測試中。
+
+注釋使您能夠有效地將上下文資料細微差別和洞察力傳達給您的組織。 通過注釋，可以將日曆事件與特定維度/度量綁定。 您可以以圖形方式顯示事件，並查看市場活動或其它事件是否影響了您的站點流量、收入或任何其他指標。 以前稱為 [!UICONTROL 日曆事件] 在 [!DNL Reports & Analytics]，您可以為資料問題、公共假日、活動啟動等添加日期注釋。
 
 ## 可見性
 
-Annotations are visible in a variety of ways:
+注釋可以通過多種方式顯示：
 
-* Insert line viz image>
+* 插入線視圖>
 
-* Insert freeform table
+* 插入自由形式表格
 
-* Insert PDF
+* 插入PDF
 
+## 開啟或關閉注釋
 
-## Turn annotations on or off
+注釋可在以下幾個位置開啟或關閉：
 
-Annotations can be turned on or off in a few places:
+* 可視化級別：可視化設定>顯示批注
 
-* Visualization level: Visualization settings > Show annotations
+* 項目級別：項目資訊和設定>顯示批注
 
-* Project level: Project info &amp; settings > Show annotations
-
-* User level: Components > User preferences > Data > Show annotations
+* 用戶級別：元件>用戶首選項>資料>顯示注釋
