@@ -34,7 +34,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2021 年 9 月 7 日**
 
-* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。 以下是[同意變數的完整清單](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html)。
+* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。 以下是[同意變數的完整清單](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hant)。
 
 ## 2.22.1 版本
 
@@ -332,8 +332,8 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2015 年 5 月 21 日**
 
-* 從 iOS SDK 4.5 版本開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實作](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html)。
-* 從 Android SDK 4.5 版本開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html)。
+* 從 iOS SDK 4.5 版本開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實作](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=zh-Hant)。
+* 從 Android SDK 4.5 版本開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=zh-Hant)。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版本。
 
@@ -387,7 +387,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
    >[!IMPORTANT]
    >
-   >若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實作用於 Experience Cloud。
+   >若要讓 [!DNL Analytics] 呼叫使用 POST 方法，而不是 [!DNL AppMeasurement] 中的 GET 方法 (解決 [IE 中的截斷 URL](https://helpx.adobe.com/tw/analytics/kb/shortening-image-request-urls.html) 的方法)，您至少必須將訪客 ID 服務的實作用於 Experience Cloud。
 
 ## 1.4 版本
 
@@ -418,7 +418,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2014 年 4 月 17 日**
 
-* 支援 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 支援 [Experience Cloud 訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## 1.2.4 版本
 
@@ -448,7 +448,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2013 年 11 月 14 日**
 
-* 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)的支援。
+* 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)的支援。
 * 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 1.1.1 版本
