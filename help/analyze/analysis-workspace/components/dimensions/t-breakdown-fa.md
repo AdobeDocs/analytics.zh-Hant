@@ -7,9 +7,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 9f0f17936de2597611728498c5ed82d36fd01d1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -36,13 +36,13 @@ ht-degree: 63%
 
 ![劃分設定](assets/breakdown_settings.png)
 
-這是將屬性模型應用於故障或編輯故障時的預期行為：
+這是將歸因模型應用於劃分或編輯劃分時的預期行為：
 
-* 如果在不存在其他屬性時應用屬性，則屬性將應用於整個列樹。
+* 如果在沒有其他歸因時套用歸因，該歸因將套用於整個欄樹。
 
-* 如果在應用了屬性後添加細分，則如果該維具有預設值，則它將對添加的給定細分使用預設值。 否則，它將使用父列的細分。 某些維具有預設分配。  比如說， [!UICONTROL 時間] 維和 [!UICONTROL 引用者] 使用 [!UICONTROL 同一觸摸]。 的 [!UICONTROL 產品] 維使用 [!UICONTROL 上次觸摸]。 其他維沒有預設維，將使用父列分配。
+* 如果在套用了歸因後新增劃分，則將對新增的給定劃分使用預設值 (如果該維度具有預設值)。否則將使用父欄的劃分。某些維度具有預設配置。例如，「[!UICONTROL 時間]」維度和「[!UICONTROL 反向連結]」使用「[!UICONTROL 同一次接觸]」。「[!UICONTROL 產品]」維度使用「[!UICONTROL 上次接觸]」。其他維度沒有預設值，將使用父欄配置。
 
-* 如果列樹中已存在屬性，則更改屬性只會影響您正在編輯的屬性。
+* 如果欄樹中已有歸因，則變更歸因只會影響正在編輯的歸因。
 
 ## 影片
 
