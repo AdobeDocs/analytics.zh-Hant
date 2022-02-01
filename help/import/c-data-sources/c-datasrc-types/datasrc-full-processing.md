@@ -4,9 +4,9 @@ title: 完全處理
 topic-fix: Developer and implementation
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->Adobe建議您使用 [批量資料插入API(BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 而不是完全處理資料源。 Adobe2022年1月31日不建議使用完全處理資料源。 [了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe 建議您改用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 以取代完全處理資料來源。Adobe 已於 2022 年 1 月 31 日取代完全處理資料來源。[了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 
@@ -42,18 +42,18 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>活動 </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
    <td colname="col3"> <p>轉換促銷活動追蹤代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>通道 </p> </td> 
-   <td colname="col3"> <p>渠道字串 (如體育版)。 </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col3"> <p>管道字串 (例如體育版)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
    <td colname="col2"> <p>currencyCode </p> <p>注意：標準資料來源也支援此變數作為 <code> currency code </code>。 </p> </td> 
-   <td colname="col3"> <p>收入貨幣代碼 (如 USD)。 </p> </td> 
+   <td colname="col3"> <p>收入貨幣代碼 (例如 USD)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>timestamp </p> </td> 
@@ -67,7 +67,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>事件 </p> </td> 
+   <td colname="col2"> <p>events </p> </td> 
    <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hant"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
@@ -80,12 +80,12 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
-   <td colname="col2"> <p>連結名稱 </p> </td> 
+   <td colname="col2"> <p>linkName </p> </td> 
    <td colname="col3"> <p>連結名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkType </p> </td> 
-   <td colname="col2"> <p>連結類型 </p> </td> 
+   <td colname="col2"> <p>linkType </p> </td> 
    <td colname="col3"> <p>連結的類型。支援的值包括： </p> 
     <ul id="ul_E441013055A9447AB6C3FB05B6099F7D"> 
      <li id="li_A33F66F30B60479284F72AE3AD4BF499"> <b>d</b>: 下載連結 </li> 
@@ -95,12 +95,12 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkURL </p> </td> 
-   <td colname="col2"> <p>連結URL </p> </td> 
+   <td colname="col2"> <p>linkURL </p> </td> 
    <td colname="col3"> <p>連結的 HREF。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageName </p> </td> 
-   <td colname="col2"> <p>頁名 </p> </td> 
+   <td colname="col2"> <p>pageName </p> </td> 
    <td colname="col3"> <p>頁面名稱 </p> </td> 
   </tr> 
   <tr> 
@@ -110,13 +110,13 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
-   <td colname="col2"> <p>頁面URL </p> </td> 
-   <td colname="col3"> <p>頁面 URL (如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
+   <td colname="col2"> <p>pageURL </p> </td> 
+   <td colname="col3"> <p>頁面 URL (例如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>產品 </p> </td> 
-   <td colname="col3"> <p>產品清單(例如， <code> "Sports;Ball;1;5.95"</code>)。 每行最多可以包含4096位元組。</p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col3"> <p>產品清單 (例如，<code> "Sports;Ball;1;5.95"</code>)。每列最多可容納 4096 位元組。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>prop1 - prop75 </p> </td> 
@@ -125,7 +125,7 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
-   <td colname="col2"> <p>採購ID </p> </td> 
+   <td colname="col2"> <p>purchaseID </p> </td> 
    <td colname="col3"> <p>購買 ID 號碼。 </p> </td> 
   </tr> 
   <tr> 
@@ -135,17 +135,17 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>伺服器 </p> </td> 
+   <td colname="col2"> <p>server </p> </td> 
    <td colname="col3"> <p>伺服器字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>狀態 </p> </td> 
+   <td colname="col2"> <p>state </p> </td> 
    <td colname="col3"> <p>轉換州字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>zip </p> </td> 
-   <td colname="col2"> <p>郵遞區號 </p> </td> 
+   <td colname="col2"> <p>zip </p> </td> 
    <td colname="col3"> <p>轉換郵遞區號。 </p> </td> 
   </tr> 
  </tbody> 
@@ -163,15 +163,15 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>browserHeight </p> </td> 
-   <td colname="col2"> <p>瀏覽器高度 (以像素為單位，如 768)。 </p> </td> 
+   <td colname="col2"> <p>瀏覽器高度 (以像素為單位，例如 768)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>browserWidth </p> </td> 
-   <td colname="col2"> <p>瀏覽器寬度 (以像素為單位，如 1024)。 </p> </td> 
+   <td colname="col2"> <p>瀏覽器寬度 (以像素為單位，例如 1024)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的網站支援的字元集。如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
+   <td colname="col2"> <p>您的網站支援的字元集。例如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=zh-Hant#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
@@ -199,15 +199,15 @@ ht-degree: 92%
   </tr> 
   <tr> 
    <td colname="col1"> <p>colorDepth </p> </td> 
-   <td colname="col2"> <p>監視器色彩深度 (以位元為單位，如 24)。 </p> </td> 
+   <td colname="col2"> <p>監視器色彩深度 (以位元為單位，例如 24)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>connectionType </p> </td> 
-   <td colname="col2"> <p>訪客的連線類型 ( <span class="term"> LAN </span> 或是 <span class="term"> 數據機 </span>)。 </p> </td> 
+   <td colname="col2"> <p>訪客的連線類型 (<span class="term">LAN</span> 或 <span class="term">數據機</span>)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>cookiesEnabled </p> </td> 
-   <td colname="col2"> <p>Y 或 N -- 訪客是否支援 first party 作業 cookie。 </p> </td> 
+   <td colname="col2"> <p>Y 或 N，表示訪客是否支援第一方工作階段 Cookie。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>currencyCode </p> </td> 
