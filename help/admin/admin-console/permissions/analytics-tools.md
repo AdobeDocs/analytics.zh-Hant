@@ -2,10 +2,10 @@
 title: Analytics 工具的產品設定檔權限
 description: 使用 Analytics 工具權限項目，以授與權限來存取 Adobe Analytics 中的功能。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '456'
+ht-degree: 98%
 
 ---
 
@@ -41,6 +41,6 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 | [!UICONTROL 建立區段] | 授與在所有 Analytics 功能中建立與共用區段的能力。 |
 | [!UICONTROL Advertising Analytics 管理] | 未使用。 |
 | [!UICONTROL 區段發佈] | 授與建立或編輯區段時，將區段設為 Experience Cloud 對象的能力。 |
-| [!UICONTROL 整合 (建立)] | 授與對「管理員 > 所有管理員 > 資料連接器」的存取，並允許使用者建立資料連接器。 |
-| [!UICONTROL 整合 (更新)] | 授與對「管理員 > 所有管理員 > 資料連接器」的存取，並允許使用者修改現有連接器設定。 |
-| [!UICONTROL 整合 (刪除)] | 授與對「管理員 > 所有管理員 > 資料連接器」的存取，並允許使用者刪除資料連接器。 |
+| [!UICONTROL 整合 (建立)] | 未使用。資料連接器已停止。 |
+| [!UICONTROL 整合 (更新)] | 未使用。 |
+| [!UICONTROL 整合 (刪除)] | 未使用。 |

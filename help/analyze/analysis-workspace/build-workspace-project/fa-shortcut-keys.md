@@ -2,13 +2,13 @@
 description: Analysis Workspace 提供的鍵盤互動、快速鍵和點選行為。
 keywords: Analysis Workspace
 title: 快速鍵
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 97%
 
 ---
 
@@ -40,6 +40,7 @@ Analysis Workspace 提供快速鍵 (鍵盤快速鍵)，方便無縫導覽、分�
 | --- | --- |
 | 搜尋左側邊欄 | Ctrl+/ |
 | 建立警報 | Ctrl+Shift+A |
+| 建立注釋 | 按住Ctrl + Shift + |
 | 建立計算量度 | Ctrl+Shift+C |
 | 建立日期範圍 | Ctrl+Shift+D |
 | 建立區段 | Ctrl+Shift+E |
