@@ -3,10 +3,10 @@ title: 註解概述
 description: 如何在工作區中使用注釋。
 role: User, Admin
 solution: Analytics
-source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 4%
+source-wordcount: '306'
+ht-degree: 2%
 
 ---
 
@@ -36,26 +36,6 @@ ht-degree: 4%
 
 但是，管理員可以 [!UICONTROL 注釋建立] 權限（分析工具） [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=en)。
 
-## 查看批注
-
-可以通過多種方式查看注釋：在 [!UICONTROL 線] 可視化（因為它是趨勢資料），在 [!UICONTROL 自由形式] 表 [!UICONTROL 欄] 或在導出的.pdf檔案中。
-
-### 折線圖視覺效果
-
-跟隨
-
-### 自由表格
-
-跟隨
-
-### 橫條圖
-
-跟隨
-
-### PDF檔案
-
-跟隨
-
 ## 開啟或關閉注釋
 
 批注可在以下幾個級別開啟或關閉：
@@ -66,3 +46,6 @@ ht-degree: 4%
 
 * 在用戶級別： [!UICONTROL 元件] > [!UICONTROL 用戶首選項] > [!UICONTROL 資料] > [!UICONTROL 顯示批注]
 
+![](assets/show-ann.png)
+
+![](assets/show-ann2.png)
