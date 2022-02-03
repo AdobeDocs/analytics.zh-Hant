@@ -3,10 +3,10 @@ title: 註解概述
 description: 如何在工作區中使用注釋。
 role: User, Admin
 solution: Analytics
-source-git-commit: fe918ca35a8e28aaf77c165f5ea3ca80964a4b3b
+source-git-commit: 0516696ee9d51ac843c659390ae99d8337812cbb
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 3%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 3%
 注釋使您能夠有效地將上下文資料細微差別和洞察力傳達給您的組織。 它們允許您將日曆事件與特定維/度量關聯。 您可以為資料問題、公共假日、市場活動啟動等添加日期或日期範圍注釋。 然後，您可以以圖形方式顯示事件，並查看市場活動或其它事件是否影響了您的站點流量、收入或任何其他指標。
 
 例如，假設您正在與您的組織共用您建立的項目。 您會注意到流量或其他資料中出現下降或高峰，並將注釋與受影響的度量、尺寸或段相關聯。 然後，這些注釋會顯示在表或線條可視化中，並為您和Workspace項目的使用者提供資料上下文。
+
+請記住以下事項：
 
 * 注釋可以與單個日期或日期範圍相關聯。
 
