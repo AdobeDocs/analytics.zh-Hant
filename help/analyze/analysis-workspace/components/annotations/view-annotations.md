@@ -2,15 +2,19 @@
 title: 查看批注
 description: 如何在工作區中查看注釋。
 role: User, Admin
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # 查看批注
+
+>[!NOTE]
+>
+>此功能當前正在有限的測試中。
 
 注釋的顯示方式略有不同，具體取決於它們是跨越一天還是日期範圍。
 
