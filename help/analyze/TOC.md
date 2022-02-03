@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-source-git-commit: 3266dd5547c1967e424534a13a3f8dc29aa1189e
-workflow-type: ht
-source-wordcount: '1011'
-ht-degree: 100%
+source-git-commit: 89cbecf109a8fa9a9fac1f1ed8ad198ffdd398d3
+workflow-type: tm+mt
+source-wordcount: '1018'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 100%
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
    + 元件 {#components}
       + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
+      + 註解 {#annotations}
+         + [註解概述](analysis-workspace/components/annotations/overview.md)
+         + [建立注釋](analysis-workspace/components/annotations/create-annotations.md)
+         + [管理注釋](analysis-workspace/components/annotations/manage-annotations.md)
       + 維度 {#dimensions}
          + [預覽維度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [劃分維度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
