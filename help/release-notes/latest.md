@@ -1,15 +1,19 @@
 ---
 title: 查看當前Adobe Analytics發行說明
 description: 最新分析發行說明
-source-git-commit: f8c2d98e49ead838781b175aa9f22712d6802a9d
+source-git-commit: e19299820a03783215d8425b937a0935311d9e7b
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '868'
 ht-degree: 98%
 
 ---
 
 
 # 最新Adobe Analytics發行說明
+
+**2022 年 1 月**
+
+了解關於 [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。取得 Experience League 上的最新自助文件、教學課程和課程。
 
 ## Adobe Analytics 新功能 {#aa-features}
 
