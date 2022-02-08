@@ -2,10 +2,10 @@
 title: SFTP 服務升級 - 常見問答集
 description: 有關計劃於 2022 年 5 月升級的 SFTP 服務的常見問答集。
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: d78f711e8beeb7a194c642103472417c7bc897d4
-workflow-type: ht
-source-wordcount: '416'
-ht-degree: 100%
+source-git-commit: 49cfd64583826f7c44ba1acaa6d0c7812d30f821
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +16,8 @@ ht-degree: 100%
 ## 我要如何判斷我的組織目前正在使用哪些演算法、連線類型和通訊協定？
 
 您正在使用的 FTP/SFTP 軟體應該會指示您為了與 Adobe Analytics 交換資料而在設定的連線中使用哪些特定的設定。此軟體應該也會包含可供連線使用的不同選項的相關文件。在這次更新後將受到支援的選項已在業界受到廣泛的支持和接納。
+
+將刪除的連接選項通常被視為已過時，且未在當前軟體中使用。 如果您在過去三年內升級了FTP/SFTP軟體，則可能已經有了相容的連接。
 
 ## 哪些 Adobe Analytics 功能會使用 SFTP 來擷取資料？
 
