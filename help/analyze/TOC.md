@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-source-git-commit: 6b5fd4e25056d7efbf3119a4d55d2e0a7897965f
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 99%
+source-wordcount: '1030'
+ht-degree: 98%
 
 ---
 
 
-# Analytics 工具指南 {#analyze}
+# Adobe Analytics工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [登陸頁面](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 總覽](analysis-workspace/home.md)
@@ -31,8 +32,8 @@ ht-degree: 99%
       + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
       + 註解 {#annotations}
          + [註解概述](analysis-workspace/components/annotations/overview.md)
-         + [建立注釋](analysis-workspace/components/annotations/create-annotations.md)
-         + [管理注釋](analysis-workspace/components/annotations/manage-annotations.md)
+         + [建立註解](analysis-workspace/components/annotations/create-annotations.md)
+         + [管理註解](analysis-workspace/components/annotations/manage-annotations.md)
          + [查看批注](analysis-workspace/components/annotations/view-annotations.md)
       + 維度 {#dimensions}
          + [預覽維度](analysis-workspace/components/dimensions/view-dimensions.md)

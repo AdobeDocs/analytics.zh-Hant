@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-source-git-commit: ff6937ebb3bdd37d7acf22a954deb1e656267061
-workflow-type: ht
-source-wordcount: '658'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 
-# [!DNL Analytics] 元件指南 {#components}
+# [!DNL Adobe Analytics] 元件指南 {#components}
 
 + [Analytics 元件指南](home.md)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + 維度 {#dimensions}
    + [維度總覽](dimensions/overview.md)
    + [維度相容性](dimensions/compatibility.md)

@@ -4,17 +4,18 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-source-git-commit: d50ec88ec7d2271d009ae8049481e20d0c90162b
-workflow-type: ht
-source-wordcount: '279'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 96%
 
 ---
 
 
-# Analytics 匯出指南 {#export}
+# Adobe Analytics出口指南 {#export}
 
 + [Analytics 匯出指南](home.md)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + Analytics 資料摘要 {#analytics-data-feed}
    + [資料摘要概觀](analytics-data-feed/data-feed-overview.md)
    + [建立或編輯資料摘要](analytics-data-feed/create-feed.md)

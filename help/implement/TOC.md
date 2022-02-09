@@ -4,17 +4,18 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
-source-git-commit: 9e1ed13b73a4e31baf788a9c8090af8b7c7bcd7d
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Analytics 實作指南 {#implementation}
+# Adobe Analytics實施指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
 + [AppMeasurement 版本注意事項](appmeasurement-updates.md)
 + Analytics 變數、函數和方法 {#vars}
    + [總覽](vars/overview.md)
