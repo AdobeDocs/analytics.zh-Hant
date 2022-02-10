@@ -2,28 +2,28 @@
 title: 查看當前Adobe Analytics發行說明
 description: 最新分析發行說明
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 16e74d5374fd761af973ca7af9dd1c4022010911
+source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '649'
+ht-degree: 61%
 
 ---
 
-# 最新Adobe Analytics發行說明
+# 本Adobe Analytics發行說明（2022年2月）
 
 >[!IMPORTANT]
 >
 >本發行說明包含可能更改的預發行資訊。
 
-**2022年2月16日**
+**上次更新**:2022年2月10日
 
 了解關於 [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。取得 Experience League 上的最新自助文件、教學課程和課程。
 
 ## Adobe Analytics 新功能 {#aa-features}
 
-| 功能 | 說明 | 目標日期 |
+| 功能 | 說明 | [目標日期](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) |
 | ----------- | ---------- | ------- |
-| 本月無新增功能 | 不適用 | 參閱[一般可用性](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) |
+| 移動記分卡項目預覽模式 | 從記分卡生成器直接啟動移動記分卡在分析儀表板應用中的外觀預覽。 預覽模式允許用戶以應用程式中的方式與篩選器和圖表交互，從而在保存和共用記分卡之前預覽體驗。 用戶還可以在預覽模式下使用設備選取器查看其記分卡在不同設備上的外觀。 | 2022 年 2 月 16 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
