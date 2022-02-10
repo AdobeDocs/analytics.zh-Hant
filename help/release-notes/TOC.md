@@ -4,10 +4,10 @@ audience: all
 user-guide-title: 分析發行說明
 breadcrumb-title: 發行說明
 user-guide-description: 新功能和錯誤修復說明的清單。
-source-git-commit: 4ccda7057df7543125be8c69e92aed6c45aed80f
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '39'
+ht-degree: 20%
 
 ---
 
@@ -20,3 +20,5 @@ ht-degree: 0%
    + [《2021年發行說明》](2021.md)
    + [《2020年發行說明》](2020.md)
    + [《2019年發行說明》](2019-earlier.md)
++ [文件更新](doc-updates.md)
++ [分析功能發佈](releases.md)

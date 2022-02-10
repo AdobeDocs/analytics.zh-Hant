@@ -2,10 +2,10 @@
 title: 查看當前Adobe Analytics發行說明
 description: 最新分析發行說明
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 44bbcabf0bdc74b560a650ce1892a52b4d98052c
+source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 61%
+source-wordcount: '641'
+ht-degree: 60%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 61%
 
 ## Adobe Analytics 新功能 {#aa-features}
 
-| 功能 | 說明 | [目標日期](https://experienceleague.adobe.com/docs/analytics/technotes/releases.html?lang=zh-Hant) |
+| 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 移動記分卡項目預覽模式 | 從記分卡生成器直接啟動移動記分卡在分析儀表板應用中的外觀預覽。 預覽模式允許用戶以應用程式中的方式與篩選器和圖表交互，從而在保存和共用記分卡之前預覽體驗。 用戶還可以在預覽模式下使用設備選取器查看其記分卡在不同設備上的外觀。 | 2022 年 2 月 16 日 |
 

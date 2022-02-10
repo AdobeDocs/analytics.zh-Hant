@@ -5,8 +5,8 @@ title: Analysis Workspace 的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 174e81cc94fb67f391cbf6bff4c1b071527b5ce2
-workflow-type: ht
+source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+workflow-type: tm+mt
 source-wordcount: '8286'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Analysis Workspace 的新增功能
 
 >[!IMPORTANT]
->我們已在 [Adobe Analytics 文件更新](/help/technotes/doc-updates.md)頁面上推出進一步的 Analysis Workspace 更新。
+>我們已在 [Adobe Analytics 文件更新](/help/release-notes/doc-updates.md)頁面上推出進一步的 Analysis Workspace 更新。
 
 如需總體產品的更新，請參閱 [Adobe Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=zh-Hant)。
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 | 功能 | 目標日期 | 說明 |
 | --- | --- | --- |
-| [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。 「[!UICONTROL 用戶偏好設定]」會套用到所有新的專案和面板。 <br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 用戶偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
+| [!UICONTROL 元件] > [!UICONTROL 使用者偏好設定] | 2021 年 3 月 25 日 | 「[!UICONTROL 元件] > [!UICONTROL 用戶偏好設定]」頁面可讓您為用戶管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。 「[!UICONTROL 使用者偏好設定]」會套用到所有新的專案和面板。 <br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 使用者偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
 | [!UICONTROL 長條圖智慧值區預測] | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。 對於低基數度量，此視覺化效果的行為模式與先前相同。 |
 
 ## 2021 年 2 月
@@ -51,7 +51,7 @@ ht-degree: 100%
 | 功能 | 說明 |
 | --- | --- |
 | [下載單一維度的 50,000 個項目](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/download-send.html?lang=zh-Hant#download-items) | 您現在能以自由格式表格，針對單一維度下載 50,000 個項目，並套用區段和篩選條件。如此一來，您就能存取 Analysis Workspace 以外超過 400 列的資料。 |
-| [線條視覺效果的增強功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html?lang=zh-Hant) | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
+| [線條視覺效果的增強功能](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/line.html) | <ul><li>您可以顯示或隱藏任何[!UICONTROL 線條]視覺效果的 X 軸與 Y 軸。當 [!UICONTROL 線條] 視覺化效果較為精簡時，這項功能可說相當實用。</li><li>您可以在任何線條視覺化效果上覆蓋最小值和最大值標籤，以迅速突顯量度的高低值。</li><li>您可以在任何線條視覺化效果上覆蓋不同的迴歸趨勢線，以便輕鬆查看資料趨勢。選項包括[!UICONTROL 線性]、[!UICONTROL 對數]、[!UICONTROL 指數]、[!UICONTROL 冪]和[!UICONTROL 二次方程式]。</li></ul> |
 | 新日期範圍 | 新增 5 個日期範圍，您可以選擇以下日期範圍，排除不完整的當天資料：過去 7 天、過去 14 天、過去 30 天、過去 60 天、過去 90 天 |
 
 ## 2020 年 8 月
@@ -76,7 +76,7 @@ ht-degree: 100%
 | 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶可使用。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows) |
 | 共用 Workspace 專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) |
 | 僅限檢視的 Workspace 專案 | Workspace 專案能僅以「可供檢視」狀態與使用者共用。當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant) |
-| 可共同編輯 Workspace 專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。 無論管理員或非管理人員均適用。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) |
+| 可共同編輯 Workspace 專案 | 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。 無論管理員或非管理人員均適用。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白面板 | 空白面板現增設多種面板和視覺效果，為您提供更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
 | 快速深入分析面板 (2020 年 6 月 25 日) | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[進一步了解...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
 | Workspace 中的「Analytics for Target」面板(2020 年 6 月 25 日) | 「Analytics for Target」(A4T) 面板可讓您在 Analysis Workspace 中輕鬆分析 Adobe Target 活動和體驗。[了解更多...](/help/analyze/analysis-workspace/c-panels/a4t-panel.md) |
@@ -187,7 +187,7 @@ ht-degree: 100%
 |--- |--- |
 | [同類群組分析](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md) | 同類群組分析的重大改善可讓您：<ul><li>分別套用區段包含和回訪量度。 </li><li>顯示流失率而非保留率。</li><li>顯示延時表格 (包含事件前後經過的時間)。</li><li>自訂同類群組維度 (根據 eVar 將訪客分組，而非僅根據時間)。</li><li>執行滾動式同類群組計算：根據先前時段 (而非原始同類群組) 計算保留率/流失率。 </li><li>在包含與回訪欄位中新增多個量度，並套用區段。(不支援計算量度)</li></ul> |
 | [檢視密度](/help/analyze/analysis-workspace/build-workspace-project/view-density.md) | 此新設定可減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，讓您在單一畫面上查看更多資料。您可透過「專案 > 專案資訊與設定」，存取此設定。 |
-| [支援歸因 IQ 中的多值變數](attribution/overview.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將歸因 IQ 套用至這些點擊層級變數。 |
+| [支援歸因 IQ 中的多值變數](attribution/overview.md) | Analytics 的部分維度可包含單一點擊的多個數值，例如 listVar、產品變數、清單 prop 或銷售 eVar。Analysis Workspace 可讓您將 Attribution IQ 套用至這些點擊層級變數。 |
 | 改善效能 | 提升劃分視覺效果的速度，具有大量劃分的專案會更快載入。 |
 
 ## 2018 年 11 月

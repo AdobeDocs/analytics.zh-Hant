@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
-source-wordcount: '200'
+source-git-commit: fac5627cec2a398aaca8272fefe8497fbb8fb315
+workflow-type: tm+mt
+source-wordcount: '196'
 ht-degree: 100%
 
 ---
@@ -15,7 +15,6 @@ ht-degree: 100%
 # Analytics 技術備忘稿 {#technotes}
 
 + [Analytics 技術備忘稿](home.md)
-+ [文件更新](doc-updates.md)
 + Google Analytics 使用者適用的 Adobe Analytics {#ga-to-aa}
    + [Google Analytics 使用者適用的 Adobe Analytics 說明](ga-to-aa/home.md)
    + [帳戶與報表套裝](ga-to-aa/accounts.md)
@@ -44,7 +43,6 @@ ht-degree: 100%
    + [可減輕瀏覽器 Cookie 限制之影響的選項](cookies/cookieless.md)
 + [資料保留](data-retention.md)
 + [排除資料](exclude-data.md)
-+ [功能發行](releases.md)
 + [Adobe Analytics 使用的 IP 和網域](ip-addresses.md)
 + [延遲性](latency.md)
 + [低流量值](low-traffic.md)
