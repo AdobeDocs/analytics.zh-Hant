@@ -3,14 +3,14 @@ description: Adobe Analytics 資料控管常見問題集
 title: 常見問題集
 uuid: 1cd41253-d74f-4b92-92e6-56f9afa3df85
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: de059ecc9f7ec2fe7ce544ee9cd48d81ad952887
+workflow-type: tm+mt
 source-wordcount: '1804'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
-# 常見問題集
+# 常見問答
 
 <table id="table_FA37A4B3960C4181B9CCDB569A476936"> 
  <thead> 
@@ -22,7 +22,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 如何支援由客戶 (資料控管單位) 驗證的使用者 (資料主體) 存取和刪除請求？</b> </p> </td> 
-   <td colname="col2"> <p>各種資料隱私權規定 (GDPR、CCPA) 生效時，Adobe Analytics 會協助處理由資料控管單位提交到 Experience Cloud 資料隱私權 API 的已驗證請求，藉此提高程序的自動化程度。Adobe 資料隱私權 API 的設計目的，是為了協助處理客戶儲存在不同 Adobe Experience Cloud 解決方案中之資料的個別權限請求 (如存取和刪除請求)。它具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。此外，資料隱私權 API 還允許客戶查看資料存取和刪除請求的履行狀態。 </p> <p>如需更多詳細資料，請參閱<a href="https://www.adobe.io/apis/cloudplatform/gdpr.html">資料隱私權 API 文件</a>。 </p> </td> 
+   <td colname="col2"> <p>各種資料隱私權規定 (GDPR、CCPA) 生效時，Adobe Analytics 會協助處理由資料控管單位提交到 Experience Cloud 資料隱私權 API 的已驗證請求，藉此提高程序的自動化程度。Adobe 資料隱私權 API 的設計目的，是為了協助處理客戶儲存在不同 Adobe Experience Cloud 解決方案中之資料的個別權限請求 (如存取和刪除請求)。它具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。此外，Privacy ServiceAPI允許客戶檢查資料存取和刪除請求的履行情況。 </p> <p>有關詳細資訊，請參閱 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy ServiceAPI文檔。 </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>誰負責接收、接受及履行使用者的資料隱私權請求？</b> </p> </td> 
