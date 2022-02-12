@@ -1,11 +1,11 @@
 ---
-title: 查看當前Adobe Analytics發行說明
-description: 最新分析發行說明
+title: 最新分析發行說明
+description: 查看當前Adobe Analytics發行說明。
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 581c7888153b7fefdcadeb240d01582b3b2bd47a
+source-git-commit: 511e3f4c621137d76b40fcc04ea849a0bba9e3fa
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 58%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 59%
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 移動記分卡項目預覽模式 | 從記分卡生成器直接啟動移動記分卡在分析儀表板應用中的外觀預覽。 預覽模式允許用戶以應用程式中的方式與篩選器和圖表交互，從而在保存和共用記分卡之前預覽體驗。 用戶還可以在預覽模式下使用設備選取器查看其記分卡在不同設備上的外觀。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=en#preview) | 2022 年 2 月 16 日 |
+| API項目終結點 | 使用API添加、編輯或刪除Analysis Workspace項目。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) | 2022年2月1日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -35,11 +36,9 @@ ht-degree: 59%
 * 已修復報告時間較慢的問題。 (AN-280055)
 * 已修復分類未對所有維項分類的問題。 (AN-280031)
 
-
 ### Adobe Analytics 中的其他修正
 
 AN-268093、AN-273820、AN-274435、AN-274904、AN-275356、AN-275947、AN-275947276160、AN-276258、AN-276705、AN-277051、AN-277957、AN-278693、AN-278882、AN-279000、AN-279046、AN-279362、AN-279460、AN-279488、AN-279554、AN-279572、AN-279663、AN-279755、AN-279825、AN-280002、AN-280013、AN-280019、AN-280033、AN-280086、AN-280232、AN-280264、AN-280288、AN-280342、AN-280347、AN-280360、AN-280370、AN-280724、AN-280830、AN-280941、AN-281353、AN-281424、AN-281533
-
 
 ## 給 [!DNL Analytics] 管理員的重要通知
 
@@ -55,4 +54,3 @@ AN-268093、AN-273820、AN-274435、AN-274904、AN-275356、AN-275947、AN-27594
 
 >[!MORELIKETHIS]
 >[[!DNL Customer Journey Analytics] 版本說明](https://experienceleague.adobe.com/docs/analytics-platform/using/releases/latest.html?lang=en)
-
