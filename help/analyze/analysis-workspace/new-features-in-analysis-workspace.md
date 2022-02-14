@@ -5,10 +5,10 @@ title: Analysis Workspace 的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: cd93db4c83e93863f1e2fe6f6d258a1073bd0823
+source-git-commit: c818db35524d6c0d416ee2560943526f19842c5e
 workflow-type: tm+mt
-source-wordcount: '8286'
-ht-degree: 100%
+source-wordcount: '8276'
+ht-degree: 99%
 
 ---
 
@@ -548,7 +548,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>貢獻分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hant"  >代號通知 </a> </p> </td> 
-   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。&amp;nbsp; </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)此權限稱為「異常偵測與貢獻度分析」，其位於「<span class="uicontrol">Analytics </span> &gt; <span class="uicontrol"> 管理員 </span> &gt; <span class="uicontrol"> 所有管理員 </span> &gt; <span class="uicontrol"> 使用者管理 </span> &gt; <span class="uicontrol"> 編輯群組 </span> &gt; <span class="uicontrol"> 編輯所有報表存取權 </span> &gt; <span class="uicontrol"> 自訂報表套裝工具 </span> &gt; <span class="uicontrol"> 工具和報表 </span>」當中)。  </p> </td> 
+   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。 </p> <p>(管理員使用者：您可編輯群組權限，限制可使用代號的使用者。)該權限稱為「異常檢測和貢獻分析」 <span class="uicontrol"> 分析 </span> &gt; <span class="uicontrol"> 管理 </span> &gt; <span class="uicontrol"> 所有管理員 </span>  &gt; <span class="uicontrol"> 用戶管理 </span>&gt; <span class="uicontrol"> 編輯組 </span> &gt; <span class="uicontrol"> 編輯所有報告訪問 </span> &gt; <span class="uicontrol"> 自定義報表套件工具 </span> &gt; <span class="uicontrol"> 工具和報告 </span>。) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>含有多位元組字元的 CSV 檔案 </p> </td> 
@@ -598,7 +598,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/map-visualization.md"  > 地圖視覺效果 </a> </p> </td> 
-   <td colname="col2"> <p>Analysis Workspace 中全新的「地圖視覺效果」讓您輕鬆地在客戶所在地點的環境中查看其互動。從宏觀 (全球) 檢視到微觀 (城市) 檢視，您都可以輕鬆放大和縮小視覺效果中的各種階層層次，以查看跨區域使用者的叢集。 </p> <p>您可以透過 IP 位址將位置資料 (針對非行動資料集) 加以視覺化，您也可以讓經緯度資料 (適用於使用 Mobile SDK 的客戶) 在 Analysis Workspace 中重現。&amp;nbsp; </p> </td> 
+   <td colname="col2"> <p>新的Map Visualization允許您在客戶所在位置的上下文中輕鬆查看客戶交互。 從宏觀 (全球) 檢視到微觀 (城市) 檢視，您都可以輕鬆放大和縮小視覺效果中的各種階層層次，以查看跨區域使用者的叢集。 </p> <p>您可以通過IP地址（對於非移動資料集）直觀顯示位置資料，或者可以將緯度和經度資料（對於使用移動SDK的客戶）帶到Analysis Workspace。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="/help/analyze/analysis-workspace/visualizations/line.md"  >趨勢視覺效果的粒度選取器</a> </p> </td> 
