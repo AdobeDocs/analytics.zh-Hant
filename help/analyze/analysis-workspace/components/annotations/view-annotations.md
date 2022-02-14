@@ -2,19 +2,19 @@
 title: 查看批注
 description: 如何在工作區中查看注釋。
 role: User, Admin
-source-git-commit: 0985a31596103a0325509a66a6bde7688e24e9bd
+exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
+source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 10%
 
 ---
-
 
 # 查看批注
 
 >[!NOTE]
 >
->此功能當前正在有限的測試中。
+>此功能目前在有限測試中。
 
 注釋的顯示方式略有不同，具體取決於它們是跨越一天還是日期範圍。
 
@@ -34,3 +34,9 @@ ht-degree: 0%
 由於不能將滑鼠懸停在.pdf檔案中的表徵圖上，因此此檔案（導出後）會在面板底部提供說明說明。 其範例如下：
 
 ![](assets/ann-pdf.png)
+
+## 查看不基於日期的注釋
+
+有時注釋不與日期相關聯，而是與特定尺寸相關聯。 在這種情況下，它們只出現在右下角的摘要注釋中。 其範例如下：
+
+![](assets/non-date.png)
