@@ -2,10 +2,10 @@
 description: 控制面板是稱為小報表的報表縮圖集合。控制面板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
 subtopic: Dashboards
 title: 控制面板和報表
-uuid: 7a7b3bc9-0a3c-49b0-9168-e2878ae67b97
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
 source-wordcount: '1827'
 ht-degree: 98%
@@ -42,11 +42,11 @@ ht-degree: 98%
 
 除了您建立的控制面板外，使用者也可使用下列預先封裝的控制面板︰
 
-**[!UICONTROL 元件]  >  [!UICONTROL 所有元件]  >  [!UICONTROL 控制面板]  >  [!UICONTROL 共用控制面板]  >  [!UICONTROL 本機網站]**
+**[!UICONTROL 元件] > [!UICONTROL 所有元件] > [!UICONTROL 儀表板] > [!UICONTROL 共用儀表板] > [!UICONTROL 本地站點]**
 
 這個可自訂的控制面板提供將小報表放至所提供範本的方法。
 
-**[!UICONTROL 元件]  >  [!UICONTROL 所有元件]  >  [!UICONTROL 控制面板]  >  [!UICONTROL 共用控制面板]  >  [!UICONTROL 網站作業控制面板]**
+**[!UICONTROL 元件] > [!UICONTROL 所有元件] > [!UICONTROL 儀表板] > [!UICONTROL 共用儀表板] > [!UICONTROL 站點操作儀表板]**
 
 這個控制面板提供與網站作業相關之關鍵度量的概述。該控制面板上的報表包括︰
 
@@ -186,7 +186,7 @@ t_dashboard_edit.xml
 
 **若要編輯控制面板和小報表資料**
 
-1. 按一下「**[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]** > *控制面板名稱*」以開啟控制面板。
+1. 按一下 **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 儀表板]** > *儀表板名稱* 開啟儀表板。
 1. 按一下&#x200B;**[!UICONTROL 「配置」]**。
 
 | 結束日期 | 執行動作 |
@@ -214,7 +214,7 @@ t_dashboard_branding.xml
 
  -->
 
-1. **[!UICONTROL Analytics]**  >  **[!UICONTROL 管理員]**  >  **[!UICONTROL 所有管理員]**  >  **[!UICONTROL 公司設定]**。
+1. **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]**。
 1. 在[!UICONTROL 「公司設定」]頁面中，按一下&#x200B;**[!UICONTROL 「品牌結合 Adobe Experience Cloud」]**。
 1. 按一下&#x200B;**[!UICONTROL 啟用品牌結合]**。
 1. 瀏覽以上傳影像，然後按一下&#x200B;**[!UICONTROL 「儲存」]**。

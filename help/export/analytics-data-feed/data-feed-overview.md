@@ -2,10 +2,10 @@
 description: 從網站、行動應用程式收集或使用網站服務 API 或資料來源上傳的資料會儲存在 Adobe 的 Data Warehouse。這些原始點按流資料形成 Adobe Analytics 所使用的資料集。
 keywords: 點按資料流；資料摘要；資料摘要；資料摘要
 title: Analytics 資料摘要總覽
-uuid: 6bdbe90c-e6ed-4bb0-b5be-24fd795adde4
+feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
 

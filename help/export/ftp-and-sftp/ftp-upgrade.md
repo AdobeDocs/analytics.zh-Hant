@@ -2,12 +2,14 @@
 description: 升級為 Adobe FTP 伺服器可引進會影響自動化指令碼 (通常用於定期下載或上傳資料) 的新設定，這通常需依賴某些伺服器設定。
 keywords: ftp;sftp
 title: 升級 Adobe FTP 伺服器
-uuid: cc9e5e13-e213-480f-9ff6-3dbec24baeee
-translation-type: tm+mt
-source-git-commit: 99ee24efaa517e8da700c67818c111c4aa90dc02
+feature: FTP Export
+exl-id: 442b2d5d-735c-4ece-a456-3a0ac5909c8c
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 100%
 
 ---
-
 
 # 升級 Adobe FTP 伺服器
 

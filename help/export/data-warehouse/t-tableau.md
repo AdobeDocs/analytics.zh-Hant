@@ -2,12 +2,10 @@
 description: Data Warehouse 可以傳送 Tableau 資料擷取 (TDE) 檔案格式，供您在 Adobe Analytics 外部的其他資料中顯示資料和圖層。您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
 title: Tableau 資料檔案
 feature: Data Warehouse
-uuid: 84566ba8-87d8-4c5e-8c31-f659a577848c
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '177'
 ht-degree: 100%
 
 ---

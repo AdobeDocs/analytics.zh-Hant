@@ -2,10 +2,10 @@
 description: 以下是資料摘要處理和交付的幾個最佳做法。
 keywords: 資料摘要；最佳做法；流量尖峰；每小時；ftp
 title: 最佳作法和一般資訊
-uuid: f2d6c13a-5d4e-4fc2-8baa-28c69f0cf5f6
+feature: Data Feeds
 exl-id: 5f6fbc13-b176-4f69-8f2d-7accc6e6ac2d
-source-git-commit: c420a9468dc39922bd02047160bb07623503eee4
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 100%
 

@@ -2,11 +2,10 @@
 description: 若要不使用密碼連線至 FTP 帳戶，只能透過同時使用 SFTP 連線和替代驗證方法才能達成。這需要用到稱為公開金鑰和私密金鑰的兩個檔案組合 (一個檔案存在 FTP 帳戶上，另一個檔案存在您的電腦上)。
 keywords: ftp;sftp
 title: 不使用密碼透過 SFTP 連線至 Adobe
-uuid: 88728309-50d2-450b-b0e6-7dcdf61b5dbc
+feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 100%
 

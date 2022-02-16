@@ -2,9 +2,10 @@
 title: 資料摘要的疑難排解
 description: 了解如何判斷及解決資料摘要的問題。
 keywords: 工作; 疑難排解; 錯誤; ftp; chdir; 連接; 登入; put
+feature: Data Feeds
 exl-id: c082bc95-cdae-448b-86b5-695660fb2352
-source-git-commit: b81ffba2f1e021888dd1c4b016c9b451448f47bb
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 100%
 

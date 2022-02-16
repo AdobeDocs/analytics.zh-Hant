@@ -2,10 +2,10 @@
 description: 分類 (SAINT) FTP 選項為上傳大型分類資料集提供更大的彈性，包括能夠將資料上傳至多個報表套裝，並且可以上傳超過 50,000 列的資料集。
 keywords: ftp;sftp
 title: 分類
-uuid: 35936c98-b785-43eb-89f4-ab42a10db256
+feature: FTP Export
 exl-id: fc783328-a70b-4af3-b3d3-c59ab79d6b8f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 100%
 
