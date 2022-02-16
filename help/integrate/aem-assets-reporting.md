@@ -2,10 +2,10 @@
 description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
 title: 如何在 Adobe Analytics 中製作 AEM Assets 報表
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 0b9059aa03777d429a671f11c29e5f9831fac6ba
-workflow-type: ht
+source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 **[!UICONTROL 「分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL AEM]** > **[!UICONTROL AEM Assets 報表」]**
 
-啟用 Analytics，收集資產的曝光次數與點擊次數 (由 AEM 資產分析提供的資產)。此項整合
+使Analytics能夠收集印象和點擊 [!UICONTROL 資產] 從Asset AEM Insights獲得。 此項整合
 
 * 啟用 Analytics 中的報告功能。
 * 將維度新增至 Analysis Workspace 中的資產變數：資產 ID、資產來源和已點選的資產 ID
