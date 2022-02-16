@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 742e7d69-2acf-48a9-aaf3-1cb3a73944af
 source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Analysis Workspace 提供快速鍵 (鍵盤快速鍵)，方便無縫導覽、分�
 | --- | --- |
 | 搜尋左側邊欄 | Ctrl+/ |
 | 建立警報 | Ctrl+Shift+A |
-| 建立注釋 | 按住Ctrl + Shift + |
+| 建立附註 | Ctrl+Shift+O |
 | 建立計算量度 | Ctrl+Shift+C |
 | 建立日期範圍 | Ctrl+Shift+D |
 | 建立區段 | Ctrl+Shift+E |
