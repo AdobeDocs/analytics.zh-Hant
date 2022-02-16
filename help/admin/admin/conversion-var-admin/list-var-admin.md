@@ -1,14 +1,14 @@
 ---
 title: 清單變數
 description: 建立並設定清單變數，以供報表使用。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Admin Tools
+exl-id: 6d9a52d4-e7f3-4bbc-bad4-55c79f30b9f7
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 100%
 
 ---
-
 
 # 清單變數
 

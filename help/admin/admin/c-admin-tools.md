@@ -1,11 +1,10 @@
 ---
 description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
-uuid: 6961e956-14ea-4367-bdbd-eb0bcc456aae
+feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 
@@ -37,19 +36,19 @@ ht-degree: 100%
 + [功能表自訂](customize-menus.md)
 + [量度可見性](metric-visibility.md)
 + [行動管理](mobile-management.md)
-+ [付費搜尋偵測概觀](paid-search-detection/paid-search-detection.md)
++ [付費搜尋偵測總覽](paid-search-detection/paid-search-detection.md)
 + [發佈清單](publishing-list.md)
-+ [發佈介面工具集](publishing-widgets-admin.md)
++ [發佈 Widget](publishing-widgets-admin.md)
 + [偏好設定管理器](preferences-manager.md)
 + [隱私權設定](privacy-settings.md)
-+ [處理規則概觀](c-processing-rules/processing-rules.md)
-+ [即時報表概觀](realtime/realtime.md)
++ [處理規則總覽](c-processing-rules/processing-rules.md)
++ [即時報表總覽](realtime/realtime.md)
 + [排程報表佇列](scheduled-reports-admin.md)
-+ [伺服器端轉送概觀](c-server-side-forwarding/ssf.md)
++ [伺服器端轉送總覽](c-server-side-forwarding/ssf.md)
 + [簡化的報表功能表](t-simplified-menu.md)
 + [社交管理](social-management.md)
 + [成功事件概觀](c-success-events/success-event.md)
 + [可選時間戳記](timestamp-optional.md)
-+ [流量變數 (Prop) 概觀](c-traffic-variables/traffic-var.md)
++ [流量變數 (prop) 總覽](c-traffic-variables/traffic-var.md)
 + [指定不重複訪客變數](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [影片管理](video-management.md)

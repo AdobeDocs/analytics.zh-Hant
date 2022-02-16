@@ -1,14 +1,14 @@
 ---
 description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud 的 Admin Console，您必須瞭解的事項。
 title: Analytics 使用者移轉至 Admin Console
-uuid: 7d020713-693b-4945-aa52-3669a631aacb
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
+feature: Admin Tools
+exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '3119'
 ht-degree: 96%
 
 ---
-
 
 # Analytics 用戶移轉至 Admin Console{#analytics-user-migration-to-the-admin-console}
 
@@ -38,7 +38,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理使用者身分和權限 </p> </td> 
-   <td colname="col2"> <p>Analytics管理員只能在<a href="https://adminconsole.adobe.com/enterprise/">Admin Console</a>中管理使用者和權限。 </p> </td> 
+   <td colname="col2"> <p>分析管理員可以僅管理 <a href="https://adminconsole.adobe.com/enterprise/"> Admin Console</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>管理產品和核心服務 </p> </td> 
@@ -97,13 +97,13 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
      <li id="li_418476105FE341229CE146E730AAB33D">Analytics 的現有權限群組會自動複製到 Admin Console，成為「產品設定檔」，其中包括報表套裝、量度、維度、Analytics 及「報表套裝工具」的說明與詳細區分的權限。 </li> 
      <li id="li_412F88C454B0455A8F3BC8016226855C">如果您目前有任何 Analytics 使用者是在 Admin Console 中建立的 (表示他們擁有相連結的 Adobe/Enterprise ID)，系統會將這些使用者新增到 Admin Console 中相應的產品設定檔。 </li> 
      <li id="li_8A05137EC05C4FD5910E73FE58300DCB">Analytics「管理」標籤下的「使用者管理」區段會設為<span class="term"> 唯讀</span>。您將無法在此處建立新的使用者或權限群組，而必須在 Admin Console 中執行這兩項功能。如需詳細資訊，請參閱 <a href="/help/admin/user-management2/user-migration/c-migration-tool.md#section-928ffba27a0446e0af575b720434ef56">Admin Console 中不支援的 Analytics 功能</a>。 </li> 
-     <li id="li_2742DE69E9B547198A58E1F33E908361">身為管理員，您將有權存取<a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">使用者ID移轉工具</a>。 此外，畫面上會出現產品內通知，除了說明內容和常見問題的連結外，也會告知您移轉的結束日期 (通常是 60 天後)。 </li> 
+     <li id="li_2742DE69E9B547198A58E1F33E908361">作為管理員，您將有權訪問 <a href="https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/t-migrate-users.html">用戶ID遷移工具</a>。 此外，畫面上會出現產品內通知，除了說明內容和常見問題的連結外，也會告知您移轉的結束日期 (通常是 60 天後)。 </li> 
      <li id="li_095D42E3A3544FC59A60A8C8F94C971B">您將獲得 Admin Console「權限」標籤的存取權，以便使用熟悉的所有 Analytics 精細選項來建立「產品設定檔」。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我要如何移轉使用者 ID？ </p> </td> 
-   <td colname="col2"> <p> 按一下「管理」頁面「使用者管理」下方的「移轉使用者ID</a>」 。 <a href="/help/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9">使用工具將使用者新增到 Admin Console 中的產品設定檔 (從 Analytics 的權限群組複製)。您可依照自己的步調來移轉使用者 ID。 </a></p> <p>需要管理員權限。移轉完成後便無法回復。 </p> <p>移轉結束日期當天，使用者在登入公司內對 <span class="filepath">my.omniture.com</span> 的存取權限將會停用。使用者 (包括尚未移轉的使用者) 會經由系統重新導向，透過新的 Experience Cloud URL (<span class="filepath">experiencecloud.adobe.com</span>) 登入。 </p> <p>附註：Adobe 建議您藉此機會在移轉前對使用者與群組執行審核。刪除未使用的舊帳戶，或不應該再存取產品的帳戶 (例如組織的離職員工)。 </p> <p>相關主題：<a href="/help/admin/user-management2/user-migration/migrate-enterprise.md">移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶</a> </p> </td> 
+   <td colname="col2"> <p> 按一下 <a href="/help/admin/user-management2/user-migration/t-migrate-users.md#task-f3355f3b14a340feae58cfa04c0ba1c9"> 遷移用戶ID</a> 在「管理」頁的「用戶管理」下。 使用工具將使用者新增到 Admin Console 中的產品設定檔 (從 Analytics 的權限群組複製)。您可依照自己的步調來移轉使用者 ID。 </p> <p>需要管理員權限。移轉完成後便無法回復。 </p> <p>移轉結束日期當天，使用者在登入公司內對 <span class="filepath">my.omniture.com</span> 的存取權限將會停用。使用者 (包括尚未移轉的使用者) 會經由系統重新導向，透過新的 Experience Cloud URL (<span class="filepath">experiencecloud.adobe.com</span>) 登入。 </p> <p>附註：Adobe 建議您藉此機會在移轉前對使用者與群組執行審核。刪除未使用的舊帳戶，或不應該再存取產品的帳戶 (例如組織的離職員工)。 </p> <p>相關主題：<a href="/help/admin/user-management2/user-migration/migrate-enterprise.md">移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>移轉是否會影響我的 Analytics 實作項目或收集資料的方式？ </p> </td> 
@@ -132,7 +132,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司正要移轉至 Admin Console，我可以在移轉開始日期前於何處建立新的使用者和權限群組？ </p> </td> 
-   <td colname="col2"> <p>在移轉開始日期前，您可以在 Admin Console 或依序前往「Analytics &gt; 使用者管理」建立使用者。 </p> <p>移轉開始後，您便只能在 Admin Console 中建立使用者和權限群組。 </p><p>如需移轉開始日期當天所發生內容的詳細資訊，請參閱下方的移轉區段。 </p>
+   <td colname="col2"> <p>在移轉開始日期前，您可以在 Admin Console 或依序前往「Analytics &gt; 使用者管理」建立使用者。 </p> <p>移轉開始後，您便只能在 Admin Console 中建立使用者和權限群組。 </p><p>有關遷移開始日期發生的更多詳細資訊，請參閱下面的「遷移」部分。 </p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
 
 請向您目前的使用者主動告知此移轉計劃。您可以自訂以下的範本並傳送給所有目前的 Analytics 使用者：
 
-若要傳送電子郵件給所有使用者，請導覽至&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL All admin]** > **[!UICONTROL 使用者管理]** > [電子郵件使用者](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html)。
+要向所有用戶發送電子郵件，請導航到 **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 用戶管理]** > [電子郵件用戶](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/t-email-users.html)。
 
 **主旨：**&#x200B;即將推出 – 登入 Adobe Analytics 和 Adobe Experience Cloud 的新方式。
 

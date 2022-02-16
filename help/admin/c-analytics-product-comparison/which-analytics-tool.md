@@ -1,12 +1,12 @@
 ---
 description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的情況。請依照所列出的順序，來考慮該使用哪種工具。若某項工具不符合需求，請依序考慮清單上的下一種工具。
 title: 我該使用哪種 Adobe Analytics 工具呢？
-uuid: 1179e49d-3cfc-4abd-a8eb-35c5ae380c16
+feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 76072b45114a15d9b366657ea81872035965e5b6
-workflow-type: ht
-source-wordcount: '1168'
-ht-degree: 100%
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
+source-wordcount: '1169'
+ht-degree: 98%
 
 ---
 
@@ -62,9 +62,9 @@ ht-degree: 100%
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
    * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
 
-該使用 **[資料連接器](https://www.adobeexchange.com/experiencecloud.html)** 的情況：
+**[AdobeExchange整合](https://www.adobeexchange.com/experiencecloud.html)** 應使用：
 
-* 當您與協力廠商提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。資料連接器通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
+* 當您與協力廠商提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。整合應用通常會定期將摘要級資料永久自動地併入Adobe Analytics。
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 使用時機：
 

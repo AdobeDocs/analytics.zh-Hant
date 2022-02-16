@@ -2,12 +2,11 @@
 description: 可讓您在 Adobe Analytics 使用者介面中隱藏報表套裝。
 keywords: 刪除報表套裝
 title: 隱藏報表套裝
-feature: 管理工具
-uuid: 3e857ba7-d48e-44d5-ad60-f3349e203e10
+feature: Company Settings
 exl-id: f7809247-dc34-4ab4-94ce-424051d90a2a
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '222'
 ht-degree: 92%
 
 ---
@@ -24,7 +23,7 @@ ht-degree: 92%
 >
 >系統會繼續收集、處理從您的網站傳送給隱藏報表套裝的資料，並據此計費。換句話說，報表套裝不會被完全刪除。
 
-若要隱藏報表套裝，請前往「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 隱藏報表套裝]**」。 勾選報表套裝名稱左側的&#x200B;**[!UICONTROL 「隱藏」]**&#x200B;核取方塊。
+要隱藏報表套件，請轉到 **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 隱藏報表套件]**。 勾選報表套裝名稱左側的&#x200B;**[!UICONTROL 「隱藏」]**&#x200B;核取方塊。
 
 若要解除隱藏報表套裝，請取消勾選&#x200B;**[!UICONTROL 「隱藏」]**&#x200B;核取方塊。
 

@@ -1,14 +1,14 @@
 ---
 description: 新增或管理伺服器所有使用量警報。當您設定警報時，該警報會套用至結帳公司之所有登入公司中的所有報表套裝。
 title: 伺服器呼叫使用量警報
-uuid: 701fd542-5b24-42df-97a0-08e10929fa48
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Server Call Usage
+exl-id: 35926566-c570-4ed2-9bbc-0906518bcf64
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 100%
 
 ---
-
 
 # 伺服器呼叫使用量警報
 
@@ -77,4 +77,3 @@ ht-degree: 100%
    | 啟用/停用 | 您可以啟用或停用所有警報，甚至是預設警報。 |
    | 續訂 | 選取一或多個警報後，即可續訂警報。如此一來，到期日將從按一下[!UICONTROL 「續訂」]之日算起延長 1 年，無論原始到期日為何。 |
    | 匯出至 CSV | 請參閱[下載使用情況報表](/help/admin/c-server-call-usage/report-suite-usage.md) |
-

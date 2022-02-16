@@ -1,13 +1,15 @@
 ---
 description: 若要確認伺服器端轉送是否正確啟用，您必須檢查 Analytics 追蹤請求的 HTTP 回應。您可以使用瀏覽器的開發人員工具，或者使用代理工具來完成此步驟，例如 Charles 網頁除錯工具。下列指示說明哪些指標必須出現，才可確保伺服器端轉送已正確啟用。
-solution: Audience Manager
+solution: Analytics
 title: 如何確認您的伺服器端轉送實作情形
-uuid: e37296cc-0120-486a-a4ca-78d648cf6a11
-translation-type: tm+mt
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 21db4572-da3c-43aa-a774-86a089656695
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '257'
+ht-degree: 100%
 
 ---
-
 
 # 如何確認您的伺服器端轉送實作情形
 

@@ -1,21 +1,20 @@
 ---
 description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
 title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
-uuid: f90bf78a-5603-4bef-b714-13215301187c
-translation-type: tm+mt
-source-git-commit: 763c1b7405c1a1b3d6dbd685ce796911dd4ce78b
+feature: Admin Tools
+exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-
-# 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# 移轉 Enterprise 與 Federated ID 的 Analytics 用戶帳戶{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
 
-## 必備條件 {#prereqs}
+## 先決條件 {#prereqs}
 
 透過 Admin Console 管理使用者的必備條件。
 
@@ -137,7 +136,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/tw/enterprise/using/users.html)。
+如需 [!DNL .csv] 檔案中欄位的詳細資訊，請參閱 [CSV 檔案格式](https://helpx.adobe.com/enterprise/using/users.html)。
 
 >[!NOTE]
 >

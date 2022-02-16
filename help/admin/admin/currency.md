@@ -2,12 +2,10 @@
 description: Experience Cloud 中使用的貨幣代碼。
 title: 貨幣代碼
 feature: Admin Tools
-uuid: 73c7476b-f09c-4459-8e72-da6fa85ff533
 exl-id: 8c9a2216-3259-4fdb-b09f-c724fa4c70b7
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '633'
 ht-degree: 100%
 
 ---
@@ -44,7 +42,7 @@ Experience Cloud 中使用的貨幣代碼。
 | BYR | 白俄羅斯盧布 |
 | BZD | 貝里斯元 |
 | CAD | 加拿大元 |
-| CDF | 剛果／金夏沙法郎 |
+| CDF | 剛果/金夏沙法郎 |
 | CHF | 瑞士法郎 |
 | CLP | 智利披索 |
 | CNY | 中國人民幣 |

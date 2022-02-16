@@ -2,8 +2,9 @@
 title: Analytics 工具的產品設定檔權限
 description: 使用 Analytics 工具權限項目，以授與權限來存取 Adobe Analytics 中的功能。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
-source-git-commit: f8a928782b4c4916f5ff2042cb72941d76f57d7d
-workflow-type: ht
+feature: Admin Tools
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 100%
 

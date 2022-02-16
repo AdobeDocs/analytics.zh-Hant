@@ -1,14 +1,14 @@
 ---
 description: Adobe Experience Cloud 的單一登入是透過 Admin Console 實作。
 title: 單一登入
-translation-type: tm+mt
-source-git-commit: ae73165513fd8ba27fcf32d58e7f114bb43a5136
+feature: Company Settings
+exl-id: d317d85d-46bc-4857-82d8-3fe3b3fc154e
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '43'
 ht-degree: 83%
 
 ---
-
 
 # 單一登入
 

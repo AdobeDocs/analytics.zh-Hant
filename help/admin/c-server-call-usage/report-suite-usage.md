@@ -1,10 +1,10 @@
 ---
 description: 「報表套裝使用量」標籤針對目前使用期間，與您帳單公司綁定的所有登入公司中每個報表套裝提供伺服器使用量資料。
 title: 檢視報表套裝使用量
-uuid: c609ed99-9acc-4023-905a-81a40dd07a79
+feature: Server Call Usage
 exl-id: bedd4ed8-1c8b-45fd-a059-fed88e9fbe73
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 

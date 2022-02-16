@@ -2,12 +2,10 @@
 description: 說明如何指定要以哪個 eVar 包含訪客識別碼的步驟。
 title: 指定不重複訪客變數
 feature: Admin Tools
-uuid: 88ac962c-a13b-4f93-81b5-f5eda8b463e2
 exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '94'
 ht-degree: 100%
 
 ---

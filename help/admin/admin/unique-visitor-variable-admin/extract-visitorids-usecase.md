@@ -2,12 +2,10 @@
 description: Data Warehouse 提供可讓您擷取訪客 ID 清單的功能。這些 ID 並不是 Cookie ID，而是您在其中一個轉換變數中擷取的 ID。雖然您有其他方式可取得這項資訊，但下列範例會是您產生 Data Warehouse 請求要求的捷徑。
 title: 使用案例 - 擷取訪客 ID
 feature: Admin Tools
-uuid: ed228334-619c-43d7-b781-a18af73b00bb
 exl-id: b1fc41af-31c7-42cd-aab7-0c659577781d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 100%
 
 ---

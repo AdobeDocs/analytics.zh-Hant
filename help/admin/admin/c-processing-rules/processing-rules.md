@@ -2,13 +2,11 @@
 description: 處理規則可簡化資料收集，以及管理傳送至報告的內容。
 subtopic: Processing rules
 title: 處理規則概觀
-feature: Admin Tools
-uuid: 6b4ee7c9-2b86-47a6-b64c-c8d644fff67d
+feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '394'
 ht-degree: 68%
 
 ---
@@ -26,19 +24,19 @@ ht-degree: 68%
 
 >[!VIDEO](https://video.tv.adobe.com/v/26124/?quality=12&learn=on)
 
-## 處理規則權限{#section_8A4846688050453784DAE4D89355169A}
+## 處理規則權限 {#section_8A4846688050453784DAE4D89355169A}
 
-管理員依預設有權使用處理規則&#x200B;**。**&#x200B;管理員也可透過「管理工具」介面將這些權限授予非管理員。如需指示，請參閱 []
+管理員有權使用處理規則 **預設**。 管理員也可透過「管理工具」介面將這些權限授予非管理員。如需指示，請參閱 []
 
 ![](assets/processing-rules.png)
 
 >[!IMPORTANT]
 >
->由於處理規則會永久影響Analytics資料，因此Adobe強烈建議處理規則管理員在Adobe Analytics接受認證訓練，並熟悉報表套裝的所有資料來源（標準網站、行動網站、行動應用程式、資料插入API等）。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
+>因為處理規則會永久影響分析資料，所以Adobe強烈建議處理規則管理員在Adobe Analytics接受認證培訓，並熟悉報告套件的所有資料來源（標準網站、移動站點、移動應用、資料插入API等）。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
 
 ## 使用上下文資料簡化資料收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 
-上下文資料變數是一種變數，僅適用於處理規則。 若要使用內容資料變數，需透過實作傳入重要/值資料配對，並使用處理規則擷取標準分析變數中的這些數值。如此可省去程式設計師花時間瞭解哪些 prop 和/或 eVar 應包含哪些值。
+上下文資料變數是一種僅可用於處理規則的變數類型。 若要使用內容資料變數，需透過實作傳入重要/值資料配對，並使用處理規則擷取標準分析變數中的這些數值。如此可省去程式設計師花時間瞭解哪些 prop 和/或 eVar 應包含哪些值。
 
 ```js
 s.contextData['author'] = "Robert Munch";
@@ -46,20 +44,20 @@ s.contextData['section'] = "Books";
 s.contextData['genre'] = "Youth";
 ```
 
-在程式碼中設定後，您就可以設定處理規則來指派值給變數。 例如：
+在代碼中設定後，可以設定處理規則以將值分配給變數。 例如：
 
-1. 將`author`映射至`eVar2`
-2. 將`section`映射至`prop1`和`eVar3`
-3. 如果`author`和`section`存在，請設定`event5`
+1. 地圖 `author` 至 `eVar2`
+2. 地圖 `section` 至 `prop1` 和 `eVar3`
+3. 如果 `author` 和 `section` 存在，設定 `event5`
 
-如需詳細資訊，請參閱實作使用指南中的[contextData](/help/implement/vars/page-vars/contextdata.md)。
+請參閱 [上下文資料](/help/implement/vars/page-vars/contextdata.md) 的子版本。
 
 ## 使用處理規則來轉換點擊資料和觸發事件 {#section_8284E72E999244E091CD7FB1A22342B6}
 
 處理規則可以監控傳入值，轉換常見的打字錯誤並根據報告資料設定事件。可以複製 prop 至 eVar、可以串連值以用於報告，並可設定事件。
 
-## 在報告中使用上下文資料變數  {#section_BD098BC503024A0B8703596628071134}
+## 在報告中使用上下文資料變數 {#section_BD098BC503024A0B8703596628071134}
 
 在實作中定義上下文資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
-如需詳細資訊，請參閱[將上下文資料變數複製至](processing-rules-examples/processing-rules-copy-context-data.md)eVar和[使用上下文資料變數](processing-rules-examples/processing-rules-copy-context-data-event.md)設定事件。
+請參閱 [將上下文資料變數複製到eVar](processing-rules-examples/processing-rules-copy-context-data.md) 和 [使用上下文資料變數設定事件](processing-rules-examples/processing-rules-copy-context-data-event.md) 的子菜單。

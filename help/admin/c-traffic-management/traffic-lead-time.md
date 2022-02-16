@@ -1,13 +1,11 @@
 ---
 description: Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的通知。必須事先配置硬體，方可降低延遲並減少對整體系統的不利影響。
 title: 流量增加所需的前置時間
-feature: Admin Tools
-uuid: aa3fb882-51b0-458f-917b-7c54d5659623
+feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '332'
 ht-degree: 100%
 
 ---
@@ -65,7 +63,7 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 * 如果您啟動數個報表套裝，或是予以新增至多達上方所列的數量，他們適用的前置時間會是每位客戶預期流量的總和。
 * 提交流量變更前請準備好以下資訊：
 
-   * 報表套裝 ID
+   * 報告套裝 ID
    * 每日預估點擊數
    * 上線日期
 

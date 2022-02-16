@@ -1,13 +1,11 @@
 ---
 description: 說明如何產生 Excel 試算表 (包含選定報表套裝之所有設定值) 的步驟。
 title: 下載報表套裝設定值
-feature: Admin Tools
-uuid: f0aa19a5-eb5d-4ad4-b463-9400abb07038
+feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '71'
 ht-degree: 100%
 
 ---

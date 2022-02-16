@@ -1,12 +1,14 @@
 ---
 description: 關於伺服器端轉送的特色、功能及問題的常見問題。
 title: 伺服器端轉送常見問題集
-uuid: ecd0bc9b-ebf7-414e-88a2-ebba3fd75c92
-translation-type: ht
-source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
+feature: Server-Side Forwarding
+exl-id: 63103d2b-e2e8-42da-bdbd-be90abe305f7
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 100%
 
 ---
-
 
 # 伺服器端轉送常見問題集
 
@@ -19,7 +21,7 @@ source-git-commit: 16ba0b12e0f70112f4c10804d0a13c278388ecc2
 | 問：如果我目前是使用舊版追蹤伺服器的伺服器端轉送會發生什麼事？ | 舊版追蹤伺服器的伺服器端轉送方法會持續將資料從 Analytics 轉送至 Audience Manager，但是如果您要將 Audience Manager 區段傳送至 Analytics，則需要新的報表套裝伺服器端轉送。此外，在追蹤伺服器設定上啟用報表套裝的伺服器端轉送不會造成任何損害，每當發生衝突時，系統將會使用新的報表套裝伺服器端轉送設定。 |
 | 問：我應該將舊版追蹤伺服器的伺服器端轉送，移轉至新的報表套裝伺服器端轉送嗎？ | 在可見的未來，我們仍會持續支援以追蹤伺服器為基礎的伺服器端轉送，但是如果您想要運用從 Audience Manager 到 Analytics (分享至 Analytics 的區段) 的整合，則必須對所有適用的報表套裝啟用新的報表套裝伺服器端轉送。不過，目前仍無須立即停用舊版追蹤伺服器的伺服器端轉送。 |
 
-## 標記和報告{#section_71391BA901AC47B9A2286281644FF281}
+## 標記和報告 {#section_71391BA901AC47B9A2286281644FF281}
 
 | 問題 | 回答 |
 |--- |--- |

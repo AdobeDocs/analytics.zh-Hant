@@ -1,13 +1,12 @@
 ---
 description: 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。
 title: 管理流量
-feature: 管理工具
-uuid: c1be90d3-f8f8-40a5-a93f-9af312a34828
+feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 87%
+source-wordcount: '91'
+ht-degree: 86%
 
 ---
 
@@ -17,6 +16,6 @@ ht-degree: 87%
 
 若要存取[!UICONTROL 流量管理]：
 
-1. 按一下「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**」，然後選取報表套裝。
+1. 按一下 **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套件]**，然後選擇報表套件。
 
 1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 流量管理]** > *`<selection>`*」。

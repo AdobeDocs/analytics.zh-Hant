@@ -1,9 +1,10 @@
 ---
-description: 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「付費搜尋」促銷活動歸類為「流行音樂術語」類別，並報告該類別相對於「例項」(點進次數) 等量度的成功，以及成功事件的轉換。
+description: 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「付費搜尋」促銷活動歸類為「流行音樂術語」類別，並報告該類別相對於「例項」(即點進次數) 等量度的成功，以及成功事件的轉換。
 title: 轉換分類
+feature: Admin Tools
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: fa12c51be5d0f788dbdaacfbd36504d1cda92a58
-workflow-type: ht
+source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
 

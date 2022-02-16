@@ -2,13 +2,11 @@
 description: 本章節包含測試處理規則的指引，以及應避免的常見錯誤清單。
 subtopic: Processing rules
 title: 處理規則提示與秘訣
-feature: Admin Tools
-uuid: e3a9ff8a-b81a-41c9-9f61-e40cb4bf7d99
+feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '490'
 ht-degree: 100%
 
 ---
@@ -43,7 +41,7 @@ ht-degree: 100%
 
 ![](assets/tips-copy-page-name-to-evar.png)
 
-## 避免覆寫值  {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
+## 避免覆寫值 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
 在下列範例中，網站上使用兩個上下文資料變數來擷取搜尋詞：search_keyword 和 search_term。不過，根據設定，search_keyword 值一律會被覆寫，即使 search_term 空白亦然。
 
@@ -51,13 +49,13 @@ ht-degree: 100%
 
 ![](assets/tips-search-keyword.png)
 
-## 將搜尋詞編碼為 UTF-8 或 Unicode  {#section_3BBBE1FB8FEA48589362452DE51DB575}
+## 將搜尋詞編碼為 UTF-8 或 Unicode {#section_3BBBE1FB8FEA48589362452DE51DB575}
 
 從查詢字串提取的搜尋詞必須正確編碼，否則處理規則無法比對。
 
 ![](assets/tips-multibyte.png)
 
-## 開頭為、包含和結尾為  {#section_80CE853244FC435B844A09EA51868D8D}
+## 開頭為、包含和結尾為 {#section_80CE853244FC435B844A09EA51868D8D}
 
 選取正確的比對條件，找到可以正確符合的最限縮條件。您可以在建立規則前，先搜尋報告中的值，確保沒有意外的相符項目。例如，您應在啟用規則前，先行搜尋 Prop2 報告，找出所有此條件符合的位置。
 

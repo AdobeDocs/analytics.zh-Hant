@@ -1,12 +1,14 @@
 ---
 description: 瞭解如何為 Analytics 使用者停用舊版登入。
 title: 停用舊版登入
-uuid: 085874b2-10bf-4a56-a337-f3104428d71e
-translation-type: tm+mt
-source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
+feature: Admin Tools
+exl-id: 3e619700-722d-429b-94dc-7aa162e114c0
+source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
-
 
 # 停用舊版登入{#disable-legacy-logins}
 
@@ -26,4 +28,3 @@ source-git-commit: 1ec080acf65c31b077a3daf3846f233f01e011b8
    「停用舊版登入」表示使用者可以繼續使用其舊版 [!DNL my.omniture.com] 使用者名稱和密碼。
 
    您無法為尚未移轉的使用者停用舊版登入功能。一旦停用，使用者必須使用其 Experience Cloud ID 登入和存取 Analytics。
-

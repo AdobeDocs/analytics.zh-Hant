@@ -1,13 +1,11 @@
 ---
 description: 「個別報表套裝的設定值」可讓您變更報表套裝的預設設定。這些工具可讓您移除不需要或陳舊頁面的記錄、設定預設量度，以及設定報表套裝區段。
 title: 個別報表套裝的設定值
-feature: Admin Tools
-uuid: a61164ef-fc96-44ef-95d3-49e88d5fd94a
+feature: Report Suite Settings
 exl-id: 1d4cff11-f2e6-4c09-878a-763f3419ff38
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '101'
 ht-degree: 100%
 
 ---

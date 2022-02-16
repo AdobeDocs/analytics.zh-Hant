@@ -1,13 +1,11 @@
 ---
 description: 定義彙總內容之網站 (如新聞入口網站) 的一般設定。
 title: 整合入口網站
-feature: Admin Tools
-uuid: d227c209-4d88-4eff-b126-994b2a179c51
+feature: Report Suite Settings
 exl-id: 48f57f27-289c-4e26-9fb2-e34d48c1f2e6
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 100%
 
 ---

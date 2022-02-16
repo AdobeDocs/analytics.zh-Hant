@@ -1,11 +1,10 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
 title: 支援的即時量度和維度
-topic-fix: Reports
+feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 100%
@@ -27,7 +26,7 @@ ht-degree: 100%
 * 購物車新增
 * 購物車移除
 * 例項
-* 自訂事件 1-100 (若已在報表套裝中啟用)
+* 自訂事件 1-100 (若已在報告套裝中啟用)
 
 ## 支援的維度 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 

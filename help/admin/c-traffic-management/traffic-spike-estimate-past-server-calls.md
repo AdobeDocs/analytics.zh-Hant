@@ -1,9 +1,9 @@
 ---
 description: 您可取得 (舉例來說) 去年特定時間範圍內伺服器的每日平均呼叫數，再加上今年伺服器呼叫的預估可能增加次數。如此一來，您便可以根據此乘數因子，為流量尖峰制定排程。
 title: 預估以往伺服器呼叫數並計劃流量尖峰
-uuid: 38deb1df-afb0-437d-b541-69295f0dc8dc
+feature: Traffic Management
 exl-id: 1076ffbf-95a7-478c-a597-04bb3890e4a0
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 92%
@@ -14,7 +14,7 @@ ht-degree: 92%
 
 您可取得 (舉例來說) 去年特定時間範圍內伺服器的每日平均呼叫數，再加上今年伺服器呼叫的預估可能增加次數。如此一來，您便可以根據此乘數因子，為流量尖峰制定排程。
 
-1. 以管理員身分登入Analytics，並前往&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 流量管理]**。
+1. 以管理員身份登錄到分析並轉到 **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 流量管理]**。
 
 1. 按一下&#x200B;**[!UICONTROL 「展開」]**&#x200B;以展開報表套裝清單，然後按一下&#x200B;**[!UICONTROL 「選取報表套裝」]**&#x200B;以選取多個報表套裝。
 

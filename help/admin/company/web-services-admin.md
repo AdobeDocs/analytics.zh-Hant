@@ -1,11 +1,10 @@
 ---
 description: 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
 title: 網站服務
-feature: Admin Tools
-uuid: ccae04cf-f58c-490e-baaa-ee04c534b28d
+feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 6fe67311c73fc766e8051e57a047224b8fb17747
-workflow-type: ht
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
+workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
 

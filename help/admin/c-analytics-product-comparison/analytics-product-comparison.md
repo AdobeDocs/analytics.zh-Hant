@@ -2,14 +2,15 @@
 description: Analysis Workspace、Reports & Analytics、Report Builder、Data Warehouse 和 Data Workbench 的系統需求與比較。
 title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+feature: Analytics Basics
+source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
+workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 100%
 
 ---
 
-# Analytics產品比較和需求
+# Analytics 產品比較和需求
 
 本頁包含各種 Adobe Analytics 產品的比較：Analysis Workspace、Reports &amp; Analytics、Report Builder、Data Warehouse、Data Workbench、「資料摘要」和 Analytics API 2.0。
 

@@ -1,13 +1,12 @@
 ---
 description: 「管理品牌結合影像」頁面可讓您在下載的報告中顯示自己公司的標誌。
 title: 品牌結合
-feature: 管理工具
-uuid: 918db633-44bb-4502-bd04-98a6337a166c
+feature: Company Settings
 exl-id: 0297086d-4bff-44ab-9ad2-4f036215a2f9
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 72bd67179e003b70233d863d34153fec77548256
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 85%
+source-wordcount: '73'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +14,7 @@ ht-degree: 85%
 
 「管理品牌結合影像」頁面可讓您在 Reports &amp; Analytics 的下載報表和舊版控制面板中顯示自己公司的標誌。品牌結合不會使用在 Analysis Workspace 中。
 
-**[!UICONTROL Analytics]** 管 **[!UICONTROL 理員]** >  **[!UICONTROL All admin]** >公司設 **[!UICONTROL 定]**  **[!UICONTROL >聯合品牌Adobe Experience Cloud]**
+**[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 聯合品牌Adobe Experience Cloud]**
 
 請使用下列影像指導方針，以求最佳結果：
 
