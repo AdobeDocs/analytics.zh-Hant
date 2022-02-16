@@ -1,9 +1,10 @@
 ---
 title: 歸因最佳實務
 description: 決定歸因模型的最佳實務為何？
+feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%
 

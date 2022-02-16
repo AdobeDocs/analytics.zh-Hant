@@ -4,16 +4,16 @@ title: 視覺化調色盤是什麼以及如何運作？
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7e426423-5475-44cc-9e78-74c0da5b93f8
-source-git-commit: 5454995fb9d6e63fb19e2272f66f3c96bf951ccb
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 視覺化調色盤
 
-您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能會影響工作區大部分的視覺效果，但「摘要變更」、自由表格中的條件式格式以及地圖視覺效果&#x200B;**不**&#x200B;受影響。
+您可以透過選擇不同的調色盤，或自訂符合您公司品牌顏色的調色盤，變更用於工作區的視覺效果調色盤。此功能影響Workspace中的大多數可視化效果，但它確實會 **不** 影響 [!UICONTROL 摘要更改]，條件格式 [!UICONTROL 自由形式] 表和 [!UICONTROL 地圖] 可視化。
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ ht-degree: 100%
 * 有五種預先設定的調色盤可供選擇。預設調色盤與其下方的調色盤已針對最佳對比度進行最佳化，兩者皆變得更方便供色盲人士使用。
 * 在上方兩個調色盤之下的第三到第五個調色盤，則是針對顏色和諧度進行最佳化。
 
-## 若要變更調色盤：
+## 更改 [!UICONTROL 調色板]:
 
-以下是有關使用自訂調色盤的影片：
+這是一段使用自定義 [!UICONTROL 調色板]:
 
 >[!VIDEO](https://video.tv.adobe.com/v/23876/?quality=12)
 

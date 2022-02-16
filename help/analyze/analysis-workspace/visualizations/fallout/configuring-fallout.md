@@ -1,12 +1,11 @@
 ---
 description: 指定接觸點來建立多維度流失序列。
 title: 設定流失視覺效果
-uuid: fc117745-baf3-46fb-873d-9307092cc337
 feature: Visualizations
 role: User, Admin
 exl-id: 9d2a0163-a5cb-4a1c-97e9-e78a8f99aaee
-source-git-commit: b170e8df18e3f6223e5390dfd61423ef419146a6
-workflow-type: ht
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 100%
 
@@ -44,7 +43,7 @@ ht-degree: 100%
 
    ![](assets/multiple_obj_touchpoint.png)
 
-1. 您也可以在路徑內&#x200B;**將個別觸控點限制為下一次點擊** (而非「最終」)。在各接觸點下方，為含有「最終路徑」和「下一次點擊」選項的選擇器，如下所示：
+1. 您也可以在路徑內&#x200B;**將個別接觸點限制為下一次點擊** (而非「最終」)。在各接觸點下方，為含有「最終路徑」和「下一次點擊」選項的選擇器，如下所示：
 
    ![](assets/next-hit-eventually.png)
 

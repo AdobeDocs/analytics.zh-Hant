@@ -1,13 +1,12 @@
 ---
 description: 「貢獻分析」是密集型機器學習程序，專門設計來找出 Adobe Analytics 中所觀察到異常值的貢獻者。目的是要協助使用者比以往更快找出重點區域或機會以便進行其他分析。
 title: 貢獻分析中所使用的統計技術
-uuid: f77eb4e4-4fd6-4397-b8a8-a063f199b676
-feature: AI 工具
+feature: AI Tools
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '332'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '330'
 ht-degree: 100%
 
 ---

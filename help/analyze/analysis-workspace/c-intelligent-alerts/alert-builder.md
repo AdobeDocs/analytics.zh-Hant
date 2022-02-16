@@ -1,13 +1,12 @@
 ---
 description: 當專案元件達到特定臨界值時，收到警報。
 title: 警報產生器
-uuid: ebc2d457-4abd-4b1a-9357-489b5aeb3f64
-feature: AI 工具
+feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '459'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '457'
 ht-degree: 100%
 
 ---

@@ -1,15 +1,15 @@
 ---
-description: 如何建立 Analytics 儀表板計分卡
-title: 建立計分卡
+description: 執行用戶可能需要一些額外的幫助才能訪問和使用該應用。 本節提供相關資訊，幫助您提供這類協助。
+title: 透過應用程式設定主管使用者
 feature: Analytics Dashboards
 role: User, Admin
-source-git-commit: 63f4f69cd22531ced7c65d1b38fdc982da97887b
-workflow-type: ht
-source-wordcount: '729'
-ht-degree: 100%
+exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
-
 
 # 透過應用程式設定主管使用者
 
@@ -23,40 +23,40 @@ ht-degree: 100%
 
 ## 應用程式使用者系統的先決條件
 
-為確保主管使用者能存取您在應用程式上的計分卡，請確定：
+為確保高階主管使用者能存取您在應用程式上的計分卡，請確定：
 
 * 使用者裝置的行動作業系統需為 iOS 10 (含) 以上版本或 Android 4.4 (KitKat) (含) 以上版本
 * 使用者處於 Adobe Analytics 的有效登入狀態。
 * 您已為使用者正確建立行動計分卡，並和他們共用這些計分卡。
 * 使用者可存取計分卡中的元件。請注意，您可在共用計分卡時選取&#x200B;**[!UICONTROL 共用內嵌元件]**&#x200B;的選項。
 
-## 協助主管下載和安裝應用程式
+## 協助高階主管下載和安裝應用程式
 
-**若主管使用者使用 iOS:**
+**若高階主管使用者使用 iOS：**
 
 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
-**若主管使用者使用 Android:**
+**若高階主管使用者使用 Android：**
 
 按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
-下載並安裝完畢後，主管使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
+下載並安裝完畢後，高階主管使用者就可使用現有的 Adobe Analytics 憑證登入應用程式；系統可支援 Adobe 和 Enterprise/Federated ID。
 
 ![應用程式歡迎畫面](assets/welcome.png)
 
-## 協助主管存取您的計分卡
+## 協助高階主管存取您的計分卡
 
-1. 要求主管使用者登入應用程式。
+1. 要求高階主管使用者登入應用程式。
 
-   「**[!UICONTROL 選擇公司]**」畫面隨即顯示。此畫面會列出主管使用者所屬的登入公司。
+   「**[!UICONTROL 選擇公司]**」畫面隨即顯示。此畫面會列出高階主管使用者所屬的登入公司。
 
 1. 要求他們點選適用於您所共用的計分卡的登入公司或 Experience Cloud 組織名稱。
 
-   該計分卡清單接著就會顯示該登入公司和主管共用的所有計分卡。
+   該計分卡清單接著就會顯示該登入公司和高階主管共用的所有計分卡。
 
 1. 若情況適用，要求他們依「**[!UICONTROL 最近修改項目]**」將清單排序。
 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 ### 說明計分卡 UI
 
-向主管使用者說明圖磚在您所共用的計分卡中顯示的方式。
+向高階主管使用者說明圖磚在您所共用的計分卡中顯示的方式。
 
 ![說明圖磚](assets/newexplain.png)
 
@@ -103,12 +103,12 @@ ht-degree: 100%
 
 ## 疑難排解
 
-如果主管使用者登入後看到無共用項目的訊息:
+如果高階主管使用者登入後看到無共用項目的訊息:
 
 ![無共用項目](assets/nothing.png)
 
-* 主管使用者可能選取了錯誤的 Analytics 實例，或者
-* 可能尚未和該主管使用者共用任何計分卡。
+* 高階主管使用者可能選取了錯誤的 Analytics 實例，或者
+* 可能尚未和該高階主管使用者共用任何計分卡。
 
 請確認主管使用者可登入正確的 Adobe Analytics 實例，且有與其共用的計分卡。
 

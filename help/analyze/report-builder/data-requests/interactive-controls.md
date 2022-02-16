@@ -1,13 +1,12 @@
 ---
 description: 「互動式控制項」可讓您直接從工作表編輯一或多個請求的區段與日期範圍。這樣可讓您在更新 Report Builder 請求時，享有更多彈性。
 title: 互動式控制項
-uuid: 5f324b61-e032-455e-9947-5037f013e0fa
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '541'
 ht-degree: 100%
 
 ---
@@ -27,7 +26,6 @@ ht-degree: 100%
 >* 如果您在 Windows 上執行 Microsoft Excel，但執行較舊版本的 Report Builder，或如果您未安裝 Report Builder：您可以變更互動式控制項中的值，但控制項不會重新整理相關請求，也不會更新請求的相關參數。
 >* 如果您在 Mac 上執行 Excel，變更控制項中的值後，畫面會顯示以下訊息：「找不到巨集 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。」
 >
-
 
 
 >[!IMPORTANT]

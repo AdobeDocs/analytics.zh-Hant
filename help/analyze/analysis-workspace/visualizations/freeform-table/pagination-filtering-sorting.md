@@ -1,18 +1,17 @@
 ---
 description: 討論分頁、篩選及排序的影片。
 title: 表格分頁、篩選及排序
-uuid: 53263cec-c378-459b-9689-6adaeb66e5c9
-feature: 自由表格
+feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '71'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '69'
 ht-degree: 100%
 
 ---
 
-# 表格分頁、篩選及排序
+# 表格分頁、篩選及分類
 
 按一下篩選條件圖示，然後按一下自由表格資料表中維度旁的「顯示進階選項」，即可讓您使用下列標準加以篩選：
 

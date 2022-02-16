@@ -1,12 +1,11 @@
 ---
 description: 影響 Workspace 效能的因素和可採取的最佳化措施
 title: Analysis Workspace 效能因素和最佳化措施
-uuid: de51d03d-d555-4f0e-b19c-4a8f140770fc
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+workflow-type: tm+mt
 source-wordcount: '2024'
 ht-degree: 100%
 

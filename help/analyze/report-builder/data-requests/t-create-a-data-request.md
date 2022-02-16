@@ -1,13 +1,12 @@
 ---
 description: 建立基本 Report Builder 資料請求的步驟。
 title: 建立資料請求
-uuid: 5d0151f1-e23d-43eb-84a4-96ae06c3a564
 feature: Report Builder
 role: User, Admin
 exl-id: 21d552a0-7a58-4217-ba8a-7c87eb4757f6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '301'
 ht-degree: 94%
 
 ---
@@ -36,4 +35,4 @@ ht-degree: 94%
 
    「步驟 2」提供的[維度](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/layout/filter-dimenson/filter-dimensions.html)取決於在「步驟 1」選擇的基礎報表，以及報表套裝的組態。維度是能關聯、子關聯於您在「[!UICONTROL 請求精靈: 步驟 1]」視窗中選擇的原始報表類型度量或屬於其分類的項目。在步驟 2 新增多個維度，是在資料請求中建立劃分的方式。
 
-   如需詳細資訊，請參閱[新增量度和Dimension](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) 。
+   請參閱 [添加度量和Dimension](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md) 的子菜單。

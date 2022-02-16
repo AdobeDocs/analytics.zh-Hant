@@ -1,13 +1,12 @@
 ---
 description: 若要從 Analysis Workspace 下載資料，請複製該資料或使用 PDF 和 CSV 格式。
 title: 下載 PDF 或 CSV 檔案
-uuid: 8af5f3d7-5870-4ed6-8a9f-ef290a48ef5f
-feature: 監管與共用
+feature: Curate and Share
 role: User, Admin
 exl-id: 085013dc-8263-4fc8-9492-99f0ecadf14b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '986'
+source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+workflow-type: tm+mt
+source-wordcount: '983'
 ht-degree: 100%
 
 ---
