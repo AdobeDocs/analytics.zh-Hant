@@ -1,15 +1,16 @@
 ---
 title: pageURL
 description: 覆寫在網站上自動收集的頁面 URL。
+feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 100%
 
 ---
 
-# pageURL
+# 頁面URL
 
 AppMeasurement 會自動收集每次點擊中的頁面 URL。如果您想要覆寫 AppMeasurement 自動收集的頁面 URL，可以使用此變數。在大多數情況下，您不需要設定此變數。
 

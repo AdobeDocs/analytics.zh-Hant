@@ -1,9 +1,10 @@
 ---
 title: pageType
 description: 判斷目前頁面是否為 404 錯誤。
+feature: Variables
 exl-id: e61ef82d-b583-4230-b904-5ea3584910be
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '138'
 ht-degree: 100%
 

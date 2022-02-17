@@ -1,15 +1,16 @@
 ---
 title: offlineHitLimit
 description: 決定離線追蹤佇列的點擊數上限。
+feature: Variables
 exl-id: de6478b3-b95f-4edc-8427-7b915a46b3ba
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 100%
 
 ---
 
-# offlineHitLimit
+# 離線HitLimit
 
 離線追蹤是在 Adobe Analytics 中收集資料的選用方式。如果訪客中斷網際網路連線但繼續瀏覽您的網站，點擊會儲存在離線佇列中，直到裝置重新連接網際網路為止。離線追蹤大多用於行動應用程式。
 

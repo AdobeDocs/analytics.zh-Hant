@@ -1,14 +1,14 @@
 ---
 title: 函數與方法
 description: 瞭解如何在實施中使用 Adobe 提供的函數和方法。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Variables
+exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
 
 ---
-
 
 # 函數與方法
 

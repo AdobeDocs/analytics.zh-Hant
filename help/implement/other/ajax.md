@@ -1,14 +1,14 @@
 ---
 title: 使用 AJAX 進行實施
 description: 瞭解如何使用 AJAX 在網站上實施 Adobe Analytics。
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+feature: Implementation Basics
+exl-id: 3286bf97-3a66-4f68-9053-bf84269962fd
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 100%
 
 ---
-
 
 # 使用 AJAX 進行實施
 

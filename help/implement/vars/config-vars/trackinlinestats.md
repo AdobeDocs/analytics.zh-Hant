@@ -2,15 +2,16 @@
 title: trackInlineStats
 description: 在您的實施中啟用或停用 Activity Map。
 keywords: 停用 Activity Map
+feature: Variables
 exl-id: a52adc1d-1be7-4002-b393-7ce66332b483
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 
 ---
 
-# trackInlineStats
+# 跟蹤InlineStats
 
 Activity Map 是 Adobe Analytics 中的功能，可收集有關訪客點按位置及點按內容的資料。您可以在 Analytics 報表中檢視這些資料，或使用瀏覽器擴充功能覆蓋來檢視。如果您想要使用 Activity Map 功能，請啟用此變數。
 

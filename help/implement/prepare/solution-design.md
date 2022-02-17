@@ -1,14 +1,14 @@
 ---
 title: 建立解決方案設計文件
 description: 瞭解什麼是解決方案設計文件，以及可如何將其用於您的組織。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Implementation Basics
+exl-id: 0b5c5ddd-5f53-4790-a649-1381135dacda
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 100%
 
 ---
-
 
 # 建立解決方案設計文件
 

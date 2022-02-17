@@ -1,9 +1,10 @@
 ---
 title: linkDownloadFileTypes
 description: 判斷要以下載連結形式自動追蹤的副檔名。
+feature: Variables
 exl-id: 5089571a-d387-4ac7-838f-8bc95b2856fb
-source-git-commit: 49bf0a459a096e011ff60724aa5bee4fb7721a21
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
 

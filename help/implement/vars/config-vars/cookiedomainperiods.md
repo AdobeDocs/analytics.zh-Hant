@@ -1,15 +1,16 @@
 ---
 title: cookieDomainPeriods
 description: 如果您的網域尾碼有句號，AppMeasurement 便可瞭解要儲存 Cookie 的網域。
+feature: Variables
 exl-id: c426d6a7-4521-4d50-bb7d-1664920618d8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 100%
 
 ---
 
-# cookieDomainPeriods
+# cookie域句點
 
 AppMeasurement 會查看網域和網域尾碼來判斷其 Cookie 位置。針對類似 `example.com` 的網域，AppMeasurement 會將 Cookie 設定在正確的位置。不過，若為其他網域，以 `example.co.uk` 為例，AppMeasurement 可能會錯誤地在 `co.uk` 上設定 Cookie。大部分的瀏覽器會拒絕在此無效網域上設定的 Cookie，造成訪客識別問題。
 

@@ -1,15 +1,16 @@
 ---
 title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中納入哪些事件。
+feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: 9a70d79a83d8274e17407229bab0273abbe80649
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
 ---
 
-# linkTrackEvents
+# 連結跟蹤事件
 
 有些實施不希望將所有變數納入每個連結追蹤影像要求中。請使用 [`linkTrackVars`](linktrackvars.md) 和 `linkTrackEvents` 變數，在 [`tl()`](../functions/tl-method.md) 呼叫中選擇性地納入維度和量度。
 

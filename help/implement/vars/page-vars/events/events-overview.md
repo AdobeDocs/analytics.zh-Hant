@@ -1,15 +1,16 @@
 ---
 title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
+feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 100%
 
 ---
 
-# events
+# 事件
 
 維度和量度是報表的重要元件。`events` 變數負責收集網站上許多量度的資料。事件通常會增加報表中的[量度](/help/components/metrics/overview.md)。
 

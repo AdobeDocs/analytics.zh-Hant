@@ -1,9 +1,10 @@
 ---
 title: getValOnce
 description: 防止 Analytics 變數連續設為相同值兩次。
+feature: Variables
 exl-id: 23bc5750-43a2-4693-8fe4-d6b31bc34154
-source-git-commit: ab078c5da7e0e38ab9f0f941b407cad0b42dd4d1
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 100%
 

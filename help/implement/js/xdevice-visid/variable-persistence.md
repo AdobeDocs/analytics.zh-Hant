@@ -2,11 +2,9 @@
 description: 若訪客資料在與相同的訪客 ID 變數產生關聯後合併，歷史資料集中的歸因分配並不會變更。
 keywords: Analytics 實施作業
 title: 歸因分配和持續性
-topic-fix: Developer and implementation
-uuid: 5dd706be-83f6-498a-a856-e3c5af995348
+feature: Implementation Basics
 exl-id: 7a6305f6-c8ec-4f26-8373-45ce586bc69d
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 100%

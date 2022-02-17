@@ -1,15 +1,16 @@
 ---
 title: forceOnline
 description: 手動設定 AppMeasurement 的線上狀態。
+feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
-# forceOnline
+# 強制線上
 
 `forceOnline()` 方法可讓您覆寫自動偵測到的 AppMeasurement 狀態。
 

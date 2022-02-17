@@ -1,9 +1,10 @@
 ---
 title: 在標記中建立 Analytics 屬性
 description: 使用標記建立空間來自訂資料收集的方式。
+feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 100%
 

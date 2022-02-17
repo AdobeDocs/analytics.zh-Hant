@@ -1,10 +1,10 @@
 ---
 title: 外部電子郵件追蹤
 description: 使用 Adobe Analytics 追蹤電子郵件內容。
+feature: Implementation Basics
 exl-id: 9f7920e0-471c-46bc-9314-7b0a7c93fdce
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 必須對 HTML 電子郵件內文和 JavaScript 程式庫進行修改，才能擷取前述的關鍵度量。
 
-## 實施 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
+## 實作 {#section_8A42A8F4A6CD4A1BAF4B9F99F709AF7A}
 
 要順利顯示電子郵件促銷活動分析資料，必須執行數個步驟。這些步驟說明如下：
 

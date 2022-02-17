@@ -1,15 +1,16 @@
 ---
 title: zip
 description: 如果報表套裝設定允許，手動填入「郵遞區號」維度。
+feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 100%
 
 ---
 
-# zip
+# 郵遞區號
 
 如果報表套裝設定中的[!UICONTROL 「郵政編碼選項」]允許，`zip` 變數可讓您手動填入「郵遞區號」維度。在舊版 Adobe Analytics 中，此變數只能手動設定，通常是在零售網站上輸入運送資訊時。Adobe Analytics 的改良功能讓您可以使用地理位置資料自動設定此變數。此變數不會持續存在超過其設定的點擊。
 

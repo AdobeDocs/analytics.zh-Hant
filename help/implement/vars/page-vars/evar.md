@@ -1,9 +1,10 @@
 ---
 title: eVar
 description: 可在實施中使用的自訂變數。
+feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
-source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 100%
 

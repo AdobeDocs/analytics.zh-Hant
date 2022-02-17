@@ -1,9 +1,10 @@
 ---
 title: 資料彙集查詢參數
 description: 列出影像要求中使用的所有查詢字串參數。
+feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: 7025d132da9d281da6d57973a195a5e86a39bf18
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%
 

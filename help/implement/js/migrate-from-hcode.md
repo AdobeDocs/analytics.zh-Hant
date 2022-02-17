@@ -1,9 +1,10 @@
 ---
 title: 移轉至 JavaScript 適用的 AppMeasurement
 description: 決定將實作從 H 程式碼移出時所需的項目。
+feature: Implementation Basics
 exl-id: ed606ab4-bd7d-4871-baa1-77e30fdd419e
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
+source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 100%
 
