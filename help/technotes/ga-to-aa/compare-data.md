@@ -1,9 +1,10 @@
 ---
 title: 比較 Adobe Analytics 資料與協力廠商產品
 description: 了解直接比較 Adobe Analytics 中的資料與其他 Analytics 解決方案所收集資料時的選項。
+feature: Third-party Integration
 exl-id: b4f85088-7ffd-45dc-bdd1-c0fc8dc3b332
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 

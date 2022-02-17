@@ -2,12 +2,12 @@
 description: 概述 Adobe Analytics 收集哪些資料以及其他隱私權考量事項。
 keywords: 隱私權
 title: 隱私權概觀
-uuid: f19a8b35-3e10-47ae-93c1-6a9924b11313
+feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: d6430845f30a5b14c29c3c4111bf9c60a69eeea4
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -133,8 +133,8 @@ Adobe Analytics 收集下列資料：
   <tr> 
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
-   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
+   <td colname="col3"> <p>協作設施 </p> <p>(Gyron) </p> </td> 
+   <td colname="col4"> <p>多通道分析， </p> <p>數字分析 </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 

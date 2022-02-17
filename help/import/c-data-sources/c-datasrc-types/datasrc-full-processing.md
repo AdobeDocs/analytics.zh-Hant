@@ -2,11 +2,12 @@
 description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
 title: 完全處理
 topic-fix: Developer and implementation
+feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
-source-wordcount: '718'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -42,12 +43,12 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>campaign </p> </td> 
-   <td colname="col3"> <p>轉換促銷活動追蹤代碼。 </p> </td> 
+   <td colname="col2"> <p>活動 </p> </td> 
+   <td colname="col3"> <p>轉換促銷活動追蹤代碼. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>channel </p> </td> 
+   <td colname="col2"> <p>通道 </p> </td> 
    <td colname="col3"> <p>管道字串 (例如體育版)。 </p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +68,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col2"> <p>事件 </p> </td> 
    <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hant"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
@@ -80,12 +81,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
-   <td colname="col2"> <p>linkName </p> </td> 
+   <td colname="col2"> <p>連結名稱 </p> </td> 
    <td colname="col3"> <p>連結名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkType </p> </td> 
-   <td colname="col2"> <p>linkType </p> </td> 
+   <td colname="col2"> <p>連結類型 </p> </td> 
    <td colname="col3"> <p>連結的類型。支援的值包括： </p> 
     <ul id="ul_E441013055A9447AB6C3FB05B6099F7D"> 
      <li id="li_A33F66F30B60479284F72AE3AD4BF499"> <b>d</b>: 下載連結 </li> 
@@ -95,12 +96,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkURL </p> </td> 
-   <td colname="col2"> <p>linkURL </p> </td> 
+   <td colname="col2"> <p>連結URL </p> </td> 
    <td colname="col3"> <p>連結的 HREF。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageName </p> </td> 
-   <td colname="col2"> <p>pageName </p> </td> 
+   <td colname="col2"> <p>頁名 </p> </td> 
    <td colname="col3"> <p>頁面名稱 </p> </td> 
   </tr> 
   <tr> 
@@ -110,12 +111,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
-   <td colname="col2"> <p>pageURL </p> </td> 
+   <td colname="col2"> <p>頁面URL </p> </td> 
    <td colname="col3"> <p>頁面 URL (例如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>products </p> </td> 
+   <td colname="col2"> <p>產品 </p> </td> 
    <td colname="col3"> <p>產品清單 (例如，<code> "Sports;Ball;1;5.95"</code>)。每列最多可容納 4096 位元組。</p> </td> 
   </tr> 
   <tr> 
@@ -125,7 +126,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
-   <td colname="col2"> <p>purchaseID </p> </td> 
+   <td colname="col2"> <p>採購ID </p> </td> 
    <td colname="col3"> <p>購買 ID 號碼。 </p> </td> 
   </tr> 
   <tr> 
@@ -135,17 +136,17 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>server </p> </td> 
+   <td colname="col2"> <p>伺服器 </p> </td> 
    <td colname="col3"> <p>伺服器字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>state </p> </td> 
+   <td colname="col2"> <p>狀態 </p> </td> 
    <td colname="col3"> <p>轉換州字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>zip </p> </td> 
-   <td colname="col2"> <p>zip </p> </td> 
+   <td colname="col2"> <p>郵遞區號 </p> </td> 
    <td colname="col3"> <p>轉換郵遞區號。 </p> </td> 
   </tr> 
  </tbody> 

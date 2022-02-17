@@ -3,12 +3,12 @@ description: 使用資料來源的準備步驟
 subtopic: Data sources
 title: 準備使用資料來源
 topic-fix: Developer and implementation
-uuid: 876ea069-574b-4e23-93b7-e3828bfd90f5
+feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 97%
 
 為資料來源的資料決定適當的量度-事件映射後，針對關聯的資料來源量度，以適當的描述名稱重新命名事件。
 
-請參閱「管理工具」說明中的「[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」。
+請參閱「管理工具」說明中的「[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html?lang=zh-Hant)」。
 
 >[!NOTE]
 >

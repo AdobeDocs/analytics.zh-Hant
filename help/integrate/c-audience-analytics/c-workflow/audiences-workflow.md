@@ -1,19 +1,19 @@
 ---
 description: 如何佈建、共用以及使用對象資料。
-solution: Experience Cloud
-title: 工作流程概觀
-uuid: 211e079b-46ee-4238-856d-7cac40620717
+solution: Analytics
+title: Audience Analytics工作流概述
+feature: Audience Analytics
 exl-id: 507e02f8-dbfa-4011-99be-6242b392669f
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '112'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 工作流程概觀
+# Audience Analytics工作流概述
 
-如何佈建、共用以及使用對象資料。
+如何配置、共用和使用受眾資料。
 
 | 步驟 # | 工作說明 | 附註 |
 |--- |--- |--- |

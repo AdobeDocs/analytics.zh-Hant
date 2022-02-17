@@ -2,12 +2,12 @@
 description: 回答實施作業 Audience Analytics 時可能遇到的問題。
 solution: Experience Cloud
 title: 常見問答
-uuid: 9dfc8f19-f9b2-4c2e-bff9-3d91cfe01bca
+feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '1094'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 100%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問：為何 Analytics 報表中會顯示「已達對象上限」？(注意：這也會在 Data Warehouse 中顯示為「對象 ID = -1」和「::max_audiences_exceeded::」)</b> </p> </td> 
+   <td colname="col1"> <p><b>問：為何 Analytics 報表中會顯示「已達對象上限」？(注：這也將表示為受眾ID = -1和"::max_audiences_exceeded::"在Data Warehouse)</b> </p> </td> 
    <td colname="col2"> <p>依預設，AAM 的 Audience Analytics 整合會將訪客符合條件的所有區段，按每次點擊傳送到 Analytics。如果某位訪客在一次點擊中所屬的 AAM 區段超過 150 個，則最新的 <b>150 個合格區段</b>會傳送到 Analytics，而其餘的清單會被截斷。 </p> <p>系統會傳送額外標幟給 Analytics，表示區段清單已遭截斷，並在「對象名稱」維度中顯示為「已達對象上限」，在「對象 ID」維度中則會顯示「-1」。 </p> <p>雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果報表中出現「已達對象上限」，您有兩種因應方式： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選項 1</b>：繼續讓整合工作以立即可用狀態作業，對特定訪客傳送最新的 150 個合格區段。 </li> 

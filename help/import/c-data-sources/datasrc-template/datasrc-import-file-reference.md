@@ -3,10 +3,9 @@ description: 關於資料來源 .txt 範本的資訊。
 subtopic: Data sources
 title: 匯入檔案參考
 topic-fix: Developer and implementation
-uuid: cc58f8d8-cb6e-4908-846f-0a41c6da805d
+feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 100%

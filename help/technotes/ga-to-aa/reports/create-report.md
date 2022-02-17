@@ -1,10 +1,10 @@
 ---
 title: 在 Analysis Workspace 中建立基本報表
 description: 瞭解如何在 Analysis Workspace 中建立以熟悉 Google Analytics 等協力廠商工具的使用者為對象之格式的基本報表。
+feature: Third-party Integration
 exl-id: 513da3f1-ad24-4d5b-bc35-dbcd3694cbdf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
 
 將正確的元件拖曳至工作區畫布，以建立「所有頁面」報表 (類似 Google Analytics 中的報表)。
 
-1. 使用您的 Adobe ID 憑證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 1. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
 1. 在上方的導覽列按一下「工作區」。
 1. 按一下「建立新專案」按鈕。
@@ -59,7 +59,7 @@ Analysis Workspace (Adobe Analytics 內的主要功能之一) 為使用者提供
 
 Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到工作區專案中，瞭解哪一種組合適合自己。
 
-如果您意外將無效的元件拖曳到工作區專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案] > [!UICONTROL 新專案」]*，以空白顯示窗開始操作。
+如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方功能表中的&#x200B;*[!UICONTROL 「專案] > [!UICONTROL 新專案」]*，以空白顯示窗開始操作。
 
 Adobe 已將許多功能放入 Analysis Workspace 的滑鼠右鍵內容功能表中。大部份的視覺效果和元件都可以按一下滑鼠右鍵，以取得更詳細的分析和互動功能。請考慮在工作區中以滑鼠右鍵按一下元件，以查看有哪些可用選項。
 

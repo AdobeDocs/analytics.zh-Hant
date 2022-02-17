@@ -1,13 +1,12 @@
 ---
 description: 在 Advertising Analytics 中管理帳戶。
 title: 管理 Advertising 帳戶
-uuid: 0b205046-2eb5-4cd6-be62-cdf716fe934e
+feature: Advertising Analytics
 exl-id: fe75cd3d-aa84-414a-a9d1-c2ab25def575
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

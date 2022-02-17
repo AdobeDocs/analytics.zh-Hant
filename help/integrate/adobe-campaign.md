@@ -1,12 +1,12 @@
 ---
 description: 瞭解如何啟用 Adobe Analytics 中的 Adobe Campaign 報表
 title: 如何將 Adobe Campaign 報表整合至 Adobe Analytics？
+feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '478'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

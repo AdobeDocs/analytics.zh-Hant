@@ -1,14 +1,14 @@
 ---
 title: Adobe Analytics 中的即時報表
 description: 瞭解如何在 Adobe Analytics 中提取即時報表，讓較熟悉 Google Analytics 的使用者也能檢視。
-translation-type: tm+mt
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
+feature: Third-party Integration
+exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '979'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 即時報表
 
@@ -70,7 +70,7 @@ Adobe 最多可同時收集三份即時報表。每個報表都必須先進行�
 
 >[!NOTE]
 >
->在即時報表中使用自訂事件時，維度項目必須定義在與自訂事件相同的點擊中。 例如，如果檢視「反向連結網域」維度的「註冊」自訂事件，則系統不會在沒有其他實施的情況下傳回任何資料。由於反向連結網域只會出現在第一次點擊上，而自訂事件通常會在造訪後出現，因此資料無法在即時報表中建立關聯。此資料可透過 Analysis Workspace 使用標準處理延遲 (通常為 30-90 分鐘) 來使用。
+>在即時報告中使用自定義事件時，必須在與自定義事件相同的命中中定義維項。 例如，如果檢視「反向連結網域」維度的「註冊」自訂事件，則系統不會在沒有其他實施的情況下傳回任何資料。由於反向連結網域只會出現在第一次點擊上，而自訂事件通常會在造訪後出現，因此資料無法在即時報表中建立關聯。此資料可透過 Analysis Workspace 使用標準處理延遲 (通常為 30-90 分鐘) 來使用。
 
 ## 即時轉換
 

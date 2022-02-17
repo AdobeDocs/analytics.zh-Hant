@@ -1,11 +1,12 @@
 ---
 title: 地區資料收集
 description: 地區資料收集相關資訊
+feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 1cf95a2bf57aacd6b0b5bdb1c3bf31d1b31339e0
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +30,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 
 >[!NOTE]
 >
->請注意：如果您的 Analytics 影像要求傳送至 `adobedc`、`2o7.net` 或 `omtrdc.net` 端點，則表示您使用的是協力廠商資料收集。 如果您在請求的 URL 中看到任一端點，即可判定出此結論。
+>請注意：如果您的 Analytics 影像要求傳送至 `adobedc`、`2o7.net` 或 `omtrdc.net` 端點，則表示您使用的是協力廠商資料收集。 如果您在請求的 URL 中看到任一端點，可以判定這點。
 
 ## 第一方資料收集
 

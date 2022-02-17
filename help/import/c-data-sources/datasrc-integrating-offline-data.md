@@ -3,9 +3,9 @@ description: 資料來源提供另外兩種方式，將離線發生的事件整�
 subtopic: Data sources
 title: 交易與客戶整合
 topic-fix: Developer and implementation
-uuid: 71f73a47-3436-4314-a182-36de4bd935ba
+feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 79%
@@ -38,7 +38,7 @@ ht-degree: 79%
 
  -->
 
-若要查看交易ID記錄是否已啟用，請導覽至「**[!UICONTROL Analytics]** > **[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料來源]**」。
+要查看是否啟用了事務處理ID記錄，請定位至 **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料源]**。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ht-degree: 79%
 
 從線上變為離線的客戶通常是匿名。
 
-交易ID事件不包含在「瀏覽參與率」量度中（顯示於行銷報表中的量度）。 這是因為交易ID資料與瀏覽無關（因為離線事件通常不屬於線上事件），但與訪客相關。
+「訪問參與」度量中不包括事務ID事件（市場營銷報告中顯示的那些）。 這是因為事務ID資料與訪問無關（因為離線事件通常不是聯機事件的一部分），而是與訪問者關聯。
 
-請參閱[交易ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
+請參閱 [事務ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。

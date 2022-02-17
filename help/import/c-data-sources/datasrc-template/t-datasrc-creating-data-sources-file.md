@@ -3,9 +3,9 @@ description: 重要範本檔案是用來讓您開始匯入。
 subtopic: Data sources
 title: 產生匯入檔案範本
 topic-fix: Developer and implementation
-uuid: bcd90e34-42e6-4cd1-b67e-87586dea25d8
+feature: Data Sources
 exl-id: c2717936-a011-4224-8a9e-94753abbcb33
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '598'
 ht-degree: 98%
@@ -25,7 +25,7 @@ ht-degree: 98%
 如需詳細資訊，請參閱[匯入檔案參考](/help/import/c-data-sources/datasrc-template/datasrc-import-file-reference.md)。
 
 1. 登入 Analytics。
-1. 在套裝標題中，選取「**[!UICONTROL 管理]** > **[!UICONTROL 所有管理]** > **[!UICONTROL 資料來源]**」。
+1. 在套件標題中，選擇 **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料源]**。
 1. 在&#x200B;**[!UICONTROL 「資料來源建立」]** 標籤中，選取範本類別和類型。
 1.  閱讀「啟動指示/資訊」，然後按一下&#x200B;**[!UICONTROL 「啟動」]**。
 

@@ -3,10 +3,10 @@ title: 如何在 Advertising Analytics 中設定 Advertising 帳戶
 description: 可讓您建立新的 Advertising 帳戶，並將多個帳戶對應到多個報表套裝。
 feature: Advertising Analytics
 exl-id: f593c714-e85f-4000-85b2-6294cad81e25
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 93%
+source-wordcount: '819'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Analytics 管理員能建立新廣告帳戶，再將多個帳戶對應到�
    | --- | --- |
    | 類型 | 您有 2 個選項：Google AdWords 和 Microsoft Bing Ads。注意：Microsoft Bing 已於 2019 年 3 月 31 日併購 Yahoo Gemini，因此 Yahoo Gemini 廣告帳戶選項已無法繼續使用。 |
    | 帳戶名稱 | 您可以選擇將此帳戶名稱設定為任何合適的名稱。這是方便記憶的帳戶名稱，並且會顯示於使用者介面中。 |
-   | OAuth 代號 | **注意:** OAuth 是存取權限委派的開放標準，普遍用來授權給網站或應用程式，以便在不提供密碼的情況下，使其得以存取自身在其他網站上的資訊。您將注意到您將被路由到第三方URL(efrontier.com)。 Adobe 使用 efrontier 來推動這三個搜尋引擎的 OAuth 驗證程序。如果使用Internet Explorer 11（或更早版本），則無法成功檢索三個搜索引擎中任何一個的Oauth令牌。 請改用其他網頁瀏覽器。<p>按一下&#x200B;**[!UICONTROL 「擷取代碼」]**，隨即啟動 OAuth2 驗證程序。也就是說，系統會詢問您是否要使用自己的憑證登入 Google/Bing 搜尋帳戶。依您選擇的搜尋引擎不同，操作程序會有些微差異： <ul><li>Google廣告：提供Google帳戶ID</li><li>Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。</li></ul>如需這些 ID 的相關資訊，請參閱[尋找您的帳戶 ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)。成功登錄後， **[!UICONTROL OAuth令牌]** 欄位顯示 **[!UICONTROL 已檢索]**。 |
+   | OAuth 代號 | **注意:** OAuth 是存取權限委派的開放標準，普遍用來授權給網站或應用程式，以便在不提供密碼的情況下，使其得以存取自身在其他網站上的資訊。您將注意到您將被路由到第三方URL(efrontier.com)。 Adobe 使用 efrontier 來推動這三個搜尋引擎的 OAuth 驗證程序。如果使用Internet Explorer 11（或更早版本），則無法成功檢索三個搜索引擎中任何一個的Oauth令牌。 請改用其他網頁瀏覽器。<p>按一下&#x200B;**[!UICONTROL 「擷取代碼」]**，隨即啟動 OAuth2 驗證程序。系統將要求您使用您的憑據登錄您的Google/必應搜索帳戶。 依您選擇的搜尋引擎不同，操作程序會有些微差異： <ul><li>Google廣告：提供Google帳戶ID</li><li>Microsoft Bing：提供 Bing 帳戶 ID 和 Bing 客戶 ID。</li></ul>如需這些 ID 的相關資訊，請參閱[尋找您的帳戶 ID](/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-locate-account-id.md)。成功登錄後， **[!UICONTROL OAuth令牌]** 欄位顯示 **[!UICONTROL 已檢索]**。 |
 
 1. 在&#x200B;**[!UICONTROL 「追蹤」]**&#x200B;區段，您可以提供 Adobe Analytics 實施作業如何追蹤搜尋引擎資料的相關資訊。這是以搜尋引擎資料適度增加 Adobe Analytics 資料的必要步驟。依照以下準則填入&#x200B;**[!UICONTROL 「追蹤設定」]**：
 

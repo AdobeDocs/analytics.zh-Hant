@@ -1,13 +1,14 @@
 ---
 title: Adobe Analytics 與瀏覽器 Cookie
 description: 了解預防追蹤措施如何影響 Adobe Analytics 所設定的第三方和第一方 Cookie。
-source-git-commit: 2a0cc52664bbeaae66d6160d74fad4840bf692b8
-workflow-type: ht
+feature: Data Configuration and Collection
+exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 100%
 
 ---
-
 
 # Adobe Analytics 與瀏覽器 Cookie
 

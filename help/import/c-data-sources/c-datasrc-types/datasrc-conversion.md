@@ -3,13 +3,12 @@ description: 針對以轉換方式處理的資料類型，資料來源支援下�
 subtopic: Data sources
 title: 轉換
 topic-fix: Developer and implementation
-uuid: 5e7907b1-6c9c-4073-876b-410f3a29767d
+feature: Data Sources
 exl-id: 00450ad4-7148-4cf1-bdba-5d1732dd0fd3
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 針對以轉換方式處理的資料類型，資料來源支援下列「轉換」資料維度和量度。
 
-## 轉換維度與量度 {#section_FA1731B232B246DABEDF5A5D84159084}
+## 轉換維度與量度  {#section_FA1731B232B246DABEDF5A5D84159084}
 
 若您指定「檢視」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 的值。報表套裝支援的自訂事件和 eVar 檢視的數目依合約而定，不同公司有不同限制。
 

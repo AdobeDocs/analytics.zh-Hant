@@ -3,10 +3,9 @@ description: 網站記錄檔資料來源讓您匯入標準的網站伺服器記�
 subtopic: Data sources
 title: 網站記錄檔
 topic-fix: Developer and implementation
-uuid: a0efed57-6d1b-43d8-97ce-dc31009805e0
+feature: Data Sources
 exl-id: 11c4f21a-de07-436e-a05e-ab6769cb3e21
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 100%

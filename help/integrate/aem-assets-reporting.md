@@ -1,8 +1,9 @@
 ---
 description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
 title: 如何在 Adobe Analytics 中製作 AEM Assets 報表
+feature: AEM Assets Reporting
 exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
-source-git-commit: 58bb3ab5787de893917c95946266088ccd1f00d4
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 87%

@@ -1,14 +1,14 @@
 ---
 title: 常見問題集
 description: 取得從協力廠商平台移轉至 Adobe 時的常見問題解答。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Third-party Integration
+exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 100%
 
 ---
-
 
 # 常見問題集
 

@@ -1,13 +1,12 @@
 ---
 description: Analysis Workspace 範本的詳細資料，以及在 Reports & Analytics 和 Report Builder 的報告功能。
 title: 報告 Adobe Analytics 的 Advertising 資料
-uuid: e57996b5-b922-4614-8cee-0c1a7d97b428
+feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
-source-wordcount: '388'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

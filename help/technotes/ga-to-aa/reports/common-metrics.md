@@ -1,14 +1,14 @@
 ---
 title: 其他平台常用的量度轉譯指南
 description: 透過 Google Analytics 使用者更熟悉的術語，瞭解如何提取許多常見報表的量度資料。
-translation-type: tm+mt
-source-git-commit: 6fc8145d9a94427ec942d55776b6029f7dd6f79c
+feature: Third-party Integration
+exl-id: e95b0530-8099-4a08-9e2b-75174546277d
+source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
-
 
 # 其他平台常用的量度轉譯指南
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 
 ## 贏取量度
 
-**使用者**&#x200B;約略等同於 Workspace 中的&#x200B;**獨特訪客**。如需詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/metrics/unique-visitors.md)量度。
+**使用者**&#x200B;約略等同於工作區中的&#x200B;**獨特訪客**。如需詳細資訊，請參閱「元件」使用指南中的[獨特訪客](/help/components/metrics/unique-visitors.md)量度。
 
 可透過下列方式取得&#x200B;**新使用者**：
 
@@ -53,7 +53,7 @@ ht-degree: 97%
 
    進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-calcmetrics/cm-overview.md)。
 
-**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。Learn more about [Time spent per visit](/help/components/metrics/time-spent-per-visit.md) metrics in the Components user guide.
+**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。瞭解有關 [每次訪問所花費的時間](/help/components/metrics/time-spent-per-visit.md) 「元件」使用手冊中的度量。
 
 ## 轉換量度
 

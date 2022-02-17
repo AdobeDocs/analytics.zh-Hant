@@ -1,12 +1,12 @@
 ---
 description: 設定 Experience Cloud 對應的報表套裝，以供 Advertising Analytics 使用。
 title: 啟用 Advertising Analytics 的報表套裝
-uuid: 934f0e02-b5d7-4eca-93d8-92f95bd7014a
+feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

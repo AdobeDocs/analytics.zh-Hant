@@ -3,12 +3,12 @@ description: 在報表套裝中建立、管理、檢視資料來源的使用。
 subtopic: Data sources
 title: 資料來源管理員
 topic-fix: Developer and implementation
-uuid: ccfa4a1c-7c56-421b-8ee6-a42b334659b1
+feature: Data Sources
 exl-id: a63137b8-deeb-4865-9be9-322416b00186
-source-git-commit: d198e8ef0ec8415a4a555d3c385823baad6104fe
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 在報表套裝中建立、管理、檢視資料來源的使用。
 
-**[!UICONTROL Analytics]** >管 **[!UICONTROL 理]** > **[!UICONTROL 所有管理]** > **[!UICONTROL 資料來源]**。
+**[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料源]**。
 
 ## 建立標籤 {#section_74603FDA3D8842E49F1A51624A06DE20}
 

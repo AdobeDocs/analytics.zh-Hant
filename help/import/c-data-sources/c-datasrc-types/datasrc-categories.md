@@ -3,12 +3,12 @@ description: 資料來源類別可識別具有類似功能的不同資料來源�
 subtopic: Data sources
 title: 資料類型和類別的概觀
 topic-fix: Developer and implementation
-uuid: b5004cdc-b68a-4a82-a159-a7cd7b8bfe21
+feature: Data Sources
 exl-id: d459fd06-a0fe-49e6-8624-b42f0c60ee6e
-source-git-commit: 0b31585f5a928d68083764b80f3a08927b407387
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

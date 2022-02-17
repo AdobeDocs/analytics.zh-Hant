@@ -1,17 +1,16 @@
 ---
 description: 有關 Advertising Analytics 的常見問題集。
-title: 常見問題集
-uuid: 05724f56-cf98-4ad8-ad0d-83a5a4b1944a
+title: 常見問答
+feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 100%
 
 ---
 
-# 常見問題集
+# 常見問答
 
 ## 存取/權益 {#section_5F558C5981F747F0AF375A9E4B75C93C}
 
@@ -104,7 +103,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：<b>何時</b>會將搜尋資料提取至 Analytics？ </p> </td> 
-   <td colname="col2"> <p>答：系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬 Analytics 資料中心當地時區的上午 6 點 (06:00)。這也是收集 AMO 資料和插入報表套裝的時間。該資料接著會轉換為報表套裝的時區，並做為插入資料至 Analytics 的一部分。 </p> </td> 
+   <td colname="col2"> <p>答：系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬 Analytics 資料中心當地時區的上午 6 點 (06:00)。這也是收集 AMO 資料並將其插入報表套裝的時間。 該資料接著會在資料插入 Analytics 的過程中轉換為報表套裝的時區。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：<b>點擊前可擷取</b>哪些內容？我們是否在未點擊前就帶來了曝光數、成本、平均位置等資料？ </p> </td> 
@@ -124,7 +123,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：是否有包括<b>「顯示」</b>或<b>「社交」</b>等其他廣告管道的方案？ </p> </td> 
-   <td colname="col2"> <p>答: 沒有。依照我們的規劃，目前沒有涵蓋這些管道的方案。 </p> </td> 
+   <td colname="col2"> <p>答：沒有。依照我們的規劃，目前沒有涵蓋這些管道的方案。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
