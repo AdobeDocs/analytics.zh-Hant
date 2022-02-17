@@ -1,10 +1,10 @@
 ---
 title: 新增參與
 description: 首次接觸管道的設定次數。
+feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
 

@@ -1,14 +1,14 @@
 ---
 title: 月
 description: 量度發生的月份。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Dimensions
+exl-id: 77f7aa91-ea2e-482f-9a29-35912efb967a
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
-
 
 # 月
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 

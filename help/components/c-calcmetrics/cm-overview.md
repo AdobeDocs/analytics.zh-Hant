@@ -2,10 +2,10 @@
 description: 計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。
 keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
-uuid: 2553c115-b15a-4109-8de2-733dbc1eeb9e
+feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 

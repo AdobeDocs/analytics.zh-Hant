@@ -2,17 +2,16 @@
 description: 虛擬報告套裝和多套裝標記各有不同優勢。請多加瞭解哪一種最適合您的組織。
 keywords: 虛擬報告套裝,VRS
 title: 虛擬報告套裝和多套裝標記考量事項
-feature: 報告套裝設定
-uuid: f17d3659-a5b1-4807-a01d-a1b422009a64
+feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 562ed0e190954b7687fa79efaf5c5c54eb202af8
-workflow-type: ht
-source-wordcount: '1756'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '1753'
 ht-degree: 100%
 
 ---
 
-# 虛擬報告套裝和多套裝標記考量事項
+# 虛擬報表套裝和多套裝標記考量事項
 
 虛擬報告套裝 (VRS) 可讓您從收集您數位財產中的資料的報告套裝檢視資料，但永久套用某個區段。
 

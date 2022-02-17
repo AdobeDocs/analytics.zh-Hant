@@ -1,14 +1,14 @@
 ---
 title: 上午/下午
 description: 判斷點擊發生在上午還是下午。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Dimensions
+exl-id: 93fcdb9f-2ba3-402c-a389-b02ed8c990d2
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 
 ---
-
 
 # 上午/下午
 

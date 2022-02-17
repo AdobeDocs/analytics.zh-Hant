@@ -1,12 +1,12 @@
 ---
 title: 網站平均逗留時間
 description: 指定的維度項目存在於兩次點擊之間的平均時間量。
+feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 100%
 
 如果您想要知道維度項目 `Product page A` 的網站平均逗留時間，請先取用該維度在兩次點擊之間經過的時間量：
 
-* **12:04:20 - 12:05:30** - 1 分 10 秒
-* **12:05:30 - 12:07:00** - 1 分 30 秒
-* **12:07:40 - 12:08:10** - 30 秒
+* **12:04:20 - 12:05:30** - 1分10秒
+* **12:05:30 - 12:07:00** - 1分30秒
+* **12:07:40 - 12:08:10** - 30秒
 * **12:25:40 - ?** - 不包括
 
 `Product page A` 的總逗留時間量為 `00:03:10`。這次造訪中有兩個序列：第一個是兩個連續值的序列，第二個是結帳前的序列。造訪的最後一次點擊不是序列，因此沒有結束時間戳記。

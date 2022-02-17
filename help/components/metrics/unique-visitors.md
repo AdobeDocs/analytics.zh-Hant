@@ -1,17 +1,18 @@
 ---
 title: 不重複訪客
-description: 不重複訪客識別碼的數目。
+description: 唯一訪問者ID的數量。
+feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 不重複訪客
 
-「不重複訪客」量度會顯示維度項目的訪客 ID 數量。這是確認流量時最常用的量度之一，因為它可讓您概略了解維度項目的使用頻率。例如，某位訪客可能在一個月內每天造訪您的網站，但這仍會計為單一不重複訪客。
+「唯一訪問者」度量顯示維項的訪問者ID數。 這是確認流量時最常用的量度之一，因為它可讓您概略了解維度項目的使用頻率。例如，某位訪客可能在一個月內每天造訪您的網站，但這仍會計為單一不重複訪客。
 
 如果您使用「[跨裝置分析](../cda/overview.md)」，此量度會被「[不重複裝置](unique-devices.md)」量度取代。
 
@@ -28,9 +29,9 @@ Analysis Workspace 會根據報表的詳細程度來處理不重複訪客。例�
 | 使用順序 | 查詢參數 (收集方法) | 使用時機 |
 | --- | --- | --- |
 | 1 | `vid` | [`visitorID`](/help/implement/vars/config-vars/visitorid.md) 變數已設定。 |
-| 2 | `aid` | 訪客有現有的 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
-| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie。使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 設定於實作上。 |
-| 4 | `fid` | 訪客有現有的 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=zh-Hant) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
+| 2 | `aid` | 訪客有現有的 [`s_vi`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。在不實作訪客 ID 服務的情況下或實作該服務之前，設定於實作上。 |
+| 3 | `mid` | 訪客有現有的 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie。使用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant) 設定於實作上。 |
+| 4 | `fid` | 訪客有現有的 [`s_fid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie，或因任何原因而無法設定 `aid` 和 `mid`。 |
 | 5 | IP 位址、使用者代理、閘道 IP 位址 | 訪客的瀏覽器不接受 Cookie 時，用來識別不重複訪客的最後方法。 |
 
 >[!NOTE]

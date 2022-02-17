@@ -1,13 +1,11 @@
 ---
 description: 依標記、擁有者和其他篩選器 (「全部顯示」、「我的」、「已共用給我」、「我的最愛」和「已核准」) 進行篩選。
 title: 篩選區段
-feature: 區段
-uuid: 6e9d3e55-4e06-4a8d-adbc-bc01355f442e
+feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '155'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '154'
 ht-degree: 100%
 
 ---

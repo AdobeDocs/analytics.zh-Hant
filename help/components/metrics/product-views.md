@@ -1,14 +1,14 @@
 ---
 title: 產品檢視
 description: 檢視產品頁面的次數。
-translation-type: ht
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+feature: Metrics
+exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 100%
 
 ---
-
 
 # 產品檢視
 

@@ -1,11 +1,10 @@
 ---
 description: 說明如何在計算量度產生器中堆疊和取代區段。
 title: 堆疊和取代區段
-uuid: f6d4db9e-d982-4731-b342-7e49dee02035
+feature: Calculated Metrics
 exl-id: a89d66df-a5bc-45fd-8592-967446d8d63b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 100%
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 ## 堆疊區段 {#section_3FC1118FEE2B40B7BB90F29C8521AF53}
 
-在定義畫布中，直接將新區段拖曳至現有區段旁:
+在定義畫布中，直接將新區段拖曳至現有區段旁：
 
 ![](assets/cm_stack_seg.png)
 

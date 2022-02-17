@@ -1,11 +1,10 @@
 ---
 description: 使用計算量度產生器，任何人都能建立參與率量度。
 title: 參與率量度
-uuid: 7cb191be-bc4e-46ef-8a20-ccba5355e253
+feature: Calculated Metrics
 exl-id: bef185d6-72c0-4068-80f8-57261369573f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 100%
 

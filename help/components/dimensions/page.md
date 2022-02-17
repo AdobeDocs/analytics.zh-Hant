@@ -1,14 +1,14 @@
 ---
 title: 頁面
 description: 頁面名稱。
-translation-type: tm+mt
-source-git-commit: ec6d8e6a3cef3a5fd38d91775c83ab95de47fd55
+feature: Dimensions
+exl-id: 579963c8-8460-425f-b716-3b30d7a259af
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
-
 
 # 頁面
 
@@ -18,9 +18,9 @@ ht-degree: 82%
 
 ## 將資料填入此維度中
 
-此維度會從「頁面檢視」 [`pageName` 呼叫](/help/implement/validate/query-parameters.md) ( [)中的查詢字串擷取資料`t()`](/help/implement/vars/functions/t-method.md)。 [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md) ，即使查詢字串存在，也一律 `pageName` 會移除此維度。
+此維從 [`pageName` 查詢字串](/help/implement/validate/query-parameters.md) 在 [頁面視圖調用(`t()`)](/help/implement/vars/functions/t-method.md)。 [連結追蹤呼叫 (`tl()`)](/help/implement/vars/functions/tl-method.md) 一律會移除此維度，即使 `pageName` 查詢字串存在也一樣。
 
-AppMeasurement 會使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 變數收集這項資料。If the `pageName` variable is not defined, it falls back to using the [`pageURL`](/help/implement/vars/page-vars/pageurl.md) variable.
+AppMeasurement 會使用 [`pageName`](/help/implement/vars/page-vars/pagename.md) 變數收集這項資料。如果 `pageName` 未定義變數，它回到使用 [`pageURL`](/help/implement/vars/page-vars/pageurl.md) 變數。
 
 ## 維度項目
 

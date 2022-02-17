@@ -1,12 +1,11 @@
 ---
 description: 「區段管理器」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標示為我的最愛。
 title: 管理區段
-feature: 區段
-uuid: 47d54822-a662-471d-8dab-03ddf6c2f395
+feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '426'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '425'
 ht-degree: 100%
 
 ---

@@ -1,12 +1,10 @@
 ---
 description: 如何透過 FTP 上傳資料檔案。
-subtopic: Classifications
 title: FTP 匯入
-feature: Admin Tools
-uuid: a914970d-ba02-4111-9dcf-06448f71b9f3
+feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 32196fc76b2743679516a00f86c4912fac0bb3cf
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 100%
 
@@ -20,7 +18,7 @@ ht-degree: 100%
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
-**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
+**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**.
 
 以下是重要的限制建議：
 

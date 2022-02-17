@@ -1,15 +1,14 @@
 ---
 description: 計算量度產生器可讓您套用統計和數學函數，以建立進階計算量度。
 title: 參考資料  基本函數
-uuid: 5c2b4a0e-613c-4b27-95b8-01d480aeab78
-translation-type: ht
-source-git-commit: f602d5599206b2615e8c31508731548ffb73814d
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
 ---
-
 
 # 參考資料：基本函數
 
@@ -204,7 +203,7 @@ round( 314.15, -2) = 300
 
 ## 列計數 {#concept_0DBF5995881C47CF95F793125F3A0E2B}
 
-傳回指定欄的列數 (在一個維度中報告的唯一元素數)。「超出唯一數目」計為 1。
+傳回指定欄的列數 (在一個維度中報告的唯一元素數)。「超出不重複值」計為 1。
 
 ## 列最大值 {#concept_984D045D7EDD4A1ABED454CDF2EC23C5}
 

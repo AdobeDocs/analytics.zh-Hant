@@ -1,14 +1,14 @@
 ---
 title: 首次接觸管道
 description: 訪客參與有效期內的第一個行銷管道。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Dimensions
+exl-id: cca9794c-1305-4e54-aa13-809b9ebc6230
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 
 ---
-
 
 # 首次接觸管道
 

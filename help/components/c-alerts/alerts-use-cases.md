@@ -1,11 +1,10 @@
 ---
 description: 建立及管理智慧型警報的使用案例。
 title: 智慧型警報 - 使用案例
-uuid: 2aa8e00f-4885-4861-a47f-40c8df1f8539
+feature: Alerts
 exl-id: 81c47b62-a57e-4ee4-8043-3e3290e44269
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '92'
 ht-degree: 100%
 
@@ -29,7 +28,7 @@ Update screenshots for better readability.
 
 ![](assets/alert_selection.png)
 
-如此會立即預先填入警報產生器，使用正確的量度和篩選器建立警報:
+如此會立即預先填入警報產生器，使用正確的量度和篩選器建立警報：
 
 ![](assets/prepopulated_alert.png)
 

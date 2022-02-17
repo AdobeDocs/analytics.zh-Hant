@@ -1,10 +1,10 @@
 ---
 description: 計算量度產生器提供的畫布可用來拖放維度、量度、區段及函數，讓您根據容器階層邏輯、規則及運算子來建立自訂量度。此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
 title: 建立量度
-uuid: 3f51e911-cafa-4af4-90dd-5a4cb42bf0a7
+feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ ht-degree: 100%
    <td colname="col2"> <span class="uicontrol"> 定義 </span> </td> 
    <td colname="col3"> <p>這裡是您拖曳量度/計算量度、區段和/或函數進來以建立計算量度的地方。 </p> <p> 
      <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
-      <li id="li_01776C32C7C5440AA1F847096CBED92B">如果您拖曳一個計算量度進來，它就會自動展開其量度定義。 </li> 
+      <li id="li_01776C32C7C5440AA1F847096CBED92B">如果您將一個計算量度拖曳進來，它將自動擴展其量度定義。 </li> 
       <li id="li_A483D352522E4572AB43042473053359">您可以使用容器巢狀嵌套定義。不過，這些容器與區段容器不同，其功能比較類似數學運算式，用以決定運算順序。 </li> 
      </ul> </p> </td> 
   </tr> 

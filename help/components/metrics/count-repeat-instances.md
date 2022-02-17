@@ -1,9 +1,10 @@
 ---
 title: 計算重複實例數
 description: 指定是否要將重複實例計入報表中。
+feature: Metrics
 exl-id: e80544c0-f030-44e7-84c5-0902cd18d467
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 100%
 

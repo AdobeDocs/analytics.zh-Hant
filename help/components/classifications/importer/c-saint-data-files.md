@@ -1,16 +1,14 @@
 ---
 description: 匯入工具可讓您大量上傳分類資料至檔案中的分析報告。匯入功能須有特定的檔案格式才能成功上傳資料。
-subtopic: Classifications
 title: 分類資料檔案
-feature: Admin Tools
-uuid: f27bb812-56e0-472a-9993-d869f0fea700
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
+feature: Classifications
+exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 100%
 
 ---
-
 
 # 分類資料檔案
 
@@ -206,4 +204,3 @@ ht-degree: 100%
 ## 分類的疑難排解
 
 * [常見的 上傳問題](https://helpx.adobe.com/analytics/kb/common-saint-upload-issues.html)：說明因錯誤的檔案格式和檔案內容所引起問題的知識庫文章。
-

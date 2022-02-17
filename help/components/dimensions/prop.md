@@ -1,16 +1,16 @@
 ---
 title: Prop
 description: 可用於報表的自訂維度。
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
+feature: Dimensions
+exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
 
-
-# Prop
+# 道
 
 *此說明頁面說明 Prop 作為維度時的運作方式。如需如何實作 Prop 的相關資訊，請參閱「實作」使用指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
 

@@ -1,14 +1,14 @@
 ---
 title: 造訪次數
 description: 訪客的第 n 次造訪。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Dimensions
+exl-id: daef34b3-c270-476d-a45c-a20be6138c6b
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 100%
 
 ---
-
 
 # 造訪次數
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 

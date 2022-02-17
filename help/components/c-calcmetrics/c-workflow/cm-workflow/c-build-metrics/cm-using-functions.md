@@ -1,15 +1,14 @@
 ---
 description: 函數可讓您篩選/排序資料以及執行統計分析。
 title: 使用函數
-uuid: f9ea8c76-714e-429c-baa0-9c96cbf7ebb1
-translation-type: ht
-source-git-commit: c4833525816d81175a3446215eb92310ee4021dd
-workflow-type: ht
+feature: Calculated Metrics
+exl-id: 9d5d7589-a955-42f7-96af-0d12beddd623
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
 ---
-
 
 # 使用函數
 

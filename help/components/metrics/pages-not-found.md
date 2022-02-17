@@ -1,14 +1,14 @@
 ---
 title: 找不到頁面
 description: 包含錯誤的點擊次數。
-translation-type: ht
-source-git-commit: 54aeaa35fea8f725c87030936fa24f415064e333
-workflow-type: ht
+feature: Metrics
+exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '109'
 ht-degree: 100%
 
 ---
-
 
 # 找不到頁面
 

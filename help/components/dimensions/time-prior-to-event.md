@@ -1,9 +1,10 @@
 ---
 title: 事件之前時間
 description: 量度與造訪的首次點擊之間相隔的時間量。
+feature: Dimensions
 exl-id: 2586673f-d908-4b69-901a-5fafe635d0d5
-source-git-commit: 2c363dce63768101356a6f43ea1e45ae8dd7b139
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 100%
 

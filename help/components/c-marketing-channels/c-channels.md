@@ -2,10 +2,10 @@
 description: 在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷管道的報表套裝，自動設定可為您建立多個管道及其規則。您可視需要編輯預定義管道或建立自己的管道 (最多總共 25 個)。
 subtopic: Marketing channels
 title: 管理行銷管道
-feature: Reports & Analytics Basics
+feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
-source-git-commit: 2a63ff1072964df823edd09d844630e99c0afd8b
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 100%
 

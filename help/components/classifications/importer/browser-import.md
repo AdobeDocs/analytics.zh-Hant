@@ -1,12 +1,10 @@
 ---
 description: 您可以使用瀏覽器匯入 (上傳) 分類資料。這種方法限制您的分類資料上傳只能上傳單一的報表套裝
-subtopic: Classifications
 title: 瀏覽器匯入
-feature: Admin Tools
-uuid: 56dfbf4c-36e6-49f4-b5cb-8ab714432825
+feature: Classifications
 exl-id: 5bef1f6d-9b27-464d-8343-472f300a7437
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 

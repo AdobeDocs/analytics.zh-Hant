@@ -1,10 +1,10 @@
 ---
 description: '對個別量度分段可讓您在同一份報表中比較量度。 '
-title: 區段量度
-uuid: 88f9829b-76e4-4598-9494-084a91602bc1
+title: 分段量度
+feature: Calculated Metrics
 exl-id: 1e7e048b-9d90-49aa-adcc-15876c864e04
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 建立區段量度 {#create}
 
-假設您想比較「德國訪客」區段和「國際訪客」區段的不同面向。您可以建立能提供下列分析項目的量度：
+假設您想比較「德國訪客」區段和「國際訪客」區段的不同面向。您可以建立能提供下列深入分析的量度：
 
 * 這兩個群組的內容瀏覽行為相較之下的結果為何？(另一個範例：這兩個區段的轉換率相較之下的結果為何？)
 * 相較於國際訪客，德國訪客瀏覽特定頁面佔總訪客人數的百分比為多少？

@@ -1,12 +1,10 @@
 ---
 description: 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。
-subtopic: Classifications
 title: 分類匯入程式 - 概觀
-feature: Admin Tools
-uuid: b1500423-e100-483a-bec2-ab4f1f3c0902
+feature: Classifications
 exl-id: b38556a2-e075-4fea-b5da-24300a62fa7f
-source-git-commit: eb256b6d8308792747710284d2bfbaa4b5044b2a
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 

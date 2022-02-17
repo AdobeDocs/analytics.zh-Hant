@@ -1,14 +1,14 @@
 ---
 title: 平日/週末
 description: 判斷點擊是發生在工作日還是週末。
-translation-type: ht
-source-git-commit: d3f92d72207f027d35f81a4ccf70d01569c3557f
-workflow-type: ht
+feature: Dimensions
+exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
 ---
-
 
 # 平日/週末
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度可直接用於所有實作。如果報表套裝包含資料，此維度即會運作。
+此維度可直接用於所有實施作業。如果報表套裝包含資料，此維度即會運作。
 
 ## 維度項目
 

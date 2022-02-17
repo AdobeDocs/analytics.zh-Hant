@@ -1,10 +1,10 @@
 ---
 description: 勾選函數下拉式清單中的顯示進階即可存取這些函數。
 title: 參考資料 - 進階函數
-uuid: 7d1071b9-1737-4b7c-b318-87907dae5619
+feature: Calculated Metrics
 exl-id: a6d0c2ad-864d-4cab-84e0-dd6ce0a4c6b1
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '2909'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 參考資料：進階函數
 
-勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**&#x200B;即可存取這些函數。
+勾選&#x200B;**[!UICONTROL 函數]**&#x200B;下拉式清單中的&#x200B;**[!UICONTROL 顯示進階]**，即可存取這些函數。
 
 ## 表格函數和列函數 {#section_8977BE40A47E4ED79EB543A9703A4905}
 
@@ -230,8 +230,8 @@ CORREL.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
-| *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
+| *度量_X* | 您想與 *metric_Y* 建立關聯的量度。 |
+| *度量_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
 ## 指數迴歸：截距 (表格) {#concept_0047206C827841AD936A3BE58EEE1514}
 
@@ -243,8 +243,8 @@ INTERCEPT.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 指數迴歸：斜率 (表格) {#concept_230991B0371E44308C52853EFA656F04}
 
@@ -256,8 +256,8 @@ SLOPE.EXP(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 下限 (列) {#concept_D368150EC3684077B284EE471463FC31}
 
@@ -375,8 +375,8 @@ CORREL.LOG(metric_X,metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
-| *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
+| *度量_X* | 您想與 *metric_Y* 建立關聯的量度。 |
+| *度量_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
 ## 對數迴歸：截距 (表格) {#concept_75A3282EDF54417897063DC26D4FA363}
 
@@ -388,8 +388,8 @@ INTERCEPT.LOG(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 對數迴歸：預計 Y (列) {#concept_5F3A9263BBB84E6098160A4DFB9E3607}
 
@@ -403,8 +403,8 @@ ESTIMATE.LOG(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 對數迴歸：斜率 (表格) {#concept_B291EFBE121446A6B3B07B262BBD4EF2}
 
@@ -417,7 +417,7 @@ SLOPE.LOG(metric_A, metric_B)
 | 引數 | 說明 |
 |---|---|
 | *metric_A* | 您要指定做為獨立資料的量度。 |
-| *metric_B* | 您要指定做為相依資料的量度。 |
+| *metric_B* | 您要指定為相依資料的量度。 |
 
 ## 自然對數 {#concept_D3BE148A9B84412F8CA61734EB35FF9E}
 
@@ -486,8 +486,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
-| *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
+| *度量_X* | 您想與 *metric_Y* 建立關聯的量度。 |
+| *度量_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
 ## 乘冪迴歸：截距 (表格) {#concept_7781C85597D64D578E19B212BDD1764F}
 
@@ -499,8 +499,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 乘冪迴歸：預計 Y (列) {#concept_CD652C0A921D4EFBA8F180CB8E486B18}
 
@@ -512,8 +512,8 @@ CORREL.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 乘冪迴歸：斜率 (表格) {#concept_5B9E71B989234694BEB5EEF29148766C}
 
@@ -525,8 +525,8 @@ SLOPE.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 二次迴歸：相關係數 (表格) {#concept_9C9101A456B541E69BA29FCEAC8CD917}
 
@@ -538,8 +538,8 @@ CORREL.QUADRATIC(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
-| *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
+| *度量_X* | 您想與 *metric_Y* 建立關聯的量度。 |
+| *度量_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
 ## 二次迴歸：截距 (表格) {#concept_69DC0FD6D38C40E9876F1FD08EC0E4DE}
 
@@ -551,8 +551,8 @@ INTERCEPT.POWER(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 二次迴歸：預計 Y (列) {#concept_2F1ED70B1BDE4664A61CC09D30C39CBB}
 
@@ -564,8 +564,8 @@ ESTIMATE.QUADRATIC(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_A* | 您要指定做為獨立資料的量度。 |
-| *metric_B* | 您要指定做為相依資料的量度。 |
+| *度量(_A)* | 您要指定做為獨立資料的量度。 |
+| *度量(_B)* | 您要指定為相依資料的量度。 |
 
 ## 二次迴歸：斜率 (表格) {#concept_0023321DA8E84E6D9BCB06883CA41645}
 
@@ -577,8 +577,8 @@ SLOPE.QUADRATIC(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 倒數迴歸：相關係數 (表格) {#concept_EBEC509A19164B8AB2DBDED62F4BA2A5}
 
@@ -590,8 +590,8 @@ CORREL.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您想與 *metric_Y* 建立關聯的量度。 |
-| *metric_Y* | 您想與 *metric_X* 建立關聯的量度。 |
+| *度量_X* | 您想與 *metric_Y* 建立關聯的量度。 |
+| *度量_Y* | 您想與 *metric_X* 建立關聯的量度。 |
 
 ## 倒數迴歸：截距 (表格) {#concept_2DA45B5C69F140EC987649D2C88F19B3}
 
@@ -603,8 +603,8 @@ INTERCEPT.RECIPROCAL(metric_A, metric_B)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 倒數迴歸：預計 Y (列) {#concept_2CF4B8F417A84FE98050FE488E227DF8}
 
@@ -616,8 +616,8 @@ ESTIMATE.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 倒數迴歸：斜率 (表格) {#concept_8A8B68C9728E42A6BFDC6BD5CBDCCEC5}
 
@@ -629,8 +629,8 @@ SLOPE.RECIPROCAL(metric_X, metric_Y)
 
 | 引數 | 說明 |
 |---|---|
-| *metric_X* | 您要指定做為獨立資料的量度。 |
-| *metric_Y* | 您要指定做為相依資料的量度。 |
+| *度量_X* | 您要指定做為獨立資料的量度。 |
+| *度量_Y* | 您要指定做為相依資料的量度。 |
 
 ## 正弦 (列) {#concept_21C8C3AA835947A28B53A4E756A7451E}
 

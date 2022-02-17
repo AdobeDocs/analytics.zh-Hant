@@ -1,16 +1,14 @@
 ---
 description: 規則集是一組特定變數的分類規則。您將變數套用到規則集。如果要為一個變數建立多個規則集，必須將每個規則集套用到多個報表套裝。
-subtopic: Classifications
 title: 分類規則集
-feature: 管理工具
-uuid: c4d7b77c-fa98-44be-955f-9aee7f73480b
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
-source-wordcount: '397'
+feature: Classifications
+exl-id: 5c118541-d143-4947-b693-514d7042abe6
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
-
 
 # 分類規則集
 

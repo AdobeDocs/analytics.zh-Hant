@@ -1,11 +1,10 @@
 ---
 description: 說明三種產品相容性選項。
 title: 量度相容性
-uuid: f2706e2b-c0cc-4af2-bcb4-1318796e9845
+feature: Calculated Metrics
 exl-id: 936d8139-7bbc-4de4-9e30-60ef5e12be08
-translation-type: ht
-source-git-commit: a8db56bca986e11db3c363aa75fcf212358c7f91
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
 

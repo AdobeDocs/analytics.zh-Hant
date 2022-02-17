@@ -2,10 +2,9 @@
 description: 有關分段的常見問答。
 title: 常見問答
 feature: Segmentation
-uuid: f49dc829-1d53-4183-9add-1aeaa5219d89
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7cb2489c2deaf8e75c71589895314067a010caf8
-workflow-type: ht
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
 source-wordcount: '2080'
 ht-degree: 100%
 
@@ -333,7 +332,7 @@ seg_definition.xml
 | 行動作業系統 | Cookie | 地域 DMA |
 | 行動 Java VM | 客戶忠誠度 | 永久性 Cookie |
 | 行動書籤長度 | Java 已啟用 | 付費搜尋 |
-| 行動 URL 長度 | 語言 |  |
+| 行動 URL 長度 | language |  |
 
 ## 對於具有已知值之整數式維度的變更 {#section_84A8AAD0344148AD9F9211D3EB271903}
 

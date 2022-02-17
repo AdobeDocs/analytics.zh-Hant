@@ -1,11 +1,10 @@
 ---
 description: 說明尋找量度的兩種主要方法：排序和篩選。
 title: 尋找量度
-uuid: 60c8e02c-736d-4d20-8799-69f6ca250033
+feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 100%
 
@@ -13,7 +12,7 @@ ht-degree: 100%
 
 # 尋找量度
 
-說明尋找量度的兩個主要方法: 排序和篩選。
+說明尋找量度的兩個主要方法：排序和篩選。
 
 ## 排序 {#section_89F9C4D515084F5796F2A54D468BF6C8}
 

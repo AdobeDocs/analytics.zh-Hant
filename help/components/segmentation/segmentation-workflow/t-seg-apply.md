@@ -1,13 +1,11 @@
 ---
 description: 如何從區段邊欄套用一或多個區段至報表。
 title: 選擇與套用區段
-feature: 區段
-uuid: f835ddc1-4650-4e5f-848d-6c97fb7d6141
+feature: Segmentation
 exl-id: 870026e2-a3a3-4d87-a6c2-6189098d3676
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '206'
 ht-degree: 100%
 
 ---

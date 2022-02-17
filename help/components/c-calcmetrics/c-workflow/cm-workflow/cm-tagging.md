@@ -1,11 +1,10 @@
 ---
 description: 在計算量度管理員中，您可透過將區段進行標記來組織區段。
 title: 標記計算量度
-uuid: f90ddbed-adc4-407d-b4b0-469eda61c704
+feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 100%
 

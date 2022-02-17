@@ -1,14 +1,11 @@
 ---
 description: Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓您將分類套用到分類。
-subtopic: Classifications
 title: 關於子分類
-feature: 管理工具
-uuid: 48bd7fc1-54a1-40ef-bc55-395338522f2d
+feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-translation-type: ht
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
-workflow-type: ht
-source-wordcount: '653'
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
 
 ---
@@ -50,10 +47,10 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 例如：
 
-| 代碼 | PROPERTY 1 | Property 1^Property 1-1 | Property 1^Property 1-2 | 屬性 2 |
+| 代碼 | 屬性1 | Property 1^Property 1-1 | Property 1^Property 1-2 | 屬性 2 |
 |---|---|---|---|---|
 | 123 | ABC | 綠色 | 小 | A12B |
-| 456 | DEF | 紅色 | 大 | C3D4 |
+| 456 | 定義 | 紅色 | 大 | C3D4 |
 
 儘管多級分類的檔案範本更加複雜，但其優勢在於，可以將獨立層級上傳為獨立檔案。該方法可將隨時間變化和不隨時間變化的資料分入不同的分類，從而減少需定期 (每天、每週等) 上傳的資料量。
 
@@ -76,20 +73,20 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 | 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 | CODE^COLOR |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 | 石板褐 |
-| 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 | 冷色 |
+| 410390014 | 波羅 — SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 | 冷色 |
 | 410390015 | Polo-LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 | 青色 |
 
 ### 產品分類 - 多重檔案 (檔案 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 |
 |---|---|---|---|---|---|
-| 410390013 | Polo-SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 |
-| 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 |
-| 410390015 | Polo-LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 |
+| 410390013 | 波羅 — SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 |
+| 410390014 | 波羅 — SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 |
+| 410390015 | 波羅 — LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 |
 
 ### 產品分類 - 多重檔案 (檔案 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| 代碼 | 代碼 | CODE^COLOR |
+| 代碼 | 代碼 | 代碼^顏色 |
 |---|---|---|
 | * | 01 | 石板褐 |
 | * | 03 | 冷色 |

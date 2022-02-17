@@ -1,13 +1,11 @@
 ---
 description: 在「區段管理員」中，您可透過將區段進行標記來組織區段。
 title: 標記區段
-feature: 區段
-uuid: 2adb95b8-862e-439a-8694-e2ee163066a6
+feature: Segmentation
 exl-id: 2c838bb1-3fab-467a-9a1d-54c7c5a3b49e
-translation-type: tm+mt
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '185'
 ht-degree: 100%
 
 ---

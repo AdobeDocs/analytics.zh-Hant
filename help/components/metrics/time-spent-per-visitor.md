@@ -1,14 +1,14 @@
 ---
 title: 每位訪客逗留時間 (秒)
 description: 「每位訪客逗留時間 (秒)」量度會顯示訪客在其整個期限內與指定維度項目互動的平均時間量。
-translation-type: ht
-source-git-commit: 4d0d5ca99049e48fcf1f248f78ecef94534b6815
-workflow-type: ht
+feature: Metrics
+exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
 
 ---
-
 
 # 每位訪客逗留時間 (秒)
 

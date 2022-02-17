@@ -1,10 +1,10 @@
 ---
 title: 自訂連結
 description: 自訂連結的名稱。
+feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
 

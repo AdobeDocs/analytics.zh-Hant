@@ -1,11 +1,10 @@
 ---
 description: 在計算量度管理員中，您可以設定包含各應用程式級別以及特定部門或群組之核准量度的工作流程。
 title: 核准計算量度
-uuid: df51252c-3121-4030-8a8c-566d557f28b2
+feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '144'
 ht-degree: 100%
 

@@ -1,13 +1,11 @@
 ---
 description: 區段的功能現在主要是以管理員級使用者與非管理員級使用者做區隔。
 title: 不同角色的區段權限
-feature: 區段
-uuid: 62b742c5-c918-45b7-98c7-f6badc0b9fc7
+feature: Segmentation
 exl-id: 54e35663-8a8d-4064-a44c-2385e24e6e10
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '134'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '133'
 ht-degree: 100%
 
 ---

@@ -1,10 +1,10 @@
 ---
 title: 搜尋
 description: 點擊符合外部搜尋條件的次數。
+feature: Metrics
 exl-id: b84c895d-e678-47a1-9e41-500970e0a80c
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 100%
 

@@ -1,13 +1,11 @@
 ---
 description: 在「區段管理器」內，您可以設立工作流程來核准適合各種應用層級、適合特定的部門或群組，且符合報表原則的區段。
 title: 核准區段
-feature: 區段
-uuid: 01f4ff51-d923-4328-a68d-c4e793cb5b34
+feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-translation-type: ht
-source-git-commit: f9b5380cfb2cdfe1827b8ee70f60c65ff5004b48
-workflow-type: ht
-source-wordcount: '125'
+source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+workflow-type: tm+mt
+source-wordcount: '124'
 ht-degree: 100%
 
 ---

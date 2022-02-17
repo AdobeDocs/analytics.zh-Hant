@@ -1,10 +1,10 @@
 ---
 title: 上次接觸管道詳細資料
 description: 訪客參與有效期內最新行銷管道的詳細資料。
+feature: Dimensions
 exl-id: def03267-f3e5-4772-a707-5678c45eba6d
-translation-type: ht
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 100%
 

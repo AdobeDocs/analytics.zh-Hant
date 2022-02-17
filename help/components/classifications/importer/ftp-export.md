@@ -1,9 +1,10 @@
 ---
 title: 透過 FTP 匯出分類資料
 description: FTP 匯出可讓您更靈活地下載資料集，包括從多個報表套裝下載資料，以及下載超過 50,000 個資料列的資料集檔案
+feature: Classifications
 exl-id: 6f97f0b2-1a04-407f-9df9-8715da52037d
-source-git-commit: e0a4caec9bc58a0846cd46871aad3bed99d218a3
-workflow-type: ht
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
 

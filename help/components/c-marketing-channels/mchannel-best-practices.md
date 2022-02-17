@@ -1,13 +1,14 @@
 ---
 title: 實作 Adobe Analytics 行銷管道的最佳做法
 description: 搭配 Attribution IQ 和 Customer Journey Analytics 使用行銷管道的更新最佳做法
-source-git-commit: 35bdd513bee7b01fae1916a0dc1496749752ce62
-workflow-type: ht
+feature: Marketing Channels
+exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
+source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # 搭配行銷管道使用 Attribution IQ - 最佳做法
 
@@ -21,13 +22,13 @@ ht-degree: 100%
 
 ## 最佳做法 1：利用 Attribution IQ 進行受控制的分析
 
-我們建議您使用 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant#analysis-workspace) 來取代現有的行銷管道歸因，以調整您的行銷管道分析。 請遵循其他最佳做法，以確保使用 Attribution IQ 進行分析的一致性並對該分析擁有強大的控制力。
+我們建議您使用 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=en#analysis-workspace) 來取代現有的行銷管道歸因，以調整您的行銷管道分析。 請遵循其他最佳做法，以確保使用 Attribution IQ 進行分析的一致性並對該分析擁有強大的控制力。
 
 ![](assets/attribution.png)
 
 * 「行銷管道」和「行銷管道詳細資料」維度設定會建立有待評估的接觸點 (與每個「行銷管道」實例相對應)。
 * 若要進行量度分析，貴組織應該根據一個或多個歸因模型進行調整。請儲存此模型的自訂量度，以方便重複使用。
-* 根據預設，資料的配置方式是使用「上次接觸」及「訪客參與期間」設定。 Attribution IQ 量度模型提供對回顧視窗的更大控制力及更多樣性，包括[演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=zh-Hant#analysis-workspace)。
+* 根據預設，資料的配置方式是使用「上次接觸」及「訪客參與期間」設定。 Attribution IQ 量度模型提供對回顧視窗的更大控制力及更多樣性，包括[演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html?lang=en#analysis-workspace)。
 
 ## 最佳做法 2：「非直接」和「工作階段重新整理」管道定義
 
