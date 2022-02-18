@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 324ee0f5839442ba1575b65a1159a23bed7129b4
-workflow-type: ht
-source-wordcount: '1049'
-ht-degree: 100%
+source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
+workflow-type: tm+mt
+source-wordcount: '1095'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +26,9 @@ Analysis Workspace 中有以下面板類型:
 | [Analytics for Target 面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
 | [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。 |
 | [自由表格面板](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現一個有豐富資料的故事。 |
+| [媒體平均分鐘受眾面板](average-minute-audience-panel.md) | 分析一段時間內平均分鐘觀眾數，並詳細瞭解峰值視圖和分解和比較能力。 |
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
+| [「媒體播放時間」面板](media-playback-timespent/media-playback-time-spent.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關的差異。 |
 
 ![](assets/panel-overview.png)
