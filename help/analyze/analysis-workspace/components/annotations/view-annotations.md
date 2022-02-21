@@ -1,37 +1,37 @@
 ---
-title: 查看批注
-description: 如何在工作區中查看注釋。
+title: 檢視附註
+description: 如何在工作區中檢視附註。
 role: User, Admin
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 37de8752b5467cd30969fee35efa78de2941f963
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 10%
+ht-degree: 78%
 
 ---
 
-# 查看批注
+# 檢視附註
 
 >[!NOTE]
 >
 >此功能目前在有限測試中。
 
-注釋的顯示方式略有不同，具體取決於它們是跨越一天還是日期範圍。
+根據附註跨越一天還是跨越日期範圍，附註的體現方式略有不同。
 
-## 查看折線圖或表中的注釋
+## 在線圖或表格中檢視附註
 
 | 日期 | 外觀 |
 | --- | --- |
-| **單日** | ![](assets/single-day.png) |
-| **日期範圍** | 表徵圖將更改，當懸停在表徵圖上時，將顯示日期範圍。<p>![](assets/multi-day.png)<p>在表中，日期範圍內的每個日期都顯示一個表徵圖。<p>![](assets/multi-day-table.png)<p>請注意：在與多個批注關聯的日子中，表徵圖將為灰色。 |
+| **一天** | ![](assets/single-day.png) |
+| **日期範圍** | 圖示會變更，而且當滑鼠游標停留在圖示上方時，日期範圍就會出現。<p>![](assets/multi-day.png)<p>在表格中，日期範圍內的每個日期都會出現圖示。<p>![](assets/multi-day-table.png)<p>請注意下列事項：日期若有一個以上關聯的附註，其圖示將是灰色。 |
 
-## 查看摘要圖表中的注釋
+## 在摘要圖表中檢視附註
 
 ![](assets/ann-summary.png)
 
-## 查看.pdf檔案中的批注
+## 在 .pdf 檔案中檢視附註
 
-由於不能將滑鼠懸停在.pdf檔案中的表徵圖上，因此此檔案（導出後）會在面板底部提供說明說明。 其範例如下：
+由於在 .pdf 檔案中滑鼠游標無法停留在圖示上方，此檔案 (在匯出後) 會在面板底部提供解釋說明。其範例如下：
 
 ![](assets/ann-pdf.png)
 
