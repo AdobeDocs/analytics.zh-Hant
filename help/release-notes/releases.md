@@ -1,17 +1,17 @@
 ---
-description: 解釋Adobe Analytics的連續功能發佈策略
+description: 說明 Adobe Analytics 的持續功能發行策略
 title: Adobe Analytics 功能發行
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
 source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '376'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 功能發行
 
-Adobe Analytics版本採用連續交付模式運行，這允許採用更可擴展的分階段方法部署功能。
+Adobe Analytics 的發行模式是持續傳遞，允許以更具可擴縮性、分階段的方法進行未來部署。
 
 ## 發行策略
 
