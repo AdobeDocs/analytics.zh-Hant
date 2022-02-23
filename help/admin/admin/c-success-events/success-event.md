@@ -2,9 +2,9 @@
 description: 成功事件是可追蹤的動作。成功事件的條件由您決定。例如，若有訪客購買了一件物品，該購買事件即可被視為成功事件實施流量分類。
 keywords: event
 title: 成功事件概觀
-feature: Admin Tools
+feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
+source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
 source-wordcount: '727'
 ht-degree: 100%
