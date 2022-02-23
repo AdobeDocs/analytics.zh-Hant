@@ -1,34 +1,37 @@
 ---
 description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之可直接或間接識別資料的合作夥伴變數。
 title: 資料隱私權與 Data Connectors (Genesis)
-uuid: d3a32c09-d3c5-452c-8302-8da28e62ead3
-translation-type: ht
-source-git-commit: cd2225ec00190af6b616f313b419935c4f8dfafd
-workflow-type: ht
-source-wordcount: '436'
+feature: Privacy
+exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---
 
-
 # 資料隱私權與 Data Connectors (Genesis)
-
-本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能含有資料主體之可直接或間接識別資料的合作夥伴變數。
-
-Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透過 Connector 匯入的直接或間接個人識別資料。
-
-如果您使用以下任何 Connector 整合，只要檢查整合中可能含有直接或間接個人識別資料的合作夥伴變數/分類即可。
 
 >[!NOTE]
 >
->本文資訊旨在協助您識別必須[加上標籤](/help/admin/c-data-governance/gdpr-setup-reportsuite.md)的變數，但身為資料控管單位，您必須負責套用適當標籤，或執行其他[資料隱私權整備動作](/help/admin/c-data-governance/an-gdpr-overview.md) (更新分類等)。
+>**自 2021 年 8 月 19 日起**，Adobe 已終止資料連接器整合服務。 終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
+
+<!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
+
+This information lets you identify any directly identifiable data or indirectly identifiable data imported via our connectors, when they receive a Data Privacy request.
+
+If you are using an integration of any of the below connectors, you can simply check which partner variables/classifications in your integration may potentially contain directly identifiable data or indirectly identifiable data.
+
+>[!NOTE]
+>
+>This information is provided to help you identify variables that must be [labeled](/help/admin/c-data-governance/gdpr-setup-reportsuite.md), but it is your responsibility as the data controller to apply the appropriate labels or perform other actions for [Data Privacy readiness](/help/admin/c-data-governance/an-gdpr-overview.md) (updating classifications, etc.).
 
 <table id="table_4DE59253898D46E282EF5F9CB0ED34B5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Connector 名稱 </th> 
-   <th colname="col2" class="entry"> 變數 </th> 
-   <th colname="col4" class="entry"> 類型 </th> 
+   <th colname="col1" class="entry"> Connector Name </th> 
+   <th colname="col2" class="entry"> Variables </th> 
+   <th colname="col4" class="entry"> Type </th> 
   </tr>
  </thead>
  <tbody> 
@@ -165,7 +168,7 @@ Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透�
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p>Recipient ID-&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
+   <td colname="col2"> <p>Recipient ID -&gt; RecipientField1 </p> <p>Recipient ID -&gt; RecipientField2 </p> <p>Recipient ID -&gt; RecipientField3 </p> <p>Recipient ID -&gt; RecipientField4 </p> <p>Recipient ID -&gt; RecipientField5 </p> </td> 
    <td colname="col4"> <p>Classifications </p> </td> 
   </tr> 
   <tr> 
@@ -179,7 +182,7 @@ Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透�
    <td colname="col4"> <p>eVar </p> <p>eVar </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>Synergy! 360</b> </p> </td> 
+   <td colname="col1"> <p><b>Synergy!360</b> </p> </td> 
    <td colname="col2"> <p>Customer ID </p> </td> 
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
@@ -199,5 +202,4 @@ Connector 收到資料隱私權請求時，這些資訊能讓您識別所有透�
    <td colname="col4"> <p>eVar </p> </td> 
   </tr> 
  </tbody> 
-</table>
-
+</table>-->

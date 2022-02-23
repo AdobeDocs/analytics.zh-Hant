@@ -2,8 +2,9 @@
 title: 管理註解
 description: 如何在工作區中管理註解。
 role: User, Admin
+feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 4706c815dfb34938716fa674865b9cb1ef6cd604
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%

@@ -1,10 +1,10 @@
 ---
 description: 了解有關用戶同意在裝置或瀏覽器上儲存或讀取非必要 Cookie 的準則和建議。
 title: CNIL 關於用戶同意和 Cookie 的準則是什麼？
+feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-translation-type: ht
-source-git-commit: 0e09f6ee34560ca7f036e8f3fb743c822d5fcfc4
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 100%
 

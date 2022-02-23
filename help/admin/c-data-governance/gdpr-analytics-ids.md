@@ -1,10 +1,10 @@
 ---
 description: 了解在 Analytics 資料中擷取的 ID，並決定您要用於資料隱私權請求的 ID。
 title: 標籤最佳作法
-uuid: d1e9bfff-9b04-4e3e-9b4e-a6e527b1b2e3
+feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f669af03a502d8a24cea3047b96ec7cba7c59e6f
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '2700'
 ht-degree: 100%
 

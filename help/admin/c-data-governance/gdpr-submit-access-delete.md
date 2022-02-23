@@ -1,10 +1,10 @@
 ---
 description: 如何在 Adobe Analytics 中提交資料存取與刪除請求。
 title: 提交存取與刪除請求
-uuid: d006cd5c-e3cd-4385-8683-acaf73cb681b
+feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: f3eb3c024a80d0b65729929960173f8b3a4267b0
-workflow-type: ht
+source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 提交請求 {#submit-requests}
 
-您可以透過我們的[資料隱私權 UI 入口網站](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)或[資料隱私權 API，提交資料隱私權存取和刪除請求。](https://www.adobe.io/apis/experienceplatform/gdpr.html)
+您可以透過我們的[資料隱私權 UI 入口網站](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/tutorials/privacy_service_tutorial/privacy_service_ui_tutorial.md)或[資料隱私權 API ](https://www.adobe.io/apis/experienceplatform/gdpr.html)，提交資料隱私權存取和刪除請求。
 
 >[!NOTE]
 >
