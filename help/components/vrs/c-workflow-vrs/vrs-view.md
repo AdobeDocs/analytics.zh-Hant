@@ -5,7 +5,7 @@ title: 檢視虛擬報告套裝資訊
 feature: VRS
 exl-id: 92e89d40-db94-4b0c-881e-e57ca4bb6999
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 
