@@ -4,7 +4,7 @@ description: 測量特定動作發生的時間。
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '718'
 ht-degree: 100%
 
