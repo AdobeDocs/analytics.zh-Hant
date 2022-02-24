@@ -4,7 +4,7 @@ description: 整合模組可讓 Adobe 合作夥伴將其資料收集成果與您
 feature: Variables
 exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '888'
 ht-degree: 100%
 
