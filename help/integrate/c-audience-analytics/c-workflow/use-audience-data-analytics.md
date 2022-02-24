@@ -5,9 +5,9 @@ title: 在 Analytics 中使用對象資料
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '632'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間
 
 ![](assets/flow-aamaudiences.png)
 
-對象也可用於[流失視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html)中。
+對象也可用於[流失視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)中。
 
 ## Analysis Workspace 中的文氏圖表視覺效果 {#section_E78AB764FB5047148B51DC1526B0DF89}
 
