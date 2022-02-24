@@ -4,13 +4,13 @@ description: 可在實施中使用的自訂變數。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '488'
 ht-degree: 100%
 
 ---
 
-# 托
+# prop
 
 *此說明頁面說明如何實施作業 Prop。若要瞭解 Prop 作為維度時的運作方式，請參閱「元件」使用指南中的 [Prop](/help/components/dimensions/prop.md)。*
 
