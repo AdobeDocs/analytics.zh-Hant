@@ -4,7 +4,7 @@ description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2267'
 ht-degree: 100%
 
@@ -449,7 +449,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 發行日期：**2013 年 11 月 14 日**
 
 * 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## 1.1.1 版本
 
