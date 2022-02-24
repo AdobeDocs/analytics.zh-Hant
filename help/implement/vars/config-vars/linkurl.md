@@ -4,13 +4,13 @@ description: 覆寫 AppMeasurement 在連結追蹤呼叫中使用的自動產生
 feature: Variables
 exl-id: 15d6e423-d9fc-4f84-ad39-0bd91399cde4
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
 ht-degree: 100%
 
 ---
 
-# 連結URL
+# linkURL
 
 每當連結追蹤呼叫傳送至 Adobe 時，資料收集伺服器都會自動偵測 URL。使用 `linkURL` 變數來覆寫偵測到的 URL。
 
