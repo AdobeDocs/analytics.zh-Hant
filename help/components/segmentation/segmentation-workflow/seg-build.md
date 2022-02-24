@@ -4,7 +4,7 @@ title: 建立區段
 feature: Segmentation
 exl-id: 2107f301-4137-4e97-9aa7-07824b842e16
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2046'
 ht-degree: 100%
 
@@ -206,7 +206,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 檢視未加到購物車的產品 </td> 
-   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>然後 </p> <p> 購物車新增等於 0。 </p> </td> 
+   <td colname="col2">檢視查看了產品但並未加任何項目到購物車的訪客的相關資料。在區段定義中，容器是瀏覽。此循序區段的規則是 <p>產品檢視非空值 </p> <p>Then </p> <p> 購物車新增等於 0。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 來自促銷活動的瀏覽次數 </td> 
