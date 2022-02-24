@@ -4,7 +4,7 @@ description: 判斷點擊是前景或背景點擊。
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '163'
 ht-degree: 100%
 
