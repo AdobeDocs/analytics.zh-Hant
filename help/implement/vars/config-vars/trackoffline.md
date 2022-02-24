@@ -4,13 +4,13 @@ description: 啟用或停用離線追蹤，變更 AppMeasurement 收集資料的
 feature: Variables
 exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
 ---
 
-# 跟蹤離線
+# trackOffline
 
 離線追蹤是在 Adobe Analytics 中收集資料的選用方式。如果訪客中斷網際網路連線但繼續瀏覽您的網站，點擊會儲存在離線佇列中，直到裝置重新連接網際網路為止。離線追蹤大多用於行動應用程式。
 
