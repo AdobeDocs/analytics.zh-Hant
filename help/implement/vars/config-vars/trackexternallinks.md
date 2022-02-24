@@ -4,13 +4,13 @@ description: 啟用或停用退出連結的自動連結追蹤。
 feature: Variables
 exl-id: a34d4ffa-ff82-460e-af7d-1a4be85fc631
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '189'
 ht-degree: 100%
 
 ---
 
-# 跟蹤外部連結
+# trackExternalLinks
 
 Adobe 提供追蹤對外連結的功能，使用者不需要手動設定每個退出連結的 [`tl()`](../functions/tl-method.md) 方法。如果您想要使用退出連結的自動連結追蹤功能，請啟用此變數。
 
