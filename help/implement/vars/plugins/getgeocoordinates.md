@@ -4,7 +4,7 @@ description: 追蹤訪客的 geoLocation。
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '483'
 ht-degree: 100%
 
