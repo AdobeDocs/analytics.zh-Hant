@@ -4,7 +4,7 @@ description: 了解如何使用標記將 Adobe Analytics 部署至您的開發�
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
