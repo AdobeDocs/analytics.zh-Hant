@@ -4,9 +4,9 @@ description: 瞭解如何解決登出 Adobe Analytics 時遇到的相關問題�
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '347'
+ht-degree: 100%
 
 ---
 
