@@ -3,10 +3,10 @@ description: Adobe Analytics 資料控管常見問題集
 title: 常見問題集
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 98%
+source-wordcount: '1802'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>Adobe 客戶 (資料控管單位) 如何找出哪個資料隱私權請求對應到 Adobe Analytics 中的哪個 ID，以便進行資料隱私權處理？</b> </p> </td> 
-   <td colname="col2"> <p>資料控管單位會判斷該如何解析資料主體請求的身分。請考慮部署 <a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">Adobe 的資料隱私權 ID 擷取標記。</a>使用我們的資料隱私權 ID 擷取標記來擷取使用者 ID (Cookie ID)，再使用資料隱私權 API 將擷取的使用者 ID 傳送到 Adobe Experience Cloud 中的相關解決方案，以便處理資料隱私權請求，讓您的開發團隊節省時間。 </p> <p>資料隱私權 API 可支援多個 Adobe 解決方案中的各種客戶 ID。如果資料主體提交請求時一併提供了識別碼 (自訂變數為屬性或 eVar)，Adobe Analytics 會掃描針對該識別碼收集之資料的完整保留記錄。如需進一步瞭解如何設定 Analytics prop 或 eVar 中儲存的自訂 ID，請參閱<a href="/help/admin/c-data-governance/gdpr-namespaces.md">命名空間</a>上的 Analytics 文件。
+   <td colname="col2"> <p>資料控管單位會判斷該如何解析資料主體請求的身分。請考慮部署 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Adobe 的資料隱私權 ID 擷取標記。</a>使用我們的資料隱私權 ID 擷取標記來擷取使用者 ID (Cookie ID)，再使用資料隱私權 API 將擷取的使用者 ID 傳送到 Adobe Experience Cloud 中的相關解決方案，以便處理資料隱私權請求，讓您的開發團隊節省時間。 </p> <p>資料隱私權 API 可支援多個 Adobe 解決方案中的各種客戶 ID。如果資料主體提交請求時一併提供了識別碼 (自訂變數為屬性或 eVar)，Adobe Analytics 會掃描針對該識別碼收集之資料的完整保留記錄。如需進一步瞭解如何設定 Analytics prop 或 eVar 中儲存的自訂 ID，請參閱<a href="/help/admin/c-data-governance/gdpr-namespaces.md">命名空間</a>上的 Analytics 文件。
     </p> </td> 
   </tr> 
   <tr> 

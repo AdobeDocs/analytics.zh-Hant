@@ -3,9 +3,9 @@ description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud �
 title: Analytics 使用者移轉至 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
-source-wordcount: '3119'
+source-wordcount: '3115'
 ht-degree: 96%
 
 ---
@@ -280,7 +280,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用者管理 API <a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">Adobe 支援的身分類型</a> </p> </td> 
-   <td colname="col2"> <p> 移轉至 Admin Console 的管理員應設定 Adobe I/O 所提供的<a href="https://www.adobe.io/apis/cloudplatform/usermanagement/docs/gettingstarted.html">使用者管理 API</a>，以程式化存取 Admin Console 中的使用者帳戶。 </p> <p>當您為移轉作業啟用此功能時，Analytics 權限 API 將會關閉。 </p> </td> 
+   <td colname="col2"> <p> 移轉至 Admin Console 的管理員應設定 Adobe I/O 所提供的<a href="https://developer.adobe.com/UMAPI/">使用者管理 API</a>，以程式化存取 Admin Console 中的使用者帳戶。 </p> <p>當您為移轉作業啟用此功能時，Analytics 權限 API 將會關閉。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站服務憑證 </p> </td> 

@@ -3,10 +3,10 @@ description: 了解在 Analytics 資料中擷取的 ID，並決定您要用於�
 title: 標籤最佳作法
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '2700'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '2698'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 100%
      <li id="li_9174CB3910AF4EF8BA7165DB537765A5"> <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant"> (舊版) Analytics Cookie </a> </li> 
      <li id="li_7B6A9A788BBD47428315B3893FC07BC3"> <a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant"> 身分識別服務 Cookie</a> (ECID) 原稱為 Marketing Cloud ID (MCID) </li> 
     </ul> </td> 
-   <td colname="col2"> <p>這些 Cookie 可用來識別裝置，更具體的說法是裝置使用者所用的瀏覽器；而共用裝置一般會採用通用登入帳號，因此 ID 可能適用於裝置的任何/所有使用者。如果您想要讓這些 ID 用於資料隱私權請求，Adobe 已建立一些<a href="https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm">統一的 JavaScript</a>，可讓您放置於網站中以收集 Cookie。 </p> <p>Adobe Analytics Mobile SDK 也有 Experience Cloud ID (ECID)，SDK 中的 API 呼叫可讀取此 ID，因此您可增強應用程式以收集用於資料隱私權請求的 ID。 </p> <p>許多公司會將瀏覽器 Cookie ID 視為共用裝置 ID，在與內部法務部門人員諮詢過後，可能選擇不支援將這些 ID 用於資料隱私權請求；或者也可選擇在使用這些 ID 時僅傳回非常有限的資料量，或者僅接受這些資料用於刪除請求 </p> <p>這些 Cookie 具有無法變更的 ID-DEVICE 標籤 (以及 I2 和 DEL-DEVICE 標籤)。預設的 Adobe Analytics 設定將僅傳回裝置的類型、作業系統、瀏覽器等一般資料，以及裝置使用這些 ID 造訪網站的時間/日期。不過，如果您選擇支援這些 ID 用於資料隱私權請求，則可按照下文所述以新增或移除 ACC-ALL 標籤，並設定您想傳回用於資料隱私權存取請求的確切欄位組合。 </p> <p>特別是在報表套裝已對應到行動應用程式，且您的行動應用程式要求登入的情況下，您可決定讓裝置的 Experience Cloud ID 對應到特定使用者，然後您可能會想透過 ACC-ALL 標籤標記更多欄位，包括使用者造訪的頁面名稱、瀏覽過的產品等等。 </p> <p>注意：如果您在資料隱私權請求中指定「expandIds」選項，則除了您指定的其他任何 ID 之外，請求將一律包含 Cookie ID。如需更多詳細資料，請參閱 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 擴增</a>。在這些例項中，只有一個 Cookie ID (沒有其他 ID) 的點擊只會在存取請求中傳回標籤為 ACC-ALL 的資料。 </p> </td> 
+   <td colname="col2"> <p>這些 Cookie 可用來識別裝置，更具體的說法是裝置使用者所用的瀏覽器；而共用裝置一般會採用通用登入帳號，因此 ID 可能適用於裝置的任何/所有使用者。如果您想要讓這些 ID 用於資料隱私權請求，Adobe 已建立一些<a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">統一的 JavaScript</a>，可讓您放置於網站中以收集 Cookie。 </p> <p>Adobe Analytics Mobile SDK 也有 Experience Cloud ID (ECID)，SDK 中的 API 呼叫可讀取此 ID，因此您可增強應用程式以收集用於資料隱私權請求的 ID。 </p> <p>許多公司會將瀏覽器 Cookie ID 視為共用裝置 ID，在與內部法務部門人員諮詢過後，可能選擇不支援將這些 ID 用於資料隱私權請求；或者也可選擇在使用這些 ID 時僅傳回非常有限的資料量，或者僅接受這些資料用於刪除請求 </p> <p>這些 Cookie 具有無法變更的 ID-DEVICE 標籤 (以及 I2 和 DEL-DEVICE 標籤)。預設的 Adobe Analytics 設定將僅傳回裝置的類型、作業系統、瀏覽器等一般資料，以及裝置使用這些 ID 造訪網站的時間/日期。不過，如果您選擇支援這些 ID 用於資料隱私權請求，則可按照下文所述以新增或移除 ACC-ALL 標籤，並設定您想傳回用於資料隱私權存取請求的確切欄位組合。 </p> <p>特別是在報表套裝已對應到行動應用程式，且您的行動應用程式要求登入的情況下，您可決定讓裝置的 Experience Cloud ID 對應到特定使用者，然後您可能會想透過 ACC-ALL 標籤標記更多欄位，包括使用者造訪的頁面名稱、瀏覽過的產品等等。 </p> <p>注意：如果您在資料隱私權請求中指定「expandIds」選項，則除了您指定的其他任何 ID 之外，請求將一律包含 Cookie ID。如需更多詳細資料，請參閱 <a href="/help/admin/c-data-governance/gdpr-id-expansion.md">ID 擴增</a>。在這些例項中，只有一個 Cookie ID (沒有其他 ID) 的點擊只會在存取請求中傳回標籤為 ACC-ALL 的資料。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂變數中的 ID </p> </td> 

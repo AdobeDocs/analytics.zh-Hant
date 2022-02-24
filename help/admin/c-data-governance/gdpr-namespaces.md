@@ -3,10 +3,10 @@ description: 命名空間是一組自訂字串，可用來在所有報表套裝�
 title: 命名空間
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '903'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '892'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
 * 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
 
-如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://www.adobe.io/apis/experienceplatform/gdpr/docs/alldocs.html#!api-specification/markdown/narrative/technical_overview/privacy_service_overview/privacy_service_overview.md)。
+如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)。
 
 ## Cookie ID
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 
 若這些 Cookie ID 的數值部分格式未遵照上述該 ID 的格式，則資料隱私權請求會失敗，並產生「數值格式有誤」錯誤。
 
-大部分情況下，您會最常使用新的[隱私權 JavaScript](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.htm)收集這些 Cookie ID，這會自動為 JSON ID 提供所有相關索引鍵值配對。
+大部分情況下，您會最常使用新的[隱私權 JavaScript](https://developer.adobe.com/experience-platform-apis/references/privacy-service/)收集這些 Cookie ID，這會自動為 JSON ID 提供所有相關索引鍵值配對。
 
 此 JavaScript 程式碼會使用除了上述 (命名空間、類型、值) 之外的其他索引鍵值配對填入 JSON，不過以上所列欄位是 Analytics 資料隱私權處理程序中最重要的欄位，也是您以其他方式收集 ID 時唯一需要提供的項目。
 

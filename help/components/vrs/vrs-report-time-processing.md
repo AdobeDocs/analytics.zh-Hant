@@ -3,10 +3,10 @@ description: 報表時間處理是一項虛擬報表套裝設定，可讓您以�
 title: 報表時間處理功能
 feature: VRS
 exl-id: 3742b9d1-f1fb-4690-bd44-b4719ff9d9bc
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1442'
-ht-degree: 100%
+source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+workflow-type: tm+mt
+source-wordcount: '1443'
+ht-degree: 96%
 
 ---
 
@@ -30,14 +30,14 @@ ht-degree: 100%
 
 此處理架構可提供更具彈性的報告選項。例如，您可採用非破壞性的方式，將造訪逾時期間變更為您想要的任何時間長度，而這些變更將會以回溯方式反映在 eVar 持續性和區段容器，如同您已在資料收集前所套用的這些設定。此外，您可以建立任意數量的虛擬報表套裝，並根據相同的基本報表套裝，讓每個套裝使用不同的「報表時間處理功能」選項，而不變更基本報表套裝中的任何資料。
 
-[!UICONTROL 報表時間處理]也能讓 Analytics 防止背景點擊開始新的造訪，並可讓 [Mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) 在每次應用程式啟動事件被觸發時，指示報告開始新的造訪。
+[!UICONTROL 報告時間處理] 還允許Analytics阻止啟動新訪問時的背景點擊，並允許 [Adobe Experience Platform移動SDK](https://experienceleague.adobe.com/docs/mobile.html) 通知報告在觸發應用程式啟動事件時啟動新訪問。
 
 ## 設定選項
 
 下列為啟用「報表時間處理」時，目前可供虛擬報表套裝使用的設定選項：
 
 * **[!UICONTROL 造訪逾時]：**&#x200B;造訪逾時設定會在自動開始新造訪前，定義不重複訪客必須達到的閒置時間。 已預設為 30 分鐘。例如，若您將造訪逾時設為 15 分鐘，系統便會針對收集到的各點擊順序建立新的造訪分組，並按照 15 分鐘閒置時間加以區隔。此設定不僅會影響您的造訪計數，也會影響評估造訪區段容器的方式，以及造訪時過期之任何 eVar 的造訪過期時間邏輯。降低造訪逾時可能會增加報告中的造訪總數，但是增加造訪逾時可能會減少報告中的造訪總數。
-* **[!UICONTROL 行動應用程式造訪設定]：**&#x200B;若報表套裝包含行動應用程式透過 [Adobe Mobile SDK](https://www.adobe.io/apis/cloudplatform/mobile.html) 產生的資料，則可使用其他造訪設定。 這些非破壞性設定僅會影響已透過 Mobile SDK 收集的點擊數。該設定不會影響非透過 Mobile SDK 收集的資料。
+* **[!UICONTROL 行動應用程式造訪設定]：**&#x200B;若報表套裝包含行動應用程式透過 [Adobe Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) 產生的資料，則可使用其他造訪設定。 這些非破壞性設定僅會影響已透過 Mobile SDK 收集的點擊數。該設定不會影響非透過 Mobile SDK 收集的資料。
 * **[!UICONTROL 避免背景點擊數開始新造訪]：**&#x200B;當應用程式處於背景狀態時，Mobile SDK 會收集背景點擊數。
 * **[!UICONTROL 每次應用程式啟動後都開始新的造訪]：**&#x200B;除了造訪逾時設定外，每當 Mobile SDK 記錄應用程式啟動事件時，您也可以強制開始造訪，而不考量閒置視窗。 此設定會影響造訪量度與造訪區段容器，以及 eVar 的造訪到期邏輯。
 * **[!UICONTROL 透過事件開始新的造訪]：**&#x200B;不論作業階段是否已逾期，某個事件被觸發時，就會開始新的工作階段。 新建立的工作階段將會包含啟動的事件。此外，您可以使用多個事件來啟動工作階段，如果資料中觀察到其中一個事件，就會觸發新的工作階段。此設定將會影響您的造訪計數、造訪區段容器以及 eVar 的造訪過期時間邏輯。
