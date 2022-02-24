@@ -4,13 +4,13 @@ description: 將點擊傳送至 Adobe 前建立回呼函數。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '265'
 ht-degree: 100%
 
 ---
 
-# 註冊PreTrackCallback
+# registerPreTrackCallback
 
 `registerPreTrackCallback` 變數可讓您的組織在影像要求 URL 編譯完成但尚未傳送時，連結 JavaScript 函數。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構。
 
