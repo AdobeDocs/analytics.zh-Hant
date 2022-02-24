@@ -4,13 +4,13 @@ description: dynamicAccountMatch 變數決定要在動態帳戶中查看的值�
 feature: Implementation Basics
 exl-id: 3b68f2e6-1bd9-4b16-9d03-a87c9217e1b7
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '127'
 ht-degree: 100%
 
 ---
 
-# 動態帳戶匹配
+# dynamicAccountMatch
 
 >[!IMPORTANT]
 >
