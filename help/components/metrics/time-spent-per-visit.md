@@ -4,7 +4,7 @@ description: 維度項目的每次造訪逗留時間。
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '259'
 ht-degree: 100%
 
