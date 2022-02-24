@@ -4,7 +4,7 @@ description: 瞭解如何在實施中使用 Adobe 提供的函數和方法。
 feature: Variables
 exl-id: 9ef5bd92-fae1-4fe4-90ea-c735e8ff4b9c
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
