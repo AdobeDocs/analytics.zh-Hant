@@ -4,7 +4,7 @@ description: 建立及追蹤 AppMeasurement 的例項。
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '345'
 ht-degree: 100%
 
