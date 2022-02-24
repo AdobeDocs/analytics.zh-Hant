@@ -4,10 +4,10 @@ title: 排程任務管理員
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 68a8eb3452d3f86bb59140ab5842667094198dee
+source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 51%
+source-wordcount: '655'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 51%
 | [!UICONTROL 發佈選項] | 此列將列出Power BI [Power BI發佈選項](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/publish-powerbi/power-bi.html) 的子菜單。 |
 | [!UICONTROL 排程] | 排程的傳送類型。 |
 | [!UICONTROL 檔案格式] | 報表的傳送格式，如 Excel、PDF、HTML 等。 |
-| [!UICONTROL 重新啟用] | 當排程活頁簿無法執行時，Report Builder 會嘗試每十五分鐘再執行活頁簿兩次。在第三次嘗試失敗後，Report Builder 會停用排程並顯示「重新啟用」按鈕。當您重新啟用活頁簿時，排程的傳送會從成為停用狀態的時間重新啟動。例如，如果排程的活頁簿在 14 天前停用而您在今天將其重新啟用，它會執行遺漏的每個天數，因此會傳送 14 次。如果您不想要傳送遺漏活頁簿的天數，可以刪除排程活頁簿，然後再使用相同的排程參數建立新的排程活頁簿。附註：了解系統停用活頁簿的原因之前，請避免重新啟用活頁簿。其中一個疑難排解的方法是下載停用的活頁簿，然後在用戶端重新整理。如果您未發現任何錯誤，應該就可以重新啟用活頁簿。 |
+| [!UICONTROL 重新啟用] | 當排程活頁簿無法執行時，Report Builder 會嘗試每十五分鐘再執行活頁簿兩次。在第三次嘗試失敗後，Report Builder 會停用排程並顯示「重新啟用」按鈕。當您重新啟用活頁簿時，排程的傳送會從成為停用狀態的時間重新啟動。<p>例如，如果排程的活頁簿在 14 天前停用而您在今天將其重新啟用，它會執行遺漏的每個天數，因此會傳送 14 次。如果您不想要傳送遺漏活頁簿的天數，可以刪除排程活頁簿，然後再使用相同的排程參數建立新的排程活頁簿。<p>**注：** 除非您知道系統停用工作簿的原因，否則不要重新激活工作簿。 要排除故障，請下載已停用的工作簿並在客戶端上刷新它。 如果您未發現任何錯誤，應該就可以重新啟用活頁簿。 |
 | [!UICONTROL 最後傳送] | 最後一次傳送報表的日期與時間。 |
 | **「收件者」索引標籤** |  |
 | [!UICONTROL 收件者電子郵件] | 報表的電子郵件收件者。 |
