@@ -4,7 +4,7 @@ title: 標籤最佳作法
 feature: Data Governance
 exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2700'
 ht-degree: 100%
 
