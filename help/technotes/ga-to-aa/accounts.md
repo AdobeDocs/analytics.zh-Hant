@@ -4,9 +4,9 @@ description: 了解如何使用登入公司和報告套裝，讓 Adobe Analytics
 feature: Third-party Integration
 exl-id: f4cf2a77-30c1-40f8-ba18-e4d71e170831
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '273'
+ht-degree: 100%
 
 ---
 
