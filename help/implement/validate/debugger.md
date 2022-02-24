@@ -4,7 +4,7 @@ description: 安裝舊版 Adobe Experience Cloud Debugger。 此偵錯工具會�
 feature: Validation
 exl-id: 8fd07285-f702-4770-81bd-5f856561f4a9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '686'
 ht-degree: 100%
 
