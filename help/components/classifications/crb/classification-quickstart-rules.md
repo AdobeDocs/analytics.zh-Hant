@@ -4,7 +4,7 @@ title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2020'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 | 選擇規則類型 | 輸入匹配準則 | 設定分類 | 結束日期 |
 |---|---|---|---|
 | 開頭為 | em: | 管道 | 電子郵件 |
-| 結尾為 | Sale | 類型 | 銷售 |
+| 結尾為 | Sale | 類型 | Sale |
 | 包含 | 2013 | 年 | 2013 |
 
 ## 規則的處理方式 {#how-rules-are-processed}
@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」。
 
-   您可在[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
+   您可在[](/help/components/classifications/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
 
 * 覆寫索引鍵時，在指定的時間範圍後，即使在您啟用「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」後，分類的索引鍵仍未在資料中顯示。
 * 索引鍵並未分類，而且在約一個月之前開始的時間範圍之後，索引鍵從未傳入 [!DNL Adobe Analytics]。
@@ -282,7 +282,7 @@ rule_priority.xml
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
 | 1 | 包含 | Cowboys | 搜尋類型 | Team |
-| 2 | 包含 | Fantasy | 搜尋類型 | 幻想 |
+| 2 | 包含 | Fantasy | 搜尋類型 | Fantasy |
 | 3 | 包含 | Romo | 搜尋類型 | Player |
 
 如果使用者搜尋      *`Cowboys fantasy Tony Romo`*，會分類 *`Player`* 一詞，因為它會比對「設定分類」欄裡顯示的最後一個指定分類。
@@ -291,7 +291,7 @@ rule_priority.xml
 
 | 規則編號 | 規則類型 | 符合 | 設定分類 | 結束日期 |
 |---|---|---|---|---|
-| 1 | 包含 | 牛仔隊 | 城市 | Dallas |
+| 1 | 包含 | Cowboys | 城市 | Dallas |
 | 2 | 包含 | Broncos | 城市 | Denver |
 
 使用者搜尋    *`Cowboys vs. Broncos`*。如果規則產生器在規則比對中發現衝突，則會將第二個規則的分類 (Denver) 套用到這項搜尋。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*只有*&#x200B;在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
    >* 報告套裝的「[!UICONTROL 管理工具]」中，至少為該變數定義了一個分類。
-   >
-   >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
+      >
+      >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
    >
    >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
