@@ -4,13 +4,13 @@ description: 此變數可用來將線上和離線資料連結在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
 ht-degree: 100%
 
 ---
 
-# 事務ID
+# transactionID
 
 `transactionID` 變數可唯一識別交易，因此點擊能與透過 Data Sources 上傳的資料連結。若您想要使用其他管道的資料，並將這些資料與透過 AppMeasurement 收集的資料連結在一起，此變數很有用。
 
