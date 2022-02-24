@@ -4,7 +4,7 @@ description: 判斷訪客在搜尋引擎的哪一頁上點進您的網站。
 feature: Dimensions
 exl-id: 58ce54c3-cc45-4e84-a14d-5fec0b70f50f
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
 ht-degree: 100%
 
