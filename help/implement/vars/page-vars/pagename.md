@@ -4,13 +4,13 @@ description: 網站上各個頁面的名稱。
 feature: Variables
 exl-id: 24ac40a9-f0e7-4534-abf2-2397f5fe16c2
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
 ht-degree: 100%
 
 ---
 
-# 頁名
+# pageName
 
 `pageName` 變數通常會儲存指定頁面的名稱。這個變數有助於判斷哪些個別頁面最受歡迎。此變數會填入「[頁面](/help/components/dimensions/page.md)」維度。
 
