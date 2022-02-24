@@ -4,13 +4,13 @@ description: 啟用或停用 doPlugins() 函數。
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '98'
 ht-degree: 100%
 
 ---
 
-# use插件
+# usePlugins
 
 如果 `usePlugins` 已啟用，[`doPlugins()`](../functions/doplugins.md) 函數會在 AppMeasurement 編譯前執行，並將點擊傳送至 Adobe。如果您使用 `doPlugins()` 函數，請啟用此變數。
 
