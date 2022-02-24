@@ -4,7 +4,7 @@ description: 如果您的網域尾碼有句號，AppMeasurement 便可瞭解要�
 feature: Variables
 exl-id: e994a188-1dab-4bf0-912b-cd2f6a1032e0
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
 ht-degree: 100%
 
