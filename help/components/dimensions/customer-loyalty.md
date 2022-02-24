@@ -4,7 +4,7 @@ description: 根據訪客先前購買次數分類的類別。
 feature: Dimensions
 exl-id: 48ac1fdf-9a32-4bcc-8b23-bf58358a3470
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
