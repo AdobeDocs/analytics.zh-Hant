@@ -4,7 +4,7 @@ description: 將銷售 eVar 新增至產品變數。
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
 ht-degree: 100%
 
