@@ -4,13 +4,13 @@ description: 覆寫點擊的自動收集反向連結。
 feature: Variables
 exl-id: 09a76de9-0689-424a-aead-3fdff1709fd9
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '262'
 ht-degree: 100%
 
 ---
 
-# 引用者
+# referrer
 
 `referrer` 變數會覆寫報表中自動收集的反向連結。在反向連結可能遺失的情況下 (如重新導向期間或將訪客暫時轉送至付款處理者)，此變數很有幫助。此變數有助於填入「反向連結」和「反向連結網域」維度。
 
