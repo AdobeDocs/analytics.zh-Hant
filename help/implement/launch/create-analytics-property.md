@@ -3,10 +3,10 @@ title: 在標記中建立 Analytics 屬性
 description: 使用標記建立空間來自訂資料收集的方式。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 0763f2624d46eb282b7b4c94f7d103d8e9ad8095
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的標記屬性以輸入其設定。
 1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 目錄]**。
-1. 找到 Identity Service，然後按一下 **[!UICONTROL 安裝]**。
+1. 找到「Experience CloudID服務」，然後按一下 **[!UICONTROL 安裝]**。
 1. 所有設定 (包括 Experience Cloud 組織 ID) 皆應已填寫。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 返回擴充功能目錄，找到 Adobe Analytics 並按一下&#x200B;**[!UICONTROL 安裝]**。
 
