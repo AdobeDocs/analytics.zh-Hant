@@ -4,7 +4,7 @@ description: 瞭解如何在不使用標記管理系統的情況下使用 JavaSc
 feature: Implementation Basics
 exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
 ht-degree: 100%
 
