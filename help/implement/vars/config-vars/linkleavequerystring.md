@@ -4,7 +4,7 @@ description: 允許保留連結追蹤維度中的查詢字串。
 feature: Variables
 exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '293'
 ht-degree: 100%
 
