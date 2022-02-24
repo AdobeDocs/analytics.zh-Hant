@@ -4,7 +4,7 @@ description: 手動將 XDM 資料從 Experience Platform 對應至 Adobe Analyti
 feature: AEP Edge
 exl-id: 6d973b35-1558-435c-9ae5-80c012d4e7ba
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '353'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Adobe Experience Platform (AEP) Web SDK 的輔助工具可協助您在 Platform 
 
 ## 處理規則
 
-邊緣網路收集的所有資料都可透過[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html)來存取。在 Analytics 中，您可以使用處理規則將內容資料併入 Analytics 變數中。
+邊緣網路收集的所有資料都可透過[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules-configuration/t-processing-rules.html?lang=zh-Hant)來存取。在 Analytics 中，您可以使用處理規則將內容資料併入 Analytics 變數中。
 
 以下列規則為例，Analytics 設為會在&#x200B;**內部搜尋詞彙 (eVar2)** 中填入與 **a.x_atag.search.term (內容資料)** 相關聯的資料。
 
@@ -83,4 +83,4 @@ alloy("event",{
 });
 ```
 
-如需使用 AEP Web SDK 追蹤事件的詳細資訊，請參閱[追蹤事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html)。
+如需使用 AEP Web SDK 追蹤事件的詳細資訊，請參閱[追蹤事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html?lang=zh-Hant)。
