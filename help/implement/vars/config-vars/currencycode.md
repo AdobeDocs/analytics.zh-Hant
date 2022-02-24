@@ -4,7 +4,7 @@ description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
 ht-degree: 100%
 
