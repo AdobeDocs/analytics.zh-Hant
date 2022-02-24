@@ -5,7 +5,7 @@ title: 虛擬報告套裝和多套裝標記考量事項
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1753'
 ht-degree: 100%
 
