@@ -4,13 +4,13 @@ description: 將點擊傳送至 Adobe 後建立回呼函數。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '297'
 ht-degree: 100%
 
 ---
 
-# 註冊PostTrackCallback
+# registerPostTrackCallback
 
 `registerPostTrackCallback` 變數可讓貴組織在成功將點擊傳送至 Adobe 後，立即連結 JavaScript 函數。如果追蹤呼叫失敗，此函數將不會執行。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構，或是清除單頁應用程式中的變數值。
 
