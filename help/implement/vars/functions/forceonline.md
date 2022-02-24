@@ -4,13 +4,13 @@ description: 手動設定 AppMeasurement 的線上狀態。
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
-# 強制線上
+# forceOnline
 
 `forceOnline()` 方法可讓您覆寫自動偵測到的 AppMeasurement 狀態。
 
