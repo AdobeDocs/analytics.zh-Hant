@@ -4,13 +4,13 @@ description: 根據唯一的購買識別碼去除重複點擊。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '257'
 ht-degree: 100%
 
 ---
 
-# 採購ID
+# purchaseID
 
 `purchaseID` 變數有助於防止包含相同購買操作的點擊導致報表不實膨脹。例如，如果訪客到達您的購買確認頁面，您通常會將交易產生的收入相關資料傳送至 Adobe。如果使用者重新整理此頁面多次，或是將頁面加入書籤以便稍後瀏覽，這些點擊可能會導致報表不實膨脹。當有多個點擊具有相同的購買 ID 時，`purchaseID` 變數會去除重複的量度。
 
