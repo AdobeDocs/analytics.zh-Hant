@@ -4,13 +4,13 @@ description: charSet 變數決定了 Adobe 用來剖析影像要求的編碼。
 feature: Variables
 exl-id: 2a2660c6-809d-4b33-a846-01e49dd99c7f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
 ht-degree: 100%
 
 ---
 
-# 字元集
+# charSet
 
 Adobe 會使用 charSet 變數將傳入的資料轉換為 UTF-8，以便供 Analytics 儲存和列入報表。大多數網站不需要設定此變數。
 
