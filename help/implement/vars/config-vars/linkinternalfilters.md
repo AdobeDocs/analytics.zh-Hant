@@ -4,13 +4,13 @@ description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤�
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
 ---
 
-# 連結內部篩選器
+# linkInternalFilters
 
 AppMeasurement 提供自動追蹤連結的功能，讓您追蹤指向網站外部的連結。如果啟用 [`trackExternalLinks`](trackexternallinks.md)，當訪客按一下連結離開您的網站時，系統會將影像要求立即傳送給 Adobe。[`linkExternalFilters`](linkexternalfilters.md) 和 `linkInternalFilters` 變數決定要將哪些連結視為內部/外部連結。
 
