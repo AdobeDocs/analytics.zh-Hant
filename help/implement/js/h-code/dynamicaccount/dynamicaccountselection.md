@@ -4,13 +4,13 @@ description: dynamicAccountSelection 變數能啟用或停用動態帳戶選擇�
 feature: Implementation Basics
 exl-id: ccb530f9-b128-4d2d-9b5d-9b305272f0a4
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '85'
 ht-degree: 100%
 
 ---
 
-# 動態帳戶選擇
+# dynamicAccountSelection
 
 >[!IMPORTANT]
 >
