@@ -4,7 +4,7 @@ description: 請按照下列步驟，確認您的實施作業沒有任何錯誤�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '514'
 ht-degree: 100%
 
