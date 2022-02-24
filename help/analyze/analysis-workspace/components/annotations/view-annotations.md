@@ -4,10 +4,10 @@ description: 如何在工作區中檢視附註。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 863b47ee84c1446ed20beb9661bf5435c264b12e
 workflow-type: tm+mt
 source-wordcount: '174'
-ht-degree: 78%
+ht-degree: 66%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 78%
 | 日期 | 外觀 |
 | --- | --- |
 | **一天** | ![](assets/single-day.png) |
-| **日期範圍** | 圖示會變更，而且當滑鼠游標停留在圖示上方時，日期範圍就會出現。<p>![](assets/multi-day.png)<p>在表格中，日期範圍內的每個日期都會出現圖示。<p>![](assets/multi-day-table.png)<p>請注意下列事項：日期若有一個以上關聯的附註，其圖示將是灰色。 |
+| **日期範圍** | 圖示會變更，而且當滑鼠游標停留在圖示上方時，日期範圍就會出現。<p>![](assets/multi-day.png)<p>在表格中，日期範圍內的每個日期都會出現圖示。<p>![](assets/multi-day-table.png)<p>請注意：在與多個批注關聯的日子中，表徵圖以灰色顯示。 |
 
 ## 在摘要圖表中檢視附註
 
