@@ -4,7 +4,7 @@ description: 決定目前檢視的網站配置。
 feature: Variables
 exl-id: 5b192d02-fc3c-4b82-acb4-42902202ab5f
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
