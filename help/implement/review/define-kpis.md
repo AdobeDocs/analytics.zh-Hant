@@ -4,7 +4,7 @@ description: 確保您的關鍵績效指標和相關指標和維度密切配合�
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '305'
 ht-degree: 100%
 
