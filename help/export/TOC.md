@@ -3,10 +3,10 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
-user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: 透過資料摘要每小時或每天接收原始資料轉存概況。以 Data Warehouse 擷取以試算表輸出的資料。了解如何使用 FTP 和 SFTP 在電腦和伺服器之間傳輸檔案。
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '303'
 ht-degree: 96%
 
 ---

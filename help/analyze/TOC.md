@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: 提供 Analytics 的首要分析和視覺化工具 Analysis Workspace 的做法說明，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類的工具。
-source-git-commit: 3cb991e7f440a72247b7261ad5959e15619e8a76
+user-guide-description: Analysis Workspace的How-to說明，分析的主要分析和可視化工具，以及Adobe Analytics儀表板、Report Builder和Activity Map等工具。
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 98%
+source-wordcount: '1034'
+ht-degree: 96%
 
 ---
 
@@ -92,8 +92,8 @@ ht-degree: 98%
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [媒體平均分鐘受眾面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [「媒體平均每分鐘觀眾數」面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [「媒體同時檢閱者」面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + 媒體播放時間 {#media-playback-timespent}
          + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)

@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 匯入指南
 breadcrumb-title: 匯入指南
-user-guide-description: '從外部來源大量或即時將資料讀入 Analytics。 '
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
+user-guide-description: '將資料從外部來源（批量或即時）引入Adobe Analytics。 '
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 92%
+source-wordcount: '141'
+ht-degree: 83%
 
 ---
 

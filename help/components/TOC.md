@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
-user-guide-description: 使用區段、計算量度、虛擬報表套裝和警示等元件，協助組織您的資料。
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
+user-guide-description: 使用段、計算度量、虛擬報告套件、警報、營銷渠道、分類等元件幫助管理資料，並瞭解跨設備分析。
+source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 99%
+source-wordcount: '674'
+ht-degree: 95%
 
 ---
 
