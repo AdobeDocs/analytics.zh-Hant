@@ -4,31 +4,29 @@ title: 臨時區段
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: f50e3d9a1d3c1705c55a14af0e42a0da3ac00955
+workflow-type: tm+mt
+source-wordcount: '323'
+ht-degree: 55%
 
 ---
 
 # 臨時專案區段
 
+即席項目段允許您直接將任何元件拖放到面板放置區中以建立段。 該段成為 [項目級段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?#what-are-project-only-segments%3F) 本地到當前項目。
+
 以下是有關建立臨時專案區段的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-如果您想在不前往「區段產生器」的情況下快速探索區段可能影響您的專案的方式，您可以建立臨時專案區段。將這些區段視為臨時的、專案級別的區段。這些區段通常不會像左側邊欄中的元件區段那樣成為您的區段「庫」的一部分。但是，您可以將其儲存，如下所示。
-
-若要比較臨時專案區段的功能和成熟的元件級別區段，請至[這裡](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
-
-1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖放至面板頂端的區段托放區。元件類型會自動轉換成區段。
+1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖放至面板頂端的區段托放區。元件類型會自動轉換為即席段或 [快速段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant) 。
 以下是如何為 Twitter 反向連結網域建立區段的範例：
 
    ![](assets/ad-hoc1.png)
 
    您的面板會自動套用此區段，而且您可以即刻看到結果。
 
-1. 您可以對面板新增不限數量的元件。
+1. 可以向面板添加無限數量的段。
 1. 如果您決定要儲存此區段，請參閱以下章節。
 
 請記住：
@@ -37,19 +35,15 @@ ht-degree: 100%
 * 為了取得完整的維度和事件，Analysis Workspace 會建立「存在」點擊區段。範例：`Hit where eVar1 exists` 或 `Hit where event1 exists`。
 * 如將「未指定」或「無」拖放至區段拖放區，就會自動轉換成「不存在」區段，以便系統可正確處理區段。
 
->[!NOTE]
->
->此為專案內部專用的區段建立方式。
+要比較可在項目中建立和應用的不同段，請轉到 [這裡](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
-## 儲存臨時專案區段 {#ad-hoc-save}
+## 保存即席段 {#ad-hoc-save}
 
-您可選擇完成以下步驟以儲存這些區段：
+通過保存特定段，可以將其提供給其他項目。
 
 1. 將滑鼠懸停在托放區中，並選取「i」圖示。
-1. 在顯示的資訊面板中，按一下「**[!UICONTROL 儲存]**」。
+1. 按一下編輯鉛筆可轉到段生成器。
+1. 檢查 **[!UICONTROL 使所有項目都可用並添加到元件清單]**。
+1. 按一下 **[!UICONTROL 保存]**。
 
-   ![](assets/segment-info.png)
-
-## 什麼是僅限專案的區段？
-
-僅限專案的區段指快速區段或臨時工作區專案區段。在區段產生器中編輯/開啟區段時，僅限專案方框就會顯示。如果在產生器中套用了快速區段但沒有勾選使其可用方框，那麼這仍然是一個僅限專案的區段，但卻無法再在 QS 產生器中開啟。如果勾選了上述方框並儲存，則現在是一個元件清單區段。
+保存後，該段可在左滑軌元件清單中使用，並可與「段管理器」(Segment Manager)中的其他用戶共用。
