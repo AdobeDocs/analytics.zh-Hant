@@ -4,10 +4,10 @@ title: 快速區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '798'
-ht-degree: 100%
+source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+workflow-type: tm+mt
+source-wordcount: '876'
+ht-degree: 77%
 
 ---
 
@@ -15,15 +15,11 @@ ht-degree: 100%
 
 您可以在專案中建立快速區段以迴避完整[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)的複雜性。快速區段
 
-* 僅套用至已建立的專案中 (您可加以變更)。
+* 應用為 [僅項目段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F)。
 * 最多允許 3 個規則。
 * 請勿容納巢狀容器或循序規則。
-* 請在包含多個報表套裝的專案中進行。
 
 若要比較快速區段的功能和成熟的元件清單區段，請至[這裡](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
-
->[!IMPORTANT]
-> 快速區段目前還在有限測試中，將在 2021 年 10 月 21 日時普遍可用。
 
 ## 先決條件
 
@@ -81,14 +77,16 @@ ht-degree: 100%
 1. (選擇性) 重新命名區段。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-請注意區段的側邊欄如何從藍色條紋變成藍色。它現在會顯示在左側欄的元件清單中。
+請注意區段的側邊欄如何從藍色條紋變成藍色。它現在也出現在左側滑軌元件清單中。
 
 ## 什麼是僅限專案的區段？
 
-僅限專案的區段指快速區段或臨時工作區專案區段。在[!UICONTROL 區段產生器]中編輯/開啟區段時，僅限專案方框會顯示。如果您在產生器中套用了快速區段但沒有勾選使其可用方框，則這仍然是一個僅限專案的區段，但卻無法再在[!UICONTROL 快速區段產生器]中開啟。
+僅項目段是僅適用於在中建立的當前項目的段。 它們在其他項目中不可用，無法與其他用戶共用。 它們旨在快速探索您的資料，而無需在左滑軌中建立和保存段。 可在面板放置區域中使用「快速段」或 [點對點段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en)。
+
+如果在中開啟僅項目段 [!UICONTROL 段生成器]，將顯示僅項目通知。 如果未選中「使此段可用」。 按一下 **[!UICONTROL 應用]**，該分部仍為僅項目分部。 注：如果應用段生成器中的快速段，則在 [!UICONTROL 快速段生成器]。
 
 ![取消勾選僅限專案](assets/project-only-unchecked.png)
 
-如果您勾選了方框並按一下&#x200B;**[!UICONTROL 儲存]**，則現在是一個元件清單區段。
+如果選中「使此段可用……」 按一下 **[!UICONTROL 保存]**，該段在左滑軌元件清單中可用，供其它項目使用。 也可以與段管理器中的其他用戶共用。
 
 ![勾選僅限專案](assets/project-only-checked.png)
