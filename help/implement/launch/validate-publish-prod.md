@@ -3,10 +3,10 @@ title: 驗證開發實作並發佈至生產環境
 description: 了解如何使用 Adobe Experience Platform 標記，將 Adobe Analytics 部署至您的生產環境中。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
+source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '630'
+ht-degree: 81%
 
 ---
 
@@ -14,27 +14,22 @@ ht-degree: 100%
 
 將您的標記庫推送至生產環境後，貴組織就可以開始使用 Adobe Analytics 來提取基本報表。
 
->[!NOTE]
->Adobe Experience Platform Launch 已經過品牌重塑，現在是 Experience Platform 中的一套資料收集技術。 因此，所有產品文件中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱以下[文件](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
-
 ## 先決條件
 
 [將 Analytics 實施部署至開發環境](deploy-dev.md)：必須將 Analytics 實施發佈至開發環境才能關注此頁面。
 
 ## 使用 Experience Cloud Debugger 驗證開發實施
 
-Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標記的 Chrome 外掛程式。
+Experience CloudExperience Cloud器是一個擴展，它顯示頁面上存在的所有標籤。
 
-1. 開啟 [Chrome 網頁瀏覽器](https://www.google.com/chrome/)，然後前往 Chrome 線上應用程式商店中的 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj) 以安裝此擴充功能。
+1. 安裝任意一個的擴展 [鉻](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [火狐](https://addons.mozilla.org/zh-TW/firefox/addon/adobe-experience-platform-dbg/)。
 2. 瀏覽至您已在上面實作標記的開發網站。
-3. 按一下 Chrome 右上角的 Adobe Experience Cloud Debugger 圖示
-4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、標記及 Adobe Experience Cloud Visitor ID 服務中看到內容：
-
-![除錯工具][assets/debugger.png]
+3. 按一下瀏覽器中的Adobe Experience Cloud調試器表徵圖。
+4. 如果所有內容都得到正確實施，您應該看到Adobe Analytics、標籤和Adobe Experience Cloud訪客ID服務內容。
 
 ## 將開發實施部署至測試/生產環境
 
-在驗證您可看到資料後，您可以將實施推送至網站的使用中版本。
+在驗證您正在查看資料後，您可以將實施推送到站點的即時版本。
 
 1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
@@ -45,7 +40,7 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 1. 再按一下資料庫的下拉式清單，然後選取「**[!UICONTROL 核准發佈]**」。
 1. 再次按一下資料庫的下拉式清單 (現位於[!UICONTROL 已核准]欄)，然後選取「**[!UICONTROL 建置並發佈至生產環境]**」。
 1. 前往「環境」索引標籤，然後按一下「**[!UICONTROL 生產環境]**」。
-1. 複製生產環境頁首與頁尾程式碼，然後將其提供給您的網站負責人。請網站負責人在您網站的生產環境上實作此程式碼。
+1. 複製生產安裝代碼，並將其提供給網站所有者。 請網站負責人在您網站的生產環境上實作此程式碼。
 
 ## 驗證生產環境實施
 
@@ -63,7 +58,7 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 * 主控台中沒有任何 JavaScript 錯誤。與您組織的網站負責人合作，確認所有 JS 錯誤皆已解決。
 * 已正確實施頁首程式碼：確認頁首程式碼位於 `<head>` 標記內，且該檔案確實存在。
 * AppMeasurement 資料庫確實存在：直接導覽至 JS 原始碼，確認 JS 檔案包含程式碼。若未包含，請確認皆已建立每個環境，並將資料庫發佈至其個別環境。
-* 干擾外掛程式：某些 Chrome 外掛程式可能會阻止影像要求引發。停用可能阻止將資料傳送至 Adobe 伺服器的任何外掛程式。
+* 干擾擴展：某些擴展（如廣告攔截器）可以防止觸發影像請求。 禁用任何可能阻止資料發送到Adobe的擴展。
 
 ## 後續步驟
 

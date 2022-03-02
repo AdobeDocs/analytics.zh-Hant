@@ -3,9 +3,9 @@ title: 將資料層物件對應至資料元素
 description: 設定標記以從資料層讀取。
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '357'
+source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+workflow-type: tm+mt
+source-wordcount: '305'
 ht-degree: 100%
 
 ---
@@ -13,9 +13,6 @@ ht-degree: 100%
 # 將資料層物件對應至資料元素
 
 當貴組織在網站上建立並實作資料層後，您就可以將資料層物件對應至標記中的資料元素。
-
->[!NOTE]
->Adobe Experience Platform Launch 已經過品牌重塑，現在是 Experience Platform 中的一套資料收集技術。 因此，所有產品文件中出現了幾項術語變更。 如需術語變更的彙整參考資料，請參閱以下[文件](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en)。
 
 ## 先決條件
 
