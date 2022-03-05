@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
+source-git-commit: 7e73f66d4a2253dbcce6c5af4a9bb267dc5c34f5
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 61%
+source-wordcount: '612'
+ht-degree: 62%
 
 ---
 
@@ -41,5 +41,7 @@ ht-degree: 61%
    | [!UICONTROL 範圍] | (選用) 拖放會觸發註解的量度。然後拖放作為篩選器的維度或區段 (即註解將藉以顯示)。如果您不指定範圍，附註將套用至您所有的資料。<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發附註顯示的量度。</li><li>**[!UICONTROL 包含這所有的篩選器]**：最多拖放 10 個做為附註顯示時機之篩選器的維度或區段。</li></ul><p>使用案例：eVar 阻止了收集特定日期範圍的資料。將 eVar 拖曳至「**[!UICONTROL 出現這些量度的任一項]**」對話框中。不然您的[!UICONTROL 造訪]量度不會報告任何資料 - 遵循相同程序。<p>**注：** 應用於元件（隨後用作計算度量或段定義的一部分）的任何注釋不會自動繼承注釋。 還必須將所需計算的度量添加到範圍部分以顯示注釋。 但是，應為要使用相同資訊進行注釋的任何段建立新注釋。<p>示例：將注釋應用於 [!UICONTROL 訂單] 某天。 然後使用 [!UICONTROL 訂單] 計算的度量。 新的計算度量不會自動顯示訂單的注釋；還必須將計算的度量添加到要顯示注釋的範圍部分。 |
    | [!UICONTROL 套用於所有報表套裝] | 預設情況下，註解會套用在原始的報表套裝。若勾選此方框，您即可將註解套用在公司的所有報表套裝。 |
    | [!UICONTROL 套用於所有專案] | 預設情況下，註解會套用在目前的專案。若勾選此方框，您即可將附註套用在您擁有的所有專案。請注意，啟動 Annotation Builder 時，這個核取方塊才會出現。 |
+
+   {style=&quot;table-layout:auto&quot;}
 
 1. 按一下「**[!UICONTROL 儲存]**」。
