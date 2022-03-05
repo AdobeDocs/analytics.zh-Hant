@@ -2,21 +2,22 @@
 description: 說明此登陸頁面如何在工作區傘狀結構下的單一介面和存取點中，整合 Analysis Workspace 和 Reports & Analytics。
 title: Adobe Analytics 登陸頁面
 role: User, Admin
+feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 6a5637aaf51d84463633e71fb781c03dba2ad277
+source-git-commit: ec11508218082b62fffa7541662a1e12ae5245d9
 workflow-type: tm+mt
-source-wordcount: '3599'
-ht-degree: 88%
+source-wordcount: '3582'
+ht-degree: 84%
 
 ---
 
 # Adobe Analytics 登陸頁面
 
-Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和存取點中，整合 Analysis Workspace 和 Reports &amp; Analytics。 此頁面包含專案經理首頁、更新的報告選單、現代化報告，以及可幫助您更有效地開始體驗的學習區段。
+Adobe Analytics的登錄頁將兩者 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 在單個介面和接入點下 [!DNL Workspace] 傘。 此頁面包含專案經理首頁、更新的報告選單、現代化報告，以及可幫助您更有效地開始體驗的學習區段。
 
 >[!IMPORTANT]
 >
->此登陸頁面將會從 2021 年 7 月 21 日開始提供開放 Beta 版。 這是起始點選項。您也可以選擇使用原有的登陸頁面，無論是 Workspace 或 Reports 都可以。如果您確實決定選擇加入 Beta 版計劃，請瀏覽頁面並在螢幕上方按一下「**[!UICONTROL 提供回饋意見]**」，即可記錄您的回饋意見以及您發現的錯誤。您可以隨時選擇退出並返回 Beta 計劃。在 Beta 版使用者介面中完成的任何工作都會延續進入現有/目前的 Workspace 體驗中。
+>此登錄頁當前處於Open Beta中。 這是起始點選項。如果您願意，可以使用現有登錄頁，無論 [!UICONTROL 工作區] 或 [!UICONTROL 報告]。 如果您確實決定選擇加入 Beta 版計劃，請瀏覽頁面並在螢幕上方按一下「**[!UICONTROL 提供回饋意見]**」，即可記錄您的回饋意見以及您發現的錯誤。您可以隨時選擇退出並返回 Beta 計劃。在Beta用戶介面中完成的任何工作都會轉移到現有/當前 [!UICONTROL 工作區] 體驗。
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
@@ -28,14 +29,14 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
 
 | 功能 | 說明 | 螢幕截圖 |
 | --- | --- | --- |
-| 展開 [!UICONTROL 項目] 全屏 | 要展開表格的房地產，只需按一下漢堡菜單表徵圖。 此操作將折疊左滑軌標籤。 | ![展開表](assets/landing-collapse.png) |
+| 展開 [!UICONTROL 項目] 全屏 | 要展開表格，只需按一下漢堡菜單表徵圖。 此操作將折疊左滑軌標籤。 | ![展開表](assets/landing-collapse.png) |
 | 自定義列寬 | 以前，列寬是固定的。 現在，您可以通過拖動列分隔符來調整它。 |  |
-| 重新排序固定項 | 要上下移動固定項，請按一下固定項旁邊的省略號，然後選擇[!UICONTROL  上移] 或 [!UICONTROL 下移]。 | ![移動固定項](assets/move-up-down.png) |
+| 重新排序固定項 | To move pinned items up and down, click the ellipsis next to the pinned item and select **[!UICONTROL Move up]** or **[!UICONTROL Move down]**. | ![移動固定項](assets/move-up-down.png) |
 | 新建表列 | 按一下 [!UICONTROL 自定義表] 表徵圖。 新表列包括： <ul><li>**[!UICONTROL 計畫]**:設定為 [!UICONTROL 開] 計畫項目時或 [!UICONTROL 關閉] 不是的。 按一下 [!UICONTROL 開] 連結用於查看有關計畫項目的資訊。 您也可以 [編輯項目計畫](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) 的雙曲餘切值。</li><li>**[!UICONTROL 項目ID]**:項目ID可用於調試項目。</li><li>**[!UICONTROL 最長日期範圍]**:更長的日期範圍會增加項目複雜性，並可能增加處理和載入時間。 </li><li>**[!UICONTROL 查詢數]**:項目查詢數量的增加增加了項目複雜性，並可能增加處理和載入時間。</li></ul> | ![新建列](assets/new-columns.png) |
 | 按一下開啟報表 | 以前，你必須按兩下。 |  |
-| 指向報告和分析報告的新連結 | <ul><li>報告>受眾> Bot</li><li>報表>受眾>自動頁<li>報告>項目>即時</li></ul> | ![新建連結](assets/report-links.png) |
-| 新的現成報告 | <ul><li>「報告」>「最常用」>「下一頁」</li><li>「報表」>「最常用」>「上一頁」</li><li>報表>項目>頁面分析>頁面摘要</li></ul>請注意，這些報告採用Workspace格式，需要配置和生成。 輸出由高級度量，趨勢資料， [!UICONTROL 流] 可視化等。 您還可以修改這些報告並更改維、維項等。 這些報告也可作為「工作區」(Workspace)面板下的面板使用。 | ![下一頁](assets/next-page.png) |
-| [!UICONTROL 新建] 模式返回 | 按一下 [!UICONTROL 新建] 在工作區中，您再次可以選擇「空白」項目和「空白」移動記分卡。 您還可以從公司建立的任何模板中進行選擇。 | ![新建](assets/create-new.png) |
+| 新建指向 **[!UICONTROL 報告和分析]** 報告 | <ul><li>**[!UICONTROL 報告]** > **[!UICONTROL 觀眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 觀眾]** > **[!UICONTROL Bot頁]**<li>**[!UICONTROL 報告]** > **[!UICONTROL 參與]** > **[!UICONTROL 即時]**</li></ul> | ![New links](assets/report-links.png) |
+| 新的現成報告 | <ul><li>**[!UICONTROL 報告]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報告]** > **[!UICONTROL 參與]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>請注意，這些報表位於 [!UICONTROL 工作區] 格式並要求配置和生成。 輸出由高級度量，趨勢資料， [!UICONTROL 流] 可視化等。 You can modify these reports and change dimensions, dimension items, etc. 這些報告也可作為「工作區」(Workspace)面板下的面板使用。 | ![下一頁](assets/next-page.png) |
+| **[!UICONTROL 新建]** 模式返回 | 按一下 **[!UICONTROL 新建]** 在工作區中，您再次可以在 [!UICONTROL 空白項目] 和 [!UICONTROL 空白移動記分卡]。 您還可以從公司建立的任何模板中進行選擇。 | ![新建](assets/create-new.png) |
 | CJA中也提供 | CJA中也將提供此登錄頁，格式為已修改。 |  |
 
 {style=&quot;table-layout:auto&quot;}
@@ -72,27 +73,27 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
 | UI 元素 | 定義 |
 | --- | --- |
 | ... 更多 | 讓您[!UICONTROL 檢視教學課程]和[編輯使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。 |
-| 建立專案 | 下拉式功能表可讓您建立 [!UICONTROL Workspace 專案]或[!UICONTROL 行動專案]。 |
-| 顯示較少/較多 | 在不顯示和顯示橫幅之間切換：![最上方橫幅](assets/top-banner.png) |
-| 空白專案 | 建立空白的 [Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)供您填入。 |
-| 空白行動計分卡 | 建立空白的[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)供您填入。 |
-| 開啟培訓教學課程 | 開啟 Workspace 培訓教學課程，可指導新使用者按步驟來建立專案。 |
-| 開啟發行說明 | 開啟最新 Adobe Experience Cloud 發行說明的 Adobe Analytics 部分。 |
+| [!UICONTROL 建立專案] | 下拉式功能表可讓您建立 [!UICONTROL Workspace 專案]或[!UICONTROL 行動專案]。 |
+| [!UICONTROL 顯示較少/較多] | 在不顯示和顯示標題之間切換： ![頂條](assets/top-banner.png) |
+| [!UICONTROL 空白專案] | 建立空白的 [Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)供您填入。 |
+| [!UICONTROL 空白行動計分卡] | 建立空白的[行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)供您填入。 |
+| [!UICONTROL 開啟培訓教學課程] | 開啟 Workspace 培訓教學課程，可指導新使用者按步驟來建立專案。 |
+| [!UICONTROL 開啟發行說明] | 開啟最新 Adobe Experience Cloud 發行說明的 Adobe Analytics 部分。 |
 | 篩選器圖示 | 您可按標記、報表套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
 | 搜尋列 | 現在的搜尋包含表中的所有欄項。 |
 | 選取方塊 | 按一下一個或多個專案旁邊的這個方塊，會顯示您可以執行的專案管理操作：刪除、標記、釘選、核准、共用、重新命名、複製和匯出至 CSV。您可能沒有執行所有這些操作的權限。 |
-| 我的最愛 | 將專案設為「我的最愛」會讓專案取得一顆星，且會將其標記為您可篩選的「我的最愛」。 |
-| 名稱 | 專案名稱。 |
+| [!UICONTROL 我的最愛] | 將專案設為「我的最愛」會讓專案取得一顆星，且會將其標記為您可篩選的「我的最愛」。 |
+| [!UICONTROL 名稱] | 專案名稱。 |
 | 釘選圖示 | 您可以釘選項目，好讓這些項目&#x200B;*始終*&#x200B;都顯示在您清單的最上方。 |
 | 資訊 (i) 圖示 | 按一下資訊圖示會顯示以下有關此專案的資訊：類型、專案角色、所有者、說明，以及供分享的對象。此資訊也會指明誰可以[編輯或重複](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)此專案。 |
 | 省略 (...) | 按一下專案旁邊的省略符號，會顯示您可以執行的專案管理操作：刪除、標記、釘選、核准、共用、重新命名、複製和匯出至 CSV。注意，您可能沒有執行所有這些操作的權限。 |
-| 類型 | 指示此類型是 Workspace 專案還是行動計分卡。  |
-| 標記 | 您可以標記報表，可方便分類整理。 |
-| 專案角色 | 專案角色是指您是專案所有者，以及您是否具有編輯或複製專案的權限。 |
-| 報表套裝 | 面板內的表格和視覺效果是從面板右上角所選報表套裝衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報表套裝，多寡視您的分析使用情形而定。報表套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
-| 所有者 | 建立專案的人。 |
-| 上次開啟時間 | 您上次開啟此專案的時間。 |
-| 「自定義表」表徵圖 | （右上）如果要從項目清單中添加或刪除列，可通過選擇或取消選擇它們來執行此操作。 |
+| [!UICONTROL 類型] | 指示此類型是 Workspace 專案還是行動計分卡。  |
+| [!UICONTROL 標記] | 您可以標記報表，可方便分類整理。 |
+| [!UICONTROL 專案角色] | 專案角色是指您是專案所有者，以及您是否具有編輯或複製專案的權限。 |
+| [!UICONTROL 報表套裝] | 面板內的表格和視覺效果是從面板右上角所選報表套裝衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報表套裝，多寡視您的分析使用情形而定。報表套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
+| [!UICONTROL 所有者] | 建立專案的人。 |
+| [!UICONTROL 上次開啟時間] | 您上次開啟此專案的時間。 |
+| 「自定義表」表徵圖 | (Top right) If you want to add or remove columns from the list of projects, you can do so by selecting or deselecting them. |
 | &lt; (返回按鈕) | Workspace 專案或報表中的這個按鈕將帶您回到最近登陸頁面的設定。無論您離開登陸頁面時在哪個頁面設定，當您返回時將會持續留在該頁面。 |
 
 ## 瀏覽至「[!UICONTROL 報表]」標記。 {#navigate-reports}
@@ -203,10 +204,10 @@ Adobe Analytics 的登陸頁面將在工作區傘狀結構下的單一介面和�
 
 | 問題 | 回答 |
 | --- | --- |
-| 我以前在 Workspace 看到的範本在哪裡了？ | 這些範本分類列在「[!UICONTROL 報表]」標記下。 |
+| 我習慣看到的模板在哪裡 [!UICONTROL 工作區]? | 這些範本分類列在「[!UICONTROL 報表]」標記下。 |
 | 我是否可以選擇退出 Beta 版計劃？ | 您可以隨時選擇退出 Beta 版計劃。 |
-| 我在 Beta 版計劃 UI 中進行的工作是否會移轉至生產 Workspace 體驗中？ | 是，在 Beta 版中完成的任何工作都會移轉至舊有/現有的 Workspace 體驗中。 |
-| 我現有的 Reports &amp; Analytics「我的最愛」是否可移轉過來？ | 否，這些不會移轉過來。但是，Workspace 中任何「我的最愛」會移轉過來。 |
+| 我在測試程式UI中所做的工作是否轉到生產 [!UICONTROL 工作區] 經驗？ | 是的，在測試版中完成的任何工作都會轉移到舊/當前 [!UICONTROL 工作區] 體驗。 |
+| 是我的當前 [!DNL Reports & Analytics] 收藏的？ | 否，這些不會移轉過來。但是， [!UICONTROL 工作區] 項目收藏夾將被轉移。 |
 | 我可釘選的專案數量是否有上限？ | 沒有，您可以釘選的專案數量沒有限制。 |
-| 管理員是否可以為他們的使用者指定此登陸頁面？ | 否，管理員不可以代表他們的使用者指定此登陸頁面。 個人使用者必須自己開啟切換功能。 |
-| Reports &amp; Analytics 已有的全部報告是否仍然可用？ | 否，以下報告已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報表</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點擊 ype VISTA 規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |
+| 管理員能否為其用戶指定此登錄頁？ | 否，管理員不能代表用戶指定登錄頁。 個人使用者必須自己開啟切換功能。 |
+| Are all reports that currently exist in [!DNL Reports & Analytics] still available? | 否，以下報告已根據整體使用資料逐步淘汰： <ul><li>任何使用者 eVars/props/events/classifications<li>我的建議報表</li><li>每小時/每日/每週/每月/每季/每年不重複訪客</li><li>每日每週/每月/每季/每年不重複訪客</li><li>操作名稱深度</li><li>操作名稱摘要</li><li>新增儀表板</li><li>年齡</li><li>音訊支援</li><li>帳單資訊</li><li>頁面點按次數</li><li>色彩深度</li><li>Cookie 支援</li><li>Cookie</li><li>連線類型</li><li>創作元素</li><li>信用卡類型</li><li>交叉銷售</li><li>自訂事件漏斗</li><li>自訂連結</li><li>Customer ID</li><li>週中的日</li><li>登入操作名稱</li><li>退出操作名稱</li><li>退出連結</li><li>流失</li><li>下載檔案</li><li>在商店中尋找</li><li>完整路徑</li><li>性別</li><li>點擊 ype VISTA 規則</li><li>影像支援</li><li>Java</li><li>JavaScript</li><li>JavaScript 版本</li><li>管理書籤</li><li>管理儀表板</li><li>監控色彩深度</li><li>監控解決方案</li><li>電子報註冊</li><li>下一步操作名稱</li><li>下一步操作名稱流程</li><li>Null 搜尋</li><li>作業系統</li><li>訂購檢閱</li><li>一天頁面</li><li>找不到頁面</li><li>Pathfinder</li><li>路徑長度</li><li>上一步操作名稱</li><li>上一步操作名稱流程</li><li>產品活動</li><li>產品費用</li><li>產品部門</li><li>產品詳細目錄類別</li><li>產品名稱</li><li>產品評論</li><li>產品季節</li><li>產品分享</li><li>產品縮放</li><li>重新載入</li><li>搜尋</li><li>伺服器</li><li>單頁造訪次數</li><li>運送資訊</li><li>網站階層</li><li>社交提及次數</li><li>每日時間</li><li>在操作名稱上逗留的時間</li><li>影片支援</li><li>訪客狀態</li></ul> |
