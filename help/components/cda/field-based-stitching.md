@@ -2,16 +2,16 @@
 title: 欄位式拚接
 description: 了解使用欄位式拚接方式來結合資料的先決條件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 5cd38f698370d31aaf954e24cdee4cea3ecd171c
-workflow-type: ht
+source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
+workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 欄位式拚接
 
-跨裝置分析提供將資料拚接在一起的兩種不同方法。此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。使用該變數作為將裝置連結在一起的基礎。Adobe 建議使用此拚接選項，以提高訪客追踪的透明度和可預測性。
+跨裝置分析提供將資料拚接在一起的兩種不同方法。此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。使用該變數作為將裝置連結在一起的基礎。Adobe建議採用這種縫合選項，以提高訪問者跟蹤的透明度和可預測性。
 
 ## 依欄位拚接的專屬先決條件
 

@@ -2,10 +2,10 @@
 title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: 13428ba0d149482a099fbdaa74890b59dd0891eb
-workflow-type: ht
-source-wordcount: '808'
-ht-degree: 100%
+source-git-commit: b5fe55f69d30d87cc394d731d2ae696152faa535
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 91%
 
 ---
 
@@ -49,9 +49,10 @@ ht-degree: 100%
 * CDA 只能透過 Analysis Workspace 使用。
 * 跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
 * Adobe Analytics 報表套裝無法對應至多個 IMS 組織。由於 CDA 會連結一個指定報表套裝中的裝置，因此 CDA 無法用於連結跨多個 IMS 組織的資料。
+* CDA使用包含多個從屬元件的複雜處理管線。 此操作與基本分析報告工作流並行運行。 因此，預期原始報告套件和CDA虛擬報告套件之間的命中總數會出現大約1%的資料不匹配。
+* 跨設備分析使用虛擬報告套件和報告時間處理，這些功能有其自身的限制，例如當前不支援市場營銷渠道變數。 如需這些限制的詳細資訊，請參閱[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)和[報表時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=en#report-time-processing-limitations)。
 * 專用圖表是使用與[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#customer-attributes)功能在 Experience Cloud 和 Adobe Analytics 中所用的相同 ID 同步作業。不過，CDA 虛擬報表套裝 (不論是根據專用圖表或欄位式連結) 與其餘的「客戶屬性」功能不相容。 也就是說，以客戶屬性為主的維度不適合在 CDA 虛擬報表套裝中使用。
 * CDA 目前與 A4T 不相容。
-* 跨裝置分析使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](../vrs/vrs-about.md)和[報表時間處理](../vrs/vrs-report-time-processing.md)。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * Adobe 的主動監控 CDA 拚接程序僅限於生產報表套裝。
 * CDA 目前與 Adobe Analytics [資料修復 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/data-repair.md) 不相容。
