@@ -3,10 +3,10 @@ description: 了解有關用戶同意在裝置或瀏覽器上儲存或讀取非�
 title: CNIL 關於用戶同意和 Cookie 的準則是什麼？
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '694'
-ht-degree: 100%
+source-git-commit: 99bbc9d6cc4d50c39b7f689a9bd84ee95a008691
+workflow-type: tm+mt
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -31,6 +31,7 @@ ht-degree: 100%
 
 適用於以下其他注意事項：
 
+* Adobe Analytics在美國、英國和新加坡運營資料處理中心，以便為所有客戶提供在區域範圍內收集、處理和儲存其資料的靈活性。 配置Adobe Analytics的初始設定時，客戶選擇其所需的資料處理中心位置。 客戶的資料最終儲存在其選定區域內，用於核心分析產品。
 * 請考慮收集 Analytics 變數中的選擇加入狀態，以便針對分段、虛擬報告套裝或路由傳送到個別端點來區分選擇加入的資料與選擇退出的資料。
 * 未經事先同意，不得在網站或應用程式外部進行任何測量，例如，不進行場外活動、電子郵件活動或 iFrame。
 * 未經同意，不允許收集變數中的個人資訊。[根據使用者同意控制 Experience Cloud 活動](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=zh-Hant%22%20\l%20%22implementation#implementation)
