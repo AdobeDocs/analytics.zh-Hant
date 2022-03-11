@@ -3,16 +3,16 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
-user-guide-description: Analysis Workspace的How-to說明，分析的主要分析和可視化工具，以及Adobe Analytics儀表板、Report Builder和Activity Map等工具。
-source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
+user-guide-description: Analytics 的首要分析和視覺化工具 Analysis Workspace，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類工具的做法說明。
+source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 96%
+source-wordcount: '1039'
+ht-degree: 99%
 
 ---
 
 
-# Adobe Analytics工具指南 {#analyze}
+# Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -133,7 +133,7 @@ ht-degree: 96%
       + 智慧型警報 {#intelligent-alerts}
          + [智慧型警報總覽](analysis-workspace/c-intelligent-alerts/intellligent-alerts.md)
          + [警報產生器](analysis-workspace/c-intelligent-alerts/alert-builder.md)
-         + [警報管理器](analysis-workspace/c-intelligent-alerts/alert-manager.md)
+         + [警報管理員](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
    + 「工作區」常見問答 {#workspace-faq}
@@ -157,8 +157,8 @@ ht-degree: 96%
       + [資料請求 - 請求精靈步驟 1](report-builder/data-requests/data-requests.md)
       + [建立資料請求](report-builder/data-requests/t-create-a-data-request.md)
       + 報表套裝 {#report-suites}
-         + [選擇報表套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
-         + [選擇報表套裝來自 Excel 中的現有請求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
+         + [選取報表套裝](report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)
+         + [選取報表套裝來自 Excel 中的現有請求](report-builder/data-requests/selecting-report-suites/t-select-a-report-suite-from-an-existing-request-in-excel.md)
          + [使用 Excel 來找出報表套裝 ID](report-builder/data-requests/selecting-report-suites/use-excel-to-locate-a-report-suite-id.md)
       + [管理區段](report-builder/data-requests/segmentation.md)
       + [允許發佈清單覆蓋](report-builder/data-requests/allow-publishing-list-overrides.md)
@@ -169,7 +169,7 @@ ht-degree: 96%
          + [使用請求精靈篩選流失報表](report-builder/data-requests/c-report-types/fallout-filter.md)
          + [新增相依請求以篩選路徑報表](report-builder/data-requests/c-report-types/create-toppath-filter.md)
          + [選擇報表類型](report-builder/data-requests/c-report-types/t-select-report-type.md)
-      + [匯入書籤化報表與控制面板小報告](report-builder/data-requests/import-bookmarked.md)
+      + [匯入書籤化報表與儀表板小報告](report-builder/data-requests/import-bookmarked.md)
       + 日期範圍 {#date-ranges}
          + [請求精靈定義 - 預設日期](report-builder/data-requests/configuring-report-dates/r-arb-preset-dates.md)
          + [固定日期和儲存的日期範圍](report-builder/data-requests/configuring-report-dates/t-fixed-dates-and-saved-date-ranges.md)
@@ -207,7 +207,7 @@ ht-degree: 96%
       + [為請求命名](report-builder/layout/name-a-request.md)
       + [在儲存格的開頭或結尾附加文字](report-builder/layout/prepend-and-postpend-text-to-cells.md)
       + [設定自訂版面](report-builder/layout/configure-the-custom-layout.md)
-      + [將量度和維度映射至儲存格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+      + [將量度和維度對應至儲存格](report-builder/layout/map-metrics-and-dimensions-to-cells.md)
       + [建立 Microchart](report-builder/layout/t-create-a-microchart.md)
       + 篩選維度 {#filter-dimenson}
          + [篩選維度總覽](report-builder/layout/c-filter-dimensions/filter-dimensions.md)
@@ -298,6 +298,7 @@ ht-degree: 96%
       + [iOS 適用的 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [報表顯示設定和導覽](reports-analytics/report-settings.md)
    + [報表排程和分發](reports-analytics/scheduling.md)
+   + [計畫報告的終止通知](reports-analytics/scheduled-reports-eol.md)
    + [報表類型](reports-analytics/reports.md)
    + [執行不同的報表類型](reports-analytics/t-running-report-types.md)
    + 自訂報表 {#customize-reports}
@@ -307,10 +308,10 @@ ht-degree: 96%
       + [子關聯](reports-analytics/reports-customize/subrelations.md)
       + [篩選報表資料](reports-analytics/reports-customize/t-reports-filter-options.md)
    + [Analytics 分段](reports-analytics/segmentation.md)
-   + [書籤管理器](reports-analytics/bookmarks.md)
+   + [書籤管理員](reports-analytics/bookmarks.md)
    + [目前的資料](reports-analytics/current-data.md)
-   + [控制面板和小報告](reports-analytics/dashboard.md)
-   + [控制面板管理員](reports-analytics/dashboard-manage.md)
+   + [儀表板和小報告](reports-analytics/dashboard.md)
+   + [儀表板管理員](reports-analytics/dashboard-manage.md)
    + [資料擷取](reports-analytics/data-extract.md)
    + [漏斗報告](reports-analytics/funnels.md)
    + [量度](reports-analytics/metrics.md)
@@ -323,7 +324,7 @@ ht-degree: 96%
    + [Adobe Analytics 儀表板 - 總覽](mobile-app/home.md)
    + [組織者介紹](mobile-app/curator.md)
    + [建立行動計分卡](mobile-app/create-scorecard.md)
-   + [設定使用控制面板的主管](mobile-app/set-up-execs.md)
+   + [設定使用儀表板的主管](mobile-app/set-up-execs.md)
    + [主管使用者快速入門指南](mobile-app/executive.md)
 + [報告 API](reporting-api.md)
 + [Labs](labs.md)
