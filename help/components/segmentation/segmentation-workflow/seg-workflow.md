@@ -4,7 +4,7 @@ title: 區段工作流程概觀
 feature: Segmentation
 exl-id: 2ed6e327-d69d-4cdb-9b87-99ebebc37e2c
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
 ht-degree: 100%
 
@@ -51,8 +51,8 @@ ht-degree: 100%
 
 ![](assets/step8_icon.png) [ 將區段標示為我的最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
 
-要組織區段以方便使用，將區段標記為我的最愛是另一種方法。
+將區段標示為我的最愛是組織區段以方便使用的另一種方法。
 
 [管理區段](/help/components/segmentation/segmentation-workflow/seg-manage.md)
 
-「區段管理器」提供許多管理區段的方式，例如共用、篩選、核准、複製、刪除和標示為我的最愛。
+「區段管理員」提供許多管理區段的方式，例如共用、篩選、標記、核准、複製、刪除和標示為我的最愛。
