@@ -5,7 +5,7 @@ title: 處理規則的運作方式
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>規則套用至單一報告套裝。 </p> </td> 
+   <td colname="col1"> <p>規則套用至單一報表套裝。 </p> </td> 
    <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md"> 複製處理規則至其他報表套裝 </a> </p> </td> 
   </tr> 
   <tr> 
@@ -42,8 +42,8 @@ ht-degree: 100%
    <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定<a href="/help/admin/admin/realtime/t-realtime-admin.md">即時報表</a>，方便您快速查看處理規則的結果。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>處理規則是存取上下文資料變數的唯一方法。 </p> </td> 
-   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> </td> 
+   <td colname="col1"> <p>處理規則是存取內容資料變數的唯一方法。 </p> </td> 
+   <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製內容資料變數至 eVar</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則的套用時機早於 VISTA 規則和行銷渠道規則。 </p> </td> 
@@ -63,27 +63,27 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>如果是執行 JavaScript AppMeasurement H.25.2 或更早的版本，無法讀取超過 URL 前 255 個字元的查詢字串參數。JavaScript AppMeasurement H.25.3 和更新版本提供完整的 URL，包含處理規則的所有查詢字串參數。 </p> </td> 
-   <td colname="col2"> <p>升級到 H.25.3 或更新的版本，或者從長 URL 用戶端讀取查詢字串參數，並將它的值儲存在上下文資料變數裡。 </p> </td> 
+   <td colname="col2"> <p>升級到 H.25.3 或更新的版本，或者從長 URL 用戶端讀取查詢字串參數，並將它的值儲存在內容資料變數裡。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查詢字串值必須編碼為 Unicode 或 UTF-8，處理規則才能讀取。 </p> </td> 
    <td colname="col2"> <p>這可能會影響使用查詢字串傳遞的多位元組字元。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>每個報告套裝最多只能使用 150 個規則，每個含 30 個條件。 </p> </td> 
-   <td colname="col2"> <p>處理規則限制是依報告套裝而定，而非依公司而定。 </p> </td> 
+   <td colname="col1"> <p>每個報表套裝最多只能使用 150 個規則，每個含 30 個條件。 </p> </td> 
+   <td colname="col2"> <p>處理規則限制是依報表套裝而定，而非依公司而定。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>必須先設定處理規則來擷取上下文資料變數，之後才能傳送資料。 </p> </td> 
-   <td colname="col2"> <p>當傳送伺服器呼叫時，就會套用處理規則。若未使用處理規則複製上下文資料變數中儲存的值，這些值就會被捨棄。 </p> </td> 
+   <td colname="col1"> <p>必須先設定處理規則來擷取內容資料變數，之後才能傳送資料。 </p> </td> 
+   <td colname="col2"> <p>當傳送伺服器呼叫時，就會套用處理規則。若未使用處理規則複製內容資料變數中儲存的值，這些值就會被捨棄。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>UI 中的值比較不區分大小寫。 </p> </td> 
    <td colname="col2"> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md"> 清除報表中的值 </a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>上下文資料變數名稱只能包含英數字元、底線和點。其他任何字元都會刪除。 </p> </td> 
-   <td colname="col2"> <p>例如，上下文資料變數 <code> login_page-home</code> 會自動變成 <code> login_pagehome</code>。所有傳送至 <code> login_page-home</code> 變數的資料，都會分配到 <code> login_pagehome</code> 下。 </p> <p>包含不支援之字元的上下文資料變數無法在「處理規則」介面中新增。 </p> </td> 
+   <td colname="col1"> <p>內容資料變數名稱只能包含英數字元、底線和點。其他任何字元都會刪除。 </p> </td> 
+   <td colname="col2"> <p>例如，內容資料變數 <code> login_page-home</code> 會自動變成 <code> login_pagehome</code>。所有傳送至 <code> login_page-home</code> 變數的資料，都會分配到 <code> login_pagehome</code> 下。 </p> <p>包含不支援之字元的內容資料變數無法在「處理規則」介面中新增。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>脫字符號 (^) 是處理規則系統中的特殊字元。 </p> </td> 
