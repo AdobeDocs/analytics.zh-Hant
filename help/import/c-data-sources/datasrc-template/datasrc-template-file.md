@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d3122582-d392-4bd9-af2a-fb3d1292ba66
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '247'
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 * [轉換](/help/import/c-data-sources/c-datasrc-types/datasrc-conversion.md)
 * [交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)
 * [訪客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md)
-* [完全處理](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
+* [完整處理](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md)
 
 例如，針對訪客 ID 資料類型，可以替列在[訪客 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-visitorid.md) 中的任何量度或維度新增欄。
 
