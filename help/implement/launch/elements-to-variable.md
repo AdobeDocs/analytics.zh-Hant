@@ -4,7 +4,7 @@ description: 將資料元素指派給 Analytics 變數，好讓您可以在 Anal
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '440'
 ht-degree: 100%
 
