@@ -4,9 +4,9 @@ title: 管理流量
 feature: Traffic Management
 exl-id: 7a7a36f2-3241-47f5-9c0f-0d62e51104e1
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '91'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,6 +16,6 @@ ht-degree: 86%
 
 若要存取[!UICONTROL 流量管理]：
 
-1. 按一下 **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套件]**，然後選擇報表套件。
+1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**，然後選取報表套裝。
 
-1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 流量管理]** > *`<selection>`*」。
+1. 按一下&#x200B;**[!UICONTROL 編輯設定]** > **[!UICONTROL 流量管理]** > *`<selection>`*。
