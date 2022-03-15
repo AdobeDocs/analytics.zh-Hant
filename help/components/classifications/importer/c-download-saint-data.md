@@ -4,7 +4,7 @@ title: 分類範本
 feature: Classifications
 exl-id: e299509a-0c4f-4ba8-9e91-96356c386054
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 (可選) 將分類匯入行銷報告之前，可以下載能幫助您建立分類資料檔案的範本。該資料檔案會使用您所需的分類當做欄標題，然後將報告資料集組織在適當的分類標題下。
 
-**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**.
+**[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
 
 | 元素 | 說明 |
 | --- | ---|
