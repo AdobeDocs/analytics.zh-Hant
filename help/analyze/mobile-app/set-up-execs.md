@@ -1,13 +1,13 @@
 ---
-description: 執行用戶可能需要一些額外的幫助才能訪問和使用該應用。 本節提供相關資訊，幫助您提供這類協助。
+description: 高階主管使用者可能需要額外的協助，才能存取及使用應用程式。 本節提供相關資訊，幫助您提供這類協助。
 title: 透過應用程式設定主管使用者
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '749'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
