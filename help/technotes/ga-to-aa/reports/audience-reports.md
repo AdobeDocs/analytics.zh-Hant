@@ -4,9 +4,9 @@ description: 瞭解如何使用 Analysis Workspace 建立對象型報表。
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1715'
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在「元件」功能表中，找出&#x200B;**國家**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-查看 [國家](/help/components/dimensions/countries.md) 「元件」使用手冊中的「維」。
+如需詳細資訊，請參閱「元件」使用手冊中的[國家/地區](/help/components/dimensions/countries.md)維度。
 
 ## 行為 - 新造訪與回訪
 
@@ -131,7 +131,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 
 * Analysis Workspace 中也提供&#x200B;**瀏覽器**&#x200B;主要維度作為維度。
 * Analysis Workspace 中也提供&#x200B;**作業系統**&#x200B;主要維度作為維度。
-* 在 Analysis Workspace 中，**螢幕解析度**&#x200B;主要維度是以&#x200B;**監視器解析度**&#x200B;維度的形式提供。
+* 在 Analysis Workspace 中，**螢幕解析度**&#x200B;主要維度是以&#x200B;**顯示器解析度**&#x200B;維度的形式提供。
 * 在 Analysis Workspace 中，**螢幕色彩**&#x200B;主要維度是以&#x200B;**色彩深度**&#x200B;維度的形式提供。
 * Adobe Analytics 中不提供&#x200B;**Flash 版本**&#x200B;主要維度，但 eVar 可視需要收集這些資料。
 
@@ -141,8 +141,8 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 如需其各自維度的詳細資訊，請參閱「元件」使用指南中的下列頁面：
 
 * [瀏覽器](/help/components/dimensions/browser.md)
-* [作業系統 ](/help/components/dimensions/operating-systems.md)
-* [監視器解析度](/help/components/dimensions/monitor-resolution.md)
+* [作業系統](/help/components/dimensions/operating-systems.md)
+* [顯示器解析度](/help/components/dimensions/monitor-resolution.md)
 * [色彩深度](/help/components/dimensions/color-depth.md)
 
 ## 技術 - 網路
@@ -161,7 +161,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在元件功能表中，找出&#x200B;**行動裝置類型**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-查看 [移動設備類型](/help/components/dimensions/mobile-dimensions.md) 「元件」使用手冊中的「維」。
+如需詳細資訊，請參閱「元件」使用手冊中的[行動裝置類型](/help/components/dimensions/mobile-dimensions.md)維度。
 
 ## 行動 - 裝置
 
@@ -170,7 +170,7 @@ Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織�
 1. 在元件功能表中，找出&#x200B;**行動裝置**&#x200B;維度，並將其拖曳至標示為「將維度放置在此處」的大型自由表格區域。
 2. 將所需的量度與自動建立的&#x200B;**發生次數**&#x200B;量度一併拖曳至工作區。如需瞭解如何取得各個量度的詳細資訊，請參閱[量度轉譯指南](common-metrics.md)。
 
-查看 [移動裝置](/help/components/dimensions/mobile-dimensions.md) 「元件」使用手冊中的「維」。
+如需詳細資訊，請參閱「元件」使用手冊中的[行動裝置](/help/components/dimensions/mobile-dimensions.md)維度。
 
 ## 自訂
 
