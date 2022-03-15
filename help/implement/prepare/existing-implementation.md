@@ -4,7 +4,7 @@ description: 最新接管現有 Adobe Analytics 實施作業的管理員指示�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
 ht-degree: 100%
 
@@ -24,6 +24,6 @@ ht-degree: 100%
 
 另請參閱：
 
-* [「重點檢視」清單是供您在每個網站推出後檢視您的實施作業。](/help/implement/review/focused-review.md)
-* [「全面檢視」清單是供每六個月檢視一次您的實施作業。](/help/implement/review/full-review.md)
+* [「重點檢視」檢查清單可供您在每個網站推出後檢閱您的實作](/help/implement/review/focused-review.md)
+* [「完整審視」檢查清單可供您每六個月檢閱一次實作](/help/implement/review/full-review.md)
 * [定義您的前 5 大 KPI](/help/implement/review/define-kpis.md)
