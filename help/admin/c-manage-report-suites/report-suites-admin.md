@@ -1,18 +1,18 @@
 ---
 description: 報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。
-title: 報表套裝管理器
+title: 報表套裝管理員
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '439'
 ht-degree: 100%
 
 ---
 
-# 報表套裝管理器
+# 報表套裝管理員
 
-報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理器」可讓您定義用以控管如何在報表套裝中處理資料的規則。
+報表套裝主要定義選定網站、一組網站或網頁子集如何全面且獨立地呈現報告內容。一般情況下，報表套裝是一個網站，但也可以是您組合多個網站以便獲取總計值的全域區段。當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。此外，若您想執行部分網站的報告，則報表套裝也可以小於網站。Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理員」可讓您定義用以控管如何在報表套裝中處理資料的規則。
 
 **[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**
 
@@ -20,9 +20,9 @@ ht-degree: 100%
 >
 > 虛擬報表套裝可透過&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**&#x200B;來管理。請參閱[虛擬報表套裝文件](/help/components/vrs/vrs-about.md)。
 
-## 報表套裝管理器說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
+## 報表套裝管理員說明 {#section_0C94DC9EACDA4F5891F5CD63EE80B125}
 
-下表說明[!UICONTROL 「報表套裝管理器」]頁面上的元素。
+下表說明[!UICONTROL 「報表套裝管理員」]頁面上的元素。
 
 <table id="table_F739FBD8DB8D409E916F12F61C5953D0"> 
  <thead> 
@@ -34,7 +34,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 選取報表套裝</span> </td> 
-   <td colname="col2"> <p><span class="wintitle">「報表套裝管理器」</span>會反白標示選取的報表套裝。您可以用 <span class="uicontrol">Ctrl+click</span> 或 <span class="uicontrol">Shift+click</span> 選取多個報表套裝。 </p> <p>選擇的報表套裝保持已選狀態，直至選擇另一個報表套裝為止。 </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">「報表套裝管理員」</span>會反白標示選取的報表套裝。您可以用 <span class="uicontrol">Ctrl+click</span> 或 <span class="uicontrol">Shift+click</span> 選取多個報表套裝。 </p> <p>選擇的報表套裝保持已選狀態，直至選擇另一個報表套裝為止。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 下載</span> </td> 
@@ -50,7 +50,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 已儲存的搜尋</span> </td> 
-   <td colname="col2"> <p>一個動態群組，可使用<span class="wintitle">進階搜尋</span>功能定義一組用以判斷成員的條件。當您新增或修改<span class="wintitle">「報表套裝管理器」</span>中的報表套裝時，<span class="wintitle">「已儲存的搜尋」</span>會自動新增符合條件的報表套裝。 </p> </td> 
+   <td colname="col2"> <p>一個動態群組，可使用<span class="wintitle">進階搜尋</span>功能定義一組用以判斷成員的條件。當您新增或修改<span class="wintitle">「報表套裝管理員」</span>中的報表套裝時，<span class="wintitle">「已儲存的搜尋」</span>會自動新增符合條件的報表套裝。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 統計</span> </td> 
@@ -66,7 +66,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 自訂欄</span> </td> 
-   <td colname="col2">可讓您選擇要新增至<span class="wintitle">「報表套裝管理器」</span>的欄。 </td> 
+   <td colname="col2">可讓您選擇要新增至<span class="wintitle">「報表套裝管理員」</span>的欄。 </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <span class="wintitle"> 報表套裝 ID</span> </td> 
