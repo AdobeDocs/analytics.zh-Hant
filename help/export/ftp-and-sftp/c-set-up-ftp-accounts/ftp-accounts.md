@@ -1,11 +1,11 @@
 ---
-description: 設定和使用 Adobe 託管的 FTP 帳戶。
+description: 設定及使用 Adobe 代管的 FTP 帳戶。
 keywords: ftp;sftp
 title: 設定 FTP 帳戶 - 概觀
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 設定 FTP 帳戶 - 概觀
 
-設定和使用 Adobe 託管的 FTP 帳戶。
+設定及使用 Adobe 代管的 FTP 帳戶。
 
 Adobe 會維護高可用、高效能的 FTP 叢集，專門設計用來改善檔案傳輸可靠性，同時持續確保高效能。
 
