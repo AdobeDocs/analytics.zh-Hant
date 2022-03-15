@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 7f630839ae7d75730f93588877a172f3590d5a5e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1461'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -176,25 +176,25 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ![Remove_components](assets/new_remove.png)
 
-## 預覽記分卡 {#preview}
+## 預覽計分卡 {#preview}
 
-在分析儀表板應用中發佈記分卡後，您可以預覽記分卡的外觀和功能。
+在 Analytics 儀表板應用程式中發佈計分卡後，您可以預覽計分卡的外觀和功能。
 
-1. 按一下 **[!UICONTROL 預覽]** 在螢幕右上角。
+1. 按一下螢幕右上角的「**[!UICONTROL 預覽]**」。
 
-   ![預覽記分卡](assets/preview.png)
+   ![預覽計分卡](assets/preview.png)
 
-1. 要查看記分卡在不同設備上的外觀，請從 [!UICONTROL 設備預覽] 的下界。
+1. 若要檢視計分卡在不同裝置上的外觀，請從「[!UICONTROL 裝置預覽]」下拉式選單選取裝置。
 
-   ![設備預覽](assets/device-preview.png)
+   ![裝置預覽](assets/device-preview.png)
 
-1. 要與預覽交互，您可以：
+1. 若要與預覽互動，您可以：
 
-   * 左鍵按一下以模擬電話螢幕上的敲擊。
+   * 按一下左鍵以模擬手機螢幕上的點選。
 
-   * 使用電腦的滾動功能模擬用手指滾動電話螢幕。
+   * 使用電腦的捲動功能來模擬用手指捲動手機螢幕。
 
-   * 按一下並按住，模擬按住手機螢幕上的手指。 這對於與詳細視圖中的可視化效果交互非常有用。
+   * 長按以模擬用手指長按手機螢幕。 這對於與詳細檢視中的視覺效果互動非常有用。
 
 ## 命名計分卡 {#name}
 
