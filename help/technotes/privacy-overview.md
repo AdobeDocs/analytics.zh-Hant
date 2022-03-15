@@ -5,9 +5,9 @@ title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '829'
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Analytics 收集下列資料：
 | 留在購物車中的項目 | 是 |
 | 社交網站資訊 (包括相片、使用者 ID、年齡、性別、位置) | **否** |
 | 使用者在我們服務以外提供的個人資訊 | 是 |
-| 廣告促銷活動成功率 | 是 |
+| 廣告行銷活動成功率 | 是 |
 | 產品資訊，如顏色、價格、樣式、相片 | 是 |
 
 *前提是 Adobe 客戶未選擇移除 IP。
@@ -133,8 +133,8 @@ Adobe Analytics 收集下列資料：
   <tr> 
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
-   <td colname="col3"> <p>協作設施 </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>多通道分析， </p> <p>數字分析 </p> </td> 
+   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
