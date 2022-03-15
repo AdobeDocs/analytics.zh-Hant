@@ -1,12 +1,12 @@
 ---
-description: 處理資料源所需時間Adobe的資訊。
+description: 有關 Adobe 處理資料來源所花的時間長短的資訊。
 title: 資料來源處理時間
 feature: Data Sources
 exl-id: 2445775b-e079-45f0-afcc-b373c63350e8
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '130'
+ht-degree: 100%
 
 ---
 
