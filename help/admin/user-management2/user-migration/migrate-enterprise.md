@@ -1,18 +1,18 @@
 ---
-description: 如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
-title: 移轉 Enterprise 與 Federated ID 的 Analytics 使用者帳戶
+description: 如何以 Enterprise ID 或 Federated ID 形式將 Analytics 使用者帳戶移轉至 Admin Console。
+title: 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '752'
 ht-degree: 100%
 
 ---
 
-# 移轉 Enterprise 與 Federated ID 的 Analytics 用戶帳戶{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
+# 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶{#migrate-analytics-user-accounts-for-enterprise-and-federated-ids}
 
-如何以 Enterprise 或 Federated ID 將 Analytics 使用者帳戶移轉至 Admin Console。
+如何以 Enterprise ID 或 Federated ID 形式將 Analytics 使用者帳戶移轉至 Admin Console。
 
 ## 先決條件 {#prereqs}
 
@@ -24,11 +24,11 @@ ht-degree: 100%
 * 設定網域
 * 將網域連結至目錄
 
-如需說明，請參閱[設定身分系統](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html)。
+如需說明，請參閱[設定身分系統](https://helpx.adobe.com/enterprise/using/set-up-identity.html)。
 
-如果其他組織已有另一個業務單位或團隊建立目錄，請依照[目錄信任](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html#Directorytrusting)所述步驟，在您預計由 Analytics 使用的組織中建立目錄。
+如果其他組織已有另一個業務單位或團隊建立目錄，請依照[目錄信任](https://helpx.adobe.com/enterprise/using/set-up-identity.html#Directorytrusting)所述步驟，在您預計由 Analytics 使用的組織中建立目錄。
 
-## 移轉 Enterprise 與 Federated ID 的 使用者帳戶 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
+## 移轉 Enterprise ID 與 Federated ID 的使用者帳戶 {#task-0cfb3e4400fd4ab58e4d9704528b05fa}
 
 此程序中，您需要完成以下步驟：
 
@@ -39,7 +39,7 @@ ht-degree: 100%
 * 比較兩份清單 (尋找重複項目，以免覆寫 Admin Console 中的帳戶資料)。
 * 將含有 Enterprise ID 或 Federated ID 使用者的已完成 [!DNL .csv] (位於&#x200B;**[!UICONTROL 「Admin Console]** > **[!UICONTROL 使用者」]**) 上傳到 Admin Console。
 
-如果您需要將現有的 Adobe ID 使用者帳戶移轉到 Enterprise ID 或 Federated ID，請聯絡 Adobe 客戶服務並提出[大量使用者身分切換](https://helpx.adobe.com/tw/enterprise/using/bulk-operations.html)申請。
+如果您需要將現有的 Adobe ID 使用者帳戶移轉到 Enterprise ID 或 Federated ID，請聯絡 Adobe 客戶服務並提出[大量使用者身分切換](https://helpx.adobe.com/enterprise/using/bulk-operations.html)申請。
 
 **移轉使用者帳戶**
 
@@ -64,15 +64,15 @@ ht-degree: 100%
 
       >[!IMPORTANT]
       >
-      > CSV 檔案中的值必須以逗號分隔。
+      >CSV 檔案中的值必須以逗號分隔。
 
       >[!TIP]
       >
-      > 在此步驟中，建議您簡化使用者清單，確保 Enterprise 或 Federated ID 移轉作業中加入的都是具有有效電子郵件 ID 的使用者。
+      >在此步驟中，Adobe 建議您簡化使用者清單，以確保 Enterprise ID 或 Federated ID 移轉作業中加入的都是具有有效電子郵件 ID 的使用者。
 
 1. 在 [!UICONTROL Admin Console] 中，下載 Admin Console 使用者清單：
 
-   1. 前往[!UICONTROL 「Admin Console] > **[!UICONTROL 使用者」]**，然後按一下[「將使用者清單匯出為 CSV」](https://helpx.adobe.com/tw/enterprise/using/users.html)。
+   1. 前往[!UICONTROL 「Admin Console] > **[!UICONTROL 使用者」]**，然後按一下[「將使用者清單匯出為 CSV」](https://helpx.adobe.com/enterprise/using/users.html)。
 
       ![](assets/export-csv.png)
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
       >[!IMPORTANT]
       >
-      > 如果發現重複項目，請刪除 Analytics [!DNL User Logins List.csv] 檔案中的重複項目。這麼做可防止覆寫 Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
+      >如果發現重複項目，請刪除 Analytics [!DNL User Logins List.csv] 檔案中的重複項目。 這麼做可防止覆寫 Admin Console 中的現有 Experience Cloud 使用者權限，並提供您要移轉的帳戶清單。
 
 1. 從 Admin Console 下載 CSV 範本：
    1. 在「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**，然後按一下&#x200B;**[!UICONTROL 「下載 CSV 範本」]**。
@@ -140,7 +140,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> [!UICONTROL 「產品設定」]和[!UICONTROL 「管理員角色」]等其他欄可空白。
+> [!UICONTROL 產品設定]和[!UICONTROL 管理員角色]等其他欄皆可空白。
 
 1. 在 Admin Console 的「使用者」標籤中，按一下&#x200B;**[!UICONTROL 「透過 CSV 新增使用者」]**&#x200B;上傳範本檔案 (如步驟 3 所示)。
 1. 在 Analytics 中，執行移轉工具 (如[移轉 Analytics 使用者帳戶](/help/admin/user-management2/user-migration/t-migrate-users.md)所述)。
