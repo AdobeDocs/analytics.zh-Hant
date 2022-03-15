@@ -5,7 +5,7 @@ title: 行銷管道有效期
 feature: Marketing Channels
 exl-id: a9df659b-3b6a-4bdb-bd77-f4490d2b7c79
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
 ht-degree: 100%
 
@@ -39,12 +39,12 @@ ht-degree: 100%
 | 從不 | 訪客參與期限從不過期。 |
 | 管道重設 | 將所有訪客參與期限設為過期。如果您需要重設所有行銷管道資料，可將所有訪客參與期限設為過期。如果您的處理規則先前設定錯誤，便可能需要重設資料。當訪客返回時，所有首次和上次接觸管道值都會立即過期並重設。 |
 
-## 定義行銷管道的有效期 {#define-expiration}
+## 定義行銷管道的到期日 {#define-expiration}
 
 指定訪客參與期間。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
-2. 在「[!UICONTROL 報表套裝管理器]」中，按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道到期日]**」。
+1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
+2. 在「[!UICONTROL 報表套裝管理員]」中，按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道到期日]**」。
 
    ![](assets/mchannel_expiration.png)
 
