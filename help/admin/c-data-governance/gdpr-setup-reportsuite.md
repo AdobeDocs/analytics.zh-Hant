@@ -4,7 +4,7 @@ title: 標籤報表套裝資料
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
    * **轉換維度** (非銷售 eVars)
    * **自訂流量維度** (prop)
    * **解決方案維度和事件** (與解決方案相關的維度/事件，如行動裝置、視訊、Activity Map 等，以及與解決方案的整合，如 Adobe Campaign、Adobe Experience Manager、Advertising Cloud 等)
-   * **資料處理維度** (非透過 Adobe Analytics UI 直接在報表中公開的變數，不過可以透過資料摘要及/或資料倉儲請求向您提供)
+   * **資料處理維度** (非透過 Adobe Analytics UI 直接在報表中公開的變數，不過可以透過資料摘要及/或 Data Warehouse 請求向您提供)
 
 1. (可選) 按一下每個變數旁的資訊 (i) 圖示，即可進一步瞭解過去 90 天內最常用的值。(這項功能不適用於資料處理維度，因為 Analytics UI 未提供這些變數。)
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 1. 完成所有標籤設定後，按一下&#x200B;**[!UICONTROL 「套用」]**。
 
-## 將標籤複製到報表套裝  {#section_7C6FDAFF049F4126B84F6261F72668EE}
+## 將標籤複製到報表套裝 {#section_7C6FDAFF049F4126B84F6261F72668EE}
 
 若您想將相同的 DULE/資料隱私權設定套用至多個報表套裝，您可以依照以下步驟操作：
 
