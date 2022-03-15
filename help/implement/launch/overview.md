@@ -4,7 +4,7 @@ description: 了解如何使用標記來實作 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
 ht-degree: 100%
 
