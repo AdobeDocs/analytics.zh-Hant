@@ -1,13 +1,13 @@
 ---
-description: 在Report Builder中建立請求時的第一步。
+description: 在 Report Builder 中建立請求時的第一個步驟。
 title: 資料請求 - 請求精靈步驟 1
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 1. **範圍選取器**：讓您從 Excel 的儲存格選取報表套裝軟體。請參閱[選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 
-1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant)。
+1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
    例如，您可以執行[!UICONTROL 頁面報告]，然後套用首次瀏覽次數區段。
 
@@ -43,8 +43,8 @@ ht-degree: 97%
 
 1. 開啟 Microsoft Excel 並登入 Report Builder。
 2. 按一下[!UICONTROL 「建立」]就會在畫面外開啟請求精靈。
-3. 按下 `[Alt]` + `[Space]`.
-4. 按下 `[M]`.
+3. 按下 `[Alt]` + `[Space]`。
+4. 按下 `[M]`。
 5. 按任意方向鍵。
 6. 移動滑鼠，這會將請求精靈加到游標上
 7. 按一下滑鼠即可將請求精靈放到螢幕上。
