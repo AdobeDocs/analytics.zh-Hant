@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: a7bd6cdb-397a-45ba-88ff-c3b3c7062005
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->如果將排程報表傳送給多份發佈清單，報表會針對每份清單執行一次。指派給發佈清單的報表套裝軟體會取代變動報表套裝軟體。
+>如果將排程報表傳送給多份發佈清單，該報表會針對每份清單執行一次。 指派給發佈清單的報表套裝會取代變動報表套裝。
