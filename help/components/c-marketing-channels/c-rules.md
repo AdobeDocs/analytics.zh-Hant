@@ -4,7 +4,7 @@ description: 行銷管道處理規則確定了訪客點按是否符合要指定�
 feature: Marketing Channels
 exl-id: 825f70a5-cce3-4b1c-bb42-828388348216
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 建立行銷管道處理規則，以判定訪客點按是否符合指派給管道的標準。
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
+1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 2. 選取報表套裝。
 
    如果報表套裝尚未定義管道，則會顯示[!UICONTROL 「自動設定」頁面]。
@@ -77,8 +77,8 @@ ht-degree: 100%
 |--- |--- |
 | 全部 | 僅當編號規則中的全部規則均為 true 時，啟用該管道。 |
 | 任何 | 當規則集中的任何規則為 true 時，啟用該管道。該選項僅當編號規則中存在多個規則時方可用。 |
-| AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤程式碼。當其中一項整合啟用時，追蹤程式碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用 AMO ID 時，點按/成本/曝光量度可歸因為正確的管道 (若未設定，這些量度將變為「直接」或「無」)。 |
-| AMO ED ID | Advertising Cloud 使用的次要追蹤程式碼。此追蹤程式碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為以「：d」結尾 (代表 Display ClickThroughs) 或結尾為「：i」(代表 Display ViewThroughs) 的「AMO EF ID」設定行銷管道邏輯。如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
+| AMO ID | Advertising Cloud 與 Advertising Analytics 整合所使用的主要追蹤代碼。當其中一項整合啟用時，追蹤代碼首碼可用來識別 Advertising Cloud 專用的管道。「AMO ID」的開頭使用「AL」代表 Search，「AC」代表 Display，「AO」則代表 Social。行銷管道中使用 AMO ID 時，點按/成本/曝光量度可歸因為正確的管道 (若未設定，這些量度將變為「直接」或「無」)。 |
+| AMO ED ID | Advertising Cloud 使用的次要追蹤代碼。此追蹤代碼的主要用途是作為將資料傳回 Ad Cloud 的金鑰。不過，如果您想要將 ClickThroughs 和 ViewThroughs 視為兩個不同的行銷管道，也可以用它來識別 Display ClickThroughs 與 Display ViewThroughs。方法是為以「：d」結尾 (代表 Display ClickThroughs) 或結尾為「：i」(代表 Display ViewThroughs) 的「AMO EF ID」設定行銷管道邏輯。如果您不想將 Display 分割為兩個管道，請改用 AMO ID 維度。 |
 | 轉換變數 | 包含為該報表套裝啟用的 eVar，並僅當透過頁面上的 Adobe 代碼設定這些變數時套用。請參閱實作指南。 |
 | 存在 | 具備多個可用選擇，包括：<ul><li>**不存在**：指定請求上並不存在點按屬性。例如，在反向連結網域中，如果使用者輸入 URL 或按一下書籤，反向連結網域屬性並不存在。</li><li>**為空**: 指定點按屬性存在，通常為 eVar 或查詢字串參數，但沒有與點按屬性相關的值。</li><li>**不包含**: 例如，讓您指定某反向連結網域不包含特定數值 (與選項「&quot;包含&quot;.)</li></ul> |
 | 將該管道識別為 | 將規則與新增至行銷管道管理員頁面的行銷管道相關聯。請參閱新增行銷管道。 |
@@ -102,7 +102,7 @@ ht-degree: 100%
 | 搜尋引擎 | 類似 Google 或 Yahoo! 將訪客帶至您網站的搜尋引擎。 |
 | 搜尋關鍵字 | 使用搜尋引擎來執行搜尋的一個詞。 |
 | 搜尋引擎 + 關鍵字 | 搜尋關鍵字和搜尋引擎的串連，以唯一識別搜尋引擎。例如，如果搜尋 computer，則搜尋引擎和關鍵字的識別如下所示：`Search Tracking Code = "<search_type>:<search engine>:<search keyword>" where    search_type = "n" or "p", search_engine = "Google", and search_keyword = "computer"`**注意：** n = 免費; p = 付費 |
-| 設定該管道的值為 | 除了瞭解為您網站帶來訪客的行銷管道之外，您還能知道管道內的哪些橫幅廣告、搜尋關鍵字或電子郵件促銷活動為訪客的網站活動獲得評分。該 ID 是與管道一同儲存的管道值。該值通常為內嵌於著陸頁面或反向連結 URL 中的促銷活動 ID，有時也是搜尋引擎和搜尋關鍵字組合，或是最近識別特定管道中訪客的反向連結 URL。 |
+| 設定該管道的值為 | 除了瞭解為您網站帶來訪客的行銷管道之外，您還能知道管道內的哪些橫幅廣告、搜尋關鍵字或電子郵件行銷活動為訪客的網站活動獲得評分。該 ID 是與管道一同儲存的管道值。該值通常為內嵌於著陸頁面或反向連結 URL 中的行銷活動 ID，有時也是搜尋引擎和搜尋關鍵字組合，或是最近識別特定管道中訪客的反向連結 URL。 |
 
 ## 行銷管道規則的順序和定義 {#channel-rules}
 
@@ -122,7 +122,7 @@ ht-degree: 100%
 
 ![](assets/example_paid_search.png)
 
-如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html?lang=zh-Hant)。
+如需詳細資訊，請參閱「管理員」中的[「付費搜尋偵測」](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/paid-search-detection/paid-search-detection.html)。
 
 ### 免費搜尋 {#natural-search}
 
@@ -170,7 +170,7 @@ ht-degree: 100%
 
 ![](assets/int-channel1.png)
 
-若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html?lang=zh-Hant#internal)。
+若要深入瞭解此管道的發生原因，請參閱[內部 (工作階段重新整理) 的原因](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/c-faq.html#internal)。
 
 ### 直接 {#direct}
 
