@@ -4,9 +4,9 @@ title: 報告 Adobe Analytics 的 Advertising 資料
 feature: Advertising Analytics
 exl-id: bbc830d9-e168-471d-a1ba-308277aab415
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '388'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和
 
 >[!NOTE]
 >
->搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。並請注意，Analytics 報表不會傳回每小時精細度的資料，因為 AMO 資料不支援每小時精細度。
+>搜尋引擎資料會在 24 小時之後開始填入 Analytics 報表，請耐心等候。也請注意，Analytics 報告不會傳回每小時精細度的資料，因為 AMO 資料不支援每小時精細度。
 
 ## Analysis Workspace：搜尋引擎 {#section_8173F42B2C784F41B9FD82CBB66F9ADF}
 
@@ -35,7 +35,7 @@ Analysis Workspace 範本的詳細資料，以及在 Reports &amp; Analytics 和
 | 廣告平台總計 | 前幾大平台的自由表格 (依 AMO 曝光數、AMO 點選次數、AMO 成本、AMO 平均位置、AMO 平均值品質分數。 |
 | 帳戶 | 成本的堆疊區域。 |
 | 帳戶總計 | 前幾名帳戶的自由表格 (依相關聯量度劃分)。 |
-| 促銷活動 | 行銷活動成本的長條圖。 |
+| 行銷活動 | 行銷活動成本的長條圖。 |
 | 行銷活動總計 | 前幾名行銷活動的自由表格 (依相關聯量度劃分)。 |
 | 群組  | 成本的樹狀圖。 |
 | 群組總計 | 前幾名廣告群組的自由表格 (依相關聯量度劃分)。 |
