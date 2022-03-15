@@ -5,7 +5,7 @@ topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '106'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * 購物車新增
 * 購物車移除
 * 例項
-* 自訂事件 1-100 (若已在報告套裝中啟用)
+* 自訂事件 1-100 (若已在報表套裝中啟用)
 
 ## 支援的維度 {#section_9F4A8D6EF94F4ED29B77C2F54FC08520}
 
@@ -41,8 +41,8 @@ ht-degree: 100%
 * 產品
 * 伺服器
 * 網站區段
-* 追蹤程式碼
+* 追蹤代碼
 * 自訂連結
 * 檔案下載
 * 退出連結
-* Custom Insight 變數 (prop) 1-75 (若已在報告套裝中啟用)
+* Custom Insight 變數 (prop) 1-75 (若已在報表套裝中啟用)
