@@ -4,9 +4,9 @@ description: 透過 Google Analytics 使用者更熟悉的術語，瞭解如何�
 feature: Third-party Integration
 exl-id: e95b0530-8099-4a08-9e2b-75174546277d
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '503'
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    進一步瞭解「元件」使用指南中的[計算量度](/help/components/c-calcmetrics/cm-overview.md)。
 
-**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。瞭解有關 [每次訪問所花費的時間](/help/components/metrics/time-spent-per-visit.md) 「元件」使用手冊中的度量。
+**平均工作階段期間**&#x200B;約略等同於&#x200B;**每次造訪逗留時間 (秒)**。在「元件」使用手冊中進一步了解[每次造訪逗留時間](/help/components/metrics/time-spent-per-visit.md)量度。
 
 ## 轉換量度
 
