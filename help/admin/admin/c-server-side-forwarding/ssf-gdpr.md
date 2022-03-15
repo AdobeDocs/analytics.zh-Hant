@@ -1,22 +1,22 @@
 ---
-description: 解釋受歐盟Cookie合規性法規推動的對伺服器端轉發的增強。
+description: 解釋由歐盟 Cookie 合規性法規推動的伺服器端轉送的增強功能。
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '541'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # GDPR/ePrivacy 法規遵循與伺服器端轉送
 
-本節介紹了由 [歐盟Cookie合規性規定](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookie+和+相似+技術)自2017年9月30日起實施。
+本節內容將解釋[歐盟 Cookie 合規性法規](https://wikis.ec.europa.eu/display/WEBGUIDE/04.+Cookies+and+similar+technologies) (已於 2017 年 9 月 30 日生效) 推動之伺服器端轉送的增強功能。
 
-伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
+伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。啟用伺服器端轉送功能後，也可在資料收集過程中讓 Analytics 推送資料到其他 Experience Cloud 解決方案，並讓這些解決方案推送資料到 Analytics。
 
-以前，伺服器端轉發沒有在同意和預同意事件/命中之間划定界限的方法。 自 2018 年 11 月 1 日起，您做為資料控管單位 (Adobe Analytics 客戶)，可選擇將預先同意的資料限制在 Adobe Analytics，並防止其轉送至 AAM。如此一來，實施環境變數有別於以往，可讓您標記未獲許可的點擊。設定變數時，可防止這些點擊在收到許可前傳送至 AAM。
+在過去，伺服器端轉送無法區分同意與預先同意的事件/點擊。 自 2018 年 11 月 1 日起，您做為資料控管單位 (Adobe Analytics 客戶)，可選擇將預先同意的資料限制在 Adobe Analytics，並防止其轉送至 AAM。新的實作內容變數可讓您在未收到同意的地方標記點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 AAM。
 
 這個新的上下文變數「`cm.ssf=1`」存在於點擊時，系統會標記該點擊，且不會將其從伺服器端轉送至 AAM。反之，若此字串並未出現在點擊，系統會將該點擊轉送至 AAM。
 
@@ -28,10 +28,10 @@ ht-degree: 80%
 
 | 實作方法 | 步驟 |
 |--- |--- |
-| Adobe Experience Platform 中的標記 | 假定已安裝Adobe Analytics擴展，請在規則的「操作」配置中將以下上下文資料變數定義添加到自定義代碼編輯器中： <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注：定義上下文資料變數，如果客戶不同意目標市場營銷，則將其設定為1。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為&#x200B;*「0」*。 |
+| Adobe Experience Platform 中的標籤 | 假設您已安裝 Adobe Analytics 擴充功能，請在「規則」的「動作」設定中，將下方的內容資料變數定義加到自訂程式碼編輯器：<br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' ` <br/>注意：若客戶不同意目標式行銷，請定義 contextdata 變數，並將其設為「1」。 如果客戶同意目標式行銷，請將 `contextdata` 變數設為 *0*。 |
 | AppMeasurement | 將內容資料變數定義新增至 AppMeasurement.js 檔案：    <br/>`s.contextData['cm.ssf']&nbsp;=&nbsp;'1' `<br/>注意：若客戶不同意目標式行銷，請定義 contextData 變數，並將其設為「1」。對於同意目標式行銷的客戶，請將 contextData 變數設為「0」。 |
 
-## 報表 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
+## 報告 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
 透過 Adobe Analytics 報表，您可以瞭解經過同意而從伺服器端轉送的流量大小，以及未經過同意且未轉送至 AAM 的流量大小。
 
