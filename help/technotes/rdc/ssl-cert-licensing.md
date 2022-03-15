@@ -1,18 +1,18 @@
 ---
 title: SSL 憑證授權
-description: 客戶管理證書的證書過程
+description: 由客戶管理的憑證之憑證程序
 feature: Regional Data Collection
 exl-id: 7d1373c8-6f7b-4ce7-a555-d3d506e08d17
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
 # SSL/TLS 憑證授權
 
-Adobe 建議您透過 [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html?lang=zh-Hant) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
+Adobe 建議您透過 [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html) 免費管理憑證。Adobe Managed Certificate Program 已完全自動化，可確保憑證及時續約，以免因憑證過期而造成影響。
 
 如果您選擇不使用 [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html)，便需自行負責提供用於第一方 Cookie 的 SSL/TLS 憑證。
 
