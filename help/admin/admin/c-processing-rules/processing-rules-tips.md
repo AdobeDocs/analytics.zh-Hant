@@ -5,7 +5,7 @@ title: 處理規則提示與秘訣
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
 ht-degree: 100%
 
@@ -43,9 +43,9 @@ ht-degree: 100%
 
 ## 避免覆寫值 {#section_49FCCA31E31A433EA2EF5EAF91443DAF}
 
-在下列範例中，網站上使用兩個上下文資料變數來擷取搜尋詞：search_keyword 和 search_term。不過，根據設定，search_keyword 值一律會被覆寫，即使 search_term 空白亦然。
+在下列範例中，網站上使用兩個內容資料變數來擷取搜尋詞：search_keyword 和 search_term。不過，根據設定，search_keyword 值一律會被覆寫，即使 search_term 空白亦然。
 
-應將此規則設定為在填入內部搜尋詞 (Internal Search Term) 之前，測試每個上下文資料變數是否有值，以及選擇性地在需要同時保留這兩個值時，串連兩個值。
+應將此規則設定為在填入內部搜尋詞 (Internal Search Term) 之前，測試每個內容資料變數是否有值，以及選擇性地在需要同時保留這兩個值時，串連兩個值。
 
 ![](assets/tips-search-keyword.png)
 
