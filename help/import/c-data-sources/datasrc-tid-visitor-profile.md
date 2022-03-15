@@ -1,13 +1,13 @@
 ---
-description: 使用資料源中的事務ID將聯機和離線資料連結在一起。
+description: 使用資料來源中的交易 ID 可一起連結線上和離線資料。
 title: 交易 ID 和訪客資料
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: ca5f9e8d-853f-4444-a8fd-a20933ef33d7
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '657'
+ht-degree: 100%
 
 ---
 
