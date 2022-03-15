@@ -1,34 +1,34 @@
 ---
-description: 針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
-title: 完全處理
+description: 針對以標準伺服器調用 (「通用 > 完整處理」) 處理資料，資料來源支援下列變數。
+title: 完整處理
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 9eb8c754-f4de-4483-934e-3f79134516ca
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '718'
+ht-degree: 100%
 
 ---
 
-# 完全處理
+# 完整處理
 
 >[!IMPORTANT]
 >
->Adobe 建議您改用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 以取代完全處理資料來源。Adobe 已於 2022 年 1 月 31 日取代完全處理資料來源。[了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
+>Adobe 建議您改用[大量資料插入 API (BDIA)](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) 以取代完整處理資料來源。Adobe 已於 2022 年 1 月 31 日取代完整處理資料來源。[了解更多](/help/import/c-data-sources/c-datasrc-types/datasrc-fullproc-eol.md)
 
-針對以標準伺服器調用 (「通用 > 完全處理」) 處理資料，資料來源支援下列變數。
+針對以標準伺服器調用 (「通用 > 完整處理」) 處理資料，資料來源支援下列變數。
 
-「完全處理」資料來源的資料處理方式，會將資料當做在指定的時間由 Adobe 伺服器收到 (每次點擊都有時間戳記)。
+「完整處理」資料來源的資料處理方式，會將資料當做在指定的時間由 Adobe 伺服器收到 (每次點擊都有時間戳記)。
 
 * [訪客資料](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_6065627D0C144506965F562C80AE67F8)
 * [欄參考](/help/import/c-data-sources/c-datasrc-types/datasrc-full-processing.md#section_92BAE76639E3404E97276B1BE0581078)
 
 ## 訪客資料 {#section_6065627D0C144506965F562C80AE67F8}
 
-「完全處理」資料來源的資料是使用不同的訪客個人資料進行處理，因此即使上傳資料中的訪客 ID 與使用 JavaScript 或其他 AppMeasurement 程式庫收集的資料相符，也不會從 eVar 配置的角度連結訪客個人資料。
+「完整處理」資料來源的資料是使用不同的訪客個人資料進行處理，因此即使上傳資料中的訪客 ID 與使用 JavaScript 或其他 AppMeasurement 程式庫收集的資料相符，也不會從 eVar 配置的角度連結訪客個人資料。
 
-例如，訪客 ID 為 `"user@example.com"` 的使用者從名為「Spring Sale」(此名稱儲存在 campaign 變數) 的促銷活動造訪您的網站。如果您稍後使用相同的訪客 ID 上傳交易，&quot;Spring Sale&quot; 促銷活動不會收到任何使用完全處理資料來源上傳之收入或成功事件的信用。
+例如，訪客 ID 為 `"user@example.com"` 的使用者從名為「Spring Sale」(此名稱儲存在 campaign 變數) 的行銷活動造訪您的網站。如果您稍後使用相同的訪客 ID 上傳交易，&quot;Spring Sale&quot; 行銷活動不會收到任何使用完整處理資料來源上傳之收入或成功事件的信用。
 
 ## 欄參考 {#section_92BAE76639E3404E97276B1BE0581078}
 
@@ -36,19 +36,19 @@ ht-degree: 0%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> JavaScript 變數 </th> 
-   <th colname="col2" class="entry"> 完全處理欄變數 </th> 
+   <th colname="col2" class="entry"> 完整處理欄變數 </th> 
    <th colname="col3" class="entry"> 說明 </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>campaign </p> </td> 
-   <td colname="col2"> <p>活動 </p> </td> 
-   <td colname="col3"> <p>轉換促銷活動追蹤代碼. </p> </td> 
+   <td colname="col2"> <p>campaign </p> </td> 
+   <td colname="col3"> <p>轉換行銷活動追蹤代碼。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>channel </p> </td> 
-   <td colname="col2"> <p>通道 </p> </td> 
+   <td colname="col2"> <p>channel </p> </td> 
    <td colname="col3"> <p>管道字串 (例如體育版)。 </p> </td> 
   </tr> 
   <tr> 
@@ -64,12 +64,12 @@ ht-degree: 0%
   <tr> 
    <td colname="col1"> <p>eVar<i>N</i> </p> </td> 
    <td colname="col2"> <p>eVar<i>N</i>，即 &lt;eVar2&gt;…&lt;/eVar2&gt; </p> </td> 
-   <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar (<span class="varname"> eVar1</span> - <span class="varname">eVar75 </span>). </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告促銷活動 3)。 </p> </td> 
+   <td colname="col3"> <p>轉換 eVar 名稱。您最多可以有 75 個 eVar (<span class="varname"> eVar1</span> - <span class="varname">eVar75 </span>). </p> <p>您可指定 eVar 名稱 (eVar12) 或友好名稱 (廣告行銷活動 3)。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>events </p> </td> 
-   <td colname="col2"> <p>事件 </p> </td> 
-   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-Hant"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
+   <td colname="col2"> <p>events </p> </td> 
+   <td colname="col3"> <p>事件字串，格式語法與 <a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html"  >s.events</a> 變數相同。 </p> <p>例如: </p> 
     <code>
       scAdd,event1,event7 
     </code> </td> 
@@ -81,12 +81,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkName </p> </td> 
-   <td colname="col2"> <p>連結名稱 </p> </td> 
+   <td colname="col2"> <p>linkName </p> </td> 
    <td colname="col3"> <p>連結名稱。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkType </p> </td> 
-   <td colname="col2"> <p>連結類型 </p> </td> 
+   <td colname="col2"> <p>linkType </p> </td> 
    <td colname="col3"> <p>連結的類型。支援的值包括： </p> 
     <ul id="ul_E441013055A9447AB6C3FB05B6099F7D"> 
      <li id="li_A33F66F30B60479284F72AE3AD4BF499"> <b>d</b>: 下載連結 </li> 
@@ -96,12 +96,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>linkURL </p> </td> 
-   <td colname="col2"> <p>連結URL </p> </td> 
+   <td colname="col2"> <p>linkURL </p> </td> 
    <td colname="col3"> <p>連結的 HREF。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageName </p> </td> 
-   <td colname="col2"> <p>頁名 </p> </td> 
+   <td colname="col2"> <p>pageName </p> </td> 
    <td colname="col3"> <p>頁面名稱 </p> </td> 
   </tr> 
   <tr> 
@@ -111,12 +111,12 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>pageURL </p> </td> 
-   <td colname="col2"> <p>頁面URL </p> </td> 
+   <td colname="col2"> <p>pageURL </p> </td> 
    <td colname="col3"> <p>頁面 URL (例如 <code>https://www.example.com/index.html)</code>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>products </p> </td> 
-   <td colname="col2"> <p>產品 </p> </td> 
+   <td colname="col2"> <p>products </p> </td> 
    <td colname="col3"> <p>產品清單 (例如，<code> "Sports;Ball;1;5.95"</code>)。每列最多可容納 4096 位元組。</p> </td> 
   </tr> 
   <tr> 
@@ -126,7 +126,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>purchaseID </p> </td> 
-   <td colname="col2"> <p>採購ID </p> </td> 
+   <td colname="col2"> <p>purchaseID </p> </td> 
    <td colname="col3"> <p>購買 ID 號碼。 </p> </td> 
   </tr> 
   <tr> 
@@ -136,17 +136,17 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>server </p> </td> 
-   <td colname="col2"> <p>伺服器 </p> </td> 
+   <td colname="col2"> <p>server </p> </td> 
    <td colname="col3"> <p>伺服器字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>state </p> </td> 
-   <td colname="col2"> <p>狀態 </p> </td> 
+   <td colname="col2"> <p>state </p> </td> 
    <td colname="col3"> <p>轉換州字串。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>zip </p> </td> 
-   <td colname="col2"> <p>郵遞區號 </p> </td> 
+   <td colname="col2"> <p>zip </p> </td> 
    <td colname="col3"> <p>轉換郵遞區號。 </p> </td> 
   </tr> 
  </tbody> 
@@ -157,7 +157,7 @@ ht-degree: 0%
 <table id="table_FDBC5BD225644AA09078C0570BE709FE"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> <p>完全處理欄變數 </p> </th> 
+   <th colname="col1" class="entry"> <p>完整處理欄變數 </p> </th> 
    <th colname="col2" class="entry"> <p>說明 </p> </th> 
   </tr> 
  </thead>
@@ -172,7 +172,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td colname="col1"> <p>charSet </p> </td> 
-   <td colname="col2"> <p>您的網站支援的字元集。例如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html?lang=zh-Hant#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
+   <td colname="col2"> <p>您的網站支援的字元集。例如 UTF-8、ISO-8859-1 等等。 </p> <p>如需完整清單，請參閱「<a href="https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/configuration-variables.html#concept_E65B9A8F75C3482C87D0D455805F89BD"  >多位元組字元集</a> (國際化)」白皮書。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>clickAction </p> </td> 
