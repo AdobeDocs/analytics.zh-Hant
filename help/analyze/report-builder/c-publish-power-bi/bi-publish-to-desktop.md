@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: ce6020df-caf4-4cd2-8086-4357309e5bbb
 source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
 ht-degree: 100%
 
@@ -32,4 +32,4 @@ ht-degree: 100%
 1. 搜尋 **[!UICONTROL Power BI 服務]**&#x200B;並加以選取。
 1. 在&#x200B;**[!UICONTROL 「Microsoft Power BI 服務]** > **[!UICONTROL 工作區」]**&#x200B;下，選取您先前從 Report Builder 發佈的資料集。
 
-如需詳細資訊，請參閱此 [Microsoft 部落格文章](https://powerbi.microsoft.com/zh-tw/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)。
+如需詳細資訊，請參閱此 [Microsoft 部落格文章](https://powerbi.microsoft.com/en-us/blog/connecting-to-datasets-in-the-power-bi-service-from-desktop/)。
