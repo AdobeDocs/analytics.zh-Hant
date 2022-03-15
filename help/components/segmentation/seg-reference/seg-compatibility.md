@@ -4,7 +4,7 @@ title: Data Warehouse 區段相容性
 feature: Segmentation
 exl-id: 66b86226-ef4c-4a1a-abe1-3c3accf419e5
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '342'
 ht-degree: 100%
 
@@ -62,9 +62,9 @@ ht-degree: 100%
     <ul> 
      <li>所有搜尋頁面排名 </li> 
      <li>上午/下午 </li> 
-     <li>日期 </li> 
+     <li>當月日期 </li> 
      <li>星期 </li> 
-     <li>一年當中的第幾天 </li> 
+     <li>年中的日 </li> 
      <li>登入業務單位 </li> 
      <li>登入 (以登入開頭的所有維度，登入頁面除外) </li> 
      <li>退出 (以退出開頭的所有維度，退出連結和退出頁面除外) </li> 
