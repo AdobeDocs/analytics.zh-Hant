@@ -1,16 +1,16 @@
 ---
-title: 跨裝置訪客身份識別常見問題集
+title: 跨裝置訪客身份識別常見問答
 description: 跨裝置訪客身份識別的常見問題
 feature: Implementation Basics
 exl-id: da972fee-fe6e-45b2-af01-50674989c375
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '190'
 ht-degree: 100%
 
 ---
 
-# 跨裝置訪客身份識別常見問題集
+# 跨裝置訪客身份識別常見問答
 
 跨裝置訪客身份識別的常見問題。
 
