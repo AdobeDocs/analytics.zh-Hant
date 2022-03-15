@@ -4,7 +4,7 @@ title: 建立循序區段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
 source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -198,7 +198,7 @@ ht-degree: 100%
 以下是如何使用這類區段的範例：
 
 * 訪客進入「生活品味」頁面後就進入「電影院」區，而未進入「藝術」頁面。
-* 汽車零售商查看進行下列活動的訪客彼此之間的關係：瀏覽主要登陸頁面，然後直接進入「不感興趣」促銷活動，而未進入「汽車」頁面。
+* 汽車零售商查看進行下列活動的訪客彼此之間的關係：瀏覽主要登陸頁面，然後直接進入「不感興趣」行銷活動，而未進入「汽車」頁面。
 
 **建立此區段**
 
