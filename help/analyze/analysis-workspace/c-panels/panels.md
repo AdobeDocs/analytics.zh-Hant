@@ -5,9 +5,9 @@ feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
 source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1095'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Analysis Workspace 中有以下面板類型:
 | [Analytics for Target 面板](a4t-panel.md) | 在 Analysis Workspace 中分析 Target 的活動和體驗。 |
 | [歸因面板](attribution.md) | 使用任何維度和轉換量度，快速比較和視覺化任何數量的歸因模式。 |
 | [自由表格面板](freeform-panel.md) | 執行無限制的比較和劃分，然後新增視覺效果以展現一個有豐富資料的故事。 |
-| [媒體平均分鐘受眾面板](average-minute-audience-panel.md) | 分析一段時間內平均分鐘觀眾數，並詳細瞭解峰值視圖和分解和比較能力。 |
+| [「媒體平均每分鐘觀眾數」面板](average-minute-audience-panel.md) | 分析一段時間的平均每分鐘觀眾數，包含尖峰觀看次數的詳細資訊，並能夠加以細分及比較。 |
 | [媒體同時檢閱者面板](media-concurrent-viewers.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [「媒體播放時間」面板](media-playback-timespent/media-playback-time-spent.md) | 分析不同時段的同時檢閱者，並取得尖峰檢閱情形的詳細資訊，並可加以劃分及比較。 |
 | [區段比較面板](c-segment-comparison/segment-comparison.md) | 快速比較所有資料點的兩個區段，以自動找到相關的差異。 |
@@ -39,7 +39,7 @@ Analysis Workspace 中有以下面板類型:
 
 ## 報表套裝 {#report-suite}
 
-面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報表套裝]衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
+面板內的表格和視覺效果是從面板右上角所選[!UICONTROL 報表套裝]衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html)，多寡視您的分析使用情形而定。若要將單一報告套件套用在專案內所有面板，**在面板標題上按一下右鍵 > 套用至所有面板**。
 
 報表套裝清單是依關聯性來分類；Adobe 是根據目前用戶最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。
 
@@ -90,7 +90,7 @@ Analysis Workspace 中有以下面板類型:
 
 ![](assets/create-dropdown.png)
 
-[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html?lang=zh-Hant)，了解更多有關如何在專案中新增下拉篩選器。
+[觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
 
 ## 按右鍵選單 {#right-click}
 
