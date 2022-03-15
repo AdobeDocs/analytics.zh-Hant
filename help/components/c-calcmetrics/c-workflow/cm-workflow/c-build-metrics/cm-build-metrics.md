@@ -4,7 +4,7 @@ title: 建立量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '964'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 說明 </span> </td> 
-   <td colname="col3"> <p>提供使用者易記的說明，以顯示其用途並與類似量度加以區別。 </p> <p>此說明也會顯示在報表中。最好「不要」在說明中加入公式，而是該說明此量度適合和不適合的用途。(公式會在您建立量度時產生，位在「摘要」標頭下方。因此無需將公式加入說明中。) </p> </td> 
+   <td colname="col3"> <p>提供使用者易記的說明，以顯示其用途並與類似量度區別。 </p> <p>此說明也會顯示在報表中。最好「不要」在說明中加入公式，而是該說明此量度適合和不適合的用途。(公式會在您建立量度時產生，位在「摘要」標頭下方。因此無需將公式加入說明中。) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 格式 </span> </td> 
@@ -73,7 +73,7 @@ ht-degree: 100%
    <td colname="col2"> <span class="uicontrol"> 定義 </span> </td> 
    <td colname="col3"> <p>這裡是您拖曳量度/計算量度、區段和/或函數進來以建立計算量度的地方。 </p> <p> 
      <ul id="ul_B13401A266354DC594C6176025DB61CB"> 
-      <li id="li_01776C32C7C5440AA1F847096CBED92B">如果您將一個計算量度拖曳進來，它將自動擴展其量度定義。 </li> 
+      <li id="li_01776C32C7C5440AA1F847096CBED92B">如果您將一個計算量度拖曳進來，它將自動展開其量度定義。 </li> 
       <li id="li_A483D352522E4572AB43042473053359">您可以使用容器巢狀嵌套定義。不過，這些容器與區段容器不同，其功能比較類似數學運算式，用以決定運算順序。 </li> 
      </ul> </p> </td> 
   </tr> 
@@ -87,11 +87,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 產品相容性 </span> </td> 
-   <td colname="col3"> <p>產品相容性會顯示量度是否與<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html?lang=zh-Hant"  >目前的資料</a>、完全處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
+   <td colname="col3"> <p>產品相容性會顯示量度是否與<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  >目前的資料</a>、完整處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 新增 </span> </td> 
-   <td colname="col3"> <p>若為所有類型的計算量度，您可以將容器和靜態數字新增到定義中。若為進階計算量度，您也可以新增區段和函數。 </p> <p> 
+   <td colname="col3"> <p>若為所有類型的計算量度，您可以將容器和靜態數字新增到定義中。 若為進階計算量度，您也可以新增區段和函數。 </p> <p> 
      <ul id="ul_607C1B303F334062BC620317667DE490"> 
       <li id="li_53462789B8AF4F1AA9B45565D37CF22B">容器的功能類似數學運算式，用以決定運算順序。所以容器中的項目會先行處理，再進行下一個運算。 </li> 
       <li id="li_401A9E0D8B3B468990289DBF66A06F63">拖曳區段至容器可分割該容器中的項目。(僅限進階計算量度) </li> 
@@ -130,7 +130,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <p>區段清單 </p> </td> 
-   <td colname="col3"> <p>(僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有區段。如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html?lang=zh-Hant"  > 更多... </a> </p> </td> 
+   <td colname="col3"> <p>(僅限進階計算量度) 身為管理員，此清單會顯示在您的登入公司中建立的所有區段。如果您不是管理員使用者，此清單會顯示您擁有以及與您共用的區段。<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-rights.html"  > 更多... </a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>函數清單 </p> </td> 
