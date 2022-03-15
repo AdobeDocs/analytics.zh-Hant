@@ -1,13 +1,13 @@
 ---
 title: 退出維度
 description: 列出退出維度及其使用情形。
-keywords: 退出頁，退出站點節，退出伺服器，退出自定義insight
+keywords: 退出頁面, 退出網站區域, 退出伺服器, 退出自訂分析
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
