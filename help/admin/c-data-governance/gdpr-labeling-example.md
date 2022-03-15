@@ -4,7 +4,7 @@ title: 加上標籤範例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -24,12 +24,12 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | **變數名稱** <br> **(命名空間)** | **MyProp1** <br> **(user)** | **訪客 ID** <br> **(AAID)** | **MyEvar1** | **MyEvar2** | **MyEvar3** <br> **(xyz)** |
 | 點擊資料 | Mary | 77 | A | M | X |
-|  | 瑪麗 | 88 | B | N | Y |
-|  | 瑪麗 | 99 | C | O | Z |
+|  | Mary | 88 | B | N | Y |
+|  | Mary | 99 | C | O | Z |
 |  | John | 77 | D | P | W |
-|  | 約翰 | 88 | E | N | U |
-|  | 約翰 | 44 | F | Q | V |
-|  | 約翰 | 55 | G | R | X |
+|  | John | 88 | E | N | U |
+|  | John | 44 | F | Q | V |
+|  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
 ## 範例存取請求
@@ -73,9 +73,9 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>user=Mary</td>
-    <td>假</td>
+    <td>false</td>
     <td>人員</td>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -83,9 +83,9 @@ ht-degree: 100%
   </tr>
   <tr>
     <td rowspan="2">user=Mary</td>
-    <td rowspan="2">真</td>
+    <td rowspan="2">true</td>
     <td>人員</td>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -101,9 +101,9 @@ ht-degree: 100%
   </tr>
   <tr>
     <td rowspan="2">user=Mary<br>AAID=66</td>
-    <td rowspan="2">真</td>
+    <td rowspan="2">true</td>
     <td>人員</td>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>77、88、99</td>
     <td>A、B、C</td>
     <td>M、N、O</td>
@@ -119,7 +119,7 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>xyz=X</td>
-    <td>假</td>
+    <td>false</td>
     <td>裝置</td>
     <td>不存在</td>
     <td>55、77</td>
@@ -129,7 +129,7 @@ ht-degree: 100%
   </tr>
   <tr>
     <td>xyz=X</td>
-    <td>真</td>
+    <td>true</td>
     <td>裝置</td>
     <td>不存在</td>
     <td>55、77</td>
@@ -150,63 +150,63 @@ ht-degree: 100%
     <th colspan="5" style="text-align:center">AAID=77 <br>(expandIDs 值不重要)</th>
   </tr>
   <tr>
-    <th>我的道具1</th>
+    <th>MyProp1</th>
     <th>AAID</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
     <th>MyEvar3</th>
   </tr>
   <tr>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>42</td>
     <td>A</td>
     <td>Privacy-7398</td>
     <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>88</td>
     <td>B</td>
     <td>N</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>瑪麗</td>
+    <td>Mary</td>
     <td>99</td>
     <td>C</td>
     <td>O</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>42</td>
     <td>D</td>
     <td>Privacy-1866</td>
     <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
-    <td>問</td>
+    <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>愛麗絲</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -223,7 +223,7 @@ ht-degree: 100%
     <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=false</th>
   </tr>
   <tr>
-    <th>我的道具1</th>
+    <th>MyProp1</th>
     <th>AAID</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
@@ -232,54 +232,54 @@ ht-degree: 100%
   <tr>
     <td>Privacy-0523</td>
     <td>77</td>
-    <td>隱私–1866</td>
+    <td>Privacy-1866</td>
     <td>Privacy-3681</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>隱私–0523</td>
+    <td>Privacy-0523</td>
     <td>88</td>
     <td>Privacy-2178</td>
     <td>Privacy-1975</td>
     <td>Y</td>
   </tr>
   <tr>
-    <td>隱私–0523</td>
+    <td>Privacy-0523</td>
     <td>99</td>
     <td>Privacy-9045</td>
     <td>Privacy-2864</td>
     <td>Z</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>77</td>
     <td>D</td>
     <td>P</td>
     <td>W</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>88</td>
     <td>E</td>
     <td>N</td>
     <td>U</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
-    <td>問</td>
+    <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>愛麗絲</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
@@ -296,7 +296,7 @@ ht-degree: 100%
     <th colspan="5" style="text-align:center">user=Mary<br>expandIDs=true</th>
   </tr>
   <tr>
-    <th>我的道具1</th>
+    <th>MyProp1</th>
     <th>AAID</th>
     <th>MyEvar1</th>
     <th>MyEvar2</th>
@@ -307,52 +307,52 @@ ht-degree: 100%
     <td>09</td>
     <td>Privacy-0859</td>
     <td>Privacy-8183</td>
-    <td>隱私–9152</td>
+    <td>Privacy-9152</td>
   </tr>
   <tr>
-    <td>隱私–5782</td>
+    <td>Privacy-5782</td>
     <td>16</td>
     <td>Privacy-6104</td>
     <td>Privacy-2911</td>
     <td>Privacy-6821</td>
   </tr>
   <tr>
-    <td>隱私–5782</td>
+    <td>Privacy-5782</td>
     <td>83</td>
     <td>Privacy-2714</td>
     <td>Privacy-0219</td>
     <td>Privacy-4395</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>09</td>
     <td>D</td>
     <td>Privacy-8454</td>
-    <td>隱私–8216</td>
+    <td>Privacy-8216</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>16</td>
     <td>E</td>
-    <td>隱私–2911</td>
+    <td>Privacy-2911</td>
     <td>Privacy-2930</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>44</td>
     <td>F</td>
-    <td>問</td>
+    <td>Q</td>
     <td>V</td>
   </tr>
   <tr>
-    <td>約翰</td>
+    <td>John</td>
     <td>55</td>
     <td>G</td>
     <td>R</td>
     <td>X</td>
   </tr>
   <tr>
-    <td>愛麗絲</td>
+    <td>Alice</td>
     <td>66</td>
     <td>A</td>
     <td>N</td>
