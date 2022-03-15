@@ -4,7 +4,7 @@ title: 帳單
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 >
 > 若要取得[!UICONTROL 每月發票]報表的工作副本，請將其複製至剪貼簿，然後貼至試算表程式 (例如 Microsoft Excel*)。
 
-## 報告日期和處理日期比較 {#section_51A48C2F223F4904BE1407C13333C457}
+## 報告日期與處理日期的比較 {#section_51A48C2F223F4904BE1407C13333C457}
 
 在報表使用者介面中，您看見的資料會一律使用&#x200B;**報告日期**，即附加至事件的時間戳記。
 
