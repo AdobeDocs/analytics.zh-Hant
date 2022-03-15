@@ -4,13 +4,13 @@ title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
 source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
 ---
 
-# 移轉 Adobe ID 的 Analytics 用戶帳戶{#migrate-analytics-user-accounts-for-adobe-ids}
+# 移轉 Adobe ID 的 Analytics 使用者帳戶{#migrate-analytics-user-accounts-for-adobe-ids}
 
 將使用者從舊版 Analytics 使用者管理系統移轉至 Admin Console。
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 如果未透過 Experience Cloud 登入的管理員嘗試存取「使用者 ID 移轉」工具，系統會將他們重新導向至 Experience Cloud 登入頁面。
+>如果未透過 Experience Cloud 登入的管理員嘗試存取「使用者 ID 移轉」工具，系統會將他們重新導向至 Experience Cloud 登入頁面。
 
 **移轉 Analytics 使用者：**
 
@@ -65,11 +65,11 @@ ht-degree: 100%
    <tbody> 
    <tr> 
       <td colname="col1"> <p>網域 </p> </td> 
-      <td colname="col2"> <p>網域必須是目前 Analytics 使用者群的電子郵件 ID 所專屬。網域只能由單一組織申請，而且只有系統管理員可以申請網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/tw/enterprise/help/request-access-to-claimed-domain.html">要求已申請之網域的存取權</a>。 </p> </td> 
+      <td colname="col2"> <p>網域必須是目前 Analytics 使用者群的電子郵件 ID 所專屬。網域只能由單一組織申請，而且只有系統管理員可以申請網域。如需詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/request-access-to-claimed-domain.html">要求已申請之網域的存取權</a>。 </p> </td> 
    </tr> 
    <tr> 
       <td colname="col1"> <p>申請的網域 </p> </td> 
-      <td colname="col2"> <p>若要以 Enterprise 或 Federated ID 移轉使用者，您必須是「系統管理員」，並在移轉使用者前透過 Admin Console 申請可用網域。如需更多詳情，請參閱<a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">此處</a>。 </p> <p>如果您不想申請 Enterprise 或 Federated ID 的網域，請跳過此步驟，並以 Adobe ID 移轉使用者。如需有關 ID 類型的詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> </td> 
+      <td colname="col2"> <p>若要以 Enterprise 或 Federated ID 移轉使用者，您必須是「系統管理員」，並在移轉使用者前透過 Admin Console 申請可用網域。如需更多詳情，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> <p>如果您不想申請 Enterprise 或 Federated ID 的網域，請跳過此步驟，並以 Adobe ID 移轉使用者。如需有關 ID 類型的詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> </td> 
    </tr> 
    </tbody> 
    </table>
