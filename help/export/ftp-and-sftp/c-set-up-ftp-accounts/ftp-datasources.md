@@ -5,7 +5,7 @@ title: 資料來源
 feature: FTP Export
 exl-id: 777917bd-bd11-4360-a149-e4fd0bb2f99e
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '450'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 建立資料來源例項後，此工具會提供您用來上傳資料來源檔案的 FTP 位置。上傳後，Data Sources 會自動找到檔案並處理它們。檔案處理完畢後，此資料便可供分析報表使用。
 
-「資料來源管理器」中的「[!UICONTROL 建立]」索引標籤可讓您為所選報表套裝設定新的資料來源實例。「[!UICONTROL 資料來源精靈]」將引導您完成建立資料來源範本的整個過程，並將建立一個上傳資料的 FTP 地址。
+「資料來源管理員」中的「[!UICONTROL 建立]」索引標籤可讓您為所選報表套裝設定新的資料來源實例。「[!UICONTROL 資料來源精靈]」將引導您完成建立資料來源範本的整個過程，並將建立一個上傳資料的 FTP 地址。
 
 在「[!UICONTROL 管理資料來源]」視窗中，尋找資料來源與選取 FTP 資訊連結。您的 FTP 登入資訊會顯示在「[!UICONTROL 啟動資料來源]」視窗的「[!UICONTROL 上載/FTP 資訊]」區段中。
 
