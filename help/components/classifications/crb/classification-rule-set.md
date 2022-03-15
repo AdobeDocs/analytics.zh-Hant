@@ -4,7 +4,7 @@ title: 分類規則集
 feature: Classifications
 exl-id: 5c118541-d143-4947-b693-514d7042abe6
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 1. (先決條件) 在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**&#x200B;中定義分類結構。
 
-   (請參閱「管理工具」說明中的[「分類」](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant)，了解如何新增分類。)
+   (請參閱「管理工具」說明中的[「分類」](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)，了解如何新增分類。)
 
    必須先為變數定義至少一個分類，變數才會顯示在[!UICONTROL 「新的規則集」]面板中。
 
