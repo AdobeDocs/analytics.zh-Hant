@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
-user-guide-description: 使用段、計算度量、虛擬報告套件、警報、營銷渠道、分類等元件幫助管理資料，並瞭解跨設備分析。
+user-guide-description: 使用區段、計算量度、虛擬報表套裝、警示、行銷管道、分類等元件，協助管理您的資料，以及了解 Cross-Device Analytics。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 95%
    + [國家/地區](dimensions/countries.md)
    + [自訂連結](dimensions/custom-link.md)
    + [客戶忠誠度](dimensions/customer-loyalty.md)
-   + [月中的日](dimensions/day-of-month.md)
+   + [當月日期](dimensions/day-of-month.md)
    + [週中的日](dimensions/day-of-week.md)
    + [年中的日](dimensions/day-of-year.md)
    + [日](dimensions/day.md)
@@ -63,7 +63,7 @@ ht-degree: 95%
    + [行銷管道詳細資料](dimensions/marketing-detail.md)
    + [分鐘](dimensions/minute.md)
    + [行動維度](dimensions/mobile-dimensions.md)
-   + [監視器解析度](dimensions/monitor-resolution.md)
+   + [顯示器解析度](dimensions/monitor-resolution.md)
    + [月份](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
    + [作業系統類型](dimensions/operating-system-types.md)
@@ -223,7 +223,7 @@ ht-degree: 95%
 + 警報 {#alerts}
    + [智慧型警報](c-alerts/intellligent-alerts.md)
    + [警報產生器](c-alerts/alert-builder.md)
-   + [警報管理器](c-alerts/alert-manager.md)
+   + [警報管理員](c-alerts/alert-manager.md)
    + [智慧型警報 - 使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類總覽](classifications/c-classifications.md)
