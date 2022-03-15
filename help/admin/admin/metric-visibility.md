@@ -1,16 +1,16 @@
 ---
 description: 您可以隱藏功能表、量度選擇器、計算量度產生器及區段產生器中的標準 (內建) 量度、自訂事件及內建事件。
-title: 量度可見性
+title: 量度可見度
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
 ht-degree: 100%
 
 ---
 
-# 量度可見性
+# 量度可見度
 
 您可以隱藏功能表、量度選擇器、計算量度產生器及區段產生器中的標準 (內建) 量度、自訂事件及內建事件。
 
