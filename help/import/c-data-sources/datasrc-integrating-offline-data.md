@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: d4e4388b-6449-4fef-a94d-01b3a52c2190
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '315'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 79%
 * [交易整合](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_B3F281CEFF9B47E9A07F9851D61D415D)
 * [客戶整合](/help/import/c-data-sources/datasrc-integrating-offline-data.md#section_9F4AAD710D2543BDA834090A98115FBF)
 
-這些整合將離線資料與特定線上交易或線上訪客關聯。
+這些整合將離線資料與特定線上交易或線上訪客建立關聯。
 
 ## 啟用交易 ID 記錄 {#section_30D6D47AEC0F4A36B87EBFE4C858F20C}
 
-交易 ID 可以透過 UI 啟用/停用，而且無須使用 ClientCare:
+交易 ID 可透過 UI 啟用/停用，而且不涉及 ClientCare：
 
 前往&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 報表套裝]** > 選取報表套裝&#x200B;**[!UICONTROL > 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 一般帳戶設定」]**。
 
@@ -38,7 +38,7 @@ ht-degree: 79%
 
  -->
 
-要查看是否啟用了事務處理ID記錄，請定位至 **[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料源]**。
+若想查看交易 ID 記錄是否已啟用，請瀏覽至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料來源]**。
 
 ![](assets/transaction-ID-recording-active.png)
 
@@ -63,6 +63,6 @@ ht-degree: 79%
 
 從線上變為離線的客戶通常是匿名。
 
-「訪問參與」度量中不包括事務ID事件（市場營銷報告中顯示的那些）。 這是因為事務ID資料與訪問無關（因為離線事件通常不是聯機事件的一部分），而是與訪問者關聯。
+交易 ID 事件不包含在「瀏覽參與率」量度中 (行銷報表中所顯示的量度)。 這是因為交易 ID 資料未與瀏覽建立關聯 (因為離線事件通常不屬於線上事件)，但會與訪客建立關聯。
 
-請參閱 [事務ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
+請參閱[交易 ID](/help/import/c-data-sources/c-datasrc-types/datasrc-transactionid.md)。
