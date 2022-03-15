@@ -4,7 +4,7 @@ title: 參考資料  基本函數
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -98,7 +98,7 @@ EXP(metric)
 
 ## 乘冪 {#concept_941578534F1E4583B1BEB067C8113A21}
 
-乘冪運算元
+乘冪運算子
 
 ```
 pow(x,y) = x<sup>y</sup> = x*x*x*… (y times)
