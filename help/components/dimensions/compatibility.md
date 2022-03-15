@@ -4,7 +4,7 @@ description: Analytics 維度與報表的參考資料。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ ht-degree: 100%
 | 行動螢幕寬度 | `mobilescreenwidth` |
 | 行動瀏覽器 URL 的最大長度 | `mobileurllength` |
 | 行動視訊支援 | `mobilevideosupport` |
-| 監視器解析度 | `monitorresolution` |
+| 顯示器解析度 | `monitorresolution` |
 | 作業系統 | `operatingsystem` |
 | 原始反向連結網域 | `referringdomainoriginal` |
 | 頁面 | `page` |
@@ -93,7 +93,7 @@ ht-degree: 100%
 | 單頁造訪次數 | `singlepagevisits` |
 | 網站區段 | `sitesections` |
 | 每次造訪逗留時間 - 精細 | `sitetime` |
-| 追蹤程式碼 | `campaign` |
+| 追蹤代碼 | `campaign` |
 | US DMA | `geodma` |
 | 美國各州 | `state` |
 | 事件之前時間 | `timeprior` |
@@ -110,10 +110,10 @@ ht-degree: 100%
 | 瀏覽器高度 - 分段 | `browserheightbucketed` |
 | 瀏覽器寬度 - 分段 | `browserwidthbucketed` |
 | 日 | `daterangeday` |
-| 日期 | `timepartdayofmonth` |
+| 當月日期 | `timepartdayofmonth` |
 | 星期 | `dayofweek` |
 | 星期 | `timepartdayofweek` |
-| 一年當中的第幾天 | `timepartdayofyear` |
+| 年中的日 | `timepartdayofyear` |
 | 上次造訪間隔天數 | `dayssincelastvisit` |
 | 進入自訂分析 | `entryprops` |
 | 進入清單變數 | `entrylistvariables` |
