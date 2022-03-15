@@ -4,7 +4,7 @@ title: 自訂報表說明
 feature: Admin Tools
 exl-id: f9bcd01c-acca-47a4-b9b5-751b3068a5ad
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '113'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 大部分傳統分類都能新增說明，但目前不適用於行動裝置分類。
+>新增說明適用於大部分傳統分類，但目前不適用於行動裝置分類。
 
 ![](assets/report_descriptions.png)
 
