@@ -7,7 +7,7 @@ exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 8e15d386379d98066973112b0e81b507d67c694d
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 50%
+ht-degree: 67%
 
 ---
 
@@ -37,8 +37,8 @@ ht-degree: 50%
 
 ![](assets/ann-pdf.png)
 
-## 查看不基於日期的注釋
+## 檢視不是根據日期的附註
 
-有時注釋不與日期相關聯，而是與特定尺寸相關聯。 在這種情況下，它們只出現在右下角的摘要注釋中。 其範例如下：
+有時附註不會與日期繫結，而是與特定維度繫結。 在此情況下，附註只會出現在右下角的摘要附註中。 其範例如下：
 
 ![](assets/non-date.png)

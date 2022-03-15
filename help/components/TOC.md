@@ -5,7 +5,7 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝、警示、行銷管道、分類等元件，協助管理您的資料，以及了解 Cross-Device Analytics。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 100%
 

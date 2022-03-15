@@ -1,12 +1,12 @@
 ---
-description: 連結到資料插入API文檔。
+description: 連結到資料插入 API 文件。
 title: 資料插入 API
 feature: API
 exl-id: d0ed201a-4bc9-49e2-919b-8cea4fcff587
 source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 

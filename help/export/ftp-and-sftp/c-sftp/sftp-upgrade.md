@@ -6,7 +6,7 @@ exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: dd1b2d358e6074fc393e6e5999c4286549a1b82d
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 您正在使用的 FTP/SFTP 軟體應該會指示您為了與 Adobe Analytics 交換資料而在設定的連線中使用哪些特定的設定。此軟體應該也會包含可供連線使用的不同選項的相關文件。在這次更新後將受到支援的選項已在業界受到廣泛的支持和接納。
 
-將刪除的連接選項通常被視為已過時，且未在當前軟體中使用。 如果您在過去三年內升級了FTP/SFTP軟體，則可能已經有了相容的連接。
+將被移除的連線選項通常被認為是過時的，不會用於目前的軟體。 如果您在過去三年內曾經升級 FTP/SFTP 軟體，這表示您可能已經有相容的連線。
 
 ## 哪些 Adobe Analytics 功能會使用 SFTP 來擷取資料？
 

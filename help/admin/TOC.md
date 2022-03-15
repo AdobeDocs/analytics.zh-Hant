@@ -1,18 +1,18 @@
 ---
 product: analytics
 audience: admin
-user-guide-title: Analytics 管理指南
+user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
-user-guide-description: 瞭解分析管理任務，如管理Experience CloudAdmin Console中的用戶和產品、配置報告套件等。
+user-guide-description: 了解 Analytics 管理任務，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics管理指南 {#admin}
+# Adobe Analytics 管理員指南 {#admin}
 
 + [Analytics 管理員指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
@@ -28,7 +28,7 @@ ht-degree: 95%
       + [機器人規則總覽](admin/bot-removal/bot-rules.md)
       + [常見的機器人簽名](admin/bot-removal/bot-signatures.md)
       + [排除機器人的方法](admin/bot-removal/bot-exclusion-methods.md)
-   + [代碼管理器](admin/code-manager-admin.md)
+   + [程式碼管理員](admin/code-manager-admin.md)
    + 轉換變數 {#conversion-variables}
       + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
       + [編輯轉換變數](admin/conversion-var-admin/t-conversion-variables-admin.md)
@@ -38,7 +38,7 @@ ht-degree: 95%
       + [銷售 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [貨幣代碼](admin/currency.md)
    + [自訂報表說明](admin/custom-desc-admin.md)
-   + [自訂行事曆](admin/custom-calendar.md)
+   + [自訂日曆](admin/custom-calendar.md)
    + [資料來源](admin/data-sources.md)
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
@@ -47,15 +47,15 @@ ht-degree: 95%
    + [內部 URL 篩選器](admin/internal-url-filter-admin.md)
    + [記錄檔](admin/logs.md)
    + [行銷管道](admin/marketing-channels-admin.md)
-   + [功能表自訂](admin/customize-menus.md)
-   + [量度可見性](admin/metric-visibility.md)
+   + [選單自訂](admin/customize-menus.md)
+   + [量度可見度](admin/metric-visibility.md)
    + [應用程式管理](admin/mobile-management.md)
    + 付費搜尋偵測 {#paid-search-detection}
       + [付費搜尋偵測總覽](admin/paid-search-detection/paid-search-detection.md)
       + [設定付費搜尋偵測](admin/paid-search-detection/t-paid-search-detection.md)
    + [發佈清單](admin/publishing-list.md)
    + [發佈 Widget](admin/publishing-widgets-admin.md)
-   + [偏好設定管理器](admin/preferences-manager.md)
+   + [偏好設定管理員](admin/preferences-manager.md)
    + [隱私權設定](admin/privacy-settings.md)
    + [隱私權報告](admin/privacy-reporting.md)
    + 處理規則 {#processing-rules}
@@ -65,20 +65,20 @@ ht-degree: 95%
          + [處理順序](admin/c-processing-rules/c-processing-rules-configuration/processing-rule-order.md)
          + [建立處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
          + [檢視作用中的處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-         + [檢視處理規則歷史記錄](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+         + [檢視處理規則記錄](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
          + [還原處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
          + [複製處理規則至其他報表套裝](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
       + [可用於處理規則的維度](admin/c-processing-rules/processing-rule-dimensions.md)
       + 處理規則範例 {#processing-rules-examples}
          + [處理規則的範例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [從查詢字串參數填入促銷活動 ID](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+         + [從查詢字串參數填入行銷活動 ID](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
          + [從產品總覽頁面設定產品檢視事件](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
          + [串連類別和頁面名稱以新增子類別](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
          + [將 eVar 值複製至 Prop 以判斷路徑](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
          + [清除報表中的值](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
          + [使用查詢字串參數填入內部搜尋詞](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [複製上下文資料變數至 eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [使用上下文資料變數設定事件](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+         + [複製內容資料變數至 eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+         + [使用內容資料變數設定事件](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
          + [從點擊中移除事件](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
       + [處理規則提示與秘訣](admin/c-processing-rules/processing-rules-tips.md)
    + 即時報表 {#real-time-reports}
@@ -93,7 +93,7 @@ ht-degree: 95%
       + [伺服器端轉送資料和程式碼參考](admin/c-server-side-forwarding/ssf-reference.md)
       + [如何確認您的伺服器端轉送實作情形](admin/c-server-side-forwarding/ssf-verify.md)
       + [伺服器端轉送常見問答](admin/c-server-side-forwarding/ssf-faq.md)
-   + [簡化的報表功能表](admin/t-simplified-menu.md)
+   + [簡化的報表選單](admin/t-simplified-menu.md)
    + [社交管理](admin/social-management.md)
    + 成功事件 {#success-events}
       + [成功事件總覽](admin/c-success-events/success-event.md)
@@ -108,7 +108,7 @@ ht-degree: 95%
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
-+ AnalyticsAdobe Admin Console {#admin-console} 中
++ Admin Console 中的 Adobe Analytics {#admin-console}
    + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 權限 {#permissions}
       + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
@@ -127,7 +127,7 @@ ht-degree: 95%
    + [隱藏報表套裝](company/c-hide-report-suites.md)
    + [安全管理員](company/security-manager.md)
 + 管理報表套裝 {#manage-report-suites}
-   + [報表套裝管理器](c-manage-report-suites/report-suites-admin.md)
+   + [報表套裝管理員](c-manage-report-suites/report-suites-admin.md)
    + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
    + [建立統計報表套裝](c-manage-report-suites/t-rollups.md)
    + 報表套裝範本 {#report-suite-templates}
@@ -151,9 +151,9 @@ ht-degree: 95%
 + 用戶和產品管理 (舊版) {#user-product-management}
    + [用戶和產品管理](user-management2/user-management.md)
    + 將用戶移轉至 Adobe Admin Console {#migrate-users}
-      + [Analytics 用戶移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [移轉 Adobe ID 的 Analytics 用戶帳戶](user-management2/user-migration/t-migrate-users.md)
-      + [移轉 Enterprise 與 Federated ID 的 Analytics 用戶帳戶](user-management2/user-migration/migrate-enterprise.md)
+      + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
+      + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
+      + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
       + [停用舊版登入](user-management2/user-migration/t-disable-legacy-login.md)
       + [受移轉影響的 API](user-management2/user-migration/developer.md)
 + 資料控管 {#data-governance}

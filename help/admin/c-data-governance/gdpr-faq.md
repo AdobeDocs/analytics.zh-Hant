@@ -6,7 +6,7 @@ exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
 source-wordcount: '1802'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>Adobe Analytics 如何支援由客戶 (資料控管單位) 驗證的使用者 (資料主體) 存取和刪除請求？</b> </p> </td> 
-   <td colname="col2"> <p>各種資料隱私權規定 (GDPR、CCPA) 生效時，Adobe Analytics 會協助處理由資料控管單位提交到 Experience Cloud 資料隱私權 API 的已驗證請求，藉此提高程序的自動化程度。Adobe 資料隱私權 API 的設計目的，是為了協助處理客戶儲存在不同 Adobe Experience Cloud 解決方案中之資料的個別權限請求 (如存取和刪除請求)。它具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。此外，Privacy ServiceAPI允許客戶檢查資料存取和刪除請求的履行情況。 </p> <p>有關詳細資訊，請參閱 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/"> Privacy ServiceAPI文檔。 </a> </p> </td> 
+   <td colname="col2"> <p>各種資料隱私權規定 (GDPR、CCPA) 生效時，Adobe Analytics 會協助處理由資料控管單位提交到 Experience Cloud 資料隱私權 API 的已驗證請求，藉此提高程序的自動化程度。Adobe 資料隱私權 API 的設計目的，是為了協助處理客戶儲存在不同 Adobe Experience Cloud 解決方案中之資料的個別權限請求 (如存取和刪除請求)。它具有靈活彈性的特點，能因應貴公司從資料主體收到的資料存取和刪除請求數量而調整。此外，Privacy Service API 也允許客戶查看資料存取和刪除請求的履行狀態。 </p> <p>如需詳細資訊，請參閱 <a href="https://developer.adobe.com/experience-platform-apis/references/privacy-service/">Privacy Service API 文件</a>。  </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>誰負責接收、接受及履行使用者的資料隱私權請求？</b> </p> </td> 
@@ -52,7 +52,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>資料控管單位應對資料隱私權的資料保留抱持什麼看法？</b> </p> </td> 
-   <td colname="col2"> <p>根據資料隱私權的廣泛規定，個人資料的保留時間通常不應超過達到資料收集目的所需的時間。 </p> <p>如同 Adobe 在 2 月發佈的客戶通信內容所述，除非另有安排 (會事先通知客戶並獲得授權)，否則我們會對大多數的客戶採用 25 個月的資料保留計劃。客戶必須在 Adobe 能夠處理資料隱私權請求前，設定資料保留政策。 </p> <p>Adobe Analytics 會要求客戶設定處理資料隱私權請求時的資料保留時間。各報表套裝的現有資料保留政策會顯示在全新的「資料控管」管理員 UI 中。客戶如需調整其資料保留政策，應聯絡 Adobe 代表。請參閱 <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html?lang=zh-Hant">Adobe Analytics 資料保留的常見問題集</a>。 </p> </td> 
+   <td colname="col2"> <p>根據資料隱私權的廣泛規定，個人資料的保留時間通常不應超過達到資料收集目的所需的時間。 </p> <p>如同 Adobe 在 2 月發佈的客戶通信內容所述，除非另有安排 (會事先通知客戶並獲得授權)，否則我們會對大多數的客戶採用 25 個月的資料保留計劃。客戶必須在 Adobe 能夠處理資料隱私權請求前，設定資料保留政策。 </p> <p>Adobe Analytics 會要求客戶設定處理資料隱私權請求時的資料保留時間。各報表套裝的現有資料保留政策會顯示在全新的「資料控管」管理員 UI 中。客戶如需調整其資料保留政策，應聯絡 Adobe 代表。請參閱 <a href="https://experienceleague.adobe.com/docs/analytics/technotes/latency.html">Adobe Analytics 資料保留的常見問題集</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>客戶能縮短或延長預設資料保留期間嗎？</b> </p> </td> 

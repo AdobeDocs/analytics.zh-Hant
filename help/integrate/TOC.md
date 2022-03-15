@@ -5,7 +5,7 @@ user-guide-title: Analytics 整合指南
 breadcrumb-title: 整合指南
 user-guide-description: 設定與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager 和 Advertising Cloud) 的整合作業。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
 
