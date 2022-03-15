@@ -4,7 +4,7 @@ description: 了解如何減輕瀏覽器 Cookie 限制之影響，以改良 Adob
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '516'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 ## Customer Journey Analytics 和 Cross Device Analytics
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 和[跨裝置分析](/help/components/cda/overview.md)允許使用者包含持久性識別碼 (例如雜湊登入) 和 Cookie。 這可讓您了解跨裝置的客戶歷程，若是 Customer Journey Analytics，則為跨線上和離線頻道：
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) 和[跨裝置分析](/help/components/cda/overview.md)允許使用者包含持久性識別碼 (例如雜湊登入) 和 Cookie。 這可讓您了解跨裝置的客戶歷程，若是 Customer Journey Analytics，則為跨線上和離線頻道：
 
 * **Customer Journey Analytics** 建立在 Adobe Experience Platform 上，提供在 Analysis Workspace 中根據任何常見客戶 ID 結合線上和離線資料的靈活性。 您可以指定要用於任何特定分析的 ID，並探索 Analysis Workspace 中的資料。 Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。
 
@@ -30,7 +30,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 伺服器端收集可靈活地提供您自己的識別碼，而不需仰賴瀏覽器機制來設定 Cookie。
 
-您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實作。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=zh-Hant)」。
+您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實作。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html)」。
 
 ## 詳細資訊
 
