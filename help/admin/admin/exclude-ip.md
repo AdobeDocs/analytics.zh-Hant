@@ -1,12 +1,12 @@
 ---
 title: 依 IP 位址排除
-description: 防止某些IP地址生成的資料出現在報告中。
+description: 防止某些 IP 位址產生的資料出現在報表中。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -14,17 +14,17 @@ ht-degree: 79%
 
 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。
 
-**[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 按IP排除]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 依 IP 位址排除]**
 
 >[!NOTE]
 >
->依 IP 位址排除的點擊會在帳單中計為[「伺服器呼叫」](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)。
+>依 IP 位址排除的點擊在帳單中會計為[伺服器呼叫](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)。
 
-您可使用萬用字元 (*) 排除某個位址範圍。舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
+您可使用萬用字元指標 (*) 排除某個位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
 
 >[!TIP]
 >
->私有IP地址不必排除。 只有外部IP地址才能到達Adobe資料收集伺服器。 專用地址包括 `10.*.*.*`。 `192.168.*.*`。 `172.[16-31].*.*`, `169.254.*.*`。
+>私人 IP 位址不需要排除。 只有外部 IP 位址可以聯繫 Adobe 資料收集伺服器。 私人位址包括 `10.*.*.*`、`192.168.*.*`、`172.[16-31].*.*` 和 `169.254.*.*`。
 
 ## IP 模糊化的影響 {#section_51B7529FFF16449CA016FDC51D87E2CA}
 
