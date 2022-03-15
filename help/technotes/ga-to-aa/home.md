@@ -4,7 +4,7 @@ description: 以熟悉其他平台 (例如 Google Analytics) 的使用者為對�
 feature: Third-party Integration
 exl-id: e71b12ad-11b7-48a0-8586-f8eb63975479
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '438'
 ht-degree: 100%
 
@@ -27,9 +27,9 @@ Google Analytics 和 Adobe Analytics 都是功能強大的平台，可針對您�
 
 Adobe 建議從取得報表資料的絕對基礎概念開始：
 
-* [為 GA 使用者在 Analysis Workspace 建立基本報表](reports/create-report.md)
+* [為 GA 使用者在 Analysis Workspace 中建立基本報表](reports/create-report.md)
 
-在您熟悉 [!UICONTROL Analysis Workspace] 中的元件後，便可瞭解如何使用正確的元件來重新建立大部分的報表。
+在您熟悉 [!UICONTROL Analysis Workspace] 中的元件後，便可了解如何使用正確的元件來重新建立大部分的報表。
 
 * [在 Adobe Analytics 中建立即時報表](reports/realtime-reports.md)
 * [在 Adobe Analytics 中建立對象報表](reports/audience-reports.md)
