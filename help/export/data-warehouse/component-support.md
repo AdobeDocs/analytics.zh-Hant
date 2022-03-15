@@ -4,7 +4,7 @@ description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '379'
 ht-degree: 100%
 
@@ -42,9 +42,9 @@ Data Warehouse 中不支援某些維度和量度。
 
 * 某些以時間為主的維度，包括：
    * 上午/下午
-   * 日期
+   * 當月日期
    * 星期
-   * 一年當中的第幾天
+   * 年中的日
    * 小時
    * 分鐘
    * 月份
