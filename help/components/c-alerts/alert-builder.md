@@ -4,7 +4,7 @@ title: 警報產生器
 feature: Alerts
 exl-id: 82e51357-4a32-4db1-bc56-95a72dbaa1be
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '466'
 ht-degree: 100%
 
@@ -91,6 +91,6 @@ ht-degree: 100%
 
 例如，如果您將時間詳細程度設為每日，則預覽可告訴您在過去 30 或 31 天裡，針對某個量度觸發了 x 次警報。
 
-如果您覺得觸發的警報次數過多，可在「[警報管理器](/help/components/c-alerts/alert-manager.md)」中調整臨界值。
+如果您覺得觸發的警報次數過多，可在「[警報管理員](/help/components/c-alerts/alert-manager.md)」中調整臨界值。
 
 ![](assets/alert_preview.png)
