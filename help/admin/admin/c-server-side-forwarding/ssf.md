@@ -1,19 +1,19 @@
 ---
-description: 伺服器端轉送功能經過精心設計，可讓客戶即時從 Analytics 將資料共用至其他 Experience Cloud 解決方案。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
+description: 伺服器端轉送功能經過精心設計，可讓客戶即時從 Analytics 將資料共用至其他 Experience Cloud 解決方案。啟用伺服器端轉送功能後，也可在資料收集過程中讓 Analytics 推送資料到其他 Experience Cloud 解決方案，並讓這些解決方案推送資料到 Analytics。
 solution: Analytics
-title: 伺服器端轉送概觀
+title: 伺服器端轉送總覽
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# 伺服器端轉送概觀
+# 伺服器端轉送總覽
 
-伺服器端轉送功能經過精心設計，可讓客戶即時從 Analytics 將資料共用至其他 Experience Cloud 解決方案。啟用伺服器端轉送功能後，可在資料收集程序期間期間，讓 Analytics 推送資料到其他 Experience Cloud 解決方案，以及讓這些解決方案推送資料到 Analytics。
+伺服器端轉送功能經過精心設計，可讓客戶即時從 Analytics 將資料共用至其他 Experience Cloud 解決方案。啟用伺服器端轉送功能後，也可在資料收集過程中讓 Analytics 推送資料到其他 Experience Cloud 解決方案，並讓這些解決方案推送資料到 Analytics。
 
 伺服器端轉送可進一步改善資料收集方式，因為它：
 
@@ -26,7 +26,7 @@ ht-degree: 93%
 >使用 Analytics 的 Audience Manager 現有客戶應改為使用伺服器端轉送。Adobe Analytics 和 Audience Manager 的新客戶應實施伺服器端轉送 (而不是 DIL) 作為預設的資料收集和傳送方法。
 
 >[!IMPORTANT]
->現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager (AAM)。如此一來，實施環境變數有別於以往，可讓您標記未獲許可的點擊。設定變數時，可防止這些點擊在收到許可前傳送至 AAM。如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)。
+>現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager (AAM)。新的實作內容變數可讓您在未收到同意的地方標記點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 AAM。如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf-gdpr.md)。
 
 若要瞭解貴組織實施伺服器端轉送的狀況，請進行以下驗證步驟：
 
@@ -64,10 +64,10 @@ ht-degree: 93%
 
 前往&#x200B;**「Analytics** > **管理員** > **報表套裝** > (選取&#x200B;**「報表套裝」**) > **編輯設定** > **一般** > **伺服器端轉送」**。如果核取方塊為：
 
-* **非活動** （無法進行選擇或菜單不存在）:您沒有將所選報告套件映射到IMS組織。請與客戶服務部門聯繫，確保報告套件已正確映射。
+* **無效** (您無法進行選擇或是選單不存在)：您沒有對應到 IMS 組織的選定報表套裝。請聯絡客戶服務以確定報表套裝已正確對應。
 * **已停用**：您未開啟新的伺服器端轉送。閱讀頁面中的內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。您也可以設定此 Audience Analytics 整合。
 
 >[!NOTE]
 >
->您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html?lang=zh-Hant) 或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=zh-Hant) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。
+>您必須完成全部 3 個步驟，資料才會出現在 [Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-home.html) 或 [ Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 等其他 Experience Cloud 解決方案中。啟用後，這些設定需要數小時的時間才會生效。
