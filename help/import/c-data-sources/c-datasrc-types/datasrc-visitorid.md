@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 940af1ba-0d12-4552-a21e-0ceb06427ab2
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '224'
+ht-degree: 100%
 
 ---
 
@@ -39,10 +39,10 @@ ht-degree: 0%
 | [!UICONTROL 點進] | 追蹤代碼檢視次數。 |
 | [!UICONTROL 購物車新增次數] | 購物車新增次數。 |
 | [!UICONTROL 購物車開啟次數] | 購物車開啟次數。 |
-| [!UICONTROL 購物車刪除次數] | 購物車移除次數。 |
+| [!UICONTROL 購物車移除次數] | 購物車移除次數。 |
 | [!UICONTROL 購物車檢視] | 購物車檢視次數。 |
 | [!UICONTROL 結帳] | 結帳次數。 |
-| [!UICONTROL 事件&#x200B;]*n* | 事件&#x200B;*n* 的發生次數。n 的有效值是整數 1 - 100。若您指定「[!UICONTROL 檢視]」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 的值。 |
+| [!UICONTROL 事件&#x200B;]*n* | 事件&#x200B;*n* 的發生次數。n 的有效值是整數 1 - 100。若您指定「[!UICONTROL 檢視]」事件，則必須指定對應的資料維度 (eVar)。例如，若加入 eVar2 檢視，則必須列出 eVar2 和它的值。 |
 | [!UICONTROL eVar ]*n* 檢視 | 檢視 eVar *n* 的次數。*n* 的有效值是整數 1 - 75。 |
 | [!UICONTROL 價格] | 產品價格。 |
 | [!UICONTROL 訂購] | 訂購次數。 |
