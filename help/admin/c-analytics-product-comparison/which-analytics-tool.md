@@ -4,9 +4,9 @@ title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 98%
 * 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
 * 用於利用排程報告中的「發佈清單」。
 
-該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant)** 的情況：
+該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** 的情況：
 
 * 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
 * 用於從 CRM 到 POS 到 Web，建立線上和離線互動的多頻道資料集。
@@ -62,9 +62,9 @@ ht-degree: 98%
    * 交易 ID：上傳會將線上端點連線到離線資料的資料，並將匯入的資料完全關聯到線上擷取的訪客快照 (例如，線上完成訂單，然後離線辦理退款)
    * 完整處理：具有時間戳記的資料來源，會將資料當成由 Adobe 伺服器所收集的點擊來處理。也就是，資料會直接插入訪客的日常動向中。
 
-**[AdobeExchange整合](https://www.adobeexchange.com/experiencecloud.html)** 應使用：
+應該使用 **[Adobe Exchange 整合](https://www.adobeexchange.com/experiencecloud.html)**：
 
-* 當您與協力廠商提供者進行交流，而對方已建立 Adobe Analytics 的支援連線時。整合應用通常會定期將摘要級資料永久自動地併入Adobe Analytics。
+* 當您與協力廠商提供者進行交流，而對方已建立與 Adobe Analytics 的支援連線時。 整合應用程式通常會定期地自動將摘要層級資料永久納入 Adobe Analytics。
 
 **[Data Insertion API](/help/import/c-data-insertion-api/c-data-insertion-api.md)** 使用時機：
 
@@ -74,7 +74,7 @@ ht-degree: 98%
 
 * 「資料插入 API」和「大量資料插入 API」都是將伺服器端的蒐集資料送至 Adobe Analytics 的方法。每發生一個事件時，「資料插入 API」都會被呼叫。「大量資料插入 API」接受含有事件資料的 CSV 格式檔案 (其中每一行儲存一個事件)。 若您正在實施新的伺服器端蒐集作業，建議採用「大量資料插入 API」。
 
-**[「客戶屬性」](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant)**&#x200B;使用時機：
+**[「客戶屬性」](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html)**&#x200B;使用時機：
 
 * 如果您在客戶關係管理 (CRM) 資料庫中擷取企業客戶資料，並且想要將該資料上傳至 Experience Cloud 時。
 * 如果您想要使用 CRM 資料在 Analytics 中進行較為深入的分析時，或是將 CRM 資料作為 Adobe Target 中的目標準則時。
