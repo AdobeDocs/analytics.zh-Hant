@@ -4,49 +4,49 @@ description: 瞭解如何在 Adobe Analytics 中自訂報表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # 自訂報表
 
-在 Google Analytics 等協力廠商平台中，有數個自訂選項可供使用。這些自訂功能可讓使用者建立控制面板、自訂報表、已儲存報表，以及自訂警報。由於 Analysis Workspace 可讓使用者從空白畫布建立報表，因此大部分的自訂功能都直接內建在工具中。
+在 Google Analytics 等協力廠商平台中，有數個自訂選項可供使用。這些自訂功能可讓使用者建立儀表板、自訂報表、已儲存報表，以及自訂警報。由於 Analysis Workspace 可讓使用者從空白畫布建立報表，因此大部分的自訂功能都直接內建在工具中。
 
-此頁假定用戶具有使用 [!UICONTROL Analysis Workspace]。 如果您尚不熟悉 Adobe Analytics 中的工具，請參閱[在 Analysis Workspace 中建立基本報表 (Google Analytics 使用者適用)](reports/create-report.md)。
+本頁假設使用者具備使用 [!UICONTROL Analysis Workspace] 的基本知識。 如果您尚不熟悉 Adobe Analytics 中的工具，請參閱[在 Analysis Workspace 中建立基本報表 (Google Analytics 使用者適用)](reports/create-report.md)。
 
-## 控制面板
+## 儀表板
 
-的 [!UICONTROL Analysis Workspace] 體系結構與儀表板小部件的概念類似。 項目 [!UICONTROL Analysis Workspace] 是與Google Analytics中的儀表板的大致相同。 可視化 [!UICONTROL Analysis Workspace] 是Google Analytics中小部件的近似等價值。
+[!UICONTROL Analysis Workspace] 架構與儀表板 Widget 的概念類似。 [!UICONTROL Analysis Workspace] 中的專案約略等同於 Google Analytics 中的儀表板。 [!UICONTROL Analysis Workspace] 中的視覺效果約略等同於 Google Analytics 中的 Widget。
 
 ### 新增內容到專案
 
-1. 按一下 [!UICONTROL 可視化] 表徵圖，並將所需的可視化效果拖到工作區上。
-2. 按一下 [!UICONTROL 元件] 表徵圖，並將所需的尺寸和度量拖到可視化中，以用資料填充。
-3. 拖曳視覺效果的邊緣以調整其大小，而拖曳視覺效果的標頭即可移動。
+1. 按一下左側的[!UICONTROL 視覺效果]圖示，然後將所需的視覺效果拖曳到工作區。
+2. 按一下左側的[!UICONTROL 元件]圖示，並將所需的維度和量度拖曳到視覺效果上，以便為其填入資料。
+3. 拖曳視覺效果的邊緣可調整其大小，拖曳視覺效果的標題可移動它。
 
-所有Google Analytics小部件均可用於 [!UICONTROL Analysis Workspace]:
+[!UICONTROL Analysis Workspace] 中有提供所有 Google Analytics Widget：
 
-* **量度 Widget** 約略等同於「摘要數字」視覺效果。
-* **時間軸 Widget** 約略等同於「線條圖」視覺效果。
-* **Geomap Widget** 約略等同於「地圖」視覺效果。
-* **表格 Widget** 約略等同於「自由表格」視覺效果。
-* **圓形圖 Widget** 約略等同於「環圈圖」視覺效果。
-* **長條圖 Widget** 約略等同於「長條圖」視覺效果。
+* **量度 Widget** 約略等同於[!UICONTROL 摘要數字]視覺效果。
+* **時間軸 Widget** 約略等同於[!UICONTROL 線條]視覺效果。
+* **Geomap Widget** 約略等同於[!UICONTROL 地圖]視覺效果。
+* **表格 Widget** 約略等同於[!UICONTROL 自由格式表格]視覺效果。
+* **圓形圖 Widget** 約略等同於[!UICONTROL 環形圖]視覺效果。
+* **長條圖 Widget** 約略等同於[!UICONTROL 長條圖]視覺效果。
 
-[!UICONTROL Analysis Workspace 包含更多視覺效果選項，讓您以最符合報表需求的方式呈現資料。]如需詳細資訊，請參閱分析使用指南中的 [Analysis Workspace 中的視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
+[!UICONTROL Analysis Workspace] 包含更多視覺效果選項，好讓您以最符合報告需求的方式呈現資料。 如需詳細資訊，請參閱分析使用指南中的 [Analysis Workspace 中的視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)。
 
 ### 共用專案
 
 一旦您將內容新增至專案之後，即可加以共用。
 
-* 要與同事共用項目，請轉到 **[!UICONTROL 共用>共用項目]**。 收件者是貴組織中擁有 Adobe Analytics 帳戶的其他使用者。
-* 要通過連結共用您的項目，請轉到 **[!UICONTROL 共用>獲取項目連結]**。 請注意，這仍需要在貴組織內登入 Adobe Analytics。
+* 若要與同事共用專案，請前往&#x200B;**[!UICONTROL 共用 > 共用專案]**。 收件者是貴組織中擁有 Adobe Analytics 帳戶的其他使用者。
+* 若要透過連結共用您的專案，請前往&#x200B;**[!UICONTROL 共用 > 取得專案連結]**。 請注意，這仍需要在貴組織內登入 Adobe Analytics。
 
 ### 匯出專案
 
-除了PDF, [!UICONTROL Analysis Workspace] 提供CSV導出。
+除了 PDF 之外，[!UICONTROL Analysis Workspace] 還提供 CSV 匯出功能。
 
 1. 按一下&#x200B;*[!UICONTROL 共用]* > *[!UICONTROL 立即傳送檔案]*&#x200B;以開啟模組視窗。
 2. 指定檔案類型和收件者。
@@ -62,7 +62,7 @@ ht-degree: 75%
 
 要建立計算量度：
 
-1. 按一下 **+** 表徵圖，在「度量」清單中開啟 [!UICONTROL 計算度量生成器]。
+1. 按一下量度清單附近的 **+** 圖示，開啟[!UICONTROL 計算量度產生器]。
 2. 為您的計算量度命名並指定格式。
 3. 將量度元件拖曳至定義區域，然後使用每個元件之間的下拉式清單來指定運算子。
 4. 一旦計算量度包含所需公式之後，按一下「儲存」返回您的工作區。
