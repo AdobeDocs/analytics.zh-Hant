@@ -4,7 +4,7 @@ title: 常見問答
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1411'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：哪些 <b>Adobe Analytics SKU</b> 授予您使用 Advertising Analytics 的權益？ </p> </td> 
-   <td colname="col2"> <p>Advertising Analytics 適用於 Adobe Analytics <a href="https://www.adobe.com/tw/data-analytics-cloud/analytics/select.html"  >Select</a>、<a href="https://www.adobe.com/tw/data-analytics-cloud/analytics/prime.html"  >Prime</a> 及 <a href="https://www.adobe.com/tw/data-analytics-cloud/analytics/ultimate.html"  >Ultimate</a> 的 SKU。 </p> </td> 
+   <td colname="col2"> <p>Advertising Analytics 適用於 Adobe Analytics <a href="https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/select.html"  >Select</a>、<a href="https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/prime.html"  >Prime</a> 及 <a href="https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/ultimate.html"  >Ultimate</a> 的 SKU。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：使用 Advertising Analytics 需要<b>額外付費</b>嗎？ </p> </td> 
@@ -103,7 +103,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：<b>何時</b>會將搜尋資料提取至 Analytics？ </p> </td> 
-   <td colname="col2"> <p>答：系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬 Analytics 資料中心當地時區的上午 6 點 (06:00)。這也是收集 AMO 資料並將其插入報表套裝的時間。 該資料接著會在資料插入 Analytics 的過程中轉換為報表套裝的時區。  </p> </td> 
+   <td colname="col2"> <p>答：系統從搜尋引擎提取搜尋資料的時間，大約是在您所屬 Analytics 資料中心當地時區的上午 6 點 (06:00)。這也是收集 AMO 資料並將其插入報表套裝的時間。 該資料接著會在資料插入 Analytics 的過程中轉換為報表套裝的時區。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：<b>點擊前可擷取</b>哪些內容？我們是否在未點擊前就帶來了曝光數、成本、平均位置等資料？ </p> </td> 
@@ -150,8 +150,8 @@ ht-degree: 100%
    <td colname="col1"> <p>問：若一開始設定了手動或自動追蹤，稍後<b>可以切換</b>至另一個追蹤模式嗎？有什麼影響？ </p> </td> 
    <td colname="col2"> <p>答：可以切換，但在切換之前需要先移除舊的追蹤邏輯。這可能導致切換當天的追蹤中斷 (特別是從手動切換至自動的情況)。因此，除非絕對必要，否則建議不要進行切換。 </p> 
     <ul id="ul_3F3CADD1C97B4947A13837CEE63A599D"> 
-     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>從手動切換至自動</b>：移除追蹤範本的手動新增項目，然後在 Advertising Analytics 使用者介面中，從手動切換至自動並儲存設定。請注意，系統可能需要花費長達數小時以填入自動追蹤程式碼。 </li> 
-     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>從自動切換至手動</b>：在 Advertising Analytics 設定使用者介面中，從自動切換至手動，然後盡可能快速地部署手動追蹤程式碼。部署手動追蹤程式碼時，若在搜尋引擎追蹤範本中看到自動追蹤程式碼，請將其移除。 </li> 
+     <li id="li_CB9265951FD040388AEAB9EAD790A36E"><b>從手動切換至自動</b>：移除追蹤範本的手動新增項目，然後在 Advertising Analytics 使用者介面中，從手動切換至自動並儲存設定。請注意，系統可能需要花費長達數小時以填入自動追蹤代碼。 </li> 
+     <li id="li_2B6ED1342E2D443B8AF26D03532AB8E4"><b>從自動切換至手動</b>：在 Advertising Analytics 設定使用者介面中，從自動切換至手動，然後盡可能快速地部署手動追蹤代碼。部署手動追蹤代碼時，若在搜尋引擎追蹤範本中看到自動追蹤代碼，請將其移除。 </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
