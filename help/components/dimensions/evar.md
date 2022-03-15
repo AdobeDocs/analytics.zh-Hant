@@ -4,9 +4,9 @@ description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '784'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 96%
 
 *此說明頁面將說明 eVar 做為維度的運作方式。如需實作 eVar 的相關資訊，請參閱實作使用手冊中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自訂變數，您可以視需要使用。如果你有 [解決方案設計文檔](/help/implement/prepare/solution-design.md)，大多數特定於您組織的維最終 [!UICONTROL 埃瓦爾]。 依預設，eVar 可存留於其設定的點擊之外。您可以在以下位置自定義其到期和分配 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 在 [!UICONTROL 報表套件設定]。
+eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織專屬的大部分維度最終都會變成 [!UICONTROL eVar]。 依預設，eVar 可保存在其設定所在的點擊之外。 您可以在[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) (位在[!UICONTROL 報表套裝設定]中) 底下自訂其到期日和配置。
 
 可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
-報告中使用的 (大寫或小寫) 大小寫是根據後端系統註冊的第一個值。 此值可能是第一次出現，也可能在某個時段（例如，每月）發生變化，具體取決於與報告套裝關聯的資料種類和數量。
+報告中使用的 (大寫或小寫) 大小寫是根據後端系統註冊的第一個值。 此值可能是第一次出現，也可能在某個時段（例如，每月）發生變化，具體取決於與報表套裝關聯的資料種類和數量。
 
 ## 將資料填入 eVar 中
 
@@ -61,7 +61,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 * `visitor_id` 欄會將點擊連結至相同的訪客。在實際原始資料中，`visid_high` 和 `visid_low` 的串連值將決定訪客 ID。
 * `pagename` 欄中會填入「頁面」維度。
 * `evar` 欄會決定 eVar1 明確設定時的點擊。
-* `post_evar1` 包含先前值 (取決於報告套裝設定下的變數配置和到期日設定)。
+* `post_evar1` 包含先前值 (取決於報表套裝設定下的變數配置和到期日設定)。
 * `event_list` 欄包含所有量度資料。在此範例中，`event1` 是「搜尋」，其他事件則是標準購物車量度。在實際原始資料中，`event_list` 包含一組以逗號分隔的數字，而查找表格會將這些數字連結至量度。
 
 ### 將資料收集轉換為報表
@@ -84,7 +84,7 @@ Analysis Workspace 使用下列邏輯提取此報表：
 * 依預設，eVar 會使用最後一個配置。新值會覆寫持續值。
 * 依預設，eVar 會使用造訪的到期日。造訪結束後，值即停止在 `post_evar` 欄中逐列複製。
 
-您可以在報告套裝設定中的[「轉換變數」](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下變更 eVar 配置和到期日。
+您可以在報表套裝設定中的[「轉換變數」](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下變更 eVar 配置和到期日。
 
 ## eVar 優於 Prop 之處
 
