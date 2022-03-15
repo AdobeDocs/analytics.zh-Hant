@@ -5,9 +5,9 @@ title: 可用於處理規則的維度
 feature: Processing Rules
 exl-id: ffd7a1d6-2c9d-41e7-9c75-9e47b6f9c283
 source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '743'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 86%
 
 您可使用處理規則讀取和寫入 (除非另有說明) 的維度。
 
-## 自訂值和上下文資料 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
+## 自訂值和內容資料 {#section_7A5E1810CAC34B0BBC69F8F5F7C75AA5}
 
 <table id="table_5011C501D5DC489E87A42FFC51DEB40D"> 
  <thead> 
@@ -38,8 +38,8 @@ ht-degree: 86%
    <td colname="col2"> <p>如果使用處理規則變更了變數值，已變更的值將用於後續條件和規則。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>上下文資料變數 </p> </td> 
-   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意：上下文資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。上下文資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製上下文資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用上下文資料變數設定事件</a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 上下文資料變數</a> </p> </td> 
+   <td colname="col1"> <p>內容資料變數 </p> </td> 
+   <td colname="col2"> <p>伴隨點擊而傳送的具名變數。 </p> <p>注意：內容資料變數中包含的任何資料都必須複製至報表變數，才會在報表中顯示。內容資料變數無法在任何報告介面中檢視，包括 ClickStream 資料饋送。 </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md">複製內容資料變數至 eVar</a> </p> <p> <a href="/help/admin/admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md">使用內容資料變數設定事件</a> </p> <p> <a href="/help/implement/vars/page-vars/contextdata.md"> 內容資料變數</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -89,11 +89,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面名稱 </p> </td> 
-   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注：鏈路跟蹤呼叫 <code>pageName</code> 變數才能達到處理規則。 如果使用處理規則重新插入頁名值，則點擊將被視為頁面視圖，而不是連結跟蹤調用。 Adobe建議在修改頁面名稱之前檢查是否已設定頁面名稱。 </p> </td> 
+   <td colname="col2"> <p> <code> s.pageName</code> </p> <p>注意：連結追蹤呼叫在到達處理規則之前會移除 <code>pageName</code> 變數。 如果您使用處理規則重新插入頁面名稱值，則點擊會被視為頁面檢視，而不是連結追蹤呼叫。 Adobe 建議您詳加檢查，確保頁面名稱已設定妥當，然後再修改。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>頁面 URL </p> </td> 
-   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 <p>注：鏈路跟蹤呼叫 <code>pageURL</code> 變數才能達到處理規則。 如果使用處理規則重新插入頁面URL值，則點擊將被視為頁面視圖，而不是連結跟蹤調用。 Adobe建議在修改頁面URL之前檢查是否已設定。 </p></td> 
+   <td colname="col2"> <code> s.pageURL</code> 或目前頁面 URL (若未指定 <code> s.pageURL</code>)。 <p>注意：連結追蹤呼叫在到達處理規則之前會移除 <code>pageURL</code> 變數。 如果您使用處理規則重新插入頁面 URL 值，則點擊會被視為頁面檢視，而不是連結追蹤呼叫。 Adobe 建議您詳加檢查，確保頁面 URL 已設定妥當，然後再修改。 </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>查詢字串參數 </p> </td> 
@@ -129,11 +129,11 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結根網域 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> couk</span>/index.jsp?q=value </p> </td> 
+   <td colname="col2"> <p>反向連結之主機名稱的最後兩個區段。https://en.main.example.<span class="syntax codeph"> co.uk</span>/index.jsp?q=value </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>反向連結查詢字串 (唯讀) </p> </td> 
-   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp?<span class="syntax codeph"> q=值</span> </p> </td> 
+   <td colname="col2"> <p>反向連結 URL 中包含的查詢字串參數。https://en.main.example.co.uk/index.jsp? <span class="syntax codeph"> q=value</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>IP 位址 (唯讀) </p> </td> 
@@ -165,7 +165,7 @@ ht-degree: 86%
    <td colname="col2"> <p> <code> evar1</code> - <code> evarN</code> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>促銷活動追蹤程式碼 </p> </td> 
+   <td colname="col1"> <p>行銷活動追蹤代碼 </p> </td> 
    <td colname="col2"> <p> <code> s.campaign</code> </p> </td> 
   </tr> 
   <tr> 
@@ -208,7 +208,7 @@ ht-degree: 86%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>事件1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
+   <td colname="col1"> <p>Event1-1000 </p> <p>(針對 SiteCatalyst 15 客戶，事件 1-100。) </p> </td> 
    <td colname="col2"> <p> <code> event1</code> - <code> event1000</code> </p> </td> 
   </tr> 
   <tr> 
