@@ -5,9 +5,9 @@ feature: Alerts
 role: User, Admin
 exl-id: 49d47896-bf93-4960-b647-2765c935eb25
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '364'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 
 智慧型警報可提供更細緻的警報控制能力，並整合警報系統與異常偵測功能。
 
-這裡提供有關[智慧型警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html?lang=zh-Hant)的教學影片 (5:34)
+這裡提供有關[智慧型警報](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/data-science/intelligent-alerts.html)的教學影片 (5:34)
 
 ## 概觀
 
-Analysis Workspace 中的新「警報產生器」和「警報管理器」取代了「Reports &amp; Analytics」中的現有警報功能。智慧型警報可讓您：
+Analysis Workspace 中的新「警報產生器」和「警報管理員」取代了「Reports &amp; Analytics」中的現有警報功能。智慧型警報可讓您：
 
 * 根據異常 (90％、95％、99%、99.75% 或 99.9% 臨界值；% 變化；以上/以下) 建立警報
 * 預覽警報觸發的頻率
@@ -30,10 +30,10 @@ Analysis Workspace 中的新「警報產生器」和「警報管理器」取代�
 
 | 方法 | 詳細資料 |
 | --- | --- |
-| 直接轉到警報生成器 | **[!UICONTROL 元件]** > **[!UICONTROL 警報]** |
-| 在Workspace中使用鍵盤快捷鍵 | `Ctrl + Shift + A` (Windows)或 `Cmd + Shift + A` (Mac) |
-| 選擇一個或多個自由格式表行項目/秒 | 按一下右鍵並選擇 **[!UICONTROL 從選擇建立警報]**。 開啟 [!UICONTROL 警報生成器] 並預填充從表中應用的適當度量和篩選器。 您可以視需要編輯警報。![從選取範圍建立警報](assets/create-alert-from-selection.png) |
-| 從報告和分析報告內 | 轉到  **[!UICONTROL 更多]** > **[!UICONTROL 添加警報]** 。 這個動作會開啟警報產生器，並預先填入報表中套用的合適量度量和篩選器。您可以視需要編輯警報。![新增警報](assets/add-alert.png) |
+| 直接前往警報產生器 | **[!UICONTROL 元件]** > **[!UICONTROL 警報]** |
+| 使用工作區中的鍵盤快速鍵 | `Ctrl + Shift + A` (Windows) 或 `Cmd + Shift + A` (Mac) |
+| 選取一個或多個自由表格的條列項目 | 以滑鼠右鍵按一下並選取&#x200B;**[!UICONTROL 從選取範圍建立警報]**。 這樣會開啟[!UICONTROL 警報產生器]，並預先填入從表格套用的適當量度和篩選條件。 您可以視需要編輯警報。 ![從選取範圍建立警報](assets/create-alert-from-selection.png) |
+| 從 Reports &amp; Analytics 報表中 | 前往&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 新增警報]**。 這樣會開啟警報產生器，並預先填入從報表套用的適當量度和篩選條件。 您可以視需要編輯警報。 ![新增警報](assets/add-alert.png) |
 
 百分比臨界值代表標準差。例如，95% = 2 標準差與 99% = 3 標準差。 依您選擇的時間詳細程度而定，[不同模式](../virtual-analyst/c-anomaly-detection/statistics-anomaly-detection.md)會用於計算各資料點距離基準有多遠 (多少標準差)。若您設定較低的臨界值 (例如 90%)，您收到異常警報的次數就會比設定較高臨界值 (99.75%) 時多。
 
