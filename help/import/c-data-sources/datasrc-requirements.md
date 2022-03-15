@@ -6,9 +6,9 @@ topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 97a7cc65-f99a-4227-94f2-6f428ebdfad3
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> UTF-8 </td> 
-   <td colname="col2"> <p>支援.資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html?lang=zh-Hant"  >「新增報表套裝」</a>。 </p> </td> 
+   <td colname="col2"> <p>支援.資料來源使用的報表套裝必須啟用對多位元組字元的支援。 </p> <p>請參閱「說明」中的<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/new-report-suite.html"  >「新增報表套裝」</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> UTF-8 with Byte Order Mark (EF BB BF) </td> 
@@ -94,7 +94,7 @@ ht-degree: 98%
 * 檢視網站記錄時，最實用的報表是流量報表，如頁面檢視。
 * 顯示的頁面名稱為整個 URL，包括查詢字串。
 * 每個檔案請求以單獨的頁面檢視出現，包括樣式表和影像檔。
-* 若您附加資訊到 URL，檔案可能會被記錄為單獨的頁面。例如，Adobe將以下URL記錄為兩個單獨的頁：
+* 若您附加資訊到 URL，檔案可能會被記錄為單獨的頁面。例如，Adobe 會將下列 URL 記錄為兩個不同頁面：
 
 `/jokes/misc/snail_joke.html?userid=12345`
 
