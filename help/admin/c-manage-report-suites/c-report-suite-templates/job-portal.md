@@ -4,7 +4,7 @@ title: 工作入口網站
 feature: Report Suite Settings
 exl-id: d2a03139-7a5d-47bd-a287-fbe83f4a99fd
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 | 轉換變數 | 類型 | 子關聯 | 配置 | 過期 | `s_code` 變數 |
 |---|---|---|---|---|---|
-| 內部促銷活動 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar1` |
+| 內部行銷活動 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar1` |
 | 內部搜尋詞 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar2` |
 | 自助服務事件類型 | 字串 | 基本 | 最近 (最後一個) | 瀏覽 | `evar3` |
 
