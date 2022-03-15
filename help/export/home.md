@@ -1,15 +1,15 @@
 ---
-title: Analytics 匯出指南
+title: Analytics 轉存指南
 description: 本指南會說明透過資料摘要和 Data Warehouse 將資料匯出 Adobe Analytics 的方法。
 exl-id: 0e4014a7-3354-4111-ab74-64d9fa37b9cc
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Analytics 匯出指南
+# Analytics 轉存指南
 
 ![橫幅](../../assets/doc_banner_export.png)
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 * **資料摘要：**&#x200B;接收每小時或每日匯出的原始資料。每一列都是個別點擊，每一欄都是一個變數。資料摘要通常會傳送至 FTP 站台。
 * **Data Warehouse：**&#x200B;使用請求精靈擷取資料的試算表輸出。Data Warehouse 使用不同的處理架構，可允許任意數量的列和任意數量的唯一值。
-* **FTP和SFTP:** 使用FTP和SFTP與Adobe的最佳做法
+* **FTP 和 SFTP：**&#x200B;搭配 Adobe 使用 FTP 和 SFTP 的最佳做法
 
 以下是 Adobe Analytics 的影片概觀：
 
@@ -31,11 +31,11 @@ ht-degree: 93%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://helpx.adobe.com/contact/enterprise-support.ec.html)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
