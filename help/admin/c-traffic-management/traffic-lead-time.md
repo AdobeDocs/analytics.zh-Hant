@@ -4,7 +4,7 @@ title: 流量增加所需的前置時間
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '332'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 
 >[!IMPORTANT]
 >
-> Adobe 無法接受「預留位置」流量變更請求。除非另有指示，否則請盡量遵守建議的前置時間，也不要太早傳送警報。請參閱[排程流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增加](/help/admin/c-traffic-management/t-traffic-permanent.md)。
+>Adobe 無法處理「預留位置」流量變更請求。 除非另有指示，否則請盡量遵守建議的前置時間，也不要太早傳送警報。請參閱[排程流量尖峰](/help/admin/c-traffic-management/t-traffic-schedule-spike.md)或[指定永久性流量增加](/help/admin/c-traffic-management/t-traffic-permanent.md)。
 
 使用以下準則判斷您必須在多久之前提交流量警報。
 
@@ -63,7 +63,7 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 * 如果您啟動數個報表套裝，或是予以新增至多達上方所列的數量，他們適用的前置時間會是每位客戶預期流量的總和。
 * 提交流量變更前請準備好以下資訊：
 
-   * 報告套裝 ID
+   * 報表套裝 ID
    * 每日預估點擊數
    * 上線日期
 
