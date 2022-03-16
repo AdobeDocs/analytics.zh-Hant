@@ -1,12 +1,12 @@
 ---
-title: 單頁造訪次數
+title: 單頁訪問（維）
 description: 指出造訪包含單一頁面的旗標。
 feature: Dimensions
 exl-id: f7b58941-add4-4e7b-8645-a64280fd9dcb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '143'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

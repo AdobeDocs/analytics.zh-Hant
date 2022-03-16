@@ -1,12 +1,12 @@
 ---
 description: 有關分段的常見問答。
-title: 常見問答
+title: 常見問答 分割
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '2080'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '2082'
+ht-degree: 99%
 
 ---
 

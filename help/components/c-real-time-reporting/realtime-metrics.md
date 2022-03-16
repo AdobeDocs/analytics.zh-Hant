@@ -1,13 +1,13 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
-title: 支援的即時量度和維度
+title: 支援的即時量度和維度概述
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

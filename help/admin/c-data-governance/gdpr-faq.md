@@ -1,12 +1,12 @@
 ---
 description: Adobe Analytics 資料控管常見問題集
-title: 常見問題集
+title: 資料治理的常見問題
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
 workflow-type: tm+mt
-source-wordcount: '1802'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

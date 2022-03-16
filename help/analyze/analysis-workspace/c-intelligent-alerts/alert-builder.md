@@ -1,13 +1,13 @@
 ---
 description: 當專案元件達到特定臨界值時，收到警報。
-title: 警報產生器
+title: 警報生成器(Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: aae28c90-bfdf-49ff-bd38-c9ef63880bf4
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '457'
-ht-degree: 100%
+source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -98,6 +98,6 @@ ht-degree: 100%
 
 例如，如果您將時間詳細程度設為每日，則預覽可告訴您在過去 30 或 31 天裡，針對某個量度觸發了 x 次警報。
 
-如果您覺得觸發的警報次數過多，可在「[警報管理器](/help/components/c-alerts/alert-manager.md)」中調整臨界值。
+如果您覺得觸發的警報次數過多，可在「[警報管理員](/help/components/c-alerts/alert-manager.md)」中調整臨界值。
 
 ![](assets/alert_preview.png)
