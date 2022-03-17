@@ -4,10 +4,10 @@ title: 快速區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 417f57f6987f58b1acd0feb087fbdc854a0d03fa
+source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 77%
+source-wordcount: '878'
+ht-degree: 75%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 77%
 1. (選擇性) 重新命名區段。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-請注意區段的側邊欄如何從藍色條紋變成藍色。它現在也出現在左側滑軌元件清單中。
+注意段的側欄如何從條紋藍色變為淡藍色。 它現在也出現在左側滑軌元件清單中。
 
 ## 什麼是僅限專案的區段？
 
