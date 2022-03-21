@@ -3,14 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d9892291d5386c3faaec0da06084a1ce7695a78a
+source-git-commit: 99572e3ed2b519b5479a31680a48c17e2aed4fd9
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '888'
 ht-degree: 52%
 
 ---
 
 # 本Adobe Analytics發行說明（2022年3月）
+
+**上次更新日期: 2022 年 3 月 21 日**
 
 >[!IMPORTANT]
 >
@@ -24,7 +26,7 @@ ht-degree: 52%
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 工作區中的注釋 | Workspace中的注釋使您能夠有效地將上下文資料細微差別和洞察力傳達給您的組織。 [了解更多](/help/analyze/analysis-workspace/components/annotations/overview.md) | 2022年3月23日 |
-| Adobe Analytics登錄頁更新 | 對聯合Workspace/Reports &amp; Analytics登錄頁的更新，可提高可用性並簡化導航。 [了解更多](/help/analyze/landing.md) | TBD |
+| Adobe Analytics登錄頁更新 | 對聯合Workspace/Reports &amp; Analytics登錄頁的更新，可提高可用性並簡化導航。 [了解更多](/help/analyze/landing.md) | 2022年4月1日 |
 
 {style=&quot;table-layout:auto&quot;}
 
