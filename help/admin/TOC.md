@@ -3,9 +3,9 @@ product: analytics
 audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
-user-guide-description: 了解 Analytics 管理任務，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
+user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
 source-git-commit: 70a1d61a6e9af27c449876ac4cf4d7504659be3a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '673'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Adobe Analytics 管理員指南 {#admin}
 
 + [Analytics 管理員指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + Analytics 管理總覽 {#admin-overview}
    + [我該使用哪種 Adobe Analytics 工具呢？](c-analytics-product-comparison/which-analytics-tool.md)
    + [Analytics 產品比較和需求](c-analytics-product-comparison/analytics-product-comparison.md)
@@ -85,7 +85,7 @@ ht-degree: 100%
       + [即時報表總覽](admin/realtime/realtime.md)
       + [即時報表設定](admin/realtime/t-realtime-admin.md)
       + [支援的即時量度和維度](admin/realtime/realtime-metrics.md)
-   + [排程報表佇列](admin/scheduled-reports-admin.md)
+   + [排程報告佇列](admin/scheduled-reports-admin.md)
    + 伺服器端轉送功能 {#server-side-forwarding}
       + [伺服器端轉送總覽](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -108,7 +108,7 @@ ht-degree: 100%
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
-+ Admin Console 中的 Adobe Analytics {#admin-console}
++ Adobe Admin Console 中的 Analytics{#admin-console}
    + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + 權限 {#permissions}
       + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
@@ -148,9 +148,9 @@ ht-degree: 100%
       + [新的報表套裝 - 設定](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
       + [並非從來源報表套裝複製的設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
    + [建立報表套裝群組](c-manage-report-suites/t-create-rs-group.md)
-+ 用戶和產品管理 (舊版) {#user-product-management}
-   + [用戶和產品管理](user-management2/user-management.md)
-   + 將用戶移轉至 Adobe Admin Console {#migrate-users}
++ 使用者和產品管理 (舊版) {#user-product-management}
+   + [使用者和產品管理](user-management2/user-management.md)
+   + 將使用者移轉至 Adobe Admin Console {#migrate-users}
       + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
       + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
       + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
