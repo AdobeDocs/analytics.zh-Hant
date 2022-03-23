@@ -3,15 +3,15 @@ title: 欄位式拚接
 description: 了解使用欄位式拚接方式來結合資料的先決條件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
 source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 欄位式拚接
 
-跨裝置分析提供將資料拚接在一起的兩種不同方法。此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。使用該變數作為將裝置連結在一起的基礎。Adobe建議採用這種縫合選項，以提高訪問者跟蹤的透明度和可預測性。
+跨裝置分析提供將資料拚接在一起的兩種不同方法。此方法仰賴 Analytics 變數 (例如 [prop](/help/implement/vars/page-vars/prop.md) 或 [eVar](/help/implement/vars/page-vars/evar.md)) 包含使用者識別碼。使用該變數作為將裝置連結在一起的基礎。Adobe 建議使用此拚接選項，以提高訪客追踪的透明度和可預測性。
 
 ## 依欄位拚接的專屬先決條件
 
@@ -27,7 +27,7 @@ ht-degree: 97%
 
 ## 欄位式拚接的專屬限制
 
-* 欄位式拚接最適合用於擁有高用戶識別率/驗證率的報表套裝。
+* 欄位式拚接最適合用於擁有高使用者識別率/驗證率的報表套裝。
 * 雖然每個 prop 和 eVar 都有如何針對報表用途處理大小寫字元的規則，但欄位式拚接並不會以任何方式轉換用於拚接的 prop 或 eVar。欄位式拚接會使用指定欄位中的值，因為該值存在於後製 VISTA 規則和後製處理規則中。拚接程序區分大小寫。例如，如果有時在 prop/eVar 中出現「Bob」一詞，有時又出現「BOB」一詞，則拚接程序會將兩者視為兩個不同的人。
 * 在欄位式拚接區分大小寫的前提下，Adobe 建議審查適用於欄位式拚接所使用的 prop 或 eVar 的任何 VISTA 規則或處理規則。這些規則需要經過審查，以確保其不會引入相同 ID 的新形式。例如，您應確保沒有任何 VISTA 或處理規則僅在一部分點擊中，將小寫字母引入 prop 或 eVar。
 * 欄位式拚接不支援針對拚接用途使用一個以上的 prop 或 eVar。例如，如果 eVar12 包含登入 ID，eVar20 包含電子郵件 ID，您必須選擇其中一個。
