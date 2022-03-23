@@ -4,9 +4,9 @@ description: 了解如何使用 Adobe Experience Platform 標記，將 Adobe Ana
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 7cae63a63b7047c1907ebe4c4f25f38b6b4237d4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '630'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -20,16 +20,16 @@ ht-degree: 81%
 
 ## 使用 Experience Cloud Debugger 驗證開發實施
 
-Experience CloudExperience Cloud器是一個擴展，它顯示頁面上存在的所有標籤。
+Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標記的擴充功能。
 
-1. 安裝任意一個的擴展 [鉻](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [火狐](https://addons.mozilla.org/zh-TW/firefox/addon/adobe-experience-platform-dbg/)。
+1. 安裝 [Chrome](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpob) 或 [Firefox](https://addons.mozilla.org/zh-TW/firefox/addon/adobe-experience-platform-dbg/) 的擴充功能。
 2. 瀏覽至您已在上面實作標記的開發網站。
-3. 按一下瀏覽器中的Adobe Experience Cloud調試器表徵圖。
-4. 如果所有內容都得到正確實施，您應該看到Adobe Analytics、標籤和Adobe Experience Cloud訪客ID服務內容。
+3. 按一下瀏覽器上的 Adobe Experience Cloud Debugger 圖示。
+4. 如果所有項目皆已正確實作，您應該會在 Adobe Analytics、標記及 Adobe Experience Cloud 訪客 ID 服務中看到內容。
 
-## 將開發實施部署至測試/生產環境
+## 將開發實作部署至暫存/生產環境
 
-在驗證您正在查看資料後，您可以將實施推送到站點的即時版本。
+在驗證過您可看到資料後，您可以將實作推送至網站的使用中版本。
 
 1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
@@ -40,7 +40,7 @@ Experience CloudExperience Cloud器是一個擴展，它顯示頁面上存在的
 1. 再按一下資料庫的下拉式清單，然後選取「**[!UICONTROL 核准發佈]**」。
 1. 再次按一下資料庫的下拉式清單 (現位於[!UICONTROL 已核准]欄)，然後選取「**[!UICONTROL 建置並發佈至生產環境]**」。
 1. 前往「環境」索引標籤，然後按一下「**[!UICONTROL 生產環境]**」。
-1. 複製生產安裝代碼，並將其提供給網站所有者。 請網站負責人在您網站的生產環境上實作此程式碼。
+1. 複製生產環境安裝程式碼，然後將其提供給您的網站負責人。請網站負責人在您網站的生產環境上實作此程式碼。
 
 ## 驗證生產環境實施
 
@@ -58,7 +58,7 @@ Experience CloudExperience Cloud器是一個擴展，它顯示頁面上存在的
 * 主控台中沒有任何 JavaScript 錯誤。與您組織的網站負責人合作，確認所有 JS 錯誤皆已解決。
 * 已正確實施頁首程式碼：確認頁首程式碼位於 `<head>` 標記內，且該檔案確實存在。
 * AppMeasurement 資料庫確實存在：直接導覽至 JS 原始碼，確認 JS 檔案包含程式碼。若未包含，請確認皆已建立每個環境，並將資料庫發佈至其個別環境。
-* 干擾擴展：某些擴展（如廣告攔截器）可以防止觸發影像請求。 禁用任何可能阻止資料發送到Adobe的擴展。
+* 干擾擴充功能：部分擴充功能 (如廣告封鎖程式) 可能會妨礙影像請求觸發。停用可能會阻擋將資料傳送至 Adobe 的任何擴充功能。
 
 ## 後續步驟
 
