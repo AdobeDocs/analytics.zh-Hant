@@ -6,7 +6,7 @@ exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
 workflow-type: tm+mt
 source-wordcount: '1301'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 97%
 
 ## 管理消費者許可 {#section_3012015E7E8942519FB9279CF7057EAB}
 
-身為資料控管單位，在收集有關資料主體的資料 (可能包括 Adobe Analytics 資料) 之前，您有責任取得他們的明確同意，也必須負責在網站上實作[選擇退出機制](https://www.adobe.com/privacy/opt-out.html#customeruse)。 這可讓您的資料主體退出未來的 Adobe Experience Cloud 資料收集。
+身為資料控管單位，在收集有關資料主體的資料 (可能包括 Adobe Analytics 資料) 之前，您有責任取得他們的明確同意，也必須負責在網站上實作[選擇退出機制](https://www.adobe.com/tw/privacy/opt-out.html#customeruse)。 這可讓您的資料主體退出未來的 Adobe Experience Cloud 資料收集。
 
 ## 驗證使用者和其資料 {#section_AFB2CC225AA94AF6A3CE9F24EF788358}
 
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 ## 提交請求 {#submit-requests}
 
-您可以通過我們提交資料隱私訪問和刪除請求 [Privacy ServiceUI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=en) 或通過 [Privacy ServiceAPI。](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)
+您可以透過以下方式提交資料隱私權存取和刪除請求：我們的 [Privacy Service UI](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html?lang=zh-Hant) 或是 [Privacy Service API。](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)
 
 >[!NOTE]
 >

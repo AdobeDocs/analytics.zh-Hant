@@ -6,7 +6,7 @@ exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的標記屬性以輸入其設定。
 1. 按一下&#x200B;**[!UICONTROL 擴充功能]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 目錄]**。
-1. 找到「Experience CloudID服務」，然後按一下 **[!UICONTROL 安裝]**。
+1. 找出「Experience Cloud ID Service」，然後按一下&#x200B;**[!UICONTROL 安裝]**。
 1. 所有設定 (包括 Experience Cloud 組織 ID) 皆應已填寫。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 返回擴充功能目錄，找到 Adobe Analytics 並按一下&#x200B;**[!UICONTROL 安裝]**。
 
-請參閱 [Adobe Analytics擴展](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) 的子菜單。
+如需更多詳細資訊，請參閱 [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)的完整文件。
 
 ## 為 Adobe Analytics 建立資料元素
 
@@ -39,19 +39,19 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
-1. 按一下&#x200B;**[!UICONTROL 「資料元素」]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 「新增資料元素」]**。
+1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增資料元素]**。
 1. 為資料元素執行下列設定：
 
    * 名稱：頁面名稱
    * 擴充功能：核心
    * 資料元素類型：JavaScript 變數
-   * JavaScript變數名稱： `window.document.title`
+   * JavaScript 變數名稱：`window.document.title`
 
       >[!NOTE]
       >
-      >此值作為幫助開始的示例。 如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
+      >此值用作協助入門的示例。如果您的組織為頁面名稱定義了更好的值 (例如資料層的值)，您可以在這裡輸入此值。
    * 已勾選簡潔文字
-   * 儲存持續時間：無
+   * 儲存期限：無
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 
 ## 為 Adobe Analytics 建立規則
@@ -60,7 +60,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
-1. 按一下 **[!UICONTROL 規則]** ，然後按一下 **[!UICONTROL 添加規則]**。 命名它 `Global Rule`。
+1. 按一下&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增規則]**。將其重新命名`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：
    * 擴充功能：核心
    * 事件類型：已載入資料庫 (頁面頂端)

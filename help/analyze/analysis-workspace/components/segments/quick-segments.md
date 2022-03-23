@@ -7,7 +7,7 @@ exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 75%
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 75%
 
 您可以在專案中建立快速區段以迴避完整[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)的複雜性。快速區段
 
-* 應用為 [僅項目段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=en#what-are-project-only-segments%3F)。
+* 套用為[僅限專案區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant#what-are-project-only-segments%3F)。
 * 最多允許 3 個規則。
 * 請勿容納巢狀容器或循序規則。
 
@@ -31,7 +31,7 @@ ht-degree: 75%
 
 ![](assets/quick-seg1.png)
 
-從這個空白畫板設定快速區段:
+從這個空白畫板設定快速區段：
 
 ![空白快速區段](assets/qs-blank-slate.png)
 
@@ -77,16 +77,16 @@ ht-degree: 75%
 1. (選擇性) 重新命名區段。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-注意段的側欄如何從條紋藍色變為淡藍色。 它現在也出現在左側滑軌元件清單中。
+注意段的側欄如何從條紋藍色變為淡藍色。 它現在還會顯示在左側欄的元件清單中。
 
 ## 什麼是僅限專案的區段？
 
-僅項目段是僅適用於在中建立的當前項目的段。 它們在其他項目中不可用，無法與其他用戶共用。 它們旨在快速探索您的資料，而無需在左滑軌中建立和保存段。 可在面板放置區域中使用「快速段」或 [點對點段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=en)。
+僅限專案區段指僅適用於建立該區段的目前專案的區段。您無法在其他專案中取得這些區段，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄建立和儲存區段。僅限專案的區段無法以快速區段或[臨時區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hant)的形式在面板放置區域中建立。
 
-如果在中開啟僅項目段 [!UICONTROL 段生成器]，將顯示僅項目通知。 如果未選中「使此段可用」。 按一下 **[!UICONTROL 應用]**，該分部仍為僅項目分部。 注：如果應用段生成器中的快速段，則在 [!UICONTROL 快速段生成器]。
+如果在[!UICONTROL 區段產生器]中開啟僅限專案的區段，會顯示僅限專案的通知。如果您不勾選「使該區段可用於..」並按一下&#x200B;**[!UICONTROL 套用]**，則該區段仍維持為僅限專案的區段。附註：如果您套用區段產生器的快速區段，將無法在[!UICONTROL 快速區段產生器]中將其開啟。
 
 ![取消勾選僅限專案](assets/project-only-unchecked.png)
 
-如果選中「使此段可用……」 按一下 **[!UICONTROL 保存]**，該段在左滑軌元件清單中可用，供其它項目使用。 也可以與段管理器中的其他用戶共用。
+如果您勾選「使該區段可用於..」並按一下&#x200B;**[!UICONTROL 儲存]**，即可在左側欄元件清單中取得該區段，以用於其他專案。您也可以和區段管理員的其他使用者共用區段。
 
 ![勾選僅限專案](assets/project-only-checked.png)

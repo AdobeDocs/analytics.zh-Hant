@@ -6,13 +6,13 @@ exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # 建立報表套裝
 
-報表套裝是 Adobe Analytics 用來提取報表的獨立資料單位。組織可以有許多報表套裝，每個報表套裝都包含不同的資料集。雖然過去使用者較重視個別產生報表，但如今使用單一報表套裝已變得更具優勢了。[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-TW#virtual-report-suites)和報表時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
+報表套裝是 Adobe Analytics 用來提取報表的獨立資料單位。組織可以有許多報表套裝，每個報表套裝都包含不同的資料集。雖然過去使用者較重視個別產生報表，但如今使用單一報表套裝已變得更具優勢了。[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant#virtual-report-suites)和報表時間處理的引進讓管理員能夠建立自己的資料子集，進而靈活地取得全域和網站特有資料。
 
 本文的適用對象為系統層級管理員或 Adobe Analytics 管理員，目的在方便這些人員準備資料收集。
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增]** > **[!UICONTROL 報表套裝」]**。
-1. 選擇要用作預定義模板或現有報表套件的 [模板](../c-report-suite-templates/report-suite-templates.md)。
+1. 選取預先定義的範本或現有的報表套裝，以當成[範本](../c-report-suite-templates/report-suite-templates.md)使用。
 
    >[!NOTE]
    >
@@ -43,4 +43,4 @@ ht-degree: 95%
 
 ## 後續步驟
 
-[建立 Adobe Analytics 標籤屬性](/help/implement/launch/create-analytics-property.md)：建立用來管理您的 Analytics 實作的區域.
+[建立 Adobe Analytics 標記屬性](/help/implement/launch/create-analytics-property.md)：建立用來管理您的 Analytics 實作的區域。

@@ -7,7 +7,7 @@ user-guide-description: Analytics 的首要分析和視覺化工具 Analysis Wor
 source-git-commit: 1349dd63fcf1cc94e848f3c3af55af5f39b11f43
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 99%
 # Adobe Analytics 工具指南 {#analyze}
 
 + [Analytics 工具指南](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + [登陸頁面](landing.md)
 + Analysis Workspace {#analysis-workspace}
    + [Analysis Workspace 總覽](analysis-workspace/home.md)
@@ -32,9 +32,9 @@ ht-degree: 99%
       + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
       + 註解 {#annotations}
          + [註解概述](analysis-workspace/components/annotations/overview.md)
-         + [建立附註](analysis-workspace/components/annotations/create-annotations.md)
-         + [管理附註](analysis-workspace/components/annotations/manage-annotations.md)
-         + [檢視附註](analysis-workspace/components/annotations/view-annotations.md)
+         + [建立註解](analysis-workspace/components/annotations/create-annotations.md)
+         + [管理註解](analysis-workspace/components/annotations/manage-annotations.md)
+         + [檢視註解](analysis-workspace/components/annotations/view-annotations.md)
       + 維度 {#dimensions}
          + [預覽維度](analysis-workspace/components/dimensions/view-dimensions.md)
          + [劃分維度](analysis-workspace/components/dimensions/t-breakdown-fa.md)
@@ -298,7 +298,7 @@ ht-degree: 99%
       + [iOS 適用的 Adobe Analytics](reports-analytics/overview/app-ios.md)
    + [報表顯示設定和導覽](reports-analytics/report-settings.md)
    + [報表排程和分發](reports-analytics/scheduling.md)
-   + [計畫報告的終止通知](reports-analytics/scheduled-reports-eol.md)
+   + [排程報告的生命週期結束通知](reports-analytics/scheduled-reports-eol.md)
    + [報表類型](reports-analytics/reports.md)
    + [執行不同的報表類型](reports-analytics/t-running-report-types.md)
    + 自訂報表 {#customize-reports}

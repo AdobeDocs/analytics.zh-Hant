@@ -24,15 +24,15 @@ ht-degree: 100%
 
 以下功能提供使用 SFTP 將資料上傳到 Adobe Analytics 的選項。
 
-* [分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html)
+* [分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=zh-Hant)
 
-* [資料摘要](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html)
+* [資料摘要](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=zh-Hant)
 
-* [資料來源](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html)
+* [資料來源](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datasources.html?lang=zh-Hant)
 
-* [Data Warehouse 傳遞的報表](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html)
+* [Data Warehouse 傳遞的報表](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-dw-reports.html?lang=zh-Hant)
 
-* 此外，某些透過[工程服務](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html)建立的自訂實作也可能會使用 SFTP 與 Adobe 交換資料。
+* 此外，某些透過[工程服務](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-eng-services.html?lang=zh-Hant)建立的自訂實作也可能會使用 SFTP 與 Adobe 交換資料。
 
 ## 這次更新將包含哪些特定的變更？
 
