@@ -4,9 +4,9 @@ description: 了解如何使用標記將 Adobe Analytics 部署至您的開發�
 feature: Launch Implementation
 exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 47%
 
 1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下您打算在您的網站上實作的標記屬性。
-3. 按一下 **[!UICONTROL 主機]**，然後按一下 **[!UICONTROL 添加主機]**。
-4. 命名它 `"Adobe managed"`，然後選擇 **[!UICONTROL 按Adobe管理]** 的下界。 按一下「儲存」。
-5. 導航到 **[!UICONTROL 環境]**，然後按一下 **[!UICONTROL 添加環境]**。
-6. 選擇 **[!UICONTROL 開發]**，命名 `"Dev Environment"`，然後從下拉清單中選擇Adobe托管主機。 按一下「**[!UICONTROL 儲存]**」。
-7. 出現一個顯示Web安裝說明的模式窗口。 稍後再回到這個窗口，按一下 **[!UICONTROL 關閉]** 暫時。
-8. 按一下 **[!UICONTROL 添加環境]**&#x200B;選中 **[!UICONTROL 暫存]**，命名 `"Staging Environment"`，然後選擇Adobe托管主機。 按一下 **[!UICONTROL 建立]**，然後關閉「install instructions modal（安裝說明模式）」窗口。
-9. 按一下 **[!UICONTROL 添加環境]** 選擇 **[!UICONTROL 生產]**，命名 `"Production Environment"`，然後選擇Adobe托管主機。 按一下 **[!UICONTROL 建立]**，然後關閉「install instructions modal（安裝說明模式）」窗口。
+3. 按一下&#x200B;**[!UICONTROL 主機]**，然後按一下&#x200B;**[!UICONTROL 新增主機]**。
+4. 將其命名`"Adobe managed"`，並在類型下拉式選單中選取&#x200B;**[!UICONTROL 由 Adobe 管理]**。按一下「儲存」。
+5. 瀏覽至&#x200B;**[!UICONTROL 環境]**，然後按一下&#x200B;**[!UICONTROL 新增環境]**。
+6. 選取&#x200B;**[!UICONTROL 開發]**，將其命名`"Dev Environment"`，然後從下拉式選單中選取 Adobe 管理主機。按一下&#x200B;**[!UICONTROL 儲存]**。
+7. 將出現一個顯示網頁版安裝說明的模型視窗。我們將在稍後再返回這個視窗；現在請按一下&#x200B;**[!UICONTROL 關閉]**。
+8. 按一下&#x200B;**[!UICONTROL 新增環境]**，選取&#x200B;**[!UICONTROL 中繼環境]**，將其命名`"Staging Environment"`，然後選取 Adobe 管理主機。按一下&#x200B;**[!UICONTROL 建立]**，然後關閉安裝說明模型視窗。
+9. 按一下&#x200B;**[!UICONTROL 新增環境]**，再度選取&#x200B;**[!UICONTROL 生產環境]**，將其命名`"Production Environment"`，然後選取 Adobe 管理主機。按一下&#x200B;**[!UICONTROL 建立]**，然後關閉安裝說明模型視窗。
 
 ## 建立開發資料庫
 
@@ -38,22 +38,22 @@ ht-degree: 47%
 
 1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
 2. 按一下您打算在您的網站上實作的標記屬性。
-3. 按一下 **[!UICONTROL 發佈流]** ，然後按一下 **[!UICONTROL 添加庫]**。 請參閱 [發佈概述](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html) 的子菜單。
-4. 命名庫 `'Initial changes'`，然後選擇開發環境。
-5. 按一下 **[!UICONTROL 添加所有更改的資源]**，它自動列出Adobe Analytics、身份服務和核心。
-6. 按一下「**[!UICONTROL 儲存]**」。
-7. 返回發佈工作流螢幕，按一下新庫旁邊的下拉清單，然後按一下 **[!UICONTROL 為發展而構建]**。 幾秒鐘後，庫上的黃點變綠，表示生成成功。
-8. 導航到 **[!UICONTROL 環境]**，然後按一下開發環境右側的安裝表徵圖。 此操作將再次顯示「Web安裝說明」模式窗口。
-9. 複製代碼塊，並將它們提供給您組織的網站所有者。
+3. 按一下&#x200B;**[!UICONTROL 發佈流程]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增資料庫]**。如需有關本頁面的更多資訊，請參閱標記文件中的[發佈概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant)。
+4. 為資料庫命名`'Initial changes'`，並選取您的開發環境。
+5. 按一下&#x200B;**[!UICONTROL 新增所有變更的資源]**，這會自動列出 Adobe Analytics、身分識別服務以及核心。
+6. 按一下&#x200B;**[!UICONTROL 儲存]**。
+7. 回到發佈工作流程畫面，按一下新資料庫旁的下拉式選單，然後按一下&#x200B;**[!UICONTROL 開發建置]**。過了一會兒，資料庫上的黃色圓點會變成綠色，表示建置成功。
+8. 瀏覽至&#x200B;**[!UICONTROL 環境]**，然後按一下您的開發環境右邊的安裝圖示。這個動作會再度開啟網頁版安裝說明的模型視窗。
+9. 複製程式碼區塊，並將其提供給貴組織的網站負責人。
 
 ## 在您網站的開發環境中安裝標記
 
-如果您控制網站的代碼，請在各自的位置實施每個代碼塊：
+如果您控制您網站的程式碼，請在各自的位置實作每個程式碼區塊：
 
-* 主標籤屬於 `<head>` 在您的站點上標籤。
-* 如果選擇同步載入標籤，則還必須在關閉位置正下方包含第二個代碼塊 `</body>` 在您的站點上標籤。 通過切換庫標籤，可以選擇同步載入庫標籤 **[!UICONTROL 非同步載入庫]** 的子菜單。
+* 主標記屬於您網站的 `<head>` 標記。
+* 如果您選擇同步載入標記，您還必須在網站的關閉`</body>`標記下方包含一個次要程式碼區塊。您可以透過切換網頁版安裝說明中的&#x200B;**[!UICONTROL 以非同步方式載入資料庫]**&#x200B;選項來選擇同步載入資料庫標記。
 
-標籤代碼通常放在站點的總體模板中。 僅包含實作程式碼的空白頁面看起來類似以下內容：
+標記程式碼通常會被放置在網站的總體範本中。僅包含實作程式碼的空白頁面看起來類似以下內容：
 
 ```html
 <!doctype html>
@@ -75,7 +75,7 @@ ht-degree: 47%
 
 **嘗試建置失敗。**
 
-常見的原因是，元素已經存在於其他推送至測試環境或生產環境的資料庫中。一開始建立資料庫時，請確保僅將已變更的資源新增至資料庫。
+常見的原因是，元素已經存在於其他推送至測試環境或中繼環境的資料庫中。一開始建立資料庫時，請確保僅將已變更的資源新增至資料庫。
 
 ## 後續步驟
 
