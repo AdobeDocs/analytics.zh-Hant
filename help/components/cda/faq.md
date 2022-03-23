@@ -3,7 +3,7 @@ title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
 source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1941'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ CDA 會提取識別碼變數維度項目，再對報表最佳化。您不需擔�
 
 ## 為什麼我的來源報表套裝與 CDA 虛擬報表套裝之間的點擊總數會不同？
 
-CDA 使用複雜的並行處理管道，其中包含多個相依元件。 所以來源報表套裝與 CDA 虛擬報表套裝之間約 1% 的點擊總數差距是預期的狀況。 
+CDA 使用複雜的並行處理管道，其中包含多個相依元件。 可預期來源報表套裝與 CDA 虛擬報表套裝之間會有約 1% 的點擊總數差距。 
 
 ## 為什麼「已識別的使用者」量度會膨脹？
 
