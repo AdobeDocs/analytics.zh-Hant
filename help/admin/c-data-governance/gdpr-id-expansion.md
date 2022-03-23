@@ -4,9 +4,9 @@ title: ID 擴增
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1358'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 "expandIds": true
 ```
 
-如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。如需更多詳細資料，請參閱[隱私權服務 API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en)。
+如需有關如何將此選項納入請求的範例，請參閱[範例 JSON 請求](/help/admin/c-data-governance/gdpr-submit-access-delete.md#sample-json-request)。如需更多詳細資料，請參閱 [Privacy Service API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)。
 
 <table id="table_A10CA8DC8C1643CF84A4DF30A6740D51"> 
  <thead> 
@@ -56,13 +56,13 @@ ht-degree: 98%
 
 「analyticsDeleteMethod」除了預設值「anonymize」外，未來可能也會支援「purge」值。一旦支援此值，會造成整個點擊遭到刪除，而非僅更新帶有 DEL 標籤之點擊欄位的值。
 
-除了其預設值外，優先順序欄位亦支援「low」值。若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，除了資料主體提出的請求以外，Adobe 不鼓勵基於其他原因使用隱私權服務 API。隱私權服務 API 並非適合用於資料清理或修復的工具，可能會致生非預期的後果。
+除了其預設值外，優先順序欄位亦支援「low」值。若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。請注意，除了資料主體提出的請求以外，Adobe 不鼓勵基於其他原因使用 Privacy Service API。Privacy Service API 並非適合用於資料清理或修復的工具，可能會致生非預期的後果。
 
 >[!NOTE]
 >
 >
-[隱私權服務 API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 的用途為協助您履行資料隱私權請求，這些請求常有時效性。Adobe 不支援將此 API 用於其他用途，這麼做可能會影響 Adobe 為其他客戶即時處理較優先、由使用者提出的資料隱私權請求。請勿將隱私權服務 API 用於其他用途，例如清除大量訪客群組不小心提交的資料。
+[Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant) 的用途為協助您履行資料隱私權請求，這些請求常有時效性。Adobe 不支援將此 API 用於其他用途，這麼做可能會影響 Adobe 為其他客戶即時處理較優先、由使用者提出的資料隱私權請求。請勿將 Privacy Service API 用於其他用途，例如清除大量訪客群組不小心提交的資料。
 
-另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的連帶作用，這也突顯出隱私權服務 API 不適合此用途的原因。
+另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的連帶作用，這也突顯出 Privacy Service API 不適合此用途的原因。
 
 請連絡您的客戶經理 (CSM) 來協調工程架構顧問團隊，以進一步檢視及著手移除所有 PII 或資料問題。
