@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: ce2e7352793384e2b7561498cbbaae973c661e66
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 96%
+source-wordcount: '597'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->此功能目前在有限測試中。
+>該功能的逐步推出將於2022年3月23日開始。 一般可用性：2022年4月11日。
 
 1. 有幾種方法可以開始建立註解：
 

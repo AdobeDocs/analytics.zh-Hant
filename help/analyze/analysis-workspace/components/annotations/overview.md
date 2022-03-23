@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: e35e437a61b925625f6dc7fa2344406c5a66e5fe
-workflow-type: ht
-source-wordcount: '307'
-ht-degree: 100%
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 96%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能目前在有限測試中。
+>該功能的逐步推出將於2022年3月23日開始。 一般可用性：2022年4月11日。
 
 工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。註解可讓您將行事曆事件和特定的維度/量度連結起來。您可以用資料問題、國定假日、行銷活動推出等來標註日期或日期範圍。然後以圖形形式顯示事件，並查看行銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。
 

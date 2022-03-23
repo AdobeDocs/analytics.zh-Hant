@@ -4,10 +4,10 @@ description: 如何在工作區中檢視註解。
 role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
-source-git-commit: 70dc0fedc6ba16cb521af7a94524a4df99200d25
+source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 79%
+source-wordcount: '254'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->此功能目前在有限測試中。
+>該功能的逐步推出將於2022年3月23日開始。 一般可用性：2022年4月11日。
 
 根據註解跨越一天還是跨越日期範圍，註解的體現方式略有不同。
 
