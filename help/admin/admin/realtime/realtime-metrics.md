@@ -1,13 +1,13 @@
 ---
 description: 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
-title: 支援的即時量度和維度 （管理）
+title: 支援的即時量度和維度 (管理)
 feature: Real-time
 uuid: 836af337-1187-4ded-90c8-a19b15df4705
 exl-id: 2ff76261-38ef-4528-9cbe-8379482a9277
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '107'
+ht-degree: 100%
 
 ---
 
