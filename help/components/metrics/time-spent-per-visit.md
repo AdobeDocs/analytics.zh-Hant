@@ -1,12 +1,12 @@
 ---
-title: 每次訪問所花費的時間（度量）
+title: 每次造訪逗留時間 (量度)
 description: 維度項目的每次造訪逗留時間。
 feature: Metrics
 exl-id: 0f951196-66a2-4733-bb62-4555a9331efb
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '260'
+ht-degree: 100%
 
 ---
 
