@@ -1,12 +1,12 @@
 ---
-title: eVarDimension
+title: 維度的 eVar
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '786'
+ht-degree: 100%
 
 ---
 
