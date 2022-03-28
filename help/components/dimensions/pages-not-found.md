@@ -1,12 +1,12 @@
 ---
-title: 找不到頁（維）
+title: 找不到頁面 (維度)
 description: 在您的網站上傳回錯誤的 URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '215'
+ht-degree: 100%
 
 ---
 
