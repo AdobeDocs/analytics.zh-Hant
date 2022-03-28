@@ -7,9 +7,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 8b923484-0988-4271-8186-317bb33f2210
 source-git-commit: 029c6b168756448d01d73dd5e92cbe9df70e3f57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '326'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,10 +29,10 @@ t_bookmarks_creating.xml
 
 1. 執行報表，然後按一下&#x200B;**[!UICONTROL 「書籤」]**。
 
-   | 名稱 | 該書籤的簡單名稱。 |
+   | 名稱 | 此書籤的易記名稱。 |
    |---|---|
    | 新增至 | 指定想要放置書籤的資料夾。 |
-   | 設為公用 | 讓有權存取報告套裝的使用者可使用該書籤。 |
+   | 設為公開 | 讓有權存取報告套裝的使用者可使用此書籤。 |
    | 登入時顯示報告 | 在您登入時顯示報告。 |
 
 ## 管理書籤 {#task_1EE793CB52EA467787817BBD98DEF150}
@@ -45,7 +45,7 @@ t_bookmarks_managing.xml
 
  -->
 
-**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 書籤]**。
+**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 書籤]**
 
 **我的書籤**
 
