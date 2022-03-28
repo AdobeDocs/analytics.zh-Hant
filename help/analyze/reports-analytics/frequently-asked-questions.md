@@ -1,14 +1,14 @@
 ---
 description: 針對 Analytics 的最常問問題提供解答和疑難排解建議。
 keywords: Analytics 疑難排解
-title: 報告和分析的常見問題
+title: Reports & Analytics 的常見問題集
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '843'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
