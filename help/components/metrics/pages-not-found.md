@@ -1,12 +1,12 @@
 ---
-title: 找不到頁（度量）
+title: 找不到頁面 (量度)
 description: 包含錯誤的點擊次數。
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '110'
+ht-degree: 100%
 
 ---
 
