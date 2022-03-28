@@ -1,14 +1,14 @@
 ---
-description: 新增日曆事件和管理共用事件的步驟。
-title: 添加和管理日曆事件
+description: 新增行事曆事件和管理共用事件的步驟。
+title: 新增和管理行事曆事件
 uuid: 5e928c70-8eba-4a97-928d-2c4b3e9ff972
 feature: Calendar
 role: User, Admin
 exl-id: e89be5ce-3ec0-4b2d-8574-7bd2041ed18a
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '341'
+ht-degree: 100%
 
 ---
 
