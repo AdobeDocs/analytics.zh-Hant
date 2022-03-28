@@ -5,7 +5,7 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
 source-git-commit: 941b2b472301c3e99f268ab98976de348573ae1b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 |  | [面板類型](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) | <ul><li>自由形式 (預設)</li><li>空白</li><li>快速深入分析</li></ul> |
 |  | 數字格式 | <ul><li>1,000.00 (預設)</li><li>1.000,00</li><li>1 000,00</li></ul> |
 |  | CSV 分隔符號 字元 | <ul><li>逗號 (預設)</li><li>分號</li><li>冒號</li><li>直立線符號</li><li>時段</li><li>空格</li><li>定位</li></ul> |
-|  | 自由表格 | <ul><li>顯示異常狀況 </li><li>顯示 sparklines</li><li>顯示附註</li></ul> |
+|  | 自由表格 | <ul><li>顯示異常狀況 </li><li>顯示走勢圖</li><li>顯示註解</li></ul> |
 
 ## [!UICONTROL 深色佈景主題]
 
