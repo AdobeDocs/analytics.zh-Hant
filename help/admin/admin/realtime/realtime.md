@@ -1,12 +1,12 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-title: 即時報表 為管理員
+title: 即時報表適用於管理員
 feature: Real-time
 exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '571'
+ht-degree: 100%
 
 ---
 
