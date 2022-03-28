@@ -7,7 +7,7 @@ exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: a79fe36f009984a8b343e98a915f867b56a519fb
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 1. (選擇性) 重新命名區段。
 1. 按一下「**[!UICONTROL 儲存]**」。
 
-注意段的側欄如何從條紋藍色變為淡藍色。 它現在還會顯示在左側欄的元件清單中。
+請注意區段的側邊欄如何從藍色條紋變成淺藍色。它現在還會顯示在左側欄的元件清單中。
 
 ## 什麼是僅限專案的區段？
 

@@ -7,7 +7,7 @@ exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
 source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
 workflow-type: tm+mt
 source-wordcount: '597'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 95%
 
    | 元素 | 說明 |
    | --- | --- |
-   | [!UICONTROL 僅項目注釋] | 預設情況下，註解會套用在目前的專案。通過選中此框，可以使注釋對您擁有的所有項目都可用。<p> ![](assets/project-only.png) |
+   | [!UICONTROL 僅限專案的註解] | 預設情況下，註解會套用在目前的專案。若勾選此方框，即可讓註解用於您擁有的所有專案。<p> ![](assets/project-only.png) |
    | [!UICONTROL 標題] | 為註解命名，例如，「紀念日」 |
    | [!UICONTROL 說明] | (選用) 提供註解的說明，例如，「美國的國定假日」。 |
    | [!UICONTROL 標記] | (選用) 透過建立或套用標記來編排註解。 |
