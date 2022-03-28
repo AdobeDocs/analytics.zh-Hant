@@ -3,9 +3,9 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1102'
 ht-degree: 77%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 77%
 * 已修正 A4T 工作區面板的問題。(AN-281594；AN-282418)
 * 已修正部分使用者無法存取 Adobe Analytics 的問題。 (AN-282776)
 * 已修正部分新建報表套裝無法收集資料的問題。(AN-283114、AN-283311)
-* 已修正無法使用作業系統維度刪除 Win11 的問題。(AN-275569、AN-275727；AN-280335)
 * 已修正錯誤傳送資料摘要電子郵件的問題。 (AN-280255；AN-282051)
 
 

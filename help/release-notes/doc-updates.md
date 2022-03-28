@@ -4,10 +4,10 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: c6d211c4d163dd1458a8c298721243c4531d083a
+source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
 workflow-type: tm+mt
-source-wordcount: '3096'
-ht-degree: 97%
+source-wordcount: '3169'
+ht-degree: 95%
 
 ---
 
@@ -24,13 +24,16 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 日期 | 說明 |
 | --- | --- |
 | **2022 年 3 月** |  |
+| 有關支援的HTTPS加密算法的新主題 | [支援的HTTPS加密算法](/help/technotes/rdc/encryption-algos.md) 密碼安全級別設定為「高」的客戶。 |
 | 有關工作區中注釋的新文檔 | [工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。](/help/analyze/analysis-workspace/components/annotations/overview.md) |
 | Adobe Analytics 登陸頁面更新 | [更新](/help/analyze/landing.md) 到聯合的Workspace/Reports &amp; Analytics登錄頁，可提高易用性和導航的易用性。 |
 | [!UICONTROL 下一項] 或 [!UICONTROL 上一項] 工作區面板 | 通過此面板，您可以瀏覽所選維項後面或前面的項。 |
 | [!UICONTROL 頁面摘要] 工作區面板 | 此面板為您選擇的頁面提供深入分析。 |
-| **2022 年 2 月** |  |
+| 有關暫停舊計畫報告的新主題 | 有效 **2022年4月15日**,Adobe打算 [暫停所有建立日期超過兩年的計畫報告](/help/analyze/reports-analytics/scheduled-reports-eol.md)。 |
+| **2022 年 2 月** |
 | 行動計分卡專案預覽模式 | 的 [預覽模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-TW#preview) 允許您在保存和共用記分卡之前預覽體驗。 |
 | API 專案端點 | 使用 API 新增、編輯或刪除 Analysis Workspace 專案。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
+| 已更新有關暫停舊計畫Report Builder任務的主題 | **自2022年4月15日起生效**,Adobe打算 [暫停兩年多前建立的所有計畫Report Builder任務](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
 | **2021 年 10 月** |  |
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[快速區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant)的新文件。 |
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[花費的媒體播放時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html?lang=zh-Hant)面板的新文件。 |
