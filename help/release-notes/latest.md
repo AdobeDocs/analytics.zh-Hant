@@ -3,10 +3,10 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
+source-git-commit: c2c4eb5557aeaeba537c7ad38c0c70ab448f5cf5
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 77%
+source-wordcount: '1104'
+ht-degree: 76%
 
 ---
 
@@ -48,7 +48,7 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 | ----------- | ---------- | ---------- |
 | 更新到某些客戶支援的瀏覽器加密方法 | 2022 年 28 月 3 日 | Adobe提供兩個密碼安全級別，以滿足客戶對第一方資料收集的不同安全需求。 開 **2022年6月23日** 我們將取消對某些HTTPS加密算法（稱為密碼）的支援，這些加密算法的安全級別設定為「高」。 這意味著某些較舊的作業系統將無法再將資料發送到分析，因為它們不支援現代加密方法。 使用預設「標準」密碼安全設定的客戶將不會受到影響。 所有當前使用「高」設定的客戶已直接聯繫。 可以找到受此更改影響的密碼的詳細清單 [這裡](/help/technotes/rdc/encryption-algos.md)。 |
 | 暫停較舊的排程報告 | 2022 年 3 月 11 日 | 自 **2022 年 4 月 15 日**&#x200B;起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| 2022 ISO 區域更新 | 2021 年 3 月 11 日 | Adobe 將於 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。 預計此版本後將會有較小的更新。 |
+| 2022 ISO 區域更新 | 2021 年 3 月 11 日 | Adobe 將於 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。 希望在此版本後看到次要的地理資訊更新。 |
 | 更改 Analytics 處理透過 Experience Edge 收集的 A4T 資料的方式 | 2022 年 2 月 25 日 | 在 **2022 年 3 月 7 日**，我們已變更處理透過 Experience Edge 發送到 Adob&#x200B;&#x200B;e Analytics 的一些 Target 相關資料的方式。在使用包含 Analytics 和 Target 的 Adobe Experience Platform Web SDK 時，部分個人化事件在 [!DNL Adobe Analytics] 中會計入[!UICONTROL 頁面檢視量]。 這會導致頁面檢視計數擴增以及額外的伺服器呼叫。隨著此變更，沒有 Analytics 內容的個人化呼叫會被忽略。使用 A4T 資料的個人化呼叫將記錄 A4T 資料，但不會記錄為計費的伺服器呼叫，也不會影響頁面檢視量或連結事件量度。 |
 | 暫停較舊的已排程 Report Builder 工作 | 2022 年 2 月 24 日 | **自 2022 年 4 月 15 日起**，Adobe 打算暫停所有建立日期超過兩年的已排程 Report Builder 工作。這項暫停尤其會套用在 2020 年 1 月 31 日之前建立的任何工作上。 不會刪除任何工作、活頁簿或資料。但是將暫停確認超過兩年的工作，並且不會發送額外的排程工作。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 舊版 Analytics OAuth/JWT 整合的允許清單 EOL 延長到期 | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和舊版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允許清單延長即將到期。此延長是為了讓使用舊版 [!DNL Adobe Analytics] OAuth/JWT 認證的客戶有更多時間，以便將其用戶端整合移轉至 [Adobe IMS 認證](https://developer.adobe.com/console)。這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 目前透過允許清單擴展功能使用舊版 [!DNL Analytics] OAuth/JWT 憑證的客戶，以及在 2022 年 5 月 25 日尚未完成移轉至 IMS 的客戶，都將會失去使用 Adobe 服務的權限。直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
