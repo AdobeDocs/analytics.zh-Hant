@@ -6,13 +6,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c2c4eb5557aeaeba537c7ad38c0c70ab448f5cf5
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 76%
+ht-degree: 88%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2022 年 3 月)
 
-**上次更新日期: 2022 年 3 月 28 日**
+**上次更新日期：2022 年 3 月 28 日**
 
 * 如需 2022 年 2 月版本注意事項，請至[這裡](/help/release-notes/2022.md)。
 * 了解關於 [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。取得 Experience League 上的最新自助文件、教學課程和課程。
@@ -21,10 +21,10 @@ ht-degree: 76%
 
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 工作區中的註解 | 工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。[了解更多](/help/analyze/analysis-workspace/components/annotations/overview.md) | 逐步推出於2022年3月23日。 一般可用性：2022年4月11日 |
-| Adobe Analytics 登陸頁面更新 | 對聯合Workspace/Reports &amp; Analytics登錄頁的更新，可提高可用性和導航方便性。 [了解更多](/help/analyze/landing.md) | 2022 年 4 月 1 日 |
-| [!UICONTROL 下一項] 或 [!UICONTROL 上一項] 工作區面板 | 的 [!UICONTROL 下一項或上一項] 「面板」(Panel)允許您瀏覽所選維項後面或前面的項。 例如，如果希望查看特定產品頁面、市場營銷渠道甚至設備類型的下一頁或上一頁，請使用它。 此面板超越了舊版本的下一次/上一次報告，因為它允許您查看任何維，並且不需要任何新的實施來獲得洞察力。 | 2022 年 4 月 1 日 |
-| [!UICONTROL 頁面摘要] 工作區面板 | 的 [!UICONTROL 頁面摘要] 面板為您選擇的頁面提供深度分析。 它提供與舊式報告和分析相同的詳細資訊 [!UICONTROL 頁面摘要] 報告，再加上更多。 | 2022 年 4 月 1 日 |
+| 工作區中的註解 | 工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。[了解更多](/help/analyze/analysis-workspace/components/annotations/overview.md) | 逐步推出將於 2022 年 3 月 23 日開始。全面發佈：2022 年 4 月 11 日 |
+| Adobe Analytics 登陸頁面更新 | 更新工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。[了解更多](/help/analyze/landing.md) | 2022 年 4 月 1 日 |
+| 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | [!UICONTROL 「下一個項目」或「上一個項目」]面板可讓您瀏覽您所選維度項目之後或之前的項目。例如，如果您想查看特定產品頁面、行銷頻道甚至裝置類型的下一頁或上一頁，請使用它。此面板超越傳統的下一個/上一個報告，因為它可讓您查看任何維度，並且不需要任何新的實施即可獲得見解。 | 2022 年 4 月 1 日 |
+| 「[!UICONTROL 頁面摘要]」工作區面板 | 「[!UICONTROL 頁面摘要]」面板為您選擇的頁面提供深入分析。它提供與舊版 Reports &amp; Analytics「[!UICONTROL 頁面摘要]」報告相同的詳細資料，還有其他更多資訊。 | 2022 年 4 月 1 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
