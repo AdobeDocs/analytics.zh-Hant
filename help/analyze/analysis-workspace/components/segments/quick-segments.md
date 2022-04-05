@@ -5,9 +5,9 @@ feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
 source-git-commit: 7434a941f3e5a47a3f5d5a28320a3fc396dd3740
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '886'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 若要比較快速區段的功能和成熟的元件清單區段，請至[這裡](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
-下面是快速段的視頻概述：
+以下是快速區段的影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/341466/?quality=12&learn=on)
 
