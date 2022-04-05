@@ -3,10 +3,10 @@ description: 如何透過 FTP 上傳資料檔案。
 title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '716'
-ht-degree: 100%
+source-git-commit: 5edf3e6684b3572616f76db3f7c3bf0cf58ed408
+workflow-type: tm+mt
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 100%
    FIN 檔案是空白的檔案，其名稱與您的資料檔案相同，副檔名為 [!DNL .fin]。例如，若您的資料檔案是 [!DNL classdata1.tab]，則 檔案名稱為 [!DNL classdata1.fin].fin。
 
 Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料檔案。Adode 會將其匯入於 FTP 帳戶設定中指定的報表套裝和資料集。
+
+一旦Adobe Analytics讀取並處理了上傳到FTP資料夾中的檔案，這些檔案就會自動刪除。
 
 ## 建立 FTP 帳戶 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
