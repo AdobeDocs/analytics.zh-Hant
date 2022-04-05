@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 433a750ddf4aca56fd9fbe5ec2482f66cf45125f
 workflow-type: tm+mt
 source-wordcount: '1138'
-ht-degree: 78%
+ht-degree: 89%
 
 ---
 
@@ -49,10 +49,10 @@ AN-256929; AN-270937; AN-272158; AN-275130; AN-277830; AN-278635; AN-279066; AN-
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 更改分析處理通過體驗邊緣收集的A4T資料的方式 | 2022 年 31 月 3 日 | 開 **2022年3月7日**，我們更改了處理來自體驗邊緣的一些呼叫的方式，這些呼叫包括用於目標分析(A4T)報告的目標內容。 從3月7日起，所有A4T報告內容的點擊都被修改，因此它們不會被視為頁面視圖或連結事件。 **2022年3月31日起**，我們已更改了邏輯，使其更具選擇性，以便不修改標準頁面視圖和按一下事件。 今後，將修改的唯一事件將是僅包含A4T內容的個性化調用。 |
-| 更新到某些客戶支援的瀏覽器加密方法 | 2022 年 28 月 3 日 | Adobe提供兩個密碼安全級別，以滿足客戶對第一方資料收集的不同安全需求。 開 **2022年6月23日** 我們將取消對某些HTTPS加密算法（稱為密碼）的支援，這些加密算法的安全級別設定為「高」。 這意味著某些較舊的作業系統將無法再將資料發送到分析，因為它們不支援現代加密方法。 使用預設「標準」密碼安全設定的客戶將不會受到影響。 所有當前使用「高」設定的客戶已直接聯繫。 可以找到受此更改影響的密碼的詳細清單 [這裡](/help/technotes/rdc/encryption-algos.md)。 |
+| 更改分析處理通過體驗邊緣收集的A4T資料的方式 | 2022 年 3 月 31 日 | 開 **2022年3月7日**，我們更改了處理來自體驗邊緣的一些呼叫的方式，這些呼叫包括用於目標分析(A4T)報告的目標內容。 從3月7日起，所有A4T報告內容的點擊都被修改，因此它們不會被視為頁面視圖或連結事件。 **2022年3月31日起**，我們已更改了邏輯，使其更具選擇性，以便不修改標準頁面視圖和按一下事件。 今後，將修改的唯一事件將是僅包含A4T內容的個性化調用。 |
+| 更新支援部分客戶的瀏覽器加密方法 | 2022 年 3 月 28 日 | Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據收集的安全需求。**2022 年 6 月 23 日** 起，我們將針對安全等級設定為「高」的客戶，除移對其部分 HTTPS 加密算法 (稱為加密) 的支援服務。這表示有些較舊版作業系統將無法再將數據發送到 Analytics，因為這些系統不支援現代化的加密方法。使用預設「標準」密碼安全設定的客戶不會受到影響。我們已聯絡過目前設定為「高」等級的所有客戶。受此變動影響的加密詳細列表可在[此處](/help/technotes/rdc/encryption-algos.md)查看。 |
 | 暫停較舊的排程報告 | 2022 年 3 月 11 日 | 自 **2022 年 4 月 15 日**&#x200B;起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| 2022 ISO 區域更新 | 2021 年 3 月 11 日 | Adobe 將於 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。 希望在此版本後看到次要的地理資訊更新。 |
+| 2022 ISO 區域更新 | 2021 年 3 月 11 日 | Adobe 將於 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。 預計此版本後將會有較小的地區資訊更新。 |
 | 暫停較舊的已排程 Report Builder 工作 | 2022 年 2 月 24 日 | **自 2022 年 4 月 15 日起**，Adobe 打算暫停所有建立日期超過兩年的已排程 Report Builder 工作。這項暫停尤其會套用在 2020 年 1 月 31 日之前建立的任何工作上。 不會刪除任何工作、活頁簿或資料。但是將暫停確認超過兩年的工作，並且不會發送額外的排程工作。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | 舊版 Analytics OAuth/JWT 整合的允許清單 EOL 延長到期 | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和舊版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允許清單延長即將到期。此延長是為了讓使用舊版 [!DNL Adobe Analytics] OAuth/JWT 認證的客戶有更多時間，以便將其用戶端整合移轉至 [Adobe IMS 認證](https://developer.adobe.com/console)。這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 目前透過允許清單擴展功能使用舊版 [!DNL Analytics] OAuth/JWT 憑證的客戶，以及在 2022 年 5 月 25 日尚未完成移轉至 IMS 的客戶，都將會失去使用 Adobe 服務的權限。直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
 | 安全檔案傳輸通訊協定 (SFTP) 服務升級 | 2022 年 3 月 3 日 | 在 **2022 年 5 月 15 日**，[!DNL Adobe Analytics] 將會升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改良的檔案傳輸安全性功能。在這次變更後，我們將不再支援某些 SFTP 用戶端設定。我們也會新增一些連線選項，這些選項將會在 **2022 年 3 月 1 日**&#x200B;之前提供。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hant)詳述的變更。 |
