@@ -5,9 +5,9 @@ user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
 source-git-commit: ce607610516a94e4d0fbbc53a1f8f53f5977a777
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '200'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 98%
 + 地區資料彙集 {#rdc}
    + [地區資料彙集說明](rdc/regional-data-collection.md)
    + [SSL 認證授權](rdc/ssl-cert-licensing.md)
-   + [支援的HTTPS加密算法](rdc/encryption-algos.md)
+   + [支援的 HTTPS 加密算法](rdc/encryption-algos.md)
 + [安全性資源](security.md)
 + [使用詞彙 (字彙表)](terms.md)
 + [可選時間戳記](timestamps-optional.md)
