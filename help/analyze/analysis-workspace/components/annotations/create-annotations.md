@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
+source-git-commit: 6a63c480220fa963cf1dc00acdd5e482dc2bab38
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 98%
+source-wordcount: '640'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->該功能的逐步推出將於2022年3月23日開始。 一般可用性：2022年4月11日。
+>此功能的逐步推出將於 2022 年 3 月 23 日開始。全面發佈：2022 年 4 月 11 日。
 
 1. 有幾種方法可以開始建立註解：
 
@@ -26,6 +26,7 @@ ht-degree: 98%
 | **以滑鼠右鍵按一下[!UICONTROL 折線]圖中的點。** | 隨即開啟[!UICONTROL 註解產生器]。 請注意，根據預設，以這種方式建立的註解只會出現在其建立所在的專案中。 但是您可將這些註解提供給所有專案使用。 也請注意，系統已填入日期及任何量度等。<p>![](assets/annotate-line.png) |
 | **在工作區中，前往[!UICONTROL 元件] > [!UICONTROL 建立註解]。** | 隨即開啟[!UICONTROL 註解產生器]。 |
 | **使用此快速鍵**&#x200B;來開啟註解產生器：(PC) `ctrl` `shift` + o，(Mac) `shift` + `command` + o | 請注意，使用快速鍵建立註解時，您會為目前日期建立單日註解，而不會預先選取任何範圍 (量度或維度)。 |
+| **使用 [2.0注釋API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/annotations/)** | Analytics 2.0注釋API允許您通過Adobe I/O以寫程式方式建立、更新或檢索注釋。這些API使用與Adobe在產品UI內使用的相同的資料和方法。 |
 
 1. 填入[!UICONTROL 註解產生器]元素。
 
