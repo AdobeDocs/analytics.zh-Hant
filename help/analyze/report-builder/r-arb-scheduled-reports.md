@@ -4,8 +4,8 @@ title: 排程工作管理員
 feature: Report Builder
 role: User, Admin
 exl-id: 8bacd7e4-ab50-4b36-842c-a8b6130a58d9
-source-git-commit: 91d94ba33328f0ac5fba09cdafb26f58733b4d58
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## 暫停較舊的排程工作。
 
-**自 2022 年 4 月 15 日起**，Adobe 打算暫停所有建立日期超過兩年的已排程 Report Builder 工作。這項暫停尤其會套用在 **2020 年 1 月 31 日之前建立的任何工作**&#x200B;上。 不會刪除任何工作、活頁簿或資料。將暫停超過兩年的工作，並且不會發送額外的排程工作。
+**自 2022 年 4 月 21 日起**，Adobe 打算暫停所有建立日期超過兩年的已排程 Report Builder 工作。這項暫停尤其會套用在 **2020 年 1 月 31 日之前建立的任何工作**&#x200B;上。 不會刪除任何工作、活頁簿或資料。將暫停超過兩年的工作，並且不會發送額外的排程工作。
 
 您希望恢復發送的任何工作都可以重新啟用。登入 Report Builder 並啟動[!UICONTROL 排程工作管理員]。按一下&#x200B;**[!UICONTROL 重新啟用]**&#x200B;您要恢復發送的排程工作。除非選擇更短的到期日，否則任何重新啟用的工作的預設到期日皆為 18 個月。
 

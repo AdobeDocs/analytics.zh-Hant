@@ -4,8 +4,8 @@ description: Adobe 打算暫停所有建立日期超過兩年的排程報告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: a08865a94b7d9bf602e8de8c7f8d2af2fb80ff0e
-workflow-type: ht
+source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # 排程報告的生命週期結束通知
 
-自 2022 年 4 月 15 日起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的任何工作)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。
+自 2022 年 4 月 21 日起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的任何工作)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。
 
 如仍需發送任何排成報表，只需登入 Analytics 並開啟[!UICONTROL 排程報告]管理員，即可重新啟用。按一下[!UICONTROL 編輯]圖示，並設定新的排程時間和到期日。除非選擇更短的到期日，否則任何重新啟用的報表的預設到期日皆為 9 個月。
 
