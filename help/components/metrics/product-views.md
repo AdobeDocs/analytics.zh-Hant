@@ -3,10 +3,10 @@ title: 產品檢視
 description: 檢視產品頁面的次數。
 feature: Metrics
 exl-id: 6217391d-8b42-4fdf-b05e-b9b117598ad2
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '94'
-ht-degree: 100%
+source-git-commit: eb13c3e828bc6d4c547f4529ee7a15182bbbf046
+workflow-type: tm+mt
+source-wordcount: '79'
+ht-degree: 88%
 
 ---
 
@@ -19,4 +19,4 @@ ht-degree: 100%
 此量度會計算符合下列&#x200B;**任一條件**&#x200B;的點擊次數：
 
 * 值 `prodView` 存在於 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中；或
-* 變數 [`products`](/help/implement/vars/page-vars/products.md) 已設定，且 `events` 變數中沒有任何購物車事件。任何非自訂的事件 (`event1` - `event1000`) 都是購物車事件。
+* 的 [`products`](/help/implement/vars/page-vars/products.md) 變數已設定， `events` 變數為空。
