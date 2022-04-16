@@ -2,10 +2,10 @@
 title: 跨裝置分析常見問題集
 description: 跨裝置分析常見問題集
 exl-id: 7f5529f6-eee7-4bb9-9894-b47ca6c4e9be
-source-git-commit: a99ef87e9b131beba3fceb8dbb98da503a9d528d
-workflow-type: ht
-source-wordcount: '1941'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '1937'
+ht-degree: 98%
 
 ---
 
@@ -104,7 +104,7 @@ CDA 會提取識別碼變數維度項目，再對報表最佳化。您不需擔�
 
 ## 我公司的套報表套裝有多少套可以啟用 CDA？
 
-可以啟用多個報表套裝，但若一次請求多個報表套裝，則每個額外的報表套裝都會增加整體佈建時間。 CDA 不會合併多套報表套裝。每個啟用 CDA 的報表套裝都必須具備跨裝置性質 (包含來自多個表面的資料，例如桌面網頁、行動網頁、行動應用程式等)。
+自2022年5月1日起，任何新的CDA實施將限制為每個客戶最多三個報告套件ID(RSID)。 CDA 不會合併多套報表套裝。每個啟用 CDA 的報表套裝都必須具備跨裝置性質 (包含來自多個表面的資料，例如桌面網頁、行動網頁、行動應用程式等)。。
 
 ## 如果我的 Experience Cloud 組織 (亦即 IMS 組織) 在不同區域擁有許多家公司，我是否可為所有公司啟用 CDA？
 

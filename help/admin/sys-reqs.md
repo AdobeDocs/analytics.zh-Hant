@@ -1,16 +1,16 @@
 ---
-title: 系統要求
+title: Adobe Analytics系統要求
 description: 使用 Adobe Analytics 的系統需求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 0143496648e59e95c360388735def726e63ee71b
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+workflow-type: tm+mt
+source-wordcount: '110'
+ht-degree: 92%
 
 ---
 
-# 系統要求
+# Adobe Analytics系統要求
 
 列出使用 Adobe Analytics 中各種產品解決方案的系統需求。
 
@@ -32,4 +32,4 @@ ht-degree: 100%
 請參閱連結的解決方案頁面，以了解該解決方案的系統需求。
 
 * [Report Builder](/help/analyze/report-builder/setup/system-requirements.md)
-* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hant)
+* [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html)
