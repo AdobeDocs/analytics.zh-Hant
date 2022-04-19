@@ -3,9 +3,9 @@ description: 顯示特定維的下一個或上一個維項的面板。
 title: 下一個或上一個項目面板
 feature: Panels
 role: User, Admin
-source-git-commit: d4106324f6716139731cc6bd948ef06b35303620
+source-git-commit: 73fa048164c67c6c381ce5e223bb178f9ab1833f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '477'
 ht-degree: 8%
 
 ---
@@ -13,8 +13,7 @@ ht-degree: 8%
 
 # 下一個或上一個項目面板
 
-的 [!UICONTROL 下一項或上一項] 面板以報告和分析中的報告形式開始，位於 [!UICONTROL 報告] > [!UICONTROL 最受歡迎] > [!UICONTROL 下一頁/上一頁]。 此「工作區」面板包含許多表和可視化，可輕鬆標識特定維的下一個或上一個維項。 例如， 
-        
+的 [!UICONTROL 下一項或上一項] 面板以報告和分析中的報告形式開始，位於 [!UICONTROL 報告] > [!UICONTROL 最受歡迎] > [!UICONTROL 下一頁/上一頁]。 此「工作區」面板包含許多表和可視化，可輕鬆標識特定維的下一個或上一個維項。 例如，您可能希望瞭解客戶訪問首頁後最經常訪問的頁面。
 
 ## 訪問面板
 
