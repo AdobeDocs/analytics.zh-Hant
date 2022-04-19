@@ -4,8 +4,8 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 734eb409e7a433147c3536cebc571b38f87ce716
-workflow-type: ht
+source-git-commit: c101a98e2d2d73fecc39054289f516411d7d529a
+workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 100%
 
@@ -40,7 +40,6 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 對於您所選取的每個成功量度，都會顯示一個自由表格和一個轉換率趨勢：
 
 ![已呈現](assets/a4t-rendered.png)
-
 
 每個自由表格都會顯示下列量度欄：
 
