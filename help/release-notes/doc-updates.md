@@ -4,10 +4,10 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 533c323b8be651eca14a88641aa4a82705305297
+source-git-commit: 716b57203cd15ec646792ce1cf5ca47340c23421
 workflow-type: tm+mt
-source-wordcount: '3169'
-ht-degree: 95%
+source-wordcount: '3212'
+ht-degree: 94%
 
 ---
 
@@ -23,12 +23,16 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 | --- | --- |
+| **2022 年 4 月** |  |
+| Adobe Analytics 登陸頁面更新 | 更新聯合 [工作區/報告和分析登錄頁](/help/analyze/landing.md) 它提高了易用性和導航的方便性。 |
+| 有關 [!UICONTROL 頁面摘要] 面板 | [頁面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
+| 有關 [!UICONTROL 下一/上一項] 面板 | [下一個/上一個維項面板](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022 年 3 月** |  |
 | 有關支援的HTTPS加密算法的新主題 | [支援的HTTPS加密算法](/help/technotes/rdc/encryption-algos.md) 密碼安全級別設定為「高」的客戶。 |
 | 有關工作區中注釋的新文檔 | [工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。](/help/analyze/analysis-workspace/components/annotations/overview.md) |
-| Adobe Analytics 登陸頁面更新 | [更新](/help/analyze/landing.md) 到聯合的Workspace/Reports &amp; Analytics登錄頁，可提高易用性和導航的易用性。 |
-| [!UICONTROL 下一項] 或 [!UICONTROL 上一項] 工作區面板 | 通過此面板，您可以瀏覽所選維項後面或前面的項。 |
-| [!UICONTROL 頁面摘要] 工作區面板 | 此面板為您選擇的頁面提供深入分析。 |
+| Adobe Analytics 登陸頁面更新 | [更新工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。](/help/analyze/landing.md) |
+| 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | 通過此面板，您可以瀏覽所選維項後面或前面的項。 |
+| 「[!UICONTROL 頁面摘要]」工作區面板 | 此面板為您選擇的頁面提供深入分析。 |
 | 有關暫停舊計畫報告的新主題 | 有效 **2022年4月15日**,Adobe打算 [暫停所有建立日期超過兩年的計畫報告](/help/analyze/reports-analytics/scheduled-reports-eol.md)。 |
 | **2022 年 2 月** |
 | 行動計分卡專案預覽模式 | 的 [預覽模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-TW#preview) 允許您在保存和共用記分卡之前預覽體驗。 |
