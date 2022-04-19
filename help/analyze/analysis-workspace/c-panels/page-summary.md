@@ -3,13 +3,13 @@ description: 頁面摘要面板顯示所選頁面的摘要資訊。
 title: 頁面摘要面板
 feature: Panels
 role: User, Admin
-source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
+exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
+source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 9%
 
 ---
-
 
 # 頁面摘要面板
 
@@ -26,12 +26,12 @@ ht-degree: 9%
 
 ## 面板輸入 {#Input}
 
-您可以配置 [!UICONTROL 下一項或上一項] 使用這些輸入設定的面板面板：
+您可以配置 [!UICONTROL 頁面摘要] 使用這些輸入設定的面板：
 
 | 設定 | 說明 |
 | --- | --- |
 | 段（或其他元件）下拉區域 | 可以拖放段或其他元件以進一步篩選面板結果。 |
-| 頁維項 | 從下拉清單中，選擇要瀏覽其關鍵統計資訊的維項。 |
+| 頁維項 | 從下拉清單中，選擇要瀏覽其關鍵統計資訊的頁維項。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -56,3 +56,7 @@ ht-degree: 9%
 | [!UICONTROL 流量] | 以選定頁面為焦點的流程圖。 您可以像在任何資料中一樣，進一步鑽取資料 [流程圖](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md)。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
+
+![頁面摘要面板](assets/page-sum1.png)
+
+![度量和流](assets/page-sum2.png)
