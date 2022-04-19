@@ -3,9 +3,9 @@ description: 頁面摘要面板顯示所選頁面的摘要資訊。
 title: 頁面摘要面板
 feature: Panels
 role: User, Admin
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: 4bb950350d258b8d608f6d95d37d7d860e23ed2c
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '469'
 ht-degree: 9%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # 頁面摘要面板
 
-的 [!UICONTROL 頁面摘要] 「報告和分析」中的「報告」>「項目」>「頁面分析」>「頁面摘要」下的「面板」作為報告啟動。 通過此「工作區」面板，您可以輕鬆瀏覽有關特定頁面的關鍵統計資訊。
+的 [!UICONTROL 頁面摘要] 「報告和分析」中的「報告」>「項目」>「頁面分析」>「頁面摘要」下的「面板」作為報告啟動。 它現在也是「工作區」面板。 通過此面板，您可以輕鬆瀏覽有關特定頁面的關鍵統計資訊。
 
 ## 訪問面板
 
