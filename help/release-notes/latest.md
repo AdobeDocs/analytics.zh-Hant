@@ -3,14 +3,14 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 62bc0da1de9303cb3a15731eac4f25ac294ddd4b
+source-git-commit: b93b27fac0a9e3364512bb8a27ad64c7eb379dd1
 workflow-type: tm+mt
-source-wordcount: '996'
-ht-degree: 73%
+source-wordcount: '1021'
+ht-degree: 53%
 
 ---
 
-# 本Adobe Analytics發行說明（2022年4月）
+# Current Adobe Analytics release notes (April 2022)
 
 **上次更新**:2022年4月19日
 
@@ -22,20 +22,20 @@ ht-degree: 73%
 
 * 了解關於 [Adobe Experience Cloud 產品](https://business.adobe.com/products/adobe-experience-cloud-products.html)的最新版更新。取得 Experience League 上的最新自助文件、教學課程和課程。
 
-
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
 | Adobe Analytics 登陸頁面更新 | 更新工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。[了解更多](/help/analyze/landing.md) | 2022 年 4 月 20 日 |
 | 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | [!UICONTROL 「下一個項目」或「上一個項目」]面板可讓您瀏覽您所選維度項目之後或之前的項目。例如，如果您想查看特定產品頁面、行銷頻道甚至裝置類型的下一頁或上一頁，請使用它。此面板超越傳統的下一個/上一個報告，因為它可讓您查看任何維度，並且不需要任何新的實施即可獲得見解。[了解更多](/help/analyze/analysis-workspace/c-panels/next-previous.md) | 2022 年 4 月 20 日 |
 | 「[!UICONTROL 頁面摘要]」工作區面板 | 「[!UICONTROL 頁面摘要]」面板為您選擇的頁面提供深入分析。它提供與舊版 Reports &amp; Analytics「[!UICONTROL 頁面摘要]」報告相同的詳細資料，還有其他更多資訊。[了解更多](/help/analyze/analysis-workspace/c-panels/page-summary.md) | 2022 年 4 月 20 日 |
+| 已刪除 `x-proxy-global-company-id` 2.0 API調用的標頭 | Adobe Analytics2.0 API不再要求 `x-proxy-global-company-id` 標題，因為此資訊是終結點URL的一部分。 您仍可以包括此標頭，但如果缺少該標頭，則不再引發錯誤。 | 2022 年 4 月 20 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Adobe Analytics 中的修正
 
-* 修復了資料源中的問題，在從資料源UI建立時，保存資料源後，開始日期和結束日期將自動更改。 日期在1天前更新。 (AN-281262)
+* 修復了資料源中的問題，在從資料源UI建立時，保存資料源後，開始日期和結束日期將自動更改。 The dates were updating themselves by 1 day. (AN-281262)
 
-* 已修復阻止通過電子郵件連結續訂計畫項目的問題。 (AN-283622)
+* Fixed an issue that prevented the renewal of scheduled projects via e-mail link. (AN-283622)
 
 ### Adobe Analytics 中的其他修正
 
@@ -45,13 +45,13 @@ AN-274486;AN-279258;AN-279995;AN-280918;AN-281423;AN-282084;AN-282435;AN-283508;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **跨設備分析(CDA)權利** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新的實施 [CDA](/help/components/cda/overview.md) 將限制為每個客戶最多三個報告套件ID(RSID)。 |
-| **更改Adobe Analytics處理通過Experience Edge收集的A4T資料的方式** | 2022 年 3 月 31 日 | 2022年3月7日，我們更改了處理來自體驗邊緣的一些呼叫的方式，這些呼叫包括用於目標(A4T)報告分析的目標內容。 從3月7日起，所有A4T報告內容的點擊都被修改，因此它們不會被視為頁面視圖或連結事件。 開始 **2022年3月31日**，我們已更改了邏輯，使其更具選擇性，以便不修改標準頁面視圖和按一下事件。 今後，將修改的唯一事件將是僅包含A4T內容的個性化調用。 |
-| **更新支援部分客戶的瀏覽器加密方法** | 2022 年 3 月 28 日 | Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據收集的安全需求。**2022 年 6 月 23 日** 起，我們將針對安全等級設定為「高」的客戶，除移對其部分 HTTPS 加密算法 (稱為加密) 的支援服務。這表示有些較舊版作業系統將無法再將數據發送到 Analytics，因為這些系統不支援現代化的加密方法。使用預設「標準」密碼安全設定的客戶不會受到影響。我們已聯絡過目前設定為「高」等級的所有客戶。受此變動影響的加密詳細列表可在此處查看。 |
-| **暫停較舊的排程報告** | 2022 年 4 月 12 日 | 自 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。了解更多 |
-| **2022 ISO 區域更新** | 2021 年 3 月 11 日 | Adobe 將於 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。 預計此版本後將會有較小的地區資訊更新。 |
-| **暫停較舊的已排程 Report Builder 工作** | 2022 年 4 月 12 日 | 有效 **2022年4月20日**,Adobe打算暫停兩年多前建立的所有計畫Report Builder任務。 這項暫停尤其會套用在 2020 年 1 月 31 日之前建立的任何工作上。 不會刪除任何工作、活頁簿或資料。但是將暫停確認超過兩年的工作，並且不會發送額外的排程工作。了解更多 |
-| **舊版 Analytics OAuth/JWT 整合的允許清單 EOL 延長到期** | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和舊版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允許清單延長即將到期。此延長是為了讓使用舊版 [!DNL Adobe Analytics] OAuth/JWT 認證的客戶有更多時間，以便將其用戶端整合移轉至 [Adobe IMS 認證](https://developer.adobe.com/console)。這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 目前透過允許清單擴展功能使用舊版 [!DNL Analytics] OAuth/JWT 憑證的客戶，以及在 2022 年 5 月 25 日尚未完成移轉至 IMS 的客戶，都將會失去使用 Adobe 服務的權限。直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
+| **Cross-Device Analytics (CDA) entitlement** | 2022 年 4 月 13 日 | 有效 **2022年5月1日**，任何新的實施 [CDA](/help/components/cda/overview.md) 限制為每個客戶最多三個報告套件ID(RSID)。 |
+| **Change to how Adobe Analytics handles A4T data collected via Experience Edge** | 2022 年 3 月 31 日 | 2022年3月7日，Analytics更改了它處理來自體驗邊緣的一些呼叫的方式，這些呼叫包括用於目標(A4T)分析報告的目標內容。 從3月7日起，所有A4T報告內容的點擊都將被修改，因此它們不會被視為頁面視圖或連結事件。 Starting **March 31, 2022**, the logic is more selective so that standard Page View and Click events are not modified. Going forward, the only events that are modified are personalization-only calls that only have A4T content. |
+| **更新支援部分客戶的瀏覽器加密方法** | 2022 年 3 月 28 日 | Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據收集的安全需求。開 **2022年6月23日** 對某些HTTPS加密算法（稱為密碼）的支援被刪除，這些加密算法的安全級別設定為「高」。 此操作意味著某些較舊的作業系統不再能夠將資料發送到分析，因為它們不支援現代加密方法。 使用預設「標準」密碼安全設定的客戶不受影響。 我們已聯絡過目前設定為「高」等級的所有客戶。A detailed list of the ciphers affected by this change can be found here. |
+| **暫停較舊的排程報告** | 2022 年 4 月 12 日 | 自 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的)。未刪除任何報告或資料。 只暫停標識為兩年以上的報告，並且不發送其他計畫的報告。 了解更多 |
+| **2022 ISO 區域更新** | 2021 年 3 月 11 日 | Adobe plans to perform 2022 ISO region updates on **June 10, 2022**. 預計此版本後將會有較小的地區資訊更新。 |
+| **暫停較舊的已排程 Report Builder 工作** | 2022 年 4 月 12 日 | Effective **April 20, 2022**, Adobe intends to pause all scheduled Report Builder tasks that were created more than two years ago. 這項暫停尤其會套用在 2020 年 1 月 31 日之前建立的任何工作上。 未刪除任務、工作簿或資料。 However, tasks identified as older than two years are paused, and no additional scheduled tasks are sent. 了解更多 |
+| **舊版 Analytics OAuth/JWT 整合的允許清單 EOL 延長到期** | 2022 年 1 月 14 日 | On **May 25, 2022**, the [Analytics 1.3 API, 1.4 SOAP API, and Legacy Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) allowlist extension expires. 此延長是為了讓使用舊版 [!DNL Adobe Analytics] OAuth/JWT 認證的客戶有更多時間，以便將其用戶端整合移轉至 [Adobe IMS 認證](https://developer.adobe.com/console)。這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 當前使用舊式服務的客戶 [!DNL Analytics] 通過允許清單擴展的OAuth/JWT憑據，以及在2022年5月25日之前未完成向IMS憑據遷移的憑據的用戶無法訪問Adobe服務。 直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
 | **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
