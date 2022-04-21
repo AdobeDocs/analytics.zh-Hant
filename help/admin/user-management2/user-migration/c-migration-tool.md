@@ -3,10 +3,10 @@ description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud �
 title: Analytics 使用者移轉至 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: df16d37de742d96f66fd74d7a7b47729f0454fd5
-workflow-type: ht
-source-wordcount: '3115'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '3114'
+ht-degree: 99%
 
 ---
 
@@ -120,15 +120,15 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">確認自己是 Admin Console 的 Analytics 產品管理員。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">聯絡您的使用者群，告知他們在移轉開始後，其登入體驗將有所變動。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">審核您目前的使用者與權限，並執行清除活動。 </li> 
-    </ul> <p>若要加快移轉速度，請前往 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe 客戶服務</a>聯絡客戶成功經理，提交提早開始日期的請求。 </p> </td> 
+    </ul> <p>若要加快移轉速度，請前往 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客戶服務</a>聯絡客戶成功經理，提交提早開始日期的請求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我是 Analytics 管理員，但沒有 Admin Console 的存取權，誰能協助我取得 Admin Console 的存取權？ </p> </td> 
-   <td colname="col2"> <p>擁有貴組織 Admin Console 存取權的系統或產品管理員可以授予您存取權。如果不確定組織內誰擁有 Admin Console 的管理員權限，請聯絡 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe 客戶服務</a>。 </p> </td> 
+   <td colname="col2"> <p>擁有貴組織 Admin Console 存取權的系統或產品管理員可以授予您存取權。如果不確定組織內誰擁有 Admin Console 的管理員權限，請聯絡 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客戶服務</a>。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我可以延後移轉開始日期嗎？ </p> </td> 
-   <td colname="col2"> <p>是。請聯絡 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe 客戶服務</a>。 </p><p>請參閱下方說明，瞭解從開始日期起您目前的 Analytics 使用者與權限管理功能會有哪些變更。 </p> </td> 
+   <td colname="col2"> <p>是。請聯絡 <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">Adobe 客戶服務</a>。 </p><p>請參閱下方說明，瞭解從開始日期起您目前的 Analytics 使用者與權限管理功能會有哪些變更。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>我的公司正要移轉至 Admin Console，我可以在移轉開始日期前於何處建立新的使用者和權限群組？ </p> </td> 
@@ -280,7 +280,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>使用者管理 API <a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">Adobe 支援的身分類型</a> </p> </td> 
-   <td colname="col2"> <p> 移轉至 Admin Console 的管理員應設定 Adobe I/O 所提供的<a href="https://developer.adobe.com/UMAPI/">使用者管理 API</a>，以程式化存取 Admin Console 中的使用者帳戶。 </p> <p>當您為移轉作業啟用此功能時，Analytics 權限 API 將會關閉。 </p> </td> 
+   <td colname="col2"> <p> 管理員遷移到Admin Console時應配置<a href="https://developer.adobe.com/UMAPI/"> 用戶管理API</a> 在Adobe Developer提供，用於以程式方式訪問該Admin Console的用戶帳戶。 </p> <p>當您為移轉作業啟用此功能時，Analytics 權限 API 將會關閉。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>網站服務憑證 </p> </td> 
@@ -288,7 +288,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
   </tr> 
   <tr> 
    <td colname="col1"> <p>單一登入 </p> </td> 
-   <td colname="col2"> <p> Analytics 單一登入設定會在您完成移轉後移除，移轉期間則仍可繼續使用。使用 Analytics 單一登入的客戶應升級至 <a href="https://helpx.adobe.com/tw/enterprise/help/identity.html">Adobe Federated ID</a>。 </p> <p>Analytics 建議您先移轉具 Adobe ID 的使用者，以輕鬆建立 Experience Cloud 帳戶，然後將這些帳戶轉換為 Federated 單一登入使用者。 </p> </td> 
+   <td colname="col2"> <p> Analytics 單一登入設定會在您完成移轉後移除，移轉期間則仍可繼續使用。使用 Analytics 單一登入的客戶應升級至 <a href="https://helpx.adobe.com/enterprise/help/identity.html">Adobe Federated ID</a>。 </p> <p>Analytics 建議您先移轉具 Adobe ID 的使用者，以輕鬆建立 Experience Cloud 帳戶，然後將這些帳戶轉換為 Federated 單一登入使用者。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>下載權限群組 </p> </td> 

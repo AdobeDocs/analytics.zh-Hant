@@ -3,10 +3,10 @@ description: 「網站服務 API」可程式化地存取行銷報告和其他「
 title: 網站服務
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
-source-wordcount: '241'
-ht-degree: 100%
+source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 88%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 ## 管理網頁服務
 
-在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中，您可以更新權限，以納入那些需要存取網頁服務 API 的使用者。
+在 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 中，您可以更新權限，以納入那些需要存取網頁服務 API 的使用者。
 
-## WSDL：下載網站服務開發商的網站服務 API WSDL。
+## WSDL:為Web服務開發人員下載Web服務API WSDL
 
-請前往 [Adobe I/O](https://www.adobe.io/apis/experiencecloud/analytics.html) 存取與網站服務 API 相關的文件、範例程式碼和論壇。如需詳細資訊，請按一下「網站服務 API 概覽」。
+訪問 [Adobe開發人員](https://developer.adobe.com/analytics-apis/docs/2.0/)，它提供與Web服務API相關的文檔、示例代碼和論壇。 如需詳細資訊，請按一下「網站服務 API 概覽」。
 
 ## 篩選選項
 
