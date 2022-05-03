@@ -4,10 +4,10 @@ description: Adobe 打算暫停所有建立日期超過兩年的排程報告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 64b239d0807f68ee7e60c94a81a08c46a55fecf8
+source-git-commit: d3309815de29264c743f30a236c99a55fc731413
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '336'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 100%
 
 此動作的目的是在我們為之前宣布的 Reports &amp; Analytics 生命週期結束預做準備時，能有效地管理和維護我們的排程報告。這將作為我們日後新的治理政策：
 
+* 在2022年4月15日之後，不能建立新的計畫報告。
 * 2022 年 4 月 15 日之後，所有排程報告的最長到期日將為 9 個月。
 * 9 個月後，到期的工作將暫停，如果仍然需要，可將其重新啟用，直到 2023 年 12 月 31 日。
 * 2023 年 12 月 31 日時，將停止使用 Reports &amp; Analytics。
