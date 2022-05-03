@@ -4,10 +4,10 @@ solution: Analytics
 title: 伺服器端轉送總覽
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '821'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 前往&#x200B;**「Analytics** > **管理員** > **報表套裝** > (選取&#x200B;**「報表套裝」**) > **編輯設定** > **一般** > **伺服器端轉送」**。如果核取方塊為：
 
-* **無效** (您無法進行選擇或是選單不存在)：您沒有對應到 IMS 組織的選定報表套裝。請聯絡客戶服務以確定報表套裝已正確對應。
+* **非活動** （無法進行選擇或菜單不存在）:您沒有將所選報表套件映射到組織ID。 請與客戶服務部門聯繫，確保報告套件已正確映射。
 * **已停用**：您未開啟新的伺服器端轉送。閱讀頁面中的內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。您也可以設定此 Audience Analytics 整合。
 

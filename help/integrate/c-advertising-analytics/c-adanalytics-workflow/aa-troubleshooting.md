@@ -3,10 +3,10 @@ description: Advertising Analytics 相關問題的疑難排解與修正。
 title: Advertising Analytics 疑難排解
 feature: Advertising Analytics
 exl-id: 29e39a15-504a-4155-8794-aceb47046a54
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '171'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 報表套裝並未對應至登入使用者的 Experience Cloud 組織 ID。 </p> </td> 
-   <td colname="col2"> <p>請聯絡客戶服務，以將報表套裝對應到 IMS 組織。</p> </td> 
+   <td colname="col2"> <p>聯繫「客戶服務」，將報表套件映射到組織ID。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 尚未針對 Advertising Analytics 報表佈建報表套裝。 </p> </td> 

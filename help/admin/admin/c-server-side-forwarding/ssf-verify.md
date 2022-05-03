@@ -4,10 +4,10 @@ solution: Analytics
 title: 如何確認您的伺服器端轉送實作情形
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
+workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 >[!CAUTION]
 >
->如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。請確認身分識別服務已正確部署，且您已部署 App Measurement 模組，將適用的報表套裝對應到正確的 IMS 組織，並在 Analytics「Admin Console」中啟用了伺服器端轉送。
+>如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。請確保正確部署了Identity Service，您已部署了App Measurement模組，已將適用的報告套件映射到正確的組織ID，並且已在Analytics管理控制台中啟用了伺服器端轉發。
 
 >[!MORELIKETHIS]
 >
