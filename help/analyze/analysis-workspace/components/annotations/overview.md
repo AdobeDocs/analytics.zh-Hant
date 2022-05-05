@@ -5,7 +5,7 @@ role: User, Admin
 solution: Analytics
 feature: Annotations
 exl-id: 722d7636-f619-479a-97f1-3da23e8f7f83
-source-git-commit: c2d799b9663c29c2d2bcc9c6ca643404cfc18bf5
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%
@@ -30,13 +30,13 @@ ht-degree: 100%
 
 * 註解可套用於建立所在的報表套裝 (預設) 或所有報表套裝。
 
-## 權限
+## 權限 {#permissions}
 
 根據預設，只有管理員才能建立註解。使用者有權檢視註解，就像檢視其他 Analytics 元件一樣 (例如區段、計算量度等)。
 
 但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
 
-## 開啟或關閉註解
+## 開啟或關閉註解 {#on-off}
 
 可在幾個等級開啟或關閉註解：
 

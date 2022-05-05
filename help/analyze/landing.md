@@ -4,28 +4,20 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 97396b20aec5864f70a14d969c7b87244ff84ae0
+source-git-commit: 7fef9d7e31d5611b981b6edba6cd49d66f916725
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 100%
+source-wordcount: '3564'
+ht-degree: 98%
 
 ---
 
 # Adobe Analytics 登陸頁面
 
-Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、更新的報表選單、現代化報表，以及可幫助您更有效地開始體驗的學習區段。
-
->[!IMPORTANT]
->
->此登陸頁面目前處於 Open Beta 階段。這是起始點選項。您也可以選擇使用原有的登陸頁面，無論是[!UICONTROL 工作區]或[!UICONTROL 報表]都可以。如果您確實決定選擇加入 Beta 版計劃，請瀏覽頁面並在螢幕上方按一下「**[!UICONTROL 提供回饋意見]**」，即可記錄您的回饋意見以及您發現的錯誤。您可以隨時選擇退出並返回 Beta 計劃。在 Beta 版使用者介面中完成的任何工作都會延續進入現有/目前的[!UICONTROL 工作區]體驗中。
+Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 整合在 [!DNL Workspace] 傘狀結構下的單一介面和存取點中。此頁面包含專案經理首頁、更新的報表選單、現代化報表，以及可幫助您更有效地開始體驗的學習區段。以下是影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/334278/?quality=12)
 
-## 全新登陸頁面功能
-
->[!NOTE]
->
->這些功能和變更目前[在有限測試中](/help/release-notes/releases.md)。
+## 全新登陸頁面功能 {#new-features}
 
 | 功能 | 說明 | 螢幕擷圖 |
 | --- | --- | --- |
@@ -47,7 +39,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ![登陸](assets/landing.png)
 
-## 選單結構
+## 頂部菜單結構 {#top-menu}
 
 ![最上方選單](assets/top-menus.png)
 
@@ -112,7 +104,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 如前面所提，此處只提供先前在 Reports &amp; Analytics 中分類的最常用報告。一小部分很少使用或不再相關的報表未移轉過來。如需詳細資訊，請參閱以下的常見問題。
 
-### 選單和子選單
+### 選單和子選單 {#menus}
 
 以下是選單及其子選單。 如果找不到特定報表，請執行「搜尋頁面」後尋找。
 
@@ -125,7 +117,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | **[!UICONTROL 贏取]** | <ul><li>行銷管道 > 首次接觸管道、首次接觸管道詳細資料 (首次接觸管道，以及哪個特定的首次接觸管道表現最好？)</li><li>行銷管道 > 首次的上次接觸管道、首次的上次接觸管道詳細資料 (哪個上次接觸管道，以及哪個特定的上次接觸管道表現最好？)</li><li>行銷活動 > 行銷活動 (哪些行銷活動在驅動我的關鍵量度？)</li><li>行銷活動 > 行銷活動績效 (哪些行銷活動帶來最多收入？)</li><li>行銷活動 > 追蹤程式碼 (哪些行銷活動追蹤程式碼表現最好？)</li><li>[網頁收購](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant#web)</li><li>[行動收購](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=en#mobile)</li><li>[Advertising Analytics：付費搜尋](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant#advertising)</li><li>搜尋關鍵字 - 全部、付費、免費 (哪個搜尋關鍵字和付費/免費搜尋關鍵字可讓我的關鍵量度效果最好？)</li><li>搜尋引擎 - 全部、付費、免費 (哪個搜尋引擎和付費/免費搜尋引擎可讓我的關鍵量度效果最好？)</li><li>全部搜尋頁面排名 (我的使用者從哪個搜尋頁面造訪我的網站？)</li><li>反向連結網域 (哪些網域會增進我的網站流量？)</li><li>原始反向連結網域 (使用者造訪我的網站前會去的第一個網域是哪裡？)</li><li>反向連結 (使用者從哪些網址點進我的網站？)</li><li>反向連結類型 (我的參照 URL 屬於哪個類別？)</li></ul> |
 | **[!UICONTROL 公司報表]** | 您的公司建立供您使用的報表。參閱以下的「建立公司報表」。 |
 
-### 範本 (現在稱之為報表) 位置
+### 範本 (現在稱之為報表) 位置 {#templates}
 
 | 報表 (範本) 名稱 | 報表位置 |
 | --- | --- |
@@ -152,7 +144,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | 網頁獲取 | 獲取 > 網頁獲取 |
 | Advertising Analytics: 付費搜尋 | 獲取 > Advertising Analytics: 付費搜尋 |
 
-### 使用「報表」標記。
+### 使用「報表」標記。 {#use-reports}
 
 若您是 Reports &amp; Analytics 的現有使用者，這裡將簡單介紹如何使用您習慣使用的報表以及工作區中現在顯示的報表。報表類似於現有的範本：如果您對報表進行變更，則在離開或前往其他報表時，您會看到要儲存/捨棄報表的提示。如果您確實想要儲存變更，則報表會儲存為新專案。
 
@@ -170,7 +162,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
    * 您可以前往右上方的行事暦並變更日期範圍。
    * 您可以新增維度劃分、在其他量度中拖動，並且通常可以您希望的方式自訂報表。
 
-### 建立 (自訂) 公司報表
+### 建立 (自訂) 公司報表 {#company-report}
 
 自訂報表稱之為「公司報表」，可在「公司報表」選單 (見下文) 中找到。任何之前建立的報表和新報表都在此清單中。
 
@@ -199,6 +191,22 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 * [!UICONTROL 工作區基礎課程]導覽可讓您直接進入工作區，並逐步了解工作區版面以及在何處尋找/執行最常用的操作。 此導覽也可以直接在工作區中重新啟動，方法是透過面板標題的工具提示快覽視窗進行。
 * 按一下影片/導覽，可新增「**[!UICONTROL 已檢視]**」標記。此標記可幫助您透過學習內容追蹤您的進度。您可以按一下此標記，然後標記會消失，以防您尚未完成內容。
 * 影片模式的「**[!UICONTROL 了解更多]**」按鈕可帶您進入 Adobe Experience League 文件頁面，其中有關於您剛才觀看影片的更多內容。 **[!UICONTROL 觀看更多影片]**&#x200B;可帶您前往 Analysis Workspace YouTube 完整播放清單。
+
+## 設定登錄頁 {#set-landing}
+
+用戶可以設定其首選登錄頁。
+
+1. 轉到分析> [!UICONTROL 元件] > [!UICONTROL 首選項] > [!UICONTROL 常規]。
+1. 檢查您希望的登錄頁：
+
+   ![設定登錄頁](assets/landing-pref.png)
+
+## 隱藏報表頁籤 {#hide-reports}
+
+管理員可以隱藏其組織內所有用戶的「報告」頁籤。
+
+1. 轉到 [!UICONTROL 分析] > [!UICONTROL 元件] > [!UICONTROL 首選項] > [!UICONTROL 公司]。
+1. 檢查 **[!UICONTROL 隱藏報告頁籤]**。
 
 ## 登陸頁面常見問答 {#landing-faq}
 
