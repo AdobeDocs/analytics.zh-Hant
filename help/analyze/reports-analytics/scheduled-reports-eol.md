@@ -4,16 +4,16 @@ description: Adobe 打算暫停所有建立日期超過兩年的排程報告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 35e5f056f962066a068ca1f0247c5b550efc2edc
+source-git-commit: 3a307eefec4f9e6559c5109819ef55b200852b3b
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 排程報告的生命週期結束通知
 
-**** No reports or data were deleted. Only reports identified as older than two years were paused, and no additional scheduled reports can be sent.
+有效 **2022年4月21日**,Adobe暫停了建立日期大於兩年（2020年1月31日之前建立的任何任務）的所有計畫報告。 未刪除任何報告或資料。 只暫停標識為兩年以上的報告，不能發送其他計畫的報告。
 
 如仍需發送任何排成報表，只需登入 Analytics 並開啟[!UICONTROL 排程報告]管理員，即可重新啟用。按一下[!UICONTROL 編輯]圖示，並設定新的排程時間和到期日。除非選擇更短的到期日，否則任何重新啟用的報表的預設到期日皆為 9 個月。
 
@@ -27,10 +27,10 @@ ht-degree: 70%
 
 此動作的目的是在我們為之前宣布的 Reports &amp; Analytics 生命週期結束預做準備時，能有效地管理和維護我們的排程報告。這將作為我們日後新的治理政策：
 
-* No new scheduled reports can be created after April 21, 2022.
-* After April 21, 2022, all scheduled reports have a maximum expiration date of 9 months.
-* After 9 months, expired tasks are paused and can be reactivated, if still needed, until December 31, 2023.
+* 在2022年4月21日之後不能建立新的計畫報告。
+* 2022年4月21日之後，所有計畫報告的最大到期日為9個月。
+* 9個月後，過期的任務將暫停，如果仍然需要，可重新激活，直到2023年12月31日。
 * 2023 年 12 月 31 日時，將停止使用 Reports &amp; Analytics。
-* You can no longer set up new Data Extracts. Existing ones will continue to run, but no new ones can be scheduled.
+* 截至2022年4月21日，您無法再設定新的資料提取。 現有的將繼續運行，但無法計畫新的。
 
 如有其他問題或需要更多支援，請和 Adobe 客戶服務聯絡。
