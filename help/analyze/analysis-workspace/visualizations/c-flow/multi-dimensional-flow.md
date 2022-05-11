@@ -5,8 +5,8 @@ uuid: 51d08531-1c56-46c7-b505-bd8d5e6aa6c1
 feature: Visualizations
 role: User, Admin
 exl-id: f84917a4-2c07-48fb-9af3-d96c537da65c
-source-git-commit: b0baf1fbc8cf4cafe1d5292774e47556c9b0151b
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 # 維度間流量
 
-維度間流量可讓您檢查多個維度間的用戶路徑。
-
-以下是有關 Analysis Workspace 中的文繞圖和多維度流量的影片：
+維度間流量可讓您檢查多個維度間的用戶路徑。以下是有關 Analysis Workspace 中的文繞圖和多維度流量的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/24041/?quality=12)
 
@@ -26,7 +24,7 @@ ht-degree: 100%
 
 我們將審視 2 個使用案例：一個應用程式使用案例和一個網頁使用案例。
 
-## 使用案例一：應用程式 {#section_3D31D37B9C9F4134AE46C96291E41294}
+## 使用案例一：應用程式 {#app}
 
 將「[!UICONTROL 動作名稱]」維度新增至流量，而排名最前的傳回項目是 [!UICONTROL ItemAdded]：
 
@@ -56,7 +54,7 @@ ht-degree: 100%
 
 如此可對應用程式進行一些深入的分析，甚至可能對您正在分析的應用程式進行一些變更。
 
-## 使用案例二：網頁 {#section_8D55983FA0C84926995270052AE01CD8}
+## 使用案例二：網頁 {#web}
 
 此使用案例顯示如何分析哪個促銷活動對網站帶動最多的登入活動。
 

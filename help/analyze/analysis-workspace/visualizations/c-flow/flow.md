@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 25fe4364e5daeaaf5f180254015574b00a091e5c
-workflow-type: ht
+source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+workflow-type: tm+mt
 source-wordcount: '208'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 這可提供以下功能：
 
 * 將客戶在您網站或應用程式中的歷程視覺化呈現
-* 分析客戶在所指定檢查點 (例如登入、特定維度或退出) 之前和之後的前往位置
+* 分析客戶在所指定查核點 (例如登入、特定維度或退出) 之前和之後的前往位置
 * 指定選定路徑中的特定點，建立區段
 
 >[!NOTE]
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此例中，您的流量可能來自首頁、前往「男性」頁面，接著前往「鞋子」部門。
+您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在這種情況下，您的流可能會從首頁、流到流到流，然後流到鞋類部門。
 
 每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
 
