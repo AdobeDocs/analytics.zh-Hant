@@ -3,13 +3,13 @@ description: 在 Workspace 專案中使用流量視覺效果。
 title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
-source-git-commit: 141daf54e845970254f478e8c3e95be2239013c5
+exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
+source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 44%
+source-wordcount: '794'
+ht-degree: 40%
 
 ---
-
 
 # 設定流量視覺效果
 
@@ -17,13 +17,13 @@ ht-degree: 44%
 >
 >此新版本 [!UICONTROL 流] 可視化當前位於私有beta中。 請參閱 [此頁](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 的下界。
 
-Flow允許您跟蹤客戶正在通過您的網站或應用程式的確切行程。 它跟蹤通過維（和維項）或度量的路徑。 每個流都有一個起點和一個端點，以及一個要跟蹤的度量或維（或項）。
+更新後的流可視化功能使您能夠瞭解來自或通向網站或應用程式上特定轉換事件的過程。 它跟蹤通過維（和維項）或度量的路徑。 「流」(Flow)允許您配置您感興趣的路徑的開始或結束，或分析流經維或維項的所有路徑。
 
 新 [!UICONTROL 流] 體驗可以通過多種方式增強工作流：
 
-* 它允許跟蹤度量，除了維和維項。
+* 現在，您可以選擇使用度量和路徑維的組合來啟動或結束路徑。
 * 它包含 [!UICONTROL 高級設定] 以便您進一步自定義 [!UICONTROL 流]。
-* 它允許您配置 [!UICONTROL 流] 在建造之前。
+* 新的「生成」按鈕允許您一次性配置行程，然後進行查詢，然後一次自動生成多個列和節點，從而節省分析時&#x200B;間。
 
 ![新建流UI](assets/new-flow.png)
 
@@ -53,7 +53,7 @@ Flow允許您跟蹤客戶正在通過您的網站或應用程式的確切行程�
    | --- | --- |
    | **[!UICONTROL 包括重複實例]** | 「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複例項，如頁面重新載入次數。不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。預設 = 未勾選。 |
    | **[!UICONTROL 包裝標籤]** | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。預設 = 未勾選。 |
-   | **[!UICONTROL 僅限為登入/退出點]** | 結果僅限於第一個/最後一個觸點為和進入/退出時的路徑。 |
+   | **[!UICONTROL 限制為第一次/最後一次出現]** | 將路徑限制為以維/項/度量的第一次/最後一次出現開始/結束的路徑。 |
    | **[!UICONTROL 欄數]** | 確定要在流程圖中顯示的列數。 |
    | **[!UICONTROL 按列展開的項]** | 每列中需要的項目數。 |
    | **[!UICONTROL 流量容器]** | <ul><li>瀏覽</li><li>訪客</li></ul> 可讓您切換瀏覽和訪客，分析訪客路徑。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
