@@ -3,9 +3,9 @@ title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '883'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 96%
 
 * CDA 只能透過 Analysis Workspace 使用。
 * 跨裝置分析功能無法跨報表套裝運作，也無法合併來自多個報表套裝的資料。
-* Adobe Analytics報告套件不能映射到多個組織ID。 由於CDA在給定報告套件中縫合設備，因此CDA不能用於跨多個組織ID縫合資料。
+* Adobe Analytics 報告套裝無法對應至多個組織識別碼。由於 CDA 會連結一個指定報表套裝中的裝置，因此 CDA 無法用於連結跨多個組織識別碼的資料。
 * CDA 使用複雜的處理管道，其中包含多個相依元件。 這會和基本 Analytics 報表工作流程並行執行。因此，來源報表套裝和 CDA 虛擬報表套裝之間約 1% 的點擊總數差距是預期的狀況。 
 * Cross-Device Analytics 使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。例如，它們目前並不支援行銷管道變數。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)和[報表時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html?lang=zh-Hant#report-time-processing-limitations)。
 * 專用圖表是使用與[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#customer-attributes)功能在 Experience Cloud 和 Adobe Analytics 中所用的相同 ID 同步作業。不過，CDA 虛擬報表套裝 (不論是根據專用圖表或欄位式連結) 與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在 CDA 虛擬報表套裝中使用。
