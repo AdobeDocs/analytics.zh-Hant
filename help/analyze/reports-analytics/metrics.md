@@ -1,17 +1,17 @@
 ---
 description: 量度是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
-title: 報告和分析度量概述
+title: Reports & Analytics 指標概觀
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ea7a59f3-5a5e-48b2-ae0c-ebc5ec34cd63
 source-git-commit: 87d1fb0c856fa28e14861b01980f6f4c1080eacb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '329'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# 報告和分析度量概述
+# Reports &amp; Analytics 指標概觀
 
 量度是報告的基礎，有助於您檢視和理解資料關係，並可橫向比較您網站的不同資料集。量度是有關訪客活動的量化資訊，例如瀏覽次數、點進、重新載入、平均逗留時間、件數、訂購、收入等。
 
