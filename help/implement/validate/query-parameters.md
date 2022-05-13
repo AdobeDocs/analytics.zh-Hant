@@ -3,10 +3,10 @@ title: 資料彙集查詢參數
 description: 列出影像要求中使用的所有查詢字串參數。
 feature: Validation
 exl-id: 2eb2ade7-a3db-4b00-8a70-2632d1c0aaaf
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+source-git-commit: 799c7d2636dc2ba5db90d2dc400462a412aea9f1
+workflow-type: tm+mt
+source-wordcount: '710'
+ht-degree: 94%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 | `p` | 無 | 已不再使用。瀏覽器中使用的外掛程式清單。 |
 | `pageName` | [`pageName`](../vars/page-vars/pagename.md) | 用於[頁面](/help/components/dimensions/page.md)維度。 |
 | `pageType` | [`pageType`](../vars/page-vars/pagetype.md) | 用於[找不到頁面](/help/components/dimensions/pages-not-found.md)維度。 |
-| `pccr` | 無 | 僅為新訪客設定，且一律設為 `true`。有助於防止無限重新導向。 |
+| `pccr` | 無 | 僅為新訪客設定，且一律設為 `true`。如果訪問者拒絕cookie，有助於防止無限重定向。 |
 | `pe` | [`tl()`](../vars/functions/tl-method.md) | 判斷自訂連結的類型。[自訂連結](/help/components/dimensions/custom-link.md)、[下載連結](/help/components/dimensions/download-link.md)和[退出連結](/help/components/dimensions/exit-link.md)的必要項目。 |
 | `pev1` | 無 | 發生自訂連結的 URL。 |
 | `pev2` | [`tl()`](../vars/functions/tl-method.md) | 自訂連結友好名稱。 |
@@ -77,7 +77,8 @@ ht-degree: 100%
 | `v0` | [`campaign`](../vars/page-vars/campaign.md) | [「追蹤代碼」維度。](/help/components/dimensions/tracking-code.md) |
 | `v1` - `v250` | [`evar1` - `eVar250`](../vars/page-vars/evar.md) | [eVar](/help/components/dimensions/evar.md) (或自訂轉換維度)。 |
 | `vid` | [`visitorID`](../vars/config-vars/visitorid.md) | 訪客 ID 變數。 |
-| `vmk` | `vmk` | 已不再使用。訪客移轉金鑰，有助於將實作從第三方移轉至第一方 Cookie。 |
+| `vidn` | 無 | 由AppMeasurement為新訪問者設定。 包含儲存在訪問者cookie中的ID值。 |
+| `vmk` | `vmk` | 已不再使用。訪問者遷移密鑰，它幫助將實施從第三方遷移到第一方cookie。 |
 | `vvp` | `variableProvider` | 用於 Data Connectors。 |
 | `xact` | [`transactionID`](../vars/page-vars/transactionid.md) | 與 Data Sources 搭配使用，將線上和離線資料繫結在一起。 |
 | `zip` | [`zip`](../vars/page-vars/zip.md) | 用於[郵遞區號](/help/components/dimensions/zip-code.md)維度。 |
