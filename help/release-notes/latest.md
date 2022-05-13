@@ -6,13 +6,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 43869c683ca30c94157c6822b53f02a917f6e3ff
 workflow-type: tm+mt
 source-wordcount: '1170'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2022 年 4 月)
 
-**上次更新**:2022年5月9日
+**上次更新日期**：2022 年 5 月 9 日
 
 ## 相關資源
 
@@ -46,7 +46,7 @@ AN-274486; AN-279258; AN-279995; AN-280918; AN-281423; AN-282084; AN-282435; AN-
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **SFTP升級** | 2022 年 5 月 9 日 | 以前，我們曾通知Adobe將在2022年5月升級其安全檔案傳輸協定(SFTP)服務，以提高檔案傳輸的安全性。 我們已將升級日期推遲至2022年夏天。 發生此更改時，將不再支援某些SFTP客戶端配置。 這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hant)詳述的變更。 |
+| **SFTP 升級** | 2022 年 5 月 9 日 | 此前，我們曾告知 Adobe 將在 2022 年 5 月升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改良的檔案傳輸安全性功能。我們已將此升級推遲到 2022 年夏天。進行此變更後，將不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
 | **跨裝置分析 (CDA) 權益** | 2022 年 4 月 13 日 | 自 **2022 年 5 月 1 日開始**，任何新實施的 [CDA](/help/components/cda/overview.md) 會限制為每位客戶最多三個報告套件 ID (RSID)。 |
 | **變更 Adobe Analytics 處理透過 Experience Edge 所收集 A4T 資料的方式** | 2022 年 3 月 31 日 | 在 2022 年 3 月 7 日，Analytics 已變更處理 Experience Edge 所傳部分呼叫的方式，其中包含針對 Target (A4T) 報告的 Analytics Target 內容。自 3 月 7 日起，含 A4T 報告內容的所有點擊都經過修改，所以不會被視為頁面檢視或連結事件。自 **2022 年 3 月 31 日**&#x200B;起，邏輯更具選擇性，這樣系統就不會修改標準的頁面檢視和「點擊」事件。以後，唯一修改的事件為只含 A4T 內容的個人化呼叫。 |
 | **更新支援部分客戶的瀏覽器加密方法** | 2022 年 3 月 28 日 | Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據收集的安全需求。**2022 年 6 月 23 日** 起，對於安全等級設定為「高」的客戶，部分 HTTPS 加密算法 (稱為加密) 的支援服務會被移除。此操作表示有些較舊版作業系統無法再將數據發送到 Analytics，因為這些系統不支援現代化的加密方法。使用預設「標準」密碼安全設定的客戶不會受到影響。我們已聯絡過目前設定為「高」等級的所有客戶。受此變動影響的加密詳細列表可在此處查看。 |
