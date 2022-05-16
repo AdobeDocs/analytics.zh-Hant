@@ -4,9 +4,9 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 6ceea6bcb2fc0cb9120c42f6dbf857ce172664c7
+source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '808'
 ht-degree: 40%
 
 ---
@@ -45,6 +45,10 @@ ht-degree: 40%
 
    ![路徑維](assets/pathing-dim.png)
 
+   >[!IMPORTANT]
+   >
+   >無法將計算度量拖放到  **[!UICONTROL 開始於]** 或 **[!UICONTROL 結尾為]** 刪除區域。
+
 1. （可選）按一下 **[!UICONTROL 顯示高級設定]** 配置高級設定：
 
    ![高級設定](assets/adv-settings.png)
@@ -53,7 +57,7 @@ ht-degree: 40%
    | --- | --- |
    | **[!UICONTROL 包括重複實例]** | 「流量」視覺效果是根據維度的例項而定。此設定可讓您選擇要包含或排除重複例項，如頁面重新載入次數。不過，無法從包含多值維度 (例如 listVars、listProps、s.product、銷售 eVars 等) 的「流量」視覺效果中移除重複項目。預設 = 未勾選。 |
    | **[!UICONTROL 包裝標籤]** | 一般而言，系統會截斷「流量」元素的標籤以節省螢幕空間，但您可勾選此方塊以完整顯示標籤。預設 = 未勾選。 |
-   | **[!UICONTROL 限制為第一次/最後一次出現]** | 將路徑限制為以維/項/度量的第一次/最後一次出現開始/結束的路徑。 |
+   | **[!UICONTROL 僅限於第一次/最後一次發生]** | 將路徑限制為以維/項/度量的第一次/最後一次出現開始/結束的路徑。 |
    | **[!UICONTROL 欄數]** | 確定要在流程圖中顯示的列數。 |
    | **[!UICONTROL 按列展開的項]** | 每列中需要的項目數。 |
    | **[!UICONTROL 流量容器]** | <ul><li>瀏覽</li><li>訪客</li></ul> 可讓您切換瀏覽和訪客，分析訪客路徑。這些設定可協助您了解訪客層級的訪客參與程度 (跨越造訪)，或是將分析限制在單一造訪。 |
