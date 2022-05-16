@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的首要分析和視覺化工具 Analysis Workspace，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類工具的做法說明。
 source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
       + 流量 {#flow}
          + [流量總覽](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [新的流動顯示(β)](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [新流量視覺效果 (Beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [流量設定](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [維度間流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [長條圖](analysis-workspace/visualizations/histogram.md)
@@ -99,7 +99,7 @@ ht-degree: 99%
          + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [常見問答](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [下一個或上一個項目面板](analysis-workspace/c-panels/next-previous.md)
+      + [「下一個或上一個項目」面板](analysis-workspace/c-panels/next-previous.md)
       + [頁面摘要面板](analysis-workspace/c-panels/page-summary.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
