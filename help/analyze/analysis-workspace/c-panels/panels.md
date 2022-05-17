@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: ca1ca90c5b40ef89db14741bca826d7a57be44c6
-workflow-type: ht
-source-wordcount: '1095'
-ht-degree: 100%
+source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+workflow-type: tm+mt
+source-wordcount: '1098'
+ht-degree: 95%
 
 ---
 
@@ -66,11 +66,11 @@ Analysis Workspace 中有以下面板類型:
 
 ![](assets/segment-filter.png)
 
-### 臨機區段篩選
+### 即席段篩選器
 
-也可以直接將非區段元件拖曳至托放區以建立臨機區段，為您節省進入區段產生器的時間和作業。以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
+還可以將非段元件直接拖動到放置區域中以建立即席段，從而節省了轉至段生成器的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
 
-臨機區段屬於專案的本機部分，除非您將這類區段公開，否則這類區段不會顯示在您的左側邊欄內。
+臨時段是項目的本地段，除非將它們公開，否則不會顯示在左欄中。
 
 ![](assets/adhoc-segment-filter.png)
 
