@@ -3,20 +3,16 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 31387d369428727a486a19b986bf9d891a36e714
+source-git-commit: b300ec0f40eacc43463e9e42e7ff8f7cfedc15cb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 92%
+source-wordcount: '867'
+ht-degree: 93%
 
 ---
 
 # 本Adobe Analytics發行說明（2022年5月）
 
 **上次更新日期**：2022 年 5 月 17 日
-
->[!NOTE]
->
->此頁包含預發行資訊，並且可能會更改。
 
 ## 相關資源
 
