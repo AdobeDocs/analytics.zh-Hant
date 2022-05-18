@@ -4,18 +4,14 @@ description: 如何在工作區中管理註解。
 role: User, Admin
 feature: Annotations
 exl-id: 37a538cc-9ea7-4cb1-8ee8-e8e474ad5b08
-source-git-commit: 285bb11eb34ad02bf57227341f9a0931860c5c88
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 管理註解
-
->[!NOTE]
->
->該功能的逐步推出將於2022年3月23日開始。 一般可用性：2022年4月11日。
 
 [!UICONTROL 元件] > [!UICONTROL 註解]管理員提供許多管理註解的方法，例如，共用、篩選、標記、核准、複製、刪除和標記為我的最愛。
 
