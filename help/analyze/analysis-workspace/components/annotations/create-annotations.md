@@ -4,10 +4,10 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 645baf99161d93b5e9d2436978d35c1fb5ee35e7
+source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '590'
+ht-degree: 100%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 0%
 | **以滑鼠右鍵按一下[!UICONTROL 折線]圖中的點。** | 隨即開啟[!UICONTROL 註解產生器]。 請注意，根據預設，以這種方式建立的註解只會出現在其建立所在的專案中。 但是您可將這些註解提供給所有專案使用。 也請注意，系統已填入日期及任何量度等。<p>![](assets/annotate-line.png) |
 | **在工作區中，前往[!UICONTROL 元件] > [!UICONTROL 建立註解]。** | 隨即開啟[!UICONTROL 註解產生器]。 |
 | **使用此快速鍵**&#x200B;來開啟註解產生器：(PC) `ctrl` `shift` + o，(Mac) `shift` + `command` + o | 請注意，使用快速鍵建立註解時，您會為目前日期建立單日註解，而不會預先選取任何範圍 (量度或維度)。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 1. 填入[!UICONTROL 註解產生器]元素。
 
@@ -38,6 +40,6 @@ ht-degree: 0%
    | [!UICONTROL 範圍] | (選用) 拖放會觸發註解的量度。然後拖放作為篩選器的維度或區段 (即註解將藉以顯示)。如果您不指定範圍，註解將套用至您所有的資料。<ul><li>**[!UICONTROL 出現這些量度的任一項]**：最多拖放 10 個可觸發註解顯示的量度。</li><li>**[!UICONTROL 包含這所有的篩選器]**：最多拖放 10 個做為註解顯示時機之篩選器的維度或區段。</li></ul><p>使用案例：eVar 阻止了收集特定日期範圍的資料。將 eVar 拖曳至「**[!UICONTROL 出現這些量度的任一項]**」對話框中。否則您的[!UICONTROL 瀏覽]量度不會報告任何資料 - 遵循相同程序。<p>**注意：**&#x200B;套用到元件然後當作計算量度或區段定義使用的任何註解都不會自動繼承該註解。 必須也將所需的計算量度新增到範圍區段中，才能顯示該註解。 不過，應該針對您想要加入相同資訊當作註解的任何區段建立新的註解。<p>例如，您可將註解套用到特定日子的[!UICONTROL 訂單]。 然後您可將計算量度中的[!UICONTROL 訂單]用於相同日期範圍。 新的計算量度不會自動顯示訂單的註解；也必須也將計算量度新增到範圍區段中，才能顯示該註解。 |
    | [!UICONTROL 套用於所有報表套裝] | 預設情況下，註解會套用在原始的報表套裝。若勾選此方框，您即可將註解套用在公司的所有報表套裝。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style=&quot;table-layout:auto&quot;&quot;
 
 1. 按一下&#x200B;**[!UICONTROL 儲存]**。
