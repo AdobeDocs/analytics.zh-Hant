@@ -2,9 +2,9 @@
 title: Analytics 匯入指南
 description: 本指南會說明如何透過資料來源、資料插入 API 或資料連接器，將資料匯入 Analytics。
 exl-id: 65a62639-bbc4-4114-932f-8c68d87eea8b
-source-git-commit: d8603ddd6cee2ccc930281003d9ff1befa15c95c
-workflow-type: ht
-source-wordcount: '160'
+source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+workflow-type: tm+mt
+source-wordcount: '161'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 重要 Analytics 資源
 
-* [連絡客戶服務](https://helpx.adobe.com/tw/contact/enterprise-support.ec.html)
+* [連絡客戶服務](https://experienceleague.adobe.com/?support-solution=Analytics#support)
 * [Analytics 論壇](https://forums.adobe.com/community/experience-cloud/analytics-cloud/analytics)
 * [Adobe Analytics 資源](https://forums.adobe.com/message/10660755)
 * [Experience League](https://landing.adobe.com/experience-league/)
