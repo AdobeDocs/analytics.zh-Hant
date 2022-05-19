@@ -3,9 +3,9 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
+source-git-commit: b9bf373d7d62d7b6df405629cdf304246b80649f
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 90%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 通過體驗邊緣填充生命週期維和度量 | 現在，許多生命週期事件都自動映射到XDM欄位。 未自動映射的事件可以通過自由格式鍵/值對發送到Adobe。 [瞭解更多資訊 — 即將推出] | 2022 年 5 月 27 日 |
+| 通過體驗邊緣填充生命週期維和度量 | 通過體驗邊緣發送的移動生命週期資料現在將顯示在分析報告中。 有關通過體驗邊緣收集哪些生命週期資料以及它如何與現有生命週期報告相對應的詳細資訊，請參閱文檔。 [瞭解更多資訊 — 即將推出] | 2022 年 5 月 27 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
