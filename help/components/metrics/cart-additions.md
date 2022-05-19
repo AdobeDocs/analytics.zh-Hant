@@ -3,10 +3,10 @@ title: 購物車新增
 description: 訪客在購物車中新增產品的點擊次數。
 feature: Metrics
 exl-id: 0617b4c4-6425-4425-b6f7-efadbd6f58b2
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
-source-wordcount: '79'
-ht-degree: 100%
+source-git-commit: 932a6c1452d4710b11c1ce5551c845ef6721f137
+workflow-type: tm+mt
+source-wordcount: '85'
+ht-degree: 92%
 
 ---
 
@@ -17,3 +17,5 @@ ht-degree: 100%
 ## 此量度的計算方式
 
 此量度會計算 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中有 `scAdd` 存在的點擊次數。
+
+請參閱 [購物車](carts.md) 的雙曲餘切值。
