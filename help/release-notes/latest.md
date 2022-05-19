@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 3243780b2bb1f7507dc5815f71c448a8be7f62cd
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
-# 本Adobe Analytics發行說明（2022年5月）
+# Adobe Analytics 目前的版本注意事項 (2022 年 5 月)
 
 **上次更新日期**：2022 年 5 月 17 日
 
@@ -31,13 +31,13 @@ ht-degree: 89%
 
 ### Adobe Analytics 中的修正
 
-（針對多個客戶的修復）
+(為多個客戶進行的修正)
 
 不適用
 
 ### Adobe Analytics 中的其他修正
 
-（針對單個客戶的修復）
+(為個別客戶進行的修正)
 
 AN-274429;AN-279640;AN-280918;AN-280945;AN-282884;AN-283565;AN-284785;AN-284814;AN-284854;AN-284989;AN-285244;AN-285253;AN-285432;AN-285528;AN-285535;AN-285710;AN-286255;AN-286340;AN-286434;AN-286454;AN-286630;AN-286716;AN-286854;AN-286911
 
