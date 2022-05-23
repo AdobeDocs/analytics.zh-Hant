@@ -5,9 +5,9 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的首要分析和視覺化工具 Analysis Workspace，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類工具的做法說明。
 source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1052'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 99%
       + 區段 {#segments}
          + [建立區段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速區段](analysis-workspace/components/segments/quick-segments.md)
-         + [即席段](analysis-workspace/components/segments/ad-hoc-segments.md)
+         + [臨時區段](analysis-workspace/components/segments/ad-hoc-segments.md)
       + 日曆和日期範圍 {#calendar-date-ranges}
          + [日曆和日期範圍總覽](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
