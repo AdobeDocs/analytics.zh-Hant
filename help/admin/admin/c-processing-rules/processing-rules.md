@@ -4,9 +4,9 @@ subtopic: Processing rules
 title: 處理規則總覽
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '394'
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
+source-wordcount: '329'
 ht-degree: 100%
 
 ---
@@ -28,11 +28,7 @@ ht-degree: 100%
 
 **根據預設**，管理員有權使用處理規則。 管理員也可透過「管理工具」介面將這些權限授與非管理員。 如需指示，請參閱 []
 
-![](assets/processing-rules.png)
-
->[!IMPORTANT]
->
->由於處理規則會永久影響 Analytics 資料，所以 Adobe 強烈建議處理規則管理員應接受 Adobe Analytics 的認證訓練，同時熟悉報表套裝的所有資料來源 (標準網站、行動網站、行動應用程式、資料插入 API 等)。 瞭解各種平台中的內容資料變數和標準變數，有助於避免意外刪除或資料修改等情形。
+![處理規則](assets/processing-rules.png)
 
 ## 使用內容資料簡化資料收集 {#section_09EEA03612D24C15839631AA9E9668D8}
 

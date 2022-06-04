@@ -3,18 +3,18 @@ title: forceOnline
 description: 手動設定 AppMeasurement 的線上狀態。
 feature: Variables
 exl-id: 318408bf-bec6-49aa-a762-9d2eebab233e
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
-# forceOnline
+# 強制線上
 
 `forceOnline()` 方法可讓您覆寫自動偵測到的 AppMeasurement 狀態。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >只能在啟用了 [`trackOffline`](../config-vars/trackoffline.md) 時使用此方法。 在離線追蹤以外的情況下使用此函數可能會造成資料遺失。
 

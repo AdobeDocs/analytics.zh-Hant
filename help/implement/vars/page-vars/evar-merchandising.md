@@ -3,8 +3,8 @@ title: eVar (銷售) 變數
 description: 繫結至個別產品的自訂變數。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 在實施作業中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >若未正確設定銷售 eVar，將會導致變數的值不符預期或遺失資料。請確定您的實施作業已正確加以設定。
 

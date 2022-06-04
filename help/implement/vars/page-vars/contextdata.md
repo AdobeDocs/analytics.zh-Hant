@@ -3,14 +3,14 @@ title: contextData
 description: 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 100%
 
 ---
 
-# contextData
+# 上下文資料
 
 上下文資料變數可讓您在每個頁面上定義處理規則可讀取的自訂變數。您可以在上下文資料變數中傳送資料，而不必在程式碼中明確指派 Analytics 變數的值。處理規則接著會取用上下文資料變數值，再傳遞至個別的 Analytics 變數。請參閱「管理員使用指南」中的[處理規則](/help/admin/admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)。
 
@@ -35,7 +35,7 @@ s.contextData["example_variable"] = "Example value";
 
 ## 使用處理規則填入分析變數
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >處理規則執行後，上下文資料變數便會遭到捨棄。如果您沒有將值放入變數的作用中處理規則，該資料將會永久遺失！
 

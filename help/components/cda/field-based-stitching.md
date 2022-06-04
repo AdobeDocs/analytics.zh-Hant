@@ -2,8 +2,8 @@
 title: 欄位式拚接
 description: 了解使用欄位式拚接方式來結合資料的先決條件和限制。
 exl-id: 81f2768c-53c2-40b4-8d3b-8d3b94cd7318
-source-git-commit: 88c6874a043c3aa1a9ff1ec9d4b196ba37179387
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 如果想使用欄位式拚接來實施作業跨裝置分析，需具備下列條件。請與組織內部團隊及 Adobe 客戶經理合作，確保您符合以下所有條件。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 

@@ -3,18 +3,18 @@ title: forceOffline
 description: 手動設定 AppMeasurement 的線上狀態。
 feature: Variables
 exl-id: 2e48bdf6-7de7-4976-86dd-ef3d558769c7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 100%
 
 ---
 
-# forceOffline
+# 強制離線
 
 `forceOffline()` 方法可讓您覆寫自動偵測到的 AppMeasurement 狀態。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 > 使用此函數時 [`trackOffline`](../config-vars/trackoffline.md) 必須已啟用。在離線追蹤以外的情況下使用此函數可能會造成資料遺失。
 

@@ -3,18 +3,18 @@ title: trackingServerSecure
 description: 決定在 HTTPS 頁面上傳送影像要求的位置。
 feature: Variables
 exl-id: d5b112f9-f3f6-43ac-8ee5-d9ad8062e380
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
 ---
 
-# trackingServerSecure
+# 跟蹤伺服器安全
 
 Adobe 會接收訪客產生的影像要求，藉此收集您網站上的資料。`trackingServerSecure` 變數能決定透過 HTTPS 傳送影像要求的位置。它也能決定訪客 Cookie 的儲存位置。如果此變數未正確定義，您的實作可能會遭遇資料遺失。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >變更此值會導致 AppMeasurement 在不同位置尋找 Cookie。由於訪客 Cookie 會設定在新的位置，報告中的不重複訪客計數可能會暫時激增。
 

@@ -3,8 +3,8 @@ title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。所有儲存在資料彙集伺服器中的值，最終都會以報表套裝的貨幣儲存。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >如果 `currencyCode` 包含無效值，則會捨棄整個點擊，造成資料遺失。若您會在實施中使用此變數，請確定已正確定義此變數。
 

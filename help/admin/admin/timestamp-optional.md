@@ -4,10 +4,9 @@ title: 可選時間戳記
 feature: Admin Tools
 uuid: 0fa63658-1cc2-4adc-8d51-a0662d0aa941
 exl-id: 4d64225a-5eb8-4b7b-ba13-3cdc12dd6651
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '319'
 ht-degree: 100%
 
 ---
@@ -22,7 +21,7 @@ ht-degree: 100%
 * 從行動應用程式傳送時間戳記資料至全域報表套裝。
 * 升級應用程式，即可在無需建立新報表套裝的狀況下使用離線追蹤。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >如果您使用「可選時間戳記」，請勿在已附上時間戳記的資料上設定 [s.visitorID](/help/implement/vars/config-vars/visitorid.md)。這會導致資料順序錯亂，並影響時間計算 (例如逗留時間值)、歸因 (eVar 持續性)、造訪次數/造訪計數，以及路徑報表。
 

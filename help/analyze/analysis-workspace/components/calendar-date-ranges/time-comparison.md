@@ -4,8 +4,8 @@ title: 日期比較
 feature: Calendar
 role: User, Admin
 exl-id: ea7a42ef-89de-4f70-b468-8a5cf69fea05
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
    ![](assets/compare-time.png)
 
-   >[!IMPORTANT]
+   >[!NOTE]
    >
    >這個右鍵選項不適用於量度列、日期範圍列和時間維度列。
 
@@ -93,7 +93,7 @@ Analysis Workspace 中的「日期比較」可讓您挑選任何含日期範圍�
 
 ![](assets/date-comparison-setting.png)
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >此設定針對所有現有專案設為&#x200B;**「停用」**(未勾選)，針對所有新專案則設為&#x200B;**「啟用」**(已勾選)。
 

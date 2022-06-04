@@ -3,14 +3,14 @@ title: Prop
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 100%
 
 ---
 
-# Prop
+# 道
 
 *此說明頁面說明 Prop 作為維度時的運作方式。如需如何實作 Prop 的相關資訊，請參閱「實作」使用指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
 
@@ -38,7 +38,7 @@ Prop 預設不區分大小寫。如果您以不同大小寫傳送相同的值 (�
 
 您可以將任何 prop 設為區分為大小寫。您也可以在任何 prop 啟用後，停用其區分大小寫的功能。聯絡 Adobe客戶服務並提供報表套裝 ID 和所需的變數，以切換區分大小寫功能。
 
->[!IMPORTANT]
+>[!WARNING]
 >
 >切換區分大小寫功能可能會截斷維度項目、造成區段產生非預期結果，以及導致篩選器問題。Adobe 強烈建議在兩個主要時段之間切換此設定，例如月初或年初。
 

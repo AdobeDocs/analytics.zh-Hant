@@ -3,8 +3,8 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
+source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+workflow-type: tm+mt
 source-wordcount: '3864'
 ht-degree: 100%
 
@@ -398,7 +398,7 @@ ht-degree: 100%
 * [!UICONTROL Within] 可讓您根據年、月、日、小時和分鐘來比對瀏覽，進行追蹤。
 * [!UICONTROL Within] 只能套用至[!UICONTROL 「點擊」]容器，因為這是可定義此種精細度的唯一層級。
 
->[!IMPORTANT]
+>[!TIP]
 >
 >在「within」子句裡，您可以在「THEN」陳述式之間加入「within 1 search keyword instance」、「within 1 eVar 47 instance」之類的文字。這樣會將區段限制在某個維度的一個例項內。
 
