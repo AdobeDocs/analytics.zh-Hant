@@ -4,10 +4,10 @@ audience: all
 user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
-source-git-commit: c68ab53242328702fb5a0ad9f1e28aafc6fb119b
-workflow-type: ht
-source-wordcount: '391'
-ht-degree: 100%
+source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -131,6 +131,22 @@ ht-degree: 100%
    + [實作模組](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
++ 使用Experience Platform邊緣實施分析 {#aep-edge}
+   + [體驗邊緣概述](aep-edge/overview.md)
+   + [變數映射](aep-edge/variable-mapping.md)
+   + Web SDK {#web-sdk}
+      + [Web SDK 概覽](aep-edge/web-sdk/overview.md)
+   + Mobile SDK {#mobile-sdk}
+      + [移動SDK概述](aep-edge/mobile-sdk/overview.md)
+   + 邊緣API {#edge-api}
+      + [邊緣API概述](aep-edge/edge-api/overview.md)
++ 使用 Adobe Experience Platform 中的標記來實作 Analytics {#launch}
+   + [標記總覽](launch/overview.md)
+   + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
+   + [部署至開發環境](launch/deploy-dev.md)
+   + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
+   + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
+   + [將標記資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 使用 JavaScript 實作 Analytics {#js}
    + [JavaScript 總覽](js/overview.md)
    + [實作選擇退出連結](js/opt-out.md)
@@ -150,13 +166,6 @@ ht-degree: 100%
       + [造訪範例](js/xdevice-visid/visit-example.md)
       + [舊版跨裝置常見問答](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
-+ 使用 Adobe Experience Platform 中的標記來實作 Analytics {#launch}
-   + [標記總覽](launch/overview.md)
-   + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
-   + [部署至開發環境](launch/deploy-dev.md)
-   + [驗證並發佈至生產環境](launch/validate-publish-prod.md)
-   + [將資料層物件對應至資料元素](launch/layer-to-elements.md)
-   + [將標記資料元素對應至 Analytics 變數](launch/elements-to-variable.md)
 + 在其他平台上實作 Analytics {#other}
    + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
    + [使用 DTM 實作 Analytics](other/dtm-implementation-overview.md)
@@ -179,6 +188,3 @@ ht-degree: 100%
    + [重點審視 (每次網站發佈後)](review/focused-review.md)
    + [完整審視（每 6 個月）](review/full-review.md)
    + [定義您的前 5 大 KPI](review/define-kpis.md)
-+ 透過 Analytics 使用 XDM 資料 {#aep-edge}
-   + [使用 AEP Web SDK](aep-edge/xdmoverview.md)
-   + [手動將 XDM 資料對應至 Analytics](aep-edge/xdm-manual.md)
