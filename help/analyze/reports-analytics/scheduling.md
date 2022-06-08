@@ -6,10 +6,10 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: 000d9aedbe8d3ac109be472d9e29f7798f86baa7
-workflow-type: ht
-source-wordcount: '1717'
-ht-degree: 100%
+source-git-commit: e589a26627a24da693fd3724e2078148412c71cc
+workflow-type: tm+mt
+source-wordcount: '1772'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 排程、下載和發佈報表的相關資訊。
 
 >[!IMPORTANT]
->自 2022 年 4 月 15 日起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的任何工作)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+>2022年4月21日，我們宣佈對計畫報告中特定的幾項功能進行了折舊，以準備之前宣佈的報告和分析生命週期結束。 這些功能包括計畫新報告和新資料提取的能力。 為響應客戶尋求擴展並簡化從報告和分析的過渡，我們決定將對這些功能的訪問延長到2023年1月31日。 請注意，報告和資料摘要的到期時間窗口將繼續限制為9個月；除非重新激活計畫，否則報告和資料提取交付將在此期間結束時暫停。 [了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md)
 
 在 Adobe Analytics 應用程式內排程要傳送的報表時，您可以使用「排程和分送」工具檢視已自動傳送的檔案，以及修改或終止傳送。
 
