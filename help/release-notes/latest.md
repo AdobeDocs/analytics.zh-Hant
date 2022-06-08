@@ -3,16 +3,16 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b9bf373d7d62d7b6df405629cdf304246b80649f
+source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '821'
+ht-degree: 63%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2022 年 5 月)
 
-**上次更新日期**：2022 年 5 月 17 日
+**上次更新**:2022年6月8日
 
 ## 相關資源
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 | ----------- | ---------- | ------- |
 | 透過 Experience Edge 填入生命週期維度和量度 | 透過 Experience Edge 傳送的行動生命週期資料現在會出現在 Analytics 報告中。 如需有關透過 Experience Edge 收集哪些生命週期資料以及這些資料如何對應到現有生命週期報告的詳細資訊，請參閱相關文件。 [了解更多 - 即將推出] | 2022 年 5 月 27 日 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 ### Adobe Analytics 中的修正
 
@@ -45,17 +45,14 @@ AN-274429；AN-279640；AN-280918； AN-280945；AN-282884；AN-283565；AN-2847
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **SFTP 升級** | 2022 年 5 月 9 日 | 此前，我們曾告知 Adobe 將在 2022 年 5 月升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改良的檔案傳輸安全性功能。我們已將此升級推遲到 2022 年夏天。進行此變更後，將不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
-| **跨裝置分析 (CDA) 權益** | 2022 年 4 月 13 日 | 自 **2022 年 5 月 1 日開始**，任何 [CDA](/help/components/cda/overview.md) 的新實作會限制為每位客戶最多三個報告套件 ID (RSID)。 |
-| **變更 Adobe Analytics 處理透過 Experience Edge 所收集 A4T 資料的方式** | 2022 年 3 月 31 日 | 在 2022 年 3 月 7 日，Analytics 已變更處理 Experience Edge 所傳部分呼叫的方式，其中包含針對 Target (A4T) 報告的 Analytics Target 內容。自 3 月 7 日起，含 A4T 報告內容的所有點擊都經過修改，所以不會被視為頁面檢視或連結事件。自 **2022 年 3 月 31 日**&#x200B;起，邏輯更具選擇性，這樣系統就不會修改標準的頁面檢視和「點擊」事件。以後，唯一修改的事件為只含 A4T 內容的個人化呼叫。 |
+| 在報告和分析中暫停計畫的報告 | 2022年6月8日 | 2022年4月21日，我們宣佈對計畫報告中特定的幾個功能進行了折舊，以準備之前宣佈的 [報告和分析的生命週期結束](https://express.adobe.com/page/6WnF8JK6IRDhf/)。 這些功能包括計畫新報告和新資料提取的能力。<p>為響應客戶尋求擴展並簡化從Reports and Analytics過渡的請求，我們決定將對這些功能的訪問擴展到 **2023年1月31日**。 請注意，報告和資料摘要的到期時間窗口將繼續限制為9個月；除非重新激活計畫，否則報告和資料提取交付將在此期間結束時暫停。 <p>要重申，這些功能將於2023年1月31日棄用，在此之前，您需要將計畫報告遷移到您在Adobe Analytics可用的其他機制之一。 如有其他問題或需要更多支援，請和 Adobe 客戶服務聯絡。 |
+| 正在暫停計畫任務Report Builder | 2022年6月8日 | 2022年4月21日，我們在Report Builder中對計畫任務進行了更改，作為效能和交付優化工作的一部分。 這些更改包括刪除計畫交貨「在x次事件後結束」的功能。 為響應幾個客戶請求尋求更多時間來探索和實施備選方案，我們決定以有限的方式恢復此選項，直到 **2023年1月31日**。<p>您將繼續能夠計畫每小時Report Builder任務，並在最多99次事件後結束這些任務。 請注意，回滾僅適用於小時任務；「x次事件後結束」將不適用於所有其他交付間隔（每日、每週、每月和每年）。 請注意，此選項將於2023年1月31日棄用。 如需更多問題或支援，請聯繫Adobe客戶服務。 |
+| **SFTP 升級** | 2022 年 5 月 9 日 | 此前，我們曾告知 Adobe 將在 2022 年 5 月升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改良的檔案傳輸安全性功能。我們已將此升級推遲至 **2022年夏季**。 進行此變更後，將不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html?lang=zh-Hant)詳述的變更。 |
 | **更新支援部分客戶的瀏覽器加密方法** | 2022 年 3 月 28 日 | Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據收集的安全需求。**2022 年 6 月 23 日** 起，對於安全等級設定為「高」的客戶，部分 HTTPS 加密算法 (稱為加密) 的支援服務會被移除。此操作表示有些較舊版作業系統無法再將數據發送到 Analytics，因為這些系統不支援現代化的加密方法。使用預設「標準」密碼安全設定的客戶不會受到影響。我們已聯絡過目前設定為「高」等級的所有客戶。受此變動影響的加密詳細列表可在此處查看。 |
-| **暫停較舊的排程報告** | 2022 年 4 月 12 日 | 自 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暫停所有建立日期超過兩年的排程報告 (在 2020 年 1 月 31 日之前建立的)。不會刪除任何報表或資料。只有被確認為超過兩年的報表才會被暫停，並且不會發送額外的排程報告。了解更多 |
 | **2022 ISO 區域更新** | 2021 年 3 月 11 日 | Adobe 預計在 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。 預計此版本後將會有較小的地區資訊更新。 |
-| **暫停較舊的已排程 Report Builder 工作** | 2022 年 4 月 12 日 | 自 **2022 年 4 月 20 日**&#x200B;起，Adobe 打算暫停所有建立日期超過兩年的已排程 Report Builder 工作。這項暫停尤其會套用在 2020 年 1 月 31 日之前建立的任何工作上。 不會刪除任何工作、活頁簿或資料。但是會暫停確認超過兩年的工作，並且不會發送額外的排程工作。了解更多 |
-| **舊版 Analytics OAuth/JWT 整合的允許清單 EOL 延長到期** | 2022 年 1 月 14 日 | 在 **2022 年 5 月 25 日**，[Analytics 1.3 API、1.4 SOAP API 和舊版 Analytics OAuth/JWT EOL](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/APIEOL.md) 允許清單延長已到期。此延長是為了讓使用舊版 [!DNL Adobe Analytics] OAuth/JWT 認證的客戶有更多時間，以便將其用戶端整合移轉至 [Adobe IMS 認證](https://developer.adobe.com/console)。這項到期會影響 (但不限於) 尚未完成所需 IMS 移轉的 [!DNL Adobe Analytics Livestream] 和 [!DNL Adobe Campaign] 客戶。 目前透過允許清單擴展功能使用舊版 [!DNL Analytics] OAuth/JWT 憑證的客戶，以及在 2022 年 5 月 25 日尚未完成移轉至 IMS 的客戶，都會失去使用 Adobe 服務的權限。直播串流客戶可參考這些將其客戶應用程式移轉至 IMS 憑證的[說明](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)。 [!DNL Campaign] 客戶可與他們的 Adobe 帳戶團隊聯絡，了解關於升級至最新版本 [!DNL Campaign] 的詳情。 |
-| **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
+| **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;&quot;
 
 ### AppMeasurement
 
