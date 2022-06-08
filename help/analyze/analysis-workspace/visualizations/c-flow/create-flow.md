@@ -4,7 +4,7 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: e9cebe28f71b3d6f44744e78447e31cf597e7054
+source-git-commit: 2ce17ecd45810e1c567e99423271dbc2d5288485
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 40%
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->此新版本 [!UICONTROL 流] 可視化當前位於私有beta中。 請參閱 [此頁](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 的下界。
+>此新版本 [!UICONTROL 流] 目前，可視化正在進行有限的測試。 請參閱 [此頁](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md) 的下界。
 
 更新後的流可視化功能使您能夠瞭解來自或通向網站或應用程式上特定轉換事件的過程。 它跟蹤通過維（和維項）或度量的路徑。 「流」(Flow)允許您配置您感興趣的路徑的開始或結束，或分析流經維或維項的所有路徑。
 
