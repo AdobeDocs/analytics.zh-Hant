@@ -3,7 +3,7 @@ title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 1ed07727530ef5e3c9afbb291772f668fdee5d45
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1304'
 ht-degree: 100%
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 | `application.id` | 行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
 | `application.isClose` | 協助定義行動量度[損毀](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
 | `application.closeType` | 判斷某個關閉事件是否損毀。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束而沒有暫停事件)。 |
-| `application.isInstall` | 行動量度[安裝](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
-| `application.isLaunch` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
-| `application.name` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
-| `application.launches.value` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
-| `application.isUpgrade` | 行動量度[升級](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
-| `application.version` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
-| `application.sessionLength` | 行動量度[工作階段長度總計](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
+| `application.isInstall` | 行動量度[安裝](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.isLaunch` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.name` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `application.launches.value` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.isUpgrade` | 行動量度[升級](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.version` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `application.sessionLength` | 行動量度[工作階段長度總計](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `commerce.checkouts.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[結帳](../../components/metrics/checkouts.md)量度。 |
 | `commerce.checkouts.value` | 讓[結帳](../../components/metrics/checkouts.md)量度遞增所需的金額。 |
 | `commerce.order.currencyCode` | 設定 [currencyCode](../vars/config-vars/currencycode.md) 設定變數。 |
@@ -41,7 +41,7 @@ ht-degree: 100%
 | `commerce.productViews.value` | 讓[產品檢視](../../components/metrics/product-views.md)量度遞增所需的金額。 |
 | `commerce.purchases.value` | 讓[訂單](../../components/metrics/orders.md)量度遞增所需的金額。 |
 | `device.manufacturer` | 行動裝置製造商。 |
-| `device.model` | 行動維度[裝置名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
+| `device.model` | 行動維度[裝置名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `device.modelNumber` | 行動裝置型號。 |
 | `device.colorDepth` | 協助設定[色彩深度](../../components/dimensions/color-depth.md)維度。 |
 | `device.screenHeight` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 確定您也有設定 XDM 欄位 `device.screenWidth`。 |
@@ -53,12 +53,12 @@ ht-degree: 100%
 | `environment.browserDetails.userAgent` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。 通常會使用 `User-Agent` HTTP 請求標頭填入。 如果您想要在報表中使用這個欄位，可以將它對應到 eVar。 |
 | `environment.browserDetails.viewportHeight` | 設定[瀏覽器高度](../../components/dimensions/browser-height.md)維度。 |
 | `environment.browserDetails.viewportWidth` | 設定[瀏覽器寬度](../../components/dimensions/browser-width.md)維度。 |
-| `environment.carrier` | 行動維度[電信業者名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
+| `environment.carrier` | 行動維度[電信業者名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.connectionType` | 協助設定[連線類型](../../components/dimensions/connection-type.md)維度。 |
 | `environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。 通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
 | `environment.language` | 行動維度地區設定。 |
-| `environment.operatingSystem` | 行動維度[作業系統](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
-| `environment.operatingSystemVersion` | 行動維度[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
+| `environment.operatingSystem` | 行動維度[作業系統](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `environment.operatingSystemVersion` | 行動維度[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.type` | 指示事件是否來自[穿戴式](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=zh-Hant)裝置。 有效值包括 `Application` (事件來自應用程式)、`Extension` (事件來自穿戴式應用程式) 或 `Widget` (事件來自行動 Widget)。 |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 |
 | `marketing.trackingCode` | 設定[追蹤程式碼](../../components/dimensions/tracking-code.md)維度。 |
