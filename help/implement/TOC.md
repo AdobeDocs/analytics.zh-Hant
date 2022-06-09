@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 source-git-commit: 82c24cb7fd9051c5b0f848bb7fdd071f4137b697
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 # Adobe Analytics 實作指南 {#implementation}
 
 + [實作 Adobe Analytics](home.md)
-+ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html)
++ [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + [AppMeasurement 發行說明](appmeasurement-updates.md)
 + Analytics 變數、函數和方法 {#vars}
    + [總覽](vars/overview.md)
@@ -131,15 +131,15 @@ ht-degree: 95%
    + [實作模組](prepare/implementation-modal.md)
    + [建立解決方案設計文件](prepare/solution-design.md)
    + [負責現有的 Adobe Analytics 實作](prepare/existing-implementation.md)
-+ 使用Experience Platform邊緣實施分析 {#aep-edge}
-   + [體驗邊緣概述](aep-edge/overview.md)
-   + [變數映射](aep-edge/variable-mapping.md)
++ 使用 Experience Platform Edge 實作 Analytics {#aep-edge}
+   + [Experience Edge 總覽](aep-edge/overview.md)
+   + [變數對應](aep-edge/variable-mapping.md)
    + Web SDK {#web-sdk}
-      + [Web SDK 概覽](aep-edge/web-sdk/overview.md)
+      + [Web SDK 總覽](aep-edge/web-sdk/overview.md)
    + Mobile SDK {#mobile-sdk}
-      + [移動SDK概述](aep-edge/mobile-sdk/overview.md)
-   + 邊緣API {#edge-api}
-      + [邊緣API概述](aep-edge/edge-api/overview.md)
+      + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
+   + Edge API {#edge-api}
+      + [Edge API 總覽](aep-edge/edge-api/overview.md)
 + 使用 Adobe Experience Platform 中的標記來實作 Analytics {#launch}
    + [標記總覽](launch/overview.md)
    + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
