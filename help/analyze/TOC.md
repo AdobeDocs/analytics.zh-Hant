@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的首要分析和視覺化工具 Analysis Workspace，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類工具的做法說明。
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
-workflow-type: ht
-source-wordcount: '1052'
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -70,8 +70,7 @@ ht-degree: 100%
          + [在流失分析中套用區段](analysis-workspace/visualizations/fallout/compare-segments-fallout.md)
       + 流量 {#flow}
          + [流量總覽](analysis-workspace/visualizations/c-flow/flow.md)
-         + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/creating-flow-report.md)
-         + [新流量視覺效果 (Beta)](analysis-workspace/visualizations/c-flow/create-flow.md)
+         + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [流量設定](analysis-workspace/visualizations/c-flow/flow-settings.md)
          + [維度間流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
       + [長條圖](analysis-workspace/visualizations/histogram.md)

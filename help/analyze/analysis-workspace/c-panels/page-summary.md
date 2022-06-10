@@ -4,7 +4,7 @@ title: 頁面摘要面板
 feature: Panels
 role: User, Admin
 exl-id: f0b7cd92-17b2-452d-9aab-f78629360ab8
-source-git-commit: 8e319511362ecdef9bbd7d0ee0b2a6607fe68605
+source-git-commit: bef175d9675134f4932407a0b9e4a3c67b1d27a5
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 9%
@@ -47,13 +47,13 @@ ht-degree: 9%
 | [!UICONTROL 頁面視圖] - 4週前 | 上個月此頁的頁面視圖數。 |
 | [!UICONTROL 頁面視圖] - 52週前 | 上一年此頁的頁面視圖數。 |
 | [!UICONTROL 趨勢] | 本月、前4週和前52週的趨勢頁視圖圖表。 |
-| [!UICONTROL 所有頁面檢視次數的百分比] | 指向此頁的所有頁面視圖的百分比的摘要編號。 |
+| [!UICONTROL 所有頁面視圖的百分比] | 指向此頁的所有頁面視圖的百分比的摘要編號。 |
 | [!UICONTROL 頁面逗留時間] | 一個水準條形圖，列出在此頁上花費的時間。 |
 | [!UICONTROL 單頁造訪次數] | 一個摘要編號，其中列出了此頁是唯一訪問的頁。 |
 | [!UICONTROL 重新載入] | 的 [!UICONTROL 重載] 度量顯示在重裝期間維項存在的次數。 訪客重新整理瀏覽器是觸發重新載入的最常見方式。 |
 | [!UICONTROL 登入點] | 的 [!UICONTROL 條目] 度量顯示將給定維項作為訪問中的第一個值捕獲的次數。 |
 | [!UICONTROL 退出點] | 的 [!UICONTROL 退出] 度量顯示將給定維項捕獲為訪問中最後一個值的次數。 |
-| [!UICONTROL 流量] | 以選定頁面為焦點的流程圖。 您可以像在任何資料中一樣，進一步鑽取資料 [流程圖](/help/analyze/analysis-workspace/visualizations/c-flow/creating-flow-report.md)。 |
+| [!UICONTROL 流量] | 以選定頁面為焦點的流程圖。 您可以像在任何資料中一樣，進一步鑽取資料 [流程圖](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md)。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
 
