@@ -3,10 +3,10 @@ title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 98%
+source-wordcount: '571'
+ht-degree: 77%
 
 ---
 
@@ -18,18 +18,29 @@ ht-degree: 98%
 >
 >如果此變數設定於點擊中，但沒有 [`events`](events/events-overview.md) 變數，則[產品檢視](/help/components/metrics/product-views.md)量度會增加 1。 請務必每個使用 `products` 變數的點擊上設定適當的事件。
 
-## 使用 Adobe Experience Platform 中的標記的產品
+## 使用Web SDK的產品
 
-資料收集 UI 中沒有專用欄位可設定這個變數；但有多個協力廠商擴充功能可提供協助。
+產品 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在幾個XDM欄位下：
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-2. 按一下所需的屬性。
+* 類別映射到 `productListItems[].name`。
+* 產品映射到 `productListItems[]._id`。
+* 數量已映射到 `productListItems[].quantity`。
+* 價格映射到 `productListItems[].priceTotal`。
+* 促銷電子貨物被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具體取決於要綁定到產品的eVar。
+* 促銷活動映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 至 `productListItems._experience.analytics.event901to1000.event1000.value`，具體取決於要綁定到產品的事件。
+
+## 使用Adobe Analytics分機的產品
+
+Adobe Experience Platform資料收集中沒有專用欄位來設定此變數；但是，存在多個第三方擴展以提供幫助。
+
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]檢視所有可用的擴充功能。
 4. 搜尋 &quot;product&quot; 一字，幾個可用來協助設定此變數的擴充功能隨即會顯示。
 
 您可以使用其中一個擴充功能，或依照下方的 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.products
+## AppMeasurement和Analytics擴展自定義代碼編輯器中的s.products
 
 `s.products` 變數是字串，其中包含每個產品的多個分隔欄位。 在字串中以分號 (`;`) 分隔每個欄位。
 

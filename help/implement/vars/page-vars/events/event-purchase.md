@@ -3,10 +3,10 @@ title: 購買事件
 description: 使用購買事件來收集「訂購」、「件數」和「收入」量度的資料。
 feature: Variables
 exl-id: 5ad148d6-cf45-4dea-846a-255004300bc2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '394'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '453'
+ht-degree: 72%
 
 ---
 
@@ -22,20 +22,28 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->收入不會乘以數量欄位。以 `s.products="Womens;Socks;5;4.50"` 為例，傳入收入中的並不是 $22.50，而是 $4.50。請確認您的實施作業傳入的是所列數量的收入總額。例如：`s.products="Womens;Socks;5;22.50"`。
+>收入不會乘以數量欄位。比如說， `s.products="Womens;Socks;5;4.50"` 不會將22.50美元轉入收入；每張4.5美元。確保您的實施通過列出的數量的總收入。 例如，`s.products="Womens;Socks;5;22.50"`。
 
-## 使用 Adobe Experience Platform 中的標記設定購買事件
+## 使用Web SDK設定採購事件
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-2. 按一下所需的屬性。
+購買事件是 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在幾個XDM欄位下：
+
+* 訂單映射到 `commerce.purchases.value`。
+* 單位映射到所有單位之和 `productListItems[].quantity` 的子菜單。
+* 收入映射到所有 `productListItems[].priceTotal` 的子菜單。
+
+## 使用Adobe Analytics分機設定採購事件
+
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段，再將事件下拉式清單設定為[!UICONTROL 「購買」]。
 
-其他相依變數 (例如 `products` 和 `purchaseID`) 在資料收集 UI 中並沒有專用欄位。 請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
+其他相關變數，如 `products` 和 `purchaseID` 在Adobe Experience Platform資料收集中的分析擴展中沒有專用欄位。 請依照這些變數的 AppMeasurement 語法，使用自訂程式碼編輯器。
 
-## 在 AppMeasurement 和自訂程式碼編輯器中設定購買事件
+## 在AppMeasurement和分析擴展自定義代碼編輯器中設定購買事件
 
 購買事件是連同事件變數一起設定的字串。
 

@@ -3,10 +3,10 @@ title: 外掛程式概述
 description: 將程式碼貼在您的網站上以引入新功能。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Adobe 提供多種安裝指定外掛程式的方式：
 
-1. 使用 Adobe Experience Platform 中的標記來使用「常用 Analytics 外掛程式」擴充功能
+1. 使用Web SDK或Adobe Analytics擴展使用「通用分析插件」擴展
 2. 使用自訂程式碼編輯器貼上外掛程式的程式碼
 3. 將外掛程式的程式碼貼入您的 `AppMeasurement.js` 檔案中
 

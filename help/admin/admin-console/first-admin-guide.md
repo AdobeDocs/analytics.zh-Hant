@@ -3,10 +3,10 @@ title: Adobe Analytics 的第一個管理指南
 description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪些，以及如何登入 UI。
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '942'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 如果您的組織已購買 Adobe Analytics，請考量以下幾種關鍵角色的指派：
 
 * **Adobe Analytics 管理員**：這類使用者可完整存取 Adobe Analytics 中的所有項目，包括報表套裝設定和使用者權限。根據組織結構而定，Analytics 管理的不同層面可能會交由不同的人員或團隊負責。例如，某人負責指定要在實施作業過程中使用哪些變數，另一人則可負責確認每個人都擁有正確的權限，以便讓使用者能夠正確提取報表。請至少指定一名使用者負責 Analytics 報表套裝設定和使用者權限，該人員可再從 Analytics 中邀請其他人成為管理員。
-* **資料收集管理員：**&#x200B;這類使用者擁有資料收集 UI (先前稱為 Experience Platform Launch UI) 中所有功能的完整存取權，包括發佈權限、建立容器及使用者權限。 這類使用者不必非程式設計人員不可，但如果至少具備 HTML、CSS 和 JavaScript 的新手知識，則會很有幫助。 他們負責與貴組織的網站負責人合作，以便在您的網站上實作 Experience Platform 標記。 請至少確定一個使用者來負責貴組織的實作，該使用者可以從這裡邀請其他資料收集管理員。
+* **資料收集管理員：** 這些用戶對Adobe Experience Platform資料收集中的所有內容都具有完全訪問權限，包括發佈權限、建立容器和用戶權限。 這類使用者不必非程式設計人員不可，但如果至少具備 HTML、CSS 和 JavaScript 的新手知識，則會很有幫助。 他們負責與您組織的網站所有者合作，以獲得在您的網站上實施的標籤。 請至少確定一個使用者來負責貴組織的實作，該使用者可以從這裡邀請其他資料收集管理員。
 * **支援委派**：也稱為受支援使用者，他們在 Analytics 介面中沒有額外的權限。而是當他們與 Adobe 客戶服務溝通時，會獲得額外的權限。這些使用者幾乎永遠都是 Analytics 管理員，因為可協助客戶服務疑難排解他們的問題。請至少找出一位負責協助使用者與 Adobe 客戶服務互動的 Analytics 管理員。
 * **網站負責人**：這類人員或團隊需負責網站的編碼和開發。 他們不需要帳戶，但他們會想要與資料收集管理員合作，以取得標記程式碼，並在您的網站上實作這些程式碼。
 * **一般使用者**：這類使用者通常只需要檢視報表，並針對業務問題尋求解答。Analytics 管理員可向這些使用者授與在產品中進行操作的權限。

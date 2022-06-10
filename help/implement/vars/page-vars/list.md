@@ -3,14 +3,14 @@ title: list
 description: 在同一次點擊中容納多個值的自訂變數。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '366'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 85%
 
 ---
 
-# list
+# 清單
 
 清單變數是自訂變數，您可以視需要使用。它們的作用與 eVar 類似，但是它們可以在同一次點擊中包含多個值。清單變數沒有字元限制。
 
@@ -24,11 +24,15 @@ ht-degree: 100%
 
 在實施中使用清單變數之前，請務必先在報表套裝設定中設定每個變數。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
 
-## 使用 Adobe Experience Platform 中的標記的清單變數
+## 使用Web SDK列出變數
 
-資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+清單變數為 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.customDimensions.lists.list1` 至 `_experience.analytics.customDimensions.lists.list3`。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.list1 - s.list3
+## 使用Adobe Analytics副檔名列出變數
+
+Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+
+## s.list1 - AppMeasurement和Analytics擴展自定義代碼編輯器中的s.list3
 
 每個清單變數都是字串，其中包含貴組織專屬的自訂值。它們沒有位元組數上限，不過每個個別的值有最多 255 個位元組的上限。您使用的分隔字元，可以在報表套裝設定中設定變數時決定。在分隔多個項目時，請勿使用空格。
 

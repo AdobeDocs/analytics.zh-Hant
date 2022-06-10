@@ -3,10 +3,10 @@ title: 在標記中建立 Analytics 屬性
 description: 使用標記建立空間來自訂資料收集的方式。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 屬性是用來管理標記的普遍容器。擴充功能可讓您安裝產品專屬標記並加以設定。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下 **[!UICONTROL 新增屬性]**。
 1. 為屬性命名 (例如您的網站標題)，然後輸入預計實作 Analytics 的網域。按一下&#x200B;**[!UICONTROL 「儲存」]**。
 1. 按一下您新建立的標記屬性以輸入其設定。
@@ -37,7 +37,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 資料元素是網站特定部分的參考，可用來收集變數值。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下您打算在您的網站上實作的標記屬性。
 1. 按一下&#x200B;**[!UICONTROL 資料元素]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增資料元素]**。
 1. 為資料元素執行下列設定：
@@ -58,7 +58,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 規則會將資料元素對映至 Analytics 變數值，並決定要在何時將這些值傳送至 Adobe 的伺服器。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下您打算在您的網站上實作的標記屬性。
 1. 按一下&#x200B;**[!UICONTROL 規則]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增規則]**。將其重新命名`Global Rule`。
 1. 按一下事件旁的&#x200B;**[!UICONTROL 新增]**，然後輸入以下的設定值：

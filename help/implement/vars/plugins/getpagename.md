@@ -3,10 +3,10 @@ title: getPageName
 description: 從目前的網站路徑建立易讀的 pageName。
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '596'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '602'
+ht-degree: 94%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 `getPageName` 外掛程式可為目前的 URL 建立易讀、好記的格式化版本。如果您想要在報表中輕鬆設定且理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建議使用此外掛程式。如果您已有 `pageName` 變數的命名結構 (例如透過資料層)，就不需要此外掛程式。若您沒有其他解決方案可設定 `pageName` 變數，最好使用此外掛程式。
 
-## 使用 Adobe Experience Platform 中的標記安裝外掛程式
+## 使用Web SDK或Adobe Analytics擴展安裝插件
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -38,9 +38,9 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。

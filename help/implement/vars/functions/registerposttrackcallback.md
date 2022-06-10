@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 74%
 
 ---
 
@@ -24,11 +24,29 @@ ht-degree: 100%
 >
 >對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用 Adobe Experience Platform 中的標記登錄後續追蹤回呼
+## 使用Web SDK擴展進行跟蹤後回調
 
-資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+快來了！
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.registerPostTrackCallback
+## 後跟蹤回調手動實現Web SDK
+
+在成功將資料發送到Adobe後，在發送事件以註冊函式時可以使用JavaScript Promise。
+
+```js
+alloy("sendEvent",{
+  "xdm": {}
+}).then(function(result) {
+  Console.Log("Data was successfully sent.");
+});
+```
+
+請參閱 [處理來自事件的響應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 的子菜單。
+
+## 使用Adobe Analytics擴展註冊跟蹤後回調
+
+Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+
+## AppMeasurement中的s.registerPostTrackCallback和分析擴展自定義代碼編輯器
 
 `s.registerPostTrackCallback` 是能將函數當成其唯一引數的函數。 巢狀函數會在成功傳送影像要求之後立即執行。
 

@@ -3,28 +3,32 @@ title: linkTrackEvents
 description: 決定要在連結追蹤影像要求中納入哪些事件。
 feature: Variables
 exl-id: 53c9e122-425c-4ec3-8a32-96e4d112f348
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '258'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '320'
+ht-degree: 67%
 
 ---
 
-# linkTrackEvents
+# 連結跟蹤事件
 
 有些實施不希望將所有變數納入每個連結追蹤影像要求中。請使用 [`linkTrackVars`](linktrackvars.md) 和 `linkTrackEvents` 變數，在 [`tl()`](../functions/tl-method.md) 呼叫中選擇性地納入維度和量度。
 
 此變數不適用於頁面瀏覽數呼叫 ([`t()`](../functions/t-method.md) 方法)。
 
-## 使用 Adobe Experience Platform 中的標記的連結追蹤呼叫中的事件
+## 使用Web SDK確定要在XDM事件中包括的分析事件
+
+Web SDK不排除某些用於連結跟蹤調用的欄位。 但是，您可以使用 `onBeforeEventSend` 回調以在資料發送到Adobe之前清除或設定所需欄位。 請參閱 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 的子菜單。
+
+## 使用Adobe Analytics分機的鏈路跟蹤呼叫中的事件
 
 如果您未使用自訂程式碼，Adobe Experience Platform 會自動將已定義的事件納入連結追蹤點擊中。
 
 >[!IMPORTANT]
 >
->如果您使用自訂程式碼編輯器在資料收集 UI 中設定變數，您也必須使用自訂程式碼將此事件納入 `linkTrackEvents`。
+>如果在分析擴展的自定義代碼編輯器中設定了事件，則必須將該事件包括在 `linkTrackEvents` 也使用自定義代碼。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.linkTrackEvents
+## AppMeasurement中的s.linkTrackEvents和Analytics擴展自定義代碼編輯器
 
 `s.linkTrackEvents` 變數是字串，其中包含您要納入連結追蹤影像要求 (`tl()` 方法) 中的逗號分隔事件清單。若要在連結追蹤點擊中納入量度，以下三個條件必須滿足：
 

@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: 將點擊傳送至 Adobe 前建立回呼函數。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 55%
 
 ---
 
@@ -24,11 +24,34 @@ ht-degree: 100%
 >
 >對於在 `registerPreTrackCallback` 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用 Adobe Experience Platform 中的標記登錄前置追蹤回呼
+## 使用Web SDK擴展進行預跟蹤回調
 
-資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Web SDK在編譯資料後但在將其發送到Adobe之前無法掛接函式。 但是，您可以 `onBeforeEventSend` 在發送資料之前註冊要執行的函式。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.registerPreTrackCallback
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
+1. 轉到 [!UICONTROL 擴展] ，然後按一下 **[!UICONTROL 配置]** 按鈕 [!UICONTROL Adobe Experience PlatformWeb SDK]。
+1. 下 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件發送回調代碼之前編輯]** 按鈕
+1. 將所需代碼放入編輯器中。
+
+## 手動實現Web SDK的預跟蹤回調
+
+Web SDK在編譯資料後但在將其發送到Adobe之前無法掛接函式。 但是，您可以 `onBeforeEventSend` 在資料發送前註冊要執行的函式，類似於 `doPlugins`。 請參閱 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 的子菜單。
+
+```js
+// Set the trackingCode XDM field to "New value"
+alloy("configure", {
+  "onBeforeEventSend": function(content) {
+    content.xdm.marketing.trackingCode = "New value";
+  }
+})
+```
+
+## 使用Adobe Analytics分機的預跟蹤回調
+
+Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+
+## AppMeasurement中的s.registerPreTrackCallback和Analytics擴展自定義代碼編輯器
 
 `s.registerPreTrackCallback` 是能將函數當作唯一引數的函數。巢狀函數會在影像要求傳送之前執行。
 

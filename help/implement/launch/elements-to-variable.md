@@ -3,10 +3,10 @@ title: 將標記資料元素對應至 Analytics 變數
 description: 將資料元素指派給 Analytics 變數，好讓您可以在 Analysis Workspace 中將其當成維度使用。
 feature: Launch Implementation
 exl-id: 996c1204-3f8a-453e-8104-5e8e1279517c
-source-git-commit: f4b495b11bcbd55bc8448f2c9c09268547fb9750
-workflow-type: ht
-source-wordcount: '440'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 想在有資料元素的所有頁面上設定變數值，適合使用全域變數。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下所需的標記屬性。
 1. 按一下[!UICONTROL 「擴充功能」標記]，然後按一下 Adobe Analytics 擴充功能下方的[!UICONTROL 「設定」]。
 1. 按一下[!UICONTROL 「全域變數」]摺疊式功能表，這會顯示指派全域變數的介面。
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 不想在每個頁面上設定變數，適合使用規則中設定的變數。您可以在規則中定義標準。請參閱 Adobe Experience Platform 標記文件中的「[規則](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/rules.html)」。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下所需的標記屬性。
 1. 按一下[!UICONTROL 「規則」]標記，然後按一下所需的規則 (或建立規則)。
 1. 按一下[!UICONTROL 「動作」]中的[!UICONTROL 「新增」]按鈕。

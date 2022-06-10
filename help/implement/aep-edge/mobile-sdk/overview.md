@@ -1,17 +1,17 @@
 ---
 title: 使用 Adobe Experience Platform Mobile SDK 實作 Adobe Analytics
 description: 在 Adobe Experience Platform 資料彙集中使用 Mobile SDK 擴充功能傳送資料給 Adobe Analytics。
-source-git-commit: 6979736e1849d25af2141e0ab76a143605a90620
-workflow-type: ht
-source-wordcount: '207'
-ht-degree: 100%
+exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 89%
 
 ---
 
-
 # 使用 Adobe Experience Platform Mobile SDK 實作 Adobe Analytics
 
-Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Adobe 的 Experience Cloud 解決方案和服務。 它適用於 Android、iOS 及各種跨平台開發架構。 透過 Adobe Experience Platform 資料彙集 UI 處理設定。
+Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Adobe 的 Experience Cloud 解決方案和服務。 它適用於 Android、iOS 及各種跨平台開發架構。 配置通過Adobe Experience Platform資料收集處理。
 
 若要使用 Mobile SDK 傳送資料給 Adobe Experience Edge：
 
@@ -24,4 +24,4 @@ Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Ado
 
 >[!IMPORTANT]
 >
->資料彙集 UI 中也可使用 Adobe Analytics 擴充功能。 如果您安裝此擴充功能，就不會利用 XDM 或 Edge Network。
+>Adobe Experience Platform資料收集部也提供Adobe Analytics分機。 如果您安裝此擴充功能，就不會利用 XDM 或 Edge Network。

@@ -3,14 +3,14 @@ title: cookieDomain
 description: cookieDomain 變數可協助判斷要設定 Cookie 的網域。
 feature: Variables
 exl-id: 7e8c26b8-d1a7-49f7-9c12-45fb1633c9d7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '178'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '199'
+ht-degree: 74%
 
 ---
 
-# cookieDomain
+# cookie域
 
 >[!IMPORTANT]
 >
@@ -25,11 +25,15 @@ ht-degree: 100%
 
 只有少數實施需要用到 `cookieDomain` 變數，即使發生此情況，也可改用 [`cookieDomainPeriods`](cookiedomainperiods.md) 這類變數替代。
 
-## 使用 Adobe Experience Platform 中的標記的 Cookie 網域
+## 使用Web SDK的Cookie域
 
-資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Web SDK可以確定沒有此變數的正確Cookie儲存域。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.cookieDomain
+## 使用Adobe Analytics副檔名的Cookie域
+
+Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+
+## AppMeasurement中的s.cookieDomain和Analytics擴展自定義代碼編輯器
 
 `cookieDomain` 變數為字串，設為您要儲存 Cookie 的網域。
 

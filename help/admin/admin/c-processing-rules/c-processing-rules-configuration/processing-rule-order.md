@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 處理順序
 feature: Processing Rules
 exl-id: c7143527-017c-4550-b55e-09ea437d7c85
-source-git-commit: 790c3a02fbdf896cba0933dcd7a2b2efd5a19f15
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 53%
+source-wordcount: '506'
+ht-degree: 52%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 53%
 |--- |--- |
 | [動態變數](/help/implement/vars/page-vars/dynamic-variables.md) | 通過從HTTP標頭或其他變數中提取資訊動態填充的變數。 |
 | [AppMeasurement](/help/implement/home.md) | 在AppMeasurement庫中使用的函式和插件在瀏覽器或客戶端應用程式中執行。 |
-| [標籤實現](/help/implement/launch/overview.md) | 在資料收集UI中定義的規則。 |
+| [標籤實現](/help/implement/launch/overview.md) | 在Adobe Analytics擴展中定義的Adobe Experience Platform資料收集中的規則。 |
 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/adobe-analytics/analytics-overview.html) | 通過Web SDK收集的資料會發送到Adobe Experience Edge，然後轉發到所需的報告套件。 |
 | [機器人規則](/help/admin/admin/bot-removal/bot-rules.md) | 讓您刪除已知蜘蛛和機器人生成的流量。 |
 

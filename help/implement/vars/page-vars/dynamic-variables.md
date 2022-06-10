@@ -3,10 +3,10 @@ title: 動態變數
 description: 複製變數而不增加影像要求長度。
 feature: Variables
 exl-id: 41aab44d-01fd-45fe-892d-637d69488d98
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '363'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '441'
+ht-degree: 77%
 
 ---
 
@@ -24,12 +24,22 @@ ht-degree: 100%
 >
 >複製變數時請留意字元上限。例如，如果將 `eVar1` 複製到 `prop1`，`prop1` 的值可能會遭到截斷，因為它有 100 個位元組的限制 (`eVar1` 則有 255 個位元組的限制)。
 
-## 使用 Adobe Experience Platform 中的標記的動態變數
+## 使用Web SDK的動態變數
+
+使用資料流映射將資料從單個XDM欄位發送到多個分析變數。
+
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下 **[!UICONTROL 資料流]** 左欄。
+1. 按一下所需的資料流。
+1. 按一下 **[!UICONTROL 編輯映射]** 右邊。
+1. 映射所需 [!UICONTROL 源欄位] 到期望的 [!UICONTROL 目標欄位]。 單個源欄位可以映射到任意數量的目標欄位。
+
+## 使用Adobe Analytics擴展的動態變數
 
 您可以在任何接受字串的維度欄位中使用動態變數。 維度項目通常會在設定 Analytics 擴充功能 (全域變數) 時設定，或依據規則進行設定。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-2. 按一下所需的屬性。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
@@ -37,7 +47,7 @@ ht-degree: 100%
 
 將動態變數首碼放置在文字欄位中，隨後加上您要參考的查詢字串參數或 HTTP 標題。依預設，動態變數首碼為 `D=`。
 
-## AppMeasurement 和自訂程式碼編輯器中的動態變數
+## AppMeasurement和Analytics擴展自定義代碼編輯器中的動態變數
 
 動態變數是指派給其他變數的文字字串。預設的動態變數首碼為 `D=`。動態變數會區分大小寫。
 

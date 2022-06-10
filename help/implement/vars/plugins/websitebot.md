@@ -3,10 +3,10 @@ title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '434'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '437'
+ht-degree: 96%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 如果使用者代理程式位在桌上型電腦上，而且未偵測到任何滑鼠動作，則外掛程式可以
 
-* 使用 Adobe Experience Platform 中的標記發出直接呼叫規則呼叫，或是
+* 使用Web SDK或Adobe Analytics分機進行直接呼叫規則調用，或
 * 發出連結追蹤呼叫來指示訪客不是機器人。
 
 ## 先決條件

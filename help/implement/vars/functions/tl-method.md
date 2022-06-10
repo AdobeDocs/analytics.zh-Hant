@@ -3,10 +3,10 @@ title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '616'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 80%
 
 ---
 
@@ -16,20 +16,38 @@ ht-degree: 100%
 
 如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 已啟用，AppMeasurement 會自動呼叫 `tl()` 方法，以便傳送下載連結和退出連結追蹤資料。如果您的組織想進一步控制要追蹤的連結與其行為，可以手動呼叫 `tl()` 方法。自訂連結只能手動追蹤。
 
-## 使用 Adobe Experience Platform 中的標記的連結追蹤呼叫
+## 使用Web SDK進行連結跟蹤
 
-資料收集 UI 有一個專用位置可設定連結追蹤呼叫。
+Web SDK不區分頁面視圖調用和連結跟蹤調用；都使用 `sendEvent` 的子菜單。 如果希望Adobe Analytics將給定事件計為連結跟蹤呼叫，請確保XDM資料包括 `web.webInteraction.name`。 `web.webInteraction.URL`, `web.webInteraction.type`。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
+```js
+alloy("sendEvent", {
+  "xdm": {
+    "web": {
+      "webInteraction": {
+        "name": "My Custom Link",
+        "URL": "https://example.com",
+        "type": "other"
+      }
+    }
+  }
+});
+```
+
+## 使用Adobe Analytics擴展的鏈路跟蹤
+
+Adobe Analytics分機具有用於設定鏈路跟蹤呼叫的專用位置。
+
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
-1. 在[!UICONTROL 「動作」]下方按一下「+」圖示
-1. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為「傳送信標」。
+1. 下 [!UICONTROL 操作]，按一下所需的操作，或按一下 **&#39;+&#39;** 表徵圖以添加操作。
+1. 設定 [!UICONTROL 擴展] 下拉清單 **[!UICONTROL Adobe Analytics]**&#x200B;的 [!UICONTROL 操作類型] 至 **[!UICONTROL 發送信標]**。
 1. 按一下 `s.tl()` 選擇鈕。
 
-您無法在資料收集 UI 中設定任何選用引數。
+不能在分析擴展中設定任何可選參數。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.tl() 方法
+## s.tl()方法和AppMeasurement和Analytics擴展自定義代碼編輯器
 
 當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.tl()` 方法。
 

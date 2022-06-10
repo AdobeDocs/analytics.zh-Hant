@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: 測量完成任務所花費的時間。
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '577'
+ht-degree: 93%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 `getTimeToComplete` 外掛程式會追蹤使用者在網站上完成程序所花的時間。「時鐘」從呼叫 `start` 動作時開始，在呼叫 `stop` 動作時結束。如果網站上有工作流程需要一些時間才能完成，而且您想瞭解訪客完成該工作流程所花的時間，Adobe 建議您使用此外掛程式。如果您網站上的工作流程耗時較短 (少於 3 秒)，就不需要使用此外掛程式，因為精細度只會降至完整秒。
 
-## 使用 Adobe Experience Platform 中的標記安裝外掛程式
+## 使用Web SDK或Adobe Analytics擴展安裝插件
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -38,9 +38,9 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。

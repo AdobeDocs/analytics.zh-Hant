@@ -4,10 +4,10 @@ keywords: 虛擬報告套裝,VRS
 title: 虛擬報告套裝和多套裝標記考量事項
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1753'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Adobe 客戶服務可針對小量維度提高不重複值的上限，藉此徹�
    * 如需參考最佳做法，建議您使用[區段堆疊](/help/components/segmentation/segmentation-workflow/seg-build.md)，以便在同一位置編輯區段，並將區段套用至所有相依的虛擬報告套裝。
    * 如果您希望維持虛擬報告套裝彼此更加互斥，請使用點擊容器。
 2. 在您確認虛擬報告套裝已正確設定後，請從實作項目中移除次要報告套裝 ID。如何移除次要報告套裝：
-   * 在 Adobe Experience Platform 的資料收集 UI 中，針對您不想再使用的任何報表套裝按一下其旁邊的「x」。
+   * 在Adobe Experience Platform資料收集內的Adobe Analytics分機中，按一下您不想再使用的任何報告套件旁邊的「x」。
    * 在舊的 JavaScript 實作項目中，找到 `s.account` 變數並移除您不想再使用的任何報告套裝 ID。
    * 在所有情況下，僅需保留您的全域/父項報告套裝 ID，以便收集網站和應用程式的資料。
    * 導覽至管理 > 報告套裝，並隱藏任何不再使用的次要報告套裝。

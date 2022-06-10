@@ -3,10 +3,10 @@ title: p_fo (僅限頁面優先)
 description: 確保每頁只引發一次特定常式。
 feature: Variables
 exl-id: e82d77f9-2ea9-4b1b-b645-b12879c344ec
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 94%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 100%
 
 `p_fo` 外掛程式是公用程式，可檢查特定 JavaScript 物件是否存在。如果物件不存在，外掛程式將會建立該物件並傳回 `true`。如果頁面上已存在 JavaScript 物件，則會傳回 `false`。若要在頁面上執行一次程式碼，此外掛程式很實用。其他多個外掛程式依賴此程式碼才能運作。如果您不擔心某個頁面上程式碼執行的次數，或不使用任何相依的外掛程式，就不需要這個外掛程式。
 
-## 使用 Adobe Experience Platform 中的標記安裝外掛程式
+## 使用Web SDK或Adobe Analytics擴展安裝插件
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -38,9 +38,9 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。

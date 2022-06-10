@@ -3,10 +3,10 @@ title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,8 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 
 Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實作此程式碼的方法有很多種，視平台和您組織的需求而定。
 
-* **Adobe Experience Platform 中的標記**：實作 Adobe Analytics 所建議的標準化方法。 在每個頁面上放置載入器標記，並使用資料收集 UI 來決定如何定義每個變數。
+* **Web SDK**:實施Adobe Analytics的標準化和推薦方法。 在Adobe Experience Platform資料收集中安裝Web SDK擴展，在每頁上使用載入器標籤，並以便於您的組織使用的格式將資料發送到Adobe Experience Platform邊緣。 體驗邊緣以正確的格式將傳入資料轉發到Adobe Analytics。
+* **Adobe Analytics擴展**:在Adobe Experience Platform資料收集中安裝Adobe Analytics擴展。 將載入器標籤放置在每頁上，並使用分析擴展來確定如何定義每個變數。
 * **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。 概述實作中所用的變數和設定，這對於搭配自訂程式碼使用規則的實作很有幫助。
 * **行動 SDK**：專用的資料庫，可輕鬆將資料從行動應用程式傳送至 Adobe。
 

@@ -3,10 +3,10 @@ title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '491'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '489'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    >
    > 可選擇遵循 Adobe 建議的資料層規格。如果您已有資料層，或選擇不遵循 Adobe 的規格，請確定貴組織對於需遵循的規格有共識。
 1. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `digitalData.page.pageInfo.pageID`。
-1. **使用 Adobe Experience Platform 標記將資料層物件對應至資料元素**：在 Adobe Experience Platform 的資料收集 UI 中建立資料元素，並將其對應至您的資料層中所概述的 JavaScript 屬性。
+1. **使用Adobe Experience Platform資料收集將資料層對象映射到資料元**:在Adobe Experience Platform資料收集中建立資料元素，並將其映射到資料層中概述的JavaScript屬性。
 1. **使用 Adobe Analytics 標記擴充功能將資料元素對應至 Analytics 變數**：根據您的解決方案設計文件中的指示，將每個資料元素指派給適當的 Analytics 變數。
 
 ## 規格

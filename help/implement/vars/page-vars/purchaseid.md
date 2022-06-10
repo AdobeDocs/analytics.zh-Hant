@@ -3,14 +3,14 @@ title: purchaseID
 description: 根據唯一的購買識別碼去除重複點擊。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '283'
+ht-degree: 80%
 
 ---
 
-# purchaseID
+# 採購ID
 
 `purchaseID` 變數有助於防止包含相同購買操作的點擊導致報表不實膨脹。例如，如果訪客到達您的購買確認頁面，您通常會將交易產生的收入相關資料傳送至 Adobe。如果使用者重新整理此頁面多次，或是將頁面加入書籤以便稍後瀏覽，這些點擊可能會導致報表不實膨脹。當有多個點擊具有相同的購買 ID 時，`purchaseID` 變數會去除重複的量度。
 
@@ -18,11 +18,15 @@ ht-degree: 100%
 
 購買 ID 會套用至所有訪客，而且不會過期。如果某位訪客設定了指定的購買 ID，另一位訪客在一年後設定了同一個購買 ID，則第二次購買的重複資料會遭到去除。
 
-## 使用 Adobe Experience Platform 中的標記的購買 ID
+## 使用Web SDK的採購ID
 
-資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+採購ID為 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `commerce.order.purchaseID`。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.purchaseID
+## 使用Adobe Analytics擴展的採購ID
+
+Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+
+## AppMeasurement中的s.purchaseID和Analytics擴展自定義代碼編輯器
 
 `s.purchaseID` 變數是包含唯一購買識別碼的字串。它設定在與購買事件相同的點擊上。填入此變數時，僅限使用英數字元。
 

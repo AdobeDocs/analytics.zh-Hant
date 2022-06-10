@@ -3,10 +3,10 @@ title: 實作常見問答
 description: 實作的相關常見問答，以及可提供更多資訊的連結。
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '502'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '508'
+ht-degree: 94%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再�
 
 有時組織會因為合約到期，或是需減少伺服器呼叫數而想要移除實作。
 
-* **使用 Adobe Experience Platform 中的標記的實作**：停用或解除安裝「[!UICONTROL 擴充功能]」索引標籤上的 Adobe Analytics 擴充功能，然後發佈。
+* **使用Adobe Experience Platform資料收集的實現**:禁用或卸載適用的Adobe Analytics、Web SDK或Mobile SDK擴展 [!UICONTROL 擴展] 按鈕。
 * **舊版 AppMeasurement 實作**：使用下列程式碼行取代 `s_code.js` 檔案的整個內容：
 
 ```js

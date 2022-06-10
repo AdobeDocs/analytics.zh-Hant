@@ -4,10 +4,10 @@ description: 瞭解您可在傳送至 Adobe 的資料中加入哪些變數，進
 keywords: appmeasurement, 變數, vars, 設定, 頁面, 實作
 feature: Variables
 exl-id: 7ffcd943-f9ac-4daf-bbdf-248d75925b04
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 92%
 
 ---
 
@@ -21,7 +21,7 @@ Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的�
 
 ## 變數與實作方法
 
-Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都會提供如何使用 Adobe Experience Platform 中的標記及適用於 JavaScript 的 AppMeasurement 來實作此變數的相關章節。
+Adobe 提供多種實施 Adobe Analytics 的方式。每頁都提供一節，介紹如何使用Web SDK、使用Adobe Analytics副檔名和使用AppMeasurement for JavaScript實現變數。
 
 以下是有關在 Adobe Analytics 中設定變數的影片：
 

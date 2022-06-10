@@ -3,14 +3,14 @@ title: timestamp
 description: 手動設定點擊的時間戳記。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '246'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 87%
 
 ---
 
-# timestamp
+# 時間戳
 
 針對啟用時間戳記的報表套裝，`timestamp` 變數能手動設定點擊的時間戳記。
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 >
 >如果您的報表套裝未明確設定為接受時間戳記點擊，請勿使用此變數。對於不支援時間戳記點擊的報表套裝，AppMeasurement 會自動設定點擊時間。如果您將包含此變數的點擊傳送到不支援時間戳記的報表套裝，該資料會永久遺失。
 
-## 使用 Adobe Experience Platform 中的標記的時間戳記
+## 使用Adobe Analytics擴展的時間戳
 
-資料收集 UI 中沒有專用欄位可使用這個變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.timestamp
+## AppMeasurement中的s.timestamp和Analytics擴展自定義代碼編輯器
 
 `s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix 時間](https://en.wikipedia.org/wiki/Unix_time)。
 

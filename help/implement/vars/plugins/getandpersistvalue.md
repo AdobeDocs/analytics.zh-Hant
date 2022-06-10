@@ -3,10 +3,10 @@ title: getAndPersistValue
 description: 儲存值以便稍後隨時擷取。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '583'
-ht-degree: 100%
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 87%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 100%
 >
 >此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
-`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與使用 Adobe Experience Platform 中的標記[!UICONTROL 儲存持續時間]功能類似。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果資料收集 UI 中的[!UICONTROL 儲存持續時間]功能已足夠，就不需要此外掛程式。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
+`getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。它與 [!UICONTROL 儲存持續時間] 在Adobe Analytics擴展中的功能。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果 [!UICONTROL 儲存持續時間] 分析擴展中的功能已足夠。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
 
-## 使用 Adobe Experience Platform 中的標記安裝外掛程式
+## 使用Web SDK或Adobe Analytics擴展安裝插件
 
 Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
 1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
 1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
@@ -38,9 +38,9 @@ Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的[!UICONTROL 「設定」]按鈕。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。

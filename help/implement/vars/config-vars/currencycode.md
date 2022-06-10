@@ -3,10 +3,10 @@ title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '862'
+ht-degree: 93%
 
 ---
 
@@ -26,13 +26,17 @@ ht-degree: 100%
 
 此變數不會在點擊之間持續存在。請確定已在每個涉及收入或貨幣事件的頁面上定義此變數。
 
-## 使用 Adobe Experience Platform 中的標記的貨幣代碼
+## 使用Web SDK的貨幣代碼
+
+幣種代碼為 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `commerce.order.currencyCode`。
+
+## 使用Adobe Analytics分機的幣種代碼
 
 「貨幣代碼」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 一般]」摺疊式功能表底下的欄位。
 
-1. 使用您的 Adobe ID 認證登入[資料收集 UI](https://experience.adobe.com/data-collection)。
-1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的[!UICONTROL 「設定」]按鈕。
+1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 按一下所需的標記屬性。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 貨幣代碼]欄位。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
@@ -47,7 +51,7 @@ ht-degree: 100%
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
-## AppMeasurement 和自訂程式碼編輯器中的 s.currencyCode
+## AppMeasurement中的s.currencyCode和Analytics擴展自定義代碼編輯器
 
 `s.currencyCode` 變數為字串，包含代表頁面上貨幣的 3 個大寫字母代碼。
 
