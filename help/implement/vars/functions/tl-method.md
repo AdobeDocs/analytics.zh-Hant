@@ -3,10 +3,10 @@ title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 80%
+source-wordcount: '702'
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 80%
 
 ## 使用Web SDK進行連結跟蹤
 
-Web SDK不區分頁面視圖調用和連結跟蹤調用；都使用 `sendEvent` 的子菜單。 如果希望Adobe Analytics將給定事件計為連結跟蹤呼叫，請確保XDM資料包括 `web.webInteraction.name`。 `web.webInteraction.URL`, `web.webInteraction.type`。
+Web SDK不區分頁面視圖調用和連結跟蹤調用；都使用 `sendEvent` 的子菜單。 如果希望Adobe Analytics將給定的XDM事件計為連結跟蹤調用，請確保XDM資料包括或映射到 `web.webInteraction.name`。 `web.webInteraction.URL`, `web.webInteraction.type`。
+
+* 連結名稱映射到 `web.webInteraction.name`。
+* 將URL映射連結到 `web.webInteraction.URL`。
+* 連結類型映射到 `web.webInteraction.type`。 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
 
 ```js
 alloy("sendEvent", {

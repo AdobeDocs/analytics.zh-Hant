@@ -3,10 +3,10 @@ title: timestamp
 description: 手動設定點擊的時間戳記。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 87%
+source-wordcount: '276'
+ht-degree: 81%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 87%
 >[!WARNING]
 >
 >如果您的報表套裝未明確設定為接受時間戳記點擊，請勿使用此變數。對於不支援時間戳記點擊的報表套裝，AppMeasurement 會自動設定點擊時間。如果您將包含此變數的點擊傳送到不支援時間戳記的報表套裝，該資料會永久遺失。
+
+## 使用Web SDK的時間戳
+
+時間戳是 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.session.timestamp`。 此欄位僅支援Unix時間。
 
 ## 使用Adobe Analytics擴展的時間戳
 
