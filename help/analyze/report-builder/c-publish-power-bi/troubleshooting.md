@@ -4,10 +4,10 @@ title: 疑難排解 Power BI 的整合問題
 feature: Report Builder
 role: User, Admin
 exl-id: adb13a0e-99fb-48f5-add2-204d155e467f
-source-git-commit: b98fbf52ab9fefef9c19e82f440ca9f5a81f933f
+source-git-commit: a30564e9d8969457aaa8709c3aa3c17ba6d0a2d3
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 66%
+source-wordcount: '408'
+ht-degree: 90%
 
 ---
 
@@ -45,23 +45,4 @@ ht-degree: 66%
 
 ## 達到API限制
 
-在Power BI中報告可以與分析報告API配合使用，因此API閾值限制應用。 對於Analytics 2.0 API，無論報告套件或公司如何，限制限制都設定為每用戶每分鐘120次調用。 超過限制限制後，伺服器將返回HTTP 429狀態，其中包含以下消息內容：
-
-```
-too many requests
-{"error_code":"429050","message":"Too many requests"}
-```
-
-Adobe建議您 *堅持* 以下准則：
-
-* 發出多個較小的請求，而不是發出大的單個請求。
-* 請求一次資料並快取它。
-* 不要輪詢超過30分鐘間隔的新資料。
-* 定期提取歷史資料並增量，而不是請求整個資料集。
-
-Adobe建議您 *避免* 以下內容：
-
-* 在單個請求中請求盡可能多的資料
-* 每天按日粒度請求一年的資料，以獲得滾動的12個月窗口。 Adobe建議您請求新日的資料，並將其與前幾天的現有資料合併。
-* 通過每次載入網頁時發出API請求，驅動具有站點效能小部件的網頁
-* 從1.4遷移
+在Power BI中報告可以與分析報告API配合使用，因此API閾值限制應用。 有關詳細資訊，請參閱 [API調用的速率限制是多少？](https://developer.adobe.com/analytics-apis/docs/2.0/guides/faq/#what-is-the-rate-limit-for-api-calls)。
