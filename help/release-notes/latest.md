@@ -3,7 +3,7 @@ title: 最新 Analytics 版本注意事項
 description: 檢視目前的 Adobe Analytics 版本注意事項。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 29f152bf1724c566da69598f35929ee3b502b7f9
+source-git-commit: 95f05bbf620c140f3e17a070d95b21b62db58bcc
 workflow-type: tm+mt
 source-wordcount: '1077'
 ht-degree: 70%
@@ -33,7 +33,7 @@ ht-degree: 70%
 | **共用移動記分卡中的注釋** | 可以顯示在Workspace-Mobile Scorecard中建立的注釋。 這允許您直接在Mobile Scorecard項目中共用上下文資料細微差別和有關您的組織和市場活動的洞見，可在分析儀表板移動應用中查看。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
 | **支援具有邊緣集合的促銷變數的產品語法版本** | 現在，您可以通過設定相關的XDM欄位，使用產品語法的等效項來設定促銷變數。 查找有關促銷變數產品語法的詳細資訊 [這裡](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)。 請參閱產品語法的映射 [這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge)。 | 2022 年 6 月 15 日 |
 | **透過 Experience Edge 填入生命週期維度和量度** | 透過 Experience Edge 傳送的行動生命週期資料現在會出現在 Analytics 報告中。 有關XDM欄位與現有移動生命週期報告對應的詳細資訊，請參閱文檔。 [了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022 年 5 月 27 日 |
-| **分析處理規則中提供的移動服務處理規則** | Adobe移動服務終止日期為2022年12月31日。 由Adobe移動服務建立或生成的現有處理規則將自動遷移到Adobe Analytics處理規則，您可以在這些規則中編輯和管理它們。 它們可以管理，但在產品失效之前，不再在移動服務中編輯。 如有其他問題或需要更多支援，請和 Adobe 客戶服務聯絡。[了解更多](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
+| **分析處理規則中提供的移動服務處理規則** | Adobe移動服務終止日期為2022年12月31日。 由Adobe移動服務建立或生成的現有處理規則將自動遷移到Adobe Analytics處理規則，您可以在這些規則中編輯和管理它們。 可以查看，但在產品日落之前，無法在移動服務中編輯。 如有其他問題或需要更多支援，請和 Adobe 客戶服務聯絡。[了解更多](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
 | **新分類體驗 — 第1階段** | 這一新分類集用戶體驗的分階段發佈顯著提高了對客戶擁有的分類資料的可見性。 [一般可用性](/help/release-notes/releases.md) 估計於2023年初。 | 有限測試從2022年6月15日開始 |
 
 {style=&quot;table-layout:auto&quot;}
