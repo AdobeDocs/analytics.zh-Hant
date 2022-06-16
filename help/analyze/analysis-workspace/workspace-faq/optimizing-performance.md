@@ -4,9 +4,9 @@ title: Analysis Workspace 效能因素和最佳化措施
 feature: Workspace Basics
 role: User, Admin
 exl-id: 7a675f53-2774-4c7b-af1b-79e52e7d5cfb
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '2024'
+source-git-commit: 568000a7da84301f8a7c5a48a68a146e4af5f105
+workflow-type: tm+mt
+source-wordcount: '1956'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,6 @@ ht-degree: 100%
 | 視覺效果複雜度 (區段、量度、篩選條件) | 專案本身新增的視覺效果類型 (例如，流失率與自由表格對比) 對專案效能的影響不大。視覺效果的複雜度會增加處理時間。 | 增加視覺效果複雜度的因素包括：<ul><li>要求的資料範圍</li><li>套用的區段數；例如，用來作為自由表格列的區段</li><li>使用複雜區段</li><li>[自由表格的靜態項目列或欄](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.html?lang=zh-Hant)</li><li>自由表格列所套用的篩選器</li><li>包含的量度數目，尤其是使用了區段的計算量度</li></ul> | 如果您注意到您的專案載入速度不如預期，可以的話，試著將一些區段取代為 eVar 和篩選器。<br><br>如果您發現自己持續使用公司重要資料點的區段和計算量度，請考慮改良實作，用更直接的方式擷取這些資料點。使用 Adobe Experience Platform 中的標記及 Adobe 的處理規則時，可快速地進行實作變更並輕鬆地實作。 |
 | 報表套裝的大小 | 收集到報表套裝中的資料量。 | - | 洽詢您的實作團隊或 Adobe 專家，判斷是否有可行的實作改善項目能改善 Adobe Analytics 的整體使用體驗。 |
 | 同時查詢 | 貴組織同時間向 Adobe 要求的查詢數量。 每個組織同時間有權發出至少 5 個查詢。 | 如果報表所花的時間很長，通常是因為該報表與其他報表一起在佇列中。 這表示，貴組織針對特定報表套裝同時執行過多要求。 查詢可以來自 API 要求、報表 UI (Analysis Workspace、Reports &amp; Analytics、Report Builder 等)、已排程的專案、已排程的報表、已排程的警報以及同時發出報表要求的使用者。 | 在一天中更平均地分佈報表套裝的要求和排程。 此外，盡可能將您的要求轉移到非高峰時段。 星期一早上、星期二早上及每個月的第一天都是尖峰報告時間。 |
-| 資料中心容量 | 您和其他客戶在 Adobe 資料中心內共用的報告容量。 | 這會受到貴組織和其他組織在您的資料中心內同時發出的查詢數量所影響。 | 貴組織有權設定容量，而如果系統負載較輕，Adobe 會將更多容量轉移給您，這會超出您的權利限額。 |
 
 ## 在 Analysis Workspace 中提高生產力的秘訣
 
