@@ -1,13 +1,13 @@
 ---
 title: 分類集概述
 description: 使用分類集管理分類資料。
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
-
 
 # 分類集概述
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能當前處於有限版本中。 如果您想訪問此功能，請與Adobe客戶服務或客戶經理聯繫，他們可以將您的請求轉發到分類集團隊進行預配。
+>此功能當前處於有限版本中。 如果您想訪問此功能，請與Adobe客戶服務或客戶經理聯繫，他們可以將您的請求轉發到分類團隊進行預配。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類集]**
 

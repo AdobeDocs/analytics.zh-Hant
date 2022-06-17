@@ -1,13 +1,13 @@
 ---
 title: 分類集管理器
 description: 在Adobe Analytics管理分類集。
-source-git-commit: fae00c7ba48d9595628f68e63fd16e37a6a4c84a
+exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
+source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # 分類集管理器
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 * **[!UICONTROL 添加]**: [建立](create.md) a分類集。
 * **[!UICONTROL 按標題搜索]**:按名稱搜索分類集。
-* **[!UICONTROL 載入更多]**:分類集管理器最初最多顯示1000個分類集。 按一下此按鈕可載入1000個以上分類集。
+* **[!UICONTROL 載入更多]**:「分類集管理器」最初顯示多達1000個分類集。 按一下此按鈕可載入1000個以上分類集。
 * **顯示/隱藏列**:切換除列之外的任何列的可見性 [!UICONTROL 分類集]。
 
 按一下所需分類集旁邊的複選框，選擇一個或多個分類集。 選擇分類集可顯示以下選項：
