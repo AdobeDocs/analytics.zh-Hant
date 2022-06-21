@@ -2,9 +2,9 @@
 title: 分類集管理器
 description: 在Adobe Analytics管理分類集。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: a1f199525c567bc9d7bb614ee03980f582cbbc7a
+source-git-commit: 17bde9f5f00d1ddb54a2f9273b55f7e947fe4fef
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -31,9 +31,7 @@ ht-degree: 0%
 * **[!UICONTROL 訂閱]**:此分類集應用於的訂閱數或報告套件數。
 * **[!UICONTROL 所有者]**:分類集的所有者。
 * **[!UICONTROL 分類]**:分類集包含的分類維數。
-* **[!UICONTROL 自動化]**:指示分類集是否配置為自動從FTP站點提取資料。
 * **[!UICONTROL 上次修改時間]**:上次修改分類集的日期和時間。
-* **[!UICONTROL FTP主機+路徑]**:如果自動化，分類集從中提取資料的FTP位置。
 
 ## 建立或編輯選項
 

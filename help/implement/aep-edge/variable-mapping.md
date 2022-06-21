@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
 workflow-type: tm+mt
-source-wordcount: '1355'
-ht-degree: 96%
+source-wordcount: '1367'
+ht-degree: 95%
 
 ---
 
@@ -60,13 +60,13 @@ ht-degree: 96%
 | `environment.operatingSystem` | 行動維度[作業系統](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.operatingSystemVersion` | 行動維度[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.type` | 指示事件是否來自[穿戴式](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=zh-Hant)裝置。 有效值包括 `Application` (事件來自應用程式)、`Extension` (事件來自穿戴式應用程式) 或 `Widget` (事件來自行動 Widget)。 |
-| `_experience.analytics.customDimensions.eVars.eVar1` -<br/>`_experience.analytics.customDimensions.eVars.eVar250` | 設定各自 [eVar](../../components/dimensions/evar.md) 維。 |
-| `_experience.analytics.customDimensions.listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.listProps.prop75.delimiter` | 用於給定的分隔符 [清單屬性](../vars/page-vars/prop.md#list-props)。 |
-| `_experience.analytics.customDimensions.listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.listProps.prop75.values` | 包含相應的 [清單屬性](../vars/page-vars/prop.md#list-props) 值。 |
-| `_experience.analytics.customDimensions.lists.list1.list` -<br/>`_experience.analytics.customDimensions.lists.list3.list` | 設定各自 [清單變數](../vars/page-vars/list.md)。 |
-| `_experience.analytics.customDimensions.props.prop1` -<br/>`_experience.analytics.customDimensions.props.prop75` | 設定各自 [道](../../components/dimensions/prop.md) 維。 |
-| `_experience.analytics.event1to100.event1.id` -<br/>`_experience.analytics.event901to1000.event1000.value` | 應用 [事件序列化](../vars/page-vars/events/event-serialization.md) 到相應 [自定義事件](../../components/metrics/custom-events.md) 度量。 |
-| `_experience.analytics.event1to100.event1.value` -<br/>`_experience.analytics.event901to1000.event1000.value` | 增加相應的 [自定義事件](../../components/metrics/custom-events.md) 按所需數量計算。 |
+| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定各自 [eVar](../../components/dimensions/evar.md) 維。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 用於給定的分隔符 [清單屬性](../vars/page-vars/prop.md#list-props)。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 包含相應的 [清單屬性](../vars/page-vars/prop.md#list-props) 值。 |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | 設定各自 [清單變數](../vars/page-vars/list.md)。 |
+| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定各自 [道](../../components/dimensions/prop.md) 維。 |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 應用 [事件序列化](../vars/page-vars/events/event-serialization.md) 到相應 [自定義事件](../../components/metrics/custom-events.md) 度量。 |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 增加相應的 [自定義事件](../../components/metrics/custom-events.md) 按所需數量計算。 |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 |
 | `marketing.trackingCode` | 設定[追蹤程式碼](../../components/dimensions/tracking-code.md)維度。 |
 | `media.mediaTimed.completes.value` | Media Analytics 量度[內容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hant#content-complete)。 |
@@ -108,6 +108,8 @@ ht-degree: 96%
 | `placeContext.geo.longitude` | 行動維度 - 經度。 |
 | `placeContext.geo.postalCode` | [郵遞區號](../../components/dimensions/zip-code.md)維度。 |
 | `placeContext.geo.stateProvince` | [美國州別](../../components/dimensions/us-states.md)維度。 |
+| `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 應用 [產品語法](../vars/page-vars/products.md) 為Vars提供商品。 |
+| `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 應用 [產品語法](../vars/page-vars/products.md) 促銷活動。 |
 | `productListItems[].lineItemId` | [類別](../../components/dimensions/category.md)維度。 |
 | `productListItems[].name` | [產品](../../components/dimensions/product.md)維度。 |
 | `productListItems[].priceTotal` | 協助判斷[收入](../../components/metrics/revenue.md)量度。 |
