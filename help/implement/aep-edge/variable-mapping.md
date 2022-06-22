@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f92ad30f2a27f70b8478d55ab71f223cd1c82b24
+source-git-commit: 66724724788c406fff3abf30c711090accd2d632
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 95%
+source-wordcount: '1248'
+ht-degree: 89%
 
 ---
 
@@ -17,35 +17,27 @@ ht-degree: 95%
 | --- | --- |
 | `application.id` | 行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
 | `application.isClose` | 協助定義行動量度[損毀](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
-| `application.closeType` | 判斷某個關閉事件是否損毀。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束而沒有暫停事件)。 |
+| `application.closeType` | 判斷某個關閉事件是否損毀。 有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束而沒有暫停事件)。幫助設定 [崩潰](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics) 度量。 |
 | `application.isInstall` | 行動量度[安裝](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.isLaunch` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.name` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `application.launches.value` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.isUpgrade` | 行動量度[升級](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.version` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `application.sessionLength` | 行動量度[工作階段長度總計](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
+| `application.sessionLength` | 移動度量 [上一個會話長度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `commerce.checkouts.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[結帳](../../components/metrics/checkouts.md)量度。 |
 | `commerce.checkouts.value` | 讓[結帳](../../components/metrics/checkouts.md)量度遞增所需的金額。 |
 | `commerce.order.currencyCode` | 設定 [currencyCode](../vars/config-vars/currencycode.md) 設定變數。 |
 | `commerce.order.purchaseID` | 設定 [purchaseID](../vars/page-vars/purchaseid.md) 頁面變數。 |
-| `commerce.productListAdds.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車新增](../../components/metrics/cart-additions.md)量度。 |
-| `commerce.productListAdds.value` | 讓[購物車新增](../../components/metrics/cart-additions.md)量度遞增所需的金額。 |
-| `commerce.productListOpens.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車](../../components/metrics/carts.md)量度。 |
-| `commerce.productListOpens.value` | 讓[購物車](../../components/metrics/carts.md)量度遞增所需的金額。 |
-| `commerce.productListRemovals.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車移除](../../components/metrics/cart-removals.md)量度。 |
-| `commerce.productListRemovals.value` | 讓[購物車移除](../../components/metrics/cart-removals.md)量度遞增所需的金額。 |
-| `commerce.productListViews.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車檢視](../../components/metrics/cart-views.md)量度。 |
-| `commerce.productListViews.value` | 讓[購物車檢視](../../components/metrics/cart-views.md)量度遞增所需的金額。 |
-| `commerce.productViews.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[產品檢視](../../components/metrics/product-views.md)量度。 |
-| `commerce.productViews.value` | 讓[產品檢視](../../components/metrics/product-views.md)量度遞增所需的金額。 |
-| `commerce.purchases.value` | 讓[訂單](../../components/metrics/orders.md)量度遞增所需的金額。 |
-| `device.manufacturer` | 行動裝置製造商。 |
+| `commerce.productListAdds.value` | 將 [購物車添加](../../components/metrics/cart-additions.md) 度量。 |
+| `commerce.productListOpens.value` | 將 [購物車](../../components/metrics/carts.md) 度量。 |
+| `commerce.productListRemovals.value` | 將 [購物車刪除](../../components/metrics/cart-removals.md) 度量。 |
+| `commerce.productListViews.value` | 將 [購物車視圖](../../components/metrics/cart-views.md) 度量。 |
+| `commerce.productViews.value` | 將 [產品視圖](../../components/metrics/product-views.md) 度量。 |
+| `commerce.purchases.value` | 將 [訂單](../../components/metrics/orders.md) 度量。 |
 | `device.model` | 行動維度[裝置名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `device.modelNumber` | 行動裝置型號。 |
 | `device.colorDepth` | 協助設定[色彩深度](../../components/dimensions/color-depth.md)維度。 |
-| `device.screenHeight` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 確定您也有設定 XDM 欄位 `device.screenWidth`。 |
-| `device.screenWidth` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 確定您也有設定 XDM 欄位 `device.screenHeight`。 |
+| `device.screenHeight` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。  |
+| `device.screenWidth` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。  |
 | `device.type` | 行動裝置類型。 |
 | `environment.browserDetails.acceptLanguage` | 協助設定[語言](../../components/dimensions/language.md)維度。 |
 | `environment.browserDetails.cookiesEnabled` | 設定 [Cookie 支援](../../components/dimensions/cookie-support.md)維度。 有效值包括 `Y` (瀏覽器接受 Cookie) 和 `N` (瀏覽器拒絕 Cookie)。 |
@@ -57,9 +49,7 @@ ht-degree: 95%
 | `environment.connectionType` | 協助設定[連線類型](../../components/dimensions/connection-type.md)維度。 |
 | `environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。 通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
 | `environment.language` | 行動維度地區設定。 |
-| `environment.operatingSystem` | 行動維度[作業系統](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.operatingSystemVersion` | 行動維度[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `environment.type` | 指示事件是否來自[穿戴式](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/c-android-wearables--additional-notes.html?lang=zh-Hant)裝置。 有效值包括 `Application` (事件來自應用程式)、`Extension` (事件來自穿戴式應用程式) 或 `Widget` (事件來自行動 Widget)。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定各自 [eVar](../../components/dimensions/evar.md) 維。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 用於給定的分隔符 [清單屬性](../vars/page-vars/prop.md#list-props)。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 包含相應的 [清單屬性](../vars/page-vars/prop.md#list-props) 值。 |
@@ -110,10 +100,10 @@ ht-degree: 95%
 | `placeContext.geo.stateProvince` | [美國州別](../../components/dimensions/us-states.md)維度。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 應用 [產品語法](../vars/page-vars/products.md) 為Vars提供商品。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 應用 [產品語法](../vars/page-vars/products.md) 促銷活動。 |
-| `productListItems[].lineItemId` | [類別](../../components/dimensions/category.md)維度。 |
-| `productListItems[].name` | [產品](../../components/dimensions/product.md)維度。 |
-| `productListItems[].priceTotal` | 協助判斷[收入](../../components/metrics/revenue.md)量度。 |
-| `productListItems[].quantity` | 協助判斷[單位](../../components/metrics/units.md)量度。 |
+| `productListItems[].lineItemId` | [類別](../../components/dimensions/category.md)維度。另請參閱 [產品](../vars/page-vars/products.md) 頁面變數。 |
+| `productListItems[].name` | [產品](../../components/dimensions/product.md)維度。另請參閱 [產品](../vars/page-vars/products.md) 頁面變數。 |
+| `productListItems[].priceTotal` | 協助判斷[收入](../../components/metrics/revenue.md)量度。另請參閱 [產品](../vars/page-vars/products.md) 頁面變數。 |
+| `productListItems[].quantity` | 協助判斷[單位](../../components/metrics/units.md)量度。另請參閱 [產品](../vars/page-vars/products.md) 頁面變數。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 實作變數。 |
 | `web.webInteraction.name` | [自訂連結](../../components/dimensions/custom-link.md)、[下載連結](../../components/dimensions/download-link.md)或[退出連結](../../components/dimensions/exit-link.md)維度 (視 `web.webInteraction.type` 中的值而定) |
 | `web.webInteraction.type` | 判斷點擊的連結類型。 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。 |
@@ -127,6 +117,12 @@ ht-degree: 95%
 {style=&quot;table-layout:auto&quot;}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
+<!--| `commerce.productListAdds.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Additions](../../components/metrics/cart-additions.md) metric. |-->
+<!--| `commerce.productListOpens.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Carts](../../components/metrics/carts.md) metric. |-->
+<!--| `commerce.productListRemovals.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Removals](../../components/metrics/cart-removals.md) metric. |-->
+<!--| `commerce.productListViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Cart Views](../../components/metrics/cart-views.md) metric. |-->
+<!--| `commerce.productViews.id` | Applies [event serialization](../vars/page-vars/events/event-serialization.md) to the [Product Views](../../components/metrics/product-views.md) metric. |-->
+<!--| `environment.operatingSystem` | The mobile dimension [Operating System](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions). |-->
 
 ## 將其他 XDM 欄位對應到 Analytics 變數
 
