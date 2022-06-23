@@ -5,9 +5,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: cf7a9a73-bcbe-4bf5-b5dc-913199ab229c
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '545'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 | 問題 | 回答 |
 |--- |--- |
-| 使用 Analysis Workspace 的先決條件為何？ | [使用Adobe Analytics分機將資料發送到Adobe Analytics](/help/implement/launch/validate-publish-prod.md):使用Analysis Workspace需要一個有效的實施。 請確認貴組織有將資料傳送至 Adobe，再開始使用此工具。 其他實作方式 (例如舊版手動實作) 也可有效運用。 |
+| 使用 Analysis Workspace 的先決條件為何？ | [透過 Adobe Analytics 擴充功能將資料傳送至 Adobe Analytics](/help/implement/launch/validate-publish-prod.md)：使用 Analysis Workspace 需要運作中實作。請確認貴組織有將資料傳送至 Adobe，再開始使用此工具。 其他實作方式 (例如舊版手動實作) 也可有效運用。 |
 | Analysis Workspace 的管理和存取需求為何？ | 請參閱[管理需求](/help/analyze/analysis-workspace/workspace-faq/frequently-asked-questions-analysis-workspace.md)。 |
 | 使用 Analysis Workspace 是否會影響資料收集？ | Analysis Workspace 是報表工具，對於資料收集沒有影響。任意將元件拖曳到專案中查看何者有效，並不會造成任何不良影響。您可以將不同的維度與量度組合拖曳到 Workspace 專案中，了解哪一種組合適合自己。如果您意外將無效的元件拖曳到 Workspace 專案中，或者想要返回之前的步驟，請按下 ctrl+Z (Windows) 或 cmd+Z (Mac)，藉此還原上一次執行的動作。您也可以按一下左上方選單中的&#x200B;*[!UICONTROL 「專案] > [!UICONTROL 新專案」]*，以空白顯示窗開始操作。 |
 | Analysis Workspace 專案中可以顯示多少報表套裝？ | 現在，您可以在 Analysis Workspace 中以更豐富的[多個報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant)資料建立專案。 |
