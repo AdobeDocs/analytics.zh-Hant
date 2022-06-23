@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: '自訂收集的資料，以充份運用 Adobe Analytics。 '
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '401'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -140,7 +140,7 @@ ht-degree: 98%
       + [Mobile SDK 總覽](aep-edge/mobile-sdk/overview.md)
    + Edge API {#edge-api}
       + [Edge API 總覽](aep-edge/edge-api/overview.md)
-+ 使用Adobe Analytics擴展實施分析 {#launch}
++ 使用 Adobe Analytics 擴充功能實作 Analytics。{#launch}
    + [標記總覽](launch/overview.md)
    + [建立 Adobe Analytics 標記屬性](launch/create-analytics-property.md)
    + [部署至開發環境](launch/deploy-dev.md)
