@@ -4,9 +4,9 @@ description: 實作的相關常見問答，以及可提供更多資訊的連結�
 feature: Implementation Basics
 exl-id: 4bab6d51-0077-42ce-8091-f75207d4c4db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ AppMeasurement 會在 HTML 頁面內部建立影像物件，接著瀏覽器再�
 
 有時組織會因為合約到期，或是需減少伺服器呼叫數而想要移除實作。
 
-* **使用Adobe Experience Platform資料收集的實現**:禁用或卸載適用的Adobe Analytics、Web SDK或Mobile SDK擴展 [!UICONTROL 擴展] 按鈕。
+* **使用 Adobe Experience Platform Data Collection 進行實作**：在[!UICONTROL 擴充功能]索引標籤停用或是解除安裝適用的 Adobe Analytics、Web SDK 或 Mobile SDK 擴充功能，然後發佈。
 * **舊版 AppMeasurement 實作**：使用下列程式碼行取代 `s_code.js` 檔案的整個內容：
 
 ```js
