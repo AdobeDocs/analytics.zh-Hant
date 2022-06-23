@@ -5,7 +5,7 @@ exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: 66724724788c406fff3abf30c711090accd2d632
 workflow-type: tm+mt
 source-wordcount: '1248'
-ht-degree: 89%
+ht-degree: 93%
 
 ---
 
@@ -50,13 +50,13 @@ ht-degree: 89%
 | `environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。 通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
 | `environment.language` | 行動維度地區設定。 |
 | `environment.operatingSystemVersion` | 行動維度[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
-| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定各自 [eVar](../../components/dimensions/evar.md) 維。 |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 用於給定的分隔符 [清單屬性](../vars/page-vars/prop.md#list-props)。 |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 包含相應的 [清單屬性](../vars/page-vars/prop.md#list-props) 值。 |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | 設定各自 [清單變數](../vars/page-vars/list.md)。 |
-| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定各自 [道](../../components/dimensions/prop.md) 維。 |
-| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 應用 [事件序列化](../vars/page-vars/events/event-serialization.md) 到相應 [自定義事件](../../components/metrics/custom-events.md) 度量。 |
-| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 增加相應的 [自定義事件](../../components/metrics/custom-events.md) 按所需數量計算。 |
+| `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定個別 [eVar](../../components/dimensions/evar.md) 維度。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 分隔符號用於提供的[清單流量變數](../vars/page-vars/prop.md#list-props)。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 字串陣列含有個別[清單流量變數](../vars/page-vars/prop.md#list-props)值。 |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list` | 設定個別[清單變數](../vars/page-vars/list.md)。 |
+| `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](../../components/dimensions/prop.md)維度。 |
+| `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 套用[事件序列化](../vars/page-vars/events/event-serialization.md)至個別[自訂事件](../../components/metrics/custom-events.md)量度。 |
+| `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](../../components/metrics/custom-events.md)量度增加所需的數量。 |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。 |
 | `marketing.trackingCode` | 設定[追蹤程式碼](../../components/dimensions/tracking-code.md)維度。 |
 | `media.mediaTimed.completes.value` | Media Analytics 量度[內容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html?lang=zh-Hant#content-complete)。 |
