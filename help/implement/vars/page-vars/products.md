@@ -3,10 +3,10 @@ title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 77%
 
 產品 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在幾個XDM欄位下：
 
-* 類別映射到 `productListItems[].name`。
-* 產品映射到 `productListItems[]._id`。
+* 類別映射到 `productListItems[].lineItemId`。
+* 產品映射到 `productListItems[].name`。
 * 數量已映射到 `productListItems[].quantity`。
 * 價格映射到 `productListItems[].priceTotal`。
 * 促銷電子貨物被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具體取決於要綁定到產品的eVar。
