@@ -3,10 +3,10 @@ title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 3edb7208f4b11a2fa58a2f7c696444ab998a6bfe
+source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 78%
+source-wordcount: '600'
+ht-degree: 74%
 
 ---
 
@@ -28,6 +28,11 @@ ht-degree: 78%
 * 價格映射到 `productListItems[].priceTotal`。
 * 促銷電子貨物被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具體取決於要綁定到產品的eVar。
 * 促銷活動映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 至 `productListItems._experience.analytics.event901to1000.event1000.value`，具體取決於要綁定到產品的事件。
+
+>[!NOTE]
+>
+>`lineItemId` 需要將其添加為自定義欄位，因為它不是標準分析事件架構的一部分。 未來我們將添加一個專用的「類別」欄位。
+
 
 ## 使用Adobe Analytics分機的產品
 
