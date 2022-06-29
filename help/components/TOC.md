@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用區段、計算量度、虛擬報表套裝、警示、行銷管道、分類等元件，協助管理您的資料，以及了解 Cross-Device Analytics。
-source-git-commit: 2ef658933af7902d67dc14e52f7e610e02e18044
+source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -228,10 +228,10 @@ ht-degree: 97%
 + 分類 {#classifications}
    + [分類總覽](classifications/c-classifications.md)
    + 分類集 {#sets}
-      + [分類集概述](classifications/sets/overview.md)
+      + [「分類設定」概觀](classifications/sets/overview.md)
       + [分類集管理器](classifications/sets/set-manager.md)
-      + [分類集作業管理器](classifications/sets/job-manager.md)
-      + [建立分類集](classifications/sets/create.md)
+      + [分類設定作業管理員](classifications/sets/job-manager.md)
+      + [建立「分類設定」](classifications/sets/create.md)
       + [分類集設定](classifications/sets/settings.md)
    + 分類規則產生器 {#classifications-rulebuilder}
       + [分類規則產生器工作流程](classifications/crb/classification-rule-builder.md)

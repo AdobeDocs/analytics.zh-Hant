@@ -3,10 +3,10 @@ title: 遷移到Adobe Analytics的常見問題
 description: 取得從協力廠商平台移轉至 Adobe 時的常見問題解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 7dc97ad5225baf56c829efc8c21b07154bdd8ff9
+source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 96%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 如果貴組織堅持要將歷史資料移植到 Adobe，請聯絡貴組織的客戶經理。實作顧問可與貴組織合作，將 Google Analytics 資料匯出轉譯為 Adobe 資料收集伺服器可內嵌的資料來源。
 
-Adobe 不建議移植歷史資料，因為這是一個複雜的程序，而且對貴組織而言成本太高。訪客身分識別也不可能流暢移植至 Adobe，因為各平台上的訪客資訊會以不同的 Cookie 和不同格式儲存。
+對於移動歷史資料，我們建議使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 它可以引入任何全通道資料源。
 
 **因為經常在報表中看到分段下拉式清單，我已經習慣了。如何在 [!UICONTROL Analysis Workspace] 中加以重新建立？**
 
