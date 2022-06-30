@@ -7,7 +7,7 @@ exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
 workflow-type: tm+mt
 source-wordcount: '3420'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -25,9 +25,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2022 年 6 月** |  |
 | Experience Platform邊緣文檔 | 關於Adobe Analytics執行的新條款 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en)。 [移動SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en), [邊緣API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en)。 |
-| 更新的流可視化文檔 | 基於 [新建UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
-| 關於移動記分卡中共用注釋的文檔 | 可以顯示 [在工作區中建立的注釋 — 在移動記分卡中](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)。 |
-| 關於具有邊緣集合的促銷變數的產品語法版本的文檔 | 您現在可以設定相關 XDM 欄位，使用產品語法來設定銷售變數。關於銷售變數的產品語法，如需詳細資訊，請見[這裡](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)。請在[這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge)參閱產品語法對應。 |
+| 已更新的流量視覺化文件 | 根據[新的 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
+| 有關以行動計分卡共用註解的文件 | 您可以在行動計分卡上顯示[在工作區中建立的註解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)。 |
+| 有關 Edge 集合的銷售變數之產品語法版本的文件 | 您現在可以設定相關 XDM 欄位，使用產品語法來設定銷售變數。關於銷售變數的產品語法，如需詳細資訊，請見[這裡](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)。請在[這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en#aep-edge)參閱產品語法對應。 |
 | **2022 年 5 月** |  |
 | 透過 Experience Edge 填入生命週期維度和量度 | 透過 Experience Edge 傳送的行動生命週期資料現在會出現在 Analytics 報告中。 請參閱文件，了解哪些 XDM 欄位對應到現有的行動生命週期報告。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
 | **2022 年 4 月** |  |

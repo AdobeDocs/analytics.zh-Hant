@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c083c9d62d71dfd2d8a6360f24d8cc40f18f427d
 workflow-type: tm+mt
 source-wordcount: '1065'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -25,12 +25,12 @@ ht-degree: 86%
 
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
-| **新的流量視覺化 UI** | 為流量視覺化提供額外功能，讓功用更加強大。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 2022年6月15日開始推出；2022年6月27日或28日前正式提交 |
-| **在行動計分卡上分享註解** | 您可以在行動計分卡上顯示建立於工作區的註解。如此，您就可以直接在行動計分卡專案上分享組織和活動相關的資料細微差別和深入解析，此類專案可在 Analytics 儀表板行動應用程式中檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
-| **支援有 Edge 集合的銷售變數之產品語法版本** | 您現在可以設定相關 XDM 欄位，使用產品語法來設定銷售變數。請參閱 [產品變數](../implement/vars/page-vars/products.md) 的子菜單。 `products` 變數和 [Adobe Experience Edge中的分析變數映射](../implement/aep-edge/variable-mapping.md) 的子菜單。 | 2022 年 6 月 15 日 |
+| **新的流量視覺化 UI** | 為流量視覺化提供額外功能，讓功用更加強大。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) | 從 2022 年 6 月 15 日開始推出；GA 在 2022 年 6 月 27 或 28 日前完成 |
+| **在行動計分卡上共用註解** | 您可以在行動計分卡上顯示建立於工作區的註解。如此，您就可以直接在行動計分卡專案上分享組織和活動相關的資料細微差別和深入解析，此類專案可在 Analytics 儀表板行動應用程式中檢視。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html?lang=en) | 2022 年 6 月 15 日 |
+| **支援有 Edge 集合的銷售變數之產品語法版本** | 您現在可以設定相關 XDM 欄位，使用產品語法來設定銷售變數。查看[產品變數](../implement/vars/page-vars/products.md)，以取得更多包含`products`變數的資訊 Web SDK 語法，以及 [Adobe Experience Edge 中的 Analytics 變數對應](../implement/aep-edge/variable-mapping.md)，以取得可用變數的完整清單。 | 2022 年 6 月 15 日 |
 | **透過 Experience Edge 填入生命週期維度和量度** | 透過 Experience Edge 傳送的行動生命週期資料現在會出現在 Analytics 報告中。 請參閱文件，了解哪些 XDM 欄位對應到現有的行動生命週期報告。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) | 2022 年 5 月 27 日 |
-| **分析處理規則中提供的移動服務處理規則** | Adobe移動服務終止日期為2022年12月31日。 由Adobe移動服務建立或生成的現有處理規則將自動遷移到Adobe Analytics處理規則，您可以在這些規則中編輯和管理它們。 可以查看，但在產品日落之前，無法在移動服務中編輯。 如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
-| **分類集 — 第1階段** | 這一新的分類用戶體驗的分階段發佈顯著提高了對客戶擁有的分類資料的可見性。 請參閱 [分類集](../components/classifications/sets/overview.md) 的子菜單。 | 有限測試於2022年6月15日開始，2023年初正式提供 |
+| **Analytics 處理規則中可用的行動服務處理規則** | 此 Adobe 行動服務的生命週期結束日期為 2022 年 12 月 31 日。已由 Adobe 行動服務建立或產生的現存處理規則將自動遷移至 Adobe Analytics 處理規則，您可以在該處進行編輯和管理。它們可供檢視，但在產品被淘汰後才能在行動服務中供編輯。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
+| **分類設定 - 階段 1** | 這種分階段發布的新分類使用者體驗大幅改善客戶擁有的分類資料的可見度。如需詳細資訊，請參閱[分類設定](../components/classifications/sets/overview.md)。 | 有限測試將從 2022 年 6 月 15 日開始進行，預定在 2023 年初可供普遍使用。 |
 
 {style=&quot;table-layout:auto&quot;}
 
