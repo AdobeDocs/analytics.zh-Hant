@@ -3,7 +3,7 @@ title: 「分類設定」設定
 description: 建立或編輯「分類設定」。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
 source-git-commit: 3b0e2bbe531692f26ed118b1d2adc0b5ed28a9bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '594'
 ht-degree: 100%
 
