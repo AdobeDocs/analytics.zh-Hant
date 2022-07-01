@@ -32,7 +32,7 @@ ht-degree: 100%
 | **Analytics 處理規則中可用的行動服務處理規則** | 此 Adobe 行動服務的生命週期結束日期為 2022 年 12 月 31 日。已由 Adobe 行動服務建立或產生的現存處理規則將自動遷移至 Adobe Analytics 處理規則，您可以在該處進行編輯和管理。它們可供檢視，但在產品被淘汰後才能在行動服務中供編輯。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](https://experienceleague.adobe.com/docs/mobile-services/using/eol.html?lang=en) | 2022 年 6 月 15 日 |
 | **分類設定 - 階段 1** | 這種分階段發布的新分類使用者體驗大幅改善客戶擁有的分類資料的可見度。如需詳細資訊，請參閱[分類設定](../components/classifications/sets/overview.md)。 | 有限測試將從 2022 年 6 月 15 日開始進行，預定在 2023 年初可供普遍使用。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Adobe Analytics 中的修正
 
@@ -49,7 +49,7 @@ AN-251686；AN-283542；AN-286572；AN-286945；AN-286784；AN-286944；AN-28701
 | **2022 ISO 區域更新** | 2021 年 3 月 11 日 | Adobe 於 **2022 年 6 月 10 日**&#x200B;執行 2022 ISO 區域更新。預計此版本後將會有較小的地區資訊更新。 |
 | **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style="table-layout:auto"}
 
 ### AppMeasurement
 
