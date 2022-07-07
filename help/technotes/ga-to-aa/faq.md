@@ -1,16 +1,16 @@
 ---
-title: 遷移到Adobe Analytics的常見問題
-description: 取得從協力廠商平台移轉至 Adobe 時的常見問題解答。
+title: 遷移至 Adobe Analytics 的常見問題集
+description: 取得從協力廠商平台移動至 Adobe 時的常見問題解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
 source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '399'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
-# 遷移到Adobe Analytics的常見問題
+# 遷移至 Adobe Analytics 的常見問題集
 
 **如何將我的歷史資料從第三方平台移轉至 Adobe Analytics？**
 
@@ -18,9 +18,9 @@ ht-degree: 91%
 
 如果貴組織堅持要將歷史資料移植到 Adobe，請聯絡貴組織的客戶經理。實作顧問可與貴組織合作，將 Google Analytics 資料匯出轉譯為 Adobe 資料收集伺服器可內嵌的資料來源。
 
-對於移動歷史資料，我們建議使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 它可以引入任何全通道資料源。
+關於移動歷史資料，我們建議使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)，它可以帶入任何全頻道資料來源。
 
-**因為經常在報表中看到分段下拉式清單，我已經習慣了。如何在 [!UICONTROL Analysis Workspace] 中加以重新建立？**
+**我已經習慣經常在報表中看到分段下拉式清單。如何在 [!UICONTROL Analysis Workspace] 中加以重新建立？**
 
 下拉式篩選器是 [!UICONTROL Analysis Workspace] 中一項彈性且強大的功能，可支援細分下拉式清單。在工作區專案中：
 
