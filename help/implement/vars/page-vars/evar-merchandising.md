@@ -4,10 +4,10 @@ description: 繫結至個別產品的自訂變數。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
+source-git-commit: 9a94e910d4e837bb9808b5662beebe6214ed4174
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 75%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -80,7 +80,7 @@ XDM結構：
 生成的「products」參數傳入分析：
 
 ```js
-pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+pl = ”;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large”
 ```
 
 ## 使用轉換變數語法進行實施作業
@@ -107,6 +107,8 @@ s.products = ";Canary";
 
 可以使用映射到「分析」欄位的XDM欄位指定相同的資訊。 您可以看到從XDM到分析參數的所有映射的清單 [這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en)。 XDM鏡像上面的示例如下所示：
 
+在相同或以前的事件調用上設定eVar:
+
 ```js
                   "_experience": {
                       "analytics": {
@@ -116,7 +118,12 @@ s.products = ";Canary";
                               }
                           }
                       }
-                  },
+                  }
+```
+
+設定產品字串的綁定事件和值：
+
+```js
                   "commerce": {
                       "productViews" : {
                           "value" : 1
