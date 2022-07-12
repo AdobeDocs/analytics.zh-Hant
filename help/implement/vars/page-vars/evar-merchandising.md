@@ -3,10 +3,11 @@ title: eVar (銷售) 變數
 description: 繫結至個別產品的自訂變數。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+mini-toc-levels: 3
+source-git-commit: 2624a18896f99aadcfe0a04538ece21c370a28b9
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 75%
 
 ---
 
@@ -41,6 +42,47 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1` 的值會指派給產品。所有與此產品相關的後續成功事件都會計入 eVar 值中。
 
+### 將XDM用於邊緣集合
+
+「products」變數中的每個欄位都由相應的XDM欄位填充。 您可以看到從XDM到分析參數的所有映射的清單 [這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en)。 下面是一個示例，說明如何組合productListItems XDM欄位以建立product變數。
+
+XDM結構：
+
+```js
+              "productListItems": [
+                    {
+                        "name": "Bahama Shirt",
+                        "priceTotal": "12.99",
+                        "quantity": 3,
+                        "_experience": {
+                            "analytics": {
+                                "customDimensions" : {
+                                    "eVars" : {
+                                        "eVar10" : "green",
+                                        "eVar33" : "large"
+                                    }
+                                },
+                                "event1to100" : {
+                                    "event4" : {
+                                        "value" : 1
+                                    },
+                                    "event10" : {
+                                        "value" : 2,
+                                        "id" : "abcd"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+```
+
+生成的「products」參數傳入分析：
+
+```js
+pl = ;Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large
+```
+
 ## 使用轉換變數語法進行實施作業
 
 無法在 `products` 變數中設定 eVar 值時，可使用轉換變數語法。這種情況通常表示您的頁面沒有銷售管道或尋找方法的內容。在這種情況下，您可在到達產品頁面前先設定銷售變數，而值需持續到綑綁事件發生為止。
@@ -53,10 +95,36 @@ s.eVar1 = "Aviary";
 
 // Place on the page where the binding event occurs:
 s.events = "prodView";
-s.products = "Birds;Canary";
+s.products = ";Canary";
 ```
 
 `eVar1` 的值 `"Aviary"` 會指派給產品 `"Canary"`。所有與此產品相關的後續成功事件都會計入 `"Canary"` 中。此外，銷售變數的目前值繫結至所有後續產品，直到滿足下列條件之一：
 
 * eVar 過期 (根據「過期時間」設定)
 * 銷售 eVar 被新值覆寫。
+
+### 將XDM用於邊緣集合
+
+可以使用映射到「分析」欄位的XDM欄位指定相同的資訊。 您可以看到從XDM到分析參數的所有映射的清單 [這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=en)。 XDM鏡像上面的示例如下所示：
+
+```js
+                  "_experience": {
+                      "analytics": {
+                          "customDimensions": {
+                              "eVars": {
+                                  "eVar1" : "Aviary"
+                              }
+                          }
+                      }
+                  },
+                  "commerce": {
+                      "productViews" : {
+                          "value" : 1
+                      }
+                  },
+                  "productListItems": [
+                      {
+                          "name": "Canary"
+                      }
+                  ]
+```
