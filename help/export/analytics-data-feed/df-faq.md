@@ -4,10 +4,10 @@ keywords: 資料摘要, 工作, 前置欄, 後置欄, 區分大小寫
 title: 資料摘要常見問答
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
-source-git-commit: ef228e7d7ba41e934fe7a74db15ce112be2c13d8
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 98%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -97,4 +97,5 @@ AWS 也能讓用戶在屬於不同用戶帳戶的儲存貯體中建立物件。 
 
 >[!NOTE]
 >
->[!DNL Analytics] 無法判斷儲存貯體是否有原則來要求將新物件的完整控制權授與儲存貯體擁有者，即便儲存貯體擁有者的帳戶與撰寫資料的使用者不同。 而是在上傳每個摘要時，由 [!DNL Analytics] 自動將此儲存貯體擁有者新增到 BucketOwnerFullControl ACL。
+>Adobe Analytics不確定儲存桶是否具有要求儲存桶所有者完全控制新對象的策略，即使儲存桶所有者與寫入資料的用戶位於不同的帳戶中也是如此。 相反，分析會自動將儲存桶所有者添加到 `BucketOwnerFullControl` 每個源上載的ACL。
+

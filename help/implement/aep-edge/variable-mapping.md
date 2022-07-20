@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 5426587479fb3abee0fd5684fb7f3794ef1dd1b9
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 100%
+source-wordcount: '1342'
+ht-degree: 97%
 
 ---
 
@@ -15,14 +15,13 @@ ht-degree: 100%
 
 | XDM 欄位路徑 | Analytics 維度和說明 |
 | --- | --- |
-| `application.id` | 行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
 | `application.isClose` | 協助定義行動量度[損毀](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#metrics)。 |
 | `application.isInstall` | 協助判斷何時增加行動量度[首次啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.isLaunch` | 協助判斷何時增加行動量度[首次啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.closeType` | 判斷某個關閉事件是否損毀。有效值包括 `close` (生命週期工作階段結束，並收到上一個工作階段的暫停事件) 和 `unknown` (生命週期工作階段結束且沒有暫停事件)。協助設定[損毀](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)量度。 |
 | `application.isInstall` | 行動量度[安裝](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.isLaunch` | 行動量度[啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
-| `application.name` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
+| `application.name` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html?lang=zh-Hant#dimensions)。 |
 | `application.isUpgrade` | 行動量度[升級](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.version` | 協助設定行動維度[應用程式 ID](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `application.sessionLength` | 行動量度[前一個工作階段長度](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
@@ -128,7 +127,7 @@ ht-degree: 100%
 
 ## 將其他 XDM 欄位對應到 Analytics 變數
 
-如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。 所有 XDM 欄位元素都會當作前置詞為 `a.x` 的內容資料傳送到 Adobe Analytics。 您可以使用[處理規則](../../admin/admin/c-processing-rules/processing-rules.md)將此內容資料變數對應到所需的 Analytics 變數。 例如，如果您傳送以下事件︰
+如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。 未自動映射的任何XDM欄位元素都作為前置詞為a.x的上下文資料發送到Adobe Analytics。然後，可以使用 [處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hant)。 例如，如果您傳送以下事件︰
 
 ```js
 alloy("event",{

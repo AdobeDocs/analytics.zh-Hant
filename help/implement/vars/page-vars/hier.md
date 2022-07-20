@@ -3,20 +3,24 @@ title: hier
 description: 在 Adobe Analytics 中實施階層變數。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '185'
-ht-degree: 100%
+source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 93%
 
 ---
 
-# hier
+# 耶
 
 階層變數是可讓您查看網站結構的自訂變數。
 
 >[!TIP]
 >
 >此變數在舊版 Adobe Analytics 中較常見。Adobe 建議改用 [eVar](evar.md) 和分類。
+
+>[!IMPORTANT]
+>
+>使用XDM for Experience Edge的資料收集不支援層次結構。
 
 此變數對於擁有超過三層結構的網站很實用。例如，媒體網站的「運動」區段可以有 4 個層級：`Sports`、`Local Sports`、`Baseball` 和 `Team name`。若有人瀏覽了「棒球」頁面，則「運動」、「地方運動」和「棒球」等層級全都會反映該次瀏覽。
 
