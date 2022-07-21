@@ -4,10 +4,10 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 1c56c03a46d5a037faac109dcda536516fbd3532
+source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 100%
+source-wordcount: '3448'
+ht-degree: 99%
 
 ---
 
@@ -24,6 +24,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 日期 | 說明 |
 | --- | --- |
 | **2022 年 6 月** |  |
+| 邊緣集合XDM中的促銷變數 | 有關 [支援XDM中的商品銷售變數](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=en) |
 | Experience Platform Edge 文件 | 透過 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=en)、[Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=en) 和 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=en) 發表在 Adobe Analytics 實施上的新文章。 |
 | 已更新的流量視覺化文件 | 根據[新的 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=en) |
 | 有關以行動計分卡共用註解的文件 | 您可以在行動計分卡上顯示[在工作區中建立的註解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)。 |
