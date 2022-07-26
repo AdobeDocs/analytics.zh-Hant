@@ -3,10 +3,10 @@ title: list
 description: 在同一次點擊中容納多個值的自訂變數。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 85%
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 85%
 ## 在報表套裝設定中設定清單變數
 
 在實施中使用清單變數之前，請務必先在報表套裝設定中設定每個變數。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
-
-## 使用Web SDK列出變數
-
-清單變數為 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.customDimensions.lists.list1` 至 `_experience.analytics.customDimensions.lists.list3`。
 
 ## 使用Adobe Analytics副檔名列出變數
 
