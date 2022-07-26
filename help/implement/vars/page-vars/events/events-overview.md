@@ -3,7 +3,7 @@ title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: e4428d6a875e37bc4cbeee7c940545418ae82f94
+source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
 workflow-type: tm+mt
 source-wordcount: '788'
 ht-degree: 84%
@@ -22,9 +22,7 @@ ht-degree: 84%
 
 * 自定義事件1-100映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`。
 * 自定義事件101-200映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`。
-* 此模式每100個事件重複一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`。
-* `eventx.value` 值。
-* `eventx.id` 用於指定序列化的ID。
+* 此模式每100個事件重複一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`。 `eventx.value` 值。 `eventx.id` 用於指定序列化的ID。
 * 訂單映射到 `commerce.purchases.value`。
 * 單位映射到所有單位之和 `productListItems[].quantity` 的子菜單。
 * 收入映射到所有 `productListItems[].priceTotal` 的子菜單。
