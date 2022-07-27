@@ -3,10 +3,10 @@ title: getAndPersistValue
 description: 儲存值以便稍後隨時擷取。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 87%
+source-wordcount: '481'
+ht-degree: 89%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 87%
 
 `getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。它與 [!UICONTROL 儲存持續時間] 在Adobe Analytics擴展中的功能。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 如果 [!UICONTROL 儲存持續時間] 分析擴展中的功能已足夠。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
 
-## 使用Web SDK或Adobe Analytics擴展安裝插件
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-1. 按一下所需的標記屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
-1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
-1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
-   * 條件：無
-   * 事件：核心 - 已載入資料庫 (頁面頂端)
-1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常用 Analytics 外掛程式
-   * 動作類型：初始化 getAndPersistValue
-1. 儲存並發佈規則的變更。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize getAndPersistValue
+1. Save and publish the changes to the rule.-->
 
 ## 使用自訂程式碼編輯器安裝外掛程式
 

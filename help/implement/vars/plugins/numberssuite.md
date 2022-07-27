@@ -3,10 +3,10 @@ title: Numbers Suite
 description: 產生並操控數字以用於其他 JavaScript 變數。
 feature: Variables
 exl-id: 7af88dce-baf3-4581-b5b6-0d6e41922266
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 94%
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -22,21 +22,21 @@ Numbers Suite 提供一系列 JavaScript 函數。其中包含下列外掛程式
 * **`randomNumber`**：產生具有特定位數的隨機數。如果您部署協力廠商標記，而且想要防快取的隨機數，此外掛程式就相當實用。
 * **`twoDecimals`**：將數字捨入至最接近的百位數。此外掛程式適用於貨幣用途，可讓您將數字捨入至有效的貨幣值。
 
-## 使用Web SDK或Adobe Analytics擴展安裝插件
+<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
-Adobe 提供一個擴充功能，可讓您使用最常用的外掛程式。
+Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-1. 按一下所需的標記屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
-1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
-1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
-   * 條件：無
-   * 事件：核心 - 已載入資料庫 (頁面頂端)
-1. 使用下列設定將動作新增至上述規則：
-   * 擴充功能：常用 Analytics 外掛程式
-   * 動作類型：初始化 Numbers Suite
-1. 儲存並發佈規則的變更。
+1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
+1. Click the desired tag property.
+1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
+1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
+1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
+    * Condition: None
+    * Event: Core – Library Loaded (Page Top)
+1. Add an action to the above rule with the following configuration:
+    * Extension: Common Analytics Plugins
+    * Action Type: Initialize Numbers Suite
+1. Save and publish the changes to the rule.-->
 
 ## 使用自訂程式碼編輯器安裝外掛程式
 
