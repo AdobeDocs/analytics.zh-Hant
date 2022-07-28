@@ -6,13 +6,13 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
 workflow-type: tm+mt
 source-wordcount: '1087'
-ht-degree: 54%
+ht-degree: 56%
 
 ---
 
 # 本Adobe Analytics發行說明（2022年7月）
 
-**上次更新**:2022年7月13日
+**上次更新**：2022 年 7 月 13 日
 
 ## 相關資源
 
@@ -41,7 +41,7 @@ AN-280192;AN-281628;AN-287022;AN-287104;AN-287876;AN-288802;AN-288457;AN-288779;
 
 | 注意 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **系統生成的電子郵件的新域** | 2022 年 7 月 13 日 | 開 **2022年5月18日**,Adobe更改了發件人的域，以獲取來自Workspace項目、警報和超時警報的電子郵件， `noreply@omniture.com` 至 `noreply@adobe.com`。 如果您的組織僅允許特定發件人，請將此新電子郵件添加到允許清單。 |
+| **系統產生電子郵件的新網域** | 2022 年 7 月 13 日 | 開 **2022年5月18日**,Adobe更改了發件人的域，以獲取來自Workspace項目、警報和超時警報的電子郵件， `noreply@omniture.com` 至 `noreply@adobe.com`。 如果您的組織僅允許特定寄件者，則將此新電子郵件新增到您的允許清單中。 |
 | **更新到新的NetAcuity電信公司資料庫** | 2022 年 7 月 11 日 | **2022年10月起**，儲存在 `carrier` Adobe AnalyticsData Warehouse和分析資料源中的欄位將發生變化。 以往，該列中的資料格式 `<domain>:<ISP>`。 Adobe維護了內部查找表以映射這些 `<domain>:<ISP>` 將值轉換為運營商名稱以在Adobe Analytics報告工具(Analysis Workspace、報告和分析、報告API、資料倉庫、LiveStream等)中進行報告 查找檔案(carrier.tsv)還提供有資料饋送，以便資料饋送客戶可以使用相同的映射。<p>此更新通過使用NetAcuity中更準確的載波資料庫增強了我們的載波映射。 資料饋送中載波列中資料的格式將隨後更改。 而不是 `<domain>:<ISP>`，它將包含承運人名稱。 Adobe將繼續使用查找表，以盡可能保持與過去報告的連續性。 Adobe應用查找的報告工具(Analysis Workspace、報告和分析、報告API、資料倉庫、LiveStream等) 將從更精確的映射中獲益。 某些映射 — 特別是對於國際域和ISP — 在我們採用新資料庫時將比其他映射更改。 資料饋送載波查找檔案(carrier.tsv)將維護舊映射並添加新映射。<p>分析源連接器當前未映射承運人欄位，因此承運人報告當前在AEP、CJA等中不可用。 因此，使用新的運營商資料庫不會影響基於分析源連接器提供的資料的AEP中的任何內容。 |
 | **改進的IP到地理位置映射** | 2022 年 7 月 11 日 | 我們的IP查找供應商Digital Element正在升級到新的改進資料集(NetAcuity Pulse)，用於IP到地理位置映射。 Adobe Analytics將在 **2022年10月** 時間範圍。 新資料庫將比以前的版本更準確。 當採用新資料庫時，某些IP到地理的映射會發生變化/改進。<p>所有Adobe Analytics工具(Analysis Workspace、報告和分析、報告API、資料倉庫、LiveStream、資料源等) 將自動利用新的改進映射。 資料饋送中的資料格式不會更改。 通過分析源連接器提供的CJA資料也將自動利用新映射。 |
 | **暫停 Reports &amp; Analytics 中的排程報告** | 2022 年 6 月 8 日 | 在 2022 年 4 月 21 日，我們宣布淘汰排程報告的幾個特定功能，為先前宣布的 Reports &amp; Analytics 生命週期結束做準備。這些功能包括排程新報告，以及擷取新資料的能力。<p>因應客戶要求延長以及為了順利從 Reports and Analytics 進行轉換，我們決定將這些功能的存取權延長到 **2023 年 1 月 31 日**。請注意，報告和資料擷取的到期窗口限制仍為九個月；報告和資料擷取的傳遞將在此期間結束時暫停，除非重新啟用排程。<p>再次強調，這些功能將在 2023 年 1 月 31 日淘汰。在此日期之前，您必須將排程報告遷移至 Adobe Analytics 中任何您可以使用的其他機制之一。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
