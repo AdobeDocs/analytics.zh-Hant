@@ -5,9 +5,9 @@ title: 資料摘要常見問答
 feature: Data Feeds
 exl-id: 1bbf62d5-1c6e-4087-9ed9-8f760cad5420
 source-git-commit: a71db2fac9333b70a55da91fe9a94b0cc8434b42
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1437'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 94%
 
 ## 摘要名稱必須是唯一的嗎？{#unique}
 
-資料摘要檔案名稱由報表套裝 ID 和日期所組成。任兩個針對相同 RSID 和日期所設定的摘要會擁有相同的檔案名稱。 如果將這些摘要提交到相同位置，其中一個檔案會覆寫另一個檔案。 若要避免檔案覆寫，建立的摘要不能有覆寫同一位置中現有摘要的可能。
+資料摘要檔案名稱由報表套裝 ID 和日期所組成。任兩個針對相同 RSID 和日期所設定的摘要會擁有相同的檔案名稱。 如果將這些摘要提交到相同位置，其中一個檔案會覆寫另一個檔案。 若要避免檔案覆寫，您建立的摘要不能有覆寫相同位置中的現有摘要的可能性。
 
-嘗試建立源時，如果存在具有相同檔案名的源，則會生成錯誤消息。 請考慮以下變通辦法：
+當具有相同檔案名稱的另一個摘要存在時，嘗試建立摘要會產生錯誤訊息。 請考量下列暫行解決方法：
 
 * 變更提交路徑
 * 變更日期 (可能的話)
@@ -43,7 +43,7 @@ ht-degree: 94%
 
 ## 是否會將 Admin Console 機器人規則篩選的機器人加入資料摘要中？ {#bots}
 
-資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html?lang=zh-Hant)篩選的機器人。
+資料摘要不會加入 [Admin Console 機器人規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/bot-removal/bot-removal.html)篩選的機器人。
 
 ## 我為什麼在 `event_list` 或 `post_event_list` 資料摘要欄內看到多個 `000` 值？ {#values}
 
@@ -97,5 +97,5 @@ AWS 也能讓用戶在屬於不同用戶帳戶的儲存貯體中建立物件。 
 
 >[!NOTE]
 >
->Adobe Analytics不確定儲存桶是否具有要求儲存桶所有者完全控制新對象的策略，即使儲存桶所有者與寫入資料的用戶位於不同的帳戶中也是如此。 相反，分析會自動將儲存桶所有者添加到 `BucketOwnerFullControl` 每個源上載的ACL。
+>Adobe Analytics 無法判斷貯體是否有原則來要求將新物件的完整控制權授與貯體擁有者，即便貯體擁有者的帳戶與撰寫資料的使用者不同。 而是 Analytics 會在上傳每個摘要時，自動將此貯體擁有者新增到 `BucketOwnerFullControl` ACL。
 
