@@ -3,10 +3,10 @@ description: 讓您輕鬆直觀地看到Analysis Workspace的比較資料，如�
 title: 組合圖可視化
 feature: Visualizations
 role: User, Admin
-source-git-commit: e2cd08ae4109e037f8b54edf21239fa6fa659896
+source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 30%
+source-wordcount: '763'
+ht-degree: 31%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 30%
 記住，你可以
 
 * 在單個中添加多個比較 [!UICONTROL 組合圖]。
-* 如果添加一個或多個比較，則它們必須是同一類型，如「時間段」。
+* 如果添加一個或多個比較，則它們必須是相同類型，例如 [!UICONTROL 時間比較]。
 * 最多可加5個比較。
-* 可以將篩選器應用於度量。
+* 最多可將3個篩選器（段）應用到度量。
 
 ## 生成組合圖
 
@@ -46,9 +46,9 @@ ht-degree: 30%
 
    | 行比較類型 | 定義 |
    | --- | --- |
-   | 時段 | 最常見的比較類型 — 例如，將此時段與4週前進行比較。 如果選擇了「時段」，則對要比較的時段進行輔助選擇。<p>![](assets/combo-time-period.png) |
-   | 其他量度 | 比如，你可以 [!UICONTROL 收入] 到另一個指標。<p>![](assets/combo-2metrics.png) |
-   | 函數 | 你可以引入一個 [!UICONTROL 平均] 比較。 請參見下面支援的函式清單。<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL 時間比較]** | 最常見的比較類型 — 例如，將此時段與4週前進行比較。 如果已選擇 [!UICONTROL 時間比較]，對要比較的時段進行輔助選擇。<p>![](assets/combo-time-period.png) |
+   | **[!UICONTROL 其他量度]** | 比如，你可以 [!UICONTROL 收入] 到另一個指標。<p>![](assets/combo-2metrics.png) |
+   | **[!UICONTROL 函數]** | 你可以引入一個 [!UICONTROL 平均] 比較。 請參見下面支援的函式清單。<p>![](assets/combo-functions.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -66,11 +66,13 @@ ht-degree: 30%
 
 | 函數 | 定義 |
 | --- | --- |
-| **[!UICONTROL 累計平均]** | 傳回最後 N 列的平均值。 |
-| **[!UICONTROL 總計]** | 在列內（跨維的元素）添加度量的所有數值 |
-| **[!UICONTROL 指數]** | 傳回給定數字的 *e* 乘冪。 |
+| **[!UICONTROL 欄總和]** | 在列內（跨維的元素）添加度量的所有數值 |
+| **[!UICONTROL 累積平均值]** | 傳回最後 N 列的平均值。 |
+| **[!UICONTROL 中位數]** | 傳回一欄中量度的中位數。中位數是位於一組數字中間的數字，也就是一半數字的值大於或等於中位數，另一半數字的值小於或等於中位數。 |
+| **[!UICONTROL 累積]** | N行的累計和。 |
+| **[!UICONTROL 欄最大值]** | 傳回量度欄中一組維度元素的最大值。 |
 | **[!UICONTROL 平均值]** | 返回度量的算術平均值或平均值。 |
-| **[!UICONTROL 四分之一]** | 傳回量度值的四分位數。例如，四分位數可用來尋找推動最高收入的前 25% 產品。 |
+| **[!UICONTROL 欄最小值]** | 傳回量度欄中一組維度元素的最小值。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
 
@@ -90,13 +92,15 @@ ht-degree: 30%
 
 | 設定 | 定義 |
 | --- | --- |
+| **[!UICONTROL 可視化類型]** | 允許您切換到其他可視化類型。 |
+| **[!UICONTROL 詳細程度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的詳細程度 (日、週、月等)。 |
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 可見圖例]** | 用於隱藏組合圖可視化的詳細圖例文本。 |
-| **[!UICONTROL 詳細程度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的詳細程度 (日、週、月等)。 |
+| **[!UICONTROL 限制最大項]** | 減少X軸上的項數。 如果您有大資料集，則只能顯示前10個項（或您選擇的任何值）。 |
 | **[!UICONTROL 覆蓋]** | 線上上顯示或隱藏槓鈴。 |
 | **[!UICONTROL 軸]** |  |
-| **[!UICONTROL 顯示雙軸]** | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。 |
+| **[!UICONTROL 顯示雙軸]** | 僅適用於具有兩個量度時 - 可在左側 (針對一個量度) 和右側 (針對另一個量度) 各顯示一個 Y 軸。當繪製的量度大小非常不同時，這項功能會很有用。雙軸顏色與表的顏色匹配，除非有多個比較。 在這種情況下，所有比較的顏色都是灰色。 |
 | **[!UICONTROL 標準化]** | 強制量度為相同比例。當繪製的量度大小非常不同時，這項功能會很有用。 |
 | **[!UICONTROL 顯示X軸]** | 顯示或隱藏x軸。 |
 | **[!UICONTROL 顯示Y軸]** | 顯示Y軸或隱藏它。 |
