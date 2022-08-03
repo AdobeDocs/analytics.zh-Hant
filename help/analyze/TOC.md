@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: Analytics 的首要分析和視覺化工具 Analysis Workspace，以及 Adobe Analytics 儀表板、Report Builder 和 Activity Map 之類工具的做法說明。
-source-git-commit: eb45e267835fcf91010dd87deb13707082dbf736
+source-git-commit: 04a314e93a77ecf5687e771e143bf68ba911b32b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1053'
 ht-degree: 100%
 
 ---
@@ -73,20 +73,21 @@ ht-degree: 100%
          + [流量總覽](analysis-workspace/visualizations/c-flow/flow.md)
          + [設定流量視覺效果](analysis-workspace/visualizations/c-flow/create-flow.md)
          + [維度間流量](analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)
-      + [長條圖](analysis-workspace/visualizations/histogram.md)
-      + [關鍵量度摘要](analysis-workspace/visualizations/key-metric.md)
-      + [地圖](analysis-workspace/visualizations/map-visualization.md)
-      + [文氏](analysis-workspace/visualizations/venn.md)
       + [區域圖和堆疊區域圖](analysis-workspace/visualizations/area.md)
       + [長條圖和堆疊長條圖](analysis-workspace/visualizations/bar.md)
       + [項目符號圖表](analysis-workspace/visualizations/bullet-graph.md)
+      + [組合圖表](analysis-workspace/visualizations/combo-charts.md)
       + [環形圖](analysis-workspace/visualizations/donut.md)
+      + [長條圖](analysis-workspace/visualizations/histogram.md)
       + [橫條圖和堆疊橫條圖](analysis-workspace/visualizations/horizontal-bar.md)
-      + [線圖](analysis-workspace/visualizations/line.md)
+      + [關鍵量度摘要](analysis-workspace/visualizations/key-metric.md)
+      + [折線圖](analysis-workspace/visualizations/line.md)
+      + [地圖](analysis-workspace/visualizations/map-visualization.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
       + [Text](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
+      + [文氏圖表](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
       + [面板總覽](analysis-workspace/c-panels/panels.md)
       + [Analytics for Target (A4T) 面板](analysis-workspace/c-panels/a4t-panel.md)
