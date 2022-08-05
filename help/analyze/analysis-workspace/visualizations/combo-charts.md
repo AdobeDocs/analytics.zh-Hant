@@ -3,13 +3,13 @@ description: 讓您輕鬆直觀地看到Analysis Workspace的比較資料，如�
 title: 組合圖可視化
 feature: Visualizations
 role: User, Admin
-source-git-commit: 4cc3a34eab5d29cb62244978c848d303d4754409
+exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
+source-git-commit: 46a3fc5170f4b445cf3cafd2c4cc01a40d522bd3
 workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 31%
 
 ---
-
 
 # 組合圖表
 
@@ -47,8 +47,8 @@ ht-degree: 31%
    | 行比較類型 | 定義 |
    | --- | --- |
    | **[!UICONTROL 時間比較]** | 最常見的比較類型 — 例如，將此時段與4週前進行比較。 如果已選擇 [!UICONTROL 時間比較]，對要比較的時段進行輔助選擇。<p>![](assets/combo-time-period.png) |
-   | **[!UICONTROL 其他量度]** | 比如，你可以 [!UICONTROL 收入] 到另一個指標。<p>![](assets/combo-2metrics.png) |
    | **[!UICONTROL 函數]** | 你可以引入一個 [!UICONTROL 平均] 比較。 請參見下面支援的函式清單。<p>![](assets/combo-functions.png) |
+   | **[!UICONTROL 次要量度]** | 比如，你可以 [!UICONTROL 收入] 到另一個指標。<p>![](assets/combo-2metrics.png) |
 
    {style=&quot;table-layout:auto&quot;}
 
@@ -107,5 +107,3 @@ ht-degree: 31%
 | **[!UICONTROL 錨點Y軸為零]** | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 
 {style=&quot;table-layout:auto&quot;&quot;
-
-
