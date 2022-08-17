@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3448'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 8 月 5 日 | 已更新有關[範本](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html?lang=zh-Hant)、[瀏覽器匯入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=zh-Hant)和[瀏覽器匯出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html?lang=zh-Hant)的分類文件，以指示哪些選項不適用於已啟用「新分類架構」的報表套裝。 |
 | 2021 年 8 月 2 日 | 已更新多個頁面，以反映 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant) 的品牌重塑 |
 | **2021 年 7 月** |  |
-| 2021 年 7 月 23 日 | 有關[銷售 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=en) 的全新深入探討 |
+| 2021 年 7 月 23 日 | 有關[銷售 eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant) 的全新深入探討 |
 | 2021 年 7 月 15 日 | 已新增有關新 [Adobe Analytics 登陸頁面](/help/analyze/landing.md)的文件 |
 | **2021 年 6 月** |  |
 | 2021 年 6 月 15 日 | 已更新[行銷通路最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
