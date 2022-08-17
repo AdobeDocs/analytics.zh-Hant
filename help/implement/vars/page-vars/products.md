@@ -3,9 +3,9 @@ title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: f0e69d68dd6a5413a050e00f5dca1c820ecee389
+source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 74%
 
 ---
@@ -31,8 +31,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->`lineItemId` 需要將其添加為自定義欄位，因為它不是標準分析事件架構的一部分。 未來我們將添加一個專用的「類別」欄位。
-
+>`lineItemId` 需要將其添加為自定義欄位，因為它尚不是標準分析事件架構的一部分。 Adobe計畫將來添加一個專用的「類別」欄位。
 
 ## 使用Adobe Analytics分機的產品
 
