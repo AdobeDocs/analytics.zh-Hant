@@ -3,10 +3,10 @@ title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '948'
-ht-degree: 100%
+source-git-commit: 60335be9a60b467969f5e1796ce465a7d453951f
+workflow-type: tm+mt
+source-wordcount: '1518'
+ht-degree: 56%
 
 ---
 
@@ -26,27 +26,69 @@ ht-degree: 100%
 * **開始和結束日期**: 開始日期指的是您想要取得資料摘要的初始日期。將此日期設為過去，系統就會立即開始處理歷史資料的資料摘要。摘要會一直處理到結束日期為止。 開始和結束日期取決於報表套裝的時區。
 * **持續摘要**: 這個核取方塊會移除結束日期，使摘要無限期進行處理。當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。一旦當前的小時或當天結束，處理程序就會在指定的延遲後開始。
 
-## 目的地欄位
+## 目標欄位
 
 目的地欄位下可用的欄位取決於目的地類型。
 
-### FTP
+### Google雲平台
 
-資料摘要資料可以傳送至 Adobe 或客戶託管的 FTP 位置。FTP 主機、使用者名稱和密碼為必填。請使用路徑欄位將摘要檔案置入檔案夾。資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
+將GCP儲存桶作為安全目標訪問
 
-![FTP 資訊](assets/dest-ftp.jpg)
+**欄位**
+* *類型：* Google雲平台的目標類型
+* *項目ID:* 儲存桶所在的GCP項目ID
+* *儲存桶名稱：* 不帶點的桶名稱限制為3-63個字元。 包含點的名稱最多可包含222個字元，但每個點分隔的元件不能超過63個字元。
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
 
-### SFTP
+![GCP資訊](assets/dest-gcp.png)
 
-SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地站點，才能包含有效的 RSA 或 DSA 公開金鑰。建立摘要時，您可以下載相關的公開金鑰。
+**服務帳戶建立過程**
 
-![SFTP 資訊](assets/dest-sftp.jpg)
+用戶需要為已選擇的Google雲平台目標建立服務帳戶。
 
-### S3
+每個分析組織只允許一個GCP服務帳戶。 為資料源建立服務帳戶後，組織中的所有其他資料源都將預先填充服務帳戶。
 
-您可以直接傳送摘要至 Amazon S3 貯體。此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+![GCP服務帳戶資訊](assets/service-account.png)
 
-![S3 資訊](assets/dest-s3.jpg)
+
+### Amazon S3
+
+AmazonS3儲存桶儲存通過受信任實體中的IAM角色訪問。
+
+**欄位**
+
+* *類型：* AmazonS3的目標類型
+* *儲存段：* S3儲存段名稱
+* *受信任實體ARN:* AWSIAM實體ARN `arn:aws:iam::<12 digit account number>:user/<username>`
+* *角色ARN:* AWSIAM角色ARN `arn:aws:iam::<12 digit account number>:role/<role name>`
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+* *指定區域（可選）:* 下拉所有可用AWS區域，包括CN區域
+
+![AmazonS3資訊](assets/dest-s3-secure.png)
+
+
+**建立和選擇受信任實體**
+
+用戶可以從下拉清單中列出的任何選項中選擇受信任實體，或者通過按一下 `Create Entity` 按鈕
+
+按一下 `Create Entity` 按鈕，用戶將被重定向到驗證進程。 用戶驗證後，將建立受信任實體並將其添加到下拉清單中的選項。
+
+下拉清單列出了此用戶在組織中建立的所有受信任實體。
+
+![實體資訊](assets/entity-creation.png)
+
+您可以通過舊式方法將源直接發送到AmazonS3儲存桶。 如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+
+**欄位 — 已棄用**
+
+* *類型：* 不建議使用的S3方法的目標類型
+* *儲存段：* AmazonS3儲存段名稱
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+* *訪問密鑰：* 訪問AWS用戶的密鑰ID
+* *密鑰：* AWS用戶的密鑰
+* *確認密鑰：* 重新輸入AWS用戶的密鑰
+
+![S3 資訊](assets/dest-s3-dpr.png)
 
 您提供來上傳資料摘要的使用者必須具備以下[權限](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
 
@@ -54,12 +96,9 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 * s3:PutObject
 * s3:PutObjectAcl
 
-   >[!NOTE]
-   >
-   >對於要上傳到 Amazon S3 貯體的每一項作業，[!DNL Analytics] 都會新增貯體所有者到 BucketOwnerFullControl ACL，無論該貯體是否有需要它的原則。 如需詳細資訊，請參閱「[什麼是 Amazon S3 資料摘要適用的 BucketOwnerFullControl 設定？](df-faq.md#BucketOwnerFullControl)」
+對於要上傳到 Amazon S3 貯體的每一項作業，[!DNL Analytics] 都會新增貯體所有者到 BucketOwnerFullControl ACL，無論該貯體是否有需要它的原則。 如需詳細資訊，請參閱「[什麼是 Amazon S3 資料摘要適用的 BucketOwnerFullControl 設定？](df-faq.md#BucketOwnerFullControl)」
 
-下列 16 個標準 AWS 區域有受到支援 (必要時會使用適當的簽章演算法)：
-
+**支援的AWS地區**:
 * us-east-2
 * us-east-1
 * us-west-1
@@ -76,20 +115,77 @@ SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地
 * eu-west-3
 * eu-north-1
 * sa-east-1
+* cn-north-1
+* cn — 西北–1
 
->[!NOTE]
->
->不支援 cn-north-1 區域。
 
 ### Azure Blob
 
-資料摘要支援 Azure Blob 目的地。容器、帳戶和金鑰為必填。Amazon 會自動加密閒置的資料。下載資料時，則會自動解密。如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+使用基於角色的訪問控制(RBAC)或共用訪問簽名(SAS)的Azure Blob安全目標。 選擇訪問控制後，將更新面板的內容以反映相應的欄位。
 
-![Azure 資訊](assets/azure.png)
+**欄位 — RBAC**
+* *類型：* Azure Blob的目標類型
+* *訪問控制：* 使用RBAC或SAS的選項
+* *Active Directory租戶ID:* Azure帳戶的組織ID
+* *應用程式ID:* Active Directory適配器的應用程式ID
+* *客戶端密碼：* Azure客戶端密碼
+* *儲存帳戶名：* 包含資料對象的帳戶名稱
+* *容器名稱：* 屬於給定儲存帳戶的容器。
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+
+![Azure RBAC資訊](assets/dest-azure-rbac.png)
+
+**欄位 — SAS**
+* *類型：* Azure Blob的目標類型
+* *訪問控制：* 使用RBAC或SAS的選項
+* *Active Directory租戶ID:* Azure Active Directory實例的ID
+* *應用程式ID:* Active Directory適配器的應用程式ID
+* *客戶端密碼：* Azure客戶端密碼
+* *密鑰保管庫URI:* Azure密鑰保管庫的位置
+* *密鑰保管庫密鑰名稱：* 訪問安全密鑰保管庫的密鑰名稱
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+
+![Azure SAS資訊](assets/dest-azure-sas.png)
+
+**欄位 — 已棄用**
+* *類型：* Azure Blob的目標類型
+* *容器：* Azure容器的名稱
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+* *帳戶：* Azure帳戶密碼
+* *密鑰保管庫URI:* Azure密鑰保管庫的位置
+* *密鑰保管庫密鑰名稱：* 訪問安全密鑰保管庫的密鑰名稱
+
+您必須實作自己的處理程序，才能管理摘要目的地的磁碟空間。Adobe 不會從伺服器刪除任何資料。如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+
+![Azure已棄用資訊](assets/dest-azure-dpr.png)
 
 >[!NOTE]
 >
 >您必須實作自己的處理程序，才能管理摘要目的地的磁碟空間。Adobe 不會從伺服器刪除任何資料。
+
+### FTP — 不建議使用
+
+**欄位**
+* *類型：* FTP的目標類型
+* *主機：* 訪問主機的終結點
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+* *用戶名：* 主機用戶名
+* *密碼：* 主機密碼
+* *確認密碼：* 重新輸入並驗證主機的密碼
+
+![FTP 資訊](assets/dest-ftp-dpr.png)
+
+### SFTP - 已過時
+
+SFTP 可支援資料摘要。必須填入 SFTP 主機、使用者名和目的地站點，才能包含有效的 RSA 或 DSA 公開金鑰。建立摘要時，您可以下載相關的公開金鑰。
+
+**欄位**
+* *類型：* SFTP的目標類型
+* *主機：* 訪問主機的終結點
+* *路徑（可選）:* &amp; *將報表套件ID追加到路徑：* 要檢索或儲存的資源的位置
+* *RSA公鑰：* 或 *DSA公鑰：* 訪問主機的公鑰
+
+![SFTP 資訊](assets/dest-sftp-dpr.png)
 
 ## 資料欄定義
 
