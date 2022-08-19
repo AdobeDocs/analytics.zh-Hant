@@ -3,16 +3,16 @@ title: US DMA
 description: 點擊的指定市場區域。
 feature: Dimensions
 exl-id: 156d5755-2e93-4240-bde3-1d537422b7bf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '267'
-ht-degree: 100%
+source-git-commit: 89e8c9ac085d020db954790331103846c9dbc7a1
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# US DMA
+# 美國DMA
 
-「美國 DMA」維度會報告訪客的指定市場區域 (DMA)。此維度以 [Nielsen](https://www.nielsen.com/us/en/intl-campaigns/dma-maps/) 彙編的媒體市場為基礎。
+「美國 DMA」維度會報告訪客的指定市場區域 (DMA)。此維度以 [Nielsen](https://markets.nielsen.com/us/en/contact-us/intl-campaigns/dma-maps/) 彙編的媒體市場為基礎。
 
 ## 將資料填入此維度中
 
