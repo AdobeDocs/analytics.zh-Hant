@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
-workflow-type: ht
-source-wordcount: '1349'
-ht-degree: 100%
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+workflow-type: tm+mt
+source-wordcount: '1381'
+ht-degree: 97%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定個別 [eVar](../../components/dimensions/evar.md) 維度。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 分隔符號用於提供的[清單流量變數](../vars/page-vars/prop.md#list-props)。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 字串陣列含有個別[清單流量變數](../vars/page-vars/prop.md#list-props)值。 |
-| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 將每個各別的 `list[]` 陣列中的所有 `value` 字串都串連到其各別的[清單變數](../vars/page-vars/list.md)。 |
+| `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 全部連接 `value` 每個相應的字串 `list[]` 陣列 [清單變數](../vars/page-vars/list.md) 使用逗號分隔符。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](../../components/dimensions/prop.md)維度。 |
 | `_experience.analytics.event1to100.`<br/>`event1.id` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 套用[事件序列化](../vars/page-vars/events/event-serialization.md)至個別[自訂事件](../../components/metrics/custom-events.md)量度。 |
 | `_experience.analytics.event1to100.`<br/>`event1.value` -<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](../../components/metrics/custom-events.md)量度增加所需的數量。 |
@@ -108,9 +108,10 @@ ht-degree: 100%
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 將[產品語法](../vars/page-vars/products.md)銷售套用至 eVars。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 將[產品語法](../vars/page-vars/products.md)銷售套用至事件。 |
 | `productListItems[].lineItemId` | [類別](../../components/dimensions/category.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
-| `productListItems[].name` | [產品](../../components/dimensions/product.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
+| `productListItems[].name` | [產品](../../components/dimensions/product.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。如果 `productListItems[].SKU` 和 `productListItems[].name` 都包含資料，中的值 `productListItems[].SKU` 的子菜單。 |
 | `productListItems[].priceTotal` | 協助判斷[收入](../../components/metrics/revenue.md)量度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
 | `productListItems[].quantity` | 協助判斷[單位](../../components/metrics/units.md)量度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
+| `productListItems[].SKU` | [產品](../../components/dimensions/product.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。如果 `productListItems[].SKU` 和 `productListItems[].name` 都包含資料，中的值 `productListItems[].SKU` 的子菜單。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 實作變數。 |
 | `web.webInteraction.name` | [自訂連結](../../components/dimensions/custom-link.md)、[下載連結](../../components/dimensions/download-link.md)或[退出連結](../../components/dimensions/exit-link.md)維度 (視 `web.webInteraction.type` 中的值而定) |
 | `web.webInteraction.type` | 判斷點擊的連結類型。 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。 |

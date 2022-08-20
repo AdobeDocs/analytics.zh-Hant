@@ -3,10 +3,10 @@ title: list
 description: 在同一次點擊中容納多個值的自訂變數。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: e8a6400895110a14306e2dc9465e5de03d1b5d73
+source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 62%
+source-wordcount: '547'
+ht-degree: 59%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 62%
     }
 }
 ```
+
+>[!NOTE]
+>
+>AdobeXDM架構包含 `key` 對象 `value` 每個對象 `list[]` 陣列。 Adobe不使用這些 `key` 對象向Adobe Analytics發送資料。
 
 如果您的組織需要與逗號不同的分隔符(&#39;`,`&#39;)，可以將整個清單字串（包括所需的分隔符）傳遞到自定義XDM欄位。 確保清單變數配置為接受中所需的分隔符 [報表套件設定](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
 
