@@ -3,20 +3,16 @@ title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 92%
+source-wordcount: '514'
+ht-degree: 63%
 
 ---
 
 # 建立資料層
 
-資料層是網站上 JavaScript 物件的架構，包含實施內的所有變數值。可讓您在實作中更進一步精細控制，並讓維護工作更簡單輕鬆。
-
-以下是有關使用資料層的影片：
-
->[!VIDEO](https://video.tv.adobe.com/v/28775/?quality=12)
+資料層是站點上JavaScript對象的框架，其中包含Analytics實現中使用的變數值。 它允許在將值分配給Analytics變數時進行更好的控制和更輕鬆的維護。
 
 ## 先決條件
 
@@ -31,145 +27,18 @@ ht-degree: 92%
    >[!NOTE]
    >
    > 可選擇遵循 Adobe 建議的資料層規格。如果您已有資料層，或選擇不遵循 Adobe 的規格，請確定貴組織對於需遵循的規格有共識。
-1. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `digitalData.page.pageInfo.pageID`。
-1. **使用Adobe Experience Platform資料收集將資料層對象映射到資料元**:在Adobe Experience Platform資料收集中建立資料元素，並將其映射到資料層中概述的JavaScript屬性。
-1. **使用 Adobe Analytics 標記擴充功能將資料元素對應至 Analytics 變數**：根據您的解決方案設計文件中的指示，將每個資料元素指派給適當的 Analytics 變數。
+1. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `adobeDataLayer.page.title`。
+1. **使用Adobe Experience Platform資料收集將資料層對象映射到資料元**:此步驟因組織的實施方法而異：
+   * **如果使用Web SDK**:將所需資料層對象映射到Adobe Experience Platform邊緣中所需的XDM欄位。 請參閱 [分析變數映射](../aep-edge/variable-mapping.md) 確定所需的資料層映射。
+   * **如果使用分析擴展**:在「Adobe Experience Platform資料收集中的標籤」下建立資料元素，並將它們分配給所需的資料層對象。 然後，在分析擴展中，將每個資料元素分配給相應的分析變數。
 
 ## 規格
 
-Adobe 建議遵循[客戶體驗數位資料社群小組](https://www.w3.org/community/custexpdata/)所提出的[客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)。請透過下列章節瞭解資料層元素與 Adobe Analytics 互動的方式。
+Adobe建議使用 [Adobe客戶端資料層](https://github.com/adobe/adobe-client-data-layer/wiki) 用於新的或重組的實施。
 
-建議使用的整體資料層物件是 `digitalData`。下列範例列出較完整的資料層 JSON 物件並提供範例值：
+您的組織可以自由使用其他資料層規範，如 [客戶體驗數字資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)，或完全另一個自定義資料層。 與滿足您組織需求的一致資料層保持一致是最重要的。
 
-```js
-digitalData = {
-    pageInstanceID: "Example page - production",
-    page: {
-        pageInfo: {
-            pageID: "5093",
-            pageName: "Example page",
-            destinationURL: "https://example.com/index.html",
-            referringURL: "https://example.com/referrer.html",
-            sysEnv: "desktop",
-            variant: "2",
-            version: "1.14",
-            breadCrumbs: ["Home","Example group","Example page"],
-            author: "J Smith",
-            issueDate: "Example date",
-            effectiveDate: "Example date",
-            expiryData: "Example date",
-            language: "en-US",
-            geoRegion: "US",
-            industryCodes: "Example industry codes",
-            publisher: "Example publisher"
-        },
-        category: {
-            primaryCategory: "Example page category",
-            subCategory: "Sub-category example"
-        },
-        attributes: {
-            country: "US",
-            language: "en-US"
-        }
-    },
-    product: [{
-        productInfo: {
-            productID: "4859",
-            productName: "Example product",
-            description: "Example description",
-            productURL: "https://example.com/product.html",
-            productImage: "https://example.com/product_image.png",
-            productThumbnail: "https://example.com/product_thumbnail.png",
-            manufacturer: "Example manufacturer",
-            quantity: 1,
-            size: "Product size"
-        },
-        category: {
-            primaryCategory: "Example product category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    cart: {
-        cartID: "934856",
-        price: {
-            basePrice: 200.00,
-            voucherCode: "EXAMPLEVOUCHER1",
-            voucherDiscount: 0.50,
-            currency: "USD",
-            taxRate: 0.20,
-            shipping: 5.00,
-            shippingMethod: "UPS",
-            priceWithTax: 120,
-            cartTotal: 125
-        }
-    },
-    transaction: {
-        transactionID: "694025",
-        profile: {
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com"
-            },
-            address: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            },
-            shippingAddress: {
-                line1: "123 Vague Street",
-                line2: "Apt 1",
-                city: "Austin",
-                stateProvince: "TX",
-                postalCode: "78610",
-                country: "USA"
-            }
-        }
-    },
-    event: [{
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    component: [{
-        componentInfo: {
-            componentID: "4921",
-            componentName: "Example component"
-        },
-        category: {
-            primaryCategory: "Example event category",
-            subCategory: "Example sub-category"
-        }
-    }],
-    user: [{
-        segment: "Premium membership",
-        profile: [{
-            profileInfo: {
-                profileID: "exampleprofile",
-                userName: "exampleusername",
-                email: "user@example.com",
-                language: "en-US",
-                returningStatus: "New"
-            },
-            social: {
-                facebook: "examplefacebookid",
-                twitter: "exampletwitterhandle"
-            }
-        }]
-    }],
-    privacy: {
-        accessCategories: [{
-            categoryName: "Default",
-            domains: "adobedtm.com"
-        }]
-    },
-    version: "1.0"
-}
-```
+
 
 使用[客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)報表，取得每個物件和子物件的詳細資訊。並非所有網站都使用全部物件，例如，如果您托管一個新聞網站，您就不可能使用 `digitalData.product` 物件陣列。
 
