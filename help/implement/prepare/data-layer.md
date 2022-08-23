@@ -3,10 +3,10 @@ title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 76c36a136359290e341febc554773a71b1cc7c66
+source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 63%
+source-wordcount: '468'
+ht-degree: 60%
 
 ---
 
@@ -36,11 +36,7 @@ ht-degree: 63%
 
 Adobe建議使用 [Adobe客戶端資料層](https://github.com/adobe/adobe-client-data-layer/wiki) 用於新的或重組的實施。
 
-您的組織可以自由使用其他資料層規範，如 [客戶體驗數字資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)，或完全另一個自定義資料層。 與滿足您組織需求的一致資料層保持一致是最重要的。
-
-
-
-使用[客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)報表，取得每個物件和子物件的詳細資訊。並非所有網站都使用全部物件，例如，如果您托管一個新聞網站，您就不可能使用 `digitalData.product` 物件陣列。
+您的組織可以自由使用其他資料層規範，如 [客戶體驗數字資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)，或完全自定義規範。 與滿足您組織需求的一致資料層保持一致是最重要的。
 
 資料層可擴展；如果貴組織有特定的需求，您可以在資料層中加入物件以符合這些需求。
 
