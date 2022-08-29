@@ -4,15 +4,15 @@ description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 21b8e21a0f5488e4e8702d5e7538360add1cd621
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # 最新 Adobe Analytics 發行說明 (2022 年 8 月)
 
-**上次更新日期**：2022 年 8 月 19 日
+**最新更新**：2022 年 8 月 19 日
 
 ## 相關資源
 
@@ -25,8 +25,8 @@ ht-degree: 80%
 
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
-| 支援邊緣集合的XDM中的清單變數 | 使客戶能夠通過體驗邊緣/Web SDK收集資料，以使用XDM指定清單變數內容。 [了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=en#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
-| 在設定產品字串變數時，在XDM中對邊緣集合使用SKU欄位 | 使客戶能夠通過Experience Edge/Web SDK收集資料，以使用SKU值設定產品變數中的產品欄位。 [了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=en#products-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| XDM 中用於 Edge 集合的清單變數支援 | 使透過 Experience Edge/Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hant#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 設定產品字串變數時，為 Edge 集合使用 XDM 中的 SKU 欄位 | 使透過 Experience Edge/Web SDK 收集資料的客戶能使用 SKU 值在產品變數中設定產品欄位。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant#products-using-the-web-sdk) | 2022 年 8 月 18 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -42,7 +42,7 @@ AN-274281；AN-280956；AN-285670；AN-288176；AN-289221；AN-289665；AN-28976
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **由於Google客戶端提示而更新到設備查找** | 2022 年 8 月 19 日 | 從2022年10月開始，Adobe將開始在從Crrom瀏覽器(如GoogleChrome和MicrosoftEdge)獲取某些設備資訊時，除使用用戶代理外，還使用客戶端提示。 這是對Google逐步減少用戶代理字串中顯示的資訊以代替通過客戶端提示傳遞的資料的計畫的響應。 閱讀有關客戶端提示的詳細資訊 [這裡](https://web.dev/user-agent-client-hints/)。<p> 到10月，AppMeasurement和Web SDK集合庫都將支援收集客戶端提示，並配置是否收集到高熵客戶端提示。 作為此更改的一部分，Adobe將使用Device Atlas進行與用戶代理相關的所有設備查找。 目前，Device Atlas僅用於移動命中。 這些更新可能會對過去從用戶代理（尤其是瀏覽器、瀏覽器類型、作業系統、作業系統類型和移動設備）派生的設備資訊進行少量更改。 |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2022 年 8 月 19 日 | 從 2022 年 10 月開始，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。這是為了回應 Google 計劃，逐步減少使用者代理程式字串提供的資訊，以代替透過用戶端提示傳遞的資料。在 [此處](https://web.dev/user-agent-client-hints/) 閱讀有關用戶端提示的更多資訊。<p> 到 10 月，AppMeasurement 和 Web SDK 收集庫都將支援收集用戶端提示，並設定是否要收集高熵用戶端提示。作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有與使用者代理程式相關的裝置查詢。目前 Device Atlas 僅用於行動裝置點擊。這些更新可能會導致以往從使用者代理程式衍生的裝置資訊發生細微的變化 - 特別是瀏覽器、瀏覽器類型、作業系統、作業系統類型和行動裝置。 |
 | **SFTP 升級** | 2022 年 8 月 12 日 | 此前，我們曾告知 Adobe 將在 2022 年 5 月升級其安全檔案傳輸通訊協定 (SFTP) 服務，以提供改善的檔案傳輸安全性。我們已將此升級延遲到 **2022 年 9 月 7 日**。進行此變更後，將不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
 | **新 NetAcuity 電信業者資料庫的更新** | 2022 年 7 月 11 日 | **從 2022 年 10 月開始**，儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe 已維護一份內部查詢表，以便將這些 `<domain>:<ISP>` 值對應到電信業者名稱，以供在 Adobe Analytics 報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 中進行報告之用。此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。 Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。 Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。 當我們採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。 資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維護舊的對應，同時加入新的對應。<p>Analytics Source Connector 目前不會對應電信業者欄位，所以目前 AEP、CJA 等項目中不提供電信業者報告。 因此，使用新電信業者資料庫將不會影響 AEP 中根據 Analytics Source Connector 所提供之資料的任何內容。 |
 | **已改良 IP 對地理位置的對應** | 2022 年 7 月 11 日 | 我們的 IP 查詢供應商 Digital Element 正升級到新改良的資料集 (NetAcuity Pulse) 以便用於 IP 對地理位置的對應。 Adobe Analytics 將在 **2022 年 10 月**&#x200B;的時間範圍內採用這個新資料集。 新資料庫將會比舊版更準確。 在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p>所有 Adobe Analytics 工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流、資料摘要等) 都將會自動利用新改良的對應。 資料摘要中的資料格式不會改變。 透過 Analytics Source Connector 提供的 CJA 資料也將自動利用新的對應。 |
@@ -50,7 +50,7 @@ AN-274281；AN-280956；AN-285670；AN-288176；AN-289221；AN-289665；AN-28976
 | **暫停 Report Builder 中的排程工作** | 2022 年 6 月 8 日 | 在 2022 年 4 月 21 日，我們對 Report Builder 中的排程工作推出變更，這屬於我們效能和傳遞最佳化工作的一部分。這些變更包括移除已排程傳遞在「x 次發生次數後結束」的能力。因應多位客戶要求更多時間以便探索和實施替代方案，我們決定以有限的方式恢復此選項，直到 **2023 年 1 月 31 日**。<p>您可繼續排程每小時 Report Builder 工作，並在最多 99 次發生次數後結束。請注意，回復僅適用於每小時工作；「x 次發生次數後結束」仍不適用於所有其他傳遞間隔 (每日、每週、每月和每年)。請注意，此選項將於 2023 年 1 月 31 日停止使用。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
 
-{style=&quot;table-layout:auto&quot;&quot;
+{style=&quot;table-layout:auto&quot;}
 
 ## AppMeasurement
 
