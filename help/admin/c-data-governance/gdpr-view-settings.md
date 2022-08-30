@@ -3,10 +3,10 @@ description: 「管理工具」中的資料控管對話方塊提供概述，讓�
 title: 檢視/管理報表套裝資料控管設定
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '486'
-ht-degree: 100%
+source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
+workflow-type: tm+mt
+source-wordcount: '517'
+ht-degree: 76%
 
 ---
 
@@ -17,49 +17,19 @@ ht-degree: 100%
 1. 登入 Adobe Experience Cloud。
 1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 資料控管」]**。
 
-   您將看到屬於您登入公司的所有報表套裝：
+>[!NOTE]
+>
+>如果看不到此菜單項，則需要將您添加到 [產品配置檔案在Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant) 具有此功能的權限。
+
+1. 查看登錄公司的所有報表套件：
 
    ![](assets/privacy_setup_an.png)
 
-<table id="table_448292730FF0475E9DCB731882F9A29B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 設定 </th> 
-   <th colname="col2" class="entry"> 說明 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>報表套裝 </p> </td> 
-   <td colname="col2"> <p>第一行列出報表套裝的易記名稱。第二行含有報表套裝的內部名稱。如果您可以設定報表套裝的標籤，第一行便會是帶您前往標籤頁面的可點擊連結。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>組織對應 </p> </td> 
-   <td colname="col2"> 
-    <ul id="ul_EF8F613B0C5E42D19DB60BD0C89C114B"> 
-     <li id="li_B35EE88555F547EFBF55ADE9D0C9EC3B"><b>已對應</b>：此報表套裝與您目前登入的 Analytics 登入公司已對應至同一個 Experience Cloud 組織。只有套用此設定的報表套裝才能加上標籤。 </li>
-     <li id="li_FF825A65D089487BBF5FCB0D74D41CD7"><b>已對應至其他組織</b>：其他 Experience Cloud 組織已將此報表套裝套用至其組織。 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>資料保留政策 </p> </td> 
-   <td colname="col2"> <p>Analytics 資料隱私權實施作業需要您制定資料保留政策。 </p> <p>此設定會顯示： </p> 
-    <ul> 
-     <li>是否已針對此報表套裝制定資料保留政策。 </li> 
-     <li>刪除資料之前 Adobe 要保留資料的時間。預設的資料保留時間為 25 個月。 </li> 
-    </ul> <p>附註：若未設定資料保留時間，Adobe Analytics 就無法協助您處理資料隱私權 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>群組  </p> </td> 
-   <td colname="col2"> <p>目前尚未執行分組功能。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>左側側邊列 </p> </td> 
-   <td colname="col2"> <p>按一下漏斗圖示即可開啟或關閉側邊列。 </p> <p>「組織對應」區段會顯示上述每個類別中的報表套裝數目。 </p> <p>「資料保留政策」區段會顯示貴組織目前制定的每一項資料保留政策，以及指派至該保留政策的報表套裝數目。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>匯出至 CSV </p> </td> 
-   <td colname="col2"> <p>如果您勾選一個或多個報表套裝旁的核取方塊，<span class="uicontrol">「匯出至 CSV」</span>選項便會隨即出現。這個選項可讓您下載 CSV 檔案，檔案會包含所有選取報表套裝中所有變數的全部目前標籤定義。 </p> <p>我們建議您與法律團隊商議標籤選擇，而這個選項有助於簡化該審核程序。您可以將 .CSV 檔案分享給他們，而不必在登入資料控管 UI 的情況下執行審核程序。 </p> <p><img placement="break"  src="assets/export_csv.png" width="300px" id="image_5FE821B2D07B402D8E0F6FE53D6FC52E" /> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 設定 | 說明 |
+| --- | --- |
+| **[!UICONTROL 報表套裝]** | 第一行列出報表套裝的易記名稱。第二行含有報表套裝的內部名稱。如果您可以設定報表套裝的標籤，第一行便會是帶您前往標籤頁面的可點擊連結。 |
+| **[!UICONTROL 組織對應]** | <ul><li>已對應：此報表套裝與您目前登入的 Analytics 登入公司已對應至同一個 Experience Cloud 組織。只有套用此設定的報表套裝才能加上標籤。</li><li>已對應至其他組織：其他 Experience Cloud 組織已將此報表套裝套用至其組織。</li></ul> |
+| **[!UICONTROL 資料保留政策]** | Analytics 資料隱私權實施作業需要您制定資料保留政策。此設定會顯示：<ul><li>是否已針對此報表套裝制定資料保留政策。</li><li>刪除資料之前 Adobe 要保留資料的時間。預設的資料保留時間為 25 個月。</li></ul>**注釋**:Adobe Analytics無法幫助您處理對資料隱私API的請求，例如，如果尚未設定資料保留期，則處理您從最終用戶處收到的訪問或刪除請求。 請聯絡客戶成功案例經理，以設定資料保留時間。 |
+| **[!UICONTROL 群組]** | 目前尚未執行分組功能。 |
+| 左側側邊列 | 按一下漏斗圖示即可開啟或關閉側邊列。的 [!UICONTROL 組織映射] 部分顯示屬於每個所述類別的報告套件的數量。 的 [!UICONTROL 資料保留策略] 「 」部分顯示當前為您的組織部署的每個唯一資料保留策略以及分配給該保留策略的報告套件的數量。 |
+| **[!UICONTROL 匯出至 CSV]** | 如果您勾選一個或多個報表套裝旁的核取方塊，「匯出至 CSV」選項便會隨即出現。這個選項可讓您下載 CSV 檔案，檔案會包含所有選取報表套裝中所有變數的全部目前標籤定義。我們建議您與法律團隊商議標籤選擇，而這個選項有助於簡化該審核程序。您可以將 .CSV 檔案分享給他們，而不必在登入資料控管 UI 的情況下執行審核程序。 |
