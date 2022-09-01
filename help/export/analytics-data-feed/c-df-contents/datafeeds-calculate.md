@@ -4,7 +4,7 @@ keywords: 資料摘要；量度；預先欄位；後置欄位；bots；日期篩
 title: 計算量度
 feature: Data Feeds
 exl-id: f9b0d637-7a6e-416a-adff-3c7e533bfac7
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: ce71de7cdcde722fcfbc9ff04d22e5770c89e33d
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->通常會從 Adobe Analytics 排除的點擊會包含在資料摘要中。使用 `exclude_hit > 0` 從對原始資料的查詢移除已排除的點擊。資料來源的資料也包含在資料摘要中。若要排除資料來源，請排除所有含有 `hit_source = 5,7,8,9` 的列。
+>通常會從 Adobe Analytics 排除的點擊會包含在資料摘要中。使用 `exclude_hit = 0` 從對原始資料的查詢移除已排除的點擊。資料來源的資料也包含在資料摘要中。若要排除資料來源，請排除所有含有 `hit_source = 5,7,8,9` 的列。
 
 ## 頁面檢視
 
