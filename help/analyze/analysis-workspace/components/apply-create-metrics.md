@@ -4,7 +4,7 @@ title: Analysis Workspace 中的量度
 feature: Metrics
 role: User, Admin
 exl-id: 0a5dc709-c4e8-412a-a6cf-37b85d811f65
-source-git-commit: 56fd6dd8450df3ffea78154fafa1e858d5a653a7
+source-git-commit: e0a10540bdfbd9fa3694ff3c7a8585eeb87eaad8
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 23%
@@ -13,33 +13,33 @@ ht-degree: 23%
 
 # 量度
 
-指標允許您量化Analysis Workspace的資料點。 它們通常用作可視化中的列，並與尺寸關聯。
+量度可讓您量化Analysis Workspace中的資料點。 它們最常作為視覺效果中的欄，並與維度系結。
 
-Adobe提供了幾種在Analysis Workspace使用的指標：
+Adobe提供數種量度供Analysis Workspace使用：
 
-* **標準度量**:在項目中使用的大多數指標都是標準指標。 示例包括 [頁面視圖](/help/components/metrics/page-views.md)。 [收入](/help/components/metrics/revenue.md)或 [自定義事件](/help/components/metrics/custom-events.md)。 請參閱 [度量概述](/help/components/metrics/overview.md) 的子菜單。
+* **標準量度**:您在專案中使用的大部分量度都是標準量度。 範例包括 [頁面檢視](/help/components/metrics/page-views.md), [收入](/help/components/metrics/revenue.md)，或 [自訂事件](/help/components/metrics/custom-events.md). 請參閱 [量度概觀](/help/components/metrics/overview.md) （位於「元件」使用指南中）以取得詳細資訊。
 
-   ![標準度量](assets/standard-metric.png)
+   ![標準量度](assets/standard-metric.png)
 
-* **計算的度量**:基於標準度量、靜態數或算法函式的用戶定義的度量。 用戶定義的計算度量在可用元件清單中顯示計算器表徵圖。 請參閱 [計算度量概覽](/help/components/c-calcmetrics/cm-overview.md) 的子菜單。
+* **計算量度**:以標準量度、靜態數字或演算法函式為基礎的使用者定義量度。 使用者定義的計算量度會在可用元件清單中顯示計算器圖示。 請參閱 [計算量度概觀](/help/components/c-calcmetrics/cm-overview.md) （位於「元件」使用指南中）以取得詳細資訊。
 
-   ![計算度量](assets/calculated-metric.png)
+   ![計算量度](assets/calculated-metric.png)
 
-* **計算的度量模板**:Adobe定義的度量，其行為與計算度量類似。 您可以在Workspace項目中按原樣使用它們，或保存副本以自定義其邏輯。 計算的度量模板在可用元件清單中顯示Adobe表徵圖。
+* **計算量度範本**:Adobe定義的量度，其行為與計算量度類似。 您可以在工作區專案中如同使用，或儲存副本以自訂其邏輯。 計算量度範本在可用元件清單中顯示Adobe圖示。
 
-   ![計算的度量模板](assets/calculated-metric-template.png)
+   ![計算量度範本](assets/calculated-metric-template.png)
 
-指標在Analysis Workspace的使用是靈活的。 將度量拖到空的自由形式表中，以查看該度量在項目的日期期間內的趨勢。 當存在維時，還可以拖動度量以查看與每個維項相比的度量。 在現有度量標頭上拖動度量將替換它，並在標頭旁拖動度量可同時查看兩個度量。
+量度在Analysis Workspace中的使用有彈性。 將量度拖曳至空的自由表格，以查看該量度在專案日期期間的趨勢。 您也可以在維度存在時拖曳量度，以比較每個維度項目來查看該量度。 將量度拖曳至現有量度標頭上可加以取代，而將量度拖曳至標頭旁則可讓您並排查看兩個量度。
 
 >[!VIDEO](https://video.tv.adobe.com/v/40817/?quality=12)
 
 ## 計算量度
 
-通過計算度量，您可以使用簡單的運算子或統計函式輕鬆地查看度量之間的關聯。 有幾種方法可建立計算度量：
+計算量度可讓您使用簡單運算子或統計函式，輕鬆查看量度彼此的關聯性。 建立計算量度有數種方式：
 
-* 按一下左側元件清單下「度量」標題旁的加號表徵圖。
-* 導航到 **[!UICONTROL 元件]** > **[!UICONTROL 計算度量]** > **[!UICONTROL 添加]**。
-* 按一下右鍵列標題> **[!UICONTROL 從選擇建立度量]** 選擇一個或多個標題列單元格時。 此選項可自動為您建立計算度量，而無需使用計算度量規則生成器。
+* 按一下左側元件清單下「量度」標題旁的加號圖示。
+* 導覽至 **[!UICONTROL 元件]** > **[!UICONTROL 計算量度]** > **[!UICONTROL 新增]**.
+* 以滑鼠右鍵按一下欄標題> **[!UICONTROL 從選取範圍建立量度]** 選取一個或多個標題欄儲存格時。 此選項會自動為您建立計算量度，而不需使用計算量度規則產生器。
 
 [計算量度：實作較少的量度](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/calculated-metrics-implementationless-metrics.html?lang=zh-Hant) (3:42)
 
