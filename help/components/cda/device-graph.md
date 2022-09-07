@@ -2,23 +2,16 @@
 title: 裝置圖表
 description: 了解使用裝置圖表銜接資料的先決條件和限制。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '358'
+ht-degree: 92%
 
 ---
 
 # 裝置圖表
 
-跨裝置分析提供將資料銜接在一起的兩種不同方法。此方法使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表將資料銜接在一起。CDA 會定期與裝置圖表通訊，以將裝置連結在一起。
-
-## 合用圖表與專用圖表的差異
-
-Adobe 在 ID 服務中提供兩種裝置圖表：
-
-* **合用圖表**：雜湊裝置 ID 的存放庫，任何客戶都可以貢獻並參照。由於此類裝置圖表為協作式，因此一般比專用圖表與更多裝置相符。
-* **專用圖表**：雜湊裝置 ID 的存放庫，僅供您的組織參照。
+跨裝置分析可使用專用圖表將資料匯整在一起。 專用圖表是貴組織專屬的雜湊裝置ID存放庫。 CDA 會定期與裝置圖表通訊，以將裝置連結在一起。
 
 ## 裝置圖表專屬先決條件
 

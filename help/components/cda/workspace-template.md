@@ -2,9 +2,9 @@
 title: CDA 工作區範本
 description: 說明 Analysis Workspace 中 CDA 範本的各個欄位。
 exl-id: 293001ff-bf7b-4de8-b175-7c2c17d1794d
-source-git-commit: 48c026d3d5314b20b52edb9b3f04497dc180df37
-workflow-type: ht
-source-wordcount: '439'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
@@ -23,15 +23,13 @@ Adobe 提供可檢視重要跨裝置效能資料的範本。
 
 <!--The content below is mirrored in /help/analyze/analysis-workspace/build-workspace-project/starter-projects.md-->
 
-* **適用於 Co-op 圖表成員的特殊備註**：顯示報表套裝的哪些部分包含來自 Co-op 圖表支援地區的訪客，哪些又包含來自 Co-op 不支援地區的訪客。
-* **使用者身分識別**：顯示使用以跨裝置分析為基礎之方法識別網站訪客的頻率。
+* **使用者身分識別**：顯示使用以 Cross-Device Analytics 為基礎之方法識別網站訪客的頻率。
 * **衡量對象規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此轉換量度取決於多種因素：
-   * 使用合用圖表或專用圖表：一般而言，使用 Device Co-op 的組織之壓縮率，會比使用專用圖表的組織來得高。
    * 登入率：登入您網站的使用者越多，Adobe 就越能跨裝置識別並連結訪客。登入率低的網站壓縮率也會很低。
    * Experience Cloud ID 涵蓋範圍：系統只會連結具有 ECID 的訪客。使用 ECID 造訪您網站的訪客比例較低，與壓縮率較低有關。
    * 使用多部裝置：若您網站的訪客沒有使用多部裝置，則壓縮率會較低。
    * 報表粒度：依日計算的壓縮通常比依月或年計算的壓縮還小。依個人在一天內使用多部裝置的機率，會比整個月的機率小。分段、篩選或使用劃分維度也可以顯示較低的壓縮率。
 * **以人物為基礎的區段**：包含區段下拉式清單，可讓您檢視裝置特定資料。此面板鼓勵您試用區段，以便了解納入或排除裝置類型對報表有何影響。
 * **分析跨裝置歷程**：根據裝置類型提供流量和流失報表。
-* **跨裝置歸因**：結合歷程 IQ 和歸因 IQ 的功能。
+* **跨裝置歸因**：結合 Journey IQ 和 Attribution IQ 的功能。
 * **其他秘訣與技巧**：可協助您更順利使用 CDA 的實用主題。

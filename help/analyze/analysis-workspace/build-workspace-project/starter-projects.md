@@ -4,10 +4,10 @@ title: 範本
 feature: Workspace Basics
 role: User, Admin
 exl-id: 751399fe-6d4f-47cc-8827-82c992079b52
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '1410'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 93%
 
 ---
 
@@ -123,19 +123,15 @@ ht-degree: 100%
 
 ### 人物
 
->[!NOTE]
->
->「人物」範本與相關的「人物」量度只能當作 [Adobe Experience Cloud Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/data/people.html?lang=zh-Hant) 的一部分使用。
+此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您:
 
-此範本是根據「人物」量度建立，此量度是「不重複訪客」量度刪除重複項目後的版本。「人物」量度提供的是客戶利用多部裝置與品牌互動的頻率。此範本可讓您
-
-* 針對美國/加拿大與其他國家/地區的比較分割資料區段。Device Co-op 目前僅供北美地區使用。
-* 並排比較「人物」和「不重複訪客」量度。
-* 查看「壓縮率」，此計算量度可計算「人物」量度相對於「不重複訪客」的壓縮百分比。
+* 劃分美國/加拿大與世界其他地區的資料
+* 並排比較「人員」和「獨特訪客」量度
+* 請參閱「壓縮率」，此計算量度可計算「人物」量度相對於「不重複訪客」的百分比小得多少
 * 比較客戶所使用的裝置類型總數
-* 了解每人當中所使用的平均裝置數量。
-* 了解如何搭配「人物」量度使用區段堆疊。
-* 了解如何透過環境中的 Experience Cloud ID 增強「人物」量度的效益。
+* 了解每人平均使用的裝置數
+* 探索如何搭配「人物」量度使用區段堆疊
+* 探索在您的環境中使用Experience CloudID如何增強「人員」量度的效益
 
 ### Journey IQ：Cross-Device Analytics 範本
 
@@ -143,10 +139,8 @@ ht-degree: 100%
 
 此範本可讓您了解重要的跨裝置效能資料。這個範本僅供可存取 [Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=zh-Hant) (CDA) 的客戶使用。
 
-* **Co-op 圖表成員的特別注意事項**：顯示報表套裝中的哪些部分所包含的訪客，來自支援和不支援 Co-op 圖表的地區。
 * **使用者身分識別**：顯示使用以 Cross-Device Analytics 為基礎之方法識別網站訪客的頻率。
-* **衡量對象規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此壓縮量度取決於廣泛的因素：
-   * **使用 Co-op 圖表或私密圖表**：一般而言，使用 Device Co-op 的組織之壓縮率，會比使用私密圖表的組織來得高。
+* **衡量對象規模**：顯示「不重複裝置」與「人物」的比較。這兩個數字的比例稱為「跨裝置壓縮」，也就是此面板中顯示的計算量度。此轉換量度取決於多種因素：
    * **登入率**：登入您網站的使用者越多，Adobe 就能越有效跨裝置識別並結合訪客。登入率低的網站壓縮率也會很低。
    * **Experience Cloud ID 涵蓋範圍**：系統只會結合具有 ECID 的訪客。使用 ECID 造訪您網站的訪客比例較低，與壓縮率較低有關。
    * **使用多部裝置**：若您網站的訪客沒有使用多部裝置，壓縮率便會較低。

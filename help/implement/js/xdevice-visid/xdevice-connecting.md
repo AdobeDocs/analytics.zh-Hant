@@ -5,10 +5,10 @@ subtopic: Visitors
 title: 連結跨裝置的使用者
 feature: Implementation Basics
 exl-id: dfe278db-01de-4bba-b07a-66d52de1dbe2
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '401'
-ht-degree: 100%
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 95%
 
 ---
 
@@ -31,4 +31,4 @@ ht-degree: 100%
 使用您自己的自訂訪客 ID，可讓您更深入控制訪客的識別方式，不過有其限制。
 
 * **訪客重複資料刪除不具可回溯性**：如果訪客首次存取您的網站然後進行驗證，則會計為兩個不重複訪客。系統會自動產生一個一般 Analytics ID 的不重複訪客計數，另外會在其登入時計為另一個自訂訪客 ID 計數。每當訪客使用新裝置或清除其 Cookie 時，都會出現這種不重複訪客的重複資料。
-* **與 Experience Cloud ID Service 不相容**：自從跨裝置訪客身份識別功能問世以來，Adobe 已推出功能更強大、更可靠的方式來跨裝置追蹤訪客。這些新的身分識別方法與自訂訪客 ID 覆寫不相容。如果您打算使用 ID Service、跨裝置分析 (CDA) 或 Device co-op，Adobe 強烈建議不要使用 `visitorID` 變數。
+* **與 Experience Cloud ID Service 不相容**：自從跨裝置訪客身份識別功能問世以來，Adobe 已推出功能更強大、更可靠的方式來跨裝置追蹤訪客。這些新的身分識別方法與自訂訪客 ID 覆寫不相容。如果您打算使用ID服務或跨裝置分析(CDA),Adobe強烈建議不要使用 `visitorID` 變數。

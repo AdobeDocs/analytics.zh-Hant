@@ -3,9 +3,9 @@ description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以�
 title: 虛擬報表套裝概觀
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '790'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 100%
 * 讓您在所有網站/網域中使用單一報表套裝 ID (RSID)，藉此簡化實作。在單一報表套裝中提供所有資料，可讓我們在開發新一代 Adobe Analytics 時啟用客戶分析功能。
 * 貴組織的商務使用者一律只看得到與其相關的資料。
 * 在實作後可讓管理員使用者更輕鬆、更精細地控制資料存取權，藉此提升安全性。
-* 可參與「裝置合作」(Device Co-op)
 * 人員量度
 * 單一客戶資料檢視 (未來推出)
 * 可建立數量不受限制的虛擬報表套裝，藉此以區段劃分資料

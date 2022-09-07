@@ -2,9 +2,9 @@
 title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
-source-git-commit: aa4550d7012f76571f7623428d3d4ee08f728f64
-workflow-type: ht
-source-wordcount: '883'
+source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+workflow-type: tm+mt
+source-wordcount: '860'
 ht-degree: 100%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 100%
 
 * [**依欄位拚接**](field-based-stitching.md)：推薦的拚接選項，因為這僅使用確定性比對將裝置連結在一起。
 您可選擇 Analytics 變數，作為虛擬報表套裝中跨裝置結合的基礎。
-* [**裝置圖表**](device-graph.md)：CDA 會與裝置圖表通訊，以將裝置拚接在一起。Co-op 圖表同時使用確定性比對和概率比對。
-
->[!NOTE]
->
->進一步了解 [Device Co-op 生命週期結束](https://experienceleague.adobe.com/docs/device-co-op/using/about/device-co-op-eol.html?lang=zh-Hant)。
+* [**裝置圖表**](device-graph.md)：CDA 會與裝置圖表通訊，以將裝置拚接在一起。
 
 使用 CDA，您可以回答下列問題：
 
