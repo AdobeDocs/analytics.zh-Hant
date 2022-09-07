@@ -4,10 +4,10 @@ title: 快速區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 931e9b0bd71abd852c515cd2e7d99dc9ae423a63
+source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 97%
+source-wordcount: '909'
+ht-degree: 95%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 ## 儲存快速區段
 
 >[!IMPORTANT]
->儲存或套用區段後，您將無法在「快速區段產生器」中對其進行編輯，而只能在一般的區段產生器中進行編輯。
+>儲存或套用區段後，您將無法在「快速區段產生器」中對其進行編輯，而只能在一般的區段產生器中進行編輯。只有Adobe Analytics產品管理員和快速區段的建立者才能儲存對現有快速區段的變更。
 
 1. 套用快速區段後，將滑鼠懸停在上方，並選取資訊 (「i」) 圖示。
 
@@ -85,7 +85,7 @@ ht-degree: 97%
 
 ## 什麼是僅限專案的區段？
 
-僅限專案區段指僅適用於建立該區段的目前專案的區段。您無法在其他專案中取得這些區段，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄建立和儲存區段。可在面板放置區域中使用「快速段」或 [專用段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hant)。
+僅限專案區段指僅適用於建立該區段的目前專案的區段。您無法在其他專案中取得這些區段，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄建立和儲存區段。可在面板放置區中使用「快速」區段或 [臨機區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hant).
 
 如果在[!UICONTROL 區段產生器]中開啟僅限專案的區段，會顯示僅限專案的通知。如果您不勾選「使該區段可用於..」並按一下&#x200B;**[!UICONTROL 套用]**，則該區段仍維持為僅限專案的區段。附註：如果您套用區段產生器的快速區段，將無法在[!UICONTROL 快速區段產生器]中將其開啟。
 
