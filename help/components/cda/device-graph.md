@@ -2,10 +2,10 @@
 title: 裝置圖表
 description: 了解使用裝置圖表銜接資料的先決條件和限制。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 92%
+source-wordcount: '325'
+ht-degree: 69%
 
 ---
 
@@ -22,15 +22,14 @@ ht-degree: 92%
 >若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * [總覽頁面](overview.md)上列出的所有先決條件。
-* 貴組織必須使用 Adobe Experience Platform Identity Service 合用圖表或專用圖表。請參閱 Device Co-op 使用指南中的[首頁](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)。
-* 您的實作必須使用最新版本 Experience Cloud ID 服務。請參閱 Experience Cloud Identity Service 使用手冊中的[首頁](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 使用 Adobe Experience Platform 中的標記的大多數實作有可能都已部署 ECID。
-* 您的實作必須在可識別個人身分時 (例如使用者登入或開啟電子郵件)，呼叫 `setCustomerIDs` 函式 (或相等 SDK 項目)。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 Experience Cloud Identity Service 使用指南中的 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html)。
+* 您的組織必須使用 [Adobe Experience Platform Identity Service專用圖表](https://business.adobe.com/products/experience-platform/identity-service.html). 另請參閱 [首頁](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant) （在Identity Service使用手冊中）。
+* 您的實作必須使用最新版的Experience CloudID服務(ECID)。 請參閱 [首頁](https://experienceleague.adobe.com/docs/id-service/using/home.html) （位於ID服務使用指南中）。 大部分實作使用 [標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) 在Adobe Experience Platform中，可能已部署ID服務。
+* 您的實作必須在可識別個人身分時 (例如使用者登入或開啟電子郵件)，呼叫 `setCustomerIDs` 函式 (或相等 SDK 項目)。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) （位於ID服務使用指南中）。
 
 ## 裝置圖表專屬限制
 
 * 不支援舊式 Analytics ID。只會連結具有 Experience Cloud ID 的訪客。
 * 如果您的組織使用「專屬圖表」，則新裝置最多需要 24 小時的銜接時間。
-* 如果您的組織使用「合用圖表」，造訪您網站的新裝置最多需要兩週的銜接時間。CDA 中最近兩週的連結程度通常低於兩週以前的日期範圍。
 * 不支援協力廠商裝置圖形。
 
 ## 後續步驟
