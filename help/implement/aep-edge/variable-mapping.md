@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
-workflow-type: ht
-source-wordcount: '1381'
-ht-degree: 100%
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+workflow-type: tm+mt
+source-wordcount: '1386'
+ht-degree: 99%
 
 ---
 
@@ -29,6 +29,7 @@ ht-degree: 100%
 | `commerce.checkouts.value` | 讓[結帳](../../components/metrics/checkouts.md)量度遞增所需的金額。 |
 | `commerce.order.currencyCode` | 設定 [currencyCode](../vars/config-vars/currencycode.md) 設定變數。 |
 | `commerce.order.purchaseID` | 設定 [purchaseID](../vars/page-vars/purchaseid.md) 頁面變數。 |
+| `commerce.order.transactionID` | 設定 [transactionID](../vars/page-vars/transactionid.md) 頁面變數。 |
 | `commerce.productListAdds.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車新增](../../components/metrics/cart-additions.md)量度。 |
 | `commerce.productListAdds.value` | 增加[購物車新增](../../components/metrics/cart-additions.md)量度。 |
 | `commerce.productListOpens.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車](../../components/metrics/carts.md)量度。 |

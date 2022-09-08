@@ -3,14 +3,14 @@ title: transactionID
 description: 此變數可用來將線上和離線資料連結在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 92%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
-# 事務ID
+# transactionID
 
 `transactionID` 變數可唯一識別交易，因此點擊能與透過 Data Sources 上傳的資料連結。若您想要使用其他管道的資料，並將這些資料與透過 AppMeasurement 收集的資料連結在一起，此變數很有用。
 
@@ -22,11 +22,15 @@ ht-degree: 92%
 
 依預設，Adobe 會記住所有交易 ID 值 (連結和未連結) 達 90 天。如果您的離線互動程序超過 90 天，請聯絡客戶服務以要求延長期限。
 
-## 使用Adobe Analytics擴展的事務ID
+## 使用Web SDK的交易ID
+
+交易ID為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `commerce.order.transactionID`.
+
+## 使用Adobe Analytics擴充功能的交易ID
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定交易 ID，或依據規則進行設定。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用您的AdobeID憑證。
 2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -35,7 +39,7 @@ ht-degree: 92%
 
 您可以將交易 ID 設為任何字串值，包括資料元素。
 
-## AppMeasurement中的s.transactionID和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.transactionID
 
 `s.transactionID` 變數是包含交易唯一識別碼的字串。有效值包括長度最多 100 個位元組的英數字元。其預設值為空字串。
 
