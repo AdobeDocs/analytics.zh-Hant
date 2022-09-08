@@ -3,14 +3,14 @@ title: timestamp
 description: 手動設定點擊的時間戳記。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# 時間戳
+# timestamp
 
 針對啟用時間戳記的報表套裝，`timestamp` 變數能手動設定點擊的時間戳記。
 
@@ -18,15 +18,15 @@ ht-degree: 81%
 >
 >如果您的報表套裝未明確設定為接受時間戳記點擊，請勿使用此變數。對於不支援時間戳記點擊的報表套裝，AppMeasurement 會自動設定點擊時間。如果您將包含此變數的點擊傳送到不支援時間戳記的報表套裝，該資料會永久遺失。
 
-## 使用Web SDK的時間戳
+## 使用Web SDK的時間戳記
 
-時間戳是 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.session.timestamp`。 此欄位僅支援Unix時間。
+時間戳記為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `xdm.timestamp`. 此欄位僅支援Unix時間。
 
-## 使用Adobe Analytics擴展的時間戳
+## 使用Adobe Analytics擴充功能的時間戳記
 
-Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics擴充功能中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement中的s.timestamp和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.timestamp
 
 `s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix 時間](https://en.wikipedia.org/wiki/Unix_time)。
 
