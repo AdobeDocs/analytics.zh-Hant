@@ -3,10 +3,10 @@ title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 73%
+source-wordcount: '632'
+ht-degree: 71%
 
 ---
 
@@ -20,31 +20,31 @@ ht-degree: 73%
 
 ## 使用Web SDK的產品
 
-產品 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在幾個XDM欄位下：
+產品包括 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在數個XDM欄位下：
 
-* 類別映射到 `productListItems[].lineItemId`。
-* 產品映射到 `productListItems[].SKU` 或 `productListItems[].name`。 如果兩個XDM欄位都存在， `productListItems[].SKU` 的子菜單。
-* 數量已映射到 `productListItems[].quantity`。
-* 價格映射到 `productListItems[].priceTotal`。
-* 促銷電子貨物被映射到 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，具體取決於要綁定到產品的eVar。
-* 促銷活動映射到 `productListItems[]._experience.analytics.event1to100.event1.value` 至 `productListItems._experience.analytics.event901to1000.event1000.value`，具體取決於要綁定到產品的事件。
+* 類別已對應至 `productListItems[].lineItemId`.
+* 產品已對應至 `productListItems[].SKU` 或 `productListItems[].name`. 如果兩個XDM欄位均存在， `productListItems[].SKU` 中所有規則的URL區段。
+* 數量對應至 `productListItems[].quantity`.
+* 價格對應至 `productListItems[].priceTotal`.
+* 銷售eVar對應至 `productListItems._experience.analytics.customDimensions.eVars.eVar1` to `productListItems._experience.analytics.customDimensions.eVars.eVar250`，取決於您要系結至產品的eVar。
+* 銷售事件對應至 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems._experience.analytics.event901to1000.event1000.value`，取決於您要系結至產品的事件。 如果您在其中一個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 字串傳送至Adobe Analytics。
 
 >[!NOTE]
 >
->`lineItemId` 需要將其添加為自定義欄位，因為它尚不是標準分析事件架構的一部分。 Adobe計畫將來添加一個專用的「類別」欄位。
+>`lineItemId` 必須新增為自訂欄位，因為它尚未成為標準Analytics事件結構的一部分。 Adobe計畫未來新增專用的「類別」欄位。
 
-## 使用Adobe Analytics分機的產品
+## 使用Adobe Analytics擴充功能的產品
 
-Adobe Experience Platform資料收集中沒有專用欄位來設定此變數；但是，存在多個第三方擴展以提供幫助。
+Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；不過，有多個協力廠商擴充功能可提供協助。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用您的AdobeID憑證。
 2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]檢視所有可用的擴充功能。
 4. 搜尋 &quot;product&quot; 一字，幾個可用來協助設定此變數的擴充功能隨即會顯示。
 
 您可以使用其中一個擴充功能，或依照下方的 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement和Analytics擴展自定義代碼編輯器中的s.products
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.products
 
 `s.products` 變數是字串，其中包含每個產品的多個分隔欄位。 在字串中以分號 (`;`) 分隔每個欄位。
 
