@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: e42c125da0c48ff01267e3a18aaec8374652809e
+source-git-commit: 610cab7cf71f178af2166133728e9152f0175c47
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 99%
+source-wordcount: '1398'
+ht-degree: 98%
 
 ---
 
@@ -106,6 +106,7 @@ ht-degree: 99%
 | `placeContext.geo.longitude` | 行動維度 - 經度。 |
 | `placeContext.geo.postalCode` | [郵遞區號](../../components/dimensions/zip-code.md)維度。 |
 | `placeContext.geo.stateProvince` | [美國州別](../../components/dimensions/us-states.md)維度。 |
+| `placeContext.localTime` | 協助填入 [時區](/help/analyze/reports-analytics/reports.md) 中。 顯示為 `t_time_info` in [資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md). |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1` -<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 將[產品語法](../vars/page-vars/products.md)銷售套用至 eVars。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value` -<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 將[產品語法](../vars/page-vars/products.md)銷售套用至事件。 |
 | `productListItems[].lineItemId` | [類別](../../components/dimensions/category.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
