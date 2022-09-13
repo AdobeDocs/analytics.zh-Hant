@@ -3,10 +3,10 @@ title: list
 description: 在同一次點擊中容納多個值的自訂變數。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 4fedc1d27a03d4376103e4648e1e66cbd62346af
+source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 59%
+source-wordcount: '477'
+ht-degree: 67%
 
 ---
 
@@ -24,13 +24,9 @@ ht-degree: 59%
 
 在實施中使用清單變數之前，請務必先在報表套裝設定中設定每個變數。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/list-var-admin.md)。此步驟適用於所有實施方法。
 
->[!NOTE]
->
->使用Web SDK中的映射欄位實現的清單變數使用逗號分隔符(「`,`&#39;)。
+## 使用Web SDK的清單變數
 
-## 使用Web SDK列出變數
-
-清單變數為 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.customDimensions.lists.list1.list[]` 至 `_experience.analytics.customDimensions.lists.list3.list[]`。 每個陣列元素都包含 `"value"` 包含每個字串的對象。 例如，以下XDM對象將填充 `list1` 變數 `"Example value 1,Example value 2,Example value 3"`。
+清單變數包括 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.customDimensions.lists.list1.list[]` to `_experience.analytics.customDimensions.lists.list3.list[]`. 每個陣列元素都包含 `"value"` 包含每個字串的物件。 無需提供分隔字元；會使用 [報表套裝設定](/help/admin/admin/conversion-var-admin/list-var-admin.md). 例如，若逗號(「`,`&#39;)設為清單變數1的分隔字元，下列XDM物件會填入 `list1` 變數 `"Example value 1,Example value 2,Example value 3"`.
 
 ```json
 "xdm": {
@@ -60,32 +56,15 @@ ht-degree: 59%
 
 >[!NOTE]
 >
->AdobeXDM架構包含 `key` 對象 `value` 每個對象 `list[]` 陣列。 Adobe不使用這些 `key` 對象向Adobe Analytics發送資料。
+>AdobeXDM架構包含 `key` 對象 `value` 每個 `list[]` 陣列。 Adobe不使用這些 `key` 物件。
 
-如果您的組織需要與逗號不同的分隔符(&#39;`,`&#39;)，可以將整個清單字串（包括所需的分隔符）傳遞到自定義XDM欄位。 確保清單變數配置為接受中所需的分隔符 [報表套件設定](/help/admin/admin/conversion-var-admin/list-var-admin.md)。
+## 使用Adobe Analytics擴充功能列出變數
 
-```json
-"xdm": {
-    "custom_object": {
-        "custom_path": {
-            "custom_listvar": "Example value 1|Example value 2|Example value 3"
-        }
-    }
-}
-```
+Adobe Analytics擴充功能中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-然後，您可以：
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.list1 - s.list3
 
-* 將自定義XDM欄位映射到Adobe Experience Edge中所需的清單變數；或
-* 建立處理規則以用上下文資料變數覆蓋所需的清單變數。 請參閱 [將其他XDM欄位映射到分析變數](../../aep-edge/variable-mapping.md#mapping-other-xdm-fields-to-analytics-variables)。
-
-## 使用Adobe Analytics副檔名列出變數
-
-Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
-
-## s.list1 - AppMeasurement和Analytics擴展自定義代碼編輯器中的s.list3
-
-每個清單變數都是字串，其中包含貴組織專屬的自訂值。它們沒有位元組數上限，不過每個個別的值有最多 255 個位元組的上限。在中設定變數時，將確定您使用的分隔符 [報表套件設定](/help/admin/admin/conversion-var-admin/list-var-admin.md)。 在分隔多個項目時，請勿使用空格。
+每個清單變數都是字串，其中包含貴組織專屬的自訂值。它們沒有位元組數上限，不過每個個別的值有最多 255 個位元組的上限。您使用的分隔字元，是在 [報表套裝設定](/help/admin/admin/conversion-var-admin/list-var-admin.md). 在分隔多個項目時，請勿使用空格。
 
 ```js
 // A list variable configured with a comma as a delimiter
@@ -100,6 +79,6 @@ s.list1 = "Example value 1,Example value 2,Example value 3";
 
 清單屬性和清單變數都可以在同一次點擊中包含多個值。不過，這兩種變數類型之間有幾項主要差異。
 
-* 任何屬性都可以變成清單屬性。如果每個屬性都是清單屬性，實際上您最多可以擁有 75 個清單屬性。可用的清單變數只有 3個。
+* 任何屬性都可以變成清單屬性。如果每個屬性都是清單屬性，實際上您最多可以擁有 75 個清單屬性。只有三個清單變數可用。
 * 清單屬性的整個變數有 100 個位元組的限制。清單變數的每個值有 255 個位元組的限制，但是沒有位元組總數限制。
 * 清單屬性不會持續存在超過其設定的點擊。清單變數的過期設定可以是您想要的任何設定。不過，透過[報表時間處理](/help/components/vrs/vrs-report-time-processing.md)，您可以將自訂歸因同時套用至清單屬性和清單變數。
