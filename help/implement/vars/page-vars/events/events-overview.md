@@ -3,10 +3,10 @@ title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 5e71564e3aade426d84a039a6864d441d165345a
+source-git-commit: 48f840f3f15702761a453763e7c416a67bcb687b
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 84%
+source-wordcount: '809'
+ht-degree: 79%
 
 ---
 
@@ -18,26 +18,30 @@ ht-degree: 84%
 
 ## 使用Web SDK的事件
 
-自定義事件是 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在以下XDM欄位下：
+自訂事件包括 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 下方的XDM欄位：
 
-* 自定義事件1-100映射到 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`。
-* 自定義事件101-200映射到 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`。
-* 此模式每100個事件重複一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`。 `eventx.value` 值。 `eventx.id` 用於指定序列化的ID。
-* 訂單映射到 `commerce.purchases.value`。
-* 單位映射到所有單位之和 `productListItems[].quantity` 的子菜單。
-* 收入映射到所有 `productListItems[].priceTotal` 的子菜單。
-* 產品視圖映射到 `commerce.productListViews.value`。
-* Cart映射到 `commerce.productListOpens.value`。
-* 購物車添加被映射到 `commerce.productListAdds.value`。
-* Cart刪除映射到 `commerce.productListRemovals.value`。
-* 購物車視圖映射到 `commerce.productListViews.value`。
-* 簽出映射到 `commerce.checkouts.value`。
+* 自訂事件1-100會對應至 `_experience.analytics.event1to100.event1` - `_experience.analytics.event1to100.event100`.
+* 自訂事件101-200會對應至 `_experience.analytics.event101to200.event100` - `_experience.analytics.event101to200.event200`.
+* 此模式會每100個事件重複一次， `_experience.analytics.event901to1000.event901` - `_experience.analytics.event901to1000.event1000`. `eventx.value` 用於指定要增加的量。 `eventx.id` 用於 [序列化](event-serialization.md).
+* 訂單對應至 `commerce.purchases.value`.
+* 單位會對應至所有 `productListItems[].quantity` 欄位。
+* 收入對應至所有 `productListItems[].priceTotal` 欄位。
+* 產品檢視會對應至 `commerce.productListViews.value`.
+* 購物車對應至 `commerce.productListOpens.value`.
+* 購物車新增已對應至 `commerce.productListAdds.value`.
+* 購物車移除已對應至 `commerce.productListRemovals.value`.
+* 購物車檢視已對應至 `commerce.productListViews.value`.
+* 結帳會對應至 `commerce.checkouts.value`.
 
-## 使用Adobe Analytics擴展的事件
+>[!NOTE]
+>
+>若事件設定於 `productListItems` (例如， `productListItems._experience.analytics.event1.value`)，而此欄位中尚未出現該事件，則該事件會自動新增至此欄位。
+
+## 使用Adobe Analytics擴充功能的事件
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件，或依據規則進行設定。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用您的AdobeID憑證。
 2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -49,9 +53,9 @@ ht-degree: 84%
 * 下拉式清單可讓您選取要納入的事件
 * 供序列化使用的選用文字欄位。如需詳細資訊，請參閱[事件序列化](event-serialization.md)。
 * 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，在下拉式清單下方選取 `event1`，並在此欄位中納入 `10`，可在報表中將 `event1` 增加 10。
-* 新增其他事件的按鈕。一次點擊中可以納入的事件數目並沒有合理的限制。
+* 新增其他事件的按鈕。您可以在合理範圍內將您想要的事件新增至單一規則數量。
 
-## AppMeasurement和Analytics擴展自定義代碼編輯器中的s.events
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.events
 
 `s.events` 變數是字串，其中包含您要納入點擊中的逗號分隔事件清單。此變數沒有位元組限制，因此不會截斷。有效值包括：
 
