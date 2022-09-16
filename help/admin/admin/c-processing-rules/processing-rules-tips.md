@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 處理規則提示與秘訣
 feature: Processing Rules
 exl-id: e663d98b-dcfd-4420-84ac-07ddfe55a3f2
-source-git-commit: 71b3b1937e7fa272f0497008e8e510204bbb4418
-workflow-type: ht
-source-wordcount: '490'
-ht-degree: 100%
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 95%
 
 ---
 
@@ -57,6 +57,12 @@ ht-degree: 100%
 
 ## 開頭為、包含和結尾為 {#section_80CE853244FC435B844A09EA51868D8D}
 
-選取正確的比對條件，找到可以正確符合的最限縮條件。您可以在建立規則前，先搜尋報告中的值，確保沒有意外的相符項目。例如，您應在啟用規則前，先行搜尋 Prop2 報告，找出所有此條件符合的位置。
+選取正確的比對條件，找到可以正確符合的最限縮條件。您可以在建立規則前，先搜尋報告中的值，確保沒有意外的相符項目。例如，您應在啟用規則前，先行搜尋 Prop2 報表，找出所有此條件符合的位置。
 
 ![](assets/tips-startswith.png)
+
+## 使用 VISTA 複製點擊時處理規則的套用方式
+
+如果您有設定 VISTA 規則來複製對其他報表套裝的點擊，則會透過該報表套裝中定義的任何處理規則來傳送點擊。
+
+如果原始報表套裝上已定義處理規則，這些規則可能會套用或不會套用，端視工程技術服務設定VISTA規則的方式而定。 若想得知，請詢問您的實作專家 VISTA 規則是複製「前」或「後」值至其他報表套裝。如果是複製「前」值，則不會套用原始報表套裝上定義的處理規則。如果是複製「後」值，則會在複製點擊之前套用處理規則。

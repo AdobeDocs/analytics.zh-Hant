@@ -4,9 +4,9 @@ audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
 user-guide-description: 知識庫，包含不屬於特定分析工具或元件的實用文章。
-source-git-commit: 1539649c758814d64a6f5c6dddff262df831d691
+source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 100%
 
 ---
@@ -48,6 +48,7 @@ ht-degree: 100%
 + [移轉行動服務處理規則至 Adobe Analytics](migrate-mobile.md)
 + [多貨幣支援](multicurrency.md)
 + [隱私權概觀](privacy-overview.md)
++ [處理順序](processing-order.md)
 + [漸進式網頁應用程式](pwa.md)
 + [重新導向與別名](redirects.md)
 + 地區資料彙集 {#rdc}
