@@ -1,9 +1,9 @@
 ---
 title: 處理Adobe Analytics中的資料順序
 description: 了解在Adobe Analytics中處理資料的元件和服務順序。
-source-git-commit: 65ee7ae6d838f34149eb60547d976856e4da3b17
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,15 @@ ht-degree: 0%
 
 Adobe提供許多變更或操控資料的方式，之後才會顯示在報表中。 本頁面顯示各種Adobe Analytics功能處理資料的順序。 您可以使用此清單來疑難排解資料不一致，或決定需要進行資料調整時要使用的最佳功能。
 
+![處理順序](assets/processing-order.png)
+
 ## 資料傳送至Adobe之前
 
 在將資料傳送至Adobe之前，通常會使用下列其中一種方法來編譯用戶端：
 
 * **AppMeasurement**:在您的網站上托管且在每個頁面上參照的JavaScript檔案。 資料會直接傳送至Adobe Analytics。
 * **Adobe Experience Platform Web SDK**:在您的網站上托管且在每個頁面上參照的JavaScript檔案。 資料會傳送至Adobe Experience Edge。
-* **Adobe Experience Cloud資料收集中的標籤**:每個頁面上的JavaScript參考，包含在資料收集UI中建立的規則。 Adobe Analytics擴充功能提供更輕鬆的AppMeasurement實施方式。 Web SDK擴充功能提供更輕鬆的方式來實作Web SDK。
+* **Adobe Experience Cloud資料收集中的標籤**:每個頁面上參考的JavaScript檔案，包含在資料收集UI中建立的規則。 Adobe Analytics擴充功能提供更輕鬆的AppMeasurement實施方式。 Web SDK擴充功能提供更輕鬆的方式來實作Web SDK。
 
 如果您將資料傳送至Adobe Experience Edge，可以設定它將資料轉送至Adobe Analytics(以及許多其他Adobe Experience Cloud解決方案)。 無論實施方法為何，最終都會將包含所需變數的影像要求傳送至Adobe資料收集伺服器。
 

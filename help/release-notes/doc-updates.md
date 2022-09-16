@@ -4,10 +4,10 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 7738b3c899f9d51f9f5847c3d4bef00408f94669
-workflow-type: ht
-source-wordcount: '3448'
-ht-degree: 100%
+source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
+workflow-type: tm+mt
+source-wordcount: '3331'
+ht-degree: 98%
 
 ---
 
@@ -23,14 +23,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 日期 | 說明 |
 | --- | --- |
+| **2022 年 9 月** |  |
+| 處理順序 | 已匯總各種說明頁面，以提供 [處理順序](/help/technotes/processing-order.md). |
 | **2022 年 6 月** |  |
-| XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar-merchandising.html?lang=zh-Hant)的文件 |
-| Experience Platform Edge 文件 | 透過 [Web SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/web-sdk/overview.html?lang=zh-Hant)、[Mobile SDK](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/mobile-sdk/overview.html?lang=zh-Hant) 和 [Edge API](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/edge-api/overview.html?lang=zh-Hant) 發表在 Adobe Analytics 實施上的新文章。 |
-| 已更新的流量視覺化文件 | 根據[新的 UI](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/flow/create-flow.html?lang=zh-Hant) |
-| 有關以行動計分卡共用註解的文件 | 您可以在行動計分卡上顯示[在工作區中建立的註解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/mobile-annotations.html)。 |
-| 有關 Edge 集合的銷售變數之產品語法版本的文件 | 您現在可以設定相關 XDM 欄位，使用產品語法來設定銷售變數。關於銷售變數的產品語法，如需詳細資訊，請見[這裡](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)。請在[這裡](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant#aep-edge)參閱產品語法對應。 |
+| XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](/help/components/dimensions/evar-merchandising.md)的文件 |
+| Experience Platform Edge 文件 | 透過 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/edge-api/overview.md) 發表在 Adobe Analytics 實施上的新文章。 |
+| 已更新的流量視覺化文件 | 根據[新的 UI](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| 有關以行動計分卡共用註解的文件 | 您可以在行動計分卡上顯示[在工作區中建立的註解](/help/analyze/analysis-workspace/components/annotations/mobile-annotations.md)。 |
 | **2022 年 5 月** |  |
-| 透過 Experience Edge 填入生命週期維度和量度 | 透過 Experience Edge 傳送的行動生命週期資料現在會出現在 Analytics 報告中。 請參閱文件，了解哪些 XDM 欄位對應到現有的行動生命週期報告。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) |
+| 透過 Experience Edge 填入生命週期維度和量度 | 透過Experience Edge傳送的行動生命週期資料現在會顯示在Analytics報表中。 請參閱 [Analytics變數對應](/help/implement/aep-edge/variable-mapping.md) 如需XDM欄位對應至現有行動生命週期報表的詳細資訊。 |
 | **2022 年 4 月** |  |
 | Adobe Analytics 登陸頁面更新 | 更新[工作區/Reports &amp; Analytics 聯合登陸頁面](/help/analyze/landing.md)，可改善可用性並方便瀏覽。 |
 | 「[!UICONTROL 頁面摘要]」面板的新主題 | [頁面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
