@@ -1,49 +1,49 @@
 ---
-title: 處理Adobe Analytics中的資料順序
-description: 了解在Adobe Analytics中處理資料的元件和服務順序。
+title: Adobe Analytics 中的資料處理順序
+description: 瞭解在 Adobe Analytics 中處理資料的元件和服務順序。
 source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 處理Adobe Analytics中的資料順序
+# Adobe Analytics 中的資料處理順序
 
-Adobe提供許多變更或操控資料的方式，之後才會顯示在報表中。 本頁面顯示各種Adobe Analytics功能處理資料的順序。 您可以使用此清單來疑難排解資料不一致，或決定需要進行資料調整時要使用的最佳功能。
+Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法。此頁面顯示各種 Adobe Analytics 功能處理資料的順序。您可以使用此清單來解決資料不一致問題，或在需要調整資料時決定使用哪種功能效果最好。
 
 ![處理順序](assets/processing-order.png)
 
-## 資料傳送至Adobe之前
+## 傳送到 Adobe 之前的資料
 
-在將資料傳送至Adobe之前，通常會使用下列其中一種方法來編譯用戶端：
+在將資料傳送到 Adobe 之前，通常會使用以下其中一種方法在用戶端對其進行編譯：
 
-* **AppMeasurement**:在您的網站上托管且在每個頁面上參照的JavaScript檔案。 資料會直接傳送至Adobe Analytics。
-* **Adobe Experience Platform Web SDK**:在您的網站上托管且在每個頁面上參照的JavaScript檔案。 資料會傳送至Adobe Experience Edge。
-* **Adobe Experience Cloud資料收集中的標籤**:每個頁面上參考的JavaScript檔案，包含在資料收集UI中建立的規則。 Adobe Analytics擴充功能提供更輕鬆的AppMeasurement實施方式。 Web SDK擴充功能提供更輕鬆的方式來實作Web SDK。
+* **AppMeasurement**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料直接傳送到 Adobe Analytics。
+* **Adobe Experience Platform Web SDK**：託管在您的網站上並在每個頁面上參考的 JavaScript 檔案。資料會傳送到 Adobe Experience Edge。
+* **Adobe Experience Cloud 資料彙集中的標籤**：每個頁面上參考的 JavaScript 檔案，包含在資料彙集 UI 中建立的規則。Adobe Analytics 擴充功能可讓您用更簡單的方法執行 AppMeasurement。Web SDK 擴充功能可讓您用更簡單的方法執行 Web SDK。
 
-如果您將資料傳送至Adobe Experience Edge，可以設定它將資料轉送至Adobe Analytics(以及許多其他Adobe Experience Cloud解決方案)。 無論實施方法為何，最終都會將包含所需變數的影像要求傳送至Adobe資料收集伺服器。
+如果您將資料傳送到 Adobe Experience Edge，您可以將其設定為將資料轉寄到 Adobe Analytics (以及許多其他 Adobe Experience Cloud 解決方案)。不管執行方法如何，最終都會將具有所需變數的影像要求傳送到 Adobe 資料彙集伺服器。
 
-## 資料到達Adobe Analytics資料收集伺服器時
+## 資料到達 Adobe Analytics 資料彙集伺服器時
 
-資料到達Adobe Analytics後，下列功能會視需要調整資料：
+資料到達 Adobe Analytics 後，以下功能會根據需要調整資料：
 
-1. **查閱表格**:依賴Adobe — 內部查閱表格的Dimension(例如 [瀏覽器](/help/components/dimensions/browser.md) 維度)與其對應的值相符。
-2. [**動態變數**](/help/implement/vars/page-vars/dynamic-variables.md):如果在影像要求的任何部分看到動態變數，則會複製該值，並視為未來的獨立值。
-3. [**機器人規則**](/help/admin/admin/bot-removal/bot-rules.md):套用標準或自訂機器人篩選，從報表中排除該資料。
-4. [**處理規則**](/help/admin/admin/c-processing-rules/processing-rules.md):貴組織套用至資料的自訂規則。 包括 [內容資料變數](/help/implement/vars/page-vars/contextdata.md) 變數。
-5. **VISTA規則**:由Adobe顧問套用至資料的自訂彈性規則。 VISTA規則可能會在處理規則之前或之後執行，視貴組織的需求而定。 大部分的VISTA規則通常在處理規則之後執行，但每個組織的設定都不同。 如需現有VISTA規則的詳細資訊，請連絡您的Adobe客戶經理。
-6. [**行銷管道處理規則**](/help/components/c-marketing-channels/c-rules.md):您可以使用 [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md) 以準備資料以用於行銷管道處理規則。
-7. **地理位置資料**:依賴IP位址查閱的Dimension(例如 [國家/地區](/help/components/dimensions/countries.md) 維度)。
-8. [**IP模糊化**](/help/admin/admin/general-acct-settings-admin.md):如果貴組織已選擇將原始資料中的IP位址模糊化，則會在所有其他處理功能完成後完成。
+1. **查詢表格**：依賴 Adobe 內部查詢表格的維度 (例如[瀏覽器](/help/components/dimensions/browser.md)維度) 與其對應的值相符。
+2. [**動態變數**](/help/implement/vars/page-vars/dynamic-variables.md)：如果在影像要求的任何部分中顯示動態變數，則會複製該值並將其視為向前移動的獨立值。
+3. [**機器人規則**](/help/admin/admin/bot-removal/bot-rules.md)：套用標准或自訂機器人篩選以從報告中排除該資料。
+4. [**處理規則**](/help/admin/admin/c-processing-rules/processing-rules.md)：您的組織套用於您資料的自訂規則。包括[內容資料變數](/help/implement/vars/page-vars/contextdata.md)對應到其各自的變數。
+5. **VISTA 規則**：VISTA 顧問套用於您資料的靈活自訂規則。VISTA 規則可能會在處理規則之前或之後執行，依您組織的需求而定。通常大多數 VISTA 規則會在處理規則之後執行，但每個組織的設定不同。有關現有 VISTA 規則的更多資訊，請連絡您的 Adobe 客戶經理。
+6. [**行銷管道處理規則**](/help/components/c-marketing-channels/c-rules.md)：您可以使用[處理規則](/help/admin/admin/c-processing-rules/processing-rules.md)來準備要用於行銷管道處理規則的資料。
+7. **地理位置資料**：填入依賴 IP 地址查詢的維度 (例如[國家/地區](/help/components/dimensions/countries.md)維度)。
+8. [**IP 混淆**](/help/admin/admin/general-acct-settings-admin.md)：如果您的組織選擇在原始資料中混淆 IP 地址，則這會在完成其他處理功能後執行。
 
-此時，個別點擊會記錄在報表套裝資料表中。 在標準之後 [延遲](latency.md) 間隔，可在報告中使用。
+此時，單依點擊記錄在報告套裝資料表中。在標準[延遲](latency.md)間隔之後，它可以在報告中使用。
 
-## 在處理資料後變更資料
+## 在處理後變更資料
 
-Adobe Analytics的資料大多是永久性的；不過，有些功能可允許選擇性調整或移除資料：
+Adobe Analytics 中的資料大多是永久性的；但有些功能允許選擇資料調整或刪除：
 
-* [**資料修復API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/):編輯特定欄或刪除所需的資料列。
-* [**資料控管**](/help/admin/c-data-governance/an-gdpr-workflow.md):接受隱私權要求以永久刪除資料。
-* [**分類**](/help/components/classifications/c-classifications.md):根據規則或上傳的資料建立維度，以便以不同方式組織資料。 基礎報表套裝資料不會變更，因此您可以自由編輯或覆寫分類資料。
-* [**虛擬報表套裝**](/help/components/vrs/vrs-about.md):建立可變更造訪逾時或允許的替代報表套裝檢視 [跨裝置分析](/help/components/cda/overview.md).
+* [**資料修復 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：編輯特定欄或刪除所需的資料列。
+* [**資料治理**](/help/admin/c-data-governance/an-gdpr-workflow.md)：滿足隱私要求而永久刪除資料。
+* [**分類**](/help/components/classifications/c-classifications.md)：根據允許您以不同方式組織資料的規則或上傳的資料建立維度。基礎報告套裝資料不會變更，因此您可以自由編輯或覆寫分類資料。
+* [**虛擬報告套裝**](/help/components/vrs/vrs-about.md)：建立可以變更存取逾時或允許[跨裝置分析](/help/components/cda/overview.md)的備用報告套裝檢視。
