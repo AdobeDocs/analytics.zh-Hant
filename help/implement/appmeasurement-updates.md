@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '2267'
-ht-degree: 100%
+source-git-commit: b99852f4b8e0a3034ea8965e5646b1ab2f1a8c4c
+workflow-type: tm+mt
+source-wordcount: '2325'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
 您可以在[代碼管理器](/help/admin/admin/code-manager-admin.md)中下載最新版的 AppMeasurement。
+
+## 2.23.0 版本
+
+發行日期： **TBD**
+
+* AppMeasurement現在支援收集高熵使用者代理用戶端提示，Chromium瀏覽器(Google Chrome和Microsoft Edge)會使用這些提示來提供裝置資訊。 您可以通過標籤配置客戶端提示，或使用「collectHighEntropyUserAgentHints」標誌。 高熵提示集合預設為關閉。 在此了解有關用戶代理客戶端提示的更多資訊 [連結].
+
 
 ## 2.22.4 版本
 
@@ -449,7 +456,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 發行日期：**2013 年 11 月 14 日**
 
 * 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
 
 ## 1.1.1 版本
 
