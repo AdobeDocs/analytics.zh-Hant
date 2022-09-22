@@ -3,10 +3,10 @@ title: SFTP 服務升級 - 常見問答集
 description: 有關計畫的SFTP服務升級的常見問題。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
-source-git-commit: d16d97673c33203afa60599da733425b04f84660
+source-git-commit: 70ede981a0f6f7aebbbdf4dbcbf9e5187a3df495
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 89%
+source-wordcount: '449'
+ht-degree: 87%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 89%
 以下功能提供使用 SFTP 將資料上傳到 Adobe Analytics 的選項。
 
 * [分類](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-saint.html?lang=zh-Hant)
+
+* [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=en)
 
 * [資料摘要](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/set-up-ftp-accounts/ftp-datafeeds.html?lang=zh-Hant)
 
