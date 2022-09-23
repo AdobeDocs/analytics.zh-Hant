@@ -1,10 +1,10 @@
 ---
 title: 客戶端提示
 description: 了解客戶端提示如何逐漸取代用戶代理作為設備資訊的源。
-source-git-commit: cd8370f6c19e79e1a8a506e772db390708e96a44
+source-git-commit: c26012465b998b2d05bd08e8ddb064cd43940449
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 5%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 5%
 
 Google將User-Agent客戶端提示分為兩類：低熵和高熵提示。
 
-* 低熵提示對設備有更通用的資訊。 這些提示由Chromium瀏覽器自動提供。
+* **低熵提示** 包含更多有關設備的一般資訊。 這些提示由Chromium瀏覽器自動提供。
 
-* 高熵提示有更詳細的資訊。 這些提示僅可通過請求獲得。 AppMeasurement和Web SDK都可設定為要求高熵提示。 依預設，兩個程式庫都會執行 **not** 請求高熵提示。
+* **高熵** 提示包含更詳細的資訊。 這些提示僅可通過請求獲得。 AppMeasurement和Web SDK都可設定為要求高熵提示。 依預設，兩個程式庫都會執行 **not** 請求高熵提示。
 
 >[!NOTE]
 >

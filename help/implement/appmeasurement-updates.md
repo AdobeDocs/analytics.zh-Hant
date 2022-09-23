@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 4a1d151df7cd23ebc6cf8e7c317cdf5196056bca
+source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
 workflow-type: tm+mt
-source-wordcount: '2325'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2022 年 9 月 23 日**
 
-* AppMeasurement現在支援收集高熵使用者代理用戶端提示，Chromium瀏覽器(Google Chrome和Microsoft Edge)會使用這些提示來提供裝置資訊。 您可以通過標籤配置客戶端提示，或使用「collectHighEntropyUserAgentHints」標誌。 高熵提示集合預設為關閉。 在此了解有關用戶代理客戶端提示的更多資訊 [連結].
+* AppMeasurement現在支援收集高熵使用者代理用戶端提示，Chromium瀏覽器(Google Chrome和Microsoft Edge)會使用這些提示來提供裝置資訊。 您可以通過標籤配置客戶端提示，或使用「collectHighEntropyUserAgentHints」標誌。 高熵提示集合預設為關閉。 深入了解User-Agent [客戶端提示](/help/technotes/client-hints.md).
 
 
 ## 2.22.4 版本
