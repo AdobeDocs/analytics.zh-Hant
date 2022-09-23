@@ -4,10 +4,10 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 64693627459b85031edbe61865077c44f93f72bf
-workflow-type: ht
-source-wordcount: '3331'
-ht-degree: 100%
+source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
+workflow-type: tm+mt
+source-wordcount: '3467'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,14 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 日期 | 說明 |
 | --- | --- |
 | **2022 年 9 月** |  |
+| 組合圖 | 新主題 [組合圖](/help/analyze/analysis-workspace/visualizations/combo-charts.md) 視覺效果。 |
+| 更新的外掛程式 | 更新版本 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 實施外掛程式。 |
+| 新組態變數 | 關於 [collectHighEntropyUserAgentHints](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md) |
+| 高熵客戶端提示 | Adobe使用方式的新主題 [客戶端提示](/help/technotes/client-hints.md) 除了User-Agent外，還可確定設備資訊。 |
 | 處理順序 | 匯總了各種說明頁面以提供有關[處理順序](/help/technotes/processing-order.md)的單一說明主題 |
+| **2022 年 8 月** |  |
+| XDM 中用於 Edge 集合的清單變數支援 | 使透過 Experience Edge/Web SDK 收集資料的客戶能使用 XDM 來指定清單變數內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/list.html?lang=zh-Hant#list-variables-using-the-web-sdk) | 2022 年 8 月 18 日 |
+| 設定產品字串變數時，為 Edge 集合使用 XDM 中的 SKU 欄位 | 使透過 Experience Edge/Web SDK 收集資料的客戶能使用 SKU 值在產品變數中設定產品欄位。[了解更多](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=zh-Hant#products-using-the-web-sdk) |
 | **2022 年 6 月** |  |
 | XDM 中用於 Edge 集合的銷售變數 | 有關 [XDM 中用於 Edge 集合的銷售變數支援](/help/components/dimensions/evar-merchandising.md)的文件 |
 | Experience Platform Edge 文件 | 透過 [Web SDK](/help/implement/aep-edge/web-sdk/overview.md)、[Mobile SDK](/help/implement/aep-edge/mobile-sdk/overview.md) 和 [Edge API](/help/implement/aep-edge/edge-api/overview.md) 發表在 Adobe Analytics 實施上的新文章。 |
@@ -37,7 +44,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 「[!UICONTROL 頁面摘要]」面板的新主題 | [頁面摘要面板](/help/analyze/analysis-workspace/c-panels/page-summary.md) |
 | 「[!UICONTROL 下一個/前一個項目]」面板的新主題 | [下一個/前一個維度項目面板](/help/analyze/analysis-workspace/c-panels/next-previous.md) |
 | **2022 年 3 月** |  |
-| 有關受支援的 HTTPS 加密演算法的新主題 | 為加密安全等級設定為「高度」的客戶提供的[受支援 HTTPS 加密演算法](/help/technotes/rdc/encryption-algos.md)。 |
+| 有關受支援的 HTTPS 加密演算法的新主題 | [支援的HTTPS加密演算法](/help/technotes/rdc/encryption-algos.md) 密碼安全級別設為「高」的客戶。 |
 | 有關工作區中註解的新文件 | [工作區中的註解](/help/analyze/analysis-workspace/components/annotations/overview.md)讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。 |
 | Adobe Analytics 登陸頁面更新 | [更新](/help/analyze/landing.md)工作區/Reports &amp; Analytics 聯合登陸頁面，可改善可用性並方便瀏覽。 |
 | 「[!UICONTROL 下一個項目]」或「[!UICONTROL 上一個項目]」工作區面板 | 此面板可讓您瀏覽您所選維度項目之後或之前的項目。 |
@@ -65,7 +72,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 6 月 15 日 | 已更新[行銷通路最佳實務](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/mchannel-best-practices.html) |
 | 2021 年 6 月 3 日 | 已更新文件，以便為[資料摘要實作](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant)和[此處](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/df-faq.html?lang=zh-Hant#BucketOwnerFullControl)提供更好的說明。 |
 | 2021 年 5 月 25 日 | 已更新有關[報告中 eVar 區分大小寫情況](https://experienceleague.adobe.com/docs/analytics/components/dimensions/evar.html)的文件。 |
-| 2021 年 5 月 13 日 | [Data Warehouse API 要求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)的更新。 這類要求現在支援「小時」。 |
+| 2021 年 5 月 13 日 | [Data Warehouse API 要求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)的更新。 他們現在支援「小時」。 |
 | **2021 年 3 月** |  |
 | 2021 年 3 月、4 月 | Adobe Analytics 儀表板[執行指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html)和[組織者指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)的更新 |
 | 2021 年 3 月 25 日 | 有關「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面的新文件。 它可讓您為使用者管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。 「[!UICONTROL 使用者偏好設定]」會套用到所有新的專案和面板。 <br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 使用者偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
@@ -107,9 +114,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 6 月 18 日 | 有關 [Attribution IQ：演算法歸因](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html)的新文件 |
 | 2020 年 6 月 18 日 | 有關 [Attribution IQ：自訂回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows)的新文件 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
-| 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html)的新文件。 專案能以「可供檢視」狀態與使用者共用。 當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
+| 2020 年 6 月 18 日 | 有關[「僅供檢視」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html)的新文件。 專案只能以「可檢視」的形式與使用者共用。 當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 |
 | 2020 年 6 月 18 日 | 有關共用工作區專案的[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文件。 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。 |
-| 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文件。 新增至「可編輯」角色的收件者可在他們已獲共用的專案中執行儲存作業。 無論管理員或非管理人員均適用。 |
+| 2020 年 6 月 18 日 | 有關[「共同編輯」工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)的新文件。 新增至「可編輯」角色的收件者可在已與他們共用的專案中儲存。 無論管理員或非管理人員均適用。 |
 | **2020 年 5 月** |  |
 | 2020 年 5 月 31 日 | 有關[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md) 的新文件 |
 | 2020 年 5 月 21 日 | 有關 [Adobe Analytics 儀表板](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/home.html)的新文件 |
@@ -148,7 +155,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 11 月 21 日 | 已更新 [Audience Analytics 工作流程常見問答](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/mc-audiences-faqs.html?lang=zh-Hant)來指示直播串流中的可用性。 |
 | 2019 年 10 月 25 日 | 已更新「[Adobe Analytics 重要概念](/help/technotes/terms.md)」頁面。 |
 | 2019 年 10 月 10 日 | 自由格式表格總計的更新：這類表格現在包含兩個總計：**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總和]**。 表格總計列計入套用的[報表篩選器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.html)。以前只有區段會影響總計。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
-| 2019 年 10 月 10 日 | 在工作區中，輕鬆地移除「未指定 (無)」的功能已新增為報表篩選的選項。 |
+| 2019 年 10 月 10 日 | 在工作區中，輕鬆移除「未指定（無）」的功能已新增為報表篩選器的選項。 |
 | 2019 年 10 月 10 日 | 在工作區中，紫色的粒度元件 (分鐘、小時、天、週、月、季、年) 已過時。 如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
 | 2019 年 10 月 1 日 | 有關[工作區總計](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/workspace-totals.html#cja-workspace?lang=zh-Hant)的新文件。 |
 | 2019 年 9 月 28 日 | [Javascript 實作的設定變數](/help/implement/vars/config-vars/configuration-variables.md)的相關新文章 |
