@@ -1,9 +1,9 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: 使用collectHighEntropyUserAgentHints變數來判斷Adobe是否會從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)要求高熵提示。
-source-git-commit: 03d12625a0089672fa0a27f8f720065c5ca16a62
+source-git-commit: 9c386dd26e31b8b2dc2b4a52ae502f9505ec467d
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '219'
 ht-degree: 3%
 
 ---
@@ -19,7 +19,7 @@ Adobe Analytics使用高熵用戶端提示來改善裝置和瀏覽器識別。 �
 
 ## 使用Adobe Analytics擴充功能收集高熵提示
 
-「收集高熵使用者代理提示」是在設定Adobe Analytics擴充功能時，於「一般」設定追蹤器下方的核取方塊。
+**[!UICONTROL 收集高熵用戶代理提示]** 是設定Adobe Analytics擴充功能時一般折疊式功能表下方的核取方塊。
 
 1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/#/@adobepm/data-collection) 使用您的AdobeID憑證。
 
