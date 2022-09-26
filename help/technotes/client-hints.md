@@ -1,10 +1,10 @@
 ---
 title: 用戶端提示
 description: 進一步了解 客戶端提示如何逐漸取代用戶代理作為設備資訊的源。
-source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
+source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 55%
+source-wordcount: '855'
+ht-degree: 52%
 
 ---
 
@@ -86,9 +86,15 @@ Adobe使用第三方Device Atlas,Device Atlas將同時使用客戶端提示和Us
 
 +++
 
++++**是否通過不安全的連接支援客戶端提示？
+
+不行。只能通過安全的HTTP連接（如HTTPS）收集客戶端提示。
+
++++
+
 +++**透過 Adob&#x200B;&#x200B;e Source Connector 傳送到 AEP 和 CJA 的資料中是否會提供用戶端提示？**
 
-我們計劃在 2023 年上半年透過 Adob&#x200B;&#x200B;e Source Connector 在資料中包含用戶端提示。
+Adobe計畫在2023年上半年通過Adobe源連接器將客戶端提示納入資料中。
 
 +++
 
