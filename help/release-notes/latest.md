@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 36abc6f887074a7f79e223277c21223ab1493afa
+source-git-commit: 4c44fab928f7606a64b671a9d300f0ff522d3c68
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 88%
+source-wordcount: '1391'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics版本可在 [連續配送模型](releases.md) 這可讓您以更
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 在 Workspace 中的組合圖表視覺效果 | 組合圖表讓您更輕鬆且直覺地比較在 Workspace 內的指標。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html) | 2022 年 9 月 14 日 |
-| AppMeasurement 2.23.0版 | AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。 [了解更多](/help/technotes/client-hints.md) | 2022 年 9 月 23 日 |
+| AppMeasurement 2.23.0版 | AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。 [了解更多](/help/technotes/client-hints.md) | 2022 年 9 月 22 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -44,8 +44,8 @@ AN-288519; AN-289300; AN-297387; AN-297465; AN-297520; AN-297641; AN-298134; AN-
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **遵循 Google 用戶端提示更新裝置查詢** | 2022 年 8 月 19 日 | 自2022年10月起，Adobe將開始在從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)衍生點擊的特定裝置資訊時，除使用者代理外，還使用用戶端提示。 這是為了回應Google逐步減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料的計畫。 在 [此處](https://web.dev/user-agent-client-hints/) 閱讀有關用戶端提示的更多資訊。<p> 到10月，AppMeasurement和Web SDK收集程式庫都將支援用戶端提示的收集，以及設定是否收集到高熵用戶端提示的設定。 在此變更中，Adobe將使用Device Atlas進行與使用者代理相關的所有裝置查閱。 目前 Device Atlas 僅用於行動裝置點擊。這些更新可能會對過去衍生自使用者代理的裝置資訊進行小幅變更，具體來說是瀏覽器、瀏覽器類型、作業系統、作業系統類型和行動裝置。 [了解更多](/help/technotes/client-hints.md) |
-| **SFTP 升級** | 2022 年 9 月 19 日 | Adobe 先前已宣布，Adobe 會在 2022 年 9 月升級其安全檔案傳輸協定 (SFTP) 服務，以提升檔案傳輸的安全性。Adobe 已將此升級延後到 **2022 年 9 月 20 日**。進行此變更後，即不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2022 年 8 月 19 日 | 開始於 **2022年10月5日**，從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)衍生點擊的特定裝置資訊時，Adobe將開始使用除使用者代理以外的用戶端提示。 這是為了回應Google逐步減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料的計畫。 在 [此處](https://web.dev/user-agent-client-hints/) 閱讀有關用戶端提示的更多資訊。<p> 到10月，AppMeasurement和Web SDK收集程式庫都將支援用戶端提示的收集，以及設定是否收集到高熵用戶端提示的設定。 在此變更中，Adobe將使用Device Atlas進行與使用者代理相關的所有裝置查閱。 目前 Device Atlas 僅用於行動裝置點擊。這些更新可能會對過去衍生自使用者代理的裝置資訊進行小幅變更，具體來說是瀏覽器、瀏覽器類型、作業系統、作業系統類型和行動裝置。 [了解更多](/help/technotes/client-hints.md) |
+| **SFTP 升級** | 2022 年 9 月 19 日 | Adobe 先前已宣布，Adobe 會在 2022 年 9 月升級其安全檔案傳輸協定 (SFTP) 服務，以提升檔案傳輸的安全性。Adobe在 **2022年9月20日**. 發生此變更時，不再支援某些SFTP用戶端設定。 這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 符合[此處](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/sftp-upgrade.html)詳述的變更。 |
 | **變更 Analytics 透過 Experience Edge 對所收集之 A4T 資料的處理方式** | 2022 年 9 月 14 日 | 2022 年 3 月，Analytics 變更了對於源自 Experience Edge 之部分呼叫的處理方式，其中包含 A4T 資料。含 A4T 報告內容的點擊已經過修改，因此不會視為頁面檢視 (`t()`) 或連結追蹤 (`tl()`) 事件。此邏輯現在已更新，以包含 `propositionDisplay` 事件未如預期修改的情況。 |
 | **適用於 Web SDK 中清單變數和清單屬性的自動分隔符號** | 2022 年 9 月 14 日 | 清單變數和清單屬性現在會使用報告套裝設定中指定的分隔符號，除非 XDM 中指定了分隔符號覆寫。如需詳細資訊，請參閱[清單](/help/implement/vars/page-vars/list.md)變數。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。如果您有任何疑問，請聯絡客戶服務代表以取得 Data Workbench 的替代解決方案。 |
