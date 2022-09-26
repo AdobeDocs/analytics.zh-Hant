@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 36abc6f887074a7f79e223277c21223ab1493afa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1392'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics版本可在 [連續配送模型](releases.md) 這可讓您以更
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
 | 在 Workspace 中的組合圖表視覺效果 | 組合圖表讓您更輕鬆且直覺地比較在 Workspace 內的指標。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/combo-charts.html) | 2022 年 9 月 14 日 |
-| AppMeasurement 2.23.0版 | AppMeasurement現在支援收集高熵使用者代理用戶端提示，Chromium瀏覽器(Google Chrome和Microsoft Edge)會使用這些提示來提供裝置資訊。 您可以通過標籤配置客戶端提示，或使用「collectHighEntropyUserAgentHints」標誌。 高熵提示集合預設為關閉。 [了解更多](/help/technotes/client-hints.md) | 2022 年 9 月 23 日 |
+| AppMeasurement 2.23.0版 | AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。 [了解更多](/help/technotes/client-hints.md) | 2022 年 9 月 23 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
