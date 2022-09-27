@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 自訂收集的資料，以充份運用 Adobe Analytics。
 source-git-commit: 72ef2d5e34220f1703714fac40a9dae4e76c1ab1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '402'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ ht-degree: 99%
       + [跨裝置連結使用者總覽](js/xdevice-visid/xdevice-connecting.md)
       + [變數持續性](js/xdevice-visid/variable-persistence.md)
       + [造訪範例](js/xdevice-visid/visit-example.md)
-      + [舊版跨裝置常見問答](js/xdevice-visid/xdevice-faq.md)
+      + [舊版跨裝置常見問題集](js/xdevice-visid/xdevice-faq.md)
    + [疑難排解 AppMeasurement](js/troubleshooting.md)
 + 在其他平台上實作 Analytics {#other}
    + [使用硬式編碼影像要求實作 Analytics](other/hardcoded.md)
@@ -184,7 +184,7 @@ ht-degree: 99%
    + [資料彙集查詢參數](validate/query-parameters.md)
    + [封包監視器](validate/packet-monitor.md)
    + [雜湊碰撞](validate/hash-collisions.md)
-+ [常見問答](faq.md)
++ [常見問題集](faq.md)
 + 審視您的實作 {#review}
    + [重點審視 (每次網站發佈後)](review/focused-review.md)
    + [完整審視（每 6 個月）](review/full-review.md)
