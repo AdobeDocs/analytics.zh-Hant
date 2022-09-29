@@ -4,7 +4,7 @@ description: 進一步了解用戶端提示將逐漸取代使用者代理程式�
 source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
 workflow-type: tm+mt
 source-wordcount: '855'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -86,15 +86,15 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++
 
-+++**是否通過不安全的連接支援客戶端提示？
++++**用戶端提示在不安全連線時是否受到支援？
 
-不行。只能通過安全的HTTP連接（如HTTPS）收集客戶端提示。
+否。用戶端提示只能透過安全的 HTTP 連線 (例如 HTTPS) 收集。
 
 +++
 
-+++**透過 Adob&#x200B;&#x200B;e Source Connector 傳送到 AEP 和 CJA 的資料中是否會提供用戶端提示？**
++++**透過 Adobe Source Connector 傳送到 AEP 和 CJA 的資料中是否提供用戶端提示？**
 
-Adobe計畫在2023年上半年通過Adobe源連接器將客戶端提示納入資料中。
+Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包含用戶端提示。
 
 +++
 
