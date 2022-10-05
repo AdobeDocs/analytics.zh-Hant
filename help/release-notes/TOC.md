@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 發行說明
 breadcrumb-title: 發行說明
-user-guide-description: 以下是新功能和錯誤修正描述的清單。
-source-git-commit: a6f2e241617d118479b79d00305f7ed4dc3dfd67
-workflow-type: ht
+user-guide-description: 了解Adobe Analytics中的新功能和修正。
+source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
+workflow-type: tm+mt
 source-wordcount: '39'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 

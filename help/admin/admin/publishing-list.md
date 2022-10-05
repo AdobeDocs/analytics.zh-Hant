@@ -4,11 +4,10 @@ title: 發佈清單
 feature: Admin Tools
 uuid: 07dad661-c302-4981-80d1-3169ad1fe90e
 exl-id: 5c9a0ae7-742b-4247-bcbc-2e979af6160c
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 2f14b9059601fd0b8d1603cb7dfc4a0b4a3ff55e
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 49%
 
 ---
 
@@ -17,6 +16,24 @@ ht-degree: 100%
 「發佈清單」可讓您輕鬆地傳送您的組織內不同群組所專用的各種報告，而無須個別建立數個排程報告。若您具有區位性的報表套裝，而想為每個部門分別提供一份特定的控制面板，「發佈清單」將可派上用場。或者，若您處理的是單一報表套裝，您可以使用發佈清單將資料傳送給多人，而無須個別鍵入其電子郵件地址。
 
 在排程報告時，可指定多重發佈清單。
+
+## 發佈清單終止服務
+
+如您所知，Adobe將於2023年12月31日淘汰Reports and Analytics(R&amp;A)和Site Catalyst點產品。 [您可以在這裡進一步了解生命週期結束以及如何做好準備](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+
+R&amp;A中預計於當天終止的功能之一是發佈清單。 日曆事件和頁面摘要報表等功能在Analysis Workspace中確實/將會有同等版本。 不過，「發佈清單」並非其中之一，當R&amp;A結束時，將會淘汰「發佈清單」。 **您將無法建立新的或存取現有的發佈清單，以傳送或排程Analysis Workspace專案。**
+
+為避免依賴發佈清單的目前報表發佈工作流程中斷，我們請您考慮下列替代方案：
+
+* 如果您使用「發佈清單」將相同版本的報表分發給多位使用者（而不套用報表套裝覆寫）:
+
+   在Analysis Workspace中將報表重新建立為專案後，您就可以使用為郵件用戶端建立的聯絡組或通訊組清單，以及工作區的「已排程專案」功能，來傳送或排程專案的循環傳送。 如同「發佈清單」，接著會將專案的PDF/CSV版本傳送至群組/清單中的每個電子郵件ID。 您可以進一步了解 [此處的排程專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/t-schedule-report.html?lang=en#:~:text=Scheduled%20Analysis%20Workspace%20projects%20can,options%20in%20the%20left%20rail.).
+
+* 如果您使用「發佈清單」將多個報表或控制面板版本分送給多個使用者（透過報表套裝覆寫功能）:
+
+   Analysis Workspace不支援報表套裝覆寫。 也不支援在共用或排程專案時鎖定報表套裝的功能。 若要複製工作流程，您可能必須建立相同專案的多個版本，並套用至每個版本的不同報表套裝，然後使用上述的排程專案功能。
+
+如有其他問題或需要更多支援，請和 Adobe 客戶服務聯絡。
 
 ## 發佈清單管理員說明 {#section_099DF8AC5691495F9B22C71266DD6004}
 

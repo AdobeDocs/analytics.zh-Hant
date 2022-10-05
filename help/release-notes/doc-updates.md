@@ -4,10 +4,10 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: 0a23ad56a661a420dd44e2875c22927f9734dedf
-workflow-type: ht
-source-wordcount: '3467'
-ht-degree: 100%
+source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+workflow-type: tm+mt
+source-wordcount: '3545'
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 ## 主要文件更新的詳細資訊
 
-| 日期 | 說明 |
+| 功能 | 說明 |
 | --- | --- |
+| **2022年10月** |  |
+| 關鍵量度摘要 | 新主題 [關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) 視覺效果。 |
+| 分類集 | 新使用者 [分類集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) 體驗提供單一介面，可管理分類和規則，並改善客戶擁有的分類資料的可見性。 |
+| 行動應用程式：自訂詳細資料檢視 | 新主題 [自訂詳細資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant). |
+| Data Workbench | Data Workbench [終止常見問題集](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **2022 年 9 月** |  |
 | 組合圖 | 在[組合圖](/help/analyze/analysis-workspace/visualizations/combo-charts.md)視覺化上的新主題。 |
 | 更新外掛程式 | 更新版本的 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 實作外掛程式。 |
