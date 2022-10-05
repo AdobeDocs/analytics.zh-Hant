@@ -3,7 +3,7 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 631c217d45b2504b1faa3bb2e585d3dcdfac128c
+source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 79%
@@ -42,7 +42,7 @@ AN-298512;AN-300117;AN-301754;AN-301584;AN-301685;AN-301783;AN-301818;AN-301825;
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **預設登陸頁面** | 2023 年 9 月 | 此 [新登陸頁面](/help/analyze/landing.md) 今年早些時候推出的體驗，將成為 **2023年1月**. 目前的頁面將遭取代，而且需要每個人都使用新體驗。 |
+| **預設登陸頁面** | 2022 年 9 月 29 日 | 此 [新登陸頁面](/help/analyze/landing.md) 今年早些時候推出的體驗，將成為 **2023年1月**. 目前的頁面將遭取代，而且需要每個人都使用新體驗。 |
 | **終止 [!UICONTROL 發佈清單] 功能** | 2022 年 9 月 29 日 | 發佈清單預計於 **2023年12月**. 您將無法建立新的或存取現有的發佈清單，以傳送或排程Analysis Workspace專案。 [了解更多](/help/admin/admin/publishing-list.md) |
 | **[!UICONTROL 異常偵測] 自動執行條件** | 2022 年 9 月 29 日 | 今天， [!UICONTROL 異常偵測] 在時間序列自由表格的所有欄上自動執行。 為確保資料可供分析使用，且專案載入更快，Adobe會變更異常偵測自動執行的方式。 開始 **2022年10月26日**, [!UICONTROL 異常偵測] 只會在表格中的第一個量度欄上自動執行。 您可以視需要設定欄設定，對其他欄執行異常偵測。 |
 | **新 NetAcuity 電信業者資料庫的更新** | 2022 年 9 月 26 日 | 這項更新原計劃於 2022 年 10 月 5 日推出，現已推遲到 **2023 年 1 月**。儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe 已維護一份內部查詢表，以便將這些 `<domain>:<ISP>` 值對應到電信業者名稱，以供在 Adobe Analytics 報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、LiveStream 等) 中進行報告之用。此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。 Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。 Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。 Adobe 採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維持舊的對應，同時加入新的對應。<p>Analytics 來源連接器目前不會對應電信業者欄位，因此 Experience Platform、CJA 等項目中目前不提供電信業者報告。因此，使用新電信業者資料庫將不會影響 Experience Platform 中以 Analytics 來源連接器所提供之資料為依據的任何內容。 |
