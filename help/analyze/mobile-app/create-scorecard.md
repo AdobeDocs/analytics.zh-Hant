@@ -4,9 +4,9 @@ title: 建立行動計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 40f335c18849551bce23f386c647f2aec32c7988
+source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
 workflow-type: ht
-source-wordcount: '1747'
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -156,13 +156,13 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用區段來設定圖磚。
 
-![「屬性」圖磚](assets/properties_tile.png)
+![「屬性」圖磚](assets/properties-tile-new.png)
 
 ## 檢視詳細投影片 {#view-detail-slides}
 
 若您按一下圖磚，動態快顯視窗會顯示應用程式中向高階主管使用者呈現詳細投影片的方式。您可新增維度以針對您的特定需求劃分資料。如果尚未套用任何維度，劃分維度會是&#x200B;**小時**&#x200B;或&#x200B;**天數**，視預設日期範圍而定。
 
-劃分會按維度項目逐個細分維度，以精進您的分析。
+劃分會按維度項目細分量度，以精進您的分析，例如以下情況：
 
 * 依廣告平台 (AMO ID) 劃分的不重複訪客量度
 * 依產品類別 (零售) 劃分的造訪
