@@ -4,7 +4,7 @@ description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1511'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | ----------- | ---------- | ------- |
 | **[!UICONTROL 關鍵量度摘要]** 視覺化 | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看一項重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=en) | 自 2022 年 10 月 5 日起分階段推出 |
 | 新的&#x200B;**[!UICONTROL 分類集]**&#x200B;使用者體驗 | 新的使用者體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。[了解更多](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en) | 2022 年 10 月 5 日 |
-| 行動應用程式：**自訂詳細資料檢視** | 自訂詳細資料檢視可讓您的對象專注於最重要的事項，藉此您可更準確地提供與對象共用的資訊。您可以對每個計分卡圖磚關聯的詳細資料檢視，修改其版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
+| 行動應用程式：**自訂詳細資料檢視** | 自訂詳細資料檢視可讓您的對象專注於最重要的事項，藉此您可更準確地提供與對象共用的資訊。您可以修改每個計分卡圖樣關聯的詳細檢視版面配置，然後新增文字以更清楚地說明一般使用者可在資料中看到的內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
 
 {style=&quot;table-layout:auto&quot;}
 

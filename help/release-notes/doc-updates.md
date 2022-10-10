@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3545'
 ht-degree: 100%
 
