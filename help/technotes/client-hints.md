@@ -1,10 +1,10 @@
 ---
 title: 用戶端提示
 description: 進一步了解用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。
-source-git-commit: f2f1e64a62796b58c24e6ff652db93b21f750669
+source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '947'
+ht-degree: 77%
 
 ---
 
@@ -21,7 +21,11 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 >[!NOTE]
 >
->從 2022 年 10 月開始，新版本的 Chromium 瀏覽器將開始「凍結」使用者代理字串中表示的作業系統版本。使用者更新其裝置時，使用者代理程式中的作業系統將不會變更。因此，一段時間後，使用者代理程式中顯示的作業版本資訊將變得較不準確。作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
+>從 2022 年 10 月開始，新版本的 Chromium 瀏覽器將開始「凍結」使用者代理字串中表示的作業系統版本。作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
+
+>[!NOTE]
+>
+>AAM需要收集高熵提示，以保留完整功能。 如果您使用 [伺服器端轉送至AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant) 然後，您可能希望啟用高熵提示的集合。
 
 ## 常見問題集
 
@@ -49,6 +53,24 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++
 
++++**各種客戶端提示值是什麼？**
+
+下表介紹了自2022年10月起的客戶端提示。
+
+| 提示 | 說明 | 高或低平圴資訊量 | 範例 |
+| --- | --- | --- | --- | 
+| Sec-CH-UA | 瀏覽器和重要版本 | 低 | 「Google Chrome 84」 |
+| Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | TRUE |
+| Sec-CH-UA-Platform | 作業系統/平台 | 低 | &quot;Android&quot; |
+| Sec-CH-UA-Arch | 網站架構  | 高 | 「arm」 |
+| Sec-CH-UA-Bitness | 架構位元 | 高 | &quot;64&quot; |
+| Sec-CH-UA-Full-Version | 瀏覽器的完整版本 | 高 | &quot;84.0.4143.2&quot; |
+| Sec-CH-UA-Full-Version-List | 品牌及其版本的清單 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
+| Sec-CH-UA-Model | 裝置型號 | 高 | 「Pixel 3」 |
+| Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | 「10」 |
+
++++
+
 +++**Analytics 中的裝置報告是否會有任何變更？**
 
 可供報告的裝置欄位將不會變更。為這些欄位擷取的資料可能會因不同欄位以及您為用戶端提示設定收藏集的方式而發生變更。
@@ -57,18 +79,19 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**哪些 Analytics 報表欄位衍生自使用者代理程式？**
 
+這些欄位直接衍生自使用者代理，但使用者代理可協助衍生其他裝置相關欄位的值，視裝置詳細資訊而定。
+
 * [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hant)
 * [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hant)
 * [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)
 * [作業系統類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=zh-Hant)
 * [行動裝置和行動裝置類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=zh-Hant)
-* [資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html?lang=zh-Hant)
 
 +++
 
 +++**哪些 Analytics 報表欄位衍生自儲存在高平均資訊量提示中的值？**
 
-截至 2022 年 9 月，Google 已發佈的「凍結」使用者代理程示提示的時間表顯示，該作業系統版本將從 2022 年 10 月開始停止更新。使用者更新其作業系統時，使用者代理程式中的作業系統將不會更新。如果沒有高平均資訊量提示，作業系統版本 (包含在 Analytics「作業系統」維度中) 的準確性將逐漸降低。
+隨著Google「凍結」使用者代理的更多部分，此狀態會隨著時間而改變。 要直接影響的第一個欄位是「作業系統」，其中包含作業系統版本根據Google發佈的「凍結」使用者代理提示時間表，作業系統版本將從2022年10月底起，以Chromium 107版凍結。 此時，用戶代理中的作業系統版本在某些情況下將不準確。
 
 若要了解使用者代理程式其他部分的凍結時間，請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。
 
@@ -82,11 +105,11 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++**哪些瀏覽器會受用戶端提示的影響？**
 
-用戶端提示僅適用於 Google Chrome 和 Microsoft Edge 之類的 Chromium 瀏覽器。對於來自其他瀏覽器或行動應用程式的資料不會產生任何變更。
+用戶端提示僅適用於Chromium瀏覽器，例如Google Chrome和Microsoft Edge。 對於來自其他瀏覽器或行動應用程式的資料不會產生任何變更。
 
 +++
 
-+++**用戶端提示在不安全連線時是否受到支援？
++++**是否通過不安全的連接支援客戶端提示？**
 
 否。用戶端提示只能透過安全的 HTTP 連線 (例如 HTTPS) 收集。
 
@@ -104,28 +127,15 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++
 
-+++**不同的提示欄位代表什麼？哪些會影響裝置報告？**
-
-下表會說明截至 2022 年 9 月的用戶端提示。
-
-| 提示 | 說明 | 高或低平圴資訊量 | 範例 |
-| --- | --- | --- | --- | 
-| Sec-CH-UA | 瀏覽器和重要版本 | 低 | 「Google Chrome 84」 |
-| Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | TRUE |
-| Sec-CH-UA-Platform | 作業系統/平台 | 低 | &quot;Android&quot; |
-| Sec-CH-UA-Arch | 網站架構  | 高 | 「arm」 |
-| Sec-CH-UA-Bitness | 架構位元 | 高 | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | 瀏覽器的完整版本 | 高 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | 品牌及其版本的清單 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | 裝置型號 | 高 | 「Pixel 3」 |
-| Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | 「10」 |
-
-+++
-
-
-
 +++**從使用者代理程式中會移除哪些部分以及何時移除？**
 
 請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。 這可能會隨時變更。
 
 +++
+
++++**AAM伺服器端轉送是否支援用戶端提示？**
+
+是。 轉送至AAM的資料中會包含用戶端提示。 請注意，AAM需要收集高熵提示，以保留完整功能。 如果您使用 [伺服器端轉送至AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) 然後，您可能希望啟用高熵提示的集合。
+
++++
+
