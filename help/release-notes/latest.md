@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 2dc8dc9f7dd9671cfa25095e075474d2b5463dc0
-workflow-type: ht
-source-wordcount: '1519'
-ht-degree: 100%
+source-git-commit: 6014be392d700fae0df1f178d1f989eb29d03477
+workflow-type: tm+mt
+source-wordcount: '1569'
+ht-degree: 96%
 
 ---
 
 # Adobe Analytics 目前發行說明 (2022 年 10 月)
 
-**上次更新**：2022 年 10 月 5 日
+****&#x200B;上次更新：2022 年 10 月 13 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -30,6 +30,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **[!UICONTROL 關鍵量度摘要]** 視覺化 | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看一項重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant) | 自 2022 年 10 月 5 日起分階段推出 |
 | 新的&#x200B;**[!UICONTROL 分類集]**&#x200B;使用者體驗 | 新的使用者體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。[了解更多](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
 | 行動應用程式：**自訂詳細資料檢視** | 自訂詳細資料檢視可讓您的對象專注於最重要的事項，藉此您可更準確地提供與對象共用的資訊。您可以修改每個計分卡圖樣關聯的詳細檢視版面配置，然後新增文字以更清楚地說明一般使用者可在資料中看到的內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
+| **不區分大小寫的多值變數** | 若為不區分大小寫的多值變數，則儲存在 `mvvar1` - `mvvar3` 資料摘要中的「 」不再自動變成小寫。 相反地，資料饋送(以及透過Analytics Source Connector傳遞至Adobe Experience Platform和CJA的資料)將會反映從頁面傳入的原始大小寫。 | 2022 年 10 月 24 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
