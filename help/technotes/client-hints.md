@@ -4,7 +4,7 @@ description: 進一步了解用戶端提示將逐漸取代使用者代理程式�
 source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
 workflow-type: tm+mt
 source-wordcount: '947'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 >[!NOTE]
 >
->AAM需要收集高熵提示，以保留完整功能。 如果您使用 [伺服器端轉送至AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant) 然後，您可能希望啟用高熵提示的集合。
+>AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 ## 常見問題集
 
@@ -53,9 +53,9 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++
 
-+++**各種客戶端提示值是什麼？**
++++**什麼是各種用戶端提示值？**
 
-下表介紹了自2022年10月起的客戶端提示。
+下表會說明截至 2022 年 10 月的用戶端提示。
 
 | 提示 | 說明 | 高或低平圴資訊量 | 範例 |
 | --- | --- | --- | --- | 
@@ -79,7 +79,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**哪些 Analytics 報表欄位衍生自使用者代理程式？**
 
-這些欄位直接衍生自使用者代理，但使用者代理可協助衍生其他裝置相關欄位的值，視裝置詳細資訊而定。
+這些欄位直接衍生自使用者代理程式，但使用者代理程式可用於協助推導出其他裝置相關欄位的值 (視裝置詳細資料而定)。
 
 * [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hant)
 * [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hant)
@@ -91,7 +91,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**哪些 Analytics 報表欄位衍生自儲存在高平均資訊量提示中的值？**
 
-隨著Google「凍結」使用者代理的更多部分，此狀態會隨著時間而改變。 要直接影響的第一個欄位是「作業系統」，其中包含作業系統版本根據Google發佈的「凍結」使用者代理提示時間表，作業系統版本將從2022年10月底起，以Chromium 107版凍結。 此時，用戶代理中的作業系統版本在某些情況下將不準確。
+這將隨著時間的推移而改變，因為 Google 會「凍結」使用者代理程式的更多部分。第一個直接受影響的欄位是「作業系統」，其中包括作業系統版本。根據 Google 發布的「凍結」使用者代理程式提示的時間表，從 2022 年 10 月下旬開始凍結作業系統版本 Chromium 版本 107。在那時，使用者代理程式中的作業系統版本在某些情況下會不準確。
 
 若要了解使用者代理程式其他部分的凍結時間，請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。
 
@@ -105,11 +105,11 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++**哪些瀏覽器會受用戶端提示的影響？**
 
-用戶端提示僅適用於Chromium瀏覽器，例如Google Chrome和Microsoft Edge。 對於來自其他瀏覽器或行動應用程式的資料不會產生任何變更。
+用戶端提示僅適用於 Google Chrome 和 Microsoft Edge 之類的 Chromium 瀏覽器。對於來自其他瀏覽器或行動應用程式的資料不會產生任何變更。
 
 +++
 
-+++**是否通過不安全的連接支援客戶端提示？**
++++**用戶端提示在不安全連線時是否受到支援？**
 
 否。用戶端提示只能透過安全的 HTTP 連線 (例如 HTTPS) 收集。
 
@@ -129,13 +129,13 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++**從使用者代理程式中會移除哪些部分以及何時移除？**
 
-請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。 這可能會隨時變更。
+請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。這可能會隨時變更。
 
 +++
 
-+++**AAM伺服器端轉送是否支援用戶端提示？**
++++**AAM 伺服器端轉送是否支援用戶端提示？**
 
-是。 轉送至AAM的資料中會包含用戶端提示。 請注意，AAM需要收集高熵提示，以保留完整功能。 如果您使用 [伺服器端轉送至AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html) 然後，您可能希望啟用高熵提示的集合。
+是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++
 
