@@ -1,10 +1,10 @@
 ---
 title: 用戶端提示
 description: 進一步了解用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。
-source-git-commit: 55747b79851696fd1bff8fb7cb4849dc8c813fc0
+source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 100%
+source-wordcount: '948'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**Adobe 將如何使用用戶端提示來導出裝置資訊？**
 
-Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提示和使用者代理程式來導出裝置資訊。
+Adobe使用第三方Device Atlas,Device Atlas將同時使用客戶端提示和User-Agent來獲取設備資訊。
 
 +++
 
