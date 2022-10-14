@@ -1,10 +1,10 @@
 ---
 title: 用戶端提示
 description: 進一步了解用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。
-source-git-commit: 1bd34bd2bdbe5ad8abb75be81554837e53c112fb
+source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 97%
+source-wordcount: '1067'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,10 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 * **低平均資訊量**&#x200B;提示包含較多關於裝置的一般資訊。這些提示會由 Chromium 瀏覽器自動供應。
 
 * **高平均資訊量**&#x200B;提示包含較多詳細資訊。這些提示則只能透過請求取得。AppMeasurement 和 Web SDK [都可設定](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)為請求高平均資訊量提示。依預設，兩種資料庫都&#x200B;**不會**&#x200B;請求高平均資訊量提示。
+
+>[!NOTE]
+>
+>自2023年1月中旬起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement和Web SDK目前均支援提示資料的收集，但直到1月中旬，它才會用於裝置查詢。 這是為了避免在關鍵的年末期間可能中斷報告。 如下列作業系統版本將於10月起凍結，但由於逐步推出以及大部分使用者代理將凍結至正確的作業系統版本，我們估計這將影響&lt;3%的Chrome訪客。
 
 >[!NOTE]
 >
@@ -89,6 +93,12 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++
 
++++**從使用者代理程式中會移除哪些部分以及何時移除？**
+
+請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。這可能會隨時變更。
+
++++
+
 +++**哪些 Analytics 報表欄位衍生自儲存在高平均資訊量提示中的值？**
 
 這將隨著時間的推移而改變，因為 Google 會「凍結」使用者代理程式的更多部分。第一個直接受影響的欄位是「作業系統」，其中包括作業系統版本。根據 Google 發布的「凍結」使用者代理程式提示的時間表，從 2022 年 10 月下旬開始凍結作業系統版本 Chromium 版本 107。在那時，使用者代理程式中的作業系統版本在某些情況下會不準確。
@@ -115,6 +125,12 @@ Adobe使用第三方Device Atlas,Device Atlas將同時使用客戶端提示和Us
 
 +++
 
++++**使用API提交時，如何加入用戶端提示資料？**
+
+請參閱檔案，了解如何透過 [大量資料插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+
++++
+
 +++**透過 Adobe Source Connector 傳送到 AEP 和 CJA 的資料中是否提供用戶端提示？**
 
 Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包含用戶端提示。
@@ -124,12 +140,6 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 +++**在 XDM 中會如何表示用戶端提示？**
 
 請參閱 Adobe Experience Platform 中的[結構描述文件](https://github.com/adobe/xdm/blob/master/components/datatypes/browserdetails.schema.json#L121)。
-
-+++
-
-+++**從使用者代理程式中會移除哪些部分以及何時移除？**
-
-請參閱 [Google 發佈的時間表](https://blog.chromium.org/2021/09/user-agent-reduction-origin-trial-and-dates.html)。這可能會隨時變更。
 
 +++
 
