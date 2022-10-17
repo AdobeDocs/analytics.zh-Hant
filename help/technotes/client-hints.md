@@ -1,10 +1,10 @@
 ---
 title: 用戶端提示
 description: 進一步了解用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。
-source-git-commit: 72fc9f58e58ed4b43fb17cec194808268e8b6879
+source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
-source-wordcount: '1067'
-ht-degree: 86%
+source-wordcount: '1073'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 * **低平均資訊量**&#x200B;提示包含較多關於裝置的一般資訊。這些提示會由 Chromium 瀏覽器自動供應。
 
-* **高平均資訊量**&#x200B;提示包含較多詳細資訊。這些提示則只能透過請求取得。AppMeasurement 和 Web SDK [都可設定](/help/implement/vars/config-vars/collecthighentropyuseragenthints.md)為請求高平均資訊量提示。依預設，兩種資料庫都&#x200B;**不會**&#x200B;請求高平均資訊量提示。
+* **高平均資訊量**&#x200B;提示包含較多詳細資訊。這些提示則只能透過請求取得。AppMeasurement 和 Web SDK 都可設定為請求高平均資訊量提示。依預設，兩種資料庫都&#x200B;**不會**&#x200B;請求高平均資訊量提示。
 
 >[!NOTE]
 >
@@ -41,13 +41,9 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**我如何才能啟用用戶端提示的收藏集？**
 
-低平均資訊量提示會由瀏覽器自動提供，並包含在 Adobe 的衍生裝置和瀏覽器資訊的流程中。可將較新版本的 AppMeasurement (從 2.23.0 開始) 和 Web SDK (從 2.12.0 開始) 設定為收集高平均資訊量提示。對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
+瀏覽器自動提供低熵提示並擷取以供衍生裝置和瀏覽器資訊。 較新版本的Web SDK(從2.12.0開始)和AppMeasurement(從2.23.0開始)可設定為透過其各自的「標籤」擴充功能或直接透過設定選項收集高熵提示。 請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
 
-+++
-
-+++**我如何才能擷取高平均資訊量提示？**
-
-可設定高平均資訊量提示透過 Web SDK 和 AppMeasurement 各自的標記擴展使用其資料庫或直接使用 collectHighEntropyUserAgentHints 旗標。
+對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
 +++
 
@@ -109,7 +105,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**Adobe 將如何使用用戶端提示來導出裝置資訊？**
 
-Adobe使用第三方Device Atlas,Device Atlas將同時使用客戶端提示和User-Agent來獲取設備資訊。
+Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提示和使用者代理程式來導出裝置資訊。
 
 +++
 
