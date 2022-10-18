@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
 workflow-type: tm+mt
 source-wordcount: '1562'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ AN-298512；AN-300117；AN-301754；AN-301584；AN-301685；AN-301783；AN-30181
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **遵循 Google 用戶端提示更新裝置查詢** | 2022 年 10 月 14 日 | 原計畫於2022年10月26日在裝置查閱中使用用戶端提示，現已延後至 **2023年1月**. <p> <p>自2022年10月起，可使用Web SDK或AppMeasurement JavaScript程式庫收集用戶端提示。 但在2023年1月之前，客戶端提示不會納入設備查找。 當天，從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)衍生點擊的特定裝置資訊時，Adobe將開始使用除使用者代理以外的用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2022 年 10 月 14 日 | 原先計劃於 2022 年 10 月 26 日在裝置查找中使用的用戶端提示已延遲至 **2023 年 1 月**。 <p> <p>自 2022 年 10 月起，即可使用 Web SDK 或 AppMeasurement JavaScript 庫收集用戶端提示。但直到 2023 年 1 月，用戶端提示才會被納入裝置查找中。在那一天，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
 | **預設登陸頁面** | 2022 年 9 月 29 日 | 今年初推出的[新登錄頁面](/help/analyze/landing.md)將在 **2023 年 1 月**&#x200B;成為所有使用者的預設體驗。目前頁面將被淘汰，將要求所有人都使用新體驗。 |
 | **[!UICONTROL 異常偵測]自動執行條件** | 2022 年 9 月 29 日 | 現在，[!UICONTROL 異常偵測]會在時間序列自由表格的所有欄上自動執行。為確保資料可用於分析且專案可更快地載入，Adobe 將變更異常偵測自動執行的方式。自 **2022 年 10 月 26 日**&#x200B;開始，[!UICONTROL 異常偵測]將僅在表格的第一個量度欄上自動執行。如果需要，您可以配置欄設定，以對其他欄執行異常偵測。 |
 | **新 NetAcuity 電信業者資料庫的更新** | 2022 年 9 月 26 日 | 這項更新原計劃於 2022 年 10 月 5 日推出，現已推遲到 **2023 年 1 月**。儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe 已維護一份內部查詢表，以便將這些 `<domain>:<ISP>` 值對應到電信業者名稱，以供在 Adobe Analytics 報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、LiveStream 等) 中進行報告之用。此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。Adobe 採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維持舊的對應，同時加入新的對應。<p>Analytics 來源連接器目前不會對應電信業者欄位，因此 Experience Platform、CJA 等項目中目前不提供電信業者報告。因此，使用新電信業者資料庫將不會影響 Experience Platform 中以 Analytics 來源連接器所提供之資料為依據的任何內容。 |
@@ -54,9 +54,9 @@ AN-298512；AN-300117；AN-301754；AN-301584；AN-301685；AN-301783；AN-30181
 
 {style=&quot;table-layout:auto&quot;}
 
-## 終止通知
+## 生命週期結束重要通知
 
-| EOL產品或功能 | 新增或更新日期 | 說明 |
+| EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
 | **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。[了解更多](/help/admin/admin/publishing-list.md) |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。若需要 Data Workbench 的替代解決方案，或您有任何疑問，請聯絡客戶服務代表。[了解更多](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
