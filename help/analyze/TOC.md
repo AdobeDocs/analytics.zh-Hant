@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: ht
-source-wordcount: '1043'
-ht-degree: 100%
+source-git-commit: 51fcb9043b2983336bc1f5d674231eb5f2524142
+workflow-type: tm+mt
+source-wordcount: '1061'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,12 @@ ht-degree: 100%
    + 專案 {#build-workspace-project}
       + [專案總覽](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
+      + 工作區中的資料夾 {#workspace-folders}
+         + [關於工作區中的資料夾](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [建立資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [新增專案](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
+         + [移除專案](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
+         + [儲存新專案](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
       + [範本](analysis-workspace/build-workspace-project/starter-projects.md)
       + [多報表套裝](analysis-workspace/build-workspace-project/multiple-report-suites.md)
       + [快速鍵](analysis-workspace/build-workspace-project/fa-shortcut-keys.md)

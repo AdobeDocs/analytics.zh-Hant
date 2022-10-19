@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 51fe791a0a0ea45aab3b19f9639d8cc1a10ec114
+source-git-commit: 10b0f4f99d382cbf04b63f2dc518f0d6595d689e
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 100%
+source-wordcount: '1603'
+ht-degree: 97%
 
 ---
 
 # Adobe Analytics 目前發行說明 (2022 年 10 月)
 
-**上次更新日期**：2022 年 10 月 14 日
+**上次更新日期**：2022 年 10 月 19 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -27,7 +27,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [目標日期](releases.md) |
 | ----------- | ---------- | ------- |
-| **[!UICONTROL 關鍵量度摘要]** 視覺化 | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看一項重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant) | 自 2022 年 10 月 5 日起分階段推出 |
+| **工作區專案中的資料夾** | 工作區專案中的資料夾可協助使用者使用資料夾來組織和分類其專案，以便更妥善地擷取和存取。 共用的公司資料夾可讓管理員輕鬆建立內容，並與所有工作區使用者共用內容 [深入了解](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md) | 2022 年 10 月 19 日 |  | **[!UICONTROL 關鍵量度摘要]** 視覺化 | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看一項重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant) | 自 2022 年 10 月 5 日起分階段推出 |
 | 新的&#x200B;**[!UICONTROL 分類集]**&#x200B;使用者體驗 | 新的使用者體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。[了解更多](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
 | 行動應用程式：**自訂詳細資料檢視** | 自訂詳細資料檢視可讓您的對象專注於最重要的事項，藉此您可更準確地提供與對象共用的資訊。您可以修改每個計分卡圖樣關聯的詳細檢視版面配置，然後新增文字以更清楚地說明一般使用者可在資料中看到的內容。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant) | 2022 年 10 月 5 日 |
 | **不區分大小寫的多值變數** | 對於不區分大小寫的多值變數，儲存在資料摘要 `mvvar1` - `mvvar3` 中的值將不再自動採用小寫。相反的，資料摘要 (以及透過 Analytics Source Connector 傳遞到 Adobe Experience Platform 和 CJA 的資料) 將反映從頁面傳入的原始大小寫。 | 2022 年 10 月 24 日 |
