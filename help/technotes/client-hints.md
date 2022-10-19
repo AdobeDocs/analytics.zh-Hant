@@ -4,7 +4,7 @@ description: 進一步了解用戶端提示將逐漸取代使用者代理程式�
 source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
 workflow-type: tm+mt
 source-wordcount: '1073'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 >[!NOTE]
 >
->自2023年1月中旬起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement和Web SDK目前均支援提示資料的收集，但直到1月中旬，它才會用於裝置查詢。 這是為了避免在關鍵的年末期間可能中斷報告。 如下列作業系統版本將於10月起凍結，但由於逐步推出以及大部分使用者代理將凍結至正確的作業系統版本，我們估計這將影響&lt;3%的Chrome訪客。
+>從 2023 年 1 月中旬開始，客戶提示將被納入 Analytics 裝置查詢流程。AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 1 月中旬之前不會用於裝置查詢。這是為了避免在關鍵的年終期間對報告的潛在干擾。如下所述，作業系統版本將從 10 月開始凍結，但由於是逐步推出和大多數使用者代理將凍結到正確的作業系統版本，我們估計這將影響不到 3% 的 Chrome 訪客。
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**我如何才能啟用用戶端提示的收藏集？**
 
-瀏覽器自動提供低熵提示並擷取以供衍生裝置和瀏覽器資訊。 較新版本的Web SDK(從2.12.0開始)和AppMeasurement(從2.23.0開始)可設定為透過其各自的「標籤」擴充功能或直接透過設定選項收集高熵提示。 請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=en#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=en).
+低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自標籤擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hant) 的說明。
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
@@ -121,9 +121,9 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++
 
-+++**使用API提交時，如何加入用戶端提示資料？**
++++**使用 API 提交時如何包含用戶端提示資料？**
 
-請參閱檔案，了解如何透過 [大量資料插入API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/).
+請參閱文件以透過[大量資料插入 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/bulk-data-insertion/file-format/) 包含這些內容。
 
 +++
 
