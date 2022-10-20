@@ -4,10 +4,10 @@ title: 建立行動計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: e2af78cec37488b3c5f7681fa5d3f3555f8012c2
+source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -174,7 +174,11 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 自訂詳細投影片 {#customize-detail-slide}
 
-自訂詳細投影片讓您甚至可更準確地提供和對象共用的資訊。您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
+自訂詳細投影片讓您甚至可更準確地提供和對象共用的資訊。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3410002)
+
+您可以修改每個詳細投影片的版面並新增文字，以更清楚地說明一般使用者可在資料中看到的內容。您還可以使用下拉式選單變更圖表類型。
 
 ![自訂詳細投影片](assets/custom-detail-slide.png)
 
