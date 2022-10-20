@@ -3,11 +3,11 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
-user-guide-description: 了解如何使用資料摘要來匯出原始資料，以及Data Warehouse擷取資料的試算表輸出。 了解如何使用FTP和SFTP來傳輸檔案。
+user-guide-description: 了解如何使用資料摘要匯出原始資料，以及如何使用 Data Warehouse 擷取試算表輸出資料。了解如何使用 FTP 和 SFTP 傳輸檔案。
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 

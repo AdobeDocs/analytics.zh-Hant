@@ -5,7 +5,7 @@ user-guide-title: Analytics 發行說明
 breadcrumb-title: 發行說明
 user-guide-description: 了解 Adobe Analytics 的新功能和修正。
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '39'
 ht-degree: 100%
 

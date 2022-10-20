@@ -3,11 +3,11 @@ product: analytics
 audience: all
 user-guide-title: Analytics 技術備忘稿
 breadcrumb-title: 技術備忘稿
-user-guide-description: 瀏覽知識庫，其中包含不屬於特定Analytics工具或元件的實用文章。
+user-guide-description: 瀏覽知識庫，其中包含不屬於特定 Analytics 工具或元件的實用文章。
 source-git-commit: 1e666e66af8fe5d8fdefbd84a4073556993a5a3e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
