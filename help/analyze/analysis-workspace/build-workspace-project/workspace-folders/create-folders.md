@@ -5,15 +5,15 @@ title: 建立資料夾
 feature: Workspace Basics
 source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '152'
+ht-degree: 96%
 
 ---
 
 
 # 建立資料夾
 
-您可以在 Workspace 登錄頁面上，將新的資料夾或子資料夾新增至專案和資料夾清單。
+您可以在 Workspace 登陸頁面上，將新的資料夾或子資料夾新增至專案和資料夾清單。
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 若要建立新資料夾，
 
-1. 按一下 **新增**。
+1. 按一下「**新增**」。
 
 1. 為新資料夾輸入名稱。
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create.png)
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 若要在現有資料夾開啟時建立子資料夾，
 
-1. 按一下 **建立新資料夾**。
+1. 按一下「**建立新資料夾**」。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder2.png)
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-subfolder-name.png)
 
-1. 按一下 **建立**。
+1. 按一下「**建立**」。
 
    新子資料夾將新增至專案和子資料夾的清單中。
 

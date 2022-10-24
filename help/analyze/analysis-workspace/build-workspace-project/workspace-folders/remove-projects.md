@@ -5,8 +5,8 @@ title: 從資料夾中移除專案
 feature: Workspace Basics
 source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '174'
+ht-degree: 96%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 0%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選擇 **移至**，然後選擇要將專案移動到的資料夾。
+1. 選取「**移至**」，然後選擇要將專案移動到的資料夾。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-location.png)
 
-1. 按一下 **移動**。
+1. 按一下「**移動**」。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-click-move.png)
 
@@ -49,6 +49,6 @@ ht-degree: 0%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move1.png)
 
-1. 選取 **刪除**。
+1. 選取「**刪除**」。
 
 1. 確認視窗要求您確認刪除。

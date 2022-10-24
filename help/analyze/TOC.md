@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 98%
    + 專案 {#build-workspace-project}
       + [專案總覽](analysis-workspace/build-workspace-project/freeform-overview.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
-      + 工作區中的資料夾 {#workspace-folders}
-         + [關於工作區中的資料夾](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [建立資料夾和子資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+      + Workspace 資料夾{#workspace-folders}
+         + [關於 Workspace 資料夾](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
+         + [建立資料夾 和子資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [新增專案](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [移除專案](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [儲存新專案](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)
@@ -91,7 +91,7 @@ ht-degree: 98%
       + [地圖](analysis-workspace/visualizations/map-visualization.md)
       + [散佈圖](analysis-workspace/visualizations/scatterplot.md)
       + [摘要數字和摘要變更](analysis-workspace/visualizations/summary-number-change.md)
-      + [Text](analysis-workspace/visualizations/text.md)
+      + [文字](analysis-workspace/visualizations/text.md)
       + [樹狀圖](analysis-workspace/visualizations/treemap.md)
       + [文氏圖表](analysis-workspace/visualizations/venn.md)
    + 面板 {#panels}
@@ -100,13 +100,13 @@ ht-degree: 98%
       + [歸因面板](analysis-workspace/c-panels/attribution.md)
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
-      + [「媒體平均每分鐘觀眾數」面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [「媒體同時檢閱者」面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [媒體平均每分鐘觀眾數面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
+      + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
       + 媒體播放時間 {#media-playback-timespent}
          + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
          + [常見問答](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
-      + [「下一個或上一個項目」面板](analysis-workspace/c-panels/next-previous.md)
+      + [下一個或上一個項目面板](analysis-workspace/c-panels/next-previous.md)
       + [頁面摘要面板](analysis-workspace/c-panels/page-summary.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
       + 區段比較面板 {#segment-comparison}
@@ -146,7 +146,7 @@ ht-degree: 98%
          + [警報管理員](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
-   + 「工作區」常見問答 {#workspace-faq}
+   + 工作區常見問答 {#workspace-faq}
       + [常見問答](analysis-workspace/workspace-faq/faq.md)
       + [最佳化 Analysis Workspace 效能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)
