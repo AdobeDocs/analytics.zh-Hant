@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 15dcca7a00598db422244d705cb0d6be6ce97c5e
 workflow-type: tm+mt
 source-wordcount: '1063'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾{#workspace-folders}
          + [關於 Workspace 資料夾](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
-         + [建立資料夾 和子資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
+         + [建立資料夾和子資料夾](analysis-workspace/build-workspace-project/workspace-folders/create-folders.md)
          + [新增專案](analysis-workspace/build-workspace-project/workspace-folders/add-projects.md)
          + [移除專案](analysis-workspace/build-workspace-project/workspace-folders/remove-projects.md)
          + [儲存新專案](analysis-workspace/build-workspace-project/workspace-folders/save-new-project-folder.md)

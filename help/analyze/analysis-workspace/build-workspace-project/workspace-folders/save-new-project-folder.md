@@ -6,7 +6,7 @@ feature: Workspace Basics
 source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
 workflow-type: tm+mt
 source-wordcount: '80'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->此功能目前仍在測試中。 部分畫面可能會有所不同。
+>此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
 
 1. 在 Workspace 中，建立新專案。
 
