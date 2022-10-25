@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: c10cda76962d66a710b1fad74f6c6fdc987e0aca
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1750'
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Analytics 計分卡會以圖磚式版面為主管使用者顯示關鍵資�
 
 若要將區段套用至個別圖磚，請從左側面板將區段直接拖放至圖磚上方。
 
-如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html)。
+如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
 
 ![建立篩選的區段](assets/segment_ui.png)
 
@@ -174,7 +174,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 自訂詳細投影片 {#customize-detail-slide}
 
-自訂詳細投影片讓您甚至可更準確地提供和對象共用的資訊。
+自訂詳細投影片可讓您與對象分享的資訊更有針對性。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3410002)
 
