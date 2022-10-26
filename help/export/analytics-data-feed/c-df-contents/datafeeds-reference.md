@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 477c9be498fcec91febeb7b7f7cefb22820d2032
+source-git-commit: 56c11dd4f35f7b2de0e124b1bcb005afb356ece6
 workflow-type: tm+mt
-source-wordcount: '3445'
-ht-degree: 100%
+source-wordcount: '3537'
+ht-degree: 96%
 
 ---
 
@@ -38,11 +38,13 @@ ht-degree: 100%
 | `c_color` | 調色盤的位元深度。用於計算[色階](/help/components/dimensions/color-depth.md)維度的一部分。AppMeasurement 使用 JavaScript 函數`screen.colorDepth()`。 | char(20) |
 | `campaign` | 用於[追蹤代碼](/help/components/dimensions/tracking-code.md)維度的變數。 | varchar(255) |
 | `carrier` | Adobe Advertising Cloud 整合變數。指定行動電信業者。請參考`carrier`查詢表。 | varchar(100) |
+| `ch_hdr` | 通過HTTP請求標頭收集的客戶端提示。 | 文字 |
+| `ch_js` | 通過用戶代理客戶端提示JavaScript API收集的客戶端提示。 | 文字 |
 | `channel` | 用於[網站區段](/help/components/dimensions/site-section.md)維度的變數。 | varchar(100) |
 | `click_action` | 已不再使用。使用舊版 ClickMap 工具點按的連結位址。 | varchar(100) |
 | `click_action_type` | 已不再使用。舊版 ClickMap 工具的連結類型。<br>0：HREF URL<br>1：自訂 ID<br>2：JavaScript onClick 事件<br>3：表單元素 | 不帶正負號的 tinyint |
 | `click_context` | 已不再使用。發生連結點按的頁面名稱。舊版 ClickMap 工具的一部分。 | varchar(255) |
-| `click_context_type` | 已不再使用。表示 click_context 是否具備頁面名稱或預設為頁面 URL。<br>0：頁面 URL<br>1：頁面名稱 | 不帶正負號的 tinyint |
+| `click_context_type` | 已不再使用。指出 `click_context` 具有頁面名稱或預設為頁面URL。<br>0：頁面 URL<br>1：頁面名稱 | 不帶正負號的 tinyint |
 | `click_sourceid` | 已不再使用。點按連結頁面上位置的數值 ID。舊版 ClickMap 工具的一部分。 | 不帶正負號的 int |
 | `click_tag` | 已不再使用。已點擊的 HTML 元素類型。 | char(10) |
 | `clickmaplink` | Activity Map 連結 | varchar(255) |
@@ -64,18 +66,18 @@ ht-degree: 100%
 | `date_time` | 可讀格式的點擊時間，根據報表套裝的時區而定。 | 日期時間 |
 | `domain` | 用於[網域](/help/components/dimensions/domain.md)維度的變數。根據訪客的網際網路存取點而定。 | varchar(100) |
 | `duplicate_events` | 列出每個計為重複項目的事件。 | varchar(255) |
-| `duplicate_purchase` | 此旗標可指出此點擊的購買事件因為重複而應被忽略。 | 不帶正負號的 tinyint |
-| `duplicated_from` | 僅用於包含點擊複製 VISTA 規則的報表套裝。指出從中複製點擊的報表套裝。 | varchar(40) |
+| `duplicate_purchase` | 此旗標可指出此點擊的購買事件因重複而遭忽略。 | 不帶正負號的 tinyint |
+| `duplicated_from` | 僅用於包含點擊複製 VISTA 規則的報表套裝。指出從哪個報表套裝複製點擊。 | varchar(40) |
 | `ef_id` | `ef_id`用於 Adobe Advertising Cloud 整合。 | varchar(255) |
 | `evar1 - evar250` | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用不同的 eVar。如需關於貴組織如何填入各 eVar 的更多資訊，請參閱貴組織專用的解決方案設計文件。 | varchar(255) |
-| `event_list` | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用`event.tsv`查詢。 | 文本 |
+| `event_list` | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用`event.tsv`查詢。 | 文字 |
 | `exclude_hit` | 表示該點擊已從報表中排除的旗標。此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報表套裝上遺失時間戳記的點擊，或非時間戳記報表套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
 | `first_hit_page_url` | 訪客的第一個 URL。 | varchar(255) |
 | `first_hit_pagename` | 用於[登入頁面原始](/help/components/dimensions/entry-dimensions.md)維度的變數。訪客的原始登入頁面名稱。 | varchar(100) |
 | `first_hit_ref_domain` | 用於[原始反向連結網域](/help/components/dimensions/original-referring-domain.md)維度的變數。根據`first_hit_referrer`而定。訪客的第一個反向連結網域。 | varchar(100) |
 | `first_hit_ref_type` | 表示訪客第一個反向連結的反向連結類型數值 ID。使用`referrer_type.tsv`查詢。 | 不帶正負號的 tinyint |
 | `first_hit_referrer` | 訪客的第一個反向連結 URL。 | varchar(255) |
-| `first_hit_time_gmt` | 訪客初次點擊的時間戳記，格式為 Unix 時間。 | 整 |
+| `first_hit_time_gmt` | 訪客初次點擊的時間戳記，格式為 Unix 時間。 | int |
 | `geo_city` | 根據 IP 的點擊來源城市名稱。用於[城市](/help/components/dimensions/cities.md)維度。 | char(32) |
 | `geo_country` | 根據 IP 的點擊來源國家/地區縮寫。用於[國家/地區](/help/components/dimensions/countries.md)維度。 | char(4) |
 | `geo_dma` | 根據 IP 的點擊來源人口統計區域數值 ID。用於 [美國 DMA](/help/components/dimensions/us-dma.md) 維度。 | 不帶正負號的 int |
@@ -83,26 +85,27 @@ ht-degree: 100%
 | `geo_zip` | 根據 IP 的點擊來源郵遞區號。協助填入[郵遞區號](/help/components/dimensions/zip-code.md)維度。另請參閱`zip`。 | varchar(16) |
 | `hier1 - hier5` | 由階層變數使用。包含使用分隔符號的值清單。在報表套裝設定下選擇分隔符號。 | varchar(255) |
 | `hit_source` | 指出點擊來源。點擊來源 1、2 和 6 需計費。<br>1：沒有時間戳記的標準影像要求<br>2：具有時間戳記的標準影像要求<br>3：具有時間戳記的即時資料來源上傳<br>4：未使用<br>5：通用資料來源上傳<br>6：完整處理資料來源上傳<br>7：TransactionID 資料來源上傳<br>8：不再使用；舊版 Adobe Advertising Cloud 資料來源 <br>9：已不再使用；Adobe Social 摘要量度<br>10：使用 Audience Manager 伺服器端轉送 | 不帶正負號的 tinyint |
-| `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | 整 |
+| `hit_time_gmt` | Adobe 資料收集伺服器收到點擊的點擊時間戳記 (根據 Unix 時間)。 | int |
 | `hitid_high` | 搭配 `hitid_low` 使用可識別點擊。 | 不帶正負號的 bigint |
 | `hitid_low` | 搭配 `hitid_high` 使用可識別點擊。 | 不帶正負號的 bigint |
 | `homepage` | 已不再使用。指出目前 URL 是否為瀏覽器的首頁。 | char(1) |
 | `hourly_visitor` | 此旗標可確定點擊是否為每小時的新訪客。 | 不帶正負號的 tinyint |
-| `ip` | IP 位址，根據影像要求的 HTTP 標頭。 | char(20) |
+| `ip` | IPv4位址，根據影像要求的HTTP標題。 互斥至 `ipv6`;如果此欄包含未模糊化的IP位址， `ipv6` 空白。 | char(20) |
 | `ip2` | 未使用。報表套裝的後端參考變數，包含以 IP 位址為基礎的 VISTA 規則。 | char(20) |
+| `ipv6` | 壓縮的IPv6地址（如果可用）。 如果IP位址類似 `2001:cDBa:0000:0000:0000:0000:3257:0052`，資料摘要包含 `2001:cdba::3257:52`. 互斥至 `ip`;如果此欄包含未模糊化的IP位址， `ip` 空白。 | varchar(40) |
 | `j_jscript` | 瀏覽器支援的 JavaScript 版本。 | char(5) |
 | `java_enabled` | 此旗標可指出是否已啟用 Java。<br>Y：啟用 <br>N：停用 <br>U：未知 | char(1) |
 | `javascript` | 依據`j_jscript` JavaScript 版的查詢 ID。使用查詢表。 | 不帶正負號的 tinyint |
 | `language` | 語言的數值 ID。使用`languages.tsv`查詢表。 | 不帶正負號的 smallint |
-| `last_hit_time_gmt` | 先前點擊的時間戳記 (Unix 時間)。用於計算[和上次造訪間隔天數](/help/components/dimensions/days-since-last-visit.md)維度。 | 整 |
+| `last_hit_time_gmt` | 先前點擊的時間戳記 (Unix 時間)。用於計算[和上次造訪間隔天數](/help/components/dimensions/days-since-last-visit.md)維度。 | int |
 | `last_purchase_num` | 用於[客戶忠誠度](/help/components/dimensions/customer-loyalty.md)維度的變數。訪客之前已購買的次數。<br>0：沒有先前購買 (非客戶) <br>1：先前購買 1 次 (新客戶) <br>2：先前購買 2 次 (回頭客戶) <br>3：先前購買 3 次以上 (忠實客戶) | 不帶正負號的 int |
-| `last_purchase_time_gmt` | 用於[和上次購買間隔天數](/help/components/dimensions/days-since-last-purchase.md)維度。上次完成購買的時間戳記 (Unix 時間)。對於首次購買和之前未購買的訪客，此值為 `0`。 | 整 |
+| `last_purchase_time_gmt` | 用於[和上次購買間隔天數](/help/components/dimensions/days-since-last-purchase.md)維度。上次完成購買的時間戳記 (Unix 時間)。對於首次購買和之前未購買的訪客，此值為 `0`。 | int |
 | `latlon1` | 位置 (10 公里以內) | varchar(255) |
 | `latlon23` | 位置 (100 公尺以內) | varchar(255) |
 | `latlon45` | 位置 (1 公尺以內) | varchar(255) |
-| `mc_audiences` | 訪客所屬的 Audience Manager 區段 ID 清單。`post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | 文本 |
+| `mc_audiences` | 訪客所屬的 Audience Manager 區段 ID 清單。`post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | 文字 |
 | `mcvisid` | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
-| `mobile_id` | 如果使用者使用行動裝置，則為裝置的數值 ID。 | 整 |
+| `mobile_id` | 如果使用者使用行動裝置，則為裝置的數值 ID。 | int |
 | `mobileaction` | 行動動作。在行動服務中呼叫`trackAction`時自動收集。允許應用程式中的自動動作路徑。 | varchar(100) |
 | `mobileappid` | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本： `[AppName] [BundleVersion]` | varchar(255) |
 | `mobileappperformanceappid` | 用於 Apteligent 資料連接器。Apteligent 中使用的應用程式 ID。 | varchar(255) |
@@ -145,17 +148,18 @@ ht-degree: 100%
 | `mobilerelaunchcampaigntrackingcode` | 從內容資料變數`a.launch.campaign.trackingcode`中收集。用於贏取中，作為上市促銷活動的追蹤代碼。 | varchar(255) |
 | `mobileresolution` | 行動裝置的解析度。`[Width] x [Height]` 像素。 | varchar(255) |
 | `monthly_visitor` | 此旗標可標示當月的不重複訪客。 | 不帶正負號的 tinyint |
-| `mvvar1` - `mvvar3` | 清單變數值。根據實作包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文本 |
+| `mvvar1` - `mvvar3` | 列出在目前點擊上設定或從先前點擊持續存在的變數值。 根據實作包含使用分隔符號的自訂值清單。`post_mvvar1` - `post_mvvar3` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
+| `mvvar1_instances` - `mvvar3_instances` | 在目前點擊上設定的清單變數值。 `post_mvvar1_instances` - `post_mvvar3_instances` 欄會以 `--**--` 取代原始的分隔符號。 | 文字 |
 | `namespace` | 未使用。屬於已報廢功能。 | varchar(50) |
 | `new_visit` | 此旗標可確定目前的點擊是否為新造訪。造訪閒置 30 分鐘後，由 Adobe 伺服器設定。 | 不帶正負號的 tinyint |
 | `os` | 表示訪客的作業系統的數值 ID。依據`user_agent`欄而定。使用`os`查詢。 | 不帶正負號的 int |
-| `p_plugins` | 已不再使用。瀏覽器的可用外掛程式清單.使用的 JavaScript 函數 `navigator.plugins()`。 | 文本 |
+| `p_plugins` | 已不再使用。瀏覽器的可用外掛程式清單.使用的 JavaScript 函數 `navigator.plugins()`。 | 文字 |
 | `page_event` | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
-| `page_event_var1` | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文本 |
+| `page_event_var1` | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
 | `page_event_var2` | 僅用於連結追蹤影像要求。連結的自訂名稱 (若有)。 | varchar(100) |
-| `page_event_var3` | 已不再使用。包含調查和媒體模組資料。使用舊版 Adobe Analytics 填入的舊版影片報告。 | 文本 |
+| `page_event_var3` | 已不再使用。包含調查和媒體模組資料。使用舊版 Adobe Analytics 填入的舊版影片報告。 | 文字 |
 | `page_type` | 用於填入[找不到頁面](/help/components/dimensions/pages-not-found.md)維度。專用於 404 頁。此變數應該為空白或包含值`ErrorPage`。 | char(20) |
-| `page_url` | 點擊的 URL。請注意，`post_page_url` 被卸除連結追踪影像請求並使用 varchar(255) 的資料類型。 | 文本 |
+| `page_url` | 點擊的 URL。請注意，`post_page_url` 被卸除連結追踪影像請求並使用 varchar(255) 的資料類型。 | 文字 |
 | `pagename` | 用於填入[頁面](/help/components/dimensions/page.md)維度。如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
 | `paid_search` | 如果點擊符合付費搜尋偵測，則會設定此旗標。 | 不帶正負號的 tinyint |
 | `partner_plugins` | 未使用。屬於已報廢功能。 | varchar(255) |
@@ -165,8 +169,8 @@ ht-degree: 100%
 | `pointofinterestdistance` | 行動服務與興趣點中心的距離 | varchar(255) |
 | `post_`欄 | 包含報表中最終使用的值。每個後置欄會填入伺服器端邏輯、處理規則和 VISTA 規則之後。Adobe 建議在大多數情況下使用後置欄。 | 請參閱各個非後置欄 |
 | `prev_page` | 未使用。前一頁的 Adobe 專有識別碼。 | 不帶正負號的 int |
-| `product_list` | 透過[`products`](/help/implement/vars/page-vars/products.md)變數傳入的產品清單。產品是以逗號分隔，而個別產品屬性是由分號分隔。 | 文本 |
-| `product_merchandising` | 未使用。請改用 `product_list`。 | 文本 |
+| `product_list` | 透過[`products`](/help/implement/vars/page-vars/products.md)變數傳入的產品清單。產品是以逗號分隔，而個別產品屬性是由分號分隔。 | 文字 |
+| `product_merchandising` | 未使用。請改用 `product_list`。 | 文字 |
 | `prop1` - `prop75` | 自訂流量變數 1 - 75。用於 [Prop](/help/components/dimensions/prop.md) 維度。 | varchar(100) |
 | `purchaseid` | 使用[`purchaseID`](/help/implement/vars/page-vars/purchaseid.md)變數設定之購買的唯一識別碼。由`duplicate_purchase`欄使用。 | char(20) |
 | `quarterly_visitor` | 此旗標可確定點擊是否為每季新訪客。 | 不帶正負號的 tinyint |
@@ -198,15 +202,15 @@ ht-degree: 100%
 | `state` | State 變數。 | varchar(50) |
 | `stats_server` | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
 | `t_time_info` | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
-| `tnt` | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文本 |
-| `tnt_action` | 用於 Adobe Target 整合。 代表點擊合格的所有測試。 | 文本 |
-| `tnt_post_vista` | 已不再使用。請改用 `post_tnt`。 | 文本 |
-| `transactionid` | 唯一識別碼，日後可透過資料來源上傳各種資料點。使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | 文本 |
+| `tnt` | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文字 |
+| `tnt_action` | 用於 Adobe Target 整合。 代表點擊合格的所有測試。 | 文字 |
+| `tnt_post_vista` | 已不再使用。請改用 `post_tnt`。 | 文字 |
+| `transactionid` | 唯一識別碼，日後可透過資料來源上傳各種資料點。使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | 文字 |
 | `truncated_hit` | 此旗標代表影像要求已截斷。表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
 | `ua_color` | 已不再使用。先前作為色彩深度的後援。 | char(20) |
 | `ua_os` | 已不再使用。先前作為作業系統的後援。 | char(80) |
 | `ua_pixels` | 已不再使用。先前作為瀏覽器高度和寬度的後援。 | char(20) |
-| `user_agent` | 傳入影像要求之 HTTP 標頭的使用者代理字串。 | 文本 |
+| `user_agent` | 傳入影像要求之 HTTP 標頭的使用者代理字串。 | 文字 |
 | `user_hash` | 未使用。報表套裝 ID 上的雜湊.請改用 `username`。 | 不帶正負號的 int |
 | `user_server` | 用於[伺服器](/help/components/dimensions/server.md)維度。 | varchar(100) |
 | `userid` | 未使用。報表套裝 ID 的數值 ID。請改用 `username`。 | 不帶正負號的 int |
@@ -239,7 +243,7 @@ ht-degree: 100%
 | `videodaypart` | 視訊時段 | varchar(255) |
 | `videoepisode` | 視訊集數 | varchar(255) |
 | `videofeedtype` | 視訊輸出類型 | varchar(255) |
-| `videogenre` | 視訊類型 | 文本 |
+| `videogenre` | 視訊類型 | 文字 |
 | `videolength` | 視訊長度 | varchar(255) |
 | `videomvpd` | 視訊 MVPD | varchar(255) |
 | `videoname` | 視訊名稱 | varchar(255) |
@@ -252,8 +256,8 @@ ht-degree: 100%
 | `videoqoebuffertimeevar` | 視訊品質緩衝時間 | varchar(255) |
 | `videoqoedroppedframecountevar` | 視訊品質掉格計數 | varchar(255) |
 | `videoqoeerrorcountevar` | 視訊品質錯誤計數 | varchar(255) |
-| `videoqoeextneralerrors` | 視訊品質外部錯誤 | 文本 |
-| `videoqoeplayersdkerrors` | 視訊品質 SDK 錯誤 | 文本 |
+| `videoqoeextneralerrors` | 視訊品質外部錯誤 | 文字 |
+| `videoqoeplayersdkerrors` | 視訊品質 SDK 錯誤 | 文字 |
 | `videoqoetimetostartevar` | 視訊品質開始時間 | varchar(255) |
 | `videoseason` | 視訊季數 | varchar(255) |
 | `videosegment` | 視訊區段 | varchar(255) |
@@ -263,7 +267,7 @@ ht-degree: 100%
 | `visid_high` | 和`visid_low`搭配使用以專門識別訪客。 | 不帶正負號的 bigint |
 | `visid_low` | 和`visid_high`搭配使用以專門識別訪客。 | 不帶正負號的 bigint |
 | `visid_new` | 用於識別點擊是否包含新產生訪客 ID 的旗標。 | char(1) |
-| `visid_timestamp` | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | 整 |
+| `visid_timestamp` | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
 | `visid_type` | 不供外部使用；供 Adobe 在內部用來處理最佳化。此數值 ID 代表用來識別訪客的方法。<br>0：自訂訪客 ID 或未知/不適用<br>1：IP 和用戶代理備援<br>2：HTTP 行動訂閱者標題<br>3：舊版 Cookie 值 (`s_vi`) <br> 4：備援 Cookie 值 (`s_fid`) <br> 5：身分識別服務 | 不帶正負號的 tinyint |
 | `visit_keywords` | 用於[搜尋關鍵字](/help/components/dimensions/search-keyword.md)維度的變數。此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 | varchar(244) |
 | `visit_num` | 用於[造訪數](/help/components/dimensions/visit-number.md)維度的變數。從 1 開始，隨著每次訪客開始新的造訪而遞增。 | 不帶正負號的 int |
@@ -274,7 +278,7 @@ ht-degree: 100%
 | `visit_search_engine` | 造訪的第一個搜尋引擎數值 ID。使用`search_engines.tsv`查詢。 | 不帶正負號的 smallint |
 | `visit_start_page_url` | 造訪的第一個 URL。 | varchar(255) |
 | `visit_start_pagename` | 造訪首次點擊時的頁面名稱值。 | varchar(100) |
-| `visit_start_time_gmt` | 造訪之第一次點擊的時間戳記 (單位為 Unix 時間)。 | 整 |
+| `visit_start_time_gmt` | 造訪之第一次點擊的時間戳記 (單位為 Unix 時間)。 | int |
 | `weekly_visitor` | 此旗標可確定點擊是否為每週新訪客。 | 不帶正負號的 tinyint |
 | `yearly_visitor` | 此旗標可確定點擊是否為每年新訪客。 | 不帶正負號的 tinyint |
 | `zip` | 協助填入[郵遞區號](/help/components/dimensions/zip-code.md)維度。另請參閱 `geo_zip`。 | varchar(50) |
