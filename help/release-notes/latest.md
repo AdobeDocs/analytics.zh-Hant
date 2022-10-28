@@ -6,11 +6,11 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 96488440c73acfdc015560012de5481368baed8a
 workflow-type: tm+mt
 source-wordcount: '1425'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
-# 最新Adobe Analytics發行說明（2022年10月/11月）
+# 目前的 Adobe Analytics 發行說明 (2022 年 10/11 月)
 
 **上次更新日期**：2022 年 10 月 25 日
 
@@ -18,7 +18,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 ## Adobe Analytics 中的新功能或更新功能
 
-| 功能 | 說明 | [轉出開始](releases.md) | [全面發佈](releases.md) |
+| 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **[!UICONTROL 關鍵量度摘要]** 視覺化 | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看一項重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html?lang=zh-Hant) | 2022 年 10 月 5 日 | 2023 年 10 月 19 日 |
 | **不區分大小寫的多值變數** | 對於不區分大小寫的多值變數，儲存在資料摘要 `mvvar1` - `mvvar3` 中的值將不再自動採用小寫。相反的，資料摘要 (以及透過 Analytics Source Connector 傳遞到 Adobe Experience Platform 和 CJA 的資料) 將反映從頁面傳入的原始大小寫。 | 不適用 | 2022 年 10 月 24 日 |
@@ -27,9 +27,9 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 ## Adobe Analytics 中的修正
 
-* 修正最新MacOS版本名稱錯誤為「Macintosh」的問題。 透過此修正，作業系統維度將開始使用「MacOS」版本編號，從 MacOS 11 開始。(AN-301834)
-* 修正「固定日期」日期範圍在Report Builder中的問題。 (AN-303684)
-* 修正資料摘要UI未載入的問題。 (AN-303803、AN-303784)
+* 已修正最近 MacOS 版本誤命名為「Macintosh」的問題。透過此修正，作業系統維度將開始使用「MacOS」版本編號，從 MacOS 11 開始。(AN-301834)
+* 已修正 Report Builder 中「固定日期」日期範圍的問題。(AN-303684)
+* 已修正無法載入資料摘要 UI 的問題。(AN-303803、AN-303784)
 
 ### 其他修正
 

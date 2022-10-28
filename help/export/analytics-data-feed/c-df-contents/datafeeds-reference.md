@@ -6,7 +6,7 @@ title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 5c178ebb86ffc932ecd90f427bd0a5e90fada1cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3526'
 ht-degree: 100%
 
