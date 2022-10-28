@@ -3,9 +3,9 @@ description: 了解如何使用報告活動管理器在尖峰報告期間診斷�
 title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 7c66414129e262954e5521a28b878424099ac6ad
+source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '942'
 ht-degree: 48%
 
 ---
@@ -45,6 +45,8 @@ ht-degree: 48%
 | **[!UICONTROL 虛擬報告套裝]** | 顯示注入到此基本報告套裝所有虛擬報告套裝。虛擬報告套裝因套用了額外層級的篩選和細分，而增加了報告請求的複雜性。來自虛擬報告套裝的所有請求都會合併並歸結為基本報告套裝。<p>例如，如果您有來自 5 個 VRS 的 10 個請求，那麼在基本層級的報告套裝中會有 50 個請求。如此一來，您很快就會達到容量。 |
 | **[!UICONTROL 使用容量]** | 以百分比即時顯示使用了多少報告套裝的報告容量。 |
 | **[!UICONTROL 狀態]** | 四個可能狀態指標： <ul><li>**紅色 —  [!UICONTROL 容量]**:報表套裝的報表容量已超過上限。 (95% - 100%) </li><li>**黃色 —  [!UICONTROL 接近容量]**:此報表套裝有達到其最大容量的危險。 (90% - 94%)</li><li>**綠色 —  [!UICONTROL 一切都好]**:報告能力很強。 (0% - 90%)</li><li>**灰色 —  [!UICONTROL 狀態待定]**:?</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
 
 ### 其他報表活動動作
 
