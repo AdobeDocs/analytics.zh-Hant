@@ -1,39 +1,39 @@
 ---
 title: collectHighEntropyUserAgentHints
-description: 使用collectHighEntropyUserAgentHints變數來判斷Adobe是否會從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)要求高熵提示。
+description: 使用 collectHighEntropyUserAgentHints 變數來確定 Adobe 是否會要求 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的高平均資訊量提示。
 source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '226'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
 
 # collectHighEntropyUserAgentHints
 
-Adobe Analytics使用高熵用戶端提示來改善裝置和瀏覽器識別。 此選項自AppMeasurment.js 2.23.0版開始提供。 閱讀更多有關客戶端提示的資訊，請參閱 [此概述與常見問題集](/help/technotes/client-hints.md) 和 [Google部落格](https://web.dev/user-agent-client-hints/).
+Adobe Analytics 使用高平均資訊量用戶端提示來協助識別裝置和瀏覽器。此選項從 AppMeasurment.js 2.23.0 版本開始可用。請在[本概述和常見問題](/help/technotes/client-hints.md)以及 [Google 部落格](https://web.dev/user-agent-client-hints/)閱讀更多有關用戶端提示的資訊。
 
-## 使用Web SDK收集高熵提示
+## 使用 Web SDK 收集高平均資訊量提示
 
-高熵客戶端提示是Web SDK中上下文類別的一部分。 請參閱 [配置平台Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en) 以取得更多詳細資訊。
+高平均資訊量用戶端提示是 Web SDK 中內容類別的一部分。如需更多資訊，請參閱[設定平台 Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)。
 
-## 使用Adobe Analytics擴充功能收集高熵提示
+## 使用 Adobe Analytics 擴充功能收集高平均資訊量提示
 
-**[!UICONTROL 收集高熵用戶代理提示]** 是設定Adobe Analytics擴充功能時一般折疊式功能表下方的核取方塊。
+**[!UICONTROL 收集高平均資訊量使用者代理提示]**&#x200B;是在設定 Adobe Analytics 擴充功能時，「一般」摺疊式功能表下的一個核取方塊。
 
-1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/#/@adobepm/data-collection) 使用您的AdobeID憑證。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/#/@adobepm/data-collection)。
 
-1. 按一下所需 [!UICONTROL 標籤屬性].
+1. 按一下所需的 [!UICONTROL 標記屬性。]。
 
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 [!UICONTROL 設定] 在Adobe Analytics底下。
+1. 前往 [!UICONTROL 擴充功能] 索引標籤，然後按一下 Adobe Analytics 下方的 [!UICONTROL 設定]。
 
-1. 展開 [!UICONTROL 一般] 折疊式功能表，可顯示 [!UICONTROL 收集高熵用戶代理提示] 框。 這項設定預設為未勾選。
+1. 展開 [!UICONTROL 一般] 摺疊式功能表，其中顯示 [!UICONTROL 收集高平均資訊量使用者代理提示] 核取方塊。這項設定預設為未勾選。
 
-## AppMeasurement中的collectHighEntropyUserAgentHints
+## AppMeasurement 中的 collectHighEntropyUserAgentHints
 
-此 `s.collectHighEntropyUserAgentHints` 變數可判斷AppMeasurement是否要求來自Chromium瀏覽器(例如Google Chrome和Microsoft Edge)的高熵提示。 Adobe Analytics會使用這些提示來改善裝置和瀏覽器識別。
+`s.collectHighEntropyUserAgentHints` 變數確定 AppMeasurement 是否要求 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的高平均資訊量提示。Adobe Analytics 使用這些提示來協助識別裝置和瀏覽器。
 
-如果設為TRUE，將從瀏覽器請求所有高熵提示。
+如果設定為 TRUE，將要求瀏覽器的所有高平均資訊量提示。
 
 `s.collectHighEntropyUserAgentHints = TRUE`
 
