@@ -3,10 +3,10 @@ title: 疑難排解 JavaScript 實施
 description: 瞭解疑難排解 JavaScript 實施的常見問題和最佳實務。
 feature: Implementation Basics
 exl-id: e7181e78-65bf-446d-8d5c-b47323dbec1d
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
-source-wordcount: '692'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '693'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ### 混合引號以定義變數
 
-作為最佳實務，您使用的引號類型請務必保持一致。如果以單引號指定字串的開頭，就必須使用單引號來結束該字串。
+作為最佳實務，請確定您與使用的引號類型一致。 如果以單引號指定字串的開頭，就必須使用單引號來結束該字串。
 
 例如 `s.eVar1 = 'Value'` 和 `s.eVar1 = "Value"` 都有效。`s.eVar1 = 'Value"` 無效.
 

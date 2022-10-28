@@ -4,10 +4,10 @@ description: 如何使用和解讀 Analysis Workspace 中的歸因面板。
 feature: Attribution
 role: User, Admin
 exl-id: 96ce3cb9-7753-4ec0-b551-e70a1508e3b7
-source-git-commit: 09124e3a176dab1e61ae54738abfd33e5be7082c
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## 歸因視覺效果
 
-* **量度總計**：在報告時間範圍內發生的轉換總數。這些是在您所選取的維度中歸因的轉換。
+* **量度總計**：在報告時間範圍內發生的轉換總數。這些是您選取的維度中歸因的轉換。
 * **歸因比較長條圖**：以視覺效果方式比較所選維度中每個維度項目的歸因轉換。每個長條的顏色代表不同的歸因模型。
 * **歸因比較表**：顯示與條形圖相同的資料，以表格的形式呈現。在此表格中選取不同的欄或列可篩選長條圖，以及面板中的其他數個視覺效果。表格的作用與 Workspace 中的其他自由表格相仿 - 讓您新增量度、區段或劃分等元件。
 * **重疊圖**：文氏圖表會顯示前三大維項目，及其共同參與轉換的頻率。舉例來說，重疊的泡泡圖大小代表訪客同時接觸到兩個維度項目時發生轉換的頻率。選取相鄰自由表格中的其他列，可依據您的選取項目更新視覺效果。

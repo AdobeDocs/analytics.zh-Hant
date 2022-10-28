@@ -3,10 +3,10 @@ description: 可讓您在對象庫、Target 和 Audience Manager 中使用區段
 title: 發佈區段至 Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '1306'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1324'
+ht-degree: 96%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 100%
 1. 提供區段的標題和說明 (如未提供便無法儲存)。
 1. 請參閱&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*報表套裝*)]**。
 
-![](assets/publish-ec.png)
+![發佈Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->在 Analytics 中查看區段預覽時，請務必使用「具有 Experience Cloud ID 的訪客」，而非比較 Adobe Analytics 數字與 Audience Manager 數字時的「獨特訪客」區段預覽總數：
+>在Analytics中查看區段預覽時，請務必使用「具有Experience CloudID的訪客」，而非比較Adobe Analytics數字與Audience Manager數字時的「不重複訪客」區段預覽總計：
 >
->![](assets/seg-vis-ecid.png)
+>![以ECID劃分訪客](assets/seg-vis-ecid.png)
 
 | 元素 | 說明 |
 |---|---|
@@ -83,7 +83,7 @@ ht-degree: 100%
 1. 導覽至 [!UICONTROL Analytics > 元件 > 區段]。
 1. 請注意新的[!UICONTROL 已發佈]欄。「是/否」指的是區段是否已發佈至 Experience Cloud。
 
-![](assets/publish-status.png)
+![發佈狀態](assets/publish-status.png)
 
 ## 擷取 [!DNL Audience Manager] UUID
 
@@ -94,16 +94,16 @@ ht-degree: 100%
 
 下列螢幕擷取畫面顯示如何在瀏覽器上擷取 AAM UUID，並在 Audience Manager 訪客資料檢視器中用它來驗證特徵和區段成員資格。
 
-**方法 1：使用 Adobe Experience Cloud Debugger**
+### 方法 1：使用 Adobe Experience Cloud Debugger
 
 1. 在 Chrome 線上應用程式商店中下載並安裝 [Adobe Experience Cloud Debugger](/help/implement/validate/debugger.md)。
 1. 載入頁面時啟動除錯程式。
 1. 捲動至 Audience Manager 區段，並尋找目前瀏覽器頁面上設定的 AAM UUID
 (以下範例中為 `50814298273775797762943354787774730612`)
 
-![](assets/debugger.jpg)
+![除錯程式](assets/debugger.jpg)
 
-**方法 2：使用 Chrome 開發者工具 (或其他瀏覽器開發者工具)**
+### 方法 2：使用 Chrome 開發者工具 (或其他瀏覽器開發者工具)
 
 1. 載入頁面之前先啟動 Chrome 開發者工具
 1. 載入頁面並勾選「應用程式 > Cookie」。AAM UUID 應在第三方 Demdex Cookie (以下範例中為 [adobe.demdex.net](https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/demdex-calls.html?lang=zh-Hant)) 中設定。demdex 欄位是瀏覽器上設定的 AAM UUID (在以下範例中為 `50814298273775797762943354787774730612`)。
@@ -114,7 +114,7 @@ ht-degree: 100%
 
 載入[!UICONTROL 訪客資料檢視器]時，系統會預設使用瀏覽器上的 AAM UUID。若要驗證其他使用者的特徵實現，請在 UUID 欄位中輸入 UUID，然後按一下[!UICONTROL 「重新整理」]。如需詳細資訊，請參閱[訪客資料檢視器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hant)。
 
-![](assets/aam-vpv.png)
+![Audience Manager設定檔檢視器](assets/aam-vpv.png)
 
 ## 在 [!DNL Audience Manager] 中檢視區段特徵
 
@@ -122,12 +122,12 @@ ht-degree: 100%
 
 1. 在 [!DNL Audience Manager] 中，前往[!UICONTROL 對象資料 > 特徵 > Analytics 特徵]。您將會看到已對應至您 Experience Cloud 組織的每個 Analytics 報表套裝的資料夾。當設定檔和對象/人員核心服務啟動或佈建時，就會建立這些資料夾 (特徵、區段和資料來源)。
 1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報表套裝資料夾。這時會看到您建立的區段/對象。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
-* 系統會建立一個特徵，一開始不含任何資料。大約在區段發佈 8 小時後，[!DNL Analytics] ECID 清單就會上線並與 [!DNL Audience Manager] 及其他 Experience Cloud 解決方案共用。
+   * 系統會建立一個特徵，一開始不含任何資料。大約在區段發佈 8 小時後，[!DNL Analytics] ECID 清單就會上線並與 [!DNL Audience Manager] 及其他 Experience Cloud 解決方案共用。
 
-![](assets/aam-traits.png)
+      ![Audience Manager特徵](assets/aam-traits.png)
 
-* 系統會建立一個單一特徵區段。這個區段使用的資料來源與您發佈該區段的報表套裝相關聯。
-* 特徵過期時間已設為 16 天 (之前為 2 天)。
+   * 系統會建立一個單一特徵區段。這個區段使用的資料來源與您發佈該區段的報表套裝相關聯。
+   * 特徵過期時間已設為 16 天 (之前為 2 天)。
 
 ## 在 [!DNL Adobe Target] 中檢視區段
 

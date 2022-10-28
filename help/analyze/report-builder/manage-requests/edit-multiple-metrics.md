@@ -4,10 +4,10 @@ title: 編輯多個請求的量度
 feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '574'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * 量度僅會新增至「樞紐配置」請求。如果某些選取的請求為「自訂配置」，則無法新增量度。這是因為您已自訂配置，Report Builder 並不知道新量度放置於試算表中的位置。
 * 因此，如果您僅選取「自訂配置」請求，就無法使用&#x200B;**[!UICONTROL 「新增量度」]**&#x200B;選項。
-* 新增量度會增加請求的大小，並可能造成與其他請求重疊。請確定您的請求周圍有足夠的空間可以新增量度。
+* 新增量度會增加請求的大小，並可能造成與其他請求重疊。請確定您的要求周圍有足夠的空間，以允許新增量度。
 * 如果新增的量度已存在於其中一個選取的請求當中，就不會新增量度至該請求。
 
 若要新增一或多個量度：
@@ -29,7 +29,7 @@ ht-degree: 100%
 1. 在 Excel 中選取一或多個請求，並按一下滑鼠右鍵選取「**[!UICONTROL 編輯量度]**」(或者，您也能按一下&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 編輯多項]** > `<choose metric>` > **[!UICONTROL 編輯群組」]**，選取要修正的一組請求)。
 1. 選取[!UICONTROL 「新增量度」]，並選取要新增的量度。
 
-   ![](assets/add_metric.png)
+   ![新增量度](assets/add_metric.png)
 
 1. 重新整理請求，以查看實際資料。除非重新整理，否則無法查看離線資料。
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 1. 選取&#x200B;**[!UICONTROL 「更換量度」]**。
 
-   ![](assets/replace_metric.png)
+   ![更換量度](assets/replace_metric.png)
 
 1. 選取要更換的量度以及要用來更換的量度。
 1. 重新整理請求。除非重新整理，否則無法查看離線資料。
@@ -72,7 +72,7 @@ ht-degree: 100%
 
 1. 選取&#x200B;**[!UICONTROL 「移除量度」]**。
 
-   ![](assets/remove_metric.png)
+   ![移除量度](assets/remove_metric.png)
 
 1. 選取一或多個量度，將其自請求移除。
 1. 重新整理請求。除非重新整理，否則無法查看離線資料。

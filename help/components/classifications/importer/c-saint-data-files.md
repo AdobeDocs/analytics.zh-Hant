@@ -3,10 +3,10 @@ description: 匯入工具可讓您大量上傳分類資料至檔案中的分析�
 title: 分類資料檔案
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '1783'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '1784'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 * 更新檔案應使用 UTF-8 不含 BOM 字元編碼。
 * 可以在儲存格中內嵌定位字元、新行字元和引號等特殊字元，前提是已指定 v2.1 檔案格式且儲存格已正確[逸出](/help/components/classifications/importer/t-classifications-escape-data.md)。特殊字元包括：
 
-   ```
+   ```text
    \t     tab character 
    \r     form feed character 
    \n    newline character 
@@ -53,7 +53,7 @@ ht-degree: 100%
    * v2.0 會忽略引號並假設它們都屬於指定鍵和值的一部分。例如這個值：&quot;這是&quot;&quot;一些值&quot;&quot;&quot;。v2.0 會按字面含義將此解析為：&quot;這是&quot;&quot;一些值&quot;&quot;&quot;。
    * v2.1 則會告訴分類將引號假設為 Excel 檔案使用的檔案格式一部分。因此，v2.1 會將上述範例設為下列格式：這是&quot;一些值&quot;。
    * 如果在檔案中指定 v2.1，但實際需要的卻是 v2.0 (亦即以違反 Excel 格式的方法使用引號)，便可能出現問題。例如，如果檔案中有下列值：&quot;VP NO REPS&quot; S/l Dress w/ Overlay，且您使用 v2.1，則這是不正確的格式 (此值應置於左右引號之間，且屬於實際值一部分的引號應該逸出引號)，因此分類無法繼續進行後續程序。
-   * 請務必執行下列任一作業：變更上傳檔案的標題 (C1 儲存格) 以將檔案格式變更為 v2.0，「或是」在檔案中正確置入 Excel 引號。
+   * 請務必執行下列其中一項作業：變更上傳檔案的標題（C1儲存格），或在檔案中正確實作Excel引號，將檔案格式變更為v2.0。
 
 * 資料檔案的第一個資料行 (非註解) 含有識別該欄之分類資料所用的欄標題。匯入工具須有特定的欄標題格式。有關詳細資訊，請參閱[欄標題格式](/help/components/classifications/importer/c-saint-data-files.md)。
 * 在資料檔案中，緊接在標題行後方的是資料行。每個資料行都應包含每個欄標題的資料欄位。
@@ -155,7 +155,7 @@ ht-degree: 100%
 
 **範例**：如果促銷活動 A 的成本為 $10,000，[!UICONTROL Campaigns^~Cost] 欄便含有值 10000，而 [!UICONTROL Campaigns^~Cost~per] 欄含有 [!UICONTROL FIXED]。在報告中顯示「促銷活動 A」的「成本」時，會在日期範圍內將 $10,000 顯示為「促銷活動 A」的固定成本。
 
-**範例**：如果促銷活動 B 每個點按的成本約 $2，[!UICONTROL Campaigns^~Cost] 欄便含有 2，而 **[!UICONTROL Campaigns^~Cost~per]** 欄含有 [!UICONTROL CLICK]。在報表中顯示「促銷活動 B 的成本」時，Adobe 會在報表的日期範圍內即時計算 (2 * [點按次數])。這將為您提供基於促銷活動 B 所執行點按次數的總成本計算。
+**範例**：如果促銷活動 B 每個點按的成本約 $2，[!UICONTROL Campaigns^~Cost] 欄便含有 2，而 **[!UICONTROL Campaigns^~Cost~per]** 欄含有 [!UICONTROL CLICK]。在報表中顯示促銷活動B的成本時，Adobe會計算(2 &#42; [點按次數])即時顯示報表的日期範圍。 這將為您提供基於促銷活動 B 所執行點按次數的總成本計算。
 
 ### 日期
 

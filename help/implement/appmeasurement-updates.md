@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 297e236a6f573354c9d391d43b20db54ad653cd2
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '2321'
-ht-degree: 100%
+source-wordcount: '2319'
+ht-degree: 99%
 
 ---
 
@@ -275,7 +275,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 >[!IMPORTANT]
 >
->1.6.0 版本 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版本或更新版本使用。如果您想要升級為 1.6.0 版本的 Experience Cloud ID Service，請務必使用 [!DNL AppMeasurement] 程式碼 1.6.3 版本或更新版本。
+>1.6.0 版本 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版本或更新版本使用。如果您想要升級為1.6.0版的Experience CloudID服務，請務必使用AppMeasurement 1.6.3或更新版本。
 
 ## 1.6.2 版本
 

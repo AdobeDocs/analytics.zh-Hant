@@ -5,10 +5,10 @@ uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 94%
+source-wordcount: '141'
+ht-degree: 74%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 94%
 
 ## 權限
 
-如果&#x200B;**[!UICONTROL 「工具」]**&#x200B;底下並未顯示 **[!UICONTROL Report Builder]** 功能表項目，請洽詢 Adobe Analytics 管理員，確認您所屬的產品設定檔是否包括「Report Builder」權限。進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)。
+如果您沒有看到 **[!UICONTROL Report Builder]** 作為 **[!UICONTROL 工具]**，請要求您的Adobe Analytics管理員確認您屬於包含下列權限的產品設定檔：&quot;Report Builder&quot;。 進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)。

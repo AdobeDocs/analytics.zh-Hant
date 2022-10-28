@@ -1,12 +1,12 @@
 ---
-description: 為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。請務必先熟悉標籤及其定義。
+description: 為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。
 title: 標籤報表套裝資料
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '964'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '967'
+ht-degree: 97%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 100%
 
 **範例**：您做為資料控管單位，計劃從資料主體收集電子郵件地址和 Cookie ID 以處理其資料隱私權請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。若要建立電子郵件地址和 Cookie ID 的標籤，您必須在 Analytics 中使用 Adobe Cloud Platform 的資料使用標籤與實行 (DULE) 架構。
 
-1. 在 Analytics 中，導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 資料控管]** > **[!UICONTROL (選取報表套裝)」]**。![](assets/privacy_rs_settings.png)
+1. 在 Analytics 中，導覽至&#x200B;**[!UICONTROL 「管理]** > **[!UICONTROL 資料控管]** > **[!UICONTROL (選取報表套裝)」]**。![隱私權設定](assets/privacy_rs_settings.png)
 
 1. 選取您想要加上標籤的變數群組。
 
-   ![](assets/variables.png)
+   ![變數](assets/variables.png)
 
    * **標準維度** (Adobe Analytics 立即可用維度)
    * **標準量度** (Adobe Analytics 立即可用量度)
@@ -39,11 +39,11 @@ ht-degree: 100%
 
 1. (可選) 按一下每個變數旁的資訊 (i) 圖示，即可進一步瞭解過去 90 天內最常用的值。(這項功能不適用於資料處理維度，因為 Analytics UI 未提供這些變數。)
 
-   ![](assets/info.png)
+   ![資訊](assets/info.png)
 
 1. 按一下變數的核取方塊來選取一或多個變數，接著選取&#x200B;**[!UICONTROL 「編輯」]**&#x200B;圖示 (位於右方) 來編輯一或多個變數。
 
-   ![](assets/edit.png)
+   ![編輯](assets/edit.png)
 
 1. **「身分資料」**&#x200B;標籤對話框便隨即自動開啟。這些標籤可分類本身就能使用的資料，或能與其他資料合併，以識別或直接與個人聯絡的資料。如需這些選項的詳細資訊，請參閱[身分資料標籤 (DULE)](/help/admin/c-data-governance/gdpr-labels.md#identity-data-labels)。
 
@@ -51,15 +51,15 @@ ht-degree: 100%
    >
    >資料使用標籤和實行 (DULE) 架構的設計目的，是為了在解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。
 
-   ![](assets/identity_labels.png)
+   ![身分標籤](assets/identity_labels.png)
 
 1. 開啟&#x200B;**「敏感資料」**&#x200B;區段以設定依地理位置資料分類的敏感資料標籤。如需這些選項的詳細資訊，請參閱[敏感資料標籤 (DULE)](/help/admin/c-data-governance/gdpr-labels.md#sensitive-data-labels)。
 
-   ![](assets/sensitive_data.png)
+   ![敏感資料](assets/sensitive_data.png)
 
 1. 開啟「資料隱私權資料」區段以設定&#x200B;**資料控管**&#x200B;標籤。使用本節內容指示 Adobe 該如何處理資料隱私權存取和刪除請求的每個變數，以及定義應掃描哪些變數來尋找這些請求的資料主體 ID。如需這些選項的詳細資訊，請參閱[資料控管標籤 (資料隱私權)](/help/admin/c-data-governance/gdpr-labels.md#data-governance-labels)。
 
-   ![](assets/privacy_labels.png)
+   ![隱私權標籤](assets/privacy_labels.png)
 
 1. 完成所有標籤設定後，按一下&#x200B;**[!UICONTROL 「套用」]**。
 
@@ -71,7 +71,7 @@ ht-degree: 100%
 1. 選取群組中的某些變數或所有變數。
 1. 按一下「資料控管」對話方塊右上角的&#x200B;**[!UICONTROL 「將標籤複製到報表套裝」]**。
 
-   ![](assets/apply_as_template.png)
+   ![作為模板應用](assets/apply_as_template.png)
 
 1. 勾選&#x200B;**[!UICONTROL 「選擇全部」]**，將選取的變數複的標籤製到所有報表套裝，或選取您想為其複製標籤的個別報表套裝。
 

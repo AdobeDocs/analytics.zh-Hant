@@ -4,10 +4,10 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: acacd0a61dfaf2ab7ba20bcaa1c6bcc4f6f67765
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 89%
+source-wordcount: '1377'
+ht-degree: 88%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
 
    * 使用下拉式選單來選取量度或維度。
    * 從維度或量度清單拖曳項目。
-   * 使用搜尋來尋找您要的量度或維度。
+   * 使用搜尋來尋找您要尋找的維度或量度。
 
    例如，假設您要追蹤導致結帳事件的所有項目。 您可以將與結帳相關的維度或量度 (例如[!UICONTROL 「訂單存在」]) 拖曳到&#x200B;**[!UICONTROL 「結束於」]**&#x200B;拖放區域。
 

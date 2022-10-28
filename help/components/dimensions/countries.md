@@ -3,16 +3,16 @@ title: 國家/地區
 description: 點擊的來源國家/地區。
 feature: Dimensions
 exl-id: 47704b08-215d-4d2d-bcd4-1789e308c1c6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '269'
+ht-degree: 89%
 
 ---
 
 # 國家/地區
 
-「國家/地區」維度會報告點擊源自於哪個國家/地區。此維度有助於判斷訪客在造訪您的網站時最常來自哪些國家/地區。您可以利用這項資料加強對這些國家/地區的行銷工作，或確保您在使用不同主要語言的國家/地區可提供最理想的網站體驗。
+「國家/地區」維度會報告點擊源自於哪個國家/地區。此維度有助於判斷訪客在造訪您的網站時最常來自哪些國家/地區。您可以利用這些資料專注在這些國家/地區的行銷工作，或確保您的網站體驗在使用不同主要語言的國家/地區最佳。
 
 ## 將資料填入此維度中
 

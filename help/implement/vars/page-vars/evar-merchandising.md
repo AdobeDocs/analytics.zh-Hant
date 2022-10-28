@@ -1,25 +1,25 @@
 ---
-title: eVar (銷售) 變數
+title: eVar（銷售變數）
 description: 繫結至個別產品的自訂變數。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
-source-git-commit: 43703a5e90bcc2afbe45091d72f2c09a50f3db24
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
+source-wordcount: '543'
+ht-degree: 64%
 
 ---
 
 # eVar (銷售)
 
-*此說明頁面說明如何實施作業銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用指南中的 [eVar (銷售)](/help/components/dimensions/evar-merchandising.md)。*
+*此說明頁面說明如何實施作業銷售 eVar。如需銷售eVar作為維度時的運作方式，請參閱 [eVar（銷售維度）](/help/components/dimensions/evar-merchandising.md) （在元件使用手冊中）。*
 
 如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)」。
 
 ## 在報表套裝設定中設定 eVar
 
-在實施作業中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在實作中使用eVar之前，請務必在報表套裝設定中設定所需語法的eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >

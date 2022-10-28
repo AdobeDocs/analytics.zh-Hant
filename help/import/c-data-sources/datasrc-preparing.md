@@ -5,10 +5,10 @@ title: 準備使用資料來源
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 3cad7c33-f31c-41a2-9dd2-9535713c7620
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '567'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '568'
+ht-degree: 96%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 
 在定義資料來源要使用的資料維度後，將維度資料對應到變數，即可將其整合到行銷報表中。使用標準報表 (如產品、追蹤代碼、搜尋關鍵字) 或轉換流量變數 (eVar)。
 
-若是 eVar，您可使用現存 eVar 或新的 eVar 做為資料維度。選取接受資料來源資料維度的 eVar 後，確定您將 eVar 正確命名。
+若是 eVar，您可使用現存 eVar 或新的 eVar 做為資料維度。選取要從資料來源接收資料維度的eVar後，請務必為其正確命名。
 
 請參閱「分析說明」中的「[成功事件](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/success-events/success-event.html)」。
 

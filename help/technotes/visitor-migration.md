@@ -5,10 +5,10 @@ title: 訪客移轉
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <b>開始使用：</b><a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html"  >請聯絡客戶服務</a>，提供您要移轉的網域以及您想啟用的移轉期間 (30、60 或 90 天)。請務必包含不安全和安全的網域。 </p> </td> 
+   <td colname="col1"> <p> <b>開始使用：</b><a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html"  >請聯絡客戶服務</a>，提供您要移轉的網域以及您想啟用的移轉期間 (30、60 或 90 天)。請確定您包含不安全和安全的網域。 </p> </td> 
    <td colname="col3"> <p>使用移轉來源和目標網域的<i>確實</i>語法，建立清單。 </p> 
     <ul id="ul_067EC5C7619141A6BDFBC209C9FD47E2"> 
      <li id="li_0723D948465A49C1871B81207AEDC4DC">example.112.2o7.net &gt; metrics.example.com </li> 

@@ -3,10 +3,10 @@ title: 建立或編輯資料摘要
 description: 瞭解如何建立或編輯資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: ed1a627dafdf10f8a0a65e94b20ab6a3204a5d15
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 建立資料摘要，Adobe 就能知道要將原始資料檔案傳送至何處，以及您想在每個檔案中納入哪些資料。本頁面列出您在建立資料摘要時可自訂的各個設定。
 
-在閱讀本頁之前，建議您先瞭解資料摘要的基本知識。請參閱[資料摘要概觀](data-feed-overview.md)，確認您符合建立資料摘要的需求。
+在閱讀本頁之前，建議您先瞭解資料摘要的基本知識。請參閱 [資料摘要概觀](data-feed-overview.md) 以確保您符合建立資料摘要的需求。
 
 ## 摘要資訊欄位
 

@@ -1,12 +1,12 @@
 ---
-title: 維度的 eVar
+title: eVar（維度）
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '786'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '787'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 ## 維度項目
 
-由於 eVar 包含您的實作中的自訂字串，因此您的組織會決定每個 eVar 的維度項目。請務必將每個 eVar 的用途和常用的維度項目記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
+由於 eVar 包含您的實作中的自訂字串，因此您的組織會決定每個 eVar 的維度項目。請務必將每個eVar的用途和一般維度項目記錄在 [解決方案設計檔案](/help/implement/prepare/solution-design.md).
 
 ## eVar 的運作方式
 

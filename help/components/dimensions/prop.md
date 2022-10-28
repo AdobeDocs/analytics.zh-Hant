@@ -3,14 +3,14 @@ title: Prop
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: cf8ad65b-bc54-473e-bcfc-9c981d23e782
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 94%
 
 ---
 
-# 道
+# Prop
 
 *此說明頁面說明 Prop 作為維度時的運作方式。如需如何實作 Prop 的相關資訊，請參閱「實作」使用指南中的 [Prop](/help/implement/vars/page-vars/prop.md)。*
 
@@ -30,7 +30,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 ## 維度項目
 
-由於 Prop 包含您實作中的自訂字串，因此您的組織會決定每個 Prop 的維度項目。請務必將每個 Prop 的用途和常用的維度項目記錄在[解決方案設計文件](/help/implement/prepare/solution-design.md)中。
+由於 Prop 包含您實作中的自訂字串，因此您的組織會決定每個 Prop 的維度項目。請務必將每個Prop的用途和一般維度項目記錄在 [解決方案設計檔案](/help/implement/prepare/solution-design.md).
 
 ## 區分大小寫
 

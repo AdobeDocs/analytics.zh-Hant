@@ -3,10 +3,10 @@ description: 了解如何移轉行動服務處理規則至 Adobe Analytics
 title: 移轉行動服務處理規則至 Adobe Analytics
 feature: Processing Rules
 exl-id: ea183c1a-a85e-4f4e-a7f6-f947b939e9d9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '686'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
    ![內容變數](assets/context-var.png)
 
-1. 在 Experience Cloud 中，切換至 Adobe Analytics，並確保您是在行動服務內所看的同一個行動報告套裝中。
+1. 在Experience Cloud中，切換至Adobe Analytics，確認您位於在Mobile Services中查看的相同行動報表套裝中。
 1. 前往「**[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 處理規則]**。
 1. 按一下「**[!UICONTROL 新增規則]**」。
 1. 無需理會條件限制，繼續新增行動服務內存在的相同內容變數。
@@ -59,7 +59,7 @@ ht-degree: 100%
 若要存取範本：
 
 1. 登入 `experience.adobe.com` 並選取「Analytics」。
-1. 確保您是在為行動服務啟用的報告套裝中。
+1. 請確定您位於已啟用Mobile Services的報表套裝中。
 1. 按一下「**[!UICONTROL Workspace]**」標籤。
 1. 按一下「**[!UICONTROL 建立新專案]**」。
 1. 選取任何行動範本，並按一下「**[!UICONTROL 建立]**」。

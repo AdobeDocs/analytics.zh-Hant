@@ -3,10 +3,10 @@ title: list
 description: 在同一次點擊中容納多個值的自訂變數。
 feature: Variables
 exl-id: 612f6f10-6b68-402d-abb8-beb6f44ca6ff
-source-git-commit: 50e57e30a50d9c010e8b25b5a7d0afc8926525f5
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 67%
+source-wordcount: '478'
+ht-degree: 63%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 67%
 
 清單變數是自訂變數，您可以視需要使用。它們的作用與 eVar 類似，但是它們可以在同一次點擊中包含多個值。清單變數沒有字元限制。
 
-請務必將每個清單變數的使用方式與其邏輯記錄在[解決方案設計文件](../../prepare/solution-design.md)內。
+請務必將每個清單變數的使用方式及其邏輯記錄在 [解決方案設計檔案](../../prepare/solution-design.md).
 
 >[!NOTE]
 >

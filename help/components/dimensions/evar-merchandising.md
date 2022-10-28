@@ -1,18 +1,18 @@
 ---
-title: 維度的 eVar (銷售)
+title: eVar（銷售維度）
 description: 繫結至產品維度的自訂變數。
 feature: Dimensions
 exl-id: a7e224c4-e8ae-4b53-8051-8b5dd43ff380
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
-source-wordcount: '446'
-ht-degree: 100%
+source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+workflow-type: tm+mt
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
 # eVar (銷售)
 
-*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售 eVar 的相關資訊，請參閱實作使用手冊中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
+*此說明頁面說明銷售 eVar 作為維度時的運作方式。如需如何實作銷售eVar的詳細資訊，請參閱 [eVar（銷售變數）](/help/implement/vars/page-vars/evar-merchandising.md) 中。*
 
 如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)」。
 
