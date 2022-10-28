@@ -5,14 +5,16 @@ keywords: 最佳實務;失敗;逾時;疑難排解;緩慢
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 1c09f514-42ab-4698-bdee-d1b509da3f11
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 100%
 
 ---
 
 # 報告最佳作法和疑難排解
+
+{{ra-eol}}
 
 *此說明頁面說明 Reports &amp; Analytics 的最佳作法。如需 Analysis Workspace 的相關資訊，請參閱 [Analysis Workspace 效能最佳化](../analysis-workspace/workspace-faq/optimizing-performance.md)。如需 Data Warehouse 的相關資訊，請參閱 [Data Warehouse 最佳作法](/help/export/data-warehouse/data-warehouse-bp.md)。*
 

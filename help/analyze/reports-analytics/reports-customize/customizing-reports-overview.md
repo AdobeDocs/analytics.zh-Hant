@@ -2,17 +2,19 @@
 description: 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報表資料、變更以圖形呈現資料的方式、變更日期精細度等等。
 title: 自訂報表概觀
 uuid: 37d221b7-50fd-4425-b2ba-f40911b72a2f
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '921'
+ht-degree: 100%
 
 ---
 
 # 自訂報表概觀
+
+{{ra-eol}}
 
 執行報表後，您可以自訂報表，以根據您的需求檢視和分析資料。您可以篩選報表資料、變更以圖形呈現資料的方式、變更日期精細度等等。
 
@@ -38,7 +40,7 @@ t_reports_custom.xml
 
 >[!MORELIKETHIS]
 >
->* [功能表自訂](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html)
+>* [功能表自訂](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/customize-menus.html?lang=zh-Hant)
 
 
 ## 選擇日期或日期範圍 {#task_9BEF7D4D839A4748B76E8500D1406C34}
@@ -86,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
->如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
+>如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
 
 若要比較「Report &amp; Analytics」中排名報表之間的日期：
 

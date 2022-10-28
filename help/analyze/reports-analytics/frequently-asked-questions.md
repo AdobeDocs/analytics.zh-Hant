@@ -5,14 +5,16 @@ title: Reports & Analytics 的常見問題集
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 100%
 
 ---
 
 # 常見問答
+
+{{ra-eol}}
 
 針對 Reports &amp; Analytics 的部分常見問題提供解答和疑難排解建議。如需了解實施作業方面有哪些常見問題，請參閱「實施作業」使用指南中的[常見問題集](/help/implement/faq.md)。
 

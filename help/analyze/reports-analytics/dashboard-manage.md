@@ -3,17 +3,19 @@ description: 使用「控制面板管理員」可以複製、共用、封存和�
 subtopic: Dashboards
 title: 控制面板管理員
 uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '794'
 ht-degree: 98%
 
 ---
 
 # 控制面板管理員
+
+{{ra-eol}}
 
 使用「控制面板管理員」可以複製、共用、封存和排程控制面板的傳送作業。
 
@@ -21,7 +23,7 @@ ht-degree: 98%
 >
 >「控制面板管理員」的最佳使用作法是任何使用者的控制面板都不超過 300 個。此外也請注意，管理員會載入下方所有共用控制面板，因此，請在使用共用控制面板時多加留意。
 
-按一下「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**」。
+按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**.
 
 | 元素 | 說明 |
 |--- |--- |
@@ -35,7 +37,7 @@ ht-degree: 98%
 
 說明如何使用共用控制面板管理選項的步驟。
 
-1. 前往&#x200B;**[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**。
+1. 前往 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**.
 1. 在[!UICONTROL 共用控制面板]下，找出要管理的共用控制面板 (或舊版控制面板)，並選擇下列一個或多個選項：
 
 <table id="choicetable_857E0E816D63404683D4E24DC8D7FC69"> 

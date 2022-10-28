@@ -5,14 +5,16 @@ title: 儀表板和報表
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1827'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # 儀表板和報表
+
+{{ra-eol}}
 
 儀表板是稱為小報表的報表縮圖集合。儀表板可以包含相關小報表，提供您網站特定層面的完整概觀，例如尋找方法、訪客資料等等。
 
@@ -59,7 +61,7 @@ ht-degree: 100%
 
 使用[!UICONTROL 儀表板管理員]可以編輯和管理儀表板，以及啟用它們的 DirectAccess 功能。
 
-請參閱[管理儀表板](/help/analyze/reports-analytics/dashboard-manage.md)。
+請參閱 [管理控制面板](/help/analyze/reports-analytics/dashboard-manage.md).
 
 ## 建立儀表板 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 

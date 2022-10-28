@@ -4,14 +4,16 @@ description: Reports & Analytics 用於每個報表的維度和量度。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
 
 ---
 
 # 報表
+
+{{ra-eol}}
 
 Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量度。您可以變更每個報表中的量度，並可視需要新增劃分。下列清單提供每個報表所使用的維度。
 

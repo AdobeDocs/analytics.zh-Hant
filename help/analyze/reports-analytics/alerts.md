@@ -3,17 +3,19 @@ description: 在「Reports & Analytics」中使用警報。
 subtopic: Alerts
 title: 警報
 uuid: e1333a9b-eba0-45b7-b7e6-46e06190db64
-feature: 警報
+feature: Alerts
 role: User, Admin
 exl-id: f0a23afb-6c21-41e6-9033-9d3421bb1f4b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '837'
 ht-degree: 96%
 
 ---
 
 # 警報
+
+{{ra-eol}}
 
 ## 警報 {#concept_8AB25AF6FB52478DB98C1BA4577A2E16}
 
@@ -26,7 +28,7 @@ ht-degree: 96%
 
 您可以在 Report &amp; Analytics 中任何報告內的&#x200B;**[!UICONTROL 更多]** > **[!UICONTROL 警報]**&#x200B;存取此新警報系統。
 
-若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html?lang=zh-Hant)。
+若要瞭解詳情，請前往 Analysis Workspace 文件內的[智慧型警報](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html)。
 
 ## 新增警報 {#task_51187E8BF19544DDA9EF2057E6F11D35}
 

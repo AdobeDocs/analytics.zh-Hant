@@ -2,17 +2,19 @@
 description: 透過資料擷取，您可以選擇要在報表的 X 和 Y 軸上檢視的參數，以及篩選報表所依據的項目。
 subtopic: Schedule
 title: 資料擷取
-feature: Reports and Analytics 基本需知
+feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: fac6049d-3996-41df-adca-399b0ffcc5e2
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '136'
 ht-degree: 100%
 
 ---
 
 # 資料擷取
+
+{{ra-eol}}
 
 透過資料擷取，您可以選擇要在報表的 X 和 Y 軸上檢視的參數，以及篩選報表所依據的項目。
 

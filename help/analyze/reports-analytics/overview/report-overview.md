@@ -5,14 +5,16 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
+source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 
 ---
 
 # 報表功能
+
+{{ra-eol}}
 
 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 
