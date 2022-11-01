@@ -3,10 +3,10 @@ description: 了解如何使用報告活動管理器在尖峰報告期間診斷�
 title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 0ace6f453e08557be4fe61e35c542abaee8374f2
+source-git-commit: fa76e9cce0161e0efd2e95e87da5cddb6a612d8b
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 48%
+source-wordcount: '919'
+ht-degree: 49%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 48%
 | **[!UICONTROL 報告套裝]** | 您正在監控其報告活動的基本報告套裝。 |
 | **[!UICONTROL 虛擬報告套裝]** | 顯示注入到此基本報告套裝所有虛擬報告套裝。虛擬報告套裝因套用了額外層級的篩選和細分，而增加了報告請求的複雜性。來自虛擬報告套裝的所有請求都會合併並歸結為基本報告套裝。<p>例如，如果您有來自 5 個 VRS 的 10 個請求，那麼在基本層級的報告套裝中會有 50 個請求。如此一來，您很快就會達到容量。 |
 | **[!UICONTROL 使用容量]** | 以百分比即時顯示使用了多少報告套裝的報告容量。 |
-| **[!UICONTROL 狀態]** | 四個可能狀態指標： <ul><li>**紅色 —  [!UICONTROL 容量]**:報表套裝的報表容量已超過上限。 (95% - 100%) </li><li>**黃色 —  [!UICONTROL 接近容量]**:此報表套裝有達到其最大容量的危險。 (90% - 94%)</li><li>**綠色 —  [!UICONTROL 一切都好]**:報告能力很強。 (0% - 90%)</li><li>**灰色 —  [!UICONTROL 狀態待定]**:?</li></ul> |
+| **[!UICONTROL 狀態]** | 四個可能狀態指標： <ul><li>**紅色 —  [!UICONTROL 容量]**:報表套裝的報表容量已超過上限。 (100%) </li><li>**黃色 —  [!UICONTROL 接近容量]**:此報表套裝有達到其最大容量的危險。 (90% - 99%)</li><li>**綠色 —  [!UICONTROL 一切都好]**:報告能力很強。 (0% - 89%)</li><li>**灰色 —  [!UICONTROL 狀態掛起/未啟用]**:報告容量不可用。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -86,11 +86,11 @@ ht-degree: 48%
 
 | 摘要數字 | 說明 |
 | --- | --- |
-| 用戶 | 目前有多少使用者傳送報表請求至此報表套裝。 |
-| 專案 | 工作區專案、Report Builder活頁簿等 |
-| 查詢 | 當前運行的查詢數。 |
-| 平均等待時間 | 所有正在運行的查詢的平均等待時間。 |
-| 使用容量 | 此報表套裝的目前使用量。 |
+| [!UICONTROL 用戶] | 目前有多少使用者傳送報表請求至此報表套裝。 |
+| [!UICONTROL 專案] | 工作區專案、Report Builder活頁簿等 |
+| [!UICONTROL 查詢] | 當前運行的查詢數。 |
+| [!UICONTROL 平均等待時間] | 所有正在運行的查詢的平均等待時間。 |
+| [!UICONTROL 使用容量] | 此報表套裝的目前使用量。 |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -100,17 +100,17 @@ ht-degree: 48%
 
 | 欄目 | 說明 |
 | --- | --- |
-| 查詢ID | 可用於疑難排解。 |
-| 執行時間 | 查詢已運行多久。 |
-| 等待時間 | 處理查詢之前等待的時間。 通常為「0」，但容量足夠。 |
-| 開始時間 | 查詢開始處理時（管理員的當地時間）。 |
-| 應用程式 | 「報表活動管理員」支援的應用程式為： <ul><li>Analysis Workspace UI</li><li>工作區已排程專案</li><li>Report Builder</li><li>建立器UI:區段、計算量度、註解、對象等</li><li>來自1.4或2.0 API的API呼叫（5個同時請求）</li><li>智慧型警報</li></ul> |
-| 使用者 | 啟動查詢的用戶。 |
-| 專案 | 工作區專案、Report Builder活頁簿等 |
-| 月份界限 | 一個請求跨越的月邊界數。 這會增加請求的複雜性。 |
-| 「欄」 | 工作區中量度和劃分的數量，可評估請求的複雜性。 |
-| 區段 | 套用至此請求的區段數。 這會增加請求的複雜性。 |
-| 狀態 | 四個可能狀態指標： <ul><li>**紅色 —  [!UICONTROL 容量]**:報表套裝的報表容量已超過上限。 （95%以上）</li><li>**黃色 —  [!UICONTROL 接近容量]**:此報表套裝有達到其最大容量(90% - 95%)的危險。</li><li>**綠色 —  [!UICONTROL 一切都好]**:報告能力很強。</li><li>**[!UICONTROL 狀態待定]**:狀態不可用。</li></ul> |
+| [!UICONTROL 查詢ID] | 可用於疑難排解。 |
+| [!UICONTROL 執行時間] | 查詢已運行多久。 |
+| [!UICONTROL 等待時間] | 處理查詢之前等待的時間。 通常為「0」，但容量足夠。 |
+| [!UICONTROL 開始時間] | 查詢開始處理時（管理員的當地時間）。 |
+| [!UICONTROL 應用程式] | 「報表活動管理員」支援的應用程式為： <ul><li>Analysis Workspace UI</li><li>工作區已排程專案</li><li>Report Builder</li><li>建立器UI:區段、計算量度、註解、對象等</li><li>來自1.4或2.0 API的API呼叫</li><li>智慧型警報</li></ul> |
+| [!UICONTROL 使用者] | 啟動查詢的用戶。 |
+| [!UICONTROL 專案] | 已儲存的工作區專案名稱、API報表ID等。 （中繼資料可能因不同應用程式而異。） |
+| [!UICONTROL 月份界限] | 一個請求跨越的月邊界數。 這會增加請求的複雜性。 |
+| [!UICONTROL 欄] | 工作區中量度和劃分的數量，可評估請求的複雜性。 |
+| [!UICONTROL 區段] | 套用至此請求的區段數。 這會增加請求的複雜性。 |
+| [!UICONTROL 狀態] | 狀態指標： <ul><li>**執行中**:目前正在處理請求。</li><li>**待定**:請求正在等待處理。</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -134,6 +134,5 @@ ht-degree: 48%
 | 問題 | 回答 |
 | --- | --- |
 | 我可以購買額外的報告容量嗎？ | 此功能將於近期推出。 |
-| 其他問題？ |  |
 
 {style=&quot;table-layout:auto&quot;}
