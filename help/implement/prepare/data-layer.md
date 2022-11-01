@@ -3,7 +3,7 @@ title: 建立資料層
 description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用來對映 Adobe Analytics 中的變數。
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
-source-git-commit: 6a43a24cfe6a2a7f92a9613898660df41daf2c89
+source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 60%
@@ -12,7 +12,7 @@ ht-degree: 60%
 
 # 建立資料層
 
-資料層是站點上JavaScript對象的框架，其中包含Analytics實現中使用的變數值。 它允許在將值分配給Analytics變數時進行更好的控制和更輕鬆的維護。
+資料層是網站上JavaScript物件的架構，包含Analytics實作中使用的變數值。 為Analytics變數指派值時，可提供更優異的控制力及更輕鬆的維護。
 
 ## 先決條件
 
@@ -27,16 +27,17 @@ ht-degree: 60%
    >[!NOTE]
    >
    > 可選擇遵循 Adobe 建議的資料層規格。如果您已有資料層，或選擇不遵循 Adobe 的規格，請確定貴組織對於需遵循的規格有共識。
+
 1. **使用瀏覽器主控台驗證資料層**：建立資料層後，可以使用任何瀏覽器的開發人員主控台來驗證資料層是否正常運作。您可以使用 `F12` 鍵，在大部分的瀏覽器中開啟開發人員主控台。範例變數值應為 `adobeDataLayer.page.title`。
-1. **使用Adobe Experience Platform資料收集將資料層對象映射到資料元**:此步驟因組織的實施方法而異：
-   * **如果使用Web SDK**:將所需資料層對象映射到Adobe Experience Platform邊緣中所需的XDM欄位。 請參閱 [分析變數映射](../aep-edge/variable-mapping.md) 確定所需的資料層映射。
-   * **如果使用分析擴展**:在「Adobe Experience Platform資料收集中的標籤」下建立資料元素，並將它們分配給所需的資料層對象。 然後，在分析擴展中，將每個資料元素分配給相應的分析變數。
+1. **使用Adobe Experience Platform資料收集將資料層物件對應至資料元素**:此步驟會依貴組織的實作方法而異：
+   * **若使用Web SDK**:將所需的資料層物件對應至Adobe Experience Platform Edge中所需的XDM欄位。 請參閱 [Analytics變數對應](../aep-edge/variable-mapping.md) 以決定所需的資料層對應。
+   * **如果使用Analytics擴充功能**:在Adobe Experience Platform資料收集的「標籤」下建立資料元素，並將其指派給所需的資料層物件。 然後在Analytics擴充功能中，將每個資料元素指派給適當的Analytics變數。
 
 ## 規格
 
-Adobe建議使用 [Adobe客戶端資料層](https://github.com/adobe/adobe-client-data-layer/wiki) 用於新的或重組的實施。
+Adobe建議使用 [Adobe用戶端資料層](https://github.com/adobe/adobe-client-data-layer/wiki) 適用於新實作或重組實作。
 
-您的組織可以自由使用其他資料層規範，如 [客戶體驗數字資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)，或完全自定義規範。 與滿足您組織需求的一致資料層保持一致是最重要的。
+貴組織可使用其他資料層規格，例如 [客戶體驗數位資料層](https://www.w3.org/2013/12/ceddl-201312.pdf)，或完全的其他自定義規範。 最重要的是，要與符合貴組織需求的一致資料層保持一致。
 
 資料層可擴展；如果貴組織有特定的需求，您可以在資料層中加入物件以符合這些需求。
 
