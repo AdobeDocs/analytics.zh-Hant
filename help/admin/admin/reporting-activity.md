@@ -3,10 +3,10 @@ description: 了解如何使用報告活動管理器在尖峰報告期間診斷�
 title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: 1f42ca083346f673f6685ca43f361b19c644975d
+source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 44%
+source-wordcount: '928'
+ht-degree: 43%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 44%
 
 ## 權限
 
-您需要Analytics系統管理員權限才能管理報表活動。 產品管理員存取權不足。
+您需要Analytics產品管理員權限才能管理報表活動。
 
 ## 檢視報告佇列
 
@@ -118,7 +118,7 @@ ht-degree: 44%
 
 取消請求
 
-1. 勾選一或多個方塊的左側 **[!UICONTROL 查詢ID]** 在表格中按一下 **[!UICONTROL 取消請求]** 在底部。
+1. 勾選一或多個方塊的左側 **[!UICONTROL 查詢ID]** 在表格中按一下 **[!UICONTROL 取消請求]** 在底部。 (您也可以透過檢視詳細資訊，以大量取消請求 [!UICONTROL 使用者], [!UICONTROL 專案]，或 [!UICONTROL 應用程式].)
 1. 在 **[!UICONTROL 取消x查詢]** 窗口，您可以根據需要修改取消消息。
 1. 按一下&#x200B;**[!UICONTROL 「繼續」]**。
 
@@ -127,7 +127,6 @@ ht-degree: 44%
 例如，工作區中的應用程式使用者會看到下列通知出現在其專案中：
 
 ![取消用戶通知](assets/cancel-user-facing.png)
-
 
 ## 常見問答
 
