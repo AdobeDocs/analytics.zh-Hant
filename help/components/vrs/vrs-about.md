@@ -3,10 +3,10 @@ description: 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以�
 title: 虛擬報表套裝概觀
 feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
-source-git-commit: be913fb9bae7954864b180490364c275c7bf7f15
+source-git-commit: 41811cb8c9b67452556364959f24d75cfc7ddc9e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 95%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 功能 | 虛擬報表套裝 | 多套裝標記 |
 |--- |--- |--- |
 | 提供即時或「目前的資料」報告 | 無 | 是 |
-| 在所有 Analytics 工具 (Analysis Workspace、Report Builder 等) 都可使用 | 可以。**注意:** 您只能在「Reports &amp; Analytics」中進行編輯並將它們識別為虛擬報表套裝。不過，您可在其他工具中的報表套裝下拉式清單中選取它們。 | 是 |
+| 在所有 Analytics 工具 (Analysis Workspace、Report Builder 等) 都可使用 | 可以。**注意：** 您只能在 [!UICONTROL Analytics] > [!UICONTROL 元件] > [!UICONTROL 虛擬報表套裝]. 不過，您可在其他工具中的報表套裝下拉式清單中選取它們。<p>**重要**:Adobe Report Builder目前不支援具有報表時間處理和變數自訂功能的虛擬報表套裝。 | 是 |
 | 可以上傳資料上去 (透過分類、資料摘要等) | 無 | 是 |
 | 支援建立 DL 報表、書籤、控制面板、目標、警報、區段、計算量度... | 是 | 是 |
 | 可個別新增至權限群組 | 是 | 是 |
