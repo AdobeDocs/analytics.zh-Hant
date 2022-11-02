@@ -6,8 +6,8 @@ feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '403'
+workflow-type: tm+mt
+source-wordcount: '399'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Activity Map 模組屬於 AppMeasurement.js 檔案的一部分 (位於檔案的�
       …&c.&a.&Activity Map.&link=My%20Link&region=My%20Region&page=My%20Page&.Activity Map&.a&.c&...
       ```
 
-1. 依照&#x200B;**[!UICONTROL 「各地區的 Activity Map 連結」]**&#x200B;劃分此報表，查看該頁面的連結/地區：![](assets/am_breakdown.png){width=&quot;400px&quot;}
+1. 依照「**[!UICONTROL 各地區的 Activity Map 連結]**」劃分此報表，查看該頁面的連結/地區:  ![](assets/am_breakdown.png){width="400px"}
 
 ## 步驟 2. 啟用 Activity Map 報表 {#section_D14F15D2FC0346FCAD8B3B87E6DD33D4}
 

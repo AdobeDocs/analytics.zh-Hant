@@ -6,8 +6,8 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '855'
+workflow-type: tm+mt
+source-wordcount: '853'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 報表導覽使用階層式檢視進行。按一下&#x200B;**[!UICONTROL 「檢視全部報表」]**&#x200B;或按正斜線鍵 (/)，接著按向下鍵 (?) 即可使用方向鍵來快速顯示並導覽功能表。按 Esc 鍵可關閉功能表而不變更目前報表，按 Enter 鍵則可載入選取的報表。
 
-![](assets/reports-landing.png){width=&quot;672px&quot;}
+![](assets/reports-landing.png){width="672px"}
 
 如需個別報表的詳細資訊，請參閱「[Dimensions](/help/components/dimensions/overview.md)」。
 

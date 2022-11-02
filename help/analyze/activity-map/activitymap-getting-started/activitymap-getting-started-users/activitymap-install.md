@@ -6,8 +6,8 @@ feature: Activity Map
 role: User, Admin
 exl-id: ceec1c10-57e7-462f-8f78-9ed86c938563
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '401'
+workflow-type: tm+mt
+source-wordcount: '395'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Activity Map 瀏覽器外掛程式：
 1. 回到 Chrome 位址列並輸入 `chrome://extensions`。
 1. 勾選「開發人員模式」方塊。
 1. 按一下「載入未封裝擴充功能」並從彈出式功能表中選取解壓縮的資料夾。
-1. 如果看到工具列中新增加一個 Adobe Analytics 圖示  ![](assets/an_icon.png){width=&quot;70px&quot;}，表示下載成功。您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
+1. 如果看到工具列中新增加一個 Adobe Analytics 圖示 ![](assets/an_icon.png){width="70px"}，表示下載成功。您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
 
 ## 在 Firefox 上安裝 Activity Map 外掛程式 {#section_1F69D3D22DB34D6992747B1A62C1D2DA}
 
@@ -45,7 +45,7 @@ Activity Map 瀏覽器外掛程式：
 1. 按一下&#x200B;**[!UICONTROL 「安裝 Activity Map 外掛程式」]**。
 1. 出現下列訊息時，按一下&#x200B;**[!UICONTROL 「允許」]**：![](assets/firefox_install2.png)
 1. 按一下&#x200B;**[!UICONTROL 「立即安裝」]**。
-1. 按一下右上角的&#x200B;**[!UICONTROL 「開啟功能表」]**&#x200B;圖示，並選取&#x200B;**[!UICONTROL 「附加元件」]**。![](assets/firefox_install3.png){width=&quot;250px&quot;}
+1. 按一下右上角的&#x200B;**[!UICONTROL 「開啟功能表」]**&#x200B;圖示，並選取&#x200B;**[!UICONTROL 「附加元件」]**。![](assets/firefox_install3.png){width="250px"}
 1. Activity Map 應該會列在 Firefox 附加元件清單中。
 1. 如果看到工具列中新增加一個 Adobe Analytics 圖示 ![](assets/an_icon.png)，表示下載成功。您現在可以從網頁[啟動 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md) 了。
 
