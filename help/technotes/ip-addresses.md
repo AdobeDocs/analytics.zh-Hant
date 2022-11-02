@@ -3,10 +3,10 @@ title: Adobe Analytics 使用的 IP 和網域
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 7f55b7d0fae6031088cd31d9605a9b47aa5fce9f
+source-git-commit: 0a66bc86ee68259fdb5835bf7bccd9b5e9455990
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 79%
+source-wordcount: '400'
+ht-degree: 72%
 
 ---
 
@@ -33,9 +33,9 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建�
 | Microsoft Azure Blob 儲存體 | `awaascicdprodva7.blob.core.windows.net` |
 | Microsoft Azure CDN | `aauicdnva7.azureedge.net` |
 
-## 所有 Adobe Analytics 資料收集 IP 位址區塊
+## 所有Adobe Analytics IP位址區塊
 
-下表涵蓋 Adobe Analytics 的所有標準資料收集伺服器及區域資料收集伺服器。 不包含個別 AWS 主機。
+下表涵蓋所有Adobe擁有的IP位址，這些位址皆用於Adobe Analytics。 其中不包含所有在公共雲端中托管的服務。
 
 | IP 區塊 (CIDR 標記法) |
 | --- |
@@ -43,6 +43,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建�
 | `66.117.16.0/20` |
 | `66.235.128.0/19` |
 | `130.248.0.0/16` |
+| `185.34.188.0/22` |
 
 ## 資料收集和 FTP IP 位址區塊
 
