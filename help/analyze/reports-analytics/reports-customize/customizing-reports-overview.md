@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a042fac-926e-4560-83bf-11f66ddb8273
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '921'
 ht-degree: 100%
 
@@ -53,7 +53,7 @@ t_reports_select_date.xml
 
  -->
 
-您可以選擇特定日、週、月或年。您也可以執行比較報表.
+您可以選擇特定日、週、月或年。您也可以執行比較報表。
 
 當您使用擁有不同日期範圍的小報表開啟控制面板，並在「日曆」中選擇新的日期範圍時，變更會套用至控制面板中的所有小報表。
 
@@ -88,7 +88,7 @@ t_reports_comparing_dates.xml
 
 >[!NOTE]
 >
->如果要在控制面板中比較重要度量的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
+>如果要在控制面板中比較重要量度的日期，您可使用兩個個別的請求，將資料提取到 [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html)。您可以在 Excel 中使用自訂公式來分析兩者之間的差異。
 
 若要比較「Report &amp; Analytics」中排名報表之間的日期：
 
@@ -148,9 +148,9 @@ t_reports_select_page.xml
 1.  找到頁面。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
-## 比較報表套裝 {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
+## 比較報告套裝 {#task_6BEBEB2D4F36497C9DA5B18ADAD35546}
 
-說明如何將兩個報表套裝的報表顯示在同一個報表中。
+說明如何將兩個報告套裝的報表顯示在同一個報表中。
 
 <!-- 
 
@@ -172,11 +172,11 @@ t_reports_compare_suites.xml
 * 目標
 * 調查
 
-**比較報表套裝**
+**比較報告套裝**
 
 1. 產生可讓您比較報表的報表。
 1. 按一下&#x200B;**[!UICONTROL 網站比較]**&#x200B;連結。
-1. 找到報表套裝。
+1. 找到報告套裝。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 ## 指定報表精細度 {#task_7ED3EEC9E1704A918B25D06ADA3412E0}
