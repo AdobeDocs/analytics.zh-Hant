@@ -6,7 +6,7 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '592'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 1. 按一下&#x200B;**[!UICONTROL 設定圖表]**。
 1. 選取圖表類型。
 
-   **[!UICONTROL 趨勢線]**：趨勢線顯示報告度量的每日趨勢，可用來隨時間對一個度量進行趨勢分析。
+   **[!UICONTROL 趨勢線]**：趨勢線顯示報告量度的每日趨勢，可用來隨時間對一個量度進行趨勢分析。
 
    ![](assets/graph_trend_line.png)
 
@@ -42,11 +42,11 @@ ht-degree: 100%
 
    ![](assets/graph_stacked_area.png)
 
-   **[!UICONTROL 垂直條]**：垂直條圖顯示報告度量的相對百分比。
+   **[!UICONTROL 垂直條]**：垂直條圖顯示報告量度的相對百分比。
 
    ![](assets/graph_vertical_bars.png)
 
-   **[!UICONTROL 堆疊垂直條]**：堆疊類似的項目，有助於快速瞭解某個項目的整體影響。例如，在[!UICONTROL 促銷活動報告]中，您可以將類似的成功度量堆疊起來，然後確定哪個促銷活動最有效地促成了總體成功。堆疊方便尋找在某個度量上並非表現最佳、但在度量組合上表現為最佳的促銷活動。
+   **[!UICONTROL 堆疊垂直條]**：堆疊類似的項目，有助於快速瞭解某個項目的整體影響。例如，在[!UICONTROL 促銷活動報告]中，您可以將類似的成功量度堆疊起來，然後確定哪個促銷活動最有效地促成了總體成功。堆疊方便尋找在某個量度上並非表現最佳、但在量度組合上表現為最佳的促銷活動。
 
    ![](assets/graph_stacked_vertical.png)
 
@@ -58,14 +58,14 @@ ht-degree: 100%
 
    ![](assets/graph_stacked_horizontal.png)
 
-   **[!UICONTROL 圓形圖]**：圓形圖顯示最高度量值彼此相對的百分比，並顯示選定度量占整體的百分比。您可以為排名報告顯示圓形圖。
+   **[!UICONTROL 圓形圖]**：圓形圖顯示最高量度值彼此相對的百分比，並顯示選定量度占整體的百分比。您可以為排名報告顯示圓形圖。
 
    ![](assets/graph_pie.png)
 
-   **[!UICONTROL 散佈圖]**：散佈圖顯示所選度量彼此相對的散佈狀況。散佈圖以兩維方式形象化資料，藉此您可識別那些無關的項目。
+   **[!UICONTROL 散佈圖]**：散佈圖顯示所選量度彼此相對的散佈狀況。散佈圖以兩維方式形象化資料，藉此您可識別那些無關的項目。
 
    ![](assets/graph_scatter.png)
 
-   **[!UICONTROL 泡泡圖]**：泡泡圖顯示所選度量彼此相對的泡泡圖形。泡泡的位置顯示水平軸和垂直軸上度量之間的關係，而泡泡大小表示報告度量的重要程度。泡泡圖以兩維方式形象化資料，藉此您可識別那些無關的項目。
+   **[!UICONTROL 泡泡圖]**：泡泡圖顯示所選量度彼此相對的泡泡圖形。泡泡的位置顯示水平軸和垂直軸上量度之間的關係，而泡泡大小表示報告量度的重要程度。泡泡圖以兩維方式形象化資料，藉此您可識別那些無關的項目。
 
    ![](assets/graph_bubble.png)
