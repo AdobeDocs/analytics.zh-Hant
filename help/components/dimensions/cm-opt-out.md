@@ -1,9 +1,9 @@
 ---
 title: 同意管理選擇退出
 description: 查看訪客選擇退出的隱私權設定。
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
+source-git-commit: c305f74d5047db57509de8ff9ee03b8144009f5a
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 5%
 
 ---
@@ -26,6 +26,6 @@ ht-degree: 5%
 
 Dimension項目包含下列三個值：
 
-* **`SSF`**:訪客選擇退出 [伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md). 上下文資料變數出現此維度項目 `cm.ssf` 等於 `1`. 請參閱 [資料隱私權概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) 中，以取得詳細資訊。
-* **`DMP`**:訪客選擇退出資料管理平台的共用。 上下文資料變數出現此維度項目 `opt.dmp` 等於 `N`. 點擊未轉送至Adobe Audience Manager。
+* **`SSF`**:訪客選擇退出 [伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md). 上下文資料變數出現此維度項目 `cm.ssf` 等於 `1`. 請參閱 [資料隱私權概觀](https://experienceleague.adobe.com/docs/audience-manager/user-guide/overview/data-privacy/data-privacy.html) 中，以取得詳細資訊。 點擊未轉送至Adobe Audience Manager。
+* **`DMP`**:訪客選擇退出資料管理平台的共用。 上下文資料變數出現此維度項目 `opt.dmp` 等於 `N`. 類似 `SSF`，點擊不會轉送至Adobe Audience Manager。
 * **`SELL`**:訪客選擇退出分享或銷售資料給第三方。 上下文資料變數出現時，會出現此維度 `opt.sell` 等於 `N`.
