@@ -3,8 +3,8 @@ description: 本文件說明您需要在 Adobe Analytics 中執行哪些操作�
 title: Adobe Analytics 和 CCPA
 feature: Data Governance
 exl-id: 1f37e72b-99e4-4833-a506-98c8ec415757
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
+source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
+workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 100%
 
@@ -47,4 +47,4 @@ Adobe 瞭解您最熟悉報表套裝中的自訂資料，我們讓您能夠定�
    若未設定資料保留時間，Adobe Analytics 就無法協助您處理隱私權服務 API 的相關請求，亦即無法處理一般使用者所提出的存取或刪除請求。請聯絡客戶成功案例經理，以設定資料保留時間。
 
 * 檢查您的權限：若要使用 Adobe Analytics 中的資料控管管理介面，您必須是 Adobe Analytics 管理員。
-* 請考慮實施[「同意管理變數」](/help/admin/c-data-governance/consent-variables.md)以追蹤點擊層級的同意狀態。
+* 請考慮實施[「同意管理變數」](/help/admin/admin/privacy-reporting.md)以追蹤點擊層級的同意狀態。

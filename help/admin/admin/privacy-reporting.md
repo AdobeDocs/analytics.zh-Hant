@@ -1,18 +1,34 @@
 ---
-description: 您可以啟用隱私權報告。
+description: 啟用「同意」管理維度。
 title: 隱私權報告
 feature: Admin Tools
 exl-id: 307c9ae2-2135-4a0b-9d2d-3c13a27b8361
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: 6ce83892cc3b3dd6ee818b6d00e764e892060a1b
 workflow-type: tm+mt
-source-wordcount: '29'
-ht-degree: 100%
+source-wordcount: '87'
+ht-degree: 14%
 
 ---
 
 # 隱私權報告
 
-若要支援「資料控管」與「知情同意管理」測量，請使用這些變數。
+隱私權報表可讓您啟用 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md) 和 [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md) 用於報表的維度。
 
-如需詳細資訊，請參閱[知情同意管理](/help/admin/c-data-governance/consent-variables.md)。
+要訪問此頁：
+
+1. 登入Adobe Analytics並導覽至 **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝]**.
+1. 選取一或多個所需的報表套裝，然後選取 **[!UICONTROL 編輯設定]** > **[!UICONTROL 隱私權管理]** > **[!UICONTROL 隱私權報表]**.
+
+   ![編輯設定](assets/rsm-privacy-select.png)
+
+1. 按一下&#x200B;**[!UICONTROL 「啟用資料隱私權報表」]**&#x200B;按鈕。
+
+   >[!NOTE]
+   >
+   >這些變數一經啟用即無法關閉。
+
+   ![啟用](assets/rsm-privacy-enable.png)
+
+1. 啟用後，會顯示確認訊息。 維度可用於報表。
+
+   ![報表](assets/consent-management.png)
