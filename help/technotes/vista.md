@@ -1,36 +1,36 @@
 ---
-title: Adobe Analytics的VISTA規則
-description: 深入了解VISTA規則及其功能。
+title: Adobe Analytics 中的 VISTA 規則
+description: 進一步了解 VISTA 規則及其功能。
 source-git-commit: 1e2284fd4a62816b27b33a91f3bee2575a852107
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# Adobe Analytics的VISTA規則
+# Adobe Analytics 中的 VISTA 規則
 
-VISTA規則是自訂資料修改的替代形式，可在資料收集和處理之間套用。 請參閱 [處理順序](processing-order.md) 以取得VISTA規則所套用之資料管道中確切階段的詳細資訊。 VISTA規則只會在收集到目前的資料時影響資料；不會變更現有資料。
+VISTA 規則是自訂資料修改的另一種形式，您可以在資料收集和處理之間應用。請參閱[處理順序](processing-order.md) 以進一步了解 VISTA 規則套用之資料管道中的確切階段。VISTA 規則僅影響收集的目前資料；它不會改變現有資料。
 
-VISTA規則的一些常見使用案例包括：
+VISTA 規則的一些常見使用案例包括：
 
-* 將一個報表套裝的Analytics點擊複製到另一個報表套裝，選擇性地變更資料至複製的報表套裝
-* 超過所提供使用案例的自訂IP排除 [依IP排除](/help/admin/admin/exclude-ip.md)
-* 有條件或全域修改任何變數值
-* 將變數值重複至其他變數
-* 上傳檔案至可影響變數值的AdobeFTP站台
+* 將 Analytics 點擊從一個報告套裝複製到另一個報告套裝，可選擇更改所複製報告套裝的資料
+* 自訂 IP 排除超過[依 IP 排除](/help/admin/admin/exclude-ip.md)提供的使用案例
+* 有條件地或全域地修改任何變數值
+* 將變數值複製到其他變數
+* 將可能影響變數值的檔案上傳到 Adobe FTP 站台
 
-VISTA規則的許多使用案例已由 [處理規則](/help/admin/admin/c-processing-rules/processing-rules.md), [機器人規則](/help/admin/admin/bot-removal/bot-rules.md), [虛擬報表套裝](/help/components/vrs/vrs-about.md)，或僅更新Adobe Analytics實作。 Adobe建議僅以VISTA規則為最後手段。
+[處理規則](/help/admin/admin/c-processing-rules/processing-rules.md)、[機器人規則](/help/admin/admin/bot-removal/bot-rules.md)、[虛擬報告套裝](/help/components/vrs/vrs-about.md)已經提供了 VISTA 規則的許多使用案例，或者只是更新您的 Adobe Analytics 實施。Adobe 建議僅將 VISTA 規則作為最後的手段。
 
 >[!IMPORTANT]
 >
->VISTA規則需要貴組織與Adobe Professional Services之間達成付費協定。 如果您想要建立或更新VISTA規則，請連絡貴組織的Adobe客戶經理。
+>VISTA 規則要求貴組織與 Adobe Professional Services 之間達成付費協議。如果您想建立或更新 VISTA 規則，請聯絡貴組織的 Adobe 客戶經理。
 
-## 建立VISTA規則
+## 建立 VISTA 規則
 
-您必須使用Adobe Professional Services才能建立VISTA規則。 如果您想要建立VISTA規則，請連絡貴組織的Adobe客戶經理。
+您必須使用 Adobe Professional Services 才能建立 VISTA 規則。如果您想建立 VISTA 規則，請聯絡貴組織的 Adobe 客戶經理。
 
-## 查看現有的VISTA規則
+## 請參閱現有的 VISTA 規則
 
-Adobe沒有提供UI來檢視現有的VISTA規則。 請連絡貴組織的Adobe客戶經理或客戶服務，並取得所需的報表套裝，以擷取現有VISTA規則的清單。
+Adobe 不提供可檢視現有 VISTA 規則的 UI。聯絡貴組織的 Adobe 客戶經理或客戶服務，提供所需的報告套裝，以擷取現有 VISTA 規則清單。
