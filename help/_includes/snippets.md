@@ -1,14 +1,14 @@
 ---
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '19'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 # 程式碼片段
 
-## Reports &amp; Analytics服務終止公告 {#ra-eol}
+## Reports &amp; Analytics 生命週期結束通知 {#ra-eol}
 
 >[!IMPORTANT]
 >
->深入閱讀「Reports &amp; Analytics」 [終止公告](https://express.adobe.com/page/6WnF8JK6IRDhf/).
+>進一步了解 Reports &amp; Analytics [生命週期結束通知](https://express.adobe.com/page/6WnF8JK6IRDhf/)。
