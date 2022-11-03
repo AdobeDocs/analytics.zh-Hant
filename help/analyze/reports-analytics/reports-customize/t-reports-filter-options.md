@@ -6,9 +6,9 @@ feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
 source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '674'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -171,7 +171,7 @@ t_reports_correlation_filter.xml
 
  -->
 
-某些報表可讓您新增自訂關聯篩選器。例如，若您正在檢視網站區域與女性頁面相關聯之報表套裝的[!UICONTROL 頁面報表]，則可建立一個篩選規則，用來產生一份顯示「網站區域 = 女性」的最受歡迎頁面。
+某些報表可讓您新增自訂關聯篩選器。例如，若您正在檢視網站區域與女性頁面相關聯之報告套裝的[!UICONTROL 頁面報表]，則可建立一個篩選規則，用來產生一份顯示「網站區域 = 女性」的最受歡迎頁面。
 
 您可以使用任何可用關聯來篩選顯示於關聯報表中的資料。此範例顯示如何新增搜尋引擎關聯篩選器。
 
