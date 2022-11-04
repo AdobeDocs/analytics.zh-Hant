@@ -4,10 +4,11 @@ description: Adobe Analytics 文件集的重大更新。
 short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
-source-git-commit: d5c30102374e650f404ef31e105106dd22dd9c01
+mini-toc-levels: 3
+source-git-commit: 87e32cfdda69303939045b90a7984efafdf05b27
 workflow-type: tm+mt
-source-wordcount: '3545'
-ht-degree: 100%
+source-wordcount: '3550'
+ht-degree: 99%
 
 ---
 
@@ -16,16 +17,19 @@ ht-degree: 100%
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 * 如需 [!UICONTROL Customer Journey Analytics] 的相關資訊，請前往[此處](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)。
-* 如需新 Adobe Analytics 功能、管理注意事項和錯誤修正的完整清單，請參閱最新 [Experience Cloud 發行說明](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)。
-* 如需 Adobe Analytics for Audio and Video 的相關資訊，請參閱[在 Analytics 中測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
+* 如需Adobe Medium分析的相關資訊，請參閱 [在Analytics中測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 ## 主要文件更新的詳細資訊
+
+### 2022 {#22}
 
 | 功能 | 說明 |
 | --- | --- |
 | **2022 年 10 月** |  |
+| Data Workbench | [終止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en) |
+| 用戶端提示 | 新增 [概述與常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en). |
 | 關鍵量度摘要 | 新的[關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)視覺化主題。 |
-| 分類集 | 新的使用者[分類集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=en)體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。 |
+| 分類集 | 新的使用者[分類集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hant)體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。 |
 | 行動應用程式：自訂詳細資料檢視 | 新的[自訂詳細資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant)主題。 |
 | Data Workbench | Data Workbench [生命週期結束常見問題](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html). |
 | **2022 年 9 月** |  |
@@ -59,6 +63,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 行動計分卡專案預覽模式 | [預覽模式](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html?lang=zh-Hant#preview)允許您在儲存並共用計分卡之前預覽體驗。 |
 | API 專案端點 | 使用 API 新增、編輯或刪除 Analysis Workspace 專案。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/projects/) |
 | 有關暫停較舊已排程 Report Builder 工作的最新主題 | **自 2022 年 4 月 15 日起**，Adobe 打算[暫停所有建立日期超過兩年的已排程 Report Builder 工作](/help/analyze/report-builder/r-arb-scheduled-reports.md)。 |
+
+### 2021 {#21}
+
+| 功能 | 說明 |
+| --- | --- |
 | **2021 年 10 月** |  |
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[快速區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html)的新文件。 |
 | 2021 年 10 月 21 日 | 有關 Analysis Workspace 中[花費的媒體播放時間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/media-playback-timespent/media-playback-time-spent.html)面板的新文件。 |
@@ -90,6 +99,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 1 月 14 日 | 已在 Analytics 儀表板文件中新增語言選擇選項。 |
 | 2021 年 1 月 14 日 | 已新增有關如何藉由參照公用影像 URL 將影像新增至工作區專案的文件。 |
 | 2021 年 1 月 14 日 | 已合併工作區視覺效果的來源和設定管理員：視覺效果的[!UICONTROL 資料來源]管理員 (點) 和設定管理員 (齒輪) 已合併為單一彈出視窗，以便您能輕鬆地從相同位置管理來源和設定。 |
+
+### 2020 {#20}
+
+| 功能 | 說明 |
+| --- | --- |
 | **2020 年 12 月** |  |
 | 2020 年 12 月 7 日 | 已修改所有相關頁面，以包含或替代 &quot;adobedc.net&quot; 端點。 |
 | 2020 年 12 月 8 日 | 工作區中「[建立新專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/freeform-overview.html)」頁面的更新。 |
@@ -152,7 +166,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2020 年 1 月 16 日 | 有關[自由表格產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.html)的新文件。 啟用「表格產生器」後，許多維度、劃分、量度和區段都可直接拖放使用，方便建立可回答更複雜商業問題的表格。資料不會立即更新，而是在您確定要建立的表格並點擊&#x200B;**[!UICONTROL 「建立」]**&#x200B;後，資料才會更新，為您節省寶貴時間。此外，這項功能也提供以下輔助功能：<ul><li>**預覽**：演算實際資料前，您可以先預覽表格格式。</li><li>**彈性的表格列與劃分設定**：您可以針對每個維度列設定列與劃分層級。以前，Workspace 的預設內容只有在資料回傳後才能變更。</li><li>**依位置劃分**：您可以設定維度列，一律&#x200B;_依位置劃分_&#x200B;而非&#x200B;_依特定項目_&#x200B;劃分 (預設)。</li><li>**手動靜態列排序**：您可以手動排序靜態列，讓表格列能依您的需求顯示。以前，靜態列只能依量度欄或字母順序排序。</li></ul> |
 | 2020 年 1 月 13 日 | 新增 [Adobe Analytics 與瀏覽器 Cookie](/help/technotes/cookies/cookies.md)。 |
 | 2020 年 1 月 13 日 | 已修改「[我該使用哪種 Adobe Analytics 工具呢](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html?lang=zh-Hant)」頁面。 |
-| **2019** |  |
+
+### 2019 {#19}
+
+| 功能 | 說明 |
+| --- | --- |
 | 2020 年 12 月 19 日 | 已將預設 [FTP 資料儲存空間限制](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-limits.html?lang=zh-Hant)變更為 10 GB。 |
 | 2019 年 11 月 29 日 | 編修[資料摘要文件](/help/export/analytics-data-feed/data-feed-overview.md) |
 | 2019 年 11 月 25 日 | 有關「強制 IP 登入限制」服務終止的新主題。 |
