@@ -4,36 +4,36 @@ description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # currencyCode
 
-對使用商務功能的網站而言，收入和貨幣是 Analytics 的重要一環。許多網站使用不同的貨幣，尤其是橫跨多國的網站。使用 `currencyCode` 變數，確保收入歸因於正確的貨幣。
+對使用商務功能的網站而言，收入和貨幣是 Analytics 的重要一環。許多網站使用不同的貨幣，尤其是橫跨多國的網站。使用 `currencyCode` 變數可確保將收入歸因於正確的貨幣。
 
-貨幣轉換對每次點擊使用下列邏輯。 這些步驟適用於設定 [`products`](../page-vars/products.md) 變數和所有在 [成功事件](/help/admin/admin/c-success-events/success-event.md) 在報表套裝設定下。
+貨幣轉換在每次點擊時使用以下邏輯。這些步驟適用於設定 [`products`](../page-vars/products.md) 變數的收入值，以及在報表套裝設定底下的[成功事件](/help/admin/admin/c-success-events/success-event.md) 中列為「貨幣」的所有事件。
 
-* 若 `currencyCode` 未定義，Adobe會假設所有貨幣值都是報表套裝的貨幣。 請參閱 [一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md) ，查看報表套裝的貨幣。
+* 如果 `currencyCode` 未定義，Adobe 假設所有貨幣值是報表套裝的貨幣。請參閱報表套裝設定中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)，查看報表套裝的貨幣。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣相同，則不會套用貨幣轉換。
-* 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。所有儲存在報表套裝中的值都以報表套裝的貨幣計值。
-* 若 `currencyCode` 設為無效值， **會捨棄整個點擊，造成資料遺失。** 請確定每次使用時都正確定義此變數。
+* 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。所有儲存在報表套裝中的值，都是採用報表套裝的貨幣。
+* 如果 `currencyCode` 設為無效值，**則會捨棄整個點擊，造成資料遺失。**&#x200B;確保在使用時正確定義此變數。
 
-此變數不會跨點擊持續存在。 請務必在每個涉及收入或貨幣事件且與報表套裝預設貨幣不符的頁面上定義此變數。
+此變數不會在點擊之間持續存在。請確定已在每個涉及收入或貨幣事件 (與報表套裝的預設貨幣不相符) 的頁面上定義此變數。
 
 >[!NOTE]
 >
->雖然不同頁面間的貨幣代碼可能會有所變更，但單一點擊上的所有貨幣量度都必須使用相同的貨幣。
+>雖然不同頁面上可以有不同的貨幣代碼，但是單一點擊的所有貨幣量度都必須使用相同的貨幣。
 
-時段 **必須** 在實作此變數時，可作為所有貨幣的貨幣分隔符號。 例如，瑞典克朗（通常顯示逗號分隔符號）必須修改為在 `products` 變數和所有貨幣事件。 Adobe在報表中顯示正確的貨幣分隔符號。
+實作此變數時，所有貨幣&#x200B;**必須**&#x200B;以句號做為貨幣分隔符號。例如，通常顯示逗號分隔符號的瑞典克朗必須修改為在 `products` 變數和所有貨幣事件中使用句號。Adobe 在報告中顯示正確的貨幣分隔符號。
 
-## 使用Web SDK的貨幣代碼
+## 使用 Web SDK 的貨幣代碼
 
-貨幣代碼為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `commerce.order.currencyCode`.
+貨幣代碼會[為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `commerce.order.currencyCode` 底下。
 
-## 使用Adobe Analytics擴充功能的貨幣代碼
+## 使用 Adobe Analytics 擴充功能的貨幣代碼
 
 「貨幣代碼」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 一般]」摺疊式功能表底下的欄位。
 
@@ -54,7 +54,7 @@ ht-degree: 74%
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.currencyCode
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.currencyCode
 
 `s.currencyCode` 變數為字串，包含代表頁面上貨幣的 3 個大寫字母代碼。值區分大小寫。
 
