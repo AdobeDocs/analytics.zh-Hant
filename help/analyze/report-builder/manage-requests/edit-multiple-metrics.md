@@ -5,9 +5,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e537b67a-aa07-4acd-a476-7497426e2f7d
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '574'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 * 量度僅會新增至「樞紐配置」請求。如果某些選取的請求為「自訂配置」，則無法新增量度。這是因為您已自訂配置，Report Builder 並不知道新量度放置於試算表中的位置。
 * 因此，如果您僅選取「自訂配置」請求，就無法使用&#x200B;**[!UICONTROL 「新增量度」]**&#x200B;選項。
-* 新增量度會增加請求的大小，並可能造成與其他請求重疊。請確定您的要求周圍有足夠的空間，以允許新增量度。
+* 新增量度會增加請求的大小，並可能造成與其他請求重疊。請確定您的請求周圍有足夠的空間可以新增量度。
 * 如果新增的量度已存在於其中一個選取的請求當中，就不會新增量度至該請求。
 
 若要新增一或多個量度：
