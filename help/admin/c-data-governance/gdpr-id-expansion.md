@@ -4,9 +4,9 @@ title: ID 擴增
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1359'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Cookie ID 擴增 </p> </td> 
-   <td colname="col2"> <p>許多 Analytics 客戶原本使用 (舊版) <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant">Analytics Cookie</a>，現在則使用原稱為 Marketing Cloud ID 服務 (MCID) 的<a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant">身分識別服務 (ECID)</a>。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。不過，對於初次造訪時網站只使用舊版 Cookie 而後再訪的使用者：有些資料會兩種 Cookie 都有，而較舊的資料只會有 Analytics Cookie，在極少數情況下，最新的資料則可能只有 ECID。 </p> <p>您想要確定找到透過Analytics（訪客ID）Cookie或ECID識別之訪客的所有資料。 因此，若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 expandIds 選項。當您指定 expandIds 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 </p> </td> 
+   <td colname="col2"> <p>許多 Analytics 客戶原本使用 (舊版) <a href="https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html?lang=zh-Hant">Analytics Cookie</a>，現在則使用原稱為 Marketing Cloud ID 服務 (MCID) 的<a href="https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant">身分識別服務 (ECID)</a>。針對轉換後初次造訪的網站訪客，系統僅存在 ECID。不過，對於初次造訪時網站只使用舊版 Cookie 而後再訪的使用者：有些資料會兩種 Cookie 都有，而較舊的資料只會有 Analytics Cookie，在極少數情況下，最新的資料則可能只有 ECID。 </p> <p>您希望確保您找到的所有訪客資料都是透過 Analytics (訪客 ID) Cookie 或 ECID 識別。因此，若您目前使用 ECID，而之前使用 Analytics Cookie，只要您使用其中一種 ID 來提交請求，皆應在請求中納入兩種 ID，或指定 expandIds 選項。當您指定 expandIds 時，Adobe 會檢查對應至您所提供的 Cookie ID 之其他 ECID 或 Analytics Cookie。此請求會自動擴增為包含這些新識別的 Cookie ID。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂 ID 至 Cookie ID 擴增 </p> </td> 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->[Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=en) 的用途為協助您履行資料隱私權請求，這些請求常有時效性。Adobe 不支援將此 API 用於其他用途，這麼做可能會影響 Adobe 為其他客戶即時處理較優先、由使用者提出的資料隱私權請求。請勿將 Privacy Service API 用於其他用途，例如清除大量訪客群組不小心提交的資料。
+>[Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant) 的用途為協助您履行資料隱私權請求，這些請求常有時效性。Adobe 不支援將此 API 用於其他用途，這麼做可能會影響 Adobe 為其他客戶即時處理較優先、由使用者提出的資料隱私權請求。請勿將 Privacy Service API 用於其他用途，例如清除大量訪客群組不小心提交的資料。
 
 另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的連帶作用，這也突顯出 Privacy Service API 不適合此用途的原因。
 
