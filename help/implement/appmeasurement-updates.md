@@ -4,9 +4,9 @@ description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。 進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
+* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
 
 
 ## 2.22.4 版本
@@ -41,13 +41,13 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 發行日期：**2021 年 9 月 7 日**
 
-* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。 以下是[同意變數的完整清單](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hant)。
+* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。以下是[同意變數的完整清單](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hant)。
 
 ## 2.22.1 版本
 
 發行日期：**2021 年 8 月 17 日**
 
-* 使用退出的客戶可能會在追蹤連結時看到伺服器端轉送退出參數不被接受。 這個版本中的修正會使得在追蹤連結時如果有退出標幟存在就會傳送這些標幟。
+* 使用退出的客戶可能會在追蹤連結時看到伺服器端轉送退出參數不被接受。這個版本中的修正會使得在追蹤連結時如果有退出標幟存在就會傳送這些標幟。
 
 ## 2.22.0 版本
 
@@ -275,7 +275,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 
 >[!IMPORTANT]
 >
->1.6.0 版本 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版本或更新版本使用。如果您想要升級為1.6.0版的Experience CloudID服務，請務必使用AppMeasurement 1.6.3或更新版本。
+>1.6.0 版本 [!DNL Experience Cloud] ID 服務「需使用」**[!DNL AppMeasurement] 供 [!DNL JavaScript] 1.6.3 版本或更新版本使用。如果您想要升級為 1.6.0 版的 Experience Cloud ID Service，請務必使用 AppMeasurement 1.6.3 版或更新版本。
 
 ## 1.6.2 版本
 
@@ -456,7 +456,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 發行日期：**2013 年 11 月 14 日**
 
 * 新增對[心率視訊測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)的支援。
-* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
+* 已新增 `VisitorAPI.js` 以支援[訪客 ID 服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)。
 
 ## 1.1.1 版本
 
