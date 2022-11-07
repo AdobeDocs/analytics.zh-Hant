@@ -3,15 +3,15 @@ title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 source-git-commit: f435453f655caef89460de42ebecf489b021dc47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1446'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Edge 中的 Analytics 變數對應
 
-下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。 如果您使用 XDM 欄位路徑，則傳送資料給 Adobe Analytics 不需要額外的設定。
+下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。如果您使用 XDM 欄位路徑，則傳送資料給 Adobe Analytics 不需要額外的設定。
 
 | XDM 欄位路徑 | Analytics 維度和說明 |
 | --- | --- |
@@ -43,24 +43,24 @@ ht-degree: 99%
 | `commerce.purchases.value` | 增加[訂單](../../components/metrics/orders.md)量度。 |
 | `device.model` | 行動維度[裝置名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `device.colorDepth` | 協助設定[色彩深度](../../components/dimensions/color-depth.md)維度。 |
-| `device.screenHeight` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。  |
-| `device.screenWidth` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。  |
+| `device.screenHeight` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 |
+| `device.screenWidth` | 協助設定[顯示器解析度](../../components/dimensions/monitor-resolution.md)維度。 |
 | `device.type` | 行動裝置類型。 |
 | `environment.browserDetails.acceptLanguage` | 協助設定[語言](../../components/dimensions/language.md)維度。 |
-| `environment.browserDetails.cookiesEnabled` | 設定 [Cookie 支援](../../components/dimensions/cookie-support.md)維度。 有效值包括 `Y` (瀏覽器接受 Cookie) 和 `N` (瀏覽器拒絕 Cookie)。 |
-| `environment.browserDetails.javaEnabled` | 設定 [Java 已啟用](../../components/dimensions/java-enabled.md)維度。 有效值包括 `Y` (Java 已啟用) 和 `N` (Java 已停用)。 |
-| `environment.browserDetails.userAgent` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。 通常會使用 `User-Agent` HTTP 請求標頭填入。 如果您想要在報表中使用這個欄位，可以將它對應到 eVar。 |
+| `environment.browserDetails.cookiesEnabled` | 設定 [Cookie 支援](../../components/dimensions/cookie-support.md)維度。有效值包括 `Y` (瀏覽器接受 Cookie) 和 `N` (瀏覽器拒絕 Cookie)。 |
+| `environment.browserDetails.javaEnabled` | 設定 [Java 已啟用](../../components/dimensions/java-enabled.md)維度。有效值包括 `Y` (Java 已啟用) 和 `N` (Java 已停用)。 |
+| `environment.browserDetails.userAgent` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `User-Agent` HTTP 請求標頭填入。如果您想要在報表中使用這個欄位，可以將它對應到 eVar。 |
 | `environment.browserDetails.viewportHeight` | 設定[瀏覽器高度](../../components/dimensions/browser-height.md)維度。 |
 | `environment.browserDetails.viewportWidth` | 設定[瀏覽器寬度](../../components/dimensions/browser-width.md)維度。 |
 | `environment.carrier` | 行動維度[電信業者名稱](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.connectionType` | 協助設定[連線類型](../../components/dimensions/connection-type.md)維度。 |
-| `environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。 通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
+| `environment.ipV4` | 用作遞補[不重複訪客](../../components/metrics/unique-visitors.md)識別方法。通常會使用 `X-Forwarded-For` HTTP 標頭填入。 |
 | `environment.language` | 行動維度地區設定。 |
 | `environment.operatingSystem` | 行動維度[作業系統](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)。 |
 | `environment.operatingSystemVersion` | 協助設定[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)維度。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定個別 [eVar](../../components/dimensions/evar.md) 維度。 |
-| `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | 設定各自 [階層](/help/components/dimensions/hierarchy.md) 維度。 |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 清單屬性分隔符號覆寫。不建議使用此欄位，因為分隔符號是根據報告套裝設定，從[流量變數管理員](/help/admin/admin/c-traffic-variables/traffic-var.md)自動擷取。使用此欄位可能會造成所使用的分隔符號與 Analytics 預期使用的分隔符號不相符。 |
+| `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | 設定個別[階層](/help/components/dimensions/hierarchy.md)維度。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` - <br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 清單屬性分隔符號覆寫。不建議使用此欄位，因為分隔符號是根據報告套裝設定，從[流量變數管理員](/help/admin/admin/c-traffic-variables/traffic-var.md)自動擷取。使用此欄位可能會造成所使用的分隔符號與 Analytics 預期使用的分隔符號不相符。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 字串陣列含有個別[清單流量變數](../vars/page-vars/prop.md#list-props)值。 |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 將個別 `list[]` 陣列中的所有 `value` 字串都串連到其個別[清單變數](../vars/page-vars/list.md)。分隔符號是根據[報告套裝設定](/help/admin/admin/conversion-var-admin/list-var-admin.md)中設置的值來自動選擇。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](../../components/dimensions/prop.md)維度。 |
@@ -117,7 +117,7 @@ ht-degree: 99%
 | `productListItems[].SKU` | [產品](../../components/dimensions/product.md)維度。另外請查看 [產品](../vars/page-vars/products.md) 頁面變數。如果 `productListItems[].SKU` 和 `productListItems[].name` 都包含資料，則使用 `productListItems[].SKU` 中的值。 |
 | `web.webInteraction.URL` | [linkURL](../vars/config-vars/linkurl.md) 實作變數。 |
 | `web.webInteraction.name` | [自訂連結](../../components/dimensions/custom-link.md)、[下載連結](../../components/dimensions/download-link.md)或[退出連結](../../components/dimensions/exit-link.md)維度 (視 `web.webInteraction.type` 中的值而定) |
-| `web.webInteraction.type` | 判斷點擊的連結類型。 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。 |
+| `web.webInteraction.type` | 判斷點擊的連結類型。有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。 |
 | `web.webPageDetails.URL` | [頁面 URL](../../components/dimensions/page-url.md) 維度。 |
 | `web.webPageDetails.errorPage` | 有助於判斷「找不到頁面」[維度](../../components/dimensions/pages-not-found.md)和[量度](../../components/metrics/pages-not-found.md)的旗標。 |
 | `web.webPageDetails.name` | [頁面](../../components/dimensions/page.md)維度。 |
@@ -131,7 +131,7 @@ ht-degree: 99%
 
 ## 將其他 XDM 欄位對應到 Analytics 變數
 
-如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。 所有不會自動對應的 XDM 欄位元素都會當作前置詞為 a.x 的內容資料傳送到 Adobe Analytics。然後您可以使用[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hant)將此內容資料變數對應到所要的 Analytics 變數。 例如，如果您傳送以下事件︰
+如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。所有不會自動對應的 XDM 欄位元素都會當作前置詞為 a.x 的內容資料傳送到 Adobe Analytics。然後您可以使用[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hant)將此內容資料變數對應到所要的 Analytics 變數。例如，如果您傳送以下事件︰
 
 ```js
 alloy("event",{
@@ -145,6 +145,6 @@ alloy("event",{
 })
 ```
 
-Web SDK 會將該資料當作內容資料變數 `a.x._atag.search.term` 傳送給 Adobe Analytics。 然後您可以使用處理規則將該內容資料變數值指派給所需的 Analytics 變數 (例如 eVar)：
+Web SDK 會將該資料當作內容資料變數 `a.x._atag.search.term` 傳送給 Adobe Analytics。然後您可以使用處理規則將該內容資料變數值指派給所需的 Analytics 變數 (例如 eVar)：
 
 ![搜尋字詞處理規則](assets/examplerule.png)
