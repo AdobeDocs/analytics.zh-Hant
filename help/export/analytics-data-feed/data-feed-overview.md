@@ -5,9 +5,9 @@ title: Analytics 資料摘要總覽
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '575'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 ## 先決條件
 
-使用資料摘要之前，請務必符合下列所有需求。
+在使用資料摘要之前，請確認您符合下列所有需求。
 
 * 具備可用的 FTP 網站和憑證。資料摘要只能傳送至伺服器目的地。您的組織通常會提供 FTP 憑證。Adobe 可按照您的要求，以少量的儲存空間提供 FTP 位置。如想要求資料摘要的 FTP 目的地，請聯絡客戶服務。
 * 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱實作使用手冊中的「[驗證和發佈實作](/help/implement/launch/validate-publish-prod.md)」。
