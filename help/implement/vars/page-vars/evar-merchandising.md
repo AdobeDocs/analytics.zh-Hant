@@ -1,25 +1,25 @@
 ---
-title: eVar（銷售變數）
+title: eVar (銷售變數)
 description: 繫結至個別產品的自訂變數。
 feature: Variables
 exl-id: 26e0c4cd-3831-4572-afe2-6cda46704ff3
 mini-toc-levels: 3
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '543'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
 # eVar (銷售)
 
-*此說明頁面說明如何實施作業銷售 eVar。如需銷售eVar作為維度時的運作方式，請參閱 [eVar（銷售維度）](/help/components/dimensions/evar-merchandising.md) （在元件使用手冊中）。*
+*此說明頁面說明如何實施作業銷售 eVar。若要瞭解銷售 eVar 作為維度時的運作方式，請參閱「元件」使用手冊中的 [eVars (銷售維度)](/help/components/dimensions/evar-merchandising.md)*。
 
 如需銷售 eVar 如何運作的詳細討論內容，請參閱「[銷售 eVar 和產品尋找方法](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/merchandising-evars.html?lang=zh-Hant)」。
 
 ## 在報表套裝設定中設定 eVar
 
-在實作中使用eVar之前，請務必在報表套裝設定中設定所需語法的eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在實作中使用 eVar 之前，請務必在報表套裝設定中設定所需語法的 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
 >[!WARNING]
 >
@@ -42,18 +42,18 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 
 `eVar1` 的值會指派給產品。所有與此產品相關的後續成功事件都會計入 eVar 值中。
 
-### 使用Web SDK的產品語法
+### 使用 Web SDK 的產品語法
 
-產品語法銷售變數包括 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在數個不同的XDM欄位下。
+產品語法銷售變數會在幾個不同的 XDM 欄位底下[和 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)。
 
-* 產品語法銷售eVar的對應位置如下 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` to `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`.
-* 產品語法銷售事件對應於 `productListItems[]._experience.analytics.event1to100.event1.value` to `productListItems[]._experience.analytics.event901to1000.event1000.value`. [事件序列化](events/event-serialization.md) XDM欄位對應於 `productListItems[]._experience.analytics.event1to100.event1.id` to `productListItems[]._experience.analytics.event901to1000.event1000.id`.
+* 產品語法銷售 eVar 在 `productListItems[]._experience.analytics.customDimensions.eVars.eVar1` 下對應至 `productListItems[]._experience.analytics.customDimensions.eVars.eVar250`。
+* 產品語法銷售事件在 `productListItems[]._experience.analytics.event1to100.event1.value` 對應至 `productListItems[]._experience.analytics.event901to1000.event1000.value`。[事件序列化](events/event-serialization.md) XDM 欄位在 `productListItems[]._experience.analytics.event1to100.event1.id` 下對應至 `productListItems[]._experience.analytics.event901to1000.event1000.id`。
 
 >[!NOTE]
 >
->若您在 `productListItems`，則不需在事件字串中設定。 如果兩者皆設定，則事件字串中的值優先。
+>當您在 `productListItems` 下設定事件時，您不需要在事件字串中設定它們。如果在兩個地方都設定事件，則事件字串中的值優先。
 
-下列範例顯示單一 [產品](products.md) 使用多個銷售eVar和事件：
+以下範例顯示單一[產品](products.md) 使用多個銷售 eVar 和事件：
 
 ```js
 "productListItems": [
@@ -84,7 +84,7 @@ s.products = "Birds;Scarlet Macaw;1;4200;;eVar1=talking bird,Birds;Turtle dove;2
 ]
 ```
 
-上述範例物件會以 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`.
+上述範例物件將傳送到 Adobe Analytics 做為 `";Bahama Shirt;3;12.99;event4|event10=2:abcd;eVar10=green|eVar33=large"`。
 
 ## 使用轉換變數語法進行實施作業
 
@@ -106,11 +106,11 @@ s.products = ";Canary";
 * eVar 過期 (根據「過期時間」設定)
 * 銷售 eVar 被新值覆寫。
 
-### 使用Web SDK的轉換變數語法
+### 使用 Web SDK 的轉換變數語法
 
-使用Web SDK的轉換變數語法的運作方式與實作其他 [eVar](evar.md) 和 [事件](events/events-overview.md). 上述範例的XDM鏡像如下所示：
+使用 Web SDK 的轉換變數語法的運作方式和實作其他 [eVar](evar.md) 和[事件](events/events-overview.md) 類似。鏡像上述範例的 XDM 如下所示：
 
-在相同或上一個事件呼叫上設定eVar:
+在相同或上一個事件呼叫上設定 eVar：
 
 ```js
 "_experience": {
@@ -124,7 +124,7 @@ s.products = ";Canary";
 }
 ```
 
-設定產品字串的捆綁事件和值：
+設定產品字串的繫結事件和值：
 
 ```js
 "commerce": {
