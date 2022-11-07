@@ -4,9 +4,9 @@ description: 請按照下列步驟，確認您的實施作業沒有任何錯誤�
 feature: Implementation Basics
 exl-id: e38f92b6-bd6e-4835-a8e5-0f29ac962066
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '513'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ ht-degree: 84%
 
 明瞭 5 大關鍵績效指標 (KPI) 有助於確定必須檢查哪些相關量度和維度。如果您已有 6 個月未更新 KPI，或您的企業尚未建立 KPI，請依照[這些指示](/help/implement/review/define-kpis.md)處理。
 
-## 2.確認KPI量度和變數仍正常運作
+## 2. 確認您的 KPI 量度和變數仍正常運作
 
-請記住，隨時間更新程式碼可能會有無預期的影響。請確定與 [5大KPI](/help/implement/review/define-kpis.md) 仍正常運作。 理想情況下，這會在網站發佈後立即完成；如果你最近幾個月沒做過，那就做吧 *now*. 執行方法：
+請記住，隨時間更新程式碼可能會有無預期的影響。建議確認與 [5 大 KPI](/help/implement/review/define-kpis.md) 相關的所有量度和維度仍正常運作。理想情況下，發佈網站後就應立即完成這項工作；如果您最近幾個月從未執行此作業，請&#x200B;*立即*&#x200B;確認。執行方法：
 
 * 建立控制面板，檢視這些重要度量和變數每小時的趨勢 (或為每個度量設定[智慧型提醒](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace))。監控一兩天，確認資料走勢符合預期，且資料正確無誤。尋找轉折點。做好準備，以便在發現任何重大問題時能立即解決。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，監控 KPI 量度和變數的主要趨勢。
 
-*如需如何確認量度和變數正常運作的詳細資訊， [閱讀這些秘訣](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608) 來自Adobe Analytics冠軍莎拉·歐文。*
+*如需確認量度和變數正常運作的詳細資訊，請參閱 Adobe Analytics Champion 專家 Sarah Owen 提供的[這些秘訣](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/my-five-best-tips-for-keeping-adobe-analytics-humming/td-p/388608)。*
 
 ## 3. 徹底檢查網站更新區段的資料
 
