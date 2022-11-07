@@ -4,9 +4,9 @@ title: 發佈區段至 Experience Cloud
 feature: Segmentation
 exl-id: 0215f896-d3f8-42cc-ac8d-8a94b009927b
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1324'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 96%
 1. 提供區段的標題和說明 (如未提供便無法儲存)。
 1. 請參閱&#x200B;**[!UICONTROL 將此區段發佈至 Experience Cloud (適用於&#x200B;*報表套裝*)]**。
 
-![發佈Experience Cloud](assets/publish-ec.png)
+![發佈 Experience Cloud](assets/publish-ec.png)
 
 >[!IMPORTANT]
->在Analytics中查看區段預覽時，請務必使用「具有Experience CloudID的訪客」，而非比較Adobe Analytics數字與Audience Manager數字時的「不重複訪客」區段預覽總計：
+>在 Analytics 中查看區段預覽時，請務必使用「具有 Experience Cloud ID 的訪客」，而非比較 Adobe Analytics 數字與 Audience Manager 數字時的「不重複訪客」區段預覽總數：
 >
->![以ECID劃分訪客](assets/seg-vis-ecid.png)
+>![具有 ECID 的訪客區段](assets/seg-vis-ecid.png)
 
 | 元素 | 說明 |
 |---|---|
@@ -114,7 +114,7 @@ ht-degree: 96%
 
 載入[!UICONTROL 訪客資料檢視器]時，系統會預設使用瀏覽器上的 AAM UUID。若要驗證其他使用者的特徵實現，請在 UUID 欄位中輸入 UUID，然後按一下[!UICONTROL 「重新整理」]。如需詳細資訊，請參閱[訪客資料檢視器](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/visitor-profile-viewer.html?lang=zh-Hant)。
 
-![Audience Manager設定檔檢視器](assets/aam-vpv.png)
+![Audience Manager 資料檢視器](assets/aam-vpv.png)
 
 ## 在 [!DNL Audience Manager] 中檢視區段特徵
 
@@ -124,7 +124,7 @@ ht-degree: 96%
 1. 選取您先前建立要與 [!DNL Audience Manager] 共用之區段的報表套裝資料夾。這時會看到您建立的區段/對象。當您共用區段時，[!DNL Audience Manager] 中會發生下列兩件事：
    * 系統會建立一個特徵，一開始不含任何資料。大約在區段發佈 8 小時後，[!DNL Analytics] ECID 清單就會上線並與 [!DNL Audience Manager] 及其他 Experience Cloud 解決方案共用。
 
-      ![Audience Manager特徵](assets/aam-traits.png)
+      ![Audience Manager 特徵](assets/aam-traits.png)
 
    * 系統會建立一個單一特徵區段。這個區段使用的資料來源與您發佈該區段的報表套裝相關聯。
    * 特徵過期時間已設為 16 天 (之前為 2 天)。
