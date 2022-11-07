@@ -1,12 +1,12 @@
 ---
-title: state
+title: 州別
 description: 在 Reports and Analytics 中填入「訪客州報表」。
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '223'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 在舊版 Adobe Analytics 中，當訪客在零售網站上填寫運送資訊時，會使用 `state` 變數。它的功能與 prop 相同，不過在 Analysis Workspace 中無法使用。
 
-## 使用Adobe Analytics擴充功能的狀態
+## 使用 Adobe Analytics 擴充功能的州
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時或是在規則底下設定狀態。
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 您可以將州設定為任何字串值或資料元素。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.state
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.state
 
 `s.state` 變數是字串，通常包含訪客的州或省。完整的州名或雙字母代碼都是有效值。其最大值為 50 個位元組；超過上限的值會遭到截斷。其預設值為空字串。
 
