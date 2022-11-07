@@ -1,12 +1,12 @@
 ---
-title: eVar（變數）
+title: eVar (變數)
 description: 可在實施中使用的自訂變數。
 feature: Variables
 exl-id: f89457b2-4186-4276-8637-9992070e3a73
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -20,13 +20,13 @@ eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設�
 
 ## 在報表套裝設定中設定 eVar
 
-在實作中使用eVar之前，請務必在報表套裝設定中設定每個eVar。 請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+在實作中使用 eVar 之前，請務必在報表套裝設定中設定每個 eVar。請參閱「管理員指南」中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
 
-## 使用Web SDK的eVar
+## 使用 Web SDK 的 eVar
 
-eVar為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.customDimensions.eVars.eVar1` to `_experience.analytics.customDimensions.eVars.eVar250`.
+eVars 會 [為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `_experience.analytics.customDimensions.eVars.eVar1` 至 `_experience.analytics.customDimensions.eVars.eVar250` 底下。
 
-## 使用Adobe Analytics擴充功能的eVar
+## 使用 Adobe Analytics 擴充功能的 eVar
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定 eVar，或依據規則進行設定。
 
@@ -39,7 +39,7 @@ eVar為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/an
 
 您可以將 eVar 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.eVar1 - s.eVar250
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.eVar1 - s.eVar250
 
 每個 eVar 都是字串，其中包含貴組織專屬的自訂值。它們的最大長度為 255 個位元組；超過 255 個位元組的值會在傳送至 Adobe 時自動截斷。
 
