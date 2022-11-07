@@ -4,9 +4,9 @@ description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
 source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '473'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,10 +32,10 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 
 Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實作此程式碼的方法有很多種，視平台和您組織的需求而定。
 
-* **Web SDK擴充功能**:標準化且建議的實作Adobe Analytics方法。 在 Adobe Experience Platform Data Collection 中安裝 Web SDK 擴充功能，在每一頁面上使用 Loader 標記，並以對您組織方便使用的格式傳送資料給 Adobe Experience Platform Edge。體驗 Edge 以正確格式轉寄傳入資料給 Adobe Analytics。
-* **Web SDK**:如果您不想使用Adobe Experience Platform資料收集，可以在網站上手動載入Web SDK程式庫。 參考每個頁面上的Web SDK資料庫，並將所需的追蹤呼叫傳送至Adobe Experience Edge。
-* **Adobe Analytics 擴充功能**：在 Adobe Experience Platform Data Collection 中安裝 Adobe Analytics。在每一頁面放置 Loader 標記，並使用 Analytics 擴充功能以決定如何定義每個變數。
-* **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。 概述實作中使用的變數和設定，這對使用自訂程式碼規則的 實作來說很有用。
+* **Web SDK 擴充功能**：標準化且建議的 Adobe Analytics 實作方法。在 Adobe Experience Platform 資料彙集中安裝 Web SDK 擴充功能，在每一頁面上使用 Loader 標記，並以對您組織方便使用的格式傳送資料給 Adobe Experience Platform Edge。體驗 Edge 以正確格式轉寄傳入資料給 Adobe Analytics。
+* **Web SDK**：如果您不想使用 Adobe Experience Platform 資料彙集，可以手動將 Web SDK 程式庫載入您的網站。在每個頁面上參考 Web SDK 程式庫，並將所需的追蹤呼叫傳送到 Adobe Experience Edge。
+* **Adobe Analytics 擴充功能**：在 Adobe Experience Platform 資料彙集中安裝 Adobe Analytics。在每一頁面放置 Loader 標記，並使用 Analytics 擴充功能以決定如何定義每個變數。
+* **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。概述實作中使用的變數和設定，這對使用自訂程式碼規則的實作來說很有用。
 * **行動 SDK**：專用的資料庫，可輕鬆將資料從行動應用程式傳送至 Adobe。
 
 ## 重要 Analytics 實作文章
