@@ -1,12 +1,12 @@
 ---
 title: 定義您的前 5 大 KPI
-description: 請確定關鍵績效指標和相關量度與維度與您的業務需求緊密一致。
+description: 確保您的關鍵績效指標和相關指標和維度密切配合您的業務需求。
 feature: Implementation Basics
 exl-id: ca2af0ec-2719-4ee2-aa00-b48a54ee9e14
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
