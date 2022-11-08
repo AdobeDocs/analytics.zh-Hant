@@ -17,7 +17,7 @@ ht-degree: 95%
 Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 * 如需 [!UICONTROL Customer Journey Analytics] 的相關資訊，請前往[此處](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-landing.html)。
-* 如需Adobe Medium分析的相關資訊，請參閱 [在Analytics中測量音訊和視訊](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+* 如需 Adobe Media Analytics 的相關資訊，請參閱[在 Analytics 中測量音訊和影片](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)。
 
 ## 主要文件更新的詳細資訊
 
@@ -29,8 +29,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 同意管理變數 | 專用頁面 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md) 和 [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md). |
 | 多貨幣重新整理 | 頁面周圍 [多貨幣支援](/help/technotes/multicurrency.md) 已更新。 |
 | **2022 年 10 月** |  |
-| Data Workbench | [終止公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
-| 用戶端提示 | 新增 [概述與常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html). |
+| Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
+| 用戶端提示 | 新的[概述和常見問題](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html)。 |
 | 關鍵量度摘要 | 新的[關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)視覺化主題。 |
 | 分類集 | 新的使用者[分類集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html)體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。 |
 | 行動應用程式：自訂詳細資料檢視 | 新的[自訂詳細資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html)主題。 |
@@ -79,7 +79,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 8 月 18 日 | 已修改最上層結構，並將其整合成單一[登陸頁面](https://experienceleague.adobe.com/docs/analytics.html) |
 | 2021 年 8 月 18 日 | 有關 [A4T 和虛擬報表套裝](/help/components/vrs/vrs-a4t.md)的新主題 |
 | 2021 年 8 月 18 日 | 有關[歸因最佳實務](/help/analyze/analysis-workspace/attribution/best-practices.md)的新主題 |
-| 2021 年 8 月 5 日 | 有關[計算重複實例數](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)的新主題 |
+| 2021 年 8 月 5 日 | 有關[計算重複執行個體數](https://experienceleague.adobe.com/docs/analytics/components/metrics/count-repeat-instances.html)的新主題 |
 | 2021 年 8 月 5 日 | 已更新有關[範本](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-download-saint-data.html)、[瀏覽器匯入](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html)和[瀏覽器匯出](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-export.html)的分類文件，以指示哪些選項不適用於已啟用「新分類架構」的報表套裝。 |
 | 2021 年 8 月 2 日 | 已更新多個頁面，以反映 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/analytics/implementation/launch/overview.html?lang=zh-Hant) 的品牌重塑 |
 | **2021 年 7 月** |  |
@@ -196,10 +196,10 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 7 月 18 日 | 更新[「同類群組表格」設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
 | 2019 年 7 月 18 日 | 在工作區的左側欄中，使用者現在可以選擇「_顯示過去 18 個月的項目_」。 之前，回顧期間的上限為 6 個月。這能讓您更加輕鬆地與去年或最多 18 個月前的頁面或行銷活動進行比較。 |
 | 2019 年 7 月 18 日 | 有關 Analysis Workspace 中稱為[「Magento：行銷和商務」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html)的全新工作區範本的文件。 此範本是專為 Magento 電子商務客戶所設計，但所有零售商均可使用此範本來取得有關其商務活動的獨特分析。 |
-| 2019 年 6 月 13 日 | 已在工作區中的左側欄搜尋中新增立即可用的篩選器。 除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
+| 2019 年 6 月 13 日 | 已在工作區中的左側欄搜尋中新增立即可用的篩選器。 除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、影片等，讓您能夠輕鬆找到您需要的元件。 |
 | 2019 年 6 月 4 日 | 全新指南撰寫完成，標題為[從協力廠商的分析平台改用 Adobe Analytics](/help/technotes/ga-to-aa/home.md)。 |
 | 2019 年 5 月 30 日 | 編修[資料摘要欄參考資訊](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)。 |
-| 2019 年 5 月 9 日 | 已在「流量」視覺效果中新增設定：「包含重複實例」。 請參閱[流量設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
+| 2019 年 5 月 9 日 | 已在「流量」視覺效果中新增設定：「包含重複執行個體」。 請參閱[流量設定](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md) |
 | 2019 年 4 月 11 日 | 工作區最佳化增強功能的最佳實務：[效能最佳化](/help/analyze/analysis-workspace/new-features-in-analysis-workspace.md) |
 | 2019 年 4 月 11 日 | 更新 [Workspace 效能最佳化](/help/analyze/analysis-workspace/workspace-faq/optimizing-performance.md)。 |
 | 2019 年 3 月 14 日 | 大幅更新[區域資料收集](/help/technotes/rdc/regional-data-collection.md)。 |
