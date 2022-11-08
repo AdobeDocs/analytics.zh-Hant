@@ -6,9 +6,9 @@ title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3599'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 97%
 | **`cust_hit_time_gmt`** | 僅限啟用時間戳記的報告套裝。時間戳記根據 Unix 時間隨點擊傳送。 | int |
 | **`cust_visid`** | 如果已設定自訂訪客 ID，則會填入此欄。 | varchar(255) |
 | **`daily_visitor`** | 確定點擊是否為新每日訪客的旗標。 | 不帶正負號的 tinyint |
-| **`dataprivacyconsentoptin`** | 用於 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md) 維度。 每次點擊都可顯示多個值，並以縱線字元分隔(`|`)。 有效值包括 `DMP` 和 `SELL`. | varchar(100) |
-| **`dataprivacyconsentoptout`** | 用於 [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md) 維度。 每次點擊都可顯示多個值，並以縱線字元分隔(`|`)。 有效值包括 `SSF`, `DMP`，和 `SELL`. | varchar(100) |
+| **`dataprivacyconsentoptin`** | 在[同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`|`) 分隔。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptout`** | 在[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
 | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
 | **`domain`** | 用於[網域](/help/components/dimensions/domain.md)維度的變數。根據訪客的網際網路存取點而定。 | varchar(100) |
 | **`duplicate_events`** | 列出每個計為重複項目的事件。 | varchar(255) |
@@ -203,12 +203,12 @@ ht-degree: 97%
 | **`socialownedpropertypropertyvsapp`** | 已不再使用。社交擁有的屬性與應用程式 | varchar(255) |
 | **`state`** | State 變數。 | varchar(50) |
 | **`stats_server`** | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
-| **`survey`** | 已不再使用。Adobe Survey變數。 | 文字 |
-| **`survey_instances`** | 已不再使用。Adobe Survey例項變數。 | 文字 |
+| **`survey`** | 已不再使用。Adobe Survey 變數。 | 文字 |
+| **`survey_instances`** | 已不再使用。Adobe Survey 執行個體變數。 | 文字 |
 | **`t_time_info`** | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文字 |
 | **`tnt_action`** | 用於 Adobe Target 整合。 代表點擊合格的所有測試。 | 文字 |
-| **`tnt_instances`** | 用於 Adobe Target 整合。 Target例項變數。 | 文字 |
+| **`tnt_instances`** | 用於 Adobe Target 整合。 Target 執行個體變數。 | 文字 |
 | **`tnt_post_vista`** | 已不再使用。請改用 `post_tnt`。 | 文字 |
 | **`transactionid`** | 唯一識別碼，日後可透過資料來源上傳各種資料點。使用[`transactionID`](/help/implement/vars/page-vars/transactionid.md)變數收集。 | 文字 |
 | **`truncated_hit`** | 此旗標代表影像要求已截斷。表示已收到部分點擊。<br>Y：點擊遭截斷；收到部分點擊 <br>N：點擊未截斷；收到完整點擊 | char(1) |
@@ -224,17 +224,17 @@ ht-degree: 97%
 | **`va_closer_id`** | 可識別[上次接觸通路](/help/components/dimensions/last-touch-channel.md)維度的數值 ID。可以在「行銷通路管理員」中找到此 ID 的查閱。 | 不帶正負號的 tinyint |
 | **`va_finder_detail`** | 用於[首次接觸詳情](/help/components/dimensions/first-touch-detail.md)維度的變數。 | varchar(255) |
 | **`va_finder_id`** | 可識別[首次接觸通路](/help/components/dimensions/first-touch-channel.md)維度的數值 ID。可以在「行銷通路管理員」中找到此 ID 的查閱。 | 不帶正負號的 tinyint |
-| **`va_instance_event`** | 可識別行銷通路[實例數](/help/components/metrics/instances.md)的旗標。 | 不帶正負號的 tinyint |
+| **`va_instance_event`** | 可識別行銷通路[執行個體數](/help/components/metrics/instances.md)的旗標。 | 不帶正負號的 tinyint |
 | **`va_new_engagement`** | 可識別行銷通路[新增參與](/help/components/metrics/new-engagements.md)的旗標。 | 不帶正負號的 tinyint |
-| **`video`** | 視訊內容 | varchar(255) |
-| **`videoad`** | 視訊廣告名稱 | varchar(255) |
-| **`videoadinpod`** | Pod 位置中的視訊廣告 | varchar(255) |
-| **`videoadlength`** | 視訊廣告長度 | varchar(255) |
-| **`videoadload`** | 視訊廣告載入 | varchar(255) |
-| **`videoadname`** | 視訊廣告名稱 | varchar(255) |
-| **`videoadplayername`** | 視訊廣告播放器名稱 | varchar(255) |
-| **`videoadpod`** | 視訊廣告 Pod | varchar(255) |
-| **`videoadvertiser`** | 視訊廣告商 | varchar(255) |
+| **`video`** | 影片內容 | varchar(255) |
+| **`videoad`** | 影片廣告名稱 | varchar(255) |
+| **`videoadinpod`** | Pod 位置中的影片廣告 | varchar(255) |
+| **`videoadlength`** | 影片廣告長度 | varchar(255) |
+| **`videoadload`** | 影片廣告載入 | varchar(255) |
+| **`videoadname`** | 影片廣告名稱 | varchar(255) |
+| **`videoadplayername`** | 影片廣告播放器名稱 | varchar(255) |
+| **`videoadpod`** | 影片廣告 Pod | varchar(255) |
+| **`videoadvertiser`** | 影片廣告商 | varchar(255) |
 | **`videoaudioalbum`** | 影音相簿 | varchar(255) |
 | **`videoaudioartist`** | 影音藝人 | varchar(255) |
 | **`videoaudioauthor`** | 影音作者 | varchar(255) |
@@ -242,38 +242,38 @@ ht-degree: 97%
 | **`videoaudiopublisher`** | 影音發佈者 | varchar(255) |
 | **`videoaudiostation`** | 影音電台 | varchar(255) |
 | **`videocampaign`** | 影音促銷活動 | varchar(255) |
-| **`videochannel`** | 視訊頻道 | varchar(255) |
-| **`videochapter`** | 視訊章節名稱 | varchar(255) |
-| **`videocontenttype`** | 視訊內容類型。所有視訊檢視會自動設為 &#39;Video&#39;。 | varchar(255) |
-| **`videodaypart`** | 視訊時段 | varchar(255) |
-| **`videoepisode`** | 視訊集數 | varchar(255) |
-| **`videofeedtype`** | 視訊輸出類型 | varchar(255) |
-| **`videogenre`** | 視訊類型 | 文字 |
-| **`videolength`** | 視訊長度 | varchar(255) |
-| **`videomvpd`** | 視訊 MVPD | varchar(255) |
-| **`videoname`** | 視訊名稱 | varchar(255) |
-| **`videonetwork`** | 視訊網路 | varchar(255) |
-| **`videopath`** | 視訊路徑 | varchar(100) |
-| **`videoplayername`** | 視訊播放器名稱 | varchar(255) |
-| **`videoqoebitrateaverageevar`** | 視訊品質平均位元速率 | varchar(255) |
-| **`videoqoebitratechangecountevar`** | 視訊品質變更計數 | varchar(255) |
-| **`videoqoebuffercountevar`** | 視訊品質緩衝計數 | varchar(255) |
-| **`videoqoebuffertimeevar`** | 視訊品質緩衝時間 | varchar(255) |
-| **`videoqoedroppedframecountevar`** | 視訊品質掉格計數 | varchar(255) |
-| **`videoqoeerrorcountevar`** | 視訊品質錯誤計數 | varchar(255) |
-| **`videoqoeextneralerrors`** | 視訊品質外部錯誤 | 文字 |
-| **`videoqoeplayersdkerrors`** | 視訊品質 SDK 錯誤 | 文字 |
-| **`videoqoetimetostartevar`** | 視訊品質開始時間 | varchar(255) |
-| **`videoseason`** | 視訊季數 | varchar(255) |
-| **`videosegment`** | 視訊區段 | varchar(255) |
-| **`videoshow`** | 視訊節目 | varchar(255) |
-| **`videoshowtype`** | 視訊節目類型 | varchar(255) |
-| **`videostreamtype`** | 視訊串流類型 | varchar(255) |
+| **`videochannel`** | 影片頻道 | varchar(255) |
+| **`videochapter`** | 影片章節名稱 | varchar(255) |
+| **`videocontenttype`** | 影片內容類型。所有影片檢視會自動設為 &#39;Video&#39;。 | varchar(255) |
+| **`videodaypart`** | 影片時段 | varchar(255) |
+| **`videoepisode`** | 影片集數 | varchar(255) |
+| **`videofeedtype`** | 影片輸出類型 | varchar(255) |
+| **`videogenre`** | 影片類型 | 文字 |
+| **`videolength`** | 影片長度 | varchar(255) |
+| **`videomvpd`** | 影片 MVPD | varchar(255) |
+| **`videoname`** | 影片名稱 | varchar(255) |
+| **`videonetwork`** | 影片網路 | varchar(255) |
+| **`videopath`** | 影片路徑 | varchar(100) |
+| **`videoplayername`** | 影片播放器名稱 | varchar(255) |
+| **`videoqoebitrateaverageevar`** | 影片品質平均位元速率 | varchar(255) |
+| **`videoqoebitratechangecountevar`** | 影片品質變更計數 | varchar(255) |
+| **`videoqoebuffercountevar`** | 影片品質緩衝計數 | varchar(255) |
+| **`videoqoebuffertimeevar`** | 影片品質緩衝時間 | varchar(255) |
+| **`videoqoedroppedframecountevar`** | 影片品質掉格計數 | varchar(255) |
+| **`videoqoeerrorcountevar`** | 影片品質錯誤計數 | varchar(255) |
+| **`videoqoeextneralerrors`** | 影片品質外部錯誤 | 文字 |
+| **`videoqoeplayersdkerrors`** | 影片品質 SDK 錯誤 | 文字 |
+| **`videoqoetimetostartevar`** | 影片品質開始時間 | varchar(255) |
+| **`videoseason`** | 影片季數 | varchar(255) |
+| **`videosegment`** | 影片區段 | varchar(255) |
+| **`videoshow`** | 影片節目 | varchar(255) |
+| **`videoshowtype`** | 影片節目類型 | varchar(255) |
+| **`videostreamtype`** | 影片串流類型 | varchar(255) |
 | **`visid_high`** | 和`visid_low`搭配使用以專門識別訪客。 | 不帶正負號的 bigint |
 | **`visid_low`** | 和`visid_high`搭配使用以專門識別訪客。 | 不帶正負號的 bigint |
 | **`visid_new`** | 用於識別點擊是否包含新產生訪客 ID 的旗標。 | char(1) |
 | **`visid_timestamp`** | 如果是新產生訪客 ID，則會提供產生訪客 ID 時的時間戳記 (單位為 Unix 時間)。 | int |
-| **`visid_type`** | 不供外部使用；供 Adobe 在內部用來處理最佳化。此數值 ID 代表用來識別訪客的方法。<br>`0`:自訂訪客ID或未知/不適用<br>`1`:IP和用戶代理備援 <br>`2`:HTTP行動訂閱者標題 <br>`3`:舊版Cookie值(`s_vi`) <br>`4`:備援Cookie值(`s_fid`) <br>`5`:Identity服務 | 不帶正負號的 tinyint |
+| **`visid_type`** | 不供外部使用；供 Adobe 在內部用來處理最佳化。此數值 ID 代表用來識別訪客的方法。<br>`0`：自訂訪客 ID 或未知/不適用<br>`1`：IP 和用戶代理備援<br>`2`：HTTP 行動訂閱者標題<br>`3`：舊版 Cookie 值 (`s_vi`) <br>`4`：備援 Cookie 值 (`s_fid`) <br>`5`：身分識別服務 | 不帶正負號的 tinyint |
 | **`visit_keywords`** | 用於[搜尋關鍵字](/help/components/dimensions/search-keyword.md)維度的變數。此欄使用非標準字元限制 varchar(244) 來容納 Adobe 使用的後端邏輯。 | varchar(244) |
 | **`visit_num`** | 用於[造訪數](/help/components/dimensions/visit-number.md)維度的變數。從 1 開始，隨著每次訪客開始新的造訪而遞增。 | 不帶正負號的 int |
 | **`visit_page_num`** | 用於[點擊深度](/help/components/dimensions/hit-depth.md)維度的變數。對於使用者產生的每次點擊會增加 1。重設每次造訪。 | 不帶正負號的 int |
