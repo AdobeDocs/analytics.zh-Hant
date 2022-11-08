@@ -3,10 +3,10 @@ title: 完整審視
 description: 每 6 個月審視一次實施作業，確保實施作業符合業務需求和 KPI。
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '410'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 ## 1. 確認您的實作仍完全符合我們的業務需求。
 
-與企業負責人及/或分析人員開會，檢討日新月異的業務需求。針對實施作業未能滿足的任何需求或測量機會，了解應如何更新 KPI 和測量計畫。別忘了在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html?lang=zh-Hant#implementation) 中記錄變更項目。
+與企業負責人及/或分析人員開會，檢討日新月異的業務需求。針對實施作業未能滿足的任何需求或測量機會，了解應如何更新 KPI 和測量計畫。別忘了在 [BRD 和 SDR](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/implementation/implementation-basics/creating-a-business-requirements-document.html#implementation) 中記錄變更項目。
 
 ## 2. 確認您的量度和變數仍正常運作。
 
-按照對業務的重要程度，快速審視所有量度和變數，確認其能正確收集資料。從您最重要的度量和變數開始，也就是與 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html?lang=zh-Hant#review) 相關的度量和變數。執行方法：
+按照對業務的重要程度，快速審視所有量度和變數，確認其能正確收集資料。從您最重要的度量和變數開始，也就是與 [5 大 KPI](https://experienceleague.adobe.com/docs/analytics/implementation/review/define-kpis.html#review) 相關的度量和變數。執行方法：
 
 * 建立控制面板，檢視量度和變數的每月趨勢 (或為每個量度和變數設定[智慧型提醒](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/intelligent-alerts/intellligent-alerts.html#analysis-workspace))，以確保獲得的資料符合預期，而且資料正確無誤。如果有任何不一致的地方，請檢查資料層、標籤管理程式規則和處理規則，從中尋找原因。
 * 重新執行 [Analytics 運作狀態控制面板](https://assets.adobe.com/public/9549dbe7-765a-4899-77b8-85cbba1a4252)，監控量度和變數的主要趨勢。

@@ -3,10 +3,10 @@ title: 完整處理資料來源的生命週期結束
 description: 生命週期結束的原因，以及大量資料插入 API 與完整處理資料來源之間的比較。
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1225'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -44,8 +44,8 @@ ht-degree: 100%
 | aamlh | 不支援 | Adobe Audience Manager 位置提示。 |
 | browserHeight | browserHeight | 瀏覽器高度 (以像素為單位，例如 768) |
 | browserWidth | browserWidth | 瀏覽器寬度 (以像素為單位，例如 1024) |
-| campaign | campaign | 轉換行銷活動追蹤代碼 |
-| channel | channel | 管道字串 (例如體育版)。 |
+| campaign | 行銷活動 | 轉換行銷活動追蹤代碼 |
+| channel | 頻道 | 管道字串 (例如體育版)。 |
 | colorDepth | colorDepth | 監視器色彩深度 (以位元為單位，例如 24) |
 | connectionType | connectionType | 訪客的連線類型 (LAN 或數據機) |
 | contextData.key | 不支援 | 機碼值組是透過命名標題「contextData.product」或「contextData.color」指定的 |
@@ -55,7 +55,7 @@ ht-degree: 100%
 | customerID.[customerIDType].id | 不支援 | 要使用的客戶 ID。customerIDType 可以是任何英數字元字串，但應視為區分大小寫。 |
 | customerID.[customerIDType].isMCSeed | 不支援 | 這是不是 Marketing Cloud 訪客 ID 的種子。支援的值為：0、1、TRUE、FALSE、&#39;&#39; (不區分大小寫)。使用 0、FALSE 或兩個連續的單引號 (&quot;) 會導致查詢字串中省略該值。customerIDType 可以是任何英數字元字串，但應視為區分大小寫。 |
 | eVarN | eVarN，即 `<eVar2>`...`<eVar>` | 轉換 eVar 名稱。您最多可以有 75 個 eVar ( eVar1 - eVar75 )。可以指定 eVar 名稱 (eVar12) 或易記名稱 (廣告行銷活動 3)。 |
-| events | events | [事件字串](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html?lang=zh-TW#vars)，格式語法與 s.events 變數相同。例如：scAdd,event1,event7 |
+| events | 事件 | [事件字串](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/events/event-serialization.html#vars)，格式語法與 s.events 變數相同。例如：scAdd,event1,event7 |
 | hierN | hierN，即 `<hier2>`...`</hier2>` | 階層名稱。您最多可以有 5 個階層 ( hier1 - hier5 )。可以指定預設階層名稱 `hier2` 或易記名稱 (洋基隊)。 |
 | homePage | homePage | Y 或 N -- 目前頁面是否為訪客的首頁。 |
 | ipaddress | 不支援 | 訪客的 IP 位址。 |
@@ -66,7 +66,7 @@ ht-degree: 100%
 | linkType | linkType | 連結的類型。支援的值包括： `d: Download link`, `e: Exit link`, `o: Custom link`. |
 | linkURL | linkURL | 連結的 HREF。 |
 | listn 例如 list2。 | 不支援 | 使用分隔字元的值清單，在傳給變數之後，會報告為個別的行項目以供製作報告。 |
-| marketingCloudVisitorID | 不支援 | Marketing Cloud ID。請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-TW#id-service-api)和 Marketing Cloud 訪客 ID 服務 |
+| marketingCloudVisitorID | 不支援 | Marketing Cloud ID。請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html#id-service-api)和 Marketing Cloud 訪客 ID 服務 |
 | 不支援 | charSet | 您的網站支援的字元集。例如 UTF-8、ISO-8859-1 等等。 |
 | 不支援 | clickAction | 訪客點擊地圖的物件識別碼 (OID) |
 | 不支援 | clickActionType | 訪客點擊地圖的物件識別碼類型 (OIDT) |
@@ -79,19 +79,19 @@ ht-degree: 100%
 | pageName | pageName | 頁面名稱 |
 | pageType | pageType | 頁面類型 (例如「錯誤頁面」)。 |
 | pageURL | pageURL | 頁面 URL (例如 https://www.example.com/index.html)。 |
-| plugins | plugins | 以分號分隔的瀏覽器外掛程式名稱清單。 |
-| products | products | 頁面上所有產品的清單。使用逗號分隔產品。例如：Sports;Ball;1;5.95,Toys; Top;1:1.99。 |
+| plugins | 外掛程式 | 以分號分隔的瀏覽器外掛程式名稱清單。 |
+| products | 產品 | 頁面上所有產品的清單。使用逗號分隔產品。例如：Sports;Ball;1;5.95,Toys; Top;1:1.99。 |
 | prop1 - prop75 | propN，即 `<prop2>`...`</prop2>` | 屬性編號字串 (例如體育版)。 |
 | propN | propN | 您的屬性的屬性值。 |
 | purchaseID | purchaseID | 購買 ID 號碼。 |
-| referrer | referrer | 頁面反向連結的 URL。 |
+| referrer | 反向連結 | 頁面反向連結的 URL。 |
 | reportSuiteID | s_account  | 指定您要提交資料的報表套裝。您應使用逗號分隔多個報表套件 ID。 |
-| resolution | resolution | 螢幕解析度 (如 1024x768)。 |
-| server | server | 伺服器字串。 |
+| resolution | 解析度 | 螢幕解析度 (如 1024x768)。 |
+| server | 伺服器 | 伺服器字串。 |
 | state | state | 轉換州字串。 |
 | timestamp | 日期 | 使用 ISO 8601 日期格式 YYYY-MM-DDThh:mm:ss±UTC_offset (例如 2021-09-01T12:00:00-07:00) 或 Unix 時間格式 (自 1970 年 1 月 1 日起的總秒數)。 |
 | trackingServer | 不支援 | 只能透過欄標題提供。 |
-| transactionID | 不支援 | 用於將多個管道使用者活動繫結在一起以便進行報告的通用值。如需詳細資訊，請參閱[資料來源使用手冊](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html?lang=zh-TW#data-sources)。 |
+| transactionID | 不支援 | 用於將多個管道使用者活動繫結在一起以便進行報告的通用值。如需詳細資訊，請參閱[資料來源使用手冊](https://experienceleague.adobe.com/docs/analytics/import/data-sources/datasrc-home.html#data-sources)。 |
 | userAgent | 不支援 | 使用者代理字串 |
-| visitorID | visitorID | 訪客的 Analytics ID。請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-TW)。 |
+| visitorID | visitorID | 訪客的 Analytics ID。請參閱[訪客身分識別](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 |
 | zip | zip | 轉換郵遞區號。 |

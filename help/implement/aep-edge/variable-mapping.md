@@ -2,10 +2,10 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: f435453f655caef89460de42ebecf489b021dc47
-workflow-type: ht
-source-wordcount: '1446'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1444'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +131,7 @@ ht-degree: 100%
 
 ## 將其他 XDM 欄位對應到 Analytics 變數
 
-如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。所有不會自動對應的 XDM 欄位元素都會當作前置詞為 a.x 的內容資料傳送到 Adobe Analytics。然後您可以使用[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html?lang=zh-Hant)將此內容資料變數對應到所要的 Analytics 變數。例如，如果您傳送以下事件︰
+如果您想要將任何維度或量度新增到 Adobe Analytics，可以透過[內容資料變數](../vars/page-vars/contextdata.md)來進行。所有不會自動對應的 XDM 欄位元素都會當作前置詞為 a.x 的內容資料傳送到 Adobe Analytics。然後您可以使用[處理規則](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/processing-rules/processing-rules.html)將此內容資料變數對應到所要的 Analytics 變數。例如，如果您傳送以下事件︰
 
 ```js
 alloy("event",{

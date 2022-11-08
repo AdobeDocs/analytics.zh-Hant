@@ -2,10 +2,10 @@
 title: 匯入付費搜尋量度
 description: 設定 Adobe Analytics 使用資料來源追蹤您的付費搜尋量度 (例如 Google AdWords、MSN、Yahoo 等) 的步驟。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 7c5bfadabe2ea851bb881d067d48b4f4700a53c7
-workflow-type: ht
-source-wordcount: '1212'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1210'
+ht-degree: 99%
 
 ---
 
@@ -116,7 +116,7 @@ f. 刪除追蹤代碼、曝光率、點按數和成本以外的所有欄。 新�
 
 在制定每次點按付費決策時，新增計算量度會很有幫助。
 
-例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html?lang=zh-TW#calculated-metrics)：
+例如，您可以新增這些[計算量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-build-metrics.html#calculated-metrics)：
 
 | 名稱 | 公式 | 量度類型 | 說明 |
 | --- | --- | --- | --- |

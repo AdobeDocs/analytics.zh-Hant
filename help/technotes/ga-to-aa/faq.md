@@ -3,9 +3,9 @@ title: 遷移至 Adobe Analytics 的常見問題集
 description: 取得從協力廠商平台移動至 Adobe 時的常見問題解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: 1192a6a1e14e43aa2b434ac0b2675c73d249214a
-workflow-type: ht
-source-wordcount: '399'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '397'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 如果貴組織堅持要將歷史資料移植到 Adobe，請聯絡貴組織的客戶經理。實作顧問可與貴組織合作，將 Google Analytics 資料匯出轉譯為 Adobe 資料收集伺服器可內嵌的資料來源。
 
-關於移動歷史資料，我們建議使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)，它可以帶入任何全頻道資料來源。
+關於移動歷史資料，我們建議使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)，它可以帶入任何全頻道資料來源。
 
 **我已經習慣經常在報表中看到分段下拉式清單。如何在 [!UICONTROL Analysis Workspace] 中加以重新建立？**
 

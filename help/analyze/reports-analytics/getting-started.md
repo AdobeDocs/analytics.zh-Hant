@@ -4,10 +4,10 @@ title: Reports & Analytics 快速入門
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 0733884351c64935d9e39c24320d200cc46e6a61
-workflow-type: ht
-source-wordcount: '790'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '788'
+ht-degree: 99%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * 建議使用的瀏覽器：最新版本的 Firefox、Chrome、Safari 或 Edge。
 * 必須啟用 Cookie 和 JavaScript。
-* 1024 x 768 監視器解析度，使用 16 位元色彩深度 (或更高)。
+* 1024 x 768 顯示器解析度，使用 16 位元色彩深度 (或更高)。
 
 ## 登入 Reports &amp; Analytics
 
@@ -87,7 +87,7 @@ ht-degree: 100%
 | 資訊類型 | 定義 |
 | --- | --- |
 | 聯絡 | 提供您帳戶的下列個人資訊：<ul><li>名字 (必要)</li><li>姓氏 (必要)</li><li>標題</li><li>電子郵件地址 (必要)</li><li>電話號碼</li></ul> |
-| 登入 | 顯示帳戶用戶名稱，並讓您變更帳戶密碼。另請參閱：[如何重設 Reports &amp; Analytics 帳戶密碼](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html?lang=zh-Hant)。 |
+| 登入 | 顯示帳戶用戶名稱，並讓您變更帳戶密碼。另請參閱：[如何重設 Reports &amp; Analytics 帳戶密碼](https://experienceleague.adobe.com/docs/analytics/technotes/troubleshoot-login.html)。 |
 | Web 服務 | 顯示與此帳戶相關的網站服務使用者名稱和共用機密。要透過網站服務 API 存取 Experience Cloud 時，請使用這些認證。如需詳細資訊，請參閱 Developer Connection。**附註:** 只有當帳戶已獲授權為網站服務使用者，才會顯示此項資訊。 |
 | 排除此電腦 | 套用 Cookie 至目前電腦，排除它不進行資料蒐集。如果您不希望您的線上活動影響您網域內的「頁面檢視」和「訪客」計數，此選項會很有用。**附註:** 若要使用此功能，您的瀏覽器必須啟用 Cookie。如果您刪除電腦上的 Cookie，就必須重設排除 Cookie。 |
 

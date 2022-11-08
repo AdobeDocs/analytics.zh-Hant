@@ -3,9 +3,9 @@ title: 銷售 eVar 和產品尋找方法
 description: 深入了解銷售 eVar 背後的概念，以及這些方法如何處理和分配資料。
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 3d9b64bd28210732c7506dbf667c5d4d50e7fb07
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '5291'
+source-wordcount: '5289'
 ht-degree: 99%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 99%
 
 以下是您可以用於銷售 eVar 的幾項不同設定。 以下螢幕擷圖來自於報表套裝管理員。 透過以下方式存取該管理員：移至「[!UICONTROL Analytics] > [!UICONTROL 管理員] > [!UICONTROL 報表套裝] > [!UICONTROL 編輯設定] > [!UICONTROL 轉換] > [!UICONTROL 轉換變數] > [!UICONTROL 新增] > [!UICONTROL 啟用銷售]」。
 
-![默奇瓦爾](assets/merch-evars1.png)
+![Merch eVar](assets/merch-evars1.png)
 
 請在表格下方的章節中尋找這些設定的更多詳細資訊。
 
@@ -88,7 +88,7 @@ ht-degree: 99%
 
 `s.products="[category];[name];[quantity];[revenue];[events];[eVars]"`
 
-* [!UICONTROL 類別] 和 [!UICONTROL 名稱] 確定給定的產品。
+* [!UICONTROL 類別] 和 [!UICONTROL 名稱] 識別指定的產品。
 * [!UICONTROL 品質]和[!UICONTROL 收入]在追蹤產品購買時非常實用。
 * [!UICONTROL 事件]可用於記錄不應計入收入的自訂增量或貨幣事件值 (例如運費、折扣等)
 
@@ -389,6 +389,6 @@ post_products=";sandals123;;;;eVar2=sandals|eVar1=internal keyword search|eVar3=
 
 總之，如果沒有其他組態設定，用於銷售 eVar 的現成實例量度用處不大。 幸運的是，Adobe 發行了 [Attribution IQ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/overview.html?lang=zh-Hant)。 它可讓您針對 Adobe Analytics 收集的任何自訂量度來套用多個歸因模型。 套用這些歸因模型的量度不會使用 post_evar 欄中包含的值或是與任何一個特定產品綁定的值。 這些量度只會使用透過影像要求本身傳遞的值 (或是透過 Adobe Analytics 處理規則擷取的值)。 您可以使用 Attribution IQ 中的功能來針對所有使用轉換變數語法的銷售 eVar 取得正確歸因的實例量度。
 
-![屬性選擇](assets/attribution-select.png)
+![歸因選取](assets/attribution-select.png)
 
 當您將銷售 eVar 的實例量度新增到報表中時，適當的 Attribution IQ 模型會是「上次接觸」模型。 在此情況下，此模型的回顧視窗設定並不重要。 原因是因為「強制」上次接觸歸因模型總是會提供實例點數給每個透過要求傳遞的個別值。 這與 eVar 的實際歸因/綁定設定設為等於「最近 (上一個)」還是「原始值 (第一個)」無關。

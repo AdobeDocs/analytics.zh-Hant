@@ -3,10 +3,10 @@ title: Adobe Analytics 與瀏覽器 Cookie
 description: 了解預防追蹤措施如何影響 Adobe Analytics 所設定的第三方和第一方 Cookie。
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '1985'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '1981'
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 ## 瀏覽器如何限制了 Cookie 的使用？
 
 >[!NOTE]
->[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html?lang=en#cda) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en#comparing-cja-to-traditional-adobe-analytics) 可以使用人員 ID (例如，雜湊登入 ID) 來跨 Cookie 連結 (如果可用)。
+>[Cross-Device Analytics](https://experienceleague.adobe.com/docs/analytics/components/cda/overview.html#cda) 和 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html#comparing-cja-to-traditional-adobe-analytics) 可以使用人員 ID (例如，雜湊登入 ID) 來跨 Cookie 連結 (如果可用)。
 
 ### 第三方 Cookie 限制
 

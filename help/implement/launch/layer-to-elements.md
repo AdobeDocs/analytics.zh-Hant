@@ -3,10 +3,10 @@ title: 將資料層物件對應至資料元素
 description: 設定標記以從資料層讀取。
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 90%
+source-wordcount: '305'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 90%
 
 ## 使用標記建立資料元素
 
-[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=en) 是Adobe Experience Platform資料收集中的元件，您可以在工具中使用。 您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
+[資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant) 是Adobe Experience Platform資料收集中的元件，可在整個工具中使用。 您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標記屬性。
 1. 按一下&#x200B;**[!UICONTROL 「資料元素」]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 「新增資料元素」]**。
 

@@ -4,10 +4,10 @@ keywords: 虛擬報告套裝
 title: 建立虛擬報告套裝
 feature: VRS
 exl-id: 5ff6ff1a-5b99-41cc-a3a7-928197ec9ef9
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
-workflow-type: ht
-source-wordcount: '676'
-ht-degree: 100%
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 ![](assets/components.png)
 
 1. 在「[!UICONTROL 元件]」索引標籤上，選取核取方塊以套用組織至 Analysis Workspace 中此虛擬報告套裝的包含、排除和重新命名元件。
-如需 VRS 組織的詳細資訊，請參閱[虛擬報告套裝元件組織](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html?lang=zh-Hant#virtual-report-suites)。
+如需 VRS 組織的詳細資訊，請參閱[虛擬報告套裝元件組織](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-components.html#virtual-report-suites)。
 
 1. 將要包含在 VRS 中的元件 (維度、量度、區段或日期範圍) 拖曳至「[!UICONTROL 已包含元件]」區段。
 

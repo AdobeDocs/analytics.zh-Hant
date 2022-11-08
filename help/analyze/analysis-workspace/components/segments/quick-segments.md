@@ -4,10 +4,10 @@ title: 快速區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: 40fbff764c7d61f9653f39b49679ea4b5782e96c
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 95%
+source-wordcount: '899'
+ht-degree: 91%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 您可以在專案中建立快速區段以迴避完整[區段產生器](/help/components/segmentation/segmentation-workflow/seg-build.md)的複雜性。快速區段
 
-* 套用為[僅限專案區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant#what-are-project-only-segments%3F)。
+* 套用為[僅限專案區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html#what-are-project-only-segments%3F)。
 * 最多允許 3 個規則。
 * 請勿容納巢狀容器或循序規則。
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 ## 先決條件
 
-任何人都能建立「[!UICONTROL 快速區段]」。但是，您需要「[!UICONTROL 區段建立]」權限 (位於 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hant#analytics-tools) 中)，才能儲存快速區段或是在「[!UICONTROL 區段產生器]」中將其開啟。
+任何人都能建立「[!UICONTROL 快速區段]」。但是，您需要「[!UICONTROL 區段建立]」權限 (位於 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html#analytics-tools) 中)，才能儲存快速區段或是在「[!UICONTROL 區段產生器]」中將其開啟。
 
 ## 建立快速區段
 
@@ -43,7 +43,7 @@ ht-degree: 95%
 | --- | --- |
 | 名稱 | 區段的預設名稱為區段中規則名稱的組合。您可重新命名區段。 |
 | 包含/排除 | 您可在區段定義中包含或排除元件，但不能同時包含和排除。 |
-| 點擊/造訪/訪客容器 | 快速區段僅包含一個[區段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html?lang=zh-Hant#section_AF2A28BE92474DB386AE85743C71B2D6)，讓您在區段中包含 (或從中排除) 維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
+| 點擊/造訪/訪客容器 | 快速區段僅包含一個[區段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)，讓您在區段中包含 (或從中排除) 維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
 | 元件 (維度/量度/日期範圍) | 透過新增元件 (維度和/或量度和/或資料範圍) 及其值來定義最多 3 個規則。有 3 種方法可以找到正確的元件:<ul><li>開始輸入，然後[!UICONTROL 快速區段]產生器就會自動找到合適的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
 | 運算子 | 使用下拉式功能表尋找標準運算子和 [!UICONTROL Distinct Count] 運算子。[了解更多](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=zh-Hant) |
 | 加 (+) 號 | 新增另一個規則 |
@@ -85,7 +85,7 @@ ht-degree: 95%
 
 ## 什麼是僅限專案的區段？
 
-僅限專案區段指僅適用於建立該區段的目前專案的區段。您無法在其他專案中取得這些區段，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄建立和儲存區段。可在面板放置區中使用「快速」區段或 [臨機區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html?lang=zh-Hant).
+僅限專案區段指僅適用於建立該區段的目前專案的區段。您無法在其他專案中取得這些區段，且無法和其他使用者共用。它們主要用於快速探索您的資料，而無需在左側欄建立和儲存區段。可在面板放置區中使用「快速」區段或 [臨機區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/ad-hoc-segments.html).
 
 如果在[!UICONTROL 區段產生器]中開啟僅限專案的區段，會顯示僅限專案的通知。如果您不勾選「使該區段可用於..」並按一下&#x200B;**[!UICONTROL 套用]**，則該區段仍維持為僅限專案的區段。附註：如果您套用區段產生器的快速區段，將無法在[!UICONTROL 快速區段產生器]中將其開啟。
 

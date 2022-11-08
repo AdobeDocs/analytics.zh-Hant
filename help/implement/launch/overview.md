@@ -1,16 +1,16 @@
 ---
-title: 在Adobe Experience Platform實施帶標籤的Adobe Analytics
+title: 在Adobe Experience Platform中使用標籤實作Adobe Analytics
 description: 了解如何使用標記來實作 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '308'
 ht-degree: 94%
 
 ---
 
-# 在Adobe Experience Platform實施帶標籤的Adobe Analytics
+# 在Adobe Experience Platform中使用標籤實作Adobe Analytics
 
 在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實作用於收集資料的程式碼。 Adobe 目前的建議方法是透過 Adobe Experience Platform 中的標記。
 
@@ -33,6 +33,6 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 
 標記具有可高度客製化的特性。 進一步了解如何在實作中加入適當的資料，以充分運用 Adobe Analytics。
 
-* [標記文件](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en#)：了解此介面的運作方式以及有哪些可用的擴充功能。
-* [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en)：使用 Analytics 擴充功能將資料傳送至 Adobe Analytics。
+* [標記文件](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)：了解此介面的運作方式以及有哪些可用的擴充功能。
+* [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)：使用 Analytics 擴充功能將資料傳送至 Adobe Analytics。
 * [實施變數](../vars/overview.md)：決定您要將哪些變數傳送至資料收集伺服器。

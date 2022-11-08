@@ -3,9 +3,9 @@ title: 歸因最佳實務
 description: 決定歸因模型的最佳實務為何？
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
-source-wordcount: '430'
+source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+workflow-type: tm+mt
+source-wordcount: '424'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!NOTE]
 >選擇歸因模型前，必須進行此分析。
 
-此階段包括在最初了解客戶行為，並定義轉換量度。 根據轉換量度，類似[資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=en) (適用於原始資料) 或 Analysis Workspace 等工具有助於您了解
+此階段包括在最初了解客戶行為，並定義轉換量度。 根據轉換量度，類似[資料摘要](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant) (適用於原始資料) 或 Analysis Workspace 等工具有助於您了解
 
 * 有多少客戶在轉換前接觸不同的行銷通路？
 * 這些行為的比例/分佈。
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 **範例 2**
 
-您的假設可能是：「在我們的產業 (例如旅遊業)，歸因期間是 60 或 90 天，因為客戶在購買產品前會深入研究一番」。 您之後可能會將[回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=en#lookback-windows)改成 90 天。
+您的假設可能是：「在我們的產業 (例如旅遊業)，歸因期間是 60 或 90 天，因為客戶在購買產品前會深入研究一番」。 您之後可能會將[回顧期間](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html#lookback-windows)改成 90 天。
 
 ## 步驟 3：使用演算法歸因
 
@@ -55,4 +55,4 @@ ht-degree: 100%
 
 * 您可能需要使用資料科學家的服務，而非僅仰賴 Analysis Workspace。
 * 您可以仰賴原始資料，就像在 Adobe 資料摘要中一樣。
-* 例如，如果您想要考量您的曝光數資料，可考慮使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=en)。
+* 例如，如果您想要考量您的曝光數資料，可考慮使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)。
