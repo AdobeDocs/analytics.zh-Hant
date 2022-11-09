@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: bc8f87c42ca481382b603413088faa9a71ab01f1
-workflow-type: ht
-source-wordcount: '3599'
-ht-degree: 100%
+source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+workflow-type: tm+mt
+source-wordcount: '3621'
+ht-degree: 99%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 100%
 | **`cust_hit_time_gmt`** | 僅限啟用時間戳記的報告套裝。時間戳記根據 Unix 時間隨點擊傳送。 | int |
 | **`cust_visid`** | 如果已設定自訂訪客 ID，則會填入此欄。 | varchar(255) |
 | **`daily_visitor`** | 確定點擊是否為新每日訪客的旗標。 | 不帶正負號的 tinyint |
-| **`dataprivacyconsentoptin`** | 在[同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`|`) 分隔。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
-| **`dataprivacyconsentoptout`** | 在[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptin`** | 在[同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `DMP` 和 `SELL`。 | varchar(100) |
+| **`dataprivacyconsentoptout`** | 在[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)維度中使用的變數。每個點擊可以有多個值，以垂直號 (`\|`) 分隔。有效值包括 `SSF`、`DMP` 和 `SELL`。 | varchar(100) |
 | **`date_time`** | 可讀格式的點擊時間，根據報告套裝的時區而定。 | 日期時間 |
 | **`domain`** | 用於[網域](/help/components/dimensions/domain.md)維度的變數。根據訪客的網際網路存取點而定。 | varchar(100) |
 | **`duplicate_events`** | 列出每個計為重複項目的事件。 | varchar(255) |
@@ -163,6 +163,7 @@ ht-degree: 100%
 | **`page_type`** | 用於填入[找不到頁面](/help/components/dimensions/pages-not-found.md)維度。專用於 404 頁。此變數應該為空白或包含值`ErrorPage`。 | char(20) |
 | **`page_url`** | 點擊的 URL。請注意，`post_page_url` 被卸除連結追踪影像請求並使用 varchar(255) 的資料類型。 | 文字 |
 | **`pagename`** | 用於填入[頁面](/help/components/dimensions/page.md)維度。如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
+| **`pagename_no_url`** | 類似 `pagename`，但不會回傳至 `page_url`. 僅 `post` 欄可用。 | varchar(100) |
 | **`paid_search`** | 如果點擊符合付費搜尋偵測，則會設定此旗標。 | 不帶正負號的 tinyint |
 | **`partner_plugins`** | 未使用。屬於已報廢功能。 | varchar(255) |
 | **`persistent_cookie`** | 用於[持續性 Cookie 支援](/help/components/dimensions/persistent-cookie-support.md)維度。指出訪客是否支援每次點擊後未捨棄的 Cookie。 | char(1) |
@@ -201,9 +202,10 @@ ht-degree: 100%
 | **`socialownedpropertyid`** | 已不再使用。社交擁有的屬性 ID | varchar(255) |
 | **`socialownedpropertyname`** | 已不再使用。社交擁有的屬性名稱 | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | 已不再使用。社交擁有的屬性與應用程式 | varchar(255) |
+| **`sourceid`** | 。 | 不帶正負號的 int |
 | **`state`** | State 變數。 | varchar(50) |
 | **`stats_server`** | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
-| **`survey`** | 已不再使用。Adobe Survey 變數。 | 文字 |
+| **`survey`** | 已不再使用。Adobe Survey 變數。僅 `post` 欄可用。 | 文字 |
 | **`survey_instances`** | 已不再使用。Adobe Survey 執行個體變數。 | 文字 |
 | **`t_time_info`** | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文字 |
