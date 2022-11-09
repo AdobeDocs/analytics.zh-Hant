@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 8be5cc920e601e7ebd57e0e3df645f3fa817924f
+source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
 workflow-type: tm+mt
-source-wordcount: '3621'
+source-wordcount: '3638'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ ht-degree: 99%
 | 欄名稱 | 欄說明 | 資料類型 |
 | --- | --- | --- |
 | **`accept_language`** | 列出所有接受的語言，如影像要求中的 Accept-Language HTTP 標頭所示。 | char(20) |
+| **`adload`** | 媒體廣告載入 | varchar(255) |
 | **`aemassetid`** | 對應一組「Adobe Experience Manager 資產」之資產 ID (GUID) 的多值變數。增加曝光數事件 | 文字 |
 | **`aemassetsource`** | 識別資產事件的來源。用於 Adobe Experience Manager。 | varchar(255) |
 | **`aemclickedassetid`** | Adobe Experience Manager 資產的資產 ID。增加點擊事件 | varchar(255) |
@@ -143,6 +144,8 @@ ht-degree: 99%
 | **`mobileplaceaccuracy`** | 從內容資料變數`a.loc.acc`中收集。指出 GPS 在採集時的準確度 (以公尺為單位)。 | varchar(255) |
 | **`mobileplacecategory`** | 從內容資料變數`a.loc.category`中收集。說明特定位置的類別。 | varchar(255) |
 | **`mobileplaceid`** | 從內容資料變數`a.loc.id`中收集。指定興趣點的識別碼。 | varchar(255) |
+| **`mobilepushoptin`** | Mobile Services推播選擇加入 | varchar(255) |
+| **`mobilepushpayloadid`** | Mobile Services推播付費ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | 行動服務上市內容 | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | 行動服務上市媒體 | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | 行動服務上市來源 | varchar(255) |
@@ -202,7 +205,7 @@ ht-degree: 99%
 | **`socialownedpropertyid`** | 已不再使用。社交擁有的屬性 ID | varchar(255) |
 | **`socialownedpropertyname`** | 已不再使用。社交擁有的屬性名稱 | varchar(255) |
 | **`socialownedpropertypropertyvsapp`** | 已不再使用。社交擁有的屬性與應用程式 | varchar(255) |
-| **`sourceid`** | 。 | 不帶正負號的 int |
+| **`sourceid`** | 來源 ID | 不帶正負號的 int |
 | **`state`** | State 變數。 | varchar(50) |
 | **`stats_server`** | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
 | **`survey`** | 已不再使用。Adobe Survey 變數。僅 `post` 欄可用。 | 文字 |
@@ -294,6 +297,7 @@ ht-degree: 99%
 
 下列清單為未使用的欄，因此不包含資料：
 
+* `adclassificationcreative`
 * `mobileacquisitionclicks`
 * `mobileactioninapptime`
 * `mobileactiontotaltime`
