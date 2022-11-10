@@ -4,9 +4,9 @@ title: CNIL 關於使用者同意和 Cookie 的準則是什麼？
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '732'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 85%
 * 最多保留 25 個月的資料。您可以在「Analytics > 管理員 > 資料管控」下查看目前的資料保留設定。[資料保留](https://experienceleague.adobe.com/docs/analytics/technotes/data-retention.html?lang=zh-Hant)
 * 在 ECID 中停用協力廠商 Cookie。[disableThirdPartyCalls](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disablethirdpartycalls.html#id-service-api)、[disableThirdPartyCookies](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disable-cookies.html#id-service-api) 和 [disableIdSyncs](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/configurations/disableidsync.html#id-service-api)
 * 13 個月的 Cookie 限制。您可以使用 `cookieLifetime` 變數覆寫 Analytics Cookie 到期日期。Experience Cloud Cookie (包括 Analytics 和 ECID) 會隨著每次瀏覽延長 Cookie 到期日。若要設定靜態、非滾動的 Cookie 有效期，您可以：(1) 撰寫自訂程式碼，設定刪除 Cookie 的日期，或 (2) 使用您的 CMP 控制 Cookie 重設的日期。[cookieLifetime](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/cookielifetime.html?lang=zh-Hant) 和 [Experience Cloud Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-privacy.html#ec-cookies)
-* 有限的範圍。Cookie 的範圍必須限於單一網站或應用程式。[瀏覽器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html&quot;\l&quot;協力廠商 — cookie-implementations)
+* 有限的範圍。Cookie 的範圍必須限於單一網站或應用程式。[瀏覽器 Cookie](https://experienceleague.adobe.com/docs/analytics/technotes/cookies.html&quot;\l&quot;third-party-cookie-implementations)
 * 匿名。將 IP 位址的最後一個八位元匿名。[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html)
 * 隱藏報表中的訪客 ID。預設情況下，無法在 Adobe Workspace 和 Adobe Reports and Analytics 中看見訪客 ID。訪客 ID 可在「資料摘要」和 Data Warehouse 中取得。對資料摘要和 Data Warehouse 的存取權可透過 [Admin Console 中的存取權限](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html&quot;\l&quot;task_040673FE3E3E429B9531FBCB8B6A4391)加以限制 和[資料摘要欄位參考資料](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-contents/datafeeds-reference.html#columns%2C-descriptions%2C-and-data-types)
 * 地理位置參數。和郵遞區號層級比起來，地理位置可能比較不精確。[郵遞區號選項](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/zip.html&quot;\l&quot;zip-in-adobe-experience-platform-launch)和[一般帳戶設定](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/general-acct-settings-admin.html&quot;\l&quot;admin-tools)
 * 設定「選擇加入」選項。「選擇加入」服務讓您可以設定訪客通訊協定，以確定是否能在使用者造訪您的網站時，在他們的裝置或瀏覽器上設定 Cookie。[「選擇加入」服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/optin-overview.html)
-* 防止資料共用。若要防止與 Adobe Audience Manager 共用資料，請使用[隱私報告](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html&quot;\l&quot;變數)的`opt.dmp`內容變數，以封鎖點擊共用。
+* 防止資料共用。若要防止與 Adobe Audience Manager 共用資料，請使用[隱私報告](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html&quot;\l&quot;variables)的`opt.dmp`內容變數，以封鎖點擊共用。
 * 存取和刪除能力。利用 Privacy Service 存取和刪除請求。[Analytics 及 Privacy Service](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/an-gdpr-overview.html?lang=zh-Hant)
 
 ## 資料收集的其他注意事項
