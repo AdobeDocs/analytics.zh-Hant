@@ -1,13 +1,13 @@
 ---
 title: 用戶端提示
-description: 進一步了解用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。
-source-git-commit: 9dfeb0f5cc3bb488fa28fb0d21c6969dfdfc9ef6
-workflow-type: tm+mt
-source-wordcount: '1073'
+description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
+exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: ht
+source-wordcount: '1059'
 ht-degree: 100%
 
 ---
-
 
 # 用戶端提示總覽和常見問題
 
@@ -41,7 +41,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**我如何才能啟用用戶端提示的收藏集？**
 
-低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自標籤擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hant) 的說明。
+低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自標籤擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html) 的說明。
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
@@ -81,11 +81,11 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 這些欄位直接衍生自使用者代理程式，但使用者代理程式可用於協助推導出其他裝置相關欄位的值 (視裝置詳細資料而定)。
 
-* [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hant)
-* [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hant)
-* [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)
-* [作業系統類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=zh-Hant)
-* [行動裝置和行動裝置類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=zh-Hant)
+* [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
+* [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
+* [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
+* [作業系統類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
+* [行動裝置和行動裝置類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
 
 +++
 
@@ -141,7 +141,6 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++**AAM 伺服器端轉送是否支援用戶端提示？**
 
-是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，那麼您可能想要啟用高平均資訊量提示收集功能。
+是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++
-
