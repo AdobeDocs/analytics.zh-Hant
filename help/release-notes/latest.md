@@ -4,9 +4,9 @@ description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1422'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
