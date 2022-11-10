@@ -3,9 +3,9 @@ title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '856'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
