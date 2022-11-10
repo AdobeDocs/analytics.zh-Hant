@@ -4,9 +4,9 @@ title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3909'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
   <tr> 
    <td colname="col1"> <p>無 </p> </td> 
    <td colname="col2"> <p>此變數不包含用於資料隱私權請求的 ID。 </p> </td> 
-   <td colname="col3"> <p>只有在此欄位包含透過[Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)或UI提交存取或刪除請求時，您才需要設定其他標籤之一。 </p> </td> 
+   <td colname="col3"> <p>如果此欄位含有透過 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 或 UI 提交存取或刪除請求時將使用的 ID，您才需要設定這些標籤中的其中一個。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>ID-DEVICE </p> </td> 
