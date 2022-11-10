@@ -1,18 +1,18 @@
 ---
 title: SFTP 服務升級 - 常見問答集
-description: 有關計畫的SFTP服務升級的常見問題。
+description: 有關規劃 SFTP 服務升級的常見問題。
 feature: FTP Export
 exl-id: e271b545-0769-4a69-9d7f-dc46bc654737
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
-# SFTP 服務升級 - 常見問答集
+# SFTP 服務升級 - 常見問題
 
-2022年9月20日，Adobe Analytics將升級其安全檔案傳輸通訊協定 [SFTP] 服務，以提高檔案傳輸的安全性。 在這次變更後，我們將不再支援某些 SFTP 用戶端設定。這只會影響使用SFTP傳送至Adobe Analytics或從Analytics擷取的資料。 FTP 通訊協定將不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 將符合以下詳述的變更。
+在 2022 年 9 月 20 日，Adobe Analytics 將會升級其安全檔案傳輸通訊協定 ([SFTP]) 服務，以提供改良的檔案傳輸安全性功能。在這次變更後，我們將不再支援某些 SFTP 用戶端設定。這只會影響使用 SFTP 傳送給 Adobe Analytics 或從中擷取的資料。FTP 通訊協定將不受影響。為避免服務中斷，請確保您的 SFTP 用戶端 (程式碼、工具、服務) 將符合以下詳述的變更。
 
 ## 我要如何判斷我的組織目前正在使用哪些演算法、連線類型和通訊協定？
 
