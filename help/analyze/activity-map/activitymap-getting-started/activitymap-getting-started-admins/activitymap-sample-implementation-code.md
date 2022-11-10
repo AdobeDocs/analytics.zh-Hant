@@ -1,13 +1,13 @@
 ---
-description: 使用Adobe Analytics擴充功能實作Activity Map。
+description: 使用 Adobe Analytics 擴充功能實作 Activity Map。
 title: 實作 Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '41'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
