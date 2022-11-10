@@ -1,13 +1,13 @@
 ---
 title: collectHighEntropyUserAgentHints
 description: 使用 collectHighEntropyUserAgentHints 變數來確定 Adobe 是否會要求 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的高平均資訊量提示。
-source-git-commit: 885a8f229fa814053e4766f3b38b6e7fb209fc00
+exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
 workflow-type: ht
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 100%
 
 ---
-
 
 # collectHighEntropyUserAgentHints
 
@@ -15,7 +15,7 @@ Adobe Analytics 使用高平均資訊量用戶端提示來協助識別裝置和�
 
 ## 使用 Web SDK 收集高平均資訊量提示
 
-高平均資訊量用戶端提示是 Web SDK 中內容類別的一部分。如需更多資訊，請參閱[設定平台 Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=en)。
+高平均資訊量用戶端提示是 Web SDK 中內容類別的一部分。如需更多資訊，請參閱[設定平台 Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)。
 
 ## 使用 Adobe Analytics 擴充功能收集高平均資訊量提示
 
