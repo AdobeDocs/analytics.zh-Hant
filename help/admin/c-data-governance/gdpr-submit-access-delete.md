@@ -4,9 +4,9 @@ title: 提交存取與刪除請求
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1297'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
