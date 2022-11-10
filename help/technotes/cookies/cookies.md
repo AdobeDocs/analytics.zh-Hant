@@ -4,9 +4,9 @@ description: 了解預防追蹤措施如何影響 Adobe Analytics 所設定的�
 feature: Data Configuration and Collection
 exl-id: c4a4751e-49fc-40c3-aa39-f0f0b20bda1b
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1981'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
