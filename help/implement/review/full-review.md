@@ -4,9 +4,9 @@ description: 每 6 個月審視一次實施作業，確保實施作業符合業�
 feature: Implementation Basics
 exl-id: 235fc86e-e1b0-4b1a-a270-0dfba457a832
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
