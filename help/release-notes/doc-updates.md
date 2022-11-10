@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 8e6f8ecb153d5af183adee76acef0a12901bb1be
 workflow-type: tm+mt
 source-wordcount: '3517'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,15 +26,15 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2022 年 11 月** |  |
-| 同意管理變數 | 專用頁面 [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md) 和 [同意管理選擇退出](/help/components/dimensions/cm-opt-out.md). |
-| 多貨幣重新整理 | 頁面周圍 [多貨幣支援](/help/technotes/multicurrency.md) 已更新。 |
+| 同意管理變數 | [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)和[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)的專屬頁面。 |
+| 多貨幣重新整理 | [多貨幣支援](/help/technotes/multicurrency.md)頁面已更新。 |
 | **2022 年 10 月** |  |
 | Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
 | 用戶端提示 | 新的[概述和常見問題](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html)。 |
 | 關鍵量度摘要 | 新的[關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md)視覺化主題。 |
 | 分類集 | 新的使用者[分類集](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html)體驗提供管理分類和規則的單一介面，可提升客戶擁有的分類資料的可見度。 |
 | 行動應用程式：自訂詳細資料檢視 | 新的[自訂詳細資料檢視](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html)主題。 |
-| VISTA | 說明 [VISTA規則](/help/technotes/vista.md). |
+| VISTA | 說明[VISTA 規則](/help/technotes/vista.md)基本概念的新頁面。 |
 | **2022 年 9 月** |  |
 | 組合圖 | 在[組合圖](/help/analyze/analysis-workspace/visualizations/combo-charts.md)視覺化上的新主題。 |
 | 更新外掛程式 | 更新版本的 [getvalonce](/help/implement/vars/plugins/getvalonce.md) 實作外掛程式。 |
