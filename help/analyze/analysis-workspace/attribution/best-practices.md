@@ -4,7 +4,7 @@ description: 決定歸因模型的最佳實務為何？
 feature: Attribution
 exl-id: 92c6039c-f950-4746-8b34-ba18be258c08
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
 ht-degree: 100%
 
