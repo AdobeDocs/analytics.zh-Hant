@@ -1,16 +1,16 @@
 ---
-title: 在Adobe Experience Platform中使用標籤實作Adobe Analytics
+title: 使用 Adobe Experience Platform 中的標記實作 Adobe Analytics
 description: 了解如何使用標記來實作 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '308'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# 在Adobe Experience Platform中使用標籤實作Adobe Analytics
+# 使用 Adobe Experience Platform 中的標記實作 Adobe Analytics
 
 在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實作用於收集資料的程式碼。 Adobe 目前的建議方法是透過 Adobe Experience Platform 中的標記。
 
