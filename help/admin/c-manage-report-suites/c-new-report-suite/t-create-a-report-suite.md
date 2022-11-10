@@ -4,9 +4,9 @@ title: 建立報表套裝
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
