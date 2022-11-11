@@ -3,13 +3,13 @@ description: 了解如何使用報告活動管理器在尖峰報告期間診斷�
 title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
-source-git-commit: d4eda940f59a9b4e81d87be5aa29949a590f7b6b
+exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
+source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '934'
+ht-degree: 98%
 
 ---
-
 
 # 報告活動管理器
 
@@ -31,7 +31,9 @@ ht-degree: 100%
 
 ## 權限
 
-您需要 Analytics 產品管理員權限才能管理報告活動。
+若要管理報表活動，您需要Analytics產品管理員權限(位於Adobe Admin Console中)。
+
+![權限](assets/rep-mgr-permission.png)
 
 ## 檢視報告佇列
 
