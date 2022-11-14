@@ -4,10 +4,10 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 7421b2eb2b8b00824de2910e37882c83d2d6f3e9
+source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 98%
+source-wordcount: '962'
+ht-degree: 92%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 98%
 
 | 摘要數字 | 說明 |
 | --- | --- |
-| [!UICONTROL 使用者] | 目前有多少使用者正傳送報告要求給此報告套裝。 |
+| [!UICONTROL 使用者] | 目前傳送報表請求至此報表套裝的使用者人數。 |
 | [!UICONTROL 專案] | Workspace 專案、Report Builder 活頁簿等 |
 | [!UICONTROL 查詢] | 目前正在執行的查詢數。 |
 | [!UICONTROL 平均等待時間] | 所有正在執行之查詢的平均等待時間。 |
@@ -120,7 +120,10 @@ ht-degree: 98%
 
 若要取消請求
 
-1. 勾選表格中一個或多個「**[!UICONTROL 查詢 ID]**」左側的方塊，然後按一下底部的「**[!UICONTROL 取消請求]**」。您還可以透過檢視[!UICONTROL 使用者]、[!UICONTROL 專案]或[!UICONTROL 應用程式]的詳細資料來大量取消請求。
+1. 勾選表格中一個或多個「**[!UICONTROL 查詢 ID]**」左側的方塊，然後按一下底部的「**[!UICONTROL 取消請求]**」。
+
+   您也可以透過檢視詳細資訊來大量取消請求 [!UICONTROL 使用者], [!UICONTROL 專案]，或 [!UICONTROL 應用程式]. 在活動刷新時，對未在隊列中或取消時運行的項目、用戶或應用程式的後續請求仍可能顯示。
+
 1. 在出現的「**[!UICONTROL 取消 x 查詢]**」視窗中，您可以根據需要修改取消訊息。
 1. 按一下&#x200B;**[!UICONTROL 「繼續」]**。
 
