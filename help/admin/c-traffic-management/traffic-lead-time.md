@@ -3,10 +3,10 @@ description: Adobe 需要事先收到有關新帳戶設定、流量尖峰及流�
 title: 流量增加所需的前置時間
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
-source-git-commit: 72bd67179e003b70233d863d34153fec77548256
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+source-git-commit: f9462d1b8b2795bec9dab9b479d4885fcaa92b5d
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 78%
 
 ---
 
@@ -24,36 +24,30 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
 
 ## 硬體配置前置時間
 
+
 <table id="table_A67CC3B164F740088797BD8913244E47">
  <thead>
   <tr>
-   <th colname="col1" class="entry"> 每日流量估計值 (點擊) </th>
-   <th colname="col2" class="entry"> <p>所需的前置時間 (1 月到 10 月) </p> </th>
-   <th colname="col3" class="entry"> <p>所需的前置時間 (11 月到 12 月) </p> </th>
+   <th colname="col1" class="entry"> 流量變更類型 </th>
+   <th colname="col2" class="entry"> 所需的前置時間 </th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td colname="col1"> 最多 1,000,000 </td>
-   <td colname="col2"> 無需前置時間 </td>
-   <td colname="col3"> 無需前置時間 </td>
+   <td colname="col1"> 新帳戶設定 </td>
+   <td colname="col2"> <ul><li>3個工作日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 1,000,000 - 5,000,000 </td>
-   <td colname="col2"> 兩個工作天 </td>
-   <td colname="col3" morerows="3"> 11 月與 12 月期間的所有流量增加均須在 9 月 1 日前提交。這是為了在需要因應假期流量的情況下，有充足的時間購買容量。 </td>
+   <td colname="col1"> 與過去30天相比，每日流量的平均尖峰或永久性流量突然增加高達25%</td>
+   <td colname="col2"> <ul><li>每日點擊數&lt; 100M的報表套裝：不需要通知</li><li>每日點擊數超過1億次的報表套裝：5個工作日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 5,000,000 - 10,000,000 </td>
-   <td colname="col2"> 一週 </td>
+   <td colname="col1"> 與過去30天相比，日均流量的流量尖峰或永久性流量突然增加超過25%</td>
+   <td colname="col2"> <ul><li>5個工作日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 10,000,000 - 25,000,000 </td>
-   <td colname="col2"> 兩週 </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p>超過 25,000,000 </p> </td>
-   <td colname="col2"> 一或多個月 </td>
+   <td colname="col1"> 假日活動10月至12月 </td>
+   <td colname="col2"> <ul><li>一個日曆月</li></ul> </td>
   </tr>
  </tbody>
 </table>
