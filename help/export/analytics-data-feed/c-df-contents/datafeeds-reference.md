@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 031b5922e490419eecdb2c953ff9b2c798314ab5
+source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
 workflow-type: tm+mt
-source-wordcount: '3638'
-ht-degree: 99%
+source-wordcount: '3641'
+ht-degree: 98%
 
 ---
 
@@ -125,13 +125,13 @@ ht-degree: 99%
 | **`mobilecampaignterm`** | 您要對此贏取追蹤的付費關鍵字或其他詞語。由「行動應用程式贏取」填入。 | varchar(255) |
 | **`mobiledayofweek`** | 應用程式啟動的工作日數。 | varchar(255) |
 | **`mobiledayssincefirstuse`** | 自應用程式初次執行以來的天數。 | varchar(255) |
-| **`mobiledayssincelastupgrade`** | 從內容資料變數 a.DaysSinceLastUpgrade 收集。自上次作業階段以來已經過的天數。 | varchar(255) |
+| **`mobiledayssincelastupgrade`** | 已淘汰 — 從內容資料變數a.DaysSinceLastUpgrade收集。 自上次作業階段以來已經過的天數。 | varchar(255) |
 | **`mobiledayssincelastuse`** | 自應用程式上次執行以來的天數。 | varchar(255) |
 | **`mobiledeeplinkid`** | 從內容資料變數`a.deeplink.id`中收集。用於贏取報表中，作為行動贏取連結的識別碼。 | varchar(255) |
 | **`mobiledevice`** | 行動裝置名稱。在 iOS 上，此名稱以逗號分隔的 2 位數字串形式儲存。第一個數字代表裝置代別，第二個數字代表裝置系列。 | varchar(255) |
 | **`mobilehourofday`** | 定義啟動應用程式的一天中的時段。請依照 24 小時數字格式。 | varchar(255) |
 | **`mobileinstalldate`** | 行動安裝日期。提供使用者初次開啟行動應用程式的日期。 | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | 從內容資料變數 a.LaunchesSinceUpgrade 收集。報表自上次升級以來的啟動次數。 | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | 已淘汰 — 從內容資料變數a.LaunchesSinceUpgrade收集。 報表自上次升級以來的啟動次數。 | varchar(255) |
 | **`mobilelaunchnumber`** | 每次啟動行動應用程式時增加 1。 | varchar(255) |
 | **`mobileltv`** | 已不再使用。由 trackLifetimeValue 方法填入。 | varchar(255) |
 | **`mobilemessagebuttonname`** | 從內容資料變數`a.message.button.id`中收集。用於應用程式內傳訊，以識別關閉訊息的按鈕。 | varchar(100) |
@@ -139,7 +139,7 @@ ht-degree: 99%
 | **`mobilemessageonline`** | 線上應用程式內訊息 | varchar(255) |
 | **`mobilemessagepushoptin`** | 從內容資料變數`a.push.optin`中收集。當使用者選擇加入推播訊息時，設為「true」；否則，值為「false」。 | varchar(255) |
 | **`mobilemessagepushpayloadid`** | 從內容資料變數`a.push.payloadid`中收集。用於推播訊息中，作為裝載識別碼。 | varchar(255) |
-| **`mobileosenvironment`** | 從內容資料變數`a.OSEnvironment`中收集。表明 OS 環境，例如 Android 或 iOS。 | varchar(255) |
+| **`mobileosenvironment`** | 已淘汰 — 從內容資料變數收集 `a.OSEnvironment`. 表明 OS 環境，例如 Android 或 iOS。 | varchar(255) |
 | **`mobileosversion`** | 行動服務作業系統版本 | varchar(255) |
 | **`mobileplaceaccuracy`** | 從內容資料變數`a.loc.acc`中收集。指出 GPS 在採集時的準確度 (以公尺為單位)。 | varchar(255) |
 | **`mobileplacecategory`** | 從內容資料變數`a.loc.category`中收集。說明特定位置的類別。 | varchar(255) |
