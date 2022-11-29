@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
-workflow-type: ht
-source-wordcount: '1059'
-ht-degree: 100%
+source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+workflow-type: tm+mt
+source-wordcount: '1134'
+ht-degree: 91%
 
 ---
 
@@ -95,6 +95,14 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++
 
++++**Analytics以什麼方式依賴使用者代理？**
+
+報表中的裝置資訊衍生自使用者代理。 我們已更新流程，在可用的地方同時使用用戶代理和客戶端提示。
+
+備援ID([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=en))衍生自使用者代理和IP位址。 此ID僅會在無法設定Cookie且未廣泛使用時使用
+
++++
+
 +++**哪些 Analytics 報表欄位衍生自儲存在高平均資訊量提示中的值？**
 
 這將隨著時間的推移而改變，因為 Google 會「凍結」使用者代理程式的更多部分。第一個直接受影響的欄位是「作業系統」，其中包括作業系統版本。根據 Google 發布的「凍結」使用者代理程式提示的時間表，從 2022 年 10 月下旬開始凍結作業系統版本 Chromium 版本 107。在那時，使用者代理程式中的作業系統版本在某些情況下會不準確。
@@ -105,7 +113,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**Adobe 將如何使用用戶端提示來導出裝置資訊？**
 
-Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提示和使用者代理程式來導出裝置資訊。
+Adobe使用第三方Device Atlas，該第三方將同時使用客戶端提示和用戶代理來獲取設備資訊。
 
 +++
 
@@ -141,6 +149,6 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++**AAM 伺服器端轉送是否支援用戶端提示？**
 
-是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++
