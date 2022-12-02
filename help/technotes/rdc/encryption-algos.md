@@ -3,10 +3,10 @@ title: 支援的 HTTPS 加密算法
 description: 2022 年 6 月 23 日起，我們將針對加密安全等級設定為「高」的客戶，除移對其運用 SHA1 或 CBC 的 TLS 1.2 加密支援服務。
 feature: Regional Data Collection
 exl-id: f1cbb0cb-fd65-4f22-8594-0d97b6906698
-source-git-commit: a1ae98d6907960135c1dfa03ed10738eac8bec0d
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: 84a8dc9c6052d34e9dea370e444c83e84bf17852
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe 提供兩種密碼安全級別，以滿足不同客戶對第一方數據�
 * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
 * TLS_RSA_WITH_AES_128_CBC_SHA
 * TLS_RSA_WITH_AES_256_CBC_SHA
+* TLS_RSA_WITH_AES_128_GCM_SHA256
+* TLS_RSA_WITH_AES_256_GCM_SHA384
 
 由於缺乏對當前加密標準的支援，已知下列客戶端會受到此變更的影響：
 
