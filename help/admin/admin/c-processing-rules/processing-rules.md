@@ -4,10 +4,10 @@ subtopic: Processing rules
 title: 處理規則總覽
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+source-git-commit: 3d22d27a259b100cbbe8306b4d610afacb59d265
+workflow-type: tm+mt
+source-wordcount: '373'
+ht-degree: 88%
 
 ---
 
@@ -57,3 +57,7 @@ s.contextData['genre'] = "Youth";
 在實作中定義內容資料變數後，必須將其複製至 eVar 等變數，才能用於報告中。
 
 如需詳細資訊，請參閱[複製內容資料變數至 eVar](processing-rules-examples/processing-rules-copy-context-data.md) 和[使用內容資料變數設定事件](processing-rules-examples/processing-rules-copy-context-data-event.md)。
+
+## 已知限制
+
+**在處理規則中使用克拉(^)。** 如果您想在處理規則中使用克拉做為分隔字元或用於其他用途，每單克拉必須由兩克拉表示。 例如，以^^表示單克拉，以^^^^表示雙克拉等。
