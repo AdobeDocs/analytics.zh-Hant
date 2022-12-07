@@ -3,10 +3,10 @@ title: 城市
 description: 點擊的來源城市。
 feature: Dimensions
 exl-id: c04525bb-50d6-4d28-b5dc-335d089e184b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '319'
-ht-degree: 100%
+source-git-commit: 146d622f370fd7469a8e5f0f2fe68cb31fa91844
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 89%
 
 ---
 
@@ -32,3 +32,4 @@ ht-degree: 100%
 * **行動 IP 位址**：行動 IP 定位會根據位置與網路而在不同層級運作。許多電信業者會透過集中化或區域性網路節點取回 IP 流量。
 * **衛星 ISP 使用者**：要識別這些使用者的特定位置並不容易，因為他們通常看似源自於上行位置。
 * **軍事和政府 IP**：此類 IP 通常屬於在全球各地旅行、而透過其居住地 (而非其目前駐在基地或辦公室) 進入的工作人員。
+* **因隱私權原因而遮蔽IP位址的Proxy**:Apple的「私人中繼」等服務會透過中繼或Proxy隨機傳送資料，以隱藏真正的IP位址。 然後，此代理會在轉送至Adobe前取代不同的IP位址。
