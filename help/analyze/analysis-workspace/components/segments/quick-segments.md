@@ -4,10 +4,10 @@ title: 快速區段
 feature: Segmentation
 role: User, Admin
 exl-id: 680e7772-10d3-4448-b5bf-def3bc3429d2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '899'
-ht-degree: 100%
+source-git-commit: 86fc28375d62d9f1d71d0b239ea0e2038fae47e4
+workflow-type: tm+mt
+source-wordcount: '943'
+ht-degree: 92%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 | --- | --- |
 | 名稱 | 區段的預設名稱為區段中規則名稱的組合。您可重新命名區段。 |
 | 包含/排除 | 您可在區段定義中包含或排除元件，但不能同時包含和排除。 |
-| 點擊/造訪/訪客容器 | 快速區段僅包含一個[區段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)，讓您在區段中包含 (或從中排除) 維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。[!UICONTROL 造訪次數]容器可讓您設定規則，以根據造訪次數來劃分訪客的資料，而[!UICONTROL 點擊]容器則可讓您根據個別頁面檢視來劃分訪客資訊。預設容器為[!UICONTROL 點擊]。 |
+| 點擊/造訪/訪客容器 | 快速區段僅包含一個[區段容器](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-overview.html#section_AF2A28BE92474DB386AE85743C71B2D6)，讓您在區段中包含 (或從中排除) 維度/量度/日期範圍。[!UICONTROL 訪客]包含特定於訪客所有造訪次數和頁面檢視的總體資料。A [!UICONTROL 瀏覽] 容器可讓您設定規則，以根據瀏覽來劃分訪客的資料，以及 [!UICONTROL 點擊] 容器可讓您依據個別頁面檢視來劃分訪客資訊。 預設容器為[!UICONTROL 點擊]。 |
 | 元件 (維度/量度/日期範圍) | 透過新增元件 (維度和/或量度和/或資料範圍) 及其值來定義最多 3 個規則。有 3 種方法可以找到正確的元件:<ul><li>開始輸入，然後[!UICONTROL 快速區段]產生器就會自動找到合適的元件。</li><li>使用下拉式清單來尋找元件。</li><li>從左側邊欄拖放元件。</li></ul> |
 | 運算子 | 使用下拉式功能表尋找標準運算子和 [!UICONTROL Distinct Count] 運算子。[了解更多](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segment-reference/seg-operators.html?lang=zh-Hant) |
 | 加 (+) 號 | 新增另一個規則 |
@@ -94,3 +94,10 @@ ht-degree: 100%
 如果您勾選「使該區段可用於..」並按一下&#x200B;**[!UICONTROL 儲存]**，即可在左側欄元件清單中取得該區段，以用於其他專案。您也可以和區段管理員的其他使用者共用區段。
 
 ![勾選僅限專案](assets/project-only-checked.png)
+
+## 已知問題
+
+1. 建立包含2個項目的快速區段，並 **[!UICONTROL 儲存]** 作為Test1。
+1. 按一下 **[!UICONTROL 另存新檔]** 並將此快速段保存為Test2。
+1. 編輯Test2快速區段並再次儲存為Test2。
+請注意Test1快速區段已由Test2修改。
