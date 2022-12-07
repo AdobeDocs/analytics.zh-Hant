@@ -3,10 +3,10 @@ title: Adobe Analytics 產品設定檔
 description: 了解如何使用產品設定檔來進行權限預設，讓產品管理員可以指定權限給組織內的使用者。
 exl-id: 834e4cf1-20b0-4c9d-939a-19e00494c8dd
 feature: Admin Tools
-source-git-commit: 88ed2f874d680f9ed1aea9bfb60e303f123cbc37
+source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 91%
+source-wordcount: '714'
+ht-degree: 86%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 產品設定檔是產品管理員指派組織內各使用者的權限預設集。如果您建立產品設定檔，並將將 Experience Cloud 使用者指派到該產品設定檔，對方會繼承產品設定檔中包含的權限項目。
 
-請參閱 [管理企業使用者的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) （在企業使用手冊中），以取得產品設定檔的一般資訊。
+如需產品設定檔的一般資訊，包括建立產品設定檔和指派使用者，請參閱 [管理企業使用者的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) （在企業使用手冊中）。
 
 ## 產品設定檔管理員
 
@@ -24,6 +24,8 @@ ht-degree: 91%
 * 產品設定檔管理員可以調整產品設定檔中的權限項目。
 * 產品設定檔管理員可以對使用者群組，指派或移除其得使用的產品設定檔。
 * 需要為團隊授予和管理 Adobe Analytics 存取權限的團隊領導者或經理，都非常適合出任產品資料管理員。且不需經由系統管理員或產品管理員即可執行這項操作。
+
+如需如何指派產品設定檔管理員的相關資訊，請參閱文章中的「管理產品設定檔管理員」一節， [管理企業使用者的產品設定檔](https://helpx.adobe.com/enterprise/using/manage-product-profiles.html) （在企業使用手冊中）。
 
 ## Adobe Analytics 權限項目
 
