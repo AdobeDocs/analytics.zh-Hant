@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: ff6184949d0d8c3093dd3fa1d9ac67e6645c6fb8
+source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 97%
@@ -20,6 +20,16 @@ ht-degree: 97%
    + [我該使用哪種 Adobe Analytics 工具呢？](admin/get-started/which-analytics-tool.md)
    + [Analytics 產品比較和需求](admin/get-started/analytics-product-comparison.md)
    + [系統要求](admin/get-started/sys-reqs.md)
+   + 公司設定 {#company-settings}
+      + [公司設定總覽](admin/get-started/company/c-company-settings.md)
+      + [功能存取層級](admin/get-started/company/feature-access-levels.md)
+      + [網路服務](admin/get-started/company/web-services-admin.md)
+      + [Report Builder 報表](admin/get-started/company/report-builder-reports-admin.md)
+      + [單一登入](admin/get-started/company/single-signon-admin.md)
+      + [待定動作](admin/get-started/company/pending-actions-admin.md)
+      + [品牌結合](admin/get-started/company/co-branding-admin.md)
+      + [隱藏報表套裝](admin/get-started/company/c-hide-report-suites.md)
+      + [安全管理員](admin/get-started/company/security-manager.md)
 + 管理工具 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
@@ -117,16 +127,6 @@ ht-degree: 97%
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
    + [Adobe Analytics第一份管理指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics中的管理員角色](admin-console/admin-roles-in-analytics.md)
-+ 公司設定 {#company-settings}
-   + [公司設定總覽](company/c-company-settings.md)
-   + [功能存取層級](company/feature-access-levels.md)
-   + [網路服務](company/web-services-admin.md)
-   + [Report Builder 報表](company/report-builder-reports-admin.md)
-   + [單一登入](company/single-signon-admin.md)
-   + [待定動作](company/pending-actions-admin.md)
-   + [品牌結合](company/co-branding-admin.md)
-   + [隱藏報表套裝](company/c-hide-report-suites.md)
-   + [安全管理員](company/security-manager.md)
 + 管理報表套裝 {#manage-report-suites}
    + [報表套裝管理員](c-manage-report-suites/report-suites-admin.md)
    + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
