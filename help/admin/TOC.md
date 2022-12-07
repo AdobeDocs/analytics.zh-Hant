@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 9407c284313653f95456bb0f2d11f509c6937377
+source-git-commit: b274cb4b51a1bdc54413a27f244a1522da903542
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 97%
+source-wordcount: '679'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,15 @@ ht-degree: 97%
       + [品牌結合](admin/get-started/company/co-branding-admin.md)
       + [隱藏報表套裝](admin/get-started/company/c-hide-report-suites.md)
       + [安全管理員](admin/get-started/company/security-manager.md)
++ AdobeAdmin Console中的使用者權限 {#admin-console}
+   + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
+   + 權限 {#permissions}
+      + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
+      + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
+      + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
+      + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
+   + [Adobe Analytics第一份管理指南](admin-console/first-admin-guide.md)
+   + [Adobe Analytics中的管理員角色](admin-console/admin-roles-in-analytics.md)
 + 管理工具 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
@@ -118,15 +127,6 @@ ht-degree: 97%
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
-+ Adobe Admin Console 中的 Analytics{#admin-console}
-   + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
-   + 權限 {#permissions}
-      + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
-      + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
-      + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
-      + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
-   + [Adobe Analytics第一份管理指南](admin-console/first-admin-guide.md)
-   + [Adobe Analytics中的管理員角色](admin-console/admin-roles-in-analytics.md)
 + 管理報表套裝 {#manage-report-suites}
    + [報表套裝管理員](c-manage-report-suites/report-suites-admin.md)
    + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
