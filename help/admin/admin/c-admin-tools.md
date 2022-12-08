@@ -3,9 +3,9 @@ description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '151'
 ht-degree: 100%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 100%
 + [量度可見度](metric-visibility.md)
 + [行動管理](mobile-management.md)
 + [付費搜尋偵測總覽](paid-search-detection/paid-search-detection.md)
-+ [發佈清單](publishing-list.md)
-+ [發佈 Widget](publishing-widgets-admin.md)
 + [偏好設定管理員](preferences-manager.md)
 + [隱私權設定](privacy-settings.md)
 + [處理規則總覽](c-processing-rules/processing-rules.md)
@@ -46,7 +44,6 @@ ht-degree: 100%
 + [排程報表佇列](scheduled-reports-admin.md)
 + [伺服器端轉送總覽](c-server-side-forwarding/ssf.md)
 + [簡化的報表選單](t-simplified-menu.md)
-+ [社交管理](social-management.md)
 + [成功事件總覽](c-success-events/success-event.md)
 + [可選時間戳記](timestamp-optional.md)
 + [流量變數 (prop) 總覽](c-traffic-variables/traffic-var.md)

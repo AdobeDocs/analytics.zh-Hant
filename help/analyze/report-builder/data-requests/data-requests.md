@@ -4,9 +4,9 @@ title: 資料請求 - 請求精靈步驟 1
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '418'
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+workflow-type: tm+mt
+source-wordcount: '364'
 ht-degree: 100%
 
 ---
@@ -24,8 +24,6 @@ ht-degree: 100%
 1. **區段**：區段是自訂資料子集，或由您建立之規則所篩選的資料。區段是以點擊、造訪和訪客為基準。如需區段的詳細資訊，請參閱 [Analytics 分段指南](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
 
    例如，您可以執行[!UICONTROL 頁面報告]，然後套用首次瀏覽次數區段。
-
-1. **允許發佈清單覆蓋**：在排程報表時，您可選取要用於散佈的發佈清單。會在「**[!UICONTROL Analytics]** > **[!UICONTROL 管理工具]**」中設定發佈清單。指派給發佈清單中每位收件者的報表套裝 ID 會取代此請求的報表套裝。請參閱[允許發佈清單覆蓋](/help/analyze/report-builder/data-requests/allow-publishing-list-overrides.md)。
 
 1. **報表類型**：指定要在資料請求中執行基礎報表。您可以針對每個請求執行一份報表，且報表能具有一對多維度和一對多度量。報表類型的度量和維度會顯示在「[!UICONTROL 請求精靈: 步驟 2]」介面中。請參閱[選擇報表類型](/help/analyze/report-builder/data-requests/c-report-types/select-report-types.md)。
 

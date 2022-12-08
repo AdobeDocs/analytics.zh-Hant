@@ -3,9 +3,9 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1164'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,6 @@ ht-degree: 99%
 * 用於設定目標。
 * 用於檢視 Bot 報告。
 * 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
-* 用於利用排程報告中的「發佈清單」。
 
 該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** 的情況：
 
