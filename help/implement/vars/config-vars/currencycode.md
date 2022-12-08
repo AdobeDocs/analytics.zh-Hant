@@ -3,8 +3,8 @@ title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: f659d1bde361550928528c7f2a70531e3ac88047
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 貨幣轉換在每次點擊時使用以下邏輯。這些步驟適用於設定 [`products`](../page-vars/products.md) 變數的收入值，以及在報表套裝設定底下的[成功事件](/help/admin/admin/c-success-events/success-event.md) 中列為「貨幣」的所有事件。
 
-* 如果 `currencyCode` 未定義，Adobe 假設所有貨幣值是報表套裝的貨幣。請參閱報表套裝設定中的[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)，查看報表套裝的貨幣。
+* 如果 `currencyCode` 未定義，Adobe 假設所有貨幣值是報表套裝的貨幣。請參閱報表套裝設定中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)，查看報表套裝的貨幣。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣相同，則不會套用貨幣轉換。
 * 如果已定義 `currencyCode` 且與報表套裝的貨幣不同，Adobe 會根據當天的匯率套用貨幣轉換。Adobe 的每日轉換貨幣業務與 [XE](https://xe.com) 合作。所有儲存在報表套裝中的值，都是採用報表套裝的貨幣。
 * 如果 `currencyCode` 設為無效值，**則會捨棄整個點擊，造成資料遺失。**&#x200B;確保在使用時正確定義此變數。

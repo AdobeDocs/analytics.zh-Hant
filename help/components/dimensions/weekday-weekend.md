@@ -3,8 +3,8 @@ title: 平日/週末
 description: 判斷點擊是發生在工作日還是週末。
 feature: Dimensions
 exl-id: c3111cdc-a5f9-4244-a725-b1bb1e72fcff
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 平日/週末
 
-「工作日/週末」維度可讓您深入分析點擊是發生在工作日 (星期一 - 星期五) 還是週末 (星期六 - 星期日)。點擊的時間根據[報表套裝的時區](/help/admin/admin/general-acct-settings-admin.md)而定。
+「工作日/週末」維度可讓您深入分析點擊是發生在工作日 (星期一 - 星期五) 還是週末 (星期六 - 星期日)。點擊的時間根據[報表套裝的時區](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)而定。
 
 ## 將資料填入此維度中
 

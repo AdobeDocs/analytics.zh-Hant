@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '680'
 ht-degree: 95%
 
 ---
@@ -42,28 +42,6 @@ ht-degree: 95%
 + Analytics管理員 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
-   + 報表套裝管理器 {#manage-report-suites}
-      + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
-      + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [建立統計報表套裝](admin/c-manage-report-suites/t-rollups.md)
-      + [建立報表套裝群組](admin/c-manage-report-suites/t-create-rs-group.md)
-      + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [個別報表套裝的設定值](admin/c-manage-report-suites/individual-rs-settings.md)
-      + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 新的報表套裝 {#new-report-suite}
-         + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [新的報表套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [並非從來源報表套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + 報表套裝範本 {#report-suite-templates}
-         + [報表套裝範本總覽](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [整合入口網站](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [商務](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [內容與媒體](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [預設範本](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [金融服務](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [工作入口網站](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 移除機器人 {#bot-removal}
       + [移除機器人](admin/bot-removal/bot-removal.md)
       + [機器人規則總覽](admin/bot-removal/bot-rules.md)
@@ -79,52 +57,76 @@ ht-degree: 95%
       + [銷售 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [貨幣代碼](admin/currency.md)
    + [自訂報表說明](admin/custom-desc-admin.md)
-   + [自訂日曆](admin/custom-calendar.md)
    + [資料來源](admin/data-sources.md)
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [尋找方法](admin/finding-methods.md)
-   + [一般帳戶設定](admin/general-acct-settings-admin.md)
-   + [內部 URL 篩選器](admin/internal-url-filter-admin.md)
    + [記錄檔](admin/logs.md)
    + [行銷管道](admin/marketing-channels-admin.md)
-   + [選單自訂](admin/customize-menus.md)
    + [量度可見度](admin/metric-visibility.md)
    + [應用程式管理](admin/mobile-management.md)
-   + 付費搜尋偵測 {#paid-search-detection}
-      + [付費搜尋偵測總覽](admin/paid-search-detection/paid-search-detection.md)
-      + [設定付費搜尋偵測](admin/paid-search-detection/t-paid-search-detection.md)
    + [偏好設定管理員](admin/preferences-manager.md)
    + [隱私權設定](admin/privacy-settings.md)
    + [隱私權報告](admin/privacy-reporting.md)
-   + 處理規則 {#processing-rules}
-      + [處理規則總覽](admin/c-processing-rules/processing-rules.md)
-      + 處理規則設定 {#processing-rules-configuration}
-         + [處理規則的運作方式](admin/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
-         + [建立處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
-         + [檢視作用中的處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
-         + [檢視處理規則記錄](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
-         + [還原處理規則](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
-         + [複製處理規則至其他報表套裝](admin/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
-      + [可用於處理規則的維度](admin/c-processing-rules/processing-rule-dimensions.md)
-      + 處理規則範例 {#processing-rules-examples}
-         + [處理規則的範例](admin/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
-         + [從查詢字串參數填入行銷活動 ID](admin/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
-         + [從產品總覽頁面設定產品檢視事件](admin/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
-         + [串連類別和頁面名稱以新增子類別](admin/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
-         + [將 eVar 值複製至 Prop 以判斷路徑](admin/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
-         + [清除報表中的值](admin/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
-         + [使用查詢字串參數填入內部搜尋詞](admin/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
-         + [複製內容資料變數至 eVar](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
-         + [使用內容資料變數設定事件](admin/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
-         + [從點擊中移除事件](admin/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
-      + [處理規則提示與秘訣](admin/c-processing-rules/processing-rules-tips.md)
    + 即時報表 {#real-time-reports}
       + [即時報表總覽](admin/realtime/realtime.md)
       + [即時報表設定](admin/realtime/t-realtime-admin.md)
       + [支援的即時量度和維度](admin/realtime/realtime-metrics.md)
    + [報告活動管理器](admin/reporting-activity.md)
    + [排程報告佇列](admin/scheduled-reports-admin.md)
+   + 報表套裝管理器 {#manage-report-suites}
+      + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
+      + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [個別報表套裝的設定值](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新的報表套裝 {#c-new-report-suite}
+         + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [建立統計報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [建立報表套裝群組](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [新的報表套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [並非從來源報表套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 報表套裝範本 {#report-suite-templates}
+         + [報表套裝範本總覽](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [整合入口網站](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [商務](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [內容與媒體](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [預設範本](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融服務](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [工作入口網站](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
+      + 編輯報表套裝的設定 {#edit-report-suite}
+         + 一般 {#report-suite-general}
+            + [一般帳戶設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
+            + [內部 URL 篩選器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
+            + 付費搜尋偵測 {#paid-search-detection}
+               + [付費搜尋偵測總覽](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
+               + [設定付費搜尋偵測](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
+            + [選單自訂](admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
+            + [自訂日曆](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + 處理規則 {#c-processing-rules}
+               + [處理規則總覽](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
+               + 處理規則設定 {#c-processing-rules-configuration}
+                  + [處理規則的運作方式](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/processing-rules-about.md)
+                  + [建立處理規則](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules.md)
+                  + [檢視作用中的處理規則](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-view.md)
+                  + [檢視處理規則記錄](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rule-view-history.md)
+                  + [還原處理規則](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-restore.md)
+                  + [複製處理規則至其他報表套裝](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/c-processing-rules-configuration/t-processing-rules-copy-to-rs.md)
+                  + [可用於處理規則的維度](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rule-dimensions.md)
+               + 處理規則範例 {#processing-rules-examples}
+                  + [處理規則的範例](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-examples.md)
+                  + [從查詢字串參數填入行銷活動 ID](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populate-campaign-id.md)
+                  + [從產品總覽頁面設定產品檢視事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/setting-the-product-view-event.md)
+                  + [串連類別和頁面名稱以新增子類別](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/subcategory-concatenating.md)
+                  + [將 eVar 值複製至 Prop 以判斷路徑](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-determining-path.md)
+                  + [清除報表中的值](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/clean-up-values-in-a-report.md)
+                  + [使用查詢字串參數填入內部搜尋詞](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-populating-internal-search.md)
+                  + [複製內容資料變數至 eVar](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data.md)
+                  + [使用內容資料變數設定事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
+                  + [從點擊中移除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
+               + [處理規則提示與秘訣](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
    + 伺服器端轉送功能 {#server-side-forwarding}
       + [伺服器端轉送總覽](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)

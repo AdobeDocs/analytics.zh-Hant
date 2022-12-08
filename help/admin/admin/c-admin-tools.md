@@ -3,7 +3,7 @@ description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -24,22 +24,22 @@ ht-degree: 100%
 + [轉換變數 (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [貨幣代碼](currency.md)
 + [自訂報表說明](custom-desc-admin.md)
-+ [自訂日曆](custom-calendar.md)
++ [自訂日曆](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [資料來源](data-sources.md)
 + [預設量度](default-metrics.md)
 + [依 IP 位址排除](exclude-ip.md)
 + [尋找方法](finding-methods.md)
-+ [一般帳戶設定](general-acct-settings-admin.md)
-+ [內部 URL 篩選器](internal-url-filter-admin.md)
++ [一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
++ [內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
 + [記錄檔](logs.md)
 + [行銷管道](marketing-channels-admin.md)
-+ [選單自訂](customize-menus.md)
++ [選單自訂](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
 + [量度可見度](metric-visibility.md)
 + [行動管理](mobile-management.md)
-+ [付費搜尋偵測總覽](paid-search-detection/paid-search-detection.md)
++ [付費搜尋偵測總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
 + [偏好設定管理員](preferences-manager.md)
 + [隱私權設定](privacy-settings.md)
-+ [處理規則總覽](c-processing-rules/processing-rules.md)
++ [處理規則總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
 + [即時報表總覽](realtime/realtime.md)
 + [排程報表佇列](scheduled-reports-admin.md)
 + [伺服器端轉送總覽](c-server-side-forwarding/ssf.md)

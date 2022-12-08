@@ -3,8 +3,8 @@ title: 郵遞區號
 description: 訪客的郵遞區號。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 * 直接使用 `zip` 變數設定郵遞區號；或
 * 將其設定為從地域劃分資料中提取。
 
-[一般帳戶設定](/help/admin/admin/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。
+[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。
 
 >[!IMPORTANT]
 >

@@ -3,8 +3,8 @@ title: 星期
 description: 星期幾，無論日期範圍如何。
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
@@ -20,4 +20,4 @@ ht-degree: 100%
 
 ## 維度項目
 
-維度項目包括 `Sunday` - `Saturday`，代表發生點擊的該週某日。依照預設，維度項目的順序會遵循[自訂日曆](/help/admin/admin/custom-calendar.md)中一週的第一天。
+維度項目包括 `Sunday` - `Saturday`，代表發生點擊的該週某日。依照預設，維度項目的順序會遵循[自訂日曆](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)中一週的第一天。

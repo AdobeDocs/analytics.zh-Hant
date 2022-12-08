@@ -2,8 +2,8 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: a9d892ab8caaeb797fbbd9b5aa136c5dab76f8bd
-workflow-type: ht
+source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 * **持續性：**&#x200B;轉換變數的抽象概念，可連結在不同點擊上發生的變數值和事件。另請見「有效期限」。
 * **主要伺服器呼叫：**&#x200B;影像請求或點擊的替代名稱，主要用於多套裝標記和計費的情境下。將相同點擊傳送至多個報表套裝時，第一個報表套裝為主要伺服器呼叫，其餘則為次要伺服器呼叫。此規則適用於所有點擊類型，包括頁面瀏覽和連結追蹤。另請見「次要伺服器呼叫」。
 * **處理規則：**&#x200B;可以指：
-   * 處理規則，使用 Admin Console 中特定規則變更資料收集的一種方式。請參閱管理員使用手冊中的[處理規則](/help/admin/admin/c-processing-rules/processing-rules.md)。
+   * 處理規則，使用 Admin Console 中特定規則變更資料收集的一種方式。請參閱管理員使用手冊中的[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)。
    * 行銷管道處理規則，判斷點擊所屬行銷管道的一組規則。請參閱管理員使用手冊中的[行銷管道處理規則](/help/admin/admin/marketing-channels-admin.md)。
 * **Prop：**&#x200B;請見「流量變數」。
 * **排名報表：**&#x200B;一種報表格式，通常會依循含有量度的維度。此類型的報表可用於查看排名最前的項目，例如網站上檢視次數最多的頁面。另請見「趨勢報表」。
