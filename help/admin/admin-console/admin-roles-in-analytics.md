@@ -2,7 +2,8 @@
 title: Adobe Analytics中的管理員角色
 description: 瞭解如何開始使用 Adobe Analytics、一般角色類型有哪些，以及如何登入 UI。
 feature: Admin Tools
-source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
+exl-id: 9d10716f-5b66-42dc-b288-af34da203c35
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 58%
@@ -68,7 +69,7 @@ Adobe Analytics支援各種類型的管理員。 完整的Adobe Analytics管理�
 
 ## 後續步驟
 
-[建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md):請您的Analytics管理員登入工具並建立資料收集的報表套裝
+[建立報表套裝](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md):請您的Analytics管理員登入工具並建立資料收集的報表套裝
 
 [建立 Analytics 標記屬性](/help/implement/launch/create-analytics-property.md)：請您的資料收集管理員登入此工具，並建立在您的網站上實作的屬性
 

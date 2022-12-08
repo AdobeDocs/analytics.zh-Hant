@@ -3,8 +3,8 @@ description: 了解如何實作多套裝標記，以傳送影像要求給多個�
 title: 實作多套裝標記
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 實作多套裝標記
 
-[多套裝標記](/help/admin/c-manage-report-suites/rollup-report-suite.md)不僅可讓您向全域報表套裝傳送影像要求，也可傳送給個別子報表套裝，好讓您可以將貴公司的部分全域報表套裝資料傳送給不同一般使用者。
+[多套裝標記](/help/admin/admin/c-manage-report-suites/rollup-report-suite.md)不僅可讓您向全域報表套裝傳送影像要求，也可傳送給個別子報表套裝，好讓您可以將貴公司的部分全域報表套裝資料傳送給不同一般使用者。
 
 若要實作多套裝標記，您必須在您網頁和應用程式的追蹤程式碼中，加入全域報表套裝的報表套裝 ID (RSID)，也要加入適用的子報表套裝的 RSID。
 

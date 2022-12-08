@@ -3,8 +3,8 @@ title: 在標記中建立 Analytics 屬性
 description: 使用標記建立空間來自訂資料收集的方式。
 feature: Launch Implementation
 exl-id: ffcd8e97-4d29-489e-bc2b-88805400dad5
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ Adobe Experience Platform 中的標記可讓您在網站上整合 Experience Clo
 
 ## 先決條件
 
-[建立報表套裝](/help/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：為要收集的 Analytics 資料建立一個獨立單位。
+[建立報表套裝](/help/admin/admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)：為要收集的 Analytics 資料建立一個獨立單位。
 
 ## 建立標記屬性，並安裝重要擴充功能
 

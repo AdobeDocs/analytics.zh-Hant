@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 72c35538b0e5d0ffaa103b3159b4e9835a6c1602
+source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -39,9 +39,31 @@ ht-degree: 96%
       + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
-+ 管理工具 {#admin-tools}
++ Analytics管理員 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
+   + 報表套裝管理器 {#manage-report-suites}
+      + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
+      + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [建立統計報表套裝](admin/c-manage-report-suites/t-rollups.md)
+      + [建立報表套裝群組](admin/c-manage-report-suites/t-create-rs-group.md)
+      + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [個別報表套裝的設定值](admin/c-manage-report-suites/individual-rs-settings.md)
+      + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新的報表套裝 {#new-report-suite}
+         + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [新的報表套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [並非從來源報表套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 報表套裝範本 {#report-suite-templates}
+         + [報表套裝範本總覽](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [整合入口網站](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [商務](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [內容與媒體](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [預設範本](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融服務](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [工作入口網站](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 移除機器人 {#bot-removal}
       + [移除機器人](admin/bot-removal/bot-removal.md)
       + [機器人規則總覽](admin/bot-removal/bot-rules.md)
@@ -124,28 +146,6 @@ ht-degree: 96%
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
-+ 管理報表套裝 {#manage-report-suites}
-   + [報表套裝管理員](c-manage-report-suites/report-suites-admin.md)
-   + [統計和全域報表套裝](c-manage-report-suites/rollup-report-suite.md)
-   + [建立統計報表套裝](c-manage-report-suites/t-rollups.md)
-   + 報表套裝範本 {#report-suite-templates}
-      + [報表套裝範本總覽](c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-      + [整合入口網站](c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-      + [商務](c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-      + [內容與媒體](c-manage-report-suites/c-report-suite-templates/content-media.md)
-      + [預設範本](c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-      + [金融服務](c-manage-report-suites/c-report-suite-templates/financial-services.md)
-      + [工作入口網站](c-manage-report-suites/c-report-suite-templates/job-portal.md)
-      + [銷售機會開發](c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-      + [支援媒體](c-manage-report-suites/c-report-suite-templates/support-media.md)
-   + [儲存報表套裝搜尋](c-manage-report-suites/t-report-suite-saved-search.md)
-   + [個別報表套裝的設定值](c-manage-report-suites/individual-rs-settings.md)
-   + [下載報表套裝設定值](c-manage-report-suites/t-download-rs-settings.md)
-   + 新的報表套裝 {#new-report-suite}
-      + [建立報表套裝](c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-      + [新的報表套裝 - 設定](c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-      + [並非從來源報表套裝複製的設定](c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-   + [建立報表套裝群組](c-manage-report-suites/t-create-rs-group.md)
 + 使用者和產品管理 (舊版) {#user-product-management}
    + [使用者和產品管理](user-management2/user-management.md)
    + 將使用者移轉至 Adobe Admin Console {#migrate-users}
