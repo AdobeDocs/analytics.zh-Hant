@@ -4,7 +4,7 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 21270e1a4f05208525261969c2e6858df8647aa1
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 92%
@@ -33,13 +33,13 @@ ht-degree: 92%
 
 若要管理報表活動，您需要Analytics產品管理員權限(位於Adobe Admin Console中)。
 
-![權限](assets/rep-mgr-permission.png)
+![權限](/help/admin/admin/assets/rep-mgr-permission.png)
 
 ## 檢視報告佇列
 
 開啟[!UICONTROL 報告活動]管理器總覽頁面時，您將看到已啟用基本報告套裝清單。
 
-![報告佇列](assets/reporting-activity1.png)
+![報告佇列](/help/admin/admin/assets/reporting-activity1.png)
 
 | UI 元素 | 說明 |
 | --- | --- |
@@ -62,7 +62,7 @@ ht-degree: 92%
 
 按一下要檢視其詳細資料之報告套裝的標題連結。
 
-![報告套裝](assets/indiv-report-ste.png)
+![報告套裝](/help/admin/admin/assets/indiv-report-ste.png)
 
 ### 折線圖
 
@@ -72,17 +72,17 @@ ht-degree: 92%
 * Y 軸顯示查詢的平均等待時間，以秒為單位。
 * 您可以將滑鼠停留在折線圖上以檢視那一刻的時間點和平均等待時間。
 
-   ![詳細資料](assets/detail.png)
+   ![詳細資料](/help/admin/admin/assets/detail.png)
 
 ### 篩選器
 
 您可以按應用程式 (參閱下表中的清單)、使用者和專案篩選表格。
 
-![篩選](assets/filter.png)
+![篩選](/help/admin/admin/assets/filter.png)
 
 ### 摘要數字
 
-![篩選](assets/summary_numbers.png)
+![篩選](/help/admin/admin/assets/summary_numbers.png)
 
 摘要數字顯示以下資訊：
 
@@ -127,11 +127,11 @@ ht-degree: 92%
 1. 在出現的「**[!UICONTROL 取消 x 查詢]**」視窗中，您可以根據需要修改取消訊息。
 1. 按一下&#x200B;**[!UICONTROL 「繼續」]**。
 
-   ![取消查詢](assets/cancel-query.png)
+   ![取消查詢](/help/admin/admin/assets/cancel-query.png)
 
 例如，Workspace 中的應用程式使用者會在他們的專案中看到以下通知：
 
-![取消使用者通知](assets/cancel-user-facing.png)
+![取消使用者通知](/help/admin/admin/assets/cancel-user-facing.png)
 
 ## 常見問題集
 

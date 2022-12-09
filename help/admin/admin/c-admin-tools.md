@@ -3,7 +3,7 @@ description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 100%
@@ -23,7 +23,7 @@ ht-degree: 100%
 + [程式碼管理員](code-manager-admin.md)
 + [轉換變數 (eVar)](conversion-var-admin/conversion-var-admin.md)
 + [貨幣代碼](currency.md)
-+ [自訂報表說明](custom-desc-admin.md)
++ [自訂報表說明](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
 + [自訂日曆](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
 + [資料來源](data-sources.md)
 + [預設量度](default-metrics.md)
@@ -46,6 +46,6 @@ ht-degree: 100%
 + [簡化的報表選單](t-simplified-menu.md)
 + [成功事件總覽](c-success-events/success-event.md)
 + [可選時間戳記](timestamp-optional.md)
-+ [流量變數 (prop) 總覽](c-traffic-variables/traffic-var.md)
++ [流量變數 (prop) 總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 + [指定不重複訪客變數](unique-visitor-variable-admin/t-unique-visitor-variable.md)
 + [影片管理](video-management.md)

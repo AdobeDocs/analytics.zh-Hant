@@ -3,8 +3,8 @@ description: 解釋由歐盟 Cookie 合規性法規推動的伺服器端轉送�
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: ee56267979979f8e03b1c6a0d849ccf994599024
-workflow-type: ht
+source-git-commit: 1e8f2bdb7a20f21f6ff1a4d78d4db20963af6b45
+workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 若要設定此類型報表，請將新的內容變數，透過處理規則對應至自訂流量變數 (prop)。若要這麼做
 
 1. 請實作「cm.ssf」變數 (如上所示)。
-1. [啟用 prop。](/help/admin/admin/c-traffic-variables/traffic-var.md)
+1. [啟用 prop。](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
 1. 使用處理規則將內容變數對應至 prop。
 
    1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝」]**，然後選取報表套裝。

@@ -4,7 +4,7 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: bcfcba4093f051e2d4132fb2c45ab66d76ba192d
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 95%
@@ -64,15 +64,15 @@ Analysis Workspace 中有以下面板類型:
 
 將任何區域從左側邊欄拖放至面板下拉區域，即可開始篩選您的面板。
 
-![](assets/segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
-### 即席段篩選器
+### 臨機群體篩選
 
-還可以將非段元件直接拖動到放置區域中以建立即席段，從而節省了轉至段生成器的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
+您也可以將非區段元件直接拖曳至拖放區域，以建立隨選區段，節省前往「區段產生器」的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
 
-臨時段是項目的本地段，除非將它們公開，否則不會顯示在左欄中。
+臨機區段是專案的本機區段，除非您將其設為公用，否則不會顯示在左側邊欄中。
 
-![](assets/adhoc-segment-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 ### 下拉篩選器 {#dropdown-filter}
 

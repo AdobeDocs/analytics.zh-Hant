@@ -4,8 +4,8 @@ title: 表格分頁、篩選及排序
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 100%
 
@@ -27,4 +27,4 @@ ht-degree: 100%
 * 開始於
 * 終止於
 
-![](assets/advanced-filter.png)
+![](/help/admin/admin/assets/filter.png)

@@ -3,7 +3,7 @@ description: 分類用於將值分組，然後依群組級別匯報。例如，�
 title: 轉換分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 0ec9d6fd44f1f6eb565f8602cc5a2d449556d0ee
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 100%
@@ -40,7 +40,7 @@ ht-degree: 100%
 1. 按一下「**[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**」。
 1. 在&#x200B;****「選取分類類型」下拉式清單中，選取您要新增分類的變數。
 
-   ![步驟資訊](../assets/sub_class_create.png)
+   ![步驟資訊](/help/admin/admin/assets/sub_class_create.png)
 
 1. 將游標移至&#x200B;**[!UICONTROL 編輯分類]**&#x200B;圖示上方，然後選取&#x200B;**[!UICONTROL 「新增分類」]**。
 1. 在&#x200B;****&#x200B;選擇類型欄位中，選取您要新增至變數的分類類型。

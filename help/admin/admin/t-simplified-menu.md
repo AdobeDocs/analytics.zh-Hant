@@ -4,10 +4,9 @@ title: 簡化的報表功能表
 feature: Admin Tools
 uuid: cc7023e4-9e28-477e-9266-6d06e5379559
 exl-id: fa383f68-9858-4d85-972a-a375b24da61a
-translation-type: tm+mt
-source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -18,7 +17,7 @@ ht-degree: 100%
 
 簡化的 Adobe Reports &amp; Analytics 功能表可讓您選擇以套用替代的簡化功能表，在其下會有重組的資料夾。簡化的功能表預設會顯示這些選項：
 
-![](assets/simplified-menu.png)
+![](/help/admin/admin/assets/simplified-menu.png)
 
 >[!NOTE]
 >
@@ -29,6 +28,6 @@ ht-degree: 100%
 1. 前往「**[!UICONTROL 編輯設定]** > **[!UICONTROL 一般]** > **[!UICONTROL 自訂功能表]**」。
 1. 按一下&#x200B;**[!UICONTROL 「還原簡化」]**，實作簡化的功能表結構。
 
-   ![](assets/restore-simplified.png)
+   ![](/help/admin/admin/assets/restore-simplified.png)
 
 1. 若想回復成 (非自訂) 預設功能表，請按一下&#x200B;**[!UICONTROL 「還原預設值」]**。

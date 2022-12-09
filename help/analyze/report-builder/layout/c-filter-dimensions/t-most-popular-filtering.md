@@ -5,9 +5,9 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 1. 建立或編輯請求，然後前往[!UICONTROL 「請求精靈: 步驟 2」]。
 
-   ![步驟資訊](assets/dimension_filter.png)
+   ![步驟資訊](/help/admin/admin/assets/filter.png)
 
 1. 在[!UICONTROL 「請求精靈: 步驟 2」]中，於格線內按一下維度旁的連結，然後選擇&#x200B;**[!UICONTROL 「篩選」]**。
 1. 在[!UICONTROL 「選擇頁面」]表單中啟用&#x200B;**[!UICONTROL 「最受歡迎」]**，然後設定以下選項：

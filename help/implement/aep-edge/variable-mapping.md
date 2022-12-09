@@ -2,8 +2,8 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 | `environment.operatingSystemVersion` | 協助設定[作業系統版本](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#dimensions)維度。 |
 | `_experience.analytics.customDimensions.`<br/>`eVars.eVar1` -<br/>`_experience.analytics.customDimensions.`<br/>`eVars.eVar250` | 設定個別 [eVar](../../components/dimensions/evar.md) 維度。 |
 | `_experience.analytics.customDimensions.`<br/>`hierarchies.hier1` -<br/>`_experience.analytics.customDImensions.`<br/>`hierarchies.hier5` | 設定個別[階層](/help/components/dimensions/hierarchy.md)維度。 |
-| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` - <br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 清單屬性分隔符號覆寫。不建議使用此欄位，因為分隔符號是根據報告套裝設定，從[流量變數管理員](/help/admin/admin/c-traffic-variables/traffic-var.md)自動擷取。使用此欄位可能會造成所使用的分隔符號與 Analytics 預期使用的分隔符號不相符。 |
+| `_experience.analytics.customDimensions.`<br/>`listProps.prop1.delimiter` - <br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.delimiter` | 清單屬性分隔符號覆寫。不建議使用此欄位，因為分隔符號是根據報告套裝設定，從[流量變數管理員](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)自動擷取。使用此欄位可能會造成所使用的分隔符號與 Analytics 預期使用的分隔符號不相符。 |
 | `_experience.analytics.customDimensions.`<br/>`listProps.prop1.values` -<br/>`_experience.analytics.customDimensions.`<br/>`listProps.prop75.values` | 字串陣列含有個別[清單流量變數](../vars/page-vars/prop.md#list-props)值。 |
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value` -<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 將個別 `list[]` 陣列中的所有 `value` 字串都串連到其個別[清單變數](../vars/page-vars/list.md)。分隔符號是根據[報告套裝設定](/help/admin/admin/conversion-var-admin/list-var-admin.md)中設置的值來自動選擇。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1` -<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](../../components/dimensions/prop.md)維度。 |

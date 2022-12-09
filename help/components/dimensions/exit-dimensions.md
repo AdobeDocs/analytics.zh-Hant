@@ -4,8 +4,8 @@ description: 列出退出維度及其使用情形。
 keywords: 退出頁面, 退出網站區域, 退出伺服器, 退出自訂分析
 feature: Dimensions
 exl-id: b2b1ee88-e5c3-44b5-8159-85ec53d20258
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 100%
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 *此說明頁面說明退出作為維度時的運作方式。若要瞭解退出作為量度時的運作方式，請參閱[退出](../metrics/exits.md)量度。*
 
-退出維度會記錄最後一個維度項目，並將其回溯套用至造訪中所有的點擊。報表套裝設定中的[流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用退出維度。
+退出維度會記錄最後一個維度項目，並將其回溯套用至造訪中所有的點擊。報表套裝設定中的[流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)下方所有已啟用路徑分析的變數，都可使用退出維度。
 
 ## 將資料填入退出維度中
 

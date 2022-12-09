@@ -5,9 +5,9 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 在&#x200B;**[!UICONTROL 「熱門篩選]** > **[!UICONTROL 定義篩選」]**&#x200B;面板中的篩選相關資訊。
 
-![](assets/define_filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 下列表格會提供篩選的範例和相關資訊：
 
@@ -88,7 +88,7 @@ ht-degree: 98%
    <td colname="col1"> <p>終止於 </p> </td> 
    <td colname="col02"> <p>傳回以特定值作為結尾的結果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>匹配<span class="term"> wxyz</span>但不匹配<span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>符合 <span class="term"> wxyz</span> 但 <span class="term"> wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>進階 (特殊字元) </p> </td> 
@@ -138,7 +138,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td colname="col1"> - </td> 
-   <td colname="col2"> 否 </td> 
+   <td colname="col2"> Not </td> 
    <td colname="col3"> </td> 
   </tr> 
   <tr> 

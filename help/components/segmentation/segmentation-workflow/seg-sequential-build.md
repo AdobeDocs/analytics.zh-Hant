@@ -3,8 +3,8 @@ description: 循序區段是使用 THEN 運算子所建立，而非 AND 或 OR �
 title: 建立循序區段
 feature: Segmentation
 exl-id: 2ac4e6db-3111-45e5-bedf-7d9b7b1ae352
-source-git-commit: 55c5e6fb790cf9fa49304e8a766f982bccf346b6
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '3827'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 當建立一個區段並設定「包括所有人」，區段會識別整體符合指定模式的路徑。這是基本序列區段尋找同一位造訪者的一個點擊 (頁面 A )然後又一個點擊 (頁面 B) 的例子。這個區段設定為「包括所有人」。
 
-![](assets/sequence-filter.png)
+![](/help/admin/admin/assets/filter.png)
 
 | 如果結果… | 序列 |
 |--- |--- |

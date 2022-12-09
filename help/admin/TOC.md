@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 89d5c1e59e0cf5167eb7858caa0f9090d527a9c4
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -56,7 +56,6 @@ ht-degree: 95%
       + [清單變數](admin/conversion-var-admin/list-var-admin.md)
       + [銷售 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [貨幣代碼](admin/currency.md)
-   + [自訂報表說明](admin/custom-desc-admin.md)
    + [資料來源](admin/data-sources.md)
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
@@ -127,6 +126,11 @@ ht-degree: 95%
                   + [使用內容資料變數設定事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [從點擊中移除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [處理規則提示與秘訣](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+         + 流量變數 {#traffic-variables}
+            + [流量變數 (prop) 總覽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
+            + [啟用流量變數報表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [流量分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
+            + [自訂報表說明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
    + 伺服器端轉送功能 {#server-side-forwarding}
       + [伺服器端轉送總覽](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -140,10 +144,6 @@ ht-degree: 95%
       + [設定成功事件](admin/c-success-events/t-success-events.md)
       + [關於變更事件類型](admin/c-success-events/event-type.md)
    + [可選時間戳記](admin/timestamp-optional.md)
-   + 流量變數 {#traffic-variables}
-      + [流量變數 (prop) 總覽](admin/c-traffic-variables/traffic-var.md)
-      + [啟用流量變數報表](admin/c-traffic-variables/t-traffic-variable.md)
-      + [流量分類](admin/c-traffic-variables/traffic-classifications.md)
    + 不重複訪客變數 {#unique-visitor-variable}
       + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
       + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)

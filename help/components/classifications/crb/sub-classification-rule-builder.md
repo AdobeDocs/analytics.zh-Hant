@@ -3,8 +3,8 @@ description: 您不能結合「分類規則產生器」和子分類。
 title: 子分類和規則產生器
 feature: Classifications
 exl-id: 745d6149-bcb1-48ad-abbe-63a9d009fa27
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
    範例：
 
-   ![步驟資訊](assets/sub_class_create.png)
+   ![步驟資訊](/help/admin/admin/assets/sub_class_create.png)
 
 1. 在[分類規則產生器](/help/components/classifications/crb/classification-rule-builder.md)中，分類來自原始追蹤程式碼的子分類索引鍵。
 
@@ -67,8 +67,8 @@ ht-degree: 100%
 
    | 金鑰 | 管道 | 廣泛促銷活動代碼 | 廣泛促銷活動代碼&amp;Hat;促銷活動類型 | 廣泛促銷活動代碼&amp;Hat;促銷活動主管 | ... |
    |---|---|---|---|---|---|
-   | * |  | 111 | 品牌 | Suzanne |  |
-   | * |  | 222 | 品牌 | Frank |  |
+   | &#42; |  | 111 | 品牌 | Suzanne |  |
+   | &#42; |  | 222 | 品牌 | Frank |  |
 
 1. 若要維護查詢表格，請上傳小型檔案 (如以上所示)。
 

@@ -3,10 +3,10 @@ title: prop
 description: 可在實施中使用的自訂變數。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
-source-git-commit: 5df83f1614d9d17146873a5b5214636691ec87ab
+source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -30,7 +30,7 @@ Prop包括 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定 prop，或依據規則進行設定。
 
-1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用您的AdobeID憑證。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標記屬性。
 3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
@@ -53,7 +53,7 @@ s.prop1 = "Example custom value";
 
 ### 設定清單屬性
 
-在中啟用清單屬性 [流量變數](/help/admin/admin/c-traffic-variables/traffic-var.md) 在報表套裝設定下。 請確認所需的分隔字元已正確設定。Adobe 不提供預設分隔字元。
+在中啟用清單屬性 [流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 在報表套裝設定下。 請確認所需的分隔字元已正確設定。Adobe 不提供預設分隔字元。
 
 >[!TIP]
 >
