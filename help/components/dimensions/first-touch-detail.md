@@ -3,8 +3,8 @@ title: 首次接觸管道詳細資料
 description: 訪客參與有效期內第一個行銷管道的詳細資料。
 feature: Dimensions
 exl-id: a155182d-7bc0-4c7d-9de7-680bfe2d6432
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 100%
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 將資料填入此維度中
 
-此維度會複製其他變數的值。使用的變數會參考每個[行銷管道處理規則](/help/admin/admin/marketing-channels-admin.md)中的管道值。當點擊符合行銷管道處理規則時，[上次接觸管道](last-touch-channel.md)維度就會設為管道名稱，而此維度會設為規則中設定的管道值。
+此維度會複製其他變數的值。使用的變數會參考每個[行銷管道處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)中的管道值。當點擊符合行銷管道處理規則時，[上次接觸管道](last-touch-channel.md)維度就會設為管道名稱，而此維度會設為規則中設定的管道值。
 
 如果您要將此維度設為特定值，則需執行下列步驟：
 

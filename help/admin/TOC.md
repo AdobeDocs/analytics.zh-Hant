@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -53,7 +53,6 @@ ht-degree: 95%
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + [行銷管道](admin/marketing-channels-admin.md)
    + [量度可見度](admin/metric-visibility.md)
    + [應用程式管理](admin/mobile-management.md)
    + [偏好設定管理員](admin/preferences-manager.md)
@@ -138,6 +137,13 @@ ht-degree: 95%
                + [成功事件總覽](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [設定成功事件](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [關於變更事件類型](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
+         + [行銷頻道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + 流量管理 {#traffic-management}
+            + [管理流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
+            + [排程流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [預估以往伺服器呼叫數並計劃流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
+            + [指定永久性流量增加](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [流量增加所需的前置時間](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
    + 伺服器端轉送功能 {#server-side-forwarding}
       + [伺服器端轉送總覽](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [檢視報表套裝使用量](c-server-call-usage/report-suite-usage.md)
    + [伺服器呼叫使用量警報](c-server-call-usage/scu-alerts.md)
    + [伺服器呼叫使用量常見問答](c-server-call-usage/overage-faq.md)
-+ 流量管理 {#traffic-management}
-   + [管理流量](c-traffic-management/traffic-management.md)
-   + [排程流量尖峰](c-traffic-management/t-traffic-schedule-spike.md)
-   + [預估以往伺服器呼叫數並計劃流量尖峰](c-traffic-management/traffic-spike-estimate-past-server-calls.md)
-   + [指定永久性流量增加](c-traffic-management/t-traffic-permanent.md)
-   + [流量增加所需的前置時間](c-traffic-management/traffic-lead-time.md)
 + [管理 API](c-admin-api/c-admin-api.md)
