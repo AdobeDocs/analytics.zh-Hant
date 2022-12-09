@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -17,7 +17,7 @@ ht-degree: 100%
 * **Admin Console：**&#x200B;可以指：
    * 舊版管理員工具，用於管理 Adobe Analytics 中的報表套裝設定。在舊版 Adobe Analytics 中，也需在此處管理使用者權限。請參閱管理員使用手冊中的[管理員工具](/help/admin/admin/c-admin-tools.md)。
    * Adobe Admin Console，可於此佈建產品存取權和管理使用者權限。請參閱管理員使用手冊中的 [Admin Console](/help/admin/admin-console/home.md)。
-* **配置：**&#x200B;如果造訪期間轉換變數遇到多個值，變數的配置設定會決定要保留哪個值。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+* **配置：**&#x200B;如果造訪期間轉換變數遇到多個值，變數的配置設定會決定要保留哪個值。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 * **Analysis Workspace：**&#x200B;用於建立強大、自訂的分析專案，並讓使用者都能自行獲得深入分析的瀏覽器解決方案。 提供優於 Reports and Analytics 的報表靈活性。
 * **異常：**&#x200B;使用統計模型自動尋找資料中意外的趨勢時，可偵測出異常。此模型會分析量度並決定上下界限和值的預期範圍。請參閱分析使用手冊中的[異常偵測](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)。
 * **AppMeasurement：**&#x200B;用來收集資料並傳送至 Adobe 的程式碼庫。請參閱實施作業使用手冊的[首頁](/help/implement/home.md)。
@@ -55,7 +55,7 @@ ht-degree: 100%
 * **eVar：**&#x200B;請見「轉換變數」。
 * **事件**：請見「成功事件」。
 * **ExcelClient：**&#x200B;不再作為詞彙使用。Report Builder 前身的名稱。
-* **有效期限：**&#x200B;在轉換變數的內容中，值在後端持續存在的時間。此持續性可讓事件在事件點擊之前與變數值建立關聯。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)。
+* **有效期限：**&#x200B;在轉換變數的內容中，值在後端持續存在的時間。此持續性可讓事件在事件點擊之前與變數值建立關聯。請參閱管理員使用手冊中的[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)。
 * **流量：** Analysis Workspace 中的視覺效果類型，可顯示使用者在網站上行經的路徑。請參閱分析使用手冊中的[流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)。
 * **Genesis：**&#x200B;不再作為詞彙使用。資料連接器先前的名稱。
 * **全域報表套裝：**&#x200B;為報表套裝指定的非正式詞彙，用於收集來自多個網站的點擊。

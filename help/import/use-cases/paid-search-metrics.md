@@ -2,10 +2,10 @@
 title: 匯入付費搜尋量度
 description: 設定 Adobe Analytics 使用資料來源追蹤您的付費搜尋量度 (例如 Google AdWords、MSN、Yahoo 等) 的步驟。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '1210'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 1. 按&#x200B;**[!UICONTROL 下一步]**，並為您的資料來源命名。 此名稱將出現在資料來源管理員中。
 1. 接受服務合約，然後按&#x200B;**[!UICONTROL 下一步]**。
 1. 選取三個標準量度：[!UICONTROL 曝光數]、[!UICONTROL 點按數]和[!UICONTROL 總成本]，然後按&#x200B;**[!UICONTROL 下一步]**。
-1. 現在將這個新的資料來源「對應」到我們在[設定成功事件](/help/admin/admin/c-success-events/t-success-events.md)中所建立的自訂事件。
+1. 現在，將此新資料來源「對應」至我們在中建立的自訂事件 [設定成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md).
 
    ![對應](assets/data-source-mapping.png)
 

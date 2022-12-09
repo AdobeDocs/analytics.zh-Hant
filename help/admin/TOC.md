@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -48,18 +48,10 @@ ht-degree: 95%
       + [常見的機器人簽名](admin/bot-removal/bot-signatures.md)
       + [排除機器人的方法](admin/bot-removal/bot-exclusion-methods.md)
    + [程式碼管理員](admin/code-manager-admin.md)
-   + 轉換變數 {#conversion-variables}
-      + [轉換變數 (eVar)](admin/conversion-var-admin/conversion-var-admin.md)
-      + [編輯轉換變數](admin/conversion-var-admin/t-conversion-variables-admin.md)
-      + [轉換分類](admin/conversion-var-admin/conversion-classifications.md)
-      + [分類階層](admin/conversion-var-admin/classification-hierarchies.md)
-      + [清單變數](admin/conversion-var-admin/list-var-admin.md)
-      + [銷售 eVar](admin/conversion-var-admin/merchandising-evars.md)
    + [貨幣代碼](admin/currency.md)
    + [資料來源](admin/data-sources.md)
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
-   + [尋找方法](admin/finding-methods.md)
    + [記錄檔](admin/logs.md)
    + [行銷管道](admin/marketing-channels-admin.md)
    + [量度可見度](admin/metric-visibility.md)
@@ -131,6 +123,21 @@ ht-degree: 95%
             + [啟用流量變數報表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [自訂報表說明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+         + 轉換變數 {#conversion-variables}
+            + [轉換變數 (eVar)](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
+            + [編輯轉換變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)
+            + [轉換分類](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
+            + [分類階層](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
+            + [清單變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
+            + [銷售 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
+            + [尋找方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
+            + 不重複訪客變數 {#unique-visitor-variable}
+               + [指定不重複訪客變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
+               + [使用案例 - 擷取訪客 ID](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
+            + 成功事件 {#success-events}
+               + [成功事件總覽](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
+               + [設定成功事件](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
+               + [關於變更事件類型](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
    + 伺服器端轉送功能 {#server-side-forwarding}
       + [伺服器端轉送總覽](admin/c-server-side-forwarding/ssf.md)
       + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
@@ -139,14 +146,7 @@ ht-degree: 95%
       + [如何確認您的伺服器端轉送實作情形](admin/c-server-side-forwarding/ssf-verify.md)
       + [伺服器端轉送常見問答](admin/c-server-side-forwarding/ssf-faq.md)
    + [簡化的報表選單](admin/t-simplified-menu.md)
-   + 成功事件 {#success-events}
-      + [成功事件總覽](admin/c-success-events/success-event.md)
-      + [設定成功事件](admin/c-success-events/t-success-events.md)
-      + [關於變更事件類型](admin/c-success-events/event-type.md)
    + [可選時間戳記](admin/timestamp-optional.md)
-   + 不重複訪客變數 {#unique-visitor-variable}
-      + [指定不重複訪客變數](admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-      + [使用案例 - 擷取訪客 ID](admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
    + [影片管理](admin/video-management.md)
 + 使用者和產品管理 (舊版) {#user-product-management}
    + [使用者和產品管理](user-management2/user-management.md)

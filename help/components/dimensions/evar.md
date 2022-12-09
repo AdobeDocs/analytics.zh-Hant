@@ -3,10 +3,10 @@ title: eVar（維度）
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 96%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 96%
 
 *此說明頁面將說明 eVar 做為維度的運作方式。如需實作 eVar 的相關資訊，請參閱實作使用手冊中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織專屬的大部分維度最終都會變成 [!UICONTROL eVar]。 依預設，eVar 可保存在其設定所在的點擊之外。 您可以在[轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) (位在[!UICONTROL 報表套裝設定]中) 底下自訂其到期日和配置。
+eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織專屬的大部分維度最終都會變成 [!UICONTROL eVar]。 依預設，eVar 可保存在其設定所在的點擊之外。 您可以在[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) (位在[!UICONTROL 報表套裝設定]中) 底下自訂其到期日和配置。
 
 可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
@@ -84,7 +84,7 @@ Analysis Workspace 使用下列邏輯提取此報表：
 * 依預設，eVar 會使用最後一個配置。新值會覆寫持續值。
 * 依預設，eVar 會使用造訪的到期日。造訪結束後，值即停止在 `post_evar` 欄中逐列複製。
 
-您可以在報表套裝設定中的[「轉換變數」](/help/admin/admin/conversion-var-admin/conversion-var-admin.md)下變更 eVar 配置和到期日。
+您可以在報表套裝設定中的[「轉換變數」](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)下變更 eVar 配置和到期日。
 
 ## eVar 優於 Prop 之處
 

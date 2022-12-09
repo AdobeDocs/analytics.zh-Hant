@@ -3,7 +3,7 @@ description: Adobe Analytics 支援單層級與多層級分類模式。分類階
 title: 子分類
 feature: Classifications
 exl-id: 3d22a8c0-743d-47f3-ba15-aaef1ebd4dff
-source-git-commit: 611f20718c0af133f2daf3fe44e8a5b9ea97336b
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '649'
 ht-degree: 100%
@@ -16,7 +16,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 >[!NOTE]
 >
->子分類表示在分類中建立分類的能力。然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](/help/admin/admin/conversion-var-admin/classification-hierarchies.md)。
+>子分類表示在分類中建立分類的能力。然而，它與用來建立[!UICONTROL 階層]報告的[!UICONTROL 分類階層]不同。如需分類階層的詳細資訊，請參閱[分類階層](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)。
 
 例如：
 
@@ -50,7 +50,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 | 代碼 | 屬性1 | Property 1^Property 1-1 | Property 1^Property 1-2 | 屬性 2 |
 |---|---|---|---|---|
 | 123 | ABC | 綠色 | 小 | A12B |
-| 456 | 定義 | 紅色 | 大 | C3D4 |
+| 456 | DEF | 紅色 | 大 | C3D4 |
 
 儘管多級分類的檔案範本更加複雜，但其優勢在於，可以將獨立層級上傳為獨立檔案。該方法可將隨時間變化和不隨時間變化的資料分入不同的分類，從而減少需定期 (每天、每週等) 上傳的資料量。
 
@@ -73,20 +73,20 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 | 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 | CODE^COLOR |
 |---|---|---|---|---|---|---|
 | 410390013 | Polo-SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 | 石板褐 |
-| 410390014 | 波羅 — SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 | 冷色 |
+| 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 | 冷色 |
 | 410390015 | Polo-LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 | 青色 |
 
 ### 產品分類 - 多重檔案 (檔案 1) {#section_A99F7D0F145540069BA4EEC0597FF13F}
 
 | 代碼 | 產品名稱 | 產品詳情 | 性別 | 大小 | 代碼 |
 |---|---|---|---|---|---|
-| 410390013 | 波羅 — SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 |
-| 410390014 | 波羅 — SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 |
-| 410390015 | 波羅 — LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 |
+| 410390013 | Polo-SS | 短袖男性 Polo 衫 (M,01) | M | M | 01 |
+| 410390014 | Polo-SS | 短袖男性 Polo 衫 (L,03) | M | L | 03 |
+| 410390015 | Polo-LS | 長袖女性 Polo 衫 (S,23) | F | S | 23 |
 
 ### 產品分類 - 多重檔案 (檔案 2) {#section_19ED95C33B174A9687E81714568D56A3}
 
-| 代碼 | 代碼 | 代碼^顏色 |
+| 代碼 | 代碼 | CODE^COLOR |
 |---|---|---|
 | &#42; | 01 | 石板褐 |
 | &#42; | 03 | 冷色 |

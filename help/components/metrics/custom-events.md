@@ -3,8 +3,8 @@ title: 自訂事件
 description: 有自訂事件存在的點擊次數。
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## 此量度的計算方式
 
-自訂事件的計算方式依其類型而異。您可以在報表套裝設定中的[成功事件](../../admin/admin/c-success-events/success-event.md)下查看事件的類型。
+自訂事件的計算方式依其類型而異。您可以在報表套裝設定中的[成功事件](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)下查看事件的類型。
 
 * **計數器事件**：預設的事件設定。大部分事件都是計數器事件。計算有相符的自訂事件 `event1` - `event1000` 存在於 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中的點擊次數。
 * **數值事件**：加總為 `events` 變數中的事件指派的數值。

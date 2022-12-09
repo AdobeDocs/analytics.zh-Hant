@@ -3,7 +3,7 @@ title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 96%
@@ -25,14 +25,14 @@ ht-degree: 96%
 
 如果使用者代理程式位在桌上型電腦上，而且未偵測到任何滑鼠動作，則外掛程式可以
 
-* 使用Web SDK或Adobe Analytics分機進行直接呼叫規則調用，或
+* 使用Web SDK或Adobe Analytics擴充功能進行直接呼叫規則呼叫，或
 * 發出連結追蹤呼叫來指示訪客不是機器人。
 
 ## 先決條件
 
 使用此外掛程式之前，Adobe 建議先執行下列動作：
 
-* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將到期時間設定為「**永不過期**」或「**造訪**」，並將配置設定為「**原始值 (優先)**」。 在以下兩個情況下都應該設定此 eVar：在引發[!UICONTROL 直接呼叫]規則或 `s.tl` 呼叫時。
+* **設定 eVar 設定值**：設定報表套裝設定內 [轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) 項下的 eVar。將到期時間設定為「**永不過期**」或「**造訪**」，並將配置設定為「**原始值 (優先)**」。 在以下兩個情況下都應該設定此 eVar：在引發[!UICONTROL 直接呼叫]規則或 `s.tl` 呼叫時。
 * **蒐集個別變數內的代理使用者**：蒐集個別變數內的代理使用者字串，以監視此外掛程式的功效。在每次點擊時，設定一個 eVar 為 `navigator.UserAgent` 用以蒐集此資料。
 
 ## 使用自訂程式碼編輯器安裝外掛程式

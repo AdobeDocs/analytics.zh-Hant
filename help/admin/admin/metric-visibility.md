@@ -3,8 +3,8 @@ description: 您可以隱藏功能表、量度選擇器、計算量度產生器�
 title: 量度可見度
 feature: Admin Tools
 exl-id: 8ff06677-a9fc-4a12-bf8d-8a7ce05db922
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 您可以隱藏功能表、量度選擇器、計算量度產生器及區段產生器中的標準 (內建) 量度、自訂事件及內建事件。
 
-1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 成功事件」]**。[更多...](/help/admin/admin/c-success-events/t-success-events.md)
+1. 導覽至&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 成功事件」]**。[更多...](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
 1. 將「可見性」欄設定為「**[!UICONTROL 隨處可見]**」、「**[!UICONTROL 建立工具]**」或「**[!UICONTROL 隨處隱藏]**」。
 
 此設定不會影響該量度的資料收集作業，只會影響其使用者介面的可見度。以下說明此設定如何影響使用者介面中的量度可見性：
