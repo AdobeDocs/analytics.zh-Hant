@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -87,7 +87,7 @@ ht-degree: 100%
    * 行銷管道處理規則，判斷點擊所屬行銷管道的一組規則。請參閱管理員使用手冊中的[行銷管道處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)。
 * **Prop：**&#x200B;請見「流量變數」。
 * **排名報表：**&#x200B;一種報表格式，通常會依循含有量度的維度。此類型的報表可用於查看排名最前的項目，例如網站上檢視次數最多的頁面。另請見「趨勢報表」。
-* **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報表](/help/admin/admin/realtime/realtime.md)。
+* **即時：**&#x200B;收集到所設定的變數時立即顯示，幾乎沒有或完全沒有延遲。請參閱管理員使用手冊中的[即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 * **Report Builder：** Microsoft Excel 增益集，可讓您從 Adobe Analytics 資料建立自訂請求。
 * **報表套裝：**&#x200B;您所傳送資料的目的地總體容器。Adobe Analytics 中的所有報表都會參照報表套裝。
 * **Reports &amp; Analytics：**&#x200B;先前稱為 SiteCatalyst。 用於報告和分析的瀏覽器解決方案。Analytics 套裝中的入門工具。

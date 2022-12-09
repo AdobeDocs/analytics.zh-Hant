@@ -3,8 +3,8 @@ title: 行銷管道快速入門
 description: 了解行銷管道工作流程、自動設定，以及如何套用範本報表套裝設定至多個報表套裝。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '814'
 ht-degree: 100%
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 ## 行銷管道工作流程
 
-![](assets/step1_icon.png) 根據您的業務需求定義每個管道.
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step1_icon.png) 根據您的業務需求定義每個管道.
 
 定義您使用的管道是行銷管道最重要的組成部分之一。定義管道需要組織中的多人合作。以下是您需要考慮的幾個問題：
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 建議的管道清單位於[常問問題和範例](/help/components/c-marketing-channels/c-faq.md)。先建立您要使用的管道清單，當您建立管道時，進行啟用和定義就會比較輕鬆。
 
-![](assets/step2_icon.png)在[!UICONTROL 行銷管道管理員]頁面上新增行銷管道。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)在[!UICONTROL 行銷管道管理員]頁面上新增行銷管道。
 
 定義好要追蹤的管道後，您可在&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 報表套裝」]**&#x200B;中將其啟用。
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 >
 >如果先前未設定行銷管道，則會顯示[自動設定](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。此設定提供數個預先設定好的行銷管道，供您進行自訂。Adobe 建議您使用這些規則作為範本。不過，如果您已有確定的管道定義，則可跳過自動設定。
 
-![](assets/step3_icon.png)在[!UICONTROL 「行銷管道處理規則」]頁面上設定或調整每個管道的規則。
+![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step3_icon.png)在[!UICONTROL 「行銷管道處理規則」]頁面上設定或調整每個管道的規則。
 
 當您在[!UICONTROL 「行銷頻道管理員」]頁面上建立管道後，接著請設定規則，讓管道可以擷取及報告資料。
 

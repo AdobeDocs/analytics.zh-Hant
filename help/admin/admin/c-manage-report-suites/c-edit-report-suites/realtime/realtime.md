@@ -1,23 +1,26 @@
 ---
 description: 即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
-title: 即時報表概觀
-topic-fix: Reports
+title: 即時報表
 feature: Real-time
-exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+exl-id: 267246ba-617f-4284-aaad-d0ace0f6a8cf
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '569'
 ht-degree: 100%
 
 ---
 
-# 即時報表概觀
+# 即時報表
 
-即時報表會即時顯示網頁流量和排名頁面檢視次數。提供可操作的資料，供您據以進行業務決策。
+即時顯示網頁流量和排名頁面檢視。提供可操作的資料，供您據以進行業務決策。
 
 >[!NOTE]
 >
 >即時報表不需要進行額外的實施作業或標記。它會運用您現有的 Adobe Analytics 實施。若要設定即時報告，請參閱[即時報告設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
+
+以下是影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/25454/?quality=12)
 
 **[!UICONTROL 網站量度]** > **[!UICONTROL 即時]**
 
@@ -43,13 +46,13 @@ ht-degree: 100%
 
 * 舉例來說，可以比較上週的值和去年的值 (以及今日總計)。
 
-請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱[設定即時報表](/help/components/c-real-time-reporting/t-realtime-admin.md)。
+請記住由於沒有持續性的概念，所以不支援 eVar (轉換量度)。當您可以選取轉換量度時，必須將轉換量度設定在維度的相同頁面上，轉換量度才能運作。有關詳細資訊，請參閱[設定即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)。
 
 只有管理員或「完全報告存取」和「進階報告」權限群組中的使用者才能設定和檢視即時報告。不過，即時報告遵守權限。舉例來說，如果您沒有查看收入的權利，您便無法檢視包含收入資料的即時報告。
 
 ## 因為 A4T 設定造成的資料延遲 {#section_806CE36354FC4C539A0DED9266A5C704}
 
-Adobe [!DNL Target] 中的 A4T 整合啟用後，您會在 Adobe Analytics 中遇到 5 至 10 分鐘的額外延遲。增加此延遲可使 Analytics 和 [!DNL Target] 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
+Adobe Target 中的 A4T 整合啟用後，您就會在 Adobe Analytics 中遇到 5 至 10 分鐘的額外延遲。增加此延遲可使 Analytics 和 Target 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
 
 此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報表)，且適用於下列情況：
 

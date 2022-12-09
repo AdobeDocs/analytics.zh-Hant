@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
 workflow-type: tm+mt
 source-wordcount: '3517'
 ht-degree: 100%
@@ -190,7 +190,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 9 月 12 日 | 更新[計算量度總計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hant)文件。 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/technotes/pwa.md)的相關新文章 |
 | 2019 年 8 月 8 日 | 新增[計算量度總計](/help/components/c-calcmetrics/cm-totals.md)文章 |
-| 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/timestamp-optional.md) | 2019 年 8 月 8 日 | 在工作區中，Adobe 將下拉式篩選條件中可放置的項目數上限從 50 個增加到 200 個。 此增強功能適合多種使用案例，例如將所有國家/區域 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
+| 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md) | 2019 年 8 月 8 日 | 在工作區中，Adobe 將下拉式篩選條件中可放置的項目數上限從 50 個增加到 200 個。 此增強功能適合多種使用案例，例如將所有國家/區域 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
 | 2019 年 8 月 2 日 | [Analytics 字彙表](/help/technotes/terms.md)重大更新 |
 | 2019 年 7 月 22 日 | [Analysis Workspace 範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文件新增「Magento：行銷和商務」範本。 |
 | 2019 年 7 月 18 日 | 更新[「同類群組表格」設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |

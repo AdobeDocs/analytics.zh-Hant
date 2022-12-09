@@ -3,10 +3,10 @@ title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 97%
 
 >[!TIP]
 >
->Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](../../admin/admin/privacy-settings.md)。
+>Adobe 另提供隱私權設定給每個報表套裝。請參閱「管理員使用指南」中的[隱私權設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)。
 
 ## 退出 URL
 
 貴組織的退出頁面取決於實作中的 [`trackingServer`](../vars/config-vars/trackingserver.md) 變數值。
 
-* 在分析擴展中：
-   1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+* 在Analytics擴充功能中：
+   1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
    1. 按一下所需的標記屬性。
    1. 按一下「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 下方的「[!UICONTROL 設定]」。
    1. 按一下[!UICONTROL 「一般」]摺疊式功能表，接著記下[!UICONTROL 「追蹤伺服器」]值。

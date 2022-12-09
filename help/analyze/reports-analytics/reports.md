@@ -4,7 +4,7 @@ description: Reports & Analytics 用於每個報表的維度和量度。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '1950'
 ht-degree: 100%
@@ -56,9 +56,9 @@ Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量�
    * 結帳：分析[結帳](/help/components/metrics/checkouts.md)量度在一段時間內的趨勢。
 * 自訂事件：包含與您的實施特有的自訂[事件](/help/components/metrics/custom-events.md)有關的所有報表。
 * 機器人：顯示機器人相關報表。
-   * 機器人：顯示最頻繁造訪您網站的機器人。請參閱「管理員使用指南」中的[機器人規則](../../admin/admin/bot-removal/bot-rules.md)。
+   * 機器人：顯示最頻繁造訪您網站的機器人。請參閱「管理員使用指南」中的[機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)。
    * 機器人頁面：顯示機器人點擊最多次的頁面。
-* 即時：在資料收集後的數秒內顯示特定維度和量度。如需詳細資訊，請參閱[即時報表](/help/components/c-real-time-reporting/realtime.md)。
+* 即時：在資料收集後的數秒內顯示特定維度和量度。如需詳細資訊，請參閱[即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)。
 
 ## 網站內容
 

@@ -4,8 +4,8 @@ solution: Experience Cloud
 title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/admin/c-server-side-forwarding/ssf-faq.md)。
+如需更多此主題的常見問答，請參閱[伺服器端轉送常見問答](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)。
 
 ## 一般常見問答 {#section_E55410BBFB624AAFB87ADCF7F036DDA3}
 

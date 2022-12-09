@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 95%
@@ -39,14 +39,17 @@ ht-degree: 95%
       + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
+   + 使用者和產品管理 (舊版) {#user-product-management}
+      + [使用者和產品管理](admin-console/user-management2/user-management.md)
+      + 將使用者移轉至 Adobe Admin Console {#migrate-users}
+         + [Analytics 使用者移轉至 Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
+         + [移轉 Adobe ID 的 Analytics 使用者帳戶](admin-console/user-management2/user-migration/t-migrate-users.md)
+         + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](admin-console/user-management2/user-migration/migrate-enterprise.md)
+         + [停用舊版登入](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
+         + [受移轉影響的 API](admin-console/user-management2/user-migration/developer.md)
 + Analytics管理員 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
-   + 移除機器人 {#bot-removal}
-      + [移除機器人](admin/bot-removal/bot-removal.md)
-      + [機器人規則總覽](admin/bot-removal/bot-rules.md)
-      + [常見的機器人簽名](admin/bot-removal/bot-signatures.md)
-      + [排除機器人的方法](admin/bot-removal/bot-exclusion-methods.md)
    + [程式碼管理員](admin/code-manager-admin.md)
    + [貨幣代碼](admin/currency.md)
    + [資料來源](admin/data-sources.md)
@@ -54,21 +57,14 @@ ht-degree: 95%
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
    + [量度可見度](admin/metric-visibility.md)
-   + [應用程式管理](admin/mobile-management.md)
    + [偏好設定管理員](admin/preferences-manager.md)
-   + [隱私權設定](admin/privacy-settings.md)
    + [隱私權報告](admin/privacy-reporting.md)
-   + 即時報表 {#real-time-reports}
-      + [即時報表總覽](admin/realtime/realtime.md)
-      + [即時報表設定](admin/realtime/t-realtime-admin.md)
-      + [支援的即時量度和維度](admin/realtime/realtime-metrics.md)
    + [報告活動管理器](admin/reporting-activity.md)
    + [排程報告佇列](admin/scheduled-reports-admin.md)
    + 報表套裝管理器 {#manage-report-suites}
       + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
       + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
       + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [個別報表套裝的設定值](admin/c-manage-report-suites/individual-rs-settings.md)
       + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
       + 新的報表套裝 {#c-new-report-suite}
          + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
@@ -117,6 +113,20 @@ ht-degree: 95%
                   + [使用內容資料變數設定事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-copy-context-data-event.md)
                   + [從點擊中移除事件](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-examples/processing-rules-remove-event.md)
                + [處理規則提示與秘訣](admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules-tips.md)
+            + 移除機器人 {#bot-removal}
+               + [移除機器人](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)
+               + [機器人規則總覽](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
+               + [常見的機器人簽名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
+               + [排除機器人的方法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
+            + [隱私權設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
+            + [可選時間戳記](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + 伺服器端轉送功能 {#server-side-forwarding}
+               + [伺服器端轉送總覽](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
+               + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
+               + [伺服器端轉送需求](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
+               + [伺服器端轉送資料和程式碼參考](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
+               + [如何確認您的伺服器端轉送實作情形](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [伺服器端轉送常見問答](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量變數 {#traffic-variables}
             + [流量變數 (prop) 總覽](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [啟用流量變數報表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -144,24 +154,20 @@ ht-degree: 95%
             + [預估以往伺服器呼叫數並計劃流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-spike-estimate-past-server-calls.md)
             + [指定永久性流量增加](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
             + [流量增加所需的前置時間](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)
-   + 伺服器端轉送功能 {#server-side-forwarding}
-      + [伺服器端轉送總覽](admin/c-server-side-forwarding/ssf.md)
-      + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-server-side-forwarding/ssf-gdpr.md)
-      + [伺服器端轉送需求](admin/c-server-side-forwarding/ssf-requirements.md)
-      + [伺服器端轉送資料和程式碼參考](admin/c-server-side-forwarding/ssf-reference.md)
-      + [如何確認您的伺服器端轉送實作情形](admin/c-server-side-forwarding/ssf-verify.md)
-      + [伺服器端轉送常見問答](admin/c-server-side-forwarding/ssf-faq.md)
+         + [個別報表套裝的設定值](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
+         + [應用程式管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + 即時報表 {#real-time-reports}
+            + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
+            + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
+            + [支援的即時量度和維度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + [簡化的報表選單](admin/t-simplified-menu.md)
-   + [可選時間戳記](admin/timestamp-optional.md)
    + [影片管理](admin/video-management.md)
-+ 使用者和產品管理 (舊版) {#user-product-management}
-   + [使用者和產品管理](user-management2/user-management.md)
-   + 將使用者移轉至 Adobe Admin Console {#migrate-users}
-      + [Analytics 使用者移轉至 Admin Console](user-management2/user-migration/c-migration-tool.md)
-      + [移轉 Adobe ID 的 Analytics 使用者帳戶](user-management2/user-migration/t-migrate-users.md)
-      + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](user-management2/user-migration/migrate-enterprise.md)
-      + [停用舊版登入](user-management2/user-migration/t-disable-legacy-login.md)
-      + [受移轉影響的 API](user-management2/user-migration/developer.md)
+   + 伺服器呼叫使用量 {#server-call-usage}
+      + [伺服器呼叫使用量總覽](admin/c-server-call-usage/overage-overview.md)
+      + [檢視目前伺服器呼叫使用量](admin/c-server-call-usage/server-call-usage-dashboard.md)
+      + [檢視報表套裝使用量](admin/c-server-call-usage/report-suite-usage.md)
+      + [伺服器呼叫使用量警報](admin/c-server-call-usage/scu-alerts.md)
+      + [伺服器呼叫使用量常見問答](admin/c-server-call-usage/overage-faq.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
    + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
@@ -178,10 +184,4 @@ ht-degree: 95%
    + [標記範例](c-data-governance/gdpr-labeling-example.md)
    + [資料隱私權與 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [資料隱私權術語](c-data-governance/gdpr-terminology.md)
-+ 伺服器呼叫使用量 {#server-call-usage}
-   + [伺服器呼叫使用量總覽](c-server-call-usage/overage-overview.md)
-   + [檢視目前伺服器呼叫使用量](c-server-call-usage/server-call-usage-dashboard.md)
-   + [檢視報表套裝使用量](c-server-call-usage/report-suite-usage.md)
-   + [伺服器呼叫使用量警報](c-server-call-usage/scu-alerts.md)
-   + [伺服器呼叫使用量常見問答](c-server-call-usage/overage-faq.md)
 + [管理 API](c-admin-api/c-admin-api.md)

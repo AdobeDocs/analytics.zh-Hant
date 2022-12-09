@@ -4,7 +4,7 @@ subtopic: Processing rules
 title: 處理規則的運作方式
 feature: Processing Rules
 exl-id: 9d2d9f2d-1e16-486f-9191-2c43776374da
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 100%
@@ -39,7 +39,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>系統儲存處理規則後，會將它們立即套用至報表套裝。 </p> </td> 
-   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定<a href="/help/admin/admin/realtime/t-realtime-admin.md">即時報表</a>，方便您快速查看處理規則的結果。 </p> </td> 
+   <td colname="col2"> <p>若變更處理規則，儲存後數分鐘內應會顯示於報表套裝中。測試處理規則時，建議在測試報表套裝中設定<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md">即時報表</a>，方便您快速查看處理規則的結果。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>處理規則是存取內容資料變數的唯一方法。 </p> </td> 

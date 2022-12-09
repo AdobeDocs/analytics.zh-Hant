@@ -3,7 +3,7 @@ description: Analysis Workspace、Reports & Analytics、Report Builder、Data Wa
 title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 94%
@@ -22,8 +22,8 @@ ht-degree: 94%
 | **資料粒度** | 彙總 | 彙總 | 彙總 | 彙總 | 點擊 | 點擊 | 彙總 |
 | **可用 Experience Cloud ID (ECID)** | 否 | 否 | 否 | 是 | 有 | 是 | 否 |
 | **可用時間戳記** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |
-| **處理層級** | 完整處理 | 完整處理，並提供獨立的[即時報表](/help/components/c-real-time-reporting/realtime.md) | 完整處理，並提供獨立的[即時報表](/help/components/c-real-time-reporting/realtime.md) | 完整處理 | 完整處理 | 完整處理 | 完整處理 |
-| **包含管理機器人篩選資料** <br> [了解更多](/help/admin/admin/bot-removal/bot-removal.md) | 否 | 是 - 獨立機器人報表 | 是 - 獨立機器人報表 | 否 | 否 | 否 | 否 |
+| **處理層級** | 完整處理 | 完整處理，並提供獨立的[即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完整處理，並提供獨立的[即時報表](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md) | 完整處理 | 完整處理 | 完整處理 | 完整處理 |
+| **包含管理機器人篩選資料** <br> [了解更多](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md) | 否 | 是 - 獨立機器人報表 | 是 - 獨立機器人報表 | 否 | 否 | 否 | 否 |
 | **低流量 (超出不重複值) 出現** <br> [了解更多](/help/technotes/low-traffic.md) | 有 | 有 | 是 | 否 | 否 | 否 | 是 |
 | **可見列限制 (分頁前)** | 400 | 200 | 50000 | 無限制 | 無限制 | 無限制 | 50000 |
 | **多報表套裝** | [是](/help/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.md) | 是，且具有限制 | 有 | 否 | 是 | 否 | 是 |

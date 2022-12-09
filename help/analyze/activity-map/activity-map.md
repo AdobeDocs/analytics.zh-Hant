@@ -4,8 +4,8 @@ title: 什麼是 Activity Map？
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [連結報表](activitymap-links-report.md)
 * [頁面細節](activitymap-page-flow.md)
 * [完整的量度集](activitymap-complete-metrics.md)
-* [即時頁面分析](activitymap-realtime.md)
+* [即時頁面分析](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
 * [客戶分段](activitymap-multiple-segments.md)
 * [可自訂覆蓋圖](activitymap-gainerslosers.md)
 * [覆蓋圖詳細資料](activitymap-overlay-details.md)

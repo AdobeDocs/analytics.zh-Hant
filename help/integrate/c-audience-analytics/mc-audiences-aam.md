@@ -4,8 +4,8 @@ solution: Experience Cloud
 title: Audience Analytics 概觀
 feature: Audience Analytics
 exl-id: 1665a554-8a6f-4b20-99b7-bb3c2c4bf8cc
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Audience Analytics 整合具有以下主要優點：
 ![](assets/mc-aud-dataflow.png)
 
 1. 每次訪客瀏覽您的數位內容時，系統都會收集點擊數並傳送到 Analytics。
-1. 有了[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，Analytics 收到的每次點擊都會即時自動傳送到 AAM。
+1. 有了[伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，Analytics 收到的每次點擊都會即時自動傳送到 AAM。
 1. 透過 Audience Analytics 整合，系統會針對各個點擊，在 AAM 中查找訪客的對象成員資格，並將區段 ID 清單傳回 Analytics 即時處理。
 
 因為 AAM 區段是按相同的點擊方式插入，故此可以確定 AAM 中關於訪客的任何資料都不會遺漏，且是該點擊的最新狀態。這一點優於 AppMeasurement 外掛程式，因為外掛程式必須等到下次點擊時 (而非目前點擊) 才能提供這些區段。
@@ -49,6 +49,6 @@ Audience Analytics 整合具有以下主要優點：
 * 您是 Audience Manager 管理員。
 * 您使用 Identity Service v1.5 或更新版本。
 * AAM 及 Adobe Analytics 報表套裝會對應至同一個 Experience Cloud 組織。
-* 您使用[伺服器端轉送](/help/admin/admin/c-server-side-forwarding/ssf.md)，並已實施作業[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
+* 您使用[伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)，並已實施作業[對象管理模組](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/audience-management-module.html) (無 DIL 代碼) - AppMeasurement 1.5 或更新版本。
 
 [對象分析工作流程](/help/integrate/c-audience-analytics/c-workflow/audiences-workflow.md)中會說明這些先決條件。

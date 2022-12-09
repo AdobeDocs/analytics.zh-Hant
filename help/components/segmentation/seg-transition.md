@@ -3,8 +3,8 @@ description: 有關分段的常見問答。
 title: 常見問答適用於區段
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+workflow-type: tm+mt
 source-wordcount: '2082'
 ht-degree: 100%
 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 報表套裝下拉式清單已移至到每個報表或儀表板右上角的日期選擇器旁邊。
 
-![報表套裝選擇器](assets/report_suite_selector.png)
+![報表套裝選擇器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
 
 ## 權限 {#section_648DFA3A882146C485A84ED014EEC707}
 

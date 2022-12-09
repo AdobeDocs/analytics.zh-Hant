@@ -4,7 +4,7 @@ keywords: 遺失資料;慢
 title: 資料可用性與延遲
 feature: Data Configuration and Collection
 exl-id: fedef3ea-dde6-460f-90e3-1e661ed29b78
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
+source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 100%
@@ -50,7 +50,7 @@ Adobe Experience Cloud 中的某些功能，除了標準處理時間之外，還
    * 產品變數中有超過 20 個值
    * 事件序列化
 
-* 啟用 IAB 機器人篩選：[機器人篩選](/help/admin/admin/bot-removal/bot-removal.md)可在您的報告套裝頻繁遭到機器人或編目程式侵擾時，大幅減少延遲的情形。建議您使用 IAB 機器人清單，因為這份清單是由 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) 負責更新及維護的。使用者也可自訂本身的機器人規則，與 IAB 提供的清單互補。
+* 啟用 IAB 機器人篩選：[機器人篩選](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-removal.md)可在您的報告套裝頻繁遭到機器人或編目程式侵擾時，大幅減少延遲的情形。建議您使用 IAB 機器人清單，因為這份清單是由 [Interactive Advertising Bureau](https://www.iab.net/about_the_iab) 負責更新及維護的。使用者也可自訂本身的機器人規則，與 IAB 提供的清單互補。
 
 ## 如何處理延遲問題
 

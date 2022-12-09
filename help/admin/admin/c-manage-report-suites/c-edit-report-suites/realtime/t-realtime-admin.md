@@ -1,8 +1,8 @@
 ---
 description: 設定即時報表的管理步驟。
-title: 設定即時報表
+title: 即時報表設定
 feature: Real-time
-exl-id: 9e7fc67c-71d5-465a-9553-5bb7e02a9bfd
+exl-id: e039ed67-3694-40fc-a4d9-3cb576e0535c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
 workflow-type: tm+mt
 source-wordcount: '298'
@@ -10,11 +10,11 @@ ht-degree: 100%
 
 ---
 
-# 設定即時報表
+# 即時報表設定
 
 設定即時報表的管理步驟。
 
-在 [!UICONTROL Reports &amp; Analytics] 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
+在 Reports &amp; Analytics 中設定即時報表，包括選取報表套裝，以及為其選取最多 3 個報表。
 
 1. 選取您要啟用即時報告的報表套裝。
 
@@ -33,13 +33,13 @@ ht-degree: 100%
 1. 開啟&#x200B;**[!UICONTROL 啟用即時]**&#x200B;設定。
 1. 設定最多 3 個報告的即時資料收集，每個報告各一個量度和三個維度或分類。
 
-   ![](assets/real_time_admin.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/real_time_admin.png)
 
    如需深入瞭解支援的即時量度和維度，請參閱[支援的量度和維度](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)。
 
    如果您已定義分類，則會以縮排顯示在其所定義的維度下方：
 
-   ![](assets/classifications.png)
+   ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/classifications.png)
 
    >[!NOTE]
    >
