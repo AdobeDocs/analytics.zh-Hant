@@ -3,10 +3,10 @@ description: 將使用者從舊版 Analytics 使用者管理系統移轉至 Admi
 title: 移轉 Adobe ID 的 Analytics 使用者帳戶
 feature: Admin Tools
 exl-id: 198367a1-8156-4cc3-af8a-d92c61699eda
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 93%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
    </tr> 
    <tr> 
       <td colname="col1"> <p>申請的網域 </p> </td> 
-      <td colname="col2"> <p>若要以 Enterprise 或 Federated ID 移轉使用者，您必須是「系統管理員」，並在移轉使用者前透過 Admin Console 申請可用網域。如需更多詳情，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> <p>如果您不想申請 Enterprise 或 Federated ID 的網域，請跳過此步驟，並以 Adobe ID 移轉使用者。如需有關 ID 類型的詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> </td> 
+      <td colname="col2"> <p>如果您想以Enterprise ID或Federated ID移轉使用者，您必須是系統管理員，並在移轉使用者前透過Adobe Admin Console申請可用網域。 如需更多詳情，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> <p>如果您不想申請 Enterprise 或 Federated ID 的網域，請跳過此步驟，並以 Adobe ID 移轉使用者。如需有關 ID 類型的詳細資訊，請參閱<a href="https://helpx.adobe.com/enterprise/help/identity.html">此處</a>。 </p> </td> 
    </tr> 
    </tbody> 
    </table>

@@ -3,10 +3,10 @@ title: 什麼是 currencyCode 變數以及該如何使用它？
 description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
 workflow-type: tm+mt
-source-wordcount: '955'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 貨幣代碼會透過 Adobe Analytics 擴充功能中的內容資料變數傳遞至 Adobe Experience Platform Mobile SDK。
 
 1. 在 `trackState` 或 `trackAction` 期間，在內容資料變數中設定貨幣代碼。
-1. 在 Adobe Analytics Admin Console 中建立報表套裝的處理規則。設定覆寫貨幣代碼變數的規則。
+1. 在Adobe Analytics管理工具中建立報表套裝的處理規則。 設定覆寫貨幣代碼變數的規則。
 1. 在呼叫 `trackState` 或 `trackAction` 時，將貨幣代碼傳遞至 `products` 變數。
 
 您可以使用預設貨幣代碼或自訂貨幣代碼。如果使用自訂貨幣代碼，請確認代碼有效。
