@@ -3,9 +3,9 @@ description: 「管理工具」中的資料控管對話方塊提供概述，讓�
 title: 檢視/管理報表套裝資料控管設定
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 538d5bcea449ecb868ff9ebcce4ca742f91b4a87
-workflow-type: ht
-source-wordcount: '517'
+source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+workflow-type: tm+mt
+source-wordcount: '520'
 ht-degree: 100%
 
 ---
@@ -33,3 +33,5 @@ ht-degree: 100%
 | **[!UICONTROL 群組]** | 目前尚未執行分組功能。 |
 | 左側側邊列 | 按一下漏斗圖示即可開啟或關閉側邊列。「[!UICONTROL 組織對應]」區段會顯示上述每個類別中的報表套裝數目。「[!UICONTROL 資料保留原則]」區段會顯示貴組織目前制定的每一項資料保留原則，以及指派至該保留原則的報表套裝數目。 |
 | **[!UICONTROL 匯出至 CSV]** | 如果您勾選一個或多個報表套裝旁的核取方塊，「匯出至 CSV」選項便會隨即出現。這個選項可讓您下載 CSV 檔案，檔案會包含所有選取報表套裝中所有變數的全部目前標籤定義。我們建議您與法律團隊商議標籤選擇，而這個選項有助於簡化該審核程序。您可以將 .CSV 檔案分享給他們，而不必在登入資料控管 UI 的情況下執行審核程序。 |
+
+{style=&quot;table-layout:auto&quot;}
