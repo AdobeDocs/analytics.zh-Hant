@@ -3,10 +3,10 @@ description: Adobe Analytics 變數的資料隱私權標籤範例
 title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 196e7672026a284591c0dba2336cb11fc3661c72
+source-git-commit: 3a48eadd47b4d748708abebd2875fdac8979a115
 workflow-type: tm+mt
-source-wordcount: '3672'
-ht-degree: 98%
+source-wordcount: '3685'
+ht-degree: 96%
 
 ---
 
@@ -144,7 +144,9 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | <ul><li>流量變數 (prop)</li><li>商務變數 (非銷售 eVar)</li></ul> | 所有標籤 | - |
 | 大部分其他變數  (*請參閱下表以瞭解例外情況*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
-## 可以指派/修改 ACC-ALL/ACC-PERSON 以外標籤的變數 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
+{style=&quot;table-layout:auto&quot;}
+
+## 可指派/修改ACC-ALL/ACC-PERSON以外標籤的變數 {#section_4FA003003D1B4E2EBCFCDB1A7CD4A824}
 
 <table id="table_0972910DB2D7473588F23EA47988381D"> 
  <thead> 
@@ -213,122 +215,47 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 
 下表說明如何「刪除」不同的變數。這並不是完整的清單。
 
-<table id="table_A329C2E2645F4685BC208826D070A5F6"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 變數 </th> 
-   <th colname="col2" class="entry"> 刪除方法 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>* 流量變數 (prop) </p> <p>* 商務變數 (eVars) </p> </td> 
-   <td colname="col2"> <p>現有值會被新值取代，格式為「Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482」，其中「Data Privacy-」首碼之後的 32 位數十六進位值，為 128 位元強式密碼偽隨機數。由於舊值是以隨機字串取代，故無法由新值反推原始值，亦無法由原始值推導出新值。 </p> <p>對於指定的變數而言，如果同一個資料隱私權請求中被刪除的其他點擊內，也出現相同的值遭到取代，則該值的所有例項都會取代為相同的新值。 </p> <p>若值的部分例項遭刪除請求取代，而隨後有一請求刪除了原始值的其他 (新) 的例項，則新取代的值會不同於原本取代的值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>購買 ID </p> </td> 
-   <td colname="col2"> <p>現有值會被新值取代，格式為「G-7588FCD8642718EC50」，其中「G-」首碼之後的十六進位 18 位數為一組 128 位元強式密碼偽隨機數的前 18 位數。適用於刪除流量變數與商務變數的所有註解，亦可在此套用。 </p> <p>購買 ID 為交易 ID，其主要目的在於確保購買不會遭到重覆扣款，例如有人重新整理其購買確認頁面時。ID 本身可能會將購買項目與您自己的資料庫中記錄購買的資料列加以繫結。大部分情況下不需要刪除此 ID，故預設不會刪除。若您在提出資料隱私權刪除自有資料請求後，購買仍可反向繫結使用者，則您可能需要刪除該欄位，這樣該訪客的 Analytics 資料就無法反向繫結購買者。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>訪客 ID </p> </td> 
-   <td colname="col2"> <p>這個值為 128 位元的整數，並以 128 位元強式密碼偽隨機數值取代。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* MCID </p> <p>* 自訂訪客 ID </p> <p>* IP 位址 </p> <p>* IP 位址 2 </p> </td> 
-   <td colname="col2"> <p>這個值會遭清除 (根據變數類型而設定為空字串或 0)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* ClickMap 動作 (舊版) </p> <p>* ClickMap 內容 (舊版) </p> <p>* 頁面 </p> <p>* 頁面 URL </p> <p>* 原始登入頁面 URL </p> <p>* 反向連結 </p> <p>* 造訪開始頁面 URL </p> </td> 
-   <td colname="col2"> <p>URL 參數會加以清理/移除。若值看起來不像 URL，則會遭到清除 (設為空白字串)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>* 緯度 </p> <p>* 經度 </p> </td> 
-   <td colname="col2"> <p>精準度會降低為 1 公里以上。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 變數 | 刪除方法 |
+| --- | --- |
+| <ul><li>流量變數 (prop)</li><li>商務變數 (eVars)</li></ul> | 現有值會被新值取代，格式為「Data Privacy-356396D55C4F9C7AB3FBB2F2FA223482」，其中「Data Privacy-」首碼之後的 32 位數十六進位值，為 128 位元強式密碼偽隨機數。<p>由於舊值是以隨機字串取代，故無法由新值反推原始值，亦無法由原始值推導出新值。對於指定的變數而言，如果同一個資料隱私權請求中被刪除的其他點擊內，也出現相同的值遭到取代，則該值的所有例項都會取代為相同的新值。<p>若值的部分例項遭刪除請求取代，而隨後有一請求刪除了原始值的其他 (新) 的例項，則新取代的值會不同於原本取代的值。 |
+| 購買 ID | 現有值會被新值取代，格式為「G-7588FCD8642718EC50」，其中「G-」首碼之後的十六進位 18 位數為一組 128 位元強式密碼偽隨機數的前 18 位數。適用於刪除流量變數與商務變數的所有註解，亦可在此套用。<p>購買 ID 為交易 ID，其主要目的在於確保購買不會遭到重覆扣款，例如有人重新整理其購買確認頁面時。ID 本身可能會將購買項目與您自己的資料庫中記錄購買的資料列加以繫結。大部分情況下不需要刪除此 ID，故預設不會刪除。<p>若您在提出資料隱私權刪除自有資料請求後，購買仍可反向繫結使用者，則您可能需要刪除該欄位，這樣該訪客的 Analytics 資料就無法反向繫結購買者。 |
+| 訪客 ID | 這個值為 128 位元的整數，並以 128 位元強式密碼偽隨機數值取代。 |
+| <ul><li>MCID</li><li>自訂訪客 ID</li><li>IP 位址</li><li>IP 位址 2 | 這個值會遭清除 (根據變數類型而設定為空字串或 0)。 |
+| <ul><li>ClickMap 動作 (舊版)</li><li>ClickMap 內容 (舊版)</li><li>頁面</li><li>頁面 URL</li><li>原始登入頁面 URL</li><li>反向連結</li><li>造訪開始頁面 URL</li></ul> | URL 參數會加以清理/移除。若值看起來不像 URL，則會遭到清除 (設為空白字串)。 |
+| <ul><li>緯度</li><li>經度</li></ul> | 精準度會降低為 1 公里以上。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 不支援預期刪除標籤的變數 {#section_956B766EFFEC427E87E6CFF3A4217E86}
 
 本節旨在釐清不支援刪除之 Analytics 變數的相關資訊。有時候，這些變數會遭到非 Analytics 使用者 (例如法務團隊)　刪除，而這些人並不瞭解變數中包含的資料類型，僅根據變數的名稱做出不正確的假設。以下為其中一些變數的清單，以及這些變數不需要刪除，或者為這些變數不需要特定的刪除標籤的原因。
 
-<table id="table_6FECF3D654514862912D371E6BE4143B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 變數 </th> 
-   <th colname="col2" class="entry"> 註解 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>新訪客 ID </p> </td> 
-   <td colname="col2"> <p>新訪客 ID 為我們第一次看到指定的訪客 ID 時為 true 的布林值。訪客 ID 匿名處理後，就不需要刪除該訪客 ID。匿名處理後，就會對應至我們第一次看到的這個匿名 ID。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>郵遞區號 </p> <p>地理郵遞區號 </p> </td> 
-   <td colname="col2"> <p>郵遞區號設定為僅適用於源自美國的點擊，而不適用於來自歐盟的點擊。即使在設定之後，也只能提供廣泛的地理區域，而難以重新識別資料主體。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>地理緯度 </p> <p>地理經度 </p> </td> 
-   <td colname="col2"> <p>這些提供從 IP 位址衍生的粗略位置。其準確度通常與郵政區號類似，在實際位置的數十公里範圍內。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>使用者代理 </p> </td> 
-   <td colname="col2"> <p>使用者代理可辨識所使用的瀏覽器版本。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>使用者 ID </p> </td> 
-   <td colname="col2"> <p> 指定包含資料的 Analytics 報表套裝 (採用號碼形式)。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>報表套裝 ID </p> </td> 
-   <td colname="col2"> <p> 指定包含資料的 Analytics 報表套裝名稱。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>訪客 ID </p> <p>MCID / ECID </p> </td> 
-   <td colname="col2"> <p> 這些具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。如果您指定<a href="/help/admin/c-data-governance/gdpr-id-expansion.md">透過每個請求進行 ID 擴增</a>，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。 </p> <p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報表中的唯一訪客計數都會變更。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>AMO ID </p> </td> 
-   <td colname="col2"> <p> Adobe Advertising Cloud ID 為解決方案變數，具有不可修改的 DEL-DEVICE 標籤。會像訪客 ID 和 MCID 一樣透過 cookie 自動填入資料。只要刪除了這些 ID，就應該會從點擊中刪除資料。如需更多詳細資料，請參閱這些變數的說明。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 變數 | 註解 |
+| --- | --- |
+| 新訪客 ID | 新訪客 ID 為我們第一次看到指定的訪客 ID 時為 true 的布林值。訪客 ID 匿名處理後，就不需要刪除該訪客 ID。匿名處理後，就會對應至我們第一次看到的這個匿名 ID。 |
+| 郵遞區號<p>地理郵遞區號 | 郵遞區號設定為僅適用於源自美國的點擊，而不適用於來自歐盟的點擊。即使在設定之後，也只能提供廣泛的地理區域，而難以重新識別資料主體。 |
+| 地理緯度<p>地理經度 | 這些提供從 IP 位址衍生的粗略位置。其準確度通常與郵政區號類似，在實際位置的數十公里範圍內。 |
+| 使用者代理 | 使用者代理可辨識所使用的瀏覽器版本。 |
+| 使用者 ID | 指定包含資料的 Analytics 報表套裝 (採用號碼形式)。 |
+| 報表套裝 ID | 指定包含資料的 Analytics 報表套裝名稱。 |
+| 訪客 ID<p>MCID / ECID | 這些ID有DEL-DEVICE標籤，但無法新增DEL-PERSON標籤。 如果您指定 [!UICONTROL ID擴增] 若使用每個請求，則所有刪除請求（即使是使用ID-PERSON的請求）的這些ID都會自動刪除。<p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標記 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報表中的唯一訪客計數都會變更。 |
+| AMO ID | Adobe Advertising Cloud ID是解決方案變數，不可修改 [!UICONTROL DEL-DEVICE] 標籤。 會像訪客 ID 和 MCID 一樣透過 cookie 自動填入資料。只要刪除了這些 ID，就應該會從點擊中刪除資料。如需更多詳細資料，請參閱這些變數的說明。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## 存取請求的日期欄位 {#access-requests}
 
 共有五個標準變數包含時間戳記：
 
-<table id="table_49A9255366254F799E1682C30CBD98EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 時間戳記 </th> 
-   <th colname="col2" class="entry"> 定義 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>點擊時間 UTC </p> </td> 
-   <td colname="col2"> <p>Adobe Analytics 收到點擊的時間。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>自定點擊時間 UTC </p> </td> 
-   <td colname="col2"> <p>點擊發生的時間。某些行動應用程式和其他實施的點擊發生時間，可能會早於其接收時間。舉例來說，當點擊發生時若無可用的網路連線，則應用程式會保留點擊，並待有可用的連線時傳入。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>日期時間 </p> </td> 
-   <td colname="col2"> <p>與「自訂點擊時間 UTC」值相同，但採用報表套裝的時區，而非 GMT。</p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>首次點擊時間 GMT </p> </td> 
-   <td colname="col2"> <p>在該次點擊中，收到此訪客 ID 值首次點擊的自訂點擊時間 UTC 值。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>造訪開始時間 UTC </p> </td> 
-   <td colname="col2"> <p>收到此訪客 ID 值當次造訪首次點擊的自訂點擊時間 UTC 值。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 時間戳記 | 定義 |
+| --- | --- |
+| 點擊時間 UTC | Adobe Analytics 收到點擊的時間。 |
+| 自定點擊時間 UTC | 點擊發生的時間。某些行動應用程式和其他實施的點擊發生時間，可能會早於其接收時間。舉例來說，當點擊發生時若無可用的網路連線，則應用程式會保留點擊，並待有可用的連線時傳入。 |
+| 日期時間 | 與「自訂點擊時間 UTC」值相同，但採用報表套裝的時區，而非 GMT。 |
+| 首次點擊時間 GMT | 在該次點擊中，收到此訪客 ID 值首次點擊的自訂點擊時間 UTC 值。 |
+| 造訪開始時間 UTC | 收到此訪客 ID 值當次造訪首次點擊的自訂點擊時間 UTC 值。 |
+
+{style=&quot;table-layout:auto&quot;}
 
 針對按資料隱私權存取請求傳回的檔案，產生這些檔案的程式碼會要求存取請求 (有適用這類要求的 ACC 標籤) 中，須納入前三個時間戳記變數中的其中一個。如未納入任一變數，則自訂點擊時間 UTC 會視同具有 ACC-ALL 標籤。
 
