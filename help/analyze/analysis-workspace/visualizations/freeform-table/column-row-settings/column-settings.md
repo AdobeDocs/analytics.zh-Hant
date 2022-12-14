@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 505995973beb2dab1ac2aa4521210b650e3a6988
-workflow-type: ht
-source-wordcount: '735'
-ht-degree: 100%
+source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,23 @@ ht-degree: 100%
 
 ## 編輯[!UICONTROL 「欄設定」]  {#edit-column-settings}
 
-若要存取[!UICONTROL 「欄設定」]，請拖曳自由表格至專案，接著按一下欄標頭中的齒輪圖示。
+您可以編輯個別欄或同時編輯多欄的欄設定。
 
-![](assets/column_settings.png)
+1. 在Analysis Workspace中，拖曳自由表格至專案。
 
-您可以同時編輯&#x200B;**多欄**&#x200B;的設定。只要選取多個欄，然後在任一欄中按一下設定圖示。您所做的任何變更都會套用在所有欄，以及您在其中選定的儲存格。
+1. （條件性）若要同時編輯多個欄，請在按住Shift鍵的同時選取要編輯的每一欄。
+
+1. 暫留在您要編輯的欄上，然後選取齒輪圖示。
+
+   如果您選取了多個欄，請按一下任何所選欄的齒輪圖示。 您所做的任何變更都會套用至所有選取的欄。
+
+   ![](assets/column_settings.png)
+
+1. 繼續 [欄設定](#column-settings).
+
+## 欄設定
+
+編輯Analysis Workspace中的欄時，可使用下列欄設定：
 
 | 元素 | 說明 |
 | --- | --- |
