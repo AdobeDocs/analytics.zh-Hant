@@ -1,12 +1,12 @@
 ---
 description: Adobe Analysis Workspace 及其相關元件的已知限制清單：
 title: Analysis Workspace 的已知限制
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: ht
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 100%
 
 ---
@@ -56,6 +56,6 @@ ht-degree: 100%
 
 * [!UICONTROL 「報表設定」]頁面上的某些設定並不適用。Analysis Workspace 僅會使用以下幾種位於底部的[!UICONTROL 「語言/貨幣/編碼」]設定：[!UICONTROL 「千位分隔符號」]、[!UICONTROL 「排程報表編碼」]和[!UICONTROL 「CSV 分隔符號字元」]。
 
-## 歸因 IQ
+## Attribution IQ
 
-* 有一組量度子集不受[!UICONTROL 歸因 IQ] 支援。如需完整清單，請參閱[歸因 IQ 常見問答](../attribution/faq.md)。
+* 有一組量度子集不受 [!UICONTROL Attribution IQ] 支援。如需完整清單，請參閱 [Attribution IQ 常見問答](../attribution/faq.md)。
