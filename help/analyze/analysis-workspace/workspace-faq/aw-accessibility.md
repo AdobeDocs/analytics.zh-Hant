@@ -1,12 +1,12 @@
 ---
 description: Analysis Workspace 的協助工具支援功能
 title: Analysis Workspace 的協助工具
-feature: Workspace 基本知識
+feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: ht
-source-wordcount: '657'
+source-wordcount: '655'
 ht-degree: 100%
 
 ---
