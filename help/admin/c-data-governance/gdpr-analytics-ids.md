@@ -40,7 +40,7 @@ ht-degree: 100%
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> ID 類型 </th> 
-   <th colname="col2" class="entry"> 建議 </th> 
+   <th colname="col2" class="entry"> Recommendations </th> 
   </tr> 
  </thead>
  <tbody> 
