@@ -5,9 +5,9 @@ user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
 source-git-commit: 914ebfa7f9cdd55e5d03297c429d652a76430db1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ ht-degree: 95%
 
 + [Analytics 管理員指南](home.md)
 + [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
-+ 開始使用Analytics管理 {#admin-overview}
++ 開始進行 Analytics 管理 {#admin-overview}
    + [我該使用哪種 Adobe Analytics 工具呢？](get-started/which-analytics-tool.md)
    + [Analytics 產品比較和需求](get-started/analytics-product-comparison.md)
-   + [系統要求](get-started/sys-reqs.md)
+   + [系統需求](get-started/sys-reqs.md)
    + 公司設定 {#company-settings}
       + [公司設定總覽](get-started/company/c-company-settings.md)
       + [功能存取層級](get-started/company/feature-access-levels.md)
@@ -30,10 +30,10 @@ ht-degree: 95%
       + [品牌結合](get-started/company/co-branding-admin.md)
       + [隱藏報表套裝](get-started/company/c-hide-report-suites.md)
       + [安全管理員](get-started/company/security-manager.md)
-+ AdobeAdmin Console中的使用者權限 {#admin-console}
++ Adobe Admin Console 中的使用者權限 {#admin-console}
    + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
-   + [Adobe Analytics第一份管理指南](admin-console/first-admin-guide.md)
-   + [Adobe Analytics中的管理員角色](admin-console/admin-roles-in-analytics.md)
+   + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
+   + [Adobe Analytics 中的管理員角色](admin-console/admin-roles-in-analytics.md)
    + 權限 {#permissions}
       + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
@@ -47,7 +47,7 @@ ht-degree: 95%
          + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](admin-console/user-management2/user-migration/migrate-enterprise.md)
          + [停用舊版登入](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](admin-console/user-management2/user-migration/developer.md)
-+ Analytics管理員 {#admin-tools}
++ Analytics 管理員 {#admin-tools}
    + [管理工具](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
    + [程式碼管理員](admin/code-manager-admin.md)
@@ -61,7 +61,7 @@ ht-degree: 95%
    + [隱私權報告](admin/privacy-reporting.md)
    + [報告活動管理器](admin/reporting-activity.md)
    + [排程報告佇列](admin/scheduled-reports-admin.md)
-   + 報表套裝管理器 {#manage-report-suites}
+   + 報表套裝管理員 {#manage-report-suites}
       + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
       + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
       + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
@@ -82,7 +82,7 @@ ht-degree: 95%
          + [工作入口網站](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
          + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
          + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
-      + 編輯報表套裝的設定 {#edit-report-suite}
+      + 編輯報表套裝的設定值 {#edit-report-suite}
          + 一般 {#report-suite-general}
             + [一般帳戶設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [內部 URL 篩選器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
@@ -147,7 +147,7 @@ ht-degree: 95%
                + [成功事件總覽](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
                + [設定成功事件](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/t-success-events.md)
                + [關於變更事件類型](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/event-type.md)
-         + [行銷頻道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + [行銷管道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
          + 流量管理 {#traffic-management}
             + [管理流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [排程流量尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
