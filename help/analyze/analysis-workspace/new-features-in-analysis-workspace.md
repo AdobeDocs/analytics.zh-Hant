@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8277'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -161,7 +161,7 @@ ht-degree: 99%
 
 | 增強功能 | 說明 |
 | --- |--- |
-| 新的立即可用濾鏡 | 新增立即可用的篩選器至左側邊欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、視訊等，讓您能夠輕鬆找到您需要的元件。 |
+| 新的立即可用濾鏡 | 新增立即可用的篩選器至左側邊欄搜尋。除了您今天看到的項目 (維度、量度、已批准等)，新增了新的篩選器，包括計算量度、客戶屬性、eVar、Prop、影片等，讓您能夠輕鬆找到您需要的元件。 |
 
 ## 2019 年 5 月
 
@@ -1051,7 +1051,7 @@ ht-degree: 99%
 2016 年 6 月 16 日發行的新功能：
 
 * [新群組權限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)可讓系統管理員允許或拒絕使用者存取「**[!UICONTROL Analytics]** > **[!UICONTROL Workspace]**」索引標籤。截至 2016 年 6 月 16 日止，所有使用者擁有權限可存取此索引標籤。若要拒絕存取，只需從「Analysis Workspace 存取」群組移除使用者。
-* 行動設定檔案中遺失 [區段比較面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
+* 行動設定檔案中遺失[區段比較面板](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)會透過自動分析您可以存取的每個單一量度和維度，找出任何兩個區段之間在統計上最顯著的差異。
 * [新專案選單結構](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)可重新排列頂端選單使其可延伸性更高。例如，建立「**新增同類群組面板**」現在包含建立「空白面板」及在「同類群組面板」視覺效果中拖曳。
 * [新的左側邊欄](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)：面板、視覺效果、元件
 * 新的 [](/help/analyze/analysis-workspace/visualizations/venn.md)Venn 視覺效果類型，可讓您拖曳至最多 3 個區段及量度，並建立 Venn 圖表。
