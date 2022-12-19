@@ -5,7 +5,7 @@ user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
 source-git-commit: 9960b79ee6dcd98ed9f64af7c0e668c081542bb2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
 ht-degree: 100%
 
@@ -156,7 +156,7 @@ ht-degree: 100%
 + Report Builder {#report-builder}
    + [Adobe Report Builder 說明](report-builder/home.md)
    + Report Builder 設定 {#report-builder-setup}
-      + [系統要求](report-builder/setup/system-requirements.md)
+      + [系統需求](report-builder/setup/system-requirements.md)
       + [安裝 Report Builder](report-builder/setup/t-install-arb.md)
       + [升級 Report Builder](report-builder/setup/upgrade-arb.md)
       + [Report Builder 登入](report-builder/setup/login.md)
