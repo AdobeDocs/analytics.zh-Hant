@@ -4,9 +4,9 @@ title: 網站服務
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
 source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '239'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 88%
 
 在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中，您可以更新權限，以納入那些需要存取網頁服務 API 的使用者。
 
-## WSDL:下載網站服務開發人員的網站服務API WSDL
+## WSDL：下載網站服務開發商的網站服務 API WSDL
 
-瀏覽 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/)，提供與網站服務API相關的檔案、范常式式碼和論壇。 如需詳細資訊，請按一下「網站服務 API 概覽」。
+請前往 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/)，存取與網站服務 API 相關的文件、範例程式碼和論壇。 如需詳細資訊，請按一下「網站服務 API 概覽」。
 
 ## 篩選選項
 
