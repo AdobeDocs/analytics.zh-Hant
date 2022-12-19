@@ -6,15 +6,15 @@ feature: API
 role: Developer
 exl-id: 003a8b83-6ef0-4313-903a-b76078558d55
 source-git-commit: 8f25dfefbc6fba1fb525d2e9e0fce654e21ef362
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '132'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Analytics 報告 API
 
-Adobe AnalyticsAPI的文檔已開啟 [Adobe開發人員](https://developer.adobe.com/analytics-apis/docs/2.0/)。
+Adobe Analytics API 的相關文件位在 [Adobe Developer](https://developer.adobe.com/analytics-apis/docs/2.0/) 上。
 
 ## Analytics API 的比較
 
