@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f80430a4537b17991a0c2cf104df47a053c3792d
+source-git-commit: 69b37e23636848770693a999318d818d3b7443ee
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 91%
+source-wordcount: '1133'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 >[!NOTE]
 >
->從 2023 年 1 月中旬開始，客戶提示將被納入 Analytics 裝置查詢流程。AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 1 月中旬之前不會用於裝置查詢。這是為了避免在關鍵的年終期間對報告的潛在干擾。如下所述，作業系統版本將從 10 月開始凍結，但由於是逐步推出和大多數使用者代理將凍結到正確的作業系統版本，我們估計這將影響不到 3% 的 Chrome 訪客。
+>自2023年1月25日起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 1 月中旬之前不會用於裝置查詢。這是為了避免在關鍵的年終期間對報告的潛在干擾。如下所述，作業系統版本將從 10 月開始凍結，但由於是逐步推出和大多數使用者代理將凍結到正確的作業系統版本，我們估計這將影響不到 3% 的 Chrome 訪客。
 
 >[!NOTE]
 >
@@ -149,6 +149,6 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++**AAM 伺服器端轉送是否支援用戶端提示？**
 
-是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html)，那麼您可能想要啟用高平均資訊量提示收集功能。
+是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++
