@@ -5,10 +5,10 @@ title: 視覺效果概觀
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 244f839235f55b7f8873864ced3d5adc2394b631
-workflow-type: ht
-source-wordcount: '1082'
-ht-degree: 100%
+source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
+workflow-type: tm+mt
+source-wordcount: '1155'
+ht-degree: 91%
 
 ---
 
@@ -43,9 +43,25 @@ Analysis Workspace 中有以下視覺效果類型：
 | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個區段的量度重疊。 |
 
-## 設定 {#settings}
+## 自訂視覺效果設定
 
-每個視覺效果都有各自的設定可供您管理。若要存取[!UICONTROL 視覺效果設定]，請按一下「[!UICONTROL 視覺效果設定]」齒輪圖示。
+您可以針對個別視覺效果或您建立的所有視覺效果自訂視覺效果設定。
+
+### 自訂單一視覺效果的視覺效果設定
+
+若要存取 [!UICONTROL 視覺效果設定] 針對個別視覺效果：
+
+1. 在Analysis Workspace中，將滑鼠移至您要自訂其設定的視覺效果上。
+
+1. 按一下齒輪圖示。
+
+   每種視覺效果類型都有您可自訂的不重複設定。 如需可用設定的詳細資訊，請參閱 [設定](#settings).
+
+### 針對您建立的所有視覺效果自訂視覺效果設定
+
+您可以自訂所有您建立的視覺效果設定。 如需詳細資訊，請參閱 [使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md).
+
+## 設定 {#settings}
 
 ![](assets/settings.png)
 
@@ -78,7 +94,7 @@ Analysis Workspace 中有以下視覺效果類型：
 1. 輸入新的標籤文字。
 1. 按下 **[!UICONTROL Enter]** 以儲存。
 
-## 在功能表上按一下右鍵 {#right-click}
+## 按右鍵選單 {#right-click}
 
 在視覺效果標題按一下右鍵，可以使用視覺效果的其他功能。設定將依視覺效果而異。一些可用設定為：
 
