@@ -3,23 +3,17 @@ description: 了解如何將專案儲存到 Workspace 資料夾中
 keywords: Analysis Workspace
 title: 將專案儲存到資料夾
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '80'
+exl-id: 9719c4f7-85f1-4f12-9ee4-26565a40f0d7
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+workflow-type: tm+mt
+source-wordcount: '70'
 ht-degree: 100%
 
 ---
 
-
 # 將新的專案儲存到資料夾
 
 若要將新專案儲存到特定資料夾，請在「儲存專案」對話視窗中選取資料夾名稱。
-
->[!NOTE]
->
->此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
 
 1. 在 Workspace 中，建立新專案。
 

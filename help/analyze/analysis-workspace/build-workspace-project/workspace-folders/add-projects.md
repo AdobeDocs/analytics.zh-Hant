@@ -3,25 +3,19 @@ description: 如何在 Workspace 中新增資料夾。
 keywords: Analysis Workspace
 title: 在 Workspace 中新增資料夾
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '224'
+exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
+source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+workflow-type: tm+mt
+source-wordcount: '214'
 ht-degree: 100%
 
 ---
-
 
 # 將專案新增至資料夾
 
 您可以在表格檢視中或在資料夾中，將專案新增至資料夾。
 
->[!NOTE]
->
->此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
-
-## 從表格檢視
+## 從表格檢視 {#table-view}
 
 從首頁上的表格檢視，將專案新增至資料夾。
 
@@ -47,7 +41,7 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-folders-updated.png)
 
-## 從資料夾內部
+## 從資料夾內部 {#inside-folder}
 
 您還可以使用省略符號連結在資料夾中新增專案。
 

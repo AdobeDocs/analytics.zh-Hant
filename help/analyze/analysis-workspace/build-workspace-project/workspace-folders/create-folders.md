@@ -3,25 +3,19 @@ description: 了解如何在 Workspace 建立資料夾和子資料夾
 keywords: Analysis Workspace
 title: 建立資料夾
 feature: Workspace Basics
-hide: true
-hidefromtoc: true
-source-git-commit: d05ffcfb3a30204f2a35dd80f25dc5be585579b5
-workflow-type: ht
-source-wordcount: '152'
-ht-degree: 100%
+exl-id: d546b87f-627d-4467-b1b8-36e65134fdcb
+source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
+workflow-type: tm+mt
+source-wordcount: '146'
+ht-degree: 93%
 
 ---
-
 
 # 建立資料夾
 
 您可以在 Workspace 登陸頁面上，將新的資料夾或子資料夾新增至專案和資料夾清單。
 
->[!NOTE]
->
->此功能目前處於 Beta 測試階段。部分畫面可能會有所不同。
-
-## 建立新資料夾
+## 建立新資料夾 {#create-new-folder}
 
 若要建立新資料夾，
 
@@ -29,7 +23,7 @@ ht-degree: 100%
 
 1. 為新資料夾輸入名稱。
 
-1. 在下拉式選單中選取標記。
+1. 從下拉式選單中選取標籤，或新增全新標籤。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-tags.png)
 
@@ -41,7 +35,7 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/create-new-listed.png)
 
-## 建立子資料夾
+## 建立子資料夾 {#create-subfolder}
 
 子資料夾可讓您提供專案管理和組織的額外層級。
 
