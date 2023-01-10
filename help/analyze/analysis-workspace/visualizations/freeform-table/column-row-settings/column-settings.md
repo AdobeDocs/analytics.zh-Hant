@@ -5,10 +5,10 @@ uuid: 151d66da-04f7-4d0f-985c-4fdd92bc1308
 feature: Freeform Tables
 role: User, Admin
 exl-id: 82034838-b015-4ca2-adb6-736f20a478d8
-source-git-commit: 289c611419dd131c5ad529b15df3200ab6b14c12
+source-git-commit: 1ce29a131302e32a6bafd8cfdb21abb65619b359
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 87%
+source-wordcount: '805'
+ht-degree: 84%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 87%
 
 ## 欄設定
 
-編輯Analysis Workspace中的欄時，可使用下列欄設定：
+您可以更新Analysis Workspace中個別表格的下列欄設定，如 [編輯欄設定](#edit-uicontrol-column-settings).
+
+您在Analysis Workspace中建立的所有新專案也可以管理其中某些相同設定，如 [使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)
 
 | 元素 | 說明 |
 | --- | --- |
