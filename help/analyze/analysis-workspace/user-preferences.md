@@ -4,7 +4,7 @@ description: 您可以設定使用者的一般和專案偏好設定，以及深�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 23d2297440e25ab519751d690552c61f6e32133c
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '2507'
 ht-degree: 48%
@@ -43,7 +43,7 @@ ht-degree: 48%
 | --- | --- |
 | 登陸頁面 | 選擇存取Adobe Analytics時顯示為預設頁面的頁面： <ul><li>專案清單 (預設)</li><li>空白專案</li><li>特定專案 (從清單中選取)</li></ul> |
 | 顯示提示 | 在Analysis Workspace右下方的藍色方塊中顯示提示。 <p>預設會啟用此選項。</p> |
-| <span class="preview">左側邊欄群組中顯示的元件</span> | 在左側邊欄的「元件」功能表中，選取每個元件顯示的數量。 <p>如果選擇0，則無法再從工作區的左側邊欄存取元件。</p><p>依預設，會針對下列各項顯示5個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需Analysis Workspace中元件的詳細資訊，請參閱 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
+| 左側邊欄群組中顯示的元件 | 在左側邊欄的「元件」功能表中，選取每個元件顯示的數量。 <p>如果選擇0，則無法再從工作區的左側邊欄存取元件。</p><p>依預設，會針對下列各項顯示5個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需Analysis Workspace中元件的詳細資訊，請參閱 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).</p> |
 
 ## 專案偏好設定
 
@@ -57,7 +57,7 @@ ht-degree: 48%
 | --- | --- | --- |
 | **顯示** |  |  |
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
-|  | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇Analysis Workspace中使用的視覺效果調色盤。 <ul><li>Adobe 提供的調色盤 (預設)</li><li><span class="preview">條件式格式設定調色盤 </span></li><li><span class="preview">上/下浮動視窗（發散）</span><li>自訂界定的調色盤</li></ul> |
+|  | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇Analysis Workspace中使用的視覺效果調色盤。 <ul><li>Adobe 提供的調色盤 (預設)</li><li>條件式格式設定調色盤 </li><li>上/下浮動視窗（發散）<li>自訂界定的調色盤</li></ul> |
 | **資料** |  |  |
 |  | [報表套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定報告套裝</li></ul> |
 |  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
