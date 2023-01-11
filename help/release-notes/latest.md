@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 4ab8df2efb8b3175f93f325e9d88feb9457a566a
+source-git-commit: e4468aa0a34654395fe78e70092df77d8f7011f6
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 90%
+source-wordcount: '1427'
+ht-degree: 60%
 
 ---
 
 # 最新Adobe Analytics發行說明
 
-**上次更新**:2023年1月4日
+**上次更新**:2023年1月6日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,33 +20,27 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **[!UICONTROL 關鍵量度摘要]** 視覺化 | [!UICONTROL 關鍵量度摘要]視覺化可讓您查看一項重要量度在單一時間範圍內的趨勢分析。也能讓您比較兩個時間範圍內的量度成效。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/key-metric.html) | 2022 年 10 月 5 日 | 2023 年 10 月 19 日 |
-| **不區分大小寫的多值變數** | 對於不區分大小寫的多值變數，儲存在資料摘要 `mvvar1 - mvvar3` 和 `post_mvvar1 - post_mvvar3` 中的值將不再自動採用小寫。相反的，資料摘要 (以及透過 Analytics Source Connector 傳遞到 Adobe Experience Platform 和 CJA 的資料) 將反映從頁面傳入的原始大小寫。 | 不適用 | 2022 年 10 月 24 日 |
+| **Workspace 資料夾** | 資料夾可協助您組織和分類專案，以便更妥善地擷取和存取。 此外，共用 **[!UICONTROL 公司]** 資料夾可讓管理員輕鬆建立內容，並與所有工作區使用者共用內容。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 不適用 | 2023年1月11日 |
+| **預設登陸頁面** | 此 [新登陸頁面](/help/analyze/landing.md) 於2022年初推出的體驗，將成為 **2023年1月11日**. 舊版登錄頁面將遭取代，而且每個人都需要使用新體驗。 | 不適用 | 2023年1月11日 |
+| **自動儲存新專案** | Analysis Workspace現在會自動儲存新建立的專案。 如果出於任何原因，在手動保存新建立的項目之前意外丟失了對該項目的訪問權限，則您的項目的恢復版本現在可用。 過去，專案只會在初次手動儲存後自動儲存。 [了解更多](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 不適用 | 2023年1月11日 |
+| **增強的使用者偏好設定** | 您現在可以在使用者層級設定其他偏好設定(在 [!UICONTROL 元件] > [!UICONTROL 偏好設定])。 當您設定使用者偏好設定時，您的選取項目會跨越專案、表格和視覺效果。 「首選項」頁現在包含以下新頁簽，每個頁簽都包含許多新配置選項：<ul><li>自由表格</li><li>視覺效果</li></ul>此外，您現在可以在 **[!UICONTROL 一般]** 和 **[!UICONTROL 專案]** 標籤。<p>以前，其中許多偏好設定只能針對個別專案、表格和視覺效果進行設定。 [了解更多](/help/analyze/analysis-workspace/user-preferences.md) | 不適用 | 2023年1月11日 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Adobe Analytics 中的修正
 
-* 已修正最近 MacOS 版本誤命名為「Macintosh」的問題。透過此修正，作業系統維度將開始使用「MacOS」版本編號，從 MacOS 11 開始。(AN-301834)
-* 已修正 Report Builder 中「固定日期」日期範圍的問題。(AN-303684)
-* 已修正無法載入資料摘要 UI 的問題。(AN-303803、AN-303784)
-
-### 其他修正
-
--295574；AN-296354；AN-297143；AN-299501；AN-301755；AN-302054；AN-302304；AN-302631；AN-302811；AN-303090；AN-303372；AN-；AN-303428；AN-303429；AN-303432；AN-303434；AN-303437；AN-303438；AN-303519；AN-303610；AN-303656；AN-303659；；AN-303663；AN-303664；AN-303818；AN-303823；AN-303837；AN-304036；AN-304195；AN-304321；AN-304325；AN-304339；AN-304356；AN-304435；AN-304457；AN-304509；AN-304519；AN-304534
+AN-282634;AN-289684;AN-299597;AN-299630;AN-300128;AN-301633;AN-301683;AN-301745;AN-302238;AN-302521;AN-302601;AN-303325;AN-303363;AN-303867;AN-304120;AN-304185;AN-304221;AN-304222;AN-304510;AN-304591;AN-304872;AN-305151;AN-305159;AN-305233;AN-305235;AN-305241;AN-305250;AN-305274;AN-305292;AN-305311;AN-305314;AN-305331;AN-305335;AN-305348;AN-305372;AN-305382;AN-305442;AN-305504;AN-305517;AN-305572;AN-305584;AN-305588;AN-305612;AN-305640;AN-305663;AN-305718;AN-305723;AN-305767;AN-305769;AN-305703;AN-305711;AN-305775;AN-305883;AN-305886;AN-305882;AN-305886;AN-305916;AN-305969;AN-305997;AN-306052;AN-306088;AN-306199;AN-306214;AN-306233;AN-306251;AN-306348;AN-306372;AN-306390;AN-306413;AN-306430;AN-306514;AN-306578;AN-306612;AN-306886;AN-306893;AN-306905;AN-306984;AN-306989;AN-307038;AN-307061;AN-307062;AN-307176;AN-307209;AN-307233;AN-307257;AN-307280;AN-307292;AN-307293;AN-307318;AN-307319;AN-307320;AN-307325;AN-307368;AN-307381;AN-307403;AN-307461;AN-307480;AN-307650;AN-307767;AN-307790;AN-307813;AN-307833;AN-307835;AN-307867;AN-307899;AN-307907;AN-307934;AN-307991;AN-308031;AN-308057;AN-308240;AN-308242;AN-308302;AN-308363;AN-308373;AN-308450;AN-308591;AN-308673;AN-308725;AN-309171;
 
 ## 給 Adobe Analytics 管理員的重要通知
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **暫停 Reports &amp; Analytics 中的排程報告** | 2023年1月6日 | 這提醒您，Adobe將在 **2023年1月31日**. 請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>再次強調，這些功能將在 2023 年 1 月 31 日淘汰。在此日期之前，您必須將排程報告遷移至 Adobe Analytics 中任何您可以使用的其他機制之一。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| **暫停 Report Builder 中的排程工作** | 2023年1月6日 | 開啟 **2023年1月31日**,Adobe會在Report Builder中對排程任務進行變更，作為效能和傳送最佳化工作的一部分。 這些變更包括移除讓已排程的傳送「在發生x次後結束」的功能。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。請注意，此選項將於 2023 年 1 月 31 日停止使用。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 | **已改良 IP 對地理位置的對應** | 2023 年 1 月 4 日 | 我們的 IP 查詢供應商 Digital Element 即將升級到新改良的資料集 (NetAcuity Pulse)，以便用於 IP 對地理位置的對應。Adobe Analytics原本預計於2022年10月採用這個新資料集，日期為 **2023年1月11日**. 新資料庫將會比舊版更準確。在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p>所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、報表API、Data Warehouse、LiveStream、Analytics資料摘要等)都會自動運用新的改善對應。 資料摘要中的資料格式不會改變。透過Analytics來源連接器提供的CJA資料會自動運用新對應。 |
 | **新 NetAcuity 電信業者資料庫的更新** | 2023 年 1 月 4 日 | 此項更新原本預計於2022年10月5日進行，現在將於 **2023年1月11日**. 儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe已維護內部查閱表格，以對應這些 `<domain>:<ISP>` 值放入電信業者名稱中，以利在Adobe Analytics報表工具(Analysis Workspace、Reports &amp; Analytics、報表API、Data Warehouse、LiveStream等)中進行報表。 此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。Adobe 採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維持舊的對應，同時加入新的對應。<p>Analytics來源連接器目前未對應電信業者欄位，因此目前無法在Experience Platform、CJA等中使用電信業者報表。 因此，使用新電信業者資料庫將不會影響 Experience Platform 中以 Analytics 來源連接器所提供之資料為依據的任何內容。 |
 | **更新的流量尖峰通知指南** | 2022 年 11 月 18 日 | 以前的指南完全是以點擊量為準。 [新指南](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=zh-Hant)是以報表套裝大小和百分比的增加為準。 |
-| **依據 Google 用戶端提示更新裝置查詢** | 2022 年 10 月 14 日 | 原先計劃於 2022 年 10 月 26 日在裝置查找中使用的用戶端提示已延遲至 **2023 年 1 月**。 <p> <p>自 2022 年 10 月起，即可使用 Web SDK 或 AppMeasurement JavaScript 庫收集用戶端提示。但直到 2023 年 1 月，用戶端提示才會被納入裝置查找中。在那一天，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
-| **預設登陸頁面** | 2022 年 9 月 29 日 | 今年初推出的[新登陸頁面](/help/analyze/landing.md)將在 **2023 年 1 月**&#x200B;成為所有使用者的預設體驗。目前頁面將被淘汰，將要求所有人都使用新體驗。 |
-| **[!UICONTROL 異常偵測] 自動執行條件** | 2022 年 9 月 29 日 | 現在，[!UICONTROL 異常偵測]會在時間序列自由表格的所有欄上自動執行。為確保資料可用於分析且專案可更快地載入，Adobe 將變更異常偵測自動執行的方式。自 **2022 年 10 月 26 日**&#x200B;開始，[!UICONTROL 異常偵測] 將僅在表格的第一個量度欄上自動執行。如果需要，您可以配置欄設定，以對其他欄執行異常偵測。 |
-| **暫停 Reports &amp; Analytics 中的排程報告** | 2022 年 6 月 8 日 | 2022 年 4 月 21 日，Adobe 宣布淘汰排程報告的幾個特定功能，為先前宣布的 Reports &amp; Analytics 生命週期結束做準備。這些功能包括排程新報告以及擷取新資料的能力。<p>為因應客戶要求延長以及簡化從 Reports &amp; Analytics 的轉換作業，Adobe 決定將這些功能的存取權延長到 **2023 年 1 月 31 日**。請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>再次強調，這些功能將在 2023 年 1 月 31 日淘汰。在此日期之前，您必須將排程報告遷移至 Adobe Analytics 中任何您可以使用的其他機制之一。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| **暫停 Report Builder 中的排程工作** | 2022 年 6 月 8 日 | 2022 年 4 月 21 日，Adobe 在我們的效能和傳遞最佳化工作中，對 Report Builder 的排程工作推出變更。這些變更包括移除讓已排程傳遞「在 x 次發生次數後結束」的功能。為因應多位客戶要求更多時間以便探索和實施替代方案，Adobe 決定以有限的方式恢復此選項，直到 **2023 年 1 月 31 日**&#x200B;為止。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。請注意，此選項將於 2023 年 1 月 31 日停止使用。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
+| **依據 Google 用戶端提示更新裝置查詢** | 2023年1月6日 | 設備查找中的客戶端提示的使用將在 **2023年1月25日**. <p> <p>自2022年10月起，可使用Web SDK或AppMeasurement JavaScript程式庫收集用戶端提示。 但直到 2023 年 1 月，用戶端提示才會被納入裝置查找中。屆時，從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)衍生點擊的特定裝置資訊時，Adobe將開始使用除使用者代理以外的用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
