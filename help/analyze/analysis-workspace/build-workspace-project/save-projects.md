@@ -4,7 +4,7 @@ title: 儲存專案
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 598271d12257df2f78128e44ea04f04db8fde811
+source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
 workflow-type: tm+mt
 source-wordcount: '735'
 ht-degree: 39%
@@ -31,8 +31,6 @@ Analysis Workspace中的專案會每2分鐘自動儲存一次。
    | **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
    | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
    | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
-
-   ![](assets/save-project.png)
 
 ## 自動儲存 {#Autosave}
 
