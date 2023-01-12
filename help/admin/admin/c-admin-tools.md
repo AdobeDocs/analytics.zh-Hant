@@ -3,49 +3,39 @@ description: Adobe Analytics 中管理工具的索引。
 title: 管理工具
 feature: Admin Tools
 exl-id: 1f31749f-10ce-4cff-81fb-141b37824c5f
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: 6eadb0b23628b0db59d9cbc6f632bf9cfb3f388c
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 14%
 
 ---
 
 # 管理工具
 
-**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員」]**
+## 了解管理工具
+
+Analytics管理工具區域是管理Adobe Analytics例項的主要區域；這是大多數管理任務可以完成的地方。 Analytics管理的另一個區域(Adobe管理控制台)是用於布建使用者和設定權限。
+
+以下是這兩個領域的劃分：
+
+* **Analytics管理工具**
+
+   使用Analytics管理工具區域來執行所有Adobe Analytics管理工作（使用者布建和權限管理除外）。 常見管理任務的示例包括：建立及管理報表套裝；匯入外部資料來源；排除特定IP位址的資料；等等。
+
+   請參閱頁面左側的內容階層，以跳至Adobe Analytics中可用的任何管理工作。
+
+* **Adobeadmin console**
+
+   使用此工具來布建用戶和修改訪問權限。
+
+   對於所有移轉至Adobe IMS的組織，這些工作會在Adobe管理控制台中執行。 如需詳細資訊，請參閱 [Adobe Analytics第一份管理指南](/help/admin/admin-console/first-admin-guide.md). 如果貴組織尚未移轉至Adobe IMS，請參閱 [Analytics使用者移轉至Adobe Admin Console](/help/admin/admin-console/user-management2/user-migration/c-migration-tool.md).
+
+## 存取管理工具
 
 >[!WARNING]
 >
-> 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。舉例來說，如果您需要比較規則集並將它們複製到新的報表套裝，我們建議您開啟新的瀏覽器或擷取螢幕擷取畫面來比較規則集。
+> 請勿在同個瀏覽器中開啟數個「管理員」標籤。這可能會導致您不慎將設定儲存至錯誤的報表套裝。例如，如果您需要比較規則集並將其複製到新的報表套裝，建議您開啟新瀏覽器或拍攝螢幕擷取畫面來比較規則集。
 
-+ [帳單](billing-admin.md)
-+ [機器人規則總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md)
-+ [程式碼管理員](code-manager-admin.md)
-+ [轉換變數 (eVar)](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
-+ [貨幣代碼](currency.md)
-+ [自訂報表說明](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
-+ [自訂日曆](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
-+ [資料來源](data-sources.md)
-+ [預設量度](default-metrics.md)
-+ [依 IP 位址排除](exclude-ip.md)
-+ [尋找方法](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
-+ [一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
-+ [內部 URL 篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
-+ [記錄檔](logs.md)
-+ [行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
-+ [選單自訂](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)
-+ [量度可見度](metric-visibility.md)
-+ [行動管理](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
-+ [付費搜尋偵測總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
-+ [偏好設定管理員](preferences-manager.md)
-+ [隱私權設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-+ [處理規則總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)
-+ [即時報表總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
-+ [排程報表佇列](scheduled-reports-admin.md)
-+ [伺服器端轉送總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
-+ [簡化的報表選單](t-simplified-menu.md)
-+ [成功事件總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/c-success-events/success-event.md)
-+ [可選時間戳記](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
-+ [流量變數 (prop) 總覽](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-+ [指定不重複訪客變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
-+ [影片管理](video-management.md)
+若要存取管理工具：
+
+1. **[!UICONTROL 「Analytics]** > **[!UICONTROL 管理員」]**
