@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: d65eb9ce1904e66bfb5fdaa801696ba050f99ae7
+source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3644'
 ht-degree: 98%
 
 ---
@@ -234,7 +234,7 @@ ht-degree: 98%
 | **`video`** | 影片內容 | varchar(255) |
 | **`videoad`** | 影片廣告名稱 | varchar(255) |
 | **`videoadinpod`** | Pod 位置中的影片廣告 | varchar(255) |
-| **`videoadlength`** | 影片廣告長度 | varchar(255) |
+| **`videoadlength`** | 影片廣告長度 | 整數 |
 | **`videoadload`** | 影片廣告載入 | varchar(255) |
 | **`videoadname`** | 影片廣告名稱 | varchar(255) |
 | **`videoadplayername`** | 影片廣告播放器名稱 | varchar(255) |
@@ -254,12 +254,13 @@ ht-degree: 98%
 | **`videoepisode`** | 影片集數 | varchar(255) |
 | **`videofeedtype`** | 影片輸出類型 | varchar(255) |
 | **`videogenre`** | 影片類型 | 文字 |
-| **`videolength`** | 影片長度 | varchar(255) |
+| **`videolength`** | 影片長度 | 整數 |
 | **`videomvpd`** | 影片 MVPD | varchar(255) |
 | **`videoname`** | 影片名稱 | varchar(255) |
 | **`videonetwork`** | 影片網路 | varchar(255) |
 | **`videopath`** | 影片路徑 | varchar(100) |
 | **`videoplayername`** | 影片播放器名稱 | varchar(255) |
+| **`videotime`** | 視訊時間 | 整數 |
 | **`videoqoebitrateaverageevar`** | 影片品質平均位元速率 | varchar(255) |
 | **`videoqoebitratechangecountevar`** | 影片品質變更計數 | varchar(255) |
 | **`videoqoebuffercountevar`** | 影片品質緩衝計數 | varchar(255) |
