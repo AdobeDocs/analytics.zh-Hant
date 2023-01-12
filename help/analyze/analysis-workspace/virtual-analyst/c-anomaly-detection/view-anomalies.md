@@ -4,10 +4,10 @@ title: 在 Analysis Workspace 中檢視異常
 feature: Anomaly Detection
 role: User, Admin
 exl-id: 32edc7f4-c9b9-472a-b328-246ea5b54d07
-source-git-commit: 3dcdafa04b2a636ae147b9726aff6a770a4f1a6a
+source-git-commit: bc56f3567d2285d063ef35f316e22699bdcf151d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 15%
+source-wordcount: '467'
+ht-degree: 16%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 15%
 
    此 **虛線** 是確切的預期值。
 
-1. 按一下白點可檢視異常的下列資訊：
+1. 按一下異常（白點）可檢視下列資訊：
 
    * 異常發生的日期
 
