@@ -3,10 +3,10 @@ description: 本頁面列出 Data Connectors (先前稱為 Genesis) 中，可能
 title: 資料隱私權與 Data Connectors (Genesis)
 feature: Privacy
 exl-id: 7f75c1b9-5553-414a-a43a-7b44ecb1c564
-source-git-commit: f6199620033af9c8e304bd0f537d4e0b052ed64d
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+source-git-commit: 6038e38fcbf02877cfb9a34c00c80cd396d181e5
+workflow-type: tm+mt
+source-wordcount: '89'
+ht-degree: 80%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->**自 2021 年 8 月 19 日起**，Adobe 已終止資料連接器整合服務。 終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。您可以透過 Adobe Exchange 取得許多這類整合服務，繼續使用。
+>**自 2021 年 8 月 19 日起**，Adobe 已終止資料連接器整合服務。 終止服務是所有技術產品生命週期的一部分，Adobe 將全力協助客戶和合作夥伴，讓轉換過程盡可能順暢無礙。許多整合可透過 [AdobeExchange](https://exchange.adobe.com/) 可繼續使用。
 
 <!--This page lists all the Partner variables in the Data Connectors (previously known as Genesis) that could potentially contain data subjects' directly identifiable data or indirectly identifiable data.
 
