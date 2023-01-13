@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: f84ba51558dbbe59af496f83d37ed5f2789baf1d
+source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 98%
+source-wordcount: '682'
+ht-degree: 97%
 
 ---
 
@@ -174,14 +174,14 @@ ht-degree: 98%
    + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
    + [常見問答](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
-   + [檢視/管理報表套裝資料控管設定](c-data-governance/gdpr-view-settings.md)
+   + [Analytics元件的資料隱私權標籤](c-data-governance/gdpr-labels.md)
    + [標記報表套裝資料](c-data-governance/gdpr-setup-reportsuite.md)
-   + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
-   + [Analytics 變數的資料隱私權標記](c-data-governance/gdpr-labels.md)
-   + [命名空間](c-data-governance/gdpr-namespaces.md)
-   + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
+   + [檢視/管理報表套裝的隱私權標籤](c-data-governance/gdpr-view-settings.md)
    + [標記最佳做法](c-data-governance/gdpr-analytics-ids.md)
    + [標記範例](c-data-governance/gdpr-labeling-example.md)
+   + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
+   + [命名空間](c-data-governance/gdpr-namespaces.md)
+   + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [資料隱私權與 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
    + [資料隱私權術語](c-data-governance/gdpr-terminology.md)
 + [管理 API](c-admin-api/c-admin-api.md)
