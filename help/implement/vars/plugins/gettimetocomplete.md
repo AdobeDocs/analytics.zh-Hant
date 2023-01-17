@@ -3,10 +3,10 @@ title: getTimeToComplete
 description: 測量完成任務所花費的時間。
 feature: Variables
 exl-id: 90a93480-3812-49d4-96f0-8eaf5a70ce3c
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: 77142b65fe0f88826b8b0df5bba4a4dc1a0dbecf
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
 1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
@@ -62,7 +62,8 @@ function getTimeToComplete(sos,cn,exp,tp){var f=sos,m=cn,l=exp,e=tp;if("-v"===f)
 
 * **`sos`** (選用，字串)：要啟動計時器時請設為 `"start"`。要停止計時器時設為 `"stop"`。預設為 `"start"`。
 * **`cn`** (選用，字串)：儲存開始時間的 Cookie 名稱。預設為 `"s_gttc"`。
-* **`exp`** (選用，整數)：Cookie (和計時器) 到期的天數。預設為 `0`，代表瀏覽器作業階段結束。
+* **`exp`** （選用，整數）:秒、小時或天數(取決於 `tp` 時間分段引數),cookie（和計時器）就會過期。 預設為30分鐘。
+* **`tp`** （選用，字串）:Cookie（和計時器）到期的時間分段字串，與 `exp` 引數。 將設為&quot;d&quot;代表天、&quot;h&quot;代表小時，或將&quot;s&quot;代表秒。 若未設定，無論使用什麼，Cookie（和計時器）到期預設為30分鐘 `exp` 引數已設為。
 
 呼叫此函數會傳回一個字串，其中包含 `"start"` 和 `"stop"` 動作之間所花費的天數、小時數、分鐘數和/或秒數。
 
@@ -80,8 +81,8 @@ if(s.events.indexOf("purchase") > -1) s.prop1 = getTimeToComplete("stop");
 // Stores each timer in their own respective cookies so they run independently
 if(inList(s.events, "scCheckout")) getTimeToComplete("start", "gttcpurchase");
 if(inList(s.events, "purchase")) s.prop1 = getTimeToComplete("start", "gttcpurchase");
-if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7);
-if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7);
+if(inList(s.events, "event1")) getTimeToComplete("start", "gttcregister", 7, "d");
+if(inList(s.events, "event2")) s.prop2 = getTimeToComplete("stop", "gttcregister", 7, "d");
 ```
 
 ## 版本記錄
