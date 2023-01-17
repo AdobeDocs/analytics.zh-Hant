@@ -3,9 +3,9 @@ description: 瞭解如何啟用 Adobe Analytics 中的 Adobe Campaign 報表
 title: 如何將 Adobe Campaign 報表整合至 Adobe Analytics？
 feature: Campaign Integration
 exl-id: 63bae5ee-f94d-43fa-87ce-6380236745d6
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '478'
+source-git-commit: a7537a80719ff149b4d60da500c93d3e451499c9
+workflow-type: tm+mt
+source-wordcount: '475'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ Adobe Analytics 與 Adobe Campaign 之間的整合
 * 使用 Adobe Analytics 參數充實追蹤公式。
 * 在&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表]** > **[!UICONTROL Adobe Campaign」]**&#x200B;下方新增報表。
 * 增加 5 個全新 Adobe Campaign 分類。
-* 增加 10 個全新 Adobe Campaign 量度。
+* 增加 9 個全新 Adobe Campaign 量度。
 * 增加 6 個全新 Adobe Campaign 維度。
 * 每 15 分鐘同步資料至 Analytics。
 
@@ -60,7 +60,6 @@ Adobe Campaign Standard 和 Adobe Analytics 之間的整合會在 **[!UICONTROL 
 * Adobe Campaign 已傳送
 * Adobe Campaign 已打開
 * Adobe Campaign 已點擊
-* Adobe Campaign 已處理
 * Adobe Campaign 已傳送
 * Adobe Campaign 不重複打開
 * Adobe Campaign 不重複點擊
