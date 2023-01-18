@@ -3,8 +3,8 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 100%
 
@@ -23,7 +23,6 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 發行日期：**2022 年 9 月 23 日**
 
 * AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
-
 
 ## 2.22.4 版本
 

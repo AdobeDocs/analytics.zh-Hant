@@ -3,10 +3,10 @@ title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: be00ae15cfcd1afb1ecf225c9dff82e969bb5127
-workflow-type: ht
-source-wordcount: '473'
-ht-degree: 100%
+source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
+workflow-type: tm+mt
+source-wordcount: '409'
+ht-degree: 79%
 
 ---
 
@@ -21,19 +21,18 @@ ht-degree: 100%
 Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adobe 的資料收集伺服器。下列步驟說明典型實作的運作方式。
 
 1. 訪客造訪您的網站時，會對您的網路伺服器送出要求。
-2. 您的網站網路伺服器會傳送頁面代碼資訊，且頁面會顯示於瀏覽器。
-3. 頁面會載入，Analytics JavaScript 程式碼會運作。JavaScript 程式碼會將影像要求傳送至 Adobe 資料收集伺服器。您在實作中定義的頁面資料，會作為此影像要求中查詢字串的一部分傳送。
+2. 您的網站網路伺服器會傳送頁面程式碼資訊，且頁面會顯示於瀏覽器。
+3. 頁面會載入，Analytics JavaScript 程式碼會運作。
+4. JavaScript程式碼會傳送1x1像素影像要求給Adobe資料收集伺服器。 您在實作中定義的頁面資料，會作為此影像要求中查詢字串的一部分傳送。
+5. Adobe的資料收集伺服器會傳回請求的影像。
+6. Adobe伺服器會剖析並儲存報表套裝中收集的資料。
+7. 報表套裝資料會填充在您可於網路瀏覽器取得的報表。
 
-4. Adobe 回報空白像素影像。
-5. Adobe 伺服器會將收集而來的資料儲存在一個或多個&#x200B;*報表套裝*&#x200B;中。
-6. 報表套裝資料會填充在您可於網路瀏覽器取得的報表。
 
-   JavaScript 程式碼會快速開始執行，且對頁面載入時間的影響非常有限。訪客為到達特定頁面而點擊&#x200B;**[!UICONTROL 「重新載入」]**&#x200B;或&#x200B;**[!UICONTROL 「返回」]**&#x200B;時，此方法可讓您計數頁面，因為頁面自快取中擷取時，JavaScript 也可執行。
+Adobe提供數種實作此程式碼的方法，視平台和您組織的需求而定。
 
-Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實作此程式碼的方法有很多種，視平台和您組織的需求而定。
-
-* **Web SDK 擴充功能**：標準化且建議的 Adobe Analytics 實作方法。在 Adobe Experience Platform 資料彙集中安裝 Web SDK 擴充功能，在每一頁面上使用 Loader 標記，並以對您組織方便使用的格式傳送資料給 Adobe Experience Platform Edge。體驗 Edge 以正確格式轉寄傳入資料給 Adobe Analytics。
-* **Web SDK**：如果您不想使用 Adobe Experience Platform 資料彙集，可以手動將 Web SDK 程式庫載入您的網站。在每個頁面上參考 Web SDK 程式庫，並將所需的追蹤呼叫傳送到 Adobe Experience Edge。
+* **Web SDK擴充功能**:目前、標準化且建議的實作Adobe Analytics方法。 在 Adobe Experience Platform 資料彙集中安裝 Web SDK 擴充功能，在每一頁面上使用 Loader 標記，並以對您組織方便使用的格式傳送資料給 Adobe Experience Platform Edge。體驗 Edge 以正確格式轉寄傳入資料給 Adobe Analytics。
+* **Web SDK**:如果您不想使用「標籤」，可以手動載入網站上的Web SDK程式庫。 在每個頁面上參考 Web SDK 程式庫，並將所需的追蹤呼叫傳送到 Adobe Experience Edge。
 * **Adobe Analytics 擴充功能**：在 Adobe Experience Platform 資料彙集中安裝 Adobe Analytics。在每一頁面放置 Loader 標記，並使用 Analytics 擴充功能以決定如何定義每個變數。
 * **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。概述實作中使用的變數和設定，這對使用自訂程式碼規則的實作來說很有用。
 * **行動 SDK**：專用的資料庫，可輕鬆將資料從行動應用程式傳送至 Adobe。
