@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5e6341663eecaa7ebc99155a9eec085a8b7acf1c
+source-git-commit: 0b693521e2daf4909859b37436751bcdc191b097
 workflow-type: tm+mt
-source-wordcount: '3550'
+source-wordcount: '3556'
 ht-degree: 99%
 
 ---
@@ -29,6 +29,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 資料夾 | 專用頁面 [資料夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 使用者偏好設定 | 您現在可在 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). |
 | 自動儲存專案 | 更新內容以在 [儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
+| 登陸頁面 | 新增 [登陸頁面更新](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
