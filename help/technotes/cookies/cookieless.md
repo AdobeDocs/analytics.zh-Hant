@@ -3,10 +3,10 @@ title: 可減輕瀏覽器 Cookie 限制之影響的選項
 description: 了解如何減輕瀏覽器 Cookie 限制之影響，以改良 Adobe Analytics 的資料收集。
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
-source-wordcount: '516'
-ht-degree: 100%
+source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 此文件說明當主要瀏覽器實作預防 Cookie 的追蹤措施時，可跨屬性和解決方案來保留永續性訪客身分識別的選項。
 
-Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 Analytics 也仰賴第三方 Cookie 來了解訪客在網站外的活動，例如在您擁有的其他網域上的活動。 許多瀏覽器都封鎖第三方 Cookie，而隨著 Chrome 即將取消支援 (目前計劃在 2022 年取消)，大部分的第三方 Cookie 將無法使用。 所有瀏覽器都允許使用第一方 Cookie，但在 Apple 的 [ITP 預防追蹤](https://webkit.org/tracking-prevention)措施之下，這類 Cookie 在 Safari 和其他瀏覽器上的期限受到限制。 如需有關瀏覽器 Cookie 的目前限制的詳細資訊，請參閱 [Adobe Analytics 和瀏覽器 Cookie](cookies.md)。
+Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 Analytics 也仰賴第三方 Cookie 來了解訪客在網站外的活動，例如在您擁有的其他網域上的活動。 協力廠商Cookie在許多瀏覽器上皆遭封鎖，且由於Chrome即將移除支援（目前預計於2024年底推出），該功能將無法正常運作。 所有瀏覽器都允許使用第一方 Cookie，但在 Apple 的 [ITP 預防追蹤](https://webkit.org/tracking-prevention)措施之下，這類 Cookie 在 Safari 和其他瀏覽器上的期限受到限制。 如需有關瀏覽器 Cookie 的目前限制的詳細資訊，請參閱 [Adobe Analytics 和瀏覽器 Cookie](cookies.md)。
 
 這些瀏覽器限制反映了更大規模脫離匿名第三方追蹤將會朝向用戶與他們信任的品牌之間的明確資訊分享。 為了支援此行動，Adobe 為客戶提供方法來補充傳統 Cookie，其方式為包含透過其第一方關係所收集的持久性識別碼。
 
@@ -31,6 +31,10 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 伺服器端收集可靈活地提供您自己的識別碼，而不需仰賴瀏覽器機制來設定 Cookie。
 
 您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實作。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html)」。
+
+## 第一方裝置ID(FPID)與Web SDK
+
+透過Adobe Experience Platform Web SDK，您可以選擇設定及管理您自己的裝置識別碼，而非Adobe產生的Experience CloudID(ECID)。 這些稱為第一方裝置ID(FPID)。 如需更多詳情，請參閱[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/first-party-device-ids.html?lang=zh-Hant)。
 
 ## 詳細資訊
 
