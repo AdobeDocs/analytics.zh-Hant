@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 3be2db90220c7e54abf96e47a9ac8658bbd066cc
+source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 79%
+source-wordcount: '3947'
+ht-degree: 74%
 
 ---
 
@@ -87,13 +87,17 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 隨著新登錄頁面的發行，我們不再提供「元件管理員」下方所列的專案管理員。 新的登錄頁面會處理舊「專案管理員」頁面的所有功能，以及更多功能。
 
-「專案管理員」頁面的一個常見使用案例是檢視您的所有專案。 若要使用篩選邊欄在新登陸頁面上檢視所有專案，請選取 **其他篩選** 然後選取 **全部顯示**.
+「專案管理員」頁面的一個常見使用案例是檢視您的所有專案。
 
-![其他篩選](assets/other-filters.png)
+若要使用篩選邊欄在新登陸頁面上檢視所有專案，請選取 **其他篩選** 然後選取 **全部顯示**.
+
+![顯示所有項目](assets/show-all-fIlter.png)
 
 如果您位於「資料夾與專案」檢視中，會出現一個強制回應視窗，詢問您是否要切換至「所有專案」檢視，這可讓您在可能組織的任何資料夾之外，更輕鬆地檢視所有專案。   選擇 **切換至「所有專案」檢視** 以便更好地檢視您有權存取的所有專案。
 
 ![切換至所有專案](assets/switch-all-projects-view.png)
+
+管理員的另一個使用案例是管理公司報表，以便刪除、重新命名、標籤或核准報表。 如需管理報表的相關資訊，請參閱 [管理公司報表](#manage-company-reports).
 
 ## 瀏覽至「[!UICONTROL 報表]」標記。 {#navigate-reports}
 
@@ -188,6 +192,36 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 * 我們建議新使用者觀看[訓練教學課程](https://www.youtube.com/watch?v=lCH1Kl1q9Wk)視頻，以逐步了解如何建立新專案。
 * 以下為[完成 Analysis Workspace 文件](/help/analyze/analysis-workspace/home.md)的連結。
 * 以下是 [Analysis Workspace 的 YouTube 完整播放清單](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
+
+### 管理公司報表 {#manage-company-reports}
+
+管理員可以篩選專案清單以顯示及管理公司報表。 固定項目會保持固定狀態，隨後是由 ![報表圖示](assets/report-icon.png) 報表圖示。 在此檢視中，您可以刪除、重新命名、標籤或核准一或多個報表。
+
+顯示和管理公司報表
+
+1. 在篩選邊欄中，選取 **其他篩選** 然後選取 **公司報表**.
+隨即顯示公司報表清單。 除非已固定，否則不會顯示所有一般專案。
+
+   ![顯示公司報表篩選器](assets/company-reports-filter.png)
+
+   顯示公司報表後，管理員可以刪除、重新命名、新增標籤或核准報表。
+
+1. 在報表清單中，選取單一報表或選取多個報表。
+
+1. 按一下 **...** 報表旁的篩選圖示，以檢視可用選項（刪除、重新命名、標籤和核准）。
+
+   ![公司報表動作](assets/company-reports-actions.png)
+
+1. 選取選項（刪除、重新命名、標籤和核准）。
+
+1. 若要在完成後返回一般檢視，請在篩選邊欄中，再次取消勾選「公司報表」選項。
+
+### 刪除公司報表
+
+管理員可使用公司報表清單選項（如上所述）刪除報表，或從建立專案模組中刪除報表。
+
+![其他篩選](assets/delete-fr-create-project-modal.png)
+
 
 ## 瀏覽「學習」標記。 {#navigate-learning}
 
