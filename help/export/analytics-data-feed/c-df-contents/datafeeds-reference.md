@@ -5,9 +5,9 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 49291658626ac3dc79c16c6f1d7137f0feaa0a95
+source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
 workflow-type: tm+mt
-source-wordcount: '3644'
+source-wordcount: '3641'
 ht-degree: 98%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 98%
 | **`browser_width`** | 瀏覽器視窗的寬度 (像素)。 | 不帶正負號的 smallint |
 | **`c_color`** | 調色盤的位元深度。用於計算[色階](/help/components/dimensions/color-depth.md)維度的一部分。AppMeasurement 使用 JavaScript 函數`screen.colorDepth()`。 | char(20) |
 | **`campaign`** | 用於[追蹤代碼](/help/components/dimensions/tracking-code.md)維度的變數。 | varchar(255) |
-| **`carrier`** | Adobe Advertising Cloud 整合變數。指定行動電信業者。請參考`carrier`查詢表。 | varchar(100) |
+| **`carrier`** | Adobe Advertising 整合變數。指定行動電信業者。請參考`carrier`查詢表。 | varchar(100) |
 | **`ch_hdr`** | 透過 HTTP 請求標頭收集的用戶端提示。 | 文字 |
 | **`ch_js`** | 透過使用者代理用戶端提示 JavaScript API 收集的用戶端提示。 | 文字 |
 | **`channel`** | 用於[網站區段](/help/components/dimensions/site-section.md)維度的變數。 | varchar(100) |
@@ -71,7 +71,7 @@ ht-degree: 98%
 | **`duplicate_events`** | 列出每個計為重複項目的事件。 | varchar(255) |
 | **`duplicate_purchase`** | 此旗標可指出此點擊的購買事件因為重複而被忽略。 | 不帶正負號的 tinyint |
 | **`duplicated_from`** | 僅用於包含點擊複製 VISTA 規則的報告套裝。指出從中複製點擊的報告套裝。 | varchar(40) |
-| **`ef_id`** | `ef_id`用於 Adobe Advertising Cloud 整合。 | varchar(255) |
+| **`ef_id`** | `ef_id`用於 Adobe Advertising 整合。 | varchar(255) |
 | **`evar1 - evar250`** | 自訂變數 1-250。用於[eVar](/help/components/dimensions/evar.md)維度。每個組織使用不同的 eVar。如需關於貴組織如何填入各 eVar 的更多資訊，請參閱貴組織專用的解決方案設計文件。 | varchar(255) |
 | **`event_list`** | 以逗號分隔的數值 ID 清單，代表點擊觸發的事件。包括預設事件和自訂事件 1-1000。使用`event.tsv`查詢。 | 文字 |
 | **`exclude_hit`** | 表示該點擊已從報表中排除的旗標。此`visit_num`欄不會因排除的點擊而遞增。<br>1：未使用。屬於已報廢功能。<br>2：未使用。屬於已報廢功能。<br>3：已不再使用。用戶代理排除<br>4：依據 IP 位址的排除<br>5：遺失重要點擊資訊，例如`page_url`、`pagename`、`page_event`、或者`event_list`<br>6：JavaScript 沒有正確處理點擊<br>7：特定帳戶的排除，例如在 Vista 規則中<br>8：未使用。替代帳戶特定排除。<br>9：未使用。屬於已報廢功能。<br>10：無效的貨幣代碼<br>11：僅時間戳記報告套裝上遺失時間戳記的點擊，或非時間戳記報告套裝上包含時間戳記的點擊<br>12：未使用。屬於已報廢功能。<br>13：未使用。屬於已報廢功能。<br>14：不符合 Analytics 點擊的 Target 點擊<br>15：目前未使用。<br>16：不符合 Analytics 點擊的 Advertising Cloud 點擊 | 不帶正負號的 tinyint |
@@ -184,7 +184,7 @@ ht-degree: 98%
 | **`ref_type`** | 表示點擊的反向連結類型的數值 ID。用於[反向連結類型](/help/components/dimensions/referrer-type.md)維度。<br>1：網站內<br>2：其他網站 <br>3：搜尋引擎 <br>4：硬碟 <br>5：USENET <br>6：分類/建立書籤 (無反向連結) <br>7：電子郵件 <br>8：無 JavaScript <br>9：社交網路 | 不帶正負號的 tinyint |
 | **`referrer`** | 上一頁的頁面 URL。用於[反向連結](/help/components/dimensions/referrer.md)維度。請注意，雖然 `referrer` 使用 varchar(255) 資料類型，但 `post_referrer` 是使用 varchar(244) 資料類型。 | varchar(255) |
 | **`resolution`** | 表示螢幕解析度的數值 ID。用於[螢幕解析度](/help/components/dimensions/monitor-resolution.md)維度。使用`resolution.tsv`查詢表。 | 不帶正負號的 smallint |
-| **`s_kwcid`** | 用於 Adobe Advertising Cloud 整合的關鍵字 ID。 | varchar(255) |
+| **`s_kwcid`** | 用於 Adobe Advertising 整合的關鍵字 ID。 | varchar(255) |
 | **`s_resolution`** | 原始螢幕解析度值。使用 JavaScript 函數`screen.width x screen.height`收集。 | char(20) |
 | **`search_engine`** | 表示將訪客反向連結至您的網站的搜尋引擎數值 ID。使用`search_engines.tsv`查詢。 | 不帶正負號的 smallint |
 | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。指出在用戶點進您的網站之前，網站顯示的搜尋結果頁面。 | 不帶正負號的 smallint |
