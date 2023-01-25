@@ -5,7 +5,7 @@ title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '791'
 ht-degree: 100%
 
@@ -133,8 +133,8 @@ Adobe Analytics 收集下列資料：
   <tr> 
    <td colname="col1"> LON5 </td> 
    <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
-   <td colname="col3"> <p>協作設施 </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>多頻道分析、 </p> <p>Digital Analytics </p> </td> 
+   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
+   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
    <td colname="col5"> SSAE 16 </td> 
   </tr> 
  </tbody> 
