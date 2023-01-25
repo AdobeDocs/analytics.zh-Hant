@@ -24,7 +24,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **預設登陸頁面** | 此 [新登陸頁面](/help/analyze/landing.md) 於2022年初推出的體驗，將成為 **2023年1月11日**. 舊版登錄頁面將遭取代，而且每個人都需要使用新體驗。 | 不適用 | 2023年1月11日 |
 | **已棄用專案管理員頁面** | 隨著新登錄頁面的發行，我們已棄用 **[!UICONTROL 專案經理]** 列於 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 元件]**. 新登錄頁面具有舊「專案管理員」頁面的所有功能，以及更多功能。 了解更多 | 不適用 | 2023年1月11日 |
 | **自動儲存新專案** | Analysis Workspace現在會自動儲存新建立的專案。 如果出於任何原因，在手動保存新建立的項目之前意外丟失了對該項目的訪問權限，則您的項目的恢復版本現在可用。 過去，專案只會在初次手動儲存後自動儲存。 [了解更多](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 不適用 | 2023年1月11日 |
-| **增強的使用者偏好設定** | 您現在可以在使用者層級設定其他偏好設定(在 [!UICONTROL 元件] > [!UICONTROL 偏好設定])。 當您設定使用者偏好設定時，您的選取項目會跨越專案、表格和視覺效果。 「首選項」頁現在包含以下新頁簽，每個頁簽都包含許多新配置選項：<ul><li>自由表格</li><li>視覺效果</li></ul>此外，您現在可以在 **[!UICONTROL 一般]** 和 **[!UICONTROL 專案]** 頁簽。<p>以前，其中許多偏好設定只能針對個別專案、表格和視覺效果進行設定。 [了解更多](/help/analyze/analysis-workspace/user-preferences.md) | 不適用 | 2023年1月11日 |
+| **增強的使用者偏好設定** | 您現在可以在使用者層級設定其他偏好設定(在 [!UICONTROL 元件] > [!UICONTROL 偏好設定])。 當您設定使用者偏好設定時，您的選取項目會跨越專案、表格和視覺效果。 「首選項」頁現在包含以下新頁簽，每個頁簽都包含許多新配置選項：<ul><li>自由表格</li><li>視覺效果</li></ul>此外，您現在可以在 **[!UICONTROL 一般]** 和 **[!UICONTROL 專案]** 標籤。<p>以前，其中許多偏好設定只能針對個別專案、表格和視覺效果進行設定。 [了解更多](/help/analyze/analysis-workspace/user-preferences.md) | 不適用 | 2023年1月11日 |
 
 {style=&quot;table-layout:auto&quot;}
 
