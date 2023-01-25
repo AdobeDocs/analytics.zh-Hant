@@ -4,7 +4,7 @@ description: 在 Adobe Analytics 移除機器人的方式
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '793'
 ht-degree: 100%
 
@@ -50,7 +50,7 @@ ht-degree: 100%
 
 ```return Visitor.getInstance("REPLACE_WITH_YOUR_ECORG_ID@AdobeOrg").getExperienceCloudVisitorID();```
 
-設定這個「資料元素」後，請按照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html)，使用 Adobe Experience Platform 中的標記將已宣告的 ID 傳遞到 ECID 工具中。
+設定這個「資料元素」後，請按照[這些指示](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=zh=Hant)，使用 Adobe Experience Platform 中的標記將已宣告的 ID 傳遞到 ECID 工具中。
 
 ### 步驟 2：使用分段來識別機器人
 
