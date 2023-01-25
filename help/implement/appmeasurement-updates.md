@@ -4,7 +4,7 @@ description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
 source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2319'
 ht-degree: 100%
 
