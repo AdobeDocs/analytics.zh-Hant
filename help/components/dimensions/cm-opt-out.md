@@ -3,7 +3,7 @@ title: 同意管理選擇退出
 description: 查看訪客選擇退出哪些隱私設定。
 exl-id: 2bf4d22c-5b24-47fb-b489-49388fcca5b1
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '254'
 ht-degree: 100%
 
