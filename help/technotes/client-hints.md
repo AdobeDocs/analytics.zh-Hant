@@ -2,7 +2,7 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: cb15ba22fc9817583c6ded8fe12af5a115c1ea43
+source-git-commit: 0364b52a2abc05b57184871616b702507d17205d
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 77%
@@ -21,7 +21,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 >[!NOTE]
 >
->自2023年2月15日起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement和Web SDK目前均支援提示資料的收集，但直到2月中旬，它才會用於裝置查詢。 如以下作業系統版本已於10月起凍結，但由於逐步推出，以及許多使用者代理已提供凍結的作業系統版本（請參閱更多資訊） [此處](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響&lt;3%的Chrome訪客。
+>自2023年2月15日起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement和Web SDK目前均支援提示資料的收集，但要到2月中旬才會用於裝置查詢。 如以下作業系統版本已於10月起凍結，但由於逐步推出，以及許多使用者代理已提供凍結的作業系統版本（請參閱更多資訊） [此處](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響&lt;3%的Chrome訪客。
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 +++**我如何才能啟用用戶端提示的收藏集？**
 
-低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自標籤擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 和 [AppMeaurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html) 的說明。
+低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自標籤擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 和 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html).
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 

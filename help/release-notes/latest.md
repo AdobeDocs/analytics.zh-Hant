@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b6c22fdeab68c55f145ed72002532ed87c06a258
+source-git-commit: a3683ec1697932201593d21b7f5b8f0e304f364e
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 59%
+ht-degree: 58%
 
 ---
 
 # 最新Adobe Analytics發行說明
 
-**上次更新**:2023年1月12日
+**上次更新**:2023年1月25日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -36,12 +36,12 @@ AN-282634;AN-289684;AN-299597;AN-299630;AN-300128;AN-301633;AN-301683;AN-301745;
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2023年1月25日 | 設備查找中的客戶端提示的使用將在 **2023年2月15日**. <p> <p>自2022年10月起，可使用Web SDK或AppMeasurement JavaScript程式庫收集用戶端提示。 但在2023年2月之前，客戶端提示不會納入設備查找。 屆時，從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)衍生點擊的特定裝置資訊時，Adobe將開始使用除使用者代理以外的用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
 | **暫停 Reports &amp; Analytics 中的排程報告** | 2023年1月6日 | 這提醒您，Adobe將在 **2023年1月31日**. 請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>再次強調，這些功能將在 2023 年 1 月 31 日淘汰。在此日期之前，您必須將排程報告遷移至 Adobe Analytics 中任何您可以使用的其他機制之一。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
 | **暫停 Report Builder 中的排程工作** | 2023年1月6日 | 開啟 **2023年1月31日**,Adobe會在Report Builder中對排程任務進行變更，作為效能和傳送最佳化工作的一部分。 這些變更包括移除讓已排程的傳送「在發生x次後結束」的功能。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。請注意，此選項將於 2023 年 1 月 31 日停止使用。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
-| **已改良 IP 對地理位置的對應** | 2023 年 1 月 4 日 | 我們的 IP 查詢供應商 Digital Element 即將升級到新改良的資料集 (NetAcuity Pulse)，以便用於 IP 對地理位置的對應。Adobe Analytics原本預計於2022年10月採用這個新資料集，日期為 **2023年1月11日**. 新資料庫將會比舊版更準確。在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p>所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、報表API、Data Warehouse、LiveStream、Analytics資料摘要等)都會自動運用新的改善對應。 資料摘要中的資料格式不會改變。透過Analytics來源連接器提供的CJA資料會自動運用新對應。 |
-| **新 NetAcuity 電信業者資料庫的更新** | 2023 年 1 月 4 日 | 此項更新原本預計於2022年10月5日進行，現在將於 **2023年1月11日**. 儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe已維護內部查閱表格，以對應這些 `<domain>:<ISP>` 值放入電信業者名稱中，以利在Adobe Analytics報表工具(Analysis Workspace、Reports &amp; Analytics、報表API、Data Warehouse、LiveStream等)中進行報表。 此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。Adobe 採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維持舊的對應，同時加入新的對應。<p>Analytics來源連接器目前未對應電信業者欄位，因此目前無法在Experience Platform、CJA等中使用電信業者報表。 因此，使用新電信業者資料庫將不會影響 Experience Platform 中以 Analytics 來源連接器所提供之資料為依據的任何內容。 |
+| **已改良 IP 對地理位置的對應** | 2023年1月4日 | 我們的 IP 查詢供應商 Digital Element 即將升級到新改良的資料集 (NetAcuity Pulse)，以便用於 IP 對地理位置的對應。Adobe Analytics原本預計於2022年10月採用這個新資料集，日期為 **2023年1月11日**. 新資料庫將會比舊版更準確。在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p>所有Adobe Analytics工具(Analysis Workspace、Reports &amp; Analytics、報表API、Data Warehouse、LiveStream、Analytics資料摘要等)都會自動運用新的改善對應。 資料摘要中的資料格式不會改變。透過Analytics來源連接器提供的CJA資料會自動運用新對應。 |
+| **新 NetAcuity 電信業者資料庫的更新** | 2023年1月4日 | 此項更新原本預計於2022年10月5日進行，現在將於 **2023年1月11日**. 儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe已維護內部查閱表格，以對應這些 `<domain>:<ISP>` 值放入電信業者名稱中，以利在Adobe Analytics報表工具(Analysis Workspace、Reports &amp; Analytics、報表API、Data Warehouse、LiveStream等)中進行報表。 此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。Adobe 採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維持舊的對應，同時加入新的對應。<p>Analytics來源連接器目前未對應電信業者欄位，因此目前無法在Experience Platform、CJA等中使用電信業者報表。 因此，使用新電信業者資料庫將不會影響 Experience Platform 中以 Analytics 來源連接器所提供之資料為依據的任何內容。 |
 | **更新的流量尖峰通知指南** | 2022 年 11 月 18 日 | 以前的指南完全是以點擊量為準。 [新指南](https://experienceleague.adobe.com/docs/analytics/admin/traffic-management/traffic-lead-time.html?lang=zh-Hant)是以報表套裝大小和百分比的增加為準。 |
-| **依據 Google 用戶端提示更新裝置查詢** | 2023年1月6日 | 設備查找中的客戶端提示的使用將在 **2023年1月25日**. <p> <p>自2022年10月起，可使用Web SDK或AppMeasurement JavaScript程式庫收集用戶端提示。 但直到 2023 年 1 月，用戶端提示才會被納入裝置查找中。屆時，從Chromium瀏覽器(例如Google Chrome和Microsoft Edge)衍生點擊的特定裝置資訊時，Adobe將開始使用除使用者代理以外的用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
