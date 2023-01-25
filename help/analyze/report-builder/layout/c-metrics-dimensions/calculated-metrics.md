@@ -5,7 +5,7 @@ feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 
 若要&#x200B;**篩選**&#x200B;計算量度，請按一下「篩選」圖示：![](/help/admin/admin/assets/filter.png)。
 
-. 「進階篩選器」對話方塊會同時填入標準和計算量度。
+「進階篩選器」對話方塊會同時填入標準和計算量度。
 
 可用的篩選條件包括：
 
