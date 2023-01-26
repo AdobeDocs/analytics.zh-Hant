@@ -3,10 +3,10 @@ title: 可減輕瀏覽器 Cookie 限制之影響的選項
 description: 了解如何減輕瀏覽器 Cookie 限制之影響，以改良 Adobe Analytics 的資料收集。
 feature: Data Configuration and Collection
 exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
-source-git-commit: 19fc62470c51bca091342006ff3715ba357e075c
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 88%
+source-wordcount: '566'
+ht-degree: 85%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 伺服器端收集可靈活地提供您自己的識別碼，而不需仰賴瀏覽器機制來設定 Cookie。
 
-您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實作。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/which-analytics-tool.html)」。
+您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實作。 如需這兩個API的比較，請參閱[我該使用哪個Adobe Analytics工具](/help/analyze/get-started/which-analytics-tool.md).&quot;
 
 ## 第一方裝置ID(FPID)與Web SDK
 

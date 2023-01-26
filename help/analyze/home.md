@@ -4,8 +4,8 @@ description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Rep
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
-workflow-type: ht
+source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 * [Adobe Analytics 儀表板 - 概觀](/help/analyze/mobile-app/home.md)
 * [Analysis Workspace 快速入門](analysis-workspace/home.md)
-* [我該使用哪種 Adobe Analytics 工具呢？](/help/admin/get-started/which-analytics-tool.md)
+* [我該使用哪種 Adobe Analytics 工具呢？](/help/analyze/get-started/which-analytics-tool.md)
 * [Report Builder 快速入門](report-builder/home.md)
 * [Activity Map 快速入門](activity-map/activity-map.md)
 
