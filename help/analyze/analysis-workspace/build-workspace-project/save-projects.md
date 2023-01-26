@@ -4,10 +4,10 @@ title: 儲存專案
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 5c37c7173550a080ec64a958344f949cd217b72c
+source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 39%
+source-wordcount: '727'
+ht-degree: 38%
 
 ---
 
@@ -85,10 +85,6 @@ Analysis Workspace中的所有專案會每2分鐘自動儲存至本機電腦。 
 若為從未儲存的&#x200B;**新**&#x200B;專案，未儲存的變更無法復原。
 
 ## 開啟舊版 {#previous-version}
-
->[!NOTE]
->
->先前專案版本目前為限時提供。
 
 若要開啟專案的先前版本：
 
