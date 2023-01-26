@@ -3,8 +3,8 @@ description: 如何在 Adobe Analytics 中提交資料存取與刪除請求。
 title: 提交存取與刪除請求
 feature: Data Governance
 exl-id: bb94cedf-ac9b-4d38-9136-bd3da2acf018
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 請記住：
 
 * 您必須使用自己 Experience Cloud 組織的值，更新「companyContexts」區段中的「5D7236525AA6D9580A495C6C@AdobeOrg」值。
-* 如需「type」和「namespace」欄位的詳細說明，請參閱[命名空間](/help/admin/c-data-governance/gdpr-namespaces.md)一節。
+* 如需「type」和「namespace」欄位的詳細說明，請參閱[命名空間](/help/admin/c-data-governance/data-labeling/gdpr-namespaces.md)一節。
 * 「description」欄位可忽略。
 * 「key」欄位可包含您想要的任何值。如果您有用來追蹤資料隱私權請求的內部 ID，可以將該值放置於此，以便在 Adobe 系統與您自己的系統中比對請求。
 

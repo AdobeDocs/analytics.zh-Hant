@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
+source-git-commit: db87f32341e064343f1f233701ed04011f802d94
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 97%
+source-wordcount: '667'
+ht-degree: 96%
 
 ---
 
@@ -169,19 +169,16 @@ ht-degree: 97%
       + [伺服器呼叫使用量警報](admin/c-server-call-usage/scu-alerts.md)
       + [伺服器呼叫使用量常見問答](admin/c-server-call-usage/overage-faq.md)
 + 資料控管 {#data-governance}
-   + [Adobe Analytics 和 GDPR](c-data-governance/an-gdpr-overview.md)
-   + [Adobe Analytics 和 CCPA](c-data-governance/an-ccpa-overview.md)
-   + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
-   + [常見問答](c-data-governance/gdpr-faq.md)
    + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
-   + [Analytics元件的資料隱私權標籤](c-data-governance/gdpr-labels.md)
-   + [標記報表套裝資料](c-data-governance/gdpr-setup-reportsuite.md)
-   + [檢視/管理報表套裝的隱私權標籤](c-data-governance/gdpr-view-settings.md)
-   + [標記最佳做法](c-data-governance/gdpr-analytics-ids.md)
-   + [標記範例](c-data-governance/gdpr-labeling-example.md)
+   + [常見問題集](c-data-governance/gdpr-faq.md)
+   + 資料標籤 {#data-labels}
+      + [Analytics元件的資料隱私權標籤](c-data-governance/data-labeling/gdpr-labels.md)
+      + [標記報表套裝資料](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
+      + [檢視/管理報表套裝的隱私權標籤](c-data-governance/data-labeling/gdpr-view-settings.md)
+      + [標記最佳做法](c-data-governance/data-labeling/gdpr-analytics-ids.md)
+      + [標記範例](c-data-governance/data-labeling/gdpr-labeling-example.md)
+      + [命名空間](c-data-governance/data-labeling/gdpr-namespaces.md)
    + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
-   + [命名空間](c-data-governance/gdpr-namespaces.md)
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
-   + [資料隱私權與 Data Connectors (Genesis)](c-data-governance/data-connectors-gdpr.md)
-   + [資料隱私權術語](c-data-governance/gdpr-terminology.md)
+   + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
