@@ -4,7 +4,7 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 1c42cbec42d97ce3aa33bd5446b0fe59eaaa3caf
+source-git-commit: b837acae8d918b2b7c6367c7b0d9826f811854b1
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 97%
@@ -20,16 +20,6 @@ ht-degree: 97%
    + [我該使用哪種 Adobe Analytics 工具呢？](get-started/which-analytics-tool.md)
    + [Analytics 產品比較和需求](get-started/analytics-product-comparison.md)
    + [系統需求](get-started/sys-reqs.md)
-   + 公司設定 {#company-settings}
-      + [公司設定總覽](get-started/company/c-company-settings.md)
-      + [功能存取層級](get-started/company/feature-access-levels.md)
-      + [網路服務](get-started/company/web-services-admin.md)
-      + [Report Builder 報表](get-started/company/report-builder-reports-admin.md)
-      + [單一登入](get-started/company/single-signon-admin.md)
-      + [待定動作](get-started/company/pending-actions-admin.md)
-      + [品牌結合](get-started/company/co-branding-admin.md)
-      + [隱藏報表套裝](get-started/company/c-hide-report-suites.md)
-      + [安全管理員](get-started/company/security-manager.md)
 + Adobe Admin Console 中的使用者權限 {#admin-console}
    + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
@@ -160,6 +150,16 @@ ht-degree: 97%
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [支援的即時量度和維度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+   + 公司設定 {#company-settings}
+      + [公司設定總覽](admin/company/c-company-settings.md)
+      + [功能存取層級](admin/company/feature-access-levels.md)
+      + [網路服務](admin/company/web-services-admin.md)
+      + [Report Builder 報表](admin/company/report-builder-reports-admin.md)
+      + [單一登入](admin/company/single-signon-admin.md)
+      + [待定動作](admin/company/pending-actions-admin.md)
+      + [品牌結合](admin/company/co-branding-admin.md)
+      + [隱藏報表套裝](admin/company/c-hide-report-suites.md)
+      + [安全管理員](admin/company/security-manager.md)
    + [簡化的報表選單](admin/t-simplified-menu.md)
    + [影片管理](admin/video-management.md)
    + 伺服器呼叫使用量 {#server-call-usage}

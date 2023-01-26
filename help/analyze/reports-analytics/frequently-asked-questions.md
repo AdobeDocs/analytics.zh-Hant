@@ -5,7 +5,7 @@ title: Reports & Analytics 的常見問題集
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 99702728-971f-484a-91f5-f3210b89485c
-source-git-commit: 0017a6657e4de6206cf97dc6cf6f2b132b50b50f
+source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Apple 裝置會在使用者代理程式字串中顯示其韌體版本，而非�
 +++
 
 +++我可以刪除報表套裝嗎？
-您無法刪除報表套裝。不過，您可以在 Adobe Analytics 的所有檢視中隱藏報表套裝。請注意，傳送至隱藏報表套裝的伺服器呼叫，仍會計入您每月的合約上限。如需詳細資訊，請參閱「管理員」使用手冊中的[隱藏報表套裝](/help/admin/get-started/company/c-hide-report-suites.md)。
+您無法刪除報表套裝。不過，您可以在 Adobe Analytics 的所有檢視中隱藏報表套裝。請注意，傳送至隱藏報表套裝的伺服器呼叫，仍會計入您每月的合約上限。如需詳細資訊，請參閱「管理員」使用手冊中的[隱藏報表套裝](/help/admin/admin/company/c-hide-report-suites.md)。
 +++
 
 +++使用區段時，應使用哪個容器？頁面檢視、瀏覽，還是訪客？
