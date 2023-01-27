@@ -3,16 +3,16 @@ description: 顯示如何為點擊資料、存取請求、刪除請求的資料�
 title: 加上標籤範例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
-source-git-commit: b0716d9a4ea51dc0e1e6fc024f3de6b01a9ccfd8
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 加上標籤範例
 
-## 範例點擊資料
+## 點擊資料範例 {#hit}
 
 假設您有以下點擊資料：
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 |  | John | 55 | G | R | X |
 |  | Alice | 66 | A | N | Z |
 
-## 範例存取請求
+## 範例存取請求 {#access}
 
 如果我提交存取請求，摘要檔案將會含有下表指出的值。請求可能只會傳回一個裝置檔案、一個人員檔案，或是每種檔案各一。唯有使用人員 ID 且 expandIds 設為 true 時，系統才會傳回兩個摘要檔案。
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
 請注意，使用 cookie ID 時，expandIDs 的設定不會影響輸出。
 
-## 樣本刪除要求
+## 刪除請求範例 {#delete}
 
 由於表格第一列中有使用 API 值的刪除請求，點擊表格的內容將會更新並看起來像這樣：
 

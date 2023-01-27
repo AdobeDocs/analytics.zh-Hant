@@ -3,7 +3,7 @@ description: Adobe Analytics 變數的資料隱私權標籤範例
 title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '3685'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Analytics 變數的資料隱私權標籤
 
-## 為何標籤您的資料？ {#why-label}
+## 為什麼要標籤您的資料？ {#why-label}
 
 許多 Adobe 客戶的法律團隊都已檢閱過資料隱私權法規 (GDPR、CCPA 等)。 而且這些團隊已針對應如何處理資料以遵循資料隱私權法規得出各自的結論。 各公司的法律解釋可能有所不同，而且所需的資料處理設定也可能因客戶而異。由於客戶對資料隱私權資料處理和不同資料集有不同的偏好，因此 Adobe 可讓 Adobe 客戶 (以資料控管者的身分) 根據其獨特資料，針對資料隱私權資料處理自訂其所需的設定。這讓每個獨特客戶都能夠針對其品牌和獨特的資料集，透過最適合的方式處理資料隱私權請求。
 
@@ -133,7 +133,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 >
 > 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
-## 變數類型以及其支援的資料隱私權/DULE 標籤 {#variable-types}
+## 支援的變數類型與資料隱私權/DULE標籤 {#variable-types}
 
 資料隱私權/DULE 標籤會影響四大類 Analytics 變數。並非所有變數皆支援所有標籤。此表格顯示哪些變數支援或不支援哪些標籤。
 

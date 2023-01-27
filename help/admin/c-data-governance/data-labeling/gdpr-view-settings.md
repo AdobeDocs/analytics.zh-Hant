@@ -3,7 +3,7 @@ description: 「資料控管的隱私權標籤」對話方塊提供報表套裝�
 title: 檢視/管理資料控管的隱私權標籤
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 44%
@@ -75,7 +75,7 @@ ht-degree: 44%
    >
    >每次都應該檢查目標報表套裝，確認您所複製的標籤正確無誤。這點對於含有 ID 或 DEL 標籤的變數來說尤其重要。
 
-## 匯出為.csv檔案
+## 匯出為.csv檔案 {#export-csv}
 
 您可以下載CSV檔案，其中包含所選報表套裝之所有變數的所有目前標籤定義。建議您的法律團隊檢閱您的標籤選擇，此選項有助於進行此次檢閱。 您可以將 .CSV 檔案分享給他們，而不必在登入資料控管 UI 的情況下執行審核程序。
 
@@ -85,6 +85,6 @@ ht-degree: 44%
 
 1. 選取您要匯出所有資料控管設定的一或多個報表套裝。
 
-## 編輯隱私權標籤
+## 編輯隱私權標籤 {#edit}
 
 請參閱 [指派或編輯報表套裝隱私權標籤](/help/admin/c-data-governance/data-labeling/gdpr-setup-reportsuite.md).

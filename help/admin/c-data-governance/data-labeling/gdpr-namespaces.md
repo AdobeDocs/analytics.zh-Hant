@@ -3,10 +3,10 @@ description: 命名空間是一組自訂字串，可用來在所有報表套裝�
 title: 命名空間
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 您也可以使用 `"namespaceId": 10` (而非 `"namespace": "AAID"`)，這樣就能看到其他幾種 Adobe 產品使用該表單。
 
-## 舊版 Analytics 追蹤 Cookie：已廢止的形式
+## 舊版Analytics追蹤Cookie:已廢止的表單
 
 ```
 {
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
 
-## 身分識別服務 Cookie
+## 身分識別服務Cookie
 
 ```
 {
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 系統也會為自訂訪客 ID 預先定義命名空間。
 
-## 自訂變數中的 ID
+## 自訂變數中的ID
 
 ```
 {
