@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 6aecf51563bfe112ac51248f45167db83fe54fd7
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '639'
 ht-degree: 96%
 
 ---
@@ -166,7 +166,7 @@ ht-degree: 96%
       + [伺服器呼叫使用量常見問答](admin/c-server-call-usage/overage-faq.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
-   + [常見問題集](c-data-governance/gdpr-faq.md)
+   + [常見問答集](c-data-governance/gdpr-faq.md)
    + 資料標籤 {#data-labels}
       + [Analytics元件的資料隱私權標籤](c-data-governance/data-labeling/gdpr-labels.md)
       + [標記報表套裝資料](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
@@ -174,7 +174,6 @@ ht-degree: 96%
       + [標記最佳做法](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [標記範例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [命名空間](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
