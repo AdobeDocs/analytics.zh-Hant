@@ -3,10 +3,10 @@ description: 為報表套裝資料加上標籤，代表您可為特定報表套�
 title: 標籤報表套裝資料
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
-source-git-commit: aa794220b464b7665e89345a116a263189dcc3fa
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 50%
+source-wordcount: '539'
+ht-degree: 48%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 50%
 
 ## 指派或編輯報表套裝隱私權標籤 {#assign-edit}
 
-**範例**：您做為資料控管單位，計劃從資料主體收集電子郵件地址和 Cookie ID 以處理其資料隱私權請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。若要為電子郵件地址和Cookie ID建立標籤，您必須在Analytics中使用Adobe Experience Cloud平台的資料使用標籤與實作(DULE)架構。
+**範例**：您做為資料控管單位，計劃從資料主體收集電子郵件地址和 Cookie ID 以處理其資料隱私權請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。
 
 1. 在Adobe Analytics中，導覽至 **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料設定與收集]** > **[!UICONTROL 資料控管]**.
 
@@ -48,10 +48,6 @@ ht-degree: 50%
    此畫面會顯示目前套用的標籤，並可讓您套用其他標籤。 視元件而定，您可能無法套用或修改所有標籤。
 
    ![已套用的標籤](assets/edit-labels2.png)
-
-   >[!NOTE]
-   >
-   >資料使用標籤和實行 (DULE) 架構的設計目的，是為了在解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。
 
 1. 完成所有標籤設定後，按一下&#x200B;**[!UICONTROL 「套用」]**。
 
