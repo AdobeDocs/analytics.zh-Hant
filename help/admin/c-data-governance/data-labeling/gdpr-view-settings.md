@@ -3,9 +3,9 @@ description: 「資料控管的隱私權標籤」對話方塊提供報表套裝�
 title: 檢視/管理資料控管的隱私權標籤
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: '906'
 ht-degree: 44%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 44%
 
 ## 將隱私權標籤複製到報表套裝  {#copy-to-rs}
 
-如果您想要將相同的DULE/資料隱私權設定套用至多個報表套裝，請遵循下列步驟：
+如果您想要將相同的資料隱私權設定套用至多個報表套裝，請依照下列步驟操作：
 
 1. 選取您要複製的變數。 請注意，您一次只能複製一個變數的標籤。
 1. 按一下 **[!UICONTROL 複製至報表套裝]** 在「資料控管」對話方塊的底部。
