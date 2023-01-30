@@ -3,10 +3,10 @@ description: 說明 Adobe Analytics 的持續功能發行策略
 title: Adobe Analytics 功能發行
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 90%
 
 ---
 
@@ -18,9 +18,9 @@ Adobe Analytics 的發行模式是持續傳遞，允許以更具可擴縮性、�
 
 [!UICONTROL Analysis Workspace] 使用功能旗標 (也稱為「切換」) 來控制新功能的可見性，以在完整版發行之前進行有限度的規模測試。此發行策略包含下列階段：
 
-* **發行至生產環境 (RTP)**：程式碼會發行至生產環境，但在 Analysis Workspace 中關閉功能可見性。此功能有時會在 2.0 Analytics API 中提供。
+* **有限測試**：分階段的發行從內部 Adobe 使用者的測試開始。然後，該功能將提供給一小組客戶，以確保該功能滿足客戶需求和期望。
 
-* **有限測試**：分階段的發行從內部 Adobe 使用者的測試開始。在隨後的幾個月內，發行的可用性會從 0% 擴充至 100%。分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
+* **轉出開始**:分階段發行從有限測試階段開始推出。 在隨後的幾個月內，該版本對客戶的可用性會從 0% 擴充至 100%。分階段推出會在 Experience Cloud 組織層級進行，因此組織中所有已獲授權的使用者都會獲得相同的體驗。
 
 * **正式發行 (GA)**：已獲授權的 Experience Cloud 組織可使用 100% 的功能，功能發行至此即告完成。
 
