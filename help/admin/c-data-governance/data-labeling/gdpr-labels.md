@@ -3,9 +3,9 @@ description: Adobe Analytics 變數的資料隱私權標籤範例
 title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '3685'
+source-wordcount: '3567'
 ht-degree: 98%
 
 ---
@@ -22,13 +22,7 @@ Adobe Analytics 會根據資料敏感程度和合約規定提供適用的資料�
 
 Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和資料控管的標籤。
 
-## DULE標籤 {#dule-labels}
-
->[!NOTE]
->
->資料使用標籤和實行 (DULE) 架構的設計目的，是為了在所有 Adobe 解決方案/服務/平台上提供統一方式，以擷取、通訊和使用 Adobe Experience Cloud 上資料的中繼資料。中繼資料可協助資料控管單位指出哪些資料屬於個人資料、哪些資料屬於敏感資料，以及資料具有哪些合約規定。在此最初發行的版本中，Analytics 只會公開與資料隱私權相關的 DULE 標籤。隨著其他 Adobe 產品陸續實作 DULE 標籤支援，未來版本將會引入其他敏感資料標籤和合約標籤，以確保只依據法律允許的方法使用產品間共用的資料。
-
-## 身分資料標籤(DULE) {#identity-data-labels}
+## 身分資料標籤 {#identity-data-labels}
 
 身分資料「I」標籤可用來分類可識別身分或聯絡特定人員的資料。
 
@@ -39,7 +33,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 {style=&quot;table-layout:auto&quot;}
 
-## 敏感資料標籤(DULE) {#sensitive-data-labels}
+## 敏感資料標籤 {#sensitive-data-labels}
 
 系統會使用敏感資料「S」標籤，將地理資料等敏感資料加以分類。未來將會引入其他敏感資料標籤，以識別其他類型的敏感資訊。
 
@@ -133,9 +127,9 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 >
 > 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
-## 支援的變數類型與資料隱私權/DULE標籤 {#variable-types}
+## 支援的變數類型和資料隱私權標籤 {#variable-types}
 
-資料隱私權/DULE 標籤會影響四大類 Analytics 變數。並非所有變數皆支援所有標籤。此表格顯示哪些變數支援或不支援哪些標籤。
+資料隱私權標籤會影響四大類Analytics變數。 並非所有變數皆支援所有標籤。此表格顯示哪些變數支援或不支援哪些標籤。
 
 | 變數類型 | 支援的標籤 | 不支援的標籤 |
 |--- |--- |--- |
