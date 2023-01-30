@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 96f4383126f8e88eb1a8c8d60b4a6f2ce7e17f0b
+source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 77%
+source-wordcount: '1248'
+ht-degree: 76%
 
 ---
 
@@ -63,7 +63,7 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 下表會說明截至 2022 年 10 月的用戶端提示。
 
-| 提示 | 說明 | 高或低平圴資訊量 | 範例 |
+| 提示* | 說明 | 高或低平圴資訊量 | 範例 |
 | --- | --- | --- | --- | 
 | Sec-CH-UA | 瀏覽器和重要版本 | 低 | 「Google Chrome 84」 |
 | Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | TRUE |
@@ -75,7 +75,11 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 | Sec-CH-UA-Model | 裝置型號 | 高 | 「Pixel 3」 |
 | Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | 「10」 |
 
-高熵提示是透過JavaScript呼叫收集，並透過查詢參數傳遞
+
+* 低熵提示通過頭收集。 高熵提示是透過JavaScript收集，並傳入查詢字串參數中。
+
+* 高熵提示是透過JavaScript呼叫收集，並透過查詢參數傳遞
+
 
 +++
 
