@@ -3,10 +3,10 @@ description: Adobe Analytics 資料控管常見問題集
 title: 資料控管的常見問題集
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 82c69131fcc5a22795e44ed97246240aec31f4d9
+source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 88%
+source-wordcount: '2164'
+ht-degree: 87%
 
 ---
 
@@ -49,6 +49,20 @@ ht-degree: 88%
 *  資料隱私權資料標籤：用來定義資料隱私權請求中可能含有個人識別碼的欄位，或是應在資料隱私權刪除請求中移除的欄位。在某些情況下，這些標籤可能會與身分資料和敏感資料標籤重疊。
 
 如需資料控管標籤的更多資訊，請參閱 [Analytics 變數的資料隱私權標籤](/help/admin/c-data-governance/data-labeling/gdpr-labels.md)。
+
++++
+
++++ **如何驗證隱私權服務要求是否正常運作，以刪除Adobe Analytics中的資料？**
+
+通常，Analytics客戶會先設定一些測試報表套裝來驗證功能，然後再將其發佈給一般大眾。 預先製作的網站或應用程式會傳送資料至這些測試/開發/QA 報表套裝以評估程式碼發行之後的表現，然後才會讓真正的流量傳送至生產報表套裝。
+
+然而，若是使用標準設定，則您在將請求套用到生產報表套裝前，不能先在這些測試版報表套裝上測試 GPDR 請求處理。原因在於資料隱私權請求會自動套用至 Experience Cloud 組織中的所有報表套裝，通常就是貴公司的所有報表套裝。
+
+在將您的資料隱私權處理套用至所有報表套裝之前，您仍然可以透過以下幾種方法進行測試：
+
+* 一個選項是另行設定 Experience Cloud 組織，其中只包含測試報表套裝。然後使用此 Experience Cloud 組織進行資料隱私權測試，並將您的正常 Experience Cloud 組織用來進行實際的資料隱私權處理。
+
+* 另一個選項是將不同的命名空間指派給測試報表套裝中的 ID，而不是生產報表套裝中的 ID。例如，您可以在測試報表套裝中為每個命名空間的字首加上「qa-」。當您提交僅含有 qa 字首的命名空間的資料隱私權請求時，這些請求只會針對您的測試報表套裝來執行測試。稍後，當您提交不含 qa 字首的請求時，這些請求將套用於您的生產報表套裝。**除非您使用visitorId、AAID、ECID或customVisitorId命名空間，否則建議使用此方法。 這些命名空間會以硬式編碼撰寫，且您無法在測試報表套裝中指定其替代名稱。**
 
 +++
 
