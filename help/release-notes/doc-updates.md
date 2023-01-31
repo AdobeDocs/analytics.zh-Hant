@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: 3e023a3cbf4eb8c1ec337a791f816458786835f5
 workflow-type: tm+mt
-source-wordcount: '3549'
-ht-degree: 99%
+source-wordcount: '3578'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 1 月** |  |
+| 篩選及排序表格 | 更新 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 將本文重新命名為「表格分頁、篩選及分類」。 |
 | 資料夾 | 專用頁面 [資料夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
 | 使用者偏好設定 | 您現在可在 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). |
 | 自動儲存專案 | 更新內容以在 [儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
