@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 2ee9007bdb3e359c9d5babe81c6f64bd7d7b6e8e
+source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1075'
 ht-degree: 99%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 99%
             + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [表格分頁、篩選及分類](analysis-workspace/visualizations/freeform-table/pagination-filtering-sorting.md)
+         + [篩選及排序表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)
