@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 2d309f7c246dea59f731764450974f12cdcdeffd
+source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 76%
+source-wordcount: '1232'
+ht-degree: 75%
 
 ---
 
@@ -63,23 +63,20 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 下表會說明截至 2022 年 10 月的用戶端提示。
 
-| 提示* | 說明 | 高或低平圴資訊量 | 範例 |
+| 提示 | 說明 | 高或低平圴資訊量 | 範例 |
 | --- | --- | --- | --- | 
-| Sec-CH-UA | 瀏覽器和重要版本 | 低 | 「Google Chrome 84」 |
-| Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | TRUE |
-| Sec-CH-UA-Platform | 作業系統/平台 | 低 | &quot;Android&quot; |
-| Sec-CH-UA-Arch | 網站架構  | 高 | 「arm」 |
-| Sec-CH-UA-Bitness | 架構位元 | 高 | &quot;64&quot; |
-| Sec-CH-UA-Full-Version | 瀏覽器的完整版本 | 高 | &quot;84.0.4143.2&quot; |
-| Sec-CH-UA-Full-Version-List | 品牌及其版本的清單 | 高 | &quot;Not A;Brand&quot;;v=&quot;99&quot;, &quot;Chromium&quot;;v=&quot;98&quot;, &quot;Google Chrome&quot;;v=&quot;98&quot; |
-| Sec-CH-UA-Model | 裝置型號 | 高 | 「Pixel 3」 |
-| Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | 「10」 |
+| Sec-CH-UA | 瀏覽器和重要版本 | 低 | `"Google Chrome 84"` |
+| Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | `true` |
+| Sec-CH-UA-Platform | 作業系統/平台 | 低 | `"Android"` |
+| Sec-CH-UA-Arch | 網站架構  | 高 | `"arm"` |
+| Sec-CH-UA-Bitness | 架構位元 | 高 | `"64"` |
+| Sec-CH-UA-Full-Version | 瀏覽器的完整版本 | 高 | `"84.0.4143.2"` |
+| Sec-CH-UA-Full-Version-List | 品牌及其版本的清單 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| Sec-CH-UA-Model | 裝置型號 | 高 | `"Pixel 3"` |
+| Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | `"10"` |
 
-
-* 低熵提示通過頭收集。 高熵提示是透過JavaScript收集，並傳入查詢字串參數中。
-
-* 高熵提示是透過JavaScript呼叫收集，並透過查詢參數傳遞
-
+* 通過請求標頭收集低熵提示。
+* 高熵提示是透過JavaScript收集，並透過查詢字串參數值傳遞。 查詢字串參數使用 `h.` 作為影像要求中的前置詞。
 
 +++
 
