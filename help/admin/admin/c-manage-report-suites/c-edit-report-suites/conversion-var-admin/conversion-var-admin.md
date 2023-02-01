@@ -4,10 +4,10 @@ keywords: eVar
 title: 轉換變數 (eVar)
 feature: Admin Tools
 exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '1582'
-ht-degree: 100%
+source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
+workflow-type: tm+mt
+source-wordcount: '1672'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +15,10 @@ ht-degree: 100%
 
 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。eVar 可以瀏覽為準，其功能類似於 Cookie。傳送到 eVar 變數的值，會在預定的期間內跟隨使用者。
 
-以下是影片概觀：
+
+## 轉換變數(eVar)概觀
+
+以下是影片概述：
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 
@@ -33,9 +36,9 @@ eVar 最適合用來測量原因和結果，如：
 >
 >影像要求的 eVar 中僅可儲存單一數值。如果 eVar 值中需要多個數值，建議您實施[清單變數 (list vars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/page-variables.html?lang=zh-Hant)。
 
-## 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
+### 轉換變數 - 說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-[編輯轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/t-conversion-variables-admin.md)時所用欄位相關說明。
+[編輯轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)時所用欄位相關說明。
 
 | 元素 | 說明 |
 | --- | --- |
@@ -68,3 +71,18 @@ eVar 不區分大小寫。 報告中使用的大寫或小寫是根據後端系�
 ### 計數器
 
 eVar 通常會用來放置字串值，但也可設定作為計數器。當您嘗試計算使用者在某個事件之前所執行的動作數時，即可將 eVar 當作計數器使用。例如，您可以使用 eVar 擷取購買之前的內部搜尋次數。每次訪客搜尋時，eVar 中都應會有 &#39;+1&#39; 值。若訪客在購買之前做了四次搜尋，您將會看見各個總計數的例項：1.00、2.00、3.00、4.00。但只有 4.00 會獲得購買事件的評分 (訂購和收入度量)。eVar 計數器的值必須是正數。
+
+## 新增或編輯轉換變數
+
+1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
+1. 選取報告套裝。
+1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換變數」]**。
+1. 在[!UICONTROL 轉換變數]頁面，在您要修改的轉換變數旁按一下&#x200B;**[!UICONTROL 展開]**&#x200B;圖示[「+」]。
+
+   或
+
+   按一下&#x200B;**[!UICONTROL 「新增」]**，以新增未使用的 eVar 至報告套裝。
+1. 選擇您要修改的轉換變數欄位。
+
+   請參閱[轉換變數 - 說明](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md#section_7C317BB0287A4B8EB0A1A4ECC40627BF)。一些欄位可讓您直接在欄位中鍵入。其他欄位可讓您從受支援值的下拉式清單中選擇。
+1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
