@@ -2,7 +2,7 @@
 title: 使用JavaScript適用的AppMeasurement實作Adobe Analytics
 description: 瞭解如何在不使用標記管理系統的情況下使用 JavaScript 實施 Adobe Analytics。
 feature: Implementation Basics
-source-git-commit: 93e16a538d6dc05c9cbf0703664aa5320f45b731
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 41%
@@ -20,7 +20,7 @@ JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方
 <table>
 
 <tr>
-<th style="width:5%"></th><th><b>工作</b></th><th><b>更多資訊</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>工作</b></th><th style="width:20%"><b>更多資訊</b></th>
 </tr>
 
 <tr>

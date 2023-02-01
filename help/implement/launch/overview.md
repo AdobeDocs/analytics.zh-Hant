@@ -2,10 +2,10 @@
 title: 使用Analytics擴充功能實作Adobe Analytics
 description: 了解如何使用標籤和Analytics擴充功能實作Adobe Analytics
 feature: Launch Implementation
-source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
+source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 48%
+source-wordcount: '364'
+ht-degree: 57%
 
 ---
 
@@ -19,9 +19,54 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 
 實作工作的概觀：
 
+
+
 ![Adobe Analytics使用Analytics擴充功能工作流程](../assets/analytics-extension-annotated.png)
 
-|<div style="width:20px"></div>|任務 |更多資訊 | |-| —|—| | 1 |確定您 **定義報表套裝**. | [報表套裝管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **建立資料層** 管理網站上資料的追蹤。 | [建立資料層](../prepare/data-layer.md) | | 3 | **建立標籤屬性**. 屬性是用於參考標籤管理資料的整體容器。| [建立Adobe Analytics標籤屬性](../launch/create-analytics-property.md) | | 4 | **安裝Analytics擴充功能** 在標籤屬性中。 設定Analytics擴充功能以將資料傳送至Adobe Analytics。 | [Adobe Analytics擴充功能概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署至開發環境**. 有一個環境，讓您可反覆進行標籤開發程式。 | [將Analytics實施部署至開發環境](./deploy-dev.md) | | 6 | **驗證並發佈至生產環境**. 將標籤屬性新增至您的網站。 然後使用資料元素、規則等來自訂您的實作。| [驗證開發實施並發佈至生產環境](./validate-publish-prod.md) |
+<table style="width:100%">
+
+<tr>
+<th style="width:5%"></th><th style="width:60%"><b>工作</b></th><th style="width:35%"><b>更多資訊</b></th>
+</tr>
+
+<tr>
+<td> 1</td>
+<td>確保您 <b>定義報表套裝</b>.</td>
+<td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td><b>建立資料層</b>管理網站上資料的追蹤。</td>
+<td>
+<a href="../prepare/data-layer.md">建立資料層</a>
+</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td><b><b>建立標籤屬性</b>.屬性是用於參考標籤管理資料的整體容器。</td>
+<td><a ref="../launch/create-analytics-property.md">建立 Adobe Analytics 標記屬性</a></td>
+</tr>
+
+<tr>
+<td>4</td><td><b>安裝Analytics擴充功能</b> 在標籤屬性中。 設定Analytics擴充功能以將資料傳送至Adobe Analytics。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en">Adobe Analytics擴充功能概觀</a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td><b>部署至開發環境</b>.有一個環境，讓您可反覆進行標籤開發程式。</td>
+<td><a href="./deploy-dev.md">將 Analytics 實作部署至開發環境</td>
+</tr>
+
+<tr>
+<td>6</td> 
+<td><b>驗證並發佈至生產環境</b>. 將標籤屬性新增至您的網站。 然後使用資料元素、規則等來自訂您的實作。</td>
+<td><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
+</tr>
+
+</table>
 
 ## 其他資源
 
