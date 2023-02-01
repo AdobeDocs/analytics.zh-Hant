@@ -1,27 +1,42 @@
 ---
 title: 使用 Adobe Experience Platform Mobile SDK 實作 Adobe Analytics
 description: 在 Adobe Experience Platform 資料彙集中使用 Mobile SDK 擴充功能傳送資料給 Adobe Analytics。
-exl-id: 516e9a1e-caa7-4f8a-ab8c-6404e9242ccb
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: ht
-source-wordcount: '206'
-ht-degree: 100%
+source-git-commit: 5adc3fe1eab0a358573ebdc12e51c6753e85b14c
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 20%
 
 ---
 
 # 使用 Adobe Experience Platform Mobile SDK 實作 Adobe Analytics
 
-Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Adobe 的 Experience Cloud 解決方案和服務。 它適用於 Android、iOS 及各種跨平台開發架構。 透過 Adobe Experience Platform Data Collection 進行設定。
-
-若要使用 Mobile SDK 傳送資料給 Adobe Experience Edge：
-
-1. 登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-2. 從清單中選取所需的屬性，或[設定行動屬性](https://aep-sdks.gitbook.io/docs/getting-started/create-a-mobile-property)。
-3. 前往「擴充功能」索引標籤，並安裝[適用於 Edge Network 的身分識別](https://aep-sdks.gitbook.io/docs/foundation-extensions/identity-for-edge-network)擴充功能。
-4. 安裝 [Adobe Experience Platform Edge Network](https://aep-sdks.gitbook.io/docs/foundation-extensions/experience-platform-extension)。
-5. [設定資料串流](https://aep-sdks.gitbook.io/docs/getting-started/configure-datastreams)，新增 Adobe Analytics 當作指向所需報表套裝的服務。
-6. 在您的行動應用程式上[安裝此 SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk)。
-
+Adobe Experience Platform Mobile SDK 有助於在行動應用程式中強化 Adobe 的 Experience Cloud 解決方案和服務。 適用於Android™、iOS和各種跨平台開發架構。 透過 Adobe Experience Platform Data Collection 進行設定。
 >[!IMPORTANT]
 >
 >Adobe Analytics 擴充功能也可以在 Adobe Experience Platform Data Collection 中取得。如果您安裝此擴充功能，就不會利用 XDM 或 Edge Network。
+
+## Adobe Experience Platform SDK
+
+實作工作的概觀：
+
+![Adobe Analytics使用Analytics擴充功能工作流程](../../assets/mobilesdk-annotated.png)
+
+| |任務 |更多資訊 | |-| —|—| | 1 |確定您 **定義報表套裝**. | [報表套裝管理器](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **設定結構和資料集**. 為了標準化資料收集，以便在運用Adobe Experience Platform的應用程式間使用，Adobe建立了開放且公開記錄的標準Experience Data Model(XDM)。 | [設定結構和資料集](https://developer.adobe.com/client-sdks/documentation/getting-started/set-up-schemas-and-datasets/) | | 3 | **設定資料流**. 資料流代表實作Adobe Experience Platform Web SDK時的伺服器端設定。 | [設定資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en) | | 4 | **新增Adobe Analytics服務** 資料流。 該服務會控制資料是否以及如何傳送至Adobe Analytics。 | [將Adobe Analytics服務新增至資料流](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/configure.html?lang=en#analytics) | | 5 | **建立行動屬性**. 屬性是一個容器，您在其中填入擴充功能、規則、資料元素和程式庫。 | [設定行動屬性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 6 | **安裝Adobe Experience Platform Edge Network擴充功能** 在行動標籤屬性中，並在擴充功能中設定資料流。 | [Adobe Experience Platform Edge Network](https://developer.adobe.com/client-sdks/documentation/edge-network/) | | 7 | **在您的應用程式中使用程式碼** 來註冊必要的擴充功能並載入您的標籤設定。 | [設定設定](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 8 | **實作和測試功能** 在應用程式中結合使用標籤的資料元素、規則、其他擴充功能及SDK API呼叫。 Inspect、驗證並除錯行動應用程式的資料收集和體驗。 | [使用範例應用程式](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 9 | **延伸及驗證您的行動應用程式實作** 再推出生產。 | |
+
+
+## Adobe Analytics 擴充功能.
+
+實作工作的概觀：
+
+![Adobe Analytics使用Analytics擴充功能工作流程](../../assets/mobilesdk-analytics-annotated.png)
+
+| |任務 |更多資訊 | |-| —|—| | 1 |確定您 **定義報表套裝**. | [報表套裝管理器](../../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **建立行動屬性**. 屬性是一個容器，您在其中填入擴充功能、規則、資料元素和程式庫。 | [設定行動屬性](https://developer.adobe.com/client-sdks/documentation/getting-started/create-a-mobile-property/) | | 3 | **安裝Adobe Analytics擴充功能** 在行動標籤屬性中，並設定指向您報表套裝的擴充功能。 | [Adobe Analytics行動屬性擴充功能](https://developer.adobe.com/client-sdks/documentation/adobe-analytics/) | | 4 | **在您的應用程式中使用程式碼** 來註冊必要的擴充功能並載入您的標籤設定。 | [設定設定](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#set-up-the-configuration) | | 5 | **實作和測試功能** 在應用程式中結合使用標籤的資料元素、規則、其他擴充功能及SDK API呼叫。 Inspect、驗證並除錯行動應用程式的資料收集和體驗。 | [使用範例應用程式](https://developer.adobe.com/client-sdks/documentation/user-guides/getting-started-with-platform/overview/#use-the-sample-application) | | 6 | **延伸及驗證您的行動應用程式實作** 再推出生產。 | |
+
+## 其他資源
+
+- [標籤檔案](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)
+
+- [Mobile SDK 文件](https://developer.adobe.com/client-sdks/documentation/)
+
+
+
