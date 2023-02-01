@@ -2,7 +2,7 @@
 title: 使用Analytics擴充功能實作Adobe Analytics
 description: 了解如何使用標籤和Analytics擴充功能實作Adobe Analytics
 feature: Launch Implementation
-source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
+source-git-commit: e6b40881a543b43c03b612c7e7b0d9bd09f44c0d
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 48%
@@ -21,7 +21,7 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 
 ![Adobe Analytics使用Analytics擴充功能工作流程](../assets/analytics-extension-annotated.png)
 
-| |任務 |更多資訊 | |-| —|—| | 1 |確定您 **定義報表套裝**. | [報表套裝管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **建立資料層** 管理網站上資料的追蹤。 | [建立資料層](../prepare/data-layer.md) | | 3 | **建立標籤屬性**. 屬性是用於參考標籤管理資料的整體容器。| [建立Adobe Analytics標籤屬性](../launch/create-analytics-property.md) | | 4 | **安裝Analytics擴充功能** 在標籤屬性中。 設定Analytics擴充功能以將資料傳送至Adobe Analytics。 | [Adobe Analytics擴充功能概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署至開發環境**. 有一個環境，讓您可反覆進行標籤開發程式。 | [將Analytics實施部署至開發環境](./deploy-dev.md) | | 6 | **驗證並發佈至生產環境**. 將標籤屬性新增至您的網站。 然後使用資料元素、規則等來自訂您的實作。| [驗證開發實施並發佈至生產環境](./validate-publish-prod.md) |
+|<div style="width:20px"></div>|任務 |更多資訊 | |-| —|—| | 1 |確定您 **定義報表套裝**. | [報表套裝管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **建立資料層** 管理網站上資料的追蹤。 | [建立資料層](../prepare/data-layer.md) | | 3 | **建立標籤屬性**. 屬性是用於參考標籤管理資料的整體容器。| [建立Adobe Analytics標籤屬性](../launch/create-analytics-property.md) | | 4 | **安裝Analytics擴充功能** 在標籤屬性中。 設定Analytics擴充功能以將資料傳送至Adobe Analytics。 | [Adobe Analytics擴充功能概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署至開發環境**. 有一個環境，讓您可反覆進行標籤開發程式。 | [將Analytics實施部署至開發環境](./deploy-dev.md) | | 6 | **驗證並發佈至生產環境**. 將標籤屬性新增至您的網站。 然後使用資料元素、規則等來自訂您的實作。| [驗證開發實施並發佈至生產環境](./validate-publish-prod.md) |
 
 ## 其他資源
 
