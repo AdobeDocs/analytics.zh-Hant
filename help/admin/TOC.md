@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 96%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 96%
 + [Analytics 管理員指南](home.md)
 + [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + Adobeadmin console {#admin-console}
-   + [Adobe Admin Console 中的 Adobe Analytics](admin-console/home.md)
+   + [概觀](admin-console/home.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics 中的管理員角色](admin-console/admin-roles-in-analytics.md)
-   + 權限 {#permissions}
+   + Analytics工具權限摘要 {#permissions}
       + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
@@ -156,7 +156,6 @@ ht-degree: 96%
       + [品牌結合](admin/company/co-branding-admin.md)
       + [隱藏報表套裝](admin/company/c-hide-report-suites.md)
       + [安全管理員](admin/company/security-manager.md)
-   + [簡化的報表選單](admin/t-simplified-menu.md)
    + [影片管理](admin/video-management.md)
    + 伺服器呼叫使用量 {#server-call-usage}
       + [伺服器呼叫使用量總覽](admin/c-server-call-usage/overage-overview.md)

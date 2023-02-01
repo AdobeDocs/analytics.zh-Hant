@@ -3,14 +3,14 @@ title: Adobe Analytics 權限 - 摘要表
 description: 概述Adobe Admin Console中可用Adobe Analytics權限的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
+source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 96%
+source-wordcount: '1280'
+ht-degree: 95%
 
 ---
 
-# Adobe Analytics 權限 - 摘要表
+# Admin Console中的Analytics權限
 
 使用下列摘要表格，依邏輯群組識別Adobe Admin Console中的Adobe Analytics權限。
 
