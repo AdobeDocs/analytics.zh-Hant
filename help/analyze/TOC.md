@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 08dd9724efa105d0d9efd25223f72b2ae8e9a487
+source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
 workflow-type: tm+mt
-source-wordcount: '1075'
-ht-degree: 99%
+source-wordcount: '1101'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +41,7 @@ ht-degree: 99%
       + [檢視密度](analysis-workspace/build-workspace-project/view-density.md)
    + 元件 {#components}
       + [元件總覽](analysis-workspace/components/analysis-workspace-components.md)
+      + [新增元件說明](analysis-workspace/components/add-component-descriptions.md)
       + 註解 {#annotations}
          + [註解概述](analysis-workspace/components/annotations/overview.md)
          + [建立註解](analysis-workspace/components/annotations/create-annotations.md)
@@ -60,6 +61,11 @@ ht-degree: 99%
          + [日曆和日期範圍總覽](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
+      + 資料字典 {#data-dictionary}
+         + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
+         + [在資料字典中檢視元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [在資料字典中編輯元件項目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [監視資料字典健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 視覺效果 {#visualizations}
       + [視覺效果總覽](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)
@@ -69,7 +75,7 @@ ht-degree: 99%
             + [欄設定](analysis-workspace/visualizations/freeform-table/column-row-settings/column-settings.md)
             + [列設定](analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)
             + [動態與靜態項目](analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md)
-         + [篩選及排序表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
+         + [篩選和排序表格](analysis-workspace/visualizations/freeform-table/filter-and-sort.md)
          + [工作區總計](analysis-workspace/visualizations/freeform-table/workspace-totals.md)
       + 同類群組表格 {#cohort-table}
          + [同類群組分析是什麼？](analysis-workspace/visualizations/cohort-table/cohort-analysis.md)

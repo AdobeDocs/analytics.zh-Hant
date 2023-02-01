@@ -3,10 +3,10 @@ title: 量度概觀
 description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
-workflow-type: ht
-source-wordcount: '168'
-ht-degree: 100%
+source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
+workflow-type: tm+mt
+source-wordcount: '185'
+ht-degree: 82%
 
 ---
 
@@ -29,6 +29,4 @@ ht-degree: 100%
 
 ## 新增量度說明
 
-以下影片會說明如何在 Adobe Analytics 中新增量度 (及維度) 說明：
-
->[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
+Analytics管理員可在報表套裝內或直接在Analysis Workspace內新增量度和其他元件的說明。 如需如何新增說明至量度的詳細資訊，請參閱 [新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md).

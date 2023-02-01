@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 4d49e0c3d622ffdd34b26a82282b3a03fd8e53d0
+source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
 workflow-type: tm+mt
 source-wordcount: '3947'
-ht-degree: 74%
+ht-degree: 91%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | 按一下即可開啟報表。 | 之前您必須按兩下。 |  |
 | **[!UICONTROL Report &amp; Analytics]** 報表的新連結 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人頁面]**<li>**[!UICONTROL 報表]** > **[!UICONTROL 參與度]** > **[!UICONTROL 即時]**</li></ul> | ![新連結](assets/report-links.png) |
 | 全新現成可用的報表 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 參與杜]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>注意，這些報表為[!UICONTROL 工作區]格式，並需要設定和建置。輸出由高層級量度的面板、趨勢資料、[!UICONTROL 流量]視覺化等組成。您可修改這些報表並變更維度、維度項目等。這些報表也能在工作區面板下以面板的方式提供。 | ![下一頁](assets/next-page.png) |
-| **[!UICONTROL 建立專案]** 強制回應 | 當您按一下 **[!UICONTROL 建立專案]** 在工作區中，您可再次在 [!UICONTROL 空白專案] 和 [!UICONTROL 空白行動計分卡]. 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
+| **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
 | 也提供Customer Journey Analytics | CJA中也提供此登錄頁面，格式為已修改。 |  |
 
 {style=&quot;table-layout:auto&quot;}
@@ -42,58 +42,58 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ### 術語
 
-* **[!UICONTROL 專案]** 是自訂的設計，可結合您所建立或其他人所建立及與您共用的資料元件、表格和視覺效果。 [!UICONTROL 專案]也指空白專案和空白移動計分卡。
+* **[!UICONTROL 專案]**&#x200B;是自訂的設計，可結合您所建立或其他人所建立並與您共用的資料元件、表格和視覺效果。[!UICONTROL 專案]也指空白專案和空白行動計分卡。
 * **[!UICONTROL 報表]**&#x200B;是指由 Adobe 預先建立的任何內容，例如在 Reports &amp; Analytics 中的報表和工作區中的範本。
 * **[!UICONTROL 範本]**&#x200B;不再用作 Adobe 預先建立的工作區專案的詞彙。範本現在歸類在[!UICONTROL 報表]下面。[!UICONTROL 範本]這個詞彙仍用於您的公司建立的範本。
 
 ## 瀏覽至「[!UICONTROL 專案]」索引標籤。 {#navigate-projects}
 
-「[!UICONTROL 專案]」可用作  [!UICONTROL 工作區] 首頁。「專案」索引標籤會顯示公司資料夾、您建立的任何個人資料夾、您的專案和行動計分卡。 使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。 如需詳細資訊，請參閱 [關於Analytics中的資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md).
+「[!UICONTROL 專案]」可用作  [!UICONTROL 工作區] 首頁。「專案」索引標籤會顯示公司資料夾、您建立的任何個人資料夾、您的專案和 Mobile 計分卡。使用此頁面來檢視、建立和修改資料夾、專案和行動計分卡。如需詳細資訊，請參閱[關於 Analytics 資料夾](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)。
 
 ![登陸 - 所有項目](assets/landing-all2.png)
 
 >[!NOTE]
 >
->下列數項設定會在工作階段期間和跨工作階段持續存在。 例如，您選取的索引標籤、選取的篩選器、選取的欄，以及欄排序方向。 搜索結果不是永久的。
+>下列數項設定會在工作階段和跨工作階段期間持續存在。例如，您選取的索引標籤、選取的篩選器、選取的欄，以及欄排序方向。搜尋結果不會持續存在。
 
 | UI 元素 | 定義 |
 | --- | --- |
 | 編輯偏好設定 | 讓您[!UICONTROL 檢視教學課程]和[編輯使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。 |
-| [!UICONTROL 新建] | 開啟專案模組，您可在此建立Analysis Workspace專案、Mobile計分卡或開啟公司範本。 |
-| [!UICONTROL 顯示較少<br> 顯示更多] | 在不顯示和顯示橫幅之間切換：![最上方橫幅](assets/top-banner.png) |
-| [!UICONTROL Analysis Workspace 專案] | 建立空白 [工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html) 供您設計和建置。 |
-| [!UICONTROL 行動計分卡] | 建立空白 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html) 供您設計和建置。 |
-| [!UICONTROL 開啟訓練教學課程] | 開啟工作區訓練教學課程，引導您完成逐步教學課程中建立新入門專案的程式。 |
+| [!UICONTROL 新建] | 開啟專案模組，您可在此建立 Workspace 專案、Mobile 計分卡或開啟公司範本。 |
+| [!UICONTROL 顯示較少<br>顯示較多] | 在不顯示和顯示橫幅之間切換：![頂部橫幅](assets/top-banner.png) |
+| [!UICONTROL 工作區專案] | 建立空白[工作區專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)，供您設計和建置。 |
+| [!UICONTROL Mobile 計分卡] | 建立空白 [行動計分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)，供您設計和建置。 |
+| [!UICONTROL 開啟培訓教學課程] | 開啟工作區培訓教學課程，引導您完成逐步教學課程中建置新入門專案的流程。 |
 | [!UICONTROL 開啟版本注意事項] | 開啟最新 Adobe Experience Cloud 版本注意事項的 Adobe Analytics 部分。 |
-| 篩選器圖示 | 依標籤、報表套裝、擁有者、類型和其他篩選器（我的、與我共用、我的最愛和已核准）進行篩選 |
-| 搜尋列 | 搜索表中的所有列。 |
-| 選取方塊 | 選擇一個或多個項目以顯示可執行的項目管理操作： **刪除**, **共用**, **重新命名**, **複製**, **取消固定**, **上移**, **下移**, **標籤**, **核准**, **匯出CSV**，和 **移至**. 您可能沒有執行所有列出動作的權限。 |
-| [!UICONTROL 我的最愛] | 將星號新增至最喜愛的專案或資料夾旁，以用作篩選。 |
-| [!UICONTROL 名稱] | 識別專案的名稱。 |
-| 釘選圖示 | 固定項目，使它們始終出現在清單的頂部，但您可以按順序上下移動它們來重新調整順序。 使用刪節號選項菜單並選擇 **上移** 或 **下移** 在清單中。 |
-| 資訊 (i) 圖示 | 顯示有關項目的以下資訊：類型、專案角色、擁有者、說明，以及共用給誰。 此資訊也會指明誰可以[編輯或重複](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)此專案。 |
-| 省略 (...) | 顯示您可以執行的項目管理操作： **刪除**, **共用**, **重新命名**, **複製**, **取消固定**, **上移**, **下移**, **標籤**, **核准**, **匯出CSV**，和 **移至**. 您可能沒有執行所有列出動作的權限。 |
-| [!UICONTROL 類型] | 指出此類型是工作區專案、行動計分卡還是資料夾。 |
-| [!UICONTROL 標記] | 標籤專案以將其組織成群組。 |
-| [!UICONTROL 專案角色] | 標識項目角色：您是專案擁有者，以及您是否擁有編輯或複製專案的權限。 |
-| [!UICONTROL 報告套裝] | 識別與專案相關聯的報表套裝。<br>面板內的表格和視覺效果是從面板右上角所選報表套裝衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報表套裝，多寡視您的分析使用情形而定。報表套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
+| 篩選器圖示 | 按標記、報告套裝、所有者、類型和其他篩選器 (「我的」、「已共用給我」、「我的最愛」和「已核准」) 來篩選 |
+| 搜尋列 | 搜尋表格中的所有欄。 |
+| 選取方塊 | 選取一個或多個專案，以顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。您可能沒有執行所列出所有操作的權限。 |
+| [!UICONTROL 我的最愛] | 將星號新增至可用作篩選器的最喜愛專案或資料夾旁。 |
+| [!UICONTROL 名稱] | 識別專案名稱。 |
+| 釘選圖示 | 釘選項目，使其一直出現在清單的頂部，但您可以將其順序上下移動來重新調整順序。使用省略符號選項選單，並選擇在清單中&#x200B;**上移** 或&#x200B;**下移**。 |
+| 資訊 (i) 圖示 | 顯示以下有關專案的資訊：類型、專案角色、所有者、說明，以及共用對象。此資訊也會指明誰可以[編輯或重複](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html)此專案。 |
+| 省略 (...) | 顯示您可以執行的專案管理操作：**刪除**、**共用**、**重新命名**、**複製**、**取消釘選**、**上移**、**下移**、**標記**、**核准**、**匯出 CSV**，和&#x200B;**移至**。您可能沒有執行所列出所有操作的權限。 |
+| [!UICONTROL 類型] | 指出此類型是工作區專案、行動計分卡或資料夾。 |
+| [!UICONTROL 標記] | 標記專案，可方便分類整理。 |
+| [!UICONTROL 專案角色] | 識別專案角色：您是否為專案所有者，以及您是否具有編輯或複製專案的權限。 |
+| [!UICONTROL 報告套裝] | 識別與專案相關聯的報告套裝。<br>面板內的表格和視覺效果是從面板右上角所選報告套裝衍生而得。該報表套裝也會決定左側邊欄內會有哪些元件。在專案中，您可以使用一或多個報表套裝，多寡視您的分析使用情形而定。報表套裝清單是根據相關性來分類。Adobe 是根據目前使用者最近使用套裝情形和多常使用套裝，以及組織內多常使用套裝等來定義關聯性。 |
 | [!UICONTROL 所有者] | 識別建立專案的人員。 |
 | [!UICONTROL 上次開啟時間] | 識別您上次開啟專案的日期。 |
-| 自訂表格圖示 | 選擇要在表中查看的列。 若要從專案清單中新增或移除欄，請按一下欄圖示(![全部著陸](/help/analyze/assets/select-column.png) )，然後選取或取消選取欄標題。 |
-| 顯示：資料夾與專案或所有專案 | 更改表格上的視圖設定，以根據資料夾組織顯示資料夾和項目 **或** 以無組織的清單顯示所有專案。 |
-| &lt; (返回按鈕) | 將您傳回至工作區專案或報表中最新的登錄頁面設定。 離開登錄頁面時您擁有的頁面設定會在您返回時持續存在。 |
+| 自訂表格圖示 | 選取要在表格中查看的欄。若要從專案清單中新增或移除欄，請按一下右上方的欄圖示 (![登陸 - 所有項目](/help/analyze/assets/select-column.png))，然後選取或取消選取欄標題。 |
+| 顯示：資料夾與專案或所有專案 | 變更表格上的視圖設定，以根據資料夾組織顯示資料夾和專案&#x200B;**或**&#x200B;以無組織的清單顯示所有專案。 |
+| &lt; (返回按鈕) | 將您傳回至工作區專案或報表中最新的登錄頁面設定。 離開登陸頁面時您擁有頁面設定，會在您返回時持續留在該頁面。 |
 
 ### 不再使用專案管理員頁面 {#deprecate-pm-page}
 
-隨著新登錄頁面的發行，我們不再提供「元件管理員」下方所列的專案管理員。 新的登錄頁面會處理舊「專案管理員」頁面的所有功能，以及更多功能。
+隨著新登陸頁面的發布，我們已棄用「元件管理員」下所列的專案管理員。新版登陸頁面會處理舊「專案管理員」頁面的所有功能，以及更多功能。
 
 「專案管理員」頁面的一個常見使用案例是檢視您的所有專案。
 
-若要使用篩選邊欄在新登陸頁面上檢視所有專案，請選取 **其他篩選** 然後選取 **全部顯示**.
+若要使用篩選器邊欄在新登陸頁面上檢視所有專案，請選取&#x200B;**「其他篩選器」**，然後選取&#x200B;**「全部顯示」**。
 
 ![顯示所有項目](assets/show-all-fIlter.png)
 
-如果您位於「資料夾與專案」檢視中，會出現一個強制回應視窗，詢問您是否要切換至「所有專案」檢視，這可讓您在可能組織的任何資料夾之外，更輕鬆地檢視所有專案。   選擇 **切換至「所有專案」檢視** 以便更好地檢視您有權存取的所有專案。
+如果您位於「資料夾與專案」檢視中，會出現一個強制回應快顯視窗，詢問您是否要切換至「所有專案」檢視，這可讓您在可能組織的任何資料夾之外，更輕鬆地檢視所有專案。選取&#x200B;**「切換至「所有專案」檢視」**，以便更完整地檢視您有權存取的所有專案。
 
 ![切換至所有專案](assets/switch-all-projects-view.png)
 
@@ -220,7 +220,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 管理員可使用公司報表清單選項（如上所述）刪除報表，或從建立專案模組中刪除報表。
 
-![其他篩選](assets/delete-fr-create-project-modal.png)
+![其他篩選器](assets/delete-fr-create-project-modal.png)
 
 
 ## 瀏覽「學習」標記。 {#navigate-learning}
@@ -231,7 +231,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 * 按一下影片/導覽，可新增「**[!UICONTROL 已檢視]**」標記。此標記可幫助您透過學習內容追蹤您的進度。您可以按一下此標記，然後標記會消失，以防您尚未完成內容。
 * 影片模式的「**[!UICONTROL 了解更多]**」按鈕可帶您進入 Adobe Experience League 文件頁面，其中有關於您剛才觀看影片的更多內容。 **[!UICONTROL 觀看更多影片]**&#x200B;可帶您前往 Analysis Workspace YouTube 完整播放清單。
 
-## 設定您的登錄頁面 {#set-landing}
+## 設定您的登陸頁面 {#set-landing}
 
 使用者可以設定他們偏好的登陸頁面。
 

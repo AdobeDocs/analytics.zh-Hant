@@ -3,18 +3,20 @@ description: 「持久流量」區段可讓您變更預期的流量級別，讓 
 title: 指定永久性流量增加
 feature: Traffic Management
 exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
-source-git-commit: 6f7f46b0fee46e572a65f639ea511478c0118f4e
-workflow-type: ht
-source-wordcount: '172'
-ht-degree: 100%
+source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
+workflow-type: tm+mt
+source-wordcount: '169'
+ht-degree: 78%
 
 ---
 
 # 指定永久性流量增加
 
-「持久流量」區段可讓您變更預期的流量級別，讓 Adobe 可以重新分派資源以處理新的流量級別。
+您可以更改預期的流量級別，以便Adobe可以重新分配資源以處理新的流量級別。 (或者，您可以 [排程流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) 如果要臨時重新分配資源。)
 
-的您指定永久性流量增加之前，請先詳閱[流量增加所需的前置時間](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-lead-time.md)中的相關資訊。
+{{$include /help/_includes/traffic-lead-time.md}}
+
+## 指定永久性流量增加
 
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**&#x200B;來開啟「報表套裝管理員」。
 1. 選取報表套裝。

@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 75%
+source-wordcount: '1245'
+ht-degree: 74%
 
 ---
 
@@ -77,6 +77,8 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 * 通過請求標頭收集低熵提示。
 * 高熵提示是透過JavaScript收集，並透過查詢字串參數值傳遞。 查詢字串參數使用 `h.` 作為影像要求中的前置詞。
+
+高熵提示是透過JavaScript呼叫收集，並透過查詢參數傳遞
 
 +++
 

@@ -3,7 +3,7 @@ description: Adobe Analytics 資料控管常見問題集
 title: 資料控管的常見問題集
 feature: Data Governance
 exl-id: 57399c1b-cf08-405b-8c1b-9d23e4c38716
-source-git-commit: 4bbed2efde0574bc9f5f6a78a022a22490e75549
+source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
 workflow-type: tm+mt
 source-wordcount: '2164'
 ht-degree: 87%
@@ -119,7 +119,6 @@ Adobe Analytics 會要求客戶設定處理資料隱私權請求時的資料保�
 請聯絡您的客戶經理 (CSM) 來協調工程架構顧問團隊，進一步檢視，並投入移除所有 PII 或資料問題。
 
 +++
-
 
 其他資料隱私權資源：
 
