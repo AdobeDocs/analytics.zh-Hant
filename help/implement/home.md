@@ -2,7 +2,7 @@
 title: 實作 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
 feature: Implementation Basics
-source-git-commit: ad0099e41315b5e61cd62747e68f578266b47054
+source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 40%
@@ -64,7 +64,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 >[!TIP]
 >
->請連絡Adobe，以取得建議和最佳實務，以便根據您目前的情況選擇哪些實作。 >
+>請連絡Adobe，以取得建議和最佳實務，以便根據您目前的情況選擇哪些實作。
 
 ## 行動應用程式實作方法
 
