@@ -1,47 +1,91 @@
 ---
-title: 使用AppMeasurement for JavaScript實現Adobe Analytics
+title: 使用JavaScript適用的AppMeasurement實作Adobe Analytics
 description: 瞭解如何在不使用標記管理系統的情況下使用 JavaScript 實施 Adobe Analytics。
 feature: Implementation Basics
-exl-id: 25b9d768-c641-4f6c-a4ae-0d6c238c4776
-source-git-commit: 99fc7814eaa12d0d9e8e478629a4c2134a577aaa
+source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 91%
+source-wordcount: '198'
+ht-degree: 41%
 
 ---
 
-# 使用AppMeasurement for JavaScript實現Adobe Analytics
+# 使用JavaScript適用的AppMeasurement實作Adobe Analytics
 
 JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方法。但由於標記管理系統越來越熱門，所以建議使用 [Adobe Experience Platform 中的標記](../launch/overview.md)。
 
-## 使用 JavaScript 將資料傳送至 Adobe 的整體工作流程
+實作工作的概觀：
 
-1. 載入 `AppMeasurement.js` 檔案。此檔案包含將資料傳送至 Adobe 所需的資料庫。
+![使用AppMeasurement實作Adobe分析概觀](../assets/appmeasurement-annotated.png)
 
-   ```html
-   <script src="AppMeasurement.js"></script>
-   ```
+<table>
+<tr>
+<td></td><td> <b>工作</b></td><td><b>更多資訊</b></td>
+</tr>
 
-2. 在中定義設定 `AppMeasurement.js` 變數。Analytics 物件實例化時，這些變數可確保資料彙集設定正確無誤。如需可定義變數的完整清單，請參閱[設定變數](../vars/config-vars/configuration-variables.md)。
+<tr>
+<td>1</td><td>確保您 <b>定義報表套裝</b></td><td><a href="../../admin/admin/c-manage-report-suites/report-suites-admin.md">報表套裝管理員</a></td>
+</tr>
 
-   ```js
-   // Instantiate the Analytics tracking object with report suite ID
-   var s_account = "examplersid";
-   var s=s_gi(s_account);
-   // Make sure data is sent to the correct location
-   s.trackingServer = "example.data.adobedc.net";
-   ```
+<tr>
+<td>2</td><td><b>下載AppMeasurement所需的JavaScript程式碼</b> 從代碼管理器。 將檔案解壓縮。</td><td><a href="../../admin/admin/code-manager-admin.md">程式碼管理員</a></td>
+</tr>
 
-3. 在網站的頁面代碼中定義頁面層級變數。這些變數會決定傳送至 Adobe 的特定維度和量度。如需可定義變數的完整清單，請參閱[頁面變數](../vars/page-vars/page-variables.md)。
+<tr>
+<td>3</td><td><b>新增 <code>AppMeasurement.js</code> 到您網站的範本檔案</b>. 程式碼包含將資料傳送至Adobe所需的程式庫。
 
-   ```js
-   s.pageName = "Example page";
-   s.eVar1 = "Example eVar";
-   s.events = "event1";
-   ```
+```html
+<head>
+  <script src="AppMeasurement.js"></script>
+  …
+</head>
+```
 
-4. 定義所有頁面層級變數後，請使用 `t()` 方法將資料傳送至 Adobe。如需詳細資訊，請參閱 [t](../vars/functions/t-method.md)。
+</td><td></td>
+</tr>
 
-   ```js
-   s.t();
-   ```
+<tr>
+<td>4</td><td><b>在中定義設定 <code>AppMeasurement.js</code></b> 變數。Analytics物件實例化時，這些變數可確保資料收集設定正確無誤。
+
+```JavaScript
+// Instantiate the Analytics tracking object with report suite ID
+var s_account = "examplersid";
+var s=s_gi(s_account);
+ 
+// Make sure data is sent to the correct tracking server
+s.trackingServer = "example.data.adobedc.net";
+```
+
+</td><td><a href="../vars/config-vars/configuration-variables.md">設定變數</a></td>
+</tr>
+
+<tr>
+<td>5</td><td><b>在網站的頁面程式碼中定義頁面層級變數</b>. 這些變數會決定傳送至 Adobe 的特定維度和量度。
+
+```js
+s.pageName = "Example page";
+s.eVar1 = "Example eVar";
+s.events = "event1";
+```
+
+</td><td><a href="../vars/page-vars/page-variables.md">頁面變數</a></td>
+</tr>
+
+<tr>
+<td>6</td><td><b>使用將資料傳送至Adobe <code>t()</code> 方法</b>，而所有頁面變數皆已定義。
+
+```js
+s.t();
+```
+
+</td><td><a href="../vars/functions/t-method.md">t()方法</a></td>
+</tr>
+
+<tr>
+<td>7</td><td><b>擴充及驗證實作</b> 再推出生產。</b></td><td></td>
+</tr>
+
+</table>
+
+## 其他資源
+
+- [變數、函數、方法和外掛程式總覽](../vars/overview.md)

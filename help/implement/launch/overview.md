@@ -1,38 +1,32 @@
 ---
-title: 使用 Adobe Experience Platform 中的標記實作 Adobe Analytics
-description: 了解如何使用標記來實作 Adobe Analytics
+title: 使用Analytics擴充功能實作Adobe Analytics
+description: 了解如何使用標籤和Analytics擴充功能實作Adobe Analytics
 feature: Launch Implementation
-exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '308'
-ht-degree: 100%
+source-git-commit: 472faef9c6ef99d4e58f2f5a9a71ca8d058f0ee2
+workflow-type: tm+mt
+source-wordcount: '358'
+ht-degree: 48%
 
 ---
 
-# 使用 Adobe Experience Platform 中的標記實作 Adobe Analytics
+# 使用Analytics擴充功能實作Adobe Analytics
 
-在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實作用於收集資料的程式碼。 Adobe 目前的建議方法是透過 Adobe Experience Platform 中的標記。
+在 Adobe Analytics 的生命週期內，Adobe 提供了數種不同的方式，可在您的網站上實作用於收集資料的程式碼。 Adobe目前的建議方法是透過Adobe Experience Platform中的標籤。
 
 Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部署 Analytics 程式碼以及其他標記需求。 Adobe 可與其他解決方案和產品整合，且您可部署自訂程式碼。您不需依賴組織內部的任何開發團隊更新網站上的程式碼，便可完成上述所有工作。
 
 所有擁有有效 Adobe Experience Cloud 合約的客戶都可以使用標記。 如果您不確定您是否擁有存取權，請聯絡貴組織的任一位 Experience Cloud 系統管理員。
 
-## 整體工作流程
+實作工作的概觀：
 
-使用標記讓實作得以運行需遵循以下步驟：
+![Adobe Analytics使用Analytics擴充功能工作流程](../assets/analytics-extension-annotated.png)
 
-1. **取得標記的存取權**：您可以透過貴組織的系統管理員來取得 Platform 標記的存取權。
-2. **建立標記屬性**：屬性是用來參照標記管理資料的總體容器。
-3. **部署至開發環境**：有一個讓您可反覆進行標記開發程序的環境。
-4. **驗證並發佈至生產環境**：確認一切都正常運作，然後發佈使其上線。
-
-請參閱「[建立 Analytics 標記屬性](create-analytics-property.md)」，以開始使用。
+| |任務 |更多資訊 | |-| —|—| | 1 |確定您 **定義報表套裝**. | [報表套裝管理器](../../admin/admin/c-manage-report-suites/report-suites-admin.md) | | 2 | **建立資料層** 管理網站上資料的追蹤。 | [建立資料層](../prepare/data-layer.md) | | 3 | **建立標籤屬性**. 屬性是用於參考標籤管理資料的整體容器。| [建立Adobe Analytics標籤屬性](../launch/create-analytics-property.md) | | 4 | **安裝Analytics擴充功能** 在標籤屬性中。 設定Analytics擴充功能以將資料傳送至Adobe Analytics。 | [Adobe Analytics擴充功能概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/client/analytics/overview.html?lang=en) | | 5 | **部署至開發環境**. 有一個環境，讓您可反覆進行標籤開發程式。 | [將Analytics實施部署至開發環境](./deploy-dev.md) | | 6 | **驗證並發佈至生產環境**. 將標籤屬性新增至您的網站。 然後使用資料元素、規則等來自訂您的實作。| [驗證開發實施並發佈至生產環境](./validate-publish-prod.md) |
 
 ## 其他資源
 
 標記具有可高度客製化的特性。 進一步了解如何在實作中加入適當的資料，以充分運用 Adobe Analytics。
 
-* [標記文件](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)：了解此介面的運作方式以及有哪些可用的擴充功能。
-* [Adobe Analytics 擴充功能](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)：使用 Analytics 擴充功能將資料傳送至 Adobe Analytics。
-* [實施變數](../vars/overview.md)：決定您要將哪些變數傳送至資料收集伺服器。
+- [標記文件](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html#)：了解此介面的運作方式以及有哪些可用的擴充功能。
+
+- [實施變數](../vars/overview.md)：決定您要將哪些變數傳送至資料收集伺服器。
