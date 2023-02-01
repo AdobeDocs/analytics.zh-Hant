@@ -3,10 +3,10 @@ description: 說明如何設定成功事件的步驟。
 title: 設定成功事件
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 89%
 
 ---
 
@@ -32,7 +32,15 @@ ht-degree: 100%
 1. 在&#x200B;**[!UICONTROL 「極性」]**&#x200B;欄中，指定此量度的趨勢上升是好事或壞事。
 1. 在&#x200B;**[!UICONTROL 「可見性」]**&#x200B;欄中，您可以在功能表、量度選擇器、計算量度產生器及區段產生器中隱藏標準 (內建) 量度、自訂事件及內建事件。
 
-   此設定不會影響該量度或事件的資料收集作業，只會影響其使用者介面的可見性。[更多...](/help/admin/admin/metric-visibility.md)
+   此設定不會影響該量度或事件的資料收集；它只會影響其使用者介面中的可見性，如下所示：
+
+
+   | 設定 | 可見於 | 不可見於 |
+   |---------|----------|---------|
+   | [!UICONTROL **隨處可見**] | <ul><li>Reports &amp; Analytics (功能表和量度選擇器)</li><li>Analysis Workspace</li><li>區段產生器</li><li>計算量度產生器</li></ul> | 不適用 |
+   | [!UICONTROL **產生器**] | <ul><li>區段產生器</li><li>計算量度產生器</li></ul> | <ul><li>Reports &amp; Analytics (功能表和量度選擇器)</li><li>Analysis Workspace</li></ul> |
+   | [!UICONTROL **隨處隱藏**] | 不適用 | <ul><li>Reports &amp; Analytics (功能表和量度選擇器)</li><li>Analysis Workspace</li><li>區段產生器</li><li>計算量度產生器</li></ul> |
+
 1. 提供說明。
 1. 檢查是否一律記錄事件。
 1. 啟用或停用參與率度量。
