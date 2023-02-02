@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: f941326a3e2bc510891371f2dad658c1b23bece2
+source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 74%
+source-wordcount: '1247'
+ht-degree: 73%
 
 ---
 
@@ -13,27 +13,23 @@ ht-degree: 74%
 
 用戶端提示指有關使用者裝置的個別資訊。上述提示會透過 Google Chrome 和 Microsoft Edge 之類的 Chromium 瀏覽器提供。對於這些瀏覽器，用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。Adobe Analytics 將更新其裝置查找流程，以便使用除使用者代理程式以外的用戶端提示來確定裝置資訊。
 
+## 低熵和高熵客戶端提示
+
 Google 將使用者代理程式用戶端提示分為兩種類別：低平均資訊量和高平均資訊量提示。
 
 * **低平均資訊量**&#x200B;提示包含較多關於裝置的一般資訊。這些提示會由 Chromium 瀏覽器自動供應。
 
 * **高平均資訊量**&#x200B;提示包含較多詳細資訊。這些提示則只能透過請求取得。AppMeasurement 和 Web SDK 都可設定為請求高平均資訊量提示。依預設，兩種資料庫都&#x200B;**不會**&#x200B;請求高平均資訊量提示。
 
->[!NOTE]
->
->自2023年2月16日起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement和Web SDK目前均支援提示資料的收集，但要到2月中旬才會用於裝置查詢。 如以下作業系統版本已於10月起凍結，但由於逐步推出，以及許多使用者代理已提供凍結的作業系統版本（請參閱更多資訊） [此處](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響&lt;3%的Chrome訪客。
+從2022年10月開始，新版Chromium瀏覽器開始「凍結」User-Agent字串中代表的作業系統版本。 作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
 
->[!NOTE]
->
->從2022年10月開始，新版Chromium瀏覽器開始「凍結」User-Agent字串中代表的作業系統版本。 作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
+自2023年2月16日起，Analytics裝置查閱程式將納入用戶端提示。 AppMeasurement和Web SDK目前均支援提示資料的收集，但要到2月中旬才會用於裝置查詢。 如以下作業系統版本已於10月起凍結，但由於逐步推出，以及許多使用者代理已提供凍結的作業系統版本（請參閱更多資訊） [此處](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響&lt;3%的Chrome訪客。
 
 >[!NOTE]
 >
 > 自2023年1月起，部分Mac和Windows作業系統版本在使用者代理中的呈現方式不正確，但在高熵用戶端提示中呈現的方式正確。 請參閱 [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant) 以取得更多資訊。
 
->[!NOTE]
->
->AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+AAM需要收集高熵提示，以保留完整功能。 如果您使用的是 [伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 ## 常見問題集
 
