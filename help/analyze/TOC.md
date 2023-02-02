@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 0d7ae5dea6597996039d5af5256be8b5b65b3bd3
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 97%
+source-wordcount: '1078'
+ht-degree: 99%
 
 ---
 
@@ -61,11 +61,6 @@ ht-degree: 97%
          + [日曆和日期範圍總覽](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)
          + [日期比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
-      + 資料字典 {#data-dictionary}
-         + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [在資料字典中檢視元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [在資料字典中編輯元件項目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
-         + [監視資料字典健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 視覺效果 {#visualizations}
       + [視覺效果總覽](analysis-workspace/visualizations/freeform-analysis-visualizations.md)
       + [管理資料來源](analysis-workspace/visualizations/t-sync-visualization.md)

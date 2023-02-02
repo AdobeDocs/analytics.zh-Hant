@@ -5,10 +5,10 @@ title: 建立分享連結
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 4b11a7057177bec9d2e9d7c435ad0d5476a46602
+source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 68%
+source-wordcount: '298'
+ht-degree: 80%
 
 ---
 
@@ -32,14 +32,6 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/visualizations/intra-linking-in-analysis-workspace.html?lang=zh-Hant)以了解如何建立連結，並使用連結引導收件者前往專案的特定部分。
 
 ![](assets/get-viz-link.png)
-
-## 取得公開連結
-
-{{release-limited-testing-section}}
-
-您可以與無法存取Analysis Workspace的使用者共用Adobe Analytics專案。 這可能包括組織外部的人員，或組織內未布建Adobe Analytics的人員。
-
-如需詳細資訊，請參閱 [與任何人共用公開連結（不需登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).)
 
 ## 在目錄中使用連結 {#TOC}
 
