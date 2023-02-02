@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
+source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 95%
 
 ---
@@ -42,9 +42,7 @@ ht-degree: 95%
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + [隱私權報告](admin/privacy-reporting.md)
    + [報告活動管理器](admin/reporting-activity.md)
-   + [排程報告佇列](admin/scheduled-reports-admin.md)
    + 報表套裝管理員 {#manage-report-suites}
       + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
       + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
@@ -136,6 +134,7 @@ ht-degree: 95%
             + [計劃尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [持久流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [應用程式管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
+         + [隱私權報告](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
          + 即時報表 {#real-time-reports}
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
