@@ -4,10 +4,10 @@ description: 將成功事件的評分歸因於多個維度項目的概念。
 feature: Attribution
 role: User, Admin
 exl-id: 47a3523b-d9eb-4272-84b8-090b921cba13
-source-git-commit: ecb3600d524817ccb01f0e0697672e4828d99e86
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '469'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 歸因可讓分析人員自訂維度項目獲得成功事件評分的方式。例如：
 
 1. 您的網站訪客按了一下您其中一個產品頁面的付費搜尋連結。他們將產品新增至購物車，但並未購買。
-2. 隔天，他們看到了朋友的社交媒體貼文，就按下連結，並完成購買。
+2. 第二天，他們看到朋友的社交媒體貼文，按一下連結，然後完成購買。
 
 在某些報表中，您可能想要將訂單歸因於「付費」搜尋。在其他報表中，則可能會將訂單歸因至「社交」。歸因可讓您控制報表的這個方面。Adobe Analytics Ultimate、Prime、Select 和 Foundation 的所有組織都可使用。如果您不確定您與 Adobe 的合約類型，請聯絡貴組織的客戶經理。
 

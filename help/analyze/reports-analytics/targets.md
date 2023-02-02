@@ -5,9 +5,9 @@ uuid: bfe29dc8-8da8-4107-8bb1-4a7494f12bc9
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6852e429-5b05-432c-bc6b-27f8c464dc50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '558'
 ht-degree: 90%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 90%
 
 ## 新增 [!UICONTROL 目標] {#task_94915391E26E4F808F2538AA92BC7E71}
 
-說明如何新增目標的步驟。
+若要新增目標:
 
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 目標]**.
 1. 在 [!UICONTROL 管理目標] 頁面，按一下 **[!UICONTROL 添加新……]**.

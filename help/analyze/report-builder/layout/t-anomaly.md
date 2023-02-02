@@ -5,16 +5,16 @@ uuid: 1e504ff9-df88-4fa7-95ea-1ca05a6f9c0d
 feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 94%
 
 ---
 
 # 設定異常偵測請求
 
-關於如何在 Report Builder 建立異常偵測請求的步驟。
+若要在Report Builder中建立異常偵測請求：
 
 1. 選取趨勢化報表，如&#x200B;**[!UICONTROL 網站度量]**>**[!UICONTROL 流量]**&#x200B;報表。
 1. 在[!UICONTROL 「套用粒度」]功能表，選取&#x200B;**[!UICONTROL 「日」]**。

@@ -3,10 +3,10 @@ description: 分類規則會經常尋找未分類的詞語。如果找到符合�
 title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '2020'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '2015'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」。
 
-   您可在[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
+   您可在[](/help/components/classifications/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
 
 * 覆寫索引鍵時，在指定的時間範圍後，即使在您啟用「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」後，分類的索引鍵仍未在資料中顯示。
 * 索引鍵並未分類，而且在約一個月之前開始的時間範圍之後，索引鍵從未傳入 [!DNL Adobe Analytics]。
@@ -304,13 +304,13 @@ t_classification_rule.xml
 
  -->
 
-說明如何新增或編輯分類規則的步驟。
-
 匹配條件與分類，並指定動作以新增規則。
 
 >[!NOTE]
 >
 >在這個程序中，您必須套用規則到一個或多個報告套裝。每個規則集的建議規則數是介於 500 到 1000 個規則之間，但是沒有限制。如果您有 100 多個規則，請考慮使用[子分類](/help/components/classifications/c-sub-classifications.md)簡化您的規則集。
+
+若要新增或編輯分類規則：
 
 1. [建立分類規則集](/help/components/classifications/crb/classification-rule-set.md)。
 1. 在規則集頁面上，按一下&#x200B;**[!UICONTROL 「新增規則」]**。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*只有*&#x200B;在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
    >* 報告套裝的「[!UICONTROL 管理工具]」中，至少為該變數定義了一個分類。
-   >
-   >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
+      >
+      >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
    >
    >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
@@ -363,7 +363,9 @@ t_classifications_test_rule.xml
 
  -->
 
-說明如何測試分類規則或規則集的步驟。執行測試會檢查規則集內所有的規則。
+您可以測試分類規則或規則集。 執行測試會檢查規則集內所有的規則。
+
+若要測試分類規則集：
 
 1. [建立分類規則集](/help/components/classifications/crb/classification-rule-set.md)。
 1. 在「[!UICONTROL 分類規則產生器]」上，按一下規則集名稱。
@@ -395,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-說明如何驗證和啟動分類規則的步驟。
+若要驗證和啟用分類規則：
 
 1. [建立分類規則集](/help/components/classifications/crb/classification-rule-set.md)，然後[新增分類規則](/help/components/classifications/crb/classification-quickstart-rules.md)至該集。
 1. 在規則編輯器上，按一下&#x200B;**[!UICONTROL 「啟動」]**。

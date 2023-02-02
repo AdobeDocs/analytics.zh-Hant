@@ -5,10 +5,10 @@ uuid: c2e81c6c-bfe9-4457-8b5d-512255ca9711
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 5a098b38-0939-4dd2-9a05-1b6b678f2d50
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '592'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 97%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 {{ra-eol}}
 
-說明如何將圖表自訂成對目標對象最有用之圖表的步驟。
+您可以自訂圖表，讓它對目標對象最有用。
 
 可用的圖表類型取決於您執行的報告類型。例如，「趨勢線」圖表對於趨勢報告有用，但是您還可使用具有趨勢線的垂直橫條圖表，它清楚地表明了特定日期、週、月等的趨勢。或者，可選擇圓形圖來表示已檢視頁面的百分比。
 
-**若要變更報告圖形**
+若要變更報告圖形:
 
 1. 執行報告。
 1. 按一下&#x200B;**[!UICONTROL 設定圖表]**。

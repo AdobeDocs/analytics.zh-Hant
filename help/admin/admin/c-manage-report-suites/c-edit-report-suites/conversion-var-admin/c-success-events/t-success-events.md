@@ -3,18 +3,18 @@ description: 說明如何設定成功事件的步驟。
 title: 設定成功事件
 feature: Event
 exl-id: 0e9a6d8f-2ce7-4551-885d-bd77ff131da0
-source-git-commit: 3f5834bb8a6460acacc806839a6d9ae45b2e7afd
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 89%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
 # 設定成功事件
 
-說明如何設定成功事件的步驟。
+若要設定成功事件：
 
-1. 按一下&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝」]**。
+1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 1. 選取報表套裝。
 1.  按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 成功事件」]**。
 

@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。它�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '570'
+ht-degree: 94%
 
 ---
 
@@ -37,7 +37,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ![](assets/create-new-project.png)
 
-此外，預先建立的&#x200B;**範本** (包括 Adobe 提供的標準範本或貴組織建立的自訂範本) 也是您開始建立分析的理想選擇。您可以依據分析類型或其用途，從多種範本中挑選合適的範本使用。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)不同的範本選項。
+此外，預先建立的&#x200B;**範本** (包括 Adobe 提供的標準範本或貴組織建立的自訂範本) 也是您開始建立分析的理想選擇。根據您的分析或使用案例，有數種不同的範本可供使用。 [深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)不同的範本選項。
 
 ## 建立分析 {#analysis}
 
@@ -51,7 +51,7 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ### 視覺效果
 
-接著可以在資料上增加&#x200B;**視覺效果** (例如長條圖或折線圖)，以視覺化方式生動呈現資料。在左側邊欄中，選取中間的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;圖示，即可檢視完整的可用[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)清單。
+**視覺效果**，例如長條圖或折線圖，可以透過視覺化方式生動呈現資料。 在左側邊欄中，選取中間的&#x200B;**[!UICONTROL 「視覺效果」]**&#x200B;圖示，即可檢視完整的可用[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=zh-Hant)清單。
 
 ![](assets/build-visualizations.png)
 

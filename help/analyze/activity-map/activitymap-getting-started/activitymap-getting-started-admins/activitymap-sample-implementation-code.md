@@ -4,13 +4,13 @@ title: 實作 Activity Map
 feature: Activity Map
 role: User, Admin
 exl-id: d7ca35df-8fbe-4e87-b1e9-e1a77d5f420f
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '40'
+ht-degree: 57%
 
 ---
 
 # 實作 Activity Map
 
-可透過 Adobe Analytics 標記擴充功能中的勾選方塊 (在「[連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant)」底下) 來實作 Activity Map。
+Activity Map可在Adobe Analytics標籤擴充功能下方的核取方塊中實作，其位於 [連結追蹤](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=zh-Hant).

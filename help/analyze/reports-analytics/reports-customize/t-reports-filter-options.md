@@ -5,10 +5,10 @@ uuid: b6dcaaf7-61f0-4793-870d-e1d156575d5a
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 232c6f69-40bf-487a-8621-d1d7d633681f
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 99%
 
 ---
 
@@ -141,7 +141,7 @@ Ocean Blue Jean
 
 ## 建立報表專用篩選器 {#task_DEBB0632411D4CA8AA0B3BA267A5B35F}
 
-說明如何建立報表篩選器。
+您可以建立報表的篩選器。
 
 <!-- 
 
@@ -153,7 +153,7 @@ t_reports_filter_specific.xml
 
 存取這些篩選時，您可以看到清單中所指定項目的報表精細度。
 
-**建立報表特定篩選器**
+建立報表特定篩選器:
 
 1. 產生報表，例如[!UICONTROL 購買報表] (**[!UICONTROL 網站量度]** > **[!UICONTROL 購買]** > **[!UICONTROL 購買轉換漏斗]**)。
 1. 在報表標題中，按一下&#x200B;**[!UICONTROL 篩選]**&#x200B;連結。
@@ -162,8 +162,6 @@ t_reports_filter_specific.xml
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
 ## 新增關聯篩選器 {#task_065042E384DA4BF3864C58AF2B88D6E2}
-
-說明如何新增關聯篩選器的步驟。
 
 <!-- 
 
@@ -175,7 +173,7 @@ t_reports_correlation_filter.xml
 
 您可以使用任何可用關聯來篩選顯示於關聯報表中的資料。此範例顯示如何新增搜尋引擎關聯篩選器。
 
-**要新增關聯篩選**
+要新增關聯篩選:
 
 1. 執行支援關聯的報表(請參閱[執行劃分報表](/help/analyze/reports-analytics/reports-customize/breakdowns.md#task_F685624830E64C829C8BE6435A107F69))。
 1. 在報表標題中，按一下「**[!UICONTROL 關聯篩選]**」連結。

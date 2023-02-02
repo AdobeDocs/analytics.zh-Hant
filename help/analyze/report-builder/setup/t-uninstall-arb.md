@@ -5,16 +5,16 @@ uuid: 3fade973-e246-4fcb-abc1-0aafddca0536
 feature: Report Builder
 role: User, Admin
 exl-id: 8196d5e2-acf3-4bac-a993-d1b7301214c9
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 91%
+source-wordcount: '121'
+ht-degree: 95%
 
 ---
 
 # 解除安裝 Report Builder
 
-說明解除安裝 Adobe Report Builder 的步驟。
+解除安裝Adobe Report Builder。
 
 1. 確定 Microsoft Excel 已關閉。
 1. 按一下&#x200B;**[!UICONTROL 「開始]** >**[!UICONTROL 控制台」]**。
@@ -24,5 +24,5 @@ ht-degree: 91%
 
    如果您想從 Program Files 目錄完全移除所有檔案與資料夾，請在解除安裝 Report Builder 後執行下列步驟：
 1. 按一下&#x200B;**[!UICONTROL 「開始]** > **[!UICONTROL 電腦」]**。
-1. 導覽至 [!DNL C:\Program Files\Adobe\]，如果是64位版本的Windows，則導覽至[!DNL C:\Program Files (x86)\Adobe.]
+1. 導覽至 [!DNL C:\Program Files\Adobe\]，如果是 64 位元版本 Windows，則導覽至 [!DNL C:\Program Files (x86)\Adobe.]。
 1. 如果此目錄中仍有 Report Builder 資料夾，將其刪除。

@@ -6,10 +6,10 @@ uuid: 380fd148-2ed9-43bf-9d42-46e373e788e4
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: abd5acf5-f743-4c94-81fb-fc6cc69e8f26
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 98%
+source-wordcount: '705'
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 
 ## 管理共用控制面板
 
-說明如何使用共用控制面板管理選項的步驟。
+若要管理共用控制面板：
 
 1. 前往 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 所有元件]** > **[!UICONTROL 控制面板]**.
 1. 在[!UICONTROL 共用控制面板]下，找出要管理的共用控制面板 (或舊版控制面板)，並選擇下列一個或多個選項：
@@ -73,7 +73,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->日後請考慮使用 [Analysis Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)及其下載和排程功能。
+>日後請考慮使用 [Analysis Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)及其下載和排程功能。
 
 複製舊控制面板時，系統會開啟舊控制面板以供編輯，您可新增舊內容或新內容。複製舊控制面板時，其原型會保留在舊控制面板的清單中。
 
@@ -92,7 +92,9 @@ ht-degree: 98%
 
 ## 共用控制面板
 
-說明管理員如何將控制面板與多個使用者共用 (或推送) 至多個使用者的步驟。將控制面板推送給使用者後，控制面板即可用於使用者的[!UICONTROL 共用控制面板]功能表中。
+Analytics管理員可以將控制面板共用（或推送）給多個使用者。 將控制面板推送給使用者後，控制面板即可用於使用者的[!UICONTROL 共用控制面板]功能表中。
+
+若要與多名使用者共用控制面板：
 
 1. 在[!UICONTROL 控制面板管理員]中，找到控制面板並啟用&#x200B;**[!UICONTROL 共用]**。
 1. 按一下&#x200B;**[!UICONTROL 「推送至使用者」]**。![](assets/push.png)
@@ -110,18 +112,3 @@ ht-degree: 98%
 1. 按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 傳送」]**。
 
    如需詳細資訊，請參閱[排程和分送](/help/analyze/reports-analytics/scheduling.md)。
-
-## 封存控制面板
-
->[!NOTE]
->
->2020 年 1 月起不再提供此功能。
-
-說明如何將任何傳送的控制面板封存為 PDF 檔案的步驟。系統會將封存檔儲存兩年，或直到達到封存報表的 4 GB 上限為止 (以先達到的為準)。
-
-1. 開啟一個控制面板。
-1. 按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 傳送」]**。
-1. 在[!UICONTROL 電子郵件報表]群組中，啟用&#x200B;**[!UICONTROL 封存]**。
-1. 指定傳送選項，然後按一下&#x200B;**[!UICONTROL 傳送]**。
-
-   您可以在「控制面板管理員」中檢視已封存的控制面板。或者，也可以開啟控制面板然後按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 檢視封存」]**。

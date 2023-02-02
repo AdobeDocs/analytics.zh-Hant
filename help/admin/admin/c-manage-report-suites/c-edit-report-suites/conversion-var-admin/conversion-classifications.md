@@ -3,10 +3,10 @@ description: 分類用於將值分組，然後依群組級別匯報。例如，�
 title: 轉換分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
-source-wordcount: '560'
-ht-degree: 100%
+source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 新增轉換分類
 
-說明如何在「管理」中新增轉換分類的步驟。
+若要在「管理」中新增轉換分類：
 
 1. 按一下「**[!UICONTROL 管理]**> **[!UICONTROL 報表套裝]**」。
 1. 選取報表套裝。

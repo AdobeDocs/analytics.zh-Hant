@@ -5,10 +5,10 @@ title: 儀表板和報表
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 399765a3-0f90-46b9-b62e-9f41d98eaa9a
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
-workflow-type: ht
-source-wordcount: '1827'
-ht-degree: 100%
+source-git-commit: dbccae5fdfd092da40e0786aa76238f1e6c1ccb9
+workflow-type: tm+mt
+source-wordcount: '1818'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,6 @@ ht-degree: 100%
 
 ## 建立儀表板 {#task_54EFBED59BDC4418A919E6EF84AB9CFF}
 
-說明如何建立儀表板的步驟。
 
 <!-- 
 
@@ -74,6 +73,8 @@ t_dashboard_add.xml
  -->
 
 將報表 (以小報表的形式) 新增到儀表板之前，請定義儀表板的配置。
+
+若要建立控制面板:
 
 1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 管理儀表板」]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增儀表板」]**。
@@ -96,13 +97,15 @@ t_dashboard_add.xml
 
 ## 建立小報表 {#task_EC3AFBBAA51C45CEBAF632F841C305B3}
 
-說明如何建立小報表的步驟。建立小報表之後，就可將它顯示在儀表板中。
+建立小報表後，它可顯示在控制面板中。
 
 <!-- 
 
 t_dashboard_add_report.xml
 
  -->
+
+若要建立小報表:
 
 1. 執行報表。
 1. 按一下&#x200B;**[!UICONTROL 「儀表板」]**。
@@ -122,13 +125,15 @@ t_dashboard_add_report.xml
 
 ## 將內容新增到儀表板 {#task_90D7FAC1CC3E4DB786B4C87CC33B5459}
 
-這些步驟說明如何新增其他儀表板和共用儀表板的內容。您也可以新增自訂和外部來源的內容，例如文字和影像。
+您可以從其他控制面板和共用控制面板新增內容。 您也可以新增自訂和外部來源的內容，例如文字和影像。
 
 <!-- 
 
 t_dashboard_content.xml
 
  -->
+
+若要新增內容到控制面板:
 
 1. 開啟儀表板，按一下&#x200B;**[!UICONTROL 「配置」]**。
 1. 按一下&#x200B;**[!UICONTROL 「新增內容」]**，然後拖曳項目至儀表板。
@@ -208,7 +213,7 @@ t_dashboard_edit.xml
 
 ## 合作品牌儀表板 {#task_603BDE7700B945699AF5514C2DEB81F7}
 
-說明如何上傳影像以顯示於儀表板中的步驟。
+若要上傳要在控制面板中顯示的影像：
 
 <!-- 
 
