@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 01c7fbc8c06bf88e32f198ee5e23d00ba3e6128b
+source-git-commit: 709483bd7a4573004100c9508f5bd78f1f3f253e
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '610'
 ht-degree: 95%
 
 ---
@@ -42,7 +42,6 @@ ht-degree: 95%
    + [預設量度](admin/default-metrics.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + [偏好設定管理員](admin/preferences-manager.md)
    + [隱私權報告](admin/privacy-reporting.md)
    + [報告活動管理器](admin/reporting-activity.md)
    + [排程報告佇列](admin/scheduled-reports-admin.md)
@@ -136,7 +135,6 @@ ht-degree: 95%
             + [概觀](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [計劃尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
             + [持久流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
-         + [個別報表套裝的設定值](admin/c-manage-report-suites/c-edit-report-suites/individual-rs-settings.md)
          + [應用程式管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + 即時報表 {#real-time-reports}
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -144,14 +142,15 @@ ht-degree: 95%
             + [支援的即時量度和維度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
    + 公司設定 {#company-settings}
       + [公司設定總覽](admin/company/c-company-settings.md)
-      + [功能存取層級](admin/company/feature-access-levels.md)
+      + [安全管理員](admin/company/security-manager.md)
       + [網路服務](admin/company/web-services-admin.md)
       + [Report Builder 報表](admin/company/report-builder-reports-admin.md)
       + [單一登入](admin/company/single-signon-admin.md)
-      + [待定動作](admin/company/pending-actions-admin.md)
       + [品牌結合](admin/company/co-branding-admin.md)
       + [隱藏報表套裝](admin/company/c-hide-report-suites.md)
-      + [安全管理員](admin/company/security-manager.md)
+      + [偏好設定管理員](admin/company/preferences-manager.md)
+      + [待定動作](admin/company/pending-actions-admin.md)
+      + [功能存取層級](admin/company/feature-access-levels.md)
    + [影片管理](admin/video-management.md)
    + 伺服器呼叫使用量 {#server-call-usage}
       + [伺服器呼叫使用量總覽](admin/c-server-call-usage/overage-overview.md)
