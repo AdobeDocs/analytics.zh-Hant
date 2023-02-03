@@ -2,8 +2,8 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+source-git-commit: 8a6c639af7427a9975ccd061d059696d4611dff3
+workflow-type: tm+mt
 source-wordcount: '1444'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 | `web.webInteraction.name` | [自訂連結](../../components/dimensions/custom-link.md)、[下載連結](../../components/dimensions/download-link.md)或[退出連結](../../components/dimensions/exit-link.md)維度 (視 `web.webInteraction.type` 中的值而定) |
 | `web.webInteraction.type` | 判斷點擊的連結類型。有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。 |
 | `web.webPageDetails.URL` | [頁面 URL](../../components/dimensions/page-url.md) 維度。 |
-| `web.webPageDetails.errorPage` | 有助於判斷「找不到頁面」[維度](../../components/dimensions/pages-not-found.md)和[量度](../../components/metrics/pages-not-found.md)的旗標。 |
+| `web.webPageDetails.isErrorPage` | 有助於判斷「找不到頁面」[維度](../../components/dimensions/pages-not-found.md)和[量度](../../components/metrics/pages-not-found.md)的旗標。 |
 | `web.webPageDetails.name` | [頁面](../../components/dimensions/page.md)維度。 |
 | `web.webPageDetails.server` | [伺服器](../../components/dimensions/server.md)維度。 |
 | `web.webPageDetails.siteSection` | [網站區段](../../components/dimensions/site-section.md)維度。 |
