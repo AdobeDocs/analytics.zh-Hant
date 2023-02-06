@@ -1,16 +1,16 @@
 ---
-description: 在 Analytics 中啟用 Activity Map 報告的管理步驟。
-title: Activity Map 報表
-feature: Activity Map
-exl-id: e1d3f894-b769-4294-b550-f46869b812be
+description: 您可以在Adobe Analytics中檢視Activity Map資料
+title: 在Adobe Analytics中檢視Activity Map資料
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 86%
 
 ---
 
-# Activity Map 報表
+
+# 在Adobe Analytics中檢視Activity Map資料
 
 在 Analytics 中啟用 Activity Map 報告的管理步驟。
 
@@ -28,6 +28,6 @@ ht-degree: 100%
    | Activity Map 連結 | 列出整個網站上所有收集的連結。 |
    | Activity Map 連結和地區 | 列出整個網站上所有收集的連結及其地區。 |
 
-對於要填入的資料，請參閱 [Activity Map 文件](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-Hant)以了解完整的實作指示。
+對於要填入的資料，請參閱 [Activity Map 文件](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html)以了解完整的實作指示。
 
-<!--The content in this article is duplicated with the content in the Admin guide (activity-map.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (activitmap-reporting.md)-->

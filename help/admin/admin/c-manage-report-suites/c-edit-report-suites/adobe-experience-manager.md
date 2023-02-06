@@ -1,16 +1,16 @@
 ---
-description: 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
-title: 如何在 Adobe Analytics 中製作 AEM Assets 報表
-feature: AEM Assets Reporting
-exl-id: 48beac22-60af-4030-ac40-4c5d12f25d5e
+description: 您可以在Adobe Analytics中檢視Adobe Experience Manager資料
+title: 在Adobe Analytics中檢視Adobe Experience Manager資料
+feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 93%
+source-wordcount: '119'
+ht-degree: 72%
 
 ---
 
-# AEM Assets 報表
+
+# 在Adobe Analytics中檢視Adobe Experience Manager資料
 
 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
 
@@ -24,4 +24,4 @@ ht-degree: 93%
 
 對於要填入的資料，請參閱 [AEM Asset Insights 文件](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/assets-insights.html)以了解完整的實作指示。
 
-<!--The content in this article is duplicated with the content in the Admin guide (adobe-experience-manager.md)-->
+<!--The content in this article is duplicated with the content in the Integration guide (aem-assets-reporting.md)-->
