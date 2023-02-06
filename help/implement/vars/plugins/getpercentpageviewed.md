@@ -4,9 +4,9 @@ description: 擷取訪客所檢視的頁面比例。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
 source-git-commit: 2575db561c244a9b52f98355137e73f05b3b7ee4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -58,7 +58,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 
 `getPercentPageViewed` 函數會使用以下引數：
 
-* **`pid`** （選用，字串）:等於目前頁面的變數或值。 預設為Analytics AppMeasurement `pageName` 變數或目前的URL（若未設定AppMeasurement pageName變數）。
+* **`pid`** (選項，字串)：等於目前頁面的變量或值。 在 AppMeasurement pageName 變數尚未設定的情況下，預設為 Analytics AppMeasurement `pageName` 變數或 目前的 URL。
 * **`ch`** (選用，布林值)：如果您不希望外掛程式考慮頁面初次載入後對頁面大小所做的任何變更，請將此項設為 `false` (或 `0`)。如果省略，此引數會預設為 `true`。Adobe 建議在大多數情況下省略此引數。
 
 呼叫此函數不會傳回任何內容，而是會設定以下變數：
@@ -66,7 +66,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvPreviousPage`：已檢視的上一頁名稱。載入新頁面後才可對目前頁面進行最終捲動測量。
 * `window._ppvInitialPercentViewed`：上一個頁面初次載入時的頁面可見百分比。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `100`。
 * `window._ppvHighestPercentViewed`：訪客已檢視的上一個頁面的最高比例 (以高度計)。訪客在上一個頁面向下捲動至最遠的點。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `100`。
-* `window._ppvFinalPercentViewed`:訪客移至目前頁面時的上一頁可見比例。 此值將等於或大於初始檢視百分比，也等於或小於最高檢視比例頁面。
+* `window._ppvFinalPercentViewed`：在訪客前往頁面時可見到上一頁的百分比。 此數值將等於或大於原始檢視百分比，也將等於或小於最高頁面檢視百分比。
 * `window._ppvHighestPixelsSeen`：當訪客向下捲動前一個頁面時已查看之總畫素的最高數量 (以高度計)。
 * `window._ppvFoldsAvailable`：可在上一個頁面向下捲動的「摺頁」總數。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
 * 
@@ -103,9 +103,9 @@ if(_ppvPreviousPage)
 
 ## 版本記錄
 
-### 5.1（2022年12月8日）
+### 5.1 (2022 年 12 月 8 日)
 
-* 新增 `_finalPercentViewed` 解決方案
+* 已新增 `_finalPercentViewed` 解決方案
 
 ### 5.0.1 (2021 年 6 月 22 日)
 
