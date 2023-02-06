@@ -4,9 +4,9 @@ description: 追蹤頁面載入所需的時間。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
 source-git-commit: a00511d62960dc077620b2882f4e7f816267f939
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 64%
 
 `getPageLoadTime` 外掛程式使用 JavaScript 效能物件，可讓您測量頁面完全載入所花的時間。如果您想要測量頁面載入所需的時間，Adobe 建議使用此外掛程式。
 
->注意/警告：如果您要從舊版升級此外掛程式，您很可能也需要變更呼叫此函式的程式碼。  部署至生產環境前，請先檢查您的實作並徹底測試
+>注意/警告：如果您從以前的版本升級此外掛程式，您很可能還需要變更呼叫此函數的程式碼。 在部署到生產環境之前，請徹底檢查您的實施和測試
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -42,7 +42,7 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。
@@ -62,16 +62,16 @@ Analytics 追蹤物件實例化 (使用 [`s_gi`](../functions/s-gi.md)) 後，�
 
 `getPercentPageViewed` 函數會使用以下引數：
 
-* **`pv`** （選用，字串）:將頁面載入時間與相關聯的維度。  此值應等於識別頁面本身的值。 若未設定，此引數會預設為Adobe AppMeasurement pageName變數（即s.pageName）或s.pageName未設定時的URL
+* **`pv`** (選項，字串)：與頁面載入時間相關聯的維度。 此值應等於識別頁面本身的值。 未設定時，此參數預設為 Adobe AppMeasurement pageName 變數 (即 s.pageName) 或未設定 s.pageName 時的 URL
 
 呼叫此函數不會傳回任何內容，而是會設定以下變數：
 
-* `window._pltPreviousPage`:上一頁的值（即傳入pv引數的內容）
+* `window._pltPreviousPage`：上一個頁面的值 (即傳遞給 pv 參數的內容)
 * `window._pltLoadTime`：上一頁載入所花費的秒數
 
-getPageLoadTime外掛程式會建立一個第一方Cookie:
+getPageLoadTime 外掛程式會建立一個第一方 Cookie：
 
-* `s_plt`：上一頁載入所花費的秒數。也包含傳入pv引數的值。  瀏覽器作業階段結束時會到期。
+* `s_plt`：上一頁載入所花費的秒數。同時會含有傳遞給 pv 參數的內容值。 瀏覽器作業階段結束時會到期。
 
 ## 範例
 
@@ -92,12 +92,12 @@ if(window._pltPreviousPage)
 
 ## 版本記錄
 
-### 3.0（2022年12月6日）
+### 3.0 (2022 年 12 月 6 日)
 
-* 全面重寫外掛程式，讓其不受解決方案限制。  例如，現在此功能與AEP Web SDK相容
-* 建立 `_pltPreviousPage` 和 `_pltLoadTime` 視窗物件中的變數（而非AppMeasurement s物件中）
-* 移除s_plt Cookie的需求 — 所有內容現在僅儲存在s_plt Cookie
-* 包含getVersion函式以協助疑難排解
+* 全面重寫外掛程式，使其與解決方案無關。 例如，這現在與 AEP Web SDK 相容
+* 在視窗物件中建立 `_pltPreviousPage` 和 `_pltLoadTime` 變數 (而不是在 AppMeasurement 物件中)
+* 移除對 s_pltp cookie 的需要 - 現在所有內容都只儲存在 s_plt cookie 中
+* 包括 getVersion 函數以幫助進行故障排除
 
 ### 2.0.1 (2021 年 3 月 26 日)
 
