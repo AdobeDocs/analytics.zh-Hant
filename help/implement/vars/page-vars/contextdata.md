@@ -4,9 +4,9 @@ description: 上下文資料變數可讓您在每個頁面上定義處理規則�
 feature: Variables
 exl-id: f2c747a9-1a03-4f9f-8025-9f4745403a81
 source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '509'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 80%
 
 上下文資料變數有助於開發團隊收集命名元素中的資料，而非編號變數。例如，與其要求開發團隊將頁面的作者指派給 `eVar10`，不如要求將頁面作者指派給 `s.contextData["author"]`。接下來，貴組織中的 Analytics 管理員就可以建立處理規則，將上下文資料變數與分析變數對應，以便進行報告。開發團隊最終只需擔心上下文資料變數，不必擔心 Adobe 提供的許多頁面變數。
 
-## 使用Web SDK的內容資料變數
+## 使用 Web SDK 的內容資料變數
 
-如果XDM欄位不是 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，則會自動納入為內容資料變數。 之後，您就可以使用 [處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md) 將內容資料變數指派至所需的Analytics變數。
+如果 XDM 欄位未[和 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，此欄位會以內容資料變數自動包含在內。然後，您可以使用[處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-processing-rules/processing-rules.md)將此內容資料變數指派到所需的 Analytics 變數。
 
-雖然將資料對應至Datastream中正確的XDM欄位是最佳作法，但此方法取得類似的結果。
+雖然將資料對應到資料流中正確的 XDM 欄位是最佳實務，但此方法可獲得類似的結果。
 
-## 使用Adobe Analytics擴充功能的內容資料變數
+## 使用 Adobe Analytics 擴充功能的內容資料變數
 
-Adobe Experience Platform資料收集沒有設定上下文資料變數的專用位置。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Experience Platform 資料收集沒有專用位置可設定上下文資料變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.contextData
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.contextData
 
 `s.contextData` 變數不會直接取用值。請改為將此變數的屬性設為字串。
 
