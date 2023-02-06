@@ -6,9 +6,9 @@ feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
 source-git-commit: 6d9167b41080fdb45b78148a9887e4eabd875c62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1155'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,17 +49,17 @@ Analysis Workspace 中有以下視覺效果類型：
 
 ### 自訂單一視覺效果的視覺效果設定
 
-若要存取 [!UICONTROL 視覺效果設定] 針對個別視覺效果：
+若要針對個別視覺效果存取[!UICONTROL 視覺效果設定]：
 
-1. 在Analysis Workspace中，將滑鼠移至您要自訂其設定的視覺效果上。
+1. 在 Analysis Workspace 中，將滑鼠移至您要自訂其設定的視覺效果上。
 
 1. 按一下齒輪圖示。
 
-   每種視覺效果類型都有您可自訂的不重複設定。 如需可用設定的詳細資訊，請參閱 [設定](#settings).
+   每種視覺效果類型都有您可自訂的不重複設定。 如需可用設定的詳細資訊，請參閱[設定](#settings)。
 
-### 針對您建立的所有視覺效果自訂視覺效果設定
+### 自訂您建立的所有視覺效果的視覺效果設定
 
-您可以自訂所有您建立的視覺效果設定。 如需詳細資訊，請參閱 [使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md).
+您可以自訂您建立的所有視覺效果的視覺效果設定。 如需詳細資訊，請參閱[使用者偏好設定](/help/analyze/analysis-workspace/user-preferences.md)。
 
 ## 設定 {#settings}
 
