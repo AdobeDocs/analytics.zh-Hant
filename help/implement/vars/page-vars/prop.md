@@ -4,9 +4,9 @@ description: 可在實施中使用的自訂變數。
 feature: Variables
 exl-id: 0d0ff8cd-1d8c-4263-866d-e51ad66148b0
 source-git-commit: 17b5185e5358d661157c20a2504cacdbd4a2cc3d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '603'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -22,24 +22,24 @@ Prop 是自訂變數，您可以視需要使用。這類變數在其設定所在
 
 如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，您可以將這些自訂維度配置給組織的特定值。可用的 Prop 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 75 個 Prop。
 
-## 使用Web SDK的Prop
+## 使用 Web SDK 的屬性
 
-Prop包括 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `_experience.analytics.customDimensions.props.prop1` to `_experience.analytics.customDimensions.props.prop75`. 清單屬性會在個別的欄位集中指定。
+屬性會 [為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `_experience.analytics.customDimensions.props.prop1` 至 `_experience.analytics.customDimensions.props.prop75` 底下。 清單屬性是在一組單獨的欄位中指定。
 
-## 使用Adobe Analytics擴充功能的Prop
+## 使用 Adobe Analytics 擴充功能的屬性
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定 prop，或依據規則進行設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-2. 按一下所需的標記屬性。
-3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「prop」]區段。
 
 您可以將 Prop 設為一個值或資料元素。您也可以複製其他 Analytics 變數的值。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.prop1 - s.prop75
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.prop1 - s.prop75
 
 每個 prop 變數都是字串，其中包含貴組織專屬的自訂值。它們的最大長度為 100 個位元組；超過 100 個位元組的值會在傳送至 Adobe 時自動截斷。
 
@@ -53,17 +53,17 @@ s.prop1 = "Example custom value";
 
 ### 設定清單屬性
 
-在中啟用清單屬性 [流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md) 在報表套裝設定下。 請確認所需的分隔字元已正確設定。Adobe 不提供預設分隔字元。
+在報表套裝設定下的[流量變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)中啟用清單屬性。請確認所需的分隔字元已正確設定。Adobe 不提供預設分隔字元。
 
 >[!TIP]
 >
-> 實施作業中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實作需求的任何非延伸ASCII分隔字元。
+> 實施作業中常用的分隔字元包括逗號 (`,`)、冒號 (`:`)、分號 (`;`) 或垂直號 (`|`)。您可以使用最符合實施需求的非加強式 ASCII。
 
-### 使用Web SDK設定清單屬性
+### 使用 Web SDK 設定清單變數
 
-在報表套裝設定中設定清單屬性並搭配所需的分隔字元後，清單屬性會對應至Adobe Analytics的 `_experience.analytics.customDimensions.listProps.prop1.values[]` to `_experience.analytics.customDimensions.listProps.prop75.values[]`. Web SDK會自動使用報表套裝設定下所列的正確分隔字元。 若您在XDM欄位中設定分隔字元(例如 `_experience.analytics.customDimensions.props.prop1.delimiter`)，會覆寫自動從報表套裝設定擷取的分隔字元，並可能導致清單prop字串的剖析不正確。
+使用所需的分隔字元在報表套裝設定中設定清單屬性後，清單屬性會為 Adobe Analytics 進行對應，在 `_experience.analytics.customDimensions.listProps.prop1.values[]` 至 `_experience.analytics.customDimensions.listProps.prop75.values[]` 底下。 Web SDK 會自動使用報表套裝設定下所列的正確分隔字元。 如果您在 XDM 欄位中設定分隔字元 (例如，`_experience.analytics.customDimensions.props.prop1.delimiter`)，該分隔字元會覆寫從報表套裝設定中自動擷取的分隔字元，並可能導致清單屬性串的剖析不正確。
 
-### 使用Adobe Analytics擴充功能和AppMeasurement設定清單屬性
+### 使用 Adobe Analytics 擴充功能和 AppMeasurement 來設定清單屬性
 
 在報表套裝設定中設定清單屬性的所需分隔字元後，除了使用分隔字元外，在實施上沒有任何差異。
 
