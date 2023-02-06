@@ -69,8 +69,7 @@ function getPercentPageViewed(pid,ch){var e=pid,i=ch;if("-v"===e)return{plugin:"
 * `window._ppvFinalPercentViewed`：在訪客前往頁面時可見到上一頁的百分比。 此數值將等於或大於原始檢視百分比，也將等於或小於最高頁面檢視百分比。
 * `window._ppvHighestPixelsSeen`：當訪客向下捲動前一個頁面時已查看之總畫素的最高數量 (以高度計)。
 * `window._ppvFoldsAvailable`：可在上一個頁面向下捲動的「摺頁」總數。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
-* 
-   * `window._ppvFoldsSeen`：當訪客向下捲動前一個頁面時達到的「折頁」最高數量。此變數包含「頁面頂端」摺頁。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
+* `window._ppvFoldsSeen`：當訪客向下捲動前一個頁面時達到的「折頁」最高數量。此變數包含「頁面頂端」摺頁。 如果在最初載入頁面時可以看到整個頁面，這個值就是 `1`。
 
 將上述一或多個變數指派給 eVar，便可在報表中查看維度資料。
 
