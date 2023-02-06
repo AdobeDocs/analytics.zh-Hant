@@ -5,9 +5,9 @@ title: 如何確認您的伺服器端轉送實作情形
 feature: Server-Side Forwarding
 exl-id: 21db4572-da3c-43aa-a774-86a089656695
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '256'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 84%
 
 >[!CAUTION]
 >
->如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。請確認身分識別服務已正確部署，且您已部署App Measurement模組，將適用的報表套裝對應至正確的組織ID，並在Analytics管理工具中啟用伺服器端轉送。
+>如果回應包含索引鍵值配對 `"status":"SUCCESS"` 或 2 x 2 影像，表示伺服器端轉送設定不正確。請確認身分識別服務已正確部署，且您已部署 App Measurement 模組，將適用的報表套裝對應到正確的組織 ID，並在 Analytics 管理員工具中啟用了伺服器端轉送。
 
 >[!MORELIKETHIS]
 >
->* [Charles 網頁除錯工具](https://www.charlesproxy.com/)
+>* [Charles Web Debugger](https://www.charlesproxy.com/)
 
