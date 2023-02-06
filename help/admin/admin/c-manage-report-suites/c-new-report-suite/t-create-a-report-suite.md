@@ -4,9 +4,9 @@ title: 建立報表套裝
 feature: Report Suite Settings
 exl-id: 255ae051-d993-41a5-8cf3-819a54c17e34
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 97%
    >
    >只能複製設定，不能複製資料。如果由客戶服務複製設定，您需要提供客戶服務針對有關風險之免責聲明的書面確認。請參閱[不會從來源報表套裝複製的設定值](/help/admin/admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)以瞭解詳細資訊。
 
-1. 填寫 [新的報表套裝](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md).
+1. 填寫[「新報表套裝」](/help/admin/admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)中所述的欄位。
 1. 按一下&#x200B;**[!UICONTROL 「建立報表套裝」]**。
 
 報表套裝 ID 的長度上限為 40 個位元組。 報表套裝易記名稱的長度上限為 255 個位元組。
