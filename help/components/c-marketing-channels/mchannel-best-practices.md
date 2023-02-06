@@ -3,10 +3,10 @@ title: 實作 Adobe Analytics 行銷管道的最佳做法
 description: 搭配 Attribution IQ 和 Customer Journey Analytics 使用行銷管道的更新最佳做法
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 94%
+source-wordcount: '628'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 94%
 
 為了讓您的行銷管道實作更具前瞻性及確保 Attribution IQ 與 Customer Journey Analytics 之間的報告一致性，我們正在發佈一組更新的最佳做法。 如果您已在使用行銷管道，您可以根據這些新準則來選擇最佳選項。 如果您是行銷管道的新手，我們建議您遵循所有新的最佳做法。
 
-當我們最初推出行銷管道時，只提供「首次接觸」和「上次接觸」維度。 有了最新版本的歸因，就不再需要明確的首次/上次接觸維度。 Adobe 提供通用的「行銷管道」和「行銷管道詳細資料」維度，讓您可將其用於所需的歸因模型。 這些通用維度的行為與「上次接觸管道」維度相同，但標籤不同，這是為了避免搭配不同歸因模型使用行銷管道時產生混淆。
+當我們最初推出行銷管道時，只提供「首次接觸」和「上次接觸」維度。 有了最新版本的歸因，就不再需要明確的首次/上次接觸維度。 Adobe 提供通用的「行銷管道」和「行銷管道詳細資料」維度，讓您可將其用於所需的歸因模型。這些通用維度的行為與「上次接觸管道」維度相同，但標籤不同，這是為了避免搭配不同歸因模型使用行銷管道時產生混淆。
 
 由於行銷管道維度以傳統的造訪定義 (如維度本身的處理規則所定義) 為依據，因此無法使用虛擬報告套裝來變更其造訪定義。 這些修改過的做法透過 Attribution IQ 和 CJA 啟用清楚且受控制的回顧視窗。
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 不建議將「直接」和「內部/工作階段重新整理」管道用於自訂歸因模型 (Attribution IQ)。
 
-如果貴組織已設定「直接」和「工作階段重新整理」，該怎麼做？ 在此情況下，建議您為「首次接觸/上次接觸」[建立分類](https://experienceleague.adobe.com/docs/analytics/components/marketing-channels/classifictions-mchannel.html)，並保留「直接」和「工作階段重新整理」管道未分類。?，並保留「直接」和「工作階段重新整理」管道未分類。 for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. 在此情況下，建議您為「首次接觸/上次接觸」建立「分類」?，並保留「直接」和「工作階段重新整理」管道未分類。分類的維度將會產生相同的 Attribution IQ 結果，就像是從未設定這些管道一樣。
+如果貴組織已設定「直接」和「工作階段重新整理」，該怎麼做？ 在此情況下，建議您為「首次接觸/上次接觸」[建立分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)，並保留「直接」和「工作階段重新整理」管道未分類。?，並保留「直接」和「工作階段重新整理」管道未分類。 for First Touch/Last Touch and leave Direct and Session Refresh channels unclassified. 在此情況下，建議您為「首次接觸/上次接觸」建立「分類」?，並保留「直接」和「工作階段重新整理」管道未分類。分類的維度將會產生相同的 Attribution IQ 結果，就像是從未設定這些管道一樣。
 
 ![](assets/direct-session-refresh.png)
 
@@ -46,7 +46,7 @@ ht-degree: 94%
 
 ## 最佳做法 4：將訪客參與期間最小化
 
-將訪客參與期間設定為最小值「1 天」可將儲存值的可能性降至最低。 由於自訂歸因模型 (AIQ) 允許彈性回顧視窗，所以我們建議您設定最小值，以便將此設定的影響降至最低。
+將「訪客參與」期間設為「1天」以下，可將持續值的可能性降至最低。 由於自訂歸因模型 (AIQ) 允許彈性回顧視窗，所以我們建議您設定最小值，以便將此設定的影響降至最低。
 
 ![](assets/expiration.png)
 

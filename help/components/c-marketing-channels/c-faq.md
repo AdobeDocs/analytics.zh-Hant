@@ -3,10 +3,10 @@ title: 行銷管道常見問題集
 description: 行銷管道的常見問題。
 feature: Marketing Channels
 exl-id: 6698ef7e-bdac-4b1a-a723-4984e12ce70a
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '1486'
-ht-degree: 100%
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+workflow-type: tm+mt
+source-wordcount: '1501'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
+>
+>Analytics管理員可管理其組織的行銷管道，如 [管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
 
 行銷管道的常見問題。
 
@@ -81,7 +83,7 @@ ht-degree: 100%
 
 內部上次接觸 (工作階段重新整理) 必須同時也是首次接觸，才會發生 - 請參閱前述的「首次和上次接觸的關係」。以下案例說明「工作階段重新整理」如何成為首次接觸管道。
 
-* **工作階段逾時**：訪客造訪網站後，將索引標籤維持在瀏覽器中開啟，以便日後使用。訪客的參與期間過期 (或自行刪除 Cookie)，且使用開啟的分頁再次造訪網站。由於反向連結 URL 是內部網域，該次造訪會分類為「工作階段重新整理」。
+* **工作階段逾時**：訪客造訪網站後，將索引標籤維持在瀏覽器中開啟，以便日後使用。訪客的參與期間過期（或自願刪除Cookie），且使用開啟的標籤再次造訪網站。 由於反向連結 URL 是內部網域，該次造訪會分類為「工作階段重新整理」。
 
 * **並非所有網頁都經過標記：**&#x200B;訪客登陸未經標記的頁面 A，接著移至已標記的頁面 B。系統會將頁面 A 視為內部反向連結，而該次造訪會分類為「工作階段重新整理」。
 
@@ -89,7 +91,7 @@ ht-degree: 100%
 
 * **跨網域流量：**&#x200B;訪客從會觸發套裝 A 的網域移至會觸發套裝 B 的另一個網域。如果套裝 B 的內部 URL 篩選器包含第一個網域，則套裝 B 的該次造訪將記錄為內部，因為行銷管道會將之視為第二個套裝中的新造訪次數。該次造訪將會分類為「工作階段重新整理」。
 
-* **登入頁面載入時間過長：**&#x200B;訪客登陸了內容繁多的頁面 A，而 Adobe Analytics 程式碼位於該頁面底部。在系統載入所有內容 (包括 Adobe Analytics 影像要求) 之前，訪客點擊了頁面 B，頁面 B 也觸發了自身的 Adobe Analytics 影像要求。由於頁面 A 的影像要求並未載入完畢，第二個頁面就會在 Adobe Analytics 中顯示為該次造訪的第一次點擊，而頁面 A 則為反向連結。該次造訪會分類為「工作階段重新整理」。
+* **登入頁面載入時間過長：**&#x200B;訪客登陸了內容繁多的頁面 A，而 Adobe Analytics 程式碼位於該頁面底部。在系統載入所有內容 (包括 Adobe Analytics 影像要求) 之前，訪客點擊了頁面 B，頁面 B 也觸發了自身的 Adobe Analytics 影像要求。由於頁面A的影像要求從未載入，第二個頁面會在Adobe Analytics中顯示為該次造訪的第一次點擊，而頁面A則為反向連結。 該次造訪會分類為「工作階段重新整理」。
 
 * **清除 Cookie 中繼網站：**&#x200B;訪客造訪網站，而中繼工作階段清除了 Cookie。首次和上次接觸管道都會重設，而該次造訪會分類為「工作階段重新整理」(因為反向連結為內部連結)。
 

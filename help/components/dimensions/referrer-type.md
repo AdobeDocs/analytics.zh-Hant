@@ -3,7 +3,7 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 1700ec727912f49c7aed12af74d18488daeb1e7e
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 100%
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此清單不同於[行銷管道處理規則](../c-marketing-channels/c-rules.md)中的社交網路預設清單。
+>此清單不同於[行銷管道處理規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)中的社交網路預設清單。
 
 * `12seconds.tv`
 * `4travel.jp`

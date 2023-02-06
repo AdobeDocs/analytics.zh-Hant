@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 12fcf4cb07c4cb7497d6f21f3e5f82f7681a9677
+source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '619'
 ht-degree: 98%
 
 ---
@@ -127,7 +127,11 @@ ht-degree: 98%
             + [分類階層](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/classification-hierarchies.md)
             + [清單變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [銷售 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
-         + [行銷管道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels-admin.md)
+         + 行銷管道 {#marketing-channels}
+            + [管理行銷管道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [行銷管道的處理規則](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [行銷管道中的分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [訪客參與有效期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概觀](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
             + [計劃尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)

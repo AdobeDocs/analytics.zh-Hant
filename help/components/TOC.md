@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 24ae07993e8f51b8220f817873fbd8dc1df70cda
+source-git-commit: 6b216a9af4b5614203b0f34fa754985b12ff59ea
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '684'
 ht-degree: 97%
 
 ---
@@ -265,12 +265,8 @@ ht-degree: 97%
    + [設定即時報表](c-real-time-reporting/t-realtime-admin.md)
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
-   + [行銷管道快速入門](c-marketing-channels/c-getting-started-mchannel.md)
+   + [開始使用行銷管道](c-marketing-channels/c-getting-started-mchannel.md)
    + [搭配行銷管道使用 Attribution IQ](c-marketing-channels/mchannel-best-practices.md)
-   + [管理行銷管道](c-marketing-channels/c-channels.md)
-   + [行銷管道的處理規則](c-marketing-channels/c-rules.md)
-   + [行銷管道中的分類](c-marketing-channels/classifictions-mchannel.md)
-   + [訪客參與有效期](c-marketing-channels/visitor-engagement.md)
    + [分析行銷管道](c-marketing-channels/analyze-mc.md)
    + [行銷管道權限](c-marketing-channels/c-channel-report-access.md)
    + [行銷管道常見問答與範例](c-marketing-channels/c-faq.md)
