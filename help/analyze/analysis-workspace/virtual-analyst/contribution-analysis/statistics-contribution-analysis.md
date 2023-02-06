@@ -4,9 +4,9 @@ title: 貢獻分析中所使用的統計技術
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
 source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '330'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 
    ![](assets/cramers-v.png)
 
-1. 對於每個維度項目，皮爾遜殘差(PR)用來測量異常數度與每個維度項目之間的關聯。 PR 遵循標準常態分布，因此即使偏差無法比較，演算法仍可比較兩個隨機變數的 PR 值。在實務上，誤差不明並使用有限樣本校正來估計。
+1. 對於每個維度項目，使用皮爾遜殘差 (PR) 來測量異常量度和每個維度項目之間的關聯性。 PR 遵循標準常態分布，因此即使偏差無法比較，演算法仍可比較兩個隨機變數的 PR 值。在實務上，誤差不明並使用有限樣本校正來估計。
 
    在前述範例的表 1 中，對國家/地區 i 和期間 2 進行有限樣本校正，其 PR 由下式算出：
 
