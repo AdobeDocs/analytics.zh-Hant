@@ -5,9 +5,9 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '962'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 ## 權限
 
-若要管理報表活動，您需要Analytics產品管理員權限(位於Adobe Admin Console中)。
+您需要 Analytics 產品管理員權限 (在 Adobe Admin Console 中)才能管理報告活動。
 
 ![權限](/help/admin/admin/assets/rep-mgr-permission.png)
 
@@ -88,7 +88,7 @@ ht-degree: 92%
 
 | 摘要數字 | 說明 |
 | --- | --- |
-| [!UICONTROL 使用者] | 目前傳送報表請求至此報表套裝的使用者人數。 |
+| [!UICONTROL 使用者] | 目前傳送報告要求給此報告套裝的使用者人數。 |
 | [!UICONTROL 專案] | Workspace 專案、Report Builder 活頁簿等 |
 | [!UICONTROL 查詢] | 目前正在執行的查詢數。 |
 | [!UICONTROL 平均等待時間] | 所有正在執行之查詢的平均等待時間。 |
@@ -122,7 +122,7 @@ ht-degree: 92%
 
 1. 勾選表格中一個或多個「**[!UICONTROL 查詢 ID]**」左側的方塊，然後按一下底部的「**[!UICONTROL 取消請求]**」。
 
-   您也可以透過檢視詳細資訊來大量取消請求 [!UICONTROL 使用者], [!UICONTROL 專案]，或 [!UICONTROL 應用程式]. 在活動刷新時，對未在隊列中或取消時運行的項目、用戶或應用程式的後續請求仍可能顯示。
+   您還可以透過檢視[!UICONTROL 使用者]、[!UICONTROL 專案]或[!UICONTROL 應用程式]的詳細資料來大量取消請求。 在取消時不在佇列中或未執行的專案、使用者或應用程式的後續請求，在活動刷新時可能仍會出現。
 
 1. 在出現的「**[!UICONTROL 取消 x 查詢]**」視窗中，您可以根據需要修改取消訊息。
 1. 按一下&#x200B;**[!UICONTROL 「繼續」]**。
