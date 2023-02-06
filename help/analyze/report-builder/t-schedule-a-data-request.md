@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
 source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '994'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->您必須安裝 Excel 2007 或相容性套件，才能排程活頁簿。每一個 Report Builder 授權最多可建立 10 個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。若要這麼做，請前往 **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL Report Builder報表]**. 活頁簿排程 (或上傳至活頁簿庫) 後，若超過 28 個月從未更動 (更新、更換)，系統將加以刪除。
+>您必須安裝 Excel 2007 或相容性套件，才能排程活頁簿。每一個 Report Builder 授權最多可建立 10 個排程活頁簿。不過，您可以從其他授權扣除，以建立更多活頁簿。若要這麼做，請前往「**[!UICONTROL 管理員]** > **[!UICONTROL 全部管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL Report Builder 報表]**」。 活頁簿排程 (或上傳至活頁簿庫) 後，若超過 28 個月從未更動 (更新、更換)，系統將加以刪除。
 
 >[!NOTE]
 >
@@ -76,7 +76,7 @@ ht-degree: 98%
 | 檔案內容語言 | 指定首頁所要使用的語言。您可以選擇中文 (簡體或繁體)、德文、法文、日文、韓文、葡萄牙文 (巴西) 或西班牙文。 |
 | **「發佈選項」索引標籤** |  |
 | 發佈至 Power BI | <ul><li>將活頁簿發佈至 Power BI</li><li>以 Power BI 資料集發佈所有 Report Builder 請求</li><li>以 Power BI 資料集發佈所有格式化表格</li></ul> |
-| 將此 Power BI 報表標記為 | 標記詳細資料 |
+| 為此 Power BI 報表加註標籤為 | 加註標籤的詳細資料 |
 
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**，然後按一下&#x200B;**[!UICONTROL 「退出」]**。
 
