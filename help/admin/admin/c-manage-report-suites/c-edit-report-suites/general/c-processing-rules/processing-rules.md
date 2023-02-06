@@ -5,9 +5,9 @@ title: 處理規則總覽
 feature: Processing Rules
 exl-id: 0244aba2-4345-463a-8528-d4dcd2f872ff
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '373'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -60,4 +60,4 @@ s.contextData['genre'] = "Youth";
 
 ## 已知限制
 
-**在處理規則中使用克拉(^)。** 如果您想在處理規則中使用克拉做為分隔字元或用於其他用途，每單克拉必須由兩克拉表示。 例如，以^^表示單克拉，以^^^^表示雙克拉等。
+**在處理規則中使用克拉符號 (^)。**&#x200B;如果要在處理規則中使用克拉號作為分隔符號或用於其他目的，則單一的克拉必須以兩個克拉來表示。 比如單一的克拉表示為 ^^，兩個克拉表示為 ^^^^ 等。
