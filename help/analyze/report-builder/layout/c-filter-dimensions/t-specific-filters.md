@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: e5f2d67c-3add-4d51-8a76-ee3b2a6eef94
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '316'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,6 +36,6 @@ ht-degree: 91%
    * **從清單：**&#x200B;可讓您從可新增資料的清單選擇資料。
 1. 如果您啟用&#x200B;**[!UICONTROL 「從清單」]**，請選擇任何可用的清單項目或按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-   當您按一下 **[!UICONTROL 新增]**, [!UICONTROL 從清單中選擇] 表單會顯示目前請求日期範圍內可用維度項目的清單（僅限前10,000個項目）。 您可以搜尋這些項目或按一下&#x200B;**[!UICONTROL 更多...]**，此選項會顯示「[!UICONTROL 搜尋表單]」以供您建立更詳細的維度搜尋。
+   在按一下「**[!UICONTROL 新增]**」時，「[!UICONTROL 從清單選擇]」表單會針對目前的請求日期範圍顯示可用的維度項目清單 (僅限前 10,000 個項目)。您可以搜尋這些項目或按一下&#x200B;**[!UICONTROL 更多...]**，此選項會顯示「[!UICONTROL 搜尋表單]」以供您建立更詳細的維度搜尋。
 1. 在[!UICONTROL 「從清單選擇」]中按一下&#x200B;**[!UICONTROL 「確定」]**。
 1. 如果您需要的話，可以在[!UICONTROL 「選擇頁面」]表單中儲存「特定」篩選，然後按一下&#x200B;**[!UICONTROL 「確定」]**。
