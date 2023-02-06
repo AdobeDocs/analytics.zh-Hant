@@ -5,9 +5,9 @@ title: 從資料夾中移除專案
 feature: Workspace Basics
 exl-id: d2e77111-569d-4eec-8e54-863a38b9ac20
 source-git-commit: 29f8e18b5723228340c7e55af5159145d28e7cce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '177'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 89%
 
 ## 移動專案 {#move-project-in-folder}
 
-您可以將專案從一個資料夾移至您建立的另一個資料夾。
+您可以將專案從一個資料夾移動至您建立的另一個資料夾。
 
 1. 從專案資料夾中，選擇專案名稱旁邊的省略符號 **...**。
 
