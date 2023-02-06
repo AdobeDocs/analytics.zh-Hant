@@ -4,7 +4,7 @@ description: 瞭解如何使用 Analysis Workspace 建立贏取型報表。
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 100%
 

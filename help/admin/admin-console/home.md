@@ -6,13 +6,13 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 81%
+ht-degree: 93%
 
 ---
 
 # Adobe Admin Console中的Analytics概觀
 
-使用 [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html) 管理 Analytics 的產品和使用者。Adobe Admin Console 位在 [adminconsole.adobe.com](https://adminconsole.adobe.com/)。
+使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 管理 Analytics 的產品和使用者。Adobe Admin Console 位在 [adminconsole.adobe.com](https://adminconsole.adobe.com/)。
 
 本章說明要瞭解有關 Adobe Admin Console 中 Analytics 特定產品的設定檔和權限所需的概念。
 
@@ -24,6 +24,6 @@ ht-degree: 81%
 
 ## 在 Adobe Analytics 中新增管理員
 
-觀看下列影片示範，了解如何在Adobe Analytics中新增管理員：
+檢視以下視訊示範，了解如何在 Adobe Analytics 新增管理員：
 
 [在 Adobe Analytics 中新增管理員](https://video.tv.adobe.com/v/37648/?quality=12){target=_blank}

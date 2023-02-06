@@ -89,7 +89,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 * [負責現有的 Adobe Analytics 實作](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
-* [在 Experience Platform 中建立標記屬性](launch/create-analytics-property.md)
+* [在 Experience Platform 中建立標籤屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
 
 ## 更多 Analytics 使用手冊

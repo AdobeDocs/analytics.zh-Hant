@@ -1,18 +1,18 @@
 ---
 title: Adobe Analytics 權限 - 摘要表
-description: 概述Adobe Admin Console中可用Adobe Analytics權限的表格。
+description: 摘要說明 Adobe Admin Console 中可用 Adobe Analytics 權限的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
 # Admin Console中的Analytics權限
 
-使用下列摘要表格，依邏輯群組識別Adobe Admin Console中的Adobe Analytics權限。
+使用下列摘要表，依邏輯群組來識別 Adobe Admin Console 中的 Adobe Analytics 權限。
 
 ## 報告套裝工具
 
@@ -74,7 +74,7 @@ ht-degree: 95%
 
 | Analytics 工具 | 管理 | 存取控制 | 僅報表功能 | 已過時 | 說明 |
 | --- | --- | --- | --- | --- | --- |
-| 代碼管理器 | x |  |  |  | 保留供舊版使用。 授與「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用Adobe Analytics擴充功能中包含的Adobe Experience Platform Data Collection程式庫。 |
+| 代碼管理器 | x |  |  |  | 保留供舊版使用。 授與「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用 Adobe Experience Platform 資料收集中的 Adobe Analytics 擴充功能所含的資料庫。 |
 | 代碼管理器 - 網頁服務 | x |  |  |  | 透過 1.4 API 授與對代碼管理器的存取權。 |
 | 隱藏報告套裝 | x |  |  |  | 授與「管理員 > 所有管理員 > 公司設定 > 隱藏報告套裝」的存取權。 授與隱藏組織中任何報告套裝的能力，不論組織對報告套裝是否具備存取權。 |
 | 整合 (建立) | x |  |  |  | 授與對「管理員 > 所有管理員 > 資料連接器」的存取，並允許使用者建立資料連接器。 |

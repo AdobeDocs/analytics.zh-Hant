@@ -28,11 +28,11 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 2 月** |  |
 | 實作 | 更新如何 [實作適用於網頁和行動裝置的Adobe Analytics](../implement/home.md). |
 | **2023 年 1 月** |  |
-| 篩選及排序表格 | 更新 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 將本文重新命名為「表格分頁、篩選及分類」。 |
-| 資料夾 | 專用頁面 [資料夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md). |
-| 使用者偏好設定 | 您現在可在 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). |
-| 自動儲存專案 | 更新內容以在 [儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md). |
-| 登陸頁面 | 新增 [登陸頁面更新](/help/analyze/landing.md) |
+| 篩選和排序表格 | 更新 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 將本文重新命名為「表格分頁、篩選及分類」。 |
+| 資料夾 | [檔案夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |
+| 使用者偏好設定 | 「[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)」現在提供許多其他使用者偏好設定。 |
+| 專案自動儲存 | 更新內容以加入「[儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)」中的自動儲存功能。 |
+| 登陸頁面 | 全新[登陸頁面更新](/help/analyze/landing.md) |
 
 ### 2022 {#22}
 
@@ -105,7 +105,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2021 年 5 月 13 日 | [Data Warehouse API 要求](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/reporting-api/data_warehouse.md)的更新。 這類要求現在支援「小時」。 |
 | **2021 年 3 月** |  |
 | 2021 年 3 月、4 月 | Adobe Analytics 儀表板[執行指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/executive.html)和[組織者指南](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html)的更新 |
-| 2021 年 3 月 25 日 | 有關「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面的新文件。 它可讓您為使用者管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。 「[!UICONTROL 使用者偏好設定]」會套用到所有新的專案和面板。 <br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 使用者偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
+| 2021 年 3 月 25 日 | 有關「[!UICONTROL 元件] > [!UICONTROL 使用者偏好設定]」頁面的新文件。 這可讓您為使用者管理 [!UICONTROL Analysis Workspace] 設定及其相關元件。 「[!UICONTROL 使用者偏好設定]」會套用到所有新的專案和面板。 <br>**注意：**&#x200B;以下設定已移至「[!UICONTROL 使用者偏好設定]」頁面：<ul><li>報表設定：千位分隔符號 (現在稱為&#x200B;_數字格式_)</li><li>報表設定：CSV 分隔符號</li><li>Workspace 專案：說明 > 啟用秘訣</li><li>Workspace 專案：空白面板 _使用此面板開始新專案_&#x200B;選項</li></ul> |
 | 2021 年 3 月 25 日 | [!UICONTROL 長條圖智慧值區預測]會藉由自動識別資料分配的正確寬度和值區數，協助處理高基數度量的長條圖。 對於低基數度量，此視覺化效果的行為模式與先前相同。 |
 | 2021 年 3 月 25 日 | [資料修復 API](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/data-repair.md) 更新 (URL、查詢字串、@ 符號等項目的篩選功能) |
 | 2021 年 3 月 25 日 | 新的[使用記錄 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/usage-logs.md) 文件 |

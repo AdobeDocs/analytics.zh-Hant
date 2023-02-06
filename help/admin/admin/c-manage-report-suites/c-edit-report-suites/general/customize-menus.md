@@ -6,7 +6,7 @@ exl-id: 0cba7569-81e9-44be-8633-79da83ec8bd3
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 78%
+ht-degree: 83%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 >[!NOTE]
 >
->功能表結構中的任何變更不會影響Report Builder。 不過，重新命名報表會反映在此工具中。
+>選單結構的任何變更都不會影響 Report Builder。 不過，重新命名報告將在這此工具中反映。
 
 若要自訂使用者在「Reports &amp; Analytics」中查看的功能表：
 

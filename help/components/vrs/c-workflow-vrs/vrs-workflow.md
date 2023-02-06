@@ -5,7 +5,7 @@ title: 虛擬報告套裝工作流程
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
 source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 100%
 
