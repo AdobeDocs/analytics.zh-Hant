@@ -6,9 +6,9 @@ feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '434'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 98%
    <td colname="col1"> <p>終止於 </p> </td> 
    <td colname="col02"> <p>傳回以特定值作為結尾的結果。 </p> </td> 
    <td colname="col2"> <p>xyz </p> </td> 
-   <td colname="col3"> <p>符合 <span class="term"> wxyz</span> 但 <span class="term"> wxyz0</span> </p> </td> 
+   <td colname="col3"> <p>符合 <span class="term">Wxyz</span> 而非 <span class="term">wxyz0</span> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>進階 (特殊字元) </p> </td> 
@@ -117,7 +117,7 @@ ht-degree: 98%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> " </td> 
+   <td colname="col1"> " " </td> 
    <td colname="col2"> 等於 </td> 
    <td colname="col3"> <p>除非未與另一個引號成對，否則不會予以逸出。例如，<span class="term">17" Display</span> 不是片語。 </p> </td> 
   </tr> 
