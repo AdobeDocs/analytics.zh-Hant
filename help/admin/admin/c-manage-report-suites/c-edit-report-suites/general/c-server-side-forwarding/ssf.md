@@ -5,9 +5,9 @@ title: 伺服器端轉送總覽
 feature: Server-Side Forwarding
 exl-id: e3cd72d2-9588-4770-a7c2-64b13a1e9519
 source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '821'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 >使用 Analytics 的 Audience Manager 現有客戶應改為使用伺服器端轉送。Adobe Analytics 和 Audience Manager 的新客戶應實施伺服器端轉送 (而不是 DIL) 作為預設的資料收集和傳送方法。
 
 >[!IMPORTANT]
->現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager (AAM)。新的實作內容變數可讓您在未收到同意的地方標記點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 AAM。如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
+>現在，根據歐盟 Cookie 法規規範，資料控管單位 (Analytics 客戶) 可以選擇將預先許可的資料限制在 Adobe Analytics，並防止其從伺服器端轉送至 Adobe Audience Manager (AAM)。新的實作內容變數可讓您在未收到同意的地方標籤點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 AAM。如需詳細資訊，請參閱 [GDPR_ePrivacy 法規遵循與伺服器端轉送](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)。
 
 若要瞭解貴組織實施伺服器端轉送的狀況，請進行以下驗證步驟：
 
@@ -34,7 +34,7 @@ ht-degree: 95%
 
 檢查 [Analytics 追蹤請求](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html)，確認是否已實施 Experience Cloud ID (ECID) 服務。
 
-在「請求」標籤中，確認 ECID 值已完成設定。此步驟可告訴您身分識別服務已正確實施，此為伺服器端轉送的必要條件。
+在「請求」索引標籤中，確認 ECID 值已完成設定。此步驟可告訴您身分識別服務已正確實施，此為伺服器端轉送的必要條件。
 
 * 如果畫面顯示 ECID 值，請繼續執行步驟 2。
 * 如果未顯示 ECID 值，請先[實施身分識別服務](https://experienceleague.adobe.com/docs/id-service/using/implementation/implementation-guides.html)，再繼續執行步驟 2。
@@ -43,7 +43,7 @@ ht-degree: 95%
 
 確認您是否具有已實施的伺服器端轉送版本，方法是[檢查 Analytics 追蹤請求](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)。
 
-在「回應」標籤中，檢查回應是否包含 Audience Manager 資料。如果您看到：
+在「回應」索引標籤中，檢查回應是否包含 Audience Manager 資料。如果您看到：
 
 * **Audience Manager 的 JSON 回應包含「postbacks」或「dcs_region」等項目**：您已經啟用伺服器端轉送的部分形式。繼續進行步驟 3。
 * **「狀態」：「SUCCESS」**：您已實施「對象管理模組」，但未正確設定伺服器端轉送。繼續進行步驟 3。
@@ -64,7 +64,7 @@ ht-degree: 95%
 
 前往&#x200B;**「Analytics** > **管理員** > **報表套裝** > (選取&#x200B;**「報表套裝」**) > **編輯設定** > **一般** > **伺服器端轉送」**。如果核取方塊為：
 
-* **非作用中** （您無法選取或功能表不存在）:您未將選取的報表套裝對應至組織ID。 請連絡客戶服務，確認報表套裝已正確對應。
+* **非作用中** (您無法進行選擇或選單不存在)：您沒有將選定的報表套裝對應到組織 ID。 聯絡客戶服務部 (Customer Care) 以確保報表裝的對應正確無誤。
 * **已停用**：您未開啟新的伺服器端轉送。閱讀頁面中的內容，然後繼續啟用功能。
 * **已啟用**：您已佈建新的伺服器端轉送。您也可以設定此 Audience Analytics 整合。
 
