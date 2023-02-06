@@ -6,9 +6,9 @@ title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
 source-git-commit: 2156cc113db2049cd6a0feb5bcbfb85b8ecb16d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3641'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -125,13 +125,13 @@ ht-degree: 98%
 | **`mobilecampaignterm`** | 您要對此贏取追蹤的付費關鍵字或其他詞語。由「行動應用程式贏取」填入。 | varchar(255) |
 | **`mobiledayofweek`** | 應用程式啟動的工作日數。 | varchar(255) |
 | **`mobiledayssincefirstuse`** | 自應用程式初次執行以來的天數。 | varchar(255) |
-| **`mobiledayssincelastupgrade`** | 已淘汰 — 從內容資料變數a.DaysSinceLastUpgrade收集。 自上次作業階段以來已經過的天數。 | varchar(255) |
+| **`mobiledayssincelastupgrade`** | 已淘汰 - 從內容資料變數 a.DaysSinceLastUpgrade 收集。 自上次作業階段以來已經過的天數。 | varchar(255) |
 | **`mobiledayssincelastuse`** | 自應用程式上次執行以來的天數。 | varchar(255) |
 | **`mobiledeeplinkid`** | 從內容資料變數`a.deeplink.id`中收集。用於贏取報表中，作為行動贏取連結的識別碼。 | varchar(255) |
 | **`mobiledevice`** | 行動裝置名稱。在 iOS 上，此名稱以逗號分隔的 2 位數字串形式儲存。第一個數字代表裝置代別，第二個數字代表裝置系列。 | varchar(255) |
 | **`mobilehourofday`** | 定義啟動應用程式的一天中的時段。請依照 24 小時數字格式。 | varchar(255) |
 | **`mobileinstalldate`** | 行動安裝日期。提供使用者初次開啟行動應用程式的日期。 | varchar(255) |
-| **`mobilelaunchessincelastupgrade`** | 已淘汰 — 從內容資料變數a.LaunchesSinceUpgrade收集。 報表自上次升級以來的啟動次數。 | varchar(255) |
+| **`mobilelaunchessincelastupgrade`** | 已淘汰 - 從內容資料變數 a.LaunchesSinceUpgrade 收集。 報表自上次升級以來的啟動次數。 | varchar(255) |
 | **`mobilelaunchnumber`** | 每次啟動行動應用程式時增加 1。 | varchar(255) |
 | **`mobileltv`** | 已不再使用。由 trackLifetimeValue 方法填入。 | varchar(255) |
 | **`mobilemessagebuttonname`** | 從內容資料變數`a.message.button.id`中收集。用於應用程式內傳訊，以識別關閉訊息的按鈕。 | varchar(100) |
@@ -139,13 +139,13 @@ ht-degree: 98%
 | **`mobilemessageonline`** | 線上應用程式內訊息 | varchar(255) |
 | **`mobilemessagepushoptin`** | 從內容資料變數`a.push.optin`中收集。當使用者選擇加入推播訊息時，設為「true」；否則，值為「false」。 | varchar(255) |
 | **`mobilemessagepushpayloadid`** | 從內容資料變數`a.push.payloadid`中收集。用於推播訊息中，作為裝載識別碼。 | varchar(255) |
-| **`mobileosenvironment`** | 已淘汰 — 從內容資料變數收集 `a.OSEnvironment`. 表明 OS 環境，例如 Android 或 iOS。 | varchar(255) |
+| **`mobileosenvironment`** | 已淘汰 - 從內容資料變數`a.OSEnvironment`中收集。 表明 OS 環境，例如 Android 或 iOS。 | varchar(255) |
 | **`mobileosversion`** | 行動服務作業系統版本 | varchar(255) |
 | **`mobileplaceaccuracy`** | 從內容資料變數`a.loc.acc`中收集。指出 GPS 在採集時的準確度 (以公尺為單位)。 | varchar(255) |
 | **`mobileplacecategory`** | 從內容資料變數`a.loc.category`中收集。說明特定位置的類別。 | varchar(255) |
 | **`mobileplaceid`** | 從內容資料變數`a.loc.id`中收集。指定興趣點的識別碼。 | varchar(255) |
-| **`mobilepushoptin`** | Mobile Services推播選擇加入 | varchar(255) |
-| **`mobilepushpayloadid`** | Mobile Services推播付費ID | varchar(255) |
+| **`mobilepushoptin`** | 行動服務推送選擇加入 | varchar(255) |
+| **`mobilepushpayloadid`** | 行動服務推送 Paylod ID | varchar(255) |
 | **`mobilerelaunchcampaigncontent`** | 行動服務上市內容 | varchar(255) |
 | **`mobilerelaunchcampaignmedium`** | 行動服務上市媒體 | varchar(255) |
 | **`mobilerelaunchcampaignsource`** | 行動服務上市來源 | varchar(255) |
@@ -166,7 +166,7 @@ ht-degree: 98%
 | **`page_type`** | 用於填入[找不到頁面](/help/components/dimensions/pages-not-found.md)維度。專用於 404 頁。此變數應該為空白或包含值`ErrorPage`。 | char(20) |
 | **`page_url`** | 點擊的 URL。請注意，`post_page_url` 被卸除連結追踪影像請求並使用 varchar(255) 的資料類型。 | 文字 |
 | **`pagename`** | 用於填入[頁面](/help/components/dimensions/page.md)維度。如果[`pagename`](/help/implement/vars/page-vars/pagename.md)變數為空白，Analytics 會改用`page_url`。 | varchar(100) |
-| **`pagename_no_url`** | 類似 `pagename`，但不會回傳至 `page_url`. 僅 `post` 欄可用。 | varchar(100) |
+| **`pagename_no_url`** | 與 `pagename` 類似，但不會回復到 `page_url`。只有 `post` 列適用。 | varchar(100) |
 | **`paid_search`** | 如果點擊符合付費搜尋偵測，則會設定此旗標。 | 不帶正負號的 tinyint |
 | **`partner_plugins`** | 未使用。屬於已報廢功能。 | varchar(255) |
 | **`persistent_cookie`** | 用於[持續性 Cookie 支援](/help/components/dimensions/persistent-cookie-support.md)維度。指出訪客是否支援每次點擊後未捨棄的 Cookie。 | char(1) |
@@ -188,7 +188,7 @@ ht-degree: 98%
 | **`s_resolution`** | 原始螢幕解析度值。使用 JavaScript 函數`screen.width x screen.height`收集。 | char(20) |
 | **`search_engine`** | 表示將訪客反向連結至您的網站的搜尋引擎數值 ID。使用`search_engines.tsv`查詢。 | 不帶正負號的 smallint |
 | **`search_page_num`** | 由[所有搜尋頁面排名](/help/components/dimensions/all-search-page-rank.md)維度使用。指出在用戶點進您的網站之前，網站顯示的搜尋結果頁面。 | 不帶正負號的 smallint |
-| **`secondary_hit`** | 用於追蹤次要點擊的旗標。通常源自複製點擊的多套裝標記和 VISTA 規則。 | 不帶正負號的 tinyint |
+| **`secondary_hit`** | 用於追蹤次要點擊的旗標。通常源自複製點擊的多套裝加註標籤和 VISTA 規則。 | 不帶正負號的 tinyint |
 | **`service`** | 未使用。請改用 `page_event`。 | char(2) |
 | **`socialaccountandappids`** | 已不再使用。社交帳戶和應用程式 ID | varchar(255) |
 | **`socialassettrackingcode`** | 已不再使用。社交促銷活動變數 | varchar(255) |
@@ -208,7 +208,7 @@ ht-degree: 98%
 | **`sourceid`** | 來源 ID | 不帶正負號的 int |
 | **`state`** | State 變數。 | varchar(50) |
 | **`stats_server`** | 未使用。處理點擊的 Adobe 內部伺服器。 | char(30) |
-| **`survey`** | 已不再使用。Adobe Survey 變數。僅 `post` 欄可用。 | 文字 |
+| **`survey`** | 已不再使用。Adobe Survey 變數。只有 `post` 列適用。 | 文字 |
 | **`survey_instances`** | 已不再使用。Adobe Survey 執行個體變數。 | 文字 |
 | **`t_time_info`** | 訪客的當地時間。格式為：`M/D/YYYY HH:MM:SS Month (0-11, 0=January) Timezone offset (in minutes)` | varchar(100) |
 | **`tnt`** | 用於 Adobe Target 整合。 代表目前符合條件的所有測試。 格式為：`TargetCampaignID:TargetRecipeID:TargetType\|Event/Action`。 | 文字 |
@@ -243,7 +243,7 @@ ht-degree: 98%
 | **`videoaudioalbum`** | 影音相簿 | varchar(255) |
 | **`videoaudioartist`** | 影音藝人 | varchar(255) |
 | **`videoaudioauthor`** | 影音作者 | varchar(255) |
-| **`videoaudiolabel`** | 影音標記 | varchar(255) |
+| **`videoaudiolabel`** | 影音標籤 | varchar(255) |
 | **`videoaudiopublisher`** | 影音發佈者 | varchar(255) |
 | **`videoaudiostation`** | 影音電台 | varchar(255) |
 | **`videocampaign`** | 影音促銷活動 | varchar(255) |
