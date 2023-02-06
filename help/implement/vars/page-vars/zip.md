@@ -4,9 +4,9 @@ description: 如果報表套裝設定允許，手動填入「郵遞區號」維�
 feature: Variables
 exl-id: 1acf4bf7-3788-46bd-bcdb-9885c7b93b59
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '251'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,20 +18,20 @@ ht-degree: 93%
 >
 > 請確認報表套裝設定中的[!UICONTROL 「郵政編碼選項」]已設為所要的值。如果您一律使用[!UICONTROL 「geo zip」]，便無法使用此變數。如需詳細資訊，請參閱「管理員使用指南」中的[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)。
 
-## 使用Adobe Analytics擴充功能壓縮
+## 使用 Adobe Analytics 擴充功能的 zip
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定郵遞區號，或依據規則進行設定。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標記屬性。
-3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
+3. 前往「[!UICONTROL 規則]」索引標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「Zip」]區段。
 
 您可以將郵遞區號設為任何字串值，包括資料元素。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.zip
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.zip
 
 `s.zip` 變數是一個字串，通常包含郵遞區號，不過可以包含任何需要的值，長度最多 50 個位元組。
 
