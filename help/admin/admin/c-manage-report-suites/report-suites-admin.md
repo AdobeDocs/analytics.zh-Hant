@@ -4,29 +4,29 @@ title: 報表套裝管理員
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '419'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 報表套裝管理員
 
-報表套裝會定義下列任何資料存放區的完整、獨立報表：
+報表套裝會為以下任何資料儲存定義完整、獨立的報表：
 
-* 單一網站（最典型）
+* 單一網站 (最常見)
 
 * 單一網站的一部分或子集
 
-* 由數個網站數量所組成的全域區段，可取得總計
+* 由多個站的數字組成以獲得總計值的全域區段
 
 Analytics 解決方案會對這些資料儲存區進行彙總和報告。管理的「報表套裝管理員」可讓您定義用以控管如何在報表套裝中處理資料的規則。
 
 當您登入任何 Adobe Analytics 解決方案時，需選取一個要使用的報表套裝 (使用結合數個報表套裝的統計除外)。
 
-若要存取報表套裝：
+存取報表套裝：
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 報表套裝]**
 
 >[!NOTE]
 >
