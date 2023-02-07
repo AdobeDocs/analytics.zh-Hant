@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
+source-git-commit: 6049266511851decfb2d652001e6f11373a91a1d
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '615'
 ht-degree: 97%
 
 ---
@@ -174,7 +174,6 @@ ht-degree: 97%
       + [標籤最佳做法](c-data-governance/data-labeling/gdpr-analytics-ids.md)
       + [標籤範例](c-data-governance/data-labeling/gdpr-labeling-example.md)
       + [命名空間](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [提交存取與刪除請求](c-data-governance/gdpr-submit-access-delete.md)
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
