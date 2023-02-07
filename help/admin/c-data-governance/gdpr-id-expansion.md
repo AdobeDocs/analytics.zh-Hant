@@ -1,18 +1,18 @@
 ---
-description: 您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求)
+description: 您提交的ID不一定會涵蓋Analytics可與資料主體建立關聯的所有點擊資料。 Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求)
 title: ID 擴增
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: e9fffe62d3e53ae075610b1feec9a9071d925433
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 47%
+source-wordcount: '1351'
+ht-degree: 33%
 
 ---
 
 # ID 擴增
 
-您提交的 ID 不一定會涵蓋 Analytics 可用來與資料主體建立關聯的所有點擊資料。Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求)：
+您提交的ID不一定會涵蓋Analytics可與資料主體建立關聯的所有點擊資料。 Analytics 可建立擴增 ID 集，將這項相關聯資料納入資料隱私權請求中。您可以透過選用參數來為您提交的每個資料隱私權請求要求此選項 (新增至 JSON 請求)：
 
 ```
 "expandIds": true
@@ -32,7 +32,7 @@ ht-degree: 47%
 
 資料隱私權上線後的頭幾個月，絕大多數的Analytics資料隱私權請求都未要求ID擴增。 不過，您應自行決定適合貴組織的值。 您應洽詢您的法律團隊，諮詢是否需要ID擴增才能使用您使用的ID，以及您在Adobe Analytics中收集的資料。
 
-主要考慮因素應是：在有多位使用者造訪過您網站的共用裝置上，使用ID擴增時，會將來自其他使用者點擊裝置的資料，納入存取請求傳回的資料中（在裝置檔案中）。 即使您已遵循標籤的最佳實務（例如，裝置檔案中未包含任何私人資料，例如已造訪的頁面），裝置檔案仍會包含已造訪的頁面數和每次造訪的時間。 自問：可以與可能還不是訪客的人共用此資訊嗎？
+主要考慮因素包括：在有多位使用者造訪過您網站的共用裝置上，使用ID擴增時，會將來自其他使用者點擊裝置的資料，納入存取請求傳回的資料中（在裝置檔案中）。 即使您已遵循標籤的最佳實務（例如，裝置檔案中未包含任何私人資料，例如已造訪的頁面），裝置檔案仍會包含已造訪的頁面數和每次造訪的時間。 你可能想問自己：可以與可能不是訪客的人共用此資訊嗎？
 
 當ID擴增為 *not* 用於刪除請求：如果您使用非Cookie ID（ECID或Analytics Cookie以外的任何ID）來識別應刪除的點擊，且該ID具有ID-DEVICE標籤，則報表中的獨特訪客計數將會改變。 這是因為只有部分Cookie ID會進行匿名處理，而其他ID則維持不變。 若您未指定ID擴增，建議您為請求使用Cookie ID，或使用ID-PERSON標籤的ID。
 
@@ -49,14 +49,14 @@ ht-degree: 47%
 
 未來， `analyticsDeleteMethod` 除了預設值「anonymize」外，可能還支援「purge」值。 若支援，將會刪除整個點擊，而非只更新具有DEL標籤之點擊欄位的值。
 
-除了其預設值外， `priority` 欄位也支援「low」值。 若請求不是資料主體請求的結果，並因此不具須於 30 天內完成的法律規定，您應為此等請求指定此值。
+除了其預設值外， `priority` 欄位也支援「low」值。 您應為非資料主體請求結果的請求指定此值，因此沒有須於特定時間範圍內完成的法律要求。
 
 ## 使用Privacy ServiceAPI
 
 >[!IMPORTANT]
 >
->Adobe不鼓勵使用 [Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 除了資料主體啟動的請求以外。 Privacy Service API 並非適合用於資料清理或修復的工具，可能會致生非預期的後果。Privacy ServiceAPI的用途是協助您履行資料隱私權請求，這些請求常有時效性。 Adobe 不支援將此 API 用於其他用途，這麼做可能會影響 Adobe 為其他客戶即時處理較優先、由使用者提出的資料隱私權請求。請勿將 Privacy Service API 用於其他用途，例如清除大量訪客群組不小心提交的資料。
+>Adobe不允許使用 [Privacy ServiceAPI](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 除了資料主體啟動的有效請求之外的其他原因。 Privacy ServiceAPI不是資料清理或修復的適當工具。 若將Privacy ServiceAPI誤用於非資料主體起始的請求，將產生非預期的後果。 Privacy ServiceAPI是提供給Adobe客戶，協助您履行資料隱私權請求，這些請求常有時效性。 Adobe 不支援將此 API 用於其他用途，這麼做可能會影響 Adobe 為其他客戶即時處理較優先、由使用者提出的資料隱私權請求。請勿將Privacy ServiceAPI用於其他用途，例如資料衛生或清除大量訪客群組不小心提交的資料。
 
-另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的連帶作用，這也突顯出 Privacy Service API 不適合此用途的原因。
+另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見看到這個結果，這也突顯出Privacy ServiceAPI不適合此用途的原因。
 
-請聯絡您的客戶經理 (CSM) 來協調工程架構顧問團隊，進一步檢視，並投入移除所有 PII 或資料問題。
+請連絡您的客戶經理(CSM)來協調工程架構顧問團隊，以進一步檢閱，並致力移除任何PII或解決資料問題。

@@ -3,10 +3,10 @@ description: 命名空間是一組自訂字串，可用來在所有報表套裝�
 title: 命名空間
 feature: Data Governance
 exl-id: 421572c2-2789-48bc-b530-d48216799724
-source-git-commit: 9e8607691e6b144dd9e7b7a407bb2f02d27fbb1a
+source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 命名空間是一組自訂字串，可用來在所有報表套裝的任何變數中識別 ID，您要搜尋的每個 ID 都會有一個指定的命名空間。
 
-當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，該請求會包含 JSON 區段，用以指定用於請求的資料主體 ID。您可以納入多個 ID 做為資料主體的單一請求的一部分。JSON 包含以下項目：
+當您提供 ID 用於資料隱私權請求時，命名空間字串可識別您要搜尋的欄位。提交資料隱私權請求時，請求會包含JSON區段，用以指定用於請求的資料主體ID。 資料主體的單一請求中可包含多個ID。 JSON 包含以下項目：
 
 * 具有命名空間字串的「namespace」欄位。
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
@@ -38,7 +38,7 @@ ht-degree: 98%
 
 您也可以使用 `"namespaceId": 10` (而非 `"namespace": "AAID"`)，這樣就能看到其他幾種 Adobe 產品使用該表單。
 
-## 舊版Analytics追蹤Cookie:已廢止的表單
+## 舊版Analytics追蹤Cookie:棄用的表單
 
 ```
 {
