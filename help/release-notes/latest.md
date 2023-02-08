@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: c13e39e7bfe3d7fef07ea9ccda76255d28dde1c3
+source-git-commit: e7140b78b7b2c6c63cb93f1341581cc83af7b33b
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 70%
 
 ---
 
-# Adobe Analytics 目前的版本注意事項
+# Adobe Analytics 目前的版本注意事項 (2023 年 2 月)
 
-**上次更新日期**：2023 年 1 月 25 日
+**上次更新日期**：2023 年 2 月 2 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,28 +20,24 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Workspace 資料夾** | 資料夾可協助您組織專案並加以分類，以便更妥善地擷取和存取。此外，共用的&#x200B;**[!UICONTROL 公司]**&#x200B;資料夾可讓管理員輕鬆建立內容並與所有工作區使用者共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.html) | 不適用 | 2023 年 1 月 11 日 |
-| **預設登陸頁面** | 2022 年初推出的[新登陸頁面](/help/analyze/landing.md)將在 **2023 年 1 月 11 日**&#x200B;成為所有使用者的預設體驗。 舊版登陸頁面將被淘汰，並將要求所有人都使用新體驗。 | 不適用 | 2023 年 1 月 11 日 |
-| **已棄用專案管理員頁面** | 隨著新登陸頁面的發布，我們已棄用 **[!UICONTROL Adobe Analytics]** > **[!UICONTROL 元件]**&#x200B;下所列的&#x200B;**[!UICONTROL 專案管理員]**。 新版登陸頁面具有舊「專案管理員」頁面的所有功能，以及更多功能。 了解更多 | 不適用 | 2023 年 1 月 11 日 |
-| **自動儲存新專案** | Analysis Workspace 現在會自動儲存新建立的專案。 如果因任何原因，您在手動儲存新建立專案前意外失去存取權，則您專案的復原版本現在已可使用。 過去，專案只會在初次手動儲存後自動儲存。 [了解更多](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md) | 不適用 | 2023 年 1 月 11 日 |
-| **增強型使用者偏好設定** | 您現在可以在使用者層級設定其他偏好設定 (在[!UICONTROL 元件 ] > [!UICONTROL 偏好設定]中)。 當您設定使用者偏好設定時，您的選取項目會跨越專案、表格和視覺效果。 「偏好設定」頁面現在包含以下新索引標籤，每個索引標籤都包含許多新的設定選項：<ul><li>自由表格</li><li>視覺效果</li></ul>此外，您現在可以在&#x200B;**[!UICONTROL 一般]**&#x200B;和&#x200B;**[!UICONTROL 專案]**&#x200B;索引標籤上使用更多偏好設定。<p>以前，其中許多偏好設定只能針對個別專案、表格和視覺效果進行設定。 [了解更多](/help/analyze/analysis-workspace/user-preferences.md) | 不適用 | 2023 年 1 月 11 日 |
+| **更新資料隱私權標籤的使用者介面** | 更新後的介面可簡化報表套裝元件建立、管理和編輯資料隱私權標籤的程式。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) | 不適用 | 2023年2月8日 |
+| **行動計分卡中的比較日期範圍** | 使用行動計分卡，您可以切換 **[!UICONTROL 包含比較日期]** 設定來檢視或隱藏比較日期。 | 不適用 | 2023年2月8日 |
+| **工作區中的日曆更新** | <ul><li>錨點面板日期：您可以建立與面板日曆相對的日期範圍元件。 [了解更多](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>日曆樣式更新：UI中的日曆樣式已升級，以呈現更一致且易於使用的工作流程。</li><li>日曆公式更新：如果您使用相對日期，所有日曆公式都會反映面板日期範圍的開始。 [了解更多](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 不適用 | 2023年2月8日 |
+| **Adobe Analytics Source Connector串流的列/欄篩選** | Adobe Experience Platform中的Analytics來源連接器現在允許篩選用於填入設定檔的Analytics資料 [即時客戶個人檔案](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant). 列層級篩選有助於減少與設定檔相關聯的事件數。 欄層級篩選有助於減少事件本身的豐富性，進而讓您最佳化設定檔權益的使用。 此篩選僅適用於傳送至「即時客戶設定檔」的資料，以及 [Identity服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant). **篩選不會影響傳送至Data Lake以用於應用程式(例如Customer Journey Analytics)的資料**. [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en#filtering-for-profile) | 不適用 | 2023 年 2 月 22 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## Adobe Analytics 中的修正
 
-AN-282634；AN-289684；AN-299597；AN-299630；AN-300128；AN-301633；AN-301683；AN-301745；AN-302238；AN-302521；AN-302601；AN-303325；AN-303363；AN-303867；AN-304120；AN-304185；AN-304221；AN-304222；AN-304510；AN-304591；AN-304872；AN-305151；AN-305159；AN-305233；AN-305235；AN-305241；AN-305250；AN-305274；AN-305292；AN-305311；AN-305314；AN-305331；AN-305335；AN-305348；AN-305372；AN-305382；AN-305442；AN-305504；AN-305517；AN-305572；AN-305584；AN-305588；AN-305612；AN-305640；AN-305663；AN-305718；AN-305723；AN-305767；AN-305769；AN-305703；AN-305711；AN-305775；AN-305883；AN-305886；AN-305882；AN-305886；AN-305916；AN-305969；AN-305997；AN-306052；AN-306088；AN-306199；AN-306214；AN-306233；AN-306251；AN-306348；AN-306372；AN-306390；AN-306413；AN-306430；AN-306514；AN-306578；AN-306612；AN-306886；AN-306893；AN-306905；AN-306984；AN-306989；AN-307038；AN-307061；AN-307062；AN-307176；AN-307209；AN-307233；AN-307257；AN-307280；AN-307292；AN-307293；AN-307318；AN-307319；AN-307320；AN-307325；AN-307368；AN-307381；AN-307403；AN-307461；AN-307480；AN-307650；AN-307767；AN-307790；AN-307813；AN-307833；AN-307835；AN-307867；AN-307899；AN-307907；AN-307934；AN-307991；AN-308031；AN-308057；AN-308240；AN-308242；AN-308302；AN-308363；AN-308373；AN-308450；AN-308591；AN-308673；AN-308725；AN-309171；
+-302282；AN-303127；AN-303541；AN-303550；AN-305282；AN-306504；AN-307351；AN-307496；AN-307530；AN-307947；AN-308497；AN-；AN-308610；AN-308777；AN-308994；AN-309143；AN-309404；AN-309414；AN-309445；AN-309575；AN-309630；AN-309658；AN-309690；AN-309742；AN-309861；AN-309967；AN-309973；AN-310059；AN-310132；AN-310168；AN-310238；AN-310241；AN-310301；AN-310318；AN-310324；AN-310335；AN-310338；AN-310460；AN-310500；AN-310684；AN-310690；AN-311010；AN-311022；AN-311043；AN-311125；AN-311250；AN-311370；AN-311458;
 
 ## 給 Adobe Analytics 管理員的重要通知
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 1 月 25 日 | **2023 年 2 月 16 日** 將開始在裝置查詢中使用客戶端提示。 <p> <p>自 2022 年 10 月起，即可使用 Web SDK 或 AppMeasurement JavaScript 庫收集用戶端提示。 但直到 2023 年 2 月，用戶端提示才會被納入裝置查詢中。 屆時，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
-| **暫停 Reports &amp; Analytics 中的排程報告** | 2023 年 1 月 6 日 | 謹此提醒，Adobe 將於 **2023 年 1 月 31 日** 淘汰這些功能。 請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>再次強調，這些功能將在 2023 年 1 月 31 日淘汰。在此日期之前，您必須將排程報告遷移至 Adobe Analytics 中任何您可以使用的其他機制之一。如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| **暫停 Report Builder 中的排程工作** | 2023 年 1 月 6 日 | **2023 年 1 月 31 日**，Adobe 將對 Report Builder 排程工作展開變更，這是我們效能和傳遞最佳化工作的一部份。這些變更包括移除讓已排程傳遞「在 x 次發生次數後結束」的能力。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。請注意，此選項將於 2023 年 1 月 31 日停止使用。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
-| **已改良 IP 對地理位置的對應** | 2023 年 1 月 4 日 | 我們的 IP 查詢供應商 Digital Element 即將升級到新改良的資料集 (NetAcuity Pulse)，以便用於 IP 對地理位置的對應。Adobe Analytics 將在 **2023 年 1 月 11 日** (原計劃於 2022 年 10 月) 採用此新的資料集。 新資料庫將會比舊版更準確。在採用新資料庫後，某些 IP 對地理位置的對應將會變更/改良。<p>所有 Adobe Analytics 工具（Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、LiveStream、Analytics Data Feeds 等）都將自動利用經改善的全新對應功能。 資料摘要中的資料格式不會改變。透過 Analytics Source Connector 提供的 CJA 資料也將自動利用全新的對應功能。 |
-| **新 NetAcuity 電信業者資料庫的更新** | 2023 年 1 月 4 日 | 這項更新原計劃於 2022 年 10 月 5 日推出，現在將於 **2023 年 1 月 11 日**&#x200B;開始進行。 儲存在 Adobe Analytics Data Warehouse 和 Analytics 資料摘要的 `carrier` 欄位中的電信業者相關資訊將會變更。在過去，該欄中的資料格式一直是 `<domain>:<ISP>`。Adobe 已維護一份內部查詢表，以便將這些 `<domain>:<ISP>` 值對應到電信業者名稱，以供在 Adobe Analytics 報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、LiveStream 等) 中進行報告之用。 此查詢檔案 (`carrier.tsv`) 也隨附資料摘要，讓您可以使用相同的對應。<p>此更新使用來自 NetAcuity 的較準確電信業者資料庫，藉以強化我們的電信業者對應。未來，資料摘要中電信業者欄的資料格式將會變更。它將包含電信業者名稱，而不是 `<domain>:<ISP>`。Adobe 將繼續使用查詢表，以盡可能保持與過去報告的連續性。Adobe 套用查詢的報告工具 (Analysis Workspace、Reports &amp; Analytics、報告 API、Data Warehouse、直播串流等) 將受益於較準確的對應。Adobe 採用新資料庫時，某些對應 (特別是國際網域和 ISP 的對應) 將比其他對應發生更多變化。資料摘要電信業者查詢檔案 (`carrier.tsv`) 將維持舊的對應，同時加入新的對應。<p>Analytics 來源連接器目前不會對應電信業者欄位，因此 Experience Platform、CJA 等項目中目前不提供電信業者報告。 因此，使用新電信業者資料庫將不會影響 Experience Platform 中以 Analytics 來源連接器所提供之資料為依據的任何內容。 |
-| **更新的流量尖峰通知指南** | 2022 年 11 月 18 日 | 以前的指南完全是以點擊量為準。 [新指南](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)是以報表套裝大小和百分比的增加為準。 |
+| **暫停 Reports &amp; Analytics 中的排程報告** | 2023 年 1 月 6 日 | Adobe已於 **2023年1月31日**. 請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>在2023年1月31日之前，您必須將排程報表移轉至Adobe Analytics中可供您使用的其他機制之一。 如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| **暫停 Report Builder 中的排程工作** | 2023 年 1 月 6 日 | 開啟 **2023年1月31日**,Adobe會在Report Builder中對排程任務進行變更，作為效能和傳送最佳化工作的一部分。 這些變更包括移除讓已排程傳遞「在 x 次發生次數後結束」的功能。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -49,15 +45,16 @@ AN-282634；AN-289684；AN-299597；AN-299630；AN-300128；AN-301633；AN-30168
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
-| **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
 | **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
+| **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。 |
 
 {style=&quot;table-layout:auto&quot;}
 
 ## AppMeasurement
 
 如需 AppMeasurement 版本 (版本 2.23.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html)。
+
 
 ## 相關資源
 
