@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 526c7b0739ac9a4c1424bbb3cdfb320369725de6
+source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
 workflow-type: tm+mt
 source-wordcount: '3592'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 2 月** |  |
 | 實作 | 更新如何 [實作適用於網頁和行動裝置的Adobe Analytics](../implement/home.md). |
 | **2023 年 1 月** |  |
-| 篩選和排序表格 | 更新 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md) 文章。 將本文重新命名為「表格分頁、篩選及分類」。 |
+| 篩選和排序表格 | 已更新[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。重新命名本文的「分頁、篩選和排序表格」。 |
 | 資料夾 | [檔案夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |
 | 使用者偏好設定 | 「[偏好設定](/help/analyze/analysis-workspace/user-preferences.md)」現在提供許多其他使用者偏好設定。 |
 | 專案自動儲存 | 更新內容以加入「[儲存專案](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md)」中的自動儲存功能。 |
@@ -40,7 +40,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2022 年 11 月** |  |
 | 同意管理變數 | [同意管理選擇加入](/help/components/dimensions/cm-opt-in.md)和[同意管理選擇退出](/help/components/dimensions/cm-opt-out.md)的專屬頁面。 |
-| 多貨幣重新整理 | [多貨幣支援](/help/technotes/multicurrency.md)頁面已更新。 |
+| 多貨幣重新整理 | [多貨幣支援](/help/implement/vars/config-vars/currencycode.md)頁面已更新。 |
 | **2022 年 10 月** |  |
 | Data Workbench | [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant) |
 | 用戶端提示 | 新的[概述和常見問題](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html)。 |
