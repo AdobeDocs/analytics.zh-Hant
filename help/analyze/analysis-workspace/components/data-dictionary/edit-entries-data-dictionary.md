@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Analytics管理員可以編輯指定報表套裝之資料字典中的元件項�
 
    ![資料字典管理檢視](assets/data-dictionary-admin.png)
 
-1. 請確定下拉式功能表中已選取正確的報表套裝。
+1. 請確定下拉式功能表中已選取正確的報表套裝。 依預設，會顯示您已在的報表套裝。
 
 1. （選用）在搜尋欄位中，開始輸入您要編輯的元件名稱。
 
