@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e7140b78b7b2c6c63cb93f1341581cc83af7b33b
+source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 70%
+source-wordcount: '1159'
+ht-degree: 57%
 
 ---
 
@@ -35,19 +35,20 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 1 月 25 日 | **2023 年 2 月 16 日** 將開始在裝置查詢中使用客戶端提示。 <p> <p>自 2022 年 10 月起，即可使用 Web SDK 或 AppMeasurement JavaScript 庫收集用戶端提示。 但直到 2023 年 2 月，用戶端提示才會被納入裝置查詢中。 屆時，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
-| **暫停 Reports &amp; Analytics 中的排程報告** | 2023 年 1 月 6 日 | Adobe已於 **2023年1月31日**. 請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>在2023年1月31日之前，您必須將排程報表移轉至Adobe Analytics中可供您使用的其他機制之一。 如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
-| **暫停 Report Builder 中的排程工作** | 2023 年 1 月 6 日 | 開啟 **2023年1月31日**,Adobe會在Report Builder中對排程任務進行變更，作為效能和傳送最佳化工作的一部分。 這些變更包括移除讓已排程傳遞「在 x 次發生次數後結束」的功能。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
+| **自動遷移到分類集體系結構** | 2023年2月8日 | Adobe計畫在未來數月將所有組織中的所有分類移轉到最新的分類架構。 最後一個要遷移的客戶預計於2023年5月完成。 不需要客戶操作，也不需要停機時間。 此新架構有許多優點，包括：<ul><li>大幅縮短處理時間(72小時→ 24小時)</li><li>使用 [分類集](/help/components/classifications/sets/overview.md) UI</li><li>未來在Adobe Experience Platform中使用分類資料的選項，透過 [Adobe Analytics來源連接器（分類資料）](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>請注意下列可能影響組織工作流程的變更：<ul><li>使用瀏覽器匯入時，「[!UICONTROL 衝突時覆蓋]「一律啟用。</li><li>使用瀏覽器匯入時，不再支援在匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions` 端點現在會為分類傳回字串識別碼，而非數值識別碼。 數值識別碼仍可使用，但Adobe建議盡可能使用新的字串識別碼。 數值識別碼可透過 `?expansion=hidden` 查詢字串參數。</li></ul>如果您想要組織有更具體的移轉排程，或對此移轉有疑問/疑慮，請聯絡Adobe客戶服務。 [了解更多](/help/components/classifications/sets/overview.md) |
+| **依據 Google 用戶端提示更新裝置查詢** | 2023 年 1 月 25 日 | **2023 年 2 月 16 日** 將開始在裝置查詢中使用客戶端提示。 <p> <p>自 2022 年 10 月起，即可使用 Web SDK 或 AppMeasurement JavaScript 庫收集用戶端提示。 但直到 2023 年 2 月，用戶端提示才會被納入裝置查詢中。 屆時，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
+| **已棄用「Reports &amp; Analytics」中的排程報表功能** | 2023 年 1 月 6 日 | Adobe已於 **2023年1月31日**. 請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。<p>在2023年1月31日之前，您必須將排程報表移轉至Adobe Analytics中可供您使用的其他機制之一。 如有其他問題或需要支援，請和 Adobe 客戶服務聯絡。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md) |
+| **已棄用的排程任務功能Report Builder** | 2023 年 1 月 6 日 | 開啟 **2023年1月31日**,Adobe會在Report Builder中對排程任務進行變更，作為效能和傳送最佳化工作的一部分。 這些變更包括移除讓已排程傳遞「在 x 次發生次數後結束」的功能。<p>您可繼續排程每小時的 Report Builder 工作，並使其在最多 99 次發生次數後結束。請注意，復原作業僅適用於每小時工作；所有其他傳遞間隔 (每日、每週、每月和每年) 仍無法使用「x 次發生次數後結束」功能。如有更多問題或需要支援，請聯絡 Adobe 客戶服務。[了解更多](/help/analyze/report-builder/r-arb-scheduled-reports.md) |
 
 {style=&quot;table-layout:auto&quot;}
 
-## 生命週期結束重要通知
+## 終止服務(EOL)通知
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
+| **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
 | **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束程序。 |
-| **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。 |
 
 {style=&quot;table-layout:auto&quot;}
 
