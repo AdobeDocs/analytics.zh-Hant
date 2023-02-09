@@ -3,10 +3,10 @@ description: 說明 Adobe Analytics 的持續功能發行策略
 title: Adobe Analytics 功能發行
 feature: Release Notes
 exl-id: 1e403bef-4aab-4a9a-a358-62449ce801ff
-source-git-commit: 7a6a7438ae6dcfd514c8de66626331f3a0e8210d
+source-git-commit: cc18ac659400b572967e06cc2946d602e825bc97
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics 的發行模式是持續傳遞，允許以更具可擴縮性、�
 
 * **正式發行 (GA)**：已獲授權的 Experience Cloud 組織可使用 100% 的功能，功能發行至此即告完成。
 
-每個功能發行從 RTP 到 GA 的時程可能不盡相同。共同目標是要縮短發行時程，以期在開始發行 (RTP) 後的 2 個月內，就正式發行功能。
+隨著每個功能發行，從開始轉出至GA的時間軸可能會有所不同。 目標是要縮短發行時間，以便在開始推出後的2個月內，正式發行功能。
 
 ## 功能旗標
 
