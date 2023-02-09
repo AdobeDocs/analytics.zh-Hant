@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 64a0bb6e04f4b56cd40676ea1c239f1beef8c41a
+source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
 workflow-type: tm+mt
 source-wordcount: '3639'
 ht-degree: 98%
@@ -27,8 +27,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2023 年 2 月** |  |
 | 實施 | 已更新有關如何[為網路和行動裝置實施 Adobe Analytics](../implement/home.md) 的內容。 |
-| 工作區日曆和日期範圍 | 更新內容，說明相對日期範圍、公式計算更新和日曆UI變更。 請參閱 [關於相對面板日期範圍](/help/components/date-ranges/calendar.md). |
-| 行動計分卡 | 說明如何顯示和隱藏比較日期範圍的新檔案區段。 請參閱 [顯示比較日期範圍](/help/mobile-app/create-scorecard.md) 在CJA中。 |
+| 工作區日曆和日期範圍 | 更新內容，說明相對日期範圍、公式計算更新和日曆UI變更。 請參閱 [關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
+| 行動計分卡 | 說明如何顯示和隱藏比較日期範圍的新檔案區段。 請參閱 [顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md) 在CJA中。 |
 | **2023 年 1 月** |  |
 | 篩選和排序表格 | 已更新[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。重新命名本文的「分頁、篩選和排序表格」。 |
 | 資料夾 | [檔案夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |
