@@ -6,15 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '137'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 安裝 Report Builder
 
-安裝Report Builder:
+若要安裝 Report Builder：
 
 1. 按一下&#x200B;**[!UICONTROL 「Adobe Experience Cloud]** > **[!UICONTROL Analytics]** > **[!UICONTROL 工具]** > **[!UICONTROL Report Builder」]**。
 1. 按一下&#x200B;**[!UICONTROL 「立即下載」]**，以下載 32 位元或 64 位元版本 (視安裝的 MS Excel 版本而定)。
@@ -27,4 +27,4 @@ ht-degree: 97%
 
 ## 權限
 
-如果&#x200B;**[!UICONTROL 「工具」]**&#x200B;底下並未顯示 **[!UICONTROL Report Builder]** 功能表項目，請洽詢 Adobe Analytics 管理員，確認您所屬的產品設定檔是否包括「Report Builder」權限。進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html)。
+如果&#x200B;**[!UICONTROL 「工具」]**&#x200B;底下並未顯示 **[!UICONTROL Report Builder]** 功能表項目，請洽詢 Adobe Analytics 管理員，確認您所屬的產品設定檔是否包括「Report Builder」權限。進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant)。
