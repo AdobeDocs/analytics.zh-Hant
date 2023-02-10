@@ -4,9 +4,9 @@ title: 流量增加所需的前置時間
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -31,25 +31,25 @@ Adobe 需要事先收到有關新帳戶設定、流量尖峰及流量增加的�
  <thead>
   <tr>
    <th colname="col1" class="entry"> 流量變更類型 </th>
-   <th colname="col2" class="entry"> 所需的前置時間 </th>
+   <th colname="col2" class="entry"> 需要前置時間 </th>
   </tr>
  </thead>
  <tbody>
   <tr>
    <td colname="col1"> 新帳戶設定 </td>
-   <td colname="col2"> <ul><li>3個工作日</li></ul></td>
+   <td colname="col2"> <ul><li>3 個工作日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 與過去30天相比，每日流量的平均尖峰或永久性流量突然增加高達25%</td>
-   <td colname="col2"> <ul><li>每日點擊數&lt; 100M的報表套裝：不需要通知</li><li>每日點擊數超過1億次的報表套裝：5個工作日</li></ul></td>
+   <td colname="col1"> 與過去 30 天相比，平均每日流量的流量尖峰或瞬間永久流量增加最多 25%</td>
+   <td colname="col2"> <ul><li>每天點擊次數 &lt; 1 億的報表套裝：無需通知</li><li>每天點擊次數超過 1 億次的報表套裝：5 個工作日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 與過去30天相比，日均流量的流量尖峰或永久性流量突然增加超過25%</td>
-   <td colname="col2"> <ul><li>5個工作日</li></ul></td>
+   <td colname="col1"> 與過去 30 天相比，平均每日流量的流量尖峰或瞬間永久流量增加超過 25%</td>
+   <td colname="col2"> <ul><li>5 個工作日</li></ul></td>
   </tr>
   <tr>
-   <td colname="col1"> 假日活動10月至12月 </td>
-   <td colname="col2"> <ul><li>一個日曆月</li></ul> </td>
+   <td colname="col1"> 10 月至 12 月假期活動 </td>
+   <td colname="col2"> <ul><li>一個月 (曆月)</li></ul> </td>
   </tr>
  </tbody>
 </table>
