@@ -6,15 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 621e3928-17d8-4b0a-93dc-7bf1622b16fc
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '84'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
 # 遞延日期
 
-若要自訂請求的滾動日期：
+若要自訂請求的遞延日期：
 
 1. 在[!UICONTROL 「請求精靈: 步驟 1」]中選擇&#x200B;**[!UICONTROL 「遞延日期」]**。
 1. 按一下&#x200B;**[!UICONTROL 「遞延」]**&#x200B;連結以選擇遞延類型，然後使用日期連結來設定遞延日期。
