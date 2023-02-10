@@ -6,15 +6,15 @@ feature: Report Builder
 role: User, Admin
 exl-id: 0a8b1971-8d32-424a-9d41-d7ab2af54d1e
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '168'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # 設定異常偵測請求
 
-若要在Report Builder中建立異常偵測請求：
+若要在 Report Builder 中建立異常偵測請求：
 
 1. 選取趨勢化報表，如&#x200B;**[!UICONTROL 網站度量]**>**[!UICONTROL 流量]**&#x200B;報表。
 1. 在[!UICONTROL 「套用粒度」]功能表，選取&#x200B;**[!UICONTROL 「日」]**。
