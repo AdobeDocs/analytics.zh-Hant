@@ -6,13 +6,13 @@ exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '67'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # 下載報表套裝設定值
 
-若要產生包含所選報表套裝所有設定的Excel試算表：
+若要產生 Excel 試算表 (包含所選報表套裝的所有設定)：
 
 1. 按一下「**[!UICONTROL 管理]**> **[!UICONTROL 報表套裝]**」。
 1. 在[!UICONTROL 「報表套裝」]表格中選取報表套裝。

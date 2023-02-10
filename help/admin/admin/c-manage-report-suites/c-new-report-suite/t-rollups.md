@@ -6,7 +6,7 @@ exl-id: 0aac9063-d915-4484-92c0-c84a75704ac2
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '115'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->[!DNL Reports & Analytics] 是唯一支援統計報表的工具，Adobe 不再建議使用統計。 如需了解替代選擇，請參閱「[報表套裝做法](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html)」。
+>[!DNL Reports & Analytics] 是唯一支援統計報表的工具，Adobe 不再建議使用統計。 如需了解替代選擇，請參閱「[報表套裝做法](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/rollup-report-suite.html?lang=zh-Hant)」。
 
 若要建立統計報表套裝：
 

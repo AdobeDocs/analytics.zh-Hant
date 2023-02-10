@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 
 + [Analytics 工具指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
-+ 開始使用Adobe Analytics {#admin-overview}
++ 開始使用 Adobe Analytics {#admin-overview}
    + [我該使用哪種 Adobe Analytics 工具呢？](get-started/which-analytics-tool.md)
    + [Analytics 產品比較和需求](get-started/analytics-product-comparison.md)
    + [系統需求](get-started/sys-reqs.md)
@@ -116,7 +116,7 @@ ht-degree: 97%
       + 媒體播放時間 {#media-playback-timespent}
          + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
          + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [常見問答](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+         + [常見問題](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
       + [下一個或上一個項目面板](analysis-workspace/c-panels/next-previous.md)
       + [頁面摘要面板](analysis-workspace/c-panels/page-summary.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
@@ -136,8 +136,8 @@ ht-degree: 97%
       + [歸因總覽](analysis-workspace/attribution/overview.md)
       + [歸因模型與回顧期間](analysis-workspace/attribution/models.md)
       + [演算法歸因](analysis-workspace/attribution/algorithmic.md)
-      + [歸因最佳實務](analysis-workspace/attribution/best-practices.md)
-      + [常見問答](analysis-workspace/attribution/faq.md)
+      + [歸因最佳做法](analysis-workspace/attribution/best-practices.md)
+      + [常見問題](analysis-workspace/attribution/faq.md)
    + [Journey IQ](analysis-workspace/journey-iq.md)
    + [區段 IQ](analysis-workspace/segment-iq.md)
    + 虛擬分析人員 {#virtual-analyst}
@@ -157,8 +157,8 @@ ht-degree: 97%
          + [警報管理員](analysis-workspace/c-intelligent-alerts/alert-manager.md)
          + [智慧型警報 - 使用案例](analysis-workspace/c-intelligent-alerts/alerts-use-cases.md)
    + [使用者偏好設定](analysis-workspace/user-preferences.md)
-   + 工作區常見問答 {#workspace-faq}
-      + [常見問答](analysis-workspace/workspace-faq/faq.md)
+   + 工作區常見問題 {#workspace-faq}
+      + [常見問題](analysis-workspace/workspace-faq/faq.md)
       + [最佳化 Analysis Workspace 效能](analysis-workspace/workspace-faq/optimizing-performance.md)
       + [錯誤訊息](analysis-workspace/workspace-faq/error-messages.md)
       + [Analysis Workspace 限制](analysis-workspace/workspace-faq/aw-limitations.md)
@@ -275,20 +275,20 @@ ht-degree: 97%
       + [適用於 Power BI 的 Adobe Analytics 內容套件](report-builder/c-publish-power-bi/integration-power-bi.md)
    + [Visual Basic 巨集](report-builder/vba.md)
    + [Report Builder 疑難排解](report-builder/troubleshoot.md)
-   + [Report Builder 常見問答](report-builder/faq.md)
+   + [Report Builder 常見問題](report-builder/faq.md)
 + Activity Map {#activity-map}
    + [Activity Map 總覽](activity-map/activity-map.md)
    + 快速入門 {#getting-started}
       + 管理員快速入門 {#get-started-admins}
          + [啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [實作 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
+         + [實施 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
       + 使用者快速入門 {#get-started-users}
          + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
          + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
    + [強大的連結追蹤](activity-map/lnk-tracking-overview.md)
    + 連結追蹤 {#link-tracking}
       + [連結追蹤方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)
-      + [連結追蹤常見問答](activity-map/activitymap-link-tracking/link-tracking-faq.md)
+      + [連結追蹤常見問題](activity-map/activitymap-link-tracking/link-tracking-faq.md)
       + [區別參照相同連結 ID 和區域的連結](activity-map/activitymap-link-tracking/activitymap-link-tracking-use-case.md)
       + [停止連結追蹤](activity-map/activitymap-link-tracking/activitymap-stop-link-tracking.md)
       + [使用 s.tl() 函數](activity-map/activitymap-link-tracking/activitymap-stl-track-custom-elements.md)
@@ -302,7 +302,7 @@ ht-degree: 97%
    + [覆蓋圖詳細資料](activity-map/activitymap-overlay-details.md)
    + [匯出至 CSV 檔案](activity-map/activitymap-csv.md)
    + [支援的系統和需求](activity-map/activitymap-sysreqs.md)
-   + [Activity Map 常見問答](activity-map/activitymap-faq.md)
+   + [Activity Map 常見問題](activity-map/activitymap-faq.md)
    + [設定 Activity Map](activity-map/activitymap-overlay-settings.md)
    + [Activity Map 使用者介面](activity-map/activitymap-user-interface.md)
    + [Analytics 中的 Activity Map 報表](activity-map/activitymap-reporting-analytics.md)
@@ -337,7 +337,7 @@ ht-degree: 97%
    + [目標](reports-analytics/targets.md)
    + [警報](reports-analytics/alerts.md)
    + [行事曆事件](reports-analytics/t-calendar-event.md)
-   + [常見問答](reports-analytics/frequently-asked-questions.md)
+   + [常見問題](reports-analytics/frequently-asked-questions.md)
    + [疑難排解](reports-analytics/report-troubleshooting.md)
 + Adobe Analytics 儀表板 {#mobapp}
    + [Adobe Analytics 儀表板 - 總覽](mobile-app/home.md)

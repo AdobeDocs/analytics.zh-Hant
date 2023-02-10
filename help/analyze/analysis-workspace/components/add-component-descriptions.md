@@ -1,12 +1,12 @@
 ---
-description: 管理員可使用報表套裝或資料字典為元件新增說明。
+description: 管理員可以使用報表套裝或資料字典新增元件的說明。
 title: 新增元件說明
 feature: Components
 role: Admin
 source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 Analytics管理員可新增元件(Dimension、量度、區段和日期範圍)的說明<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
 
-組織中的使用者在Analysis Workspace中建置專案時或檢視報表時，都可以檢視說明。 說明可協助使用者了解如何最妥善地使用各種元件。
+您組織中的使用者可以在 Analysis Workspace 中建立專案或查看報表時檢視說明。說明可幫助使用者了解如何最好地使用各種元件。
 
-## 新增說明至報表套裝中的元件
+## 新增報表套裝中的元件描述
 
-以下影片說明如何在報表套裝中新增維度和量度說明：
+以下影片會說明如何在報表套裝中新增維度和量度說明：
 
 >[!VIDEO](https://video.tv.adobe.com/v/25453/?quality=12)
 

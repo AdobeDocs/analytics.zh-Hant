@@ -6,11 +6,11 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-# Adobe Admin Console中的Analytics概觀
+# Adobe Admin Console 中的 Analytics 概觀
 
 使用 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 管理 Analytics 的產品和使用者。Adobe Admin Console 位在 [adminconsole.adobe.com](https://adminconsole.adobe.com/)。
 

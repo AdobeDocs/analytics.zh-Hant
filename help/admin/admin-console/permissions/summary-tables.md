@@ -6,11 +6,11 @@ feature: Admin Tools
 source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Admin Console中的Analytics權限
+# Admin Console 中的 Analytics 權限
 
 使用下列摘要表，依邏輯群組來識別 Adobe Admin Console 中的 Adobe Analytics 權限。
 
@@ -38,7 +38,7 @@ ht-degree: 99%
 | 報告套裝管理 | x |  |  |  | 授與「報告套裝管理器」的存取權，但不允許任何變更。 |
 | 成功事件 | x |  |  |  | 授與「報告套裝管理器」中「轉換 > 成功事件」的存取權。 |
 | 流量變數 | x |  |  |  | 授與「報告套裝管理器」中「流量 > 流量變數」的存取權。 |
-| 不重複訪客 | x |  |  |  | 授與「轉換 > 不重複訪客變數」的存取權。通常不會用於新版的實作中。 |
+| 不重複訪客 | x |  |  |  | 授與「轉換 > 不重複訪客變數」的存取權。通常不會用於新版的實施中。 |
 | URL 篩選器 | x |  |  |  | 授與「報告套裝管理器」中「一般 > 內部 URL 篩選器」的存取權。 |
 | 異常偵測 |  | x |  |  | 授與 Analysis Workspace 中異常偵測功能的存取權。 |
 | 貢獻分析 |  | x |  |  | 授與 Analysis Workspace 中滑鼠右鍵功能表的「執行貢獻分析」存取權。 |

@@ -7,13 +7,13 @@ exl-id: 6b3cb570-780a-4d18-8aba-4cb674f5b16c
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '112'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 複製處理規則至其他報表套裝
 
-若要從一個報表套裝複製處理規則，並將這些規則取代或附加至另一個報表套裝：
+若要複製一個報表套裝的處理規則，並將這些規則取代或附加至另一個報表套裝：
 
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 1. 選取報表套裝。

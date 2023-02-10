@@ -7,7 +7,7 @@ exl-id: 822ecaff-a06c-42e1-aee8-ef4a43df4230
 source-git-commit: 2f219f599b5c9231a29a23e1ebd9412081754c9d
 workflow-type: tm+mt
 source-wordcount: '1672'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 99%
 自訂分析轉換變數 (或 eVar) 放置於您的網站上所選網頁的 Adobe 程式碼中。其主要作用是將自訂行銷報告中的轉換成功量度區段。eVar 可以瀏覽為準，其功能類似於 Cookie。傳送到 eVar 變數的值，會在預定的期間內跟隨使用者。
 
 
-## 轉換變數(eVar)概觀
+## 轉換變數 (eVar) 概觀
 
-以下是影片概述：
+以下是影片概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/28759/?quality=12)
 

@@ -6,13 +6,13 @@ exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '814'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
 # 加上標籤範例
 
-## 點擊資料範例 {#hit}
+## 範例點擊資料 {#hit}
 
 假設您有以下點擊資料：
 
@@ -141,7 +141,7 @@ ht-degree: 95%
 
 請注意，使用 cookie ID 時，expandIDs 的設定不會影響輸出。
 
-## 刪除請求範例 {#delete}
+## 樣本刪除請求 {#delete}
 
 由於表格第一列中有使用 API 值的刪除請求，點擊表格的內容將會更新並看起來像這樣：
 

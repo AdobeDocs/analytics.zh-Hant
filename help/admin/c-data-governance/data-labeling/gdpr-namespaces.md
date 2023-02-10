@@ -20,7 +20,7 @@ ht-degree: 94%
 * 大部分 Adobe Analytics 請求的「type」欄位，其中具有「analytics」這個值。
 * 具有 ID 的「value」欄位，該 ID 是 Analytics 在每個報表套裝的相關聯命名空間變數中搜尋的目標。
 
-如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html)。
+如需更多詳細資料，請參閱 [Experience Cloud 資料隱私權 API 文件](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant)。
 
 ## Cookie ID
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 指定值時應採用兩組 16 位數十六進位數字，或兩組 19 位數十進位數字。數字之間應以破折號 (-)、底線 (_) 或冒號 (:) 區隔。若數字的位數不足，應於開頭以零補足。
 
-## 身分識別服務Cookie
+## 身分識別服務 Cookie
 
 ```
 {
@@ -90,7 +90,7 @@ ht-degree: 94%
 
 系統也會為自訂訪客 ID 預先定義命名空間。
 
-## 自訂變數中的ID
+## 自訂變數中的 ID
 
 ```
 {

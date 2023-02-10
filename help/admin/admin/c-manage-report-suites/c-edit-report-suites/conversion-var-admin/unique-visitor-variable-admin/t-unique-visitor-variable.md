@@ -6,17 +6,17 @@ exl-id: 20d5cd43-9ab2-4e36-8faf-607176378f8b
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # 指定不重複訪客變數
 
-您可以指定包含訪客識別碼的eVar。
+您可以指定哪個 eVar 包含訪客識別碼。
 
 這個變數會指定一個 eVar 來包含您的不重複訪客識別碼。此變數可讓您使用自己的唯一識別碼來報告客戶活動。
 
-若要指定包含訪客識別碼的eVar:
+若要指定哪個 eVar 包含訪客識別碼：
 
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 1. 選取報表套裝。

@@ -5,7 +5,7 @@ exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
 source-git-commit: 7adcd3698416e0591dba1faa841ac3b4273a5562
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 94%
 
 用戶端提示指有關使用者裝置的個別資訊。上述提示會透過 Google Chrome 和 Microsoft Edge 之類的 Chromium 瀏覽器提供。對於這些瀏覽器，用戶端提示將逐漸取代使用者代理程式成為裝置資訊的來源。Adobe Analytics 將更新其裝置查找流程，以便使用除使用者代理程式以外的用戶端提示來確定裝置資訊。
 
-## 低熵和高熵客戶端提示
+## 低平均資訊量和高平均資訊量用戶端提示
 
 Google 將使用者代理程式用戶端提示分為兩種類別：低平均資訊量和高平均資訊量提示。
 
@@ -27,11 +27,11 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 >[!NOTE]
 >
-> 自2023年1月起，部分Mac和Windows作業系統版本在使用者代理中的呈現方式不正確，但在高熵用戶端提示中呈現的方式正確。 如需詳細資訊，請參閱[作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)。
+> 截至 2023 年 1 月，部分版本的 Mac 和 Windows 作業系統在使用者代理中顯示不正確，但在高平均資訊量用戶端提示中顯示正確。 如需詳細資訊，請參閱[作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)。
 
-AAM需要收集高熵提示，以保留完整功能。 如果您使用的是[伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是[伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
-## 常見問題集
+## 常見問題
 
 +++**我可以在何處進一步瞭解用戶端提示？**
 
@@ -41,7 +41,7 @@ AAM需要收集高熵提示，以保留完整功能。 如果您使用的是[伺
 
 +++**我如何才能啟用用戶端提示的收藏集？**
 
-低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自「標記」擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html#enabling-high-entropy-client-hints) 和 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html) 的說明。
+低平均資訊量提示會由瀏覽器自動提供，並擷取衍生裝置和瀏覽器資訊。較新版本的 Web SDK (從 2.12.0 開始) 和 AppMeasurement (從 2.23.0 開始) 可以設定為透過各自「標記」擴充或直接透過設定選項收集高平均資訊量提示。請參閱 [Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/user-agent-client-hints.html?lang=zh-Hant#enabling-high-entropy-client-hints) 和 [AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/collecthighentropyuseragenthints.html?lang=zh-Hant) 的說明。
 
 對於這兩個資料庫，高平均資訊量提示的收藏集會&#x200B;**預設為停用**。
 
@@ -71,8 +71,8 @@ AAM需要收集高熵提示，以保留完整功能。 如果您使用的是[伺
 | Sec-CH-UA-Model | 裝置型號 | 高 | `"Pixel 3"` |
 | Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | `"10"` |
 
-* 通過請求標頭收集低熵提示。
-* 高熵提示是透過JavaScript收集，並透過查詢字串參數值傳遞。 查詢字串參數使用 `h.` 作為影像要求中的前置詞。
+* 透過請求標頭收集的低平均資訊量提示。
+* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串參數使用 `h.` 作為影像請求中的前置詞。
 
 高平圴資訊量提示是透過 JavaScript 呼叫收集並透過查詢參數來傳遞
 
@@ -88,11 +88,11 @@ AAM需要收集高熵提示，以保留完整功能。 如果您使用的是[伺
 
 這些欄位直接衍生自使用者代理程式，但使用者代理程式可用於協助推導出其他裝置相關欄位的值 (視裝置詳細資料而定)。
 
-* [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html)
-* [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html)
-* [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html)
-* [作業系統類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html)
-* [行動裝置和行動裝置類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html)
+* [瀏覽器](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser.html?lang=zh-Hant)
+* [瀏覽器類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/browser-type.html?lang=zh-Hant)
+* [作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)
+* [作業系統類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-system-types.html?lang=zh-Hant)
+* [行動裝置和行動裝置類型](https://experienceleague.adobe.com/docs/analytics/components/dimensions/mobile-dimensions.html?lang=zh-Hant)
 
 +++
 
@@ -104,7 +104,7 @@ AAM需要收集高熵提示，以保留完整功能。 如果您使用的是[伺
 
 +++**Analytics 在哪些方面需要依賴使用者代理程式？**
 
-報表中的裝置資訊來自使用者代理程式。 我們更新了我們的流程，在適用情況下能同時使用使用者代理程式和客戶端提示。
+報表中的裝置資訊來自使用者代理程式。 我們更新了我們的流程，在適用情況下能同時使用使用者代理程式和用戶端提示。
 
 備援 ID ([s_fid](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/analytics-ids.html?lang=zh-Hant)) 來自使用者代理程式和 IP 地址。 此 ID 僅在無法設設 cookie 時使用，因此未被廣泛使用
 
@@ -156,6 +156,6 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++**AAM 伺服器端轉送是否支援用戶端提示？**
 
-是。客戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是[伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+是。用戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是[伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
 
 +++

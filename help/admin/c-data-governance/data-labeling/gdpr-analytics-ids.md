@@ -6,7 +6,7 @@ exl-id: 00da58b0-d613-4caa-b9c1-421b1b541f47
 source-git-commit: a36654fcf10712e0d12917bad832bb46f343d6fd
 workflow-type: tm+mt
 source-wordcount: '2695'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 80%
 
 >[!NOTE]
 >
->請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。 啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實作行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
+>請記住，每次建立新報表套裝，或在現有報表套裝內啟用新變數時，都必須仔細檢視標籤。 啟用新解決方案整合時也必須檢閱標籤，因為它們可能會公開需要加上標籤的新變數。重新實施行動應用程式或網站可能會改變現有變數的使用方式，因此也可能需要更新標籤。
 
-## 可直接與間接識別身分的ID {#direct-vs-indirect}
+## 可直接與間接識別身分的 ID {#direct-vs-indirect}
 
 在判斷標籤應套用到哪些變數/欄位之前，您必須先瞭解從 Analytics 資料擷取的 ID 所代表之意義，再決定要提供哪些 ID 以用於資料隱私權請求。資料隱私權擴大了 ID 的定義範圍，目前 ID 區分為兩個較廣泛的類別，分別為可直接識別身分 (身分識別標籤：I1) 與可間接識別身分 (身分識別標籤：I2)　的 ID。
 
@@ -32,7 +32,7 @@ ht-degree: 80%
 * 某些ID可能對應至多人，您不想冒將某人的相關資訊傳回給具有相同ID的其他人的風險。 例如：即使您確認某人的姓名就是約翰史密斯，但您並不打算將系統中姓名同為約翰史密斯的所有使用者資料一併傳回。
 * 另一個例子是裝置 ID，例如：Analytics Cookie ID。手機應用程式中產生 ID 時，您也許會將使用該 ID 進行的所有互動判斷為來自這支手機的擁有者。但如果是發生在共用裝置 (如家用電腦、圖書館或網咖的電腦) 時，您可能就無法區分該裝置的使用者，而傳回不同使用者資料的風險太大，因此您不能允許使用這類 ID。
 
-## Analytics支援的ID最佳作法 {#best-practices-an}
+## 適用於 Analytics 支援 ID 的最佳做法 {#best-practices-an}
 
 請使用下表來判斷將資料隱私權請求提交給 Analytics 時，要使用的 ID 類型。瞭解此資訊能讓您輕鬆地判斷變數應使用的其他標籤。
 
@@ -63,12 +63,12 @@ ht-degree: 80%
   </tr> 
   <tr> 
    <td colname="col1"> <p>自訂訪客 ID </p> </td> 
-   <td colname="col2"> <p>雖然自訂訪客 ID 並未廣泛使用，Analytics 仍支援提供此 ID 的實作；如有此 ID，系統就會用來取代舊版 Analytics 追蹤 Cookie。此欄位的標籤有 I2、ID-PERSON 和 DEL-PERSON。 </p> <p>許多實作會從CRM ID衍生此ID，因此只有在有人登入其網站時才會存在。 如此可在不同裝置間使用相同的自訂訪客 ID。而這有一個技術上的缺點，即使用者登入之前的追蹤資料將無法繫結至登入後系統收集的追蹤資料。不過，如果您使用自訂訪客 ID 僅為了能識別裝置，應將 ID-PERSON 和 DEL- PERSON 標籤分別變更為 ID-DEVICE 和 DEL- DEVICE。 </p> </td> 
+   <td colname="col2"> <p>雖然自訂訪客 ID 並未廣泛使用，Analytics 仍支援提供此 ID 的實施；如有此 ID，系統就會用來取代舊版 Analytics 追蹤 Cookie。此欄位的標籤有 I2、ID-PERSON 和 DEL-PERSON。 </p> <p>許多實作會從CRM ID衍生此ID，因此只有在有人登入其網站時才會存在。 如此可在不同裝置間使用相同的自訂訪客 ID。而這有一個技術上的缺點，即使用者登入之前的追蹤資料將無法繫結至登入後系統收集的追蹤資料。不過，如果您使用自訂訪客 ID 僅為了能識別裝置，應將 ID-PERSON 和 DEL- PERSON 標籤分別變更為 ID-DEVICE 和 DEL- DEVICE。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## 設定刪除標籤的最佳實務 {#best-practices-delete}
+## 設定刪除標籤的最佳做法 {#best-practices-delete}
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ ht-degree: 80%
 * DEL-標籤會讓系統為這些變數進行[匿名處理](/help/admin/c-data-governance/data-labeling/gdpr-labels.md#data-governance-labels) (ID 將替換為以「Data Privacy-」為首碼的隨機字串)，而在由請求所用 ID 識別出來的所有點擊中，所有原始值的例項都會取代為相同的匿名值。如果此欄位中的原始值是這些 ID 的其中之一，則報表量度將不會變更。
 * 一般而言，如果欄位有 ID-DEVICE 標籤，則您也應指派 DEL-DEVICE 標籤。
 * 同樣地，如果欄位有 ID-PERSON 標籤，則您也應指派 DEL-PERSON 標籤。
-* 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實作採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
+* 如果欄位中沒有 ID- 標籤，但含有您想要匿名處理的身分識別資訊，則應根據您的實施採用適當的標籤 (DEVICE 或 PERSON)。如果您在資料隱私權請求中僅使用 Cookie ID，則應使用 DEL-DEVICE。
 * 如果您在含有 ID-PERSON 標籤的不同欄位中使用自訂 ID，且只想從產生 ID 的資料列中清除值，請使用 DEL-PERSON。
 * 如果您使用 ID 擴增，且想將所有值從全部已識別裝置的所有點擊中清除，則請使用 DEL-DEVICE。您可以在這個案例中偏好同時套用 DEL-DEVICE 和 DEL-PERSON 標籤，只不過 DEL-PERSON 並非必要標籤，因為 ID 擴增意味著所有符合人員 ID 的資料列也符合裝置 ID。
 * 若您未指定ID擴增的使用，但會針對不同請求使用混合的裝置與人員ID，則您可能想要為變數指定DEL-DEVICE和DEL-PERSON標籤，以備在使用任一ID類型時應刪除的變數。
@@ -88,7 +88,7 @@ ht-degree: 80%
 
    例如，如果您在 eVar7 有三個含有「foo」值的點擊，不過只有其中一個點擊同時在符合刪除條件的其他變數中含有 ID，則系統會將該點擊的「foo」修改為「Data Privacy-123456789」之類的值，其他兩個點擊的值將維持不變。在顯示 eVar7 唯一值數量的報表中，將會比以往多顯示一個唯一值。顯示 eVar 最高值的報表只會包含兩個例項的「foo」(而非先前的 3 個)，而新值則會連同單一例項一併顯示。
 
-## 設定存取標籤的最佳實務 {#best-practices-access}
+## 設定存取標籤的最佳做法 {#best-practices-access}
 
 很少有欄位會包含其他標籤，不過許多欄位有 ACC 標籤這是常見的情況。適當的存取標籤取決於您要用於資料隱私權請求的 ID。
 

@@ -6,13 +6,13 @@ exl-id: a1e2bc5c-4443-4c88-8b6c-cc320c689c99
 source-git-commit: 157b6f53b482d8cc19b99976ed1d927a80fec490
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # 指定永久性流量增加
 
-您可以更改預期的流量級別，以便Adobe可以重新分配資源以處理新的流量級別。 (或者，您可以 [排程流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md) 如果要臨時重新分配資源。)
+您可以變更預期的流量級別，讓 Adobe 可以重新分派資源來處理新的流量級別。(或者，如果您想臨時重新分配資源，您可以[排程流量尖峰](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)。)
 
 {{$include /help/_includes/traffic-lead-time.md}}
 

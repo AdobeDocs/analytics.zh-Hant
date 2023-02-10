@@ -6,13 +6,13 @@ exl-id: 81cf3f0c-4871-435d-bcc9-bcff5c682f05
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
 workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 可減輕瀏覽器 Cookie 限制之影響的選項
 
-此文件說明當主要瀏覽器實作預防 Cookie 的追蹤措施時，可跨屬性和解決方案來保留永續性訪客身分識別的選項。
+此文件說明當主要瀏覽器實施預防 Cookie 的追蹤措施時，可跨屬性和解決方案來保留永續性訪客身分識別的選項。
 
 Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 Analytics 也仰賴第三方 Cookie 來了解訪客在網站外的活動，例如在您擁有的其他網域上的活動。 許多瀏覽器都封鎖第三方 Cookie，而隨著 Chrome 即將取消支援 (目前計劃在 2024 年底取消)，大部分的第三方 Cookie 將無法使用。 所有瀏覽器都允許使用第一方 Cookie，但在 Apple 的 [ITP 預防追蹤](https://webkit.org/tracking-prevention)措施之下，這類 Cookie 在 Safari 和其他瀏覽器上的期限受到限制。 如需有關瀏覽器 Cookie 的目前限制的詳細資訊，請參閱 [Adobe Analytics 和瀏覽器 Cookie](cookies.md)。
 
@@ -20,7 +20,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 ## Customer Journey Analytics 和 Cross Device Analytics
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html) 和[跨裝置分析](/help/components/cda/overview.md)允許使用者包含持久性識別碼 (例如雜湊登入) 和 Cookie。 這可讓您了解跨裝置的客戶歷程，若是 Customer Journey Analytics，則為跨線上和離線頻道：
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant) 和[跨裝置分析](/help/components/cda/overview.md)允許使用者包含持久性識別碼 (例如雜湊登入) 和 Cookie。 這可讓您了解跨裝置的客戶歷程，若是 Customer Journey Analytics，則為跨線上和離線頻道：
 
 * **Customer Journey Analytics** 建立在 Adobe Experience Platform 上，提供在 Analysis Workspace 中根據任何常見客戶 ID 結合線上和離線資料的靈活性。 您可以指定要用於任何特定分析的 ID，並探索 Analysis Workspace 中的資料。 Analytics Select、Prime 和 Ultimate 客戶均符合購買此附加產品的資格。
 
@@ -30,7 +30,7 @@ Adobe Analytics 仰賴第一方 Cookie 來記錄訪客在網站上的活動。 A
 
 伺服器端收集可靈活地提供您自己的識別碼，而不需仰賴瀏覽器機制來設定 Cookie。
 
-您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實作。 如需這兩個API的比較，請參閱[我該使用哪個Adobe Analytics工具](/help/analyze/get-started/which-analytics-tool.md).&quot;
+您可以使用[資料插入 API](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/data-insertion-api/index.md) 或[大量資料插入 API](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/bdia.md)，提交資料至 Analytics 伺服器端。 建議將大量資料插入 API 用於新伺服器端的實施。 如需這兩個 API 的比較情況，請參閱「[我應該使用哪一個 Adobe Analytics 工具](/help/analyze/get-started/which-analytics-tool.md)」。
 
 ## 使用 Web SDK 的第一方裝置 ID (FPID)
 

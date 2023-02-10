@@ -6,7 +6,7 @@ exl-id: b4855000-adf3-4e3b-af36-f4803383126d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 98%
 
 ## 新增轉換分類
 
-若要在「管理」中新增轉換分類：
+若要在管理員中新增轉換分類：
 
 1. 按一下「**[!UICONTROL 管理]**> **[!UICONTROL 報表套裝]**」。
 1. 選取報表套裝。

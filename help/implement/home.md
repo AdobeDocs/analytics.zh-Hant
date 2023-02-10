@@ -1,23 +1,23 @@
 ---
-title: 實作 Adobe Analytics
-description: 在您的網站、屬性或應用程式上實作 Adobe Analytics。
+title: 實施 Adobe Analytics
+description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
 source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
 workflow-type: tm+mt
 source-wordcount: '885'
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
-# 實作 Adobe Analytics
+# 實施 Adobe Analytics
 
 ![橫幅](../../assets/doc_banner_implement.png)
 
-Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adobe 的資料收集伺服器。下列步驟說明典型實作的運作方式。
+Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adobe 的資料收集伺服器。下列步驟說明典型實施的運作方式。
 
 1. 訪客造訪您的網站時，會對您的網路伺服器送出要求。
 2. 您的網站網路伺服器會傳送頁面代碼資訊，且頁面會顯示於瀏覽器。
-3. 頁面會載入，Analytics JavaScript 程式碼會運作。JavaScript程式碼會傳送影像要求給Adobe資料收集伺服器。 您在實作中定義的頁面資料，會作為此影像要求中查詢字串的一部分傳送。
+3. 頁面會載入，Analytics JavaScript 程式碼會運作。JavaScript 程式碼會將影像要求傳送至 Adobe 資料彙集伺服器。您在實施中定義的頁面資料，會作為此影像要求中查詢字串的一部分傳送。
 
 4. Adobe 回報空白像素影像。
 5. Adobe 伺服器會將收集而來的資料儲存在一個或多個&#x200B;*報表套裝*&#x200B;中。
@@ -25,76 +25,76 @@ Adobe 需要您網站或應用程式的程式碼，才能將資料傳送至 Adob
 
 JavaScript 程式碼會快速開始執行，且對頁面載入時間的影響非常有限。訪客為到達特定頁面而點擊&#x200B;**[!UICONTROL 「重新載入」]**&#x200B;或&#x200B;**[!UICONTROL 「返回」]**&#x200B;時，此方法可讓您計數頁面，因為頁面自快取中擷取時，JavaScript 也可執行。
 
-Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實作此程式碼的方法有很多種，視平台和您組織的需求而定。
+Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的程式碼，才能將資料傳送至資料收集伺服器。實施此程式碼的方法有很多種，視平台和您組織的需求而定。
 
 ## 網站實施方法
 
-針對您的 **網站**，可使用下列實施方法：
+對於您的&#x200B;**網站**，可以使用以下實施方法：
 
-* **Web SDK擴充功能**:為新客戶實作Adobe Analytics的標準化且建議的方法。 安裝 **AEP Web SDK擴充功能** 在Adobe Experience Platform資料收集 **標籤**，請在每個頁面上使用載入器標籤，並將資料傳送至Adobe Experience Platform **邊緣網路** 格式，方便您的組織使用。 邊緣網路以正確的格式將傳入的資料轉送至Adobe Analytics。
-   ![Web SDK擴充功能](./assets/websdk-extension-implementation.png)
-請參閱 [使用Adobe Experience Platform Web SDK擴充功能實作Adobe Analytics](./aep-edge/overview.md) 以取得更多資訊。
+* **Web SDK 擴充功能**：為新客戶實施 Adobe Analytics 的建議標準化方法。在 Adobe Experience Platform 資料彙集&#x200B;**標記**&#x200B;中安裝 **AEP Web SDK 擴充功能**，在每一頁面上使用 Loader 標記，並以對您組織方便使用的格式傳送資料給 Adobe Experience Platform **Edge Network**。Edge Network 以正確格式轉寄傳入資料給 Adobe Analytics。
+   ![Web SDK 擴充功能](./assets/websdk-extension-implementation.png)
+有關詳細資訊，請參閱[使用 Adobe Experience Platform Web SDK 擴充功能實施 Adobe Analytics](./aep-edge/overview.md)。
 
-* **Web SDK**：如果您不想使用 Adobe Experience Platform 資料彙集，可以手動將 Web SDK 程式庫載入您的網站。參考Web SDK程式庫(`alloy.js`)，並將所需的追蹤呼叫傳送至Adobe Experience Platform **邊緣網路** 格式，方便您的組織使用。 邊緣網路以正確的格式將傳入的資料轉送至Adobe Analytics。
+* **Web SDK**：如果您不想使用 Adobe Experience Platform 資料彙集，可以手動將 Web SDK 程式庫載入您的網站。在每個頁面上參考 Web SDK 庫 (`alloy.js`)，並以對您組織方便使用的格式將所需的追蹤呼叫傳送到 Adobe Experience Platform **Edge Network**。Edge Network 以正確格式轉寄傳入資料給 Adobe Analytics。
    ![Web SDK](./assets/websdk-implementation.png)
-請參閱 [使用Adobe Experience Platform Web SDK實作Adobe Analytics](./aep-edge/overview.md) 以取得更多資訊。
+有關詳細資訊，請參閱[使用 Adobe Experience Platform Web SDK 實施 Adobe Analytics](./aep-edge/overview.md)。
 
 
-* **Analytics擴充功能**:安裝 **Adobe Analytics擴充功能** 在Adobe Experience Platform資料收集 **標籤**. 在每個頁面上放置載入器標籤，並使用Adobe Analytics擴充功能來判斷每個變數的定義方式。 如果您想要方便標籤，但不想使用邊緣網路基礎架構，請使用此實施方法。
-   ![Adobe Analytics擴充功能](./assets/analytics-extension-implementation.png)
-請參閱 [使用Analytics擴充功能實作Adobe Analytics](launch/overview.md) 以取得更多資訊。
+* **Analytics 擴充功能**：在 Adobe Experience Platform 資料彙集&#x200B;**標記**&#x200B;中安裝 **Adobe Analytics**。在每一頁面放置 Loader 標記，並使用 Adobe Analytics 擴充功能以決定如何定義每個變數。如果您想要標記的便利性，但又不想使用 Edge Network 基礎結構，請使用此實施方法。
+   ![Adobe Analytics 擴充功能](./assets/analytics-extension-implementation.png)
+有關詳細資訊，請參閱[使用 Analytics 擴充功能實施 Adobe Analytics](launch/overview.md)。
 
-* **舊版 JavaScript：**&#x200B;舊版手動實作 Adobe Analytics 的方法。參考AppMeasurement程式庫(`AppMeasurement.js`)，然後概述實作中使用的變數和設定。
-   ![舊版JavaScript](./assets/appmeasurement-implementation.png)
-此實作方法對使用自訂程式碼的實作相當實用，但若您（想要）使用：
+* **舊版 JavaScript**：舊版手動實施 Adobe Analytics 的方法。在每個頁面上參考 AppMeasurement 庫 (`AppMeasurement.js`)，然後概觀實施中使用的變數和設定。
+   ![舊版 JavaScript](./assets/appmeasurement-implementation.png)
+此實施方法對於使用自訂程式碼的實施非常有用，也建議在您 (想要) 進行以下行為時使用：
 
-   * [點按層級activity map資料](../analyze/activity-map/activity-map.md),
+   * [點擊層級活動對應資料](../analyze/activity-map/activity-map.md)
 
-   * [串流媒體測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant),
+   * [串流媒體測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)
 
-   * [livestream API或livestream觸發器](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md),
+   * [直播 API 或直播觸發器](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/getting_started.md)
 
-   * [AMP頁面追蹤](./other/amp.md)
-   請參閱 [使用JavaScript適用的AppMeasurement實作Adobe Analytics](js/overview.md) 以取得更多資訊。
+   * [AMP 頁面追蹤](./other/amp.md)
+   有關詳細資訊，請參閱[使用 AppMeasurement for JavaScript 實施 Adobe Analytics](js/overview.md)。
 
-下列決策流程可協助您選取實施方法：
+以下決策流程可幫助您選擇實施方法：
 
 ![決策樹](./assets/decision-tree.png)
 
 
 >[!TIP]
 >
->請連絡Adobe，以取得建議和最佳實務，以便根據您目前的情況選擇哪些實作。
+>請聯絡 Adobe，以取得根據您目前情況該選擇哪種實施方式的建議和最佳做法。
 
-## 行動應用程式實作方法
+## 行動應用程式實施方法
 
-針對您的 **行動應用程式**，可使用下列實施方法：
+對於您的&#x200B;**行動應用程式**，可以使用以下實施方法：
 
-* **行動SDK擴充功能**:在行動應用程式中實作Adobe Analytics的標準化且建議的方法。 使用專用的程式庫，輕鬆將資料從行動應用程式傳送至Adobe。 安裝 **Adobe Experience Platform Mobile SDK擴充功能** 在Adobe Experience Platform資料收集 **標籤** 並在您的應用程式中實作正確的程式碼，以匯入程式庫、註冊擴充功能及載入標籤設定。 這會將資料傳送至Adobe Experience Platform **邊緣網路** 格式，方便您的組織使用。 體驗 Edge 以正確格式轉寄傳入資料給 Adobe Analytics。
-   ![行動SDK擴充功能](./assets/mobilesdk-extension.png)
+* **Mobile SDK 擴充功能**：在您的行動應用程式中實施 Adobe Analytics 的建議標準化方法。使用專用的程式庫，可輕鬆將資料從行動應用程式傳送至 Adobe。在 Adobe Experience Platform 資料彙集&#x200B;**標記**&#x200B;中安裝 **Adobe Experience Platform Mobile SDK 擴充功能**，並在您的應用程式中實施正確的程式碼以匯入程式庫、註冊擴充功能和載入標記設定。這會將資料以您的組織方便的格式發送到 Adobe Experience Platform **Edge Network**。體驗 Edge 以正確格式轉寄傳入資料給 Adobe Analytics。
+   ![Mobile SDK 擴充功能](./assets/mobilesdk-extension.png)
 
-   請參閱 [使用Adobe Experience Platform Mobile SDK實作Adobe Analytics](../implement/aep-edge/mobile-sdk/overview.md) 以取得更多資訊。
+   有關詳細資訊，請參閱[使用 Adobe Experience Platform Mobile SDK 實施 Adobe Analytics](../implement/aep-edge/mobile-sdk/overview.md)。
 
-* **Analytics擴充功能**:安裝 **Adobe Analytics擴充功能** 在Adobe Experience Platform資料收集 **標籤**，並在您的應用程式中實作正確的程式碼，以匯入程式庫、註冊擴充功能及載入標籤設定。 使用Analytics擴充功能來判斷每個變數的定義方式。 如果您想要方便使用Adobe Experience Platform資料收集，但不想使用Adobe的Experience Platform邊緣網路基礎架構，請使用此實作方法。
+* **Analytics 擴充功能**：在 Adobe Experience Platform 資料彙集&#x200B;**標記**&#x200B;中安裝 **Adobe Analytics 擴充功能**，並在您的應用程式中實施正確的程式碼以匯入程式庫、註冊擴充功能和載入標記設定。使用 Analytics 擴充功能以決定如何定義每個變數。如果您想要 Adobe Experience Platform 資料彙集的便利性，但又不想使用 Adobe 的 Experience Platform Edge Network 基礎結構，請使用此實施方法。
    ![Analytics 擴充功能](./assets/mobilesdk-analytics-extension.png)
 
-   請參閱 [使用Analytics擴充功能實作Adobe Analytics](../implement/aep-edge/mobile-sdk/overview.md) 以取得更多資訊。
+   有關詳細資訊，請參閱[使用 Analytics 擴充功能實施 Adobe Analytics](../implement/aep-edge/mobile-sdk/overview.md)。
 
 
 >[!CAUTION]
 >
->2021年8月31日停止支援第4版Mobile SDK。 如需詳細資訊，請參閱[第 4 版行動 SDK 支援終止常見問答](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)。
+>版本 4 Mobile SDK 於 2021 年 8 月 31 日終止支援。 如需詳細資訊，請參閱[第 4 版 Mobile SDK 支援終止常見問題](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)。
 
-## 重要 Analytics 實作文章
+## 重要 Analytics 實施文章
 
-* [負責現有的 Adobe Analytics 實作](/help/implement/prepare/existing-implementation.md)
+* [負責現有的 Adobe Analytics 實施](/help/implement/prepare/existing-implementation.md)
 * [Adobe Debugger](validate/debugger.md)
 * [在 Experience Platform 中建立標籤屬性](launch/create-analytics-property.md)
 * [AppMeasurement 更新](appmeasurement-updates.md)
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 

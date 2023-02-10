@@ -6,13 +6,13 @@ exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: f135138de15f3fc788e637128daeb064d0d453af
 workflow-type: tm+mt
 source-wordcount: '3585'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
 # Analytics 變數的資料隱私權標籤
 
-## 為什麼要標籤您的資料？ {#why-label}
+## 為何要為您的資料加標籤？ {#why-label}
 
 Adobe的客戶身為資料控管單位，有責任遵守適用的資料隱私權法律，例如GDPR和CCPA。 客戶應洽詢自己的法律團隊，以決定應如何處理其資料，以遵守資料隱私權法律。 Adobe了解其每個客戶都有與隱私權相關的獨特需求，因此，Adobe可讓客戶自訂其所需的資料隱私權資料處理設定。 這讓每個獨特客戶都能夠針對其品牌和獨特的資料集，透過最適合的方式處理資料隱私權請求。
 
@@ -77,7 +77,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 
 | 標籤 | 定義 | 其他需求 |
 | --- | --- | --- |
-| 無 | 此變數不包含用於資料隱私權請求的 ID。 | 如果此欄位含有透過 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html) 或 UI 提交存取或刪除請求時將使用的 ID，您才需要設定這些標籤中的其中一個。 |
+| 無 | 此變數不包含用於資料隱私權請求的 ID。 | 如果此欄位含有透過 [Privacy Service API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html?lang=zh-Hant) 或 UI 提交存取或刪除請求時將使用的 ID，您才需要設定這些標籤中的其中一個。 |
 | ID-DEVICE | 此欄位包含的 ID 可用於針對資料隱私權請求識別裝置，但無法辨別共用裝置上的不同使用者。 您不需要為所有包含 ID 的變數指定此標籤 (這是 I1/I2 標籤的作用)。如果您使用儲存在此變數中的 ID 提交資料隱私權請求，而且想要搜尋此變數以找出指定 ID，請使用此標籤。 | 也需要 I1 或 I2 標籤。<ul><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li><li>無法在分類上設定</li></ul> |
 | ID-PERSON | 此欄位包含的 ID 可針對資料隱私權請求識別已驗證的使用者 (特定人員)。 您不需要為所有包含 ID 的變數指定此標籤 (這是 I1/I2 標籤的作用)。如果您要使用儲存在此變數中的 ID 提交資料隱私權請求，而且想要搜尋此變數以找出指定 ID，請使用此標籤。 | <ul><li>也需要 I1 或 I2 標籤。</li><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li><li>無法在分類上設定</li></ul> |
 
@@ -127,9 +127,9 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 >
 > 系統會保留命名空間「visitorId」和「customVisitorId」，以識別 Analytics 舊版追蹤 Cookie 和 Analytics 客戶的訪客 ID。請勿將這些命名空間用於自訂流量或轉換變數。
 
-## 支援的變數類型和資料隱私權標籤 {#variable-types}
+## 變數類型以及其支援的資料隱私權標籤 {#variable-types}
 
-資料隱私權標籤會影響四大類Analytics變數。 並非所有變數皆支援所有標籤。下表顯示哪些變數支援或不支援哪些標籤。
+資料隱私權標籤會影響四大類 Analytics 變數。並非所有變數皆支援所有標籤。下表顯示哪些變數支援或不支援哪些標籤。
 
 | 變數類型 | 支援的標籤 | 不支援的標籤 |
 |--- |--- |--- |

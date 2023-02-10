@@ -5,7 +5,7 @@ exl-id: 97cfa0f9-b35d-4c73-822f-adf30d0b7efc
 source-git-commit: 5318079d6ad972e66494cd7b7f3bd64359b11012
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Adobe Analytics 使用高平均資訊量用戶端提示來協助識別裝置和�
 
 ## AppMeasurement 中的 collectHighEntropyUserAgentHints
 
-此 `s.collectHighEntropyUserAgentHints` 變數可判斷AppMeasurement是否要求Chromium瀏覽器的高熵提示(例如Google Chrome或Microsoft Edge)。 Adobe Analytics 使用這些提示來協助識別裝置和瀏覽器。
+`s.collectHighEntropyUserAgentHints` 變數決定 AppMeasurement 是否要求 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的高平均資訊量提示。Adobe Analytics 使用這些提示來協助識別裝置和瀏覽器。
 
-若設為 `true`，則會從瀏覽器請求所有高熵提示。
+如果設定為 `true`，將要求瀏覽器的所有高平均資訊量提示。
 
 ```js
 s.collectHighEntropyUserAgentHints = true;
