@@ -4,9 +4,9 @@ title: 未分類索引鍵
 feature: Classifications
 exl-id: 37288c2d-f6f6-4343-87a1-3c3a7b56fe32
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '250'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ t_rename_classification_none.xml
 
  -->
 
-若要重新命名顯示為 *`none`* 在報表中：
+若要重新命名在報告中顯示為 *`none`* 之未分類索引鍵：
 
 1. 使用匯入工具，將分類匯出至本機檔案。
 1. 將一列新增到檔案中，並在「索引鍵」欄中輸入 `~none~`
