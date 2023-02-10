@@ -4,7 +4,7 @@ title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 若要了解關於使用哪種 Adobe Analytics 產品的資訊，請參閱「[我應該使用哪種 Adobe Analytics 工具？](/help/analyze/get-started/which-analytics-tool.md)」。
 
-| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
+| 產品名稱和說明連結 | [Analysis Workspace](/help/analyze/analysis-workspace/home.md) | [Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md) | [Report Builder](/help/analyze/report-builder/home.md) | [Data Warehouse](/help/export/data-warehouse/data-warehouse.md) | [Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant) | [資料摘要](/help/export/analytics-data-feed/data-feed-overview.md) | [Analytics API 2.0](https://www.adobe.io/apis/experiencecloud/analytics/docs.html) |
 |---|---|---|---|---|---|---|---|
-| **存取方法** | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。[了解更多](/help/analyze/get-started/sys-reqs.md) | [Windows 64 位元](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html) | 透過瀏覽器進行設定。[了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 憑證登入。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/) |
+| **存取方法** | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [瀏覽器](/help/analyze/get-started/sys-reqs.md) | [Windows 版 MS Excel](/help/analyze/report-builder/setup/system-requirements.md) | 透過瀏覽器進行設定。[了解更多](/help/analyze/get-started/sys-reqs.md) | [Windows 64 位元](https://experienceleague.adobe.com/docs/data-workbench/using/install/c-data-workbench-client-install.html?lang=zh-Hant) | 透過瀏覽器進行設定。[了解更多](/help/export/analytics-data-feed/data-feed-overview.md) | RESTful API 工具。使用 Adobe Developer 憑證登入。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/) |
 | **資料粒度** | 彙總 | 彙總 | 彙總 | 彙總 | 點擊 | 點擊 | 彙總 |
 | **可用 Experience Cloud ID (ECID)** | 否 | 否 | 否 | 是 | 有 | 是 | 否 |
 | **可用時間戳記** | 否 | 否 | 否 | 否 | 是 | 是 | 否 |
