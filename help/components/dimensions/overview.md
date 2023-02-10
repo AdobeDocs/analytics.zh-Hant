@@ -4,9 +4,9 @@ description: 包含字串值的變數。
 feature: Dimensions
 exl-id: dc00e06a-fdb5-40e3-82e2-269bad3b3677
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '144'
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 63%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-每個維度分別代表您的網站不同的部分或面向。您可以將其中一個或多個維度與一或多個量度結合，以建立所需報表。
+每個維度分別代表您的網站不同的部分或面向。您可以將其中的一或多個維度與一或多個量度結合，以建立所需的報表。
 
 ## 新增維度說明
 
-Analytics管理員可在報表套裝內或直接在Analysis Workspace內新增維度和其他元件的說明。 如需如何將說明新增至維度的詳細資訊，請參閱 [新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中新增維度和其他元件的說明。有關如何將說明新增至維度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
