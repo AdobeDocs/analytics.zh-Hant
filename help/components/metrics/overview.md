@@ -4,9 +4,9 @@ description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: 3ed4c075578ef31cec4b1c825039eae989c813dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '185'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 82%
 
 ## 新增量度說明
 
-Analytics管理員可在報表套裝內或直接在Analysis Workspace內新增量度和其他元件的說明。 如需如何新增說明至量度的詳細資訊，請參閱 [新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md).
+Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中新增量度和其他元件的說明。有關如何將說明新增至量度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
