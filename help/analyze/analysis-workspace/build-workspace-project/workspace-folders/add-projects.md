@@ -4,16 +4,20 @@ keywords: Analysis Workspace
 title: 在 Workspace 中新增資料夾
 feature: Workspace Basics
 exl-id: 90968aec-0f08-4017-9c87-69f92b9747d2
-source-git-commit: 8e976be3e6b8fa954fc9902651c6e4601b25c727
+source-git-commit: e9c830fb729d99c1c60b2ba9227918e5d77bd449
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 66%
 
 ---
 
 # 將專案新增至資料夾
 
 您可以在表格檢視中或在資料夾中，將專案新增至資料夾。
+
+>[!NOTE]
+>
+>只有Analytics管理員可以將專案新增至公司資料夾，或建立新專案並儲存至公司資料夾
 
 ## 從表格檢視 {#table-view}
 
@@ -23,13 +27,15 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-tv-selected.png)
 
-1. 選取「**移至**」。「選取資料夾」對話框隨即顯示。
+1. 選取「**移至**」。
 
-1. 從下拉式選單中選取資料夾名稱。
+   「選取資料夾」對話框隨即顯示。
+
+1. 在下拉式功能表中，選取您要移動所選專案的資料夾。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-select-folder.png)
 
-1. 按一下「**新增**」。
+1. 選擇 **移動**.
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add.png)
 
@@ -49,25 +55,19 @@ ht-degree: 100%
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-open-folder.png)
 
-1. 按一下右上方的省略符號圖示 **...**。
+1. 選取 **...** 右上角的刪節號表徵圖。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/add-projects-elipsis.png)
-
-   下拉式選單會顯示將專案新增至資料夾的選項。其他選項可讓您重新命名、移動或刪除資料夾並管理資料夾權限。
 
 1. 選取「**新增專案**」，再從下拉式清單中選取要新增的專案。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/select-add-projects.png)
 
-   您可以新增多個專案至資料夾。
+
+1. （可選）從下拉式清單中選取其他專案，以新增多個專案。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-add-multiple-projects.png)
 
-1. 按一下「**新增**」，將專案新增至資料夾。
+1. 選擇 **新增** 將項目添加到資料夾。
 
    ![](/help/analyze/analysis-workspace/build-workspace-project/assets/move-added-items.png)
-
-
->[!NOTE]
->
->只有管理員可以將專案新增至公司資料夾，或建立新專案並儲存至公司資料夾
