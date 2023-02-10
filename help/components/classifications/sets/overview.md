@@ -2,10 +2,10 @@
 title: 「分類設定」概觀
 description: 使用「分類設定」管理分類資料。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 4824170ae2465f3fa04ee588d9571e1cc73d11fc
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 46%
+source-wordcount: '264'
+ht-degree: 45%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 46%
 
 隨分類集發佈的後端架構也包含數項重大變更：
 
-* 使用瀏覽器匯入時，「[!UICONTROL 衝突時覆蓋]「一律啟用。
-* 使用瀏覽器匯入時，不再支援在匯入後立即匯出的選項。 導出必須單獨啟動。
+* 使用瀏覽器或FTP匯入時，「[!UICONTROL 衝突時覆蓋]「一律啟用。
+* 使用瀏覽器或FTP匯入時，不再支援在匯入後立即匯出的選項。 導出必須單獨啟動。
 * Analytics 2.0 API `GetDimensions` 端點現在會為分類傳回字串識別碼，而非數值識別碼。 數值識別碼仍可使用，但Adobe建議盡可能使用新的字串識別碼。 數值識別碼可透過 `?expansion=hidden` 查詢字串參數。
 
 

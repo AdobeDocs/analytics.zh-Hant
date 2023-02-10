@@ -3,9 +3,9 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: e9e99a463ab8c8afbd786520d9529b68717bc690
+source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1053'
 ht-degree: 51%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **自動遷移到分類集體系結構** | 2023 年 2 月 8 日 | Adobe計畫在未來數月將所有組織中的所有分類移轉到最新的分類架構。 最後一個要遷移的客戶預計於2023年5月完成。 不需要客戶操作，也不需要停機時間。 此新架構有許多優點，包括：<ul><li>大幅縮短處理時間(72小時→ 24小時)</li><li>使用 [分類集](/help/components/classifications/sets/overview.md) UI</li><li>未來在Adobe Experience Platform中使用分類資料的選項，透過 [Adobe Analytics來源連接器（分類資料）](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>請注意下列可能影響組織工作流程的變更：<ul><li>使用瀏覽器匯入時，「[!UICONTROL 衝突時覆蓋]「一律啟用。</li><li>使用瀏覽器匯入時，不再支援在匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions` 端點現在會為分類傳回字串識別碼，而非數值識別碼。 數值識別碼仍可使用，但Adobe建議盡可能使用新的字串識別碼。 數值識別碼可透過 `?expansion=hidden` 查詢字串參數。</li></ul>如果您想要組織有更具體的移轉排程，或對此移轉有疑問/疑慮，請聯絡Adobe客戶服務。 [了解更多](/help/components/classifications/sets/overview.md) |
+| **自動遷移到分類集體系結構** | 2023 年 2 月 8 日 | Adobe計畫在未來數月將所有組織中的所有分類移轉到最新的分類架構。 最後一個要遷移的客戶預計於2023年5月完成。 不需要客戶操作，也不需要停機時間。 此新架構有許多優點，包括：<ul><li>大幅縮短處理時間(72小時→ 24小時)</li><li>使用 [分類集](/help/components/classifications/sets/overview.md) UI</li><li>未來在Adobe Experience Platform中使用分類資料的選項，透過 [Adobe Analytics來源連接器（分類資料）](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)</li></ul>請注意下列可能影響組織工作流程的變更：<ul><li>使用瀏覽器或FTP匯入時，「[!UICONTROL 衝突時覆蓋]「一律啟用。</li><li>使用瀏覽器或FTP匯入時，不再支援在匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions` 端點現在會為分類傳回字串識別碼，而非數值識別碼。 數值識別碼仍可使用，但Adobe建議盡可能使用新的字串識別碼。 數值識別碼可透過 `?expansion=hidden` 查詢字串參數。</li></ul>如果您想要組織有更具體的移轉排程，或對此移轉有疑問/疑慮，請聯絡Adobe客戶服務。 [了解更多](/help/components/classifications/sets/overview.md) |
 | **依據 Google 用戶端提示更新裝置查詢** | 2023 年 1 月 25 日 | **2023 年 2 月 16 日** 將開始在裝置查詢中使用用戶端提示。 <p> <p>自 2022 年 10 月起，即可使用 Web SDK 或 AppMeasurement JavaScript 庫收集用戶端提示。 但直到 2023 年 2 月，用戶端提示才會被納入裝置查詢中。 屆時，在為來自 Chromium 瀏覽器 (例如 Google Chrome 和 Microsoft Edge) 的點擊取得某些裝置資訊時，除了使用者代理程式之外，Adobe 將開始使用用戶端提示。 這是為了因應 Google 計劃逐漸減少從使用者代理字串呈現的資訊，以取代透過用戶端提示傳遞的資料。 <p> <p>作為此變更的一部分，Adobe 將使用 Device Atlas 進行所有和使用者代理程式相關的裝置查找。[了解更多](/help/technotes/client-hints.md) |
 
 {style=&quot;table-layout:auto&quot;}
