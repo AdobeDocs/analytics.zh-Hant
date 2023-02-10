@@ -4,7 +4,7 @@ title: Analytics 使用者移轉至 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
 source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3162'
 ht-degree: 100%
 
