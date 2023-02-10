@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 948a2429d7e73de90877ef40096064c0872a82d0
+source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -16,23 +16,15 @@ ht-degree: 97%
 
 + [Analytics 管理員指南](home.md)
 + [Analytics 版本注意事項](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
-+ Adobeadmin console {#admin-console}
++ Adobe Admin Console {#admin-console}
    + [概觀](admin-console/home.md)
    + [Adobe Analytics 的第一個管理指南](admin-console/first-admin-guide.md)
    + [Adobe Analytics 中的管理員角色](admin-console/admin-roles-in-analytics.md)
-   + Analytics工具權限摘要 {#permissions}
+   + Analytics 工具權限摘要{#permissions}
       + [Admin Console 中的 Analytics 權限](admin-console/permissions/summary-tables.md)
       + [Adobe Analytics 產品設定檔](admin-console/permissions/product-profile.md)
       + [報表套裝工具的產品設定檔權限](admin-console/permissions/report-suite-tools.md)
       + [Analytics 工具的產品設定檔權限](admin-console/permissions/analytics-tools.md)
-   + 使用者和產品管理 (舊版) {#user-product-management}
-      + [使用者和產品管理 (舊版)](admin-console/user-management2/user-management.md)
-      + 將使用者移轉至 Adobe Admin Console {#migrate-users}
-         + [Analytics 使用者移轉至 Admin Console](admin-console/user-management2/user-migration/c-migration-tool.md)
-         + [移轉 Adobe ID 的 Analytics 使用者帳戶](admin-console/user-management2/user-migration/t-migrate-users.md)
-         + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](admin-console/user-management2/user-migration/migrate-enterprise.md)
-         + [停用舊版登入](admin-console/user-management2/user-migration/t-disable-legacy-login.md)
-         + [受移轉影響的 API](admin-console/user-management2/user-migration/developer.md)
 + Analytics 管理員工具{#admin-tools}
    + [管理員工具概觀](admin/c-admin-tools.md)
    + [帳單](admin/billing-admin.md)
@@ -40,28 +32,8 @@ ht-degree: 97%
    + [資料來源](admin/data-sources.md)
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
-   + [報告活動管理器](admin/reporting-activity.md)
+   + [報告活動管理員](admin/reporting-activity.md)
    + 報表套裝管理員 {#manage-report-suites}
-      + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
-      + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
-      + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
-      + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
-      + 新的報表套裝 {#c-new-report-suite}
-         + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
-         + [建立統計報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
-         + [建立報表套裝群組](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
-         + [新的報表套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
-         + [並非從來源報表套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
-      + 報表套裝範本 {#report-suite-templates}
-         + [報表套裝範本總覽](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
-         + [整合入口網站](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
-         + [商務](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
-         + [內容與媒體](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
-         + [預設範本](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
-         + [金融服務](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
-         + [工作入口網站](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
-         + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
-         + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
       + 編輯報表套裝的設定值 {#edit-report-suite}
          + 一般 {#report-suite-general}
             + [一般帳戶設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
@@ -105,8 +77,8 @@ ht-degree: 97%
                + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
                + [伺服器端轉送需求](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-requirements.md)
                + [伺服器端轉送資料和程式碼參考](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-reference.md)
-               + [如何確認您的伺服器端轉送實作情形](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
-               + [伺服器端轉送常見問答](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
+               + [如何確認您的伺服器端轉送實施情形](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-verify.md)
+               + [伺服器端轉送常見問題](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量 {#traffic-variables}
             + [流量變數](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
             + [啟用流量變數報表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
@@ -133,8 +105,8 @@ ht-degree: 97%
             + [行銷管道有效期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概觀](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
-            + [計劃尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
-            + [持久流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
+            + [排程尖峰](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-schedule-spike.md)
+            + [永久流量](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/t-traffic-permanent.md)
          + [預設量度](admin/c-manage-report-suites/c-edit-report-suites/default-metrics.md)
          + [應用程式管理](admin/c-manage-report-suites/c-edit-report-suites/mobile-management.md)
          + [媒體管理](admin/c-manage-report-suites/c-edit-report-suites/media-management.md)
@@ -146,6 +118,26 @@ ht-degree: 97%
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
             + [支援的即時量度和維度](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime-metrics.md)
+      + [管理報表套裝](admin/c-manage-report-suites/report-suites-admin.md)
+      + [統計和全域報表套裝](admin/c-manage-report-suites/rollup-report-suite.md)
+      + [儲存報表套裝搜尋](admin/c-manage-report-suites/t-report-suite-saved-search.md)
+      + [下載報表套裝設定值](admin/c-manage-report-suites/t-download-rs-settings.md)
+      + 新的報表套裝 {#c-new-report-suite}
+         + [建立報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-create-a-report-suite.md)
+         + [建立統計報表套裝](admin/c-manage-report-suites/c-new-report-suite/t-rollups.md)
+         + [建立報表套裝群組](admin/c-manage-report-suites/c-new-report-suite/t-create-rs-group.md)
+         + [新的報表套裝 - 設定](admin/c-manage-report-suites/c-new-report-suite/new-report-suite.md)
+         + [並非從來源報表套裝複製的設定](admin/c-manage-report-suites/c-new-report-suite/settings-not-copied-from-rs.md)
+      + 報表套裝範本 {#report-suite-templates}
+         + [報表套裝範本總覽](admin/c-manage-report-suites/c-report-suite-templates/report-suite-templates.md)
+         + [整合入口網站](admin/c-manage-report-suites/c-report-suite-templates/aggregator-portal.md)
+         + [商務](admin/c-manage-report-suites/c-report-suite-templates/commerce-admin.md)
+         + [內容與媒體](admin/c-manage-report-suites/c-report-suite-templates/content-media.md)
+         + [預設範本](admin/c-manage-report-suites/c-report-suite-templates/default-rs-template.md)
+         + [金融服務](admin/c-manage-report-suites/c-report-suite-templates/financial-services.md)
+         + [工作入口網站](admin/c-manage-report-suites/c-report-suite-templates/job-portal.md)
+         + [銷售機會開發](admin/c-manage-report-suites/c-report-suite-templates/lead-generation.md)
+         + [支援媒體](admin/c-manage-report-suites/c-report-suite-templates/support-media.md)
    + 公司設定 {#company-settings}
       + [公司設定總覽](admin/company/c-company-settings.md)
       + [安全管理員](admin/company/security-manager.md)
@@ -154,19 +146,27 @@ ht-degree: 97%
       + [單一登入](admin/company/single-signon-admin.md)
       + [品牌結合](admin/company/co-branding-admin.md)
       + [隱藏報表套裝](admin/company/c-hide-report-suites.md)
-      + [偏好設定管理員](admin/company/preferences-manager.md)
-      + [待定動作](admin/company/pending-actions-admin.md)
+      + [偏好設定管理器](admin/company/preferences-manager.md)
+      + [擱置中的動作](admin/company/pending-actions-admin.md)
       + [功能存取層級](admin/company/feature-access-levels.md)
    + 伺服器呼叫使用量 {#server-call-usage}
       + [伺服器呼叫使用量總覽](admin/c-server-call-usage/overage-overview.md)
       + [檢視目前伺服器呼叫使用量](admin/c-server-call-usage/server-call-usage-dashboard.md)
       + [檢視報表套裝使用量](admin/c-server-call-usage/report-suite-usage.md)
       + [伺服器呼叫使用量警報](admin/c-server-call-usage/scu-alerts.md)
-      + [伺服器呼叫使用量常見問答](admin/c-server-call-usage/overage-faq.md)
+      + [伺服器呼叫使用量常見問題](admin/c-server-call-usage/overage-faq.md)
+   + 使用者和產品管理 (舊版) {#user-product-management}
+      + [使用者和產品管理 (舊版)](admin/user-management2/user-management.md)
+      + 將使用者移轉至 Adobe Admin Console {#migrate-users}
+         + [Analytics 使用者移轉至 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
+         + [移轉 Adobe ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/t-migrate-users.md)
+         + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/migrate-enterprise.md)
+         + [停用舊版登入](admin/user-management2/user-migration/t-disable-legacy-login.md)
+         + [受移轉影響的 API](admin/user-management2/user-migration/developer.md)
 + 資料控管 {#data-governance}
    + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
-   + [常見問答集](c-data-governance/gdpr-faq.md)
-   + 資料標籤 {#data-labels}
+   + [常見問題](c-data-governance/gdpr-faq.md)
+   + 資料標記 {#data-labels}
       + [Analytics 元件的資料隱私權標籤](c-data-governance/data-labeling/gdpr-labels.md)
       + [標籤報表套裝資料](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
       + [檢視/管理報告套裝的隱私標籤](c-data-governance/data-labeling/gdpr-view-settings.md)
@@ -176,3 +176,4 @@ ht-degree: 97%
    + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
    + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
+
