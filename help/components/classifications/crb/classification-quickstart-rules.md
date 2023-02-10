@@ -4,9 +4,9 @@ title: 分類規則
 feature: Classifications
 exl-id: 8fe5d838-fa89-4933-a0c0-498d4e59576d
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2015'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ regex_classification_rules.xml
 
 >[!NOTE]
 >
->最佳實務是，規則運算式最適合使用分隔字元的追蹤程式碼。
+>最佳做法是，規則運算式最適合使用分隔字元的追蹤程式碼。
 
 ## 規則運算式 - 追蹤程式碼範例 {#section_2EF7951398EB4C2F8E52CEFAB4032669}
 
@@ -363,7 +363,7 @@ t_classifications_test_rule.xml
 
  -->
 
-您可以測試分類規則或規則集。 執行測試會檢查規則集內所有的規則。
+您可以測試分類規則或規則集。執行測試會檢查規則集內所有的規則。
 
 若要測試分類規則集：
 
@@ -397,7 +397,7 @@ t_validate_rules.xml
 
  -->
 
-若要驗證和啟用分類規則：
+若要驗證和啟動分類規則：
 
 1. [建立分類規則集](/help/components/classifications/crb/classification-rule-set.md)，然後[新增分類規則](/help/components/classifications/crb/classification-quickstart-rules.md)至該集。
 1. 在規則編輯器上，按一下&#x200B;**[!UICONTROL 「啟動」]**。
