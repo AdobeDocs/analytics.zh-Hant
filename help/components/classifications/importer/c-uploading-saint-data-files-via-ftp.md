@@ -4,9 +4,9 @@ title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '733'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 ## FTP 匯入 {#concept_2F965BE873254546A61FB755F25299FD}
 
-若要透過FTP上傳資料檔案：
+透過 FTP 上傳資料檔案：
 
 1. **[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
 
@@ -41,11 +41,11 @@ ht-degree: 92%
 
 ## 透過 FTP 匯入分類 {#task_132C36830B69418B8C929E39838EF01D}
 
-您可以使用FTP帳戶將分類匯入Adobe Analytics。
+您可以使用 FTP 帳戶將分類匯入 Adobe Analytics。
 
-如需建立FTP帳戶的詳細資訊，請參閱 [建立FTP帳戶](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF).
+如需建立 FTP 帳戶的詳細資訊，請參閱[建立 FTP 帳戶](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md#task_C019268E6C934C7C95F4326F42A22CCF)。
 
-若要透過FTP匯入分類：
+若要透過 FTP 匯入分類：
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
@@ -58,13 +58,13 @@ ht-degree: 92%
 
 Adobe 會在正常的間隔內擷取具有相關聯 FIN 檔案的已上傳資料檔案。Adode 會將其匯入於 FTP 帳戶設定中指定的報表套裝和資料集。
 
-Adobe Analytics讀取並處理上傳至FTP資料夾的檔案後，就會自動刪除這些檔案。
+一旦 Adobe Analytics 讀取並處理了上傳到 FTP 資料夾中的檔案，這些檔案就會自動刪除。
 
 ## 建立 FTP 帳戶 {#task_C019268E6C934C7C95F4326F42A22CCF}
 
 在透過 FTP 上傳資料之前，請先建立 FTP 帳戶。>
 
-如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html)。
+如需 Adobe FTP 伺服器的其他詳細資訊，請參閱 [FTP 和 sFTP](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/ftp-overview.html?lang=zh-Hant)。
 
 1. 按一下&#x200B;**[!UICONTROL 「管理員]** > **[!UICONTROL 分類匯入工具」]**。
 1. 依序按一下&#x200B;**[!UICONTROL 「匯入檔案」]**&#x200B;和&#x200B;**[!UICONTROL 「FTP 匯入」]**。
