@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 8c4535a1811381e7a24735d7cbfffd241d5b19b9
+source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
-source-wordcount: '3639'
-ht-degree: 98%
+source-wordcount: '3679'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 實施 | 已更新有關如何[為網路和行動裝置實施 Adobe Analytics](../implement/home.md) 的內容。 |
 | 工作區日曆和日期範圍 | 更新內容，說明相對日期範圍、公式計算更新和日曆UI變更。 請參閱 [關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
 | 行動計分卡 | 說明如何顯示和隱藏比較日期範圍的新檔案區段。 請參閱 [顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md) 在CJA中。 |
+| 1.4 API | 此 [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 已全面重寫，現已發佈於Adobe Developer。 |
+| 跨實作類型追蹤 | 更新使用案例 [追蹤不同的實作類型](../implement/use-cases/cross-type-implementation.md) 以容納Experience CloudID服務。 |
 | **2023 年 1 月** |  |
 | 篩選和排序表格 | 已更新[篩選和排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)中的內容 (包括新增過程和說明可用選項)。重新命名本文的「分頁、篩選和排序表格」。 |
 | 資料夾 | [檔案夾管理](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)的專用頁面。 |
