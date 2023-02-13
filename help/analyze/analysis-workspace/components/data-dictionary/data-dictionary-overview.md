@@ -5,9 +5,9 @@ feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
-source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Analysis Workspace中的資料字典可協助使用者和管理員持續追蹤及深入了解其Analytics環境中的元件。
 
-系統管理員負責組織資料字典中每個元件的相關資訊，並將其提供給使用者使用。
+Analytics管理員負責組織資料字典中每個元件的相關資訊，以便供使用者使用。
 
 ## 為用戶帶來的好處
 
@@ -33,6 +33,8 @@ Analysis Workspace中的資料字典可協助使用者和管理員持續追蹤�
 * 與您檢視的元件類似
 
 * 系統管理員是否批准元件
+
+如需如何存取資料字典的相關資訊，以及資料字典所包含資訊的詳細資訊，請參閱 [在資料字典中檢視元件資訊](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
 
 ## 管理員的優點
 
@@ -67,7 +69,13 @@ Analysis Workspace中的資料字典可協助使用者和管理員持續追蹤�
 
 * 從功能表： [!UICONTROL **說明**] > [!UICONTROL **資料字典**].
 
-   <!--add screenshot-->
+如需資料字典中各種可用選項的詳細資訊，請參閱 [在資料字典中檢視元件資訊](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md).
+
+## 更新和組織資料字典
+
+Analytics管理員負責維護組織的健全資料字典，如 [監視資料字典健康狀況](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).
+
+在此程式中，Analytics管理員可以編輯資料字典中每個元件的相關資訊，如 [在資料字典中編輯元件項目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
 
 ## 移動、最小化或關閉資料字典
 

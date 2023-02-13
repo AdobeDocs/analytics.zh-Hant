@@ -1,8 +1,8 @@
 ---
-source-git-commit: 3c57d8984634e626f5c50daf0554d660537281b5
+source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 23%
+source-wordcount: '718'
+ht-degree: 22%
 
 ---
 # 程式碼片段
@@ -19,16 +19,18 @@ ht-degree: 23%
 
    | 選項 | 函數 |
    |---------|----------|
+   | [!UICONTROL **已核准**] | 僅顯示管理員標示為「已核准」的元件。 |
+   | [!UICONTROL **我的最愛**] | 僅顯示您的收藏夾清單中的元件。 有關將元件添加到收藏夾清單的資訊，請參閱 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
    | [!UICONTROL **維度**] | 僅顯示屬於Dimension的元件。 (此選項也可在 [!UICONTROL **快速篩選**] 頁簽（當您首次存取資料字典時）。 |
    | [!UICONTROL **量度**] | 僅顯示屬於「量度」的元件。 (此選項也可在 [!UICONTROL **快速篩選**] 頁簽（當您首次存取資料字典時）。 |
    | [!UICONTROL **區段**] | 僅顯示屬於區段的元件。 (此選項也可在 [!UICONTROL **快速篩選**] 頁簽（當您首次存取資料字典時）。 <!--this is Filters in CJA--> |
    | [!UICONTROL **日期範圍**] | 僅顯示屬於日期範圍的元件。 (此選項也可在 [!UICONTROL **快速篩選**] 頁簽（當您首次存取資料字典時）。 |
-   | [!UICONTROL **缺少說明**] | 在「說明」欄位中僅顯示尚未說明的元件。 此選項僅適用於管理員。 |
-   | [!UICONTROL **複製**] | 僅顯示與所選報表套裝中其他元件具有相同標籤或相同說明的元件。 此選項僅適用於管理員。 標籤或說明必須完全相符，才會顯示為重複項目。 |
-   | [!UICONTROL **最近沒有資料**] | 僅顯示過去90天內未收集任何資料的元件。 此選項僅適用於管理員。 |
-   | [!UICONTROL **由Adobe建立**] | 僅顯示由Adobe建立的元件。 系統不會顯示管理員或組織中的其他使用者所建立的元件。 |
-   | [!UICONTROL **已核准**] | 僅顯示管理員標示為「已核准」的元件。 |
-   | 未核准（僅供管理員使用） | <!--this is in the requirements doc, but I don't see this in the UI--> |
+   | [!UICONTROL **全部顯示**] | 顯示所有元件。 此選項僅適用於管理員。 |
+   | [!UICONTROL **未經核准**] | 僅顯示管理員尚未標示為「已核准」的元件。 身為管理員，在識別需要您檢閱和核准的元件時，這項功能很有幫助。 此選項僅適用於管理員。 |
+   | [!UICONTROL **缺少描述**] | 在「說明」欄位中僅顯示尚未說明的元件。 此選項僅適用於管理員。 |
+   | [!UICONTROL **顯示重複項目**] | 僅顯示與所選報表套裝中其他元件具有相同標籤或相同說明的元件。 標籤或說明必須完全相符，才會顯示為重複項目。 此選項僅適用於管理員。 |
+   | [!UICONTROL **無最近的資料**] | 僅顯示過去90天內未收集任何資料的元件。 此選項僅適用於管理員。 |
+   | [!UICONTROL **由Adobe建立**] <!-- I don't see this option--> | 僅顯示由Adobe建立的元件。 系統不會顯示管理員或組織中的其他使用者所建立的元件。 |
 
    {style=&quot;table-layout:auto&quot;}
 
