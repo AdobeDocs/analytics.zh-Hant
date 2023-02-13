@@ -80,7 +80,7 @@ about_classification_rules.xml
 
 * 索引鍵已經分類，而您並未選取「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」。
 
-   您可在[](/help/components/classifications/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
+   您可在[&#128279;](/help/components/classifications/crb/classification-quickstart-rules.md)新增和啟用規則時以及啟用 Data Connectors 整合時覆寫分類。(若是 Data Connectors，規則由合作夥伴於開發中心建立，並顯示於[!UICONTROL 分類規則產生器]中)。
 
 * 覆寫索引鍵時，在指定的時間範圍後，即使在您啟用「[覆寫分類](/help/components/classifications/crb/classification-rule-definitions.md)」後，分類的索引鍵仍未在資料中顯示。
 * 索引鍵並未分類，而且在約一個月之前開始的時間範圍之後，索引鍵從未傳入 [!DNL Adobe Analytics]。
@@ -326,8 +326,8 @@ t_classification_rule.xml
    >*只有*&#x200B;在符合下列條件時，報告套裝才會顯示在此頁面上：
    >
    >* 報告套裝的「[!UICONTROL 管理工具]」中，至少為該變數定義了一個分類。
-      >
-      >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
+   >
+   >   (請參閱[分類規則集](/help/components/classifications/crb/classification-rule-set.md)中的&#x200B;*變數*，取得此先決條件的說明。)
    >
    >* 您在&#x200B;**[!UICONTROL 可用報告套裝]**&#x200B;頁面上，選取您按一下[「新增規則集」](/help/components/classifications/crb/classification-rule-set.md)來建立規則集後所顯示的報告套裝。
 
