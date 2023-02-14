@@ -3,7 +3,7 @@ description: 了解有關使用者同意在裝置或瀏覽器上儲存或讀取�
 title: CNIL 關於使用者同意和 Cookie 的準則是什麼？
 feature: Data Governance
 exl-id: 04179e58-dbba-45e2-ba57-7fe5fdedc483
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 75%
@@ -46,3 +46,4 @@ ht-degree: 75%
 
 
 如需詳細資訊，請參閱 [CNIL Cookie 豁免](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications)網站。
+

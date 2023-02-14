@@ -3,7 +3,7 @@ description: 「資料控管的隱私標籤」對話框概述了報表套裝的�
 title: 檢視/管理資料控管隱私標籤
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
+source-git-commit: 7b5a2ef1f96de5dfa59f70c6e017a2caa3920378
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 77%
@@ -17,15 +17,15 @@ ht-degree: 77%
 ## 檢視隱私權標籤 {#view-privacy}
 
 1. 登入 Adobe Experience Cloud。
-1. 導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料設定和彙集]** > **[!UICONTROL 資料控管]**。
+2. 導覽至 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料設定和彙集]** > **[!UICONTROL 資料控管]**。
 
    >[!NOTE]
    >
    >如果您沒有看到此選單項目，則需要將您新增到具有此功能權限的 [Admin Console 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)。
 
-1. 在右上角，選擇您要檢視或管理其隱私權標籤的報表套裝。
+3. 在右上角，選擇您要檢視或管理其隱私權標籤的報表套裝。
 
-   ![](assets/privacy_labeling.png)
+![](assets/privacy_labeling.png)
 
 | 設定 | 說明 |
 | --- | --- |
