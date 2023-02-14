@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1bb989f3a7e1367ddc1cc2d88bcde9aa680ff963
+source-git-commit: 7c05a3364b1f1b7abaf7ac3c97edb5e590781ec3
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 62%
+source-wordcount: '1053'
+ht-degree: 66%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2023 年 2 月)
 
-**上次更新日期**：2023 年 2 月 13 日
+**上次更新日期**：2023 年 2 月 9 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -44,7 +44,6 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
-| **終止日文功能電話跟蹤服務** | 2023 年 2 月 13 日 | 僅適用於日本客戶：2023年5月底，日文功能電話追蹤服務(mod_ktrack)將停止提供。 很抱歉，我們要求您卸載或禁用Apache伺服器上安裝的模組。 見第27和28頁 [此文檔](/help/release-notes/mod_ktrackforSiteCatalyst_ver1.40.pdf) 以供參考。 |
 | **部分Reports &amp; Analytics和Report Builder排程功能終止** | 2023 年 2 月 9 日 | 下列排程功能已於2023年1月31日終止：<ul><li>每小時任務的「x次後結束」選項(Report Builder</li><li>可在Reports and Analytics中排程新報表和下載資料擷取</li></ul><p>**附註**:我們最初於2022年4月終止這些功能，但已復原變更。 我們還發送通知，說明這些功能正在暫時恢復，並將於2023年1月31日重新終止。 |
 | **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
