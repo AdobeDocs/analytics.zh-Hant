@@ -3,10 +3,10 @@ title: 資料保留原則
 description: 資料保留原則可決定 Adobe 儲存您資料的時間長度。
 feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 9397f12dc95d0dda258beff4dfbb5dd57f01cb40
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 98%
+source-wordcount: '611'
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe 身為資料處理者，必須採取適當措施來協助客戶完成存�
 
 ## 檢視/管理目前的資料保留原則
 
-[!UICONTROL 管理員]工具中的資料管理對話框可提供哪些報表套裝已設定為可供資料管理的總覽。此對話框還會指出它們是否已對應至 Experience Cloud 組織，以及是否為此報表套裝制定了資料保留原則。[更多資訊](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html)
+[!UICONTROL 管理員]工具中的資料管理對話框可提供哪些報表套裝已設定為可供資料管理的總覽。此對話框還會指出它們是否已對應至 Experience Cloud 組織，以及是否為此報表套裝制定了資料保留原則。[更多資訊](/help/admin/c-data-governance/an-gdpr-workflow.md)
 
 ## 常見問題集
 
