@@ -2,8 +2,8 @@
 title: Adobe Analytics 中的資料處理順序
 description: 瞭解在 Adobe Analytics 中處理資料的元件和服務順序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: ht
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
 
@@ -45,6 +45,6 @@ Adobe 提供了許多資料出現在報告之前變更或操縱資料的方法�
 Adobe Analytics 中的資料大多是永久性的；但有些功能允許選擇資料調整或刪除：
 
 * [**資料修復 API**](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/)：編輯特定欄或刪除所需的資料列。
-* [**資料治理**](/help/admin/c-data-governance/an-gdpr-workflow.md)：滿足隱私要求而永久刪除資料。
+* [**資料治理**](/help/technotes/c-data-governance/an-gdpr-workflow.md)：滿足隱私要求而永久刪除資料。
 * [**分類**](/help/components/classifications/c-classifications.md)：根據允許您以不同方式組織資料的規則或上傳的資料建立維度。基礎報告套裝資料不會變更，因此您可以自由編輯或覆寫分類資料。
 * [**虛擬報告套裝**](/help/components/vrs/vrs-about.md)：建立可以變更存取逾時或允許[跨裝置分析](/help/components/cda/overview.md)的備用報告套裝檢視。

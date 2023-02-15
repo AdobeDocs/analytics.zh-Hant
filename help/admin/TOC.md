@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: e735997fed397cf8bb3eb3edcf9af9f841afb9d2
+source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '574'
 ht-degree: 99%
 
 ---
@@ -163,17 +163,5 @@ ht-degree: 99%
          + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/migrate-enterprise.md)
          + [停用舊版登入](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](admin/user-management2/user-migration/developer.md)
-+ 資料控管 {#data-governance}
-   + [Adobe Analytics 資料隱私權工作流程](c-data-governance/an-gdpr-workflow.md)
-   + [常見問題](c-data-governance/gdpr-faq.md)
-   + 資料標記 {#data-labels}
-      + [Analytics 元件的資料隱私權標籤](c-data-governance/data-labeling/gdpr-labels.md)
-      + [標籤報表套裝資料](c-data-governance/data-labeling/gdpr-setup-reportsuite.md)
-      + [檢視/管理報告套裝的隱私標籤](c-data-governance/data-labeling/gdpr-view-settings.md)
-      + [標籤最佳做法](c-data-governance/data-labeling/gdpr-analytics-ids.md)
-      + [標籤範例](c-data-governance/data-labeling/gdpr-labeling-example.md)
-      + [命名空間](c-data-governance/data-labeling/gdpr-namespaces.md)
-   + [ID 擴增](c-data-governance/gdpr-id-expansion.md)
-   + [CNIL 同意豁免](c-data-governance/cnil-consent-exemption.md)
 + [管理 API](c-admin-api/c-admin-api.md)
 
