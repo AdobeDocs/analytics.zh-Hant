@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
+source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 99%
+source-wordcount: '572'
+ht-degree: 98%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 99%
                + [常見的機器人簽名](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-signatures.md)
                + [排除機器人的方法](admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-exclusion-methods.md)
             + [隱私權設定](admin/c-manage-report-suites/c-edit-report-suites/general/privacy-settings.md)
-            + [可選時間戳記](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
+            + [時間戳記設定](admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md)
             + 伺服器端轉送功能 {#server-side-forwarding}
                + [伺服器端轉送總覽](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf.md)
                + [GDPR/ePrivacy 法規遵循與伺服器端轉送](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-gdpr.md)
@@ -99,9 +99,9 @@ ht-degree: 99%
             + [清單變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [銷售 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + 行銷管道 {#marketing-channels}
-            + [管理行銷管道](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
-            + [行銷管道的處理規則](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
-            + [行銷管道中的分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
+            + [行銷渠道管理員](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [行銷管道處理規則](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
+            + [行銷管道分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [行銷管道有效期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
          + 流量管理 {#traffic-management}
             + [概觀](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-management/traffic-management.md)
