@@ -4,10 +4,10 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: d712a64111ff5ee9856196a60265de4b395f53b2
+source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 98%
+source-wordcount: '588'
+ht-degree: 96%
 
 ---
 
@@ -33,12 +33,12 @@ ht-degree: 98%
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
    + [報告活動管理員](admin/reporting-activity.md)
-   + 報表套裝管理員 {#manage-report-suites}
+   + 報告套裝管理員 {#manage-report-suites}
       + 編輯報表套裝的設定值 {#edit-report-suite}
          + 一般 {#report-suite-general}
             + [一般帳戶設定](admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)
             + [內部 URL 篩選器](admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md)
-            + [自訂日曆](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
+            + [自訂行事曆](admin/c-manage-report-suites/c-edit-report-suites/general/custom-calendar.md)
             + 付費搜尋偵測 {#paid-search-detection}
                + [付費搜尋偵測總覽](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/paid-search-detection.md)
                + [設定付費搜尋偵測](admin/c-manage-report-suites/c-edit-report-suites/general/paid-search-detection/t-paid-search-detection.md)
@@ -81,14 +81,14 @@ ht-degree: 98%
                + [伺服器端轉送常見問題](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量 {#traffic-variables}
             + [流量變數](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-            + [啟用流量變數報表](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
+            + [啟用流量變數報告](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
-            + [自訂報表說明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
+            + [自訂報告說明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + 轉換 {#conversion-variables}
             + [轉換變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md)
             + [尋找方法](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/finding-methods.md)
             + [轉換分類](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)
-            + 獨特訪客變數 {#unique-visitor-variable}
+            + 不重複訪客變數 {#unique-visitor-variable}
                + [指定不重複訪客變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/t-unique-visitor-variable.md)
                + [使用案例 - 擷取訪客 ID](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/unique-visitor-variable-admin/extract-visitorids-usecase.md)
             + 成功事件 {#success-events}
@@ -114,6 +114,10 @@ ht-degree: 98%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [隱私權報告](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
+         + Document Cloud管理 {#doc-cloud-mgt}
+            + [使用Adobe Analytics設定Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [設定Document Cloud報表](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + [Advertising Analytics 設定](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + 即時 {#real-time-reports}
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
             + [即時報表設定](admin/c-manage-report-suites/c-edit-report-suites/realtime/t-realtime-admin.md)
