@@ -3,7 +3,7 @@ title: Adobe Analytics 中的資料處理順序
 description: 瞭解在 Adobe Analytics 中處理資料的元件和服務順序。
 exl-id: a8dc9c12-07d3-4dc8-b2df-136f7a7a1e77
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '588'
 ht-degree: 100%
 
