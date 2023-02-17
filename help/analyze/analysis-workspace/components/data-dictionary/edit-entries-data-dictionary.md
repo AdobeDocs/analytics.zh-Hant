@@ -1,45 +1,45 @@
 ---
-description: Analysis Workspace中的資料字典可讓使用者編目及追蹤Analysis Workspace中的各種元件，包括其預期用途（已核准）、重複項目等。
-title: 編輯資料字典中的項目
+description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和追蹤，包括其預定用途、已核准的元件、重複的元件等等。
+title: 編輯資料字典中的條目
 feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
 source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 在資料字典中編輯元件項目
+# 編輯資料字典中的元件條目
 
 {{release-limited-testing}}
 
-Analytics管理員可以編輯指定報表套裝之資料字典中的元件項目。 報表套裝的所有使用者皆可看到所做的任何變更。
+Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元件條目。報告套裝的所有使用者都可以看到所做的任何變更。
 
-要編輯資料字典中的元件：
+若要編輯資料字典中的元件條目：
 
-1. 前往包含您要編輯之元件的Analysis Workspace專案。
+1. 前往包含要編輯之元件的 Analysis Workspace 專案。
 
-1. 選取 **資料字典** 圖示(位於Analysis Workspace的左側邊欄)。 (存取資料字典的替代方式，請參閱 [資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. 選取 Analysis Workspace 左邊欄的&#x200B;**資料字典**&#x200B;圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
 
-   隨即顯示「資料字典」窗口。
+   顯示資料字典視窗。
 
-   ![資料字典管理檢視](assets/data-dictionary-admin.png)
+   ![資料字典管理員檢視](assets/data-dictionary-admin.png)
 
-1. 請確定下拉式功能表中已選取正確的報表套裝。 依預設，會顯示您已在的報表套裝。
+1. 確定在下拉選單中選取正確的報告套裝。依預設情況下，會顯示您已使用的報告套裝。
 
-1. （選用）在搜尋欄位中，開始輸入您要編輯的元件名稱。
+1. (可選) 開始在搜尋欄位中鍵入要編輯的元件名稱。
 
 {{dd-filter-criteria}}
 
-1. 從元件清單中，選取要編輯的元件。
+1. 從元件清單中選取您要編輯的元件。
 
-1. 選取 **編輯** 圖示 ![資料字典編輯圖示](assets/data-dictionary-edit-icon.png) 在元件名稱旁。
+1. 選擇元件名稱旁邊的&#x200B;**編輯**&#x200B;圖示![資料字典編輯圖示](assets/data-dictionary-edit-icon.png)。
 
-1. 編輯下列任何有關元件的資訊：
+1. 編輯有關元件的以下任何資訊：
 
    {{dd-component-information}}
 
-1. 按一下 **儲存** 圖示 ![資料字典儲存圖示](assets/data-dictionary-save-icon.png) 來儲存變更。
+1. 按一下&#x200B;**儲存**&#x200B;圖示![資料字典儲存圖示](assets/data-dictionary-save-icon.png)以儲存您的變更。
