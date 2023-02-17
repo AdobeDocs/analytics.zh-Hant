@@ -1,16 +1,16 @@
 ---
-description: 您可以在Adobe Analytics中檢視Activity Map資料
-title: 在Adobe Analytics中檢視Activity Map資料
+description: 您可以在 Adobe Analytics 中檢視 Activity Map 資料
+title: 檢視 Adobe Analytics 中的 Activity Map 資料
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '166'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 
-# 在Adobe Analytics中檢視Activity Map資料
+# 檢視 Adobe Analytics 中的 Activity Map 資料
 
 在 Analytics 中啟用 Activity Map 報告的管理步驟。
 
