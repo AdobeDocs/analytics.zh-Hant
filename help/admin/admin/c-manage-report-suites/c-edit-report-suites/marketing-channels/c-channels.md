@@ -5,9 +5,9 @@ title: 管理行銷管道
 feature: Marketing Channels
 exl-id: a768a4c2-f922-4d96-a9fb-78a1dfac04d8
 source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 91%
 
 >[!NOTE]
 >
-> 如需行銷管道的一般資訊，請參閱 [開始使用行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> 有關行銷管道的一般資訊，請參閱[行銷管道入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
 > 為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道管理員]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道管理員]**。
 
 在行銷管道管理員中新增或啟用行銷管道。對於沒有行銷管道的報表套裝，自動設定可為您建立多個管道及其規則。您可視需要編輯預定義管道或建立自己的管道 (最多總共 25 個)。
 
@@ -28,7 +28,7 @@ ht-degree: 91%
 以下是建立管道的指引：
 
 * 透過設立所有管道的清單來提前計劃，以便將所有訪客點按歸入正確的管道類別。
-* 包含 [內部](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md) 點擊。
+* 納入[內部](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)點擊類別的管道。
 * 納入一個範圍廣泛的「其他行銷活動」管道，並放置在付費管道之後、自然管道之前。
 
 
@@ -81,7 +81,7 @@ ht-degree: 91%
 
 ### 覆寫最佳做法
 
-建議取消勾選「直接」和「內部」管道的覆寫「上次接觸」選項，這樣它們就不會從其他持續沿用的上次接觸管道（或彼此）取走評分。
+建議取消勾選直接和內部管道的覆寫上次接觸選項，如此這些管道就不會從其他持續沿用的上次接觸管道取走評分 (或互相取走評分)。
 
 ![](assets/int-channel2.png)
 
