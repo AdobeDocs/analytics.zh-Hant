@@ -4,9 +4,9 @@ title: 標籤報表套裝資料
 feature: Data Governance
 exl-id: d1bd833c-3fd4-4572-a5dc-d7bab8a79cb8
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '531'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 95%
 
 ## 指派或編輯報表套裝的隱私權標籤 {#assign-edit}
 
-**範例**:身為資料控管單位，您打算從資料主體收集電子郵件地址和Cookie ID以處理其資料隱私權請求。 這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。
+**範例**：身為資料控管單位，您計畫從資料主體收集電子郵件地址和 Cookie ID，以處理其資料隱私權請求。這些 Cookie ID 儲存在 Adobe Analytics 的報表套裝中。
 
 1. 在 Adobe Analytics 中，導覽至 **[!UICONTROL Analytics]** > 管理員 > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料設定和彙集]** > **[!UICONTROL 資料控管]**。
 
