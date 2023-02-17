@@ -40,7 +40,7 @@ ht-degree: 73%
 |---------|----------|
 | [!UICONTROL **已核准**] | <p>指出該元件已經過管理員審查與核准。</p><p>管理員可檢視 [!UICONTROL **取消核准**]. 選取此選項會將元件標示為「未核准」給使用者。</p> |
 | [!UICONTROL **未批准**] | <p>指出管理員尚未審核和核准元件。</p><p>管理員可檢視 [!UICONTROL **核准**]. 選取此選項會將元件標示為「已核准」給使用者。</p> |
-| [!UICONTROL **說明**] | 描述元件的預定功能。(此資訊由 Analytics 管理員新增，如[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md) 中所述。) |
+| [!UICONTROL **說明**] | 描述元件的預定功能。(此資訊由 Analytics 管理員新增，如[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中所述。) |
 | [!UICONTROL **經常與下列項目搭配使用**] | <p>顯示最常用於您檢視之元件的元件。</p><p>在5種主要元件類型中，最多會顯示5個元件：量度、計算量度、Dimension、區段和日期範圍。</p><p>此清單是根據前 90 天的資料。只會顯示您有存取檢視權限的元件。<!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **類似於**] | <p>顯示標籤與您正在查看的元件類似的元件。</p><p>在5種主要元件類型中，最多會顯示5個元件：量度、計算量度、Dimension、區段和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>報表套裝中的任何重複元件都會顯示在此處。 Analytics管理員應識別並移除所有重複元件，如 [監視資料字典健康狀況](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md). <!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
 | [!UICONTROL **標記**] | 顯示套用於元件的所有標記。具有管理員存取權限的使用者可以在編輯元件時新增標記。 |

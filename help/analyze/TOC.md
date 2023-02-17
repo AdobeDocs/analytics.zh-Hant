@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
 workflow-type: tm+mt
 source-wordcount: '1101'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,8 +63,8 @@ ht-degree: 98%
          + [日期比較](analysis-workspace/components/calendar-date-ranges/time-comparison.md)
       + 資料字典 {#data-dictionary}
          + [資料字典概觀](analysis-workspace/components/data-dictionary/data-dictionary-overview.md)
-         + [在資料字典中檢視元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
-         + [在資料字典中編輯元件項目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
+         + [檢視資料字典中的元件資訊](analysis-workspace/components/data-dictionary/view-data-dictionary.md)
+         + [編輯資料字典中的元件條目](analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)
          + [監視資料字典健康狀況](analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md)
    + 視覺效果 {#visualizations}
       + [視覺效果總覽](analysis-workspace/visualizations/freeform-analysis-visualizations.md)

@@ -6,13 +6,13 @@ role: Admin
 source-git-commit: 85d59d0a2b94953af457527a56d46faefb3ea94c
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # 新增元件說明
 
-Analytics管理員可新增元件(Dimension、量度、區段和日期範圍)的說明<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->.
+Analytics 管理員可以新增元件 (維度、量度、區段和日期範圍) 的說明<!-- either within the Report Suite or using the Data Dictionary directly within Analysis Workspace-->。
 
 您組織中的使用者可以在 Analysis Workspace 中建立專案或查看報表時檢視說明。說明可幫助使用者了解如何最好地使用各種元件。
 

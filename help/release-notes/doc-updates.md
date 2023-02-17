@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
 workflow-type: tm+mt
 source-wordcount: '3679'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2023 年 2 月** |  |
 | 實施 | 已更新有關如何[為網路和行動裝置實施 Adobe Analytics](../implement/home.md) 的內容。 |
-| 工作區日曆和日期範圍 | 更新內容，說明相對日期範圍、公式計算更新和日曆UI變更。 請參閱 [關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md). |
-| 行動計分卡 | 說明如何顯示和隱藏比較日期範圍的新檔案區段。 請參閱 [顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md) 在CJA中。 |
+| Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。查看[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
+| Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。查看 CIA 內的[顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md)。 |
 | 1.4 API | 此 [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 已全面重寫，現已發佈於Adobe Developer。 |
 | 跨實作類型追蹤 | 更新使用案例 [追蹤不同的實作類型](../implement/use-cases/cross-type-implementation.md) 以容納Experience CloudID服務。 |
 | **2023 年 1 月** |  |
