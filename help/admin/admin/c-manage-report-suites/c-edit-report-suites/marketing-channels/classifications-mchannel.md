@@ -4,9 +4,9 @@ description: 使用分類可以將值分入相關群組，然後依群組級別�
 feature: Marketing Channels
 exl-id: eaae9d60-21f8-42ff-b574-cb1710c68cdf
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 92%
 
 >[!NOTE]
 >
-> 如需行銷管道的一般資訊，請參閱 [開始使用行銷管道](/help/components/c-marketing-channels/c-getting-started-mchannel.md).
+> 有關行銷管道的一般資訊，請參閱[行銷管道入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 >
 > 為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道分類]**.
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道分類]**。
 
 使用分類可以將值分入相關群組，然後依群組級別進行報告。例如，您可將所有付費搜尋行銷活動都分類到「視訊卡」之類的類別中。接著您可依據例項或點進次數之類的量度，來報告該類別的成功事件。
 
