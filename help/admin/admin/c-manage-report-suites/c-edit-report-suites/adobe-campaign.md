@@ -1,17 +1,17 @@
 ---
-description: 您可以在Adobe Analytics中檢視Adobe Campaign資料
-title: 在Adobe Analytics中檢視Adobe Campaign資料
+description: 您可以在 Adobe Analytics 中檢視 Adobe Campaign 資料
+title: 在 Adobe Analytics 中檢視 Adobe Campaign 資料
 feature: Admin Tools
 source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '52'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
-# 在Adobe Analytics中檢視Adobe Campaign資料
+# 在 Adobe Analytics 中檢視 Adobe Campaign 資料
 
-[!UICONTROL **Analytics**] > [!UICONTROL **管理**] > [!UICONTROL **報表套裝**] >選取報表套裝> [!UICONTROL **編輯設定**] > [!UICONTROL **Adobe Campaign**]
+[!UICONTROL **Analytics**] > [!UICONTROL **管理員**] > [!UICONTROL **報告套裝**] > 選取報告套裝 > [!UICONTROL **編輯設定**] > [!UICONTROL **Adobe Campaign**]
 
-您可以在Adobe Analytics中檢視Adobe Campaign Standard資料。 如需詳細資訊，請參閱 [Adobe Campaign standard報表](/help/integrate/adobe-campaign.md).
+您可以在 Adobe Analytics 中檢視 Adobe Campaign Standard 資料。如需更多資訊，請參閱 [Adobe Campaign 標準報告](/help/integrate/adobe-campaign.md)。
