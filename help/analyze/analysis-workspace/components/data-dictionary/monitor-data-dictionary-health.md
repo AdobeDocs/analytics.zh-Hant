@@ -1,14 +1,14 @@
 ---
-description: 管理員負責監控資料字典的健全狀態。 這包括元件是否正在收集資料、是否已核准、是否包含說明，以及是否沒有重複項目。
+description: 管理員負責監控資料字典的健康狀況。這包括元件是否正在收集資料、獲得核准、包含特定說明，以及沒有重複。
 title: 監視資料字典健康狀況
 feature: Components
 role: Admin
 hide: true
 hidefromtoc: true
 source-git-commit: b0a3ee6785bdc2f3e9a55e42591b4846984934b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -16,42 +16,42 @@ ht-degree: 0%
 
 {{release-limited-testing}}
 
-Analytics管理員負責維護健全的資料字典。
+Analytics 管理員負責維持健康的資料字典。
 
-## 健康資料字典的特點
+## 健康資料字典的特徵
 
-健全的資料字典是所有元件皆可使用的字典：
+健康的資料字典是所有的元件：
 
-* 正在使用和收集資料
+* 正在使用且正在收集資料
 
-* 包含實用的說明，讓使用者了解如何最佳使用
+* 包含有用的說明，讓使用者了解如何善加利用各種元件
 
-* 沒有不必要的重複項
+* 沒有不必要的重複
 
 * 經管理員核准
 
-## 檢查資料字典的健全狀態
+## 檢查資料字典的健康狀況
 
-若要在資料字典中識別健康問題：
+在您的資料字典中識別健康問題：
 
-1. 開啟Analysis Workspace專案。
+1. 開啟 Analysis Workspace 專案。
 
-1. 選取Analysis Workspace左側的「資料字典」圖示。 (存取資料字典的替代方式，請參閱 [資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. 選取 Analysis Workspace 左邊的資料字典圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
 
-   隨即顯示「資料字典」窗口。
+   顯示資料字典視窗。
 
-   ![資料字典管理檢視](assets/data-dictionary-admin.png)
+   ![資料字典管理員檢視](assets/data-dictionary-admin.png)
 
-1. 請確定下拉式功能表中已選取正確的報表套裝。
+1. 確定在下拉選單中選取正確的報告套裝。
 
-1. 在 [!UICONTROL **字典健康**] 索引標籤，選取 [!UICONTROL **檢視**] 下列任一選項旁：
+1. 在 [!UICONTROL **字典健康**] 標籤上選擇以下任一選項旁邊的 [!UICONTROL **檢視**]：
 
-   * [!UICONTROL **元件缺少說明**]
+   * [!UICONTROL **個元件缺少說明**]
 
-   * [!UICONTROL **元件具有重複項**]
+   * [!UICONTROL **個元件有重複項**]
 
-   * [!UICONTROL **元件未連接資料**]
+   * [!UICONTROL **個元件未連接任何資料**]
 
-   視您選取的項目而定，適當的篩選器會套用至資料字典，而只會顯示相關元件。
+   根據您所選取的，適當的篩選器將套用於資料字典，並且僅顯示相關的元件。
 
-1. 編輯任何元件以改善資料字典的健全狀態。 如需如何編輯資料字典中元件的相關資訊，請參閱 [在資料字典中編輯元件項目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+1. 編輯任何元件以提升資料字典的健康狀況。有關如何在資料字典中編輯元件的資訊，請參閱[在資料字典中編輯元件條目](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)。
