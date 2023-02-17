@@ -4,9 +4,9 @@ title: 加上標籤範例
 feature: Data Governance
 exl-id: 9bea8636-c79c-4998-8952-7c66d31226e3
 source-git-commit: 1ca7040156f7f2105a9625f921de3d90b4175056
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '814'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -365,6 +365,6 @@ ht-degree: 96%
 * 包含 `user=Mary` 和 `DEL-PERSON` 標籤的資料列上的儲存格會受到影響。
 * 由於 ID 擴充的緣故，包含 `AAID=77`、`AAID=88` 或 `AAID=99` (也就是包含 `user=Mary` 的資料列上的 AAID 值) 和 `DEL-DEVICE` 標籤的資料列上的儲存格會受到影響。 其中包括在 `user=Mary` 的資料列上有 `DEL-DEVICE` 標籤的儲存格。 這會導致有 `DEL-DEVICE` 標籤 (AAID、MyEvar2 和 MyEvar3) 的資料列 4 和 5 (以及資料列 1-3) 中的儲存格被混淆。
 * expandIDs 設定不會擴充到呼叫來包含 `user=Mary` 時 MyEvar3 (`X`、`Y` 和 `Z`) 中存在的值 (MyEvar3 有 ID-DEVICE 標籤)。 ExpandIDs 只會擴充以包含 `user=Mary` 的資料列上的訪客 ID (此範例中為 AAID，也包括 ECID)。 因此，最後兩個資料列 (包含 `X` 和 `Z` 的 MyEvar3 值) 則不受影響。
-* `MyEvar2` 第四和第五行的會更新，因為這些資料列包含相同的訪客ID值(`77` 和 `88`)，與第一和第二列的相同。 因此，ID 擴增會將其納入裝置層級的刪除作業。
+* `MyEvar2`第四和第五個資料列會更新，因為這些資料列包含與第一和第二個資料列相同的訪客 ID 值 (`77` 和 `88`)。 因此，ID 擴增會將其納入裝置層級的刪除作業。
 * 第二列和第五列的 `MyEvar2` 值符合刪除前和刪除後的值。不過在刪除後，這些不再符合最後一列的 `N` 值，因為該列並未隨著刪除要求而更新。
 * `MyEvar3` 在沒有 ID 擴增時的行為非常不同，因為沒有 ID 擴增就沒有相匹配的 `ID-DEVICES`。現在，前五個資料列的 `AAID` 均相符。
