@@ -1,44 +1,44 @@
 ---
-description: Analysis Workspace中的資料字典可讓使用者編目及追蹤Analysis Workspace中的各種元件，包括其預期用途（已核准）、重複項目等。
+description: Analysis Workspace 中的資料字典允許使用者對 Analysis Workspace 中的各種元件建立目錄和追蹤，包括其預定用途、已核准的元件、重複的元件等等。
 title: 檢視資料字典
 feature: Components
 role: User, Admin
 hide: true
 hidefromtoc: true
 source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '199'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 在資料字典中檢視元件資訊
+# 檢視資料字典中的元件資訊
 
 {{release-limited-testing}}
 
-資料字典可讓您檢視元件的相關資訊，包括元件說明、類似元件、元件常用的其他元件等。
+資料字典允許您檢視有關元件的資訊，包括元件說明、類似的元件、經常搭配元件使用的其他元件等。
 
-若要在資料字典中檢視元件的相關資訊：
+若要檢視資料字典中關於元件的資訊：
 
-1. 前往包含您要檢視之元件的Analysis Workspace專案。
+1. 前往包含要檢視之元件的 Analysis Workspace 專案。
 
-1. 選取 [!UICONTROL **資料字典**] 圖示(位於Analysis Workspace的左側邊欄)。 (存取資料字典的替代方式，請參閱 [資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md).)
+1. 選取 Analysis Workspace 左邊欄的&#x200B;[!UICONTROL **資料字典**]&#x200B;圖示。(存取資料字典的替代方法說明請見[資料字典概觀](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md)中的「存取資料字典」。)
 
-   隨即顯示「資料字典」窗口。
+   顯示資料字典視窗。
 
    ![data-dictionary.png](assets/data-dictionary.png)
 
    <!--double-check this screenshot. I mocked the admin view up a bit to get rid of the Dictionary health tab.-->
 
-1. 確認下拉式功能表中已選取包含您要檢視之元件的報表套裝。 依預設，會顯示您已在的報表套裝。
+1. 確保在下拉選單中選取包含您要檢視的元件報告套裝。依預設情況下，會顯示您已使用的報告套裝。
 
-1. （選用）在搜尋欄位中，開始輸入您要檢視的元件名稱。
+1. (可選) 在搜尋欄位中開始鍵入要檢視的元件名稱。
 
 {{dd-filter-criteria}}
 
-1. 從元件清單中，選取要檢視的元件。
+1. 從元件清單中選取您要檢視的元件。
 
-   畫面會顯示有關元件的下列資訊：
+   顯示有關該元件的以下資訊：
 
    {{dd-component-information}}
 
