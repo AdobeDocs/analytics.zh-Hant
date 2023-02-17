@@ -1,16 +1,16 @@
 ---
-description: 您可以在Adobe Analytics中檢視Adobe Experience Manager資料
-title: 在Adobe Analytics中檢視Adobe Experience Manager資料
+description: 您可以在 Adobe Analytics 中檢視 Adobe Experience Manager 資料。
+title: 在 Adobe Analytics 中檢視 Adobe Experience Manager 資料。
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 
-# 在Adobe Analytics中檢視Adobe Experience Manager資料
+# 在 Adobe Analytics 中檢視 Adobe Experience Manager 資料。
 
 在 Analytics 中啟用 AEM Assets 報告的管理步驟。
 
