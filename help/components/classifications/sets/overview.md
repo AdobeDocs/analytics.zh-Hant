@@ -3,9 +3,9 @@ title: 「分類設定」概觀
 description: 使用「分類設定」管理分類資料。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
 source-git-commit: 2ba6ffc7f632975ca16fa02ee79d467d4d53f076
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 45%
 >
 >分類集將可供所有將報告套裝移轉到新分類架構的客戶使用。如需詳細資訊，請聯絡 Adobe 客戶服務或您的客戶經理。
 
-隨分類集發行的後端架構包含幾項顯著改善：
+與分類集一起發布的後端架構包含幾個顯著的改進：
 
-* 大幅縮短處理時間(72小時→ 24小時)
-* 使用分類集UI的功能
-* 未來在Adobe Experience Platform中使用分類資料的選項，透過 [Adobe Analytics來源連接器（分類資料）](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html)
+* 大幅縮短處理時間 (72 小時 → 24 小時)
+* 使用分類集使用者介面的能力
+* 未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html) 在 Adobe Experience Platform 中使用分類資料的選項
 
-隨分類集發佈的後端架構也包含數項重大變更：
+與分類集一起發布的後端架構也包含幾個顯著的變更：
 
-* 使用瀏覽器或FTP匯入時，「[!UICONTROL 衝突時覆蓋]「一律啟用。
-* 使用瀏覽器或FTP匯入時，不再支援在匯入後立即匯出的選項。 導出必須單獨啟動。
-* Analytics 2.0 API `GetDimensions` 端點現在會為分類傳回字串識別碼，而非數值識別碼。 數值識別碼仍可使用，但Adobe建議盡可能使用新的字串識別碼。 數值識別碼可透過 `?expansion=hidden` 查詢字串參數。
+* 使用瀏覽器或 FTP 匯入時，一定要啟用「[!UICONTROL 衝突時覆寫]」。
+* 使用瀏覽器或 FTP 匯入時，不再支援匯入後立即匯出的選項。匯出必須單獨啟動。
+* Analytics 2.0 API `GetDimensions`端點現在回傳用於分類的字串識別碼，而不是數值識別碼。還是可以使用數值識別碼，但 Adobe 建議盡可能使用新的字串識別碼。可以使用 `?expansion=hidden`查詢字串參數檢索數值識別碼。
 
 
 「分類設定」包含兩個主要區域：
