@@ -7,7 +7,7 @@ exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 45795a98a71e0b7d6a4bc3fda758fb3efa5134f9
 workflow-type: tm+mt
 source-wordcount: '1792'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Adobe Analytics 計分卡會以圖磚式版面為主管使用者顯示關鍵資�
 
 ### 顯示/隱藏比較日期範圍 {#show-comparison-dates}
 
-若要顯示或隱藏比較日期範圍，請切換 **包含比較日期** 設定。
+若要顯示或隱藏比較日期範圍，請切換&#x200B;**包含比較日期**&#x200B;設定。
 
 ![包含比較日期](assets/include-comparison-dates.png)
 

@@ -7,7 +7,7 @@ user-guide-description: 了解 Analytics 管理工作，例如在 Experience Clo
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 96%
             + [清單變數](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)
             + [銷售 eVar](admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/merchandising-evars.md)
          + 行銷管道 {#marketing-channels}
-            + [行銷渠道管理員](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
+            + [行銷管道管理員](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)
             + [行銷管道處理規則](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-rules.md)
             + [行銷管道分類](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/classifications-mchannel.md)
             + [行銷管道有效期](admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/visitor-engagement.md)
@@ -114,9 +114,9 @@ ht-degree: 96%
          + [AEM](admin/c-manage-report-suites/c-edit-report-suites/adobe-experience-manager.md)
          + [Adobe Campaign](admin/c-manage-report-suites/c-edit-report-suites/adobe-campaign.md)
          + [隱私權報告](admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md)
-         + Document Cloud管理 {#doc-cloud-mgt}
-            + [使用Adobe Analytics設定Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
-            + [設定Document Cloud報表](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
+         + Document Cloud 管理{#doc-cloud-mgt}
+            + [使用 Adobe Analytics 設定 Document Cloud](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-mgt.md)
+            + [設定 Document Cloud 報告](admin/c-manage-report-suites/c-edit-report-suites/document-cloud-config.md)
          + [Advertising Analytics 設定](admin/c-manage-report-suites/c-edit-report-suites/advertising-analytics-config.md)
          + 即時 {#real-time-reports}
             + [即時報表總覽](admin/c-manage-report-suites/c-edit-report-suites/realtime/realtime.md)
@@ -167,5 +167,5 @@ ht-degree: 96%
          + [移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/migrate-enterprise.md)
          + [停用舊版登入](admin/user-management2/user-migration/t-disable-legacy-login.md)
          + [受移轉影響的 API](admin/user-management2/user-migration/developer.md)
-+ [管理 API](c-admin-api/c-admin-api.md)
++ [管理員 API](c-admin-api/c-admin-api.md)
 
