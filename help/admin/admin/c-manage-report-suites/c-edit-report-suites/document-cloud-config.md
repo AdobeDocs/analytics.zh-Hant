@@ -1,57 +1,57 @@
 ---
-description: 您可以在Adobe Analytics中檢視Document Cloud資料
-title: 設定Document Cloud報表
+description: 您可以在 Adobe Analytics 中檢視 Document Cloud 資料
+title: 設定 Document Cloud 報告
 feature: Admin Tools
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '139'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
 
-# 設定Document Cloud報表
+# 設定 Document Cloud 報告
 
-您可以設定PDF專用的維度和量度，以便在Adobe Analytics中使用。
+您可以設定特定 PDF 維度和量度以在 Adobe Analytics 中使用。
 
-## 啟用PDF報告時新增的元件
+## 啟用 PDF 報告時會新增元件
 
-正確設定PDF報表後，即可在Adobe Analytics中使用下列維度和量度：
+正確設定 PDF 報告後，以下維度和量度可在 Adobe Analytics 中使用：
 
 **維度：**
 
-* PDF搜尋詞
+* PDF 搜尋字詞
 
-* PDF縮放等級
+* PDF 縮放等級
 
-* PDF動作
+* PDF 動作
 
-* PDF頁碼
+* PDF 頁碼
 
-* PDF檔案名
+* PDF 檔案名稱
 
 **量度：**
 
-* PDF檢視
+* PDF 檢視
 
-* PDF頁面檢視
+* PDF 頁面檢視
 
-* PDF下載
+* PDF 下載
 
-* PDF搜尋
+* PDF 搜尋
 
-* PDF使用的書籤
+* PDF 書籤已使用
 
-* PDF複製文字
+* PDF 複製文字
 
-* PDF打印
+* PDF 列印
 
-## 在Adobe Analytics中啟用PDF報表
+## 啟用 Adobe Analytics 中的 PDF 報告功能
 
-1. 前往 **[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Document Cloud管理]** > [!UICONTROL **Document Cloud報告**].
+1. 前往「**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報告套房]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Document Cloud 管理]** > [!UICONTROL **Document Cloud 報告**]」。
 
-1. 在Adobe Document Cloud管理頁面上，選取 [!UICONTROL **啟用PDF報表**].
+1. 在 Adobe Document Cloud 管理頁面上，選取&#x200B;[!UICONTROL **啟用 PDF 報告**]。
 
-1. 若要設定Adobe Document Cloud以將資料傳輸至Adobe Analytics，請使用 [Adobe Document Cloud JAVASCRIPT SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html).
+1. 若要設定 Adobe Document Cloud 以將資料傳輸到 Adobe Analytics，請使用 [Adobe Document Cloud Javascript SDK](https://www.adobe.io/apis/documentcloud/dcsdk.html)。
 
 
