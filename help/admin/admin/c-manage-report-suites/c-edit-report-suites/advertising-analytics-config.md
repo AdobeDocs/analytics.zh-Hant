@@ -1,29 +1,29 @@
 ---
-description: 您可以在Adobe Analytics中檢視Advertising Analytics資料
-title: 設定Advertising Analytics
+description: 您可以在 Adobe Analytics 中檢視 Advertising Analytics 資料
+title: 設定 Advertising Analytics
 feature: Admin Tools
 source-git-commit: 47ba1b9f7e03628976962b648a0faf8f6c59e82c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '74'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
 
-# 設定Advertising Analytics
+# 設定 Advertising Analytics
 
-您可以設定Adobe Analytics以並排顯示所有Google和Bing付費搜尋資料。
+您可以將 Adobe Analytics 設定為以並排方式顯示所有 Google 和 Bing 付費搜尋資料。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics設定]**
+「**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **`<select report suite>`** > **[!UICONTROL 編輯設定]** > **[!UICONTROL Advertising Analytics 設定]**」
 
-您可在Adobe Analytics中取得下列資料：
+您可以在 Adobe Analytics 中取得以下資料：
 
 * 曝光數
 
 * 點擊數
 
-* 直接從搜尋引擎支付成本資料
+* 直接從搜尋引擎取得成本資料
 
-* AMO ID例項（按一下例項）
+* AMO ID 執行個體 (按一下執行個體)
 
-如需詳細資訊，請參閱 [Advertising Analytics指南](/help/integrate/c-advertising-analytics/overview.md).
+如需更多資訊，請參閱 [Advertising Analytics 指南](/help/integrate/c-advertising-analytics/overview.md)。
