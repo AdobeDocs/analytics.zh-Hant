@@ -5,9 +5,9 @@ feature: Admin Tools
 uuid: a841a5a8-6d47-478d-b02b-6c1647fb04ce
 exl-id: b6dc8d93-3f89-4671-a4c3-18614667bf4e
 source-git-commit: 6ddbf0821951e71d7323343104720fe60551dacb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 53%
 
 「**[!UICONTROL 分析]** > **[!UICONTROL 管理]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 媒體管理]**」。
 
-編輯報表套裝時，可使用下列「媒體管理」選項：
+編輯報告套裝時可以使用以下媒體管理選項：
 
-* [!UICONTROL **媒體報表**]
+* [!UICONTROL **媒體報告**]
 
-   「媒體報表」頁面上提供串流媒體的特定報表。 如需媒體報表的詳細資訊，請參閱 [啟用媒體報表](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en).
+   媒體報告頁面上提供了串流媒體特定的報告。有關媒體報告的更多資訊，請參閱[媒體報告啟用](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=zh-Hant)。
 
 * [!UICONTROL **媒體分類**]
 
-   「媒體分類」頁面上提供「串流媒體」的專屬分類。 如需分類的相關資訊，請參閱 [轉換分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md).
+   媒體分類頁面上提供了串流媒體特定的分類。如需分類的資訊，請參閱[轉換分類](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-classifications.md)。
 
-如需串流Media Analytics的一般資訊，請參閱 [適用於串流媒體的 Adobe Analytics指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant).
+如需串流媒體分析的一般資訊，請參閱[適用於串流媒體的 Adobe Analytics 指南](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)。
