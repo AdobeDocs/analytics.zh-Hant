@@ -1,107 +1,29 @@
 ---
-description: 有關分段的常見問答。
-title: 常見問答適用於區段
+description: 關於管理舊式區段的常見問題集。
+title: 舊式區段的常見問題
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 94%
 
 ---
 
-# 常見問答
+# 舊式區段的常見問題
 
-有關區段功能、存取權、權限、最佳做法及管理舊式區段的常見問題解答。
+關於管理舊式區段（2014年之前建立的區段）最佳實務的常見問題解答。
 
-## 功能 {#section_BD58629D1A9346BF879E229FA6BEC7A2}
+## 最佳做法 {#best-practices}
 
-* Analysis Workspace 的區段功能
-
-   * 您可以[比較區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
-   * 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
-   * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
-
-* 您可以[將多個區段套用至報表或專案](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-* 區段在所有報表套裝中都通用。
-* [區段生產器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)簡化了區段的建立流程。
-* [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-* 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用檔案夾的方式。
-* 您可以建立[循序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-* 「頁面檢視」容器已重新命名為「點擊」容器，以表示此容器會將所有類型的資料 (而不只是頁面檢視) 分段。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。請注意，此容器的運作方式並無改變，只是名稱有變而已。
-
-如需詳細資訊，請參閱 Adobe 部落格上的[改良 Adobe Analytics 中的分段](https://blog.adobe.com/en/publish/2014/05/20/improving-segmentation-adobe-analytics.html)文章。
-
-## 存取區段工具 {#section_088AD0E4E21943DFA8CF7206AEC485DD}
-
-**如何開啟區段產生器？**
-
-存取「區段產生器」的方法有：
-
-* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 在顯示的區段欄中，按一下「**[!UICONTROL 新增]**」，或
-
-* 在「區段管理員」最上方，按一下「**[!UICONTROL + 新增]**」。 ![「新增」按鈕](assets/add_button.png)
-
-   或
-
-* 按一下「區段管理員」中的現有區段標題，以編輯「區段產生器」中的區段。
-
-**如何開啟區段管理員？**
-
-存取「區段管理員」的方法如下：
-
-* 前往頂端導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
-
-* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
-
-* 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
-
-**舊式區段下拉式清單移至何處?**
-
-「Reports &amp; Analytics」中的區段下拉式清單已被功能更豐富的[區段產生器](/help/components/segmentation/segmentation-workflow/seg-workflow.md)介面取代，該介面可讓您建立可在各報表套裝和 Adobe Analytics 解決方案使用的「通用」區段。若要檢視現有區段的清單，請按一下左側導覽中的「區段」圖示 ![，「區段」圖示](assets/segment_icon.png)
-
-區段欄隨即顯示。
-
-**舊式報表套裝下拉式清單移至何處？**
-
-報表套裝下拉式清單已移至到每個報表或儀表板右上角的日期選擇器旁邊。
-
-![報表套裝選擇器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/realtime/assets/report_suite_selector.png)
-
-## 權限 {#section_648DFA3A882146C485A84ED014EEC707}
-
-**要使用、建立和管理區段需要有什麼權限？**
-
-依預設，所有使用者均可建立和編輯個人區段。不過，管理員可以決定誰應擁有[建立區段的權限](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-groups/groups.html)，並可將他們指派至特定群組。這些區段可直接共用給任何其他 Analytics 使用者。
-
-管理員可以編輯任何區段，並將區段共用給群組以及組織中的每個人。[更多...](/help/components/segmentation/seg-reference/seg-rights.md)
-
-**我是否可以看見公司中的所有區段？**
-
-是的，管理員可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
-
-「Ad Hoc Analysis」和「Report Builder」會顯示區段您所擁有和已共用給您的區段。
-
-**我是否可以在區段管理員中管理所有 Analytics 區段？**
-
-是的，在「循序分段」中可管理所有區段。「區段管理員」會顯示擁有者 (即當初建立區段的使用者)、共用使用者和管理員使用者可看見的區段。區段選擇器會顯示使用者所擁有和已共用給該使用者的區段。
-
-管理員可以在 Analysis Workspace 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
-
-Report Builder 只會顯示由您所建置的區段或特定與您共用的區段。
-
-**我為何刪除不了區段？**
-
-如果區段已[發佈至 Experience Cloud](/help/components/segmentation/segmentation-workflow/seg-workflow.md)，則您無法加以刪除或編輯。不過，您可以加以複製再編輯複製的版本。
-
-## 最佳做法 {#section_E2C3A1B4B4274D1B86CAA9C0359D049C}
-
-**有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
++++ **有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
 
 * 重新命名具有相同名稱、但不同定義的區段，或是
 * 刪除不再需要的區段。
 
-**Adobe 對於清除區段有什麼建議？**
++++
+
++++ **Adobe 對於清除區段有什麼建議？**
 
 * 以 legacy 標記標記所有區段。
 * 檢閱您現有的區段。
@@ -109,9 +31,11 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 * 核准要做為標準區段的區段。
 * 標記區段時依照[最佳做法](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 
-## 管理舊式區段 {#section_76CF47142D1A4FB6A0718AD9073049FE}
++++
 
-**我現有的區段有什麼改變？**
+## 管理舊式區段 {#legacy}
+
++++ **我現有的區段有什麼改變？**
 
 您現有的區段將繼續如往常般運作。任何已套用這些區段的報表都將繼續正常運作。[更多...](/help/components/segmentation/seg-transition.md)
 
@@ -121,7 +45,9 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 
 ![](assets/seg_templates.png)
 
-**已套用區段的已計劃報表有什麼改變？**
++++
+
++++ **已套用區段的已計劃報表有什麼改變？**
 
 已計劃的報表會繼續使用您定義的區段正常運作。
 
@@ -133,13 +59,17 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 
 您有個書籤是引用 mainprod 報表套裝中的區段。之後您因為該區段重複而刪除該區段。書籤將會繼續運作，引用已刪除之區段的定義。如果您將 maindev 區段的區段定義變更為納入聖卡塔利娜島和墨西哥提華納市，則書籤所套用的區段並不會變更。它會使用舊的定義。若要修正此問題，請將書籤更新為引用新的定義。如果您不確定書籤、儀表板或已計劃報表是否正在使用已刪除的區段，可以變更剩下那個區段的名稱，如此就更能清楚知道書籤是否正使用剩下那個區段。
 
-**Data Warehouse 區段有何變化？**
++++
+
++++ **Data Warehouse區段有什麼改變？**
 
 所有現有的 Data Warehouse 區段在 Data Warehouse 中仍可繼續運作。大多數的 Data Warehouse 區段也將在其他元件中運作，例如 Analysis Workspace 以及 Reports &amp; Analytics。
 
 您可以在區段產生器/管理員中建立或編輯新的 Data Warehouse 區段。「區段產生器」中的「產品相容性」機制會自動判斷區段是否與 Data Warehouse 相容。
 
-**預先建立的區段有何變化？**
++++
+
+**預先設定的區段有什麼改變？**
 
 * **單頁存取次數**
 * **來自行動裝置的瀏覽次數**
@@ -149,7 +79,9 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 
 這些區段會以區段範本的形式移轉至「區段產生器」。已套用這些區段的現有報表將可繼續正常運作。
 
-**Experience Cloud (套裝) 區段有何變化：**
++++
+
++++ **Experience Cloud（套裝）區段有何改變：**
 
 * 非購買者
 * 購買者
@@ -159,11 +91,13 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 * 先前造訪過 5 次以上的造訪*
 * 來自 Facebook 的瀏覽次數*
 
-這些區段 (具有星號 * 標記者除外) 多半會以區段範本的形式移轉至區段產生器。另外，新增了數個新的區段範本。
+這些區段（具有星號*標籤者除外）多半會以區段範本的形式移轉至區段產生器。 另外，新增了數個新的區段範本。
 
-已套用這些區段的現有報表將可繼續正常運作。
+已套用這些區段的現有報表仍可正常運作。
 
-**管理員區段 (也稱為「全域」區段有何變化？**
++++
+
++++ **管理員區段 (也稱為「全域」區段有何變化？**
 
 **管理員**&#x200B;區段將會移轉至新的區段介面，並顯示為共用給每個人的區段。
 
@@ -171,15 +105,11 @@ Report Builder 只會顯示由您所建置的區段或特定與您共用的區�
 
 「管理主控台」中原本供管理員建立和管理這些全域區段的區段管理介面已不存在。管理員現在應該使用新的區段產生器，來建立區段以及將區段共用給適當的群組/個人或每個人。
 
-<!-- 
-
-seg_definition.xml
-
- -->
-
 現有區段如果採用的邏輯遭逢本文件所述的變更，仍可繼續正常運作，但要經過更新才能再儲存一次。例如，如果您有個現有區段的「美國州」包含「紐約」，該區段仍可繼續正常運作，但您下次要編輯該區段時，必須將它更新為使用「等於」條件的列舉類型。
 
-**移轉提示**
++++
+
+### 移轉提示
 
 請參考下列提示來移轉常見維度：
 
@@ -191,128 +121,37 @@ seg_definition.xml
 * [「包含」的變更](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
 * [「小於」和「大於」的變更](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
 
-## 新維度和經過重新命名的維度 {#section_73CF121B64A24DEF8E6499F3167BF742}
+## 新維度和經過重新命名的維度 {#renamed}
 
 下表列出「區段產生器」中經過重新命名的維度。
 
-<table id="table_1A8C1940FD0446FA8414C6A7DE66E44C"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 新維度名稱 </th> 
-   <th colname="col2" class="entry"> 舊名稱 </th> 
-   <th colname="col3" class="entry"> 附註 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 作業系統類型 </td> 
-   <td colname="col2"> 新增 </td> 
-   <td colname="col3"> 於 2015 年春季版新增。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 瀏覽器寬度 - 分段 </td> 
-   <td colname="col2"> 瀏覽器寬度 </td> 
-   <td colname="col3"> 此維度與所有介面相容，且會依列舉的範圍清單 (而非特定整數值) 分割。如果您需要依特定值分段，請在 Data Warehouse 區段中使用此維度的精細版本。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 瀏覽器高度 - 分段 </td> 
-   <td colname="col2"> 瀏覽器高度 </td> 
-   <td colname="col3"> 此維度與所有介面相容，且會依列舉的範圍清單 (而非特定整數值) 分割。如果您需要依特定值分段，請在 Data Warehouse 區段中使用此維度的精細版本。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 瀏覽器寬度 - 精細 </td> 
-   <td colname="col2"> 瀏覽器寬度 </td> 
-   <td colname="col3"> <p>此項目經過重新命名，且現在僅與 Data Warehouse 相容。定義與所有介面相容的區段時，請使用列舉類型，即「瀏覽器寬度 - 範圍化」。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 瀏覽器高度 - 精細 </td> 
-   <td colname="col2"> 瀏覽器高度 </td> 
-   <td colname="col3"> <p>此項目經過重新命名，且現在僅與 Data Warehouse 相容。定義與所有介面相容的區段時，請使用列舉類型，即「瀏覽器高度 - 範圍化」。 </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Cookie 支援 </td> 
-   <td colname="col2"> Cookie </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 色彩深度 </td> 
-   <td colname="col2"> 監視器色彩深度 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> - </td> 
-   <td colname="col2"> "應用程式 - *" </td> 
-   <td colname="col3"> "應用程式 -" 字首已從一些維度類型中移除。因為行動應用程式資料通常是擷取到不含網站資料的報表套裝中，所以這些字首不再有存在的必要。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 登入頁面原始 </td> 
-   <td colname="col2"> 原始登入頁面 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Java 已啟用 </td> 
-   <td colname="col2"> Java </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動瀏覽器 URL 的最大長度 </td> 
-   <td colname="col2"> 行動瀏覽器 URL 長度 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動郵件裝飾 </td> 
-   <td colname="col2"> 行動裝飾郵件支援 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動裝置 </td> 
-   <td colname="col2"> 行動裝置名稱 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動書籤 的最大長度 </td> 
-   <td colname="col2"> 行動書籤 URL 的最大長度 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動電子郵件的最大長度 </td> 
-   <td colname="col2"> 行動郵件 URL 的最大長度 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動作業系統 (已淘汰) </td> 
-   <td colname="col2"> 行動作業系統 </td> 
-   <td colname="col3"> 使用「作業系統」維度並改從行動裝置區段套用瀏覽。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 行動即按即說 (Push To Talk) </td> 
-   <td colname="col2"> 行動 PTT </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 調查查看 </td> 
-   <td colname="col2"> 總計調查查看 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 調查回應 </td> 
-   <td colname="col2"> 總計調查回應 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 瀏覽深度 </td> 
-   <td colname="col2"> 路徑長度 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 郵遞區號 </td> 
-   <td colname="col2"> ZIP/郵遞區號 </td> 
-   <td colname="col3"> - </td> 
-  </tr> 
- </tbody> 
-</table>
+| 新維度名稱 | 舊名稱 | 附註 |
+|--- |--- |--- |
+| 作業系統類型 | 新增 | 於 2015 年春季版新增。 |
+| 瀏覽器寬度 - 分段 | 瀏覽器寬度 | 此維度與所有介面相容，且會依列舉的範圍清單 (而非特定整數值) 分割。如果您需要依特定值分段，請在 Data Warehouse 區段中使用此維度的精細版本。 |
+| 瀏覽器高度 - 分段 | 瀏覽器高度 | 此維度與所有介面相容，且會依列舉的範圍清單 (而非特定整數值) 分割。如果您需要依特定值分段，請在 Data Warehouse 區段中使用此維度的精細版本。 |
+| 瀏覽器寬度 - 精細 | 瀏覽器寬度 | 此項目經過重新命名，且現在僅與 Data Warehouse 相容。定義與所有介面相容的區段時，請使用列舉類型，即「瀏覽器寬度 - 範圍化」。 |
+| 瀏覽器高度 - 精細 | 瀏覽器高度 | 此項目經過重新命名，且現在僅與 Data Warehouse 相容。定義與所有介面相容的區段時，請使用列舉類型，即「瀏覽器高度 - 範圍化」。 |
+| Cookie 支援 | Cookie | - |
+| 色彩深度 | 監視器色彩深度 | - |
+| - | &quot;應用程式 - *&quot; | &quot;應用程式 -&quot; 字首已從一些維度類型中移除。因為行動應用程式資料通常是擷取到不含網站資料的報表套裝中，所以這些字首不再有存在的必要。 |
+| 登入頁面原始 | 原始登入頁面 | - |
+| Java 已啟用 | Java | - |
+| 行動瀏覽器 URL 的最大長度 | 行動瀏覽器 URL 長度 | - |
+| 行動郵件裝飾 | 行動裝飾郵件支援 | - |
+| 行動裝置 | 行動裝置名稱 | - |
+| 行動書籤 的最大長度 | 行動書籤 URL 的最大長度 | - |
+| 行動電子郵件的最大長度 | 行動郵件 URL 的最大長度 | - |
+| 行動作業系統 (已淘汰) | 行動作業系統 | 使用「作業系統」維度並改從行動裝置區段套用瀏覽。 |
+| 行動即按即說 (Push To Talk) | 行動 PTT | - |
+| 調查查看 | 總計調查查看 | - |
+| 調查回應 | 總計調查回應 | - |
+| 瀏覽深度 | 路徑長度 | - |
+| 郵遞區號 | ZIP/郵遞區號 | - |
 
-## 對於具有已知值之字串式維度的變更 {#section_1A9EDEE5CBC44B5AA6262560052ABE77}
+{style=&quot;table-layout:auto&quot;}
+
+## 對於具有已知值之字串式維度的變更 {#string-based-dims}
 
 具有一組已知值的字串式維度已變更為列舉類型。使用這些維度建立區段時，清單中會預先填入所有已知值，而唯一支援的運算子為「等於」。如此您便能快速將所要尋找的確切值分段，而不需在使用較不精細的比對時選取到不想要的值。
 
@@ -334,7 +173,7 @@ seg_definition.xml
 | 行動書籤長度 | Java 已啟用 | 付費搜尋 |
 | 行動 URL 長度 | 語言 |  |
 
-## 對於具有已知值之整數式維度的變更 {#section_84A8AAD0344148AD9F9211D3EB271903}
+## 對於具有已知值之整數式維度的變更 {#integer-based-dims}
 
 具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式：
 
