@@ -3,8 +3,8 @@ title: 地區資料收集
 description: 地區資料收集相關資訊
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 88d6edd99c96d19980464e0f1cfa5cc867baf645
-workflow-type: ht
+source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
+workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 | --- | --- |
 | 預設 | 奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨、中國* |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 *中國 RDC 需要中國附加元件套件。 請參閱下方的[中國效能最佳化](#china-performance-optimization)。
 
@@ -52,7 +52,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 | 僅限亞太地區 | 孟買、新加坡、東京、雪梨 |
 | 僅限中國* | 北京 |
 
-{style="table-layout:auto"}
+{style=&quot;table-layout:auto&quot;}
 
 *「僅限中國」及「全球 + 中國」RDC 類型需要中國附加元件套件。 「全球 + 中國」會將源自於中國境內的資料路由傳送到 Adobe 的中國 RDC，同時將源自於中國境外的資料路由傳送到中國境外最接近的 RDC。請參閱下方的[中國效能最佳化](#china-performance-optimization)。
 
@@ -60,6 +60,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 
 中國 RDC (中國效能最佳化) 附加元件套件是 Adobe Analytics 的計費附加元件。 Adobe 在中國大陸的效能最佳化元件可讓擁有中國境內使用者的客戶直接傳送該資料給中國境內 Adobe 資料收集伺服器，而不是世界上的其他地方。比起將資料傳送至中國境外的位置，此最佳化可縮短頁面載入時間，並提升資料準確度。資料最終會傳輸到中國境外的 Adobe 資料處理中心 (DPC)。如需詳細資訊，請聯絡 Adobe 業務代表。
 
->!![NOTE]
+>[!NOTE]
+>
 >[Web SDK ](/help/implement/aep-edge/overview.md)不支援中國 RDC 附加元件套件。
 
