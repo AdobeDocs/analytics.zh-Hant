@@ -3,10 +3,10 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 385c27de382b7bb047b6c62420d0471dd6e1650d
+source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 87%
+source-wordcount: '1173'
+ht-degree: 86%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace包含下列額外功能：
 
 ## Adobe提供的區段
 
-畫面左側的「元件」邊欄會顯示您和您公司建立的區段，以及現成可用的Adobe區段。 當您按一下 **[!UICONTROL 全部顯示]**，這些區段通常會出現在清單底部，並以右側的Adobe標誌來識別：
+畫面左側的「元件」邊欄會顯示您和您公司建立的區段，以及現成可用的Adobe區段。 當您按一下 **[!UICONTROL 全部顯示]**，這些區段通常會出現在清單底部，並以右側的Adobe標誌來識別。 這是Adobe提供的區段部分清單：
 
 ![Adobe區段](assets/adobe-segs.png)
 
@@ -76,7 +76,7 @@ Analysis Workspace包含下列額外功能：
 
 循序區段會根據使用 [!UICONTROL THEN] 運算子的使用者動作來篩選資料集。
 
-## 操作說明影片 {#segment-video}
+## 作法分段影片 {#segment-video}
 
 此影片簡要概述什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hant)
 

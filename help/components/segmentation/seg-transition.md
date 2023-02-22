@@ -3,35 +3,16 @@ description: 關於管理舊式區段的常見問題集。
 title: 舊式區段的常見問題
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: e1ba6e93bcea4ece6e06941a97227a54116e2c25
+source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 94%
+source-wordcount: '1440'
+ht-degree: 92%
 
 ---
 
 # 舊式區段的常見問題
 
 關於管理舊式區段（2014年之前建立的區段）最佳實務的常見問題解答。
-
-## 最佳做法 {#best-practices}
-
-+++ **有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
-
-* 重新命名具有相同名稱、但不同定義的區段，或是
-* 刪除不再需要的區段。
-
-+++
-
-+++ **Adobe 對於清除區段有什麼建議？**
-
-* 以 legacy 標記標記所有區段。
-* 檢閱您現有的區段。
-* 適時將這些區段新增至區段庫。
-* 核准要做為標準區段的區段。
-* 標記區段時依照[最佳做法](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
-
-+++
 
 ## 管理舊式區段 {#legacy}
 
@@ -69,7 +50,7 @@ ht-degree: 94%
 
 +++
 
-**預先設定的區段有什麼改變？**
++++ **預先設定的區段有什麼改變？**
 
 * **單頁存取次數**
 * **來自行動裝置的瀏覽次數**
@@ -97,7 +78,7 @@ ht-degree: 94%
 
 +++
 
-+++ **管理員區段 (也稱為「全域」區段有何變化？**
++++ **管理員區段(也稱為「全域」區段有什麼改變？**
 
 **管理員**&#x200B;區段將會移轉至新的區段介面，並顯示為共用給每個人的區段。
 
@@ -109,6 +90,23 @@ ht-degree: 94%
 
 +++
 
++++ **有具有相同名稱、但不同定義的重複區段時該怎麼辦？**&#x200B;現在，由於區段可在多個報表套裝中運作，因此您可能發現有多個區段具有相同名稱。建議您採取以下動作之一：
+
+* 重新命名具有相同名稱、但不同定義的區段，或是
+* 刪除不再需要的區段。
+
++++
+
++++ **Adobe 對於清除區段有什麼建議？**
+
+* 以 legacy 標記標記所有區段。
+* 檢閱您現有的區段。
+* 適時將這些區段新增至區段庫。
+* 核准要做為標準區段的區段。
+* 標記區段時依照[最佳做法](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
+
++++
+
 ### 移轉提示
 
 請參考下列提示來移轉常見維度：
@@ -116,10 +114,7 @@ ht-degree: 94%
 * 地域城市/地區/國家 - 搜尋並選取特定城市、地區或國家，而不是使用局部比對。
 * 瀏覽器 - 使用「瀏覽器類型」維度來取得某個類型的所有瀏覽器，例如 Google Chrome
 * 作業系統 - 使用「作業系統類型」維度來取得某個類型的所有作業系統，例如 Microsoft Windows。
-
-* [新維度和經過重新命名的維度](/help/components/segmentation/seg-transition.md#section_73CF121B64A24DEF8E6499F3167BF742)
-* [「包含」的變更](/help/components/segmentation/seg-transition.md#section_1A9EDEE5CBC44B5AA6262560052ABE77)
-* [「小於」和「大於」的變更](/help/components/segmentation/seg-transition.md#section_84A8AAD0344148AD9F9211D3EB271903)
+* 請參閱「新Dimension和已重新命名的區段」（請參閱下方）
 
 ## 新維度和經過重新命名的維度 {#renamed}
 
