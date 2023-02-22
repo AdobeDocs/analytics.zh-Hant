@@ -3,10 +3,10 @@ description: 關於管理舊式區段的常見問題集。
 title: 舊式區段的常見問題
 feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
-source-git-commit: 3901376a9a19e40650cce56c8e7d2941add73790
+source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1440'
-ht-degree: 92%
+source-wordcount: '1446'
+ht-degree: 91%
 
 ---
 
@@ -152,8 +152,9 @@ ht-degree: 92%
 
 下列維度已變更為列舉清單：
 
+| Dimension名稱 | Dimension名稱 | Dimension名稱 |
+| --- | --- | --- |
 | 行動製造商 | 行動電子郵件長度 | 色彩深度 |
-|---|---|---|
 | 行動螢幕大小 | 行動裝置號碼 | 顯示器解析度 |
 | 行動螢幕高度 | 行動即按即說 (Push To Talk) | 外掛程式 |
 | 行動 Cookie 支援 | 行動郵件裝飾 | 作業系統 |
@@ -170,7 +171,7 @@ ht-degree: 92%
 
 ## 對於具有已知值之整數式維度的變更 {#integer-based-dims}
 
-具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面示範使用舊的和新的「區段產生器」介面時，這些維度的分段方式：
+具有一組已知值的整數式維度 (例如瀏覽器寬度) 已依列舉範圍分割，讓您可以快速定義特定範圍的區段。這些列舉清單的維度名稱後面附加了「- 範圍化」。下列畫面顯示使用舊版和新版區段產生器介面時，這些維度的分段方式：
 
 ![](assets/seg_browser_dimension.png)
 
