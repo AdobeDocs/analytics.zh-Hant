@@ -3,10 +3,10 @@ title: 頁面逗留時間
 description: 訪客在頁面上逗留的時間量。
 feature: Dimensions
 exl-id: 55af7286-7c37-48d2-925e-8b7ecb390e7f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
-source-wordcount: '286'
-ht-degree: 100%
+source-git-commit: 8700abf6db565cf3a85fb64ee0db1a1634616f59
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 頁面逗留時間有多個維度：
 
-* **頁面逗留時間 - 分段**：時間量會分段。維度項目的範圍介於 `"Less than 15 seconds"` 到 `"More than 30 minutes"` 之間。頁面檢視的間隔時間通常不會超過 30 分鐘；但若使用時間戳記點擊或資料來源，頁面檢視的間隔時間就可能超過 30 分鐘。
+* **頁面逗留時間 - 分段**：時間量會分段。維度項目的範圍介於 `"Less than 15 seconds"` 到 `"More than 30 minutes"` 之間。點擊之間的時間通常不會超過30分鐘；不過，如果使用時間戳記點擊或資料來源，點擊之間的時間可能超過30分鐘。
 * **頁面逗留時間 - 精細**：每個秒數都是一個不重複的維度項目。
 
 如需更多關於逗留時間的一般資訊，請參閱[逗留時間概觀](../metrics/time-spent.md)。
