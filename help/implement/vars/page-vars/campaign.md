@@ -1,28 +1,28 @@
 ---
 title: 促銷活動
-description: 填入「追蹤代碼」維度。
+description: 填入「追蹤程式碼」維度。
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
 # 促銷活動
 
-`campaign` 變數專用於收集網站上的追蹤代碼。在舊版 Adobe Analytics 中，它有特殊處理方式，可用來劃分大部分維度。在目前版本的 Adobe Analytics 中，其作用與 eVar 相同。
+`campaign` 變數專用於收集網站上的追蹤程式碼。在舊版 Adobe Analytics 中，它有特殊處理方式，可用來劃分大部分維度。在目前版本的 Adobe Analytics 中，其作用與 eVar 相同。
 
-此變數會填入 [追蹤代碼](/help/components/dimensions/tracking-code.md) 維度。 它通常會使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 公用程式方法。 不過，您的組織會確實決定如何設定此變數。
+此變數會填入[追蹤程式碼](/help/components/dimensions/tracking-code.md)維度。 它通常使用 [`getQueryParam`](/help/implement/vars/plugins/getqueryparam.md) 公用程式方法從查詢字串獲取其值。 然而，您的組織可確切地決定如何設定此變數。
 
-## 使用Web SDK的促銷活動
+## 使用 Web SDK 的行銷活動
 
-促銷活動是 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `marketing.trackingCode`.
+行銷活動會為 [Adobe Analytics 對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)在 XDM 欄位 `marketing.trackingCode` 底下。
 
-## 使用Adobe Analytics擴充功能的Campaign
+## 使用 Adobe Analytics 擴充功能的行銷活動
 
-您可以在設定 Analytics 擴充功能 (全域變數) 時或是在規則底下設定促銷活動。
+您可以在設定 Analytics 擴充功能 (全域變數) 時或是在規則底下設定行銷活動。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
@@ -33,9 +33,9 @@ ht-degree: 75%
 
 您可以將促銷活動設為值或查詢字串參數。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.campaign
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.campaign
 
-`s.campaign` 變數是字串，通常包含行銷工作中使用的追蹤代碼。 最大長度為 255 個位元組；超過 255 個位元組的值會在傳送至 Adobe 時自動截斷。
+`s.campaign` 變數是字串，通常包含行銷工作中使用的追蹤程式碼。 最大長度為 255 個位元組；超過 255 個位元組的值會在傳送至 Adobe 時自動截斷。
 
 ```js
 // Set the campaign variable to a static value
