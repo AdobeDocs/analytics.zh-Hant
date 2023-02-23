@@ -5,9 +5,9 @@ user-guide-title: Analytics 實作指南
 breadcrumb-title: 實作指南
 user-guide-description: 了解實作 Adobe Analytics 的方法。自訂收集的資料，以充份運用 Analytics 資料。
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '407'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 99%
 + 實作使用案例 {#use-cases}
    + [搭配 iFrames 使用 AppMeasurement](use-cases/iframe.md)
    + [追蹤不同的實作類型](use-cases/cross-type-implementation.md)
-   + [行銷活動追蹤工作流程](use-cases/campaign-tracking.md)
+   + [Campaign 追蹤工作流程](use-cases/campaign-tracking.md)
 + 驗證實作 {#validate}
    + [舊版 Adobe Experience Cloud Debugger](validate/debugger.md)
    + [資料彙集查詢參數](validate/query-parameters.md)
