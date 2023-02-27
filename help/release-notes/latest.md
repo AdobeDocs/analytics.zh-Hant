@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5eefd324cfb1d9985f21faf3809e889802c96e0c
+source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 90%
+source-wordcount: '1128'
+ht-degree: 96%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2023 年 2 月)
 
-**上次更新日期**：2023 年 2 月 23 日
+**上次更新日期**：2023 年 2 月 27 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -23,7 +23,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **更新了資料隱私權標籤的使用者介面** | 更新後的介面簡化了為報告套裝元件建立、管理和編輯資料隱私權標籤的過程。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=zh-Hant) | 不適用 | 2023 年 2 月 8 日 |
 | **在 Mobile 記分卡中隱藏比較日期範圍** | 使用 Mobile 記分卡，您可以切換&#x200B;**[!UICONTROL 包括比較日期]**&#x200B;設定以檢視或隱藏比較日期。 | 不適用 | 2023 年 2 月 8 日 |
 | **Workspace 中的行事曆更新** | <ul><li>錨點面板日期：您可以使日期範圍元件相對於面板行事曆。 [了解更多](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>行事曆樣式更新：整個 UI 的行事曆樣式已升級，展現更為一致易用的工作流程。</li><li>行事曆公式更新：如果您使用相對日期，所有行事曆公式將反映面板日期範圍的開始。 [了解更多](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 不適用 | 2023 年 2 月 8 日 |
-| **面板日期範圍更新** | 在工作區中，我們新增了下列改良功能：<ul><li>從2月版開始，元件和資料預覽將以面板日期範圍為基礎，而非最近90天。 </li><li>左側邊欄中列出的所有元件都可依據面板日期範圍使用。</li><li>區段和計算量度產生器中的所有日期預覽都將根據面板日期範圍（除非從沒有相關聯面板的元件管理員存取，否則仍會根據過去90天進行）。</li><li>任何資料預覽都會根據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
+| **面板日期範圍更新** | 在 Workspace 中，我們新增了以下改善：<ul><li>從 2 月版開始，元件和資料預覽將依據面板日期範圍顯示，而不是過去 90 天。 </li><li>左側邊欄中列出的所有元件都將根據面板日期範圍提供。</li><li>區段和計算量度產生器中的所有日期預覽都將依據面板日期範圍 (除非從沒有關聯面板的元件管理員存取，則仍將依據過去 90 天) 顯示。</li><li>任何資料預覽都將依據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
 | **Adobe Analytics Source Connector 串流傳輸的行/列篩選** | Adobe Experience Platform 中的 Analytics Source Connector 現在允許篩選 Analytics 資料；這類資料是用來在[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中填入設定檔。列層級篩選有助減少與設定檔有關聯的事件數量。 行層級篩選有助減少事件本身的豐富度，進而讓您可最佳化設定檔權利的使用。這項篩選僅適用於傳送至即時客戶設定檔和[身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)的資料。**篩選不會影響傳送到資料湖的資料；這類資料是供 Customer Journey Analytics** 等應用程式使用。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant#filtering-for-profile) | 不適用 | 改期至2023年3月29日 |
 
 {style=&quot;table-layout:auto&quot;}
@@ -36,7 +36,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 17 日 | **計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。 我們不久便會宣布新的推出日期。** [了解更多](/help/technotes/client-hints.md) |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。 我們將於2023年2月27日繼續發佈的第一階段，以支援客戶端提示。 如果一切順利，我們將於2023年3月2日星期四繼續進行發行的第二階段和最後階段。 [了解更多](/help/technotes/client-hints.md) |
 | **Analytics 來源連接器可用性** | 2023 年 2 月 15 日 | 2023 年 2 月 28 日，位於加拿大的新 Adobe Experience Platform 資料中心將提供 Analytics 來源連接器。 |
 | **自動移轉到分類集架構** | 2023 年 2 月 8 日 | 在接下來的幾個月裡，Adobe 計畫將所有組織的所有分類移轉到最新的分類架構。最後一批移轉的客戶估計會在 2023 年 5 月進行。客戶無須採取行動，也預計不會出現停機時間。這種新架構有很多好處，包括：<ul><li>大幅縮短處理時間 (72 小時 → 24 小時)</li><li>使用[分類集](/help/components/classifications/sets/overview.md)使用者介面的能力</li><li>未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=zh-Hant)在 Adobe Experience Platform 中使用分類資料的選項</li></ul>請注意以下變更可能會影響您組織的工作流程：<ul><li>使用瀏覽器或 FTP 匯入時，一定要啟用「[!UICONTROL 衝突時覆寫]」。</li><li>使用瀏覽器或 FTP 匯入時，不再支援匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions`端點現在回傳用於分類的字串識別碼，而不是數值識別碼。還是可以使用數值識別碼，但 Adobe 建議盡可能使用新的字串識別碼。可以使用 `?expansion=hidden` 查詢字串參數擷取數值識別碼。</li></ul>如果您想為您的組織擬定更具體的移轉計畫，或者對此移轉有疑問/疑慮，請聯繫 Adobe 客戶服務。[了解更多](/help/components/classifications/sets/overview.md) |
 
