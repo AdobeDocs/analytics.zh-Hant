@@ -1,12 +1,12 @@
 ---
-description: 了解不同的分段容器及如何運用
-keywords: 劃分;區段
+description: 了解不同的分段容器以及如何使用它們
+keywords: 分段;區段
 title: 區段容器
 feature: Segmentation
 source-git-commit: 3569cea351a61eb79e1b8f5dad76905f8054982b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3120'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Country = United States + Order = True
 
 以先前的 *頁面 = 冬季外套*&#x200B;區段為例，以下列出的議題會根據套用容器資料的方式，以及資料範圍應如何符合區段類型，來定義您區段的其他層面。
 
-### 以相符區段規則為基礎的容器區段
+### 依據相符區段規則建立的區段容器
 
 對自然範圍的資料套用區段容器，可在行項目符合區段規則時帶來預期結果。
 
