@@ -6,9 +6,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 source-git-commit: 36dcedc730e956ea5a7c3a0e3470719a41a8f8e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 94%
 
    {{dd-component-information}}
 
-1. （選用）將元件從資料字典拖曳至Analysis Workspace。
+1. (可選) 將元件從資料字典拖曳至 Analysis Workspace 中。
