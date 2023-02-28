@@ -4,15 +4,15 @@ title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
 source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1173'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # 關於區段
 
-區段可讓您根據特性或網站互動來識別訪客的子集。區段是設計為受眾深入分析，您可根據特定需求建立，然後驗證、編輯及與其他團隊成員共用，或用於其他Adobe產品和分析功能。
+區段可讓您根據特性或網站互動來識別訪客的子集。區段是要設計當成對象分析，您可針對自己的獨特需求加以建置，然後驗證、編輯和共用給其他團隊成員，或用於其他 Adobe 產品和 Analytics 功能。
 
 區段是根據使用巢狀容器模型的[!UICONTROL 訪客]、[!UICONTROL 瀏覽]和[!UICONTROL 點擊]層級階層。巢狀容器可讓您根據容器間和容器內的規則來定義訪客屬性和動作。您可以在 [!DNL Adobe Experience Cloud] 提供的多項產品和功能中，建立、核准、共用、儲存及執行 Analytics 區段。區段可以產生自報表、內建至控制面板報表，或加入書籤供快速存取。
 
@@ -41,21 +41,21 @@ ht-degree: 86%
 * [區段管理員](/help/components/segmentation/segmentation-workflow/seg-workflow.md)可讓您藉由區段共用、標記、驗證及核准功能來設定[工作流程](/help/components/segmentation/segmentation-workflow/seg-workflow.md)。
 * 您可以[標記區段](/help/components/segmentation/segmentation-workflow/seg-workflow.md)來加以組織以供稍後搜尋，而不是透過使用檔案夾的方式。
 * 您可以建立[循序分段](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md)。
-* 此 [!UICONTROL 頁面檢視] 容器現在是 [!UICONTROL 點擊] 容器，以指出此容器會分段所有資料類型，而不只是頁面檢視。 例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。
+* 此[!UICONTROL 頁面檢視]容器現在是[!UICONTROL 點擊]容器，表示此容器會將所有類型的資料分段，而不只是頁面檢視。例如，連結追蹤呼叫與來自行動 SDK 的 trackAction 呼叫均可在點擊容器中受到納入或排除。
 
-## Analysis Workspace中的區段
+## Analysis Workspace 中的分段功能
 
-Analysis Workspace包含下列額外功能：
+Analysis Workspace 包含以下附加功能：
 
 * 您可以[比較區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/segment-comparison/segment-comparison.html)。
 * 在比較時使用[區段作為維度](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)。
 * 在[流失分析](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/compare-segments-fallout.html)中使用區段。
 
-## Adobe提供的區段
+## Adobe 提供的區段
 
-畫面左側的「元件」邊欄會顯示您和您公司建立的區段，以及現成可用的Adobe區段。 當您按一下 **[!UICONTROL 全部顯示]**，這些區段通常會出現在清單底部，並以右側的Adobe標誌來識別。 這是Adobe提供的區段部分清單：
+螢幕左側的元件邊欄顯示由您和您的公司建立的區段以及立即可用的 Adobe 區段。當您按一下&#x200B;**[!UICONTROL 全部顯示]**&#x200B;時，這些區段通常會出現在清單底部，並可由右側的 Adobe 標誌識別。這是 Adobe 提供的區段的部分清單：
 
-![Adobe區段](assets/adobe-segs.png)
+![Adobe 區段](assets/adobe-segs.png)
 
 ## 循序區段 {#sequential}
 
@@ -76,7 +76,7 @@ Analysis Workspace包含下列額外功能：
 
 循序區段會根據使用 [!UICONTROL THEN] 運算子的使用者動作來篩選資料集。
 
-## 作法分段影片 {#segment-video}
+## 分段操作說明影片 {#segment-video}
 
 此影片簡要概述什麼是區段容器以及如何加以使用：[Adobe Analytics 中的區段容器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-containers.html?lang=zh-Hant)
 
@@ -100,7 +100,7 @@ Analysis Workspace包含下列額外功能：
 
 存取「區段管理員」的方法如下：
 
-* 前往頂端導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
+* 前往頂端導覽中的「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
 * 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
@@ -122,7 +122,7 @@ Analysis Workspace包含下列額外功能：
 
 是的，管理員可以在 [!DNL Analysis Workspace] 和 [!DNL Reports & Analytics] 使用者介面中看見所有區段。
 
-Report Builder會顯示您擁有的區段和與您共用的區段。
+「Report Builder」會顯示您所擁有和已共用給您的區段。
 
 +++
 
