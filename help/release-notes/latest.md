@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6d2042359e1ee97ebed0077c9faeceb2cb0fe739
+source-git-commit: 6c6682202e8780ddb9bf96a4bdd61ff0558c9f09
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 96%
+source-wordcount: '1125'
+ht-degree: 95%
 
 ---
 
@@ -23,8 +23,8 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **更新了資料隱私權標籤的使用者介面** | 更新後的介面簡化了為報告套裝元件建立、管理和編輯資料隱私權標籤的過程。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=zh-Hant) | 不適用 | 2023 年 2 月 8 日 |
 | **在 Mobile 記分卡中隱藏比較日期範圍** | 使用 Mobile 記分卡，您可以切換&#x200B;**[!UICONTROL 包括比較日期]**&#x200B;設定以檢視或隱藏比較日期。 | 不適用 | 2023 年 2 月 8 日 |
 | **Workspace 中的行事曆更新** | <ul><li>錨點面板日期：您可以使日期範圍元件相對於面板行事曆。 [了解更多](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)</li><li>行事曆樣式更新：整個 UI 的行事曆樣式已升級，展現更為一致易用的工作流程。</li><li>行事曆公式更新：如果您使用相對日期，所有行事曆公式將反映面板日期範圍的開始。 [了解更多](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#formula-relative-dates)</li></ul> | 不適用 | 2023 年 2 月 8 日 |
-| **面板日期範圍更新** | 在 Workspace 中，我們新增了以下改善：<ul><li>從 2 月版開始，元件和資料預覽將依據面板日期範圍顯示，而不是過去 90 天。 </li><li>左側邊欄中列出的所有元件都將根據面板日期範圍提供。</li><li>區段和計算量度產生器中的所有日期預覽都將依據面板日期範圍 (除非從沒有關聯面板的元件管理員存取，則仍將依據過去 90 天) 顯示。</li><li>任何資料預覽都將依據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
-| **Adobe Analytics Source Connector 串流傳輸的行/列篩選** | Adobe Experience Platform 中的 Analytics Source Connector 現在允許篩選 Analytics 資料；這類資料是用來在[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中填入設定檔。列層級篩選有助減少與設定檔有關聯的事件數量。 行層級篩選有助減少事件本身的豐富度，進而讓您可最佳化設定檔權利的使用。這項篩選僅適用於傳送至即時客戶設定檔和[身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)的資料。**篩選不會影響傳送到資料湖的資料；這類資料是供 Customer Journey Analytics** 等應用程式使用。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant#filtering-for-profile) | 不適用 | 改期至2023年3月29日 |
+| **面板日期範圍更新** | 在 Workspace 中，我們新增了以下改善：<ul><li>從 2 月版開始，元件和資料預覽將依據面板日期範圍顯示，而不是過去 90 天。 </li><li>顯示的所有維度項目都可依據面板日期範圍使用。</li><li>區段和計算量度產生器中的所有日期預覽都將依據面板日期範圍 (除非從沒有關聯面板的元件管理員存取，則仍將依據過去 90 天) 顯示。</li><li>任何資料預覽都將依據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
+| **Adobe Analytics Source Connector 串流傳輸的行/列篩選** | Adobe Experience Platform 中的 Analytics Source Connector 現在允許篩選 Analytics 資料；這類資料是用來在[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中填入設定檔。列層級篩選有助減少與設定檔有關聯的事件數量。 行層級篩選有助減少事件本身的豐富度，進而讓您可最佳化設定檔權利的使用。這項篩選僅適用於傳送至即時客戶設定檔和[身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)的資料。**篩選不會影響傳送到資料湖的資料；這類資料是供 Customer Journey Analytics** 等應用程式使用。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant#filtering-for-profile) | 不適用 | 已重新排程至 2023 年 3 月 29 日 |
 
 {style=&quot;table-layout:auto&quot;}
 
