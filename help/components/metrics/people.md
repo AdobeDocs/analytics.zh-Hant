@@ -3,10 +3,10 @@ title: 使用者
 description: 不重複個人 (通常使用多個裝置) 的數量。
 feature: Metrics
 exl-id: 0136b843-2a1e-44d5-b5a6-e0fb03b7b995
-source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
+source-git-commit: 4c329e8868df0a112ddbc710417eefbc5043ec9b
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 46%
+source-wordcount: '113'
+ht-degree: 43%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 >[!IMPORTANT]
 >
->「人員」量度將於2023年淘汰。 有關確切時間的詳細資訊，請參閱發行說明。
+>與Device Co-op相關的「人物」量度將於2023年淘汰。 以下說明的CDA相關人員量度不受此淘汰影響。
 
 「人員」量度是 [跨裝置分析](../cda/overview.md) 虛擬報表套裝。 它代表報表中識別的個人總數，加上未識別為屬於某個人的裝置數。
 
