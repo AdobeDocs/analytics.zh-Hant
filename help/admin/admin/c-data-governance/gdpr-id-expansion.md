@@ -3,10 +3,10 @@ description: 您提交的 ID 並不一定會涵蓋 Analytics 可用來與資料�
 title: ID 擴增
 feature: Data Governance
 exl-id: 312a249f-e0e7-44da-bb3d-b19f1bb4c706
-source-git-commit: c8e3d9bd40a427387da746c084188b5d13f45bcd
+source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -59,4 +59,4 @@ ht-degree: 100%
 
 另外也請留意，任何訪客若因資料隱私權刪除請求而導致點擊遭刪除 (更新或匿名)，其狀態資訊也會重設。訪客下一次回訪您的網站時，會變成新訪客。所有 eVar 屬性會重新開始，造訪次數、反向連結、首次造訪頁面等資訊亦同。若您希望清空資料欄位，就不會樂見發生這樣的結果，這也突顯出 Privacy Service API 不適合此用途的原因。
 
-請聯絡您的客戶經理 (CSM) 協調我們的工程架構顧問團隊，以進一步檢視，並致力於移除所有的 PII 或解決資料問題。
+請連絡您的Adobe客戶團隊，與我們的工程架構顧問團隊協調，以進一步檢閱，並提供移除任何PII或解決資料問題的精力。

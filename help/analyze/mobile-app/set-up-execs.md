@@ -4,10 +4,10 @@ title: 透過應用程式設定主管使用者
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 94%
 
 ---
 
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 ## 變更應用程式偏好設定
 
-若要變更偏好設定，請點選上方顯示的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;選項。在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
+若要變更偏好設定，請點選上方顯示的&#x200B;**[!UICONTROL 偏好設定]**&#x200B;選項。 在偏好設定中，您可以開啟生物特徵辨識登入，或是將應用程式設定為深色模式，如下所示：
 
 ![深色模式](assets/darkmode.png)
 
@@ -110,8 +110,8 @@ ht-degree: 100%
 * 高階主管使用者可能選取了錯誤的 Analytics 實例，或者
 * 可能尚未和該高階主管使用者共用任何計分卡。
 
-請確認主管使用者可登入正確的 Adobe Analytics 實例，且有與其共用的計分卡。
+請確認高階主管使用者可登入正確的 Adobe Analytics 實例，且有與其共用的計分卡。
 
 >[!IMPORTANT]
 >
->自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請連絡您的 CSM。
+>自2020年10月起，Adobe將逐步推出一系列增強功能，以最佳化「Adobe Analytics控制面板」應用程式的效能。 這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。如果您想要退出這些效能增強功能，請連絡您的Adobe客戶團隊。
