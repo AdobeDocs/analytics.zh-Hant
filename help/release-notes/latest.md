@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6c6682202e8780ddb9bf96a4bdd61ff0558c9f09
+source-git-commit: 2f725239404a1d08b63a12c9e6b4e4fa3c35d410
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 95%
+source-wordcount: '1112'
+ht-degree: 94%
 
 ---
 
@@ -36,8 +36,8 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。 我們將於2023年2月27日繼續發佈的第一階段，以支援客戶端提示。 如果一切順利，我們將於2023年3月2日星期四繼續進行發行的第二階段和最後階段。 [了解更多](/help/technotes/client-hints.md) |
-| **Analytics 來源連接器可用性** | 2023 年 2 月 15 日 | 2023 年 2 月 28 日，位於加拿大的新 Adobe Experience Platform 資料中心將提供 Analytics 來源連接器。 |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。 我們於2023年2月27日完成了支援客戶端提示的發佈第一階段，於2023年3月2日星期四完成了第二階段和最後一階段。 [了解更多](/help/technotes/client-hints.md) |
+| **Analytics 來源連接器可用性** | 2023 年 2 月 15 日 | 2023年2月28日，位於加拿大的新Adobe Experience Platform資料中心推出Analytics Source Connector。 |
 | **自動移轉到分類集架構** | 2023 年 2 月 8 日 | 在接下來的幾個月裡，Adobe 計畫將所有組織的所有分類移轉到最新的分類架構。最後一批移轉的客戶估計會在 2023 年 5 月進行。客戶無須採取行動，也預計不會出現停機時間。這種新架構有很多好處，包括：<ul><li>大幅縮短處理時間 (72 小時 → 24 小時)</li><li>使用[分類集](/help/components/classifications/sets/overview.md)使用者介面的能力</li><li>未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=zh-Hant)在 Adobe Experience Platform 中使用分類資料的選項</li></ul>請注意以下變更可能會影響您組織的工作流程：<ul><li>使用瀏覽器或 FTP 匯入時，一定要啟用「[!UICONTROL 衝突時覆寫]」。</li><li>使用瀏覽器或 FTP 匯入時，不再支援匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions`端點現在回傳用於分類的字串識別碼，而不是數值識別碼。還是可以使用數值識別碼，但 Adobe 建議盡可能使用新的字串識別碼。可以使用 `?expansion=hidden` 查詢字串參數擷取數值識別碼。</li></ul>如果您想為您的組織擬定更具體的移轉計畫，或者對此移轉有疑問/疑慮，請聯繫 Adobe 客戶服務。[了解更多](/help/components/classifications/sets/overview.md) |
 
 {style=&quot;table-layout:auto&quot;}
