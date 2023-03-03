@@ -3,10 +3,10 @@ description: 如果從現有報表套裝複製設定，會出現系統訊息，�
 title: 並非從來源報表套裝複製的設定
 feature: Report Suite Settings
 exl-id: be683f6d-038e-44ba-ac27-862dd86a2954
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
+workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p>VISTA 規則 </p> </td> 
-   <td colname="col2"> <p>請連絡您的客戶成功經理以聯繫工程技術服務部門。 </p> </td> 
+   <td colname="col2"> <p>請連絡您的Adobe客戶團隊，以聯絡工程技術服務。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

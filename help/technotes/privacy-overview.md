@@ -4,10 +4,10 @@ keywords: 隱私權
 title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 77e50dec593722855f30c517f63141e84f665519
+source-git-commit: 297269f2ebf88d722eaf21ce8919ce28bb6abdc7
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 96%
+source-wordcount: '759'
+ht-degree: 91%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Analytics 收集下列資料：
 | 歐洲 | 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需有關其他 IP 模糊化設定的詳細資訊，請參閱在管理員用戶指南中的「[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」。 |
 | 全球 | 客戶可以在 JavaScript 測量代碼中，將 Cookie 期限變數設為「none」、「session」或其他可在數秒內測量的指定值。 |
 | 歐洲 | Adobe 已開發出新的「從設計開始關注隱私權」設定，現在可在 Adobe ClientCare for Adobe Analytics (舊稱 SiteCatalyst) 發行版本 14.9 和 15.4 中啟用。啟用此新設定後，當 Adobe 收集到 IP 位址，IP 位址的最後八位元 (最後一部分) 就會立即更換為 0 值。在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 |
-| 德國 | 如果您尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡您的 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 |
+| 德國 | 若您尚未針對Adobe Analytics簽署資料處理Adobe，請連絡您的Adobe客戶團隊，團隊會與Adobe法律部門合作，取得DPA。 |
 
 ## EMEA資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
