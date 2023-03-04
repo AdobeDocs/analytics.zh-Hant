@@ -3,10 +3,10 @@ description: 當報表中有許多不重複值時，Adobe 會使用低流量維�
 title: Adobe Analytics 中的低流量值
 feature: Metrics, Data Configuration and Collection
 exl-id: 6c3d8258-cf75-4716-85fd-ed8520a2c9d5
-source-git-commit: 81c7dcea2d42ee8e31140523cd43cdfd001baf28
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 ## 變更不重複限制臨界值
 
-這些臨界值限制預設為 500,000 和 100 萬個唯一值。這些限制可依各變數變更。聯絡 Adobe 客戶服務或組織的客戶經理，以便提出這項變更要求。要求變更時，請提供以下資料：
+這些臨界值限制預設為 500,000 和 100 萬個唯一值。這些限制可依各變數變更。請連絡Adobe客戶服務或您的Adobe帳戶團隊，以要求進行此變更。 要求變更時，請提供以下資料：
 
 * 報告套裝 ID
 * 您想要提高臨界值的變數

@@ -3,10 +3,10 @@ title: Adobe Analytics 中的行為報表
 description: 瞭解如何在 Adobe Analytics 中建立行為報表
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 1. 按一下左側的視覺效果圖示，然後將「流量」視覺效果拖曳至自由表格上方的工作區
 2. 找出&#x200B;**頁面**&#x200B;維度，然後按一下「箭頭」圖示以顯示頁面值。維度項目是黃顏色。
 3. 找出所需的頁面值，並將其拖曳至中心標示為「維度或項目」的空格中
-4. 此流量報表為互動式。按一下任何值，即可將流量展開至接續或先前的頁。使用右鍵功能表來展開或收合欄。同一流量報表中也可使用不同的維度。
+4. 此流量報表為互動式。 按一下任何值，即可將流量展開至接續或先前的頁面。 使用右鍵功能表來展開或收合欄。 同一流量報表中也可使用不同的維度。
 
 ![流量報表](/help/technotes/ga-to-aa/assets/flow.png)
 
@@ -87,4 +87,4 @@ Adobe 建議對此維度使用&#x200B;**造訪**&#x200B;量度。
 
 ## 發佈者報表
 
-如同 Google 需要與 Google Ad Manager 連線，Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果您的組織有興趣使用本產品，請聯絡貴組織的客戶經理。
+如同 Google 需要與 Google Ad Manager 連線，Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果貴組織有興趣使用此產品，請連絡您的Adobe帳戶團隊。

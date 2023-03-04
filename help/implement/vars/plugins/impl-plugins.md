@@ -3,9 +3,9 @@ title: 外掛程式概述
 description: 將程式碼貼在您的網站上以引入新功能。
 feature: Variables
 exl-id: faae7963-078d-40ad-ba09-71efa0b90df1
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '297'
 ht-degree: 100%
 
 ---
@@ -14,9 +14,7 @@ ht-degree: 100%
 
 外掛程式是程式碼的片段，可執行數種進階功能，協助您實施 Analytics。這些外掛程式可擴充 JavaScript 檔案的功能，讓您獲得更多在基本實施中無法使用的功能。Adobe 在進階解決方案中另外提供了許多外掛程式。
 
->[!IMPORTANT]
->
->Adobe Consulting 提供外掛程式，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供這些外掛程式的支援，包括安裝或疑難排解在內。如果您需要與外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
 Adobe 提供多種安裝指定外掛程式的方式：
 

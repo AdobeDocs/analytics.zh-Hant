@@ -1,8 +1,8 @@
 ---
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 98%
+source-wordcount: '822'
+ht-degree: 96%
 
 ---
 # 程式碼片段
@@ -63,3 +63,8 @@ ht-degree: 98%
 >
 >本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
+## 外掛程式免責聲明 {#plug-in}
+
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要此外掛程式的協助，請聯絡貴組織的Adobe帳戶團隊。 客戶經理可安排您與顧問會面以尋求協助。

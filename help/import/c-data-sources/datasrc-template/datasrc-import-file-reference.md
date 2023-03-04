@@ -5,10 +5,10 @@ title: 匯入檔案參考
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 7966b156-04bf-4d39-a720-ab47a665d1e2
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '430'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '431'
+ht-degree: 93%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 * 若要加速資料來源檔案的處理，Adobe 建議按日期將事件 (量度) 資料集中到單一列。
 
    例如，若您的資料來源檔案是將廣告印象資料映射至事件 6，請建立包含每天廣告印象總數的單一資料列，而不是替特定一天發生的廣告印象建立單獨一列。
-* 如果您需要上傳報表套裝建立日期以前的資料，請連絡您的帳戶管理員以變更您可執行報表的最早日期。
+* 如果您需要上傳報表套裝建立日期之前的資料，請連絡您的Adobe帳戶團隊，以變更您可執行報表的最舊日期。
 
 **.FIN 檔案**
 

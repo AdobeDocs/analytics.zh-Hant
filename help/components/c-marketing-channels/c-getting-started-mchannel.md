@@ -3,10 +3,10 @@ title: 行銷管道快速入門
 description: 了解行銷管道工作流程、自動設定，以及如何套用範本報表套裝設定至多個報表套裝。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 97%
 >
 >為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
->Analytics管理員可管理其組織的行銷管道，如 [管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
 「行銷管道」常用來提供訪客如何進入您的網站的相關資訊。您可以根據所要追蹤的管道以及追蹤方式，建立及自訂行銷管道處理規則。
 
@@ -87,7 +87,6 @@ ht-degree: 97%
 >
 >套用規則集之前，必須先從範本套用管道。執行該程序時，所有報表套裝中的管道必須相同。
 
-1. 確保選定的報表套裝有啟用行銷管道報表。此步驟由您的帳戶管理員執行。
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 1. 在&#x200B;**[!UICONTROL 「報表套裝管理員」]**&#x200B;頁面上，選擇範本報表套裝，以及一個或多個目標報表套裝。
 1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道管理員」]**。

@@ -3,20 +3,18 @@ title: cleanStr
 description: 移除或取代字串中所有不必要的字元。
 feature: Variables
 exl-id: d699dcd4-5e0a-40d3-b345-e5b1a077d393
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 79%
+source-wordcount: '300'
+ht-degree: 80%
 
 ---
 
 # Adobe 外掛程式：cleanStr
 
->[!IMPORTANT]
->
->此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
-`cleanStr` 外掛程式會移除或取代字串中所有不必要的字元，包括 HTML 標記字元、額外的空格、標記和新行/歸位字元。它也能以直式單引號 (`'`) 取代左/右單引號 (`‘` 和 `’`)。Adobe建議使用此插件，如果您要從變數值中刪除不必要的字元，並且Adobe Experience Platform資料收集中的「清除文本」功能不能滿足您的實現需要。 如果收集的資料不包含不必要的字元，或Adobe Experience Platform資料收集中的「清除文本」功能已足夠，則不需要此插件。
+`cleanStr` 外掛程式會移除或取代字串中所有不必要的字元，包括 HTML 標記字元、額外的空格、標記和新行/歸位字元。它也能以直式單引號 (`'`) 取代左/右單引號 (`‘` 和 `’`)。如果您想從變數值中移除不必要的字元，Adobe建議您使用此外掛程式，而Adobe Experience Platform資料收集中的「清除文字」功能無法滿足您的實作需求。 如果收集的資料不含不必要的字元，或Adobe Experience Platform資料收集中的「清除文字」功能已足夠，則不需要此外掛程式。
 
 <!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
 
@@ -38,9 +36,9 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。

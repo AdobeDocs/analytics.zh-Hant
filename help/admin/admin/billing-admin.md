@@ -3,10 +3,10 @@ description: 帳單頁面可讓您存取帳單資訊，包括每個報表套裝�
 title: 帳單
 feature: Admin Tools
 exl-id: cea802e4-99c4-491e-99c2-8476870001f7
-source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
-source-wordcount: '503'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 91%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 如果您公司的帳單標籤存取權遭到停用，請洽詢您的帳戶管理員。
+>如果您公司的帳單標籤存取權遭到停用，請連絡您的Adobe帳戶團隊。
 
 帳單頁面的流量概述資料可將報告中的頁面檢視資料與發票上的計費伺服器呼叫次數產生關聯。[!UICONTROL 「帳單」]頁面可讓您進行下列工作：
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
-> 若要取得[!UICONTROL 每月發票]報表的工作副本，請將其複製至剪貼簿，然後貼至試算表程式 (例如 Microsoft Excel*)。
+>若要取得 [!UICONTROL 每月發票] 報表，將其複製至剪貼簿，然後貼至試算表程式(例如Microsoft Excel)&#42;.
 
 ## 報告日期與處理日期的比較 {#section_51A48C2F223F4904BE1407C13333C457}
 

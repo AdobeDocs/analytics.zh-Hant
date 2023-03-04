@@ -2,10 +2,10 @@
 title: 建立「分類設定」
 description: 建立「分類設定」時可供使用的欄位和說明。
 exl-id: 6d692d90-8cc7-4306-a780-58d03db45be8
-source-git-commit: 759e2b1d2b4fa99cfbb699be18e736600bf358ab
-workflow-type: ht
-source-wordcount: '188'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '182'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能將可供所有將報告套裝移轉到新分類架構的客戶使用。如需詳細資訊，請聯絡 Adobe 客戶服務或您的客戶經理。
+>分類集架構上的所有客戶皆可使用此功能。 如需詳細資訊，請連絡Adobe客戶服務或您的Adobe帳戶團隊。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 設定]** > **[!UICONTROL 新增]**
 

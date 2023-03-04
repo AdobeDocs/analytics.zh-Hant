@@ -4,10 +4,10 @@ keywords: 虛擬報告套裝,VRS
 title: 虛擬報告套裝和多套裝標記考量事項
 feature: VRS
 exl-id: 7e0a1f5b-26ac-438c-b481-33669039efe5
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '1755'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## 準則
 
-如果您不確定所述的使用案例是否適用於您及您的組織，請洽詢其他的 Adobe Analytics 管理員或 Adobe 客戶經理。他們可協助您評估業務需求並提供建議。
+如果您不確定描述的使用案例是否適用於您和您的組織，請洽詢其他Adobe Analytics管理員或您的Adobe帳戶團隊。 他們可協助您評估業務需求並提供建議。
 
 在決定是否使用多套裝標記或虛擬報告套裝時，請考量下列事項：
 

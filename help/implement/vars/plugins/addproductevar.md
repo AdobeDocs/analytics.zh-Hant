@@ -3,18 +3,16 @@ title: addProductEvar
 description: 將銷售 eVar 新增至產品變數。
 feature: Variables
 exl-id: 6be94a15-78c9-4cbc-8b33-4a16f1b73b96
-source-git-commit: 7c7a7d8add9edb1538df12b440bc0a15f09efe5e
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 97%
+source-wordcount: '389'
+ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：addProductEvar
 
->[!IMPORTANT]
->
->此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
 `addProductEvar` 外掛程式可讓您輕鬆將使用產品語法的 Adobe Analytics 銷售 eVar 新增至產品變數，而不需擔心產品變數的現有內容是否會變更/移動/刪除。如果您想要輕鬆將產品語法銷售 eVar 新增至 [`products`](../page-vars/products.md) 變數，Adobe 建議您使用此外掛程式。如果您不使用銷售 eVar 搭配產品語法，就不需要使用 `addProductEvar` 外掛程式。
 
@@ -42,9 +40,9 @@ Adobe offers an extension that allows you to use most commonly-used plug-ins.
 
 如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
-1. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 前往[!UICONTROL 擴充功能]索引標籤，然後按一下 Adobe Analytics 擴充功能底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 使用自訂程式碼設定追蹤]摺疊式功能表，便會顯示[!UICONTROL 「開啟編輯器」]按鈕。
 1. 開啟自訂程式碼編輯器，並將下方提供的外掛程式程式碼貼入編輯視窗中。
 1. 儲存並發佈 Analytics 擴充功能的變更。

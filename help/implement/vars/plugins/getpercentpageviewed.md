@@ -3,18 +3,16 @@ title: getPercentPageViewed
 description: 擷取訪客所檢視的頁面比例。
 feature: Variables
 exl-id: 7a842cf0-f8cb-45a9-910e-5793849bcfb8
-source-git-commit: bebd9e9e53c05d697adf52e5a2bdda3ca60796f2
-workflow-type: ht
-source-wordcount: '644'
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '588'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：getPercentPageViewed
 
->[!IMPORTANT]
->
->此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
 `getPercentPageViewed` 外掛程式可測量訪客的捲動活動，以查看訪客在前往其他頁面前所檢視的頁面比例。如果您的頁面高度較小或不想測量捲動活動，就不需要此外掛程式。
 

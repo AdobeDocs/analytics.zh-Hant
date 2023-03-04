@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: 設定 FTP 帳戶 - 概觀
 feature: FTP Export
 exl-id: 55f942fe-cb06-43e1-bd3c-57d6786278b7
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -23,6 +23,6 @@ Adobe 會維護高可用、高效能的 FTP 叢集，專門設計用來改善檔
 * 當資料成功傳輸至使用者的系統後，使用者就應移除由 Adobe 傳遞至 FTP 帳戶的資料。
 * 不再需要 FTP 帳戶時，請通知 Adobe 以將其停用。
 
-Adobe FTP 主機名稱是 [!DNL ftp.omniture.com] 或 [!DNL ftp2.omniture.com]。
+Adobe FTP 主機名稱是 `ftp.omniture.com` 或 `ftp2.omniture.com`。
 
-此項資訊以及使用者名稱和密碼應在 [!UICONTROL Experience Cloud] 中提供 (針對分類和資料來源)，或由負責設定您申請之帳戶的 Adobe 代表提供。如果不清楚該使用哪個 FTP 位址，請聯絡您的 Adobe 客戶經理，他會提供正確位址給您。此外，對於分類和資料來源帳戶，Adobe 不是在一天的某個固定時段處理 FTP 檔案。Adobe 是使用指令檔，時常輪詢 FTP 帳戶來處理新的檔案。上傳至這些帳戶的檔案都會盡快處理。
+此項資訊以及使用者名稱和密碼應在 [!UICONTROL Experience Cloud] 中提供 (針對分類和資料來源)，或由負責設定您申請之帳戶的 Adobe 代表提供。如果您不知道要使用哪個FTP位址，請連絡您的Adobe帳戶團隊，讓他們提供正確的位址。 此外，對於分類和資料來源帳戶，Adobe 不是在一天的某個固定時段處理 FTP 檔案。Adobe 是使用指令檔，時常輪詢 FTP 帳戶來處理新的檔案。上傳至這些帳戶的檔案都會盡快處理。

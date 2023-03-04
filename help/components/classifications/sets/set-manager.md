@@ -2,10 +2,10 @@
 title: 分類設定管理員
 description: 管理 Adobe Analytics 中的「分類設定」。
 exl-id: b1a6721b-8e5d-4ee6-af6b-cda31c9f8b00
-source-git-commit: b75594e21cc499bf3367577df90d6a4f4705f09c
-workflow-type: ht
-source-wordcount: '320'
-ht-degree: 100%
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 92%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->此功能將可供所有將報告套裝移轉到新分類架構的客戶使用。如需詳細資訊，請聯絡 Adobe 客戶服務或您的客戶經理。
+>分類集架構上的所有客戶皆可使用此功能。 如需詳細資訊，請連絡Adobe客戶服務或您的Adobe帳戶團隊。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 設定]**
 

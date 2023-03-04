@@ -3,10 +3,10 @@ title: 遷移至 Adobe Analytics 的常見問題集
 description: 取得從協力廠商平台移動至 Adobe 時的常見問題解答。
 feature: Third-party Integration
 exl-id: 1201909e-b20c-48c5-b287-393da8e22d78
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 每個 Analytics 平台都有不同的資料收集、處理和儲存方式。Adobe 建議您不要移轉歷史資料，而應建立明確的截止日期，以開始在 Adobe Analytics 內收集和使用資料。會計年度的一開始、日曆年度的一開始或日曆月份的一開始，都是經常使用的截止日期。如果使用者想要檢視歷史資料，可登入協力廠商平台以取得任何特定的歷史報表需求。
 
-如果貴組織堅持要將歷史資料移植到 Adobe，請聯絡貴組織的客戶經理。實作顧問可與貴組織合作，將 Google Analytics 資料匯出轉譯為 Adobe 資料收集伺服器可內嵌的資料來源。
+如果貴組織堅持要將歷史資料移植到Adobe，請聯絡您的Adobe客戶團隊。 實作顧問可與貴組織合作，將 Google Analytics 資料匯出轉譯為 Adobe 資料收集伺服器可內嵌的資料來源。
 
 關於移動歷史資料，我們建議使用 [Customer Journey Analytics](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html)，它可以帶入任何全頻道資料來源。
 

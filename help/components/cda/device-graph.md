@@ -2,10 +2,10 @@
 title: 裝置圖表
 description: 了解使用裝置圖表銜接資料的先決條件和限制。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 68%
+ht-degree: 62%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 68%
 
 ## 裝置圖表專屬先決條件
 
-如果您要使用裝置圖表方法實施作業跨裝置分析，須進行下列事項。請與組織內部團隊及 Adobe 客戶經理合作，確保您符合以下所有條件。
+如果您要使用裝置圖表方法實施作業跨裝置分析，須進行下列事項。與組織內的團隊及Adobe客戶團隊合作，確保您符合下列所有條件。
 
 >[!WARNING]
 >
 >若未符合所有先決條件，可能會導致無法啟用跨裝置分析功能，或在連結資料時效果不彰。
 
 * [總覽頁面](overview.md)上列出的所有先決條件。
-* 您的組織必須使用 [Adobe Experience Platform Identity Service專用圖表](https://business.adobe.com/products/experience-platform/identity-service.html). 另請參閱 [首頁](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html) （在Identity Service使用手冊中）。
+* 您的組織必須使用 [Adobe Experience Platform Identity Service專用圖表](https://business.adobe.com/products/experience-platform/identity-service.html). 另請參閱 [首頁](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant) （在Identity Service使用手冊中）。
 * 您的實作必須使用最新版的Experience CloudID服務(ECID)。 請參閱 [首頁](https://experienceleague.adobe.com/docs/id-service/using/home.html) （位於ID服務使用指南中）。 大部分實作使用 [標籤](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 在Adobe Experience Platform中，可能已部署ID服務。
 * 您的實作必須在可識別個人身分時 (例如使用者登入或開啟電子郵件)，呼叫 `setCustomerIDs` 函式 (或相等 SDK 項目)。這項要求適用於所有平台，包括行動應用程式在內 (若有使用)。請參閱 [`setCustomerIDs`](https://experienceleague.adobe.com/docs/id-service/using/id-service-api/methods/setcustomerids.html) （位於ID服務使用指南中）。
 
