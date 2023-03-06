@@ -4,10 +4,10 @@ description: Analysis Workspace 是 Adobe Analytics 的首要分析工具。它�
 feature: Workspace Basics
 role: User, Admin
 exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 8c4c5e2a0149f720f9ae2d5dac95be8d2e8894e8
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '553'
+ht-degree: 70%
 
 ---
 
@@ -21,23 +21,27 @@ Analysis Workspace 是彈性的瀏覽器工具，可協助您快速建立分析�
 
 ## 登入 Adobe Analytics {#login}
 
-若要開始使用 Analysis Workspace，請前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics) 登入 Adobe Analytics。如果系統之前沒有為您選取特定專案，您的登陸頁面就會是 Workspace 專案清單首頁。
+若要開始使用 Analysis Workspace，請前往 [experience.adobe.com/analytics](https://experience.adobe.com/analytics) 登入 Adobe Analytics。如果先前未為您選取特定專案，您會登陸「專案」頁面。
 
-![](assets/login-analytics.png)
+![](assets/create-new-project.png)
 
 ## 使用培訓教學課程 {#training-tutorial}
 
-登入後，系統會先提供 Analysis Workspace 培訓教學課程，逐步引導您了解常用術語，並為您說明首次在 Analysis Workspace 建立分析的步驟。若要開始瀏覽教學課程，請按一下&#x200B;**[!UICONTROL 「建立新專案」]**，接著在新專案模式中選取&#x200B;**「培訓教學課程」**。
+登入後，您的第一站就可以是Analysis Workspace訓練教學課程範本。 它會逐步引導您了解常用術語，以及在工作區中首次建立分析的步驟。 若要開始進行教學課程，
+
+1. 按一下 **[!UICONTROL 學習]** 標籤。
+1. 按一下 **[!UICONTROL 開啟教學課程]**.
 
 ![](assets/training-tutorial.png)
 
 ## 建立新專案 {#new-project}
 
-結束教學課程後，您就能開始建立第一個專案。開始建立分析時，**新專案模式**&#x200B;會提供各種選項。您可以思考是要透過瀏覽器或 Adobe Analytics 儀表板行動應用程式共用分析，據以選擇開啟空白專案或[空白行動記分卡](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/curator.html?lang=zh-Hant)。
+完成本教學課程後，您就可以開始建立第一個專案。 在 [!UICONTROL 專案] 頁簽，您可以選擇從
 
-![](assets/create-new-project.png)
+* [!UICONTROL 空白專案] 如果您打算從瀏覽器共用分析，或
+* [[!UICONTROL 空白行動計分卡]](/help/analyze/mobile-app/curator.md)，如果您打算從「Customer Journey Analytics控制面板」行動應用程式共用分析。
 
-此外，預先建立的&#x200B;**範本** (包括 Adobe 提供的標準範本或貴組織建立的自訂範本) 也是您開始建立分析的理想選擇。根據您的分析或使用案例，有數種不同的範本可供使用。 [深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)不同的範本選項。
+此外，預先建立的&#x200B;**範本** (包括 Adobe 提供的標準範本或貴組織建立的自訂範本) 也是您開始建立分析的理想選擇。根據您的分析或使用案例，有數種不同的範本可供使用。 您現在可以在 [!UICONTROL 報表] 標籤。
 
 ## 建立分析 {#analysis}
 

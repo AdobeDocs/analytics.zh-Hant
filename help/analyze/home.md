@@ -4,10 +4,10 @@ description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Rep
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 87%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 本指南提供以下 Adobe Analytics 報表與分析工具的產品文件和自助服務資源：
 
 * **[!UICONTROL Analysis Workspace]：** Adobe Analytics 中最重要的功能。工作區提供您可依照報表製作需求隨意拖曳元件的畫布。
-* **[!UICONTROL Adobe Analytics 儀表板]：**&#x200B;該行動應用程式讓用戶能夠透過關鍵量度以行動裝置存取直覺式記分卡，並有能力進行更詳細的細項分類和趨勢報告。
+* **[!UICONTROL Adobe Analytics控制面板]:** 此行動應用程式可讓使用者透過行動存取，使用關鍵量度、更詳細的劃分及趨勢報表建立直覺式計分卡。
 * **[!UICONTROL Activity Map]：**&#x200B;此瀏覽器外掛程式會在您的網站上顯示覆蓋圖，從覆蓋圖上可看見哪些元素的點選次數最多。
 * **[!UICONTROL Report Builder]：**&#x200B;此 Excel 增益集可讓您擷取 Analytics 資料，並將其直接放入活頁簿中。
 * **[!UICONTROL Reporting API]：**&#x200B;直接向 Adobe 的伺服器提出報表查詢並取得回應，以便在您自己的客戶報告工具中使用。
-* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。
+* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。**注意：** Reports &amp; Analytics將 [終止](https://express.adobe.com/page/6WnF8JK6IRDhf/) 2023年12月31日。
 
 以下是 Adobe Analytics 的影片概觀：
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 更多 Analytics 使用手冊
 
-[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html)
+[Analytics 使用手冊](https://experienceleague.adobe.com/docs/analytics.html?lang=zh-Hant)
 
 ## 重要 Analytics 資源
 
