@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 58937630e6173013b622deec0433ef67b483c483
+source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 95%
 
 ---
 
@@ -53,6 +53,8 @@ AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用�
 
 目前不可以。您可以選擇收集所有的高平均資訊量提示或不收集。
 
+請注意，fullVersionList目前未收集，因為瀏覽器主要版本是擷取為低熵提示。
+
 +++
 
 +++**什麼是各種用戶端提示值？**
@@ -64,15 +66,14 @@ AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用�
 | Sec-CH-UA | 瀏覽器和重要版本 | 低 | `"Google Chrome 84"` |
 | Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | `true` |
 | Sec-CH-UA-Platform | 作業系統/平台 | 低 | `"Android"` |
-| Sec-CH-UA-Arch | 網站架構  | 高 | `"arm"` |
-| Sec-CH-UA-Bitness | 架構位元 | 高 | `"64"` |
-| Sec-CH-UA-Full-Version | 瀏覽器的完整版本 | 高 | `"84.0.4143.2"` |
-| Sec-CH-UA-Full-Version-List | 品牌及其版本的清單 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
-| Sec-CH-UA-Model | 裝置型號 | 高 | `"Pixel 3"` |
-| Sec-CH-UA-Platform-Version | 作業系統/平台版本 | 高 | `"10"` |
+| 架構 | 網站架構  | 高 | `"arm"` |
+| 沈悶 | 架構位元 | 高 | `"64"` |
+| fullVersionList | 品牌及其版本的清單 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
+| model | 裝置型號 | 高 | `"Pixel 3"` |
+| platformVersion | 作業系統/平台版本 | 高 | `"10"` |
 
 * 透過請求標頭收集的低平均資訊量提示。
-* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串參數使用 `h.` 作為影像請求中的前置詞。
+* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串參數使用 `h.` 作為影像請求中的前置詞。請注意，fullVersionList目前未收集，因為瀏覽器主要版本是擷取為低熵提示。
 
 高平圴資訊量提示是透過 JavaScript 呼叫收集並透過查詢參數來傳遞
 
