@@ -1,8 +1,8 @@
 ---
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: ae5571dc1c2c7107dc3ab7368f4616533b190d5f
 workflow-type: tm+mt
-source-wordcount: '822'
-ht-degree: 96%
+source-wordcount: '862'
+ht-degree: 91%
 
 ---
 # 程式碼片段
@@ -32,7 +32,7 @@ ht-degree: 96%
    | [!UICONTROL **無最近的資料**] | 僅顯示在過去 90 天內未收集任何資料的元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **建立者：Adobe**] <!-- I don't see this option--> | 僅顯示由 Adobe 建立的元件。並不會顯示由管理員或您組織中的其他使用者建立的元件。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 ## 資料字典元件資訊 {#dd-component-information}
 
@@ -41,15 +41,15 @@ ht-degree: 96%
 | [!UICONTROL **已核准**] | <p>指出該元件已經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;[!UICONTROL **取消核准**]&#x200B;的選項。選擇此選項會讓使用者看到元件標記為「未核准」。</p> |
 | [!UICONTROL **未核准**] | <p>指出該元件尚未經過管理員檢閱與核准。</p><p>管理員會看到&#x200B;[!UICONTROL **核准**]&#x200B;的選項。選擇此選項會讓使用者看到元件標記為「已核准」。</p> |
 | [!UICONTROL **說明**] | 描述元件的預定功能。(此資訊由 Analytics 管理員新增，如[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)中所述。) |
-| [!UICONTROL **經常與下列項目搭配使用**] | <p>顯示您正在查看的元件最常與哪些元件一起使用。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>此清單是根據前 90 天的資料。只會顯示您有存取檢視權限的元件。<!--Add info about how users with administrator access can control these after the feature is available. How?--></p> |
-| [!UICONTROL **類似於**] | <p>顯示與您正在查看的元件具有相似標籤的元件。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>報告套裝中的任何重複元件都將顯示在此處。Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).<!--Add info about how users with administrator access can control these after the feature is available. How?-->中所述</p> |
+| [!UICONTROL **經常與下列項目搭配使用**] | <p>顯示您正在查看的元件最常與哪些元件一起使用。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>此清單是根據前 90 天的資料。只會顯示您有存取檢視權限的元件。</p><p>管理員可檢視 [!UICONTROL **一律包括**] 和 [!UICONTROL **一律排除**]. 這些選項可讓管理員組織使用者在本區段中看到的元件。</p> |
+| [!UICONTROL **類似於**] | <p>顯示與您正在查看的元件具有相似標籤的元件。</p><p>在 5 種主要元件類型中最多顯示 5 個元件：量度、計算量度、維度、區段和日期範圍。</p><p>只會顯示您有存取檢視權限的元件。</p><p>報告套裝中的任何重複元件都將顯示在此處。Analytics 管理員應識別並移除所有重複的元件，如[監視資料字典健康情況](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md).中所述</p><p>管理員可檢視 [!UICONTROL **一律包括**] 和 [!UICONTROL **一律排除**]. 這些選項可讓管理員組織使用者在本區段中看到的元件。</p> |
 | [!UICONTROL **標記**] | 顯示套用於元件的所有標記。具有管理員存取權限的使用者可以在編輯元件時新增標記。 |
 | [!UICONTROL **元件類型**] | 列出元件的類型，無論是維度、指標、區段還是日期範圍。 |
 | [!UICONTROL **建立者**] | 顯示建立元件的使用者名稱。 |
 | [!UICONTROL **預覽**] | 顯示元件在 Analysis Workspace 中的外觀預覽。 |
 | [!UICONTROL **上次修改日期**] | 顯示上次修改元件的日期。此部分會在檢視區段、計算量度和日期範圍時顯示。<!--for CJA, it is displayed for all components--> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 發佈階段有限測試 {#release-limited-testing}
 
