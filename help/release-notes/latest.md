@@ -3,9 +3,9 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6c52659f3b2c9e3731d78d0b1e0bef3ed2fc88b7
+source-git-commit: 22374dbf0cea5842bd59c8c22aec6518a0600aa8
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---
@@ -46,7 +46,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
-| **[!DNL Reports & Analytics]** EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>我們將於2023年12月31日終止許多相關Reports &amp; Analytics功能，包括但不限於：排程報表、資料擷取和DL報表。 2023年12月31日後，將不再傳送任何排程報表。 在 **2023年4月**，則任何排程在2023年12月31日後過期的報表都會自動更新並還原，以反映2023年12月31日的終止日期。 此外，您無法再排程2023年12月31日以後的報表。 |
+| **[!DNL Reports & Analytics]** EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>我們將於2023年12月31日終止許多相關Reports &amp; Analytics功能，包括但不限於：排程報表、資料擷取和DL報表。 2023年12月31日後，將不再傳送任何排程報表。 在 **2023年4月**，則任何排程在2023年12月31日後過期的報表都會自動更新，並還原為在2023年12月31日過期。 此外，您無法再排程2023年12月31日以後的報表。 |
 | **一些 Reports &amp; Analytics 和 Report Builder 排程功能的 EOL** | 2023 年 2 月 9 日 | 以下排程功能已於 2023 年 1 月 31 日停用：<ul><li>Report Builder 中每小時任務的「在發生 x 次後結束」選項</li><li>在 Reports and Analytics 中新報告排程和下載資料擷取的能力</li></ul><p>**注意**：我們原本在 2022 年 4 月終止了這些功能，但收回了變更。我們也發送了通知，告知暫時恢復這些功能，並將於 2023 年 1 月 31 日再度終止。 |
 | **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，發佈清單預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有發佈清單，來傳送或排程 Analysis Workspace 專案。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)以取得詳細資料。如有任何問題，請聯絡您的Adobe帳戶團隊。 |
