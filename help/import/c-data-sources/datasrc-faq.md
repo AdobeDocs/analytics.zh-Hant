@@ -5,10 +5,10 @@ title: 資料來源常見問題集
 topic-fix: Developer and implementation
 feature: Data Sources
 exl-id: 2a5d38fe-5c5b-4275-bc44-e9cb02ec2f5d
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
-source-wordcount: '1496'
-ht-degree: 100%
+source-git-commit: 18c5f88cef907af1bdb17c99df59dfb46cc859bc
+workflow-type: tm+mt
+source-wordcount: '1601'
+ht-degree: 94%
 
 ---
 
@@ -145,3 +145,9 @@ ht-degree: 100%
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50";
 s.products="Footwear;Running Shoes;1;99.99;event1=4.50|event4=1.99";
 ```
+
+## 為何系統未擷取我的ftp上傳？
+
+上傳.fin檔案後，請務必登出資料來源FTP站台。 這是因為 Analytics 會使用登出事件當作檔案已準備好進行處理的觸發條件。如果您以程式設計方式上傳檔案，請務必在檔案上傳後，讓自動化程式也登出FTP站台。
+
+確認檔案名稱的格式正確無誤。 檔案名稱中的開頭或結尾空白字元會導致檔案無法辨識，且Adobe擷取程式不會擷取檔案。
