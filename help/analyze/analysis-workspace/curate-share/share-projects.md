@@ -5,14 +5,37 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
-workflow-type: ht
-source-wordcount: '1132'
-ht-degree: 100%
+source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+workflow-type: tm+mt
+source-wordcount: '1680'
+ht-degree: 66%
 
 ---
 
 # 共用專案
+
+您可以與下列類型的人員共用Analysis Workspace專案：
+
+* 您組織中可存取Adobe Analytics的使用者和群組
+
+   您可以共用編輯、複製或檢視存取權
+
+* 您組織中無權存取Adobe Analytics的使用者和群組
+
+   收件者擁有僅限檢視的存取權
+
+* 組織外的人員
+
+   收件者擁有僅限檢視的存取權
+
+任何 [組織](curate.md) 收件者開啟專案時，會反映您在共用前套用的內容。
+
+以下是專案共用的影片概觀：
+
+>[!VIDEO](https://video.tv.adobe.com/v/36207/?quality=12)
+
+
+## 與貴組織中的Adobe Analytics使用者和群組共用 {#Add}
 
 您可以與組織中的現有 Adobe Analytics 使用者或群組共用專案。當您按本節所述共用專案時，共用的使用者必須已經擁有 Adobe Analytics 帳戶。
 
@@ -56,7 +79,11 @@ ht-degree: 100%
 
    * **設定為收件者的登陸頁面：** 將此頁面設定為收件者的登陸頁面。系統不會沿用此設定，此動作僅在單次共用中有效。
 
-1. 按一下「**[!UICONTROL 共用]**」。您也可以按一下&#x200B;**[!UICONTROL 監管與共用]**&#x200B;自動套用專案組織。如果專案已共用，這些按鈕將會顯示&#x200B;**[!UICONTROL 更新]**&#x200B;和&#x200B;**[!UICONTROL 監管與更新]**。深入瞭解[專案組織](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
+1. 按一下「**[!UICONTROL 共用]**」。(如果專案已共用，請按一下 [!UICONTROL **更新**].)
+
+   或
+
+   按一下 **[!UICONTROL 組織與共用]** 自動套用專案組織。 (如果專案已共用，請按一下 **[!UICONTROL 組織與更新]**.) 深入瞭解[專案組織](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/curate.html?lang=zh-Hant)。
 
 ## 共用專案的連結
 
@@ -75,6 +102,63 @@ ht-degree: 100%
 1. 按一下&#x200B;**[!UICONTROL 共用 URL 欄位]**&#x200B;旁邊的&#x200B;**[!UICONTROL 複製連結]**。
 
 1. 與組織中的使用者共用連結。例如，您可以將其貼上到電子郵件、內部網站等。
+
+## 與任何人共用公開連結（不需登入） {#share-public-link}
+
+{{release-limited-testing-section}}
+
+您可以授予 [僅限檢視存取](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) Analysis Workspace專案，對象是無法存取Adobe Analytics的人。 這可能包括：
+
+* 組織外的人員
+
+* 未布建Adobe Analytics的組織內人員
+
+>[!NOTE]
+>
+>共用公開連結時，請考量下列事項：
+>
+>* Analytics管理員可停用共用公用存取連結的功能，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 如果您無法如本節所述共用公用連結，則您的Analytics管理員已停用此功能。
+>
+>* 超過14個擴充視覺效果的專案無法透過公開存取連結來共用。
+
+
+若要共用Analysis Workspace專案的公開連結：
+
+1. 開啟您要共用的Analysis Workspace專案。
+
+1. 按一下 **[!UICONTROL 共用]** > **[!UICONTROL 共用公用連結]**.
+
+   如果有未儲存的變更，系統會提示您儲存專案。
+
+   <!-- Add screen shot of new modal -->
+
+1. 啟用 **[!UICONTROL 連結作用中]** 選項。
+
+1. 選擇是否啟用下列安全性選項（這些選項可由您的Analytics管理員控制）:
+
+   * **[!UICONTROL 需要單一登入 (SSO) 驗證]:**
+
+      在取得共用專案的存取權之前，需要具有連結的使用者透過SSO驗證。 如果您希望專案只能供組織內的使用者存取，請選取此選項。
+
+      Analytics管理員可為公司設定此偏好設定，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 根據管理員配置此選項的方式，您可能會遇到以下情況：
+
+      * 如果此選項未顯示，表示貴組織未啟用SSO，或您的Analytics管理員未啟用此功能。
+
+      * 如果此選項已啟用且呈暗色，您的Analytics管理員需要SSO驗證才能存取所有公用連結。
+   * **[!UICONTROL 需要密碼]:** 存取Analysis Workspace專案前，需要具有連結的人員指定密碼。 這可為您的專案提供額外的安全性。
+
+      如果選擇此選項，請指定密碼。 與他人共用時，請記得將此密碼與專案連結一起共用。 <!--go through this workflow and see how it works.-->
+
+      如果此選項已啟用且呈暗灰色，您的Analytics管理員會要求所有公用連結都受密碼保護。 Analytics管理員可為公司設定此偏好設定，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md).
+
+
+1. 在 **[!UICONTROL 與他人共用（無需登入）]** 欄位，按一下 **複製連結** 表徵圖將連結複製到系統剪貼簿。
+
+1. 與您想要存取專案的人員共用連結。 例如，您可以將連結貼到電子郵件中。
+
+   您與共用連結的任何人都可以檢視Analysis Workspace專案。 如果您選擇要求密碼，則還必須將密碼共用給想要訪問該連結的任何人。
+
+1. 選擇 **[!UICONTROL 關閉]** 來關閉「共用」對話框。 您的變更會自動儲存。 <!-- True? -->
 
 ## 在 Project Manager 中共用專案 {#Manager}
 

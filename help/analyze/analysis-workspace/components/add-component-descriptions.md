@@ -1,12 +1,12 @@
 ---
-description: 管理員可以使用報表套裝或資料字典新增元件的說明。
+description: 管理員可使用報表套裝為元件新增說明。
 title: 新增元件說明
 feature: Components
 role: Admin
-source-git-commit: fb9be2d52ebe02603a7255b0ff6d5a7c2efdeed7
+source-git-commit: a8605f6c3077a625d6936b4ba9e135dc35c99439
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 73%
+source-wordcount: '74'
+ht-degree: 56%
 
 ---
 

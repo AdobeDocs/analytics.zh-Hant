@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定，以及深�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 58abc4a8410441a3c76c6737ace8e2c5ab5c1374
+source-git-commit: 73005fa62615b1dce184d03bd9e53fa519ab0be9
 workflow-type: tm+mt
-source-wordcount: '2556'
-ht-degree: 95%
+source-wordcount: '3006'
+ht-degree: 82%
 
 ---
 
@@ -185,14 +185,21 @@ ht-degree: 95%
 
 ## 公司偏好設定
 
+>[!AVAILABILITY]
+>
+>本節所述的「公用存取連結」功能正處於發行的「有限測試」階段，可能尚未在您的環境中使用。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
+
 您可以更新適用於組織內所有使用者和專案的公司偏好設定。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **「報表」索引標籤** |  |  |
 |  | 隱藏報表標籤 | 隱藏組織中所有使用者的報表標籤。 |
+| **公用存取連結** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
+|  | 停用所有公用存取連結 | <p>停用所有現有的公用存取連結，並防止您組織中的使用者建立新連結。 這表示使用者無法與沒有Analysis Workspace帳戶的使用者共用Adobe Analytics專案。 使用者只能與您組織內的其他Adobe Analytics使用者共用專案。</p> <p>當公共連結被禁用時：</p> <ul><li><p>使用者無法建立公開存取連結</p><p>「共用公用連結」選項會從「共用」功能表中移除。 這表示使用者無法再與組織中沒有Analysis Workspace帳戶的人員共用專案，如 [與任何人共用公開連結（不需登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>任何現有的公用連結都會停用</p></li><p>如果停用公用連結，然後重新啟用，則先前停用的所有連結不會自動重新啟用。 在此情況下，使用者必須從「共用專案」對話方塊中，為每個專案手動重新啟用這些功能。</p> |
+|  | 需要Experience Cloud驗證 | <p>啟用此選項時，只有具備同盟ID且可登入Adobe Experience Cloud的收件者才能存取共用公用連結。</p> <p>啟用此選項後，每當使用者建立Analysis Workspace專案的連結時，「需要Experience Cloud驗證」選項就會在共用對話方塊中啟用，而共用連結的使用者無法停用此選項。 (如需使用者如何與組織外部的使用者共用專案的詳細資訊，請參閱 [與任何人共用公開連結（不需登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) in [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>啟用此選項時，請考量下列事項：</p><ul><li><p>啟用此選項時，所有目前未啟用Experience Cloud的作用中公用連結都會停用。</p></li> <li><p>如果此選項先啟用後再停用，先前停用的所有連結都不會自動重新啟用。 在此情況下，使用者必須從「共用專案」對話方塊手動重新啟用他們。</p></li> <li><p>只有在貴組織中實作了SSO時，才可使用此選項。 有關係統管理員如何為貴組織啟用SSO的資訊，請參見 [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果已為貴組織設定SSO，請檢查主控台中是否已實作任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果貴組織所在的行業需要HIPAA法規遵從，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 還原預設偏好設定
 
