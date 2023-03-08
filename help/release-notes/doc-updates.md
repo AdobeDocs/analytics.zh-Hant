@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
+source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
 workflow-type: tm+mt
-source-wordcount: '3679'
-ht-degree: 100%
+source-wordcount: '3693'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 3 月** |  |
+| 預設計算量度 | 已新增內容，說明 [由提供的預設計算量度Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
 | **2023 年 2 月** |  |
 | 實施 | 已更新有關如何[為網路和行動裝置實施 Adobe Analytics](../implement/home.md) 的內容。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。查看[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
