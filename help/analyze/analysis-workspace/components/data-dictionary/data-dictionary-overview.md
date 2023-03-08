@@ -3,9 +3,7 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 資料字典概觀
 feature: Components
 role: User, Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d8442f1ec8f35fbcda98b35070936677813ce330
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 100%
@@ -65,7 +63,7 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 * 從元件資訊彈出視窗內的&#x200B;**資料字典**&#x200B;圖示。
 
    ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
-<!--update screenshot; this was taken from a mock-->
+   <!--update screenshot; this was taken from a mock-->
 
 * 從選單：[!UICONTROL **說明**] > [!UICONTROL **資料字典**]。
 

@@ -3,12 +3,10 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 編輯資料字典中的條目
 feature: Components
 role: Admin
-hide: true
-hidefromtoc: true
-source-git-commit: d24c43ce9a192dcffa18b3c592dd8cb2e1416198
-workflow-type: ht
-source-wordcount: '221'
-ht-degree: 100%
+source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
