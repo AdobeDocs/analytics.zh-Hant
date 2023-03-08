@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ec3539389ab3aa9589e15e14f19b6f34d57a15a2
+source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
 workflow-type: tm+mt
-source-wordcount: '1680'
-ht-degree: 66%
+source-wordcount: '1600'
+ht-degree: 69%
 
 ---
 
@@ -134,23 +134,17 @@ ht-degree: 66%
 
 1. 啟用 **[!UICONTROL 連結作用中]** 選項。
 
-1. 選擇是否啟用下列安全性選項（這些選項可由您的Analytics管理員控制）:
+1. 選擇是否啟用下列安全性選項（此選項可由您的Analytics管理員控制）:
 
-   * **[!UICONTROL 需要單一登入 (SSO) 驗證]:**
+   * **[!UICONTROL 需要Experience Cloud驗證]:**
 
-      在取得共用專案的存取權之前，需要具有連結的使用者透過SSO驗證。 如果您希望專案只能供組織內的使用者存取，請選取此選項。
+      啟用此選項時，只有具有同盟ID且可登入Adobe Experience Cloud的收件者才能存取共用公用連結。請要求具有連結的人員透過其Adobe Experience Cloud登入進行驗證，才能存取共用專案。
 
       Analytics管理員可為公司設定此偏好設定，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 根據管理員配置此選項的方式，您可能會遇到以下情況：
 
-      * 如果此選項未顯示，表示貴組織未啟用SSO，或您的Analytics管理員未啟用此功能。
+      * 如果此選項未顯示，您的Analytics管理員未啟用此功能。
 
-      * 如果此選項已啟用且呈暗色，您的Analytics管理員需要SSO驗證才能存取所有公用連結。
-   * **[!UICONTROL 需要密碼]:** 存取Analysis Workspace專案前，需要具有連結的人員指定密碼。 這可為您的專案提供額外的安全性。
-
-      如果選擇此選項，請指定密碼。 與他人共用時，請記得將此密碼與專案連結一起共用。 <!--go through this workflow and see how it works.-->
-
-      如果此選項已啟用且呈暗灰色，您的Analytics管理員會要求所有公用連結都受密碼保護。 Analytics管理員可為公司設定此偏好設定，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md).
-
+      * 如果此選項已啟用且呈暗色，您的Analytics管理員需要Experience Cloud驗證才能存取所有公用連結。
 
 1. 在 **[!UICONTROL 與他人共用（無需登入）]** 欄位，按一下 **複製連結** 表徵圖將連結複製到系統剪貼簿。
 
