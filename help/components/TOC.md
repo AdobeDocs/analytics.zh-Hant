@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 74a6f05817cf93eb95dc7b5546b3e5155a08c725
+source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 96%
+source-wordcount: '690'
+ht-degree: 95%
 
 ---
 
@@ -201,6 +201,7 @@ ht-degree: 96%
       + [量度相容性](c-calcmetrics/cm-compatibility.md)
       + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
+      + [預設計算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
 + 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報表套裝總覽](vrs/vrs-about.md)
    + [虛擬報表套裝 - 元件管理](vrs/vrs-components.md)
