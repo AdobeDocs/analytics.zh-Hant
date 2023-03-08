@@ -3,16 +3,18 @@ title: getTimeParting
 description: 測量特定動作發生的時間。
 feature: Variables
 exl-id: 3fab36c8-a006-405a-9ef1-2547c2b36b0d
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '612'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：getTimeParting
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getTimeParting` 外掛程式可讓您擷取網站上所發生任何可測量活動的時間詳細資訊。若要依指定日期範圍內任何可重複的時間區隔方式來劃分量度，此外掛程式非常有用。例如，您可以比較一週內兩天之間的轉換率，例如所有週日比較所有週四。您也可以比較一天中的時段，例如所有早上比較所有晚上。
 

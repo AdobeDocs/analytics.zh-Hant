@@ -3,16 +3,18 @@ title: manageVars
 description: 一次變更多個 Analytics 變數的值。
 feature: Variables
 exl-id: b80d1c43-7e79-443e-84fb-1f1edffca461
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '597'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：manageVars
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `manageVars` 外掛程式可讓您一次操控多個 Analytics 變數的值。您也可以將值設為小寫，或同時從多個變數值中移除不必要的字元。如果您想一次清除多個變數的值，Adobe 建議使用此外掛程式。
 

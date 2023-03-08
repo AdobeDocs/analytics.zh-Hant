@@ -3,10 +3,10 @@ title: Adobe Analytics 中的行為報表
 description: 瞭解如何在 Adobe Analytics 中建立行為報表
 feature: Third-party Integration
 exl-id: ea441afa-e595-4ffa-b446-d67e87f8a7c9
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -87,4 +87,4 @@ Adobe 建議對此維度使用&#x200B;**造訪**&#x200B;量度。
 
 ## 發佈者報表
 
-如同 Google 需要與 Google Ad Manager 連線，Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果貴組織有興趣使用此產品，請連絡您的Adobe帳戶團隊。
+如同 Google 需要與 Google Ad Manager 連線，Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果您的組織有興趣使用本產品，請聯絡貴組織的客戶經理。

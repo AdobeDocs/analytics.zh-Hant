@@ -3,10 +3,10 @@ title: Adobe Analytics 中的贏取報表
 description: 瞭解如何使用 Analysis Workspace 建立贏取型報表。
 feature: Third-party Integration
 exl-id: 2929d34b-8eb0-4105-a49c-02d536929fe0
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '1578'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -141,4 +141,4 @@ Adobe 在 Analysis Workspace 中使用名為「Advertising Analytics」(廣告�
 
 ## 成本分析
 
-此報表會顯示您付費行銷管道的造訪、成本和收入成績資料。Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果貴組織有興趣使用此產品，請連絡您的Adobe帳戶團隊。
+此報表會顯示您付費行銷管道的造訪、成本和收入成績資料。Adobe 擁有 Adobe Advertising Cloud 這項專屬產品，可提供深入分析。如果您的組織有興趣使用本產品，請聯絡貴組織的客戶經理。

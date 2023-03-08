@@ -3,16 +3,18 @@ title: getNewRepeat
 description: 追蹤新訪客與重複訪客的活動。
 feature: Variables
 exl-id: 8f64e176-1926-4cb1-bfae-09d7e2c015ae
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '446'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：getNewRepeat
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getNewRepeat` 外掛程式可讓您判斷網站訪客是新訪客還是在指定天數內回訪的重複訪客。如果您想要使用自訂天數將訪客識別為「new」，Adobe 建議使用此外掛程式。如果 Analysis Workspace 中的「新增/重複」訪客維度符合您組織的需求，就不需要此外掛程式。
 

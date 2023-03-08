@@ -3,16 +3,18 @@ title: getVisitDuration
 description: 追蹤訪客目前為止在網站上逗留的時間。
 feature: Variables
 exl-id: 5299caa8-1e47-40b0-a8f4-422590f33ee4
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '360'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：getVisitDuration
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getVisitDuration` 外掛程式會追蹤訪客截至該時間點為止在網站上逗留的時間長度，以分鐘為單位。如果您想要追蹤網站上截至該時間點的累計時間，或追蹤執行活動所花費的時間，Adobe 建議使用此外掛程式。此外掛程式不會追蹤事件之間的時間長度；如果需要此功能，請使 [`getTimeBetweenEvents`](gettimebetweenevents.md) 用外掛程式。
 

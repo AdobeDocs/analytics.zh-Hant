@@ -3,10 +3,10 @@ title: 自訂事件
 description: 有自訂事件存在的點擊次數。
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,6 +24,6 @@ ht-degree: 91%
 * **數值事件**：加總為 `events` 變數中的事件指派的數值。
 * **貨幣事件**：根據當天的匯率套用貨幣轉換，然後加總為 `events` 變數中的每個點擊指派的數值。
 
-可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請連絡您的Adobe帳戶團隊。
+可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請聯絡貴組織的客戶經理。
 
 Adobe 強烈建議您將每個事件的使用方式記錄在組織的[解決方案設計文件](/help/implement/prepare/solution-design.md)中。

@@ -4,10 +4,10 @@ keywords: ftp;sftp
 title: 不使用密碼透過 SFTP 連線至 Adobe
 feature: FTP Export
 exl-id: 7ff9511c-50a2-466f-b5af-6bbd59941ce5
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
 source-wordcount: '603'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 1. 已建立 FTP 帳戶 (Adobe)。
 
-   如果還沒有 FTP 帳戶，可由 Adobe 代表為您建立 FTP 帳戶。請連絡您的Adobe帳戶團隊或Adobe客戶服務，以建立帳戶。
+   如果還沒有 FTP 帳戶，可由 Adobe 代表為您建立 FTP 帳戶。請聯絡您的 Adobe 客戶經理或 Adobe 客戶服務，請他們為您建立帳戶。
 1. 建立公開/私密金鑰 (客戶)。
 
    建立公開和私密金鑰組合。私密金鑰是存在於您的電腦/伺服器上，並由其專用的檔案。公開金鑰檔案則必須上傳至 Adobe 帳戶。使用這種方式時，您可不用密碼驗證而連線。Adobe 上的公開金鑰檔案會與您電腦/伺服器上的私密金鑰進行比對，透過此方式加以驗證。

@@ -3,16 +3,18 @@ title: getGeoCoordinates
 description: 追蹤訪客的 geoLocation。
 feature: Variables
 exl-id: 8620d083-7fa6-432b-891c-e24907e7c466
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '377'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：getGeoCoordinates
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `getGeoCoordinates` 外掛程式可讓您擷取訪客裝置的經緯度。如果您想要在 Analytics 變數中擷取地理位置資料，Adobe 建議您使用此外掛程式。
 

@@ -2,18 +2,18 @@
 title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
-source-git-commit: 6a1c95a25c89332b0d549e5ce8c5197331e71e3c
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 98%
+source-wordcount: '1441'
+ht-degree: 100%
 
 ---
 
 # Adobe Experience Edge 中的 Analytics 變數對應
 
-下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。如果您使用 XDM 欄位路徑，則傳送資料給 Adobe Analytics 不需要額外的設定。這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent範本]** 欄位群組。
+下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。如果您使用 XDM 欄位路徑，則傳送資料給 Adobe Analytics 不需要額外的設定。
 
-| XDM欄位路徑 | Analytics 維度和說明 |
+| XDM 欄位路徑 | Analytics 維度和說明 |
 | --- | --- |
 | `application.isClose` | 協助定義行動量度[損毀](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.isInstall` | 協助判斷何時增加行動量度[首次啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
@@ -125,7 +125,7 @@ ht-degree: 98%
 | `web.webPageDetails.siteSection` | [網站區段](../../components/dimensions/site-section.md)維度。 |
 | `web.webReferrer.URL` | [反向連結](../../components/dimensions/referrer.md)維度。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 <!-- `environment.browserDetails.javaScriptVersion` and `web.webPageDetails.homePage` were included in the original table, but they no longer exist in Analytics. | -->
 

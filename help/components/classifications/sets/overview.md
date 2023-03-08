@@ -2,10 +2,10 @@
 title: 「分類設定」概觀
 description: 使用「分類設定」管理分類資料。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 90%
+source-wordcount: '264'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->分類集架構上的所有客戶皆可使用此功能。 如需詳細資訊，請連絡Adobe客戶服務或您的Adobe帳戶團隊。
+>分類集將可供所有將報告套裝移轉到新分類架構的客戶使用。如需詳細資訊，請聯絡 Adobe 客戶服務或您的客戶經理。
 
 與分類集一起發布的後端架構包含幾個顯著的改進：
 

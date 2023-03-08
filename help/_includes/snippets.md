@@ -1,5 +1,5 @@
 ---
-source-git-commit: 7f8fdceaaac1d9384e108660c09010bfdc1472b2
+source-git-commit: ccb40e45ea559db815f4252d85baa61b9e109024
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 91%
@@ -62,6 +62,7 @@ ht-degree: 91%
 >[!AVAILABILITY]
 >
 >本區段中描述的功能處於發佈的有限測試階段，可能尚未開放使用於您的環境中。此功能開放使用時，便會刪除此備註。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
+
 
 ## 外掛程式免責聲明 {#plug-in}
 

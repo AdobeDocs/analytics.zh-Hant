@@ -4,10 +4,10 @@ title: 透過應用程式設定主管使用者
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
-source-git-commit: 02d0baee99ad2ea5966788f036644d3e3780016e
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 94%
+source-wordcount: '749'
+ht-degree: 100%
 
 ---
 
@@ -110,8 +110,8 @@ ht-degree: 94%
 * 高階主管使用者可能選取了錯誤的 Analytics 實例，或者
 * 可能尚未和該高階主管使用者共用任何計分卡。
 
-請確認高階主管使用者可登入正確的 Adobe Analytics 實例，且有與其共用的計分卡。
+請確認主管使用者可登入正確的 Adobe Analytics 實例，且有與其共用的計分卡。
 
 >[!IMPORTANT]
 >
->自2020年10月起，Adobe將逐步推出一系列增強功能，以最佳化「Adobe Analytics控制面板」應用程式的效能。 這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。如果您想要退出這些效能增強功能，請連絡您的Adobe客戶團隊。
+>自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請連絡您的 CSM。

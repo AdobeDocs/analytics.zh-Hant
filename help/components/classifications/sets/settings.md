@@ -2,10 +2,10 @@
 title: 「分類設定」設定
 description: 建立或編輯「分類設定」。
 exl-id: abf00508-5dde-4669-bf94-5eb4754888cc
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 95%
+source-wordcount: '591'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->分類集架構上的所有客戶皆可使用此功能。 如需詳細資訊，請連絡Adobe客戶服務或您的Adobe帳戶團隊。
+>此功能將可供所有將報告套裝移轉到新分類架構的客戶使用。如需詳細資訊，請聯絡 Adobe 客戶服務或您的客戶經理。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 設定]** > 按一下想要的「分類設定」名稱。
 

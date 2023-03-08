@@ -3,16 +3,18 @@ title: formatTime
 description: 將秒數轉換為等同的分鐘數、小時數等。
 feature: Variables
 exl-id: 4b98e7fe-f05b-4346-b284-697268adc1a2
-source-git-commit: c53f886d5329e2a3b5023f9396c3aa2360a86901
+source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '494'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：formatTime
 
-{{plug-in}}
+>[!IMPORTANT]
+>
+>此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
 
 `formatTime` 外掛程式可讓您以分段格式呈現任何秒數，並且四捨五入到所需的基準值。如果您想要以秒為單位擷取時間值，再轉換為分段格式 (如分鐘、天或週)，Adobe 建議您使用此外掛程式。如果您不想將以秒為單位的值分段為時間捨入格式，則不需要此外掛程式。
 
