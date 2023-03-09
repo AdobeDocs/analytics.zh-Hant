@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: c2bfedde64b4961afcda75880594ee9b1347a831
+source-git-commit: 60af9f7a14e81609a2a51558677031bc778aef3e
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 99%
+source-wordcount: '3773'
+ht-degree: 97%
 
 ---
 
@@ -27,6 +27,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2023 年 3 月** |  |
 | 預設計算量度 | 已新增內容，說明 [由提供的預設計算量度Adobe](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md). |
+| 資料字典 | <p>新增資料字典的檔案，包括 [概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [檢視](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [編輯](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)，和 [監控](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) 資料字典。</p><p>中的資訊 [新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md) 已更新，以說明資料字典功能。</p> |
+| 專案的連結共用（不需登入） | <p>更新現有檔案，說明如何與無法存取Analysis Workspace的人員共用專案的唯讀連結。</p> <p>更新的使用者檔案包括 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md) 和 [建立分享連結](/help/analyze/analysis-workspace/curate-share/shareable-links.md).</p> <p>管理員選項已新增至 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md).</p> |
 | **2023 年 2 月** |  |
 | 實施 | 已更新有關如何[為網路和行動裝置實施 Adobe Analytics](../implement/home.md) 的內容。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。查看[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
