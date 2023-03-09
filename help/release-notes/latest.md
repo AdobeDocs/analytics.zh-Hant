@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6e6fcca0c2fa1fd1ee433c7d1b9727c058bb711e
+source-git-commit: c99e4f2b91d6246a2a47e39dc24ba443b76636f6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 58%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2023 年 3 月)
 
-**上次更新日期**：2023 年 3 月 7 日
+**上次更新日期**：2023 年 3 月 9 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -44,7 +44,7 @@ AN-308177;AN-308727;AN-308846;AN-309591;AN-310614;AN-311544;AN-311570;AN-311665;
 | EOL 產品或功能 | 新增或更新日期 | 說明 |
 | --- | --- | --- |
 | **[!DNL Reports & Analytics]** EOL | 2023 年 3 月 7 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。<p>我們將於2023年12月31日終止許多相關Reports &amp; Analytics功能，包括但不限於：排程報表、資料擷取和DL報表。 2023年12月31日後，將不再傳送任何排程報表。 在 **2023年4月**，則任何排程在2023年12月31日後過期的報表都會自動更新，並還原為在2023年12月31日過期。 此外，您無法再排程2023年12月31日以後的報表。 |
-| **終止 [!UICONTROL 人員] 量度** | 2023 年 2 月 28 日 | 隨著 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html)，則Device Co-op相關人員量度不再相關。 在不久的將來（未定日期），我們將移除此項 [!UICONTROL 人員] 量度。 此時，我們會將其資料重新導向至 [!UICONTROL 不重複訪客] 量度來防止專案、區段和計算量度中斷。<p>**附註**:此 [[!UICONTROL 人員] 系結至跨裝置分析的量度](/help/components/metrics/people.md) 不受本公告的影響。 |
+| **終止 [!UICONTROL 人員] 量度** | 2023 年 3 月 9 日 | 隨著 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html)，則Device Co-op相關人員量度不再相關。 2023年5月8日，我們將 [!UICONTROL 人員] 量度。 此時，我們會將其資料重新導向至 [!UICONTROL 不重複訪客] 量度來防止專案、區段和計算量度中斷。<p>**附註**:此 [[!UICONTROL 人員] 系結至跨裝置分析的量度](/help/components/metrics/people.md) 不受本公告的影響。 |
 | **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為「Reports &amp; Analytics」終止服務的一部分， [!UICONTROL 發佈清單] 將於 **2023年12月**. 您將無法建立新內容或存取現有內容 [!UICONTROL 發佈清單] 傳送或排程 [!UICONTROL Analysis Workspace] 專案。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
 | **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://spark.adobe.com/page/6WnF8JK6IRDhf/)說明生命週期結束流程。 |
