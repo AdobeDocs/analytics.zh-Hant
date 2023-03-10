@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: ffe72f02a80496160a5d894456bc9eb96b6cf9b0
+source-git-commit: 66a02a6d0c6cc88752ea39172bd30b026908846b
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 69%
+source-wordcount: '1584'
+ht-degree: 70%
 
 ---
 
@@ -138,7 +138,7 @@ ht-degree: 69%
 
    * **[!UICONTROL 需要Experience Cloud驗證]:**
 
-      啟用此選項時，只有具有同盟ID且可登入Adobe Experience Cloud的收件者才能存取共用公用連結。請要求具有連結的人員透過其Adobe Experience Cloud登入進行驗證，才能存取共用專案。
+      啟用此選項時，只有可登入建立您共用之專案的Adobe Experience Cloud組織的使用者才能使用此連結。
 
       Analytics管理員可為公司設定此偏好設定，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 根據管理員配置此選項的方式，您可能會遇到以下情況：
 
