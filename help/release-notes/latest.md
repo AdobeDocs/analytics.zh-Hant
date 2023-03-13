@@ -20,9 +20,9 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 22 月 3 日 |
-| **行動儀表板中的資料故事** | 資料故事可讓您將多個可自訂的詳細資料檢視加入到行動計分卡專案的圖磚中。使用資料故事可深入了解關鍵驅動因素、相關量度以及客戶歷程中的不同步驟。您可以輕鬆滑動這些檢視以了解關鍵量度背後的整個故事。[了解更多](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不適用 | 2023 年 8 月 3 日 |
-| **已排程專案的到期日** | 無論排程頻率如何，您都可以將已排程專案的到期日最長設定一年。 | 不適用 | 2023 年 8 月 3 日 |
+| **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 22 日 |
+| **行動儀表板中的資料故事** | 資料故事可讓您將多個可自訂的詳細資料檢視加入到行動計分卡專案的圖磚中。使用資料故事可深入了解關鍵驅動因素、相關量度以及客戶歷程中的不同步驟。您可以輕鬆滑動這些檢視以了解關鍵量度背後的整個故事。[了解更多](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不適用 | 2023 年 3 月 8 日 |
+| **已排程專案的到期日** | 無論排程頻率如何，您都可以將已排程專案的最長到期日設定為將近一年。 | 不適用 | 2023 年 3 月 8 日 |
 | **專案連結共用 (不需登入)** - 僅限 Private beta 存取權 | <p>您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用專案連結。[了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>若要加入 Private beta，請聯絡您的 Adobe 客戶團隊。</p> | 2023 年 3 月 15 日 (Private beta) | 2023 年 4 月 |
 | **面板日期範圍更新** | 在 Workspace 中，我們新增了以下改善：<ul><li>從2月版開始，維度項目和資料預覽皆以面板日期範圍為基礎，而非最近90天。 </li><li>列出的所有維度項目都以面板日期範圍內的資料為基礎。 如果維度項目的資料超出日期範圍，您可以在清單底部顯示日期範圍以外的其他資料。</li><li>沒有資料的Dimension可顯示在左側邊欄中。 按一下顯示更多選項，檢視含有面板日期範圍以外資料的維度項目。</li><li>區段和計算量度產生器中的資料預覽是根據面板日期範圍，除非從元件管理員存取，元件管理員沒有相關聯的面板，且仍以過去90天為基礎。</li><li>資料預覽會根據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
 
@@ -34,7 +34,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。我們在 2023 年 2 月 27 日進行第一階段發行以支援用戶端提示。第二階段也是最後階段的發行已於 2023 年 3 月 2 日星期四完成。[了解更多](/help/technotes/client-hints.md) |
+| **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。我們在 2023 年 2 月 27 日進行了第一階段的版本以支援用戶端提示。第二階段也是最後階段的版本已於 2023 年 3 月 2 日星期四完成。[了解更多](/help/technotes/client-hints.md) |
 | **Analytics 來源連接器可用性** | 2023 年 2 月 15 日 | 2023 年 2 月 28 日，位於加拿大的新 Adobe Experience Platform 資料中心將提供 Analytics 來源連接器。 |
 | **自動移轉到分類集架構** | 2023 年 2 月 8 日 | 在接下來的幾個月裡，Adobe 計畫將所有組織的所有分類移轉到最新的分類架構。最後一批移轉的客戶估計會在 2023 年 5 月進行。客戶無須採取行動，也預計不會出現停機時間。這種新架構有很多好處，包括：<ul><li>大幅縮短處理時間 (72 小時 → 24 小時)</li><li>使用[分類集](/help/components/classifications/sets/overview.md)使用者介面的能力</li><li>未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=zh-Hant)在 Adobe Experience Platform 中使用分類資料的選項</li></ul>請注意以下變更可能會影響您組織的工作流程：<ul><li>使用瀏覽器或 FTP 匯入時，一定要啟用「[!UICONTROL 衝突時覆寫]」。</li><li>使用瀏覽器或 FTP 匯入時，不再支援匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions`端點現在回傳用於分類的字串識別碼，而不是數值識別碼。還是可以使用數值識別碼，但 Adobe 建議盡可能使用新的字串識別碼。可以使用 `?expansion=hidden` 查詢字串參數擷取數值識別碼。</li></ul>如果您想為您的組織擬定更具體的移轉計畫，或者對此移轉有疑問/疑慮，請聯繫 Adobe 客戶服務。[了解更多](/help/components/classifications/sets/overview.md) |
 
