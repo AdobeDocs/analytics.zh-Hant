@@ -4,8 +4,8 @@ description: 地區資料收集相關資訊
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
 source-git-commit: 8f02656820ed0b9201f29fc9dca6870e6f7fe8fd
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '462'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 | --- | --- |
 | 預設 | 奧勒岡州、維吉尼亞州、愛爾蘭、巴黎、孟買、新加坡、東京、雪梨、中國* |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *中國 RDC 需要中國附加元件套件。 請參閱下方的[中國效能最佳化](#china-performance-optimization)。
 
@@ -52,7 +52,7 @@ RDC 目前包括下列位置 (可能隨時變更)：
 | 僅限亞太地區 | 孟買、新加坡、東京、雪梨 |
 | 僅限中國* | 北京 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 *「僅限中國」及「全球 + 中國」RDC 類型需要中國附加元件套件。 「全球 + 中國」會將源自於中國境內的資料路由傳送到 Adobe 的中國 RDC，同時將源自於中國境外的資料路由傳送到中國境外最接近的 RDC。請參閱下方的[中國效能最佳化](#china-performance-optimization)。
 

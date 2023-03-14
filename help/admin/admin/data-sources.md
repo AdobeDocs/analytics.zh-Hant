@@ -4,7 +4,7 @@ title: 資料來源適用於管理員
 feature: Admin Tools
 exl-id: 540c7342-64e1-41e3-9ee9-270a2a0a5008
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '167'
 ht-degree: 100%
 

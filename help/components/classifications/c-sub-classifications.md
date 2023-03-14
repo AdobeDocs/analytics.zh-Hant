@@ -47,7 +47,7 @@ Adobe Analytics 支援單層級與多層級分類模式。分類階層可以讓�
 
 例如：
 
-| 代碼 | 屬性1 | Property 1^Property 1-1 | Property 1^Property 1-2 | 屬性 2 |
+| 代碼 | PROPERTY 1 | Property 1^Property 1-1 | Property 1^Property 1-2 | 屬性 2 |
 |---|---|---|---|---|
 | 123 | ABC | 綠色 | 小 | A12B |
 | 456 | DEF | 紅色 | 大 | C3D4 |

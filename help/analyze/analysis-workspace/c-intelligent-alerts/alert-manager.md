@@ -1,13 +1,13 @@
 ---
 description: 建立、編輯或刪除警報。
-title: 警報管理器 (Analysis Workspace)
+title: 警報管理器(Analysis Workspace)
 feature: Alerts
 role: User, Admin
 exl-id: c33a9a30-f53f-443c-96b7-6a87d03573c7
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

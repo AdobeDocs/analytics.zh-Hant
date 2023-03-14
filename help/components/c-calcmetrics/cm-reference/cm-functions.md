@@ -4,7 +4,7 @@ title: 參考資料  基本函數
 feature: Calculated Metrics
 exl-id: 1a49435c-96d1-4617-bd1a-a5d3b74e3ebd
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 100%
 
@@ -178,7 +178,7 @@ QUARTILE(metric,quart)
 | *量度* | 您要擷取四分位數值的量度。 |
 | *quart* | 指出傳回哪個值*。 |
 
-*如果 *quart* = 0，QUARTILE 會傳回最小值。如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
+&#42;如果 *quart* = 0，QUARTILE 會傳回最小值。 如果 *quart* = 1，QUARTILE 會傳回第一個四分位數 (第 25 個百分位數)。如果 *quart* = 2，QUARTILE 會傳回第一個四分位數 (第 50 個百分位數)。如果 *quart* = 3，QUARTILE 會傳回第一個四分位數 (第 75 個百分位數)。如果 *quart* = 4，QUARTILE 會傳回最大值。
 
 ## 四捨五入 {#concept_2F12F2A6ACD445A0A8FF648AE4D4CB9E}
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '545'
 ht-degree: 99%
 
 ---
@@ -82,7 +82,7 @@ Report Builder 中「管理請求」的欄位說明。
   </tr> 
   <tr> 
    <td colname="col1"> <p> 重新整理 </p> </td> 
-   <td colname="col2"> <p>重新整理單一請求或選擇的請求（請參閱<a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   >重新整理請求</a>。） </p> </td> 
+   <td colname="col2"> <p>重新整理單一請求或選擇的請求(請參閱 <a href="/help/analyze/report-builder/manage-requests/t-refresh-a-request.md"   > 重新整理請求</a>.) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>重新整理清單 </p> </td> 

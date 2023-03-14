@@ -6,7 +6,7 @@ exl-id: 7904c3c2-9a91-497e-89d0-9eed9ae7a902
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
@@ -16,22 +16,22 @@ ht-degree: 73%
 
 ## 使用Web SDK的伺服器
 
-伺服器是 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.server`。
+伺服器是 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `web.webPageDetails.server`.
 
-## 使用Adobe Analytics擴展的伺服器
+## 使用Adobe Analytics擴充功能的伺服器
 
 您可以在設定 Analytics 擴充功能 (全域變數) 時或是在規則底下設定伺服器。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-2. 按一下所需的標記屬性。
-3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「伺服器」]區段。
 
 您可以將伺服器設定為任何字串值或資料元素。
 
-## AppMeasurement中的s.server和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.server
 
 `s.server` 變數是字串，通常包含網站的主機名稱。其最大值為 100 個位元組；超過上限的值會遭到截斷。
 

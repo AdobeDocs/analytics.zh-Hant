@@ -1,8 +1,9 @@
 ---
 title: 同意管理選擇加入
 description: 查看訪客選擇加入哪些隱私設定。
-source-git-commit: 49b2c144fea5786564ccb6dc70adead3bc669596
-workflow-type: ht
+exl-id: b2768180-b763-41fb-8cba-665fac047e29
+source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 100%
 

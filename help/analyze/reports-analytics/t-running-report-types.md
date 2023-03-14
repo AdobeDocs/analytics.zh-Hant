@@ -59,7 +59,7 @@ ht-degree: 97%
 
 「頁面流程報表」會顯示您的訪客存取頁面以及瀏覽網站的順序。此報表可協助解答
 
-查看 [流量視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html) 在Analysis Workspace!
+查看 [流量視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant) 在Analysis Workspace!
 
 例如，按一下&#x200B;**[!UICONTROL 「報表]** > **[!UICONTROL 路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 下一頁流量」]**。
 
@@ -92,7 +92,7 @@ ht-degree: 97%
    </thead> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>選取報表套裝</strong></td> 
-   <td class="chdesc stentry"> 顯示此即時報表涵蓋的報表套裝。若要變更報表套裝，請參閱<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html"  >即時報表組態</a>。 </td> 
+   <td class="chdesc stentry"> 顯示此即時報表涵蓋的報表套裝。若要變更報表套裝，請參閱<a href="https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/real-time-reports/t-realtime-admin.html?lang=zh-Hant"  >即時報表組態</a>。 </td> 
    </tr> 
    <tr class="chrow strow"> 
    <td class="choption"><strong>切換報表</strong></td> 

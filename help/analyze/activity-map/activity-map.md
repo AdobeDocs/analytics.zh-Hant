@@ -46,7 +46,7 @@ Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動�
 * [覆蓋圖詳細資料](activitymap-overlay-details.md)
 * [匯出至 CSV 檔案](activitymap-csv.md)
 * [支援的系統和需求](activitymap-sysreqs.md)
-* [Activity Map 常見問答](activitymap-faq.md)
+* [Activity Map 常見問題](activitymap-faq.md)
 * [連結追蹤方法](activitymap-link-tracking/activitymap-link-tracking-methodology.md)
 * [設定 Activity Map](activitymap-overlay-settings.md)
 * [Activity Map 使用者介面](activitymap-user-interface.md)

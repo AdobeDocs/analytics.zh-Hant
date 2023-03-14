@@ -3,13 +3,13 @@ title: 「媒體播放時間」面板
 description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間」面板。
 feature: Panels
 role: User, Admin
-source-git-commit: 70af5bf2ef36e7968043120658d35dc948e9630e
-workflow-type: ht
+exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
+source-git-commit: 9662c61a428923f296ca057156c06fa2bf41325d
+workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
 
 ---
-
 
 # 「媒體播放時間」面板
 

@@ -4,9 +4,9 @@ description: 防止某些 IP 位址產生的資料出現在報表中。
 exl-id: 315a3000-f043-434b-a677-d111aeed7971
 feature: Admin Tools
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >依 IP 位址排除的點擊在帳單中會計為[伺服器呼叫](https://experienceleague.adobe.com/docs/analytics/technotes/terms.html)。
 
-您可使用萬用字元指標 (*) 排除某個位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
+您可以使用萬用字元指示器(&#42;)來排除位址範圍。 舉例來說，`[!DNL 0.0.*.0]` 會排除 `[!DNL 0.0.0.0]` 和 `[!DNL 0.0.255.0]` 之間的所有 IP 位址。最多可以排除 50 個不同的 IP 位址。
 
 >[!TIP]
 >
@@ -30,4 +30,4 @@ ht-degree: 100%
 
 若啟用 IP 模糊化，系統會在將 IP 位址模糊化前即排除 IP，因此客戶在啟用 IP 模糊化至後，不必再進行任何變更。
 
-如果最後的八位數字己移除，則會在 IP 篩選前進行這項作業。因此，最後八位數字被 0 取代，而 IP 排除規則應更新為符合最後為零的 IP 位址。符合 * 應符合 0。
+如果最後的八位數字己移除，則會在 IP 篩選前進行這項作業。因此，最後八位數字被 0 取代，而 IP 排除規則應更新為符合最後為零的 IP 位址。符合 &#42; 應符合 0。

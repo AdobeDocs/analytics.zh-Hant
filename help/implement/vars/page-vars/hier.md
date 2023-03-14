@@ -4,7 +4,7 @@ description: 在 Adobe Analytics 中實施階層變數。
 feature: Variables
 exl-id: 72bdab8f-a001-4ada-b5e2-453a8e3f24a6
 source-git-commit: f435453f655caef89460de42ebecf489b021dc47
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 100%
 
@@ -31,8 +31,8 @@ ht-degree: 100%
 您可以在設定 Analytics 擴充功能 (全域變數) 時或是在規則底下設定階層。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-2. 按一下所需的標記屬性。
-3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「階層」]區段。

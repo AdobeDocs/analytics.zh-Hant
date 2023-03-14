@@ -32,7 +32,7 @@ ht-degree: 90%
 
 ## 維度間流量 {#section_7AA325E432C846B0AC51E70CCE79B4C0}
 
-您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在這種情況下，您的流可能會從首頁、流到流到流，然後流到鞋類部門。
+您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此情況下，您的流程可能會從首頁、到Mens頁面，然後到Shoes部門。
 
 每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
 

@@ -6,7 +6,7 @@ feature: Dimensions
 role: User, Admin
 exl-id: 0d26c920-d0d9-4650-9cf0-b67dbc4629e1
 source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 ![劃分設定](assets/breakdown_settings.png)
 
-這是將歸因模型應用於劃分或編輯劃分時的預期行為：
+這是將歸因模型套用至劃分或編輯劃分時的預期行為：
 
 * 如果在沒有其他歸因時套用歸因，該歸因將套用於整個欄樹。
 

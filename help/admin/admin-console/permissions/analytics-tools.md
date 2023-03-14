@@ -6,7 +6,7 @@ feature: Admin Tools
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 | Analytics 工具權限項目 | 說明 |
 |----|----|
 | [!UICONTROL 伺服器呼叫使用量] | 授與對「管理員 > 伺服器呼叫使用量」的存取權。 |
-| [!UICONTROL 代碼管理器] | 保留供舊版使用。 授與「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用Adobe Analytics資料收集中的Adobe Experience Platform擴展包含的庫。 |
+| [!UICONTROL 代碼管理器] | 保留供舊版使用。 授與「管理員 > 所有管理員 > 代碼管理器」的存取權。 在大多數情況下，請改用 Adobe Experience Platform 資料收集中的 Adobe Analytics 擴充功能所含的資料庫。 |
 | [!UICONTROL 代碼管理器 - 網頁服務] | 透過 1.4 API 授與對代碼管理器的存取權。 |
 | [!UICONTROL 記錄檔] | 授與對「管理員 > 所有管理員 > 記錄檔」的存取權。  |
 | [!UICONTROL 記錄檔 - 網頁服務] | 透過 1.4 API 授與擷取記錄檔的權限。 |

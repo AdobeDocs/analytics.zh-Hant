@@ -3,7 +3,7 @@ title: 使用 Analytics 擴充功能實施 Adobe Analytics
 description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe Analytics
 feature: Launch Implementation
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 100%
 

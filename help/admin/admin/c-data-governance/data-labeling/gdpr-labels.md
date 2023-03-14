@@ -5,7 +5,7 @@ feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
 source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
 workflow-type: tm+mt
-source-wordcount: '3585'
+source-wordcount: '3558'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | I1 | 可直接識別：可以明確識別或可與個人直接聯絡的資料，例如姓名或電子郵件地址。 | <ul><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li></ul> |
 | I2 | 可間接識別：可與任何其他資料合併使用，以識別或直接聯絡個人或裝置的資料，不允許自行識別個人身分，但可以與其他資訊 (可能有、也可能沒有) 整合，以識別某個對象。例如：客戶忠誠度編號或公司 CRM 系統所用的 ID (每位客戶指定一個唯一 ID)。 | <ul><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 敏感資料標籤 {#sensitive-data-labels}
 
@@ -42,7 +42,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | S1 | 與緯度和經度有關的精確地理位置資料可用於判定裝置的確切位置 (誤差範圍小於 100 公尺)。 |
 | S2 | 地理位置資料可用於判定廣泛定義的地理圍欄區域。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 資料控管標籤 (資料隱私權) {#data-governance-labels}
 
@@ -56,7 +56,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | ACC-ALL | 所有資料隱私權存取請求皆應包含此欄位中的值。 如果此值來自多人共享的裝置，則您身為資料控管者可藉由套用此標籤，表明此欄位資料可與任何具備該共享裝置存取權限的人共享。 | 將會為所有資料隱私權請求傳回帶有此標籤的欄位。 |
 | ACC-PERSON | 只有在您合理確定該點擊是來自資料主體時 (可透過符合 ID-PERSON 欄位值的資料隱私權請求 ID 來判斷)，此欄位的值才可納入資料隱私權存取請求。 | 您也必須在該報表套裝中某個變數上設定 ID-PERSON 標籤，並使用該 ID 提交請求，否則不會套用該標籤。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 儘管有幾個變數會接收到其他標籤，不過我們還是希望您將存取標籤套用至大部分變數中。然而，要決定與資料主體共用哪些所收集的資料，最終取決於您與法律團隊的諮詢結果。
 
@@ -71,7 +71,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | DEL-DEVICE | 對於資料隱私權刪除請求，只有在點擊含有特定 ID-DEVICE 的請求中，才應對此欄位的值進行匿名處理。  如果相同的值發生於其他未遭刪除的點擊，則不會變更其他點擊的例項。這會導致運算此欄位中獨特計數的報告計數發生變化。在共享裝置上，除了資料主體以外，這也可能會移除其他人的識別碼。  如果此欄位也具有 ID-DEVICE 標籤，而且以該欄位中的值做為資料隱私權請求的 ID，則計數不會變更。 | <ul><li>也需要 I1 或 I2 或 S1 標籤</li><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li></li><li>無法在分類上設定</li><li>您必須使用 ID-DEVICE 提交請求或將 expandIDs 設定為 true，否則不會套用該標籤。</li></ul> |
 | DEL-PERSON | 對於資料隱私權刪除請求，只有在點擊含有特定 ID-PERSON 的請求中，才應對此欄位的值進行匿名處理。  如果相同的值發生於其他未遭刪除的點擊，則不會變更其他的值。這會導致運算此欄位中獨特計數的報告計數發生變化。如果此欄位也具有 ID-PERSON 標籤，而且以該欄位中的值做為資料隱私權請求的 ID，則計數不會變更。 | <ul><li>也需要 I1 或 I2 或 S1 標籤</li><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li></li><li>無法在分類上設定</li><li>您也必須在該報表套裝中某個變數上使用 ID-PERSON 標籤集提交請求，並使用該 ID 提交請求，否則不會套用該標籤。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 資料隱私權身分標籤
 
@@ -81,7 +81,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | ID-DEVICE | 此欄位包含的 ID 可用於針對資料隱私權請求識別裝置，但無法辨別共用裝置上的不同使用者。 您不需要為所有包含 ID 的變數指定此標籤 (這是 I1/I2 標籤的作用)。如果您使用儲存在此變數中的 ID 提交資料隱私權請求，而且想要搜尋此變數以找出指定 ID，請使用此標籤。 | 也需要 I1 或 I2 標籤。<ul><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li><li>無法在分類上設定</li></ul> |
 | ID-PERSON | 此欄位包含的 ID 可針對資料隱私權請求識別已驗證的使用者 (特定人員)。 您不需要為所有包含 ID 的變數指定此標籤 (這是 I1/I2 標籤的作用)。如果您要使用儲存在此變數中的 ID 提交資料隱私權請求，而且想要搜尋此變數以找出指定 ID，請使用此標籤。 | <ul><li>也需要 I1 或 I2 標籤。</li><li>無法在事件上設定</li><li>無法在銷售 eVar 上設定</li><li>無法在分類上設定</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 將變數標示為 ID-DEVICE 或 ID-PERSON 時提供命名空間 {#provide-namespace}
 
@@ -138,7 +138,7 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
 | <ul><li>流量變數 (prop)</li><li>商務變數 (非銷售 eVar)</li></ul> | 所有標籤 | - |
 | 大部分其他變數  (*請參閱下表以瞭解例外情況*) | ACC-ALL、ACC-PERSON | <ul><li>I1/I2、S1/S2</li><li>ID-DEVICE、ID-PERSON</li><li>DEL-DEVICE、DEL-PERSON)</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 可以指派/修改 ACC-ALL/ACC-PERSON 以外標籤的變數 {#variables}
 
@@ -218,7 +218,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 | <ul><li>ClickMap 動作 (舊版)</li><li>ClickMap 內容 (舊版)</li><li>頁面</li><li>頁面 URL</li><li>原始登入頁面 URL</li><li>反向連結</li><li>造訪開始頁面 URL</li></ul> | URL 參數會加以清理/移除。若值看起來不像 URL，則會遭到清除 (設為空白字串)。 |
 | <ul><li>緯度</li><li>經度</li></ul> | 精準度會降低為 1 公里以上。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 不支援預期刪除標籤的變數 {#no-delete-support}
 
@@ -237,7 +237,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 | [!UICONTROL 訪客 ID]<p>[!UICONTROL MCID] / [!UICONTROL ECID] | 這些 ID 具有 DEL-DEVICE 標籤，但無法新增 DEL-PERSON 標籤。 如果您透過每個請求指定 [!UICONTROL ID 擴增]，然後就會為所有刪除請求自動刪除這些 ID，即使是那些使用 ID-PERSON 的資料亦然。<p>如果您並未使用 ID 擴增，但希望這些 Cookie ID 匿名處理包含與在 prop 或 eVar 中相匹配 ID 的點擊，則可以透過使用 ID-DEVICE 標籤標籤 prop 或 eVar 來解決此標籤限制，即使其實際上可辨識個人身分 (所有 DEL-PERSON 標籤也必須變更為 DEL-DEVICE 標籤)。在這種情況下，由於只有部分訪客 ID 或 ECID 的例項會予以匿名處理，因此歷史報告中的獨特訪客計數都會變更。 |
 | [!UICONTROL AMO ID] | Adobe Advertising Cloud ID 為解決方案變數，具有不可修改的 [!UICONTROL DEL-DEVICE] 標籤。 會像訪客 ID 和 MCID 一樣透過 cookie 自動填入資料。只要刪除了這些 ID，就應該會從點擊中刪除資料。如需更多詳細資料，請參閱這些變數的說明。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 存取請求的日期欄位 {#access-requests}
 
@@ -251,7 +251,7 @@ Adobe Analytics 提供的資料隱私權刪除請求支援，目的為將對報�
 | 首次點擊時間 GMT | 在該次點擊中，收到此訪客 ID 值首次點擊的自訂點擊時間 UTC 值。 |
 | 造訪開始時間 UTC | 收到此訪客 ID 值當次造訪首次點擊的自訂點擊時間 UTC 值。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 針對按資料隱私權存取請求傳回的檔案，產生這些檔案的程式碼會要求存取請求 (有適用這類要求的 ACC 標籤) 中，須納入前三個時間戳記變數中的其中一個。如未納入任一變數，則自訂點擊時間 UTC 會視同具有 ACC-ALL 標籤。
 

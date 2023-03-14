@@ -30,7 +30,7 @@ ht-degree: 99%
 
 * 在Analytics擴充功能中：
    1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-   1. 按一下所需的標記屬性。
+   1. 按一下所需的標籤屬性。
    1. 按一下「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 下方的「[!UICONTROL 設定]」。
    1. 按一下[!UICONTROL 「一般」]摺疊式功能表，接著記下[!UICONTROL 「追蹤伺服器」]值。
 

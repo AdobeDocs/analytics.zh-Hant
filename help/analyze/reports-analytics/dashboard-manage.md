@@ -73,7 +73,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->日後請考慮使用 [Analysis Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html)及其下載和排程功能。
+>日後請考慮使用 [Analysis Workspace 專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant)及其下載和排程功能。
 
 複製舊控制面板時，系統會開啟舊控制面板以供編輯，您可新增舊內容或新內容。複製舊控制面板時，其原型會保留在舊控制面板的清單中。
 

@@ -4,7 +4,7 @@ title: 移轉 Enterprise ID 與 Federated ID 的 Analytics 使用者帳戶
 feature: Admin Tools
 exl-id: 988ed685-4eca-4b0b-a653-9c6a156852f1
 source-git-commit: d78489cd87b59e4dda40d9975e1ce643507f2f69
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '763'
 ht-degree: 100%
 

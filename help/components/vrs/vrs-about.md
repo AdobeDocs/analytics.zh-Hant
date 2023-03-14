@@ -5,7 +5,7 @@ feature: VRS
 exl-id: 45d18d14-d95a-42fe-b00a-cfce5f936e37
 source-git-commit: f48c7c404312562ad4f443af8e7c7643e5d3f17b
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '804'
 ht-degree: 95%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 95%
 | 可個別新增至權限群組 | 是 | 是 |
 | 可使用管理員功能來修改此報表套裝上的個別設定 (「管理員 > 報表套裝」) | 否 (設定繼承自父項) | 是 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 結合虛擬報表套裝和多套裝標記 {#section_026FA3FCD7314DD18220E73EC5702AFF}
 

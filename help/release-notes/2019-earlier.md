@@ -11,9 +11,9 @@ ht-degree: 59%
 
 ---
 
-# Adobe Analytics2019年發行說明（及更早版本）
+# Adobe Analytics 2019年發行說明（及舊版）
 
-請注意，這些發行說明.pdf檔案包含所有Adobe Experience Cloud解決方案的發行說明。
+請注意，這些版本說明.pdf檔案包含所有Adobe Experience Cloud解決方案的版本說明。
 
 * [2019 發行說明 PDF](2019-Adobe-Experience-Cloud-Release-Notes.pdf)
 * [2018 發行說明 PDF](2018-Adobe-Experience-Cloud-Release-Notes.pdf)

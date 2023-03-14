@@ -21,7 +21,7 @@ Analytics 提供數個變數，可用於收集 Analytics 資料。本節中的�
 
 ## 變數與實作方法
 
-Adobe 提供多種實施 Adobe Analytics 的方式。每頁都提供一節，介紹如何使用Web SDK、使用Adobe Analytics副檔名和使用AppMeasurement for JavaScript實現變數。
+Adobe 提供多種實施 Adobe Analytics 的方式。每個頁面都提供一個區段，說明如何使用Web SDK、使用Adobe Analytics擴充功能及使用JavaScript適用的AppMeasurement來實作變數。
 
 以下是有關在 Adobe Analytics 中設定變數的影片：
 

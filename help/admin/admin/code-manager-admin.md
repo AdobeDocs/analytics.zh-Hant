@@ -4,7 +4,7 @@ title: 程式碼管理員
 feature: Admin Tools
 exl-id: 90591e91-0830-46e3-a8a1-f09c4f108eb2
 source-git-commit: 2c0aef13bdb88b0a7aa9f100c72c21f66a14c8dd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 100%
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 程式碼管理員頁面說明 {#section_7C317BB0287A4B8EB0A1A4ECC40627BF}
 
-| 欄目 | 說明 |
+| 欄 | 說明 |
 |--- |--- |
 | [!UICONTROL 名稱] | 名稱符合您要啟用資料收集的平台。此欄列出的每個平台都會提供原生庫。 |
 | [!UICONTROL 類型] | 可使用每個程式庫來測量的應用程式類型。 |

@@ -5,7 +5,7 @@ feature: Implementation Basics
 source-git-commit: aef1d613437688b7eed704b227c41e4fbe4677dd
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 41%
+ht-degree: 51%
 
 ---
 
@@ -13,14 +13,14 @@ ht-degree: 41%
 
 JavaScript 適用的 AppMeasurement 向來是實施 Adobe Analytics 的常用方法。但由於標記管理系統越來越熱門，所以建議使用 [Adobe Experience Platform 中的標記](../launch/overview.md)。
 
-實作工作的概觀：
+實施任務的高層級概觀：
 
 ![使用AppMeasurement實作Adobe分析概觀](../assets/appmeasurement-annotated.png)
 
 <table>
 
 <tr>
-<th style="width:5%"></th><th style="width:75%"><b>工作</b></th><th style="width:20%"><b>更多資訊</b></th>
+<th style="width:5%"></th><th style="width:75%"><b>任務</b></th><th style="width:20%"><b>更多資訊</b></th>
 </tr>
 
 <tr>
@@ -82,7 +82,7 @@ s.t();
 </tr>
 
 <tr>
-<td>7</td><td><b>擴充及驗證實作</b> 再推出生產。</b></td><td></td>
+<td>7</td><td><b>先擴充和驗證您的實施</b>，再將其投入生產。</b></td><td></td>
 </tr>
 
 </table>

@@ -7,7 +7,7 @@ user-guide-description: 使用元件管理資料，例如區段、計算量度�
 source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 

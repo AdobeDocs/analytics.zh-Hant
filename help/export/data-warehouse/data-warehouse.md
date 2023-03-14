@@ -1,20 +1,19 @@
 ---
-description: Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
+description: Data Warehouse 指的是儲存和自訂報表所使用的 Analytics 資料複本，您可以透過篩選資料來執行這些資料。 您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 title: Data Warehouse 概觀
 feature: Data Warehouse
 uuid: 768557dd-1644-4ce6-bfc2-8c46dd6e1cd1
 exl-id: 6a051d53-397b-4a55-9cca-1c83b31c9448
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 100%
 
 ---
 
 # Data Warehouse 概觀
 
-Data Warehouse 是指用於儲存和自訂報表的 Analytics 資料複本，可供您透過篩選資料的方式來執行。您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
+Data Warehouse 是指儲存和自訂報表所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 您可以要求報表依據您的特定問題，從原始資料顯示進階資料關係。Data Warehouse 報表會以電子郵件方式或透過 FTP 傳送，處理時間最長需要 72 小時。處理時間依查詢的複雜度以及請求的資料量而定。
 
 Adobe 僅針對管理員層級使用者，在特定報告套裝上啟用 Data Warehouse(DataWarehouse 可在全域及子報告套裝上啟用，但不可用於統計報告套裝)。管理員可建立存取 Data Warehouse 的群組，然後將非管理員級別的使用者與該群組關聯。
 

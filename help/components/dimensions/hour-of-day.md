@@ -4,7 +4,7 @@ description: 一天中的數值小時，不論哪一天。
 feature: Dimensions
 exl-id: b9361534-7e58-41ed-9a38-c02aeed7a2d8
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 

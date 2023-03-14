@@ -6,7 +6,7 @@ exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
 source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
 workflow-type: tm+mt
 source-wordcount: '702'
-ht-degree: 79%
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 79%
 
 如果 [`trackDownloadLinks`](../config-vars/trackdownloadlinks.md) 或 [`trackExternalLinks`](../config-vars/trackexternallinks.md) 已啟用，AppMeasurement 會自動呼叫 `tl()` 方法，以便傳送下載連結和退出連結追蹤資料。如果您的組織想進一步控制要追蹤的連結與其行為，可以手動呼叫 `tl()` 方法。自訂連結只能手動追蹤。
 
-## 使用Web SDK進行連結跟蹤
+## 使用Web SDK進行連結追蹤
 
-Web SDK不區分頁面視圖調用和連結跟蹤調用；都使用 `sendEvent` 的子菜單。 如果希望Adobe Analytics將給定的XDM事件計為連結跟蹤調用，請確保XDM資料包括或映射到 `web.webInteraction.name`。 `web.webInteraction.URL`, `web.webInteraction.type`。
+Web SDK不會區分頁面檢視呼叫和連結追蹤呼叫；兩者皆使用 `sendEvent` 命令。 如果您想要Adobe Analytics將指定的XDM事件計為連結追蹤呼叫，請確定您的XDM資料包含或已對應至 `web.webInteraction.name`, `web.webInteraction.URL`，和 `web.webInteraction.type`.
 
-* 連結名稱映射到 `web.webInteraction.name`。
-* 將URL映射連結到 `web.webInteraction.URL`。
-* 連結類型映射到 `web.webInteraction.type`。 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
+* 連結名稱對應至 `web.webInteraction.name`.
+* 連結URL對應至 `web.webInteraction.URL`.
+* 連結類型對應至 `web.webInteraction.type`. 有效值包括 `other` (自訂連結)、`download` (下載連結) 和 `exit` (退出連結)。
 
 ```js
 alloy("sendEvent", {
@@ -38,20 +38,20 @@ alloy("sendEvent", {
 });
 ```
 
-## 使用Adobe Analytics擴展的鏈路跟蹤
+## 使用Adobe Analytics擴充功能進行連結追蹤
 
-Adobe Analytics分機具有用於設定鏈路跟蹤呼叫的專用位置。
+Adobe Analytics擴充功能有可設定連結追蹤呼叫的專用位置。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-1. 按一下所需的標記屬性。
-1. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
-1. 下 [!UICONTROL 操作]，按一下所需的操作，或按一下 **&#39;+&#39;** 表徵圖以添加操作。
-1. 設定 [!UICONTROL 擴展] 下拉清單 **[!UICONTROL Adobe Analytics]**&#x200B;的 [!UICONTROL 操作類型] 至 **[!UICONTROL 發送信標]**。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下所需的標籤屬性。
+1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
+1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
+1. 設定 [!UICONTROL 擴充功能] 下拉式清單 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
 1. 按一下 `s.tl()` 選擇鈕。
 
-不能在分析擴展中設定任何可選參數。
+您無法在Analytics擴充功能中設定任何選用引數。
 
-## s.tl()方法和AppMeasurement和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.tl()方法
 
 當您想要傳送追蹤呼叫至 Adobe 時，請呼叫 `s.tl()` 方法。
 

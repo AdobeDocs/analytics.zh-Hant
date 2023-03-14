@@ -5,8 +5,8 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
-workflow-type: ht
-source-wordcount: '3947'
+workflow-type: tm+mt
+source-wordcount: '3944'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
 | 在 Customer Journey Analytics 中也可取得 | 這個修改形式的登陸頁面也能在 CJA 中取得。 |  |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 最上方選單結構 {#top-menu}
 

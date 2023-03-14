@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: b3f71fd2-4081-4eaa-a9d6-4007446c1802
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '110'
 ht-degree: 100%
 
 ---
@@ -18,5 +18,5 @@ ht-degree: 100%
 
 以下主題是[!UICONTROL 「自訂配置」]特有的主題：
 
-* [將量度和維度映射至儲存格](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
+* [將量度和維度對應至儲存格](/help/analyze/report-builder/layout/map-metrics-and-dimensions-to-cells.md)
 * [建立 Microchart](/help/analyze/report-builder/layout/t-create-a-microchart.md)

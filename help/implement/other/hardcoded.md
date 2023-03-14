@@ -4,7 +4,7 @@ description: 使用 HTML 影像標籤實施 Adobe Analytics (硬式編碼影像�
 feature: Implementation Basics
 exl-id: 84247daf-c94b-456c-9824-6d4a0b3e6065
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: 瞭解如何在 Adobe Analytics 中提取即時報表，讓較熟�
 feature: Third-party Integration
 exl-id: 0ca27992-fff8-4bb4-8582-31fd401b23f6
 source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '979'
 ht-degree: 100%
 

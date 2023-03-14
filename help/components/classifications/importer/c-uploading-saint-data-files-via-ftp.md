@@ -4,7 +4,7 @@ title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
 source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 100%
 

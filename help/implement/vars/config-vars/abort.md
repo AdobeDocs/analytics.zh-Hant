@@ -6,31 +6,31 @@ exl-id: e4e25a89-272b-4444-b52b-c7fe2478ff30
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 40%
+ht-degree: 48%
 
 ---
 
-# 中止
+# abort
 
-`abort` 變數是布林值，可防止將下個追蹤呼叫傳送至 Adobe。Web SDK中存在類似功能，允許您返回 `false` 發送XDM事件之前。
+`abort` 變數是布林值，可防止將下個追蹤呼叫傳送至 Adobe。Web SDK中也有類似的功能，可讓您傳回 `false` XDM事件傳送之前。
 
-## 取消使用Web SDK擴展發送事件
+## 使用Web SDK擴充功能取消傳送事件
 
-使用 [!UICONTROL 在事件發送回調之前] 代碼編輯器和返回 `false`。
+使用 [!UICONTROL 在事件傳送回呼之前] 程式碼編輯器與傳回 `false`.
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-1. 按一下所需的標記屬性。
-1. 轉到 [!UICONTROL 擴展] ，然後按一下 **[!UICONTROL 配置]** 按鈕 [!UICONTROL Adobe Experience PlatformWeb SDK]。
-1. 下 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件發送回調代碼之前編輯]** 按鈕
-1. 在代碼編輯器中，在任何要中止將資料發送到邊緣的條件下，放入以下代碼：
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下所需的標籤屬性。
+1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件傳送回呼程式碼之前編輯]** 按鈕。
+1. 在程式碼編輯器中，針對您要中止將資料傳送至Edge的任何條件，放入下列程式碼：
 
 ```js
 return false;
 ```
 
-## 取消手動發送實現Web SDK的事件
+## 取消傳送手動實作Web SDK的事件
 
-使用 `onBeforeEventSend` 回調並返回 `false`。 請參閱 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 的子菜單。
+使用 `onBeforeEventSend` 回撥及傳回 `false`. 請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 如需詳細資訊，請參閱網頁SDK檔案。
 
 ```js
 alloy("configure"), {
@@ -40,11 +40,11 @@ alloy("configure"), {
 }
 ```
 
-## 在Adobe Analytics擴展中使用abort變數
+## 在Adobe Analytics擴充功能中使用abort變數
 
-Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement和Analytics擴展自定義代碼編輯器中的s.abort
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.abort
 
 `s.abort` 變數是布林值。其預設值為 `false`。
 
@@ -59,7 +59,7 @@ s.abort = true;
 >
 >`abort` 變數會在每個追蹤呼叫後重設為 `false`。如需中止相同頁面上的後續追蹤呼叫，請重新將 `abort` 設為 `true`。
 
-例如， `abort` 可在 [`doPlugins()`](../functions/doplugins.md) 函式，該函式是在將映像請求發送到Adobe之前要運行的最後一個函式。 此示例與 `onBeforeEventSend` 使用Web SDK回調。
+例如， `abort` 變數可在 [`doPlugins()`](../functions/doplugins.md) 函式，此函式是在將影像要求傳送至Adobe之前，要執行的最後一個函式。 此範例的運作方式與 `onBeforeEventSend` 使用Web SDK進行回呼。
 
 ```js
 s.doPlugins = function(s) {

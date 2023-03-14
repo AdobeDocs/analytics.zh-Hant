@@ -18,4 +18,4 @@ ht-degree: 92%
 
 此量度會計算 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中有 `scAdd` 存在的點擊次數。
 
-請參閱 [購物車](carts.md) 的雙曲餘切值。
+請參閱 [購物車](carts.md) ，以進行量度比較。

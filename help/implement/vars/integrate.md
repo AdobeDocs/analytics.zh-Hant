@@ -6,7 +6,7 @@ exl-id: 378ba77b-be81-49af-8f36-81c65bd01a53
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 96%
+ht-degree: 98%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 96%
 
 ### 將整合模組放置在實作中
 
-在您的站點上實施整合模組需要訪問Adobe Experience Platform資料收集。 如果您使用舊版 JavaScript 實作，則需要存取貴組織的網站原始碼。
+在您的網站上實作整合模組需要存取Adobe Experience Platform資料收集。 如果您使用舊版 JavaScript 實作，則需要存取貴組織的網站原始碼。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下您要編輯的標記屬性。
 1. 按一下「擴充功能」標記，然後按一下 Adobe Analytics 下方的設定。
 1. 開啟「使用自訂程式碼設定追蹤器」摺疊式功能表，然後按一下「&lt;/> 開啟編輯器」。

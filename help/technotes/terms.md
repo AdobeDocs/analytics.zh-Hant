@@ -4,8 +4,8 @@ description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2554'
+ht-degree: 100%
 
 ---
 

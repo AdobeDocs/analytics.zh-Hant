@@ -5,7 +5,7 @@ title: 資料夾總覽
 feature: Workspace Basics
 exl-id: 68281840-d9b7-42e9-9543-4aeb7f0bdef7
 source-git-commit: 00c52c345be15522cd8f2aa30ab214ec05dc6575
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 100%
 

@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 13ba343d-bb17-455e-a078-1036d81383a1
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '90'
 ht-degree: 100%
 
 ---
@@ -25,5 +25,4 @@ ht-degree: 100%
 >* **編輯：**&#x200B;下載及開啟活頁簿以供編輯。如果要上傳先前為編輯而下載的活頁簿，您必須以手動方式進行操作。
 >* **刪除：**&#x200B;讓您刪除先前上傳的活頁簿。您必須是活頁簿的擁有者才能刪除活頁簿。
 >
-
 

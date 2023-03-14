@@ -1,18 +1,18 @@
 ---
 description: 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
-title: Report Builder 的疑難排解和最佳做法
+title: Report Builder 的疑難排解和最佳作法
 uuid: 36a08143-dc78-40f5-9ce9-7d16980aa27b
 feature: Report Builder
 role: User, Admin
 exl-id: 41a640ce-2316-439b-b3ba-f0bace9af268
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1401'
+workflow-type: tm+mt
+source-wordcount: '1399'
 ht-degree: 100%
 
 ---
 
-# Report Builder 的疑難排解和最佳做法
+# Report Builder 的疑難排解和最佳作法
 
 您可用來最佳化 Report Builder 遞送的方式，以及偶而會發生的錯誤訊息清單。
 

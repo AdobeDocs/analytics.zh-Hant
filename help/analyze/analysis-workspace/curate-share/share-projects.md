@@ -136,7 +136,7 @@ ht-degree: 70%
 
 1. 選擇是否啟用下列安全性選項（此選項可由您的Analytics管理員控制）:
 
-   * **[!UICONTROL 需要Experience Cloud驗證]:**
+   * **[!UICONTROL 需要 Experience Cloud 驗證]:**
 
       啟用此選項時，只有可登入建立您共用之專案的Adobe Experience Cloud組織的使用者才能使用此連結。
 

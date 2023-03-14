@@ -5,7 +5,7 @@ title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 * Adobe [!DNL Analytics] Foundation：計算
 * [Adobe Analytics Select](https://www.adobe.com/tw/data-analytics-cloud/analytics/select.html)：計算 + 進階計算
-* [Adobe Analytics Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics/prime.html)：計算 + 進階計算
+* [Adobe Analytics Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/prime.html)：計算 + 進階計算
 * [Adobe Analytics Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics/ultimate.html)：計算 + 進階計算
 
 以下為計算量度與進階計算量度功能比較：
@@ -48,7 +48,7 @@ ht-degree: 100%
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (僅限進階計算量度) 納入統計函數以協助您說明資料。例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
+* (僅限進階計算量度) 納入統計函數以協助您說明資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 

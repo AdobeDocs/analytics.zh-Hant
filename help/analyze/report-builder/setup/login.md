@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d607ef04-d546-4ebb-9f27-51349235c703
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 49%
+source-wordcount: '209'
+ht-degree: 48%
 
 ---
 
@@ -37,8 +37,8 @@ Experience Cloud 登入可讓您使用 Enterprise ID (電子郵件與密碼) 來
 1. 在 Excel 中按一下&#x200B;**[!UICONTROL 「增益集」]**。
 1. 按一下&#x200B;**[!UICONTROL 登入]**。其他讓您登入的動作包括：
 
-   * 按一下&#x200B;**[!UICONTROL 「建立」]**。
-   * [在「請求管理員」中選取請求](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)，然後按一下「 **** 新增 **[!UICONTROL 管理]**」。
+   * 按一下 **[!UICONTROL 建立]**。
+   * [在「請求管理員」中選擇請求](/help/analyze/report-builder/manage-requests/r-arb-manage-requests.md)，然後按一下 **[!UICONTROL 新增]** 或 **[!UICONTROL 管理]**.
    * 在Excel中按兩下請求。
 
 1. 填寫[!UICONTROL 「登入」]頁面中的欄位，然後按一下&#x200B;**[!UICONTROL 「確定」]**。

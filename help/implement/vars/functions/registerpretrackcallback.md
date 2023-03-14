@@ -6,11 +6,11 @@ exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
-# 註冊PreTrackCallback
+# registerPreTrackCallback
 
 `registerPreTrackCallback` 變數可讓您的組織在影像要求 URL 編譯完成但尚未傳送時，連結 JavaScript 函數。您可以使用此變數將 AppMeasurement 收集的資料傳送至合作夥伴或內部基礎架構。
 
@@ -24,19 +24,19 @@ ht-degree: 55%
 >
 >對於在 `registerPreTrackCallback` 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用Web SDK擴展進行預跟蹤回調
+## 使用Web SDK擴充功能預先追蹤回呼
 
-Web SDK在編譯資料後但在將其發送到Adobe之前無法掛接函式。 但是，您可以 `onBeforeEventSend` 在發送資料之前註冊要執行的函式。
+Web SDK無法在資料編譯後，但在將其傳送至Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 登錄函式以在發送資料之前執行。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-1. 按一下所需的標記屬性。
-1. 轉到 [!UICONTROL 擴展] ，然後按一下 **[!UICONTROL 配置]** 按鈕 [!UICONTROL Adobe Experience PlatformWeb SDK]。
-1. 下 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件發送回調代碼之前編輯]** 按鈕
-1. 將所需代碼放入編輯器中。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下所需的標籤屬性。
+1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件傳送回呼程式碼之前編輯]** 按鈕。
+1. 將所需的程式碼放入編輯器中。
 
-## 手動實現Web SDK的預跟蹤回調
+## 手動實作Web SDK的預先追蹤回呼
 
-Web SDK在編譯資料後但在將其發送到Adobe之前無法掛接函式。 但是，您可以 `onBeforeEventSend` 在資料發送前註冊要執行的函式，類似於 `doPlugins`。 請參閱 [全局修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 的子菜單。
+Web SDK無法在資料編譯後，但在將其傳送至Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 在資料傳送前註冊要執行的函式，類似於 `doPlugins`. 請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 如需詳細資訊，請參閱網頁SDK檔案。
 
 ```js
 // Set the trackingCode XDM field to "New value"
@@ -47,11 +47,11 @@ alloy("configure", {
 })
 ```
 
-## 使用Adobe Analytics分機的預跟蹤回調
+## 使用Adobe Analytics擴充功能預先追蹤回呼
 
-Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement中的s.registerPreTrackCallback和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.registerPreTrackCallback
 
 `s.registerPreTrackCallback` 是能將函數當作唯一引數的函數。巢狀函數會在影像要求傳送之前執行。
 

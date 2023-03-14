@@ -19,4 +19,4 @@ ht-degree: 88%
 此量度會計算符合下列&#x200B;**任一條件**&#x200B;的點擊次數：
 
 * 值 `prodView` 存在於 [`events`](/help/implement/vars/page-vars/events/events-overview.md) 變數中；或
-* 的 [`products`](/help/implement/vars/page-vars/products.md) 變數已設定， `events` 變數為空。
+* 此 [`products`](/help/implement/vars/page-vars/products.md) 變數已設定，且 `events` 變數為空。

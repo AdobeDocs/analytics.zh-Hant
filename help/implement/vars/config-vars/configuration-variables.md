@@ -6,7 +6,7 @@ exl-id: 3f017a94-b71d-47da-8ab4-daf32475ed34
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '124'
-ht-degree: 66%
+ht-degree: 76%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 66%
 
 ## 配置設定變數
 
-在使用Web SDK擴展或分析擴展的實現中，配置變數通常在擴展的設定中找到：
+在使用Web SDK擴充功能或Analytics擴充功能的實作中，設定變數通常可在擴充功能的設定中找到：
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-1. 按一下所需的標記屬性。
-1. 按一下 [!UICONTROL 擴展] ，然後按一下 [!UICONTROL 配置] 在分機號下。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下所需的標籤屬性。
+1. 按一下 [!UICONTROL 擴充功能] ，然後按一下 [!UICONTROL 設定] 在擴充功能下。
 
 在使用 `AppMeasurement.js` 的 JavaScript 實施中，通常會在 JS 檔案的頂端對配置設定變數。
 

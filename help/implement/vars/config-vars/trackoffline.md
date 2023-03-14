@@ -6,11 +6,11 @@ exl-id: 23a17ddc-01e6-42b6-81b0-c60f15a07231
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
-# 跟蹤離線
+# trackOffline
 
 離線追蹤是在 Adobe Analytics 中收集資料的選用方式。如果訪客中斷網際網路連線但繼續瀏覽您的網站，點擊會儲存在離線佇列中，直到裝置重新連接網際網路為止。離線追蹤大多用於行動應用程式。
 
@@ -28,15 +28,15 @@ ht-degree: 83%
    * 如果無法連接 Adobe 資料收集伺服器，點擊會新增到裝置上的佇列。
    * 如果它可以連接 Adobe 資料收集伺服器，便會傳送裝置離線時的點擊和點擊佇列。
 
-## 使用Web SDK進行離線跟蹤
+## 使用Web SDK進行離線追蹤
 
-Web SDK不支援離線跟蹤。
+Web SDK不支援離線追蹤。
 
-## 使用Adobe Analytics分機進行離線跟蹤
+## 使用Adobe Analytics擴充功能進行離線追蹤
 
-Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement中的s.trackOffline和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.trackOffline
 
 `s.trackOffline` 是布林值，可啟用或停用離線追蹤。其預設值為 `false`。如果您要啟用離線追蹤，請將此值設定為 `true`。
 

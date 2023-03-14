@@ -5,8 +5,8 @@ feature: Components
 role: Admin
 source-git-commit: 4e471b5f4376a9cdc3ab014139221b382b3b3c26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '221'
+ht-degree: 100%
 
 ---
 

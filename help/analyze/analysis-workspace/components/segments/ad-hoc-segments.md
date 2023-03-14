@@ -1,6 +1,6 @@
 ---
-description: 在Analysis Workspace使用臨時段。
-title: 即席段
+description: 在Analysis Workspace中使用隨選區段。
+title: 臨時區段
 feature: Segmentation
 role: User, Admin
 exl-id: 1c189abc-ab9f-413c-9be6-0d2fc457230e
@@ -11,15 +11,15 @@ ht-degree: 77%
 
 ---
 
-# 臨時項目段
+# 臨機專案區段
 
-即席項目段允許您直接將任何元件拖放到面板放置區中以建立段。 該區段成為目前專案的本機[專案層級區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant?#what-are-project-only-segments%3F)。
+臨機專案區段可讓您直接將任何元件拖放至面板放置區以建立區段。 該區段成為目前專案的本機[專案層級區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant?#what-are-project-only-segments%3F)。
 
-下面是有關建立即席項目段的視頻：
+以下是關於建立臨機專案區段的影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/23978/?quality=12)
 
-1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖放至面板頂端的區段托放區。元件類型將自動轉換為即席段或 [快速段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant) 。
+1. 將任何元件類型 (維度、維度項目、事件、量度、區段、區段範本、日期範圍) 拖放至面板頂端的區段托放區。元件類型會自動轉換為臨機區段或 [快速區段](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/segments/quick-segments.html?lang=zh-Hant) 如果相容。
 以下是如何為 Twitter 反向連結網域建立區段的範例：
 
    ![](assets/ad-hoc1.png)
@@ -37,9 +37,9 @@ ht-degree: 77%
 
 若需比較您可以在專案內建立和套用的不同區段，請至[這裡](/help/analyze/analysis-workspace/components/segments/t-freeform-project-segment.md)。
 
-## 保存即席段 {#ad-hoc-save}
+## 儲存隨選區段 {#ad-hoc-save}
 
-通過保存特定段，可以將其提供給其他項目。
+可儲存臨機區段供其他專案使用。
 
 1. 將滑鼠停留在放置區域中，並按一下「i」圖示。
 1. 按一下編輯鉛筆，即可前往區段產生器。

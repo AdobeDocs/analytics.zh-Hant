@@ -3,7 +3,7 @@ title: Analytics 技術備忘稿
 description: 本指南主要針對不屬於特定分析工具或元件之主題，提供實用資訊。
 exl-id: 4cb084f8-5cec-4c46-a584-614217d42431
 source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ title: 啟用 Advertising Analytics 的報表套裝
 feature: Advertising Analytics
 exl-id: 3a467e41-2755-46c1-b077-b42946562e6b
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 100%
 

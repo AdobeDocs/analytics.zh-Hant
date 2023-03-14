@@ -6,7 +6,7 @@ exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '631'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 
 在驗證過您可看到資料後，您可以將實作推送至網站的使用中版本。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
 1. 按一下「**[!UICONTROL 發佈]**」索引標籤，然後在開發欄中找出您的資料庫。
 1. 按一下資料庫上的下拉式清單，然後選取「**[!UICONTROL 送交審核]**」。 按一下強制回應視窗中的「**[!UICONTROL 提交]**」。

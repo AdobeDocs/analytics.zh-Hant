@@ -3,7 +3,7 @@ title: 比較實施方法
 description: 查看發送資料至 Adobe Analytics 的每種方法優點。
 source-git-commit: 2e69321404237213c6929f3fb0c330575d8a90db
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '291'
 ht-degree: 76%
 
 ---
@@ -20,4 +20,4 @@ ht-degree: 76%
 | 如何處理 A4T | A4T 呼叫包含在傳送至 Adobe 的點擊中 | A4T 呼叫包含在傳送至 Adobe 的點擊中 | A4T 呼叫是以單獨點擊發送 | A4T 呼叫是以單獨點擊發送 |
 | 上下文資料 | 使用 `s.contextData`. | 使用 `s.contextData` 在自訂程式碼區塊中 | 所有未映射的欄位都會自動以 `a.x.*` 上下文資料變數。 | 所有未映射的欄位都會自動以 `a.x.*` 上下文資料變數。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

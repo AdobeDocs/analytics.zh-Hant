@@ -4,7 +4,7 @@ description: 使用 linkInternalFilters 變數來協助自動退出連結追蹤�
 feature: Variables
 exl-id: eaa6e64a-ebd5-4e6b-913f-1a6c315579c8
 source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 100%
 

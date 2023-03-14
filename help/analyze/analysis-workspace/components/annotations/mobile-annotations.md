@@ -45,7 +45,7 @@ ht-degree: 100%
 
 在工作區建立註解時，需選擇註解顏色。灰色註解代表註解不只一個。![](assets/gray-annotations1.png)![](assets/gray-annotations2.png)
 
-## 檢視圖表註解
+## 檢檢視表註解
 
 | 日期 | 外觀 |
 | --- | --- |

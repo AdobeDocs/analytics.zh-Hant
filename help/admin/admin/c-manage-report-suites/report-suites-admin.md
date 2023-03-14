@@ -4,7 +4,7 @@ title: 報表套裝管理員
 feature: Report Suite Settings
 exl-id: c36e5378-c8a7-4f18-b143-8ce862638c76
 source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 100%
 

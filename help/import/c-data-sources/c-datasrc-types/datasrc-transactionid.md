@@ -4,7 +4,7 @@ description: 了解使用交易 ID 資料來源的一般工作流程。
 feature: Data Sources
 exl-id: 5f26b15c-8d9c-46d5-860f-13fdfa21af2e
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 100%
 

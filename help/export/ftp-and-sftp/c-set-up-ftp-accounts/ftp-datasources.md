@@ -11,7 +11,7 @@ ht-degree: 99%
 
 ---
 
-# 基於FTP的資料源
+# FTP型資料來源
 
 您可以使用 Analytics 建立及管理 FTP 型資料來源，其會利用 FTP 檔案轉移，將離線或歷史資料匯入 Experience Cloud。
 

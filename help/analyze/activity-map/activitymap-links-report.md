@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: d17b1bde-1785-461d-a1d8-66bd9739fc78
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '755'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 100%
    <td colname="col2"> 代表連結所在的頁面中地區。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 可見性 </td> 
+   <td colname="col1"> 可見度 </td> 
    <td colname="col2">表示連結的可見性狀態。可能有兩個值： 
     <ul id="ul_BABCC0F64145407C9D439150A6898E6D">
      <li id="li_9AF0479BDCEB4A44A37292FAABFA83A5"><b>隱藏</b>：連結目前位在頁面中，但未顯示給一般使用者 (類似導覽功能表中的子功能表，只有在使用者將滑鼠暫留到父功能表頂端時才會顯示出來) </li>
@@ -104,7 +104,7 @@ ht-degree: 100%
    <td colname="col2"> 代表連結所在的頁面中地區。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 可見性 </td> 
+   <td colname="col1"> 可見度 </td> 
    <td colname="col2">表示連結的可見性狀態。可能有兩個值： 
     <ul id="ul_B10C55ED4D3C4CF99506DC467E2E7CFB">
      <li id="li_EA646722A51041CC9E62C56DEF92C81F">隱藏：連結目前位在頁面中，但未顯示給您看到 (例如在頁面載入後才會顯示的連結)。 </li>

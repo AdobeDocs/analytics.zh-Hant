@@ -2,7 +2,7 @@
 title: 使用 Adobe Experience Platform Edge 實作 Adobe Analytics
 description: 在 Adobe Analytics 中使用 Experience Platform 的 XDM 資料 - 總覽
 source-git-commit: 97e2cefbd8959f088d5f6e9923cad47b5414f38b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 100%
 

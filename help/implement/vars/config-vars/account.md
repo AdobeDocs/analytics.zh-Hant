@@ -10,7 +10,7 @@ ht-degree: 47%
 
 ---
 
-# 帳戶
+# account
 
 >[!IMPORTANT]
 >
@@ -18,6 +18,6 @@ ht-degree: 47%
 
 在舊版 Adobe Analytics 中，`account` 變數會決定您要將資料傳送至哪個報表套裝。必須有報表套裝 ID 才能將資料傳送至 Adobe Analytics。
 
-* 如果使用Web SDK，則報告套件位於Web SDK向其發送資料的Datastream中的Adobe Analytics服務設定中。
-* 如果使用Adobe Analytics分機，則報告套件位於 [!UICONTROL 庫管理] 配置Adobe Analytics分機時的手風琴。
-* 如果使用 [`s_gi()`](../functions/s-gi.md) 函式以實例化Analytics跟蹤對象，該函式中已存在作為必需參數的報表套件ID。
+* 如果您使用Web SDK，報表套裝位於Web SDK所傳送資料所在之資料流的Adobe Analytics服務設定中。
+* 如果您使用Adobe Analytics擴充功能，報表套裝位於 [!UICONTROL 程式庫管理] 設定Adobe Analytics擴充功能時設定折疊式功能表。
+* 如果您使用 [`s_gi()`](../functions/s-gi.md) 函式來實例化Analytics追蹤物件，報表套裝ID已作為函式中的必要引數存在。

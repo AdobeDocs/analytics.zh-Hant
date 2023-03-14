@@ -29,7 +29,7 @@ ht-degree: 92%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>1. 報表套裝並未對應至登入使用者的 Experience Cloud 組織 ID。 </p> </td> 
-   <td colname="col2"> <p>聯繫「客戶服務」，將報表套件映射到組織ID。</p> </td> 
+   <td colname="col2"> <p>請連絡客戶服務以將報表套裝對應至組織ID。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>2. 尚未針對 Advertising Analytics 報表佈建報表套裝。 </p> </td> 

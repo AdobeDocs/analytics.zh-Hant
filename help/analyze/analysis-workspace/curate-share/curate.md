@@ -6,13 +6,13 @@ feature: Curate and Share
 role: User, Admin
 exl-id: 5e23be83-586a-4543-9be9-65c631b8b0b7
 source-git-commit: b31daf32f6101ffcbf68865f768d386cceffbd98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 100%
 
 ---
 
-# 監管專案
+# 組織專案
 
 管監功能可襄您在共用專案前先限制元件 (維度、量度、區段、日期範圍)。收件者在開啟專案時，將會看到您為其組織的限定元件集。組織是可選作業，但建議您在共用專案前先執行此步驟。
 

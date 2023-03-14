@@ -3,7 +3,7 @@ description: 您可以在 Adobe Analytics 中檢視 Advertising Analytics 資料
 title: 設定 Advertising Analytics
 feature: Admin Tools
 source-git-commit: 47ba1b9f7e03628976962b648a0faf8f6c59e82c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '74'
 ht-degree: 100%
 

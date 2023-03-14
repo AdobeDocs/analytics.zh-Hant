@@ -14,11 +14,11 @@ ht-degree: 70%
 
 Cookie可以儲存和擷取相同網域上各頁面的資訊。使用 `Util.cookieWrite()` 方法可設定 Cookie 的值。您可以使用 [`Util.cookieRead()`](util-cookieread.md) 方法來擷取以 `Util.cookieWrite()` 設定的值。
 
-## 使用Adobe Analytics擴展和Web SDK擴展設定Cookie
+## 使用Adobe Analytics擴充功能和Web SDK擴充功能設定Cookie
 
 Adobe Experience Platform資料收集不提供在介面中設定Cookie的功能。
 
-## AppMeasurement中的s.Util.cookieWrite()和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.Util.cookieWrite()
 
 呼叫 `s.Util.cookieWrite()` 方法將 Cookie 設定為所需的值。
 

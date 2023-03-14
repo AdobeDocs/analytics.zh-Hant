@@ -6,7 +6,7 @@ exl-id: 324943db-cb0b-40b1-8884-56bb3f608278
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 95%
 
 標記可在部署程式碼時配合許多組織工作流程的需求。 請按照下列步驟，為 Analytics 實作建立最少的必要元件。 您身為標記管理員，可以在組織內工作，以建立用來部署 Adobe 解決方案的正確工作流程。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下您打算在您的網站上實作的標記屬性。
 3. 按一下&#x200B;**[!UICONTROL 主機]**，然後按一下&#x200B;**[!UICONTROL 新增主機]**。
 4. 將其命名`"Adobe managed"`，並在類型下拉式選單中選取&#x200B;**[!UICONTROL 由 Adobe 管理]**。按一下「儲存」。
@@ -36,7 +36,7 @@ ht-degree: 95%
 
 儘管目前所做的所有變更和設定，但其實尚未發佈任何程式碼。建立資料庫 (大略轉譯為變更集合) 可讓您發佈要用於網站上的程式碼。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下您打算在您的網站上實作的標記屬性。
 3. 按一下&#x200B;**[!UICONTROL 發佈流程]**&#x200B;索引標籤，然後按一下&#x200B;**[!UICONTROL 新增資料庫]**。如需有關本頁面的更多資訊，請參閱標記文件中的[發佈概觀](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant)。
 4. 為資料庫命名`'Initial changes'`，並選取您的開發環境。

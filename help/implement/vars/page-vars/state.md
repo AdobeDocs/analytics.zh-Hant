@@ -4,7 +4,7 @@ description: 在 Reports and Analytics 中填入「訪客州報表」。
 feature: Variables
 exl-id: a6e3f30b-b5d1-48f8-8961-8e9c6d4d29da
 source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
 
@@ -23,8 +23,8 @@ ht-degree: 100%
 您可以在設定 Analytics 擴充功能 (全域變數) 時或是在規則底下設定狀態。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-2. 按一下所需的標記屬性。
-3. 前往[!UICONTROL 規則]標記，然後按一下所需的規則 (或建立規則)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「州」]區段。

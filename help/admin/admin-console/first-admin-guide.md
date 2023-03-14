@@ -1,26 +1,26 @@
 ---
-title: Adobe Analytics第一份管理指南
+title: Adobe Analytics 的第一個管理指南
 description: 了解第一個管理員布建程式的發生方式及後續步驟
 exl-id: fbbbd335-0d22-473e-adef-f92f8eab7bf0
 feature: Admin Tools
 source-git-commit: 7cde90a15dc97468a70f8120bec46915eab7c1bb
 workflow-type: tm+mt
 source-wordcount: '185'
-ht-degree: 19%
+ht-degree: 45%
 
 ---
 
-# Adobe Analytics第一份管理指南
+# Adobe Analytics 的第一個管理指南
 
-在Adobe Analytics中，必須先將使用者指派為Experience Cloud中的第一個管理員，才能為任何使用者指派角色。 然後，第一位管理員就可以將組織中的使用者布建為其他關鍵角色。
+在 Adobe Analytics 中為任何使用者指派角色之前，必須將使用者指派為 Experience Cloud 中的第一位管理員。 然後，第一位管理員就可以將組織中的使用者布建為其他關鍵角色。
 
 第一位管理員是讓組織其他成員開始使用每個Experience Cloud解決方案(包括Adobe Analytics)的起點。
 
 ## 第一個管理員的布建程式
 
-簽訂合同後：
+簽訂合約以後:
 
-1. Adobe的布建團隊準備建立帳戶。
+1. Adobe 的佈建團隊會做好供使用者建立帳戶的準備。
 
 1. 第一位管理員會在合約開始日期之前收到含有登入憑證的電子郵件。
 

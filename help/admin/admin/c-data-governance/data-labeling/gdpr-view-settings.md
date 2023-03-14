@@ -5,7 +5,7 @@ feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
 source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
 | **[!UICONTROL 命名空間]** | 當您將變數標示為 ID-DEVICE 或 ID-PERSON 時，系統會提示您提供命名空間。您可以使用先前定義的命名空間或定義新的命名空間。[了解更多](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/data-labels/gdpr-labels.html?lang=zh-Hant#provide-namespace) |
 | **[!UICONTROL 類別]** | 參考元件類型，如標準元件、轉換變數等。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 將隱私權標籤複製到報表套裝  {#copy-to-rs}
 

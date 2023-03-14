@@ -4,7 +4,7 @@ description: 最新接管現有 Adobe Analytics 實施作業的管理員指示�
 feature: Implementation Basics
 exl-id: 4cf804f2-18a8-4be4-a18c-7ce663b8d145
 source-git-commit: b3c74782ef6183fa63674b98e4c0fc39fc09441b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
 

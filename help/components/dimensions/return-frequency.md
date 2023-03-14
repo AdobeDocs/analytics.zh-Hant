@@ -4,7 +4,7 @@ description: 目前造訪與上次造訪之間的分段時間量。
 feature: Dimensions
 exl-id: 8ec31e17-a57d-416f-b471-c2c37a98d134
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 100%
 

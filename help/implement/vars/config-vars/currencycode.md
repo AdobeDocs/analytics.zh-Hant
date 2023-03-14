@@ -4,7 +4,7 @@ description: 針對電子商務網站，設定頁面交易所使用的貨幣。
 feature: Variables
 exl-id: 3332c366-c472-4778-96c8-ef0aa756cca8
 source-git-commit: beef45403f3c3eb7ac423ca8e0b6db0143ff1b9b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 「貨幣代碼」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 一般]」摺疊式功能表底下的欄位。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標記屬性。
+1. 按一下所需的標籤屬性。
 1. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 1. 展開[!UICONTROL 一般]摺疊式功能表，便會顯示[!UICONTROL 貨幣代碼]欄位。
 

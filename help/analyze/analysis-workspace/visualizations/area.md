@@ -1,5 +1,5 @@
 ---
-description: 區域可視化類似於線形圖，但線上下方有彩色區域。
+description: 區域視覺效果類似折線圖，但折線下方有一塊彩色區域。
 title: 區域圖和堆疊區域圖
 uuid: 27f1bfd0-bf64-4424-8827-f7127d239762
 feature: Visualizations

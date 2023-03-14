@@ -6,11 +6,11 @@ exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
 source-git-commit: 5b426c0cc6f0a30c167f35d96fa1498ac0961c3e
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
-# 產品
+# products
 
 `products` 變數會追蹤產品與相連結的屬性。此變數通常會設定在個別產品頁面、購物車頁面和購買確認頁面上。其為多值變數，這表示您可以在同一次點擊中傳送多個產品，而 Adobe 會將值解析為個別的維度項目。
 
@@ -37,8 +37,8 @@ ht-degree: 71%
 
 Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；不過，有多個協力廠商擴充功能可提供協助。
 
-1. 登入 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用您的AdobeID憑證。
-2. 按一下所需的標記屬性。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]檢視所有可用的擴充功能。
 4. 搜尋 &quot;product&quot; 一字，幾個可用來協助設定此變數的擴充功能隨即會顯示。
 

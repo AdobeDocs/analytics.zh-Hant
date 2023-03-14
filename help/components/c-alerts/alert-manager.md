@@ -4,7 +4,7 @@ title: 警報管理器概觀
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 100%
 

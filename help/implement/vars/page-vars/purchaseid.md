@@ -6,11 +6,11 @@ exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 80%
+ht-degree: 87%
 
 ---
 
-# 採購ID
+# purchaseID
 
 `purchaseID` 變數有助於防止包含相同購買操作的點擊導致報表不實膨脹。例如，如果訪客到達您的購買確認頁面，您通常會將交易產生的收入相關資料傳送至 Adobe。如果使用者重新整理此頁面多次，或是將頁面加入書籤以便稍後瀏覽，這些點擊可能會導致報表不實膨脹。當有多個點擊具有相同的購買 ID 時，`purchaseID` 變數會去除重複的量度。
 
@@ -18,15 +18,15 @@ ht-degree: 80%
 
 購買 ID 會套用至所有訪客，而且不會過期。如果某位訪客設定了指定的購買 ID，另一位訪客在一年後設定了同一個購買 ID，則第二次購買的重複資料會遭到去除。
 
-## 使用Web SDK的採購ID
+## 使用Web SDK的購買ID
 
-採購ID為 [映射為Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在XDM欄位下 `commerce.order.purchaseID`。
+購買ID為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `commerce.order.purchaseID`.
 
-## 使用Adobe Analytics擴展的採購ID
+## 使用Adobe Analytics擴充功能的購買ID
 
-Adobe Analytics擴展中沒有專用欄位可使用此變數。 請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
-## AppMeasurement中的s.purchaseID和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.purchaseID
 
 `s.purchaseID` 變數是包含唯一購買識別碼的字串。它設定在與購買事件相同的點擊上。填入此變數時，僅限使用英數字元。
 

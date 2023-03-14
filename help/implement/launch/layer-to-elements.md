@@ -4,7 +4,7 @@ description: 設定標記以從資料層讀取。
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 [資料元素](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/data-elements.html?lang=zh-Hant)是 Adobe Experience Platform 資料彙集中的元件，可在該工具中使用。您可以使用資料元素，在 Adobe Analytics 擴充功能中指派變數值。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-1. 按一下所需的標記屬性。
+1. 按一下所需的標籤屬性。
 1. 按一下&#x200B;**[!UICONTROL 「資料元素」]**&#x200B;標記，然後按一下&#x200B;**[!UICONTROL 「新增資料元素」]**。
 
    ![建立資料元素](assets/createelement.png)

@@ -4,7 +4,7 @@ description: 報告造訪深度的造訪相關維度。
 feature: Dimensions
 exl-id: 3e9aca08-2255-46ca-9949-77334ee7120e
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 100%
 

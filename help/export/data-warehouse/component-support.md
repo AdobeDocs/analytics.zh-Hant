@@ -4,7 +4,7 @@ description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
 source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 100%
 

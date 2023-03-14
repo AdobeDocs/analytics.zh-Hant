@@ -4,7 +4,7 @@ description: 生命週期結束的原因，以及大量資料插入 API 與完�
 feature: Data Sources
 exl-id: 24a44b7a-64fd-4a99-975f-4887f4638812
 source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1217'
 ht-degree: 100%
 

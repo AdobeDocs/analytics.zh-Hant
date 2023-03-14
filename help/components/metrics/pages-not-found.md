@@ -4,7 +4,7 @@ description: 包含錯誤的點擊次數。
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
 source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 100%
 

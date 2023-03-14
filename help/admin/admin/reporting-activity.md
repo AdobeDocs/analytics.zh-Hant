@@ -5,8 +5,8 @@ feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
 source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
-workflow-type: ht
-source-wordcount: '962'
+workflow-type: tm+mt
+source-wordcount: '950'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 100%
 | **[!UICONTROL 使用容量]** | 以百分比即時顯示使用了多少報告套裝的報告容量。 |
 | **[!UICONTROL 狀態]** | 四個可能狀態指標： <ul><li>**紅色 - [!UICONTROL 滿容量]**：報告套裝的報告容量已達上限。(100%) </li><li>**黃色 - [!UICONTROL 接近容量]**：此報告套裝即將達到其容量上限。(90% - 99%)</li><li>**綠色 - [!UICONTROL 良好]**：報告容量仍很多可用。(0% - 89%)</li><li>**灰色 - [!UICONTROL 狀態待定/未啟用]**：報告容量不可用。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 其他報告活動動作
 
@@ -94,7 +94,7 @@ ht-degree: 100%
 | [!UICONTROL 平均等待時間] | 所有正在執行之查詢的平均等待時間。 |
 | [!UICONTROL 使用容量] | 此報告套裝的目前使用容量。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### 表格
 
@@ -114,7 +114,7 @@ ht-degree: 100%
 | [!UICONTROL 區段] | 有多少區段套用至此請求。這增加了請求的複雜性。 |
 | [!UICONTROL 狀態] | 狀態指示器： <ul><li>**執行中**：請求目前正處理中。</li><li>**擱置中**：請求正等待處理中。</li></ul> |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 取消報告請求
 
@@ -139,4 +139,4 @@ ht-degree: 100%
 | --- | --- |
 | 我可以購買額外的報告容量嗎？ | 此容量將在不久的未來提供。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

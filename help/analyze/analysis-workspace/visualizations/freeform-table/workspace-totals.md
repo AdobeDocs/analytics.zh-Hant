@@ -1,17 +1,17 @@
 ---
 description: Analysis Workspace 總計的計算方式。
 title: Analysis Workspace 總計
-feature: 自由表格
+feature: Freeform Tables
 role: User, Admin
 exl-id: 883c3e44-4139-46a1-a261-e11841312465
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '510'
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
 
 ---
 
-# Workspace 總計
+# 工作區總計
 
 在自由表格中，每個劃分層級都會顯示總列數，當中會顯示兩個總計數字：
 

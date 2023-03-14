@@ -4,7 +4,7 @@ description: 填入「追蹤程式碼」維度。
 feature: Variables
 exl-id: 2278d2b8-8d60-4634-a176-f027a237bc12
 source-git-commit: e46b15eedda78303e6e29faceea6db8483eee277
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 100%
 

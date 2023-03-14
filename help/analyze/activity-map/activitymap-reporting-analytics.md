@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 8d7be302-bdfc-4370-b8f0-ab1af1e439ca
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '265'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 92%
 在使用者可以報告 Activity Map 維度前，您必須先以管理員身分
 
 * [新增使用者至 Activity Map 存取群組](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。
-* 將您希望存取的報表套裝新增至此群組。導覽至&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL Activity Map存取]** > **[!UICONTROL 編輯]**。
+* 將您希望存取的報表套裝新增至此群組。導覽至 **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 使用者管理]** > **[!UICONTROL 群組]** > **[!UICONTROL Activity Map存取]** > **[!UICONTROL 編輯]**.
 * 自訂使用者存取維度的權限。請參閱以下小節。
 
 ## Analytics Activity Map 維度 {#section_9395A7A5585F4ABE9F7C6CD0124B02A5}

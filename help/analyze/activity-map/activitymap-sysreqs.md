@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: a0bed55f-042c-4963-b7e5-7a5369bba48e
 source-git-commit: 1a49c2a6d90fc670bd0646d6d40738a87b74b8eb
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 62%
+source-wordcount: '109'
+ht-degree: 61%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 62%
 |--- |--- |
 | Internet Explorer | 最新版本 |
 | Firefox | 最新版本 |
-| Chrome | 最新版本.注意： Activity MapChrome外掛程式目前是「開發人員模式」外掛程式。 當您啟動此外掛程式時，畫面會顯示訊息，鼓勵您停用開發人員模式擴充功能。 每次啟動外掛程式時，都會顯示此訊息。 |
+| Chrome | 最新版本.注意：Activity MapChrome外掛程式目前是「開發人員模式」外掛程式。 當您啟動此外掛程式時，畫面會顯示訊息，鼓勵您停用開發人員模式擴充功能。 每次啟動外掛程式時，都會顯示此訊息。 |
 
 >[!NOTE]
 >

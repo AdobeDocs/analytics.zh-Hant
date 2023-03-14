@@ -4,7 +4,7 @@ description: Analytics 維度與報表的參考資料。
 feature: Dimensions
 exl-id: 1884bc20-b04d-4f9a-b057-2b2fbe53190d
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '985'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 | SC-TnT | `tntbase` |
 | 搜尋引擎 | `searchengine` |
 | 搜尋關鍵字 | `searchenginekeyword` |
-| 搜尋引擎- 免費 | `searchenginenatural` |
+| 搜尋引擎 - 免費 | `searchenginenatural` |
 | 搜尋引擎 - 付費 | `searchenginepaid` |
 | 搜尋關鍵字 - 免費 | `searchenginenaturalkeyword` |
 | 搜尋關鍵字 - 付費 | `searchenginepaidkeyword` |

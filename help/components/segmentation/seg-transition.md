@@ -5,7 +5,7 @@ feature: Segmentation
 exl-id: 316e2a2e-55d3-4c23-9985-9a6d90390e86
 source-git-commit: 83542d77b26e5fdf7545e4deced35da84263848b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1443'
 ht-degree: 91%
 
 ---
@@ -144,7 +144,7 @@ ht-degree: 91%
 | 瀏覽深度 | 路徑長度 | - |
 | 郵遞區號 | ZIP/郵遞區號 | - |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 對於具有已知值之字串式維度的變更 {#string-based-dims}
 

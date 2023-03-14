@@ -5,8 +5,8 @@ feature: Marketing Channels
 exl-id: 3b3bcf9b-eee7-4d84-9d4a-e4a24e0cdd4d
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '253'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 >
 >為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
->Analytics管理員可管理其組織的行銷管道，如 [管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
 以下為使用「行銷管道」的各種功能時，在 [Admin Console](https://adminconsole.adobe.com/) 中所需的報表套裝工具權限。
 

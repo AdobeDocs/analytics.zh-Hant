@@ -3,7 +3,7 @@ description: 您可以在 Adobe Analytics 中檢視 Document Cloud 資料
 title: 設定 Document Cloud Analytics
 feature: Admin Tools
 source-git-commit: 01aa0959a7ddd8d5a29c838bdbc771435784c9e6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
 

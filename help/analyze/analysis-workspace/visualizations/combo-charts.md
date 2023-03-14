@@ -6,8 +6,8 @@ role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
 source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 97%
+source-wordcount: '755'
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 97%
 
 請記住以下事項：
 
-* 您可以在單一中新增多個比較 [!UICONTROL 組合圖].
+* 您可在單一[!UICONTROL 組合圖表]中新增多筆比較資料。
 * 如果您新增一筆或更多比較資料，這些資料必須是相同類型，例如[!UICONTROL 時間比較]。
 * 您最多只能新增 5 筆比較資料。
 * 一個量度最多可以套用 3 個篩選器 (區段)。
-* 組合圖不支援計算量度。
+* 組合圖表中不支援計算量度。
 
 ## 建置組合圖表
 
@@ -47,9 +47,9 @@ ht-degree: 97%
    | **[!UICONTROL 函數]** | 您可以將[!UICONTROL 平均值]等函數導入比較中。請參閱以下的支援函數清單。<p>![](assets/combo-functions.png) |
    | **[!UICONTROL 次要量度]** | 例如，您可以將[!UICONTROL 收入]與另一個量度比較。<p>![](assets/combo-2metrics.png) |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. 按一下&#x200B;**[!UICONTROL 「建置」]**。
+1. 按一下&#x200B;**[!UICONTROL 建置]**。
 
    輸出將與下圖相似：
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 | **[!UICONTROL 平均值]** | 傳回量度的算術平均值或平均值。 |
 | **[!UICONTROL 欄最小值]** | 傳回量度欄中一組維度元素的最小值。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 以下為收入量度的累積平均值範例：
 
@@ -103,4 +103,4 @@ ht-degree: 97%
 | **[!UICONTROL 顯示 y 軸]** | 顯示或隱藏 y 軸。 |
 | **[!UICONTROL 將 y 軸固定於零]** | 如果圖表上繪製的點都遠高於零，則圖表預設會讓 Y 軸底部「不是零」。如果您勾選此方塊，Y 軸將強制固定於零 (並會重繪圖表)。 |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}

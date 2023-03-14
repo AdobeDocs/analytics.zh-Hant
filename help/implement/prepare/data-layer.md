@@ -4,7 +4,7 @@ description: 瞭解 Analytics 實施中的資料層是什麼，以及如何用�
 feature: Implementation Basics
 exl-id: 271dd8fa-3ba1-4a7f-b16a-c48a736a5bb5
 source-git-commit: 571192e27972f2bc15912481f9a578427e1c1cfb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
 

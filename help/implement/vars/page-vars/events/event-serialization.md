@@ -4,7 +4,7 @@ description: 協助您去除網站上重複的量度。
 feature: Variables
 exl-id: 54de0fd7-9056-44af-bd59-b8eb55fc816e
 source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 100%
 
@@ -43,8 +43,8 @@ ht-degree: 100%
 您可以在設定 Analytics 擴充功能 (全域變數) 時設定事件 ID 欄位，或是在規則中將其設定為動作。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
-2. 按一下所需的標記屬性。
-3. 前往「[!UICONTROL 規則]」索引標籤，然後按一下所需的規則 (或建立規則)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
 5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
 6. 找出[!UICONTROL 「事件」]區段，其中每個事件都包含[!UICONTROL 「事件 ID」]欄位。

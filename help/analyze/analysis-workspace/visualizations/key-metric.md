@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: c74e77ff-15d6-48f1-a845-85bdf3444c3a
 source-git-commit: 1843989f77482152adeaee1f1c9e523d0c55dc21
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '595'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ The [!UICONTROL 關鍵量度摘要]視覺效果可讓您查看一項重要的量
    | **[!UICONTROL 比較日期範圍]** | 您要與主要日期範圍進行比較的日期範圍。 |
    | **[!UICONTROL 區段 (選擇性)]** | 您對於此摘要特別感興趣的任何區段。 |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. 按一下&#x200B;**[!UICONTROL 「建置」]**。
 

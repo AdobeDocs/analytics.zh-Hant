@@ -4,10 +4,9 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-translation-type: tm+mt
 source-git-commit: 78412c2588b07f47981ac0d953893db6b9e1d3c2
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 80%
 
 ---
@@ -31,6 +30,6 @@ ht-degree: 80%
 * 將報表拖放至佇列中的新位置，重新排列報表的優先順序。
 * 若要查看開始處理要求的時間，請按一下計劃的要求 ID，並檢查開啟的快顯視窗。
 
-按一下工作，以查看該工作的個別請求。
+按一下作業，即可查看該作業的個別請求。
 
-* 利率有限公司：您的組織執行的Data Warehouse請求過多。 請求會暫停，直到其他資料請求完成為止。
+* 利率限制：您的組織執行的Data Warehouse請求太多。 請求會暫停，直到其他資料請求完成為止。

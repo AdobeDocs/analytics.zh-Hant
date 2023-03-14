@@ -3,7 +3,7 @@ description: 您可以在 Adobe Analytics 中檢視 Adobe Experience Manager 資
 title: 在 Adobe Analytics 中檢視 Adobe Experience Manager 資料。
 feature: Admin Tools
 source-git-commit: cb805ccf97ea6047183f22baa91e5f567af1b7d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '119'
 ht-degree: 100%
 

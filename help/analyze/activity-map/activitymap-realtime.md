@@ -6,7 +6,7 @@ role: User, Admin
 exl-id: 29ccd89e-d82b-41d4-a940-addc6656b5ec
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '354'
 ht-degree: 72%
 
 ---
@@ -29,19 +29,19 @@ Describe what you can do with the feature: - what is the data shown? why do I se
 
 如果您想要檢查哪個元素在即時模式中經常被點按：
 
-1. 在工具列的&#x200B;**[!UICONTROL 即時模式]**&#x200B;趨勢線上，選取您要分析的時段。
+1. 在工具列的 **[!UICONTROL 即時模式]** 要分析的趨勢線。
 1. 按一下工具列中的「眼睛」圖示來存取「連結報表」表格。
 1. 依連結排序表格。
 
 ## 因為 A4T 設定造成的資料延遲
 
-在Adobe Target中啟用[A4T整合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=zh-Hant)後，您會在Adobe Analytics中遇到5-10分鐘的額外延遲。 增加此延遲可使 Analytics 和 Target 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
+在 [A4T整合](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) 若已在Adobe Target中啟用，則Adobe Analytics會發生5至10分鐘的額外延遲。 增加此延遲可使 Analytics 和 Target 的資料透過相同的點擊儲存，讓您能夠依頁面和網站區段劃分測試。
 
 此延遲增加的現象會反映在所有 Adobe Analytics 服務和工具中 (包括即時資料流與即時報表)，且適用於下列情況：
 
 * 若是即時資料流、即時報表和 API 請求，以及目前的流量變數資料，則僅有附帶補充資料 ID 的點擊會延遲。
 * 若是目前轉換量度的資料、已完成的資料及資料摘要，則所有點擊均會額外延遲 5 至 7 分鐘。
 
-請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施[身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=zh-Hant)後開始。
+請注意，即使您尚未完全實施該整合，該延遲增加現象也會在您實施[身份服務](https://experienceleague.adobe.com/docs/id-service/using/home.html)後開始。
 
-更多資訊[此處](/help/analyze/activity-map/activitymap-standard-live.md)。
+更多資訊 [此處](/help/analyze/activity-map/activitymap-standard-live.md).

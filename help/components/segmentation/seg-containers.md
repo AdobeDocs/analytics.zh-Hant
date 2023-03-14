@@ -4,7 +4,7 @@ keywords: 分段;區段
 title: 區段容器
 feature: Segmentation
 source-git-commit: 3569cea351a61eb79e1b8f5dad76905f8054982b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '3120'
 ht-degree: 100%
 

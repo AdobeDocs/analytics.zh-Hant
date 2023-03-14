@@ -3,7 +3,7 @@ description: 您可以在 Adobe Analytics 中檢視 Adobe Campaign 資料
 title: 在 Adobe Analytics 中檢視 Adobe Campaign 資料
 feature: Admin Tools
 source-git-commit: d4e831398182166e0ffe78659e26d2078fa9be7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '52'
 ht-degree: 100%
 

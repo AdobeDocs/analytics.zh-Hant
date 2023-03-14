@@ -5,8 +5,8 @@ role: User, Admin
 feature: Annotations
 exl-id: 52b179fd-d9a4-4119-a3c6-f6a36f24f8ea
 source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
-workflow-type: ht
-source-wordcount: '247'
+workflow-type: tm+mt
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 100%
 | **日期範圍** | 圖示會變更，而且當滑鼠游標停留在圖示上方時，日期範圍就會出現。<p>![](assets/multi-day.png)<p>當您在折線圖上將其選取時，註解中繼資料隨即顯示，您可以對其進行編輯或將其刪除：![](assets/multi-hover.png)<p>在表格中，日期範圍內的每個日期都會出現圖示。<p>![](assets/multi-day-table.png) |
 | **重疊註解** | 在有一個以上關聯註解的日期，圖示會以灰色顯示。<p>![](assets/grey.png)<p>當您將滑鼠停留在該灰色圖示上時，會顯示所有重疊的註解：<p>![](assets/overlap.png) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 在 .pdf 檔案中檢視註解
 

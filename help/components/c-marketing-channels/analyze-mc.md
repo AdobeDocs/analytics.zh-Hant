@@ -6,7 +6,7 @@ exl-id: 7030e41a-4e92-45c7-9725-66a3ef019313
 source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 >
 >為了讓 Attribution IQ 和 Customer Journey Analytics 的行銷管道獲得最大成效，我們已發佈一些[修改過的最佳做法](/help/components/c-marketing-channels/mchannel-best-practices.md)。
 >
->Analytics管理員可管理其組織的行銷管道，如 [管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md).
+>Analytics 管理員可以管理其組織的行銷管道，如[管理行銷管道](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/marketing-channels/c-channels.md)中所述。
 
 您可能想知道您的哪些行銷管道對什麼對象最有效，藉此讓行銷目標更為明確，並使付出的行銷資金獲得更高回報。 在 Adobe Analytics 中，Workspace 裡的「行銷管道」維度和量度是能協助您追蹤不同管道對訂單、收入等之影響的其中一項工具，並能為您提供實用的管道分析。以下是您可使用的行銷管道相關維度與量度：
 

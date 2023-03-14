@@ -6,7 +6,7 @@ exl-id: 266f7d9c-803d-4dbe-95a1-282230012878
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 80%
+ht-degree: 84%
 
 ---
 
@@ -26,20 +26,20 @@ ht-degree: 80%
 
 ## 使用Web SDK處理連結查詢字串
 
-未從XDM欄位中刪除查詢字串 `web.webInteraction.URL`。 如果要從此XDM欄位中刪除查詢字串，可以使用 `onBeforeEventSend`。
+查詢字串不會從XDM欄位中移除 `web.webInteraction.URL`. 如果您想從此XDM欄位中移除查詢字串，可使用 `onBeforeEventSend`.
 
-## 使用Adobe Analytics副檔名保留URL參數
+## 使用Adobe Analytics擴充功能保留URL參數
 
 「[!UICONTROL 保留 URL 參數]」是在設定 Adobe Analytics 擴充功能時，位於「[!UICONTROL 連結追蹤]」摺疊式功能表下方的勾選方塊。
 
-1. 登錄到 [Adobe Experience Platform資料收集](https://experience.adobe.com/data-collection) 使用AdobeID憑據。
-2. 按一下所需的標記屬性。
-3. 前往[!UICONTROL 擴充功能]標記，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+2. 按一下所需的標籤屬性。
+3. 前往[!UICONTROL 擴充功能]標籤，然後按一下 Adobe Analytics 底下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
 4. 展開[!UICONTROL 「連結追蹤」]摺疊式功能表，如此可顯示[!UICONTROL 「保留 URL 參數」]勾選方塊。
 
 如果您想在連結追蹤維度中納入查詢字串，請勾選此方塊。
 
-## AppMeasurement中的s.linkLeaveQueryString和Analytics擴展自定義代碼編輯器
+## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.linkLeaveQueryString
 
 `s.linkLeaveQueryString` 變數是布林值。其預設值為 `false`。
 

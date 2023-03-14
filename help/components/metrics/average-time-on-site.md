@@ -4,7 +4,7 @@ description: 指定的維度項目存在於兩次點擊之間的平均時間量�
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
 source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
 

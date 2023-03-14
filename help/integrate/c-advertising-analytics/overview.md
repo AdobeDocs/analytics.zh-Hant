@@ -4,7 +4,7 @@ title: Advertising Analytics 指南
 feature: Advertising Analytics
 exl-id: bc18b74a-0317-4871-b2e0-ec0977ef1731
 source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ Advertising Analytics 可讓您在 Adobe Analytics 中以並排方式查看所�
 
 ## 先決條件 {#section_C25E0CA3474C4EDEAEAA9A5B8AAC9299}
 
-* Advertising Analytics 只適用於 Adobe Analytics [Select](https://www.adobe.com/tw/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics/prime.html) 及 [Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics/ultimate.html) 的 SKU。
+* Advertising Analytics 只適用於 Adobe Analytics [Select](https://www.adobe.com/tw/data-analytics-cloud/analytics/select.html)、[Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/prime.html) 及 [Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/ultimate.html) 的 SKU。
 
 * 此功能適用於非 Advertising Cloud 以及非 AMO 的客戶。
 * 您必須成為 Adobe Analytics 管理員才能存取 Advertising Analytics。隨後，您便可以將[存取權限授予](/help/integrate/c-advertising-analytics/overview.md#section_FCC58EB635954A32990D4E67B52B4369)非管理員使用者。

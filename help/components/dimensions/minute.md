@@ -4,7 +4,7 @@ description: 量度發生的分鐘。
 feature: Dimensions
 exl-id: 63f13083-321f-4fd8-9352-e413e1ebf168
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%
 

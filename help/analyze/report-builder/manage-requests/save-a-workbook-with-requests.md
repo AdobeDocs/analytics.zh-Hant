@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '314'
 ht-degree: 100%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 您使用的任何檔案名稱最多只能含有 255 個字元。此外，檔案名稱不得含有以下字元：
 
-\ ? | > &lt; :/ * &#39; &quot;
+\ ? | > &lt; : / &#42; &#39; &quot;
 
 最後一點，您不得使用延伸 ASCII 字元集之外的 Unicode 字元。
 

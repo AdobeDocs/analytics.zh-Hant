@@ -1,12 +1,12 @@
 ---
 title: 歸因常見問題集
 description: 取得歸因相關常見問題的解答。
-feature: 歸因
+feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
-workflow-type: ht
-source-wordcount: '1027'
+workflow-type: tm+mt
+source-wordcount: '1026'
 ht-degree: 100%
 
 ---

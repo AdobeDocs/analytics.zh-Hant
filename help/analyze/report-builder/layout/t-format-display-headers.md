@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
 source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 99%
 
 ---
@@ -43,6 +43,6 @@ ht-degree: 99%
 
    **執行自動外框：**&#x200B;將 Report Builder 傳回的日期從清單檢視轉換為樹狀檢視。
 
-   **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。請參閱[命名請求](/help/analyze/report-builder/layout/name-a-request.md)。
+   **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。請參閱 [為請求命名](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. 按一下「**[!UICONTROL 確定]**」。

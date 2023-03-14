@@ -4,7 +4,7 @@ description: 當年的數值日，無論年份為何。
 feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
 source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 100%
 
