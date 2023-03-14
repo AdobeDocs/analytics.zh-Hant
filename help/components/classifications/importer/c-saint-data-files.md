@@ -3,10 +3,10 @@ description: 匯入工具可讓您大量上傳分類資料至檔案中的分析�
 title: 分類資料檔案
 feature: Classifications
 exl-id: aa919a03-d461-4d12-adc1-6441fb467e63
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
-workflow-type: ht
-source-wordcount: '1784'
-ht-degree: 100%
+source-git-commit: caeaef9415be93913bdf078a47c887fc21fd6e60
+workflow-type: tm+mt
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -109,11 +109,11 @@ ht-degree: 100%
 
 ### 分類欄標題
 
-例如，Reports &amp; Analytics 會自動包含「[!UICONTROL 促銷活動]」變數的兩個分類：「[!UICONTROL 促銷活動]」和「[!UICONTROL 創作元素]」。若要將資料新增至「[!UICONTROL 促銷活動]」分類，則分類資料檔案中的欄標題應是「[!UICONTROL 促銷活動]」。
+範例：您的Reports &amp; Analytics實作會自動包含 [!UICONTROL 行銷活動] 變數： [!UICONTROL 行銷活動] 和 [!UICONTROL 創作元素]. 若要將資料新增至「[!UICONTROL 促銷活動]」分類，則分類資料檔案中的欄標題應是「[!UICONTROL 促銷活動]」。
 
 >[!NOTE]
 >
-> [!UICONTROL 分類]欄標題中的值必須與分類的命名慣例完全相符，否則匯入會失敗。例如，若管理員在「[!UICONTROL 促銷活動設定管理員]」中將「[!UICONTROL 促銷活動]」變更為[!UICONTROL 內部促銷活動名稱]，則檔案欄標題也必須一併變更。
+> [!UICONTROL 分類]欄標題中的值必須與分類的命名慣例完全相符，否則匯入會失敗。例如，若管理員在「[!UICONTROL 促銷活動設定管理員]」中將「[!UICONTROL 促銷活動]」變更為[!UICONTROL 內部促銷活動名稱]，則檔案欄標題也必須一併變更。「索引鍵」是保留的分類（標題）值。 不支援名為「索引鍵」的新分類。
 
 此外，資料檔案支援以下額外的標題慣例，以便識別子分類和其他專業的資料欄：
 
