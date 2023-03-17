@@ -5,16 +5,16 @@ title: 僅供檢視的專案
 feature: Curate and Share
 role: User, Admin
 exl-id: 53372247-6902-4c7f-9132-38a1d453186c
-source-git-commit: 0515636dfae6c42d76211e1cbbc7faf424054271
+source-git-commit: 7d79d6a329c5d42ede2d15d8afd67021fde23e1c
 workflow-type: tm+mt
 source-wordcount: '254'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 僅供檢視的專案
 
-您可以透過[專案共用工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設置於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您想要與整體上較不熟悉您的組織資料結構、Analysis Workspace 或 Adobe Analytics 的使用者共用專案，但您仍希望他們能在安全的環境中使用資料和深入分析，就可以採取此做法。
+您可以透過[專案共用工作流程](/help/analyze/analysis-workspace/curate-share/share-projects.md)，將專案以「僅限檢視」的形式與收件者共用。設定於「可檢視」角色的收件者，將獲得更為限定的專案體驗。如果您要與整體上較不熟悉您組織資料結構(Analysis Workspace或Adobe Analytics)的使用者共用專案，但您仍希望他們在安全的環境中使用資料和深入分析，就可能需要這個選項。
 
 ![](assets/view-only-project.png)
 
