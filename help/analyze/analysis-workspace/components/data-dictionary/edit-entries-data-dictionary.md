@@ -3,9 +3,9 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 編輯資料字典中的條目
 feature: Components
 role: Admin
-source-git-commit: 8edd7b1b90e2ac3137bea734e5a0f1cb8004e743
+source-git-commit: 7e105b4cd22187411dedd663080703e6daec91f5
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '356'
 ht-degree: 63%
 
 ---
@@ -36,10 +36,10 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
    |---------|----------|
    | ![Dimension圖示](assets/dimension-icon.png) | 表示 **維度**. Dimension由Adobe提供。 無法修改現有維，也無法建立新維。 |
    | ![量度圖示](assets/default-metric-icon.png) | 表示 **標準量度** （未計算）。 標準量度由Adobe提供，無法修改。 |
-   | ![Adobe圖示](assets/default-calc-metric-icon.png) | 表示 **計算量度範本**. 這些是由Adobe提供且無法修改的計算量度。 |
-   | ![計算器表徵圖](assets/calculated-metric-icon-created.png) | 表示 **計算量度** 由貴組織中的Analytics管理員建立。 <!-- Delete all the comments... Components with this icon can be modified by an Analytics administrator. New calculated metrics can be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![「區段」圖示](assets/segment-icon.png) | 表示 **區段**. 這些可以是由Adobe提供或由貴組織的Analytics管理員建立的區段。<!-- Segments that were created byComponents with this icon can be modified by an Analytics administrator, as described in [Edit component entries in the Data Dictionary](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md). New calculated metrics can also be created by an Analytics administrator, as described in [Metrics](/help/analyze/analysis-workspace/components/apply-create-metrics.md). --> |
-   | ![日期範圍圖示](assets/date-range-icon.png) | 表示 **日期範圍**. 這些可以是Adobe提供的日期範圍，或由貴組織的Analytics管理員建立。 <!-- Components with this icon can be modified by an Analytics administrator. New date ranges can also be created by an Analytics administrator, as described in [Create custom date ranges](/help/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md). --> |
+   | ![Adobe圖示](assets/default-calc-metric-icon.png) | 表示 **計算量度範本** 或 **區段範本**. 這些元件由Adobe提供，無法修改。 |
+   | ![計算器表徵圖](assets/calculated-metric-icon-created.png) | 表示 **計算量度** 由貴組織中的Analytics管理員建立。 |
+   | ![「區段」圖示](assets/segment-icon.png) | 表示 **區段**. 這些可以是由Adobe提供或由貴組織的Analytics管理員建立的區段。 |
+   | ![日期範圍圖示](assets/date-range-icon.png) | 表示 **日期範圍**. 這些可以是Adobe提供的日期範圍，或由貴組織的Analytics管理員建立。 |
 
 {{dd-filter-criteria}}
 
