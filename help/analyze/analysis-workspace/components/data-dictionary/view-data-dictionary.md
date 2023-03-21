@@ -3,16 +3,14 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 檢視資料字典
 feature: Components
 role: User, Admin
-source-git-commit: 5d83d2621ee5eee7dbbc2af3793a9e1d3de0f97b
+source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 62%
+source-wordcount: '280'
+ht-degree: 75%
 
 ---
 
 # 檢視資料字典中的元件資訊
-
-{{release-limited-testing}}
 
 資料字典允許您檢視有關元件的資訊，包括元件說明、類似的元件、經常搭配元件使用的其他元件等。
 
@@ -32,16 +30,7 @@ ht-degree: 62%
 
 1. (可選) 在搜尋欄位中開始鍵入要檢視的元件名稱。
 
-   元件名稱旁會顯示圖示，指出元件類型：
-
-   | 圖示 | 含義 |
-   |---------|----------|
-   | ![Dimension圖示](assets/dimension-icon.png) | 表示 **維度**. Dimension由Adobe提供。 無法修改現有維，也無法建立新維。 |
-   | ![量度圖示](assets/default-metric-icon.png) | 表示 **標準量度** （未計算）。 標準量度由Adobe提供，無法修改。 |
-   | ![Adobe圖示](assets/default-calc-metric-icon.png) | 表示 **計算量度範本** 或 **區段範本**. 這些元件由Adobe提供，無法修改。 |
-   | ![計算器表徵圖](assets/calculated-metric-icon-created.png) | 表示 **計算量度** 由貴組織中的Analytics管理員建立。 |
-   | ![「區段」圖示](assets/segment-icon.png) | 表示 **區段**. 這些可以是由Adobe提供或由貴組織的Analytics管理員建立的區段。 |
-   | ![日期範圍圖示](assets/date-range-icon.png) | 表示 **日期範圍**. 這些可以是Adobe提供的日期範圍，或由貴組織的Analytics管理員建立。 |
+   元件類型可透過顏色和圖示來識別。 **Dimension** ![Dimension圖示](assets/dimension-icon.png) 是橙色的， **區段** ![區段圖示](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍圖示](assets/date-range-icon.png) 是紫色的， **量度** ![量度圖示](assets/default-metric-icon.png) 為綠色。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 指出計算量度範本或區段範本，以及計算器圖示 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指出貴組織中的Analytics管理員所建立的計算量度。
 
 {{dd-filter-criteria}}
 
