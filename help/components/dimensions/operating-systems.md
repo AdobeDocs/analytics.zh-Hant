@@ -3,10 +3,10 @@ title: 作業系統
 description: 訪客的作業系統。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 17c441f8855b8ca0604076763817de8d4d3b8efb
+source-git-commit: 3a0254e5cfdbcaf7b5d6f81bc710959063cd1735
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 34%
+source-wordcount: '412'
+ht-degree: 29%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 34%
 
 以下是使用者代理和Adobe Analytics報表中如何呈現作業系統的特定問題清單。
 
+### 作業系統粒度的變更
+
+我們於2023年3月2日更新了報告，在作業系統中加入更多詳細資訊。 在此日期之後，我們將包括作業系統修補程式版本。 因此，例如，使用OS X 10.15.7的使用者在3月2日之前會顯示為「OS X 10.15」。 在3月2日之後，它們將顯示為「OS X 10.15.7」。
+
 ### 變更Apple作業系統的命名慣例：
 
 從11版開始，我們將使用MacOS（而非OS X）來指稱Apple作業系統。
@@ -37,7 +41,7 @@ ht-degree: 34%
 
 ### Mac OS版本在10.15.7版之後的使用者代理中不正確 
 
-Apple電腦上的使用者代理會將作業系統版本顯示為10.15.7，即使是較新版本亦然。 這樣做是因為將第11版納入UA顯然造成了一些網站的問題。 對於 *所有瀏覽器* 與Google在Chromium瀏覽器上「凍結」使用者代理無關。
+Apple電腦上的使用者代理將作業系統版本顯示為10.15.7（即使是較新版本）。 這樣做是因為將第11版納入UA顯然造成了一些網站的問題。 對於 *所有瀏覽器* 與Google在Chromium瀏覽器上「凍結」使用者代理無關。
 
 請注意，用戶端提示在平台版本提示(「Sec-CH-UA-Platform-Version」)中包含正確的版本。 這是高熵提示，因此Adobe不會自動收集。 請參閱 [Adobe Analytics提示常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 詳細了解如何收集高熵提示。
 
