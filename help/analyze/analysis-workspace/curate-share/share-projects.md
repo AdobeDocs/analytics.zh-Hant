@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 5f502cb30deb49ce21c72c1bf84db340ac3b426e
 workflow-type: tm+mt
-source-wordcount: '1587'
-ht-degree: 65%
+source-wordcount: '1668'
+ht-degree: 62%
 
 ---
 
@@ -122,6 +122,10 @@ ht-degree: 65%
 >* Analytics管理員可停用以此方式共用專案的功能，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 如果您無法如本節所述共用專案，您的Analytics管理員已停用此功能。
 >
 >* 無法與無法存取Adobe Analytics的人員共用具有超過14個擴充視覺效果的專案。
+>
+>* 您與共用的使用者可以檢視期間套用至專案的任何篩選器 [組織](curate.md).
+> 
+>* 您與共用的使用者可以變更專案日期範圍。 預設會顯示您為專案設定的日期範圍。
 
 
 若要與無法存取Analysis Workspace的人共用Adobe Analytics專案：
@@ -153,6 +157,8 @@ ht-degree: 65%
 1. 與您想要存取專案的人員共用連結。 例如，您可以將連結貼到電子郵件中。
 
    您與共用連結的任何人都可以檢視Analysis Workspace專案。
+
+1. （選用）您可以按一下 **產生新連結** 圖示 ![產生連結圖示](assets/regenerate-link.png) 從先前收到專案連結的使用者移除存取權。 系統會產生新連結，供您與想要存取專案的使用者共用。
 
 1. 選擇 **[!UICONTROL 關閉]** 來關閉「共用」對話框。 您的變更會自動儲存。
 
