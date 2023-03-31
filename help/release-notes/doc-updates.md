@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 04e80edd290b1b6a007e7ccec1bb1d563e98ecf8
+source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
 workflow-type: tm+mt
-source-wordcount: '3801'
-ht-degree: 97%
+source-wordcount: '3853'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 3 月** |  |
+| 流量變數(Prop)概觀 | 新增章節及逐步程式，以釐清及改善文章內容。 從標題為「啟用流量變數報表」的文章中合併內容，並移除該文章。 請參閱 [流量變數(Prop)概觀](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
+| 內部URL篩選器 | 新增章節及逐步程式，以釐清及改善文章內容。 請參閱 [內部URL篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | 在行動計分卡中建立資料動態 | A [資料動態](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) 是以中心主題或量度為建置基礎，所提供支援的資料點、業務內容和相關量度的集合。 |
 | 預設計算量度 | 已新增說明 [Adobe 提供的預設計算量度](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)的內容。 |
 | 資料字典 | <p>新增資料字典的檔案，包括 [概述](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md), [檢視](/help/analyze/analysis-workspace/components/data-dictionary/view-data-dictionary.md), [編輯](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md)，和 [監控](/help/analyze/analysis-workspace/components/data-dictionary/monitor-data-dictionary-health.md) 資料字典。</p><p>中的資訊 [新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md) 已更新，以說明資料字典功能。</p> |

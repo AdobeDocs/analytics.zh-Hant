@@ -4,9 +4,9 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 87d4e492afe8d614dfdba24389660829df871dd7
+source-git-commit: e658a14564e7efacf8811c35d0e9b1e7455f4394
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '624'
 ht-degree: 100%
 
 ---
@@ -80,7 +80,6 @@ ht-degree: 100%
                + [伺服器端轉送常見問題](admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/ssf-faq.md)
          + 流量 {#traffic-variables}
             + [流量變數](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)
-            + [啟用流量變數報告](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/t-traffic-variable.md)
             + [流量分類](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-classifications.md)
             + [自訂報告說明](admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/custom-desc-admin.md)
          + 轉換 {#conversion-variables}
