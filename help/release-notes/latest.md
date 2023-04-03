@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ff90d4da4b0bbce35716e9a42ae33ea21f650cdf
+source-git-commit: 670f6044fe29b97a6dcbd77608a9f40c1aacb09a
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 84%
+source-wordcount: '1585'
+ht-degree: 67%
 
 ---
 
 # Adobe Analytics 目前的版本注意事項 (2023 年 3 月)
 
-**上次更新日期**：2023 年 3 月 21 日
+**上次更新日期**：2023 年 4 月 3 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,6 +20,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **部分支援使用Web SDKActivity Map** | 從Web SDK 2.15.0版開始，我們將在啟用連結追蹤時開始填入Activity Map資料。 如果Web SDK使用者已透過Analytics中設定的Web SDK和Activity Map啟用連結追蹤，則此功能可讓Web SDK使用者取得Activity Map報告。<p>請注意，當客戶從一個頁面導覽至下一個頁面時，透過Web SDK啟用連結追蹤會傳送連結事件。 因此，額外的計費點擊會傳送至Adobe。 長期而言，我們正致力讓Web SDK以可反映AppMeasurement之功能的方式收集Activity Map。 在某些情況下，AppMeasurement會在後續的頁面檢視上個別傳送資料，減少伺服器呼叫數。 請參閱 [追蹤連結](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 以取得更多資訊。 | 不適用 | 2023 年 3 月 31 日 |
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **行動儀表板中的資料故事** | 資料故事可讓您將多個可自訂的詳細資料檢視加入到行動計分卡專案的圖磚中。使用資料故事可深入了解關鍵驅動因素、相關量度以及客戶歷程中的不同步驟。您可以輕鬆滑動這些檢視以了解關鍵量度背後的整個故事。[了解更多](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不適用 | 2023 年 3 月 8 日 |
 | **已排程專案的到期日** | 無論排程頻率如何，您都可以將已排程專案的最長到期日設定為將近一年。 | 不適用 | 2023 年 3 月 8 日 |
@@ -34,6 +35,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **裝置查閱程式現在會使用協力廠商進行所有裝置查閱** | 2023 年 3 月 3 日 | 2023年3月2日，我們更新了裝置查閱程式，將協力廠商用於所有裝置查閱，這是開始支援用戶端提示的一部分。 之前，我們只使用協力廠商進行行動裝置查閱。 作為轉出的一部分，部分案頭作業系統以「行動」文字錯誤標示(例如「行動OS X 10.15.7」而非「OS X 10.15.7」)。<p>在Adobe4月的發行中，我們會更正這些名稱。 Analytics和CJA報表將會回溯更新，因為其報表會根據記錄為事件資料一部分的ID來查找作業系統名稱。 更新與ID對應的查閱值後，所有報表都會更正，包括歷史資料。 對於資料摘要客戶，如果您在報告時使用類似的查閱程式，此變更將可回溯。 不過，如果您將作業系統值儲存在事件資料中，則報表只會在日後更新。 請參閱 [作業系統](/help/components/dimensions/operating-systems.md) 以取得更多詳細資訊。 |
 | **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。我們在 2023 年 2 月 27 日進行了第一階段的版本以支援用戶端提示。第二階段也是最後階段的版本已於 2023 年 3 月 2 日星期四完成。[了解更多](/help/technotes/client-hints.md) |
 | **Analytics 來源連接器可用性** | 2023 年 2 月 15 日 | 2023 年 2 月 28 日，位於加拿大的新 Adobe Experience Platform 資料中心將提供 Analytics 來源連接器。 |
 | **自動移轉到分類集架構** | 2023 年 2 月 8 日 | 在接下來的幾個月裡，Adobe 計畫將所有組織的所有分類移轉到最新的分類架構。最後一批移轉的客戶估計會在 2023 年 5 月進行。客戶無須採取行動，也預計不會出現停機時間。這種新架構有很多好處，包括：<ul><li>大幅縮短處理時間 (72 小時 → 24 小時)</li><li>使用[分類集](/help/components/classifications/sets/overview.md)使用者介面的能力</li><li>未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=zh-Hant)在 Adobe Experience Platform 中使用分類資料的選項</li></ul>請注意以下變更可能會影響您組織的工作流程：<ul><li>使用瀏覽器或 FTP 匯入時，一定要啟用「[!UICONTROL 衝突時覆寫]」。</li><li>使用瀏覽器或 FTP 匯入時，不再支援匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions`端點現在回傳用於分類的字串識別碼，而不是數值識別碼。還是可以使用數值識別碼，但 Adobe 建議盡可能使用新的字串識別碼。可以使用 `?expansion=hidden` 查詢字串參數擷取數值識別碼。</li></ul>如果您想為您的組織擬定更具體的移轉計畫，或者對此移轉有疑問/疑慮，請聯繫 Adobe 客戶服務。[了解更多](/help/components/classifications/sets/overview.md) |
