@@ -4,10 +4,10 @@ description: 取得歸因相關常見問題的解答。
 feature: Attribution
 role: User, Admin
 exl-id: 8e05957a-f954-4e61-aeed-cd2bd2fe11f8
-source-git-commit: 1c9f2a0f811d42c55205ee9e0431cee2f67187e7
+source-git-commit: 5ed1ff0ecee4843f866b1a911e2cb5f14310c58a
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 89%
+source-wordcount: '1071'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ ht-degree: 89%
 
 是的，歸因支援多數資料來源。摘要層級的資料來源無法進行歸因，因為此層級不會與 Analytics 的訪客識別碼建立關聯。
 
-交易ID資料來源的處理方式與任何其他點擊相同；他們不會使用傳統報表中通常使用的特殊處理方式。
+交易ID資料來源的處理方式與任何其他點擊相同；他們不會使用傳統報表中通常使用的特殊處理方式。 換句話說，使用報表時間處理時，交易ID點擊會有eVar值從發生在交易ID點擊時間戳記附近的點擊傳播。 這些值不會從在原始交易時間附近發生的點擊傳播。
 
 ## 歸因可用於 Advertising Analytics 整合嗎？
 
