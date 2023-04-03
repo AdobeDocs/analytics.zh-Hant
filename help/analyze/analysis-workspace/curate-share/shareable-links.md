@@ -5,10 +5,10 @@ title: 建立分享連結
 feature: Curate and Share
 role: User, Admin
 exl-id: 39fbe18c-2f75-4026-b277-58ec08c6a645
-source-git-commit: 9190703c073ecb28e629fa53ac916f706d359324
+source-git-commit: 870252bebc55ddc5621e6d1add708cb1d9fda60d
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 73%
+source-wordcount: '380'
+ht-degree: 61%
 
 ---
 
@@ -18,15 +18,15 @@ Analysis Workspace 提供許多與用戶共用專案的方式，包括取得專�
 
 ## 取得專案連結以與其他工作區使用者共用 {#project-link}
 
-若要共用完整專案的連結，請前往 [!UICONTROL **共用**] > [!UICONTROL **與工作區使用者共用**] > [!UICONTROL **依連結共用**]. 如果連結收件者仍未獲指派[專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員與非管理員用戶會分別收到&#x200B;**[!UICONTROL 「可編輯」]**&#x200B;和&#x200B;**[!UICONTROL 「可複製」]**&#x200B;的體驗。
+若要共用專案的連結，請前往您要共用的專案，然後選取前往 [!UICONTROL **共用**] > [!UICONTROL **與工作區使用者共用**] > [!UICONTROL **依連結共用**]. 您共用連結的使用者必須登入。
 
-![](assets/get-project-link.png)
+如果連結的收件者尚未獲派 [專案角色](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant)，管理員接收 **[!UICONTROL 可編輯]** 和非管理員 **[!UICONTROL 可複製]** 體驗。
 
 ## 取得唯讀連結以與任何人共用
 
 {{release-limited-testing-section}}
 
-您可以與無法存取Analysis Workspace的使用者共用Adobe Analytics專案的唯讀連結。
+您可以與無法存取Analysis Workspace的使用者共用Adobe Analytics專案的唯讀連結。 您與共用連結的使用者不需要登入。
 
 如需詳細資訊，請參閱文章中的「與他人共用專案（不需要登入）」 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
