@@ -3,10 +3,10 @@ title: 頁面檢視次數
 description: 維度項目的次數是設定或保存在 Adobe Analytics 中。
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 65f87bf4b5b3897c9ef68d091858332c08cbf699
+source-git-commit: 1be9a8ceb03f8102a0799f4518db35c1e8cd7b14
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '168'
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 此量度的計算方式
 
-此量度會計入報表套裝中的所有頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))。關於維度，這會包含已定義或保存的維度項目的點擊數。其中不包含連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+此量度會計入報表套裝中的所有頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))。關於維度，這會包含已定義或保存的維度項目的點擊數。其中不包含連結追蹤呼叫([`tl()`](/help/implement/vars/functions/tl-method.md))或摘要資料 [資料來源](/help/import/data-sources/overview.md).
 
 ## 與類似量度比較
 

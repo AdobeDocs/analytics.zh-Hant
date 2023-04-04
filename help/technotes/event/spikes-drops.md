@@ -2,7 +2,7 @@
 title: 疑難排解資料中的尖峰和下降
 description: 了解可在趨勢報表中看到大幅增加或減少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: dc9cd6bb45af0c992c37ffe20ea22eab67789ec5
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%
@@ -41,7 +41,7 @@ ht-degree: 100%
 ### 可能導致資料接近或恰好是預期資料的兩倍
 
 * **實作中有多個影像要求**：如果您的實作每頁包含多個 [`t()`](/help/implement/vars/functions/t-method.md) 方法呼叫，則可有效將收集的所有資料加倍。在您的網站上使用除錯工具，並觀察多個影像要求以擷取重複的項目。
-* **已上傳重複的資料來源檔案**：如果您的組織會使用[資料來源](/help/import/c-data-sources/datasrc-home.md)，組織的使用者可以將相同檔案上傳至 Adobe Analytics 兩次。執行此重複上傳會使報告中的資料有效增加一倍，造成流量尖峰。
+* **已上傳重複的資料來源檔案**：如果您的組織會使用[資料來源](/help/import/data-sources/overview.md)，組織的使用者可以將相同檔案上傳至 Adobe Analytics 兩次。執行此重複上傳會使報告中的資料有效增加一倍，造成流量尖峰。
 
 ### 流量增加的其他可能原因
 

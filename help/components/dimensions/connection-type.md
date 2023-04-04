@@ -3,7 +3,7 @@ title: 連線類型
 description: 訪客如何連線至網際網路。
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 1. 如果`ct`查詢字串等於 `"modem"`，將維度項目設為 `"Modem"`。AppMeasurement 只會在不受支援的 Internet Explorer 瀏覽器上收集這項資料，使得此維度項目並不常見。
 1. 檢查點擊的 IP 位址，並將其參照至 Adobe 內部的查詢表。如果該 IP 位址來自行動電信業者，則將此維度項目設定為 `"Mobile Carrier"`。
 1. 如果`ct`查詢字串等於 `"lan"`，將維度項目設為 `"LAN/Wifi"`。
-1. 如果點擊來自[資料來源](/help/import/c-data-sources/datasrc-home.md)，或被視為某種特殊類型的點擊，則將維度項目設定為 `"Not specified"`。
+1. 如果點擊來自[資料來源](/help/import/data-sources/overview.md)，或被視為某種特殊類型的點擊，則將維度項目設定為 `"Not specified"`。
 1. 如果不符合上述任何規則，則預設為 `"LAN/Wifi"` 的值。
 
 ## 維度項目

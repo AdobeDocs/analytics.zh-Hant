@@ -2,7 +2,7 @@
 title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
-source-git-commit: b0d264bb8128f805f5bcb194436e357eef4b6987
+source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 100%
@@ -47,7 +47,7 @@ ht-degree: 100%
 * **資料收集伺服器：** Adobe 所擁有的伺服器，用於接收及處理資料。影像請求會傳送至 Adobe 的資料收集伺服器，以用於報表。
 * **資料連接器：**&#x200B;完整的開發解決方案，可讓協力廠商將資料上傳至 Adobe Analytics 的作業自動化。該協力廠商的客戶可使用資料連接器，讓其 Adobe Analytics 中的資料更為豐富。大部分的資料連接器都使用與「資料來源」中所使用的類似工作流程。請參閱匯入使用手冊中的[資料連接器](/help/import/data-connectors/data-connectors-eol.md)。
 * **資料摘要：**&#x200B;原始資料匯出項目，會將每次點擊列為一列，並將變數列為個別欄。最常用於將 Adobe Analytics 資料匯出至協力廠商資料庫。請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。
-* **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。通常會從 FTP 網站提取檔案。請參閱匯入使用手冊中的[資料來源](/help/import/c-data-sources/datasrc-home.md)。
+* **資料來源：**&#x200B;可讓使用者將資料從檔案上傳至 Adobe Analytics。通常會從 FTP 網站提取檔案。請參閱匯入使用手冊中的[資料來源](/help/import/data-sources/overview.md)。
 * **Data Warehouse：** Adobe Analytics 的一項功能，可用來請求較大型的報表。請參閱匯出使用手冊中的 [Data Warehouse](/help/export/data-warehouse/data-warehouse.md)。
 * **Data Workbench：**&#x200B;先前稱為 Insight。 專門設計來收集、處理、分析以及呈現多個管道的線上和離線客戶互動資料。
 * **維度：**&#x200B;包含變數值 (如文字) 的元件類型。範例包括頁面名稱、追蹤代碼或反向連結網域。量度通常是其對應項目。
