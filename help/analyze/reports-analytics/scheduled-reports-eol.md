@@ -4,16 +4,16 @@ description: Adobe 打算暫停所有建立日期超過兩年的排程報告。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 6e5039cd-0f40-44f7-b97d-eb17d9db25a4
-source-git-commit: 9a16f3942505028624e5c07568342a9acac898d7
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # 排程報告的生命週期結束通知
 
-2022 年 4 月 21 日，我們宣布了淘汰排程報告的幾個特定功能，以便為先前宣布的 [Reports &amp; Analytics 生命週期結束](https://express.adobe.com/page/6WnF8JK6IRDhf/)做準備。這些功能包括排程新報告，以及擷取新資料的能力。因應客戶要求延長以及為了順利從 Reports &amp; Analytics 進行轉換，我們決定將這些功能的存取權延長到 **2023 年 1 月 31 日**。請注意，報告和資料擷取的到期窗口限制仍為九個月；報告和資料擷取的傳遞將在此期間結束時暫停，除非重新啟用排程。
+2022 年 4 月 21 日，我們宣布了淘汰排程報告的幾個特定功能，以便為先前宣布的 [Reports &amp; Analytics 生命週期結束](https://www.adobe.com/go/analytics_rnaeol_en)做準備。這些功能包括排程新報告，以及擷取新資料的能力。因應客戶要求延長以及為了順利從 Reports &amp; Analytics 進行轉換，我們決定將這些功能的存取權延長到 **2023 年 1 月 31 日**。請注意，報告和資料擷取的到期窗口限制仍為九個月；報告和資料擷取的傳遞將在此期間結束時暫停，除非重新啟用排程。
 
 再次重申，這些功能將在 2023 年 1 月 31 日停止使用，之後您需要將排程報告遷移到 Adobe Analytics 中可用的其他機制之一。
 

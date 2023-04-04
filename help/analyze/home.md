@@ -4,10 +4,10 @@ description: Analysis Workspace、Adobe Analytics 儀表板、Activity Map、Rep
 feature: Workspace Basics
 role: User, Admin
 exl-id: 8ed81356-626e-4334-9e20-b481e6ba654a
-source-git-commit: dff8e6a3f8ffad5ff0033f75cad08b6e53b1d7b8
+source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 87%
 * **[!UICONTROL Activity Map]：**&#x200B;此瀏覽器外掛程式會在您的網站上顯示覆蓋圖，從覆蓋圖上可看見哪些元素的點選次數最多。
 * **[!UICONTROL Report Builder]：**&#x200B;此 Excel 增益集可讓您擷取 Analytics 資料，並將其直接放入活頁簿中。
 * **[!UICONTROL Reporting API]：**&#x200B;直接向 Adobe 的伺服器提出報表查詢並取得回應，以便在您自己的客戶報告工具中使用。
-* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。**注意：** Reports &amp; Analytics將 [終止](https://express.adobe.com/page/6WnF8JK6IRDhf/) 2023年12月31日。
+* **[!UICONTROL Reports &amp; Analytics]：**&#x200B;此工具包含數十種預先建立的報表。Adobe 建議您針對大部分的報表需求使用 Analysis Workspace。**注意：** Reports &amp; Analytics將 [終止](https://www.adobe.com/go/analytics_rnaeol_en) 2023年12月31日。
 
 以下是 Adobe Analytics 的影片概觀：
 
