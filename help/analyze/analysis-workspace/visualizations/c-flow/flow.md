@@ -5,10 +5,10 @@ uuid: fc22b573-2d18-4c29-866c-f317c920d27a
 feature: Visualizations
 role: User, Admin
 exl-id: 3a7d1552-7fae-41ae-8ca5-89800d05d3d4
-source-git-commit: 5af6ef23a9cc48909950127552a530bc2395f7e8
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 90%
+source-wordcount: '226'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,10 @@ ht-degree: 90%
 您可以顯示[維度之間的流量](/help/analyze/analysis-workspace/visualizations/c-flow/multi-dimensional-flow.md)。例如，您可以在一個圖表中結合頁面和部門。在此情況下，您的流程可能會從首頁、到Mens頁面，然後到Shoes部門。
 
 每一欄會顯示不同的維度。拖曳維度並將其放至拖放區域，即可將該維度新增至圖表中。
+
+## 設定流量視覺效果
+
+如需如何設定流量視覺效果的相關資訊，請參閱 [設定流量視覺效果](/help/analyze/analysis-workspace/visualizations/c-flow/create-flow.md).
 
 ## 匯出包含流量圖表的專案 .CSV 檔案 {#section_BACD2639A0FC4C49A75398F7D0363D9D}
 

@@ -4,10 +4,10 @@ description: 透過「同類群組分析」，深入了解使用對象資料，�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 10ae8213b8745439ab5968853f655a1176b8c38a
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,9 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->[!UICONTROL 同類群組分析]不支援無法設為區段的量度 (包括計算量度)、非整數量度 (例如收入或發生次數)。 只有可以在區段中使用的量度才能用於[!UICONTROL 同類群組分析]，而且這些量度一次只能遞增 >1 的值。
+>[!UICONTROL 同類群組分析] 不支援無法設為區段的量度（包括計算量度）、非整數量度（例如收入）或發生次數。
+>
+>只有可以在區段中使用的量度才能用於[!UICONTROL 同類群組分析]，而且這些量度一次只能遞增 >1 的值。
 
 ## 同類群組分析功能
 

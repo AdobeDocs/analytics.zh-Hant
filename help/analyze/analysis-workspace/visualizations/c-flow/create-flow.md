@@ -4,22 +4,16 @@ title: 設定流量視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: c2fdcc96-81ac-4d3b-b255-ff805b6ff0ea
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 100%
+source-wordcount: '1304'
+ht-degree: 96%
 
 ---
 
 # 設定流量視覺效果
 
-更新後的流量視覺效果可讓您了解源自或導致您網站或應用程式上的特定轉換事件的歷程。它透過您的維度 (和維度項目) 或量度追蹤路徑。流量可讓您設定感興趣的路徑的起點或終點，或分析流經維度或維度項目的所有路徑。
-
-新的[!UICONTROL 「流量」]體驗以多種方式強化您的工作流程：
-
-* 您現在可以選擇使用量度和路徑分析維度的組合，來開始或結束您的路徑。
-* 它包含[!UICONTROL 「進階設定」]，可讓您進一步自訂[!UICONTROL 流量]。
-* 新的「建置」按鈕可讓您一次設定所有歷程、接著查詢，然後一次自動建置多個欄和節點，節省分析時間。
+流量視覺效果可協助您了解源自或導致網站或應用程式上特定轉換事件的歷程。 它透過您的維度 (和維度項目) 或量度追蹤路徑。流量視覺效果可讓您設定您感興趣路徑的起點或終點，或分析流過維度或維度項目的所有路徑。
 
 ![新的流量 UI](assets/new-flow.png)
 
