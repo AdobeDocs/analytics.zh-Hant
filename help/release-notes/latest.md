@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 78ab323ca7f508b319c293975b430c2cb3e043de
+source-git-commit: 3bfa7e7eeac52370b32060c264c408de32a56fc1
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **部分支援使用Web SDKActivity Map** | 從Web SDK 2.15.0版開始，我們已在啟用連結追蹤時開始填入Activity Map資料。 如果Web SDK使用者已透過Analytics中設定的Web SDK和Activity Map啟用連結追蹤，則此功能可讓Web SDK使用者取得Activity Map報告。<p>請注意，當客戶從一個頁面導覽至下一個頁面時，透過Web SDK啟用連結追蹤會傳送連結事件。 因此，額外的計費點擊會傳送至Adobe。 我們正在研究讓Web SDK以可鏡射AppMeasurement之功能的方式收集Activity Map。 在某些情況下，AppMeasurement會在後續的頁面檢視上個別傳送資料，減少伺服器呼叫數。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) | 不適用 | 2023 年 3 月 31 日 |
+| **部分支援使用Web SDKActivity Map** | 從Web SDK 2.15.0版開始，我們已在啟用連結追蹤時開始填入Activity Map資料。 如果Web SDK使用者已透過Analytics中設定的Web SDK和Activity Map啟用連結追蹤，則此功能可讓Web SDK使用者取得Activity Map報告。<p>當客戶從一個頁面導覽至下一個頁面時，透過Web SDK啟用連結追蹤目前會傳送連結事件。 這與AppMeasurement的運作方式不同，且可能導致傳送至Adobe的額外計費點擊。 深入了解 [此處](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 和 [此處](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | 不適用 | 2023 年 3 月 31 日 |
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | **暫時不可用** |
 | **行動儀表板中的資料故事** | 資料故事可讓您將多個可自訂的詳細資料檢視加入到行動計分卡專案的圖磚中。使用資料故事可深入了解關鍵驅動因素、相關量度以及客戶歷程中的不同步驟。您可以輕鬆滑動這些檢視以了解關鍵量度背後的整個故事。[了解更多](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不適用 | 2023 年 3 月 8 日 |
 | **已排程專案的到期日** | 無論排程頻率如何，您都可以將已排程專案的最長到期日設定為將近一年。 | 不適用 | 2023 年 3 月 8 日 |
