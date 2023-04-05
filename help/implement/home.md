@@ -2,10 +2,10 @@
 title: 實施 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
-source-git-commit: d9a5d8a15b9e108af795cdfb7ed5481d51311328
+source-git-commit: eae2b75d47a044b36ff9e5bbb311d1a2906faf91
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 100%
+source-wordcount: '900'
+ht-degree: 97%
 
 ---
 
@@ -48,7 +48,11 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
    ![舊版 JavaScript](./assets/appmeasurement-implementation.png)
 此實施方法對於使用自訂程式碼的實施非常有用，也建議在您 (想要) 進行以下行為時使用：
 
-   * [點擊層級活動對應資料](../analyze/activity-map/activity-map.md)
+   * [activity map資料](../analyze/activity-map/activity-map.md),
+
+      >[!INFO]
+      >
+      >使用最新的Web SDK，即支援Activity Map。 請參閱 [啟用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) 以取得更多資訊。
 
    * [串流媒體測量](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)
 

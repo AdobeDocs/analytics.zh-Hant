@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: b604895acfb18c566f5d282ed5781400192d3553
+source-git-commit: 025f176777ef8fd4f91d74fb493e45889c66f439
 workflow-type: tm+mt
-source-wordcount: '3853'
+source-wordcount: '3867'
 ht-degree: 95%
 
 ---
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 3 月** |  |
+| Web SDK支援Activity Map | 已更新 [實作Adobe Analytics](/help/implement/home.md) 和 [啟用Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md). |
 | 流量變數(Prop)概觀 | 新增章節及逐步程式，以釐清及改善文章內容。 從標題為「啟用流量變數報表」的文章中合併內容，並移除該文章。 請參閱 [流量變數(Prop)概觀](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md). |
 | 內部URL篩選器 | 新增章節及逐步程式，以釐清及改善文章內容。 請參閱 [內部URL篩選器](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/internal-url-filter-admin.md). |
 | 在行動計分卡中建立資料動態 | A [資料動態](/help/analyze/mobile-app/create-scorecard.md#create-data-stories) 是以中心主題或量度為建置基礎，所提供支援的資料點、業務內容和相關量度的集合。 |
