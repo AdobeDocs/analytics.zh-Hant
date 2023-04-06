@@ -3,10 +3,10 @@ description: 說明如何產生 Excel 試算表 (包含選定報表套裝之所�
 title: 下載報表套裝設定值
 feature: Report Suite Settings
 exl-id: f3e45bd5-048a-4200-a95d-4284cad72bad
-source-git-commit: 00d37f1e77bb0f2cc0c7bd728a7f8bebe56d659e
+source-git-commit: b26da8f7e3aee3c3f3e68d24bd8b170e32759bbd
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 32%
+source-wordcount: '123'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 32%
 
 3. 按一下&#x200B;**[!UICONTROL 「下載」]**。
 
-   名為Report Suite Data.tab的檔案會下載到您的本機電腦。
+   名為的檔案 `Report Suite Data.tab` 已下載到您的本地電腦。
 
 您可以在任何可處理以Tab分隔之檔案的文字編輯器中開啟檔案。
 
