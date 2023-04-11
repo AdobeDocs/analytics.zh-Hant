@@ -4,9 +4,9 @@ description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: c24a78f914faf1a236a1cb7ae2ce51dd9265012f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,11 +20,11 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **部分支援使用Web SDKActivity Map** | 從Web SDK 2.15.0版開始，我們已在啟用連結追蹤時開始填入Activity Map資料。 如果Web SDK使用者已透過Analytics中設定的Web SDK和Activity Map啟用連結追蹤，則此功能可讓Web SDK使用者取得Activity Map報告。<p>當客戶從一個頁面導覽至下一個頁面時，透過Web SDK啟用連結追蹤目前會傳送連結事件。 這與AppMeasurement的運作方式不同，且可能導致傳送至Adobe的額外計費點擊。 深入了解 [此處](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 和 [此處](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md) | 不適用 | 2023 年 3 月 31 日 |
+| **Web SDK 部分支援 Activity Map** | 從 Web SDK 2.15.0 版本開始，我們開始在啟用連結追蹤時填入 Activity Map 資料。如果 Web SDK 已啟用連結追蹤且 Analytics 已設定 Activity Map，這允許 Web SDK 使用者取得 Activity Map 報告。<p>目前，如果 Web SDK 啟用連結追蹤，在客戶從一個頁面導覽到下一個頁面時會傳送連結事件。這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。在[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此處](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解更多資訊 | 不適用 | 2023 年 3 月 31 日 |
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **行動儀表板中的資料故事** | 資料故事可讓您將多個可自訂的詳細資料檢視加入到行動計分卡專案的圖磚中。使用資料故事可深入了解關鍵驅動因素、相關量度以及客戶歷程中的不同步驟。您可以輕鬆滑動這些檢視以了解關鍵量度背後的整個故事。[了解更多](/help/analyze/mobile-app/create-scorecard.md#create-data-story) | 不適用 | 2023 年 3 月 8 日 |
 | **已排程專案的到期日** | 無論排程頻率如何，您都可以將已排程專案的最長到期日設定為將近一年。 | 不適用 | 2023 年 3 月 8 日 |
-| **專案連結共用 (不需登入)** - 僅限 Private beta 存取權 | <p>您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用專案連結。[了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 2023年4月26日 | 2023 年 6 月 |
+| **專案連結共用 (不需登入)** - 僅限 Private beta 存取權 | <p>您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用專案連結。[了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> | 2023 年 4 月 26 日 | 2023 年 6 月 |
 | **面板日期範圍更新** | 在 Workspace 中，我們新增了以下改善：<ul><li>從 2 月版開始，維度項目和資料預覽會依據面板日期範圍顯示，而不是顯示過去 90 天的內容。 </li><li>列出的所有維度項目都是根據面板日期範圍內的資料顯示。如果維度項目包含超出日期範圍的資料，您可以將超出日期範圍的額外資料顯示在清單底部。</li><li>沒有資料的維度可以顯示在左側邊欄中。按一下顯示更多選項，查看面板日期範圍外資料的維度項目。</li><li>區段和計算量度產生器中的日期預覽都將依據面板日期範圍 (除非從沒有關聯面板的元件管理員存取，則仍將依據過去 90 天) 顯示。</li><li>資料預覽將依據面板日期範圍顯示資料或元件。</li></ul> | 不適用 | 2023 年 2 月 8 日 |
 
 {style="table-layout:auto"}
@@ -53,7 +53,7 @@ AN-308177; AN-308727; AN-308846; AN-309591; AN-310614; AN-311544; AN-311570; AN-
 | **[!UICONTROL 人員]量度生命週期結束** | 2023 年 3 月 9 日 | 隨著 [[!DNL Device Co-op]](https://experienceleague.adobe.com/docs/discontinued/using/device-co-op.html) 淘汰不用，Device Co-op 相關的人員量度已不再相關。2023 年 5 月 8 日，我們將移除[!UICONTROL 人員]量度。屆時，我們會將其資料重新導向至[!UICONTROL 不重複訪客]量度，以防止專案、區段和計算量度中斷。<p>**請注意**：與[[!UICONTROL 跨裝置分析相連結的人員]量度](/help/components/metrics/people.md)不受本公告影響。 |
 | **結束[!UICONTROL 發佈清單] 功能生命週期** | 2022 年 9 月 29 日 | 作為 Reports &amp; Analytics EOL 的一部分，[!UICONTROL 發佈清單]預定在 **2023 年 12 月**&#x200B;結束生命週期。您將無法建立新的發佈清單或存取現有[!UICONTROL 發佈清單]，來傳送或排程 [!UICONTROL Analysis Workspace] 專案。 |
 | **Data Workbench 的 EOL** | 2022 年 9 月 14 日 | Adobe 打算自 **2023 年 12 月 31 日** 起終止 Data Workbench 的服務。請參閱 [Data Workbench 生命週期結束通知](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=zh-Hant)以取得詳細資料。若有任何問題，請聯絡貴組織的 Adobe 客戶經理。 |
-| **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://www.adobe.com/go/analytics_rnaeol_en)說明生命週期結束流程。 |
+| **[!DNL Reports & Analytics]** EOL | 2022 年 1 月 4 日 | 自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 [!DNL Reports & Analytics] 及其隨附的報告和功能。支援 [!DNL Reports & Analytics] 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 [!DNL Reports & Analytics] 功能在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中都有提供。自 Analysis Workspace 在 2015 年發佈以來，[!DNL Reports & Analytics] 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。[本通知](https://www.adobe.com/go/analytics_rnaeol_tw)說明生命週期結束流程。 |
 
 {style="table-layout:auto"}
 
