@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 6d9b568a0ce9d0e8b25d04e934052d2f8012da8c
+source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
 workflow-type: tm+mt
-source-wordcount: '1538'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | ----------- | ---------- | ------- | ---- |
 | **Analytics Source Connector 串流傳輸的行/列篩選** | Adobe Experience Platform 中的 Analytics Source Connector 現在允許篩選 Analytics 資料；這類資料是用來在[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中填入設定檔。列層級篩選有助減少與設定檔有關聯的事件數量。行層級篩選有助減少事件本身的豐富度，進而讓您可最佳化設定檔權利的使用。這項篩選僅適用於傳送至即時客戶設定檔和[身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)的資料。**篩選不會影響傳送到資料湖的資料；這類資料是供 Customer Journey Analytics** 等應用程式使用。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant#filtering-for-profile) | 不適用 | 2023 年 3 月 29 日 |
 | **Web SDK 部分支援 Activity Map** | 從 Web SDK 2.15.0 版本開始，我們開始在啟用連結追蹤時填入 Activity Map 資料。如果 Web SDK 已啟用連結追蹤且 Analytics 已設定 Activity Map，這允許 Web SDK 使用者取得 Activity Map 報告。<p>目前，如果 Web SDK 啟用連結追蹤，在客戶從一個頁面導覽到下一個頁面時會傳送連結事件。這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。在[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此處](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解更多資訊 | 不適用 | 2023 年 3 月 31 日 |
-| **Experience Edge的IP模糊化** | Experience Edge支援直接傳送至Adobe Experience Platform之資料的IP模糊化功能。 如此可讓直接將資料傳送至Platform以用於CJA或其他Platform解決方案的客戶受益。 IP模糊化會在資料流層級設定。 支援移除最後八位元或整個IP位址。<p>**附註**:模糊化不適用於傳送至Adobe Analytics的資料。 Analytics會繼續取得完整IP。 IP處理會繼續在Analytics中個別執行。 未來我們計畫允許將Analytics資料模糊化至Edge。 | 不適用 | AEP 2023年4月26日發行 |
+| **Experience Edge的IP模糊化** | Experience Edge支援直接傳送至Adobe Experience Platform之資料的IP模糊化功能。 如此可讓直接將資料傳送至Platform以用於CJA或其他Platform解決方案的客戶受益。 IP模糊化是在資料流層級設定。 支援移除最後八位元或整個IP位址。<p>**附註**:模糊化不適用於傳送至Adobe Analytics的資料。 Analytics會繼續取得完整IP。 IP處理會繼續在Analytics中個別執行。 未來我們計畫允許將Analytics資料模糊化至Edge。 | 不適用 | AEP 2023年4月26日發行 |
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **專案連結共用 (不需登入)** - 僅限 Private beta 存取權 | <p>您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用專案連結。[了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>若要加入 Private beta，請聯絡您的 Adobe 客戶團隊。</p> | 2023 年 4 月 26 日 | 2023 年 6 月 |
 
