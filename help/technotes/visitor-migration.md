@@ -5,16 +5,20 @@ title: 訪客移轉
 topic-fix: Developer and implementation
 feature: Analytics Basics
 exl-id: d44628c8-902f-4e60-b819-41d5537407d8
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 21bbb59cdc630823cf342ff7dd0142b83f89a314
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 97%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
 # 訪客移轉
 
-訪客移轉是將訪客 ID Cookie 從一個網域移轉至另一個網域的程序。
+>[!NOTE]
+>
+>如果您已實作Experience Cloud訪客ID服務，則寬限期不適用於您，且不應啟用。
+
+訪客移轉是將訪客ID Cookie(s_vi)從一個網域移轉至另一個網域的程式。
 
 訪客移轉可讓您在變更資料收集網域時保留訪客識別 Cookie。資料收集網域可能因下列原因而變動:
 
