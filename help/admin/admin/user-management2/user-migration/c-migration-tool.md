@@ -3,10 +3,10 @@ description: 關於將 Analytics 使用者 ID 移轉至 Adobe Experience Cloud �
 title: Analytics 使用者移轉至 Admin Console
 feature: Admin Tools
 exl-id: f4bc0e92-af53-40db-8138-44d29e4b25fe
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '3162'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -120,7 +120,7 @@ Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理�
      <li id="li_8CFFF72877E8456DAC3241143AD648AD">確認自己是 Adobe Admin Console 的 Analytics 產品管理員。 </li> 
      <li id="li_25DAA8D1EEDA45A0B5B59472BD8896C4">聯絡您的使用者群，告知他們在移轉開始後，其登入體驗將有所變動。 </li> 
      <li id="li_5B50F942F6A8483FAFA500AFF428702C">審核您目前的使用者與權限，並執行清除活動。 </li> 
-    </ul> <p>若要加快移轉速度，請前往 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html">Adobe 客戶服務</a>聯絡客戶成功經理，提交提早開始日期的請求。 </p> </td> 
+    </ul> <p>若要加快移轉速度，請連絡您的Adobe客戶團隊，網址為 <a href="https://helpx.adobe.com/tw/marketing-cloud/contact-support.html"> Adobe客戶服務</a> 並提交較早開始日期的請求。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 我是 Analytics 管理員，但沒有 Adobe Admin Console 的存取權。 誰能協助我取得 Adobe Admin Console 的存取權？ </p> </td> 

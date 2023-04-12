@@ -3,18 +3,16 @@ title: websiteBot
 description: 利用滑鼠的移動動態地辨認出機器人。
 feature: Variables
 exl-id: de997254-c604-4ca0-bdda-5920f3a4fa57
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: f3c656b0b631d655159ae89d4622990937cf84ef
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '381'
 ht-degree: 100%
 
 ---
 
 # Adobe 外掛程式：websiteBot
 
->[!IMPORTANT]
->
->此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
 此`websiteBot`外掛程式可讓您動態地辨認出桌上電腦使用者是否為機器人。 您可以使用這些資料來提高所有報告類型的正確性，這可讓您以更好的方式測量合理的網站流量。
 

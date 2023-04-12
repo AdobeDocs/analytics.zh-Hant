@@ -2,9 +2,9 @@
 title: 分類設定作業管理員
 description: 檢視從「分類設定」產生的最新和已完成的分類作業。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -12,10 +12,6 @@ ht-degree: 100%
 # 分類設定作業管理員
 
 分類設定作業管理員可讓您查看從「分類設定」產生的最新和已完成的分類作業。您還可以利用此介面下載特定作業的分類資料或範本，或將更多資料上傳至某一項作業。
-
->[!NOTE]
->
->此功能將可供所有將報告套裝移轉到新分類架構的客戶使用。如需詳細資訊，請聯絡 Adobe 客戶服務或您的客戶經理。
 
 **[!UICONTROL 元件]** > **[!UICONTROL 分類設定]** > **[!UICONTROL 作業]**
 

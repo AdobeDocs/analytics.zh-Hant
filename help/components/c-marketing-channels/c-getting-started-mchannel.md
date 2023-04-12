@@ -3,9 +3,9 @@ title: 行銷管道快速入門
 description: 了解行銷管道工作流程、自動設定，以及如何套用範本報表套裝設定至多個報表套裝。
 feature: Marketing Channels
 exl-id: 35938bf9-89ab-434f-9dc2-7a65251412ef
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '811'
 ht-degree: 99%
 
 ---
@@ -87,7 +87,6 @@ ht-degree: 99%
 >
 >套用規則集之前，必須先從範本套用管道。執行該程序時，所有報表套裝中的管道必須相同。
 
-1. 確保選定的報表套裝有啟用行銷管道報表。此步驟由您的帳戶管理員執行。
 1. 按一下 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]**。
 1. 在&#x200B;**[!UICONTROL 「報表套裝管理員」]**&#x200B;頁面上，選擇範本報表套裝，以及一個或多個目標報表套裝。
 1. 按一下&#x200B;**[!UICONTROL 「編輯設定]** > **[!UICONTROL 行銷管道]** > **[!UICONTROL 行銷管道管理員」]**。

@@ -2,10 +2,10 @@
 title: 裝置圖表
 description: 了解使用裝置圖表銜接資料的先決條件和限制。
 exl-id: b8408a7d-6aff-4fff-b535-f10d422bcf0d
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '321'
-ht-degree: 68%
+ht-degree: 62%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 ## 裝置圖表專屬先決條件
 
-如果您要使用裝置圖表方法實施作業跨裝置分析，須進行下列事項。請與組織內部團隊及 Adobe 客戶經理合作，確保您符合以下所有條件。
+如果您要使用裝置圖表方法實施作業跨裝置分析，須進行下列事項。與組織內的團隊及Adobe客戶團隊合作，確保您符合下列所有條件。
 
 >[!WARNING]
 >

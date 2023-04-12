@@ -2,7 +2,7 @@
 title: 排除Adobe Analytics中的資料
 description: 了解如何在資料收集前後排除資料的各種方法。
 exl-id: dee5bf3b-8bb3-48eb-908d-b4a981f17bfb
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 * **依IP排除**:Adobe Analytics提供基本功能，可排除報表套裝中IP位址或範圍的資料。 請參閱 [依IP排除](/help/admin/admin/exclude-ip.md) （在管理員使用手冊中）。
 * **機器人規則**:機器人規則會從已知機器人使用者代理字串中擷取流量，並從Analytics報表中排除。 透過機器人規則排除的資料會放置在機器人報表中。 可建立自訂機器人規則來排除其他資料。 請參閱 [機器人規則](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/bot-rules.md) （在管理員使用手冊中）。
-* **VISTA規則**:會根據您的組織需求，將符合您需求的點擊傳送至另一個專用於接收排除資料的報表套裝。 VISTA規則通常用於IP位址，但不限於這些位址。 您可以使用任何維度在報表套裝中包含或排除資料。 VISTA規則需支付額外費用；如需詳細資訊，請連絡貴組織的客戶經理。
+* **VISTA規則**:會根據您的組織需求，將符合您需求的點擊傳送至另一個專用於接收排除資料的報表套裝。 VISTA規則通常用於IP位址，但不限於這些位址。 您可以使用任何維度在報表套裝中包含或排除資料。 VISTA規則需支付額外費用；如需詳細資訊，請連絡您的Adobe帳戶團隊。
 * **退出Cookie**:您網站的所有訪客都可瀏覽您追蹤伺服器的特定頁面，以自動選擇退出Adobe Analytics追蹤。 請參閱 [實作退出連結](/help/implement/js/opt-out.md) 中。
 
 >[!TIP]

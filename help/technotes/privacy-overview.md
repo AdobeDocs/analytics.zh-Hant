@@ -4,10 +4,10 @@ keywords: 隱私權
 title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 100%
+source-wordcount: '763'
+ht-degree: 96%
 
 ---
 
@@ -53,89 +53,24 @@ Adobe Analytics 收集下列資料：
 
 ## 其他隱私權考量事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
 
-<table id="table_247B425E774F403288233824870D070E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 地區/國家 </th> 
-   <th colname="col2" class="entry"> 考量事項 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> Adobe 強烈建議客戶避免傳遞個人識別資訊 (PII) 至 Adobe，尤其是 Analytics 不需要 PII 的情況下。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 進行分析時應通知使用者並提供選項給使用者。加拿大、澳洲、歐盟 (部分國家要求提供加入選項) 以及拉丁美洲和亞太地區的許多國家都有相關法律規定。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 如果使用第一方 Cookie，則客戶有專屬的 Analytics 退出選項，請勿使用 Adobe.com 上的退出選項。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 第一方分析不屬於「線上行為廣告自我監控計畫」(Self-Regulatory Program for Online Behavioral Advertising，簡稱「AdChoices」) 的規範範疇。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 跨裝置資料除非繫結至客戶提供的識別碼 (例如雜湊使用者名稱)，否則不應合併。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 對於客戶將印象資訊結合至 PII，可能會有限制。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 歐盟大部分國家不認為分析 Cookie 是絕對必要的。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。 <p>這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需有關其他 IP 模糊化設定的詳細資訊，請參閱 </p> <p> 在管理員用戶指南中的「<a href="/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md">一般帳戶設定</a>」。</p> </td>
-  </tr> 
-  <tr> 
-   <td colname="col1"> 全球 </td> 
-   <td colname="col2"> 客戶可以在 JavaScript 測量代碼中，將 Cookie 期限變數設為「none」、「session」或其他可在數秒內測量的指定值。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 歐洲 </td> 
-   <td colname="col2"> Adobe 已開發出新的「從設計開始關注隱私權」設定，現在可在 Adobe ClientCare for Adobe Analytics (舊稱 SiteCatalyst) 發行版本 14.9 和 15.4 中啟用。啟用此新設定後，當 Adobe 收集到 IP 位址，IP 位址的最後八位元 (最後一部分) 就會立即更換為 0 值。在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 德國 </td> 
-   <td colname="col2"> <p>如果您尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡您的 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 地區/國家 | 考量事項 |
+|--- |--- |
+| 全球 | Adobe 強烈建議客戶避免傳遞個人識別資訊 (PII) 至 Adobe，尤其是 Analytics 不需要 PII 的情況下。 |
+| 全球 | 進行分析時應通知使用者並提供選項給使用者。加拿大、澳洲、歐盟 (部分國家要求提供加入選項) 以及拉丁美洲和亞太地區的許多國家都有相關法律規定。 |
+| 全球 | 如果使用第一方 Cookie，則客戶有專屬的 Analytics 退出選項，請勿使用 Adobe.com 上的退出選項。 |
+| 全球 | 第一方分析不屬於「線上行為廣告自我監控計畫」(Self-Regulatory Program for Online Behavioral Advertising，簡稱「AdChoices」) 的規範範疇。 |
+| 全球 | 跨裝置資料除非繫結至客戶提供的識別碼 (例如雜湊使用者名稱)，否則不應合併。 |
+| 全球 | 對於客戶將印象資訊結合至 PII，可能會有限制。 |
+| 歐洲 | 歐盟大部分國家不認為分析 Cookie 是絕對必要的。 |
+| 歐洲 | 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需有關其他 IP 模糊化設定的詳細資訊，請參閱在管理員用戶指南中的「[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」。 |
+| 全球 | 客戶可以在 JavaScript 測量代碼中，將 Cookie 期限變數設為「none」、「session」或其他可在數秒內測量的指定值。 |
+| 歐洲 | Adobe 已開發出新的「從設計開始關注隱私權」設定，現在可在 Adobe ClientCare for Adobe Analytics (舊稱 SiteCatalyst) 發行版本 14.9 和 15.4 中啟用。啟用此新設定後，當 Adobe 收集到 IP 位址，IP 位址的最後八位元 (最後一部分) 就會立即更換為 0 值。在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 |
+| 德國 | 如果您尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡您的 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 |
 
-## EMEA 資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
+## EMEA資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-下列 EMEA 資料中心目前代管 Adobe Analytics 資料：
+下列EMEA資料中心目前托管Adobe Analytics資料：
 
-<table id="table_65794B3790FD4B519EE89CF4F4B88314"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Adobe 名稱 </th> 
-   <th colname="col2" class="entry"> 地址 </th> 
-   <th colname="col3" class="entry"> 設施類型 (操作者) </th> 
-   <th colname="col4" class="entry"> 支援的解決方案元件 </th> 
-   <th colname="col5" class="entry"> 認證 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> AMS1 </td> 
-   <td colname="col2"> <p>Luttenbergweg 4 </p> <p>Amsterdam 1101 EC </p> <p>The Netherlands </p> </td> 
-   <td colname="col3"> <p>Colocation Facility </p> <p>(Equinix) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> <p>ISO9001:2008 </p> <p>ISO14001:2004 </p> <p>OHSAS18001:2007 </p> <p>ISO27001:2005 </p> <p>ISO50001:2011 </p> <p>PCI-DSS </p> <p> <a href="https://www.equinix.com/solutions/by-services/colocation/standards-and-compliance/iso-certified-data-centers/#table"  > Equinix </a> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> LON5 </td> 
-   <td colname="col2"> <p>3 Centro </p> <p>Boundary Way </p> <p>Hemel Hempstead HP2 7SU </p> <p>UK </p> </td> 
-   <td colname="col3"> <p>Colocation Facility </p> <p>(Gyron) </p> </td> 
-   <td colname="col4"> <p>Multichannel Analytics, </p> <p>Digital Analytics </p> </td> 
-   <td colname="col5"> SSAE 16 </td> 
-  </tr> 
- </tbody> 
-</table>
+| Adobe 名稱 | 地址 | 設施類型 (操作者) | 支援的解決方案元件 | 認證 |
+|--- |--- |--- |--- |--- |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility(Gyron) | 多頻道分析、數位分析 | SSAE 16 |

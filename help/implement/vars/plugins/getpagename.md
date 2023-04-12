@@ -3,40 +3,57 @@ title: getPageName
 description: 從目前的網站路徑建立易讀的 pageName。
 feature: Variables
 exl-id: a3aaeb5d-65cd-45c1-88bb-f3c0efaff110
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '686'
+ht-degree: 76%
 
 ---
 
 # Adobe 外掛程式：getPageName
 
->[!IMPORTANT]
->
->此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
 `getPageName` 外掛程式可為目前的 URL 建立易讀、好記的格式化版本。如果您想要在報表中輕鬆設定且理解的 [`pageName`](../page-vars/pagename.md) 值，Adobe 建議使用此外掛程式。如果您已有 `pageName` 變數的命名結構 (例如透過資料層)，就不需要此外掛程式。若您沒有其他解決方案可設定 `pageName` 變數，最好使用此外掛程式。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## 使用Web SDK擴充功能安裝外掛程式
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe提供的擴充功能可讓您將最常用的外掛程式與Web SDK搭配使用。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getPageName
-1. Save and publish the changes to the rule.-->
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下 **[!UICONTROL 標籤]** 在左側，按一下所需的標籤屬性。
+1. 按一下 **[!UICONTROL 擴充功能]** 在左側，按一下 **[!UICONTROL 目錄]** 標籤
+1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 擴充功能。
+1. 按一下 **[!UICONTROL 資料元素]** 在左側，然後按一下所需的資料元素。
+1. 使用下列設定設定所需的資料元素名稱：
+   * 擴充功能：常見Web SDK外掛程式
+   * 資料元素: `getPageName`
+1. 在右側設定所需的參數。
+1. 儲存並發佈資料元素的變更。
+
+## 手動安裝外掛程式以實作Web SDK
+
+手動實作Web SDK時尚不支援此外掛程式。
+
+## 使用Adobe Analytics擴充功能安裝外掛程式
+
+Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛程式。
+
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下所需的標籤屬性。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
+   * 條件：無
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
+1. 使用下列設定將動作新增至上述規則：
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getPageName
+1. 儲存並發佈規則的變更。
 
 ## 使用自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
+如果您不想使用常見Analytics外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。

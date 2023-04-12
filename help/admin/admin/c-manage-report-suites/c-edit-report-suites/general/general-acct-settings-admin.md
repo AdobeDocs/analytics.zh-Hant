@@ -4,10 +4,10 @@ title: 一般帳戶設定
 feature: Admin Tools
 uuid: c1ab5c34-2c41-4d12-a706-0e760dff8a95
 exl-id: f49babb2-8e26-4cc6-b264-b4d7be93f130
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 100%
+source-wordcount: '810'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 | 交易 ID 儲存 | 讓您能夠使用「[交易 ID](/help/import/data-sources/transactionid.md)」資料來源。 |
 | 啟用 Data Warehouse | 前往「Analytics > 工具 > Data Warehouse」底下啟用 Data Warehouse UI。 |
 | 郵遞區號選項 | 讓您指定郵遞區號，而不是使用由我們的地理 IP 查詢產生的任何內容。 |
-| 多位元組字元支援 | 多位元組字元支援可使用 UTF-8 儲存報告套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。聯絡您的帳戶管理員或客戶服務，以變更現有報告套裝的多位元組字元支援。 |
+| 多位元組字元支援 | 多位元組字元支援可使用 UTF-8 儲存報告套裝中的字元。系統收到報告時就會將您網頁資料的字元集轉換為 UTF-8 字元集，因此您可以在行銷報告中使用任何語言。請連絡您的Adobe帳戶團隊或客戶服務，以變更現有報表套裝的多位元組字元支援。 |
 | 已啟用 | 指定是否啟用此報表套裝。 |
 | 基本貨幣 | 允許您為此報表套裝指定基本[貨幣](https://experienceleague.adobe.com/docs/analytics/implementation/vars/config-vars/currencycode.html?lang=zh-Hant)。 |
 | 組織 ID | 與您佈建的 Experience Cloud 公司相關聯的 ID。 此 ID 是 24 個字元的英數字串，後面接著 (而且必須包含) @AdobeOrg。 |

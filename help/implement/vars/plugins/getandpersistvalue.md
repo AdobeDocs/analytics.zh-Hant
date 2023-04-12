@@ -3,40 +3,57 @@ title: getAndPersistValue
 description: 儲存值以便稍後隨時擷取。
 feature: Variables
 exl-id: b562f9ad-3844-4535-b729-bd3f63f6f0ae
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '677'
+ht-degree: 70%
 
 ---
 
 # Adobe 外掛程式：getAndPersistValue
 
->[!IMPORTANT]
->
->此外掛程式由 Adobe Consulting 提供，協助您從 Adobe Analytics 中獲得更多價值。Adobe 客戶服務不提供此外掛程式的支援，包括安裝或疑難排解在內。如果您需要與此外掛程式有關的協助，請聯絡貴組織的客戶經理。客戶經理可安排您與顧問會面以尋求協助。
+{{plug-in}}
 
 `getAndPersistValue` 外掛程式可讓您將值儲存在 Cookie 中，以便稍後造訪時擷取。其作用與 [!UICONTROL 儲存期間] 功能(在Adobe Experience Platform Data Collection中的Adobe Analytics擴充功能中)。 設定 Analytics 變數後，如果您想在後續的點擊中自動讓該變數保留相同的值，Adobe 建議您使用此外掛程式。 若 [!UICONTROL 儲存期間] Analytics擴充功能中的功能已足夠。 如果您不需要在後續的點擊中設定及保留相同值的變數，也不需要使用此外掛程式。 eVar 的內建永續性不需要使用此外掛程式，因為 eVar 是由 Adobe 保存在伺服器端。
 
-<!--## Install the plug-in using the Web SDK or the Adobe Analytics extension
+## 使用Web SDK擴充功能安裝外掛程式
 
-Adobe offers an extension that allows you to use most commonly-used plug-ins.
+Adobe提供的擴充功能可讓您將最常用的外掛程式與Web SDK搭配使用。
 
-1. Log in to [Adobe Experience Platform Data Collection](https://experience.adobe.com/data-collection) using your AdobeID credentials.
-1. Click the desired tag property.
-1. Go to the [!UICONTROL Extensions] tab, then click on the [!UICONTROL Catalog] button
-1. Install and publish the [!UICONTROL Common Analytics Plugins] extension
-1. If you haven't already, create a rule labeled "Initialize Plug-ins" with the following configuration:
-    * Condition: None
-    * Event: Core – Library Loaded (Page Top)
-1. Add an action to the above rule with the following configuration:
-    * Extension: Common Analytics Plugins
-    * Action Type: Initialize getAndPersistValue
-1. Save and publish the changes to the rule.-->
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下 **[!UICONTROL 標籤]** 在左側，按一下所需的標籤屬性。
+1. 按一下 **[!UICONTROL 擴充功能]** 在左側，按一下 **[!UICONTROL 目錄]** 標籤
+1. 找到並安裝 **[!UICONTROL 常見Web SDK外掛程式]** 擴充功能。
+1. 按一下 **[!UICONTROL 資料元素]** 在左側，然後按一下所需的資料元素。
+1. 使用下列設定設定所需的資料元素名稱：
+   * 擴充功能：常見Web SDK外掛程式
+   * 資料元素: `getAndPersistValue`
+1. 在右側設定所需的參數。
+1. 儲存並發佈資料元素的變更。
+
+## 手動安裝外掛程式以實作Web SDK
+
+手動實作Web SDK時尚不支援此外掛程式。
+
+## 使用Adobe Analytics擴充功能安裝外掛程式
+
+Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛程式。
+
+1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 按一下所需的標籤屬性。
+1. 前往[!UICONTROL 擴充功能]標記，然後按一下[!UICONTROL 「目錄」]按鈕
+1. 安裝並發佈[!UICONTROL 常用 Analytics 外掛程式]擴充功能
+1. 如果您尚未執行上述步驟，請使用下列設定建立標示為「初始化外掛程式」的規則：
+   * 條件：無
+   * 事件：核心 - 已載入資料庫 (頁面頂端)
+1. 使用下列設定將動作新增至上述規則：
+   * 擴充功能：常用 Analytics 外掛程式
+   * 動作類型：初始化 getAndPersistValue
+1. 儲存並發佈規則的變更。
 
 ## 使用自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用外掛程式擴充功能，可以使用自訂程式碼編輯器。
+如果您不想使用常見Analytics外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。

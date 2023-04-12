@@ -4,10 +4,10 @@ title: Reports & Analytics 快速入門
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 98%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
 ## 登入 Reports &amp; Analytics
 
-存取介面之前，請與您的帳戶管理員或 Adobe 客戶服務人員合作，共同設定您公司的帳戶。
+存取介面之前，請與您的Adobe帳戶團隊或客戶服務合作，以設定您公司的帳戶。
 
 ## 使用 Experience Cloud 登入
 

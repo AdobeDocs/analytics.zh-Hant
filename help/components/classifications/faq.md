@@ -3,10 +3,10 @@ title: 分類常見問題集
 description: 使用分類時的常見問題。
 feature: Classifications
 exl-id: e929d7cb-0bfd-46de-88d1-aea2b4b91911
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
    *如果[維度]等於 `0`，請以自訂值 `Zero` 覆寫[維度]的值。*
 
-* **請求 VISTA 規則**：工程技術服務顧問會為您設定伺服器端規則，但需額外付費。請聯絡貴組織的客戶經理以申請 VISTA 規則。
+* **請求 VISTA 規則**：工程技術服務顧問會為您設定伺服器端規則，但需額外付費。請連絡您的Adobe帳戶團隊以要求VISTA規則。
 
 ## 我可以使用分類匯入工具來分類尚不存在的維度項目嗎？
 

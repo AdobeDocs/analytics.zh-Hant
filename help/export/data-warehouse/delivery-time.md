@@ -3,10 +3,10 @@ title: 疑難排解 Data Warehouse 請求傳送時間
 description: 判斷可能延長 Data Warehouse 請求傳送時間的潛在問題。
 feature: Data Warehouse
 exl-id: eed4d172-fffd-453f-ab5b-0fc2a79d5bd0
-source-git-commit: b8640d1387a475e2a9dd082759f0514bd18c1b6e
+source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -37,4 +37,4 @@ ht-degree: 100%
 
 * **Analysis Workspace**：雖然不提供無限制的維度項目，但幾乎包含 Data Warehouse 提供的所有其他使用案例。
 * **資料摘要**：每日擷取報表套裝中的所有原始資料，並傳送至 FTP 站台。如此一來，您可以將這些資料匯入您自己的資料庫，並執行查詢以取得您想尋找的資料。
-* **自訂工程技術服務解決方案**：Adobe 工程技術服務可為貴組織提供自訂解決方案，但需支付額外費用。請洽詢組織的客戶經理，以取得其他詳細資訊。
+* **自訂工程技術服務解決方案**：Adobe 工程技術服務可為貴組織提供自訂解決方案，但需支付額外費用。如需詳細資訊，請連絡您的Adobe帳戶團隊。
