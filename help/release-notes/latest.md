@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 611477ef794464de0b05b45e8445ed8fdd32b154
+source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1568'
+ht-degree: 81%
 
 ---
 
@@ -25,6 +25,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **Experience Edge的IP模糊化** | Experience Edge支援直接傳送至Adobe Experience Platform之資料的IP模糊化功能。 如此可讓直接將資料傳送至Platform以用於CJA或其他Platform解決方案的客戶受益。 IP模糊化是在資料流層級設定。 支援移除最後八位元或整個IP位址。<p>**附註**:模糊化不適用於傳送至Adobe Analytics的資料。 Analytics會繼續取得完整IP。 IP處理會繼續在Analytics中個別執行。 未來我們計畫允許將Analytics資料模糊化至Edge。 | 不適用 | AEP 2023年4月26日發行 |
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **專案連結共用 (不需登入)** - 僅限 Private beta 存取權 | <p>您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。您可以與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用專案連結。[了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md)</p> <p>若要加入 Private beta，請聯絡您的 Adobe 客戶團隊。</p> | 2023 年 4 月 26 日 | 2023 年 6 月 |
+| 2個適用於Adobe Analytics 2.0 API的新端點指南 | <ul><li>[AnalyticsDimensionAPI](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics量度API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 不適用 | 2023 年 4 月 10 日 |
 
 {style="table-layout:auto"}
 
