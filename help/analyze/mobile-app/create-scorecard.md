@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
 source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2353'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -239,10 +239,9 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 1. 新增幻燈片以建置資料故事。第一張幻燈片是預設產生的。
 
-
    要新增新幻燈片，請將滑鼠懸停在幻燈片上或按一下幻燈片，然後從可用選項中進行選擇：
 
-   * 點選 [!UICONTROL +] 簽名以建立新幻燈片。
+   * 點選 [!UICONTROL +] 號建立新幻燈片。
 
    * 點選複製圖示以複製現有幻燈片。
 
@@ -250,7 +249,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
    ![建立資料故事](assets/data-story2.png)
 
-若要刪除投影片，請點選垃圾桶圖示。
+若要刪除幻燈片，請點選垃圾桶圖示。
 
 ### 自訂資料故事 {#customize-data-story}
 
@@ -264,7 +263,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
    ![建立資料故事](assets/data-story3.png)
 
-   將元件（如視覺效果）拖放至圖磚時，元件會套用至所有資料文章投影片。
+   把元件 (如視覺效果) 拖曳到磚上時，該元件將套用至所有資料故事幻燈片。
 
 1. 要只對標題套用變更，請按住 Shift 鍵來套用變更。
 
@@ -286,7 +285,6 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 導覽列會顯示代表各張幻燈片內容的圖示。如果有多張幻燈片，導覽列可讓您輕鬆瀏覽到特定幻燈片。
 
 要在磚和幻燈片之間移動，請點選導覽列。
-
 
 ![建立資料故事](assets/data-story5.png)
 
