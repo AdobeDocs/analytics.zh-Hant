@@ -4,14 +4,18 @@ description: 如何在工作區中建立註解。
 role: User, Admin
 feature: Annotations
 exl-id: 3cf9a0fd-11c9-4375-8bbe-9551ba86f86d
-source-git-commit: 20ab0e9728969c4cc11227a1255e41e3d1a1540f
+source-git-commit: 10fb26d425130fddf485b150f26f894b0b967735
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '636'
 ht-degree: 100%
 
 ---
 
 # 建立註解
+
+根據預設，只有管理員才能建立註解。使用者有權檢視註解，就像檢視其他 Analytics 元件一樣 (例如區段、計算量度等)。
+
+但是，管理員可以透過 [Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant) 將「[!UICONTROL 註解建立]」權限 (Analytics 工具) 授予使用者。
 
 1. 有幾種方法可以開始建立註解：
 
