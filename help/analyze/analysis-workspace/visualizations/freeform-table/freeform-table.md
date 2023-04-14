@@ -4,9 +4,9 @@ description: 自由表格是 Analysis Workspace 中資料分析的基礎
 feature: Freeform Tables
 role: User, Admin
 exl-id: 7a0432f9-2cab-47be-bbd6-ede96cb840a3
-source-git-commit: 8ca676a9e69195ef873981dd390bb0a6d4d465f1
+source-git-commit: ef2b452a0dcb2659b49fc0507b096952a89ea2f4
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '629'
 ht-degree: 69%
 
 ---
@@ -15,11 +15,13 @@ ht-degree: 69%
 
 在 Analysis Workspace 中，自由表格是互動式資料分析的基礎。您可以將各種[元件](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hant)拖放至行和欄中，建立自訂表格供分析之用。放置每個元件時，表格會立即更新，以便您快速分析，並深入探討。
 
-為了說明，請從空的自由表格開始。
+## 建立簡單的自由表格
+
+您以空白的自由表格開始。
 
 ![空的自由表格](assets/freeform-table-1.png)
 
-如果您將 **[!UICONTROL **&#x200B;瀏覽&#x200B;**]** 量度 **[!UICONTROL **&#x200B;將量度拖曳到此處（或任何其他元件）**]**，自由表格會在您選取的期間內，自動填入每天的造訪次數。
+如果您將 **[!UICONTROL **&#x200B;瀏覽&#x200B;**]** 量度 **[!UICONTROL **&#x200B;將量度拖曳到此處（或任何其他元件）**]**，自由表格會在您選取的日曆期間自動填入每天的造訪次數。
 
 ![造訪自由表格](assets/freeform-table-2.png)
 
