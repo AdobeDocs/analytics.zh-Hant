@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 7eef1ef0bbe39db25b430d81789743b357778252
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 100%
 
 ---
@@ -56,7 +56,6 @@ ht-degree: 100%
       + 區段 {#segments}
          + [建立區段](analysis-workspace/components/segments/t-freeform-project-segment.md)
          + [快速區段](analysis-workspace/components/segments/quick-segments.md)
-         + [臨時區段](analysis-workspace/components/segments/ad-hoc-segments.md)
       + 日曆和日期範圍 {#calendar-date-ranges}
          + [日曆和日期範圍總覽](analysis-workspace/components/calendar-date-ranges/calendar.md)
          + [建立自訂日期範圍](analysis-workspace/components/calendar-date-ranges/custom-date-ranges.md)

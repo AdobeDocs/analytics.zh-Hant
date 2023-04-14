@@ -4,10 +4,10 @@ title: Analysis Workspace 的已知限制
 feature: Workspace Basics
 role: User, Admin
 exl-id: 520e970b-1387-4f70-985b-bfe397f4a21b
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 100%
+source-wordcount: '414'
+ht-degree: 90%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 ## 元件 > 區段
 
 * [!UICONTROL 「發生次數」]、[!UICONTROL 「不重複訪客」]等特定量度和維度無法設為區段。
-* 在[面板放置區](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant)中建立的臨機區段，不會顯示在 Workspace 的左側邊欄或「區段」元件管理員中，除非將它們設為公開。您可以編輯區段並選取&#x200B;**[!UICONTROL 「將此區段設為公開」]**&#x200B;來完成此操作。
+* 在 [面板放置區](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant) 是快速篩選的類型。 除非將它們設為公開，否則它們不會顯示在工作區的左側邊欄或區段元件管理員中。 如需詳細資訊，請參閱 [快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ## 元件 > 計算量度
 

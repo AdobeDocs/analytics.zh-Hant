@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: f8a4b3442f7e9f631ba8e472c69fbc4d1cc3877e
 workflow-type: tm+mt
-source-wordcount: '1098'
-ht-degree: 95%
+source-wordcount: '1111'
+ht-degree: 93%
 
 ---
 
@@ -70,9 +70,9 @@ Analysis Workspace 中有以下面板類型:
 
 您也可以將非區段元件直接拖曳至拖放區域，以建立隨選區段，節省前往「區段產生器」的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
 
-臨機區段是專案的本機區段，除非您將其設為公用，否則不會顯示在左側邊欄中。
+臨機區段是一種快速區段類型，且為專案本機區段。 除非您將其公開，否則左側邊欄不會顯示。
 
-![](/help/admin/admin/assets/filter.png)
+如需詳細資訊，請參閱 [快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### 下拉篩選器 {#dropdown-filter}
 
