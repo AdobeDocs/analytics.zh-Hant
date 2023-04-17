@@ -4,9 +4,9 @@ description: 透過「同類群組分析」，深入了解使用對象資料，�
 feature: Cohort Analysis
 role: User, Admin
 exl-id: 6a46e76f-671e-4b1b-933a-6c2776c72d09
-source-git-commit: 9f309319d67adb96cef6b1951c3ce485a57cd8da
+source-git-commit: fbb9c742ca169e727cffa9b8e5e93ba23ced0ebf
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '490'
 ht-degree: 96%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 96%
 * 在客戶生命週期的正確時間點轉移行銷預算。
 * 識別何時應終止試用或優惠方案，以獲取最大價值。
 * 獲得定價、升級路徑等領域的 A/B 測試相關想法。
-* 在指導分析報表中檢視[!UICONTROL 同類群組分析]報表。
 
 所有具有 [!UICONTROL Analysis Workspace] 存取權限的 Analytics 客戶，皆可使用[!UICONTROL 同類群組分析]。
 
