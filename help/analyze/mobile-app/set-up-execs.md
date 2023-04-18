@@ -5,9 +5,9 @@ feature: Analytics Dashboards
 role: User, Admin
 exl-id: 0e858407-2852-4a5f-a0df-3ba290fcca8f
 source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '751'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 97%
 
 **若高階主管使用者使用 iOS：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)]** 底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 `[iOS link](https://apple.co/2zXq0aN)`
 
 **若高階主管使用者使用 Android：**
 
-按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 「工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)」]**&#x200B;底下存取)，然後依照提示下載、安裝和開啟應用程式：
+按一下以下連結 (也可從 Analytics 中的&#x200B;**[!UICONTROL 工具]** > **[!UICONTROL Analytics 儀表板 (行動應用程式)]** 底下存取)，然後依照提示下載、安裝和開啟應用程式：
 
 `[Android link](https://bit.ly/2LM38Oo)`
 
@@ -114,4 +114,4 @@ ht-degree: 97%
 
 >[!IMPORTANT]
 >
->自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。如果您想要退出這些效能增強功能，請連絡您的Adobe客戶團隊。
+>自 2020 年 10 月起，Adobe 將逐步推出一系列增強功能，以最佳化「Adobe Analytics 儀表板」應用程式的效能。這些增強功能著重於快取將計分卡填入日期 (當天除外) 的歷史 Analytics 資料。該資料將於最多 24 小時內，透過安全的 Microsoft Azure 公用雲端儲存空間帳戶進行快取。若要選擇不使用上述效能增強功能，請聯絡您的 Adobe 帳戶團隊。
