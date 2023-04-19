@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 258eac585d536af593e0fa5b2cf75fd53ecd4ef0
+source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 57%
+source-wordcount: '1752'
+ht-degree: 55%
 
 ---
 
@@ -138,6 +138,10 @@ ht-degree: 57%
    <!-- Add screen shot of new modal -->
 
 1. 啟用 **[!UICONTROL 連結處於活動狀態]** 選項。
+
+   選取此選項會建立可與任何人共用之專案的連結。 您可以隨時停用此選項，以停用專案的存取權。
+
+   專案的擁有者也是此連結的擁有者。 只有在項目所有權轉移時，連結所有權才能轉移給其他用戶，如 [轉移使用者資產或設定帳戶過期時間](/help/admin/admin/user-management2/users-assets.md) （位於Analytics管理指南中）。
 
 1. 選擇是否啟用下列安全性選項（此選項可由您的Analytics管理員控制）:
 
