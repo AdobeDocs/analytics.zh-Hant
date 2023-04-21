@@ -3,16 +3,16 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f4cf651e07da27c416fc02b184b80bc07756eb33
+source-git-commit: bdafc3218c29f72e97c3748967bd49bc7d0c0af8
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # 目前的 Adobe Analytics 發行說明 (2023 年 4 月)
 
-**上次更新日期**：2023 年 4 月 12 日
+**上次更新日期**：2023 年 4 月 21 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,6 +20,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
+| **回填非生產沙箱** | 在非生產沙箱中建立Analytics來源連接器資料流時，回填非生產沙箱的時間限制為3個月。 生產沙箱的時間將維持在13個月。 | 不適用 | 2023 年 4 月 26 日 |
 | **Analytics Source Connector 串流傳輸的行/列篩選** | Adobe Experience Platform 中的 Analytics Source Connector 現在允許篩選 Analytics 資料；這類資料是用來在[即時客戶設定檔](https://experienceleague.adobe.com/docs/experience-platform/profile/home.html?lang=zh-Hant)中填入設定檔。列層級篩選有助減少與設定檔有關聯的事件數量。行層級篩選有助減少事件本身的豐富度，進而讓您可最佳化設定檔權利的使用。這項篩選僅適用於傳送至即時客戶設定檔和[身份服務](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=zh-Hant)的資料。**篩選不會影響傳送到資料湖的資料；這類資料是供 Customer Journey Analytics** 等應用程式使用。[了解更多](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=zh-Hant#filtering-for-profile) | 不適用 | 2023 年 3 月 29 日 |
 | **Web SDK 部分支援 Activity Map** | 從 Web SDK 2.15.0 版本開始，我們開始在啟用連結追蹤時填入 Activity Map 資料。如果 Web SDK 已啟用連結追蹤且 Analytics 已設定 Activity Map，這允許 Web SDK 使用者取得 Activity Map 報告。<p>目前，如果 Web SDK 啟用連結追蹤，在客戶從一個頁面導覽到下一個頁面時會傳送連結事件。這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。在[此處](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html)和[此處](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)了解更多資訊 | 不適用 | 2023 年 3 月 31 日 |
 | **Experience Edge 的 IP 混淆** | Experience Edge 將支援對直接傳送到 Adobe Experience Platform 的資料進行 IP 混淆處理。這有利於將資料直接傳送到平台以用於 CJA 或其他平台解決方案的客戶。IP 混淆是在資料流層級設定的。它支援移除最後一個八位元或整個 IP 地址。<p>**附註**：混淆不適用於傳送到 Adobe Analytics 的資料。Analytics 會繼續獲取完整的 IP。IP 處理會繼續在 Analytics 中單獨完成。我們計劃將來允許在邊緣混淆 Analytics 資料。 | 不適用 | AEP 於 2023 年 4 月 26 日發行 |
