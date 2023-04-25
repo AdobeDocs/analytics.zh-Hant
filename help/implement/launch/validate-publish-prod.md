@@ -3,10 +3,10 @@ title: 驗證開發實作並發佈至生產環境
 description: 了解如何使用 Adobe Experience Platform 標記，將 Adobe Analytics 部署至您的生產環境中。
 feature: Launch Implementation
 exl-id: 2f5bcfee-d75e-4dac-bea9-91c6cc545173
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 100%
+source-wordcount: '635'
+ht-degree: 91%
 
 ---
 
@@ -34,11 +34,11 @@ Experience Cloud Debugger 是顯示存在於頁面上所有 Experience Cloud 標
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下您打算在您的網站上實作的標記屬性。
 1. 按一下「**[!UICONTROL 發佈]**」索引標籤，然後在開發欄中找出您的資料庫。
-1. 按一下資料庫上的下拉式清單，然後選取「**[!UICONTROL 送交審核]**」。 按一下強制回應視窗中的「**[!UICONTROL 提交]**」。
-1. 再次按一下資料庫的下拉式清單 (現位於「已提交」欄)，然後選取「**[!UICONTROL 為暫存而建置]**」。
+1. 按一下程式庫上的下拉式清單，然後選取 **[!UICONTROL 提交以進行核准]**. 按一下強制回應視窗中的「**[!UICONTROL 提交]**」。
+1. 再按一下程式庫的下拉式清單（現在位於已提交欄），然後選取 **[!UICONTROL 為測試環境建置]**.
 1. 過了一會兒，資料庫上的黃色燈號會變成綠色，表示建置成功。
-1. 再按一下資料庫的下拉式清單，然後選取「**[!UICONTROL 核准發佈]**」。
-1. 再次按一下資料庫的下拉式清單 (現位於[!UICONTROL 已核准]欄)，然後選取「**[!UICONTROL 建置並發佈至生產環境]**」。
+1. 再按一下程式庫的下拉式清單，然後選取 **[!UICONTROL 核准以發佈]**.
+1. 再次按一下程式庫的下拉式清單(現在位於 [!UICONTROL 已核准] )，然後選取 **[!UICONTROL 建置並發佈到生產環境]**.
 1. 前往「環境」索引標籤，然後按一下「**[!UICONTROL 生產環境]**」。
 1. 複製生產環境安裝程式碼，然後將其提供給您的網站負責人。請網站負責人在您網站的生產環境上實作此程式碼。
 

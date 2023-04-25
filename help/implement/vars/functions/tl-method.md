@@ -3,9 +3,9 @@ title: tl
 description: 傳送連結追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: 470662b2-ce07-4432-b2d5-a670fbb77771
-source-git-commit: 8ff414efff302adfee42f192e781a8dec5c42902
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '703'
 ht-degree: 80%
 
 ---
@@ -46,7 +46,7 @@ Adobe Analytics擴充功能有可設定連結追蹤呼叫的專用位置。
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉式清單 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
+1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
 1. 按一下 `s.tl()` 選擇鈕。
 
 您無法在Analytics擴充功能中設定任何選用引數。

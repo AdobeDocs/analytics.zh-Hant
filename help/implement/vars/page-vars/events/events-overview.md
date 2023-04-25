@@ -3,10 +3,10 @@ title: events
 description: 設定事件變數，進而控制網站上大多數的量度。
 feature: Variables
 exl-id: 6ef99ee5-40c3-4ff2-a75d-c97f2e8ec1f8
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 97%
+source-wordcount: '813'
+ht-degree: 92%
 
 ---
 
@@ -45,14 +45,14 @@ ht-degree: 97%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 將[!UICONTROL 「擴充功能」]下拉式清單設為「Adobe Analytics」，再將[!UICONTROL 「動作類型」]設為[!UICONTROL 「設定變數」]。
+5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
 6. 找出[!UICONTROL 「事件」]區段。
 
 您可以使用幾個功能：
 
-* 下拉式清單可讓您選取要納入的事件
+* 下拉式清單可讓您選取要包含的事件
 * 供序列化使用的選用文字欄位。如需詳細資訊，請參閱[事件序列化](event-serialization.md)。
-* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，在下拉式清單下方選取 `event1`，並在此欄位中納入 `10`，可在報表中將 `event1` 增加 10。
+* 供事件值使用的選用文字欄位。您可以納入貨幣來報告貨幣事件，或是納入整數來報告非貨幣事件，以便將值增加多次。例如，選取 `event1` 在下拉式清單下，並包括 `10` 在此欄位中增量 `event1` 10。
 * 新增其他事件的按鈕。您可以在合理的範圍內向單一規則新增任意數量的事件。
 
 ## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s.events

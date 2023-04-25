@@ -4,10 +4,10 @@ keywords: 點按資料流；資料摘要；資料摘要；資料摘要
 title: Analytics 資料摘要總覽
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 25eccb2b9fe3827e62b0ae98d9bebf7a97b239f5
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    * 使用者名稱: 輸入要登入 FTP 網站的使用者名稱。
    * 密碼和確認密碼: 輸入要登入 FTP 網站的密碼。
 7. 填寫[!UICONTROL 資料欄定義]。
-   * 在下拉式清單中選取最新的「所有 Adobe 欄」範本。
+   * 在下拉式清單中選取最新的「所有Adobe Columns」範本。
    * 壓縮格式: Gzip
    * 封裝類型: 多個檔案
    * 資訊清單: 無檔案

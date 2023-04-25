@@ -3,10 +3,10 @@ title: pageURL
 description: 覆寫在網站上自動收集的頁面 URL。
 feature: Variables
 exl-id: 411f894d-c31f-4d07-9568-b0b02786735d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 84%
+source-wordcount: '313'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Experience Platform資料收集中的Analytics擴充功能會自動填入�
 2. 按一下所需的標籤屬性。
 3. 前往&#x200B;**[!UICONTROL 規則]**&#x200B;標籤，然後按一下所需的規則 (或建立規則)。
 4. 在&#x200B;**[!UICONTROL 「動作」]**&#x200B;下方按一下現有的&#x200B;**[!UICONTROL 「Adobe Analytics - 設定變數」]**&#x200B;動作，或按一下「+」圖示。
-5. 將&#x200B;**[!UICONTROL 「擴充功能」]**&#x200B;下拉式清單設為「Adobe Analytics」，再將&#x200B;**[!UICONTROL 「動作類型」]**&#x200B;設為&#x200B;**[!UICONTROL 「設定變數」]**。
+5. 設定 **[!UICONTROL 擴充功能]** 下拉式清單至Adobe Analytics，以及 **[!UICONTROL 動作類型]** to **[!UICONTROL 設定變數]**.
 6. 找出&#x200B;**[!UICONTROL 「頁面 URL」]**&#x200B;區段。
 
 您可以將頁面 URL 設為任何字串值。

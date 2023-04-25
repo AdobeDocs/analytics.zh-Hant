@@ -3,10 +3,10 @@ title: Adobe Analytics 中的報表自訂功能
 description: 瞭解如何在 Adobe Analytics 中自訂報表
 feature: Third-party Integration
 exl-id: 8ea6ec3a-cfc6-4c14-966b-d245949451c7
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 96%
 
 ---
 

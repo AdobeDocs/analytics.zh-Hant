@@ -4,10 +4,10 @@ title: 組合圖表視覺效果
 feature: Visualizations
 role: User, Admin
 exl-id: 08e49857-aa58-4527-bdfd-b1663a75a02b
-source-git-commit: b3f9d3fdac403cdd1be425c0c631fa93dde5cb13
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 100%
+source-wordcount: '756'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 | 設定 | 定義 |
 | --- | --- |
 | **[!UICONTROL 視覺效果類型]** | 讓您切換至另一個視覺效果類型。 |
-| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的粒度 (日、週、月等)。 |
+| **[!UICONTROL 粒度]** | 若要取得最新式的視覺效果，您可在此下拉功能表中變更時間的從此下拉式清單。 |
 | **[!UICONTROL 一般]** |  |
 | **[!UICONTROL 百分比]** | 以百分比顯示值。 |
 | **[!UICONTROL 可見圖例]** | 讓您隱藏組合圖表視覺效果的詳細圖例文字。 |

@@ -4,10 +4,10 @@ title: Analysis Workspace 的協助工具
 feature: Workspace Basics
 role: User, Admin
 exl-id: 2bacbee8-097c-4fc5-8be4-7e4f284db08c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 99%
 
 ---
 
@@ -54,34 +54,34 @@ ht-degree: 100%
 #### 導覽
 
 | 快速鍵 | 動作 |
-|---|---|
-| Alt + Shift + 1 / 2 / 3 | 跳至不同的側邊欄：[!UICONTROL 面板]、[!UICONTROL 視覺效果]或[!UICONTROL 元件] |
-| Alt + 向左鍵/向右鍵 | 在面板之間導覽 |
-| Alt + M | 摺疊/展開所有面板 |
-| Alt+ Ctrl + M | 摺疊/展開作用中的面板 |
-| Ctrl + / | 搜尋左側邊欄 |
+| --- | --- |
+| `[Alt + Shift + 1 / 2 / 3]` | 跳至不同的側邊欄：[!UICONTROL 面板]、[!UICONTROL 視覺效果]或[!UICONTROL 元件] |
+| `[Alt + Left / Right]` | 在面板之間導覽 |
+| `[Alt + M]` | 摺疊/展開所有面板 |
+| `[Alt + Ctrl + M]` | 摺疊/展開作用中的面板 |
+| `[Ctrl + /]` | 搜尋左側邊欄 |
 
 #### 分析建立
 
 | 快速鍵 | 動作 |
-|---|---|
-| Alt + 1 | 新增自由表格 |
-| Ctrl + Shift + C | 新增計算量度 |
-| Ctrl + Shift + D | 新增日期範圍 |
-| Ctrl + Shift + E | 新增區段 |
-| Ctrl + Z | 還原 |
-| 按住 Shift 鍵 (在面板區段放置區中) | 建立[下拉式篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) |
+| --- | --- |
+| `[Alt + 1]` | 新增自由表格 |
+| `[Ctrl + Shift + C]` | 新增計算量度 |
+| `[Ctrl + Shift + D]` | 新增日期範圍 |
+| `[Ctrl + Shift + E]` | 新增區段 |
+| `[Ctrl + Z]` | 還原 |
+| `[Component drag + Shift]` | 建立下拉式篩選器 |
 
 #### 加速
 
 | 快速鍵 | 動作 |
-|---|---|
-| Ctrl + S | 儲存 |
-| Ctrl + Shift + G | 監管 |
-| Ctrl + G | 共用 |
-| Alt + Shift + S | 排程 |
-| Alt + L | 取得專案的連結 |
-| Ctrl + Shift + B | 下載 PDF |
+| --- | --- |
+| `[Ctrl + S]` | 儲存 |
+| `[Ctrl + Shift + G]` | 監管 |
+| `[Ctrl + G]` | 共用 |
+| `[Alt + Shift + S]` | 排程 |
+| `[Alt + L]` | 取得專案的連結 |
+| `[Ctrl + Shift + B]` | 下載 PDF |
 
 ## 支援螢幕助讀程式和螢幕放大鏡
 

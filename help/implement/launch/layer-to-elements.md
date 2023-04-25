@@ -3,10 +3,10 @@ title: 將資料層物件對應至資料元素
 description: 設定標記以從資料層讀取。
 feature: Launch Implementation
 exl-id: b7594084-cb5f-408e-8a76-0a0815cc7553
-source-git-commit: ac9e4934cee0178fb00e4201cc3444d333a74052
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 100%
+source-wordcount: '307'
+ht-degree: 94%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 100%
    ![建立資料元素](assets/createelement.png)
 
 1. 輸入您的資料元素名稱。可為符合您要追蹤之資料層中 JavaScript 變數的簡單標記。
-1. 在&#x200B;**[!UICONTROL 「擴充功能」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「核心」]**。
-1. 在&#x200B;**[!UICONTROL 「資料元素類型」]**&#x200B;下拉式清單中，選取&#x200B;**[!UICONTROL 「JavaScript 變數」]**。右側會出現一個文字欄位，可讓您輸入 JavaScript 變數以對應至此資料元素。
+1. 在 **[!UICONTROL 擴充功能]** 下拉清單，選擇 **[!UICONTROL 核心]**.
+1. 在 **[!UICONTROL 資料元素類型]** 下拉清單，選擇 **[!UICONTROL JavaScript變數]**. 右側會出現一個文字欄位，可讓您輸入 JavaScript 變數以對應至此資料元素。
 1. 輸入所需的 Javascript 變數，通常在您的資料層中。例如，如果貴組織的資料層與 Adobe 的建議作法幾乎相符，則值可能是 `digitalData.page.pageInfo.pageName`。您可以使用瀏覽器的主控台，驗證 JavaScript 變數語法和值。
 1. 按一下&#x200B;**[!UICONTROL 「儲存」]**。
 

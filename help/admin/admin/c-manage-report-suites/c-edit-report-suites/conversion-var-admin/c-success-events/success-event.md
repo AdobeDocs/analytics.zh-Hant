@@ -4,9 +4,9 @@ keywords: 事件
 title: 成功事件概觀
 feature: Event
 exl-id: d52a691a-8124-4601-932f-d6d2d0a7842b
-source-git-commit: 84a4d38a65769f028bac4aa5817cb4002c4b1f97
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '708'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 2. 按一下頂端的 9 格線按鈕，然後按一下[!UICONTROL 「Analytics」]。
 3. 導覽至[!UICONTROL 「管理員] > [!UICONTROL 報表套裝」]。
 4. 選取所需的報表套裝，然後導覽至[!UICONTROL 「編輯設定] > [!UICONTROL 轉換] > [!UICONTROL 成功事件」]。
-5. 找到所需事件，然後變更[!UICONTROL 「獨特事件記錄」]下拉式功能表，以便[!UICONTROL 「每次造訪記錄一次」]或[!UICONTROL 「使用事件 ID」]。
 
 成功事件有多種類型，視您的網站類型而定。這些類型包括：
 

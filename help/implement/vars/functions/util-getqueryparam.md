@@ -3,10 +3,10 @@ title: Util.getQueryParam
 description: 傳回查詢字串參數的值。
 feature: Variables
 exl-id: d29d6cd9-f85f-475b-a7a8-73785aa4ae7b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 85%
+source-wordcount: '270'
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 85%
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 資料元素]標記，然後按一下所需的資料元素 (或建立資料元素)。
-4. 將 [!UICONTROL 「擴充功能」]下拉式清單設定為&#x200B;**[!UICONTROL 「核心」]**，並將[!UICONTROL 「資料元素類型」]設定為&#x200B;**[!UICONTROL 「查詢字串參數」]**。
+4. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL 核心]**，和 [!UICONTROL 資料元素類型] to **[!UICONTROL 查詢字串參數]**.
 5. 在文字欄位中輸入查詢字串參數。
 
 查詢字串參數值會儲存在資料元素中。然後，您就可以參考規則中的資料元素，以指派所需的變數。

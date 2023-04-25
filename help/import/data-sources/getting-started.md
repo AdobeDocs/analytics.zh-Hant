@@ -1,10 +1,11 @@
 ---
 title: 資料來源快速入門
 description: 將範例資料上傳至開發報表套裝。
-source-git-commit: bb3036380eeec9b7a868f60a4c9076f2b772532b
+exl-id: d9f74f55-abbb-4ceb-b4db-8d3c32aacd4a
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '665'
+ht-degree: 1%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 1. 透過登入Adobe Analytics [https://experience.adobe.com](https://experience.adobe.com).
 1. 導覽至 **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 資料來源]**.
-1. 使用右上角的下拉式清單，選取開發報表套裝。
+1. 使用右上角的下拉式清單選取開發報表套裝。
 1. 按一下 **[!UICONTROL 建立]** 按鈕。
 1. 在 [!UICONTROL 選擇類別]，選擇&quot;[!UICONTROL 一般]「 」和「 」下 [!UICONTROL 選擇類型]，選擇&quot;[!UICONTROL 一般資料來源（僅摘要資料）]」。
 1. 按一下&#x200B;**[!UICONTROL 啟用]**。隨即開啟彈出式視窗，顯示 [!UICONTROL 資料源激活嚮導].
@@ -34,8 +35,8 @@ ht-degree: 0%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 2)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
+   #    eVar1    event1
+   Date    Evar 1    Event 1
    ```
 
 1. 在數列資料中輸入，並依索引標籤分隔每個項目。 請勿使用空格或逗號來分隔值。
@@ -45,10 +46,10 @@ ht-degree: 0%
 
    ```text
    # Generic Data Source (Summary Data Only) template file (user: 123456789 ds_id: 5)
-   #	eVar1	event1
-   Date	Evar 1	Event 1
-   09/07/YYYY/11/23/00	Data source example value	3
-   09/07/YYYY/15/59/00	Another data source value	18
+   #    eVar1    event1
+   Date    Evar 1    Event 1
+   09/07/YYYY/11/23/00    Data source example value    3
+   09/07/YYYY/15/59/00    Another data source value    18
    ```
 
 1. 儲存檔案。您可以視需要為其指定不同的檔案名稱。 儲存檔案後，您可以關閉文字編輯器。

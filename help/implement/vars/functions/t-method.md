@@ -3,10 +3,10 @@ title: t
 description: 傳送頁面瀏覽數追蹤呼叫給 Adobe。
 feature: Variables
 exl-id: c4f5b9e2-57a3-4d89-8378-39b7a4737afc
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 58%
+source-wordcount: '463'
+ht-degree: 57%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe 會接收影像要求，然後分析要求標題、URL 和查詢字串參�
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉式清單 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送事件]**.
+1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送事件]**.
 
 ## 手動實作Web SDK的傳送事件
 
@@ -66,7 +66,7 @@ Adobe Experience Platform Data Collection中的Adobe Analytics擴充功能有設
 1. 按一下所需的標籤屬性。
 1. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 設定 [!UICONTROL 擴充功能] 下拉式清單 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
+1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Analytics]**，和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送信標]**.
 1. 按一下 `s.t()` 選擇鈕。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.t()方法

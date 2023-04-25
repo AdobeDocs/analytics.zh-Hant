@@ -3,9 +3,9 @@ title: sa
 description: 隨時在您的實施中變更報表套裝。
 feature: Variables
 exl-id: 524857a7-c820-4985-86c7-fcf21a0809bd
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '440'
 ht-degree: 44%
 
 ---
@@ -27,7 +27,7 @@ Web SDK的運作方式是傳送資料至特定的資料流，該資料流會將�
 
 ## 使用Web SDK擴充功能設定所需的資料流
 
-Web SDK擴充功能提供適用於每個環境的資料流下拉式清單。 或者，您也可以手動輸入資料流ID。
+Web SDK擴充功能提供每個環境的資料流下拉式清單。 或者，您也可以手動輸入資料流ID。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。

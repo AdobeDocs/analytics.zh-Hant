@@ -3,9 +3,9 @@ title: useBeacon
 description: useBeacon 可強制 AppMeasurement 使用瀏覽器 sendBeacon API
 feature: Variables
 exl-id: a3c4174a-711d-4a35-9f36-9b1049c7db54
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '396'
 ht-degree: 61%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 61%
 1. 按一下所需的標籤屬性。
 1. 前往 [!UICONTROL 規則] 標籤，然後按一下所需的規則。
 1. 在 [!UICONTROL 動作]，按一下所需的動作，或按一下 **&#39;+&#39;** 圖示以新增動作。
-1. 將「擴充功能」下拉式清單設為 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送事件]**
+1. 設定 [!UICONTROL 擴充功能] 下拉清單至 **[!UICONTROL Adobe Experience Platform Web SDK]** 和 [!UICONTROL 動作類型] to **[!UICONTROL 傳送事件]**
 1. 按一下核取方塊 **[!UICONTROL 文檔將卸載]** 在右邊。
 
 如果核取此方塊，則會使用sendBeacon API將資料傳送至Adobe。 這項設定預設為未勾選。

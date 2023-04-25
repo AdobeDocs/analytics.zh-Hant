@@ -4,10 +4,10 @@ description: Report Builder 常見問題。
 feature: Report Builder
 role: User, Admin
 exl-id: 86604d39-2965-45a5-98ab-3ee4adcb7f97
-source-git-commit: 51cac193cd2c88898139e079816a084c211a64f4
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Excel 中的 [`TODAY()` 函數](https://support.microsoft.com/zh-tw/office/today
 
 排程報告也會在可能不會共用日期語法的伺服器上處理。 例如，根據您所在的國家/區域，`7/1/YYYY` 可能指 7 月 1 日或 1 月 7 日。 在此日期使用 `DATEVALUE()` 函數會根據執行該函數的電腦產生不同的序列值。
 
-除了使用這些 Excel 函數外，Adobe 還強烈建議在 Report Builder 請求中使用日期範圍。在請求精靈的第一頁，在下拉式清單中選取&#x200B;**[!UICONTROL &#x200B;預設日期]**，然後在「常用日期」下方，選取 **[!UICONTROL &#x200B;Today]** &#x200B;或其他需要的日期範圍。 此設定會花時間在執行報表套裝，而不是花時間在伺服器處理請求上。
+除了使用這些 Excel 函數外，Adobe 還強烈建議在 Report Builder 請求中使用日期範圍。在請求精靈的第一頁，選取 **[!UICONTROL 預設日期]** 在下拉式清單中，然後在「常用日期」下方選取 **[!UICONTROL 今天]** 或其他所需的日期範圍。 此設定會花時間在執行報表套裝，而不是花時間在伺服器處理請求上。
 
 ## 我可以建立多大和多複雜的活頁簿？
 

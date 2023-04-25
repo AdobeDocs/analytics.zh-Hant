@@ -3,10 +3,10 @@ title: Data Warehouse 常見問答
 description: Data Warehouse 常見問答。
 feature: Data Warehouse
 exl-id: 51c3ba17-a8b2-4030-9521-355ebbbfcd0d
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 84%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 Data Warehouse 常見問答。
 
-## 當我建立請求並使用詳細程度下拉選單時，日期會採用哪一種格式？
+## 建立請求時使用「粒度」下拉式清單時，日期的格式為何？
 
 在 Data Warehouse 請求中套用詳細程度時，「日期欄」會加至報告中。依所選的詳細程度，日期格式會有不同。
 

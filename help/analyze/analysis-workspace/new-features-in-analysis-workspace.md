@@ -5,10 +5,10 @@ title: Analysis Workspace 的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: f83ab75e9a3cce2dd3dc13d88be97cf97df3dc65
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
-source-wordcount: '8277'
-ht-degree: 99%
+source-wordcount: '8267'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ ht-degree: 99%
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 將下拉式篩選器的項目上限從 50 個提升至 200 個 | 我們將下拉式篩選器中可放置的項目上限從 50 個提升至 200 個。此增強功能適合多種使用案例，例如將所有國家/地區 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
+| 將靜態下拉式篩選器的項目上限從50個提高至200個 | 靜態下拉式篩選器中可放置的項目限制從50增加為200。 此增強功能適合多種使用案例，例如將所有國家/地區 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
 
 ## 2019 年 7 月
 
@@ -202,29 +202,10 @@ ht-degree: 99%
 
 2018 年 10 月 11 日發行的新功能與增強功能。
 
-<table id="table_3DDC812B2F66416F868004416D248BF3">
- <thead>
-  <tr>
-   <th colname="col1" class="entry"> 功能 </th>
-   <th colname="col2" class="entry"> 說明 </th>
-  </tr>
- </thead>
- <tbody>
-  <tr>
-   <td colname="col1"> <p><b>面板下拉式清單管理</b> </p> </td>
-   <td colname="col2"> <p>我們變更了 9 月 MR 推出的面板下拉式清單管理方式。現在用滑鼠右鍵按下拉式清單時，可以進行下列操作： </p>
-    <ul id="ul_4BDEC66EEB2243628FE32B43E377E5BD">
-     <li id="li_EF8277BE972540D3B2604D82BC7C0918">刪除下拉式清單 (一律顯示此選項。) </li>
-     <li id="li_6A991208F2744274817DBE1E9D1B443F">刪除標籤 (如果有標籤。) </li>
-     <li id="li_5C1CFC465C2E41D2B35E8841EFDC82AA">新增標籤 (如果沒有標籤。) </li>
-    </ul> </td>
-  </tr>
-  <tr>
-   <td colname="col1"> <p><b>面板的連結和視覺效果工具提示</b> </p> </td>
-   <td colname="col2"> <p>我們將相關影片和文件連結新增至面板，並新增視覺效果工具提示。 </p> </td>
-  </tr>
- </tbody>
-</table>
+| 功能 | 說明 |
+| --- | --- |
+| 面板下拉式清單管理 | 面板下拉式清單的管理會進行一些變更。 以滑鼠右鍵按一下下拉式清單時，您現在可以刪除下拉式清單、刪除標籤（如果顯示標籤）或新增標籤（如果未顯示標籤）。 |
+| 面板的連結和視覺效果工具提示 | 新增相關影片和檔案至面板的連結，以及視覺效果工具提示。 |
 
 ## 2018 年 9 月
 

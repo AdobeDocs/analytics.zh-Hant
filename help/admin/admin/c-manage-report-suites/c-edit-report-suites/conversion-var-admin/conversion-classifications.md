@@ -3,10 +3,10 @@ description: 分類用於將值分組，然後依群組級別匯報。例如，�
 title: 轉換分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 100%
    選項包括&#x200B;**[!UICONTROL 文字]**&#x200B;和&#x200B;**[!UICONTROL 數值]**。如需分類類型的詳細資訊，請參閱[關於分類](/help/components/classifications/c-classifications.md)。
 1. 在&#x200B;**[!UICONTROL 文字分類]**&#x200B;對話方塊中，視需要設定分類。
 
-1. 在&#x200B;**[!UICONTROL 下拉式清單]**&#x200B;對話方塊中，新增或移除選項。
+1. 在下拉式清單對話方塊中新增或移除選項。
 
    新增選項可建立用於此分類的分類值清單。您可以使用這個選項搭配行銷活動變數，在「行銷活動管理員」裡提供用戶一份受支援分類值的清單。使用此清單作為分類維度，可讓您擁有一小部分幾乎不會或絕對不會變更的許可值。例如您可能會針對不同等級的客戶忠誠度進行不同的行銷活動：銀級、金級和白金級。您可以使用下拉式清單確保只有接受的值是符合這三個等級的值。如果有其他人嘗試使用其他值，就會被捨棄。
 
