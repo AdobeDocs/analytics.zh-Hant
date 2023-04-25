@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: a49affe282e95d451e72ed92a585b861f081f02e
+source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 96%
+source-wordcount: '697'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 96%
    + [維度相容性](dimensions/compatibility.md)
    + [所有搜尋頁面排名](dimensions/all-search-page-rank.md)
    + [上午/下午](dimensions/am-pm.md)
+   + [機器人名稱](dimensions/bot-name.md)
    + [瀏覽器高度](dimensions/browser-height.md)
    + [瀏覽器類型](dimensions/browser-type.md)
    + [瀏覽器寬度](dimensions/browser-width.md)
@@ -111,6 +112,8 @@ ht-degree: 96%
    + [每次造訪的平均頁面瀏覽數](metrics/average-page-views-per-visit.md)
    + [平均作業長度](metrics/average-session-length.md)
    + [網站平均逗留時間](metrics/average-time-on-site.md)
+   + [機器人發生次數](metrics/bot-occurrences.md)
+   + [機器人頁面檢視](metrics/bot-page-views.md)
    + [跳出率](metrics/bounce-rate.md)
    + [跳出數](metrics/bounces.md)
    + [購物車新增](metrics/cart-additions.md)
