@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料欄參考
 feature: Data Feeds
 exl-id: e1492147-6e7f-4921-b509-898e7efda596
-source-git-commit: 814c88f3248aec7dde812926ba19f5eee1a815b0
+source-git-commit: 6e59ee3cb3eb59b025053603cd1357c5a2709d00
 workflow-type: tm+mt
-source-wordcount: '3655'
-ht-degree: 93%
+source-wordcount: '3670'
+ht-degree: 92%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 93%
 | **`browser_width`** | 瀏覽器視窗的寬度 (像素)。 | 不帶正負號的 smallint |
 | **`c_color`** | 調色盤的位元深度。用於計算[色階](/help/components/dimensions/color-depth.md)維度的一部分。AppMeasurement 使用 JavaScript 函數`screen.colorDepth()`。 | char(20) |
 | **`campaign`** | 用於[追蹤代碼](/help/components/dimensions/tracking-code.md)維度的變數。 | varchar(255) |
-| **`carrier`** | Adobe Advertising 整合變數。指定行動電信業者。請參考`carrier`查詢表。 | varchar(100) |
+| **`carrier`** | Adobe Advertising 整合變數。指定行動電信業者。的鍵值 `carrier.tsv` [動態查閱](dynamic-lookups.md). | varchar(100) |
 | **`ch_hdr`** | 透過 HTTP 請求標頭收集的用戶端提示。 | 文字 |
 | **`ch_js`** | 透過使用者代理用戶端提示 JavaScript API 收集的用戶端提示。 | 文字 |
 | **`channel`** | 用於[網站區段](/help/components/dimensions/site-section.md)維度的變數。 | varchar(100) |
@@ -110,7 +110,7 @@ ht-degree: 93%
 | **`latlon45`** | 位置 (1 公尺以內) | varchar(255) |
 | **`mc_audiences`** | 訪客所屬的 Audience Manager 區段 ID 清單。`post_mc_audiences` 欄會將分隔符號變更為 `--**--`。 | 文字 |
 | **`mcvisid`** | Experience Cloud 訪客 ID。128 位元的數字，由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。 | varchar(255) |
-| **`mobile_id`** | 如果使用者使用行動裝置，則為裝置的數值 ID。 | int |
+| **`mobile_id`** | 如果使用者使用行動裝置，則為裝置的數值 ID。的鍵值 `mobile_attributes.tsv` [動態查閱](dynamic-lookups.md). | int |
 | **`mobileaction`** | 行動動作。在行動服務中呼叫`trackAction`時自動收集。允許應用程式中的自動動作路徑。 | varchar(100) |
 | **`mobileappid`** | 行動應用程式 ID。以下列格式儲存應用程式名稱和版本： `[AppName] [BundleVersion]` | varchar(255) |
 | **`mobileappperformanceappid`** | 用於 Apteligent 資料連接器。Apteligent 中使用的應用程式 ID。 | varchar(255) |
@@ -159,7 +159,7 @@ ht-degree: 93%
 | **`mvvar1_instances`** - `mvvar3_instances` | 在目前點擊上設定的清單變數值。以取代原始分隔字元 `--**--`. 沒有 `post` 欄。 | 文字 |
 | **`namespace`** | 未使用。屬於已報廢功能。 | varchar(50) |
 | **`new_visit`** | 此旗標可確定目前的點擊是否為新造訪。造訪閒置 30 分鐘後，由 Adobe 伺服器設定。 | 不帶正負號的 tinyint |
-| **`os`** | 表示訪客的作業系統的數值 ID。依據`user_agent`欄而定。使用`os`查詢。 | 不帶正負號的 int |
+| **`os`** | 表示訪客的作業系統的數值 ID。依據`user_agent`欄而定。的鍵值 `operating_system.tsv` 標準查閱和 `operating_system_type.tsv` [動態查閱](dynamic-lookups.md). | 不帶正負號的 int |
 | **`p_plugins`** | 已不再使用。瀏覽器的可用外掛程式清單.使用的 JavaScript 函數 `navigator.plugins()`。 | 文字 |
 | **`page_event`** | 影像要求中傳送的點擊類型 (標準點擊、下載連結、自訂連結、退出連結)。請參閱[頁面事件查閱](datafeeds-page-event.md)。 | 不帶正負號的 tinyint |
 | **`page_event_var1`** | 僅用於連結追蹤影像要求。點按之下載連結、退出連結或自訂連結的 URL。 | 文字 |
