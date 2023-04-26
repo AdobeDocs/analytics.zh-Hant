@@ -4,10 +4,10 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 6057262f95586c7ac63fc98d7c47c9867945f329
+source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 57%
+source-wordcount: '1202'
+ht-degree: 68%
 
 ---
 
@@ -100,21 +100,21 @@ Analysis Workspace 中有以下面板類型:
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
 
-### 動態下拉式篩選器
+<!--### Dynamic drop-down filters
 
-動態下拉式篩選器可讓您根據面板報表範圍內的資料和其他下拉式篩選器中的值，來判斷可用值。 例如，您可以使用 [國家/地區](/help/components/dimensions/countries.md) 維度與 [城市](/help/components/dimensions/cities.md) 維度。 當您從 [!UICONTROL 國家/地區] 下拉式清單， [!UICONTROL 城市] 下拉式清單會動態調整，以僅顯示該國家/地區內的城市。
+Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
 
-這個概念同樣適用於所有維度；只有顯示在面板日期範圍內的維度項目和選取的篩選器才會顯示。 在靜態下拉式篩選器中選取的Dimension項目，會影響動態下拉式篩選器中的可用值。 但是，相反的情況並非真實；在動態下拉式篩選器中選取的Dimension項目不會影響靜態下拉式篩選器中的可用值。
+This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
 
-如果您預計未來會收集特定維度項目，則可手動選取維度項目。 您也可以清除動態下拉式篩選器，使其不包含值，以允許其他動態下拉式篩選器包含更多值。 選擇 **[!UICONTROL 全部清除]** 從該面板的所有下拉式篩選器中清除選取項目。
+Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
 
-若要建立動態下拉式篩選器：
+To create a dynamic drop-down filter:
 
-* 將單一維度拖放至面板放置區 **保持`[Shift]`**.
-* 量度、區段或日期範圍無法使用動態下拉式篩選器。
-* 以滑鼠右鍵按一下下拉式篩選器，然後選取 **[!UICONTROL 刪除篩選器]** 刪除它。
+* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
+* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
+* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
 
-以滑鼠右鍵按一下動態下拉式篩選器，提供的選項與靜態下拉式篩選器相同。
+Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
 
 ## 按右鍵選單 {#right-click}
 
