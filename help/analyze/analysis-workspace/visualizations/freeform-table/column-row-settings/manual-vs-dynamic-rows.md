@@ -4,10 +4,10 @@ description: 如何與表格中的動態和靜態維度項目互動。
 feature: Freeform Tables
 role: User, Admin
 exl-id: 4cdc93b5-67ed-46a4-ba9f-a96e640da9d9
-source-git-commit: 86766c4452a571a7c7b36ad6693a1a1e0bc2deea
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 例如，將「瀏覽器類型」維度拖曳至表格時，頂端的「瀏覽器類型」維度項目 (例如 Microsoft、Apple、Google 等)會以動態方式傳回表格列。如果放入欄中，排名前 5 的「瀏覽器類型」維度項目會以動態方式傳回。
 
-動態維度項目具有列篩選選項，且&#x200B;**沒有**&#x200B;顯示鎖定和 X 圖示。
+動態維度項目具有列篩選選項，且&#x200B;**沒有**&#x200B;顯示鎖定和 X 圖示。如需將篩選器套用至表格的詳細資訊，請參閱 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md).
 
 ![](assets/dynamic-items.png)
 

@@ -5,7 +5,7 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: e3447bc278cfcf5553e46ceb298d9f4743f73328
+source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
 workflow-type: tm+mt
 source-wordcount: '1752'
 ht-degree: 55%
@@ -120,7 +120,7 @@ ht-degree: 55%
 >
 >* Analytics管理員可停用以此方式共用專案的功能，如 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 如果您無法如本節所述共用專案，您的Analytics管理員已停用此功能。
 >
->* 無法與無法存取Adobe Analytics的人員共用具有超過14個擴充視覺效果的專案。
+>* 無法與無法存取Adobe Analytics的人員共用具有超過50個擴充視覺效果的專案。
 >
 >* 您與共用的使用者可以檢視期間套用至專案的任何篩選器 [組織](curate.md).
 > 
