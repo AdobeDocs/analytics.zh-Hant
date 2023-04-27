@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 1cd0ef3d294be79346bb819da583c7d13aedb26d
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '692'
 ht-degree: 95%
 
 ---
@@ -208,7 +208,6 @@ ht-degree: 95%
 + 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報表套裝總覽](vrs/vrs-about.md)
    + [虛擬報表套裝 - 元件管理](vrs/vrs-components.md)
-   + [行動服務中的 VRS 支援](vrs/vrs-mobile-services.md)
    + [內容感知作業](vrs/vrs-mobile-visit-processing.md)
    + [報表時間處理功能](vrs/vrs-report-time-processing.md)
    + [A4T 考量事項](vrs/vrs-a4t.md)

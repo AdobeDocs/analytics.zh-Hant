@@ -3,10 +3,10 @@ title: usePlugins
 description: 啟用或停用 doPlugins() 函數。
 feature: Variables
 exl-id: e8499acf-d8b9-490c-9f67-ad9a8f6ca7df
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 52%
+source-wordcount: '179'
+ht-degree: 33%
 
 ---
 
@@ -20,7 +20,9 @@ ht-degree: 52%
 
 ## 使用Adobe Analytics擴充功能的外掛程式
 
-Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
+Adobe提供標示為「常見Analytics外掛程式」的擴充功能，可讓您最常呼叫 [外掛程式](../plugins/impl-plugins.md). 安裝擴充功能，然後在規則中呼叫所需的外掛程式。
+
+如果所需的外掛程式未包含在Adobe擴充功能中，請依照AppMeasurement語法使用自訂程式碼編輯器。
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.usePlugins
 

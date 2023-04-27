@@ -3,16 +3,16 @@ title: doPlugins
 description: 在編譯點擊並傳送至 Adobe 之前設定邏輯。
 feature: Variables
 exl-id: c5113be3-04b3-4dd2-8481-ba13149750ca
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 41154580c272514e504c5478215bb67795488de3
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 66%
+source-wordcount: '318'
+ht-degree: 62%
 
 ---
 
 # doPlugins
 
-`doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
+`doPlugins` 變數會成為「最後呼叫」，負責設定實施中的值。這是呼叫的理想場所 [外掛程式方法](../plugins/impl-plugins.md) 並在傳送影像要求之前設定任何所需的變數。 如果啟用 [`usePlugins`](../config-vars/useplugins.md)，它會在任何類型的影像要求編譯並傳送至 Adobe 之前自動執行，包括：
 
 * 所有頁面瀏覽 ([`t()`](t-method.md)) 呼叫
 * 所有連結追蹤 ([`tl()`](tl-method.md)) 呼叫，包括自動下載連結和退出連結
