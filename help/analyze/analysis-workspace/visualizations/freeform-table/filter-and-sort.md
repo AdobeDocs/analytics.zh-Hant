@@ -4,10 +4,10 @@ title: 篩選和排序表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: af0c56a8911c5ea2fb49fb9625c68331a8517d81
+source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '683'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,10 @@ Analysis Workspace 中的自由表格是互動式資料分析的基礎。因此�
 ## 篩選表格
 
 Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
+
+>[!NOTE]
+>
+> 只能依本節所述篩選動態維度項目。 無法篩選靜態維度項目。 如需詳細資訊，請參閱 [自由表格中的動態與靜態維度項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
 若要篩選自由表格中的資料：
 
