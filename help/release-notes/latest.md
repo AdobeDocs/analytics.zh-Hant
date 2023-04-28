@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b4ab6862de537d594bfc83abedcd06b10b007f48
+source-git-commit: cd727113683be47793829871c64f057dc764f3ef
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 96%
+source-wordcount: '1692'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **Experience Edge 的 IP 混淆** | Experience Edge 將支援對直接傳送到 Adobe Experience Platform 的資料進行 IP 混淆處理。這有利於將資料直接傳送到平台以用於 CJA 或其他平台解決方案的客戶。IP 混淆是在資料流層級設定的。它支援移除最後一個八位元或整個 IP 地址。<p>**附註**：混淆不適用於傳送到 Adobe Analytics 的資料。Analytics 會繼續獲取完整的 IP。IP 處理會繼續在 Analytics 中單獨完成。我們計劃將來允許在邊緣混淆 Analytics 資料。 | 不適用 | AEP 於 2023 年 4 月 26 日發行 |
 | **Analysis Workspace 中的資料字典** | 資料字典可幫助使用者和管理員追蹤、管理並深入了解在其 Analytics 環境中的元件 (維度、量度)。[了解更多](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) | 2023 年 3 月 15 日 | 2023 年 3 月 29 日 |
 | **專案連結共用 (不需登入)** | <p>您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外部人員，或組織內未布建Adobe Analytics的人員共用。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)</p> <p>此功能預設為啟用，系統管理員可以停用此功能。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023年4月26日（僅限私人測試版存取） | 2023 年 6 月 |
-| Adobe Analytics 2.0 API 的 2 個新端點指南 | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 不適用 | 2023 年 4 月 10 日 |
+| **Adobe Analytics 2.0 API 的 2 個新端點指南** | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> | 不適用 | 2023 年 4 月 10 日 |
 
 {style="table-layout:auto"}
 
@@ -47,6 +47,7 @@ AN-288373、AN-305144、AN-309023、AN-310466、AN-311686、AN-311705、AN-31201
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
+| **注意：Adobe Analytics資料摘要和倫敦資料中心Data Warehouse輸出使用的新IP** | 2023 年 4 月 27 日 | 若是倫敦資料中心的客戶有資料摘要請求和/或Data Warehouse報表傳送至FTP/SFTP服務，您應將下列IP位址範圍新增至防火牆設定，以允許存取： <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **裝置查詢流程現在使用協力廠商進行所有裝置查詢** | 2023 年 3 月 3 日 | 2023 年 3 月 2 日，我們推出了用戶端提示支援，更新了裝置查詢流程以使用協力廠商進行所有裝置查詢。先前，協力廠商只用於進行行動裝置查詢。而在此次推出的內容中，部分桌面作業系統誤標記了「Mobile」文字 (例如，「Mobile OS X 10.15.7」而不是「OS X 10.15.7」)。<p>在 Adobe 4 月版中，我們將更正這些名稱。Analytics 和 CJA 報告將追溯更新，因為它們的報告是根據記錄為事件資料的 ID 來查詢作業系統名稱。一旦 ID 對應的查詢值更新，所有的報告都會修正，包括歷史資料。對於[!UICONTROL 資料摘要]客戶，如果您在報告時使用類似的查詢程序，則變更會具有追溯力。但是，如果您將作業系統值儲存在事件資料中，則只會更新未來的報告。如需詳細資料，請參閱[作業系統](/help/components/dimensions/operating-systems.md)。 |
 | **遵循 Google 用戶端提示更新裝置查詢** | 2023 年 2 月 27 日 | 計劃於 2023 年 2 月 16 日使用的用戶端提示已延後，以便進一步確保使用提示的裝置查詢品質。我們在 2023 年 2 月 27 日進行了第一階段的版本以支援用戶端提示。第二階段也是最後階段的版本已於 2023 年 3 月 2 日星期四完成。[了解更多](/help/technotes/client-hints.md) |
 | **自動移轉到分類集架構** | 2023 年 2 月 8 日 | 在接下來的幾個月裡，Adobe 計畫將所有組織的所有分類移轉到最新的分類架構。最後一批移轉的客戶估計會在 2023 年 5 月進行。客戶無須採取行動，也預計不會出現停機時間。這種新架構有很多好處，包括：<ul><li>大幅縮短處理時間 (72 小時 → 24 小時)</li><li>使用[分類集](/help/components/classifications/sets/overview.md)使用者介面的能力</li><li>未來透過[用於分類資料的 Adobe Analytics 來源連接器](https://experienceleague.adobe.com/docs/experience-platform/sources/connectors/adobe-applications/classifications.html?lang=zh-Hant)在 Adobe Experience Platform 中使用分類資料的選項</li></ul>請注意以下變更可能會影響您組織的工作流程：<ul><li>使用瀏覽器或 FTP 匯入時，一定要啟用「[!UICONTROL 衝突時覆寫]」。</li><li>使用瀏覽器或 FTP 匯入時，不再支援匯入後立即匯出的選項。</li><li>Analytics 2.0 API `GetDimensions`端點現在回傳用於分類的字串識別碼，而不是數值識別碼。還是可以使用數值識別碼，但 Adobe 建議盡可能使用新的字串識別碼。可以使用 `?expansion=hidden` 查詢字串參數擷取數值識別碼。</li></ul>如果您想為您的組織擬定更具體的移轉計畫，或者對此移轉有疑問/疑慮，請聯繫 Adobe 客戶服務。[了解更多](/help/components/classifications/sets/overview.md) |
