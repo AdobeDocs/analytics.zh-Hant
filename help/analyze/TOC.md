@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
 workflow-type: tm+mt
-source-wordcount: '1096'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 100%
    + [Analysis Workspace 的新增功能](analysis-workspace/new-features-in-analysis-workspace.md)
    + 專案 {#build-workspace-project}
       + [專案總覽](analysis-workspace/build-workspace-project/freeform-overview.md)
+      + [建立專案](analysis-workspace/build-workspace-project/create-projects.md)
       + [儲存專案](analysis-workspace/build-workspace-project/save-projects.md)
       + Workspace 資料夾{#workspace-folders}
          + [關於 Workspace 資料夾](analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)
