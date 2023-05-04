@@ -3,10 +3,10 @@ description: Adobe Analytics 變數的資料隱私權標籤範例
 title: Analytics 變數的資料隱私權標籤
 feature: Data Governance
 exl-id: b8c2143a-6e8e-465a-979b-aa8176e8d4e8
-source-git-commit: c774d05ca3b1f9f45ec118b0e7b8a839a03b87e3
+source-git-commit: 11cfba59a57ba3292bbfe936ec104d85bf2f7695
 workflow-type: tm+mt
-source-wordcount: '3558'
-ht-degree: 100%
+source-wordcount: '3578'
+ht-degree: 99%
 
 ---
 
@@ -161,6 +161,12 @@ Adobe Analytics 資料隱私權實施支援下列身分資料、敏感資料和�
    <td colname="col2"> <p>所有，分類除外 </p> </td> 
    <td colname="col3"> <p>全部 </p> </td> 
    <td colname="col4"> </td> 
+  </tr>
+  <tr> 
+   <td colname="col1"> <p>流量變數 </p> </td> 
+   <td colname="col2"> <p>清單 Prop </p> </td> 
+   <td colname="col3"> <p>無 / S1 / S2 </p> </td> 
+   <td colname="col4"> <p>清單屬性可包含多個值，且不得作為隱私權識別碼。</p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <p>分類 </p> </td> 
