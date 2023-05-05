@@ -3,7 +3,7 @@ description: 了解在Analysis Workspace中建立專案的基本知識
 title: 建立專案
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 5%
@@ -12,7 +12,7 @@ ht-degree: 5%
 
 # 建立專案
 
-[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 在Analysis Workspace中，可讓您顯示業務關鍵型資料，以便與組織內外的利害關係人共用。
+[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 在Analysis Workspace中，您可以檢視可與組織內外的利害關係人共用的業務關鍵型分析。
 
 如需如何開始使用Analysis Workspace的一般資訊，請參閱 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md).
 

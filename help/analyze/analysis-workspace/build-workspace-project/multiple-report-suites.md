@@ -4,22 +4,22 @@ description: 了解在有多個報表套裝的 Workspace 中建立專案的方�
 feature: Workspace Basics
 role: User, Admin
 exl-id: 0429ddd9-935f-44ef-ae1e-97bb02e6e2df
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '521'
+ht-degree: 90%
 
 ---
 
 # 多報表套裝
 
-您現在可以在 Analysis Workspace 中建立含有來自多個報表套裝之資料的專案。現在，您可以在面板層級選擇報表套裝，以便針對相同 Workspace 專案內的每個面板，選擇不同的報表套裝。
+您可以在Analysis Workspace中使用來自多個報表套裝的資料建立專案。 報表套裝是在面板層級選擇，因此您可以為相同工作區專案內的每個面板選擇不同的報表套裝。
 
 此功能相當實用。舉例來說，如果您想
 
 * 比較兩個不同地區的資料，而這些資料位於兩個不同的報表套裝時，您可以建立表格和視覺效果，以便並排比較資料。
 
-* 建立量度和視覺效果的控制面板，以便向其他組織提交報告。您現在可以將各種報表套裝的資料提取到同一個專案中。
+* 建立量度和視覺效果的控制面板，以便向其他組織提交報告。您可以將各種報表套裝的資料提取至相同的專案中。
 
 以下是有關該主題的影片：
 
