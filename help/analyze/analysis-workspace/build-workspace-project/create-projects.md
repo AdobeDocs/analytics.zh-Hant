@@ -3,10 +3,10 @@ description: 了解在Analysis Workspace中建立專案的基本知識
 title: 建立專案
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 98cffce26edc02b74747e05c35ff6625081e0cc6
+source-git-commit: dadda9e105526c05ee763f4502f38524f5ddb1f0
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 6%
+source-wordcount: '651'
+ht-degree: 5%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 6%
 
 ## 新增面板至專案 {#panels}
 
-[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) 是Analysis Workspace中任何專案的基礎。 它們可用來組織專案的內容（視覺效果和元件）。 您必須先新增面板，才能將元件或視覺效果新增至專案。
+[面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) 是Analysis Workspace中任何專案的基礎。 面板可用來組織專案的內容（視覺效果和元件）。
 
 Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內容，產生完整的分析集。
 
@@ -71,6 +71,12 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 
 [視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) （例如自由表格、長條圖或折線圖）可以透過視覺化方式生動呈現資料。
 
+>[!TIP]
+>
+>自由表格是最常見的視覺效果類型，也是互動式資料分析的基礎。 如需如何在Analysis Workspace中使用自由表格的詳細資訊，請參閱 [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+
+若要新增視覺效果：
+
 1. 選取 **[!UICONTROL 視覺效果]** 圖示。
 
    ![](assets/build-visualizations.png)
@@ -83,13 +89,21 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 
 [元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 編製任何專案的實際資料。 您可以將元件新增至視覺效果或面板。
 
+>[!TIP]
+>
+>如需每個元件的詳細資訊，請在左側邊欄中選取元件名稱旁的「資訊」圖示，或參閱 [Analytics元件指南](/help/components/home.md).
+
+若要新增元件：
+
 1. 選取 **[!UICONTROL 元件]** 圖示。
 
    ![](assets/build-components.png)
 
 1. 搜尋您要新增的元件。 當左側邊欄顯示時，將其拖曳至專案內的面板或視覺效果。
 
->[!TIP]
->
->   如需各個元件的詳細資訊，請在左側邊欄中選取元件名稱旁的「資訊」圖示，或參閱 [Analytics元件指南](/help/components/home.md).
+### 儲存並共用專案
+
+當您在Analysis Workspace中建立分析時，您的工作是 [自動儲存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+
+當您完成建立專案並收集可操作的深入分析時，專案即可供其他人使用。 您可以與組織內的使用者和群組，甚至與組織外的人員共用專案。 如需共用專案的相關資訊，請參閱 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).
 
