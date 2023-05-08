@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 983ca17062abbaac05b468fda63e82055d787667
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '3972'
-ht-degree: 98%
+source-wordcount: '4008'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 5 月** |  |
+| Analysis Workspace 總覽 | 已更新 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md) 包括更一般的概述資訊和相關內容的連結。 |
+| 建立專案 | 建立新文章，詳細說明如何 [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
 | **2023 年 4 月** |  |
 | 轉移使用者資產並設定帳戶過期時間 | 新增如何 [轉移使用者資產和設定帳戶過期](/help/admin/admin/user-management2/users-assets.md). |
 | Adobe Analytics 2.0 API 的 2 個新端點指南 | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |

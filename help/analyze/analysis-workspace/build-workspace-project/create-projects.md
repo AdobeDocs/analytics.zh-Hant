@@ -3,9 +3,9 @@ description: 了解在Analysis Workspace中建立專案的基本知識
 title: 建立專案
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 33e2ca30ec385861c35c9d06e870d5b38d8f2e34
+source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '663'
 ht-degree: 5%
 
 ---
@@ -101,7 +101,9 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 
 1. 搜尋您要新增的元件。 當左側邊欄顯示時，將其拖曳至專案內的面板或視覺效果。
 
-### 儲存並共用專案
+1. （選用）依照 [儲存並共用專案](#save-and-share-the-project).
+
+## 儲存並共用專案
 
 當您在Analysis Workspace中建立分析時，您的工作是 [自動儲存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
