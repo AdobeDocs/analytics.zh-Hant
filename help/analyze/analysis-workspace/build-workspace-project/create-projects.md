@@ -3,9 +3,9 @@ description: 了解在Analysis Workspace中建立專案的基本知識
 title: 建立專案
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '685'
 ht-degree: 5%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 5%
 
    +++建立空白專案
 
-   1. 選取 [!UICONTROL **專案**] ，然後選取 [!UICONTROL **建立專案**].
+   1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **專案**] 標籤，然後選取 [!UICONTROL **建立專案**].
 
    1. 選擇要建立空白專案還是要建立空白行動計分卡
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 
    +++從範本建立專案
 
-   1. 選取 [!UICONTROL **報表**] 標籤。
+   1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **報表**] 標籤。
 
    1. 搜尋或導覽至您要使用的範本，然後在範本出現時加以選取。
 
