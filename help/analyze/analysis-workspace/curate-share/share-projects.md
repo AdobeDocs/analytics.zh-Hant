@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 836b2c91cf401b7133d3569ae64154a24d2923f7
+source-git-commit: fe072eab9c6dd6438ad6f27f0c16860cd87d1e64
 workflow-type: tm+mt
-source-wordcount: '1752'
-ht-degree: 55%
+source-wordcount: '1797'
+ht-degree: 53%
 
 ---
 
@@ -125,6 +125,8 @@ ht-degree: 55%
 >* 您與共用的使用者可以檢視期間套用至專案的任何篩選器 [組織](curate.md).
 > 
 >* 您與共用的使用者可以變更專案日期範圍。 預設會顯示您為專案設定的日期範圍。
+>
+>* 如果許多用戶同時嘗試訪問指定的連結，則項目可能變得無法訪問。 依預設，超過190人每5分鐘可存取一個連結。 如果貴組織達到此限制，請等待5分鐘，然後再次嘗試存取連結。
 
 
 若要與無法存取Analysis Workspace的人共用Adobe Analytics專案：
