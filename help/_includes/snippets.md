@@ -1,8 +1,8 @@
 ---
-source-git-commit: 82bb289183f04ec6f795ebfa489436a7b0cc021f
-workflow-type: ht
-source-wordcount: '974'
-ht-degree: 100%
+source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 94%
 
 ---
 # 程式碼片段
@@ -48,6 +48,16 @@ ht-degree: 100%
 | [!UICONTROL **建立者**] | 顯示建立元件的使用者名稱。 |
 | [!UICONTROL **預覽**] | 顯示元件在 Analysis Workspace 中的外觀預覽。 |
 | [!UICONTROL **上次修改日期**] | 顯示上次修改元件的日期。此部分會在檢視區段、計算量度和日期範圍時顯示。 |
+
+{style="table-layout:auto"}
+
+## 元件排序選項 {#components-sort-options}
+
+| 選項 | 函數 |
+|---------|----------|
+| [!UICONTROL **建議**] | 使用清單頂端建議的元件排序元件。 您或組織中其他人最常和最近使用的元件，會顯示在清單的上方。 |
+| [!UICONTROL **字母順序**] | 按字母順序對元件排序。 |
+| [!UICONTROL **類別**] | 根據元件類型（維度、量度、區段、日期範圍）排序元件。 |
 
 {style="table-layout:auto"}
 

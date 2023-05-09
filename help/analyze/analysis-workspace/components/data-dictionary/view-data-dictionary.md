@@ -3,10 +3,11 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 檢視資料字典
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 68f68ea4-f0a6-4937-bf8f-aecfa28572bb
+source-git-commit: 02b3dca057731dc56f3ee72e3ce33e30b2cb2a28
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 75%
+source-wordcount: '302'
+ht-degree: 69%
 
 ---
 
@@ -33,6 +34,10 @@ ht-degree: 75%
    元件類型可透過顏色和圖示來識別。 **Dimension** ![Dimension圖示](assets/dimension-icon.png) 是橙色的， **區段** ![區段圖示](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍圖示](assets/date-range-icon.png) 是紫色的， **量度** ![量度圖示](assets/default-metric-icon.png) 為綠色。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 指出計算量度範本或區段範本，以及計算器圖示 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指出貴組織中的Analytics管理員所建立的計算量度。
 
 {{dd-filter-criteria}}
+
+1. （選用）選取 **排序** 圖示 ![「排序元件」圖示](assets/component-sort-icon.png)，然後選取下列任一篩選選項，以排序元件清單：
+
+   {{components-sort-options}}
 
 1. 從元件清單中選取您要檢視的元件。
 

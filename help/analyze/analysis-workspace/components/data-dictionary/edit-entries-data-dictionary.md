@@ -3,10 +3,11 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 編輯資料字典中的條目
 feature: Components
 role: Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
+source-git-commit: 631f84794203cb0a1154d68149c9d64d7247ecd3
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 75%
+source-wordcount: '313'
+ht-degree: 70%
 
 ---
 
@@ -31,6 +32,10 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
    元件類型可透過顏色和圖示來識別。 **Dimension** ![Dimension圖示](assets/dimension-icon.png) 是橙色的， **區段** ![區段圖示](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍圖示](assets/date-range-icon.png) 是紫色的， **量度** ![量度圖示](assets/default-metric-icon.png) 為綠色。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 指出計算量度範本或區段範本，以及計算器圖示 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指出貴組織中的Analytics管理員所建立的計算量度。
 
 {{dd-filter-criteria}}
+
+1. （選用）選取 **排序** 圖示 ![「排序元件」圖示](assets/component-sort-icon.png)，然後選取下列任一篩選選項，以排序元件清單：
+
+   {{components-sort-options}}
 
 1. 從元件清單中選取您要編輯的元件。
 
