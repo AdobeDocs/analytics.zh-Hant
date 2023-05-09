@@ -3,7 +3,7 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d1fd0aa0312b8fb6112cde22a53c58eb3be791a2
+source-git-commit: 5ce3684b44feb37f443046e93aa6d4b17aef8125
 workflow-type: tm+mt
 source-wordcount: '1239'
 ht-degree: 62%
@@ -25,7 +25,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **更新Analytics控制面板應用程式（行動應用程式）的首頁畫面** | 全新更新的首頁畫面可讓您在一個整合的計分卡清單中檢視所有計分卡。  如果您透過一次登入存取多個組織，組織中的所有計分卡都將可在單一清單中使用。 | 不適用 | 2023 年 5 月 10 日 |
 | **排序Analysis Workspace中的元件** | 在Analysis Workspace的左側邊欄或「資料字典」中檢視元件時，現在提供新的「排序」選項。 您可以依建議（最常使用的）、字母或類別（類型）來排序元件。<p>過去，您只能搜尋或篩選元件。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 不適用 | 2023 年 5 月 10 日 |
 | **從自由表格中刪除包含動態維度的列** | 在Analysis Workspace的自由表格中，您現在可以使用x圖示快速刪除包含動態維度的特定列。 執行此動作時，會自動套用「不等於」篩選規則。<p>以前，刪除包含動態維度的列的唯一方式是在「篩選」對話方塊中手動建立規則。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 不適用 | 2023 年 5 月 10 日 |
-| **在面板中新增視覺效果的新按鈕** | Analysis Workspace中每個面板底部現在都有新按鈕，可讓您快速新增視覺效果。 <p>過去，將視覺效果新增至面板的唯一方法是從左側邊欄拖曳視覺效果、複製或複製現有視覺效果，或建立空白麵板。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#quick-viz)</p> | 不適用 | 2023 年 5 月 10 日 |
+| **在面板中新增視覺效果的新按鈕** | Analysis Workspace中每個面板底部現在都有新按鈕，可讓您快速新增視覺效果。 <p>過去，將視覺效果新增至面板的唯一方法是從左側邊欄拖曳視覺效果、複製或複製現有視覺效果，或建立空白麵板。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#quick-viz)</p> | 不適用 | 2023年5月17日 |
 | **深層連結（行動應用程式）** | 可讓使用者傳送計分卡的連結，以直接將他們導向至應用程式中的計分卡專案。 這可讓您更輕鬆共用專案，並提升技術水準較低的受眾的參與度。 | 待定 | 待定 |
 
 {style="table-layout:auto"}
