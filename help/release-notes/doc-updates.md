@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6a695e3b617a5def52719280cd0d979598b6c4c9
+source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
 workflow-type: tm+mt
-source-wordcount: '4008'
-ht-degree: 97%
+source-wordcount: '4121'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 5 月** |  |
 | Analysis Workspace 總覽 | 已更新 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md) 包括更一般的概述資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，詳細說明如何 [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
+| 在左側邊欄中排序元件 | 新增關於排序左側邊欄中元件清單的資訊。請參閱 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
+| 從自由表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 在面板中新增視覺效果的按鈕 | 已新增Analysis Workspace中每個面板底部新按鈕的相關資訊，可讓您快速新增視覺效果。 請參閱「將視覺效果新增至面板」一節，位於 [視覺效果概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023 年 4 月** |  |
 | 轉移使用者資產並設定帳戶過期時間 | 新增如何 [轉移使用者資產和設定帳戶過期](/help/admin/admin/user-management2/users-assets.md). |
 | Adobe Analytics 2.0 API 的 2 個新端點指南 | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
