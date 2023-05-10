@@ -4,10 +4,10 @@ title: 篩選和排序表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: c546058b83be79f4ffb94811727a12b30dd14033
+source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 95%
+source-wordcount: '811'
+ht-degree: 77%
 
 ---
 
@@ -23,19 +23,40 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 >
 > 只能依本節所述篩選動態維度項目。 無法篩選靜態維度項目。 如需詳細資訊，請參閱 [自由表格中的動態與靜態維度項目](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/manual-vs-dynamic-rows.md).
 
+### 快速從表格中排除特定列
+
+您無需開啟「篩選」對話方塊，即可從表格中快速排除特定列。
+
+>[!NOTE]
+>
+>如本節所述，排除列時， [!UICONTROL **不等於**] 規則會自動套用至 [**[!UICONTROL 進階篩選]**](#apply-a-simple-or-advanced-filter) 對話框。
+
+若要從自由表格中快速排除特定列：
+
+1. 將滑鼠指標暫留在您要排除的列上，然後選取x圖示。
+
+   按住Shift鍵以選取範圍列，或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）以選取多個列。
+
+### 將簡單或高級篩選器應用於表
+
 若要篩選自由表格中的資料：
 
-1. 在自由表格中，將滑鼠移至內含您要篩選之資料的欄位上。<!--only some types of columns show the filter... Which? Just Dimensions?-->
+1. 將滑鼠移至包含您要篩選之資料的欄上。 <!--only some types of columns show the filter... Which? Just Dimensions?-->
 
 1. 選取出現的&#x200B;**篩選**&#x200B;圖示。
 
    ![表格中的篩選器圖示](assets/table-filter-icon.png)
 
-1. 在&#x200B;[!UICONTROL **搜尋字詞或片語**]&#x200B;欄位，指定要篩選的字詞或片語。 只顯示包含指定字詞或確切片語的行。
-
-1. (選用) 若要依不同條件或依多個條件篩選，請選取&#x200B;[!UICONTROL **顯示進階**]。
-
    提供下列選項：
+
+   | 選項 | 函數 |
+   |---------|----------|
+   | [!UICONTROL **搜尋字詞或片語**] | 指定要篩選的字詞或片語。 只顯示包含指定字詞或確切片語的行。 |
+   | [!UICONTROL **包含未指定 (無)**] | 選擇此選項可在表格中顯示不屬於任何表格維度的資料。<!--what is this?--> |
+
+1. （選用）若要依不同條件或依多個條件篩選，請選取 [!UICONTROL **進階篩選**].
+
+   下列進階篩選選項可供使用：
 
    | 選項 | 函數 |
    |---------|----------|
