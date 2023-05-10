@@ -4,10 +4,10 @@ title: Adobe Analytics 儀表板高階主管指南
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: a72df772-edd0-45d7-bb64-80fbdaa12f6b
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: daa9e22468430434b23f515d6dd22fee4228d728
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 98%
+source-wordcount: '1276'
+ht-degree: 92%
 
 ---
 
@@ -58,9 +58,15 @@ ht-degree: 98%
 
 1. 選擇公司。 登入控制面板後，「**[!UICONTROL 選擇公司]**」的畫面會隨即顯示。 此畫面會列出您所屬的登入公司。 點選與您所共用計分卡相關聯的公司名稱。
 
-1. 接著，計分卡清單會顯示已與您共用的所有計分卡。 點選要檢視的計分卡。
+   計分卡清單會顯示與您共用的所有計分卡。
 
-   ![選擇公司](assets/nextseq.png)
+1. 點選您要檢視的計分卡。
+
+   如果您透過一次登入存取多個組織，計分卡清單中會顯示您組織中的所有計分卡。
+
+   您可以根據計分卡標題、組織名稱或最近檢視的計分卡清單排序。 您甚至可以搜尋特定計分卡。
+
+   ![選擇公司](assets/mobile-home-screen.png)
 
    如果您登入後看到未共用任何內容的訊息，請向組織者確認下列事項：
 
