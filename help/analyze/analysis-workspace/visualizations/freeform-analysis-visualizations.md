@@ -5,10 +5,10 @@ title: 視覺效果概觀
 feature: Visualizations
 role: User, Admin
 exl-id: b40aa942-4a08-4ff3-9895-e92f9a187b54
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: ce3fa1ae1a4785a6ed2adfe9128f180d3eaa341a
 workflow-type: tm+mt
-source-wordcount: '1156'
-ht-degree: 99%
+source-wordcount: '1280'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,7 @@ ht-degree: 99%
 
 Workspace 提供許多視覺效果，可產生資料的視覺化表示法，例如橫條圖、環圈圖、長條圖、折線圖、地圖、散點圖等。如果您使用 Adobe Analytics，多數視覺效果都是您所熟悉的類型。不過，Analysis Workspace 還提供視覺效果設定，以及許多具有互動功能的新或獨特的視覺效果類型。
 
-您可以從 Workspace 左上角圖示、[空白面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，或透過工作流程中的按一下右鍵功能表來存取視覺效果。
-
-![](assets/viz-rail.png)
+## 視覺效果類型
 
 Analysis Workspace 中有以下視覺效果類型：
 
@@ -34,6 +32,7 @@ Analysis Workspace 中有以下視覺效果類型：
 | [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md) | 自由表格不僅是資料表格，也是互動式視覺效果。這是 Workspace 的資料分析基礎。 |
 | [長條圖](/help/analyze/analysis-workspace/visualizations/histogram.md) | 長線圖會根據量度數量，將訪客人數、瀏覽次數或點擊數放入值區內。 |
 | [橫條圖](/help/analyze/analysis-workspace/visualizations/horizontal-bar.md) | 顯示代表一或多個量度多個值的橫條。 |
+| [關鍵量度摘要](/help/analyze/analysis-workspace/visualizations/key-metric.md) | 顯示量度在單一時間範圍內的趨勢，或讓您比較兩個時間範圍的量度效能。 |
 | [折線圖](/help/analyze/analysis-workspace/visualizations/line.md) | 使用線條呈現量度，顯示一段時間內值的變化。線形圖會延 X 軸使用時間。 |
 | [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md) | 可讓您建立任何量度 (包括計算量度) 的視覺化地圖。 |
 | [散點圖](/help/analyze/analysis-workspace/visualizations/scatterplot.md) | 顯示維度項目與最多三個量度之間的關係。 |
@@ -42,6 +41,26 @@ Analysis Workspace 中有以下視覺效果類型：
 | [Text](/help/analyze/analysis-workspace/visualizations/text.md) | 可讓您將使用者定義文字新增至您的 Workspace。除了運用面板/視覺效果的說明之外，還有助於為您的分析和深入見解新增額外內容 |
 | [樹狀圖](/help/analyze/analysis-workspace/visualizations/treemap.md) | 以一組巢狀矩形顯示階層式 (樹狀結構) 資料。 |
 | [Venn](/help/analyze/analysis-workspace/visualizations/venn.md) | 使用圓圈描繪最多 3 個區段的量度重疊。 |
+
+## 新增視覺效果至面板
+
+1. 開啟您要新增視覺效果的Analysis Workspace專案。
+
+1. 使用下列任一方法來新增視覺效果：
+
+   * 在左側邊欄中，選取 **視覺效果** 圖示 <!-- add icon -->，然後將視覺效果拖曳至您要新增的面板。
+
+      ![](assets/viz-rail.png)
+
+   * 在您要新增視覺效果的面板上，選取 **加號** 圖示，然後選擇代表您要新增之視覺效果的圖示。 將滑鼠指標暫留在每個視覺效果的圖示上，即可查看其名稱。
+
+      ![新增視覺效果的按鈕](assets/visualization-add-to-panel.png)
+
+   * 新增 [空白麵板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/blank-panel.html?lang=zh-Hant)，然後選擇您要新增的視覺效果。
+
+      ![空白面板](assets/blank_panel.png)
+
+   * 以滑鼠右鍵按一下Analysis Workspace專案中的現有面板，然後選取 [!UICONTROL **複製視覺效果**] 或 [!UICONTROL **複製視覺效果**].
 
 ## 自訂視覺效果設定
 
