@@ -3,9 +3,9 @@ description: 了解在Analysis Workspace中建立專案的基本知識
 title: 建立專案
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 35f8bea903d15f18642d4b2482fb99f591e3b386
+source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '689'
 ht-degree: 5%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 5%
 
 以下各節說明如何建立專案，並開始為任何Analysis Workspace專案新增重要建置組塊：面板、視覺效果和元件。
 
-## 從空白專案或範本建立專案
+## 從空白專案或報表建立專案
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **工作區**].
 
-1. 選擇要建立空白專案，還是要從範本建立專案：
+1. 選擇要建立空白專案，還是要從報表建立專案：
 
    +++建立空白專案
 
@@ -36,15 +36,15 @@ ht-degree: 5%
 
 +++
 
-   +++從範本建立專案
+   +++從報表建立專案
 
    1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **報表**] 標籤。
 
-   1. 搜尋或導覽至您要使用的範本，然後在範本出現時加以選取。
+   1. 搜尋或導覽至您要使用的報表，然後在報表出現時加以選取。
 
-      預設提供一組標準範本。 此外，您的組織可能已建立自訂範本供您選擇。
+      預設提供一組標準報表。 此外，您的組織可能已建立自訂報表供您選擇。
 
-      如需詳細資訊，請參閱 [開始使用Reports &amp; Analytics](/help/analyze/reports-analytics/getting-started.md).
+      如需詳細資訊，請參閱 [Adobe Analytics登陸頁面](/help/analyze/landing.md).
 +++
 
 1. 接下來，您需要將面板、視覺效果和元件新增至專案。 首先，將面板新增至您在Analysis Workspace中的專案，如 [新增面板至專案](#add-panels-to-the-project). 然後，您可以將視覺效果新增至任何面板。 最後，您可以將元件新增至任何面板或視覺效果。
