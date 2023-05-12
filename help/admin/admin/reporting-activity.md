@@ -4,18 +4,16 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: 646eb5aeefb17ded89a7041df6f6ad927b799f3f
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 100%
+source-wordcount: '954'
+ht-degree: 94%
 
 ---
 
 # 報告活動管理器
 
->[!NOTE]
->
->此功能目前正在進行 Beta 版測試。
+{{release-limited-testing}}
 
 [!UICONTROL 報告活動管理器]可讓您查看組織中每個報告套裝的報告容量。它為身為管理員的您提供報告使用量的詳細可見度，並幫助您在尖峰報告期間輕鬆診斷和修正容量問題。
 
@@ -64,13 +62,13 @@ ht-degree: 100%
 
 ![報告套裝](/help/admin/admin/assets/indiv-report-ste.png)
 
-### 折線圖
+### 折線圖 {#line}
 
 折線圖顯示所選報告套裝在過去 2 小時內的報告活動。
 
 * X 軸顯示過去 2 小時內的報告容量資料。
-* Y 軸顯示查詢的平均等待時間，以秒為單位。
-* 您可以將滑鼠停留在折線圖上以檢視那一刻的時間點和平均等待時間。
+* Y軸會依分鐘顯示所選報表套裝的報表使用量%。
+* 您可以暫留在折線圖上，以檢視表示的使用量百分比將是該分鐘的最高%的時間點。
 
    ![詳細資料](/help/admin/admin/assets/detail.png)
 
@@ -80,7 +78,7 @@ ht-degree: 100%
 
 ![篩選](/help/admin/admin/assets/filter.png)
 
-### 摘要數字
+### 摘要數字 {#summary}
 
 ![篩選](/help/admin/admin/assets/summary_numbers.png)
 
@@ -96,9 +94,9 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-### 表格
+### 報表套裝詳細資料表 {#details}
 
-下方詳細表格顯示報表套裝的詳細資料。
+下表詳細列出報表套裝的詳細資料。
 
 | 欄 | 說明 |
 | --- | --- |
@@ -116,7 +114,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-## 取消報告請求
+## 取消報告請求 {#cancel}
 
 若要取消請求
 
@@ -133,7 +131,7 @@ ht-degree: 100%
 
 ![取消使用者通知](/help/admin/admin/assets/cancel-user-facing.png)
 
-## 常見問題集
+## 常見問題集 {#faq}
 
 | 問題 | 回答 |
 | --- | --- |
