@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 08185446c031582bfea21cb35cbfa365fa8f4239
+source-git-commit: 50983b3cdc6ee003593eacc5b9a158eae761e4a5
 workflow-type: tm+mt
-source-wordcount: '4121'
-ht-degree: 95%
+source-wordcount: '4163'
+ht-degree: 96%
 
 ---
 
@@ -26,16 +26,18 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 5 月** |  |
-| Analysis Workspace 總覽 | 已更新 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md) 包括更一般的概述資訊和相關內容的連結。 |
-| 建立專案 | 建立新文章，詳細說明如何 [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md) 在Analysis Workspace。 |
+| 已改良 IP 對地理位置的對應 | 建立主題 [常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en). |
+| 報告活動管理員 | 更新本測試版檔案，尤其是 [檢視個別報表套裝的報表活動](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites). |
+| Analysis Workspace 概觀 | 更新[Analysis Workspace 概觀](/help/analyze/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
+| 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
 | 在左側邊欄中排序元件 | 新增關於排序左側邊欄中元件清單的資訊。請參閱 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md). |
-| 從自由表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
+| 從自由格式表格中刪除包含動態維度的列 | 已新增有關如何使用x圖示快速刪除包含動態維度之特定列的資訊。 請參閱「從表格快速排除特定列」一節，位於 [篩選及排序表格](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md). |
 | 在面板中新增視覺效果的按鈕 | 已新增Analysis Workspace中每個面板底部新按鈕的相關資訊，可讓您快速新增視覺效果。 請參閱「將視覺效果新增至面板」一節，位於 [視覺效果概述](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md). |
 | **2023 年 4 月** |  |
-| 轉移使用者資產並設定帳戶過期時間 | 新增如何 [轉移使用者資產和設定帳戶過期](/help/admin/admin/user-management2/users-assets.md). |
+| 轉移使用者資產並設定帳戶到期日 | 新增有關如何[轉移使用者資產並設定帳戶到期日](/help/admin/admin/user-management2/users-assets.md)的資訊。 |
 | Adobe Analytics 2.0 API 的 2 個新端點指南 | <ul><li>[Analytics 維度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/dimensions/)</li><li>[Analytics 量度 API](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/metrics/)</li></ul> |
 | 專案區段 (臨時和快速區段) | 簡化了專案區段的文件，並刪除重複資訊。建立臨時區段的步驟現在已經和下列步驟相結合，用於[建立快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)。 |
-| 動態查閱 | 其他相關資訊 [動態查閱](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md) 中。 之前，僅存在行動屬性的資訊，這是數個動態查閱之一。 |
+| 動態查詢 | 新增更多關於[動態查詢](/help/export/analytics-data-feed/c-df-contents/dynamic-lookups.md)的資訊。以前，只有行動屬性的資訊，這是幾個動態查詢之一。 |
 | **2023 年 3 月** |  |
 | Web SDK 支援 Activity Map | 已更新[實作 Adobe Analytics](/help/implement/home.md) 和[啟用 Activity Map](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)。 |
 | 流量變數 (props) 概觀 | 新增區段和逐步程序以說明和改善文章內容。合併了標題為「啟用流量變數報告」一文中的內容，並移除了該文章。請參閱[流量變數 (props) 概觀](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/c-traffic-variables/traffic-var.md)。 |
@@ -226,7 +228,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 2019 年 9 月 12 日 | 更新[計算量度總計](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetrics-reference/cm-totals.html?lang=zh-Hant)文件。 |
 | 2019 年 8 月 28 日 | [Analytics 專用漸進式網頁應用程式](/help/technotes/pwa.md)的相關新文章 |
 | 2019 年 8 月 8 日 | 新增[計算量度總計](/help/components/c-calcmetrics/cm-totals.md)文章 |
-| 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md) | 2019 年 8 月 8 日 | 在工作區中，Adobe將可放入靜態下拉式篩選器的項目上限從50個提高至200個。 此增強功能適合多種使用案例，例如將所有國家/區域 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
+| 2019 年 8 月 8 日 | 進一步釐清[啟用時間戳記的作業資料](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/timestamp-optional.md) | 2019 年 8 月 8 日 | 在工作區中，Adobe 將靜態下拉式篩選器中可放置的項目數上限從 50 個增加到 200 個。此增強功能適合多種使用案例，例如將所有國家/區域 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
 | 2019 年 8 月 2 日 | [Analytics 字彙表](/help/technotes/terms.md)重大更新 |
 | 2019 年 7 月 22 日 | [Analysis Workspace 範本](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md)文件新增「Magento：行銷和商務」範本。 |
 | 2019 年 7 月 18 日 | 更新[「同類群組表格」設定](/help/analyze/analysis-workspace/visualizations/cohort-table/t-cohort.md)。 |
