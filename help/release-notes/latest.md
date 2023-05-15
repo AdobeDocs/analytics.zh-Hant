@@ -6,7 +6,7 @@ exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 890742781a59532828003f8ba660043b9f1c73a1
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 54%
+ht-degree: 87%
 
 ---
 
@@ -21,25 +21,25 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **非生產沙箱的回填** | 在非生產沙箱中建立 Analytics 來源連接器資料流時，非生產沙箱中的回填將限制為 3 個月。生產沙箱將維持 13 個月。 | 不適用 | 2023 年 4 月 26 日 |
-| **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外部人員，或組織內未布建Adobe Analytics的人員共用。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=en#share-public-link)<p>此功能預設為啟用，系統管理員可以停用此功能。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=en#company-preferences)</p> | 2023年5月3日 | 2023 年 6 月 |
-| **更新Analytics控制面板應用程式（行動應用程式）的首頁畫面** | 全新更新的首頁畫面可讓您在一個整合的計分卡清單中檢視所有計分卡。  如果您透過一次登入存取多個組織，組織中的所有計分卡都將可在單一清單中使用。 | 不適用 | 2023 年 5 月 10 日 |
-| **排序Analysis Workspace中的元件** | 在Analysis Workspace的左側邊欄或「資料字典」中檢視元件時，現在提供新的「排序」選項。 您可以依建議（最常使用的）、字母或類別（類型）來排序元件。<p>過去，您只能搜尋或篩選元件。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en)</p> | 不適用 | 2023年5月17日 |
-| **從自由表格中刪除包含動態維度的列** | 在Analysis Workspace的自由表格中，您現在可以使用x圖示快速刪除包含動態維度的特定列。 執行此動作時，會自動套用「不等於」篩選規則。<p>以前，刪除包含動態維度的列的唯一方式是在「篩選」對話方塊中手動建立規則。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=en)</p> | 不適用 | 2023年5月17日 |
-| **在面板中新增視覺效果的新按鈕** | Analysis Workspace中每個面板底部現在都有新按鈕，可讓您快速新增視覺效果。 <p>過去，將視覺效果新增至面板的唯一方法是從左側邊欄拖曳視覺效果、複製或複製現有視覺效果，或建立空白麵板。 [了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 不適用 | 2023年5月17日 |
-| **深層連結（行動應用程式）** | 可讓使用者傳送計分卡的連結，以直接將他們導向至應用程式中的計分卡專案。 這可讓您更輕鬆共用專案，並提升技術水準較低的受眾的參與度。 | 待定 | 待定 |
+| **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link)<p>此功能預設為啟用，系統管理員可以停用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 |
+| **更新 Analytics 儀表板應用程式 (行動應用程式) 的首頁** | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。如果您一次登入可以存取多個組織，則單一清單會提供您所有組織的計分卡。 | 不適用 | 2023 年 5 月 10 日 |
+| **在 Analysis Workspace 中排序元件** | 現在，在 Analysis Workspace 的左側邊欄或資料字典中查看元件時，可以使用新的「排序」選項。您可以按「建議」(最常用)、「字母順序」或「類別」(類型) 來排序元件。<p>以前，您只能搜尋或篩選元件。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=zh-Hant)</p> | 不適用 | 2023 年 5 月 17 日 |
+| **從自由格式表格中刪除包含動態維度的列** | 在 Analysis Workspace 的自由格式表格中，您現在可以使用 x 圖示快速刪除包含動態維度的特定列。執行時，「不等於」篩選規則會自動套用。<p>以前，想要刪除包含動態維度的列，唯一的方法是在「篩選器」對話框中手動建立規則。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=zh-Hant)</p> | 不適用 | 2023 年 5 月 17 日 |
+| **在面板中新增視覺效果的新按鈕** | 現在，Analysis Workspace 每個面板的底部都有一個新按鈕，可讓您快速新增視覺效果。 <p>以前，將視覺效果新增到面板的唯一方法是從左側邊欄拖放視覺效果、複製現有的視覺效果，或者建立空白面板。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html?lang=en#add-visualizations-to-a-panel)</p> | 不適用 | 2023 年 5 月 17 日 |
+| **深度連結 (行動應用程式)** | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共享專案和提高技術水平較低的對象參與度變得更加容易。 | 待定 | 待定 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-AN-312098;AN-318309;AN-316675;AN-318173;AN-310359;AN-317613;AN-318836;AN-315744;AN-311772;AN-318719;AN-314074;AN-316651<!--"Verified" status-->;AN-318602;AN-315961;AN-317534;AN-318607;AN-316498;AN-316648;AN-318244;AN-317747;AN-318432;AN-318231;AN-317590;AN-318415;AN-318154;AN-316647;N-314417;AN-317614;AN-317725;AN-318114;AN-317876;AN-318052;AN-317966;AN-316477;AN-318036;AN-317931;AN-318045;AN-316246;AN-317281;AN-317879;AN-308077;AN-317708;AN-316115;AN-315963
+AN-312098；AN-318309；AN-316675；AN-318173；AN-310359；AN-317613；AN-318836；AN-315744；AN-311772；AN-318719；AN-314074；AN-316651<!--"Verified" status-->；AN-318602；AN-315961；AN-317534；AN-318607；AN-316498；AN-316648；AN-318244；AN-317747；AN-318432；AN-318231；AN-317590；AN-318415；AN-318154；AN-316647；N-314417；AN-317614；AN-317725；AN-318114；AN-317876；AN-318052；AN-317966；AN-316477；AN-318036；AN-317931；AN-318045；AN-316246；AN-317281；AN-317879；AN-308077；AN-317708；AN-316115；AN-315963
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | **移轉至AdobeIO OAuth伺服器對伺服器憑證** | 2023 年 5 月 11 日 | Adobe Analytics API和使用AdobeIO JWT憑證的Livestream客戶，必須透過移轉至AdobeIO OAuth伺服器對伺服器憑證 **2025年1月1日**. 如需更多詳細資料和時間表，請參閱下表中的終止通知。 |
-| **注意：Adobe Analytics資料摘要和倫敦資料中心Data Warehouse輸出使用的新IP** | 2023 年 4 月 27 日 | 若是倫敦資料中心的客戶有資料摘要請求和/或Data Warehouse報表傳送至FTP/SFTP服務，您應將下列IP位址範圍新增至防火牆設定，以允許存取： <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
+| **注意：倫敦資料中心的 Adobe Analytics 資料摘要和 Data Warehouse 輸出使用的新 IP** | 2023 年 4 月 27 日 | 如果倫敦資料中心的客戶有資料摘要求和/或 Data Warehouse 報告要傳遞到 FTP/SFTP 服務，以下 IP 位址範圍應新增到防火牆設定以允許存取： <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
 | **裝置查詢流程現在使用協力廠商進行所有裝置查詢** | 2023 年 3 月 3 日 | 2023 年 3 月 2 日，我們推出了用戶端提示支援，更新了裝置查詢流程以使用協力廠商進行所有裝置查詢。先前，協力廠商只用於進行行動裝置查詢。而在此次推出的內容中，部分桌面作業系統誤標記了「Mobile」文字 (例如，「Mobile OS X 10.15.7」而不是「OS X 10.15.7」)。<p>在 Adobe 4 月版中，我們將更正這些名稱。Analytics 和 CJA 報告將追溯更新，因為它們的報告是根據記錄為事件資料的 ID 來查詢作業系統名稱。一旦 ID 對應的查詢值更新，所有的報告都會修正，包括歷史資料。針對 [!UICONTROL 資料摘要] 客戶，如果您在報告時使用類似的查閱程式，變更將可回溯。 但是，如果您將作業系統值儲存在事件資料中，則只會更新未來的報告。如需詳細資料，請參閱[作業系統](/help/components/dimensions/operating-systems.md)。 |
 
 {style="table-layout:auto"}
