@@ -3,9 +3,10 @@ description: Analysis Workspace 中的資料字典允許使用者對 Analysis Wo
 title: 資料字典概觀
 feature: Components
 role: User, Admin
-source-git-commit: 04f7b3f4b543619cd4a8af418ce583e73ce65b9f
+exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
+source-git-commit: daa5a5ccfb6642c97e0f391eba6226d365caa06c
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '533'
 ht-degree: 100%
 
 ---
@@ -15,6 +16,8 @@ ht-degree: 100%
 Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤並深入了解在其 Analytics 環境中的元件。
 
 Analytics 管理員負責整理關於資料字典中每個元件的資訊，並將其提供給使用者。
+
+![VIDEO](https://video.tv.adobe.com/v/3418028/?quality=12&learn=on)
 
 ## 對使用者的好處
 
