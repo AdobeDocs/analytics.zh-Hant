@@ -1,31 +1,31 @@
 ---
-description: 如何建立 Adobe Analytics 儀表板計分卡
-title: 建立行動計分卡
+description: 如何建立和共用Adobe Analytics控制面板計分卡
+title: 建立和共用行動計分卡
 feature: Analytics Dashboards
 role: User, Admin
 exl-id: ebe6d83d-bbae-43de-bf85-35258bf6c1d0
-source-git-commit: 8707bde9ddda96ab63a916bda9dfb35e8b9b1063
-workflow-type: ht
-source-wordcount: '2353'
-ht-degree: 100%
+source-git-commit: 455b206ea145a3364d20048041976a1472c8abd7
+workflow-type: tm+mt
+source-wordcount: '2513'
+ht-degree: 82%
 
 ---
 
 # 建立行動計分卡
 
-下列資訊可為 Adobe Analytics 資料的組織者說明如何為主管使用者設定和說明行動計分卡。若要開始使用，您可觀看 Adobe Analytics 儀表板計分卡產生器的影片：
+下列資訊可為 Adobe Analytics 資料的組織者說明如何為主管使用者設定和說明行動計分卡。首先，您可以檢視Adobe Analytics控制面板計分卡產生器影片：
 
 >[!VIDEO](https://video.tv.adobe.com/v/34544)
 
-Adobe Analytics 計分卡會以圖磚式版面為主管使用者顯示關鍵資料的視覺效果，如下所示：
+Adobe Analytics 計分卡會以圖磚式版面為高階主管使用者顯示關鍵資料的視覺效果，如下所示：
 
 ![計分卡範例](assets/intro_scorecard.png)
 
-此計分卡的組織者可利用計分卡產生器為高階主管消費者設定計分卡上要顯示哪些圖磚。您也能設定，消費者點選圖磚後，詳細檢視或劃分可能如何調整。計分卡建立程式的介面如下：
+此計分卡的組織者可使用計分卡產生器，為執行消費者設定計分卡上顯示的圖磚。 您也能設定，消費者點選圖磚後，詳細檢視或劃分可能如何調整。計分卡建立程式介面如下所示：
 
 ![計分卡建立程式](assets/scorecard_builder.png)
 
-若要建立計分卡，您需要執行以下作業：
+若要建立計分卡，您必須執行下列動作：
 
 1. 存取 [!UICONTROL 空白行動計分卡] 範本。
 1. 使用資料設定計分卡並儲存。
@@ -37,7 +37,7 @@ Adobe Analytics 計分卡會以圖磚式版面為主管使用者顯示關鍵資�
 ### 建立新專案 {#create}
 
 1. 開啟 Adobe Analytics，然後按一下 **[!UICONTROL 工作區]** 索引標籤。
-1. 按一下 **[!UICONTROL 建立專案]**，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
+1. 按一下 **[!UICONTROL 建立專案]** ，然後選取 **[!UICONTROL 空白行動計分卡]** 專案範本。
 1. 按一下 **[!UICONTROL 建立]**。
 
 ![計分卡範本](assets/new_template.png)
@@ -55,7 +55,7 @@ Adobe Analytics 計分卡會以圖磚式版面為主管使用者顯示關鍵資�
 
    ![選取報表套裝](assets/properties_save.png)
 
-1. 若要為計分卡新增圖磚，請從左側面板拖曳量度，放置到顯示 **[!UICONTROL 將量度拖放至此]** 的區域。您也可以使用類似的工作流程，跨圖磚插入量度。
+1. 若要為計分卡新增圖磚，請從左側面板拖曳量度，放置到 **[!UICONTROL 將量度拖放至此]** 區域。 您也可以使用類似的工作流程，跨圖磚插入量度。
 
    ![新增圖磚](assets/build_list.png)
 
@@ -74,7 +74,7 @@ Adobe Analytics 計分卡會以圖磚式版面為主管使用者顯示關鍵資�
 
 若要將區段套用至個別圖磚，請從左側面板將區段直接拖放至圖磚上方。
 
-如果要將區段套用至計分卡中的所有圖磚，請將圖磚放置在計分卡上。或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您可以比照 Adobe Analytics Workspace 中的相同方式，來[設定並套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant)。
+如果您想將區段套用至計分卡中的所有圖磚，請將圖磚拖曳至計分卡上。 或者，您也可以在日期範圍下方的篩選功能表中選取區段，以套用區段。您 [設定和套用計分卡的篩選器](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-drop-down-filters.html?lang=zh-Hant) 與在Adobe Analytics Workspace中的方式相同。
 
 ![建立篩選的區段](assets/segment_ui.png)
 
@@ -164,7 +164,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 檢視和設定圖磚屬性 {#tiles}
 
-按一下計分卡產生器中的圖磚，右側欄會顯示與該圖磚相關聯的屬性和特性以及其詳細投影片。在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用區段來設定圖磚。
+按一下計分卡建立程式中的圖磚時，右側邊欄會顯示與該圖磚及其詳細資料投影片相關聯的屬性和特性。 在此邊欄中，您可以為該圖磚提供新的&#x200B;**標題**，或是透過套用區段來設定圖磚。
 
 ![「屬性」圖磚](assets/properties-tile-new.png)
 
@@ -212,7 +212,7 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 移除元件 {#remove}
 
-同樣地，若要移除套用至整個計分卡的元件，請在計分卡上按一下圖磚之外的任意位置，然後按一下將游標停留在元件上時顯示的 **x**，即可將其移除，如下方「**初次瀏覽**」區段所示：
+同樣地，若要移除套用至整個計分卡的元件，請按一下計分卡上圖磚之外的任意位置，然後按一下 **x** 當您將游標暫留在元件上時，就會顯示，如下所示 **首次造訪次數** 區段：
 
 ![Remove_components](assets/new_remove.png)
 
@@ -315,13 +315,13 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ## 命名計分卡 {#name}
 
-若要為計分卡命名，請按一下畫面左上角的命名空間，並輸入新名稱。
+若要為計分卡命名，請按一下畫面左上角的命名空間，然後輸入新名稱。
 
 ![Naming_Scorecards](assets/new_name.png)
 
 ## 共用計分卡 {#share}
 
-若要與高階主管使用者共用計分卡：
+若要與執行使用者共用計分卡：
 
 1. 按一下 **[!UICONTROL 共用]** 功能表，然後選取 **[!UICONTROL 共用計分卡]**。
 
@@ -336,6 +336,25 @@ Analytics 儀表板可提供四種視覺效果，讓您對維度項目和量度�
 
 ![Share_Scorecards](assets/new_share.png)
 
-在您共用計分卡後，您的收件者可在其 Analytics 儀表板中存取該計分卡。如果您在計分卡產生器中對計分卡進行後續變更，共用的計分卡會自動更新。到時，高階主管使用者在應用程式中重新整理計分卡後，就能看見變更。
+在您共用計分卡後，您的收件者可在其 Analytics 儀表板中存取該計分卡。如果您後續在計分卡建立程式中變更計分卡，共用的計分卡會自動更新。 執行使用者在應用程式中重新整理計分卡後，就會看到變更。
 
 如果您是以新增元件的方式更新計分卡，可再次共用計分卡 (並勾選 **[!UICONTROL 共用內嵌元件]** 選項)，以確保您的高階主管使用者有權存取這些變更。
+
+### 使用可分享的連結共用計分卡
+
+使用可分享的連結，可輕鬆在電子郵件、檔案或簡訊應用程式中共用計分卡。 共用連結可讓收件者在案頭或控制面板行動應用程式上開啟計分卡。 可共用的深層連結可讓您更輕鬆共用專案，並提升與利害關係人的互動。
+
+使用可分享連結來共用計分卡
+
+1. 按一下 **[!UICONTROL 共用]** 功能表，然後選取 **[!UICONTROL 共用計分卡]**。
+
+   ![Share_Scorecards](assets/share-scorecard.png)
+
+1. 複製連結並貼到電子郵件、檔案或IM應用程式中。
+
+   收件者使用案頭應用程式或瀏覽器開啟連結時，行動計分卡專案將會在工作區中開啟。
+
+   收件者在行動裝置上開啟連結時，計分卡會直接在Analytics控制面板應用程式中開啟。
+
+   如果收件者尚未下載行動應用程式，系統會將他們導向至App Store或Google Play商店中的應用程式清單，供他們下載。
+
