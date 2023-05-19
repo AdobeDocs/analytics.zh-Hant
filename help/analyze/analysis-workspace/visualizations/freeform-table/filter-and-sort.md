@@ -4,10 +4,10 @@ title: 篩選和排序表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: 7f5fca4f7c3641d47e5d1d929a196d5e380c1e6b
+source-git-commit: 9899b5e0fbdfd5264be9d414477caad38d4550ae
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 77%
+source-wordcount: '825'
+ht-degree: 78%
 
 ---
 
@@ -29,7 +29,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 >[!NOTE]
 >
->如本節所述，排除列時， [!UICONTROL **不等於**] 規則會自動套用至 [**[!UICONTROL 進階篩選]**](#apply-a-simple-or-advanced-filter) 對話框。
+>如本節所述，排除列時， [!UICONTROL **一律排除項目**] 規則會自動套用至進階篩選對話方塊。 (您可以選取「篩選」圖示，然後 [**[!UICONTROL 顯示高級]**](#apply-a-simple-or-advanced-filter-to-a-table).)
 
 若要從自由表格中快速排除特定列：
 
@@ -54,7 +54,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
    | [!UICONTROL **搜尋字詞或片語**] | 指定要篩選的字詞或片語。 只顯示包含指定字詞或確切片語的行。 |
    | [!UICONTROL **包含未指定 (無)**] | 選擇此選項可在表格中顯示不屬於任何表格維度的資料。<!--what is this?--> |
 
-1. （選用）若要依不同條件或依多個條件篩選，請選取 [!UICONTROL **進階篩選**].
+1. (選用) 若要依不同條件或依多個條件篩選，請選取&#x200B;[!UICONTROL **顯示進階**]。
 
    下列進階篩選選項可供使用：
 
