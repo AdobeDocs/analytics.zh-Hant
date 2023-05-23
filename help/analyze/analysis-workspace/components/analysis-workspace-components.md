@@ -4,10 +4,10 @@ title: 元件概觀
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 6247f44aca1e6aba6cf02ed34a0e26ef5e182021
+source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
 workflow-type: tm+mt
-source-wordcount: '1120'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,7 +53,7 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 [**日期範圍**](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/calendar.html)是您進行分析的日期範圍。這些日期範圍可在左側「元件」邊欄 (紫色區段) 中找到，通常可套用在每個面板的行事曆中。
 
-您可以建立與面板日曆相對的日期範圍元件。 如需詳細資訊，請參閱 [關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates).
+可以相對於面板日曆建立日期範圍元件。 有關其他資訊，請參見 [關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md#relative-panel-dates)。
 
 日期範圍的範例包括 2019 年 7 月、[!UICONTROL 最近 4 週]和[!UICONTROL 本月]。日期範圍是由 Adobe 提供，或在[面板行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html)中套用，或使用[日期範圍產生器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html)建立。
 
@@ -62,22 +62,22 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 ## 管理元件 {#actions}
 
-您可以直接在左側邊欄中管理元件。
+可以直接在左滑軌中管理元件。
 
-1. 以滑鼠右鍵按一下元件。
+1. 按一下右鍵元件。
 
    或
 
-   選取元件，然後選取 **動作** (3-dot)圖示。
+   選擇元件，然後選擇 **操作** (3-dot)表徵圖。
 
    >[!TIP]
    >
-   >   按住Shift鍵或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）可以選取多個元件。
+   >   可通過按住Shift鍵或按住Command鍵(在Mac上)或Ctrl鍵（在Windows上）來選取多個元件。
 
 
    ![](assets/component-actions.png)
 
-   | 元件動作 | 說明 |
+   | 元件操作 | 說明 |
    |--- |--- |
    | [!UICONTROL **標記**] | 以套用標記的方式組織或管理元件。然後，您可以按一下篩選或輸入 #，依左側欄中的標籤進行搜尋。標籤也會當作元件管理員中的篩選器。 |
    | [!UICONTROL **我的最愛**] | 新增元件至我的最愛清單。如同標籤，您可以依左側邊欄的「我的最愛」搜尋，並在元件管理員中這些條件篩選。 |
@@ -87,31 +87,33 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 
 自訂元件也可透過其各自的元件管理員來管理。例如[區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)。
 
-## 搜尋、篩選及排序元件清單
+## 搜索、篩選和排序元件清單
 
-您可以在Analysis Workspace左側邊欄中搜尋、篩選及排序元件清單，以快速找到特定元件。
+您可以搜索、篩選和排序Analysis Workspace左滑軌中的元件清單，以快速找到特定的元件。
 
-### 搜尋元件清單
+### 搜索元件清單
 
-1. 選取 **元件** 圖示 ![元件圖示](assets/components-icon.png) 在左側邊欄。
+1. 選擇 **元件** 表徵圖 ![元件表徵圖](assets/components-icon.png) 左欄。
 
-1. 在搜尋欄位中，開始輸入您要在專案中使用的元件名稱。
+1. 在搜索欄位中，開始鍵入要在項目中使用的元件的名稱。
 
-   元件類型可透過顏色和圖示來識別。 **Dimension** ![Dimension圖示](assets/dimension-icon.png) 是橙色的， **區段** ![區段圖示](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍圖示](assets/date-range-icon.png) 是紫色的， **量度** ![量度圖示](assets/default-metric-icon.png) 為綠色。 Adobe圖示 ![Adobe圖示](assets/default-calc-metric-icon.png) 指出計算量度範本或區段範本，以及計算器圖示 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指出貴組織中的Analytics管理員所建立的計算量度。
+   元件類型可以同時用顏色和表徵圖來標識。 **Dimension** ![Dimension表徵圖](assets/dimension-icon.png) 是橙色的， **段** ![段表徵圖](assets/segment-icon.png) 是藍色的， **日期範圍** ![日期範圍表徵圖](assets/date-range-icon.png) 是紫色的 **度量** ![度量表徵圖](assets/default-metric-icon.png) 是綠色的。 Adobe表徵圖 ![Adobe表徵圖](assets/default-calc-metric-icon.png) 指示計算的度量模板或段模板，以及計算器表徵圖 ![計算器表徵圖](assets/calculated-metric-icon-created.png) 指明了由組織中的分析管理員建立的計算度量。
 
-1. 當元件出現在下拉式清單中時，請選取該元件。
+1. 當元件出現在下拉清單中時，選擇它。
 
 ### 篩選元件清單
 
-1. 選取 **元件** 圖示 ![元件圖示](assets/components-icon.png) 在左側邊欄。
+{{release-limited-testing-section}}
 
-1. 選取 **篩選** 圖示 ![資料字典篩選器圖示](assets/components-filter-icon.png).
+1. 選擇 **元件** 表徵圖 ![元件表徵圖](assets/components-icon.png) 左欄。
+
+1. 選擇 **篩選** 表徵圖 ![「資料字典篩選器」表徵圖](assets/components-filter-icon.png)。
 
    或
 
-   在搜尋欄位中輸入井字型大小(#)。
+   在搜索欄位中鍵入井號(#)。
 
-1. 選取下列任一篩選選項，以篩選元件清單：
+1. 選擇以下任何篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -124,14 +126,14 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
    | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |
 
-1. （選用）若要進一步磨練清單，您可以依照 [排序元件清單](#sort-the-component-list).
+1. （可選）要進一步改進清單，可以按中所述對元件清單進行排序 [對元件清單排序](#sort-the-component-list)。
 
-### 排序元件清單
+### 對元件清單排序
 
-1. （選用）將任何篩選器套用至元件清單，如 [篩選元件清單](#filter-the-component-list).
+1. （可選）將任何篩選器應用到元件清單，如中所述 [篩選元件清單](#filter-the-component-list)。
 
-1. 選取 **元件** 圖示 ![元件圖示](assets/components-icon.png) 在左側邊欄。
+1. 選擇 **元件** 表徵圖 ![元件表徵圖](assets/components-icon.png) 左欄。
 
-1. 選取 **排序** 圖示 ![「排序元件」圖示](assets/component-sort-icon.png)，然後選取下列任一篩選選項，以排序元件清單：
+1. 選擇 **排序** 表徵圖 ![「排序元件」表徵圖](assets/component-sort-icon.png)，然後選擇下列任何篩選器選項對元件清單進行排序：
 
    {{components-sort-options}}
