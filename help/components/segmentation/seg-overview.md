@@ -3,10 +3,10 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 14c5acb9dbd46fac3dc2465c1200b478853270e9
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 100%
+source-wordcount: '1189'
+ht-degree: 98%
 
 ---
 
@@ -86,9 +86,9 @@ Analysis Workspace 包含以下附加功能：
 
 存取「區段產生器」的方法有：
 
-* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 在顯示的區段欄中，按一下「**[!UICONTROL 新增]**」，或
+* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。 在顯示的區段欄中，按一下「**[!UICONTROL 新增]**」，或
 
-* 在「區段管理員」最上方，按一下「**[!UICONTROL + 新增]**」。 ![「新增」按鈕](assets/add_button.png)
+* 在「區段管理員」最上方，按一下「**[!UICONTROL + 新增]**」。 ![「新增」按鈕](https://spectrum.adobe.com/static/icons/workflow_18/Smock_AddCircle_18_N.svg)
 
    或
 

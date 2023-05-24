@@ -5,7 +5,7 @@ uuid: ef5c276c-5f74-4741-b6fa-4c79eda29f62
 feature: Report Builder
 role: User, Admin
 exl-id: b5a83532-9fa7-4f1f-b744-e5d74781fffb
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 100%
@@ -18,13 +18,9 @@ ht-degree: 100%
 
 身為分析師，您可以鎖定活頁簿，讓組織內的其他使用者無法竄改，以保護您的活頁簿請求。同時，這些使用者仍然可以重新整理活頁簿中的請求。
 
-若要禁止編輯活頁簿，請按一下 Report Builder 工具列上的&#x200B;**[!UICONTROL 「鎖定」]**(![](assets/locked_icon.png)
+若要禁止編輯活頁簿，請按一下 Report Builder 工具列上的&#x200B;**[!UICONTROL 「鎖定」]**(![](assets/locked_icon.png))。
 
-)。
-
-若要取消活頁簿保護機制，請按一下&#x200B;**[!UICONTROL 「解除鎖定」]**(![](assets/unlocked_icon.png)
-
-)。
+若要取消活頁簿保護機制，請按一下&#x200B;**[!UICONTROL 「解除鎖定」]**(![](assets/unlocked_icon.png))。
 
 若要將已鎖定的活頁簿解鎖，您必須具備下列其中一項權限：
 

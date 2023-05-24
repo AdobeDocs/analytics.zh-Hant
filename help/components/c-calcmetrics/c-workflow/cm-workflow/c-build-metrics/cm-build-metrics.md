@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 100%
+source-wordcount: '972'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 * 按一下計算量度管理員頂端的「**[!UICONTROL + 新增]**[](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」，或者
 
-* 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 報表」]**，開啟任一報表並按一下量度圖示 ![](assets/metrics_icon.png) 以叫出「量度」邊欄，然後按一下&#x200B;**[!UICONTROL 「新增」]**。
+* 轉到 **[!UICONTROL 分析]** > **[!UICONTROL 報告]**，開啟任何報告，然後按一下「度量」表徵圖  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 開啟「度量」欄，然後按一下 **[!UICONTROL 添加]**。
 
 ![](assets/cm_builder_ui.png)
 
@@ -67,7 +67,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 摘要 </span> </td> 
-   <td colname="col3"> <p>「<span class="uicontrol">摘要</span>」公式會隨著您變更量度定義而更新。當您將游標放在量度上並按一下 <img placement="inline"  src="assets/i_icon.png" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 圖示，此公式也會顯示在量度邊欄中。 </p> </td> 
+   <td colname="col3"> <p>「<span class="uicontrol">摘要</span>」公式會隨著您變更量度定義而更新。當您將游標放在量度上並按一下 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Info_18_N.svg" id="image_BDA0EAF89C19440CB02AE248BA3F968E" /> 圖示，此公式也會顯示在量度邊欄中。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 定義 </span> </td> 
@@ -79,7 +79,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 運算元 </span> </td> 
-   <td colname="col3"> <p>預設運算子以 (<img placement="inline"  src="assets/divided_icon.png" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />) 分隔，另外還有 +、- 和 x 運算子。 </p> </td> 
+   <td colname="col3"> <p>預設運算子以 (<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" />) 分隔，另外還有 +、- 和 x 運算子。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col2"> <span class="uicontrol"> 預覽 </span> </td> 

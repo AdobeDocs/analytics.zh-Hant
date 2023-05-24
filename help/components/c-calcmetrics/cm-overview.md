@@ -4,7 +4,7 @@ keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -103,7 +103,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> 量度選擇器邊欄 </td> 
-   <td colname="col2"> <p>取代 <span class="uicontrol"> Reports &amp; Analytics</span> 中的<span class="uicontrol">顯示量度</span>快顯功能表。 </p> <p>此邊欄可讓您搜尋並新增/套用量度至報表。您也可以變更<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >排序</a>順序 (選項為：字母順序、建議、經常使用、最近使用。)此外，您也可以篩選報表套裝，只顯示在特定報表套裝中建立的量度。 </p> <p>若要存取此量度選擇器，請按一下報表左側的「量度」圖示 <img placement="inline"  src="assets/metrics_icon.png" width="30px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度選擇器的外觀如下： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
+   <td colname="col2"> <p>取代 <span class="uicontrol"> Reports &amp; Analytics</span> 中的<span class="uicontrol">顯示量度</span>快顯功能表。 </p> <p>此邊欄可讓您搜尋並新增/套用量度至報表。您也可以變更<a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-finding.md"  >排序</a>順序 (選項為：字母順序、建議、經常使用、最近使用。)此外，您也可以篩選報表套裝，只顯示在特定報表套裝中建立的量度。 </p> <p>若要存取此量度選擇器，請按一下報表左側的「量度」圖示 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_2C6F20B4E634486B95BACD4CA47EF991" />。量度選擇器的外觀如下： </p> <p><img src="assets/metrics_rail.png" width="200px" id="image_379523E9AFEC4CF08D20C42C740AA358" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/README.md"  > 計算量度的 API</a> </td> 

@@ -3,10 +3,10 @@ description: 說明尋找量度的兩種主要方法：排序和篩選。
 title: 尋找量度
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 排序 {#section_89F9C4D515084F5796F2A54D468BF6C8}
 
-開啟報表並按一下報表左側的「量度」圖示 ![](assets/metrics_icon.png) 帶出量度邊欄，量度選擇器中的「**[!UICONTROL 排序依據]**」下拉式清單會顯示四個排序選項：
+開啟報表並按一下「度量」表徵圖時  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))，以開啟Metrics欄， **[!UICONTROL 排序依據]** 「度量選擇器」中的下拉清單顯示四個排序選項：
 
 ![](assets/cm_sort.png)
 

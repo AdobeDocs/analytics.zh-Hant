@@ -1,7 +1,7 @@
 ---
-source-git-commit: 94765bfa306240fb02d2ea788234cc0043c65d8f
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1040'
 ht-degree: 94%
 
 ---
@@ -11,11 +11,11 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->進一步了解 Reports &amp; Analytics [生命週期結束通知](https://www.adobe.com/go/analytics_rnaeol_en)。
+>進一步了解 Reports &amp; Analytics [生命週期結束通知](https://www.adobe.com/go/analytics_rnaeol_tw)。
 
 ## 資料字典篩選條件 {#dd-filter-criteria}
 
-1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](/help/analyze/analysis-workspace/components/data-dictionary/assets/data-dictionary-filter-icon.png)，然後選擇以下任一篩選器選項以篩選元件清單：
+1. (可選) 選取 **篩選器** 圖示 ![資料字典篩選器圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)，然後選擇以下任一篩選器選項以篩選元件清單：
 
    | 選項 | 函數 |
    |---------|----------|
@@ -55,9 +55,9 @@ ht-degree: 94%
 
 | 選項 | 函數 |
 |---------|----------|
-| [!UICONTROL **建議**] | 使用清單頂端建議的元件排序元件。 您或組織中其他人最常和最近使用的元件，會顯示在清單的上方。 |
+| [!UICONTROL **建議**] | 將元件與清單頂部推薦的元件排序。 您或您組織中的其他人使用的頻率最高且最近的元件在清單中顯示得更高。 |
 | [!UICONTROL **字母順序**] | 按字母順序對元件排序。 |
-| [!UICONTROL **類別**] | 根據元件類型（維度、量度、區段、日期範圍）排序元件。 |
+| [!UICONTROL **分類**] | 根據元件類型（維、度量、段、日期範圍）對元件進行排序。 |
 
 {style="table-layout:auto"}
 

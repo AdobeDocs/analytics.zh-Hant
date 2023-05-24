@@ -4,10 +4,10 @@ title: 管理區段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -86,18 +86,18 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
-1. 按一下區段下拉式清單旁的「控制項」圖示 (![](assets/control_icon.png))。
+1. 按一下「控制項」表徵圖 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 清單框中的「 CSV文本」。
 
    ![](assets/seg_control.png)
 
-1. 勾選所有您希望在區段控制項中出現的區段，或勾選「**[!UICONTROL 選取全部]**」。
-1. 請注意「**[!UICONTROL 項目選取時自動重新整理連結的請求]**」選項。
+2. 勾選所有您希望在區段控制項中出現的區段，或勾選「**[!UICONTROL 選取全部]**」。
+3. 請注意「**[!UICONTROL 項目選取時自動重新整理連結的請求]**」選項。
 
    * 如果勾選此選項，所有使用該控制項的請求都會重新整理。
    * 如果未勾選此選項，則會更新相關的請求參數，但不會重新整理請求。
 
-1. 指定區段控制項的左上方儲存格位置。
-1. 按一下「**[!UICONTROL 確定]**」，區段控制項便會出現在指定的位置。
+4. 指定區段控制項的左上方儲存格位置。
+5. 按一下「**[!UICONTROL 確定]**」，區段控制項便會出現在指定的位置。
 
    ![](assets/seg_control2.png)
 

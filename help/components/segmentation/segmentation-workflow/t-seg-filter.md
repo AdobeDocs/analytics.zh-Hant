@@ -3,10 +3,10 @@ description: 依標記、擁有者和其他篩選器 (「全部顯示」、「�
 title: 篩選區段
 feature: Segmentation
 exl-id: 895366ff-0d09-4bed-811c-be4208880cc1
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 100%
+source-wordcount: '162'
+ht-degree: 95%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 篩選可讓您更易於在區段邊欄中搜尋區段。
 
-1. 在「區段管理器」中，按一下&#x200B;**[!UICONTROL 「篩選」]**&#x200B;圖示：![](assets/filter_icon.png)
+1. 在「區段管理器」中，按一下&#x200B;**[!UICONTROL 「篩選」]**&#x200B;圖示：![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg)
 
    ![](assets/filtering.png)
 
-1. 下列為可使用的篩選：
+2. 下列為可使用的篩選：
 
    | 篩選器名稱 | 說明 |
    |---|---|

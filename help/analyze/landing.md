@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 54ec253516a6d735f02914887c72ef966ce36862
+source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
 workflow-type: tm+mt
-source-wordcount: '3944'
-ht-degree: 100%
+source-wordcount: '3952'
+ht-degree: 99%
 
 ---
 
@@ -195,12 +195,12 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ### 管理公司報表 {#manage-company-reports}
 
-管理員可以篩選項目清單以顯示和管理公司報表。 釘選項目保持釘選狀態，後面接著有![報表圖示](assets/report-icon.png)報表圖示識別的公司報表清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報表或加標記。
+管理員可以篩選項目清單以顯示和管理公司報表。 釘選項目保持釘選狀態，後面接著有![報表圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)報表圖示識別的公司報表清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報表或加標記。
 
 顯示和管理公司報表
 
 1. 在篩選欄中，選取「**其他篩選器**」，然後選取「**公司報表**」。
-顯示公司報表清單。 所有一般項目不會顯示，除非項目已被釘選。
+顯示公司報表清單。 所有常規項目（除非已固定）均不顯示。
 
    ![顯示公司報表篩選器](assets/company-reports-filter.png)
 

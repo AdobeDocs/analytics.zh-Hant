@@ -5,10 +5,10 @@ role: User, Admin
 solution: Analytics
 feature: Components
 exl-id: d8212ab1-d639-41b5-b28e-da580a3628b0
-source-git-commit: 383a38e90cacf31ae92122b9e96845e5cd2950b6
+source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 100%
+source-wordcount: '375'
+ht-degree: 93%
 
 ---
 
@@ -41,9 +41,9 @@ ht-degree: 100%
 
 ![](assets/view-annotations.png)
 
-如果可以看到註解圖示，就無法在產生器畫布中完整看到註解或與註解互動。使用「預覽」模式，可在註解顯示於應用程式時檢視及互動。![](assets/preview-icon.png)
+如果可以看到註解圖示，就無法在產生器畫布中完整看到註解或與註解互動。使用「預覽」模式查看批注並在批注顯示在應用中時與它們交互 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Play_18_N.svg) **預覽**。
 
-在工作區建立註解時，需選擇註解顏色。灰色註解代表註解不只一個。![](assets/gray-annotations1.png)![](assets/gray-annotations2.png)
+在工作區建立註解時，需選擇註解顏色。灰色註解代表註解不只一個。
 
 ## 檢檢視表註解
 
