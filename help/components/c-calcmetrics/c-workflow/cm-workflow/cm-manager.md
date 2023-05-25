@@ -3,7 +3,7 @@ description: 「計算量度」頁面提供許多管理量度的方式，例如�
 title: 計算量度管理員
 feature: Calculated Metrics
 exl-id: 32430e77-2450-4672-9c21-255e76802a4c
-source-git-commit: 406ed620c880cd48bea17ccc13d0397c18f082b6
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 5%
@@ -15,6 +15,10 @@ ht-degree: 5%
 「計算量度」頁面提供許多管理量度的方式，例如共用、篩選、標籤、核准、複製、刪除和標示為我的最愛。
 
 「計算量度」頁面會顯示您所擁有以及已經與您共用的區段。 管理層級使用者可以查看組織中的所有自訂量度。
+
+## 存取計算量度管理員
+
+1. 在Adobe Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **計算量度**].
 
 ## 計算量度管理員的區域
 
@@ -37,7 +41,3 @@ ht-degree: 5%
 | 未顯示在影像中 | **修改日期：** 表示上次修改自訂量度的日期。 |
 
 {style="table-layout:auto"}
-
-## 存取計算量度管理員
-
-1. 在Adobe Analytics中選取 [!UICONTROL **元件**] > [!UICONTROL **計算量度**].

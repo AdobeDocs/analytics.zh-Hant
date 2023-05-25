@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '695'
-ht-degree: 92%
+ht-degree: 90%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 92%
    + [有關管理舊式區段的常見問題集 ](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
-   + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
+   + [計算與進階計算（衍生）量度](c-calcmetrics/cm-overview.md)
    + [操作說明影片](c-calcmetrics/cm-videos.md)
    + 計算量度工作流程 {#calcmetric-workflow}
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
@@ -189,7 +189,7 @@ ht-degree: 92%
       + [建立「每次造訪頁面檢視次數」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [建立「訂購協助」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [建立「參與率」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [量度型別和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆疊和取代區段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [篩選和加權的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)

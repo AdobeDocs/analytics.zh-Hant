@@ -3,16 +3,22 @@ description: 在計算量度管理員中，您可以設定包含各應用程式�
 title: 核准計算量度
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: 644e2d10eac226a35705351608161fe494efe113
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 23%
+source-wordcount: '245'
+ht-degree: 17%
 
 ---
 
 # 核准計算量度
 
-在計算量度管理員中，您可以設定包含各種應用程式層級以及特定部門或群組之核准量度的工作流程。
+在計算量度管理員中，管理員可以設定包含各種應用程式層級以及特定部門或群組之核准量度的工作流程。
+
+>[!NOTE]
+>
+>管理員也可以從資料字典核准計算量度（和其他元件），如所述 [在資料字典中編輯元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>任何在資料字典中核准的計算量度都會反映在計算量度管理員中。 同樣地，計算量度管理員中核准的量度會反映在資料字典中。
 
 若要將計算量度標示為已核准：
 

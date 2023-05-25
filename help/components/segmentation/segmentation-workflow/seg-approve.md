@@ -3,16 +3,22 @@ description: 在「區段管理器」內，您可以設立工作流程來核准�
 title: 核准區段
 feature: Segmentation
 exl-id: dc56adb0-56b3-4dcb-b47b-d76b0a32ec62
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 53%
 
 ---
 
 # 核准區段
 
-在「區段管理器」內，您可以設立工作流程來核准適合各種應用層級、適合特定的部門或群組，且符合報表原則的區段。
+在「區段管理器」內，您可以設定工作流程，其中包含各種應用層級、特定部門或群組，以及符合報表原則的核准區段。
+
+>[!NOTE]
+>
+>管理員也可以從資料字典核准區段（和其他元件），如所述 [在資料字典中編輯元件專案](/help/analyze/analysis-workspace/components/data-dictionary/edit-entries-data-dictionary.md).
+>
+>任何在資料字典中核准的區段都會反映在區段管理員中。 同樣地，區段管理員中核准的量度會反映在資料字典中。
 
 以下說明將區段標幟為已核准的程序：
 

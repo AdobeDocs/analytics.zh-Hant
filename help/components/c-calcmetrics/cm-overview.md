@@ -4,16 +4,16 @@ keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
-# 計算與進階計算 (衍生) 量度
+# 計算與進階計算（衍生）量度
 
-計算與進階計算 (或衍生) 量度為您可從現有量度建立的自訂量度。
+計算與進階計算（或衍生）量度是自訂量度，您可以從現有量度建立。
 
 我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更 [!DNL Analytics] 實施作業就能詢問資料相關問題。每個 [!DNL Analytics] 套裝中可用的自訂量度為：
 
@@ -22,9 +22,9 @@ ht-degree: 100%
 * [Adobe Analytics Prime](https://www.adobe.com/tw/data-analytics-cloud/analytics.htmlanalytics/prime.html)：計算 + 進階計算
 * [Adobe Analytics Ultimate](https://www.adobe.com/tw/data-analytics-cloud/analytics/ultimate.html)：計算 + 進階計算
 
-以下為計算量度與進階計算量度功能比較：
+以下是計算量度與進階計算量度功能的比較：
 
-| Builder 選項 | 計算量度 | 進階計算 (衍生) 量度 |
+| Builder 選項 | 計算量度 | 進階計算（衍生）量度 |
 |---|---|---|
 | [格式類型 (小數、時間、百分比、貨幣)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md) | 是 | 是 |
 | [歸因變更 (預設、線性、參與率等)](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md) | 是 | 是 |
@@ -44,11 +44,11 @@ ht-degree: 100%
    >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
 
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
-* (僅限進階計算量度) 量度上的區段。 例如，您可以建立「新訪客」的量度，計算初次參與工作階段的人員數量。 以下是有關這個主題的影片：
+* （僅限進階計算量度）量度上的區段。 例如，您可以建立「新訪客」的量度，計算初次參與工作階段的人員數量。 以下是有關這個主題的影片：
 
    >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
 
-* (僅限進階計算量度) 納入統計函數以協助您說明資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
+* （僅限進階計算量度）納入統計函式，以協助您更好地描述資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 ## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-以下為[!UICONTROL 計算量度]工具的簡要概覽：
+以下為「 」的簡短概述 [!UICONTROL 計算量度] 工具：
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 
