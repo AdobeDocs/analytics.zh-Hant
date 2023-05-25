@@ -1,13 +1,13 @@
 ---
-title: 如何在Analysis Workspace設定用戶和公司首選項
+title: 如何在Analysis Workspace中設定使用者和公司偏好設定
 description: 您可以設定使用者的一般和專案偏好設定，以及深色佈景主題偏好設定。
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8856293e4f0114245e32db16809a964ccac5430f
+source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 77%
+source-wordcount: '3116'
+ht-degree: 79%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 77%
 
 您可以管理您建立之所有新專案或面板之 Analysis Workspace 及其相關元件的設定。現有專案和面板不受影響。
 
-查看此視頻以瞭解首選項的簡要概述：
+請觀看此影片，瞭解偏好設定的簡短概觀：
 
 >[!VIDEO](https://video.tv.adobe.com/v/332600/?quality=12)
 
 ## 更新偏好設定
 
-1. 在Adobe Analytics，轉到 [!UICONTROL **項目**] 登錄頁，然後選擇 [!UICONTROL **首選項**]。
+1. 在Adobe Analytics中，前往 [!UICONTROL **專案**] 登陸頁面，然後選取 [!UICONTROL **偏好設定**].
 
    ![使用者偏好設定](assets/user-preferences.png)
 
@@ -39,7 +39,7 @@ ht-degree: 77%
 
 ## 一般偏好設定
 
-您可以為在Analysis Workspace建立的所有新項目自定義常規首選項。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以在Analysis Workspace中自訂所有新專案的一般偏好設定。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 | 偏好設定 | 選項 |
 | --- | --- |
@@ -47,21 +47,21 @@ ht-degree: 77%
 | 顯示提示 | 在 Analysis Workspace 右下方區域的藍色框中顯示提示。 <p>此選項已預設啟用。</p> |
 | 左側邊欄群組中顯示的元件 | 在左側邊欄的「元件」選單中，選取每個元件的顯示數量。 <p>如果選擇 0，則無法再從工作區的左側邊欄存取元件。</p><p>根據預設，會針對下列各項顯示 5 個元件：</p> <ul><li>維度</li><li>量度</li><li>篩選器</li><li>日期範圍</li></ul> <p>如需有關 Analysis Workspace 中元件的詳細資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。</p> |
 
-## 公司首選項
+## 公司偏好設定
 
 >[!AVAILABILITY]
 >
->本節中介紹的「公共訪問連結」功能處於版本的「有限測試」階段，可能在您的環境中尚不可用。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
+>本節所述與任何人共用專案的功能目前處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
-您可以更新適用於組織內所有用戶和項目的公司首選項。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以更新適用於組織內所有使用者和專案的公司偏好設定。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 | 區域 | 偏好設定 | 選項 |
 | --- | --- | --- |
 | **「報表」索引標籤** |  |  |
-|  | 隱藏報告頁籤 | 隱藏組織中所有用戶的「報告」頁籤。 |
+|  | 隱藏報表標籤 | 隱藏組織中所有使用者的「報表」標籤。 |
 | **專案共用** <!-- Double check the names of all these settings for what they are actually called --> |  |  |
-|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，組織中的用戶無法在「共用」菜單中看到「與任何人共用」選項。 這意味著用戶無法與組織中沒有Analysis Workspace帳戶的人員共用項目，如中所述 [與任何人共用項目（無需登錄）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analyze/analysis-workspace/curate-share/share-projects.md)。</p><p>預設情況下，此選項對於所有組織（即用戶可以與組織外的人員共用項目）都禁用，醫療保健行業的人員除外。 </p><p>啟用或禁用此選項時，請考慮以下事項：</p> <ul><li><p>啟用此選項後，以前通過「與任何人共用」選項接受項目訪問權限的人員無法再訪問該項目。</p></li><li><p>如果啟用此選項（僅允許與Workspace用戶共用），然後禁用此選項（允許與任何人共用），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用 [!UICONTROL **連結處於活動狀態**] 與任何人共用項目時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如中所述 [與任何人共用項目（無需登錄）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analyze/analysis-workspace/curate-share/share-projects.md)。</p></li><li><p>**對於醫療保健行業中的組織：** 預設情況下，此選項處於啟用狀態並呈灰色顯示。 在禁用此選項以便用戶可以使用「與任何人共用」共用選項之前，您首先需要添加 [!UICONTROL **與任何人共用項目連結**] 權限(位於 [!UICONTROL **分析工具**])在Adobe Admin Console。 添加權限後，您可以禁用此選項，然後接受生成的法律通知。 有關如何在Admin Console中添加權限的資訊，請參見 [在Admin Console中管理產品權限](https://helpx.adobe.com/tw/enterprise/using/manage-permissions-and-roles.html)。</p></li> |
-|  | 需要 Experience Cloud 驗證 | <p>啟用後，在Analysis Workspace「與任何人共用」選項中有權訪問項目的人員必須使用其Experience Cloud憑據進行身份驗證。</p> <p>啟用此選項後，當用戶使用「與任何人共用」共用選項共用項目時，「需要Experience Cloud驗證」選項將在共用對話框中啟用，並且無法由共用項目的用戶禁用它。 (有關用戶如何與任何人共用項目的資訊，請參閱 [與任何人共用項目（無需登錄）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analyze/analysis-workspace/curate-share/share-projects.md)。)</p> <p>啟用此選項時，請考慮以下事項：</p><ul><li><p>啟用此選項後，以前與「與任何人共用」共用選項共用且未啟用「需要Experience Cloud身份驗證」選項的所有項目都將被停用。</p></li> <li><p>如果啟用此選項(需要Experience Cloud驗證)，然後禁用此選項（允許具有該連結的任何人訪問該項目），則以前通過「與任何人共用」選項接受項目訪問權限的人員不會自動重新獲得對項目的訪問權限。 在這種情況下，共用項目的用戶必須啟用「連結處於活動狀態」選項，該選項在與任何人共用項目時可用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結處於活動狀態**])，如中所述 [與任何人共用項目（無需登錄）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用項目](/help/analyze/analysis-workspace/curate-share/share-projects.md)。</p></li> <li><p>僅當在您的組織中實施SSO時，此選項才可用。 有關係統管理員如何為您的組織啟用SSO的資訊，請參見 [設定標識和單一登錄](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}。</p><p>如果為您的組織配置了SSO，請檢查是否在控制台中實現了任何類型的自動帳戶建立。 通常，系統管理員會設定此設定，如中所述 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}。</p></li><li><p>如果您的組織在需要符合HIPAA的行業中，則此選項將自動啟用，並且無法禁用。</p></li></ul> |
+|  | 僅允許與 Workspace 使用者共用 | <p>啟用此選項後，您組織中的使用者無法在「共用」選單中看到「與任何人共用」選項。 這表示使用者無法與您組織中沒有Analysis Workspace帳戶的人共用專案，如所述 [與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p><p>啟用或停用此選項時，請考慮下列事項：</p> <ul><li><p>啟用此選項後，先前透過「與任何人共用」共用選項獲得專案存取權的人員將無法再存取專案。</p></li><li><p>如果已啟用此選項（僅允許與Workspace使用者共用），之後又停用（允許與任何人共用），則先前透過「與任何人共用」共用選項獲得專案存取權的使用者不會自動重新獲得對專案的存取權。 在此情況下，共用專案的使用者必須啟用 [!UICONTROL **連結作用中**] 與任何人共用專案時可用的選項([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**])，如所述 [與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> |
+|  | 需要 Experience Cloud 驗證 | <p>啟用後，透過Analysis Workspace中的「與任何人共用」選項授予專案存取權的使用者必須使用其Experience Cloud憑證進行驗證。</p> <p>啟用此選項後，每當使用者使用「與任何人共用」共用選項共用專案時，「共用」對話方塊中的「需要Experience Cloud驗證」選項就會啟用，且共用專案的使用者無法停用該選項。 (如需使用者如何與任何人共用專案的詳細資訊，請參閱 [與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).)</p> <p>啟用此選項時，請考量下列事項：</p><ul><li><p>當您啟用此選項時，先前與「與任何人共用」共用選項但未啟用「需要Experience Cloud驗證」選項的所有專案都會停用。</p></li> <li><p>如果此選項已啟用(需要Experience Cloud驗證)，之後又已停用（允許擁有連結的任何人存取專案），則先前透過「與任何人共用」共用選項收到專案存取許可權的使用者，不會自動重新獲得對專案的存取許可權。 在此情況下，共用專案的使用者必須啟用「連結作用中」選項，此選項可在與任何人共用專案時使用([!UICONTROL **共用**] > [!UICONTROL **與任何人共用**] > [!UICONTROL **連結作用中**])，如所述 [與任何人共用專案（不需要登入）](/help/analyze/analysis-workspace/curate-share/share-projects.md#share-public-link) 在 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).</p></li> <li><p>只有在貴組織中實作SSO時，才能使用此選項。 有關系統管理員如何為您的組織啟用SSO的資訊，請參閱 [設定身分和單一登入](https://helpx.adobe.com/tw/enterprise/using/set-up-identity.html){target=_blank}.</p><p>如果您的組織已設定SSO，請檢查主控台中是否實作任何型別的自動帳戶建立。 通常，系統管理員會進行此設定，如中所述 [啟用自動帳戶建立](https://helpx.adobe.com/enterprise/using/automatic-account-creation.html){target=_blank}.</p></li><li><p>如果您的組織屬於需要HIPAA規範的產業，此選項會自動啟用，且無法停用。</p></li></ul> |
 
 {style="table-layout:auto"}
 
@@ -180,9 +180,9 @@ ht-degree: 77%
 |  | 計算方法 | 從下列選項中選擇： <ul><li>點擊</li><li>瀏覽</li><li>訪客</li></ul> <p>例如，搭配頁面檢視使用時，您可以選擇每個訪客的頁面檢視、造訪的頁面檢視，或每次點擊的頁面檢視。若為點擊，自由表格會將「發生次數」設為 Y 軸的量度。</p> |
 | **[地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md)** |  |  |
 |  | 繪製維度 | <ul><li>行動經度/緯度</li><li>地理維度</li></ul> |
-|  | 映射類型 | <ul><li>泡泡圖</li><li>熱度圖</li></ul> |
-|  | 顏色主題 | 從「珊瑚」、「紅色」、「綠色」、「藍色」、「熱度圖」和「正/負」中選擇。 |
-|  | 映射樣式 | 從「基本」、「街道」、「明亮」、「明亮」、「黑暗」和「衛星」中進行選擇。 |
+|  | 地圖型別 | <ul><li>泡泡圖</li><li>熱度圖</li></ul> |
+|  | 顏色主題 | 從Coral、Reds、Greens、Blues、Heatmap和Positive/Negative中選擇。 |
+|  | 地圖樣式 | 您可以選擇Basic、Street、Bright、Light、Dark和Satellite。 |
 | **[摘要變更](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)** |  |  |
 |  | 值 | <!-- Seem to be basically the same options as in "Number value options" --> <ul><li>百分比變更</li><li>原始差異</li></ul> |
 |  | 百分比 | 以百分比顯示摘要變更視覺效果的值。 |
