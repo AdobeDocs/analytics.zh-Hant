@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 41154580c272514e504c5478215bb67795488de3
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 95%
+source-wordcount: '695'
+ht-degree: 92%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 95%
       + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
-   + [管理舊式區段的常見問題集 ](segmentation/seg-transition.md)
+   + [有關管理舊式區段的常見問題集 ](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
    + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
@@ -186,14 +186,14 @@ ht-degree: 95%
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [建立量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [建立「每次造訪頁面檢視次數」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [建立「訂購協助」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [建立「參與率」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
-      + [建立簡單的「每次造訪頁面瀏覽數」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆疊和取代區段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [篩選和加權的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
-      + [訂購協助量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
       + [使用函數](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
-      + [參與率量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [標記計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [核准計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共用計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
@@ -234,12 +234,12 @@ ht-degree: 95%
    + [智慧型警報 - 使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類總覽](classifications/c-classifications.md)
-   + 分類集 {#sets}
+   + 分類設定 {#sets}
       + [「分類設定」概觀](classifications/sets/overview.md)
-      + [分類集管理器](classifications/sets/set-manager.md)
+      + [分類設定管理員](classifications/sets/set-manager.md)
       + [分類設定作業管理員](classifications/sets/job-manager.md)
       + [建立「分類設定」](classifications/sets/create.md)
-      + [分類集設定](classifications/sets/settings.md)
+      + [「分類設定」設定](classifications/sets/settings.md)
    + 分類規則產生器 {#classifications-rulebuilder}
       + [分類規則產生器工作流程](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)

@@ -3,63 +3,15 @@ description: 說明尋找量度的兩種主要方法：排序和篩選。
 title: 尋找量度
 feature: Calculated Metrics
 exl-id: 532e9ebb-91c7-4b29-afc5-afb99e00219b
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 82%
+source-wordcount: '66'
+ht-degree: 24%
 
 ---
 
 # 尋找量度
 
-說明尋找量度的兩個主要方法：排序和篩選。
+在Analysis Workspace中尋找量度的方式，與尋找其他型別元件的方式相同。
 
-## 排序 {#section_89F9C4D515084F5796F2A54D468BF6C8}
-
-開啟報表並按一下「度量」表徵圖時  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg))，以開啟Metrics欄， **[!UICONTROL 排序依據]** 「度量選擇器」中的下拉清單顯示四個排序選項：
-
-![](assets/cm_sort.png)
-
-| 選項 | 使用時機 |
-|---|---|
-| 字母順序 | 適用於當您知道名稱時。 |
-| 建議 | 大家常在報表中使用的通用量度 - 此項目是由後端從使用者常在此報表中使用的量度收集而得。 |
-| 經常使用 | 適用於當您是新手使用者，需了解哪些是報表常用量度時。 |
-| 最近使用 | 適用於當您在專案中工作，且會一再使用同一組量度時。 |
-
-## 篩選 - 進階選擇 {#section_33818CC048C04F098703AC229693F8CA}
-
-開啟報表並按一下「量度」圖示，接著按一下&#x200B;**[!UICONTROL 「管理」]**。現在按一下「篩選」圖示。您可用數種方法進行篩選。
-
-![](assets/cm_advanced_sel.png)
-
-<table id="table_269081BC9DF54FFDA4E949FFC7488F42"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 如果您要 </th> 
-   <th colname="col2" class="entry"> 排序方式 </th> 
-  </tr>
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> 顯示此報表套裝中的所有量度。 </td> 
-   <td colname="col2"><span class="ignoretag"><span class="uicontrol"> 其他篩選器</span> &gt; <span class="uicontrol">全部顯示</span></span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 只顯示您擁有的量度 </td> 
-   <td colname="col2"><span class="uicontrol"> 其他篩選器</span> &gt; <span class="uicontrol">我的</span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 顯示其他人與我共用的量度 </td> 
-   <td colname="col2"><span class="uicontrol">擁有者</span>或 <p><span class="uicontrol"> 其他篩選器</span> &gt; <span class="uicontrol">與我共用</span> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 只顯示公司核准的量度。 </td> 
-   <td colname="col2"><span class="uicontrol"> 已核准</span> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> 依量度篩選您正在工作的專案。 </td> 
-   <td colname="col2">其中一個<span class="uicontrol">標記</span>。 </td> 
-  </tr> 
- </tbody> 
-</table>
+如需有關如何快速找到元件的資訊，請參閱 [搜尋、篩選及排序元件清單](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/analysis-workspace-components.html?lang=en#search%2C-filter%2C-and-sort-the-component-list) 在 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md).

@@ -3,29 +3,26 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 97%
+source-wordcount: '962'
+ht-degree: 90%
 
 ---
 
 # 建立量度
 
-計算量度產生器提供的畫布可用來拖放維度、量度、區段及函數，讓您根據容器階層邏輯、規則及運算子來建立自訂量度。此整合性開發工具可讓您建立並儲存簡單的計算量度或複雜的進階計算量度。
+Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便根據容器階層邏輯、規則和運運算元建立自訂量度。 此整合性開發工具可讓您建立並儲存簡單或複雜的計算量度。
 
-有幾種方式可以存取計算量度產生器：
+您可以透過下列任何方式開始建立計算量度：
 
-* 在 Analysis Workspace 中，開啟專案並按一下&#x200B;**[!UICONTROL 「+ 新增]** > **[!UICONTROL 建立量度」]**。
-* 在 [!DNL Analytics] 中，前往&#x200B;**[!UICONTROL 「元件]** > **[!UICONTROL 計算量度」]**。
-
-* 按一下計算量度管理員頂端的「**[!UICONTROL + 新增]**[](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)」，或者
-
-* 轉到 **[!UICONTROL 分析]** > **[!UICONTROL 報告]**，開啟任何報告，然後按一下「度量」表徵圖  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 開啟「度量」欄，然後按一下 **[!UICONTROL 添加]**。
+* 在Analysis Workspace中，開啟專案，然後選取 **[!UICONTROL 元件]** > **[!UICONTROL 建立量度]**.
+* 在Analysis Workspace中開啟專案，然後選取 **加號** 圖示加以存取 [!UICONTROL **量度**] 區段。
+* 在 [!DNL Analytics]，前往 **[!UICONTROL 元件]** > **[!UICONTROL 計算量度]**，然後選取 **[!UICONTROL +新增]** 在「計算量度」頁面頂端。
 
 ![](assets/cm_builder_ui.png)
 
-## UI 元件 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
+## 可用欄位和區域 {#section_9382AEEBA4244DD6A9F6C1DD3F6D076B}
 
 <table id="table_60A82936321047D1A335331BF83B0972"> 
  <thead> 
