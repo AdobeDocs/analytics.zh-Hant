@@ -4,10 +4,10 @@ title: 管理區段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '938'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 ## 搜尋及套用區段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
 
-在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中建立的任何區段都會出現在此區段清單中。 若要重新整理清單，請按一下「重新整理」圖示 (![](assets/refresh_icon.png)。
+在 Reports &amp; Analytics、Report Builder 或 Data Warehouse 中建立的任何區段都會出現在此區段清單中。 若要重新整理清單，請按一下重新整理圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg).
 
 您可以套用一或多個區段至任何指定的請求。這包含依序排列的區段。
 
@@ -60,7 +60,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
    ![](assets/seg_list.png)
 
-1. 勾選您要套用的區段。
+2. 勾選您要套用的區段。
 
 >[!NOTE]
 >
@@ -86,7 +86,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 新增區段控制項可讓您在活頁簿內切換區段，而無需前往「請求精靈」。
 
-1. 按一下「控制項」表徵圖 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 清單框中的「 CSV文本」。
+1. 按一下控制項圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Filter_18_N.svg) 「區段」下拉式清單旁。
 
    ![](assets/seg_control.png)
 
@@ -103,7 +103,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 ## 重新整理區段清單 {#section_22E4A86789444B4A998532396B476EFB}
 
-每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 (![](assets/refresh_icon.png)) 以重新整理區段的快取清單。
+每次新增區段或編輯現有區段時，請務必按一下「重新整理」圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Refresh_18_N.svg) 以重新整理區段的快取清單。
 
 ## 管理各請求中的區段 {#section_C3D63FCBE1A94369A319243313B03C93}
 

@@ -5,7 +5,7 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -61,19 +61,19 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1">Experience Cloud 解決方案功能表<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="30px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
+   <td colname="col1">Experience Cloud 解決方案功能表<img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Apps_18_N.svg" width="15px" id="image_B75D0F6991F74389A77068D999C9A910" /> </td> 
    <td colname="col2"> 按一下此圖示即可展開 Experience Cloud 功能表，存取其他 Marketing Cloud 解決方案。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1">切換報表功能表 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="30px" /> </td> 
+   <td colname="col1">切換報表功能表 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Report_18_N.svg" id="image_32296B71E82C4694821D99867305F5FE" width="15px" /> </td> 
    <td colname="col2"> 按一下此按鈕可以展開或收合「報表」功能表，因此您可以使用瀏覽器視窗的完整寬度來檢視報表。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">區段 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="30px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">區段 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg" width="15px" id="image_6BF461356C8640EA8E93B74092320E91" /></span> </td> 
    <td colname="col2">帶出區段邊欄，讓您新增或管理區段。您也可以從區段邊欄存取<a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  >「區段產生器」</a>和<a href="https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hant"  >「區段管理員」</a>介面。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="30px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
+   <td colname="col1"><span class="uicontrol">量度 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg" width="15px" id="image_88620CB8A9CC4BC3BE4CE30BDA727512" /></span> </td> 
    <td colname="col2"> 帶出量度邊欄，讓您新增或管理量度和計算量度。 </td> 
   </tr> 
   <tr> 
@@ -117,11 +117,11 @@ ht-degree: 100%
    <td colname="col2"> 讓您執行所有或部分下列動作：列印、擷取資料、新增警報、建立自訂報表、複製圖形、建立此報表的連結，以及開啟新視窗。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1">報表套裝選擇器 <img placement="inline"  src="assets/report-suite-selector.png" width="30px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
+   <td colname="col1">報表套裝選擇器 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg" width="15px" id="image_9F64944D46574B2AA38D81A7C82C4AC4" /> </td> 
    <td colname="col2">讓您選取<a href="https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html?lang=zh-Hant"  >基本報表套裝</a>或<a href="https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html"  >虛擬報表套裝</a>。 </td> 
   </tr> 
   <tr> 
-   <td colname="col1">日曆 <img placement="inline"  src="assets/calendar-icon.png" width="30px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
+   <td colname="col1">日曆 <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg" width="15px" id="image_C5E4F87F964C4C3E98496D38A1123502" /> </td> 
    <td colname="col2">帶出<a href="/help/analyze/reports-analytics/overview/report-overview.md#section_8C6C4AD84D9043E8ABD53FF8F645AAB1"  >日曆</a>，讓您決定報告時段。 </td> 
   </tr> 
  </tbody> 

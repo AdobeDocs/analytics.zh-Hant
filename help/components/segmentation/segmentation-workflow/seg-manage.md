@@ -3,10 +3,10 @@ description: 「區段管理員」提供許多管理區段的方式，例如共�
 title: 管理區段 (區段管理員)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 「Analytics 區段管理員」會顯示您所擁有以及已經與您共用的區段。管理員級使用者可以查看組織中的所有區段。此概覽會介紹「區段管理員」的使用者介面和功能。存取「區段管理員」的方法有：
 
 * 前往左側導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段]**」。
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![](assets/segment_icon.png)。然後按一下&#x200B;**[!UICONTROL 「管理」]**。
+* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)然後按一下&#x200B;**[!UICONTROL 「管理」]**。
 
 ## 操作說明影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 

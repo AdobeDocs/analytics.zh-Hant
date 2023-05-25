@@ -3,10 +3,10 @@ description: 區段可讓您根據特性或網站互動來識別訪客的子集�
 title: 關於區段
 feature: Segmentation
 exl-id: 11d930ca-5d59-4ea5-b6e5-fe3d57be94fd
-source-git-commit: 602f837689186f232c4c0f8baebbcf911446bc99
+source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 98%
+source-wordcount: '1197'
+ht-degree: 97%
 
 ---
 
@@ -102,7 +102,7 @@ Analysis Workspace 包含以下附加功能：
 
 * 前往頂端導覽中的「**[!UICONTROL Analytics]** > **[!UICONTROL 元件]**」。然後按一下&#x200B;**[!UICONTROL 「區段」]**，或
 
-* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](assets/segment_icon.png)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
+* 顯示現有報表並按一下左側導覽中的「區段」圖示 ![「區段」圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)。 然後按一下&#x200B;**[!UICONTROL 「管理」]**，或
 
 * 在介面中任意處按正斜線鍵 &#39;/&#39;，然後搜尋區段管理員。
 
