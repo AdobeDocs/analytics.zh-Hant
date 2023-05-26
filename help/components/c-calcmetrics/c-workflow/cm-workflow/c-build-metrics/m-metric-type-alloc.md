@@ -3,9 +3,9 @@ description: 進一步了解
 title: 量度型別和歸因
 feature: Calculated Metrics
 exl-id: 3fb98227-e2ef-4829-ae84-812f845470ee
-source-git-commit: 4bf8397ee979614539baf21b36363eb03357567a
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '466'
 ht-degree: 73%
 
 ---
@@ -29,9 +29,7 @@ ht-degree: 73%
    | 標準 | 這些量度就是在標準 [!DNL Analytics] 報表中使用的量度。如果某個公式由單一標準量度組成，則其顯示的資料將與其非計算量度相對應公式一樣。標準量度適合用來建立每個行項目專屬的計算量度。例如，[訂單] / [造訪] 會採用該特定條列項目的訂單，然後除以該特定條列項目的造訪次數。 |
    | 全部總計 | 在每個行專案中使用報告期間的總計。 如果公式包含單一「總量」量度，則會在每個明細專案上顯示相同的總量。 「總量」量度適合用來建立計算量度，以便與網站總計資料進行比較。 例如，[訂單] / [造訪總次數] 可顯示相較於網站「全部」造訪次數的訂單比例，而不只是特定條列項目的造訪次數。 |
 
-## 欄歸因模型
-
-## 線性配置自 2018 年 7 月 19 日起的新運作方式
+## 線性配置的運作方式
 
 [Attribution IQ](/help/analyze/analysis-workspace/attribution/overview.md) 是計算量度中配置模型的評估方式。
 

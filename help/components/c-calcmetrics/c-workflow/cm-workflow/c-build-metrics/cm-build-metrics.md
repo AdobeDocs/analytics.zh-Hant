@@ -3,10 +3,10 @@ description: 計算量度產生器提供的畫布可用來拖放維度、量度�
 title: 建立量度
 feature: Calculated Metrics
 exl-id: 12bb3734-e25d-4c67-8c62-e1226d9aef94
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 7722a2f01ff77dfec8ce110fd04fe977f6c627c6
 workflow-type: tm+mt
 source-wordcount: '1010'
-ht-degree: 47%
+ht-degree: 45%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便�
 
 ## 計算量度產生器的區域
 
-下圖及隨附表格說明「計算量度管理員」的某些主要區域和功能。
+下圖及隨附的表格說明計算量度產生器的部分主要區域和功能。
 
 ![](assets/cm_builder_ui.png)
 
@@ -40,7 +40,7 @@ Adobe Analytics提供畫布來拖放維度、量度、區段和函式，以便�
 | 8 | **定義：** 您可在此處拖曳量度/計算量度、區段及/或函式，以建立計算量度。 <ul><li>如果您將一個計算量度拖曳進來，它將自動展開其量度定義。 </li> <li>您可以使用容器巢狀嵌套定義。不過，這些容器與區段容器不同，其功能比較類似數學運算式，用以決定運算順序。 </li> </ul> |
 | 9 | **運運算元：** 除以( <img placement="inline"  src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Divide_18_N.svg" width="15" id="image_320D7363DE024BDEB21E44606C8B367F" width="25px" /> )為預設運運算元，另外還有+、 — 和x運運算元。 |
 | 10 | **預覽：** 提供對任何可能錯誤的快速閱讀。 預覽涵蓋最近 90 天。這可供您初步衡量是否為量度選擇了正確的元件。意外的結果可能表示您需要再次檢查量度定義。 |
-| 11 | **產品相容性:** <p>產品相容性會顯示量度是否與<a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  >目前的資料</a>、完整處理的資料相容，或僅與行銷管道報表 (首次接觸配置) 相容。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> |
+| 11 | **產品相容性：** 產品相容性會顯示量度是否與 <a href="https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/current-data.html"  > 目前資料 </a>、完整處理的資料，或僅行銷管道報表（首次接觸配置）。 <p>附註：目前的資料並未支援所有量度。包含區段或函數的量度與目前的資料不相容。<a href="/help/components/c-calcmetrics/cm-compatibility.md"  > 更多... </a> </p> </p> |
 | 12 | **新增：** 對於所有型別的計算量度，您可以將容器和靜態數字新增至定義。 若為進階計算量度，您也可以新增區段和函數。 <ul><li>容器的功能類似數學運算式，用以決定運算順序。所以容器中的項目會先行處理，再進行下一個運算。</li><li>拖曳區段至容器可分割該容器中的項目。(僅限進階計算量度)</li><li>您可以在容器中堆疊多個區段。</li></ul> |
 | 13 | **齒輪圖示（量度型別、歸因）：** 選取量度旁的齒輪圖示，即可指定 <a href="/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md"  > 量度型別和歸因模型 </a>. |
 | 14 | **新增：** 可讓您建立新元件，例如新區段(會前往 <a href="/help/components/segmentation/segmentation-workflow/seg-build.md"  > 區段產生器 </a>.) |
