@@ -4,16 +4,16 @@ title: 面板概觀
 feature: Panels
 role: User, Admin
 exl-id: dd1a3c40-8b5b-47dd-86d9-da766575ee46
-source-git-commit: 017559d2b909deb4bf87fb5fe41db8250f2ca2ac
+source-git-commit: 5ba12c243a8013c52b487d048c54461ebdf7bd85
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 68%
+source-wordcount: '1437'
+ht-degree: 57%
 
 ---
 
 # 面板概觀
 
-[!UICONTROL 面板]是表格與視覺效果的集合。您可以從工作區的左上角圖示或 [空白麵板](blank-panel.md). 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。
+[!UICONTROL 面板]是表格與視覺效果的集合。您可以從Workspace左上角圖示或 [空白面板](blank-panel.md). 當您想要根據時段、報表套裝或分析使用案例來組織專案時，面板會很有幫助。
 
 ## 面板類型
 
@@ -66,17 +66,17 @@ Analysis Workspace 中有以下面板類型:
 
 ![篩選器](/help/admin/admin/assets/filter.png)
 
-### 臨機群體篩選
+### 臨時區段篩選
 
-您也可以將非區段元件直接拖曳至拖放區域，以建立隨選區段，節省前往「區段產生器」的時間和精力。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
+非區段元件也可以直接拖曳至托放區以建立臨時區段，為您節省前往區段產生器的時間和作業。 以此方法建立的區段會自動被定義為點擊層級的區段。若要編輯此定義，可按一下區段旁邊的資訊圖示 (i)，然後按一下筆狀編輯圖示並在，即可在區段產生器內進行編輯。
 
-臨機區段是一種快速區段類型，且為專案本機區段。 除非您將其公開，否則左側邊欄不會顯示。
+臨時區段是一種快速區段，屬於專案的本機型別。 除非您將其公開，否則它們不會顯示在左側邊欄中。
 
 如需詳細資訊，請參閱 [快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md).
 
 ### 靜態下拉式篩選器
 
-下拉式篩選器可讓您以受控方式與資料互動。 例如，您可新增行動裝置類型的下拉篩選器，因此您就可以將面板區分為平板電腦、手機或桌面電腦等區段。
+下拉式篩選器可讓您以有控制的方式與資料互動。 例如，您可新增行動裝置類型的下拉篩選器，因此您就可以將面板區分為平板電腦、手機或桌面電腦等區段。
 
 下拉篩選器也可用來將許多專案整合為一。例如，如果您的一個專案擁有套用不同國家區段的許多版本，您可以將所有版本整合為單一專案並新增一個國家/地區的下拉篩選器。
 
@@ -84,37 +84,37 @@ Analysis Workspace 中有以下面板類型:
 
 若要建立靜態下拉式篩選器：
 
-* 若要使用維度項目的下拉式篩選器，請在左側邊欄中按一下所需維度旁的右箭頭圖示。 此動作會顯示所有可用的維度項目。 使用此 `[Shift + Click]` 或 `[Ctrl + Click]`，然後將它們放置到面板放置區 **保持`[Shift]`**.
-* 若要使用其他元件（例如量度、區段或日期範圍）的下拉式篩選器，請選取多個元件，使用 `[Shift + Click]` 或 `[Ctrl + Click]`. 將選取項目拖放至面板放置區 **保持`[Shift]`**. 在此內容中，所有元件類型都會視為區段。
-* 單一下拉式篩選器只能包含單一元件類型。 如果您在選取範圍中包含多個元件類型，則會針對每個元件類型建立個別的下拉式篩選器。 例如，如果您在選取範圍中同時包含量度和維度項目，則會建立兩個不同的下拉式篩選器。 一個下拉式篩選器包含維度項目，另一個則包含量度。
+* 對於使用維度專案的下拉式篩選器，在左側邊欄中所需維度旁按一下向右的箭頭圖示。 此動作會公開所有可用的維度專案。 使用以下方式從此清單中選取多個維度專案 `[Shift + Click]` 或 `[Ctrl + Click]`，然後將它們拖放至面板拖放區 **同時保留`[Shift]`**.
+* 對於使用其他元件（例如量度、區段或日期範圍）的下拉式篩選器，使用以下專案選取多個元件： `[Shift + Click]` 或 `[Ctrl + Click]`. 將選取範圍拖放至面板拖放區域 **同時保留`[Shift]`**. 在此內容中，所有元件型別都被視為區段。
+* 單一下拉式篩選器只能包含單一元件型別。 如果您在選取範圍中包含多個元件型別，則會為每個元件型別建立個別的下拉式篩選器。 例如，如果您在選取範圍中同時包含量度和維度專案，則會建立兩個個別的下拉式篩選器。 一個下拉式篩選器包含維度專案，另一個包含量度。
 
-從下拉式清單中選取其中一個選項，以變更面板中的資料。 您也可以選取 **[!UICONTROL 無篩選器]**.
+從下拉式清單中選取其中一個選項，即可變更面板中的資料。 您也可以選取「 」，選擇不篩選面板中的任何資料 **[!UICONTROL 無篩選器]**.
 
 ![](assets/create-dropdown.png)
 
-以滑鼠右鍵按一下下拉式篩選器提供下列選項：
+以滑鼠右鍵按一下下拉式篩選器，可提供下列選項：
 
-* **[!UICONTROL 添加標籤]**:將下拉式篩選器新增至專案時，系統會自動將標籤設為元件名稱。 如果您刪除標籤，可以使用此選項再次新增標籤。
-* **[!UICONTROL 刪除標籤]**:移除下拉式篩選器上方的文字。
-* **[!UICONTROL 刪除下拉式篩選器]**:從面板中移除下拉式篩選器。
+* **[!UICONTROL 新增標籤]**：將下拉式篩選器新增至專案時，系統會自動將標籤設定為元件名稱。 如果您刪除標籤，可以使用此選項再次新增。
+* **[!UICONTROL 刪除標籤]**：移除下拉式篩選器上方的文字。
+* **[!UICONTROL 刪除下拉式篩選器]**：從面板中移除下拉式篩選器。
 
 [觀看影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/analysis-workspace/using-panels/using-panels-to-organize-your-analysis-workspace-projects.html)，了解更多有關如何在專案中新增下拉篩選器。
 
-<!--### Dynamic drop-down filters
+### 動態下拉式篩選器
 
-Dynamic drop-down filters allow you to determine available values based on data within the panel's reporting range and values in other drop-down filters. For example, you can create two dynamic drop-downs using the [Countries](/help/components/dimensions/countries.md) dimension and [Cities](/help/components/dimensions/cities.md) dimension. When you select a country from the [!UICONTROL Countries] drop-down list, the [!UICONTROL Cities] drop-down list dynamically adjusts to only show cities within that country.
+動態下拉式篩選器可讓您根據面板報告範圍內的資料和其他下拉式篩選器中的值來決定可用值。 例如，您可以使用建立兩個動態下拉式清單 [國家/地區](/help/components/dimensions/countries.md) 維度和 [城市](/help/components/dimensions/cities.md) 維度。 當您從 [!UICONTROL 國家/地區] 下拉式清單、 [!UICONTROL 城市] 下拉式清單會動態調整，以只顯示該國家/地區的城市。
 
-This same concept applies to all dimensions; only dimension items that appear within the panel's date range and selected filters are visible. Dimension items selected in static drop-down filters affect available values in dynamic drop-down filters. However, the inverse is not true; Dimension items selected in dynamic drop-down filters do not affect available values in static drop-down filters.
+此相同的概念適用於所有維度；只會顯示出現在面板日期範圍內的維度專案和選取的篩選器。 在靜態下拉式篩選器中選取的Dimension專案會影響動態下拉式篩選器中可用的值。 反之則不然；在動態下拉式篩選器中選取的Dimension專案不會影響靜態下拉式篩選器的可用值。
 
-Manual selection of dimension items is available if you anticipate a certain dimension item to be collected in the future. You can also clear a dynamic drop-down filter so that it does not contain a value, allowing other dynamic drop-down filters to contain more values. Select **[!UICONTROL Clear All]** to clear the selection from all drop-down filters for that panel.
+如果您預計未來會收集特定維度專案，則可手動選取維度專案。 您也可以清除動態下拉篩選器，使其不包含值，讓其他動態下拉篩選器可包含更多值。 選取 **[!UICONTROL 全部重設]** 以從該面板的所有下拉式篩選器中清除選取專案。
 
-To create a dynamic drop-down filter:
+若要建立動態下拉式篩選器：
 
-* Drag and drop a single dimension into the panel dropzone **while holding `[Shift]`**.
-* Dynamic drop-down filters are not available for metrics, segments, or date ranges.
-* Right-click a drop-down filter and select **[!UICONTROL Delete filter]** to delete it.
+* 將單一維度拖放至面板放置區 **同時保留`[Shift]`**.
+* 動態下拉式篩選器不適用於量度、區段或日期範圍。
+* 以滑鼠右鍵按一下下拉式篩選器，然後選取 **[!UICONTROL 刪除篩選器]** 以刪除它。
 
-Right-clicking a dynamic drop-down filter provides the same options as static drop-down filters.-->
+以滑鼠右鍵按一下動態下拉式篩選器，提供與靜態下拉式篩選器相同的選項。
 
 ## 按右鍵選單 {#right-click}
 
@@ -126,8 +126,8 @@ Right-clicking a dynamic drop-down filter provides the same options as static dr
 
 | 設定 | 說明 |
 | --- | --- |
-| 插入複製的面板/視覺效果 | 可讓您將複製的面板或視覺效果貼到（「插入」）專案內的其他位置，或貼到其他專案。 |
-| 複製面板 | 可讓您以滑鼠右鍵按一下並複製面板，以便將面板插入專案內的其他位置，或插入其他專案。 |
+| 插入複製的面板/視覺效果 | 可讓您將複製的面板或視覺效果貼到（「插入」）專案內另一個位置或其他專案中。 |
+| 複製面板 | 可讓您按一下滑鼠右鍵並複製面板，以便將其插入專案內另一個位置或其他專案中。 |
 | 將報表套裝套用至所有面板 | 允許您將主要面板報表套裝套用至專案中的所有面板。 |
 | 複製面板 | 將目前的面板依樣複製，然後再修改資料。 |
 | 摺疊/展開所有面板 | 摺疊和展開所有專案面板。 |
