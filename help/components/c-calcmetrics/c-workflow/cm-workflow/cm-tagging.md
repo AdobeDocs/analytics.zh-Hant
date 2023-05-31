@@ -3,9 +3,9 @@ description: 在計算量度管理員中，您可透過將區段進行標記來�
 title: 標記計算量度
 feature: Calculated Metrics
 exl-id: 047adf7d-afeb-4f1d-a416-8521c203ddaf
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '281'
 ht-degree: 19%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 19%
 >
 >最有用的標籤型別通常是以下列條件為依據的標籤：
 >
->* **團隊名稱**，例如社交行銷、行動裝置行銷。
+>* **團隊名稱**，例如「社交行銷」或「行動行銷」。
 >* **專案** （分析標籤），例如登入頁面分析。
->* **類別**，例如「女性」、「地理」。
->* **工作流程**，例如「待核准」、「策劃」（特定的業務單位）
+>* **類別**，例如「女性」或「地理」。
+>* **工作流程**，例如「待核准或監管」（特定的業務單位）
 
 
 ## 將標籤套用至計算量度

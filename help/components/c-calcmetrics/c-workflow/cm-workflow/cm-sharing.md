@@ -3,7 +3,7 @@ description: 您可以將量度共用給整個組織、群組或個別使用者 
 title: 共用計算量度
 feature: Calculated Metrics
 exl-id: 99817d6f-d0d7-4e1b-88a7-b1465e2f8812
-source-git-commit: e9109ccb726e5e4bf52d8a4734dd0d09820f2ffc
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 24%
@@ -21,15 +21,15 @@ ht-degree: 24%
 
 若要共用計算量度：
 
-1. 在計算量度管理員中，選取您要共用之任何量度左側的核取方塊。
+1. 在計算量度管理器中，選取您要共用之任何量度左側的核取方塊。
 
-1. 按一下 **[!UICONTROL 共用]** 圖示。 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
+1. 選取 **[!UICONTROL 共用]** 圖示。 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg)
 
    共用計算量度對話方塊隨即顯示。
 
    ![](assets/cm_share.png)
 
-1. 按一下 **[!UICONTROL 共用]**。
+1. 選取「**[!UICONTROL 分享]**」。
 
 1. 選擇要與誰共用：
 
@@ -47,7 +47,7 @@ ht-degree: 24%
 
 1. 選取「**[!UICONTROL 分享]**」。
 
-   「共用」圖示會出現在量度旁：  ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
+   「共用」圖示會出現在量度旁： ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Share_18_N.svg).
 
 1. 您可以依已共用給您的量度來篩選，方法是前往「**[!UICONTROL 篩選]** > **[!UICONTROL 其他篩選器]** > **[!UICONTROL 與我共用]**」。
 

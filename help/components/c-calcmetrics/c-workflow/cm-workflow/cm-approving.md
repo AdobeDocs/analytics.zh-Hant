@@ -3,7 +3,7 @@ description: 在計算量度管理員中，您可以設定包含各應用程式�
 title: 核准計算量度
 feature: Calculated Metrics
 exl-id: ec39937c-27e8-4725-832c-5e1c989d1c9f
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: e955e3bfe114717f6e42d06cb92faff30a10284d
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 17%
