@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: d3e560df22f487a2dfabd65d07de5609c0665918
+source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
 workflow-type: tm+mt
-source-wordcount: '1816'
-ht-degree: 53%
+source-wordcount: '1852'
+ht-degree: 52%
 
 ---
 
@@ -129,6 +129,10 @@ ht-degree: 53%
 >* 如果許多使用者同時嘗試存取指定的連結，專案可能會變成無法存取。 根據預設，每5分鐘可以存取單一連結的人數超過190人。 如果您的組織達到此限制，請等待5分鐘，然後再次嘗試存取連結。
 
 
+下列影片示範和隨附檔案說明與任何人共用連結相關的選項：
+
+>[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
+
 若要與無法存取Analysis Workspace的人共用Adobe Analytics專案：
 
 1. 開啟您要共用的Analysis Workspace專案。
@@ -149,7 +153,7 @@ ht-degree: 53%
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]:**
 
-      啟用此選項後，只有可登入您共用專案所在的Adobe Experience Cloud組織的使用者才能存取該專案。
+      啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
 
       Analytics管理員可為公司設定此偏好設定，如所述 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
 
