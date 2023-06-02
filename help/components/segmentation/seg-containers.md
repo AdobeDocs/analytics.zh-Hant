@@ -4,10 +4,10 @@ keywords: 分段;區段
 title: 區段容器
 feature: Segmentation
 exl-id: f30d525b-32b7-47d5-b92d-24bf86d8a471
-source-git-commit: bbe429512e9a65c6840ff10ace50bd6df6bcb481
+source-git-commit: d9087fbb2d7aef49dab42692ba6bc189e3c32d55
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 59%
+source-wordcount: '3488'
+ht-degree: 57%
 
 ---
 
@@ -27,36 +27,22 @@ ht-degree: 59%
 <table style="table-layout: fixed; border: none;">
 
 <tr>
-<td style="background-color: #FFFFFF; border: 0; " colspan="5">
-</tr>
-
-<tr style="border: none;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
-<td></td>
 </tr>
 
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
-<td></td>
 </tr>
-
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_container_hierarchy.png)
+<!--![](assets/sequential_segmentation_container_hierarchy.png)-->
 
 以下是區段容器的影片概觀：
 
@@ -140,133 +126,109 @@ Country = United States + Order = True
 
 循序劃分運用的是相同的基本容器，包括依階層巢狀內嵌的[!UICONTROL 訪客]、[!UICONTROL 瀏覽]和[!UICONTROL 點擊] (包括頁面檢視或其他維度)。
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/nesting_container.png)
+<!--![](assets/nesting_container.png)-->
 
 [!UICONTROL 訪客]是循序劃分中最高順序的容器，而[!UICONTROL 訪客]中包含[!UICONTROL 瀏覽]、[!UICONTROL 訪客]或[!UICONTROL 瀏覽]容器中包含[!UICONTROL 點擊]。必須維護這種[容器階層](/help/components/segmentation/seg-overview.md#section_7FDF47B3C6A94C38AE40D3559AFFAF70)，才能建立順序良好的循序區段。
 
 **若要建立循序區段**，請使用 [!UICONTROL THEN]`true` 運算子將容器巢狀內嵌並以循序邏輯連結起來，此作業要求每個容器根據訪客次序都為 
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪數</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
 </table>
 
-![](assets/sequential_segmentation_nesting_3.png)
+<!--![](assets/sequential_segmentation_nesting_3.png)-->
 
 此容器階層的唯一例外是使用 [邏輯群組容器](/help/components/segmentation/segmentation-workflow/seg-sequential-build.md). [!UICONTROL 邏輯群組]容器可讓您不依順序在容器內巢狀內嵌點擊，不依順序擷取事件和維度。
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: none;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="5">
-<tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
 <td style="background-color: #E5E4E2;" colspan="3" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/> 訪客</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 瀏覽</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
-<td></td>
 </tr>
-<tr><td ></td><td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td><td></td></tr>
+
 <tr>
-<td></td>
+<td style="background-color: #E5E4E2;"></td><td colspan="2">THEN</td></td>
+</tr>
+
+<tr>
 <td style="background-color: #E5E4E2;" width="200"></td>
 <td style="background-color: #D3D3D3;" colspan="2" width="200" height="100"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Group_18_N.svg"/> 群組</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Events_18_N.svg"/> 點擊</td>
-<td></td>
 </tr>
+
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;" width="200" height="100"></td>
 <td style="background-color: #D3D3D3;" width="200" height="100"></td>
 <td style="background-color: #C0C0C0;" width="200" height="100" colspan="1"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_Visit_18_N.svg"/> 造訪數</td>
-<td></td>
 </tr>
-<tr>
-<td colspan="5">
-<tr>
+
 </table>
 
-![](assets/logic_group_hierarchy.png)
+<!--![](assets/logic_group_hierarchy.png)-->
 
 ## 以容器資料為基礎的報表 {#reports}
 
@@ -278,24 +240,19 @@ Country = United States + Order = True
 
 例如，下圖中的訪客第一次瀏覽某個網站；他進到首頁後，瀏覽了另外三個頁面，然後與網站完成了一筆銷售。這位訪客後來又瀏覽一次這個網站，但這次是先進到「產品」頁面，然後進到「首頁」、回到「產品」頁面，最後在查看「冬季帽子」後關閉工作階段。根據為區段每個容器擷取的資料，報表中會顯示不同的值。
 
-以下的&#x200B;*頁面等於冬季外套*&#x200B;區段會套用到&#x200B;**頁面報表**。
+此 `Pages equals Winter Coat` 以下區段已套用至 **頁面報表**.
 
-![](assets/page_winter_coat.png)
 
-根據所選容器的不同，報表顯示的結果也會不同。
+報表會根據選取的容器，針對訪客的下列造訪和頁面檢視顯示不同的結果。
 
-<table style="table-layout:fixed;">
+<table style="table-layout:auto; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>造訪1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>造訪1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -303,19 +260,17 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服飾</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Coat</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>購買$100</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>造訪2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>造訪2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/>
 </td>
@@ -323,15 +278,11 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季靴子</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服飾</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>冬季帽子</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 
-![](assets/container_overview.png)
+<!--![](assets/container_overview.png)-->
 
 ### 從點擊容器建立報表
 
@@ -341,11 +292,16 @@ Country = United States + Order = True
 |---|--:|
 | Winter Coat | 1 |
 
-![](assets/container_overview_PV.png)
+<!--![](assets/container_overview_PV.png)-->
 
 從「點選」容器建立報表時，您可以檢視不同容器的報表如何影響整體報表值。 檢視區段報表，請注意頁面檢視約略等同於造訪（約2,000名訪客在造訪中看到重複頁面，相較於頁面檢視總數有所增加）。不重複訪客數約等於造訪次數（約2,000位不重複訪客造訪多次）。
 
-![](assets/container_report_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+|---|---|--:|--:|
+|  | 頁面檢視：<br/>檢視：<br/>不重複訪客： | **69,252** / 351,292 <br/>**67,554** / 165,175 <br/>**63,541** / 113,169 | **19%**<br/>**40%**<br/>**56%** |
+
+
+<!--![](assets/container_report_PV.png)-->
 
 >[!IMPORTANT]
 >
@@ -362,11 +318,15 @@ Country = United States + Order = True
 | Winter Coat | 1 |
 | 購買 | 1 |
 
-![](assets/container_overview_visit.png)
+<!--![](assets/container_overview_visit.png)-->
 
 從「瀏覽」容器顯示區段值後可發現，頁面檢視次數已顯著增加。此增加是因為來自瀏覽容器的報告會識別符合條件的所有頁面，以及在瀏覽中檢視的所有其他頁面（以及在每個瀏覽容器中擷取的所有頁面檢視）。
 
-![](assets/container_report_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+|---|---|--:|--:|
+|  | 頁面檢視：<br/>檢視：<br/>不重複訪客： | **226,193** / 351,292 <br/>**67,554** / 165,175 <br/>**63,541** / 113,169 | **64%**<br/>**40%**<br/>**56%** |
+
+<!--![](assets/container_report_Visit.png)-->
 
 ### 從訪客容器建立報表
 
@@ -394,11 +354,15 @@ Country = United States + Order = True
 | 冬季靴子 | 1 |
 | 冬季帽子 | 1 |
 
-![](assets/container_overview_visitors.png)
+<!--![](assets/container_overview_visitors.png)-->
 
 從「訪客」容器的區段後可發現，「頁面檢視」和「瀏覽」次數已增加。增加的原因是，從訪客層級來看，如果訪客僅造訪過一次冬季外套頁面（將條件設為true），則系統會為該訪客擷取所有其他頁面檢視和所有其他造訪。
 
-![](assets/container_report_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+|---|---|--:|--:|
+|  | 頁面檢視：<br/>檢視：<br/>不重複訪客： | **240,094** / 351,292 <br/>**83,823** / 165,175 <br/>**63,541** / 113,169 | **68%**<br/>**50%**<br/>**56%** |
+
+<!--![](assets/container_report_Visitor.png)-->
 
 總而言之，了解劃分對各種資料劃分的作用方式，是正確解讀所傳回資料的關鍵。
 
@@ -437,26 +401,22 @@ Country = United States + Order = True
 
 依跨某個範圍頁面持續存在的維度(例如促銷活動eVar或反向連結維度)進行篩選，會影響在容器層級收集的資料，且必須瞭解報表的準確性。
 
-區段資料可能因維度或所套用的變數在所有所選頁面上的持續存在性而有所不同。有些維度 (例如「頁面」維度) 會在頁面層級提供唯一值，而且會根據「點擊」容器中的資料受到篩選。(請參閱[以容器資料為基礎的報表](/help/components/segmentation/seg-overview.md)範例)。其他維度 (例如「反向連結網域」維度) 則會在同次瀏覽的多個頁面上持續存在。有些維度或套用的變數 (例如「瀏覽期間」) 則會跨訪客的整個歷史記錄。
+區段資料可能因維度或所套用的變數在所有所選頁面上的持續存在性而有所不同。有些維度 (例如「頁面」維度) 會在頁面層級提供唯一值，而且會根據「點擊」容器中的資料受到篩選。(請參閱[以容器資料為基礎的報表](/help/components/segmentation/seg-overview.md)範例)。其他維度 (例如「反向連結網域」維度) 則會在同次瀏覽的多個頁面上持續存在。例如: `Referring Domain equals aol.com`. 有些維度或套用的變數 (例如「瀏覽期間」) 則會跨訪客的整個歷史記錄。
 
-![](assets/RefDomain_aol.png)
+<!--![](assets/RefDomain_aol.png)-->
 
 與「頁面」維度相反，「反向連結網域」值會附加至此次瀏覽中的每個頁面。例如，以下訪客是從某個網站轉來首頁。因此，該次造訪內的所有頁面都會被指派相同的反向連結網域值。
 
 以下的&#x200B;*反向連結網域等於 aol.com* 的區段會套用至&#x200B;**頁面報表**。
 
-<table style="table-layout:fixed;">
+<table style="table-layout:fixed; border: 0;">
+
 <tr>
-<td style="background-color: #FFFFFF; " colspan="7">
-</tr>
-<tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>造訪1</b></td>
+<td style="background-color: #E5E4E2;" colspan="4"><b>造訪1</b></td>
 </tr>
 <tr>
-<tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+<tr>
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>aol.com
 </td>
@@ -464,19 +424,17 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服飾</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>Winter Coat</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>購買$100</td>
-<td></td>
 </tr>
 <tr>
-<td colspan="7">
+<td colspan="5">
 </tr>
 <tr>
-<td></td>
 <td style="background-color: #E5E4E2;"></td>
-<td style="background-color: #E5E4E2;"colspan="5"><b>造訪2</b></td>
+<td style="background-color: #E5E4E2;"colspan="4"><b>造訪2</b></td>
 </tr>
 <tr>
 <tr style="border: 0;">
-<td style="background-color: #FFFFFF; border: 0;"></td>
+
 <td style="background-color: #E5E4E2;">
 <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_User_18_N.svg"/><br/>weather.com
 </td>
@@ -484,11 +442,7 @@ Country = United States + Order = True
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季靴子</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><img align="right" src="https://spectrum.adobe.com/static/icons/ui_18/ArrowSize100.svg"/><br/>冬季服飾</td>
 <td style="background-color: #FFFFFF;"><img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_WebPage_18_N.svg"><br/>冬季帽子</td>
-<td></td>
-</tr>
-<tr>
-<td colspan="7">
-</tr>
+
 </table>
 
 <!--![](assets/container_overview_persist.png)-->
@@ -506,11 +460,15 @@ Country = United States + Order = True
 | Winter Coat | 1 |
 | 購買 | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 根據「點擊」容器中的資料，32,000 個訪客在 33,000 次造訪中進行了 92,000 次的頁面檢視。平均起來，每次瀏覽中進行了三次頁面檢視，而幾乎所有瀏覽都不是由重複的訪客進行。
 
-![](assets/container_report_persist_PV.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+|---|---|--:|--:|
+|  | 頁面檢視：<br/>檢視：<br/>不重複訪客： | **98,234** / 351,165 <br/>**33,203** / 165,173 <br/>**32,269** / 113,110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_PV.png)-->
 
 ### 從造訪容器建立報表
 
@@ -523,11 +481,15 @@ Country = United States + Order = True
 | Winter Coat | 1 |
 | 購買 | 1 |
 
-![](assets/container_overview_persist_Visit.png)
+<!--![](assets/container_overview_persist_Visit.png)-->
 
 由於所有頁面的造訪反向連結網域值都相同，因此「造訪」容器層級的報表與「頁面檢視」容器的報表（幾乎）相同。 由於資料異常，稍微有些偏移（98,234對98,248）。
 
-![](assets/container_report_persist_Visit.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+|---|---|--:|--:|
+|  | 頁面檢視：<br/>檢視：<br/>不重複訪客： | **98,248** / 351,165 <br/>**33,203** / 165,173 <br/>**32,269** / 113,110 | **27%**<br/>**20%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visit.png)-->
 
 ### 從訪客容器建立報表
 
@@ -559,14 +521,15 @@ Country = United States + Order = True
 | 冬季帽子<br/>反向連結網域= &#39;weather.com&#39; | 1 |
 
 
-
-
-
-![](assets/container_overview_persist_Visitor.png)
+<!--![](assets/container_overview_persist_Visitor.png)-->
 
 當您檢視「訪客」容器中的資料時，可發現頁面檢視次數已明顯增加 (從 98,248 增加到 112, 925)。此增加是因為已列出訪客的所有頁面檢視（包括在「訪客」容器層級儲存至的其他反向連結網域值的頁面）。 以及該訪客的其他造訪次數，使造訪次數從33,203次增加到43,448次。
 
-![](assets/container_report_persist_Visitor.png)
+| <img src="https://spectrum.adobe.com/static/icons/workflow_18/Smock_GraphDonut_18_N.svg"/> | 量度 | # | % |
+|---|---|--:|--:|
+|  | 頁面檢視：<br/>檢視：<br/>不重複訪客： | **112,925** / 351,165 <br/>**43,448** / 165,173 <br/>**32,269** / 113,110 | **32%**<br/>**26%**<br/>**28%** |
+
+<!--![](assets/container_report_persist_Visitor.png)-->
 
 ## 摘要
 
