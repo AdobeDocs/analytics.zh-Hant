@@ -3,16 +3,16 @@ title: 地區資料收集
 description: 地區資料收集相關資訊
 feature: Regional Data Collection
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: f75d123c93d446776492dd933d03d32c2496fa69
+source-git-commit: a4dd138f0f2198da66caa272dd62b46f24b578b2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '482'
+ht-degree: 90%
 
 ---
 
 # 地區資料收集
 
-Adobe 使用地區資料收集 (RDC) 功能，可讓您的訪客與 Adobe Experience Cloud 之間的互動，盡可能貼近訪客的需求。在資料收集中心 (DCC) 區域性收集資料後，系統會透過安全連線將資料轉送到資料處理中心 (DPC)。資料經過處理後，便可供 Adobe Experience Cloud 的產品使用。若要變更RDC類型，請聯絡Adobe客戶服務。
+Adobe 使用地區資料收集 (RDC) 功能，可讓您的訪客與 Adobe Experience Cloud 之間的互動，盡可能貼近訪客的需求。一旦資料在資料收集中心（DCC，也稱為Edge網站）進行地區性收集後，資料會透過安全連線轉送到資料處理中心（DPC，也稱為Core網站）。 資料經過處理後，便可供 Adobe Experience Cloud 的產品使用。若要變更您的RDC型別，請聯絡Adobe客戶服務。
 
 區域資料收集流程使用以下步驟：
 
