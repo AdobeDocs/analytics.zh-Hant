@@ -5,7 +5,7 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8aca2f068a455eddca904d0367bc4a282f464e56
+source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
 workflow-type: tm+mt
 source-wordcount: '1852'
 ht-degree: 52%
@@ -105,8 +105,6 @@ ht-degree: 52%
 1. 與組織中的使用者共用連結。例如，您可以將其貼到電子郵件中、內部網站中，等等。
 
 ## 與任何人共用專案（不需要登入） {#share-public-link}
-
-{{release-limited-testing-section}}
 
 您可以授予 [唯讀存取](/help/analyze/analysis-workspace/curate-share/view-only-projects.md) Analysis Workspace專案給無法存取Adobe Analytics的使用者。 這可能包括：
 
