@@ -4,9 +4,9 @@ keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '591'
 ht-degree: 88%
 
 ---
@@ -39,14 +39,10 @@ ht-degree: 88%
 您可以
 
 * 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]以及[!UICONTROL 貢獻分析]。
-* 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度是根據區段，所以可查看其歷史資料。 以下是有關無實作量度的影片：
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12)
+* 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度是根據區段，所以可查看其歷史資料。 
 
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
-* （僅限進階計算量度）量度上的區段。 例如，您可以建立「新訪客」的量度，計算初次參與工作階段的人員數量。 以下是有關這個主題的影片：
-
-   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12)
+* （僅限進階計算量度）量度上的區段。 例如，您可以建立「新訪客」的量度，計算第一次進行工作階段的人員數量。
 
 * （僅限進階計算量度）納入統計函式，以協助您更好地描述資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
