@@ -5,10 +5,10 @@ title: 共用專案
 feature: Curate and Share
 role: User, Admin
 exl-id: da106eb1-7f5c-469a-a8aa-8497fc3706dc
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
+source-git-commit: 441484c0547439de2ab1cdc2596fb681592df012
 workflow-type: tm+mt
-source-wordcount: '1852'
-ht-degree: 52%
+source-wordcount: '1817'
+ht-degree: 49%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 52%
 
 * 您組織中有權存取Adobe Analytics的使用者和群組
 
-   您可以共用編輯、複製或檢視存取權
+  您可以共用編輯、複製或檢視存取權
 
 * 您組織中無權存取Adobe Analytics的使用者和群組
 
-   收件者具有唯讀存取權
+  收件者具有唯讀存取權
 
 * 組織外部的人員
 
-   收件者具有唯讀存取權
+  收件者具有唯讀存取權
 
 任何 [組織](curate.md) 收件者開啟專案時，會反映您在共用前套用的內容。
 
@@ -55,7 +55,7 @@ ht-degree: 52%
 
 * 獲得多個角色的使用者一律會有最高體驗。如果同時以個人和群組成員的身分新增使用者，就可能發生此狀況。例如，如果使用者以個人身分獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色，則其將獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;專案體驗。
 
-* 獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。
+* 獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時會獲得這些有限的體驗。管理員可以將其角色變更為 **[!UICONTROL 可以編輯]** 共用專案並授予「編輯」角色，如下列程式所述。
 
 若要與組織中的使用者或群組共用特定專案角色：
 
@@ -126,7 +126,6 @@ ht-degree: 52%
 >
 >* 如果許多使用者同時嘗試存取指定的連結，專案可能會變成無法存取。 根據預設，每5分鐘可以存取單一連結的人數超過190人。 如果您的組織達到此限制，請等待5分鐘，然後再次嘗試存取連結。
 
-
 下列影片示範和隨附檔案說明與任何人共用連結相關的選項：
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420093/?learn=on)
@@ -151,9 +150,9 @@ ht-degree: 52%
 
    * **[!UICONTROL 需要 Experience Cloud 驗證]:**
 
-      啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
+     啟用此選項後，只有可存取專案的使用者才能登入建立您共用專案的Adobe Experience Cloud組織。 不過，您共用的使用者不需要擁有Adobe Analytics的存取權。
 
-      Analytics管理員可為公司設定此偏好設定，如所述 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
+     Analytics管理員可為公司設定此偏好設定，如所述 [偏好設定](/help/analyze/analysis-workspace/user-preferences.md). 您可能會遇到以下情況，具體取決於管理員如何設定此選項：
 
       * 如果未顯示此選項，您的Analytics管理員未啟用此功能。
 
@@ -196,6 +195,5 @@ ht-degree: 52%
 | 問題 | 回答 |
 | --- | --- |
 | 如果兩個編輯者同時儲存專案，會發生什麼情況？ | 不會合併變更，而會保留最後儲存的專案版本。Analysis Workspace 目前不支援即時共同作業。 |
-| 身為管理員，我會有何種專案體驗？ | 設為&#x200B;**[!UICONTROL 可複製]**&#x200B;或&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色的管理員，在開啟專案時將獲得這些有限的體驗。如有需要，管理員可隨時透過&#x200B;**[!UICONTROL 元件] > [!UICONTROL 專案]**&#x200B;將其角色增加到&#x200B;**[!UICONTROL 可編輯]**&#x200B;中。 |
 | 如果某個收件者以個人身分設定於某個角色，又以群組成員身分設定於另一個角色，會發生什麼情況？ | 如果收件者獲得多個角色，將一律會有較高的體驗。例如，如果收件者以個人身分獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，並且以群組成員身分獲得&#x200B;**[!UICONTROL 可檢視]**&#x200B;角色，則將獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;專案體驗。 |
 | 如果收件者開啟了專案連結，將有何體驗？ | 收件者會獲得您在分享模式中為其設定的角色。收件者若未被指派任何角色，且收到專案的連結(**[!UICONTROL 共用]** > **[!UICONTROL 與工作區使用者共用]**，然後選取 **[!UICONTROL 複製]** 旁邊 **[!UICONTROL 透過連結共用]** 欄位)，則預設會將其置於角色中。 管理員會獲得&#x200B;**[!UICONTROL 可編輯]**&#x200B;角色，非管理員會獲得&#x200B;**[!UICONTROL 可複製]**&#x200B;角色。 |
