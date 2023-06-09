@@ -3,9 +3,9 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 1d98d711c17d3c7ca487b8f5bd4e918a9a399ea7
+source-git-commit: 49c4acb38a96b5fd6a8cd25258628adc9a68074c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1426'
 ht-degree: 53%
 
 ---
@@ -20,11 +20,9 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link)<p>此功能預設為啟用，系統管理員可以停用。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
-| **分類設定 — 合併** | 將不同報表套裝的分類結合至整合的資料集。 整合的資料集可用於「分類設定」，或當作CJA中的查詢資料集。 瞭解更多（即將推出） |  | 2023 年 6 月 7 日 |
-| **分類設定 — 規則產生器** | 在目前的「分類設定」架構中使用分類規則產生器。 瞭解更多（即將推出） |  | 2023 年 6 月 7 日 |
-| **分類設定 — 自動匯入** | 您現在可以從雲端儲存空間目的地自動匯入分類設定資料。 瞭解更多（即將推出） |  | 2023 年 6 月 7 日 |
-| **新增AppMeasurement變數** | 變數 `doubleEncodeLinkParameters` 因應實施在連結追蹤變數中編碼多位元組字元的邊緣案例。 大部分實施不需要定義此變數。 瞭解更多（即將推出） |  | 2023 年 6 月 7 日 |
+| **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>此功能預設為啟用，系統管理員可以停用。[了解更多](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
+| **分類集的新功能** | [分類設定](/help/components/classifications/sets/overview.md) 已更新幾項新功能：<ul><li>**合併**：將「分類設定」合併至單一的「整合分類設定」。 整合的分類設定可以像其他分類設定一樣使用，或當作CJA中的查詢資料設定使用。 [了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據「分類設定」中的規則自動分類值。 [了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：自動從雲端儲存空間目的地匯入分類資料。 [了解更多](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
+| **新增AppMeasurement變數** | 變數 `doubleEncodeLinkParameters` 因應實施在連結追蹤變數中編碼多位元組字元的邊緣案例。 大部分實施不需要定義此變數。 [了解更多](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023 年 6 月 7 日 |
 | **資料摘要匯出的安全目的地** | 資料摘要現在可以傳送至下列雲端儲存目的地：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再建議使用先前可用的目的地（FTP、SFTP、S3和Azure Blob）。 [了解更多](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant) |  | 2023 年 6 月 12 日 |
 | **工作區中的機器人報告** | 機器人報告現在可在Analysis Workspace中使用。 此功能隨附幾個新增功能：<ul><li>新維度： [機器人名稱](/help/components/dimensions/bot-name.md)</li><li>兩個新量度： [機器人頁面檢視](/help/components/metrics/bot-page-views.md) 和 [機器人發生次數](/help/components/metrics/bot-occurrences.md).</li><li>新的計算量度範本： [機器人頁面檢視比率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新的工作區報表：機器人報表</li></ul>新維度和量度包含從2023年3月開始回填的資料。 |  | 7,2023 年 6 月 |
 

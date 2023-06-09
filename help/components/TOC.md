@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: a6b7622562ced9d28229e094f027c8d0ee79532b
+source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 90%
+source-wordcount: '715'
+ht-degree: 86%
 
 ---
 
@@ -177,7 +177,7 @@ ht-degree: 90%
       + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
-   + [有關管理舊式區段的常見問題集 ](segmentation/seg-transition.md)
+   + [有關管理舊式區段的常見問題集](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
    + [計算與進階計算（衍生）量度](c-calcmetrics/cm-overview.md)
@@ -234,12 +234,18 @@ ht-degree: 90%
    + [智慧型警報 - 使用案例](c-alerts/alerts-use-cases.md)
 + 分類 {#classifications}
    + [分類總覽](classifications/c-classifications.md)
-   + 分類設定 {#sets}
-      + [「分類設定」概觀](classifications/sets/overview.md)
-      + [分類設定管理員](classifications/sets/set-manager.md)
+   + 分類集 {#sets}
+      + [分類設定概觀](classifications/sets/overview.md)
+      + 管理分類設定 {#manage}
+         + [分類設定管理員](classifications/sets/manage/set-manager.md)
+         + [建立分類設定](classifications/sets/manage/create.md)
+         + [分類設定設定](classifications/sets/manage/settings.md)
+         + [分類設定結構描述](classifications/sets/manage/schema.md)
+         + [分類設定規則](classifications/sets/manage/rules.md)
       + [分類設定作業管理員](classifications/sets/job-manager.md)
-      + [建立「分類設定」](classifications/sets/create.md)
-      + [「分類設定」設定](classifications/sets/settings.md)
+      + 分類設定合併 {#consolidations}
+         + [分類設定合併管理員](classifications/sets/consolidations/manage.md)
+         + [分類設定合併程式](classifications/sets/consolidations/process.md)
    + 分類規則產生器 {#classifications-rulebuilder}
       + [分類規則產生器工作流程](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)
@@ -260,6 +266,7 @@ ht-degree: 90%
       + [FTP 匯出](classifications/importer/ftp-export.md)
       + [處理時間](classifications/importer/processing-time.md)
       + [疑難排解](classifications/importer/troubleshooting.md)
+
    + [子分類](classifications/c-sub-classifications.md)
    + [分類常見問答](classifications/faq.md)
 + [行事曆事件](t-calendar-event.md)
