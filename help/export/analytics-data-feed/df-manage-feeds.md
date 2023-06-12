@@ -3,10 +3,10 @@ title: 資料摘要 UI
 description: 瞭解如何使用資料摘要介面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 ### 新增
 
-在動態消息和作業標籤附近按一下 + [!UICONTROL 新增]按鈕以建立新的摘要。如需詳細資訊，請參閱[新增摘要](create-feed.md)。
+在動態消息和作業標籤附近按一下 + [!UICONTROL 新增]按鈕以建立新的摘要。另請參閱 [建立資料摘要](create-feed.md) 以取得詳細資訊。
 
 ### 「欄」
 
@@ -66,8 +66,8 @@ ht-degree: 100%
 * **報表套裝 ID**: 報表套裝的唯一識別碼。
 * **資料欄**: 可使用於摘要中的有效資料欄。多數情況下，這種格式會顯示過多資料欄。
 * **間隔**: 指出摘要是每小時還是每日傳送。
-* **目的地類型**: 摘要的目的地類型。例如 FTP、Amazon S3 或 Azure。
-* **目的地主機**: 檔案的放置位置。例如, `ftp.example.com`.
+* **目的地類型**: 摘要的目的地類型。例如，Amazon S3、GCP或Azure。
+* **目的地主機**: 檔案的放置位置。
 * **擁有者**: 建立摘要的使用者帳戶。
 * **狀態**: 摘要的狀態。
    * 作用中: 摘要運作中。

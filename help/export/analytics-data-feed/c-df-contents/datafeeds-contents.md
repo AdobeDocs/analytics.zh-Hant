@@ -5,16 +5,30 @@ subtopic: data feeds
 title: 資料摘要內容 - 概觀
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 92%
 
 ---
 
-# 資料摘要內容 - 概觀
+# 資料摘要內容 — 概觀
 
-本節說明資料摘要傳送中所含的檔案。
+以下小節說明如何存取和瞭解資料摘要傳送中的檔案。
+
+## 存取資料摘要內容
+
+若要存取資料摘要的內容：
+
+1. 登入資料摘要目的地網站。
+
+   這是您在建立資料摘要時設定的目的地網站，例如Amazon S3或Google Cloud Platform貯體。
+
+1. 將壓縮的資料摘要檔案下載到您的本機電腦。
+
+1. 使用可支援 `.tar.gz` 副檔名的程式來解壓縮壓縮檔案。
+
+1. 按您的偏好在試算表或資料庫應用程式中開啟 `hit_data.tsv` 檔案，以便查看當天的原始資料。-->
 
 ## 資訊清單檔案 {#feed-manifest}
 

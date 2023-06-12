@@ -4,14 +4,18 @@ keywords: 點按資料流；資料摘要；資料摘要；資料摘要
 title: Analytics 資料摘要總覽
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 98%
+source-wordcount: '622'
+ht-degree: 83%
 
 ---
 
 # Analytics 資料摘要總覽
+
+>[!AVAILABILITY]
+>
+>此頁面上說明的某些目的地型別處於版本的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。資料會在每小時結束時以小時的批量傳送，或在每天結束時以當天的批量傳送。
 
@@ -19,11 +23,12 @@ ht-degree: 98%
 
 在使用資料摘要之前，請確認您符合下列所有需求。
 
-* 具備可用的 FTP 網站和憑證。資料摘要只能傳送至伺服器目的地。您的組織通常會提供 FTP 憑證。Adobe 可按照您的要求，以少量的儲存空間提供 FTP 位置。如想要求資料摘要的 FTP 目的地，請聯絡客戶服務。
-* 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱實作使用手冊中的「[驗證和發佈實作](/help/implement/launch/validate-publish-prod.md)」。
+* 可傳送資料至 Adobe 資料收集伺服器的有效實作。另請參閱 [驗證和發佈實作](/help/implement/launch/validate-publish-prod.md) （在實施指南中）。
 * 您的帳戶為 Analytics 產品管理員，或者屬於具有資料摘要存取權的產品設定檔。
+* 在Amazon S3、Google Cloud Platform、Azure RBAC或Azure SAS上設定的貯體。
+* （舊版：舊版FTP和SFTP目的地型別僅需使用此功能）擁有可用的FTP站台和憑證（您的組織提供的FTP憑證）。
 
-## 開始步驟
+## 建議的資料摘要資源
 
 1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
 2. 按一下右上角 9 個方塊的圖示，然後按一下 Analytics 彩色標誌。
@@ -58,17 +63,15 @@ ht-degree: 98%
 
 瞭解取得資料摘要的基本工作流程後，您即可與組織內的團隊合作，將原始資料儲存或收錄至資料庫。
 
+* [資料摘要最佳作法](/help/export/analytics-data-feed/data-feeds-best-practices.md)：建立和管理資料摘要的最佳作法。
 * [建立資料摘要](create-feed.md)：建立資料摘要的技術詳細資訊，詳細說明個別欄位
 * [管理資料摘要](df-manage-feeds.md)：深入了解如何導覽資料摘要介面
-* [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案內容
-* [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單
+* [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案內容 <!-- Is this still the output users can download from the destination? I aske Jun. -->
+* [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單.
+* 資料摘要介面影片導覽:
 
-## 其他資源
+  >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
-資料摘要介面影片導覽:
+* 有關如何尋找您的資料摘要 ID 的影片：
 
->[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
-
-有關如何尋找您的資料摘要 ID 的影片：
-
->[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
+  >[!VIDEO](https://video.tv.adobe.com/v/335747/?quality=12)
