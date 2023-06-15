@@ -3,10 +3,10 @@ title: 例項
 description: 變數經設定 (且不持續存在) 的點擊次數。
 feature: Metrics
 exl-id: 9d1a66b5-46f9-4834-87a1-5f63e386e61d
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '129'
-ht-degree: 100%
+source-wordcount: '196'
+ht-degree: 65%
 
 ---
 
@@ -17,3 +17,7 @@ ht-degree: 100%
 ## 此量度的計算方式
 
 在報表套裝中的所有點擊中，僅納入在影像要求中明確設定維度項目的點擊。有些維度 (例如 [eVar](../dimensions/evar.md)) 在其設定所在的點擊過後仍會持續存在。[頁面檢視](page-views.md)和[發生次數](occurrences.md)之類的量度，會同時計入初始值和持續值。此量度不會計入持續值。
+
+例如，某個訪客造訪您的網站並使用內部搜尋。 您可在eVar1中追蹤內部搜尋。 使用內部搜尋一次後，使用者在離開前會再造訪五個頁面。
+
+如果在工作區中檢視報表，您會看到一個eVar1例項和六次發生次數。 在搜尋結果頁面上觸發的一個執行個體，而發生次數會計入初始值和持續值。

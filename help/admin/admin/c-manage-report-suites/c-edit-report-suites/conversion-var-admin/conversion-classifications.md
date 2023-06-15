@@ -3,16 +3,18 @@ description: 分類用於將值分組，然後依群組級別匯報。例如，�
 title: 轉換分類
 feature: Classifications
 exl-id: b4855000-adf3-4e3b-af36-f4803383126d
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 21029930b5cae6acb6bc6a59836ddc1ca33cb27e
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 98%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
 # 轉換分類
 
 分類用於將值分組，然後依群組級別匯報。例如，您可以將所有「[!UICONTROL 付費搜尋]」行銷活動歸類為「*流行音樂術語*」類別，並報告該類別相對於「例項」(即點進次數) 等量度的成功狀況，以及成功事件的轉換。您可以新增多達 255 個分類至一個變數中。
+
+**[!UICONTROL 分析]** > **[!UICONTROL 管理員]** > **[!UICONTROL 報表套裝]** > **[!UICONTROL 編輯設定]** > **[!UICONTROL 轉換]** > **[!UICONTROL 轉換分類]**
 
 轉換分類可讓您歸類轉換變數。分類後，透過關鍵資料產生的任何報告，亦可透過相關聯的資料屬性產生。
 

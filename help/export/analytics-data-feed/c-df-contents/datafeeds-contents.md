@@ -5,10 +5,10 @@ subtopic: data feeds
 title: 資料摘要內容 - 概觀
 feature: Data Feeds
 exl-id: 7456ed99-c2f3-4b19-a63e-6b4e457e7d55
-source-git-commit: 6b42fc4a383b05a3630cbba7c5bce6b4561a9419
+source-git-commit: 43e483f157f1c2527f671eb43a165db86c77a7ce
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 92%
+source-wordcount: '981'
+ht-degree: 77%
 
 ---
 
@@ -81,24 +81,24 @@ Datafeed-Manifest-Version: 1.0
 [rsid]_[YYYY-mm-dd]-lookup_data.[compression_suffix]
 ```
 
-* [!DNL column_headers.tsv] (針對此資料摘要而自訂)
-* [!DNL browser.tsv]
-* [!DNL browser_type.tsv]
-* [!DNL color_depth.tsv]
-* [!DNL connection_type.tsv]
-* [!DNL country.tsv]
-* [!DNL javascript_version.tsv]
-* [!DNL languages.tsv]
-* [!DNL operating_systems.tsv]
-* [!DNL plugins.tsv]
-* [!DNL resolution.tsv]
-* [!DNL referrer_type.tsv]
-* [!DNL search_engines.tsv]
-* [!DNL event_lookup.tsv] (針對此資料摘要而自訂)
+* **`column_headers.tsv`**：包含欄標題的單一列 `hit_data.tsv`.
+* **`browser.tsv`**：對應瀏覽器ID (對應至 `browser` 的易記名稱。
+* **`browser_type.tsv`**：對應瀏覽器ID (對應至 `browser` 欄中選取的字元（例如「摘要」欄）。
+* **`color_depth.tsv`**：對應色彩深度ID (對應至 `color` 欄的顏色深度。
+* **`connection_type.tsv`**：對應連線型別ID (對應至 `connection_type` 的欄位建立連線型別。
+* **`country.tsv`**：對應國家/地區ID (對應至 `country` 摘要欄)至國家名稱。
+* **`javascript_version.tsv`**：對應JavaScript版本ID ( `javascript` 摘要欄)重新命名為。
+* **`languages.tsv`**：對應語言ID ( `language` 摘要欄)轉換為語言。
+* **`operating_systems.tsv`**：對應作業系統ID ( `os` 的欄位中輸入)，以取得作業系統名稱。
+* **`plugins.tsv`**：對應外掛程式ID ( `plugin` 欄中指定欄的字元（例如「摘要」欄中的字元）。
+* **`resolution.tsv`**：對應解析度ID ( `resolution` 進位欄)，以取得監視器解析度。
+* **`referrer_type.tsv`**：對應反向連結型別ID (對應至反向連結 `ref_type` 」欄中)重新命名為「反向連結」。
+* **`search_engines.tsv`**：對應搜尋引擎ID ( `search_engine` 欄中指定搜尋引擎名稱。
+* **`event.tsv`**：對應每個事件ID (對應至 `event_list` 欄)的欄位中選取其個別事件名稱。
 
 ## 點擊資料檔案
 
-點擊資料以 [!DNL hit_data.tsv] 檔案提供。此檔案中的資料量由傳送格式決定 (每小時或每日、單一檔案或多個檔案)。此檔案僅包含點擊資料。欄標題則與查閱檔案一同傳送。此檔案的每一行包含單一伺服器呼叫。
+點擊資料以 `hit_data.tsv` 檔案提供。此檔案中的資料量由傳送格式決定 (每小時或每日、單一檔案或多個檔案)。此檔案僅包含點擊資料。欄標題則與查閱檔案一同傳送。此檔案的每一行包含單一伺服器呼叫。
 
 Adobe 傳送的檔案不一，取決於您設定的資料摘要類型而定。所有檔案都使用 ISO-8859-1 編碼。
 
