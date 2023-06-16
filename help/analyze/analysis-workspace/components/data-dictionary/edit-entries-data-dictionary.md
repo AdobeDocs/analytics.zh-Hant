@@ -5,9 +5,9 @@ feature: Components
 role: Admin
 exl-id: 4f15cad2-596e-41c3-89aa-4456d8e94fa0
 source-git-commit: a6805f0944570bee265d5db9a159ae24e0694837
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Analytics 管理員可以針對特定的報告套裝編輯資料字典中的元�
 
 1. (可選) 開始在搜尋欄位中鍵入要編輯的元件名稱。
 
-   元件類型可以同時用顏色和表徵圖來標識。 **Dimension** ![Dimension表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg) 是橙色的， **段** ![段表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 是藍色的， **日期範圍** ![日期範圍表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg) 是紫色的 **度量** ![度量表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg) 是綠色的。 Adobe表徵圖指示計算的度量模板或段模板，以及計算器表徵圖 ![計算器表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg) 指明了由組織中的分析管理員建立的計算度量。
+   元件的類型可依據顏色和圖示加以識別。**維度**![維度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Data_18_N.svg)是橙色的，**區段**![區段圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)是藍色的，**日期範圍**![日期範圍圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calendar_18_N.svg)是紫色的，而&#x200B;**量度**![量度圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Event_18_N.svg)是綠色的。Adobe 圖示代表計算量度範本或區段範本，計算機圖示![計算機圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Calculator_18_N.svg)則代表由貴組織中的 Analytics 管理員所建立的計算量度。
 
 {{dd-filter-criteria}}
 
-1. （可選）選擇 **排序** 表徵圖 ![「排序元件」表徵圖](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選擇下列任何篩選器選項對元件清單進行排序：
+1. (可選) 選取「**排序**」圖示 ![排序元件圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_SortOrderDown_18_N.svg)，然後選取以下任一篩選器選項以將元件清單排序：
 
    {{components-sort-options}}
 
