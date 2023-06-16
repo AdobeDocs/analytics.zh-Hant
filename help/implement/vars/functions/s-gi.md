@@ -4,9 +4,9 @@ description: 建立及追蹤 AppMeasurement 的例項。
 feature: Variables
 exl-id: f87eff07-7e60-480b-8334-3db538c1030e
 source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '494'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -14,18 +14,18 @@ ht-degree: 73%
 
 `s_gi()` 函數會依據報表套裝 ID 將 AppMeasurement 的例項實例化或尋找例項。AppMeasurement 可追蹤已建立的所有例項，而 `s_gi()` 會傳回報表套裝的現有例項 (若存在)。如果例項不存在，則會建立新例項。
 
-## 使用Web SDK擴充功能實例化追蹤物件
+## 使用 Web SDK 擴充功能實例化追蹤物件
 
-Web SDK擴充功能會為您實例化及管理追蹤物件。 不過，您可以在擴充功能設定中自訂追蹤物件名稱：
+Web SDK 擴充功能會替您將追蹤物件實例化並進行管理。但是，您可以在擴充功能設定中自訂追蹤物件名稱：
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕。
-1. 變更 [!UICONTROL 名稱] 欄位至所需值。 其預設值為 `alloy`。
+1. 前往「[!UICONTROL 擴充功能]」索引標籤，然後按一下 Adobe Experience Platform Web SDK 下的&#x200B;**[!UICONTROL 「設定」]**&#x200B;按鈕。
+1. 將[!UICONTROL 名稱]欄位變更為所需的值。其預設值為 `alloy`。
 
-## 將手動實作Web SDK的追蹤物件實例化
+## 實例化手動實作 Web SDK 的追蹤物件
 
-下列程式碼會載入Web SDK並將追蹤物件實例化。 您可以變更字串來自訂追蹤物件名稱 `"alloy"` 在內嵌指令碼的結尾處找到所需的值。
+以下程式碼會載入 Web SDK 並實例化追蹤物件。將內嵌指令碼尾端的字串 `"alloy"` 變更為所需的值，即可自訂追蹤物件名稱。
 
 ```js
 <script>
@@ -37,9 +37,9 @@ Web SDK擴充功能會為您實例化及管理追蹤物件。 不過，您可以
 <script src="https://cdn1.adoberesources.net/alloy/2.6.4/alloy.min.js" async></script>
 ```
 
-請參閱 [安裝SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant) 如需詳細資訊，請參閱網頁SDK檔案。
+如需詳細資訊，請參閱 Web SDK 文件中的[安裝 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant)。
 
-## 使用Adobe Analytics擴充功能實例化追蹤物件
+## 使用 Adobe Analytics 擴充功能實例化追蹤物件
 
 Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過，在設定 Adobe Analytics 擴充功能時，您也可以在[!UICONTROL 「資料庫管理」]摺疊式功能表中設定全域追蹤物件。
 
@@ -50,7 +50,7 @@ Analytics 擴充功能會替您將追蹤物件實例化或進行管理。不過�
 
 全域變數文字欄位可讓您設定自訂追蹤物件。其預設值為 `s`。
 
-## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s_gi()
+## AppMeasurement 和 Analytics 擴充功能自訂程式碼編輯器中的 s_gi()
 
 呼叫 `s_gi()` 函數將追蹤物件實例化。其唯一引數包含以逗號分隔的報表套裝 ID 字串。報表套裝 ID 引數為必要項目。
 
