@@ -5,7 +5,7 @@ feature: Components
 role: User, Admin
 exl-id: ecc62287-dc20-41b3-9430-f14ea9fc05e6
 source-git-commit: 8b10464e8950a9afd647f6d8e08dd75ebdecb46e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '532'
 ht-degree: 100%
 
@@ -49,9 +49,9 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 直接在 Analysis Workspace 中更新元件說明。對資料字典中元件說明所做的任何更新都會反映在報告套裝中。
 
-   同樣地，對報告套件中元件說明所做的任何更新都會反映在 Analysis Workspace 中。
+  同樣地，對報告套件中元件說明所做的任何更新都會反映在 Analysis Workspace 中。
 
-   如需有關在 Analysis Workspace 或報告套件中新增元件說明的更多資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
+  如需有關在 Analysis Workspace 或報告套件中新增元件說明的更多資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
 
 ## 存取資料字典
 
@@ -59,12 +59,12 @@ Analytics 管理員負責整理關於資料字典中每個元件的資訊，並�
 
 * 從左邊欄的&#x200B;**資料字典**&#x200B;圖示。
 
-   ![左邊欄的資料字典圖示](assets/data-dictionary-access-icon.png)
+  ![左邊欄的資料字典圖示](assets/data-dictionary-access-icon.png)
 
 * 從元件資訊彈出視窗內的&#x200B;**資料字典**&#x200B;圖示。
 
-   ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
-   <!--update screenshot; this was taken from a mock-->
+  ![資訊彈出視窗中的資料字典圖示](assets/data-dictionary-access-infopopover.png)
+  <!--update screenshot; this was taken from a mock-->
 
 * 從選單：[!UICONTROL **說明**] > [!UICONTROL **資料字典**]。
 
@@ -84,12 +84,12 @@ Analytics 管理員負責為其組織維護健康的資料字典，如[監視資
 
 * 將其拖動到 Analysis Workspace 中的任何區域
 
-   如果您關閉並重新打開 Analysis Workspace，資料字典視窗將留在您上次移動的位置。<!--True?-->
+  如果您關閉並重新打開 Analysis Workspace，資料字典視窗將留在您上次移動的位置。<!--True?-->
 
 * 最小化
 
-   最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
+  最小化時，資料字典在 Analysis Workspace 的右下角顯示為藍色標籤。
 
-   當您選取藍色標籤時，資料字典將打開您最近檢視的元件。
+  當您選取藍色標籤時，資料字典將打開您最近檢視的元件。
 
 * 關閉
