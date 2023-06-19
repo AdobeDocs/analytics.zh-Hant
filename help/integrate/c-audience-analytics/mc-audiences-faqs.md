@@ -4,10 +4,10 @@ solution: Experience Cloud
 title: Audience Analytics 的常見問題集
 feature: Audience Analytics
 exl-id: 86e7967c-030c-44d6-8294-e7e6d41f6fc3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 100%
+source-wordcount: '1126'
+ht-degree: 76%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-## AAM 專屬常見問答 {#section_6BDF746BA6464359A6A89A64EB025D12}
+## Adobe Audience Manager專屬常見問題集 {#section_6BDF746BA6464359A6A89A64EB025D12}
 
 <table id="table_15B44592161240BDA79F3B020EA9CC9D"> 
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問：如何在 Audience Manager 中建立 Analytics 目的地？</b> </p> </td> 
-   <td colname="col2"> 請參閱<a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  >在 AAM 中設定 Analytics 目標</a>。 </td> 
+   <td colname="col2"> 另請參閱 <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html"  > 在Adobe Audience Manager中設定Analytics目的地 </a>. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：建立並儲存 Analytics 目的地後，需要多久才會在我選取的表套裝中顯示資料？</b> </p> </td> 
@@ -58,7 +58,7 @@ ht-degree: 100%
    <td colname="col2"> <p>當您在<span class="uicontrol">「區段對應」</span>中選取<span class="uicontrol">「自動對應所有目前和未來的區段」</span>選項時，Analytics 目標會從區段的「目的地對應」區段消失。 </p> <p><img placement="break" align="left"  src="assets/auto-mapping.png" id="image_670ED5A306784FCBA8A0B336AC1F0FC6" width="300px" /> </p> <p>要防止此情況，請選取<span class="uicontrol">「手動對應區段」</span>來取代自動選項。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <b>問：此功能可否在 Analytics 提供來自 AAM 的所有資訊？</b> </p> </td> 
+   <td colname="col1"> <p> <b>問：Analytics是否會為我提供Adobe Audience Manager的所有資訊？</b> </p> </td> 
    <td colname="col2"> <p>否，只限在啟用 Audience Manager 對象期間或之後以及在符合區段資格期間或之後造訪您網站之使用者的相關資料。 </p> </td> 
   </tr> 
   <tr> 
@@ -90,27 +90,27 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為何在 Analytics 中看不到資料流入？</b> </p> </td> 
-   <td colname="col2"> <p>您的資料來源和目的地之間很可能存在 AAM 隱私控制衝突。 </p> </td> 
+   <td colname="col2"> <p>資料來源和目的地之間的Adobe Audience Manager隱私權控制可能存在衝突。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：即使我已選擇傳送所有區段，為何在 Analytics 中仍會遺失部分區段？</b> </p> </td> 
    <td colname="col2"> 
     <ul id="ul_B8938FD08C6F4F2387EDADDEF8089319"> 
-     <li id="li_50A9BDF612304062913370F16BC882EF">目的地和區段資料來源中的 AAM 資料匯出控制可能有衝突，使得某個區段無法傳送。 </li> 
+     <li id="li_50A9BDF612304062913370F16BC882EF">目的地和區段資料來源中的Adobe Audience Manager資料匯出控制可能有衝突，導致某些區段無法傳送。 </li> 
      <li id="li_AF5D6F883D6F4D3192E0BF23CF12ADEA">若您在區段中使用了協力廠商資料特徵，則這些區段無法與包含個人資料的目的地 (一組報表套裝) 共用。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為何 Analytics 報表中會顯示「已達對象上限」？(注意：這也會在 Data Warehouse 中呈現為「Audience ID = -1」和「::max_audiences_exceeded::」)</b> </p> </td> 
-   <td colname="col2"> <p>依預設，AAM 的 Audience Analytics 整合會將訪客符合條件的所有區段，按每次點擊傳送到 Analytics。如果某位訪客在一次點擊中所屬的 AAM 區段超過 150 個，則最新的 <b>150 個合格區段</b>會傳送到 Analytics，而其餘的清單會被截斷。 </p> <p>系統會傳送額外標幟給 Analytics，表示區段清單已遭截斷，並在「對象名稱」維度中顯示為「已達對象上限」，在「對象 ID」維度中則會顯示「-1」。 </p> <p>雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果報表中出現「已達對象上限」，您有兩種因應方式： </p> 
+   <td colname="col2"> <p>根據預設，Adobe Audience Manager的Audience Analytics整合會將訪客符合資格的所有區段按每次點選傳送至Analytics。 如果訪客在一次點選中屬於超過150個Adobe Audience Manager區段， <b>150個最近符合資格的區段</b> 會傳送至Analytics，而其餘清單則會遭截斷。 </p> <p>系統會傳送額外標幟給 Analytics，表示區段清單已遭截斷，並在「對象名稱」維度中顯示為「已達對象上限」，在「對象 ID」維度中則會顯示「-1」。 </p> <p>雖然訪客不太可能在特定的點擊中符合超過 150 個區段，但偶然情況下也可能會發生。如果報表中出現「已達對象上限」，您有兩種因應方式： </p> 
     <ul id="ul_8E290B2E32DC49738F6FD00CB0CE2BBB"> 
      <li id="li_12F498981EA949B5BCBD40ECC954C339"><b>選項 1</b>：繼續讓整合工作以立即可用狀態作業，對特定訪客傳送最新的 150 個合格區段。 </li> 
-     <li id="li_CA4D5747AA4A4452929097807B604959"><b>選項 2</b>：在 AAM 中，選擇對您業務而言最重要的 150 個區段進行整合。AAM 隨即根據這 150 個區段檢查訪客。此方法的缺點是，在所有訪客中，您僅能收到這 150 個區段。換句話說，由於整合的按點擊性質，「選項 1」方法可以提供無限區段。 </li> 
+     <li id="li_CA4D5747AA4A4452929097807B604959"><b>選項2</b>：在Adobe Audience Manager中，選擇對您業務而言最重要的150個區段進行整合。 Adobe Audience Manager接著只會針對這150個區段檢查訪客。 此方法的缺點是，在所有訪客中，您僅能收到這 150 個區段。換句話說，由於整合的按點擊性質，「選項 1」方法可以提供無限區段。 </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為了進行整合，Analytics 是否需要為額外的伺服器呼叫付費？</b> </p> </td> 
-   <td colname="col2"> <p>否。 AAM Audiences 已納入 Analytics 點擊伺服器端。這不會導致 Analytics (主要或次要) 的額外伺服器呼叫。 </p> </td> 
+   <td colname="col2"> <p>否。 Adobe Audience Manager受眾會整合至Analytics點選伺服器端。 這不會導致 Analytics (主要或次要) 的額外伺服器呼叫。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p><b>問：如果我已實施作業舊式 SSF，我是否還需要前往 Analytics「管理控制台」並開啟報表套裝 SSF？</b> </p> </td> 
-   <td colname="col2"> <p>是。在 AAM 目的地設定中，您只會看見已開啟 SSF 的報表套裝。 </p> </td> 
+   <td colname="col2"> <p>是。在Adobe Audience Manager目的地設定中，您只會看到已開啟SSF的報表套裝。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：為何我無法在 Analytics「管理控制台」中開啟某些報表套裝的 SSF？</b> </p> </td> 
@@ -141,12 +141,12 @@ ht-degree: 100%
    <td colname="col2"> <p>請參閱<a href="/help/integrate/c-audience-analytics/visitor-count-reconciliation.md"  >訪客計數差異</a>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問：AAM 中的「對象」與 Analytics 中的「區段」有何不同？</b> </p> </td> 
-   <td colname="col2"> <p>請參閱<a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  >了解 Analytics 和 Audience Manager 中的區段</a>。 </p> <p>AAM 對象會傳送出去並以「維度」元件形式共用，以供 Analytics 使用。例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
+   <td colname="col1"> <p><b>問：Adobe Audience Manager中的「對象」與Analytics中的「區段」有何不同？</b> </p> </td> 
+   <td colname="col2"> <p>請參閱<a href="/help/integrate/c-audience-analytics/aam-analytics-segments.md"  >了解 Analytics 和 Audience Manager 中的區段</a>。 </p> <p>Adobe Audience Manager對象會傳送並共用為「維度」元件，以用於Analytics。 例如，它們不會在「區段產生器」中以區段顯示，而是可以用來建立區段的維度。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p><b>問：從 AAM 整合的「客戶屬性」和客戶資料有何不同？</b> </p> </td> 
-   <td colname="col2"> <p>「客戶屬性」不是以時間為基礎；可回溯和往前套用。AAM 整合的資料則是以時間為基礎並僅可往前。此外，「客戶屬性」是 Experience Cloud 訪客 ID 的查找表格，而 AAM 整合是拼接到訪客每個點擊中的資料。 </p> </td> 
+   <td colname="col1"> <p><b>問：從Adobe Audience Manager整合的「客戶屬性」和客戶資料有何不同？</b> </p> </td> 
+   <td colname="col2"> <p>「客戶屬性」不是以時間為基礎；可回溯和往前套用。Adobe Audience Manager整合資料以時間為基礎，僅具前瞻性。 此外，客戶屬性是Experience Cloud訪客ID的查閱表格，而Adobe Audience Manager整合則是將資料彙整至訪客的每次點選。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p><b>問：有何針對此問題的舊版方法，例如舊的測試版或「諮詢」外掛程式 Cookie 目的地？</b> </p> </td> 

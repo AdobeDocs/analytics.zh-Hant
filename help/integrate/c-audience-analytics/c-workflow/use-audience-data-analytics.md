@@ -1,23 +1,23 @@
 ---
-description: 您可以在整個 Analytics 中使用 AAM「對象」維度。整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。這些維度目前在 Data Workbench 或直播串流中均不可用。可以利用 Audiences 維度的部分例子包括
+description: 您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。這些維度目前在 Data Workbench 或直播串流中均不可用。可以利用 Audiences 維度的部分例子包括
 solution: Experience Cloud
 title: 在 Analytics 中使用對象資料
 feature: Audience Analytics
 exl-id: c1c0a9de-4051-4073-82c1-5615b0f01fa9
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 90%
 
 ---
 
 # 在 Analytics 中使用對象資料
 
-您可以在整個 Analytics 中使用 AAM「對象」維度。整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。這些維度目前在 Data Workbench 或直播串流中均不可用。可以利用 Audiences 維度的部分例子包括：
+您可以在整個Analytics中使用Adobe Audience Manager對象維度。 整合的區段即是稱為「適用對象 ID」和「對象名稱」的新 Analytics 維度，且使用方式與 Analytics 收集的任何其他維度一樣。「資料摘要」中，「對象 ID」會儲存於「mc_audiences」欄。這些維度目前在 Data Workbench 或直播串流中均不可用。可以利用 Audiences 維度的部分例子包括：
 
 ## Analysis Workspace {#section_C70837499BEA4DED885B3486C9E02C68}
 
-在 Analysis Workspace 中，AAM 區段會顯示為兩個維度。
+在Analysis Workspace中，Adobe Audience Manager區段會顯示為兩個維度。
 
 1. 前往 **[!UICONTROL Workspace]**。
 1. 從&#x200B;**[!UICONTROL 「維度」]**&#x200B;清單中，選取&#x200B;**[!UICONTROL 「對象 ID」]**&#x200B;或&#x200B;**[!UICONTROL 「對象名稱」]**。名稱為易記的 ID 分類方式。
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## Analysis Workspace 中的客戶歷程 (流程) {#section_FC30E5795C9D4539838E30FE11FAEA6E}
 
-AAM 區段資料是以逐次點擊的方式傳入 Analytics，並會在該時間點即時表示訪客的對象成員資格。也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
+Adobe Audience Manager區段資料會逐次傳遞至Analytics，並及時表示訪客的對象成員資格。 也就是說，訪客可能會先歸入某個區段 (例如「察覺」)，之後再歸類到更符合的區段 (例如「考慮」)。您可以使用 Analysis Workspace 中的[「流量」](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/fallout/fallout-flow.html?lang=zh-Hant)，以視覺化的方式呈現訪客在對象之間所採取的歷程。
 
 1. 前往 **[!UICONTROL Workspace]**，然後從左欄選取&#x200B;**[!UICONTROL 「流量」]**&#x200B;視覺效果。
 

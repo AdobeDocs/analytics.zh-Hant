@@ -4,9 +4,9 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: a4af84fffad816ea94b170de0f5d8cbc7dc61a50
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '3954'
 ht-degree: 99%
 
 ---
@@ -29,7 +29,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | **[!UICONTROL Report &amp; Analytics]** 報表的新連結 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人頁面]**<li>**[!UICONTROL 報表]** > **[!UICONTROL 參與度]** > **[!UICONTROL 即時]**</li></ul> | ![新連結](assets/report-links.png) |
 | 全新現成可用的報表 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 參與杜]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>注意，這些報表為[!UICONTROL 工作區]格式，並需要設定和建置。輸出由高層級量度的面板、趨勢資料、[!UICONTROL 流量]視覺化等組成。您可修改這些報表並變更維度、維度項目等。這些報表也能在工作區面板下以面板的方式提供。 | ![下一頁](assets/next-page.png) |
 | **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
-| 在 Customer Journey Analytics 中也可取得 | 這個修改形式的登陸頁面也能在 CJA 中取得。 |  |
+| 在 Customer Journey Analytics 中也可取得 | Customer Journey Analytics也提供此修改形式的登陸頁面。 |  |
 
 {style="table-layout:auto"}
 
@@ -200,7 +200,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 顯示和管理公司報表
 
 1. 在篩選欄中，選取「**其他篩選器**」，然後選取「**公司報表**」。
-顯示公司報表清單。 所有常規項目（除非已固定）均不顯示。
+顯示公司報表清單。 除非已釘選，否則不會顯示所有一般專案。
 
    ![顯示公司報表篩選器](assets/company-reports-filter.png)
 

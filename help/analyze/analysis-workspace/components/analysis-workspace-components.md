@@ -4,8 +4,8 @@ title: 元件概觀
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: c64b4199d93443b14e2012459a4d33fdd847eca1
-workflow-type: ht
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
    | [!UICONTROL **我的最愛**] | 僅顯示「我的最愛」清單中的元件。有關將元件新增到「我的最愛」清單的資訊，請參閱[元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)。 |
    | [!UICONTROL **維度**] | 僅顯示維度的元件。 |
    | [!UICONTROL **量度**] | 僅顯示量度的元件。 |
-   | [!UICONTROL **區段**] | 僅顯示區段的元件。<!--this is Filters in CJA--> |
+   | [!UICONTROL **區段**] | 僅顯示區段的元件。<!--this is Filters in Customer Jourey Analytics--> |
    | [!UICONTROL **日期範圍**] | 僅顯示日期範圍的元件。 |
    | [!UICONTROL **全部顯示**] | 顯示所有元件。此選項僅提供給管理員使用。 |
    | [!UICONTROL **未經核准**] | 僅顯示尚未由管理員標記為「已核准」的元件。作為管理員，這有助於確定需要您檢閱和核准的元件。此選項僅提供給管理員使用。 |

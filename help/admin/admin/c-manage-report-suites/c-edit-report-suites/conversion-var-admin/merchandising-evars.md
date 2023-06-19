@@ -3,10 +3,10 @@ title: 銷售 eVar 和產品尋找方法
 description: 深入了解銷售 eVar 背後的概念，以及這些方法如何處理和分配資料。
 feature: Admin Tools
 exl-id: 9e1a39aa-451f-49bb-8e39-797b6bbd5499
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '5289'
-ht-degree: 100%
+source-wordcount: '5297'
+ht-degree: 97%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 * `eVar2` 等於搜尋中所用的關鍵字 (「涼鞋」)
 * `eVar1` 等於使用的產品尋找方法 (「內部關鍵字搜尋」)。
 
-當您將這兩個變數設定為等於這些特定值時，您會知道訪客正在使用內部關鍵字搜尋字詞「涼鞋」來尋找產品。 同時，您也會知道訪客未使用其他產品尋找方法來尋找產品 (例如，訪客不會在執行關鍵字搜尋的同時也在瀏覽產品類別)。 為了確保能夠依產品適當地分配，這些未使用的方法不應該因為透過內部關鍵字搜尋找到產品而獲得點數。 因此，您必須在程式碼 (例如 AppMeasurement、AEP Web SDK 等) 中插入邏輯，以便自動將與其他這些尋找方法有關的 eVar 設定為等於「非尋找方法」值。
+當您將這兩個變數設定為等於這些特定值時，您會知道訪客正在使用內部關鍵字搜尋字詞「涼鞋」來尋找產品。 同時，您也會知道訪客未使用其他產品尋找方法來尋找產品 (例如，訪客不會在執行關鍵字搜尋的同時也在瀏覽產品類別)。 為了確保能夠依產品適當地分配，這些未使用的方法不應該因為透過內部關鍵字搜尋找到產品而獲得點數。 因此，您必須在程式碼(例如AppMeasurement、Adobe Experience Platform Web SDK等)中插入邏輯，以便自動將與其他這些尋找方法相關聯的eVar設定為等於「非尋找方法」值。
 
 例如，當使用者使用關鍵字「涼鞋」來搜尋產品時，Analytics 的程式碼邏輯應該將此變數設定為等於內部關鍵字搜尋結果頁面上的以下值：
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 
 此選項不適用於標準 eVar。 「[!UICONTROL 銷售]」設定可讓您挑選「[!UICONTROL 轉換變數語法]」或「[!UICONTROL 產品語法]」當做擷取銷售 eVar 值的方法。
 
-「**[!UICONTROL 轉換變數語法]**」代表您會在 eVar 變數中設定 eVar 值。 例如，在使用轉換變數語法時，「內部關鍵字搜尋」的 `eVar1` 值在頁面代碼 (或 AppMeasurement 程式碼、AEP Web SDK 程式碼等) 中的設定如下：
+「**[!UICONTROL 轉換變數語法]**」代表您會在 eVar 變數中設定 eVar 值。 例如，在使用轉換變數語法時， `eVar1` 「內部關鍵字搜尋」的值在頁面代碼(或AppMeasurement代碼、Adobe Experience Platform Web SDK代碼等)中的設定如下：
 
 `s.eVar1="internal keyword search";`
 
@@ -271,11 +271,11 @@ s.products=";sandal123;;;;eVar4=womens > shoes > sandals|eVar1=browse|eVar3=non-
 
 ### 使用轉換變數語法
 
-讓我們回到「產品語法」與「轉換變數語法」相較之下的問題。 Adobe 發現了一種更簡單的方法，既可以收集產品尋找方法銷售 eVar，也可以將其值與訪客找到的產品綁定：使用轉換變數語法可減少用戶端開發人員負責的實作工作。 這種方法還是會提供與產品語法方法相同或甚至更好的資訊。 開發人員只需要依照提供給他們的部署指示進行，其餘程式碼可以放進 Adobe AppMeasurement/AEP Web SDK 檔案中。
+讓我們回到「產品語法」與「轉換變數語法」相較之下的問題。 Adobe 發現了一種更簡單的方法，既可以收集產品尋找方法銷售 eVar，也可以將其值與訪客找到的產品綁定：使用轉換變數語法可減少用戶端開發人員負責的實作工作。 這種方法還是會提供與產品語法方法相同或甚至更好的資訊。 開發人員只需要依照提供給他們的部署指示進行，其餘程式碼可以放入Adobe AppMeasurement/Adobe Experience Platform Web SDK檔案中。
 
 例如，讓我們來看一下建議用來追蹤內部關鍵字搜尋效能的解決方法。 它在關鍵字搜尋結果頁面上指示，程式碼會擷取透過 prop (例如 prop4) 和另一個 prop (例如 prop5) 搜尋的關鍵字。 這些 prop 會追蹤搜尋頁面中顯示的結果數量。 每當在搜尋結果頁面上產生 Adobe Analytics 影像要求時，它都會使用開發人員部署的資料層物件 (或頁面代碼) 來填寫上述變數 (prop)。
 
-可以將 AppMeasurement/AEP Web SDK 檔案中包含的其他邏輯填入需要同時設定的其餘變數 (銷售 eVar/維度) 中。\
+AppMeasurement/Adobe Experience Platform Web SDK檔案中包含的其他邏輯可填入需要同時設定的其餘變數（銷售eVar/維度）。\
 例如，如果有新訪客執行「涼鞋」的關鍵字搜尋，並在搜尋結果頁面上傳回 25 項結果，則要引發的程式碼 (透過頁面代碼或資料層擷取) 會如下所示：
 
 ```js

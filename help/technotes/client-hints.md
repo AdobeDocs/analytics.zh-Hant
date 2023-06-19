@@ -2,10 +2,10 @@
 title: 用戶端提示
 description: 了解用戶端提示如何逐漸取代使用者代理程式成為裝置資訊的來源。
 exl-id: e0a74daa-12a2-4999-9920-2636b061dcc8
-source-git-commit: 3b1777d48d4661a558b5be2cb09b822bf349ee76
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 95%
+source-wordcount: '1295'
+ht-degree: 87%
 
 ---
 
@@ -23,13 +23,13 @@ Google 將使用者代理程式用戶端提示分為兩種類別：低平均資�
 
 從 2022 年 10 月開始，新版本的 Chromium 瀏覽器已開始「凍結」使用者代理字串中表示的作業系統版本。作業系統版本是一種高平均資訊量提示，因此為了在您的報告中維持作業系統版本的準確性，有必要設定您的收藏集資料庫來收集這些高平均資訊量提示。一段時間後，使用者代理程式的裝置資訊將被凍結，需要用戶端提示來維持裝置報告的準確性。
 
-自2023年2月27日起並於2023年3月2日結束的Analytics裝置查詢程式將納入用戶端提示。 AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 2 日中旬之前不會用於裝置查詢。 如下所述，作業系統版本已於 10 月凍結，但由於是逐步推出和許多使用者代理已提供凍結的作業系統版本 (詳閱[這裡](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響不到 3% 的 Chrome 訪客。
+從2023年2月27日開始，使用者端提示將納入Analytics裝置查詢流程，並在2023年3月2日結束。 AppMeasurement 和 Web SDK 目前都支援收集提示資料，但在 2 日中旬之前不會用於裝置查詢。 如下所述，作業系統版本已於 10 月凍結，但由於是逐步推出和許多使用者代理已提供凍結的作業系統版本 (詳閱[這裡](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant))，我們估計這將影響不到 3% 的 Chrome 訪客。
 
 >[!NOTE]
 >
 > 截至 2023 年 1 月，部分版本的 Mac 和 Windows 作業系統在使用者代理中顯示不正確，但在高平均資訊量用戶端提示中顯示正確。 如需詳細資訊，請參閱[作業系統](https://experienceleague.adobe.com/docs/analytics/components/dimensions/operating-systems.html?lang=zh-Hant)。
 
-AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是[伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您使用 [伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant) 那麼您可能想要啟用高平均資訊量提示的收集。
 
 ## 常見問題
 
@@ -53,7 +53,7 @@ AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用�
 
 目前不可以。您可以選擇收集所有的高平均資訊量提示或不收集。
 
-請注意，fullVersionList目前未收集，因為瀏覽器主要版本是擷取為低熵提示。
+請注意，目前不會收集fullVersionList，因為系統會將瀏覽器主要版本擷取為低平均資訊量提示。
 
 +++
 
@@ -67,13 +67,13 @@ AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用�
 | Sec-CH-UA-Mobile | 行動裝置 (true 或 false) | 低 | `true` |
 | Sec-CH-UA-Platform | 作業系統/平台 | 低 | `"Android"` |
 | 架構 | 網站架構  | 高 | `"arm"` |
-| 沈悶 | 架構位元 | 高 | `"64"` |
+| 位元 | 架構位元 | 高 | `"64"` |
 | fullVersionList | 品牌及其版本的清單 | 高 | `"Not A;Brand";v="99", "Chromium";v="98", "Google Chrome";v="98"` |
 | model | 裝置型號 | 高 | `"Pixel 3"` |
 | platformVersion | 作業系統/平台版本 | 高 | `"10"` |
 
 * 透過請求標頭收集的低平均資訊量提示。
-* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串參數使用 `h.` 作為影像請求中的前置詞。請注意，fullVersionList目前未收集，因為瀏覽器主要版本是擷取為低熵提示。
+* 高平均資訊量提示是透過 JavaScript 收集並透過查詢字串參數值來傳遞。查詢字串參數使用 `h.` 作為影像請求中的前置詞。請注意，目前不會收集fullVersionList，因為系統會將瀏覽器主要版本擷取為低平均資訊量提示。
 
 高平圴資訊量提示是透過 JavaScript 呼叫收集並透過查詢參數來傳遞
 
@@ -143,7 +143,7 @@ Adobe 會使用協力廠商 Device Atlas，該協力廠商將使用用戶端提�
 
 +++
 
-+++**透過 Adobe Source Connector 傳送到 AEP 和 CJA 的資料中是否提供用戶端提示？**
++++**透過Adobe來源聯結器傳送至Adobe Experience Platform和Customer Journey Analytics的資料中是否會提供使用者端提示？**
 
 Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包含用戶端提示。
 
@@ -155,8 +155,8 @@ Adobe 計劃在 2023 年上半年透過 Adobe Source Connector 在資料中包�
 
 +++
 
-+++**AAM 伺服器端轉送是否支援用戶端提示？**
++++**Adobe Audience Manager伺服器端轉送是否支援使用者端提示？**
 
-是。用戶端提示將包含在轉送至 AAM 的資料中。請注意 AAM 需要收集高平均資訊量提示以保留完整功能。如果您使用的是[伺服器端轉送至 AAM](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant)，那麼您可能想要啟用高平均資訊量提示收集功能。
+是。轉送至Adobe Audience Manager的資料將包含使用者端提示。 請注意，Adobe Audience Manager需要收集高平均資訊量提示以保留完整功能。 如果您使用 [伺服器端轉送至Adobe Audience Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=zh-Hant) 那麼您可能想要啟用高平均資訊量提示的收集。
 
 +++

@@ -3,10 +3,10 @@ title: getPageLoadTime
 description: 追蹤頁面載入所需的時間。
 feature: Variables
 exl-id: 9bf0e26b-f1af-48a6-900a-712f7e588d37
-source-git-commit: bbb138d979968ec2536e53ff07001b43156df095
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 88%
+source-wordcount: '586'
+ht-degree: 86%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 88%
 
 ## 使用Web SDK或Web SDK擴充功能安裝外掛程式
 
-Web SDK尚不支援此外掛程式。
+此外掛程式尚不支援在Web SDK中使用。
 
 ## 使用Adobe Analytics擴充功能安裝外掛程式
 
-Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛程式。
+Adobe提供擴充功能，可讓您搭配Adobe Analytics使用最常用的外掛程式。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的標籤屬性。
@@ -40,7 +40,7 @@ Adobe提供的擴充功能可讓您搭配Adobe Analytics使用最常用的外掛
 
 ## 使用自訂程式碼編輯器安裝外掛程式
 
-如果您不想使用常見Analytics外掛程式擴充功能，可以使用自訂程式碼編輯器。
+如果您不想使用常見Analytics外掛程式外掛程式擴充功能，可以使用自訂程式碼編輯器。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 1. 按一下所需的屬性。
@@ -96,7 +96,7 @@ if(window._pltPreviousPage)
 
 ### 3.0 (2022 年 12 月 6 日)
 
-* 全面重寫外掛程式，使其與解決方案無關。 例如，這現在與 AEP Web SDK 相容
+* 全面重寫外掛程式，使其與解決方案無關。 例如，現在與Adobe Experience Platform Web SDK相容
 * 在視窗物件中建立 `_pltPreviousPage` 和 `_pltLoadTime` 變數 (而不是在 AppMeasurement 物件中)
 * 移除對 s_pltp cookie 的需要 - 現在所有內容都只儲存在 s_plt cookie 中
 * 包括 getVersion 函數以幫助進行故障排除

@@ -3,10 +3,10 @@ title: 實施 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: bdd9473b0ac3bd77ffeff53a095876e21ca2f4d4
-workflow-type: ht
-source-wordcount: '900'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '902'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 對於您的&#x200B;**網站**，可以使用以下實施方法：
 
-* **Web SDK 擴充功能**：為新客戶實施 Adobe Analytics 的建議標準化方法。在 Adobe Experience Platform 資料彙集&#x200B;**標記**&#x200B;中安裝 **AEP Web SDK 擴充功能**，在每一頁面上使用 Loader 標記，並以對您組織方便使用的格式傳送資料給 Adobe Experience Platform **Edge Network**。Edge Network 以正確格式轉寄傳入資料給 Adobe Analytics。
+* **Web SDK 擴充功能**：為新客戶實施 Adobe Analytics 的建議標準化方法。安裝 **Adobe Experience Platform Web SDK擴充功能** 在Adobe Experience Platform Data Collection **標籤**，請在每個頁面上使用Loader標籤，並將資料傳送至Adobe Experience Platform **邊緣網路** 使用對貴組織方便使用的格式。 Edge Network 以正確格式轉寄傳入資料給 Adobe Analytics。
   ![Web SDK 擴充功能](./assets/websdk-extension-implementation.png)
 有關詳細資訊，請參閱[使用 Adobe Experience Platform Web SDK 擴充功能實施 Adobe Analytics](./aep-edge/overview.md)。
 

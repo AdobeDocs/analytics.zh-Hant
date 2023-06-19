@@ -3,10 +3,10 @@ description: 由於各種原因，Adobe Analytics 和 Adobe Audience Manager 中
 title: 訪客計數差異
 feature: Audience Analytics
 exl-id: be5a935a-c3a2-4ab4-8cd7-ed54a37932c8
-source-git-commit: 79294cfc6f86e5a41a39504099cd730f53668725
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 86%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > AAM：總區段人口數</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > Adobe Audience Manager：總區段母體</a> </p> </td> 
    <td colname="col3"> <p>回顧期間，屬於區段成員的裝置計數 (Experience Cloud ID)。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > AAM：即時區段人口數</a> </p> </td> 
+   <td colname="col2"> <p><a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/segments/segment-builder-data.html?lang=zh-Hant"  > Adobe Audience Manager：即時區段人口數</a> </p> </td> 
    <td colname="col3"> <p>回顧期間，屬於區段成員且達到所設屬性的裝置計數 (Experience Cloud ID)。 </p> </td> 
   </tr> 
   <tr> 
@@ -43,13 +43,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-Audience Analytics 報表中的 AAM「即時區段人口數」和 Analytics 的「具有 Experience Cloud ID 的訪客數」最為相似。不過近期由於一些因素，兩者之間將會存在著些許差異。貢獻因子包括：
+Adobe Audience Manager即時區段母體與Audience Analytics報表中使用的Experience CloudID為Analytics訪客最相像。 不過近期由於一些因素，兩者之間將會存在著些許差異。貢獻因子包括：
 
 <table id="table_A391B37CC077456F8BB83BAA3C640EF6"> 
  <thead> 
   <tr> 
    <th colname="col1" class="entry"> 因素 </th> 
-   <th colname="col2" class="entry"> AAM：即時區段人口數 </th> 
+   <th colname="col2" class="entry"> Adobe Audience Manager：即時區段人口數 </th> 
    <th colname="col3" class="entry"> Analytics：擁有 Experience Cloud ID 的訪客 </th> 
   </tr>
  </thead>

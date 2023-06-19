@@ -3,10 +3,10 @@ description: 解釋由歐盟 Cookie 合規性法規推動的伺服器端轉送�
 title: GDPR/ePrivacy 法規遵循與伺服器端轉送
 feature: Server-Side Forwarding
 exl-id: 54e43a16-8f15-4ee8-9aa2-579af30be2c9
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 60%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 伺服器端轉送可用於即時將資料從 Adobe Analytics 分享至其他 [!DNL Experience Cloud Solutions] (例如 Audience Manager)。啟用伺服器端轉送功能後，也可在資料收集過程中讓 Analytics 推送資料到其他 Experience Cloud 解決方案，並讓這些解決方案推送資料到 Analytics。
 
-在過去，伺服器端轉送無法區分同意與預先同意的事件/點擊。 自 2018 年 11 月 1 日起，您做為資料控管單位 (Adobe Analytics 客戶)，可選擇將預先同意的資料限制在 Adobe Analytics，並防止其轉送至 AAM。新的實作內容變數可讓您在未收到同意的地方標籤點擊。 設定變數時，可防止這些點擊在收到許可前傳送至 AAM。
+在過去，伺服器端轉送無法區分同意與預先同意的事件/點擊。 自2018年11月1日起，您做為資料控管單位(Adobe Analytics客戶)可選擇將預先許可的資料限制在Adobe Analytics，並防止其轉送至Adobe Audience Manager。 新的實作內容變數可讓您在未收到同意的地方標籤點擊。 變數在設定後，可防止在收到同意前將這些點選傳送至Adobe Audience Manager。
 
-這個新的上下文變數「`cm.ssf=1`」存在於點擊時，系統會標籤該點擊，且不會將其從伺服器端轉送至 AAM。反之，若此字串並未出現在點擊，系統會將該點擊轉送至 AAM。
+當這個新的上下文變數 `cm.ssf=1`，存在於點選中，此點選會遭標籤且不會從伺服器端轉送至Adobe Audience Manager。 反之，如果此字串未出現在點選上，則點選會轉送至Adobe Audience Manager。
 
-伺服器端轉送是雙向的，這代表當其適用於點擊，而系統將該點擊轉送至 AAM 時，Audience Analytics 會從 AAM 接收到該點擊的區段資訊，並將該資訊傳送回 Analytics。如此一來，任何非從 Analytics 伺服器端轉送至 AAM 的點擊，將不會加入 AAM 的 ID 區段清單。因此，將會存在不會從 AAM 取得區段 ID 資訊的流量/點擊子集。
+伺服器端轉送是雙向的，這表示當點選套用至點選，且該點選轉送至Adobe Audience Manager時，Audience Analytics會從Adobe Audience Manager接收該點選的區段資訊，並將其傳回Analytics。 因此，任何非伺服器端轉送自Analytics至Adobe Audience Manager的點選，將無法透過Adobe Audience Manager的區段ID清單擴充。 因此，會有流量/點選的子集合，不會從Adobe Audience Manager取得區段ID資訊。
 
 ## 實作詳細資料 {#section_FFA8B66085BF469FAB5365C944FE38F7}
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 ## 報告 (選用) {#section_6AD4028EC11C4DABA2A34469DDC99E89}
 
-透過 Adobe Analytics 報表，您可以瞭解經過同意而從伺服器端轉送的流量大小，以及未經過同意且未轉送至 AAM 的流量大小。
+您可以使用Adobe Analytics來報告有多少流量是經同意且由伺服器端轉送，以及有多少流量不是經同意且未轉送至Adobe Audience Manager。
 
 若要設定此類型報表，請將新的內容變數，透過處理規則對應至自訂流量變數 (prop)。若要這麼做
 

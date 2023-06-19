@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: d2c291f7db465034ffadc4a2c1caf9639caf2a1d
-workflow-type: ht
-source-wordcount: '2319'
-ht-degree: 100%
+source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+workflow-type: tm+mt
+source-wordcount: '2323'
+ht-degree: 99%
 
 ---
 
@@ -324,7 +324,7 @@ JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
 發行日期：**2015 年 9 月 17 日**
 
 * 納入 Visitor API 1.5.2
-* 更新 [!DNL Audience Manager] 模組以使用 AAM DIL 6.2 - 從 Visitor API.js 取得客戶 ID 並在呼叫給 AAM 時將其傳入。(AN-104978)
+* 已更新 [!DNL Audience Manager] 使用Adobe Audience ManagerDIL6.2的模組 — 從VisitorAPI.js取得客戶ID，並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
 
 ## 1.5 版本
 
