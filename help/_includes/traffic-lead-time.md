@@ -4,7 +4,7 @@ title: 流量增加所需的前置時間
 feature: Traffic Management
 exl-id: fb428f8d-9dff-43a6-a1e8-1a892cbed7ac
 source-git-commit: 55c8337dbeebcc76db367ead15128c095e4d8ce5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '337'
 ht-degree: 100%
 
