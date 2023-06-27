@@ -4,10 +4,10 @@ title: Adobe Analytics 登陸頁面
 role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 06daaf4dcf5a88b7d571de94d72e273d942812bf
 workflow-type: tm+mt
-source-wordcount: '3954'
-ht-degree: 99%
+source-wordcount: '4037'
+ht-degree: 94%
 
 ---
 
@@ -223,13 +223,24 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 ![其他篩選器](assets/delete-fr-create-project-modal.png)
 
 
-## 瀏覽「學習」標籤。 {#navigate-learning}
+## 使用「學習」標籤 {#navigate-learning}
 
-「學習」頁面包含實施影片導覽和教學課程，還含有多個文件連結。
+「學習」頁面包含實作影片導覽、教學課程和檔案連結。
 
-* [!UICONTROL 工作區基礎課程]導覽可讓您直接進入工作區，並逐步了解工作區版面以及在何處尋找/執行最常用的操作。 此導覽也可以直接在工作區中重新啟動，方法是透過面板標題的工具提示快覽視窗進行。
-* 按一下影片/導覽，可新增「**[!UICONTROL 已檢視]**」標籤。此標籤可幫助您透過學習內容追蹤您的進度。您可以按一下此標籤，然後標籤會消失，以防您尚未完成內容。
-* 影片模式的「**[!UICONTROL 了解更多]**」按鈕可帶您進入 Adobe Experience League 文件頁面，其中有關於您剛才觀看影片的更多內容。 **[!UICONTROL 觀看更多影片]**&#x200B;可帶您前往 Analysis Workspace YouTube 完整播放清單。
+使用Adobe Analytics中的「學習」頁面來瞭解Adobe Analytics中的初學者、中繼或進階功能和使用案例。
+
+### 存取學習頁面
+
+1. 在Adobe Analytics中選取 [!UICONTROL **Workspace**] > [!UICONTROL **學習**].
+
+### 學習頁面功能
+
+* **篩選內容：** 左側欄中的「篩選」圖示可讓您依體驗層級（初級、中級或進階）和內容型別（檔案、影片或導覽和教學課程）篩選學習內容。
+* **追蹤進度：** 選取一段內容後， **[!UICONTROL 已檢視]** 標籤隨即顯示。 此標籤可幫助您透過學習內容追蹤您的進度。您可以選取 **[!UICONTROL 已檢視]** 標籤將其從內容片段中移除。
+* **檢視其他內容：** 檢視任何影片時，請選取 **[!UICONTROL 瞭解更多]** 按鈕以檢視Experience League的相關檔案內容。 或者，從「學習」頁面中，選取下列任一選項以檢視其他內容：
+   * **[!UICONTROL 造訪YouTube]：** 檢視完整的Analysis Workspace YouTube播放清單。
+   * [!UICONTROL **造訪Experience League**]：在Experience League上檢視完整的Adobe Analytics檔案。
+* **新使用者的基本知識：** 此 [!UICONTROL 工作區基礎知識] 建議新使用者參閱導覽。 此導覽可讓您直接進入工作區，並逐步瞭解最常見的操作。 此導覽也可以隨時在Workspace中透過面板標題的工具提示快顯視窗重新啟動。
 
 ## 設定您的登陸頁面 {#set-landing}
 
