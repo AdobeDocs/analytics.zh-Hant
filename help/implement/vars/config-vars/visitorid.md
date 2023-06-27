@@ -3,10 +3,10 @@ title: visitorID
 description: 使用自訂訪客 ID。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 91%
+source-wordcount: '263'
+ht-degree: 93%
 
 ---
 
@@ -17,10 +17,6 @@ Adobe 使用數種不同的方法來識別您網站上的訪客。`visitorID` �
 >[!IMPORTANT]
 >
 >Adobe 建議您不要使用此變數。請改用 [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)。
-
-## 使用Web SDK覆寫訪客ID
-
-即將推出!
 
 ## 使用Adobe Analytics擴充功能的訪客ID
 
