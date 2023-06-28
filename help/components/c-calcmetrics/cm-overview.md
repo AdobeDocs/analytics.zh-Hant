@@ -4,7 +4,7 @@ keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 970c18834c1cc7f866b7b0ceec7dc1642c3482ad
+source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -41,10 +41,14 @@ ht-degree: 88%
 * 在 [!UICONTROL Analysis Workspace]、[!UICONTROL Reports &amp; Analytics]、[!UICONTROL Report Builder]、[!UICONTROL 異常偵測]以及[!UICONTROL 貢獻分析]。
 * 無需變更實作，即可建立衍生自報表執行時間的區段量度。 因為這些量度是根據區段，所以可查看其歷史資料。 
 
+  >[!VIDEO](https://video.tv.adobe.com/v/25407/?quality=12&learn=on)
+
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
 * （僅限進階計算量度）量度上的區段。 例如，您可以建立「新訪客」的量度，計算第一次進行工作階段的人員數量。
 
 * （僅限進階計算量度）納入統計函式，以協助您更好地描述資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
+
+  >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
 ## 限制 {#section_CB878B02451541D68A68B508D4DBD19A}
 
