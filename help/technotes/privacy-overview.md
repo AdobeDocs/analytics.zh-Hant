@@ -4,9 +4,9 @@ keywords: 隱私權
 title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '753'
 ht-degree: 96%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics 收集下列資料：
 | 消費者購買的項目 | 是 |
 | 留在購物車中的項目 | 是 |
 | 社交網站資訊 (包括相片、使用者 ID、年齡、性別、位置) | **否** |
-| 使用者在我們服務以外提供的個人資訊 | 是 |
 | 廣告行銷活動成功率 | 是 |
 | 產品資訊，如顏色、價格、樣式、相片 | 是 |
 
@@ -69,8 +68,8 @@ Adobe Analytics 收集下列資料：
 
 ## EMEA資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
 
-下列EMEA資料中心目前托管Adobe Analytics資料：
+下列EMEA資料中心目前代管Adobe Analytics資料：
 
 | Adobe 名稱 | 地址 | 設施類型 (操作者) | 支援的解決方案元件 | 認證 |
 |--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility(Gyron) | 多頻道分析、數位分析 | SSAE 16 |
+| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility (Gyron) | 多頻道分析、數位分析 | SSAE 16 |
