@@ -2,7 +2,8 @@
 title: 追蹤不同的實施類型
 description: 使用不同的實施類型，順暢地在不同的實施間追蹤訪客。
 exl-id: 18aa5595-d2a7-4df2-a4ef-a5040c097483
-source-git-commit: 90914569256cf891cb3cf693843e7cf9ede2f4ce
+feature: Implementation Basics
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%

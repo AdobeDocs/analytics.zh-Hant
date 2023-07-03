@@ -2,7 +2,8 @@
 title: 匯入付費搜尋量度
 description: 設定 Adobe Analytics 使用資料來源追蹤您的付費搜尋量度 (例如 Google AdWords、MSN、Yahoo 等) 的步驟。
 exl-id: b25a2a26-d277-4a51-9194-973acb425095
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+feature: Data Sources
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 100%

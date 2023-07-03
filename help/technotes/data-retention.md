@@ -1,9 +1,9 @@
 ---
 title: 資料保留原則
 description: 資料保留原則可決定 Adobe 儲存您資料的時間長度。
-feature: Privacy
 exl-id: f3bb02d2-380d-4eb7-8449-e0318fc8c0a6
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+feature: Data Governance, Privacy
+source-git-commit: 065126757513df3503a5bbb34ceafe1b569ec51a
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 91%
@@ -20,7 +20,7 @@ Adobe Analytics 所收集的資料會保留指定的一段時間。Adobe 保留�
 
 ## 調整預設資料保留期
 
-如果您想要縮短或延長預設資料保留期，請聯絡您的Adobe帳戶團隊。
+如果您想要縮短或延長預設資料保留期，請聯絡您的Adobe客戶團隊。
 
 * 縮短預設資料保留期無需費用。
 * 若將資料保留期延長超過 25 個月的預設保留期，則需購買延長期限，長度以一年為單位。最多可購買 8 次延長期限，總共為 10 年 1 個月 (預設保留期為 2 年 1 個月，加上另外購買的 8 年)。
@@ -49,9 +49,9 @@ Adobe 身為資料處理者，必須採取適當措施來協助客戶完成存�
 
 **我可以在資料刪除前索取資料複本嗎？**
 
-是。Adobe 可提供原始點擊層級資料的歷史資料傾印。如需詳細資訊，請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。如果您的資料匯出需求超出UI可提供的範圍，請連絡您的Adobe帳戶團隊。 可提供特殊專用空間；費用可能有所不同。
+是。Adobe 可提供原始點擊層級資料的歷史資料傾印。如需詳細資訊，請參閱匯出使用手冊中的[資料摘要](/help/export/analytics-data-feed/data-feed-overview.md)。如果您的資料匯出需求超出UI可提供的範圍，請聯絡您的Adobe客戶團隊。 可提供特殊專用空間；費用可能有所不同。
 
 **Adobe 何時會刪除資料？**
 
-請連絡您的Adobe帳戶團隊，了解排程刪除資料的特定時間。 通常會刪除過去一個月的資料。
+請聯絡您的Adobe客戶團隊，瞭解排程刪除您資料的特定時間。 通常會刪除過去一個月的資料。
 

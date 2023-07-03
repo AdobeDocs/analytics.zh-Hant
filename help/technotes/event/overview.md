@@ -2,7 +2,8 @@
 title: 分析受事件影響的資料
 description: 了解受事件影響的資料對整體資料品質的貢獻。
 exl-id: 8d81a432-42d6-4f5d-b66a-bb3af7fc4857
-source-git-commit: 549258b0168733c7b0e28cb8b9125e68dffd5df7
+feature: Event
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%

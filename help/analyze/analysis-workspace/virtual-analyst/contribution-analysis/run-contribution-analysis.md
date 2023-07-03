@@ -3,7 +3,8 @@ description: 在 Workspace 專案中執行貢獻分析報表。
 title: 執行貢獻分析
 role: User, Admin
 exl-id: 20d1ba8d-3e4e-4702-ae28-5eb6bf00847b
-source-git-commit: 9b50e77b3998753d45a25799dbed6094b048c118
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 100%
@@ -20,15 +21,15 @@ ht-degree: 100%
 
 * 在設有每日詳細程度的自由表格中，以滑鼠右鍵按一下任一列並選取&#x200B;**[!UICONTROL 「執行貢獻分析」]**。您甚至可以在未顯示異常的列上執行貢獻分析。
 
-   >[!NOTE]
-   >
-   >我們目前僅支援設有每日詳細程度的貢獻分析。
+  >[!NOTE]
+  >
+  >我們目前僅支援設有每日詳細程度的貢獻分析。
 
-   ![](assets/run_ca.png)
+  ![](assets/run_ca.png)
 
 * 在折線圖中，將滑鼠移至折線圖中異常資料點的上方。按一下出現的「**[!UICONTROL 分析]**」連結。
 
-   ![](assets/contribution-analysis.png)
+  ![](assets/contribution-analysis.png)
 
 1. (選擇性) 在線性圖或表格中按一下&#x200B;**[!UICONTROL 「執行貢獻分析」]**&#x200B;後，您可藉由[排除維度](#section_F6932F4BF74544B5872164E7B1E0C6FC)來縮小分析範圍 (並加快分析速度)。
 
@@ -41,7 +42,7 @@ ht-degree: 100%
 
    * 「[產生的區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-build.html?lang=zh-Hant)」(排名最前的項目叢集) 表格會根據「貢獻積分」、異常發生次數以及對異常量度的貢獻整體百分比來識別關聯。接著系統將此擷取為對象區段 (貢獻區段 1、貢獻區段 2 等)。按一下「i」(資訊) 按鈕可讓您檢視每個自動區段的定義，包括組成其的排名最前的項目：
 
-      ![](assets/auto_segment.png)
+     ![](assets/auto_segment.png)
 
 1. 由於貢獻分析現在是 Analysis Workspace 的一部分，因此您可以從表格的右鍵選單運用它的多個功能，讓您的分析結果更具意義，例如：
 

@@ -3,7 +3,8 @@ description: 「貢獻分析」是密集型機器學習程序，專門設計來�
 title: 貢獻分析中所使用的統計技術
 role: User, Admin
 exl-id: 1e19b154-c6d2-48fe-9baf-db4e47789321
-source-git-commit: 865b19f5e541691eabaa81d4533a64c79501fd19
+feature: Anomaly Detection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 100%

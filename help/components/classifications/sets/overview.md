@@ -2,7 +2,8 @@
 title: 分類設定概觀
 description: 使用分類設定來管理分類資料。
 exl-id: a139b298-1188-42ce-b52f-c71e0ff7c4e3
-source-git-commit: 05243d37d252274d88650566de049327ff2bd439
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 26%

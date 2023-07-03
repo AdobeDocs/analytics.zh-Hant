@@ -1,7 +1,9 @@
 ---
 title: 分類設定結構描述
 description: 檢視和編輯個別分類設定的結構描述。
-source-git-commit: d0e3b28590b24d630a192ee857a7d84c115dc8c1
+exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 46%

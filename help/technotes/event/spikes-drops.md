@@ -2,7 +2,8 @@
 title: 疑難排解資料中的尖峰和下降
 description: 了解可在趨勢報表中看到大幅增加或減少的可能原因。
 exl-id: 1a91f95e-818f-423d-9247-e0bb96bd0018
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+feature: Event, Data Configuration and Collection
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 100%

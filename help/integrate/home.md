@@ -2,7 +2,8 @@
 title: Analytics 整合
 description: 了解如何將其他位置的資料整合到 Adobe Analytics 中。
 exl-id: 89debfb1-347b-4f0a-9f3a-4a82df51c8de
-source-git-commit: dd94330c660aee8c588b00f7d63e6879003cb958
+feature: Audience Analytics, Advertising Analytics, Campaign Integration, AEM Assets Reporting, Activity Map
+source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
@@ -18,7 +19,8 @@ ht-degree: 100%
 * **Audience Analytics：**&#x200B;整合 Adobe Audience Manager 與 Adobe Analytics。
 * **Advertising Analytics：**&#x200B;並排顯示付費搜尋資料與 Adobe Analytics 資料。
 * **Analytics for Advertising Cloud DSP：**&#x200B;整合 Adobe Analytics 和 Adobe Advertising Cloud，以擴充和增強每個產品的功能。 以下是影片概觀：
-   >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
+
+  >[!VIDEO](https://video.tv.adobe.com/v/27237/?quality=12)
 * **Analytics for Target：** A4T 整合了 Adobe Analytics 和 Adobe Target。
 * **Adobe Campaign 報告：**&#x200B;整合 Adobe Analytics 與 Adobe Campaign。
 * **AEM Assets 報告：**&#x200B;可讓您收集 Adobe Experience Manager 所提供資產的曝光次數與點擊次數。

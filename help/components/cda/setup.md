@@ -2,7 +2,8 @@
 title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
-source-git-commit: f7106ca52447988c90a3ccac6a1e1cc7514f1fc9
+feature: CDA
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 97%
@@ -23,7 +24,7 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 * 您的 Adobe Experience Cloud 組織 ID (以 @AdobeOrg 結尾的英數字串)
 * 您要透過 CDA 啟用跨裝置報表套裝的報表套裝 ID
-* 您要使用哪種CDA方法(依欄位匯整或Adobe裝置圖表)
+* 您要使用哪種CDA方法(依欄位彙整或Adobe裝置圖表)
 * 如果使用依欄位拚接，則需使用包含使用者 ID 的 prop/eVar
 * 您的重播頻率和回顧時間長度偏好設定。包括每週重播一次且回顧期間為 7 天，或每天重播一次且回顧期間為 1 天。
 預設值為每週重播一次且回顧期間為 7 天。 在此情況下，上一週的資料可能會有變動 (因為該資料正在逐步拼接和更新)。

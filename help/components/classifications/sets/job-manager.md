@@ -2,7 +2,8 @@
 title: 分類設定作業管理員
 description: 檢視從分類集產生的目前和已完成的分類工作。
 exl-id: 0470e131-79c6-4906-85f0-530d360ac227
-source-git-commit: 496b4891d447ed9dd091a6498a792146a2d5aceb
+feature: Classifications
+source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 49%
