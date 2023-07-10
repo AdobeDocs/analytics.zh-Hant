@@ -3,7 +3,7 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: d00ae976a7e7de2fad7f5c214c2bbf39644c9a08
+source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -39,7 +39,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | **深度連結 (行動應用程式)** | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共用專案和提高技術能力較低對象的參與度變得更加容易。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#share-scorecards-using-a-shareable-link) | 不適用 | 2023 年 5 月 17 日 |
 | **動態下拉式篩選器** | 我們正在引進一種新類型的下拉式篩選器，它會根據面板報告範圍內的資料和其他下拉式篩選器中的值來決定可用值。按住[!UICONTROL 轉移]同時將維度拖入面板投放區中，即可使用動態下拉式篩選器。按住[!UICONTROL 轉移]同時將維度項目的群組拖入面板投放區中，靜態下拉式篩選器則維持不變。[了解更多](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 2023 年 6 月 14 日 |
 | **更新的分析學習頁面** | Adobe Analytics 登陸頁面上的「學習」索引標籤現在包含以下增強功能：<ul><li>改進的設計可在單次頁面上顯示更多學習內容和改進的導覽功能</li><li>根據經驗等級 (初學者、中階和進階) 量身打造學習內容的能力</li></ul>[了解更多](/help/analyze/landing.md) | 2023 年 6 月 27 日 | 2023 年 6 月 30 日 |
-| **在 Analysis Workspace 中排序元件** | 現在，在 Analysis Workspace 的左側邊欄或資料字典中查看元件時，可以使用新的「排序」選項。您可以按「建議」(最常用)、「字母順序」或「類別」(類型) 來排序元件。<p>以前，您只能搜尋或篩選元件。[了解更多](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 不適用 | 待定 |
+| **在 Analysis Workspace 中排序元件** | 現在，在 Analysis Workspace 的左側邊欄或資料字典中查看元件時，可以使用新的「排序」選項。您可以按「建議」(最常用)、「字母順序」或「類別」(類型) 來排序元件。<p>以前，您只能搜尋或篩選元件。[了解更多](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 不適用 | 2023 年 6 月 7 日 |
 
 {style="table-layout:auto"}
 
