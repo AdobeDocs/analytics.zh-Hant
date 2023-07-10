@@ -3,7 +3,7 @@ description: 設定雲端匯入帳戶和可以上傳分類資料的位置
 keywords: Analysis Workspace
 title: 設定雲端匯入帳戶
 feature: Classifications
-source-git-commit: 4efb0623d734419c376ca5f2bf2bbd94097ee4e4
+source-git-commit: 6010c65571b326759eeddc5e71f8a52212ddbb98
 workflow-type: tm+mt
 source-wordcount: '923'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 從雲端目的地匯入Adobe Analytics分類資料之前，您需要新增並設定帳戶，以及該帳戶中要收集分類資料的位置。
 
-此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照所述新增及設定該帳戶內的位置（例如帳戶內的資料夾） [設定雲端匯入位置][/help/components/locations/configure-import-locations.md].
+此程式包含依照本文所述新增及設定帳戶(例如Amazon S3角色ARN、Google Cloud Platform等)，然後依照所述新增及設定該帳戶內的位置（例如帳戶內的資料夾） [設定雲端匯入位置](/help/components/locations/configure-import-locations.md).
 
 您需要使用存取雲端目的地帳戶所需的資訊來設定Adobe Analytics。
 
