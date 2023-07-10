@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
+source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 88%
 
 ---
@@ -262,14 +262,16 @@ ht-degree: 88%
       + [瀏覽器和 FTP 匯入](classifications/importer/import-file.md)
       + [瀏覽器匯入](classifications/importer/browser-import.md)
       + [瀏覽器匯出](classifications/importer/browser-export.md)
-      + [雲端匯入](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 匯出](classifications/importer/ftp-export.md)
       + [處理時間](classifications/importer/processing-time.md)
       + [疑難排解](classifications/importer/troubleshooting.md)
-
    + [子分類](classifications/c-sub-classifications.md)
    + [分類常見問答](classifications/faq.md)
++ 位置 {#locations}
+   + [位置管理員](/help/components/locations/locations-manager.md)
+   + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
+   + [雲端匯入位置](/help/components/locations/configure-import-locations.md)
 + [行事曆事件](t-calendar-event.md)
 + [排程報告佇列](scheduled-reports-admin.md)
 + 即時報告 {#real-time-reporting}

@@ -3,7 +3,7 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 9044bb3bc8581ff3c12abd5620e81ade513b5f0f
+source-git-commit: b0c97e4f9d3243e233999cf80f1d742a676f4023
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 85%
@@ -20,7 +20,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **設定雲端帳戶存放區位置以擷取分類資料** | 您現在可以管理用於分類集自動化的雲端帳戶儲存位置。<p>[了解更多](/help/components/classifications/importer/configure-import-accounts.md)</p> |  | 2023 年 7 月 10 日 |
+| **設定雲端帳戶存放區位置以擷取分類資料** | 您現在可以管理用於分類集自動化的雲端帳戶儲存位置。<p>[了解更多](/help/components/locations/configure-import-accounts.md)</p> |  | 2023 年 7 月 10 日 |
 | **資料修復篩選增強功能** | 「資料修復」新增了三項篩選改善功能：<ul><li>依一個變數篩選以修改第二個變數。 例如，如果 `eVar2` 包含「@」，然後刪除 `eVar3`.</li><li>篩選數值或非數值</li><li>使用AND套用多個篩選器。 例如，其中 `eVar2="a"` 和 `eVar3="b"`</li></ul>[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
 | **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>此功能預設為啟用，系統管理員可以停用。[了解更多](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
 | **分類集的新功能** | [分類設定](/help/components/classifications/sets/overview.md) 已更新幾項新功能：<ul><li>**合併**：將「分類設定」合併至單一的「整合分類設定」。 整合的分類設定可以像其他分類設定一樣使用，或當作Customer Journey Analytics中的查詢資料設定使用。 [了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據「分類設定」中的規則自動分類值。 [了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：自動從雲端儲存空間目的地匯入分類資料。 [了解更多](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |

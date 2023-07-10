@@ -3,7 +3,7 @@ title: 分類設定結構描述
 description: 檢視和編輯個別分類設定的結構描述。
 exl-id: 0fc12a0c-c1cf-4159-9d8b-492ebcaa8ea1
 feature: Classifications
-source-git-commit: 6cc7f491340ec7c36252f7ae53de07b0ab8f3b6f
+source-git-commit: d21903fe5683cadf2e235f5a1f911e2a62881c58
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 42%
@@ -48,11 +48,11 @@ ht-degree: 42%
 * **[!UICONTROL 自動化]**：自動從外部儲存位置擷取資料。
    * **[!UICONTROL 位置帳戶]**：下拉式清單，顯示貴組織已設定的現有位置帳戶。 如果您的組織尚未設定位置帳戶，您可以選取「 」，設定一個位置帳戶 [!UICONTROL **建立新帳戶**].
 
-     如需設定位置帳戶的相關資訊，請參閱 [設定雲端匯入位置](/help/components/classifications/importer/configure-import-accounts.md).
+     如需設定位置帳戶的相關資訊，請參閱 [設定雲端匯入帳戶](/help/components/locations/configure-import-accounts.md).
 
    * **[!UICONTROL 位置]**：下拉式清單，顯示貴組織已設定的現有位置。 如果您的組織尚未設定位置，您可以選取「 」，設定位置 [!UICONTROL **建立新位置**].
 
-     如需設定位置的詳細資訊，請參閱 [設定雲端匯入位置](/help/components/classifications/importer/configure-import-accounts.md).
+     如需設定位置的詳細資訊，請參閱 [設定雲端匯入位置](/help/components/locations/configure-import-locations.md).
 
    * **[!UICONTROL 分隔符號]**：已上傳檔案的欄分隔符號。 選項包括 [!UICONTROL 逗號]， [!UICONTROL 分號]， [!UICONTROL 冒號]， [!UICONTROL 垂直條]， [!UICONTROL 空間]， [!UICONTROL 正斜線]， [!UICONTROL 反斜線]， [!UICONTROL 虛線]，或 [!UICONTROL 底線].
 
