@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: 0d16592cfa1f0da4e868d9d51c1a73269235b653
+source-git-commit: e87e47eb32ce150491596216d4ddc4fb87348497
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 86%
+source-wordcount: '717'
+ht-degree: 88%
 
 ---
 
@@ -185,11 +185,11 @@ ht-degree: 86%
    + 計算量度工作流程 {#calcmetric-workflow}
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
-      + [建立量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
-      + [建立「每次造訪頁面檢視次數」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
+      + [建置量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
+      + [建立「每次造訪頁面瀏覽數」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
       + [建立「訂購協助」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [建立「參與率」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
-      + [量度型別和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
+      + [建置「參與率」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆疊和取代區段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
       + [篩選和加權的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
@@ -262,6 +262,7 @@ ht-degree: 86%
       + [瀏覽器和 FTP 匯入](classifications/importer/import-file.md)
       + [瀏覽器匯入](classifications/importer/browser-import.md)
       + [瀏覽器匯出](classifications/importer/browser-export.md)
+      + [雲端匯入](/help/components/classifications/importer/configure-import-accounts.md)
       + [FTP 匯入](classifications/importer/c-uploading-saint-data-files-via-ftp.md)
       + [FTP 匯出](classifications/importer/ftp-export.md)
       + [處理時間](classifications/importer/processing-time.md)

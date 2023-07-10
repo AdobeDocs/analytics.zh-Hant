@@ -3,14 +3,22 @@ description: 如何透過 FTP 上傳資料檔案。
 title: FTP 匯入
 feature: Classifications
 exl-id: 3e93b35c-6f65-4a93-887d-d94e4d359bdc
-source-git-commit: 1b1cea9b9e336a1836e824906e620a0761c364e4
+source-git-commit: c36cc9884b2de3cddf03b505d9c4883dcac846af
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 91%
 
 ---
 
 # FTP 匯入
+
+>[!IMPORTANT]
+>
+>我們不再建議使用FTP匯入，如本頁所述。
+>
+>不建議使用FTP，因為這是共用檔案的未加密方法，這表示任何人都可以攔截檔案內容以及帳戶使用的使用者名稱和密碼。
+>
+>請改為依照中的說明設定雲端帳戶 [設定雲端匯入位置](/help/components/classifications/importer/configure-import-accounts.md).
 
 說明如何透過 FTP 上傳 資料檔案的步驟。
 
@@ -20,7 +28,7 @@ ht-degree: 100%
 
 1. **[!UICONTROL 管理員]** > **[!UICONTROL 分類匯入工具]**。
 
-以下是重要的限制建議。過多
+以下是重要的限制建議。
 
 >[!IMPORTANT]
 >
