@@ -3,7 +3,7 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 47f102662e5887b3df456a3db88038cec61a6fb2
+source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 76%
@@ -20,7 +20,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **設定雲端帳戶存放區位置以擷取分類資料** | 您現在可以管理用於分類集自動化的雲端帳戶儲存位置。[了解更多](/help/components/locations/configure-import-accounts.md)<p> | 不適用 | 2023 年 7 月 10 日 |
+| **設定雲端帳戶存放區位置以擷取分類資料** | 您現在可以管理用於分類集自動化的雲端帳戶儲存位置。 [了解更多](/help/components/locations/configure-import-accounts.md)<p> | 不適用 | 2023 年 7 月 10 日 |
 | **資料修復篩選增強功能** | 「資料修復」新增了三項篩選改善功能：<ul><li>依一個變數篩選以修改第二個變數。 例如，如果 `eVar2` 包含「@」，然後刪除 `eVar3`.</li><li>篩選數值或非數值</li><li>使用AND套用多個篩選器。 例如，其中 `eVar2="a"` 和 `eVar3="b"`</li></ul>[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
 | **資料摘要匯出的安全目標** | 現在可以將資料摘要傳送到以下雲端儲存空間目標：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再建議使用以前提供的目標 (FTP、SFTP、S3 和 Azure Blob)。[了解更多](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant) | 2023 年 6 月 12 日 | 2023 年 7 月 15 日 |
 
