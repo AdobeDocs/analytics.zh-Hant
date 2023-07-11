@@ -3,57 +3,39 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: b0c97e4f9d3243e233999cf80f1d742a676f4023
+source-git-commit: 4c6b05ba46e1e5d7bfca24d8cad57fd4479ed8fa
 workflow-type: tm+mt
-source-wordcount: '1542'
-ht-degree: 85%
+source-wordcount: '883'
+ht-degree: 76%
 
 ---
 
-# 目前的 Adobe Analytics 發行說明 (2023 年 6 月)
+# 目前的 Adobe Analytics 發行說明 (2023 年 7 月)
 
-**上次更新日期**：2023 年 7 月 10 日
+**上次更新日期**：2023 年 7 月 11 日
 
 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
-## 版本重點 {#highlights}
+## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **設定雲端帳戶存放區位置以擷取分類資料** | 您現在可以管理用於分類集自動化的雲端帳戶儲存位置。<p>[了解更多](/help/components/locations/configure-import-accounts.md)</p> |  | 2023 年 7 月 10 日 |
+| **設定雲端帳戶存放區位置以擷取分類資料** | 您現在可以管理用於分類集自動化的雲端帳戶儲存位置。<p> | 不適用 | 2023 年 7 月 10 日 |
 | **資料修復篩選增強功能** | 「資料修復」新增了三項篩選改善功能：<ul><li>依一個變數篩選以修改第二個變數。 例如，如果 `eVar2` 包含「@」，然後刪除 `eVar3`.</li><li>篩選數值或非數值</li><li>使用AND套用多個篩選器。 例如，其中 `eVar2="a"` 和 `eVar3="b"`</li></ul>[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
-| **專案連結共用 (不需登入)** | 您現在可以與無 Adobe Analytics 存取權的人員共用 Analysis Workspace 專案的唯讀連結。這包括與組織外的人員或組織內未佈建 Adobe Analytics 的人員共用。[了解更多](../analyze/analysis-workspace/curate-share/share-projects.md#share-a-project-with-anyone-no-login-required)<p>此功能預設為啟用，系統管理員可以停用。[了解更多](../analyze/analysis-workspace/user-preferences.md#company-preferences)</p> | 2023 年 5 月 3 日 | 2023 年 6 月 7 日 |
-| **分類集的新功能** | [分類設定](/help/components/classifications/sets/overview.md) 已更新幾項新功能：<ul><li>**合併**：將「分類設定」合併至單一的「整合分類設定」。 整合的分類設定可以像其他分類設定一樣使用，或當作Customer Journey Analytics中的查詢資料設定使用。 [了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據「分類設定」中的規則自動分類值。 [了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：自動從雲端儲存空間目的地匯入分類資料。 [了解更多](../components/classifications/sets/manage/schema.md)</li></ul> | | 2023 年 6 月 7 日 |
-| **新的 AppMeasurement 變數** | 變數 `doubleEncodeLinkParameters` 會配合邊緣案例，在這種情況下，實作會在連結追蹤變數中對多位元組字元進行編碼。大多數實作不需要定義此變數。[了解更多](../implement/vars/config-vars/doubleencodelinkparameters.md) |  | 2023 年 6 月 7 日 |
 | **資料摘要匯出的安全目標** | 現在可以將資料摘要傳送到以下雲端儲存空間目標：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再建議使用以前提供的目標 (FTP、SFTP、S3 和 Azure Blob)。[了解更多](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant) | 2023 年 6 月 12 日 | 2023 年 7 月 15 日 |
-| **Workspace 中的機器人報告** | 機器人報告現在可在 Analysis Workspace 中取得。此功能附帶幾個新增項目：<ul><li>新維度：[機器人名稱](/help/components/dimensions/bot-name.md)</li><li>兩個新量度：[機器人頁面檢視次數](/help/components/metrics/bot-page-views.md)和[機器人發生次數](/help/components/metrics/bot-occurrences.md)。</li><li>一個新的計算量度範本：[機器人頁面檢視次數比率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新的工作區報告：機器人報告</li></ul>新維度和量度會包含從 2023 年 3 月開始回填的資料。 |  | 2023 年 6 月 7 日 |
-
-{style="table-layout:auto"}
-
-## 其他新功能或更新功能 {#other}
-
-| 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
-| ----------- | ---------- | ------- | ---- |
-| **從自由格式表格中刪除包含動態維度的列** | 在 Analysis Workspace 的自由格式表格中，您現在可以使用 x 圖示快速刪除包含動態維度的特定列。執行時，會自動套用「永遠排除項目」篩選規則。<p>以前，想要刪除包含動態維度的列，唯一的方法是在「篩選器」對話框中手動建立規則。[了解更多](/help/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.md)</p> | 不適用 | 2023 年 5 月 17 日 |
-| **在面板中新增視覺效果的新按鈕** | 現在，Analysis Workspace 每個面板的底部都有一個新按鈕，可讓您快速新增視覺效果。 <p>以前，將視覺效果新增到面板的唯一方法是從左側邊欄拖放視覺效果、複製現有的視覺效果，或者建立空白面板。[了解更多](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)</p> | 不適用 | 2023 年 5 月 17 日 |
-| **深度連結 (行動應用程式)** | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。這使得共用專案和提高技術能力較低對象的參與度變得更加容易。[了解更多](https://experienceleague.adobe.com/docs/analytics/analyze/mobapp/create-scorecard.html#share-scorecards-using-a-shareable-link) | 不適用 | 2023 年 5 月 17 日 |
-| **動態下拉式篩選器** | 我們正在引進一種新類型的下拉式篩選器，它會根據面板報告範圍內的資料和其他下拉式篩選器中的值來決定可用值。按住[!UICONTROL 轉移]同時將維度拖入面板投放區中，即可使用動態下拉式篩選器。按住[!UICONTROL 轉移]同時將維度項目的群組拖入面板投放區中，靜態下拉式篩選器則維持不變。[了解更多](/help/analyze/analysis-workspace/c-panels/panels.md) |  | 2023 年 6 月 14 日 |
-| **更新的分析學習頁面** | Adobe Analytics 登陸頁面上的「學習」索引標籤現在包含以下增強功能：<ul><li>改進的設計可在單次頁面上顯示更多學習內容和改進的導覽功能</li><li>根據經驗等級 (初學者、中階和進階) 量身打造學習內容的能力</li></ul>[了解更多](/help/analyze/landing.md) | 2023 年 6 月 27 日 | 2023 年 6 月 30 日 |
-| **在 Analysis Workspace 中排序元件** | 現在，在 Analysis Workspace 的左側邊欄或資料字典中查看元件時，可以使用新的「排序」選項。您可以按「建議」(最常用)、「字母順序」或「類別」(類型) 來排序元件。<p>以前，您只能搜尋或篩選元件。[了解更多](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)</p> | 不適用 | 2023 年 6 月 7 日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
--311878；-313968；AN-314130；AN-315701；AN-315761；AN-316613；AN-317563；AN-318829；AN-319009；AN-319043；AN-319066；AN-；AN-；AN-319166；AN-319245；AN-319271；AN-319381；AN-319391；AN-319482；AN-319621；AN-319637；AN-319676；AN-320176；AN-320221；AN-320225；AN-320286；AN-320312；AN-320316；AN-320449；AN-320477；AN-320492；AN-320538；AN-320556；AN-320569；AN-320679；AN-320684；AN-320786；AN-320802；AN-320811；AN-320812；AN-320815；AN-321032；AN-321033；AN-321070；AN-321096；AN-321105；AN-321122；AN-321337；
+AN-307816、AN-318111、AN-318584、AN-318828、AN-320440、AN-320568、AN-320616、AN-321013、AN-321513、AN-321520、AN-321757、AN-321820、AN-321917、AN-322034、AN-322135、AN-322140、AN-322142、AN-322251、AN-322353、AN-322378、AN-322383、AN-322427、AN-322458、AN-322543、AN-322630、AN-322637 AN-322638； AN-322647； AN-322728； AN-322732； AN-322777； AN-322817； AN-322957； AN-322958； AN-323035； AN-323074； AN-323150； AN-323196； AN-323197； AN-323205； AN-323206； AN-323217； AN-323224； AN-323225； AN-323244； AN-323257； AN-323277； AN-323280； AN-323293； AN-323309； AN-323318； AN-323468； AN-323476 AN-323514； AN-323572； AN-323592； AN-323782； AN-323835
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| **37 個月到期的購買 ID 和事件 ID (事件序列化)** | 2023 年 5 月 25 日 | 即將推出的 Analytics Hit 處理引擎版本，目標是在 **2023 年 6 月下旬或 2023 年 7 月上旬**&#x200B;將開始強制執行 37 個月到期的購買 ID 和事件 ID (事件序列化)。目前，購買 ID 和事件 ID 在 Adob&#x200B;&#x200B;e Analytics 中為永不過期。看到/使用購買 ID 或事件 ID 後，則未來無論何時若有任何點擊，都會使該購買或事件標記為重複。隨著新處理引擎版本的推出：<ul><li>購買 ID 和事件 ID 會一律在 37 個月後到期。</li><li>如果從看到購買 ID 或事件 ID 以來已經有 37 個月，則不再將其視為重複購買或事件。</li><li> 如果您「重複使用」購買 ID 或事件 ID 已經超過 37 個月，則它們即不再被視為重複。</li></ul> |
-| **移轉至Adobe I/OOAuth伺服器對伺服器認證** | 2023 年 5 月 11 日 | 使用Adobe I/OJWT憑證的Adobe Analytics API和Livestream客戶必須移轉至Adobe I/OOAuth伺服器對伺服器憑證，遷移方式為 **2025年1月1日**. 如需更多詳細資料和時間表，請參閱下表中的生命週期結束通知。 |
-| **倫敦資料中心的 Adobe Analytics 資料摘要和 Data Warehouse 輸出所使用的新 IP** | 2023 年 4 月 27 日 | 倫敦資料中心的客戶若有傳遞到 FTP/SFTP 服務的資料摘要要求和/或 Data Warehouse 報告，這即與其相關。為了允許存取，應將以下 IP 位址新增到您的防火牆設定中： <ul><li>130.248.244.32/29</li><li>130.248.244.40/29</li></ul> |
+| **37 個月到期的購買 ID 和事件 ID (事件序列化)** | 10,2023 年 7 月 | 即將發行的Analytics點選處理引擎將於以下日期發行 **2023年7月13日**，將開始強制執行「購買ID」和「事件ID」 （事件序列化）的有效期37個月。 目前，購買 ID 和事件 ID 在 Adob&#x200B;&#x200B;e Analytics 中為永不過期。看到/使用購買 ID 或事件 ID 後，則未來無論何時若有任何點擊，都會使該購買或事件標記為重複。隨著新處理引擎版本的推出：<ul><li>購買 ID 和事件 ID 會一律在 37 個月後到期。</li><li>如果從看到購買 ID 或事件 ID 以來已經有 37 個月，則不再將其視為重複購買或事件。</li><li> 如果您「重複使用」購買 ID 或事件 ID 已經超過 37 個月，則它們即不再被視為重複。</li></ul> |
+| **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API 和 Livestream 客戶必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證如需更多詳細資料和時間表，請參閱下表中的生命週期結束通知。 |
 
 {style="table-layout:auto"}
 
