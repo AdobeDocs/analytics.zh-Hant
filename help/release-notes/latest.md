@@ -3,10 +3,10 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 386661af0d37fb223f51904a48593065f42ba47b
+source-git-commit: b724ef95771b49a81563587a5d8bbfe26c99c134
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 76%
+source-wordcount: '891'
+ht-degree: 72%
 
 ---
 
@@ -35,7 +35,7 @@ AN-307816、AN-318111、AN-318584、AN-318828、AN-320440、AN-320568、AN-32061
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
 | **37 個月到期的購買 ID 和事件 ID (事件序列化)** | 10,2023 年 7 月 | 即將發行的Analytics點選處理引擎將於以下日期發行 **2023年7月13日**，將開始強制執行「購買ID」和「事件ID」 （事件序列化）的有效期37個月。 目前，購買 ID 和事件 ID 在 Adob&#x200B;&#x200B;e Analytics 中為永不過期。看到/使用購買 ID 或事件 ID 後，則未來無論何時若有任何點擊，都會使該購買或事件標記為重複。隨著新處理引擎版本的推出：<ul><li>購買 ID 和事件 ID 會一律在 37 個月後到期。</li><li>如果從看到購買 ID 或事件 ID 以來已經有 37 個月，則不再將其視為重複購買或事件。</li><li> 如果您「重複使用」購買 ID 或事件 ID 已經超過 37 個月，則它們即不再被視為重複。</li></ul> |
-| **移轉到 Adobe I/O OAuth Server-to-Server 認證** | 2023 年 5 月 11 日 | 使用 Adobe I/O JWT 認證的 Adobe Analytics API 和 Livestream 客戶必須在 **2025 年 1 月 1 日**&#x200B;之前移轉到 Adobe I/O OAuth Server-to-Server 認證如需更多詳細資料和時間表，請參閱下表中的生命週期結束通知。 |
+| **移轉至Adobe I/OOAuth伺服器對伺服器認證** | 2023 年 5 月 11 日 | 使用Adobe I/OJWT憑證的Adobe Analytics API和Livestream客戶必須移轉至Adobe I/OOAuth伺服器對伺服器憑證，遷移方式為 **2025年1月1日**. 如需更多詳細資料和時間表，請參閱下表中的生命週期結束通知。 |
 
 {style="table-layout:auto"}
 
