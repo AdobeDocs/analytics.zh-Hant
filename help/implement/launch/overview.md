@@ -2,10 +2,11 @@
 title: 使用 Analytics 擴充功能實施 Adobe Analytics
 description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe Analytics
 feature: Launch Implementation
-source-git-commit: bd35fc09211a818983c27ce4494f14499c2229d8
+exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '372'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +22,7 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 
 
 
-![使用 Analytics 擴充功能工作流程的 Adobe Analytics](../assets/analytics-extension-annotated.png)
+![如何使用Analytics擴充功能工作流程實作Adobe Analytics，如本節所述。](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 

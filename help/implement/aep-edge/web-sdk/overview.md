@@ -3,10 +3,10 @@ title: 使用 Adobe Experience Platform Web SDK 實施 Adobe Analytics
 description: 在 Adobe Experience Platform 資料彙集中使用 Web SDK 擴充功能傳送資料給 Adobe Analytics。
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 實施任務的高層級概觀：
 
-![使用 Web SDK 工作流程實施 Adobe Analytics](../../assets/websdk-annotated.png)
+![如何使用Web SDK工作流程實作Adobe Analytics，如本節所述。](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 實施任務的高層級概觀：
 
-![使用 Web SDK 擴充功能工作流程實施 Adobe Analytics](../../assets/websdk-extension-annotated.png)
+![如何使用Web SDK擴充功能工作流程實作Adobe Analytics，如本節所述。](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 

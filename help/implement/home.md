@@ -3,10 +3,10 @@ title: 實施 Adobe Analytics
 description: 在您的網站、屬性或應用程式上實施 Adobe Analytics。
 feature: Implementation Basics
 exl-id: 2b629369-2d69-4dc6-861a-ff21a46d39e0
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 95%
+source-wordcount: '925'
+ht-degree: 85%
 
 ---
 
@@ -33,21 +33,21 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 對於您的&#x200B;**網站**，可以使用以下實施方法：
 
 * **Web SDK 擴充功能**：為新客戶實施 Adobe Analytics 的建議標準化方法。安裝 **Adobe Experience Platform Web SDK擴充功能** 在Adobe Experience Platform Data Collection **標籤**，請在每個頁面上使用Loader標籤，並將資料傳送至Adobe Experience Platform **邊緣網路** 使用對貴組織方便使用的格式。 Edge Network 以正確格式轉寄傳入資料給 Adobe Analytics。
-  ![Web SDK 擴充功能](./assets/websdk-extension-implementation.png)
-有關詳細資訊，請參閱[使用 Adobe Experience Platform Web SDK 擴充功能實施 Adobe Analytics](./aep-edge/overview.md)。
+  ![Web SDK擴充功能](./assets/websdk-extension-implementation.png)
+另請參閱 [如何使用Adobe Experience Platform Web SDK擴充功能實作Adobe Analytics。](./aep-edge/overview.md)以取得更多資訊。
 
 * **Web SDK**：如果您不想使用 Adobe Experience Platform 資料彙集，可以手動將 Web SDK 程式庫載入您的網站。在每個頁面上參考 Web SDK 庫 (`alloy.js`)，並以對您組織方便使用的格式將所需的追蹤呼叫傳送到 Adobe Experience Platform **Edge Network**。Edge Network 以正確格式轉寄傳入資料給 Adobe Analytics。
   ![Web SDK](./assets/websdk-implementation.png)
-有關詳細資訊，請參閱[使用 Adobe Experience Platform Web SDK 實施 Adobe Analytics](./aep-edge/overview.md)。
+另請參閱 [如何使用Adobe Experience Platform Web SDK實作Adobe Analytics](./aep-edge/overview.md) 以取得詳細資訊。
 
 
 * **Analytics 擴充功能**：在 Adobe Experience Platform 資料彙集&#x200B;**標記**&#x200B;中安裝 **Adobe Analytics**。在每一頁面放置 Loader 標記，並使用 Adobe Analytics 擴充功能以決定如何定義每個變數。如果您想要標記的便利性，但又不想使用 Edge Network 基礎結構，請使用此實施方法。
-  ![Adobe Analytics 擴充功能](./assets/analytics-extension-implementation.png)
-有關詳細資訊，請參閱[使用 Analytics 擴充功能實施 Adobe Analytics](launch/overview.md)。
+  ![Adobe Analytics擴充功能](./assets/analytics-extension-implementation.png)
+另請參閱 [如何使用Analytics擴充功能實施Adobe Analytics](launch/overview.md) 以取得詳細資訊。
 
 * **舊版 JavaScript**：舊版手動實施 Adobe Analytics 的方法。在每個頁面上參考 AppMeasurement 庫 (`AppMeasurement.js`)，然後概觀實施中使用的變數和設定。
-  ![舊版 JavaScript](./assets/appmeasurement-implementation.png)
-此實施方法對於使用自訂程式碼的實施非常有用，也建議在您 (想要) 進行以下行為時使用：
+  ![如何使用舊版JavaScript實施Adobe Analytics](./assets/appmeasurement-implementation.png)
+此實施方法對於使用自訂程式碼的實施很有用，當您（想要）使用時，建議使用此方法：
 
    * [Activity Map 資料](../analyze/activity-map/activity-map.md)
 
@@ -65,7 +65,7 @@ Adobe Analytics 需要您網站、行動應用程式或其他應用程式中的�
 
 以下決策流程可幫助您選擇實施方法：
 
-![決策樹](./assets/decision-tree.png)
+![用於選取實作方法的決策樹，如本節所述。](./assets/decision-tree.png)
 
 
 >[!TIP]
