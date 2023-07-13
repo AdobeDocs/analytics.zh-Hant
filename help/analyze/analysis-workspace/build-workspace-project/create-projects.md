@@ -1,55 +1,60 @@
 ---
-description: 了解在Analysis Workspace中建立專案的基本知識
+description: 瞭解在Analysis Workspace中建立專案的基本知識
 title: 建立專案
 feature: Workspace Basics
 role: User, Admin
-source-git-commit: 6d1515ee21044941b4b79d18b4438e0647471c57
+exl-id: 6130b1d8-078c-46d8-9fce-eb39739a9570
+source-git-commit: f7bd5eaffd4502510451e3afb5929682ad967ecb
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '702'
 ht-degree: 5%
 
 ---
 
 # 建立專案
 
-[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) 在Analysis Workspace中，您可以檢視可與組織內外的利害關係人共用的業務關鍵型分析。
+[專案](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md) Analysis Workspace可讓您檢視關鍵業務分析，這些分析可與組織內部或外部的利害關係人分享。
 
-如需如何開始使用Analysis Workspace的一般資訊，請參閱 [Analysis Workspace概述](/help/analyze/analysis-workspace/home.md).
+如需如何開始使用Analysis Workspace的一般資訊，請參閱 [Analysis Workspace概觀](/help/analyze/analysis-workspace/home.md).
 
-以下各節說明如何建立專案，並開始為任何Analysis Workspace專案新增重要建置組塊：面板、視覺效果和元件。
+以下小節說明如何建立專案，並開始為任何Analysis Workspace專案新增關鍵建置區塊：面板、視覺效果和元件。
 
-## 從空白專案或報表建立專案
+## 從空白專案或報告建立專案
 
-1. 在Adobe Analytics中，選取 [!UICONTROL **工作區**].
+1. 在Adobe Analytics中選取 [!UICONTROL **Workspace**].
 
-1. 選擇要建立空白專案，還是要從報表建立專案：
+1. 選擇是要建立空白專案，還是從報表建立專案：
 
    +++建立空白專案
 
-   1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **專案**] 標籤，然後選取 [!UICONTROL **建立專案**].
+   1. 於 [!UICONTROL **Workspace**] 索引標籤中，選取 [!UICONTROL **專案**] 索引標籤選取「 」，然後選取「 」 [!UICONTROL **建立專案**].
 
-   1. 選擇要建立空白專案還是要建立空白行動計分卡
+   1. 選擇建立空白專案或空白行動計分卡
 
       * **空白專案** 如果您打算從瀏覽器共用分析
-      * [**空白行動計分卡**](/help/analyze/mobile-app/curator.md) 如果您打算從Adobe Analytics控制面板行動應用程式共用分析。
+      * [**空白行動計分卡**](/help/analyze/mobile-app/curator.md) 如果您打算從Adobe Analytics儀表板行動應用程式共用分析。
+
    1. 選擇 [!UICONTROL **建立**]。
 
 +++
 
-   +++從報表建立專案
+   +++從報告建立專案
 
-   1. 在 [!UICONTROL **工作區**] 頁簽，選擇 [!UICONTROL **報表**] 標籤。
+   1. 於 [!UICONTROL **Workspace**] 索引標籤中，選取 [!UICONTROL **報表**] 索引標籤的位置。
 
-   1. 搜尋或導覽至您要使用的報表，然後在報表出現時加以選取。
+   1. 搜尋或導覽至您要使用的報表，然後在其出現時選取它。
 
-      預設提供一組標準報表。 此外，您的組織可能已建立自訂報表供您選擇。
+      預設提供一組標準報表。 此外，貴組織可能已建立自訂報表，供您從中進行選擇。
 
-      如需詳細資訊，請參閱 [Adobe Analytics登陸頁面](/help/analyze/landing.md).
+   1. 選取 [!UICONTROL **專案**] > [!UICONTROL **儲存**] 將報表另存為新專案。
+
+      如需有關報告的詳細資訊，請參閱以下的「瀏覽報告索引標籤」： [Adobe Analytics登陸頁面](/help/analyze/landing.md).
+
 +++
 
-1. 接下來，您需要將面板、視覺效果和元件新增至專案。 首先，將面板新增至您在Analysis Workspace中的專案，如 [新增面板至專案](#add-panels-to-the-project). 然後，您可以將視覺效果新增至任何面板。 最後，您可以將元件新增至任何面板或視覺效果。
+1. 接下來，您需要將面板、視覺效果和元件新增至專案。 首先，在Analysis Workspace中新增面板至您的專案，如所述 [將面板新增至專案](#add-panels-to-the-project). 然後，您就可以將視覺效果新增至任何面板。 最後，您可以將元件新增至任何面板或視覺效果。
 
-## 新增面板至專案 {#panels}
+## 將面板新增至專案 {#panels}
 
 [面板](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html) 是Analysis Workspace中任何專案的基礎。 面板可用來組織專案的內容（視覺效果和元件）。
 
@@ -57,37 +62,37 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 
 若要新增面板：
 
-1. 選取 [!UICONTROL **面板**] 圖示。
+1. 選取 [!UICONTROL **面板**] 圖示加以檢視。
 
    ![](assets/build-panels.png)
 
-1. 搜尋您要新增的面板。 當左側邊欄顯示時，將其拖曳至專案中。
+1. 搜尋您要新增的面板。 當它出現在左側邊欄中時，請將它拖曳到您的專案中。
 
-1. 將視覺效果新增至面板，如 [新增視覺效果至專案](#add-visualizations-to-the-project).
+1. 將視覺效果新增至面板，如所述 [將視覺效果新增至專案](#add-visualizations-to-the-project).
 
-   或者，您也可以直接將元件新增至面板，如 [新增元件至專案](#add-components-to-the-project).
+   或者，您也可以將元件直接新增至面板，如中所述 [將元件新增至專案](#add-components-to-the-project).
 
-## 新增視覺效果至專案
+## 將視覺效果新增至專案
 
-[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) （例如自由表格、長條圖或折線圖）可以透過視覺化方式生動呈現資料。
+[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html) （例如自由表格、長條圖或折線圖）都可讓您以視覺化方式生動呈現資料。
 
 >[!TIP]
 >
->自由表格是最常見的視覺效果類型，也是互動式資料分析的基礎。 如需如何在Analysis Workspace中使用自由表格的詳細資訊，請參閱 [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
+>自由表格是最常見的視覺效果型別，也是互動式資料分析的基礎。 如需如何在Analysis Workspace中使用自由格式表格的詳細資訊，請參閱 [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md).
 
 若要新增視覺效果：
 
-1. 選取 **[!UICONTROL 視覺效果]** 圖示。
+1. 選取 **[!UICONTROL 視覺效果]** 圖示加以檢視。
 
    ![](assets/build-visualizations.png)
 
-1. 搜尋您要新增的視覺效果。 當左側邊欄顯示時，將其拖曳至專案內的面板。
+1. 搜尋您要新增的視覺效果。 當它出現在左側邊欄中時，請將它拖曳至專案內的面板。
 
-1. 新增元件至視覺效果，如 [新增元件至專案](#add-components-to-the-project).
+1. 將元件新增至視覺效果，如所述 [將元件新增至專案](#add-components-to-the-project).
 
-## 新增元件至專案
+## 將元件新增至專案
 
-[元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 編製任何專案的實際資料。 您可以將元件新增至視覺效果或面板。
+[元件](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 組成任何專案的實際資料。 您可以將元件新增至視覺效果或面板。
 
 >[!TIP]
 >
@@ -95,17 +100,16 @@ Analysis Workspace 中提供的許多面板皆可根據用戶輸入的少量內�
 
 若要新增元件：
 
-1. 選取 **[!UICONTROL 元件]** 圖示。
+1. 選取 **[!UICONTROL 元件]** 圖示加以檢視。
 
    ![](assets/build-components.png)
 
-1. 搜尋您要新增的元件。 當左側邊欄顯示時，將其拖曳至專案內的面板或視覺效果。
+1. 搜尋您要新增的元件。 當它出現在左側邊欄中時，請將它拖曳至專案中的面板或視覺效果。
 
-1. （選用）依照 [儲存並共用專案](#save-and-share-the-project).
+1. （選用）共用專案，如所述 [儲存並共用專案](#save-and-share-the-project).
 
 ## 儲存並共用專案
 
-當您在Analysis Workspace中建立分析時，您的工作是 [自動儲存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
+當您在Analysis Workspace中建立分析時，您的工作就是 [自動儲存](/help/analyze/analysis-workspace/build-workspace-project/save-projects.md).
 
-當您完成建立專案並收集可操作的深入分析時，專案即可供其他人使用。 您可以與組織內的使用者和群組，甚至與組織外的人員共用專案。 如需共用專案的相關資訊，請參閱 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).
-
+當您完成建立專案並收集可操作深入分析時，專案就可供其他人使用。 您可以與組織中的使用者和群組共用專案，甚至可以與組織外部的人員共用專案。 如需共用專案的詳細資訊，請參閱 [共用專案](/help/analyze/analysis-workspace/curate-share/share-projects.md).
