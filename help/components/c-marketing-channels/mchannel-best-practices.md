@@ -3,7 +3,7 @@ title: 實作 Adobe Analytics 行銷管道的最佳做法
 description: 搭配 Attribution IQ 和 Customer Journey Analytics 使用行銷管道的更新最佳做法
 feature: Marketing Channels
 exl-id: a0ab818d-7165-4f34-bc43-1ed8d6215800
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 90%
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 當我們最初推出行銷管道時，只提供「首次接觸」和「上次接觸」維度。 有了最新版本的歸因，就不再需要明確的首次/上次接觸維度。 Adobe 提供通用的「行銷管道」和「行銷管道詳細資料」維度，讓您可將其用於所需的歸因模型。這些通用維度的行為與「上次接觸管道」維度相同，但標籤不同，這是為了避免搭配不同歸因模型使用行銷管道時產生混淆。
 
-由於行銷管道維度以傳統的造訪定義 (如維度本身的處理規則所定義) 為依據，因此無法使用虛擬報告套裝來變更其造訪定義。 這些修改過的作法透過Attribution IQ和Customer Journey Analytics啟用清楚且受控制的回顧期間。
+由於行銷管道維度以傳統的造訪定義 (如維度本身的處理規則所定義) 為依據，因此無法使用虛擬報告套裝來變更其造訪定義。 這些修訂後的實務透過Attribution IQ和Customer Journey Analytics啟用清楚且受控制的回顧視窗。
 
 ## 最佳做法 1：利用 Attribution IQ 進行受控制的分析
 

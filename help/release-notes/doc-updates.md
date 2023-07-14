@@ -5,7 +5,7 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
 workflow-type: tm+mt
 source-wordcount: '4490'
 ht-degree: 97%
@@ -28,13 +28,13 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 7 月** | |
 | 新的 AppMeasurement 變數 | 變數 `decodeLinkParameters` 會配合邊緣案例，在這種情況下，實作會在連結追蹤變數中對多位元組字元進行編碼。[了解更多](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
-| 分類集的新功能 | [分類設定](/help/components/classifications/sets/overview.md) 已更新幾項新功能：<ul><li>**合併**：將「分類設定」合併至單一的「整合分類設定」。 整合的分類設定可以像其他分類設定一樣使用，或當作Customer Journey Analytics中的查詢資料設定使用。 [了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據「分類設定」中的規則自動分類值。 [了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：自動從雲端儲存空間目的地匯入分類資料。 [了解更多](../components/classifications/sets/manage/schema.md)</li></ul> |
+| 分類集的新功能 | [分類設定](/help/components/classifications/sets/overview.md) 已更新幾項新功能：<ul><li>**合併**：將「分類設定」合併至單一的「整合分類設定」。 合併的分類設定可以像其他分類設定一樣使用，或當作Customer Journey Analytics中的查閱資料設定使用。 [了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據「分類設定」中的規則自動分類值。 [了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：自動從雲端儲存空間目的地匯入分類資料。 [了解更多](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算量度更新 | 已對和計算量度相關的各種文章進行更新，包括更新螢幕擷取畫面和程序中的步驟。進行這些變更是為了使文件和目前的 Adob&#x200B;&#x200B;e Analytics 功能保持一致。 |
 | 資料摘要匯出的安全目標 | 現在可以將資料摘要傳送到以下雲端儲存空間目標：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再建議使用以前提供的目標 (FTP、SFTP、S3 和 Azure Blob)。[了解更多](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant) |
 | Workspace 中的機器人報告 | 機器人報告現在可在 Analysis Workspace 中取得。此功能附帶幾個新增項目：<ul><li>新維度：[機器人名稱](/help/components/dimensions/bot-name.md)</li><li>兩個新量度：[機器人頁面檢視次數](/help/components/metrics/bot-page-views.md)和[機器人發生次數](/help/components/metrics/bot-occurrences.md)。</li><li>一個新的計算量度範本：[機器人頁面檢視次數比率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新的工作區報告：機器人報告</li></ul>新維度和量度會包含從 2023 年 3 月開始回填的資料。 |
 | **2023 年 5 月** | |
 | 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。[了解更多](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
-| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](/help/analyze/mobile-app/executive.md#use-dashboards) |
+| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 新的更新首頁畫面可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 圖示 | 如情況適合，可將文件中使用者介面的螢幕擷圖以對 [Adobe 的 Spectrum 設計系統](https://spectrum.adobe.com/page/icons/)中同等圖示的參照取代。 |
 | 已改進 IP 對地理位置的對應 | 在[常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=en)建立了一個主題。 |
 | 報告活動管理員 | 更新了這個 beta 文件，尤其是有關[檢視個別報告套裝的報告活動](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html#view-reporting-activity-for-individual-report-suites)的章節。 |
@@ -59,7 +59,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2023 年 2 月** | |
 | 實施 | 已更新有關如何[為網路和行動裝置實施 Adobe Analytics](../implement/home.md) 的內容。 |
 | Workspace 行事曆和日期範圍 | 更新內容以說明相對日期範圍、公式計算更新和行事曆 UI 變更。查看[關於相對面板日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)。 |
-| Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。另請參閱 [顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md) Customer Journey Analytics中的。 |
+| Mobile 計分卡 | 新文件部分會說明如何顯示和隱藏比較日期範圍。請參閱 Customer Journey Analytics 中的「[顯示比較日期範圍](/help/analyze/mobile-app/create-scorecard.md)」。 |
 | 1.4 API | [Adobe Analytics 1.4 API](https://developer.adobe.com/analytics-apis/docs/1.4/) 已徹底重寫，現已發佈在 Adobe Developer 上。 |
 | 跨實施類型追蹤 | 已更新使用範例[追蹤不同的實施類型](../implement/use-cases/cross-type-implementation.md)，以符合 Experience Cloud ID 服務。 |
 | **2023 年 1 月** | |
