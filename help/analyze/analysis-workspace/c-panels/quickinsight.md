@@ -5,7 +5,7 @@ feature: Panels
 role: User, Admin
 exl-id: 29b26ec9-d410-43d6-a317-ca7587f5dd31
 source-git-commit: 804cf43f2e5f1270e04644affd629c06583816ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1058'
 ht-degree: 100%
 
@@ -72,7 +72,6 @@ ht-degree: 100%
 
    * 隨附的視覺效果，在此案例中為[長條圖](/help/analyze/analysis-workspace/visualizations/bar.md)。產生的視覺效果會以您新增至表格的資料類型為基礎。任何以時間為基礎的資料 (例如，每日/月的[!UICONTROL 造訪]次數)，都會預設為[!UICONTROL 折線圖]。任何非時間型資料 (例如，每個[!UICONTROL 裝置]的[!UICONTROL 造訪]次數) 都會預設為[!UICONTROL 長條圖]。您可以按一下視覺效果類型旁的下拉箭頭，以變更視覺效果類型。
 
-
 1. (可選) 按一下維度旁的 > 向右箭頭深入鑽研維度，並檢視維度項目。
 
 1. 嘗試新增一些更精細的功能，如後續的「更多提示」所說明。
@@ -85,19 +84,19 @@ ht-degree: 100%
 
 * 首先，請完成&#x200B;**[!UICONTROL 更多提示]**&#x200B;教學課程：透過說明 (?)圖示加以存取 (位於[!UICONTROL 快速深入分析]標題旁)。本教學課程會在您建立專案的 24 小時後顯示，其中至少包含一個維度和一個量度。
 
-   ![](assets/qibuilder4.png)
+  ![](assets/qibuilder4.png)
 
 * **劃分依據**：您最多可對維度使用 3 個層級的劃分，以深入鑽研您真正需要的資料。
 
-   ![](assets/qibuilder5.png)
+  ![](assets/qibuilder5.png)
 
 * **新增更多量度**：您可以使用 AND 運算子在表格中額外新增最多 2 個量度。
 
-   ![](assets/qibuilder6.png)
+  ![](assets/qibuilder6.png)
 
 * **新增更多區段**：您可以使用 AND 或 OR 運算子，在表格中額外新增最多 2 個區段。新增「行動使用者」OR「忠誠訪客」後，請查看表格有何變更。兩者彼此相鄰，位於量度上方。如果您新增「行動使用者」AND「忠誠訪客」，您將會同時看到這兩個區段的結果，且這些結果會相互堆疊在表格中。
 
-   ![](assets/qibuilder7.png)
+  ![](assets/qibuilder7.png)
 
 ## 已知限制
 
