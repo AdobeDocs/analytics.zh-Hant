@@ -3,7 +3,7 @@ title: 最新 Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: ce2a6c9607b252150a2f8c87befb86837869fe66
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 100%
@@ -22,7 +22,7 @@ Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許�
 | ----------- | ---------- | ------- | ---- |
 | **設定雲端帳戶儲存位置以擷取分類資料** | 您現在可以管理用來進行分類集自動化的雲端帳戶儲存位置。[了解更多](/help/components/locations/configure-import-accounts.md)<p> | 不適用 | 2023 年 7 月 10 日 |
 | **資料修復篩選器增強功能** | 資料修復新增了三項篩選增強功能：<ul><li>按一項變數篩選，可修改第二個變數。例如，如果 `eVar2` 包含 &quot;@&quot;，那麼刪除 `eVar3`。</li><li>數值或非數值的篩選</li><li>使用 AND 套用在多個篩選器。例如，`eVar2="a"` 和 `eVar3="b"`</li></ul>[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) | 2023 年 6 月 21 日 | 2023 年 7 月 12 日 |
-| **資料摘要匯出的安全目標** | 現在可以將資料摘要傳送到以下雲端儲存空間目標：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再建議使用以前提供的目標 (FTP、SFTP、S3 和 Azure Blob)。[了解更多](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant) | 2023 年 6 月 12 日 | 2023 年 7 月 15 日 |
+| **資料摘要匯出的安全目標** | 現在可以將資料摘要傳送到以下雲端儲存空間目標：<ul><li>Amazon S3</li><li>Azure RBAC</li><li>Azure SAS</li><li>Google Cloud Platform</li></ul>不再建議使用以前提供的目標 (FTP、SFTP、S3 和 Azure Blob)。[了解更多](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/create-feed.html?lang=zh-Hant) | 2023 年 6 月 12 日 | 2023 年 7 月 13 日 |
 | **新的 AppMeasurement 變數** | 變數 `decodeLinkParameters` 會配合邊緣案例，在這種情況下，實作會在連結追蹤變數中對多位元組字元進行編碼。大多數實作不需要定義此變數。[了解更多](../implement/vars/config-vars/decodelinkparameters.md) |  | 2023 年 7 月 17 日 |
 
 {style="table-layout:auto"}

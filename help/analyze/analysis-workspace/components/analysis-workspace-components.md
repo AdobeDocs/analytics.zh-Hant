@@ -4,7 +4,7 @@ title: 元件概觀
 feature: Components
 role: User, Admin
 exl-id: e2c98c77-64ee-4349-956a-3ab092e36017
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
 source-wordcount: '1190'
 ht-degree: 100%
@@ -127,8 +127,6 @@ Analysis Workspace 中的元件包含維度、量度、區段及時間範圍；�
 4. (可選) 若要進一步整理清單，您可以依據[對元件清單進行排序](#sort-the-component-list)中的說明將元件清單排序。
 
 ### 將元件清單排序
-
-{{release-limited-testing-section}}
 
 1. (可選) 依據[篩選元件清單](#filter-the-component-list)中的說明，對元件清單套用任何篩選器。
 

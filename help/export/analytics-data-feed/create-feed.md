@@ -3,18 +3,14 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: 35f33c026a679526309b09b5af61fc3fd8041c39
+source-git-commit: f66cc6252ecd54c143c08be1e0e7e5bf90cc42e9
 workflow-type: tm+mt
-source-wordcount: '3209'
+source-wordcount: '3160'
 ht-degree: 20%
 
 ---
 
 # 建立資料摘要
-
->[!AVAILABILITY]
->
->此頁面上說明的某些目的地型別處於版本的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。有關 Analytics 發佈流程的資訊，請參閱 [Adobe Analytics 功能發佈](/help/release-notes/releases.md)。
 
 建立資料摘要時，您會為Adobe提供：
 
@@ -38,7 +34,7 @@ ht-degree: 20%
    此時會顯示一個頁面，其中包含三個主要類別： [!UICONTROL **摘要資訊**]， [!UICONTROL **目的地**]、和 [!UICONTROL **資料欄定義**].
 1. 在 [!UICONTROL **摘要資訊**] 區段，填入下列欄位：
 
-   | 欄位 | 函數 |
+   | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **名稱**] | 資料摘要的名稱。 在選取的報表套裝內不可重複，長度上限為 255 個字元。 |
    | [!UICONTROL **報告套裝**] | 資料摘要所在的報告套裝。 如果相同報表套裝中建立了多個資料摘要，它們必須各有不同的欄定義。只有來源報表套裝支援資料摘要，虛擬報表套裝並不受支援。 |
@@ -84,7 +80,7 @@ ht-degree: 20%
 
       1. 選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | 帳戶的名稱。 這可以是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | 帳戶的描述。 |
@@ -95,7 +91,7 @@ ht-degree: 20%
 
          1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
          | [!UICONTROL **說明**] | 帳戶的描述。 |
@@ -142,19 +138,19 @@ ht-degree: 20%
 
       1. 選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | Azure RBAC帳戶的名稱。 此名稱會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可為您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | Azure RBAC帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可為您選擇的任何名稱。 |
          | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **機密**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Secret**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
       1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **名稱**] | 位置的名稱。 此名稱會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可為您選擇的任何名稱。 |
          | [!UICONTROL **說明**] | 位置的說明。 此說明會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可為您選擇的任何名稱。 |
@@ -202,7 +198,7 @@ ht-degree: 20%
 
       1. 選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | Azure SAS帳戶的名稱。 此名稱會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可為您選擇的任何名稱。 |
          | [!UICONTROL **帳戶刪除**] | Azure SAS帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可為您選擇的任何名稱。 |
@@ -210,13 +206,13 @@ ht-degree: 20%
          | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure Key Vault設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式的許可權。 如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中，位於 **金鑰儲存庫** 設定頁面。 如需詳細資訊，請參閱 [有關如何從Azure Key Vault設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
-         | [!UICONTROL **機密**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
+         | [!UICONTROL **Secret**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中選取「 」。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何透過Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
          {style="table-layout:auto"}
 
       1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **名稱**] | 位置的名稱。 此名稱會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可為您選擇的任何名稱。 |
          | [!UICONTROL **說明**] | 位置的說明。 此說明會顯示在 [!UICONTROL **選取位置**] 下拉式欄位，並可為您選擇的任何名稱。 |
@@ -261,7 +257,7 @@ ht-degree: 20%
 
       1. 選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **帳戶名稱**] | 帳戶的名稱。 這可以是您選擇的任何名稱。 |
          | [!UICONTROL **帳戶說明**] | 帳戶的描述。 |
@@ -272,7 +268,7 @@ ht-degree: 20%
 
          1. 選取 [!UICONTROL **新增位置**]，然後指定下列資訊：
 
-         | 欄位 | 函數 |
+         | 欄位 | 功能 |
          |---------|----------|
          | [!UICONTROL **主體**] | 主體由Adobe提供。 您必須授予許可權才能接收此主體的摘要。 |
          | [!UICONTROL **名稱**] | 帳戶的名稱。 |
@@ -290,7 +286,7 @@ ht-degree: 20%
 
 1. 在  [!UICONTROL **資料欄定義**] 區段，選取最新的 [!UICONTROL **所有Adobe Columns**] 範本，然後完成下列欄位：
 
-   | 欄位 | 函數 |
+   | 欄位 | 功能 |
    |---------|----------|
    | [!UICONTROL **移除逸出字元**] | 收集資料時，某些字元（例如新行）可能會導致問題。 如果您想要從摘要檔案中移除這些字元，請勾選此方塊。 |
    | [!UICONTROL **壓縮格式**] | 使用的壓縮型別。 **** Gzip 會輸出 `.tar.gz` 格式的檔案。**** Zip 會輸出 `.zip` 格式的檔案。 |
