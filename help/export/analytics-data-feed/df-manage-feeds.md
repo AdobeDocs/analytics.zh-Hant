@@ -3,10 +3,10 @@ title: 資料摘要 UI
 description: 瞭解如何使用資料摘要介面。
 feature: Data Feeds
 exl-id: 4d4f0062-e079-48ff-9464-940c6425ad54
-source-git-commit: 0916ef4ddc2ca65f01721f4d79d7af825dcf50e3
+source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 97%
+source-wordcount: '656'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,11 @@ ht-degree: 97%
 
 請依照下列步驟存取資料摘要管理功能:
 
-1. 登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
-2. 按一下右上方的 9 格線圖示，然後按一下 [!UICONTROL Analytics]。
-3. 在上方功能表中按一下[!UICONTROL 管理員] > [!UICONTROL 資料摘要]。
+1. 使用您的 Adobe ID 認證登入 [experiencecloud.adobe.com](https://experiencecloud.adobe.com)。
+1. 選取右上角的9個方塊圖示，然後選取「 」 [!UICONTROL **分析**].
+1. 在頂端導覽列中，前往 [!UICONTROL **管理員**] > [!UICONTROL **資料摘要**].
 
-![資料摘要功能表](assets/AdminMenu.png)
-
-## 使用介面
+## 瀏覽介面
 
 資料摘要管理員頁面的介面外觀如下:
 
@@ -36,27 +34,25 @@ ht-degree: 97%
 
 ### 篩選與搜尋
 
-請使用篩選和搜尋找出您要尋找的確切摘要。
+使用搜尋或篩選來找出特定摘要。
 
-在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。按一下 > 形箭號即可收折或展開篩選類別。按一下核取方塊即可套用該篩選器。
+* 在搜尋欄位中，開始輸入摘要的名稱。 可用的摘要清單中只會顯示相符的摘要。
 
-![篩選](assets/filters.jpg)
+* 在最左側，按一下篩選器圖示來顯示或隱藏篩選選項。篩選器分成不同類別。您可以收合或展開篩選類別。 選取您要套用之任何篩選器旁的核取方塊。
 
-透過搜尋來依名稱尋找摘要。
-
-![搜尋](assets/search.jpg)
+  ![篩選器](assets/filters.png)
 
 ### 摘要和作業
 
-按一下作業標籤，即可查看您的每個摘要所建立的個別作業。請參閱[管理資料摘要作業](df-manage-jobs.md)。
+選取 [!UICONTROL **工作**] 標籤來檢視您的每個摘要建立的個別作業。 請參閱[管理資料摘要作業](df-manage-jobs.md)。
 
 ### 新增
 
-在動態消息和作業標籤附近按一下 + [!UICONTROL 新增]按鈕以建立新的摘要。另請參閱 [建立資料摘要](create-feed.md) 以取得詳細資訊。
+此 [!UICONTROL 新增] 按鈕可讓您建立新的摘要。 另請參閱 [建立資料摘要](create-feed.md) 以取得詳細資訊。
 
 ### 「欄」
 
-每個已建立的摘要會顯示數個提供相關資訊的欄。按一下欄標題，即可以遞增順序排序。再按一下欄標題，就會以遞減順序排序。如果您看不到特定欄，請按一下右上方的欄圖示。
+每個已建立的摘要會顯示數個提供相關資訊的欄。選取欄標題，以遞增順序排序。 再次選取欄標題可依遞減順序排序。 如果您看不到特定欄，請按一下右上方的欄圖示。
 
 ![欄圖示](assets/cols.jpg)
 
