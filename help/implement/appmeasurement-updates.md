@@ -3,20 +3,28 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 5545497184d02400ce6844c0281c46e6c997e218
 workflow-type: tm+mt
-source-wordcount: '2323'
-ht-degree: 99%
+source-wordcount: '2368'
+ht-degree: 96%
 
 ---
 
 # JavaScript 適用的 AppMeasurement 版本注意事項
 
-JavaScript 適用的 [!DNL AppMeasurement] 累積版本注意事項。
+JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以在[代碼管理器](/help/admin/admin/code-manager-admin.md)中下載最新版的 AppMeasurement。
+您可以下載最新版本的AppMeasurement，網址為 [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 2.24.0 版本
+
+發行日期：**2023 年 7 月 18 日**
+
+* 新增選擇性設定（decodeLinkParameters預設為false），可解碼包含雙位元組編碼字元的連結URL。
+* 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器，新增其他錯誤處理。
+* 變更要使用的POSTContent-Type標頭 `x-www-form-urlencoded` 依預設。
 
 ## 2.23.0 版本
 
