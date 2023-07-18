@@ -3,7 +3,7 @@ title: decodeLinkParameters
 description: 啟用或停用AppMeasurement雙重編碼連結追蹤變數。
 exl-id: 7a4cea23-5ae6-4a8b-82a6-c68f9a1f9c49
 feature: Variables
-source-git-commit: 53f4048db02331e807edd4d55311861d2350efe3
+source-git-commit: e666a2efae01bad3cc3ccc5c8bfafe009a429588
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 7%
@@ -12,7 +12,7 @@ ht-degree: 7%
 
 # decodeLinkParameters
 
-此 `decodeLinkParameters` 變數是布林值，可判斷連結追蹤變數是否會編碼一次(若設為 `true`)或兩次(若設為 `false`)。 它只會影響 `linkName` (屬於 [`tl()`](../functions/tl-method.md) 方法)和 [`linkURL`](linkurl.md). 它需要AppMeasurement2.23.1或更高版本才能使用。 此變數的預設值為 `false`.
+此 `decodeLinkParameters` 變數是布林值，可判斷連結追蹤變數是否會編碼一次(若設為 `true`)或兩次(若設為 `false`)。 它只會影響 `linkName` (屬於 [`tl()`](../functions/tl-method.md) 方法)和 [`linkURL`](linkurl.md). 它需要AppMeasurement2.24.0或更新版本才能使用。 此變數的預設值為 `false`.
 
 在舊版AppMeasurement中，連結追蹤變數一律會經過URL編碼兩次。 雖然在通常依賴單位元組字元的實作中不成問題，但雙重編碼會在報告中為多位元組字元建立錯誤編碼的值。 將此變數設為 `true` 將連結追蹤值編碼一次，這通常是所需的行為。
 
