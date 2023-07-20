@@ -3,7 +3,7 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 39dc3821da20ca38851c648317eca67b4f702a04
+source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '2366'
 ht-degree: 96%
@@ -22,7 +22,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 發行日期：**2023 年 7 月 18 日**
 
-* 新增選用設定(`decodeLinkParameters` 預設為false)，會解碼包含雙位元組編碼字元的連結URL。
+* 新增選用設定(`decodeLinkParameters`  — 預設值= false)，會解碼包含雙位元組編碼字元的連結URL。
 * 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器，新增其他錯誤處理。
 * 變更要使用的POSTContent-Type標頭 `x-www-form-urlencoded` 依預設。
 
