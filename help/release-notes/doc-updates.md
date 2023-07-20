@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
+source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
 workflow-type: tm+mt
-source-wordcount: '4490'
+source-wordcount: '4503'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 7 月** | |
+| 更新FTP大小限制 | 已將預設 [FTP 資料儲存空間限制](/help/export/ftp-and-sftp/ftp-limits.md)變更為 100 GB。 |
 | 新的 AppMeasurement 變數 | 變數 `decodeLinkParameters` 會配合邊緣案例，在這種情況下，實作會在連結追蹤變數中對多位元組字元進行編碼。[了解更多](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
 | 分類集的新功能 | [分類集](/help/components/classifications/sets/overview.md)有多項新功能更新：<ul><li>**合併**：將多項分類集合併為單一的分類集。合併的分類設定可以像其他分類設定一樣使用，或當作Customer Journey Analytics中的查閱資料設定使用。 [了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據分類集中的規則自動對值進行分類。[了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：從雲端儲存空間目的地自動匯入分類資料。[了解更多](../components/classifications/sets/manage/schema.md)</li></ul> |
