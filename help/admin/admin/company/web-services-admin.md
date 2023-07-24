@@ -3,10 +3,10 @@ description: 「網站服務 API」可程式化地存取行銷報告和其他「
 title: 網站服務
 feature: Company Settings
 exl-id: d003d40e-b0b6-44f3-b9ef-ce6af61f5eb5
-source-git-commit: 5a5a1e48e348f614cb0f0356404903c16c55ceb8
+source-git-commit: d2a644d1b655153e1ad509bf9065c390d9226cfc
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 100%
+source-wordcount: '279'
+ht-degree: 85%
 
 ---
 
@@ -14,9 +14,14 @@ ht-degree: 100%
 
 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。
 
-**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 網頁服務]**
+**[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 公司設定]** > **[!UICONTROL 網頁服務]** 或 **API存取**
 
-## 管理網頁服務
+
+## Analytics 2.0 API
+
+若要存取Analytics 2.0 API，您需要您的Analytics公司的全球公司ID。 您可以找到目前登入的全球公司ID **粗體** 在本節中。
+
+## 管理舊版網站服務（已棄用）
 
 在 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 中，您可以更新權限，以納入那些需要存取網頁服務 API 的使用者。
 

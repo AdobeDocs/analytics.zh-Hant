@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 2673f684c5111f94a7f3f6c65872bf0ebe3e7a57
+source-git-commit: 9a6728de91ac968c5ff4eb28217b5ea1d11513f8
 workflow-type: tm+mt
-source-wordcount: '4503'
-ht-degree: 99%
+source-wordcount: '4529'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 7 月** | |
+| 全球公司ID | 已記錄 [如何尋找全球公司id](../admin/admin/company/web-services-admin.md) （您所登入的Analytics公司）。 Analytics 2.0 API需要此ID。 |
 | 更新FTP大小限制 | 已將預設 [FTP 資料儲存空間限制](/help/export/ftp-and-sftp/ftp-limits.md)變更為 100 GB。 |
 | 新的 AppMeasurement 變數 | 變數 `decodeLinkParameters` 會配合邊緣案例，在這種情況下，實作會在連結追蹤變數中對多位元組字元進行編碼。[了解更多](../implement/vars/config-vars/decodelinkparameters.md) |
 | **2023 年 6 月** | |
