@@ -5,9 +5,9 @@ user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: 50d6094a5b849bc16a02b3e59f9b40f19c86eee3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '724'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 88%
    + [平均作業長度](metrics/average-session-length.md)
    + [網站平均逗留時間](metrics/average-time-on-site.md)
    + [機器人發生次數](metrics/bot-occurrences.md)
-   + [機器人頁面檢視](metrics/bot-page-views.md)
+   + [機器人頁面檢視次數](metrics/bot-page-views.md)
    + [跳出率](metrics/bounce-rate.md)
    + [跳出數](metrics/bounces.md)
    + [購物車新增](metrics/cart-additions.md)
@@ -177,18 +177,18 @@ ht-degree: 88%
       + [Data Warehouse 區段相容性](segmentation/seg-reference/seg-compatibility.md)
       + [不同角色的區段權限](segmentation/seg-reference/seg-rights.md)
       + [疑難排解](segmentation/seg-reference/c-troubleshooting.md)
-   + [有關管理舊式區段的常見問題集](segmentation/seg-transition.md)
+   + [關於管理舊式區段的常見問題集](segmentation/seg-transition.md)
    + [最佳做法](segmentation/best-practices.md)
 + 計算量度 {#calculated-metrics}
-   + [計算與進階計算（衍生）量度](c-calcmetrics/cm-overview.md)
-   + [操作說明影片](c-calcmetrics/cm-videos.md)
+   + [計算與進階計算 (衍生) 量度](c-calcmetrics/cm-overview.md)
+   + [作法影片](c-calcmetrics/cm-videos.md)
    + 計算量度工作流程 {#calcmetric-workflow}
       + [計算量度工作流程](c-calcmetrics/c-workflow/cm-workflow/cm-workflow.md)
       + [尋找量度](c-calcmetrics/c-workflow/cm-workflow/cm-finding.md)
       + [建置量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-build-metrics.md)
       + [建立「每次造訪頁面瀏覽數」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-pvv.md)
-      + [建立「訂購協助」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
-      + [建置「參與率」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
+      + [建立「訂單協助」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-orders-participation.md)
+      + [建立「參與率」量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md)
       + [量度類型和歸因](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/m-metric-type-alloc.md)
       + [區段量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/metrics-with-segments.md)
       + [堆疊和取代區段](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-stack-seg.md)
@@ -197,7 +197,7 @@ ht-degree: 88%
       + [標記計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
       + [核准計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共用計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
-      + [計算量度管理員](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
+      + [計算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 量度參考資料 {#calcmetrics-reference}
       + [參考資料：基本函數](c-calcmetrics/cm-reference/cm-functions.md)
       + [參考資料：進階函數](c-calcmetrics/cm-reference/cm-adv-functions.md)
@@ -235,17 +235,17 @@ ht-degree: 88%
 + 分類 {#classifications}
    + [分類總覽](classifications/c-classifications.md)
    + 分類集 {#sets}
-      + [分類設定概觀](classifications/sets/overview.md)
-      + 管理分類設定 {#manage}
-         + [分類設定管理員](classifications/sets/manage/set-manager.md)
-         + [建立分類設定](classifications/sets/manage/create.md)
-         + [分類設定設定](classifications/sets/manage/settings.md)
-         + [分類設定結構描述](classifications/sets/manage/schema.md)
-         + [分類設定規則](classifications/sets/manage/rules.md)
-      + [分類設定作業管理員](classifications/sets/job-manager.md)
-      + 分類設定合併 {#consolidations}
-         + [分類設定合併管理員](classifications/sets/consolidations/manage.md)
-         + [分類設定合併程式](classifications/sets/consolidations/process.md)
+      + [分類集概觀](classifications/sets/overview.md)
+      + 管理分類集 {#manage}
+         + [分類集管理員](classifications/sets/manage/set-manager.md)
+         + [建立分類集](classifications/sets/manage/create.md)
+         + [分類集設定](classifications/sets/manage/settings.md)
+         + [分類集綱要](classifications/sets/manage/schema.md)
+         + [分類集規則](classifications/sets/manage/rules.md)
+      + [分類集工作管理員](classifications/sets/job-manager.md)
+      + 分類集整合 {#consolidations}
+         + [分類集整合管理員](classifications/sets/consolidations/manage.md)
+         + [分類集整合流程](classifications/sets/consolidations/process.md)
    + 分類規則產生器 {#classifications-rulebuilder}
       + [分類規則產生器工作流程](classifications/crb/classification-rule-builder.md)
       + [分類規則集](classifications/crb/classification-rule-set.md)
@@ -269,7 +269,7 @@ ht-degree: 88%
    + [子分類](classifications/c-sub-classifications.md)
    + [分類常見問答](classifications/faq.md)
 + 位置 {#locations}
-   + [位置管理員](/help/components/locations/locations-manager.md)
+   + [地點管理員](/help/components/locations/locations-manager.md)
    + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
    + [雲端匯入位置](/help/components/locations/configure-import-locations.md)
 + [行事曆事件](t-calendar-event.md)
