@@ -4,9 +4,9 @@ description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
 source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '210'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 | `Product page` | `500` |
 | `Purchase page` | `100` |
 
-如果您找不到指定量度的說明頁面，可能是 [自訂事件](custom-events.md) 或 [計算量度](../c-calcmetrics/cm-overview.md).
+如果您找不到特定量度的說明頁面，就表示它可能是[自訂事件](custom-events.md)或[計算量度](../c-calcmetrics/cm-overview.md)。
 
 * 如果量度是自訂事件，請洽詢您組織內的 Analytics 管理員，或報表套裝的[解決方案設計文件](/help/implement/prepare/solution-design.md)。
 * 如果量度是計算量度，請按一下資訊圖示以確認其公式。
@@ -31,6 +31,6 @@ ht-degree: 78%
 
 Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中新增量度和其他元件的說明。有關如何將說明新增至量度的資訊，請參閱[新增元件說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)。
 
-## 在Analysis Workspace中使用量度
+## 在 Analysis Workspace 中使用量度
 
-如需如何在Analysis Workspace中使用量度的詳細資訊，請參閱以下主題中的「在Analysis Workspace中使用量度」： [量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md).
+如需有關如何在 Analysis Workspace 中使用量度的資訊，請參閱[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的「在 Analysis Workspace 中使用量度」。
