@@ -5,9 +5,9 @@ title: Analytics 資料摘要總覽
 feature: Data Feeds
 exl-id: 2cfff9ad-cdb5-4ae9-a266-4f3d3d046f0c
 source-git-commit: 84bdeb5d502e46c922fc5123fcdd5b6819426c0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '314'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 69%
 
 在使用資料摘要之前，請確認您符合下列所有需求。
 
-* 可傳送資料至 Adobe 資料收集伺服器的有效實作。另請參閱 [驗證和發佈實作](/help/implement/launch/validate-publish-prod.md) （在實施指南中）。
-* 您的帳戶為 Analytics 產品管理員，或者屬於具有資料摘要存取權的產品設定檔。
-* 在Amazon S3、Google Cloud Platform、Azure RBAC或Azure SAS上設定的貯體。
-* （舊版：舊版FTP和SFTP目的地型別僅需使用此功能）擁有可用的FTP站台和憑證（您的組織提供的FTP憑證）。
+* 可傳送資料至 Adobe 資料收集伺服器的有效實作。請參閱實作指南中的[驗證和發佈實作](/help/implement/launch/validate-publish-prod.md)。
+* 您的帳戶為 Analytics 產品管理員，或是您的帳戶屬於具有資料摘要存取權的產品設定檔。
+* 在 Amazon S3、Google Cloud Platform、Azure RBAC 或 Azure SAS 上設定的貯體。
+* (舊版：僅有舊版 FTP 和 SFTP 目標類型需要) 準備好 FTP 網站和認證 (由您組織提供的 FTP 認證。)
 
 ## 後續步驟
 
-下列資源可協助您瞭解取得資料摘要的基本工作流程。 瞭解基本工作流程後，您可以與組織內的團隊合作，將原始資料儲存或擷取到資料庫中。
+以下資源可幫助您了解取得資料摘要的基本工作流程。了解基本工作流程之後，您就可以與組織內的團隊合作，將原始資料儲存或收錄至資料庫。
 
-* [資料摘要最佳作法](/help/export/analytics-data-feed/data-feeds-best-practices.md)：建立和管理資料摘要的最佳作法。
+* [資料摘要最佳實務](/help/export/analytics-data-feed/data-feeds-best-practices.md)：建立和管理資料摘要的最佳實務。
 * [建立資料摘要](create-feed.md)：建立資料摘要的技術詳細資訊，詳細說明個別欄位
 * [管理資料摘要](df-manage-feeds.md)：深入了解如何導覽資料摘要介面
 * [資料摘要內容](c-df-contents/datafeeds-contents.md)：了解壓縮檔案內容 <!-- Is this still the output users can download from the destination? I aske Jun. -->
-* [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單.
-* 資料摘要介面影片導覽:
+* [資料欄定義](c-df-contents/datafeeds-reference.md)：所有可用欄的完整清單。
+* 資料摘要介面影片導覽：
 
   >[!VIDEO](https://video.tv.adobe.com/v/25452/?quality=12)
 
