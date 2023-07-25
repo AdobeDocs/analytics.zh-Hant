@@ -5,9 +5,9 @@ role: User, Admin
 feature: Analytics Basics
 exl-id: 0a2fb778-491a-4dc3-aae4-afadb3ab1a1e
 source-git-commit: 57b439dac433c4d99d4f2029760f324f8404a920
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4071'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 | **[!UICONTROL Report &amp; Analytics]** 報表的新連結 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 受眾]** > **[!UICONTROL 機器人頁面]**<li>**[!UICONTROL 報表]** > **[!UICONTROL 參與度]** > **[!UICONTROL 即時]**</li></ul> | ![新連結](assets/report-links.png) |
 | 全新現成可用的報表 | <ul><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 下一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 最受歡迎]** > **[!UICONTROL 上一頁]**</li><li>**[!UICONTROL 報表]** > **[!UICONTROL 參與杜]** > **[!UICONTROL 頁面分析]** > **[!UICONTROL 頁面摘要]**</li></ul>注意，這些報表為[!UICONTROL 工作區]格式，並需要設定和建置。輸出由高層級量度的面板、趨勢資料、[!UICONTROL 流量]視覺化等組成。您可修改這些報表並變更維度、維度項目等。這些報表也能在工作區面板下以面板的方式提供。 | ![下一頁](assets/next-page.png) |
 | **[!UICONTROL 建立專案]**&#x200B;模組回來了 | 只要在工作區中按一下&#x200B;**[!UICONTROL 「建立專案」]**，您就能再度在[!UICONTROL 空白專案]和[!UICONTROL 空白行動計分卡]之間進行選擇。 您還可以從您公司已建立的任何範本中進行選擇。 | ![新建](assets/create-new.png) |
-| 在 Customer Journey Analytics 中也可取得 | 此登入頁面的修改格式也適用於Customer Journey Analytics。 |  |
+| 在 Customer Journey Analytics 中也可取得 | Customer Journey Analytics 中也可以找到此登陸頁面修改後的格式。 |  |
 
 {style="table-layout:auto"}
 
@@ -101,30 +101,30 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ## 瀏覽至「[!UICONTROL 報表]」標籤。 {#navigate-reports}
 
-此 [!UICONTROL 報表] 索引標籤可整合下列報表集：
+「[!UICONTROL 報告]」標籤會整合以下的報告集：
 
 * 預先建立的[!UICONTROL 工作區] 範本；即先前位於「[!UICONTROL 工作區] > [!UICONTROL 專案] > [!UICONTROL 全新]」的範本。Adobe 不再於此內容中使用「範本」一字。
 * 多數預先建立的報表在先前 Adobe Analytics [!UICONTROL 報表]上方功能表的下面。這些報表現在顯示在 [Analysis Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=zh-Hant) 中。
 
 >[!NOTE]
 >
->使用報表時，請考量下列事項：
+>使用報告時，請考慮以下情況：
 >* 在「報表」下，只有當您將新報表標籤為「我的最愛」時，才會顯示「我的最愛」檔案夾。沒有預先存在的 Reports &amp; Analytics「我的最愛」移轉過來。
->* 只有先前在Reports &amp; Analytics中分組的最常用報表才可供使用。 少數很少使用或不再相關的報表已不再提供。 請參閱 [登陸頁面常見問題集](#landing-page-faq) 詳細資訊，請參閱下文。
+>* 僅提供先前在 Reports &amp; Analytics 中分組的最常用報告。一小部分很少使用或不再相關的報告不再適用。請參閱下方的[登陸頁面常見問題](#landing-page-faq)以了解更多詳細資訊。
 
-![「報表」索引標籤](assets/reports-tab2.png)
+![「報告」標籤](assets/reports-tab2.png)
 
 
 ### 檢視報告 {#menus}
 
-1. 前往「[!UICONTROL **報表**]」標籤。
-1. 使用搜尋欄位來搜尋特定報告。
+1. 前往「[!UICONTROL **報告**]」標籤。
+1. 使用搜尋欄位搜尋特定的報告。
 
    或
 
-   導覽至您要檢視的報告。
+   瀏覽到您想要檢視的報告。
 
-   可使用的報表包括：
+   可使用的報告如下：
 
    | 功能表項目 | 在此功能表項目下的報表 |
    | --- | --- |
@@ -136,41 +136,41 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ### 檢視和儲存報告 {#use-reports}
 
-如果您在進行變更後離開報表，系統會提示您儲存或捨棄變更。 儲存對報告的變更會將報告另存為新專案。
+如果您在變更報告後要離開並瀏覽其他頁面，系統會提示您儲存或捨棄變更。儲存報告的變更會將報告另存為新專案。
 
-1. 前往「[!UICONTROL **報表**]」標籤。
-1. 選取您要檢視的報告。例如，在 [!UICONTROL **最受歡迎**]，選取 [!UICONTROL **頁面**] 報告。
+1. 前往「[!UICONTROL **報告**]」標籤。
+1. 選取您要檢視的報告。例如，在「[!UICONTROL **最受歡迎**]」下方，選取「[!UICONTROL **頁面**]」報告。
 
    ![頁面報告](assets/pages-report.png)
 
 1. 「頁面」報表 (如 Analysis Workspace 中所顯示) 會顯示兩種[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md) ([橫條圖](/help/analyze/analysis-workspace/visualizations/bar.md)和[摘要數字](/help/analyze/analysis-workspace/visualizations/summary-number-change.md)) 和一個 [自由表格](/help/analyze/analysis-workspace/visualizations/freeform-table/freeform-table.md)。使用的量度為發生次數。
-1. 執行下列任一項作業：
+1. 執行以下任一操作：
 
-   * 檢視報表。
-   * 將一或多個區段拖曳至頂端的「區段」拖放區域。 例如，拖曳區段 [!UICONTROL **行動客戶**] 並檢視結果。
-   * 前往右上方的行事曆變更日期範圍。
-   * 新增維度劃分、拖曳其他量度，且通常會根據您的需求自訂報表。
+   * 檢視報告。
+   * 將一或多個區段拖曳到頂部的「區段」放置區。例如，拖曳「[!UICONTROL **Mobile 客戶**]」區段，然後檢視結果。
+   * 前往右上方的行事暦，變更日期範圍。
+   * 新增維度劃分、在其他量度中拖曳，且通常會根據您的需求自訂報告。
 
-1. （選用）選取下列專案將報表儲存為專案 [!UICONTROL **專案**] > [!UICONTROL **儲存**].
+1. (選用) 選取「[!UICONTROL **專案**]」>「[!UICONTROL **儲存**]」，將報告將另存為專案。
 
-   這會將報告另存為新專案；它不會修改現有報告。 如需將報表儲存為專案的詳細資訊，請參閱中的「從空白專案或報表建立專案」 [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   這樣會將報告另存為新專案，不會修改現有的報告。如需更多有關將報告另存為專案的資訊，請參閱[建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的「從空白專案或報告建立專案」。
 
 ### 建立一份自訂的公司報表 {#company-report}
 
 供您登入公司他人使用而建立並儲存的自訂報告稱為公司報告。 以前建立的公司報表和新建立的公司報表列在「建立專案」模式中 (如下所示)。
 
-若要建立新的公司報表：
+若要建立新的公司報告：
 
-1. 在Analysis Workspace中建置專案至您想要的狀態。
-1. 選取 [!UICONTROL **專案**] > **[!UICONTROL 另存為公司報表……]**.
+1. 在 Analysis Workspace 中將專案建置成您想要的狀態。
+1. 選取「[!UICONTROL **專案**]」>「**[!UICONTROL 另存為公司報告...]**」。
 
-   ![公司報表](assets/company-report.png)
+   ![公司報告](assets/company-report.png)
 
-1. 更新報表名稱、新增說明並新增任何標籤，然後選取「 」 [!UICONTROL **另存為公司報表**].
+1. 更新報告的名稱、新增說明並新增任何標籤，然後選取「[!UICONTROL **另存為公司報告**]」。
 
-   此報表會新增至「建立專案」強制回應視窗的「公司報表」清單中，且可供您登入公司的使用者使用。
+   該報告會新增至「建立專案」模式的「公司報告」清單中，並可供登入公司的使用者使用。
 
-   如需使用者如何根據公司報告建立專案的詳細資訊，請參閱中的「從空白專案或報告建立專案」。 [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md).
+   如需更多有關使用者如何根據公司報告建立專案的資訊，請參閱[建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)中的「從空白專案或報告建立專案」。
 
 更多學習選項：
 
@@ -179,14 +179,14 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 * 以下為[完成 Analysis Workspace 文件](/help/analyze/analysis-workspace/home.md)的連結。
 * 以下是 [Analysis Workspace 的 YouTube 完整播放清單](https://www.youtube.com/playlist?list=PL2tCx83mn7GuNnQdYGOtlyCu0V5mEZ8sS)。
 
-### 管理公司報表 {#manage-company-reports}
+### 管理公司報告 {#manage-company-reports}
 
-管理員可以篩選項目清單以顯示和管理公司報表。 釘選項目保持釘選狀態，後面接著有![報表圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)報表圖示識別的公司報表清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報表或加標記。
+管理員可以篩選專案清單以顯示和管理公司報告。釘選項目保持釘選狀態，後面接著有![報表圖示](https://spectrum.adobe.com/static/icons/workflow_18/Smock_FileTemplate_18_N.svg)報表圖示識別的公司報表清單。 在此視圖中，您可以刪除、重命名、核准一個或多個報表或加標記。
 
 顯示和管理公司報表
 
 1. 在篩選欄中，選取「**其他篩選器**」，然後選取「**公司報表**」。
-顯示公司報表清單。 除非已釘選，否則不會顯示所有一般專案。
+顯示公司報表清單。 除非已釘選，否則不會顯示所有的一般專案。
 
    ![顯示公司報表篩選器](assets/company-reports-filter.png)
 
@@ -238,22 +238,22 @@ Adobe Analytics 的登陸頁面會將 [!DNL Analysis Workspace] 和 [!DNL Report
 
 ## 使用「學習」標籤 {#navigate-learning}
 
-「學習」頁面包含實作影片導覽、教學課程和檔案連結。
+「學習」頁面包含實作影片導覽、教學課程和文件連結。
 
-使用Adobe Analytics中的「學習」頁面來瞭解Adobe Analytics中的初學者、中繼或進階功能和使用案例。
+使用 Adobe Analytics 中的「學習」頁面學習 Adobe Analytics 的初級、中級或進階功能和使用案例。
 
-### 存取學習頁面
+### 存取「學習」頁面
 
-1. 在Adobe Analytics中選取 [!UICONTROL **Workspace**] > [!UICONTROL **學習**].
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **工作區**]」>「[!UICONTROL **學習**]」。
 
-### 學習頁面功能
+### 「學習」頁面功能
 
-* **篩選內容：** 左側欄中的「篩選」圖示可讓您依體驗層級（初級、中級或進階）和內容型別（檔案、影片或導覽和教學課程）篩選學習內容。
-* **追蹤進度：** 選取一段內容後， **[!UICONTROL 已檢視]** 標籤隨即顯示。 此標籤可幫助您透過學習內容追蹤您的進度。您可以選取 **[!UICONTROL 已檢視]** 標籤將其從內容片段中移除。
-* **檢視其他內容：** 檢視任何影片時，請選取 **[!UICONTROL 瞭解更多]** 按鈕以檢視Experience League的相關檔案內容。 或者，從「學習」頁面中，選取下列任一選項以檢視其他內容：
-   * **[!UICONTROL 造訪YouTube]：** 檢視完整的Analysis Workspace YouTube播放清單。
-   * [!UICONTROL **造訪Experience League**]：在Experience League上檢視完整的Adobe Analytics檔案。
-* **新使用者的基本知識：** 此 [!UICONTROL 工作區基礎知識] 建議新使用者參閱導覽。 此導覽可讓您直接進入工作區，並逐步瞭解最常見的操作。 此導覽也可以隨時在Workspace中透過面板標題的工具提示快顯視窗重新啟動。
+* **篩選內容：**&#x200B;左側邊欄中的「篩選器」圖示可讓您依照經驗級別 (初級、中級或進階) 以及依照內容類型 (文件、影片或導覽和教學課程) 篩選學習內容。
+* **追蹤進度：**&#x200B;選取一段內容後，會出現「**[!UICONTROL 已檢視]**」標記。此標記可幫助您透過學習內容來追蹤進度。您可以選取「**[!UICONTROL 已檢視]**」標記，將其從內容中移除。
+* **檢視其他內容：**&#x200B;觀看任何影片時，選取「**[!UICONTROL 深入了解]**」按鈕可檢視 Experience League 上的相關文件內容。或者，從「學習」頁面中選取以下任一選項可檢視其他內容：
+   * **[!UICONTROL 造訪 YouTube]：**&#x200B;檢視完整的 Analysis Workspace YouTube 播放清單。
+   * [!UICONTROL **造訪 Experience League**]：檢視有關 Experience League 的全套 Adobe Analytics 文件。
+* **適用於新使用者的基礎知識：**&#x200B;建議新使用者使用此「[!UICONTROL 工作區基礎知識]」導覽。此導覽將直接帶您進入工作區，並為您逐步說明最常見的動作。您也可以透過面板標題的工具提示快顯視窗，直接在工作區中重新啟動此導覽。
 
 ## 設定您的登陸頁面 {#set-landing}
 
