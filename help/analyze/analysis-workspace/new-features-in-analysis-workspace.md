@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8267'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 98%
 | 歸因 IQ：演算法歸因 | Analysis Workspace 的演算法歸因模型會使用統計技術，以動態方式決定所選量度的最佳評分配置。可供 Adobe Analytics Ultimate 客戶使用。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/algorithmic.html) |
 | 歸因 IQ：自訂回顧期間 | 您現在可以在歸因 IQ 設定任何歸因模型，以納入報表統計時段前最多 90 天的接觸點。這通常會計算之前月份的互動，以提高報表統計期間前期所發生之事件的歸因準確度。可供 Adobe Analytics Foundation、Select、Prime、Premium、Premium Attribution、Premium Complete 和 Ultimate 客戶使用。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=zh-Hant#lookback-windows) |
 | 共用 Workspace 專案的專案角色 | 共用工作區專案時，您現在可以根據您希望收件者擁有的專案體驗，將收件者置於下列三個專案角色之一：編輯、複製和檢視。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant) |
-| 僅限檢視的 Workspace 專案 | 工作區專案只能以「可檢視」的形式與使用者共用。 當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant) |
+| 僅限檢視的 Workspace 專案 | 工作區專案僅能以「可檢視」狀態與使用者共用。當「檢視」收件者開啟共用專案時，獲得的專案體驗限制較嚴格，除了沒有左側欄，互動也會受限。 [了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/view-only-projects.html?lang=zh-Hant) |
 | 可共同編輯 Workspace 專案 | 新增至「可編輯」角色的收件者可在已與其共用的專案中執行儲存作業。無論管理員或非管理人員均適用。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html) |
 | 更新的空白面板 | 空白面板現增設多種面板和視覺效果，為您提供更順暢的操作方式，以便您挑選最適合的分析工作流程。 |
 | 快速深入分析面板 (2020 年 6 月 25 日) | 快速深入分析為 Analysis Workspace 的非分析師和新使用者提供指引，瞭解如何快速輕鬆回答業務問題。[了解更多...](/help/analyze/analysis-workspace/c-panels/quickinsight.md) |
@@ -133,8 +133,8 @@ ht-degree: 98%
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 更新為自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html?lang=zh-Hant)。以前只有區段會影響總計。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
-| 移除「未指定/無」的選項 | 可輕鬆移除「未指定（無）」的功能已新增為報表篩選器的選項。 |
+| 更新為自由表格總計 | 自由表格現在包含兩個總計，分別是&#x200B;**[!UICONTROL 表格總計]**&#x200B;和&#x200B;**[!UICONTROL 總量]**。表格總計列計入套用的[報表篩選器](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/filter-and-sort.html)。以前只有區段會影響總計。[深入了解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.html)<br/>此外，**[!UICONTROL 「顯示總計」]**&#x200B;和&#x200B;**[!UICONTROL 「顯示總量」]**&#x200B;選項已新增至&#x200B;**[!UICONTROL 「欄設定」]**。<br/>自由表格總計經過此變更後，相依的視覺效果也會隨之更新 (例如連結的&#x200B;**[!UICONTROL 摘要數字]**&#x200B;視覺效果)，以及匯出的 CSV 和 PDF 資料。 |
+| 移除「未指定/無」的選項 | 可輕鬆移除「未指定 (無)」的功能已新增為報告篩選器的選項。 |
 | 取代紫色粒度元件 | 紫色粒度時間元件 (分鐘、小時、日、周、月、季、年) 已遭取代。紫色時間元件的行為一向會與其橘色維度元件完全相同，因此這項變更可簡化體驗。如果您先前已使用其中一個紫色時間元件，則&#x200B;**不需要採取任何動作**。<br/>透過這項變更，紫色&#x200B;**[!UICONTROL 時間]**&#x200B;區段也已重新命名為&#x200B;**[!UICONTROL 日期範圍]**。 |
 
 ## 2019 年 8 月
@@ -143,7 +143,7 @@ ht-degree: 98%
 
 | 增強功能 | 說明 |
 |--- |--- |
-| 將靜態下拉式篩選器的項目上限從50個提高至200個 | 靜態下拉式篩選器中可放置的項目限制從50增加為200。 此增強功能適合多種使用案例，例如將所有國家/地區 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
+| 將靜態下拉式篩選器的項目上限從 50 個增加至 200 個 | 可在靜態下拉式篩選器中放置的項目上限從 50 個增加到 200 個。此增強功能適合多種使用案例，例如將所有國家/地區 (195) 新增至篩選條件，或新增所有美國州和省 (52)。 |
 
 ## 2019 年 7 月
 
@@ -204,8 +204,8 @@ ht-degree: 98%
 
 | 功能 | 說明 |
 | --- | --- |
-| 面板下拉式清單管理 | 面板下拉式清單的管理會進行一些變更。 以滑鼠右鍵按一下下拉式清單時，您現在可以刪除下拉式清單、刪除標籤（如果顯示標籤）或新增標籤（如果未顯示標籤）。 |
-| 面板的連結和視覺效果工具提示 | 新增相關影片和檔案至面板的連結，以及視覺效果工具提示。 |
+| 面板下拉式清單管理 | 對面板下拉式清單的管理進行了一些變更。在下拉式清單按一下滑鼠右鍵時，現在可以刪除下拉式清單、刪除標籤 (如果顯示標籤)，或新增標籤 (如果沒有顯示標籤)。 |
+| 面板的連結和視覺效果工具提示 | 將相關影片和文件連結到面板，且新增視覺效果工具提示。 |
 
 ## 2018 年 9 月
 
