@@ -3,16 +3,16 @@ title: 對行動裝置實施 Analytics
 description: 決定要使用的行動 AppMeasurement 資料庫。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 86b6b5b8fc406bab0634997b0297d44c82c636fe
+source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 78%
+source-wordcount: '70'
+ht-degree: 51%
 
 ---
 
 # 對行動裝置實施 Analytics
 
-若要對行動裝置實施 Analytics，請參閱下列 SDK 儲存庫和文件：
+若要對行動裝置實作Analytics，請使用Adobe Experience Platform Mobile SDK。 另請參閱 [Mobile SDK總覽](aep-edge/mobile-sdk/overview.md) 以取得詳細資訊。
 
 ## Adobe Experience Platform 行動 SDKs
 
