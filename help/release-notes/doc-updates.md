@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: bcef7aeffa28bd8c2fa2863c4dfb6e6cde15a469
 workflow-type: tm+mt
-source-wordcount: '4615'
-ht-degree: 98%
+source-wordcount: '4623'
+ht-degree: 99%
 
 ---
 
@@ -26,12 +26,12 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 7 月** | |
-| Adobe Experience Platform Edge Network 伺服器 API | 已新增更完整的檔案，說明何時及如何實作 [Adobe Experience Platform Edge Network伺服器API](../implement/aep-edge/server-api/overview.md). 例如，針對案頭應用程式、IoT裝置、機上盒實作Adobe Analytics時。 |
-| 全域公司ID | 已記錄 [如何尋找全球公司ID](../admin/admin/company/web-services-admin.md) 針對您登入的Analytics公司。 Analytics 2.0 API需要此ID。 |
-| 更新FTP大小限制 | 已將預設 [FTP 資料儲存空間限制](/help/export/ftp-and-sftp/ftp-limits.md)變更為 100 GB。 |
+| Adobe Experience Platform Edge Network 伺服器 API | 新增有關何時及如何透過Adobe Analytics使用實作資料收集的更完整檔案 [Adobe Experience Platform Edge Network伺服器API](../implement/aep-edge/server-api/overview.md). 例如，在案頭應用程式、IoT裝置、機上盒中使用Adobe Analytics實作資料收集。 |
+| 全球公司 ID | 以文件說明針對您登入的 Analytics 公司，[如何找到全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
+| 已更新 FTP 大小限制 | 已將預設 [FTP 資料儲存空間限制](/help/export/ftp-and-sftp/ftp-limits.md)變更為 100 GB。 |
 | 新的 AppMeasurement 變數 | 變數 `decodeLinkParameters` 會配合邊緣案例，在這種情況下，實作會在連結追蹤變數中對多位元組字元進行編碼。[了解更多](../implement/vars/config-vars/decodelinkparameters.md) |
 | 設定雲端帳戶儲存位置以擷取分類資料 | 您現在可以管理用來進行分類集自動化的雲端帳戶儲存位置。[了解更多](/help/components/locations/configure-import-accounts.md) |
-| 資料修復篩選器增強功能 | 「資料修復」新增了三項篩選改良功能。 [了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
+| 資料修復篩選器增強功能 | 資料修復新增了三項篩選增強功能。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/data-repair/) |
 | **2023 年 6 月** | |
 | 分類集的新功能 | [分類集](/help/components/classifications/sets/overview.md)有多項新功能更新：<ul><li>**合併**：將多項分類集合併為單一的分類集。合併的分類集可以像其他分類集一樣使用，也可以在 Customer Journey Analytics 中做為查詢資料集。[了解更多](../components/classifications/sets/consolidations/manage.md)</li><li>**規則**：根據分類集中的規則自動對值進行分類。[了解更多](../components/classifications/sets/manage/rules.md)</li><li>**自動匯入**：從雲端儲存空間目的地自動匯入分類資料。[了解更多](../components/classifications/sets/manage/schema.md)</li></ul> |
 | 計算量度更新 | 已對和計算量度相關的各種文章進行更新，包括更新螢幕擷取畫面和程序中的步驟。進行這些變更是為了使文件和目前的 Adob&#x200B;&#x200B;e Analytics 功能保持一致。 |
