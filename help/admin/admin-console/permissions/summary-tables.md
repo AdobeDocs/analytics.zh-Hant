@@ -3,10 +3,10 @@ title: Adobe Analytics 權限 - 摘要表
 description: 摘要說明 Adobe Admin Console 中可用 Adobe Analytics 權限的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: 7c29f7a9bb036063de2dc114571f0698f5a2312b
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 100%
+source-wordcount: '1302'
+ht-degree: 98%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
 | 報告套裝 (寫入) |  |  |  | x | 未使用。 |
 | Site Catalyst |  |  |  | x | 未使用。請改用「Analysis Workspace 存取」。 |
 | Social |  |  |  | x | 未使用。 |
-| 文字報表 |  |  |  | x | 未使用。 |
+| 文字報表 |  |  |   | x | 未使用。 |
 | 流量管理 |  |  |  | x | 未使用。 |
 | 使用摘要報表 |  |  |  | x | 未使用。 |
 | 影片設定 |  |  |  | x | 未使用。 |
@@ -88,6 +88,7 @@ ht-degree: 100%
 | 支援 | x |  |  |  | 授與對「管理員 > 所有管理員 > 公司設定 > 支援資訊」的存取權。 |
 | 流量管理 | x |  |  |  | 授與對「管理員 > 所有管理員 > 流量管理」的存取權。 |
 | 網路服務 | x |  |  |  | 授與對「管理員 > 所有管理員 > 公司設定 > 網頁服務」的存取權。 |
+| 與任何人分享專案連結 | x |  |  |  | 授與使用者的存取權以與任何人共用工作區專案 — >共用 — >與任何人共用。 |
 | Activity Map |  | x |  |  | 授與「工具 > Activity Map」的存取權。允許用戶使用 Activity Map 擴充功能。 |
 | Ad Hoc Analysis 授權用戶 |  | x |  |  | Ad Hoc Analysis 生命週期已結束。[更多資訊](https://spark.adobe.com/page/S9Bhp66VJ2fEn/). |
 | Analysis Workspace 存取 |  | x |  |  | 授與 Analysis Workspace 的存取權限。用戶必須屬於此群組 (偏好設定) 或 Reports &amp; Analytics 存取，才能使用 Adobe Analytics。 |

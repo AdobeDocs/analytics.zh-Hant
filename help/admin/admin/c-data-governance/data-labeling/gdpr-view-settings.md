@@ -3,10 +3,10 @@ description: 「資料控管的隱私標籤」對話框概述了報表套裝的�
 title: 檢視/管理資料控管隱私標籤
 feature: Data Governance
 exl-id: 87b0be42-1098-4e72-8eb8-0c1bb56791f8
-source-git-commit: 0f5a1e7264b194b368731f612a04bb805740a932
+source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '877'
+ht-degree: 95%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >如果您沒有看到此選單項目，則需要將您新增到具有此功能權限的 [Admin Console 的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)。
+   >如果您沒有看到此選單專案，則需要將您新增至 [Admin Console中的產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant) 或已在Admin Console中提供報表套裝的存取權。
 
 3. 在右上角，選擇您要檢視或管理其隱私權標籤的報表套裝。
 
-![](assets/privacy_labeling.png)
+   ![](assets/privacy_labeling.png)
 
 | 設定 | 說明 |
 | --- | --- |
