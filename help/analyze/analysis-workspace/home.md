@@ -7,7 +7,7 @@ exl-id: de95551d-09ea-4461-9bb4-b4ef235e9cd2
 source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Analysis Workspace 中的資料字典可幫助使用者和管理員追蹤和深�
 
 ### 資料來源
 
-同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。以下為如何進行的詳細資訊 [管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md).
+同步視覺效果可讓您控制哪些資料表或資料來源會對應至視覺效果。以下是有關如何[管理資料來源](/help/analyze/analysis-workspace/visualizations/t-sync-visualization.md)的更多資訊。
 
 ## 開始使用 Analysis Workspace
 
