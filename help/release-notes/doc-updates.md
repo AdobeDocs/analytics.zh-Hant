@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1c7dd6fad55acc579229f47d0b22ec50b80eb565
+source-git-commit: 05b4dc07de567b25e71b47fd92743bee0b5621f8
 workflow-type: tm+mt
-source-wordcount: '4623'
-ht-degree: 100%
+source-wordcount: '4689'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 8 月** | |
+| 澄清為資料摘要設定SFTP不需要Adobe客戶服務 | 中釐清 [使用SFTP傳送Adobe資料至外部FTP帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md) 客戶不需要聯絡Adobe客戶服務來設定資料摘要的SFTP。 <p>也新增了不再建議使用SFTP，以及客戶在設定資料摘要時應該使用雲端目的地的備註。</p> |
 | **2023 年 7 月** | |
 | Adobe Experience Platform Edge Network Server API | 新增可更全面說明何時與如何使用 [Adobe Experience Platform Edge Network Server API](../implement/aep-edge/server-api/overview.md) 透過 Adobe Analytics 實作資料收集的文件。例如，在桌面應用程式、IoT 裝置、機上盒中透過 Adobe Analytics 實作資料收集。 |
 | 全球公司 ID | 以文件說明針對您登入的 Analytics 公司，[如何找到全球公司 ID](../admin/admin/company/web-services-admin.md)。Analytics 2.0 API 需要此 ID。 |
@@ -39,7 +41,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | Workspace 中的機器人報告 | 機器人報告現在可在 Analysis Workspace 中取得。此功能附帶幾個新增項目：<ul><li>新維度：[機器人名稱](/help/components/dimensions/bot-name.md)</li><li>兩個新量度：[機器人頁面檢視次數](/help/components/metrics/bot-page-views.md)和[機器人發生次數](/help/components/metrics/bot-occurrences.md)。</li><li>一個新的計算量度範本：[機器人頁面檢視次數比率](/help/components/c-calcmetrics/cm-reference/default-calcmetrics.md)</li><li>新的工作區報告：機器人報告</li></ul>新維度和量度會包含從 2023 年 3 月開始回填的資料。 |
 | **2023 年 5 月** | |
 | 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。[了解更多](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
-| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 新更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](/help/analyze/mobile-app/executive.md#use-dashboards) |
+| Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 圖示 | 如情況適合，可將文件中使用者介面的螢幕擷圖以對 [Adobe 的 Spectrum 設計系統](https://spectrum.adobe.com/page/icons/)中同等圖示的參照取代。 |
 | 已改進 IP 對地理位置的對應 | 在[常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=zh-Hant)建立了一個主題。 |
 | 報告活動管理員 | 更新了這個 beta 文件，尤其是有關[檢視個別報告套裝的報告活動](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hant#view-reporting-activity-for-individual-report-suites)的章節。 |
