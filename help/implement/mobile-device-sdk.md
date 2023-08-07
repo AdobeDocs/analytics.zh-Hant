@@ -3,10 +3,10 @@ title: 對行動裝置實施 Analytics
 description: 決定要使用的行動 AppMeasurement 資料庫。
 feature: Implementation Basics
 exl-id: 8a1dc0c1-493f-41da-a0ed-08df0367e5d8
-source-git-commit: 5ebc53e8706f60988b289df060be9b02b5dc778f
+source-git-commit: cf55284ec2fd01949107f8b16e25977fd80c758f
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 51%
+source-wordcount: '85'
+ht-degree: 60%
 
 ---
 
@@ -24,5 +24,5 @@ ht-degree: 51%
 
 >[!CAUTION]
 >
->版本 4 Mobile SDK 於 2020 年 9 月 30 日終止支援。 
+>版本 4 Mobile SDK 於 2021 年 8 月 31 日終止支援。 如需詳細資訊，請參閱[第 4 版 Mobile SDK 支援終止常見問題](https://developer.adobe.com/client-sdks/documentation/v4-end-of-life-faq/)。
 
