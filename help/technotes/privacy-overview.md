@@ -4,72 +4,42 @@ keywords: 隱私權
 title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 56ce76b906d1d6362c771edd1123e814cc47209b
+source-git-commit: ee0bf5beeac3c9780eb0c8420845114f7e840aec
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 96%
+source-wordcount: '694'
+ht-degree: 12%
 
 ---
 
 # 隱私權概觀
 
-Adobe 建議您提供關於選擇退出不讓 Adobe 產品或服務收集其瀏覽資訊的容易找到且容易了解的相關資訊給網站訪客。
+訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實施作業 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。貴組織有責任遵守您自己的隱私權原則、您與Adobe之間的服務合約以及所有適用法律。
 
-訪客可至 [Adobe 隱私權中心](https://www.adobe.com/tw/privacy.html)進一步瞭解 Adobe 一般如何使用收集到的資訊。貴組織實施作業 Adobe 服務的方式完全由貴組織控制，因此是否揭露使用 Adobe 產品和服務的方式取決於貴組織。您需負責建立自己的隱私權原則、遵循您的隱私權原則、遵循您與 Adobe 簽署的服務協定，以及遵循所有適用法律。
+Adobe強烈建議遵循下列重要概念：
 
-## 資料收集劃分 {#section_F59D958D7AE44747846993E643CD4BF2}
+* **避免在Adobe Analytics中收集個人識別資訊。** 自訂變數可讓您收集幾乎任何您可以存取的內容；不過，您也必須考慮組織的隱私權政策和適用法律。
+* **為訪客提供容易找到且容易瞭解的選擇退出資訊。** 允許他們選擇退出任何非絕對必要的專案。 歐盟大部分國家不認為分析 Cookie 是絕對必要的。
 
-Adobe Analytics 收集下列資料：
+## 資料收集劃分
 
-| 資料類型 | Adobe Analytics 是否收集這種資料？ |
-|---|---|
-| 客戶網站中的網頁 URL | 是 |
-| 網頁名稱 | 是 |
-| 頁面逗留時間 | 是 |
-| 每日時間 | 是 |
-| 非相關網站之網頁的 URL | **否** |
-| Cookie IDs (隨機產生) | 是 |
-| 瀏覽客戶頁面前，使用者所在頁面的 URL | 是 |
-| 消費者點按客戶頁面上連結時的搜尋查詢 | 是 |
-| 瀏覽器類型 | 是 |
-| 裝置類型 | 是 |
-| 作業系統  | 是 |
-| ISP/連線速度 | 是 |
-| 顯示器設定 (例如螢幕大小和解析度) | 是 |
-| IP 位址 (用於大致定位) | 是&#42; |
-| 消費者在客戶網站表格中提供的資訊 | 是 |
-| 消費者在社交網站表格中提供的資訊 | **否** |
-| 消費者是否點按廣告 | 是 |
-| 消費者是否點按網站上的連結、影像或文字 | 是 |
-| 消費者是否下載檔案、影像等 | 是 |
-| 消費者購買的項目 | 是 |
-| 留在購物車中的項目 | 是 |
-| 社交網站資訊 (包括相片、使用者 ID、年齡、性別、位置) | **否** |
-| 廣告行銷活動成功率 | 是 |
-| 產品資訊，如顏色、價格、樣式、相片 | 是 |
+Adobe Analytics會自動收集或可能收集下列型別的資料：
 
-&#42;前提是 Adobe 客戶未選擇移除 IP。
+| 資料類型 | 詳細資料 | 包含此資料的範例變數 |
+| --- | --- | --- |
+| 您的網站上網頁的頁面名稱或URL | 一律收集。 每次點選都必須有URL或頁面名稱。 | [頁面](../components/dimensions/page.md)， [頁面URL](../components/dimensions/page-url.md) |
+| 時間型資料 | 一律收集。 資料收集需要時間戳記，而以時間為基礎的資料衍生自時間戳記。 | [頁面逗留時間](../components/dimensions/time-spent-on-page.md)， [小時](../components/dimensions/hour-of-day.md)， [上午/下午](../components/dimensions/am-pm.md)， [平日/週末](../components/dimensions/weekday-weekend.md)， [星期](../components/dimensions/day-of-week.md)， [月份](../components/dimensions/month-of-year.md) |
+| 來自其他網站網頁的資料 | Adobe無法收集您無法變更網站原始程式碼的非關聯網站上的資料。 當訪客進入您的網站時，AppMeasurement會自動收集反向連結URL。 您可以自訂實作，以便在查詢字串到達您的網站後收集該字串中的資料。 | [反向連結](../components/dimensions/referrer.md)， [反向連結網域](../components/dimensions/referring-domain.md) |
+| 匿名訪客ID | AppMeasurement會自動產生並參照每個造訪您網站的瀏覽器的訪客ID。 此ID會儲存在Cookie中。 如果指定的實作無法使用Cookie，Adobe Analytics會使用IP位址和使用者代理字串作為訪客識別的備援方法。 另請參閱 [Adobe Analytics與瀏覽器Cookie](cookies/cookies.md) 以取得詳細資訊。 | [不重複訪客](../components/metrics/unique-visitors.md) |
+| 可識別的訪客ID | Adobe不會自動收集自訂訪客ID。不過，您可以自訂實施以收集此資料。 | [`visitorID`](../implement/vars/config-vars/visitorid.md) |
+| 外部搜尋詞 | AppMeasurement會嘗試根據反向連結URL自動收集此資料。 不過，許多現代搜尋引擎不再包含這項資訊。 | [搜尋關鍵字](../components/dimensions/search-keyword.md) |
+| 內部搜尋詞 | Adobe不會自動收集內部搜尋資料。 不過，您可以自訂實施以收集此資料，這是使用Adobe Analytics的組織的一般做法。 | [eVar](../components/dimensions/evar.md) |
+| 電腦和瀏覽器規格 | AppMeasurement會自動收集低平均資訊量瀏覽器提示，例如瀏覽器型別、作業系統型別，以及裝置是否為桌上型電腦或行動裝置。 收集高平均資訊量提示需要進行設定，例如瀏覽器的特定版本/組建、裝置型號或作業系統版本。 另請參閱 [使用者端提示總覽](client-hints.md) 以取得詳細資訊。 | [瀏覽器](../components/dimensions/browser.md)， [作業系統](../components/dimensions/operating-systems.md)， [行動維度](../components/dimensions/mobile-dimensions.md)， [監視器解析度](../components/dimensions/monitor-resolution.md) |
+| 地理位置資訊 | Adobe可讓您啟用或停用收集每個網站或應用程式的地理位置資料（在報表套裝層級）。 許多實施型別(包括AppMeasurement)會自動收集此資料。 | [城市](../components/dimensions/cities.md)， [地區](../components/dimensions/regions.md)， [國家/地區](../components/dimensions/countries.md) |
+| IP 位址 | Adobe可在儲存此資料時，模糊顯示最後一個八位元或完全模糊訪客的IP位址。 EMEA客戶的IP位址通常依預設會完全模糊。 IP位址無法當作Adobe Analytics中的維度使用；它只會包含在原始資料([資料摘要](../export/analytics-data-feed/data-feed-overview.md))。 | 無 |
+| 您的網站上提供的表單資訊 | 所有實施型別都需要設定以收集此資料。 您可以將此資料包含在自訂變數中。 | [eVar](../components/dimensions/evar.md) |
+| 在您的網站上點選的廣告或連結 | 使用AppMeasurement時自動收集。 啟用「Activity Map」後，可提供其他資訊，例如點按的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)， [退出連結](../components/dimensions/exit-link.md)， [下載連](../components/dimensions/download-link.md) |
+| 在您的網站上購買的產品 | 所有實施型別都需要設定以收集此資料。 Adobe提供數個預設變數來儲存此資訊。 | [產品](../components/dimensions/product.md)， [訂購](../components/metrics/orders.md)， [收入](../components/metrics/revenue.md) |
 
-## 其他隱私權考量事項 {#section_60AF6AD6FBD046EEAF9F083A9726EF8A}
+{style="table-layout:auto"}
 
-| 地區/國家 | 考量事項 |
-|--- |--- |
-| 全球 | Adobe 強烈建議客戶避免傳遞個人識別資訊 (PII) 至 Adobe，尤其是 Analytics 不需要 PII 的情況下。 |
-| 全球 | 進行分析時應通知使用者並提供選項給使用者。加拿大、澳洲、歐盟 (部分國家要求提供加入選項) 以及拉丁美洲和亞太地區的許多國家都有相關法律規定。 |
-| 全球 | 如果使用第一方 Cookie，則客戶有專屬的 Analytics 退出選項，請勿使用 Adobe.com 上的退出選項。 |
-| 全球 | 第一方分析不屬於「線上行為廣告自我監控計畫」(Self-Regulatory Program for Online Behavioral Advertising，簡稱「AdChoices」) 的規範範疇。 |
-| 全球 | 跨裝置資料除非繫結至客戶提供的識別碼 (例如雜湊使用者名稱)，否則不應合併。 |
-| 全球 | 對於客戶將印象資訊結合至 PII，可能會有限制。 |
-| 歐洲 | 歐盟大部分國家不認為分析 Cookie 是絕對必要的。 |
-| 歐洲 | 針對在 EMEA 中有設定報表套裝的所有客戶，Adobe 預設已啟用設定「IP 模糊化: 已啟用 - 被刪除的 IP (x.x.x.x)」。透過此設定，IP 位址會在地理查閱後完全更換為值 (x.x.x.x)，不再做為資料點使用。這種基本更換方法無法以逆向工程還原為獨特的特定 IP 位址。客戶或 Adobe 都無法存取 IP 位址，它具有不可逆的匿名性質。如需有關其他 IP 模糊化設定的詳細資訊，請參閱在管理員用戶指南中的「[一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)」。 |
-| 全球 | 客戶可以在 JavaScript 測量代碼中，將 Cookie 期限變數設為「none」、「session」或其他可在數秒內測量的指定值。 |
-| 歐洲 | Adobe 已開發出新的「從設計開始關注隱私權」設定，現在可在 Adobe ClientCare for Adobe Analytics (舊稱 SiteCatalyst) 發行版本 14.9 和 15.4 中啟用。啟用此新設定後，當 Adobe 收集到 IP 位址，IP 位址的最後八位元 (最後一部分) 就會立即更換為 0 值。在對 IP 位址進行任何處理前 (包括選用的地理查閱和 IP 位址 ISP 查閱)，就會執行這種匿名方式。 |
-| 德國 | 如果您尚未和 Adobe 達成 Data Processing Agreement for Adobe Analytics，則應聯絡您的 Adobe 客戶經理或客戶成功經理，由他們向 Adobe 法律部門接洽以取得 DPA 。 |
-
-## EMEA資料中心位置 {#section_3DD2329B983849D3B8C24AEF7CD8DFB3}
-
-下列EMEA資料中心目前代管Adobe Analytics資料：
-
-| Adobe 名稱 | 地址 | 設施類型 (操作者) | 支援的解決方案元件 | 認證 |
-|--- |--- |--- |--- |--- |
-| LON5 | 3 Centro  Boundary Way Hemel Hempstead HP2 7SU UK | Colocation Facility (Gyron) | 多頻道分析、數位分析 | SSAE 16 |
+請參閱下的導覽功能表 [Dimension概觀](../components/dimensions/overview.md) 和 [量度概觀](../components/metrics/overview.md) 以取得Adobe可能在下收集資料的更多變數。
