@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: bf111fc5529692283bf6b341655e80498107633b
+source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
 workflow-type: tm+mt
-source-wordcount: '4907'
+source-wordcount: '4891'
 ht-degree: 95%
 
 ---
@@ -45,7 +45,6 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 深度連結 (行動應用程式) 文件 | 可讓使用者傳送計分卡連結，這些連結會直接導向應用程式中的計分卡專案。[了解更多](/help/analyze/mobile-app/create-scorecard.md#shareable-link) |
 | Analytics 儀表板應用程式 (行動應用程式) 更新首頁的文件 | 更新的首頁可讓您在一個綜合計分卡清單中檢視所有計分卡。[了解更多](/help/analyze/mobile-app/executive.md#use-dashboards) |
 | Spectrum 圖示 | 如情況適合，可將文件中使用者介面的螢幕擷圖以對 [Adobe 的 Spectrum 設計系統](https://spectrum.adobe.com/page/icons/)中同等圖示的參照取代。 |
-| 已改進 IP 對地理位置的對應 | 在[常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/ip-geo-mapping.html?lang=zh-Hant)建立了一個主題。 |
 | 報告活動管理員 | 更新了這個 beta 文件，尤其是有關[檢視個別報告套裝的報告活動](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hant#view-reporting-activity-for-individual-report-suites)的章節。 |
 | Analysis Workspace 概觀 | 更新[Analysis Workspace 概觀](/help/analyze/analysis-workspace/home.md)以包含更多一般概觀資訊和相關內容的連結。 |
 | 建立專案 | 建立新文章，其中詳細說明如何在 Analysis Workspace [建立專案](/help/analyze/analysis-workspace/build-workspace-project/create-projects.md)。 |
