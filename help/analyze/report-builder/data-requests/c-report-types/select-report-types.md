@@ -4,10 +4,10 @@ title: 報表類型概觀
 feature: Report Builder
 role: User, Admin
 exl-id: f92a7597-6c53-4886-bab2-8d3f811dcc18
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 55%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 100%
 
 您可以選擇資料請求的基礎報表類型，如網站度量、網站內容及視訊。
 
-您只能為一個試算表儲存格範圍選擇一個基礎報表類型。如果您正在編輯先前建立的請求，可在[!UICONTROL 「請求精靈: 步驟 1」]視窗中變更報表類型，不需重新設定請求中的其他設定。
+您只能為一個試算表儲存格範圍選擇一個基礎報表類型。如果您正在編輯先前建立的請求，可在 [!UICONTROL 請求精靈：步驟1] 視窗，而不需重新設定請求中的其他設定。
 
-您可以使用自動完成搜尋列來搜尋報表。在此控制項中選取報表後，樹狀檢視會自動選取相符節點。
+您可以使用自動完成搜尋列來搜尋報表。從此控制項選取報表後，樹狀檢視會自動選取相符的節點。
 
-![](assets/search_reports.png)
+![熒幕擷圖顯示報表套裝樹狀結構檢視和選取的相符節點。](assets/search_reports.png)

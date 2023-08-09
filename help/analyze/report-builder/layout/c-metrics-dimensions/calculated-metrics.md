@@ -4,10 +4,10 @@ title: 計算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 87%
 
 ---
 
@@ -25,15 +25,15 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 
 ## 篩選計算量度 {#section_376E986D3E684999A7CDB08E53854159}
 
-若要&#x200B;**篩選**&#x200B;計算量度，請按一下「篩選」圖示：![](/help/admin/admin/assets/filter.png)。
+**篩選** 若要計算量度，請按一下「篩選」圖示：  ![顯示「應用程式」、「使用者」、「專案」欄位的「篩選」選項熒幕擷圖。](/help/admin/admin/assets/filter.png)
 
-。「進階篩選器」對話方塊會同時填入標準和計算量度。
+「進階篩選器」對話方塊會同時填入標準和計算量度。
 
 可用的篩選條件包括：
 
-![](assets/advanced_filters.png)
+![此熒幕擷圖顯示下表描述的「進階篩選」選項。](assets/advanced_filters.png)
 
-| 篩選名稱 | 說明 |
+| 篩選器名稱 | 說明 |
 |---|---|
 | 標記 | 可讓您利用特定標記來篩選計算量度。請注意，「標記」篩選條件使用 AND 運算子。如果您勾選兩個標記，右側窗格會顯示同時擁有&#x200B;**兩個**&#x200B;標記的量度。 |
 | 報表套裝 | 如果您在 *的「計算量度產生器」中套用「僅*&#x200B;報表套裝名稱[!DNL Reports & Analytics]」篩選條件，接著在 [!DNL Report Builder] 中顯示「進階篩選器」，則進階篩選器只會顯示所選報表套裝的計算量度。 |
@@ -47,4 +47,4 @@ Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創�
 
 選取篩選器後，按一下「**[!UICONTROL 套用]**」可將量度套用至您的請求。選取的量度現在會新增至報表配置。
 
-![](assets/filtering_for_metric.png)
+![熒幕擷圖顯示「請求精靈：步驟2 — 網站總計」 ，其中指向「進階篩選器」視窗並套用報表量度。](assets/filtering_for_metric.png)

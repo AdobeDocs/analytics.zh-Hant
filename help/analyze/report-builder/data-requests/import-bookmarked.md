@@ -4,10 +4,10 @@ title: 匯入書籤化報表與儀表板報表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 以下說明「請求精靈步驟 1」如何顯示儀表板及其報表：
 
-![](assets/import_dashboard_reportlet.png)
+![此熒幕擷圖顯示「請求精靈：步驟2之1」醒目提示「擷取您的儀表板」和「擷取您的書籤」。](assets/import_dashboard_reportlet.png)
 
 按一下「**[!UICONTROL 擷取您的儀表板]**」或「**[!UICONTROL 擷取您的書籤]**」時，就會擷取您現有的儀表板和/或書籤資料並貼入工作表中。
 

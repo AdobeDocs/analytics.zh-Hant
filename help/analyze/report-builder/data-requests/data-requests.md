@@ -4,10 +4,10 @@ title: 資料請求 - 請求精靈步驟 1
 feature: Report Builder
 role: User, Admin
 exl-id: 698662a8-8b6b-4338-a315-b41cf6a9424e
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 98%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 在「請求精靈: 步驟 1」表單中，您可以選擇報表套裝、報表類型、區段及設定日期。
 
-![](assets/rw1_overview.png)
+![熒幕擷圖顯示「請求精靈：步驟1」表單。](assets/rw1_overview.png)
 
 1. **[!UICONTROL 報表套裝]**：根據登入憑證，提供給您使用的報表套裝清單。請參閱[選取報表套裝](/help/analyze/report-builder/data-requests/selecting-report-suites/t-select-report-suites.md)。
 

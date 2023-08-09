@@ -4,10 +4,10 @@ title: 使用請求精靈篩選路徑流失報表
 feature: Report Builder
 role: User, Admin
 exl-id: 6134d7d4-7287-4a83-92b6-d250ca15cf69
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '244'
+ht-degree: 91%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 1. 選擇正確的報表套裝。
 1. 在左側的樹狀檢視中，選取&#x200B;**[!UICONTROL 「路徑]** > **[!UICONTROL 頁面]** > **[!UICONTROL 頁面流失」]**。
 
-   ![](assets/page_fallout.png)
+   ![顯示Report Builder目錄Windows樹狀檢視的熒幕擷圖。 已選取「頁面流失」 。](assets/page_fallout.png)
 
 1. 設定適當的[日期範圍](/help/analyze/report-builder/data-requests/configuring-report-dates/custom-calendar.md)。
 1. 按&#x200B;**[!UICONTROL 「下一步」]**。
 1. 在精靈的步驟 2 中，按一下&#x200B;**[!UICONTROL 「列標籤」]**&#x200B;底下的&#x200B;**[!UICONTROL 「定義查核點」]**&#x200B;連結(在流失報表中，您永遠必須定義路徑元素，這點與路徑報表已預先套用模式不同)。
 
-   ![](assets/define_checkpoints.png)
+   ![顯示「定義查核點」連結的熒幕擷圖。](assets/define_checkpoints.png)
 
 1. 選取&#x200B;**[!UICONTROL 「篩選」]**&#x200B;選項。
 

@@ -4,10 +4,10 @@ title: 互動式控制項
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: 3f4d8df911c076a5ea41e7295038c0625a4d7c85
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '596'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 100%
 >* 如果您在 Mac 上執行 Excel，變更控制項中的值後，畫面會顯示以下訊息：「找不到巨集 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。」
 >
 
-
 >[!WARNING]
 >
 >請勿竄改控制項名稱(若要查看名稱，請將焦點設定在控制項上，控制項名稱便會出現在 Excel 格線的左上角上方)。
@@ -37,11 +36,11 @@ ht-degree: 100%
 1. 在請求精靈的步驟 1 選取項目，例如&#x200B;**[!UICONTROL 「頁面」]**&#x200B;報表。
 1. 在&#x200B;**[!UICONTROL 「常用的日期」]**&#x200B;下拉式清單旁，按一下&#x200B;**[!UICONTROL 「控制設定」]**&#x200B;圖示：
 
-   ![](assets/date_range_control.png)
+   ![「請求精靈：步驟1」的熒幕擷圖，醒目提示「控制設定」圖示。 ](assets/date_range_control.png)
 
 1. 在「控制設定」對話方塊中，選取所有您想要在互動式控制項中顯示的日期範圍項目。此外，請指定控制項的左上方儲存格位置。
 
-   ![](assets/control_settings.png)
+   ![熒幕擷圖顯示選取的日期範圍專案和左上角的儲存格位置。](assets/control_settings.png)
 
 1. 請注意「項目選取時自動重新整理連結的請求」選項。
 
@@ -50,18 +49,19 @@ ht-degree: 100%
 
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。控制項會出現在您指定的儲存格位置：
 
-   ![](assets/date_range_control_interactive.png)
-
 1. 您現在可以變更日期範圍，請求會依據該日期範圍重新整理。
+
+   ![顯示所選日期範圍的熒幕擷圖。](assets/date_range_control_interactive.png)
+
 1. 您也可以複製請求，然後按一下滑鼠右鍵，使用下列其中一個「貼上請求」選項：
 
    * **[!UICONTROL 「貼上請求]** > **[!UICONTROL 使用絕對輸入儲存格」]**。這表示複製的請求會指向與原始請求相同的互動式日期範圍控制項。
 
    * **[!UICONTROL 「貼上請求]** > **[!UICONTROL 使用相對輸入儲存格」]**。這表示複製的請求會指向自身的控制項。
 
-      >[!NOTE]
-      >
-      >您可以使用 Microsoft Excel 原生的「剪下」/「複製」/「貼上」控制功能。Report Builder 會自動辨識新增的控制項。
+     >[!NOTE]
+     >
+     >您可以使用 Microsoft Excel 原生的「剪下」/「複製」/「貼上」控制功能。Report Builder 會自動辨識新增的控制項。
 
 ## 實作互動式區段控制項 {#section_5003D3F724644280BF1BCD6E1B0CB784}
 
@@ -69,12 +69,12 @@ ht-degree: 100%
 
 1. 在請求精靈的步驟 1 中，在&#x200B;**[!UICONTROL 「區段」]**&#x200B;下拉式清單旁，選取「區段控制設定」圖示：
 
-   ![](assets/segment_interactive_1.png)
+   ![「區段控制設定」圖示的熒幕擷圖。](assets/segment_interactive_1.png)
 
 1. 在「區段控制設定」對話方塊中，選取您要包含在下拉式清單中的區段。此外，請指定控制項的左上方儲存格位置。
 
-   ![](assets/segment_drop_down_properties.png)
+   ![熒幕擷圖顯示具有所選區段和儲存格位置的「區段控制設定」 。](assets/segment_drop_down_properties.png)
 
 1. 新的互動式控制項便會顯示在活頁簿中：
 
-   ![](assets/segment_interactive_3.png)
+   ![熒幕擷圖顯示選取的新互動式控制項。](assets/segment_interactive_3.png)

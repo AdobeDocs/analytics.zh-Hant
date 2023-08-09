@@ -1,14 +1,14 @@
 ---
-description: 您可以為報表命名，以及設定列和欄標題的顯示方式。「樞紐配置」和「自訂配置」等類型備有「格式選項」連結供您使用。
-title: 顯示標題格式
+description: 瞭解如何為報表命名並設定如何顯示列和欄標題。
+title: 如何格式化顯示標題
 uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 99%
+source-wordcount: '398'
+ht-degree: 93%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 99%
 
    **執行自動外框：**&#x200B;將 Report Builder 傳回的日期從清單檢視轉換為樹狀檢視。
 
-   **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。請參閱 [為請求命名](/help/analyze/report-builder/layout/name-a-request.md).
+   **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。另請參閱 [為請求命名](/help/analyze/report-builder/layout/name-a-request.md).
 
 1. 按一下「**[!UICONTROL 確定]**」。

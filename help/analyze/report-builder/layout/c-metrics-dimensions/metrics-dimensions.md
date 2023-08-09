@@ -5,16 +5,16 @@ uuid: eb305a06-d914-45c6-a7b1-fd0342473b0c
 feature: Report Builder
 role: User, Admin
 exl-id: 6c56a8e5-07c0-4dc4-b40b-94a07b783514
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '235'
+ht-degree: 91%
 
 ---
 
 # 度量和維度概觀
 
-您可以在「請求精靈: 步驟 2」中新增度量和維度，以定義請求中資料的 Analytics 配置。Report Builder 中的度量和維度清單會遵循 Reports &amp; Analytics 中顯示的功能表配置。
+在「請求精靈：步驟2」中新增度量和維度，以定義請求中資料的Analytics配置。 Report Builder 中的度量和維度清單會遵循 Reports &amp; Analytics 中顯示的功能表配置。
 
 度量是數值，由與網站活動相關的數量資訊所組成，如[!UICONTROL 頁面檢視]、[!UICONTROL 訪客設定檔]、[!UICONTROL 點進]、[!UICONTROL 重新載入]、[!UICONTROL 平均花費時間]、[!UICONTROL 日期]、[!UICONTROL 單位]等。Report Builder 會遵循 Analytics 中的標準分組依據，將度量組織為數個群組：
 

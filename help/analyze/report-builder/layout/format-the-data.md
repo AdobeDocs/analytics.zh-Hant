@@ -1,20 +1,20 @@
 ---
-description: 除了 Excel「格式 > 儲存格」(Ctrl+1) 功能提供的標準儲存格格式選擇之外，您還可以透過 Report Builder 將有限的格式套用至儲存格範圍。這些格式選擇取決於您選擇的度量。
-title: 日期格式
+description: 瞭解如何將標準和有限的格式套用至儲存格範圍。
+title: 如何以Report Builder格式化日期
 uuid: 5211db30-07b3-4413-97c3-e40e6ff223cd
 feature: Report Builder
 role: User, Admin
 exl-id: 9b251b09-9156-40b5-8e1f-fb6594a25c26
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 98%
+source-wordcount: '257'
+ht-degree: 80%
 
 ---
 
-# 日期格式
+# 格式化日期
 
-除了 Excel「格式 > 儲存格」(Ctrl+1) 功能提供的標準儲存格格式選擇之外，您還可以透過 Report Builder 將有限的格式套用至儲存格範圍。這些格式選擇取決於您選擇的度量。
+除了可透過Excel的「格式>儲存格(Ctrl+1)」功能使用的標準儲存格格式選項外，您還可以將有限的格式套用至具有Report Builder的儲存格範圍。 這些格式選擇取決於您選擇的度量。
 
 [新增維度](/help/analyze/report-builder/layout/c-metrics-dimensions/t-add-metrics-and-dimensions.md)至「列標籤」格線後，請按一下&#x200B;**[!UICONTROL 「格式」]**。
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 
 下表說明如何在[!UICONTROL 「自訂格式」]欄位中使用日期縮寫：
 
-| 縮寫 | 含義 | 2012年3月14日星期三的使用範例 |
+| 縮寫 | 含義 | 使用2012年3月14日星期三的範例 |
 |--- |--- |--- |
 | MM/dd/yyy | 完整的數值日期 | 2012/03/14 |
 | M | 月份的數值 | 3 |

@@ -5,10 +5,10 @@ uuid: 558fa592-41be-4e66-8705-81262afe1fc7
 feature: Report Builder
 role: User, Admin
 exl-id: 31587740-6caa-40cb-bb24-d7a15181f642
-source-git-commit: e7346b11a7d3eb4c18ec02df6c8a07574e02a2b4
+source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,10 @@ ht-degree: 100%
 
 1. 建立或編輯請求，然後前往[!UICONTROL 「請求精靈: 步驟 2」]。
 
-   ![步驟資訊](/help/admin/admin/assets/filter.png)
-
 1. 在[!UICONTROL 「請求精靈: 步驟 2」]中，於格線內按一下維度旁的連結，然後選擇&#x200B;**[!UICONTROL 「篩選」]**。
+
+   ![熒幕擷圖顯示「定義篩選」對話方塊，其中包含依應用程式、使用者和專案篩選的選項。](/help/admin/admin/assets/filter.png)
+
 1. 在[!UICONTROL 「選擇頁面」]表單中啟用&#x200B;**[!UICONTROL 「最受歡迎」]**，然後設定以下選項：
 
    **起始排名：**&#x200B;維度的起始排名。預設排名 1 代表報告之資料清單中最上層的項目。例如，對於「[!UICONTROL 頁面]」維度來說，起始標記 1 表示是網站中最常收到請求的單一頁面。您可以將 10 或其他值指定為起始排名儲存格，這會產生以 10 (最高排名) 起始的報表。由於度量是以遞減順序排列的，因此系統會將活動數量最多的行項目報告為清單中的第一個項目。如果一個請求須傳回 50,000 個以上的頁面名稱，但是要報告的頁面高達數千頁，您可以複製請求並變更起始排名，以利用 50,000 為單位的區塊擷取適量的資料。
@@ -39,17 +40,18 @@ ht-degree: 100%
 
 1. 若要建立搜尋運算式，請按一下&#x200B;**[!UICONTROL 「新增」]**。
 
-   ![步驟資訊](assets/expressions_define_filter.png)
-
 1. 在[!UICONTROL 「定義篩選」]表單中，根據需求設定合適的條件。
 
-   ![select_cell_icon.png](assets/select_cell_icon.png)：讓您找出在儲存格值中定義的條件。
 
-   **新增條件：**&#x200B;將條件新增至運算式。可新增的條件數量沒有限制。
+   ![熒幕擷圖顯示「定義篩選」對話方塊。](assets/expressions_define_filter.png)
+
+   選取儲存格圖示可讓您找出在儲存格值中定義的條件。 ![選取儲存格圖示。](assets/select_cell_icon.png)
+
+   此 **新增條件** 連結可讓您將條件新增至運算式。 可新增的條件數量沒有限制。
 
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
 
-   ![步驟資訊](assets/choose_page_02.png)
+   ![「定義篩選」對話方塊的熒幕擷圖，右下角顯示「確定」按鈕。](assets/choose_page_02.png)
 
 1. 在[!UICONTROL 「選擇頁面」]表單中按一下&#x200B;**[!UICONTROL 「儲存」]**，儲存運算式。
 1. 按一下&#x200B;**[!UICONTROL 「確定」]**。
