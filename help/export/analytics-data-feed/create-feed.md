@@ -3,9 +3,9 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
 workflow-type: tm+mt
-source-wordcount: '3122'
+source-wordcount: '3174'
 ht-degree: 20%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->建立資料摘要之前，請務必先對資料摘要和符合所有必要先決條件有基本的瞭解。 如需詳細資訊，請參閱 [資料摘要概觀](data-feed-overview.md).
+>建立資料摘要之前，請務必瞭解資料摘要的基本資訊，並確保您符合所有必要的先決條件。 如需詳細資訊，請參閱 [資料摘要概觀](data-feed-overview.md).
 
 ## 建立及設定資料摘要
 
@@ -45,6 +45,15 @@ ht-degree: 20%
    | [!UICONTROL **連續摘要**] | 此核取方塊會移除結束日期，使摘要無限期進行處理。 當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。一旦當前的小時或當天結束，處理程序就會在指定的延遲後開始。 |
 
 1. 在 [!UICONTROL **目的地**] 區段，在 [!UICONTROL **型別**] 下拉式功能表，選取您要傳送資料的目的地。
+
+   >[!NOTE]
+   >
+   >設定報表目的地時，請考量下列事項：
+   >
+   >* 我們建議將雲端帳戶用於您的報表目的地。 [舊版FTP和SFTP帳戶](#legacy-destinations) 可使用，但不建議使用。
+   >
+   >* 雲端帳戶與您的Adobe Analytics使用者帳戶相關聯。 其他使用者無法使用或檢視您設定的雲端帳戶。
+   >
 
    ![資料摘要目的地下拉式功能表](assets/datafeed-destinations-dropdown.png)
 
