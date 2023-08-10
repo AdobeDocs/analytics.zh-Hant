@@ -3,10 +3,10 @@ title: 頁面事件
 description: 連結追蹤動作的觸發次數。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 100%
+source-wordcount: '142'
+ht-degree: 60%
 
 ---
 
@@ -16,8 +16,8 @@ ht-degree: 100%
 
 ## 此量度的計算方式
 
-此量度會計算報表套裝中的所有連結追蹤呼叫 ([`tl()`](/help/implement/vars/functions/tl-method.md))。其中包括所有的連結類型 (自訂連結、下載連結和退出連結)。但不含頁面檢視追蹤呼叫 ([`t()`](/help/implement/vars/functions/t-method.md))。
+此量度會計入全部 [連結追蹤呼叫(`tl()`)](/help/implement/vars/functions/tl-method.md) 報表套裝中的。 其中包括所有的連結類型 (自訂連結、下載連結和退出連結)。不包括 [頁面檢視追蹤呼叫(`t()`)](/help/implement/vars/functions/t-method.md).
 
 ## 與類似量度比較
 
-* **頁面事件與[頁面檢視](page-views.md)**&#x200B;的比較：頁面事件會計算連結追蹤呼叫 (`tl()`) 的數量，並排除頁面檢視追蹤呼叫 (`t()`)。頁面檢視則相反；它會計算頁面檢視追蹤呼叫的數量，並排除連結。
+* **頁面事件與 [頁面檢視](page-views.md)**：頁面事件會計算連結追蹤呼叫的數量(`tl()`)和排除頁面檢視追蹤呼叫(`t()`)。 頁面檢視則相反；它會計算頁面檢視追蹤呼叫的數量，並排除連結。
