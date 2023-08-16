@@ -3,10 +3,10 @@ title: 找不到頁面 (量度)
 description: 包含錯誤的點擊次數。
 feature: Metrics
 exl-id: 71e138b5-69bb-41b0-852c-ca4af22be1f3
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: ed4538efa9a28d40ab18fecd3bd87545808d9ac5
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 100%
+source-wordcount: '130'
+ht-degree: 48%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此說明頁面說明「找不到頁面」作為量度時的運作方式。如需詳細資訊，請參閱[找不到頁面](../dimensions/pages-not-found.md)維度。*
 
-「找不到頁面」量度會顯示頁面包含錯誤的點擊次數。如果您想要查看哪些頁面或 URL 包含錯誤訊息 (例如 404)，則可以利用此量度來判斷錯誤的原因，並加以修正。
+「找不到頁面」量度會顯示訪客發生錯誤時，維度經設定或持續存在的點選次數。 如果您想要檢視哪些頁面或URL包含錯誤訊息（例如404），此量度就十分實用。 然後，您可以將此資訊傳遞至您的Web開發團隊，由他們判斷錯誤的原因並加以修正。
 
 ## 此量度的計算方式
 
