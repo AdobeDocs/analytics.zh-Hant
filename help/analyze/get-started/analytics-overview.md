@@ -4,9 +4,9 @@ title: Adobe Analytics概觀
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: d5a7dfe720cc84b67208e7d30434295caf1e2aac
+source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
 workflow-type: tm+mt
-source-wordcount: '3111'
+source-wordcount: '3101'
 ht-degree: 32%
 
 ---
@@ -104,7 +104,7 @@ Adobe Analytics介麵包含下列主要區域：
 
    ![工作區索引標籤](assets/components-tab.png)
 
-2. 選取下列任何產品功能以進行設定： （視您的許可權而定，可能不會顯示所有功能。）
+2. 選取下列任一產品功能以進行設定：
 
 
    | 產品功能 | 功能 | 詳細資訊 |

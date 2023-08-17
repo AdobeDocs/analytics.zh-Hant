@@ -3,10 +3,10 @@ description: 此說明頁面包含建議使用每種 Adobe Analytics 工具的�
 title: 我該使用哪種 Adobe Analytics 工具呢？
 feature: Analytics Basics
 exl-id: d65575df-19c6-4129-89c8-d36de7bb6b2f
-source-git-commit: a288253816fa73444dd5078d56d3d30e92aebe3f
-workflow-type: ht
-source-wordcount: '1163'
-ht-degree: 100%
+source-git-commit: 52f7ff8a357cfe80e1f92b4162057da807f44e9d
+workflow-type: tm+mt
+source-wordcount: '1227'
+ht-degree: 99%
 
 ---
 
@@ -30,17 +30,22 @@ ht-degree: 100%
 * 用於存取 UI 中的即時資料。
 * 用於設定日曆事件。
 * 用於設定目標。
-* 用於檢視 Bot 報告。
 * 用於取用不重複影片的「影片時段」與「觀賞人數減退」等資料的視覺化。
 
-該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html)** 的情況：
+>[!IMPORTANT]
+>
+>自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。 本通知說明生命週期結束程序。
 
-* 當作最具彈性的 Analytics 工具選項使用 (可細分到訪客層級、點擊層級的分析)。
-* 用於從 CRM 到 POS 到 Web，建立線上和離線互動的多頻道資料集。
-* 用於 (基於規則和演算法模型的) 進階屬性。
+該使用 **[Data Workbench](https://experienceleague.adobe.com/docs/data-workbench/using/home.html?lang=zh-Hant)** 的情況：
+
 * 用於預測性的統計模型 (傾向評分、叢集、關聯性)。
 * 用於延遲分析 (事件發生前/後的時間).
 * 用於識別並匯出整個 Adobe Experience Cloud 的複雜區段。
+
+>[!IMPORTANT]
+>
+>深入瞭解Data Workbench [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en).
+
 
 ## 將資料匯入 Adobe Analytics 中  {#import}
 
