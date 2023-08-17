@@ -3,10 +3,10 @@ title: purchaseID
 description: 根據唯一的購買識別碼去除重複點擊。
 feature: Variables
 exl-id: 7a4d7f08-65ae-4541-a94e-cc6c445c01db
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: befa9b1e17a07160fd29feef1676832164bec3fb
 workflow-type: tm+mt
 source-wordcount: '283'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 87%
 
 當 Adobe 將點擊辨識為重複購買時，所有轉換資料 (如 eVar 和事件) 都不會顯示在報表中。在資料摘要中，`duplicate_purchase` 欄會設為 `1`。
 
-購買 ID 會套用至所有訪客，而且不會過期。如果某位訪客設定了指定的購買 ID，另一位訪客在一年後設定了同一個購買 ID，則第二次購買的重複資料會遭到去除。
+購買ID會套用至所有訪客，並在37個月後過期。 如果某位訪客設定了指定的購買 ID，另一位訪客在一年後設定了同一個購買 ID，則第二次購買的重複資料會遭到去除。
 
 ## 使用Web SDK的購買ID
 
-購買ID為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `commerce.order.purchaseID`.
+購買識別碼為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `commerce.order.purchaseID`.
 
 ## 使用Adobe Analytics擴充功能的購買ID
 
