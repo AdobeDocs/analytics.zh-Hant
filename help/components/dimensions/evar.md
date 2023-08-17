@@ -3,10 +3,10 @@ title: eVar（維度）
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: ce7cc999-281d-4c52-b64d-d44cc320ab2d
-source-git-commit: 68389772dec0420a66767bb0af9dea3122e1cb0f
+source-git-commit: 391d4378a360270acb40cbd9ddb2be3cd315d11c
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '823'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,11 @@ ht-degree: 97%
 
 *此說明頁面將說明 eVar 做為維度的運作方式。如需實作 eVar 的相關資訊，請參閱實作使用手冊中的 [eVar](/help/implement/vars/page-vars/evar.md)。*
 
-eVar 是自訂變數，您可以視需要使用。如果您有[解決方案設計文件](/help/implement/prepare/solution-design.md)，則貴組織專屬的大部分維度最終都會變成 [!UICONTROL eVar]。 依預設，eVar 可保存在其設定所在的點擊之外。 您可以在[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) (位在[!UICONTROL 報表套裝設定]中) 底下自訂其到期日和配置。
+eVar是自訂變數，您可以視需要使用。 如果您擁有 [解決方案設計檔案](/help/implement/prepare/solution-design.md)，貴組織專屬的大部分維度最終都會變成 [!UICONTROL eVar]，是Adobe Analytics所提供預設維度以外的維度，例如「頁面名稱」、「反向連結網域」、「管道」。 另請參閱 [Dimension概觀](overview.md) 以取得詳細資訊。
+
+依預設，eVar 可保存在其設定所在的點擊之外。 您可以在[轉換變數](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/conversion-var-admin.md) (位在[!UICONTROL 報表套裝設定]中) 底下自訂其到期日和配置。請參閱下方的「轉換變數」UI中eVar定義的範例。
+
+![Evar範例](assets/evars-sample.png)
 
 可用的 eVar 數量取決於您與 Adobe 訂定的合約。在您的 Adobe 合約支援的前提下，最多可使用 250 個 eVar。
 
@@ -28,7 +32,7 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 ## 維度項目
 
-由於 eVar 包含您的實作中的自訂字串，因此您的組織會決定每個 eVar 的維度項目。請務必將每個eVar的用途和一般維度項目記錄在 [解決方案設計檔案](/help/implement/prepare/solution-design.md).
+由於 eVar 包含您的實作中的自訂字串，因此您的組織會決定每個 eVar 的維度項目。請務必將每個eVar的用途和常用的維度專案記錄在 [解決方案設計檔案](/help/implement/prepare/solution-design.md).
 
 ## eVar 的運作方式
 
@@ -51,12 +55,12 @@ AppMeasurement (會將 JavaScript 變數編譯為影像要求以進行資料收�
 
 | `visitor_id` | `pagename` | `evar1` | `post_evar1` | `event_list` |
 | --- | --- | --- | --- | --- |
-| `examplevisitor_987` | `Home page` |  |  |  |
+| `examplevisitor_987` | `Home page` | | | |
 | `examplevisitor_987` | `Search results` | `cats` | `cats` | `event1` |
-| `examplevisitor_987` | `Product page` |  | `cats` | `prodView` |
-| `examplevisitor_987` | `Cart` |  | `cats` | `scAdd` |
-| `examplevisitor_987` | `Checkout` |  | `cats` | `scCheckout` |
-| `examplevisitor_987` | `Purchase confirmation` |  | `cats` | `purchase` |
+| `examplevisitor_987` | `Product page` | | `cats` | `prodView` |
+| `examplevisitor_987` | `Cart` | | `cats` | `scAdd` |
+| `examplevisitor_987` | `Checkout` | | `cats` | `scCheckout` |
+| `examplevisitor_987` | `Purchase confirmation` | | `cats` | `purchase` |
 
 * `visitor_id` 欄會將點擊連結至相同的訪客。在實際原始資料中，`visid_high` 和 `visid_low` 的串連值將決定訪客 ID。
 * `pagename` 欄中會填入「頁面」維度。

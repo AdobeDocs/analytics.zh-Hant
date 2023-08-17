@@ -4,10 +4,10 @@ title: Analytics for Target (A4T) 面板
 feature: Panels
 role: User, Admin
 exl-id: 36bca104-37b8-43c6-b8d0-b607a9a333cc
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
+source-git-commit: 32dfab4b10d3637aba53081f747d2650fc33a8f0
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 99%
+source-wordcount: '1127'
+ht-degree: 87%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 99%
 | 設定 | 說明 |
 |---|---|
 | 目標活動 | 從「Target 活動」清單中選取活動，或從左側邊欄拖放活動。注意：清單會填入近 6 個月內至少點擊過 1 次的活動。如果您在清單中未看到某個活動，表示其存留期可能已超過 6 個月。您仍可從左側邊欄新增該活動，其回顧期間最長為 18 個月。 |
-| 控制體驗 | 選取您的控制體驗。您可以視需要在下拉式清單中變更。 |
+| 控制體驗 | 選取您的控制體驗。如有需要，您可以在下拉式清單中加以變更。 |
 | 標準化量度 | 從「不重複訪客」、「造訪」或「活動曝光數」中選擇。在大多數的分析使用案例中，均建議使用不重複訪客。此量度 (也稱為計數方法) 會成為提升度計算的分母。也會影響在套用可信度計算前彙總資料的方式。 |
 | 成功量度 | 從下拉式清單中選取最多 3 個標準 (非計算) 成功事件，或從左側邊欄中拖放量度。每個量度在呈現的面板中都會有專屬的表格和視覺效果。 |
 | 日曆日期範圍 | 此項目會根據 Adobe Target 的活動日期範圍自動填入。如有需要，您可加以變更。 |
@@ -49,10 +49,10 @@ Analytics for Target 面板會傳回一組豐富的資料和視覺效果，協�
 | 成功量度 | 在產生器中選取的量度 |
 | 轉換率 | 成功量度/標準化量度 |
 | 提升度 | 對照控制體驗來比較每一個體驗的轉換率。注意：提升度是 Target 體驗的「鎖定量度」；您無法加以劃分，也無法與其他維度搭配使用。 |
-| 提升度 (下限) | 表示 95％ 信賴區間中，變異數體驗對控制的最壞提升度。<br>算式：(x/y ± 1.96 std_err(x,y)) / (x_control/y_control ∓ 1.96 std_err(x_control,y_control))。此處，std_err(x,y) 代表 sqrt(xx/y – (x/y)^2)，其中 xx 代表平方和。 |
-| 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。<br>算式：(x/y)/(x_control/y_control) – 1 |
-| 提升度 (上限) | 表示 95％ 信賴區間中，變異數體驗對控制的最佳提升度。<br>算式：請參見提升度 (下限)。 |
-| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>算式：套用 y+y_control-2 自由度的 2-tailed t-test 來確定 x / y 是否等於 x_control/y_control 的 p 值。計算 t-score，其中 stderr 代表 sqrt( (xx/y-(x/y)^2)/y + (xx_control/y_control-(x_control/y_control)^2)/y_control)。返回 1-p 作為它們不同的可信度。 |
+| 提升度 (下限) | 表示 95％ 信賴區間中，變異數體驗對控制的最壞提升度。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
+| 提升度 (中) | 代表 95% 信賴區間中，變異數體驗對控制的中點提升度。這是 Reports &amp; Analytics 中的「提升度」。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
+| 提升度 (上限) | 表示 95％ 信賴區間中，變異數體驗對控制的最佳提升度。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
+| 可信度 | Student t 檢定會計算可信度等級，指出結果在重新執行該檢定時重複的可能性。量度已套用 75%/85%/95% 的固定條件式格式範圍。如有需要，可在「欄」設定下自訂此格式。注意：可信度是 Target 體驗的「鎖定量度」；您無法加以劃分，或與其他維度搭配使用。<br>另請參閱 [統計計算](https://experienceleague.adobe.com/docs/target/using/reports/statistical-methodology/statistical-calculations.html?lang=en) 和 [完整可信度電腦](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=en) Excel檔案以取得詳細資訊。 |
 
 和 Analysis Workspace 中的任何面板一樣，您可以新增其他有助於您分析 Adobe Target 活動的表格和[視覺效果](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.html)，以繼續進行分析。您也可以在面板級別或自由格式表中套用區段。請注意，如果將其新增到自由格式表中，則必須將其覆蓋在整個表中，以保留提升度和可信度計算。目前不支援欄級區段。
 
