@@ -5,10 +5,10 @@ title: 為專案排程
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
+source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 75%
+source-wordcount: '259'
+ht-degree: 73%
 
 ---
 
@@ -49,4 +49,4 @@ ht-degree: 75%
 
 可在&#x200B;**「Analytics > 元件 > 排程專案」**&#x200B;中管理已排程 Analysis Workspace 專案。
 
-有關詳細資訊，請參閱
+如需詳細資訊，請參閱 [排程專案](/help/components/scheduled-projects-manager.md)

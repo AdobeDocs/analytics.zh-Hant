@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: abd4d1a4b8076de225e37a375dfe387c998deb01
+source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
 workflow-type: tm+mt
-source-wordcount: '4891'
-ht-degree: 100%
+source-wordcount: '4924'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 8 月** | |
+| 與管理排程專案相關的內容已移動 | 在Analytics元件指南中建立新文章，稱為 [排程專案](/help/components/scheduled-projects-manager.md). 此內容先前位於 [排程專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md) Analytics工具指南中的文章。 |
 | 比較實施方法 | 已更新比較不同實施方法的文件。[了解更多](../implement/prepare/comparison.md) |
 | 澄清資料摘要的 SFTP 設定不需要 Adobe 客戶服務 | 在[使用 SFTP 將 Adobe 資料傳送到外部 FTP 帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中，澄清不需要求助 Adobe 客戶服務即可為資料摘要設定 SFTP。 <p>同時，新增注意事項，表示不再建議使用 SFTP，客戶在設定資料摘要時應使用雲端目的地。</p> |
 | 串流媒體的文件改善 | 串流媒體已進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實施概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)，明確區分邊緣實施和僅限 Analytics 實施。還新增圖表，說明各種實施方式。</li><li>已新增 [Edge 實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=en)和[僅限 Analytics 實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=en)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=en)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=en) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實施方法*&#x200B;的新欄。</li><li>已簡化文件中[實施](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=en)區域文章的內容和組織。這包括用邊緣實施和僅限 Analytics 實施，對實施加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=en)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
