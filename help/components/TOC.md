@@ -3,9 +3,9 @@ product: analytics
 audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
-user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報表套裝、行銷管道和分類。了解跨裝置分析。
+user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報程套裝、行銷管道和分類。了解跨裝置分析。
 source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '726'
 ht-degree: 100%
 
@@ -205,19 +205,19 @@ ht-degree: 100%
       + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
       + [預設計算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
-+ 虛擬報表套裝 {#virtual-report-suites}
-   + [虛擬報表套裝總覽](vrs/vrs-about.md)
-   + [虛擬報表套裝 - 元件管理](vrs/vrs-components.md)
++ 虛擬報程套裝 {#virtual-report-suites}
+   + [虛擬報程套裝總覽](vrs/vrs-about.md)
+   + [虛擬報程套裝 - 元件管理](vrs/vrs-components.md)
    + [內容感知作業](vrs/vrs-mobile-visit-processing.md)
-   + [報表時間處理功能](vrs/vrs-report-time-processing.md)
+   + [報程時間處理功能](vrs/vrs-report-time-processing.md)
    + [A4T 考量事項](vrs/vrs-a4t.md)
    + [VRS 常見問答](vrs/vrs-faq.md)
    + [VRS 和全域/多套裝標記考量事項](vrs/vrs-considerations.md)
    + VRS 工作流程 {#vrs-workflow}
-      + [虛擬報表套裝工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
-      + [建立虛擬報表套裝](vrs/c-workflow-vrs/vrs-create.md)
-      + [管理虛擬報表套裝](vrs/c-workflow-vrs/vrs-manage.md)
-      + [檢視虛擬報表套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
+      + [虛擬報程套裝工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
+      + [建立虛擬報程套裝](vrs/c-workflow-vrs/vrs-create.md)
+      + [管理虛擬報程套裝](vrs/c-workflow-vrs/vrs-manage.md)
+      + [檢視虛擬報程套裝資訊](vrs/c-workflow-vrs/vrs-view.md)
 + 跨裝置分析 {#cda}
    + [跨裝置分析總覽](cda/overview.md)
    + [欄位式拚接](cda/field-based-stitching.md)
@@ -273,11 +273,11 @@ ht-degree: 100%
    + [雲端匯入帳戶](/help/components/locations/configure-import-accounts.md)
    + [雲端匯入位置](/help/components/locations/configure-import-locations.md)
 + [行事曆事件](t-calendar-event.md)
-+ [計劃的專案](scheduled-projects-manager.md)
++ [已排程的專案](scheduled-projects-manager.md)
 + [排程報告佇列](scheduled-reports-admin.md)
 + 即時報告 {#real-time-reporting}
    + [即時報告總覽](c-real-time-reporting/realtime.md)
-   + [設定即時報表](c-real-time-reporting/t-realtime-admin.md)
+   + [設定即時報程](c-real-time-reporting/t-realtime-admin.md)
    + [支援的即時量度和維度](c-real-time-reporting/realtime-metrics.md)
 + 行銷管道 {#marketing-channels}
    + [開始使用行銷管道](c-marketing-channels/c-getting-started-mchannel.md)
