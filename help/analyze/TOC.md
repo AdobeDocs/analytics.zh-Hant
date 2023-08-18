@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: a653d60fd423d2853254a8c96252a39f08f9a3b4
-workflow-type: ht
-source-wordcount: '1098'
+source-git-commit: 6cf07b816723ce0d5adb9183215e331c7656d928
+workflow-type: tm+mt
+source-wordcount: '1100'
 ht-degree: 100%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 100%
 + [Analytics 工具指南](home.md)
 + [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + 開始使用 Adobe Analytics {#admin-overview}
+   + [Analytics 概述](get-started/analytics-overview.md)
    + [我該使用哪種 Adobe Analytics 工具呢？](get-started/which-analytics-tool.md)
    + [Analytics 產品比較和需求](get-started/analytics-product-comparison.md)
    + [系統需求](get-started/sys-reqs.md)

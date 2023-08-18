@@ -1,13 +1,13 @@
 ---
-description: Adobe Analytics的一般概觀資訊
+description: 有關Adobe Analytics的一般概觀資訊，包括Analytics介面以及管理員、分析師、使用者和開發人員的快速入門資訊。
 title: Adobe Analytics概觀
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: 1c6cc23c9cb6b4b007d2f296ea23e697cc135bd4
+source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
 workflow-type: tm+mt
-source-wordcount: '3101'
-ht-degree: 32%
+source-wordcount: '5049'
+ht-degree: 41%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Analytics提供下列複雜的分段和預測性工具，用於分析網�
 
 * [流量分析](/help/analyze/analysis-workspace/visualizations/c-flow/flow.md)
 
-* [進階分段](/https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
+* [進階分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
 ### 行銷分析
 
@@ -82,7 +82,7 @@ Adobe Analytics介麵包含下列主要區域：
 
 ### 工作區索引標籤
 
-此 [!UICONTROL 工作區] 索引標籤會顯示Analysis Workspace專案清單。
+此 [!UICONTROL 工作區] 標籤顯示 [!UICONTROL 專案] 預設區域，其中會顯示「公司」資料夾、您建立的所有個人資料夾、您的專案以及行動計分卡。
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **工作區**] 標籤。
 
@@ -112,14 +112,14 @@ Adobe Analytics介麵包含下列主要區域：
    | 區段 | Adobe Analytics 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報表。 | [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant) |
    | 計算量度 | 計算量度和進階計算（或衍生）量度是自訂量度，您可以從現有量度建立。  無論行銷人員、產品經理或分析人員，不需變更Analytics實作就能詢問資料相關問題。 | [計算與進階計算 (衍生) 量度](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/cm-overview.html?lang=en) |
    | 日期範圍 | Analysis Workspace包含使用者在建置分析時可使用的預設日期範圍清單。 此外，您可以建立自訂日期範圍，並供Analysis Workspace中的使用者使用。 | [建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant) <!-- should create an article in the Components Guide for managing/creating date ranges. This article in the Tools Guide needs updating. --> |
-   | 虛擬報表套裝 |  |  |
+   | 虛擬報表套裝 | 虛擬報表套裝會將您的 Adobe Analytics 資料分段，以便您控制每個區段的存取權。 | [虛擬報表套裝概觀](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant) |
    | 警報 | 智慧型警報可提供更細微的警報控制能力，並整合警報系統與異常偵測功能。 | [智慧型警報](https://experienceleague.adobe.com/docs/analytics/components/alerts/intellligent-alerts.html?lang=en) |
    | 目標 | 目標可讓您測量網站績效並追蹤預設目標的進度。建立目標時，您可以選擇希望測量的屬性度量或 eVar，或選擇參照所選度量測量整個網站。 <p>目標是Reports &amp; Analytics的一部分。 進一步了解 Reports &amp; Analytics [生命週期結束通知](https://express.adobe.com/page/6WnF8JK6IRDhf/)。</p> | [目標](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/targets.html?lang=en) |
    | 行事曆事件 | 對於特定時段的趨勢報表，行事曆事件可讓您以圖形方式顯示事件，並檢視行銷活動或其他事件是否已對您的網站流量、收入或任何其他量度產生影響。 | [日曆事件](https://experienceleague.adobe.com/docs/analytics/components/t-calendar-event.html?lang=en) |
    | 附註 | 工作區中的註解讓您能夠有效地將內容相關的資料細微差別和深入解析傳達給您的組織。註解可讓您將行事曆事件和特定的維度和量度連結起來。 | [管理註解](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/annotations/manage-annotations.html?lang=en) |
    | 分類集 | 分類設定提供管理分類和規則的單一介面。 <p>分類是將 Analytics 變數資料分類，然後在您產生報表時以不同方式顯示資料的方式。您可以在變數值和與該值相關的中繼資料之間建立關係。 分類可用於大部分的自訂維度，例如追蹤程式碼、prop和eVar。</p> | [分類集概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/sets/overview.html?lang=zh-Hant) |
    | 位置 | 若要從雲端目的地匯入Adobe Analytics分類資料，您必須先新增並設定要收集分類資料的位置。 您可以建立、編輯或刪除位置。 | [地點管理員](https://experienceleague.adobe.com/docs/analytics/components/locations/locations-manager.html?lang=en) |
-   | 計劃的專案 | 管理已排程專案時，您可以編輯和刪除週期性專案排程；在搜尋列中或使用左側邊欄中的篩選選項搜尋排程；以及依標籤、已核准的排程、擁有者等條件進行篩選。 | [計劃的專案](/help/components/scheduled-projects-manager.md) |
+   | 已排程的專案 | 管理已排程專案時，您可以編輯和刪除週期性專案排程；在搜尋列中或使用左側邊欄中的篩選選項搜尋排程；以及依標籤、已核准的排程、擁有者等條件進行篩選。 | [已排程的專案](/help/components/scheduled-projects-manager.md) |
    | 書籤 | 書籤可讓您存取自己最常用的報告。您建立的書籤會新增到 Experience Cloud，並可在 Data Connectors 之類的整合式功能中使用。 <p>書籤是Reports &amp; Analytics的一部分。 進一步了解 Reports &amp; Analytics [生命週期結束通知](https://express.adobe.com/page/6WnF8JK6IRDhf/)。 | [書籤管理器](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html?lang=en) |
    | 儀表板 | 控制面板的建立可將度量視覺化，並提供包含資料的互動式分析功能。 按一下控制面板中的專案，可以快速輕鬆地劃分資料區段，以從分析中衍生資訊。 <p>控制面板是Data Workbench的一部分。 深入瞭解Data Workbench [生命週期結束公告](https://experienceleague.adobe.com/docs/data-workbench/using/eol.html?lang=en). | [控制面板管理員](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/dashboard-manage.html?lang=en) |
    | 排程報告 | 管理員層級的使用者可以檢視和管理整個組織的排程報表。 | [排程報表佇列](https://experienceleague.adobe.com/docs/analytics/components/scheduled-reports-admin.html?lang=en) |
@@ -130,7 +130,7 @@ Adobe Analytics介麵包含下列主要區域：
 
 ### 「工具」索引標籤
 
-「工具」標籤……
+<!-- The Tools tab ... -->
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **工具**] 索引標籤，然後選取 [!UICONTROL **所有工具**].
 
@@ -142,23 +142,76 @@ Adobe Analytics介麵包含下列主要區域：
    |---------|----------|----------|
    | Data Warehouse | Data Warehouse 是指儲存和自訂報表所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。  <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=en) |
    | Activity Map | Activity Map的設計目的，是使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析控制面板，用來監控您網頁的觀眾參與情形。 它可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷活動，以及就對象需求和行為採取行動。 | [Activity Map 概觀](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-TW) |
-   | Recommendations Classic  |  |  |
+   | Recommendations Classic  | Recommendations是一項Adobe Target功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
    | Search&amp;Promote |  |  |
    | 行動服務 |  |  |
-   | Analytics儀表板（行動應用程式） |  |  |
-   | Report Builder |  |  |
+   | Analytics儀表板（行動應用程式） | Adobe Analytics儀表板應用程式可隨時隨地提供Adobe Analytics的深入分析。 透過應用程式，使用者可檢視您使用Adobe Analytics案頭UI建立的直覺式計分卡。 | iOS App Store或Google Play商店中的Adobe Analytics儀表板應用程式 |
+   | Report Builder | Adobe Report Builder 是 Microsoft Excel 的增益集。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [什麼是 Report Builder？](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant) |
 
    {style="table-layout:auto"}
 
 ### 「管理員」標籤
 
-「管理員」標籤……
+管理員標籤包含管理Adobe Analytics的功能和設定選項。
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **管理員**] 索引標籤，然後選取 [!UICONTROL **所有管理員**].
 
    ![工作區索引標籤](assets/admin-tab.png)
 
-## 管理員、分析人員和使用者快速入門
+2. 選取下列任一產品功能以進行設定：
+
+   | 產品功能 | 功能 | 詳細資訊 |
+   |---------|----------|----------|
+   | Analytics使用者和資產 | 雖然大多數使用者和產品管理功能現在僅適用於 [Adobe Admin Console](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)，將資產從一個使用者轉讓給另一個使用者的管理功能，以及設定使用者帳戶的到期日功能，只能從Adobe Analytics管理區域使用。 | [轉移使用者資產或設定帳戶有效期](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/users-assets.html?lang=en) |
+   | 使用者 ID 移轉 | Analytics 使用者 ID 移轉可以讓管理員將 Analytics「使用者管理」中的使用者帳戶輕鬆移轉至 Adobe Admin Console。 | [Analytics 使用者移轉至 Adobe Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=zh-Hant) |
+   | 使用者管理首頁（舊版） | 使用者和產品管理功能已移至 Adobe Admin Console。 使用Adobe Admin Console開始管理Adobe Analytics使用者的使用者許可權。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
+   | 群組（舊版） | 群組管理已移至Adobe Admin Console。 使用Adobe Admin Console開始管理Adobe Analytics的群組。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
+   | 報表套裝存取 | 授與報表套裝工具存取權的方法已移至Adobe Admin Console。 使用Adobe Admin Console授予Adobe Analytics使用者報表套裝存取權。 | [報告套裝工具的產品設定檔權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
+   | 管理工具首頁 |  |  |
+   | 報告套裝 | 可讓您定義規則，控管如何在報表套裝中處理資料。 | [報告套裝管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
+   | Analytics使用者和資產 | 使用者和資產管理功能已移至Adobe Admin Console。 使用Adobe Admin Console開始管理Adobe Analytics使用者的使用者許可權。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
+   | 分類匯入工具 | 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。 | [分類匯入工具概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
+   | 分類規則產生器 | 您可以建立自動的規則型分類並套用至多個報表套裝，如此就無須在每次追蹤程式碼變更時維護和上傳分類。 | [分類規則產生器工作流程](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-rulebuilder/classification-rule-builder.html?lang=en) |
+   | 資料來源 | 使用資料來源管理員來建立、編輯或停用資料來源。 您也可以使用此介面來追蹤已上傳至資料來源FTP位置的檔案狀態。 | [管理資料來源](https://experienceleague.adobe.com/docs/analytics/import/data-sources/manage.html?lang=en) |
+   | 代碼管理器 | 代碼管理器可讓您下載網站和行動平台的資料收集代碼 | [程式碼管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=zh-Hant) |
+   | 流量管理 | 「流量管理」頁面可讓您指定預期的流量變化。這些設定讓 Adobe 能夠分配適當資源，以確保即時追蹤和處理您的流量。 | [流量管理概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/traffic-management/traffic-management.html?lang=en) |
+   | 伺服器呼叫使用量 | 伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。「伺服器呼叫使用量」儀表板可追蹤您的伺服器呼叫使用量資料，並將其與您的合約限制進行比較。 您可以設定警報以防止使用過量。 | [伺服器呼叫使用量概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+   | 記錄檔 | 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。 | [記錄檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hant) |
+   | Advertising Analytics | 設定Adobe Analytics以並排顯示所有Google和Bing付費搜尋資料。 | [設定 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
+   | 資料饋送 | 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 | [Analytics 資料摘要概觀](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant) |
+   | 依 IP 排除 | 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。 | [依 IP 位址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
+   | 發佈Widget |  |  |
+   | 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並協助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+   | 資料治理隱私權標籤 | 為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。 | [標籤報表套裝資料](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
+   | 公司設定首頁 | 公司設定頁面可讓您設定要對您的組織所管理的所有報表套裝套用的設定。 | [公司設定概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=en) |
+   | 安全管理員 | 安全管理員可讓您控制報表資料的存取權。選項包括增強式密碼、密碼過期、IP 登入限制及電子郵件網域限制。 | [安全管理器](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/security-manager.html?lang=en) |
+   | 支援資訊 | 支援資訊頁面會管理顯示於整個Reports &amp; Analytics的支援資訊。 Reports &amp; Analytics. <p>自 2023 年 12 月 31 日起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 進一步了解 Reports &amp; Analytics [生命週期結束通知](https://www.adobe.com/go/analytics_rnaeol_tw)。</p> |  |
+   | 網站服務 | 「網站服務 API」可程式化地存取行銷報告和其他「套裝」服務，讓您透過 Analytics 介面複製並增強可用功能。 | [網站服務](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/web-services-admin.html?lang=en) |
+   | Report Builder 報表 | 管理指派給 Report Builder 使用者的授權。 | [Report Builder 報表](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/report-builder-reports-admin.html?lang=en) |
+   | 單一登入服務 | Adobe Experience Cloud 的單一登入是透過 Admin Console 實作。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
+   | 品牌結合Adobe Experience Cloud | 「管理品牌結合影像」頁面可讓您在 Reports &amp; Analytics 的下載報表和舊版儀表板中顯示自己公司的標誌。品牌結合不會使用在 Analysis Workspace 中。<p>自 2023 年 12 月 31 日起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 進一步了解 Reports &amp; Analytics [生命週期結束通知](https://www.adobe.com/go/analytics_rnaeol_tw)。</p> | [品牌結合](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/co-branding-admin.html?lang=en) |
+   | 隱藏報表套裝 | 如果您不再想要報表套裝可供您和您的使用者使用，可讓您在Adobe Analytics使用者介面中隱藏報表套裝。 | [隱藏報表套裝](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-hide-report-suites.html?lang=en) |  |
+
+   {style="table-layout:auto"}
+
+### Analysis Workspace
+
+Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與其他人分享這些深入見解。透過拖放瀏覽器介面，您可以建立分析、新增視覺效果以生動呈現資料、組織資料集，以及與組織中您選擇的任何人共用和排程專案。
+
+下圖及隨附表格說明Analysis Workspace中的部分主要區域。
+
+如需Analysis Workspace的詳細總覽，請參閱 [Analysis Workspace概觀](/help/analyze/analysis-workspace/home.md).
+
+![Analysis Workspace 概觀](assets/analysis-workspace-overvew.png)
+
+| 影像中的位置 | 名稱與功能 |
+|---------|----------|
+| A | **最左側邊欄：**&#x200B;包含用於在 Analysis Workspace 新增面板、視覺效果和元件的標籤。也包含用來開啟資料字典的「資料字典」圖示。 |
+| B | **左側邊欄：**&#x200B;根據在最左側邊欄選取的標籤，該區域包含個別的面板、視覺效果或元件。 |
+| C | **畫布：**&#x200B;這是從左側邊欄拖曳內容以建立專案的主要區域。您新增面板、視覺效果和元件到畫布時，該專案就會動態更新。 |
+| D | **報告套裝下拉式選單：**&#x200B;對於 Analysis Workspace 中的每個面板，報告套裝下拉式選單可讓您選擇要使用做為資料來源的報告套裝。 |
+
+## 管理員、分析師、一般使用者和開發人員快速入門
 
 典型組織中有3種Adobe Analytics使用者：管理員、分析師和一般使用者。
 
@@ -170,7 +223,7 @@ Adobe Analytics介麵包含下列主要區域：
 
 Analytics管理員負責選擇最適合其組織的實作方法。
 
-實作Adobe Analytics後，管理員需要執行各種設定工作，以確保分析師和使用者能從Adobe Analytics中獲得完整價值。
+實作Adobe Analytics後，管理員需要執行各種設定工作，以確保分析師和使用者能從Adobe Analytics中獲得完整價值。 管理員也應定期監控其Analytics環境，以確保系統有效率地執行。
 
 #### 決定應收集的資料型別
 
@@ -217,12 +270,25 @@ Analytics管理員必須先完成下列工作，才能讓組織中的使用者�
 | 匯入資料 | Adobe Analytics資料來源可讓您匯入更多重要的線上或離線資料以用於報表。 | [資料來源概觀](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=en) |
 | 使用「分類」將資料分類 | 分類可讓您分類資料，以便更妥善地使用變數，讓您在單一變數中包含更多內容。 | |
 | 管理元件 | 使用資料字典和每種元件型別的管理區域，定義您的Analytics實作中可用的元件，以及組織核准的元件。<p>這應是持續活動，以確保您的組織有效使用元件。 </p> | <ul><li>[資料字典概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=zh-Hant)</li><li>[計算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=en)</li><li>[管理區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hant)</li><li>[建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant)</li></ul> |
-| 異常偵測和貢獻分析 | | |
-| 進階分段 | | |
+| 異常偵測 | 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 | [異常偵測概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hant) |
+| 貢獻分析 | 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合讀者區段間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。 | [貢獻分析概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant) |
+| Analytics 分段 | 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用至Analytics功能、Adobe Experience Cloud、Adobe Target和其他整合式Adobe產品的報表。 | [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant) |
 | 將對象發佈到Audience Manager | | |
-| 歸因 | | |
-| 報告活動管理員 | | |
 | 整合 | 您可以在Adobe Analytics中顯示其他應用程式的資訊。 <p>以下是一些常見的整合：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=en">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=en">媒體分析</a></li> | |
+
+{style="table-layout:auto"}
+
+#### 監視Adobe Analytics
+
+有多種功能可協助您監控Adobe Analytics環境。
+
+Analytics管理員應瞭解下列可用功能，以協助監控Analytics環境的重要層面：
+
+| 任務 | 預期用途 | 詳細資訊 |
+|---------|----------|---------|
+| 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並協助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
+| 伺服器呼叫使用量 | 伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。「伺服器呼叫使用量」儀表板可追蹤您的伺服器呼叫使用量資料，並將其與您的合約限制進行比較。 您可以設定警報以防止使用過量。 | [伺服器呼叫使用量概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
+| 記錄檔 | 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。 | [記錄檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hant) |
 
 {style="table-layout:auto"}
 
@@ -238,7 +304,7 @@ Analytics管理員必須先完成下列工作，才能讓組織中的使用者�
 | 歸因 | 分析人員可以在Analysis Workspace中使用各種歸因模型和回顧期間，自訂維度專案獲得成功事件評分的方式。<p>線性歸因模型會將相等的評分歸給每個帶來轉換的接觸點，而「首次接觸」則會將完全的評分歸給第一個接觸點。 有許多其他歸因模型可供使用，包括演演算法模型，此模型會使用統計技術以動態方式決定最佳評分配置。 </p> | [歸因模型與回顧期間](/help/analyze/analysis-workspace/attribution/models.md) |
 | 異常偵測 | Analysis Workspace中的統計模型會藉由分析量度並決定上下界限和值的預期範圍，自動尋找資料中的意外趨勢。 當發生意外的尖峰或下降時，系統會在報表中警報。 | [異常偵測概觀](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md) |
 | 貢獻分析 | 使用Analysis Workspace來探索資料中的隱藏模式，說明統計異常並識別跨受眾區段的非預期客戶動作、界外值、量度突升或突降背後的關聯。 | [貢獻分析概觀](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md) |
-| 智慧型警報 | 根據資料異常和以單一警報擷取多個量度的「棧疊」警報，建立和管理警報。 | [智慧型警報概觀](help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
+| 智慧型警報 | 根據資料異常和以單一警報擷取多個量度的「棧疊」警報，建立和管理警報。 | [智慧型警報概觀](/help/analyze/analysis-workspace/c-intelligent-alerts/intellligent-alerts.md) |
 | 資料匯出 | Data Warehouse和資料摘要可讓您將資料匯出至各種雲端目的地，例如Google Cloud Platform、Azure RBAC、Azure SAS和Amazon S3。 | [Analytics 轉存指南](https://experienceleague.adobe.com/docs/analytics/export/home.html?lang=zh-Hant) |
 | Activity Map | Activity Map 是一種 Adobe Analytics 應用程式，專門設計來使用視覺化覆蓋圖為連結活動進行排名，並提供即時分析儀表板來監控網頁的觀眾參與情形。<p>Activity Map 可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷活動，以及就觀眾需求和行為採取行動。</p> | [Activity Map](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html) |
 | Report Builder |  Report Builder 是 Microsoft Excel 的增益集。Report Builder 能讓您根據插入 Excel 工作表中的 Adobe Analytics 資料，建置自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html) |
