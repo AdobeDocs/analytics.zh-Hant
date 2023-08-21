@@ -4,9 +4,9 @@ title: Adobe Analytics概觀
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f2f1d21989b609bf069da28b3b90785ccd14ef19
+source-git-commit: 58e5f3ca4b99e92b64e01095d61d5fe1fc97feb9
 workflow-type: tm+mt
-source-wordcount: '5049'
+source-wordcount: '5077'
 ht-degree: 41%
 
 ---
@@ -21,7 +21,7 @@ Adobe Analytics可讓組織收集資料，並從任何數位客戶互動中獲�
 
 如需Adobe Analytics所提供權益的詳細資訊，請參閱 [Adobe Analytics產品頁面](https://business.adobe.com/products/analytics/adobe-analytics.html).
 
-### 網站分析
++++網站分析
 
 Adobe Analytics提供下列複雜的分段和預測性工具，用於分析網站流量：
 
@@ -31,7 +31,9 @@ Adobe Analytics提供下列複雜的分段和預測性工具，用於分析網�
 
 * [進階分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)
 
-### 行銷分析
++++
+
++++行銷分析
 
 Adobe Analytics可協助組織瞭解客戶與其品牌互動的位置、客戶偏好的管道，以及哪些體驗會引起他們的共鳴。
 
@@ -43,14 +45,18 @@ Adobe Analytics中的下列主要功能提供下列行銷功能：
 
 * [Analysis Workspace中的Ad hoc analysis](/help/analyze/analysis-workspace/home.md)
 
-### 歸因
++++
+
++++歸因
 
 歸因可讓組織檢視整個客戶歷程中的不同互動如何影響轉換。 除了提供更傳統的歸因選項（例如線性或首次接觸模型），Adobe Analytics中的Attribution也使用機器學習和進階統計模型來瞭解每次接觸的精確影響。
 
 如需詳細資訊，請參閱 [歸因模型與回顧期間](/help/analyze/analysis-workspace/attribution/models.md).
 
++++
 
-### 預測性分析
+
++++預測性分析
 
 預測性分析使用機器學習和進階統計模型來分析客戶資料、尋找模式，以及預測未來行為，例如流失或轉換的可能性。 它可讓資料分析師運用原本可能被浪費的龐大資料集。
 
@@ -61,6 +67,8 @@ Adobe Analytics中的下列主要功能提供下列預測功能：
 * [貢獻分析](#contribution-analysis)
 
 * [智慧型警報](#intelligent-alerts)
+
++++
 
 ## 使用Adobe Analytics的必要條件
 
@@ -78,9 +86,13 @@ Adobe Analytics中的下列主要功能提供下列預測功能：
 
 ## 瞭解Analytics介面
 
-Adobe Analytics介麵包含下列主要區域：
+Adobe Analytics介麵包含下列主要區域，包括用於管理Analysis Workspace中的專案、管理元件、工具和管理員功能的標籤。
 
-### 工作區索引標籤
+![工作區索引標籤](assets/landing-all2.png)
+
+展開下列章節以瞭解Analysis Workspace的每個區域：
+
++++工作區索引標籤
 
 此 [!UICONTROL 工作區] 標籤顯示 [!UICONTROL 專案] 預設區域，其中會顯示「公司」資料夾、您建立的所有個人資料夾、您的專案以及行動計分卡。
 
@@ -90,13 +102,17 @@ Adobe Analytics介麵包含下列主要區域：
 
 如需「 」上可用功能的詳細資訊， [!UICONTROL 工作區] 標籤，請參閱 [Adobe Analytics登陸頁面](/help/analyze/landing.md).
 
-### 「報告」標籤
++++
+
++++「報表」索引標籤
 
 自 2023 年 12 月 31 日起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 
 
 請改用 [!UICONTROL **報表**] 左側邊欄中的區域 [!UICONTROL **工作區**] 標籤。 如需詳細資訊，請參閱 *瀏覽至「報表」標籤。* 在 [Adobe Analytics登陸頁面](/help/analyze/landing.md).
 
-### 元件標籤
++++
+
++++元件標籤
 
 此 [!UICONTROL 元件] 索引標籤包含可幫助您微調和啟用資料分析的功能。
 
@@ -128,7 +144,9 @@ Adobe Analytics介麵包含下列主要區域：
 
    {style="table-layout:auto"}
 
-### 「工具」索引標籤
++++
+
++++工具」標籤
 
 <!-- The Tools tab ... -->
 
@@ -150,7 +168,9 @@ Adobe Analytics介麵包含下列主要區域：
 
    {style="table-layout:auto"}
 
-### 「管理員」標籤
++++
+
++++管理員標籤
 
 管理員標籤包含管理Adobe Analytics的功能和設定選項。
 
@@ -194,7 +214,9 @@ Adobe Analytics介麵包含下列主要區域：
 
    {style="table-layout:auto"}
 
-### Analysis Workspace
++++
+
++++Analysis Workspace
 
 Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與其他人分享這些深入見解。透過拖放瀏覽器介面，您可以建立分析、新增視覺效果以生動呈現資料、組織資料集，以及與組織中您選擇的任何人共用和排程專案。
 
@@ -210,6 +232,8 @@ Analysis Workspace 可讓您快速建置分析以收集深入見解，然後與�
 | B | **左側邊欄：**&#x200B;根據在最左側邊欄選取的標籤，該區域包含個別的面板、視覺效果或元件。 |
 | C | **畫布：**&#x200B;這是從左側邊欄拖曳內容以建立專案的主要區域。您新增面板、視覺效果和元件到畫布時，該專案就會動態更新。 |
 | D | **報告套裝下拉式選單：**&#x200B;對於 Analysis Workspace 中的每個面板，報告套裝下拉式選單可讓您選擇要使用做為資料來源的報告套裝。 |
+
++++
 
 ## 管理員、分析師、一般使用者和開發人員快速入門
 
