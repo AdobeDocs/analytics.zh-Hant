@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 1dd49a030b501ef3f291448facf08216fce0fe5e
+source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
 workflow-type: tm+mt
-source-wordcount: '4940'
+source-wordcount: '4954'
 ht-degree: 99%
 
 ---
@@ -26,6 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 8 月** | |
+| Experience Edge資料處理 | 新增Adobe Analytics運作方式 [處理來自Experience Edge的資料](../implement/aep-edge/overview.md). |
 | 「媒體播放時間」面板 | 已更新的內容  [「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 提升可讀性。 |
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立一篇新文章，名為[已排程的專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
 | 比較實作方法 | 已更新比較不同實作方法的文件。[了解更多](../implement/prepare/comparison.md) |
