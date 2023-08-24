@@ -3,18 +3,36 @@ title: Adobe Analytics 系統需求
 description: 使用 Adobe Analytics 的系統需求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
-source-git-commit: 860621a058826ba8bf602d87a702f835c7c00a37
+source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 80%
 
 ---
 
-# Adobe Analytics 系統需求
+# Adobe Analytics 系統需求 和先決條件
 
-大多數 Adobe Analytics 解決方案都在瀏覽器中執行。 本文會提供瀏覽器和客戶端解決方案的系統需求資訊。
+在開始以管理員身分實施Adobe Analytics，或作為分析人員或一般使用者使用之前，您應該先熟悉下列先決條件和系統需求：
 
-## 瀏覽器解決方案的系統需求
+## Adobe Analytics 的使用必要條件
+
+在使用 Adobe Analytics 之前，您必須具備：
+
+* 有效的 Adobe Analytics 授權
+
+  Adobe Analytics 需要網站授權。如需詳細資訊，請聯絡您的 Adobe 客戶代表。<!--is this phrased correctly? Is this important? -->
+
+* 支援的瀏覽器
+
+  每個存取 Adobe Analytics 的使用者都必須使用受支援的瀏覽器。如需詳細資訊，請參閱 [Adobe Analytics 的系統需求](https://experienceleague.adobe.com/docs/analytics/analyze/admin-overview/sys-reqs.html?lang=zh-Hant)。
+
+<!-- are there more? -->
+
+## 系統需求
+
+大多數 Adobe Analytics 解決方案都在瀏覽器中執行。 下列資訊提供瀏覽器和使用者端解決方案的系統需求。
+
+### 瀏覽器解決方案的系統需求
 
 大部分的 Adobe Analytics 解決方案 (包括 Analysis Workspace) 都是以瀏覽器為基礎。因此，要使用 Adobe Analytics，最重要的需求就是要有新型的網頁瀏覽器。Adobe 支援以下最新穩定版的瀏覽器：
 
@@ -27,7 +45,7 @@ ht-degree: 100%
 >
 > Adobe Analytics 已於 2018 年 11 月 13 日停止支援 Microsoft Internet Explorer 11。
 
-## 非瀏覽器解決方案的系統需求
+### 非瀏覽器解決方案的系統需求
 
 請參閱連結的解決方案頁面，以了解該解決方案的系統需求。
 
