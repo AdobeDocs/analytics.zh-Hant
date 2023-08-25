@@ -4,18 +4,24 @@ title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '1812'
-ht-degree: 88%
+source-wordcount: '1901'
+ht-degree: 83%
 
 ---
 
 # 管理員、分析師、一般使用者和開發人員快速入門
 
-一般組織的 Adobe Analytics 使用者有 3 種類型：管理員、分析師和一般使用者。
+典型組織中有4種Adobe Analytics使用者：
 
-管理員實作和設定 Adobe Analytics；分析師使用 Analysis Workspace 設定專案和建立分析，一般使用者透過建立自己的分析或與分析師合作建立分析，獲得有關其客戶的可操作分析。
+* **管理員：** 實作與設定Adobe Analytics。
+
+* **分析人員：** 使用Analysis Workspace設定專案並建立分析
+
+* **一般使用者：** 透過建立客戶自己的分析或與分析師合作建立分析專案，獲得有關客戶的可操作性見解
+
+* **開發人員：** 使用Adobe Analytics 2.0 API直接呼叫Adobe的伺服器，以執行幾乎所有可在使用者介面中執行的動作，例如建立報表以探索、取得見解或回答有關資料的重要問題。
 
 以下資訊概述這些使用者如何開始使用Adobe Analytics。
 
@@ -68,13 +74,13 @@ Analytics 管理員應先完成以下任務，再將 Adobe Analytics 提供給�
 | 定義權限 | Analytics 管理員需要在 Admin Console 為 Adobe Analytics、報告套裝工具和 Analytics 工具指派產品設定檔。 | [Admin Console 中的 Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hant) |
 | 設定報告套裝並定義公司設定 | 報告套裝是 Adobe Analytics 用來產生報告的獨立資料單位。<p>管理員也可以設定[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)以進一步分段資料。</p> | <ul><li>[建立報告套裝](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hant)</li><li>[公司設定概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hant)</li></ul> |
 | 匯入資料 | Adobe Analytics 資料來源可讓您匯入更多重要的線上或離線資料以用於報告。 | [資料來源概觀](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hant) |
-| 使用分類對資料進行分類 | 分類允許您對資料進行分類，以更好地利用變數，從而將更多內容包含到單一變數中。 | |
+| 使用分類對資料進行分類 | 分類允許您對資料進行分類，以更好地利用變數，從而將更多內容包含到單一變數中。 | [分類概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant) |
 | 管理元件 | 使用資料字典和每個元件類型的管理區域來定義您的 Analytics 實作中可使用哪些元件，以及核准哪些元件供您的組織使用。<p>這應該持續進行，以確保組織使用者可以有效率地運用元件。 </p> | <ul><li>[資料字典概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=zh-Hant)</li><li>[計算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=zh-Hant)</li><li>[管理區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hant)</li><li>[建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant)</li></ul> |
 | 異常偵測 | 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 | [異常偵測概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hant) |
 | 貢獻分析 | 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合讀者區段間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。 | [貢獻分析概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant) |
 | Analytics 分段 | 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用至Analytics功能、Adobe Experience Cloud、Adobe Target和其他整合式Adobe產品的報表。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant) |
-| 將對象發佈到 Audience Manager | | |
-| 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant">媒體分析</a></li> | |
+| 將對象發佈到 Audience Manager | Adobe Audience Manager是一個功能強大的資料管理平台，可協助您從第一方、第二方（合作夥伴）和第三方資料整合建立獨一無二的對象設定檔。 | [Audience Analytics 概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant) |
+| 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant">媒體分析</a></li> | [Analytics 整合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en) |
 
 {style="table-layout:auto"}
 

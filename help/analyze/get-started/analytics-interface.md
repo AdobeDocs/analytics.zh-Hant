@@ -4,10 +4,10 @@ title: 了解 Analytics 介面
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '2682'
-ht-degree: 72%
+source-wordcount: '2816'
+ht-degree: 70%
 
 ---
 
@@ -82,8 +82,8 @@ Adobe Analytics介麵包含下列主要區域，包括用於管理Analysis Works
    | Data Warehouse | Data Warehouse 是指儲存和自訂報告所使用的 Analytics 資料複本，可供您透過篩選資料的方式來執行。 <p>「請求管理員」可讓您檢視或複製請求，以及重新排列請求的優先順序。</p> | [管理 Data Warehouse 請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hant) |
    | Activity Map | Activity Map 旨在透過視覺化覆蓋圖排行連結活動，並提供即時分析控制面板，以監視網頁的讀者參與度。可讓您設定不同的檢視，以視覺方式識別客戶活動加速、量化行銷計劃，以及針對觀眾需求和行為採取行動。 | [Activity Map 概觀](https://experienceleague.adobe.com/docs/analytics/analyze/activity-map/activity-map.html?lang=zh-TW) |
    | Recommendations Classic | Recommendations是一項Adobe Target功能，可依據先前的使用者活動、偏好設定或其他條件，自動顯示可能使訪客感興趣的產品、服務或內容。 | [Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en) |
-   | Search&amp;Promote |  |  |
-   | 行動服務 |  |  |
+   | Search&amp;Promote | 已不再支援此功能。 |  |
+   | 行動服務 | 已不再支援此功能。 |  |
    | Analytics 儀表板 (行動應用程式) | Adobe Analytics儀表板應用程式可隨時隨地提供Adobe Analytics的深入分析。 透過應用程式，使用者可檢視您使用Adobe Analytics案頭UI建立的直覺式計分卡。 | iOS App Store或Google Play商店中的Adobe Analytics儀表板應用程式 |
    | Report Builder | Adobe Report Builder 是 Microsoft Excel 的增益集。這可讓您根據能插入 Excel 工作表中的 Adobe Analytics 資料來建立自訂請求。這些請求可動態參考工作表中的儲存格，而您可以更新及自訂 Report Builder 展示資料的方式。 | [什麼是 Report Builder？](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/home.html?lang=zh-Hant) |
 
@@ -106,7 +106,7 @@ Adobe Analytics介麵包含下列主要區域，包括用於管理Analysis Works
    | 使用者管理首頁（舊版） | 使用者和產品管理功能已移至 Adobe Admin Console。 使用Adobe Admin Console開始管理Adobe Analytics使用者的使用者許可權。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
    | 群組（舊版） | 群組管理已移至Adobe Admin Console。 使用Adobe Admin Console開始管理Adobe Analytics的群組。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
    | 報表套裝存取 | 授與報表套裝工具存取權的方法已移至Adobe Admin Console。 使用Adobe Admin Console授予Adobe Analytics使用者報表套裝存取權。 | [報告套裝工具的產品設定檔權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/report-suite-tools.html?lang=en) |
-   | 管理工具首頁 |  |  |
+   | 管理工具首頁 | Analytics管理工具區域是管理Adobe Analytics執行個體的主要區域；大多數管理任務都可在此完成。 | [管理員工具概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/c-admin-tools.html?lang=en) |
    | 報告套裝 | 可讓您定義規則，控管如何在報表套裝中處理資料。 | [報告套裝管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/report-suites-admin.html?lang=en) |
    | Analytics使用者和資產 | 使用者和資產管理功能已移至Adobe Admin Console。 使用Adobe Admin Console開始管理Adobe Analytics使用者的使用者許可權。 | [Admin Console 中的 Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=zh-Hant) |
    | 分類匯入工具 | 使用匯入工具將分類上傳至 Adobe Analytics。您也可以在匯入之前，匯出資料以便更新。 | [分類匯入工具概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html?lang=en) |
@@ -119,7 +119,7 @@ Adobe Analytics介麵包含下列主要區域，包括用於管理Analysis Works
    | Advertising Analytics | 設定Adobe Analytics以並排顯示所有Google和Bing付費搜尋資料。 | [設定 Advertising Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/advertising-analytics-config.html?lang=en) |
    | 資料饋送 | 資料摘要是從 Adobe Analytics 中取得原始資料的有力方式。這類原始資料可用於 Adobe 以外的其他平台，供組織任意使用。 | [Analytics 資料摘要概觀](https://experienceleague.adobe.com/docs/analytics/export/analytics-data-feed/data-feed-overview.html?lang=zh-Hant) |
    | 依 IP 排除 | 您可以從報表中排除特定 IP 位址的資料，例如內部網站活動、網站測試和員工使用情形。透過排除 IP 位址資料，可以排除資料以改進報告準確度。此外，您可以移除來自拒絕服務攻擊或其他歪曲報告資料之惡意事件的資料。您可以設定排除規則，或使用防火牆來進行設定。 | [依 IP 位址排除](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/exclude-ip.html?lang=en) |
-   | 發佈Widget |  |  |
+   | 發佈Widget | 可讓您將Reports &amp; Analytics視覺效果內嵌在網頁中。 <p>自 2023 年 12 月 31 日起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。進一步了解 Reports &amp; Analytics [生命週期結束公告](https://www.adobe.com/go/analytics_rnaeol_tw)。</p><p>除了此功能外，您現在可以 [與任何人共用專案](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/curate-share/share-projects.html?lang=zh-Hant#share-public-link) 而不需要登入。</p> <p>管理員可以在中設定此功能 [公司偏好設定](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/user-preferences.html?lang=zh-Hant#company-preferences)</p> |  |
    | 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並協助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
    | 資料治理隱私權標籤 | 為報表套裝資料加上標籤，代表您可為特定報表套裝內的每個變數，指派身分、敏感程度以及資料控管標籤。 | [標籤報表套裝資料](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/data-governance/data-labels/gdpr-setup-reportsuite.html?lang=en) |
    | 公司設定首頁 | 公司設定頁面可讓您設定要對您的組織所管理的所有報表套裝套用的設定。 | [公司設定概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hant) |

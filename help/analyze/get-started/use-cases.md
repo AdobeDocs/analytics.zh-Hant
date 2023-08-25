@@ -4,9 +4,9 @@ title: Analytics使用案例
 feature: Analytics Basics
 hide: true
 hidefromtoc: true
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: 5bf266628506bc2f664e4382f819615c5a082763
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '291'
 ht-degree: 89%
 
 ---
@@ -34,7 +34,7 @@ Adobe Analytics 可協助組織了解客戶在何處與其品牌互動、客戶�
 
 以下 Adobe Analytics 主要功能提供了這些行銷功能：
 
-* 多管道資料收集
+* [多管道資料收集](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=zh-Hant)
 
 * [離線資料整合](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hant)。
 
