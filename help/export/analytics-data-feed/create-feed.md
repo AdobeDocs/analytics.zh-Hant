@@ -3,10 +3,10 @@ title: 建立資料摘要
 description: 瞭解如何建立資料摘要。
 feature: Data Feeds
 exl-id: 36c8a40e-6137-4836-9d4b-bebf17b932bc
-source-git-commit: d9b1caf1edf473461d176d472f6f73c04cc1dbad
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '3174'
-ht-degree: 20%
+source-wordcount: '3175'
+ht-degree: 19%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 20%
    | [!UICONTROL **完成時收到電子郵件**] | 摘要完成處理時要通知的電子郵件地址。 電子郵件地址的格式必須正確。 |
    | [!UICONTROL **摘要間隔**] | 選取 **每日** 用於回填或歷史資料。 每日摘要則包含一整天的資料，從報表套裝時區的午夜到午夜。  選取 **每小時** 持續性資料（如有需要，也可使用「每日」持續性摘要）。 每小時摘要包含一個小時的資料量， |
    | [!UICONTROL **延遲處理**] | 在處理資料摘要檔案之前，請等候一段特定時間。 延遲的作用在於，在行動裝置實作中讓離線裝置得以上線並傳送資料。在管理舊的已處理檔案時，它也可用於容納組織的伺服器端處理程序。多數情況下延遲並不會發生。摘要最多可延遲 120 分鐘。 |
-   | [!UICONTROL **開始和結束日期**] | 開始日期指的是您想要取得資料摘要的初始日期。 將此日期設為過去，系統就會立即開始處理歷史資料的資料摘要。摘要會一直處理到結束日期為止。 開始和結束日期取決於報表套裝的時區。 |
+   | [!UICONTROL **開始和結束日期**] | 開始日期指的是您想要資料摘要開始的日期。 若要立即開始處理歷史資料的資料摘要，請將此日期設為收集資料時的過去任何日期。 開始和結束日期取決於報表套裝的時區。 |
    | [!UICONTROL **連續摘要**] | 此核取方塊會移除結束日期，使摘要無限期進行處理。 當摘要完成處理歷史資料後，就會等待資料完成指定小時或當天的資料收集。一旦當前的小時或當天結束，處理程序就會在指定的延遲後開始。 |
 
 1. 在 [!UICONTROL **目的地**] 區段，在 [!UICONTROL **型別**] 下拉式功能表，選取您要傳送資料的目的地。
@@ -213,7 +213,7 @@ ht-degree: 20%
          | [!UICONTROL **帳戶刪除**] | Azure SAS帳戶的說明。 此說明會顯示在 [!UICONTROL **選取帳戶**] 下拉式欄位，並可是您選擇的任何名稱。 |
          | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
          | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
-         | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式的許可權。 如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
+         | [!UICONTROL **金鑰保存庫 URI**] | <p>Azure金鑰儲存庫中SAS權杖的路徑。  若要設定Azure SAS，您需要使用Azure金鑰儲存庫將SAS權杖儲存為秘密。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations).</p><p>建立金鑰儲存庫URI後，在金鑰儲存庫上新增存取原則，以授予您建立的Azure應用程式許可權。 如需詳細資訊，請參閱 [有關如何指派金鑰儲存庫存取原則的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/general/assign-access-policy?tabs=azure-portal).</p> |
          | [!UICONTROL **金鑰保存庫祕密名稱**] | 將密碼新增至Azure金鑰儲存庫時建立的密碼名稱。 在Microsoft Azure中，此資訊位於您建立的金鑰儲存庫中，位於 **金鑰儲存庫** 設定頁面。 如需詳細資訊，請參閱 [有關如何從Azure金鑰儲存庫設定和擷取密碼的Microsoft Azure檔案](https://learn.microsoft.com/en-us/azure/key-vault/secrets/quick-create-portal?source=recommendations). |
          | [!UICONTROL **Secret**] | 從您建立的Azure應用程式複製密碼。 在Microsoft Azure中，此資訊位於 **憑證和密碼** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
 
@@ -301,7 +301,7 @@ ht-degree: 20%
    | [!UICONTROL **封裝型別**] | 選取 **多個檔案** 用於大多數的資料摘要。 此選項會將您的資料分頁為未壓縮的2GB區塊。 （如果選取了多個檔案，且報表回溯期的未壓縮資料少於2GB，則會傳送一個檔案。） 選取 **單一檔案** 輸出 `hit_data.tsv` 在單一的、可能為大型的檔案中。 |
    | [!UICONTROL **資訊清單**] | Adobe是否應該傳遞 [資訊清單檔案](c-df-contents/datafeeds-contents.md#feed-manifest) 在摘要間隔內未收集到資料時到達目的地。 如果您選取 **資訊清單檔案**，您會在未收集資料時收到類似下列的資訊清單檔案：<p>`text`</p><p>`Datafeed-Manifest-Version: 1.0`</p><p>`Lookup-Files: 0`</p><p>`Data-Files: 0`</p><p> `Total-Records: 0`</p> |
    | [!UICONTROL **欄範本**] | 建立許多資料摘要時，Adobe建議建立欄範本。 選取欄範本就會自動在範本中加入指定的欄。Adobe 也提供數個預設範本。 |
-   | [!UICONTROL **可用欄**] | Adobe Analytics中所有可用的資料欄。 按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。 |
+   | [!UICONTROL **適用欄**] | Adobe Analytics中所有可用的資料欄。 按一下[!UICONTROL 全部新增]，將所有欄加入資料摘要中。 |
    | [!UICONTROL **包含的欄**] | 要包含在資料摘要中的欄。 按一下[!UICONTROL 全部移除]，從資料摘要中移除所有欄。 |
    | [!UICONTROL **下載 CSV**] | 下載包含所有已包含欄的CSV檔案。 |
 

@@ -5,9 +5,9 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 0ece9b2fddcf905951bbe35ec0a3ff862baff71c
+source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
-source-wordcount: '4954'
+source-wordcount: '4991'
 ht-degree: 99%
 
 ---
@@ -26,9 +26,10 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 8 月** | |
-| Experience Edge資料處理 | 新增Adobe Analytics運作方式 [處理來自Experience Edge的資料](../implement/aep-edge/overview.md). |
-| 「媒體播放時間」面板 | 已更新的內容  [「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md) 提升可讀性。 |
-| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立一篇新文章，名為[已排程的專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
+| 資料摘要說明 | 已更新 [開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md) 為了澄清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料時的過去任何日期。 |
+| Experience Edge 資料處理 | 已新增關於 Adobe Analytics 如何[處理 Experience Edge 資料](../implement/aep-edge/overview.md)的內容。 |
+| 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的內容以提高可讀性。 |
+| 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
 | 比較實作方法 | 已更新比較不同實作方法的文件。[了解更多](../implement/prepare/comparison.md) |
 | 澄清資料摘要的 SFTP 設定不需要 Adobe 客戶服務 | 在[使用 SFTP 將 Adobe 資料傳送到外部 FTP 帳戶](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-transfer.md)中，澄清不需要求助 Adobe 客戶服務即可為資料摘要設定 SFTP。 <p>同時，新增注意事項，表示不再建議使用 SFTP，客戶在設定資料摘要時應使用雲端目的地。</p> |
 | 串流媒體的文件改善 | 串流媒體已進行以下文件改善： <ul><li>已更新[一般概觀](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant)避免混淆，並新增與 Customer Journey Analytics 相關的資訊。</li><li>已更新[實作概觀](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hant)，明確區分邊緣實作和僅限 Analytics 實作。還新增圖表，說明各種實作方式。</li><li>已新增 [Edge 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/edge-recommended/prerequisites-edge.html?lang=zh-Hant)和[僅限 Analytics 實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/analytics-only/prerequisites-analytics.html?lang=zh-Hant)專用的先決條件。還更新了[一般先決條件](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/prereqs.html?lang=zh-Hant)。</li><li>已更新文章[取得 Media SDK、使用標記的擴充功能和 OTT SDK](https://experienceleague.adobe.com/docs/media-analytics/using/getting-started/download-sdks.html?lang=zh-Hant) 中的圖表，以新增&#x200B;*支援的解決方案*&#x200B;和&#x200B;*實作方法*&#x200B;的新欄。</li><li>已簡化文件中[實作](https://experienceleague.adobe.com/docs/media-analytics/using/implementation/overview.html?lang=zh-Hant)區域文章的內容和組織。這包括用邊緣實作和僅限 Analytics 實作，對實作加以分類。</li><li>已刪除[追蹤](https://experienceleague.adobe.com/docs/media-analytics/using/tracking/track-core-overview.html?lang=zh-Hant)下不需要的額外階層，並在本區段中新增已更改 URL 的重新導向。</li><ul> |
