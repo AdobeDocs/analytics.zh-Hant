@@ -3,7 +3,7 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 5d0133495613c89deca4dc070d38389ef89853b3
+source-git-commit: 991c46091d08a3efa8c1ff90d6ccc2a4e698f208
 workflow-type: tm+mt
 source-wordcount: '891'
 ht-degree: 93%
@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # 目前的 Adobe Analytics 發行說明 (2023 年 8 月)
 
-**最新更新**：2023 年 8 月 24 日
+**最新更新**：2023 年 8 月 29 日
 
 這些發行說明涵蓋 2023 年 8 月 9 日至 9 月 13 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 中的分類集** | 提供用來儲存、刪除、擷取、匯入和匯出分類集資料的 Adob&#x200B;&#x200B;e Analytics API 2.0 方法。 | 不適用 | 2023 年 8 月 30 日 |
+| **API 2.0 中的分類集** | 提供用來儲存、刪除、擷取、匯入和匯出分類集資料的 Adob&#x200B;&#x200B;e Analytics API 2.0 方法。 | 不適用 | 2023 年 9 月 13 日 |
 | **報告活動管理員** | 報告活動管理員會為管理員提供每個報告套裝的報告使用量詳細可見度，使管&#x200B;&#x200B;理員能夠輕鬆診斷並修正報告高峰期間的容量問題。[了解更多](/help/admin/admin/reporting-activity.md) | 不適用 | 2023 年 9 月 12 日 |
 
 {style="table-layout:auto"}
