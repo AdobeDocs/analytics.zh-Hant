@@ -1,20 +1,20 @@
 ---
-description: 透過電子郵件傳送 Analysis Workspace 專案，或排程進行傳送。
+description: 使用電子郵件傳送Analysis Workspace專案，或排程進行傳送。
 keywords: Analysis Workspace
 title: 為專案排程
 feature: Curate and Share
 role: User, Admin
 exl-id: 2d6854f7-8954-4d55-b2be-25981cfb348b
-source-git-commit: 00c2b924d31f7a68258bba5e96ef1a39d4707766
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 73%
+source-wordcount: '315'
+ht-degree: 51%
 
 ---
 
 # 排程專案
 
-您可以從工作區的&#x200B;**「共用」功能表**，透過電子郵件將 Analysis Workspace 專案傳送給選取的收件者。能以 CSV 或 PDF 格式傳送檔案。
+從工作區 **共用功能表**，您可以使用電子郵件傳送Analysis Workspace專案給選取的收件者。 能以 CSV 或 PDF 格式傳送檔案。共用已排程專案後，您可以使用「已排程的專案管理員」編輯排程設定，以修改頻率、收件者清單或檔案型別。
 
 ## 立即傳送檔案
 
@@ -47,6 +47,14 @@ ht-degree: 73%
 
 ## 管理排程專案
 
-可在&#x200B;**「Analytics > 元件 > 排程專案」**&#x200B;中管理已排程 Analysis Workspace 專案。
+當您管理已排程的專案時，可以編輯和刪除週期性專案排程：
+
+* 變更檔案型別(.csv或PDF)
+* 更新專案說明
+* 新增或移除收件者
+* 變更頻率
+
+
+可在&#x200B;**「Analytics > 元件 > 已排程的專案」**&#x200B;中管理已排程 Analysis Workspace 專案。
 
 如需詳細資訊，請參閱 [排程專案](/help/components/scheduled-projects-manager.md)

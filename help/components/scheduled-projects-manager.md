@@ -2,10 +2,10 @@
 description: 查看並管理組織內全部排程報程。
 title: 已排程的專案管理員
 feature: Admin Tools
-source-git-commit: 8d0cf795b0366b2797fa0574ae9faaffb76b005e
-workflow-type: ht
-source-wordcount: '414'
-ht-degree: 100%
+source-git-commit: d65ef389ae9bc3164be928ffe64cc805b8b1e59d
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 86%
 
 ---
 
@@ -13,9 +13,19 @@ ht-degree: 100%
 
 可在&#x200B;**「Analytics > 元件 > 已排程的專案」**&#x200B;中管理已排程 Analysis Workspace 專案。
 
-在管理已排程專案時，您可以編輯和刪除定期的專案排程。在搜尋列中或使用左側邊欄中的篩選選項來搜尋排程。您可依不同條件進行篩選：[!UICONTROL 標籤]、[!UICONTROL 所有者]、[!UICONTROL 我的最愛]等。
+當您管理已排程的專案時，可以編輯和刪除週期性專案排程：
 
-![](assets/scheduled-project-manager2.png)
+* 變更檔案型別(.csv或PDF)
+* 更新專案說明
+* 新增或移除收件者
+* 變更頻率
+
+若要修改排程專案
+
+1. 選取 **「分析>元件>已排程專案」**.
+1. 在搜尋列中或使用左側邊欄中的篩選選項來搜尋排程。您可依不同條件進行篩選：[!UICONTROL 標籤]、[!UICONTROL 所有者]、[!UICONTROL 我的最愛]等。
+
+![此熒幕擷圖顯示排程專案清單，其欄顯示標題、所有者、標籤、傳遞對象以及「可用欄」區段中說明的其他欄。](assets/scheduled-project-manager2.png)
 
 ## 適用欄
 
