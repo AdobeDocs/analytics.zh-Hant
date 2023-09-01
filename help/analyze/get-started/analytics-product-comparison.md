@@ -4,9 +4,9 @@ title: Analytics 產品比較和需求
 exl-id: 5adc6c10-cbbb-48d5-a7ab-367cbaff5e8a
 feature: Analytics Basics
 source-git-commit: 71ebabf7efca70c0cbd2489dc538f7f10cae16cb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,5 +37,5 @@ ht-degree: 97%
 | **組織** <br> [了解更多](/help/analyze/analysis-workspace/curate-share/curate.md) | 是 - 專案和 VRS | 否 | 否 | 否 | 否 | 否 | 是 - 僅限 VRS |
 | **專案共用** <br> [了解更多](/help/analyze/analysis-workspace/curate-share/share-projects.md) | 是，且具有專案角色 | 有 | 是 | 否 | 是 | 否 | 否 |
 | **排程傳送** | 有 | 有 | 有 | 是 | 否 | 是 | 否 |
-| **傳送目的地** | 電子郵件 | 電子郵件 | 電子郵件、FTP、SFTP、[發佈至 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 電子郵件、FTP。請聯絡客戶服務以取得其他目的地支援，包括 SFTP、Azure Blob、Amazon S3 | - | Amazon S3、Azure RBAC、Azure SAS和Google Cloud Platform | - |
+| **傳送目的地** | 電子郵件 | 電子郵件 | 電子郵件、FTP、SFTP、[發佈至 Microsoft PowerBI](/help/analyze/report-builder/c-publish-power-bi/power-bi.md) | 電子郵件、FTP。請聯絡客戶服務以取得其他目的地支援，包括 SFTP、Azure Blob、Amazon S3 | - | Amazon S3、Azure RBAC、Azure SAS 和 Google Cloud Platform | - |
 | **VRS 報表時間處理** <br> [了解更多](/help/components/vrs/vrs-report-time-processing.md) | 有 | 否 | 否 | 否 | 否 | 否 | 是 |
