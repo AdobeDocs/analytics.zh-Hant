@@ -4,15 +4,15 @@ description: 使用 Adobe Analytics 的系統需求。
 feature: System Requirements
 exl-id: e3575b1c-e088-48a9-90d4-ad1c7169e022
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# Adobe Analytics 系統需求 和先決條件
+# Adobe Analytics 系統需求和先決條件
 
-在開始以管理員身分實施Adobe Analytics，或作為分析人員或一般使用者使用之前，您應該先熟悉下列先決條件和系統需求：
+在開始以管理員身分實施 Adobe Analytics 或以分析師或一般使用者身分使用 Adobe Analytics 之前，您應先熟悉以下先決條件和系統需求：
 
 ## Adobe Analytics 的使用必要條件
 
@@ -30,7 +30,7 @@ ht-degree: 80%
 
 ## 系統需求
 
-大多數 Adobe Analytics 解決方案都在瀏覽器中執行。 下列資訊提供瀏覽器和使用者端解決方案的系統需求。
+大多數 Adobe Analytics 解決方案都在瀏覽器中執行。以下資訊會提供瀏覽器和用戶端解決方案的系統需求。
 
 ### 瀏覽器解決方案的系統需求
 
