@@ -1,15 +1,15 @@
 ---
-description: 有關Adobe Analytics的一般概觀資訊，包括Analytics介面以及管理員、分析師、使用者和開發人員的快速入門資訊。
-title: Analytics使用案例
+description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
+title: Analytics 使用案例
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '291'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# Analytics使用案例
+# Analytics 使用案例
 
 以下是 Adobe Analytics 協助組織獲得重要深入見解以更好地服務客戶的一些重要方法。
 
