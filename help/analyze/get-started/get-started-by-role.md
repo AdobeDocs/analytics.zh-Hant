@@ -1,33 +1,33 @@
 ---
-description: 有關Adobe Analytics的一般概觀資訊，包括Analytics介面以及管理員、分析師、使用者和開發人員的快速入門資訊。
+description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
 title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
 source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1901'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # 管理員、分析師、一般使用者和開發人員快速入門
 
-典型組織中有4種Adobe Analytics使用者：
+一般組織的 Adobe Analytics 使用者有 4 種類型：
 
-* **管理員：** 實作與設定Adobe Analytics。
+* **管理員：**&#x200B;實施和設定 Adobe Analytics。
 
-* **分析人員：** 使用Analysis Workspace設定專案並建立分析
+* **分析師：**&#x200B;使用 Analysis Workspace 設定專案和建立分析
 
-* **一般使用者：** 透過建立客戶自己的分析或與分析師合作建立分析專案，獲得有關客戶的可操作性見解
+* **一般使用者：**&#x200B;透過建立自己的分析或與分析師合作建立分析，取得有關客戶的可操作分析
 
-* **開發人員：** 使用Adobe Analytics 2.0 API直接呼叫Adobe的伺服器，以執行幾乎所有可在使用者介面中執行的動作，例如建立報表以探索、取得見解或回答有關資料的重要問題。
+* **開發人員：**&#x200B;使用 Adobe Analytics 2.0 API 可直接呼叫 Adobe 伺服器來執行幾乎所有可在使用者介面中執行的動作，例如建立報告以進行探索、取得深入分析或回答有關資料的重要問題。
 
-以下資訊概述這些使用者如何開始使用Adobe Analytics。
+以下資訊概述了每個使用者如何開始使用 Adobe Analytics。
 
 ## 新管理員快速入門
 
 Analytics 管理員負責選擇最適合其組織的實作方法。
 
-實作 Adobe Analytics 後，管理員需要執行各種設定任務，以確保分析師和一般使用者可充分利用 Adobe Analytics 功能。管理員也應定期監控其Analytics環境，以確保系統有效率地執行。
+實作 Adobe Analytics 後，管理員需要執行各種設定任務，以確保分析師和一般使用者可充分利用 Adobe Analytics 功能。管理員還應定期監控其 Analytics 環境，以確保系統執行效率。
 
 ### 確定應收集的資料類型
 
@@ -75,24 +75,24 @@ Analytics 管理員應先完成以下任務，再將 Adobe Analytics 提供給�
 | 使用分類對資料進行分類 | 分類允許您對資料進行分類，以更好地利用變數，從而將更多內容包含到單一變數中。 | [分類概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant) |
 | 管理元件 | 使用資料字典和每個元件類型的管理區域來定義您的 Analytics 實作中可使用哪些元件，以及核准哪些元件供您的組織使用。<p>這應該持續進行，以確保組織使用者可以有效率地運用元件。 </p> | <ul><li>[資料字典概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.html?lang=zh-Hant)</li><li>[計算量度管理器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-manager.html?lang=zh-Hant)</li><li>[管理區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-manage.html?lang=zh-Hant)</li><li>[建立自訂日期範圍](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/components/calendar-date-ranges/custom-date-ranges.html?lang=zh-Hant)</li></ul> |
 | 異常偵測 | 「異常偵測」提供一種統計方法，以判斷指定的量度和先前的資料比較有何變更。 | [異常偵測概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html?lang=zh-Hant) |
-| 貢獻分析 | 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合讀者區段間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。 | [貢獻分析概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant) |
-| Analytics 分段 | 可讓您建立、管理、共用功能強大且對象更明確的區段，以及將其套用至Analytics功能、Adobe Experience Cloud、Adobe Target和其他整合式Adobe產品的報表。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant) |
-| 將對象發佈到 Audience Manager | Adobe Audience Manager是一個功能強大的資料管理平台，可協助您從第一方、第二方（合作夥伴）和第三方資料整合建立獨一無二的對象設定檔。 | [Audience Analytics 概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant) |
-| 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant">媒體分析</a></li> | [Analytics 整合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=en) |
+| 貢獻分析 | 貢獻分析會探索您資料中的隱藏模式，說明統計異常並識別聚合對象區段間非預期客戶動作、界外值、選定量度突升或突降背後的關聯。 | [貢獻分析概觀](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=zh-Hant) |
+| Analytics 分段 | 可讓您建立、管理、共用功能強大且目標專一的對象區段，以及將其套用到使用 Analytics 功能、Adobe Experience Cloud、Adobe Target 和其他整合式 Adobe 產品的報告。 | [Analytics 分段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=zh-Hant) |
+| 將對象發佈到 Audience Manager | Adobe Audience Manager 是一個功能強大的資料管理平台，可協助您從第一方、第二方 (合作夥伴) 與協力廠商資料整合建置不重複對象設定檔。 | [Audience Analytics 概觀](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/mc-audiences-aam.html?lang=zh-Hant) |
+| 整合 | 您可以在 Adobe Analytics 中顯示來自其他應用程式的資訊。 <p>以下是一些常見整合：</p><ul><li><a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=zh-Hant">目標分析</a></li><li><a href="https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html?lang=zh-Hant">媒體分析</a></li> | [Analytics 整合](https://experienceleague.adobe.com/docs/analytics/integration/home.html?lang=zh-Hant) |
 
 {style="table-layout:auto"}
 
-### 監視Adobe Analytics
+### 監控 Adobe Analytics
 
-有多種功能可協助您監控Adobe Analytics環境。
+有多種功能可協助您監控 Adobe Analytics 環境。
 
-Analytics管理員應瞭解下列可用功能，以協助監控Analytics環境的重要層面：
+Analytics 管理員應了解以下可協助監控 Analytics 環境重要方面的功能：
 
 | 任務 | 預定用途 | 詳細資訊 |
 |---------|----------|---------|
-| 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並協助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=en) |
-| 伺服器呼叫使用量 | 伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。「伺服器呼叫使用量」儀表板可追蹤您的伺服器呼叫使用量資料，並將其與您的合約限制進行比較。 您可以設定警報以防止使用過量。 | [伺服器呼叫使用量概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=en) |
-| 記錄檔 | 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報表套裝以及管理員變更。 | [記錄檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hant) |
+| 報告活動管理員 | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它提供報告使用量的詳細可見度，並幫助您在尖峰報告期間輕鬆診斷和修正容量問題。 | [報告活動管理員](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/reporting-activity.html?lang=zh-Hant) |
+| 伺服器呼叫使用量 | 伺服器呼叫又稱為「點擊」或「影像要求」，是有關資料傳送到 Adobe 伺服器進行處理的一項實例。「伺服器呼叫使用量」儀表板，用於追蹤伺服器呼叫耗用量資料，並將其與合約限制進行比較。您可以設定警報以避免使用過量。 | [伺服器呼叫使用量概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-call-usage/overage-overview.html?lang=zh-Hant) |
+| 記錄檔 | 記錄檔可協助您查看使用者何時登入、其使用情形、存取權、報告套裝以及管理員變更。 | [記錄檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/logs.html?lang=zh-Hant) |
 
 {style="table-layout:auto"}
 
