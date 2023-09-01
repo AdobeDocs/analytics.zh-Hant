@@ -1,14 +1,14 @@
 ---
-description: 相依請求是與現有請求相依的請求。
-title: 新增相依請求
+description: 瞭解如何新增相依請求。
+title: 如何新增相依請求
 uuid: 243619db-81b4-40cc-88c4-e93a14f6993b
 feature: Report Builder
 role: User, Admin
 exl-id: e45eef96-0bd2-4c5a-b1d1-cd41390c08d4
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '101'
+ht-degree: 48%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 相依請求是與現有請求相依的請求。
 
-若報表已在報表表格內啟用關聯劃分，您可以在儲存格中按一下滑鼠右鍵，然後按一下&#x200B;**[!UICONTROL 「新增相依請求]** > **[!UICONTROL 劃分」]**，即可進一步了解某個項目。
+若報表已在報表表格內啟用關聯劃分，若要進一步瞭解某個專案，請在儲存格中按一下滑鼠右鍵，然後按一下 **[!UICONTROL 新增相依請求]** > **[!UICONTROL 劃分]**.
 
 >[!NOTE]
 >
-> 您也可以在建立原始請求時新增劃分請求。請參閱[建立資料請求](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)。
+>您也可以在建立原始請求時新增劃分請求。 請參閱[建立資料請求](/help/analyze/report-builder/data-requests/t-create-a-data-request.md)。
 
 >[!NOTE]
 >

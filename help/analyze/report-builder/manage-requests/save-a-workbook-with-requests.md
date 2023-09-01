@@ -1,20 +1,20 @@
 ---
-description: 建立含內嵌請求的報表後，您可以按一下 Excel 中的「檔案 > 儲存」或「檔案 > 另存新檔」加以儲存。Report Builder 會偵測報表是否含有請求。當您按一下上述任一儲存選項時，「另存活頁簿」表單隨即會出現。
-title: 儲存含請求的活頁簿
+description: 瞭解如何使用內嵌請求儲存報表。
+title: 關於儲存含請求的活頁簿
 uuid: 31611031-0982-4124-9fc7-7888124aa603
 feature: Report Builder
 role: User, Admin
 exl-id: 192ac2f6-cfb8-447b-8fc1-19ad786ef924
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 80%
 
 ---
 
 # 儲存含請求的活頁簿
 
-建立含內嵌請求的報表後，您可以按一下 Excel 中的「檔案 > 儲存」或「檔案 > 另存新檔」加以儲存。Report Builder 會偵測報表是否含有請求。當您按一下上述任一儲存選項時，「另存活頁簿」表單隨即會出現。
+建立含內嵌請求的報表時，可以使用以下專案儲存： **檔案** > **儲存** 或 **檔案** > **另存為** 在Excel中。 Report Builder會偵測報表是否包含請求。 當您選取其中一個儲存選項時，請完成 **將活頁簿另存為** 表單。
 
 * Adobe 建議您頻繁且定期地儲存試算表中的請求，以避免意外遺失工作表中的請求，這是在 Windows 應用程式負荷繁重時的最佳做法。
 * 在為活頁簿命名時，請考慮在檔案名稱中使用版本編號，以便保存工作歷史記錄。例如，您可以將第一個活頁簿命名為 [!DNL web_forecast_01_01.xlsx]。

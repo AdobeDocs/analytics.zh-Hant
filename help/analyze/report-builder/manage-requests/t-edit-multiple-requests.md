@@ -1,14 +1,14 @@
 ---
-description: 您可以根據請求的報表套裝、粒度及日期範圍，同時變更數個請求。
-title: 編輯多個請求
+description: 瞭解如何同時變更多個請求。
+title: 如何編輯多個請求
 uuid: 5be23376-ba94-4d5c-84c7-a60134aacf7d
 feature: Report Builder
 role: User, Admin
 exl-id: 9fd08041-b780-4c8f-ad5d-ad8795b3fde6
-source-git-commit: b73ba63f4f308a50a9e0933d1ff0d56a45b94797
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 95%
+source-wordcount: '312'
+ht-degree: 90%
 
 ---
 
@@ -35,16 +35,16 @@ ht-degree: 95%
    * **依區段**：依區段名稱將請求分組。
 
       * **選擇區段**：沒有任何請求區段時顯示。若要新增區段，請按一下&#x200B;**[!UICONTROL 「編輯群組」]**&#x200B;並從[!UICONTROL 「編輯群組」]面板中選取區段。
+
    * **依量度**：請參閱[編輯多個請求的量度](/help/analyze/report-builder/manage-requests/edit-multiple-metrics.md)。
 
    * **依日期範圍和粒度**：依日期範圍和時間粒度，將畫面上顯示的請求分組。
    * **依群組**：依分組的請求集，將畫面上顯示的請求分組。
 
-
 1. 按一下[!UICONTROL 「編輯多項請求」]表單中的&#x200B;**[!UICONTROL 「確定」]**。
 
-## 一次將區段新增至多個請求
+## 一次新增區段至多個請求
 
-以下是顯示程式的影片：
+以下是此程式的影片：
 
 https://video.tv.adobe.com/v/25445/?quality=12

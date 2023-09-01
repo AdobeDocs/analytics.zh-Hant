@@ -5,10 +5,10 @@ uuid: c54d5add-f278-476d-8f14-73f1c2e37671
 feature: Report Builder
 role: User, Admin
 exl-id: eded07d5-3c06-419b-92fd-1a48856ac293
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 96%
 
 您可以篩選新增至「列標籤」格線的維度。篩選能減少請求傳回的資料數量，您可以從「樞紐配置」或「自訂配置」套用篩選。在「樞紐配置」中設定維度篩選時，您可以額外指定來自儲存格的項目數量。
 
-系統現在會根據您在 Report Builder 請求中所選的元素和度量，輸入選取的篩選條件表單。
+系統會根據Report Builder請求中所選的元素和量度，填入選取的篩選條件表單。
 
 ## 定義篩選 – 值與特殊字元 {#section_15840216A4044C40974945FAA435AD93}
 

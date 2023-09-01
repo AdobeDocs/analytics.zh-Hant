@@ -5,10 +5,10 @@ uuid: 5eba7b85-f3f5-4e9c-a078-757d9e85f4d1
 feature: Report Builder
 role: User, Admin
 exl-id: 0ff6e52e-d8e0-4489-a973-a2f4ea49e9fa
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td colname="col1"> <p>常用的日期 </p> </td> 
-   <td colname="col2"> <p>顯示最常用的日期範圍。當您建立新請求時，預設會啟用此設定。如果活頁簿中至少有一個請求，Report Builder 會使用現有請求的日期作為預設設定。 </p> </td> 
+   <td colname="col2"> <p>顯示最常用的日期範圍。當您建立新請求時，預設會啟用此設定。如果活頁簿中至少有一個請求，Report Builder會使用現有請求的日期作為預設設定。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 儲存的日期範本 </p> </td> 

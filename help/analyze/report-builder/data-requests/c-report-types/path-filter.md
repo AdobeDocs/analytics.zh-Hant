@@ -4,10 +4,10 @@ title: 使用請求精靈篩選路徑報表
 feature: Report Builder
 role: User, Admin
 exl-id: 085351b3-4d9c-45cf-b2a8-379f05932b26
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '422'
-ht-degree: 67%
+ht-degree: 62%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 67%
 
    ![](assets/select_a_pattern.png)
 
-   有些模式只適用於 Report Builder：登入路徑的下一個項目模式、退出路徑的前一個項目模式、下一個項目模式。
+   其中有些模式是特定於Report Builder的：登入路徑的下一個專案模式、退出路徑的上一個專案模式、下一個專案模式。
 
 ## 若要編輯預先定義的模式
 

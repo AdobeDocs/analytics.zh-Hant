@@ -1,26 +1,26 @@
 ---
-description: Report Builder 中「管理請求」的欄位說明。
-title: 管理請求 - 定義
+description: 瞭解Report Builder中「管理請求」的欄位說明。
+title: 如何管理Report Builder中的請求
 uuid: 01b21d0e-c870-4df8-95b9-f4aef1f4d16b
 feature: Report Builder
 role: User, Admin
 exl-id: fd8c0145-4c7e-4f07-aa63-656a8a20724c
-source-git-commit: 7226b4c77371b486006671d72efa9e0f0d9eb1ea
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 99%
+source-wordcount: '561'
+ht-degree: 77%
 
 ---
 
 # 管理請求 - 定義
 
-Report Builder 中「管理請求」的欄位說明。
+檢視請求狀態的詳細資訊，並使用欄位說明來管理Report Builder中的請求。
 
 ## 概觀 {#section_75C288C945FA4781A4EDF806711A5660}
 
-「[!UICONTROL 請求管理員]」能針對您為所有工作表建立的所有請求，提供詳細狀態檢視，或只提供使用中活頁簿內一份工作表的詳細狀態檢視。您也可以針對含有舊有請求的 Excel 試算表，在可用的儲存格內按一下滑鼠右鍵來新增、編輯、重新整理及刪除請求 (通常是與「[!UICONTROL 請求精靈]」和「[!UICONTROL 請求管理員]」相關的功能)。
+此 [!UICONTROL 請求管理員] 提供您為所有工作表或僅一個作用中活頁簿建立之所有請求狀態的詳細檢視。 您也可以新增、編輯、重新整理和刪除請求。 這些函式通常與 [!UICONTROL 請求精靈] 和 [!UICONTROL 請求管理員] 當您以滑鼠右鍵按一下包含先前請求的Excel試算表中的可用儲存格時。
 
-按一下&#x200B;**[!UICONTROL 「管理」]** Report Builder 工具列的 ( ![](assets/edit_request.gif)，畫面會隨即顯示[!UICONTROL 「請求管理員」]。
+此 [!UICONTROL 請求管理員] 按一下時顯示 **[!UICONTROL 管理]**  ![](assets/edit_request.gif) Report Builder工具列中的。
 
 >[!NOTE]
 >

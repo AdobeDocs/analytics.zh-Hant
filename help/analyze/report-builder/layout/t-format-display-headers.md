@@ -5,10 +5,10 @@ uuid: cd0e167b-9463-43fd-87b2-724d1c79de68
 feature: Report Builder
 role: User, Admin
 exl-id: 168daa6b-965c-4f8b-97b7-651a7ad55d6c
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 93%
+ht-degree: 76%
 
 ---
 
@@ -33,15 +33,15 @@ ht-degree: 93%
 
    **顯示列與欄的標題：**&#x200B;新增列和欄以顯示這些項目。
 
-   在 3.11 版中，您可以顯示每個項目的標題。第 4 版會顯示所有項目或不顯示任何項目。如果您在 3.11 版中建立請求並在 4.x 版中開啟，Report Builder 會在步驟 2 提示您針對遺失標題的項目更新一個儲存格的範圍。
+   在 3.11 版中，您可以顯示每個項目的標題。第 4 版會顯示所有項目或不顯示任何項目。如果您在3.11版中建立請求，並在4.x版中將其開啟，則Report Builder會在步驟2中提示您為缺少標題的專案更新一個儲存格的範圍。
 
-   **將標題變更為 Excel 自動篩選：**&#x200B;僅適用於已顯示列和欄標題時。此設定會建立 Excel 自動篩選，並將篩選套用至 Report Builder 針對此請求傳回的資料。
+   **將標題變更為 Excel 自動篩選：**&#x200B;僅適用於已顯示列和欄標題時。此設定會建立Excel自動篩選，並將其附加至Report Builder針對此請求傳回的資料。
 
    >[!NOTE]
    >
    >Excel 僅支援在每個工作表中使用一個自動篩選。如果在已有自動篩選的工作表中建立新的自動篩選，Excel 不會警告您即將取代現有的自動篩選。
 
-   **執行自動外框：**&#x200B;將 Report Builder 傳回的日期從清單檢視轉換為樹狀檢視。
+   **執行自動大綱：** 將Report Builder傳回的日期從清單檢視轉換為樹狀檢視。
 
    **為此請求命名：**&#x200B;讓您為請求輸入使用者定義的名稱，或使用在步驟 1 選擇的預設名稱。這個名稱會成為[!UICONTROL 「請求管理員」]中的[!UICONTROL 「報表」]名稱。另請參閱 [為請求命名](/help/analyze/report-builder/layout/name-a-request.md).
 

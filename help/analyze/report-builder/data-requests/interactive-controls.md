@@ -1,21 +1,21 @@
 ---
-description: 「互動式控制項」可讓您直接從工作表編輯一或多個請求的區段與日期範圍。這樣可讓您在更新 Report Builder 請求時，享有更多彈性。
+description: 「互動式控制項」可讓您直接從工作表編輯一或多個請求的區段與日期範圍。這可讓您在更新Report Builder請求時擁有更多彈性。
 title: 互動式控制項
 feature: Report Builder
 role: User, Admin
 exl-id: 2340ff31-1478-4a54-a4c3-c51e73c39109
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 90%
+ht-degree: 72%
 
 ---
 
 # 互動式控制項
 
-「互動式控制項」可讓您直接從工作表編輯一或多個請求的區段與日期範圍。這樣可讓您在更新 Report Builder 請求時，享有更多彈性。
+「互動式控制項」可讓您直接從工作表編輯一或多個請求的區段與日期範圍。這可讓您在更新Report Builder請求時擁有更多彈性。
 
-分析師通常會建立活頁簿，並將這些活頁簿與行銷組織共用。互動式控制項的建立就是為了因應這項常見的工作流程。互動式控制項讓行銷人員不需深入了解 Report Builder 的運作方式，也能夠修改及重新整理請求(請注意，若要重新整理請求，活頁簿收件者必須使用 Report Builder)。這些控制項會在排程的活頁簿內部運作。目前有兩種互動式控制項可供使用：
+分析師通常會建立活頁簿，並將這些活頁簿與行銷組織共用。互動式控制項的建立就是為了因應這項常見的工作流程。互動式控制項讓行銷人員不需深入瞭解Report Builder的運作方式，也能夠修改及重新整理請求。 (請注意，若要重新整理請求，活頁簿收件者必須是Report Builder使用者。) 這些控制項會在排程的活頁簿內部運作。目前有兩種互動式控制項可供使用：
 
 * 滾動日期範圍
 * 區段
@@ -23,7 +23,7 @@ ht-degree: 90%
 >[!IMPORTANT]
 >
 >您必須先安裝 Report Builder v5.0，互動式控制項才能正常運作。>
->* 如果您在 Windows 上執行 Microsoft Excel，但執行較舊版本的 Report Builder，或如果您未安裝 Report Builder：您可以變更互動式控制項中的值，但控制項不會重新整理相關請求，也不會更新請求的相關參數。
+>* 如果您在Windows上執行Microsoft Excel，但執行較低版本的Report Builder，或如果您未安裝Report Builder：您可以變更互動式控制項中的值，但控制項不會重新整理相關請求，也不會更新請求的相關引數。
 >* 如果您在 Mac 上執行 Excel，變更控制項中的值後，畫面會顯示以下訊息：「找不到巨集 ‘Adobe.ReportBuilder.Bridge.FormControlClick.Event’。」
 >
 

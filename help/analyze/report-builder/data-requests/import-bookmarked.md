@@ -1,19 +1,19 @@
 ---
-description: 現在，所有書籤化報表與儀表板報表都已列為「請求精靈步驟 1」中的維度，並且可匯入作為 Report Builder 請求。
+description: 現在，所有書籤化報表與控制面板報表都已列為「請求精靈步驟1」中的維度，並且可匯入作為Report Builder請求。
 title: 匯入書籤化報表與儀表板報表
 feature: Report Builder
 role: User, Admin
 exl-id: 19813950-2495-4a75-aacb-587b59bf2484
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 95%
+ht-degree: 82%
 
 ---
 
 # 匯入書籤化報表與儀表板報表
 
-現在，所有書籤化報表與儀表板報表都已列為「請求精靈步驟 1」中的維度，並且可匯入作為 Report Builder 請求。
+現在，所有書籤化報表與控制面板報表都已列為「請求精靈步驟1」中的維度，並且可匯入作為Report Builder請求。
 
 當您選取書籤化報表時，「請求精靈」會填入所有定義此書籤化報表的維度和度量。日期範圍、粒度及選取的區段也會根據選取的書籤加以更新。
 

@@ -1,14 +1,14 @@
 ---
-description: 說明 Report Builder 的安裝步驟。
-title: 安裝 Report Builder
+description: 瞭解如何安裝Report Builder。
+title: 如何安裝Report Builder
 uuid: 5cad3265-83b6-4e42-a8b4-cc56e050d41e
 feature: Report Builder
 role: User, Admin
 exl-id: 1529c173-b42c-4deb-8bb9-0e6b007f71d6
-source-git-commit: 18b68c3f802a72aae0860d9afebbc38f075271cd
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
 source-wordcount: '139'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 100%
 
 ## 權限
 
-如果&#x200B;**[!UICONTROL 「工具」]**&#x200B;底下並未顯示 **[!UICONTROL Report Builder]** 功能表項目，請洽詢 Adobe Analytics 管理員，確認您所屬的產品設定檔是否包括「Report Builder」權限。進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant)。
+如果您沒有看到 **[!UICONTROL Report Builder]** 作為功能表專案於 **[!UICONTROL 工具]**，請洽詢Adobe Analytics管理員，確認您所屬的產品設定檔是否包含下列許可權： *Report Builder*. 進一步了解[產品設定檔](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/product-profile.html?lang=zh-Hant)和 [Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/analytics-tools.html?lang=zh-Hant)。

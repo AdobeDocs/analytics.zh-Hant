@@ -4,10 +4,10 @@ title: 管理區段 (Report Builder)
 feature: Report Builder
 role: User, Admin
 exl-id: c4ad89e0-91c9-47e1-a226-69d82fdb8918
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '1008'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -23,7 +23,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 >[!NOTE]
 >
->若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的 Report Builder 工作階段仍可繼續使用。此作業不支援 Internet Explorer 以外的瀏覽器。
+>若要新增或編輯區段，Report Builder 區段介面會在 Microsoft Internet Explorer 視窗中啟動 Analytics 區段產生器。您的Report Builder工作階段將保持作用中。 此作業不支援 Internet Explorer 以外的瀏覽器。
 
 1. 在「請求精靈」步驟 1 的區段面板中，按一下&#x200B;**[!UICONTROL 「新增」]**。
 1. Internet Explorer 視窗隨即啟動，並開啟 Analytics 區段產生器介面。如需關於如何建立區段的資訊，請參閱 [Analytics 區段](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html)。
@@ -47,7 +47,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 
 1. 區段產生器使用者介面將立即在 Internet Explorer 中啟動。區段產生器使用者介面將會依您指定的容器與篩選條件進行起始化。
 1. 將名稱與說明新增至區段後，請儲存。
-1. 返回 Report Builder ，按一下「重新整理」圖示以重新整理區段清單。
+1. 返回Report Builder並按一下重新整理圖示，以重新整理區段清單。
 1. 現在，您已可套用此區段。
 
 ## 搜尋及套用區段 {#section_CACA269B48E94CFD91C2D5A15E9C77B7}
@@ -76,7 +76,7 @@ Report Builder 在「請求精靈」的步驟 1 中設有分段面板，可讓�
 |---|---|
 | 標記 | 可讓您利用特定標記篩選區段。請注意，「標記」篩選條件使用 AND 運算子。如果您勾選兩個標記，右側窗格會顯示同時擁有&#x200B;**兩個**&#x200B;標記的區段。 |
 | 擁有者 | 可讓您依擁有者篩選區段。請注意，「擁有者」篩選條件使用 OR 運算子。如果您勾選兩個擁有者，右側窗格會顯示&#x200B;**其中一位**&#x200B;擁有者擁有的區段。 |
-| 其他篩選條件 > 僅&#x200B;*報表套裝名稱* | 如果您在 [!DNL marketing reports & analytics] 的「區段產生器」中套用&#x200B;*「僅限報表套裝名稱」*&#x200B;篩選條件，接著在 [!DNL report builder] 中顯示「進階篩選」，則進階篩選只會顯示所選報表套裝的區段。 |
+| 其他篩選條件 > 僅&#x200B;*報表套裝名稱* | 如果您在 [!DNL marketing reports & analytics] 的「區段產生器」中套用&#x200B;*「僅限報表套裝名稱」*&#x200B;篩選條件，接著在 [!DNL Report Builder] 中顯示「進階篩選」，則進階篩選只會顯示所選報表套裝的區段。 |
 | 其他篩選器 > 我的 | 顯示您擁有的所有區段。 |
 | 其他篩選器 > 與我共用 | 顯示所有其他人與您共用的區段。 |
 | 其他篩選條件 > 我的最愛 | 顯示所有標記為「我的最愛」的區段。 |

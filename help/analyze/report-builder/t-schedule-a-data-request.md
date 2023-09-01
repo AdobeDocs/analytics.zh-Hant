@@ -1,14 +1,14 @@
 ---
-description: 您可以排程報表以按照定義的時間和檔案格式傳送。
-title: 排程資料請求
+description: 瞭解如何排程報表。
+title: 如何排程資料請求
 uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: d5d4d1c9274bba8c3a40ee8fe86da311c1d1220b
+source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 100%
+source-wordcount: '999'
+ht-degree: 96%
 
 ---
 
@@ -34,17 +34,15 @@ ht-degree: 100%
 > * 排程器所仰賴之&#x200B;**下游服務的問題**&#x200B;也會影響活頁簿的傳送作業。舉例來說，如果單獨使用 API 來執行活頁簿，並填滿 API 請求佇列，當您爭用該資源時，已排程活頁簿的傳送速度可能就會很慢。
 > * **報表套裝延遲** (資料彙集延遲) 也可能會延遲部分已排程的活頁簿。
 
-
 ## 排程活頁簿
 
 1. 產生並儲存活頁簿。
 1. 在 Report Builder 工具列上，按一下&#x200B;**[!UICONTROL 「排程」]**。
 
    [!UICONTROL 「排程報表」]索引標籤會總結您建立的所有任務和剩餘的任務數量。
-1. 在&#x200B;**[!UICONTROL 「排程報表」]**&#x200B;索引標籤中按一下&#x200B;**[!UICONTROL 「新增」]**。
-1. 「基本排程精靈」顯示：
+1. 在&#x200B;**[!UICONTROL 「排程報表」]**&#x200B;索引標籤中按一下&#x200B;**[!UICONTROL 「新增」]**。「基本排程精靈」會顯示用來定義排程報告的選項。
 
-   ![](assets/simple-schedule-wizard.png)
+   ![顯示「基本排程精靈」的熒幕擷圖。](assets/simple-schedule-wizard.png)
 
 1. 在[!UICONTROL 「基本排程精靈」]中設定下列選項：
 

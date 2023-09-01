@@ -1,19 +1,19 @@
 ---
-description: 說明 Report Builder 如何支援路徑分析與流失報表，以及實作和行銷 Reports & Analytics 有何不同。
+description: 說明Report Builder如何支援路徑分析和流失報表，以及實作方式與Reports & Analytics有何不同。
 title: Report Builder 中的路徑與路徑流失報表
 feature: Report Builder
 role: User, Admin
 exl-id: 211b0e76-2895-401d-a5a5-73e459a486e2
-source-git-commit: 1ee50c6a2231795b2ad0015a79e09b7c1c74d850
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # Report Builder 中的路徑與路徑流失報表
 
-說明 Report Builder 如何支援路徑分析與流失報表，以及實作和行銷 Reports &amp; Analytics 有何不同。
+說明Report Builder如何支援路徑分析和流失報表，以及實作方式與Reports &amp; Analytics有何不同。
 
 | Reports &amp; Analytics 中的路徑報表名稱 (路徑 > 維度 >) | Report Builder 是否支援？ |
 |--- |--- |

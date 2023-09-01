@@ -5,10 +5,10 @@ uuid: 6b2c4259-d8cb-430e-819f-38e213dd2661
 feature: Report Builder
 role: User, Admin
 exl-id: 1a2363da-603e-4d1d-aefa-14ce71554247
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: d218d07ec16e981d7e148092b91fbbd5711e840f
 workflow-type: tm+mt
 source-wordcount: '377'
-ht-degree: 72%
+ht-degree: 58%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 1. 在來源活頁簿的試算表中按一下滑鼠右鍵，然後選擇&#x200B;**[!UICONTROL 「複製工作表 (包含請求)」]**。
 1. 在目標活頁簿的試算表中按一下滑鼠右鍵，然後選擇「**[!UICONTROL 複製包含請求的工作表」]**。
 
-   同一個 Excel 例項表示在同一時間內，只有一個 Excel 程序 ([!DNL excel.exe])在電腦中運作。如果您啟動兩個 Excel 例項並嘗試從第一個 Excel 例項將活頁簿中的工作表複製到第二個 Excel 例項的活頁簿中，Report Builder 不會在第二個 Excel 例項的捷徑功能表中提供貼上工作表選項。
+   同一個 Excel 例項表示在同一時間內，只有一個 Excel 程序 ([!DNL excel.exe])在電腦中運作。如果您啟動兩個Excel執行個體，並嘗試將工作表從第一個Excel執行個體的活頁簿複製到第二個Excel執行個體的活頁簿，Report Builder就不會顯示將工作表貼到第二個Excel執行個體捷徑功能表的選項。
 
    如果您登入使用不同報表套裝的來源和目標活頁簿，貼上作業的結果僅限影響目標活頁簿格式的項目。Report Builder 會顯示一則訊息，指出衍生自指定報表套裝 (位於來源活頁簿中) 的請求資訊不適用於目標活頁簿。若要揭示貼入目標活頁簿的請求，您登入的目標活頁簿必須使用與來源活頁簿相同的報表套裝。
 
