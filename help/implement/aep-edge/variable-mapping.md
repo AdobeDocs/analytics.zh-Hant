@@ -3,10 +3,10 @@ title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: d9948fbb63d44c851e08745c77af5618de84a89c
+source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
 workflow-type: tm+mt
 source-wordcount: '1506'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 95%
 
 下表顯示 Adobe Experience Platform Edge Network 自動對應到 Adobe Analytics 中的變數。如果您使用 XDM 欄位路徑，則傳送資料給 Adobe Analytics 不需要額外的設定。這些欄位包含在 **[!UICONTROL Adobe Analytics ExperienceEvent范]** 欄位群組。
 
-此表格先前的更新專案可在此頁面的 [在GitHub上認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md).
+您可在本頁之 [GitHub 上的認可歷史記錄](https://github.com/AdobeDocs/analytics.en/commits/main/help/implement/aep-edge/variable-mapping.md)上找到之前對此表格的更新。
 
-| xdm欄位路徑 | Analytics 維度和說明 |
+| XDM欄位路徑 | Analytics 維度和說明 |
 | --- | --- |
 | `application.isClose` | 協助定義行動量度[損毀](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
 | `application.isInstall` | 協助判斷何時增加行動量度[首次啟動](https://experienceleague.adobe.com/docs/mobile-services/using/get-started-ug/mobile-metrics/metrics-reference.html#metrics)。 |
@@ -32,7 +32,7 @@ ht-degree: 95%
 | `commerce.checkouts.value` | 讓[結帳](../../components/metrics/checkouts.md)量度遞增所需的金額。 |
 | `commerce.order.currencyCode` | 設定 [currencyCode](../vars/config-vars/currencycode.md) 設定變數。 |
 | `commerce.order.purchaseID` | 設定 [purchaseID](../vars/page-vars/purchaseid.md) 頁面變數。 |
-| `commerce.order.transactionID` | 設定 [transactionID](../vars/page-vars/transactionid.md) 頁面變數。 |
+| `commerce.order.payments[0].transactionID` | 設定 [transactionID](../vars/page-vars/transactionid.md) 頁面變數。 |
 | `commerce.productListAdds.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車新增](../../components/metrics/cart-additions.md)量度。 |
 | `commerce.productListAdds.value` | 增加[購物車新增](../../components/metrics/cart-additions.md)量度。 |
 | `commerce.productListOpens.id` | 將[事件序列化](../vars/page-vars/events/event-serialization.md)套用到[購物車](../../components/metrics/carts.md)量度。 |
@@ -68,7 +68,7 @@ ht-degree: 95%
 | `_experience.analytics.customDimensions.`<br/>`lists.list1.list[].value`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`lists.list3.list[].value` | 將個別 `list[]` 陣列中的所有 `value` 字串都串連到其個別[清單變數](../vars/page-vars/list.md)。分隔符號是根據[報告套裝設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/conversion-var-admin/list-var-admin.md)中設置的值來自動選擇。 |
 | `_experience.analytics.customDimensions.`<br/>`props.prop1`<br/>`[...]`<br/>`_experience.analytics.customDimensions.`<br/>`props.prop75` | 設定個別[流量變數](../../components/dimensions/prop.md)維度。 |
 | `_experience.analytics.event1to100.`<br/>`event1.id`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.id` | 套用[事件序列化](../vars/page-vars/events/event-serialization.md)至個別[自訂事件](../../components/metrics/custom-events.md)量度。每個事件ID都位在其100個群組的父項中。 例如，若要套用序列化至 `event678`，使用 `_experience.analytics.event601to700.event678.id`. |
-| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](../../components/metrics/custom-events.md)量度增加所需的數量。每個事件都位於其100個群組的父項中。 例如，的欄位 `event567` 是 `_experience.analytics.event501to600.event567.value`. |
+| `_experience.analytics.event1to100.`<br/>`event1.value`<br/>`[...]`<br/>`_experience.analytics.event901to1000.`<br/>`event1000.value` | 將個別[自訂事件](../../components/metrics/custom-events.md)量度增加所需的數量。每個事件都位在其100個群組的父項中。 例如，的欄位 `event567` 是 `_experience.analytics.event501to600.event567.value`. |
 | `identityMap.ECID[0].id` | [Adobe Experience Cloud 身分識別服務 ID](https://experienceleague.adobe.com/docs/id-service/using/home.html)。 |
 | `marketing.trackingCode` | 設定[追蹤程式碼](../../components/dimensions/tracking-code.md)維度。 |
 | `media.mediaTimed.completes.value` | Media Analytics 量度[內容完成](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-complete)。 |
