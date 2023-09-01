@@ -7,7 +7,7 @@ user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Wo
 source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
 workflow-type: tm+mt
 source-wordcount: '1110'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + [Analytics 發行說明](https://experienceleague.adobe.com/docs/analytics/release-notes/latest.html?lang=zh-Hant)
 + 開始使用 Adobe Analytics {#admin-overview}
    + [Analytics 概觀](get-started/analytics-overview.md)
-   + [開始使用（依角色）](get-started/get-started-by-role.md)
+   + [快速入門 (依照角色)](get-started/get-started-by-role.md)
    + [了解 Analytics 介面](get-started/analytics-interface.md)
    + [使用案例](get-started/use-cases.md)
    + [我該使用哪種 Adobe Analytics 工具呢？](get-started/which-analytics-tool.md)

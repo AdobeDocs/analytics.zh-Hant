@@ -8,7 +8,7 @@ mini-toc-levels: 3
 source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
 workflow-type: tm+mt
 source-wordcount: '4991'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 8 月** | |
-| 資料摘要說明 | 已更新 [開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md) 為了澄清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料時的過去任何日期。 |
+| 資料摘要釐清 | 更新[開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md)，以釐清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料之前的任何日期。 |
 | Experience Edge 資料處理 | 已新增關於 Adobe Analytics 如何[處理 Experience Edge 資料](../implement/aep-edge/overview.md)的內容。 |
 | 「媒體播放時間」面板 | 已更新[媒體播放時間面板](/help/analyze/analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)的內容以提高可讀性。 |
 | 已移動關於管理已排程專案的內容 | 在「Analytics 元件指南」中建立了一篇新文章，名為[已排程專案](/help/components/scheduled-projects-manager.md)。此內容之前位於「Analytics 工具指南」的[已排程的專案](/help/analyze/analysis-workspace/curate-share/t-schedule-report.md)文章中。 |
