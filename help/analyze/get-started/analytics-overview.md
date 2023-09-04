@@ -1,12 +1,12 @@
 ---
 description: Adobe Analytics 一般概觀包含 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
-short-description: 瞭解分析人員、一般使用者和管理員的主要功能、常見使用案例和首要步驟。
+short-description: 了解分析師、一般使用者和管理員的關鍵功能、常見使用案例和第一步。
 title: Adobe Analytics 概觀
 feature: Analytics Basics
 source-git-commit: 8adf512522d89ab1f2187c6f9be7373c0a430f17
 workflow-type: tm+mt
 source-wordcount: '461'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
