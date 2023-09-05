@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # Adobe Analytics 概觀
 
-Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲得可操作分析。透過深入分析、多樣化報告和預測智慧功能，組織可以獲得為客戶打造更好體驗所需的深刻基礎。
+Adobe Analytics 使組織能夠從任何數位客戶互動中收集資料並獲得可操作分析。透過深入分析、多樣化報表和預測智慧功能，組織可以獲得為客戶打造更好體驗所需的深刻基礎。
 
 ## 開始使用 Adobe Analytics
 
@@ -48,7 +48,7 @@ Customer Journey Analytics 是 Adobe 的新一代 Analytics 解決方案，讓�
 
 * **變更歷史資料**：您可以使用 Adobe Experience Platform 移除或修正資料。
 
-* **跨報告套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
+* **跨報表套裝資料**：可在 Platform 中結合來自多個資料集的現有實作。
 
 如需更多資訊，請參閱 [Customer Journey Analytics 概觀](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-overview.html?lang=zh-Hant)。
 
