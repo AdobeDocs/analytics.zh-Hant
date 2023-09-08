@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: 6681eedee327a5bb9cbfcb8ccf00ac32628f5a1f
+source-git-commit: ebec057aea182a7c036c105c44d163155809bfd9
 workflow-type: tm+mt
-source-wordcount: '4991'
-ht-degree: 100%
+source-wordcount: '5089'
+ht-degree: 98%
 
 ---
 
@@ -25,6 +25,9 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 9 月** | |
+| 開始使用內容增強功能 | 新增有關管理員、分析人員、一般使用者和開發人員的重要快速入門任務和資源的相關資訊。 下列新文章現已推出： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
+| 改善Media Analytics報表檔案 | 重新組織串流媒體指南報告區段中的一些內容，包括在其自己的區段中合併API檔案並調整一些文章的順序。 <p>將「媒體工作區範本」文章重新命名為 [工作區中的媒體報表](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html) 以更符合產品內命名。 </p> |
 | **2023 年 8 月** | |
 | 資料摘要釐清 | 更新[開始和結束日期的定義](/help/export/analytics-data-feed/create-feed.md)，以釐清在處理歷史資料的資料摘要時，您可以將開始日期設定為收集資料之前的任何日期。 |
 | Experience Edge 資料處理 | 已新增關於 Adobe Analytics 如何[處理 Experience Edge 資料](../implement/aep-edge/overview.md)的內容。 |
