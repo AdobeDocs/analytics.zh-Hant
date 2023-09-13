@@ -2,10 +2,10 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表選項
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 18%
+source-wordcount: '493'
+ht-degree: 19%
 
 ---
 
@@ -37,17 +37,17 @@ ht-degree: 18%
 
    | 選項 | 功能 |
    |---------|----------|
-   | 檔案名稱 | 識別報表。 |
-   | 將報表日期範圍附加至檔案名稱 | 新增日期範圍至報表檔案名稱。 <p>例如，如果您請求從2024年5月1日到2024年5月7日的資料，則檔案名稱包含20240501 - 20240507日期範圍。</p> |
-   | CSV | 傳送CSV檔案格式的報表，以供在試算表中檢視資料。 |
-   | 表格(TDE) | 傳送Tableau資料擷取(TDE)檔案格式的報告，可用來在Tableau中顯示其他資料中的資料和圖層。 |
-   | 以壓縮檔案(ZIP)傳送報表 | 以壓縮(ZIP)檔案格式傳送報表。 我們建議在使用電子郵件作為時啟用此選項 [報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
-   | 表格中的列數 | 可包含在報告中的列數。 使用0以包含所有列（此為預設選項）。 <!-- when would you want to limit the rows? To improve performance? Do we have recommendations? --> |
-   | 註解 | 新增您要納入報告的任何註解。 註解會顯示在報表的開頭。 |
-   | 依量度排序 | 在 Data Warehouse 中提供排名劃分報表，可依遞減的量度順序排序。依量度排序能讓您更容易解讀 Data Warehouse 報表，也更容易將那些報表與其他 Analytics 劃分報告檢視進行比較。<p>如需詳細資訊，請參閱 [依量度排序](/help/export/data-warehouse/sorting-by-metric.md).</p> |
-   | 傳送資訊清單檔案 | 包含報表中所包含檔案的中繼資料。<!-- What kind of metadata is included in the manifest file? --> |
-   | 傳送數位簽章檔案 | 允許報表收件者確認檔案是否來自Adobe且未曾變更。 |
-   | 當報告中沒有資料時，傳送空白檔案 | 即使報表不含任何資料，仍會傳送報表。 |
+   | [!UICONTROL **檔案名稱**] | 識別報表。 |
+   | [!UICONTROL **將報表日期範圍附加至檔案名稱**] | 新增日期範圍至報表檔案名稱。 <p>例如，如果您請求從2024年5月1日到2024年5月7日的資料，則檔案名稱包含20240501 - 20240507日期範圍。</p> |
+   | [!UICONTROL **CSV**] | 傳送CSV檔案格式的報表，以供在試算表中檢視資料。 |
+   | [!UICONTROL **表格(TDE)**] | 傳送Tableau資料擷取(TDE)檔案格式的報告，可用來在Tableau中顯示其他資料中的資料和圖層。 |
+   | [!UICONTROL **以壓縮檔案(ZIP)傳送報表**] | 以壓縮(ZIP)檔案格式傳送報表。 我們建議在使用電子郵件作為時啟用此選項 [報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **傳回所有列**] | 啟用時，所有列都會納入報告中。 停用此選項以指定要包含的列數。 |
+   | [!UICONTROL **報告評論的開始**] | 新增您要納入報告的任何註解。 註解會顯示在報表的開頭。 |
+   | [!UICONTROL **依量度排序**] | 在 Data Warehouse 中提供排名劃分報表，可依遞減的量度順序排序。依量度排序能讓您更容易解讀 Data Warehouse 報表，也更容易將那些報表與其他 Analytics 劃分報告檢視進行比較。<p>如需詳細資訊，請參閱 [依量度排序](/help/export/data-warehouse/sorting-by-metric.md).</p> |
+   | [!UICONTROL **傳送資訊清單檔案**] | 包含報表中所包含檔案的中繼資料。<!-- What kind of metadata is included in the manifest file? --> |
+   | [!UICONTROL **傳送數位簽名檔案**] | 允許報表收件者確認檔案是否來自Adobe且未曾變更。 |
+   | [!UICONTROL **當報告中沒有資料時，傳送空白檔案**] | 即使報表不含任何資料，仍會傳送報表。 |
 
    {style="table-layout:auto"}
 

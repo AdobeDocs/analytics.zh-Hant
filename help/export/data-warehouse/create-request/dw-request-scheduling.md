@@ -2,9 +2,9 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '375'
 ht-degree: 15%
 
 ---
@@ -37,16 +37,12 @@ ht-degree: 15%
 
    | 選項 | 功能 |
    |---------|----------|
-   | 立即傳送報告 | 以一次性報表的形式傳送報表。 選取此選項時，會隱藏所有排程選項。 |
-   | 排程於稍後進行 | 提供排程報表傳送的選項。 所有選項說明如下。 |
-   | 報告頻率 | 傳送報表的頻率。 <p>提供下列選項：</p><ul><li>每小時</li><p>[!UICONTROL **每小時**] 只有在 [!UICONTROL **日期範圍**] 上的選項 [!UICONTROL **一般設定**] 索引標籤已設定為 [!UICONTROL **過去一小時**].</p><li>每日</li><li>每週</li><li>每月</li><li>每年</li></ul>  <!-- Is this valid? Was in the old docs: "To schedule Data Warehouse requests for Daily, Weekly, Monthly, or Yearly, make sure *Preset* is correctly selected" --> |
-   | 每月週期 | 傳送報告的月數間隔。 |
-   | 當月的第幾天 | 每月傳送報告的日期。<p>當此選項可用時， [!UICONTROL **當月第幾週**] 和 [!UICONTROL **星期**] 選項則否。 選取 [!UICONTROL **替代格式**] 按鈕來回切換。 </p> |
-   | 當月的第幾週 | 每月應傳送報表的周。 <p>提供下列選項：</p><ul><li>第一個</li><li>秒</li><li>第三個</li><li>第四個</li><p>在第4週傳送報告，即使是在有5週的月份中亦然。 選擇 [!UICONTROL **上次**] 是否希望報表在每個月的最後一週傳送。</p><li>上次</li></ul><p>當此選項可用時， [!UICONTROL **當月日期**] 選項則否。 選取 [!UICONTROL **替代格式**] 按鈕來回切換。 </p> |
-   | 星期幾 | 應在一週中傳送報告的日期。 <p>當此選項可用時， [!UICONTROL **當月日期**] 選項則否。 選取 [!UICONTROL **替代格式**] 按鈕來回切換。 </p> |
-   | 開始於 | 新排程應該開始的日期。 |
-   | 每日時間 | 報表應在一天中的哪個時間傳送。 |
-   | 結束傳遞選項 | 選擇何時結束排程的傳送。 您可以選擇永不結束、在特定發生次數後結束，或在特定日期結束。 |
+   | [!UICONTROL **立即傳送報告**] | 以一次性報表的形式傳送報表。 選取此選項時，會隱藏所有排程選項。 |
+   | [!UICONTROL **排程於稍後進行**] | 提供排程報表傳送的選項。 所有選項說明如下。 |
+   | [!UICONTROL **報告頻率**] | 傳送報表的頻率。 <p>提供下列選項：</p><ul><li>每小時</li><p>[!UICONTROL **每小時**] 只有在 [!UICONTROL **日期範圍**] 上的選項 [!UICONTROL **一般設定**] 索引標籤已設定為 [!UICONTROL **過去一小時**].</p><li>每日</li><li>每週</li><li>每月</li><li>每年</li></ul><p>系統會根據您選取的頻率顯示其他選項。</p> |
+   | [!UICONTROL **開始於**] | 新排程應該開始的日期。 |
+   | [!UICONTROL **每日時間**] | 報表應在一天中的哪個時間傳送。 |
+   | [!UICONTROL **結束傳遞選項**] | 選擇何時結束排程的傳送。 您可以選擇永不結束、在特定發生次數後結束，或在特定日期結束。 |
 
    {style="table-layout:auto"}
 

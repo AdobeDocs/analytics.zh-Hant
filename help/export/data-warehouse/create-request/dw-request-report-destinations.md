@@ -2,10 +2,10 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 8%
+source-wordcount: '2084'
+ht-degree: 16%
 
 ---
 
@@ -59,13 +59,13 @@ ht-degree: 8%
 
       | 欄位 | 功能 |
       |---------|----------|
-      | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶型別設定單一帳戶，並視需要在該帳戶內設立多個位置。 <p>選擇帳戶型別後，該帳戶型別的特定欄位會顯示出來。 如需每種帳戶型別的設定指示，請展開下列與所選相對應的區段。 </p> |
+      | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶型別設定單一帳戶，並視需要在該帳戶內設立多個位置。 <p>選擇帳戶型別後，該帳戶型別的特定欄位會顯示出來。 </p> |
       | [!UICONTROL **帳戶名稱**] | 指定帳戶的名稱。 建立位置時會顯示此名稱。 <!-- true? --> |
       | [!UICONTROL **帳戶說明**] | 提供帳戶的簡短說明，以協助將其與相同帳戶型別的其他帳戶區分開來。 |
 
       如需設定指示，請展開以下對應至 [!UICONTROL **帳戶型別**] 您已選取的專案。
 
-      設定報表目的地時，請使用下列任一帳戶型別。 如需設定指示，請展開帳戶型別。 (其他舊版目的地 <!-- add link --> 也可使用，但不建議使用。)
+      設定報表目的地時，請使用下列任一帳戶型別。 如需設定指示，請展開帳戶型別。 (其他 [舊版目的地](#legacy-destinations) 也可使用，但不建議使用。)
 
       +++Amazon S3
 
@@ -134,7 +134,7 @@ ht-degree: 8%
 
    1. 在 [!UICONTROL **位置屬性**] 區段，指定您位置帳戶之帳戶型別的專屬資訊。
 
-      如需設定指示，請展開下列與您先前選取的帳戶型別對應的區段。
+      如需設定指示，請展開以下對應至 [!UICONTROL **帳戶型別**] 您先前選取的專案。
 
       +++Amazon S3
 
@@ -194,3 +194,67 @@ ht-degree: 8%
       您現在可以將資料匯入至您設定的帳戶和位置。
 
 1. 繼續在「 」上設定您的Data Warehouse請求 [!UICONTROL **報表選項**] 標籤。 如需詳細資訊，請參閱 [設定Data Warehouse請求的報表選項](/help/export/data-warehouse/create-request/dw-request-report-options.md).
+
+## 舊版目的地
+
+>[!IMPORTANT]
+>
+>本節所述的目的地為舊版，不建議使用。 建立資料倉儲目的地時，請改用下列其中一種目的地： Amazon S3、Google Cloud Platform、Azure RBAC、Azure SAS或電子郵件。 如需上述各個建議目的地的詳細資訊，請參閱上述資訊。
+
+下列資訊提供每個舊版目的地的設定資訊：
+
+### FTP
+
+Data Warehouse資料可以傳送至Adobe或客戶託管的FTP位置。 FTP 主機、使用者名稱和密碼為必填。請使用路徑欄位將摘要檔案置入檔案夾。資料夾必須已存在；如果指定的路徑不存在，摘要會傳回錯誤。
+
+完成可用欄位時，請使用下列資訊：
+
+* [!UICONTROL **主機**]：輸入所需的FTP目的地URL。 例如，`ftp://ftp.omniture.com`。
+* [!UICONTROL **路徑**]：可留空
+* [!UICONTROL **使用者名稱**]：輸入使用者名稱以登入FTP站台。
+* [!UICONTROL **密碼和確認密碼**]：輸入密碼以登入FTP站台。
+
+### SFTP
+
+SFTP可支援Data Warehouse。 必須填入 SFTP 主機、使用者名和目的地站點，才能包含有效的 RSA 或 DSA 公開金鑰。建立Data Warehouse目的地時，您可以下載適當的公開金鑰。
+
+### S3
+
+您可以直接將倉儲資料傳送至Amazon S3貯體。 此目的地類型需要貯體名稱、存取金鑰 ID 和機密金鑰。 如需詳細資訊，請參閱 Amazon S3 文件中的 [Amazon S3 貯體命名規定](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-s3-bucket-naming-requirements.html)。
+
+您提供來上傳Data Warehouse資料的使用者必須具備下列條件 [許可權](https://docs.aws.amazon.com/AmazonS3/latest/API/API_Operations_Amazon_Simple_Storage_Service.html)：
+
+* s3:GetObject
+* s3:PutObject
+* s3:PutObjectAcl
+
+下列 16 個標準 AWS 區域有受到支援 (必要時會使用適當的簽章演算法)：
+
+* us-east-2
+* us-east-1
+* us-west-1
+* us-west-2
+* ap-south-1
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-north-1
+* sa-east-1
+
+>[!NOTE]
+>
+>不支援 cn-north-1 區域。
+
+### Azure Blob
+
+Data Warehouse支援Azure Blob目的地。 容器、帳戶和金鑰為必填。Amazon 會自動加密閒置的資料。下載資料時，則會自動解密。如需詳細資訊，請參閱 Microsoft Azure 文件中的[建立儲存帳戶](https://docs.microsoft.com/zh-tw/azure/storage/common/storage-quickstart-create-account?tabs=azure-portal#view-and-copy-storage-access-keys)。
+
+>[!NOTE]
+>
+>您必須實作自己的處理程式，才能管理Data Warehouse目的地的磁碟空間。 Adobe 不會從伺服器刪除任何資料。

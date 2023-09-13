@@ -2,7 +2,7 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表選項
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 15%
@@ -37,8 +37,8 @@ ht-degree: 15%
 
    | 選項 | 功能 |
    |---------|----------|
-   | 將通知電子郵件傳送至 | 指定應在傳送報告時收到電子郵件通知之人員的電子郵件地址。 <p>您可以指定單一電子郵件地址，或以逗號分隔的電子郵件地址清單。</p> |
-   | 進階選項 | 選取此選項可在傳送通知時包含電子郵件的主旨和附註。 |
+   | [!UICONTROL **將通知電子郵件傳送至**] | 指定應在傳送報告時收到電子郵件通知之人員的電子郵件地址。 <p>您可以指定單一電子郵件地址，或以逗號分隔的電子郵件地址清單。</p> |
+   | [!UICONTROL **進階選項**] | 選取此選項可在傳送通知時包含電子郵件的主旨和附註。 |
 
    {style="table-layout:auto"}
 
