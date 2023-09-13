@@ -2,10 +2,10 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: Data Warehouse請求一般設定
 feature: Data Warehouse
-source-git-commit: 0abf0c76f38b481c0b72d113fe49e0da03ddd8cd
+source-git-commit: ea4c1ae21f2c83bad92723e6ffd2e706fac5e1e8
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 27%
+source-wordcount: '354'
+ht-degree: 26%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 27%
    | 選項 | 功能 |
    |---------|----------|
    | 請求名稱 | 管理請求時，此名稱會顯示在主Data Warehouse頁面上。 |
-   | 日期範圍 | 選取要納入報表的日期範圍。 <p>您可以選擇自訂日期或預設的日期範圍。 預設範圍是相對於報表傳送日期。</p><p>下列預設集選項可供使用：</p><ul><li>今天</li><li>昨天</li><li>最近 7 天</li><li>最近 30 天</li><li>本週</li><li>上週</li><li>過去2週</li><li>最近3週</li><li>最近4週</li><li>本月</li><li>上個月</li><li>過去一小時</li><li>今天</li><li>今天</li></ul> |
+   | 日期範圍 | 選取要納入報表的日期範圍。 <p>您可以選擇自訂日期或預設的日期範圍。 預設範圍是相對於報表傳送日期。</p><p>下列預設集選項可供使用：</p><ul><li>今天</li><li>昨天</li><li>最近 7 天</li><li>最近 30 天</li><li>本週</li><li>上週</li><li>過去2週</li><li>最近3週</li><li>最近4週</li><li>本月</li><li>上個月</li><li>過去一小時</li></ul> |
    | 詳細程度 | <!--what does this setting do? It's not the schedule/frequency... --> 時間粒度。 有效值為無、小時、日、週、月份、季度或年。<p>報表粒度需要更多的處理時間。如果是報告一整年的每月粒度，若是針對每個月提交一個報告請求，報告的處理速度會快很多。</p> |
 
    {style="table-layout:auto"}
