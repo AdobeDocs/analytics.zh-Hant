@@ -3,9 +3,9 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明。
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 81f30a16fce33350aaf02fd8c6cf5011489c8250
+source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '800'
 ht-degree: 70%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 中的分類集** | 提供用來儲存、刪除、擷取、匯入和匯出分類集資料的 Adob&#x200B;&#x200B;e Analytics API 2.0 方法。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 不適用 | 2023 年 9 月 13 日 |
+| **API 2.0中的分類** | 提供用來儲存、刪除、擷取、匯入和匯出分類集資料的 Adob&#x200B;&#x200B;e Analytics API 2.0 方法。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 不適用 | 2023 年 9 月 13 日 |
 | **支援新功能 `correlationID` A4T分類的欄位** | `_experience.decisioning.propositions.scopeDetails.correlationID` 欄位現在適用於 Adob&#x200B;&#x200B;e Analytics 來源連接器的結構描述中。我們將新增此ID，以輕鬆聯結Adobe Target活動和體驗事件的分類資料。 | 不適用 | 2023 年 9 月 13 日 |
 | **Data Warehouse 的改良功能** | 建立Data Warehouse請求時，您現在可以設定雲端帳戶，以用作報表目的地。 下列雲端帳戶型別可用於傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件（此選項先前已可用）</li></ul>FTP、SFTP、Azure Blob和S3仍可作為報表目標使用，但不再建議使用。<p>建立和管理Data Warehouse請求時的使用者體驗也得到改善。 如需詳細資訊，請參閱 [建立Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/create-request/t-dw-create-request.html) 和 [管理Data Warehouse請求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hant). | 2023 年 9 月 13 日 | 2023 年 10 月 4 日 |
 
