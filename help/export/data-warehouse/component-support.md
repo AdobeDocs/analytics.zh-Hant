@@ -3,7 +3,7 @@ title: Data Warehouse 中的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
+source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 65%
@@ -78,3 +78,4 @@ Data Warehouse 中不支援某些維度和量度。
    * 重新載入
    * 單次存取
    * 「逗留時間」量度
+
