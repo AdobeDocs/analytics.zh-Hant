@@ -3,32 +3,32 @@ title: Data Warehouse 中的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 3af2cca02675e424b3f704a95d46de92886a88d8
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 # Data Warehouse 中的元件支援
 
-Data Warehouse 的獨特處理架構允許使用某些在 Adobe Analytics 其他功能中通常無法使用的元件。由於其獨特的架構，某些元件無法用於報表或區段。請參閱本頁內容，了解可以使用以及無法使用的項目。
+Data Warehouse架構中的獨特處理可允許某些在Adobe Analytics的其他功能中通常無法使用的元件。 由於其獨特的架構，某些元件無法用於報表或區段。請參閱本頁內容，了解可以使用以及無法使用的項目。
 
 ## Data Warehouse 的獨有元件
 
-有些維度和量度可用於 Data Warehouse，但若使用 Adobe Analytics 中的其他功能則無法使用。
+在Adobe Analytics中使用其他功能時，某些可用於Data Warehouse的維度和量度無法使用。
 
 ### 專門支援的維度
 
-* Experience Cloud ID：用在使用 Experience Cloud ID 服務 (ECID) 的實施，128 位元數字由兩個串連的 64 位元數字組成，兩個數字皆補至 19 位數。
-* 頁面 URL：點擊發生的頁面 URL。
-* 購買 ID：購買的唯一識別碼，請使用 purchaseID 變數來設定。
-* 訪客 ID：提供訪客的唯一識別碼。此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
+* **EXPERIENCE CLOUDID**：針對使用Experience CloudID服務(ECID)的實作，128位元數字由兩個串連的64位元數字組成，兩個數字皆補至19位數。
+* **頁面URL**：點選發生的頁面URL。
+* **購買ID**：購買的唯一識別碼，請使用purchaseID變數來設定。
+* **訪客ID**：提供訪客的唯一識別碼。 此值與資料摘要中 `visid_high` 和 `visid_low` 欄的串連值相同。如需詳細資訊，請參閱「資料摘要」下的[資料欄參考](../analytics-data-feed/c-df-contents/datafeeds-reference.md)。
 
 ### 專門支援的量度
 
-* 瀏覽次數：在 Data Warehouse 中，此度量會排除非永久性 Cookie 造訪。
-* 瀏覽次數 - 所有訪客：在 Data Warehouse 中，此量度與 Adobe Analytics 中其他工具的造訪量度更接近。
+* **造訪**：在Data Warehouse中，此量度會排除非永久性Cookie造訪。
+* **造訪 — 所有訪客**：在Data Warehouse中，此量度與Adobe Analytics內其他工具中的「造訪」量度更接近。
 
 ## Data Warehouse 中不支援的支援元件
 

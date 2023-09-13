@@ -3,26 +3,15 @@ description: Data Warehouse 可以傳送 Tableau 資料擷取 (TDE) 檔案格式
 title: Tableau 資料檔案
 feature: Data Warehouse
 exl-id: c9973eb6-9ca2-4a8d-94b0-4c7c9c70ab26
-source-git-commit: 4daa5c8bdbcb483f23a3b8f75dde9eeb48516db8
+source-git-commit: 4243f10376e5e33c1d9bd439042b396bd4747f1f
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '98'
+ht-degree: 42%
 
 ---
 
-# Tableau 資料檔案
+# 設定Tableau的Data Warehouse報表
 
-Data Warehouse 可以傳送 Tableau 資料擷取 (TDE) 檔案格式，供您在 Adobe Analytics 外部的其他資料中顯示資料和圖層。您可用電子郵件寄送此項資訊，或以 FTP 傳送此項資訊至 FTP 站台。
+Data Warehouse可以傳送Tableau資料擷取(TDE)檔案格式的報告，這些格式可用來在Tableau中顯示其他資料中的資料和圖層。
 
-如需詳細資訊，請參閱 [Tableau 和 Adobe Analytics](https://www.tableausoftware.com/about/blog/2014/3/tableau-and-adobe-analytics-digital-marketing-gets-even-more-awesome-29491)。
-
-1. 在「Data Warehouse 請求」標籤中，設定報告定義，然後前往&#x200B;**[!UICONTROL 「計劃傳送]** > **[!UICONTROL 進階傳送選項」]**。
-1. 在&#x200B;**[!UICONTROL 「進階傳送選項」]**&#x200B;頁面的&#x200B;**[!UICONTROL 「報表格式」]**&#x200B;下方，選取&#x200B;**[!UICONTROL 「Tableau 格式 (TDE)」]**。
-1. 選擇是否要以壓縮檔案傳送此報告。
-1. 經由電子郵件或 FTP 傳送報告。
-
-1. 前往&#x200B;**[!UICONTROL 「計劃傳送]** > **[!UICONTROL 進階傳送選項」]**。
-1. 在&#x200B;**[!UICONTROL 「報表目標」]**&#x200B;下方選取&#x200B;**[!UICONTROL 「FTP」]**。
-1. 填寫&#x200B;**[!UICONTROL 主機]**、**[!UICONTROL 目錄]**、**[!UICONTROL 使用者名稱]**&#x200B;和&#x200B;**[!UICONTROL 密碼]**。
-
-   預設連接埠號碼為 21。1. 按一下&#x200B;**[!UICONTROL 「傳送」]**。
+如需如何設定Data Warehouse報表以TDE格式傳送的詳細資訊，請參閱 [設定Data Warehouse請求的報表選項](/help/export/data-warehouse/create-request/dw-request-report-options.md).

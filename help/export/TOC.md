@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 轉存指南
 breadcrumb-title: 轉存指南
 user-guide-description: 了解如何使用資料摘要匯出原始資料，以及如何使用 Data Warehouse 擷取試算表輸出資料。了解如何使用 FTP 和 SFTP 傳輸檔案。
-source-git-commit: 78ec6e91e64791d2f8a5386518d3d64403b2170a
-workflow-type: ht
-source-wordcount: '295'
+source-git-commit: a38ee68a1560200e55067ef0ea007f69ce8b575e
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -36,11 +36,17 @@ ht-degree: 100%
 + Data Warehouse {#data-warehouse}
    + [Data Warehouse 概觀](data-warehouse/data-warehouse.md)
    + [新增 Data Warehouse 使用者群組](data-warehouse/t-dw-group.md)
-   + [建立 Data Warehouse 請求](data-warehouse/t-dw-create-request.md)
+   + 建立 Data Warehouse 請求 {#dw-create-request}
+      + [建立 Data Warehouse 請求](/help/export/data-warehouse/create-request/t-dw-create-request.md)
+      + [一般設定](/help/export/data-warehouse/create-request/dw-general-settings.md)
+      + [建置您的報告](/help/export/data-warehouse/create-request/dw-request-build-report.md)
+      + [報告目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)
+      + [報告選項](/help/export/data-warehouse/create-request/dw-request-report-options.md)
+      + [排程選項](/help/export/data-warehouse/create-request/dw-request-scheduling.md)
+      + [通知電子郵件](/help/export/data-warehouse/create-request/dw-request-email.md)
    + [要求傳送時間](data-warehouse/delivery-time.md)
    + [Tableau 資料檔案](data-warehouse/t-tableau.md)
    + [依量度排序](data-warehouse/sorting-by-metric.md)
-   + [排程循環請求](data-warehouse/dw-schedule-recurring.md)
    + [管理 Data Warehouse 請求](data-warehouse/data-warehouse-requests-manage.md)
    + [Data Warehouse 支援的元件](data-warehouse/component-support.md)
    + [Data Warehouse 常見問答](data-warehouse/faq.md)
