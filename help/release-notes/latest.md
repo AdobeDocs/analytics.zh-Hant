@@ -1,16 +1,16 @@
 ---
 title: 目前的 Adobe Analytics 發行說明
-description: 檢視目前的 Adobe Analytics 發行說明。
+description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: bd73793e865ce73affc5536b2e95aae143f99a04
+source-git-commit: 1bd654eef37ac242cf4076e133e482f6a5990cc9
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 70%
 
 ---
 
-# 目前的 Adobe Analytics 發行說明 (2023 年 9 月)
+# 最新 Adobe Analytics 版本注意事項 (2023 年 9 月)
 
 **上次更新日期**: 2023 年 9 月 13 日
 
