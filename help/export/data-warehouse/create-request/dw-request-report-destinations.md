@@ -78,7 +78,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -90,7 +90,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -106,7 +106,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -120,7 +120,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++電子郵件
 
@@ -147,7 +147,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Google Cloud Platform
 
@@ -160,7 +160,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure SAS
 
@@ -173,7 +173,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
       +++Azure RBAC
 
@@ -187,7 +187,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-+++
+      +++
 
    1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
