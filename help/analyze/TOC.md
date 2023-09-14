@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: f23e0c74072d38d5c6559288b2ced60d98634fac
+source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1105'
 ht-degree: 100%
 
 ---
@@ -116,11 +116,8 @@ ht-degree: 100%
       + [空白面板](analysis-workspace/c-panels/blank-panel.md)
       + [自由面板](analysis-workspace/c-panels/freeform-panel.md)
       + [媒體平均每分鐘觀眾數面板](analysis-workspace/c-panels/average-minute-audience-panel.md)
-      + [媒體同時檢閱者面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
-      + 媒體播放時間 {#media-playback-timespent}
-         + [概觀](analysis-workspace/c-panels/media-playback-timespent/media-playback-time-spent.md)
-         + [輸入和輸出設定](analysis-workspace/c-panels/media-playback-timespent/panel-inputs-outputs.md)
-         + [常見問題](analysis-workspace/c-panels/media-playback-timespent/faqs.md)
+      + [「媒體同時檢閱者」面板](analysis-workspace/c-panels/media-concurrent-viewers.md)
+      + [「媒體播放時間」面板](analysis-workspace/c-panels/media-playback-time-spent.md)
       + [下一個或上一個項目面板](analysis-workspace/c-panels/next-previous.md)
       + [頁面摘要面板](analysis-workspace/c-panels/page-summary.md)
       + [快速深入分析面板](analysis-workspace/c-panels/quickinsight.md)
