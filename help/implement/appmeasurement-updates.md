@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
+source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
 workflow-type: tm+mt
-source-wordcount: '2366'
-ht-degree: 96%
+source-wordcount: '2414'
+ht-degree: 95%
 
 ---
 
@@ -16,15 +16,22 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 <!-- https://wiki.corp.adobe.com/display/omtrcache/AppMeasurement+Change+Log -->
 
-您可以下載最新版的AppMeasurement，網址為 [GitHub](https://github.com/adobe/appmeasurement/releases).
+您可以從以下位置下載最新版本的AppMeasurement： [GitHub](https://github.com/adobe/appmeasurement/releases).
+
+## 2.25.0 版本
+
+發行日期：**2023 年 9 月 12 日**
+
+* 新增選用設定(`bufferRequests`)，以便在瀏覽器可能未正確支援信標API或頁面正在解除安裝時可能取消要求的情況下，提高擷取要求的可靠性。
+* 已新增保護機制，以防止單一追蹤請求出現多個追蹤後回呼。
 
 ## 2.24.0 版本
 
 發行日期：**2023 年 7 月 18 日**
 
 * 新增選用設定(`decodeLinkParameters`  — 預設值= false)，會解碼包含雙位元組編碼字元的連結URL。
-* 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器，新增其他錯誤處理。
-* 變更要使用的POSTContent-Type標頭 `x-www-form-urlencoded` 依預設。
+* 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器新增其他錯誤處理。
+* 變更要使用的POST內容型別標頭 `x-www-form-urlencoded` 依預設。
 
 ## 2.23.0 版本
 
@@ -332,7 +339,7 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 發行日期：**2015 年 9 月 17 日**
 
 * 納入 Visitor API 1.5.2
-* 已更新 [!DNL Audience Manager] 使用Adobe Audience ManagerDIL6.2的模組 — 從VisitorAPI.js取得客戶ID，並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
+* 已更新 [!DNL Audience Manager] 使用Adobe Audience ManagerDIL6.2的模組 — 從VisitorAPI.js取得客戶ID並在呼叫給Adobe Audience Manager時將其傳入。 (AN-104978)
 
 ## 1.5 版本
 
