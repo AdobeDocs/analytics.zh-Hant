@@ -4,7 +4,7 @@ description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: 23f34a5588abc125427346ead3f49a25d178aa7f
+source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -76,7 +76,7 @@ Media Analytics客戶可分析所花費的播放時間，以取得內容品質�
 |---|---|
 | 播放時間 | 在選取的粒度期間觀看內容的總小時數:minutes:秒數 (或分鐘)，其中包括暫停、緩衝和開始時間。 |
 
-### 常見問題
+## 常見問題
 
 | 問題 | 回答 |
 |---|---|
