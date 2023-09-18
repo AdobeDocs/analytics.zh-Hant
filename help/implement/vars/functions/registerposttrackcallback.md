@@ -3,10 +3,10 @@ title: registerPostTrackCallback
 description: 將點擊傳送至 Adobe 後建立回呼函數。
 feature: Variables
 exl-id: b2124b89-2bab-4cca-878c-18d62377a8f3
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 79%
+ht-degree: 71%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 79%
 
 >[!WARNING]
 >
->請勿在 `registerPostTrackCallback` 變數內呼叫 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 之類的追蹤呼叫。 此變數中的追蹤函數會導致影像要求發生無限循環！
+>請勿進行任何追蹤呼叫，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 內部 `registerPostTrackCallback` 變數中。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
 
 每次呼叫 `registerPostTrackCallback` 變數時，您都可以連結該函數，以便在成功傳送影像要求後立即執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
@@ -24,13 +24,13 @@ ht-degree: 79%
 >
 >對於在 [`registerPreTrackCallback`](registerpretrackcallback.md) 和 `registerPostTrackCallback` 之間引發的函數，我們不能保證引發的時間和順序。 請避免這兩個函數之間有相依性。
 
-## 使用Web SDK擴充功能進行追蹤後回呼
+## 使用Web SDK擴充功能的後續追蹤回呼
 
 即將推出!
 
-## 追蹤後回呼手動實作Web SDK
+## 手動實作Web SDK的後追蹤回呼
 
-在成功將資料傳送至Adobe後，傳送事件以註冊函式時，您可以使用JavaScript Promise。
+資料成功傳送至Adobe後，您可以在傳送事件以註冊函式時使用JavaScript Promise 。
 
 ```js
 alloy("sendEvent",{
@@ -40,9 +40,9 @@ alloy("sendEvent",{
 });
 ```
 
-請參閱 [處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 如需詳細資訊，請參閱網頁SDK檔案。
+另請參閱 [處理來自事件的回應](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#handling-responses-from-events) 詳細資訊，請參閱Web SDK檔案。
 
-## 使用Adobe Analytics擴充功能註冊追蹤後回呼
+## 使用Adobe Analytics擴充功能註冊後續追蹤回呼
 
 Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依照 AppMeasurement 語法使用自訂程式碼編輯器。
 
@@ -73,7 +73,7 @@ s.registerPostTrackCallback(function(requestUrl,a,b,c) {
 }, "param1", "param2", "param3");
 ```
 
-## 使用案例範例
+## 使用案例
 
 在後續追蹤回呼中註冊 [`clearVars()`](clearvars.md) 函數對單頁應用程式有好處。當您每次成功將點擊傳送至 Adobe 時，`clearVars()` 函數就會執行。接下來，您的實施便能重新定義變數，不必擔心存留的值不正確。
 

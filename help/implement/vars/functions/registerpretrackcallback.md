@@ -3,10 +3,10 @@ title: registerPreTrackCallback
 description: 將點擊傳送至 Adobe 前建立回呼函數。
 feature: Variables
 exl-id: 11c960d7-ded4-441a-822f-463d3a137d2d
-source-git-commit: 9e20c5e6470ca5bec823e8ef6314468648c458d2
+source-git-commit: 12d35a0f503ef79eabd55c169d9642c049542798
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 61%
+source-wordcount: '426'
+ht-degree: 54%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 61%
 
 >[!WARNING]
 >
->請勿在 [`registerPostTrackCallback`](registerposttrackcallback.md) 變數內呼叫 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 之類的任何追蹤呼叫。 此變數中的追蹤函數會導致影像要求發生無限循環！
+>請勿進行任何追蹤呼叫，例如 [`t()`](t-method.md) 或 [`tl()`](tl-method.md) 內部 `registerPreTrackCallback` 變數中。 在此變數中設定追蹤呼叫會造成影像要求無限回圈！
 
 每次呼叫 `registerPreTrackCallback` 變數時，您都可以連結該函數，以便在影像要求編譯完成時執行。請避免在同一個頁面載入中多次註冊相同的函數。
 
@@ -26,17 +26,17 @@ ht-degree: 61%
 
 ## 使用Web SDK擴充功能預先追蹤回呼
 
-Web SDK無法在資料編譯後，但在將其傳送至Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 登錄函式以在發送資料之前執行。
+Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 註冊函式以在資料傳送前執行。
 
-1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
+1. 登入 [Adobe Experience Platform資料彙集](https://experience.adobe.com/data-collection) UI使用您的AdobeID認證。
 1. 按一下所需的標籤屬性。
-1. 前往 [!UICONTROL 擴充功能] ，然後按一下 **[!UICONTROL 設定]** 按鈕 [!UICONTROL Adobe Experience Platform Web SDK].
-1. 在 [!UICONTROL 資料收集]，按一下 **[!UICONTROL 在事件傳送回呼程式碼之前編輯]** 按鈕。
+1. 前往 [!UICONTROL 擴充功能] 標籤，然後按一下 **[!UICONTROL 設定]** 按鈕在 [!UICONTROL Adobe Experience Platform Web SDK].
+1. 在 [!UICONTROL 資料彙集]，按一下 **[!UICONTROL 在事件傳送回呼代碼前編輯]** 按鈕。
 1. 將所需的程式碼放入編輯器中。
 
 ## 手動實作Web SDK的預先追蹤回呼
 
-Web SDK無法在資料編譯後，但在將其傳送至Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 在資料傳送前註冊要執行的函式，類似於 `doPlugins`. 請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 如需詳細資訊，請參閱網頁SDK檔案。
+Web SDK無法在資料編譯後但在將其傳送到Adobe之前連結函式。 不過，您可以使用 `onBeforeEventSend` 若要在資料傳送前註冊要執行的函式，請類似 `doPlugins`. 另請參閱 [全域修改事件](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/tracking-events.html#modifying-events-globally) 詳細資訊，請參閱Web SDK檔案。
 
 ```js
 // Set the trackingCode XDM field to "New value"

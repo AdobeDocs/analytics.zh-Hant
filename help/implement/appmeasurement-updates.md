@@ -3,10 +3,10 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: 40d7224ade5a2eb3eda68025671a2dab192eaa83
+source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 92%
 
 ---
 
@@ -22,14 +22,14 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 發行日期：**2023 年 9 月 12 日**
 
-* 新增選用設定(`bufferRequests`)，以便在瀏覽器可能未正確支援信標API或頁面正在解除安裝時可能取消要求的情況下，提高擷取要求的可靠性。
+* 新增選用方法 [`bufferRequests()`](vars/functions/bufferrequests.md) 提升瀏覽器不支援Beacon API或頁面取消載入時取消要求時擷取要求的可靠性。
 * 已新增保護機制，以防止單一追蹤請求出現多個追蹤後回呼。
 
 ## 2.24.0 版本
 
 發行日期：**2023 年 7 月 18 日**
 
-* 新增選用設定(`decodeLinkParameters`  — 預設值= false)，會解碼包含雙位元組編碼字元的連結URL。
+* 新增可選的設定變數 [`decodeLinkParameters`](vars/config-vars/decodelinkparameters.md) 將包含雙位元組編碼字元的連結URL解碼。
 * 針對具有錯誤高平均資訊量使用者代理程式使用者端提示API的瀏覽器新增其他錯誤處理。
 * 變更要使用的POST內容型別標頭 `x-www-form-urlencoded` 依預設。
 
@@ -37,25 +37,25 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 發行日期：**2022 年 9 月 23 日**
 
-* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可透過「標記」設定用戶端提示或使用「collectHighEntropyUserAgentHints」旗標。依預設，會關閉高平均資訊量的收藏集。進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
+* AppMeasurement 現在支援高平均資訊量使用者代理程式用戶端提示的收藏集，Chromium 瀏覽器 (Google Chrome 和 Microsoft Edge) 會使用上述提示來提供裝置資訊。您可以透過「標籤」設定使用者端提示或使用 [`collectHighEntropyUserAgentHints`](vars/config-vars/collecthighentropyuseragenthints.md) 設定變數。 高平均資訊量提示的收集預設為停用。 進一步了解使用者代理程式[用戶端提示](/help/technotes/client-hints.md)。
 
 ## 2.22.4 版本
 
 發行日期：**2022 年 1 月 18 日**
 
-* 連結追蹤呼叫 `s.tl()` 現在會驗證傳遞給它的物件是否包含 `string` 類型的 `href` 屬性。如果它不是 `string`，則會適當地忽略 `href` 屬性而不是失敗。這可能會發生在傳遞 `svg` 物件給連結追蹤呼叫時。
+* 連結追蹤呼叫 `s.tl()` 現在會驗證傳遞給它的物件是否包含 `string` 類型的 `href` 屬性。如果它不是 `string`，則會適當地忽略 `href` 屬性而不是失敗。 當您通過時，可能會發生這種情況 `svg` 連結追蹤呼叫的物件。
 
 ## 2.22.3 版本
 
 發行日期: **2021 年 10 月 11 日**
 
-* 參照說明文件的已更新檔案將指向目前的說明地點。
+* 更新檔案中指向檔案的連結。
 
 ## 2.22.2 版本
 
 發行日期：**2021 年 9 月 7 日**
 
-* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。以下是[同意變數的完整清單](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/consent-variables.html?lang=zh-Hant)。
+* 此更新會讓 `opt.dmp` 和 `opt.sell` 在追蹤連結時一定會被納入。請參閱 [隱私權報告](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/privacy-reporting.md) （在管理員使用手冊中）以取得詳細資訊。
 
 ## 2.22.1 版本
 
