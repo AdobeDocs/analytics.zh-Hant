@@ -4,7 +4,7 @@ description: 如何使用和解讀 Analysis Workspace 中「媒體播放時間�
 feature: Panels
 role: User, Admin
 exl-id: 9268baf7-b50b-4c09-a722-7bfcd4172f15
-source-git-commit: d02251e877c119cedb6b07bce5cf095bdfc680c8
+source-git-commit: 95f28d537e6e7538133ebd04d185ebcfd28a13d4
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 80%
@@ -32,13 +32,10 @@ Media Analytics客戶可分析所花費的播放時間，以取得內容品質�
 ## 使用「媒體播放時間」面板
 
 1. 前往已啟用Media Analytics元件的報表套裝。
-
 1. 選取最左側的面板圖示，然後將面板拖曳至您的Analysis Workspace專案。
-
 1. 繼續下列章節，以自訂「媒體播放時間」面板
 
    * [面板輸入](#panel-inputs)
-
    * [面板輸出](#panel-output)
 
 ## 面板輸入 {#Input}
