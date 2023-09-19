@@ -2,10 +2,10 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表選項
 feature: Data Warehouse
-source-git-commit: 3b116cb8d0d3f3eb86b512d712f37b29876f2b22
+source-git-commit: 6e6a406c7f3ab6ad83dcf60dbd78a5f6953f1fbb
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 19%
+source-wordcount: '532'
+ht-degree: 18%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 19%
 
    | 選項 | 功能 |
    |---------|----------|
-   | [!UICONTROL **檔案名稱**] | 識別報表。 |
+   | [!UICONTROL **檔案名稱**] | 識別報表。 <p>如果檔案名稱中使用了下列任何特殊字元，將無法儲存請求： <code>！ &quot; # $ &amp; &#39; ( ) * + , / : ; > = &lt; ? @ [ ] \ ^ ` {  } \| ~</code> </p><p>%字元後面必須有&quot;R&quot;、&quot;rsid&quot;或&quot;id&quot;，才能使用，如下所示： <code>%R</code>, <code>%rsid</code>、和 <code>%id</code>。</p> |
    | [!UICONTROL **將報表日期範圍附加至檔案名稱**] | 新增日期範圍至報表檔案名稱。 <p>例如，如果您請求從2024年5月1日到2024年5月7日的資料，則檔案名稱包含20240501 - 20240507日期範圍。</p> |
    | [!UICONTROL **CSV**] | 傳送CSV檔案格式的報表，以供在試算表中檢視資料。 |
    | [!UICONTROL **表格(TDE)**] | 傳送Tableau資料擷取(TDE)檔案格式的報告，可用來在Tableau中顯示其他資料中的資料和圖層。 |
