@@ -3,10 +3,10 @@ description: 管理警報。
 title: 警報管理器概觀
 feature: Alerts
 exl-id: 3408c79f-3d85-44b9-8fca-ce956853dfa4
-source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
+source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 34%
+source-wordcount: '468'
+ht-degree: 33%
 
 ---
 
@@ -61,6 +61,6 @@ ht-degree: 34%
    | 標記 | 顯示套用至警示的標籤，這些標籤是由您自己或與您共用警示的人員所設定。 |
    | 共用對象 | 列出您共用警報的個人或群組（僅限管理員）或全部（僅限管理員）。 |
    | 修改日期 | 表示上次修改警示的日期。 |
-   | 上次使用 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示上次使用警示的日期。</p> <p>此資訊可協助您判斷警示是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p> |
+   | 上次使用 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Adobe Analytics功能發行](/help/release-notes/releases.md).<p>顯示上次使用警示的日期。</p> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p> |
 
    {style="table-layout:auto"}
