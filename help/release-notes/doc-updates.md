@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5136'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | 功能 | 說明 |
 | --- | --- |
 | **2023 年 9 月** | |
-| 更新「媒體播放時間」面板的文章結構 | 移除名為「媒體播放時間」的資料夾，並將資料夾內容合併為單一文章： [「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md). <p>這項變更與其他面板的相關檔案較為一致。</p> |
+| 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
 | 開始使用內容增強功能 | 已新增概述管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
 | 改善 Media Analytics 報表文件 | 重新組織了串流媒體指南報表部分中的一些內容，包括將 API 文件合併到其區段中，並調整了一些文章順序。 <p>將媒體工作區範本文章重命名為 [Workspace 媒體報表](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-workspace-templates.html)，以與產品內的名稱保持一致。 </p> |
 | **2023 年 8 月** | |
