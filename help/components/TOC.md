@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報程套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: c418a9ed9f1dedd4a382b718f83313b6225dff63
-workflow-type: ht
-source-wordcount: '726'
-ht-degree: 100%
+source-git-commit: dc84909f9c19681adfd28696495b667837056146
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 98%
 
 ---
 
@@ -171,6 +171,7 @@ ht-degree: 100%
       + [篩選區段](segmentation/segmentation-workflow/t-seg-filter.md)
       + [將區段標示為最愛](segmentation/segmentation-workflow/t-seg-favorite.md)
       + [刪除區段](segmentation/segmentation-workflow/seg-delete.md)
+      + [複製區段](segmentation/segmentation-workflow/seg-copy.md)
       + [管理區段](segmentation/segmentation-workflow/seg-manage.md)
    + 區段參考資料 {#segment-reference}
       + [區段的比較運算子](segmentation/seg-reference/seg-operators.md)
@@ -195,8 +196,11 @@ ht-degree: 100%
       + [篩選和加權的量度](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-weighted-metric.md)
       + [使用函數](c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/cm-using-functions.md)
       + [標記計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-tagging.md)
+      + [篩選計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-filter.md)
+      + [將計算量度標示為我的最愛](c-calcmetrics/c-workflow/cm-workflow/cm-favorite.md)
       + [核准計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-approving.md)
       + [共用計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-sharing.md)
+      + [複製計算量度](c-calcmetrics/c-workflow/cm-workflow/cm-copy.md)
       + [計算量度管理器](c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)
    + 量度參考資料 {#calcmetrics-reference}
       + [參考資料：基本函數](c-calcmetrics/cm-reference/cm-functions.md)

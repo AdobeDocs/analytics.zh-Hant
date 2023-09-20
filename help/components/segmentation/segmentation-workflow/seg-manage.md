@@ -3,43 +3,77 @@ description: 「區段管理員」提供許多管理區段的方式，例如共�
 title: 管理區段 (區段管理員)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 637f498c8abee0f3c83780bccd0447f2e3a804e3
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 98%
+source-wordcount: '710'
+ht-degree: 39%
 
 ---
 
-# 管理區段
+# 區段管理員
 
 「區段管理員」提供許多管理區段的方式，例如共用、篩選、標記、核准、複製、刪除和標示為我的最愛。
 
-「Analytics 區段管理員」會顯示您所擁有以及已經與您共用的區段。管理員級使用者可以查看組織中的所有區段。此概覽會介紹「區段管理員」的使用者介面和功能。存取「區段管理員」的方法有：
+「Analytics 區段管理員」會顯示您所擁有以及已經與您共用的區段。管理員級使用者可以查看組織中的所有區段。此概覽會介紹「區段管理員」的使用者介面和功能。
 
-* 前往左側導覽中的「**[!UICONTROL 分析]** > **[!UICONTROL 元件]** > **[!UICONTROL 區段]**」。
-* 顯示現有報表並按一下左側導覽中的區段圖示 ![。](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg)然後按一下&#x200B;**[!UICONTROL 「管理」]**。
+![區段管理員](assets/segments-manager.png)
+
+## 存取「區段管理員」
+
+1. 在Adobe Analytics中，選取 **[!UICONTROL 元件]** 索引標籤，然後選取 **[!UICONTROL 區段]**.
+
+   或
+
+   在現有報表中，選取「區段」圖示 ![](https://spectrum.adobe.com/static/icons/workflow_18/Smock_Segmentation_18_N.svg) 在左側導覽中，然後選取 **[!UICONTROL 管理]**.
+
+## 「區段管理員」中的可用動作
+
+在「區段管理員」中，您可以：
+
+* [篩選區段](/help/components/segmentation/segmentation-workflow/t-seg-filter.md)
+
+* [將區段標示為最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md)
+
+* [核准區段](/help/components/segmentation/segmentation-workflow/seg-approve.md)
+
+* [標記區段](/help/components/segmentation/segmentation-workflow/seg-tag.md)
+
+* [共用區段](/help/components/segmentation/segmentation-workflow/t-seg-share.md)
+
+* 將區段匯出至CSV檔案。
+
+* [複製區段](/help/components/segmentation/segmentation-workflow/seg-copy.md)
+
+* [刪除區段](/help/components/segmentation/segmentation-workflow/seg-delete.md)
+
+## 設定欄
+
+您可以設定要顯示的欄，以設定「區段管理員」中每個區段顯示的資訊。
+
+若要在「區段管理員」中設定可見欄：
+
+1. 在Adobe Analytics中，選取 **[!UICONTROL 元件]** 索引標籤，然後選取 **[!UICONTROL 區段]**.
+
+1. 在「區段管理員」中，選取 **自訂欄** 圖示 ![自訂欄圖示](assets/customize-columns-icon.png)，然後選取您要在「區段管理員」中顯示的欄。
+
+   可使用下列欄:
+
+   | 欄標題 | 說明 |
+   |---|---|
+   | 標題和說明 | 這些值會在區段產生器中提供。 若要編輯標題和說明，請選取標題連結以開啟區段產生器。 |
+   | 我的最愛 | 在每個區段旁顯示星號圖示，讓您將區段標示為我的最愛。 如需詳細資訊，請參閱 [將區段標示為我的最愛](/help/components/segmentation/segmentation-workflow/t-seg-favorite.md). |
+   | 報告套裝 | 此欄指出上次將區段儲存到的目標報表套裝。 |
+   | 擁有者 | 指出區段的擁有者。如果您不是管理員，您只能看見自己所擁有或已共用給您的區段。 |
+   | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用區段給您的人員對區段套用的標記。 |
+   | 共用對象 | 列出您將區段共用給的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 <p>當您共用區段時，區段名稱旁邊會顯示共用圖示。</p> |
+   | 修改日期 | 顯示上次修改區段的日期。 |
+   | 使用位置 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示目前使用區段的下列元件型別：</p> <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>區段</li></ul> 例如，如果區段用於40個專案和2個警報，此欄會顯示 [!UICONTROL **警報(2)、專案(40)**]. <p>此資訊可協助您判斷區段是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
+   | 上次使用 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Customer Journey Analytics功能發行](/help/release-notes/releases.md).<p>顯示上次在下列任何元件型別中使用區段的日期：</p> <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>區段</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值，或是否應將其刪除。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
+
+   {style="table-layout:auto"}
 
 ## 操作說明影片 {#section_B3C5DA22DC5248DBA17C56E03DA2D4F2}
 
 此 [Adobe Analytics 影片](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/segmentation/segment-management-and-sharing.html)提供如何使用區段管理員的簡短概覽。
 
-## 區段管理員使用者介面 {#section_7FDCD12949BE4741A402DB83AB7B37DF}
 
-![](assets/segment_manager_ui.png)
-
-| # | UI 功能 | 說明 |
-|---|---|---|
-| 1 | 區段管理工具列 | 如果您勾選區段，便會出現此工具列。多數的管理工作均可以透過此工具列完成。 |
-| 2 | 顯示篩選器 | 按一下篩選圖示可開啟篩選選單。您可以依「標記」、「擁有者」、「全部顯示」(僅限管理員使用)、「我的」、「我的最愛」、「已核准」和「已共用給我」進行篩選。 |
-| 3 | 核取方塊 | 勾選要管理的區段。 |
-| 4 | 我的最愛 | 按一下區段旁的星號，會使該星號變黃色並將區段標記為我的最愛。 |
-| 5 | 區段標題和說明 | 提供於「區段產生器」中。若要編輯標題和說明，請按一下標題連結，如此便會回到「區段產生器」。 |
-| 6 | 報表套裝 | 此欄指出上次將區段儲存到的目標報表套裝。 |
-| 7 | 擁有者 | 指出區段的擁有者。如果您不是管理員，您只能看見自己所擁有或已共用給您的區段。 |
-| 8 | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用區段給您的人員對區段套用的標記。 |
-| 9 | 共用對象 | 列出您將區段共用給的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 |
-| 10 | 修改日期 | 顯示上次修改區段的日期。 |
-| 11 | 欄選擇器 | 可讓您選取或取消選取「區段管理員」中的欄。 |
-| 12 | 共用圖示    | 指出此區段已由您共用或與您共用。 |
-| 13 | 批准圖示    | 指出管理員已批准此區段。 |
-| 14 | 篩選條件 | 可讓您在「標記」、「報表套裝」、「擁有者」及「其他」(「全部顯示」、「我的」、「已共用給我」、「已核准」、「我的最愛」) 底下，看見並選取篩選器。 |
