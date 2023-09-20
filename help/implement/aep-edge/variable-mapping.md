@@ -3,7 +3,7 @@ title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: b6a92b8ca79422d2ba857cd98c172a824658a7a6
+source-git-commit: f790407b5495d5fad679a2980c951b2247971069
 workflow-type: tm+mt
 source-wordcount: '1506'
 ht-degree: 96%
@@ -113,7 +113,7 @@ ht-degree: 96%
 | `placeContext.localTime` | 協助填入 Reports &amp; Analytics 中的[時區](/help/analyze/reports-analytics/reports.md)。在[資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中顯示為 `t_time_info`。 |
 | `productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar1`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`customDimensions.eVars.eVar250` | 將[產品語法](../vars/page-vars/products.md)銷售套用至 eVars。 |
 | `productListItems[]._experience.analytics.`<br/>`event1to100.event1.value`<br/>`[...]`<br/>`productListItems[]._experience.analytics.`<br/>`event901-1000.event1000.value` | 將[產品語法](../vars/page-vars/products.md)銷售套用至事件。 |
-| `productListItems[].lineItemId` | [類別](../../components/dimensions/category.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
+| `productListItems[].productCategories[].categoryID` | [類別](../../components/dimensions/category.md)維度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
 | `productListItems[].name` | [產品](../../components/dimensions/product.md)維度。另外請查看 [產品](../vars/page-vars/products.md) 頁面變數。如果 `productListItems[].SKU` 和 `productListItems[].name` 都包含資料，則使用 `productListItems[].SKU` 中的值。 |
 | `productListItems[].priceTotal` | 協助判斷[收入](../../components/metrics/revenue.md)量度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
 | `productListItems[].quantity` | 協助判斷[單位](../../components/metrics/units.md)量度。另外請查看[產品](../vars/page-vars/products.md)頁面變數。 |
