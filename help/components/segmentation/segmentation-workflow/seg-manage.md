@@ -3,10 +3,10 @@ description: 「區段管理員」提供許多管理區段的方式，例如共�
 title: 管理區段 (區段管理員)
 feature: Segmentation
 exl-id: be182a55-23cb-415f-a7d0-3c1efeead1a1
-source-git-commit: 69b763bc5740223be54309c0c0b98f40536c4d7e
+source-git-commit: bd588a06546c59e9a5a61b0260229bafaba150f1
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 36%
+source-wordcount: '768'
+ht-degree: 35%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 36%
    | 標記 (未在欄選擇器中勾選，因此此欄不會出現) | 由您或共用區段給您的人員對區段套用的標記。 |
    | 共用對象 | 列出您將區段共用給的目標個人或群組 (僅限管理員使用) 或「全部」(僅限管理員使用)。 <p>當您共用區段時，區段名稱旁邊會顯示共用圖示。</p> |
    | 修改日期 | 顯示上次修改區段的日期。 |
-   | 使用位置 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Adobe Analytics功能發行](/help/release-notes/releases.md).<p>顯示區段目前使用中的元件數量。 <p>例如，如果區段用於40個專案和2個警報，則此欄的值顯示為 [!UICONTROL **42個元件**].</p> <p>選取此欄中的值，以檢視使用區段的劃分(例如， [!UICONTROL **專案(40)**]， [!UICONTROL **警報(2)**])。</p><p>區段可用於下列任何元件型別：</p> <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>區段</li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。</p><p>此 [!UICONTROL **使用位置**] 預設不會顯示欄。 [設定欄](#configure-columns) 以顯示。</p> |
+   | 使用位置 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Adobe Analytics功能發行](/help/release-notes/releases.md).<p>顯示區段目前使用中的元件數量。 <p>例如，如果區段用於40個專案和2個警報，則此欄的值顯示為 [!UICONTROL **42個元件**].</p> <p>選取此欄中的值，以檢視使用區段的劃分(例如， [!UICONTROL **專案(40)**]， [!UICONTROL **警報(2)**])。</p><p>區段可用於下列任何元件型別：</p> <ul><li>警報</li><li>專案</li><li>已排程的專案</li><li>計算量度</li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。</p><p>此 [!UICONTROL **使用位置**] 預設不會顯示欄。 [設定欄](#configure-columns) 以顯示。</p> |
    | 上次使用 | **注意：** 此功能處於發行的有限測試階段，可能尚未在您的環境中提供。 當該功能供一般用途時，此備註將被刪除。如需Customer Journey Analytics發行程式的相關資訊，請參閱 [Adobe Analytics功能發行](/help/release-notes/releases.md).<p>顯示上次在下列任何元件型別中使用區段的日期：</p> <ul><li>警報</li><li>計算量度</li><li>專案</li><li>已排程的專案</li><li>區段</li></ul> <p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。</p><p>此資訊不包括API、Report Builder或Data Warehouse的使用情況。</p><p>您可以使用 [資料字典](/help/analyze/analysis-workspace/components/data-dictionary/data-dictionary-overview.md) 連同此資訊可協助您追蹤並更瞭解組織中如何使用元件。 |
 
    {style="table-layout:auto"}
