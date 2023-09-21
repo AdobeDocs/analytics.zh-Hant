@@ -3,16 +3,16 @@ title: 退出連結
 description: 退出連結的名稱。
 feature: Dimensions
 exl-id: 090d5fee-4b35-4be7-866c-5ef1d1c4c0a6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 退出連結
 
-「退出連結」維度會報告您的網站上實施作業的退出連結名稱。當您想了解哪些連結最常用於指向網站外的網域時，此維度就很實用。
+「退出連結」 [維度](overview.md) 會報告您的網站上實作的退出連結名稱。 當您想了解哪些連結最常用於指向網站外的網域時，此維度就很實用。
 
 ## 將資料填入此維度中
 

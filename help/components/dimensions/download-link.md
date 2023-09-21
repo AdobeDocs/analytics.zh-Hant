@@ -3,16 +3,16 @@ title: 下載連結
 description: 下載連結的名稱。
 feature: Dimensions
 exl-id: 078014a2-1f09-4177-9575-b44c5da25816
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # 下載連結
 
-「下載連結」維度會報告您的網站上實施作業的下載連結名稱。如果您想要進一步瞭解下載連結的訪客行為，此維度就十分實用，例如：
+「下載連結」 [維度](overview.md) 會報告您的網站上實作的下載連結名稱。 如果您想要進一步瞭解下載連結的訪客行為，此維度就十分實用，例如：
 
 * 判斷從您網站中下載最頻繁的檔案。
 * 瞭解是否在特定時段內某些檔案下載的次數更多。

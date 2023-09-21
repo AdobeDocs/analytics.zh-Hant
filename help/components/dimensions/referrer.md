@@ -3,16 +3,16 @@ title: 反向連結
 description: 訪客點進您的網站前所在的 URL。
 feature: Dimensions
 exl-id: 146f0327-c73c-40f5-8cc1-584e31d163a2
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 反向連結
 
-「反向連結」維度會報告訪客從哪些 URL 點進您的網站。此維度有助於瞭解哪些特定的 URL 為您的網站帶來最多流量。外部 URL 上必須有連結，且訪客必須點按該連結，才會顯示維度項目。
+「反向連結」 [維度](overview.md) 報告訪客點進您的網站時所在的URL。 此維度有助於瞭解哪些特定的 URL 為您的網站帶來最多流量。外部 URL 上必須有連結，且訪客必須點按該連結，才會顯示維度項目。
 
 >[!IMPORTANT]
 >

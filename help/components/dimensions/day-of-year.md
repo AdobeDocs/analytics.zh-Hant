@@ -3,16 +3,16 @@ title: 一年當中的第幾天
 description: 當年的數值日，無論年份為何。
 feature: Dimensions
 exl-id: 40a95926-3d1b-4e9c-a82a-6e23b711e6e7
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 一年當中的第幾天
 
-「一年當中的第幾天」維度會將任何指定年份的數值日報告為維度項目。如果您想要依一年當中的第幾天劃分報表，但不要以靜態日期作為維度項目，此報表就十分實用。
+&#39;一年當中的第幾天&#39; [維度](overview.md) 將任何指定年份的數值日報告為維度專案。 如果您想要依一年當中的第幾天劃分報表，但不要以靜態日期作為維度項目，此報表就十分實用。
 
 ## 將資料填入此維度中
 

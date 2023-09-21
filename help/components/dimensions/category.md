@@ -3,16 +3,16 @@ title: 類別
 description: 點擊的產品類別。
 feature: Dimensions
 exl-id: 3517b417-1a44-4d3e-ac16-93fdc5f36404
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 類別
 
-「類別」維度會報告點擊的產品類別。如果您的實施作業使用 `products` 變數，且您想要查看產品類別的相關量度 (例如最暢銷商品或最常檢視的商品)，此維度就十分實用。如果您的網站上沒有任何產品，此維度可能會刻意保留為空白。
+「類別」 [維度](overview.md) 報告點選的產品類別。 如果您的實施作業使用 `products` 變數，且您想要查看產品類別的相關量度 (例如最暢銷商品或最常檢視的商品)，此維度就十分實用。如果您的網站上沒有任何產品，此維度可能會刻意保留為空白。
 
 ## 將資料填入此維度中
 

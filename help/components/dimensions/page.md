@@ -3,16 +3,16 @@ title: 頁面
 description: 頁面名稱。
 feature: Dimensions
 exl-id: 579963c8-8460-425f-b716-3b30d7a259af
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 頁面
 
-「頁面」維度會列出您網站上的頁面名稱。這是 Adobe Analytics 中最常使用的維度之一，因為它可讓您深入分析網站上的哪些頁面表現最佳。
+「頁面」 [維度](overview.md) 列出網站頁面的名稱。 這是 Adobe Analytics 中最常使用的維度之一，因為它可讓您深入分析網站上的哪些頁面表現最佳。
 
 此維度與[網站區段](site-section.md)和[伺服器](server.md)維度有關。「頁面」最精細，「伺服器」最不精細，「網站區段」介於兩者之間。
 

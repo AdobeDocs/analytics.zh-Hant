@@ -3,16 +3,16 @@ title: 結帳
 description: 訪客開始進行結帳程序的點擊次數。
 feature: Metrics
 exl-id: 747f2244-efc6-473f-bc0c-a5898cc8a717
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # 結帳
 
-「結帳」量度會顯示訪客開始進行結帳程序的次數。如果您想要瞭解客戶已在購物車中放入產品並準備購買的轉換漏斗部分，此量度將有所幫助。
+「結帳」 [量度](overview.md) 顯示訪客開始進行結帳程式的次數。 如果您想要瞭解客戶已在購物車中放入產品並準備購買的轉換漏斗部分，此量度將有所幫助。
 
 ## 此量度的計算方式
 

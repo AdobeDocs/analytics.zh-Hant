@@ -3,10 +3,10 @@ title: 登入點
 description: 造訪中第一個值的例項。
 feature: Metrics
 exl-id: f5d359ce-e6ac-4f80-a30b-ff78cc5fc8dc
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此說明頁面說明登入作為量度時的運作方式。若要瞭解登入作為維度時的運作方式，請參閱[登入維度](../dimensions/entry-dimensions.md)。*
 
-「登入」量度會顯示指定的維度項目在造訪中被擷取為第一個值的次數。如果您想要進一步瞭解訪客在您網站上的第一印象，此量度將有所幫助。查看維度的第一個值，有助於您瞭解新訪客所獲得的體驗，並加以最佳化。
+「登入點」 [量度](overview.md) 顯示指定的維度專案在造訪中被擷取為第一個值的次數。 如果您想要進一步瞭解訪客在您網站上的第一印象，此量度將有所幫助。查看維度的第一個值，有助於您瞭解新訪客所獲得的體驗，並加以最佳化。
 
 ## 此量度的計算方式
 

@@ -3,16 +3,16 @@ title: 作業系統
 description: 訪客的作業系統。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: 3a0254e5cfdbcaf7b5d6f81bc710959063cd1735
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 29%
+ht-degree: 26%
 
 ---
 
 # 作業系統
 
-「作業系統」維度會顯示訪客使用的作業系統和版本。如果您的 Web 屬性中有作業系統專屬的功能，此維度可協助您了解哪些作業系統最常見。
+「作業系統」 [維度](overview.md) 顯示訪客使用的作業系統和版本。 如果您的 Web 屬性中有作業系統專屬的功能，此維度可協助您了解哪些作業系統最常見。
 
 ## 將資料填入此維度中
 
@@ -24,29 +24,29 @@ ht-degree: 29%
 
 ## 標籤和定義的變更
 
-以下是使用者代理和Adobe Analytics報表中如何呈現作業系統的特定問題清單。
+以下是作業系統如何在「使用者代理程式」和Adobe Analytics報表中的呈現特定問題清單。
 
-### 作業系統粒度的變更
+### 作業系統詳細程度的變更
 
-我們於2023年3月2日更新了報告，在作業系統中加入更多詳細資訊。 在此日期之後，我們將包括作業系統修補程式版本。 因此，例如，使用OS X 10.15.7的使用者在3月2日之前會顯示為「OS X 10.15」。 在3月2日之後，它們將顯示為「OS X 10.15.7」。
+在2023年3月2日，我們更新了報告，在作業系統中加入更多細節。 在此日期之後，我們會加入作業系統修補程式版本。 舉例來說，使用OS X 10.15.7的使用者在3月2日之前應該出現為「OS X 10.15」。 在3月2日之後，它們會顯示為「OS X 10.15.7」。
 
 ### 變更Apple作業系統的命名慣例：
 
-從11版開始，我們將使用MacOS（而非OS X）來指稱Apple作業系統。
+從第11版開始，我們會使用MacOS而非OS X來參照Apple作業系統。
 
 範例：
 
-* &quot;OS X 10.15&quot;(請參閱下方關於10.15.7版的附註，而非UA字串中的表示)。
-* &quot;MacOS 11.0.0
+* 「OS X 10.15」（請參閱下文關於10.15.7版超過UA字串表示法的說明）。
+* 「MacOS 11.0.0
 
-### Mac OS版本在10.15.7版之後的使用者代理中不正確 
+### 10.15.7版之後使用者代理程式中的Mac作業系統版本不正確 
 
-Apple電腦上的使用者代理將作業系統版本顯示為10.15.7（即使是較新版本）。 這樣做是因為將第11版納入UA顯然造成了一些網站的問題。 對於 *所有瀏覽器* 與Google在Chromium瀏覽器上「凍結」使用者代理無關。
+Apple電腦上的使用者代理程式顯示作業系統版本為10.15.7 （即使是較新版本）。 之所以這麼做，是因為在UA中加入版本11顯然會造成某些網站的問題。 這適用於以下情況 *所有瀏覽器* 和Google在Chromium瀏覽器上「凍結」使用者代理程式沒有關聯。
 
-請注意，用戶端提示在平台版本提示(「Sec-CH-UA-Platform-Version」)中包含正確的版本。 這是高熵提示，因此Adobe不會自動收集。 請參閱 [Adobe Analytics提示常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 詳細了解如何收集高熵提示。
+請注意，使用者端提示包含在平台版本提示中的正確版本(「Sec-CH-UA-Platform-Version」)。 這是高平均資訊量提示，因此Adobe不會自動收集。 請參閱 [Adobe Analytics提示常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 有關如何收集高平均資訊量提示的詳細資訊。
 
-### 從Windows 11開始，用戶代理中的Windows版本不正確
+### 從Windows 11開始的使用者代理程式中的Windows版本不正確
 
-自2023年1月起，所有瀏覽器中的使用者代理將Windows 11顯示為Windows 10。
+截至2023年1月，所有瀏覽器中的使用者代理程式都會將Windows 11顯示為Windows 10。
 
-請注意，用戶端提示在平台版本提示(「Sec-CH-UA-Platform-Version」)中包含正確的版本。 這是高熵提示，因此Adobe不會自動收集。 請參閱 [Adobe Analytics提示常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 詳細了解如何收集高熵提示。
+請注意，使用者端提示包含在平台版本提示中的正確版本(「Sec-CH-UA-Platform-Version」)。 這是高平均資訊量提示，因此Adobe不會自動收集。 請參閱 [Adobe Analytics提示常見問題集](https://experienceleague.adobe.com/docs/analytics/technotes/client-hints.html?lang=en) 有關如何收集高平均資訊量提示的詳細資訊。

@@ -3,16 +3,16 @@ title: 永久性 Cookie 支援
 description: 判斷訪客是否能支援永久性 Cookie。
 feature: Dimensions
 exl-id: ced69e41-d992-4c5a-8541-920aeb7186ae
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '206'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 永久性 Cookie 支援
 
-「永久性 Cookie 支援」維度會顯示該點擊是否使用來自永久性來源的訪客識別碼。最常見的永久性來源來自於 Cookie，但也可能使用行動標題和其他來源。
+「永久性Cookie支援」 [維度](overview.md) 顯示點選是否使用來自永久性來源的訪客識別碼。 最常見的永久性來源來自於 Cookie，但也可能使用行動標題和其他來源。
 
 ## 將資料填入此維度中
 

@@ -3,16 +3,16 @@ title: 上次造訪間隔天數
 description: 目前點擊與上次造訪的間隔天數。
 feature: Dimensions
 exl-id: 8063bdc6-516a-4dd0-a4ca-ded739e8d406
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '167'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 上次造訪間隔天數
 
-「上次造訪間隔天數」維度會測量訪客目前的點擊與上次造訪 (如果有的話) 之間經過的時間量。此維度可協助您瞭解訪客造訪您的網站後的行為。例如：
+「上次造訪間隔天數」 [維度](overview.md) 測量訪客目前的點選與上次造訪（如果有的話）之間經過的時間量。 此維度可協助您瞭解訪客造訪您的網站後的行為。例如：
 
 * 使用者回訪網站的頻率為何？
 * 回訪頻率與轉換如何產生關聯？重複購買者的造訪頻率高不高？

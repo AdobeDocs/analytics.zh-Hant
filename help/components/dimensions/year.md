@@ -3,16 +3,16 @@ title: 年
 description: 量度發生的年份。
 feature: Dimensions
 exl-id: 872fb659-fb19-40ac-b371-e89c5a5d0274
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 100%
+ht-degree: 86%
 
 ---
 
 # 年
 
-「年」維度會報告指定的量度發生的年份。第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。
+&#39;年&#39; [維度](overview.md) 報告指定量度發生的年份。 第一個維度項目是日期範圍中的第一年，最後一個維度項目是日期範圍中最近的一年。
 
 ## 將資料填入此維度中
 

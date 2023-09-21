@@ -3,16 +3,16 @@ title: 上次購買間隔天數
 description: 目前點擊與上次進行購買的間隔天數。
 feature: Dimensions
 exl-id: 6f0d9d79-cf40-4de3-9d9f-9b1bc57f97b6
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 上次購買間隔天數
 
-「上次購買間隔天數」維度會測量訪客目前的點擊與當時最近一次購買之間所經過的時間長度。此維度可協助您了解訪客在您網站上購買商品後的行為。
+「上次購買間隔天數」 [維度](overview.md) 測量訪客目前的點選與當時最近一次購買之間所經過的時間量。 此維度可協助您了解訪客在您網站上購買商品後的行為。
 
 從未購買過商品的訪客不會納入此維度中。此外，訪客首次購買前引發的點擊也不包含在內。僅包含訪客首次購買後的點擊。
 

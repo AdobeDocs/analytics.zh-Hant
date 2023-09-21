@@ -3,8 +3,8 @@ title: 頁面檢視次數
 description: 維度項目的次數是設定或保存在 Adobe Analytics 中。
 feature: Metrics
 exl-id: 6b4fb7af-03e2-49e8-a431-f7746c89a626
-source-git-commit: 60a630c9934d613aa69523bdb87b92165a135eb9
-workflow-type: ht
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 100%
 
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 頁面檢視次數
 
-**[!UICONTROL 頁面檢視次數]**&#x200B;量度顯示特定維度項在頁面上被定義或保留 (即過期時) 的次數。這是報表中最常用且最基本的量度之一。
+**[!UICONTROL 頁面檢視次數]**&#x200B;量度顯示特定維度項在頁面上被定義或保留 (即過期時) 的次數。[](overview.md)這是報表中最常用且最基本的量度之一。
 
 例如，[!UICONTROL 一週中的幾天]量度由以下維度項組成：星期日、星期一、星期二、星期三、星期四、星期五和星期六。
 

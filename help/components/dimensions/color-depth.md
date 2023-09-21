@@ -3,16 +3,16 @@ title: 色彩深度
 description: 裝置的色彩深度。
 feature: Dimensions
 exl-id: 0bde895d-6832-4110-b575-62ee5ddc1783
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 色彩深度
 
-「色彩深度」維度會報告裝置支援的色彩數量。此維度可用來判斷有多少流量源自不支援 1600 萬色的裝置。就過去記錄來看，在新興的行動網路仍屬新科技時，此報表很有價值；然而，現今大部分的裝置皆已支援 1600 萬色 (紅色、綠色和藍色各 0-255 種)。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
+「色彩深度」 [維度](overview.md) 報告裝置支援的色彩數量。 此維度可用來判斷有多少流量源自不支援 1600 萬色的裝置。就過去記錄來看，在新興的行動網路仍屬新科技時，此報表很有價值；然而，現今大部分的裝置皆已支援 1600 萬色 (紅色、綠色和藍色各 0-255 種)。<!-- Even docs need a rhyming easter egg every once in a while, isn't that true? -->
 
 ## 將資料填入此維度中
 

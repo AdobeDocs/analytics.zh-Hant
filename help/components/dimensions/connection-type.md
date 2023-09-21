@@ -3,16 +3,16 @@ title: 連線類型
 description: 訪客如何連線至網際網路。
 feature: Dimensions
 exl-id: 149b2353-6128-4e0c-a73a-bc5a37c66b52
-source-git-commit: ac3748826d9907cc68076ad39e865f39ea903cf2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 連線類型
 
-「連線類型」維度會顯示訪客連線至網際網路的方式。此維度對於判斷訪客如何連線至網際網路來瀏覽您的網站很有幫助。您可利用它來根據訪客的連線速度將網站內容最佳化。
+&#39;連線型別&#39; [維度](overview.md) 顯示訪客如何連線至網際網路。 此維度對於判斷訪客如何連線至網際網路來瀏覽您的網站很有幫助。您可利用它來根據訪客的連線速度將網站內容最佳化。
 
 ## 將資料填入此維度中
 

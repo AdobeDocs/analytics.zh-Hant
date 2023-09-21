@@ -3,16 +3,16 @@ title: 點擊深度
 description: 造訪中的點擊次數。
 feature: Dimensions
 exl-id: 84c27e3f-4228-4455-95bf-0239928337b5
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 點擊深度
 
-「點擊深度」維度會報告指定的點擊在造訪中的深入程度。此維度十分有助於瞭解訪客在您的網站上執行動作時深入造訪的程度。點擊深度會計算所有類型的點擊，包括頁面檢視 ([`t()`](/help/implement/vars/functions/t-method.md)) 和連結追蹤點擊 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
+「點選深度」 [維度](overview.md) 報告指定的點選在造訪中的深入程度。 此維度十分有助於瞭解訪客在您的網站上執行動作時深入造訪的程度。點擊深度會計算所有類型的點擊，包括頁面檢視 ([`t()`](/help/implement/vars/functions/t-method.md)) 和連結追蹤點擊 ([`tl()`](/help/implement/vars/functions/tl-method.md))。
 
 ## 將資料填入此維度中
 

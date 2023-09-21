@@ -3,16 +3,16 @@ title: 作業系統類型
 description: 作業系統 (不論版本為何)。
 feature: Dimensions
 exl-id: 0afd5261-98e8-4247-865a-1b8844c53ff4
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 # 作業系統類型
 
-「作業系統類型」維度會顯示訪客使用的主要作業系統 (不論版本為何)。此維度不僅有助於了解哪些特定作業系統和版本最常見，也有助於了解訪客使用哪些典型作業系統平台。
+「作業系統型別」 [維度](overview.md) 顯示訪客使用的主要作業系統（不論版本為何）。 此維度不僅有助於了解哪些特定作業系統和版本最常見，也有助於了解訪客使用哪些典型作業系統平台。
 
 ## 將資料填入此維度中
 

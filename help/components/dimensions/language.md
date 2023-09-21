@@ -3,16 +3,16 @@ title: 語言
 description: 瀏覽器中的慣用語言設定。
 feature: Dimensions
 exl-id: 590406a4-d336-42c7-8048-e7cd8e611d43
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '158'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 語言
 
-「語言」維度會顯示訪客最常用來檢視內容的語言。如果您想要瞭解訪客最常使用的語言以利進行當地語系化工作，此維度就十分實用。
+&#39;語言&#39; [維度](overview.md) 顯示訪客最常用來檢視內容的語言。 如果您想要瞭解訪客最常使用的語言以利進行當地語系化工作，此維度就十分實用。
 
 >[!NOTE]
 >

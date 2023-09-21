@@ -3,16 +3,16 @@ title: 原始反向連結網域
 description: 訪客點進您的網站前所在的第一個反向連結網域。
 feature: Dimensions
 exl-id: 6b9ac662-a79a-477b-8612-7980da7cfadd
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 原始反向連結網域
 
-「原始反向連結網域」維度會報告訪客點進您網站的第一個反向連結網域。設定後，該訪客 ID 的整個存留期都會包含相同的值。此維度有助於了解哪些協力廠商網站原本會將流量帶往您的網站。
+「原始反向連結網域」 [維度](overview.md) 報表訪客點進以存取您的網站的第一個反向連結網域。 設定後，該訪客 ID 的整個存留期都會包含相同的值。此維度有助於了解哪些協力廠商網站原本會將流量帶往您的網站。
 
 >[!IMPORTANT]
 >

@@ -3,16 +3,16 @@ title: 付費搜尋
 description: 區分付費和免費搜尋的量度。
 feature: Dimensions
 exl-id: b12665a3-e92f-4fc1-acd3-ea17a316e5e5
-source-git-commit: 35e7c8bccb8524fa5e87cae223f0854956c7528a
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
 # 付費搜尋
 
-「付費搜尋」維度可讓您查看任何量度，並在付費搜尋和免費搜尋之間比較。這會忽略搜尋引擎外的所有其他點擊次數。此維度有助於了解您付費搜尋與有機搜尋的比較結果。
+「付費搜尋」 [維度](overview.md) 可讓您檢視任何量度，並在付費搜尋和免費搜尋之間比較。 這會忽略搜尋引擎外的所有其他點擊次數。此維度有助於了解您付費搜尋與有機搜尋的比較結果。
 
 ## 將資料填入此維度中
 

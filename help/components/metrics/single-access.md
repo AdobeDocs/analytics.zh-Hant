@@ -3,16 +3,16 @@ title: 單次存取
 description: 維度項目在造訪中未變更的次數。
 feature: Metrics
 exl-id: 973ce835-9d6f-4ead-90c9-0b80aac82cc0
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 單次存取
 
-「單次存取」量度會顯示維度項目在整個造訪中僅包含單一不重複值的造訪次數。對於某些維度，如果您想要查看有哪些維度項目在造訪期間停滯不變，此量度就很實用。
+「單次存取」 [量度](overview.md) 顯示維度專案在整個造訪中僅包含單一不重複值的造訪次數。 對於某些維度，如果您想要查看有哪些維度項目在造訪期間停滯不變，此量度就很實用。
 
 ## 此量度的計算方式
 

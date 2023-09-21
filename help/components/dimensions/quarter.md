@@ -3,16 +3,16 @@ title: 季
 description: 量度發生的季度。
 feature: Dimensions
 exl-id: e7c837d2-f891-4029-b520-4bc6c4387622
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '99'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 季
 
-「季」維度會報告指定的量度發生的季度。第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。此維度可讓您查看量度在一段時間內變化，因此非常適合用於趨勢報表。
+「季」 [維度](overview.md) 報告指定量度發生的季度。 第一個維度項目是日期範圍中的第一季，最後一個維度項目是日期範圍中的最後一季。此維度可讓您查看量度在一段時間內變化，因此非常適合用於趨勢報表。
 
 ## 將資料填入此維度中
 

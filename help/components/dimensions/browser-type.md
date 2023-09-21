@@ -3,16 +3,16 @@ title: 瀏覽器類型
 description: 製作瀏覽器的組織。
 feature: Dimensions
 exl-id: 2a88ebc6-879e-4e5b-a8e5-40a32d54ac1b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
 # 瀏覽器類型
 
-「瀏覽器類型」維度會列出製作訪客所使用瀏覽器的組織。若想查看訪客使用的主要瀏覽器，此維度相當實用。它提供「瀏覽器」維度的值，不會將相同瀏覽器的不同版本列為單獨的維度項目。
+&#39;瀏覽器型別&#39; [維度](overview.md) 列出製作訪客所使用瀏覽器的組織。 若想查看訪客使用的主要瀏覽器，此維度相當實用。它提供「瀏覽器」維度的值，不會將相同瀏覽器的不同版本列為單獨的維度項目。
 
 ## 將資料填入此維度中
 

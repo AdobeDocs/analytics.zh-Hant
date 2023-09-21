@@ -3,16 +3,16 @@ title: 自訂連結
 description: 自訂連結的名稱。
 feature: Dimensions
 exl-id: c153f710-f03f-4be6-8e18-5ebf2ed80f01
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '152'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 自訂連結
 
-「自訂連結」維度會報告您的網站上實施作業的自訂連結名稱。當您想了解訪客點擊次數最多的連結類型時，此維度就很實用。
+「自訂連結」 [維度](overview.md) 會報告您的網站上實作的自訂連結名稱。 當您想了解訪客點擊次數最多的連結類型時，此維度就很實用。
 
 ## 將資料填入此維度中
 

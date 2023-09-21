@@ -3,7 +3,7 @@ title: 每位訪客逗留時間 (秒)
 description: 「每位訪客逗留時間 (秒)」量度會顯示訪客在其整個期限內與指定維度項目互動的平均時間量。
 feature: Metrics
 exl-id: 80f38bab-2ee1-4d0d-ba53-9b2c7c85e481
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # 每位訪客逗留時間 (秒)
 
-「[!UICONTROL 每位訪客逗留時間 (秒)]」量度會顯示訪客在其整個造訪期間與指定維度項目互動的平均時間量。
+「[!UICONTROL 每位訪客逗留時間 (秒)]」量度會顯示訪客在其整個造訪期間與指定維度項目互動的平均時間量。[](overview.md)
 
 由於處理架構不同，此量度在 Data Warehouse 中無法使用。
 

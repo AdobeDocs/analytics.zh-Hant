@@ -3,10 +3,10 @@ title: 自訂事件
 description: 有自訂事件存在的點擊次數。
 feature: Metrics
 exl-id: 9ae3ff53-8634-466a-a9f6-786c1e62c2fa
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '221'
-ht-degree: 91%
+ht-degree: 83%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 91%
 
 *此說明頁面說明自訂事件作為量度時的運作方式。若要瞭解自訂事件作為實施作業變數時的運作方式，請參閱「實施作業」使用指南中的[事件概觀](/help/implement/vars/page-vars/events/events-overview.md)。*
 
-自訂事件量度會顯示有指定的自訂事件設定於影像要求中的點擊次數。這些量度可用來深入分析每個組織的特定事件，因此對許多實施作業而言都十分重要。
+自訂事件 [量度](overview.md) 顯示在影像要求中設定特定自訂事件的點選次數。 這些量度可用來深入分析每個組織的特定事件，因此對許多實施作業而言都十分重要。
 
 ## 此量度的計算方式
 
@@ -24,6 +24,6 @@ ht-degree: 91%
 * **數值事件**：加總為 `events` 變數中的事件指派的數值。
 * **貨幣事件**：根據當天的匯率套用貨幣轉換，然後加總為 `events` 變數中的每個點擊指派的數值。
 
-可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請連絡您的Adobe帳戶團隊。
+可用事件的數目取決於貴組織的 Analytics 合約。簽訂非舊式合約的組織大多可以使用 1000 個自訂事件。如果您不確定有多少個自訂事件可供使用，請聯絡您的Adobe客戶團隊。
 
 Adobe 強烈建議您將每個事件的使用方式記錄在組織的[解決方案設計文件](/help/implement/prepare/solution-design.md)中。

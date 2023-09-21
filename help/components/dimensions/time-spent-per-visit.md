@@ -3,16 +3,16 @@ title: 每次造訪逗留時間 (維度)
 description: 造訪花費的總時間。
 feature: Dimensions
 exl-id: f241eb2d-7e22-47ee-ade8-8aeb7b2b9694
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '303'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # 每次造訪逗留時間
 
-*此說明頁面說明「每次造訪逗留時間」作為個別維度時的運作方式。如需詳細資訊，請參閱[每次造訪逗留時間](../metrics/time-spent-per-visit.md)量度。*
+*此說明頁面說明「每次造訪逗留時間」作為個別專案時的運作方式 [維度](overview.md). 如需詳細資訊，請參閱[每次造訪逗留時間](../metrics/time-spent-per-visit.md)量度。*
 
 「每次造訪逗留時間」維度會記錄訪客整次造訪逗留的時間量。此維度使用下列步驟來測量計算：
 

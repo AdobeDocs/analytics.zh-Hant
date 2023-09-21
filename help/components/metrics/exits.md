@@ -3,10 +3,10 @@ title: 退出點
 description: 造訪中最後一個值的例項。
 feature: Metrics
 exl-id: 0997ed1f-29b0-403d-9ed2-644a5ff19aef
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 *此說明頁面說明退出作為量度時的運作方式。若要瞭解退出作為維度時的運作方式，請參閱[退出維度](../dimensions/exit-dimensions.md)。*
 
-「退出」量度會顯示指定的維度項目在造訪中被擷取為最後一個值的次數。如果您想要進一步瞭解訪客在離開您的網站前最後看到的內容，此量度將有所幫助。查看維度的最後一個值，有助於您瞭解訪客在離開前所獲得的體驗，並加以最佳化。
+「退出點」 [量度](overview.md) 顯示指定的維度專案在造訪中被擷取為最後一個值的次數。 如果您想要進一步瞭解訪客在離開您的網站前最後看到的內容，此量度將有所幫助。查看維度的最後一個值，有助於您瞭解訪客在離開前所獲得的體驗，並加以最佳化。
 
 ## 此量度的計算方式
 

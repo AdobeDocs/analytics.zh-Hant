@@ -3,16 +3,16 @@ title: 星期
 description: 星期幾，無論日期範圍如何。
 feature: Dimensions
 exl-id: 01aa6b5f-49e6-4f86-97c7-8d0ff431e15b
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
 # 星期
 
-「星期」維度會報告發生點擊的當週某日。如果您想要依週劃分報表，但不要以靜態天數作為維度項目，此報表十分實用。在排程報表中，此維度作為維度特別有用，因為此維度適用於任何日期範圍。
+&#39;星期&#39; [維度](overview.md) 報告發生點選的當週某日。 如果您想要依週劃分報表，但不要以靜態天數作為維度項目，此報表十分實用。在排程報表中，此維度作為維度特別有用，因為此維度適用於任何日期範圍。
 
 ## 將資料填入此維度中
 

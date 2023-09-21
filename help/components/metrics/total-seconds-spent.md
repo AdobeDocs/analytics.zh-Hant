@@ -3,16 +3,16 @@ title: 總逗留秒數
 description: 維度項目的彙總逗留秒數。
 feature: Metrics
 exl-id: 02302982-ce8c-44e9-9967-0a4f226f5e9e
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '201'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 總逗留秒數
 
-「總逗留秒數」量度會顯示訪客在指定的維度項目上逗留的彙總秒數。如果您想要了解指定維度項目的原始逗留時間量，而不是其他逗留時間量度提供的那種平均值，此量度就十分實用。
+「總逗留秒數」 [量度](overview.md) 顯示訪客在指定的維度專案上逗留的彙總秒數。 如果您想要了解指定維度項目的原始逗留時間量，而不是其他逗留時間量度提供的那種平均值，此量度就十分實用。
 
 在 Report Builder 中，此量度名為「總逗留時間」。
 

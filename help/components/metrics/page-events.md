@@ -3,16 +3,16 @@ title: 頁面事件
 description: 連結追蹤動作的觸發次數。
 feature: Metrics
 exl-id: 1afe86e3-65b3-4e4e-b436-ed7cb5da9641
-source-git-commit: 5e70a84c7793b516c0eca2776d8bbfd3ea3fc02b
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 60%
+ht-degree: 50%
 
 ---
 
 # 頁面事件
 
-「頁面事件」量度會顯示任何連結追蹤呼叫的執行次數。如果您想要瞭解哪些頁面具有最吸引人的內容，此量度將有所幫助。當訪客無須導覽至新頁面即可在頁面上執行動作時，此量度的測量尤有效益。
+「頁面事件」 [量度](overview.md) 顯示任何連結追蹤呼叫的執行次數。 如果您想要瞭解哪些頁面具有最吸引人的內容，此量度將有所幫助。當訪客無須導覽至新頁面即可在頁面上執行動作時，此量度的測量尤有效益。
 
 ## 此量度的計算方式
 

@@ -3,16 +3,16 @@ title: 郵遞區號
 description: 訪客的郵遞區號。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 郵遞區號
 
-「郵遞區號」維度會報告訪客的郵遞區號。您可以使用此維度進一步瞭解當地廣告是否成功，或瞭解您的網站在全世界的哪些地點表現最佳。
+「郵遞區號」 [維度](overview.md) 報告訪客的郵遞區號。 您可以使用此維度進一步瞭解當地廣告是否成功，或瞭解您的網站在全世界的哪些地點表現最佳。
 
 ## 將資料填入此維度中
 

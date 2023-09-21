@@ -3,10 +3,10 @@ title: 量度概觀
 description: 檢視一段時間內的量度項目或資料數量。
 feature: Metrics
 exl-id: 8dda3bc4-ffac-4407-896f-6064727d099c
-source-git-commit: c1b679dab7b66754ae4b6fd7503243f40d0f2178
-workflow-type: ht
-source-wordcount: '210'
-ht-degree: 100%
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 92%
 
 ---
 
@@ -33,4 +33,4 @@ Analytics 管理員可以在報表套裝中或直接在 Analysis Workspace 中�
 
 ## 在 Analysis Workspace 中使用量度
 
-如需有關如何在 Analysis Workspace 中使用量度的資訊，請參閱[指標](/help/analyze/analysis-workspace/components/apply-create-metrics.md)中的「在 Analysis Workspace 中使用量度」。
+如需如何在Analysis Workspace中使用量度的詳細資訊，請參閱 [在Analysis Workspace中使用量度](/help/analyze/analysis-workspace/components/apply-create-metrics.md).

@@ -3,16 +3,16 @@ title: 網站區段
 description: 網站區段的名稱。
 feature: Dimensions
 exl-id: 349bace0-4596-4b4c-bf29-6cd8866c246b
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '137'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
 # 網站區段
 
-「網站區段」維度會列出您網站上的網站區段名稱。對於大型網站，將頁面分組成區段會有所幫助。此維度可協助您查看檢視次數最多或表現最佳的網站區段。
+「網站區域」 [維度](overview.md) 列出您網站上的網站區域名稱。 對於大型網站，將頁面分組成區段會有所幫助。此維度可協助您查看檢視次數最多或表現最佳的網站區段。
 
 此維度與[頁面](page.md)和[伺服器](server.md)維度有關。「頁面」最精細，「伺服器」最不精細，「網站區段」介於兩者之間。
 

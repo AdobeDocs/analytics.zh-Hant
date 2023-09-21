@@ -3,16 +3,16 @@ title: 新增參與
 description: 首次接觸管道的設定次數。
 feature: Metrics
 exl-id: a419d048-9715-4d7b-9c24-d34129755371
-source-git-commit: bf0a4d4436da5f6a5ce09fbf7a1f03ef8bcc7094
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # 新增參與
 
-「新增參與」量度會顯示訪客在其參與期間首次符合行銷管道的次數。如果您想要比較任何有訪客首次符合行銷管道處理規則的維度，此量度就十分實用。
+「新增參與」 [量度](overview.md) 顯示訪客在其參與期間內首次符合行銷管道的次數。 如果您想要比較任何有訪客首次符合行銷管道處理規則的維度，此量度就十分實用。
 
 ## 此量度的計算方式
 

@@ -3,16 +3,16 @@ title: 反向連結類型
 description: 反向連結的類型，視訪客來自何處而定。
 feature: Dimensions
 exl-id: a6cfcbf4-cd08-4e7f-8e86-47488ceb0ea3
-source-git-commit: 61a8aec9bbd6102dd3c0eb60362e02d553e1ebd2
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '423'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 反向連結類型
 
-「反向連結類型」維度會報告訪客在點進了哪些通用管道後到達您的網站。Adobe 會維護每個維度項目的規則，不同於由您的組織維護各個管道之規則的[行銷管道](marketing-channel.md)。
+「反向連結型別」 [維度](overview.md) 報告訪客從哪些通用管道點進您的網站。 Adobe 會維護每個維度項目的規則，不同於由您的組織維護各個管道之規則的[行銷管道](marketing-channel.md)。
 
 ## 將資料填入此維度中
 

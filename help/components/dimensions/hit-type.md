@@ -3,16 +3,16 @@ title: 點擊類型
 description: 判斷點擊是前景或背景點擊。
 feature: Dimensions
 exl-id: b922adbb-fe36-46c7-aab2-b9471de07d2f
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
 # 點擊類型
 
-「點擊類型」維度會判斷點擊傳送至 Adobe 資料收集伺服器時，行動應用程式在前景或背景。此維度僅與包含行動應用程式資料的報表套裝相關。透過 AppMeasurement 收集的瀏覽器資料一律會將點擊回報為「前景」。
+「點選型別」 [維度](overview.md) 判斷將點選傳送至Adobe資料收集伺服器時，行動應用程式在前景或背景。 此維度僅與包含行動應用程式資料的報表套裝相關。透過 AppMeasurement 收集的瀏覽器資料一律會將點擊回報為「前景」。
 
 ## 將資料填入此維度中
 

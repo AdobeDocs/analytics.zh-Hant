@@ -3,16 +3,16 @@ title: 不重複訪客
 description: 不重複訪客識別碼的數目。
 feature: Metrics
 exl-id: 56e7bad4-4802-49ac-a0f1-ae77441fc016
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 不重複訪客
 
-「不重複訪客」量度會顯示該維度項目的訪客識別碼數目。 這是確認流量時最常用的量度之一，因為它可讓您概略了解維度項目的使用頻率。例如，某位訪客可能在一個月內每天造訪您的網站，但這仍會計為單一不重複訪客。
+「不重複訪客」 [量度](overview.md) 顯示維度專案的訪客ID數量。 這是確認流量時最常用的量度之一，因為它可讓您概略了解維度項目的使用頻率。例如，某位訪客可能在一個月內每天造訪您的網站，但這仍會計為單一不重複訪客。
 
 如果您使用「[跨裝置分析](../cda/overview.md)」，此量度會被「[不重複裝置](unique-devices.md)」量度取代。
 

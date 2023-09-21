@@ -3,10 +3,10 @@ title: 階層
 description: 可用於報表的自訂維度。
 feature: Dimensions
 exl-id: f9bd3ae1-3578-44c5-a540-ea93feac5bef
-source-git-commit: 42ff5018411dae64039ed6f12ec2b8ed12aceff4
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->此維度已遭到淘汰，在 Analysis Workspace 中不是可用維度。Adobe 建議改用 [eVar](evar.md) 和分類。
+>此維度已遭到淘汰，無法使用 [維度](overview.md) 在Analysis Workspace中。 Adobe 建議改用 [eVar](evar.md) 和分類。
 
 階層是自訂變數，您可以視需要使用。這類變數在其設定所在的點擊過後即不存在。在您的 Adobe 合約支援的前提下，最多可使用 5 個階層。
 

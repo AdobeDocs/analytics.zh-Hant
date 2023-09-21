@@ -3,16 +3,16 @@ title: 產品
 description: 產品的名稱。
 feature: Dimensions
 exl-id: 2649c200-4b0a-49a9-8592-9b9af72b91cf
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 產品
 
-「產品」維度會報告點擊中的產品名稱。如果您的實施作業使用 `products` 變數，且您想要查看產品的相關量度 (例如最暢銷商品或最常檢視的商品)，此維度就十分實用。如果您的網站上沒有任何產品，此維度可能會刻意保留為空白。
+&#39;產品&#39; [維度](overview.md) 報告點選中的產品名稱。 如果您的實施作業使用 `products` 變數，且您想要查看產品的相關量度 (例如最暢銷商品或最常檢視的商品)，此維度就十分實用。如果您的網站上沒有任何產品，此維度可能會刻意保留為空白。
 
 ## 將資料填入此維度中
 

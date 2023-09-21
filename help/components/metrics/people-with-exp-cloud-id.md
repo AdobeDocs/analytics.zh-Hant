@@ -3,7 +3,7 @@ title: 具有 Experience Cloud ID 的使用者
 description: 跨裝置分析中具有 Experience Cloud ID 的使用者數量。
 feature: Metrics
 exl-id: 072e7d2b-3a08-49c6-a892-4cea2cc10159
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## 此量度的計算方式
 
-在考慮每個[使用者](people.md) (含已識別或未識別) 的情況下，如果點擊包含`mid`查詢字串 (根據 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie)，則此量度會增加。
+在考慮每個[使用者](people.md)[](overview.md) (含已識別或未識別) 的情況下，如果點擊包含`mid`查詢字串 (根據 [`s_ecid`](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html) Cookie)，則此量度會增加。
 
 您可以使用 ID 服務建立計算量度 `[People with ECID] ÷ [People]`，以獲取您網站的訪客百分比。
 

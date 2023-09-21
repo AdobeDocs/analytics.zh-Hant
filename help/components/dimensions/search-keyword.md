@@ -3,16 +3,16 @@ title: 搜尋關鍵字
 description: 訪客用來存取您的網站的搜尋關鍵字。
 feature: Dimensions
 exl-id: 5a1236a6-f94b-4679-906a-b539afe36887
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 搜尋關鍵字
 
-「搜尋關鍵字」維度會報告訪客用來存取您的網站的搜尋關鍵字。
+&#39;搜尋關鍵字&#39; [維度](overview.md) 報告訪客用來存取您的網站的搜尋關鍵字。
 
 >[!IMPORTANT]
 >

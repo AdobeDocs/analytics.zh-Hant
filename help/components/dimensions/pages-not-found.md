@@ -3,16 +3,16 @@ title: 找不到頁面 (維度)
 description: 在您的網站上傳回錯誤的 URL。
 feature: Dimensions
 exl-id: 28c22565-7fcf-49f1-8876-0db88f12a182
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '215'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # 找不到頁面
 
-*此說明頁面說明「找不到頁面」作為維度時的運作方式。如需詳細資訊，請參閱[找不到頁面](../metrics/pages-not-found.md)量度。*
+*此說明頁面說明「找不到頁面」作為「 」時的運作方式 [維度](overview.md). 如需詳細資訊，請參閱[找不到頁面](../metrics/pages-not-found.md)量度。*
 
 「找不到頁面」維度會顯示包含錯誤的 URL。如果您想要減少訪客在您網站上收到的錯誤，此維度就十分實用。
 

@@ -3,16 +3,16 @@ title: 每次造訪的平均頁面檢視
 description: 指定的維度項目出現在造訪中的平均次數。
 feature: Metrics
 exl-id: fef6e803-e819-4f0f-8cb0-c565328a8bea
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
 # 每次造訪的平均頁面檢視
 
-「每次造訪的平均頁面檢視」維度會顯示對您所需的維度發生的平均頁面檢視次數。對於以時間為基礎的維度，您可以瞭解造訪中的平均頁面檢視次數在一段時間內的趨勢。如果您想要了解維度項目在造訪中的出現頻率，此量度將有所幫助。
+「每次造訪的平均頁面檢視」維度會顯示對您所需的維度發生的平均頁面檢視次數。對於以時間為基礎的維度，您可以瞭解造訪中的平均頁面檢視次數在一段時間內的趨勢。這個 [量度](overview.md) 如果您想要瞭解維度專案在造訪中的出現頻率，則此功能會很有用。
 
 >[!TIP]
 >

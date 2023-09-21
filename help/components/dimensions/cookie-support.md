@@ -3,16 +3,16 @@ title: Cookie 支援
 description: 判斷瀏覽器是否支援 Cookie。
 feature: Dimensions
 exl-id: 07d4fe12-0d60-469d-98b1-e93ce5a0fd21
-source-git-commit: 35413ac43eed5ab7218794f26e4753acf08f18ee
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '188'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 # Cookie 支援
 
-「Cookie 支援」維度會報告瀏覽器是否支援指定點擊的 Cookie。這可用來判斷使用支援 Cookie 的瀏覽器之訪客與有意停用 Cookie 的訪客比例。
+「Cookie支援」 [維度](overview.md) 報告瀏覽器是否支援指定點選的Cookie。 這可用來判斷使用支援 Cookie 的瀏覽器之訪客與有意停用 Cookie 的訪客比例。
 
 ## 將資料填入此維度中
 

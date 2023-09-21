@@ -3,10 +3,10 @@ title: 行動維度
 description: 根據裝置 IP 位址的維度
 feature: Dimensions
 exl-id: fa460888-513d-4d14-93b1-33d308e0758a
-source-git-commit: 9e7ad96710d536baac6923850e29df49dfaec98f
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '903'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 98%
 
 *此頁面會參考對您的網站進行存取之行動裝置的屬性。如果您想要在行動應用程式上追蹤裝置，請參閱「實施作業」使用指南中的[對行動裝置實施作業 Analytics](/help/implement/mobile-device-sdk.md)。*
 
-行動維度可讓您深入分析造訪網站之行動裝置的屬性。您可以利用這些維度來瞭解行動裝置支援哪些功能。
+行動 [維度](overview.md) 深入分析造訪網站之行動裝置的屬性。 您可以利用這些維度來瞭解行動裝置支援哪些功能。
 
 ## 將資料填入這些維度中
 
@@ -31,7 +31,7 @@ ht-degree: 98%
 * **行動電信業者**：此維度值是透過根據 Analytics 擷取的 IP 位址查詢協力廠商 (數位元素) 資料來填入。範例值包括 `"Reliance Jio"`、`"Airtel"`、`"Vodafone"` 和 `"Verizon"`。
 * **行動色彩深度**：行動裝置的色彩深度 (以位元為單位)。
 * **行動 Cookie 支援**：決定行動裝置是否支援 Cookie。此報表不會指出瀏覽器是否接受 Cookie。維度項目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
-* **行動裝置**：訪客使用的行動裝置。**附註**:數位元素會定期發佈更新，以識別新裝置/更新裝置。
+* **行動裝置**：訪客使用的行動裝置。**注意**：數位元素會定期發佈更新，以識別新的/更新的裝置。
 * **行動裝置號碼**：決定行動裝置是否傳輸其號碼。維度項目包括 `"Supported"`、`"Not supported"` 和 `"Unknown"`。
 * **行動裝置類型**：行動裝置的類型。範例值包括 `"Mobile phone"`、`"Tablet"`、`"Media player"` 和 `"Gaming console"`。
 * **行動 DRM**：行動裝置支援的 DRM 類型。範例值包括 `"DRM OMA forward"`、`"DRM OMA combined delivery"` 和 `"DRM OMA separate delivery"`。
@@ -60,10 +60,10 @@ ht-degree: 98%
 * **使用 iOS SDK**：行動 SDK 所包含的維度會公開供報告使用的裝置版本。相較於網站，此方法更適合用於行動應用程式。
 * **使用其他可透過 JavaScript 使用的變數**：某些變數 (例如 `screen.height` 和 `screen.width`) 可用來推斷裝置版本。例如，您可在您的網站上使用下列程式碼片段：
 
-   ```js
-   if (navigator.userAgent.indexOf('iPhone') > -1) {
-     s.eVarXX = screen.width + "x" + screen.height;
-     }
-   ```
+  ```js
+  if (navigator.userAgent.indexOf('iPhone') > -1) {
+    s.eVarXX = screen.width + "x" + screen.height;
+    }
+  ```
 
-   此程式碼區塊會先偵測裝置是否為 iPhone。如果是，程式碼就會使用 JavaScript 將螢幕解析度提取至 eVar 中。如果螢幕解析度是獨特的，此方法即可讓您大致偵測出裝置版本。
+  此程式碼區塊會先偵測裝置是否為 iPhone。如果是，程式碼就會使用 JavaScript 將螢幕解析度提取至 eVar 中。如果螢幕解析度是獨特的，此方法即可讓您大致偵測出裝置版本。

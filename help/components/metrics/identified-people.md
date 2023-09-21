@@ -3,16 +3,16 @@ title: 已識別的使用者
 description: 跨裝置分析識別的人數。
 feature: Metrics
 exl-id: eb98aa7f-d5e7-403f-b3b7-a9b0f7ccd502
-source-git-commit: 7d5383e1ee3bee189d3dd48bc6b899f4108f7ba8
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 100%
+ht-degree: 68%
 
 ---
 
 # 已識別的使用者
 
-「已識別的使用者」量度是一種計算 CDA 識別的訪客人數的「[跨裝置分析](../cda/overview.md)」量度。
+「已識別的使用者」 [量度](overview.md) 是 [跨裝置分析](../cda/overview.md) 計算CDA所識別訪客數的量度。
 
 ## 此量度的計算方式
 

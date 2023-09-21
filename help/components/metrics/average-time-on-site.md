@@ -3,16 +3,16 @@ title: 網站平均逗留時間
 description: 指定的維度項目存在於兩次點擊之間的平均時間量。
 feature: Metrics
 exl-id: bf9056e2-4f6d-4c4f-b641-d3146ce269ff
-source-git-commit: 7966c7d9add0011831c97fbe0dfcca2acd8afb58
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 網站平均逗留時間
 
-「網站平均逗留時間」量度會顯示指定的維度項目在兩次點擊之間經過的時間量。如果您想要查看特定維度項目的平均逗留時間，此量度有所幫助。您也可以分析此量度在一段時間內的趨勢，瞭解整體逗留時間的變化。此量度會以 `HH:MM:SS` 格式顯示。
+「網站平均逗留時間」 [量度](overview.md) 顯示指定的維度專案在兩次點選之間經過的時間量。 如果您想要查看特定維度項目的平均逗留時間，此量度有所幫助。您也可以分析此量度在一段時間內的趨勢，瞭解整體逗留時間的變化。此量度會以 `HH:MM:SS` 格式顯示。
 
 此量度與[每次造訪逗留時間](../dimensions/time-spent-per-visit.md)維度有關。
 

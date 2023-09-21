@@ -3,16 +3,16 @@ title: 反向連結網域
 description: 訪客點進您的網站前所在的上層網域。
 feature: Dimensions
 exl-id: 9e04cb62-6526-4d84-aff7-c962c0ce42b5
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '493'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
 # 反向連結網域
 
-「反向連結網域」維度會報告訪客從哪些網域點進您的網站。此維度有助於瞭解哪些協力廠商網站為您帶來最多流量。外部網站上必須有連結，且訪客必須點按該連結，才會顯示維度項目。
+「反向連結網域」 [維度](overview.md) 報告訪客從哪些網域點進您的網站。 此維度有助於瞭解哪些協力廠商網站為您帶來最多流量。外部網站上必須有連結，且訪客必須點按該連結，才會顯示維度項目。
 
 >[!IMPORTANT]
 >

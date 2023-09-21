@@ -3,16 +3,16 @@ title: 搜尋引擎
 description: 訪客用來存取您的網站的搜尋引擎。
 feature: Dimensions
 exl-id: 2815f1fa-d938-4d2b-b864-c4ed834f3ed3
-source-git-commit: 71ff81a0ae67c6f4cc9a8df567e27223cc63f18c
+source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
 workflow-type: tm+mt
 source-wordcount: '224'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
 # 搜尋引擎
 
-「搜尋引擎」維度會報告訪客用來存取您的網站的搜尋引擎。反向連結必須符合下列兩個條件，才能分類為搜尋引擎：
+「搜尋引擎」 [維度](overview.md) 報告訪客用來存取您的網站的搜尋引擎。 反向連結必須符合下列兩個條件，才能分類為搜尋引擎：
 
 * 反向連結網域經 Adobe 認可為有效的搜尋引擎；
 * 反向連結 URL 中有關鍵字查詢字串參數存在。查詢字串參數可以空白 (基於隱私權實務，數個搜尋引擎也是如此)。
