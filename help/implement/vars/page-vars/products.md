@@ -3,10 +3,10 @@ title: products
 description: 傳送目前顯示哪些產品或購物車內有哪些產品等相關資料。
 feature: Variables
 exl-id: f26e7c93-f0f1-470e-a7e5-0e310ec666c7
-source-git-commit: d252b0e99a7d38d171eab181718fa60780489652
+source-git-commit: 19bb3da46637bf8afc4e5723e2fa28b490e09c88
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 71%
+source-wordcount: '660'
+ht-degree: 68%
 
 ---
 
@@ -20,22 +20,22 @@ ht-degree: 71%
 
 ## 使用Web SDK的產品
 
-產品為 [已為Adobe Analytics對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多個XDM欄位底下：
+產品為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html) 在多個XDM欄位底下：
 
-* 類別已對應至 `productListItems[].lineItemId`.
+* 類別已對應至 `productListItems[].productCategories[].categoryID`. 這會使用 `productCategories[]` 陣列。 `lineItemId` 也正確對應，但我們建議 `categoryID` 因為這是標準XDM。 如果兩個XDM欄位都存在 `lineItemId` 優先。
 * 產品已對應至 `productListItems[].SKU` 或 `productListItems[].name`. 如果兩個XDM欄位都存在， `productListItems[].SKU` 已使用。
 * 數量對應至 `productListItems[].quantity`.
 * 價格已對應至 `productListItems[].priceTotal`.
 * 銷售eVar對應至 `productListItems._experience.analytics.customDimensions.eVars.eVar1` 至 `productListItems._experience.analytics.customDimensions.eVars.eVar250`，視您要繫結至產品的eVar而定。
-* 銷售事件對應至 `productListItems[]._experience.analytics.event1to100.event1.value` 至 `productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 如果您在其中某個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 字串傳送至Adobe Analytics。
+* 銷售事件對應至 `productListItems[]._experience.analytics.event1to100.event1.value` 至 `productListItems._experience.analytics.event901to1000.event1000.value`，視您要繫結至產品的事件而定。 如果您在其中某個欄位中設定事件，該事件會自動包含在 [事件](events/events-overview.md) 傳送至Adobe Analytics的字串。
 
 >[!NOTE]
 >
->`lineItemId` 必須新增為自訂欄位，因為它尚未成為標準Analytics事件結構描述的一部分。 Adobe計畫在未來新增專用的「類別」欄位。
+>`lineItemId` 尚未成為標準Analytics事件結構描述的一部分，必須新增為自訂欄位。 Adobe計畫在未來新增專用的「類別」欄位。
 
 ## 使用Adobe Analytics擴充功能的產品
 
-Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；不過，有多個協力廠商擴充功能可提供協助。
+Adobe Experience Platform資料收集中沒有專用欄位可設定此變數；但有多個協力廠商擴充功能可提供協助。
 
 1. 使用您的 AdobeID 認證登入 [Adobe Experience Platform 資料彙集](https://experience.adobe.com/data-collection)。
 2. 按一下所需的標籤屬性。
