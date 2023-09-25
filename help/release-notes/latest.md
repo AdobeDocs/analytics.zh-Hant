@@ -4,9 +4,9 @@ description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
 source-git-commit: 2998ab3ecb83e14be38333a2836f863667babfee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '899'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 88%
 | **API 2.0 的分類** | 提供用來儲存、刪除、擷取、匯入和匯出分類集資料的 Adobe Analytics API 2.0 方法。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 不適用 | 2023 年 9 月 13 日 |
 | **支援 A4T 分類的新 `correlationID` 欄位** | `_experience.decisioning.propositions.scopeDetails.correlationID` 欄位現在適用於 Adobe Analytics 來源連接器的綱要中。我們新增此 ID，以便輕鬆加入 Adobe Target 活動和體驗事件的分類資料。 | 不適用 | 2023 年 9 月 13 日 |
 | **Data Warehouse 的改良功能** | 建立 Data Warehouse 要求時，您現在可以設定雲端帳戶做為報告目的地。以下雲端帳戶類型可用來傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件 (此選項為先前提供)</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用做為報告目的地，但已經不再為建議選項。<p>建立和管理 Data Warehouse 要求時的使用者體驗也有所改善。如需更多資訊，請參閱[建立 Data Warehouse 要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hant)。 | 2023 年 9 月 13 日 | 2023 年 10 月 4 日 |
-| **管理元件時可用的新欄** | 現在管理元件時，可使用下列新欄：<ul><li>使用位置<p>此欄位於 [計算量度管理員](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md) 和 [區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md).</p></li><li>上次使用<p>此欄位於 [計算量度管理員](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)，則 [區段管理員](/help/components/segmentation/segmentation-workflow/seg-manage.md)，以及 [警報管理器](/help/components/c-alerts/alert-manager.md).</p></li></ul><p>此資訊可協助您判斷元件是否對貴組織中的使用者有價值、元件使用位置以及元件是否需要刪除或修改。 您可以使用資料字典和此資訊來協助您追蹤及更瞭解組織中元件的使用方式。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
+| **管理元件時可使用新的欄位** | 現在起，管理元件時可使用以下新欄位：<ul><li>使用於<p>此欄位可用於[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)。</p></li><li>上次使用<p>此欄位可用於[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)以及[警報管理器](/help/components/c-alerts/alert-manager.md)。</p></li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。您可以將資料字典與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
 
 {style="table-layout:auto"}
 
