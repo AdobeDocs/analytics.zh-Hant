@@ -3,7 +3,7 @@ title: Adobe Analytics 使用的 IP 和網域
 description: 如果貴組織的防火牆封鎖來自 Adobe 的 IP 位址，請使用此清單來更新您的防火牆設定。
 feature: Data Configuration and Collection
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 23de7e6fb9f3b1276c7725ac99154e96e09a8469
+source-git-commit: 32318f2974e4ced630ab6d4090fa9ea5c420ddae
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 71%
@@ -12,15 +12,15 @@ ht-degree: 71%
 
 # Adobe Analytics 使用的 IP 和網域
 
-有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。此頁面同時包含Adobe使用的入站系統（例如資料收集）和出站系統（例如資料摘要）。
+有些防火牆設定會封鎖來自 Adobe 的資料收集伺服器或負責存取資料的伺服器 IP 位址。 您可以使用此範圍清單來變更組織的防火牆設定，以允許存取並在組織內傳送資料。此頁面包含Adobe使用的輸入系統（例如資料收集）和輸出系統（例如資料摘要）。
 
 >[!IMPORTANT]
 >
->雖然Adobe會盡力讓此檔案保持最新，但無法保證IP範圍清單保持不變。 可能的變更包括企業成長與擴充、網際網路註冊管理機構須變更 Adobe 的 IP 位址空間，或網際網路服務供應商停止營運。
+>雖然Adobe會儘可能即時更新此檔案，但無法保證IP範圍清單維持不變。 可能的變更包括企業成長與擴充、網際網路註冊管理機構須變更 Adobe 的 IP 位址空間，或網際網路服務供應商停止營運。
 
 ## 允許相關技術網域
 
-Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建議您允許這些網域透過組織的防火牆，以獲得使用Adobe Analytics的最佳體驗。
+Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建議允許這些網域通過貴組織的防火牆，以獲得使用Adobe Analytics的最佳體驗。
 
 | 技術 | 網域 |
 | --- | --- |
@@ -35,7 +35,7 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建�
 
 ## 所有Adobe Analytics IP位址區塊
 
-下表涵蓋所有Adobe擁有的IP位址，這些位址皆用於Adobe Analytics。 其中不包含所有在公共雲端中托管的服務。
+下表涵蓋用於Adobe Analytics的所有Adobe擁有的IP位址。 它們不包含公用雲端中託管的所有服務。
 
 | IP 區塊 (CIDR 標記法) |
 | --- |
@@ -79,15 +79,15 @@ Adobe Analytics 會使用下列主機來改善效能和產品體驗。Adobe建�
 
 ## AWS 主機
 
-Adobe Analytics 在其資料收集過程中會使用 Amazon Web Services。 下表包含為Adobe保留的AWS IPv4主機地址。 下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
+Adobe Analytics 在其資料收集過程中會使用 Amazon Web Services。 下表包含為Adobe保留的AWS IPv4主機位址。 下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
 
 | 位置 | 主機 |
 | --- | --- |
-| 中國 | `52.80.44.16` |
-| 中國 | `52.80.161.58` |
-| 中國 | `140.179.173.142` |
+| 中國 | `52.80.168.159` |
+| 中國 | `52.80.199.104` |
+| 中國 | `54.223.199.8` |
 
-下表包括Adobe使用的AWS IPv6地址塊。 下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
+下表包含Adobe使用的AWS IPv6位址區塊。 下列主機&#x200B;**不在**&#x200B;上方彙總區塊範圍中。
 
 | 位置 | 主機 |
 | --- | --- |
