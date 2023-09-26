@@ -3,7 +3,7 @@ title: Adobe Analytics 權限 - 摘要表
 description: 摘要說明 Adobe Admin Console 中可用 Adobe Analytics 權限的表格。
 exl-id: f1abbdb7-0f76-4d9b-a3ca-b12fa3cecb50
 feature: Admin Tools
-source-git-commit: af3bdcf3eedecc6b670e51dcb2f6980e75982077
+source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 98%
@@ -70,6 +70,8 @@ ht-degree: 98%
 | 影片設定 |  |  |  | x | 未使用。 |
 | 網站資源 |  |  |  | x | 未使用。 |
 
+{style="table-layout:auto"}
+
 ## Analytics 工具
 
 | Analytics 工具 | 管理 | 存取控制 | 僅報表功能 | 已過時 | 說明 |
@@ -110,3 +112,5 @@ ht-degree: 98%
 | 權限 (寫入) - 網站服務 |  |  |  | x | 已不再使用。允許用戶使用管理 API 編輯舊版 Analytics 權限。請改用 Adobe Admin Console。 |
 | 偏好設定 |  |  |  | x | 未使用。 |
 | 單一登入 |  |  |  | x | 已不再使用。授與已停用單一登入服務的存取權。 |
+
+{style="table-layout:auto"}
