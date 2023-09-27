@@ -3,10 +3,10 @@ title: Adobe Admin Console 中報表套裝工具的產品描述檔權限
 description: 了解在「報告套裝工具」下的每個權限項目。
 exl-id: ca38d02f-2e88-49a3-a08c-515f21ee0099
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 90%
+source-wordcount: '637'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 | 報告套裝工具權限項目 | 說明 |
 |------|------|
 | [!UICONTROL 帳戶摘要] | 授與「報告套裝管理器」中「一般 > 一般帳戶設定」的存取權。 |
-| [!UICONTROL Advertising Analytics 設定] | 授予設定Advertising Analytics所有方面的存取權。 |
+| [!UICONTROL Advertising Analytics 設定] | 可讓使用者設定要為 Advertising Analytics 佈建的報告套裝。 |
 | [!UICONTROL 異常偵測] | 授與 Analysis Workspace 中異常偵測功能的存取權。 |
 | [!UICONTROL 機器人頁面] | 授與「Reports &amp; Analytics」中「網站量度 > 機器人 > 機器人頁面」報表的存取權。 |
 | [!UICONTROL Bot] | 授與「Reports &amp; Analytics」中「網站量度 > 機器人 > 機器人報表」的存取權。 |
@@ -44,8 +44,8 @@ ht-degree: 90%
 | [!UICONTROL  即時報表] | 授與「Reports &amp; Analytics」中「網站量度 > 即時」的存取權。會使用權限項目「即時報表設定」來授與存取權，以便設定此報表。 |
 | [!UICONTROL 即時報表設定] | 授與「報告套裝管理器」中「即時」的存取權。使用權限項目「即時報表」來授與報表本身的存取權。 |
 | [!UICONTROL 回訪] | 授與「Reports &amp; Analytics」中「訪客保留率 > 回訪」的存取權。 |
-| [!UICONTROL 報告活動管理器管理員] | 授予詳細資訊頁面的存取權以及取消請求的能力。 |
-| [!UICONTROL 報告活動管理器存取權] |  |
+| [!UICONTROL 報告活動管理器管理員] | 待定 |
+| [!UICONTROL 報告活動管理器存取權] | 待定 |
 | [!UICONTROL 報告套裝管理] | 授與「報告套裝管理器」的存取權，但不允許任何變更。 |
 | [!UICONTROL R&amp;A控制面板影像小報告] | 未使用 |
 | [!UICONTROL R&amp;A儀表板量規小報告] | 未使用 |

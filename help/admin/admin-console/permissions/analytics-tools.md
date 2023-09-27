@@ -3,9 +3,9 @@ title: Analytics 工具的產品設定檔權限
 description: 使用 Analytics 工具權限項目，以授與權限來存取 Adobe Analytics 中的功能。
 exl-id: 8c2ce50b-f75f-41c3-91ac-a0426ce27438
 feature: Admin Tools
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: e53205605642d5c383b1385c5ac4f24e51e6d316
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '491'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ Analytics 工具權限項目會將存取權授與 Adobe Analytics 中的功能�
 | Analytics 工具權限項目 | 說明 |
 |----|----|
 | [!UICONTROL Activity Map] | 授與「工具 > Activity Map」的存取權。允許用戶使用 Activity Map 擴充功能。 |
-| [!UICONTROL Advertising Analytics 管理] | 未使用。 |
+| [!UICONTROL Advertising Analytics 管理] | 可讓使用者設定/編輯/檢視廣告搜尋帳戶。 |
 | [!UICONTROL Analysis Workspace 存取] | 授與 Analysis Workspace 的存取權限。用戶必須屬於此群組 (偏好設定) 或 Reports &amp; Analytics 存取，才能使用 Adobe Analytics。 |
 | [!UICONTROL Analysis Workspace：另存範本] | 授與對 Analysis Workspace 中「專案 > 另存範本」的存取權。 |
 | [!UICONTROL 建立註解] | 授予建立註解的能力。 |
