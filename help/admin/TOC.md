@@ -4,10 +4,12 @@ audience: admin
 user-guide-title: Analytics 管理員指南
 breadcrumb-title: 管理指南
 user-guide-description: 了解 Analytics 管理工作，例如在 Experience Cloud Admin Console 中管理使用者和產品、設定報表套裝等。
-source-git-commit: 48ca87747093efe72476de739f0ee5b1b3fd291a
+hide: true
+hidefromtoc: true
+source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 98%
+source-wordcount: '633'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +34,7 @@ ht-degree: 98%
    + [依 IP 位址排除](admin/exclude-ip.md)
    + [記錄檔](admin/logs.md)
    + [報告活動管理員](admin/reporting-activity.md)
+   + [元件移轉](admin/component-migration.md)
    + 報告套裝管理員 {#manage-report-suites}
       + 編輯報表套裝的設定值 {#edit-report-suite}
          + 一般 {#report-suite-general}
@@ -171,7 +174,7 @@ ht-degree: 98%
       + [伺服器呼叫使用量常見問題](admin/c-server-call-usage/overage-faq.md)
    + 使用者和產品管理 (舊版) {#user-product-management}
       + [使用者和產品管理 (舊版)](admin/user-management2/user-management.md)
-      + [轉移使用者資產或設定帳戶過期時間](admin/user-management2/users-assets.md)
+      + [轉移使用者資產或設定帳戶到期日](admin/user-management2/users-assets.md)
       + 將使用者移轉至 Adobe Admin Console {#migrate-users}
          + [Analytics 使用者移轉至 Admin Console](admin/user-management2/user-migration/c-migration-tool.md)
          + [移轉 Adobe ID 的 Analytics 使用者帳戶](admin/user-management2/user-migration/t-migrate-users.md)
