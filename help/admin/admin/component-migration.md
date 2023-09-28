@@ -2,10 +2,10 @@
 description: 說明如何將元件和專案從Adobe Analytics移轉至Customer Journey Analytics。
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
+source-git-commit: 8eb26f7aa3dcbb21f4d0c042b8d6958aa0a19cf6
 workflow-type: tm+mt
-source-wordcount: '1133'
-ht-degree: 10%
+source-wordcount: '1649'
+ht-degree: 9%
 
 ---
 
@@ -17,11 +17,13 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
 * 在Customer Journey Analytics中重新建立Adobe Analytics專案。
 
-* 將Adobe Analytics報表套裝中的維度和量度與Customer Journey Analytics資料檢視中的維度和量度比對。
+* 從Adobe Analytics報表套裝對應維度和量度至Customer Journey Analytics資料檢視中的維度和量度。
 
-  有些維度和量度會自動比對，有些則必須在移轉程式中手動比對。
+  有些維度和量度會自動對應，有些則必須在移轉程式中手動對應。
 
 ## 準備移轉
+
+在您開始移轉組織中的專案之前，請先完成必要條件、瞭解哪些專案已移轉哪些專案尚未移轉，並為您的組織建立移轉計畫。
 
 ### 先決條件
 
@@ -33,7 +35,7 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
    * [擷取及使用資料](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-data-ingestion/ingest-use-guides/analytics.html?lang=zh-Hant)
 
-* 確保Customer Journey Analytics中的使用者已布建至資料相符的資料檢視。
+* 確保Customer Journey Analytics中的使用者已布建至資料對應的資料檢視。
 
   如需詳細資訊，請參閱 [Admin Console中的Customer Journey Analytics許可權](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html?lang=en#customer-journey-analytics-permissions-in-admin-console) 在 [Customer Journey Analytics存取控制](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-admin/cja-access-control.html).
 
@@ -70,9 +72,9 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
 ### 建立組織的移轉計畫
 
-因為任何符合特定專案移轉的元件都適用於整個組織未來的專案移轉，所以您的組織必須提前計畫所有專案移轉。
+由於任何對應至特定專案移轉的元件，都適用於整個組織未來的專案移轉，因此貴組織必須提前規劃所有專案移轉。
 
-作為組織，您應該決定哪些維度和量度將符合哪些維度和量度，以避免個別管理員在專案移轉時於筒倉中做出決策。
+作為組織，您應決定維度和量度的對應方式。 這樣做可避免個別管理員在僅考慮單一專案時，於穀倉中做出決策。
 
 ## 將Adobe Analytics專案移轉至Customer Journey Analytics
 
@@ -80,31 +82,15 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 >
 >在依本節所述將任何專案移轉至Customer Journey Analytics之前，請先瞭解更多有關移轉專案的資訊，請參閱 [規劃移轉](#plan-the-migration) 一節。
 >
->您符合的任何維度或量度都是永久性的，不論是此專案還是整個組織內移轉的所有未來專案皆然。 您無法修改任何符合的專案。
+>您對應之任何維度或量度對於此專案及整個組織移轉的所有未來專案而言都是永久性的。 移轉完成之後，就無法修改您建立的任何對應。
 
-
-
-1. 在Adobe Analytics中，選取 [!UICONTROL **管理員**] 索引標籤，然後選取 [!UICONTROL **所有管理員**].
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**]」索引標籤，然後選取「[!UICONTROL **所有管理員**]」。
 
 1. 在 [!UICONTROL **資料設定和收集**]，選取 [!UICONTROL **元件移轉**].
 
-1. （視條件而定）若要快速找到您要移轉的專案，您可以：
+1. 找到您要移轉的專案。 您可以篩選、排序或搜尋專案清單。
 
-   * 選取篩選圖示，即可篩選專案清單。
-
-     您可以依下列條件篩選：
-
-      * 狀態
-
-      * 標記
-
-      * 報表套裝
-
-      * 擁有者
-
-      * 其他篩選器
-
-   * 使用搜尋欄位來搜尋您要移轉的專案。
+   預設情況下，僅顯示與您共用的專案。 若要檢視貴組織的所有專案，請選取 **篩選** 圖示，然後展開 [!UICONTROL **其他篩選器**] 並選取 [!UICONTROL **顯示全部**]. (如需有關篩選、排序和搜尋專案清單的詳細資訊，請參閱 [篩選、排序和搜尋專案清單](#filter-sort-and-search-the-list-of-projects).)
 
 1. 將游標移至您要移轉的專案上，然後選取 **移轉** 圖示 ![移轉專案](assets/migrate.svg).
 
@@ -122,21 +108,21 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
    您指定的所有者擁有此專案的完整管理權限.
 
-1. 在 [!UICONTROL **匹配報表套裝的結構描述**] 區段，選取報表套裝。
+1. 在 [!UICONTROL **對應報表套裝的結構描述**] 區段，選取報表套裝。
 
 1. 在 [!UICONTROL **資料檢視**] 下拉式功能表，選取您要移轉專案和元件的Customer Journey Analytics資料檢視。
 
-1. 選取 [!UICONTROL **符合結構描述**].
+1. 選取 [!UICONTROL **對應結構描述**].
 
-1. 在 [!UICONTROL **符合結構描述**] 區段，展開 [!UICONTROL **Dimension**] 和 [!UICONTROL **量度**] 區段。
+1. 在 [!UICONTROL **對應結構描述**] 區段，展開 [!UICONTROL **Dimension**] 和 [!UICONTROL **量度**] 區段。
 
-   Adobe Analytics中的某些維度和量度會自動符合Customer Journey Analytics中的維度或量度。 其他需要手動比對。
+   Adobe Analytics中的某些維度和量度會自動對應至Customer Journey Analytics中的維度或量度。 其他則需要手動對應。
 
-   **自動比對的維度和量度**
+   **自動對應維度和量度**
 
-   Adobe Analytics中的某些維度和量度會自動符合Customer Journey Analytics中的維度或量度。 您無法針對這些維度和量度做出任何相符的決定。
+   Adobe Analytics中的某些維度和量度會自動對應至Customer Journey Analytics中的維度或量度。 您無法針對這些維度和量度做出任何對應決策。
 
-   例如， **造訪** Adobe Analytics中的量度會自動比對至 **工作階段** Customer Journey Analytics中的量度。
+   例如， **造訪** Adobe Analytics中的量度會自動與 **工作階段** Customer Journey Analytics中的量度。
 
    您可以選取任何維度或量度來檢視其相關聯的ID。
 
@@ -144,28 +130,98 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
    ![專案移轉綱要](assets/project-migration-schema.png)
 
-   **手動比對維度和量度**
+   **手動對應維度和量度**
 
-   Adobe Analytics中的其他維度和量度無法自動比對Customer Journey Analytics中的維度或量度。
+   Adobe Analytics中的部分維度和量度無法自動對應至Customer Journey Analytics中的維度或量度。
 
-   當維度或量度無法自動比對時，橘色計數器會顯示在 [!UICONTROL **Dimension**] 或 [!UICONTROL **量度**] 區段標題，指出需要手動比對的維度或量度數目。 在表格中，警告圖示 ![警告圖示](assets/schema-warning.png) 會顯示在每個需要手動比對的維度或量度旁。
+   當維度或量度無法自動對應時，橘色計數器會顯示在 [!UICONTROL **Dimension**] 或 [!UICONTROL **量度**] 區段標題，指出需手動對應的維度或量度數目。 在表格中，警告圖示 ![警告圖示](assets/schema-warning.png) 會顯示在每個需要手動對應的維度或量度旁。
+
+   此外， [!UICONTROL **狀態**] 欄顯示 [!UICONTROL **未對應**].
 
    <!-- update screenshot after I can see the Status column -->
 
-   ![移轉結構描述手動比對](assets/schema-manual-map.png)
+   ![移轉結構描述手動對應](assets/schema-manual-map.png)
 
-1. 若要手動比對維度和量度，請選取包含警告圖示的維度或量度 ![警告圖示](assets/schema-warning.png)，然後在 [!UICONTROL **符合Customer Journey Analytics量度**] 欄位(或 [!UICONTROL **符合Customer Journey Analytics維度**] 欄位（如果您比對維度），請在「Customer Journey Analytics」中選取您要與所選維度或量度比對的維度或量度。
+1. 若要手動對應維度和度量，請選取包含警告圖示的維度或度量 ![警告圖示](assets/schema-warning.png)，然後在 [!UICONTROL **對應的Customer Journey Analytics量度**] 欄位(或 [!UICONTROL **對應的Customer Journey Analytics維度**] 欄位如果您要對應維度)，請在「Customer Journey Analytics」中選取您要對應至您所選維度或量度的維度或量度。
 
-   ![比對維度和量度](assets/schema-manual-map-drop-down.png)
+   ![對應維度和量度](assets/schema-manual-map-drop-down.png)
+
+   維度或量度對應後，警告圖示會消失，且 [!UICONTROL **狀態**] 欄變更為 [!UICONTROL **已對應**] 綠色圓點。 (狀態 [!UICONTROL **已對應**] 灰點表示維度或量度在上次移轉期間已對應；無法更新任何先前的對應。)
 
    對包含警告圖示的每個維度或量度重複此程式。
 
-   Adobe Analytics報表套裝中的所有維度和量度符合Customer Journey Analytics資料檢視中的維度或量度後，綠色勾號 ![核取標籤](assets/report-suite-check.png) 會出現在中的報表套裝名稱旁 [!UICONTROL **匹配報表套裝的結構描述**] 區段。
+   Adobe Analytics報表套裝中的所有維度和量度都會對應至Customer Journey Analytics資料檢視中的維度或量度後，綠色勾號 ![核取標籤](assets/report-suite-check.png) 會出現在中的報表套裝名稱旁 [!UICONTROL **對應報表套裝的結構描述**] 區段。
 
-1. （視條件而定）如果您要移轉的專案包含多個報表套裝，請在 [!UICONTROL **匹配報表套裝的結構描述**] 區段，然後重複步驟6到步驟10。 <!-- double-check that the step numbers are still correct -->
+1. （視條件而定）如果您要移轉的專案包含多個報表套裝，請在 [!UICONTROL **對應報表套裝的結構描述**] 區段，然後重複步驟6到步驟10。 <!-- double-check that the step numbers are still correct -->
 
 1. 選取 [!UICONTROL **移轉**].
 
    >[!WARNING]
    >
-   >   選取後熒幕上會顯示警告訊息 [!UICONTROL **移轉**]. 在選擇繼續之前，請先瞭解您符合的任何維度或量度對於此專案及整個組織移轉的所有未來專案而言都是永久性的。 如果繼續，將無法修改您所做的相符專案。
+   >   選取後熒幕上會顯示警告訊息 [!UICONTROL **移轉**]. 選擇繼續之前，請先瞭解您對應之任何維度或量度對於此專案及整個組織未來移轉的所有專案而言都是永久性的。 如果繼續，則無法修改您建立的對應。
+
+   移轉完成後， [!UICONTROL **移轉狀態**] 頁面提供已移轉專案的摘要。
+
+   如果移轉失敗，請參閱 [重試失敗的移轉](#retry-a-failed-migration) 區段以取得詳細資訊。
+
+## 重試失敗的移轉
+
+如果移轉失敗，您可以重試移轉。
+
+您可以透過下列其中一種方式重試失敗的移轉：
+
+>[!NOTE]
+>
+>如果重試後移轉仍持續失敗，請聯絡客戶服務並提供專案ID。 您可以在移轉狀態頁面找到專案ID。 <!-- when does this page display? How can they get there -->
+
+1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**]」索引標籤，然後選取「[!UICONTROL **所有管理員**]」。
+
+1. 在 [!UICONTROL **資料設定和收集**]，選取 [!UICONTROL **元件移轉**].
+
+1. 選取 [!UICONTROL **已失敗**] 在 [!UICONTROL **移轉狀態**] 要重試之專案旁邊的欄。
+
+   ![移轉狀態列失敗](assets/migration-failed.png)
+
+   此 [!UICONTROL **移轉狀態**] 頁面隨即顯示。
+
+   此頁面也會在完成一節所述的移轉步驟後立即顯示 [將Adobe Analytics專案移轉至Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics) 以上。
+
+1. 選取 [!UICONTROL **重試移轉**].
+
+## 篩選、排序和搜尋專案清單
+
+您可以在「元件移轉」頁面上篩選、排序和搜尋專案清單。
+
+### 篩選專案清單
+
+您可以依下列條件篩選：
+
+| 篩選器 | 說明 |
+|---------|----------|
+| [!UICONTROL **狀態**] | 移轉的狀態： <ul><li>[!UICONTROL **尚未開始**]</li><li>[!UICONTROL **已開始**]</li><li>[!UICONTROL **完成**]</li><li>[!UICONTROL **已失敗**]</li></ul>。 |
+| [!UICONTROL **標記**] | 選取標籤清單中的任何標籤。 只會顯示已套用選取標籤的專案。 |
+| [!UICONTROL **報告套裝**] | 在報表套裝清單中選取任何報表套裝。 系統只會顯示使用選定報表套裝的專案。 |
+| [!UICONTROL **擁有者**] | 在擁有者清單中選取任何擁有者。 系統只會顯示您所選取使用者擁有的專案。 |
+| [!UICONTROL **其他篩選器**] | 下列為其他可用的篩選： <ul><li>[!UICONTROL **我的**]：僅顯示您設為擁有者的專案。</li><li>[!UICONTROL **與我共用**]：僅顯示已與您共用的專案。</li><li>[!UICONTROL **我的最愛**]：僅顯示標籤為我的最愛的專案。 (您可以從以下位置將專案標示為我的最愛： [專案登陸頁面](/help/analyze/landing.md).)</li><li>[!UICONTROL **每月**]</li><li>[!UICONTROL **每年**]</li></ul> |
+
+{style="table-layout:auto"}
+
+### 排序專案清單
+
+您可以依任何欄排序專案清單。
+
+若要排序專案清單，請執行下列動作：
+
+1. 選取要作為排序依據之欄的欄標題。
+
+1. （選擇性）再次選取相同的欄標題來反轉排序順序。
+
+### 搜尋專案
+
+您可以在「元件移轉」頁面上搜尋專案清單，以尋找您要移轉的專案。
+
+1. 在「元件移轉」頁面頂端的搜尋欄位中，開始輸入您要移轉的專案名稱。
+
+1. 當專案出現在下拉式選單中時，請選取專案。
+
+<!-- is there going to be a way to customize the columns that are displayed? -->
