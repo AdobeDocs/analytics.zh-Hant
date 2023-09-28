@@ -2,10 +2,10 @@
 description: 說明如何將元件和專案從Adobe Analytics移轉至Customer Journey Analytics。
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: 8a9c3b4d6c7a59582a6fd8bdc5464c2dbed3ad1b
+source-git-commit: 73cbfbbad4d8e7bb3107ee08861a6342aba85e84
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 6%
+source-wordcount: '1133'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,9 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
   有些維度和量度會自動比對，有些則必須在移轉程式中手動比對。
 
-## 先決條件
+## 準備移轉
+
+### 先決條件
 
 在專案及其相關維度和量度準備移轉之前，您首先需要：
 
@@ -37,7 +39,36 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
   Admin Console 中每個產品設定檔都有 權限 索引標籤。您可以將使用者新增到特定的產品設定檔。然後，將權限指派給指定的資料檢視，並指定產品設定檔中的使用者擁有哪些權限。
 
-## 建立組織的移轉計畫
+* 建立移轉計畫，如下節所述， [建立組織的移轉計畫](#create-a-migration-plan-as-an-organization).
+
+### 瞭解移轉包含的內容
+
+下表概述移轉中包含的專案和元件元素：
+
+
+|  | 專案 | Dimension和量度 |
+|---------|----------|---------|
+| **日期範圍** | 是 | 不適用 |
+| **區段** | 是 | 不適用 |
+| **快速區段** | 是 | 不適用 |
+| **面板** | 是 | 不適用 |
+| **視覺效果** | 是 | 不適用 |
+| **所有者** | （由進行移轉的使用者定義） | ? |
+| **組織** | 否 | 不適用 |
+| **共用（專案角色）** | 否 | 否 |
+| **註解** | 否 | 不適用 |
+| **檔案夾結構** | 否 | 不適用 |
+| **說明** | 是 | ? |
+| **標記** | ? | ? |
+| **時程表** | ? | 不適用 |
+| **歸因（在維度上）** | 不適用 | ? |
+| **異常偵測** | ? | 不適用 |
+| **貢獻分析** | ? | 不適用 |
+| **警報** | ? | 不適用 |
+
+{style="table-layout:auto"}
+
+### 建立組織的移轉計畫
 
 因為任何符合特定專案移轉的元件都適用於整個組織未來的專案移轉，所以您的組織必須提前計畫所有專案移轉。
 
@@ -49,7 +80,7 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 >
 >在依本節所述將任何專案移轉至Customer Journey Analytics之前，請先瞭解更多有關移轉專案的資訊，請參閱 [規劃移轉](#plan-the-migration) 一節。
 >
->您符合的任何維度或量度都是永久性的，不論是此專案還是整個組織內移轉的所有未來專案皆然。 如果繼續，將無法修改您所做的相符專案。
+>您符合的任何維度或量度都是永久性的，不論是此專案還是整個組織內移轉的所有未來專案皆然。 您無法修改任何符合的專案。
 
 
 
