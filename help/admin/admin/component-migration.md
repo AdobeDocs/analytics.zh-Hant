@@ -4,9 +4,9 @@ title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
+source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1974'
 ht-degree: 8%
 
 ---
@@ -116,11 +116,89 @@ Customer Journey Analytics不支援下列視覺效果、面板和功能。 當�
 
 * [警報](/help/components/c-alerts/intellligent-alerts.md)
 
-### 建立組織的移轉計畫
+### 以組織身分決定將如何對應不支援的元件
 
-由於任何對應至特定專案移轉的元件，都適用於整個組織未來的專案移轉，因此貴組織必須提前規劃所有專案移轉。
+>[!IMPORTANT]
+>
+>移轉程式會識別Adobe Analytics專案中無法自動對應至Customer Journey Analytics中元件的元件，並允許您手動對應這些元件。
+>
+>**針對一個專案所做的任何對應都會套用至整個組織中的所有未來專案，無論哪位使用者正在執行移轉。 除非連絡客戶服務，否則無法修改或復原這些對應。**
+>
+>因此，您的組織在移轉任何專案之前，必須先決定維度和量度的對應方式，這一點很重要。 這樣做可避免個別管理員在僅考慮單一專案時，於穀倉中做出決策。
+>
+>以下是您必須手動對應的維度和量度清單（如果您的專案中存在這些維度和量度）。 我們建議您在移轉前先檢閱此清單。 如果您的專案中存在這些元件的任何一個，請立即決定將它們對應到哪些Customer Journey Analytics元件。
 
-作為組織，您應決定維度和量度的對應方式。 這樣做可避免個別管理員在僅考慮單一專案時，於穀倉中做出決策。
+
+#### 不支援的維度
+
+* averagepagetime
+* pagetimeseconds
+* singlepagevisits
+* visitnumber
+* timeprior
+* timespent
+* category
+* connectiontype
+* customerloyalty
+* customlink
+* downloadlink
+* exitlink
+* hitdepth
+* hittype
+* pathlength
+* daysbeforefirstpurchase
+* dayssincelastpurchase
+* dayssincelastvisit
+* identificationstate
+* optoutreason
+* persistentcookie
+* returnfrequency
+* searchenginenatural
+* searchenginenaturalkeyword
+* mobilecarrier
+* monitorresolution
+* surveybase
+* mcaudiences
+* tntbase
+* targetraw
+
+
+#### 不支援的量度
+
+* timespentvisit
+* timespentvisitor
+* 重新載入
+* bounces
+* 跳出
+* pageevents
+* pageviewspervisit
+* orderspervisit
+* averagepagedepth
+* averagetimespentonsite
+* exitlinkinces
+* customlinkinces
+* 下載連結例項
+* 黑暗訪客
+* singlepagevisits
+* singlevaluevisits
+* visitorhomepage
+* visitorsmcvisid
+* pagesnotfound
+* 新增參與
+* time_granular
+* concurrent_viewers_visitors
+* concurrent_viewers_occurrences
+* 問題
+* estimatedpeople
+* playback_time_spent_seconds
+* playback_time_spent_minutes
+* average_minute_audience_time_based
+* average_minute_audience_media_time
+* average_minute_audience_content_time
+* video_length
+* 目標轉換
+* targetetimpression
+
 
 ## 將Adobe Analytics專案移轉至Customer Journey Analytics
 
@@ -214,11 +292,13 @@ Customer Journey Analytics不支援下列視覺效果、面板和功能。 當�
 
 如果移轉失敗，您可以重試移轉。
 
-您可以透過下列其中一種方式重試失敗的移轉：
+在重試失敗的移轉之前，請務必移除所有 [不支援的元素](#understand-unsupported-elements-that-cause-errors) 從專案中移除。
 
 >[!NOTE]
 >
 >如果重試後移轉仍持續失敗，請聯絡客戶服務並提供專案ID。 您可以在移轉狀態頁面找到專案ID。 <!-- when does this page display? How can they get there -->
+
+若要重試失敗的移轉：
 
 1. 在 Adobe Analytics 中，選取「[!UICONTROL **管理員**]」索引標籤，然後選取「[!UICONTROL **所有管理員**]」。
 
