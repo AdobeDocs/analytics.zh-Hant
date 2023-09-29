@@ -4,16 +4,16 @@ title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
 hide: true
 hidefromtoc: true
-source-git-commit: 94041993f624fc5253929a92475842311c125799
+source-git-commit: 792b2171c5535fcd3920b5cbb100b2fb7c642db8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 9%
+source-wordcount: '1784'
+ht-degree: 8%
 
 ---
 
 # 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 
-Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Journey Analytics。
+Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Customer Journey Analytics。
 
 移轉程式包括：
 
@@ -21,15 +21,17 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
 * 從Adobe Analytics報表套裝對應維度和量度至Customer Journey Analytics資料檢視中的維度和量度。
 
-  有些維度和量度會自動對應，有些則必須在移轉程式中手動對應。
+  有些維度和量度會自動對應，有些則必須在移轉程式中手動對應。 區段也會移轉，但在移轉過程中不需要進行對應。
+
+  移轉完成時，所有移轉的元件都會顯示在移轉摘要中。
 
 ## 準備移轉
 
-在您開始移轉組織中的專案之前，請先完成必要條件、瞭解哪些專案已移轉哪些專案尚未移轉，並為您的組織建立移轉計畫。
+在您組織中的任何人開始移轉專案之前，請先完成下列章節。
 
 ### 先決條件
 
-在專案及其相關維度和量度準備移轉之前，您首先需要：
+在專案及其相關元件準備好移轉之前，您首先需要：
 
 * 使用Analytics來源聯結器檢視Customer Journey Analytics中的Adobe Analytics報告套裝資料。 若要這麼做，您需要：
 
@@ -49,28 +51,70 @@ Adobe Analytics管理員可將Adobe Analytics元件和專案移轉至Customer Jo
 
 下表概述移轉中包含的專案和元件元素：
 
+#### 已移轉的元件元素
 
-|  | 專案 | Dimension和量度 |
-|---------|----------|---------|
-| **日期範圍** | 是 | 不適用 |
-| **區段** | 是 | 不適用 |
-| **快速區段** | 是 | 不適用 |
-| **面板** | 是 | 不適用 |
-| **視覺效果** | 是 | 不適用 |
-| **所有者** | （由進行移轉的使用者定義） | ? |
-| **組織** | 否 | 不適用 |
-| **共用（專案角色）** | 否 | 否 |
-| **註解** | 否 | 不適用 |
-| **檔案夾結構** | 否 | 不適用 |
-| **說明** | 是 | ? |
-| **標記** | ? | ? |
-| **時程表** | ? | 不適用 |
-| **歸因（在維度上）** | 不適用 | ? |
-| **異常偵測** | ? | 不適用 |
-| **貢獻分析** | ? | 不適用 |
-| **警報** | ? | 不適用 |
+|  | 「已移轉」 |
+|---------|---------|
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[共用](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
+| **[說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
+| **[標記](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
+| **[歸因（在維度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
 
 {style="table-layout:auto"}
+
+#### 已移轉的專案元素
+
+|  | 「已移轉」 |
+|---------|----------|
+| **[日期範圍](/help/analyze/analysis-workspace/components/calendar-date-ranges/calendar.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[區段](/help/components/segmentation/seg-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[快速區段](/help/analyze/analysis-workspace/components/segments/quick-segments.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[維度](/help/components/dimensions/overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 自動或手動對應 |
+| **[量度](/help/components/metrics/overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 自動或手動對應 |
+| **[面板](/help/analyze/analysis-workspace/c-panels/panels.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 由進行移轉的使用者定義 |
+| **[組織](/help/analyze/analysis-workspace/curate-share/curate.md)** | 否 |
+| **[共用（專案角色）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 |
+| **[共用（與任何人共用連結）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[註解](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
+| **[檔案夾結構](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
+| **[說明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
+| **[標記](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | 否 |
+| **[時程表](/help/components/scheduled-projects-manager.md)** | 否 |
+| **[異常偵測](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
+| **[我的最愛](/help/analyze/landing.md)** | ? |
+
+{style="table-layout:auto"}
+
+### 瞭解導致錯誤的不支援元素
+
+Customer Journey Analytics不支援下列視覺效果、面板和功能。 當這些元素在移轉前包含在專案中時，可能導致移轉失敗，或在專案移轉後發生錯誤。
+
+將專案移轉至Customer Journey Analytics之前，請從Adobe Analytics專案中移除這些元素。 如果移轉失敗，請在重試移轉之前移除這些元素。
+
+#### 不支援的視覺效果
+
+* [地圖](/help/analyze/analysis-workspace/visualizations/map-visualization.md)
+
+#### 不支援的面板
+
+* [Analytics for Target (A4T)](/help/analyze/analysis-workspace/c-panels/a4t-panel.md)
+
+* [區段比較](/help/analyze/analysis-workspace/c-panels/c-segment-comparison/segment-comparison.md)
+
+* [媒體平均每分鐘觀眾數](/help/analyze/analysis-workspace/c-panels/average-minute-audience-panel.md)
+
+* [下一個或上一個專案](/help/analyze/analysis-workspace/c-panels/next-previous.md)
+
+* [頁面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
+
+#### 不支援的功能
+
+* [貢獻分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
+
+* [警報](/help/components/c-alerts/intellligent-alerts.md)
 
 ### 建立組織的移轉計畫
 
