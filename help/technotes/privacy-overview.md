@@ -4,9 +4,9 @@ keywords: 隱私權
 title: 隱私權概觀
 feature: Privacy
 exl-id: 71c83106-a047-47d7-9a70-4a24595e3d0a
-source-git-commit: 9fd055fd747c7124d49e280af1b0acc24d79be8e
+source-git-commit: 266c354cdc17e99d847ce57c1e6261386299a8cf
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '986'
 ht-degree: 3%
 
 ---
@@ -42,9 +42,9 @@ Adobe Analytics可收集下列型別的資料：
 | 內部搜尋詞 | 內部搜尋資料包含源自您網站或應用程式搜尋功能的關鍵字。 Adobe不會自動收集內部搜尋資料。 不過，您可以自訂實施以收集此資料。 對於使用Adobe Analytics的組織來說，這個作法是很常見的。 | [eVar](../components/dimensions/evar.md) |
 | 電腦和瀏覽器規格 | 資料收集程式庫會自動收集低平均資訊量瀏覽器提示，例如瀏覽器型別、作業系統型別，以及裝置是否為桌上型電腦或行動裝置。 需要自訂設定才能收集高平均資訊量提示，例如瀏覽器的特定版本/組建、裝置型號或作業系統版本。 另請參閱 [使用者端提示總覽](client-hints.md) 以取得詳細資訊。 | [瀏覽器](../components/dimensions/browser.md)， [作業系統](../components/dimensions/operating-systems.md)， [行動維度](../components/dimensions/mobile-dimensions.md)， [監視器解析度](../components/dimensions/monitor-resolution.md) |
 | 地理位置資訊 | Adobe可讓您啟用或停用收集每個網站或應用程式的地理位置資料（在報表套裝層級）。 地理位置資料收集預設為啟用。 | [城市](../components/dimensions/cities.md)， [地區](../components/dimensions/regions.md)， [國家/地區](../components/dimensions/countries.md) |
-| IP 位址 | Adobe提供在儲存此資料時，模糊化最後一個八位元或完全模糊化訪客IP位址的功能。 EMEA客戶的IP位址設定預設會完全模糊化。 無論模糊化設定為何，IP位址都不能當作Adobe Analytics中的維度，只會包含在 [資料摘要](../export/analytics-data-feed/data-feed-overview.md). | 無 |
+| IP 位址 | Adobe提供在儲存此資料時模糊化（雜湊）或完全移除訪客IP位址的功能。 EMEA客戶的IP位址設定通常會預設為模糊化。 無論模糊化設定為何，IP位址都不能當作Analysis Workspace中的維度，只會包含在 [資料摘要](../export/analytics-data-feed/data-feed-overview.md). 另請參閱 [一般帳戶設定](../admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md) 「管理員指南」中，以取得有關可用模糊化設定的詳細資料。 | 無 |
 | 您的網站上提供的表單資訊 | 所有實施型別都需要設定以收集此資料。 您可以將此資料包含在自訂變數中。 | [eVar](../components/dimensions/evar.md) |
-| 已點按您網站上的廣告或連結 | 如果使用資料收集程式庫，則預設為收集。 啟用Activity Map時，還有其他資訊，例如點按的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)， [退出連結](../components/dimensions/exit-link.md)， [下載連](../components/dimensions/download-link.md) |
+| 已點按您網站上的廣告或連結 | 收集條件 [`trackExternalLinks`](../implement/vars/config-vars/trackexternallinks.md) 或 [`trackDownloadLinks`](../implement/vars/config-vars/trackdownloadlinks.md) 已啟用。 啟用Activity Map時，還有其他資訊，例如點按的位置。 | [Activity Map](../analyze/activity-map/activity-map.md)， [退出連結](../components/dimensions/exit-link.md)， [下載連](../components/dimensions/download-link.md) |
 | 在您的網站上購買的產品 | 所有實施型別都需要設定以收集此資料。 Adobe提供數個預設變數來收集此資訊。 | [產品](../components/dimensions/product.md)， [訂購](../components/metrics/orders.md)， [收入](../components/metrics/revenue.md) |
 
 {style="table-layout:auto"}
@@ -53,4 +53,4 @@ Adobe Analytics可收集下列型別的資料：
 
 ## 資料處理位置
 
-Adobe會為Adobe Analytics維護三個資料處理位置。 這些網站會接收原始資料，並將其處理為報表套裝，以最佳化資料儲存和報表擷取。 這些資料處理位置位於美國（奧勒岡州）、英國（倫敦）和新加坡。 另請參閱 [Adobe Analytics安全性總覽](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} 以取得詳細資訊。
+Adobe會為Adobe Analytics維護三個資料處理位置。 這些網站會接收原始資料，並將其處理為報表套裝，以最佳化資料儲存和報表擷取。 這些資料處理位置目前位於美國（奧勒岡州）、英國（倫敦）和新加坡。 另請參閱 [Adobe Analytics安全性總覽](https://www.adobe.com/content/dam/cc/en/trust-center/ungated/whitepapers/experience-cloud/adb-analytics-security-wp.pdf){target=_blank} 以取得詳細資訊。

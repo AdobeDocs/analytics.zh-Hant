@@ -3,9 +3,9 @@ title: JavaScript 適用的 AppMeasurement 版本注意事項
 description: JavaScript 適用的 AppMeasurement 累積版本注意事項。
 feature: Appmeasurement Implementation
 exl-id: 80b935f0-3ec5-4ffa-9858-f83ae9a6b763
-source-git-commit: b99717f4b7fe23172c5a9b3adaa92341cdcc5e44
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: '2366'
 ht-degree: 92%
 
 ---
@@ -353,8 +353,8 @@ JavaScript 適用的 AppMeasurement 累積版本注意事項。
 
 發行日期：**2015 年 5 月 21 日**
 
-* 從 iOS SDK 4.5 版本開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。請參閱行動服務使用手冊中的 [iOS 擴充功能實作](https://experienceleague.adobe.com/docs/mobile-services/ios/ios-ext/ios-ext.html?lang=zh-Hant)。
-* 從 Android SDK 4.5 版本開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。請參閱行動服務使用手冊中的 [Android 穿戴式裝置](https://experienceleague.adobe.com/docs/mobile-services/android/wearables-android/android-wearable.html?lang=zh-Hant)。
+* 從 iOS SDK 4.5 版本開始，新的 iOS 擴充功能可讓您從 Apple Watch 應用程式、「今天」小工具、「照片編輯」小工具和所有其他 iOS 擴充應用程式中收集用量資料。
+* 從 Android SDK 4.5 版本開始，新的 Android 擴充功能可讓您透過 Android 穿戴式裝置應用程式中收集資料。
 * 納入 Visitor API 1.4.
 * 已更新 AudienceManagement 模組以使用 DIL 6.0 版本。
 

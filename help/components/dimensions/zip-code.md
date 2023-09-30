@@ -3,10 +3,10 @@ title: 郵遞區號
 description: 訪客的郵遞區號。
 feature: Dimensions
 exl-id: 597619f8-a581-4491-beb2-c14b1f7b7bec
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: e32821dd3f30404166554b8437c508172e4764e5
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 80%
 
 ---
 
@@ -19,13 +19,14 @@ ht-degree: 94%
 此維度的獨特之處在於它有多種方式可填入資料。您可以使用其中一種，或將兩者搭配使用。
 
 * 直接使用 `zip` 變數設定郵遞區號；或
-* 將其設定為從地域劃分資料中提取。
+* 將其設定為從地理位置資料中提取。
 
 [一般帳戶設定](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/general-acct-settings-admin.md)下的[!UICONTROL 「郵遞區號」]選項可控制您填入此維度的方式。
 
->[!IMPORTANT]
->
->如果您想要完整控制填入此維度的方式，報表套裝設定就十分重要。
+如果您選擇使用任何涉及地域郵遞區號的選項：
+
+* 對於AppMeasurement實作，此維度可立即運作。
+* 對於Web SDK實作，啟用 [!UICONTROL 地理查閱] 當 [設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## 維度項目
 
@@ -110,7 +111,7 @@ ht-degree: 94%
 * 斯里蘭卡
 * 瑞典
 * 瑞士
-* 台灣區域
+* 台灣地區
 * 泰國
 * 突尼西亞
 * 土耳其

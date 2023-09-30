@@ -3,10 +3,10 @@ title: 作業系統
 description: 訪客的作業系統。
 feature: Dimensions
 exl-id: e3911ae0-d242-4da2-a4bc-b2f4877f9dd2
-source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
+source-git-commit: 24972ec79cb42224a97dda6b073b517b301113ba
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 26%
+source-wordcount: '433'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 26%
 
 ## 將資料填入此維度中
 
-此維度會參考 Adobe 內部的查閱表格。查閱值以影像要求中 `User-Agent` 的 HTTP 標題為基礎。如果您使用 AppMeasurement 資料庫 (例如，透過 Adobe Experience Platform 中的標記)，此維度將可立即運作。
+此維度會參考 Adobe 內部的查閱表格。查閱值以影像要求中 `User-Agent` 的 HTTP 標題為基礎。與合作夥伴Adobe [DeviceAtlas](https://deviceatlas.com/) 維護使用者代理程式與作業系統之間的查閱。
+
+* 對於AppMeasurement實作，此維度可立即運作。
+* 對於Web SDK實作，啟用 [!UICONTROL 裝置查詢] 當 [設定資料串流](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html).
 
 ## 維度項目
 

@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
 workflow-type: tm+mt
-source-wordcount: '2554'
-ht-degree: 100%
+source-wordcount: '2549'
+ht-degree: 98%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
 * **登入公司**：貴組織所使用報表套裝的集合。某些組織擁有多個登入公司，適用於組織內的不同部門。
 * **行銷管道：** Adobe Analytics 的一項功能，可依點擊到達您網站的方式分類點擊。可使用行銷管道處理規則來自訂用於分類點擊的邏輯。請參閱元件使用手冊中的[行銷管道快速入門](/help/components/c-marketing-channels/c-getting-started-mchannel.md)。
 * **量度：**&#x200B;包含量化資料的元件類型。度量值通常包含數字，例如頁面瀏覽數、造訪數和營收。維度通常是其對應項目。
-* **行動服務：**&#x200B;將整個 Adobe Experience Cloud 上行動應用程式的行動裝置行銷功能彙整在一起，好讓您了解並改進使用者與行動應用程式的互動。 請參閱[行動服務概觀](https://experienceleague.adobe.com/docs/mobile-services/using/home.html)。
+* **行動服務：** 已淘汰的Adobe產品將整個Adobe Experience Cloud上行動應用程式的行動行銷功能集合在一起，讓您瞭解並改進使用者與應用程式的互動。
 * **多套裝標記：**&#x200B;將相同點擊傳送至多個報表套裝的作法。隨著虛擬報表套裝的推出，此作法基本上已失去必要性。大部分的多套裝標記作業都有助於調整全域報表套裝。
 * **正規化：**&#x200B;整理視覺化效果的方式，可納入所有量度並將其強制為等比例，以便更輕鬆進行趨勢比較。
 * **發生次數：**&#x200B;一種量度類型，可顯示多少點擊已設定或存在某個維度項目。請參閱「元件」使用指南中的[發生次數](/help/components/metrics/occurrences.md)量度。

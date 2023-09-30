@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報程套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: dc84909f9c19681adfd28696495b667837056146
-workflow-type: ht
-source-wordcount: '739'
-ht-degree: 100%
+source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+workflow-type: tm+mt
+source-wordcount: '750'
+ht-degree: 98%
 
 ---
 
@@ -66,7 +66,8 @@ ht-degree: 100%
    + [行銷管道](dimensions/marketing-channel.md)
    + [行銷管道詳細資料](dimensions/marketing-detail.md)
    + [分鐘](dimensions/minute.md)
-   + [行動維度](dimensions/mobile-dimensions.md)
+   + [行動生命週期維度](dimensions/lifecycle-dimensions.md)
+   + [行動查詢維度](dimensions/mobile-dimensions.md)
    + [顯示器解析度](dimensions/monitor-resolution.md)
    + [月份](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
@@ -99,6 +100,7 @@ ht-degree: 100%
    + [追蹤選擇退出原因](dimensions/tracking-opt-out-reason.md)
    + [美國 DMA](dimensions/us-dma.md)
    + [美國各州](dimensions/us-states.md)
+   + [語音維度](dimensions/voice-dimensions.md)
    + [造訪深度](dimensions/visit-depth.md)
    + [造訪次數](dimensions/visit-number.md)
    + [週](dimensions/week.md)
@@ -127,6 +129,7 @@ ht-degree: 100%
    + [退出點](metrics/exits.md)
    + [已識別的使用者](metrics/identified-people.md)
    + [實例](metrics/instances.md)
+   + [行動生命週期量度](metrics/lifecycle-metrics.md)
    + [行動瀏覽數](metrics/mobile-views.md)
    + [新參與](metrics/new-engagements.md)
    + [發生次數](metrics/occurrences.md)
@@ -151,6 +154,7 @@ ht-degree: 100%
    + [不重複裝置](metrics/unique-devices.md)
    + [不重複訪客](metrics/unique-visitors.md)
    + [單位數](metrics/units.md)
+   + [語音量度](metrics/voice-metrics.md)
    + [具有 Experience Cloud ID 的訪客](metrics/visitors-with-ecid.md)
    + [造訪數](metrics/visits.md)
 + 分段 {#segmentation}
