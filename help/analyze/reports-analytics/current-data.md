@@ -6,7 +6,7 @@ uuid: 601d3695-be13-4b7f-9df0-de01c8bd64ee
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 4e90f5ad-ba12-4282-a0d9-55765d88104b
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 97%
@@ -27,7 +27,7 @@ Reports &amp; Analytics 中的「包含目前的資料」選項可讓您檢視�
 
 * 使用 Analysis Workspace，此工具會使用已完全處理的資料。
 * 在目前的資料報表設定中按一下「否」，僅使用已完全處理的資料。
-* 進入 Admin Console，從產品設定檔中移除「目前的資料」權限項目，以防止非管理員使用者看見此選項。請參閱 [分析工具的產品設定檔權限](/help/admin/admin-console/permissions/analytics-tools.md) 中，以取得詳細資訊。
+* 進入 Admin Console，從產品設定檔中移除「目前的資料」權限項目，以防止非管理員使用者看見此選項。另請參閱 [Analytics工具的產品設定檔許可權](/help/admin/admin-console/permissions/analytics-tools.md) （在管理員使用手冊中）以取得詳細資訊。
 
 由於系統會排定資料開放使用的優先順序，「目前的資料」目前無法用於區段、分類、劃分、路徑分析和某些量度。如果使用其中一項功能，「目前的資料」在報表中將會強制設為「否」，並顯示黃色通知，說明「目前的資料」無法使用的原因。
 

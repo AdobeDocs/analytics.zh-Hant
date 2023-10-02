@@ -4,7 +4,7 @@ keywords: 計算量度、衍生量度、進階計算量度
 title: 計算與進階計算 (衍生) 量度
 feature: Calculated Metrics
 exl-id: 9bf8239f-cf74-4feb-85e5-d47805e90afb
-source-git-commit: 1dc0325f1a8b4fc1888895ee18570effb34e6208
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 88%
@@ -13,7 +13,7 @@ ht-degree: 88%
 
 # 計算與進階計算（衍生）量度
 
-計算與進階計算（或衍生）量度是自訂量度，您可以從現有量度建立。
+計算量度和進階計算（或衍生）量度是自訂量度，您可以從現有量度建立。
 
 我們的計算量度工具可讓您以極為靈活的方式建立、管理和規劃量度。無論您是行銷人員、產品經理或分析人員，不需變更 [!DNL Analytics] 實施作業就能詢問資料相關問題。每個 [!DNL Analytics] 套裝中可用的自訂量度為：
 
@@ -46,7 +46,7 @@ ht-degree: 88%
 * 在報表套裝間共用量度。這表示所有新建立的量度都會套用至相同登入公司的所有報表套裝。
 * （僅限進階計算量度）量度上的區段。 例如，您可以建立「新訪客」的量度，計算第一次進行工作階段的人員數量。
 
-* （僅限進階計算量度）納入統計函式，以協助您更好地描述資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
+* （僅限進階計算量度）納入統計函式以協助您更清楚地描述資料。 例如，您可以計算報表中的項目數或加入每個項目的標準差數字。
 
   >[!VIDEO](https://video.tv.adobe.com/v/25409/?quality=12&learn=on)
 
@@ -65,7 +65,7 @@ ht-degree: 88%
 
 ## 工具 {#section_D65E9C067E9C45E1A50DD30F50561BB2}
 
-以下為「 」的簡短概述 [!UICONTROL 計算量度] 工具：
+以下為「 」的簡短概覽 [!UICONTROL 計算量度] 工具：
 
 <table id="table_520AFE97DB514958ABE23FD3C9CE0ABD"> 
  <thead> 

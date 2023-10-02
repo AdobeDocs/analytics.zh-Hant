@@ -4,16 +4,16 @@ title: 計算量度
 feature: Report Builder
 role: User, Admin
 exl-id: 462086eb-675f-443c-b3a6-b4fa390254da
-source-git-commit: fb39f906d6c08713e4dc8211c917b2942502868e
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '400'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
 # 計算量度
 
-Report Builder 5.2 支援 Adobe Analytics 統一計算量度。除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
+Report Builder5.2支援Adobe Analytics統一的計算量度。 除了其他創新項目以外，現在所有計算量度都有全域 ID，不再侷限於單一報表套裝。
 
 >[!NOTE]
 >

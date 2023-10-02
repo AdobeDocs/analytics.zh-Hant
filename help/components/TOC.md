@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報程套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
+source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 98%
