@@ -4,15 +4,15 @@ description: 某一段時間的頁面檢視順序。
 feature: Metrics
 exl-id: 4f78f2b5-f958-44fe-876a-83f07980beec
 source-git-commit: d095628e94a45221815b1d08e35132de09f5ed8f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # 瀏覽
 
-「造訪」 [量度](overview.md) 顯示網站上所有訪客的工作階段數量。
+「造訪」[量度](overview.md)會顯示您的網站上所有訪客的工作階段數量。
 
 ## 此量度的計算方式
 
