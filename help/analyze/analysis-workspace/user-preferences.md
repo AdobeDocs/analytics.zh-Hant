@@ -4,10 +4,10 @@ description: 您可以設定使用者的一般和專案偏好設定，以及深�
 feature: Workspace Basics
 role: User, Admin
 exl-id: f32e3061-f396-4730-96e1-d251b00e32f0
-source-git-commit: 8e03817b2e03c50dff730be05849a47d7728dc9a
-workflow-type: ht
-source-wordcount: '3063'
-ht-degree: 100%
+source-git-commit: cca740f66783de4323b91dd722e3a108dde6b023
+workflow-type: tm+mt
+source-wordcount: '3156'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-## 專案偏好設定
+## 專案和分析偏好設定
 
 您可以為在 Analysis Workspace 中建立的所有新專案自訂專案偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | **顯示** | | |
 |  | [檢視密度](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/view-density.html?lang=zh-Hant) | 減少左側邊欄、自由表格和同類群組表格的垂直邊框間距，以選擇要在畫面上顯示多少內容。 <ul><li>精簡</li><li>舒適</li><li>展開 (預設)</li></ul> |
-| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選取 Analysis Workspace 中使用的視覺效果調色盤。 <ul><li>Adobe 提供的調色盤 (預設)</li><li>條件式格式設定調色盤 </li><li>上/下浮動調色盤 (發散)<li>自訂界定的調色盤</li></ul> |
+| | [調色盤](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/color-palettes.html?lang=zh-Hant) | 選擇在Analysis Workspace中使用的視覺化調色盤。<ul><li>**類別調色盤**：套用至Analysis Workspace中的許多視覺效果。 每種顏色代表不同的分類值。 從Adobe提供的選項中選擇，或輸入由逗號分隔的十六進位值定義的自訂調色盤。</li><li>**分散色盤**：套用至Analysis Workspace中的同類群組表格。 此調色盤具有數值意義，其中有兩個極值，中間有一個基線。</li><li>**循序調色盤**：套用至頻率趨勢（棧疊長條圖）引導分析。 此調色盤具有從淺到深的數值意義。</li></ul> |
 | **資料** | | |
 |  | [報告套裝](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#report-suite) | 從表格和視覺效果衍生其資料的位置進行選擇。 <ul><li>最近使用 (預設)</li><li>從清單中選取的特定報告套裝</li></ul> |
 |  | [行事曆](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/panels.html?lang=zh-Hant?#calendar) | 從以下清單中選取： <ul><li>Adobe 提供的範圍 (預設為「本月」)</li><li>自訂界定的範圍</li></ul> |
@@ -112,10 +112,11 @@ ht-degree: 100%
 | **[列](/help/analyze/analysis-workspace/visualizations/freeform-table/column-row-settings/table-settings.md)** | | |
 | | 依位置劃分 | 如果您希望劃分保留在項目的位置，而非項目本身，請選取此選項。如需劃分的詳細資訊，請參閱[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。 |
 | | 百分比計算 | <ul><li>欄</li><li>列</li></ul> |
+| | 欄總計（僅限靜態列） | <ul><li>顯示列的總和：顯示個別條列專案的總和 </li><li>顯示總量：顯示已去除重複資料列的加總。</li></ul> |
 
 ## 視覺效果偏好設定
 
-您可以為在 Analysis Workspace 中建立的所有新專案更新偏好設定。如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
+您可以更新您在Analysis Workspace中建立的所有新專案的視覺效果偏好設定。 如需如何存取這些偏好設定的相關資訊，請參閱[更新偏好設定](#update-preferences)。
 
 也可為個別視覺效果自訂其中一些相同偏好設定。
 
