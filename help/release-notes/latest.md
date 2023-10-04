@@ -3,43 +3,42 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: f6c1162e6f5e8cc6f38da21b5bc19389ffd1e3c5
+source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '1216'
+ht-degree: 62%
 
 ---
 
-# 最新 Adobe Analytics 版本注意事項 (2023 年 9 月)
+# Adobe Analytics 目前發行說明 (2023 年 10 月)
 
-**上次更新日期**：2023 年 9 月 20 日
+**上次更新日期**：2023 年 10 月 4 日
 
-9 月的發行說明涵蓋了 2023 年 9 月 13 日至 2023 年 10 月 3 日的發行期間。Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+10月發行說明涵蓋2023年10月4日至2023年10月24日的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
-| **API 2.0 的分類** | 提供用來儲存、刪除、擷取、匯入和匯出分類集資料的 Adobe Analytics API 2.0 方法。[了解更多](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/classifications/) | 不適用 | 2023 年 9 月 13 日 |
-| **支援 A4T 分類的新 `correlationID` 欄位** | `_experience.decisioning.propositions.scopeDetails.correlationID` 欄位現在適用於 Adobe Analytics 來源連接器的綱要中。我們新增此 ID，以便輕鬆加入 Adobe Target 活動和體驗事件的分類資料。 | 不適用 | 2023 年 9 月 13 日 |
-| **Data Warehouse 的改良功能** | 建立 Data Warehouse 要求時，您現在可以設定雲端帳戶做為報告目的地。以下雲端帳戶類型可用來傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件 (此選項為先前提供)</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用做為報告目的地，但已經不再為建議選項。<p>建立和管理 Data Warehouse 要求時的使用者體驗也有所改善。如需更多資訊，請參閱[建立 Data Warehouse 要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hant)。 | 2023 年 9 月 13 日 | 2023 年 10 月 4 日 |
 | **管理元件時可使用新的欄位** | 現在起，管理元件時可使用以下新欄位：<ul><li>使用於<p>此欄位可用於[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)。</p></li><li>上次使用<p>此欄位可用於[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)以及[警報管理器](/help/components/c-alerts/alert-manager.md)。</p></li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。您可以將資料字典與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
+| **報告活動管理器增強功能** | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它為管理員提供了報告消耗的詳細可見度，以便在尖峰報告期間輕鬆診斷和修復容量問題。 以下是報告活動管理器中現在提供的部分增強功能： <ul><li>限制後續請求：除了取消目前的請求之外，管理員現在還可以限制已定義時段內的請求。 管理員可依請求、專案和使用者限制請求。</li><li>除了使用率和容量量度之外，報告活動管理器現在還包含更多有關報告活動的資料：複雜性欄、使用者欄和連線欄。</li><li>在報告活動管理器中所做的所有取消和限制現在都顯示在稽核記錄中。 管理員可以使用稽核記錄來檢視目前取消的專案。 在報告活動管理器或稽核記錄中，取消操作無法還原。</li></ul>了解更多 (即將推出) | 2023 年 10 月 17 日 | 2023 年 10 月 23 日 |
+| **Data Warehouse 的改良功能** | 建立 Data Warehouse 要求時，您現在可以設定雲端帳戶做為報告目的地。以下雲端帳戶類型可用來傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件 (此選項為先前提供)</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用做為報告目的地，但已經不再為建議選項。<p>建立和管理 Data Warehouse 要求時的使用者體驗也有所改善。如需更多資訊，請參閱[建立 Data Warehouse 要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hant)。 | 2023 年 9 月 12 日 | 2023 年 10 月 25 日 |
+| **將Adobe Analytics專案及任何包含的元件移轉至Customer Journey Analytics** | 您現在可以將Adobe Analytics專案移轉至Customer Journey Analytics。 此程式可簡化從Adobe Analytics到Customer Journey Analytics的轉換。 將專案移轉至Customer Journey Analytics時，資產會從Adobe Analytics報表套裝對應至Customer Journey Analytics資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | 不適用 | 2023 年 10 月 4 日 |
 
 {style="table-layout:auto"}
 
 ## Adobe Analytics 中的修正
 
-* 已修正導致無法在 Workspace 中顯示分類資料的問題。(AN-326827)
+* 修正A4T報表未在Target/Analytics UI中出現的問題。 (AN-329375、AN-329745、AN-330026)
 
-## 其他修正
-
-AN-314882；AN-315591；AN-318165；AN-318559；AN-319031；AN-319244；AN-321657；AN-321759；AN-323099；AN-323596；AN-323640；AN-324442；AN-324921；AN-324953；AN-324977；AN-324979；AN-325124；AN-325395；AN-325433；AN-325535；AN-325693；AN-325720；AN-325835；AN-325880；AN-325957；AN-325984；AN-326054；AN-326065；AN-326136；AN-326155；AN-326162；AN-326235；AN-326317；AN-326344；AN-326357；AN-326359；AN-326433；AN-326438；AN-326440；AN-326461；AN-326464；AN-326523；AN-326553；AN-326606；AN-326635；AN-326642；AN-326652；AN-326678；AN-326769；AN-326777；AN-326830；AN-326938；AN-326949；AN-327081；AN-327082；AN-327085；AN-327103；AN-327198；AN-327225；AN-327275；AN-327358；AN-327423；AN-327561；AN-327755；AN-327896；AN-327922；AN-328128；AN-328300；AN-328428；AN-328518；AN-328554
+AN-313983、AN-324189、AN-325095、AN-325677、AN-325886、AN-326068、AN-326360、AN-326458、AN-327290、AN-327315、AN-327353、AN-327505、AN-327589、AN-327609、AN-327922、AN-328110、AN-328222、AN-328261、AN-328496、AN-328577、AN-328629、AN-328736、AN-328888、AN-328899、AN-328902、AN-328921 AN-328958； AN-329208； AN-329277； AN-329332； AN-329334； AN-329335； AN-329336； AN-329357； AN-329385； AN-329387； AN-329397； AN-329463； AN-329501； AN-329504； AN-329505； AN-329515； AN-329524； AN-329526； AN-329534； AN-329539； AN-329541； AN-329543； AN-329545； AN-329564； AN-329570； AN-329623； AN-329624 AN-329636； AN-329646； AN-329647； AN-329668； AN-329701； AN-329737； AN-329741； AN-329751； AN-329812； AN-329813； AN-329821； AN-329824； AN-329833； AN-329848； AN-329852； AN-329861； AN-329863； AN-329874； AN-329882； AN-329911； AN-329917； AN-329942； AN-329954； AN-329968； AN-329971； AN-329982； AN-330044 AN-330052； AN-330131； AN-330132； AN-330230； AN-330352； AN-330367； AN-330541； AN-330599
 
 ## 給 Adobe Analytics 管理員的重要通知 {#admin}
 
 | 通知 | 新增或更新日期 | 說明 |
 | ----------- | ---------- | ---------- |
-| 不適用 | 不適用 | 不適用 |
+| **AdobeExperience Edge點選的完整IP模糊化** | 2023 年 9 月 27 日 | 來自Experience Edge之點選的IP模糊化功能將於2023年10月後續更新。 四月，Experience Edge新增模糊化IP位址的功能。 當時，由於Adobe Analytics處理來自Experience Edge的點選的方式，Analytics僅支援IP的部分模糊化功能。 客戶選擇Experience Edge使用完全模糊化時，Analytics只會收到部分模糊化的IP。 實作此變更時，Analytics會收到完全模糊化的IP。 |
+| **Adobe Analytics Livestream - Analytics 2.0 API** | 2023 年 9 月 27 日 | 客戶現在可以存取 [Adobe Analytics直播串流的端點指南](https://developer.adobe.com/analytics-apis/docs/2.0/guides/endpoints/livestream/) 在Adobe Analytics 2.0 API底下，而不是在其先前的位置使用1.4 API。 請注意，使用Adobe I/OJWT憑證的客戶必須在2025年1月1日前移轉至Adobe I/OOAuth伺服器對伺服器憑證。 （請參閱下列EOL通知底下的詳細資訊。） |
 
 {style="table-layout:auto"}
 
@@ -56,7 +55,7 @@ AN-314882；AN-315591；AN-318165；AN-318559；AN-319031；AN-319244；AN-32165
 
 ## AppMeasurement
 
-如需 AppMeasurement 版本 (版本 2.24.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
+如需 AppMeasurement 版本 (版本 2.25.0) 最新的更新，請參閱 [AppMeasurement for JavaScript 發行說明](https://experienceleague.adobe.com/docs/analytics/implementation/appmeasurement-updates.html?lang=zh-Hant)。
 
 
 ## 相關資源
