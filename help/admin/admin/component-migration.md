@@ -2,11 +2,9 @@
 description: 說明如何將元件和專案從Adobe Analytics移轉至Customer Journey Analytics。
 title: 將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
-hide: true
-hidefromtoc: true
-source-git-commit: 99b363f506e46fae7ce835588defd4f407d02c9e
+source-git-commit: e32b239fd64eea4516bc73b934b10346832f2bab
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2051'
 ht-degree: 8%
 
 ---
@@ -53,13 +51,15 @@ Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Cu
 
 #### 已移轉的元件元素
 
+Dimension和量度會隨著對應程式進行移轉，如所述 [將Adobe Analytics專案移轉至Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)Customer Journey Analytics ，而區段和日期範圍則會根據
+
 |  | 「已移轉」 |
 |---------|---------|
-| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
-| **[共用](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
-| **[說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | ? |
-| **[標記](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | 否 |
-| **[歸因（在維度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | ? |
+| **[所有者](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)** | Dimension和量度：否<p>區段和日期範圍： ![核取標籤](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[共用](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension和量度：否<p>區段和日期範圍：否</p> |
+| **[說明](/help/analyze/analysis-workspace/components/add-component-descriptions.md)** | Dimension和量度：否<p>區段和日期範圍： ![核取標籤](assets/Smock_Checkmark_18_N.svg)</p> |
+| **[標記](/help/analyze/analysis-workspace/components/analysis-workspace-components.md)** | Dimension和量度：否<p>區段和日期範圍：否</p> |
+| **[歸因（在維度上）](/help/analyze/analysis-workspace/attribution/overview.md)** | Dimension和量度：否<p>區段和日期範圍：否</p> |
 
 {style="table-layout:auto"}
 
@@ -76,17 +76,16 @@ Adobe Analytics管理員可將Adobe Analytics專案及其相關元件移轉至Cu
 | **[視覺效果](/help/analyze/analysis-workspace/visualizations/freeform-analysis-visualizations.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
 | **[所有者](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) 由進行移轉的使用者定義 |
 | **[組織](/help/analyze/analysis-workspace/curate-share/curate.md)** | 否 |
-| **[共用（專案角色）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 |
-| **[共用（與任何人共用連結）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | ? <!-- if no, combine with the above and just call it sharing? What about sharing links?--> |
+| **[共用（專案角色）](/help/analyze/analysis-workspace/curate-share/share-projects.md)** | 否 <!-- Add info on Share with Anyone? Is it the same?--> |
 | **[註解](/help/analyze/analysis-workspace/components/annotations/overview.md)** | 否 |
 | **[檔案夾結構](/help/analyze/analysis-workspace/build-workspace-project/workspace-folders/about-folders.md)** | 否 |
 | **[說明](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | ![核取標籤](assets/Smock_Checkmark_18_N.svg) |
 | **[標記](/help/analyze/analysis-workspace/build-workspace-project/freeform-overview.md)** | 否 |
 | **[時程表](/help/components/scheduled-projects-manager.md)** | 否 |
-| **[異常偵測](/help/analyze/analysis-workspace/virtual-analyst/c-anomaly-detection/anomaly-detection.md)** | ? |
-| **[我的最愛](/help/analyze/landing.md)** | ? |
 
 {style="table-layout:auto"}
+
+<!-- What about Anomaly Detection and Favorites? -->
 
 ### 瞭解導致錯誤的不支援元素
 
@@ -116,7 +115,7 @@ Customer Journey Analytics不支援下列視覺效果、面板和功能。 當�
 
 * [警報](/help/components/c-alerts/intellligent-alerts.md)
 
-### 以組織身分決定將如何對應不支援的元件
+### 以組織身分決定要如何對應元件
 
 >[!IMPORTANT]
 >
@@ -129,7 +128,7 @@ Customer Journey Analytics不支援下列視覺效果、面板和功能。 當�
 >以下是您必須手動對應的維度和量度清單（如果您的專案中存在這些維度和量度）。 我們建議您在移轉前先檢閱此清單。 如果您的專案中存在這些元件的任何一個，請立即決定將它們對應到哪些Customer Journey Analytics元件。
 
 
-#### 不支援的維度
+#### 必須手動對應的Dimension
 
 * averagepagetime
 * pagetimeseconds
@@ -163,7 +162,7 @@ Customer Journey Analytics不支援下列視覺效果、面板和功能。 當�
 * targetraw
 
 
-#### 不支援的量度
+#### 必須手動對應的量度
 
 * timespentvisit
 * timespentvisitor
