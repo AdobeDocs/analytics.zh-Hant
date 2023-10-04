@@ -3,10 +3,10 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 084a9e9d2794ece4ddbb4296eee107bbdb451813
+source-git-commit: 5785629376b8ae528535629a77a29dcdd2ca80b8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 62%
+source-wordcount: '1215'
+ht-degree: 61%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 62%
 
 **上次更新日期**：2023 年 10 月 4 日
 
-10月發行說明涵蓋2023年10月4日至2023年10月24日的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
+10月發行說明涵蓋2023年10月4日至2023年10月25日的發行期間。 Adobe Analytics 版本會在[持續傳遞模式](releases.md)上運作，允許以更可縮放、分階段的方法進行功能部署。因此，這些發行說明每月會更新好幾次。請定期進行檢查。
 
 ## 新功能或增強功能 {#features}
 
@@ -23,7 +23,7 @@ ht-degree: 62%
 | **管理元件時可使用新的欄位** | 現在起，管理元件時可使用以下新欄位：<ul><li>使用於<p>此欄位可用於[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)和[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)。</p></li><li>上次使用<p>此欄位可用於[計算量度管理器](/help/components/c-calcmetrics/c-workflow/cm-workflow/cm-manager.md)、[區段管理器](/help/components/segmentation/segmentation-workflow/seg-manage.md)以及[警報管理器](/help/components/c-alerts/alert-manager.md)。</p></li></ul><p>此資訊可協助您判斷某個元件對組織中的使用者是否有價值、其使用之處，以及是否需要刪除或修改。您可以將資料字典與此資訊搭配使用，以協助追蹤並深入了解元件在組織中的使用情況。</p> | 2023 年 9 月 20 日 | 2023 年 10 月 4 日 |
 | **報告活動管理器增強功能** | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它為管理員提供了報告消耗的詳細可見度，以便在尖峰報告期間輕鬆診斷和修復容量問題。 以下是報告活動管理器中現在提供的部分增強功能： <ul><li>限制後續請求：除了取消目前的請求之外，管理員現在還可以限制已定義時段內的請求。 管理員可依請求、專案和使用者限制請求。</li><li>除了使用率和容量量度之外，報告活動管理器現在還包含更多有關報告活動的資料：複雜性欄、使用者欄和連線欄。</li><li>在報告活動管理器中所做的所有取消和限制現在都顯示在稽核記錄中。 管理員可以使用稽核記錄來檢視目前取消的專案。 在報告活動管理器或稽核記錄中，取消操作無法還原。</li></ul>了解更多 (即將推出) | 2023 年 10 月 17 日 | 2023 年 10 月 23 日 |
 | **Data Warehouse 的改良功能** | 建立 Data Warehouse 要求時，您現在可以設定雲端帳戶做為報告目的地。以下雲端帳戶類型可用來傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件 (此選項為先前提供)</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用做為報告目的地，但已經不再為建議選項。<p>建立和管理 Data Warehouse 要求時的使用者體驗也有所改善。如需更多資訊，請參閱[建立 Data Warehouse 要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html?lang=zh-Hant)。 | 2023 年 9 月 12 日 | 2023 年 10 月 25 日 |
-| **將Adobe Analytics專案及任何包含的元件移轉至Customer Journey Analytics** | 您現在可以將Adobe Analytics專案移轉至Customer Journey Analytics。 此程式可簡化從Adobe Analytics到Customer Journey Analytics的轉換。 將專案移轉至Customer Journey Analytics時，資產會從Adobe Analytics報表套裝對應至Customer Journey Analytics資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | 不適用 | 2023 年 10 月 4 日 |
+| **將Adobe Analytics專案及任何包含的元件移轉至Customer Journey Analytics** | 您現在可以將Adobe Analytics專案移轉至Customer Journey Analytics。 此程式可簡化從Adobe Analytics到Customer Journey Analytics的轉換。 將專案移轉至Customer Journey Analytics時，資產會從Adobe Analytics報表套裝對應至Customer Journey Analytics資料檢視。 [了解更多](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/component-migration.html) | 2023 年 10 月 11 日 | 2023 年 10 月 25 日 |
 
 {style="table-layout:auto"}
 
