@@ -5,9 +5,9 @@ uuid: 562cb6bf-9396-42a3-adf4-9651af8341cb
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: c2adbe93-6a52-45a0-8a81-2799bf63f70f
-source-git-commit: 99f692c6049708f5feac02d683f14793a57ddb26
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '766'
 ht-degree: 100%
 
 ---
@@ -17,9 +17,6 @@ ht-degree: 100%
 {{ra-eol}}
 
 「Report &amp; Analytics」中的報表功能表概述。
-
->[!IMPORTANT]
->自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。 本通知說明生命週期結束程序。
 
 報表功能表提供下列功能：
 

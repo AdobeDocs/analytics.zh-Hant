@@ -4,9 +4,9 @@ description: Reports & Analytics 用於每個報表的維度和量度。
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: e3c23d17-fc4b-479e-9c48-6f27ef0de4e3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1863'
 ht-degree: 100%
 
 ---
@@ -20,9 +20,6 @@ Reports &amp; Analytics 中的每個報表都使用專用的維度和預設量�
 >[!NOTE]
 >
 >您的報表功能表可能會根據組織的管理員所做的自訂而有所不同。請參閱「管理員使用指南」中的[功能表自訂](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/customize-menus.md)。
-
->[!IMPORTANT]
->自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。 本通知說明生命週期結束程序。
 
 ## 網站量度
 

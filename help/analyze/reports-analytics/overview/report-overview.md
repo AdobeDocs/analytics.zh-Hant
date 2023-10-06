@@ -5,9 +5,9 @@ uuid: 32f72961-cb94-4e50-ae18-03326e02bc8b
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: f872b9fb-d857-4170-9c9d-7d2c14e0fd45
-source-git-commit: 4ddc2640aa8b3a22411c86ff8bfe0ecf345a3d63
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '320'
 ht-degree: 100%
 
 ---
@@ -19,9 +19,6 @@ ht-degree: 100%
 報告功能 (包括工具列、日曆及詳細資料表格) 的簡介。
 
 此範例顯示[!UICONTROL 頁面報告]。視您執行的報告而定，設定選項會跟著改變。例如，您可以不從網站內容報告中選取趨勢或[!UICONTROL 排名]，改為在[!UICONTROL 網站度量]報告中指定精細度和頁面名稱。
-
->[!IMPORTANT]
->自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術等功能，不再符合 Adobe 的技術標準。 大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。 本通知說明生命週期結束程序。
 
 ## 範例頁面報告 {#section_288CC85536684C2DB184141358481EF0}
 

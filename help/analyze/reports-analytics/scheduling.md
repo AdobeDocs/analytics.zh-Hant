@@ -6,19 +6,18 @@ uuid: 1230b0f3-e026-4b83-b231-14d6f75a3836
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: ec59d365-f294-41da-ae36-3b4ebe64ab23
-source-git-commit: ce7f953b8f7f1f7d0616074454e4401937fcc0c7
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1655'
 ht-degree: 98%
 
 ---
 
 # 報表排程和分發
 
-排程、下載和發佈報表的相關資訊。
+{{ra-eol}}
 
->[!IMPORTANT]
->在 2022 年 4 月 21 日，我們宣布淘汰排程報告的幾個特定功能，為先前宣布的 Reports &amp; Analytics 生命週期結束做準備。這些功能包括排程新報告，以及擷取新資料的能力。因應客戶要求延長以及為了順利從 Reports &amp; Analytics 進行轉換，我們決定將這些功能的存取權延長到 2023 年 1 月 31 日。請注意，報告和資料擷取的到期窗口限制仍維持九個月；報告和資料擷取的傳送將在此期間結束時暫停，除非重新啟用排程。[了解更多](/help/analyze/reports-analytics/scheduled-reports-eol.md)
+排程、下載和發佈報表的相關資訊。
 
 在 Adobe Analytics 應用程式內排程要傳送的報表時，您可以使用「排程和分送」工具檢視已自動傳送的檔案，以及修改或終止傳送。
 
@@ -44,7 +43,7 @@ ht-degree: 98%
 
 ## 傳送報表 {#task_27642CD33D484FD0BF59EBD159EEF52C}
 
-若要下載各種格式的報表並透過電子郵件傳送，並排程報表進行傳送：
+若要下載和透過電子郵件傳送多種格式的報表，並排程報表的傳送：
 
 1. 執行報表，然後按一下&#x200B;**[!UICONTROL 「更多]** > **[!UICONTROL 傳送」]**。
 1. 指定傳送選項：
@@ -115,7 +114,7 @@ ht-degree: 98%
 
 ## 共用報表連結 {#task_9711DDE9E140451B8C914EC5513E21EC}
 
-您可以產生要傳送給其他使用者的報表連結(URL)來共用報表。
+您可以透過產生報表連結(URL)以傳送給另一個使用者來共用報表。
 
 當收件者按一下連結時，系統即要求登入憑證 (公司名稱、使用者名稱和密碼)。登入後，收件者顯示報表由最初使用者產生。套用標準權限限制。
 

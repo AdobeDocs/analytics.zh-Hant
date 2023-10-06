@@ -4,7 +4,7 @@ title: 支援的即時量度和維度概述
 topic-fix: Reports
 feature: Real-time
 exl-id: 736a3caf-ee04-4aa4-8d9b-ba891cabda61
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 支援的即時量度和維度
+
+{{ra-eol}}
 
 列出即時報告支援的量度和維度。如果您已定義分類，則也支援分類。
 

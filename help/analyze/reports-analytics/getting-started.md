@@ -4,19 +4,18 @@ title: Reports & Analytics 快速入門
 feature: Reports & Analytics Basics
 role: User, Admin
 exl-id: 7bd8f28c-2b7a-4220-bd82-1e43edc2c0cd
-source-git-commit: 34ba0e09cd909951a777b0ad3da080958633f97e
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '695'
 ht-degree: 95%
 
 ---
 
 # 開始使用 Reports &amp; Analytics
 
-使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
+{{ra-eol}}
 
->[!IMPORTANT]
->自 **2023 年 12 月 31 日**&#x200B;起生效，Adobe 計畫停止支援 Reports &amp; Analytics 及其隨附的報告和功能。 Reports &amp; Analytics 及其所有報告和時間表目前都將停止運作。 支援 Reports &amp; Analytics 的報告、視覺效果和基礎技術不再符合 Adobe 的技術標準。大部分的 Reports &amp; Analytics 功能都可在 Analysis Workspace 中使用。 自 Analysis Workspace 在 2015 年發佈以來，Reports &amp; Analytics 功能已移至 Analysis Workspace 並已達到工作流程同位臨界值。 本通知說明生命週期結束程序。
+使用 Reports &amp; Analytics 前，請先了解這些基本的登入和設定工作，以及存取帳戶資訊的方法。
 
 「報表」可提供對傳統網頁型通路及創新型通路 (例如行動、視訊及社交網路) 的分析。報表的一些範例包括：
 
@@ -40,7 +39,7 @@ ht-degree: 95%
 
 ## 登入 Reports &amp; Analytics
 
-存取介面之前，請與您的Adobe帳戶團隊或客戶服務合作，以設定您公司的帳戶。
+存取介面之前，請與您的Adobe帳戶團隊或客戶服務人員合作，以設定您公司的帳戶。
 
 ## 使用 Experience Cloud 登入
 

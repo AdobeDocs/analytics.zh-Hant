@@ -4,7 +4,7 @@ title: 即時報表概觀
 topic-fix: Reports
 feature: Real-time
 exl-id: 056235bc-42ea-4118-aa54-bc7666044fe3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 246fbe068898ad04db2f324975fc27cb24bc7f58
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 100%
@@ -12,6 +12,8 @@ ht-degree: 100%
 ---
 
 # 即時報表概觀
+
+{{ra-eol}}
 
 即時報表會即時顯示網頁流量和排名頁面檢視次數。提供可操作的資料，供您據以進行業務決策。
 
