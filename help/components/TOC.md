@@ -7,7 +7,7 @@ user-guide-description: 使用元件管理資料，例如區段、計算量度�
 source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 98%
    + [行銷管道詳細資料](dimensions/marketing-detail.md)
    + [分鐘](dimensions/minute.md)
    + [行動生命週期維度](dimensions/lifecycle-dimensions.md)
-   + [行動查詢維度](dimensions/mobile-dimensions.md)
+   + [行動查閱維度](dimensions/mobile-dimensions.md)
    + [顯示器解析度](dimensions/monitor-resolution.md)
    + [月份](dimensions/month-of-year.md)
    + [月](dimensions/month.md)
@@ -112,7 +112,7 @@ ht-degree: 98%
    + [計算重複實例數](metrics/count-repeat-instances.md)
    + [平均頁面深度](metrics/average-page-depth.md)
    + [每次造訪的平均頁面瀏覽數](metrics/average-page-views-per-visit.md)
-   + [平均作業長度](metrics/average-session-length.md)
+   + [平均工作階段長度](metrics/average-session-length.md)
    + [網站平均逗留時間](metrics/average-time-on-site.md)
    + [機器人發生次數](metrics/bot-occurrences.md)
    + [機器人頁面檢視次數](metrics/bot-page-views.md)
@@ -216,7 +216,7 @@ ht-degree: 98%
 + 虛擬報程套裝 {#virtual-report-suites}
    + [虛擬報程套裝總覽](vrs/vrs-about.md)
    + [虛擬報程套裝 - 元件管理](vrs/vrs-components.md)
-   + [內容感知作業](vrs/vrs-mobile-visit-processing.md)
+   + [內容感知工作階段](vrs/vrs-mobile-visit-processing.md)
    + [報程時間處理功能](vrs/vrs-report-time-processing.md)
    + [A4T 考量事項](vrs/vrs-a4t.md)
    + [VRS 常見問答](vrs/vrs-faq.md)
