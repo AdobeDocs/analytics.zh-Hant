@@ -2,10 +2,11 @@
 description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
-source-git-commit: 5ed0c4b8cb4b1a50cf25df1459faecadcc19ea29
+exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
+source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
 workflow-type: tm+mt
-source-wordcount: '2084'
-ht-degree: 16%
+source-wordcount: '2255'
+ht-degree: 15%
 
 ---
 
@@ -57,7 +58,7 @@ ht-degree: 16%
 
    1. 選取 [!UICONTROL **新增帳戶**]，然後指定下列資訊：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **帳戶類型**] | 選取您的雲端帳戶型別。 我們建議為每種帳戶型別設定單一帳戶，並視需要在該帳戶內設立多個位置。 <p>選擇帳戶型別後，該帳戶型別的特定欄位會顯示出來。 </p> |
       | [!UICONTROL **帳戶名稱**] | 指定帳戶的名稱。 建立位置時會顯示此名稱。 <!-- true? --> |
@@ -71,32 +72,32 @@ ht-degree: 16%
 
       指定下列資訊以設定Amazon S3角色ARN帳戶：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **角色 ARN**] | 您必須提供角色ARN (Amazon資源名稱)，Adobe才能使用該角色來存取Amazon S3帳戶。 若要這麼做，請建立來源帳戶的IAM許可權原則、將原則附加至使用者，然後建立目的地帳戶的角色。 如需特定資訊，請參閱 [此AWS檔案](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
       | [!UICONTROL **使用者 ARN**] | 使用者ARN (Amazon資源名稱)由Adobe提供。 您必須將此使用者附加至您建立的原則。 |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
       指定下列資訊以設定Google Cloud Platform帳戶：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **專案 ID**] | 您的Google雲端專案ID。 請參閱 [有關取得專案ID的Google Cloud檔案](https://cloud.google.com/resource-manager/docs/creating-managing-projects#identifying_projects). |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
       指定下列資訊以設定Azure SAS帳戶：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -106,13 +107,13 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
       指定下列資訊以設定Azure RBAC帳戶：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **應用程式 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
       | [!UICONTROL **租用戶 ID**] | 從您建立的Azure應用程式複製此ID。 在Microsoft Azure中，此資訊位於 **概觀** 標籤中。 如需詳細資訊，請參閱 [Microsoft Azure檔案，說明如何使用Microsoft identity平台註冊應用程式](https://learn.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app). |
@@ -120,13 +121,13 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++電子郵件
 
       指定下列資訊以設定電子郵件帳戶：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **收件者**] | 傳送報告時可以向特定使用者傳送電子郵件通知。指定單一電子郵件地址或以逗號分隔的電子郵件地址清單。 <!-- How does this differ from the Notification email tab? --> |
 
@@ -140,46 +141,46 @@ ht-degree: 16%
 
       指定下列資訊以設定Amazon S3位置：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **貯體名稱**] | 您想要將Adobe Analytics資料傳送至的Amazon S3帳戶中的貯體。 確保Adobe提供的使用者ARN有權將檔案上傳到此貯體。 |
       | [!UICONTROL **金鑰前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Google Cloud Platform
 
       指定下列資訊來設定Google Cloud平台位置：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **貯體名稱**] | 您想要將Adobe Analytics資料傳送至的GCP帳戶中的貯體。 確保您已授予Adobe所提供之主體的許可權，可將檔案上傳至此儲存貯體。 如需授與許可權的詳細資訊，請參閱 [將主體新增至貯體層級原則](https://cloud.google.com/storage/docs/access-control/using-iam-permissions#bucket-add) (位於Google Cloud檔案中)。 |
       | [!UICONTROL **金鑰前置詞**] | 要放置資料之儲存貯體中的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， folder_name/ |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure SAS
 
       指定下列資訊以設定Azure SAS位置：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **容器名稱**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 |
       | [!UICONTROL **金鑰前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
 
       {style="table-layout:auto"}
 
-      +++
++++
 
       +++Azure RBAC
 
       指定下列資訊以設定Azure RBAC位置：
 
-      | 欄位 | 功能 |
+      | 欄位 | 函數 |
       |---------|----------|
       | [!UICONTROL **容器名稱**] | 您指定要將Adobe Analytics資料傳送至何處的帳戶中的容器。 請確定您授與許可權，可以將檔案上傳至您先前建立的Azure應用程式。 |
       | [!UICONTROL **金鑰前置詞**] | 容器內您要放置資料的資料夾。 指定資料夾名稱，然後在名稱后面加上反斜線以建立資料夾。 例如， `folder_name/` |
@@ -187,7 +188,7 @@ ht-degree: 16%
 
       {style="table-layout:auto"}
 
-      +++
++++
 
    1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
@@ -209,14 +210,59 @@ Data Warehouse資料可以傳送至Adobe或客戶託管的FTP位置。 FTP 主�
 
 完成可用欄位時，請使用下列資訊：
 
-* [!UICONTROL **主機**]：輸入所需的FTP目的地URL。 例如，`ftp://ftp.omniture.com`。
-* [!UICONTROL **路徑**]：可留空
+#### 帳戶欄位
+
+* [!UICONTROL **帳戶名稱**]：FTP帳戶的名稱。
+
+* [!UICONTROL **帳戶說明**]：FTP帳戶的說明。
+
+* [!UICONTROL **主機名稱**]：輸入所需的FTP目的地URL。 例如，`ftp.company.com`。
+
+  >[!NOTE]
+  >
+  >  不包括 `ftp://` 在URL開頭。
+
 * [!UICONTROL **使用者名稱**]：輸入使用者名稱以登入FTP站台。
+
 * [!UICONTROL **密碼和確認密碼**]：輸入密碼以登入FTP站台。
+
+#### 位置欄位
+
+* [!UICONTROL **位置名稱**]：您想要傳送檔案的FTP帳戶位置名稱。
+
+* [!UICONTROL **位置說明**]：FTP帳戶上位置的說明。
+
+* [!UICONTROL **目錄路徑**]：FTP帳戶上位置的路徑。
 
 ### SFTP
 
 SFTP可支援Data Warehouse。 必須填入 SFTP 主機、使用者名和目的地站點，才能包含有效的 RSA 或 DSA 公開金鑰。建立Data Warehouse目的地時，您可以下載適當的公開金鑰。
+
+完成可用欄位時，請使用下列資訊：
+
+#### 帳戶欄位
+
+* [!UICONTROL **帳戶名稱**]：FTP帳戶的名稱。
+
+* [!UICONTROL **帳戶說明**]：FTP帳戶的說明。
+
+* [!UICONTROL **主機名稱**]：輸入所需的SFTP目的地URL。 例如，`sftp.company.com`。
+
+  >[!NOTE]
+  >
+  >  不包括 `sftp://` 在URL開頭。
+
+* [!UICONTROL **使用者名稱**]：輸入使用者名稱以登入SFTP網站。
+
+* [!UICONTROL **公開金鑰**]：建立Data Warehouse目的地時，請下載適當的公開金鑰。
+
+#### 位置欄位
+
+* [!UICONTROL **位置名稱**]：您要傳送檔案的SFTP帳戶位置名稱。
+
+* [!UICONTROL **位置說明**]：SFTP帳戶上位置的說明。
+
+* [!UICONTROL **目錄路徑**]：SFTP帳戶上位置的路徑。
 
 ### S3
 
