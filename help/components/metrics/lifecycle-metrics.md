@@ -1,17 +1,17 @@
 ---
 name: Mobile lifecycle metrics
-description: 根據使用行動SDK收集的資料量度。
+description: 此量度是以使用 Mobile SDK 收集之資料為基礎。
 feature: Metrics
 source-git-commit: fa9ba599ccc3d6fe1176e6b2ec20457f30cb5959
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '38'
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
 # 行動生命週期量度
 
-| 生命週期量度名稱 | 說明 | 內容資料變數 |
+| 生命週期量度名稱 | 說明 | 上下文資料變數 |
 | --- | --- | --- |
 | 首次啟動 | | `a.InstallEvent` |
 | 升級 | | `a.UpgradeEvent` |
