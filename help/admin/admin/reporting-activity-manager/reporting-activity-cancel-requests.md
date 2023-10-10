@@ -2,9 +2,9 @@
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 title: 取消報告活動管理器中的報告請求
 feature: Admin Tools
-source-git-commit: dc09510ea1d97c39d00df309faf85f90003b50fa
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 7%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 7%
 
 ## 取消特定請求
 
-您可以選擇您要取消的特定請求。
+您可以取消耗用大量報告容量的個別請求。
 
 1. 在Adobe Analytics中，前往 **[!UICONTROL 管理員]** > **[!UICONTROL 報告活動管理器]**.
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 1. 選取 [!UICONTROL **取消請求**].
 
-   此 [!UICONTROL **取消x個報表請求**] 對話方塊隨即顯示。
+   此 [!UICONTROL **取消 _x_ 報表請求**] 對話方塊隨即顯示。
 
 1. 取消訊息欄位會顯示取消使用者請求時向使用者顯示的訊息。 已提供預設訊息。 您可以更新預設訊息以提供其他詳細資料。
 
@@ -76,7 +76,7 @@ ht-degree: 7%
 
 1. 選取 [!UICONTROL **取消請求**].
 
-   此 [!UICONTROL **取消x位使用者的x個報表請求**] 對話方塊隨即顯示。
+   此 [!UICONTROL **取消 _x_ 來自x位使用者的報表請求**] 對話方塊隨即顯示。
 
 1. 取消訊息欄位會顯示取消使用者請求時向使用者顯示的訊息。 已提供預設訊息。 您可以更新預設訊息以提供其他詳細資料。
 
@@ -111,7 +111,7 @@ ht-degree: 7%
 
 1. 選取 [!UICONTROL **取消請求**].
 
-   此 [!UICONTROL **取消x個專案的x個報表請求**] 對話方塊隨即顯示。
+   此 [!UICONTROL **取消 _x_ 來自x個專案的報表請求**] 對話方塊隨即顯示。
 
 1. 取消訊息欄位會顯示取消使用者請求時向使用者顯示的訊息。 已提供預設訊息。 您可以更新預設訊息以提供其他詳細資料。
 
@@ -132,6 +132,6 @@ ht-degree: 7%
 
 ## 使用者存取已取消報告時的體驗
 
-在Analysis Workspace中，嘗試存取已取消之報表的使用者會看到下列訊息：
+在Analysis Workspace中，使用者嘗試存取管理員已取消的報告時，會看到下列訊息：
 
 ![取消使用者通知](/help/admin/admin/assets/cancel-user-facing.png)

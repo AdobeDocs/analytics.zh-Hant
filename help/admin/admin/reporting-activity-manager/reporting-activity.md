@@ -4,10 +4,10 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: 0e03379550808e5be3e86f0f9ddbbedd026d4910
+source-git-commit: 4da5da34518c3fb7350799c185faed789ef5a22b
 workflow-type: tm+mt
-source-wordcount: '1593'
-ht-degree: 24%
+source-wordcount: '1616'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 24%
 
      若要將報表套裝標示為我的最愛，請選取報表套裝名稱左側的星號圖示。
 
-<!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
+     <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
 1. 檢視每個報表套裝的使用率資訊。 您可以選取欄標題，依該欄排序表格。
 
@@ -44,10 +44,10 @@ ht-degree: 24%
    | UI 元素 | 說明 |
    | --- | --- |
    | **[!UICONTROL 報告套裝]** | 您正在監控其報告活動的基本報告套裝。 |
-   | **[!UICONTROL 虛擬報告套裝]** | 顯示注入到此基本報告套裝所有虛擬報告套裝。虛擬報告套裝因套用了額外層級的篩選和細分，而增加了報告請求的複雜性。來自虛擬報告套裝的所有請求都會合併並歸結為基本報告套裝。<p>例如，如果您有來自 5 個 VRS 的 10 個請求，那麼在基本層級的報告套裝中會有 50 個請求。如此一來，您很快就會達到容量。 |
-   | **[!UICONTROL 容量使用情況]** | 報告套裝即時使用的報告容量百分比。 <p>**注意** 即使是使用容量為100%也不一定表示您應該開始取消報告請求。 如果平均等待時間合理，則100%使用容量可能狀況良好。 如果排入佇列的請求數量也在增加，則100%使用容量可能表示出現問題。</p> |
+   | **[!UICONTROL 虛擬報告套裝]** | 顯示注入到此基本報告套裝所有虛擬報告套裝。虛擬報告套裝因套用了額外層級的篩選和細分，而增加了報告請求的複雜性。來自虛擬報表套裝的所有請求都會合併至基本報表套裝。<p>例如，如果您有來自5個虛擬報表套裝的10個請求，那麼在基本層級的報表套裝中會有50個請求。 如此一來，您很快就會達到容量。 |
+   | **[!UICONTROL 容量使用情況]** | 報告套裝即時使用的報告容量百分比。 <p>**注意** 使用容量為100%並不一定表示您應立即開始取消報告請求。 如果平均等待時間合理，則100%使用容量可能狀況良好。 另一方面，如果排入佇列的請求數量也在增加，則100%的使用容量可能會造成問題。</p> |
    | **[!UICONTROL 已佇列的請求]** | 等待處理的要求數目。 <!-- ??? --> |
-   | **[!UICONTROL 佇列等待時間]** | 處理每個要求的平均等待時間。 <!-- ???? --> |
+   | **[!UICONTROL 佇列等待時間]** | 開始處理要求前的平均等待時間。 <!-- ???? --> |
    | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：已在報表套裝上執行報表，且正在監控其活動。</li><li>[!UICONTROL **非使用中**] （灰色）：報表套裝上未曾執行過任何報表。 此狀態僅在首次建立報表套裝時顯示。</li></ul> |
 
    {style="table-layout:auto"}
@@ -66,19 +66,22 @@ ht-degree: 24%
 
    * [檢檢視表](#view-graphs)
 
-   * [檢視表格](#view-data-in-the-table)
+   * [檢視表格](#view-table)
 
 ### 檢檢視表
 
-下列圖表可協助您更清楚瞭解報表套裝中發生的活動。 如果圖形不可見，請選取 [!UICONTROL **顯示圖表**] 按鈕。
+下列圖表可協助您更清楚瞭解報表套裝中發生的活動。
+
+如果圖形不可見，請選取 [!UICONTROL **顯示圖表**] 按鈕。
 
 #### 使用率圖表 {#utilization}
 
 「使用率」圖表顯示所選報表套裝在過去2小時內的報表使用率。
 
-* X軸顯示過去2小時內的報告使用容量。
-* Y軸以分鐘顯示報告使用容量百分比。
-* 您可以將滑鼠移至圖表上方，檢視該分鐘使用容量百分比最高的時間點。
+暫留在圖表上可檢視該分鐘使用容量百分比最高的時間點。
+
+* **X軸**：過去2小時內的報告使用容量。
+* **Y軸**：以分鐘為單位的報表使用容量百分比。
 
   ![使用率圖表](assets/utilization-graph.png)
 
@@ -86,9 +89,10 @@ ht-degree: 24%
 
 「不同使用者」圖表顯示所選報表套裝在過去2小時內的報表活動。
 
-* X軸顯示2小時的時間範圍。
-* Y軸以分鐘為單位顯示提出報表請求的使用者人數。
-* 您可以將滑鼠移至圖表上方，檢視該分鐘使用者數量上限的時間點。
+將滑鼠指標暫留在圖表上可檢視該分鐘最大使用者數最高的時間點。
+
+* **X軸**：過去2小時時間範圍內的報告活動。
+* **Y軸**：提出報表請求的使用者人數（以分鐘計）。
 
   ![不同使用者圖表](assets/distinct-users-graph.png)
 
@@ -98,9 +102,10 @@ ht-degree: 24%
 
 The Requests graph shows the number of processed and completed requests for the selected report suite over the last 2 hours. 
 
-* The x-axis shows a 2-hour time frame.
-* The y-axis shows the number of processed requests (in purple) and completed requests (in green), by minute.
-* You can hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+Hover over the chart to view points in time where the maximum number of requests was highest for that minute.
+
+* **X-axis**: The number of processed and completed requests over the last 2-hour time frame.
+* **Y-axis**: The number of processed requests (in purple) and completed requests (in green), by minute.
 
    ![Distinct Users graph](assets/requests-graph.png)
 
@@ -108,9 +113,10 @@ The Requests graph shows the number of processed and completed requests for the 
 
 The Queueing graph shows the average queue wait time (in seconds) for reporting requests for the selected report suite over the last 2 hours. 
 
-* The x-axis shows a 2-hour time frame.
-* The y-axis shows the average wait time (in seconds).
-* You can hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+Hover over the chart to view points in time where the maximum average wait time was highest for that minute.
+
+* **X-axis**: The average queue wait time for reporting requests over the last a 2-hour time frame.
+* **Y-axis**: The average wait time (in seconds).
 
    ![Distinct Users graph](assets/queueing-graph.png)
 
@@ -135,15 +141,15 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 | [!UICONTROL **請求ID**] | 可用於疑難排解。 |
 | [!UICONTROL **執行時間**] | 要求已執行多久。 |
 | [!UICONTROL **開始時間**] | 要求開始處理的時間（根據管理員的當地時間）。 |
-| [!UICONTROL **等待時間**] | 請求在處理之前已等待多長時間。 當有足夠的容量時，一般為「0」。 |
+| [!UICONTROL **等待時間**] | 請求在處理之前已等待多長時間。 當有足夠的容量時，此值通常為「0」。 |
 | [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li></ul> |
-| [!UICONTROL **使用者**] | 起始請求的使用者。 如果此欄的值為 [!UICONTROL **無法辨識**]，這表示使用者是在您沒有管理許可權的登入公司。 |
+| [!UICONTROL **使用者**] | 起始請求的使用者。 <p>**注意：** 如果此欄的值為 [!UICONTROL **無法辨識**]，這表示使用者是在您沒有管理許可權的登入公司。</p> |
 | [!UICONTROL **專案**] | 儲存的 Workspace 專案名稱、API 報告 ID 等。(中繼資料可能因各種應用程式而異。) |
 | [!UICONTROL **狀態**] | 狀態指示器： <ul><li>**執行中**：請求目前正處理中。</li><li>**擱置中**：請求正等待處理中。</li></ul> |
-| [!UICONTROL **複雜性**] | 並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。 可能的值包括： <ul><li>[!UICONTROL **低**]</li><li>[!UICONTROL **媒體**]</li><li>[!UICONTROL **高**]</li></ul>此值會受下列欄中的值影響：<ul><li>[!UICONTROL **月邊界**]</li><li>[!UICONTROL **欄**]</li><li>[!UICONTROL **區段**]</li></ul> |
-| [!UICONTROL **月邊界**] | 請求中包含的月數。 這增加了請求的複雜性。 |
-| [!UICONTROL **欄**] | 請求中的量度和劃分數。 這增加了請求的複雜性。 |
-| [!UICONTROL **區段**] | 套用至請求的區段數。 這增加了請求的複雜性。 |
+| [!UICONTROL **複雜性**] | 並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。 <p>可能的值包括：</p> <ul><li>[!UICONTROL **低**]</li><li>[!UICONTROL **媒體**]</li><li>[!UICONTROL **高**]</li></ul>此值會受下列欄中的值影響：<ul><li>[!UICONTROL **月邊界**]</li><li>[!UICONTROL **欄**]</li><li>[!UICONTROL **區段**]</li></ul> |
+| [!UICONTROL **月邊界**] | 請求中包含的月數。 月邊界越多，請求就越複雜。 |
+| [!UICONTROL **欄**] | 請求中的量度和劃分數。 更多欄會增加請求的複雜性。 |
+| [!UICONTROL **區段**] | 套用至請求的區段數。 更多區段會增加請求的複雜性。 |
 
 {style="table-layout:auto"}
 
@@ -158,9 +164,9 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 | [!UICONTROL **專案數量**] | 與使用者相關聯的專案數。 <!-- ??? --> |
 | [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li></ul> |
 | [!UICONTROL **平均複雜性**] | 使用者起始的要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
-| [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 這會增加請求的平均複雜性。 |
-| [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 這增加了平均複雜性。 |
-| [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 這增加了平均複雜性。 |
+| [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
+| [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
+| [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
 
 {style="table-layout:auto"}
 
@@ -175,9 +181,9 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 | [!UICONTROL **使用者人數**] | 與專案相關聯的使用者人數。 <!-- ??? --> |
 | [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li></ul> |
 | [!UICONTROL **平均複雜性**] | 專案中包含之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p><ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
-| [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 這會增加請求的平均複雜性。 |
-| [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 這增加了平均複雜性。 |
-| [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 這增加了平均複雜性。 |
+| [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
+| [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
+| [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
 
 {style="table-layout:auto"}
 
@@ -192,9 +198,9 @@ The Queueing graph shows the average queue wait time (in seconds) for reporting 
 | [!UICONTROL **使用者人數**] | 與應用程式相關聯的使用者數目。 <!--???--> |
 | [!UICONTROL **專案數量**] | 與應用程式相關聯的專案數目。 <!--???--> |
 | [!UICONTROL **平均複雜性**] | 與應用程式相關之要求的平均複雜性。 <p>並非所有請求都需要相同的時間處理。 要求複雜性有助於提供處理要求所需時間的一般概念。</p><p>此欄中的值以分數為基礎，分數由下列欄中的值決定：</p>此欄中的值以分數為基礎，分數由下列欄中的值決定：<ul><li>[!UICONTROL **平均月邊界**]</li><li>[!UICONTROL **平均欄數**]</li><li>[!UICONTROL **平均區段數**]</li></ul> |
-| [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 這會增加請求的平均複雜性。 |
-| [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 這增加了平均複雜性。 |
-| [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 這增加了平均複雜性。 |
+| [!UICONTROL **平均月邊界**] | 包含在要求中的平均月數。 月邊界越多，請求就越複雜。 |
+| [!UICONTROL **平均欄數**] | 包含的請求中的平均量度和劃分數。 更多欄會增加請求的複雜性。 |
+| [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
 
 {style="table-layout:auto"}
 
