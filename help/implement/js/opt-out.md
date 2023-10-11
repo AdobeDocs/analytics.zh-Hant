@@ -3,14 +3,16 @@ title: 選擇退出連結
 description: 瞭解如何為網站的訪客建立實施選擇退出連結。
 feature: Implementation Basics
 exl-id: 08b8c7cc-28c6-45e3-ab44-77471eea8ef1
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 574c705a3127c82c947d0a1cba4beab63109d2c9
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 92%
 
 ---
 
 # 實施選擇退出連結
+
+*此說明頁面可讓Adobe Analytics客戶為其使用者提供選擇退出連結。 如果您不是Adobe Analytics客戶，請參閱 [Adobe隱私權選擇](https://www.adobe.com/tw/privacy/opt-out.html) 以控制Adobe如何使用您的資訊。*
 
 >[!IMPORTANT]
 >
@@ -38,7 +40,7 @@ ht-degree: 99%
    1. 在網頁伺服器上，利用程式碼或文字編輯器開啟網站使用的 AppMeasurement.js 檔案。
    1. 記下 `trackingServer` 變數值。
 
-* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)：
+* 使用 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/experience-platform/debugger/home.html)：
    1. 使用 Chrome 瀏覽器導覽至您的網站。
    1. 開啟 Experience Cloud Debugger，然後前往[!UICONTROL 「網路」]標記。
    1. 記下[!UICONTROL 「要求 URL - 主機名稱」]值。
