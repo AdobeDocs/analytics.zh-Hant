@@ -3,10 +3,10 @@ title: 使用 Adobe Experience Platform Web SDK 實施 Adobe Analytics
 description: 在 Adobe Experience Platform 資料彙集中使用 Web SDK 擴充功能傳送資料給 Adobe Analytics。
 exl-id: 97f8d650-247f-4386-b4d2-699f3dab0467
 feature: Implementation Basics
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '830'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 96%
 
 實施任務的高層級概觀：
 
-![如何使用Web SDK工作流程實作Adobe Analytics，如本節所述。](../../assets/websdk-annotated.png)
+![如何使用使用Web SDK工作流程實作Adobe Analytics，如本節所述。](../../assets/websdk-annotated.png)
 
 <table style="width:100%">
 
@@ -86,7 +86,7 @@ ht-degree: 96%
 
 實施任務的高層級概觀：
 
-![如何使用Web SDK擴充功能工作流程實作Adobe Analytics，如本節所述。](../../assets/websdk-extension-annotated.png)
+![如何使用使用Web SDK擴充功能工作流程來實作Adobe Analytics，如本節所述。](../../assets/websdk-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -138,8 +138,8 @@ ht-degree: 96%
 
 <tr>
 <td>8</td>
-<td><b>迭代、驗證並發佈</b>至生產環境。將標記屬性新增到您的網站。然後使用資料元素、規則等來自訂您的實施。</td>
-<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant">發佈概觀</a></td>
+<td><b>迭代、驗證並發佈</b>至生產環境。內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">內嵌程式碼</a><br/><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=zh-Hant">發佈概觀</a></td>
 </tr>
 
 </table>

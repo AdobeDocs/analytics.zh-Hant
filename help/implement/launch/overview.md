@@ -3,10 +3,10 @@ title: 使用 Analytics 擴充功能實施 Adobe Analytics
 description: 了解如何使用標記和 Analytics 擴充功能來實施 Adobe Analytics
 feature: Launch Implementation
 exl-id: 52990731-8a68-4779-ad42-6ec94b0aabd1
-source-git-commit: bef853934683f647e05d42e1a751217c8f9b5dc4
+source-git-commit: 8cb2fd426e9fef247d79de4c138ea814dd691ed3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 95%
+source-wordcount: '389'
+ht-degree: 87%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 
 
 
-![如何使用Analytics擴充功能工作流程實作Adobe Analytics，如本節所述。](../assets/analytics-extension-annotated.png)
+![如何使用Adobe Analytics擴充功能工作流程實施Analytics，如本節所述。](../assets/analytics-extension-annotated.png)
 
 <table style="width:100%">
 
@@ -63,8 +63,8 @@ Adobe Experience Platform 中的標記是標記管理解決方案，可讓您部
 
 <tr>
 <td>6</td> 
-<td><b>驗證並發佈至生產環境</b>. 將標記屬性新增到您的網站。然後使用資料元素、規則等來自訂您的實施。</td>
-<td><a href="./validate-publish-prod.md">驗證開發實施並發佈至生產環境</a></td>
+<td><b>驗證並發佈至生產環境</b>. 內嵌程式碼，以將您的標籤屬性包含在網站頁面中。 然後使用資料元素、規則等來自訂您的實施。</td>
+<td><a href="https://experienceleague.adobe.com/docs/experience-platform/tags/publish/environments/environments.html?lang=en#embed-code">內嵌程式碼</a><br/><a href="./validate-publish-prod.md">驗證開發實作並發佈至生產環境</a></td>
 </tr>
 
 </table>
