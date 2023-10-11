@@ -4,10 +4,10 @@ title: 區段
 feature: Segmentation
 role: User, Admin
 exl-id: 67112e13-4d0a-4d77-be50-496c3d28779c
-source-git-commit: f2a22aa71c928be30d365fcea71c8fb42efc3919
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 95%
+source-wordcount: '497'
+ht-degree: 93%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 95%
 | 區段類型 | 在哪裡建立？ | 適用於何處？ | 何時使用 |
 | --- | --- | --- | --- |
 | 元件清單區段 | 按一下「+」(加號)，系統即會將您帶至「[區段生產器](/help/components/segmentation/segmentation-workflow/seg-build.md)」 | 您所有的工作區專案 | 適用於較複雜的區段、循序區段 |
-| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於隨選單一規則區段（透過拖放），或新增/編輯多個規則（透過按一下「區段」圖示） |
+| 快速區段 | [快速區段產生器](/help/analyze/analysis-workspace/components/segments/quick-segments.md) | 僅限專案，但可以儲存並新增至您的分段清單中。 | 可用於臨時單一規則區段（使用拖放功能），或新增/編輯多個規則（按一下「區段」圖示） |
 | 以計算量度為基礎的區段 | [計算量度產生器](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/metrics-with-segments.html?lang=zh-Hant) | 至個別計算量度 | 在您的量度定義中套用區段 |
-| 以 VRS 為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant) | 至個別虛擬報表套裝 | 在您的 VRS 定義中套用區段 |
+| 以虛擬報表套裝為基礎的區段 | [虛擬報表套裝產生器](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html?lang=zh-Hant) | 至個別虛擬報表套裝 | 在您的虛擬報表套裝定義中套用區段 |
 
 ## 影片
 

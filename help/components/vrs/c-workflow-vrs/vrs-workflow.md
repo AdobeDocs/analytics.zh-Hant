@@ -4,10 +4,10 @@ keywords: 虛擬報告套裝
 title: 虛擬報告套裝工作流程
 feature: VRS
 exl-id: 6f68b5a2-04d6-4521-86d0-85c9f323d03c
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 82%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/c-server-side-forwarding/assets/step2_icon.png)[套用一或多個區段至父報告套裝](/help/components/vrs/c-workflow-vrs/vrs-create.md)以建立虛擬報告套裝。
 
-虛擬報告套裝是在「虛擬報告套裝管理器」中建立的 (元件 > 虛擬報告套裝)。
+虛擬報表套裝是在「虛擬報表套裝管理器」中建立的，可透過以下網址取得： **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]**.
 
 虛擬報告套裝一旦建立後，就會在整個 UI 中被視為基本報告套裝，通常也支援對其使用大部分的擴充功能。例如，虛擬報告套裝會像其他報告套裝一樣顯示在報告套裝選取器中，也可供個別選取。
 
@@ -31,4 +31,4 @@ ht-degree: 100%
 
 ![](assets/step4_icon.png)[管理](/help/components/vrs/c-workflow-vrs/vrs-manage.md)虛擬報告套裝。
 
-「虛擬報告套裝管理器」可以讓您編輯、新增、標記、刪除、重新命名、批准、複製、匯出以及篩選虛擬報告套裝。但不會顯示給非管理員使用者。
+「虛擬報表套裝管理器」可以讓您編輯、新增、標籤、刪除、重新命名、核准、複製、匯出以及篩選虛擬報表套裝。 但不會顯示給非管理員使用者。

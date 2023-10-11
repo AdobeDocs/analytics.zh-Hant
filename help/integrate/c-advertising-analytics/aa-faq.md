@@ -3,10 +3,10 @@ description: 有關 Advertising Analytics 的常見問題集。
 title: Advertising Analytics 的常見問題集
 feature: Advertising Analytics
 exl-id: 664a5641-1c79-439f-a9fb-2ff134574412
-source-git-commit: 10ff98f7ca4697afe5c2dae66be415c0d68c4aac
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '1414'
-ht-degree: 100%
+source-wordcount: '1419'
+ht-degree: 93%
 
 ---
 
@@ -94,8 +94,8 @@ ht-degree: 100%
    <td colname="col2"> <p>答：若要將報表套裝指派至 Advertising Analytics 帳戶，您必須先<a href="/help/integrate/c-advertising-analytics/c-adanalytics-workflow/aa-provision-rs.md"  >佈建所需的報表套裝，Advertising Analytics 的報告功能才能正常運作</a>。 </p> <p>您可以透過個別的「管理員」頁面完成指派作業，請依序存取：<span class="ignoretag"><span class="uicontrol">「管理員</span> &gt; <span class="uicontrol">報表套裝</span> &gt; <span class="uicontrol">[選取啟用 Experience Cloud 的報表套裝]</span> &gt; <span class="uicontrol">編輯設定</span> &gt; <span class="uicontrol">Advertising Analytics 設定」</span></span>。 </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>問：我可以將<b>虛擬報表套裝</b> (VRS) 指派給 Advertising Analytics 帳戶嗎？ </p> </td> 
-   <td colname="col2"> <p>答：虛擬報表套裝不會收集資料，所以您無法將 Advertising Analytics 帳戶直接對應至 VRS。 </p> <p>不過，您可以針對要查看資料的 VRS，將 Advertising Analytics 帳戶對應到 VRS 的上層報表套裝。 </p> <p>搜尋引擎量度 (點擊次數/成本/曝光數) 可能不會顯示於 VRS，除非您在以 AMO ID (或其分類) 為基礎的區段邏輯中加入「or」條件。例如：新增「有 AMO ID 的所有點擊」後，區段中就會包含搜尋引擎量度。 </p> </td> 
+   <td colname="col1"> <p>問：是否可以指派 <b>虛擬報告套裝</b> 至Advertising Analytics帳戶？ </p> </td> 
+   <td colname="col2"> <p>答：虛擬報表套裝不會收集資料，因此您無法將Advertising Analytics帳戶直接對應至虛擬報表套裝。 </p> <p>不過，您可以將Advertising Analytics帳戶對應至您想要在其中檢視資料的虛擬報表套裝的父報表套裝。 </p> <p>搜尋引擎量度（點選次數/成本/曝光數）可能不會顯示在虛擬報表套裝中，除非您在以AMO ID （或其分類）為基礎的區段邏輯中加入「或」條件。 例如：新增「有 AMO ID 的所有點擊」後，區段中就會包含搜尋引擎量度。 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>問：<b>行銷管道</b>報表可以報告 Advertising Analytics 度量嗎？ </p> </td> 

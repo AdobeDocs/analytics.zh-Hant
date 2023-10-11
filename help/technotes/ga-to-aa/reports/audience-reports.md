@@ -3,10 +3,10 @@ title: Adobe Analytics 中的對象報表
 description: 瞭解如何使用 Analysis Workspace 建立對象型報表。
 feature: Third-party Integration
 exl-id: 739b0c3d-3f74-41fa-a2cc-f02c17d85ce2
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '1715'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Google Analytics 中的「對象」報表需要設定對象。對象也需要透
 
 人口統計和興趣資料提供網站使用者的年齡、性別和興趣等相關資訊。Google 會透過其跨網站追蹤功能收集這些資料。
 
-Adobe 不會自動收集人口統計和興趣資料。但是，如果貴組織取得此資料，您可以使用 Adobe Experience Cloud 平台中的「客戶屬性」功能。它可讓您依屬性完整控制資料的整理作業，而且不僅限於人口統計或興趣。
+Adobe 不會自動收集人口統計和興趣資料。不過，如果貴組織取得此資料，您可以使用Adobe Experience Cloud平台中的客戶屬性功能。 它可讓您依屬性完整控制資料的整理作業，而且不僅限於人口統計或興趣。
 
 如需詳細資訊，請參閱客戶屬性說明。
 

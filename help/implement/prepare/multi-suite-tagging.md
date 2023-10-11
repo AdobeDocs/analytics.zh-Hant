@@ -3,10 +3,10 @@ description: 了解如何實作多套裝標記，以傳送影像要求給多個�
 title: 實作多套裝標記
 feature: Implementation Basics
 exl-id: c7fb0478-97e1-4367-8742-e7539f6f82e7
-source-git-commit: 9057cc83881a72fa039e9398ed3daaf4259ef2bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -36,4 +36,4 @@ ht-degree: 100%
 
 使用虛擬報表套裝來取代多套裝標記通常是最佳做法，但您的業務需求會決定最適合貴組織的報表套裝做法。
 
-若要了解虛擬報表套裝是否為最佳做法，請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」。 也請參閱「[虛擬報表套裝和多套裝標記的比較](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)」，以取得多套裝標記和虛擬報表套裝功能的比較。
+若要了解虛擬報表套裝是否為最佳做法，請參閱「[虛擬報表套裝和多套裝標記考量事項](/help/components/vrs/vrs-considerations.md)」。 另請參閱&quot;[虛擬報表套裝和多套裝標籤](/help/components/vrs/vrs-about.md#section_317E4D21CCD74BC38166D2F57D214F78)&quot;，以比較多套裝標籤和虛擬報表套裝功能。

@@ -3,10 +3,10 @@ title: 在 Adobe Analytics 移除機器人
 description: 在 Adobe Analytics 移除機器人的方式
 feature: Bot Removal
 exl-id: 6d4b1925-4496-4017-85f8-82bda9e92ff3
-source-git-commit: a17297af84e1f5e7fe61f886eb3906c462229087
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '793'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 ## 使用 Adobe 工具組合
 
-此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience Cloud ID 服務、分段、Data Warehouse、客戶屬性和虛擬報表套裝。 以下為工具運用方式總覽。
+此外，由於機器人會快速變形，Adobe 為此提供數種其他強大功能，只要定期適當地組合使用，有助於加強清除這些危及資料品質的來源。這些功能包括：Experience CloudID服務、細分、Data Warehouse、客戶屬性和虛擬報表套裝。  以下為工具運用方式總覽。
 
 ### 步驟 1：將訪客的 Experience Cloud ID 傳遞至新宣告的 ID
 
@@ -66,26 +66,26 @@ ht-degree: 100%
 
 請記得將 Experience Cloud 訪客 ID 設為維度並套用「機器人」區段。
 
-### 步驟 4：將此清單傳回 Adobe 作為客戶屬性
+### 步驟4：將此清單傳回Adobe作為客戶屬性
 
 收到 Data Warehouse 報表後，您就取得需要從歷史資料中篩選掉的 ECID 清單了。複製這些 ECID 並貼到空白的 .CSV 檔案，檔案中只需包含「ECID」和「機器人標幟」兩欄。
 
 * **ECID**：此欄的標題務須符合您為上述新宣告 ID 所設的名稱。
-* **機器人標幟**：新增「機器人標幟」為「客戶屬性」結構維度。
+* **機器人標幟**：新增「機器人標幟」為「客戶」屬性結構維度。
 
-將這份 .CSV 檔案匯入為「客戶屬性」，然後依照這篇[部落格文章](https://theblog.adobe.com/link-digital-behavior-customers)所述，使報表套裝訂閱「客戶屬性」。
+將這份.CSV檔案匯入為「客戶」屬性，然後依照此說明將報表套裝訂閱「客戶」屬性 [部落格貼文](https://theblog.adobe.com/link-digital-behavior-customers).
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-csv-4.png)
 
-### 步驟 5：建立可運用新「客戶屬性」的區段
+### 步驟5：建立可運用新「客戶」屬性的區段
 
 在系統處理完您的資料集並整合至 Analysis Workspace 後，請建立另一個區段，區段中採用新的「機器人標幟」客戶屬性維度和「[!UICONTROL 排除]」容器：
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-filter-seg2.png)
 
-### 步驟 6：將此區段設為虛擬報表套裝篩選條件
+### 步驟6：將此區段設為虛擬報表套裝篩選條件
 
-最後，建立[虛擬報表套裝](/help/components/vrs/vrs-about.md)，並使用此區段來篩選掉已識別的機器人：
+最後，建立 [虛擬報表套裝](/help/components/vrs/vrs-about.md) 會使用此區段來篩選掉已識別的機器人：
 
 ![](/help/admin/admin/c-manage-report-suites/c-edit-report-suites/general/bot-removal/assets/bot-vrs.png)
 

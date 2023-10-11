@@ -3,10 +3,10 @@ title: 設定跨裝置分析
 description: 設定虛擬報表套裝以啟用 CDA。
 exl-id: e6d4e0c2-6b85-4f89-b51f-c0eed7a4e3da
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 92%
 
 ---
 
@@ -37,10 +37,10 @@ Adobe 工程部門會將 CDA 佈建在您的跨裝置報表套裝上。 若要�
 
 1. 導覽至 [experiencecloud.adobe.com](https://experiencecloud.adobe.com) 並使用您的 AdobeID 憑證登入。
 2. 按一下頂端的 9 格線圖示，然後按一下「Analytics」。
-3. 將游標暫留在頂端的「元件」上，然後按一下「虛擬報表套裝」。
+3. 暫留在 **[!UICONTROL 元件]** 在頂端按一下「 」 **[!UICONTROL 虛擬報表套裝]**.
 4. 按一下「新增」。
 5. 輸入虛擬報表套裝的名稱，並確認選取已啟用 CDA 的報表套裝。
-6. (選用) 將區段套用至虛擬報表套裝。例如，您可以套用區段來將虛擬報表套裝限制為開啟 CDA 功能及開始連結後的日期。此區段可讓使用者只看到 VRS 中已連結的日期範圍。
+6. (選用) 將區段套用至虛擬報表套裝。例如，您可以套用區段來將虛擬報表套裝限制為開啟 CDA 功能及開始連結後的日期。此區段可讓使用者在虛擬報表套裝中僅看到銜接的日期範圍。
 7. 按一下「啟用報表時間處理」核取方塊，啟用包括跨裝置分析在內的多個選項。
 8. 按一下「連結跨裝置使用者造訪次數」核取方塊。
 9. 按一下「繼續」，完成虛擬報表套裝的設定，然後按一下「儲存」。

@@ -4,10 +4,10 @@ audience: end-user
 user-guide-title: Analytics 元件指南
 breadcrumb-title: 元件指南
 user-guide-description: 使用元件管理資料，例如區段、計算量度、虛擬報程套裝、行銷管道和分類。了解跨裝置分析。
-source-git-commit: f4032ac06c9057635dd0526ad046c4640c6350bf
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 97%
 
 ---
 
@@ -213,15 +213,15 @@ ht-degree: 100%
       + [計算量度：角色型權限](c-calcmetrics/cm-role-based-rights.md)
       + [計算量度總計](c-calcmetrics/cm-totals.md)
       + [預設計算量度](c-calcmetrics/cm-reference/default-calcmetrics.md)
-+ 虛擬報程套裝 {#virtual-report-suites}
++ 虛擬報表套裝 {#virtual-report-suites}
    + [虛擬報程套裝總覽](vrs/vrs-about.md)
    + [虛擬報程套裝 - 元件管理](vrs/vrs-components.md)
    + [內容感知工作階段](vrs/vrs-mobile-visit-processing.md)
    + [報程時間處理功能](vrs/vrs-report-time-processing.md)
    + [A4T 考量事項](vrs/vrs-a4t.md)
-   + [VRS 常見問答](vrs/vrs-faq.md)
-   + [VRS 和全域/多套裝標記考量事項](vrs/vrs-considerations.md)
-   + VRS 工作流程 {#vrs-workflow}
+   + [虛擬報表套裝常見問題集](vrs/vrs-faq.md)
+   + [虛擬報表套裝和全域/多套裝標籤考量事項](vrs/vrs-considerations.md)
+   + 虛擬報程套裝工作流程 {#vrs-workflow}
       + [虛擬報程套裝工作流程](vrs/c-workflow-vrs/vrs-workflow.md)
       + [建立虛擬報程套裝](vrs/c-workflow-vrs/vrs-create.md)
       + [管理虛擬報程套裝](vrs/c-workflow-vrs/vrs-manage.md)
@@ -233,7 +233,7 @@ ht-degree: 100%
    + [設定跨裝置分析](cda/setup.md)
    + [重播的運作方式](cda/replay.md)
    + [CDA Workspace 範本](cda/workspace-template.md)
-   + [將 VRS 限制為特定日期](cda/limit-vrs-date.md)
+   + [將虛擬報表套裝限製為特定日期](cda/limit-vrs-date.md)
    + [跨裝置分析常見問答](cda/faq.md)
 + 警報 {#alerts}
    + [智慧型警報](c-alerts/intellligent-alerts.md)

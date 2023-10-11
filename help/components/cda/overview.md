@@ -3,10 +3,10 @@ title: 跨裝置分析
 description: 將裝置資料連結在一起，將資料從以裝置為中心轉變為以人為中心。
 exl-id: e1c0d1e5-399d-45c2-864c-50ef93a77449
 feature: CDA
-source-git-commit: 811e321ce96aaefaeff691ed5969981a048d2c31
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
 source-wordcount: '856'
-ht-degree: 97%
+ht-degree: 90%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 97%
 
 當裝置連結時，變數的永續性會跨裝置傳遞。例如，某位使用者先透過桌上型電腦上的廣告造訪您的網站。該使用者找到您的行動應用程式並安裝，最終在其行動裝置上進行購買。當使用跨裝置分析時，您可以將行動裝置上的收入歸因於在其桌上型電腦上點擊的廣告。
 
-我們秉持尊重合作夥伴和追求透明的精神，希望客戶了解我們的跨裝置分析會使用 Microsoft Azure。Adobe 會使用 Azure 來儲存裝置圖表資料，及執行跨裝置連結。因此，Adobe Analytics資料會在Adobe的資料處理中心與Adobe布建的Microsoft Azure執行個體之間來回傳遞。
+我們秉持尊重合作夥伴和追求透明的精神，希望客戶了解我們的跨裝置分析會使用 Microsoft Azure。Adobe 會使用 Azure 來儲存裝置圖表資料，及執行跨裝置連結。因此，Adobe Analytics資料會在Adobe的資料處理中心與Adobe布建的Microsoft Azure例項之間來回傳遞。
 
 請參閱[歷程 IQ：跨裝置分析 Spark 頁面](https://adobe.ly/aacda)，進一步了解跨裝置分析的功能和特色。
 
@@ -49,7 +49,7 @@ ht-degree: 97%
 * Adobe Analytics 報告套裝無法對應至多個組織識別碼。由於 CDA 會連結一個指定報表套裝中的裝置，因此 CDA 無法用於連結跨多個組織識別碼的資料。
 * CDA 使用複雜的處理管道，其中包含多個相依元件。 這會和基本 Analytics 報表工作流程並行執行。因此，來源報表套裝和 CDA 虛擬報表套裝之間約 1% 的點擊總數差距是預期的狀況。 
 * Cross-Device Analytics 使用虛擬報表套裝和報表時間處理，且各有其專屬的限制。例如，它們目前並不支援行銷管道變數。如需這些限制的詳細資訊，請參閱[虛擬報表套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)和[報表時間處理](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-report-time-processing.html#report-time-processing-limitations)。
-* 專用圖表是使用與[客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#customer-attributes)功能在 Experience Cloud 和 Adobe Analytics 中所用的相同 ID 同步作業。不過，CDA 虛擬報表套裝 (不論是根據專用圖表或欄位式連結) 與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在 CDA 虛擬報表套裝中使用。
+* 專用圖表是使用與使用者相同的ID同步 [客戶屬性](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=zh-Hant#customer-attributes) 在Experience Cloud和Adobe Analytics中找到的功能。 不過，CDA虛擬報表套裝（不論是根據專用圖表或欄位式連結）與其餘的「客戶屬性」功能不相容。 換句話說，以客戶屬性為主的維度不適合在CDA虛擬報表套裝中使用。
 * CDA 目前與 A4T 不相容。
 * 1.4 API 不受支援。Power BI 連接器和 Report Builder 都需依賴 1.4 API，因此與 CDA 不相容。
 * Adobe 的主動監控 CDA 拚接程序僅限於生產報表套裝。

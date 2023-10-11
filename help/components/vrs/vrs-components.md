@@ -1,16 +1,16 @@
 ---
 description: 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
-title: 虛擬報表套裝元件管理
+title: 虛擬報表套裝元件策劃
 feature: VRS
 exl-id: 19163829-328a-4064-b1be-8c09d1d94a0d
-source-git-commit: 7a47d837eeae65f2e98123aca78029bfeb7ffe9d
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 90%
 
 ---
 
-# 虛擬報表套裝元件管理
+# 虛擬報表套裝元件策劃
 
 虛擬報表套裝可在 Analysis Workspace 中進行管理，以包含和排除元件。
 
@@ -20,14 +20,14 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->管理員與非管理員可在已監管的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未監管的元件。[更新的組織體驗](/help/analyze/analysis-workspace/curate-share/curate.md)能讓您對可查看的元件執行更細微的控制。
+>管理員與非管理員可在已組織的工作區專案和虛擬報表套裝中檢視的元件有所變動。 過去，只要按一下&#x200B;**[!UICONTROL 「顯示所有元件」]**，任何人都能查看未監管的元件。[更新的組織體驗](/help/analyze/analysis-workspace/curate-share/curate.md)能讓您對可查看的元件執行更細微的控制。
 
 啟用元件管理：
 
-1. 前往&#x200B;**[!UICONTROL 「Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]** > **[!UICONTROL 建立新的虛擬報表套裝]**」。
+1. 前往 **[!UICONTROL Analytics]** > **[!UICONTROL 元件]** > **[!UICONTROL 虛擬報表套裝]** > **[!UICONTROL 建立新的虛擬報表套裝]**.
 1. 定義&#x200B;**[!UICONTROL 「設定」]**&#x200B;後，按一下&#x200B;**[!UICONTROL 「元件」]**&#x200B;標籤。
 
-1. 選取&#x200B;**[!UICONTROL 「啟用虛擬報表套裝元件自訂」核取方塊]**：
+1. 選取核取方塊 **[!UICONTROL 啟用虛擬報表套裝元件的自訂]**：
 
    ![](assets/vrs-enable.png)
 
@@ -40,7 +40,6 @@ ht-degree: 100%
    >* [!UICONTROL Report Builder]
    >* [!UICONTROL Activity Map]
    >* Analytics 報表 API
-
 
    勾選後，只要從「已排除元件」欄將相關的元件拖曳到「已包含元件」欄，即可新增要包含在虛擬報表套裝的元件。可包含和排除的元件有：
 

@@ -5,10 +5,10 @@ title: Analysis Workspace 的新增功能
 feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
-source-git-commit: 78cfb1f3c4d45fc983982a8da11b66f2b2c9ecbc
-workflow-type: ht
-source-wordcount: '8267'
-ht-degree: 100%
+source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
+workflow-type: tm+mt
+source-wordcount: '8268'
+ht-degree: 99%
 
 ---
 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 | 功能 | 說明 |
 |--- |--- |
-| [VRS 與專案組織 - 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已監管的 Workspace 專案和虛擬報表套裝 (VRS) 中查看的元件有所變動。<br>過去，只要按一下「顯示所有元件」，任何人都能查看未監管的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
+| [虛擬報表套裝和專案組織 — 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已組織的工作區專案和虛擬報表套裝中檢視的元件有所變動。 <br>過去，只要按一下「顯示所有元件」，任何人都能查看未監管的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -537,7 +537,7 @@ ht-degree: 100%
   </tr>
   <tr>
    <td colname="col1"> <p>event#、eVar# 和 prop# 的變更 </p> </td>
-   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>(亦適用於虛擬報表套裝產生器。) </p> </td>
+   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>（亦適用於虛擬報表套裝產生器。） </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>「無/未指定」的變更 </p> </td>
