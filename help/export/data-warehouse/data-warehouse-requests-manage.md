@@ -4,10 +4,10 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 1f6dc980c7ec4646b8b58be06563f553c0010245
+source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 18%
+source-wordcount: '927'
+ht-degree: 16%
 
 ---
 
@@ -73,6 +73,19 @@ ht-degree: 18%
    ![管理請求](assets/dw-manage-request.png)
 
 1. 選取 [!UICONTROL **檢視歷史記錄**].
+
+   此 [!UICONTROL **檢視Data Warehouse請求**] 頁面會顯示個別報告傳送的清單。
+
+   ![請求歷史記錄頁面](assets/dw-request-history.png)
+
+1. 選取報表傳送，然後選取下列任一選項：
+
+   | 選項 | 功能 |
+   |---------|----------|
+   | [!UICONTROL **目的地詳細資料**] | 顯示與請求相關聯的帳戶和位置詳細資料。 這是先前設定的帳戶和位置，如所述 [設定Data Warehouse請求的報表目的地](/help/export/data-warehouse/create-request/dw-request-report-destinations.md). |
+   | [!UICONTROL **取消報告**] | 取消報表。 您無法取消狀態為「 」的報表 [!UICONTROL **已完成**] 或 [!UICONTROL **已取消**]. |
+   | [!UICONTROL **重新執行報告**] | 使用原始傳送時的資料再次執行報表。 您可以重新執行具有以下任何狀態的報表： [!UICONTROL **已取消**]， [!UICONTROL **已完成**]， [!UICONTROL **錯誤 — 正在處理**]，或 [!UICONTROL **錯誤 — 無法傳送**]. |
+   | [!UICONTROL **重新傳送報告**] | 重新傳送先前產生的報告檔案。 您可以重新傳送具有以下任何狀態的報表： [!UICONTROL **已完成**] 或 [!UICONTROL **錯誤 — 無法傳送**]. |
 
 ## 複製請求
 

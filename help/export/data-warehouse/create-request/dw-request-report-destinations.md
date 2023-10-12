@@ -3,10 +3,10 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: f1264344a380944946ffa7b427db7bbc3ea96b1f
+source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 15%
+source-wordcount: '2304'
+ht-degree: 14%
 
 ---
 
@@ -254,6 +254,8 @@ SFTP可支援Data Warehouse。 必須填入 SFTP 主機、使用者名和目的�
 
 * [!UICONTROL **使用者名稱**]：輸入使用者名稱以登入SFTP網站。
 
+* [!UICONTROL **上傳時使用暫存副檔名**]：啟用時， `.part` 會在上傳程式期間使用副檔名。 此選項請保持啟用，除非您的SFTP伺服器限制在上傳完成之後變更的檔案名稱。
+
 * [!UICONTROL **公開金鑰**]：建立Data Warehouse目的地時，請下載適當的公開金鑰。
 
 #### 位置欄位
@@ -263,6 +265,8 @@ SFTP可支援Data Warehouse。 必須填入 SFTP 主機、使用者名和目的�
 * [!UICONTROL **位置說明**]：SFTP帳戶上位置的說明。
 
 * [!UICONTROL **目錄路徑**]：SFTP帳戶上位置的路徑。
+
+如需SFTP設定的詳細資訊，請參閱 [傳送Data Warehouse請求至SFTP伺服器](/help/export/ftp-and-sftp/c-sftp/ftp-sftp-dw.md).
 
 ### S3
 

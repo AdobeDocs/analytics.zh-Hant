@@ -2,10 +2,11 @@
 description: 說明準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics的必要準備。
 title: 準備將元件和專案從Adobe Analytics移轉至Customer Journey Analytics
 feature: Admin Tools
-source-git-commit: cbd991821dc1eefa458ec5d92b75f9b4dfcc9fa0
+exl-id: a9ff98dc-6568-428d-a8a8-faca5bc76a29
+source-git-commit: 03120156e1ba70e50b265da788fa5997fd31c93e
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 15%
+source-wordcount: '939'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +55,9 @@ ht-degree: 15%
 
 ### 已移轉的元件元素
 
-Dimension和量度會隨著對應程式進行移轉，如所述 [將Adobe Analytics專案移轉至Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics)Customer Journey Analytics ，而區段和日期範圍則會根據
+Dimension和量度會隨著對應程式進行移轉，如所述 [將Adobe Analytics專案移轉至Customer Journey Analytics](#migrate-adobe-analytics-projects-to-customer-journey-analytics).
+
+Customer Journey Analytics中尚未存在的區段、日期範圍和計算量度，會根據對應的維度和量度在那裡重新建立。
 
 |  | 「已移轉」 |
 |---------|---------|
@@ -92,7 +95,7 @@ Dimension和量度會隨著對應程式進行移轉，如所述 [將Adobe Analyt
 
 ## 瞭解導致錯誤的不支援元素
 
-Customer Journey Analytics不支援下列視覺效果、面板和功能。 當這些元素在移轉前包含在專案中時，可能導致移轉失敗，或在專案移轉後發生錯誤。
+Customer Journey Analytics不支援下列視覺效果和面板。 當這些元素在移轉前包含在專案中時，可能導致移轉失敗，或在專案移轉後發生錯誤。
 
 將專案移轉至Customer Journey Analytics之前，請從Adobe Analytics專案中移除這些元素。 如果移轉失敗，請在重試移轉之前移除這些元素。
 
@@ -112,11 +115,7 @@ Customer Journey Analytics不支援下列視覺效果、面板和功能。 當�
 
 * [頁面摘要](/help/analyze/analysis-workspace/c-panels/page-summary.md)
 
-### 不支援的功能
-
 * [貢獻分析](/help/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.md)
-
-* [警報](/help/components/c-alerts/intellligent-alerts.md)
 
 ## 以組織身分決定要如何對應元件
 
