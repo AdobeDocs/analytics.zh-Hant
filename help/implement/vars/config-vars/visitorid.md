@@ -3,10 +3,10 @@ title: visitorID
 description: 使用自訂訪客 ID。
 feature: Variables
 exl-id: cb336042-01a1-4a66-a947-a221a7919c1b
-source-git-commit: 0e4afc2532c7a6fe90085ad6f24ac859bcd3baf7
+source-git-commit: 7adf39a7f4ae5515f629894f90f7e8edf4519893
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 71%
 
 ---
 
@@ -44,3 +44,7 @@ s.visitorID = "abc123";
 >[!CAUTION]
 >
 >自訂訪客 ID 的無效實施作業可能導致資料不正確，並造成報告效能不佳。如果此變數包含預設值 (例如 `"0"` 或 `"NULL"`)，則 Adobe 會將這些點擊視為相同的訪客。此情況會導致資料不正確、訪客計數偏低，以及訪客層級區段的運作不如預期。不當實施作業的自訂訪客 ID 也會對處理伺服器造成大量負載、增加[延遲](/help/technotes/latency.md)，並降低報表效能。
+
+## 使用Web SDK和Experience Edge的訪客ID
+
+Experience Edge可讓您使用XDM來提供多個識別碼 [身分對應](https://experienceleague.adobe.com/docs/experience-platform/edge/identity/overview.html?lang=en#using-identitymap). 「身分對應」中的每個身分都有不同的名稱空間。 您可以指定哪一個名稱空間應該用於訪客ID，做為的一部分 [資料流設定](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=zh-Hant#analytics). 完成設定後，當您傳送具有為此名稱空間指定值的事件時，系統會自動將其用作Analytics中的訪客ID。
