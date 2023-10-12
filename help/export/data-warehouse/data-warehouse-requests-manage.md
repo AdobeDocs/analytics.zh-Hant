@@ -4,10 +4,10 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 48455ca071b2137d4d1d9f8d6d5dce77aee25b5e
+source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 16%
+source-wordcount: '1262'
+ht-degree: 13%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 16%
 
 ## 檢視要求的歷史記錄
 
-您可以檢視任何已執行報表的歷史記錄。
+您可以檢視您提出的任何Data Warehouse要求的歷史記錄。
 
 1. 在Adobe Analytics中，選取 [!UICONTROL **工具**] > [!UICONTROL **Data Warehouse**].
 
@@ -74,9 +74,26 @@ ht-degree: 16%
 
 1. 選取 [!UICONTROL **檢視歷史記錄**].
 
-   此 [!UICONTROL **檢視Data Warehouse請求**] 頁面會顯示個別報告傳送的清單。
+   此 [!UICONTROL **檢視Data Warehouse請求**] 頁面會顯示與請求相關聯的個別報告傳遞清單。
+
+   選取 **設定欄** 圖示 ![設定欄圖示](assets/configure-column-icon.png) 隱藏預設不顯示的欄或顯示欄。
 
    ![請求歷史記錄頁面](assets/dw-request-history.png)
+
+   可使用下列欄:
+
+   | 欄 | 說明 |
+   |---------|----------|
+   | [!UICONTROL **建立日期**] | 建立報表的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
+   | [!UICONTROL **開始日期**] | 報表開始的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
+   | [!UICONTROL **完成日期**] | 報表完成的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
+   | [!UICONTROL **更新日期**] | 報表的上次更新日期與時間。<p>這會以起始請求之使用者的時區顯示。</p> |
+   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報表已建立但尚未處理。</li><li>[!UICONTROL **擱置中**]：報表正等待處理。</li><li>[!UICONTROL **處理中**]：報表目前正在處理中。</li><li>[!UICONTROL **已完成**]：報表已完成並可供使用。</li><li>[!UICONTROL **已排程**]：報告已排程但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：] 報表在處理期間發生錯誤。 請重新執行報告以重試。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生但無法傳送。 檢查 [您目的地的設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)，然後重新傳送報表。</li></ul>。 |
+   | [!UICONTROL **從**] | 報表中包含之整體時間範圍的開始日期。<p>這會以報表套裝的時區顯示。</p> |
+   | [!UICONTROL **結束日期**] | 報表中包含之整體時間範圍的結束日期。 <p>這會以報表套裝的時區顯示。</p> |
+   | [!UICONTROL **舊版請求ID**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
+   | [!UICONTROL **報告ID**] | 此ID可用來識別目前Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
+
 
 1. 選取報表傳送，然後選取下列任一選項：
 
