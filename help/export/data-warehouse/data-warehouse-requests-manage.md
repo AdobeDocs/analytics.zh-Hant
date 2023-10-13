@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: 43dea048c675f42b4687bcf0630557291d2e4baf
+source-git-commit: 02e743892d3e476a5614d9ad912523ce6315fe62
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1258'
 ht-degree: 13%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 13%
    | [!UICONTROL **開始日期**] | 報表開始的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **完成日期**] | 報表完成的日期和時間。<p>這會以起始請求之使用者的時區顯示。</p> |
    | [!UICONTROL **更新日期**] | 報表的上次更新日期與時間。<p>這會以起始請求之使用者的時區顯示。</p> |
-   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報表已建立但尚未處理。</li><li>[!UICONTROL **擱置中**]：報表正等待處理。</li><li>[!UICONTROL **處理中**]：報表目前正在處理中。</li><li>[!UICONTROL **已完成**]：報表已完成並可供使用。</li><li>[!UICONTROL **已排程**]：報告已排程但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：] 報表在處理期間發生錯誤。 請重新執行報告以重試。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生但無法傳送。 檢查 [您目的地的設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)，然後重新傳送報表。</li></ul>。 |
+   | [!UICONTROL **狀態**] | 報告傳送的狀態。 可能的狀態有：<ul><li>[!UICONTROL **已建立**]：報表已建立但尚未處理。</li><li>[!UICONTROL **擱置中**]：報表正等待處理。</li><li>[!UICONTROL **處理中**]：報表目前正在處理中。</li><li>[!UICONTROL **已完成**]：報表已完成並可供使用。</li><li>[!UICONTROL **已排程**]：報告已排程但尚未開始。</li><li>[!UICONTROL **已取消**]：使用者已取消報告。</li><li>[!UICONTROL **錯誤 — 正在處理**：] 報告發生錯誤，無法處理。</li><li>[!UICONTROL **錯誤 — 無法傳送**]：報告已成功產生但無法傳送。 檢查 [您目的地的設定](/help/export/data-warehouse/create-request/dw-request-report-destinations.md)，然後重新傳送報表。</li></ul>。 |
    | [!UICONTROL **從**] | 報表中包含之整體時間範圍的開始日期。<p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **結束日期**] | 報表中包含之整體時間範圍的結束日期。 <p>這會以報表套裝的時區顯示。</p> |
    | [!UICONTROL **舊版請求ID**] | 此ID用於識別舊版Data Warehouse介面中的報表。 聯絡Adobe客戶服務時，可能需要此ID。 |
