@@ -4,7 +4,7 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: b1f67ca51edf55805c8091db43d4f932463c5200
+source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 18%
@@ -172,7 +172,7 @@ ht-degree: 18%
 
 | 欄 | 說明 |
 | --- | --- |
-| [!UICONTROL **專案**] | 起始查詢的專案。 |
+| [!UICONTROL **專案**] | 起始要求的專案。 |
 | [!UICONTROL **請求數量**] | 與專案相關聯的請求數。 |
 | [!UICONTROL **使用者人數**] | 與專案相關聯的使用者人數。 <!-- ??? --> |
 | [!UICONTROL **應用程式**] | [!UICONTROL 報告活動管理器]支援的應用程式有： <ul><li>Analysis Workspace UI</li><li>Workspace 排程專案</li><li>Report Builder</li><li>產生器 UI：區段、計算量度、註解、對象等。</li><li>1.4 或 2.0 API 的 API 呼叫</li><li>智慧型警報</li></ul> |
@@ -189,7 +189,7 @@ ht-degree: 18%
 
 | 欄 | 說明 |
 | --- | --- |
-| [!UICONTROL **應用程式**] | 起始查詢的應用程式。 |
+| [!UICONTROL **應用程式**] | 起始要求的應用程式。 |
 | [!UICONTROL **請求數量**] | 與應用程式相關聯的要求數目。 |
 | [!UICONTROL **使用者人數**] | 與應用程式相關聯的使用者數目。 <!--???--> |
 | [!UICONTROL **專案數量**] | 與應用程式相關聯的專案數目。 <!--???--> |
@@ -199,31 +199,5 @@ ht-degree: 18%
 | [!UICONTROL **平均區段數**] | 套用至所包含要求的平均區段數。 更多區段會增加請求的複雜性。 |
 
 {style="table-layout:auto"}
-
-<!--
-
-### Filter
-
-You can filter the table by Application (see list in the table below), by User, and by Project.
-
-![filter](/help/admin/admin/assets/filter.png)
-
-### Summary Numbers {#summary}
-
-![filter](/help/admin/admin/assets/summary_numbers.png)
-
-The Summary Numbers show the following information:
-
-| Summary Number | Description |
-| --- | --- |
-| [!UICONTROL **Users**] | The number of users that are currently sending reporting requests to this report suite. |
-| [!UICONTROL **Projects**] | Workspace projects, Report Builder workbooks, etc.  | 
-| [!UICONTROL **Queries**] | The number of queries currently running. |
-| [!UICONTROL **Average Wait Time**] | The average wait time for all running queries.  |
-| [!UICONTROL **Usage Capacity**] | The current usage capacity for this report suite. |
-
-{style="table-layout:auto"}
-
--->
 
 
