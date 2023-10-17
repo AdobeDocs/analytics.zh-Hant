@@ -2,10 +2,10 @@
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 title: 報告活動管理器概述
 feature: Admin Tools
-source-git-commit: 02273690b98ca456862194e814ff2c72f87d7b41
+source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 29%
+source-wordcount: '271'
+ht-degree: 23%
 
 ---
 
@@ -41,10 +41,3 @@ ht-degree: 29%
 
 如需有關在報告活動管理器中取消報告請求的資訊，請參閱 [取消報告活動管理器中的報告請求](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md).
 
-## 常見問題集 {#faq}
-
-| 問題 | 回答 |
-| --- | --- |
-| 我可以購買額外的報告容量嗎？ | 此容量將在不久的未來提供。 |
-
-{style="table-layout:auto"}
