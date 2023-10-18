@@ -3,9 +3,9 @@ description: 說明如何建立 Data Warehouse 請求的步驟。
 title: 設定Data Warehouse請求的報表目的地
 feature: Data Warehouse
 exl-id: 3c7faea3-4d90-4274-88f3-e9337c94155f
-source-git-commit: d8bfad5d388f906c7c7301a9126813f5c2a5dbaa
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2304'
+source-wordcount: '2342'
 ht-degree: 14%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 14%
 
       | 欄位 | 函數 |
       |---------|----------|
-      | [!UICONTROL **角色 ARN**] | 您必須提供角色ARN (Amazon資源名稱)，Adobe才能使用該角色來存取Amazon S3帳戶。 若要這麼做，請建立來源帳戶的IAM許可權原則、將原則附加至使用者，然後建立目的地帳戶的角色。 如需特定資訊，請參閱 [此AWS檔案](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/). |
+      | [!UICONTROL **角色 ARN**] | 您必須提供角色ARN (Amazon資源名稱)，Adobe才能使用該角色來存取Amazon S3帳戶。 若要這麼做，請建立來源帳戶的IAM許可權原則、將原則附加至使用者，然後建立目的地帳戶的角色。 如需特定資訊，請參閱 [此AWS檔案](https://aws.amazon.com/premiumsupport/knowledge-center/cross-account-access-iam/).<p>如需如何設定貯體許可權的相關資訊，請參閱文章 [如何為Amazon S3貯體中的物件提供跨帳戶存取權？](https://repost.aws/knowledge-center/cross-account-access-s3) 在Amazon知識中心。 |
       | [!UICONTROL **使用者 ARN**] | 使用者ARN (Amazon資源名稱)由Adobe提供。 您必須將此使用者附加至您建立的原則。 |
 
       {style="table-layout:auto"}

@@ -3,10 +3,10 @@ title: Adobe Analytics 中使用的詞彙
 description: Adobe Analytics 辭彙表，定義常用詞彙。
 exl-id: 07507ba1-a512-48d9-8022-6084de4ae262
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
 workflow-type: tm+mt
-source-wordcount: '2549'
-ht-degree: 98%
+source-wordcount: '2577'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 98%
 * **點按流資料摘要：**&#x200B;請見「資料摘要」。
 * **同類群組：**&#x200B;指定的一段時間內具有共同特徵的一群人。請參閱分析使用手冊中的[同類群組分析是什麼？](/help/analyze/analysis-workspace/visualizations/cohort-table/cohort-analysis.md)。
 * **收集伺服器：**&#x200B;請見「資料收集伺服器」。
+* **元件：** Analysis Workspace中的元件包含維度、量度、區段和日期範圍，您可以將這些元件拖放至專案上。 另請參閱 [元件概觀](/help/analyze/analysis-workspace/components/analysis-workspace-components.md) 在分析使用手冊中。
 * **內容資料變數：**&#x200B;僅用於處理規則的暫時變數。如果處理規則未將內容資料變數值複製到轉換或流量變數中，便會永久遺失內容資料變數值。請參閱實施作業使用手冊中的[內容資料變數](../implement/vars/page-vars/contextdata.md)。
 * **轉換變數：**&#x200B;也稱為 eVar。用於儲存自訂值及保留變數值，直到變數值過期為止。請參閱「元件」使用指南中的 [eVar](/help/components/dimensions/evar.md) 維度。
 * **關聯：**&#x200B;不再作為詞彙使用；取代為維度劃分。在舊版 Adobe Analytics 中，關聯可用來劃分流量變數。請參閱分析使用手冊中的[劃分維度](/help/analyze/analysis-workspace/components/dimensions/t-breakdown-fa.md)。
