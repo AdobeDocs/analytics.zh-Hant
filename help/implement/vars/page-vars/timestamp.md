@@ -3,10 +3,10 @@ title: timestamp
 description: 手動設定點擊的時間戳記。
 feature: Variables
 exl-id: 9d5ce5ef-2d84-4f65-b2e3-7aa3e219bc34
-source-git-commit: a41fed835b6dcd3979111a7b13eaf33b63a3b2ec
+source-git-commit: 4f9af1b3a1337b0e24b718362a502ff3f0acb5ef
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 86%
+source-wordcount: '278'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 ## 使用Web SDK的時間戳記
 
-時間戳記為 [已對應至Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `xdm.timestamp`. 此欄位僅支援Unix時間。
+時間戳記為 [已為Adobe Analytics進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html?lang=zh-Hant) 在XDM欄位下 `xdm.timestamp`. 此欄位僅支援Unix時間。
 
 ## 使用Adobe Analytics擴充功能的時間戳記
 
@@ -28,7 +28,7 @@ Adobe Analytics 擴充功能中沒有專用欄位可使用這個變數。請依�
 
 ## AppMeasurement和Analytics擴充功能自訂程式碼編輯器中的s.timestamp
 
-`s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix 時間](https://en.wikipedia.org/wiki/Unix_time)。
+`s.timestamp` 變數是包含點擊日期和時間的字串。有效的時間戳記格式包括 [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) 和 [Unix時間](https://en.wikipedia.org/wiki/Unix_time) 以秒為單位。
 
 ```js
 // Timestamp using ISO 8601
