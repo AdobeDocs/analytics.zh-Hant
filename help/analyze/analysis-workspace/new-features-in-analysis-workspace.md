@@ -6,9 +6,9 @@ feature: Workspace Basics
 role: User, Admin
 exl-id: 1c845d56-464f-424c-bd9b-a686e0651dd8
 source-git-commit: 266cf18050d60f08f7e170c56453d1e1d805cb7b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8268'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| 對工作區中多個報表套裝的支援 | 您現在可以將多個報表套裝的資料匯入同一個專案以並排檢視。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant) |
+| 對工作區中多個報告套裝的支援 | 您現在可以將多個報告套裝的資料匯入同一個專案以並排檢視。[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/multiple-report-suites.html?lang=zh-Hant) |
 | 培訓教學課程範本 | 這個全新的標準範本會逐步引導您了解常用術語，以及在 Workspace 中初次建立分析的步驟。若新使用者的清單中沒有其他專案，這會顯示為「新增專案」模組中的標準範本，取代目前現有的範例專案。[了解更多...](/help/analyze/analysis-workspace/build-workspace-project/starter-projects.md) |
 
 ## 2020 年 2 月
@@ -114,7 +114,7 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| 使用跨裝置分析的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱「[設定跨裝置分析](/help/components/cda/setup.md)」。 |
+| 使用跨裝置分析的組織適用的新工作區範本 | 此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱「[設定跨裝置分析](/help/components/cda/setup.md)」。 |
 | 工作區中的全新快速鍵 | <ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant) |
 | Workspace 其他增強功能 | <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | Workspace 除錯工具 | 「說明」選單新增 Workspace 偵錯程式，供您以更順暢的方式啟用，以偵錯 Workspace 請求。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |
@@ -196,7 +196,7 @@ ht-degree: 99%
 
 | 功能 | 說明 |
 |--- |--- |
-| [虛擬報表套裝和專案組織 — 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已組織的工作區專案和虛擬報表套裝中檢視的元件有所變動。 <br>過去，只要按一下「顯示所有元件」，任何人都能查看未監管的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
+| [虛擬報告套裝和專案組織 - 增強功能](/help/analyze/analysis-workspace/curate-share/curate.md) | 這些變更實際上已於 2018 年 10 月推出。管理員與非管理員可在已監管的 Workspace 專案和虛擬報告套裝中查看哪些元件有所變動。<br>過去，只要按一下「顯示所有元件」，任何人都能查看未監管的元件。更新的組織體驗能讓您對可查看的元件執行更細微的控制。</br> |
 
 ## 2018 年 10 月
 
@@ -529,7 +529,7 @@ ht-degree: 99%
   </tr>
   <tr>
    <td colname="col1"> <p>貢獻分析：<a href="https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/anomaly-detection/anomaly-detection.html"  >代號通知 </a> </p> </td>
-   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。 </p> <p>(管理員使用者：您可編輯群組權限，以限制可使用這些代號的使用者。 此權限稱為「異常偵測與貢獻度分析」，位於 <span class="uicontrol">Analytics </span> &gt; <span class="uicontrol"> 管理員 </span> &gt; <span class="uicontrol"> 所有管理員 </span> &gt; <span class="uicontrol"> 使用者管理 </span> &gt; <span class="uicontrol"> 編輯群組 </span> &gt; <span class="uicontrol"> 編輯所有報表存取權 </span> &gt; <span class="uicontrol"> 自訂報表套裝工具 </span> &gt; <span class="uicontrol"> 工具和報表 </span>底下)。  </p> </td>
+   <td colname="col2"> <p>如果貴公司的貢獻分析代號數目有限，現在每次只要您使用代號，Analysis Workspace 使用者介面就會顯示通知，讓您知道目前剩餘的代號數目。 </p> <p>(管理員使用者：您可編輯群組權限，以限制可使用這些代號的使用者。 此權限稱為「異常偵測與貢獻度分析」，位於 <span class="uicontrol">Analytics </span> &gt; <span class="uicontrol"> 管理員 </span> &gt; <span class="uicontrol"> 所有管理員 </span> &gt; <span class="uicontrol"> 使用者管理 </span> &gt; <span class="uicontrol"> 編輯群組 </span> &gt; <span class="uicontrol"> 編輯所有報表存取權 </span> &gt; <span class="uicontrol"> 自訂報告套裝工具 </span> &gt; <span class="uicontrol"> 工具和報表 </span>底下)。  </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>含有多位元組字元的 CSV 檔案 </p> </td>
@@ -537,7 +537,7 @@ ht-degree: 99%
   </tr>
   <tr>
    <td colname="col1"> <p>event#、eVar# 和 prop# 的變更 </p> </td>
-   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>（亦適用於虛擬報表套裝產生器。） </p> </td>
+   <td colname="col2"> <p>2017 年新增到左側邊欄中的維度名稱 Event#、eVar# 和 prop# 現在只有在您<b>搜尋</b>元件時才會出現。 </p> <p>(亦適用於虛擬報告套裝產生器。) </p> </td>
   </tr>
   <tr>
    <td colname="col1"> <p>「無/未指定」的變更 </p> </td>
@@ -560,7 +560,7 @@ ht-degree: 99%
  <tbody>
   <tr>
    <td colname="col1"> <p>不相容的元件清單 </p> </td>
-   <td colname="col2"> <p>有時候，報表套裝不一定會包含專案中隨附的所有元件。現在載入專案或切換至報表套裝時，顯示的「不相容的報表套裝」訊息會列出不相容的元件。 </p> </td>
+   <td colname="col2"> <p>有時候，報告套裝不一定會包含專案中隨附的所有元件。現在載入專案或切換至報告套裝時，顯示的「不相容的報告套裝」訊息會列出不相容的元件。 </p> </td>
   </tr>
  </tbody>
 </table>
@@ -1107,7 +1107,7 @@ ht-degree: 99%
 以下動作會清除您的還原歷史記錄：
 
 * 儲存專案。
-* 變更報表套裝。
+* 變更報告套裝。
 
 ## 連結至本專案 {#section_453E70F7409F4501B8E976A0D18C9A46}
 
