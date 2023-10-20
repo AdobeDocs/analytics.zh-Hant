@@ -3,7 +3,7 @@ title: Adobe Experience Edge 中的 Analytics 變數對應
 description: 檢視 Edge 會將哪些 XDM 欄位自動對應到 Analytics 變數。
 exl-id: fbff5c38-0f04-4780-b976-023e207023c6
 feature: Implementation Basics
-source-git-commit: 13d1809d1e32bc0470c77b7c04061db4a8f2c80e
+source-git-commit: 79336a9ce525dd551efdf7fe0391a3f38a3b66e1
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 83%
@@ -106,8 +106,8 @@ ht-degree: 83%
 | `media.mediaTimed.thirdQuartiles.value` | Media Analytics 量度[進度標記的 75%](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#seventy-five-progress-marker)。 |
 | `media.mediaTimed.timePlayed.value` | Media Analytics 量度[內容花費時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#content-time-spent)。 |
 | `media.mediaTimed.totalTimePlayed.value` | Media Analytics 量度[媒體花費時間](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#media-time-spent)。 |
-| `placeContext.geo.latitude` | 行動維度 - 緯度。 |
-| `placeContext.geo.longitude` | 行動維度 - 經度。 |
+| `placeContext.geo._schema.latitude` | 行動維度 - 緯度。 |
+| `placeContext.geo._schema.longitude` | 行動維度 - 經度。 |
 | `placeContext.geo.postalCode` | [郵遞區號](../../components/dimensions/zip-code.md)維度。 |
 | `placeContext.geo.stateProvince` | [美國州別](../../components/dimensions/us-states.md)維度。 |
 | `placeContext.localTime` | 協助填入 Reports &amp; Analytics 中的[時區](/help/analyze/reports-analytics/reports.md)。在[資料摘要](/help/export/analytics-data-feed/c-df-contents/datafeeds-reference.md)中顯示為 `t_time_info`。 |
