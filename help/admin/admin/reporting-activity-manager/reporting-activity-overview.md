@@ -2,7 +2,7 @@
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 title: 報告活動管理器概述
 feature: Admin Tools
-source-git-commit: 4c4c38329b203b16d24ffc95f2a4580e7ca0ba0a
+source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 23%
@@ -10,8 +10,6 @@ ht-degree: 23%
 ---
 
 # 報告活動管理器總覽
-
-{{release-limited-testing}}
 
 此 [!UICONTROL 報告活動管理器] 可供管理員使用。
 
