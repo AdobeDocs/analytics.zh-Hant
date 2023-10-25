@@ -5,10 +5,10 @@ short-title: Analytics documentation updates
 feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
-source-git-commit: a916afbc15514430cd13673bb642ebc720664e35
-workflow-type: ht
-source-wordcount: '5136'
-ht-degree: 100%
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
+workflow-type: tm+mt
+source-wordcount: '5165'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 
 | 功能 | 說明 |
 | --- | --- |
+| **2023 年 10 月** | |
+| 新增記錄資訊至報告活動管理器 | 新增任何符合以下條件的資訊： [報告活動的取消和後續限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md) 在報告活動管理器中，擷取在 [記錄檔](/help/admin/admin/logs.md). |
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
 | 開始使用內容增強功能 | 已新增概述管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
@@ -218,7 +220,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | **2020 年 2 月** |  |
 | 2020 年 2 月 27 日 | 新增 [Adobe Analytics Labs](/help/analyze/labs.md) 的文件。 |
 | 2020 年 2 月 25 日 | 新增 [`useLinkTrackSessionStorage`](/help/implement/vars/config-vars/uselinktracksessionstorage.md) 變數。 |
-| 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新工作區範本。此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報表套裝。如需詳細資訊，請參閱「[設定 Cross-Device Analytics](/help/components/cda/setup.md)」。 |
+| 2020 年 2 月 20 日 | 使用 Cross-Device Analytics 的組織適用的新工作區範本。此範本顯示 CDA 如何有效地將造訪結合在一起，並說明 CDA 專屬的維度和量度。需使用 CDA 的報告套裝。如需詳細資訊，請參閱「[設定 Cross-Device Analytics](/help/components/cda/setup.md)」。 |
 | 2020 年 2 月 20 日 | 工作區中的全新快速鍵：<ul><li>摺疊/展開所有面板：`alt + m`</li><li>摺疊/展開作用中的面板：`alt + ctrl + m`</li><li>搜尋左側邊欄：`ctrl + /`</li><li>移至下一個面板：`alt + Right Key`</li><li>移至上一個面板：`alt + Left Key`</li></ul>[了解更多...](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/fa-shortcut-keys.html?lang=zh-Hant) |
 | 2020 年 2 月 20 日 | 工作區增強功能： <ul><li>現在於 Workspace 中置入面板或視覺效果時，左側邊欄會自動切換為元件，使工作流程更加順暢。</li><li>現在可對範本元件執行操作 (例如加上標記、標示為我的最愛、核准)。</li><li>篩選後得到的量度和區段清單提供 + 按鈕，方便您在找不到所需內容時用來新增元件。</li></ul> |
 | 2020 年 2 月 20 日 | 已在「說明」選單中新增工作區偵錯程式，好讓您更順暢地啟用它來偵錯工作區請求。[了解更多...](https://www.adobe.io/apis/experiencecloud/analytics/docs.html#!AdobeDocs/analytics-2.0-apis/master/reporting-tricks.md) |

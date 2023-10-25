@@ -2,9 +2,9 @@
 description: 了解如何使用報告活動管理器在尖峰報告期間診斷和修正容量問題。
 title: 取消報告活動管理器中的報告請求
 feature: Admin Tools
-source-git-commit: 3c65e50bbfdbb011ef7b08d48a0ac3c87d7666b7
+source-git-commit: 743bd30f8606b05d799f9089d2f14863fcb18feb
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1417'
 ht-degree: 15%
 
 ---
@@ -17,7 +17,11 @@ ht-degree: 15%
 
 * 您可以取消特定請求、取消特定使用者的所有請求，或取消與特定專案相關的所有請求。
 
+  取消請求時，此動作會記錄在 [記錄檔](/help/admin/admin/logs.md). 此 [!UICONTROL **事件型別**] 欄顯示為 [!UICONTROL **管理員動作**]，中提供了取消的說明 [!UICONTROL **事件**] 欄。
+
 * 當您取消請求時，也可以選擇限制指定期間的後續請求。
+
+  當您限制後續請求時，此動作會記錄在 [記錄檔](/help/admin/admin/logs.md). 此 [!UICONTROL **事件型別**] 欄顯示為 [!UICONTROL **管理員動作**]，並可在 [!UICONTROL **事件**] 欄。
 
 * 如果符合下列條件，則您無法取消請求： [!UICONTROL **使用者**] 請求的欄顯示為 [!UICONTROL **無法辨識**]. 發生這種情況時，表示使用者是在您沒有管理許可權的登入公司中。
 
