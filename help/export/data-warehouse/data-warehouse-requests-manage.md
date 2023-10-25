@@ -4,9 +4,9 @@ title: 管理 Data Warehouse 請求
 feature: Data Warehouse
 uuid: cdeb764f-56f9-43ec-9228-8ed5a2b58909
 exl-id: a399d366-8402-4f4f-9b9f-14b218cd074a
-source-git-commit: d40e03ce743c286abe8364ff99f5c3c3a1fe6ecc
+source-git-commit: 195750917731602ffd3a32f5216db8fe1b174cc0
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1293'
 ht-degree: 13%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 13%
 >如果您的組織尚未有即將供所有客戶使用的新Data Warehouse體驗，請使用此資訊： [管理Data Warehouse請求（舊體驗）](#manage-data-warehouse-requests-old-experience) （位於本頁底部）。
 
 
-您可以檢視及管理您提出的Data Warehouse請求。 只有管理員才能檢視及管理組織中其他使用者提出的請求（該使用者擁有管理許可權）。
+您可以檢視及管理您提出的Data Warehouse請求。 只有管理員才能檢視及管理組織中其他使用者提出的請求。
 
 以下幾節說明管理請求時可以執行的活動。
 
@@ -47,6 +47,8 @@ ht-degree: 13%
 * 只能編輯已設定為依排程執行的請求。
 
 * 並非所有與請求相關的欄位都可以編輯。 無法編輯的欄位會變暗。
+
+* 編輯其他使用者請求的管理員需要選擇他們可以存取的新帳戶和位置。
 
 若要編輯排程請求：
 
