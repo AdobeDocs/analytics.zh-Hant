@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 整合指南
 breadcrumb-title: 整合指南
 user-guide-description: 設定與其他 Adobe Experience Cloud 解決方案 (例如 Audience Manager 和 Advertising Cloud) 的整合作業。
-source-git-commit: 15f1cd260709c2ab82d56a545494c31ad86d0ab0
+source-git-commit: 241a3a6c7df71838d15e8479d47ef88f758c5848
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '184'
 ht-degree: 96%
 
 ---
@@ -44,4 +44,4 @@ ht-degree: 96%
 + [將 Adobe Analytics 資料和 Adobe Campaign Classic 整合](analytics-to-campaign-classic.md)
 + [AEM Assets 報表](aem-assets-reporting.md)
 + [Activity Map 報表](activitmap-reporting.md)
-+ [Adobe Exchange](https://www.adobeexchange.com/experiencecloud.analytics.html#product)
++ [Adobe Exchange](https://exchange.adobe.com)
