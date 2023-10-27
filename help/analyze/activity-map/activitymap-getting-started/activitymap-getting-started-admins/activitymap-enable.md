@@ -5,10 +5,10 @@ uuid: 30433319-d0e6-4977-951a-4492b356e1f2
 feature: Activity Map
 role: User, Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
-source-git-commit: 87c2f559990674ee738e1ad57166cf192d58232c
+source-git-commit: d4caf0ddc5cf5402bfef94a64db1c00e1c725658
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 66%
+ht-degree: 74%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 66%
 
 ## 步驟 1.更新您的實作程式碼 {#section_5D1586289DF2489289B1B6C1C80C300D}
 
-Activity Map模組是AppMeasurement.js和Web SDK(2.15.0版或更新版本)的一部分。
-實例化時，AppMeasurement程式庫或Web SDK將載入Activity Map模組。
+Activity Map模組屬於AppMeasurement.js和Web SDK （2.15.0版或更新版本）的一部分。
+AppMeasurement程式庫或Web SDK將在例項化時載入Activity Map模組。
 
 >[!NOTE]
 >
->Activity Map資料無法收集，除非您更新為 **AppMeasurement** **版本1.6** 或者更高 **Web SDK** **2.15.0版** 或更高
+>除非您更新至，否則無法收集Activity Map資料 **AppMeasurement** **1.6版** 或更高，或 **Web SDK** **2.15.0版** 或更高。
 
 
-1. 視您使用的是AppMeasurement或Web SDK，下載最新的Javascript程式庫。
+1. 根據您使用的是AppMeasurement還是Web SDK，下載最新的Javascript資料庫。
 
-   - **AppMeasurement** 代碼(AppMeasurement_Javascript-1.6.zip)，請前往  **[!UICONTROL Analytics]** > **[!UICONTROL 管理]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]** 和 [實作](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant).
+   - **AppMeasurement** 代碼(AppMeasurement_Javascript-1.6.zip)，請前往  **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]** 和 [實作它](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant).
 
-      我們隨附一些[實作代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
+     我們隨附一些[實作代碼範例](/help/analyze/activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)，協助您具體了解由於加入 Activity Map 模組而對代碼進行的變更。
 
-   - **Web SDK** 程式碼(alloy.js)。 請參閱 [安裝SDK — 選項2:安裝預先建置的獨立版本](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant#option-2%3A-installing-the-prebuilt-standalone-version) 以取得更多資訊。 請確定您使用2.15版或更新版本。
+   - **Web SDK** 程式碼(alloy.js)。 另請參閱 [安裝SDK — 選項2：安裝預先建立的獨立版本](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=zh-Hant#option-2%3A-installing-the-prebuilt-standalone-version) 以取得詳細資訊。 請確定您使用2.15版或更新版本。
 
-      請參閱 [追蹤連結](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html) 如需如何實作連結追蹤，以及如何透過擷取來啟用活動對應的資訊 `region` 的「已點按HTML」元素。
+     另請參閱 [追蹤連結](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant) 有關如何實作連結追蹤，以及如何透過擷取 `region` HTML元素的URL值。
 
-      >[!NOTE]
-      >
-      >當客戶從一個頁面導覽至下一個頁面時，透過Web SDK啟用連結追蹤目前會傳送連結事件。 這與AppMeasurement的運作方式不同，且可能導致傳送至Adobe的額外計費點擊。
+     >[!NOTE]
+     >
+     >目前，如果 Web SDK 啟用連結追蹤，在客戶從一個頁面導覽到下一個頁面時會傳送連結事件。這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。
 
 
 1. 驗證實作：
