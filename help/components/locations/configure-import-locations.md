@@ -4,10 +4,10 @@ keywords: Analysis Workspace
 title: 設定雲端匯入位置
 feature: Classifications
 exl-id: 55179868-6228-44ff-835c-f4a7b38e929b
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: f71b80dce9d447c431130901d86947d23e28d378
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 8%
+source-wordcount: '584'
+ht-degree: 7%
 
 ---
 
@@ -88,4 +88,11 @@ ht-degree: 8%
 
 1. 選取&#x200B;[!UICONTROL **「儲存」**]。
 
-   您現在可以將資料匯入至您設定的帳戶和位置。
+   您現在可以從您設定的帳戶和位置匯入資料。
+
+   匯入資料後，資料不會從雲端目的地刪除。
+
+   >[!NOTE]
+   >
+   >   如果您先前曾使用 [FTP以匯入分類](/help/components/classifications/importer/c-uploading-saint-data-files-via-ftp.md) 若為Adobe Analytics，您需要上傳FIN檔案。 從雲端帳戶匯入時，不需要此FIN檔案。
+
