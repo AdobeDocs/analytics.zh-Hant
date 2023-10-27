@@ -2,9 +2,10 @@
 description: 有關 Adobe Analytics 的一般概觀資訊，包括 Analytics 介面資訊，以及管理員、分析師、使用者和開發人員快速入門資訊。
 title: 管理員、分析師、一般使用者和開發人員快速入門
 feature: Analytics Basics
-source-git-commit: 5ee4e5aa970bb24828092c04fc31cc53f43c4ade
-workflow-type: ht
-source-wordcount: '1901'
+exl-id: 11800de5-224a-4bd2-8cb1-a6318925db71
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
+workflow-type: tm+mt
+source-wordcount: '1891'
 ht-degree: 100%
 
 ---
@@ -69,7 +70,7 @@ Analytics 管理員應先完成以下任務，再將 Adobe Analytics 提供給�
 | 任務 | 預定用途 | 詳細資訊 |
 |---------|----------|---------|
 | 定義管理員角色 | Adobe Analytics 支援各種類型的管理員 | [Adobe Analytics 中的管理員角色](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/admin-roles-in-analytics.html?lang=zh-Hant) |
-| 定義權限 | Analytics 管理員需要在 Admin Console 為 Adobe Analytics、報告套裝工具和 Analytics 工具指派產品設定檔。 | [Admin Console 中的 Analytics 權限](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/permissions/summary-tables.html?lang=zh-Hant) |
+| 定義權限 | Analytics 管理員需要在 Admin Console 為 Adobe Analytics、報告套裝工具和 Analytics 工具指派產品設定檔。 | [Admin Console 中的 Analytics 權限](/help/admin/admin-console/permissions/analytics-tools.md) |
 | 設定報告套裝並定義公司設定 | 報告套裝是 Adobe Analytics 用來產生報告的獨立資料單位。<p>管理員也可以設定[虛擬報告套裝](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-about.html?lang=zh-Hant)以進一步分段資料。</p> | <ul><li>[建立報告套裝](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=zh-Hant)</li><li>[公司設定概觀](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/company-settings/c-company-settings.html?lang=zh-Hant)</li></ul> |
 | 匯入資料 | Adobe Analytics 資料來源可讓您匯入更多重要的線上或離線資料以用於報告。 | [資料來源概觀](https://experienceleague.adobe.com/docs/analytics/import/data-sources/overview.html?lang=zh-Hant) |
 | 使用分類對資料進行分類 | 分類允許您對資料進行分類，以更好地利用變數，從而將更多內容包含到單一變數中。 | [分類概觀](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=zh-Hant) |

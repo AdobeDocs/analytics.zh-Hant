@@ -3,10 +3,10 @@ title: 排解 Adobe Analytics 中工作階段的疑難問題
 description: 瞭解如何解決登出 Adobe Analytics 時遇到的相關問題。
 feature: Analytics Basics
 exl-id: 191250ef-8313-47be-9717-046cce870998
-source-git-commit: c8faf29262b9b04fc426f4a26efaa8e51293f0ec
+source-git-commit: d64f6687dd6e6f688d332926e6d90fa699cac968
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 97%
 
 ---
 
@@ -34,5 +34,5 @@ ht-degree: 100%
 
 如需 Proxy 和授權標頭的資訊，請參閱：
 
-* [在 ProxySG 或 ASG 設備上的 Proxy 鏈部署中設定上游 Proxy 驗證](https://knowledge.broadcom.com/external/article/169255/configure-upstream-proxy-authentication.html)
+* [在 ProxySG 或 ASG 設備上的 Proxy 鏈部署中設定上游 Proxy 驗證](https://techdocs.broadcom.com/us/en/symantec-security-software/web-and-network-security/edge-swg/7-3/authentication_co.html)
 * [如何將使用者認證轉送給 ProxySG 設備背後的伺服器](https://knowledge.broadcom.com/external/article/165859/how-to-forward-user-credentials-to-a-ser.html)
