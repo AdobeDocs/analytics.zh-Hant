@@ -3,7 +3,7 @@ title: transactionID
 description: 此變數可用來將線上和離線資料連結在一起。
 feature: Variables
 exl-id: 525e90d8-99a7-4f4f-9bce-1395bf72fd8f
-source-git-commit: 6de20d2fbbab6ded6c92f0c6f3536671f4b2ae46
+source-git-commit: ccdeaf341cf9a603da857d9425d3a2196d0f67f4
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 96%
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## 使用 Web SDK 的交易 ID
 
-交易 ID 會[為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `commerce.order.transactionID` 底下。
+交易 ID 會[為 Adobe Analytics 進行對應](https://experienceleague.adobe.com/docs/analytics/implementation/aep-edge/variable-mapping.html)，在 XDM 欄位 `commerce.order.payments[0].transactionID` 底下。
 
 ## 使用 Adobe Analytics 擴充功能的交易 ID
 
@@ -34,7 +34,7 @@ ht-degree: 96%
 2. 按一下所需的標籤屬性。
 3. 前往[!UICONTROL 規則]標籤，然後按一下所需的規則 (或建立規則)。
 4. 在[!UICONTROL 「動作」]下方按一下現有的[!UICONTROL 「Adobe Analytics - 設定變數」]動作，或按一下「+」圖示。
-5. 設定 [!UICONTROL 擴充功能] 下拉式清單至Adobe Analytics，以及 [!UICONTROL 動作類型] to [!UICONTROL 設定變數].
+5. 設定 [!UICONTROL 副檔名] Adobe Analytics的下拉式清單，以及 [!UICONTROL 動作型別] 至 [!UICONTROL 設定變數].
 6. 找出[!UICONTROL 「交易 ID」]區段。
 
 您可以將交易 ID 設為任何字串值，包括資料元素。
@@ -53,6 +53,6 @@ s.transactionID = "ABC123";
 s.transactionID = "ABC123,XYZ456";
 ```
 
->[!NOTE]
+>[!TIP]
 >
 >如果您使用此變數整合多個離線管道，請確認不同管道之間沒有重疊的交易 ID。例如，如果您的呼叫中心交易 ID 值為 `1234`，潛在客戶交易 ID 值為 `1234`，可能會發生衝突並導致意外結果。請確認每個離線管道的交易 ID 均包含唯一格式，並視需要加以區分。例如，在 Data Sources 和 AppMeasurement 中，將呼叫中心交易 ID 設定為 `call_1234`，將潛在客戶交易 ID 設定為 `lead_1234`。
