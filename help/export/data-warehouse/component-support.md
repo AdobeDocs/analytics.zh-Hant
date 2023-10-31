@@ -3,10 +3,10 @@ title: Data Warehouse 中的元件支援
 description: 了解 Data Warehouse 中有哪些額外維度和量度可用，以及不支援哪些維度和量度。
 feature: Data Warehouse
 exl-id: ce7411a4-a720-47b7-90d5-4d867eff4bae
-source-git-commit: e00a8e611e137590838b1a58571a563aac53434c
+source-git-commit: ecd02a087e7ab344ccfbad1d5e1c30260577002c
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '402'
+ht-degree: 56%
 
 ---
 
@@ -40,17 +40,7 @@ Data Warehouse 中不支援某些維度和量度。
 
 ### 不支援的維度
 
-* 某些以時間為主的維度，包括：
-   * 上午/下午
-   * 當月日期
-   * 星期
-   * 年中的日
-   * 小時
-   * 分鐘
-   * 月份
-   * 季別
-   * 平日/週末
-   * 年
+* 上午/下午
 * 某些以路徑為主的維度，包括：
    * 除「登入頁面」外的所有登入維度
    * 除「退出頁面」和「退出連結」外的所有退出維度
@@ -59,7 +49,6 @@ Data Warehouse 中不支援某些維度和量度。
    * 事件之前時間
    * 頁面逗留時間 - 分段
    * 每次瀏覽逗留時間 - 分段
-   * 瀏覽深度
 * 所有搜尋頁面排名
 * 階層變數
 * 點擊類型
@@ -78,4 +67,16 @@ Data Warehouse 中不支援某些維度和量度。
    * 重新載入
    * 單次存取
    * 「逗留時間」量度
+* 參與率量度（如所述） [建立「參與率」量度](/help/components/c-calcmetrics/c-workflow/cm-workflow/c-build-metrics/participation-metric.md))
 
+### 以不同方式支援的Dimension
+
+支援下列以時間為基礎的維度。 但是，使用這些維度時，日期的輸出是非標準值。 具體來說，年份會以1900為單位進行偏移，而月份則以零為基準。
+
+* 年
+* 季
+* 月
+* 週
+* 日
+* 小時
+* 分鐘
