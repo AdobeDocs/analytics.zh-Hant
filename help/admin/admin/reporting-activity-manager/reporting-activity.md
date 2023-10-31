@@ -4,9 +4,9 @@ title: 報告活動管理器
 feature: Admin Tools
 mini-toc-levels: 3
 exl-id: f638c6a9-1c2c-4936-a787-281269f95afc
-source-git-commit: c43d7bbdad0ad0265e038ee273c74bec136f1c72
+source-git-commit: 5e74c47dff7f1685be9fd738f834ae317c95fad5
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1921'
 ht-degree: 16%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 16%
 
      <!-- (does this option still exist?) 1. (Optional) Select **[!UICONTROL Refresh]** at the top-right to refresh the data. -->
 
-1. 檢視每個報表套裝的使用率資訊。 您可以選取欄標題，依該欄排序表格。
+1. 檢視每個報表套裝的使用率資訊。 表格中顯示的資料代表上次載入頁面時報表套裝的報告活動。
 
    可使用下列欄:
 
@@ -46,7 +46,7 @@ ht-degree: 16%
    | **[!UICONTROL 容量使用情況]** | 報告套裝即時使用的報告容量百分比。 <p>**注意** 使用容量為100%並不一定表示您應立即開始取消報告請求。 如果平均等待時間合理，則100%使用容量可能狀況良好。 另一方面，如果排入佇列的請求數量也在增加，則100%的使用容量可能會造成問題。</p> |
    | **[!UICONTROL 已佇列的請求]** | 等待處理的要求數目。 <!-- ??? --> |
    | **[!UICONTROL 佇列等待時間]** | 開始處理要求前的平均等待時間。 <!-- ???? --> |
-   | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：已在報表套裝上執行報表，且正在監控其活動。</li><li>[!UICONTROL **非使用中**] （灰色）：報表套裝上未曾執行過任何報表。 此狀態僅在首次建立報表套裝時顯示。</li></ul> |
+   | **[!UICONTROL 狀態]** | 可能的狀態包括： <ul><li>[!UICONTROL **作用中**] （藍色）：報表在過去2小時內已在報表套裝上執行。 表格中顯示的資料代表上次載入頁面時報表套裝的報告容量。</li><li>[!UICONTROL **非使用中**] （灰色）：報表套裝在過去2小時內未執行任何報表，因此報表套裝沒有顯示任何資料。</li></ul> |
 
    {style="table-layout:auto"}
 
