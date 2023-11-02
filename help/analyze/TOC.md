@@ -4,9 +4,9 @@ audience: end-user
 user-guide-title: Analytics 工具指南
 breadcrumb-title: 工具指南
 user-guide-description: 了解如何使用 Analytics 工具，包括 Analysis Workspace、Analytics 儀表板、Report Builder 和 Activity Map。
-source-git-commit: bf2dcda23c35906fbb730603c9366b896248fa60
-workflow-type: ht
-source-wordcount: '1105'
+source-git-commit: ab6d3267bd6b503fe96ceea2b870c2e7cdf5d9f4
+workflow-type: tm+mt
+source-wordcount: '1094'
 ht-degree: 100%
 
 ---
@@ -280,12 +280,9 @@ ht-degree: 100%
 + Activity Map {#activity-map}
    + [Activity Map 總覽](activity-map/activity-map.md)
    + 快速入門 {#getting-started}
-      + 管理員快速入門 {#get-started-admins}
-         + [啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-         + [實施 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-      + 使用者快速入門 {#get-started-users}
-         + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-         + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+      + [啟用 Activity Map](activity-map/activitymap-getting-started/activitymap-enable.md)
+      + [安裝 Activity Map 瀏覽器外掛程式](activity-map/activitymap-getting-started/activitymap-install.md)
+      + [啟動 Activity Map](activity-map/activitymap-getting-started/activitymap-launch.md)
    + [強大的連結追蹤](activity-map/lnk-tracking-overview.md)
    + 連結追蹤 {#link-tracking}
       + [連結追蹤方法](activity-map/activitymap-link-tracking/activitymap-link-tracking-methodology.md)

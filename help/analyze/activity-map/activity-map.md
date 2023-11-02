@@ -4,16 +4,16 @@ title: 什麼是 Activity Map？
 feature: Activity Map
 role: User, Admin
 exl-id: 30a800f7-e2c8-443e-b5d4-36834ef0ba20
-source-git-commit: 2d207c76ad40522adec10cde5044b43acbb7f711
+source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 22%
+source-wordcount: '575'
+ht-degree: 20%
 
 ---
 
 # Activity Map 總覽
 
-Adobe AnalyticsActivity Map是Adobe Analytics中的一項功能，可針對網頁和行動應用程式上的使用者參與提供視覺化表示。 它可讓行銷人員和分析師追蹤和分析使用者互動，例如點按數、暫留和捲動行為。 Activity Map會產生熱度圖和覆蓋報表，說明網頁上各種元素的人氣和有效性，協助組織最佳化數位體驗並促進更高轉換。
+Adobe AnalyticsActivity Map是Adobe Analytics中的一項功能，可針對網頁和行動應用程式上的使用者參與提供視覺化表示。 它可讓行銷人員和分析師追蹤和分析使用者互動，例如點按數、暫留和捲動行為。 Activity Map會產生熱度圖和覆蓋報表，說明網頁上各種元素的熱度與有效性，協助組織最佳化數位體驗並提高轉換率。
 
 ## 功能與優點
 
@@ -35,16 +35,11 @@ Adobe AnalyticsActivity Map是Adobe Analytics中的一項功能，可針對網�
 
 * 行動應用程式最佳化： Adobe AnalyticsActivity Map不僅限於網站，也延伸其功能至行動應用程式。 企業可深入瞭解應用程式內的使用者互動，進而改善可用性、增強導覽功能，並調整功能以提供順暢的行動體驗。
 
-## 管理員快速入門
+## 快速入門
 
-* [啟用 Activity Map](activitymap-getting-started/activitymap-getting-started-admins/activitymap-enable.md)
-* [實施作業代碼範例](activitymap-getting-started/activitymap-getting-started-admins/activitymap-sample-implementation-code.md)
-* 使用Web SDK啟用Activity Map
-
-## 使用者快速入門
-
-* [安裝 Activity Map 瀏覽器外掛程式](activitymap-getting-started/activitymap-getting-started-users/activitymap-install.md)
-* [啟動 Activity Map](activitymap-getting-started/activitymap-getting-started-users/activitymap-launch.md)
+* [啟用和啟用Activity Map](activitymap-getting-started/activitymap-enable.md)
+* [安裝 Activity Map 瀏覽器外掛程式](activitymap-getting-started/activitymap-install.md)
+* [啟動 Activity Map](activitymap-getting-started/activitymap-launch.md)
 
 ## Activity Map 功能
 
