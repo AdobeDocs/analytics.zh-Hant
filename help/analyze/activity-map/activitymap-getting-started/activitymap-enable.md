@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: bb9ba0400116aff3aea5307c48c6ac560603995e
+source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 39%
+source-wordcount: '465'
+ht-degree: 40%
 
 ---
 
@@ -49,8 +49,9 @@ Activity Map模組是AppMeasurement.js、Adobe Experience Platform標籤和Web S
 
 +++AppMeasurement
 
-根據您使用的是AppMeasurement還是Web SDK，下載最新的Javascript資料庫。
-前往 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]** 和 [實作它](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant).
+1. 下載最新Javascript程式庫以進行AppMeasurement。
+前往 **[!UICONTROL Analytics]** > **[!UICONTROL 管理員]** > **[!UICONTROL 所有管理員]** > **[!UICONTROL 代碼管理器]**.
+1. 透過以下方式實作 [這些指示](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=zh-Hant).
 
 +++
 
