@@ -6,9 +6,9 @@ feature: Release Notes
 exl-id: fe8e3c4c-6782-46f7-8e28-4f8f54807788
 mini-toc-levels: 3
 source-git-commit: 4af73d19afd8844f814aafd45153cc638aa535d6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '5296'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Analytics 文件集自 2019 年 1 月起的內容更新。
 | --- | --- |
 | **2023 年 10 月** | |
 | 報告活動管理員新增了記錄資訊 | 新增了以下資訊：「報告活動管理員」中[報告活動的任何取消和後續限制](/help/admin/admin/reporting-activity-manager/reporting-activity-cancel-requests.md)都會在[記錄](/help/admin/admin/logs.md)中擷取。 |
-| 更新Data Warehouse元件支援 | 新增部分元件的可用性，並移除其他元件的Data Warehouse可用性。 這些變更會反映在 [Data Warehouse中的元件支援](/help/export/data-warehouse/component-support.md). <ul><li>新增對「造訪深度」維度的支援（從不支援的維度清單中移除「造訪深度」）</li><li>移除對參與率量度的支援（將參與率量度新增至不支援的量度清單）</li><li>新增對下列以時間為基礎的維度的支援：年、季、月、周、日、小時和分鐘（從不支援的維度清單中移除這些維度） <p>以往，當選取「粒度」時，Data Warehouse只會在自由表格的第一欄支援這些維度。 現在一律支援這些維度。</p><p>但是，使用這些維度時，日期的輸出是非標準值。 年度會以1900為單位進行抵銷，而月份則是以零為基準。</li></ul> |
+| Data Warehouse 元件支援更新 | 新增一些 Data Warehouse 可用元件，並移除其他可用元件。這些變更反映在 [Data Warehouse 的元件支援](/help/export/data-warehouse/component-support.md)。 <ul><li>新增對瀏覽深度維度的支援 (移除不支援維度清單的瀏覽深度)</li><li>移除對參與率量度的支援 (新增不支援量度清單的參與率量度)</li><li>新增對以下時間型維度的支援：年、季、月、週、日、小時和分鐘 (移除不支援維度清單中這些維度) <p>之前，Data Warehouse 唯有在選取「詳細程度」的情況下，才會在自由表格的第一欄支援這些維度。現在一律支援這些維度。</p><p>但使用這些維度時，日期輸出不是使用標準格式。年份依 1900 年位移，月份從零開始。</li></ul> |
 | **2023 年 9 月** | |
 | 已更新「媒體播放時間」面板的文章結構 | 已移除名為「媒體播放時間」的資料夾，並將該資料夾的內容合併為一篇文章：[「媒體播放時間」面板](/help/analyze/analysis-workspace/c-panels/media-playback-time-spent.md)。 <p>此變更會更符合其他面板的文件。</p> |
 | 開始使用內容增強功能 | 已新增概述管理員、分析師、一般使用者和開發人員的關鍵入門任務和資源等資訊。現已提供以下新文章： <ul><li>[快速入門 (依照角色)](/help/analyze/get-started/get-started-by-role.md)</li><li>[了解 Analytics 介面](/help/analyze/get-started/analytics-interface.md)<li>[使用案例](/help/analyze/get-started/use-cases.md)</li></ul> |
