@@ -5,9 +5,9 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 7f7f6347561d51671bbcb20959895178f3428314
+source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 Activity Map模組是AppMeasurement.js、Adobe Experience Platform標籤和Web SDK (alloy.js)的一部分。 除非您更新至，否則無法收集Activity Map資料 **Web SDK 2.15.0版** 或更高，或 **Adobe Analytics標籤擴充功能1.90版** 或更高，或 **AppMeasurement 1.6版** 或更高。
 
-+++Web SDK （標籤擴充功能）
++++Web SDK (Adobe Experience Platform標籤擴充功能)
 
 在Adobe Experience Platform標籤中，導覽至您要實作Analytics的屬性。 在 [!UICONTROL 擴充功能] -> [!UICONTROL Adobe Experience Platform Web SDK]，選取 **[!UICONTROL 啟用點選資料收集]** 如下方醒目提示之處。 然後使用變更建置程式庫，並將程式庫發佈到生產環境。
 
@@ -57,7 +57,7 @@ Activity Map模組是AppMeasurement.js、Adobe Experience Platform標籤和Web S
 
 ## 步驟 2. 啟用 Activity Map 報表 {#enable}
 
-首先，您必須在報表套裝層級啟用Activity Map報表。
+您必須在報表套裝層級啟用Activity Map報表。
 
 1. 登入 Adobe Analytics，並依序導覽至&#x200B;**[!UICONTROL 「Analytics]** > ****&#x200B;管理員 > **[!UICONTROL 報表套裝]** > 選取報表套裝 > **[!UICONTROL 編輯設定]** > **[!UICONTROL Activity Map]** > **[!UICONTROL Activity Map 報表」]**。
 
