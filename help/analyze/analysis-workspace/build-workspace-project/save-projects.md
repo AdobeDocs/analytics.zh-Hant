@@ -4,10 +4,10 @@ title: 儲存專案
 feature: Workspace Basics
 role: User, Admin
 exl-id: e8206956-6e24-4a3a-8c3f-8acf1fb9d800
-source-git-commit: 563564c756fdedd4d5bfcf7f3be3904b7e9b4a0c
+source-git-commit: a6f49d0c66ff92eff850a330c35e4979275e3c92
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 99%
+source-wordcount: '728'
+ht-degree: 96%
 
 ---
 
@@ -30,7 +30,7 @@ Analysis Workspace 中的專案均每 2 分鐘自動儲存一次。
    | **[!UICONTROL 儲存]** | 儲存專案的變更項目。如果已共用專案，專案的收件者也會看到變更項目。當您第一次儲存專案時，系統會提示您提供專案名稱、(選用) 說明和新增 (選用) 標籤。  |
    | **[!UICONTROL 一併儲存註釋]** | 在專案儲存之前，請新增關於專案變動的註釋。註釋會和專案版本儲存在「[!UICONTROL 專案] > [!UICONTROL 開啟先前版本]」下，可供編輯人員使用。 |
    | **[!UICONTROL 另存新檔]** | 建立專案的複本。原始專案不受影響。 |
-   | **[!UICONTROL 另存為範本]** | 將專案儲存為[自訂範本](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant)，您的組織可在&#x200B;**[!UICONTROL 「專案 > 新增」]**&#x200B;下使用 |
+   | **[!UICONTROL 另存為公司報表]** | 將專案儲存為 [公司報表](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/starter-projects.html?lang=zh-Hant) 您的組織可在 **[!UICONTROL 專案>新增]** |
 
 ## 自動儲存 {#Autosave}
 
@@ -38,9 +38,9 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 * **新專案：**&#x200B;即使新專案已自動儲存，您仍須在首次手動儲存每個新專案。Analysis Workspace 會在切換至其他專案、關閉瀏覽器索引標籤等動作時，提示您手動儲存新專案。
 
-   如果因任何原因，您在手動儲存新建立專案前意外失去存取權，則您專案的復原版本會儲存在 Analysis Workspace 登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`。您必須還原已恢復的專案，並手動將其儲存到所需位置。
+  如果因任何原因，您在手動儲存新建立專案前意外失去存取權，則您專案的復原版本會儲存在 Analysis Workspace 登陸頁面的資料夾中，名為 `Recovered Projects (Last 7 Days)`。您必須還原已恢復的專案，並手動將其儲存到所需位置。
 
-   若要還原已恢復的專案，請執行以下操作：
+  若要還原已恢復的專案，請執行以下操作：
 
    1. 前往 Analysis Workspace 登陸頁面上的&#x200B;[!UICONTROL **「已恢復的專案」**]&#x200B;資料夾。
 
@@ -50,7 +50,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 * **現有專案：**&#x200B;如果因任何原因，當您離開專案時，變更尚未自動儲存，Analysis Workspace 會提示您儲存變更或提供警告訊息。
 
-   以下是一些常見案例：
+  以下是一些常見案例：
 
 ### 開啟另一個專案
 
@@ -84,7 +84,7 @@ Analysis Workspace 中的所有專案均每 2 分鐘自動儲存至本機電腦�
 
 若為從未儲存的&#x200B;**新**&#x200B;專案，未儲存的變更無法復原。
 
-## 開啟舊版 {#previous-version}
+## 開啟先前版本 {#previous-version}
 
 若要開啟專案的先前版本：
 
