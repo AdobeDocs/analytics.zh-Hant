@@ -5,10 +5,10 @@ feature: Activity Map
 role: Admin
 exl-id: 0b2b9f3d-0c75-4eb8-9235-c9c98eb035d3
 mini-toc-levels: 3
-source-git-commit: 46118b1bd7f3b8c4e0f653778c16a1c51011fb2d
+source-git-commit: 4c6df8bc08f326bfb54b27eb61f97b4be2320805
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 40%
+source-wordcount: '653'
+ht-degree: 27%
 
 ---
 
@@ -23,19 +23,52 @@ Activity Map模組是AppMeasurement.js、Adobe Experience Platform標籤和Web S
 
 +++Web SDK (Adobe Experience Platform標籤擴充功能)
 
-在Adobe Experience Platform標籤中，導覽至您要實作Analytics的屬性。 在 [!UICONTROL 擴充功能] -> [!UICONTROL Adobe Experience Platform Web SDK]，選取 **[!UICONTROL 啟用點選資料收集]** 如下方醒目提示之處。 然後使用變更建置程式庫，並將程式庫發佈到生產環境。
+1. 在Adobe Experience Platform標籤中，導覽至您要實作Analytics的屬性。 在 [!UICONTROL 擴充功能] -> [!UICONTROL Adobe Experience Platform Web SDK]，選取 **[!UICONTROL 啟用點選資料收集]** 如下方醒目提示之處。
+1. 使用變更建置程式庫。
+1. 將程式庫發佈到生產環境。
 
 ![](assets/web_sdk.png)
+
+**驗證**
+
+使用開發人員控制檯網路標籤與呼叫互動：
+
+1. 在網站上載入開發Launch指令碼。
+1. 按一下元素時，在「網路」標籤中搜尋「/ee」
+
+   ![](assets/validation1.png)
+
+Adobe Experience Platform Debugger：
+
+1. 下載並安裝 [Adobe Experience Platform debugger](https://chrome.google.com/webstore/detail/adobe-experience-platform/bfnnokhpnncpkdmbokanobigaccjkpo).
+1. 前往 [!UICONTROL 記錄檔] > [!UICONTROL Edge] > [!UICONTROL 連線到邊緣].
+
+   ![](assets/validation2.jpg)
+
+**常見問題集**
+
+* **Network索引標籤中未觸發interact呼叫。**
+收集呼叫中的點選資料收集，我們需要使用「/ee」或「collect？」進行篩選。
+
+* **收集呼叫沒有裝載顯示。**
+收集呼叫的設計方式是讓追蹤不會影響到其他網站的導覽，因此檔案解除安裝功能適用於收集呼叫。 這不會影響您的資料收集，但如果您需要在頁面上驗證，請將target = &quot;_blank&quot;新增至個別元素。 然後連結會在新標籤中開啟。
+
+* **如何忽略PII的集合？**
+在&lt;&lt;on before link中新增個別條件，然後按一下「傳送回撥>」，並傳回false以忽略這些值。 [了解更多](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html?lang=zh-Hant)
+
+  程式碼範例:
+
+  ![](assets/sample-code.png)
 
 +++
 
 +++手動Web SDK實施
 
-另請參閱 [追蹤連結](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant) 有關如何實作連結追蹤，以及如何透過擷取 `region` HTML元素的URL值。
+另請參閱 [追蹤連結](https://experienceleague.adobe.com/docs/experience-platform/edge/data-collection/track-links.html?lang=zh-Hant) Activity Map有關如何實作連結追蹤，以及如何透過擷取 `region` HTML元素的URL值。
 
 >[!NOTE]
 >
->目前，如果 Web SDK 啟用連結追蹤，在客戶從一個頁面導覽到下一個頁面時會傳送連結事件。這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。
+>啟用Web SDK的連結追蹤目前會在客戶從某一頁面導覽至下一頁面時，傳送連結事件。 這與 AppMeasurement 的運作方式不同，可能會導致傳送額外的計費點擊給 Adobe。
 
 +++
 
