@@ -3,9 +3,9 @@ title: 目前的 Adobe Analytics 發行說明
 description: 檢視目前的 Adobe Analytics 發行說明
 feature: Release Notes
 exl-id: 97d16d5c-a8b3-48f3-8acb-96033cc691dc
-source-git-commit: 84f6bf068f56b9502a53ab17e71dca00356804d9
+source-git-commit: dfb3750edabed3fd9aef758d2ea1625fc3fb6a96
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 | 功能 | 說明 | [開始推出](releases.md) | [全面發佈](releases.md) |
 | ----------- | ---------- | ------- | ---- |
 | **報告活動管理器增強功能** | 報告活動管理器可讓您查看組織中每個報告套裝的報告容量。它為管理員提供報告使用量的詳細可見度，以便在尖峰報告期間輕鬆診斷和修正產能問題。以下是報告活動管理器中現在提供的一些增強功能： <ul><li>限制後續的請求：除了取消目前的請求之外，管理員現在還可以限制定義時段內的請求。管理員可依據請求、專案或使用者來限制請求。</li><li>除了使用情況和產能量度之外，報告活動管理器現在包括更多有關報告活動的資料：複雜度欄、使用者欄和連線欄。</li><li>現在，稽核記錄可以看到在報告活動管理員中進行的所有取消和限制。管理員可以使用稽核記錄檢視目前取消的內容。在報告活動管理器或稽核記錄中無法撤銷取消。</li></ul><p>如需詳細資訊，請參閱[報告活動管理員概觀](/help/admin/admin/reporting-activity-manager/reporting-activity-overview.md)</p> | 2023 年 10 月 17 日 | 2023 年 10 月 24 日 |
-| **Data Warehouse 的改良功能** | 建立 Data Warehouse 要求時，您現在可以設定雲端帳戶做為報告目的地。以下雲端帳戶類型可用來傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件 (此選項為先前提供)</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用做為報告目的地，但已經不再為建議選項。<p>建立和管理 Data Warehouse 要求時的使用者體驗也有所改善。如需更多資訊，請參閱[建立 Data Warehouse 要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html)。 | 2023 年 9 月 12 日 | 2023 年 11 月 8 日或之前 |
+| **Data Warehouse 的改良功能** | 建立 Data Warehouse 要求時，您現在可以設定雲端帳戶做為報告目的地。以下雲端帳戶類型可用來傳送資料：<ul><li>Amazon S3</li><li>Google Cloud Platform</li><li>Azure SAS</li><li>Azure RBAC</li><li>電子郵件 (此選項為先前提供)</li></ul>FTP、SFTP、Azure Blob 和 S3 仍然可用做為報告目的地，但已經不再為建議選項。<p>建立和管理 Data Warehouse 要求時的使用者體驗也有所改善。如需更多資訊，請參閱[建立 Data Warehouse 要求](/help/export/data-warehouse/create-request/t-dw-create-request.md)和[管理 Data Warehouse 要求](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-requests-manage.html)。 | 2023 年 9 月 12 日 | 待定 |
 
 {style="table-layout:auto"}
 
