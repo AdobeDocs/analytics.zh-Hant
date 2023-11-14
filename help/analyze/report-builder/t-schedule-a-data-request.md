@@ -5,9 +5,9 @@ uuid: f6d8c90f-e185-4d60-8035-f20f74bfcd89
 feature: Report Builder
 role: User, Admin
 exl-id: 6aaadaa8-d68f-4a03-8838-53a61b152e31
-source-git-commit: 66b7de0b008364e47253d319785c204ca479ab26
+source-git-commit: ed753ab23e65f845f472dd1df3b144284e4e94a6
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '985'
 ht-degree: 96%
 
 ---
@@ -53,7 +53,6 @@ ht-degree: 96%
 | 自訂 | 可讓您自訂日期格式。 |
 | 結束日期 | 顯示 Outlook 通訊錄 (若有的話)。 |
 | 傳送至：電子郵件 | 活頁簿的電子郵件收件者。 |
-| 傳送至：發佈清單 | 顯示此公司的可用分送清單。 |
 | Power BI | 如需詳細資訊，請參閱[將活頁簿發佈至 Microsoft Power BI](/help/analyze/report-builder/c-publish-power-bi/integration-power-bi.md)。 |
 | 主旨 | 使用者定義的說明。 |
 | 排程 | 可讓您指定活頁簿的傳送時間(立即、每小時、每日、每週、每月及每年)。 |
