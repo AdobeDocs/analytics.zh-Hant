@@ -4,9 +4,9 @@ title: 篩選和排序自由表格
 feature: Freeform Tables
 role: User, Admin
 exl-id: 15fea9e2-f8d8-4489-9a44-e74a351b8f36
-source-git-commit: e5f67042fce223f2998e4031962193b1c0154557
+source-git-commit: b1fbc2ce3387f44a49882e99a03d8bbf3906ee0c
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: '920'
 ht-degree: 68%
 
 ---
@@ -32,7 +32,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 - 表格篩選器
 - 區段
 
-請務必閱讀每種方法的影響 [自由格式表格總計](https://docs.adobe.com/content/help/zh-Hant/analytics/analyze/analysis-workspace/build-workspace-project/workspace-totals.html).
+請務必閱讀每種方法的影響 [自由格式表格總計](/help/analyze/analysis-workspace/visualizations/freeform-table/workspace-totals.md).
 
 ### 從表格中快速排除特定列
 
@@ -89,7 +89,7 @@ Analysis Workspace 中的篩選器可協助您找出最重要的資訊。
 
 ### 區段
 
-請參閱我們的 [細分檔案](https://docs.adobe.com/help/zh-Hant/analytics/components/segmentation/seg-home.html) 以取得更多詳細資料。
+請參閱我們的 [細分檔案](/help/components/segmentation/seg-home.md) 以取得更多詳細資料。
 
 ## 排序表格
 
